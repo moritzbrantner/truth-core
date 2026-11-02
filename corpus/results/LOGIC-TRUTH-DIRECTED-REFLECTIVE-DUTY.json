@@ -1,0 +1,9 @@
+{
+  "id": "LOGIC-TRUTH-DIRECTED-REFLECTIVE-DUTY",
+  "argument_id": "LOGIC-TRUTH-DIRECTED-REFLECTIVE-DUTY",
+  "challenge_module": "TruthCore.Results.Logic.ReflectiveCoherence.TruthDirected.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ReflectiveCoherence.TruthDirected.Solution",
+  "theorem": "TruthCore.Results.Logic.ReflectiveCoherence.TruthDirected.truthDirectedReflectiveDuty",
+  "comparator_config": "results/LOGIC-TRUTH-DIRECTED-REFLECTIVE-DUTY/comparator.json",
+  "status": "solution-present"
+}

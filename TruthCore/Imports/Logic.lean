@@ -9,6 +9,7 @@ import TruthCore.Logic.KnowledgeRetorsion
 import TruthCore.Logic.MaximumOrder
 import TruthCore.Logic.PerformedDenial
 import TruthCore.Logic.QuantifierShift
+import TruthCore.Logic.ReflectiveCoherence
 import TruthCore.Logic.Regress
 import TruthCore.Logic.RegressDomains
 import TruthCore.Logic.Relativism

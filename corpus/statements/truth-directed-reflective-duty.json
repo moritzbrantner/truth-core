@@ -1,0 +1,16 @@
+{
+  "id": "STMT-TRUTH-DIRECTED-REFLECTIVE-DUTY",
+  "paraphrase": "For every interpretation and ought-to-adopt policy, if a specified objective-duty content is true at the designated actual world, and every worldview selected by that policy is true at that world (the explicit truth-directed bridge), then the policy satisfies both the consistency norm and the separate duty-compatibility norm; each selected worldview is also jointly compatible with every semantic consequence of the duty. The result is conditional: the stronger truth-directed premise is not entailed by consistency alone, and no actual duty or deontic principle is proven.",
+  "lean_declaration": "TruthCore.Logic.ReflectiveCoherence.TruthDirectedReflectiveDuty",
+  "definition_ids": [
+    "DEF-SELF-APPLICATION-NORM",
+    "DEF-WORLDVIEW-SEMANTIC-CONSISTENCY",
+    "DEF-WORLDVIEW-DUTY-COMPATIBILITY",
+    "DEF-WORLDVIEW-NECESSARY-IMPLICATION",
+    "DEF-REFLECTIVE-EPISTEMIC-POLICY",
+    "DEF-TRUTH-DIRECTED-EPISTEMIC-BRIDGE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-WORLDVIEW-CONSISTENCY-DUTY-COMPATIBILITY"
+  ]
+}

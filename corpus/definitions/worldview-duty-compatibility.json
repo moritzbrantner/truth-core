@@ -1,0 +1,8 @@
+{
+  "id": "DEF-WORLDVIEW-DUTY-COMPATIBILITY",
+  "term": "compatibility with an objective-duty claim",
+  "definition": "A worldview is compatible with specified content d just when there is a world that satisfies all the worldview's accepted contents and also makes d true. For the objective-duty reading, the content d expresses the duty; its truth at the designated actual world is a separate hypothesis. Mere compatibility does not entail that the worldview explicitly endorses d.",
+  "basis": "stipulative",
+  "note": "Distinguishes consistency with an external norm from internal consistency. The existence and content of an objective duty are neither defined into reality nor proven by this logical test.",
+  "lean_declaration": "TruthCore.Logic.ReflectiveCoherence.Compatible"
+}

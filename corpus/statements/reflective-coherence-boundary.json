@@ -1,0 +1,13 @@
+{
+  "id": "STMT-REFLECTIVE-COHERENCE-BOUNDARY",
+  "paraphrase": "For any claim type, world type and interpretation with truth-functional negation: if a worldview entails the negation of a specified duty-content, the worldview is not jointly satisfiable with that content; if it also explicitly accepts the duty-content, it is internally inconsistent; if the duty-content is true at an actual world, the worldview cannot be satisfied there. Joint compatibility with a content is preserved under all semantic consequences of that content. The first and third clauses alone do not establish internal contradiction, objective duty, or a normative ought.",
+  "lean_declaration": "TruthCore.Logic.ReflectiveCoherence.CoherenceBoundary",
+  "definition_ids": [
+    "DEF-WORLDVIEW-SEMANTIC-CONSISTENCY",
+    "DEF-WORLDVIEW-DUTY-COMPATIBILITY",
+    "DEF-WORLDVIEW-NECESSARY-IMPLICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-WORLDVIEW-CONSISTENCY-DUTY-COMPATIBILITY"
+  ]
+}

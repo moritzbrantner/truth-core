@@ -1,0 +1,17 @@
+{
+  "id": "LOGIC-REFLECTIVE-COHERENCE-BOUNDARY",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-REFLECTIVE-COHERENCE-BOUNDARY",
+  "inference_ids": [
+    "INF-LOGIC-REFLECTIVE-COHERENCE-BOUNDARY"
+  ],
+  "meaning": "A general semantic theorem relating implied denials, internal inconsistency when the duty is explicitly included, factual error when the duty is true, and preservation of necessary consequences. No objective duty or normative ought is introduced.",
+  "definition_ids": [
+    "DEF-WORLDVIEW-SEMANTIC-CONSISTENCY",
+    "DEF-WORLDVIEW-DUTY-COMPATIBILITY",
+    "DEF-WORLDVIEW-NECESSARY-IMPLICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-WORLDVIEW-CONSISTENCY-DUTY-COMPATIBILITY"
+  ]
+}
