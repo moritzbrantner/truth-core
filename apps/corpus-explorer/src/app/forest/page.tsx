@@ -22,9 +22,11 @@ export default function ForestPage() {
         explore what would need reconsideration if a selected premise were false.
         Formal consequences are conditional on their premises; hypothetical reversals are not proofs.
       </p>
-      <p className="mt-3 text-sm"><Link className="link-quiet" href="/atlas?view=cores">
-        Inspect certified incompatibilities in the progress atlas
-      </Link></p>
+      <p className="mt-3 text-sm">
+        <Link className="link-quiet" href="/forest/assumptions">Explore one proposition and test assumptions</Link>
+        {" · "}
+        <Link className="link-quiet" href="/atlas?view=cores">Inspect certified incompatibilities</Link>
+      </p>
     </header>
     <Suspense fallback={<p className="text-sm text-[var(--muted)]">Loading argument forest…</p>}>
       <ForestExplorer model={model} />

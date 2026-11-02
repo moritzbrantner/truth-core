@@ -3,20 +3,23 @@ import path from "node:path";
 import { chromium, type Browser } from "playwright";
 
 let browser: Browser;
-let server: ReturnType<typeof Bun.serve>;
+let server: ReturnType<typeof Bun.serve> | undefined;
 const root = path.resolve(import.meta.dir, "../out");
 const basePath = process.env.TEST_BASE_PATH ?? "";
+const testOrigin = process.env.FOREST_TARGET_ORIGIN;
 
 beforeAll(async () => {
-  server = Bun.serve({ port: 0, async fetch(request) {
-    let pathname = decodeURIComponent(new URL(request.url).pathname);
-    if (basePath && pathname.startsWith(basePath + "/")) { pathname = pathname.slice(basePath.length); }
-    const file = path.resolve(root, "." + (pathname.endsWith("/") ? pathname + "index.html" : pathname));
-    if (!file.startsWith(root + path.sep) || !(await Bun.file(file).exists())) {
-      return new Response("Not found", { status: 404 });
-    }
-    return new Response(Bun.file(file));
-  } });
+  if (!testOrigin) {
+    server = Bun.serve({ port: 0, async fetch(request) {
+      let pathname = decodeURIComponent(new URL(request.url).pathname);
+      if (basePath && pathname.startsWith(basePath + "/")) { pathname = pathname.slice(basePath.length); }
+      const file = path.resolve(root, "." + (pathname.endsWith("/") ? pathname + "index.html" : pathname));
+      if (!file.startsWith(root + path.sep) || !(await Bun.file(file).exists())) {
+        return new Response("Not found", { status: 404 });
+      }
+      return new Response(Bun.file(file));
+    } });
+  }
   browser = await chromium.launch({ headless: true });
 }, 30000);
 
@@ -29,7 +32,7 @@ test("argument forest: real conclusion routes, comparison, hypothetical reversal
   const page = await browser.newPage({ viewport: { width: 1360, height: 900 } });
   const errors: string[] = [];
   page.on("pageerror", (error) => errors.push(error.message));
-  await page.goto(new URL(basePath + "/forest/", server.url).toString());
+  await page.goto(new URL(basePath + "/forest/", testOrigin ?? server!.url).toString());
   await page.getByRole("heading", { name: "Argument forest", exact: true }).waitFor();
   const primary = page.getByRole("region", { name: "Primary conclusion" });
   const comparison = page.getByRole("region", { name: "Compared conclusion" });
@@ -68,9 +71,73 @@ test("argument forest: real conclusion routes, comparison, hypothetical reversal
   await page.close();
 }, 90000);
 
+test("single-tree assumptions: all argument routes, deep expansion, scenario selections and mobile", async () => {
+  const page = await browser.newPage({ viewport: { width: 1360, height: 900 } });
+  const errors: string[] = [];
+  page.on("pageerror", (error) => errors.push(error.message));
+  const url = new URL(basePath + "/forest/assumptions/", testOrigin ?? server!.url);
+  url.searchParams.set("goal", "STMT-CATHOLICISM-TRUE");
+  await page.goto(url.toString());
+  const tree = page.getByRole("region", { name: "Single proposition tree" });
+  const orLabel = tree.getByText(/^OR · \d+ recorded arguments supporting this conclusion$/).first();
+  await orLabel.waitFor();
+  const total = Number((await orLabel.textContent())?.match(/OR · (\d+)/)?.[1]);
+  expect(total).toBeGreaterThan(2);
+  expect(await tree.getByRole("region", { name: /^Argument / }).count()).toBe(total);
+
+  const deeper = tree.getByRole("button", { name: /^Expand all arguments for / });
+  expect(await deeper.count()).toBeGreaterThan(0);
+  await deeper.first().click();
+  await page.waitForURL((next) => next.searchParams.getAll("open").some((entry) => entry.includes("/")));
+  expect(await tree.getByText(/^OR · \d+ recorded argument/).count()).toBeGreaterThan(1);
+  await page.reload();
+  expect(await tree.getByText(/^OR · \d+ recorded argument/).count()).toBeGreaterThan(1);
+
+  const rootChoice = tree.getByRole("group", { name: "Hypothetical truth of STMT-CATHOLICISM-TRUE" });
+  await rootChoice.getByRole("button", { name: "True" }).click();
+  await page.waitForFunction(() => JSON.parse(localStorage.getItem("truth-core:belief-profile:v1") ?? "null")?.accepted.includes("STMT-CATHOLICISM-TRUE"));
+  expect(new URL(page.url()).searchParams.has("yes")).toBe(false);
+  expect(await rootChoice.getByRole("button", { name: "True" }).getAttribute("aria-pressed")).toBe("true");
+  await rootChoice.getByRole("button", { name: "False" }).click();
+  await page.getByRole("region", { name: "Review reversing a saved belief" }).getByRole("button", { name: "Withdraw earlier choice and continue" }).click();
+  await page.waitForFunction(() => {
+    const belief = JSON.parse(localStorage.getItem("truth-core:belief-profile:v1") ?? "null");
+    return belief?.denied.includes("STMT-CATHOLICISM-TRUE") && !belief.accepted.includes("STMT-CATHOLICISM-TRUE");
+  });
+  await page.reload();
+  expect(await rootChoice.getByRole("button", { name: "False" }).getAttribute("aria-pressed")).toBe("true");
+  await page.getByRole("button", { name: "Copy scenario link" }).click();
+  const shared = new URL(await page.getByLabel("Shareable preview URL (select to copy)").inputValue());
+  expect(shared.searchParams.get("preview")).toBe("1");
+  expect(shared.searchParams.getAll("no")).toContain("STMT-CATHOLICISM-TRUE");
+  shared.searchParams.delete("no");
+  shared.searchParams.append("yes", "STMT-CATHOLICISM-TRUE");
+  await page.goto(shared.toString());
+  await page.getByText("Shared what-if preview · not saved").waitFor();
+  expect(await rootChoice.getByRole("button", { name: "True" }).getAttribute("aria-pressed")).toBe("true");
+  expect(await page.evaluate(() => JSON.parse(localStorage.getItem("truth-core:belief-profile:v1") ?? "null")?.denied))
+    .toContain("STMT-CATHOLICISM-TRUE");
+  await page.getByRole("button", { name: "Return to saved beliefs" }).click();
+  await page.waitForURL((next) => !next.searchParams.has("preview") && !next.searchParams.has("yes"));
+  expect(await rootChoice.getByRole("button", { name: "False" }).getAttribute("aria-pressed")).toBe("true");
+  await page.getByLabel("Find a proposition to investigate or assume").fill("STMT-NECESSARY-CLASSICAL-GOD-ROOT");
+  await page.getByRole("list", { name: "Matching propositions" }).getByRole("button").first().click();
+  await page.waitForURL((next) => next.searchParams.get("goal") === "STMT-NECESSARY-CLASSICAL-GOD-ROOT");
+  if (process.env.FOREST_SCREENSHOTS) {
+    await page.screenshot({ path: path.join(process.env.FOREST_SCREENSHOTS, "assumptions-desktop.png"), fullPage: true });
+  }
+  await page.setViewportSize({ width: 390, height: 844 });
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1)).toBe(true);
+  if (process.env.FOREST_SCREENSHOTS) {
+    await page.screenshot({ path: path.join(process.env.FOREST_SCREENSHOTS, "assumptions-mobile.png"), fullPage: true });
+  }
+  expect(errors).toEqual([]);
+  await page.close();
+}, 90000);
+
 test("network markers render only their custom label, without a native title tooltip", async () => {
   const page = await browser.newPage({ viewport: { width: 1300, height: 900 } });
-  await page.goto(new URL(basePath + "/graph/", server.url).toString());
+  await page.goto(new URL(basePath + "/graph/", testOrigin ?? server!.url).toString());
   const marker = page.locator(".network-marker").first();
   await marker.waitFor();
   expect(await marker.getAttribute("title")).toBeNull();
