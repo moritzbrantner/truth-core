@@ -155,19 +155,21 @@ export type FrontierReport = {
 };
 
 const repositoryRoot = path.resolve(process.cwd(), "../..");
-let cachedReport: FrontierReport | null = null;
+const cachedReports = new Map<string, FrontierReport>();
 
-export function getFrontierReport(): FrontierReport {
-  if (!cachedReport) {
-    cachedReport = JSON.parse(
-      execFileSync("python3", ["scripts/corpus.py", "frontier", "--json"], {
+export function getFrontierReport(root = DEFAULT_ROOT_STATEMENT_ID): FrontierReport {
+  let report = cachedReports.get(root);
+  if (!report) {
+    report = JSON.parse(
+      execFileSync("python3", ["scripts/corpus.py", "frontier", "--json", "--root", root], {
         cwd: repositoryRoot,
         encoding: "utf8",
         maxBuffer: 64 * 1024 * 1024,
       }),
     ) as FrontierReport;
+    cachedReports.set(root, report);
   }
-  return cachedReport;
+  return report;
 }
 
 export type BuildInfo = {

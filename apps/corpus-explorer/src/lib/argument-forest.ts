@@ -44,6 +44,8 @@ const featured: ReadonlyArray<{ id: string; label: string }> = [
   { id: "STMT-NECESSARY-FACT-BOUNDARY", label: "Necessary explanatory fact" },
   { id: "STMT-EXPLANATORY-ADEQUACY-COMPARISON", label: "Explanatory adequacy" },
   { id: "STMT-CATHOLICISM-TRUE", label: "Catholicism · root case" },
+  { id: "STMT-ROOT-POSITIVE-INTELLECT-WILL", label: "Necessary root · intellect and will" },
+  { id: "STMT-NECESSARY-CLASSICAL-GOD-ROOT", label: "Necessary classical-God root · conditional" },
 ];
 
 const rivalPredicates = new Set(["alternative_to", "attacks", "refutes", "contradicts", "objects_to"]);

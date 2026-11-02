@@ -1,0 +1,8 @@
+{
+  "id": "DEF-REFLECTIVE-EPISTEMIC-POLICY",
+  "term": "epistemic policy of worldviews one ought to adopt",
+  "definition": "OughtAdopt is an uninterpreted predicate selecting candidate worldviews as normatively recommended. The consistency norm applies the reusable self-application Norm schema to those selections with Consistent as its standard; the duty-compatibility norm instead uses joint compatibility with a specified duty-content. No deontic closure, obligation to believe every consequence, or actual normative authority is built into OughtAdopt.",
+  "basis": "stipulative",
+  "note": "The user's objective-duty proposal is investigated conditionally, not attributed to a source or asserted as an independently established moral or epistemic fact. Reuses DEF-SELF-APPLICATION-NORM and identifies an additional needed bridge.",
+  "lean_declaration": "TruthCore.Logic.ReflectiveCoherence.consistencyNorm"
+}

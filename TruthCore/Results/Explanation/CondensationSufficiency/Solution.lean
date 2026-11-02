@@ -11,6 +11,119 @@ open TruthCore.Explanation.PSRStrength
 open TruthCore.Results.Causality.DerivativeJointPower (trap_obstruction escape_iff local_rooted rooted_control source_free_control)
 variable {E G : Type}
 
+/-- The group-sensitive AND/OR operator computes EXACTLY the inductive Supply
+standard. Unlike the ordinary graph projection, it retains which
+contributions must work together. The least fixed point handles cycles and
+does not presume finite derivation depth when groups are infinite. -/
+theorem support_eq_lfp (h : Groups E G) (S : Set E) :
+    {e | Supply h (fun x => x ∈ S) e} = (supportStep h S).lfp := by
+  apply le_antisymm
+  · intro e hs
+    induction hs with
+    | intrinsic e hi =>
+      rw [← (supportStep h S).map_lfp]
+      exact Or.inl hi
+    | joint g hg _ ih =>
+      rw [← (supportStep h S).map_lfp]
+      exact Or.inr ⟨g, hg, rfl, fun a ha => ih a ha⟩
+  · apply (supportStep h S).lfp_le
+    intro e he
+    rcases he with hs | ⟨g, hg, he, hAll⟩
+    · exact .intrinsic e hs
+    · subst e
+      exact .joint g hg (fun a ha => hAll a ha)
+
+/-- Increasing the intrinsic input set cannot remove a derived supply
+certificate. A record's contributor family is never collapsed to one edge. -/
+theorem support_mono (h : Groups E G) {S T : Set E} {e : E}
+    (hST : S ⊆ T) (hs : Supply h (fun x => x ∈ S) e) :
+    Supply h (fun x => x ∈ T) e := by
+  induction hs with
+  | intrinsic e hi => exact .intrinsic e (hST hi)
+  | joint g hg _ ih => exact .joint g hg (fun a ha => ih a ha)
+
+/-- With nonempty contributor sets, no effect has inductive Supply from an
+empty intrinsic input. Empty productive records would invalidate this. -/
+theorem no_empty_support (h : Groups E G)
+    (hNonempty : ∀ g, h.admitted g → (h.contributors g).Nonempty)
+    (e : E) : ¬ Supply h (fun x => x ∈ (∅ : Set E)) e := by
+  intro hs
+  induction hs with
+  | intrinsic e hi => exact hi
+  | joint g hg _ ih =>
+    obtain ⟨a, ha⟩ := hNonempty g hg
+    exact ih a ha
+
+/-- Inclusion-minimal intrinsic support sets form an antichain. This does NOT
+say the family has one member or that every target has a support. -/
+theorem minimal_support_antichain (h : Groups E G) (I : E → Prop) (e : E)
+    {S T : Set E} (hS : MinimalIntrinsicSupport h I S e)
+    (hT : MinimalIntrinsicSupport h I T e)
+    (hST : S ⊆ T) : S = T :=
+  Set.Subset.antisymm hST (hT.2 S hS.1 hST)
+
+/-- A supplied singleton is minimal if there is no empty-group production.
+No claim is made that it is the only minimal support when other intrinsic
+contributors are available. -/
+theorem singleton_minimal (h : Groups E G) (I : E → Prop) (s e : E)
+    (his : I s)
+    (hNonempty : ∀ g, h.admitted g → (h.contributors g).Nonempty)
+    (hs : Supply h (fun x => x ∈ ({s} : Set E)) e) :
+    MinimalIntrinsicSupport h I {s} e := by
+  refine ⟨⟨?_, hs⟩, ?_⟩
+  · intro x hx
+    have hxs : x = s := hx
+    subst x
+    exact his
+  · intro T hT hTS
+    have hsT : s ∈ T := by
+      by_contra hNoS
+      have hEmpty : T = ∅ := by
+        ext x
+        constructor
+        · intro hx
+          have hxs : x = s := hTS hx
+          subst x
+          exact (hNoS hx).elim
+        · intro hx
+          exact hx.elim
+      have hNo : ¬ Supply h (fun x => x ∈ T) e := by
+        simpa [hEmpty] using no_empty_support h hNonempty e
+      exact hNo hT.2
+    intro x hx
+    have hxs : x = s := hx
+    subst x
+    exact hsT
+
+/-- If the singleton exhausts the allowed intrinsic inputs, then it is the
+only adequate intrinsic support set, not merely one minimal alternative. -/
+theorem singleton_support_unique (h : Groups E G) (I : E → Prop)
+    (s e : E) (hOnly : ∀ x, I x → x = s)
+    (hMin : MinimalIntrinsicSupport h I {s} e)
+    (T : Set E) (hT : IntrinsicSupport h I T e) : T = {s} := by
+  have hSub : T ⊆ {s} := by
+    intro x hx
+    exact hOnly x (hT.1 hx)
+  exact Set.Subset.antisymm hSub (hMin.2 T hT hSub)
+
+/-- If every production record for an effect requires a contributor which
+cannot itself be produced by any admitted record, that contributor must be
+in every sufficient intrinsic seed set (unless the effect is seeded directly).
+This is a group-level AND condition, not an edge-graph path claim. -/
+theorem required_unproduced_seed (h : Groups E G) (S : Set E) (e a : E)
+    (hNoTarget : e ∉ S)
+    (hRequired : ∀ g, h.admitted g → h.effect g = e → a ∈ h.contributors g)
+    (hUnproduced : ∀ g, h.admitted g → h.effect g ≠ a)
+    (hs : Supply h (fun x => x ∈ S) e) : a ∈ S := by
+  cases hs with
+  | intrinsic _ he => exact (hNoTarget he).elim
+  | joint g hg hAll =>
+    have ha : a ∈ h.contributors g := hRequired g hg rfl
+    have hSupplyA := hAll a ha
+    cases hSupplyA with
+    | intrinsic _ he => exact he
+    | joint g hg _ => exact (hUnproduced g hg rfl).elim
+
 theorem rtg_of_path {K : Graph E} {a b : E} (p : @Quiver.Path E (quiverOf K) a b) :
     ReflTransGen K.edge a b := by
   induction p with
@@ -803,6 +916,107 @@ theorem plural_control : PluralControl := by
   · rintro ⟨C, hC⟩
     obtain ⟨s, rfl⟩ := comp_surj _ C
     exact plural_no_least ⟨s, (least_preserved _ _).2 hC⟩
+
+/-- The #735 plural model has exactly the TWO intrinsic contributors 0 and 1
+as its minimal support for target 2. One complete group record does not
+collapse their joint productive requirement to a single individual. -/
+open TruthCore.Explanation.UltimateAdequacy in
+theorem plural_minimal_intrinsic_support :
+    MinimalIntrinsicSupport (groups .plural) (intrinsic .plural)
+      ({0, 1} : Set Nat) 2 := by
+  have hSupply : Supply (groups .plural)
+      (fun x => x ∈ ({0, 1} : Set Nat)) 2 := by
+    apply Supply.joint 0 trivial
+    intro a ha
+    change a = 0 ∨ a = 1 at ha
+    exact .intrinsic a ha
+  refine ⟨⟨?_, hSupply⟩, ?_⟩
+  · intro x hx
+    change x = 0 ∨ x = 1 at hx
+    exact hx
+  · intro T hT _
+    have hNoTarget : (2 : Nat) ∉ T := by
+      intro h2
+      have hi := hT.1 h2
+      change (2 : Nat) = 0 ∨ (2 : Nat) = 1 at hi
+      omega
+    have h0 : (0 : Nat) ∈ T :=
+      required_unproduced_seed (groups .plural) T 2 0 hNoTarget
+        (by intro g _ _; change (0 : Nat) = 0 ∨ (0 : Nat) = 1; exact Or.inl rfl)
+        (by intro g _ he; change g + 2 = 0 at he; omega)
+        hT.2
+    have h1 : (1 : Nat) ∈ T :=
+      required_unproduced_seed (groups .plural) T 2 1 hNoTarget
+        (by intro g _ _; change (1 : Nat) = 0 ∨ (1 : Nat) = 1; exact Or.inr rfl)
+        (by intro g _ he; change g + 2 = 1 at he; omega)
+        hT.2
+    intro x hx
+    change x = 0 ∨ x = 1 at hx
+    rcases hx with rfl | rfl
+    · exact h0
+    · exact h1
+
+/-- The plural target has no OTHER intrinsic support set: both distinct
+intrinsic roots are required by its one admitted complete group. -/
+open TruthCore.Explanation.UltimateAdequacy in
+theorem plural_intrinsic_support_unique (T : Set Nat)
+    (hT : IntrinsicSupport (groups .plural) (intrinsic .plural) T 2) :
+    T = ({0, 1} : Set Nat) := by
+  have hSub : T ⊆ ({0, 1} : Set Nat) := by
+    intro x hx
+    have hi := hT.1 hx
+    change x = 0 ∨ x = 1 at hi
+    exact hi
+  exact Set.Subset.antisymm hSub
+    (plural_minimal_intrinsic_support.2 T hT hSub)
+
+/-- On #752's fixed graph, the conjunctive cyclic record has no sufficient
+set of its allowed intrinsic event s, even though the graph has source s. -/
+theorem conj_no_intrinsic_support (S : Set Ev) :
+    ¬ IntrinsicSupport conj isS S .t := by
+  intro hS
+  apply conj_no_t
+  exact support_mono conj hS.1 hS.2
+
+/-- Alternative one-contributor records have the singleton {s} as a minimal
+intrinsic support of t. The same ordinary edge graph gave no support in conj. -/
+theorem disj_minimal_intrinsic_support :
+    MinimalIntrinsicSupport disj isS ({Ev.s} : Set Ev) .t := by
+  apply singleton_minimal disj isS .s .t rfl
+  · intro g _
+    cases g with
+    | fromS => exact ⟨.s, rfl⟩
+    | fromU => exact ⟨.u, rfl⟩
+    | fromT => exact ⟨.t, rfl⟩
+  · exact disj_supply .t
+
+theorem disj_intrinsic_support_unique (T : Set Ev)
+    (hT : IntrinsicSupport disj isS T .t) :
+    T = ({Ev.s} : Set Ev) :=
+  singleton_support_unique disj isS .s .t (fun _ h => h)
+    disj_minimal_intrinsic_support T hT
+
+/-- A required enabler is NOT part of the productive support set. Switching
+u from contributor to enabler keeps the graph but restores {s} as the
+minimal productive supply basis of t. -/
+theorem enabling_minimal_intrinsic_support :
+    MinimalIntrinsicSupport enabling isS ({Ev.s} : Set Ev) .t := by
+  apply singleton_minimal enabling isS .s .t rfl
+  · intro g _
+    cases g
+    · exact ⟨.t, rfl⟩
+    · exact ⟨.s, rfl⟩
+  · apply Supply.joint true trivial
+    intro a ha
+    change a = Ev.s at ha
+    subst a
+    exact .intrinsic _ rfl
+
+theorem enabling_intrinsic_support_unique (T : Set Ev)
+    (hT : IntrinsicSupport enabling isS T .t) :
+    T = ({Ev.s} : Set Ev) :=
+  singleton_support_unique enabling isS .s .t (fun _ h => h)
+    enabling_minimal_intrinsic_support T hT
 
 /-- Condensation preserves reachability, weak connection and leastness and
 receives Supply. On a three-event carrier, no function of the projected graph and intrinsic set decides

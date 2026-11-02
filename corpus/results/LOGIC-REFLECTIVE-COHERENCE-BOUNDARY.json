@@ -1,0 +1,9 @@
+{
+  "id": "LOGIC-REFLECTIVE-COHERENCE-BOUNDARY",
+  "argument_id": "LOGIC-REFLECTIVE-COHERENCE-BOUNDARY",
+  "challenge_module": "TruthCore.Results.Logic.ReflectiveCoherence.Boundary.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ReflectiveCoherence.Boundary.Solution",
+  "theorem": "TruthCore.Results.Logic.ReflectiveCoherence.Boundary.coherenceBoundary",
+  "comparator_config": "results/LOGIC-REFLECTIVE-COHERENCE-BOUNDARY/comparator.json",
+  "status": "solution-present"
+}

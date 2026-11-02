@@ -45,6 +45,41 @@ condensation that is a two-node chain.
 | `disj`: t from s; t from u; u from t | both | holds |
 | `enabling`: t from s, u enabling; u from t | both | holds |
 
+## Intrinsic support sets (follow-up)
+
+The relation `IntrinsicSupport h I S target` retains the whole admitted-group
+record: `S` contains only events permitted by intrinsic predicate `I`, and
+the target has inductive `Supply` from exactly that seed set. The operator
+`supportStep h S` requires **all** contributors of an admitted record (AND)
+and permits different admitted records as alternatives (OR). Its least fixed
+point equals that inductive `Supply` interpretation
+(`support_eq_lfp`). Enablers are intentionally not productive inputs; their
+occurrence remains an independent exercise/coherence requirement.
+
+`MinimalIntrinsicSupport` selects inclusion-minimal seed sets, not one
+individual and not a least cause. Distinct minimal sets cannot contain one
+another (`minimal_support_antichain`); the existence and uniqueness of a
+minimal support are NOT asserted for arbitrary event types or infinite
+contributors. The generic `no_empty_support` uses the explicit assumption
+that all admitted contributor sets are nonempty; empty productive records
+would be counterexamples.
+
+| Existing fixture and target | Minimal allowed intrinsic seed | Why |
+| --- | --- | --- |
+| #735 `plural`, target 2 | exactly `{0,1}` | Both unproduced contributors are required; this is a two-*individual* support despite one recorded production group |
+| #752 `conj`, target t | none | Cyclic AND-dependence blocks inductive Supply |
+| #752 `disj`, target t | `{s}` | There is an admitted alternative requiring only s |
+| #752 `enabling`, target t | `{s}` | u is an enabler, not a productive contributor to t |
+
+All three #752 cases still have the identical projected graph, SCCs,
+ordinary source and weak component. The fixed-point calculation therefore
+needs the typed group records, even when SCCs help organize their cycles.
+The operator is a **mathematical least-fixed-point specification**, not yet
+a bounded executable SCC/antichain enumerator. In general, infinite
+contributor families do not justify stopping after finitely many rounds.
+No group-to-individual complete-producer identification, intrinsic-to-esse
+bridge, claim of physical/ontic adequacy, or root-premise discharge is added.
+
 Over the on scenario, `conj` and `disj` also share bearers, occurrence, allowed scenarios, actual
 scenario, exercise and actual graph. Condensed Supply holds for both, because
 condensing `conj` drops u from t's record. **So the chain after condensation is

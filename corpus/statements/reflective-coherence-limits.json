@@ -1,0 +1,15 @@
+{
+  "id": "STMT-REFLECTIVE-COHERENCE-LIMITS",
+  "paraphrase": "There are explicit finite semantic controls: in a two-world, two-content interpretation, the duty-content is true at the designated actual world but a policy selecting only the consistent duty-denying worldview satisfies the consistency norm and fails the duty-compatibility norm. In a one-world interpretation, an empty consistent worldview entails a tautological content without explicitly accepting it. Thus a consistency-only requirement does not entail reflective compatibility with a true duty, and logical implication does not require psychological belief in every implication. The models are stipulated, not claims about people's beliefs or metaphysical possibilities.",
+  "lean_declaration": "TruthCore.Logic.ReflectiveCoherence.ReflectiveCoherenceLimits",
+  "definition_ids": [
+    "DEF-SELF-APPLICATION-NORM",
+    "DEF-WORLDVIEW-SEMANTIC-CONSISTENCY",
+    "DEF-WORLDVIEW-DUTY-COMPATIBILITY",
+    "DEF-WORLDVIEW-NECESSARY-IMPLICATION",
+    "DEF-REFLECTIVE-EPISTEMIC-POLICY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-WORLDVIEW-CONSISTENCY-DUTY-COMPATIBILITY"
+  ]
+}
