@@ -1,0 +1,14 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.CompleteCauseUnderivedSource.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CompleteCauseUnderivedSource.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.CompleteCauseUnderivedSource.from_union",
+    "TruthCore.Results.Causality.CompleteCauseUnderivedSource.plural_root_boundary"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}
