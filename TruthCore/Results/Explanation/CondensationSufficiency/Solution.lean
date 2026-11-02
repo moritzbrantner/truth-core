@@ -1,5 +1,6 @@
 import TruthCore.Explanation.CondensationSufficiency
 import TruthCore.Results.Causality.DerivativeJointPower.Solution
+import TruthCore.Results.Causality.CompleteCauseSourceUniqueness.Solution
 import TruthCore.Results.Explanation.UltimateAdequacy.Solution
 import Mathlib.Order.WellFoundedSet
 namespace TruthCore.Results.Explanation.CondensationSufficiency
@@ -917,10 +918,13 @@ theorem plural_control : PluralControl := by
     obtain ⟨s, rfl⟩ := comp_surj _ C
     exact plural_no_least ⟨s, (least_preserved _ _).2 hC⟩
 
+section PluralSupport
+open TruthCore.Explanation.UltimateAdequacy
+open TruthCore.Results.Explanation.UltimateAdequacy
+
 /-- The #735 plural model has exactly the TWO intrinsic contributors 0 and 1
 as its minimal support for target 2. One complete group record does not
 collapse their joint productive requirement to a single individual. -/
-open TruthCore.Explanation.UltimateAdequacy in
 theorem plural_minimal_intrinsic_support :
     MinimalIntrinsicSupport (groups .plural) (intrinsic .plural)
       ({0, 1} : Set Nat) 2 := by
@@ -958,7 +962,6 @@ theorem plural_minimal_intrinsic_support :
 
 /-- The plural target has no OTHER intrinsic support set: both distinct
 intrinsic roots are required by its one admitted complete group. -/
-open TruthCore.Explanation.UltimateAdequacy in
 theorem plural_intrinsic_support_unique (T : Set Nat)
     (hT : IntrinsicSupport (groups .plural) (intrinsic .plural) T 2) :
     T = ({0, 1} : Set Nat) := by
@@ -969,6 +972,29 @@ theorem plural_intrinsic_support_unique (T : Set Nat)
     exact hi
   exact Set.Subset.antisymm hSub
     (plural_minimal_intrinsic_support.2 T hT hSub)
+
+/-- The same #735 jointly productive two-root configuration is a boundary for
+the new complete-production subgraph route: NO edge-subgraph on all its event
+nodes can simultaneously be connected and satisfy both complete-producer
+cover policies, regardless of the ambient parthood PartialOrder. It can still
+retain its complete GROUP record and its two productive partial contributors.
+This does not identify events with substances or group records with bearers. -/
+theorem plural_no_spanning_complete_subgraph [PartialOrder Nat]
+    (K : Graph Nat) (participants : Nat → Set Nat)
+    (hIncluded : ∀ a b, K.edge a b → (groups .plural).graph.edge a b)
+    (hProducer : TruthCore.Causality.CompleteCauseContributorCover.ProducerParticipates
+      K participants)
+    (hCover : TruthCore.Causality.CompleteCauseContributorCover.CompleteCauseCoversContributors
+      K participants) :
+    ¬ TruthCore.Causality.SourceForest.WeaklyConnected K := by
+  intro hConnected
+  have hUnique :=
+    TruthCore.Results.Causality.CompleteCauseSourceUniqueness.atMostOne_subgraph
+      K (groups .plural).graph participants hIncluded hProducer hCover hConnected
+  exact (by decide : (0 : Nat) ≠ 1)
+    (hUnique 0 1 plural_sources.1 plural_sources.2)
+
+end PluralSupport
 
 /-- On #752's fixed graph, the conjunctive cyclic record has no sufficient
 set of its allowed intrinsic event s, even though the graph has source s. -/

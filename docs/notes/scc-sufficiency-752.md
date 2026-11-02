@@ -74,6 +74,12 @@ would be counterexamples.
 All three #752 cases still have the identical projected graph, SCCs,
 ordinary source and weak component. The fixed-point calculation therefore
 needs the typed group records, even when SCCs help organize their cycles.
+Moreover, `plural_no_spanning_complete_subgraph` applies the complete-cause
+source-transfer theorem to #735's TWO rooted yet fully supplied contributors:
+no subset of its ordinary causal edges, on the entire same carrier, can
+satisfy both complete-producer cover policies AND be weakly connected under
+any proposed parthood partial order. The complete joint GROUP record remains
+available; it is not a third individual in that graph.
 The operator is a **mathematical least-fixed-point specification**, not yet
 a bounded executable SCC/antichain enumerator. In general, infinite
 contributor families do not justify stopping after finitely many rounds.
