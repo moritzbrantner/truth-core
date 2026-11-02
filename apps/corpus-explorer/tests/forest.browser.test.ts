@@ -166,7 +166,9 @@ test("assumption explorer: mobile touch can expand, select and revisit a proposi
   await page.waitForFunction(() => JSON.parse(localStorage.getItem("truth-core:belief-profile:v1") ?? "null")?.accepted.length > 0);
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1)).toBe(true);
   await page.reload();
-  expect(await belief.getByRole("button", { name: "True" }).getAttribute("aria-pressed")).toBe("true");
+  const restoredTrue = belief.getByRole("button", { name: "True" });
+  await restoredTrue.and(page.locator('[aria-pressed="true"]')).waitFor();
+  expect(await restoredTrue.getAttribute("aria-pressed")).toBe("true");
   await context.close();
 }, 90000);
 
