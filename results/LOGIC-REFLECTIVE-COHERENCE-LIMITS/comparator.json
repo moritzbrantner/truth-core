@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.ReflectiveCoherence.Limits.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ReflectiveCoherence.Limits.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.ReflectiveCoherence.Limits.reflectiveCoherenceLimits"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

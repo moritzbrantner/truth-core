@@ -1,0 +1,9 @@
+{
+  "id": "INF-LOGIC-REFLECTIVE-COHERENCE-LIMITS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-REFLECTIVE-COHERENCE-LIMITS",
+  "rule": "constructive-finite-countermodels",
+  "meaning": "Exhibits a true duty-content and a consistency-only policy that fails duty-compatibility, plus an empty worldview that entails but does not explicitly accept a content.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

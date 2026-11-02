@@ -1,0 +1,19 @@
+{
+  "id": "LOGIC-REFLECTIVE-COHERENCE-LIMITS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-REFLECTIVE-COHERENCE-LIMITS",
+  "inference_ids": [
+    "INF-LOGIC-REFLECTIVE-COHERENCE-LIMITS"
+  ],
+  "meaning": "Two finite controls defeat the invalid upgrades from an internal consistency policy to a duty-compatible policy and from semantic implication to explicit belief in every implication.",
+  "definition_ids": [
+    "DEF-SELF-APPLICATION-NORM",
+    "DEF-WORLDVIEW-SEMANTIC-CONSISTENCY",
+    "DEF-WORLDVIEW-DUTY-COMPATIBILITY",
+    "DEF-WORLDVIEW-NECESSARY-IMPLICATION",
+    "DEF-REFLECTIVE-EPISTEMIC-POLICY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-WORLDVIEW-CONSISTENCY-DUTY-COMPATIBILITY"
+  ]
+}

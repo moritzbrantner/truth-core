@@ -1,0 +1,20 @@
+{
+  "id": "LOGIC-TRUTH-DIRECTED-REFLECTIVE-DUTY",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-TRUTH-DIRECTED-REFLECTIVE-DUTY",
+  "inference_ids": [
+    "INF-LOGIC-TRUTH-DIRECTED-REFLECTIVE-DUTY"
+  ],
+  "meaning": "A conditional reflective-norm framework: actual truth of the duty-content plus the stronger truth-directed selection bridge imply norms of consistency, duty-compatibility, and compatibility with each necessary consequence. The antecedents are universally quantified and not independently established.",
+  "definition_ids": [
+    "DEF-SELF-APPLICATION-NORM",
+    "DEF-WORLDVIEW-SEMANTIC-CONSISTENCY",
+    "DEF-WORLDVIEW-DUTY-COMPATIBILITY",
+    "DEF-WORLDVIEW-NECESSARY-IMPLICATION",
+    "DEF-REFLECTIVE-EPISTEMIC-POLICY",
+    "DEF-TRUTH-DIRECTED-EPISTEMIC-BRIDGE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-WORLDVIEW-CONSISTENCY-DUTY-COMPATIBILITY"
+  ]
+}
