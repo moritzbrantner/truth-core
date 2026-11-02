@@ -57,4 +57,41 @@ theorem atMostOne_subgraph {B : Type} [PartialOrder B] (K G : Graph B)
   atMostOne_of_subgraph K G hIncluded
     (atMostOne K participants hProducer hCover hConnected)
 
+/-- Source collapse is actually COMPONENT-LOCAL. Two ordinary sources in the
+same weak component of the constrained complete-production subgraph must
+coincide, even when that subgraph is disconnected on the full carrier. No
+well-foundedness, global connectivity or source-existence hypothesis is used.
+All ordinary causal edges outside K remain unconstrained. -/
+theorem ordinary_sources_eq_of_K_connected_pair {B : Type} [PartialOrder B]
+    (K G : Graph B) (participants : B → Set B)
+    (hIncluded : ∀ a b, K.edge a b → G.edge a b)
+    (hProducer : ProducerParticipates K participants)
+    (hCover : CompleteCauseCoversContributors K participants)
+    (a b : B) (hPath : Relation.EqvGen K.edge a b)
+    (ha : G.Source a) (hb : G.Source b) : a = b := by
+  have hUnique := TruthCore.Results.Causality.CompleteCauseContributorCover.uniqueCause
+    K participants hProducer hCover
+  have hPred : UniquePredecessor K := by
+    intro x y e hx hy
+    exact hUnique e x y hx hy
+  exact TruthCore.Results.Causality.SourceForest.sources_eq_of_connected_pair
+    K (TruthCore.Results.Causality.SourceForest.confluent_of_uniquePredecessor K hPred)
+    a b hPath
+    (source_of_supergraph K G hIncluded a ha)
+    (source_of_supergraph K G hIncluded b hb)
+
+/-- CONTRAPOSITIVE: distinct ordinary sources must occupy DIFFERENT weak
+components of every such complete-production subgraph. This is a structural
+constraint even when no connected spanning subgraph can exist. -/
+theorem ordinary_distinct_sources_separate_components {B : Type} [PartialOrder B]
+    (K G : Graph B) (participants : B → Set B)
+    (hIncluded : ∀ a b, K.edge a b → G.edge a b)
+    (hProducer : ProducerParticipates K participants)
+    (hCover : CompleteCauseCoversContributors K participants)
+    (a b : B) (ha : G.Source a) (hb : G.Source b)
+    (hne : a ≠ b) : ¬ Relation.EqvGen K.edge a b := by
+  intro hPath
+  exact hne (ordinary_sources_eq_of_K_connected_pair K G participants
+    hIncluded hProducer hCover a b hPath ha hb)
+
 end TruthCore.Results.Causality.CompleteCauseSourceUniqueness

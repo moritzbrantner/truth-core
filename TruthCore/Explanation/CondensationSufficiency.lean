@@ -43,6 +43,21 @@ def IntrinsicSupport (h : Groups E G) (I : E → Prop)
     (S : Set E) (target : E) : Prop :=
   S ⊆ {e | I e} ∧ Supply h (fun e => e ∈ S) target
 
+/-- A productive intervention disables the intrinsic inputs in B, while
+holding the admitted contributor GROUP records fixed. This is NOT the
+metaphysical nonexistence of those beings in an accessible world; it changes
+the supply basis in the proposed #734 inductive model. -/
+def BlockedBy (h : Groups E G) (I : E → Prop)
+    (B : Set E) (target : E) : Prop :=
+  ¬ Supply h (fun e => I e ∧ e ∉ B) target
+
+/-- A NONVACUOUS productive analogue of individual indispensability: the
+target is initially supplied, and every sufficient intrinsic basis uses a.
+This is distinct from #733's scenario-relative Exercise.indispensable. -/
+def ProductivelyEssential (h : Groups E G) (I : E → Prop)
+    (target a : E) : Prop :=
+  Supply h I target ∧ ∀ S, IntrinsicSupport h I S target → a ∈ S
+
 /-- Inclusion-minimal intrinsic support, not necessarily a SINGLE individual
 and not necessarily the least support for other effects. -/
 def MinimalIntrinsicSupport (h : Groups E G) (I : E → Prop)
@@ -175,6 +190,11 @@ def pruned : Groups Ev Bool where
   admitted := fun _ => True
 
 def isS (e : Ev) : Prop := e = .s
+
+/-- A rival reading: both s and u may be supplied intrinsically, even though
+only s is an ordinary source of the fixed pairGraph. The additional bridge
+identifying intrinsic supply with causal-source status is NOT assumed. -/
+def isSU (e : Ev) : Prop := e = .s ∨ e = .u
 
 /-- Shared exercise data: s occurs in both scenarios, t and u at `true` only,
 and every record is exercised. Only the records and allowed scenarios vary. -/
