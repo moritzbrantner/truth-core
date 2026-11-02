@@ -2,9 +2,10 @@
 
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 import type { ForestTreeModel } from "@/lib/argument-forest";
+import { buildAssumptionRelevance, rankImplications, rankPropositionMatches } from "@/lib/assumption-relevance";
 import { exploreAssumptions } from "@/lib/argument-scenarios";
 import { activeCertifiedCores, reviewNewBelief, type CertifiedBeliefCore } from "@/lib/belief-conflicts";
 import { BELIEF_STORAGE_KEY, chooseBelief, EMPTY_BELIEFS, readBeliefProfile, rejectBeliefs, writeBeliefProfile, type BeliefProfile } from "@/lib/belief-profile";
@@ -49,25 +50,27 @@ export function AssumptionExplorer({ model, certifiedCores, hasCertifiedEvidence
   const goal = model.statements[params.get("goal") ?? ""] ? params.get("goal")! : model.defaultGoal;
   // A shared URL is an explicit, unsaved preview; never import it on page load.
   const preview = params.has("preview") || params.has("yes") || params.has("no");
-  const fromUrl = readBeliefProfile(JSON.stringify({ version: 1, accepted: params.getAll("yes"), denied: params.getAll("no") }),
-    new Set(Object.keys(model.statements)));
+  const previewQuery = params.toString();
+  const fromUrl = useMemo(() => {
+    const values = new URLSearchParams(previewQuery);
+    return readBeliefProfile(JSON.stringify({ version: 1, accepted: values.getAll("yes"), denied: values.getAll("no") }),
+      new Set(Object.keys(model.statements)));
+  }, [model, previewQuery]);
   const active = preview ? fromUrl : saved ?? EMPTY_BELIEFS;
-  const accepted = new Set(active.accepted);
-  const denied = new Set(active.denied);
-  const scenario = exploreAssumptions(model, accepted, denied);
-  const activeCores = activeCertifiedCores(accepted, certifiedCores);
+  const scenario = useMemo(() => exploreAssumptions(model, active.accepted, active.denied), [model, active]);
+  const relevance = useMemo(() => buildAssumptionRelevance(model, goal, scenario), [model, goal, scenario]);
+  const activeCores = activeCertifiedCores(scenario.accepted, certifiedCores);
   const pendingReview = pending ? reviewNewBelief(new Set(saved?.accepted ?? []), pending, certifiedCores) : null;
   const expanded = new Set(params.has("open") ? params.getAll("open") : ["root"]);
   const query = search.trim().toLowerCase();
-  const choices = query.length >= 2 ? Object.values(model.statements)
-    .filter((entry) => entry.id.toLowerCase().includes(query) || entry.paraphrase.toLowerCase().includes(query))
-    .sort((a, b) => Number(b.id.toLowerCase() === query) - Number(a.id.toLowerCase() === query))
-    .slice(0, 24) : [];
-  const matches = [...scenario.derived.entries()]
-    .filter(([id]) => {
-      const value = resultFilter.trim().toLowerCase();
-      return !value || id.toLowerCase().includes(value) || model.statements[id]?.paraphrase.toLowerCase().includes(value);
-    });
+  const choices = useMemo(() => query.length >= 2 ? rankPropositionMatches(model, query, relevance, scenario) : [],
+    [model, query, relevance, scenario]);
+  const matches = useMemo(() => rankImplications(scenario.derived, relevance).filter(([id]) => {
+    const value = resultFilter.trim().toLowerCase();
+    return !value || id.toLowerCase().includes(value) || model.statements[id]?.paraphrase.toLowerCase().includes(value);
+  }), [model, relevance, resultFilter, scenario]);
+  const selectedIds = [...scenario.accepted, ...scenario.denied].sort((a, b) =>
+    (relevance.goalDistance.get(a) ?? Infinity) - (relevance.goalDistance.get(b) ?? Infinity) || a.localeCompare(b));
 
   function update(change: (next: URLSearchParams) => void) {
     const next = new URLSearchParams(params.toString());
@@ -176,7 +179,14 @@ export function AssumptionExplorer({ model, certifiedCores, hasCertifiedEvidence
         {query.length >= 2 ? <div className={styles.searchResults}>
           {choices.length ? <ul aria-label="Matching propositions">{choices.map((entry) =>
             <li key={entry.id}><button type="button" onClick={() => focus(entry.id)}>
-              <strong>{entry.paraphrase}</strong><span>{entry.id}</span>
+              <strong>{entry.paraphrase}</strong>
+              <span className={styles.searchDetail}><span>{entry.id}</span>
+                {relevance.completesGoalRoute.has(entry.id) ? <em>Completes a goal-path result route</em> :
+                  relevance.goalDistance.has(entry.id) ? <em>On this goal&apos;s support path</em> : null}
+                {scenario.accepted.has(entry.id) ? <em>Assumed true</em> :
+                  scenario.denied.has(entry.id) ? <em>Assumed false</em> :
+                    scenario.derived.has(entry.id) ? <em>Reached in this what-if</em> : null}
+              </span>
             </button></li>)}</ul> : <p>No matching corpus proposition.</p>}
         </div> : null}
       </div>
@@ -247,17 +257,17 @@ export function AssumptionExplorer({ model, certifiedCores, hasCertifiedEvidence
       <span><i data-status="established" /> Corpus-established</span>
       <span><i data-status="conditional" /> Recorded conditional result</span>
       <span><i data-status="open" /> Open premise</span>
-      <span>True/False = your choices, not certified statuses</span>
+      <span>Route readiness and True/False = hypothetical, not certified statuses</span>
     </div>
     <div className={styles.scenarioLayout}>
       <section className={styles.treePanel} aria-label="Single proposition tree">
         <div className={styles.panelHeading}><div>
           <span className={styles.eyebrow}>Focused proposition · all argument routes</span>
-          <p>Each OR route contains all its AND premises. Expand branches independently, including shared premises.</p>
+          <p>Each OR route contains all its AND premises. Routes follow your current what-if readiness; every branch remains expandable.</p>
         </div></div>
         <StatementBranch model={model} id={goal} selected={goal} expanded={expanded}
           onSelect={focus} onToggle={toggle} exhaustive
-          scenario={scenario} onAssume={setAssumption} />
+          scenario={scenario} relevance={relevance} onAssume={setAssumption} />
         <p className={styles.hint}>
           <Link href={"/statements/" + goal}>View this proposition&apos;s evidence</Link>
           {" · "}<Link href="/forest">Compare two conclusions instead</Link>
@@ -269,8 +279,8 @@ export function AssumptionExplorer({ model, certifiedCores, hasCertifiedEvidence
           <p>Recorded result-bearing arguments are applied only when every ordinary premise is accepted or reached.</p>
         </div></div>
         <h2>{preview ? "Previewed choices" : "Saved beliefs"} ({scenario.accepted.size + scenario.denied.size})</h2>
-        {scenario.accepted.size + scenario.denied.size ? <ul className={styles.selectedAssumptions}>
-          {[...scenario.accepted, ...scenario.denied].sort().map((id) => <li key={id}>
+        {selectedIds.length ? <ul className={styles.selectedAssumptions}>
+          {selectedIds.map((id) => <li key={id}>
             <span><strong>{scenario.accepted.has(id) ? "True" : "False"}</strong> · {model.statements[id].paraphrase}</span>
             <button type="button" aria-label={"Clear assumption " + id} onClick={() => setAssumption(id, "clear")}>×</button>
           </li>)}
@@ -297,6 +307,7 @@ export function AssumptionExplorer({ model, certifiedCores, hasCertifiedEvidence
         </section> : null}
         <div className={styles.scenarioResultsHeader}>
           <h2>Derived implications ({scenario.derived.size})</h2>
+          <p className={styles.hint}>Closest to the focused goal first; all are hypothetical consequences of recorded result routes.</p>
           <label htmlFor="find-consequence">Filter</label>
           <input id="find-consequence" type="search" value={resultFilter}
             onChange={(event) => setResultFilter(event.target.value)} placeholder="Filter implications" />

@@ -172,7 +172,9 @@
 .statement[data-assumption="true"] { background: color-mix(in srgb, var(--status-defended) 8%, var(--paper)); }
 .statement[data-assumption="false"] { background: color-mix(in srgb, var(--status-objection) 8%, var(--paper)); }
 .statement[data-assumption="implied"] { background: color-mix(in srgb, var(--status-proved) 7%, var(--paper)); }
-.scenarioFlag { color: var(--accent); font-size: 0.68rem; font-weight: 750; }
+.scenarioFlag { color: var(--muted); font-size: 0.68rem; font-weight: 700; }
+.statement[data-premise-state="satisfied"] .scenarioFlag { color: var(--status-defended); }
+.statement[data-premise-state="contradicted"] .scenarioFlag { color: var(--status-objection); }
 
 .assumptionButtons {
   display: flex;
@@ -301,6 +303,24 @@
 }
 
 .argumentHeading span:last-child { color: var(--muted); font-weight: 500; }
+
+.routeReadiness {
+  --readiness-tone: var(--line-strong);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem 0.65rem;
+  justify-content: space-between;
+  border-left: 3px solid var(--readiness-tone);
+  background: color-mix(in srgb, var(--readiness-tone) 6%, var(--paper));
+  padding: 0.4rem 0.55rem;
+  margin-top: 0.65rem;
+  font-size: 0.68rem;
+  line-height: 1.4;
+}
+.routeReadiness[data-readiness="satisfied"] { --readiness-tone: var(--status-defended); }
+.routeReadiness[data-readiness="contradicted"] { --readiness-tone: var(--status-objection); }
+.routeReadiness[data-readiness="unresolved"] { --readiness-tone: var(--status-open); }
+.routeReadiness span { color: var(--muted); }
 
 .argumentMeaning {
   font-size: 0.77rem;
@@ -596,6 +616,14 @@
 }
 .searchResults strong { font-size: 0.78rem; font-weight: 550; line-height: 1.4; }
 .searchResults span { color: var(--muted); font-size: 0.65rem; overflow-wrap: anywhere; }
+.searchResults .searchDetail { display: flex; flex-wrap: wrap; gap: 0.25rem 0.45rem; align-items: center; }
+.searchDetail em {
+  font-size: 0.63rem;
+  font-style: normal;
+  color: var(--accent);
+  border-left: 1px solid var(--line-strong);
+  padding-left: 0.45rem;
+}
 .searchResults > p { padding: 0.6rem; color: var(--muted); font-size: 0.78rem; }
 
 .scenarioLayout {
@@ -607,6 +635,7 @@
 .scenarioLayout .treePanel { min-height: 0; }
 .scenarioLayout .argumentColumns { grid-template-columns: minmax(0, 1fr); }
 .scenarioLayout .argumentColumns > :only-child { grid-column: auto; }
+.scenarioLayout .statementTitle { display: block; -webkit-line-clamp: unset; }
 .scenarioLayout .treePanel > .hint a { color: var(--accent); text-decoration: underline; }
 .scenarioPanel {
   display: grid;
@@ -643,6 +672,7 @@
 }
 .scenarioResultsHeader { display: grid; gap: 0.25rem; }
 .scenarioResultsHeader label { margin: 0; }
+.scenarioResultsHeader .hint { margin: 0 0 0.3rem; }
 .implications {
   max-height: 42rem;
   overflow: auto;
@@ -686,4 +716,9 @@
   .inspectorStats { gap: 0.5rem; }
   .treePanel, .inspector { padding: 0.8rem; }
   .scenarioPanel { padding: 0.8rem; }
+  .scenarioLayout .argument { padding: 0.4rem 0; border: 0; border-top: 1px solid var(--line); border-radius: 0; }
+  .scenarioLayout .premises { padding-left: 0; border-left: 0; }
+  .scenarioLayout .statementSelect { padding: 0.5rem 0.45rem; }
+  .scenarioLayout .expand { width: 2.6rem; }
+  .scenarioLayout .assumptionButtons button { min-height: 2.6rem; min-width: 3.5rem; }
 }

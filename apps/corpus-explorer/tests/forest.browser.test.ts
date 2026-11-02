@@ -84,6 +84,9 @@ test("single-tree assumptions: all argument routes, deep expansion, scenario sel
   const total = Number((await orLabel.textContent())?.match(/OR · (\d+)/)?.[1]);
   expect(total).toBeGreaterThan(2);
   expect(await tree.getByRole("region", { name: /^Argument / }).count()).toBe(total);
+  expect(await tree.locator("[data-readiness]").count()).toBe(total);
+  expect(await tree.getByText("More premises needed").count()).toBeGreaterThan(0);
+  await tree.getByText("What-if · unresolved").first().waitFor();
 
   const deeper = tree.getByRole("button", { name: /^Expand all arguments for / });
   expect(await deeper.count()).toBeGreaterThan(0);
@@ -92,6 +95,20 @@ test("single-tree assumptions: all argument routes, deep expansion, scenario sel
   expect(await tree.getByText(/^OR · \d+ recorded argument/).count()).toBeGreaterThan(1);
   await page.reload();
   expect(await tree.getByText(/^OR · \d+ recorded argument/).count()).toBeGreaterThan(1);
+  for (let depth = 0; depth < 3; depth += 1) {
+    const next = tree.getByRole("button", { name: /^Expand all arguments for / }).first();
+    if (!(await next.count())) { break; }
+    const before = await tree.getByText(/^OR · \d+ recorded argument/).count();
+    await next.click();
+    await page.waitForFunction((minimum) => [...document.querySelectorAll("p")]
+      .filter((node) => /^OR · \d+ recorded argument/.test(node.textContent ?? "")).length > minimum, before);
+  }
+  await page.setViewportSize({ width: 390, height: 844 });
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1)).toBe(true);
+  if (process.env.FOREST_SCREENSHOTS) {
+    await page.screenshot({ path: path.join(process.env.FOREST_SCREENSHOTS, "assumptions-deep-mobile.png"), fullPage: true });
+  }
+  await page.setViewportSize({ width: 1360, height: 900 });
 
   const rootChoice = tree.getByRole("group", { name: "Hypothetical truth of STMT-CATHOLICISM-TRUE" });
   await rootChoice.getByRole("button", { name: "True" }).click();
@@ -135,6 +152,22 @@ test("single-tree assumptions: all argument routes, deep expansion, scenario sel
   }
   expect(errors).toEqual([]);
   await page.close();
+}, 90000);
+
+test("assumption explorer: mobile touch can expand, select and revisit a proposition", async () => {
+  const context = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true });
+  const page = await context.newPage();
+  await page.goto(new URL(basePath + "/forest/assumptions/", testOrigin ?? server!.url).toString());
+  const tree = page.getByRole("region", { name: "Single proposition tree" });
+  await tree.getByRole("button", { name: /^Expand all arguments for / }).first().tap();
+  await tree.getByText(/^OR · \d+ recorded argument/).first().waitFor();
+  const belief = tree.getByRole("group", { name: /^Hypothetical truth of / }).first();
+  await belief.getByRole("button", { name: "True" }).tap();
+  await page.waitForFunction(() => JSON.parse(localStorage.getItem("truth-core:belief-profile:v1") ?? "null")?.accepted.length > 0);
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1)).toBe(true);
+  await page.reload();
+  expect(await belief.getByRole("button", { name: "True" }).getAttribute("aria-pressed")).toBe("true");
+  await context.close();
 }, 90000);
 
 test("network markers render only their custom label, without a native title tooltip", async () => {
