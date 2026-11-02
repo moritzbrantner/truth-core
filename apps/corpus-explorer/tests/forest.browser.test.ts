@@ -1,12 +1,18 @@
 import { afterAll, beforeAll, expect, test } from "bun:test";
 import path from "node:path";
-import { chromium, type Browser } from "playwright";
+import { chromium, type Browser, type Locator, type Page } from "playwright";
 
 let browser: Browser;
 let server: ReturnType<typeof Bun.serve> | undefined;
 const root = path.resolve(import.meta.dir, "../out");
 const basePath = process.env.TEST_BASE_PATH ?? "";
 const testOrigin = process.env.FOREST_TARGET_ORIGIN;
+
+async function expectPressed(page: Page, button: Locator) {
+  // The static page hydrates before the saved belief profile is read from localStorage.
+  await button.and(page.locator('[aria-pressed="true"]')).waitFor();
+  expect(await button.getAttribute("aria-pressed")).toBe("true");
+}
 
 beforeAll(async () => {
   if (!testOrigin) {
@@ -114,7 +120,7 @@ test("single-tree assumptions: all argument routes, deep expansion, scenario sel
   await rootChoice.getByRole("button", { name: "True" }).click();
   await page.waitForFunction(() => JSON.parse(localStorage.getItem("truth-core:belief-profile:v1") ?? "null")?.accepted.includes("STMT-CATHOLICISM-TRUE"));
   expect(new URL(page.url()).searchParams.has("yes")).toBe(false);
-  expect(await rootChoice.getByRole("button", { name: "True" }).getAttribute("aria-pressed")).toBe("true");
+  await expectPressed(page, rootChoice.getByRole("button", { name: "True" }));
   await rootChoice.getByRole("button", { name: "False" }).click();
   await page.getByRole("region", { name: "Review reversing a saved belief" }).getByRole("button", { name: "Withdraw earlier choice and continue" }).click();
   await page.waitForFunction(() => {
@@ -122,7 +128,7 @@ test("single-tree assumptions: all argument routes, deep expansion, scenario sel
     return belief?.denied.includes("STMT-CATHOLICISM-TRUE") && !belief.accepted.includes("STMT-CATHOLICISM-TRUE");
   });
   await page.reload();
-  expect(await rootChoice.getByRole("button", { name: "False" }).getAttribute("aria-pressed")).toBe("true");
+  await expectPressed(page, rootChoice.getByRole("button", { name: "False" }));
   await page.getByRole("button", { name: "Copy scenario link" }).click();
   const shared = new URL(await page.getByLabel("Shareable preview URL (select to copy)").inputValue());
   expect(shared.searchParams.get("preview")).toBe("1");
@@ -131,12 +137,12 @@ test("single-tree assumptions: all argument routes, deep expansion, scenario sel
   shared.searchParams.append("yes", "STMT-CATHOLICISM-TRUE");
   await page.goto(shared.toString());
   await page.getByText("Shared what-if preview · not saved").waitFor();
-  expect(await rootChoice.getByRole("button", { name: "True" }).getAttribute("aria-pressed")).toBe("true");
+  await expectPressed(page, rootChoice.getByRole("button", { name: "True" }));
   expect(await page.evaluate(() => JSON.parse(localStorage.getItem("truth-core:belief-profile:v1") ?? "null")?.denied))
     .toContain("STMT-CATHOLICISM-TRUE");
   await page.getByRole("button", { name: "Return to saved beliefs" }).click();
   await page.waitForURL((next) => !next.searchParams.has("preview") && !next.searchParams.has("yes"));
-  expect(await rootChoice.getByRole("button", { name: "False" }).getAttribute("aria-pressed")).toBe("true");
+  await expectPressed(page, rootChoice.getByRole("button", { name: "False" }));
   await page.getByLabel("Find a proposition to investigate or assume").fill("STMT-NECESSARY-CLASSICAL-GOD-ROOT");
   const searchResults = page.getByRole("list", { name: "Matching propositions" });
   expect(await searchResults.getByRole("button").first().getByText("STMT-NECESSARY-CLASSICAL-GOD-ROOT", { exact: true }).count()).toBe(1);
@@ -166,9 +172,7 @@ test("assumption explorer: mobile touch can expand, select and revisit a proposi
   await page.waitForFunction(() => JSON.parse(localStorage.getItem("truth-core:belief-profile:v1") ?? "null")?.accepted.length > 0);
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1)).toBe(true);
   await page.reload();
-  const restoredTrue = belief.getByRole("button", { name: "True" });
-  await restoredTrue.and(page.locator('[aria-pressed="true"]')).waitFor();
-  expect(await restoredTrue.getAttribute("aria-pressed")).toBe("true");
+  await expectPressed(page, belief.getByRole("button", { name: "True" }));
   await context.close();
 }, 90000);
 
