@@ -1,9 +1,9 @@
 import type { GraphArgument, GraphStatement, PropositionGraph } from "./proposition-graph";
 
 /**
- * A bounded, read-only projection of the canonical corpus graph.
+ * A read-only projection of the canonical corpus graph.
  * Arguments remain AND bundles of ordinary premises; multiple arguments
- * for one conclusion are OR alternatives. Nothing here computes closure.
+ * for one conclusion are OR alternatives. Nothing here computes corpus closure.
  */
 export type ForestStatus = "established" | "conditional" | "open" | "refuted" | "other";
 
@@ -23,6 +23,7 @@ export type ForestStatement = {
 
 export type ForestArgument = {
   id: string;
+  conclusion: string;
   meaning: string;
   premises: string[];
   resultIds: string[];
@@ -34,6 +35,14 @@ export type ForestModel = {
   defaultGoal: string;
   defaultCompare: string;
   statements: Record<string, ForestStatement>;
+  arguments: Record<string, ForestArgument>;
+};
+
+/** Minimal complete tree payload; the comparison-only inspector fields are not shipped. */
+export type ForestTreeModel = {
+  defaultGoal: string;
+  statements: Record<string, Pick<ForestStatement,
+    "id" | "paraphrase" | "status" | "statusLabel" | "argumentIds" | "totalArguments">>;
   arguments: Record<string, ForestArgument>;
 };
 
@@ -81,6 +90,7 @@ function rankArguments(argumentsForConclusion: readonly GraphArgument[]): GraphA
 export function buildArgumentForest(
   graph: PropositionGraph,
   preferredRoots: ReadonlyArray<{ id: string; label: string }> = featured,
+  { exhaustive = false }: { exhaustive?: boolean } = {},
 ): ForestModel {
   const byId = new Map(graph.statements.map((statement) => [statement.id, statement]));
   const argumentsByConclusion = new Map<string, GraphArgument[]>();
@@ -113,20 +123,29 @@ export function buildArgumentForest(
 
   const visible = new Set<string>();
   const includedArguments = new Map<string, GraphArgument>();
-  const visitedDepth = new Map<string, number>();
-  const queue = roots.map((root) => ({ id: root.id, depth: 0 }));
-  while (queue.length && visible.size < 1000) {
-    const next = queue.shift()!;
-    const statement = byId.get(next.id);
-    if (!statement) { continue; }
-    visible.add(next.id);
-    if ((visitedDepth.get(next.id) ?? Infinity) <= next.depth) { continue; }
-    visitedDepth.set(next.id, next.depth);
-    if (next.depth >= 3) { continue; }
-    for (const argument of rankArguments(argumentsByConclusion.get(next.id) ?? []).slice(0, 2)) {
+  if (exhaustive) {
+    for (const statement of graph.statements) {
+      visible.add(statement.id);
+    }
+    for (const argument of graph.arguments) {
       includedArguments.set(argument.id, argument);
-      for (const premise of argument.premises) {
-        queue.push({ id: premise, depth: next.depth + 1 });
+    }
+  } else {
+    const visitedDepth = new Map<string, number>();
+    const queue = roots.map((root) => ({ id: root.id, depth: 0 }));
+    while (queue.length && visible.size < 1000) {
+      const next = queue.shift()!;
+      const statement = byId.get(next.id);
+      if (!statement) { continue; }
+      visible.add(next.id);
+      if ((visitedDepth.get(next.id) ?? Infinity) <= next.depth) { continue; }
+      visitedDepth.set(next.id, next.depth);
+      if (next.depth >= 3) { continue; }
+      for (const argument of rankArguments(argumentsByConclusion.get(next.id) ?? []).slice(0, 2)) {
+        includedArguments.set(argument.id, argument);
+        for (const premise of argument.premises) {
+          queue.push({ id: premise, depth: next.depth + 1 });
+        }
       }
     }
   }
@@ -141,10 +160,12 @@ export function buildArgumentForest(
   }
 
   // Rival references are navigable, but merely linked records never become proof edges.
-  const originalVisible = [...visible];
-  for (const id of originalVisible) {
-    for (const rival of (links.get(id) ?? []).slice(0, 5)) {
-      visible.add(rival.id);
+  if (!exhaustive) {
+    const originalVisible = [...visible];
+    for (const id of originalVisible) {
+      for (const rival of (links.get(id) ?? []).slice(0, 5)) {
+        visible.add(rival.id);
+      }
     }
   }
 
@@ -184,6 +205,7 @@ export function buildArgumentForest(
   for (const argument of includedArguments.values()) {
     argumentsMap[argument.id] = {
       id: argument.id,
+      conclusion: argument.conclusion,
       meaning: argument.meaning,
       premises: argument.premises,
       resultIds: argument.resultIds,
@@ -199,4 +221,15 @@ export function buildArgumentForest(
     statements,
     arguments: argumentsMap,
   };
+}
+
+/** Uses the same projection and status mapping, retaining every corpus route. */
+export function buildAssumptionTree(graph: PropositionGraph): ForestTreeModel {
+  const full = buildArgumentForest(graph, featured, { exhaustive: true });
+  const statements: ForestTreeModel["statements"] = {};
+  for (const statement of Object.values(full.statements)) {
+    const { id, paraphrase, status, statusLabel, argumentIds, totalArguments } = statement;
+    statements[id] = { id, paraphrase, status, statusLabel, argumentIds, totalArguments };
+  }
+  return { defaultGoal: full.defaultGoal, statements, arguments: full.arguments };
 }

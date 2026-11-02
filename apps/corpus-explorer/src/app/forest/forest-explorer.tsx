@@ -3,11 +3,12 @@
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 
-import type { ForestArgument, ForestModel, ForestStatement } from "@/lib/argument-forest";
+import type { ForestArgument, ForestModel, ForestStatement, ForestTreeModel } from "@/lib/argument-forest";
+import type { AssumptionScenario } from "@/lib/argument-scenarios";
 import styles from "./forest.module.css";
 
-type TreeProps = {
-  model: ForestModel;
+export type TreeProps = {
+  model: ForestTreeModel;
   id: string;
   selected: string;
   expanded: ReadonlySet<string>;
@@ -15,6 +16,11 @@ type TreeProps = {
   onToggle: (id: string) => void;
   depth?: number;
   ancestors?: readonly string[];
+  /** The assumption route reuses this renderer without the comparison overview's limits. */
+  exhaustive?: boolean;
+  path?: string;
+  scenario?: AssumptionScenario;
+  onAssume?: (id: string, value: "true" | "false" | "clear") => void;
 };
 
 function excerpt(value: string, limit = 115) {
@@ -22,54 +28,76 @@ function excerpt(value: string, limit = 115) {
   return value.slice(0, limit - 1).trimEnd() + "…";
 }
 
-function StatementBranch({
+export function StatementBranch({
   model, id, selected, expanded, onSelect, onToggle, depth = 0, ancestors = [],
+  exhaustive = false, path = "root", scenario, onAssume,
 }: TreeProps) {
   const statement = model.statements[id];
   if (!statement) {
     return <p className={styles.missing}>This premise is outside the bounded map. Inspect its corpus record.</p>;
   }
   const repeated = ancestors.includes(id);
-  const argumentsShown = statement.argumentIds
+  const availableArguments = statement.argumentIds
     .map((argumentId) => model.arguments[argumentId])
     .filter((argument): argument is ForestArgument => Boolean(argument));
-  const canExpand = !repeated && depth < 2 && argumentsShown.length > 0;
-  const isExpanded = canExpand && expanded.has(id);
+  const argumentsShown = exhaustive ? availableArguments : availableArguments.slice(0, 2);
+  const canExpand = !repeated && (exhaustive || depth < 2) && argumentsShown.length > 0;
+  const isExpanded = canExpand && expanded.has(exhaustive ? path : id);
+  const assumedTrue = scenario?.accepted.has(id) ?? false;
+  const assumedFalse = scenario?.denied.has(id) ?? false;
+  const implied = scenario?.derived.has(id) ?? false;
 
   return <div className={styles.branch}>
-    <div className={styles.statement} data-status={statement.status} data-selected={selected === id}>
+    <div className={styles.statement} data-status={statement.status} data-selected={selected === id}
+      data-assumption={assumedTrue ? "true" : assumedFalse ? "false" : implied ? "implied" : undefined}>
       <button type="button" aria-pressed={selected === id} onClick={() => onSelect(id)}
-        className={styles.statementSelect} aria-label={"Select proposition: " + statement.paraphrase}>
+        className={styles.statementSelect}
+        aria-label={(exhaustive ? "Focus proposition: " : "Select proposition: ") + statement.paraphrase}>
         <span className={styles.statementMarker} aria-hidden="true" />
         <span className={styles.statementText}>
           <span className={styles.statementTitle}>{excerpt(statement.paraphrase, depth ? 104 : 145)}</span>
           <span className={styles.statementMeta}>{statement.statusLabel}</span>
+          {scenario && (assumedTrue || assumedFalse || implied) ? <span className={styles.scenarioFlag}>
+            {assumedTrue ? "Assumed true" : assumedFalse ? "Assumed false" : "Follows in this scenario"}
+          </span> : null}
         </span>
       </button>
       {canExpand ? <button type="button" className={styles.expand}
-        aria-label={(isExpanded ? "Collapse arguments for " : "Expand arguments for ") + statement.id}
-        aria-expanded={isExpanded} onClick={() => onToggle(id)}>
+        aria-label={(isExpanded ? "Collapse arguments for " : (exhaustive ? "Expand all arguments for " : "Expand arguments for ")) + statement.id}
+        aria-expanded={isExpanded} onClick={() => onToggle(exhaustive ? path : id)}>
         {isExpanded ? "−" : "+"}
       </button> : null}
     </div>
-    {repeated ? <p className={styles.hint}>Shared proposition · shown elsewhere in this path</p> : null}
+    {scenario && onAssume ? <div className={styles.assumptionButtons} role="group"
+      aria-label={"Hypothetical truth of " + statement.id}>
+      <button type="button" aria-pressed={assumedTrue}
+        onClick={() => onAssume(id, assumedTrue ? "clear" : "true")}>True</button>
+      <button type="button" aria-pressed={assumedFalse}
+        onClick={() => onAssume(id, assumedFalse ? "clear" : "false")}>False</button>
+    </div> : null}
+    {repeated ? <p className={styles.hint}>
+      {exhaustive ? "Cycle in this path · the proposition can be explored from a different branch" : "Shared proposition · shown elsewhere in this path"}
+    </p> : null}
     {!repeated && statement.totalArguments > 0 && !argumentsShown.length ?
       <p className={styles.hint}>Further arguments are outside this overview. Focus this proposition to inspect its records.</p> : null}
     {isExpanded ? <div className={styles.supports}>
       <p className={styles.junction}>OR · {statement.totalArguments} recorded argument{statement.totalArguments === 1 ? "" : "s"} supporting this conclusion</p>
       <div className={styles.argumentColumns}>
-        {argumentsShown.map((argument) => <section key={argument.id} className={styles.argument}>
+        {argumentsShown.map((argument) => <section key={argument.id} className={styles.argument}
+          aria-label={"Argument " + argument.id}>
           <div className={styles.argumentHeading}>
             <span>AND · {argument.premises.length} ordinary premise{argument.premises.length === 1 ? "" : "s"}</span>
             <span>{argument.resultIds.length ? (argument.transcriptionOnly ? "Transcription result" : "Result recorded") : "No result recorded"}</span>
           </div>
           <p className={styles.argumentMeaning}>{excerpt(argument.meaning, 160)}</p>
           {argument.premises.length ? <div className={styles.premises}>
-            {argument.premises.slice(0, 3).map((premise) =>
-              <StatementBranch key={premise} model={model} id={premise} selected={selected}
+            {(exhaustive ? argument.premises : argument.premises.slice(0, 3)).map((premise, index) =>
+              <StatementBranch key={premise + ":" + index} model={model} id={premise} selected={selected}
                 expanded={expanded} onSelect={onSelect} onToggle={onToggle}
+                exhaustive={exhaustive} path={path + "/" + argument.id + ":" + index}
+                scenario={scenario} onAssume={onAssume}
                 depth={depth + 1} ancestors={[...ancestors, id]} />)}
-            {argument.premises.length > 3 ? <p className={styles.hint}>
+            {!exhaustive && argument.premises.length > 3 ? <p className={styles.hint}>
               +{argument.premises.length - 3} other required premise{argument.premises.length === 4 ? "" : "s"} — not omitted from the actual argument
             </p> : null}
           </div> : <p className={styles.hint}>No ordinary premises listed. Consult the result for any commitments or conditions.</p>}
