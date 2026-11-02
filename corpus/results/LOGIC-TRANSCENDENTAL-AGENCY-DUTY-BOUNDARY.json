@@ -1,0 +1,9 @@
+{
+  "id": "LOGIC-TRANSCENDENTAL-AGENCY-DUTY-BOUNDARY",
+  "argument_id": "LOGIC-TRANSCENDENTAL-AGENCY-DUTY-BOUNDARY",
+  "challenge_module": "TruthCore.Results.Logic.TranscendentalPractice.AgencyDuty.Challenge",
+  "solution_module": "TruthCore.Results.Logic.TranscendentalPractice.AgencyDuty.Solution",
+  "theorem": "TruthCore.Results.Logic.TranscendentalPractice.AgencyDuty.boundary",
+  "comparator_config": "results/LOGIC-TRANSCENDENTAL-AGENCY-DUTY-BOUNDARY/comparator.json",
+  "status": "solution-present"
+}

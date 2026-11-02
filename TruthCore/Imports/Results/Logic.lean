@@ -31,6 +31,8 @@ import TruthCore.Results.Logic.StrengthCause.Solution
 import TruthCore.Results.Logic.StrengthOrder.Solution
 import TruthCore.Results.Logic.StrengthUnique.Solution
 import TruthCore.Results.Logic.ThoughtChangeSubject.Solution
+import TruthCore.Results.Logic.TranscendentalPractice.AgencyDuty.Solution
+import TruthCore.Results.Logic.TranscendentalPractice.InquiryAccess.Solution
 import TruthCore.Results.Logic.TruthNontriviality.Controls.Solution
 import TruthCore.Results.Logic.TruthNontriviality.Core.Solution
 import TruthCore.Results.Logic.TruthNontriviality.PropositionalCollapse.Solution

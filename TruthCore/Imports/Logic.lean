@@ -21,6 +21,7 @@ import TruthCore.Logic.Strength.Order
 import TruthCore.Logic.Strength.UniqueExistence
 import TruthCore.Logic.StrengthComparison
 import TruthCore.Logic.ThoughtChangeSubject
+import TruthCore.Logic.TranscendentalPractice
 import TruthCore.Logic.TruthComposition
 import TruthCore.Logic.TruthNontriviality
 import TruthCore.Logic.TruthPilot
