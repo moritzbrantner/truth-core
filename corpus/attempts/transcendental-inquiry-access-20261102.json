@@ -1,0 +1,18 @@
+{
+  "id": "ATTEMPT-TRANSCENDENTAL-INQUIRY-ACCESS-20261102",
+  "date": "2026-11-02",
+  "statement_ids": [
+    "STMT-TRANSCENDENTAL-INQUIRY-ACCESS-BOUNDARY",
+    "STMT-TRUTH-DIRECTED-REFLECTIVE-DUTY",
+    "STMT-CORRECTION-CRITERION-EXACT-FACTORIZATION"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Composed the #924 TruthDirected selection policy with the certified exact-data-correction characterization, without identifying a normative demand and an evidence classifier. Constructed two finite controls on the same two-world, two-content semantics. One selects the true empty worldview while identical reports cannot classify the truth of the nonconstant content. The other admits an identity-report classifier while selecting a false worldview. The factorization result forces fiber invariance when a classifier exists. Rejected as invalid: truth-directed selection alone entails a usable evidence criterion, and existence of such a criterion alone entails the truth-directed ought. These are logical non-entailments inside the fixed semantic profile, not refutations of substantive epistemology.",
+  "evidence": [
+    "LOGIC-TRANSCENDENTAL-INQUIRY-ACCESS-BOUNDARY",
+    "CORRECTION-CRITERION-EXACT-FACTORIZATION",
+    "LOGIC-TRUTH-DIRECTED-REFLECTIVE-DUTY"
+  ],
+  "blocker": "The model does not exhibit an actual human inquirer or a warranted, computable classifier, and no independent truth-directed duty or psychological no-wishful-thinking obligation is proven. An ontic, deontic or theistic bridge would require a separate argument and rival tests. Root-route open-premise delta: zero."
+}

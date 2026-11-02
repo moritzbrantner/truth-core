@@ -1,0 +1,12 @@
+{
+  "id": "STMT-TRANSCENDENTAL-AGENCY-DUTY-BOUNDARY",
+  "paraphrase": "For any typed goal-and-action profile, if a valued end is in fact realized by a performed effective action and a nominated action is its only effective means, then the nominated action was performed. Two explicit nonempty Boolean-action profiles with that same goal, performed means and efficacy relation disagree solely about whether that action is categorically obligatory. Successful instrumental action therefore cannot, in the stipulated profile alone, establish a categorical duty or its absence. Mere intention and psychological reasoning are not modeled; no objective moral standard is justified or refuted.",
+  "lean_declaration": "TruthCore.Logic.TranscendentalPractice.AgencyDutyBoundary",
+  "definition_ids": [
+    "DEF-TRANSCENDENTAL-GOAL-REALIZATION",
+    "DEF-TRANSCENDENTAL-CATEGORICAL-DUTY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRANSCENDENTAL-AGENCY-AND-MORAL-DUTY"
+  ]
+}
