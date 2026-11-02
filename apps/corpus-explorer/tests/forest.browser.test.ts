@@ -121,7 +121,9 @@ test("single-tree assumptions: all argument routes, deep expansion, scenario sel
   await page.waitForURL((next) => !next.searchParams.has("preview") && !next.searchParams.has("yes"));
   expect(await rootChoice.getByRole("button", { name: "False" }).getAttribute("aria-pressed")).toBe("true");
   await page.getByLabel("Find a proposition to investigate or assume").fill("STMT-NECESSARY-CLASSICAL-GOD-ROOT");
-  await page.getByRole("list", { name: "Matching propositions" }).getByRole("button").first().click();
+  const searchResults = page.getByRole("list", { name: "Matching propositions" });
+  expect(await searchResults.getByRole("button").first().getByText("STMT-NECESSARY-CLASSICAL-GOD-ROOT", { exact: true }).count()).toBe(1);
+  await searchResults.getByText("STMT-NECESSARY-CLASSICAL-GOD-ROOT", { exact: true }).click();
   await page.waitForURL((next) => next.searchParams.get("goal") === "STMT-NECESSARY-CLASSICAL-GOD-ROOT");
   if (process.env.FOREST_SCREENSHOTS) {
     await page.screenshot({ path: path.join(process.env.FOREST_SCREENSHOTS, "assumptions-desktop.png"), fullPage: true });

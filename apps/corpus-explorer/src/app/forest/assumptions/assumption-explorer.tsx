@@ -61,6 +61,7 @@ export function AssumptionExplorer({ model, certifiedCores, hasCertifiedEvidence
   const query = search.trim().toLowerCase();
   const choices = query.length >= 2 ? Object.values(model.statements)
     .filter((entry) => entry.id.toLowerCase().includes(query) || entry.paraphrase.toLowerCase().includes(query))
+    .sort((a, b) => Number(b.id.toLowerCase() === query) - Number(a.id.toLowerCase() === query))
     .slice(0, 24) : [];
   const matches = [...scenario.derived.entries()]
     .filter(([id]) => {
