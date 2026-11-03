@@ -42,6 +42,7 @@ class ArgumentContextTests(unittest.TestCase):
         write(self.root, "TruthCore.Down.Solution", "import TruthCore.Up.Solution\n")
         write(self.root, "TruthCore.Up.Solution", "import TruthCore.Base.Solution\nimport TruthCore.Vocab\n")
         write(self.root, "TruthCore.Peer.Solution", "import TruthCore.Vocab\n")
+        write(self.root, "TruthCore.Far.Solution", "import TruthCore.Down.Solution\n")
         (self.root / "results/UP").mkdir(parents=True)
         (self.root / "results/UP/comparator.json").write_text(json.dumps(
             {"theorem_names": ["Demo.Up.main"], "permitted_axioms": []}), encoding="utf-8")
@@ -62,10 +63,11 @@ class ArgumentContextTests(unittest.TestCase):
                 {"id": "DOWN", "premise_statement_ids": ["C"], "conclusion_statement_id": "D", "inference_ids": []},
                 {"id": "TWIN", "premise_statement_ids": ["Q", "P"], "conclusion_statement_id": "C", "inference_ids": []},
                 {"id": "PEER", "premise_statement_ids": ["Q"], "conclusion_statement_id": "X", "inference_ids": []},
+                {"id": "FAR", "premise_statement_ids": ["D"], "conclusion_statement_id": "X", "inference_ids": []},
             ],
             "results": [
                 result("UP", "UP", "Up", challenge_module="TruthCore.Up.Challenge", comparator_config="results/UP/comparator.json"),
-                result("BASE", "BASE", "Base"), result("DEEP", "DEEP", "Deep"), result("DOWN", "DOWN", "Down"), result("PEER", "PEER", "Peer"),
+                result("BASE", "BASE", "Base"), result("DEEP", "DEEP", "Deep"), result("DOWN", "DOWN", "Down"), result("PEER", "PEER", "Peer"), result("FAR", "FAR", "Far"),
             ],
             "relations": [{"id": "REL-ALT", "subject_id": "Q", "predicate": "alternative_to", "object_id": "D"},
                           {"id": "REL-SUP", "subject_id": "CLAIM-Q", "predicate": "supports", "object_id": "Q"}],
@@ -113,6 +115,7 @@ class ArgumentContextTests(unittest.TestCase):
         # BASE concludes premise P, so the graph records it; DEEP is reached only through imports.
         self.assertEqual(reused, {("BASE", 1, True), ("DEEP", 2, False)})
         self.assertEqual(lean["lean_consumers"], ["DOWN"])
+        self.assertEqual(lean["lean_consumers_depth2"], ["FAR"])
 
     def test_graph_neighbourhood_preserves_bundles_and_flags_duplicates(self):
         pack = self.pack()
@@ -148,7 +151,11 @@ class ArgumentContextTests(unittest.TestCase):
                         "companion theorems", "Countermodels and rivals", "MODEL-M violates premise Q",
                         "Attempts on these statements", "Unresolved:", "DEF-C"):
             self.assertIn(heading, text)
-        self.assertIn("… 1 more (see --json)", text)
+        # A truncated section names its hidden entries by ID (#962).
+        self.assertIn("… 1 more: ATTEMPT-OLD (see --json)", text)
+        self.assertIn("… and whose Solution imports one of those: FAR", text)
+        capped = format_context(self.pack(), limit=0, overflow=0)
+        self.assertNotIn("ATTEMPT-OLD", capped.split("Candidates")[0].split("Attempts")[1])
 
     def test_neighbours_share_premises_or_vocabulary_imports_and_related_passes_through(self):
         pack = context_pack(self.root, self.data, self.report, "UP",
@@ -158,6 +165,23 @@ class ArgumentContextTests(unittest.TestCase):
         # PEER shares the non-result vocabulary import; BASE is a reused result, not a neighbour.
         self.assertEqual([(n["result_id"], n["shared_modules"]) for n in pack["lean_neighbours"]], [("PEER", ["TruthCore.Vocab"])])
         self.assertEqual(pack["related_statements"], [{"statement_id": "X", "reasons": ["argument", "text"]}])
+
+    def test_route_leaves_and_attempt_citations_are_ranked_id_lists(self):
+        self.report["routes"]["routes"] = [
+            {"argument_id": "R1", "cost": 2, "open_premise_statement_ids": ["P", "X"]},
+            {"argument_id": "R2", "cost": 2, "open_premise_statement_ids": ["Q", "X", "D"]},
+            {"argument_id": "R3", "cost": 1, "open_premise_statement_ids": ["D"]},  # touches nothing of ours
+        ]
+        self.data["attempts"][0]["summary"] = "Tried MODEL-M against ATTEMPT-NEW; NOT-AN-ID and bare DEEP stay out."
+        self.data["attempts"][1]["evidence"] = ["UP", "MODEL-M"]
+        pack = self.pack()
+        self.assertEqual([r["argument_id"] for r in pack["routes"]], ["R1", "R2"])
+        self.assertEqual(pack["route_open_leaves"], ["X", "D"])  # X on two routes, D on one; own premises excluded
+        # Known IDs only, excluding the argument's own statements and results.
+        self.assertEqual(pack["attempt_cited_ids"], ["MODEL-M"])
+        text = format_context(pack)
+        self.assertIn("other open leaves on these routes (most routes first): X, D", text)
+        self.assertIn("IDs these attempts cite (most cited first; discovery only): MODEL-M", text)
 
     def test_target_resolution(self):
         arguments = {a["id"]: a for a in self.data["arguments"]}

@@ -22,6 +22,7 @@ import re
 from pathlib import Path
 from typing import Any
 
+ID_TOKEN = re.compile(r"(?<![A-Za-z0-9-])[A-Z][A-Z0-9]*(?:-[A-Z0-9]+)+(?![A-Za-z0-9-])")
 IMPORT = re.compile(r"^import\s+(\S+)", re.M)
 DECLARATION = re.compile(r"^(?:@\[[^\]]*\]\s*)?(?:private\s+|protected\s+)?(?:theorem|lemma)\s+(\S+)", re.M)
 BOUNDARY = re.compile(r"^(?:/--|@\[|theorem\s|lemma\s|def\s|abbrev\s|structure\s|inductive\s|instance\s|end\s|namespace\s|section\s|open\s|variable\s|noncomputable\s|private\s|protected\s|--)", re.M)
@@ -161,6 +162,10 @@ def context_pack(root: Path, data: dict[str, list[dict[str, Any]]], report: dict
         consumers = sorted(
             {other["id"] for other in data["results"] if other["id"] != result["id"] and other.get("solution_module")
              and result.get("solution_module") in lean_imports(root, other["solution_module"])})
+        consumer_modules = {r["solution_module"] for r in data["results"] if r["id"] in consumers}
+        consumers_depth2 = sorted(
+            {other["id"] for other in data["results"] if other["id"] != result["id"] and other["id"] not in consumers
+             and other.get("solution_module") and consumer_modules.intersection(lean_imports(root, other["solution_module"]))})
         lean.append({
             "result_id": result["id"], "theorem": theorem, "status": result.get("status"),
             "transcription": result["id"] in transcriptions,
@@ -175,6 +180,7 @@ def context_pack(root: Path, data: dict[str, list[dict[str, Any]]], report: dict
             "direct_imports": lean_imports(root, result.get("solution_module", "")),
             "reused_results": reused,
             "lean_consumers": consumers,
+            "lean_consumers_depth2": consumers_depth2,
         })
 
     # Lean neighbours: other results whose Solution directly imports a non-result module ours imports
@@ -248,6 +254,21 @@ def context_pack(root: Path, data: dict[str, list[dict[str, Any]]], report: dict
         for case in sorted(data["configurations"], key=lambda entry: entry["id"])
         if focus_set.intersection([case["seed_statement_id"], *case["semantics"]["applications"]])
     ]
+    # Other open leaves on the root routes through this argument, most routes first (#962).
+    route_leaves: dict[str, int] = {}
+    for route in routes:
+        for sid in route["open_premise_statement_ids"]:
+            if sid not in focus_set:
+                route_leaves[sid] = route_leaves.get(sid, 0) + 1
+    # Corpus IDs that the scoped attempts cite in prose or evidence, most cited first (#962).
+    known = set(statements) | set(arguments) | {r["id"] for r in data["results"]} | {m["id"] for m in data["models"]}
+    cited: dict[str, int] = {}
+    for attempt in attempts:
+        source = next(a for a in data["attempts"] if a["id"] == attempt["attempt_id"])
+        tokens = set(ID_TOKEN.findall(" ".join([attempt["summary"], attempt.get("blocker") or ""]))) | set(source.get("evidence", []))
+        for token in tokens & known:
+            if token not in ids:
+                cited[token] = cited.get(token, 0) + 1
     open_premises = [sid for sid in [*premises, *commitments] if not report["closed_statements"].get(sid)]
     unresolved = {
         "open_premise_statement_ids": open_premises,
@@ -288,6 +309,8 @@ def context_pack(root: Path, data: dict[str, list[dict[str, Any]]], report: dict
         "attempts": attempts,
         "candidates": candidates,
         "unresolved": unresolved,
+        "route_open_leaves": [sid for sid, _ in sorted(route_leaves.items(), key=lambda item: (-item[1], item[0]))],
+        "attempt_cited_ids": [cid for cid, _ in sorted(cited.items(), key=lambda item: (-item[1], item[0]))],
         "definitions": [{"id": did, "definition": definitions[did].get("definition")}
                         for did in argument.get("definition_ids", []) if did in definitions],
         "disambiguations": [{"id": did, "resolution": disambiguations[did].get("resolution")}
@@ -309,15 +332,24 @@ def _load_json(path: Path) -> dict[str, Any]:
         return {}
 
 
-def format_context(pack: dict[str, Any], limit: int = 6, width: int = 150) -> str:
+def format_context(pack: dict[str, Any], limit: int = 6, width: int = 150, overflow: int = 40) -> str:
     """Compact text for an agent's context window; `--json` keeps every entry untruncated."""
     lines: list[str] = []
 
-    def capped(entries: list[Any], render) -> None:
+    def capped(entries: list[Any], render, ids=None) -> None:
+        """Render up to `limit` entries; name the hidden ones by ID only (#962), so a
+        truncated section still surfaces what exists without its prose."""
         for entry in entries[:limit]:
             lines.extend(render(entry))
-        if len(entries) > limit:
-            lines.append(f"  … {len(entries) - limit} more (see --json)")
+        hidden = entries[limit:]
+        if hidden:
+            names = list(dict.fromkeys(i for entry in hidden for i in (ids(entry) if ids else [])))
+            if names and overflow > 0:
+                shown = names[:overflow]
+                extra = f" +{len(names) - len(shown)}" if len(names) > len(shown) else ""
+                lines.append(f"  … {len(hidden)} more: {', '.join(shown)}{extra} (see --json)")
+            else:
+                lines.append(f"  … {len(hidden)} more (see --json)")
         if not entries:
             lines.append("  none recorded")
 
@@ -334,7 +366,7 @@ def format_context(pack: dict[str, Any], limit: int = 6, width: int = 150) -> st
         for other in others[:3]:
             tags = ",".join(sorted({(r["status"] or "?") + ("/transcription" if r["transcription"] else "") for r in other["results"]})) or "no result"
             shown.append(f"{other['argument_id']} [{tags}]")
-        more = f" +{len(others) - 3}" if len(others) > 3 else ""
+        more = (" +" + ", ".join(other["argument_id"] for other in others[3:3 + overflow])) if len(others) > 3 else ""
         return "also concluded by " + "; ".join(shown) + more
 
     lines.append(f"Argument {pack['argument_id']} (derived context; navigation only, not verification)")
@@ -369,8 +401,13 @@ def format_context(pack: dict[str, Any], limit: int = 6, width: int = 150) -> st
             if len(entry["companion_theorems"]) > limit:
                 lines.append(f"    … {len(entry['companion_theorems']) - limit} more")
         lines.append("  reuses results through Lean imports (depth 1 = direct):")
-        capped(entry["reused_results"], lambda r: [f"    {r['result_id']} d{r['depth']} [{r['status']}; {'graph-linked' if r['graph_linked'] else 'import only, not an argument premise'}] {r['theorem']}"])
+        capped(entry["reused_results"], lambda r: [f"    {r['result_id']} d{r['depth']} [{r['status']}; {'graph-linked' if r['graph_linked'] else 'import only, not an argument premise'}] {r['theorem']}"],
+               ids=lambda r: [r["result_id"]])
         lines.append("  results whose Solution imports this Solution: " + (", ".join(entry["lean_consumers"]) or "none"))
+        if entry.get("lean_consumers_depth2"):
+            second = entry["lean_consumers_depth2"]
+            lines.append("  … and whose Solution imports one of those: " + ", ".join(second[:overflow])
+                         + (f" +{len(second) - overflow}" if len(second) > overflow else ""))
     if not pack["lean"]:
         lines.append("  no result record: the argument has no checked Lean theorem")
 
@@ -378,19 +415,26 @@ def format_context(pack: dict[str, Any], limit: int = 6, width: int = 150) -> st
     capped(pack["inferences"], lambda i: [f"  {i['inference_id']} ({i['rule']}): {', '.join(i['input_statement_ids']) or '—'} ⊢ {i['output_statement_id']}"
                                           + (f"; assumes {', '.join(i['assumption_statement_ids'])}" if i["assumption_statement_ids"] else "")])
     lines.append("\nDownstream arguments using the conclusion as a premise:")
-    capped(pack["downstream_arguments"], lambda d: [f"  {d['argument_id']} ⊢ {d['conclusion_statement_id']}"])
+    capped(pack["downstream_arguments"], lambda d: [f"  {d['argument_id']} ⊢ {d['conclusion_statement_id']}"],
+           ids=lambda d: [d["argument_id"], d["conclusion_statement_id"]])
     lines.append("Arguments sharing a premise (most shared first):")
     capped(pack["premise_sibling_arguments"], lambda d: [
-        f"  {d['argument_id']} [{','.join(sorted({r['status'] or '?' for r in d['results']})) or 'no result'}] shares {', '.join(d['shared_premise_statement_ids'])} ⊢ {d['conclusion_statement_id']}"])
+        f"  {d['argument_id']} [{','.join(sorted({r['status'] or '?' for r in d['results']})) or 'no result'}] shares {', '.join(d['shared_premise_statement_ids'])} ⊢ {d['conclusion_statement_id']}"],
+        ids=lambda d: [d["argument_id"], d["conclusion_statement_id"]])
     lines.append("Lean neighbours (Solutions importing the same vocabulary modules; proximity, not entailment):")
-    capped(pack["lean_neighbours"], lambda n: [f"  {n['result_id']} [{n['status']}] via {', '.join(m.rsplit('.', 1)[-1] for m in n['shared_modules'])}"])
+    capped(pack["lean_neighbours"], lambda n: [f"  {n['result_id']} [{n['status']}] via {', '.join(m.rsplit('.', 1)[-1] for m in n['shared_modules'])}"],
+           ids=lambda n: [n["result_id"]])
     if pack["related_statements"]:
         lines.append("Related to the conclusion (research-index ranking; discovery only): "
-                     + ", ".join(r["statement_id"] for r in pack["related_statements"][:limit]))
+                     + ", ".join(r["statement_id"] for r in pack["related_statements"][:overflow]))
     if pack["same_bundle_argument_ids"]:
         lines.append("Same premise bundle and conclusion (possible duplicate): " + ", ".join(pack["same_bundle_argument_ids"]))
     lines.append(f"\nRoutes to {pack['root']} touching this argument (cost = open leaves):")
-    capped(pack["routes"], lambda r: [f"  {r['argument_id']}: cost {r['cost']}"])
+    capped(pack["routes"], lambda r: [f"  {r['argument_id']}: cost {r['cost']}"], ids=lambda r: [r["argument_id"]])
+    if pack["route_open_leaves"]:
+        leaves = pack["route_open_leaves"]
+        lines.append("  other open leaves on these routes (most routes first): " + ", ".join(leaves[:overflow])
+                     + (f" +{len(leaves) - overflow}" if len(leaves) > overflow else ""))
 
     lines.append("\nCountermodels and rivals (formal interpretations; no premise closure):")
     values: dict[str, int] = {}
@@ -399,17 +443,25 @@ def format_context(pack: dict[str, Any], limit: int = 6, width: int = 150) -> st
     lines.append("  model evaluations: " + (", ".join(f"{count} {value}" for value, count in sorted(values.items())) or "none registered"))
     violating = [m for m in pack["models"] if m["value"] == "violates"]
     if violating:
-        capped(violating, lambda m: [f"  {m['model_id']} violates {m['role']} {m['statement_id']} ({m['theorem']})"])
+        capped(violating, lambda m: [f"  {m['model_id']} violates {m['role']} {m['statement_id']} ({m['theorem']})"],
+               ids=lambda m: [m["model_id"]])
     lines.append("  rival relations (alternative_to / attacks / refutes):")
-    capped(pack["rival_relations"], lambda r: [f"    {r['relation_id']}: {r['subject_id']} {r['predicate']} {r['object_id']}"])
+    capped(pack["rival_relations"], lambda r: [f"    {r['relation_id']}: {r['subject_id']} {r['predicate']} {r['object_id']}"],
+           ids=lambda r: [r["subject_id"], r["object_id"]])
     if pack["configurations"]:
         lines.append("  configuration cases: " + ", ".join(f"{c['configuration_id']} ({c['semantics_id']})" for c in pack["configurations"]))
 
     lines.append("\nAttempts on these statements, newest first (outcomes establish nothing):")
     capped(pack["attempts"], lambda a: [f"  {a['attempt_id']} [{a['date']}; {a['kind']}; {a['outcome']}]: {_short(a['summary'], width)}"]
-           + ([f"    blocker: {_short(a['blocker'], width)}"] if a["blocker"] else []))
+           + ([f"    blocker: {_short(a['blocker'], width)}"] if a["blocker"] else []),
+           ids=lambda a: [a["attempt_id"]])
+    if pack["attempt_cited_ids"]:
+        cited = pack["attempt_cited_ids"]
+        lines.append("  IDs these attempts cite (most cited first; discovery only): " + ", ".join(cited[:overflow])
+                     + (f" +{len(cited) - overflow}" if len(cited) > overflow else ""))
     lines.append("\nCandidates mentioning these IDs:")
-    capped(pack["candidates"], lambda c: [f"  {c['candidate_id']} [{c['status']}; p{c['priority']}] mentions {', '.join(c['mentions'])}: {_short(c['goal'], width)}"])
+    capped(pack["candidates"], lambda c: [f"  {c['candidate_id']} [{c['status']}; p{c['priority']}] mentions {', '.join(c['mentions'])}: {_short(c['goal'], width)}"],
+           ids=lambda c: [c["candidate_id"]])
 
     u = pack["unresolved"]
     lines.append("\nUnresolved:")

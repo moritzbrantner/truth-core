@@ -21,6 +21,9 @@ reuse. Open dossiers only for the premises it reports open.
 | Registered model evaluations (violations first), `alternative_to`/`attacks`/`refutes` relations, configuration cases | model, relation and configuration records |
 | Attempts on these statements or citing the argument/result, newest first, with blockers | attempt records |
 | Candidates whose goal or reason names one of these IDs (whole-token match) | candidate records |
+| Other open leaves on the root routes through the argument, ranked by number of routes | `frontier_report` routes |
+| Corpus IDs cited by the scoped attempts' prose or evidence, ranked by citation count (discovery only) | attempt records |
+| Hidden entries of a truncated section, named by ID | the same records |
 | Unresolved: open premises, open premises with no other recorded argument, blocked/failed attempts, transcriptions, companion theorems Comparator does not check | everything above |
 
 Nothing here is stored or maintained by hand, and no new proposition format is
@@ -68,16 +71,24 @@ anchor statement. Recall is lexical: an ID counts once it appears in the output.
 
 | PR | anchor | needed | baseline calls/KB/s/recall | context KB/s/recall | context --json KB/recall |
 |---|---|---|---|---|---|
-| #925 | `COMPLETE-CAUSE-CONNECTED-SOURCE-UNIQUENESS` | 19 | 5 / 200 / 53.2 / 0.53 | 9.1 / 2.3 / 0.53 | 53 / 0.53 |
-| #919 | `SOURCE-ROOTED-FROM-CONFLUENCE-AND-SOURCE` | 13 | 5 / 199 / 50.7 / 0.69 | 8.2 / 2.3 / 0.46 | 40 / 0.54 |
-| #917 | `AQUINAS-ST-I-Q3-A1-FIRST-BEING-NO-POTENCY` | 27 | 4 / 723 / 38.9 / 0.52 | 8.7 / 2.1 / 0.15 | 185 / 0.78 |
-| #916 | `ACTUAL-COVER-NECESSARY-BEING` | 10 | 8 / 935 / 97.5 / 0.70 | 10.4 / 2.2 / 0.80 | 245 / 0.90 |
-| #906 | `ACTUAL-COMMON-ROOT` | 10 | 9 / 2654 / 96.6 / 1.00 | 13.3 / 2.6 / 0.90 | 453 / 1.00 |
-| #903 | `GRIM-REAPER-NO-FIRST-SCHEDULE-IMPOSSIBLE` | 3 | 2 / 17 / 14.7 / 0.33 | 2.9 / 2.1 / 0.33 | 7 / 0.33 |
-| **total / mean** | | 82 | 33 / 4729 / 352 / 0.63 | 53 KB / 13.6 / 0.53 | 982 / 0.68 |
+| #925 | `COMPLETE-CAUSE-CONNECTED-SOURCE-UNIQUENESS` | 19 | 5 / 200 / 60.8 / 0.53 | 10.0 / 2.3 / 0.53 | 54 / 0.53 |
+| #919 | `SOURCE-ROOTED-FROM-CONFLUENCE-AND-SOURCE` | 13 | 5 / 199 / 56.5 / 0.69 | 9.3 / 2.3 / 0.61 | 41 / 0.69 |
+| #917 | `AQUINAS-ST-I-Q3-A1-FIRST-BEING-NO-POTENCY` | 27 | 4 / 723 / 45.3 / 0.52 | 15.1 / 2.3 / 0.63 | 193 / 0.81 |
+| #916 | `ACTUAL-COVER-NECESSARY-BEING` | 10 | 8 / 935 / 88.7 / 0.70 | 15.8 / 2.1 / 0.80 | 251 / 0.90 |
+| #906 | `ACTUAL-COMMON-ROOT` | 10 | 9 / 2654 / 103.4 / 1.00 | 19.5 / 2.1 / 0.90 | 463 / 1.00 |
+| #903 | `GRIM-REAPER-NO-FIRST-SCHEDULE-IMPOSSIBLE` | 3 | 2 / 17 / 14.9 / 0.33 | 3.0 / 2.4 / 0.33 | 7 / 0.33 |
+| **total / mean** | | 82 | 33 / 4729 / 370 / 0.63 | 73 KB / 13.5 / 0.63 | 1008 / 0.71 |
 
 Measured 2026-11-03 at the bases of the listed merges; columns are calls / KB / seconds / recall. The research index was warm for `context`, because the baseline's `related` built it first.
-Result: the text pack is about 90× smaller and 26× faster, with somewhat lower recall (0.53 against 0.63). Most of the gap is text truncation: `--json` reaches 0.68 at about one fifth of the baseline's bytes. #917 shows the trade-off most clearly: the anchor is a hub of the stage-2 attribute route, and the text caps hide 17 needed IDs that `--json` returns (text misses 23, `--json` 6).
+
+Result: the text pack matches the baseline's recall (0.63) at about 1/65 of its bytes (73 KB against 4.7 MB) and about 25× faster. `--json` reaches 0.71 at about one fifth of the bytes.
+
+The first version, with a fixed 6 entries per section and nothing more, reached only 0.53 (53 KB). #962 added three things:
+- a truncated section names its hidden entries by ID;
+- the other open leaves on the root routes through the argument, and the corpus IDs cited by its attempts, as ranked ID lines;
+- depth-2 Lean consumers.
+
+That raised #917 (a hub of the stage-2 attribute route) from 0.15 to 0.63. The ID lines show at most 40 IDs each (`overflow`). A cap of 25 IDs lowered mean recall to 0.62 (#917 back to 0.52), and the largest pack was still 17.6 KB. So the default stays 40, and packs run to about 20 KB on hub arguments rather than the 15 KB #962 aimed for.
 
 Limits: the sample is six PRs from one author and one week. Recall measures
 which IDs were surfaced, not understanding, and the anchor is taken from what
@@ -90,4 +101,4 @@ The measurement above used the earlier dossier.
 
 Follow-ups (not implemented here): #959 theorem use versus vocabulary imports; #960 elaborated
 type and per-hypothesis binding; #961 agent-service and explorer exposure;
-#962 hub-aware ranking for text recall.
+#964 lean-lsp-mcp trial.
