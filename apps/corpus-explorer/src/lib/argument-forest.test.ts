@@ -1,6 +1,6 @@
 import { describe, expect, test } from "bun:test";
 
-import { buildArgumentForest, buildAssumptionTree } from "./argument-forest";
+import { buildArgumentForest, buildAssumptionTree, TREE_MEANING_LIMIT } from "./argument-forest";
 import { fixtureGraph } from "./frontier-fixture";
 import { fixture } from "./proposition-graph.fixture";
 
@@ -79,6 +79,9 @@ describe("argument forest projection", () => {
     expect(compact.statements.ROOT.argumentIds).toContain("A2");
     expect(compact.statements.ROOT).not.toHaveProperty("rivals");
     expect(compact.statements.ROOT).not.toHaveProperty("directConsequences");
+    for (const argument of Object.values(compact.arguments)) {
+      expect(argument.meaning.length).toBeLessThanOrEqual(TREE_MEANING_LIMIT + 1);
+    }
   });
 
   test("chooses a known fallback root rather than inventing evidence", () => {
