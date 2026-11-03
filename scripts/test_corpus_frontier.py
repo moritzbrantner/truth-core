@@ -1063,7 +1063,9 @@ class FrontierCorpusTest(unittest.TestCase):
         skeleton = next(entry for entry in routes["routes"] if entry["argument_id"] == "CATHOLICISM-SKELETON")
         self.assertNotIn("STMT-GOD-EXISTS", skeleton["open_premise_statement_ids"])
         self.assertGreater(skeleton["cost"], skeleton["premise_count"])
-        self.assertIn("STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT", skeleton["open_premise_statement_ids"])
+        # A leaf under the proof of STMT-GOD-EXISTS, not a direct skeleton
+        # premise (a sourced leaf since #352, In Metaph. IX lect. 8 n. 11).
+        self.assertIn("STMT-FIRST-UNMOVED-MOVER-IS-PURE-ACT", skeleton["open_premise_statement_ids"])
         self.assertEqual(skeleton["cost"], len(skeleton["open_premise_statement_ids"]))
 
     def test_text_output_is_stable(self) -> None:
