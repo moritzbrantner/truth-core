@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 
-import type { ForestArgument, ForestModel, ForestStatement, ForestTreeModel } from "@/lib/argument-forest";
+import { TREE_MEANING_LIMIT, type ForestArgument, type ForestModel, type ForestStatement, type ForestTreeModel } from "@/lib/argument-forest";
 import { sortAssumptionArguments, type AssumptionRelevance, type RouteReadiness } from "@/lib/assumption-relevance";
 import type { AssumptionScenario } from "@/lib/argument-scenarios";
 import styles from "./forest.module.css";
@@ -109,7 +109,7 @@ export function StatementBranch({
             <span>{argument.resultIds.length ? (argument.transcriptionOnly ? "Transcription result" : "Result recorded") : "No result recorded"}</span>
           </div>
           {scenario ? <RouteSummary readiness={relevance?.routeReadiness.get(argument.id)} /> : null}
-          <p className={styles.argumentMeaning}>{excerpt(argument.meaning, 160)}</p>
+          <p className={styles.argumentMeaning}>{excerpt(argument.meaning, TREE_MEANING_LIMIT)}</p>
           {argument.premises.length ? <div className={styles.premises}>
             {(exhaustive ? argument.premises : argument.premises.slice(0, 3)).map((premise, index) =>
               <StatementBranch key={premise + ":" + index} model={model} id={premise} selected={selected}

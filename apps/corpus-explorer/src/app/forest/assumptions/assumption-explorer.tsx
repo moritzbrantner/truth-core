@@ -2,16 +2,21 @@
 
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 import type { ForestTreeModel } from "@/lib/argument-forest";
 import { buildAssumptionRelevance, rankImplications, rankPropositionMatches } from "@/lib/assumption-relevance";
 import { exploreAssumptions } from "@/lib/argument-scenarios";
 import { activeCertifiedCores, reviewNewBelief, type CertifiedBeliefCore } from "@/lib/belief-conflicts";
 import { BELIEF_STORAGE_KEY, chooseBelief, EMPTY_BELIEFS, readBeliefProfile, rejectBeliefs, writeBeliefProfile, type BeliefProfile } from "@/lib/belief-profile";
+import { toggleOpenPath } from "@/lib/tree-open-paths";
 import { StatementBranch } from "../forest-explorer";
 import styles from "../forest.module.css";
 import { ConflictReview } from "./conflict-review";
+
+function profileFromQuery(values: URLSearchParams, known: ReadonlySet<string>): BeliefProfile {
+  return readBeliefProfile(JSON.stringify({ version: 1, accepted: values.getAll("yes"), denied: values.getAll("no") }), known);
+}
 
 export function AssumptionExplorer({ model, certifiedCores, hasCertifiedEvidence }: {
   model: ForestTreeModel;
@@ -29,9 +34,18 @@ export function AssumptionExplorer({ model, certifiedCores, hasCertifiedEvidence
   const [confirmClear, setConfirmClear] = useState(false);
   const [confirmReplace, setConfirmReplace] = useState(false);
   const [shareLink, setShareLink] = useState<string | null>(null);
+  const known = useMemo(() => new Set(Object.keys(model.statements)), [model]);
+  // Compose updates issued before the previous router.replace commits, so rapid
+  // interactions build on each other instead of on the last rendered URL.
+  const pendingQuery = useRef<string | null>(null);
   useEffect(() => {
-    const known = new Set(Object.keys(model.statements));
+    pendingQuery.current = null;
+  }, [params]);
+  useEffect(() => {
     function refresh() {
+      // Another tab changed the saved beliefs; an unanswered proposal no longer applies.
+      setPending(null);
+      setPendingReversal(null);
       try {
         setSaved(readBeliefProfile(window.localStorage.getItem(BELIEF_STORAGE_KEY), known));
       } catch {
@@ -45,17 +59,17 @@ export function AssumptionExplorer({ model, certifiedCores, hasCertifiedEvidence
     };
     window.addEventListener("storage", onStorage);
     return () => window.removeEventListener("storage", onStorage);
-  }, [model]);
+  }, [known]);
 
   const goal = model.statements[params.get("goal") ?? ""] ? params.get("goal")! : model.defaultGoal;
   // A shared URL is an explicit, unsaved preview; never import it on page load.
   const preview = params.has("preview") || params.has("yes") || params.has("no");
-  const previewQuery = params.toString();
+  // Keyed on the belief entries only, so tree toggles and goal changes do not rerun the scenario.
+  const previewKey = JSON.stringify([params.getAll("yes"), params.getAll("no")]);
   const fromUrl = useMemo(() => {
-    const values = new URLSearchParams(previewQuery);
-    return readBeliefProfile(JSON.stringify({ version: 1, accepted: values.getAll("yes"), denied: values.getAll("no") }),
-      new Set(Object.keys(model.statements)));
-  }, [model, previewQuery]);
+    const [accepted, denied] = JSON.parse(previewKey) as [string[], string[]];
+    return readBeliefProfile(JSON.stringify({ version: 1, accepted, denied }), known);
+  }, [known, previewKey]);
   const active = preview ? fromUrl : saved ?? EMPTY_BELIEFS;
   const scenario = useMemo(() => exploreAssumptions(model, active.accepted, active.denied), [model, active]);
   const relevance = useMemo(() => buildAssumptionRelevance(model, goal, scenario), [model, goal, scenario]);
@@ -73,14 +87,20 @@ export function AssumptionExplorer({ model, certifiedCores, hasCertifiedEvidence
     (relevance.goalDistance.get(a) ?? Infinity) - (relevance.goalDistance.get(b) ?? Infinity) || a.localeCompare(b));
 
   function update(change: (next: URLSearchParams) => void) {
-    const next = new URLSearchParams(params.toString());
+    const next = new URLSearchParams(pendingQuery.current ?? params.toString());
     change(next);
-    router.replace("/forest/assumptions" + (next.size ? "?" + next.toString() : ""), { scroll: false });
+    const query = next.toString();
+    pendingQuery.current = query;
+    // Not `next.size`: that getter is missing in Safari 16.x and Chrome/Firefox 111-112.
+    router.replace("/forest/assumptions" + (query ? "?" + query : ""), { scroll: false });
   }
 
   function persist(profile: BeliefProfile) {
     setSaved(profile);
     setShareLink(null);
+    // Any saved change supersedes an unanswered conflict or reversal review.
+    setPending(null);
+    setPendingReversal(null);
     try {
       window.localStorage.setItem(BELIEF_STORAGE_KEY, writeBeliefProfile(profile));
     } catch {
@@ -123,9 +143,9 @@ export function AssumptionExplorer({ model, certifiedCores, hasCertifiedEvidence
 
   function setAssumption(id: string, value: "true" | "false" | "clear") {
     if (preview) {
-      const nextProfile = chooseBelief(fromUrl, id, value);
       setShareLink(null);
       update((next) => {
+        const nextProfile = chooseBelief(profileFromQuery(next, known), id, value);
         next.set("preview", "1");
         next.delete("yes");
         next.delete("no");
@@ -155,12 +175,11 @@ export function AssumptionExplorer({ model, certifiedCores, hasCertifiedEvidence
 
   function toggle(path: string) {
     update((next) => {
-      const paths = new Set(next.has("open") ? next.getAll("open") : ["root"]);
-      if (paths.has(path)) { paths.delete(path); }
-      else { paths.add(path); }
+      const current = next.has("open") ? next.getAll("open").filter((entry) => entry !== "-") : ["root"];
+      const paths = toggleOpenPath(current, path);
       next.delete("open");
       // The sentinel lets a user collapse the initial root without it reopening on reload.
-      if (!paths.size) { next.append("open", "-"); }
+      if (!paths.length) { next.append("open", "-"); }
       else { for (const entry of paths) { next.append("open", entry); } }
     });
   }
