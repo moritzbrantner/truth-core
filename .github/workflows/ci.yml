@@ -50,6 +50,11 @@ jobs:
       - name: Bind argument records to result theorem types
         if: needs.comparator-plan.outputs.lean == 'true'
         run: python3 scripts/corpus.py bind-check
+      # Exemptions (intended full-theory bundles, each with a reason) live in
+      # scripts/unused-premise-exemptions.json (owner decision on #571).
+      - name: Check that result proofs use every listed premise
+        if: needs.comparator-plan.outputs.lean == 'true'
+        run: python3 scripts/corpus.py unused-premises --strict
       - name: Test corpus tooling and media-span and web-snapshot evidence offline
         run: python3 -m unittest discover -s scripts -p 'test_*.py'
       - name: Report the premise frontier
