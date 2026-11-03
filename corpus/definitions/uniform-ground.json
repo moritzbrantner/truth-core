@@ -1,0 +1,8 @@
+{
+  "id": "DEF-UNIFORM-GROUND",
+  "term": "uniform ground (exists-box reason)",
+  "definition": "UniformGround A a d says that one and the same fact is admitted as a reason for d at every world accessible from a. It is the quantifier shift of LocallyGrounded and is strictly stronger: the truthmakers model has local grounds and no uniform ground.",
+  "basis": "stipulative",
+  "note": "Analyst-stated condition for #485; it is under test, not asserted. A sourced reading would need pinned witnesses for the grounding-of-disjunction literature listed on #485 (Merlo 2020, Trogdon 2013, Leuenberger 2014), none of which was read for this work.",
+  "lean_declaration": "TruthCore.Explanation.DisjunctionGround.UniformGround"
+}
