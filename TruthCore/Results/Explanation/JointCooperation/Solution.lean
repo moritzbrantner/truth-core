@@ -661,14 +661,18 @@ theorem target_not_supplied_when_law_off
     ¬ Supply (lawVariant k false)
       (TruthCore.Explanation.UltimateAdequacy.intrinsic k) 2 := by
   intro hs
+  -- The result index must first be generalized: its producer is a function
+  -- of the still-variable source-pattern k and group index g.
+  generalize he : (2 : Nat) = e at hs
   cases hs with
   | intrinsic _ hi =>
-      exact (TruthCore.Results.Explanation.UltimateAdequacy.not_intrinsic_target k hi).elim
+      exact (TruthCore.Results.Explanation.UltimateAdequacy.not_intrinsic_target k
+        (he.symm ▸ hi)).elim
   | joint g hg _ =>
       change (TruthCore.Explanation.UltimateAdequacy.groups k).effect g ≠ 2 ∨
         false = true at hg
       rcases hg with hOther | hFalse
-      · exact (hOther rfl).elim
+      · exact (hOther he.symm).elim
       · cases hFalse
 
 /-- In the existing one-source AND two-source #735 cases, admission of the
