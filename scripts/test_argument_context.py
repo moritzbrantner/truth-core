@@ -3,6 +3,7 @@ import contextlib
 import copy
 import io
 import json
+import shutil
 import tempfile
 import unittest
 from pathlib import Path
@@ -252,6 +253,16 @@ class ArgumentContextTests(unittest.TestCase):
 
 
 class RepositoryContextTests(unittest.TestCase):
+    def test_lean_reuse_exporter_reads_an_existing_compiled_result(self):
+        if shutil.which("lake") is None:
+            self.skipTest("Lean toolchain is not installed")
+        results = corpus.load_dir("results")
+        target = next(record for _, record in results
+                      if record["id"] == "AQUINAS-ST-I-Q11-A3-GOD-ONE-FROM-NATURE")
+        rows = corpus.run_lean_reuse_tool(results, inspect=[target["theorem"]])
+        usage = corpus.lean_reuse_usage_map(rows, [target["theorem"]])
+        self.assertIsInstance(usage[target["theorem"]], list)
+
     def test_existing_argument_pack_runs_on_the_real_corpus(self):
         out = io.StringIO()
         with contextlib.redirect_stdout(out):

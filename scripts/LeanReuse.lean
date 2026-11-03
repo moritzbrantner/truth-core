@@ -30,7 +30,7 @@ def describeProofUse (targets : Array String) (thm : Name) : MetaM Json := do
     referenced := referenced.insert n
     -- Walk through local helpers; library definitions are boundaries.
     -- An axiom/constructor has no inspectable proof body.
-    if !"TruthCore.".isPrefixOf n.toString then continue
+    if !("TruthCore.".isPrefixOf n.toString) then continue
     match env.find? n with
     | some (.thmInfo ci) => pending := pending ++ ci.value.getUsedConstants
     | some (.defnInfo ci) => pending := pending ++ ci.value.getUsedConstants
