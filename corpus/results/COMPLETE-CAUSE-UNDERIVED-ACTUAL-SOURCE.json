@@ -1,0 +1,11 @@
+{
+  "id": "COMPLETE-CAUSE-UNDERIVED-ACTUAL-SOURCE",
+  "argument_id": "COMPLETE-CAUSE-UNDERIVED-ACTUAL-SOURCE",
+  "challenge_module": "TruthCore.Results.Causality.CompleteCauseUnderivedSource.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CompleteCauseUnderivedSource.Solution",
+  "theorem": "TruthCore.Results.Causality.CompleteCauseUnderivedSource.from_union",
+  "comparator_config": "results/COMPLETE-CAUSE-UNDERIVED-ACTUAL-SOURCE/comparator.json",
+  "status": "solution-present",
+  "transcription": "assembly",
+  "description": "Nine-input conditional route to the existing common underived actual-source conclusion: five inherited necessary-support-union inputs, open cause-to-R map and actual causal connectedness, plus two complete-production participant policies imposed on that SAME actual causal graph. Formal bridge is participant cover → unique predecessor → upstream confluence → existing same-witness causal_from_union. Companion control certifies the unchanged two-root shared-effect graph cannot satisfy both participant policies on its ordinary edges for any parthood order; partial cooperation is not ruled out. No substantive philosophical premise is defended or discharged."
+}

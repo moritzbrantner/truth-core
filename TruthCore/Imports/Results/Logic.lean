@@ -12,6 +12,9 @@ import TruthCore.Results.Logic.PerformedDenial.EmptyControl.Solution
 import TruthCore.Results.Logic.PerformedDenial.NoAccurateDenial.Solution
 import TruthCore.Results.Logic.PerformedDenial.StaticControl.Solution
 import TruthCore.Results.Logic.QuantifierShiftInvalid.Solution
+import TruthCore.Results.Logic.ReflectiveCoherence.Boundary.Solution
+import TruthCore.Results.Logic.ReflectiveCoherence.Limits.Solution
+import TruthCore.Results.Logic.ReflectiveCoherence.TruthDirected.Solution
 import TruthCore.Results.Logic.RegressSchema.Solution
 import TruthCore.Results.Logic.Relativism.LocalSecondOrder.Solution
 import TruthCore.Results.Logic.Relativism.Models.Solution
@@ -28,6 +31,8 @@ import TruthCore.Results.Logic.StrengthCause.Solution
 import TruthCore.Results.Logic.StrengthOrder.Solution
 import TruthCore.Results.Logic.StrengthUnique.Solution
 import TruthCore.Results.Logic.ThoughtChangeSubject.Solution
+import TruthCore.Results.Logic.TranscendentalPractice.AgencyDuty.Solution
+import TruthCore.Results.Logic.TranscendentalPractice.InquiryAccess.Solution
 import TruthCore.Results.Logic.TruthNontriviality.Controls.Solution
 import TruthCore.Results.Logic.TruthNontriviality.Core.Solution
 import TruthCore.Results.Logic.TruthNontriviality.PropositionalCollapse.Solution

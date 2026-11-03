@@ -1,0 +1,8 @@
+{
+  "id": "DEF-WORLDVIEW-NECESSARY-IMPLICATION",
+  "term": "necessary implication of a worldview or duty-content",
+  "definition": "A worldview entails content p when p holds at every world satisfying all of the worldview's explicitly held contents; content q follows from content p when q holds at every world where p holds. Necessity is relative to one fixed specified semantic profile, not an unrestricted claim about metaphysical necessity.",
+  "basis": "stipulative",
+  "note": "Formalizes the user's reference to necessary implications without assuming logical omniscience or a modal bridge. Alternative metaphysical or epistemic consequence relations require their own interpretations.",
+  "lean_declaration": "TruthCore.Logic.ReflectiveCoherence.Entails"
+}

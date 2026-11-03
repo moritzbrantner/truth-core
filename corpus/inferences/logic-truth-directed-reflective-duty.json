@@ -1,0 +1,9 @@
+{
+  "id": "INF-LOGIC-TRUTH-DIRECTED-REFLECTIVE-DUTY",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-TRUTH-DIRECTED-REFLECTIVE-DUTY",
+  "rule": "constructive-conditional-proof",
+  "meaning": "Within the quantified conditional, the actual world jointly witnesses the adopted worldview, a true duty-content, and all its necessary consequences. The truth-directed policy and objective truth of the duty remain explicit antecedents, not proved premises.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

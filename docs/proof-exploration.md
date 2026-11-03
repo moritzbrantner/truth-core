@@ -177,8 +177,8 @@ its added premises stay on the frontier until sourced or proved.
   before proving from a premise set).
 - #570: anti-trivialization witnesses with no modal collapse or necessitism.
 - #571: flag result proofs that ignore a listed premise hypothesis. After
-  `lake build`, `python3 scripts/corpus.py unused-premises` (report only;
-  `--strict` exits 1 on a finding, `--json` for the full report) runs
+  `lake build`, `python3 scripts/corpus.py unused-premises` (`--json` for
+  the full report) runs
   `scripts/UnusedPremises.lean` over every result theorem and joins its
   proof-term usage with bind-check's premise binding. A finding names the
   result, the premise statement and its hypothesis (or theory-bundle
@@ -188,3 +188,11 @@ its added premises stay on the frontier until sourced or proved.
   counts as use, so "used" does not mean logically needed. A finding is
   resolved by a new, weaker result without that premise (never by editing the
   frozen Challenge) or by a reason recorded in the result's `description`.
+  CI runs `unused-premises --strict` after bind-check (owner decision on
+  #571, 2026-11-03). It fails on any finding not listed in
+  `scripts/unused-premise-exemptions.json`, and on a stale exemption that no
+  longer matches a finding. Each exemption names one result, the exempted
+  premise statements and a one-line reason: an intended full-theory bundle
+  ("theory T entails X" comparison results), or a finding pending a weaker
+  result and tracked in #571. Exempt only with a reason; never exempt a new
+  finding merely to make CI pass.

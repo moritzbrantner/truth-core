@@ -1,0 +1,9 @@
+{
+  "id": "INF-DISJUNCTION-GROUND-MAP",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-DISJUNCTION-GROUND-MAP",
+  "rule": "model-construction",
+  "meaning": "Prove the quantifier-shift, necessity, population, bridge and fork lemmas generally in the PSRStrength arena, and construct the six two-world models and evaluate the listed conditions on each.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

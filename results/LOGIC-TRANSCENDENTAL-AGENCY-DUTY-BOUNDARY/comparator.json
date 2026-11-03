@@ -1,0 +1,7 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.TranscendentalPractice.AgencyDuty.Challenge",
+  "solution_module": "TruthCore.Results.Logic.TranscendentalPractice.AgencyDuty.Solution",
+  "theorem_names": ["TruthCore.Results.Logic.TranscendentalPractice.AgencyDuty.boundary"],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -759,7 +759,7 @@ class PullRequestScopeTest(unittest.TestCase):
             "WEB-B": (passages_dir / "b.json", second),
         }
 
-    def select(self, changed: list[str]) -> set[str] | None:
+    def select(self, changed: list[str]) -> set[str]:
         return se.changed_passage_ids(changed, self.passages, self.root)
 
     def test_selects_every_passage_of_a_changed_manifest(self) -> None:
@@ -768,8 +768,29 @@ class PullRequestScopeTest(unittest.TestCase):
     def test_unrelated_or_deleted_files_select_nothing(self) -> None:
         self.assertEqual(self.select(["TruthCore/X.lean", "corpus/passages/deleted.json"]), set())
 
-    def test_verifier_change_selects_everything(self) -> None:
-        self.assertIsNone(self.select(["scripts/source_evidence.py"]))
+    def test_verifier_only_change_does_not_refetch_unchanged_witnesses(self) -> None:
+        selected = self.select(["scripts/source_evidence.py"])
+        self.assertEqual(selected, set())
+        with (
+            mock.patch.object(se, "passage_index", return_value=self.passages),
+            mock.patch.object(se, "validate_bindings", return_value=(3, 0)) as bindings,
+            mock.patch.object(se, "fetch_web_bytes", side_effect=AssertionError("unexpected download")),
+            contextlib.redirect_stdout(io.StringIO()) as out,
+        ):
+            self.assertEqual(se.verify_all(passage_ids=selected), 0)
+        bindings.assert_called_once()
+        self.assertIn("the other 3 passed the offline check only", out.getvalue())
+
+    def test_verifier_and_manifest_changes_still_require_exact_witness(self) -> None:
+        selected = self.select(["scripts/source_evidence.py", "corpus/passages/a.json"])
+        self.assertEqual(selected, {"WEB-A", "WEB-A2"})
+        with (
+            mock.patch.object(se, "passage_index", return_value=self.passages),
+            mock.patch.object(se, "validate_bindings", return_value=(3, 0)),
+            mock.patch.object(se, "fetch_web_bytes", side_effect=se.SourceEvidenceError("WEB-A: byte drift")),
+        ):
+            with self.assertRaisesRegex(se.SourceEvidenceError, "byte drift"):
+                se.verify_all(passage_ids=selected)
 
     def test_verify_fetches_only_selected_pages(self) -> None:
         b = self.passages["WEB-B"][1]

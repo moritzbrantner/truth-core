@@ -1,0 +1,168 @@
+.guide {
+  max-width: 76rem;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.guide a:focus-visible,
+.guide summary:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.intro h1 {
+  max-width: 58rem;
+  margin-top: 0.65rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2.15rem, 5vw, 3.7rem);
+  letter-spacing: -0.055em;
+  line-height: 1.06;
+}
+
+.intro > p:not(:first-child) {
+  max-width: 49rem;
+  margin-top: 1.1rem;
+  color: var(--muted);
+  font-size: 1.03rem;
+  line-height: 1.65;
+}
+
+.realityCheck {
+  max-width: 58rem;
+  margin-top: 1.7rem;
+  padding: 1rem 1.2rem;
+  border-left: 3px solid var(--status-open);
+  background: var(--callout);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.realityCheck strong { display: block; }
+
+.routeFacts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem 2.3rem;
+  margin-top: 1.5rem;
+  padding: 1rem 0;
+  border-block: 1px solid var(--line);
+}
+
+.routeFacts div { display: grid; gap: 0.25rem; }
+.routeFacts dt { color: var(--muted); font-size: 0.73rem; }
+.routeFacts dd { font-size: 1.45rem; font-weight: 650; font-variant-numeric: tabular-nums; }
+.intro .countNote { margin-top: 0.6rem; font-size: 0.82rem; }
+.countNote a { color: var(--ink); text-decoration: underline; text-underline-offset: 0.15em; }
+
+.pathNav { margin-top: 2rem; }
+.pathNav ol { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.7rem; }
+.pathNav li { list-style: none; min-width: 0; }
+.pathNav a {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  height: 100%;
+  padding: 0.8rem;
+  border: 1px solid var(--line-strong);
+  color: var(--ink);
+  font-size: 0.84rem;
+  line-height: 1.4;
+  text-decoration: none;
+}
+.pathNav a:hover { background: var(--callout); border-color: var(--accent); }
+.pathNav a span {
+  display: grid;
+  flex: none;
+  width: 1.7rem;
+  height: 1.7rem;
+  place-items: center;
+  border: 1px solid var(--accent);
+  border-radius: 50%;
+  color: var(--accent);
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.prelude {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 1.5rem;
+  margin: 2.5rem 0;
+  padding: 1.1rem 1.4rem;
+  border-left: 3px solid var(--line-strong);
+  background: color-mix(in srgb, var(--callout) 50%, var(--paper));
+}
+.prelude h2 { margin-top: 0.35rem; font-family: Georgia, "Times New Roman", serif; font-size: 1.5rem; }
+.prelude p:not(.eyebrow) { max-width: 52rem; margin-top: 0.5rem; font-size: 0.86rem; line-height: 1.6; }
+.prelude > a { flex: none; font-size: 0.8rem; text-decoration: underline; text-underline-offset: 0.2em; }
+
+.stage {
+  padding: 2.5rem 0 1rem;
+  border-top: 1px solid var(--line);
+  scroll-margin-top: 1.5rem;
+}
+.stageHeading { display: flex; align-items: start; gap: 1rem; }
+.stepNumber { color: var(--accent); font-family: Georgia, "Times New Roman", serif; font-size: 2.8rem; line-height: 1; }
+.stageHeading h2 { max-width: 53rem; margin-top: 0.45rem; font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.8rem, 3vw, 2.45rem); letter-spacing: -0.04em; line-height: 1.15; }
+.stageBody { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.85fr); gap: 2.2rem; margin-top: 1.5rem; }
+.stageNarrative > p { max-width: 43rem; font-size: 0.97rem; line-height: 1.75; }
+.conclusion { margin-top: 1.4rem; padding: 1rem 1.1rem; border-left: 2px solid var(--status-proved); background: var(--callout); }
+.conclusion a { display: block; margin-top: 0.55rem; font-size: 0.86rem; line-height: 1.6; text-decoration: underline; text-decoration-color: var(--line-strong); text-underline-offset: 0.18em; }
+.stageNarrative .nextQuestion { margin-top: 1.4rem; font-size: 0.88rem; }
+.evidenceLinks { display: flex; flex-wrap: wrap; gap: 0.7rem 1.2rem; margin-top: 1.4rem; }
+.evidenceLinks a { color: var(--accent); font-size: 0.82rem; text-decoration: underline; text-underline-offset: 0.2em; }
+.assumptions { min-width: 0; padding: 1.25rem; border: 1px solid var(--line); background: color-mix(in srgb, var(--callout) 55%, var(--paper)); }
+.assumptions h3 { font-size: 1rem; font-weight: 700; }
+.assumptions .supplied { margin-top: 0.55rem; font-size: 0.77rem; line-height: 1.5; color: var(--muted); }
+.supplied a { text-decoration: underline; text-underline-offset: 0.2em; }
+.assumptions ul { display: grid; gap: 1rem; margin-top: 1rem; }
+.assumptions li { padding-top: 0.8rem; border-top: 1px solid var(--line); }
+.focusTitle { color: var(--ink); font-size: 0.85rem; font-weight: 700; text-decoration: underline; text-underline-offset: 0.18em; }
+.assumptions li p { margin-top: 0.3rem; color: var(--muted); font-size: 0.8rem; line-height: 1.55; }
+.dossierLink { display: inline-block; margin-top: 0.5rem; color: var(--accent); font-size: 0.73rem; text-decoration: underline; text-underline-offset: 0.2em; }
+
+.technical { min-width: 0; margin-top: 1.65rem; border: 1px solid var(--line-strong); }
+.technical > summary, .corpusWording > summary { cursor: pointer; padding: 0.9rem 1rem; font-size: 0.85rem; font-weight: 700; }
+.technical[open] > summary { border-bottom: 1px solid var(--line); }
+.technicalInner { padding: 1.2rem; font-size: 0.84rem; line-height: 1.6; }
+.technicalInner > p { max-width: 58rem; }
+.technicalInner a { text-decoration: underline; text-decoration-color: var(--line-strong); text-underline-offset: 0.18em; }
+.premiseList, .leafList { display: grid; gap: 0.65rem; margin-top: 1rem; list-style: decimal; padding-left: 1.3rem; }
+.premiseList li { padding: 0.75rem 0.25rem; border-bottom: 1px solid var(--line); }
+.premiseList li > a:not(.dossierLink) { display: block; margin-top: 0.45rem; }
+.inputRole { display: inline-block; margin-left: 0.4rem; color: var(--muted); font-size: 0.71rem; }
+.theoremName { margin-top: 1.2rem; font-family: ui-monospace, Consolas, monospace; font-size: 0.72rem; overflow-wrap: anywhere; }
+.sourceRecords { margin-top: 1.4rem; }
+.sourceRecords h4 { font-weight: 700; }
+.sourceRecords ul { display: grid; gap: 0.5rem; margin-top: 0.6rem; }
+.sourceRecords p { margin-top: 0.65rem; color: var(--muted); font-size: 0.77rem; }
+.corpusWording { margin-top: 1.25rem; border-top: 1px solid var(--line); }
+.corpusWording > summary { padding-inline: 0; }
+.corpusWording p { padding-bottom: 0.6rem; color: var(--muted); }
+.stagePaging { display: flex; justify-content: space-between; gap: 1rem; margin-top: 1rem; font-size: 0.82rem; }
+.stagePaging a { color: var(--accent); text-decoration: underline; text-underline-offset: 0.2em; }
+
+.remaining { margin-top: 2.5rem; padding-top: 2.5rem; border-top: 2px solid var(--ink); scroll-margin-top: 1.5rem; }
+.remaining h2 { margin-top: 0.55rem; font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.9rem, 3vw, 2.6rem); letter-spacing: -0.04em; }
+.remaining > p:not(.eyebrow) { max-width: 48rem; margin-top: 1rem; font-size: 0.95rem; line-height: 1.7; }
+.boundaries { display: grid; gap: 0.85rem; max-width: 53rem; margin-top: 1.2rem; padding-left: 1.2rem; list-style: disc; font-size: 0.88rem; line-height: 1.65; }
+.leafList li { padding: 0.5rem 0; border-bottom: 1px solid var(--line); }
+.leafList li > a { display: inline-block; margin-top: 0.35rem; color: var(--accent); font-size: 0.75rem; }
+.finalLinks { display: flex; flex-wrap: wrap; gap: 0.75rem 1.4rem; margin-top: 1.8rem; }
+.finalLinks a { color: var(--accent); font-size: 0.84rem; text-decoration: underline; text-underline-offset: 0.2em; }
+
+@media (max-width: 780px) {
+  .stageBody { grid-template-columns: minmax(0, 1fr); gap: 1.3rem; }
+  .pathNav ol { grid-template-columns: minmax(0, 1fr); }
+  .prelude { display: block; }
+  .prelude > a { display: inline-block; margin-top: 0.75rem; }
+  .routeFacts { gap: 0.9rem 1.6rem; }
+}
+
+@media (max-width: 450px) {
+  .stageHeading { gap: 0.7rem; }
+  .stepNumber { font-size: 2.1rem; }
+  .assumptions { padding: 1rem; }
+  .technicalInner { padding: 0.85rem; }
+}

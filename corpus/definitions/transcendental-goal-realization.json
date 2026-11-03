@@ -1,0 +1,8 @@
+{
+  "id": "DEF-TRANSCENDENTAL-GOAL-REALIZATION",
+  "term": "goal realization by an effective means",
+  "definition": "A valued goal is realized in the supplied one-step efficacy profile when an action is performed and effective for that goal. OnlyEffective identifies an effective action and excludes any other effective action within the action domain. Example: a selected menu action opens the intended dialog; an unrelated selection fails. This is an extensional success relation, not a general metaphysical cause relation, temporal process, or condition on intending, knowing, judging, moral permissibility or rational responsibility. No transitivity, asymmetry or well-foundedness is assumed.",
+  "basis": "stipulative",
+  "note": "A thin extensional means-end profile for the candidate transcendental argument, with no source attribution. The assumption that a goal is in fact realized and that one action alone is effective is explicit. See docs/notes/transcendental-foundation-routes.md.",
+  "lean_declaration": "TruthCore.Logic.TranscendentalPractice.Realizes"
+}
