@@ -44,6 +44,15 @@ impl Corpus {
         };
         for &kind in KINDS {
             let directory = root.join("corpus").join(kind);
+            if fs::symlink_metadata(&directory)
+                .is_ok_and(|metadata| metadata.file_type().is_symlink())
+            {
+                return Err(failure(
+                    "invalid_path",
+                    kind,
+                    "symlinked corpus directories are not supported".into(),
+                ));
+            }
             let entries = match fs::read_dir(&directory) {
                 Ok(entries) => entries,
                 Err(error) if error.kind() == std::io::ErrorKind::NotFound => {
@@ -71,6 +80,17 @@ impl Corpus {
                     .to_str()
                     .ok_or_else(|| failure("read_error", kind, "non-UTF-8 record path".into()))?
                     .to_owned();
+                if fs::symlink_metadata(&path)
+                    .map_err(|error| failure("read_error", &relative, error.to_string()))?
+                    .file_type()
+                    .is_symlink()
+                {
+                    return Err(failure(
+                        "invalid_path",
+                        &relative,
+                        "symlinked corpus records are not supported".into(),
+                    ));
+                }
                 let bytes = fs::read(path)
                     .map_err(|error| failure("read_error", &relative, error.to_string()))?;
                 let fields: Map<String, Value> =
