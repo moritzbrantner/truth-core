@@ -1,0 +1,19 @@
+{
+  "id": "INF-COMPLETE-CAUSE-UNDERIVED-ACTUAL-SOURCE",
+  "input_statement_ids": [
+    "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+    "STMT-ACTUAL-MODAL-REFLEXIVITY",
+    "STMT-NO-CONTINGENT-GROUND-OF-NECESSARY",
+    "STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-ACTUAL-CAUSE-SUPPORTS-ESSE",
+    "STMT-COMPLETE-PRODUCER-PARTICIPATES",
+    "STMT-COMPLETE-CAUSE-COVERS-CONTRIBUTORS",
+    "STMT-SOURCE-FOREST-WEAKLY-CONNECTED"
+  ],
+  "output_statement_id": "STMT-COMMON-UNDERIVED-ACTUAL-SOURCE",
+  "rule": "same-graph-complete-cause-underived-witness-assembly",
+  "meaning": "The two OPEN participant policies on actualGraph m w yield unique predecessors and thus confluence on that same graph. Reuse the existing causal_from_union proof and its exact FIVE necessary-underived premises, OPEN cause-to-R interface and OPEN weak connectivity, retaining the underived witness as unique actual causal source. The policies apply here to ALL ordinary actual-causal edges; their complete-production interpretation is additional and disputed, not licensed for free by the generic ordinary-cause signature. The unchanged two-root graph refutes their simultaneous satisfaction on its original edges for every parthood order/participant family but can still model two partial contributors. No premise truth, ordinary-causal WF, God identity or global adequacy is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
