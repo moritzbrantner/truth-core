@@ -53,6 +53,10 @@ class SourceEvidenceError(Exception):
     pass
 
 
+class SourceUnavailableError(SourceEvidenceError):
+    """A witness could not be fetched; this does not imply byte or text drift."""
+
+
 def load_json_dir(name: str) -> list[tuple[Path, dict[str, Any]]]:
     records: list[tuple[Path, dict[str, Any]]] = []
     for path in sorted((CORPUS / name).glob("*.json")):
@@ -1174,7 +1178,7 @@ def download(url: str, label: str, *, attempts: int = 3) -> bytes:
             last_error = exc
             if attempt + 1 < attempts:
                 time.sleep(1 + attempt)
-    raise SourceEvidenceError(f"{label}: cannot fetch {url}: {last_error}")
+    raise SourceUnavailableError(f"{label}: cannot fetch {url}: {last_error}")
 
 
 def fetch_web_bytes(url: str, expected: str, label: str) -> bytes:
@@ -1205,7 +1209,13 @@ def resolve_web_snapshot(passage: dict[str, Any], *, use_cache: bool = True, fet
         try:
             data = fetch(passage["wayback_url"], passage["wayback_sha256"], passage["id"])
         except SourceEvidenceError as archive_error:
-            raise SourceEvidenceError(f"{live_error}; Wayback fallback failed: {archive_error}") from archive_error
+            error_type = (
+                SourceUnavailableError
+                if isinstance(live_error, SourceUnavailableError)
+                and isinstance(archive_error, SourceUnavailableError)
+                else SourceEvidenceError
+            )
+            raise error_type(f"{live_error}; Wayback fallback failed: {archive_error}") from archive_error
         print(f"note: {live_error}; using the pinned Wayback capture", file=sys.stderr)
         expected = passage["wayback_sha256"]
     else:
@@ -1248,7 +1258,12 @@ def changed_passage_ids(
     }
 
 
-def verify_all(export_path: Path | None = None, passage_ids: set[str] | None = None) -> int:
+def verify_all(
+    export_path: Path | None = None,
+    passage_ids: set[str] | None = None,
+    *,
+    defer_unavailable_ids: set[str] | None = None,
+) -> int:
     """Refetch and hash-check source evidence: every passage, or only `passage_ids`.
 
     The offline manifest and claim-binding check always covers every passage.
@@ -1266,6 +1281,7 @@ def verify_all(export_path: Path | None = None, passage_ids: set[str] | None = N
     media_verified = 0
     media_skipped = []
     web_verified = 0
+    web_unavailable: list[tuple[str, str]] = []
     bibliographic = []
     fetched: dict[tuple[str, str], bytes] = {}
 
@@ -1281,7 +1297,13 @@ def verify_all(export_path: Path | None = None, passage_ids: set[str] | None = N
             continue
         if is_web_snapshot(passage):
             # Always refetch (no cache), once per page: the live page, or its pinned Wayback capture.
-            materialize_web_snapshot(passage, use_cache=False, fetch=fetch_once)
+            try:
+                materialize_web_snapshot(passage, use_cache=False, fetch=fetch_once)
+            except SourceUnavailableError as exc:
+                if defer_unavailable_ids is None or passage["id"] not in defer_unavailable_ids:
+                    raise
+                web_unavailable.append((passage["id"], str(exc)))
+                continue
             web_verified += 1
             print(f"verified web snapshot {passage['id']} ({passage['sha256'][7:19]})")
             continue
@@ -1316,9 +1338,13 @@ def verify_all(export_path: Path | None = None, passage_ids: set[str] | None = N
         )
     if bibliographic:
         print(f"bibliographic spans not byte-verified (citation only): {', '.join(sorted(bibliographic))}")
+    for passage_id, reason in sorted(web_unavailable):
+        print(f"{passage_id}: unavailable, NOT byte-verified in this run: {reason}")
     print(
-        f"source evidence ok: {len(passages)} passages, {len(snapshots)} immutable source snapshots, "
+        f"source evidence {'incomplete' if web_unavailable else 'ok'}: "
+        f"{len(passages)} passages, {len(snapshots)} immutable source snapshots, "
         f"{media_verified} media spans verified, {web_verified} web snapshot passages verified, "
+        f"{len(web_unavailable)} web snapshot passages unavailable, "
         f"{len(bibliographic)} bibliographic spans not byte-verified"
     )
     return 0
@@ -1542,6 +1568,15 @@ def parser() -> argparse.ArgumentParser:
         ),
     )
     verify_parser.add_argument("--head", default="HEAD", help="the head of the --base comparison")
+    verify_parser.add_argument(
+        "--defer-unavailable-unchanged",
+        metavar="BASE",
+        help=(
+            "verify all witnesses, but report transport-unreachable unchanged web snapshots as "
+            "explicitly unverified; witnesses changed since BASE, byte drift, and text drift "
+            "remain hard failures (intended for main pushes; nightly is strict)"
+        ),
+    )
     materialize_parser = sub.add_parser(
         "materialize", help="verify and extract one source passage to a local UTF-8 text file"
     )
@@ -1572,6 +1607,14 @@ def main() -> int:
             return check()
         if args.command == "verify":
             export = Path(args.export) if args.export else None
+            if args.base and args.defer_unavailable_unchanged:
+                raise SourceEvidenceError("--base and --defer-unavailable-unchanged are mutually exclusive")
+            if args.defer_unavailable_unchanged:
+                index = passage_index()
+                changed = changed_passage_ids(
+                    git_changed_files(args.defer_unavailable_unchanged, args.head), index
+                )
+                return verify_all(export, defer_unavailable_ids=set(index) - changed)
             if args.base is None:
                 return verify_all(export)
             selected = changed_passage_ids(git_changed_files(args.base, args.head), passage_index())
