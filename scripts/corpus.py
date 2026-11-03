@@ -2346,7 +2346,10 @@ def command_related(args: argparse.Namespace) -> int:
 
 
 def command_dossier(args: argparse.Namespace) -> int:
-    validate()
+    # The explorer's --all export keeps full validation; a single-statement read skips it
+    # like `related` and `context` do (#958): run `corpus.py check` to validate.
+    if args.all:
+        validate()
     directories = ("statements", "claims", "definitions", "disambiguations", "inferences", "arguments", "results", "relations", "attempts", "models", "configurations")
     data = {name: [record for _, record in load_dir(name)] for name in directories}
     if not args.all and args.statement_id not in {entry["id"] for entry in data["statements"]}:
@@ -2355,14 +2358,13 @@ def command_dossier(args: argparse.Namespace) -> int:
                              root=args.root, transcription=transcription_flags(data["results"], data["arguments"], data["statements"]), claims=data["claims"])
     if not report["root_known"]:
         raise CorpusError(f"unknown root statement: {args.root}")
-    dossiers = dossier_index(data, report)
+    dossiers = dossier_index(data, report, only=None if args.all else {args.statement_id})
     if args.all:
         print(json.dumps(dossiers, ensure_ascii=False))
         return 0
-    if args.statement_id not in dossiers:
-        raise CorpusError(f"unknown statement: {args.statement_id}")
     dossier = dossiers[args.statement_id]
-    print(json.dumps(dossier, indent=2, ensure_ascii=False) if args.json else format_dossier(dossier, data))
+    limit = None if args.limit <= 0 else args.limit
+    print(json.dumps(dossier, indent=2, ensure_ascii=False) if args.json else format_dossier(dossier, data, limit=limit))
     return 0
 
 
@@ -3322,7 +3324,8 @@ def parser() -> argparse.ArgumentParser:
     target = dossier.add_mutually_exclusive_group(required=True)
     target.add_argument("statement_id", nargs="?")
     target.add_argument("--all", action="store_true", help="emit all dossiers as one JSON object (for the explorer)")
-    dossier.add_argument("--json", action="store_true", help="print machine-readable JSON")
+    dossier.add_argument("--json", action="store_true", help="print machine-readable JSON (always complete)")
+    dossier.add_argument("--limit", type=int, default=8, help="entries shown per text section (0 = all)")
     dossier.add_argument("--root", default=DEFAULT_FRONTIER_ROOT)
     dossier.set_defaults(func=command_dossier)
     context = sub.add_parser("context", help="one bounded context pack for an argument: Lean type, reuse, premises, countermodels, open work")

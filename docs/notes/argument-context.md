@@ -84,7 +84,10 @@ which IDs were surfaced, not understanding, and the anchor is taken from what
 the PR actually imported. The main missed IDs are PR-specific novelties: results
 in neighbouring argument families that neither tool links to the anchor.
 
-Follow-ups (not implemented here): #958 single-statement dossier speed and
-bounded output; #959 theorem use versus vocabulary imports; #960 elaborated
+Deficiencies 1–2 are addressed on the same branch by #958: a single-statement
+dossier now takes about 1.4 s, and its default text for `STMT-GOD-IS-ONE` is 15 KB.
+The measurement above used the earlier dossier.
+
+Follow-ups (not implemented here): #959 theorem use versus vocabulary imports; #960 elaborated
 type and per-hypothesis binding; #961 agent-service and explorer exposure;
 #962 hub-aware ranking for text recall.
