@@ -143,12 +143,12 @@ ladder's vocabulary.
    (`TruthCore.Results.Modal.SimplicityCollapse.branchCosts`). That branch keeps every reason
    necessitating and gives up all contingency here. The #555 table and this reading agree on the
    cost without any new model.
-2. *On reading A the separator from the classical ground is will and contingency, not intellect.*
+2. *On reading A the established separator from the classical ground is contingency, not intellect.*
    On that reading Spinoza grants thought, and an idea of God's essence, at the level of the ground (II 1, II 3).
-   What he denies is that the ground acts by free will (I 32 cor. 1) and that anything follows
-   contingently (I 29). The classical side's q.19 a.1 and the #555 nonnecessitating branch are
-   where the two part. So the strongest historical rival puts its weight on the rung that
-   `willless` and #555 already isolate, and less on the q.14 a.1 rung than the ladder's
+   What he denies is that anything follows contingently (I 29) and that the ground acts by free
+   will (I 32 cor. 1). The classical side's #555 nonnecessitating branch is where the two part.
+   Whether they also part at q.19 a.1 is unresolved (finding 4). So the strongest historical rival
+   puts its weight on the rung that #555 isolates, and less on the q.14 a.1 rung than the ladder's
    `simpleImpersonal` suggests. On reading B intellect separates them as well.
 3. *"Physical" does not mean composite even for its strongest historical exponent.* I 13 cor. and
    I 15 note assert an extended substance that is not composed of parts. This supports
@@ -162,11 +162,16 @@ ladder's vocabulary.
    God has an idea of his essence (II 1, II 3). Reading B: it fails, because intellect in act is a
    mode in *natura naturata* (I 31), and if it belonged to the essence it would share only the name
    (I 17 note). Both are defensible, and the text supports each against a different clause of the
-   definition. Neither is formalized. Each reading's consequence is explicit, though. On A, the
-   Spinozist ground has intellect while will "no more appertains to God than does anything else in
-   nature" (I 32 cor. 2). It then denies `STMT-WILL-FOLLOWS-INTELLECT` of the ground, the rung the
-   `willless` table separates. Spinoza denies will as part of God's nature. He does not deny that
-   volitions exist as modes. On B, it is on the `simpleImpersonal` rung,
+   definition. Neither is formalized. On A, whether the ground also has `HasWill`
+   (DEF-HAS-WILL: intellectual inclination toward apprehended good) is **unresolved**. Spinoza
+   denies free will (I 32 cor. 1) and that will "appertains to God's nature" any more than motion
+   and rest do (I 32 cor. 2). But `DEF-HAS-WILL` and `WillFollowsIntellectReading`
+   (`HasIntellect x → HasWill x`) require no contingent choice or freedom from necessitation, so
+   denying free selection is not denying intellectual appetite in this repository's sense. Nor is
+   it shown why reading A's grounds for admitting intellect (an idea of God's essence, II 3) would
+   not equally admit an inclination following it. So reading A does not place the Spinozist ground
+   on the `willless` rung; that needs a further reading establishing the absence of intellectual
+   appetite, which is not supplied here. On B, it is on the `simpleImpersonal` rung,
    denying intellect to a noncomposite maximum, with the additional necessitarian cost.
 
 5. *Spinoza supplies the collapse objection that #555 tests.* I 33 note II argues from premises he
