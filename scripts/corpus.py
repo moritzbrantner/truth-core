@@ -3009,6 +3009,70 @@ def command_bind_check(args: argparse.Namespace) -> int:
 # --- unused-premises (#571): result proofs that ignore a listed premise ---------
 
 UNUSED_TOOL = ROOT / "scripts" / "UnusedPremises.lean"
+UNUSED_EXEMPTIONS = ROOT / "scripts" / "unused-premise-exemptions.json"
+
+
+def load_unused_exemptions(path: Path = UNUSED_EXEMPTIONS) -> dict[tuple[str, str], str]:
+    """Read the checked-in exemptions of `unused-premises --strict` (owner decision on #571).
+
+    The file is `{"exemptions": [{"result_id", "statement_ids", "reason"}, ...]}`.
+    Each entry exempts the listed premise statements of one result from the
+    strict gate, for the recorded reason (an intended full-theory bundle, or a
+    finding pending a weaker result). Returns `(result_id, statement_id) -> reason`.
+    """
+    if not path.exists():
+        return {}
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as exc:
+        raise CorpusError(f"{path.name}: invalid JSON: {exc}") from exc
+    entries = data.get("exemptions") if isinstance(data, dict) else None
+    if not isinstance(entries, list):
+        raise CorpusError(f"{path.name}: expected an object with an `exemptions` list")
+    exemptions: dict[tuple[str, str], str] = {}
+    for index, entry in enumerate(entries):
+        where = f"{path.name}: exemption {index}"
+        if not isinstance(entry, dict) or set(entry) != {"result_id", "statement_ids", "reason"}:
+            raise CorpusError(f"{where}: needs exactly `result_id`, `statement_ids` and `reason`")
+        result_id, statement_ids, reason = entry["result_id"], entry["statement_ids"], entry["reason"]
+        if not isinstance(result_id, str) or not result_id:
+            raise CorpusError(f"{where}: `result_id` must be a nonempty string")
+        if not isinstance(reason, str) or not reason.strip():
+            raise CorpusError(f"{where} ({result_id}): `reason` must be a nonempty string")
+        if (
+            not isinstance(statement_ids, list)
+            or not statement_ids
+            or not all(isinstance(item, str) and item for item in statement_ids)
+        ):
+            raise CorpusError(f"{where} ({result_id}): `statement_ids` must be a nonempty list of ids")
+        for statement_id in statement_ids:
+            if (result_id, statement_id) in exemptions:
+                raise CorpusError(f"{where}: {result_id} / {statement_id} is exempted twice")
+            exemptions[(result_id, statement_id)] = reason
+    return exemptions
+
+
+def apply_unused_exemptions(
+    report: dict[str, Any], exemptions: dict[tuple[str, str], str]
+) -> dict[str, Any]:
+    """Split findings into exempted and gating ones, and list stale exemptions.
+
+    A finding is exempted when its `(result_id, statement_id)` is listed. An
+    exemption is stale when its result was checked but has no such finding
+    (the premise is used now, or the result changed); a stale exemption fails
+    the strict gate like a finding, so the list cannot silently outlive its
+    reason. Exemptions of skipped or unknown results are stale as well.
+    """
+    found = {(finding["result_id"], finding["statement_id"]) for finding in report["findings"]}
+    gating = [finding for finding in report["findings"] if (finding["result_id"], finding["statement_id"]) not in exemptions]
+    exempted = [
+        dict(finding, exemption_reason=exemptions[(finding["result_id"], finding["statement_id"])])
+        for finding in report["findings"]
+        if (finding["result_id"], finding["statement_id"]) in exemptions
+    ]
+    stale = sorted(f"{result_id} / {statement_id}" for result_id, statement_id in exemptions if (result_id, statement_id) not in found)
+    summary = dict(report["summary"], exempted=len(exempted), gating=len(gating), stale_exemptions=len(stale))
+    return dict(report, summary=summary, findings=gating, exempted=exempted, stale_exemptions=stale)
 
 
 def run_unused_tool(tool_input: dict[str, list[str]]) -> list[dict[str, Any]]:
@@ -3118,6 +3182,9 @@ def command_unused_premises(args: argparse.Namespace) -> int:
     )
     root_open = {item["statement_id"] for item in frontier["items"] if item["path_to_root"] is not None}
     report = unused_premise_findings(bind_entries, usage_list, root_open)
+    report = apply_unused_exemptions(
+        report, load_unused_exemptions(Path(args.exemptions) if args.exemptions else UNUSED_EXEMPTIONS)
+    )
     if args.json:
         print(json.dumps(report, indent=2, ensure_ascii=False, sort_keys=True))
     else:
@@ -3125,14 +3192,19 @@ def command_unused_premises(args: argparse.Namespace) -> int:
             where = f" (conjunct {finding['conjunct'] + 1} of {finding['bundle']})" if "bundle" in finding else ""
             root = " [open, on root path]" if finding["open_on_root_path"] else ""
             print(f"unused: {finding['result_id']}: {finding['statement_id']} via {finding['hypothesis']}{where}{root}")
+        for finding in report["exempted"]:
+            print(f"exempted: {finding['result_id']}: {finding['statement_id']} ({finding['exemption_reason']})")
+        for key in report["stale_exemptions"]:
+            print(f"stale exemption: {key} has no unused-premise finding; remove it from {UNUSED_EXEMPTIONS.name}")
         for result_id in report["skipped"]:
             print(f"skipped: {result_id} (not bound by bind-check)")
         summary = report["summary"]
         print(
-            f"unused-premises: {summary['checked']} results checked, {summary['findings']} unused premise(s), "
+            f"unused-premises: {summary['checked']} results checked, {summary['gating']} unexempted and "
+            f"{summary['exempted']} exempted unused premise(s), {summary['stale_exemptions']} stale exemption(s), "
             f"{summary['skipped']} skipped"
         )
-    return 1 if args.strict and report["findings"] else 0
+    return 1 if args.strict and (report["findings"] or report["stale_exemptions"]) else 0
 
 
 def parser() -> argparse.ArgumentParser:
@@ -3239,7 +3311,11 @@ def parser() -> argparse.ArgumentParser:
         help="report result premises whose bound hypothesis the proof term never uses (after lake build)",
     )
     unused.add_argument("--json", action="store_true", help="print the deterministic report as JSON")
-    unused.add_argument("--strict", action="store_true", help="exit 1 when any unused premise is found")
+    unused.add_argument(
+        "--strict", action="store_true",
+        help="exit 1 on an unexempted unused premise or a stale exemption (CI gate)",
+    )
+    unused.add_argument("--exemptions", help="exemption file (default scripts/unused-premise-exemptions.json)")
     unused.add_argument("--root", default=DEFAULT_FRONTIER_ROOT, help="root for the on-root-path flag")
     unused.add_argument("--bind-json", help="use a saved `bind-check --json` report instead of running Lean")
     unused.add_argument("--usage-json", help="use a saved scripts/UnusedPremises.lean output instead of running Lean")
