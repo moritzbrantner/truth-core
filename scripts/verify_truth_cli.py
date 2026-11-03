@@ -75,6 +75,24 @@ class TruthParity(unittest.TestCase):
                 path.write_text(value)
                 self.assertEqual(self.invoke(*args, "status", code=1)["error"]["code"], error_code)
 
+    def test_symlinks_cannot_escape_the_corpus_boundary(self):
+        with tempfile.TemporaryDirectory() as temporary, tempfile.TemporaryDirectory() as outside:
+            root = Path(temporary)
+            directory = root / "corpus" / "statements"
+            directory.mkdir(parents=True)
+            foreign = Path(outside) / "foreign.json"
+            foreign.write_text(json.dumps({"id": "STMT-FOREIGN", "paraphrase": "Not in corpus"}))
+            link = directory / "linked.json"
+            link.symlink_to(foreign)
+            result = self.invoke("--root", str(root), "status", code=1)
+            self.assertEqual(result["error"]["code"], "invalid_path")
+            self.assertEqual(result["error"]["path"], "corpus/statements/linked.json")
+            link.unlink()
+            directory.rmdir()
+            directory.symlink_to(Path(outside), target_is_directory=True)
+            result = self.invoke("--root", str(root), "status", code=1)
+            self.assertEqual(result["error"]["code"], "invalid_path")
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
