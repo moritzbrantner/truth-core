@@ -1,0 +1,17 @@
+{
+  "id": "ATTEMPT-DISJUNCTION-GROUND-485",
+  "date": "2026-11-03",
+  "statement_ids": [
+    "STMT-DISJUNCTION-GROUND-MAP",
+    "STMT-NECESSARY-INDIVIDUAL-ALTERNATING"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "First slice of #485 in the PSRStrength arena. Findings: local (box-exists) reasons for a necessary existential fact do not give one uniform (exists-box) reason; under factivity, coherence, the instance reading of grounds and actual self-access, a uniform reason gives a necessary being; classically a uniform reason is either a non-existence-fact reason or there is a necessary being. Six two-world models: truthmakers (only contingent local grounds, necessitating, no necessary being), lawGround (necessary necessitating abstract law as uniform ground, no necessary being, no causation), three single-premise deletions (factivity, coherence, self-access) and the jointly satisfiable fixedBearer. Rejected: treating necessitation of the disjunction by its grounds as supplying a necessarily existent ground (truthmakers and lawGround are both necessitating); reading any reason as an efficient cause (no model has causation); reproving the strict-necessitation guard already certified in BruteFoundationExplanations and PSR-COLLAPSE-CORE. Reviewed and not reused: the uncommitted TotalityGround/NecessarySupportRank drafts in an abandoned #495 clone, which target the totality route and #495's underivedness and are outside this slice. No source was read, so nothing is attributed.",
+  "blocker": "The instance reading and any principle that the necessary existential fact needs a uniform ground are open and undefended. Not attempted: the finite joint-coverage elimination, the Nat prefix countermodel, Zorn and compactness bridges, and the well-founded deterministic propagation theorem from the #485 comments.",
+  "evidence": [
+    "DISJUNCTION-GROUND-MAP",
+    "NECESSARY-INDIVIDUAL-ALTERNATING",
+    "PSR-COLLAPSE-CORE"
+  ]
+}

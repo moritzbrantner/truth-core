@@ -8,6 +8,7 @@ import TruthCore.Results.Explanation.BCCFDerivative.Solution
 import TruthCore.Results.Explanation.BorrowedExercise.Solution
 import TruthCore.Results.Explanation.CondensationSufficiency.Solution
 import TruthCore.Results.Explanation.ConservativeReasonExpansion.Solution
+import TruthCore.Results.Explanation.DisjunctionGround.Solution
 import TruthCore.Results.Explanation.EmptyHistoryCausalAvailability.Solution
 import TruthCore.Results.Explanation.EmptyHistoryCountControl.Solution
 import TruthCore.Results.Explanation.ExistenceIngredient.Solution
