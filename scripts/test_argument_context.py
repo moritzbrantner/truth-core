@@ -135,6 +135,7 @@ class ArgumentContextTests(unittest.TestCase):
         self.assertTrue(reused["BASE"]["graph_linked"])
         self.assertFalse(reused["PEER"]["graph_linked"])
         self.assertFalse(reused["DEEP"]["theorem_used"])
+        self.assertIn("transcription", reused["BASE"])
         self.assertEqual(lean["proof_theorems"], ["Demo.Base.main", "Demo.Peer.main"])
         self.assertIn("theorem-used, not in argument graph", format_context(pack))
         report = lean_reuse_review(self.root, self.data["results"],

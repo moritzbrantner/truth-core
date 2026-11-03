@@ -238,6 +238,8 @@ def context_pack(root: Path, data: dict[str, list[dict[str, Any]]], report: dict
              and other.get("solution_module") and consumer_modules.intersection(lean_imports(root, other["solution_module"]))})
         if proof_uses is not None and theorem in proof_uses:
             reused = classify_result_reuse(root, result, data["results"], arguments, proof_uses[theorem])
+            for item in reused:
+                item["transcription"] = item["result_id"] in transcriptions
         lean_entry = {
             "result_id": result["id"], "theorem": theorem, "status": result.get("status"),
             "transcription": result["id"] in transcriptions,
