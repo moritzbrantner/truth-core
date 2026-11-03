@@ -457,6 +457,12 @@ class WebSnapshotTest(unittest.TestCase):
         with self.assertRaisesRegex(se.SourceEvidenceError, "cannot fetch"):
             se.materialize_web_snapshot(passage, fetch=offline)
 
+    def test_http_403_is_availability_not_integrity_failure(self) -> None:
+        denied = se.urllib.error.HTTPError(LIVE_URL, 403, "Forbidden", {}, None)
+        with mock.patch.object(se.urllib.request, "urlopen", side_effect=denied):
+            with self.assertRaisesRegex(se.SourceUnavailableError, "HTTP Error 403"):
+                se.download(LIVE_URL, "WEB-A", attempts=1)
+
     def manifest(self, passage: dict) -> None:
         se.validate_web_snapshot_manifest(se.ROOT / "corpus" / "passages" / "fixture.json", passage)
 
@@ -715,6 +721,61 @@ class PullRequestScopeTest(unittest.TestCase):
         self.assertEqual(web.requested, [LIVE_URL])
         self.assertNotIn(b["source_url"], web.requested)
         self.assertIn("limited to 2 changed passage(s): WEB-A, WEB-A2; the other 1", out.getvalue())
+
+    def test_unchanged_unreachable_web_witness_is_explicitly_unverified(self) -> None:
+        passage = self.passages["WEB-A"][1]
+        passage["wayback_url"] = WAYBACK_URL
+        passage["wayback_sha256"] = se.sha256_bytes(ARCHIVED)
+        only = {"WEB-A": self.passages["WEB-A"]}
+
+        def unavailable(url: str, expected: str, label: str) -> bytes:
+            raise se.SourceUnavailableError(f"{label}: cannot fetch {url}: HTTP 403")
+
+        with (
+            mock.patch.object(se, "passage_index", return_value=only),
+            mock.patch.object(se, "validate_bindings", return_value=(1, 0)),
+            mock.patch.object(se, "fetch_web_bytes", side_effect=unavailable),
+            contextlib.redirect_stdout(io.StringIO()) as out,
+        ):
+            self.assertEqual(se.verify_all(defer_unavailable_ids={"WEB-A"}), 0)
+        self.assertIn("WEB-A: unavailable, NOT byte-verified", out.getvalue())
+        self.assertIn("source evidence incomplete", out.getvalue())
+
+    def test_changed_witness_remains_strict_when_unreachable(self) -> None:
+        passage = self.passages["WEB-A"][1]
+        passage["wayback_url"] = WAYBACK_URL
+        passage["wayback_sha256"] = se.sha256_bytes(ARCHIVED)
+        only = {"WEB-A": self.passages["WEB-A"]}
+
+        with (
+            mock.patch.object(se, "passage_index", return_value=only),
+            mock.patch.object(se, "validate_bindings", return_value=(1, 0)),
+            mock.patch.object(
+                se, "fetch_web_bytes",
+                side_effect=se.SourceUnavailableError("WEB-A: cannot fetch: HTTP 403"),
+            ),
+        ):
+            with self.assertRaisesRegex(se.SourceEvidenceError, "Wayback fallback failed"):
+                se.verify_all(defer_unavailable_ids=set())
+
+    def test_byte_drift_is_not_deferred_as_unavailable(self) -> None:
+        passage = self.passages["WEB-A"][1]
+        passage["wayback_url"] = WAYBACK_URL
+        passage["wayback_sha256"] = se.sha256_bytes(ARCHIVED)
+        only = {"WEB-A": self.passages["WEB-A"]}
+
+        def mixed(url: str, expected: str, label: str) -> bytes:
+            if url == LIVE_URL:
+                raise se.SourceEvidenceError("WEB-A: byte drift")
+            raise se.SourceUnavailableError("WEB-A: archive unreachable")
+
+        with (
+            mock.patch.object(se, "passage_index", return_value=only),
+            mock.patch.object(se, "validate_bindings", return_value=(1, 0)),
+            mock.patch.object(se, "fetch_web_bytes", side_effect=mixed),
+        ):
+            with self.assertRaisesRegex(se.SourceEvidenceError, "byte drift"):
+                se.verify_all(defer_unavailable_ids={"WEB-A"})
 
     def test_git_changed_files(self) -> None:
         def git(*args: str) -> None:
