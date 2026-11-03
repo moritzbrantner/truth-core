@@ -107,6 +107,7 @@ create parallel Lean sessions.
 | `GET /health` | toolchain and binding |
 | `GET /corpus/record?id=ID` | the `corpus/*/*.json` record with that `id` (statement, claim, argument, result, definition, …) |
 | `GET /corpus/dossier?id=STMT-…` | `corpus.py dossier --json ID` |
+| `GET /corpus/context?id=ARGUMENT\|RESULT\|STMT-…[&related=N&root=…]` | `corpus.py context ID --json [--related N] [--root]` (untruncated argument context pack, `docs/notes/argument-context.md`); with `&limit=N`, the text report `--limit N` instead |
 | `GET /corpus/frontier[?root=…&reaching_root=1&routes=1]` | `corpus.py frontier --json [--root] [--reaching-root]`, or the text `--routes` report |
 | `POST /corpus/check` | `corpus.py check` |
 | `POST /lean/diagnostics {path, session?, content?, timeout?}` | open or update the file in the session, wait for elaboration (`textDocument/waitForDiagnostics`), return its diagnostics |
@@ -177,6 +178,7 @@ with the request's `workspace` field.
 B=http://127.0.0.1:8765
 curl -s "$B/corpus/record?id=STMT-CATHOLICISM-TRUE"
 curl -s "$B/corpus/dossier?id=STMT-CATHOLICISM-TRUE"
+curl -s "$B/corpus/context?id=<ARGUMENT-OR-RESULT-ID>&related=0"
 curl -s -X POST "$B/corpus/check"
 curl -s -X POST -d '{"kind":"build","targets":["TruthCore.Results.Hiddenness.BeliefWithoutAcceptance.Solution"]}' "$B/jobs"
 curl -s "$B/jobs/<id>"

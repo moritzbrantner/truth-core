@@ -462,6 +462,9 @@ class Service:
         if method == "GET" and route == "/corpus/dossier":
             inputs["id"] = check_id(params.get("id"), "id")
             return run_corpus(workspace, ["dossier", "--json", inputs["id"]])
+        if method == "GET" and route == "/corpus/context":
+            inputs["args"] = args = context_args(params)
+            return run_corpus(workspace, args)
         if method == "GET" and route == "/corpus/frontier":
             args = ["frontier", "--json"]
             if params.get("root"):
@@ -516,6 +519,26 @@ class Service:
                 out["goal"] = session.goal(path, line, character, timeout)
             out["elapsed_s"] = round(time.time() - started, 3)
         return out
+
+
+def count(params: dict, name: str) -> int | None:
+    value = params.get(name)
+    if value is None or value == "":
+        return None
+    if not str(value).isdecimal():
+        raise RequestError(400, f"{name} must be a non-negative integer")
+    return int(value)
+
+
+def context_args(params: dict) -> list[str]:
+    """`corpus.py context` arguments: JSON (untruncated) by default, or text with `limit`."""
+    args = ["context", check_id(params.get("id"), "id")]
+    args += ["--limit", str(limit)] if (limit := count(params, "limit")) is not None else ["--json"]
+    if (related := count(params, "related")) is not None:
+        args += ["--related", str(related)]
+    if params.get("root"):
+        args += ["--root", check_id(params["root"], "root")]
+    return args
 
 
 def truthy(value: object) -> bool:

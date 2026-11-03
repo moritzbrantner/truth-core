@@ -100,5 +100,6 @@ dossier now takes about 1.4 s, and its default text for `STMT-GOD-IS-ONE` is 15 
 The measurement above used the earlier dossier.
 
 Follow-ups (not implemented here): #959 theorem use versus vocabulary imports; #960 elaborated
-type and per-hypothesis binding; #961 agent-service and explorer exposure;
-#964 lean-lsp-mcp trial.
+type and per-hypothesis binding; #961 explorer exposure;
+#964 lean-lsp-mcp trial. The local agent service serves the pack as
+`GET /corpus/context` (#961, `docs/agent-service.md`).
