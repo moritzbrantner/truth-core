@@ -297,6 +297,7 @@ export type Corpus = {
 };
 
 const corpusDirectory = path.resolve(process.cwd(), "../..", "corpus");
+let cachedBuildCorpus: Corpus | undefined;
 
 function readRecords<Record>(directory: string): Record[] {
   if (!existsSync(directory)) {
@@ -340,6 +341,16 @@ function passageForRawClaim(passages: CorpusPassage[], claim: RawCorpusClaim) {
 }
 
 export function getCorpus(): Corpus {
+  // Static export renders thousands of pages in each worker. Its corpus inputs
+  // are a build snapshot, while development and tests must see fresh files.
+  if (process.env.NODE_ENV === "production") {
+    if (cachedBuildCorpus) {
+      return cachedBuildCorpus;
+    }
+  } else {
+    cachedBuildCorpus = undefined;
+  }
+
   const sources = readRecords<CorpusSource>(path.join(corpusDirectory, "sources"));
   const passages = readPassages();
   const statements = readRecords<CorpusStatement>(path.join(corpusDirectory, "statements"));
@@ -378,7 +389,7 @@ export function getCorpus(): Corpus {
     return { ...result, argument, meaning: argument.meaning };
   });
 
-  return {
+  const corpus = {
     sources,
     passages,
     statements,
@@ -391,6 +402,12 @@ export function getCorpus(): Corpus {
     definitions,
     disambiguations,
   };
+
+  if (process.env.NODE_ENV === "production") {
+    cachedBuildCorpus = corpus;
+  }
+
+  return corpus;
 }
 
 export function findDefinition(corpus: Corpus, definitionId: string) {
