@@ -50,8 +50,12 @@ def validate_attempt(attempt: dict[str, Any], statements: set[str], evidence_ids
         raise ValueError("blocked attempts require a blocker")
 
 
-def dossier_index(data: dict[str, list[dict[str, Any]]], report: dict[str, Any]) -> dict[str, dict[str, Any]]:
-    """One shared projection for CLI and explorer, including non-frontier statements."""
+def dossier_index(data: dict[str, list[dict[str, Any]]], report: dict[str, Any],
+                  only: set[str] | None = None) -> dict[str, dict[str, Any]]:
+    """One shared projection for CLI and explorer, including non-frontier statements.
+
+    `only` restricts the projection to those statement IDs; each entry is identical to
+    the corresponding entry of the full projection (#958)."""
     statements = {entry["id"]: entry for entry in data["statements"]}
     arguments = {entry["id"]: entry for entry in data["arguments"]}
     results = {entry["id"]: entry for entry in data["results"]}
@@ -60,6 +64,8 @@ def dossier_index(data: dict[str, list[dict[str, Any]]], report: dict[str, Any])
     items = {entry["statement_id"]: entry for entry in report["items"]}
     by_statement: dict[str, dict[str, Any]] = {}
     for sid, statement in sorted(statements.items()):
+        if only is not None and sid not in only:
+            continue
         claims = [entry for entry in data["claims"] if entry["statement_id"] == sid]
         relations = [entry for entry in data["relations"] if sid in (entry["subject_id"], entry["object_id"])]
         supports = {entry["subject_id"] for entry in relations if entry["predicate"] == "supports" and entry["object_id"] == sid}
@@ -131,7 +137,19 @@ def dossier_index(data: dict[str, list[dict[str, Any]]], report: dict[str, Any])
     return by_statement
 
 
-def format_dossier(dossier: dict[str, Any], data: dict[str, list[dict[str, Any]]]) -> str:
+def format_dossier(dossier: dict[str, Any], data: dict[str, list[dict[str, Any]]], limit: int | None = None) -> str:
+    """Text view. `limit` caps each section, naming how many entries `--json` adds (#958)."""
+    def shown(entries: list[Any]) -> list[Any]:
+        return entries if limit is None else entries[:limit]
+
+    def clip(text: str) -> str:
+        # Under a limit, long prose is shortened too; `--limit 0` and `--json` keep it whole.
+        text = text if limit is None else " ".join(text.split())
+        return text if limit is None or len(text) <= 220 else text[:219].rstrip() + "…"
+
+    def more(entries: list[Any], indent: str = "  ") -> list[str]:
+        hidden = 0 if limit is None else len(entries) - limit
+        return [f"{indent}… {hidden} more (see --json)"] if hidden > 0 else []
     statement = dossier["statement"]
     frontier = dossier["frontier"]
     status = dossier["closure"] or (f"open ({frontier['depth']})" if frontier else "not on the frontier")
@@ -155,7 +173,7 @@ def format_dossier(dossier: dict[str, Any], data: dict[str, list[dict[str, Any]]
     for directory, key, label in sections:
         index = {entry["id"]: entry for entry in data[directory]}
         lines.append(f"\n{label}:")
-        for record_id in dossier[key]:
+        for record_id in shown(dossier[key]):
             record = index[record_id]
             description = next((record[field] for field in ("interpretation", "definition", "resolution", "meaning", "description", "basis") if record.get(field)), "")
             if directory == "claims":
@@ -166,7 +184,8 @@ def format_dossier(dossier: dict[str, Any], data: dict[str, list[dict[str, Any]]
                 description = f"{record['subject_id']} {record['predicate']} {record['object_id']}: {record.get('note', record.get('basis', ''))}"
             if directory == "results":
                 description = f"{record.get('theorem', 'no theorem')}; {description}"
-            lines.append(f"  {record_id}: {description}")
+            lines.append(f"  {record_id}: {clip(description)}")
+        lines.extend(more(dossier[key]))
         if not dossier[key]:
             lines.append("  none recorded")
     for key, label in (("transcription_result_ids", "Transcriptions"), ("instantiation_result_ids", "Declared/recognized instantiations (not a mode-5 schema registry)")):
@@ -175,21 +194,28 @@ def format_dossier(dossier: dict[str, Any], data: dict[str, list[dict[str, Any]]
     for case in dossier.get("configuration_cases", []):
         lines.append(f"  {case['id']}: semantics {case['semantics_id']}; {case['href']}")
     lines.append("\nAttempts (outcomes do not establish truth or close premises):")
-    for attempt in dossier["attempts"]:
-        lines.append(f"  {attempt['id']} [{attempt['date']}; {attempt['kind']}; {attempt['outcome']}]: {attempt['summary']}")
+    # Attempts are chronological; under a limit keep the most recent ones.
+    attempts = dossier["attempts"] if limit is None else dossier["attempts"][-limit:] if limit else []
+    hidden_attempts = len(dossier["attempts"]) - len(attempts)
+    if hidden_attempts:
+        lines.append(f"  … {hidden_attempts} earlier (see --json)")
+    for attempt in attempts:
+        lines.append(f"  {attempt['id']} [{attempt['date']}; {attempt['kind']}; {attempt['outcome']}]: {clip(attempt['summary'])}")
         lines.append(f"    evidence: {', '.join(attempt['evidence']) or 'none recorded'}")
         if attempt.get("blocker"):
-            lines.append(f"    blocker: {attempt['blocker']}")
+            lines.append(f"    blocker: {clip(attempt['blocker'])}")
     if not dossier["attempts"]:
         lines.append("  none recorded")
     lines.append("\nCountermodel attempts: " + (", ".join(dossier["countermodel_attempt_ids"]) or "none recorded"))
     lines.append("Registered finite evaluations (formal interpretations only; no premise closure):")
-    for evaluation in dossier["model_evaluations"]:
+    for evaluation in shown(dossier["model_evaluations"]):
         lines.append(f"  {evaluation['model_id']} {evaluation['value']}; vocabulary {evaluation['vocabulary']}; {evaluation['theorem']}; arguments {evaluation['arguments']}")
+    lines.extend(more(dossier["model_evaluations"]))
     if not dossier["model_evaluations"]:
         lines.append("  none registered; no conclusion about consistency or derivability")
     lines.append("Explicit instance_of_schema registrations are recorded in corpus/relations/ (see docs/schemas.md); this dossier does not project them. No links are inferred from prose.")
     lines.append(f"\nRoutes to {dossier['root']} (one counted leaf when open_leaf=true, not a counterfactual cost reduction):")
-    for route in dossier["route_contributions"]:
+    for route in shown(dossier["route_contributions"]):
         lines.append(f"  {route['argument_id']}: cost={route['cost']}, open_leaf={str(route['open_leaf']).lower()}, direct_premise={str(route['direct_premise']).lower()}")
+    lines.extend(more(dossier["route_contributions"]))
     return "\n".join(lines)
