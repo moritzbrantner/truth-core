@@ -185,6 +185,7 @@
       ]
     }
   ],
+  "incompatibility_result_ids": [],
   "implication_result_ids": [
     "NECESSARY-UNDERIVED-POSITIVE-UNION",
     "NECESSARY-SUPPORT-UNION-WF-FROM-ACTUAL",
