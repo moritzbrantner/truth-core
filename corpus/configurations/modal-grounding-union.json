@@ -1,0 +1,247 @@
+{
+  "id": "CONFIG-MODAL-GROUNDING-UNION",
+  "description": "Modal grounding union elimination rule (#542) under the #477 loop: actual reflexivity, no contingent ground of a necessary bearer and a well-founded cross-world union of necessary-to-necessary support, with a necessary bearer and explicit excluded middle, yield a necessarily underived bearer; edge invariance is not needed. Selections drop each union-route premise against the registered finite controls (rotating cross-world cycle, switching contingent ground, varying edges). Certified witnesses outside this finite-model registry: PARITY-UNION-REGRESS (Nat carrier: two locally depth-one worlds whose cycle-free union has an infinite descending regress) and FINITE-NECESSARY-UNION-CLASSIFICATION (classical, so outside this zero-axiom profile). Configurations are inputs; statuses are computed only from live certificates. No premise is established and no root premise closes.",
+  "seed_statement_id": "STMT-NECESSARILY-UNDERIVED",
+  "semantics": {
+    "id": "necessarily-underived-esse-support-shared-ontic",
+    "logic": "Constructive Lean propositions; excluded middle enters only as the explicit statement STMT-EXCLUDED-MIDDLE. Certificates are zero-axiom.",
+    "frame": "The Kripke frame carried by the one Ontic structure m, shared by every assumption; reflexivity is assumed only at the evaluation world w0 and only where STMT-ACTUAL-MODAL-REFLEXIVITY is selected.",
+    "domain": "Fixed possibilist carrier Being with world-relative existence m.ExistsAt; W and Being are Type 0. supportsEsse is one world-indexed direct existential-support relation shared by all statements, not identified with efficient causation, accessibility or explanation.",
+    "identity": "Literal Lean equality of one fixed Being type across worlds; necessity is de re (rigid presence at every accessible world); no counterparts.",
+    "vocabulary": "NECESSARILY-UNDERIVED-ESSE-SUPPORT",
+    "modules": [
+      "TruthCore.Causality.NecessarilyUnderived"
+    ],
+    "parameters": [
+      {
+        "name": "World",
+        "type": "Type"
+      },
+      {
+        "name": "Being",
+        "type": "Type"
+      },
+      {
+        "name": "m",
+        "type": "TruthCore.German.Kant.CosmologicalInference.Ontic World Being"
+      },
+      {
+        "name": "supportsEsse",
+        "type": "World → Being → Being → Prop"
+      },
+      {
+        "name": "w0",
+        "type": "World"
+      }
+    ],
+    "parameter_order": [
+      "World",
+      "Being",
+      "m",
+      "supportsEsse",
+      "w0"
+    ],
+    "applications": {
+      "STMT-KANT-CONVERSION-NECESSARY-WITNESS": [
+        "World",
+        "Being",
+        "m",
+        "w0"
+      ],
+      "STMT-ACTUAL-MODAL-REFLEXIVITY": [
+        "World",
+        "Being",
+        "m",
+        "w0"
+      ],
+      "STMT-NO-CONTINGENT-GROUND-OF-NECESSARY": [
+        "World",
+        "Being",
+        "m",
+        "supportsEsse",
+        "w0"
+      ],
+      "STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT": [
+        "World",
+        "Being",
+        "m",
+        "supportsEsse",
+        "w0"
+      ],
+      "STMT-EXCLUDED-MIDDLE": [],
+      "STMT-NECESSARILY-UNDERIVED": [
+        "World",
+        "Being",
+        "m",
+        "supportsEsse",
+        "w0"
+      ],
+      "STMT-NO-NOVEL-NECESSARY-SUPPORT": [
+        "World",
+        "Being",
+        "m",
+        "supportsEsse",
+        "w0"
+      ],
+      "STMT-WELL-FOUNDED-PRESENT-ESSE-SUPPORT": [
+        "World",
+        "Being",
+        "m",
+        "supportsEsse",
+        "w0"
+      ],
+      "STMT-NECESSARY-PREDECESSOR-LIFTING": [
+        "World",
+        "Being",
+        "m",
+        "supportsEsse",
+        "w0"
+      ],
+      "STMT-NONREFUTABLE-NECESSARILY-UNDERIVED": [
+        "World",
+        "Being",
+        "m",
+        "supportsEsse",
+        "w0"
+      ]
+    },
+    "permitted_axioms": []
+  },
+  "configurations": [
+    {
+      "id": "union-route",
+      "statement_ids": [
+        "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+        "STMT-ACTUAL-MODAL-REFLEXIVITY",
+        "STMT-NO-CONTINGENT-GROUND-OF-NECESSARY",
+        "STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT",
+        "STMT-EXCLUDED-MIDDLE"
+      ]
+    },
+    {
+      "id": "union-route-from-actual-wf",
+      "statement_ids": [
+        "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+        "STMT-ACTUAL-MODAL-REFLEXIVITY",
+        "STMT-NO-CONTINGENT-GROUND-OF-NECESSARY",
+        "STMT-NO-NOVEL-NECESSARY-SUPPORT",
+        "STMT-WELL-FOUNDED-PRESENT-ESSE-SUPPORT",
+        "STMT-EXCLUDED-MIDDLE"
+      ]
+    },
+    {
+      "id": "lifting-route",
+      "statement_ids": [
+        "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+        "STMT-WELL-FOUNDED-PRESENT-ESSE-SUPPORT",
+        "STMT-NECESSARY-PREDECESSOR-LIFTING",
+        "STMT-EXCLUDED-MIDDLE"
+      ]
+    },
+    {
+      "id": "lifting-route-constructive",
+      "statement_ids": [
+        "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+        "STMT-WELL-FOUNDED-PRESENT-ESSE-SUPPORT",
+        "STMT-NECESSARY-PREDECESSOR-LIFTING"
+      ]
+    },
+    {
+      "id": "union-background-without-excluded-middle",
+      "statement_ids": [
+        "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+        "STMT-ACTUAL-MODAL-REFLEXIVITY",
+        "STMT-NO-CONTINGENT-GROUND-OF-NECESSARY",
+        "STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT"
+      ]
+    },
+    {
+      "id": "drop-union-wf-actual-wf-only",
+      "statement_ids": [
+        "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+        "STMT-ACTUAL-MODAL-REFLEXIVITY",
+        "STMT-NO-CONTINGENT-GROUND-OF-NECESSARY",
+        "STMT-WELL-FOUNDED-PRESENT-ESSE-SUPPORT"
+      ]
+    },
+    {
+      "id": "drop-no-contingent-ground",
+      "statement_ids": [
+        "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+        "STMT-ACTUAL-MODAL-REFLEXIVITY",
+        "STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT",
+        "STMT-WELL-FOUNDED-PRESENT-ESSE-SUPPORT"
+      ]
+    },
+    {
+      "id": "union-wf-without-edge-invariance",
+      "statement_ids": [
+        "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+        "STMT-ACTUAL-MODAL-REFLEXIVITY",
+        "STMT-NO-CONTINGENT-GROUND-OF-NECESSARY",
+        "STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT",
+        "STMT-WELL-FOUNDED-PRESENT-ESSE-SUPPORT",
+        "STMT-NECESSARILY-UNDERIVED"
+      ]
+    }
+  ],
+  "implication_result_ids": [
+    "NECESSARY-UNDERIVED-POSITIVE-UNION",
+    "NECESSARY-SUPPORT-UNION-WF-FROM-ACTUAL",
+    "NECESSARY-PREDECESSOR-LIFT-FROM-BRIDGES",
+    "NECESSARY-UNDERIVED-POSITIVE-LIFT",
+    "NECESSARY-UNDERIVED-NONREFUTATION-LIFT"
+  ],
+  "model_bindings": [
+    {
+      "model_id": "MODEL-NECESSARILY-UNDERIVED-EMPTY",
+      "parameters": {
+        "World": "World",
+        "Being": "Being",
+        "m": "Ontic",
+        "supportsEsse": "Support",
+        "w0": "world"
+      }
+    },
+    {
+      "model_id": "MODEL-NECESSARILY-UNDERIVED-LOOP",
+      "parameters": {
+        "World": "World",
+        "Being": "Being",
+        "m": "Ontic",
+        "supportsEsse": "Support",
+        "w0": "world"
+      }
+    },
+    {
+      "model_id": "MODEL-NECESSARILY-UNDERIVED-ROTATING",
+      "parameters": {
+        "World": "World",
+        "Being": "Being",
+        "m": "Ontic",
+        "supportsEsse": "Support",
+        "w0": "world"
+      }
+    },
+    {
+      "model_id": "MODEL-NECESSARILY-UNDERIVED-SWITCHING",
+      "parameters": {
+        "World": "World",
+        "Being": "Being",
+        "m": "Ontic",
+        "supportsEsse": "Support",
+        "w0": "world"
+      }
+    },
+    {
+      "model_id": "MODEL-NECESSARILY-UNDERIVED-VARYING",
+      "parameters": {
+        "World": "World",
+        "Being": "Being",
+        "m": "Ontic",
+        "supportsEsse": "Support",
+        "w0": "world"
+      }
+    }
+  ]
+}

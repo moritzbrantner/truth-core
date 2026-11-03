@@ -17,6 +17,13 @@ from finite_models import NAME, TERM, verify_models
 IDENTIFIER = re.compile(r'[A-Za-z_][A-Za-z_0-9]*\Z')
 # Deliberately a small term language, not arbitrary Lean source in JSON.
 TYPE = re.compile(r'(?:[A-Za-z_][A-Za-z_0-9.]*|→|\s)+\Z')
+# Audited two-carrier structures whose fields are all data (relations and a
+# Kripke frame), never proofs. ExistencePSR.Model: ontology/explanation data.
+# Kant Ontic: `frame`, `ExistsAt`, `Causes` (#542 modal-grounding profile).
+DATA_STRUCTURES = {
+    'TruthCore.Explanation.ExistencePSR.Model',
+    'TruthCore.German.Kant.CosmologicalInference.Ontic',
+}
 
 
 def validate_case(case, statements, results, arguments, models, root):
@@ -59,7 +66,7 @@ def validate_case(case, statements, results, arguments, models, root):
         raise ValueError('parameter_order must list every variable and fixed role exactly once')
     # Supported role shapes (all non-propositional, so no proof can hide in a
     # parameter): a carrier `Type`, a fixed carrier constant (Bool or Nat), a
-    # Kripke frame or the existing existence-PSR data model on carriers,
+    # Kripke frame or an audited data structure (DATA_STRUCTURES) on carriers,
     # an element of a carrier, and a carrier-valued function, predicate or
     # relation `X₁ → … → Xₙ → Y` over carriers (Y may be Prop). Carriers must be declared
     # before they are used. The necessary-individual profiles (W, I, F,
@@ -77,10 +84,10 @@ def validate_case(case, statements, results, arguments, models, root):
         elif kind.startswith('TruthCore.Modal.Frame ') and kind.split(' ', 1)[1] in carriers:
             pass
         elif (len(kind.split()) == 3
-              and kind.split()[0] == 'TruthCore.Explanation.ExistencePSR.Model'
+              and kind.split()[0] in DATA_STRUCTURES
               and all(arg in carriers for arg in kind.split()[1:])):
-            # This exact structure contains ontology/explanation data, no
-            # soundness, PSR, or other proof fields. Keep arbitrary structures
+            # These exact structures contain only data fields, no soundness,
+            # PSR, or other proof fields. Keep arbitrary structures
             # forbidden: they could carry a premise as an implicit field.
             pass
         elif kind in carriers:
