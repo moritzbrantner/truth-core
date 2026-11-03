@@ -6,9 +6,10 @@ import json
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 import corpus
-from argument_context import context_pack, format_context, import_closure, resolve_target, theorem_blocks
+from argument_context import context_pack, format_context, import_closure, lean_reuse_review, resolve_target, theorem_blocks
 
 CHALLENGE = """import Demo.Vocabulary
 namespace Demo.Up
@@ -116,6 +117,64 @@ class ArgumentContextTests(unittest.TestCase):
         self.assertEqual(reused, {("BASE", 1, True), ("DEEP", 2, False)})
         self.assertEqual(lean["lean_consumers"], ["DOWN"])
         self.assertEqual(lean["lean_consumers_depth2"], ["FAR"])
+
+    def test_proof_term_reuse_distinguishes_three_review_classes_without_changing_graph(self):
+        write(self.root, "TruthCore.Up.Solution",
+              "import TruthCore.Base.Solution\nimport TruthCore.Peer.Solution\nimport TruthCore.Vocab\n")
+        before = (copy.deepcopy(self.data), copy.deepcopy(self.report))
+        usage = {"Demo.Up.main": ["Demo.Base.main", "Demo.Peer.main"]}
+        pack = context_pack(self.root, self.data, self.report, "UP", proof_uses=usage)
+        lean = pack["lean"][0]
+        reused = {r["result_id"]: r for r in lean["reused_results"]}
+        self.assertEqual({rid: r["classification"] for rid, r in reused.items()}, {
+            "BASE": "theorem-used, graph-linked",
+            "PEER": "theorem-used, not in argument graph",
+            "DEEP": "import only",
+        })
+        self.assertTrue(reused["BASE"]["graph_linked"])
+        self.assertFalse(reused["PEER"]["graph_linked"])
+        self.assertFalse(reused["DEEP"]["theorem_used"])
+        self.assertEqual(lean["proof_theorems"], ["Demo.Base.main", "Demo.Peer.main"])
+        self.assertIn("theorem-used, not in argument graph", format_context(pack))
+        report = lean_reuse_review(self.root, self.data["results"],
+                                   {a["id"]: a for a in self.data["arguments"]}, usage)
+        self.assertEqual(report["summary"], {
+            "results_inspected": 1,
+            "theorem-used, graph-linked": 1,
+            "theorem-used, not in argument graph": 1,
+            "import only": 1,
+        })
+        self.assertEqual(before, (self.data, self.report))
+        self.assertNotIn("classification", self.pack()["lean"][0]["reused_results"][0])
+
+    def test_proof_use_without_source_import_is_reported_not_discarded(self):
+        usage = {"Demo.Up.main": ["Demo.Peer.main"]}
+        lean = context_pack(self.root, self.data, self.report, "UP", proof_uses=usage)["lean"][0]
+        peer = next(r for r in lean["reused_results"] if r["result_id"] == "PEER")
+        self.assertEqual(peer["classification"], "theorem-used, not in argument graph")
+        self.assertIsNone(peer["depth"])
+
+    def test_lean_reuse_export_rejects_missing_and_malformed_proofs(self):
+        theorem = "Demo.Up.main"
+        with self.assertRaisesRegex(corpus.CorpusError, "did not inspect"):
+            corpus.lean_reuse_usage_map([], [theorem])
+        with self.assertRaisesRegex(corpus.CorpusError, "could not inspect"):
+            corpus.lean_reuse_usage_map([{"theorem": theorem, "error": "unknown theorem"}], [theorem])
+        with self.assertRaisesRegex(corpus.CorpusError, "proof_theorems"):
+            corpus.lean_reuse_usage_map([{"theorem": theorem, "proof_theorems": None}], [theorem])
+        self.assertEqual(corpus.lean_reuse_usage_map([
+            {"theorem": theorem, "proof_theorems": ["Demo.Base.main", "Demo.Base.main"]},
+        ], [theorem]), {theorem: ["Demo.Base.main"]})
+
+    def test_lean_reuse_uses_built_tool_without_rebuilding_and_scopes_imports(self):
+        records = [(self.root, result) for result in self.data["results"]]
+        with patch.object(corpus, "run_bind_tool", return_value=[]) as runner:
+            self.assertEqual(corpus.run_lean_reuse_tool(records, inspect=["Demo.Up.main"]), [])
+        tool_input = runner.call_args.args[0]
+        self.assertEqual(tool_input["modules"], ["TruthCore.Up.Solution"])
+        self.assertEqual(tool_input["inspect"], ["Demo.Up.main"])
+        self.assertIn("Demo.Peer.main", tool_input["theorems"])
+        self.assertEqual(runner.call_args.kwargs["command_name"], "lean-reuse")
 
     def test_graph_neighbourhood_preserves_bundles_and_flags_duplicates(self):
         pack = self.pack()
