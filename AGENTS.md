@@ -97,6 +97,11 @@ of equivalence, implication or incompatibility. Continue with the dossier and
 existing certification workflow below. The repository-local `proposition-reuse`
 skill in `.agents/skills/proposition-reuse/SKILL.md` describes this entry point.
 
+When the target is an existing argument or result, start with
+`python3 scripts/corpus.py context <ARGUMENT-OR-RESULT-ID>`: one bounded pack with
+the frozen Lean statement, Lean-import reuse, premise status and other routes,
+countermodels, attempts and open work, derived on demand (`docs/notes/argument-context.md`).
+
 For every premise touched, inspect `python3 scripts/corpus.py dossier <STMT-ID>`
 (the explorer links the same generated dossier from the statement page). Before
 handoff, update `corpus/attempts/` for failed derivations, rejected readings,
