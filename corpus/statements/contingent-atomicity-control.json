@@ -1,0 +1,29 @@
+{
+  "id": "STMT-CONTINGENT-ATOMICITY-CONTROL",
+  "paraphrase": "On the same atom-plus-gunk order, one modal interpretation satisfies contingent-only atomicity but not all-object atomicity, and another has a necessary being but fails contingent-only atomicity. Both retain population, conditional caused-simple coverage, nonoverlap and selected actual causal coverage, with contingent witnesses.",
+  "lean_declaration": "TruthCore.Causality.ContingentAtomicity.Control",
+  "definition_ids": [
+    "DEF-ATOMIC-OBJECT-DOMAIN",
+    "DEF-ATOMIC-SIMPLE-PART",
+    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
+    "DEF-COMPLETE-OBJECT-CAUSATION",
+    "DEF-OBJECT-CAUSE-NONOVERLAP",
+    "DEF-ATOMIC-CAUSAL-SOURCE",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-LOCAL-CAUSE",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-SELECTED-ACTUAL-CAUSAL-COVERAGE",
+    "DEF-CONTINGENT-ATOMIC-PARTS",
+    "DEF-CONTINGENT-ATOMICITY-CONTROL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
+    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-WORLDVIEW-SEMANTIC-CONSISTENCY",
+  "term": "internal consistency of a worldview",
+  "definition": "A worldview is a predicate selecting explicitly held claim-contents. It is semantically consistent under a specified interpretation when some single world satisfies every selected content. This does not require that each true consequence be explicitly believed or that any selected content be true in the actual world.",
+  "basis": "stipulative",
+  "note": "Analytical reading of consistency for the user-proposed reflective-coherence principle. Its models are logical controls, not psychological subjects or claims of metaphysical possibility. An independently grounded account of epistemic duty would be additional work.",
+  "lean_declaration": "TruthCore.Logic.ReflectiveCoherence.Consistent"
+}

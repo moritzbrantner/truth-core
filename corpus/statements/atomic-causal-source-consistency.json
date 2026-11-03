@@ -1,0 +1,21 @@
+{
+  "id": "STMT-ATOMIC-CAUSAL-SOURCE-CONSISTENCY",
+  "paraphrase": "A fixed two-object interpretation with identity parthood and sole edge origin→effect satisfies population, atomic parts, conditional caused-simple coverage, nonoverlap and activity. It also has unique incoming complete cause, all objects simple and hence vacuous caused-composite P6, caused-simple family {effect}, full singleton Fusion at effect, and explicit source/outgoing endpoints. This is a formal consistency witness only.",
+  "lean_declaration": "TruthCore.Causality.AtomisticCausalSource.Consistency",
+  "definition_ids": [
+    "DEF-ATOMIC-OBJECT-DOMAIN",
+    "DEF-ATOMIC-SIMPLE-PART",
+    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
+    "DEF-COMPLETE-OBJECT-CAUSATION",
+    "DEF-OBJECT-CAUSE-NONOVERLAP",
+    "DEF-ATOMIC-CAUSAL-SOURCE",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-OBJECT-CAUSAL-ACTIVITY",
+    "DEF-CAUSED-COMPOSITE-PROPER-PART"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
+    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-TRUTH-DIRECTED-EPISTEMIC-BRIDGE",
+  "term": "truth-directed epistemic selection bridge",
+  "definition": "At a specified actual world, every worldview which OughtAdopt selects has all its accepted contents true there. Together with a duty-content true there, it entails that each selected worldview is compatible with that duty and with its necessary implications. It is stronger than merely requiring each selected worldview to be internally consistent.",
+  "basis": "stipulative",
+  "note": "Explicit additional conditional framework commitment, not established by the mere objectivity of a consistency obligation. Its epistemic or moral justification and correspondence to actual warranted belief remain open.",
+  "lean_declaration": "TruthCore.Logic.ReflectiveCoherence.TruthDirected"
+}

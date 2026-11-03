@@ -1,0 +1,17 @@
+{
+  "id": "STMT-NO-NECESSARY-PARTS-AT",
+  "lean_declaration": "TruthCore.Mereology.FusionNoNecessaryParts.NoNecessaryPartsAt",
+  "paraphrase": "No part of the selected object satisfies existing NecessaryAt at the chosen standpoint, including the object itself under reflexive parthood. This says neither that the object actually exists nor that it is ContingentAt, a physical cosmos, a cause or God. Source wholly-contingent terminology remains a separate interpretation/application obligation.",
+  "definition_ids": [
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-NO-NECESSARY-PARTS-AT",
+    "DEF-MODAL-PARTHOOD-NECESSITY-DOWNWARD",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY"
+  ]
+}

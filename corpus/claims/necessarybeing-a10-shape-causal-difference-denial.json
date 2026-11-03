@@ -1,0 +1,15 @@
+{
+  "id": "NB-SURVEY-A10-SHAPE-CAUSAL-DIFFERENCE-DENIAL",
+  "statement_id": "STMT-NB-A10-SHAPE-CAUSAL-DIFFERENCE-DENIAL",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A10P1C, complete shape/causal-difference question and cause title; negative-answer continuation to P1D",
+  "interpretation": "The negative-answer proposition is not an observed answer or an authorially proved causal invariance law. The inspected reconsideration route reaches this question after negative size, and negative shape continues to parts; affirmative escapes and uncertainty goes to P1B2. No probability equality or complete list of causally relevant features is supplied. The shared cause title means a prior condition capable of explaining or partly explaining an event/change, not formal C’s actual concrete existential contributor. No actual respondent/session answer or philosophical truth is established.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A10-DEFEASIBLE-CAUSAL-DEFAULT",
+    "DEF-NB-A10-RECONSIDERATION-CASE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A10-DEFAULT-AND-MODAL-CAUSE"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "NB-SURVEY-A10-SIZE-CAUSAL-DIFFERENCE-DENIAL",
+  "statement_id": "STMT-NB-A10-SIZE-CAUSAL-DIFFERENCE-DENIAL",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A10P1B, complete size/causal-difference question and cause title; negative-answer continuation to P1C",
+  "interpretation": "The proposition is attributed only conditionally on the negative report invited by P1B. The particle example is a possible concern, not an established uncaused-physics case. Negative continues to shape; affirmative escapes and uncertainty goes to P1B2. This is not an equality of causal probabilities or a claim that size never affects causal mechanisms. The shared cause title means a prior condition capable of explaining or partly explaining an event/change, not formal C’s actual concrete existential contributor. No actual respondent/session answer or philosophical truth is established.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A10-DEFEASIBLE-CAUSAL-DEFAULT",
+    "DEF-NB-A10-RECONSIDERATION-CASE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A10-DEFAULT-AND-MODAL-CAUSE"
+  ]
+}

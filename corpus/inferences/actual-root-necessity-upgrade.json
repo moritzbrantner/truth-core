@@ -1,0 +1,13 @@
+{
+  "id": "INF-ACTUAL-ROOT-NECESSITY-UPGRADE",
+  "input_statement_ids": [
+    "STMT-UNIQUE-ACTUAL-ROOT",
+    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "output_statement_id": "STMT-UNIQUE-NECESSARY-ACTUAL-ROOT",
+  "rule": "restore-same-root-necessity-with-imported-contingent-root-exclusion",
+  "meaning": "Unpack the SAME n and its root uniqueness from UniqueActualRootAt. Split NecessaryAt n with supplied EM. If necessary, package that SAME n with retained uniqueness. Otherwise imported contingentRootOfNonnecessary makes it a contingent root, contradicted by EveryContingentGroundedAt through imported everyContingentGrounded_iff_noContingentRoot. No root-existence proof or modal-absence extraction is duplicated. The conclusion is old UniqueNecessaryActualRootAt; flattened composition with the seven-input actual-root theorem retains the original eight premises, including contingent dependence and EM only once.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

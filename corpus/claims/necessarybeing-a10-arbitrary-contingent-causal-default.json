@@ -1,0 +1,16 @@
+{
+  "id": "NB-SURVEY-A10-ARBITRARY-CONTINGENT-CAUSAL-DEFAULT",
+  "statement_id": "STMT-NB-A10-ARBITRARY-CONTINGENT-CAUSAL-DEFAULT",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A10P1E, author’s qualified appears transition and full arbitrary-X question with cause/contingent/rule-of-thumb titles",
+  "interpretation": "This preserves arbitrary selection as a distinct scope from P1’s general/encountered-class default and C’s selected possible first contingent. Neither random sampling, a supplied probability space/calibrated numerical bound, a selected-history applicability bridge nor modal possible-cause is established. The opening It appears transition is not an independently proved exhaustive irrelevance result: one route entered P1E through a parts denial and another through the angel/default detour, so no uniform retained negative-parts answer or retraction is invented. Affirmative continues to P2; negative escapes and uncertainty goes to P1B2. Counter-reasons/exceptions from the rule-of-thumb title remain explicit. The shared cause title means a prior condition capable of explaining or partly explaining an event/change, not formal C’s actual concrete existential contributor. No actual respondent/session answer or philosophical truth is established.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A10-DEFEASIBLE-CAUSAL-DEFAULT",
+    "DEF-NB-A10-RECONSIDERATION-CASE",
+    "DEF-NB-SURVEY-NECESSARY-BEING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A10-DEFAULT-AND-MODAL-CAUSE"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.JointGroundEffectContingency.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.JointGroundEffectContingency.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Explanation.JointGroundEffectContingency.contingentMember"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

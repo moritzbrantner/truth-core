@@ -1,0 +1,19 @@
+{
+  "id": "NB-SURVEY-A10-SELECTED-CASE-DEFAULT-APPLICATION",
+  "statement_id": "STMT-NB-A10-SELECTED-CASE-DEFAULT-APPLICATION",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A10C, second argument paragraph applying the rule of thumb to C, excluding a contingent cause and concluding prima-facie possible Necessary-Being causation",
+  "interpretation": "This selected C is not a randomly sampled encountered member: transferring the default to a specially selected first member of a merely possible history requires an OPEN reference-class/applicability and defeater bridge. Firstness excludes a contingent cause only with the same population/history and a defended prior-existing-bearer/absence correspondence; a partial explanatory condition alone does not provide it. Preserve C’s identity within this conditional application, without importing a rigid actual witness or universal PSR. A7 count-one exclusion and its guarded temporal proofs are related but do not establish these A10 guards.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A10-DEFEASIBLE-CAUSAL-DEFAULT",
+    "DEF-NB-A2-CONCRETE-CAUSE-OR-EFFECT",
+    "DEF-NB-A2-ENTIRE-CHAIN-AND-HEAD",
+    "DEF-NB-SURVEY-NECESSARY-BEING",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A10-DEFAULT-AND-MODAL-CAUSE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

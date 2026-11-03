@@ -1,0 +1,16 @@
+{
+  "id": "CC100-123-GOD-MIND-BEST-CONSTITUTION",
+  "statement_id": "STMT-CC100-123-GOD-MIND-BEST-CONSTITUTION",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.272–291: p.288, argument #123 Idealism, step 4",
+  "interpretation": "Retain best-explanation status, possibility wording can-have and partial constitution. No actual divine constitution follows just by selecting an explanatory proposal, and conscious quality does not by definition imply God-mind constitution. No unique/necessary God, person/bearer identity or causal-grounding dictionary is supplied. Attribution is to McIntosh’s presentation only, not unread Berkeley/Adams/Hunter/Spiegel works referenced on p289. No formal proof or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-123-QUALITY-STATE-CONSTITUTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REASON-EPISTEMIC-ONTIC",
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

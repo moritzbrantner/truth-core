@@ -1,0 +1,8 @@
+{
+  "id": "DEF-AUTONOMOUS-GROUND-ACTUAL-TARGET",
+  "term": "selected actual concrete target",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.AutonomousGroundNecessity.ActualConcreteTargetAt",
+  "definition": "ActualConcreteTargetAt A Concrete w b explicitly asserts Concrete b and A.ontic.ExistsAt w b. Facts have the existing Fact B O sum type; this selects an actual individual without identifying a fact label, joint condition or ground record with that individual.",
+  "note": "Source-inspired analyst interface, not a direct binding of an unbound source sentence or a derivation from the owner’s accepted existence alone. Concreteness is retained in the SAME-target helper; the registered NecessaryBeing endpoint forgets it. No dummy Profile or new causal relation is constructed. Concrete uses the same supplied world-independent designation as DEF-INHABITED-CONCRETE-WORLD; no materiality or causal-capacity criterion is built in."
+}

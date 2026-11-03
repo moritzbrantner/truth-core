@@ -1,0 +1,20 @@
+{
+  "id": "STMT-CAUSED-COMPOSITE-HAS-CAUSED-PROPER-PART",
+  "paraphrase": "Every caused composite has a caused PROPER part. This does not itself supply a caused simple or termination of part descent.",
+  "lean_declaration": "TruthCore.Causality.AtomisticCausalSource.CausedCompositeHasCausedProperPart",
+  "definition_ids": [
+    "DEF-ATOMIC-OBJECT-DOMAIN",
+    "DEF-ATOMIC-SIMPLE-PART",
+    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
+    "DEF-COMPLETE-OBJECT-CAUSATION",
+    "DEF-OBJECT-CAUSE-NONOVERLAP",
+    "DEF-ATOMIC-CAUSAL-SOURCE",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-CAUSED-COMPOSITE-PROPER-PART"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
+    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.ClassicalGodFromPositiveRoot.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ClassicalGodFromPositiveRoot.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.ClassicalGodFromPositiveRoot.derive"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

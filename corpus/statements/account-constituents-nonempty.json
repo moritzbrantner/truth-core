@@ -1,0 +1,24 @@
+{
+  "id": "STMT-ACCOUNT-CONSTITUENTS-NONEMPTY",
+  "lean_declaration": "TruthCore.Explanation.FixedConstituentNecessaryBeing.AccountConstituentsNonempty",
+  "paraphrase": "Every fact in the selected account has a nonempty set under the assigned fixed K:F→Set B. K is ordinary data; this separate OPEN nonemptiness commitment proves neither real constitution nor existence of the assigned candidates.",
+  "definition_ids": [
+    "DEF-ACCOUNT-CONSTITUENTS-NONEMPTY",
+    "DEF-ACCOUNT-CONSTITUENTS-REALIZED",
+    "DEF-CONTINGENT-REASON-FOUNDEDNESS",
+    "DEF-EXPLANATORY-REASON-CLOSED",
+    "DEF-NECESSARY-FACT-BOUNDARY",
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-REASON",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ASSIGNED-FIXED-CONSTITUENTS-AND-FACT-NECESSITY",
+    "DISAMB-EXPLANATORY-CONTRAST-STOP",
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-PSR-REASON-NECESSITATING"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "STMT-CC100-4-NO-SELF-AND-OTHER-DEPENDENCE",
+  "paraphrase": "Nothing can depend on itself, and every dependent being depends on another being.",
+  "definition_ids": [
+    "DEF-CC100-4-DEPENDENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REGRESS-DOMAINS"
+  ]
+}

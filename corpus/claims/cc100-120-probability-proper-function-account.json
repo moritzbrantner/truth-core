@@ -1,0 +1,15 @@
+{
+  "id": "CC100-120-PROBABILITY-PROPER-FUNCTION-ACCOUNT",
+  "statement_id": "STMT-CC100-120-PROBABILITY-PROPER-FUNCTION-ACCOUNT",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.272–291: p.282, argument #120 Epistemic Probability, step 1",
+  "interpretation": "This is a claim about the best account of permissibility/probability, not an assertion that our actual faculties function properly or have a proper function. No actual knowledge, design or God witness is supplied by this account alone. Attribution is to McIntosh’s presentation only, not unread primary works referenced on p281 or Otte1990 on p283. No formal proof or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-119120-PROPER-FUNCTION-DESIGN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REASON-EPISTEMIC-ONTIC",
+    "DISAMB-PSR-EXPLANATION-CAUSE"
+  ]
+}

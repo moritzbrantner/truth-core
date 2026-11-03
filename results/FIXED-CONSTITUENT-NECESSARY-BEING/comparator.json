@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.FixedConstituentNecessaryBeing.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.FixedConstituentNecessaryBeing.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Explanation.FixedConstituentNecessaryBeing.necessaryBeing"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

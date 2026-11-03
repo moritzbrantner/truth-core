@@ -1,0 +1,15 @@
+{
+  "id": "CC100-4-INDEPENDENT-TERMINUS",
+  "statement_id": "STMT-CC100-4-INDEPENDENT-TERMINUS",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.9–26: p.9, argument #4, steps 6–7 under preceding commitments",
+  "interpretation": "The conditional and its application are reported, not mechanically verified or independently defended. No meaning is assigned that makes independent automatically a necessary concrete individual, a unique common source, an all-world root or a complete explanation. WholeRosterFoundation/root-equivalence results can be applied only after separate selected-relation, population and scope correspondences; they are not new source readings or anti-infinity defenses.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-4-DEPENDENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

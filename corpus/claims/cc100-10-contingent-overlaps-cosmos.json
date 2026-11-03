@@ -1,0 +1,16 @@
+{
+  "id": "CC100-10-CONTINGENT-OVERLAPS-COSMOS",
+  "statement_id": "STMT-CC100-10-CONTINGENT-OVERLAPS-COSMOS",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.9–26: p.22, L5 citing L2, A2 and Cdef, argument #10 Koons",
+  "interpretation": "Retain overlap rather than part identity, equality or causal dependence. The extraction and fusion correspondence needed for the cited steps remains explicit/open. This is not a statement that every being is in C or that ordinary contingency equals wholly contingency. Attribution is to McIntosh’s presentation only, not the unread works referenced on p24. No formal result or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-10-MEREOLOGICAL-SCOPE",
+    "DEF-CC100-10-CAUSAL-MODAL-COSMOS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FUSION-CAUSE-EXTERNALITY",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

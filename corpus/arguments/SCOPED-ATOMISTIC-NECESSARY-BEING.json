@@ -1,0 +1,38 @@
+{
+  "id": "SCOPED-ATOMISTIC-NECESSARY-BEING",
+  "premise_statement_ids": [
+    "STMT-ATOMIC-OBJECT-POPULATION",
+    "STMT-EVERY-OBJECT-HAS-SIMPLE-PART",
+    "STMT-CONDITIONAL-CAUSED-SIMPLE-COVER",
+    "STMT-OBJECT-CAUSE-EFFECT-NONOVERLAP",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-SELECTED-ACTUAL-CAUSAL-COVERAGE"
+  ],
+  "conclusion_statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+  "inference_ids": [
+    "INF-SCOPED-ATOMISTIC-NECESSARY-BEING"
+  ],
+  "meaning": "Retain the SAME four nonlogical atomistic structural inputs and explicit EM on actualGraph m w; replace global LocalCausalPrinciple with selected-world actual causal coverage. Import the certified source, preserve its SAME subtype source c, use actualSource_iff and the genuinely generalized selectedSourceNecessary helper. Actual existence comes from subtype membership. The selected cause policy rules out accessible absence of c; conclude the existing frame-relative de re NecessaryBeing endpoint. No concreteness, activity, endpoint policy, S5, reflexivity, uniqueness, grounding identity or full author FirstCause is inferred. This is a strict world-scope weakening, witnessed separately on the full structural background; no philosophical premise truth or root closure. Distinctness deletion is redundant under retained nonoverlap, not an additional independent weakening.",
+  "definition_ids": [
+    "DEF-ATOMIC-OBJECT-DOMAIN",
+    "DEF-ATOMIC-SIMPLE-PART",
+    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
+    "DEF-COMPLETE-OBJECT-CAUSATION",
+    "DEF-OBJECT-CAUSE-NONOVERLAP",
+    "DEF-ATOMIC-CAUSAL-SOURCE",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-LOCAL-CAUSE",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-SELECTED-ACTUAL-CAUSAL-COVERAGE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
+    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY"
+  ]
+}

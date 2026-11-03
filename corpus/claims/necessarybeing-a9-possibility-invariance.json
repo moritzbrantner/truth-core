@@ -1,0 +1,16 @@
+{
+  "id": "NB-SURVEY-A9-POSSIBILITY-INVARIANCE",
+  "statement_id": "STMT-NB-A2-POSSIBILITY-INVARIANCE",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A9P3, complete X/Y question, examples and non-joint note; A9C modal paragraph following step 8",
+  "interpretation": "The full P3 text exactly matches A8P4, preserving the already represented A2 invariance meaning. This is conditional report/suffix reuse, not actual assent, a new S5/frame proof or a fixed actual necessary bearer. NecessaryIfExistent.positive remains usable only with its explicit modal premises and appropriate actuality/source-domain correspondence.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-SURVEY-NECESSARY-BEING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A9-ORDINARY-AND-NONTRIVIAL-ENTAILMENT",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "CC100-122-REALISM-NO-GOD-SKEPTICISM",
+  "statement_id": "STMT-CC100-122-REALISM-NO-GOD-SKEPTICISM",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.272–291: p.286, argument #122 Anti-Realism, step 1",
+  "interpretation": "This is the explicit open realism-without-God-to-skepticism bridge, not a definition or independent argument. Realism and radical skepticism are not identified with a particular epistemic model, moral realism, correspondence thesis or ordinary limited uncertainty; no causal divine remedy is supplied. Attribution is to McIntosh’s presentation only, not unread Plantinga/Rea/Dummett/Mander works referenced on p287. No formal proof or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-122-REALISM-SKEPTICISM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REASON-EPISTEMIC-ONTIC",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

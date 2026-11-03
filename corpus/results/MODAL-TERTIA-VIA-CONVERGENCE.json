@@ -1,0 +1,10 @@
+{
+  "id": "MODAL-TERTIA-VIA-CONVERGENCE",
+  "argument_id": "MODAL-TERTIA-VIA-CONVERGENCE",
+  "challenge_module": "TruthCore.Results.Causality.ModalNecessaryBeingActuality.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ModalNecessaryBeingActuality.Solution",
+  "theorem": "TruthCore.Results.Causality.ModalNecessaryBeingActuality.convergence",
+  "comparator_config": "results/MODAL-TERTIA-VIA-CONVERGENCE/comparator.json",
+  "status": "solution-present",
+  "description": "Compose the configured adapter and existing Third-Way convergence. Five inputs replace the old four by exchanging assumed NecessaryBeingHasBeing for actual reflexivity and existence-to-act, retaining EM/genus/cause-of-necessity. Independently registered configured conclusion is universal identity with every maximum IF ANY, not maximum existence, selected-candidate maximality, God naming or root migration. No strictness, minimality or philosophical discharge. New configured definition heads prevent a schema/instance identification or generic closure; input constraints are unchanged."
+}

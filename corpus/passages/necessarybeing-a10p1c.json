@@ -1,0 +1,28 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "NECESSARYBEING-SURVEY",
+    "encoding": "utf-8",
+    "language": "eng",
+    "source_url": "https://www.necessarybeing.com/a10p1c.html",
+    "retrieved_at": "2026-10-31T19:50:47Z",
+    "sha256": "sha256:441f8115859b5410e1233baf3e34087990cd405139c64dd3e27025e4e19de7e9",
+    "license": "No license displayed on inspected site (2026-10-31). Only hashes, locator and short incipit committed; no archived fallback asserted."
+  },
+  "passages": [
+    {
+      "id": "NECESSARYBEING-A10P1C",
+      "locator": "A10P1C, complete interactive page",
+      "claim_locator_prefixes": [
+        "A10P1C,"
+      ],
+      "html_selector": {
+        "from": {
+          "text": "Does shape make a difference with respect to having a cause--so that things of one shape have a cause, while things of another do not?"
+        }
+      },
+      "text_sha256": "sha256:2040f17d7abf548424250c98ac8d44db7d1cadec81761d1e1df3d0b95a1023ff",
+      "incipit": "Does shape make a difference with respect to having a cause--so that things"
+    }
+  ]
+}

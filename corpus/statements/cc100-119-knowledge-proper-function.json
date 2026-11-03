@@ -1,0 +1,11 @@
+{
+  "id": "STMT-CC100-119-KNOWLEDGE-PROPER-FUNCTION",
+  "paraphrase": "We have knowledge, and we can have knowledge only if our cognitive faculties function properly.",
+  "definition_ids": [
+    "DEF-CC100-119120-PROPER-FUNCTION-DESIGN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REASON-EPISTEMIC-ONTIC",
+    "DISAMB-PSR-EXPLANATION-CAUSE"
+  ]
+}

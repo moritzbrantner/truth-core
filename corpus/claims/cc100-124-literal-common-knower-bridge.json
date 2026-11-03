@@ -1,0 +1,17 @@
+{
+  "id": "CC100-124-LITERAL-COMMON-KNOWER-BRIDGE",
+  "statement_id": "STMT-CC100-124-LITERAL-COMMON-KNOWER-BRIDGE",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.272–291: p.290, argument #124 Knowability: Fitch-Style Proof, step 3 under literal step 2",
+  "interpretation": "Preserve the explicit common-knower bridge from the unguarded per-proposition premise. A witness per proposition is not by definition one witness for all truths; no quantifier-exchange theorem or knowledge-domain consistency is registered. Attribution is to McIntosh’s presentation only, not the unread Bigelow2005 article referenced on p291. No formal proof or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-124-KNOWABILITY-KNOWER",
+    "DEF-CC100-124-LITERAL-SCOPE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CC100-124-TRUTH-COMMON-KNOWER",
+    "DISAMB-REASON-EPISTEMIC-ONTIC",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

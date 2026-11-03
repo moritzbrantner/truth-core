@@ -1,0 +1,15 @@
+{
+  "id": "NB-SURVEY-A10-CAUSAL-DEFAULT",
+  "statement_id": "STMT-NB-A10-CAUSAL-DEFAULT",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A10P1, question and rule-of-thumb/contingent/cause title attributes, with A10C second paragraph as recalled context",
+  "interpretation": "P1 asks for a report rather than recording an actual answer. Its cause title is a prior condition capable of explaining or partly explaining an event/change; this does not itself identify an actual concrete contributor, complete ground or sufficient reason. The rule title explicitly permits counter-reasons and exceptions. No probability space, sampling rule, frequency or calibrated confidence is supplied.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A10-DEFEASIBLE-CAUSAL-DEFAULT",
+    "DEF-NB-SURVEY-NECESSARY-BEING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A10-DEFAULT-AND-MODAL-CAUSE"
+  ]
+}

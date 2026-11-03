@@ -1,6 +1,6 @@
 import { describe, expect, test } from "bun:test";
 
-import { buildArgumentForest } from "./argument-forest";
+import { buildArgumentForest, buildAssumptionTree, TREE_MEANING_LIMIT } from "./argument-forest";
 import { fixtureGraph } from "./frontier-fixture";
 import { fixture } from "./proposition-graph.fixture";
 
@@ -51,6 +51,37 @@ describe("argument forest projection", () => {
     expect(projected.statements.ROOT).toBeDefined();
     expect(projected.statements.P1).toBeDefined();
     expect(Object.keys(projected.statements).length).toBeLessThanOrEqual(graph.statements.length);
+  });
+
+  test("exhaustive exploration includes every proposition and argument, including routes beyond the two-route overview", () => {
+    const expandedGraph = {
+      ...graph,
+      arguments: [
+        ...graph.arguments,
+        { ...graph.arguments[0], id: "A7", conclusion: "ROOT", premises: ["P1", "P2", "TC", "TOP"] },
+        { ...graph.arguments[0], id: "A8", conclusion: "ROOT", premises: ["ALT"] },
+        { ...graph.arguments[0], id: "A9", conclusion: "P1", premises: ["ROOT"] },
+      ],
+    };
+    const complete = buildArgumentForest(expandedGraph, roots, { exhaustive: true });
+    expect(Object.keys(complete.statements).length).toBe(graph.statements.length);
+    expect(complete.statements.ROOT.argumentIds).toEqual(expect.arrayContaining(["A2", "A7", "A8"]));
+    expect(complete.arguments.A7.premises).toEqual(["P1", "P2", "TC", "TOP"]);
+    expect(complete.statements.P1.argumentIds).toContain("A9");
+    expect(complete.arguments.A9.conclusion).toBe("P1");
+    expect(model.statements.ROOT.argumentIds).toEqual(["A2"]);
+  });
+
+  test("single-tree payload omits comparison metadata while preserving every recorded argument", () => {
+    const compact = buildAssumptionTree(graph);
+    expect(Object.keys(compact.statements)).toHaveLength(graph.statements.length);
+    expect(Object.keys(compact.arguments)).toHaveLength(graph.arguments.length);
+    expect(compact.statements.ROOT.argumentIds).toContain("A2");
+    expect(compact.statements.ROOT).not.toHaveProperty("rivals");
+    expect(compact.statements.ROOT).not.toHaveProperty("directConsequences");
+    for (const argument of Object.values(compact.arguments)) {
+      expect(argument.meaning.length).toBeLessThanOrEqual(TREE_MEANING_LIMIT + 1);
+    }
   });
 
   test("chooses a known fallback root rather than inventing evidence", () => {

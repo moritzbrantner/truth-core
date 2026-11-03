@@ -1,0 +1,57 @@
+{
+  "id": "ACTUAL-COMMON-ROOT-UNIQUENESS",
+  "premise_statement_ids": [
+    "STMT-ACTUAL-COMMON-ROOT"
+  ],
+  "conclusion_statement_id": "STMT-UNIQUE-ACTUAL-ROOT",
+  "inference_ids": [
+    "INF-ACTUAL-COMMON-ROOT-UNIQUENESS"
+  ],
+  "meaning": "Unpack n and its roothood/common coverage. For another actual root x, apply coverage to its actual concreteness. Identity is the required equality; a direct n\u2192x actual-ground edge contradicts x\u2019s existing roothood. Thus the SAME n witnesses existing UniqueActualRootAt, constructively, with no extra EM or C. The advertised local import/inference chain is common coverage\u2192actual unicity\u2192existing necessity upgrade; global semantic corpus cycles remain allowed and no global acyclicity claim is made.",
+  "definition_ids": [
+    "DEF-ACTUAL-COMMON-ROOT",
+    "DEF-UNIQUE-ACTUAL-ROOT",
+    "DEF-ROUTE-BRIDGE-MODAL-READING",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-NONNECESSARY-ROOT",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-NECESSARY-PER-SE",
+    "DEF-MAXIME-ENS",
+    "DEF-WHOLE-ROSTER-NOT-TRAPPED",
+    "DEF-INHABITED-CONCRETE-WORLD",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-ACTUAL-CONCRETE-EXISTENTIAL-SUPPLY",
+    "DEF-DERIVATIVE-JOINT-SUPPLY",
+    "DEF-JOINT-CAUSAL-GROUPS",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-ACTUAL-CONCRETE-BORROWING-ESCAPE",
+    "DEF-MORE-IN",
+    "DEF-MAXIMUM-IN-A-PERFECTION",
+    "DEF-EXISTING-IN-ACT-AT",
+    "DEF-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
+    "DEF-GRADES-TO-MAXIMUM-AT-BEING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-NECESSARY",
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-NONNECESSARY-VS-CONTINGENT-ROOT",
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
+    "DISAMB-JOINT-SUPPLY-POWER-OCCURRENCE",
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-EXISTENTIAL-SOURCE-SUPPLY-APPLICATION",
+    "DISAMB-BEING-UNIVOCITY",
+    "DISAMB-CAUSE",
+    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME",
+    "DISAMB-IN-ACT",
+    "DISAMB-ORDER-OF-BEING",
+    "DISAMB-PER-SE",
+    "DISAMB-EXISTENCE-ESSE-SUPPORT"
+  ]
+}

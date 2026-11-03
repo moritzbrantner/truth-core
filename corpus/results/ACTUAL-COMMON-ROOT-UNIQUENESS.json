@@ -1,0 +1,10 @@
+{
+  "id": "ACTUAL-COMMON-ROOT-UNIQUENESS",
+  "argument_id": "ACTUAL-COMMON-ROOT-UNIQUENESS",
+  "challenge_module": "TruthCore.Results.Causality.ActualCommonRoot.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ActualCommonRoot.Solution",
+  "theorem": "TruthCore.Results.Causality.ActualCommonRoot.uniqueRoot",
+  "comparator_config": "results/ACTUAL-COMMON-ROOT-UNIQUENESS/comparator.json",
+  "status": "solution-present",
+  "description": "Constructive one-head projection from actual common coverage to existing unique actual roothood, preserving the SAME witness. Composes with existing ActualRootNecessityUpgrade when contingent dependence and EM are supplied; full flattened NE chain remains7+C=old8, not a reduction/minimality or truth claim."
+}

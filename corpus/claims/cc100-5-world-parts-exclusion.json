@@ -1,0 +1,15 @@
+{
+  "id": "CC100-5-WORLD-PARTS-EXCLUSION",
+  "statement_id": "STMT-CC100-5-WORLD-PARTS-EXCLUSION",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.9–26: p.11, argument #5, step 4 with clauses (a)–(b)",
+  "interpretation": "No independent justification of collective exclusion is given here. This concerns the presentation’s collection and sufficient reason, not every actual concretum, all subsets, a well-founded borrowing graph or merely a ban on one act’s self-production. Being outside this collection is not spatial separation; reasons, causes and selected existential grounds remain distinct unless an independent application bridge is supplied.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-5-WORLD-REASON"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF"
+  ]
+}

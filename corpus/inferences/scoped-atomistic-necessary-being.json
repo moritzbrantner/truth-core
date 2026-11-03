@@ -1,0 +1,16 @@
+{
+  "id": "INF-SCOPED-ATOMISTIC-NECESSARY-BEING",
+  "input_statement_ids": [
+    "STMT-ATOMIC-OBJECT-POPULATION",
+    "STMT-EVERY-OBJECT-HAS-SIMPLE-PART",
+    "STMT-CONDITIONAL-CAUSED-SIMPLE-COVER",
+    "STMT-OBJECT-CAUSE-EFFECT-NONOVERLAP",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-SELECTED-ACTUAL-CAUSAL-COVERAGE"
+  ],
+  "output_statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+  "rule": "typed-selected-world-causal-composition",
+  "meaning": "Retain the SAME four nonlogical atomistic structural inputs and explicit EM on actualGraph m w; replace global LocalCausalPrinciple with selected-world actual causal coverage. Import the certified source, preserve its SAME subtype source c, use actualSource_iff and the genuinely generalized selectedSourceNecessary helper. Actual existence comes from subtype membership. The selected cause policy rules out accessible absence of c; conclude the existing frame-relative de re NecessaryBeing endpoint. No concreteness, activity, endpoint policy, S5, reflexivity, uniqueness, grounding identity or full author FirstCause is inferred. This is a strict world-scope weakening, witnessed separately on the full structural background; no philosophical premise truth or root closure. Distinctness deletion is redundant under retained nonoverlap, not an additional independent weakening.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SCOPED-ACTUAL-CAUSAL-STRICT-CONTROL",
+  "term": "strict selected-world causal coverage on the unchanged mixed ontology",
+  "basis": "stipulative",
+  "definition": "Use exactly PossibleCauseOfContingency.mixed.ontic at false. Its actual-node subtype receives the old two-atom Fixture.Object identity-parthood order by Mathlib PartialOrder.lift along an injective map: none maps to origin, some false to effect. Some true remains in the original Ontic but is absent at false. Population, atomic parts, conditional caused-simple cover and cause/effect nonoverlap hold for this SAME actualGraph/order; selected coverage holds with actual contingent some false, while global LocalCausalPrinciple fails at true.",
+  "lean_declaration": "TruthCore.Causality.ScopedActualCausality.StrictControl",
+  "note": "Finite formal scope discriminator, not a new ontology, physical/metaphysical possibility or independent causal adequacy. Preserve all original ExistsAt, Causes, frame and identities. No EM premise is part of the control. Causal coverage is genuinely exercised by none causing some false, not vacuous absence of contingents. This shows world-scope strictness with the full structural background; dropping distinctness is already redundant under actual cause/effect nonoverlap. No claim that every proposed metaphysical interpretation of parthood or complete cause is modeled."
+}

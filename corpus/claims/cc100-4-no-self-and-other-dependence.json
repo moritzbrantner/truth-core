@@ -1,0 +1,14 @@
+{
+  "id": "CC100-4-NO-SELF-AND-OTHER-DEPENDENCE",
+  "statement_id": "STMT-CC100-4-NO-SELF-AND-OTHER-DEPENDENCE",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.9–26: p.9, argument #4, steps 3–4 and displayed step-4 reference",
+  "interpretation": "Preserve can and the explicit no-self premise rather than silently weakening it to a selected actual graph or repairing the displayed reference. Literal self-dependence exclusion does not by itself state transitivity, indirect-cycle exclusion or well-foundedness. The record supplies no new proof or independent warrant for the source’s denial.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-4-DEPENDENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REGRESS-DOMAINS"
+  ]
+}

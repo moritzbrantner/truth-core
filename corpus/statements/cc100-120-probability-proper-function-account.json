@@ -1,0 +1,11 @@
+{
+  "id": "STMT-CC100-120-PROBABILITY-PROPER-FUNCTION-ACCOUNT",
+  "paraphrase": "The best account of epistemic probability concerns what a person with properly functioning cognitive faculties is permitted to believe in their circumstances.",
+  "definition_ids": [
+    "DEF-CC100-119120-PROPER-FUNCTION-DESIGN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REASON-EPISTEMIC-ONTIC",
+    "DISAMB-PSR-EXPLANATION-CAUSE"
+  ]
+}

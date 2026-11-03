@@ -1,0 +1,8 @@
+{
+  "id": "DEF-INDEXED-SIGNAL-FORWARDING",
+  "term": "complete unchanged forwarding of a present indexed input",
+  "definition": "For every n and j, if immediate upstream output signal(n+1) is some(j), then output signal(n) is that same some(j). No present admitted input can be erased, overwritten or relabeled at a station.",
+  "basis": "stipulative",
+  "note": "This all-station persistence interface is stronger than merely having active/passive capacities or an incoming causal edge. PGR maintenance motivates a conditional reading; the later signal revision alone does not explicitly establish this complete numeric transition rule. Closed input/output alphabet, no interference, countable patchwork and real-system application remain OPEN.",
+  "lean_declaration": "TruthCore.Causality.IndexedSignalReaper.Forwarding"
+}

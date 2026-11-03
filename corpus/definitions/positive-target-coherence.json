@@ -1,0 +1,8 @@
+{
+  "id": "DEF-POSITIVE-TARGET-COHERENCE",
+  "term": "positive target label and its actual existence truth correspondence",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.AutonomousGroundNecessity.PositiveTargetCoherent",
+  "definition": "A.exist b equals the existing positive b constructor, and at every world v, A.holds v (A.exist b) iff A.ontic.ExistsAt v b. The alignment and target-local two-way correspondence are explicit Prop content, not a hidden subtype or a different Ontic equality.",
+  "note": "The existing global Arena.Coherent plus this target-label equality yields this condition via targetCoherenceOfCoherent. It does not supply any target truth, modal necessity or actual individual. The proof only needs positive-to-existence at accessible worlds; the frozen input retains the stronger all-world biconditional and no minimality claim is made."
+}

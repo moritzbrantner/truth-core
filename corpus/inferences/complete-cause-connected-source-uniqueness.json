@@ -1,0 +1,13 @@
+{
+  "id": "INF-COMPLETE-CAUSE-CONNECTED-SOURCE-UNIQUENESS",
+  "input_statement_ids": [
+    "STMT-COMPLETE-PRODUCER-PARTICIPATES",
+    "STMT-COMPLETE-CAUSE-COVERS-CONTRIBUTORS",
+    "STMT-SOURCE-FOREST-WEAKLY-CONNECTED"
+  ],
+  "output_statement_id": "STMT-SOURCE-FOREST-AT-MOST-ONE-SOURCE",
+  "rule": "same-graph-complete-cause-source-assembly",
+  "meaning": "Existing-theorem assembly on the SAME complete-production graph G. CompleteCauseContributorCover.uniqueCause derives incoming complete-cause uniqueness from the two participant policies and ambient object-parthood antisymmetry. This is exactly the existing SourceForest.UniquePredecessor input after explicit binder conversion. Import SourceForest.atMostOne with retained OPEN WeaklyConnected G to conclude the existing AtMostOneSource G. Connectivity means finite undirected paths of COMPLETE-PRODUCTION edges, not parthood or contributor membership. The conclusion permits no source or an empty carrier: no population, source existence, necessity, substance unity or actual grounding adequacy is supplied. Aggregation alone does not establish the retained connectivity.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

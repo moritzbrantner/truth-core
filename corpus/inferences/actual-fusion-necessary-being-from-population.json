@@ -1,0 +1,20 @@
+{
+  "id": "INF-ACTUAL-FUSION-NECESSARY-BEING-FROM-POPULATION",
+  "input_statement_ids": [
+    "STMT-PSR-POPULATED-AT",
+    "STMT-CONDITIONAL-ACTUAL-NO-NECESSARY-PARTS-FUSION",
+    "STMT-ACTUAL-WHOLES-HAVE-ACTUAL-PARTS",
+    "STMT-ACTUAL-NO-NECESSARY-PARTS-HAVE-CAUSES",
+    "STMT-CAUSES-HAVE-ACTUAL-ENDPOINTS-AT",
+    "STMT-CAUSE-EFFECT-NONOVERLAP-AT"
+  ],
+  "output_statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+  "rule": "scoped-population-to-conditional-fusion-and-imported-five-input-reductio",
+  "meaning": "Assume the scoped negation of existing NecessaryBeing. Unpack existing owner-accepted PopulatedAt (still an explicit input) to obtain an actual a. The actual-part policy makes every necessary part of a actual, contradicting the scoped denial, so a has no necessary parts. This proves nonemptiness of the selected actual family WITHIN the reductio; conditional selected-family formation supplies an actual sum there. Import the five-input actual-fusion theorem with that SAME Ontic and the four unchanged part/causal policies, contradicting the scoped denial. Discharge it to bare NE. No independent actual wholly-contingent population/sum or PSR/quality property is assumed; the existing Model explains field is unused.",
+  "assumption_statement_ids": [
+    "STMT-NO-ACTUAL-NECESSARY-BEING-AT"
+  ],
+  "discharged_statement_ids": [
+    "STMT-NO-ACTUAL-NECESSARY-BEING-AT"
+  ]
+}

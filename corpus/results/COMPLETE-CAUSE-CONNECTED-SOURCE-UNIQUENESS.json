@@ -1,0 +1,11 @@
+{
+  "id": "COMPLETE-CAUSE-CONNECTED-SOURCE-UNIQUENESS",
+  "argument_id": "COMPLETE-CAUSE-CONNECTED-SOURCE-UNIQUENESS",
+  "challenge_module": "TruthCore.Results.Causality.CompleteCauseSourceUniqueness.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CompleteCauseSourceUniqueness.Solution",
+  "theorem": "TruthCore.Results.Causality.CompleteCauseSourceUniqueness.atMostOne",
+  "comparator_config": "results/COMPLETE-CAUSE-CONNECTED-SOURCE-UNIQUENESS/comparator.json",
+  "status": "solution-present",
+  "transcription": "assembly",
+  "description": "Existing-theorem assembly on the SAME complete-production graph G. CompleteCauseContributorCover.uniqueCause derives incoming complete-cause uniqueness from the two participant policies and ambient object-parthood antisymmetry. This is exactly the existing SourceForest.UniquePredecessor input after explicit binder conversion. Import SourceForest.atMostOne with retained OPEN WeaklyConnected G to conclude the existing AtMostOneSource G. Connectivity means finite undirected paths of COMPLETE-PRODUCTION edges, not parthood or contributor membership. The conclusion permits no source or an empty carrier: no population, source existence, necessity, substance unity or actual grounding adequacy is supplied. Aggregation alone does not establish the retained connectivity."
+}

@@ -1,0 +1,28 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "NECESSARYBEING-SURVEY",
+    "encoding": "utf-8",
+    "language": "eng",
+    "source_url": "https://www.necessarybeing.com/a10c3.html",
+    "retrieved_at": "2026-10-31T19:50:53Z",
+    "sha256": "sha256:835bff3276a1b5e666847e4f64eec66bbca6a78737ebe735fad2c4a00086a750",
+    "license": "No license displayed on inspected site (2026-10-31). Only hashes, locator and short incipit committed; no archived fallback asserted."
+  },
+  "passages": [
+    {
+      "id": "NECESSARYBEING-A10C3",
+      "locator": "A10C3, complete interactive page",
+      "claim_locator_prefixes": [
+        "A10C3,"
+      ],
+      "html_selector": {
+        "from": {
+          "text": "Congratulations! Your answers appear to have an interesting implication: they appear to imply that you have a (prima facie) reason to think that there is (more likely than not) a Necessary Being."
+        }
+      },
+      "text_sha256": "sha256:34b2286100f95c00227cf6ac69fc45fb474112f6d33579fa9cc1191bfc7ec1aa",
+      "incipit": "Congratulations! Your answers appear to have an interesting implication: th"
+    }
+  ]
+}

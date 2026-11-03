@@ -1,0 +1,10 @@
+{
+  "id": "STMT-INDEXED-SIGNAL-GLOBAL-PROVENANCE",
+  "paraphrase": "Each present output code j was issued at station j in the supplied issuance role. No actual-world, firstness, uniqueness, signal existence, causal-finitism or existential-grounding conclusion is asserted.",
+  "lean_declaration": "TruthCore.Causality.IndexedSignalProvenance.GlobalProvenance",
+  "definition_ids": [
+    "DEF-INDEXED-SIGNAL-LOCAL-CONSERVATION",
+    "DEF-INDEXED-SIGNAL-INDEX-ADMISSIBILITY",
+    "DEF-INDEXED-SIGNAL-PROVENANCE"
+  ]
+}

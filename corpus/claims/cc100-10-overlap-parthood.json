@@ -1,0 +1,15 @@
+{
+  "id": "CC100-10-OVERLAP-PARTHOOD",
+  "statement_id": "STMT-CC100-10-OVERLAP-PARTHOOD",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.9–26: p.20, argument #10 Koons, A1",
+  "interpretation": "Preserve the overlap characterization, not identity, numerical distinction or a causal relation. The slide supplies no separate formal definition of overlap, reflexivity, supplementation or overlap-to-parthood theorem. Attribution is to McIntosh’s presentation only, not the unread Koons1997 or Hawthorne–Cortens1993 works referenced on p24. No formal result or premise truth is established.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-10-MEREOLOGICAL-SCOPE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FUSION-CAUSE-EXTERNALITY",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

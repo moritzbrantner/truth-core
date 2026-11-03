@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NECESSARY-PART-FUSION-DECOMPOSITION",
+  "term": "nonnecessary candidate and candidate part without necessary parts",
+  "lean_declaration": "TruthCore.Mereology.NecessaryPartFusionDecomposition.HasNoNecessaryPartsPartAt",
+  "basis": "stipulative",
+  "definition": "NotNecessaryAt m w x is NOT the existing NecessaryAt m w x. HasNoNecessaryPartsPartAt m w x is existence of q in the candidate carrier with q ≤ x AND existing NoNecessaryPartsAt m w q. No actual-existence clause is included in either predicate.",
+  "note": "The candidate q may equal x, so no properness is asserted. The theorem uses the SAME frame, modal standpoint, order and carrier throughout. Actual x plus a separately applicable actual-world whole-to-parts existence law could actualize q, but neither is an input or conclusion here. Source ordinary contingency/no-necessary-parts/type correspondence remains OPEN. NecessaryAt is existing de-re accessible existence; lack of necessity alone is not ordinary ContingentAt. No cause, explanatory sufficiency, root or God is inferred."
+}

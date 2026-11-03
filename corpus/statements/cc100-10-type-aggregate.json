@@ -1,0 +1,11 @@
+{
+  "id": "STMT-CC100-10-TYPE-AGGREGATE",
+  "paraphrase": "If there is a thing of type C, an aggregate or sum of all things of that type exists.",
+  "definition_ids": [
+    "DEF-CC100-10-MEREOLOGICAL-SCOPE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FUSION-CAUSE-EXTERNALITY",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

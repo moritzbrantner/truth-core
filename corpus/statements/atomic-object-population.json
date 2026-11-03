@@ -1,0 +1,20 @@
+{
+  "id": "STMT-ATOMIC-OBJECT-POPULATION",
+  "paraphrase": "The non-null object domain is inhabited.",
+  "lean_declaration": "TruthCore.Causality.AtomisticCausalSource.ObjectPopulation",
+  "definition_ids": [
+    "DEF-ATOMIC-OBJECT-DOMAIN",
+    "DEF-ATOMIC-SIMPLE-PART",
+    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
+    "DEF-COMPLETE-OBJECT-CAUSATION",
+    "DEF-OBJECT-CAUSE-NONOVERLAP",
+    "DEF-ATOMIC-CAUSAL-SOURCE",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-UNIVERSAL-FUSION-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
+    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE"
+  ],
+  "note": "Typed population supplies no actual/concrete interpretation for an arbitrary candidate carrier."
+}

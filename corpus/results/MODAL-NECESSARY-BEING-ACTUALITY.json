@@ -1,0 +1,10 @@
+{
+  "id": "MODAL-NECESSARY-BEING-ACTUALITY",
+  "argument_id": "MODAL-NECESSARY-BEING-ACTUALITY",
+  "challenge_module": "TruthCore.Results.Causality.ModalNecessaryBeingActuality.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ModalNecessaryBeingActuality.Solution",
+  "theorem": "TruthCore.Results.Causality.ModalNecessaryBeingActuality.hasBeing",
+  "comparator_config": "results/MODAL-NECESSARY-BEING-ACTUALITY/comparator.json",
+  "status": "solution-present",
+  "description": "Configured dictionary consequence with three retained inputs: EM, actual-world reflexivity and existence-to-act. Derives its independent configured NecessaryBeingHasBeing instance on existing modalPossible/modalIsAt; proves no arbitrary temporal-modal interface or independent source/premise truth. New configured definition heads prevent a schema/instance identification or generic closure; input constraints are unchanged."
+}

@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.AccessibleAccountNecessaryBeing.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.AccessibleAccountNecessaryBeing.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Explanation.AccessibleAccountNecessaryBeing.necessaryBeing"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

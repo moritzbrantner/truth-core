@@ -1,0 +1,15 @@
+{
+  "id": "CC100-10-PARTS-TO-WHOLE-EXISTENCE",
+  "statement_id": "STMT-CC100-10-PARTS-TO-WHOLE-EXISTENCE",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.9–26: p.20, argument #10 Koons, A5",
+  "interpretation": "Retain the converse existence condition for the selected whole and its parts; do not change it into existence of a fusion for every family, complete causal explanation by members or a law of temporal reconstruction. Empty-part and domain semantics remain unspecified. Attribution is to McIntosh’s presentation only, not the unread Koons1997 or Hawthorne–Cortens1993 works referenced on p24. No formal result or premise truth is established.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-10-MEREOLOGICAL-SCOPE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FUSION-CAUSE-EXTERNALITY",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

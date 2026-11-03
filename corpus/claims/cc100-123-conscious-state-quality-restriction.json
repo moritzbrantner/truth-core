@@ -1,0 +1,16 @@
+{
+  "id": "CC100-123-CONSCIOUS-STATE-QUALITY-RESTRICTION",
+  "statement_id": "STMT-CC100-123-CONSCIOUS-STATE-QUALITY-RESTRICTION",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.272–291: p.288, argument #123 Idealism, step 2",
+  "interpretation": "Preserve the source’s bearer restriction to conscious states. Do not silently replace state with person/mind, property with bearer, or intrinsic with mental by definition. No identity or constitution bridge is supplied by terminology alone. Attribution is to McIntosh’s presentation only, not unread Berkeley/Adams/Hunter/Spiegel works referenced on p289. No formal proof or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-123-QUALITY-STATE-CONSTITUTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REASON-EPISTEMIC-ONTIC",
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

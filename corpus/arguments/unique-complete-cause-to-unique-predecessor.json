@@ -1,0 +1,30 @@
+{
+  "id": "UNIQUE-COMPLETE-CAUSE-TO-UNIQUE-PREDECESSOR",
+  "premise_statement_ids": [
+    "STMT-UNIQUE-COMPLETE-CAUSE-PER-EFFECT"
+  ],
+  "conclusion_statement_id": "STMT-SOURCE-FOREST-UNIQUE-PREDECESSOR",
+  "inference_ids": [
+    "INF-UNIQUE-COMPLETE-CAUSE-TO-UNIQUE-PREDECESSOR"
+  ],
+  "meaning": "Mechanical assembly/transcription: UniqueCausePerEffect G and Relator.LeftUnique G.edge differ only in quantifier binder order. On the SAME graph G, reorder effect/cause variables and preserve the exact incoming-edge condition and equality. The complete-production interpretation is not transferred to a different contribution/grounding graph. No new existence, connectivity, source uniqueness, causal WF, single-effect-per-producer law, necessity or premise truth follows.",
+  "definition_ids": [
+    "DEF-ATOMIC-OBJECT-DOMAIN",
+    "DEF-ATOMIC-SIMPLE-PART",
+    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
+    "DEF-COMPLETE-OBJECT-CAUSATION",
+    "DEF-OBJECT-CAUSE-NONOVERLAP",
+    "DEF-ATOMIC-CAUSAL-SOURCE",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-SOURCE-FOREST-CONSTRAINTS",
+    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
+    "DEF-FINITE-CAUSAL-PATH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
+    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE",
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-CAUSAL-POWER-GROUNDING"
+  ]
+}

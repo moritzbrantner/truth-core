@@ -1,0 +1,17 @@
+{
+  "id": "AQUINAS-SCG-I42-CONDITIONAL-ONE-FIRST-MOTION-MOVER",
+  "statement_id": "STMT-AQUINAS-SCG-I42-CONDITIONAL-ONE-FIRST-MOTION-MOVER",
+  "source_id": "AQUINAS-SCG",
+  "basis": "translation",
+  "locator": "I.42 [5], final application",
+  "interpretation": "Preserve a selected first-motion conditional, not uniqueness of every necessary root. The historical first-motion premise and application of the continuous/regular target remain open; regularity is not silently supplied by continuity alone. Existing OneFirstMover proofs use different act/perfection premises and are not this motion argument. Based on the already verified complete Pegis translation; no pinned Latin reading, formal proof or premise truth is asserted.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-SCG-I42-ECONOMY-MOVERS-ORDER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE",
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "INF-INDEXED-SIGNAL-REAPER-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-INDEXED-SIGNAL-REAPER-CONTROLS",
+  "rule": "same-carrier-four-interface-omissions",
+  "meaning": "Without the bound use constant some(0) and no issuance; without the trigger use all-none/no-issuance; without emission use all-none/all-issuance; without forwarding output own code at every station with all-issuance. Each retains the other THREE interfaces, falsifies the omitted one and fails the full action law. Same station/code carrier and meanings throughout; no global minimality or actual/metaphysical possibility inferred.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

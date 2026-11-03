@@ -1,0 +1,10 @@
+{
+  "id": "ACCESSIBLE-ACCOUNT-NECESSARY-BEING",
+  "argument_id": "ACCESSIBLE-ACCOUNT-NECESSARY-BEING",
+  "challenge_module": "TruthCore.Results.Explanation.AccessibleAccountNecessaryBeing.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.AccessibleAccountNecessaryBeing.Solution",
+  "theorem": "TruthCore.Results.Explanation.AccessibleAccountNecessaryBeing.necessaryBeing",
+  "comparator_config": "results/ACCESSIBLE-ACCOUNT-NECESSARY-BEING/comparator.json",
+  "status": "solution-present",
+  "description": "Localize the existing five-input weak-account NE route by replacing account-wide Founded with selected-target Acc of exactly ContingentReason. The checked global-to-selected helper establishes scope implication, not a converse, strictness or minimality. Retain the same four-clause account, explicit EM and two OPEN fixed-constituent policies. Unrelated chains are unrestricted by local accessibility. No actual constitution, source applicability, necessary cause, concreteness, uniqueness, God or philosophical premise truth is established."
+}

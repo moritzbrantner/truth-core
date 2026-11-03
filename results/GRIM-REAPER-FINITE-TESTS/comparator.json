@@ -1,0 +1,7 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.GrimReaperFiniteTests.Challenge",
+  "solution_module": "TruthCore.Results.Causality.GrimReaperFiniteTests.Solution",
+  "theorem_names": ["TruthCore.Results.Causality.GrimReaperFiniteTests.checks"],
+  "permitted_axioms": ["propext", "Classical.choice", "Quot.sound"],
+  "enable_nanoda": true
+}

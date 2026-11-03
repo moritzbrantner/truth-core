@@ -1,0 +1,10 @@
+{
+  "id": "AUTONOMOUS-GROUND-TARGET-NOT-CONTINGENT",
+  "argument_id": "AUTONOMOUS-GROUND-TARGET-NOT-CONTINGENT",
+  "challenge_module": "TruthCore.Results.Explanation.AutonomousGroundNecessity.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.AutonomousGroundNecessity.Solution",
+  "theorem": "TruthCore.Results.Explanation.AutonomousGroundNecessity.targetNotContingent",
+  "comparator_config": "results/AUTONOMOUS-GROUND-TARGET-NOT-CONTINGENT/comparator.json",
+  "status": "solution-present",
+  "description": "Retain the four full-ground/autonomous-necessity/joint-necessitation/positive-coherence inputs and derive NecessaryAt for that SAME target. Apply the existing necessity/accessible-absence incompatibility with identity sufficiency to rule out ContingentAt b. No actual-concrete-target premise is needed for this negative conclusion; an actually contingent target is therefore incompatible with this exact strong package. Universal application would exclude contingent covered concrete targets, not full propositional modal collapse without additional all-fact coverage."
+}

@@ -1,0 +1,18 @@
+{
+  "id": "AQUINAS-SCG-I42-UNIVOCAL-NATURE-BEING-FORK",
+  "statement_id": "STMT-AQUINAS-SCG-I42-UNIVOCAL-NATURE-BEING-FORK",
+  "source_id": "AQUINAS-SCG",
+  "basis": "translation",
+  "locator": "I.42 [12]",
+  "interpretation": "One nature INNOTION is not silently one numerical nature or esse. The source’s distinct-esse-to-quiddity/esse-nonidentity step is a substantive individuation premise, not independent proof from a shared word. Equivocal God names are expressly outside the intended hypothesis. Based on the verified complete Pegis translation chapter; no pinned Latin reading or formal proof/premise truth is asserted.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-SCG-I42-UNIQUENESS-CASES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SCG-I42-COMMON-NOTION-THISNESS",
+    "DISAMB-NECESSARY",
+    "DISAMB-ESSENCE",
+    "DISAMB-Q11-SUPPOSITUM-NATURE"
+  ]
+}

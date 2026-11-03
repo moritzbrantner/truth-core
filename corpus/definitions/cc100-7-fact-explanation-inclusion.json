@@ -1,0 +1,13 @@
+{
+  "id": "DEF-CC100-7-FACT-EXPLANATION-INCLUSION",
+  "term": "contingent aggregate fact, other-fact inclusion and necessary explanation in presentation #7",
+  "definition": "The admitted aggregate is itself a contingent fact and includes all OTHER contingent facts. Explanation is unelaborated; step4 excludes it from contingent facts and step5 calls it necessary. Facts/explanations are not identified with concrete beings. Inclusion supplies no specified primitive self-conjunct, mereological composition, truth-distribution or explanation-distribution law.",
+  "basis": "stipulative",
+  "claim_ids": [
+    "CC100-7-CONTINGENT-FACT-TOTALITY",
+    "CC100-7-AGGREGATE-EXPLAINED",
+    "CC100-7-EXPLANATION-NOT-CONTINGENT",
+    "CC100-7-CONDITIONAL-NECESSARY-EXPLANATION"
+  ],
+  "note": "Minimal editorial glossary for p14. Exact fact admission, actual truth/factivity, necessary-versus-contingent classification, inclusion/reflexivity and real explanatory interpretation remain OPEN. Existing PSRStrength/BCCF predicates may be compared only with their explicit guards; necessitation, concrete bearers, universal common causes and unread Pruss content are not silently added."
+}

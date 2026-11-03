@@ -17,6 +17,54 @@ open TruthCore.Explanation.PSRStrength
 
 variable {E G B S : Type}
 
+/-! ## Intrinsic support families, preserving AND/OR group structure -/
+
+/-- The monotone immediate-consequence operator for a chosen set S of
+independently supplied events. Members of ONE admitted contributor group must
+ALL already be supplied (AND); separate groups are alternatives (OR).
+Enablers are deliberately excluded: their occurrence is a separate #733
+exercise/coherence question. Unlike the projected-edge operator, this keeps
+the contributing group records. Its least fixed point tolerates cycles and
+does not assume finite branching or a finite number of derivation rounds. -/
+def supportStep (h : Groups E G) (S : Set E) : Set E →o Set E where
+  toFun X := {e | e ∈ S ∨
+    ∃ g, h.admitted g ∧ h.effect g = e ∧ ∀ a ∈ h.contributors g, a ∈ X}
+  monotone' := by
+    intro X Y hXY e he
+    rcases he with hs | ⟨g, hg, he, hAll⟩
+    · exact Or.inl hs
+    · exact Or.inr ⟨g, hg, he, fun a ha => hXY (hAll a ha)⟩
+
+/-- S contains only candidate intrinsic contributions, and jointly supplies
+the target using the inductive #734 standard. An individual source, an
+actual-world existence fact, or a causally complete individual is NOT thereby
+asserted. -/
+def IntrinsicSupport (h : Groups E G) (I : E → Prop)
+    (S : Set E) (target : E) : Prop :=
+  S ⊆ {e | I e} ∧ Supply h (fun e => e ∈ S) target
+
+/-- A productive intervention disables the intrinsic inputs in B, while
+holding the admitted contributor GROUP records fixed. This is NOT the
+metaphysical nonexistence of those beings in an accessible world; it changes
+the supply basis in the proposed #734 inductive model. -/
+def BlockedBy (h : Groups E G) (I : E → Prop)
+    (B : Set E) (target : E) : Prop :=
+  ¬ Supply h (fun e => I e ∧ e ∉ B) target
+
+/-- A NONVACUOUS productive analogue of individual indispensability: the
+target is initially supplied, and every sufficient intrinsic basis uses a.
+This is distinct from #733's scenario-relative Exercise.indispensable. -/
+def ProductivelyEssential (h : Groups E G) (I : E → Prop)
+    (target a : E) : Prop :=
+  Supply h I target ∧ ∀ S, IntrinsicSupport h I S target → a ∈ S
+
+/-- Inclusion-minimal intrinsic support, not necessarily a SINGLE individual
+and not necessarily the least support for other effects. -/
+def MinimalIntrinsicSupport (h : Groups E G) (I : E → Prop)
+    (S : Set E) (target : E) : Prop :=
+  IntrinsicSupport h I S target ∧
+    ∀ T, IntrinsicSupport h I T target → T ⊆ S → S ⊆ T
+
 /-- The regress graph as a Mathlib quiver, one arrow per edge. -/
 @[reducible] def quiverOf (K : Graph E) : Quiver E := ⟨fun y x => PLift (K.edge y x)⟩
 
@@ -142,6 +190,11 @@ def pruned : Groups Ev Bool where
   admitted := fun _ => True
 
 def isS (e : Ev) : Prop := e = .s
+
+/-- A rival reading: both s and u may be supplied intrinsically, even though
+only s is an ordinary source of the fixed pairGraph. The additional bridge
+identifying intrinsic supply with causal-source status is NOT assumed. -/
+def isSU (e : Ev) : Prop := e = .s ∨ e = .u
 
 /-- Shared exercise data: s occurs in both scenarios, t and u at `true` only,
 and every record is exercised. Only the records and allowed scenarios vary. -/

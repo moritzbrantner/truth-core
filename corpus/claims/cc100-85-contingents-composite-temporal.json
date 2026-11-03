@@ -1,0 +1,15 @@
+{
+  "id": "CC100-85-CONTINGENTS-COMPOSITE-TEMPORAL",
+  "statement_id": "STMT-CC100-85-CONTINGENTS-COMPOSITE-TEMPORAL",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.206–213: p.208, argument #85 Unities: Contingents, step 1",
+  "interpretation": "This is the universal displayed source assertion, not a theorem from modal contingency or a definition of contingent being. No exceptions, ordinary examples or independent contingency-to-compositeness/temporality argument are supplied. Existing root attributes concern a selected necessary root, not this universal contingent domain. Attribution is to McIntosh’s presentation only, not the unread Braine1988 book referenced on p209. No formal proof or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-85-TEMPORAL-SUSTAINING-EXPLANATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

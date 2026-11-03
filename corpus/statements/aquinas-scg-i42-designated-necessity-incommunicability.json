@@ -1,0 +1,14 @@
+{
+  "id": "STMT-AQUINAS-SCG-I42-DESIGNATED-NECESSITY-INCOMMUNICABILITY",
+  "paraphrase": "A being necessary through itself must be necessary as this designated being; what belongs to this designated thing as such cannot belong to another, so under that necessity/individuation connection several such necessary beings are excluded.",
+  "definition_ids": [
+    "DEF-SCG-I42-UNIQUENESS-CASES",
+    "DEF-SCG-I42-DESIGNATED-NECESSITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SCG-I42-COMMON-NOTION-THISNESS",
+    "DISAMB-NECESSARY",
+    "DISAMB-ESSENCE",
+    "DISAMB-Q11-SUPPOSITUM-NATURE"
+  ]
+}

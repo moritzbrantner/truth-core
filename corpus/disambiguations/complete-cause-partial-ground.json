@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
+  "term": "complete existence-production versus existential grounding",
+  "sense_definition_ids": [
+    "DEF-COMPLETE-OBJECT-CAUSATION",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING"
+  ],
+  "resolution": "AtomisticCausalSource uses G as a candidate COMPLETE existence-producing relation, not a partial contributor or the world-local grounds field. Rutten's one-cause-per-effect concerns incoming complete causes; a cause may have many effects. Joint contributors can be only part of a complete source. Constitutive grounds can overlap their whole and do not automatically satisfy complete-production nonoverlap. No relation inclusion, actuality, inverse mapping or necessity bridge is inferred from names."
+}

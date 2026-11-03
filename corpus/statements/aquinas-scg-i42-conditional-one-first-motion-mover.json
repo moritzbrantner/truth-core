@@ -1,0 +1,12 @@
+{
+  "id": "STMT-AQUINAS-SCG-I42-CONDITIONAL-ONE-FIRST-MOTION-MOVER",
+  "paraphrase": "Given that the first motion is one and continuous, and the preceding exclusions of together and alternating plural movers apply, its first mover must be one.",
+  "definition_ids": [
+    "DEF-SCG-I42-ECONOMY-MOVERS-ORDER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE",
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

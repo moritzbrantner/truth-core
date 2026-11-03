@@ -1,0 +1,32 @@
+{
+  "id": "MODAL-NECESSARY-BEING-ACTUALITY",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-ACTUAL-MODAL-REFLEXIVITY",
+    "STMT-EXISTING-IN-ACT-AT"
+  ],
+  "conclusion_statement_id": "STMT-MODAL-NECESSARY-BEING-HAS-BEING",
+  "inference_ids": [
+    "INF-MODAL-NECESSARY-BEING-ACTUALITY"
+  ],
+  "meaning": "At the SAME selected world and supplied Profile, modalPossible is accessible-world existential possibility and modalIsAt is world-relative existence. Given IsNecessary x, split actual presence using supplied EM. Absence at w, together with actual reflexivity, witnesses the very possible absence denied by IsNecessary. Thus x is present at w; the one-way ExistingInActAt interface supplies InAct x esse. This gives existing NecessaryBeingHasBeing ONLY on that configured dictionary, not arbitrary temporal Possible. No converse existence/act interface, cause correspondence or necessary-being witness is inferred. Registration uses independent configured declaration/statement identity. Existing generic source-schema statements are NOT conclusions or reverse-edge outputs; the old theorem is reused internally only.",
+  "definition_ids": [
+    "DEF-ACTUAL-MODAL-REFLEXIVITY",
+    "DEF-EXISTING-IN-ACT-AT",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-NECESSARY-BEING",
+    "DEF-NECESSARY-PER-SE",
+    "DEF-MAXIME-ENS",
+    "DEF-MAXIMUM-IN-A-PERFECTION",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-ACT",
+    "DEF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY",
+    "DISAMB-PER-SE",
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-IN-ACT",
+    "DISAMB-MAXIME-ENS"
+  ]
+}

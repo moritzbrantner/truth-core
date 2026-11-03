@@ -1,0 +1,13 @@
+{
+  "id": "STMT-POSSIBLE-IMPOSSIBILITY-INPUT",
+  "paraphrase": "Conditional on an affirmative report, if a situation can be impossible, that situation is actually impossible. This input alone includes no inference to necessity of possibility or assertion of actual assent.",
+  "definition_ids": [
+    "DEF-NB-SURVEY-POSSIBLE-IMPOSSIBILITY-INPUT",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A10-DEFAULT-AND-MODAL-CAUSE",
+    "DISAMB-NB-A2-ALT-REVISED-NECESSITY",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

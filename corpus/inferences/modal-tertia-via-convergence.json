@@ -1,0 +1,14 @@
+{
+  "id": "INF-MODAL-TERTIA-VIA-CONVERGENCE",
+  "input_statement_ids": [
+    "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
+    "STMT-MODAL-NECESSARY-BEING-HAS-BEING",
+    "STMT-CAUSE-OF-NECESSARY-BEING-CAUSES-ITS-NECESSITY",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "output_statement_id": "STMT-MODAL-NECESSARY-PER-SE-IS-MAXIME-ENS",
+  "rule": "modal-tertia-via-convergence",
+  "meaning": "Import the configured hasBeing adapter, then apply existing TertiaViaNecessaryPerSeIsMaximeEns.necessaryPerSeIsMaximeEns with the SAME modalPossible/modalIsAt, cause-of-necessity, act/esse and genus dictionaries. Conclusion EXACTLY says every necessary-per-se candidate is equal to every existing maximum IF ANY. No candidate or maximum exists by this theorem alone, no chosen candidate is independently shown IsMaximumIn, and no God naming or root migration follows. Keep the genus and cause-of-necessity bridges plus supplied EM; replace the old hasBeing hypothesis by actual reflexivity and one-way existence-to-act. Registration uses independent configured declaration/statement identity. Existing generic source-schema statements are NOT conclusions or reverse-edge outputs; the old theorem is reused internally only.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

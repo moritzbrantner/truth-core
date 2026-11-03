@@ -1,0 +1,8 @@
+{
+  "id": "DEF-INDEXED-SIGNAL-LOCAL-CONSERVATION",
+  "term": "unchanged indexed-signal forwarding or local issuance",
+  "definition": "signal n is the optional numeric code at station n's output; issued n records issuance at that station in this stipulated role. Every present output code j either is issued here with j=n or occurs unchanged at the immediate upstream output n+1. This excludes unaccounted changes or external injections locally, without asserting a global originating node.",
+  "basis": "stipulative",
+  "note": "Analyst closed-channel interface, motivated conditionally by Koons PGR's create-at-own-position or maintain-inherited-particle description, not attributed as his exact formal statement or as established physics. A received code and an issuing act are distinct. Does not ensure every issuance produces an output, a no-input trigger, persistence at other times, truth of a 'first' message, or actual causal power. CPNPP preservation and real-system applicability remain OPEN.",
+  "lean_declaration": "TruthCore.Causality.IndexedSignalProvenance.LocalConservation"
+}

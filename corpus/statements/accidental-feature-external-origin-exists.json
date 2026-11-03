@@ -1,0 +1,13 @@
+{
+  "id": "STMT-ACCIDENTAL-FEATURE-EXTERNAL-ORIGIN-EXISTS",
+  "lean_declaration": "TruthCore.Causality.AccidentalFeatureOrigin.ExternalOriginExists",
+  "paraphrase": "Some supplied ordinary-carrier value occupies the externalFeatureCause role toward x for this characteristic. No ExistsAt, c\u2260x, existential grounding, necessary cause or unity follows.",
+  "definition_ids": [
+    "DEF-ACCIDENTAL-FEATURE-ORIGIN-ROLES",
+    "DEF-ACCIDENTAL-FEATURE-ORIGIN-POLICIES",
+    "DEF-ESSENCE-THOMISTIC-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ACCIDENTAL-FEATURE-ORIGIN-AND-EXISTENTIAL-GROUND"
+  ]
+}

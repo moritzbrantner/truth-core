@@ -1,0 +1,15 @@
+{
+  "id": "CC100-6-CONDITIONAL-GOD-EXISTENCE",
+  "statement_id": "STMT-CC100-6-CONDITIONAL-GOD-EXISTENCE",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.9–26: p.12, argument #6, step 5 under steps 1–4",
+  "interpretation": "The displayed conclusion is retained conditionally on its philosophical premises. It is not independently established God existence, a new formal result or an existence proof from an undefined label alone. The explanation-object and God-bearer interpretation remains OPEN; no particular existing necessary witness is silently renamed.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-6-UNIVERSE-EXPLANATION-GOD"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "LOGIC-REFLECTIVE-COHERENCE-LIMITS",
+  "argument_id": "LOGIC-REFLECTIVE-COHERENCE-LIMITS",
+  "challenge_module": "TruthCore.Results.Logic.ReflectiveCoherence.Limits.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ReflectiveCoherence.Limits.Solution",
+  "theorem": "TruthCore.Results.Logic.ReflectiveCoherence.Limits.reflectiveCoherenceLimits",
+  "comparator_config": "results/LOGIC-REFLECTIVE-COHERENCE-LIMITS/comparator.json",
+  "status": "solution-present"
+}

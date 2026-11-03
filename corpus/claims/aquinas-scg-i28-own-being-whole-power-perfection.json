@@ -1,0 +1,18 @@
+{
+  "id": "AQUINAS-SCG-I28-OWN-BEING-WHOLE-POWER-PERFECTION",
+  "statement_id": "STMT-AQUINAS-SCG-I28-OWN-BEING-WHOLE-POWER-PERFECTION",
+  "source_id": "AQUINAS-SCG",
+  "basis": "translation",
+  "locator": "I.28 [2\u20133]",
+  "interpretation": "The source argues from excellence according to being to whole power for that which is its own being, using unreceived whiteness versus a receiver as analogy; [3] adds absence of defect. Context [1] contrasts living things with those merely existing and defines universal perfection by no lacking excellence. This is a genuine metaphysical own-being/whole-power claim, not a formal consequence of a supplied essenceOf/esseOf lookup equality. The analogy does not independently prove that an actual necessary root is unreceived subsistent esse. No typed IsPerfect, global causal transfer or uniqueness premise is silently bound. Existing q4a2 perfections-pertain-to-being is related but does not include this entire conditional; preserve independent statement identity. Based on the verified complete Pegis English chapter; no independently consulted Latin edition or proof/truth certification is claimed.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-SCG-I28-WHOLE-POWER-PARTICIPATION",
+    "DEF-ESSE",
+    "DEF-UNIVERSALLY-PERFECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSENCE",
+    "DISAMB-ORDER-OF-BEING"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "REFLEXIVE-ACTUAL-FUSION-NECESSARY-BEING",
+  "argument_id": "REFLEXIVE-ACTUAL-FUSION-NECESSARY-BEING",
+  "challenge_module": "TruthCore.Results.Causality.ReflexiveActualFusionNecessaryBeing.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ReflexiveActualFusionNecessaryBeing.Solution",
+  "theorem": "TruthCore.Results.Causality.ReflexiveActualFusionNecessaryBeing.necessaryBeing",
+  "comparator_config": "results/REFLEXIVE-ACTUAL-FUSION-NECESSARY-BEING/comparator.json",
+  "status": "solution-present",
+  "description": "Five inputs: actual selected fusion, existing MF2 selected reflexivity and three unchanged causal policies derive SOME bare actually existing necessary individual by scoped reductio. Actual reflexivity supplies necessity-to-actuality directly; it is not used to fabricate CF2 actual-part existence. No necessary selected cause, concreteness, L1/L2/A1/Euclidean/S5/PSR/source binding or independent truth claim. Same named input counts as CF2 counterparts; different commitments, not a global weakening. Actual sum existence stays explicit."
+}

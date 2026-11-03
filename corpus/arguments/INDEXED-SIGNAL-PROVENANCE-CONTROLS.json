@@ -1,0 +1,14 @@
+{
+  "id": "INDEXED-SIGNAL-PROVENANCE-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-INDEXED-SIGNAL-PROVENANCE-CONTROLS",
+  "inference_ids": [
+    "INF-INDEXED-SIGNAL-PROVENANCE-CONTROLS"
+  ],
+  "meaning": "Use constant some(0) with no issuing nodes for conservation without the bound; use some(0) only at station0, with no issuing nodes, for the bound without conservation. Both fail provenance. Constant none with no issues satisfies both local interfaces. No metaphysical possibility or causal interpretation is inferred.",
+  "definition_ids": [
+    "DEF-INDEXED-SIGNAL-LOCAL-CONSERVATION",
+    "DEF-INDEXED-SIGNAL-INDEX-ADMISSIBILITY",
+    "DEF-INDEXED-SIGNAL-PROVENANCE"
+  ]
+}

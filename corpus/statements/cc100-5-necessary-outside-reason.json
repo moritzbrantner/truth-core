@@ -1,0 +1,11 @@
+{
+  "id": "STMT-CC100-5-NECESSARY-OUTSIDE-REASON",
+  "paraphrase": "If anything that exists has a sufficient reason for its existence either in another contingent being or in a necessary being, the world exists and is the collection of all contingent beings, and the sufficient reason for that collection cannot be in its parts individually or collectively, then a sufficient reason for the world’s existence is in a necessary being outside the world, and a necessary being outside the world exists.",
+  "definition_ids": [
+    "DEF-CC100-5-WORLD-REASON"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

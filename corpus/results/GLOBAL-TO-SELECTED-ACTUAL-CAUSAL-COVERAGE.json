@@ -1,0 +1,11 @@
+{
+  "id": "GLOBAL-TO-SELECTED-ACTUAL-CAUSAL-COVERAGE",
+  "argument_id": "GLOBAL-TO-SELECTED-ACTUAL-CAUSAL-COVERAGE",
+  "challenge_module": "TruthCore.Results.Causality.ScopedActualCausality.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ScopedActualCausality.Solution",
+  "theorem": "TruthCore.Results.Causality.ScopedActualCausality.globalToSelected",
+  "comparator_config": "results/GLOBAL-TO-SELECTED-ACTUAL-CAUSAL-COVERAGE/comparator.json",
+  "status": "solution-present",
+  "description": "Structural projection/transcription: specialize existing global LocalCausalPrinciple to the selected world and forget distinctness. No causal coverage truth is established.",
+  "transcription": "assembly"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "CC100-120-DESIGN-PROBABLE-GOD",
+  "statement_id": "STMT-CC100-119-DESIGN-PROBABLE-GOD",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.272–291: p.282, argument #120, step 4",
+  "interpretation": "Exact reuse of #119step5 with the same designed-faculties antecedent and probably-God consequent. Neither design nor probable existence is independently established by repeating the bridge. Attribution is to McIntosh’s presentation only, not unread primary works referenced on p281 or Otte1990 on p283. No formal proof or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-119120-PROPER-FUNCTION-DESIGN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REASON-EPISTEMIC-ONTIC",
+    "DISAMB-PSR-EXPLANATION-CAUSE"
+  ]
+}

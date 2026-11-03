@@ -1,0 +1,15 @@
+{
+  "id": "CC100-122-RADICAL-SKEPTICISM-FALSE",
+  "statement_id": "STMT-CC100-122-RADICAL-SKEPTICISM-FALSE",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.272–291: p.286, argument #122 Anti-Realism, step 2",
+  "interpretation": "Retain the asserted rejection of radical skepticism. No independent proof, knowledge premise, global reliability result or self-refutation argument is supplied on the slide; ordinary doubt is not automatically excluded. Attribution is to McIntosh’s presentation only, not unread Plantinga/Rea/Dummett/Mander works referenced on p287. No formal proof or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-122-REALISM-SKEPTICISM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REASON-EPISTEMIC-ONTIC",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

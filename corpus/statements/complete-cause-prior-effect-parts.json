@@ -1,0 +1,24 @@
+{
+  "id": "STMT-COMPLETE-CAUSE-PRIOR-EFFECT-PARTS",
+  "paraphrase": "Every complete-cause edge makes its cause existentially prior to each part of its effect, including the effect itself.",
+  "lean_declaration": "TruthCore.Causality.AtomisticUniversalCausePriority.CausePriorToEffectParts",
+  "definition_ids": [
+    "DEF-ATOMIC-OBJECT-DOMAIN",
+    "DEF-ATOMIC-SIMPLE-PART",
+    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
+    "DEF-COMPLETE-OBJECT-CAUSATION",
+    "DEF-OBJECT-CAUSE-NONOVERLAP",
+    "DEF-ATOMIC-CAUSAL-SOURCE",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-OBJECT-CAUSAL-ACTIVITY",
+    "DEF-CAUSED-COMPOSITE-PROPER-PART",
+    "DEF-PROPER-PART-WELL-FOUNDEDNESS",
+    "DEF-EXISTENTIAL-REQUIREMENT-PRIORITY",
+    "DEF-UNIVERSAL-CAUSE-PRIORITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
+    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE"
+  ]
+}

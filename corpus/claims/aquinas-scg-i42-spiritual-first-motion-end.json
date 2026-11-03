@@ -1,0 +1,17 @@
+{
+  "id": "AQUINAS-SCG-I42-SPIRITUAL-FIRST-MOTION-END",
+  "statement_id": "STMT-AQUINAS-SCG-I42-SPIRITUAL-FIRST-MOTION-END",
+  "source_id": "AQUINAS-SCG",
+  "basis": "translation",
+  "locator": "I.42 [6]",
+  "interpretation": "The celestial and teleological coverage are substantive source premises, not universal source-ancestry facts established here. The naming concerns an unreduced spiritual end of first motion; it is not uniqueness of every spiritual substance or necessarily existing individual. No ordinary Ontic cause, IsGod signature or independent demonstration of one common end is supplied. Based on the already verified complete Pegis translation; no pinned Latin reading, formal proof or premise truth is asserted.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-SCG-I42-ECONOMY-MOVERS-ORDER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE",
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

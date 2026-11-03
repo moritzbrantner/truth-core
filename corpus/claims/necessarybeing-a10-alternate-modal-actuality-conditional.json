@@ -1,0 +1,18 @@
+{
+  "id": "NB-SURVEY-A10-ALTERNATE-MODAL-ACTUALITY-CONDITIONAL",
+  "statement_id": "STMT-NB-A10-MODAL-ACTUALITY-CONDITIONAL",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A10C2, modal introduction recalling original invariance and numbered deduction 1–12, with A10P3B question context",
+  "interpretation": "The suffix matches main A10’s conditional argument, including the original individual-invariance recall despite P3B asking a different alternate input. Preserve that discrepancy; do not attribute A2’s explicit alternate derivation here. The prefix retains prima-facie default/possibility warrant and defeaters; those do not establish premise1 Dia N. No modal frame truth, N-to-Box-N warrant, rigid witness or probability transport is verified.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+    "DEF-NB-SURVEY-NECESSARY-BEING",
+    "DEF-NB-A10-DEFEASIBLE-CAUSAL-DEFAULT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A10-DEFAULT-AND-MODAL-CAUSE",
+    "DISAMB-NB-A2-ALT-REVISED-NECESSITY",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

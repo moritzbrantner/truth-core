@@ -1,0 +1,16 @@
+{
+  "id": "NB-SURVEY-A5-NEGATED-NECESSARY-UNCAUSABILITY",
+  "statement_id": "STMT-NB-A5-NEGATED-NECESSARY-UNCAUSABILITY",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A5P1, complete necessary-conditional question, contingent-situation/obtain titles and negative-answer continuation",
+  "interpretation": "The question is not actual respondent assent. A5C2–3 names the whole conditional Something Uncausable and attributes its nonnecessity. Retain obtaining-situation membership inside the conditional and the scope of the outer necessity; do not replace this by the shorter alternate question or by a claim that every actual situation actually has a cause.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A5-OBTAINING-CONTINGENT-SITUATION",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A5-SITUATION-HISTORY-CAUSAL-SCOPE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

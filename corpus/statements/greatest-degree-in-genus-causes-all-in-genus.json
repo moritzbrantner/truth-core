@@ -1,0 +1,17 @@
+{
+  "id": "STMT-GREATEST-DEGREE-IN-GENUS-CAUSES-ALL-IN-GENUS",
+  "paraphrase": "For an arbitrary selected perfection and supplied preorder of represented degrees, every bearer at a greatest degree causes that perfection in every other bearer. Greatest degrees may be tied between distinct beings.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GreatestDegreeCausesAllInGenusReading",
+  "definition_ids": [
+    "DEF-GREATEST-DEGREE-IN-A-PERFECTION",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-GENUS-BROAD"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE",
+    "DISAMB-GENUS",
+    "DISAMB-MAXIME-ENS",
+    "DISAMB-ORDER-OF-BEING"
+  ],
+  "note": "This source reading does not assert the stronger principle for every merely maximal or incomparable bearer."
+}

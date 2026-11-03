@@ -1,0 +1,9 @@
+{
+  "id": "INF-GRIM-REAPER-FINITE-TESTS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-GRIM-REAPER-FINITE-TESTS",
+  "rule": "finite-bound-construction-and-certified-impossibility",
+  "meaning": "For any finite tested set choose k strictly above its maximum (using its finite supremum plus one, also for the empty set), and let only index k act. At each tested index both the action and its complete no-earlier-action condition are false, because k is in its tail. Reuse the existing GrimReaperImpossible.grimReaperImpossible theorem for failure of a global assignment. No truncation of any tested tail is used.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

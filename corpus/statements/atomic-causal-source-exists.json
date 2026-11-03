@@ -1,0 +1,19 @@
+{
+  "id": "STMT-ATOMIC-CAUSAL-SOURCE-EXISTS",
+  "paraphrase": "Some object is a source of the selected graph relation: it has no incoming cause-edge. No outgoing role, effect-universality, necessity, unique first cause or God follows in this endpoint.",
+  "lean_declaration": "TruthCore.Causality.AtomisticCausalSource.SourceExists",
+  "definition_ids": [
+    "DEF-ATOMIC-OBJECT-DOMAIN",
+    "DEF-ATOMIC-SIMPLE-PART",
+    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
+    "DEF-COMPLETE-OBJECT-CAUSATION",
+    "DEF-OBJECT-CAUSE-NONOVERLAP",
+    "DEF-ATOMIC-CAUSAL-SOURCE",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-UNIVERSAL-FUSION-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
+    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE"
+  ]
+}

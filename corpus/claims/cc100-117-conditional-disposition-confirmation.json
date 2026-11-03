@@ -1,0 +1,14 @@
+{
+  "id": "CC100-117-CONDITIONAL-DISPOSITION-CONFIRMATION",
+  "statement_id": "STMT-CC100-117-CONDITIONAL-DISPOSITION-CONFIRMATION",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.272–291: p.276, argument #117 Naturalness of Theistic Belief, step 3 under steps 1–2",
+  "interpretation": "Retain the displayed comparative conclusion conditionally, without asserting a measured disposition, supplied prior or actual evidence update. No formal probability theorem is registered, no actual or necessary God exists by this record, and the evidential strength/truth of its premises remains open. Attribution is to McIntosh’s presentation only, not the unread Braddock/Barrett works referenced on p277. No formal proof or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-117-SUPERNATURAL-DISPOSITION-CONFIRMATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REASON-EPISTEMIC-ONTIC"
+  ]
+}

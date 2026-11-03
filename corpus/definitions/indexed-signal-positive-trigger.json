@@ -1,0 +1,8 @@
+{
+  "id": "DEF-INDEXED-SIGNAL-POSITIVE-TRIGGER",
+  "term": "issuance on absent admitted input",
+  "definition": "At every Nat station n, if the immediate upstream output signal(n+1) is none, issued(n) holds. This is only the positive trigger direction. Its converse is not an independent assumption.",
+  "basis": "stipulative",
+  "note": "Source-free closed-channel response interface. Option Nat admits only no code or a finite indexed code. Applying none to absence of a physical particle or message requires exhaustive code/detector and no-interference warrant; arbitrary malformed or limit-position inputs are not excluded by the mathematics. PGR's create-on-absence clause motivates a candidate reading, not an attributed exact statement or established physical law.",
+  "lean_declaration": "TruthCore.Causality.IndexedSignalReaper.PositiveTrigger"
+}

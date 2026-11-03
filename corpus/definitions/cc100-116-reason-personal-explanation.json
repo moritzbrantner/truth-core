@@ -1,0 +1,14 @@
+{
+  "id": "DEF-CC100-116-REASON-PERSONAL-EXPLANATION",
+  "term": "reason, intentionality/mental causation, personal explanation and theistic best explanation in #116",
+  "definition": "Reason is said to involve intentionality and mental causation; their explanations are restricted to personal explanations. A further explicit bridge ranks a theistic account as best. These are source explanatory commitments, not identities between mental causation, formal reasons, actual grounding or a divine individual.",
+  "basis": "stipulative",
+  "claim_ids": [
+    "CC100-116-REASON-INTENTIONALITY-MENTAL-CAUSATION",
+    "CC100-116-PERSONAL-EXPLANATION-RESTRICTION",
+    "CC100-116-CONDITIONAL-PERSONAL-REASON-EXPLANATION",
+    "CC100-116-THEISTIC-BEST-EXPLANATION-BRIDGE",
+    "CC100-116-CONDITIONAL-THEISTIC-BEST-EXPLANATION"
+  ],
+  "note": "Can-only restricts admissible explanation, not existence of an actual explanation. Personal-to-theistic ranking, involvement-to-explanation transfer, comparative adequacy and best-explanation-to-truth remain open; no God signature, unique/necessary bearer or causal dictionary is selected."
+}

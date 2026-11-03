@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-BEING-MEASURE-EQUALITY",
+  "argument_id": "NECESSARY-BEING-MEASURE-EQUALITY",
+  "challenge_module": "TruthCore.Results.Modal.NecessaryBeingMeasure.Challenge",
+  "solution_module": "TruthCore.Results.Modal.NecessaryBeingMeasure.Solution",
+  "theorem": "TruthCore.Results.Modal.NecessaryBeingMeasure.measureEquality",
+  "comparator_config": "results/NECESSARY-BEING-MEASURE-EQUALITY/comparator.json",
+  "status": "solution-present",
+  "description": "One explicit OPEN almost-everywhere modal-validity input (Euclidean frames plus selected reflexivity) gives equality of the two arbitrary event measures. The proof imports same-individual necessaryAtOrigin, proves the reverse using selected reflexivity, then uses Mathlib measure_congr. The unregistered threshold helper transports any supplied strict threshold. No positivity, normalization or measurability input is mathematically needed, and no probability/credence, actual NecessaryBeing, source truth, causal support/capability, God, uniqueness or philosophical premise discharge is concluded."
+}

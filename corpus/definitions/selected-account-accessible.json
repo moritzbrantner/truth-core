@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SELECTED-ACCOUNT-ACCESSIBLE",
+  "term": "selected account contingent-reason accessibility",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.AccessibleAccountNecessaryBeing.SelectedAccountAccessible",
+  "definition": "Acc (ContingentReason A w S) x, using standard Lean accessibility and EXACT existing account-restricted fact-reason relation. Each predecessor edge requires both facts in S, both contingent at w and the admitted explains relation.",
+  "note": "Replaces global Founded by accessibility of this selected target only. The checked accessibleOfFounded projection gives the old-to-local implication; no converse, strictness or minimality is claimed. Unrelated account infinite chains are not constrained by this input. This is not an observed finite prefix, acyclicity, empirical induction, absence of complete explanation or owner D1 regress-insufficiency. It is an explicit OPEN foundation/application policy. Concrete chains may orient reasoning but do not independently warrant its scope in reality; an infinite contingent reason ancestry is a serious rival. Necessary fact reasons need not be globally well-founded or ungrounded. No new relation, ontology, causal role, frame axiom or source attribution is introduced."
+}

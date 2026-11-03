@@ -1,0 +1,14 @@
+{
+  "id": "STMT-AQUINAS-SCG-I28-OWN-BEING-WHOLE-POWER-PERFECTION",
+  "paraphrase": "What is its own being has being according to its whole power, and consequently lacks no excellence belonging to anything and has no defect.",
+  "note": "Bare source reading, not bound to a Lean declaration; source fidelity does not establish premise truth or the applicability of its terms to current candidate roots. Aquinas applies this reasoning to God under previously established premises; this attribution is not part of the independent proposition.",
+  "definition_ids": [
+    "DEF-SCG-I28-WHOLE-POWER-PARTICIPATION",
+    "DEF-ESSE",
+    "DEF-UNIVERSALLY-PERFECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSENCE",
+    "DISAMB-ORDER-OF-BEING"
+  ]
+}

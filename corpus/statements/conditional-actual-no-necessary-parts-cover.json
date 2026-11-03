@@ -1,0 +1,25 @@
+{
+  "id": "STMT-CONDITIONAL-ACTUAL-NO-NECESSARY-PARTS-COVER",
+  "lean_declaration": "TruthCore.Causality.ActualCoverNecessaryBeing.ConditionalActualCoverAt",
+  "paraphrase": "If the selected family of actual candidates without necessary parts is nonempty at w, there exists some actually existing candidate C covering that family under existing Covers. No fusion/no-extra-parts property, unconditional actual family member/cover, ordinary contingency or all-family formation is asserted.",
+  "definition_ids": [
+    "DEF-ACTUAL-NO-NECESSARY-PARTS-COVER",
+    "DEF-CAUSE-NOT-PART-OF-EFFECT",
+    "DEF-ACTUAL-NO-NECESSARY-PARTS-FUSION",
+    "DEF-ACTUAL-PARTS-AND-CAUSAL-POLICIES",
+    "DEF-NO-NECESSARY-PARTS-AT",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-PSR-POPULATED-WORLD",
+    "DEF-ACTUAL-MODAL-REFLEXIVITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ACTUAL-COVER-NONPART-AND-FUSION-NONOVERLAP",
+    "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY",
+    "DISAMB-ACTUAL-FUSION-BARE-NE-AND-NECESSARY-CAUSE"
+  ]
+}

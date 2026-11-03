@@ -1,0 +1,18 @@
+{
+  "id": "AQUINAS-SCG-I42-ACCIDENTAL-DISTINCTION-CAUSAL-FORK",
+  "statement_id": "STMT-AQUINAS-SCG-I42-ACCIDENTAL-DISTINCTION-CAUSAL-FORK",
+  "source_id": "AQUINAS-SCG",
+  "basis": "translation",
+  "locator": "I.42 [9]",
+  "interpretation": "This is a positive nested causal argument, not just the earlier two-mode list. Accident classification, essence-or-external cause exhaustion, and external cause of distinctness implying dependence of proper being remain source commitments, not independently checked truths. A shared Necessary predicate does not itself establish the same essential nature or uniform production of the same accidental feature: the intrinsic branch requires an independently defended same-nature/same-essential-production warrant. No automatic mapping from an accident’s cause to an ActualConcreteGround edge is made. Based on the verified complete Pegis translation chapter; no pinned Latin reading or formal proof/premise truth is asserted.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-SCG-I42-UNIQUENESS-CASES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SCG-I42-COMMON-NOTION-THISNESS",
+    "DISAMB-NECESSARY",
+    "DISAMB-ESSENCE",
+    "DISAMB-Q11-SUPPOSITUM-NATURE"
+  ]
+}

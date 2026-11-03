@@ -1,0 +1,10 @@
+{
+  "id": "CONTINGENT-ATOMICITY-CONTROL",
+  "argument_id": "CONTINGENT-ATOMICITY-CONTROL",
+  "challenge_module": "TruthCore.Results.Causality.ContingentAtomicity.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ContingentAtomicity.Solution",
+  "theorem": "TruthCore.Results.Causality.ContingentAtomicity.control",
+  "comparator_config": "results/CONTINGENT-ATOMICITY-CONTROL/comparator.json",
+  "status": "solution-present",
+  "description": "Use the SAME Mathlib disjoint carrier/order in two Bool-world Ontics. Strict interpretation has an actually contingent simple point caused by necessary gunk0; every gunk node has a strict successor part and no minimal part. Thus contingent-only atomicity holds, global AtomicParts fails, the caused-simple family is exactly the point and the cover is nonvacuous. Reverse interpretation has a necessary point causing every actually contingent gunk node; no contingent gunk has a simple part, so the new premise fails despite NE and all retained other policies. Its caused-simple family is empty and conditional cover vacuous, explicitly. Both check population, nonoverlap, selected coverage and actual contingent witnesses. This is a mathematical scope discriminator, not explanatory adequacy, a causal-regress reply or real possibility."
+}

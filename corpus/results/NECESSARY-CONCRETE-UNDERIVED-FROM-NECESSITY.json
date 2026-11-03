@@ -1,0 +1,11 @@
+{
+  "id": "NECESSARY-CONCRETE-UNDERIVED-FROM-NECESSITY",
+  "argument_id": "NECESSARY-CONCRETE-UNDERIVED-FROM-NECESSITY",
+  "challenge_module": "TruthCore.Results.Causality.NecessaryConcreteUnderivedFromNecessity.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessaryConcreteUnderivedFromNecessity.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessaryConcreteUnderivedFromNecessity.underived",
+  "comparator_config": "results/NECESSARY-CONCRETE-UNDERIVED-FROM-NECESSITY/comparator.json",
+  "status": "solution-present",
+  "transcription": "assembly",
+  "description": "Pointwise assembly of the existing modal-union theorem on the concrete subtype. Supplied NecessaryConcreteAt yields NecessaryBeing for concreteOntic; apply PositiveUnion.checks with concreteSupport, selected-world reflexivity, no contingent concrete supporter of a necessary target, all-world necessary-concrete support-union well-foundedness, and explicit EM. Unpack its possibly NEW witness with concrete typing, actual presence and de re necessity preserved. The SAME final witness has no existing CONCRETE ground at ANY admitted world; no claim that the original input witness is retained, that nonconcrete explanations are absent, or that production equals grounding. No actual-wide grounding WF, causal coverage, source uniqueness, confluence, modal S5 or full author FirstCause is assumed. This extracts a reusable assembly from the previous end-to-end proof; it independently defends no added support/frame principle and claims no global premise-package weakening."
+}

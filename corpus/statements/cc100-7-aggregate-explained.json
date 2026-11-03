@@ -1,0 +1,11 @@
+{
+  "id": "STMT-CC100-7-AGGREGATE-EXPLAINED",
+  "paraphrase": "If every contingent fact has an explanation and a contingent fact includes all other contingent facts, then that aggregate fact has an explanation.",
+  "definition_ids": [
+    "DEF-CC100-7-FACT-EXPLANATION-INCLUSION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

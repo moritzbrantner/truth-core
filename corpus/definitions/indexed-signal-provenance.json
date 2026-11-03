@@ -1,0 +1,8 @@
+{
+  "id": "DEF-INDEXED-SIGNAL-PROVENANCE",
+  "term": "issuance at a signal's named station",
+  "definition": "For every station n and every code j at its output, issued j holds. The issuing station is exactly the code j, not merely some source. This is issuance in the supplied role, not temporal firstness, uniqueness of issuing acts, existence of a substance, necessary existence or adequate explanation.",
+  "basis": "stipulative",
+  "note": "Derived conditionally from the two separate local interfaces by finite propagation of a fixed code. No nonempty signal is assumed. The omission controls use formal assignments on the same Nat carrier, not metaphysical possibilities.",
+  "lean_declaration": "TruthCore.Causality.IndexedSignalProvenance.GlobalProvenance"
+}

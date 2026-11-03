@@ -1,0 +1,13 @@
+{
+  "id": "STMT-AQUINAS-SCG-I42-DIVINE-NATURE-INDIVIDUATION-CASES",
+  "paraphrase": "A divine nature individuated through another entails composition, while one individuated through itself cannot be common to another; plurality would require distinction by essential difference, accident or matter, which the divine nature excludes.",
+  "definition_ids": [
+    "DEF-SCG-I42-UNIQUENESS-CASES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SCG-I42-COMMON-NOTION-THISNESS",
+    "DISAMB-NECESSARY",
+    "DISAMB-ESSENCE",
+    "DISAMB-Q11-SUPPOSITUM-NATURE"
+  ]
+}

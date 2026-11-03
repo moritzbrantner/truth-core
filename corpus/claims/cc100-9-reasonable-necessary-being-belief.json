@@ -1,0 +1,15 @@
+{
+  "id": "CC100-9-REASONABLE-NECESSARY-BEING-BELIEF",
+  "statement_id": "STMT-CC100-9-REASONABLE-NECESSARY-BEING-BELIEF",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.9–26: p.18, argument #9, steps 4–5 with PPE and step 2",
+  "interpretation": "The displayed entailment restriction and epistemic conclusion are retained without changing reasonable belief into actual existence. The conclusion does not carry the proposed explanation’s unique or willing attributes. No actual or rigid necessary witness, explanation token, God identity or formal argument is registered. Attribution is to McIntosh’s presentation only; the cited work on the following reference page has not been read.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-9-POSSIBLE-EXPLANATION-BELIEF"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "STMT-NECESSARY-BEING-MEASURE-EQUALITY",
+  "paraphrase": "The supplied arbitrary measure assigns equal values to the event that a bare NecessaryBeing exists at some accessible world and the event that a bare NecessaryBeing exists at the interpretation’s selected standpoint. The same individual is retained within each interpretation, without one individual shared across interpretations. This is measure equality, including possible outer-measure set-values, not actual existence, a calibrated probability, source-Necessary-Being causal capability, God or uniqueness.",
+  "lean_declaration": "TruthCore.Modal.NecessaryBeingMeasure.Equality",
+  "definition_ids": [
+    "DEF-NECESSARY-BEING-MEASURE-EVENTS",
+    "DEF-AE-VALID-NECESSARY-BEING-INTERPRETATIONS",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-ACTUAL-MODAL-REFLEXIVITY",
+    "DEF-MODAL-FIXTURE-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-BEING-MEASURE-AND-CREDENCE"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "STMT-UNIQUE-COMPLETE-CAUSE-PER-EFFECT",
+  "paraphrase": "For each effect, any two incoming complete causes coincide. One cause may have multiple effects; no one-output-per-cause restriction is asserted.",
+  "lean_declaration": "TruthCore.Causality.AtomisticCausalSource.UniqueCausePerEffect",
+  "definition_ids": [
+    "DEF-ATOMIC-OBJECT-DOMAIN",
+    "DEF-ATOMIC-SIMPLE-PART",
+    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
+    "DEF-COMPLETE-OBJECT-CAUSATION",
+    "DEF-OBJECT-CAUSE-NONOVERLAP",
+    "DEF-ATOMIC-CAUSAL-SOURCE",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-UNIVERSAL-FUSION-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
+    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE"
+  ]
+}

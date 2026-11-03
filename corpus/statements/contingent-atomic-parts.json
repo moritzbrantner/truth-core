@@ -1,0 +1,28 @@
+{
+  "id": "STMT-CONTINGENT-ATOMIC-PARTS",
+  "paraphrase": "Every actually contingent object at the selected world has a simple actual part in the same actual-node parthood order; necessary objects are unrestricted.",
+  "lean_declaration": "TruthCore.Causality.ContingentAtomicity.ContingentAtomicParts",
+  "definition_ids": [
+    "DEF-ATOMIC-OBJECT-DOMAIN",
+    "DEF-ATOMIC-SIMPLE-PART",
+    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
+    "DEF-COMPLETE-OBJECT-CAUSATION",
+    "DEF-OBJECT-CAUSE-NONOVERLAP",
+    "DEF-ATOMIC-CAUSAL-SOURCE",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-LOCAL-CAUSE",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-SELECTED-ACTUAL-CAUSAL-COVERAGE",
+    "DEF-CONTINGENT-ATOMIC-PARTS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
+    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY"
+  ]
+}

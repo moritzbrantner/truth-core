@@ -1,0 +1,10 @@
+{
+  "id": "ACTUAL-ROOT-UNIQUENESS",
+  "argument_id": "ACTUAL-ROOT-UNIQUENESS",
+  "challenge_module": "TruthCore.Results.Causality.ActualRootUniqueness.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ActualRootUniqueness.Solution",
+  "theorem": "TruthCore.Results.Causality.ActualRootUniqueness.uniqueRoot",
+  "comparator_config": "results/ACTUAL-ROOT-UNIQUENESS/comparator.json",
+  "status": "solution-present",
+  "description": "Compose imported actual-root existence and fixed-esse maximum helpers to obtain one unique actual concrete root. Seven heads retain old fixed-esse eight-input uniqueness premises EXCEPT contingent dependence, while also REMOVING the modal-necessity part of the conclusion. This is not a same-conclusion weakening, global minimality/strictness or philosophical discharge. No all-necessary uniqueness, God naming, source truth or root migration."
+}

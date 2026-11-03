@@ -1,0 +1,23 @@
+{
+  "id": "STMT-SELECTED-POSITIVE-GROUND-RECORD",
+  "lean_declaration": "TruthCore.Explanation.JointGroundEffectContingency.SelectedPositiveGround",
+  "paraphrase": "The explicitly selected Groups record g is admitted AND its effect equals the existing positive b fact label. Both guards are retained in this transparent conjunction. Admission and label identity assert no truth, actuality of a bearer, adequate grounding, sufficiency, exercise, autonomy, distinctness or necessitation.",
+  "definition_ids": [
+    "DEF-SELECTED-POSITIVE-GROUND-RECORD",
+    "DEF-WHOLE-GROUND-NECESSITATION-AT",
+    "DEF-MIXED-FACT-GROUND-RECORDS",
+    "DEF-EXISTENCE-INGREDIENT-FACT-LABELS",
+    "DEF-JOINT-MODAL-CONDITION",
+    "DEF-JOINT-CONTINGENT-MEMBER",
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MIXED-FACT-GROUND-VS-CAUSAL-RECORD",
+    "DISAMB-JOINT-CONDITION-VS-NECESSARY-BEING",
+    "DISAMB-PSR-REASON-NECESSITATING",
+    "DISAMB-PSR-EXPLANATION-CAUSE"
+  ]
+}

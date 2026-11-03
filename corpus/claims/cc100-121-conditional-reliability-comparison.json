@@ -1,0 +1,14 @@
+{
+  "id": "CC100-121-CONDITIONAL-RELIABILITY-COMPARISON",
+  "statement_id": "STMT-CC100-121-CONDITIONAL-RELIABILITY-COMPARISON",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.272–291: p.284, argument #121 Reliability of Our Cognitive Faculties, step 3 under steps 1–2",
+  "interpretation": "Retain the displayed comparison conditionally; no arithmetic interpretation of really low or >> is introduced to certify it. No priors, hypothesis partition, actual R or posterior odds follow. Attribution is to McIntosh’s presentation only, not unread Arnold2018 or Slagle2021 works referenced on p285. No formal proof or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-121-RELIABILITY-CONFIRMATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REASON-EPISTEMIC-ONTIC"
+  ]
+}

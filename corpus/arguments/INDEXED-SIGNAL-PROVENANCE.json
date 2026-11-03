@@ -1,0 +1,17 @@
+{
+  "id": "INDEXED-SIGNAL-PROVENANCE",
+  "premise_statement_ids": [
+    "STMT-INDEXED-SIGNAL-LOCAL-CONSERVATION",
+    "STMT-INDEXED-SIGNAL-INDEX-ADMISSIBLE"
+  ],
+  "conclusion_statement_id": "STMT-INDEXED-SIGNAL-GLOBAL-PROVENANCE",
+  "inference_ids": [
+    "INF-INDEXED-SIGNAL-PROVENANCE"
+  ],
+  "meaning": "Propagate the SAME fixed code j along n+steps: at each step either station j has issued or the unchanged code remains upstream. After j+1 steps the latter violates n+steps<=j. Finite Nat induction and arithmetic derive provenance; no classical choice, global channel well-foundedness, all-output nonemptiness or global-origin assumption is used. Both local interfaces remain OPEN interpretations.",
+  "definition_ids": [
+    "DEF-INDEXED-SIGNAL-LOCAL-CONSERVATION",
+    "DEF-INDEXED-SIGNAL-INDEX-ADMISSIBILITY",
+    "DEF-INDEXED-SIGNAL-PROVENANCE"
+  ]
+}

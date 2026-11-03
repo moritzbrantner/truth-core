@@ -1,0 +1,11 @@
+{
+  "id": "STMT-CC100-85-NO-CONTINGENT-TEMPORAL-SUSTAINER",
+  "paraphrase": "What explains what holds contingent beings together through time cannot be other contingent beings.",
+  "definition_ids": [
+    "DEF-CC100-85-TEMPORAL-SUSTAINING-EXPLANATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

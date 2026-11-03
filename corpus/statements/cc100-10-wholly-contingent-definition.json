@@ -1,0 +1,11 @@
+{
+  "id": "STMT-CC100-10-WHOLLY-CONTINGENT-DEFINITION",
+  "paraphrase": "A wholly contingent thing is a thing with no necessary parts.",
+  "definition_ids": [
+    "DEF-CC100-10-MEREOLOGICAL-SCOPE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FUSION-CAUSE-EXTERNALITY",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

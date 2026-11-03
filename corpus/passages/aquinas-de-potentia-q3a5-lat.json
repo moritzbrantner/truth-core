@@ -1,0 +1,31 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "AQUINAS-DE-POTENTIA",
+    "source_url": "https://www.corpusthomisticum.org/qdp3.html",
+    "retrieved_at": "2026-11-01T13:59:09Z",
+    "sha256": "sha256:c2c1e6e5c0fd48348168080de9374ecc1f945ce81fc6e1abab16ed52c09e1fbb",
+    "encoding": "iso-8859-1",
+    "language": "lat",
+    "license": "Corpus Thomisticum identifies its text as the Turin 1953 edition digitized by Roberto Busa and reviewed by Enrique Alarcón; ©2019 Fundación Tomás de Aquino quoad hanc editionem, all rights reserved. The medieval work is public domain; no open licence for the digital transcription is asserted. Only metadata, hashes, locators and a short incipit are committed. Two independent exact-downloader GETs matched response and selected-text bytes. No archive fallback or translation is claimed."
+  },
+  "passages": [
+    {
+      "id": "AQUINAS-DE-POTENTIA-Q3-A5-LAT",
+      "locator": "q.3 a.5 [58674–58683]",
+      "claim_locator_prefixes": [
+        "q.3 a.5 "
+      ],
+      "html_selector": {
+        "from": {
+          "anchor": "58674"
+        },
+        "to": {
+          "anchor": "58684"
+        }
+      },
+      "text_sha256": "sha256:a4842f8c57d71806fbe4576c9a0891f4e44d47ed1955c378150ee96ecc9bedb2",
+      "incipit": "[58674] De potentia, q. 3 a. 5 tit. 1 Quinto quaeritur utrum possit esse aliquid"
+    }
+  ]
+}

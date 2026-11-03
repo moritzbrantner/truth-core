@@ -1,0 +1,18 @@
+{
+  "id": "AQUINAS-ST-I-Q44-A1-MATHEMATICAL-BEING-EFFICIENT-CAUSE",
+  "statement_id": "STMT-AQUINAS-ST-I-Q44-A1-MATHEMATICAL-BEING-EFFICIENT-CAUSE",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.44 a.1 ad 3, mathematica accipiuntur ut abstracta secundum rationem through causa agente",
+  "interpretation": "Preserve the respect distinction between intellectual abstraction and esse. Do not identify mathematical propositions with efficient effects, posit separately subsisting mathematical objects by default or derive necessary-being actuality from an unconstrained modal predicate. The reply is source support for cause qua esse, not a formal conversion between IsAt, InAct and CausesNecessityOf. Reading is based on the verified complete Latin article and its objections/replies; no formal proof or independent premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-Q44-CAUSED-NECESSITY-DEPENDENCE",
+    "DEF-ESSE",
+    "DEF-CAUSE-OF-PERFECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY",
+    "DISAMB-CAUSE",
+    "DISAMB-PSR-EXPLANATION-CAUSE"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "DISJUNCTION-GROUND-MAP",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-DISJUNCTION-GROUND-MAP",
+  "inference_ids": [
+    "INF-DISJUNCTION-GROUND-MAP"
+  ],
+  "meaning": "What separates world-local grounds of a necessary existential disjunction from one uniform ground, and what the step from a uniform ground to a necessary being needs. Conditional consequence and analyst-built models only; interpretation and limits are in docs/notes/disjunction-ground-485.md.",
+  "definition_ids": [
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-REASON",
+    "DEF-PSR-REASON-NECESSITATING",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-EXISTENTIAL-FACT",
+    "DEF-LOCAL-GROUND",
+    "DEF-UNIFORM-GROUND",
+    "DEF-INSTANCE-GROUNDING",
+    "DEF-PSR-EXTERNAL-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-DISJUNCTION-GROUND",
+    "DISAMB-PSR-REASON-NECESSITATING",
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

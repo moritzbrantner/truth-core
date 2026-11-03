@@ -1,0 +1,15 @@
+{
+  "id": "CC100-87-CONDITIONAL-INTERNAL-EXCLUSION",
+  "statement_id": "STMT-CC100-87-CONDITIONAL-INTERNAL-EXCLUSION",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.206–213: p.212, argument #87 Unities: The Cosmos, step 4 under steps 2–3",
+  "interpretation": "This is the displayed conditional elimination, not a new formal result. No actuality of an explanation or external witness follows from this exclusion alone; the source’s fork and exclusion applicability remain open. Attribution is to McIntosh’s presentation only, not the unread Juarez2017 article referenced on p213. No formal proof or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-87-COSMIC-UNITY-EXPLANATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

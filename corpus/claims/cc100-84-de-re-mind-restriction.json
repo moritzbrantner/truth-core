@@ -1,0 +1,16 @@
+{
+  "id": "CC100-84-DE-RE-MIND-RESTRICTION",
+  "statement_id": "STMT-CC100-84-DE-RE-MIND-RESTRICTION",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.206–213: p.206, argument #84 Unities: Facts, step 6, de-re capability reading",
+  "interpretation": "Read in-every-world as qualifying the SAME candidate’s capability across worlds before predicating mind. This does not say every world-local capable unifier is a mind. Can-role is not silently replaced by exercised unification; the time/world scope of mind remains unelaborated. Attribution is to McIntosh’s presentation only, not the unread Vallicella article referenced on p207. No formal proof or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-84-FACT-UNIFIER",
+    "DEF-CC100-84-DE-RE-CAPABILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CC100-84-UNIFIER-MODAL-SCOPE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

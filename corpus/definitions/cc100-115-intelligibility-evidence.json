@@ -1,0 +1,15 @@
+{
+  "id": "DEF-CC100-115-INTELLIGIBILITY-EVIDENCE",
+  "term": "intelligibility intuition, truth-linked aetiology, withholding and comparative evidence in #115",
+  "definition": "A truth-linked aetiology accounts for having the intelligibility intuition because it is true. The source contrasts plausible naturalistic and theistic accounts, imposes normative withholding/retention commitments, and concludes comparative evidence for theism over naturalism.",
+  "basis": "stipulative",
+  "claim_ids": [
+    "CC100-115-NATURALISTIC-AETIOLOGY-EXCLUSION",
+    "CC100-115-NATURALIST-WITHHOLDING-FORK",
+    "CC100-115-RETAIN-INTELLIGIBILITY-INTUITION",
+    "CC100-115-CONDITIONAL-WITHHOLD-NATURALISM",
+    "CC100-115-THEISTIC-AETIOLOGY-AVAILABILITY",
+    "CC100-115-COMPARATIVE-INTELLIGIBILITY-EVIDENCE"
+  ],
+  "note": "The intuition is not defined as unrestricted PSR or certified correspondence. Ought to withhold is not falsity, plausible accounts are not actual truths, and comparative evidence is not a numeric posterior or necessary God existence. Normative scope, truth-link plausibility and evidential transfer require independent interpretation and defense."
+}

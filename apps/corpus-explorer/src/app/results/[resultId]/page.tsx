@@ -156,7 +156,7 @@ export default async function ResultPage({ params }: ResultPageProps) {
         />
       </div>
 
-      <section className="record-section max-w-4xl">
+      <section id="lean-evidence" className="record-section max-w-4xl">
         <p className="eyebrow">Lean</p>
         <h2 className="mt-3 font-serif text-3xl tracking-[-0.03em]">The advertised theorem</h2>
         <p className="mt-3 text-sm leading-6 text-[var(--muted)]">
@@ -237,7 +237,7 @@ export default async function ResultPage({ params }: ResultPageProps) {
         </section>
       ) : null}
 
-      <section className="record-section">
+      <section id="proof-projection" className="record-section">
         <p className="eyebrow">Argument composition</p>
         <h2 className="mt-3 font-serif text-3xl tracking-[-0.03em]">Proof projection</h2>
         <p className="mt-3 max-w-3xl text-sm leading-6 text-[var(--muted)]">

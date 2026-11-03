@@ -1,0 +1,15 @@
+{
+  "id": "CC100-7-EXPLANATION-NOT-CONTINGENT",
+  "statement_id": "STMT-CC100-7-EXPLANATION-NOT-CONTINGENT",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.9–26: p.14, argument #7, step 4 referring to the explanation in step 3",
+  "interpretation": "The source asserts this exclusion without its defense on the slide. Do not manufacture a proof by adding distribution, factivity, contingent self-explanation exclusion or necessitation. Under a factive necessitating reason reading, existing necessitating_reason_contingent instead makes a reason of a contingent fact contingent; that is a conditional semantic constraint, not a refutation of the slide or permission to strengthen its explanation relation.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-7-FACT-EXPLANATION-INCLUSION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

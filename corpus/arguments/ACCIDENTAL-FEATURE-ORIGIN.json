@@ -1,0 +1,23 @@
+{
+  "id": "ACCIDENTAL-FEATURE-ORIGIN",
+  "premise_statement_ids": [
+    "STMT-ACCIDENTAL-FEATURE-ACCIDENTAL",
+    "STMT-ACCIDENTAL-FEATURE-DISTINGUISHES",
+    "STMT-ACCIDENTAL-FEATURE-ORIGIN-FORK",
+    "STMT-ACCIDENTAL-FEATURE-SHARED-PRODUCTION",
+    "STMT-ACCIDENTAL-FEATURE-REALIZATION"
+  ],
+  "conclusion_statement_id": "STMT-ACCIDENTAL-FEATURE-EXTERNAL-ORIGIN-EXISTS",
+  "inference_ids": [
+    "INF-ACCIDENTAL-FEATURE-ORIGIN"
+  ],
+  "meaning": "Apply the selected origin fork to accidental classification and occurrence in x. If essence-production holds, shared production supplies essence-production through the SAME provided essenceOf y; selected realization gives occurrence in y, contradicting the selected absent occurrence. Eliminate that branch and retain the externalFeatureCause witness. No bearer is asserted actual or distinct, no causal relation is transported into existential grounding, and no full case coverage, necessary-being or uniqueness conclusion is inferred.",
+  "definition_ids": [
+    "DEF-ACCIDENTAL-FEATURE-ORIGIN-ROLES",
+    "DEF-ACCIDENTAL-FEATURE-ORIGIN-POLICIES",
+    "DEF-ESSENCE-THOMISTIC-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ACCIDENTAL-FEATURE-ORIGIN-AND-EXISTENTIAL-GROUND"
+  ]
+}

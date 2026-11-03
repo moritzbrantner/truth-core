@@ -1,0 +1,28 @@
+{
+  "id": "STMT-AUTONOMOUS-FACTS-NECESSARY-AT",
+  "lean_declaration": "TruthCore.Explanation.AutonomousGroundNecessity.AutonomousFactsNecessaryAt",
+  "paraphrase": "Every autonomous fact label holds at every world accessible from selected w in the SAME Arena. An explicit OPEN necessity commitment distinct from bare autonomy, actual truth and PSR.",
+  "definition_ids": [
+    "DEF-AUTONOMOUS-GROUND-ACTUAL-TARGET",
+    "DEF-AUTONOMOUS-FACT-NECESSITY-AT",
+    "DEF-WHOLE-GROUND-NECESSITATION-AT",
+    "DEF-POSITIVE-TARGET-COHERENCE",
+    "DEF-EXISTENCE-INGREDIENT-FACT-LABELS",
+    "DEF-MIXED-FACT-GROUND-RECORDS",
+    "DEF-JOINT-MODAL-CONDITION",
+    "DEF-JOINT-MEMBERWISE-NECESSITY",
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-REASON",
+    "DEF-PSR-REASON-NECESSITATING",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MIXED-FACT-GROUND-VS-CAUSAL-RECORD",
+    "DISAMB-JOINT-CONDITION-VS-NECESSARY-BEING",
+    "DISAMB-PSR-REASON-NECESSITATING",
+    "DISAMB-PSR-EXPLANATION-CAUSE"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "KOONS-1996-COR1-FIXED-FACT-MODAL-DOMAIN",
+  "statement_id": "STMT-KOONS-1996-COR1-FIXED-FACT-MODAL-DOMAIN",
+  "source_id": "KOONS-NEW-LOOK-AUTHOR-PREPRINT-1996",
+  "locator": "author preprint dated 18 December 1996, §3, physical PDF p.3, modal framework paragraph",
+  "interpretation": "The source explicitly fixes the possible-FACT domain and specifies these logical resources. This does not by itself fix each fact’s ordinary-being constituents, identify facts with propositions, supply a rigid bearer for an existential fact or establish all-world realization of assigned candidates. This attribution is to the verified author preprint, not an asserted identical journal edition. No formal consequence or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-KOONS-1996-FACT-BEING-INVOLVEMENT",
+    "DEF-KOONS-1996-FIXED-POSSIBLE-FACT-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-KOONS-1996-FIXED-FACT-BEARER",
+    "DISAMB-ASSIGNED-FIXED-CONSTITUENTS-AND-FACT-NECESSITY",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-PSR-EXPLANATION-CAUSE"
+  ]
+}

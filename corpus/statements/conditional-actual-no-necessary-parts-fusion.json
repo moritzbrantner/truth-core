@@ -1,0 +1,20 @@
+{
+  "id": "STMT-CONDITIONAL-ACTUAL-NO-NECESSARY-PARTS-FUSION",
+  "lean_declaration": "TruthCore.Causality.ActualFusionNecessaryBeing.ConditionalActualFusionAt",
+  "paraphrase": "IF the selected family of actual candidates with NoNecessaryPartsAt is nonempty at w, THEN there is some actually existing Sum2 fusion of that family at w. Empty-family cases require no sum. This selected type-formation premise is not unconditional actual sum or actual wholly-contingent population, nor unrestricted all-Set fusion.",
+  "definition_ids": [
+    "DEF-ACTUAL-NO-NECESSARY-PARTS-FUSION",
+    "DEF-ACTUAL-PARTS-AND-CAUSAL-POLICIES",
+    "DEF-NO-NECESSARY-PARTS-AT",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ACTUAL-FUSION-BARE-NE-AND-NECESSARY-CAUSE",
+    "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY"
+  ]
+}

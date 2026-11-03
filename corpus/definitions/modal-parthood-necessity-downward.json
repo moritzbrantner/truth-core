@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MODAL-PARTHOOD-NECESSITY-DOWNWARD",
+  "term": "necessity downward along the supplied fixed parthood at w",
+  "lean_declaration": "TruthCore.Mereology.FusionNoNecessaryParts.NecessityDownwardAlongParthoodAt",
+  "definition": "For all x and p, p ≤ x and NecessaryAt m w x imply NecessaryAt m w p. This tests the SAME chosen partial-order relation, Ontic and standpoint. It does not quantify a new causal/grounding relation or assume an object actually exists at w.",
+  "basis": "stipulative",
+  "note": "Explicit OPEN analyst premise. Fixed parthood in the formal signature is world-independent; source application must defend the corresponding persistence/rigidity and cross-world domain. Actual-world A4 (existing whole has existing parts) alone does not prove this. A world-uniform accessible A4 over the same rigid relation could justify the implication, but that stronger scope is not supplied or attributed here; no S5/frame or modal K slogan alone repairs it. Mathematical order/logic does not establish the premise’s metaphysical truth. Strong rivals include world-varying parthood and different actualist/domain readings. No transitivity, asymmetry, well-foundedness or causal interpretation beyond the existing order is inferred."
+}

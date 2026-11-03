@@ -1,0 +1,10 @@
+{
+  "id": "ATOMISTIC-NECESSARY-BEING",
+  "argument_id": "ATOMISTIC-NECESSARY-BEING",
+  "challenge_module": "TruthCore.Results.Causality.AtomisticNecessaryBeing.Challenge",
+  "solution_module": "TruthCore.Results.Causality.AtomisticNecessaryBeing.Solution",
+  "theorem": "TruthCore.Results.Causality.AtomisticNecessaryBeing.necessaryBeing",
+  "comparator_config": "results/ATOMISTIC-NECESSARY-BEING/comparator.json",
+  "status": "solution-present",
+  "description": "Apply the existing atomistic source proof to WorldSourceRegress.actualGraph on the subtype of individuals existing at w. Preserve its SAME source c; subtype membership supplies actual existence and actualSource_iff gives absence of every existing incoming cause. The existing source_necessary_at theorem and the OPEN local causal principle yield frame-relative de re necessity of c. The supplied Ontic.Causes is interpreted as complete existence-production, not partial contribution or grounding. No causal endpoint soundness, outgoing activity, concreteness, unique source, S5, reflexivity, universal effect or full Rutten first cause is inferred. Retains all five atomistic inputs instantiated on actual objects and adds the open local causal principle. No premise truth or root-frontier closure is established; no global minimality or package weakening claim."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "DISJUNCTION-GROUND-MAP",
+  "argument_id": "DISJUNCTION-GROUND-MAP",
+  "challenge_module": "TruthCore.Results.Explanation.DisjunctionGround.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.DisjunctionGround.Solution",
+  "theorem": "TruthCore.Results.Explanation.DisjunctionGround.disjunctionGroundMap",
+  "comparator_config": "results/DISJUNCTION-GROUND-MAP/comparator.json",
+  "status": "solution-present"
+}

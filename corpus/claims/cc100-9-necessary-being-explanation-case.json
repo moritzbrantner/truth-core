@@ -1,0 +1,15 @@
+{
+  "id": "CC100-9-NECESSARY-BEING-EXPLANATION-CASE",
+  "statement_id": "STMT-CC100-9-NECESSARY-BEING-EXPLANATION-CASE",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.9–26: p.18, argument #9, steps 1–3",
+  "interpretation": "Keep the hypothetical would-if-true proposal, the distinct possible-explanation assertion, and the contingent-only exclusion distinct within this premise cluster. The hypothetical explanatory content does not establish metaphysical possibility, actual truth, uniqueness or a willing God witness. The exclusion is asserted, not derived from the proposal. No actual concrete cause or PSR coverage is supplied. Attribution is to McIntosh’s presentation only; the cited work on the following reference page has not been read.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-9-POSSIBLE-EXPLANATION-BELIEF"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

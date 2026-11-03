@@ -1,0 +1,11 @@
+{
+  "id": "DEF-COMPLETE-CAUSE-CONTRIBUTOR-COVER",
+  "term": "complete cause contains all productive participants in its effect",
+  "definition": "CompleteCauseCoversContributors G participants says that, for each complete-cause edge c→e, every member of the independently supplied full participant family for e is a part of c, using existing Covers and the fixed PartialOrder. It does not assert a cause exists.",
+  "basis": "sourced",
+  "claim_ids": [
+    "RUTTEN-CH7-COMPLETE-CAUSE-COVERS-CONTRIBUTORS"
+  ],
+  "lean_declaration": "TruthCore.Causality.CompleteCauseContributorCover.CompleteCauseCoversContributors",
+  "note": "Only the upper-bound consequence of the author’s total/complete participant-sum reading at ChapterVII157/fn211. It is not full Fusion, no-extra-parts, object formation, uniqueness by definition, causal necessitation, or a converse from coverage to causation. Covers alone does not identify an arbitrary set as the actual productive participants; that semantic adequacy remains OPEN. Causing a part does not by this definition make one a participant in causing its whole, and no fixed-family identity across worlds follows."
+}

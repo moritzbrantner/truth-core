@@ -1,0 +1,18 @@
+{
+  "id": "DEF-SCG-I42-UNIQUENESS-CASES",
+  "term": "superabundant perfection, per-se necessity and differentiation cases in SCG I42",
+  "definition": "The chapter distinguishes necessary-through-itself beings from caused necessities, a common notion from numerical identity, and accidental versus necessity-completing distinction. The accidental branch invokes essence-or-external causation; the completing branch distinguishes included nature from actual specification. Divine-nature multiplication additionally excludes essential differences, accidents and matter.",
+  "basis": "stipulative",
+  "claim_ids": [
+    "AQUINAS-SCG-I42-SUPERABUNDANCE-UNIQUENESS",
+    "AQUINAS-SCG-I42-PERFECT-BEINGS-DIFFERENTIATION",
+    "AQUINAS-SCG-I42-PER-SE-NECESSITY-ADDED-DISTINCTION",
+    "AQUINAS-SCG-I42-ACCIDENTAL-DISTINCTION-CAUSAL-FORK",
+    "AQUINAS-SCG-I42-COMPLETING-DISTINCTION-FORK",
+    "AQUINAS-SCG-I42-CONDITIONAL-PER-SE-UNIQUENESS",
+    "AQUINAS-SCG-I42-UNIVOCAL-NATURE-BEING-FORK",
+    "AQUINAS-SCG-I42-DESIGNATED-NECESSITY-INCOMMUNICABILITY",
+    "AQUINAS-SCG-I42-DIVINE-NATURE-INDIVIDUATION-CASES"
+  ],
+  "note": "These are source argument commitments, not a formal case-exhaustion theorem or identity with the existing HasLimitingPrinciple disjunction. Application to the same root, addition-excluding esse, causal-ground correspondence and formal/eminent perfection remain open. No common predicate implies one object by definition."
+}

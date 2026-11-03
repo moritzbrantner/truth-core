@@ -1,0 +1,28 @@
+{
+  "id": "STMT-AUTONOMOUS-GROUND-TARGET-NOT-CONTINGENT",
+  "lean_declaration": "TruthCore.Explanation.AutonomousGroundNecessity.TargetNotContingentAt",
+  "paraphrase": "The PARTICULAR target b is not ContingentAt in the SAME Arena Ontic at selected w. The predicate alone asserts neither actual presence nor concreteness, a productive source, God, or universal propositional collapse.",
+  "definition_ids": [
+    "DEF-AUTONOMOUS-GROUND-ACTUAL-TARGET",
+    "DEF-AUTONOMOUS-FACT-NECESSITY-AT",
+    "DEF-WHOLE-GROUND-NECESSITATION-AT",
+    "DEF-POSITIVE-TARGET-COHERENCE",
+    "DEF-EXISTENCE-INGREDIENT-FACT-LABELS",
+    "DEF-MIXED-FACT-GROUND-RECORDS",
+    "DEF-JOINT-MODAL-CONDITION",
+    "DEF-JOINT-MEMBERWISE-NECESSITY",
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-REASON",
+    "DEF-PSR-REASON-NECESSITATING",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MIXED-FACT-GROUND-VS-CAUSAL-RECORD",
+    "DISAMB-JOINT-CONDITION-VS-NECESSARY-BEING",
+    "DISAMB-PSR-REASON-NECESSITATING",
+    "DISAMB-PSR-EXPLANATION-CAUSE"
+  ]
+}

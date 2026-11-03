@@ -1,0 +1,5 @@
+{
+  "id": "STMT-PLACED-FRED-POSITION-PERSISTS",
+  "paraphrase": "Within the stipulated Grim Placer sequence, once a Fred particle is created and placed at a position, it remains there for the remainder of that sequence.",
+  "definition_ids": ["DEF-GRIM-PLACER-PARTICLE-POSITION-PERSISTENCE"]
+}

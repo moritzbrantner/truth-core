@@ -1,0 +1,20 @@
+{
+  "id": "INF-ATOMISTIC-UNIVERSAL-CAUSE-PRIORITY",
+  "input_statement_ids": [
+    "STMT-ATOMIC-OBJECT-POPULATION",
+    "STMT-PROPER-PART-WELL-FOUNDEDNESS",
+    "STMT-CONDITIONAL-CAUSED-SIMPLE-COVER",
+    "STMT-OBJECT-CAUSE-EFFECT-NONOVERLAP",
+    "STMT-OBJECT-CAUSAL-ACTIVITY",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-CAUSED-COMPOSITE-HAS-CAUSED-PROPER-PART",
+    "STMT-COMPLETE-CAUSE-PRIOR-EFFECT-PARTS",
+    "STMT-PROPER-PARTS-EXISTENTIALLY-PRIOR",
+    "STMT-EXISTENTIAL-PRIORITY-TRANSITIVE"
+  ],
+  "output_statement_id": "STMT-ATOMISTIC-UNIVERSAL-CAUSE-PRIORITY",
+  "rule": "typed-well-founded-mereological-causal-composition",
+  "meaning": "Well-foundedness supplies the old AtomicParts input; import the certified old outgoing theorem to populate caused simples, then use the new caused-simple extraction. A cover M cannot cause an object without overlapping that effect. Activity supplies N→M; a caused N would likewise overlap M. Thus N is uncaused. For every caused x choose a caused simple p≤x, also p≤M. The explicit cause-to-EACH-effect-part interface gives Prior N p; equality or proper-part priority and transitivity gives Prior N x. M is only a cover. No unique incoming cause, priority irreflexivity, causal well-foundedness, full author effect-universality, modality or grounding dictionary is assumed or established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

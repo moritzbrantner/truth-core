@@ -1,0 +1,28 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "NECESSARYBEING-SURVEY",
+    "encoding": "utf-8",
+    "language": "eng",
+    "source_url": "https://www.necessarybeing.com/a10p1d.html",
+    "retrieved_at": "2026-10-31T19:50:50Z",
+    "sha256": "sha256:587f4586848a94a26d69ba9a516bfdc6d6ab4b111dac8f89f1b90c9752faf291",
+    "license": "No license displayed on inspected site (2026-10-31). Only hashes, locator and short incipit committed; no archived fallback asserted."
+  },
+  "passages": [
+    {
+      "id": "NECESSARYBEING-A10P1D",
+      "locator": "A10P1D, complete interactive page",
+      "claim_locator_prefixes": [
+        "A10P1D,"
+      ],
+      "html_selector": {
+        "from": {
+          "text": "Does having parts make a difference with respect to having a cause--so that things with parts have a cause, while things without parts do not?"
+        }
+      },
+      "text_sha256": "sha256:a9a54171b5c4f010e97c04949aca12a81428c772c662b011bb961109dbb1a1fd",
+      "incipit": "Does having parts make a difference with respect to having a cause--so that"
+    }
+  ]
+}

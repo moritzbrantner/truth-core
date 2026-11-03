@@ -1,0 +1,15 @@
+{
+  "id": "CC100-10-SIMPLIFIED-WHOLLY-COSMOS",
+  "statement_id": "STMT-CC100-10-CONTINGENT-POPULATION-WHOLLY-COSMOS",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.9–26: p.23, argument #10 simplified, steps 2–4 under step 1",
+  "interpretation": "Reuse the existing guarded restricted-cosmos proposition in the context of step1’s asserted contingent population. Step3 is displayed without an antecedent and marked Derived; this contextual reading does not silently export an unguarded universal aggregate-contingency law. Cosmos still sums only wholly contingent things. The displayed application is not a newly checked derivation. Attribution is to McIntosh’s presentation only, not the unread references on p24 or Pruss/Rasmussen book on p26. No formal result or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-10-SIMPLIFIED-SCOPE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

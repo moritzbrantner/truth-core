@@ -1,0 +1,20 @@
+{
+  "id": "STMT-EVERY-OBJECT-HAS-SIMPLE-PART",
+  "paraphrase": "Every object has a part that is simple in the standard IsMin sense.",
+  "lean_declaration": "TruthCore.Causality.AtomisticCausalSource.AtomicParts",
+  "definition_ids": [
+    "DEF-ATOMIC-OBJECT-DOMAIN",
+    "DEF-ATOMIC-SIMPLE-PART",
+    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
+    "DEF-COMPLETE-OBJECT-CAUSATION",
+    "DEF-OBJECT-CAUSE-NONOVERLAP",
+    "DEF-ATOMIC-CAUSAL-SOURCE",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-UNIVERSAL-FUSION-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
+    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE"
+  ],
+  "note": "Only the weaker atomic-part consequence of primary terminating decomposition is formalized; full P2 and mereological WF are not identified with it."
+}

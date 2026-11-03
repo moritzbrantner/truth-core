@@ -1,0 +1,17 @@
+{
+  "id": "NB-SURVEY-A10-REPORTED-COVERAGE-DENIAL",
+  "statement_id": "STMT-NB-A2-REPORTED-COVERAGE-DENIAL",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A10P2, complete question and concrete/infinite/ungrounded title attributes, with A10C first paragraph as recalled context",
+  "interpretation": "Reuse the exact A2P1 negative-report meaning: concrete is capable of causing OR being caused, infinite means lacking a first member and ungrounded excludes even partial outside causes. No actual response or necessary-coverage falsity is established. In contrast to A2C’s cause-only domain, A10C keeps the broader cause-or-effect title. This matching domain removes that particular textual mismatch but does not prove complete-ancestry representation, nonemptiness or head extraction.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A2-CONCRETE-CAUSE-OR-EFFECT",
+    "DEF-NB-A2-ENTIRE-CHAIN-AND-HEAD"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A2-DOMAIN-AND-ANCESTRY",
+    "DISAMB-NB-A10-DEFAULT-AND-MODAL-CAUSE",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

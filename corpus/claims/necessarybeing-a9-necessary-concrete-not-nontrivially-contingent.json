@@ -1,0 +1,19 @@
+{
+  "id": "NB-SURVEY-A9-NECESSARY-CONCRETE-NOT-NONTRIVIALLY-CONTINGENT",
+  "statement_id": "STMT-NB-A9-NECESSARY-CONCRETE-NOT-NONTRIVIALLY-CONTINGENT",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A9P2, complete question and selected negative continuation with concrete/necessary/contingent/nontrivial titles; A9C step 6",
+  "interpretation": "Retain exactly NOT NT(concrete-and-necessary,contingent), not NT(concrete-and-necessary,NOT contingent). P2’s contingent title says not necessarily existing; C uses not by nature having to exist. Neither is silently identified with typed ContingentAt, which also requires actual presence. The source negative report is an open conditional judgment, not actual assent, an identity of modal classes or a rigid actual necessary witness.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A9-NONTRIVIAL-ENTAILMENT",
+    "DEF-NB-A8-MODAL-PROPERTY-ENTAILMENT",
+    "DEF-NB-A2-CONCRETE-CAUSE-CAPABLE",
+    "DEF-NB-SURVEY-NECESSARY-BEING",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A9-ORDINARY-AND-NONTRIVIAL-ENTAILMENT",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

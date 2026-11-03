@@ -1,0 +1,11 @@
+{
+  "id": "STMT-CC100-6-EXPLANATION-GOD-BRIDGE",
+  "paraphrase": "If the universe has an explanation, its explanation is God.",
+  "definition_ids": [
+    "DEF-CC100-6-UNIVERSE-EXPLANATION-GOD"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

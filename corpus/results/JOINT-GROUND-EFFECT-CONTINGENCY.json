@@ -1,0 +1,10 @@
+{
+  "id": "JOINT-GROUND-EFFECT-CONTINGENCY",
+  "argument_id": "JOINT-GROUND-EFFECT-CONTINGENCY",
+  "challenge_module": "TruthCore.Results.Explanation.JointGroundEffectContingency.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.JointGroundEffectContingency.Solution",
+  "theorem": "TruthCore.Results.Explanation.JointGroundEffectContingency.jointContingent",
+  "comparator_config": "results/JOINT-GROUND-EFFECT-CONTINGENCY/comparator.json",
+  "status": "solution-present",
+  "description": "Constructive consequence from exactly four explicit heads: actual full-member truth, contingency of the SAME positive effect fact, existing whole-ground necessitation and the selected admission/target-identity bundle. The joint condition fails at the SAME accessible world as the effect; no assumed joint contingency is reused as a premise. No explanatory adequacy-to-necessitation inference or ontic bearer actuality is supplied."
+}

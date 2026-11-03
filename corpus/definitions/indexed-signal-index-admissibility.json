@@ -1,0 +1,8 @@
+{
+  "id": "DEF-INDEXED-SIGNAL-INDEX-ADMISSIBILITY",
+  "term": "finite origin-code admissibility along an indexed channel",
+  "definition": "If station n outputs a numeric code j, then n<=j. Upstream stations have increasing natural-number indices; a code names its own or a strictly earlier station. This property constrains every output, not only one observed downstream output.",
+  "basis": "stipulative",
+  "note": "A finite code bound is separate from merely labeling a token. PGR's indexed positions suggest this candidate interpretation subject to correct detection and maintenance; the later active/passive signal description alone does not explicitly enforce numeric validation. It is not well-foundedness of the successor channel, which has infinite upstream chains. Metaphysical realization and causal interpretation remain OPEN.",
+  "lean_declaration": "TruthCore.Causality.IndexedSignalProvenance.IndexAdmissible"
+}

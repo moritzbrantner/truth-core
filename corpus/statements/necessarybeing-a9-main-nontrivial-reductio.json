@@ -1,0 +1,15 @@
+{
+  "id": "STMT-NB-A9-MAIN-NONTRIVIAL-REDUCTIO",
+  "paraphrase": "Under the supposition that no Necessary Being is possible, the source classifies every causal-concrete thing as contingent and obtains ordinary concrete-to-contingent entailment. It applies the selected ordinary-to-nontrivial transfer at P=contingency to infer NT(concrete-and-necessary,contingent), contradicts the negative relation-instance report, rejects the supposition at7 and concludes possible Necessary Being at8. The outer hypothesis persists through1–6; hypothetical classifications/NT entailments are not exported. This attributes conditional reasoning, not source soundness, independent possibility, actual existence or a rigid necessary individual.",
+  "definition_ids": [
+    "DEF-NB-A9-NONTRIVIAL-ENTAILMENT",
+    "DEF-NB-A8-MODAL-PROPERTY-ENTAILMENT",
+    "DEF-NB-A2-CONCRETE-CAUSE-CAPABLE",
+    "DEF-NB-SURVEY-NECESSARY-BEING",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A9-ORDINARY-AND-NONTRIVIAL-ENTAILMENT",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "INF-AUTONOMOUS-GROUND-NECESSARY-BEING",
+  "input_statement_ids": [
+    "STMT-ACTUAL-CONCRETE-EXISTENCE-TARGET",
+    "STMT-AUTONOMOUS-FULL-EXISTENCE-GROUND",
+    "STMT-AUTONOMOUS-FACTS-NECESSARY-AT",
+    "STMT-WHOLE-GROUND-NECESSITATES-TARGET-AT",
+    "STMT-POSITIVE-TARGET-EXISTENCE-COHERENT"
+  ],
+  "output_statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+  "rule": "complete-joint-ground-necessity-and-same-target-realization",
+  "meaning": "Import memberwise/joint necessity on the SAME complete autonomous ground record: every contributor and enabler is autonomous, hence necessary under a separately explicit modal input. Joint necessity plus WHOLE-ground necessitation yields necessity of positive b; the explicitly aligned existence-fact correspondence yields NecessaryAt of the SAME b in the SAME Ontic. Preserve the given actual concrete b and project its actual existence/necessity into existing NecessaryBeing. Five explicit inputs; no IngredientAt, essential-label realization, productive R/sourcehood, WF, EM or frame axiom. The strong complete-ground, autonomy-necessity and necessitation commitments remain OPEN and are not inferred from authorized scoped adequate nonvacuous PSR.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

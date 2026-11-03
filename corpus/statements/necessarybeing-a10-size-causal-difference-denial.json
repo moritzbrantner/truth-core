@@ -1,0 +1,11 @@
+{
+  "id": "STMT-NB-A10-SIZE-CAUSAL-DIFFERENCE-DENIAL",
+  "paraphrase": "Within the reconsidered contingent-causation comparison, differences in size do not determine a categorical contrast in having a cause, with one size class caused and another uncaused.",
+  "definition_ids": [
+    "DEF-NB-A10-DEFEASIBLE-CAUSAL-DEFAULT",
+    "DEF-NB-A10-RECONSIDERATION-CASE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A10-DEFAULT-AND-MODAL-CAUSE"
+  ]
+}

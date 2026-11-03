@@ -1,0 +1,17 @@
+{
+  "id": "STMT-COMPLETE-PRODUCER-PARTICIPATES",
+  "paraphrase": "Every complete producer of an effect is a member of the supplied productive-participant family for that same effect.",
+  "lean_declaration": "TruthCore.Causality.CompleteCauseContributorCover.ProducerParticipates",
+  "definition_ids": [
+    "DEF-COMPLETE-PRODUCER-PARTICIPATION",
+    "DEF-ATOMIC-OBJECT-DOMAIN",
+    "DEF-COMPLETE-OBJECT-CAUSATION",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-UNIVERSAL-FUSION-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
+    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE"
+  ],
+  "note": "Uses the broad participant sense including whole producers, not exclusively proper partial contributors. It neither defines participants from complete causes nor asserts any production or actual participant exists."
+}

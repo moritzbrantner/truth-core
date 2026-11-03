@@ -1,0 +1,13 @@
+{
+  "id": "STMT-ACCIDENTAL-FEATURE-DISTINGUISHES",
+  "lean_declaration": "TruthCore.Causality.AccidentalFeatureOrigin.Distinguishes",
+  "paraphrase": "The selected repeatable characteristic occurs in x and does not occur in y at the SAME supplied standpoint. This does not independently establish a real individuating basis.",
+  "definition_ids": [
+    "DEF-ACCIDENTAL-FEATURE-ORIGIN-ROLES",
+    "DEF-ACCIDENTAL-FEATURE-ORIGIN-POLICIES",
+    "DEF-ESSENCE-THOMISTIC-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ACCIDENTAL-FEATURE-ORIGIN-AND-EXISTENTIAL-GROUND"
+  ]
+}

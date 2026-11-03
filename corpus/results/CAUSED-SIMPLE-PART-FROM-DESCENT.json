@@ -1,0 +1,10 @@
+{
+  "id": "CAUSED-SIMPLE-PART-FROM-DESCENT",
+  "argument_id": "CAUSED-SIMPLE-PART-FROM-DESCENT",
+  "challenge_module": "TruthCore.Results.Causality.AtomisticUniversalCausePriority.Challenge",
+  "solution_module": "TruthCore.Results.Causality.AtomisticUniversalCausePriority.Solution",
+  "theorem": "TruthCore.Results.Causality.AtomisticUniversalCausePriority.causedSimplePart",
+  "comparator_config": "results/CAUSED-SIMPLE-PART-FROM-DESCENT/comparator.json",
+  "status": "solution-present",
+  "description": "Proper-part well-founded induction with explicit EM: a caused composite has a caused strict part by P6; recurse and compose parthood. A simple object itself is its caused simple part. This derives the missing Step1 bridge rather than assuming it. Root-premise closure delta: zero. Applicability and source premise truth remain open."
+}

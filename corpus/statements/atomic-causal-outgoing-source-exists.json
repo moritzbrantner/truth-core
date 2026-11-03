@@ -1,0 +1,21 @@
+{
+  "id": "STMT-ATOMIC-CAUSAL-OUTGOING-SOURCE-EXISTS",
+  "paraphrase": "Some object has no incoming cause-edge and has an outgoing edge to a distinct effect.",
+  "lean_declaration": "TruthCore.Causality.AtomisticCausalSource.OutgoingSourceExists",
+  "definition_ids": [
+    "DEF-ATOMIC-OBJECT-DOMAIN",
+    "DEF-ATOMIC-SIMPLE-PART",
+    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
+    "DEF-COMPLETE-OBJECT-CAUSATION",
+    "DEF-OBJECT-CAUSE-NONOVERLAP",
+    "DEF-ATOMIC-CAUSAL-SOURCE",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-OBJECT-CAUSAL-ACTIVITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
+    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE"
+  ],
+  "note": "This is the SAME source witness, not Rutten's full effect-universality conclusion or a necessary being."
+}

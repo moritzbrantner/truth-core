@@ -1,0 +1,9 @@
+{
+  "id": "LOGIC-TRANSCENDENTAL-INQUIRY-ACCESS-BOUNDARY",
+  "argument_id": "LOGIC-TRANSCENDENTAL-INQUIRY-ACCESS-BOUNDARY",
+  "challenge_module": "TruthCore.Results.Logic.TranscendentalPractice.InquiryAccess.Challenge",
+  "solution_module": "TruthCore.Results.Logic.TranscendentalPractice.InquiryAccess.Solution",
+  "theorem": "TruthCore.Results.Logic.TranscendentalPractice.InquiryAccess.boundary",
+  "comparator_config": "results/LOGIC-TRANSCENDENTAL-INQUIRY-ACCESS-BOUNDARY/comparator.json",
+  "status": "solution-present"
+}

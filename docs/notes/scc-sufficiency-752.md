@@ -45,6 +45,131 @@ condensation that is a two-node chain.
 | `disj`: t from s; t from u; u from t | both | holds |
 | `enabling`: t from s, u enabling; u from t | both | holds |
 
+## Intrinsic support sets (follow-up)
+
+The relation `IntrinsicSupport h I S target` retains the whole admitted-group
+record: `S` contains only events permitted by intrinsic predicate `I`, and
+the target has inductive `Supply` from exactly that seed set. The operator
+`supportStep h S` requires **all** contributors of an admitted record (AND)
+and permits different admitted records as alternatives (OR). Its least fixed
+point equals that inductive `Supply` interpretation
+(`support_eq_lfp`). Enablers are intentionally not productive inputs; their
+occurrence remains an independent exercise/coherence requirement.
+
+`MinimalIntrinsicSupport` selects inclusion-minimal seed sets, not one
+individual and not a least cause. Distinct minimal sets cannot contain one
+another (`minimal_support_antichain`); the existence and uniqueness of a
+minimal support are NOT asserted for arbitrary event types or infinite
+contributors. The generic `no_empty_support` uses the explicit assumption
+that all admitted contributor sets are nonempty; empty productive records
+would be counterexamples.
+
+| Existing fixture and target | Minimal allowed intrinsic seed | Why |
+| --- | --- | --- |
+| #735 `plural`, target 2 | exactly `{0,1}` | Both unproduced contributors are required; this is a two-*individual* support despite one recorded production group |
+| #752 `conj`, target t | none | Cyclic AND-dependence blocks inductive Supply |
+| #752 `disj`, target t | `{s}` | There is an admitted alternative requiring only s |
+| #752 `enabling`, target t | `{s}` | u is an enabler, not a productive contributor to t |
+
+### Further consequences: roots, support bases, and interventions (2026-11-02)
+
+Three quantities that are easily conflated are **the number of ordinary graph
+sources**, **the number of minimal adequate intrinsic input SETS**, and **the
+number of individually indispensable productive inputs**. The same checked
+models separate them:
+
+| Model and intrinsic policy | Ordinary graph sources | Minimal support sets for target | Individually productive-essential inputs |
+| --- | --- | --- | --- |
+| #735 `plural`, `I={0,1}`, target 2 | two, 0 and 1 | exactly one: `{0,1}` | both 0 and 1 |
+| #752 `disj`, original `isS`, target t | one, s | exactly one: `{s}` | s |
+| #752 `disj`, rival `isSU`, target t | one, s | at least two, `{s}` and `{u}` | neither s nor u |
+| #752 `conj`, `isS`, target t | one, s | none | none (the nonvacuity condition fails) |
+
+The two `disj` rows have **identical admitted group records and graphs**;
+only which independent inputs the analyst permits changes. The rival `isSU`
+supplies u intrinsically although u is not an ordinary graph source. A premise
+identifying intrinsic supply with ordinary sourcehood would exclude that row,
+but that premise is *not* licensed by these graph results. This is not a claim
+that u really is a first cause. Conversely, the plural group requires BOTH
+distinct root inputs, so its sole minimal basis is a two-member SET and not a
+single substance.
+
+`BlockedBy h I B target` fixes the group records and disables intrinsic
+inputs in B. The exact `blocked_iff_hits_every_support` theorem states, for
+**arbitrary** event/group types and without finiteness: B blocks the target
+iff B intersects every adequate intrinsic support set. The nonvacuous
+`ProductivelyEssential` predicate holds of one input exactly when the target
+has Supply originally and deleting that singleton blocks it
+(`essential_iff_singleton_blocked`). Enlarging a blocker cannot restore
+Supply (`blocked_mono`). These are hypergraph **hitting-set/intervention
+duals**, not causal-world counterfactuals: enabler occurrence and admitted
+record validity are held fixed. Only if every adequate support contains a
+minimal one (for example on a finite intrinsic domain) may the hitting test
+be reduced to the antichain of *minimal* adequate support sets. That existence
+condition is not silently assumed for infinite supports.
+
+The `disj_alternative_intervention_cut` control makes the difference exact:
+deleting s alone or u alone still supplies t; deleting both blocks t. By
+contrast #735's 0 and 1 are *each* productively essential. With the
+unchanged `modal .plural true` overlay both bearers are necessarily existing
+while still jointly essential to this productive-Supply calculation
+(`plural_necessary_and_productively_essential`). Changing intrinsic input
+availability is **not** removing a necessarily existing bearer from an
+accessible metaphysical world. Any connection to an actual intervention,
+explanation of existence or necessity needs a separate bridge.
+
+### Component-local obstruction and object-level simplicity
+
+The complete-cause source result has a sharper pointwise form:
+`ordinary_sources_eq_of_K_connected_pair`. Under the SAME carrier, K included
+in ordinary causation, and the two complete-producer cover policies only on
+K, any two ordinary sources connected in a **single K weak component** are
+equal. No *global* connectivity or well-foundedness is needed. Thus distinct
+ordinary sources must lie in different K components
+(`ordinary_distinct_sources_separate_components`). Applied to #735, K cannot
+even connect both root 0 and root 1 *through effect 2* in the same component
+(`plural_two_roots_cannot_meet_in_complete_component`). This explains
+locally, rather than by an all-or-nothing global no-go statement, which
+ordinary partial causal links a proposed complete-production K must leave
+cross-component. K components are mathematical edge-connectivity classes,
+not complete producers or metaphysical entities.
+
+A distinct conditional consequence also follows from the very SAME
+participant-cover policy, even without a connected graph. If a particular
+complete producer c covers two **distinct object-level productive
+participants** of its effect, c has a proper part
+(`distinct_participants_force_composite_producer`). Equivalently, a
+non-composite c can cover only itself as a participant
+(`simple_complete_producer_collapses_participants`). Here *non-composite*
+means `¬ Composite c`, with `Composite c := ∃p, p<c` under the supplied
+parthood PartialOrder. It is **not** a proof about stronger theological
+divine simplicity. Nor does #735 supply such a c: its joint-group index is
+not a third object, and there is no automatic reification of a group record
+as a covering producer. The conditional makes a further pressure point
+precise: plural distinct productive participants + complete covering by a
+single individual + that individual's partlessness cannot all hold under
+this object-level reading. Rejecting the cover interpretation or treating
+the contributors as non-object-level factors remains open.
+
+These are supporting Lean propositions, not a new registered argument route,
+not evidence for a metaphysical bridge, and not a discharge of any root
+premise. No corpus frontier or proof-cost change follows.
+
+All three #752 cases still have the identical projected graph, SCCs,
+ordinary source and weak component. The fixed-point calculation therefore
+needs the typed group records, even when SCCs help organize their cycles.
+Moreover, `plural_no_spanning_complete_subgraph` applies the complete-cause
+source-transfer theorem to #735's TWO rooted yet fully supplied contributors:
+no subset of its ordinary causal edges, on the entire same carrier, can
+satisfy both complete-producer cover policies AND be weakly connected under
+any proposed parthood partial order. The complete joint GROUP record remains
+available; it is not a third individual in that graph.
+The operator is a **mathematical least-fixed-point specification**, not yet
+a bounded executable SCC/antichain enumerator. In general, infinite
+contributor families do not justify stopping after finitely many rounds.
+No group-to-individual complete-producer identification, intrinsic-to-esse
+bridge, claim of physical/ontic adequacy, or root-premise discharge is added.
+
 Over the on scenario, `conj` and `disj` also share bearers, occurrence, allowed scenarios, actual
 scenario, exercise and actual graph. Condensed Supply holds for both, because
 condensing `conj` drops u from t's record. **So the chain after condensation is

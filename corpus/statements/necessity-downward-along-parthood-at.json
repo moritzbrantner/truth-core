@@ -1,0 +1,17 @@
+{
+  "id": "STMT-NECESSITY-DOWNWARD-ALONG-PARTHOOD-AT",
+  "lean_declaration": "TruthCore.Mereology.FusionNoNecessaryParts.NecessityDownwardAlongParthoodAt",
+  "paraphrase": "For the supplied fixed parthood and Ontic at w, each part of a NecessaryAt individual is itself NecessaryAt at that SAME standpoint. This is an explicit OPEN modal-parthood premise; it is not inferred from order alone, actual-world part existence or a source A4/K slogan without cross-world scope and persistence.",
+  "definition_ids": [
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-NO-NECESSARY-PARTS-AT",
+    "DEF-MODAL-PARTHOOD-NECESSITY-DOWNWARD",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY"
+  ]
+}

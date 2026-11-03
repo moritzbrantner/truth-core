@@ -1,0 +1,18 @@
+{
+  "id": "CC100-124-CONTEXTUAL-COMMON-KNOWER-BRIDGE",
+  "statement_id": "STMT-CC100-124-CONTEXTUAL-COMMON-KNOWER-BRIDGE",
+  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "locator": "original presentation PDF pp.272–291: p.290, argument #124 Knowability: Fitch-Style Proof, step 3 under contextual truth-restricted step 2",
+  "interpretation": "Sibling contextual bridge uses only per-truth knowledge, retaining the decisive move from varying knowers to one common knower as an OPEN premise. It is not equivalent to the literal premise by assertion and is not proved merely by Fitch-style knowability. Attribution is to McIntosh’s presentation only, not the unread Bigelow2005 article referenced on p291. No formal proof or premise truth is registered.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CC100-124-KNOWABILITY-KNOWER",
+    "DEF-CC100-124-TRUTH-RESTRICTED-SCOPE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CC100-124-TRUTH-COMMON-KNOWER",
+    "DISAMB-REASON-EPISTEMIC-ONTIC",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ],
+  "interpretation_of": "CC100-124-LITERAL-COMMON-KNOWER-BRIDGE"
+}

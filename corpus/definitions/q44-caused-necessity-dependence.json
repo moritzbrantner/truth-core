@@ -1,0 +1,12 @@
+{
+  "id": "DEF-Q44-CAUSED-NECESSITY-DEPENDENCE",
+  "term": "caused necessity, efficient dependence and abstraction qua esse in q44a1 replies",
+  "definition": "Necessary being need not mean uncaused. Efficient dependence is expressed by an effect’s not existing if its cause did not exist, even where the counterfactual terms cannot be actualized. This does not identify necessary dependence on a cause with a cause necessitating an effect. Mathematical abstraction in reason does not remove the thing’s efficient-cause relation insofar as it has esse.",
+  "basis": "stipulative",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q44-A1-NECESSARY-EFFICIENT-CAUSE-COMPATIBLE",
+    "AQUINAS-ST-I-Q44-A1-EFFICIENT-CAUSE-COUNTERFACTUAL-DEPENDENCE",
+    "AQUINAS-ST-I-Q44-A1-MATHEMATICAL-BEING-EFFICIENT-CAUSE"
+  ],
+  "note": "Source-only glossary. Necessary per se adds absence of an aliunde cause of necessity; bare modal NecessaryAt and temporal IsNecessary are different interfaces. No identity between causes of esse and causes of necessity, no cause-to-effect whole-ground necessitation, and no automatic actual IsAt-to-InAct dictionary. The article’s main universal divine-cause argument presupposes earlier divine subsistent-being/unity results and is not an independent discharge here."
+}
