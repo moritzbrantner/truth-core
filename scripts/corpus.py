@@ -2520,7 +2520,10 @@ def command_related(args: argparse.Namespace) -> int:
 
 
 def command_dossier(args: argparse.Namespace) -> int:
-    validate()
+    # The explorer's --all export keeps full validation; a single-statement read skips it
+    # like `related` and `context` do (#958): run `corpus.py check` to validate.
+    if args.all:
+        validate()
     directories = ("statements", "claims", "definitions", "disambiguations", "inferences", "arguments", "results", "relations", "attempts", "models", "configurations")
     data = {name: [record for _, record in load_dir(name)] for name in directories}
     if not args.all and args.statement_id not in {entry["id"] for entry in data["statements"]}:
@@ -2529,14 +2532,45 @@ def command_dossier(args: argparse.Namespace) -> int:
                              root=args.root, transcription=transcription_flags(data["results"], data["arguments"], data["statements"]), claims=data["claims"])
     if not report["root_known"]:
         raise CorpusError(f"unknown root statement: {args.root}")
-    dossiers = dossier_index(data, report)
+    dossiers = dossier_index(data, report, only=None if args.all else {args.statement_id})
     if args.all:
         print(json.dumps(dossiers, ensure_ascii=False))
         return 0
-    if args.statement_id not in dossiers:
-        raise CorpusError(f"unknown statement: {args.statement_id}")
     dossier = dossiers[args.statement_id]
-    print(json.dumps(dossier, indent=2, ensure_ascii=False) if args.json else format_dossier(dossier, data))
+    limit = None if args.limit <= 0 else args.limit
+    print(json.dumps(dossier, indent=2, ensure_ascii=False) if args.json else format_dossier(dossier, data, limit=limit))
+    return 0
+
+
+def command_context(args: argparse.Namespace) -> int:
+    """Derived argument context pack (docs/notes/argument-context.md): read-only; run `check` for validation."""
+    # Imported here so the explorer, which loads corpus.py, does not depend on this agent-only module.
+    from argument_context import context_pack, format_context, resolve_target
+    directories = ("statements", "claims", "definitions", "disambiguations", "inferences", "arguments", "results",
+                   "relations", "attempts", "models", "configurations", "candidates")
+    data = {name: [record for _, record in load_dir(name)] for name in directories}
+    arguments = {entry["id"]: entry for entry in data["arguments"]}
+    results = {entry["id"]: entry for entry in data["results"]}
+    argument_id, choices = resolve_target(args.target, arguments, results)
+    if argument_id is None:
+        if choices:
+            raise CorpusError(f"{args.target} is concluded by several arguments; choose one: " + ", ".join(choices))
+        raise CorpusError(f"unknown argument, result or concluded statement: {args.target}")
+    report = frontier_report(data["statements"], data["arguments"], data["results"], data["relations"],
+                             root=args.root, transcription=transcription_flags(data["results"], data["arguments"], data["statements"]),
+                             claims=data["claims"])
+    if not report["root_known"]:
+        raise CorpusError(f"unknown root statement: {args.root}")
+    related = []
+    if args.related:
+        import sqlite3
+        from research_index import cached_related
+        try:
+            related = cached_related(ROOT, arguments[argument_id]["conclusion_statement_id"], args.related)["matches"]
+        except (ValueError, OSError, sqlite3.Error) as exc:
+            print(f"context: related ranking unavailable: {exc}", file=sys.stderr)
+    pack = context_pack(ROOT, data, report, argument_id, related=related)
+    print(json.dumps(pack, indent=2, ensure_ascii=False) if args.json else format_context(pack, limit=args.limit))
     return 0
 
 
@@ -3473,9 +3507,17 @@ def parser() -> argparse.ArgumentParser:
     target = dossier.add_mutually_exclusive_group(required=True)
     target.add_argument("statement_id", nargs="?")
     target.add_argument("--all", action="store_true", help="emit all dossiers as one JSON object (for the explorer)")
-    dossier.add_argument("--json", action="store_true", help="print machine-readable JSON")
+    dossier.add_argument("--json", action="store_true", help="print machine-readable JSON (always complete)")
+    dossier.add_argument("--limit", type=int, default=8, help="entries shown per text section (0 = all)")
     dossier.add_argument("--root", default=DEFAULT_FRONTIER_ROOT)
     dossier.set_defaults(func=command_dossier)
+    context = sub.add_parser("context", help="one bounded context pack for an argument: Lean type, reuse, premises, countermodels, open work")
+    context.add_argument("target", help="argument ID, result ID, or a statement concluded by exactly one argument")
+    context.add_argument("--json", action="store_true", help="print every entry untruncated")
+    context.add_argument("--limit", type=int, default=6, help="entries shown per list in text output")
+    context.add_argument("--related", type=int, default=8, help="related statements to the conclusion from the research index (0 = skip)")
+    context.add_argument("--root", default=DEFAULT_FRONTIER_ROOT)
+    context.set_defaults(func=command_context)
     sub.add_parser("arguments", help="print argument IDs, one per line").set_defaults(
         func=command_ids("arguments")
     )

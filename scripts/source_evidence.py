@@ -5,7 +5,6 @@ from __future__ import annotations
 
 import argparse
 import codecs
-import fnmatch
 import gzip
 import hashlib
 import html.parser
@@ -1222,11 +1221,6 @@ def materialize_web_snapshot(passage: dict[str, Any], *, use_cache: bool = True,
     return text
 
 
-# A change to how evidence is fetched, extracted or hashed can change every passage's
-# result, so it re-verifies every passage live even on a pull request.
-FULL_VERIFY_PATTERNS = ("scripts/source_evidence.py",)
-
-
 def git_changed_files(base: str, head: str, root: Path = ROOT) -> list[str]:
     output = subprocess.run(
         ["git", "diff", "--name-only", "--no-renames", base, head],
@@ -1240,15 +1234,13 @@ def git_changed_files(base: str, head: str, root: Path = ROOT) -> list[str]:
 
 def changed_passage_ids(
     changed_files: Iterable[str], passages: dict[str, tuple[Path, dict[str, Any]]], root: Path = ROOT
-) -> set[str] | None:
-    """The passages a change adds or edits, or None when every passage must be verified.
+) -> set[str]:
+    """The passages whose manifests a change adds or edits.
 
-    A passage is selected when its manifest file under corpus/passages/ changed. A
-    deleted manifest selects nothing; a change to the verifier itself selects all.
+    Deleted manifests and verifier-only changes select nothing. Every manifest
+    is still validated offline; main and scheduled CI verify all sources live.
     """
     changed = set(changed_files)
-    if any(fnmatch.fnmatch(path, pattern) for path in changed for pattern in FULL_VERIFY_PATTERNS):
-        return None
     return {
         passage_id
         for passage_id, (path, _) in passages.items()
@@ -1546,7 +1538,7 @@ def parser() -> argparse.ArgumentParser:
         "--base",
         help=(
             "verify live only the passages whose manifests changed between BASE and --head "
-            "(all of them when this script changed); every manifest is still checked offline"
+            "(including verifier-only PRs with no changed passages); every manifest is checked offline"
         ),
     )
     verify_parser.add_argument("--head", default="HEAD", help="the head of the --base comparison")
@@ -1583,8 +1575,6 @@ def main() -> int:
             if args.base is None:
                 return verify_all(export)
             selected = changed_passage_ids(git_changed_files(args.base, args.head), passage_index())
-            if selected is None:
-                print(f"{', '.join(FULL_VERIFY_PATTERNS)} changed: verifying every passage live")
             return verify_all(export, selected)
         if args.command == "materialize":
             return materialize(args.passage_id, args.output, args.export)

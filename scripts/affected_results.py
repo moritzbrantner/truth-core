@@ -82,6 +82,7 @@ EXPLORER_INPUT_PATTERNS = (
     "docs/notes/classical-attributes-all-migration.json",
     "docs/notes/naming-first-mover-migration.json",
     "scripts/research_index.py",
+    "scripts/argument_context.py",
     "scripts/source_evidence.py",
     "scripts/premise_dossiers.py",
     "scripts/finite_models.py",
