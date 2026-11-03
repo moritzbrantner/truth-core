@@ -1,0 +1,17 @@
+{
+  "id": "NB-SURVEY-A5-RECALLED-FULL-UNCAUSABILITY-REPORT",
+  "statement_id": "STMT-NB-A5-NEGATED-NECESSARY-UNCAUSABILITY",
+  "source_id": "NECESSARYBEING-SURVEY",
+  "locator": "A5C3, steps 2–3 defining Something Uncausable and attributing nonnecessity of that full conditional",
+  "interpretation": "The author explicitly recalls the FULL original obtaining-situation conditional and labels its nonnecessity by your report. Reuse the existing full-content statement conditional on earlier P1 retention, not as a consequence of the short P2C answer or evidence of actual respondent/session state. Stock situation-contingency wording is unchanged. Classical nonempty/coverage unpacking belongs to that full conditional if retained; this claim supplies no bridge deriving it from the shortened question.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-NB-A5-OBTAINING-CONTINGENT-SITUATION",
+    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NB-A5-SITUATION-HISTORY-CAUSAL-SCOPE",
+    "DISAMB-NB-A2-ALT-REVISED-NECESSITY",
+    "DISAMB-NB-SURVEY-POSSIBILITY"
+  ]
+}
