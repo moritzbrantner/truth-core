@@ -1,0 +1,18 @@
+{
+  "id": "AQUINAS-IN-METAPH-IX-L8-FIRST-MOVER-IN-ACT-ONLY-A",
+  "statement_id": "STMT-FIRST-UNMOVED-MOVER-IS-PURE-ACT",
+  "source_id": "AQUINAS-IN-METAPH",
+  "locator": "IX, lect. 8 n. 11",
+  "interpretation": "Concluding the lesson, Aquinas repeats that act is prior to potency in substance and form, and also in time (lect. 7 n. 4-5), 'quia semper prius exigitur actus secundum quem generans aut movens aut faciens est actu, ante alterum actum quo generatum vel factum est in actu, postquam fuit in potentia; quousque veniatur ad primum movens, quod est in actu tantum. Id enim, quod exit de potentia in actum, requirit actum praecedentem in agente, a quo reducitur in actum.' Read as STMT-FIRST-UNMOVED-MOVER-IS-PURE-ACT: every first mover moved by none is in potency in no respect. Reading choices. (1) 'In actu tantum' (in act only) is read as PureAct (DEF-PURE-ACT): the sentence has no restricting phrase, unlike lect. 9 n. 6, where Aquinas restricts the act of incorruptibles explicitly ('inquantum huiusmodi') and concedes potency 'secundum quid'. The statement keeps only the negative half (no potency); the positive 'in act' is not formalized. (2) 'Primum movens' is the mover at which the series of agents, each requiring a prior act, stops; it is read as a first mover moved by none (DEF-FIRST-UNMOVED-MOVER), since on the broad reading of motion (DISAMB-MOTION, 'generans aut movens aut faciens') what is moved in no respect is reduced from potency to act in none and so needs no prior agent. (3) The definite singular is read as a universal over such movers; the text does not consider several first movers, and the statement adds no existence or uniqueness. The sentence is said in passing and gives no reason for 'tantum': the regress it states shows only that a first mover is reached, not that it has no dormant potency in a respect in which it does not move, which is the case left open by ACT-PRIOR-FROM-INCORRUPTIBLE-FACTS. So the claim attributes the conclusion to Aquinas as a stated commitment; it does not supply an argument for it. A reading restricted to the act by which the first mover moves (in act, and never first in potency, in that respect) was considered and not recorded as a sibling claim: nothing in the sentence restricts 'tantum', and that weaker content is already given by STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT. Owner decision on #352 (2026-11-03) to record this stating claim.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-FIRST-UNMOVED-MOVER",
+    "DEF-PURE-ACT",
+    "DEF-POTENCY",
+    "DEF-ACT",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION"
+  ]
+}
