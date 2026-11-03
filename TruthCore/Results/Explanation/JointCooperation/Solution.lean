@@ -629,4 +629,104 @@ theorem certificate : TruthCore.Explanation.JointCooperation.Certificate :=
     TruthCore.Results.Causality.JointGroups.plural,
     TruthCore.Results.Explanation.UltimateAdequacy.structural⟩
 
+/-! ## Productive-law admission versus independently held input profiles -/
+
+/-- The on/off interpretations preserve the actual populated context and
+conditional scenario sufficiency for EVERY group. The fixed non-law fields
+cannot by themselves certify whether an admitted record supplies its target.
+This does not certify that law variation with fixed complete essences is
+metaphysically possible. -/
+theorem law_exercise_controls (k : TruthCore.Explanation.UltimateAdequacy.Kind)
+    (on : Bool) :
+    (lawExercise k on).coherent ∧
+    (∀ g, (lawExercise k on).jointlySufficient g) ∧
+    (lawExercise k on).occurs (lawExercise k on).actual 2 ∧
+    (lawVariant k on).contributors = (TruthCore.Explanation.UltimateAdequacy.groups k).contributors ∧
+    (lawVariant k on).enablers = (TruthCore.Explanation.UltimateAdequacy.groups k).enablers ∧
+    (lawVariant k on).effect = (TruthCore.Explanation.UltimateAdequacy.groups k).effect := by
+  have ho := TruthCore.Results.Explanation.UltimateAdequacy.actual_occurs k
+  refine ⟨?_, ?_, ho 2, rfl, rfl, rfl⟩
+  · refine ⟨trivial, fun g hg => ⟨hg, ?_, ho _⟩⟩
+    intro e _
+    exact ho e
+  · intro g
+    exact (TruthCore.Results.Explanation.UltimateAdequacy.background k).2.1 g
+
+/-- With the productive record for target 2 not admitted, no other group
+produces that target and target 2 is not an intrinsic seed. Therefore even
+the same actual occurrence and scenario-level sufficiency cannot provide
+inductive productive Supply of 2. This applies to BOTH source counts. -/
+theorem target_not_supplied_when_law_off
+    (k : TruthCore.Explanation.UltimateAdequacy.Kind) :
+    ¬ Supply (lawVariant k false)
+      (TruthCore.Explanation.UltimateAdequacy.intrinsic k) 2 := by
+  intro hs
+  cases hs with
+  | intrinsic _ hi =>
+      exact (TruthCore.Results.Explanation.UltimateAdequacy.not_intrinsic_target k hi).elim
+  | joint g hg _ =>
+      change (TruthCore.Explanation.UltimateAdequacy.groups k).effect g ≠ 2 ∨
+        false = true at hg
+      rcases hg with hOther | hFalse
+      · exact (hOther rfl).elim
+      · cases hFalse
+
+/-- In the existing one-source AND two-source #735 cases, admission of the
+target's productive law is sufficient for its inductive Supply, whereas its
+removal blocks Supply without deleting any constituent or changing its
+intrinsic-supply status. This reuses the existing fixtures, not #925's
+minimal-support or complete-producer proofs. -/
+theorem law_status_parity :
+    (Supply (lawVariant .single true)
+      (TruthCore.Explanation.UltimateAdequacy.intrinsic .single) 2 ∧
+     ¬ Supply (lawVariant .single false)
+      (TruthCore.Explanation.UltimateAdequacy.intrinsic .single) 2) ∧
+    (Supply (lawVariant .plural true)
+      (TruthCore.Explanation.UltimateAdequacy.intrinsic .plural) 2 ∧
+     ¬ Supply (lawVariant .plural false)
+      (TruthCore.Explanation.UltimateAdequacy.intrinsic .plural) 2) := by
+  refine ⟨⟨?_, target_not_supplied_when_law_off .single⟩,
+    ⟨?_, target_not_supplied_when_law_off .plural⟩⟩
+  · refine Supply.joint 1 (by simp [lawVariant]) ?_
+    intro e he
+    change e = 0 at he
+    exact Supply.intrinsic e he
+  · refine Supply.joint 0 (by simp [lawVariant]) ?_
+    intro e he
+    change e = 0 ∨ e = 1 at he
+    exact Supply.intrinsic e he
+
+/-- If two candidate laws share the very SAME complete profile of separately
+described individuals, no single function of that profile can reproduce both
+opposite Supply verdicts. This is an extensional underdetermination result:
+the premise that complete individual natures really can be held fixed while
+the joint law varies is OPEN and disputed by relational dispositionalists. -/
+theorem no_uniform_profile_only_verdict
+    (k : TruthCore.Explanation.UltimateAdequacy.Kind)
+    (hOn : Supply (lawVariant k true)
+      (TruthCore.Explanation.UltimateAdequacy.intrinsic k) 2)
+    {N : Type} (nature : Nat → N) (verdict : (Nat → N) → Prop)
+    (hTrue : verdict nature ↔ Supply (lawVariant k true)
+      (TruthCore.Explanation.UltimateAdequacy.intrinsic k) 2)
+    (hFalse : verdict nature ↔ Supply (lawVariant k false)
+      (TruthCore.Explanation.UltimateAdequacy.intrinsic k) 2) : False := by
+  exact target_not_supplied_when_law_off k (hFalse.mp (hTrue.mpr hOn))
+
+/-- Both populated source structures witness the same underdetermination.
+No uniqueness of ultimate explanatory ground, necessary bearer, or God follows. -/
+theorem single_plural_no_profile_only_verdict {N : Type}
+    (nature : Nat → N) (verdict : (Nat → N) → Prop) :
+    ¬ ((verdict nature ↔ Supply (lawVariant .single true)
+           (TruthCore.Explanation.UltimateAdequacy.intrinsic .single) 2) ∧
+       (verdict nature ↔ Supply (lawVariant .single false)
+           (TruthCore.Explanation.UltimateAdequacy.intrinsic .single) 2)) ∧
+    ¬ ((verdict nature ↔ Supply (lawVariant .plural true)
+           (TruthCore.Explanation.UltimateAdequacy.intrinsic .plural) 2) ∧
+       (verdict nature ↔ Supply (lawVariant .plural false)
+           (TruthCore.Explanation.UltimateAdequacy.intrinsic .plural) 2)) := by
+  exact ⟨fun h => no_uniform_profile_only_verdict .single law_status_parity.1.1
+      nature verdict h.1 h.2,
+    fun h => no_uniform_profile_only_verdict .plural law_status_parity.2.1
+      nature verdict h.1 h.2⟩
+
 end TruthCore.Results.Explanation.JointCooperation
