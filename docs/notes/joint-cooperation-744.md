@@ -145,6 +145,89 @@ Premise/root delta: none. This bounded result neither closes #735's ultimate
 explanatory adequacy bridge nor warrants treating the Boolean scenarios as
 possible worlds or the graphs as real existential dependence.
 
+### Surgical public-input experiment (`MECHANISM-INTERVENTION-PARITY`, 2026-11-04)
+
+The next question is whether a *productive* criterion can separate an actual
+input-to-effect mechanism from an idle regularity, and then discriminate one
+ultimate source from several. This certificate tests **only the first half**
+with explicit Boolean surgery. It reuses Hume's existing `Changes` test from
+`TruthCore.Modern.Hume.Regularity`; it does **not** rename #733 scenario
+variation or #752 `ProductivelyEssential` as an intervention. Indeed #752
+already permits plural productively essential roots, so indispensability of
+intrinsic supply alone does not settle uniqueness.
+
+For the public contributors `a,b`, the intervention `some x` substitutes `x`
+for a contributor's normal value while holding the background state fixed.
+Under `none`, the original equation remains. Three models agree on all four
+*natural* public triples `(a,b,effect)` (effect is `a ∧ b`):
+
+1. **Two slots, active:** separate Boolean background inputs, then compute
+   `effect := a ∧ b` from the potentially overridden public contributors.
+2. **One slot, active:** one root-state *slot* holds a **pair of Booleans**;
+   unpack them to run exactly the same effect equation.
+3. **Idle lookup:** report the overridden public contributors, but compute
+   `effect` directly from the untouched background. It matches the active
+   models naturally while ignoring public surgical overrides.
+
+| Background `(a,b)` | Override | Active effect (one or two slots) | Idle effect |
+| --- | --- | --- | --- |
+| `(false,true)` | none | false | false |
+| `(false,true)` | force `a=true`, `b=true` | **true** | **false** |
+
+The formal `Changes` certificate proves that either contributor, when tested
+with the other on, can change the active effect and cannot change the idle
+one. This is a nontrivial **model-relative** discriminator between response
+mechanisms sharing natural observations. It is conditional on the intended
+meaning and admissibility of the surgical operation, especially questionable
+for supposedly necessary foundations.
+
+The relation's interpretive limits are explicit:
+
+- **Meaning and positive analogy:** response sensitivity says that setting one
+  switch differently would change a powered lamp while the other switch and
+  background are held fixed. The Boolean AND equation models two series
+  switches. Neither the analogy nor the formula proves that the recorded
+  settings are physically possible for the proposed ultimate foundations.
+- **Negative analogy and exclusions:** a dashboard lamp copying an engine's
+  state can covary perfectly with the engine without changing it when the
+  indicator itself is overridden. The idle lookup models this exclusion.
+  Sensitivity alone is not a sufficient account of efficient causation,
+  metaphysical grounding, persistence or conservation of a prior state.
+- **Properties:** only finite input sensitivity, inverse state packaging,
+  and the stated capacity bound are proved. No asymmetry, transitivity,
+  well-foundedness, cross-relation closure, or necessity of real effects is
+  postulated for the metaphysical interpretation.
+- **Abstraction — OPEN:** granting an intervention on two ordinary switches
+  does not grant interventions on necessary beings, or show how a dependence
+  of *existence* arises from a dependence of Boolean outputs.
+- **Strong rivals:** a Humean can take the tables as stipulated counterfactual
+  patterns without productive powers; an interventionist can accept the
+  narrower idealized contrast; a powers or per se account can demand a further
+  production condition on the root. None is refuted by the two-slot packing.
+
+However, pack/unpack is a bijection and the active one-slot and two-slot
+models remain **identical under every public override**, not just at natural
+settings. Naming one slot a root does not make its two state components
+intrinsically unified, simple, or unproduced. In the opposite direction,
+an additional finite-capacity lemma shows that *one Boolean bit* cannot
+realize all four independently selectable pairs. This rules out that specific
+one-bit toy representation, **not** one bearer with at least four states.
+
+The certificate retains the independently established #974 `RootParity`
+between its one- and plural-graph records. It links the new natural public
+response table to #974's completed single control, but does not assert that
+the old scenario-sufficiency records survive the new surgery, that the newly
+packed state is literally the same event graph, or that source *interventions*
+are available. All source counts remain interpretation-dependent.
+
+**Answer so far:** A stipulated public intervention can distinguish an active
+equation from a merely correlated lookup, but it **cannot** distinguish a
+single pair-valued slot from two separate slots. The next substantive task is
+to defend a causal-production or per se explanatory criterion that applies
+to the **ultimate root itself**, does not assume unity in advance, and tests
+the strongest plural competitor under the same admissibility conditions.
+No root premise is discharged; #735's adequacy bridge remains open.
+
 ## Boundaries
 
 - Shared effect and weak connectivity do not give a unique source: `PluralMinima` (#707, #733)
