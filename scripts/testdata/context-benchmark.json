@@ -1,0 +1,29 @@
+{
+  "note": "Merged research PRs whose new Lean files directly import an existing result. Replayed by scripts/context_benchmark.py at each merge's first parent. #900 was dropped: it newly cites only the anchor itself.",
+  "tasks": [
+    {
+      "pr": 925,
+      "merge": "773d7254"
+    },
+    {
+      "pr": 919,
+      "merge": "ad36a2f9"
+    },
+    {
+      "pr": 917,
+      "merge": "be2bf05d"
+    },
+    {
+      "pr": 916,
+      "merge": "8198058e"
+    },
+    {
+      "pr": 906,
+      "merge": "763e4c0c"
+    },
+    {
+      "pr": 903,
+      "merge": "2f11e621"
+    }
+  ]
+}
