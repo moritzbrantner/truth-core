@@ -155,6 +155,10 @@ def format_dossier(dossier: dict[str, Any], data: dict[str, list[dict[str, Any]]
     status = dossier["closure"] or (f"open ({frontier['depth']})" if frontier else "not on the frontier")
     lines = [statement["id"], statement["paraphrase"], f"Lean: {statement.get('lean_declaration', 'none')}",
              f"Status: {status}; established: {str(dossier['established']).lower()}"]
+    if "targeting_issues" in dossier:
+        targets = dossier["targeting_issues"]
+        lines.append("Issue targets (offline acceptance snapshot): " +
+                     (", ".join(f"#{entry['number']} [{entry['status']}]" for entry in targets) or "none"))
     floor = dossier.get("floor")
     if floor:
         met = "met" if floor["met"] else "not met, closes nothing: " + "; ".join(floor["reasons"])
