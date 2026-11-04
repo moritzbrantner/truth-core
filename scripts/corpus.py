@@ -2574,6 +2574,28 @@ def command_context(args: argparse.Namespace) -> int:
     return 0
 
 
+def command_bridge_experiments(args: argparse.Namespace) -> int:
+    """Read-only, profile-scoped cross-argument experiment discovery (#953)."""
+    from bridge_experiments import experiment_report, format_experiments
+
+    directories = ("statements", "arguments", "results", "relations", "claims", "inferences", "attempts")
+    data = {name: [record for _, record in load_dir(name)] for name in directories}
+    report = frontier_report(
+        data["statements"], data["arguments"], data["results"], data["relations"],
+        root=args.root,
+        transcription=transcription_flags(data["results"], data["arguments"], data["statements"]),
+        claims=data["claims"], inferences=data["inferences"],
+    )
+    if not report["root_known"]:
+        raise CorpusError(f"unknown root statement: {args.root}")
+    try:
+        experiments = experiment_report(ROOT, data, report, args.anchor, args.profile_module, limit=args.limit)
+    except ValueError as exc:
+        raise CorpusError(str(exc)) from exc
+    print(json.dumps(experiments, indent=2, ensure_ascii=False) if args.json else format_experiments(experiments))
+    return 0
+
+
 def command_ids(directory: str):
     def command(_: argparse.Namespace) -> int:
         validate()
@@ -3518,6 +3540,14 @@ def parser() -> argparse.ArgumentParser:
     context.add_argument("--related", type=int, default=8, help="related statements to the conclusion from the research index (0 = skip)")
     context.add_argument("--root", default=DEFAULT_FRONTIER_ROOT)
     context.set_defaults(func=command_context)
+    bridges = sub.add_parser("bridge-experiments", help="rank recorded cross-argument joins under one named Lean profile; discovery only")
+    bridges.add_argument("anchor", metavar="RESULT-ID", help="an existing result, not a new premise")
+    bridges.add_argument("--profile-module", required=True, metavar="LEAN-MODULE",
+                         help="exact common Lean profile import; a shared import is not semantic equivalence")
+    bridges.add_argument("--limit", type=int, default=5, help="maximum results shown (1-20; default 5)")
+    bridges.add_argument("--root", default=DEFAULT_FRONTIER_ROOT)
+    bridges.add_argument("--json", action="store_true", help="include complete argument premise bundles and negative-test protocols")
+    bridges.set_defaults(func=command_bridge_experiments)
     sub.add_parser("arguments", help="print argument IDs, one per line").set_defaults(
         func=command_ids("arguments")
     )
