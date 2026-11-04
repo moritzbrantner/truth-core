@@ -36,6 +36,29 @@ describe("definitions and disambiguations (#204)", () => {
 });
 
 describe("corpus reader", () => {
+  test("reuses a production build snapshot but reloads outside production", () => {
+    const originalMode = process.env.NODE_ENV;
+    try {
+      process.env.NODE_ENV = "production";
+      const first = getCorpus();
+      expect(getCorpus()).toBe(first);
+
+      process.env.NODE_ENV = "development";
+      const development = getCorpus();
+      expect(development).not.toBe(first);
+      expect(getCorpus()).not.toBe(development);
+
+      process.env.NODE_ENV = "production";
+      expect(getCorpus()).not.toBe(first);
+    } finally {
+      if (originalMode === undefined) {
+        delete process.env.NODE_ENV;
+      } else {
+        process.env.NODE_ENV = originalMode;
+      }
+    }
+  });
+
   test("reads the independent statement and argument model", () => {
     const corpus = getCorpus();
 
