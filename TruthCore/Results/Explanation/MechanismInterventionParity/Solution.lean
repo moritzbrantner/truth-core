@@ -32,6 +32,7 @@ theorem natural_agreement : NaturalAgreement := by
   · change (s.second = true ↔ s.second = true)
     exact Iff.rfl
   · rcases s with ⟨a, b⟩
+    change ((a && b) = true ↔ (a = true ∧ b = true))
     cases a <;> cases b <;> decide
 
 /-- Unlike mere matching observations, the supplied AND equation responds
