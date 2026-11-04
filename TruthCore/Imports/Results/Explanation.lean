@@ -6,6 +6,7 @@ import TruthCore.Results.Explanation.AnselmUltimateSource.Solution
 import TruthCore.Results.Explanation.AutonomousGroundNecessity.Solution
 import TruthCore.Results.Explanation.BCCFDerivative.Solution
 import TruthCore.Results.Explanation.BorrowedExercise.Solution
+import TruthCore.Results.Explanation.CompleteResponseParity.Solution
 import TruthCore.Results.Explanation.CondensationSufficiency.Solution
 import TruthCore.Results.Explanation.ConservativeReasonExpansion.Solution
 import TruthCore.Results.Explanation.DisjunctionGround.Solution
