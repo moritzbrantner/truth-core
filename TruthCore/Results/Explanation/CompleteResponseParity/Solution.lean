@@ -12,8 +12,10 @@ set_option autoImplicit false
 /-- The three observables agree at EVERY scenario, not just at the actual one. -/
 theorem matched_observations : MatchedObservations := by
   intro s
-  rcases s with ⟨a, b⟩
-  cases a <;> cases b <;> decide
+  change (s.1 = true ↔ s.1 = true) ∧
+    (s.2 = true ↔ s.2 = true) ∧
+    (s.1 = true ∧ s.2 = true ↔ s.1 = true ∧ s.2 = true)
+  exact ⟨Iff.rfl, Iff.rfl, Iff.rfl⟩
 
 theorem completed_actual (e : SingleEvent) :
     completedSingle.occurs completedSingle.actual e := by
@@ -76,7 +78,7 @@ theorem root_parity : RootParity := by
   constructor
   · change least single.exercisedGroups.graph .r
     exact hLeast
-  · exact plural_no_least
+  · exact no_least plural_source_0 plural_source_1 (by decide)
 
 theorem cooperation_parity : CooperationParity :=
   ⟨completed_needed, plural_needed, completed_common_source, plural_brute.2.2⟩
