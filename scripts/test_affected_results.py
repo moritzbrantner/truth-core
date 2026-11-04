@@ -263,6 +263,24 @@ class ImpactPlanTest(unittest.TestCase):
                     self.assertFalse(plan["checks"][key])
         self.assertIn("TruthCore.Results.A.Solution", ar.nanoda_scope(self.root, ["TruthCore/Base.lean"])[1])
 
+    def test_offline_frontier_test_only_keeps_fast_checks(self):
+        for main in (False, True):
+            with self.subTest(main=main):
+                plan = self.plan("scripts/test_corpus_frontier.py", main=main)
+                self.assertEqual(plan["mode"], "subset")
+                self.assertEqual(plan["selected"], [])
+                self.assertEqual([key for key, enabled in plan["checks"].items() if enabled], ["fast"])
+
+    def test_offline_frontier_test_does_not_change_mixed_diff_coverage(self):
+        for path in ("TruthCore/Base.lean", "corpus/passages/P.json", "scripts/source_evidence.py",
+                     "scripts/testdata/frontier-transcription-closure.json", "scripts/test_other.py"):
+            for main in (False, True):
+                with self.subTest(path=path, main=main):
+                    expected = self.plan(path, main=main)
+                    actual = self.plan(path, "scripts/test_corpus_frontier.py", main=main)
+                    for key in ("mode", "selected", "checks"):
+                        self.assertEqual(actual[key], expected[key], key)
+
     def test_source_and_corpus_changes_retain_integrity_binding_and_data_tests(self):
         for path in ("corpus/passages/P.json", "corpus/claims/C.json", "corpus/sources/S.json",
                      "corpus/statements/S.json", "corpus/models/M.json", "results/RESULT-A/comparator.json"):
