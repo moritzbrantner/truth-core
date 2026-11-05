@@ -1,7 +1,12 @@
-import TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.PopulationClosure
+module
+
+public import TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.PopulationClosure
 
 /-! Finite separation for #607. Literal roster identity and a universal frame
 are stipulated; no admissibility or metaphysical possibility claim follows. -/
+
+@[expose] public section
+
 namespace TruthCore.Models.PopulationClosureSeparation
 open TruthCore.Modal
 open TruthCore.Case.Catholicism.StageOne.NecessaryIndividual

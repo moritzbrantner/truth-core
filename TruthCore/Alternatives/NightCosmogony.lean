@@ -1,4 +1,6 @@
-import TruthCore.Alternatives.ActPotencyRegress
+module
+
+public import TruthCore.Alternatives.ActPotencyRegress
 
 /-!
 The "potency prior" cosmogony that Aristotle reports in *Metaphysics* XII.6,
@@ -11,6 +13,8 @@ act/potency predicates `InAct`, `InPotency`, `MovedIn`, `MovesIn` and
 
 Source witness: Ross/Perseus Greek edition, passage `ARIST-MET-XII-6`.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Alternatives.NightCosmogony
 

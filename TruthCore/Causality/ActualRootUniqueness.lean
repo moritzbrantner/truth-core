@@ -1,7 +1,12 @@
-import TruthCore.Causality.NecessaryRootFork
+module
+
+public import TruthCore.Causality.NecessaryRootFork
 
 /-! Unicity of actual concrete roots of one selected grounding relation.
 Unlike UniqueNecessaryActualRootAt, this endpoint asserts no modal necessity. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.ActualRootUniqueness
 open TruthCore.Causality.BruteFoundationBoundary (Profile)
 open TruthCore.Causality.NecessaryRootFork (ActualRoot)

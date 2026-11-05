@@ -1,5 +1,10 @@
-import TruthCore.Case.Catholicism.StageOneBridges
-import TruthCore.Logic.ExcludedMiddle
+module
+
+public import TruthCore.Case.Catholicism.StageOneBridges
+public import TruthCore.Logic.ExcludedMiddle
+
+@[expose] public section
+
 namespace TruthCore.Results.Case.Catholicism.FirstUnmovedMoversIdenticalOrDistinctFromEm
 open TruthCore.Case.Catholicism
 open TruthCore.Logic

@@ -1,5 +1,9 @@
-import TruthCore.Causality.NecessaryFirstAttributes
-import TruthCore.Results.Causality.NecessaryFirstBeing.Solution
+module
+
+public import TruthCore.Causality.NecessaryFirstAttributes
+public import TruthCore.Results.Causality.NecessaryFirstBeing.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.NecessaryFirstAttributes
 open TruthCore.Causality.BruteFoundationBoundary

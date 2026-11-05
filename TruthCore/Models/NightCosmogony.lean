@@ -1,5 +1,7 @@
-import TruthCore.Models.FiniteSupport
-import TruthCore.Alternatives.NightCosmogony
+module
+
+public import TruthCore.Models.FiniteSupport
+public import TruthCore.Alternatives.NightCosmogony
 
 /-! Named finite interpretations and closed certificates for the Night
 cosmogony elimination (#497). Beings are `Bool`, the one respect is `Unit`.
@@ -13,6 +15,9 @@ possibility.
   prior to it.
 * `Residual`: `false` is in potency, posterior to nothing, and nothing is moved:
   the bare rival survives the elimination core. -/
+
+@[expose] public section
+
 namespace TruthCore.Models.NightCosmogony
 open TruthCore.Models.FiniteSupport
 

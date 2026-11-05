@@ -1,5 +1,7 @@
-import TruthCore.Explanation.CondensationSufficiency
-import TruthCore.Explanation.JointCooperation
+module
+
+public import TruthCore.Explanation.CondensationSufficiency
+public import TruthCore.Explanation.JointCooperation
 
 /-! Analyst vocabulary for #741 over the #733 `Exercise` and the #734 `Supply`.
 A power profile `cap s e` says that the bearer of event `e` has the power for
@@ -10,6 +12,9 @@ regress of borrowed events is expressible and is witnessed below. `cap` is a
 supplied parameter, for one selected respect; nothing here decides which profile
 is the real one, and `Supply` stays a proposed standard, not a defended account of
 production. See docs/notes/borrowed-exercise-741.md. -/
+
+@[expose] public section
+
 namespace TruthCore.Explanation.BorrowedExercise
 open TruthCore.Causality.JointGroups
 open TruthCore.Causality.DerivativeJointPower

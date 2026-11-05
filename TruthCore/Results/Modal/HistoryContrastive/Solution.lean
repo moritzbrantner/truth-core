@@ -1,4 +1,8 @@
-import TruthCore.Modal.HistoryContrastive
+module
+
+public import TruthCore.Modal.HistoryContrastive
+
+@[expose] public section
 
 namespace TruthCore.Results.Modal.HistoryContrastive
 open TruthCore.Modal.HistoryContrastive

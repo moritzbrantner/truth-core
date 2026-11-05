@@ -1,6 +1,11 @@
-import TruthCore.Case.Catholicism.StageOneQuintaVia
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question103.Government
-import TruthCore.Logic.ExcludedMiddle
+module
+
+public import TruthCore.Case.Catholicism.StageOneQuintaVia
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question103.Government
+public import TruthCore.Logic.ExcludedMiddle
+
+@[expose] public section
+
 namespace TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaDirectorRegress
 open TruthCore.Logic
 open TruthCore.Latin.Aquinas.SummaTheologiae

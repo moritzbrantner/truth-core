@@ -1,4 +1,8 @@
-import TruthCore.Results.Causality.CountCauseTimeNecessity.Solution
+module
+
+public import TruthCore.Results.Causality.CountCauseTimeNecessity.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.CountCauseTimeNecessityProjection
 open TruthCore.Causality.CountCauseTimeNecessity

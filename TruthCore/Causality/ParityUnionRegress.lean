@@ -1,11 +1,16 @@
-import TruthCore.Causality.NecessarilyUnderived
-import Mathlib.Order.WellFounded
-import Lean.Elab.Tactic.Omega
+module
+
+public import TruthCore.Causality.NecessarilyUnderived
+public import Mathlib.Order.WellFounded
+public import Lean.Elab.Tactic.Omega
 
 /-! Source-free countermodel for #603/#542. Bool is a finite world carrier,
 Nat an infinite rigid being carrier. The union forgets world labels; its
 infinite predecessor sequence is not a causal chain inside any one world.
 No claim of metaphysical possibility or source attribution is made. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.ParityUnionRegress
 
 open TruthCore.German.Kant.CosmologicalInference

@@ -1,7 +1,11 @@
-import TruthCore.Causality.CompleteCauseContributorCover
-import TruthCore.Causality.SourceForest
-import TruthCore.Results.Causality.CompleteCauseContributorCover.Solution
-import TruthCore.Results.Causality.SourceForest.Solution
+module
+
+public import TruthCore.Causality.CompleteCauseContributorCover
+public import TruthCore.Causality.SourceForest
+public import TruthCore.Results.Causality.CompleteCauseContributorCover.Solution
+public import TruthCore.Results.Causality.SourceForest.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.CompleteCauseSourceUniqueness
 open TruthCore.Logic.Regress (Graph)

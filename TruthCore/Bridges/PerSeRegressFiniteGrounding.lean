@@ -1,5 +1,7 @@
-import TruthCore.Causality.EssentialPower
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3SecundaVia
+module
+
+public import TruthCore.Causality.EssentialPower
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3SecundaVia
 
 /-!
 Bridge vocabulary (#401, bridge batch 1): the secunda via's per se link
@@ -17,6 +19,8 @@ with "intrinsic" read as "has no upstream per se cause". The bridge does not
 identify Aquinas' per se link with any power-transmission semantics
 (`DISAMB-CAUSAL-POWER-GROUNDING`).
 -/
+
+@[expose] public section
 
 namespace TruthCore.Bridges
 

@@ -1,6 +1,11 @@
-import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaMaximumInBeing.Solution
-import TruthCore.Results.Case.Catholicism.QuartaViaClassicalWitness.FromMaximeEns
-import TruthCore.Results.Case.Catholicism.Skeleton.Solution
+module
+
+public import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaMaximumInBeing.Solution
+public import TruthCore.Results.Case.Catholicism.QuartaViaClassicalWitness.FromMaximeEns
+public import TruthCore.Results.Case.Catholicism.Skeleton.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Case.Catholicism.FromQuartaViaWithoutTruthBridge
 open TruthCore.Case.Catholicism
 open TruthCore.Latin.Aquinas.SummaTheologiae

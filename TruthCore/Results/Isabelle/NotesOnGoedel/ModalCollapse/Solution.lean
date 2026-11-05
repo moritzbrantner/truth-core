@@ -1,6 +1,11 @@
-import TruthCore.Isabelle.AFP.GoedelGod
-import TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1
-import TruthCore.Results.Isabelle.NotesOnGoedel.Inconsistency.Solution
+module
+
+public import TruthCore.Isabelle.AFP.GoedelGod
+public import TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1
+public import TruthCore.Results.Isabelle.NotesOnGoedel.Inconsistency.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Isabelle.NotesOnGoedel.ModalCollapse
 open TruthCore.Modal (Frame)
 open TruthCore.Isabelle.AFP.GoedelGod (Positivity ModalCollapse)

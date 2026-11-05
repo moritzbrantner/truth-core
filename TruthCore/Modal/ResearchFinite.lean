@@ -1,7 +1,13 @@
-import TruthCore.Modal.ResearchFixture
+module
+
+public import TruthCore.Modal.ResearchFixture
+meta import TruthCore.Modal.Kripke
 
 /-! Deterministic finite semantics. Lists enumerate all worlds, including sinks.
 Boolean evaluation is proved equal to the existing Prop semantics. -/
+
+@[expose] public section
+
 namespace TruthCore.Modal.ResearchFinite
 open TruthCore.Modal.ResearchFixture
 

@@ -1,4 +1,9 @@
-import TruthCore.Causality.ChainInstantiation
+module
+
+public import TruthCore.Causality.ChainInstantiation
+
+@[expose] public section
+
 namespace TruthCore.Results.Causality.ChainInstantiation
 open TruthCore.Causality.ChainInstantiation
 theorem controls : Controls := by

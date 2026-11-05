@@ -1,13 +1,18 @@
-import TruthCore.Models.FiniteSupport
-import TruthCore.Isabelle.AFP.GoedelGod
-import TruthCore.Results.Isabelle.GoedelGod.InvariantFilterMakesNecessaryExistenceUniversal.Solution
-import TruthCore.Results.Isabelle.GoedelGod.NecessaryExistenceWorldIsolation.Solution
-import TruthCore.Results.Isabelle.GoedelGod.BooleanFragmentClosed.Solution
-import TruthCore.Results.Isabelle.GoedelGod.BooleanFragmentStableBearerNE.Solution
+module
+
+public import TruthCore.Models.FiniteSupport
+public import TruthCore.Isabelle.AFP.GoedelGod
+public import TruthCore.Results.Isabelle.GoedelGod.InvariantFilterMakesNecessaryExistenceUniversal.Solution
+public import TruthCore.Results.Isabelle.GoedelGod.NecessaryExistenceWorldIsolation.Solution
+public import TruthCore.Results.Isabelle.GoedelGod.BooleanFragmentClosed.Solution
+public import TruthCore.Results.Isabelle.GoedelGod.BooleanFragmentStableBearerNE.Solution
 
 /-! Named finite interpretations and closed certificates for #414.
 Registration tests formal consequence only; it does not establish metaphysical possibility.
 Existing Challenges and proof obligations are unchanged. -/
+
+@[expose] public section
+
 namespace TruthCore.Models.Scott
 open TruthCore.Isabelle.AFP.GoedelGod
 namespace OneWorld

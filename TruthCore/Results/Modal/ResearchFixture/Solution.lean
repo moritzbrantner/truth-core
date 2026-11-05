@@ -1,4 +1,9 @@
-import TruthCore.Modal.ResearchFinite
+module
+
+public import TruthCore.Modal.ResearchFinite
+
+@[expose] public section
+
 namespace TruthCore.Results.Modal.ResearchFixture
 open TruthCore.Modal.ResearchFixture
 open TruthCore.Modal.ResearchFinite

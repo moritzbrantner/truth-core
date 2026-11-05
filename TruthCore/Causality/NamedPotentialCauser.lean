@@ -1,12 +1,17 @@
-import TruthCore.Modal.ExistenceDegrees
-import TruthCore.Models.NecessarilyUnderived
-import TruthCore.Models.PSR
-import TruthCore.Modal.NecessaryContingentActivity
+module
+
+public import TruthCore.Modal.ExistenceDegrees
+public import TruthCore.Models.NecessarilyUnderived
+public import TruthCore.Models.PSR
+public import TruthCore.Modal.NecessaryContingentActivity
 
 /-! Named refinement of the existing existential NecessarilyUnderived:
 the identity of the selected necessary potential causer is retained. The
 primitive R stays explicit. Results choosing R := m.Causes are restricted
 causal-support profiles, not identifications of causation with grounding. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.NamedPotentialCauser
 open TruthCore.German.Kant.CosmologicalInference
 open TruthCore.Causality.NecessarilyUnderived

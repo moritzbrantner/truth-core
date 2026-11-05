@@ -1,5 +1,10 @@
-import TruthCore.Modal.ChoiceContext
-import TruthCore.Results.Modal.SelectedEffectBridge.Solution
+module
+
+public import TruthCore.Modal.ChoiceContext
+public import TruthCore.Results.Modal.SelectedEffectBridge.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Modal.ChoiceContext
 open TruthCore.Modal.ChoiceContext
 

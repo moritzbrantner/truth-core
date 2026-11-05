@@ -1,6 +1,10 @@
-import TruthCore.Explanation.WeakAccountNecessaryBeing
-import TruthCore.Results.Explanation.FixedConstituentNecessaryBeing.Solution
-import TruthCore.Results.Explanation.ExplanatoryAdequacy.Solution
+module
+
+public import TruthCore.Explanation.WeakAccountNecessaryBeing
+public import TruthCore.Results.Explanation.FixedConstituentNecessaryBeing.Solution
+public import TruthCore.Results.Explanation.ExplanatoryAdequacy.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Explanation.WeakAccountNecessaryBeing
 open TruthCore.Explanation.PSRStrength

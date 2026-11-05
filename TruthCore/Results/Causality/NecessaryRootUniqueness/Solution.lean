@@ -1,5 +1,9 @@
-import TruthCore.Causality.NecessaryRootUniqueness
-import TruthCore.Results.Causality.WholeRosterFoundation.Solution
+module
+
+public import TruthCore.Causality.NecessaryRootUniqueness
+public import TruthCore.Results.Causality.WholeRosterFoundation.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.NecessaryRootUniqueness
 open TruthCore.Causality.BruteFoundationBoundary

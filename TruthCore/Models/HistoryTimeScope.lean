@@ -1,7 +1,12 @@
-import TruthCore.Modal.TemporalHistory
+module
+
+public import TruthCore.Modal.TemporalHistory
 
 /-! Formal quantifier controls on a shared timeline. These are analyst stipulations,
 not definitions of metaphysical necessity or sourced readings of eternity. -/
+
+@[expose] public section
+
 namespace TruthCore.Models.HistoryTimeScope
 open TruthCore.Modal.TemporalHistory
 

@@ -1,4 +1,8 @@
-import TruthCore.Causality.NecessarySimplePlurality
+module
+
+public import TruthCore.Causality.NecessarySimplePlurality
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.NecessarySimplePlurality
 open TruthCore.Causality.NecessarySimplePlurality

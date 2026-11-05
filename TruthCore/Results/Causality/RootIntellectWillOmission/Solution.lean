@@ -1,6 +1,10 @@
-import TruthCore.Causality.RootIntellectWillOmission
-import TruthCore.Results.Causality.NecessarySimplePlurality.Solution
-import TruthCore.Results.Causality.DirectEsseGenusOmissionControl.Solution
+module
+
+public import TruthCore.Causality.RootIntellectWillOmission
+public import TruthCore.Results.Causality.NecessarySimplePlurality.Solution
+public import TruthCore.Results.Causality.DirectEsseGenusOmissionControl.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.RootIntellectWillOmission
 open TruthCore.Causality.RootIntellectWillOmission

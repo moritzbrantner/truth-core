@@ -1,11 +1,16 @@
-import TruthCore.Causality.RootIntellectWill
-import TruthCore.Causality.DirectEsseGenusOmissionControl
+module
+
+public import TruthCore.Causality.RootIntellectWill
+public import TruthCore.Causality.DirectEsseGenusOmissionControl
 
 /-! Structural omission of ledger L on the unchanged ORIGINAL #681 model.
 Only previously unspecified intellect/will predicates are assigned false. All
 other fourteen interfaces are checked; in particular q14 is not simply dropped.
 Roots are noncomposite but components of the instrument. This is a formal rival,
 not metaphysical possibility, full explanation, or an attribution to Aquinas. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.RootIntellectWillOmission
 open TruthCore.Causality.NecessarySimplePlurality
 open TruthCore.Causality.NecessaryRootFork (ActualRoot)

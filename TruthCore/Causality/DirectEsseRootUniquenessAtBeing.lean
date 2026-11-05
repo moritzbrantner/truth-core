@@ -1,12 +1,17 @@
-import TruthCore.Causality.WholeRosterFoundation
-import TruthCore.Causality.DirectEsseRootRoute
-import TruthCore.Causality.NecessaryRootUniqueness
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaViaOrder
-import TruthCore.Models.QuartaViaMaximumControls
+module
+
+public import TruthCore.Causality.WholeRosterFoundation
+public import TruthCore.Causality.DirectEsseRootRoute
+public import TruthCore.Causality.NecessaryRootUniqueness
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaViaOrder
+public import TruthCore.Models.QuartaViaMaximumControls
 
 /-! Fixed-esse instances of existing causal/maximum interfaces. The new grades
 interface restricts a quantifier; it neither assumes uniqueness nor defends the
 existence of a real metaphysical maximum. No source reading is changed. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.DirectEsseRootUniquenessAtBeing
 open TruthCore.Latin.Aquinas.SummaTheologiae
 

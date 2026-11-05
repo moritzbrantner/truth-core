@@ -1,4 +1,9 @@
-import TruthCore.Case.Catholicism.StageThree.FoundingScope
+module
+
+public import TruthCore.Case.Catholicism.StageThree.FoundingScope
+
+@[expose] public section
+
 namespace TruthCore.Results.Case.Catholicism.StageThree.FoundingScopeStrength
 open TruthCore.Case.Catholicism
 open TruthCore.Case.Catholicism.StageThree.DivineFounding

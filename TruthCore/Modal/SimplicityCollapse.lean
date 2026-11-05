@@ -1,7 +1,9 @@
-import TruthCore.Modal.SelectedEffectBridge
-import TruthCore.Explanation.ExplanatorySymmetry
-import TruthCore.Case.Catholicism.StageTwo
-import TruthCore.Greek.Aristotle.MetaphysicsIX
+module
+
+public import TruthCore.Modal.SelectedEffectBridge
+public import TruthCore.Explanation.ExplanatorySymmetry
+public import TruthCore.Case.Catholicism.StageTwo
+public import TruthCore.Greek.Aristotle.MetaphysicsIX
 
 /-!
 # Rigid act, simplicity and contingent creation (#555)
@@ -19,6 +21,9 @@ only that a formal bundle is satisfiable. `BranchCosts` restates the trilemma fo
 reason in the #755 arena and records what each deletion costs by the #750 standards. Mathlib enters through the #742 import, so these
 results permit the Mathlib three. See `docs/notes/simplicity-collapse-555.md`.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Modal.SimplicityCollapse
 
 open TruthCore.German.Kant.CosmologicalInference

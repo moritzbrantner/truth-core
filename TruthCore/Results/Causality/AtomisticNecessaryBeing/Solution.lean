@@ -1,7 +1,11 @@
-import TruthCore.Causality.AtomisticCausalSource
-import TruthCore.Causality.WorldSourceRegress
-import TruthCore.Results.Causality.AtomisticCausalSource.Solution
-import TruthCore.Results.Causality.PossibleCausalSourceNecessity.Solution
+module
+
+public import TruthCore.Causality.AtomisticCausalSource
+public import TruthCore.Causality.WorldSourceRegress
+public import TruthCore.Results.Causality.AtomisticCausalSource.Solution
+public import TruthCore.Results.Causality.PossibleCausalSourceNecessity.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.AtomisticNecessaryBeing
 open TruthCore.Causality.AtomisticCausalSource

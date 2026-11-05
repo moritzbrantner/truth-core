@@ -1,4 +1,8 @@
-import TruthCore.Greek.NewTestament.John
+module
+
+public import TruthCore.Greek.NewTestament.John
+
+@[expose] public section
 
 namespace TruthCore.Greek.NewTestament.John.AbrahamSaying
 open TruthCore.History.Resurrection

@@ -1,12 +1,17 @@
-import TruthCore.Modal.HistoryContrastive
-import TruthCore.Causality.UniqueFeedback
-import TruthCore.Causality.EssentialPower
-import TruthCore.Causality.SourceWitness
+module
+
+public import TruthCore.Modal.HistoryContrastive
+public import TruthCore.Causality.UniqueFeedback
+public import TruthCore.Causality.EssentialPower
+public import TruthCore.Causality.SourceWitness
 
 /-! #736: informational selection, not a definition of metaphysical adequacy.
 An arbitrary reason-vector is allowed, including infinitely many local facts.
 `EvidenceOnly` tests extensional dependence on that ENTIRE vector; no finitary
 proof, causal origin, external source or well-foundedness is required. -/
+
+@[expose] public section
+
 namespace TruthCore.Explanation.HistorySelection
 open TruthCore.Modal.TemporalHistory TruthCore.Modal.HistoryContrastive
 

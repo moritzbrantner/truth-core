@@ -1,5 +1,9 @@
-import TruthCore.Causality.AtomisticCausalSource
-import TruthCore.Logic.ExcludedMiddle
+module
+
+public import TruthCore.Causality.AtomisticCausalSource
+public import TruthCore.Logic.ExcludedMiddle
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.AtomisticCausalSource
 open TruthCore.Logic.Regress (Graph)

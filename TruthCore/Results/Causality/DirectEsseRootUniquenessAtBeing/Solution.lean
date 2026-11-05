@@ -1,8 +1,12 @@
-import TruthCore.Results.Causality.DirectEsseRootUniqueness.Solution
-import TruthCore.Causality.DirectEsseRootUniquenessAtBeing
-import TruthCore.Causality.DirectEsseRootRoute
-import TruthCore.Causality.NecessaryRootUniqueness
-import TruthCore.Causality.WholeRosterFoundation
+module
+
+public import TruthCore.Results.Causality.DirectEsseRootUniqueness.Solution
+public import TruthCore.Causality.DirectEsseRootUniquenessAtBeing
+public import TruthCore.Causality.DirectEsseRootRoute
+public import TruthCore.Causality.NecessaryRootUniqueness
+public import TruthCore.Causality.WholeRosterFoundation
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.DirectEsseRootUniquenessAtBeing
 open TruthCore.Causality.BruteFoundationBoundary

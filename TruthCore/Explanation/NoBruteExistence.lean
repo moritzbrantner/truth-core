@@ -1,5 +1,7 @@
-import TruthCore.Explanation.ExistencePSR
-import TruthCore.Logic.ExcludedMiddle
+module
+
+public import TruthCore.Explanation.ExistencePSR
+public import TruthCore.Logic.ExcludedMiddle
 
 /-! Optional analyst commitments about actual positive individual existence
 facts at one selected world. All explanatory force is relative to Model.explains:
@@ -7,6 +9,9 @@ no adequate, concrete, noncircular, causal, or grounding explanation is added.
 In particular NoBruteExistenceAt does not exclude the grounding-brute roots of
 Causality.BruteFoundationRoutes. Negative facts and totality facts are outside
 this signature; existence of a world/candidate type does not imply population. -/
+
+@[expose] public section
+
 namespace TruthCore.Explanation.NoBruteExistence
 open TruthCore.Explanation.ExistencePSR
 variable {World Being : Type}

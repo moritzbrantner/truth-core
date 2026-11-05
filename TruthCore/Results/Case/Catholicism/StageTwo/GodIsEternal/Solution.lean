@@ -1,5 +1,10 @@
-import TruthCore.Results.Case.Catholicism.StageTwo.GodIsImmutable.Solution
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.InfinityEternity
+module
+
+public import TruthCore.Results.Case.Catholicism.StageTwo.GodIsImmutable.Solution
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.InfinityEternity
+
+@[expose] public section
+
 namespace TruthCore.Results.Case.Catholicism.StageTwo.GodIsEternal
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Case.Catholicism

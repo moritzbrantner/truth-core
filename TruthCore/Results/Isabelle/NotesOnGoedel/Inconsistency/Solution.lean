@@ -1,5 +1,10 @@
-import TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1
-import TruthCore.Results.Isabelle.NotesOnGoedel.EmptyPropertyIsEssence.Solution
+module
+
+public import TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1
+public import TruthCore.Results.Isabelle.NotesOnGoedel.EmptyPropertyIsEssence.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Isabelle.NotesOnGoedel.Inconsistency
 open TruthCore.Modal (Frame)
 open TruthCore.Isabelle.AFP.GoedelGod (Positivity)

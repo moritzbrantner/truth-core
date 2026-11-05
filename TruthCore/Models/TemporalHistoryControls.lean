@@ -1,13 +1,18 @@
-import Mathlib.Data.Int.Order.Basic
-import TruthCore.Modal.TemporalHistory
-import TruthCore.Causality.BruteFoundationBoundary
-import TruthCore.Models.PSR
+module
+
+public import Mathlib.Data.Int.Order.Basic
+public import TruthCore.Modal.TemporalHistory
+public import TruthCore.Causality.BruteFoundationBoundary
+public import TruthCore.Models.PSR
 
 /-! Two history extensions of existing ontologies, with explicit now-slice
 coherence. No existing existence, cause or ground assignment is changed.
 The first uses the old rival's child, not its ungrounded root. The second
 uses only the old PSR model's ontology; explanation labels do no work here.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Models.TemporalHistoryControls
 open TruthCore.Modal.TemporalHistory
 open TruthCore.German.Kant.CosmologicalInference

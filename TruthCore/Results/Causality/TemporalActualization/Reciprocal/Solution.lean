@@ -1,4 +1,9 @@
-import TruthCore.Results.Causality.TemporalActualization.Framework.Solution
+module
+
+public import TruthCore.Results.Causality.TemporalActualization.Framework.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Causality.TemporalActualization.Reciprocal
 open TruthCore.Causality.TemporalActualization
 /-- Apply the certified direction fork and the existing canonical respect-switch

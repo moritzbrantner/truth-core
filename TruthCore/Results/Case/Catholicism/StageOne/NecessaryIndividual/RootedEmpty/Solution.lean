@@ -1,4 +1,8 @@
-import TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.EmptyWorldFork
+module
+
+public import TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.EmptyWorldFork
+
+@[expose] public section
 
 namespace TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.RootedEmpty
 open TruthCore.Case.Catholicism.StageOne.NecessaryIndividual

@@ -1,8 +1,13 @@
-import TruthCore.Modal.Convergence
+module
+
+public import TruthCore.Modal.Convergence
 
 /-! Transparent delivery bundle of the existing exact-length modal
 correspondence helpers; this adds no new mathematical or philosophical claim
 beyond their conjunction. -/
+
+@[expose] public section
+
 namespace TruthCore.Modal
 universe u v
 

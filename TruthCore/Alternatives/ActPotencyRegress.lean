@@ -1,5 +1,7 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3SecundaVia
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question4.Article1
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3SecundaVia
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question4.Article1
 
 /-!
 Rivals of the act/potency and causal-regress premises on the root path (#387),
@@ -33,6 +35,8 @@ A rival is recorded as a statement in its own right (invariant 6), never as the
 bare negation of the premise it rivals, and each definition says how it clashes
 with that premise. Refutations are in separate result modules.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Alternatives.ActPotencyRegress
 

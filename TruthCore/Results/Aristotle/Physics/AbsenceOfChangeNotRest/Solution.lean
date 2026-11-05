@@ -1,4 +1,8 @@
-import TruthCore.Greek.Aristotle.Physics.BookV.Chapter6
+module
+
+public import TruthCore.Greek.Aristotle.Physics.BookV.Chapter6
+
+@[expose] public section
 
 namespace TruthCore.Results.Aristotle.Physics.AbsenceOfChangeNotRest
 

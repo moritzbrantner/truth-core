@@ -1,6 +1,11 @@
-import TruthCore.Causality.NecessaryClassicalGodRootControl
-import TruthCore.Results.Causality.RootPositiveIntellectWillControl.Solution
-import TruthCore.Results.Causality.NecessaryClassicalGodRoot.Solution
+module
+
+public import TruthCore.Causality.NecessaryClassicalGodRootControl
+public import TruthCore.Results.Causality.RootPositiveIntellectWillControl.Solution
+public import TruthCore.Results.Causality.NecessaryClassicalGodRoot.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Causality.NecessaryClassicalGodRootControl
 open TruthCore.Causality.NecessaryClassicalGodRootControl
 open TruthCore.Causality.RootPositiveIntellectWillControl

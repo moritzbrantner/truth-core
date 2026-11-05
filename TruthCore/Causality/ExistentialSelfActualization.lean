@@ -1,9 +1,14 @@
-import TruthCore.Alternatives.ActPotencyRegress
+module
+
+public import TruthCore.Alternatives.ActPotencyRegress
 
 /-! Named registration interfaces for the branch's existing mixed-token priority
 proof. These are OPEN analyst premises, not new source readings or an assertion
 that simple priority of beings extends to existence tokens and acts. No new
 priority relation or ontology is defined. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.ExistentialSelfActualization
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Alternatives.ActPotencyRegress

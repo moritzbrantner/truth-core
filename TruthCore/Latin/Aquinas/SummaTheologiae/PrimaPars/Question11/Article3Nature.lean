@@ -1,4 +1,6 @@
-import TruthCore.Case.Catholicism.StageTwo
+module
+
+public import TruthCore.Case.Catholicism.StageTwo
 
 /-!
 ST I q.11 a.3 co., first proof, with q.3 a.3 co. The `Principle` images
@@ -7,6 +9,9 @@ images is not equality between the Lean types Being and Principle. Their
 connection to individual identity is an explicit premise, not a definition.
 The domain is divine beings, not the divine persons of Trinitarian theology.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Latin.Aquinas.SummaTheologiae
 
 universe u v

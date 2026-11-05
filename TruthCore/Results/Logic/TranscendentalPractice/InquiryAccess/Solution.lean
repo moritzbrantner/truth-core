@@ -1,5 +1,9 @@
-import TruthCore.Logic.TranscendentalPractice
-import TruthCore.Results.Logic.CorrectionCriterion.Solution
+module
+
+public import TruthCore.Logic.TranscendentalPractice
+public import TruthCore.Results.Logic.CorrectionCriterion.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Logic.TranscendentalPractice.InquiryAccess
 

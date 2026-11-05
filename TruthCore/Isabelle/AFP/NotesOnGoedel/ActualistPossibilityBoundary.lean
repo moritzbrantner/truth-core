@@ -1,8 +1,13 @@
-import TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1
+module
+
+public import TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1
 
 /-! Source-free consequences of the already encoded 1970 definitions. This
 boundary concerns the actualist possibility antecedent, not ordinary theism,
 Scott's different essence definition, or inconsistency of the partial axioms. -/
+
+@[expose] public section
+
 namespace TruthCore.Isabelle.AFP.NotesOnGoedel.ActualistPossibilityBoundary
 open TruthCore.Modal (Frame)
 open TruthCore.Isabelle.AFP.GoedelGod (Positivity GodLike Dia)

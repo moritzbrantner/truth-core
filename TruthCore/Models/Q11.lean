@@ -1,8 +1,13 @@
-import TruthCore.Results.Case.Catholicism.Q11NatureUniqueness.Solution
+module
+
+public import TruthCore.Results.Case.Catholicism.Q11NatureUniqueness.Solution
 
 /-! Named finite interpretations and closed certificates for #414.
 Registration tests formal consequence only; it does not establish metaphysical possibility.
 Existing Challenges and proof obligations are unchanged. -/
+
+@[expose] public section
+
 namespace TruthCore.Models.Q11
 
 namespace WithoutIndividuation

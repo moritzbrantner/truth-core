@@ -1,6 +1,10 @@
-import TruthCore.Causality.ContingentAncestry
-import TruthCore.Models.ContingentAncestry
-import TruthCore.Results.Explanation.ExplanatoryAdequacy.Solution
+module
+
+public import TruthCore.Causality.ContingentAncestry
+public import TruthCore.Models.ContingentAncestry
+public import TruthCore.Results.Explanation.ExplanatoryAdequacy.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.ContingentAncestry
 open TruthCore.Causality.BruteFoundationBoundary

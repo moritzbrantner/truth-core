@@ -1,4 +1,8 @@
-import TruthCore.Alternatives.RespectSwitch
+module
+
+public import TruthCore.Alternatives.RespectSwitch
+
+@[expose] public section
 
 namespace TruthCore.Results.Alternatives.RespectSwitch
 open TruthCore.Latin.Aquinas.SummaTheologiae

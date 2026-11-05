@@ -1,5 +1,9 @@
-import TruthCore.Causality.NecessaryConcreteRouteBridge
-import TruthCore.Results.Causality.SelectedAncestry.Solution
+module
+
+public import TruthCore.Causality.NecessaryConcreteRouteBridge
+public import TruthCore.Results.Causality.SelectedAncestry.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.SelectedNecessaryRoute
 

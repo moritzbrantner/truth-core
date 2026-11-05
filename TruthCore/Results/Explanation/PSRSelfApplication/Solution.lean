@@ -1,5 +1,9 @@
-import TruthCore.Explanation.PSRSelfApplication
-import TruthCore.Results.Explanation.PSRStrength.Solution
+module
+
+public import TruthCore.Explanation.PSRSelfApplication
+public import TruthCore.Results.Explanation.PSRStrength.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Explanation.PSRSelfApplication
 open TruthCore.Explanation.PSRStrength

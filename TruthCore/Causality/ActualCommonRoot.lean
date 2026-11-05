@@ -1,7 +1,12 @@
-import TruthCore.Causality.NecessaryRootFork
+module
+
+public import TruthCore.Causality.NecessaryRootFork
 
 /-! Direct coverage of one selected world's actual concreta by a common root.
 No necessity, global well-foundedness or explanatory completeness is included. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.ActualCommonRoot
 open TruthCore.Causality.BruteFoundationBoundary (Profile)
 open TruthCore.Causality.CogitoNecessaryConcrete (ActualConcreteGround)

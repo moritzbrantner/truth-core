@@ -1,5 +1,10 @@
-import TruthCore.Comparison.Inertia
-import TruthCore.Models.Inertia
+module
+
+public import TruthCore.Comparison.Inertia
+public import TruthCore.Models.Inertia
+
+@[expose] public section
+
 namespace TruthCore.Results.Alternatives.InertialObjectionYieldsRival
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Alternatives.ActPotencyRegress

@@ -1,4 +1,8 @@
-import TruthCore.Causality.LocalTransmission
+module
+
+public import TruthCore.Causality.LocalTransmission
+
+@[expose] public section
 
 namespace TruthCore.Causality
 open TruthCore.Latin.Aquinas.SummaTheologiae

@@ -1,6 +1,10 @@
-import TruthCore.Causality.AtomisticCausalSource
-import TruthCore.Causality.SourceWitness
-import TruthCore.Results.Causality.SourceWitness.Solution
+module
+
+public import TruthCore.Causality.AtomisticCausalSource
+public import TruthCore.Causality.SourceWitness
+public import TruthCore.Results.Causality.SourceWitness.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.SourceFunctionalityWellFounded
 open TruthCore.Logic.Regress (Graph)

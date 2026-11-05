@@ -1,7 +1,9 @@
-import TruthCore.Explanation.PSRStrength
-import TruthCore.Causality.NecessarilyUnderived
-import TruthCore.Logic.CogitoConcrete
-import TruthCore.Logic.ExcludedMiddle
+module
+
+public import TruthCore.Explanation.PSRStrength
+public import TruthCore.Causality.NecessarilyUnderived
+public import TruthCore.Logic.CogitoConcrete
+public import TruthCore.Logic.ExcludedMiddle
 
 /-! Source-free empty-bearer branch only. Arena, world-relative existence,
 facts and fact truth retain their existing meanings. The extra CauseFact
@@ -11,6 +13,9 @@ Ontic.Causes. No fact is reified as an individual; no beginning is required.
 Application to a negative EVER-history situation remains OPEN: the fixed-fact
 meaning and history/existence correspondence are explicit commitments, not
 consequences of ordinary now-slice presence. -/
+
+@[expose] public section
+
 namespace TruthCore.Explanation.EmptyHistoryCausalAvailability
 open TruthCore.Explanation.PSRStrength (Arena Contingent)
 open TruthCore.German.Kant.CosmologicalInference (ContingentAt NecessaryAt)

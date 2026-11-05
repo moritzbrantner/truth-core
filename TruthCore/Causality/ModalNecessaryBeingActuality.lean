@@ -1,8 +1,13 @@
-import TruthCore.Causality.NecessaryConcreteRouteBridge
+module
+
+public import TruthCore.Causality.NecessaryConcreteRouteBridge
 
 /-! Configured instances have independent statement identities. These aliases
 retain exactly the old propositions at modalPossible/modalIsAt, without claiming
 the generic temporal schemas or introducing an ontology or new data. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.ModalNecessaryBeingActuality
 open TruthCore.Causality.BruteFoundationBoundary (Profile)
 open TruthCore.Causality.NecessaryConcreteRouteBridge (modalPossible modalIsAt)

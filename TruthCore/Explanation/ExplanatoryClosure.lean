@@ -1,6 +1,8 @@
-import TruthCore.Explanation.JointCooperation
-import TruthCore.Explanation.ExplanatoryAdequacy
-import TruthCore.Explanation.CondensationSufficiency
+module
+
+public import TruthCore.Explanation.JointCooperation
+public import TruthCore.Explanation.ExplanatoryAdequacy
+public import TruthCore.Explanation.CondensationSufficiency
 
 /-! Analyst semantics for #745, not a source-derived account of explanation.
 Reuses the #733 records, the #734 `Supply`, the #755 arena, the #750 `ReasonClosed`,
@@ -10,6 +12,9 @@ data: nothing here makes a record productive, and an analyst may list an idle ev
 as a member. No clause asserts that an account must be closed. Events carry the
 demand; the existence of their bearers is not treated. A causal power enters only as
 an event listed as a member of a record. See docs/notes/explanatory-closure-745.md. -/
+
+@[expose] public section
+
 namespace TruthCore.Explanation.ExplanatoryClosure
 open TruthCore.Causality.JointGroups TruthCore.Causality.DerivativeJointPower
 open TruthCore.Logic.Regress

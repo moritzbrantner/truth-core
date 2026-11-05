@@ -1,4 +1,9 @@
-import TruthCore.Modern.Russell.Existence
+module
+
+public import TruthCore.Modern.Russell.Existence
+
+@[expose] public section
+
 namespace TruthCore.Results.Modern.Russell.Grounding
 open TruthCore.Modern.Russell.Existence
 private theorem emptyAsymmetric : Asymmetric emptyGround := by

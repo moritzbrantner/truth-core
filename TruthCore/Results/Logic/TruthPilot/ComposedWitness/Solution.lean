@@ -1,7 +1,11 @@
-import TruthCore.Logic.TruthComposition
-import TruthCore.Results.Logic.TruthPilot.ConsequencePair.Solution
-import TruthCore.Results.Logic.TruthPilot.SomePropositionHolds.Solution
-import TruthCore.Results.Logic.TruthPilot.SomeImpliesNotAll.Solution
+module
+
+public import TruthCore.Logic.TruthComposition
+public import TruthCore.Results.Logic.TruthPilot.ConsequencePair.Solution
+public import TruthCore.Results.Logic.TruthPilot.SomePropositionHolds.Solution
+public import TruthCore.Results.Logic.TruthPilot.SomeImpliesNotAll.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Logic.TruthPilot.ComposedWitness
 open TruthCore.Logic.TruthComposition

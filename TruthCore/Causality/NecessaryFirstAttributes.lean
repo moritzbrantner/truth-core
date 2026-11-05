@@ -1,6 +1,10 @@
-import TruthCore.Causality.NecessaryFirstBeing
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article8
+module
+
+public import TruthCore.Causality.NecessaryFirstBeing
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article8
+
+@[expose] public section
 
 namespace TruthCore.Causality.NecessaryFirstAttributes
 open TruthCore.Causality.BruteFoundationBoundary

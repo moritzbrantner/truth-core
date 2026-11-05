@@ -1,6 +1,11 @@
-import TruthCore.Explanation.ExplanatoryClosure
-import TruthCore.Results.Explanation.CondensationSufficiency.Solution
-import TruthCore.Results.Explanation.JointCooperation.Solution
+module
+
+public import TruthCore.Explanation.ExplanatoryClosure
+public import TruthCore.Results.Explanation.CondensationSufficiency.Solution
+public import TruthCore.Results.Explanation.JointCooperation.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Explanation.ExplanatoryClosure
 open TruthCore.Explanation.ExplanatoryClosure
 open TruthCore.Causality.JointGroups TruthCore.Causality.DerivativeJointPower

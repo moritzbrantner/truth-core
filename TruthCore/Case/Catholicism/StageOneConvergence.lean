@@ -1,6 +1,8 @@
-import TruthCore.Case.Catholicism.StageOneQuartaVia
-import TruthCore.Case.Catholicism.StageOneQuintaVia
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3TertiaVia
+module
+
+public import TruthCore.Case.Catholicism.StageOneQuartaVia
+public import TruthCore.Case.Catholicism.StageOneQuintaVia
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3TertiaVia
 
 /-!
 Convergence of the Ways on the *quarta via*'s maximal being (*maxime ens*), the
@@ -16,6 +18,8 @@ are open premises. SCG I.15 [5], which identifies the first being necessary
 through itself with God "since He is the first cause", supports them without
 stating them.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Case.Catholicism
 

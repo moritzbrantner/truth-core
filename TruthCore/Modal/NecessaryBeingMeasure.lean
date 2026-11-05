@@ -1,5 +1,7 @@
-import TruthCore.Causality.NonlimitingConcreteExistence
-import Mathlib.MeasureTheory.Measure.Basic
+module
+
+public import TruthCore.Causality.NonlimitingConcreteExistence
+public import Mathlib.MeasureTheory.Measure.Basic
 
 /-!
 Analyst measure consumer over interpretations, not a causal-default theory or
@@ -8,6 +10,9 @@ selected standpoint. The events use the existing bare NecessaryBeing: present
 existence of an individual necessary relative to the supplied accessibility.
 No causal capability, concreteness, God identity or global witness is added.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Modal.NecessaryBeingMeasure
 open MeasureTheory
 open TruthCore.German.Kant.CosmologicalInference

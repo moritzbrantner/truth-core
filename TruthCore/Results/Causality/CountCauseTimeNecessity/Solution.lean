@@ -1,6 +1,10 @@
-import TruthCore.Causality.CountCauseTimeNecessity
-import TruthCore.Results.Causality.NecessaryBeingCountDescent.Solution
-import TruthCore.Results.Causality.CountTemporalControls.Solution
+module
+
+public import TruthCore.Causality.CountCauseTimeNecessity
+public import TruthCore.Results.Causality.NecessaryBeingCountDescent.Solution
+public import TruthCore.Results.Causality.CountTemporalControls.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.CountCauseTimeNecessity
 open TruthCore.Causality.CountCauseTimeNecessity

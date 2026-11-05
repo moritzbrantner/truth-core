@@ -1,9 +1,13 @@
-import TruthCore.Results.Causality.WholeRosterFromMaximumAsymmetry.Solution
-import TruthCore.Results.Causality.DirectEsseRootUniquenessAtBeing.Solution
-import TruthCore.Causality.DirectEsseRootUniquenessAtBeing
-import TruthCore.Causality.DirectEsseRootRoute
-import TruthCore.Causality.NecessaryRootUniqueness
-import TruthCore.Causality.WholeRosterFoundation
+module
+
+public import TruthCore.Results.Causality.WholeRosterFromMaximumAsymmetry.Solution
+public import TruthCore.Results.Causality.DirectEsseRootUniquenessAtBeing.Solution
+public import TruthCore.Causality.DirectEsseRootUniquenessAtBeing
+public import TruthCore.Causality.DirectEsseRootRoute
+public import TruthCore.Causality.NecessaryRootUniqueness
+public import TruthCore.Causality.WholeRosterFoundation
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.DirectEsseRootUniquenessFromAsymmetry
 open TruthCore.Causality.BruteFoundationBoundary

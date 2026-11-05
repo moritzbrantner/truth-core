@@ -1,6 +1,11 @@
-import TruthCore.Results.Aquinas.SummaTheologiae.AtMostOneMaximeEns.Solution
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article8
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question4.Article1
+module
+
+public import TruthCore.Results.Aquinas.SummaTheologiae.AtMostOneMaximeEns.Solution
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article8
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question4.Article1
+
+@[expose] public section
+
 namespace TruthCore.Results.Aquinas.SummaTheologiae.MaximeEnsIsGodViaFullDescriptionIdentity
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Greek.Aristotle.Metaphysics (CauseOfQualityInAnotherIsMoreSuchReading)

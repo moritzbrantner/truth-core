@@ -1,6 +1,11 @@
-import TruthCore.Results.Case.Catholicism.StageOneFromPrimaVia.Solution
-import TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMoverViaMaximeEns.Solution
-import TruthCore.Results.Aquinas.SummaTheologiae.MaximeEnsIsGod.Solution
+module
+
+public import TruthCore.Results.Case.Catholicism.StageOneFromPrimaVia.Solution
+public import TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMoverViaMaximeEns.Solution
+public import TruthCore.Results.Aquinas.SummaTheologiae.MaximeEnsIsGod.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Case.Catholicism.StageOneViaMaximeEns
 open TruthCore.Case.Catholicism
 open TruthCore.Latin.Aquinas.SummaTheologiae

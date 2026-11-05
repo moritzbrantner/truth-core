@@ -1,4 +1,6 @@
-import TruthCore.Explanation.HistorySelection
+module
+
+public import TruthCore.Explanation.HistorySelection
 
 /-! #753: the explanatory relocation test for temporal state paths.
 
@@ -9,6 +11,9 @@ introduced: `Causes` is empty in `pathHistory`, a `Constraint` is a mathematical
 condition on complete paths, and a "law" is a local condition on adjacent states.
 Whether any such condition governs anything is OPEN. See
 `docs/notes/explanatory-relocation-753.md`. -/
+
+@[expose] public section
+
 namespace TruthCore.Explanation.PathRelocation
 open TruthCore.Modal.TemporalHistory TruthCore.Modal.HistoryContrastive
 open TruthCore.Explanation.HistorySelection

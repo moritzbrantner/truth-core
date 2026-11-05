@@ -1,12 +1,15 @@
-import TruthCore.Causality.GreatestDegreeRootRoute
-import TruthCore.Causality.ActualCommonRoot
-import TruthCore.Causality.NecessaryConcreteRouteBridge
-import TruthCore.Causality.ExistenceActuality
-import TruthCore.Causality.WholeRosterFoundation
+module
 
-import TruthCore.Results.Causality.WholeRosterFoundation.Solution
-import TruthCore.Results.Causality.ActualCommonRoot.Solution
-import TruthCore.Results.Causality.ActualRootNecessityUpgrade.Solution
+public import TruthCore.Causality.GreatestDegreeRootRoute
+public import TruthCore.Causality.ActualCommonRoot
+public import TruthCore.Causality.NecessaryConcreteRouteBridge
+public import TruthCore.Causality.ExistenceActuality
+public import TruthCore.Causality.WholeRosterFoundation
+public import TruthCore.Results.Causality.WholeRosterFoundation.Solution
+public import TruthCore.Results.Causality.ActualCommonRoot.Solution
+public import TruthCore.Results.Causality.ActualRootNecessityUpgrade.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.GreatestDegreeRootRoute
 open TruthCore.Causality.BruteFoundationBoundary (Profile)

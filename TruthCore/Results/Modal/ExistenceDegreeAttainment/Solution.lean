@@ -1,4 +1,8 @@
-import TruthCore.Modal.ExistenceDegreeAttainment
+module
+
+public import TruthCore.Modal.ExistenceDegreeAttainment
+
+@[expose] public section
 
 namespace TruthCore.Results.Modal.ExistenceDegreeAttainment
 open TruthCore.German.Kant.CosmologicalInference

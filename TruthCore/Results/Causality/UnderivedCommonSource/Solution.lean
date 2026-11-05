@@ -1,6 +1,11 @@
-import TruthCore.Causality.UnderivedCommonSource
-import TruthCore.Results.Causality.SourceForest.Solution
-import TruthCore.Results.Causality.NecessarilyUnderived.PositiveUnion.Solution
+module
+
+public import TruthCore.Causality.UnderivedCommonSource
+public import TruthCore.Results.Causality.SourceForest.Solution
+public import TruthCore.Results.Causality.NecessarilyUnderived.PositiveUnion.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Causality.UnderivedCommonSource
 open TruthCore.German.Kant.CosmologicalInference
 open TruthCore.Causality.NecessarilyUnderived

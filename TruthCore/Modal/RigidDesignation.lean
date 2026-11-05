@@ -1,10 +1,15 @@
-import TruthCore.German.Kant.CosmologicalInference
-import TruthCore.Results.Modal.PossibilityTransfer.Solution
+module
+
+public import TruthCore.German.Kant.CosmologicalInference
+public import TruthCore.Results.Modal.PossibilityTransfer.Solution
 
 /-! Partial, relational designation: no name denotes merely because it occurs.
 This is an analyst's profile, not an attribution to Kripke. The modal carrier
 contains candidate descriptions; epistemic alternatives may vary reference.
 Numerical identity uses Lean equality, not counterpart correspondence. -/
+
+@[expose] public section
+
 namespace TruthCore.Modal.RigidDesignation
 open TruthCore.German.Kant.CosmologicalInference
 open TruthCore.Isabelle.AFP.GoedelGod (Box)

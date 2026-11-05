@@ -1,5 +1,9 @@
-import TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.Quantifiers
-import TruthCore.Logic.Configuration
+module
+
+public import TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.Quantifiers
+public import TruthCore.Logic.Configuration
+
+@[expose] public section
 
 namespace TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.ReContingencyIncompatible
 open TruthCore.Case.Catholicism.StageOne.NecessaryIndividual

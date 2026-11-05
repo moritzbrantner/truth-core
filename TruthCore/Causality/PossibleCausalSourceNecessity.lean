@@ -1,10 +1,15 @@
-import TruthCore.Causality.HeadlessCausalAncestry
-import TruthCore.Causality.NecessarilyUnderived
+module
+
+public import TruthCore.Causality.HeadlessCausalAncestry
+public import TruthCore.Causality.NecessarilyUnderived
 
 /-! Source-free same-individual modal composition. The possible opportunity
 concerns branching full ancestor cones of the existing actual causal graph.
 It is not attributed to the survey, and says nothing about concrete/capable
 candidate domains. No causation-grounding identification or new ontology. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.PossibleCausalSourceNecessity
 open TruthCore.German.Kant.CosmologicalInference
 open TruthCore.Causality.WorldSourceRegress

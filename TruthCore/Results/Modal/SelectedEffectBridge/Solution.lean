@@ -1,4 +1,9 @@
-import TruthCore.Modal.SelectedEffectBridge
+module
+
+public import TruthCore.Modal.SelectedEffectBridge
+
+@[expose] public section
+
 namespace TruthCore.Results.Modal.SelectedEffectBridge
 open TruthCore.German.Kant.CosmologicalInference
 open TruthCore.Modal.NecessaryContingentActivity

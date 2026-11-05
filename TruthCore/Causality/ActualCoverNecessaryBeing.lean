@@ -1,6 +1,8 @@
-import TruthCore.Causality.ActualFusionNecessaryBeing
-import TruthCore.Causality.NecessarilyUnderived
-import TruthCore.Explanation.WellFoundedSource
+module
+
+public import TruthCore.Causality.ActualFusionNecessaryBeing
+public import TruthCore.Causality.NecessarilyUnderived
+public import TruthCore.Explanation.WellFoundedSource
 
 /-!
 Analyst weakening of the selected-family fusion/nonoverlap route. Reuses the
@@ -9,6 +11,9 @@ Actual coverage does not assert a fusion or no-extra-parts property; a cause
 not being part of its effect does not assert absence of every common part.
 No source assertion, metaphysical application or default warrant is established.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.ActualCoverNecessaryBeing
 open TruthCore.German.Kant.CosmologicalInference
 open TruthCore.Causality.ActualFusionNecessaryBeing

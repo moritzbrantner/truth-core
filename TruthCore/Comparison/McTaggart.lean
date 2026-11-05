@@ -1,4 +1,6 @@
-import TruthCore.Alternatives.McTaggart
+module
+
+public import TruthCore.Alternatives.McTaggart
 
 /-!
 McTaggart's position on change as a theory bundle (#497), not his whole
@@ -13,6 +15,8 @@ C series, the direction of time and McTaggart's later answer to the retorsion
 `TruthCore.Alternatives.McTaggart.AppearingsDoNotChangeReading`) are not part
 of this bundle.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Comparison.McTaggart
 

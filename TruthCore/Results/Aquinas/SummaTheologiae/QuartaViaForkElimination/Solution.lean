@@ -1,6 +1,10 @@
-import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaDegreeFork.Solution
-import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaUnboundedCore.Solution
-import TruthCore.Models.QuartaViaDegreeFork
+module
+
+public import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaDegreeFork.Solution
+public import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaUnboundedCore.Solution
+public import TruthCore.Models.QuartaViaDegreeFork
+
+@[expose] public section
 
 namespace TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaForkElimination
 open TruthCore.Latin.Aquinas.SummaTheologiae

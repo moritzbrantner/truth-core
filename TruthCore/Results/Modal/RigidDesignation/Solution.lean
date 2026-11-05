@@ -1,4 +1,9 @@
-import TruthCore.Modal.RigidDesignation
+module
+
+public import TruthCore.Modal.RigidDesignation
+
+@[expose] public section
+
 namespace TruthCore.Results.Modal.RigidDesignation
 open TruthCore.Modal.RigidDesignation
 open TruthCore.Modal.PossibilityTransfer (IncludedAt)

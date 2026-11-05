@@ -1,4 +1,8 @@
-import TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.Quantifiers
+module
+
+public import TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.Quantifiers
+
+@[expose] public section
 
 namespace TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.Alternating
 open TruthCore.Case.Catholicism.StageOne.NecessaryIndividual

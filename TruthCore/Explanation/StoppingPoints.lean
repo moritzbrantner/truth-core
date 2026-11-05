@@ -1,4 +1,6 @@
-import TruthCore.Explanation.PSRSelfApplication
+module
+
+public import TruthCore.Explanation.PSRSelfApplication
 
 /-!
 # Applying one standard to every explanatory stopping point (#746)
@@ -15,6 +17,9 @@ parameter of #755. The arena has no predicate for personal agency, so these test
 cannot separate a necessary personal ground from a necessary impersonal one.
 See `docs/notes/stopping-points-746.md` for the interpretation and the limits.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Explanation.StoppingPoints
 
 open TruthCore.Explanation.PSRStrength

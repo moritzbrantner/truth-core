@@ -1,9 +1,14 @@
-import TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.CausalPowers.Solution
-import TruthCore.Modal.NecessaryVariableEffects
+module
+
+public import TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.CausalPowers.Solution
+public import TruthCore.Modal.NecessaryVariableEffects
 
 /-! #463: task-local comparisons, not a source attribution or an analysis of
 intrinsic powers. Reuses #456's exact response table and certified contract.
 World labels are alternatives, not times. See docs/bearer-capacity-exercise.md. -/
+
+@[expose] public section
+
 namespace TruthCore.Modal.BearerExercise
 open TruthCore.German.Kant.CosmologicalInference
 open TruthCore.Modal.NecessaryContingentActivity

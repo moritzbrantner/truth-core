@@ -1,5 +1,9 @@
-import TruthCore.Modal.DResearch.Witnesses
-import TruthCore.Modal.DResearch.Language
+module
+
+public import TruthCore.Modal.DResearch.Witnesses
+public import TruthCore.Modal.DResearch.Language
+
+@[expose] public section
 
 namespace TruthCore.Modal.DResearch
 open TruthCore.Modal.ResearchFixture

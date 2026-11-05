@@ -1,4 +1,6 @@
-import TruthCore.Modal.ResearchFinite
+module
+
+public import TruthCore.Modal.ResearchFinite
 
 /-!
 Issue #273: logical existence, described objects, and explanatory independence.
@@ -12,6 +14,9 @@ have participation/moral relata. These instantiation facts are not those facts;
 reusing their tag types would falsely identify the meanings. Modal frames and
 truth reuse the shared #261 semantics without change.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Modern.Russell.Existence
 
 universe u

@@ -1,4 +1,6 @@
-import TruthCore.Causality.BruteFoundationBoundary
+module
+
+public import TruthCore.Causality.BruteFoundationBoundary
 
 /-!
 # A disjoint-world lifting theorem for contingent first foundations
@@ -21,6 +23,8 @@ World-local constraints cannot by themselves determine which individual
 exists across worlds. A substantive cross-world or anti-brute-foundation
 principle is needed. This does not refute such a principle.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Causality.BruteFoundationDoubling
 

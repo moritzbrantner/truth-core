@@ -1,7 +1,11 @@
-import TruthCore.Explanation.HistorySelection
-import TruthCore.Results.Causality.UniqueFeedback.Solution
-import TruthCore.Results.Causality.EssentialPowerUnderdetermined.Solution
-import TruthCore.Results.Causality.SourceWitness.Solution
+module
+
+public import TruthCore.Explanation.HistorySelection
+public import TruthCore.Results.Causality.UniqueFeedback.Solution
+public import TruthCore.Results.Causality.EssentialPowerUnderdetermined.Solution
+public import TruthCore.Results.Causality.SourceWitness.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Explanation.HistorySelection
 open TruthCore.Explanation.HistorySelection

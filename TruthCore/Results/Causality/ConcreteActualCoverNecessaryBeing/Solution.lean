@@ -1,6 +1,10 @@
-import TruthCore.Causality.NecessaryConcreteUnderived
-import TruthCore.Causality.ActualCoverNecessaryBeing
-import TruthCore.Results.Causality.ActualCoverNecessaryBeing.Solution
+module
+
+public import TruthCore.Causality.NecessaryConcreteUnderived
+public import TruthCore.Causality.ActualCoverNecessaryBeing
+public import TruthCore.Results.Causality.ActualCoverNecessaryBeing.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.ConcreteActualCoverNecessaryBeing
 open TruthCore.Causality.BruteFoundationBoundary (Profile NecessaryConcreteAt)

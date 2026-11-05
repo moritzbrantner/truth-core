@@ -1,10 +1,15 @@
-import TruthCore.Causality.DirectEsseRootPerfectionGoodness
-import TruthCore.Causality.RootIntellectWill
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7Cause
+module
+
+public import TruthCore.Causality.DirectEsseRootPerfectionGoodness
+public import TruthCore.Causality.RootIntellectWill
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7Cause
 
 /-! Same selected root, positive and structural attributes. This packages
 conditional consequences without a God name, all-necessary-individual uniqueness,
 moral perfection, cognitive adequacy or a full-nine-attribute claim. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.RootPositiveIntellectWill
 open TruthCore.Causality.BruteFoundationBoundary
 open TruthCore.Causality.DirectEsseRootPerfectionGoodness

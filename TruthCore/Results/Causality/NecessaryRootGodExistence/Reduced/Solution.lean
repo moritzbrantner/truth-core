@@ -1,7 +1,11 @@
-import TruthCore.Results.Causality.NecessaryFirstBeing.Solution
-import TruthCore.Results.Causality.NecessaryRootGodExistence.Solution
-import TruthCore.Causality.NecessaryRootUniqueness
-import TruthCore.Case.Catholicism.CausalPerfectionTransfer
+module
+
+public import TruthCore.Results.Causality.NecessaryFirstBeing.Solution
+public import TruthCore.Results.Causality.NecessaryRootGodExistence.Solution
+public import TruthCore.Causality.NecessaryRootUniqueness
+public import TruthCore.Case.Catholicism.CausalPerfectionTransfer
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.NecessaryRootGodExistence.Reduced
 

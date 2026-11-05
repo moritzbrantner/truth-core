@@ -1,5 +1,10 @@
-import TruthCore.Causality.RootIntellectWillPureActPlurality
-import TruthCore.Results.Causality.PartFreePlurality.Solution
+module
+
+public import TruthCore.Causality.RootIntellectWillPureActPlurality
+public import TruthCore.Results.Causality.PartFreePlurality.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Causality.RootIntellectWillPureActPlurality
 open TruthCore.Causality.RootIntellectWillPureActPlurality
 open TruthCore.Causality.PartFreePlurality

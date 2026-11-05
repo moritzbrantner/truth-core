@@ -1,4 +1,9 @@
-import TruthCore.Results.Comparison.MoralLanguage.NaiveEmotivismInvalidatesGeachMP.Solution
+module
+
+public import TruthCore.Results.Comparison.MoralLanguage.NaiveEmotivismInvalidatesGeachMP.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Comparison.MoralLanguage.FregeGeachRefutesNaiveEmotivism
 open TruthCore.English.VanRoojen
 open TruthCore.Refutations.Emotivism

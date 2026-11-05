@@ -1,4 +1,8 @@
-import TruthCore.Causality.BruteFoundationDoubling
+module
+
+public import TruthCore.Causality.BruteFoundationDoubling
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.WorldLocalGroundingDoubling
 

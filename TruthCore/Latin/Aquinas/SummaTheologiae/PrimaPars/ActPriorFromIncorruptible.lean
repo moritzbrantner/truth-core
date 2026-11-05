@@ -1,5 +1,7 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.ActPriorFromMotion
-import TruthCore.Latin.Aquinas.InMetaphysicam.BookIX
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.ActPriorFromMotion
+public import TruthCore.Latin.Aquinas.InMetaphysicam.BookIX
 
 /-!
 Does the priority in substance of *Metaphysics* Θ.8, 1050b6-19, as Aquinas
@@ -23,6 +25,8 @@ potency *in substance* (`ActPriorInSubstanceReading`), and not over potency in
 a respect other than substance, which Aquinas expressly allows an
 incorruptible being (lect. 9 n. 6).
 -/
+
+@[expose] public section
 
 namespace TruthCore.Latin.Aquinas.SummaTheologiae
 

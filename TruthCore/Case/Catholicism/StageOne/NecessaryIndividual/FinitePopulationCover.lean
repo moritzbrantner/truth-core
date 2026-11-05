@@ -1,9 +1,14 @@
-import TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.PopulationClosure
-import TruthCore.Logic.ExcludedMiddle
+module
+
+public import TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.PopulationClosure
+public import TruthCore.Logic.ExcludedMiddle
 
 /-! Conditional finite-population bridge (#533). Stipulated semantics only.
 The ambient rigid roster can be infinite. Cover and amalgamation remain open
 metaphysical commitments; these consequences do not establish either policy. -/
+
+@[expose] public section
+
 namespace TruthCore.Case.Catholicism.StageOne.NecessaryIndividual
 open TruthCore.Modal
 open TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1 (ExistsAt)

@@ -84,6 +84,11 @@ class GraphTest(unittest.TestCase):
         self.assertNotIn("TruthCore.Imports.All", selected + list(blocked))
         self.assertNotIn("TruthCore.M", selected + list(blocked))
 
+    def test_candidates_list_every_ordinary_library_file(self):
+        graph = conv.Graph(self.root)
+        self.assertEqual(graph.candidates(None), ["TruthCore.A", "TruthCore.T", "TruthCore.B",
+                                                  "TruthCore.U", "TruthCore.R.Solution"])
+
     def test_select_excludes_files_whose_imports_stay_ordinary(self):
         graph = conv.Graph(self.root)
         self.assertEqual(graph.blocker("TruthCore.B", set()), "imports non-module TruthCore.A")

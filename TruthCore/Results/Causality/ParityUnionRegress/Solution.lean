@@ -1,4 +1,9 @@
-import TruthCore.Causality.ParityUnionRegress
+module
+
+public import TruthCore.Causality.ParityUnionRegress
+
+@[expose] public section
+
 namespace TruthCore.Results.Causality.ParityUnionRegress
 open TruthCore.Causality.ParityUnionRegress
 open TruthCore.Causality.NecessarilyUnderived

@@ -1,4 +1,6 @@
-import TruthCore.Case.Catholicism.StageThree.FoundingScope
+module
+
+public import TruthCore.Case.Catholicism.StageThree.FoundingScope
 
 /-!
 # The reported commissions and the 'institution or message' fork (#357)
@@ -48,6 +50,8 @@ Catholic Church as a visible society with authority, the rival must deny that
 satisfiable with every stage antecedent. These are schema models, not
 possible worlds of Christian history.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Case.Catholicism.StageThree.Commissions
 open TruthCore.Case.Catholicism

@@ -1,4 +1,9 @@
-import TruthCore.Results.Modal.S4.Laws.Solution
+module
+
+public import TruthCore.Results.Modal.S4.Laws.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Modal.S4.Countermodels
 open TruthCore.Modal
 open TruthCore.Modal.ResearchFixture

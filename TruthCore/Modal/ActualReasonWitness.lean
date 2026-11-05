@@ -1,9 +1,14 @@
-import TruthCore.Modal.WorldwiseExplanation
+module
+
+public import TruthCore.Modal.WorldwiseExplanation
 
 /-! #465, a fixed roster of rigid reason tokens with varying actual membership.
 The extra domain predicate concerns tokens, not their external causal bearers.
 No attribution to a historical author or metaphysical sufficiency is claimed.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Modal.ActualReasonWitness
 open TruthCore.Explanation.ExistencePSR
 open TruthCore.Modal.WorldwiseExplanation

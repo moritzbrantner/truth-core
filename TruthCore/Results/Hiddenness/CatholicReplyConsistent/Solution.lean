@@ -1,5 +1,9 @@
-import TruthCore.Comparison.Hiddenness
-import TruthCore.Hiddenness.Models
+module
+
+public import TruthCore.Comparison.Hiddenness
+public import TruthCore.Hiddenness.Models
+
+@[expose] public section
 
 namespace TruthCore.Results.Hiddenness.CatholicReplyConsistent
 open TruthCore.Hiddenness TruthCore.Comparison.Hiddenness

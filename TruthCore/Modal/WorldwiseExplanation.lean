@@ -1,4 +1,6 @@
-import TruthCore.Models.PSR
+module
+
+public import TruthCore.Models.PSR
 
 /-!
 Issue #465: an explanation at every world need not be the *same* explanation
@@ -9,6 +11,9 @@ The examples concern stipulated explanatory assignments. `Sound` guarantees
 only that the explanandum exists at the relevant world; it does not validate
 an explanation as genuinely sufficient in metaphysical reality.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Modal.WorldwiseExplanation
 
 open TruthCore.Explanation.ExistencePSR

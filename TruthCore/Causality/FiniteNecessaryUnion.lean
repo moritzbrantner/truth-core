@@ -1,7 +1,9 @@
-import TruthCore.Causality.NecessarilyUnderived
-import TruthCore.Models.NecessarilyUnderived
-import Mathlib.Data.Fintype.Card
-import Mathlib.Data.Fintype.EquivFin
+module
+
+public import TruthCore.Causality.NecessarilyUnderived
+public import TruthCore.Models.NecessarilyUnderived
+public import Mathlib.Data.Fintype.Card
+public import Mathlib.Data.Fintype.EquivFin
 
 /-!
 # Finite necessary-support unions
@@ -11,6 +13,9 @@ existence-support interpretation; none of these backgrounds is established.
 A cycle means a nonempty `Relation.TransGen` loop, never reflexive reachability.
 Sources and cycles may coexist in different parts of the same union.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.FiniteNecessaryUnion
 
 open TruthCore.Causality.NecessarilyUnderived

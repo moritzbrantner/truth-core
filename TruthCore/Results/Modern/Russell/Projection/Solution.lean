@@ -1,4 +1,9 @@
-import TruthCore.Modern.Russell.Existence
+module
+
+public import TruthCore.Modern.Russell.Existence
+
+@[expose] public section
+
 namespace TruthCore.Results.Modern.Russell.Projection
 open TruthCore.Modern.Russell.Existence
 theorem checks (F : Extension) (g : Grounding)

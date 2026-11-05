@@ -1,4 +1,9 @@
-import TruthCore.Results.Comparison.NaturalisticRealism.Model
+module
+
+public import TruthCore.Results.Comparison.NaturalisticRealism.Model
+
+@[expose] public section
+
 namespace TruthCore.Results.Comparison.NaturalisticRealism.UnrecognizedIdentityPossible
 open TruthCore.Metaethics.NaturalisticRealism
 open TruthCore.Comparison.NaturalisticRealism

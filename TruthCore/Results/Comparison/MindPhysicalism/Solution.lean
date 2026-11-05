@@ -1,11 +1,15 @@
-import TruthCore.Alternatives.MindPhysicalism
-import TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectSubsistence.Solution
+module
+
+public import TruthCore.Alternatives.MindPhysicalism
+public import TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectSubsistence.Solution
 
 /-!
 Solutions for the fork and core of `TruthCore.Alternatives.MindPhysicalism`.
 All controls are finite formal interpretations. See
 `docs/notes/mind-physicalism-fork-419.md`.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Results.Comparison.MindPhysicalism
 

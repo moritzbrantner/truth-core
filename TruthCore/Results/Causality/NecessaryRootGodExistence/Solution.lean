@@ -1,6 +1,10 @@
-import TruthCore.Results.Causality.NecessaryFirstBeing.Solution
-import TruthCore.Results.Aquinas.SummaTheologiae.QuartaVia.Solution
-import TruthCore.Case.Catholicism.CausalPerfectionTransfer
+module
+
+public import TruthCore.Results.Causality.NecessaryFirstBeing.Solution
+public import TruthCore.Results.Aquinas.SummaTheologiae.QuartaVia.Solution
+public import TruthCore.Case.Catholicism.CausalPerfectionTransfer
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.NecessaryRootGodExistence
 

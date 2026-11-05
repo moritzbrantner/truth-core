@@ -1,4 +1,9 @@
-import TruthCore.Explanation.TargetCopyExpansion
+module
+
+public import TruthCore.Explanation.TargetCopyExpansion
+
+@[expose] public section
+
 namespace TruthCore.Results.Explanation.TargetCopyExpansion
 open TruthCore.Explanation.TargetCopyExpansion
 open TruthCore.Causality.BruteFoundationBoundary

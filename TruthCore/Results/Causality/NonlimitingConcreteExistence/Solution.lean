@@ -1,5 +1,9 @@
-import TruthCore.Causality.NonlimitingConcreteExistence
-import TruthCore.Results.Modal.LimitationSeparation.Solution
+module
+
+public import TruthCore.Causality.NonlimitingConcreteExistence
+public import TruthCore.Results.Modal.LimitationSeparation.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.NonlimitingConcreteExistence
 open TruthCore.Causality.NonlimitingConcreteExistence

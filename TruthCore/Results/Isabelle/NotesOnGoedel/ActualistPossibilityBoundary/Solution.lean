@@ -1,5 +1,9 @@
-import TruthCore.Results.Isabelle.NotesOnGoedel.EmptyPropertyIsEssence.Solution
-import TruthCore.Isabelle.AFP.NotesOnGoedel.ActualistPossibilityBoundary
+module
+
+public import TruthCore.Results.Isabelle.NotesOnGoedel.EmptyPropertyIsEssence.Solution
+public import TruthCore.Isabelle.AFP.NotesOnGoedel.ActualistPossibilityBoundary
+
+@[expose] public section
 
 namespace TruthCore.Results.Isabelle.NotesOnGoedel.ActualistPossibilityBoundary
 open TruthCore.Modal (Frame Symmetric)

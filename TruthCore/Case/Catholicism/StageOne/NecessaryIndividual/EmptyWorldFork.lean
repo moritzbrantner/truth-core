@@ -1,4 +1,6 @@
-import TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.Quantifiers
+module
+
+public import TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.Quantifiers
 
 /-!
 Unattributed mathematical controls for the shared-root / empty-extension fork.
@@ -7,6 +9,9 @@ Presence is distinct from causal explanation, and an empty presence extension
 at a world is not the empty Lean type of worlds. Neither finite interpretation
 is asserted to describe a metaphysically possible or actual universe.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Case.Catholicism.StageOne.NecessaryIndividual
 
 open TruthCore.Modal

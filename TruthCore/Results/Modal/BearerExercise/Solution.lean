@@ -1,4 +1,9 @@
-import TruthCore.Modal.BearerExercise
+module
+
+public import TruthCore.Modal.BearerExercise
+
+@[expose] public section
+
 namespace TruthCore.Results.Modal.BearerExercise
 open TruthCore.Modal.BearerExercise
 open TruthCore.Modal.NecessaryVariableEffects

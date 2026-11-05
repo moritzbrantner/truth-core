@@ -1,5 +1,7 @@
-import TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaEachDirected.Solution
-import TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaActsForAnEnd.Solution
+module
+
+public import TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaEachDirected.Solution
+public import TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaActsForAnEnd.Solution
 
 /-!
 Mechanism/scope tests for #251. These are deliberately finite countermodels,
@@ -11,6 +13,9 @@ Reuse the Fifth Way's Being/End predicates and #179's finite models. Biological
 selected function is a historical reproductive effect; `TendsTo` retains the
 broader ordering-to-an-end sense of Aquinas, not conscious intention.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Teleonomy
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaModels

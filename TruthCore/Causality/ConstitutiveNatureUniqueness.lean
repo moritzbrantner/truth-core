@@ -1,9 +1,14 @@
-import TruthCore.Causality.PartFreePlurality
+module
+
+public import TruthCore.Causality.PartFreePlurality
 
 /-! #697: a proposed constitutive-content route to the existing Q11 theorem.
 These are openly stipulated interfaces, not historical claims, a second ontology,
 or a definition of God. Equality of represented natures remains distinct from
 numerical identity of beings and from equality of labels or eminent perfections. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.ConstitutiveNatureUniqueness
 open TruthCore.Case.Catholicism
 open TruthCore.Latin.Aquinas.SummaTheologiae

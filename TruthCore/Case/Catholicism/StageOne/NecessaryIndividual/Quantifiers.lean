@@ -1,6 +1,8 @@
-import TruthCore.Modal.ResearchFixture
-import TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3TertiaVia
+module
+
+public import TruthCore.Modal.ResearchFixture
+public import TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3TertiaVia
 
 /-!
 Stipulated quantifier diagnostics for #435, not attributed source readings.
@@ -11,6 +13,9 @@ metaphysical possibility. The actual world is an explicit argument.
 Concreteness is an independent, theory-relative predicate: no causal,
 spatiotemporal or independence criterion is assumed or defended here.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Case.Catholicism.StageOne.NecessaryIndividual
 
 open TruthCore.Modal

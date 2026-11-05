@@ -1,9 +1,14 @@
-import TruthCore.Causality.DerivativeJointPower
-import TruthCore.Results.Causality.JointGroups.Solution
-import TruthCore.Results.Causality.TemporalActualization.Controls.Solution
-import TruthCore.Results.Causality.EssentialPowerUnderdetermined.Solution
-import TruthCore.Results.Causality.FiniteGroundingLimitNotClosed.Solution
-import TruthCore.Results.Causality.LocalObservationSelectsSolution.Solution
+module
+
+public import TruthCore.Causality.DerivativeJointPower
+public import TruthCore.Results.Causality.JointGroups.Solution
+public import TruthCore.Results.Causality.TemporalActualization.Controls.Solution
+public import TruthCore.Results.Causality.EssentialPowerUnderdetermined.Solution
+public import TruthCore.Results.Causality.FiniteGroundingLimitNotClosed.Solution
+public import TruthCore.Results.Causality.LocalObservationSelectsSolution.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Causality.DerivativeJointPower
 open TruthCore.Causality TruthCore.Logic.Regress
 open TruthCore.Causality.JointGroups TruthCore.Causality.WorldSourceRegress

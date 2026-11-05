@@ -1,5 +1,10 @@
-import TruthCore.Results.Case.Catholicism.StagesOneTwoQ11.Solution
-import TruthCore.Results.Case.Catholicism.Skeleton.Solution
+module
+
+public import TruthCore.Results.Case.Catholicism.StagesOneTwoQ11.Solution
+public import TruthCore.Results.Case.Catholicism.Skeleton.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Case.Catholicism.FromPrimaViaWithQ11Uniqueness
 open TruthCore.Case.Catholicism
 open TruthCore.Latin.Aquinas.SummaTheologiae

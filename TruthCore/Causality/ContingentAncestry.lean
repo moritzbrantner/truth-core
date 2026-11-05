@@ -1,9 +1,14 @@
-import TruthCore.Causality.SelectedAncestry
-import TruthCore.Explanation.ExplanatoryAdequacy
+module
+
+public import TruthCore.Causality.SelectedAncestry
+public import TruthCore.Explanation.ExplanatoryAdequacy
 
 /-! Reuse the established contingent-reason descent on the positive-existence
 fragment of one actual concrete grounding cone. No arbitrary fact is identified
 with a bearer: ExistenceFact.fact is the existing explicit constructor. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.ContingentAncestry
 open TruthCore.Causality.BruteFoundationBoundary
 open TruthCore.Causality.NecessaryRootFork

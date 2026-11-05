@@ -1,5 +1,10 @@
-import TruthCore.Causality.DirectEsseRootUniquenessAtBeing
-import TruthCore.Results.Causality.DirectEsseRootUniquenessAtBeing.Solution
+module
+
+public import TruthCore.Causality.DirectEsseRootUniquenessAtBeing
+public import TruthCore.Results.Causality.DirectEsseRootUniquenessAtBeing.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Causality.DirectEsseRootUniquenessScopeControls
 open TruthCore.Causality.DirectEsseRootUniquenessAtBeing
 open TruthCore.Causality.DirectEsseRootUniquenessAtBeing.Controls

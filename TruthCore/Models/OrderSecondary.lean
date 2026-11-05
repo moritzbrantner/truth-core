@@ -1,10 +1,15 @@
-import Mathlib.Order.Fin.Basic
-import TruthCore.Models.FiniteSupport
-import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaAttributionCauseMoreSuch.Solution
+module
+
+public import Mathlib.Order.Fin.Basic
+public import TruthCore.Models.FiniteSupport
+public import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaAttributionCauseMoreSuch.Solution
 
 /-! Named finite interpretations and closed certificates for #414.
 Registration tests formal consequence only; it does not establish metaphysical possibility.
 Existing Challenges and proof obligations are unchanged. -/
+
+@[expose] public section
+
 namespace TruthCore.Models.OrderSecondary
 open TruthCore.Latin.Aquinas.SummaTheologiae
 abbrev B := TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaAttributionCauseMoreSuch.B

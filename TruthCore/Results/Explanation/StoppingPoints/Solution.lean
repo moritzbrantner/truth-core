@@ -1,5 +1,9 @@
-import TruthCore.Explanation.StoppingPoints
-import TruthCore.Results.Explanation.PSRStrength.Solution
+module
+
+public import TruthCore.Explanation.StoppingPoints
+public import TruthCore.Results.Explanation.PSRStrength.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Explanation.StoppingPoints
 open TruthCore.Explanation.PSRStrength

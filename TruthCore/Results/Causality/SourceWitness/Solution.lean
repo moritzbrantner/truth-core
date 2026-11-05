@@ -1,5 +1,10 @@
-import TruthCore.Causality.SourceWitness
-import TruthCore.Results.Causality.SourceForest.Solution
+module
+
+public import TruthCore.Causality.SourceWitness
+public import TruthCore.Results.Causality.SourceForest.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Causality.SourceWitness
 open TruthCore.Logic.Regress
 open TruthCore.Causality

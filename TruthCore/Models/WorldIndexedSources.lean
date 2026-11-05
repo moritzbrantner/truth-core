@@ -1,11 +1,16 @@
-import TruthCore.Causality.WorldSourceRegress
-import TruthCore.Causality.NamedPotentialCauser
+module
+
+public import TruthCore.Causality.WorldSourceRegress
+public import TruthCore.Causality.NamedPotentialCauser
 
 /-! A fresh finite control; the prior frozen Bool predecessor control stays
 unchanged. Every causal edge stays inside its own world. World-specific ranks
 used in the proof witness ordinary graph WF, not temporal order or duration.
 Root-value sets below are Set images of the EXISTING Graph.Source predicate
 on Actual nodes; no new root criterion or absent-node starter is introduced. -/
+
+@[expose] public section
+
 namespace TruthCore.Models.WorldIndexedSources
 open TruthCore.German.Kant.CosmologicalInference
 open TruthCore.Causality.NecessarilyUnderived

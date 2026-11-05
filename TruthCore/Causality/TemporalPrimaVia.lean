@@ -1,11 +1,16 @@
-import TruthCore.Causality.TemporalActualization
-import TruthCore.Case.Catholicism.StageOne
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article1
+module
+
+public import TruthCore.Causality.TemporalActualization
+public import TruthCore.Case.Catholicism.StageOne
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article1
 
 /-! The prima via's vocabulary carries no time index; its module reads every
 predicate *simul*, at one time. These analyst definitions instantiate that
 vocabulary at each time of a supplied clock, over #700's event profiles. Nothing
 here is a source reading. A first mover "at t" is unmoved at t only. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.TemporalPrimaVia
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Causality.TemporalActualization

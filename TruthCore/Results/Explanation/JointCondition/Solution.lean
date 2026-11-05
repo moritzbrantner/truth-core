@@ -1,4 +1,8 @@
-import TruthCore.Explanation.JointCondition
+module
+
+public import TruthCore.Explanation.JointCondition
+
+@[expose] public section
 
 namespace TruthCore.Results.Explanation.JointCondition
 open TruthCore.Explanation.PSRStrength

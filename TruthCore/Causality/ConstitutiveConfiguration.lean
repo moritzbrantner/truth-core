@@ -1,9 +1,14 @@
-import TruthCore.Causality.ConstitutiveNatureUniqueness
-import TruthCore.Logic.Configuration
+module
+
+public import TruthCore.Causality.ConstitutiveNatureUniqueness
+public import TruthCore.Logic.Configuration
 
 /-! A configuration-use adapter around the checked #715 bridge. No new
 individuation, content or act semantics: the only new atom exposes actual
 first-mover *witnesses* in the supplied predicates, not real-world actuality. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.ConstitutiveConfiguration
 open TruthCore.Case.Catholicism
 

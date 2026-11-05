@@ -1,6 +1,10 @@
-import TruthCore.Causality.NecessaryConcreteRouteBridge
-import TruthCore.Causality.ExistenceActuality
-import TruthCore.Results.Aquinas.SummaTheologiae.EssenceEsseExternalCause.Solution
+module
+
+public import TruthCore.Causality.NecessaryConcreteRouteBridge
+public import TruthCore.Causality.ExistenceActuality
+public import TruthCore.Results.Aquinas.SummaTheologiae.EssenceEsseExternalCause.Solution
+
+@[expose] public section
 
 namespace TruthCore.Causality.RootEssenceIdentity
 open TruthCore.Causality.BruteFoundationBoundary

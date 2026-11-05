@@ -1,4 +1,8 @@
-import TruthCore.Causality.ActualCoverNecessaryBeing
+module
+
+public import TruthCore.Causality.ActualCoverNecessaryBeing
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.ActualCoverNecessaryBeing
 open TruthCore.German.Kant.CosmologicalInference

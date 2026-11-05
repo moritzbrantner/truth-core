@@ -1,5 +1,10 @@
-import TruthCore.Greek.Aristotle.MetaphysicsIV7
-import TruthCore.Results.Aristotle.Metaphysics.TruthAptThoughtDecidesItsObject.Solution
+module
+
+public import TruthCore.Greek.Aristotle.MetaphysicsIV7
+public import TruthCore.Results.Aristotle.Metaphysics.TruthAptThoughtDecidesItsObject.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Aristotle.Metaphysics.ThoughtBivalenceIffExcludedMiddle
 open TruthCore.Logic
 open TruthCore.Greek.Aristotle.Metaphysics

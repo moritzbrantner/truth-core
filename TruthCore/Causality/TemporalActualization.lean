@@ -1,13 +1,18 @@
-import TruthCore.Results.Alternatives.RespectSwitch.Solution
-import TruthCore.Results.Causality.TemporalEventControls.Solution
-import TruthCore.Causality.LocalTransmission
-import Mathlib.Logic.Relation
+module
+
+public import TruthCore.Results.Alternatives.RespectSwitch.Solution
+public import TruthCore.Results.Causality.TemporalEventControls.Solution
+public import TruthCore.Causality.LocalTransmission
+public import Mathlib.Logic.Relation
 
 /-! Analyst-defined event profiles, not attributed source readings. The fixed
 world/profile is implicit; event tokens, beings, respects and clock times are
 separate types. No presentism, passage theory, event population, causal direction
 or well-foundedness is built into these definitions. Named theories of time are
 not asserted to exhaust this model class. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.TemporalActualization
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Greek.Aristotle.Physics.Typed

@@ -1,4 +1,6 @@
-import TruthCore.Case.Catholicism.StageThree.Commissions
+module
+
+public import TruthCore.Case.Catholicism.StageThree.Commissions
 
 /-!
 # Multiple attestation of the heaven-ratified power and the message rival (#357)
@@ -51,6 +53,8 @@ governing commission, multiple attestation, and against critical denials.
 These are schema models, not possible worlds of Christian history. Nothing here
 decides that the criterion is sound or that John is independent.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Case.Catholicism.StageThree.CommissionAttestation
 open TruthCore.Case.Catholicism

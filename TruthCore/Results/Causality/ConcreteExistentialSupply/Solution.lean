@@ -1,7 +1,11 @@
-import TruthCore.Causality.ConcreteExistentialSupply
-import TruthCore.Results.Causality.DerivativeJointPower.Solution
-import TruthCore.Results.Causality.NecessaryRootFork.Solution
-import TruthCore.Results.Causality.NecessaryConcreteUnderived.Solution
+module
+
+public import TruthCore.Causality.ConcreteExistentialSupply
+public import TruthCore.Results.Causality.DerivativeJointPower.Solution
+public import TruthCore.Results.Causality.NecessaryRootFork.Solution
+public import TruthCore.Results.Causality.NecessaryConcreteUnderived.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.ConcreteExistentialSupply
 open TruthCore.Causality.BruteFoundationBoundary

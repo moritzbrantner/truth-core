@@ -1,4 +1,9 @@
-import TruthCore.Modern.Russell.Existence
+module
+
+public import TruthCore.Modern.Russell.Existence
+
+@[expose] public section
+
 namespace TruthCore.Results.Modern.Russell.Individual
 open TruthCore.Modern.Russell.Existence
 private theorem inhabitedAt : ∀ w, ExistsPred (actual w) := by

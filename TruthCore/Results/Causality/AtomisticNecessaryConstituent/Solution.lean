@@ -1,9 +1,13 @@
-import TruthCore.Causality.AtomisticCausalSource
-import TruthCore.Causality.WorldSourceRegress
-import TruthCore.Causality.ActualFusionNecessaryBeing
-import TruthCore.Logic.ExcludedMiddle
-import TruthCore.Results.Causality.AtomisticCausalSource.Solution
-import TruthCore.Results.Causality.WorldSourceRegress.Solution
+module
+
+public import TruthCore.Causality.AtomisticCausalSource
+public import TruthCore.Causality.WorldSourceRegress
+public import TruthCore.Causality.ActualFusionNecessaryBeing
+public import TruthCore.Logic.ExcludedMiddle
+public import TruthCore.Results.Causality.AtomisticCausalSource.Solution
+public import TruthCore.Results.Causality.WorldSourceRegress.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.AtomisticNecessaryConstituent
 open TruthCore.Causality.AtomisticCausalSource

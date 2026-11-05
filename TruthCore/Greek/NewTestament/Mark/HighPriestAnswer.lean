@@ -1,4 +1,8 @@
-import TruthCore.Greek.NewTestament.Mark.ForgivenessAuthority
+module
+
+public import TruthCore.Greek.NewTestament.Mark.ForgivenessAuthority
+
+@[expose] public section
 
 namespace TruthCore.Greek.NewTestament.Mark.HighPriestAnswer
 

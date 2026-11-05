@@ -1,5 +1,10 @@
-import TruthCore.Causality.StrictPriorityPureAct
-import TruthCore.Results.Causality.NecessaryFirstBeing.Solution
+module
+
+public import TruthCore.Causality.StrictPriorityPureAct
+public import TruthCore.Results.Causality.NecessaryFirstBeing.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Causality.StrictPriorityPureAct
 open TruthCore.Causality.BruteFoundationBoundary
 open TruthCore.Causality.WholeRosterFoundation

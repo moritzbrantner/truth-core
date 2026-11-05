@@ -1,11 +1,16 @@
-import TruthCore.Causality.ConstitutiveNatureUniqueness
-import TruthCore.Logic.ExcludedMiddle
+module
+
+public import TruthCore.Causality.ConstitutiveNatureUniqueness
+public import TruthCore.Logic.ExcludedMiddle
 
 /-! #697: what remains of the two-root rival after the existing first-mover
 premises, and one proposed bridge excluding it. Source-free stipulative vocabulary:
 nothing here is attributed to any author, is a definition of God, or settles
 whether the represented relations are real. First movers only; applicability to
 a selected necessary or underived individual is not addressed. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.RootMultiplication
 open TruthCore.Case.Catholicism
 open TruthCore.Latin.Aquinas.SummaTheologiae

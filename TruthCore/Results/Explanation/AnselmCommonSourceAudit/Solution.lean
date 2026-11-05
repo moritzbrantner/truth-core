@@ -1,5 +1,9 @@
-import TruthCore.Explanation.AnselmCommonSourceAudit
-import TruthCore.Results.Explanation.AnselmUltimateSource.Solution
+module
+
+public import TruthCore.Explanation.AnselmCommonSourceAudit
+public import TruthCore.Results.Explanation.AnselmUltimateSource.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Explanation.AnselmCommonSourceAudit
 open TruthCore.Explanation.AnselmUltimateSource

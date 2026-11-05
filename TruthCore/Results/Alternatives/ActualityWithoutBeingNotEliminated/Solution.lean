@@ -1,5 +1,10 @@
-import TruthCore.Alternatives.ActualityWithoutBeing
-import TruthCore.Models.ActPotency
+module
+
+public import TruthCore.Alternatives.ActualityWithoutBeing
+public import TruthCore.Models.ActPotency
+
+@[expose] public section
+
 namespace TruthCore.Results.Alternatives.ActualityWithoutBeingNotEliminated
 open TruthCore.Alternatives.ActualityWithoutBeing
 

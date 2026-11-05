@@ -1,6 +1,11 @@
-import TruthCore.Case.Catholicism.StageOneQuartaVia
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article8
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question4.Article1
+module
+
+public import TruthCore.Case.Catholicism.StageOneQuartaVia
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article8
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question4.Article1
+
+@[expose] public section
+
 namespace TruthCore.Results.Aquinas.SummaTheologiae.ReducedDescriptionSuffices
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Case.Catholicism (MaximumInBeingIsFirstBeing GodNamesTheUniqueMaximeEns GodNamesTheFullyDescribedPrinciple

@@ -1,9 +1,14 @@
-import TruthCore.Causality.PartFreePlurality
-import TruthCore.Causality.UnderivedCommonSource
+module
+
+public import TruthCore.Causality.PartFreePlurality
+public import TruthCore.Causality.UnderivedCommonSource
 
 /-! A graph view of the UNCHANGED #684 interpretation, not a second causal
 semantics. Here and only here its chosen Causes and supportsEsse are both prior.
 Actuality is the model's ExistsAt predicate, not evidence of real instantiation. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.PluralRootConfluence
 open TruthCore.Causality
 open TruthCore.Causality.PartFreePlurality

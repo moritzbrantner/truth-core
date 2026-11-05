@@ -1,4 +1,9 @@
-import TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.CausalPowers
+module
+
+public import TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.CausalPowers
+
+@[expose] public section
+
 namespace TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.CausalPowers
 open TruthCore.Case.Catholicism.StageOne.NecessaryIndividual
 open TruthCore.Isabelle.AFP.GoedelGod (Box)

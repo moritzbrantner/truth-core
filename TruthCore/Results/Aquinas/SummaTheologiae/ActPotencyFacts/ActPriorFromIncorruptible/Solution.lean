@@ -1,4 +1,6 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.ActPriorFromIncorruptible
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.ActPriorFromIncorruptible
 
 /-!
 Facts about deriving act's simple priority from the incorruptible beings of
@@ -9,6 +11,8 @@ first mover `f` and a moved thing `m`, and respects `h` (heat), `k` (place) and
 `e` (*esse*). Every model is written as exhaustive matches, so the proofs need
 no axioms.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.ActPriorFromIncorruptible
 open TruthCore.Latin.Aquinas.SummaTheologiae

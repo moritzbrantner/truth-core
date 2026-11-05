@@ -1,7 +1,9 @@
-import TruthCore.Causality.NecessarySimplePlurality
-import TruthCore.Causality.WholeRosterFoundation
-import TruthCore.Causality.DirectEsseRootRoute
-import TruthCore.Causality.NecessaryRootUniqueness
+module
+
+public import TruthCore.Causality.NecessarySimplePlurality
+public import TruthCore.Causality.WholeRosterFoundation
+public import TruthCore.Causality.DirectEsseRootRoute
+public import TruthCore.Causality.NecessaryRootUniqueness
 
 /-! Exact-interface extension of the ORIGINAL four-being #681 interpretation.
 No existing carrier, world, existence, act, cause, power-support, composition,
@@ -9,6 +11,9 @@ essence or esse field changes. The later five-being PartFreePlurality control
 is NOT substituted for it. This is a finite formal control, not metaphysical
 possibility or a complete explanation of the selected actual being.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.DirectEsseGenusOmissionControl
 open TruthCore.Causality.NecessarySimplePlurality
 open TruthCore.Causality.NecessaryRootFork (ActualRoot)

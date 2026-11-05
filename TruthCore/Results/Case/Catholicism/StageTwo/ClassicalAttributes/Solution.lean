@@ -1,7 +1,12 @@
-import TruthCore.Results.Case.Catholicism.StageTwo.GodIsOne.Solution
-import TruthCore.Results.Case.Catholicism.StageTwo.GodIsSimple.Solution
-import TruthCore.Results.Case.Catholicism.StageTwo.GodIsPerfect.Solution
-import TruthCore.Results.Case.Catholicism.StageTwo.GodIsSupremelyGood.Solution
+module
+
+public import TruthCore.Results.Case.Catholicism.StageTwo.GodIsOne.Solution
+public import TruthCore.Results.Case.Catholicism.StageTwo.GodIsSimple.Solution
+public import TruthCore.Results.Case.Catholicism.StageTwo.GodIsPerfect.Solution
+public import TruthCore.Results.Case.Catholicism.StageTwo.GodIsSupremelyGood.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributes
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Greek.Aristotle.Metaphysics (CauseOfQualityInAnotherIsMoreSuchReading)

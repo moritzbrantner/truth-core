@@ -1,4 +1,9 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3SecundaVia
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3SecundaVia
+
+@[expose] public section
+
 namespace TruthCore.Results.Bridges.SecundaSecondCausesRelevantRespect
 open TruthCore.Latin.Aquinas.SummaTheologiae
 /-- Bridge (#401): the secunda via's strong per se premise

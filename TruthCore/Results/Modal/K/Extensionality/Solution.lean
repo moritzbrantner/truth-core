@@ -1,4 +1,9 @@
-import TruthCore.Modal.KResearch
+module
+
+public import TruthCore.Modal.KResearch
+
+@[expose] public section
+
 namespace TruthCore.Results.Modal.K.Extensionality
 open TruthCore.Modal
 open TruthCore.Modal.ResearchFixture

@@ -1,10 +1,15 @@
-import TruthCore.Causality.NecessaryClassicalGodRoot
-import TruthCore.Causality.RootPositiveIntellectWillControl
+module
+
+public import TruthCore.Causality.NecessaryClassicalGodRoot
+public import TruthCore.Causality.RootPositiveIntellectWillControl
 
 /-! Full25 joint compatibility and a necessary non-God effect on the EXACT
 old18 concurrent extension. Every NEW signature/potency/infinity/eternity field
 is explicit. Empty potency is forced by old all-true act plus exclusivity;
 no positive potency, physical/cognitive/moral adequacy or Catholic truth follows. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.NecessaryClassicalGodRootControl
 open TruthCore.Causality.RootPositiveIntellectWillControl
 open TruthCore.Causality.NecessaryClassicalGodRoot

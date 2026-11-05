@@ -1,6 +1,8 @@
-import TruthCore.Models.Order
-import TruthCore.Results.Logic.MaximumOrderSchema.Solution
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaViaFork
+module
+
+public import TruthCore.Models.Order
+public import TruthCore.Results.Logic.MaximumOrderSchema.Solution
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaViaFork
 
 /-! Joint controls for a degree-order fork. `FiniteTop` reuses the registered
 Boolean homogeneous causal control unchanged. `Unbounded` has natural-number
@@ -11,6 +13,9 @@ it does not identify being, goodness, truth or nobility in the source.
 Model assignments frozen before their joint witness certificates. These
 interpretations concern encoded satisfiability, not metaphysical possibility.
 The Nat control is infinite and must not enter the finite-model registry. -/
+
+@[expose] public section
+
 namespace TruthCore.Models.QuartaViaDegreeFork
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Greek.Aristotle.Metaphysics

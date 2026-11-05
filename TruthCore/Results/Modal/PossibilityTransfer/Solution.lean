@@ -1,4 +1,9 @@
-import TruthCore.Modal.PossibilityTransfer
+module
+
+public import TruthCore.Modal.PossibilityTransfer
+
+@[expose] public section
+
 namespace TruthCore.Results.Modal.PossibilityTransfer
 open TruthCore.Modal.PossibilityTransfer
 open TruthCore.Isabelle.AFP.GoedelGod (MProp Box Dia)

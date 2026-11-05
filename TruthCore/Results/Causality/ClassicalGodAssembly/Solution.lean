@@ -1,4 +1,8 @@
-import TruthCore.Case.Catholicism.StagesOneTwo
+module
+
+public import TruthCore.Case.Catholicism.StagesOneTwo
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.ClassicalGodAssembly
 open TruthCore.Case.Catholicism

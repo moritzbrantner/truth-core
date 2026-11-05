@@ -1,5 +1,7 @@
-import Mathlib.Data.Bool.Basic
-import TruthCore.Causality.CountTemporalNecessity
+module
+
+public import Mathlib.Data.Bool.Basic
+public import TruthCore.Causality.CountTemporalNecessity
 
 /-! Source-free joint model of the EXACT guarded temporal-count interface.
 The existing Option Bool mixed scenario has only two contingent candidates;
@@ -7,6 +9,9 @@ existing four-candidate history controls cannot realize five distinct
 contingents. This finite enlargement reuses History/Ontic without replacing
 causal or modal meanings. It establishes no metaphysical realizability.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Models.CountTemporalControls
 open TruthCore.Modal.TemporalHistory
 open TruthCore.German.Kant.CosmologicalInference

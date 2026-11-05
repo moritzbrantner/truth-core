@@ -1,5 +1,7 @@
-import TruthCore.Causality.EssentialPower
-import TruthCore.German.Kant.CosmologicalInference
+module
+
+public import TruthCore.Causality.EssentialPower
+public import TruthCore.German.Kant.CosmologicalInference
 
 /-!
 An analyst-defined separation for #319, not a source-derived metaphysical
@@ -8,6 +10,9 @@ which exercises it are different typed relations. Modal necessity and
 composition introduce further independent conditions. No inference here
 identifies a power source with God or with a simple first cause of esse.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.PowerExistenceBoundary
 
 open TruthCore.Causality

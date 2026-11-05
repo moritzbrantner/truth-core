@@ -1,4 +1,9 @@
-import TruthCore.Modal.DResearch.Laws
+module
+
+public import TruthCore.Modal.DResearch.Laws
+
+@[expose] public section
+
 namespace TruthCore.Results.Modal.DResearch.Laws
 open TruthCore.Modal
 open TruthCore.Modal.ResearchFixture

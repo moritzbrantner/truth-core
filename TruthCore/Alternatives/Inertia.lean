@@ -1,4 +1,6 @@
-import TruthCore.Alternatives.ActPotencyRegress
+module
+
+public import TruthCore.Alternatives.ActPotencyRegress
 
 /-!
 The inertia bridge (#497): is a body's perseverance in uniform rectilinear
@@ -24,6 +26,8 @@ bridge (Garrigou-Lagrange's own, and the mechanist one he reports) and two
 unattributed open premises. The bundle of the inertial objection is
 `TruthCore.Comparison.Inertia.InertialObjection`.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Alternatives.Inertia
 

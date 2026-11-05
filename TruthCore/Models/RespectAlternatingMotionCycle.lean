@@ -1,11 +1,16 @@
-import TruthCore.Models.ActPotencyRemaining
-import TruthCore.Greek.Aristotle.Physics.Typed.Motion
+module
+
+public import TruthCore.Models.ActPotencyRemaining
+public import TruthCore.Greek.Aristotle.Physics.Typed.Motion
 
 /-! The registered NRegress interpretation is reused unchanged: a moves b in k,
 and b moves a in h. Each recipient is in potency in the incoming respect and
 each mover is actual in the outgoing respect. Thus the two respects differ,
 but a cycle and the lack of a globally unmoved mover remain possible in this
 encoding. No temporal sequence or metaphysical possibility is asserted. -/
+
+@[expose] public section
+
 namespace TruthCore.Models.RespectAlternatingMotionCycle
 
 open TruthCore.Latin.Aquinas.SummaTheologiae

@@ -1,4 +1,8 @@
-import TruthCore.Modal.AccessibilityComponents
+module
+
+public import TruthCore.Modal.AccessibilityComponents
+
+@[expose] public section
 
 namespace TruthCore.Results.Modal.AccessibilityComponents
 open TruthCore.Modal

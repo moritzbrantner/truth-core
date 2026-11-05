@@ -1,5 +1,9 @@
-import TruthCore.Causality.ExistentialSelfActualization
-import TruthCore.Results.Alternatives.PerSeCausalLoopImpossible.Solution
+module
+
+public import TruthCore.Causality.ExistentialSelfActualization
+public import TruthCore.Results.Alternatives.PerSeCausalLoopImpossible.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.ExistentialSelfActualization
 open TruthCore.Causality.ExistentialSelfActualization

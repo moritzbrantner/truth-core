@@ -1,4 +1,9 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3
+
+@[expose] public section
+
 namespace TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaStrength.AbsoluteReading
 open TruthCore.Latin.Aquinas.SummaTheologiae
 universe u v

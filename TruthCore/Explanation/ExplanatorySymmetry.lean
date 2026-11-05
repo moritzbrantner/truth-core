@@ -1,6 +1,8 @@
-import Mathlib.Logic.Relation
-import Mathlib.Order.Basic
-import TruthCore.Explanation.ExplanatoryAdequacy
+module
+
+public import Mathlib.Logic.Relation
+public import Mathlib.Order.Basic
+public import TruthCore.Explanation.ExplanatoryAdequacy
 
 /-!
 # Selecting one outcome over another with a reason true at both (#742)
@@ -12,6 +14,9 @@ tests what follows under named conditions on it. `favours` is an interpreted par
 nothing is asserted of reality. See `docs/notes/explanatory-symmetry-742.md` for the
 interpretation, the examples and the rival accounts.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Explanation.ExplanatorySymmetry
 
 open TruthCore.Explanation.PSRStrength hiding ground

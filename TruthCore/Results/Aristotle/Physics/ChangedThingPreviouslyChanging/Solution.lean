@@ -1,4 +1,9 @@
-import TruthCore.Greek.Aristotle.Physics.BookVI.Chapter6
+module
+
+public import TruthCore.Greek.Aristotle.Physics.BookVI.Chapter6
+
+@[expose] public section
+
 namespace TruthCore.Results.Aristotle.Physics.ChangedThingPreviouslyChanging
 open TruthCore.Greek.Aristotle.Physics
 theorem changedThingPreviouslyChanging

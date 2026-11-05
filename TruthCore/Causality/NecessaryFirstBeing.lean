@@ -1,8 +1,13 @@
-import TruthCore.Causality.NecessaryConcreteRouteBridge
+module
+
+public import TruthCore.Causality.NecessaryConcreteRouteBridge
 
 /-! Existential endpoints for the same selected actual necessary root. These
 definitions do not identify firstness with uniqueness or maximality. Applicability
 of the selected grounding relation and the simply-prior bridge remains open. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.NecessaryFirstBeing
 
 open TruthCore.Causality.BruteFoundationBoundary

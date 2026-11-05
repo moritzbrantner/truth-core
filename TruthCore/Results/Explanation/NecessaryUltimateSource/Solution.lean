@@ -1,6 +1,10 @@
-import TruthCore.Explanation.NecessaryUltimateSource
-import TruthCore.Results.Causality.SelectedAncestry.Solution
-import TruthCore.Results.Explanation.AnselmUltimateSource.Solution
+module
+
+public import TruthCore.Explanation.NecessaryUltimateSource
+public import TruthCore.Results.Causality.SelectedAncestry.Solution
+public import TruthCore.Results.Explanation.AnselmUltimateSource.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Explanation.NecessaryUltimateSource
 open TruthCore.Explanation.AnselmUltimateSource

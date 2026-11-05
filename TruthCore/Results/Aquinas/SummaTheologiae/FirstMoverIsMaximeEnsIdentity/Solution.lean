@@ -1,7 +1,12 @@
-import TruthCore.Case.Catholicism.StageOneQuartaVia
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question4.Article1
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question105.Article5
-import TruthCore.Logic.ExcludedMiddle
+module
+
+public import TruthCore.Case.Catholicism.StageOneQuartaVia
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question4.Article1
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question105.Article5
+public import TruthCore.Logic.ExcludedMiddle
+
+@[expose] public section
+
 namespace TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverIsMaximeEnsIdentity
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Case.Catholicism (FirstUnmovedMoverIsMaximeEns IsFirstUnmovedMover

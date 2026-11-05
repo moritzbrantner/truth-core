@@ -1,5 +1,9 @@
-import TruthCore.Explanation.NecessaryFactBoundary
-import TruthCore.Results.Explanation.ExplanatoryAdequacy.Solution
+module
+
+public import TruthCore.Explanation.NecessaryFactBoundary
+public import TruthCore.Results.Explanation.ExplanatoryAdequacy.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Explanation.NecessaryFactBoundary
 

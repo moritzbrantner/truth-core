@@ -1,5 +1,9 @@
-import TruthCore.Explanation.PathRelocation
-import TruthCore.Results.Explanation.HistorySelection.Solution
+module
+
+public import TruthCore.Explanation.PathRelocation
+public import TruthCore.Results.Explanation.HistorySelection.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Explanation.PathRelocation
 open TruthCore.Explanation.PathRelocation

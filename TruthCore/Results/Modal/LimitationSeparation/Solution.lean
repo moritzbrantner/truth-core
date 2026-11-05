@@ -1,4 +1,8 @@
-import TruthCore.Modal.LimitationSeparation
+module
+
+public import TruthCore.Modal.LimitationSeparation
+
+@[expose] public section
 
 namespace TruthCore.Results.Modal.LimitationSeparation
 open TruthCore.Modal.LimitationSeparation

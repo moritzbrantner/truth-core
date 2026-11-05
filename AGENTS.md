@@ -281,7 +281,7 @@ When statements are meant to support a conclusion:
 - add a `corpus/arguments/*.json` record composing those steps;
 - add `Challenge.lean` containing the exact advertised theorem with `sorry`; it stays an ordinary (non-module) file;
 - add a separate `Solution.lean` containing the same theorem and a real proof;
-- write the new `Solution.lean` and every new vocabulary file as a Lean module: a `module` first line, `public import` for each import and `@[expose] public section` after the imports and module docstring (`python3 scripts/convert_to_module.py convert <FILE>` converts an ordinary draft). A module can import only modules; when an import is not yet converted, convert it in the same PR if `convert_to_module.py plan` shows it convertible, otherwise leave the new file ordinary and say so in the PR (owner decision on #986);
+- write the new `Solution.lean` and every new vocabulary file as a Lean module: a `module` first line, `public import` for each import and `@[expose] public section` after the imports and module docstring (`python3 scripts/convert_to_module.py convert <FILE>` converts an ordinary draft). Every library file is a module, so this always applies; CI (`python3 scripts/convert_to_module.py check`) rejects an ordinary library file other than a Challenge or an aggregator (owner decision on #986);
 - run `scripts/root-imports.sh --write` so the generated aggregator of the module's area (`TruthCore/Imports/<Area>.lean`) imports every new module (except `Challenge.lean`) in sorted order; `TruthCore.lean` imports only the aggregators and changes only when an area appears;
 - add a `corpus/results/*.json` verification record that points to the argument;
 - add a Comparator JSON config naming the theorem and permitted axioms.

@@ -1,9 +1,14 @@
-import TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyModels
-import TruthCore.Alternatives.ActPotencyRegress
+module
+
+public import TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyModels
+public import TruthCore.Alternatives.ActPotencyRegress
 
 /-! Named finite interpretations and closed certificates for #414.
 Registration tests formal consequence only; it does not establish metaphysical possibility.
 Existing Challenges and proof obligations are unchanged. -/
+
+@[expose] public section
+
 namespace TruthCore.Models.ActPotency
 open TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyModels
 namespace M1

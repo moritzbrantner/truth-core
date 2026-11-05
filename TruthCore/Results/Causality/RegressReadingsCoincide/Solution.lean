@@ -1,5 +1,9 @@
-import Mathlib.Order.WellFounded
-import TruthCore.Results.Causality.RegressAccessibilityExcludesSeries.Solution
+module
+
+public import Mathlib.Order.WellFounded
+public import TruthCore.Results.Causality.RegressAccessibilityExcludesSeries.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.RegressReadingsCoincide
 open TruthCore.Causality

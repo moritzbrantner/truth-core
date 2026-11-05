@@ -1,4 +1,9 @@
-import TruthCore.Greek.Aristotle.SynonymousCauseAtLeast
+module
+
+public import TruthCore.Greek.Aristotle.SynonymousCauseAtLeast
+
+@[expose] public section
+
 namespace TruthCore.Results.Aristotle.SynonymyTie
 open TruthCore.Greek.Aristotle.Metaphysics
 /-- A same-account causal tie separates at-least and strict readings. -/

@@ -1,6 +1,10 @@
-import TruthCore.Causality.NecessaryConcreteUnderived
-import TruthCore.Results.Causality.NecessaryRootFork.Solution
-import TruthCore.Results.Causality.NecessarilyUnderived.PositiveUnion.Solution
+module
+
+public import TruthCore.Causality.NecessaryConcreteUnderived
+public import TruthCore.Results.Causality.NecessaryRootFork.Solution
+public import TruthCore.Results.Causality.NecessarilyUnderived.PositiveUnion.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.NecessaryConcreteUnderived
 

@@ -1,7 +1,12 @@
-import TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.BoundedOmission.Solution
+module
+
+public import TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.BoundedOmission.Solution
 
 /-! Registered singleton populations from #606. These evaluations describe the
 stipulated interpretation, never its metaphysical admissibility. -/
+
+@[expose] public section
+
 namespace TruthCore.Models.BoundedOmission
 open TruthCore.Case.Catholicism.StageOne.NecessaryIndividual
 open TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.BoundedOmission

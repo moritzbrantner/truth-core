@@ -1,5 +1,7 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3Interpretation
-import TruthCore.Results.Aquinas.SummaTheologiae.PrimaVia.Solution
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3Interpretation
+public import TruthCore.Results.Aquinas.SummaTheologiae.PrimaVia.Solution
 
 /-!
 Finite models for the two readings of the *prima via* per se premise.
@@ -15,6 +17,8 @@ Finite models for the two readings of the *prima via* per se premise.
 
 The proofs use only case analysis, so they need no axioms.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaModels
 open TruthCore.Latin.Aquinas.SummaTheologiae

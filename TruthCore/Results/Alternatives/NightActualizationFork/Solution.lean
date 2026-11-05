@@ -1,4 +1,8 @@
-import TruthCore.Alternatives.NightActualizationFork
+module
+
+public import TruthCore.Alternatives.NightActualizationFork
+
+@[expose] public section
 
 namespace TruthCore.Results.Alternatives.NightActualizationFork
 open TruthCore.Latin.Aquinas.SummaTheologiae

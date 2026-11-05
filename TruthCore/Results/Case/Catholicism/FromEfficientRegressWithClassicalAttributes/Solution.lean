@@ -1,7 +1,12 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question105.Article5
-import TruthCore.Results.Aquinas.SummaTheologiae.MoverRegressFromCauseRegress.Solution
-import TruthCore.Results.Case.Catholicism.FirstUnmovedMoverExistsOrNotFromEm.Solution
-import TruthCore.Results.Case.Catholicism.FromPrimaViaWithClassicalAttributes.Solution
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question105.Article5
+public import TruthCore.Results.Aquinas.SummaTheologiae.MoverRegressFromCauseRegress.Solution
+public import TruthCore.Results.Case.Catholicism.FirstUnmovedMoverExistsOrNotFromEm.Solution
+public import TruthCore.Results.Case.Catholicism.FromPrimaViaWithClassicalAttributes.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Case.Catholicism.FromEfficientRegressWithClassicalAttributes
 open TruthCore.Case.Catholicism
 open TruthCore.Latin.Aquinas.SummaTheologiae

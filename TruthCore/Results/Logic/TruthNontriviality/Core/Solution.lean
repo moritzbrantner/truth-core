@@ -1,6 +1,11 @@
-import TruthCore.Logic.TruthNontriviality
-import TruthCore.Results.Logic.TruthNontriviality.PropositionalCollapse.Solution
-import TruthCore.Results.Logic.Relativism.SelfFalsifying.Solution
+module
+
+public import TruthCore.Logic.TruthNontriviality
+public import TruthCore.Results.Logic.TruthNontriviality.PropositionalCollapse.Solution
+public import TruthCore.Results.Logic.Relativism.SelfFalsifying.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Logic.TruthNontriviality.Core
 open TruthCore.Logic.SelfApplication
 open TruthCore.Logic.Relativism

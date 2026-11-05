@@ -1,7 +1,12 @@
-import TruthCore.Explanation.FixedConstituentNecessaryBeing
+module
+
+public import TruthCore.Explanation.FixedConstituentNecessaryBeing
 
 /-! Transparent weakening of the existing reason-closed account. The original
 nonCopy clause is omitted; no new explanation relation or adequacy claim is added. -/
+
+@[expose] public section
+
 namespace TruthCore.Explanation.WeakAccountNecessaryBeing
 open TruthCore.Explanation.PSRStrength
 open TruthCore.Explanation.ExplanatoryAdequacy

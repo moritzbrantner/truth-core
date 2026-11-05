@@ -1,9 +1,14 @@
-import TruthCore.Causality.AtomisticCausalSource
-import TruthCore.Causality.SourceWitness
+module
+
+public import TruthCore.Causality.AtomisticCausalSource
+public import TruthCore.Causality.SourceWitness
 
 /-! Mechanical interfaces only: preserve existing statement identities and the
 SAME graph, carrier and edge interpretation. No new causal, modal, grounding,
 well-foundedness or philosophical assumption is introduced or established. -/
+
+@[expose] public section
+
 namespace TruthCore.Results.Causality.SourceForestInterop
 open TruthCore.Logic.Regress (Graph)
 open TruthCore.Causality.AtomisticCausalSource

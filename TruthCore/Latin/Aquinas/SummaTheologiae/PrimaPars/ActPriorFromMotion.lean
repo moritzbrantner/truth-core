@@ -1,5 +1,7 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.ActPotencyTheory
-import TruthCore.Alternatives.NightCosmogony
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.ActPotencyTheory
+public import TruthCore.Alternatives.NightCosmogony
 
 /-!
 Can act's simple priority (ST I q.3 a.1, `ActSimplyPriorToPotencyReading`) be
@@ -20,6 +22,8 @@ denies the new premise read as holding in every situation, not the premise read
 of the present situation alone (`SomePotencyNotBeingActualizedReading`, its
 unattributed contradictory). No predicate is defined: all are fields of `ActPotencyModel`.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Latin.Aquinas.SummaTheologiae
 

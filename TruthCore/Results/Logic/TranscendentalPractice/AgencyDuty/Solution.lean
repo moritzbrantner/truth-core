@@ -1,4 +1,8 @@
-import TruthCore.Logic.TranscendentalPractice
+module
+
+public import TruthCore.Logic.TranscendentalPractice
+
+@[expose] public section
 
 namespace TruthCore.Results.Logic.TranscendentalPractice.AgencyDuty
 

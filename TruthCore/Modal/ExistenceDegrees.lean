@@ -1,5 +1,7 @@
-import Mathlib.Order.Defs.PartialOrder
-import TruthCore.Causality.NecessarilyUnderived
+module
+
+public import Mathlib.Order.Defs.PartialOrder
+public import TruthCore.Causality.NecessarilyUnderived
 
 /-! A restricted modal existence-degree profile motivated by Koons's
 2022-01-23 reconstruction, steps 6, 7 and 11. The pinned full content:encoded
@@ -16,6 +18,9 @@ The profile ranges only over worlds accessible from the selected standpoint.
 No S5, causal soundness, sufficiency, value conversion or divine identity is
 built in. Same degree is expressed by both order inequalities, not literal
 identity of degree labels. -/
+
+@[expose] public section
+
 namespace TruthCore.Modal.ExistenceDegrees
 open TruthCore.German.Kant.CosmologicalInference
 

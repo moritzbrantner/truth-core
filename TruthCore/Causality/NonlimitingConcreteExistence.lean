@@ -1,12 +1,17 @@
-import TruthCore.Modal.LimitationSeparation
-import TruthCore.Causality.BruteFoundationBoundary
-import TruthCore.Causality.NecessarilyUnderived
-import TruthCore.Causality.PossibleCauseOfContingency
+module
+
+public import TruthCore.Modal.LimitationSeparation
+public import TruthCore.Causality.BruteFoundationBoundary
+public import TruthCore.Causality.NecessarilyUnderived
+public import TruthCore.Causality.PossibleCauseOfContingency
 
 /-! Analyst specialization, not an identification with source A8's powerful
 Necessary Being property. Phi contains only concreteness and actual existence;
 Q is accessible absence. Neither defines necessity into Phi. The Profile's
 selected grounds field is unused; no causal, PSR or foundation law is added. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.NonlimitingConcreteExistence
 open TruthCore.Causality.BruteFoundationBoundary
 open TruthCore.Causality.NecessarilyUnderived (ActualReflexive)

@@ -1,4 +1,8 @@
-import TruthCore.Greek.Aristotle.Physics.BookVI.Chapter1
+module
+
+public import TruthCore.Greek.Aristotle.Physics.BookVI.Chapter1
+
+@[expose] public section
 
 namespace TruthCore.Results.Aristotle.Physics.ContinuumNotIndivisibles
 

@@ -1,8 +1,13 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaViaGreatestDegree
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaViaGreatestDegree
 
 /-! Attainment in the selected BEING respect for the greatest-degree root route.
 This preserves the separate greatest-degree source interpretation; it does not
 strengthen the old weak-maximality premises or modify their proof interfaces. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.GreatestDegreeRootRoute
 open TruthCore.Latin.Aquinas.SummaTheologiae
 

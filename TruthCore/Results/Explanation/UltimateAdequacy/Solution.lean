@@ -1,9 +1,14 @@
-import TruthCore.Explanation.UltimateAdequacy
-import TruthCore.Results.Causality.DerivativeJointPower.Solution
-import TruthCore.Results.Explanation.HistorySelection.Solution
-import TruthCore.Results.Explanation.TargetCopyExpansion.Solution
-import TruthCore.Results.Epistemology.UltimateExplanation.Solution
-import TruthCore.Results.Explanation.ConservativeReasonExpansion.Solution
+module
+
+public import TruthCore.Explanation.UltimateAdequacy
+public import TruthCore.Results.Causality.DerivativeJointPower.Solution
+public import TruthCore.Results.Explanation.HistorySelection.Solution
+public import TruthCore.Results.Explanation.TargetCopyExpansion.Solution
+public import TruthCore.Results.Epistemology.UltimateExplanation.Solution
+public import TruthCore.Results.Explanation.ConservativeReasonExpansion.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Explanation.UltimateAdequacy
 open TruthCore.Explanation.UltimateAdequacy
 open TruthCore.Causality.JointGroups TruthCore.Causality.DerivativeJointPower

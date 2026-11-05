@@ -1,4 +1,9 @@
-import TruthCore.Results.Case.Catholicism.StageTwo.GodHasIntellect.Solution
+module
+
+public import TruthCore.Results.Case.Catholicism.StageTwo.GodHasIntellect.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Case.Catholicism.StageTwo.GodHasWill
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Greek.Aristotle.Metaphysics (CauseOfQualityInAnotherIsMoreSuchReading)

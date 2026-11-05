@@ -1,4 +1,8 @@
-import TruthCore.Greek.Aristotle.Physics.BookVII.Chapter4
+module
+
+public import TruthCore.Greek.Aristotle.Physics.BookVII.Chapter4
+
+@[expose] public section
 
 namespace TruthCore.Results.Aristotle.Physics.SameAffectionEqualSubjectAlterations
 open TruthCore.Greek.Aristotle.Physics

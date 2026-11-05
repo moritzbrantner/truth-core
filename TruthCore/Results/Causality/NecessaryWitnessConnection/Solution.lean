@@ -1,4 +1,8 @@
-import TruthCore.Results.Causality.ConcreteExistentialSupply.Solution
+module
+
+public import TruthCore.Results.Causality.ConcreteExistentialSupply.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.NecessaryWitnessConnection
 open TruthCore.Causality.BruteFoundationBoundary

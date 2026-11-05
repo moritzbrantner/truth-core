@@ -1,28 +1,30 @@
-import TruthCore.Alternatives.McTaggart
-import TruthCore.Case.Catholicism.Root
-import TruthCore.Case.Catholicism.StageOne.CausalFinitism
-import TruthCore.Case.Catholicism.StageOneQuartaVia
-import TruthCore.Case.Catholicism.StageTwo
-import TruthCore.Causality.FiniteBranching
-import TruthCore.Greek.Aristotle.Metaphysics
-import TruthCore.Greek.Aristotle.MetaphysicsIX
-import TruthCore.Greek.Aristotle.Physics
-import TruthCore.Greek.Aristotle.Physics.Typed.Motion
-import TruthCore.History.Resurrection
-import TruthCore.History.ResurrectionVocabulary
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.InfinityEternity
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.IntellectWill
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question105.Article5
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaVia
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3SecundaVia
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article1
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7Cause
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article8
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question4.Article1
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question4.Article2
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question5.Article1
+module
+
+public import TruthCore.Alternatives.McTaggart
+public import TruthCore.Case.Catholicism.Root
+public import TruthCore.Case.Catholicism.StageOne.CausalFinitism
+public import TruthCore.Case.Catholicism.StageOneQuartaVia
+public import TruthCore.Case.Catholicism.StageTwo
+public import TruthCore.Causality.FiniteBranching
+public import TruthCore.Greek.Aristotle.Metaphysics
+public import TruthCore.Greek.Aristotle.MetaphysicsIX
+public import TruthCore.Greek.Aristotle.Physics
+public import TruthCore.Greek.Aristotle.Physics.Typed.Motion
+public import TruthCore.History.Resurrection
+public import TruthCore.History.ResurrectionVocabulary
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.InfinityEternity
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.IntellectWill
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question105.Article5
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaVia
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3SecundaVia
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article1
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7Cause
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article8
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question4.Article1
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question4.Article2
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question5.Article1
 
 /-!
 First-closure hunt (#497, fourth slice): kernel-checked countermodels.
@@ -44,6 +46,8 @@ claimed to be faithful to any source.
 recorded rivals hold while the target fails, so no closure of that premise
 from the current chain is possible without `STMT-OPINION-IS-A-MOTION`.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Alternatives.FirstClosure
 

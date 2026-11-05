@@ -1,4 +1,8 @@
-import TruthCore.Models.ModalExistenceDegrees
+module
+
+public import TruthCore.Models.ModalExistenceDegrees
+
+@[expose] public section
 
 namespace TruthCore.Results.Modal.ExistenceDegreeUnboundedWorldControl
 

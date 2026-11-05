@@ -1,5 +1,9 @@
-import TruthCore.Comparison.Stevenson
-import TruthCore.Results.Comparison.Metaethics.StevensonEmotivismConsistent.Solution
+module
+
+public import TruthCore.Comparison.Stevenson
+public import TruthCore.Results.Comparison.Metaethics.StevensonEmotivismConsistent.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Comparison.Metaethics.StevensonFactualAgreement
 open TruthCore.Comparison.Stevenson

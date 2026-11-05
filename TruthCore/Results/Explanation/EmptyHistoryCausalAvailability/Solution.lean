@@ -1,4 +1,8 @@
-import TruthCore.Explanation.EmptyHistoryCausalAvailability
+module
+
+public import TruthCore.Explanation.EmptyHistoryCausalAvailability
+
+@[expose] public section
 
 namespace TruthCore.Results.Explanation.EmptyHistoryCausalAvailability
 open TruthCore.Explanation.EmptyHistoryCausalAvailability

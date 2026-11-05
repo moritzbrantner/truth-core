@@ -1,4 +1,9 @@
-import TruthCore.Greek.Aristotle.Physics.BookVI.Chapter5
+module
+
+public import TruthCore.Greek.Aristotle.Physics.BookVI.Chapter5
+
+@[expose] public section
+
 namespace TruthCore.Results.Aristotle.Physics.NoFirstContinuousTarget
 open TruthCore.Greek.Aristotle.Physics
 theorem noFirstContinuousTarget

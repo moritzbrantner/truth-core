@@ -1,4 +1,8 @@
-import TruthCore.Causality.PossibleCauseOfContingency
+module
+
+public import TruthCore.Causality.PossibleCauseOfContingency
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.PossibleCauseBruteSurvival
 

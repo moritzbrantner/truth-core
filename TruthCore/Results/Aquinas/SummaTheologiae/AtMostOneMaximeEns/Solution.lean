@@ -1,6 +1,11 @@
-import TruthCore.Case.Catholicism.StageOneQuartaVia
-import TruthCore.Greek.Aristotle.Metaphysics
-import TruthCore.Logic.ExcludedMiddle
+module
+
+public import TruthCore.Case.Catholicism.StageOneQuartaVia
+public import TruthCore.Greek.Aristotle.Metaphysics
+public import TruthCore.Logic.ExcludedMiddle
+
+@[expose] public section
+
 namespace TruthCore.Results.Aquinas.SummaTheologiae.AtMostOneMaximeEns
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Greek.Aristotle.Metaphysics (CauseOfQualityInAnotherIsMoreSuchReading)

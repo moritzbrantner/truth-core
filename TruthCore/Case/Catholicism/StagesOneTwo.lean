@@ -1,4 +1,8 @@
-import TruthCore.Case.Catholicism.StageTwo
+module
+
+public import TruthCore.Case.Catholicism.StageTwo
+
+@[expose] public section
 
 namespace TruthCore.Case.Catholicism
 

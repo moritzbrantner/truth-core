@@ -1,6 +1,10 @@
-import TruthCore.Causality.RootPositiveIntellectWill
-import TruthCore.Logic.ExcludedMiddle
-import TruthCore.Results.Causality.RootIntellectWill.Solution
+module
+
+public import TruthCore.Causality.RootPositiveIntellectWill
+public import TruthCore.Logic.ExcludedMiddle
+public import TruthCore.Results.Causality.RootIntellectWill.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.PerfectRootPositiveIntellectWill
 open TruthCore.Causality.BruteFoundationBoundary

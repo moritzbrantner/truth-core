@@ -1,5 +1,10 @@
-import TruthCore.Causality.SourceForest
-import TruthCore.Results.Causality.WorldSourceRegress.Solution
+module
+
+public import TruthCore.Causality.SourceForest
+public import TruthCore.Results.Causality.WorldSourceRegress.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Causality.SourceForest
 open TruthCore.Logic.Regress
 open TruthCore.Causality.SourceForest
