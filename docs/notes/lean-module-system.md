@@ -2,9 +2,10 @@
 
 Engineering investigation, lane C. No premise or frontier change. It records
 measurements on the pinned toolchain (`leanprover/lean4:v4.35.0`, Mathlib
-`v4.35.0`) and a pilot conversion of the Third Man area. Repository-wide
-adoption is an **open owner decision** (see [Decision points](#decision-points)),
-so this is a note, not an entry in `docs/decisions/`.
+`v4.35.0`) and a pilot conversion of the Third Man area. The owner adopted
+the module system repository-wide on #986; the decision record is
+`docs/decisions/2026-11-05-01-lean-module-system.md`, and the migration waves
+are recorded in [§5](#5-migration-waves).
 
 **Short answer.** On v4.35 the module system is on by default. Lake rebuilds a
 `module` importer from the imported module's *public* `.olean`. A theorem's
@@ -172,7 +173,8 @@ saves nothing.
 
 ## Decision points
 
-Recommended plan, for owner decision:
+Recommended plan, as put to the owner (decided on #986: points 1–4 and 6 as
+recommended; new Solutions and vocabulary files are modules):
 
 1. **Adopt at all?** Recommended: yes, as an engineering change. It hides no
    proof from the checkers, and Lake and Mathlib already push in this

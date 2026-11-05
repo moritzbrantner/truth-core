@@ -64,6 +64,8 @@ class ScaffoldResultTest(unittest.TestCase):
         self.assertNotIn("status", result)
         self.assertEqual(config["permitted_axioms"], [])
         self.assertIsNone(draft["supplied_type_comparison"])
+        self.assertTrue(draft["solution_header"].startswith("module\n\npublic import "))
+        self.assertIn("@[expose] public section", draft["solution_header"])
         self.assertEqual(before, sorted(p.relative_to(self.root) for p in self.root.rglob("*")))
         output = self.root / "drafts"
         scaffold.write_drafts(output, draft)

@@ -11,6 +11,9 @@ import sys
 
 import corpus
 
+# New Solutions are modules; Challenges stay ordinary files (owner decision on #986).
+SOLUTION_MODULE_HEADER = "module\n\npublic import <VOCABULARY-MODULE>\n\n@[expose] public section\n"
+
 
 def bundle(args: argparse.Namespace) -> dict:
     """Build drafts from authoritative statements, optionally comparing saved types."""
@@ -101,10 +104,13 @@ def bundle(args: argparse.Namespace) -> dict:
             for sid in dict.fromkeys(selected)
         ],
         "supplied_type_comparison": binding,
+        "solution_header": SOLUTION_MODULE_HEADER,
         "remaining": [
             "Review the supplied meaning against the Lean type and source evidence; inspect premise dossiers.",
             "Review inherited definition/disambiguation links, scoped assumptions and transcription classification.",
             "Freeze Challenge before constructing Solution; this command creates neither Lean file.",
+            "Keep Challenge.lean an ordinary file; write Solution.lean as a module (`module`, `public import`, "
+            "`@[expose] public section`; see solution_header and scripts/convert_to_module.py).",
             "Complete required result status only after the corresponding workflow step; never copy the manifest into corpus.",
             "Run required final binding, axiom, Comparator, NanoDa and repository gates on final inputs.",
         ],
