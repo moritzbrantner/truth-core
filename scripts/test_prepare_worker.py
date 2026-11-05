@@ -207,6 +207,19 @@ class SeedBuildTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "symlink"):
             worker.seed_build(self.root, self.warm)
         (self.olean.parent / "escape").unlink()
+        external = self.root.parent / "external-cache"
+        (self.warm / ".lake").rename(external)
+        (self.warm / ".lake").symlink_to(external, target_is_directory=True)
+        with self.assertRaisesRegex(ValueError, "symlinked build path"):
+            worker.seed_build(self.root, self.warm)
+        (self.warm / ".lake").unlink()
+        (external).rename(self.warm / ".lake")
+        own = self.root.parent / "own-lake"
+        own.mkdir()
+        (self.root / ".lake").symlink_to(own, target_is_directory=True)
+        with self.assertRaisesRegex(ValueError, "symlinked build path"):
+            worker.seed_build(self.root, self.warm)
+        (self.root / ".lake").unlink()
         alias = self.root.parent / "alias"
         alias.symlink_to(self.warm, target_is_directory=True)
         with self.assertRaises(ValueError):

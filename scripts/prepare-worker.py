@@ -204,7 +204,11 @@ def seed_build(root, source):
         if (source / name).read_bytes() != (root / name).read_bytes():
             raise ValueError(f"--seed-build-from has a different {name}; its build output cannot be reused")
     origin, target = source / ".lake/build", root / ".lake/build"
-    if origin.is_symlink() or not origin.is_dir():
+    # resolve() also rejects a symlinked `.lake`, so the copy cannot come from outside a clone.
+    for clone, path in ((source, origin), (root, target.parent)):
+        if path.exists() and path.resolve() != path:
+            raise ValueError(f"refusing a symlinked build path in {clone}: {path}")
+    if not origin.is_dir():
         raise ValueError(f"--seed-build-from has no real build output: {origin}")
     if target.exists() or target.is_symlink():
         print(f"unchanged: existing build output kept at {target}; Lake reconciles it", flush=True)
