@@ -1,6 +1,6 @@
 {
   "id": "STMT-COMPLETE-CHAIN-EXPLANATION-ALLOWS-UNSELECTED",
-  "paraphrase": "OPEN rival framework commitment: at the same designated arrangement and supplied complete-explanation judgment, some accepted candidate fails the entailing arrangement-selection test. The strongest rationale permits a noncontrastive, intrinsic or probabilistic account to explain without excluding every alternative; it does not deem every tautology an adequate explanation. No proponent is attributed without a read witness.",
+  "paraphrase": "OPEN rival framework commitment: at the same designated arrangement a and supplied complete-explanation judgment, some accepted candidate is true at a and also true at an explicitly distinct arrangement b. This truthful but nonselecting candidate represents a noncontrastive, intrinsic or probabilistic account leaving alternatives; accepting an actual-false candidate alone does not suffice. It does not deem every tautology an adequate explanation. No proponent is attributed without a read witness.",
   "lean_declaration": "TruthCore.Explanation.OrderingCardinality.AcceptsUnselected",
   "definition_ids": [
     "DEF-LABELED-CHAIN-ARRANGEMENT",

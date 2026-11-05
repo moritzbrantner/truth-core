@@ -98,8 +98,9 @@ it is not a failed induction obligation.
 for the designated arrangement a: every candidate accepted by the supplied
 adequacy judgment must be true there and exclude every different arrangement.
 `STMT-COMPLETE-CHAIN-EXPLANATION-ALLOWS-UNSELECTED` records the rival that some
-accepted candidate fails this entailing test. Both are openly stipulated
-framework options; no historical author is credited with either.
+accepted candidate is true at a and also true at an explicitly distinct
+arrangement b. Actual-false acceptance alone cannot witness surviving
+alternatives. Both are openly stipulated framework options; no historical author is credited with either.
 
 The strongest rival may regard the local links as exhausting the structural
 question, accept an intrinsic stopping point, or accept a probabilistic or
@@ -118,6 +119,15 @@ target. Neither that success nor the constant-vector failure establishes
 independent explanatory relevance, causal production, actual applicability,
 agent access, or the truth of either adequacy commitment.
 
+`ORDERING-TRUTHFUL-RIVAL-CONTROLS` checks this boundary: a judgment accepting
+only candidates false at a cannot satisfy the rival. Conditional on supplied
+acceptance of constant true, a swapped-label arrangement explicitly witnesses a
+truthful but nonselecting candidate. This is a test of the formal semantics,
+not an assertion that a tautology adequately explains reality. The same control
+proves the truthful rival incompatible with the local selection requirement.
+The initial encoding by mere failure of `Selects` was rejected because it also
+admitted actual-false candidates; such acceptance is not a surviving alternative.
+
 Even granting the local bridge would not yet prove that infinite regress is
 impossible: one must show that an infinite chain could have no accepted
 complete explanation. Counting its alternatives does not show this. No such
@@ -125,7 +135,7 @@ inference or refutation is registered.
 
 ## Premises, sources and verification boundary
 
-The three certificates are closed mathematical/informational results under
+The four certificates are closed mathematical/informational results under
 Mathlib's allowed `propext`, `Classical.choice`, `Quot.sound` axiom policy.
 The explanatory bridge and its rival are open statements, not premises secretly
 used by those proofs. No new source claim is introduced. Leibniz's copied-books

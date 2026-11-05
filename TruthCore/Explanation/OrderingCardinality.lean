@@ -43,11 +43,12 @@ def CompleteRequiresSelection (a : Arrangement)
   ∀ p, adequate p → Selects a p
 
 /-- OPEN rival to the local entailing demand: at least one accepted complete
-explanation leaves another arrangement compatible with its candidate truth.
-It does not assert that every uninformative token is adequate. -/
+explanation is true at the designated arrangement and leaves a distinct
+arrangement compatible with the same candidate truth. It excludes actual-false
+candidates and does not assert that every uninformative token is adequate. -/
 def AcceptsUnselected (a : Arrangement)
     (adequate : (Arrangement → Prop) → Prop) : Prop :=
-  ∃ p, adequate p ∧ ¬ Selects a p
+  ∃ p, adequate p ∧ p a ∧ ∃ b, b ≠ a ∧ p b
 
 /-- These are propositions about the entire endpoint (indexed by Nat) as well
 as links. They contain the arrangement's full information, not its warrant. -/
@@ -91,5 +92,13 @@ def Controls : Prop :=
       Selects a p) ∧
   (∀ a : Arrangement, ∃ p,
     EvidenceOnly FullTruth (fun _ => True) p ∧ Selects a p)
+
+/-- A false-at-actual candidate cannot witness the truthful rival. Supplied
+acceptance of the constant true candidate witnesses the rival on the same
+arrangement arena, but its explanatory adequacy is only a hypothesis. -/
+def TruthfulRivalControls : Prop :=
+  (∀ a adequate, (∀ p, adequate p → ¬ p a) → ¬ AcceptsUnselected a adequate) ∧
+  (∀ a adequate, adequate (fun _ => True) → AcceptsUnselected a adequate) ∧
+  (∀ a adequate, AcceptsUnselected a adequate → ¬ CompleteRequiresSelection a adequate)
 
 end TruthCore.Explanation.OrderingCardinality
