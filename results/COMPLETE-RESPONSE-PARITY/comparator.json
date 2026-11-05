@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.CompleteResponseParity.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.CompleteResponseParity.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Explanation.CompleteResponseParity.certificate"
+  ],
+  "permitted_axioms": ["propext", "Classical.choice", "Quot.sound"],
+  "enable_nanoda": true
+}

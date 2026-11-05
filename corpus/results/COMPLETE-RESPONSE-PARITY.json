@@ -1,0 +1,10 @@
+{
+  "id": "COMPLETE-RESPONSE-PARITY",
+  "argument_id": "COMPLETE-RESPONSE-PARITY",
+  "challenge_module": "TruthCore.Results.Explanation.CompleteResponseParity.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.CompleteResponseParity.Solution",
+  "theorem": "TruthCore.Results.Explanation.CompleteResponseParity.certificate",
+  "comparator_config": "results/COMPLETE-RESPONSE-PARITY/comparator.json",
+  "status": "solution-present",
+  "description": "A strengthened #744 single-source Exercise and the #735 plural-source Exercise give identical public a,b,target occurrence tables on every Bool-pair scenario, with all records jointly sufficient, actual coherence, indispensable target contributors, and inductive Supply of every event. The strengthened single exercise has a scenario-sufficient common source and a least graph event; the plural exercise has neither. The original single exercise fails root-to-contributor record sufficiency, establishing why the strengthening matters. Different hidden carriers and record graphs are admitted. This shows that the selected public response and record-sufficiency tests do not identify graph source count; it establishes neither causation-as-production nor existential explanatory adequacy, metaphysical possibility, or a discharged root premise."
+}

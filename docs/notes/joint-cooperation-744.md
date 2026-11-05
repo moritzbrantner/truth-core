@@ -90,6 +90,61 @@ everywhere, with a needed pair that is brute. If an event occurring everywhere s
 contributor, both cannot be needed, so a single determining source occurring everywhere
 has the same no-need result.
 
+### Stronger shared-response control (`COMPLETE-RESPONSE-PARITY`, 2026-11-04)
+
+The original `single` fixture was a deliberately **incomplete** response comparison:
+its root `r` occurs at all four Boolean-pair scenarios, but `a` and `b` each
+sometimes fail. Thus the records `r → a` and `r → b` are not jointly sufficient.
+Comparing that fixture to a plural exercise with all records jointly sufficient
+would leave the unequal record-completeness objection unanswered.
+
+The new `completedSingle` control changes only the *off-scenario occurrence*
+of the hidden root: `r` now occurs exactly when both Boolean inputs occur.
+The public occurrence table stays unchanged, as do actual occurrence,
+contributors, group records, exercise flags and the graph:
+
+| Scenario `(a,b)` | Public target, both models | Hidden `r`, completed single | `r` in original single |
+| --- | --- | --- | --- |
+| `(false,false)` | `false` | `false` | `true` |
+| `(false,true)` | `false` | `false` | `true` |
+| `(true,false)` | `false` | `false` | `true` |
+| `(true,true)` | `true` | `true` | `true` |
+
+In **both** `completedSingle` and #735's `exercisePlural`, every admitted,
+exercised group is jointly sufficient over all four allowed scenarios. Both
+have coherent actual exercises, both target contributors are separately needed,
+and every event has inductive `Supply`. Nevertheless:
+
+- `completedSingle` has the least graph event `r` and an exercised common
+  ancestor that scenario-suffices for both public inputs.
+- `exercisePlural` has distinct source events `0` and `1`, with neither a
+  common ancestor nor a least graph event.
+- The original one-source `single` control demonstrably fails the stronger
+  all-record-sufficiency requirement (`OriginalGap`).
+
+The comparison matches **only** the three explicitly mapped observations
+over one common scenario carrier. It does not identify the two different
+hidden event/bearer carriers or imply observational equality for every hidden
+event, let alone invariance under actual interventions. Here `Supply` is
+syntactic inductive supply from a source and records; and `jointlySufficient`
+is truth-preserving implication over selected scenarios, **not** actual
+causal production. The hidden single root was allowed to disappear exactly
+when the observed conjunction is false; this is a mathematical construction,
+not an independently motivated explanation of why such a source exists.
+
+The failed candidate discriminator is: *public input/effect truth tables plus
+joint sufficiency of every record, with inductive supply, determine a unique
+underlying source*. They do not in these two stipulated interpretations.
+To discriminate these models requires stronger **and independently justified**
+information about hidden causal mechanism, interventions, or productive/per se
+grounding. In particular, a stronger productive criterion must apply to the
+one-source control as well as the strongest plural rival; only then can we
+test whether it excludes the latter without merely assuming unity.
+
+Premise/root delta: none. This bounded result neither closes #735's ultimate
+explanatory adequacy bridge nor warrants treating the Boolean scenarios as
+possible worlds or the graphs as real existential dependence.
+
 ## Boundaries
 
 - Shared effect and weak connectivity do not give a unique source: `PluralMinima` (#707, #733)

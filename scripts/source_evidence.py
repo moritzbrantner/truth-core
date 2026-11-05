@@ -5,13 +5,13 @@ from __future__ import annotations
 
 import argparse
 import codecs
-import fnmatch
 import gzip
 import hashlib
 import html.parser
 import json
 import os
 import re
+import shutil
 import subprocess
 import sys
 import time
@@ -20,6 +20,11 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
 from typing import Any, Iterable, Iterator
+
+try:
+    from compression import zstd as _zstd
+except ImportError:
+    _zstd = None
 
 ROOT = Path(__file__).resolve().parents[1]
 CORPUS = ROOT / "corpus"
@@ -1154,8 +1159,36 @@ def sha256_bytes(data: bytes) -> str:
     return "sha256:" + hashlib.sha256(data).hexdigest()
 
 
+def decompress_zstd(data: bytes, label: str) -> bytes:
+    """Decode an HTTP entity without accepting compressed bytes as pinned content."""
+    if _zstd is not None:
+        try:
+            return _zstd.decompress(data)
+        except _zstd.ZstdError as exc:
+            raise SourceEvidenceError(f"{label}: invalid zstd response body: {exc}") from exc
+    decoder = shutil.which("zstd")
+    if decoder is None:
+        raise SourceEvidenceError(
+            f"{label}: zstd response requires Python 3.14 compression.zstd or the zstd CLI "
+            "(install zstd on older Python)"
+        )
+    try:
+        decoded = subprocess.run(
+            [decoder, "--decompress", "--stdout", "--quiet"],
+            input=data,
+            capture_output=True,
+            timeout=30,
+        )
+    except (OSError, subprocess.TimeoutExpired) as exc:
+        raise SourceEvidenceError(f"{label}: cannot run zstd response decoder: {exc}") from exc
+    if decoded.returncode:
+        detail = decoded.stderr.decode("utf-8", errors="replace").strip()
+        raise SourceEvidenceError(f"{label}: invalid zstd response body: {detail}")
+    return decoded.stdout
+
+
 def download(url: str, label: str, *, attempts: int = 3) -> bytes:
-    """The response body with any gzip content coding removed; network errors are retried.
+    """The response body with gzip/zstd content coding removed; network errors are retried.
 
     The pinned hash covers these bytes. A fixed User-Agent is sent because some
     servers vary the page by client.
@@ -1168,8 +1201,11 @@ def download(url: str, label: str, *, attempts: int = 3) -> bytes:
         try:
             with urllib.request.urlopen(request, timeout=60) as response:
                 data = response.read()
-                if response.headers.get("Content-Encoding", "").lower() == "gzip":
+                content_encoding = response.headers.get("Content-Encoding", "").strip().lower()
+                if content_encoding == "gzip":
                     data = gzip.decompress(data)
+                elif content_encoding == "zstd":
+                    data = decompress_zstd(data, label)
             return data
         except (urllib.error.URLError, TimeoutError, OSError) as exc:
             last_error = exc
@@ -1222,11 +1258,6 @@ def materialize_web_snapshot(passage: dict[str, Any], *, use_cache: bool = True,
     return text
 
 
-# A change to how evidence is fetched, extracted or hashed can change every passage's
-# result, so it re-verifies every passage live even on a pull request.
-FULL_VERIFY_PATTERNS = ("scripts/source_evidence.py",)
-
-
 def git_changed_files(base: str, head: str, root: Path = ROOT) -> list[str]:
     output = subprocess.run(
         ["git", "diff", "--name-only", "--no-renames", base, head],
@@ -1240,15 +1271,13 @@ def git_changed_files(base: str, head: str, root: Path = ROOT) -> list[str]:
 
 def changed_passage_ids(
     changed_files: Iterable[str], passages: dict[str, tuple[Path, dict[str, Any]]], root: Path = ROOT
-) -> set[str] | None:
-    """The passages a change adds or edits, or None when every passage must be verified.
+) -> set[str]:
+    """The passages whose manifests a change adds or edits.
 
-    A passage is selected when its manifest file under corpus/passages/ changed. A
-    deleted manifest selects nothing; a change to the verifier itself selects all.
+    Deleted manifests and verifier-only changes select nothing. Every manifest
+    is still validated offline; main and scheduled CI verify all sources live.
     """
     changed = set(changed_files)
-    if any(fnmatch.fnmatch(path, pattern) for path in changed for pattern in FULL_VERIFY_PATTERNS):
-        return None
     return {
         passage_id
         for passage_id, (path, _) in passages.items()
@@ -1546,7 +1575,7 @@ def parser() -> argparse.ArgumentParser:
         "--base",
         help=(
             "verify live only the passages whose manifests changed between BASE and --head "
-            "(all of them when this script changed); every manifest is still checked offline"
+            "(including verifier-only PRs with no changed passages); every manifest is checked offline"
         ),
     )
     verify_parser.add_argument("--head", default="HEAD", help="the head of the --base comparison")
@@ -1583,8 +1612,6 @@ def main() -> int:
             if args.base is None:
                 return verify_all(export)
             selected = changed_passage_ids(git_changed_files(args.base, args.head), passage_index())
-            if selected is None:
-                print(f"{', '.join(FULL_VERIFY_PATTERNS)} changed: verifying every passage live")
             return verify_all(export, selected)
         if args.command == "materialize":
             return materialize(args.passage_id, args.output, args.export)

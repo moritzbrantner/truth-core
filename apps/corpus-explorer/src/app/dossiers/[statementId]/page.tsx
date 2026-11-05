@@ -1,9 +1,10 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
-import { TermsSection } from "@/components/terms-section";
-import { findStatement, getCorpus } from "@/lib/corpus";
+import { findStatement, getCorpus, termsFor } from "@/lib/corpus";
 import { getDossiers } from "@/lib/premise-dossier";
+
+import { DossierTermIndex } from "./dossier-term-index";
 
 export function generateStaticParams() {
   return Object.keys(getDossiers()).map((statementId) => ({ statementId }));
@@ -50,7 +51,7 @@ export default async function DossierPage({ params }: { params: Promise<{ statem
           <p className="mt-2 text-sm leading-6">{claim.interpretation}</p>
         </li>)}</ul> : <p className="mt-3">No source reading states or supports this proposition.</p>}
       </section>
-      <TermsSection corpus={corpus} records={[{ definition_ids: dossier.definition_ids, disambiguation_ids: dossier.disambiguation_ids }]} />
+      <DossierTermIndex terms={termsFor(corpus, [{ definition_ids: dossier.definition_ids, disambiguation_ids: dossier.disambiguation_ids }])} />
       <section className="record-section" aria-labelledby="dossier-rivals">
         <h2 id="dossier-rivals" className="eyebrow">Alternatives and objections</h2>
         {relations.length ? <ul className="mt-4 grid gap-3">{relations.map((relation) => {
