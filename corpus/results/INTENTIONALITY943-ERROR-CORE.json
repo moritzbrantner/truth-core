@@ -1,0 +1,10 @@
+{
+  "id": "INTENTIONALITY943-ERROR-CORE",
+  "argument_id": "INTENTIONALITY943-ERROR-CORE",
+  "challenge_module": "TruthCore.Results.Comparison.Intentionality943.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.Intentionality943.Solution",
+  "theorem": "TruthCore.Results.Comparison.Intentionality943.errorCore",
+  "comparator_config": "results/INTENTIONALITY943-ERROR-CORE/comparator.json",
+  "status": "solution-present",
+  "description": "Take the existing false-content token and situation, apply the qualified report premise there, and transport report truth to content truth through the tested equivalence, contradicting that same token’s false content. Three single-deletion models show inclusion-minimality in this fixed semantics, not minimum cardinality across other vocabularies. The misleading replacement of external content by a correct internal report fails; neither mental/physical identity nor physical realization is a premise of this core. Comparator also checks every single-deletion control and the joint body-sharing bridge omission. These finite formal interpretations establish no premise truth and no root closure."
+}

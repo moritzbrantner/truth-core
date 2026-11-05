@@ -1,0 +1,21 @@
+{
+  "id": "INTENTIONALITY943-REJECT-REPORT-ONLY",
+  "premise_statement_ids": [
+    "STMT-INTENTIONALITY943-ERROR",
+    "STMT-INTENTIONALITY943-REPORT-CORRECT"
+  ],
+  "conclusion_statement_id": "STMT-INTENTIONALITY943-REJECT-CONTENT-ONLY-REPORT",
+  "inference_ids": [
+    "INF-INTENTIONALITY943-REJECT-REPORT-ONLY"
+  ],
+  "meaning": "Compose errorCore with a scoped assumption of the report-only content equivalence and discharge that assumption. Retain error and the qualified report premise. This reproduces the limited objection without deriving a nonphysical subject.",
+  "definition_ids": [
+    "DEF-MIND-OCCURRENCE-FRAME",
+    "DEF-INTENTIONALITY943-CONTENT",
+    "DEF-INTENTIONALITY943-AFFECTION-REPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-INTENTIONALITY943-TOKEN-CONTENT",
+    "DISAMB-INTENTIONALITY943-REPORT-CONTENT"
+  ]
+}

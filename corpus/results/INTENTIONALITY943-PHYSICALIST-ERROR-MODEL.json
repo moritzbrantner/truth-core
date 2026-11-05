@@ -1,0 +1,10 @@
+{
+  "id": "INTENTIONALITY943-PHYSICALIST-ERROR-MODEL",
+  "argument_id": "INTENTIONALITY943-PHYSICALIST-ERROR-MODEL",
+  "challenge_module": "TruthCore.Results.Comparison.Intentionality943.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.Intentionality943.Solution",
+  "theorem": "TruthCore.Results.Comparison.Intentionality943.physicalistErrorModel",
+  "comparator_config": "results/INTENTIONALITY943-PHYSICALIST-ERROR-MODEL/comparator.json",
+  "status": "solution-present",
+  "description": "One finite interpretation jointly satisfies the old causal background and reductive kind classification, consumer content, a true affection report and an erroneous representation. It reuses MindPhysicalism.reductiveBackground rather than restating its causal consequences as assumptions. No general or empirical physicalism follows, and selectional history is stipulated in a primitive relation. Comparator also checks every single-deletion control and the joint body-sharing bridge omission. These finite formal interpretations establish no premise truth and no root closure."
+}

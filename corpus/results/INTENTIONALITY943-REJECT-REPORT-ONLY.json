@@ -1,0 +1,10 @@
+{
+  "id": "INTENTIONALITY943-REJECT-REPORT-ONLY",
+  "argument_id": "INTENTIONALITY943-REJECT-REPORT-ONLY",
+  "challenge_module": "TruthCore.Results.Comparison.Intentionality943.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.Intentionality943.Solution",
+  "theorem": "TruthCore.Results.Comparison.Intentionality943.rejectAffectionOnly",
+  "comparator_config": "results/INTENTIONALITY943-REJECT-REPORT-ONLY/comparator.json",
+  "status": "solution-present",
+  "description": "Compose errorCore with a scoped assumption of the report-only content equivalence and discharge that assumption. Retain error and the qualified report premise. This reproduces the limited objection without deriving a nonphysical subject. Comparator also checks every single-deletion control and the joint body-sharing bridge omission. These finite formal interpretations establish no premise truth and no root closure."
+}
