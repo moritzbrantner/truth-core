@@ -196,6 +196,15 @@ ATTACKS_PREDICATE = "attacks"
 SUPPORTS_PREDICATE = "supports"
 # Metadata only: never source support or premise closure.
 SCHEMA_INSTANCE_PREDICATE = "instance_of_schema"
+# Strength order between sibling versions of a proposition (#1017): the
+# subject (strong version) entails the object (weak version), backed by the
+# verified result named in `verification_result_id`, whose argument has the
+# strong version as its only premise and the weak version as its conclusion.
+# In `frontier` an established strong version establishes the weak one, and a
+# refuted weak version refutes the strong one; never the reverse. The backing
+# argument is a registration, not a route step: it closes nothing by rules
+# (a) or (d) and is not walked (see `strength_order`).
+STRENGTHENS_PREDICATE = "strengthens"
 # Designated route (argument → statement; owner decision on #143, 2026-10-24):
 # when a statement has root_route relations, `frontier` walks up into it only
 # through the designated arguments, so premises of other arguments for the same
@@ -409,6 +418,7 @@ def validate_premise_program_relation(path: Path, relation: dict[str, Any]) -> N
         ATTACKS_PREDICATE: ({"statement", "claim", "argument"}, "statement"),
         SUPPORTS_PREDICATE: ({"claim"}, "statement"),
         SCHEMA_INSTANCE_PREDICATE: ({"statement"}, "statement"),
+        STRENGTHENS_PREDICATE: ({"statement"}, "statement"),
         ROOT_ROUTE_PREDICATE: ({"argument"}, "statement"),
     }.get(predicate)
     if expected is None:
@@ -443,6 +453,169 @@ def validate_schema_registration(
                 f"{path.relative_to(ROOT)}: {field} must name an obligation in "
                 f"{result_id}'s Comparator config"
             )
+
+
+def strength_order(
+    relations: list[dict[str, Any]],
+    results: list[dict[str, Any]],
+    arguments: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    """The `strengthens` relations whose backing result resolves to an argument
+    with exactly the strong version as premise and the weak version as
+    conclusion (#1017), sorted by relation ID. `check` rejects any other;
+    `frontier` uses only these."""
+    result_by_id = {result["id"]: result for result in results}
+    argument_by_id = {argument["id"]: argument for argument in arguments}
+    order = []
+    for relation in sorted(relations, key=lambda relation: relation["id"]):
+        if relation.get("predicate") != STRENGTHENS_PREDICATE:
+            continue
+        result = result_by_id.get(relation.get("verification_result_id"))
+        argument = argument_by_id.get(result["argument_id"]) if result else None
+        if (
+            argument is None
+            or argument["premise_statement_ids"] != [relation["subject_id"]]
+            or argument["conclusion_statement_id"] != relation["object_id"]
+            or argument.get("commitment_statement_ids")
+        ):
+            continue
+        order.append(
+            {
+                "relation_id": relation["id"],
+                "strong_statement_id": relation["subject_id"],
+                "weak_statement_id": relation["object_id"],
+                "result_id": result["id"],
+                "argument_id": argument["id"],
+                "strictness_result_id": relation.get("strictness_result_id"),
+            }
+        )
+    return order
+
+
+def validate_strength_registration(
+    path: Path,
+    relation: dict[str, Any],
+    results: dict[str, dict[str, Any]],
+    arguments: dict[str, dict[str, Any]],
+) -> None:
+    """A `strengthens` relation (#1017) needs a verified result proving the
+    entailment: its argument's only premise is the strong version and its
+    conclusion the weak one. `bind-check` binds that result's theorem to the
+    two statements' declarations like any other result. An optional
+    `strictness_result_id` names a premise-free result (a countermodel)
+    showing the weak version does not entail the strong one."""
+    if relation["predicate"] != STRENGTHENS_PREDICATE:
+        return
+    where = path.relative_to(ROOT)
+    require(relation, ["verification_result_id", "note"], path)
+    if not isinstance(relation["note"], str) or not relation["note"].strip():
+        raise CorpusError(f"{where}: strengthens note must be nonempty text")
+    strong, weak = relation["subject_id"], relation["object_id"]
+    if strong == weak:
+        raise CorpusError(f"{where}: strengthens relates {strong} to itself")
+    result_id = relation["verification_result_id"]
+    result = results.get(result_id) if isinstance(result_id, str) else None
+    if result is None:
+        raise CorpusError(
+            f"{where}: strengthens needs a verified result proving the entailment; "
+            f"unknown verification_result_id {result_id}"
+        )
+    argument = arguments.get(result["argument_id"])
+    if (
+        argument is None
+        or argument["premise_statement_ids"] != [strong]
+        or argument["conclusion_statement_id"] != weak
+        or argument.get("commitment_statement_ids")
+    ):
+        raise CorpusError(
+            f"{where}: {result_id} does not prove the entailment: its argument must have exactly "
+            f"the premise {strong} and the conclusion {weak}"
+        )
+    strictness = relation.get("strictness_result_id")
+    if strictness is not None:
+        strict_result = results.get(strictness) if isinstance(strictness, str) else None
+        strict_argument = arguments.get(strict_result["argument_id"]) if strict_result else None
+        if strict_argument is None or strict_argument["premise_statement_ids"]:
+            raise CorpusError(
+                f"{where}: strictness_result_id {strictness} must name a verified premise-free result"
+            )
+
+
+def validate_strength_order(relations: list[tuple[Path, dict[str, Any]]]) -> None:
+    """One registration per pair, no reverse pair (use `logically_equivalent_to`
+    for equivalent versions), and one backing result per registration."""
+    pairs: dict[tuple[str, str], str] = {}
+    backing: dict[str, str] = {}
+    for path, relation in sorted(relations, key=lambda entry: entry[1]["id"]):
+        if relation.get("predicate") != STRENGTHENS_PREDICATE:
+            continue
+        where = path.relative_to(ROOT)
+        pair = (relation["subject_id"], relation["object_id"])
+        if pair in pairs:
+            raise CorpusError(f"{where}: {pairs[pair]} already registers {pair[0]} strengthens {pair[1]}")
+        if pair[::-1] in pairs:
+            raise CorpusError(
+                f"{where}: {pairs[pair[::-1]]} registers the reverse strength order; record equivalent "
+                "versions with logically_equivalent_to"
+            )
+        pairs[pair] = relation["id"]
+        result_id = relation["verification_result_id"]
+        if result_id in backing:
+            raise CorpusError(f"{where}: {result_id} already backs {backing[result_id]}")
+        backing[result_id] = relation["id"]
+
+
+def validate_strong_version_needed(
+    path: Path,
+    argument: dict[str, Any],
+    strong_versions: set[str],
+) -> None:
+    """`strong_version_needed` (#1017) maps each strong-version premise the
+    argument keeps, although a proved weak sibling exists, to the reason the
+    weak version does not suffice."""
+    needed = argument.get("strong_version_needed")
+    if needed is None:
+        return
+    where = path.relative_to(ROOT)
+    if not isinstance(needed, dict) or not needed:
+        raise CorpusError(f"{where}: strong_version_needed must be a nonempty object")
+    for statement_id, reason in needed.items():
+        if statement_id not in argument["premise_statement_ids"]:
+            raise CorpusError(f"{where}: strong_version_needed names {statement_id}, which is not a premise")
+        if statement_id not in strong_versions:
+            raise CorpusError(
+                f"{where}: strong_version_needed names {statement_id}, which strengthens no statement"
+            )
+        if not isinstance(reason, str) or not reason.strip():
+            raise CorpusError(f"{where}: strong_version_needed reason for {statement_id} must be nonempty text")
+
+
+def strength_use_warnings(
+    arguments: list[dict[str, Any]],
+    order: list[dict[str, Any]],
+) -> list[str]:
+    """Advisory (#1017, design point 3): an argument that uses a strong version
+    with a proved weak sibling, without saying in `strong_version_needed` why
+    the weak one does not suffice. Whether it suffices needs a proof attempt,
+    so this only asks for the declaration; one warning per strong version."""
+    weak_of: dict[str, list[str]] = {}
+    registrations = {entry["argument_id"] for entry in order}
+    for entry in order:
+        weak_of.setdefault(entry["strong_statement_id"], []).append(entry["weak_statement_id"])
+    undeclared: dict[str, list[str]] = {}
+    for argument in sorted(arguments, key=lambda argument: argument["id"]):
+        if argument["id"] in registrations:
+            continue
+        needed = argument.get("strong_version_needed") or {}
+        for premise in argument["premise_statement_ids"]:
+            if premise in weak_of and premise not in needed:
+                undeclared.setdefault(premise, []).append(argument["id"])
+    return [
+        f"{strong}: used by {len(users)} argument(s) without strong_version_needed although its weak "
+        f"version {', '.join(sorted(weak_of[strong]))} is proved from it; use the weakest version that "
+        f"suffices or record why it does not (#1017): {', '.join(users)}"
+        for strong, users in sorted(undeclared.items())
+    ]
 
 
 def schema_binding_records(
@@ -701,7 +874,20 @@ def frontier_report(
     when a claim on a pinned source states it, otherwise "supported" when a
     `supports` relation or only bibliographic or unavailable-witness claims
     point to it, otherwise "bare". Each route also counts its open leaves by
-    the same depths (`depth_counts`)."""
+    the same depths (`depth_counts`).
+
+    Strength order (#1017): for each `strengthens` relation an established
+    strong version establishes (and closes) the weak one, and a refuted weak
+    version refutes the strong one, inside the same least fixpoint; never the
+    reverse. The backing argument of a registration is set aside before
+    anything else is computed: it would otherwise close the weak version from
+    an open strong sibling by rule (a) or (d), circularly where the weak
+    version is also a premise of a proof of the strong one."""
+    order = strength_order(relations, results, arguments)
+    registration_arguments = {entry["argument_id"] for entry in order}
+    if registration_arguments:
+        arguments = [argument for argument in arguments if argument["id"] not in registration_arguments]
+        results = [result for result in results if result["argument_id"] not in registration_arguments]
     statement_by_id = {statement["id"]: statement for statement in statements}
     argument_by_id = {argument["id"]: argument for argument in arguments}
     verified_arguments = {result["argument_id"] for result in results}
@@ -922,6 +1108,8 @@ def frontier_report(
         if result["id"] in transcription_results and result["argument_id"] in argument_by_id
     )
     closed_via_transcription: dict[str, dict[str, Any]] = {}
+    established_via_strength: dict[str, dict[str, Any]] = {}
+    refuted_via_strength: dict[str, dict[str, Any]] = {}
     verified_steps = [
         argument_by_id[result["argument_id"]] for result in results if result["argument_id"] in argument_by_id
     ]
@@ -948,6 +1136,20 @@ def frontier_report(
                 premise in established for premise in argument["premise_statement_ids"]
             ):
                 established.add(conclusion)
+                changed = True
+        # Strength order (#1017), through each registration's proved
+        # entailment: established strong -> established weak; refuted weak ->
+        # refuted strong (contraposition). Never the reverse.
+        for entry in order:
+            strong, weak = entry["strong_statement_id"], entry["weak_statement_id"]
+            if strong in established and weak not in established:
+                established.add(weak)
+                closed.add(weak)
+                established_via_strength[weak] = entry
+                changed = True
+            if weak in refuted and strong not in refuted:
+                refuted.add(strong)
+                refuted_via_strength[strong] = entry
                 changed = True
         for result_id, argument in transcription_steps:
             conclusion = argument["conclusion_statement_id"]
@@ -1011,6 +1213,8 @@ def frontier_report(
             closed_statements[statement_id] = "self_evident"
         elif defended(statement_id):
             closed_statements[statement_id] = "alternatives_refuted"
+        elif statement_id in established_via_strength:
+            closed_statements[statement_id] = "via_strength"
         else:
             closed_statements[statement_id] = "via_transcription"
 
@@ -1176,6 +1380,15 @@ def frontier_report(
         "closed_via_transcription": closures,
         "refutations": refutation_report,
         "refuted_statements": sorted(refuted),
+        # #1017: every registered strength pair and what propagated through it.
+        "strength_order": [
+            {
+                **entry,
+                "weak_established_via_strength": established_via_strength.get(entry["weak_statement_id"]) is entry,
+                "strong_refuted_via_strength": refuted_via_strength.get(entry["strong_statement_id"]) is entry,
+            }
+            for entry in order
+        ],
         "routes": route_report,
         "closed_statements": closed_statements,
         "floor": floor_report,
@@ -1755,6 +1968,23 @@ def format_frontier(report: dict[str, Any]) -> str:
             f"  {closure['statement_id']}: closed via transcription {closure['result_id']} "
             f"from closed premises ({', '.join(closure['premise_statement_ids']) or 'none'})"
         )
+    strength = report.get("strength_order", [])
+    if strength:
+        lines.append("")
+        lines.append(
+            f"strength order: {len(strength)} strong/weak pairs (established strong establishes weak; "
+            "refuted weak refutes strong; never the reverse)"
+        )
+        for entry in strength:
+            notes = []
+            if entry["weak_established_via_strength"]:
+                notes.append("weak established via strength")
+            if entry["strong_refuted_via_strength"]:
+                notes.append("strong refuted via strength")
+            suffix = f" [{'; '.join(notes)}]" if notes else ""
+            lines.append(
+                f"  {entry['strong_statement_id']} => {entry['weak_statement_id']} ({entry['result_id']}){suffix}"
+            )
     flags = report.get("transcription_flags", [])
     lines.append("")
     lines.append(
@@ -2264,8 +2494,10 @@ def validate() -> dict[str, int]:
     result_configs = {result["id"]: validate_result_config(path, result, argument_index) for path, result in results}
 
     result_records = {key: value[1] for key, value in result_index.items()}
+    argument_records = {key: value[1] for key, value in argument_index.items()}
     for path, relation in relations:
         validate_schema_registration(path, relation, result_records, result_configs)
+        validate_strength_registration(path, relation, result_records, argument_records)
         if relation.get("predicate") == "strength_comparison":
             from strength_comparisons import validate_registration
             try:
@@ -2273,6 +2505,13 @@ def validate() -> dict[str, int]:
                                       result_records, {aid: record for aid, (_, record) in argument_index.items()}, result_configs)
             except ValueError as exc:
                 raise CorpusError(f"{path.relative_to(ROOT)}: {exc}") from exc
+
+    validate_strength_order(relations)
+    strong_versions = {
+        relation["subject_id"] for _, relation in relations if relation.get("predicate") == STRENGTHENS_PREDICATE
+    }
+    for path, argument in arguments:
+        validate_strong_version_needed(path, argument, strong_versions)
 
     unused = sorted(definition_ids - used_definitions)
     if unused:
@@ -2354,6 +2593,7 @@ def check_warnings() -> list[str]:
             f"for closure rule (c): {reason}"
         )
     warnings.extend(supports_gap_warnings(relations))
+    warnings.extend(strength_use_warnings(arguments, strength_order(relations, results, arguments)))
     for entry in report["floor"]:
         if not entry["met"]:
             warnings.append(

@@ -21,7 +21,9 @@ export function StatementStateMark({ state }: { state: StatementState }) {
           ? "self-evident"
           : state.reason === "alternatives_refuted"
             ? "defended"
-            : "transcription";
+            : state.reason === "via_strength"
+              ? "proved"
+              : "transcription";
     return state.established ? (
       <Mark tone={tone} title="Established: it rests only on self-evident or defended statements, through verified results">
         {CLOSURE_LABELS[state.reason]} · established

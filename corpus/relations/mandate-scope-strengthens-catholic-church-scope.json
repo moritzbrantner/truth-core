@@ -1,0 +1,10 @@
+{
+  "id": "REL-MANDATE-SCOPE-STRENGTHENS-CATHOLIC-CHURCH-SCOPE",
+  "subject_kind": "statement",
+  "subject_id": "STMT-MANDATE-COVERS-JESUS-FOUNDING-WITH-TEACHING",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "STMT-MANDATE-COVERS-JESUS-FOUNDING-OF-CATHOLIC-CHURCH",
+  "verification_result_id": "CATHOLICISM-MANDATE-SCOPE-STRONG-ENTAILS-CATHOLIC-CHURCH-SCOPE",
+  "note": "The universal scope premise of the founding bridge and its instance at the Catholic Church (#357). The converse holds only together with stage 6 (CATHOLICISM-MANDATE-SCOPE-FROM-CATHOLIC-CHURCH-FOUNDING); FoundingScope.omissionModels shows that without stage 6 a second founded society falsifies the universal premise while the narrow one holds, but that model is not registered as a premise-free result, so no strictness result is linked."
+}

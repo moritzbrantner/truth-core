@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaStrength.AbsoluteReading.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaStrength.AbsoluteReading.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaStrength.AbsoluteReading.absoluteReadingEntailsRelative"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

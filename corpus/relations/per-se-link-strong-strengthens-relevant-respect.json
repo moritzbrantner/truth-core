@@ -1,0 +1,10 @@
+{
+  "id": "REL-PER-SE-LINK-STRONG-STRENGTHENS-RELEVANT-RESPECT",
+  "subject_kind": "statement",
+  "subject_id": "STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "STMT-SECOND-MOVERS-MOVE-AS-MOVED-IN-RELEVANT-RESPECT",
+  "verification_result_id": "AQUINAS-ST-I-Q2-A3-SECOND-MOVERS-STRONG-ENTAILS-RELEVANT-RESPECT",
+  "note": "Sibling readings of q.2 a.3 moventia secunda non movent nisi per hoc quod sunt mota (#151, DISAMB-PER-SE-LINK). The strong reading counts a second mover as a per se link whenever it is moved in any respect; the relevant-respect reading only when the respect is relevant to its moving. Strict but no countermodel is registered for the bare pair; AQUINAS-ST-I-Q2-A3-WEAK-READING-DOES-NOT-YIELD-UNMOVED-MOVER shows only that the weak premise set does not yield the absolute conclusion."
+}

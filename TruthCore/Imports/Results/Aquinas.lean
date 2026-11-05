@@ -43,6 +43,8 @@ import TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaFacts.WeakReadingDoesNo
 import TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaFromBeingInAct.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaModels
 import TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaRelative.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaStrength.AbsoluteReading.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaStrength.PerSeLink.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuartaVia.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaAttributionCauseMoreSuch.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaAttributionGenusAtBeing.Solution
