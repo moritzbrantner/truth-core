@@ -1,4 +1,9 @@
-import TruthCore.Comparison.Metaethics
+module
+
+public import TruthCore.Comparison.Metaethics
+
+@[expose] public section
+
 namespace TruthCore.Results.Comparison.Metaethics.StevensonEmotivismConsistent
 open TruthCore.Comparison.Metaethics
 

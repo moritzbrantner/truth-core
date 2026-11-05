@@ -1,3 +1,5 @@
+module
+
 /-!
 Source-derived reading from Thomas Aquinas, *Summa theologiae* I q.4 a.2 co.
 (*utrum in Deo sint perfectiones omnium rerum*), first proof.
@@ -10,6 +12,8 @@ is a cause of `x`'s being, i.e. that `x` is an effect of `c`.
 Source witness: SCTA diplomatic TEI of the Leonine edition, vol. 4 (Rome 1888),
 `scta-texts/TAca84`, passage `AQUINAS-ST-I-Q4-A2`.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Latin.Aquinas.SummaTheologiae
 

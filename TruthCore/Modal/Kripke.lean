@@ -1,3 +1,7 @@
+module
+
+@[expose] public section
+
 universe u v
 
 namespace TruthCore.Modal

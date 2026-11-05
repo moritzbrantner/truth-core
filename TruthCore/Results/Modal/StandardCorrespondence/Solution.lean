@@ -1,4 +1,8 @@
-import TruthCore.Modal.Kripke
+module
+
+public import TruthCore.Modal.Kripke
+
+@[expose] public section
 
 namespace TruthCore.Results.Modal.StandardCorrespondence
 open TruthCore.Modal

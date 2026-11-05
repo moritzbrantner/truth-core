@@ -1,5 +1,7 @@
-import TruthCore.Case.Catholicism.StageOne
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article1
+module
+
+public import TruthCore.Case.Catholicism.StageOne
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article1
 
 /-!
 Bridges of the stage-1 route from the *prima via* to pure act and
@@ -17,6 +19,8 @@ premises and two narrower open ones.
 `PriorSimply` is the simple priority of ST I q.3 a.1
 (`TruthCore.Latin.Aquinas.SummaTheologiae.ActSimplyPriorToPotencyReading`).
 -/
+
+@[expose] public section
 
 namespace TruthCore.Case.Catholicism
 

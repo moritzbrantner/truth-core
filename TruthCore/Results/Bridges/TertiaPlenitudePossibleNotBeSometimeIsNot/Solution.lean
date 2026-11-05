@@ -1,4 +1,9 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3TertiaVia
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3TertiaVia
+
+@[expose] public section
+
 namespace TruthCore.Results.Bridges.TertiaPlenitudePossibleNotBeSometimeIsNot
 open TruthCore.Latin.Aquinas.SummaTheologiae
 /-- Bridge (#401): the tertia via's "what can not-be, at some time is not"

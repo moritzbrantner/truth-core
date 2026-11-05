@@ -1,4 +1,6 @@
-import TruthCore.Metaethics.AnswerMap
+module
+
+public import TruthCore.Metaethics.AnswerMap
 
 /-! #270. Analytical causal tests, not a reconstruction of all Humean metaphysics.
 The source readings are separately recorded against materialized Enquiry VII,
@@ -6,6 +8,9 @@ Lewis 1994 §§3–4, Woodward §§4.3/4.6, and Hartle–Hawking pp.2960–2961.
 Experiments describe complete deterministic binary response tables. They assume
 ideal surgical settings; observed correlations do not establish those settings.
 No modal/induction vocabulary is duplicated from the adjacent investigations. -/
+
+@[expose] public section
+
 namespace TruthCore.Modern.Hume.Regularity
 
 /-- Enquiry VII.29's first definition, on stipulated similarity/succession

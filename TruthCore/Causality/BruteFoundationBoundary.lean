@@ -1,4 +1,6 @@
-import TruthCore.German.Kant.CosmologicalInference
+module
+
+public import TruthCore.German.Kant.CosmologicalInference
 
 /-!
 # A contingent brute root survives a boundary-exception causal law
@@ -17,6 +19,8 @@ Worlds stand for complete alternative histories, not successive instants.
 The predecessor relation is read as existential grounding for this test; it
 is not automatically efficient causation of a temporally first event.
 -/ 
+
+@[expose] public section
 
 namespace TruthCore.Causality.BruteFoundationBoundary
 

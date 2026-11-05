@@ -1,8 +1,13 @@
+module
+
 /-! Explicit analyst profiles for the Sorites problem, not an attribution to a
 historical author. The chain index measures successive cases, not temporal or
 causal order. A binary predicate gives a determinate extension; its decidability
 in the boundary theorem is an explicit assumption, not a theory of all vague
 language. Weak non-opposition for a partial classification is a different rule. -/
+
+@[expose] public section
+
 namespace TruthCore.Logic.SoritesBoundary
 
 /-- Truth preservation across every adjacent step up to the endpoint. It does

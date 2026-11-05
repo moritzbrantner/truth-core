@@ -1,5 +1,10 @@
-import TruthCore.Greek.Plato.Timaeus
-import TruthCore.Latin.Aquinas.SummaContraGentiles.BookI.Chapter13
+module
+
+public import TruthCore.Greek.Plato.Timaeus
+public import TruthCore.Latin.Aquinas.SummaContraGentiles.BookI.Chapter13
+
+@[expose] public section
+
 namespace TruthCore.Results.Bridges.ScgInnovatingCauseTimaeusDistinctCause
 open TruthCore.Greek.Plato.Timaeus
 open TruthCore.Latin.Aquinas.SummaContraGentiles

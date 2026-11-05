@@ -1,4 +1,9 @@
-import TruthCore.Logic.TruthPilot
+module
+
+public import TruthCore.Logic.TruthPilot
+
+@[expose] public section
+
 namespace TruthCore.Results.Logic.TruthPilot.GlobalVariation
 open TruthCore.Logic.TruthPilot
 /-- A globally variable interpretation exists when no logical-sentence stability bridge is imposed. A countermodel to any unconditional self-refutation inference from that bare definition. -/

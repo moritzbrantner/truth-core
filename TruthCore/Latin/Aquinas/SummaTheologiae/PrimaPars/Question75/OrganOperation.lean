@@ -1,4 +1,6 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question75.Article2
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question75.Article2
 
 /-!
 ST I q.75 a.2 co., the organ step after the first non-bodyhood inference.
@@ -13,6 +15,9 @@ phantasms, that cognition has no bodily conditions, or that a modern physical
 realization is already excluded. Its organ-level interference constraint
 is an explicit premise, not a consequence of non-bodyhood.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Latin.Aquinas.SummaTheologiae.HumanIntellect
 
 /-- Q.75 a.2 co., `natura determinata illius organi corporei prohiberet ...`:

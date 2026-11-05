@@ -1,8 +1,13 @@
+module
+
 /-! A stipulated two-phase, two-feature recoding control, motivated by the
 provisional caption reading documented in docs/notes/carneades-induction.md.
 This is not an attributed formalization of Goodman or Swinburne. The phase is
 merely a Boolean partition; it does not encode examination history, real color,
 physical time or a criterion of inductive entitlement. -/
+
+@[expose] public section
+
 namespace TruthCore.Science.PredicateRecoding
 
 /-- At each fixed phase the feature coding is its own inverse. -/

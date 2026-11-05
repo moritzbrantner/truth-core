@@ -1,4 +1,9 @@
-import TruthCore.Greek.Plato.ParticipationGrounding
+module
+
+public import TruthCore.Greek.Plato.ParticipationGrounding
+
+@[expose] public section
+
 namespace TruthCore.Results.Greek.Plato.ParticipationGrounding
 open TruthCore.Greek.Plato.Forms TruthCore.Greek.Plato.ParticipationGrounding
 private instance : NeZero 4 where

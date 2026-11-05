@@ -1,4 +1,9 @@
-import TruthCore.Logic.Scientism
+module
+
+public import TruthCore.Logic.Scientism
+
+@[expose] public section
+
 namespace TruthCore.Results.Logic.Scientism.WeakConsistent
 open TruthCore.Logic.SelfApplication
 open TruthCore.Logic.Scientism

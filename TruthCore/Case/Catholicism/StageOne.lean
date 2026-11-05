@@ -1,5 +1,7 @@
-import TruthCore.Case.Catholicism.Root
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3
+module
+
+public import TruthCore.Case.Catholicism.Root
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3
 
 /-!
 The gap between the prima via (#151) and stage 1, "God exists" (issue #156).
@@ -21,6 +23,8 @@ exists" in four ways, each recorded here as its own open statement:
 The vocabulary reuses the prima via parameters `MovedIn` and `MovesIn` and adds
 `PureAct` and `IsGod`, all as parameters.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Case.Catholicism
 

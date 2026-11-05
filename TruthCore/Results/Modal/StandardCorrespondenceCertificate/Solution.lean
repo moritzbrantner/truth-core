@@ -1,5 +1,9 @@
-import TruthCore.Modal.StandardCorrespondenceCertificate
-import TruthCore.Results.Modal.StandardCorrespondence.Solution
+module
+
+public import TruthCore.Modal.StandardCorrespondenceCertificate
+public import TruthCore.Results.Modal.StandardCorrespondence.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Modal.StandardCorrespondenceCertificate
 /-- Assembly only: the separately frozen T/D correspondences, no new discovery. -/

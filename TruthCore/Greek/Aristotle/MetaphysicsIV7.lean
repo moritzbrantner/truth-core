@@ -1,4 +1,6 @@
-import TruthCore.Logic.ExcludedMiddle
+module
+
+public import TruthCore.Logic.ExcludedMiddle
 
 /-!
 Aristotle, *Metaphysics* IV.7, 1011b29-1012a17: the remaining arguments for
@@ -22,6 +24,8 @@ The formal results built on these readings make that difference exact:
 Source: Aristotle, *Metaphysics* IV.7 (Bekker pagination), passage
 `ARIST-MET-IV-7`. CTS work: `urn:cts:greekLit:tlg0086.tlg025`.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Greek.Aristotle.Metaphysics
 

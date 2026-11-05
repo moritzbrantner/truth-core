@@ -1,4 +1,6 @@
-import Mathlib.Basic.ENNReal.Inv
+module
+
+public import Mathlib.Basic.ENNReal.Inv
 
 /-!
 Analyst's restricted nonnegative two-state wager profile, prompted by
@@ -12,6 +14,9 @@ The product is therefore the reward-state contribution to expected utility;
 the remaining contributions are zero. No negative expenses, infinite losses,
 salvation theology, belief voluntarism, or practical norm is encoded.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Decision.InfiniteWager
 
 /-- Standard Mathlib extended nonnegative expectation for this zero-otherwise

@@ -1,3 +1,5 @@
+module
+
 /-!
 Cogito subjecthood, consolidated from #523 and #524 (issue #532). The step from
 an occurring thought to a thinking subject is valid only with an explicit,
@@ -13,6 +15,9 @@ Occurs e`; it implies, but is not constructively equivalent to, the negation of
 substance, not an enduring or immaterial self. Nothing here shows that any
 thought actually occurs.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Logic.CogitoSubject
 
 universe u v

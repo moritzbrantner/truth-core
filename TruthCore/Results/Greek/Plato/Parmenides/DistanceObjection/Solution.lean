@@ -1,4 +1,9 @@
-import TruthCore.Greek.Plato.Parmenides.ParticipationChallenges
+module
+
+public import TruthCore.Greek.Plato.Parmenides.ParticipationChallenges
+
+@[expose] public section
+
 namespace TruthCore.Results.Greek.Plato.Parmenides.DistanceObjection
 open TruthCore.Greek.Plato.Forms
 open TruthCore.Greek.Plato.Parmenides.ParticipationChallenges

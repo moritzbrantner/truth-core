@@ -1,4 +1,8 @@
-import TruthCore.Logic.ThoughtChangeSubject
+module
+
+public import TruthCore.Logic.ThoughtChangeSubject
+
+@[expose] public section
 
 namespace TruthCore.Results.Logic.ThoughtChangeSubject
 open TruthCore.Logic.ThoughtChangeSubject

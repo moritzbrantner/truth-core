@@ -1,4 +1,6 @@
-import TruthCore.Modal.Kripke
+module
+
+public import TruthCore.Modal.Kripke
 
 /-! Analyst stipulations prompted by Carneades.org, “The Paradox of Kant's
 Law (Ought Implies Can)”, 00:42–05:26 (qjNs4t4GQ2A). Provisional captions
@@ -6,6 +8,9 @@ are reading leads, not a pinned source claim or authenticated Kant reading.
 States encode complete continuations; the supplied future relation means
 reachable through the agent's choices, not mere logical possibility. No agency
 or temporal property is inferred from the name of that relation. -/
+
+@[expose] public section
+
 namespace TruthCore.Modal.DeonticFutureBoundary
 
 /-- Ideal-successor semantics for obligation, not a premise that actual duties

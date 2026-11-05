@@ -1,9 +1,11 @@
-import TruthCore.Comparison.Metaethics
-import TruthCore.Metaethics.Questions
-import TruthCore.Metaethics.AnswerMap
-import TruthCore.Modal.Kripke
-import TruthCore.English.Railton.MoralRealism
-import TruthCore.English.Boyd.MoralRealism
+module
+
+public import TruthCore.Comparison.Metaethics
+public import TruthCore.Metaethics.Questions
+public import TruthCore.Metaethics.AnswerMap
+public import TruthCore.Modal.Kripke
+public import TruthCore.English.Railton.MoralRealism
+public import TruthCore.English.Boyd.MoralRealism
 
 /-! Shared finite tests for #249, extending the existing metaethics signature.
 These are interpretations of the recorded fragments, not complete historical
@@ -11,6 +13,9 @@ worldviews. An invariant natural criterion does not make every belief correct,
 and descriptive identification alone does not entail categorical reasons.
 The signatures deliberately distinguish welfare, rightness, practical goodness,
 truth, belief, and an agent's reason to act. -/
+
+@[expose] public section
+
 namespace TruthCore.Metaethics.NaturalisticRealism
 
 structure Sig where

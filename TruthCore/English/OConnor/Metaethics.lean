@@ -1,3 +1,5 @@
+module
+
 /-!
 Source-derived readings of Alex O'Connor's recorded statements of his own
 metaethics (media-span witnesses pinned to youtube-corpus transcript segments).
@@ -17,6 +19,8 @@ The readings say nothing about which sentences are moral beyond what each
 passage states. In particular they do not identify a moral sentence's content
 with any non-moral fact.
 -/
+
+@[expose] public section
 
 namespace TruthCore.English.OConnor
 

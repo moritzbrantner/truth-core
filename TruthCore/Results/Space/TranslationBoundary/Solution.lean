@@ -1,4 +1,9 @@
-import TruthCore.Space.TranslationBoundary
+module
+
+public import TruthCore.Space.TranslationBoundary
+
+@[expose] public section
+
 namespace TruthCore.Results.Space.TranslationBoundary
 open TruthCore.Space.TranslationBoundary
 

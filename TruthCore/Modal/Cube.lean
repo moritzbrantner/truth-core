@@ -1,4 +1,8 @@
-import TruthCore.Modal.Kripke
+module
+
+public import TruthCore.Modal.Kripke
+
+@[expose] public section
 
 universe u v
 

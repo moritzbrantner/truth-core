@@ -1,4 +1,9 @@
-import TruthCore.Metaethics.PlanStateEmbedding
+module
+
+public import TruthCore.Metaethics.PlanStateEmbedding
+
+@[expose] public section
+
 namespace TruthCore.Results.Metaethics.PlanStateEmbeddingControl
 open TruthCore.Metaethics.PlanStateEmbedding
 

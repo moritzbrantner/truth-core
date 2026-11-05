@@ -1,3 +1,5 @@
+module
+
 /-!
 An unattributed premise motivated by Thomas Aquinas, *Sententia libri Metaphysicae*
 II, lect. 2 n. 11, on *Metaphysics* II.2, 994a1-2: the proof that first
@@ -16,6 +18,8 @@ primitive here.
 Source witness: Corpus Thomisticum Latin page, pinned as web snapshot passage
 `AQUINAS-IN-METAPH-II-L2`.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Latin.Aquinas.InMetaphysicam
 

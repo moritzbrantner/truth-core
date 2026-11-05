@@ -1,3 +1,5 @@
+module
+
 /-!
 Root node and skeleton vocabulary for the case that Catholicism is true
 (epic #143, issue #156).
@@ -25,6 +27,8 @@ source of (A) and of the bridge premises, is read from the pinned web snapshot
 ch. 3 claims bear on stage 3, stage 6 and the truth bridge through `supports`
 relations without stating them.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Case.Catholicism
 

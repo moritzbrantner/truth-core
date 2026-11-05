@@ -1,5 +1,10 @@
-import TruthCore.Isabelle.AFP.GoedelGod
-import TruthCore.Logic.ExcludedMiddle
+module
+
+public import TruthCore.Isabelle.AFP.GoedelGod
+public import TruthCore.Logic.ExcludedMiddle
+
+@[expose] public section
+
 namespace TruthCore.Results.Isabelle.GoedelGod.GodLikeUnique
 open TruthCore.Logic (ExcludedMiddle)
 open TruthCore.Isabelle.AFP.GoedelGod

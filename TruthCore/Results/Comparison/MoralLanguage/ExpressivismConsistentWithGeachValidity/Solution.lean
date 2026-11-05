@@ -1,4 +1,9 @@
-import TruthCore.Comparison.MoralLanguage
+module
+
+public import TruthCore.Comparison.MoralLanguage
+
+@[expose] public section
+
 namespace TruthCore.Results.Comparison.MoralLanguage.ExpressivismConsistentWithGeachValidity
 open TruthCore.Comparison.MoralLanguage
 

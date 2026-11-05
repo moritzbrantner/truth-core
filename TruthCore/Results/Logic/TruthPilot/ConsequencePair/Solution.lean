@@ -1,5 +1,9 @@
-import TruthCore.Logic.TruthComposition
-import TruthCore.Results.Logic.TruthPilot.NotAllImpliesSome.Solution
+module
+
+public import TruthCore.Logic.TruthComposition
+public import TruthCore.Results.Logic.TruthPilot.NotAllImpliesSome.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Logic.TruthPilot.ConsequencePair
 open TruthCore.Logic.TruthPilot TruthCore.Logic.TruthComposition

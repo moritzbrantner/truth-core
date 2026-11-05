@@ -1,4 +1,8 @@
-import TruthCore.Politics.DistrictMajority
+module
+
+public import TruthCore.Politics.DistrictMajority
+
+@[expose] public section
 
 namespace TruthCore.Results.Politics.DistrictMajority
 open TruthCore.Politics.DistrictMajority

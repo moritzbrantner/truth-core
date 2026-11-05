@@ -1,9 +1,14 @@
+module
+
 /-!
 Bounded readings of Aristotle, Nicomachean Ethics I.7, 1097b22–1098a20.
 The pinned Greek witness ARIST-EN-I-7 was materialized and read, including the
 whole chapter. These are source commitments, not proofs of the function
 argument or an inference from biological function to categorical obligation.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Greek.Aristotle.NicomacheanEthics
 
 /-- 1097b25–28 and 1098a7–15: for an exercise of a role with a characteristic

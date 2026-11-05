@@ -1,4 +1,9 @@
-import TruthCore.Modal.DeonticFutureBoundary
+module
+
+public import TruthCore.Modal.DeonticFutureBoundary
+
+@[expose] public section
+
 namespace TruthCore.Results.Modal.DeonticFutureBoundary
 open TruthCore.Modal TruthCore.Modal.DeonticFutureBoundary
 

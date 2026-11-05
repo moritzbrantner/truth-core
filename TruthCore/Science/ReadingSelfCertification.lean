@@ -1,5 +1,7 @@
-import TruthCore.Science.MeasurementCalibration
-import TruthCore.Logic.CorrectionCriterion
+module
+
+public import TruthCore.Science.MeasurementCalibration
+public import TruthCore.Logic.CorrectionCriterion
 
 /-! Analyst's composition of the additive calibration model and the exact
 data-relative criterion. Accuracy here means zero constant offset, not every
@@ -8,6 +10,9 @@ are unrestricted; compensating shifts therefore remain in the model class.
 Reports may have any type, including an infinite sequence, but are functions
 only of the original complete readings. No claim is attributed to Duhem,
 Wittgenstein, Goldman or an infinitist by this mathematical composition. -/
+
+@[expose] public section
+
 namespace TruthCore.Science.ReadingSelfCertification
 
 /-- Packaging the signal and constant offset already used by

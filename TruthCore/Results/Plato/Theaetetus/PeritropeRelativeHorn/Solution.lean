@@ -1,4 +1,9 @@
-import TruthCore.Greek.Plato.Theaetetus
+module
+
+public import TruthCore.Greek.Plato.Theaetetus
+
+@[expose] public section
+
 namespace TruthCore.Results.Plato.Theaetetus.PeritropeRelativeHorn
 open TruthCore.Logic.SelfApplication
 open TruthCore.Greek.Plato.Theaetetus

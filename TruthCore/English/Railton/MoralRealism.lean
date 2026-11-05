@@ -1,8 +1,13 @@
+module
+
 /-! Peter Railton, “Moral Realism” (1986), verified original pp.173–176,
 190–191. Only the displayed identification claims are encoded. The idealized
 agent is an epistemic device; its desires do not create objective interests.
 Full information, interpersonal comparison and the adequacy of the proposed
 natural criterion remain substantive, unproved commitments. -/
+
+@[expose] public section
+
 namespace TruthCore.English.Railton
 
 /-- pp.175–176: non-moral goodness for a person consists in satisfying an

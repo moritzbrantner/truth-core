@@ -1,4 +1,8 @@
-import TruthCore.Greek.Aristotle.Metaphysics
+module
+
+public import TruthCore.Greek.Aristotle.Metaphysics
+
+@[expose] public section
 
 namespace TruthCore.Greek.Aristotle.Metaphysics
 

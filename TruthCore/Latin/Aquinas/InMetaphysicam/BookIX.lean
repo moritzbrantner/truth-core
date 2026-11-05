@@ -1,4 +1,6 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article1
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article1
 
 /-!
 Source-derived readings from Thomas Aquinas, *Sententia libri Metaphysicae*
@@ -28,6 +30,8 @@ history of agents, not a present series.
 Source witness: Corpus Thomisticum Latin page, pinned as web snapshot passage
 `AQUINAS-IN-METAPH-IX-L7-L9`.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Latin.Aquinas.InMetaphysicam
 open TruthCore.Latin.Aquinas.SummaTheologiae (PureAct)

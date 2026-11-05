@@ -1,4 +1,9 @@
-import TruthCore.Logic.ExcludedMiddle
+module
+
+public import TruthCore.Logic.ExcludedMiddle
+
+@[expose] public section
+
 namespace TruthCore.Results.Logic.ExcludedMiddleIrrefutable
 open TruthCore.Logic
 /-- Every instance of excluded middle is irrefutable, `∀ p, ¬¬(p ∨ ¬p)`, proved

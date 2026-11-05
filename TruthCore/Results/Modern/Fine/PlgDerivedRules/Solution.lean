@@ -1,4 +1,8 @@
-import TruthCore.Modern.Fine.PureLogicOfGround
+module
+
+public import TruthCore.Modern.Fine.PureLogicOfGround
+
+@[expose] public section
 
 namespace TruthCore.Results.Modern.Fine.PlgDerivedRules
 open TruthCore.Modern.Fine.PureLogicOfGround

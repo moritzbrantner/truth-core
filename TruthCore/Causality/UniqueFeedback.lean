@@ -1,3 +1,7 @@
+module
+
+@[expose] public section
+
 namespace TruthCore.Causality.UniqueFeedback
 
 /-- Issue #311 analyst-defined state equations, not a causal or grounding

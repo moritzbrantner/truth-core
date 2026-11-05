@@ -1,4 +1,6 @@
-import TruthCore.Results.Metaethics.PlanStateEmbeddingControl.Solution
+module
+
+public import TruthCore.Results.Metaethics.PlanStateEmbeddingControl.Solution
 
 /-!
 A stipulative test prompted by Carneades's reasons objection (research notes in
@@ -9,6 +11,9 @@ commitment, while a satisfiable purely factual theory leaves all actions
 permitted in some compatible point. Neither property settles categorical
 normative warrant, ordinary-language adequacy, or substantive moral realism.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Metaethics.DescriptivePlanBoundary
 open TruthCore.Metaethics.PlanStateEmbedding
 

@@ -1,4 +1,8 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question75.OrganOperation
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question75.OrganOperation
+
+@[expose] public section
 
 namespace TruthCore.Latin.Aquinas.SummaTheologiae.HumanIntellect
 

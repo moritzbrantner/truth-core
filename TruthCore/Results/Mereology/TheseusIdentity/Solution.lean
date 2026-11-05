@@ -1,4 +1,9 @@
-import TruthCore.Mereology.TheseusIdentity
+module
+
+public import TruthCore.Mereology.TheseusIdentity
+
+@[expose] public section
+
 namespace TruthCore.Results.Mereology.TheseusIdentity
 open TruthCore.Mereology.TheseusIdentity
 /-- Conditional identity conflict with three minimality controls, not a solution

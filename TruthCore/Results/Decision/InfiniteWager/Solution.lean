@@ -1,4 +1,8 @@
-import TruthCore.Decision.InfiniteWager
+module
+
+public import TruthCore.Decision.InfiniteWager
+
+@[expose] public section
 
 namespace TruthCore.Results.Decision.InfiniteWager
 open TruthCore.Decision.InfiniteWager

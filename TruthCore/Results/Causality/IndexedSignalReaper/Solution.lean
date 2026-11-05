@@ -1,6 +1,10 @@
-import TruthCore.Causality.IndexedSignalReaper
-import TruthCore.Results.Causality.IndexedSignalProvenance.Solution
-import TruthCore.Results.Causality.GrimReaperImpossible.Solution
+module
+
+public import TruthCore.Causality.IndexedSignalReaper
+public import TruthCore.Results.Causality.IndexedSignalProvenance.Solution
+public import TruthCore.Results.Causality.GrimReaperImpossible.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.IndexedSignalReaper
 open TruthCore.Causality

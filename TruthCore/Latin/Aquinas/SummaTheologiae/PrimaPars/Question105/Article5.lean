@@ -1,3 +1,5 @@
+module
+
 /-!
 Source-derived reading from Thomas Aquinas, *Summa theologiae* I q.105 a.5 co.
 and ad 3 (*utrum Deus operetur in omni operante*).
@@ -10,6 +12,8 @@ Vocabulary as in the *prima via* (`MovedIn`, `MovesIn`) and the *quarta via*
 (`CausesIn`, `esse`), with `God : Being → Prop` marking the one the article calls
 God.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Latin.Aquinas.SummaTheologiae
 

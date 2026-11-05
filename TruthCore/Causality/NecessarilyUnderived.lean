@@ -1,5 +1,7 @@
-import TruthCore.German.Kant.CosmologicalInference
-import TruthCore.Logic.ExcludedMiddle
+module
+
+public import TruthCore.German.Kant.CosmologicalInference
+public import TruthCore.Logic.ExcludedMiddle
 
 /-!
 # Necessary existence and cross-world existential dependence
@@ -13,6 +15,8 @@ The positive conditional results explicitly consume the existing excluded-
 middle proposition. The constructive results below use no axioms. None of the
 support hypotheses is asserted to hold in reality.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Causality.NecessarilyUnderived
 

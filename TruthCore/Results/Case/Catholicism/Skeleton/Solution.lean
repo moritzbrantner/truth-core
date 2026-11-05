@@ -1,4 +1,9 @@
-import TruthCore.Case.Catholicism.Root
+module
+
+public import TruthCore.Case.Catholicism.Root
+
+@[expose] public section
+
 namespace TruthCore.Results.Case.Catholicism.Skeleton
 open TruthCore.Case.Catholicism
 theorem catholicismSkeleton (σ : Signature)

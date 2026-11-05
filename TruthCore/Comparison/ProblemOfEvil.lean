@@ -1,9 +1,11 @@
-import TruthCore.English.OConnor.Metaethics
-import TruthCore.English.OConnor.ProblemOfEvil
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3Interpretation
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3Evil
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question5.Article1
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question48.Articles2and3
+module
+
+public import TruthCore.English.OConnor.Metaethics
+public import TruthCore.English.OConnor.ProblemOfEvil
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3Interpretation
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3Evil
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question5.Article1
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question48.Articles2and3
 
 /-!
 The problem-of-evil comparison (#150): a shared signature, the shared
@@ -35,6 +37,8 @@ Question `Q-MORAL-GROUNDING`: what makes something objectively good or evil?
   (#249; see `docs/naturalistic-moral-realism.md`). This problem-of-evil
   signature has not been expanded with their distinct normative vocabulary.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Comparison.ProblemOfEvil
 

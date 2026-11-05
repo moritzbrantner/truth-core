@@ -1,5 +1,7 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaVia
-import TruthCore.Greek.Aristotle.MetaphysicsIII3
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaVia
+public import TruthCore.Greek.Aristotle.MetaphysicsIII3
 
 /-!
 Which *genus* the *quarta via* needs (issue #340).
@@ -32,6 +34,8 @@ Two formal facts, both premise-free and recorded as statements:
   hold together in one model that has a genuine strict genus with a
   differentia. So being-not-a-genus does not refute the broad premise.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Latin.Aquinas.SummaTheologiae
 

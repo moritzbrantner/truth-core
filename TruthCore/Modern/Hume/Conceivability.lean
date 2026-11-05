@@ -1,4 +1,6 @@
-import TruthCore.Isabelle.AFP.GoedelGod
+module
+
+public import TruthCore.Isabelle.AFP.GoedelGod
 
 /-! Issue #248 tests stronger reconstructions, not axioms attributed to Hume.
 The verified witness is HUME-TREATISE-I-3-3, especially I.3.3 §3.
@@ -6,6 +8,9 @@ Reuse the Scott embedding's predicates/Box/Dia, but none of its theological axio
 Full function quantification includes singleton predicates; world identity below
 therefore uses separation explicitly. All claims are scoped to accessibility.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Modern.Hume.Conceivability
 open TruthCore.Modal
 open TruthCore.Isabelle.AFP.GoedelGod (MProp Box Dia)

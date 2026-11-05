@@ -1,6 +1,11 @@
-import TruthCore.Alternatives.PhysicalCompleteness
-import TruthCore.Greek.Aristotle.Physics.Typed.Motion
-import TruthCore.Modern.Papineau.RiseOfPhysicalism
+module
+
+public import TruthCore.Alternatives.PhysicalCompleteness
+public import TruthCore.Greek.Aristotle.Physics.Typed.Motion
+public import TruthCore.Modern.Papineau.RiseOfPhysicalism
+
+@[expose] public section
+
 namespace TruthCore.Results.Comparison.PhysicalCompleteness
 open TruthCore.Alternatives.PhysicalCompleteness
 open TruthCore.Greek.Aristotle.Physics.Typed

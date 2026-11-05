@@ -1,4 +1,9 @@
-import TruthCore.Science.PredicateRecoding
+module
+
+public import TruthCore.Science.PredicateRecoding
+
+@[expose] public section
+
 namespace TruthCore.Results.Science.PredicateRecoding
 open TruthCore.Science.PredicateRecoding
 /-- Exact bounded recoding and factorization controls; no inductive norm. -/

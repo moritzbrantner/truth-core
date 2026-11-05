@@ -1,8 +1,13 @@
+module
+
 /-! Source-free local interfaces for an indexed signal, not an attribution of
 all these constraints to Koons's signal revision. PGR's indexed creation and
 maintenance motivate a candidate interpretation, subject to faithful detectors,
 closed inputs and exact forwarding. Nat indices order the stipulated channel;
 no actual causal powers, modal world or existential grounding is represented. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.IndexedSignalProvenance
 
 /-- Every output code is either issued at its own numbered station or is

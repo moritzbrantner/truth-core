@@ -1,3 +1,5 @@
+module
+
 /-!
 The objective-truth pilot (#207) separates proofs in Lean's logic from readings
 about truth, endorsement and knowledge. Its profile semantics is stipulated for
@@ -6,6 +8,9 @@ semantics is assumed. Aristotle, Metaphysics IV.5, distinguishes all appearances
 being true, conflicting opinions, and the fork 'nothing true / unknown to us'.
 Those readings have separate corpus identities.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Logic.TruthPilot
 
 /-- A proposition has a proof in the encoded logic, not a mind-independence thesis. -/

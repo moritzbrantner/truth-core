@@ -1,4 +1,9 @@
-import TruthCore.Logic.Strength.UniqueExistence
+module
+
+public import TruthCore.Logic.Strength.UniqueExistence
+
+@[expose] public section
+
 namespace TruthCore.Results.Logic.StrengthUnique
 open TruthCore.Logic.Strength.UniqueExistence
 universe u

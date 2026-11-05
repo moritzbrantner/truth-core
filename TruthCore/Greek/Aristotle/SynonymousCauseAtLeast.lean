@@ -1,4 +1,9 @@
-import TruthCore.Greek.Aristotle.SynonymousCause
+module
+
+public import TruthCore.Greek.Aristotle.SynonymousCause
+
+@[expose] public section
+
 namespace TruthCore.Greek.Aristotle.Metaphysics
 
 /-- Metaphysics II.1, 993b24–26: a conservative pairwise consequence of

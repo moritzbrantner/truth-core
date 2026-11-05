@@ -1,6 +1,11 @@
+module
+
 /-! Bounded reading of the full materialized ST I-II q.94 a.2, especially ad 2.
 It qualifies, rather than identifies with moral authority, appeal to natural
 inclination. No source-level inference is proved by the declaration. -/
+
+@[expose] public section
+
 namespace TruthCore.Latin.Aquinas.SummaTheologiae
 
 /-- Inclinations of parts of human nature, including concupiscible and

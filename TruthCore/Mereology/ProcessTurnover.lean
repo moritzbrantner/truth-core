@@ -1,10 +1,15 @@
-import TruthCore.Mereology.Vitalism
+module
+
+public import TruthCore.Mereology.Vitalism
 
 /-! Analyst's process/material distinction, prompted by the river question.
 No historical Heraclitus interpretation is claimed. A process carrier may have
 changing constituents; giving it a *timeless* material extension is an extra
 commitment. Reuses the existing two-cohort turnover fixture, not a new life or
 substance predicate. -/
+
+@[expose] public section
+
 namespace TruthCore.Mereology.ProcessTurnover
 open Vitalism
 

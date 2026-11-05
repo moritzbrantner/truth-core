@@ -1,8 +1,13 @@
-import TruthCore.German.Kant.CosmologicalInference
+module
+
+public import TruthCore.German.Kant.CosmologicalInference
 
 /-! Issue #470. Stipulative counterpart semantics, separate from canonical
 rigid identity. No historical attribution or metaphysical possibility claim.
 The four-place relation is deliberately issue-local: similarity is not equality. -/
+
+@[expose] public section
+
 namespace TruthCore.Modal.CounterpartNecessity
 open TruthCore.German.Kant.CosmologicalInference
 variable {W B : Type}

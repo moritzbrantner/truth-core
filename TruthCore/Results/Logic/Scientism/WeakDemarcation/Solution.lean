@@ -1,5 +1,10 @@
-import TruthCore.Logic.Scientism
-import TruthCore.Results.Logic.SelfApplication.DemarcationTest.Solution
+module
+
+public import TruthCore.Logic.Scientism
+public import TruthCore.Results.Logic.SelfApplication.DemarcationTest.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Logic.Scientism.WeakDemarcation
 open TruthCore.Logic.SelfApplication
 open TruthCore.Logic.Scientism

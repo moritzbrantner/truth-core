@@ -1,9 +1,11 @@
-import TruthCore.English.VanRoojen.MoralCognitivism
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaSecundae.Question94.Article4
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaSecundae.Question94.Article5
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question48.Articles2and3
-import TruthCore.Refutations.QuasiRealism
-import TruthCore.Metaethics.Questions
+module
+
+public import TruthCore.English.VanRoojen.MoralCognitivism
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaSecundae.Question94.Article4
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaSecundae.Question94.Article5
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question48.Articles2and3
+public import TruthCore.Refutations.QuasiRealism
+public import TruthCore.Metaethics.Questions
 
 /-!
 Typed test of #191. Explanation is a primitive directed relation on distinct
@@ -24,6 +26,9 @@ not establish philosophical compatibility of complete worldviews or defend a
 grounding account. A source-supported bridge from data to explanatory order
 remains a separate research obligation.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Metaethics.ExplanationOrder
 
 open TruthCore.English.VanRoojen

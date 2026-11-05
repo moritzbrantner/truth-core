@@ -1,7 +1,9 @@
-import Mathlib.Basic.Finite.Defs
-import Mathlib.Data.Set.Lattice.Indexed
-import Mathlib.Logic.Relation
-import Mathlib.Order.WellFounded
+module
+
+public import Mathlib.Basic.Finite.Defs
+public import Mathlib.Data.Set.Lattice.Indexed
+public import Mathlib.Logic.Relation
+public import Mathlib.Order.WellFounded
 
 /-!
 # Kit Fine, *The Pure Logic of Ground* (2012), §2: the system PLG
@@ -38,6 +40,8 @@ Encoding choices (`DEF-FINE-PLG-DERIVABILITY`):
 Only the rules are encoded. Fine's fact semantics (§3) and his soundness and
 completeness theorems are not formalized here (#349).
 -/
+
+@[expose] public section
 
 namespace TruthCore.Modern.Fine.PureLogicOfGround
 

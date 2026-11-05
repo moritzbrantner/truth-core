@@ -1,4 +1,6 @@
-import TruthCore.Greek.Aristotle.MetaphysicsIII3
+module
+
+public import TruthCore.Greek.Aristotle.MetaphysicsIII3
 
 /-!
 Source-derived readings from Thomas Aquinas, *Summa theologiae* I q.3 a.5 co.
@@ -26,6 +28,8 @@ The second proof reuses Aristotle's predication vocabulary from
 Source witness: SCTA diplomatic TEI of the Leonine edition, vol. 4 (Rome 1888),
 `scta-texts/TAca84`, passage `AQUINAS-ST-I-Q3-A5`.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Latin.Aquinas.SummaTheologiae
 

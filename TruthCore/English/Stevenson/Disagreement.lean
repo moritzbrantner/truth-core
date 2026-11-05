@@ -1,3 +1,5 @@
+module
+
 /-!
 Stevenson, The Emotive Meaning of Ethical Terms (1937), pp. 27–29.
 This structured refinement is needed because the shared signature's primitive
@@ -5,6 +7,9 @@ ClashInAttitude does not distinguish opposed interests from opposed beliefs.
 The signature reuses the comparison's sentence carrier for the practical object
 under discussion; no identification of interests with beliefs is made.
 -/
+
+@[expose] public section
+
 namespace TruthCore.English.Stevenson
 
 /-- Interest opposition requires favourable versus unfavourable interest and

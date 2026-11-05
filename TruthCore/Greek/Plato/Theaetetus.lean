@@ -1,4 +1,6 @@
-import TruthCore.Logic.SelfApplication
+module
+
+public import TruthCore.Logic.SelfApplication
 
 /-!
 Plato, *Theaetetus* 169d-172b: the peritropē of Protagoras's measure doctrine
@@ -17,6 +19,8 @@ to a restricted doctrine (171d-172b): perceptual qualities, and the just and
 holy as each city decrees them, are as they seem; health and advantage are
 not, where one judgement differs from another "toward truth" (172a).
 -/
+
+@[expose] public section
 
 namespace TruthCore.Greek.Plato.Theaetetus
 

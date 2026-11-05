@@ -1,4 +1,6 @@
-import TruthCore.Isabelle.AFP.GoedelGod
+module
+
+public import TruthCore.Isabelle.AFP.GoedelGod
 
 /-!
 Stipulative, finite-language controls for the Scott/AFP property domain.
@@ -10,6 +12,8 @@ declared atom at each individual/world pair. The language contains no separate
 world or individual names, though a poorly chosen atom could itself encode
 such names. The original AFP constant-domain quantification remains unchanged.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Isabelle.AFP.GoedelGod
 

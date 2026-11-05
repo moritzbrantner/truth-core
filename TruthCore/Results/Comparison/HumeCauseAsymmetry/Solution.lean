@@ -1,5 +1,10 @@
-import TruthCore.Case.Catholicism.StageOne.CausalFinitism
-import TruthCore.Modern.Hume.CauseEffectAsymmetry
+module
+
+public import TruthCore.Case.Catholicism.StageOne.CausalFinitism
+public import TruthCore.Modern.Hume.CauseEffectAsymmetry
+
+@[expose] public section
+
 namespace TruthCore.Results.Comparison.HumeCauseAsymmetry
 open TruthCore.Case.Catholicism.StageOne.CausalFinitism
 open TruthCore.Modern.Hume.CauseEffectAsymmetry

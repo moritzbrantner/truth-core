@@ -1,4 +1,9 @@
-import TruthCore.Comparison.PlatonicForms
+module
+
+public import TruthCore.Comparison.PlatonicForms
+
+@[expose] public section
+
 namespace TruthCore.Results.Comparison.PlatonicForms.SelfPredicatingConsistent
 open TruthCore.Greek.Plato.Forms
 open TruthCore.Comparison.PlatonicForms

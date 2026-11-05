@@ -1,4 +1,6 @@
-import TruthCore.Logic.CorrectionCriterion
+module
+
+public import TruthCore.Logic.CorrectionCriterion
 
 /-!
 Analyst's finite access tests for #703, not a formalization of an entire moral
@@ -17,6 +19,9 @@ normative connection causal. Neither bridge is attributed to Railton, Boyd,
 Aquinas or Enoch. Their fallible mechanisms are discussed, with precise primary
 locators, in docs/naturalistic-moral-realism.md, "Identical-evidence test".
 -/
+
+@[expose] public section
+
 namespace TruthCore.Ethics.MoralAccessFibers
 open TruthCore.Logic.CorrectionCriterion
 

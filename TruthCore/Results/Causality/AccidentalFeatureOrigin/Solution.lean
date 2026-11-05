@@ -1,4 +1,8 @@
-import TruthCore.Causality.AccidentalFeatureOrigin
+module
+
+public import TruthCore.Causality.AccidentalFeatureOrigin
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.AccidentalFeatureOrigin
 open TruthCore.Causality.AccidentalFeatureOrigin

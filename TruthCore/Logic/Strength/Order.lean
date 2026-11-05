@@ -1,9 +1,14 @@
-import Mathlib.Order.Defs.LinearOrder
-import Mathlib.Data.Nat.Order.Lemmas
-import TruthCore.Logic.StrengthComparison
+module
+
+public import Mathlib.Order.Defs.LinearOrder
+public import Mathlib.Data.Nat.Order.Lemmas
+public import TruthCore.Logic.StrengthComparison
 
 /-! Mathematical order comparisons use the pinned Mathlib order laws, never
 primitive metaphysical relations named MoreIn or AtLeastIn. -/
+
+@[expose] public section
+
 namespace TruthCore.Logic.Strength.Order
 open TruthCore.Logic.StrengthComparison
 universe u

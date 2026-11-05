@@ -1,4 +1,6 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article1
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article1
 
 /-!
 Source-derived reading from Thomas Aquinas, *Summa theologiae* I q.3 a.8 co.
@@ -11,6 +13,8 @@ PriorSimply f`: no being other than `f` is simply prior to it).
 Source witness: SCTA diplomatic TEI of the Leonine edition, vol. 4 (Rome 1888),
 `scta-texts/TAca84`, passage `AQUINAS-ST-I-Q3-A8`.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Latin.Aquinas.SummaTheologiae
 

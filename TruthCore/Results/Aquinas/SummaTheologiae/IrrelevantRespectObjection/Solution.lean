@@ -1,4 +1,9 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3Interpretation
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3Interpretation
+
+@[expose] public section
+
 namespace TruthCore.Results.Aquinas.SummaTheologiae.IrrelevantRespectObjection
 open TruthCore.Latin.Aquinas.SummaTheologiae
 /-- The irrelevant-respect objection is jointly satisfiable with the strong

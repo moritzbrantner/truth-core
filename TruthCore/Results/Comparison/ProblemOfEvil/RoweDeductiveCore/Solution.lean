@@ -1,4 +1,8 @@
-import TruthCore.English.Rowe.EvidentialEvil
+module
+
+public import TruthCore.English.Rowe.EvidentialEvil
+
+@[expose] public section
 
 namespace TruthCore.Results.Comparison.ProblemOfEvil.RoweDeductiveCore
 open TruthCore.English.Rowe

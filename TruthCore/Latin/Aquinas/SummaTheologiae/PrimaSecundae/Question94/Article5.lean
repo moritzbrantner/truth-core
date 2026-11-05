@@ -1,5 +1,10 @@
+module
+
 /-! One reading of the alternative explanation in ST I-II q.94 a.5 ad 1.
 The witness is AQUINAS-ST-I-II-Q94-A5, SCTA Leonine TEI. -/
+
+@[expose] public section
+
 namespace TruthCore.Latin.Aquinas.SummaTheologiae
 
 /-- In some hearts, in some respects, people thought good what is naturally

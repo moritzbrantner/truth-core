@@ -1,4 +1,6 @@
-import TruthCore.Logic.SelfApplication
+module
+
+public import TruthCore.Logic.SelfApplication
 
 /-!
 Scientism as an instance of the self-application schema (#397).
@@ -16,6 +18,8 @@ established by empirical evidence. Neither implies the other by definition.
   dilemma (formulation inside the domain) or concedes a non-empirically
   established claim (formulation outside it). Outside, it is consistent.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Logic.Scientism
 

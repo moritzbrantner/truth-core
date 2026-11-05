@@ -1,3 +1,5 @@
+module
+
 /-!
 ST I q.3 a.4 co., first proof, verified against pinned Latin passage
 `AQUINAS-ST-I-Q3-A4`.
@@ -15,6 +17,9 @@ analytic `supportsEsse` relation in `PowerExistenceBoundary`, the external
 cause here is explicitly interpreted as an efficient cause of being, not
 ordinary production or a merely sufficient noncausal reason.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article4
 
 /-- Typed interface for the first proof of q.3 a.4. Comparing `essenceOf`

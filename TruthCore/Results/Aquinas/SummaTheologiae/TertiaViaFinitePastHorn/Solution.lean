@@ -1,6 +1,11 @@
-import TruthCore.Logic.ExcludedMiddle
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3TertiaVia
-import TruthCore.Latin.Aquinas.SummaContraGentiles.BookI.Chapter13
+module
+
+public import TruthCore.Logic.ExcludedMiddle
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3TertiaVia
+public import TruthCore.Latin.Aquinas.SummaContraGentiles.BookI.Chapter13
+
+@[expose] public section
+
 namespace TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaFinitePastHorn
 open TruthCore.Logic
 open TruthCore.Latin.Aquinas.SummaTheologiae

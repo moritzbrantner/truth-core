@@ -1,4 +1,9 @@
-import TruthCore.Logic.Strength.Cause
+module
+
+public import TruthCore.Logic.Strength.Cause
+
+@[expose] public section
+
 namespace TruthCore.Results.Logic.StrengthCause
 open TruthCore.Logic.Strength.Cause TruthCore.Greek.Plato.Timaeus
 universe u

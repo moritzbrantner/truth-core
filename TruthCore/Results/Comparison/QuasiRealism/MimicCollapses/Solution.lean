@@ -1,4 +1,9 @@
-import TruthCore.Metaethics.AnswerMap
+module
+
+public import TruthCore.Metaethics.AnswerMap
+
+@[expose] public section
+
 namespace TruthCore.Results.Comparison.QuasiRealism.MimicCollapses
 open TruthCore.Metaethics
 

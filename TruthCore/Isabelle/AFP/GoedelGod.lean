@@ -1,4 +1,6 @@
-import TruthCore.Modal.Kripke
+module
+
+public import TruthCore.Modal.Kripke
 
 /-!
 Dana Scott's variant of Gödel's ontological argument, as formalized by
@@ -49,6 +51,8 @@ The definitions `GodLike`, `Essence` and `NecessaryExistence` are the AFP
 definitions `G`, `ess` and `NE`. They are definitions, not premises: unfolding
 them is how the results are proved.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Isabelle.AFP.GoedelGod
 

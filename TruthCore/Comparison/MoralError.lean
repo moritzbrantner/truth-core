@@ -1,7 +1,9 @@
-import TruthCore.English.OConnor.Metaethics
-import TruthCore.English.VanRoojen.MoralCognitivism
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaSecundae.Question94.Article4
-import TruthCore.Metaethics.Questions
+module
+
+public import TruthCore.English.OConnor.Metaethics
+public import TruthCore.English.VanRoojen.MoralCognitivism
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaSecundae.Question94.Article4
+public import TruthCore.Metaethics.Questions
 
 /-!
 The moral-error comparison (#183, part of the emotivism refutation #181): three
@@ -47,6 +49,8 @@ treats every `TruthCore.Comparison.*` definition as a theory bundle.
   attitude by better standards is not recorded, so it is not refuted either.
   Quasi-realism, minimally, can call it correction.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Comparison.MoralError
 

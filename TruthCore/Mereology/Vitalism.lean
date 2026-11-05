@@ -1,3 +1,5 @@
+module
+
 /-!
 An analyst's finite stress test for the mereological-vitalism proposal (#329).
 
@@ -12,6 +14,8 @@ a proof of metaphysical possibility, or a sourced account of Aristotle's soul.
 In particular, a material-process rival must still defend the adequacy of its
 explanation, and the vitalist must independently defend the soul/whole bridge.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Mereology.Vitalism
 

@@ -1,4 +1,9 @@
-import TruthCore.Logic.TruthPilot
+module
+
+public import TruthCore.Logic.TruthPilot
+
+@[expose] public section
+
 namespace TruthCore.Results.Logic.TruthPilot.LogicalFloor
 open TruthCore.Logic.TruthPilot
 

@@ -1,4 +1,9 @@
-import TruthCore.Logic.Relativism
+module
+
+public import TruthCore.Logic.Relativism
+
+@[expose] public section
+
 namespace TruthCore.Results.Aristotle.Metaphysics.ExemptionRegress
 open TruthCore.Logic.SelfApplication
 open TruthCore.Logic.Relativism

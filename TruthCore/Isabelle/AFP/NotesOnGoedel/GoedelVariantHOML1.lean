@@ -1,4 +1,6 @@
-import TruthCore.Isabelle.AFP.GoedelGod
+module
+
+public import TruthCore.Isabelle.AFP.GoedelGod
 
 /-!
 Kurt Gödel's 1970 variant of the ontological argument, as formalized by
@@ -74,6 +76,8 @@ Lean is not classical unless an axiom is used. No result built on this
 module needs excluded middle except the satisfiability model, which takes it
 as a hypothesis, so Comparator checks them with `permitted_axioms: []`.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1
 

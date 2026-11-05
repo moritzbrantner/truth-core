@@ -1,10 +1,15 @@
-import TruthCore.Metaethics.AnswerMap
+module
+
+public import TruthCore.Metaethics.AnswerMap
 
 /-! Enquiry IV–V and Treatise I.3.6: bounded induction tests (#269).
 Source commitments below are open interfaces; tests do not prove their fidelity.
 Histories are mathematical alternatives, not claims of metaphysical possibility.
 No modal fixtures or regularity/causal-direction semantics are introduced here.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Modern.Hume.Induction
 
 abbrev Trace := Nat → Bool

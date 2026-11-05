@@ -1,3 +1,5 @@
+module
+
 /-!
 Source-derived readings of Alex O'Connor's formulations of the problem of evil
 (media-span witnesses pinned to youtube-corpus transcript segments).
@@ -16,6 +18,8 @@ Vocabulary, all of it parameters rather than definitions:
 * `Evil x`, `CanEliminate g x` — there is evil in `x`; `g` is able to eliminate
   the evil in `x`.
 -/
+
+@[expose] public section
 
 namespace TruthCore.English.OConnor
 

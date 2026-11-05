@@ -1,5 +1,7 @@
-import Mathlib.Logic.Function.Basic
-import Mathlib.Logic.Function.Conjugate
+module
+
+public import Mathlib.Logic.Function.Basic
+public import Mathlib.Logic.Function.Conjugate
 
 /-!
 An analyst's #326 intervention model, not an attribution to a historical author.
@@ -11,6 +13,9 @@ AND-response dynamics; adding a local bit flip destroys that coarse closure.
 This establishes reproduction of the specified response histories, not a
 reduction of all causal powers, intentional agency or explanatory sufficiency.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Mereology.ArrangementDynamics
 
 /-- Every intervention preserves equality of the selected coarse data.

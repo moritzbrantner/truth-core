@@ -1,4 +1,6 @@
-import TruthCore.German.Kant.CosmologicalInference
+module
+
+public import TruthCore.German.Kant.CosmologicalInference
 
 /-! Guarded quantification over existing Ontic presence extensions. Predicate P
 is arbitrary and TOTAL on the fixed candidate roster: absence does not make
@@ -6,6 +8,9 @@ P undefined or force it false. Only the quantifier is existence-guarded.
 Domains vary as ExistsAt extensions, never as Lean identity or counterpart
 rosters. No causal, temporal or nonempty-domain hypothesis is built in.
 The two transfers concern this explicit profile, not every quantified logic. -/
+
+@[expose] public section
+
 namespace TruthCore.Modal.ActualistDomains
 open TruthCore.German.Kant.CosmologicalInference
 variable {W B : Type}

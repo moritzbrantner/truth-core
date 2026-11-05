@@ -1,3 +1,5 @@
+module
+
 /-!
 The temporal quantifier shift behind the *tertia via*'s contested step (#146).
 
@@ -7,6 +9,8 @@ thing is, at some time, not, there is a time at which nothing is
 `LOGIC-QUANTIFIER-SHIFT-EACH-SOMETIME-NOT-INVALID` gives a two-being, two-time
 countermodel.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Logic
 

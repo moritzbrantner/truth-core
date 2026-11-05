@@ -1,5 +1,9 @@
-import TruthCore.English.Rowe.BalanceNeutralRefinement
-import TruthCore.Results.Comparison.ProblemOfEvil.RoweDeductiveCore.Solution
+module
+
+public import TruthCore.English.Rowe.BalanceNeutralRefinement
+public import TruthCore.Results.Comparison.ProblemOfEvil.RoweDeductiveCore.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Comparison.ProblemOfEvil.RoweBalanceNeutralCore
 open TruthCore.English.Rowe

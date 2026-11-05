@@ -1,4 +1,9 @@
-import TruthCore.Epistemology.FitnessTruthBoundary
+module
+
+public import TruthCore.Epistemology.FitnessTruthBoundary
+
+@[expose] public section
+
 namespace TruthCore.Results.Epistemology.FitnessTruthBoundary
 open TruthCore.Epistemology.FitnessTruthBoundary
 

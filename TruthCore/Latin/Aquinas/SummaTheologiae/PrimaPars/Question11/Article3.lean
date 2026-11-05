@@ -1,4 +1,6 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3
 
 /-!
 Source-derived readings from Thomas Aquinas, *Summa theologiae* I q.11 a.3 co.
@@ -24,6 +26,8 @@ world's order) needs the fifth way.
 Source witness: SCTA diplomatic TEI of the Leonine edition, vol. 4 (Rome 1888),
 `scta-texts/TAca84`, passage `AQUINAS-ST-I-Q11-A3`.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Latin.Aquinas.SummaTheologiae
 

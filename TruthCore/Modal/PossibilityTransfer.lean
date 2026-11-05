@@ -1,11 +1,16 @@
-import TruthCore.Isabelle.AFP.GoedelGod
-import TruthCore.Models.FiniteSupport
+module
+
+public import TruthCore.Isabelle.AFP.GoedelGod
+public import TruthCore.Models.FiniteSupport
 
 /-! #438: two relations on candidate descriptions, reusing Frame and Box/Dia.
 The carrier is NOT asserted to consist entirely of metaphysically possible
 states. Only M-accessible descriptions are admitted by the stipulated stronger
 profile. Neither relation describes proof search or actual human knowledge.
 No historical claim or syntactic consistency theorem is made here. -/
+
+@[expose] public section
+
 namespace TruthCore.Modal.PossibilityTransfer
 open TruthCore.Isabelle.AFP.GoedelGod (MProp Box Dia)
 

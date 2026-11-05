@@ -1,4 +1,9 @@
-import TruthCore.Logic.SelfApplication
+module
+
+public import TruthCore.Logic.SelfApplication
+
+@[expose] public section
+
 namespace TruthCore.Results.Logic.SelfApplication.DemarcationOutsideConsistent
 open TruthCore.Logic.SelfApplication
 /-- A weak thesis outside its own domain is consistent. Claims are Booleans;

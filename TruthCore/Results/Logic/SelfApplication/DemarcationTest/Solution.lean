@@ -1,4 +1,9 @@
-import TruthCore.Logic.SelfApplication
+module
+
+public import TruthCore.Logic.SelfApplication
+
+@[expose] public section
+
 namespace TruthCore.Results.Logic.SelfApplication.DemarcationTest
 open TruthCore.Logic.SelfApplication
 /-- The second-order demarcation test, premise-free: a weak (restricted) thesis

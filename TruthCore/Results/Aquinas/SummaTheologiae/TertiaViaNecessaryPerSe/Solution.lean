@@ -1,4 +1,9 @@
-import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaNecessaryBeing.Solution
+module
+
+public import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaNecessaryBeing.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaNecessaryPerSe
 open TruthCore.Logic
 open TruthCore.Latin.Aquinas.SummaTheologiae

@@ -1,4 +1,9 @@
-import TruthCore.Logic.ExcludedMiddle
+module
+
+public import TruthCore.Logic.ExcludedMiddle
+
+@[expose] public section
+
 namespace TruthCore.Results.Logic.ExcludedMiddleNotDeniable
 open TruthCore.Logic
 /-- Retorsion, formally: whoever denies an instance of excluded middle is

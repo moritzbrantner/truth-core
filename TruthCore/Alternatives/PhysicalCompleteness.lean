@@ -1,3 +1,5 @@
+module
+
 /-!
 Unattributed bridges from Papineau's completeness of physics
 (`TruthCore.Modern.Papineau.RiseOfPhysicalism.CompletenessOfPhysicsReading`) to
@@ -12,6 +14,8 @@ DISAMB-PRIOR-DETERMINATION-AND-MOVER for the second.
 `motionOf x r` is the occurrence of `x`'s being moved in respect `r`; it is a
 parameter, so no identification of beings with occurrences is made.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Alternatives.PhysicalCompleteness
 

@@ -1,4 +1,6 @@
-import TruthCore.Case.Catholicism.Root
+module
+
+public import TruthCore.Case.Catholicism.Root
 
 /-!
 # Divine founding through an attested envoy (#357)
@@ -38,6 +40,8 @@ those models (`modelSig_antecedents`). `jointModel` shows the four premises and 
 antecedents are jointly satisfiable, so the derivation is not vacuous. These
 are schema models, not possible worlds of Christian history.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Case.Catholicism.StageThree.DivineFounding
 open TruthCore.Case.Catholicism

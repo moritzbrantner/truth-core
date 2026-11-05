@@ -1,5 +1,7 @@
-import TruthCore.Mereology.UniversalFusionBoundary
-import TruthCore.German.Kant.CosmologicalInference
+module
+
+public import TruthCore.Mereology.UniversalFusionBoundary
+public import TruthCore.German.Kant.CosmologicalInference
 
 /-!
 Analyst reconstruction of a structural L3 step, not a binding of the source's
@@ -7,6 +9,9 @@ wholly-contingent or modal-parthood assertions. Reuses fixed Mathlib parthood,
 existing Sum2 Fusion/Overlap and Ontic NecessaryAt. Existence of a value in the
 carrier or of its fusion does not assert Ontic existence at any world.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Mereology.FusionNoNecessaryParts
 open TruthCore.German.Kant.CosmologicalInference
 

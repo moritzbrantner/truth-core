@@ -1,3 +1,5 @@
+module
+
 /-!
 Source-derived readings and two open bridges from Thomas Aquinas, *Summa theologiae* I q.103 (*de
 gubernatione rerum*), a.3, a.5 ad 2 and a.6, used to close the *quinta via*'s
@@ -12,6 +14,8 @@ Vocabulary as in the *quinta via* and the *prima via*: `Directs d x e` (`d`
 directs `x` to the end `e`), `MovesIn y x r`, `MovedIn x r`, `HasCognition`,
 `Intelligent`; and `Governs d x`, `d` governs `x`.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Latin.Aquinas.SummaTheologiae
 

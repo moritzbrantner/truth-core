@@ -1,5 +1,7 @@
-import TruthCore.Causality.IndexedSignalProvenance
-import TruthCore.Causality.GrimReaper
+module
+
+public import TruthCore.Causality.IndexedSignalProvenance
+public import TruthCore.Causality.GrimReaper
 
 /-! Analyst closed-channel interfaces motivated conditionally by the indexed
 Placer create/maintain scenario, not attributed as its exact formalization.
@@ -7,6 +9,9 @@ Option Nat contains only absence or a finite indexed code. Applying this to
 particles/signals requires exhaustive admitted codes, faithful detection and
 closed inputs: malformed tokens and a limit-position particle are not silently
 ruled out by physics. No world, causal power or existential ground is encoded. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.IndexedSignalReaper
 open TruthCore.Causality.IndexedSignalProvenance
 

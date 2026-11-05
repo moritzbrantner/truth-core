@@ -1,3 +1,5 @@
+module
+
 /-!
 Aristotle, *Metaphysics* III.3, 998b22-27: neither being nor one can be a
 single genus of beings (issue #340).
@@ -35,6 +37,8 @@ Vocabulary, all parameters (a *typed predication structure*; nothing makes
 Source: Aristotle, *Metaphysics* III.3 (Bekker pagination), passage
 `ARIST-MET-III-3`. CTS work: `urn:cts:greekLit:tlg0086.tlg025`.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Greek.Aristotle.Metaphysics
 

@@ -1,4 +1,8 @@
-import TruthCore.Modal.GraphBridge
+module
+
+public import TruthCore.Modal.GraphBridge
+
+@[expose] public section
 
 namespace TruthCore.Results.Modal.GraphBridge
 open TruthCore.Modal

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Convert TruthCore library files to the Lean module system, bottom-up.
 
-Owner decisions in docs/decisions/2026-11-05-lean-module-system.md: every converted file
+Owner decisions in docs/decisions/2026-11-05-01-lean-module-system.md: every converted file
 gets a `module` first line, `public import` for each import, and `@[expose] public section`
 after the imports and any leading module docstring. Names, `def` unfolding and NanoDa root
 lists stay unchanged. Challenges and the generated aggregators stay ordinary files.

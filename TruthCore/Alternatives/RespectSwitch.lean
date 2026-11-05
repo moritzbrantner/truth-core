@@ -1,9 +1,14 @@
-import TruthCore.Greek.Aristotle.Physics.Typed.Motion
+module
+
+public import TruthCore.Greek.Aristotle.Physics.Typed.Motion
 
 /-! A consequence of the existing local act/potency commitments, not a new
 source reading. The respect labels on two consecutive mover edges must differ.
 This is a constraint on the encoded chain, not a temporal change of respect,
 not a ban on all chains, and not a proof of the regress premise. -/
+
+@[expose] public section
+
 namespace TruthCore.Alternatives.RespectSwitch
 
 /-- Whenever z moves y in r and y moves x in s, r and s are distinct. This

@@ -1,4 +1,8 @@
-import TruthCore.History.ResurrectionVocabulary
+module
+
+public import TruthCore.History.ResurrectionVocabulary
+
+@[expose] public section
 
 namespace TruthCore.Greek.Clement.FirstCorinthians
 open TruthCore.History.Resurrection

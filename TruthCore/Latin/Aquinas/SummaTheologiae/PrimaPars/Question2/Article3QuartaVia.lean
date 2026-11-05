@@ -1,4 +1,6 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3
 
 /-!
 Source-inspired readings and explicit framework abstractions of Thomas Aquinas,
@@ -30,6 +32,8 @@ perfection `r`. New vocabulary, all of it parameters:
 Source witness: SCTA diplomatic TEI of the Leonine edition, vol. 4 (Rome 1888),
 `scta-texts/TAca84`, passage `AQUINAS-ST-I-Q2-A3`.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Latin.Aquinas.SummaTheologiae
 

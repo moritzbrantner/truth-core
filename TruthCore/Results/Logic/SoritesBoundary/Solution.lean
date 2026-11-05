@@ -1,4 +1,9 @@
-import TruthCore.Logic.SoritesBoundary
+module
+
+public import TruthCore.Logic.SoritesBoundary
+
+@[expose] public section
+
 namespace TruthCore.Results.Logic.SoritesBoundary
 open TruthCore.Logic.SoritesBoundary
 

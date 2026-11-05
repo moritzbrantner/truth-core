@@ -1,4 +1,8 @@
-import TruthCore.Logic.KnowledgeRetorsion
+module
+
+public import TruthCore.Logic.KnowledgeRetorsion
+
+@[expose] public section
 
 namespace TruthCore.Results.Logic.KnowledgeRetorsion
 open TruthCore.Logic.KnowledgeRetorsion

@@ -1,4 +1,9 @@
+module
+
 /-! Constructive finite quantification used only by explicit model certificates. -/
+
+@[expose] public section
+
 namespace TruthCore.Models.FiniteSupport
 
 instance unitForall {p : Unit → Prop} [DecidablePred p] : Decidable (∀ x, p x) :=

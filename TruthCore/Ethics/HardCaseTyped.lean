@@ -1,8 +1,13 @@
-import TruthCore.Modal.DeonticFutureBoundary
+module
+
+public import TruthCore.Modal.DeonticFutureBoundary
 
 /-! Analyst finite controls for the concrete questions in #699. `Facts` fixes
 case facts independently of any moral verdict. The finite assignments are not
 attributed to historical theories or asserted metaphysically possible. -/
+
+@[expose] public section
+
 namespace TruthCore.Ethics.HardCaseTyped
 open TruthCore.Modal.DeonticFutureBoundary
 

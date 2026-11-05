@@ -1,4 +1,9 @@
-import TruthCore.Greek.Aristotle.MetaphysicsIV7
+module
+
+public import TruthCore.Greek.Aristotle.MetaphysicsIV7
+
+@[expose] public section
+
 namespace TruthCore.Results.Bridges.IV7EveryPropositionToEveryObjectOfThought
 open TruthCore.Greek.Aristotle.Metaphysics
 /-- Bridge (#401): the formalization's unattributed extension of the thought

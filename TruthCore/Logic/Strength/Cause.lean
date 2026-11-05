@@ -1,9 +1,14 @@
-import TruthCore.Greek.Plato.Timaeus
-import TruthCore.Logic.StrengthComparison
+module
+
+public import TruthCore.Greek.Plato.Timaeus
+public import TruthCore.Logic.StrengthComparison
 
 /-! Conditional comparison of the existing broad/distinct readings. No source
 claim is revised. Decidable equality is an explicit parameter of the selected
 comparison; no global causal irreflexivity or metaphysical applicability follows. -/
+
+@[expose] public section
+
 namespace TruthCore.Logic.Strength.Cause
 open TruthCore.Greek.Plato.Timaeus
 open TruthCore.Logic.StrengthComparison

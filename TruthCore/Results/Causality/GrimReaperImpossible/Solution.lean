@@ -1,4 +1,8 @@
-import TruthCore.Causality.GrimReaper
+module
+
+public import TruthCore.Causality.GrimReaper
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.GrimReaperImpossible
 open TruthCore.Causality

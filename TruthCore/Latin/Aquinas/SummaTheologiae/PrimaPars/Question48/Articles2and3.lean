@@ -1,3 +1,5 @@
+module
+
 /-!
 Source-derived readings from Thomas Aquinas, *Summa theologiae* I q.48 a.2
 (*utrum malum inveniatur in rebus*) and a.3 (*utrum malum sit in bono sicut in
@@ -15,6 +17,8 @@ Vocabulary, all of it parameters rather than definitions:
 Source witness: SCTA diplomatic TEI of the Leonine edition, vol. 4 (Rome 1888),
 `scta-texts/TAca84`, passages `AQUINAS-ST-I-Q48-A2` and `AQUINAS-ST-I-Q48-A3`.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Latin.Aquinas.SummaTheologiae
 

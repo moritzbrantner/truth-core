@@ -1,4 +1,9 @@
-import TruthCore.Refutations.Emotivism
+module
+
+public import TruthCore.Refutations.Emotivism
+
+@[expose] public section
+
 namespace TruthCore.Results.Comparison.MoralLanguage.NaiveEmotivismInvalidatesGeachMP
 open TruthCore.English.VanRoojen
 open TruthCore.Refutations.Emotivism

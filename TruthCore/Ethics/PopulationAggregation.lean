@@ -1,10 +1,15 @@
-import Mathlib.Algebra.Order.Archimedean.Real.Basic
+module
+
+public import Mathlib.Algebra.Order.Archimedean.Real.Basic
 
 /-! Stipulated finite population arithmetic, prompted by provisional Carneades
 caption reading zG814I1DBzU 00:31–03:24 and 06:43–07:52. No historical source
 claim is encoded. Means use an assumed common cardinal interpersonal scale;
 ordinal preference alone does not supply it. No empty or infinite population
 is admitted. A profile records a mean, not each person's welfare. -/
+
+@[expose] public section
+
 namespace TruthCore.Ethics.PopulationAggregation
 
 /-- Finite nonempty population summary on a stipulated common real scale. -/

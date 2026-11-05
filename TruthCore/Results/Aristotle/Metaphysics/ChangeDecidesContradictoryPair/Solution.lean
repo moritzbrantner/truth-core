@@ -1,4 +1,9 @@
-import TruthCore.Greek.Aristotle.MetaphysicsIV7
+module
+
+public import TruthCore.Greek.Aristotle.MetaphysicsIV7
+
+@[expose] public section
+
 namespace TruthCore.Results.Aristotle.Metaphysics.ChangeDecidesContradictoryPair
 open TruthCore.Greek.Aristotle.Metaphysics
 /-- *Metaphysics* IV.7, 1011b29-1012a1: if every change in respect of a

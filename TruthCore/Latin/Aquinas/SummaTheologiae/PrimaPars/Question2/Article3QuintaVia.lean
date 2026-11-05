@@ -1,3 +1,5 @@
+module
+
 /-!
 Source-derived readings from Thomas Aquinas, *Summa theologiae* I q.2 a.3 co.,
 the *quinta via* (argument from the governance of things), and ad 2.
@@ -30,6 +32,8 @@ opaque propositions; the coinciding claims are related by `supports` relations.
 Source witness: SCTA diplomatic TEI of the Leonine edition, vol. 4 (Rome 1888),
 `scta-texts/TAca84`, passage `AQUINAS-ST-I-Q2-A3`.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Latin.Aquinas.SummaTheologiae
 

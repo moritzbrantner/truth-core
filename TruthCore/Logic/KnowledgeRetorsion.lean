@@ -1,3 +1,5 @@
+module
+
 /-!
 A source-free Cartesian-style test of a universal denial of knowledge (#515).
 Knowledge is factive in this explicit profile: knowing p implies p. This is
@@ -9,6 +11,8 @@ universal ignorance itself, nonassertive scepticism, or lack of justification.
 The controls separate assertion from knowledge and expose the factivity cost.
 No actual knower, empirical episode, or external world is inferred.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Logic.KnowledgeRetorsion
 

@@ -1,4 +1,8 @@
-import TruthCore.Isabelle.AFP.GoedelGod
+module
+
+public import TruthCore.Isabelle.AFP.GoedelGod
+
+@[expose] public section
 
 namespace TruthCore.Results.Isabelle.GoedelGod.NecessaryExistenceIndependence
 

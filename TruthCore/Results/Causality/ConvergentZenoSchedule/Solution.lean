@@ -1,4 +1,8 @@
-import TruthCore.Causality.ConvergentSchedule
+module
+
+public import TruthCore.Causality.ConvergentSchedule
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.ConvergentZenoSchedule
 open TruthCore.Causality

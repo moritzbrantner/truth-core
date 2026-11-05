@@ -1,8 +1,13 @@
-import TruthCore.Modern.Hume.Regularity
+module
+
+public import TruthCore.Modern.Hume.Regularity
 
 /-! Selected competing commitments for #270, not whole historical worldviews.
 The response-table rival is a causal account, not a reductive regularity theory.
 Lewis's best-system identification is kept separate from that causal account. -/
+
+@[expose] public section
+
 namespace TruthCore.Comparison.HumeRegularity
 open TruthCore.Modern.Hume.Regularity
 

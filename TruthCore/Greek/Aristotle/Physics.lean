@@ -1,6 +1,10 @@
+module
+
 /-!
 Source-derived claims from Aristotle's *Physics*.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Greek.Aristotle.Physics
 

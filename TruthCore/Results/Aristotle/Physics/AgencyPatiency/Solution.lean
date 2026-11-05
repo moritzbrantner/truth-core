@@ -1,4 +1,8 @@
-import TruthCore.Greek.Aristotle.Physics
+module
+
+public import TruthCore.Greek.Aristotle.Physics
+
+@[expose] public section
 
 namespace TruthCore.Results.Aristotle.Physics.AgencyPatiency
 

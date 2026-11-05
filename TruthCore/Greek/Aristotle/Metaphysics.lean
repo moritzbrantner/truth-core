@@ -1,6 +1,10 @@
+module
+
 /-!
 Source-derived claims from Aristotle's *Metaphysics*.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Greek.Aristotle.Metaphysics
 

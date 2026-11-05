@@ -1,4 +1,9 @@
-import TruthCore.Logic.TruthPilot
+module
+
+public import TruthCore.Logic.TruthPilot
+
+@[expose] public section
+
 namespace TruthCore.Results.Logic.TruthPilot.SomeImpliesNotAll
 open TruthCore.Logic.TruthPilot
 /-- Eliminate the existential witness and contradict universal failure. One direction of explicit reciprocal entailment. -/

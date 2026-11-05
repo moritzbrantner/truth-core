@@ -1,4 +1,8 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question75.Article2
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question75.Article2
+
+@[expose] public section
 
 namespace TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectIncorporeal
 open TruthCore.Latin.Aquinas.SummaTheologiae.HumanIntellect

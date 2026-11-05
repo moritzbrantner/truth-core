@@ -1,7 +1,11 @@
-import TruthCore.Science.ReadingSelfCertification
-import TruthCore.Results.Science.MeasurementCalibration.Solution
-import TruthCore.Results.Logic.CorrectionCriterion.Solution
-import Mathlib.Tactic.Abel
+module
+
+public import TruthCore.Science.ReadingSelfCertification
+public import TruthCore.Results.Science.MeasurementCalibration.Solution
+public import TruthCore.Results.Logic.CorrectionCriterion.Solution
+public import Mathlib.Tactic.Abel
+
+@[expose] public section
 
 namespace TruthCore.Results.Science.ReadingSelfCertification
 open TruthCore.Science.ReadingSelfCertification

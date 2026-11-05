@@ -1,5 +1,9 @@
-import TruthCore.Comparison.RoweEvil
-import TruthCore.Results.Comparison.ProblemOfEvil.RoweDeductiveCore.Solution
+module
+
+public import TruthCore.Comparison.RoweEvil
+public import TruthCore.Results.Comparison.ProblemOfEvil.RoweDeductiveCore.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Comparison.ProblemOfEvil.RoweApparentCompatibility
 open TruthCore.English.Rowe TruthCore.Comparison.RoweEvil

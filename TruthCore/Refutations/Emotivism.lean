@@ -1,4 +1,6 @@
-import TruthCore.English.VanRoojen.MoralCognitivism
+module
+
+public import TruthCore.English.VanRoojen.MoralCognitivism
 
 /-!
 Conclusion propositions of the Frege–Geach refutation of naive emotivism
@@ -6,6 +8,8 @@ Conclusion propositions of the Frege–Geach refutation of naive emotivism
 theories: `bind-check` binds them to their statements by head constant,
 without unfolding.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Refutations.Emotivism
 

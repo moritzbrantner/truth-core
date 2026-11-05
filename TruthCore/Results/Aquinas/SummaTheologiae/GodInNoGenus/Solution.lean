@@ -1,5 +1,10 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article5
-import TruthCore.Results.Aristotle.Metaphysics.BeingNotAGenus.Solution
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article5
+public import TruthCore.Results.Aristotle.Metaphysics.BeingNotAGenus.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Aquinas.SummaTheologiae.GodInNoGenus
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Greek.Aristotle.Metaphysics

@@ -1,4 +1,9 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question5.Article1
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question5.Article1
+
+@[expose] public section
+
 namespace TruthCore.Results.Aquinas.SummaTheologiae.GoodnessFromDesirability
 open TruthCore.Latin.Aquinas.SummaTheologiae
 

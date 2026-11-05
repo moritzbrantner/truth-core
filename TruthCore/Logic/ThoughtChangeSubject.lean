@@ -1,5 +1,7 @@
-import TruthCore.Greek.Aristotle.Physics
-import TruthCore.Logic.CogitoSubject
+module
+
+public import TruthCore.Greek.Aristotle.Physics
+public import TruthCore.Logic.CogitoSubject
 
 /-!
 The Cogito-to-Aristotle bridge, restricted to change rather than all acts
@@ -8,6 +10,9 @@ a potential subject for a change, but classifying a thought as change remains
 a separate open proposition. Occurrence reuses
 `TruthCore.Logic.CogitoSubject.ThoughtOccurs`.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Logic.ThoughtChangeSubject
 
 /-- Every selected thought episode is a change in the Physics III.1 sense.

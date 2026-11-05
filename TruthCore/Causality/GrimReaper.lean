@@ -1,3 +1,7 @@
+module
+
+@[expose] public section
+
 namespace TruthCore.Causality
 
 /-- A static Grim Reaper schedule. Index `n + 1` denotes a Reaper whose

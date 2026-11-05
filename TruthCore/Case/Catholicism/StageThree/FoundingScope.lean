@@ -1,4 +1,6 @@
-import TruthCore.Case.Catholicism.StageThree.DivineFounding
+module
+
+public import TruthCore.Case.Catholicism.StageThree.DivineFounding
 
 /-!
 # The scope of the attested mandate, reduced to one society (#357)
@@ -37,6 +39,8 @@ from the case: with Jesus' mandate and the stage-5 founding, it contradicts the
 narrower premise. It is not refuted here; which of the two holds is the
 historical question of the commission's content.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Case.Catholicism.StageThree.FoundingScope
 open TruthCore.Case.Catholicism

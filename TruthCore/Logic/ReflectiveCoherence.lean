@@ -1,4 +1,6 @@
-import TruthCore.Logic.SelfApplication
+module
+
+public import TruthCore.Logic.SelfApplication
 
 /-!
 # Reflective coherence and objective epistemic duties
@@ -17,6 +19,8 @@ compatibility, including with necessary implications of the duty. This is a
 conditional framework study, not a proof that an objective duty exists, that
 truth-directedness is obligatory, or that God exists.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Logic.ReflectiveCoherence
 

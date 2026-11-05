@@ -1,4 +1,6 @@
-import TruthCore.Logic.SelfApplication
+module
+
+public import TruthCore.Logic.SelfApplication
 
 /-!
 Relativism about truth as an instance of the self-application schema (#397).
@@ -16,6 +18,8 @@ Local relativism is the restriction of the norm to a demarcated domain.
 Vocabulary is stipulated test semantics (`DEF-ABSOLUTE-TRUTH`,
 `DEF-RELATIVE-TRUTH`), not a translation of every relativist's idiom.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Logic.Relativism
 

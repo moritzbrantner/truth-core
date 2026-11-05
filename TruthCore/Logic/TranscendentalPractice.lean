@@ -1,5 +1,7 @@
-import TruthCore.Logic.CorrectionCriterion
-import TruthCore.Logic.ReflectiveCoherence
+module
+
+public import TruthCore.Logic.CorrectionCriterion
+public import TruthCore.Logic.ReflectiveCoherence
 
 /-!
 # Transcendental practice: access and agency boundaries
@@ -17,6 +19,8 @@ wishful thinking, objectively binding moral duties, or real-world metaphysics.
 The finite controls are counterexamples to unqualified formal implications,
 not evidence that the stipulated rival practices are actual or adequate.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Logic.TranscendentalPractice
 

@@ -1,9 +1,14 @@
-import Mathlib.Order.Bounds.Basic
+module
+
+public import Mathlib.Order.Bounds.Basic
 
 /-! A maximum-in-an-order schema (#412). `IsMax` means maximal, not greatest.
 The order and the causal relation are separate data. A cause raises degree only
 under the explicit `CausesRaiseDegree` condition. No existence, uniqueness,
 causality of a maximum, or identification with God is built into this schema. -/
+
+@[expose] public section
+
 namespace TruthCore.Logic.MaximumOrder
 
 /-- A causal relation on one ordered domain. Stipulative schema interface;

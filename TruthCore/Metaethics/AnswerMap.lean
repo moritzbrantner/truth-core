@@ -1,3 +1,5 @@
+module
+
 /-!
 Answer maps and the collapse lemma (#185; owner method of 2026-10-24 on #181).
 
@@ -17,6 +19,8 @@ given, equivalence of the answers (`↔`), not identity: identity of
 propositions would need propositional extensionality, an axiom the results here
 do not use.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Metaethics
 

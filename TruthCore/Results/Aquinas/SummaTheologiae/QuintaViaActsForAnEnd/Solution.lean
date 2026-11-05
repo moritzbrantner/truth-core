@@ -1,5 +1,10 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuintaVia
-import TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaModels
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuintaVia
+public import TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaModels
+
+@[expose] public section
+
 namespace TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaActsForAnEnd
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaModels

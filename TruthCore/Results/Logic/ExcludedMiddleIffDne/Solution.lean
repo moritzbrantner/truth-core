@@ -1,5 +1,10 @@
-import TruthCore.Logic.ExcludedMiddle
-import TruthCore.Results.Logic.ExcludedMiddleIrrefutable.Solution
+module
+
+public import TruthCore.Logic.ExcludedMiddle
+public import TruthCore.Results.Logic.ExcludedMiddleIrrefutable.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Logic.ExcludedMiddleIffDne
 open TruthCore.Logic
 open TruthCore.Results.Logic.ExcludedMiddleIrrefutable (excludedMiddleIrrefutable)

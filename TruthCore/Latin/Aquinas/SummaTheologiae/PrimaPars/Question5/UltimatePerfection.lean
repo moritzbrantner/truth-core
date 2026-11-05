@@ -1,6 +1,11 @@
+module
+
 /-! A bounded reading of ST I q.5 a.1 ad 1, in the same materialized pinned
 article as the existing per-perfection actuality reading. This sibling records
 the distinction its doc comment explicitly leaves outside that reading. -/
+
+@[expose] public section
+
 namespace TruthCore.Latin.Aquinas.SummaTheologiae
 
 /-- If a thing lacks the ultimate perfection it ought to have, it is not good

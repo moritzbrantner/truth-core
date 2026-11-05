@@ -1,4 +1,6 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3
 
 /-!
 Typed readings of Aristotle, *Physics* III.3, VII.1 and VIII.4-5, on motion, mover
@@ -68,6 +70,8 @@ unattributed scope premise `EveryReductionIsPhysicalMotionReading`
 Source: Aristotle, *Physics* III.3, VII.1, VIII.4, VIII.5 (Bekker pagination).
 CTS work: `urn:cts:greekLit:tlg0086.tlg031`.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Greek.Aristotle.Physics.Typed
 

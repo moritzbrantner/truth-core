@@ -1,5 +1,7 @@
-import Mathlib.Order.Bounds.Basic
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaVia
+module
+
+public import Mathlib.Order.Bounds.Basic
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaVia
 
 /-! A greatest-degree interpretation of *maxime tale* in ST I q.2 a.3,
 quarta via, passage AQUINAS-ST-I-Q2-A3. The supplied value map interprets
@@ -7,6 +9,9 @@ one selected perfection; it does not identify analogical being with a
 homogeneous ontology or impose a total order. This reading is separate from
 the stronger, order-free analyst principle whose antecedent is mere maximality.
 No implication to that existing principle is asserted. -/
+
+@[expose] public section
+
 namespace TruthCore.Latin.Aquinas.SummaTheologiae
 
 universe u v w

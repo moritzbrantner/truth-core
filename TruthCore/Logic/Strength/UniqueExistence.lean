@@ -1,8 +1,13 @@
-import Mathlib.Basic.ExistsUnique
-import TruthCore.Logic.StrengthComparison
+module
+
+public import Mathlib.Basic.ExistsUnique
+public import TruthCore.Logic.StrengthComparison
 
 /-! Generic predicate fixture: uniqueness is the extra requirement; no source
 claim or philosophical existence thesis is introduced by this test instance. -/
+
+@[expose] public section
+
 namespace TruthCore.Logic.Strength.UniqueExistence
 open TruthCore.Logic.StrengthComparison
 universe u

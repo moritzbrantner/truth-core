@@ -1,3 +1,5 @@
+module
+
 /-!
 The intuitionist position on excluded middle, as reported by Rosalie Iemhoff,
 "Intuitionism in the Philosophy of Mathematics", *Stanford Encyclopedia of
@@ -15,6 +17,8 @@ Vocabulary: `Stage` is the stages of the creating subject's knowledge;
 these stages is itself constructive: nothing here or in the results built on it
 uses `Classical.em`.
 -/
+
+@[expose] public section
 
 namespace TruthCore.English.Iemhoff
 

@@ -1,10 +1,15 @@
-import TruthCore.Greek.Plato.Forms
+module
+
+public import TruthCore.Greek.Plato.Forms
 
 /-! Bounded readings of Parmenides 130e–131e and 133b–134e.
 This extension reuses Forms entities and participation. Its additional relations
 are independent: identity, spatial presence, proper part, inherence, explanatory
 grounding, change production and cognition are never identified by typing.
 The modern conditions below are explicit open premises, not historical axioms. -/
+
+@[expose] public section
+
 namespace TruthCore.Greek.Plato.Parmenides.ParticipationChallenges
 open TruthCore.Greek.Plato.Forms
 universe u v w

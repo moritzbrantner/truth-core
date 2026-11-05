@@ -1,9 +1,13 @@
+module
+
 /-!
 An assertion-token retorsion for #509. The actual performance of a token is
 distinct from the truth of its content. In particular, an *unperformed* denial
 can be true in an empty-episode interpretation. Nothing here establishes that
 any episode occurs in the actual world or that any episode involves change.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Logic.PerformedDenial
 

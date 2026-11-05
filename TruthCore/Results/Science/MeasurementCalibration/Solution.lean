@@ -1,5 +1,10 @@
-import TruthCore.Science.MeasurementCalibration
-import Mathlib.Tactic.Abel
+module
+
+public import TruthCore.Science.MeasurementCalibration
+public import Mathlib.Tactic.Abel
+
+@[expose] public section
+
 namespace TruthCore.Results.Science.MeasurementCalibration
 open TruthCore.Science.MeasurementCalibration
 

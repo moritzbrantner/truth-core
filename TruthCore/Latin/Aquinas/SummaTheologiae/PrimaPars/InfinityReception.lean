@@ -1,3 +1,5 @@
+module
+
 /-!
 Source-derived readings from Thomas Aquinas, *Summa theologiae* I q.7 a.1–2 co.
 on limitation of esse by reception and on infinity in the sense of perfection.
@@ -12,6 +14,8 @@ indeterminate matter (q.7 a.1 ad 2; DISAMB-INFINITY).
 Source witness: SCTA diplomatic TEI of the Leonine edition, vol. 4,
 `scta-texts/TAca84`, passages `AQUINAS-ST-I-Q7-A1` and `AQUINAS-ST-I-Q7-A2`.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.InfinityReception
 
