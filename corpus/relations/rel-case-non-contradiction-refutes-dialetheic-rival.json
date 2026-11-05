@@ -1,0 +1,8 @@
+{
+  "id": "REL-CASE-NON-CONTRADICTION-REFUTES-DIALETHEIC-RIVAL",
+  "subject_kind": "argument",
+  "subject_id": "LOGIC-CASE-NON-CONTRADICTION-NOT-DENIABLE",
+  "predicate": "refutes",
+  "object_kind": "statement",
+  "object_id": "STMT-SOME-CASE-PREDICATE-CONTRADICTION-TRUE"
+}

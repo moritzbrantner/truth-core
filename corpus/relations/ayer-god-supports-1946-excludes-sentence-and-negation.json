@@ -1,0 +1,9 @@
+{
+  "id": "REL-AYER-GOD-SUPPORTS-1946-EXCLUDES-SENTENCE-AND-NEGATION",
+  "subject_kind": "claim",
+  "subject_id": "IEP-REL-LANG-2A-AYER-GOD",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-AYER-1946-EXCLUDES-SENTENCE-AND-NEGATION",
+  "note": "Gap: the quoted passage makes theistic sentences unintelligible unless verifiable; it does not say their negations are, which is Ayer's further ch. VI remark on the atheist (no admissible witness found). The statement's existence of three suitable observation statements is the analyst's typing of an ordinary empirical language."
+}

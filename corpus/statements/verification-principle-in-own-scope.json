@@ -1,0 +1,15 @@
+{
+  "id": "STMT-VERIFICATION-PRINCIPLE-IN-OWN-SCOPE",
+  "paraphrase": "Scope premise: the formulation of the verification principle lies in its own scope. An open premise; the proposal reading (V4) denies that the principle is a statement in its scope.",
+  "lean_declaration": "TruthCore.Logic.Verificationism.PrincipleInOwnScope",
+  "definition_ids": [
+    "DEF-TRUTH-CONDITIONAL-LANGUAGE",
+    "DEF-EMPIRICIST-FRAME",
+    "DEF-VERIFICATION-PRINCIPLE",
+    "DEF-SELF-APPLICATION-NORM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-VERIFICATIONIST-MEANINGFUL",
+    "DISAMB-VERIFIABILITY-VARIANT"
+  ]
+}

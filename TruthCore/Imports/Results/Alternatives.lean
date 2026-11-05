@@ -4,6 +4,7 @@ import TruthCore.Results.Alternatives.EleaticRestSelfRefuting.Solution
 import TruthCore.Results.Alternatives.GenerationFromNightRefuted.Solution
 import TruthCore.Results.Alternatives.GlobalUnderminerRetorsion.Solution
 import TruthCore.Results.Alternatives.InertialObjectionYieldsRival.Solution
+import TruthCore.Results.Alternatives.McTaggartDefeatedByChange.Solution
 import TruthCore.Results.Alternatives.McTaggartUnrealityOfTimeRefuted.Solution
 import TruthCore.Results.Alternatives.MegarianAbolishesMotion.Solution
 import TruthCore.Results.Alternatives.MegarianCapacityCore.Solution

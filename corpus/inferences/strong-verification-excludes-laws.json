@@ -1,0 +1,9 @@
+{
+  "id": "INF-STRONG-VERIFICATION-EXCLUDES-LAWS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-STRONG-VERIFICATION-EXCLUDES-LAWS",
+  "rule": "constructive-proof",
+  "meaning": "From no premises, for every law setting: suppose finitely many jointly satisfiable observation statements entailed the law 'every R is B'. They are about finitely many individuals; pick one, a, that none is about, and vary the world where they all hold so that a is an R and not B. They still hold, so the law holds there, yet a is a counterinstance. So the law is not conclusively verifiable. Its negation is: the observations R a and not-B a, when jointly possible, entail it. The hypotheses are satisfiable (lawSettingInhabited). That laws are therefore meaningless by V1 conflicts with no established floor item: the defeat needs an open premise (laws are meaningful, or meaningfulness is closed under negation).",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

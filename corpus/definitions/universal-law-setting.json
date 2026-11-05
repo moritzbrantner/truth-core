@@ -1,0 +1,8 @@
+{
+  "id": "DEF-UNIVERSAL-LAW-SETTING",
+  "term": "universal law; observational setting of a law",
+  "definition": "`UniversalLaw`: individuals, atomic sentences R a and B a, and a sentence law that holds at a world exactly when every R there is B. `LawSetting`: each observation statement is about finitely many individuals (`mentions`), there are infinitely many individuals, and any individual can be made an R that is not B without changing the truth value of any observation statement not about it.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.Verificationism.LawSetting",
+  "note": "Stipulative: the standard reason why a universal generalization over an open domain is not entailed by finitely many observations. `TruthCore.Logic.Verificationism.Model.ravensSetting` shows the setting is satisfiable."
+}

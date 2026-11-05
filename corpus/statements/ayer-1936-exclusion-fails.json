@@ -1,0 +1,13 @@
+{
+  "id": "STMT-AYER-1936-EXCLUSION-FAILS",
+  "paraphrase": "No language and frame satisfy the V2 exclusion thesis: every sentence whose negation does not entail some observation statement passes Ayer's 1936 test.",
+  "lean_declaration": "TruthCore.Logic.Verificationism.Ayer1936ExclusionFails",
+  "definition_ids": [
+    "DEF-TRUTH-CONDITIONAL-LANGUAGE",
+    "DEF-EMPIRICIST-FRAME",
+    "DEF-AYER-1936-WEAK-VERIFIABILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-VERIFIABILITY-VARIANT"
+  ]
+}

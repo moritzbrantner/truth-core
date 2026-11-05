@@ -1,0 +1,9 @@
+{
+  "id": "VERIFICATIONISM-SELF-APPLICATION-DILEMMA",
+  "argument_id": "VERIFICATIONISM-SELF-APPLICATION-DILEMMA",
+  "challenge_module": "TruthCore.Results.Logic.Verificationism.SelfApplication.Challenge",
+  "solution_module": "TruthCore.Results.Logic.Verificationism.SelfApplication.Solution",
+  "theorem": "TruthCore.Results.Logic.Verificationism.SelfApplication.verificationistDilemma",
+  "comparator_config": "results/VERIFICATIONISM-SELF-APPLICATION-DILEMMA/comparator.json",
+  "status": "solution-present"
+}

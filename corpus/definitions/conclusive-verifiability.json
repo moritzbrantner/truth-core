@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CONCLUSIVE-VERIFIABILITY",
+  "term": "conclusively (strongly) verifiable",
+  "definition": "`ConclusivelyVerifiable F s`: some finite list of observation statements that hold together at some world entails s.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.Verificationism.ConclusivelyVerifiable",
+  "note": "Variant V1. Types the strong sense of claim AYER-LTL-PELICAN-I-18-STRONG-WEAK ('its truth could be conclusively established in experience'); reading 'established in experience' as entailment by jointly possible observation statements is the analyst's. Ayer attributes the criterion to Schlick 1931 (AYER-LTL-PELICAN-I-18-CONCLUSIVE-PROPOSED); Schlick's 1936 wording (SCHLICK-MV-351-LOGICAL-POSSIBILITY) does not say 'conclusive'."
+}
