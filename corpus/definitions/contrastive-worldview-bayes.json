@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CONTRASTIVE-WORLDVIEW-BAYES",
+  "term": "contrastive Bayesian comparison",
+  "definition": "Two mutually exclusive and exhaustive hypotheses W and V, rational prior p with 0<p<1, and positive likelihoods at most one for the same received event. The normalizer is p*lW+(1-p)*lV; posteriorW and posteriorV divide these weighted likelihoods by the normalizer. The likelihood ratio lW/lV greater than one supports W in the strict posterior-probability-increase sense; a ratio less than one is evidence against W and reduces its probability, while a ratio equal to one is neutral and preserves the prior. Posterior preference between W and V also depends on the prior. Community is an ignored argument of publicAssessment; swap complements prior and exchanges likelihoods.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.ContrastiveWorldview.Comparison",
+  "note": "Analyst formulation for issue #934; attribution deferred. Scope, competing readings and open applicability in docs/notes/contrastive-worldview-934.md. No claim about actual probability, reliability or normative authority is supplied."
+}

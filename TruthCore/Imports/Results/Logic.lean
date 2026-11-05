@@ -2,6 +2,7 @@
 import TruthCore.Results.Logic.CaseNonContradiction.Solution
 import TruthCore.Results.Logic.CogitoConcrete.Solution
 import TruthCore.Results.Logic.CogitoSubject.Solution
+import TruthCore.Results.Logic.ContrastiveWorldview.Solution
 import TruthCore.Results.Logic.CorrectionCriterion.Solution
 import TruthCore.Results.Logic.EpistemicNihilismRetorsion.Solution
 import TruthCore.Results.Logic.ExcludedMiddleIffDne.Solution

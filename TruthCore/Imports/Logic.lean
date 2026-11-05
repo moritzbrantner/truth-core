@@ -3,6 +3,7 @@ import TruthCore.Logic.CaseNonContradiction
 import TruthCore.Logic.CogitoConcrete
 import TruthCore.Logic.CogitoSubject
 import TruthCore.Logic.Configuration
+import TruthCore.Logic.ContrastiveWorldview
 import TruthCore.Logic.CorrectionCriterion
 import TruthCore.Logic.EpistemicReasons
 import TruthCore.Logic.ExcludedMiddle

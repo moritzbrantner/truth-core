@@ -1,0 +1,9 @@
+{
+  "id": "INF-CONTRASTIVE-WORLDVIEW-CORE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-CONTRASTIVE-WORLDVIEW-CORE",
+  "rule": "rational-normalized-update-and-finite-controls",
+  "meaning": "For positive rational two-hypothesis Bayesian inputs with a non-dogmatic prior, posterior probabilities normalize and posterior odds equal prior odds times the likelihood ratio. Equal likelihoods preserve the prior; W gains probability exactly when its likelihood exceeds V\u2019s, while winning requires a prior-weighted likelihood advantage. Under an equal prior a posterior win is exactly a strict likelihood advantage; with equal likelihoods a posterior win requires prior greater than one half. Relabeling both hypotheses swaps their posteriors; changing only community identity preserves the declared public assessment. The imported neutral-selection symmetry theorem excludes a unique neutral answer on fixed evidence. Concrete cases separate inherited priors, reliable but fallible inherited testimony, false attractive choices and opposite truths with identical comparison data. A coherent insider membership convention varies with community and fails the declared public invariance condition. These are analyst framework consequences, not categorical obligations, factive warrant or worldview truth.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

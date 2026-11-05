@@ -1,0 +1,12 @@
+{
+  "id": "DISAMB-CONTRASTIVE-WORLDVIEW-JUSTIFICATION",
+  "term": "evidence support versus worldview truth and normative authority",
+  "sense_definition_ids": [
+    "DEF-CONTRASTIVE-WORLDVIEW-BAYES",
+    "DEF-CONTRASTIVE-WORLDVIEW-CASE",
+    "DEF-CONTRASTIVE-WORLDVIEW-LOCAL-STANDARD",
+    "DEF-TRUTH-DIRECTED-EPISTEMIC-BRIDGE",
+    "DEF-TRANSCENDENTAL-CATEGORICAL-DUTY"
+  ],
+  "resolution": "Likelihood advantage is an increase in probability relative to the declared prior, not necessarily a posterior win. A posterior win may result solely from a prior advantage and is not actual truth, social attraction or factive warrant. Reliable inherited testimony is a possible informational route, not disqualified by cultural origin and not infallible. Relabeling hypotheses transports priors too; swapping community alone holds all comparison inputs fixed. A public identity-independent assessment rule is a declared practice standard. The local membership rule need not satisfy it and does not contradict itself; categorical epistemic authority and metaphysical grounding need further bridges. Exact classifier availability is extensional and distinct from justified fallible assessment."
+}

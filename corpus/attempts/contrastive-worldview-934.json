@@ -1,0 +1,25 @@
+{
+  "id": "ATTEMPT-CONTRASTIVE-WORLDVIEW-934",
+  "date": "2026-11-05",
+  "statement_ids": [
+    "STMT-CONTRASTIVE-WORLDVIEW-CORE",
+    "STMT-CONTRASTIVE-WORLDVIEW-BOUNDARY",
+    "STMT-CORRECTION-CRITERION-EXACT-FACTORIZATION",
+    "STMT-TRANSCENDENTAL-INQUIRY-ACCESS-BOUNDARY",
+    "STMT-TRANSCENDENTAL-AGENCY-DUTY-BOUNDARY",
+    "STMT-TRUTH-DIRECTED-REFLECTIVE-DUTY",
+    "STMT-SCIENCE-INDUCTION-SELECTION"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Implemented normalized rational Bayesian comparisons and finite controls. Rejected equal likelihoods imply equal posteriors: inherited prior 3/4 remains 3/4. Rejected evidence gain implies posterior win: prior 1/10 with likelihood ratio three reaches only 1/4. Rejected reliable inherited testimony is factive: the same three-quarter reliable channel can report W when V is actual, with positive probability. Rejected inheritance entails falsehood, attraction entails truth, exact public access follows from truth-directed policy, and public comparison entails categorical duty. Reused the #1037 symmetry theorem and four exact existing authority/access certificates. Details and serious rival readings remain in docs/notes/contrastive-worldview-934.md. Attribution deferred; no source acquisition or claim records.",
+  "evidence": [
+    "LOGIC-CONTRASTIVE-WORLDVIEW",
+    "CORRECTION-CRITERION-EXACT-FACTORIZATION",
+    "LOGIC-TRANSCENDENTAL-INQUIRY-ACCESS-BOUNDARY",
+    "LOGIC-TRANSCENDENTAL-AGENCY-DUTY-BOUNDARY",
+    "LOGIC-TRUTH-DIRECTED-REFLECTIVE-DUTY",
+    "SCIENCE-INDUCTION-SELECTION"
+  ],
+  "blocker": "The prior, likelihoods, actual applicability, epistemic access to reliability, policy choice and categorical authority/ground bridges remain open. No root premise discharge or root route change."
+}

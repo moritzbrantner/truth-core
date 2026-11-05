@@ -1,0 +1,10 @@
+{
+  "id": "LOGIC-CONTRASTIVE-WORLDVIEW",
+  "argument_id": "LOGIC-CONTRASTIVE-WORLDVIEW",
+  "challenge_module": "TruthCore.Results.Logic.ContrastiveWorldview.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ContrastiveWorldview.Solution",
+  "theorem": "TruthCore.Results.Logic.ContrastiveWorldview.certificate",
+  "comparator_config": "results/LOGIC-CONTRASTIVE-WORLDVIEW/comparator.json",
+  "status": "solution-present",
+  "description": "The explicit contrastive Bayesian update and identity controls hold jointly with the imported exact-classifier characterization, inquiry-access versus truth-directed-policy boundary, successful-practice versus categorical-duty boundary, and truth-directed reflective-duty conditional. Comparative update, evidence-only classification, ideal truth policy and categorical authority remain distinct; no actual worldview, universally binding Bayesian norm or root premise is established. See docs/notes/contrastive-worldview-934.md for the stipulated scope and rival readings."
+}
