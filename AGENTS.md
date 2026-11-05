@@ -122,6 +122,43 @@ attempt does not establish its target or change frontier closure. The dossier is
 computed from corpus records, not edited separately. See `docs/premise-dossiers.md`
 for the attempt format and reference boundaries.
 
+## Logic first; attribution deferred (owner direction, 2026-11-05)
+
+The current priority is formalizing the arguments from **Carneades.org** and
+exploring their logical consequences. Do not let source acquisition or author
+exegesis displace this work.
+
+- Start from available argument summaries, transcripts, existing propositions
+  and explicit working reconstructions. Formalize premises and conclusions,
+  compose results, find incompatible bundles, and construct countermodels.
+- Treat uncertain premises and interpretations as openly stipulated framework
+  inputs. Record variants when needed. Neither source attribution nor an
+  independent defense of each premise is a prerequisite to studying consequence.
+- **Do not put PDF downloads, transcript authentication, passage pinning,
+  extraction portability, or getting an author's intentions exactly right on
+  the critical path of a logic task.** Do not build source infrastructure to
+  unblock such a task. Defer that work until explicitly selected by the owner.
+- New formalizations do not need new source, passage or claim records. Label
+  them as analyst formulations with attribution deferred; keep already available
+  titles/URLs/locators as navigation, not as verified historical claims. Preserve
+  completed source findings in existing notes, candidates or attempts without
+  spending more effort to certify them now.
+- Existing source-integrity rules still apply when deliberately publishing a
+  source claim. They must not be bypassed or replaced by invented attribution.
+  If a new attribution blocks a logic PR, defer the attribution and its new
+  witness records while retaining the propositions and checked logical work.
+- Keep Lean, binding, Comparator/NanoDa, frozen Challenges, exact premise
+  reporting and countermodel boundaries. A conditional consequence does not
+  establish its premises or the Catholicism root as true.
+- Parallel workers should own distinct argument clusters and files, preferably
+  seemingly unrelated topics. Use isolated clones and serialize shared heavy
+  verification/service operations; do not manufacture overlapping source tasks.
+
+This direction overrides source-first and source-coverage priorities elsewhere
+in this file and in existing issue briefs for the current logic-first phase.
+Attribution can be revisited when the source tooling is ready or the owner
+explicitly requests it.
+
 ## Encode first (owner direction, 2026-11-03)
 
 Formalize what can be formalized. Derive what can be derived. Document only what cannot yet be encoded.
