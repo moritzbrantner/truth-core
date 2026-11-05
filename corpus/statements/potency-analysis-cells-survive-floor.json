@@ -1,0 +1,13 @@
+{
+  "id": "STMT-POTENCY-ANALYSIS-CELLS-SURVIVE-FLOOR",
+  "paraphrase": "Each of the three ¬F7 cells of Q-F7 has an interpretation in which something is moved (F4). F1 holds in every interpretation, and F3 and F6 use other vocabulary, so no approved floor item defeats any ¬F7 cell.",
+  "lean_declaration": "TruthCore.Alternatives.PotencyAnalysisPartition.CellsSurviveFloor",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-CAPACITY-TO-BE",
+    "DEF-MOTION-AS-REDUCTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION"
+  ]
+}

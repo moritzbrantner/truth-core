@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Alternatives.PotencyAnalysisPartition.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.PotencyAnalysisPartition.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Alternatives.PotencyAnalysisPartition.cellsSurviveFloor"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
