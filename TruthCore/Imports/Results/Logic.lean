@@ -3,6 +3,7 @@ import TruthCore.Results.Logic.CaseNonContradiction.Solution
 import TruthCore.Results.Logic.CogitoConcrete.Solution
 import TruthCore.Results.Logic.CogitoSubject.Solution
 import TruthCore.Results.Logic.CorrectionCriterion.Solution
+import TruthCore.Results.Logic.EpistemicNihilismRetorsion.Solution
 import TruthCore.Results.Logic.ExcludedMiddleIffDne.Solution
 import TruthCore.Results.Logic.ExcludedMiddleIrrefutable.Solution
 import TruthCore.Results.Logic.ExcludedMiddleNotDeniable.Solution

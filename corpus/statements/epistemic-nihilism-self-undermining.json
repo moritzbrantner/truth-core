@@ -1,0 +1,5 @@
+{
+  "id": "STMT-EPISTEMIC-NIHILISM-SELF-UNDERMINING",
+  "paraphrase": "The owner's retorsion (#1007): if there are no epistemic reasons, then no one has an epistemic reason to believe that there are none. It shows that if global epistemic nihilism holds, no one is epistemically justified in believing it; it does not show that nihilism is false.",
+  "lean_declaration": "TruthCore.Logic.EpistemicReasons.NihilismSelfUndermining"
+}

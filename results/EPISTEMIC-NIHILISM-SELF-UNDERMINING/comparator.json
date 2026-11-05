@@ -1,0 +1,11 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.EpistemicNihilismRetorsion.Challenge",
+  "solution_module": "TruthCore.Results.Logic.EpistemicNihilismRetorsion.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.EpistemicNihilismRetorsion.nihilismSelfUndermining",
+    "TruthCore.Results.Logic.EpistemicNihilismRetorsion.reasonedBeliefRefutesNihilism",
+    "TruthCore.Results.Logic.EpistemicNihilismRetorsion.nihilismConsistentAndUnbelievable"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

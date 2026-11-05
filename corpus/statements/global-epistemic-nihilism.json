@@ -1,0 +1,5 @@
+{
+  "id": "STMT-GLOBAL-EPISTEMIC-NIHILISM",
+  "paraphrase": "Global epistemic nihilism: no agent has an epistemic reason to believe anything. Held at full strength by Bart Streumer (Unbelievable Errors, OUP 2017) as part of his global normative error theory; he grants that we cannot believe the theory and denies that this makes it false. Attribution pending a pinned witness.",
+  "lean_declaration": "TruthCore.Logic.EpistemicReasons.EpistemicNihilism"
+}

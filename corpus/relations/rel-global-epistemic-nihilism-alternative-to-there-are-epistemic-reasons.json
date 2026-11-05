@@ -1,0 +1,9 @@
+{
+  "id": "REL-GLOBAL-EPISTEMIC-NIHILISM-ALTERNATIVE-TO-THERE-ARE-EPISTEMIC-REASONS",
+  "subject_kind": "statement",
+  "subject_id": "STMT-GLOBAL-EPISTEMIC-NIHILISM",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-THERE-ARE-EPISTEMIC-REASONS",
+  "note": "Class: global_underminer. Streumer's error theory, epistemic part. Self-undermining (EPISTEMIC-NIHILISM-SELF-UNDERMINING) but consistent: the same result certifies an interpretation where it holds. Not refuted; no refutes relation is recorded."
+}
