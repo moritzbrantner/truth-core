@@ -200,7 +200,7 @@ Four senses are recorded in `DISAMB-HINGE-STATUS`:
 3. **Non-propositional animal certainty** (Moyal-Sharrock).
 4. **Nonsense** (Read, Crary).
 
-Wittgenstein's own text leans against sense 1:
+The readings that deny sense 1 cite these passages:
 
 - §151: "Moore *weiß* nicht, was er zu wissen behauptet, aber es steht für ihn
   fest".
@@ -209,7 +209,8 @@ Wittgenstein's own text leans against sense 1:
 - §205, recorded as a conditional only: *if* the true is what is grounded, the
   ground is neither true nor false.
 
-So the "neither true nor false" reading bears on 'established' as follows.
+Which sense the text supports is disputed, and none is attributed here. On
+the non-knowledge senses (2-4), the bearing on 'established' is as follows.
 F3 and F4 would *stand fast* without being *established* in the corpus's
 sense. They would not be denied, but they would not be known truths that
 refute their rivals either.
