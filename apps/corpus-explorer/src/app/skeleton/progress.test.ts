@@ -33,7 +33,8 @@ test("checked connections remain conditional while established EM is discharged"
   expect(connections.find(({ inference }) => inference.output_statement_id === report.root)?.results.map((result) => result.id)).toEqual([
     "CATHOLICISM-FROM-EFFICIENT-REGRESS-WITH-CLASSICAL-ATTRIBUTES",
   ]);
-  expect(progress.obligations.filter(({ item }) => item.depth === "sourced").length).toBe(report.items.filter((item) => item.path_to_root && item.depth === "sourced").length);
+  expect(progress.obligations.filter(({ item }) => item.depth === "supported").length).toBe(report.items.filter((item) => item.path_to_root && item.depth === "supported").length);
+  expect(progress.obligations.filter(({ item }) => item.depth === "stated").length).toBe(report.items.filter((item) => item.path_to_root && item.depth === "stated").length);
 });
 
 test("short proof advisory flags do not change a derivation into a transcription", () => {

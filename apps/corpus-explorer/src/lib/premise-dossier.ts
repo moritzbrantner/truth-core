@@ -21,7 +21,7 @@ export type PremiseDossier = {
   root: string;
   closure: ClosureReason | null;
   established: boolean;
-  frontier: { depth: "bare" | "sourced"; path_to_root: string[] | null } | null;
+  frontier: { depth: "bare" | "supported" | "stated"; path_to_root: string[] | null } | null;
   claim_ids: string[];
   supporting_claim_ids: string[];
   definition_ids: string[];
@@ -64,7 +64,7 @@ function dossier(value: unknown): value is PremiseDossier {
     || typeof value.established !== "boolean") {
     return false;
   }
-  if (value.frontier !== null && (!record(value.frontier) || !oneOf(["bare", "sourced"], value.frontier.depth)
+  if (value.frontier !== null && (!record(value.frontier) || !oneOf(["bare", "supported", "stated"], value.frontier.depth)
     || (value.frontier.path_to_root !== null && !strings(value.frontier.path_to_root)))) {
     return false;
   }

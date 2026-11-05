@@ -33,6 +33,7 @@ export default function GraphPage() {
           <div><dt>Established</dt><dd>{established}</dd></div>
           <div><dt>Open frontier</dt><dd>{open.length}</dd></div>
           <div><dt>Bare premises</dt><dd>{open.filter((statement) => statement.frontierDepth === "bare").length}</dd></div>
+          <div><dt>Supported only</dt><dd>{open.filter((statement) => statement.frontierDepth === "supported").length}</dd></div>
         </dl>
       </header>
       <Suspense fallback={<p>Loading the proposition graph…</p>}>

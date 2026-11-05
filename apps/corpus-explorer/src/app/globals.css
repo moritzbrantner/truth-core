@@ -932,6 +932,7 @@ button:focus-visible {
 .network-marker[data-kind="inference"] .network-symbol { border-radius: 2px; width: 5px; height: 5px; background: var(--line-strong); border: 0; box-shadow: none; }
 .network-marker[data-frontier="true"] .network-symbol { box-shadow: 0 0 0 2px var(--paper), 0 0 0 4px var(--status-open), 0 0 0 8px color-mix(in srgb, var(--status-open) 16%, transparent); }
 .network-marker[data-frontier-depth="bare"] .network-symbol { box-shadow: 0 0 0 2px var(--paper), 0 0 0 4px var(--status-objection), 0 0 0 8px color-mix(in srgb, var(--status-objection) 22%, transparent); }
+.network-marker[data-frontier-depth="supported"] .network-symbol { box-shadow: 0 0 0 2px var(--paper), 0 0 0 4px var(--status-transcription), 0 0 0 8px color-mix(in srgb, var(--status-transcription) 22%, transparent); }
 .network-marker[data-established="true"] .network-symbol { border: 2px solid var(--status-self-evident); box-shadow: 0 0 0 1px var(--status-self-evident); }
 .network-marker[data-conditional="true"] .network-symbol { background: var(--paper); border: 2px solid var(--status-proved); box-shadow: 0 0 0 1px var(--community); }
 .network-marker[data-refuted="true"] .network-symbol { box-shadow: 0 0 0 2px var(--status-objection); }

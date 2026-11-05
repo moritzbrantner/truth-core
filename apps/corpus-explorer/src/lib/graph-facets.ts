@@ -7,7 +7,7 @@ import type { GraphStatement } from "./proposition-graph";
  * frontier report; nothing here decides closure or reachability itself.
  */
 
-export type ClosureFacet = "established" | "conditional" | "frontier-bare" | "frontier-sourced" | "unclosed";
+export type ClosureFacet = "established" | "conditional" | "frontier-bare" | "frontier-supported" | "frontier-stated" | "unclosed";
 export type RecordFacet = "claim" | "argument" | "result" | "inference" | "relation";
 export type ReachFacet = "root" | "other";
 
@@ -15,7 +15,8 @@ export const CLOSURE_FACETS: ReadonlyArray<{ id: ClosureFacet; label: string; de
   { id: "established", label: "Established", description: "In established_statements of corpus.py frontier." },
   { id: "conditional", label: "Closed · conditional", description: "Closed by corpus.py frontier but resting on open premises." },
   { id: "frontier-bare", label: "Frontier · bare", description: "Open premise that no claim states and no supports relation backs." },
-  { id: "frontier-sourced", label: "Frontier · sourced", description: "Open premise that a claim or supports relation backs." },
+  { id: "frontier-supported", label: "Frontier · supported", description: "Open premise that only a supports relation backs; no claim states it." },
+  { id: "frontier-stated", label: "Frontier · stated", description: "Open premise that a source claim states." },
   { id: "unclosed", label: "Not closed, off the frontier", description: "Neither closed nor an open argument premise (for example a source reading no argument uses)." },
 ];
 
@@ -35,7 +36,7 @@ export const REACH_FACETS: ReadonlyArray<{ id: ReachFacet; label: string }> = [
 export function closureOf(statement: GraphStatement): ClosureFacet {
   if (statement.established) return "established";
   if (statement.closureReason) return "conditional";
-  if (statement.frontier) return statement.frontierDepth === "bare" ? "frontier-bare" : "frontier-sourced";
+  if (statement.frontier) return `frontier-${statement.frontierDepth ?? "bare"}`;
   return "unclosed";
 }
 

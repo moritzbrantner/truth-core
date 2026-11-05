@@ -21,7 +21,7 @@ export default function SkeletonPage() {
   const research = researchFrontier(corpus, getPropositionGraph(corpus), report);
   const progress = skeletonProgress(corpus, report, research);
   const paraphrase = (id: string) => findStatement(corpus, id)?.paraphrase ?? id;
-  const bare = progress.obligations.filter(({ item }) => item.depth === "bare").length;
+  const count = (depth: string) => progress.obligations.filter(({ item }) => item.depth === depth).length;
   const explore = (id: string) => `/graph?${new URLSearchParams({ target: id, sel: id, scope: "goal", explore: "1" })}`;
 
   return (
@@ -29,7 +29,7 @@ export default function SkeletonPage() {
       <header>
         <h1 className="font-serif text-4xl tracking-[-0.04em]">Skeleton progress</h1>
         <p className="mt-3 text-lg leading-7">
-          {progress.obligations.length} open premises · {bare} bare · {progress.obligations.length - bare} sourced
+          {progress.obligations.length} open premises · {count("bare")} bare · {count("supported")} supported · {count("stated")} stated
         </p>
         <p className="mt-2 text-sm text-[var(--muted)]">
           {progress.discharged ? "Root discharged from established premises." : "Root not discharged. A connection proves consequence; it does not establish its open premises."}

@@ -59,6 +59,6 @@
   ],
   "transcription_result_ids": ["R-A-T2", "R-B-T1", "R-T3", "R-T4", "R-T5", "R-T6"],
   "expected_frontier": ["D", "DEF2", "OPEN", "T3", "T6"],
-  "expected_depth": {"D": "bare", "DEF2": "bare", "OPEN": "sourced", "T3": "sourced", "T6": "bare"},
+  "expected_depth": {"D": "bare", "DEF2": "bare", "OPEN": "stated", "T3": "supported", "T6": "bare"},
   "expected_closed_via_transcription": {"D2": "R-D2", "T1": "R-B-T1", "T2": "R-A-T2", "T4": "R-T4", "T5": "R-T5"}
 }

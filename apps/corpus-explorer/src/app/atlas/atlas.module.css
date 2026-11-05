@@ -7,6 +7,7 @@
   --atlas-gold: var(--status-transcription);
   --atlas-blue: var(--status-proved);
   --atlas-bare: var(--status-open);
+  --atlas-supported: color-mix(in srgb, var(--atlas-blue) 55%, var(--ink));
   color: var(--ink);
 }
 
@@ -199,7 +200,8 @@ a.provenance { color: var(--accent); text-decoration: underline; text-underline-
 .barKey span { align-items: center; color: var(--muted); display: inline-flex; font-size: 0.7rem; gap: 0.4rem; }
 .barKey i { height: 0.6rem; width: 0.65rem; }
 .bareSwatch { background: var(--atlas-bare); }
-.sourcedSwatch { background: var(--atlas-blue); }
+.supportedSwatch { background: var(--atlas-supported); }
+.statedSwatch { background: var(--atlas-blue); }
 .unestablishedSwatch { background: var(--line-strong); }
 .routeRows { display: grid; gap: 0.35rem; }
 .routeRow { align-items: center; background: transparent; border: 1px solid transparent; color: var(--ink); cursor: pointer; display: grid; gap: 0.6rem; grid-template-columns: 1.5rem minmax(0, 1fr) 2rem; padding: 0.55rem; text-align: left; }
@@ -210,19 +212,21 @@ a.provenance { color: var(--accent); text-decoration: underline; text-underline-
 .routeName { font-size: 0.75rem; line-height: 1.35; overflow-wrap: anywhere; }
 .routeBarTrack { background: var(--atlas-subtle); display: flex; height: 0.58rem; width: 100%; }
 .routeBare { background: var(--atlas-bare); height: 100%; }
-.routeSourced { background: var(--atlas-blue); height: 100%; }
+.routeSupported { background: var(--atlas-supported); height: 100%; }
+.routeStated { background: var(--atlas-blue); height: 100%; }
 .routeUnestablished { background: var(--line-strong); height: 100%; }
 .routeCost { font-size: 0.85rem; font-variant-numeric: tabular-nums; text-align: right; }
 .routeTitle { font-family: Georgia, serif; font-size: 1.3rem; letter-spacing: -0.03em; line-height: 1.3; overflow-wrap: anywhere; }
-.routeSummary { border-bottom: 1px solid var(--line); border-top: 1px solid var(--line); display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.4rem; padding: 0.9rem 0; }
+.routeSummary { border-bottom: 1px solid var(--line); border-top: 1px solid var(--line); display: grid; grid-template-columns: repeat(5, 1fr); gap: 0.4rem; padding: 0.9rem 0; }
 .routeSummary > div { display: grid; gap: 0.3rem; }
 .routeSummary strong { font-family: Georgia, serif; font-size: 1.7rem; font-weight: 400; }
 .routeSummary span { color: var(--muted); font-size: 0.72rem; }
 .routeCaveat { color: var(--muted); font-size: 0.78rem; line-height: 1.6; margin: 0.9rem 0 0; }
 .detailPremises li { align-items: baseline; display: flex; flex-wrap: wrap; gap: 0.5rem; }
-.bareBadge, .sourcedBadge, .unestablishedBadge { border: 1px solid currentColor; font-size: 0.68rem; padding: 0.13rem 0.3rem; }
+.bareBadge, .supportedBadge, .statedBadge, .unestablishedBadge { border: 1px solid currentColor; font-size: 0.68rem; padding: 0.13rem 0.3rem; }
 .bareBadge { color: var(--atlas-bare); }
-.sourcedBadge { color: var(--atlas-blue); }
+.supportedBadge { color: var(--atlas-supported); }
+.statedBadge { color: var(--atlas-blue); }
 .unestablishedBadge { color: var(--muted); }
 
 .treeMap { display: flex; gap: 0.45rem; height: 310px; margin-bottom: 0.85rem; }
@@ -233,7 +237,8 @@ a.provenance { color: var(--accent); text-decoration: underline; text-underline-
 .treeTile strong { font-family: Georgia, serif; font-size: clamp(1.1rem, 2.8vw, 2rem); font-weight: 400; line-height: 1.1; }
 .treeTile span { font-size: 0.68rem; margin-top: 0.3rem; }
 .treeBare { background: var(--atlas-bare); }
-.treeSourced { background: var(--atlas-blue); }
+.treeSupported { background: var(--atlas-supported); }
+.treeStated { background: var(--atlas-blue); }
 .treeActive { border-color: var(--ink); box-shadow: inset 0 0 0 2px #fff; }
 .searchLabel { margin-bottom: 1rem; max-width: 34rem; }
 .frontierList { display: grid; }
