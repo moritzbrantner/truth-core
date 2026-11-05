@@ -24,6 +24,14 @@ class ConvertTextTest(unittest.TestCase):
         self.assertEqual(conv.convert_text(text),
                          "module\n\npublic import TruthCore.A\n\n@[expose] public section\n\nnamespace X\nend X\n")
 
+    def test_nested_comment_in_docstring(self):
+        text = "/-!\nDoc /- inner\n-/\nstill doc.\n-/\n\ndef x := 1\n"
+        self.assertEqual(conv.convert_text(text),
+                         "module\n\n/-!\nDoc /- inner\n-/\nstill doc.\n-/\n\n@[expose] public section\n\ndef x := 1\n")
+        for bad in ("/-! a /- b -/\n", "/-! doc -/ def x := 1\n"):
+            with self.subTest(text=bad), self.assertRaises(conv.ConversionError):
+                conv.convert_text(bad)
+
     def test_leading_comment_stays_above_module(self):
         text = "-- note\nimport TruthCore.A\n\ndef x := 1\n"
         self.assertTrue(conv.convert_text(text).startswith("-- note\nmodule\n\npublic import TruthCore.A\n"))

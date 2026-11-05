@@ -59,6 +59,26 @@ def _strip_comments_head(text: str) -> str:
             return text[i:]
 
 
+def _docstring_lines(rest: list[str]) -> int:
+    """Number of lines of the leading `/-! ... -/` block, tracking nested block comments."""
+    text = "".join(rest)
+    start = text.index("/-!")
+    depth, i = 1, start + 3
+    while depth:
+        opening, closing = text.find("/-", i), text.find("-/", i)
+        if closing < 0:
+            raise ConversionError("unterminated leading module docstring")
+        if 0 <= opening < closing:
+            depth, i = depth + 1, opening + 2
+        else:
+            depth, i = depth - 1, closing + 2
+    line_end = text.find("\n", i)
+    tail = text[i:] if line_end < 0 else text[i:line_end]
+    if tail.strip():
+        raise ConversionError("code after the leading module docstring on its closing line")
+    return text[:i].count("\n") + 1
+
+
 def convert_text(text: str) -> str:
     """Return the module form of an ordinary Lean file's text."""
     if is_module_text(text):
@@ -91,11 +111,7 @@ def convert_text(text: str) -> str:
             raise ConversionError(f"import after the header on line {i + n + 1}")
     j = 0
     if rest and rest[0].lstrip().startswith("/-!"):
-        while j < len(rest) and not rest[j].rstrip().endswith("-/"):
-            j += 1
-        if j == len(rest):
-            raise ConversionError("unterminated leading module docstring")
-        j += 1
+        j = _docstring_lines(rest)
     head = "".join(leading).lstrip("\n") + "module\n\n"
     if imports:
         head += "".join(f"public import {name}\n" for name in imports) + "\n"
