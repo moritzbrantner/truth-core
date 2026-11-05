@@ -1,0 +1,25 @@
+{
+  "id": "ATTEMPT-PRIORITY-INVARIANCE-950",
+  "date": "2026-11-05",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "statement_ids": [
+    "STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT",
+    "STMT-NO-CONTINGENT-GROUND-OF-NECESSARY",
+    "STMT-COMMON-WELL-FOUNDED-PRIORITY-RANK",
+    "STMT-COMMON-PRIORITY-COMPARISON",
+    "STMT-NECESSARY-TARGET-CONTINGENT-GROUND-BOUNDARY"
+  ],
+  "evidence": [
+    "COMMON-RANK-TO-UNION-WF",
+    "UNION-WF-TO-COMMON-RANK",
+    "NECESSARILY-UNDERIVED-FROM-COMMON-RANK",
+    "COMMON-PRIORITY-COMPARISON",
+    "NECESSARY-TARGET-CONTINGENT-GROUND-CONTROL",
+    "TROGDON-NECESSARY-TARGET-PARTIAL-GROUND",
+    "LEUENBERGER-ENTAILMENT-INTERNALITY",
+    "RICHARDSON-WHY-GROUNDING"
+  ],
+  "summary": "Reused exact union producer and rotating/parity/varying/switching controls. Arbitrary-WF common rank is equivalent to unionWF, not a weakening. Target-truth implication cannot supply relation persistence/common rank; necessary-target fragment cannot prohibit contingent support. Read/materialized selected full argument contexts in all3 primary authors. Rejected incomplete1MiB Richardson archive captures, using complete Feb2024 capture. Exact semantic/source distinctions and remaining bridges persisted in docs/notes/modal-grounding-priority-950.md. Challenges frozen before Solution. Canonical builds and all5 scoped binding/Comparator/NanoDa gates pass (5bound,0mismatch). The rank equivalence/route and switching control are zero-axiom; parity comparison uses exactly propext, Classical.choice, Quot.sound. Common-rank configuration is an equivalent presentation, not an established metaphysical assumption. All3 new primary manifests pass scoped live byte/text verification; unchanged witnesses checked offline only. Source attribution8claims passes.",
+  "blocker": "No independently defended common-rank, no-contingent-ground or applicability bridge. Whole-fact supervenience/essence/difference-making source accounts are not refuted by mere bearer-support countermodels."
+}

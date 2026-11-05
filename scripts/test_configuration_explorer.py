@@ -53,6 +53,22 @@ class ConfigurationExplorerTests(unittest.TestCase):
                     if node['report']['status'] == 'verified incompatible':
                         self.assertIsNone(node['report']['consequences'])
 
+    def test_modal_union_report_preserves_eleven_assumption_dimensions(self):
+        case = next(case for case in self.context['cases'] if case['id'] == 'CONFIG-MODAL-GROUNDING-UNION')
+        report = next(report for report in self.reports if report['id'] == case['id'])
+        context = {**self.context, 'cases': [case]}
+        emitted = build_case_spaces(context, [report])[0]
+        space = emitted['assumption_space']
+        self.assertEqual(len(space['statement_ids']), 11)
+        self.assertEqual(space['limits']['syntactic_selections'], 2048)
+        self.assertEqual(space['limits']['covered_selections'], 2048)
+        self.assertIn('STMT-COMMON-WELL-FOUNDED-PRIORITY-RANK', space['statement_ids'])
+        self.assertIn('STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT', space['statement_ids'])
+        rank_route = next(row for row in emitted['configurations'] if row['id'] == 'same-union-route-via-common-rank')
+        self.assertIn('STMT-COMMON-WELL-FOUNDED-PRIORITY-RANK', rank_route['statement_ids'])
+        self.assertIn('NECESSARILY-UNDERIVED-FROM-COMMON-RANK',
+                      [edge['result_id'] for edge in emitted['verified_implications']])
+
     def test_unverified_data_and_over_limit_dimensions_are_rejected(self):
         reports = copy.deepcopy(self.reports)
         reports[0]['verified'] = False

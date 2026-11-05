@@ -1,0 +1,10 @@
+{
+  "id": "STMT-BLOCKER-BLOCKER-OBJECTION-TO-GROUNDING-INTERNALITY",
+  "paraphrase": "The proposed blocker-blocker cases leave the original grounds and grounded fact obtaining while adding explanatorily indispensable facts; they are offered as counterexamples to internality.",
+  "definition_ids": [
+    "DEF-GROUNDING-NECESSITATION-SOURCE-SENSES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSITATION-PRIORITY-INVARIANCE"
+  ]
+}

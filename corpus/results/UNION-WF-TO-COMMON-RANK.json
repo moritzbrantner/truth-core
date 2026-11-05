@@ -1,0 +1,10 @@
+{
+  "id": "UNION-WF-TO-COMMON-RANK",
+  "argument_id": "UNION-WF-TO-COMMON-RANK",
+  "challenge_module": "TruthCore.Results.Causality.CommonPriority.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CommonPriority.Solution",
+  "theorem": "TruthCore.Results.Causality.CommonPriority.union_to_rank",
+  "comparator_config": "results/UNION-WF-TO-COMMON-RANK/comparator.json",
+  "status": "solution-present",
+  "description": "Use the identity map into the already well-founded union relation; rank is a reformulation, not premise weakening. Conditional/configuration consequence only; no metaphysical premise established."
+}

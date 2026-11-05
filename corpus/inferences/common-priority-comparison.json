@@ -1,0 +1,9 @@
+{
+  "id": "INF-COMMON-PRIORITY-COMPARISON",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-COMMON-PRIORITY-COMPARISON",
+  "rule": "checked-theorem-composition-and-model-controls",
+  "meaning": "Consume exact rotating/parity/varying controls: truth implication and world-local termination do not give a common priority rank; stability plus actualWF suffices.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

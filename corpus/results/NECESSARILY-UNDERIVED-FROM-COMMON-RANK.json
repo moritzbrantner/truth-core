@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARILY-UNDERIVED-FROM-COMMON-RANK",
+  "argument_id": "NECESSARILY-UNDERIVED-FROM-COMMON-RANK",
+  "challenge_module": "TruthCore.Results.Causality.CommonPriority.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CommonPriority.Solution",
+  "theorem": "TruthCore.Results.Causality.CommonPriority.from_rank",
+  "comparator_config": "results/NECESSARILY-UNDERIVED-FROM-COMMON-RANK/comparator.json",
+  "status": "solution-present",
+  "description": "Apply the existing PositiveUnion.checks producer with the exact population/reflexivity/no-contingent/EM premises and the derived unionWF. Conditional/configuration consequence only; no metaphysical premise established."
+}

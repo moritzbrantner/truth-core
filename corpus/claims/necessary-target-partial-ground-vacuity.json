@@ -1,0 +1,15 @@
+{
+  "id": "TROGDON-NECESSARY-TARGET-PARTIAL-GROUND",
+  "source_id": "TROGDON-GROUNDING-NECESSARY-2013",
+  "statement_id": "STMT-NECESSARY-TARGET-ENTAILMENT-DOES-NOT-DISTINGUISH-FULLNESS",
+  "locator": "PDF p. 3 (printed p.467), paragraph beginning It is worth noting",
+  "interpretation": "Paraphrase preserves explanatory versus purely modal distinction; no claim that the support models are genuine full grounds.",
+  "attribution": "The passage states a necessary target truth can have merely partial grounds even though its proposition is modally entailed by the propositions corresponding to those grounds; modal entailment alone does not distinguish full from partial grounding, which is the premise.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-GROUNDING-NECESSITATION-SOURCE-SENSES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSITATION-PRIORITY-INVARIANCE"
+  ]
+}

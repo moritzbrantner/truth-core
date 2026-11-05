@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.CommonPriority.ContingentGround.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CommonPriority.ContingentGround.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.CommonPriority.ContingentGround.checks"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

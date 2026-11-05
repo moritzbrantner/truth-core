@@ -1,0 +1,10 @@
+{
+  "id": "STMT-GROUNDING-SUPERVENES-ON-WHOLE-FACT-BASE",
+  "paraphrase": "If two worlds agree on which facts obtain, they agree on which facts ground which; this proposed supervenience principle uses all facts, not just a selected pair of relata.",
+  "definition_ids": [
+    "DEF-GROUNDING-NECESSITATION-SOURCE-SENSES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSITATION-PRIORITY-INVARIANCE"
+  ]
+}
