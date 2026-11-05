@@ -1,0 +1,9 @@
+{
+  "id": "REL-SOME-MEANINGFUL-NEGATION-NOT-MEANINGFUL-ALTERNATIVE-TO-CLOSURE-STRONG",
+  "subject_kind": "statement",
+  "subject_id": "STMT-SOME-MEANINGFUL-NEGATION-NOT-MEANINGFUL",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-STRONG",
+  "note": "Class: recorded rival of an owner-approved floor item (strong version). No source states it as a thesis; it follows from V1 with testable laws (the content of STRONG-VERIFICATIONISM-WITH-LAWS-FAILS read contrapositively). Not refuted here."
+}

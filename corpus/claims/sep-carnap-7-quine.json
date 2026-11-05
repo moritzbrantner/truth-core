@@ -1,0 +1,9 @@
+{
+  "id": "SEP-CARNAP-7-QUINE",
+  "statement_id": "STMT-QUINE-INTERNAL-EXTERNAL-RESTS-ON-ANALYTICITY",
+  "source_id": "SEP-CARNAP",
+  "locator": "§7, \"Quine rejected Carnap’s internal/external distinction, which in Quine’s view relied on an analytic/synthetic distinction\"",
+  "interpretation": "The entry's report of Quine's objection. The same section reports that the now mainstream reading (Creath) holds that Quine partly misunderstood Carnap, and that whether the internal/external distinction needs the analytic/synthetic distinction is itself an open topic (Thomasson). Attribution reading on a secondary witness.",
+  "attribution": "The passage states that Quine rejected Carnap's internal/external distinction because in his view it relied on an analytic/synthetic distinction, accepting a framework consisting in accepting the sentences analytic in it, which is the premise.",
+  "status": "formalized"
+}

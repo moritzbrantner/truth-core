@@ -1285,6 +1285,11 @@ def decompress_zstd(data: bytes, label: str) -> bytes:
 def download(url: str, label: str, *, attempts: int = 3) -> bytes:
     """The response body with gzip/zstd content coding removed; network errors are retried.
 
+    A truncated body (`http.client.IncompleteRead`) or other HTTP protocol error
+    is a transport failure like a reset connection: it is retried, and after the
+    last attempt it is an availability error. Its partial bytes are never hashed,
+    so it can never pass as, or hide, byte drift.
+
     The pinned hash covers these bytes. A fixed User-Agent is sent because some
     servers vary the page by client.
     """
@@ -1297,7 +1302,7 @@ def download(url: str, label: str, *, attempts: int = 3) -> bytes:
             with urllib.request.urlopen(request, timeout=60) as response:
                 data = response.read()
                 content_encoding = response.headers.get("Content-Encoding", "").strip().lower()
-        except (urllib.error.URLError, TimeoutError, OSError) as exc:
+        except (urllib.error.URLError, TimeoutError, OSError, http.client.HTTPException) as exc:
             last_error = exc
             if attempt + 1 < attempts:
                 time.sleep(1 + attempt)

@@ -1,0 +1,9 @@
+{
+  "id": "REL-STRONG-VERIFICATIONISM-WITH-LAWS-FAILS-REFUTES-PACKAGE",
+  "subject_kind": "argument",
+  "subject_id": "STRONG-VERIFICATIONISM-WITH-LAWS-FAILS",
+  "predicate": "refutes",
+  "object_kind": "statement",
+  "object_id": "STMT-STRONG-VERIFICATIONISM-WITH-LAWS",
+  "note": "Counts because its only premise, STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-WEAK, is an owner-approved floor item (#1008, 2026-11-05)."
+}

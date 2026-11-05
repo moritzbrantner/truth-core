@@ -287,7 +287,7 @@ function FrontierView({ model, selectedGroup, selectGroup }: { model: AtlasModel
           </button>)}</div>
         </div>;
       })}</div>
-      <p className={styles.diagramFoot}>Each open premise appears exactly once. “Supported” means only a supports relation (its note records what the source leaves unstated) or a bibliographic citation without pinned bytes backs it; “stated” means a claim on a pinned source states it. Neither means justified or established. “Reaches root” means a recorded dependency path.</p>
+      <p className={styles.diagramFoot}>Each open premise appears exactly once. “Supported” means only a supports relation (its note records what the source leaves unstated) or a source whose bytes cannot be verified (a bibliographic citation or a permanently unavailable witness) backs it; “stated” means a claim on a pinned source states it. Neither means justified or established. “Reaches root” means a recorded dependency path.</p>
     </section>
     <section className={styles.panel} aria-label="Selected frontier partition">
       <div className={styles.panelHeading}><span>{active.title}</span><span>{active.count} open premises</span></div>

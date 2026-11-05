@@ -1,0 +1,38 @@
+{
+  "id": "STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-WEAK",
+  "paraphrase": "Weak version: for every sentence, if its negation is meaningful, so is its double negation; that is, negation closure only for negated sentences.",
+  "lean_declaration": "TruthCore.Logic.Verificationism.MeaningClosedUnderNegationOfNegations",
+  "definition_ids": [
+    "DEF-MEANING-NEGATION-CLOSURE",
+    "DEF-VERIFICATION-PRINCIPLE",
+    "DEF-TRUTH-CONDITIONAL-LANGUAGE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-VERIFICATIONIST-MEANINGFUL"
+  ],
+  "self_evident": {
+    "basis": "common_ground",
+    "justification_ids": [
+      "SEP-HEMPEL-2-3-NEGATION-CLOSURE-WEAK"
+    ],
+    "question_statement_id": "STMT-VERIFICATION-PRINCIPLE",
+    "positions": [
+      {
+        "statement_id": "STMT-HEMPEL-DEDUCTIVE-CRITERION-SEARCH-USELESS",
+        "claim_ids": [
+          "SEP-HEMPEL-2-3-NEGATION-CLOSURE-WEAK"
+        ]
+      }
+    ],
+    "disagreement": {
+      "rival_statement_ids": [
+        "STMT-SOME-MEANINGFUL-NEGATION-DOUBLE-NEGATION-NOT-MEANINGFUL"
+      ]
+    },
+    "owner_approval": {
+      "decision": "https://github.com/moritzbrantner/truth-core/issues/1008#issuecomment-6662364121",
+      "date": "2026-11-05"
+    },
+    "note": "Floor item approved by the owner on 2026-11-05 (#1008), weak version: the weakest version defeat 2 (STRONG-VERIFICATIONISM-WITH-LAWS-FAILS) needs, which applies closure only to the negation of a testable law. Entailed by the strong version (MEANING-NEGATION-CLOSURE-STRONG-ENTAILS-WEAK). Hempel's stork example applies his biconditional adequacy condition exactly to such a pair (an existential and its negation). The recorded rival stays recorded and unrefuted, and the common-ground criterion is not mechanically met, so the premise is established relative to the owner's approval."
+  }
+}

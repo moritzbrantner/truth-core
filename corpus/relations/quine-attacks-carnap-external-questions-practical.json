@@ -1,0 +1,9 @@
+{
+  "id": "REL-QUINE-ATTACKS-CARNAP-EXTERNAL-QUESTIONS-PRACTICAL",
+  "subject_kind": "claim",
+  "subject_id": "SEP-CARNAP-7-QUINE",
+  "predicate": "attacks",
+  "object_kind": "statement",
+  "object_id": "STMT-CARNAP-EXTERNAL-QUESTIONS-PRACTICAL",
+  "note": "Quine's objection, as reported. It rests on rejecting the analytic/synthetic distinction, which is not an established floor item, and the entry records the reply that Quine partly misunderstood Carnap. An objection, not a refutation; it supplies no bridge from 'adopted, not asserted' to 'outside its own scope'."
+}

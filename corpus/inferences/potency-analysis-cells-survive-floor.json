@@ -1,0 +1,9 @@
+{
+  "id": "INF-POTENCY-ANALYSIS-CELLS-SURVIVE-FLOOR",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-POTENCY-ANALYSIS-CELLS-SURVIVE-FLOOR",
+  "rule": "model-construction",
+  "meaning": "One interpretation per cell over Unit with something moved.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

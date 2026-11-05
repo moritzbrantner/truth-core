@@ -1,0 +1,11 @@
+{
+  "id": "INF-AYER-1946-EXCLUDES-A-NEGATION-FAILS",
+  "input_statement_ids": [
+    "STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-STRONG"
+  ],
+  "output_statement_id": "STMT-AYER-1946-EXCLUDES-A-NEGATION-FAILS",
+  "rule": "constructive-proof",
+  "meaning": "The strengthened 1946 corollary made to count, from the floor item STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-STRONG and Church's trivialization (CHURCH-1949-TRIVIALIZATION). If the negation of y were not meaningful, it would not be directly verifiable, so y would be indirectly verifiable, hence meaningful by the 1946 criterion, and by closure its negation would be meaningful. So under V3 no negated sentence, 'there is no god' included, fails to be meaningful. Refutes STMT-AYER-1946-EXCLUDES-A-NEGATION. It does not show that every sentence is meaningful: closure runs from a sentence to its negation only.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

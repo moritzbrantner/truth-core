@@ -1,0 +1,15 @@
+{
+  "id": "SEP-HEMPEL-2-3-NEGATION-CLOSURE",
+  "statement_id": "STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-STRONG",
+  "source_id": "SEP-HEMPEL",
+  "locator": "§2.3, \"on the assumption that a sentence \\(S\\) is meaningful if and only if its negation is meaningful\"",
+  "interpretation": "Hempel's critique of the verifiability criterion assumes, as an adequacy condition, that a sentence is meaningful iff its negation is; the entry reports that under this assumption the criterion yields counterintuitive if not inconsistent consequences (the red-legged stork). Attribution reading on a secondary witness: the claim records the assumption the entry reports Hempel as using. The statement is the left-to-right half.",
+  "attribution": "The passage states that Hempel's critique proceeds on the assumption that a sentence is meaningful if and only if its negation is meaningful, whose left-to-right half is the premise.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-MEANING-NEGATION-CLOSURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-VERIFICATIONIST-MEANINGFUL"
+  ]
+}
