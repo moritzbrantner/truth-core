@@ -91,6 +91,30 @@ class HttpContentDecodingTest(unittest.TestCase):
             with self.assertRaisesRegex(se.SourceEvidenceError, "cannot run zstd response decoder"):
                 self.download_fixture(self.ZSTD_FIXTURE, "zstd")
 
+    def test_truncated_body_is_retried_then_unavailable_never_drift(self) -> None:
+        # main run 42022392385: IncompleteRead escaped as a traceback.
+        truncated = se.http.client.IncompleteRead(b"fix", 4)
+        with (
+            mock.patch.object(se.urllib.request, "urlopen") as opener,
+            mock.patch.object(se.time, "sleep"),
+            mock.patch.object(se, "save_web_drift"),
+        ):
+            response = opener.return_value.__enter__.return_value
+            response.headers = {}
+            response.read.side_effect = [truncated, b"fixture"]
+            self.assertEqual(se.download("https://fixture.invalid/page", "fixture", attempts=2), b"fixture")
+            response.read.side_effect = [truncated] * 3
+            with self.assertRaises(se.SourceUnavailableError) as raised:
+                se.fetch_web_bytes("https://fixture.invalid/page", se.sha256_bytes(b"fixture"), "fixture")
+            self.assertIn("cannot fetch", str(raised.exception))
+            self.assertNotIn("drift", str(raised.exception))
+            # A complete body with the wrong bytes is still drift, not unavailability.
+            response.read.side_effect = None
+            response.read.return_value = b"changed"
+            with self.assertRaisesRegex(se.SourceEvidenceError, "byte drift") as raised:
+                se.fetch_web_bytes("https://fixture.invalid/page", se.sha256_bytes(b"fixture"), "fixture")
+            self.assertNotIsInstance(raised.exception, se.SourceUnavailableError)
+
     def test_hash_checks_decoded_entity_and_still_rejects_drift(self) -> None:
         for expected, matches in [(se.sha256_bytes(b"fixture"), True), (se.sha256_bytes(self.ZSTD_FIXTURE), False)]:
             with self.subTest(matches=matches), mock.patch.object(se.urllib.request, "urlopen") as opener:
