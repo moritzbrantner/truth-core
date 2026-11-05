@@ -4,5 +4,5 @@
   "definition": "`VerificationPrinciple F meaningful scope verifiable`: every sentence in scope that is meaningful is analytic or verifiable. `meaningful` is a parameter for literal, cognitive significance, independent of the criterion, so the principle can fail.",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Logic.Verificationism.VerificationPrinciple",
-  "note": "Stipulative instance of DEF-SELF-APPLICATION-NORM: norm with the given scope and standard analytic-or-verifiable, acceptance predicate meaningful. Analyst's typing for the #1008 verificationism showcase. Sourcing the criterion's wording to its proponent is a separate claim (attribution discipline, #989); the witness status is recorded in docs/ayer-verification-boundary.md and, for the other proponents, in the #1008 showcase sources."
+  "note": "Stipulative instance of DEF-SELF-APPLICATION-NORM: norm with the given scope and standard analytic-or-verifiable, acceptance predicate meaningful. Analyst's typing for the #1008 verificationism showcase. Sourcing the criterion's wording to its proponent is a separate claim (attribution discipline, #989); the witnesses are listed in docs/showcase-verificationism.md."
 }

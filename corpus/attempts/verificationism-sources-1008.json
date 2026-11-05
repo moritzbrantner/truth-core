@@ -1,0 +1,22 @@
+{
+  "id": "ATTEMPT-VERIFICATIONISM-SOURCES-1008",
+  "date": "2026-11-05",
+  "statement_ids": [
+    "STMT-AYER-1946-EXCLUDES-SENTENCE-AND-NEGATION",
+    "STMT-AYER-1936-EXCLUDES-METAPHYSICS",
+    "STMT-STRONG-VERIFICATION-EXCLUDES-LAWS",
+    "STMT-VERIFICATION-PRINCIPLE-IN-OWN-SCOPE"
+  ],
+  "kind": "source-search",
+  "outcome": "succeeded",
+  "summary": "Pinned web snapshots for the #1008 showcase: Tractatus 6.53-6.54 (Gutenberg PDF), Schlick 1936 (MSGA I/6, Rostock; public domain, no Philosophical Review renewal), Ayer LTL ch. I pp. 18-21 (LSE course OCR PDF), IEP Religious Language §2a (verbatim Ayer 1946 p. 13 and p. 144, verbatim Church 1949 p. 53), SEP Hempel §2.3, SEP Vienna Circle §3.1 (Hempel 1950 quote), Carnap ESO and Überwindung (CMU Carnap Project transcriptions). Findings: Church's hypothesis is 'no one of the three taken alone entails any of the others', not mutual logical independence; Schlick 1936 does not say 'conclusive' (Ayer attributes conclusive verifiability to Schlick 1931); Ayer himself states the universal-laws objection and reports the 'important nonsense' reply. Rejected: PhilArchive SCHMAV-2 (bot wall), Scribd and blog copies of Ayer ch. VI, the USP Popper copy (login), JSTOR and Cambridge Core copies of Church (paywalled), the Athens course scan of ESO (JSTOR download; the CMU transcription is preferred).",
+  "blocker": "Ayer ch. VI ('equally nonsensical'), Ayer's 1946 'definition' reply, Popper's 'not a criterion of meaning', and the primary texts of Church 1949 and Hempel 1950 have no admissible witness.",
+  "evidence": [
+    "IEP-REL-LANG-2A-CHURCH",
+    "IEP-REL-LANG-2A-AYER-1946-CRITERION",
+    "AYER-LTL-PELICAN-I-18-LAWS",
+    "SCHLICK-MV-351-LOGICAL-POSSIBILITY",
+    "WITTGENSTEIN-TLP-6-54-LADDER",
+    "CARNAP-ESO-II-EXTERNAL-PRACTICAL"
+  ]
+}

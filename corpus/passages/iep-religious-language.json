@@ -1,0 +1,31 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "IEP-RELIGIOUS-LANGUAGE",
+    "source_url": "https://iep.utm.edu/rel-lang/",
+    "retrieved_at": "2026-11-05T15:20:16Z",
+    "sha256": "sha256:740597e6887a8d1c58776248bbf4be4c7db75ac12e7e130c90a988bd22abf8c4",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "© the author and the Internet Encyclopedia of Philosophy (notice on the site). No Wayback fallback is pinned yet; the snapshot is fragile to live-page drift. Only hashes, locators and a short incipit are committed."
+  },
+  "passages": [
+    {
+      "id": "IEP-REL-LANG-2A",
+      "locator": "§2a (Statements about God are Meaningless)",
+      "claim_locator_prefixes": [
+        "§2a,"
+      ],
+      "html_selector": {
+        "from": {
+          "anchor": "SH2a"
+        },
+        "to": {
+          "anchor": "SH2b"
+        }
+      },
+      "text_sha256": "sha256:f41652af322b629657d50a459597331873c3ba3a450e2b631da57375ff8ba25b",
+      "incipit": "a. Statements about God are Meaningless\nSome philosophers have argued that"
+    }
+  ]
+}

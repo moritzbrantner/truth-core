@@ -1,0 +1,9 @@
+{
+  "id": "CARNAP-UEBERWINDUNG-1-SCHEINSATZ",
+  "statement_id": "STMT-CARNAP-METAPHYSICS-PSEUDO-SENTENCES",
+  "source_id": "CARNAP-UEBERWINDUNG",
+  "locator": "§1, p. 3, \"Im strengen Sinn sinnlos ist dagegen eine Wortreihe, die innerhalb einer bestimmten, vorgegebenen Sprache gar keinen Satz bildet.\"",
+  "interpretation": "Carnap's thesis ('Unsere These behauptet nun, daß die angeblichen Sätze der Metaphysik sich durch logische Analyse als Scheinsätze enthüllen'). Meaninglessness is relative to 'a given language' already in 1931/32. Paraphrased from the German original.",
+  "attribution": "The passage states that a word sequence that forms no sentence within a given language is meaningless in the strict sense, a pseudo-sentence when it looks like a sentence, and that the alleged sentences of metaphysics are pseudo-sentences, which is the premise.",
+  "status": "formalized"
+}

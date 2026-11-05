@@ -1,0 +1,9 @@
+{
+  "id": "REL-HEMPEL-SUPPORTS-STRONG-VERIFICATION-EXCLUDES-LAWS",
+  "subject_kind": "claim",
+  "subject_id": "SEP-HEMPEL-2-3-UNIVERSALS",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-STRONG-VERIFICATION-EXCLUDES-LAWS",
+  "note": "Gap: the entry reports Hempel's result informally, both halves included (universals not verifiable, their existential negations verifiable). The structural setting of the Lean statement is the analyst's."
+}
