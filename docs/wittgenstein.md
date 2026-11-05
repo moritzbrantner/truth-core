@@ -248,9 +248,11 @@ Recording one would reopen the approved markings.
 
 §§35-36: "»Es gibt physikalische Gegenstände« Unsinn", since "physical object"
 is a logical concept. This bears on how a candidate F2 ('something exists') is
-phrased, not on its truth. Phrased as an existential over a formal concept, it
-falls under the same remark. Phrased with a material predicate ("here is a
-hand", §1), it is a Moore-type hinge, and the reading question above decides it.
+phrased, not on its truth. Applied to an F2 phrased as an existential over a
+formal concept, the remark would need a further, unattributed step: that
+"something" is a logical concept the way "physical object" is. Phrased with a
+material predicate ("here is a hand", §1), F2 would be a Moore-type
+proposition. Whether it is then a hinge is the same open bridge as for F3/F4.
 
 ### Proposed floor-basis changes (for the owner; none applied)
 
