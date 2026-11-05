@@ -1,0 +1,5 @@
+{
+  "id": "STMT-SOME-CASE-PREDICATE-CONTRADICTION-TRUE",
+  "paraphrase": "Dialetheic rival to non-contradiction for the case predicates, as far as a classical signature can state it: some being both has and lacks some predicate in the same respect (Hegel on motion, Wissenschaft der Logik II, 'Der Widerspruch', Anm. 3; Priest's dialetheic account of motion). Attribution pending a pinned witness; a dialetheist reads the negation paraconsistently, which this encoding does not represent.",
+  "lean_declaration": "TruthCore.Logic.CaseNonContradiction.SomeCasePredicateContradictionTrue"
+}

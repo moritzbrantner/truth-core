@@ -1,0 +1,41 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "CARNAP-ESO",
+    "source_url": "https://www.phil.cmu.edu/projects/carnap/editorial/latex_pdf/1950-1.pdf",
+    "retrieved_at": "2026-11-05T15:19:36Z",
+    "sha256": "sha256:c7f25a47a973a169751dbe6627c108454e6213b5d16d9bdbcc9a26fca65899c6",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "© Carnap estate; transcription hosted by the Carnap Project, Carnegie Mellon University. No Wayback fallback is pinned yet; the snapshot is fragile to live-page drift. Only hashes, locators and a short incipit are committed."
+  },
+  "passages": [
+    {
+      "id": "CARNAP-ESO-II-FRAMEWORKS",
+      "locator": "§II (Frameworks of Entities), physical pp. 3-5",
+      "claim_locator_prefixes": [
+        "§II, p. 4",
+        "§II, p. 5"
+      ],
+      "pdf_pages": {
+        "first": 3,
+        "last": 5
+      },
+      "text_sha256": "sha256:2dc55ee56ca04177609860b77c9f6637ad783155d4f8312f187e856aab4b0776",
+      "incipit": "II. Frameworks of Entities Are there properties, classes, numbers,"
+    },
+    {
+      "id": "CARNAP-ESO-P20",
+      "locator": "§III (What does acceptance of a kind of entities mean?), physical p. 20",
+      "claim_locator_prefixes": [
+        "§III, p. 20"
+      ],
+      "pdf_pages": {
+        "first": 20,
+        "last": 20
+      },
+      "text_sha256": "sha256:e722b3183abbbed0b96052f2ca9c036e317d0ad632f1095d0e378bdc8254f2d8",
+      "incipit": "If suitable rules for this term are laid down, the following is likewise"
+    }
+  ]
+}

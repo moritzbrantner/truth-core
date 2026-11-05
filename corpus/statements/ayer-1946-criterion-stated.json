@@ -1,0 +1,10 @@
+{
+  "id": "STMT-AYER-1946-CRITERION-STATED",
+  "paraphrase": "Ayer 1946: a statement is directly verifiable if it is an observation-statement or with one or more observation-statements entails an observation-statement not deducible from them alone; it is indirectly verifiable if with certain other premises it entails directly verifiable statements not deducible from those premises alone, and those premises are each analytic, directly verifiable, or independently established as indirectly verifiable.",
+  "definition_ids": [
+    "DEF-AYER-1946-VERIFIABILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-VERIFIABILITY-VARIANT"
+  ]
+}
