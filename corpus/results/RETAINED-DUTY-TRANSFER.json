@@ -1,0 +1,11 @@
+{
+  "id": "RETAINED-DUTY-TRANSFER",
+  "argument_id": "RETAINED-DUTY-TRANSFER",
+  "challenge_module": "TruthCore.Results.Modal.RetainedDuty.Challenge",
+  "solution_module": "TruthCore.Results.Modal.RetainedDuty.Solution",
+  "theorem": "TruthCore.Results.Modal.RetainedDuty.retentionTransfer",
+  "comparator_config": "results/RETAINED-DUTY-TRANSFER/comparator.json",
+  "status": "solution-present",
+  "description": "Transcription of the explicit retention policy at the stipulated initial duty. Same-agent same-action before-to-after duty transfer from InitialDuty and the explicit Retention policy. Conditional consequence, not independent warrant for the policy.",
+  "transcription": "single_application"
+}

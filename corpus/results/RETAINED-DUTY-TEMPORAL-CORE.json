@@ -1,0 +1,10 @@
+{
+  "id": "RETAINED-DUTY-TEMPORAL-CORE",
+  "argument_id": "RETAINED-DUTY-TEMPORAL-CORE",
+  "challenge_module": "TruthCore.Results.Modal.RetainedDuty.Challenge",
+  "solution_module": "TruthCore.Results.Modal.RetainedDuty.Solution",
+  "theorem": "TruthCore.Results.Modal.RetainedDuty.retainedCore",
+  "comparator_config": "results/RETAINED-DUTY-TEMPORAL-CORE/comparator.json",
+  "status": "solution-present",
+  "description": "Initial original-return duty plus explicit same-action retention yields present duty, then composes the direct core with present inability and present OIC. Each single omission is witnessed in the controls; no moral policy or action-substitution bridge is proved true."
+}

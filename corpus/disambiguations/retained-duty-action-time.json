@@ -1,0 +1,11 @@
+{
+  "id": "DISAMB-RETAINED-DUTY-ACTION-TIME",
+  "term": "can, duty retention, action identity and retrospective responsibility",
+  "sense_definition_ids": [
+    "DEF-RETAINED-DUTY-CASE",
+    "DEF-RETAINED-DUTY-POLICIES",
+    "DEF-DEONTIC-IDEAL-FUTURE-BOUNDARY",
+    "DEF-RETAINED-DUTY-BRANCHING-ABILITY"
+  ],
+  "resolution": "Practical ability at after differs from ability at some later date and from actual fulfillment. The generic imported compatibility theorem is instantiated over dates with a supplied ideal-date frame; its earlier continuation interpretation is not asserted identical. Returning the original object is not compensation or debt repayment. Retrospective responsibility can remain when the present original-return duty lapses. No permission or moral truth follows from the predicate names. Attribution of the working reconstruction is deferred. Plan alternatives are complete dated futures, not Stage dates; FeasibleAbility quantifies over a feasible alternative, independently of the designated actual branch. Date-only FutureCan is a separate narrower ability control."
+}

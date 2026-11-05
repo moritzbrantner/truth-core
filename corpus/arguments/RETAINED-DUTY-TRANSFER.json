@@ -1,0 +1,19 @@
+{
+  "id": "RETAINED-DUTY-TRANSFER",
+  "premise_statement_ids": [
+    "STMT-RETAINED-DUTY-INITIAL-DUTY",
+    "STMT-RETAINED-DUTY-RETENTION"
+  ],
+  "conclusion_statement_id": "STMT-RETAINED-DUTY-PRESENT-DUTY",
+  "inference_ids": [
+    "INF-RETAINED-DUTY-TRANSFER"
+  ],
+  "meaning": "Same-agent same-action before-to-after duty transfer from InitialDuty and the explicit Retention policy. Conditional consequence, not independent warrant for the policy.",
+  "definition_ids": [
+    "DEF-RETAINED-DUTY-CASE",
+    "DEF-RETAINED-DUTY-POLICIES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RETAINED-DUTY-ACTION-TIME"
+  ]
+}

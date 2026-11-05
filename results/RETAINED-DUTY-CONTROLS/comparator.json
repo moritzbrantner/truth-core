@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.RetainedDuty.Challenge",
+  "solution_module": "TruthCore.Results.Modal.RetainedDuty.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.RetainedDuty.directCore",
+    "TruthCore.Results.Modal.RetainedDuty.retainedCore",
+    "TruthCore.Results.Modal.RetainedDuty.retentionTransfer",
+    "TruthCore.Results.Modal.RetainedDuty.controls",
+    "TruthCore.Results.Modal.RetainedDuty.branching"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -1,0 +1,76 @@
+{
+  "id": "MODEL-RETAINED-DUTY-ABLERETURN",
+  "description": "Closed dated/action-indexed ableReturn interpretation. Values certify only the explicit Case fields and policies, not moral truth or real-world feasibility. See retained-duty controls and existing deontology note for omission and vacuity boundaries.",
+  "vocabulary": "RETAINED-DUTY",
+  "lean_declaration": "TruthCore.Modal.RetainedDuty.ableReturn",
+  "bindings": {
+    "s": "TruthCore.Modal.RetainedDuty.ableReturn",
+    "Stage": "TruthCore.Modal.RetainedDuty.Stage",
+    "Action": "TruthCore.Modal.RetainedDuty.Action"
+  },
+  "carriers": [
+    {
+      "binding": "Stage",
+      "elements": [
+        "TruthCore.Modal.RetainedDuty.Stage.before",
+        "TruthCore.Modal.RetainedDuty.Stage.after",
+        "TruthCore.Modal.RetainedDuty.Stage.later"
+      ],
+      "theorem": "TruthCore.Results.Modal.RetainedDuty.Evaluations.stages"
+    },
+    {
+      "binding": "Action",
+      "elements": [
+        "TruthCore.Modal.RetainedDuty.Action.originalReturn",
+        "TruthCore.Modal.RetainedDuty.Action.compensation",
+        "TruthCore.Modal.RetainedDuty.Action.debtRepayment"
+      ],
+      "theorem": "TruthCore.Results.Modal.RetainedDuty.Evaluations.actions"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-RETAINED-DUTY-PRESENT-DUTY",
+      "value": "satisfies",
+      "arguments": [
+        "s"
+      ],
+      "theorem": "TruthCore.Results.Modal.RetainedDuty.Evaluations.ableReturn0"
+    },
+    {
+      "statement_id": "STMT-RETAINED-DUTY-PRESENT-INABILITY",
+      "value": "violates",
+      "arguments": [
+        "s"
+      ],
+      "theorem": "TruthCore.Results.Modal.RetainedDuty.Evaluations.ableReturn1"
+    },
+    {
+      "statement_id": "STMT-RETAINED-DUTY-PRESENT-OIC",
+      "value": "satisfies",
+      "arguments": [
+        "s"
+      ],
+      "theorem": "TruthCore.Results.Modal.RetainedDuty.Evaluations.ableReturn2"
+    },
+    {
+      "statement_id": "STMT-RETAINED-DUTY-INITIAL-DUTY",
+      "value": "satisfies",
+      "arguments": [
+        "s"
+      ],
+      "theorem": "TruthCore.Results.Modal.RetainedDuty.Evaluations.ableReturn3"
+    },
+    {
+      "statement_id": "STMT-RETAINED-DUTY-RETENTION",
+      "value": "satisfies",
+      "arguments": [
+        "s"
+      ],
+      "theorem": "TruthCore.Results.Modal.RetainedDuty.Evaluations.ableReturn4"
+    }
+  ],
+  "modules": [
+    "TruthCore.Results.Modal.RetainedDuty.Solution"
+  ]
+}

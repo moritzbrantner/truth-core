@@ -1,4 +1,9 @@
-# Carneades: the future-ability repair and its compatibility condition
+# Carneades: retained duty and the future-ability repair
+
+Owner direction (2026-11-05, #1035): the following is a working logical
+reconstruction. Attribution remains deferred; no source acquisition or historical
+intention work is required for conditional investigation. Earlier caption notes
+below remain provisional research history, not certified attribution.
 
 Read the complete English `en-orig` auto-caption recording of Carneades.org,
 [The Paradox of Kant's Law (Ought Implies Can)](https://www.youtube.com/watch?v=qjNs4t4GQ2A),
@@ -83,3 +88,100 @@ premises. It connects no Catholic-case root path and discharges no existing open
 premise: intended and actual root delta zero. The attempt and dossier target
 `STMT-DEONTIC-FUTURE-BOUNDARY`; no new philosophical claim is used merely to log
 research activity.
+
+
+## Lost ability and retained duty: #1035
+
+The question is which commitments may jointly survive when an agent loses the
+ability to return a borrowed original object. `RetainedDuty.Case` keeps one fixed
+agent, three dates (`before`, `after`, `later`) and three different actions
+(`originalReturn`, `compensation`, `debtRepayment`). Its duty, practical ability,
+actual fulfillment and retrospective responsibility fields are independent.
+This is a finite analyst interpretation, not an agency theory authenticated by a
+source. No axiom deriving a duty from borrowing, crashing, owing money or culpable
+conduct is supplied.
+
+The full graph is explicit. `InitialDuty s` and `Retention s` imply
+`PresentDuty s` (`retentionTransfer`); `PresentDuty s`,
+`PresentInability s` and `PresentOIC s` imply logical falsity (`directCore`).
+`retainedCore` composes the latter proof after the former transfer. Initial duty
+and retention are separate open commitments: a description of the crash does not
+establish either. Present OIC is universal over the three actions at `after`,
+while the duty and inability instances concern the identical original-return
+action and fixed agent. The transfer itself is a single-application transcription of its explicit
+policy; the incompatible cores and closed witnesses supply the constraint.
+These are conditional contradictions; none
+assumes the advertised falsity as a bridge premise.
+
+The closed `controls` theorem and five registered finite interpretations witness
+every single deletion. For the direct core: `noDuty` omits duty, `ableReturn`
+omits inability and `crash` omits OIC. For the full core: `neverOwed` omits initial
+duty, `lapse` omits retention, `ableReturn` omits inability and `crash` omits OIC.
+The omitted member is also false in each interpretation. Thus both cores are
+inclusion-minimal under this same interpretation; no smallest-cardinality or
+exhaustive philosophical classification is claimed. `neverOwed` has no duty, so
+its retention conditional and present OIC hold vacuously; this is a valid deletion
+control, not a nonvacuous moral account of debt. `lapse` has an initial duty and
+retrospective responsibility despite no present return duty. The finite date
+and action carriers are nonempty and completely enumerated. No possible-world
+population, concrete existence relation or empty individual domain is involved.
+
+The strongest present-OIC rival cancels the now-impossible original-return duty
+while retaining retrospective responsibility (`lapse`). The strongest retention
+rival retains that same duty despite present and future inability (`crash`) and
+therefore rejects present OIC and this future repair. These replies are not
+silently equated with allowing compensation: the crash interpretation makes
+compensation feasible later but supplies no compensation duty. A duty to repair
+would require an explicit additional moral policy and a new action specification.
+It is not recovery of ability to return a destroyed original.
+
+The debt control retains a stipulated debt-repayment duty and lacks present
+funds, yet has practical ability at `later`; actual repayment is false at every
+date. Future ability therefore coexists with never fulfilling, and does not
+restore present ability. The crash control has no possible later original return;
+merely moving OIC into the future does not rescue every retained duty.
+`futureRepair` **uses** the exact existing
+`TruthCore.Modal.DeonticFutureBoundary.compatibility` theorem, requiring an
+explicit duty-to-ideal interpretation together with ideal/future overlap. Its
+frame carrier is dates, its goal is practical ability for the fixed action and
+its available relation is the stipulated strict future. No identification of
+dates with the old complete-continuation interpretation is inferred. Ideal-world
+semantics itself and the claim that a date is genuinely practically feasible
+remain open interpretations. `controls` also consumes the exact old
+`TruthCore.Results.Modal.DeonticFutureBoundary.certificate`; the overlap
+correspondence is reused, not presented as a new discovery.
+
+The proof is constructive and zero-axiom. The moral and practical policies remain
+open inputs, and no root-route premise is discharged. Intended root delta: zero;
+actual root delta is supplied by the PR's computed frontier diff. This adds
+conditional incompatibilities, omission witnesses and a repaired-policy boundary,
+not an unconditional moral verdict or a Catholic-case conclusion.
+
+Local-service experiment: the supplied preview at
+`a2d97ecf1429e86b3e12f15b91b735f85e27822e`, session `workloop-20261105`,
+returned a correctly bound response for full module content SHA256
+`34fc78594b07c8b438c9e2a3c2fcb423268114744308ab38bed052f2592a5aa5`.
+Its old cached `DeonticFutureBoundary.Solution` was not marked as a Lean module,
+so the service rejected the import despite the latest-main source having the
+module header. The canonical CLI build passed. Lease wait was 0.000047 s and
+request time 1.144 s; no comparative performance claim follows from a rejected
+request. Continue with the CLI for this slice; retain the service for compatible
+imports and revise preview preparation before using it on module-converted
+imports. No service restart, dependency change or preview rebuild was performed.
+
+
+The separate frozen `BranchControls` target supplies the full possible-future
+reading. `Plan` has complete `Branch.missed`/`Branch.recovery` futures; each branch
+has its own dated ability and performance. Feasible and ideal sets and the actual
+branch are explicit, separate inputs. `BranchAbility` existentially quantifies
+later dates within one branch; `FeasibleAbility` then quantifies feasible branches.
+`branchRepair` uses the imported compatibility theorem on precisely that carrier.
+In `debtPlan`, recovery is ideal and feasible, actual non-recovery is also feasible,
+and the repayment duty is stipulated. No actual-date repayment ability or
+performance occurs, although a feasible recovery has later ability. Actual-branch
+abilities agree with `current.able`; this is one joint control, not a combination
+of unrelated models. No feasible branch can return the original object in that
+debt-specific interpretation. The earlier date-only `FutureCan` control is
+narrower and must not be presented as quantification over alternative histories.
+This distinguishes actual recovery from a choice-accessible recovery without
+claiming that the supplied alternatives are empirically or morally justified.
