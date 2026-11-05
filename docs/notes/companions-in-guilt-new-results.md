@@ -142,8 +142,8 @@ modal worlds, physical events and endpoint states are distinct domains. Shared
 or action-local duty/OIC work is attempted.
 
 Actual delta: one new conditional representation theorem, no source/claim/passage
-records, no top-level corpus premises, no root premise retained/added/removed or
-discharged. Its local numerical, identity and transformation assumptions remain
+records, no top-level corpus premises, all existing root premises retained, none
+added, removed or discharged (90 root-reaching open premises unchanged). Its local numerical, identity and transformation assumptions remain
 explicit in `Controls`; the proposed normative invariance requirement remains an
 open application standard. The induction and pragmatic comparisons reuse old
 results, with their application bridges open. None is a vindication theorem.
@@ -188,3 +188,9 @@ POPULATION-COMPARABILITY-COMMON-BURDEN` and
 POPULATION-COMPARABILITY-COMMON-BURDEN`. Delivered CI retains library/integration
 coverage. The computed frontier comparison reports unchanged 90 root-reaching
 open premises (30 bare, 18 supported, 42 stated), cheapest route cost 31.
+
+Canonical scoped binding passed (one bound, zero mismatches). Comparator accepted
+the frozen Challenge/Solution type equality, and NanoDa accepted the solution
+under the approved Mathlib axiom profile (`propext`, `Classical.choice`,
+`Quot.sound`). Source manifests, corpus, bundle audit, module/import checks and
+attribution check passed; there are no changed stating claims to materialize.
