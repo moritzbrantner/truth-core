@@ -162,13 +162,22 @@ python3 scripts/source_evidence.py materialize ARIST-PHYS-I-4
 The command:
 
 1. resolves the passage manifest;
-2. downloads the source file from its immutable revision;
-3. recomputes the Git blob SHA and rejects any mismatch;
+2. downloads the source file from its immutable revision, or reuses its verified raw bytes from `.cache/truth-core/raw/<git_blob_sha>`;
+3. recomputes the Git blob SHA and rejects any mismatch, keeping the verified raw bytes in that cache;
 4. parses the source XML;
 5. extracts the configured CTS range when one is available; and
 6. writes normalized UTF-8 text under `.cache/truth-core/sources/`.
 
 Media spans and web snapshots follow their own steps (see above) and write their text to the same place.
+
+To pin a new range of an already-pinned repository source, read its whole raw witness file (for example the TEI XML, to find the `cts_path` or `xml:id` of the range) instead of fetching it by hand:
+
+```bash
+python3 scripts/source_evidence.py raw-witness AQUINAS-ST-I-Q2-A3 --output /tmp/q2.xml
+python3 scripts/source_evidence.py raw-witness AQUINAS-ST-I-Q2-A3 --path <other/file.xml> --output /tmp/other.xml
+```
+
+The first writes the passage's own verified file. The second fetches another file at the **same repository revision** and prints the `path`, `source_url` and `git_blob_sha` that pin it in a new manifest. `verify` still always refetches; only `materialize` and `raw-witness` reuse the hash-checked cache. Web pages are pinned with `web-hashes` instead.
 
 Workers must read that materialized text and relevant context before creating claims. Model memory, search-result snippets, or an unpinned web page are orientation aids only.
 
