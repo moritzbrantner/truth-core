@@ -1,0 +1,10 @@
+{
+  "id": "MCTAGGART-BUNDLE-DEFEATED-BY-CHANGE",
+  "argument_id": "MCTAGGART-BUNDLE-DEFEATED-BY-CHANGE",
+  "challenge_module": "TruthCore.Results.Alternatives.McTaggartDefeatedByChange.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.McTaggartDefeatedByChange.Solution",
+  "theorem": "TruthCore.Results.Alternatives.McTaggartDefeatedByChange.bundleDefeatedByChange",
+  "comparator_config": "results/MCTAGGART-BUNDLE-DEFEATED-BY-CHANGE/comparator.json",
+  "status": "solution-present",
+  "description": "Derived, not a transcription: the premise F3 is an existential about change, and the conclusion follows only through both of McTaggart's commitments. needsSomethingChanges (in the Comparator config) is a model where one being opines and nothing changes, so the bundle holds and F3 is needed. The refutes relation counts only once F3 is established (#999)."
+}

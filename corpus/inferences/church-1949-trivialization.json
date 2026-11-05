@@ -1,0 +1,9 @@
+{
+  "id": "INF-CHURCH-1949-TRIVIALIZATION",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-CHURCH-1949-TRIVIALIZATION",
+  "rule": "constructive-proof",
+  "meaning": "Church's 1949 construction, proved from no premises for every truth-conditional language: given observation statements o1, o2, o3 with o1 not entailing o3 and o3 not entailing o2, Church's sentence A = (not-o1 and o2) or (o3 and not-S) is directly verifiable (with o1 it entails o3). S with A entails o2. Either A alone entails o2, and then not-S with o3 entails o2, so not-S is directly verifiable; or it does not, and S is indirectly verifiable. Stated constructively: if not-S is not directly verifiable, S is indirectly verifiable. Classically, S or not-S is verifiable. The hypotheses are satisfiable (churchObservationsInhabited).",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

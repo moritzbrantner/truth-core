@@ -1,0 +1,9 @@
+{
+  "id": "CRITERION-VERDICT-SILENT-ON-TRUTH",
+  "argument_id": "CRITERION-VERDICT-SILENT-ON-TRUTH",
+  "challenge_module": "TruthCore.Results.Logic.Verificationism.VerdictSilent.Challenge",
+  "solution_module": "TruthCore.Results.Logic.Verificationism.VerdictSilent.Solution",
+  "theorem": "TruthCore.Results.Logic.Verificationism.VerdictSilent.criterionVerdictSilentOnTruth",
+  "comparator_config": "results/CRITERION-VERDICT-SILENT-ON-TRUTH/comparator.json",
+  "status": "solution-present"
+}

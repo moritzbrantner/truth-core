@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.Verificationism.VerdictSilent.Challenge",
+  "solution_module": "TruthCore.Results.Logic.Verificationism.VerdictSilent.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.Verificationism.VerdictSilent.criterionVerdictSilentOnTruth"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

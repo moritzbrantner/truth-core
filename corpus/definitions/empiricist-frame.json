@@ -1,0 +1,8 @@
+{
+  "id": "DEF-EMPIRICIST-FRAME",
+  "term": "observation statement; analytic statement",
+  "definition": "`Frame`: two classifications of a language's sentences, which are observation statements and which are analytic. Both are parameters; no criterion fixes them.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.Verificationism.Frame",
+  "note": "Analyst's typing for the #1008 verificationism showcase. Sourcing the criterion's wording to its proponent is a separate claim (attribution discipline, #989); the witness status is recorded in docs/ayer-verification-boundary.md and, for the other proponents, in the #1008 showcase sources."
+}

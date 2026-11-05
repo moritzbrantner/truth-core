@@ -1,0 +1,9 @@
+{
+  "id": "AYER-1946-NEGATION-CLOSED-EXCLUDES-NOTHING",
+  "argument_id": "AYER-1946-NEGATION-CLOSED-EXCLUDES-NOTHING",
+  "challenge_module": "TruthCore.Results.Logic.Verificationism.Ayer1946NegationClosed.Challenge",
+  "solution_module": "TruthCore.Results.Logic.Verificationism.Ayer1946NegationClosed.Solution",
+  "theorem": "TruthCore.Results.Logic.Verificationism.Ayer1946NegationClosed.ayer1946NegationClosedExcludesNothing",
+  "comparator_config": "results/AYER-1946-NEGATION-CLOSED-EXCLUDES-NOTHING/comparator.json",
+  "status": "solution-present"
+}

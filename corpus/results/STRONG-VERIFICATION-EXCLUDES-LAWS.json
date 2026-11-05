@@ -1,0 +1,9 @@
+{
+  "id": "STRONG-VERIFICATION-EXCLUDES-LAWS",
+  "argument_id": "STRONG-VERIFICATION-EXCLUDES-LAWS",
+  "challenge_module": "TruthCore.Results.Logic.Verificationism.StrongVerificationLaws.Challenge",
+  "solution_module": "TruthCore.Results.Logic.Verificationism.StrongVerificationLaws.Solution",
+  "theorem": "TruthCore.Results.Logic.Verificationism.StrongVerificationLaws.strongVerificationExcludesLaws",
+  "comparator_config": "results/STRONG-VERIFICATION-EXCLUDES-LAWS/comparator.json",
+  "status": "solution-present"
+}

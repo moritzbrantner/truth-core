@@ -1,0 +1,9 @@
+{
+  "id": "INF-CRITERION-VERDICT-SILENT-ON-TRUTH",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-CRITERION-VERDICT-SILENT-ON-TRUTH",
+  "rule": "constructive-proof",
+  "meaning": "A countermodel to the bridge from failing an adopted criterion to lacking truth: in a language whose worlds fix an observable and an unobservable coordinate, with observation statements those depending only on the observable one, the sentence 'the unobservable coordinate is set' is not analytic and not conclusively verifiable (any jointly satisfiable observations hold also where it is false), yet it is true at a world. This is consistency, not a defense of any sentence; it shows that the proposal reading (V4) classifies sentences without deciding their truth.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

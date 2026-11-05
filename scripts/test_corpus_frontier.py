@@ -261,6 +261,7 @@ class FrontierReportTest(unittest.TestCase):
                     "statement_id": "ALT",
                     "verified": True,
                     "open_premise_statement_ids": ["OPEN-A"],
+                    "unestablished_premise_statement_ids": ["OPEN-A"],
                     "counted": False,
                 }
             ],
@@ -279,6 +280,57 @@ class FrontierReportTest(unittest.TestCase):
         self.assertNotIn("OPEN-A", self.ids(report))
         self.assertNotIn("OPEN-B", self.ids(report))
         self.assertTrue(all(refutation["counted"] for refutation in report["refutations"]))
+
+    def test_refutation_resting_on_a_proved_unestablished_premise_does_not_count(self) -> None:
+        # #999 regression: MID is closed (proved by ARG-MID) but rests on the
+        # open OPEN-A, so it is not established. A refutation from MID used to
+        # count, defending OPEN-B and making it established.
+        arguments = [*ARGUMENTS, argument("ARG-REF", ["MID"], "NOT-ALT")]
+        results = [*RESULTS, {"id": "ARG-REF", "argument_id": "ARG-REF"}]
+        relations = [
+            relation("statement", "ALT", "alternative_to", "OPEN-B"),
+            relation("argument", "ARG-REF", "refutes", "ALT"),
+        ]
+        report = corpus.frontier_report(STATEMENTS, arguments, results, relations, root="ROOT")
+        self.assertIn("MID", report["closed_statements"])
+        self.assertNotIn("MID", report["established_statements"])
+        self.assertEqual(report["refuted_statements"], [])
+        self.assertIn("OPEN-B", self.ids(report))
+        self.assertNotIn("OPEN-B", report["established_statements"])
+        (refutation,) = report["refutations"]
+        self.assertFalse(refutation["counted"])
+        self.assertEqual(refutation["open_premise_statement_ids"], [])
+        self.assertEqual(refutation["unestablished_premise_statement_ids"], ["MID"])
+        self.assertIn("unestablished premises MID", corpus.format_frontier(report))
+        # Once OPEN-A is defended, MID is established and the refutation counts.
+        relations += [
+            relation("statement", "ALT-A", "alternative_to", "OPEN-A"),
+            relation("argument", "ARG-FREE", "refutes", "ALT-A"),
+        ]
+        arguments.append(argument("ARG-FREE", [], "NOT-ALT-A"))
+        results.append({"id": "ARG-FREE", "argument_id": "ARG-FREE"})
+        report = corpus.frontier_report(STATEMENTS, arguments, results, relations, root="ROOT")
+        self.assertEqual(report["refuted_statements"], ["ALT", "ALT-A"])
+        self.assertIn("OPEN-B", report["established_statements"])
+        self.assertIn("ROOT", report["established_statements"])
+
+    def test_mutually_supporting_refutations_establish_nothing(self) -> None:
+        # #999: OPEN-A's rival is refuted from OPEN-B and OPEN-B's rival from
+        # OPEN-A. Each would be defended if the other were; the least fixpoint
+        # admits neither.
+        arguments = [*ARGUMENTS, argument("ARG-RA", ["OPEN-B"], "NOT-ALT-A"), argument("ARG-RB", ["OPEN-A"], "NOT-ALT-B")]
+        results = [*RESULTS, {"id": "ARG-RA", "argument_id": "ARG-RA"}, {"id": "ARG-RB", "argument_id": "ARG-RB"}]
+        relations = [
+            relation("statement", "ALT-A", "alternative_to", "OPEN-A"),
+            relation("statement", "ALT-B", "alternative_to", "OPEN-B"),
+            relation("argument", "ARG-RA", "refutes", "ALT-A"),
+            relation("argument", "ARG-RB", "refutes", "ALT-B"),
+        ]
+        report = corpus.frontier_report(STATEMENTS, arguments, results, relations, root="ROOT")
+        self.assertEqual(report["refuted_statements"], [])
+        self.assertIn("OPEN-A", self.ids(report))
+        self.assertIn("OPEN-B", self.ids(report))
+        self.assertFalse(any(refutation["counted"] for refutation in report["refutations"]))
 
     def test_declared_transcription_is_not_proved(self) -> None:
         # #391: an opaque-atom result declared in its record closes nothing by
@@ -799,7 +851,7 @@ class FloorBasisTest(unittest.TestCase):
         ret = [argument("ARG-RET", ["PRESUP"], "NOT-NOT-P")]
         results = [{"id": "RET", "argument_id": "ARG-RET"}]
         report = self.report(statements, ret, results, relations)
-        self.assertEqual(self.floor(report)["P"]["reasons"], ["RET rests on open premises PRESUP"])
+        self.assertEqual(self.floor(report)["P"]["reasons"], ["RET rests on unestablished premises PRESUP"])
         self.assertNotIn("P", report["closed_statements"])
         # Once the presupposition is closed, the retorsion closes the premise.
         closed_presup = [statement("P", self_evident=marking), statement("NOT-P"), statement("PRESUP")]
@@ -810,6 +862,17 @@ class FloorBasisTest(unittest.TestCase):
             relations,
         )
         self.assertEqual(report["closed_statements"]["P"], "self_evident")
+        # #999: a presupposition proved from an open premise is closed but not
+        # established, so the retorsion still does not meet the basis.
+        report = self.report(
+            [*closed_presup, statement("OPEN")],
+            [*ret, argument("ARG-PRESUP", ["OPEN"], "PRESUP")],
+            [*results, {"id": "PRESUP-R", "argument_id": "ARG-PRESUP"}],
+            relations,
+        )
+        self.assertIn("PRESUP", report["closed_statements"])
+        self.assertEqual(self.floor(report)["P"]["reasons"], ["RET rests on unestablished premises PRESUP"])
+        self.assertNotIn("P", report["closed_statements"])
         # A circular retorsion (resting on P itself) closes nothing.
         report = self.report(statements, [argument("ARG-RET", ["P"], "NOT-NOT-P")], results, relations)
         self.assertFalse(self.floor(report)["P"]["met"])
