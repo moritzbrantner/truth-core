@@ -25,7 +25,7 @@ readings, and a view developed by followers is not attributed to him.
 | PI: private-language argument | §§243, 258, 293, 304, 308; readings via `SEP-PRIVATE-LANGUAGE` §§1.1-1.2 | neutral to F5 as an occurrence premise; rival only to a private-introspection basis for it | candidate F5 (`STMT-COGITO-THOUGHT-OCCURS`) | recorded |
 | Tractatus, traditional reading | 4.003, 4.11, 6.42, 6.432, 6.522, 7 (German, `WITTGENSTEIN-TRACTATUS`); `SEP-WITTGENSTEIN` §2.4 | rival to the arguability of natural theology | `STMT-NATURAL-THEOLOGY-ARGUABLE` (presupposed by every route, stated by none; not a route leaf) | recorded as an unattributed reconstruction (`STMT-TLP-GOD-SENTENCES-NONSENSICAL`); not refuted |
 | Tractatus, resolute reading | `SEP-WITTGENSTEIN` §2.4 | neutral: no thesis, no ineffable truths | none | recorded; the self-application (6.53-6.54) belongs to #1008 |
-| Lecture on Ethics | absolute value is no fact; wonder at existence is nonsense; religious terms are similes (`WITTGENSTEIN-LECTURE-ON-ETHICS`) | rival to the statementhood of "the world exists" claims (bipolarity), and to realist God-talk as simile | candidate F2; off-route | recorded |
+| Lecture on Ethics | absolute value is no fact; wonder at existence is nonsense; religious terms are similes (`WITTGENSTEIN-LECTURE-ON-ETHICS`) | rival in spirit to realist God-talk as simile; an objection to the statementhood of "the world exists" is only an unattributed reconstruction (needs an imaginability-to-sense bridge) | candidate F2 (reconstruction only); off-route | recorded |
 | Lectures on religious belief (1938, student notes) | religious beliefs not hypotheses, `SEP-RELIGIOUS-LANGUAGE` §4.2 | rival in spirit to recognizability by signs; not attached to a leaf | none (the notes are not Wittgenstein's text; no claim attributes WF-N to him) | recorded as a reported reading |
 
 
@@ -376,11 +376,14 @@ years.
   instrumental to truth). On an absolute reading of F6 the Lecture would class
   it as nonsense rather than false. Which reading F6 takes is not settled here.
 - **Wonder at the existence of the world is nonsense,** because one cannot
-  imagine the world not existing (`STMT-LE-WONDER-AT-EXISTENCE-NONSENSE`). This
-  record connects it with the Tractatus's bipolarity; the Lecture states only
-  the imaginability condition. It is a rival to the statementhood of a
-  candidate F2 of the form "the world exists", not to its truth. Wittgenstein
-  reads "God created the world" as an expression of this experience.
+  imagine the world not existing (`STMT-LE-WONDER-AT-EXISTENCE-NONSENSE`). The
+  Lecture's condition concerns when *wondering* that something is the case makes
+  sense. An objection to the statementhood of "the world exists" (a candidate
+  F2) is an unattributed reconstruction. It needs a missing bridge: that the
+  imaginability condition for wonder is also a condition of sense for existence
+  assertions, as the Tractatus's bipolarity would suggest. The bridge is not
+  recorded, and the objection is not attached to F2. Wittgenstein says that
+  people referred to this experience when they said that God created the world.
 - **Religious terms seem to be similes,** and where the facts cannot be stated
   without the simile the expressions are nonsense
   (`STMT-LE-RELIGIOUS-TERMS-SIMILES`). This is a rival in spirit to realist
