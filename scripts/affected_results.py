@@ -85,6 +85,7 @@ EXPLORER_INPUT_PATTERNS = (
     "scripts/argument_context.py",
     "scripts/source_evidence.py",
     "scripts/premise_dossiers.py",
+    "scripts/bridge_experiments.py",
     "scripts/finite_models.py",
     "scripts/configurations.py",
     "scripts/configuration_explorer.py",
