@@ -1,0 +1,23 @@
+{
+  "id": "ATTEMPT-EPISTEMIC-REASONS-930",
+  "date": "2026-11-05",
+  "statement_ids": [
+    "STMT-EPISTEMIC-ACCURACY-CERTIFICATE",
+    "STMT-EPISTEMIC-ACCURACY-DOMINANCE",
+    "STMT-TRUTH-DIRECTED-REFLECTIVE-DUTY",
+    "STMT-TRANSCENDENTAL-INQUIRY-ACCESS-BOUNDARY",
+    "STMT-TRANSCENDENTAL-AGENCY-DUTY-BOUNDARY",
+    "STMT-THERE-ARE-EPISTEMIC-REASONS"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Positive analyst argument for a defeasible epistemic reason against wishful distortion, with reasons for its truth-standard, restricted independence and normative correction bridge. Knife/chess objection defeats automatic categorical duty but does not settle the defended domain-relative reason claim. Strong goal-relative rival accepts correctness/error algebra while rejecting its preference-independent reason-giving force. New expected-error regret, strict optimum, robust uncertain-assessment comparison and numerical comfort tradeoff formalized separately. No renamed Ought-to-Reason bridge or universal anti-skeptic claim. Attribution deferred; no source/claim/passages added. Details, rejected shortcuts, internalist/reliabilist and constitutive/practical distinctions persist in docs/notes/epistemic-reasons-930.md. Added probability-free statewise strict dominance for incoherent complementary credences: coherence projection improves summed Brier error in both truth states by exactly (r+s-1)^2/2. This removes probability-access/calibration assumptions for that restricted case, not for coherent wishful distortion generally. Inspected existing F6 common-ground floor and nihilism retorsion: existential acceptance does not identify concrete reasons or refute the nihilist; no duplicate Reason vocabulary or retorsion result.",
+  "evidence": [
+    "LOGIC-EPISTEMIC-ACCURACY",
+    "LOGIC-EPISTEMIC-ACCURACY-DOMINANCE",
+    "LOGIC-TRUTH-DIRECTED-REFLECTIVE-DUTY",
+    "LOGIC-TRANSCENDENTAL-INQUIRY-ACCESS-BOUNDARY",
+    "LOGIC-TRANSCENDENTAL-AGENCY-DUTY-BOUNDARY"
+  ],
+  "blocker": "The reason-giving correction bridge has philosophical support but remains open against a coherent revisionary goal-relative rival; actual warrant/calibration for a probability interval is not supplied. Formal consequence does not establish normativity. No root premise discharge. Full4438-job build, exact2-result binding and BOTH Comparator plus independent result NanoDa checks PASS. Corpus/bundle/source-manifest/attribution/module-format/generator/whitespace checks PASS. An optional library invocation still present in the running shell used unsupported positional arguments and returned usage without running library verification; no proof failure, final-head CI supplies library coverage. Unchanged proof evidence is retained across the unrelated Ethics-only main merge; convention sourceRevision625cb04ca568aebc8d45c90033e107a05e9bd2a0."
+}

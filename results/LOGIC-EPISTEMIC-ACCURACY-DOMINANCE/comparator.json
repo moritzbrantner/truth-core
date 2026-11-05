@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.EpistemicAccuracy.Statewise.Challenge",
+  "solution_module": "TruthCore.Results.Logic.EpistemicAccuracy.Statewise.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.EpistemicAccuracy.Statewise.dominance"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}
