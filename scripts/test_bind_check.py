@@ -275,6 +275,7 @@ class ScopedBindCheckTest(unittest.TestCase):
             affected_results, "select", return_value=("full", ["A", "B", "C"])
         ):
             self.assertIsNone(self.scope(affected=True, base="origin/main"))
+            self.assertIsNone(self.scope(affected=True, base="origin/main", result=["A"]))
 
     def test_scoped_report_binds_only_selected_results_and_skips_stale_pins(self):
         from unittest.mock import patch

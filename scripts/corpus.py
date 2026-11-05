@@ -3182,8 +3182,10 @@ def bind_check_scope(args: argparse.Namespace, known: set[str]) -> set[str] | No
 
         mode, ids = affected_results.select(ROOT, changed_paths(base, head))
         if mode == "full":
+            # The full fallback keeps the full run's stale-pin and model checks,
+            # even when --result also names results.
             print("bind-check --affected: the change selects every result", file=sys.stderr)
-            return None if selected is None else selected | known
+            return None
         selected = (selected or set()) | set(ids)
     elif base or head:
         raise CorpusError("bind-check: --base and --head need --affected")
