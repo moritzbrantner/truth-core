@@ -1,0 +1,22 @@
+{
+  "id": "ATTEMPT-VERIFICATIONISM-TRIVIALIZATION-1008",
+  "date": "2026-11-05",
+  "statement_ids": [
+    "STMT-AYER-1946-EXCLUDES-SENTENCE-AND-NEGATION",
+    "STMT-AYER-1936-EXCLUDES-METAPHYSICS",
+    "STMT-VERIFICATION-PRINCIPLE"
+  ],
+  "kind": "refutation",
+  "outcome": "succeeded",
+  "summary": "Verificationism showcase (#1008), formal part. Church's 1949 construction is proved premise-free and zero-axiom for every truth-conditional language (CHURCH-1949-TRIVIALIZATION), using only o1 not entailing o3 and o3 not entailing o2, which Church's hypothesis (no one of the three taken alone entails any of the others) contains. It refutes the V3 exclusion of a sentence together with its negation (AYER-1946-EXCLUSION-FAILS) and, with closure under negation, leaves no sentence not meaningful (AYER-1946-NEGATION-CLOSED-EXCLUDES-NOTHING). The unrestricted 1936 test is trivial for every sentence whose negation does not entail some observation statement (AYER-1936-CRITERION-TRIVIAL, AYER-1936-EXCLUSION-FAILS). Strong verification makes universal laws over an infinite domain unverifiable while their negations are verifiable (STRONG-VERIFICATION-EXCLUDES-LAWS); this is a consequence, not a counted defeat, because no established floor item says laws are meaningful or that meaningfulness is closed under negation. Self-application (VERIFICATIONISM-SELF-APPLICATION-DILEMMA) is conditional on three open premises and does not touch the proposal reading. The proposal reading survives: failing an adopted criterion is compatible with truth (CRITERION-VERDICT-SILENT-ON-TRUTH). Constructive formulation: Church's disjunction is proved as 'if not-S is not directly verifiable, S is indirectly verifiable', which avoids excluded middle. Non-vacuity models: Model.ravensSetting, churchObservationsInhabited.",
+  "evidence": [
+    "CHURCH-1949-TRIVIALIZATION",
+    "AYER-1946-EXCLUSION-FAILS",
+    "AYER-1946-NEGATION-CLOSED-EXCLUDES-NOTHING",
+    "AYER-1936-CRITERION-TRIVIAL",
+    "AYER-1936-EXCLUSION-FAILS",
+    "STRONG-VERIFICATION-EXCLUDES-LAWS",
+    "VERIFICATIONISM-SELF-APPLICATION-DILEMMA",
+    "CRITERION-VERDICT-SILENT-ON-TRUTH"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "AYER-1936-EXCLUSION-FAILS",
+  "argument_id": "AYER-1936-EXCLUSION-FAILS",
+  "challenge_module": "TruthCore.Results.Logic.Verificationism.Ayer1936Exclusion.Challenge",
+  "solution_module": "TruthCore.Results.Logic.Verificationism.Ayer1936Exclusion.Solution",
+  "theorem": "TruthCore.Results.Logic.Verificationism.Ayer1936Exclusion.ayer1936ExclusionFails",
+  "comparator_config": "results/AYER-1936-EXCLUSION-FAILS/comparator.json",
+  "status": "solution-present"
+}

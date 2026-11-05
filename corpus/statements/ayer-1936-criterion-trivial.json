@@ -1,0 +1,13 @@
+{
+  "id": "STMT-AYER-1936-CRITERION-TRIVIAL",
+  "paraphrase": "Ayer's 1936 test is trivial: in any truth-conditional language, a sentence s is weakly verifiable whenever its negation does not entail some observation statement o. With the further premise (not-s or o), s entails o, which that premise alone does not entail.",
+  "lean_declaration": "TruthCore.Logic.Verificationism.Ayer1936CriterionTrivial",
+  "definition_ids": [
+    "DEF-TRUTH-CONDITIONAL-LANGUAGE",
+    "DEF-EMPIRICIST-FRAME",
+    "DEF-AYER-1936-WEAK-VERIFIABILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-VERIFIABILITY-VARIANT"
+  ]
+}

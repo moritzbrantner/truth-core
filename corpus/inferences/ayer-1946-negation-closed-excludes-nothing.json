@@ -1,0 +1,9 @@
+{
+  "id": "INF-AYER-1946-NEGATION-CLOSED-EXCLUDES-NOTHING",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-AYER-1946-NEGATION-CLOSED-EXCLUDES-NOTHING",
+  "rule": "constructive-proof",
+  "meaning": "From Church's trivialization and no premises: suppose meaningfulness by the 1946 criterion is closed under negation and some sentence s is not meaningful. Then not-s is not meaningful (else s would be), so not-s is not directly verifiable, so s is indirectly verifiable, a contradiction. Closure under negation is a hypothesis inside the proved conditional, not a premise of the argument; the result is constructive, so it concludes that no sentence fails to be meaningful (not-not meaningful).",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

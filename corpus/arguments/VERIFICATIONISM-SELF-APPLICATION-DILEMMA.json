@@ -1,0 +1,23 @@
+{
+  "id": "VERIFICATIONISM-SELF-APPLICATION-DILEMMA",
+  "premise_statement_ids": [
+    "STMT-VERIFICATION-PRINCIPLE-IN-OWN-SCOPE",
+    "STMT-VERIFICATION-PRINCIPLE-NOT-ANALYTIC",
+    "STMT-VERIFICATION-PRINCIPLE-NOT-VERIFIABLE"
+  ],
+  "conclusion_statement_id": "STMT-VERIFICATIONIST-DILEMMA",
+  "inference_ids": [
+    "INF-VERIFICATIONISM-SELF-APPLICATION-DILEMMA"
+  ],
+  "meaning": "The verificationist instance of the self-application dilemma (LOGIC-SELF-APPLICATION-DILEMMA), for any variant's verifiability predicate: norm with the given scope, standard analytic-or-verifiable, acceptance predicate meaningful. If the principle's formulation is in its own scope and is neither analytic nor verifiable, then if the principle holds its formulation is not meaningful, and if the formulation is meaningful the principle fails. All three premises are open, so this conditional defeat counts toward nothing under #999. It does not touch the proposal reading (V4), which denies the scope premise (LOGIC-SELF-APPLICATION-SCOPE-NEEDED). For the 1946 criterion the third premise is in tension with Church's trivialization.",
+  "definition_ids": [
+    "DEF-EMPIRICIST-FRAME",
+    "DEF-SELF-APPLICATION-NORM",
+    "DEF-TRUTH-CONDITIONAL-LANGUAGE",
+    "DEF-VERIFICATION-PRINCIPLE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-VERIFIABILITY-VARIANT",
+    "DISAMB-VERIFICATIONIST-MEANINGFUL"
+  ]
+}
