@@ -50,6 +50,7 @@ import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaBroadGenusCompatible.S
 import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaDegreeBranchWitnesses.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaDegreeFork.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaForkElimination.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaGradesFromCausalAscent.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaHomogeneousScale.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaMaximumInBeing.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaOrderFirstBeing.Solution
