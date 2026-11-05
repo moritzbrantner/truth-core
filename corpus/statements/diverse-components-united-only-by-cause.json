@@ -1,0 +1,12 @@
+{
+  "id": "STMT-DIVERSE-COMPONENTS-UNITED-ONLY-BY-A-CAUSE",
+  "paraphrase": "For any thing x and any two numerically distinct components a and b of x, something unites a and b into x. The uniter need not be distinct from x, efficient or a cause of x's being.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7Uniting.DiverseUnitedOnlyThroughUnitingCauseReading",
+  "definition_ids": [
+    "DEF-COMPOSITION-COMPONENT",
+    "DEF-UNITING-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNITING-CAUSE"
+  ]
+}

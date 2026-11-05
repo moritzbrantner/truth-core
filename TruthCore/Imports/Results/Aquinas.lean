@@ -7,6 +7,8 @@ import TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.PremisesIndepen
 import TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyModels
 import TruthCore.Results.Aquinas.SummaTheologiae.AtMostOneMaximeEns.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.CompositeUnitingCauseControls.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.CompositeUnitingCauseFromUnion.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.EssenceEsseExternalCause.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.FirstBeingNoPotency.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverHasPerfectionsOfThings.Solution

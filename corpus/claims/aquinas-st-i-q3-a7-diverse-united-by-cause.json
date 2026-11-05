@@ -1,0 +1,15 @@
+{
+  "id": "AQUINAS-ST-I-Q3-A7-DIVERSE-UNITED-BY-CAUSE",
+  "statement_id": "STMT-DIVERSE-COMPONENTS-UNITED-ONLY-BY-A-CAUSE",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.3 a.7 co., third proof: quae enim secundum se diversa sunt, non conveniunt in aliquod unum, nisi per aliquam causam adunantem ipsa",
+  "interpretation": "Things diverse in themselves do not come together into some one thing except through some cause uniting them. Read as: for any two distinct components a, b of x, something unites a and b into x. Diversa is read as numerical distinctness, because the proof concludes of every composite (omne compositum), including the homogeneous wholes of the fifth proof whose parts differ only in number. 'Come together into one' is read as both being components of the one x. Nothing about the uniter's distinctness from x, its kind of causality or what it causes is part of this reading.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-COMPOSITION-COMPONENT",
+    "DEF-UNITING-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNITING-CAUSE"
+  ]
+}
