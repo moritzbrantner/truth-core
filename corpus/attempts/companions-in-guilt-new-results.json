@@ -1,0 +1,19 @@
+{
+  "id": "ATTEMPT-COMPANIONS-IN-GUILT-NEW-RESULTS",
+  "date": "2026-11-05",
+  "statement_ids": [
+    "STMT-POPULATION-COMPARABILITY-COMMON-BURDEN",
+    "STMT-FINITE-POPULATION-SCORING-TRADEOFFS",
+    "STMT-SCIENCE-INDUCTION-SELECTION",
+    "STMT-SIGNED-WAGER-PRACTICAL-NONTRUTH"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Analyst investigation, attribution deferred. Reused newest checked list-scoring summary and equal-count results. Generic opposing two-person welfare differences d>0,e>0 admit positive unit choices (2e,d) and (e,2d), producing opposite aggregate directions while preserving every personal strict ordering. Fixed-count total, average and every fixed critical level reverse together; common unit scaling and strict Pareto agreement preserve direction. Proposed invariance norm, admissible transformation class, interpersonal calibration, feasibility and normative adequacy remain open. Durable note docs/notes/companions-in-guilt-new-results.md records proof boundary, strongest rival/discriminators, conditional induction/worldview and practical-truth comparisons, and rejected inherited-belief/finite-to-infinite verbal analogies. No source/claims/passages or root-premise delta. No unmerged imports. Read-only PR1042 inspection at 44de5d0cf89211eadc3ef0a3d2517984d77913eb records existing reliable-testimony control rather than duplicate formalization. Lean Solution focused build, scoped binding (one bound, zero mismatches), Comparator frozen-type comparison and NanoDa solution verification passed with the approved three Mathlib axioms; delivered CI retains library/integration coverage. Preview rejected dependencies absent from its older checkout; no shared service restart. Initial canonical proof errors were simultaneous simplification expanding the summary before the reuse rewrite and ambiguous Controls from two open namespaces; corrected in Solution only, frozen Challenge retained.",
+  "evidence": [
+    "POPULATION-COMPARABILITY-COMMON-BURDEN",
+    "FINITE-POPULATION-SCORING-TRADEOFFS",
+    "SCIENCE-INDUCTION-SELECTION",
+    "SIGNED-WAGER-PRACTICAL-NONTRUTH"
+  ]
+}

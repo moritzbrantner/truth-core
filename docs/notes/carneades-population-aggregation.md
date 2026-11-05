@@ -240,3 +240,13 @@ TruthCore.Results.Ethics.PopulationScoring.Solution`, the scoped binding command
 above and `python3 scripts/worker_env.py -- scripts/verify-result.sh
 FINITE-POPULATION-SCORING-TRADEOFFS`. Shared conventions resolved at
 sourceRevision `625cb04ca568aebc8d45c90033e107a05e9bd2a0`.
+
+## Shared interpersonal calibration burden
+
+[Companions-in-guilt comparison](companions-in-guilt-new-results.md) extends the
+fixed-population boundary: generic opposing individual welfare differences allow
+independent positive affine changes of each person's unit to reverse total,
+average and fixed critical-level comparisons together. Common positive scaling
+and guarded Pareto comparisons survive. This isolates a shared measurement
+burden; it does not transfer the variable-count replication conclusion to the
+rivals, justify an ethical policy, or discharge any root premise.
