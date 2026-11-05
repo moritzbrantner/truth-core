@@ -102,7 +102,9 @@ describe("graph buckets", () => {
     expect(root.statements).toBeLessThan(built.graph.statements.length / 2);
     const frontier = built.graph.statements.filter((statement) => statement.frontier).length;
     expect(built.manifest.buckets.reduce((sum, bucket) => sum + bucket.frontier, 0)).toBe(frontier);
-  });
+    // Loads and buckets the real corpus; like the other real-corpus tests it needs
+    // more than bun's 5 s default on a loaded runner.
+  }, 30_000);
 });
 
 describe("bucket plans", () => {
