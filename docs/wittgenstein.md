@@ -115,13 +115,22 @@ What it shows, and what it does not:
   - Re-read "natural reason" as a practice-internal standard
     (`needsNaturalReasonIsShared`).
 
-  A possible further objection, unresolved: the first escape seems to need a
-  criterion of the practice's grammar that can override the practice's own
-  authoritative self-description, and such a criterion may not fit the
-  internal-grammar thesis. The second escape is an interpretive dispute about
-  the council's text, settled by reading, not by this objection. The
-  objection is a judgment with no vocabulary yet and is not counted. Blocker: a
-  typed account of who fixes a practice's grammar.
+  A further objection is recorded as unresolved and is not a consequence of
+  either escape: that a fideist who takes an escape imports a standard from
+  outside the game, against the internal-grammar thesis. The countermodels show
+  only that each bridge is needed. The objection would need two bridges, neither
+  recorded:
+
+  1. that rejecting conciliar definitions as part of the grammar appeals to a
+     standard not internal to the practice. It could instead appeal to
+     distinctions within the practice, and the second escape is itself an
+     internal re-reading of "natural reason";
+  2. that the internal-grammar thesis forbids external standards.
+     `InternalGrammarReading` formalizes only that internal endorsement implies
+     correctness.
+
+  It is not counted. Blocker: a typed account of who fixes a practice's
+  grammar.
 
 Self-application: an unresolved objection, not a result. One might argue
 that the fideist thesis is a claim about the grammar of religion made in
