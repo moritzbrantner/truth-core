@@ -1,0 +1,8 @@
+{
+  "id": "DEF-COMMON-PRIORITY-RANK",
+  "term": "Common cross-world priority rank",
+  "definition": "CommonRank m R a supplies one map from the rigid Being carrier into any well-founded relation, preserving the existing union of possible necessary-to-necessary support edges. Identity witnesses the converse when that union is well-founded. No Nat-height or finite-height restriction; no interpretation as temporal order. NecessarySupportStable separately requires edges between necessary bearers to persist wherever both endpoints exist.",
+  "lean_declaration": "TruthCore.Causality.CommonPriority.CommonRank",
+  "basis": "stipulative",
+  "note": "OPEN applicability. Meaning, examples, structural properties and strongest competing accounts are audited in docs/notes/modal-grounding-priority-950.md. This is an analyst vocabulary audit; the linked primary claims source its component readings, not an identity across their frameworks."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-EXISTENCE-FACT-NECESSITATION",
+  "term": "Existence-fact modal necessitation",
+  "definition": "TruthNecessitation m R says each selected direct support edge at w has a source-existence proposition that entails target existence at every world accessible from w. It is a necessary modal condition only: it neither defines full grounds nor distinguishes partial from full support. NecessarySupportStable instead constrains the support relation itself.",
+  "lean_declaration": "TruthCore.Causality.CommonPriority.TruthNecessitation",
+  "basis": "stipulative",
+  "note": "Analyst specialization from fact/plural-ground source discussions to bearer existence facts, with applicability OPEN; see docs/notes/modal-grounding-priority-950.md. This is an analyst vocabulary audit; the linked primary claims source its component readings, not an identity across their frameworks."
+}

@@ -1,6 +1,6 @@
 {
   "id": "CONFIG-MODAL-GROUNDING-UNION",
-  "description": "Modal grounding union elimination rule (#542) under the #477 loop: actual reflexivity, no contingent ground of a necessary bearer and a well-founded cross-world union of necessary-to-necessary support, with a necessary bearer and explicit excluded middle, yield a necessarily underived bearer; edge invariance is not needed. Selections drop each union-route premise against the registered finite controls (rotating cross-world cycle, switching contingent ground, varying edges). Certified witnesses outside this finite-model registry: PARITY-UNION-REGRESS (Nat carrier: two locally depth-one worlds whose cycle-free union has an infinite descending regress) and FINITE-NECESSARY-UNION-CLASSIFICATION (classical, so outside this zero-axiom profile). Configurations are inputs; statuses are computed only from live certificates. No premise is established and no root premise closes.",
+  "description": "Modal grounding union elimination rule (#542) under the #477 loop: actual reflexivity, no contingent ground of a necessary bearer and a well-founded cross-world union of necessary-to-necessary support, with a necessary bearer and explicit excluded middle, yield a necessarily underived bearer; edge invariance is not needed. Selections drop each union-route premise against the registered finite controls (rotating cross-world cycle, switching contingent ground, varying edges). Certified witnesses outside this finite-model registry: PARITY-UNION-REGRESS (Nat carrier: two locally depth-one worlds whose cycle-free union has an infinite descending regress) and FINITE-NECESSARY-UNION-CLASSIFICATION (classical, so outside this zero-axiom profile). Configurations are inputs; statuses are computed only from live certificates. No premise is established and no root premise closes. #950 adds an explicitly OPEN equivalent common-rank presentation via an arbitrary WF codomain. It is not a defense or a weaker premise. The three new configuration bridge certificates remain zero-axiom; the separate parity comparison uses the approved Mathlib axiom set.",
   "seed_statement_id": "STMT-NECESSARILY-UNDERIVED",
   "semantics": {
     "id": "necessarily-underived-esse-support-shared-ontic",
@@ -10,7 +10,8 @@
     "identity": "Literal Lean equality of one fixed Being type across worlds; necessity is de re (rigid presence at every accessible world); no counterparts.",
     "vocabulary": "NECESSARILY-UNDERIVED-ESSE-SUPPORT",
     "modules": [
-      "TruthCore.Causality.NecessarilyUnderived"
+      "TruthCore.Causality.NecessarilyUnderived",
+      "TruthCore.Causality.CommonPriority"
     ],
     "parameters": [
       {
@@ -103,6 +104,13 @@
         "m",
         "supportsEsse",
         "w0"
+      ],
+      "STMT-COMMON-WELL-FOUNDED-PRIORITY-RANK": [
+        "World",
+        "Being",
+        "m",
+        "supportsEsse",
+        "w0"
       ]
     },
     "permitted_axioms": []
@@ -183,6 +191,16 @@
         "STMT-WELL-FOUNDED-PRESENT-ESSE-SUPPORT",
         "STMT-NECESSARILY-UNDERIVED"
       ]
+    },
+    {
+      "id": "same-union-route-via-common-rank",
+      "statement_ids": [
+        "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+        "STMT-ACTUAL-MODAL-REFLEXIVITY",
+        "STMT-NO-CONTINGENT-GROUND-OF-NECESSARY",
+        "STMT-COMMON-WELL-FOUNDED-PRIORITY-RANK",
+        "STMT-EXCLUDED-MIDDLE"
+      ]
     }
   ],
   "incompatibility_result_ids": [],
@@ -191,7 +209,10 @@
     "NECESSARY-SUPPORT-UNION-WF-FROM-ACTUAL",
     "NECESSARY-PREDECESSOR-LIFT-FROM-BRIDGES",
     "NECESSARY-UNDERIVED-POSITIVE-LIFT",
-    "NECESSARY-UNDERIVED-NONREFUTATION-LIFT"
+    "NECESSARY-UNDERIVED-NONREFUTATION-LIFT",
+    "COMMON-RANK-TO-UNION-WF",
+    "UNION-WF-TO-COMMON-RANK",
+    "NECESSARILY-UNDERIVED-FROM-COMMON-RANK"
   ],
   "model_bindings": [
     {

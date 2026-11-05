@@ -1,0 +1,18 @@
+{
+  "id": "COMMON-PRIORITY-COMPARISON",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-COMMON-PRIORITY-COMPARISON",
+  "inference_ids": [
+    "INF-COMMON-PRIORITY-COMPARISON"
+  ],
+  "meaning": "Consume exact rotating/parity/varying controls: truth implication and world-local termination do not give a common priority rank; stability plus actualWF suffices.",
+  "definition_ids": [
+    "DEF-COMMON-PRIORITY-RANK",
+    "DEF-EXISTENCE-FACT-NECESSITATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSITATION-PRIORITY-INVARIANCE",
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"
+  ]
+}

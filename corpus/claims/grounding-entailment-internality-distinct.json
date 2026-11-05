@@ -1,0 +1,15 @@
+{
+  "id": "LEUENBERGER-ENTAILMENT-INTERNALITY",
+  "source_id": "LEUENBERGER-GROUNDING-NECESSITY-2014",
+  "statement_id": "STMT-GROUNDING-ENTAILMENT-AND-INTERNALITY-INDEPENDENT",
+  "locator": "PDF p. 8 (article p.5), Entailment, Factivity, Internality",
+  "interpretation": "Source assertion of independence, not attribution of the analyst's bearer-support certificate.",
+  "attribution": "The passage states grounding entailment and internality are logically independent claims even given factivity: entailment concerns grounded truth, while internality concerns the persistence of grounding when its relata obtain, which is the premise.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-GROUNDING-NECESSITATION-SOURCE-SENSES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSITATION-PRIORITY-INVARIANCE"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "COMMON-PRIORITY-COMPARISON",
+  "argument_id": "COMMON-PRIORITY-COMPARISON",
+  "challenge_module": "TruthCore.Results.Causality.CommonPriority.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CommonPriority.Solution",
+  "theorem": "TruthCore.Results.Causality.CommonPriority.comparison",
+  "comparator_config": "results/COMMON-PRIORITY-COMPARISON/comparator.json",
+  "status": "solution-present",
+  "description": "Consume exact rotating/parity/varying controls: truth implication and world-local termination do not give a common priority rank; stability plus actualWF suffices. Conditional/configuration consequence only; no metaphysical premise established."
+}

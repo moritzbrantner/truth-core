@@ -1,0 +1,12 @@
+{
+  "id": "STMT-COMMON-WELL-FOUNDED-PRIORITY-RANK",
+  "paraphrase": "An OPEN framework presentation of union well-foundedness: one world-independent map into an arbitrary well-founded relation preserves every possible existential-support edge between necessary rigid bearers. This is equivalent to the existing union-WF policy by the identity map, not an independently justified or weaker premise.",
+  "lean_declaration": "TruthCore.Causality.CommonPriority.CommonRank",
+  "definition_ids": [
+    "DEF-COMMON-PRIORITY-RANK",
+    "DEF-EXISTENCE-FACT-NECESSITATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSITATION-PRIORITY-INVARIANCE"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "NECESSARILY-UNDERIVED-FROM-COMMON-RANK",
+  "premise_statement_ids": [
+    "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+    "STMT-ACTUAL-MODAL-REFLEXIVITY",
+    "STMT-NO-CONTINGENT-GROUND-OF-NECESSARY",
+    "STMT-COMMON-WELL-FOUNDED-PRIORITY-RANK",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-NECESSARILY-UNDERIVED",
+  "inference_ids": [
+    "INF-NECESSARILY-UNDERIVED-FROM-COMMON-RANK"
+  ],
+  "meaning": "Apply the existing PositiveUnion.checks producer with the exact population/reflexivity/no-contingent/EM premises and the derived unionWF.",
+  "definition_ids": [
+    "DEF-COMMON-PRIORITY-RANK",
+    "DEF-EXISTENCE-FACT-NECESSITATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSITATION-PRIORITY-INVARIANCE",
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"
+  ]
+}

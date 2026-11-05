@@ -1,0 +1,27 @@
+{
+  "snapshot": {
+    "source_url": "https://eprints.gla.ac.uk/89862/7/89862.pdf",
+    "retrieved_at": "2026-11-05T19:54:05Z",
+    "sha256": "sha256:e0827dad349682b0b266c286700f81423a6a80d245d1a0aca09554fd16ef0613",
+    "kind": "web_snapshot",
+    "source_id": "LEUENBERGER-GROUNDING-NECESSITY-2014",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "CC-BY3.0 as stated in published article; Glasgow institutional repository copy."
+  },
+  "passages": [
+    {
+      "id": "LEUENBERGER-GROUNDING-NECESSITY-2014-ARTICLE",
+      "locator": "Grounding and Necessity, complete supplied PDF including front matter and references",
+      "claim_locator_prefixes": [
+        "PDF p."
+      ],
+      "pdf_pages": {
+        "first": 1,
+        "last": 27
+      },
+      "text_sha256": "sha256:a208582d86eaa238b6ba9faa5722424374488405960c684dc3be12d4250cb5b6",
+      "incipit": "Leuenberger, S. (2014) Grounding and necessity. Inquiry, 57 (2). pp. 151174."
+    }
+  ]
+}

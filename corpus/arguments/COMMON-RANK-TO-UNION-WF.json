@@ -1,0 +1,20 @@
+{
+  "id": "COMMON-RANK-TO-UNION-WF",
+  "premise_statement_ids": [
+    "STMT-COMMON-WELL-FOUNDED-PRIORITY-RANK"
+  ],
+  "conclusion_statement_id": "STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT",
+  "inference_ids": [
+    "INF-COMMON-RANK-TO-UNION-WF"
+  ],
+  "meaning": "Pull accessibility back along the supplied rank map using the existing Regress.Graph.Map.wellFounded.",
+  "definition_ids": [
+    "DEF-COMMON-PRIORITY-RANK",
+    "DEF-EXISTENCE-FACT-NECESSITATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSITATION-PRIORITY-INVARIANCE",
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"
+  ]
+}

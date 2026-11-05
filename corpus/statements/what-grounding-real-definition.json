@@ -1,0 +1,10 @@
+{
+  "id": "STMT-WHAT-GROUNDING-REAL-DEFINITION-NECESSITATES",
+  "paraphrase": "What-grounding corresponds to essential real-definition what-it-is explanations, with nontrivial necessary and sufficient conditions; it obeys grounding necessity.",
+  "definition_ids": [
+    "DEF-GROUNDING-NECESSITATION-SOURCE-SENSES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSITATION-PRIORITY-INVARIANCE"
+  ]
+}

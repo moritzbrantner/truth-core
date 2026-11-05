@@ -1,0 +1,27 @@
+{
+  "snapshot": {
+    "source_url": "https://www.kellytrogdon.org/ewExternalFiles/GNC.pdf",
+    "retrieved_at": "2026-11-05T19:53:26Z",
+    "sha256": "sha256:18b71a159e804a14b623135ed5af4b9900976ed9b455b983fa2c83944fff6c3d",
+    "kind": "web_snapshot",
+    "source_id": "TROGDON-GROUNDING-NECESSARY-2013",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "Author-hosted published article; copyright2013 author/Wiley; public author copy, analytical paraphrases only."
+  },
+  "passages": [
+    {
+      "id": "TROGDON-GROUNDING-NECESSARY-2013-ARTICLE",
+      "locator": "Grounding: Necessary or Contingent?, complete supplied PDF including front matter and references",
+      "claim_locator_prefixes": [
+        "PDF p."
+      ],
+      "pdf_pages": {
+        "first": 1,
+        "last": 21
+      },
+      "text_sha256": "sha256:247f6413307327cb3bdf1a3e52d09f1e454ac13b223f402ebeb798dc5b21ad49",
+      "incipit": "GROUNDING: NECESSARY OR CONTINGENT? by KELLY TROGDON Abstract: Recent interest"
+    }
+  ]
+}

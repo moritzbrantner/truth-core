@@ -1,0 +1,15 @@
+{
+  "id": "LEUENBERGER-BLOCKER-BLOCKER",
+  "source_id": "LEUENBERGER-GROUNDING-NECESSITY-2014",
+  "statement_id": "STMT-BLOCKER-BLOCKER-OBJECTION-TO-GROUNDING-INTERNALITY",
+  "locator": "PDF p. 19 (article p.16), section III",
+  "interpretation": "Prima facie metaphysical counterexample defended by the author; not a kernel-certified refutation or an asserted possible reversal between necessary beings.",
+  "attribution": "The passage states the proposed blocker-blocker cases leave the original grounds and grounded fact obtaining while adding explanatorily indispensable facts; they are offered as counterexamples to internality, which is the premise.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-GROUNDING-NECESSITATION-SOURCE-SENSES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSITATION-PRIORITY-INVARIANCE"
+  ]
+}

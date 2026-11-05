@@ -1,0 +1,12 @@
+{
+  "id": "STMT-EXISTENCE-SUPPORT-TRUTH-NECESSITATION",
+  "paraphrase": "Each direct existential-support edge at w has its source existence fact entail its target existence fact at every world accessible from w. This analyst modal condition asserts no full grounding, explanatory sufficiency, persistence of the edge, or common rank.",
+  "lean_declaration": "TruthCore.Causality.CommonPriority.TruthNecessitation",
+  "definition_ids": [
+    "DEF-COMMON-PRIORITY-RANK",
+    "DEF-EXISTENCE-FACT-NECESSITATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSITATION-PRIORITY-INVARIANCE"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "TROGDON-SIGNIFICANCE-ESSENCE-ROUTE",
+  "source_id": "TROGDON-GROUNDING-NECESSARY-2013",
+  "statement_id": "STMT-SIGNIFICANCE-ESSENCE-ROUTE-TO-NECESSITATION",
+  "locator": "PDF p. 3 (printed p.467), significance/essence and argument (1)–(5)",
+  "interpretation": "Records the proposed argument and its additional principles, not their establishment or an argument for a common priority rank.",
+  "attribution": "The passage states the proposed argument for grounding necessitation uses significance and essence principles, together with necessity of essential truths, to obtain modal entailment from full grounding, which is the premise.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-GROUNDING-NECESSITATION-SOURCE-SENSES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSITATION-PRIORITY-INVARIANCE"
+  ]
+}

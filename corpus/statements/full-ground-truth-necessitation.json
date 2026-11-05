@@ -1,0 +1,10 @@
+{
+  "id": "STMT-FULL-GROUNDS-NECESSITATE-TARGET-TRUTH",
+  "paraphrase": "If a fact is fully grounded in a plurality of facts, the conjunction of the propositions corresponding to those grounds metaphysically necessitates the proposition corresponding to the grounded fact.",
+  "definition_ids": [
+    "DEF-GROUNDING-NECESSITATION-SOURCE-SENSES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSITATION-PRIORITY-INVARIANCE"
+  ]
+}
