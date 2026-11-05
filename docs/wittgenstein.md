@@ -108,17 +108,20 @@ What it shows, and what it does not:
   relation is recorded.
 - The fideist's escapes are exactly the denials of the two bridges.
   - Treat the council as theology *about* the practice rather than its grammar
-    (`needsDefinitionIsOwnStandard`). This is close to Phillips's picture of
-    philosophical distortion entering belief (2005, 75, as quoted). The
-    reconstruction is unattributed.
+    (`needsDefinitionIsOwnStandard`). It may connect with Phillips's remark
+    that his approach rescues belief and atheism "from philosophical
+    distortion" (2005, 75, as quoted), but no witness says he read conciliar
+    teaching so. The reconstruction is unattributed.
   - Re-read "natural reason" as a practice-internal standard
     (`needsNaturalReasonIsShared`).
 
-  Either escape needs a criterion of the practice's grammar that overrides the
-  practice's own authoritative self-description. That is a standard from outside
-  the game, which sits badly with the internal-grammar thesis. This last step is
-  a judgment with no vocabulary yet. Blocker: a typed account of who fixes a
-  practice's grammar.
+  A possible further objection, unresolved: the first escape seems to need a
+  criterion of the practice's grammar that can override the practice's own
+  authoritative self-description, and such a criterion may not fit the
+  internal-grammar thesis. The second escape is an interpretive dispute about
+  the council's text, settled by reading, not by this objection. The
+  objection is a judgment with no vocabulary yet and is not counted. Blocker: a
+  typed account of who fixes a practice's grammar.
 
 Self-application: an unresolved objection, not a result. One might argue
 that the fideist thesis is a claim about the grammar of religion made in
