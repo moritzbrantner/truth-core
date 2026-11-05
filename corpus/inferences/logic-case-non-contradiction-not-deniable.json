@@ -1,0 +1,9 @@
+{
+  "id": "INF-LOGIC-CASE-NON-CONTRADICTION-NOT-DENIABLE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-NO-CASE-PREDICATE-CONTRADICTION",
+  "rule": "constructive-proof",
+  "meaning": "A witness of P x r ∧ ¬ P x r applies its second component to its first.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

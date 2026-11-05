@@ -1,0 +1,9 @@
+{
+  "id": "REL-SOME-CASE-PREDICATE-CONTRADICTION-ALTERNATIVE-TO-CASE-NON-CONTRADICTION",
+  "subject_kind": "statement",
+  "subject_id": "STMT-SOME-CASE-PREDICATE-CONTRADICTION-TRUE",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-CASE-NON-CONTRADICTION",
+  "note": "Class: global_underminer for the case's logic. A dialetheist accepts some true contradictions; the classical refutation counts only relative to the F1 floor marking (D-L, #1007)."
+}

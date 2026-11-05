@@ -1,0 +1,5 @@
+{
+  "id": "STMT-NO-CASE-PREDICATE-CONTRADICTION",
+  "paraphrase": "Inside Lean's logic, no being both has and lacks a case predicate in the same respect: the denial of non-contradiction for the case predicates fails. Counts against a dialetheic rival only relative to the F1 floor marking (D-L, #1007).",
+  "lean_declaration": "TruthCore.Logic.CaseNonContradiction.NoCasePredicateContradiction"
+}
