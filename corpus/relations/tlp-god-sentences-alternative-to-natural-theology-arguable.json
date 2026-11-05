@@ -1,0 +1,9 @@
+{
+  "id": "REL-TLP-GOD-SENTENCES-ALTERNATIVE-TO-NATURAL-THEOLOGY-ARGUABLE",
+  "subject_kind": "statement",
+  "subject_id": "STMT-TLP-GOD-SENTENCES-NONSENSICAL",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-NATURAL-THEOLOGY-ARGUABLE",
+  "note": "Class: meaning-theoretic rival (traditional reading of the Tractatus, unattributed reconstruction). If what matters most is unsayable, the root routes' theses about God are not false but nonsensical and so not arguable. Off the routes: STMT-NATURAL-THEOLOGY-ARGUABLE is presupposed by every route and stated by none, so no route leaf receives a rival entry. Not refuted. Bearing of #1008: the book's self-application (6.53-6.54) undercuts the reconstruction on the resolute reading (DISAMB-TLP-NONSENSE)."
+}

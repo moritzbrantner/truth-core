@@ -1,0 +1,12 @@
+{
+  "id": "SEP-WITTGENSTEIN-2-4-TRADITIONAL-A",
+  "statement_id": "STMT-TLP-TRADITIONAL-READING-INEFFABLE-SHOWN",
+  "source_id": "SEP-WITTGENSTEIN",
+  "locator": "§2.4, The traditional readings of the Tractatus accepted",
+  "interpretation": "The entry: Wittgenstein bans traditional metaphysics to the realm of nonsense, yet 'does seem to be saying that there is something there to be shown (rather than said) and does, indeed, characterize it as the mystical'; 'The traditional readings of the Tractatus accepted, with varying degrees of discomfort, the existence of that which is unsayable'. Attribution reading of the position the entry reports, not a view of the entry's author.",
+  "status": "formalized",
+  "attribution": "The passage states that the traditional readings of the Tractatus accept the existence of something unsayable that is shown, the mystical, beyond the nonsense to which metaphysics is banned, which is the premise.",
+  "definition_ids": [
+    "DEF-TLP-NONSENSE-ILLUMINATING"
+  ]
+}

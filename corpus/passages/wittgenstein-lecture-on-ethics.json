@@ -1,0 +1,24 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "WITTGENSTEIN-LECTURE-ON-ETHICS",
+    "source_url": "https://www.wittgensteinproject.org/w/index.php?title=Lecture_on_Ethics&action=raw&oldid=11338",
+    "retrieved_at": "2026-11-05T15:46:39Z",
+    "sha256": "sha256:7fec8e94645c829fe75e7eb4b8ed3f2b6c7a9f1551bbc31f96baefa41ae829dd",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "The page's copyright note: not in the public domain in its country of origin (the United States), but released by the copyright holders under Creative Commons Attribution-NonCommercial 4.0 International; in the public domain where the term is the author's life plus 70 years or fewer. Only hashes, locators and a short incipit are committed. Raw wikitext of one fixed revision (oldid), byte-stable over two fetches on 2026-11-05. No Wayback fallback: web.archive.org refused connections from the pinning environment."
+  },
+  "passages": [
+    {
+      "id": "WITTGENSTEIN-LECTURE-ON-ETHICS-WHOLE",
+      "locator": "whole lecture (raw wikitext)",
+      "claim_locator_prefixes": [
+        "LE "
+      ],
+      "raw_text": true,
+      "text_sha256": "sha256:7fec8e94645c829fe75e7eb4b8ed3f2b6c7a9f1551bbc31f96baefa41ae829dd",
+      "incipit": "{{menu bar"
+    }
+  ]
+}

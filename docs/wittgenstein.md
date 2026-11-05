@@ -23,9 +23,11 @@ readings, and a view developed by followers is not attributed to him.
 | On Certainty: "there are physical objects" is nonsense | §§35-36 | rival to the statementhood of a candidate F2 phrased with "physical object" | candidate F2 ('something exists'), not approved | recorded |
 | PI: rule-following regress | §§198, 201-202; Kripke via `SEP-PRIVATE-LANGUAGE` §4 | neutral to the routes | none | `WITTGENSTEIN-INTERPRETATION-REGRESS` (regress plus three-way fork) |
 | PI: private-language argument | §§243, 258, 293, 304, 308; readings via `SEP-PRIVATE-LANGUAGE` §§1.1-1.2 | neutral to F5 as an occurrence premise; rival only to a private-introspection basis for it | candidate F5 (`STMT-COGITO-THOUGHT-OCCURS`) | recorded |
+| Tractatus, traditional reading | 4.003, 4.11, 6.42, 6.432, 6.522, 7 (German, `WITTGENSTEIN-TRACTATUS`); `SEP-WITTGENSTEIN` §2.4 | rival to the arguability of natural theology | `STMT-NATURAL-THEOLOGY-ARGUABLE` (presupposed by every route, stated by none; not a route leaf) | recorded as an unattributed reconstruction (`STMT-TLP-GOD-SENTENCES-NONSENSICAL`); not refuted |
+| Tractatus, resolute reading | `SEP-WITTGENSTEIN` §2.4 | neutral: the book points at no ineffable truths (a claim about the book) | none | recorded; the self-application (6.53-6.54) belongs to #1008 |
+| Lecture on Ethics | absolute value is no fact; wonder at existence is nonsense; religious terms are similes (`WITTGENSTEIN-LECTURE-ON-ETHICS`) | rival in spirit to realist God-talk as simile; an objection to the statementhood of "the world exists" is only an unattributed reconstruction (needs an imaginability-to-sense bridge) | candidate F2 (reconstruction only); off-route | recorded |
 | Lectures on religious belief (1938, student notes) | religious beliefs not hypotheses, `SEP-RELIGIOUS-LANGUAGE` §4.2 | rival in spirit to recognizability by signs; not attached to a leaf | none (the notes are not Wittgenstein's text; no claim attributes WF-N to him) | recorded as a reported reading |
 
-The Tractatus and the Lecture on Ethics follow in a later PR of #1010.
 
 ## Wittgensteinian fideism
 
@@ -318,3 +320,84 @@ reported reading. So it is
 premise. It is a rival only to a Cartesian private-introspection *basis* for
 F5. The retorsion basis proposed on #1007 ("a denial is a thought") uses a
 public speech act and is unaffected.
+
+## Tractatus
+
+The witness is Project Gutenberg #5740, the LaTeX source of the 1922 bilingual
+edition. The German is read, and the Ogden English is used only as an aid.
+Propositions 6.53-6.54 (the ladder) are left to #1008. The same witness is
+available to #1008.
+
+### The texts recorded
+
+- 4.01: the proposition is a picture of reality.
+- 4.11: the totality of true propositions is natural science.
+- 4.003: *most* philosophical propositions are not false but nonsensical.
+- 6.41-6.42: no value in the world, so there are no propositions of ethics.
+- 6.432: God does not reveal himself *in* the world.
+- 6.44: *that* the world is, is the mystical.
+- 6.522: there is indeed the inexpressible; it shows itself.
+- 7: whereof one cannot speak, thereof one must be silent.
+
+### The rival and the two readings
+
+On the **traditional** reading (`DEF-TLP-NONSENSE-ILLUMINATING`), the book bans
+metaphysics to nonsense yet points at the unsayable. Reconstructed from 4.003,
+4.11, 6.42 and 6.432, it yields a rival to the *arguability* of natural
+theology: sentences about God are not false but nonsensical
+(`STMT-TLP-GOD-SENTENCES-NONSENSICAL`). No proposition states it in this form,
+so it is unattributed, and three claims (4.003, 4.11, 6.432) only `support`
+it, each with a gap note.
+
+Its object is `STMT-NATURAL-THEOLOGY-ARGUABLE`. Every route presupposes that
+statement, but no route premise states it, so no route leaf gains a rival
+entry. This is an honest gap: the routes leave their meaningfulness
+presupposition implicit.
+
+On the **resolute** reading (`DEF-TLP-NONSENSE-PLAIN`), the book's own
+propositions are plain nonsense, and the book does not point at ineffable
+truths but leads its reader away from that temptation. This is a claim about
+the book, not a denial that such truths exist. On this reading the
+reconstruction is not the book's thesis, so the book supplies no rival. That is the book's
+self-application, which #1008 owns (`DISAMB-TLP-NONSENSE`).
+
+Lean: not built. The Tractatus's tautology remarks (4.46-4.462) concern
+sentences true under every truth-assignment. Applying them to necessary-being
+claims is an unattributed reconstruction. It needs an open bridge: that the
+necessity predicated of a being is the logical necessity of the proposition
+asserting it (`DISAMB-NECESSARY` distinguishes the two), and that the
+assertion is true under every assignment. The bridge is not recorded. Given
+it, the remaining step would be a two-line unfolding with no new logical
+content.
+
+## Lecture on Ethics (1929)
+
+The text is written in English by Wittgenstein. It is CC BY-NC by release of
+the copyright holders, and public domain wherever the term is life plus 70
+years.
+
+- **Absolute value is no fact.** Relative value judgments are statements of
+  fact, but no statement of fact is or implies a judgment of absolute value
+  (`STMT-LE-ABSOLUTE-VALUE-NO-FACT`). Classified neutral to F6 on a relative
+  reading of F6 ("one ought to believe what the evidence supports" as
+  instrumental to truth). On an absolute reading of F6 the Lecture would class
+  it as nonsense rather than false. Which reading F6 takes is not settled here.
+- **Wonder at the existence of the world is nonsense,** because one cannot
+  imagine the world not existing (`STMT-LE-WONDER-AT-EXISTENCE-NONSENSE`). The
+  Lecture's condition concerns when *wondering* that something is the case makes
+  sense. An objection to the statementhood of "the world exists" (a candidate
+  F2) is an unattributed reconstruction. It needs a missing bridge: that the
+  imaginability condition for wonder is also a condition of sense for existence
+  assertions, as the Tractatus's bipolarity would suggest. The bridge is not
+  recorded, and the objection is not attached to F2. Wittgenstein says that
+  people referred to this experience when they said that God created the world.
+- **Religious terms seem to be similes,** and where the facts cannot be stated
+  without the simile the expressions are nonsense
+  (`STMT-LE-RELIGIOUS-TERMS-SIMILES`). This is a rival in spirit to realist
+  God-talk, close to WF-P1. It is not attached to a leaf: the Lecture says the
+  terms "seem" to be used so, and it ends in respect, not denial
+  (`STMT-LE-ETHICS-RELIGION-RUN-AGAINST-LANGUAGE`).
+
+*Lectures and Conversations ... on Religious Belief* (1938) survive as students'
+notes, edited by Barrett in 1966, and are in copyright. No hosted copy was
+found, so they enter only as `SEP-RELIGIOUS-LANGUAGE` §4.2 reports them.
