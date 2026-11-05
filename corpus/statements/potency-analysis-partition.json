@@ -1,0 +1,9 @@
+{
+  "id": "STMT-POTENCY-ANALYSIS-PARTITION",
+  "paraphrase": "The partition of the shared question Q-F7 (#1007): either a being is in potency in a respect exactly when it is able to be so and not actually so (F7, STMT-POTENCY-IS-UNACTUALIZED-CAPACITY), or (a) something is in potency and in act in the same respect, or (b) something is in potency without being able to be so, or (c) something able to be so and not actually so is not in potency.",
+  "lean_declaration": "TruthCore.Alternatives.PotencyAnalysisPartition.PotencyAnalysisPartition",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-CAPACITY-TO-BE"
+  ]
+}

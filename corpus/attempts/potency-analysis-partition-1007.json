@@ -1,0 +1,15 @@
+{
+  "id": "ATTEMPT-POTENCY-ANALYSIS-PARTITION-1007",
+  "statement_ids": [
+    "STMT-POTENCY-IS-UNACTUALIZED-CAPACITY"
+  ],
+  "date": "2026-11-05",
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "The owner's worldview argument for F7 (#1007), built as a partition by the shared question Q-F7 so that exhaustiveness follows from excluded middle (POTENCY-ANALYSIS-PARTITION), not from a hand-picked list. The ¬F7 family splits into three cells: (a) potency with act in the same respect (Scotus' virtual act, Hegel's moving body), (b) potency without capacity, (c) unexercised capacity without potency. All three survive the approved floor (POTENCY-ANALYSIS-CELLS-SURVIVE-FLOOR): each has an interpretation with something moved (F4); F1 holds everywhere; F3 and F6 use other vocabulary. F7 is equivalent to the three cell-excluding constraints (f7IffCellConstraints), so the argument goes through only with floor items that jointly entail F7. Result: open alternative, no premise closes, cost 0.",
+  "blocker": "Defeating cells (a), (b), (c) needs floor items for non-simultaneity of act and potency, potency implies capacity, and unexercised capacity is potency respectively; together they are F7. No approved floor item constrains InPotency, InAct and CanBe.",
+  "evidence": [
+    "POTENCY-ANALYSIS-PARTITION",
+    "POTENCY-ANALYSIS-CELLS-SURVIVE-FLOOR"
+  ]
+}

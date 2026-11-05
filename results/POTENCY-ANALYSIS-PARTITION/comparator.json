@@ -1,0 +1,11 @@
+{
+  "challenge_module": "TruthCore.Results.Alternatives.PotencyAnalysisPartition.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.PotencyAnalysisPartition.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Alternatives.PotencyAnalysisPartition.partition",
+    "TruthCore.Results.Alternatives.PotencyAnalysisPartition.cellsDenyF7",
+    "TruthCore.Results.Alternatives.PotencyAnalysisPartition.f7IffCellConstraints"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -36,6 +36,19 @@
       },
       "text_sha256": "sha256:e722b3183abbbed0b96052f2ca9c036e317d0ad632f1095d0e378bdc8254f2d8",
       "incipit": "If suitable rules for this term are laid down, the following is likewise"
+    },
+    {
+      "id": "CARNAP-ESO-II-P5-6",
+      "locator": "§II (Frameworks of Entities), physical pp. 5-6",
+      "claim_locator_prefixes": [
+        "§II, p. 6"
+      ],
+      "pdf_pages": {
+        "first": 5,
+        "last": 6
+      },
+      "text_sha256": "sha256:ed16f93f42784adb96fd21a773613ba93ce014ce5541c4a7d1d7cb5295be71ee",
+      "incipit": "of course. Nevertheless, we may regard it as a matter of decision in this"
     }
   ]
 }

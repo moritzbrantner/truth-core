@@ -1,0 +1,9 @@
+{
+  "id": "REL-AYER-1946-EXCLUDES-A-NEGATION-FAILS-REFUTES-PACKAGE",
+  "subject_kind": "argument",
+  "subject_id": "AYER-1946-EXCLUDES-A-NEGATION-FAILS",
+  "predicate": "refutes",
+  "object_kind": "statement",
+  "object_id": "STMT-AYER-1946-EXCLUDES-A-NEGATION",
+  "note": "Counts because its only premise, STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-STRONG, is an owner-approved floor item (#1008, 2026-11-05)."
+}

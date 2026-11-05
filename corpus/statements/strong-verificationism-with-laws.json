@@ -1,0 +1,17 @@
+{
+  "id": "STMT-STRONG-VERIFICATIONISM-WITH-LAWS",
+  "paraphrase": "The V1 package: analytic sentences are true at every world; a sentence is meaningful iff it is analytic or conclusively verifiable; and the language has a universal law over infinitely many individuals with an observable possible counterinstance. Unattributed as a package: the criterion is Ayer's strong sense (AYER-LTL-PELICAN-I-18-STRONG-WEAK), which he reports some positivists proposed (AYER-LTL-PELICAN-I-18-CONCLUSIVE-PROPOSED).",
+  "lean_declaration": "TruthCore.Logic.Verificationism.StrongVerificationismWithLaws",
+  "definition_ids": [
+    "DEF-TESTABLE-LAW-LANGUAGE",
+    "DEF-CONCLUSIVE-VERIFIABILITY",
+    "DEF-UNIVERSAL-LAW-SETTING",
+    "DEF-VERIFICATION-PRINCIPLE",
+    "DEF-TRUTH-CONDITIONAL-LANGUAGE",
+    "DEF-EMPIRICIST-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-VERIFICATIONIST-MEANINGFUL",
+    "DISAMB-VERIFIABILITY-VARIANT"
+  ]
+}
