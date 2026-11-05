@@ -1,0 +1,14 @@
+{
+  "challenge_module": "TruthCore.Results.Aquinas.InMetaphysicam.PrimumMovensPureAct.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.InMetaphysicam.PrimumMovensPureAct.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Aquinas.InMetaphysicam.PrimumMovensPureAct.primumMovensPureAct",
+    "TruthCore.Results.Aquinas.InMetaphysicam.PrimumMovensPureAct.primumMovensFacts"
+  ],
+  "permitted_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "enable_nanoda": true
+}
