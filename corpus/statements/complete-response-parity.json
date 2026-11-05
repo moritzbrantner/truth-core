@@ -1,0 +1,18 @@
+{
+  "id": "STMT-COMPLETE-RESPONSE-PARITY",
+  "lean_declaration": "TruthCore.Explanation.CompleteResponseParity.Certificate",
+  "paraphrase": "Two supplied Boolean-scenario Exercises have identical occurrence tables for both public input contributors and their target at all four scenarios. Both are coherent, every group record in each is scenario-jointly-sufficient, each public input is indispensable to the target group, and every event has inductive Supply. The strengthened one-source exercise has an exercised scenario-sufficient common ancestor of both inputs and a least graph source; the plural exercise has no common source of the inputs and no least graph source. The original one-source control fails sufficiency of a root-to-input record. This is a finite structural/observation counterexample to identifying source count from the listed response and sufficiency tests, not an argument that the hidden record structures, genuine interventions, productive causation, modal worlds, or existential explanations are equivalent.",
+  "definition_ids": [
+    "DEF-COMPLETE-RESPONSE-PARITY",
+    "DEF-JOINT-SCENARIO-SUFFICIENCY",
+    "DEF-JOINT-COOPERATION-BRANCHES",
+    "DEF-DERIVATIVE-JOINT-SUPPLY",
+    "DEF-ULTIMATE-ADEQUACY-COMPARISON"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-JOINT-COOPERATION-NECESSITY",
+    "DISAMB-JOINT-SUPPLY-POWER-OCCURRENCE",
+    "DISAMB-JOINT-CAUSAL-MEMBERSHIP-EXERCISE",
+    "DISAMB-ULTIMATE-ADEQUACY-FOUNDATION"
+  ]
+}
