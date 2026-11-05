@@ -21,6 +21,7 @@ import TruthCore.Results.Aquinas.SummaTheologiae.GoodnessFromDesirability.Soluti
 import TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectIncorporeal.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectNonorganic.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectSubsistence.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.ImmutableIsBoethianEternal.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.InfiniteGreatestWhole.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.IrrelevantRespectObjection.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.MaximeEnsIsGod.Solution
@@ -62,6 +63,8 @@ import TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaOneGovernor.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.ReducedDescriptionSuffices.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.SecundaVia.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.StrongReadingIntended.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.SubsistentInfinityFromReception.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.SubsistentInfinityReceptionControls.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaFinitePastExcludesSuccession.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaFinitePastHorn.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaNecessaryBeing.Solution
