@@ -1,0 +1,12 @@
+{
+  "id": "STMT-RETAINED-DUTY-PRESENT-OIC",
+  "paraphrase": "For every action, a duty at after implies practical ability at after for that same action.",
+  "lean_declaration": "TruthCore.Modal.RetainedDuty.PresentOIC",
+  "definition_ids": [
+    "DEF-RETAINED-DUTY-CASE",
+    "DEF-RETAINED-DUTY-POLICIES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RETAINED-DUTY-ACTION-TIME"
+  ]
+}

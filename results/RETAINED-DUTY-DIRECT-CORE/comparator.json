@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.RetainedDuty.Challenge",
+  "solution_module": "TruthCore.Results.Modal.RetainedDuty.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.RetainedDuty.directCore"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -1,0 +1,12 @@
+{
+  "id": "STMT-RETAINED-DUTY-PRESENT-DUTY",
+  "paraphrase": "The fixed agent owes return of the identical original object at after.",
+  "lean_declaration": "TruthCore.Modal.RetainedDuty.PresentDuty",
+  "definition_ids": [
+    "DEF-RETAINED-DUTY-CASE",
+    "DEF-RETAINED-DUTY-POLICIES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RETAINED-DUTY-ACTION-TIME"
+  ]
+}

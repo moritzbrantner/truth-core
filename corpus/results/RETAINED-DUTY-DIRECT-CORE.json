@@ -1,0 +1,10 @@
+{
+  "id": "RETAINED-DUTY-DIRECT-CORE",
+  "argument_id": "RETAINED-DUTY-DIRECT-CORE",
+  "challenge_module": "TruthCore.Results.Modal.RetainedDuty.Challenge",
+  "solution_module": "TruthCore.Results.Modal.RetainedDuty.Solution",
+  "theorem": "TruthCore.Results.Modal.RetainedDuty.directCore",
+  "comparator_config": "results/RETAINED-DUTY-DIRECT-CORE/comparator.json",
+  "status": "solution-present",
+  "description": "The same original-return duty, inability and present ought-implies-can are jointly incompatible for a fixed agent/date/action. Inclusion-minimal by the closed omission controls; rejects the conjunction, not a preferred member. No root premise closes. Frozen universal-policy predecessor; use RETAINED-DUTY-LOCAL-DIRECT-CORE for the weaker operational constraint. Single-member omission minimality does not establish policy-strength minimality."
+}

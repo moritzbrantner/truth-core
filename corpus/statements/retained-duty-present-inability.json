@@ -1,0 +1,12 @@
+{
+  "id": "STMT-RETAINED-DUTY-PRESENT-INABILITY",
+  "paraphrase": "The fixed agent lacks practical ability at after to return that identical original object.",
+  "lean_declaration": "TruthCore.Modal.RetainedDuty.PresentInability",
+  "definition_ids": [
+    "DEF-RETAINED-DUTY-CASE",
+    "DEF-RETAINED-DUTY-POLICIES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RETAINED-DUTY-ACTION-TIME"
+  ]
+}

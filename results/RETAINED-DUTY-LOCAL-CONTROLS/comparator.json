@@ -1,0 +1,12 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.RetainedDutyLocal.Challenge",
+  "solution_module": "TruthCore.Results.Modal.RetainedDutyLocal.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.RetainedDutyLocal.universalToLocal",
+    "TruthCore.Results.Modal.RetainedDutyLocal.directCore",
+    "TruthCore.Results.Modal.RetainedDutyLocal.retainedCore",
+    "TruthCore.Results.Modal.RetainedDutyLocal.controls"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

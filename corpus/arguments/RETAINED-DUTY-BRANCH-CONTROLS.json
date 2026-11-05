@@ -1,0 +1,17 @@
+{
+  "id": "RETAINED-DUTY-BRANCH-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-RETAINED-DUTY-BRANCH-CONTROLS",
+  "inference_ids": [
+    "INF-RETAINED-DUTY-BRANCH-CONTROLS"
+  ],
+  "meaning": "A typed complete-future Plan has separate feasible and ideal branches, dated practical abilities and performances, and a designated actual branch. Under explicit duty-to-ideal interpretation and ideal/feasible overlap, branch ought-implies-can follows by the exact imported compatibility theorem. The closed debtPlan has retained stipulated repayment duty, no present ability, a feasible recovery alternative, no future ability or performance on its actual non-recovery branch, and no feasible original-object return. Actual-branch abilities agree with its Case. These are conditional formal controls, with attribution and moral/agency applicability deferred; no root change.",
+  "definition_ids": [
+    "DEF-RETAINED-DUTY-CASE",
+    "DEF-RETAINED-DUTY-POLICIES",
+    "DEF-RETAINED-DUTY-BRANCHING-ABILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RETAINED-DUTY-ACTION-TIME"
+  ]
+}

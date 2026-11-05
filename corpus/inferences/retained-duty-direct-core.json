@@ -1,0 +1,13 @@
+{
+  "id": "INF-RETAINED-DUTY-DIRECT-CORE",
+  "input_statement_ids": [
+    "STMT-RETAINED-DUTY-PRESENT-DUTY",
+    "STMT-RETAINED-DUTY-PRESENT-INABILITY",
+    "STMT-RETAINED-DUTY-PRESENT-OIC"
+  ],
+  "output_statement_id": "STMT-CONFIGURATION-FALSE",
+  "rule": "modus-ponens",
+  "meaning": "The same original-return duty, inability and present ought-implies-can are jointly incompatible for a fixed agent/date/action. Inclusion-minimal by the closed omission controls; rejects the conjunction, not a preferred member. No root premise closes.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
