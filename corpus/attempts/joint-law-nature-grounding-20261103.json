@@ -1,0 +1,17 @@
+{
+  "id": "ATTEMPT-JOINT-LAW-NATURE-GROUNDING-20261103",
+  "date": "2026-11-03",
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "statement_ids": [
+    "STMT-JOINT-COOPERATION-CERTIFICATE",
+    "STMT-ULTIMATE-ADEQUACY-COMPARISON",
+    "STMT-COMMON-UNDERIVED-ACTUAL-SOURCE"
+  ],
+  "evidence": [
+    "JOINT-COOPERATION-CERTIFICATE",
+    "ULTIMATE-ADEQUACY-COMPARISON"
+  ],
+  "summary": "Follow-up to #744, #735 and active PR #925, with no new source claim or root route. Reused the existing single/plural #735 groups, intrinsic input predicates, populated actual exercises and #734 inductive Supply. A target-2 admission switch leaves group contributors, enablers, effects, local scenario sufficiency, actual occurrence and independently specified unary profiles fixed; the one-source and two-source models each change from productive Supply of the target to no Supply. The theorem rules out a uniform profile-only verdict across those two analyst law settings. This is not the metaphysical premise that full relational or dispositional natures can remain identical across laws. Both nature-based constitution and necessary co-grounded plural relational structure remain positive rivals. The same explanatory standard applies to the one-source model. Full argument, rejection tests and unverified bridges: docs/notes/joint-cooperation-744.md, 2026-11-03 follow-up. No registered premise or proof-frontier change.",
+  "blocker": "OPEN: independently characterize complete natures and the admissible law space; show whether their genuine essences entail the actual joint law rather than define it by the explanandum. OPEN contrastive norm requiring a separate ultimate ground for any nondeducible productive relation; whether necessary relational structure or co-grounding can satisfy it without another bearer. OPEN bridge from inductive Supply to actual existence/exercise and ultimate adequacy, and from a grounded law to a unique necessary concrete individual. No group index is a new substance; no actual metaphysical law-switch worlds are inferred."
+}

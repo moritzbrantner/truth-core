@@ -243,3 +243,135 @@ No root premise is discharged; #735's adequacy bridge remains open.
 
 Is there an independently defended productive or per se causal notion that separates
 producing from idle co-occurrence, applied alike to one source and several? Root delta: none.
+
+## Follow-up (2026-11-03): the law connecting jointly indispensable inputs
+
+**Question.** Even granting #735's two-source group and PR #925's exactly
+`{0,1}` intrinsic support for target 2, what explains the *particular productive
+law* under which those two contributions jointly yield the target? A complete
+group record says **which inputs are required**; it does not say why the record
+is admitted as genuinely productive. Nor does a single-source group explain its
+own law simply by having only one source.
+
+### Three live arguments, under one explanatory standard
+
+1. **Nature-based law (strongest version).** Let the separately describable
+   natures include stable dispositions, manifestation conditions and
+   counterfactual constraints. If a substantive independently warranted
+   composition principle derives the interaction from those dispositions,
+   rather than naming the observed interaction, the combined natures can
+   explain the *type of production*. The law need not be a third substance.
+   The required premise is that the full essence-and-composition description
+   really fixes this relationship, including non-actual cases. It is not
+   established by merely renaming `admitted g` as `NatureOf a`.
+2. **Law-ground requirement (strongest version).** Let the separately specified
+   natures be invariant while two different candidate interaction laws remain
+   compatible with them. Those natures alone do not select which law obtains.
+   If an ultimate explanation must also account non-circularly for a
+   particular productive relation whenever genuinely eligible alternatives
+   remain, something else must distinguish the laws. This might be a
+   structural principle, a relation, a background law, a further actuality
+   fact or an agent's choice; it need not be another **individual being**.
+   The contrastive completeness norm and genuine admissibility of both law
+   alternatives are independent OPEN philosophical premises.
+3. **Plural-source survivor.** Two intrinsic, possibly necessary sources have
+   complementary dispositional natures whose combination is restricted by a
+   necessary relational structure or co-grounded compatibility principle.
+   This can reject law variation with those *full* natures fixed, and it need
+   not reify the group index into a third source. It owes a non-circular account
+   of its relational principle, or explicitly accepts it as a primitive
+   necessary stopping point. It also owes an account of any contingent
+   *exercise* or effect not necessitated by that structure. The same burden
+   falls on the single-source account's productive powers and exercise.
+
+These are serious alternative **framework commitments**, not a certified
+exhaustive metaphysical trilemma. Brute regularity, probabilistic laws,
+irreducible relational essences and non-necessitating personal explanation
+remain possible replies.
+
+### Exact controlled countermodels using existing #735 inputs
+
+`JointCooperation.lawVariant k on` keeps #735's original group membership,
+enablers, effects, intrinsic-seed predicate and bearer candidates. It changes
+only admission of the productive record whose effect is target 2. The
+`lawExercise` overlay leaves the actual scenario, every event's occurrence
+and all local scenario-sufficiency conditionals unchanged; only the admitted
+records are exercised. The result is a **law-status intervention**, not a
+claim that actual substances with the same complete essences could inhabit
+two accessible worlds with distinct laws.
+
+| Original #735 source pattern | Law admitted | Law not admitted | Unchanged controls |
+| --- | --- | --- | --- |
+| `single`, one ordinary source | target 2 has inductive `Supply` | target 2 lacks `Supply` | Same intrinsic seed 0, contributor record, actual occurrence and scenario sufficiency |
+| `plural`, two ordinary sources | target 2 has inductive `Supply` from 0 and 1 | target 2 lacks `Supply` | Same intrinsic seeds 0 and 1, contributor record, actual occurrence and scenario sufficiency |
+
+The supporting Lean results are `law_exercise_controls`,
+`target_not_supplied_when_law_off`, and `law_status_parity`. A separate
+`single_plural_no_profile_only_verdict` makes a precise information point:
+for **any fixed total unary profile** `nature : Nat → N`, a function of that
+same profile cannot equal both opposite productive-Supply verdicts. This is
+not a ban on relational dispositionalism. If the productive relation is
+essential to the full natures, then the two cases do **not** share that full
+profile, and the premise of the comparison fails. That is the contested
+philosophical fork, made explicit.
+
+The off cases still have the target actually occurring. Thus a failure of
+`Supply` cannot be read as the nonexistence of an effect, and a positive
+`Supply` remains only the #734 proposed **inductive** productive standard,
+not actual efficient causation or ultimate existential adequacy. The cases
+are populated, nonvacuous mathematical models and retain their local
+conditionals; they do not certify actual-world modal alternatives.
+
+### The non-circularity test for an appeal to *nature*
+
+Ask the proposer to specify a nature **without using the very relation being
+explained** and then derive the target relation. Evidence favoring genuine
+explanation includes independently intelligible dispositions, their
+combination rule, counterfactual predictions in new pairings and background
+conditions, and an account of why those dispositions have this manifestation
+profile. "A's nature is to produce effect E when B participates" is at most
+a useful *description* unless it adds such independent constraints. Calling
+the sentence an essence does not create explanatory asymmetry. Conversely,
+it is too strong to insist every compositional or constitutive explanation
+be reducible to separately instantiated unary properties; a structural or
+relational essence may supply irreducible explanatory content.
+
+An ordinary illustration is a circuit with two separately characterized
+components. Their individual specifications plus an independently tested
+composition rule can predict an output. The mere pair of component labels
+cannot. This is an analogy about information and law application, not proof
+that metaphysical production is electrical composition.
+
+The same exact test applies to one source: its asserted nature plus its
+productive law must have content beyond "whatever makes this outcome". A
+necessarily existing source does not automatically necessitate its effects;
+source occurrence, actual exercise and actual effect selection remain separate.
+If a primitive necessary relation is an admissible self-explanatory stop for
+one source, it cannot be prohibited for two just because it is relational
+without an additional independent argument.
+
+### Weakest premises and consequences
+
+| Candidate commitment | What follows | What emphatically does not follow |
+| --- | --- | --- |
+| Fixed full individual profiles across admissible law variants + verdict depends only on those profiles | Incompatible with the two distinct productive verdicts (conditional Lean control) | That such metaphysical law variants exist |
+| Independently specified natures plus a non-circular rule that excludes every rival interaction | A nature-and-rule explanation may account for the *type* of cooperation | That the rule explains its own actuality or one being is necessary |
+| Ultimate explanation must ground any genuinely variable productive law | The ungrounded law is incomplete if independently relevant alternatives remain | That its ground is an additional person, substance or single cause |
+| Every ultimate law must be grounded by exactly one complete individual producer, with the #925 participant-cover policy | Conditional pressure toward object-level uniqueness/compositeness | The truth of that strong policy, God, or divine simplicity |
+
+The first row is an exact formal underdetermination boundary. The remaining
+rows contain OPEN interpretive or metaphysical bridges; they are not
+machine-certified sufficiency or uniqueness principles. In particular,
+"necessary law" is not synonymous with "explained law", but a necessary
+impersonal relation may be a positive ultimate stopping proposal on the same
+terms as a necessary individual's intrinsic nature.
+
+**Premise/frontier effect:** no registered argument or premise is added or
+discharged. The existing named actual underived-source route remains eight
+explicit premises, frontier cost nine; PR #925's distinct complete-cover
+assembly remains nine premises, cost ten, while still open. Neither the
+two-source countermodel nor a nature-label argument closes the bridge from
+`Supply` to actual existential or ultimate explanatory adequacy. The missing
+independent step is a non-question-begging *law-grounding discriminator*,
+followed separately by any bridge from grounding a law to one **necessary
+concrete individual**. A theorem about group records does not supply either.
