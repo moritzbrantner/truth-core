@@ -432,6 +432,72 @@ class FakeWeb:
         return page
 
 
+class WebDriftDiagnosticsTest(unittest.TestCase):
+    def setUp(self) -> None:
+        directory = tempfile.TemporaryDirectory()
+        self.addCleanup(directory.cleanup)
+        self.root = Path(directory.name)
+        for name, value in (("WEB_CACHE", self.root / "trusted"),
+                            ("SOURCE_DIAGNOSTICS", self.root / "diagnostics")):
+            patcher = mock.patch.object(se, name, value, create=True)
+            patcher.start()
+            self.addCleanup(patcher.stop)
+
+    def test_rejected_download_is_recoverable_without_entering_trusted_cache(self) -> None:
+        passage = web_passage({"from": {"anchor": "13"}})
+        passage["id"] = "../../untrusted-label"
+        unexpected = b"<html>unexpected response</html>\x00\xff"
+        expected_error = (f"{passage['id']}: byte drift at {LIVE_URL}: expected "
+                          f"{passage['sha256']}, got {se.sha256_bytes(unexpected)}")
+        with mock.patch.object(se, "download", return_value=unexpected) as download:
+            with self.assertRaises(se.SourceEvidenceError) as error:
+                se.resolve_web_snapshot(passage, use_cache=False, fetch=se.fetch_web_bytes)
+        self.assertEqual(str(error.exception), expected_error)
+        download.assert_called_once_with(LIVE_URL, passage["id"])
+        bodies = list(se.SOURCE_DIAGNOSTICS.glob("*.bin"))
+        self.assertEqual(len(bodies), 1)
+        self.assertRegex(bodies[0].name, r"^[0-9a-f]{64}\.bin$")
+        self.assertEqual(bodies[0].read_bytes(), unexpected)
+        self.assertEqual(json.loads(bodies[0].with_suffix(".json").read_text()), {
+            "url": LIVE_URL, "label": passage["id"],
+            "expected_sha256": passage["sha256"], "actual_sha256": se.sha256_bytes(unexpected),
+        })
+        self.assertFalse(se.WEB_CACHE.exists())
+
+    def test_diagnostic_io_failure_preserves_byte_drift_rejection(self) -> None:
+        se.SOURCE_DIAGNOSTICS.write_bytes(b"not a directory")
+        with mock.patch.object(se, "download", return_value=b"unexpected"), \
+                contextlib.redirect_stderr(io.StringIO()) as stderr:
+            with self.assertRaisesRegex(se.SourceEvidenceError, "byte drift"):
+                se.fetch_web_bytes(LIVE_URL, se.sha256_bytes(HTML), "fixture")
+        self.assertIn("could not save source drift diagnostics", stderr.getvalue())
+        self.assertFalse(se.WEB_CACHE.exists())
+
+    def test_disk_and_stderr_failure_preserve_exact_byte_drift_error(self) -> None:
+        se.SOURCE_DIAGNOSTICS.write_bytes(b"not a directory")
+        unexpected = b"unexpected"
+        expected = se.sha256_bytes(HTML)
+        for failure in (OSError("stderr unavailable"), ValueError("closed stderr")):
+            with self.subTest(failure=type(failure).__name__), \
+                    mock.patch.object(se, "download", return_value=unexpected), \
+                    mock.patch.object(se.sys, "stderr") as stderr:
+                stderr.write.side_effect = failure
+                with self.assertRaises(se.SourceEvidenceError) as error:
+                    se.fetch_web_bytes(LIVE_URL, expected, "fixture")
+            self.assertEqual(str(error.exception),
+                             f"fixture: byte drift at {LIVE_URL}: expected {expected}, "
+                             f"got {se.sha256_bytes(unexpected)}")
+        self.assertFalse(se.WEB_CACHE.exists())
+
+    def test_matching_download_uses_only_trusted_cache(self) -> None:
+        passage = web_passage({"from": {"anchor": "13"}})
+        with mock.patch.object(se, "download", return_value=HTML):
+            self.assertEqual(se.resolve_web_snapshot(
+                passage, use_cache=False, fetch=se.fetch_web_bytes), HTML)
+        self.assertEqual(se.web_cache_path(passage["sha256"]).read_bytes(), HTML)
+        self.assertFalse(se.SOURCE_DIAGNOSTICS.exists())
+
+
 class WebSnapshotTest(unittest.TestCase):
     def setUp(self) -> None:
         directory = tempfile.TemporaryDirectory()
@@ -545,6 +611,22 @@ class WebSnapshotTest(unittest.TestCase):
         se.web_cache_path(passage["sha256"]).write_bytes(b"tampered")
         with self.assertRaisesRegex(se.SourceEvidenceError, "cannot fetch"):
             se.materialize_web_snapshot(passage, fetch=offline)
+
+    def test_http_403_is_availability_not_integrity_failure(self) -> None:
+        denied = se.urllib.error.HTTPError(LIVE_URL, 403, "Forbidden", {}, None)
+        with mock.patch.object(se.urllib.request, "urlopen", side_effect=denied):
+            with self.assertRaisesRegex(se.SourceUnavailableError, "HTTP Error 403"):
+                se.download(LIVE_URL, "WEB-A", attempts=1)
+
+    def test_malformed_gzip_body_is_integrity_not_availability_failure(self) -> None:
+        response = mock.MagicMock()
+        response.__enter__.return_value = response
+        response.read.return_value = b"not gzip bytes"
+        response.headers = {"Content-Encoding": "gzip"}
+        with mock.patch.object(se.urllib.request, "urlopen", return_value=response):
+            with self.assertRaisesRegex(se.SourceEvidenceError, "invalid gzip response body") as caught:
+                se.download(LIVE_URL, "WEB-A", attempts=1)
+        self.assertNotIsInstance(caught.exception, se.SourceUnavailableError)
 
     def manifest(self, passage: dict) -> None:
         se.validate_web_snapshot_manifest(se.ROOT / "corpus" / "passages" / "fixture.json", passage)
@@ -804,6 +886,79 @@ class PullRequestScopeTest(unittest.TestCase):
         self.assertEqual(web.requested, [LIVE_URL])
         self.assertNotIn(b["source_url"], web.requested)
         self.assertIn("limited to 2 changed passage(s): WEB-A, WEB-A2; the other 1", out.getvalue())
+
+    def test_unchanged_unreachable_web_witness_is_explicitly_unverified(self) -> None:
+        passage = self.passages["WEB-A"][1]
+        passage["wayback_url"] = WAYBACK_URL
+        passage["wayback_sha256"] = se.sha256_bytes(ARCHIVED)
+        only = {"WEB-A": self.passages["WEB-A"]}
+
+        def unavailable(url: str, expected: str, label: str) -> bytes:
+            raise se.SourceUnavailableError(f"{label}: cannot fetch {url}: HTTP 403")
+
+        with (
+            mock.patch.object(se, "passage_index", return_value=only),
+            mock.patch.object(se, "validate_bindings", return_value=(1, 0)),
+            mock.patch.object(se, "fetch_web_bytes", side_effect=unavailable),
+            contextlib.redirect_stdout(io.StringIO()) as out,
+        ):
+            self.assertEqual(se.verify_all(defer_unavailable_ids={"WEB-A"}), 0)
+        self.assertIn("WEB-A: unavailable, NOT byte-verified", out.getvalue())
+        self.assertIn("source evidence incomplete", out.getvalue())
+
+    def test_unreachable_witness_without_wayback_is_not_deferred(self) -> None:
+        passage = self.passages["WEB-A"][1]
+        passage.pop("wayback_url", None)
+        passage.pop("wayback_sha256", None)
+        only = {"WEB-A": self.passages["WEB-A"]}
+
+        with (
+            mock.patch.object(se, "passage_index", return_value=only),
+            mock.patch.object(se, "validate_bindings", return_value=(1, 0)),
+            mock.patch.object(
+                se, "fetch_web_bytes",
+                side_effect=se.SourceUnavailableError("WEB-A: cannot fetch: HTTP 403"),
+            ),
+        ):
+            with self.assertRaisesRegex(se.SourceEvidenceError, "HTTP 403") as caught:
+                se.verify_all(defer_unavailable_ids={"WEB-A"})
+        self.assertNotIsInstance(caught.exception, se.SourceUnavailableError)
+
+    def test_changed_witness_remains_strict_when_unreachable(self) -> None:
+        passage = self.passages["WEB-A"][1]
+        passage["wayback_url"] = WAYBACK_URL
+        passage["wayback_sha256"] = se.sha256_bytes(ARCHIVED)
+        only = {"WEB-A": self.passages["WEB-A"]}
+
+        with (
+            mock.patch.object(se, "passage_index", return_value=only),
+            mock.patch.object(se, "validate_bindings", return_value=(1, 0)),
+            mock.patch.object(
+                se, "fetch_web_bytes",
+                side_effect=se.SourceUnavailableError("WEB-A: cannot fetch: HTTP 403"),
+            ),
+        ):
+            with self.assertRaisesRegex(se.SourceEvidenceError, "Wayback fallback failed"):
+                se.verify_all(defer_unavailable_ids=set())
+
+    def test_byte_drift_is_not_deferred_as_unavailable(self) -> None:
+        passage = self.passages["WEB-A"][1]
+        passage["wayback_url"] = WAYBACK_URL
+        passage["wayback_sha256"] = se.sha256_bytes(ARCHIVED)
+        only = {"WEB-A": self.passages["WEB-A"]}
+
+        def mixed(url: str, expected: str, label: str) -> bytes:
+            if url == LIVE_URL:
+                raise se.SourceEvidenceError("WEB-A: byte drift")
+            raise se.SourceUnavailableError("WEB-A: archive unreachable")
+
+        with (
+            mock.patch.object(se, "passage_index", return_value=only),
+            mock.patch.object(se, "validate_bindings", return_value=(1, 0)),
+            mock.patch.object(se, "fetch_web_bytes", side_effect=mixed),
+        ):
+            with self.assertRaisesRegex(se.SourceEvidenceError, "byte drift"):
+                se.verify_all(defer_unavailable_ids={"WEB-A"})
 
     def test_git_changed_files(self) -> None:
         def git(*args: str) -> None:

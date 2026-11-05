@@ -4,6 +4,10 @@
 python3 scripts/corpus.py context AQUINAS-ST-I-Q11-A3-GOD-ONE-FROM-NATURE
 python3 scripts/corpus.py context <RESULT-ID> --json      # every entry, untruncated
 python3 scripts/corpus.py context <STMT-ID>               # only if exactly one argument concludes it
+# Optional, after lake build; reads cached .olean files without another build:
+python3 scripts/corpus.py context <RESULT-ID> --json --proof-use
+python3 scripts/corpus.py lean-reuse --review                  # review missing graph links
+python3 scripts/corpus.py lean-reuse --review --json           # every reuse/import classification
 ```
 
 One call returns a bounded, derived view of one existing argument. It is the
@@ -14,7 +18,8 @@ reuse. Open dossiers only for the premises it reports open.
 | --- | --- |
 | Frozen advertised theorem, verbatim, with `file:line` | the result's Challenge module (Lean source) |
 | Companion theorems (often omission/independence models) and whether Comparator checks them | the same Challenge module and `comparator.json` `theorem_names` |
-| Results reused through Lean, transitively, each marked `graph-linked` or `import only` | the Solution module's `import` closure mapped to result modules |
+| Results reachable through Lean imports, with statement-level graph links | the Solution module's source import closure mapped to result modules (proximity, not proof use) |
+| Optional theorem use: theorem-used/graph-linked, theorem-used/not in argument graph, or import only | elaborated Lean proof terms in existing .olean files, plus the corpus argument graph |
 | Results whose Solution imports this one | Lean imports |
 | Premise and conclusion closure, open depth, and other arguments concluding each one, with their result status and transcription flag | `frontier_report` and argument/result records |
 | Downstream arguments, same-bundle duplicates, root routes through the argument | argument records and `frontier_report` routes |
@@ -27,14 +32,32 @@ reuse. Open dossiers only for the premises it reports open.
 | Unresolved: open premises, open premises with no other recorded argument, blocked/failed attempts, transcriptions, companion theorems Comparator does not check | everything above |
 
 Nothing here is stored or maintained by hand, and no new proposition format is
-added. Lean stays authoritative for the theorem's type and for actual reuse. The
-JSON records stay authoritative for interpretation, sources and status;
-`frontier_report` stays authoritative for closure. The pack does no validation
-(run `corpus.py check`) and no verification (`scripts/verify-result.sh`), and it
-never upgrades `solution-present`. The theorem text is the source text of the
-frozen Challenge. The type elaborated after `lake build` is what `bind-check`
-compares. An `import only` reuse can be a vocabulary import, or a dependency the
-argument graph does not record. It is a review hint, not a missing edge.
+added. The corpus JSON records remain authoritative for interpretation, sources
+and result status; `frontier_report` remains authoritative for closure. The pack
+does no validation (run `corpus.py check`) and no verification
+(`scripts/verify-result.sh`), and never upgrades `solution-present`.
+
+By default `context` remains a fast, source-only navigation view: imports are
+**not** proof use. After `lake build`, opt into `--proof-use` to inspect existing
+olean files with `scripts/LeanReuse.lean`; it **does not run a build**. This walks
+the elaborated theorem's proof term, following TruthCore-local helper theorem,
+definition and opaque bodies. Each recorded reused result is classified as:
+
+- **theorem-used, graph-linked**: proof-term reference is reachable and its
+  recorded conclusion appears among the current argument's premises/commitments;
+- **theorem-used, not in argument graph**: reachable theorem without that
+  statement-level link, for review (not automatically a defect);
+- **import only**: the Solution imports the result module but inspection finds no
+  proof-term reference to the advertised theorem.
+
+If the theorem is referenced but its module is absent from the source import
+closure, it is still reported with null depth. The inspection is syntactic
+reachability, not a minimal logical dependency proof. It follows project-local
+bodies and treats library constants as boundaries. It is advisory and must not
+create or remove argument edges, amend records, or become a CI failure gate.
+`--proof-use-json PATH` on `context` and `--usage-json PATH` on `lean-reuse`
+accept saved `LeanReuse.lean` JSON arrays for offline replay. Missing or failed
+Lean export entries are errors, not silently relabeled "import only."
 
 ## Why: inventory and deficiencies (2026-11-03)
 
@@ -99,6 +122,5 @@ Deficiencies 1–2 are addressed on the same branch by #958: a single-statement
 dossier now takes about 1.4 s, and its default text for `STMT-GOD-IS-ONE` is 15 KB.
 The measurement above used the earlier dossier.
 
-Follow-ups (not implemented here): #959 theorem use versus vocabulary imports; #960 elaborated
-type and per-hypothesis binding; #961 agent-service and explorer exposure;
-#964 lean-lsp-mcp trial.
+Follow-ups (not implemented here): #960 elaborated type and per-hypothesis
+binding; #961 agent-service and explorer exposure; #964 lean-lsp-mcp trial.

@@ -1,0 +1,11 @@
+{
+  "id": "STMT-NOTHING-IN-RECEPTIVE-POTENCY-TO-ITSELF",
+  "paraphrase": "Open, unattributed premise: no principle stands in receptive potency to itself as to its own act. A receiver and the act it receives are two principles.",
+  "lean_declaration": "TruthCore.Causality.EsseReception.NothingInReceptivePotencyToItself",
+  "definition_ids": [
+    "DEF-RECEPTIVE-POTENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RECEPTIVE-POTENCY"
+  ]
+}

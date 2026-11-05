@@ -189,7 +189,9 @@ python3 scripts/source_evidence.py verify
 
 `verify` also refetches every web snapshot, live or from its Wayback capture, and checks bytes and extracted text. `verify --base <REF> [--head <REF>]` refetches only the passages whose manifest files changed between the two commits, **even if the verifier itself changed**. A verifier-only PR runs the offline corpus and verifier regression checks without refetching unrelated witnesses. Every manifest and claim binding is still validated offline.
 
-CI runs the corpus binding check and deterministic verifier tests on every run. On a pull request it runs `verify --base HEAD^1 --head HEAD`, so each passage the PR adds or changes is fetched and checked; an unavailable or hash-mismatched changed witness still fails CI. A source-verifier code change alone does not turn every unchanged third-party document into a PR dependency. On a push to `main`, and in the nightly scheduled run, CI runs the full `verify`: missing access fails as an availability problem, while mismatched downloaded bytes or extracted text fail integrity checks. Neither outcome is silently counted as a verified witness. New claims therefore cannot enter the formalized corpus without reproducible source evidence, except claims on a bibliographic span, which are marked `witness: "bibliographic"` and listed as not byte-verified.
+CI runs the corpus binding check and deterministic verifier tests on every run. On a pull request it runs `verify --base HEAD^1 --head HEAD`, so each passage the PR adds or changes is fetched and checked; an unavailable or hash-mismatched changed witness still fails CI. A source-verifier code change alone does not turn every unchanged third-party document into a PR dependency.
+
+On a push to `main`, CI refetches **all** witnesses using `verify --defer-unavailable-unchanged HEAD^1`. Only a web snapshot unchanged since that base whose live URL **and** pinned Wayback fallback are transport-unreachable may be deferred; a witness without a pinned Wayback capture, or a response that arrives but does not decode, is never deferred. The output names it `unavailable, NOT byte-verified` and the final report says `source evidence incomplete`; it never counts as verified. Newly changed witnesses, downloaded-byte drift, extraction drift, invalid manifests, and immutable repository witnesses remain hard failures. The nightly scheduled run and manual full run stay strictly blocking on missing access too, so persistent outages are visible rather than silently becoming certification. This separates transient third-party availability from a bad repository change without weakening the changed-witness gate. Bibliographic spans remain explicitly unverified citation-only evidence.
 
 ## What this does not prove
 
@@ -201,3 +203,21 @@ The source-evidence layer intentionally does not use an LLM score as a truth ora
 - the philosophical premise itself is true.
 
 Those are handled by explicit interpretation notes, fidelity critique, alternative claims, and human or scholarly review. The source-evidence layer makes that review auditable because the underlying witness is stable and reproducible.
+
+## Rejected web-response diagnostics
+
+When a downloaded web body fails its pinned SHA-256, verification still rejects
+it and saves those exact hash-input bytes as `.bin` under the ignored
+`.cache/truth-core/source-diagnostics/` directory. A paired JSON file records
+only the requested URL, passage label, expected hash and actual hash. Filenames
+are hashes; rejected bodies never enter the trusted web cache. The diagnostic
+write uses the failed download itself, with no second request. If writing fails,
+the original byte-drift error still fails verification.
+
+The source-verification CI job uploads only this directory as
+`source-drift-diagnostics-<run_attempt>`, retained for three days. Each rerun
+keeps earlier attempts’ artifacts. Inspect a downloaded `.bin`
+as untrusted data and compare its paired hashes; a later successful fetch cannot
+explain what the failed request returned. Request/response headers and environment
+values are not collected. These diagnostics do not establish the cause of drift
+or authorize changing a source pin.
