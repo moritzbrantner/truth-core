@@ -1,0 +1,10 @@
+{
+  "id": "RETAINED-DUTY-UNIVERSAL-TO-LOCAL",
+  "argument_id": "RETAINED-DUTY-UNIVERSAL-TO-LOCAL",
+  "challenge_module": "TruthCore.Results.Modal.RetainedDutyLocal.Challenge",
+  "solution_module": "TruthCore.Results.Modal.RetainedDutyLocal.Solution",
+  "theorem": "TruthCore.Results.Modal.RetainedDutyLocal.universalToLocal",
+  "comparator_config": "results/RETAINED-DUTY-UNIVERSAL-TO-LOCAL/comparator.json",
+  "status": "solution-present",
+  "description": "Single-application transcription of the original-return instance: universal after-date OIC implies the original-return-only OIC instance. The universal policy is not required for the weaker operational incompatible cores."
+}

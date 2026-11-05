@@ -1,0 +1,12 @@
+{
+  "id": "STMT-RETAINED-DUTY-LOCAL-CONTROLS",
+  "paraphrase": "Action-local omission controls witness every single-premise deletion of the local direct and temporal incompatible cores. Two nonvacuous strictness controls each have original-return duty and ability and LocalOIC, while universal present OIC fails: one separately owes impossible compensation, the other separately owes impossible debt repayment. Thus original-return OIC constrains neither of those independent action policies. Reuses all unchanged original omission facts. Formal interpretations only; attribution deferred and no root premise closes.",
+  "lean_declaration": "TruthCore.Modal.RetainedDuty.LocalControls",
+  "definition_ids": [
+    "DEF-RETAINED-DUTY-CASE",
+    "DEF-RETAINED-DUTY-POLICIES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RETAINED-DUTY-ACTION-TIME"
+  ]
+}

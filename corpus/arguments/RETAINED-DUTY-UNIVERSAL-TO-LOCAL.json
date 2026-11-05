@@ -1,0 +1,21 @@
+{
+  "id": "RETAINED-DUTY-UNIVERSAL-TO-LOCAL",
+  "premise_statement_ids": [
+    "STMT-RETAINED-DUTY-PRESENT-OIC"
+  ],
+  "conclusion_statement_id": "STMT-RETAINED-DUTY-LOCAL-OIC",
+  "inference_ids": [
+    "INF-RETAINED-DUTY-UNIVERSAL-TO-LOCAL"
+  ],
+  "meaning": "Instantiation transcription: universal after-date OIC implies the original-return-only OIC instance. The universal policy is not required for the weaker operational incompatible cores.",
+  "definition_ids": [
+    "DEF-RETAINED-DUTY-CASE",
+    "DEF-RETAINED-DUTY-POLICIES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RETAINED-DUTY-ACTION-TIME"
+  ],
+  "strong_version_needed": {
+    "STMT-RETAINED-DUTY-PRESENT-OIC": "This comparison certificate explicitly proves the strong-to-weak edge required by the strength-order registry. The operational incompatible cores consume only the weak sibling."
+  }
+}

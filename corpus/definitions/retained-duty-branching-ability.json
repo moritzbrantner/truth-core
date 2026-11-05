@@ -1,0 +1,8 @@
+{
+  "id": "DEF-RETAINED-DUTY-BRANCHING-ABILITY",
+  "term": "choice-accessible dated future ability versus actual future",
+  "definition": "Plan separates complete future Branch alternatives from successive Stage dates. It supplies current Case, feasible/ideal predicates, actual Branch, and branch-indexed dated ability/performance. BranchAbility asks for some date strictly later than after with the action ability in that branch. FeasibleAbility asks for some feasible branch with BranchAbility. BranchOIC relates current duties to that feasibility, never to actual recovery or performance. branchRepair explicitly assumes a duty-to-ideal interpretation and ideal/feasible overlap.",
+  "basis": "stipulative",
+  "note": "Analyst framework assumption for #1035. No descriptive fact creates a moral duty and no assignment certifies empirical feasibility. Stages and branches must not be identified. debtPlan keeps actual ability consistent with current.able; the feasible recovery may remain unrealized.",
+  "lean_declaration": "TruthCore.Modal.RetainedDuty.Plan"
+}

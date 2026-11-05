@@ -1,0 +1,8 @@
+{
+  "id": "DEF-RETAINED-DUTY-CASE",
+  "term": "dated duty, practical ability, actual fulfillment and retrospective responsibility",
+  "definition": "Case is one fixed agent with four independent Stage \u2192 Action \u2192 Prop fields: duty, able, fulfilled, responsible. Stage has before, after and later; Action distinguishes originalReturn (the identical borrowed object), compensation and debtRepayment. Destruction of the original does not define a compensation duty. Fields are analyst stipulations, with no moral rule inferred from descriptive facts. A laterFrame edge is strict chronological succession in the finite example. FutureCan is existential later practical ability, not actual later performance or unrestricted possibility.",
+  "basis": "stipulative",
+  "note": "Logic-first working reconstruction for #1035 using the existing deontology note. Attribution deferred; no source or author-intention claim. One fixed agent is encoded by retaining one Case throughout, not changing bearer across dates.",
+  "lean_declaration": "TruthCore.Modal.RetainedDuty.Case"
+}

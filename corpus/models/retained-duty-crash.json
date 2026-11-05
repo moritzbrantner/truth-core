@@ -1,0 +1,85 @@
+{
+  "id": "MODEL-RETAINED-DUTY-CRASH",
+  "description": "Closed dated/action-indexed crash interpretation. Values certify only the explicit Case fields and policies, not moral truth or real-world feasibility. See retained-duty controls and existing deontology note for omission and vacuity boundaries.",
+  "vocabulary": "RETAINED-DUTY",
+  "lean_declaration": "TruthCore.Modal.RetainedDuty.crash",
+  "bindings": {
+    "s": "TruthCore.Modal.RetainedDuty.crash",
+    "Stage": "TruthCore.Modal.RetainedDuty.Stage",
+    "Action": "TruthCore.Modal.RetainedDuty.Action"
+  },
+  "carriers": [
+    {
+      "binding": "Stage",
+      "elements": [
+        "TruthCore.Modal.RetainedDuty.Stage.before",
+        "TruthCore.Modal.RetainedDuty.Stage.after",
+        "TruthCore.Modal.RetainedDuty.Stage.later"
+      ],
+      "theorem": "TruthCore.Results.Modal.RetainedDuty.Evaluations.stages"
+    },
+    {
+      "binding": "Action",
+      "elements": [
+        "TruthCore.Modal.RetainedDuty.Action.originalReturn",
+        "TruthCore.Modal.RetainedDuty.Action.compensation",
+        "TruthCore.Modal.RetainedDuty.Action.debtRepayment"
+      ],
+      "theorem": "TruthCore.Results.Modal.RetainedDuty.Evaluations.actions"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-RETAINED-DUTY-PRESENT-DUTY",
+      "value": "satisfies",
+      "arguments": [
+        "s"
+      ],
+      "theorem": "TruthCore.Results.Modal.RetainedDuty.Evaluations.crash0"
+    },
+    {
+      "statement_id": "STMT-RETAINED-DUTY-PRESENT-INABILITY",
+      "value": "satisfies",
+      "arguments": [
+        "s"
+      ],
+      "theorem": "TruthCore.Results.Modal.RetainedDuty.Evaluations.crash1"
+    },
+    {
+      "statement_id": "STMT-RETAINED-DUTY-PRESENT-OIC",
+      "value": "violates",
+      "arguments": [
+        "s"
+      ],
+      "theorem": "TruthCore.Results.Modal.RetainedDuty.Evaluations.crash2"
+    },
+    {
+      "statement_id": "STMT-RETAINED-DUTY-INITIAL-DUTY",
+      "value": "satisfies",
+      "arguments": [
+        "s"
+      ],
+      "theorem": "TruthCore.Results.Modal.RetainedDuty.Evaluations.crash3"
+    },
+    {
+      "statement_id": "STMT-RETAINED-DUTY-RETENTION",
+      "value": "satisfies",
+      "arguments": [
+        "s"
+      ],
+      "theorem": "TruthCore.Results.Modal.RetainedDuty.Evaluations.crash4"
+    },
+    {
+      "statement_id": "STMT-RETAINED-DUTY-LOCAL-OIC",
+      "value": "violates",
+      "arguments": [
+        "s"
+      ],
+      "theorem": "TruthCore.Results.Modal.RetainedDutyLocal.Evaluations.crashLocal"
+    }
+  ],
+  "modules": [
+    "TruthCore.Results.Modal.RetainedDuty.Solution",
+    "TruthCore.Results.Modal.RetainedDutyLocal.Solution"
+  ]
+}

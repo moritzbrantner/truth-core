@@ -1,0 +1,10 @@
+{
+  "id": "RETAINED-DUTY-BRANCH-CONTROLS",
+  "argument_id": "RETAINED-DUTY-BRANCH-CONTROLS",
+  "challenge_module": "TruthCore.Results.Modal.RetainedDuty.Challenge",
+  "solution_module": "TruthCore.Results.Modal.RetainedDuty.Solution",
+  "theorem": "TruthCore.Results.Modal.RetainedDuty.branching",
+  "comparator_config": "results/RETAINED-DUTY-BRANCH-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "A typed complete-future Plan has separate feasible and ideal branches, dated practical abilities and performances, and a designated actual branch. Under explicit duty-to-ideal interpretation and ideal/feasible overlap, branch ought-implies-can follows by the exact imported compatibility theorem. The closed debtPlan has retained stipulated repayment duty, no present ability, a feasible recovery alternative, no future ability or performance on its actual non-recovery branch, and no feasible original-object return. Actual-branch abilities agree with its Case. These are conditional formal controls, with attribution and moral/agency applicability deferred; no root change."
+}
