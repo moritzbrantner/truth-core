@@ -399,4 +399,26 @@ def Certificate : Prop :=
   Ladder ∧ FitRival ∧ VariationRival ∧ SingleSourceBrute ∧ GuidedParity ∧ CoreDeletions ∧
   OrderReadings ∧ PluralMinima ∧ UltimateAdequacy.Structural
 
+/-! ## Follow-up: what licenses the productive interaction law? -/
+
+/-- An analyst law-admission intervention on #735's EXISTING group records.
+Only groups producing target 2 change admission; the contributors, enablers,
+effects, intrinsic inputs and individual bearers are unchanged. The on/off
+alternatives are different proposed productive-law interpretations, NOT two
+metaphysically accessible worlds or interventions on the intrinsic natures of
+actual substances. No additional causal bearer is created. -/
+def lawVariant (k : UltimateAdequacy.Kind) (on : Bool) : Groups Nat Nat :=
+  { UltimateAdequacy.groups k with
+    admitted := fun g => (UltimateAdequacy.groups k).effect g ≠ 2 ∨ on = true }
+
+/-- Keep #735's actually occurring events and scenario conditionals; exercise
+only the admitted records. Even an off-record target may still occur: this
+comparison asks whether it is PRODUCTIVELY SUPPLIED by the records, not whether
+the event exists or is logically compatible with its local conditions. -/
+def lawExercise (k : UltimateAdequacy.Kind) (on : Bool) :
+    Exercise Nat Nat Nat (Bool × Bool) :=
+  { UltimateAdequacy.exercise k with
+    groups := lawVariant k on
+    exercised := fun g => (lawVariant k on).admitted g }
+
 end TruthCore.Explanation.JointCooperation
