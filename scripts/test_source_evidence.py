@@ -890,6 +890,60 @@ class RawWitnessTest(unittest.TestCase):
             se.SourceEvidenceError, "only to immutable repository witnesses"
         ):
             se.raw_witness("WEB", None, None)
+class PermanentlyUnavailableWebSnapshotTest(unittest.TestCase):
+    """A web snapshot the owner accepted as gone: kept, never fetched, never verified."""
+
+    PATH = se.ROOT / "corpus" / "passages" / "fixture.json"
+    CLAIM_PATH = se.ROOT / "corpus" / "claims" / "fixture.json"
+    MARK = {"since": "2026-11-05", "reason": "host answers 404 and no archive capture exists"}
+
+    def test_manifest_requires_date_and_reason(self) -> None:
+        se.validate_web_snapshot_manifest(self.PATH, web_passage({"from": {"anchor": "13"}}, unavailable=self.MARK))
+        for bad in ({"since": "2026-11-05"}, {"since": "5 Nov", "reason": self.MARK["reason"]}, {**self.MARK, "reason": "gone"}, True):
+            with self.subTest(bad=bad), self.assertRaisesRegex(se.SourceEvidenceError, "unavailable must be"):
+                se.validate_web_snapshot_manifest(self.PATH, web_passage({"from": {"anchor": "13"}}, unavailable=bad))
+
+    def test_claims_carry_the_unavailable_witness_marking(self) -> None:
+        retired = web_passage({"from": {"anchor": "13"}}, unavailable=self.MARK)
+        live = web_passage({"from": {"anchor": "13"}})
+
+        def check(claim: dict, passage: dict) -> None:
+            se.validate_claim_witness([(self.CLAIM_PATH, claim)], {claim["id"]: passage})
+
+        check({"id": "C", "witness": "unavailable"}, retired)
+        with self.assertRaisesRegex(se.SourceEvidenceError, "needs witness: 'unavailable'"):
+            check({"id": "C"}, retired)
+        with self.assertRaisesRegex(se.SourceEvidenceError, "needs witness: 'unavailable'"):
+            check({"id": "C", "witness": "bibliographic"}, retired)
+        with self.assertRaisesRegex(se.SourceEvidenceError, "permanently unavailable web snapshot; remove it"):
+            check({"id": "C", "witness": "unavailable"}, live)
+
+    def test_never_fetched_and_never_verified(self) -> None:
+        retired = web_passage({"from": {"anchor": "13"}}, unavailable=self.MARK, id="WEB-GONE")
+        passages = {"WEB-GONE": (self.PATH, retired)}
+        with (
+            mock.patch.object(se, "passage_index", return_value=passages),
+            mock.patch.object(se, "validate_bindings", return_value=(1, 0)),
+            mock.patch.object(se, "fetch_web_bytes") as fetch,
+            mock.patch.object(se, "web_cache_path", return_value=Path("/nonexistent/truth-core-cache")),
+        ):
+            with contextlib.redirect_stdout(io.StringIO()) as out:
+                self.assertEqual(se.verify_all(), 0)
+            with self.assertRaisesRegex(se.SourceEvidenceError, "permanently unavailable web snapshot, not byte-verified"):
+                se.materialize("WEB-GONE", None)
+            fetch.assert_not_called()
+        self.assertIn("permanently unavailable web snapshots, never fetched, NOT byte-verified: WEB-GONE", out.getvalue())
+        self.assertIn("0 web snapshot passages verified", out.getvalue())
+        self.assertIn("1 web snapshot passages permanently unavailable", out.getvalue())
+
+    def test_materializes_from_a_hash_checked_cache(self) -> None:
+        retired = web_passage({"from": {"anchor": "13"}, "to": {"anchor": "14"}}, unavailable=self.MARK, id="WEB-GONE")
+        with tempfile.TemporaryDirectory() as tmp:
+            cached = Path(tmp) / "page.html"
+            cached.write_bytes(HTML)
+            with mock.patch.object(se, "web_cache_path", return_value=cached):
+                text = se.materialize_web_snapshot(retired, fetch=se.refuse_unavailable_fetch)
+        self.assertEqual(se.sha256_text(text), retired["text_sha256"])
 
 
 class PullRequestScopeTest(unittest.TestCase):

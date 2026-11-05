@@ -120,6 +120,15 @@ A translation is not the primary text. Every claim on a passage with `translatio
 
 Whether a translation-based claim conflicts in meaning with a Latin-based claim on another statement remains a review question.
 
+### Permanently unavailable web snapshots
+
+When every pinned URL of a web snapshot is gone for good and no archive capture can be pinned, the owner may accept the loss instead of replacing the witness (owner decision 2026-11-05, first for the robkoons.net feed `KOONS-FOURTH-WAY-RECONSTRUCTION-2022-FULL-ITEM`). The snapshot then gains `"unavailable": {"since": "<YYYY-MM-DD>", "reason": "<why every pinned URL is gone>"}`. Nothing else is removed: the source, passage, hashes, locators, claims and attempts stay as they are, so the record still says exactly which bytes were read.
+
+- `verify` never fetches it, on any run, and lists it as `permanently unavailable web snapshots, never fetched, NOT byte-verified`. It never counts as verified. This is separate from the transient deferral on main pushes described under [Validation](#validation), which stays unchanged.
+- `materialize` serves it only from a hash-checked local cache of the pinned bytes and otherwise refuses; it never fetches.
+- **Integrity marking.** Every claim on it carries `"witness": "unavailable"`, and `check` rejects that value on any other claim. As with bibliographic claims, the marking is shown by `corpus.py frontier` (`permanently unavailable witness, not byte-verified: …`), in the premise dossier and on the explorer's claim and dossier pages. A claim keeps its role: a statement it states stays `stated` on the frontier, exactly as for a bibliographic claim, since the reading was made from the pinned bytes and is only no longer re-verifiable.
+- If a witness becomes available again, or a new pinnable one is found, remove `unavailable` and the claims' `witness` field and re-verify, following the [upgrade path](#upgrade-path).
+
 ## Bibliographic spans (copyrighted works without a pinnable witness)
 
 Copyrighted modern works (for example Plantinga, Flew, Ross, Pruss, van Inwagen, Ayer, or historical-Jesus scholarship) may be cited by edition and page **without pinned bytes**, but only when no pinnable witness exists: no git text, no public-domain edition, and no legitimately hosted copy that a `web_snapshot` could pin (owner decision 1c on #378). This is the passage kind `bibliographic_span`. The source record keeps its ordinary kind (`primary_text`); only the passage says how its evidence is held.
