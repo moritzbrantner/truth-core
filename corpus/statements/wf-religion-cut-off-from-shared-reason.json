@@ -1,0 +1,14 @@
+{
+  "id": "STMT-WF-RELIGION-CUT-OFF-FROM-SHARED-REASON",
+  "paraphrase": "Wittgensteinian fideism in the sharp form of its characterization (WF-N), commitment 2: religion is logically cut off from other discourse, so no correct move of the religious practice is one whose correctness answers to standards of reason shared with those outside it.",
+  "lean_declaration": "TruthCore.Alternatives.Fideism.CutOffReading",
+  "definition_ids": [
+    "DEF-WITTGENSTEINIAN-FIDEISM",
+    "DEF-CORRECT-MOVE-IN-PRACTICE",
+    "DEF-PRACTICE-OWN-STANDARD",
+    "DEF-NATURAL-REASON-SHARED"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NATURAL-REASON"
+  ]
+}

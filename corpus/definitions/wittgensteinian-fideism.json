@@ -1,0 +1,12 @@
+{
+  "id": "DEF-WITTGENSTEINIAN-FIDEISM",
+  "term": "Wittgensteinian fideism",
+  "definition": "The fideistic interpretation of the later Wittgenstein: religion as a self-contained enterprise governed by its own internal grammar (Nielsen's label, 1967). Three variants are kept apart: WF-N, the critics' characterization with its four theses (cut off, self-referential, intelligible only to believers, not criticizable); WF-P1, the early Phillips (religious belief as the expression of a moral vision; praise of God does not refer to some object called God); WF-P2, the later Phillips and religious minimalism (reference and truth constituted inside the religious game, outside evidence admissible). It is not a view attributed to Wittgenstein.",
+  "basis": "sourced",
+  "claim_ids": [
+    "SEP-FIDEISM-2-2-4-INTERNAL-GRAMMAR-A",
+    "SEP-FIDEISM-2-2-4-CUT-OFF-A",
+    "SEP-RELIGIOUS-LANGUAGE-4-1-PHILLIPS-NO-OBJECT-A",
+    "SEP-RELIGIOUS-LANGUAGE-4-1-PHILLIPS-LATE-INTERNAL-A"
+  ]
+}

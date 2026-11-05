@@ -1,0 +1,10 @@
+{
+  "id": "POTENCY-ANALYSIS-CELLS-SURVIVE-FLOOR",
+  "argument_id": "POTENCY-ANALYSIS-CELLS-SURVIVE-FLOOR",
+  "challenge_module": "TruthCore.Results.Alternatives.PotencyAnalysisPartition.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.PotencyAnalysisPartition.Solution",
+  "theorem": "TruthCore.Results.Alternatives.PotencyAnalysisPartition.cellsSurviveFloor",
+  "comparator_config": "results/POTENCY-ANALYSIS-CELLS-SURVIVE-FLOOR/comparator.json",
+  "status": "solution-present",
+  "description": "Zero-axiom countermodels: each ¬F7 cell is satisfiable with something moved. Records F7 as an open alternative; closes nothing."
+}

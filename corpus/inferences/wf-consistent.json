@@ -1,0 +1,12 @@
+{
+  "id": "INF-WF-CONSISTENT",
+  "input_statement_ids": [
+    "STMT-WF-RELIGION-INTERNAL-GRAMMAR",
+    "STMT-WF-RELIGION-CUT-OFF-FROM-SHARED-REASON"
+  ],
+  "output_statement_id": "STMT-WF-CONSISTENT",
+  "rule": "model-construction",
+  "meaning": "An explicit practice satisfies both fideist commitments: one move, endorsed by the practice's own standards and correct, answering to no standard of shared reason.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

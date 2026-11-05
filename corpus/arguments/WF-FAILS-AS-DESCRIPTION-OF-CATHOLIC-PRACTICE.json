@@ -1,0 +1,23 @@
+{
+  "id": "WF-FAILS-AS-DESCRIPTION-OF-CATHOLIC-PRACTICE",
+  "premise_statement_ids": [
+    "STMT-DEI-FILIUS-DEFINES-NATURAL-KNOWABILITY-OF-GOD",
+    "STMT-CONCILIAR-DEFINITION-IS-PRACTICE-OWN-STANDARD",
+    "STMT-NATURAL-REASON-IS-SHARED-REASON"
+  ],
+  "conclusion_statement_id": "STMT-WF-FAILS-AS-DESCRIPTION-OF-CATHOLIC-PRACTICE",
+  "inference_ids": [
+    "INF-WF-FAILS-AS-DESCRIPTION-OF-CATHOLIC-PRACTICE"
+  ],
+  "meaning": "Defeat by consequence (#1007 method; owner direction 2026-11-05 on #1010), conditional on three open premises. Wittgensteinian fideism in its sharp form has two commitments: the practice's own standards fix its correct moves (STMT-WF-RELIGION-INTERNAL-GRAMMAR) and no correct religious move answers to reason shared with outsiders (STMT-WF-RELIGION-CUT-OFF-FROM-SHARED-REASON). The Catholic practice's own council defines, condemning the denial, that God can be known with certainty from created things by the natural light of reason (STMT-DEI-FILIUS-DEFINES-NATURAL-KNOWABILITY-OF-GOD, stated by can. II.1). With the open bridges that conciliar definitions are the practice's own standards (STMT-CONCILIAR-DEFINITION-IS-PRACTICE-OWN-STANDARD) and that the council's natural reason is shared reason (STMT-NATURAL-REASON-IS-SHARED-REASON), the pair is inconsistent: by the fideist's own internality the defined move is correct, and by the cut-off thesis it is not. So, given the two open bridges, the community's own rule shows that the sharp fideist description misdescribes the Catholic game. The three premises are inclusion-minimal (needsCouncil, needsDefinitionIsOwnStandard, needsNaturalReasonIsShared in the Comparator config), and the fideist bundle alone is consistent (WF-CONSISTENT). Scope: it refutes nothing about other practices, about Phillips's weaker 'not generally' thesis (STMT-PHILLIPS-RELIGION-NOT-GENERALLY-CONCLUSION) or about minimalism, which allows outside evidence (STMT-MINIMALISM-ALLOWS-EXTERNAL-EVIDENCE); it attributes neither fideist commitment to Wittgenstein. No premise is established, so under #999 no refutes relation is recorded.",
+  "definition_ids": [
+    "DEF-WITTGENSTEINIAN-FIDEISM",
+    "DEF-CORRECT-MOVE-IN-PRACTICE",
+    "DEF-PRACTICE-OWN-STANDARD",
+    "DEF-CONCILIAR-DEFINITION",
+    "DEF-NATURAL-REASON-SHARED"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NATURAL-REASON"
+  ]
+}

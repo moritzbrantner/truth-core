@@ -1,0 +1,10 @@
+{
+  "id": "POTENCY-ANALYSIS-PARTITION",
+  "argument_id": "POTENCY-ANALYSIS-PARTITION",
+  "challenge_module": "TruthCore.Results.Alternatives.PotencyAnalysisPartition.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.PotencyAnalysisPartition.Solution",
+  "theorem": "TruthCore.Results.Alternatives.PotencyAnalysisPartition.partition",
+  "comparator_config": "results/POTENCY-ANALYSIS-PARTITION/comparator.json",
+  "status": "solution-present",
+  "description": "Zero-axiom; excluded middle is a hypothesis. Exhaustiveness of the Q-F7 partition, with cellsDenyF7 and f7IffCellConstraints in the Comparator config. It establishes the partition, not F7."
+}
