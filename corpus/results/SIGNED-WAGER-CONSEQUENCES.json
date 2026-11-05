@@ -1,0 +1,10 @@
+{
+  "id": "SIGNED-WAGER-CONSEQUENCES",
+  "argument_id": "SIGNED-WAGER-CONSEQUENCES",
+  "challenge_module": "TruthCore.Results.Decision.SignedWager.Challenge",
+  "solution_module": "TruthCore.Results.Decision.SignedWager.Solution",
+  "theorem": "TruthCore.Results.Decision.SignedWager.signedConsequences",
+  "comparator_config": "results/SIGNED-WAGER-CONSEQUENCES/comparator.json",
+  "status": "solution-present",
+  "description": "Signed finite costs do not prevent top expected utility when a single rewarded policy has positive prior and a positively weighted act. With two complementary incompatible reward policies, both with positive priors, every probability mixture attains top. Zero prior/action controls are finite, and opposing infinite utility contributions produce undefined expectation. The previous nonnegative mixture certificate is reused, not counted as a new result. Conditional mathematical working reconstruction, not an attributed historical claim or truth-root discharge."
+}

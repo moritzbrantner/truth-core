@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NO-LOW-REPLICATION",
+  "term": "fixed-baseline no-low-replication constraint",
+  "definition": "NoLowReplication value p \u03b4 says each strictly positive welfare w below cutoff \u03b4, replicated any positive finite number of times, has value at most the fixed baseline p. The obstruction assumes \u03b4>0, additive representation and universal positive-life scoring on the same semantics. No unrestricted population ethics impossibility or actually feasible replication is claimed.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Ethics.PopulationScoring.NoLowReplication",
+  "note": "Analyst formulation for issue #1038; attribution deferred. See docs/notes/carneades-population-aggregation.md for assumptions, omission witnesses and remaining application burdens."
+}
