@@ -1,0 +1,8 @@
+{
+  "id": "DEF-BEARER-TRUTHMAKING",
+  "term": "world-immanent bearer truthmaking",
+  "definition": "Making w b f is a primitive candidate interpretation of an entity making a truth true. Sound separately conjoins actual truth (TruthSound) and existence of that same b at the making world (WorldImmanent). MakerNecessitation additionally requires truth at accessible worlds where b exists; it does not require b to exist at every world. No transitivity, asymmetry or well-foundedness is assumed; the relation is heterogeneous and composition would need more vocabulary.",
+  "basis": "stipulative",
+  "note": "Stipulated framework, not identity with any source’s complete theory. A brown individual and a truth of its existence are orientation examples, not an established analysis. A true absence may have no maker under restricted/free semantics; a false proposition cannot have a sound maker. Explanation between facts and efficient production are excluded. Real-world applicability and relevance/aboutness remain OPEN. Merricks guards necessitation by proposition existence; rigid fact availability is an extra analyst assumption here.",
+  "lean_declaration": "TruthCore.Explanation.TruthmakerTheories.Sound"
+}

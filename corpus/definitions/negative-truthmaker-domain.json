@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NEGATIVE-TRUTHMAKER-DOMAIN",
+  "term": "absolute emptiness of the eligible maker domain",
+  "definition": "EmptyFact A e means e is true exactly where every candidate of the SAME eligible maker roster B is absent. This empties all eligible makers, including abstract entities if admitted to B, not merely concrete entities. NeedsMakerAt is the narrow coverage instance for that true negative fact.",
+  "basis": "stipulative",
+  "note": "Stipulated #554 profile. Empty truth plus its coverage and WorldImmanent is inconsistent; each omission has a named sound/factive control. Treating this roster as all reality is an OPEN domain-completeness bridge. A nonexistent candidate in outsideMaking is only an omission control, not an endorsed ontology.",
+  "lean_declaration": "TruthCore.Explanation.TruthmakerTheories.EmptyFact"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CONCRETE-EMPTY-TRUTHMAKER",
+  "term": "concrete-only emptiness versus abstract makers",
+  "definition": "ConcreteEmptyFact A C e says e is true exactly where no roster member satisfies supplied Concrete predicate C. This does not imply no one exists. ConcreteMaker separately restricts every maker to that C extension. abstractArena has an existing eligible maker and no concrete candidates.",
+  "basis": "stipulative",
+  "note": "Stipulated concrete-only control; there is no independent analysis of concreteness. Generalization to reality and the legitimacy of abstract makers remain OPEN. It prevents an illicit inference from concrete absence to absolute absence.",
+  "lean_declaration": "TruthCore.Explanation.TruthmakerTheories.ConcreteEmptyFact"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "INF-TRUTHMAKER-TRUTHSET-NONUNIFORMITY",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-TRUTHMAKER-TRUTHSET-NONUNIFORMITY",
+  "rule": "model-construction",
+  "meaning": "On the same alternating two-world ontology, Fact is every Bool-to-Prop truth set, holds is evaluation, and negation/conjunction closure is witnessed. Sound world-immanent makers cover every represented true proposition and satisfy maker necessitation; existence labels are coherent. The constant true proposition is necessary and has local makers, but no uniform maker and no necessary individual. This covers the whole specified propositional truth-set language, not every substantive metaphysical or aboutness thesis of unrestricted historical theories.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

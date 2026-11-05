@@ -1,0 +1,12 @@
+{
+  "id": "STMT-TRUTHMAKING-GUARDED-NECESSITATION",
+  "paraphrase": "If x makes proposition p true, then necessarily, if both x and p exist, p is true.",
+  "definition_ids": [
+    "DEF-TRUTHMAKING-GUARDED-SOURCE-ACCOUNT",
+    "DEF-TRUTHMAKER-SOURCE-DOCTRINE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUTHMAKING-REASON-CAUSE",
+    "DISAMB-TRUTHMAKER-SCOPE-IDENTITY"
+  ]
+}

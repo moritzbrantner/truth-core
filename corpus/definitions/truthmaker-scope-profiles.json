@@ -1,0 +1,8 @@
+{
+  "id": "DEF-TRUTHMAKER-SCOPE-PROFILES",
+  "term": "truthmaker scope configurations",
+  "definition": "Maximalist is Sound plus coverage of every true fact in the supplied carrier F at every world. Restricted is Sound plus coverage only in an explicit scope; it does not exclude additional makers. TruthmakerFree is Sound with no coverage requirement, not universal denial of makers. ExistenceScope contains the per-individual labels A.exist b; it need not include arbitrary compound or existential facts.",
+  "basis": "stipulative",
+  "note": "Analyst all-world policies, not source-stated modal quantifiers. Finite carriers give fragment-relative maximalism; TruthSetMap instead covers all Bool-to-Prop truth sets and certifies negation/conjunction closure. Neither encodes every essential/aboutness demand of substantive metaphysical theories. Nonvacuity witnesses and strict noncoverage are separately checked. Merricks’s broad mere-existence phrase is not identified with the narrower ExistenceScope.",
+  "lean_declaration": "TruthCore.Explanation.TruthmakerTheories.Maximalist"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "STMT-ONLY-MERE-EXISTENCE-TRUTHS-MUST-HAVE-TRUTHMAKERS",
+  "paraphrase": "Only truths about the mere existence of something must have truthmakers.",
+  "definition_ids": [
+    "DEF-TRUTHMAKING-GUARDED-SOURCE-ACCOUNT",
+    "DEF-TRUTHMAKER-SOURCE-DOCTRINE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUTHMAKING-REASON-CAUSE",
+    "DISAMB-TRUTHMAKER-SCOPE-IDENTITY"
+  ]
+}

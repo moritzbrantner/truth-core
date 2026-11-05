@@ -1,0 +1,12 @@
+{
+  "id": "STMT-NEGATIVE-EXISTENTIAL-TRUTHS-LACK-TRUTHMAKERS",
+  "paraphrase": "True negative existential claims lack truthmakers.",
+  "definition_ids": [
+    "DEF-TRUTHMAKING-GUARDED-SOURCE-ACCOUNT",
+    "DEF-TRUTHMAKER-SOURCE-DOCTRINE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUTHMAKING-REASON-CAUSE",
+    "DISAMB-TRUTHMAKER-SCOPE-IDENTITY"
+  ]
+}

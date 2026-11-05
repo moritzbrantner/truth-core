@@ -1,0 +1,9 @@
+{
+  "id": "TRUTHMAKER-THEORY-MAP",
+  "argument_id": "TRUTHMAKER-THEORY-MAP",
+  "challenge_module": "TruthCore.Results.Explanation.TruthmakerTheories.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.TruthmakerTheories.Solution",
+  "theorem": "TruthCore.Results.Explanation.TruthmakerTheories.theoryMap",
+  "comparator_config": "results/TRUTHMAKER-THEORY-MAP/comparator.json",
+  "status": "solution-present"
+}

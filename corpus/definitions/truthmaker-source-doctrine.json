@@ -1,0 +1,10 @@
+{
+  "id": "DEF-TRUTHMAKER-SOURCE-DOCTRINE",
+  "term": "Truthmaker doctrine described and rejected by Merricks",
+  "definition": "Every true claim has some entity that makes it true. Merricks defines this doctrine and rejects it, retaining a necessity demand only for mere-existence truths. This source description does not itself quantify over formal worlds or identify all truthmakers with existence-label reasons.",
+  "basis": "sourced",
+  "claim_ids": [
+    "MERRICKS-PRECIS-MAXIMALISM",
+    "MERRICKS-PRECIS-EXISTENCE-RESIDUE"
+  ]
+}

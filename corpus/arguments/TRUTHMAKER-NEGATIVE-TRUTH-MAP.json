@@ -1,0 +1,22 @@
+{
+  "id": "TRUTHMAKER-NEGATIVE-TRUTH-MAP",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-TRUTHMAKER-NEGATIVE-TRUTH-MAP",
+  "inference_ids": [
+    "INF-TRUTHMAKER-NEGATIVE-TRUTH-MAP"
+  ],
+  "meaning": "Absolute eligible-maker emptiness, coverage of its true negative fact and world immanence are inconsistent on any arena. negativeArena includes both a positive existence fact and a true negative fact; existence-only restricted coverage is nonvacuous and maximalism fails. Controls independently omit emptiness, negative coverage or immanence while retaining truth soundness. An absent candidate is only a formal omission witness. A separate concretely empty profile has an existing abstract maker and maximalism, failing ConcreteMaker. These are mathematical profiles, not established metaphysical possibilities or a refutation from established floor premises.",
+  "definition_ids": [
+    "DEF-BEARER-TRUTHMAKING",
+    "DEF-TRUTHMAKER-SCOPE-PROFILES",
+    "DEF-TRUTHMAKER-UNIFORMITY",
+    "DEF-NEGATIVE-TRUTHMAKER-DOMAIN",
+    "DEF-CONCRETE-EMPTY-TRUTHMAKER",
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-INSTANCE-GROUNDING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUTHMAKING-REASON-CAUSE",
+    "DISAMB-TRUTHMAKER-SCOPE-IDENTITY"
+  ]
+}

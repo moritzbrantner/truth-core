@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.TruthmakerTheories.Restricted.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.TruthmakerTheories.Restricted.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Explanation.TruthmakerTheories.restrictedSeparation"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
