@@ -103,7 +103,9 @@ export type Refutation = {
   statement_id: string;
   verified: boolean;
   open_premise_statement_ids: string[];
-  /** Counts for rule (c) only when verified and every premise is closed (#391). */
+  /** Premises that keep a verified refutation from counting (#999). */
+  unestablished_premise_statement_ids?: string[];
+  /** Counts for rule (c) only when verified and every premise is established (#391, #999). */
   counted: boolean;
 };
 
@@ -281,7 +283,7 @@ export const CLOSURE_LABELS: Record<ClosureReason, string> = {
 export const CLOSURE_DESCRIPTIONS: Record<ClosureReason, string> = {
   proved: "Conclusion of a verified result that is not a transcription.",
   self_evident: "Marked self-evident, and its floor basis criterion holds on the current records.",
-  alternatives_refuted: "Every recorded alternative is refuted by a verified argument whose premises are all closed.",
+  alternatives_refuted: "Every recorded alternative is refuted by a verified argument whose premises are all established.",
   via_transcription: "Conclusion of a transcription result whose premises are all closed.",
 };
 
@@ -300,7 +302,7 @@ export type Rival = {
 
 /**
  * Recorded alternatives (with the refutations that count: a verified argument
- * whose premises are all closed, #391) and objections.
+ * whose premises are all established, #391, #999) and objections.
  */
 export function rivals(corpus: Corpus, report: FrontierReport) {
   const refuters = new Map<string, string[]>();
