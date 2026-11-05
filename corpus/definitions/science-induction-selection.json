@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SCIENCE-INDUCTION-SELECTION",
+  "term": "representation-neutral selection at fixed finite evidence",
+  "definition": "Recoding supplies Mathlib Equiv.Perm maps on evidence E and hypotheses H. Neutral answer means answer(r.evidence e)(r.hypothesis h) iff answer e h. SingletonAt says precisely one hypothesis h is admitted. Equivariant deterministic selection commutes with these maps. Finite records are Fin n to Bool; two candidate traces equal true before n and their candidate bit thereafter. recodedTrace applies the existing feature recoding after cutoff and fixes the observed record. Uniform means equality of the supplied outcome coordinate at all indices.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Science.InductionSelection.Neutral",
+  "note": "Working argument in docs/notes/carneades-induction.md, issue #1036. Historical attribution deferred. Outcome uniformity in a selected coordinate is an explicit projectibility criterion, whose physical/epistemic/practical relevance remains open. No new source claim."
+}
