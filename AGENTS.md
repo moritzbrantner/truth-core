@@ -22,6 +22,13 @@ preflight unless the setup changes. Keep machine-specific verifier paths in
 repository-local Git configuration or the explicit environment, not in briefs
 that workers must reconstruct or in committed source.
 
+Workers reuse a warm clone rather than compiling TruthCore cold: retain a
+quiescent prepared clone, or prepare a new one with
+`scripts/prepare-worker.py --seed-build-from <WARM-CLONE>` under the heavy-job
+lock ([worker startup](docs/worker-startup.md)). Lake then rebuilds only modules
+whose inputs changed. A seeded build output is readiness, not verification:
+build, binding, axiom, Comparator and NanoDa gates still run on the final inputs.
+
 Before handoff or retirement, persist verified source findings, rejected interpretations with reasons, and remaining gaps in the existing passage, claim, definition, disambiguation or candidate records, or their linked repository notes. Keep precise witness locators and distinguish sourced readings from open commitments; temporary files must not be the only copy. Do not create claims merely to record research activity.
 
 ## Concise reporting and persistence
