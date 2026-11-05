@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-EPISTEMIC-REASON-EXISTENCE-ROLE-AUTHORITY",
+  "term": "existence of epistemic reasons: thin encoding, ordinary role and preference-independent authority",
+  "sense_definition_ids": [
+    "DEF-EPISTEMIC-REASON-THIN-EXISTENCE",
+    "DEF-EPISTEMIC-REASON-ORDINARY-ROLE",
+    "DEF-EPISTEMIC-REASON-PREFERENCE-INDEPENDENT-ROLE"
+  ],
+  "resolution": "STMT-THERE-ARE-EPISTEMIC-REASONS keeps its existing meaning, declaration and owner approval; its formal existential does not encode the additional role conditions. STMT-THERE-ARE-ORDINARY-ROLE-EPISTEMIC-REASONS asserts actual instantiation of the ordinary-role sense and STMT-THERE-ARE-PREFERENCE-INDEPENDENT-EPISTEMIC-REASONS asserts actual instantiation of the stronger authority sense. These are distinct sibling analyst readings, not attributed claims or alternative IDs for F6. Their definitions specify what each would assert; neither new existential is marked established. The note argues for ordinary favorable bearing and separately considers the authority bridge. No argument transfers thin F6 approval to either reading, nor transfers an ordinary truth-directed role to preference-independent force by definition. Goal-relative instrumentalism remains compatible with the ordinary role; evidence-sensitive naturalistic constitution is not excluded by either definition. Objective in the last sense does not mean overriding, agent-neutral or irreducible."
+}
