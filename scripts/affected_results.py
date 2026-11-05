@@ -97,6 +97,8 @@ EXPLORER_INPUT_PATTERNS = (
     "scripts/CheckStrength.lean",
     "scripts/territory.py",
     "scripts/root_imports.py",
+    # corpus.py imports it for `bind-check --affected` (#990).
+    "scripts/affected_results.py",
     "scripts/testdata/objective-truth-pilot.json",
     "scripts/testdata/frontier-transcription-closure.json",
     ".github/workflows/*",
