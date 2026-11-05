@@ -1,0 +1,9 @@
+{
+  "id": "INF-TRUTHMAKER-THEORY-MAP",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-TRUTHMAKER-THEORY-MAP",
+  "rule": "model-construction",
+  "meaning": "On any existing arena, relative maximalist coverage entails every restricted coverage and free semantics; factivity and coherence make InstanceMaker sound; a world-immanent uniform maker plus actual self-access yields an actual necessary individual; maximalism of a necessary fact yields local makers. Finite truthmakers satisfies maximalism and maker necessitation but has no uniform maker or necessary being; the restricted profile has actual positive witness and a weaker frozen absence conjunct (strict noncoverage is separately certified by TRUTHMAKER-RESTRICTED-SEPARATION). Free semantics admits both noMaking and a nonempty local relation. fixedBearer has maximalist uniform making and a necessary noncausing individual; switchingFixedMaking has a necessary individual and maximalism but no uniform maker of the existential fact. lawGround has a uniform fact-reason yet no world-immanent uniform individual maker. All finite policies are fragment-relative and analyst stipulated.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

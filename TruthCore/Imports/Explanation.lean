@@ -35,6 +35,7 @@ import TruthCore.Explanation.PSRStrength
 import TruthCore.Explanation.PathRelocation
 import TruthCore.Explanation.StoppingPoints
 import TruthCore.Explanation.TargetCopyExpansion
+import TruthCore.Explanation.TruthmakerTheories
 import TruthCore.Explanation.UltimateAdequacy
 import TruthCore.Explanation.WeakAccountNecessaryBeing
 import TruthCore.Explanation.WellFoundedSource

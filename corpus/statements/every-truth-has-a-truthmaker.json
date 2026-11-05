@@ -1,0 +1,12 @@
+{
+  "id": "STMT-EVERY-TRUTH-HAS-A-TRUTHMAKER",
+  "paraphrase": "Every true claim has some entity that makes it true.",
+  "definition_ids": [
+    "DEF-TRUTHMAKING-GUARDED-SOURCE-ACCOUNT",
+    "DEF-TRUTHMAKER-SOURCE-DOCTRINE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUTHMAKING-REASON-CAUSE",
+    "DISAMB-TRUTHMAKER-SCOPE-IDENTITY"
+  ]
+}

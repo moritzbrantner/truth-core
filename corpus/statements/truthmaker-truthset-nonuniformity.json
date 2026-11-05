@@ -1,0 +1,18 @@
+{
+  "id": "STMT-TRUTHMAKER-TRUTHSET-NONUNIFORMITY",
+  "paraphrase": "On the same alternating two-world ontology, Fact is every Bool-to-Prop truth set, holds is evaluation, and negation/conjunction closure is witnessed. Sound world-immanent makers cover every represented true proposition and satisfy maker necessitation; existence labels are coherent. The constant true proposition is necessary and has local makers, but no uniform maker and no necessary individual. This covers the whole specified propositional truth-set language, not every substantive metaphysical or aboutness thesis of unrestricted historical theories.",
+  "lean_declaration": "TruthCore.Explanation.TruthmakerTheories.TruthSetMap",
+  "definition_ids": [
+    "DEF-BEARER-TRUTHMAKING",
+    "DEF-TRUTHMAKER-SCOPE-PROFILES",
+    "DEF-TRUTHMAKER-UNIFORMITY",
+    "DEF-NEGATIVE-TRUTHMAKER-DOMAIN",
+    "DEF-CONCRETE-EMPTY-TRUTHMAKER",
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-INSTANCE-GROUNDING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUTHMAKING-REASON-CAUSE",
+    "DISAMB-TRUTHMAKER-SCOPE-IDENTITY"
+  ]
+}

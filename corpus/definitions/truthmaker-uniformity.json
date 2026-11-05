@@ -1,0 +1,8 @@
+{
+  "id": "DEF-TRUTHMAKER-UNIFORMITY",
+  "term": "local and uniform individual makers",
+  "definition": "LocalMaker means at each accessible world some bearer makes the SAME fact true; the bearer may change. UniformMaker means one SAME bearer makes that fact true at every accessible world. With WorldImmanent and actual self-access the latter gives an actual necessary individual. A necessary fact, and even a necessary individual, does not itself supply this making relation.",
+  "basis": "stipulative",
+  "note": "Stipulative quantifier distinction. Alternating model is local without uniformity; fixedBearer supports uniform making; switchingFixedMaking retains a necessary individual but switches makers of the existential fact. Necessitation of the truth by a maker is distinct from necessity of the maker.",
+  "lean_declaration": "TruthCore.Explanation.TruthmakerTheories.UniformMaker"
+}

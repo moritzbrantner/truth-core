@@ -1,0 +1,9 @@
+{
+  "id": "TRUTHMAKER-TRUTHSET-NONUNIFORMITY",
+  "argument_id": "TRUTHMAKER-TRUTHSET-NONUNIFORMITY",
+  "challenge_module": "TruthCore.Results.Explanation.TruthmakerTheories.TruthSets.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.TruthmakerTheories.TruthSets.Solution",
+  "theorem": "TruthCore.Results.Explanation.TruthmakerTheories.truthSetMap",
+  "comparator_config": "results/TRUTHMAKER-TRUTHSET-NONUNIFORMITY/comparator.json",
+  "status": "solution-present"
+}

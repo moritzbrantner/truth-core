@@ -1,0 +1,17 @@
+{
+  "id": "MERRICKS-PRECIS-MAXIMALISM",
+  "source_id": "MERRICKS-TRUTH-ONTOLOGY-PRECIS",
+  "statement_id": "STMT-EVERY-TRUTH-HAS-A-TRUTHMAKER",
+  "locator": "PDF p. 1, paragraph beginning Truthmaker says",
+  "interpretation": "Merricks defines the doctrine named Truthmaker. This is a source report of its content, not his endorsement and not a claim that all-world rigid-bearer formal semantics is stated.",
+  "attribution": "The passage states that each true claim has an entity that makes it true, which is the premise.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-TRUTHMAKING-GUARDED-SOURCE-ACCOUNT",
+    "DEF-TRUTHMAKER-SOURCE-DOCTRINE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUTHMAKING-REASON-CAUSE",
+    "DISAMB-TRUTHMAKER-SCOPE-IDENTITY"
+  ]
+}

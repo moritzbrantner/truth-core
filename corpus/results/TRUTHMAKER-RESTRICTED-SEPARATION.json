@@ -1,0 +1,9 @@
+{
+  "id": "TRUTHMAKER-RESTRICTED-SEPARATION",
+  "argument_id": "TRUTHMAKER-RESTRICTED-SEPARATION",
+  "challenge_module": "TruthCore.Results.Explanation.TruthmakerTheories.Restricted.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.TruthmakerTheories.Restricted.Solution",
+  "theorem": "TruthCore.Results.Explanation.TruthmakerTheories.restrictedSeparation",
+  "comparator_config": "results/TRUTHMAKER-RESTRICTED-SEPARATION/comparator.json",
+  "status": "solution-present"
+}

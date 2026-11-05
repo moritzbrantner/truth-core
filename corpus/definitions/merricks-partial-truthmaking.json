@@ -1,0 +1,9 @@
+{
+  "id": "DEF-TRUTHMAKING-GUARDED-SOURCE-ACCOUNT",
+  "term": "partial truthmaking condition in Merricks’s précis",
+  "definition": "If x makes p true, necessarily p is true if both x and p exist. This is only a necessary condition. Neither a world-immanence axiom nor a sufficient relevance/aboutness analysis follows from it.",
+  "basis": "sourced",
+  "claim_ids": [
+    "MERRICKS-PRECIS-GUARDED-NECESSITATION"
+  ]
+}

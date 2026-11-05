@@ -1,0 +1,32 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "MERRICKS-TRUTH-ONTOLOGY-PRECIS",
+    "source_url": "https://www.trentonmerricks.com/public/publications/PPR-TO-summary.pdf",
+    "retrieved_at": "2026-11-05T19:29:09Z",
+    "sha256": "sha256:ba951adcdc646fa032fbb226210f770d212b493124e1fced4cd50f139ac10314",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "Copyright Trenton Merricks / journal publisher; author-posted primary manuscript. Wayback capture 20240413232124 checked twice, with identical PDF bytes and extracted text. Only hashes, precise locators and short incipit committed.",
+    "wayback_url": "https://web.archive.org/web/20240413232124id_/https://www.trentonmerricks.com/public/publications/PPR-TO-summary.pdf",
+    "wayback_sha256": "sha256:ba951adcdc646fa032fbb226210f770d212b493124e1fced4cd50f139ac10314"
+  },
+  "passages": [
+    {
+      "id": "MERRICKS-PRECIS-TRUTH-ONTOLOGY",
+      "locator": "author manuscript physical PDF pp. 1–4 (entire précis; journal pp. 184–186)",
+      "claim_locator_prefixes": [
+        "PDF p. 1",
+        "PDF p. 2",
+        "PDF p. 3",
+        "PDF p. 4"
+      ],
+      "pdf_pages": {
+        "first": 1,
+        "last": 4
+      },
+      "text_sha256": "sha256:8612f9eef7c1ce7a75768da215fe9fc613dcb9fd352413995ea52c77f5924d9d",
+      "incipit": "Précis of Truth and Ontology Philosophy and Phenomenological Research 83"
+    }
+  ]
+}

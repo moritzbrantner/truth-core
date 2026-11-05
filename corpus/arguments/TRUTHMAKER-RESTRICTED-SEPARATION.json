@@ -1,0 +1,22 @@
+{
+  "id": "TRUTHMAKER-RESTRICTED-SEPARATION",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-TRUTHMAKER-RESTRICTED-SEPARATION",
+  "inference_ids": [
+    "INF-TRUTHMAKER-RESTRICTED-SEPARATION"
+  ],
+  "meaning": "In the existing truthmakers arena, existence-label coverage is sound, the existential fact is true at world false, no bearer in restrictedMaking makes that fact true there, and maximalist coverage fails. This supplies the explicit strong separation beyond the weaker frozen conjunct in TRUTHMAKER-THEORY-MAP; it does not attribute this exact narrow scope to Merricks.",
+  "definition_ids": [
+    "DEF-BEARER-TRUTHMAKING",
+    "DEF-TRUTHMAKER-SCOPE-PROFILES",
+    "DEF-TRUTHMAKER-UNIFORMITY",
+    "DEF-NEGATIVE-TRUTHMAKER-DOMAIN",
+    "DEF-CONCRETE-EMPTY-TRUTHMAKER",
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-INSTANCE-GROUNDING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUTHMAKING-REASON-CAUSE",
+    "DISAMB-TRUTHMAKER-SCOPE-IDENTITY"
+  ]
+}
