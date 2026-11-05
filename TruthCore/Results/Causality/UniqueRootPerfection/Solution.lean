@@ -1,6 +1,10 @@
-import TruthCore.Causality.NecessaryRootUniqueness
-import TruthCore.Causality.DirectEsseRootPerfectionGoodness
-import TruthCore.Logic.ExcludedMiddle
+module
+
+public import TruthCore.Causality.NecessaryRootUniqueness
+public import TruthCore.Causality.DirectEsseRootPerfectionGoodness
+public import TruthCore.Logic.ExcludedMiddle
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.UniqueRootPerfection
 open TruthCore.Causality.BruteFoundationBoundary
