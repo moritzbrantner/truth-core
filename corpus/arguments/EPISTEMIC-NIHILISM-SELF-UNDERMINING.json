@@ -1,0 +1,9 @@
+{
+  "id": "EPISTEMIC-NIHILISM-SELF-UNDERMINING",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-EPISTEMIC-NIHILISM-SELF-UNDERMINING",
+  "inference_ids": [
+    "INF-EPISTEMIC-NIHILISM-SELF-UNDERMINING"
+  ],
+  "meaning": "Retorsion against global epistemic nihilism, from no premises. Nihilism denies every epistemic reason, the reason to believe nihilism included, so under nihilism no one has a reason to believe it; and whoever has such a reason refutes its content (reasonedBeliefRefutesNihilism). This is self-undermining, not falsity: nihilismConsistentAndUnbelievable certifies an interpretation in which nihilism holds and no one has a reason to believe it (Streumer's position). It refutes nothing and is used only as the justification of the F6 floor marking."
+}

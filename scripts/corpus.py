@@ -341,6 +341,12 @@ def validate_self_evident(
         raise CorpusError(f"{where}: self_evident basis must be one of {', '.join(sorted(FLOOR_BASES))}")
     validate_disagreement(where, marking, basis, claim_ids, statement_ids)
     validate_owner_approval(where, marking)
+    # #1007 (owner, 2026-11-05): for an owner-approved item the approval plus
+    # the stated basis is the evidence. It needs no stating text or basis
+    # record (positions, denial, sceptical rivals); its justifications are
+    # the closest supporting texts or results, and any basis field it does
+    # carry must still name known statements.
+    approved = marking.get("owner_approval") is not None
 
     def known_statement(field: str, value: Any) -> None:
         if not isinstance(value, str) or not value:
@@ -348,6 +354,26 @@ def validate_self_evident(
         if statement_ids is not None and value not in statement_ids:
             raise CorpusError(f"{where}: self_evident {field} {value} is not a known statement")
 
+    if approved:
+        for field in ("denial_statement_id", "question_statement_id"):
+            if field in marking:
+                known_statement(field, marking[field])
+        for rival in marking.get("sceptical_rival_ids", []):
+            known_statement("sceptical_rival_ids entry", rival)
+        # A basis record is optional here, but one that is supplied keeps its
+        # shape and references (#1020 review): positions feed criterion_reasons.
+        if "positions" in marking:
+            positions = marking["positions"]
+            if not isinstance(positions, list) or not positions:
+                raise CorpusError(f"{where}: self_evident positions, when given, must be a non-empty list")
+            for position in positions:
+                if not isinstance(position, dict):
+                    raise CorpusError(f"{where}: each common_ground position is an object")
+                known_statement("position statement_id", position.get("statement_id"))
+                for claim_id in require_string_list(position, "claim_ids", path, allow_empty=False):
+                    if claim_ids is not None and claim_id not in claim_ids:
+                        raise CorpusError(f"{where}: self_evident position claim {claim_id} is not a known claim")
+        return
     if basis == FLOOR_RETORSION:
         if any(justification_id not in result_ids for justification_id in justification):
             raise CorpusError(f"{where}: a retorsion basis is justified by results only")

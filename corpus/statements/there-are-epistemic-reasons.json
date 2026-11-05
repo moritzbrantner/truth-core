@@ -1,0 +1,21 @@
+{
+  "id": "STMT-THERE-ARE-EPISTEMIC-REASONS",
+  "paraphrase": "There are epistemic reasons: some agent has an epistemic reason to believe some content. Floor item F6 (#1007).",
+  "lean_declaration": "TruthCore.Logic.EpistemicReasons.ThereAreEpistemicReasons",
+  "self_evident": {
+    "basis": "common_ground",
+    "justification_ids": [
+      "EPISTEMIC-NIHILISM-SELF-UNDERMINING"
+    ],
+    "disagreement": {
+      "rival_statement_ids": [
+        "STMT-GLOBAL-EPISTEMIC-NIHILISM"
+      ]
+    },
+    "owner_approval": {
+      "decision": "https://github.com/moritzbrantner/truth-core/issues/1007#issuecomment-6661146758",
+      "date": "2026-11-05"
+    },
+    "note": "Floor item F6 (#1007), approved by the owner on the common-ground basis; the approval plus that basis is the evidence (owner, 2026-11-05), so no stating text is pinned. Closest texts, cited but not yet pinned as claims: Terence Cuneo, The Normative Web (OUP 2007), on the parity of moral and epistemic normativity; Bart Streumer, Unbelievable Errors (OUP 2017), the full-strength rival. Justification: the owner's retorsion, certified as EPISTEMIC-NIHILISM-SELF-UNDERMINING (under nihilism no one has an epistemic reason to believe it). That shows nihilism self-undermining, not false: the same result certifies an interpretation in which nihilism holds and no one has a reason to believe it, which is Streumer's position. The rival stays recorded and unrefuted."
+  }
+}
