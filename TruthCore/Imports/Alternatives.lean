@@ -4,6 +4,7 @@ import TruthCore.Alternatives.ActualityWithoutBeing
 import TruthCore.Alternatives.Fideism
 import TruthCore.Alternatives.FirstClosure
 import TruthCore.Alternatives.Inertia
+import TruthCore.Alternatives.Intentionality943
 import TruthCore.Alternatives.McTaggart
 import TruthCore.Alternatives.MindPhysicalism
 import TruthCore.Alternatives.NightActualizationFork

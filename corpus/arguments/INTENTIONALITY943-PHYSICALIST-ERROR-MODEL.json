@@ -1,0 +1,21 @@
+{
+  "id": "INTENTIONALITY943-PHYSICALIST-ERROR-MODEL",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-INTENTIONALITY943-PHYSICALIST-ERROR-MODEL",
+  "inference_ids": [
+    "INF-INTENTIONALITY943-PHYSICALIST-ERROR-MODEL"
+  ],
+  "meaning": "One finite interpretation jointly satisfies the old causal background and reductive kind classification, consumer content, a true affection report and an erroneous representation. It reuses MindPhysicalism.reductiveBackground rather than restating its causal consequences as assumptions. No general or empirical physicalism follows, and selectional history is stipulated in a primitive relation.",
+  "definition_ids": [
+    "DEF-MIND-OCCURRENCE-FRAME",
+    "DEF-INTENTIONALITY943-CONTENT",
+    "DEF-INTENTIONALITY943-AFFECTION-REPORT",
+    "DEF-INTENTIONALITY943-CONSUMER-FUNCTION",
+    "DEF-MIND-PHYSICAL-BASIS",
+    "DEF-MIND-POSITIONS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-INTENTIONALITY943-TOKEN-CONTENT",
+    "DISAMB-INTENTIONALITY943-REPORT-CONTENT"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "INTENTIONALITY943-SELF-ONLY-ACCURACY",
+  "premise_statement_ids": [
+    "STMT-INTENTIONALITY943-REPORT-CORRECT",
+    "STMT-INTENTIONALITY943-CONTENT-ONLY-REPORT"
+  ],
+  "conclusion_statement_id": "STMT-INTENTIONALITY943-EVERY-OCCURRENCE-ACCURATE",
+  "inference_ids": [
+    "INF-INTENTIONALITY943-SELF-ONLY-ACCURACY"
+  ],
+  "meaning": "For each occurring target token, the as-affected report is true; the content/report equivalence then makes that token’s content true at its situation. A typed reconstruction of an analyst error-preservation consequence; no opaque proposition has the conclusion smuggled into a bridge premise.",
+  "definition_ids": [
+    "DEF-MIND-OCCURRENCE-FRAME",
+    "DEF-INTENTIONALITY943-CONTENT",
+    "DEF-INTENTIONALITY943-AFFECTION-REPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-INTENTIONALITY943-TOKEN-CONTENT",
+    "DISAMB-INTENTIONALITY943-REPORT-CONTENT"
+  ]
+}

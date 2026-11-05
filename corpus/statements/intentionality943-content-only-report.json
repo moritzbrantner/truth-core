@@ -1,0 +1,14 @@
+{
+  "id": "STMT-INTENTIONALITY943-CONTENT-ONLY-REPORT",
+  "paraphrase": "At every situation, each target mental token’s content is true exactly when its report of its own affection is true. This restricted content-identification thesis is distinct from mental/physical occurrence identity and from physical realization.",
+  "lean_declaration": "TruthCore.Alternatives.Intentionality943.ContentOnlyAffectionReport",
+  "definition_ids": [
+    "DEF-MIND-OCCURRENCE-FRAME",
+    "DEF-INTENTIONALITY943-CONTENT",
+    "DEF-INTENTIONALITY943-AFFECTION-REPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-INTENTIONALITY943-TOKEN-CONTENT",
+    "DISAMB-INTENTIONALITY943-REPORT-CONTENT"
+  ]
+}

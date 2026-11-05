@@ -3,6 +3,7 @@ import TruthCore.Results.Comparison.ExcludedMiddle.IntuitionismEntailsWithholdin
 import TruthCore.Results.Comparison.ExcludedMiddle.IntuitionistTheoryConsistent.Solution
 import TruthCore.Results.Comparison.FideismConsistent.Solution
 import TruthCore.Results.Comparison.HumeCauseAsymmetry.Solution
+import TruthCore.Results.Comparison.Intentionality943.Solution
 import TruthCore.Results.Comparison.Metaethics.CatholicNaturalLawConsistent.Solution
 import TruthCore.Results.Comparison.Metaethics.OConnorEmotivismConsistent.Solution
 import TruthCore.Results.Comparison.Metaethics.StevensonEmotivismConsistent.Solution

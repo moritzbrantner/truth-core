@@ -1,0 +1,8 @@
+{
+  "id": "DEF-INTENTIONALITY943-AFFECTION-REPORT",
+  "term": "qualified report of one’s own affection",
+  "definition": "Report e w evaluates a report of the token’s own affection; AffectionReportCorrect requires this report true where a target token occurs, explicitly restricting it to the affection as it is affected. This is a stipulated ideal-report restriction, not a thesis of infallibility for ordinary introspection; comparison to the historical honey argument is deferred. It differs from judging whether honey is actually bitter. The report/content equivalence is tested separately. Its actual cognitive applicability remains OPEN.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Alternatives.Intentionality943.AffectionReportCorrect",
+  "note": "Explicit analyst configuration for #943 under the owner’s logic-first direction (2026-11-05). Historical/contemporary locators and consulted witness findings remain in docs/notes/intentionality-943.md as deferred attribution. No author is attributed the exact formal universal; no independent premise truth is required for this conditional exploration."
+}
