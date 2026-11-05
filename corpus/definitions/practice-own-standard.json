@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PRACTICE-OWN-STANDARD",
+  "term": "endorsed by the practice's own standards",
+  "definition": "`P.OwnStandard m`: the practice's own authoritative standards endorse m as a correct move, as opposed to a standard imported from outside the practice (a philosopher's, a scientist's).",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Alternatives.Fideism.Practice.OwnStandard",
+  "note": "Analytical vocabulary (#1010). Which instances count as the practice's own standards is not fixed here; for the Catholic practice the open bridge STMT-CONCILIAR-DEFINITION-IS-PRACTICE-OWN-STANDARD counts conciliar definitions among them."
+}

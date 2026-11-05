@@ -1,0 +1,13 @@
+{
+  "id": "INF-WF-FAILS-AS-DESCRIPTION-OF-CATHOLIC-PRACTICE",
+  "input_statement_ids": [
+    "STMT-DEI-FILIUS-DEFINES-NATURAL-KNOWABILITY-OF-GOD",
+    "STMT-CONCILIAR-DEFINITION-IS-PRACTICE-OWN-STANDARD",
+    "STMT-NATURAL-REASON-IS-SHARED-REASON"
+  ],
+  "output_statement_id": "STMT-WF-FAILS-AS-DESCRIPTION-OF-CATHOLIC-PRACTICE",
+  "rule": "reductio",
+  "meaning": "Suppose the fideist pair holds of the practice. The council defines a move affirming natural knowability of God; what the council defines is endorsed by the practice's own standards, so by the internal-grammar thesis the move is correct; it answers to shared reason, so by the cut-off thesis it is not correct. Contradiction.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

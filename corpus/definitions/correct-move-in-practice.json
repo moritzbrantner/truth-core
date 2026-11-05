@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CORRECT-MOVE-IN-PRACTICE",
+  "term": "correct move (in a practice)",
+  "definition": "`P.Correct m`: the move m (an affirmation, confession or condemnation made in the practice) is correct by the grammar of the practice P, that is, it is a move the practice's rules make right, not merely one some participant makes.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Alternatives.Fideism.Practice.Correct",
+  "note": "Analytical vocabulary for the fideist bundle (#1010): 'grammar' in the Wittgensteinian sense the SEP entries report. It fixes no theory of what makes a move correct; the internal-grammar thesis supplies one direction."
+}

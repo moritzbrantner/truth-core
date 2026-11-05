@@ -1,0 +1,12 @@
+{
+  "id": "STMT-DEI-FILIUS-DEFINES-NATURAL-KNOWABILITY-OF-GOD",
+  "paraphrase": "In the Catholic practice, the First Vatican Council defines, condemning its denial by canon (Dei Filius can. II.1), a move that affirms that the one true God can be known with certainty from created things by the natural light of human reason. It concerns knowability (posse), not how believers in fact come to believe.",
+  "lean_declaration": "TruthCore.Alternatives.Fideism.CouncilDefinesNaturalKnowabilityReading",
+  "definition_ids": [
+    "DEF-CONCILIAR-DEFINITION",
+    "DEF-NATURAL-REASON-SHARED"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NATURAL-REASON"
+  ]
+}

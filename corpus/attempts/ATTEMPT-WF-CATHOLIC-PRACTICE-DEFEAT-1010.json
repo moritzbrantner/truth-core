@@ -1,0 +1,20 @@
+{
+  "id": "ATTEMPT-WF-CATHOLIC-PRACTICE-DEFEAT-1010",
+  "statement_ids": [
+    "STMT-WF-RELIGION-CUT-OFF-FROM-SHARED-REASON",
+    "STMT-WF-RELIGION-INTERNAL-GRAMMAR",
+    "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE"
+  ],
+  "date": "2026-11-05",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Wittgensteinian fideism (#1010) recorded in three variants from the pinned SEP entries Fideism §2.2.4 and Religious Language §§1, 4.1, 4.2: WF-N (critics' four theses), WF-P1 (early Phillips: God-talk refers to no object), WF-P2 (late Phillips and minimalism: reference and truth constituted inside the game, outside evidence admissible). Phillips, Winch and Nielsen themselves are in copyright with no hosted copy; bibliographic identities only, no claim read from them. Defeat by consequence of WF-N as a description of the Catholic practice: with Dei Filius can. II.1 (stated), the open bridge that conciliar definitions are the practice's own standards, and the open shared-reason reading of 'naturali humanae rationis lumine', the fideist pair is inconsistent (WF-FAILS-AS-DESCRIPTION-OF-CATHOLIC-PRACTICE); each premise is needed and the bundle alone is consistent (WF-CONSISTENT). Rejected: treating the defeat as a refutation of fideism in general, or of Phillips's 'not generally' thesis, which allows natural knowability; treating Nielsen's insulation charge as a defeat (it judges a consequence unacceptable, #1007). Self-application of the fideist thesis is recorded in prose only: the generic schema STMT-SELF-APPLICATION-DILEMMA applies, but the needed premise that the thesis lies outside the religious game is a judgment without vocabulary.",
+  "evidence": [
+    "WF-FAILS-AS-DESCRIPTION-OF-CATHOLIC-PRACTICE",
+    "WF-CONSISTENT",
+    "VATICAN-I-DEI-FILIUS-CAN-II-1-NATURAL-KNOWABILITY",
+    "SEP-FIDEISM-2-2-4-CUT-OFF-A",
+    "SEP-FIDEISM-2-2-4-INTERNAL-GRAMMAR-A"
+  ],
+  "blocker": "The defeat counts only once its three premises are established (#999); the definition bridge and the shared-reason reading are open, and the fideist's escapes are exactly their denials. The early-Phillips non-reference rival on the nominal-definition leaves is unrefuted (needs a typed reference relation and the Dei Filius ch. 1 / can. I.1-3 parallel)."
+}
