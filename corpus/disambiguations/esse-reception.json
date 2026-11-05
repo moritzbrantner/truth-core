@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-ESSE-RECEPTION",
+  "term": "reception of esse versus external cause of esse",
+  "sense_definition_ids": [
+    "DEF-ESSE-RECEIVED-IN",
+    "DEF-Q3A4-EXTERNAL-ESSE-CAUSE-MODEL"
+  ],
+  "resolution": "De ente c.3 joins two things in 'recipit aliquid ab alio': an origin from another (an external efficient cause of esse, DEF-Q3A4-EXTERNAL-ESSE-CAUSE-MODEL) and reception in a principle that stands as potency to the received act (DEF-ESSE-RECEIVED-IN). SUBSISTENT-INFINITY-FROM-RECEPTION uses only reception in a principle; no step infers reception from having an external cause or the converse. Reception of esse is also not reception of a form in matter: q.7 a.2 lets a subsistent created form be unreceived in matter while its esse is received."
+}
