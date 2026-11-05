@@ -219,3 +219,24 @@ all-positive/mixed example asserts only equal summaries and their displayed
 entry signs. No new metaphysical relation or historical attribution is hidden
 in the definitions. The existing source findings and old summary theorem retain
 their original, narrower scope.
+
+Canonical verification: the focused build of
+`TruthCore.Results.Ethics.PopulationScoring.Solution` passed without warnings;
+`corpus.py bind-check --result FINITE-POPULATION-SCORING-TRADEOFFS` reported
+one bound result and zero mismatches. `scripts/verify-result.sh
+FINITE-POPULATION-SCORING-TRADEOFFS` accepted the frozen Challenge/Solution
+type equality and checked the solution with NanoDa, allowing only `propext`,
+`Classical.choice`, `Quot.sound`. The Challenge's expected `sorry` is separate
+from the real Solution. Offline source manifests, attribution check (no changed
+stating claims), corpus, bundle audit and module checks passed. Final delivered
+CI retains scoped library NanoDa and integration coverage. The unrelated Science
+induction merge changed no Ethics proof input, so its addition did not invalidate
+these checks.
+
+New frozen Challenge SHA256:
+`2f4a04d2573ddd94f55ffb2da1d507331f64b423dc818beab5a57e5f036e1851`.
+Reproduce using `python3 scripts/worker_env.py -- lake build
+TruthCore.Results.Ethics.PopulationScoring.Solution`, the scoped binding command
+above and `python3 scripts/worker_env.py -- scripts/verify-result.sh
+FINITE-POPULATION-SCORING-TRADEOFFS`. Shared conventions resolved at
+sourceRevision `625cb04ca568aebc8d45c90033e107a05e9bd2a0`.
