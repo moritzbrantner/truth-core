@@ -7,6 +7,56 @@ unresolved bridges; conditional consequence does not establish premise truth.
 
 ## Current delivery and parallel work
 
+### Unique necessary actual root to perfection (2026-11-05)
+
+The `agent/unique-root-perfection` batch (verified implementation
+`6f0a97e18b008d9f2a57b3b5da74c2dd1b717e45`) registers
+`UNIQUE-ROOT-PERFECTION`, composing `DirectEsseRootRoute.maximumExistsOfExistingRoot`,
+`maximumEqualsRoot` and `DirectEsseRootPerfectionGoodness.perfectOfMaximum`.
+It preserves the supplied actual root, its accessible-world necessity and its
+uniqueness among selected actual roots. Maximum and universal perfection are
+derived for that same witness under the seven retained EM, genus, existence,
+esse-ground correspondence, grades, being and preexistence policies. It does not
+re-assume the earlier population, whole-roster, contingent-grounding, modal-union
+or all-world underivedness bundles. This is conditional composition; it establishes
+no disputed policy, divine identity, rival defeat or new root-premise closure.
+The attempt record carries the exact statement and result references.
+
+Claim/type self-sweep: the eight hypotheses bind to the eight advertised premise
+heads; the conclusion is the existing selected-world, same-witness perfection
+predicate. The fixed-esse `Unit` restriction supplies no policy at other respects.
+No source claim, definition or disambiguation is introduced or reinterpreted.
+All retained definitions and disambiguations concern the existing vocabulary;
+source fidelity, dictionary applicability and the open metaphysical policies
+retain their prior boundaries. Attribution self-check finds no changed stating
+claims. The focused build, scoped binding (one result, zero mismatches),
+Comparator with no permitted axioms and NanoDa pass. Final delivered-head CI
+and current-head review remain required.
+
+The coordinator's service trial used preview `a2d97ecf1429e86b3e12f15b91b735f85e27822e`,
+dirty fingerprint `d9531f3a0bb331b7b49d7d7cee53c17822d8a8d124bb6f7dd3fae582039893f3`,
+endpoint `http://127.0.0.1:8765`, session `workloop-20261105` and
+`Scratch/unique-root/Solution.lean`. Startup and health used the documented
+`worker_env.py -- python3 scripts/agent_service.py --port 8765` and
+`curl -s http://127.0.0.1:8765/health`; the worker queried
+`/corpus/record?id=STMT-UNIQUE-NECESSARY-ACTUAL-ROOT` and submitted the full proof
+through `agent_lean.py` with explicit workspace/session/path/URL/lock flags.
+The original/restored content hash was
+`a3bcf9cb4ad27d2ca3a3b8360035ed0319778071fc34b1faad465e612f51a790`.
+The first diagnostic request took 10.95 s end-to-end; a harmless in-memory
+`skip` edit with a goal query took 0.42 s and restoring the proof took 0.40 s.
+Original and restored diagnostics had no errors or warnings; the temporary edit
+had only the expected unused-tactic warning. All responses passed client binding
+checks, and no preview source file was changed. Recommendation: retain the
+shared service for repeated edits and goals; its startup cost and older preview
+imports mean final canonical-clone CLI/CI verification remains necessary.
+The canonical CLI check of the final public module took 1.51 s. Its imports
+include the subsequently merged module migration, whereas the service preview
+retained the earlier dependencies; this is a workflow observation, not a
+controlled speedup estimate. These interactive observations certify no final result.
+Next step: delivered-head CI and current-head review, then merge the PR.
+
+
 PRs #810–[#821](https://github.com/moritzbrantner/truth-core/pull/821) are
 merged. Latest merge `28de2b6683e2c87ba0b9c10456dfb336fd2267e8` passed all CI
 checks and current-head review without findings (reviewed head

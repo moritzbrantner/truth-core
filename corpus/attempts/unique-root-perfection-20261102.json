@@ -1,0 +1,23 @@
+{
+  "id": "ATTEMPT-UNIQUE-ROOT-PERFECTION-20261102",
+  "date": "2026-11-02",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "statement_ids": [
+    "STMT-UNIQUE-NECESSARY-ACTUAL-ROOT",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS",
+    "STMT-EXISTING-IN-ACT-AT",
+    "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
+    "STMT-GRADES-TO-MAXIMUM-AT-BEING",
+    "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING",
+    "STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE",
+    "STMT-DIRECT-ESSE-ROOT-PERFECTION"
+  ],
+  "evidence": [
+    "UNIQUE-ROOT-PERFECTION",
+    "UNDERIVED-ROOT-PERFECTION"
+  ],
+  "summary": "Preserve the SAME supplied unique necessary actual root n, including its supplied necessity and uniqueness among selected actual concrete roots. Import maximumExistsOfExistingRoot and maximumEqualsRoot through the fixed-esse Unit restriction, identify the selected maximum with n, then apply perfectOfMaximum to n. Eight explicit heads replace the underived input of UNDERIVED-ROOT-PERFECTION with the existing unique necessary actual root input, retaining the seven EM/genus/existence/esse-ground/grades/being/preexistence policies. No population, whole roster, contingent grounding, modal union or all-world support exclusion is re-assumed. This is a structural conditional composition deriving maximum and perfection, not a one-premise transcription or independent philosophical argument. No global package weakening, premise truth, uniqueness of all necessary beings, God naming or explanatory adequacy is established. Existing source and dictionary applicability remains OPEN. Reuse search found no prior registered unique-root-to-perfection consumer. All nine touched premise/conclusion dossiers were inspected; excluded middle is established in the current corpus, while the root/attribute and correspondence policies remain open. Frozen Challenge SHA-256: 3ad42e2c61b1d3000750d395b06818869390badd97e9a8ec8725017bf5f3768c. Prior focused Solution compile and zero-axiom probe passed. Integration on main after the module-system migration preserves the Challenge and converts only the new Solution to a public module. Final focused build and scoped bind-check pass (one bound result, zero mismatches); Comparator accepts the frozen type with no permitted axioms and NanoDa accepts the solution. Claim/type self-sweep: literal same profile, world, carrier and dictionaries; supplied n/necessity/uniqueness retained, maximum/perfection derived; no source claims, new vocabulary, modal transport, root premise closure, rival defeat or God claim. The existing handoff records the bound shared-service trial; interactive diagnostics are not certification. Shared conventions sourceRevision 625cb04ca568aebc8d45c90033e107a05e9bd2a0.",
+  "blocker": "All supplied root and attribute/correspondence policies remain explicit; no independent premise closure or source warrant established. Delivered-head CI and current-head review remain required before merge."
+}
