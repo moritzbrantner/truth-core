@@ -1,0 +1,14 @@
+{
+  "id": "STMT-INTENTIONALITY943-REJECT-CONTENT-ONLY-REPORT",
+  "paraphrase": "The universal identification of target mental content truth with truth of a report of that token’s own affection fails. This rejects one content restriction, not the physicality of representational vehicles.",
+  "lean_declaration": "TruthCore.Alternatives.Intentionality943.RejectContentOnlyAffection",
+  "definition_ids": [
+    "DEF-MIND-OCCURRENCE-FRAME",
+    "DEF-INTENTIONALITY943-CONTENT",
+    "DEF-INTENTIONALITY943-AFFECTION-REPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-INTENTIONALITY943-TOKEN-CONTENT",
+    "DISAMB-INTENTIONALITY943-REPORT-CONTENT"
+  ]
+}

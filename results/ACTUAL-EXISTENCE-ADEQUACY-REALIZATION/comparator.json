@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.ActualExistenceAdequacy.Realization.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.ActualExistenceAdequacy.Realization.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Explanation.ActualExistenceAdequacy.realization"
+  ],
+  "enable_nanoda": true,
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "STMT-NEGATIVE-TRUTH-NEEDS-MAKER-AT",
+  "lean_declaration": "TruthCore.Explanation.TruthmakerTheories.NeedsMakerAt",
+  "paraphrase": "If the represented fact is true at the selected world, some eligible candidate makes it true there.",
+  "definition_ids": [
+    "DEF-CONCRETE-EMPTY-TRUTHMAKER",
+    "DEF-BEARER-TRUTHMAKING",
+    "DEF-NEGATIVE-TRUTHMAKER-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUTHMAKER-SCOPE-IDENTITY",
+    "DISAMB-TRUTHMAKING-REASON-CAUSE"
+  ],
+  "note": "Unattributed stipulated framework policy. For a concrete-existent interpretation of ConcreteMaker, the supplied concrete predicate must itself denote concrete existents; the theorem does not independently establish that interpretation."
+}

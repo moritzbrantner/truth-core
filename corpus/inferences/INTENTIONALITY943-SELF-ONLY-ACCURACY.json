@@ -1,0 +1,12 @@
+{
+  "id": "INF-INTENTIONALITY943-SELF-ONLY-ACCURACY",
+  "input_statement_ids": [
+    "STMT-INTENTIONALITY943-REPORT-CORRECT",
+    "STMT-INTENTIONALITY943-CONTENT-ONLY-REPORT"
+  ],
+  "output_statement_id": "STMT-INTENTIONALITY943-EVERY-OCCURRENCE-ACCURATE",
+  "rule": "constructive-derivation",
+  "meaning": "For each occurring target token, the as-affected report is true; the content/report equivalence then makes that token’s content true at its situation. A typed reconstruction of an analyst error-preservation consequence; no opaque proposition has the conclusion smuggled into a bridge premise.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

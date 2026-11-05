@@ -254,3 +254,99 @@ root premise is independently established. The necessary-being route would
 still need uniformity (or a separate principle supplying it) and its semantic
 applicability. The PR reports computed `frontier-diff`; no hand-counted premise
 reduction is inferred from the new relation's bearer argument.
+
+## Exact empty-world core and distinct replies (#554)
+
+The follow-up `EMPTY-TRUTHMAKER-ETI-INCOMPATIBLE` registers the exact three
+open commitments in `CONFIG-EMPTY-TRUTHMAKER-ETI`, rather than treating the
+premise-free `NegativeMap` certificate as if it registered them:
+
+- E: some world accessible from the root contains no existent in the eligible
+  roster, including abstracts if eligible.
+- T: at every accessible world, that single true negative needs a maker.
+- I: every such maker exists in its making world.
+
+`Empty` defines the negative as roster absence. `arena` embeds that one fact
+into the existing arena; `scopedMaking` restricts making to the root component.
+The proof **consumes** `negativeMap.1`, without re-proving its inference. This
+adapter makes no claim that its sole fact is a coherent existence label for
+every candidate. No coherence premise is used. Factivity is separately recorded
+and retained by all three Unit-world/Unit-candidate pullbacks of the existing
+negativeArena controls. They violate E, T and I respectively. The live
+configuration command checks the exact theorem applications, carrier
+enumerations, model evaluations and generated composition, and recognizes the
+core as inclusion-minimal. This is not a minimum-cardinality claim over other
+languages or an exhaustive partition of metaphysical theories.
+
+`EMPTY-TRUTHMAKER-CONCRETE-INCOMPATIBLE` supplies the previously missing
+general bridge. Its exact premises are `ConcreteEmptyAt A C w f` (both
+`ConcreteEmptyFact A C f` and truth at w), `NeedsMakerAt A M w f`, and
+`ConcreteMaker M C`. The coverage witness belongs to C by ConcreteMaker, while
+truth and the concrete-negative interpretation exclude every C member. C is a
+supplied predicate: to read it as concrete **existents**, its interpretation
+must include existence. This interpretation is explicit, not independently
+defended. The abstract control from #1027 remains valid without that bridge.
+
+### Reply profiles and the policies they retain
+
+`EMPTY-TRUTHMAKER-REPLIES` checks five source-free finite fragments. These are
+conditional interpretations, not attributions to historical authors or complete
+truthmaker theories. `replyArena` has two universally accessible worlds; a
+concrete object exists at false, and concrete absence is true only at true.
+Rigid candidate identity, concrete extension and fact truth are shared.
+
+| Reply | Explicit eligibility/content | Negative coverage at true | Immanence | Maker necessitation |
+| --- | --- | --- | --- | --- |
+| Abstract object | Existing nonconcrete object at both worlds; primitive making of the contingent negative | yes | yes | **fails**: that same object also exists where the negative is false |
+| Absence fact | Reified absence token exists exactly where concrete absence obtains; its content is that negative | yes | yes | yes |
+| Totality fact | Separate rigid empty/singleton inventory tokens; eligibility exactly matches the whole concrete inventory; only the empty inventory token makes the negative | yes | yes | yes |
+| External maker | Candidate exists at the other accessible world false, is absent at true, and is stipulated to make the negative at true | yes | **fails** | **fails** in this profile |
+| Necessary-proposition maker | Separate wholly concrete-empty profile; reified proposition candidate exists everywhere, the negative itself is necessary, making is additionally stipulated | yes, at every world | yes | yes |
+
+Every row fails ConcreteMaker and preserves truth factivity. The absence and
+totality rows are stronger surviving fragment replies than a generic
+unconstrained nonconcrete flag: the first fixes negative content/eligibility;
+the second encodes complete rigid inventories with a nonempty comparison world.
+Their tokens are entities only by an explicit reification policy. No true
+proposition is silently promoted to an existent token. The external row improves
+on the original outsideMaking omission: its candidate really exists elsewhere,
+but that fact does not turn it into an immanent maker at the target or explain
+external grounding. Worlds need not be physical locations, and this existence
+elsewhere is not an endorsement of a particular ontology.
+
+The necessary-proposition row changes scope explicitly. A necessary truth's
+content cannot entail the **contingent** negative in replyArena: it would have
+to hold at false as well. In the wholly concrete-empty profile the negative is
+itself necessary, so a reified-proposition policy with making can supply it.
+The same necessary truth with `noMaking` fails coverage. Thus bare necessary
+truth does not supply a maker, and necessary truth, necessary candidate
+existence and a truthmaking relation are three different commitments. This
+connects directly to [#466](https://github.com/moritzbrantner/truth-core/issues/466).
+The row does not establish necessary being in reality. In particular, population
+at each accessible world never licenses a fixed necessary bearer by itself.
+
+### Boundaries, rejected shortcuts and remaining burdens
+
+Rejected shortcuts: register the closed NegativeMap as the three open premises;
+replace concrete emptiness with absolute absence; treat an inhabited outer
+carrier as population; call outsideMaking an existing external ontology;
+identify a tautology with an eligible maker; let one rigid totality token change
+its inventory; or require maker necessitation without checking it on the
+abstract/external rows. The new profiles expose rather than hide these costs.
+
+Concrete examples are formal inventory fragments, not observations of real
+metaphysical grounding. Source attribution, real-world applicability, adequacy
+and relevance of primitive making, abstract/proposition/fact reification,
+eligible-domain completeness, empty-world possibility, maximalism and the
+concrete-maker bridge remain **OPEN**. No causal interpretation, S5,
+self-reference axiom, or new dependency is introduced. No claim is made that
+these fragments exhaust all historical absence/totality theories. Their
+substantive minimal distinctions and policy costs are what is certified.
+The optional Milne branch remains outside this batch.
+
+Actual premise comparison: no root premise is discharged, moved or defended.
+`frontier-diff` against b37d1923 reports 90 open premises before/after, cheapest
+route 31 before/after and no route changes. The incompatible core constrains
+joint acceptance of E/T/I; it selects no preferred rejection. Abstract, absence,
+totality and reified-proposition replies remain live against concrete emptiness
+without ConcreteMaker; the external reply additionally rejects local immanence.

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-INTENTIONALITY943-CONTENT",
+  "term": "truth-evaluable representational content",
+  "definition": "Semantics assigns a content to an occurrence and evaluates whether it holds at a situation. Occurs, content truth, and the proposed self-affection report remain separate. Situations are common evaluations, not necessarily metaphysically possible worlds. No accessibility, temporal order, necessity, identity between vehicle and object, or true-content requirement is built in. Example: an eagle alarm can occur when no eagle is present; counterexample to truth: a false alarm. It remains OPEN whether any natural or mental system realizes this interface with the intended meanings. Extensional truth conditions do not decide intensional identity or capture all of Aquinas’s theory of species.",
+  "basis": "stipulative",
+  "note": "Analyst interface for q.85’s error objection and Papineau’s truth-conditional categorical representations. Existing q.14 FormReception has aptitude/modes but no judgment evaluation; q.75 CanUnderstand has bodily-nature scope but no error; the existing MindPhysicalism Frame is reused for tokens instead of duplicating it.",
+  "lean_declaration": "TruthCore.Alternatives.Intentionality943.Semantics"
+}

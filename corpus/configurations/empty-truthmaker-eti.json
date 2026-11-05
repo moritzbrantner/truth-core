@@ -1,0 +1,166 @@
+{
+  "id": "CONFIG-EMPTY-TRUTHMAKER-ETI",
+  "description": "Exact accessible-world E/T/I core from #554, with all single deletions factive and finite. Status/minimality computed from live certificates; no metaphysical premise is established.",
+  "seed_statement_id": "STMT-EMPTY-TRUTHMAKER-E",
+  "semantics": {
+    "id": "empty-truthmaker-accessible-single-negative",
+    "logic": "Constructive Lean; zero axioms. Factivity is an independent fourth displayed policy retained by every deletion model, not required for contradiction.",
+    "frame": "Arbitrary shared accessibility. E supplies a successor; no S5/reflexivity/seriality background. Controls have one universally accessible Unit world.",
+    "domain": "Fixed eligible candidate B and worlds W; each can be empty in the general theorem, but E supplies a world. No candidate inhabitedness assumption; controls use Unit with world-relative existence separately specified. Absolute eligible-domain emptiness is not concrete-only absence.",
+    "identity": "Literal candidate identity across worlds; no counterpart relation or automatic proposition reification.",
+    "vocabulary": "EMPTY-TRUTHMAKER-SCOPED",
+    "modules": [
+      "TruthCore.Explanation.EmptyTruthmaker"
+    ],
+    "parameters": [
+      {
+        "name": "W",
+        "type": "Type"
+      },
+      {
+        "name": "B",
+        "type": "Type"
+      },
+      {
+        "name": "F",
+        "type": "TruthCore.Modal.Frame W"
+      },
+      {
+        "name": "present",
+        "type": "W \u2192 B \u2192 Prop"
+      },
+      {
+        "name": "makes",
+        "type": "W \u2192 B \u2192 Prop"
+      },
+      {
+        "name": "a",
+        "type": "W"
+      }
+    ],
+    "parameter_order": [
+      "W",
+      "B",
+      "F",
+      "present",
+      "makes",
+      "a"
+    ],
+    "applications": {
+      "STMT-EMPTY-TRUTHMAKER-E": [
+        "W",
+        "B",
+        "F",
+        "present",
+        "a"
+      ],
+      "STMT-EMPTY-TRUTHMAKER-T": [
+        "W",
+        "B",
+        "F",
+        "present",
+        "makes",
+        "a"
+      ],
+      "STMT-EMPTY-TRUTHMAKER-I": [
+        "W",
+        "B",
+        "F",
+        "present",
+        "makes",
+        "a"
+      ],
+      "STMT-EMPTY-TRUTHMAKER-FACTIVITY": [
+        "W",
+        "B",
+        "F",
+        "present",
+        "makes",
+        "a"
+      ]
+    },
+    "permitted_axioms": []
+  },
+  "configurations": [
+    {
+      "id": "exact-eti-core",
+      "statement_ids": [
+        "STMT-EMPTY-TRUTHMAKER-E",
+        "STMT-EMPTY-TRUTHMAKER-T",
+        "STMT-EMPTY-TRUTHMAKER-I"
+      ]
+    },
+    {
+      "id": "eti-with-factivity",
+      "statement_ids": [
+        "STMT-EMPTY-TRUTHMAKER-E",
+        "STMT-EMPTY-TRUTHMAKER-T",
+        "STMT-EMPTY-TRUTHMAKER-I",
+        "STMT-EMPTY-TRUTHMAKER-FACTIVITY"
+      ]
+    },
+    {
+      "id": "omit-e",
+      "statement_ids": [
+        "STMT-EMPTY-TRUTHMAKER-T",
+        "STMT-EMPTY-TRUTHMAKER-I",
+        "STMT-EMPTY-TRUTHMAKER-FACTIVITY"
+      ]
+    },
+    {
+      "id": "omit-t",
+      "statement_ids": [
+        "STMT-EMPTY-TRUTHMAKER-E",
+        "STMT-EMPTY-TRUTHMAKER-I",
+        "STMT-EMPTY-TRUTHMAKER-FACTIVITY"
+      ]
+    },
+    {
+      "id": "omit-i",
+      "statement_ids": [
+        "STMT-EMPTY-TRUTHMAKER-E",
+        "STMT-EMPTY-TRUTHMAKER-T",
+        "STMT-EMPTY-TRUTHMAKER-FACTIVITY"
+      ]
+    }
+  ],
+  "incompatibility_result_ids": [
+    "EMPTY-TRUTHMAKER-ETI-INCOMPATIBLE"
+  ],
+  "implication_result_ids": [],
+  "model_bindings": [
+    {
+      "model_id": "MODEL-EMPTY-TRUTHMAKER-OMIT-E",
+      "parameters": {
+        "W": "W",
+        "B": "B",
+        "F": "F",
+        "present": "present",
+        "makes": "makes",
+        "a": "a"
+      }
+    },
+    {
+      "model_id": "MODEL-EMPTY-TRUTHMAKER-OMIT-T",
+      "parameters": {
+        "W": "W",
+        "B": "B",
+        "F": "F",
+        "present": "present",
+        "makes": "makes",
+        "a": "a"
+      }
+    },
+    {
+      "model_id": "MODEL-EMPTY-TRUTHMAKER-OMIT-I",
+      "parameters": {
+        "W": "W",
+        "B": "B",
+        "F": "F",
+        "present": "present",
+        "makes": "makes",
+        "a": "a"
+      }
+    }
+  ]
+}

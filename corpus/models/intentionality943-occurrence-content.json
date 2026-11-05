@@ -1,0 +1,92 @@
+{
+  "id": "MODEL-INTENTIONALITY943-OCCURRENCE-CONTENT",
+  "description": "Single-deletion interpretation of the intentionality943 error core, keeping a nonempty, causally efficacious reductive target kind. Content is a truthful occurrence report; error fails while the target token still occurs. Formal satisfiability only, not actual cognition or metaphysical possibility.",
+  "vocabulary": "INTENTIONALITY943",
+  "lean_declaration": "TruthCore.Models.Intentionality943.occurrenceContent",
+  "modules": [
+    "TruthCore.Results.Comparison.Intentionality943.Solution"
+  ],
+  "bindings": {
+    "Occurrence": "TruthCore.Results.Comparison.MindPhysicalism.Point",
+    "Kind": "Bool",
+    "Content": "Unit",
+    "Situation": "Bool",
+    "f": "TruthCore.Models.Intentionality943.rivalFrame",
+    "s": "TruthCore.Models.Intentionality943.occurrenceContent"
+  },
+  "carriers": [
+    {
+      "binding": "Occurrence",
+      "elements": [
+        "TruthCore.Results.Comparison.MindPhysicalism.Point.candidate",
+        "TruthCore.Results.Comparison.MindPhysicalism.Point.base",
+        "TruthCore.Results.Comparison.MindPhysicalism.Point.effect"
+      ],
+      "theorem": "TruthCore.Models.Intentionality943.enumeratePoint"
+    },
+    {
+      "binding": "Kind",
+      "elements": [
+        "false",
+        "true"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
+    },
+    {
+      "binding": "Content",
+      "elements": [
+        "Unit.unit"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateUnit"
+    },
+    {
+      "binding": "Situation",
+      "elements": [
+        "false",
+        "true"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-INTENTIONALITY943-ERROR",
+      "value": "violates",
+      "arguments": [
+        "Occurrence",
+        "Kind",
+        "Content",
+        "Situation",
+        "f",
+        "s"
+      ],
+      "theorem": "TruthCore.Models.Intentionality943.occurrenceNoError"
+    },
+    {
+      "statement_id": "STMT-INTENTIONALITY943-REPORT-CORRECT",
+      "value": "satisfies",
+      "arguments": [
+        "Occurrence",
+        "Kind",
+        "Content",
+        "Situation",
+        "f",
+        "s"
+      ],
+      "theorem": "TruthCore.Models.Intentionality943.occurrenceReportCorrect"
+    },
+    {
+      "statement_id": "STMT-INTENTIONALITY943-CONTENT-ONLY-REPORT",
+      "value": "satisfies",
+      "arguments": [
+        "Occurrence",
+        "Kind",
+        "Content",
+        "Situation",
+        "f",
+        "s"
+      ],
+      "theorem": "TruthCore.Models.Intentionality943.occurrenceIdentification"
+    }
+  ]
+}

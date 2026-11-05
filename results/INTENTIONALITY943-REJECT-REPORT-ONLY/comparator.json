@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Comparison.Intentionality943.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.Intentionality943.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Comparison.Intentionality943.rejectAffectionOnly"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

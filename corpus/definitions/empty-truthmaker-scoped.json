@@ -1,0 +1,8 @@
+{
+  "id": "DEF-EMPTY-TRUTHMAKER-SCOPED",
+  "term": "accessible-world empty-negative scope",
+  "basis": "stipulative",
+  "definition": "EmptyPossible supplies an accessible world with no existent from the fixed eligible roster. NegativeCoverage requires a maker of exactly this negative where true on the accessible component; Immanence requires that maker to exist there. NegativeFactivity separately requires making to imply this negative truth. The arena/scopedMaking adapters consume the existing checked pointwise proof without identifying this one-proposition adapter with a coherent ontology of every fact.",
+  "lean_declaration": "TruthCore.Explanation.EmptyTruthmaker.EmptyPossible",
+  "note": "Source-free #554 profile. No frame axiom or inhabited individual type is assumed in the general theorem. Unit deletion models have a root and accessible successor. All three preserve factivity. Reality-wide domain completeness, empty-world possibility, eligibility and making applicability remain OPEN."
+}

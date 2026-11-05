@@ -1,0 +1,8 @@
+{
+  "id": "DEF-INTENTIONALITY943-CONSUMER-FUNCTION",
+  "term": "etiological consumer function and its success condition",
+  "definition": "Consumer.SelectedFor e b g asserts that the token-producing arrangement has a selectional function of enabling response b toward specific end g. SuccessCondition b g w says the response would serve that end at situation w under proper functioning. Example: a warning consumed by an avoidance mechanism; false clouds can trigger it without the represented threat being present. Actual lucky success, usual triggering stimulus, arbitrary interpreter intention and ultimate reproductive success are not interchangeable with this specific condition. These are typed primitives without transitivity, asymmetry or well-foundedness laws. It is OPEN whether they can be fully specified without intentional vocabulary, which historical/cognitive mechanisms instantiate them, and whether they uniquely determine human content. Nonetiological output theories, causal-input theories and consciousness-first theories are serious rivals discussed by Papineau pp.96,104–118; no judgment on their truth follows from this interface.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Alternatives.Intentionality943.Consumer",
+  "note": "Explicit analyst configuration for #943 under the owner’s logic-first direction (2026-11-05). Historical/contemporary locators and consulted witness findings remain in docs/notes/intentionality-943.md as deferred attribution. No author is attributed the exact formal universal; no independent premise truth is required for this conditional exploration."
+}

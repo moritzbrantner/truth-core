@@ -1,0 +1,22 @@
+{
+  "id": "INTENTIONALITY943-ERROR-CORE",
+  "premise_statement_ids": [
+    "STMT-INTENTIONALITY943-ERROR",
+    "STMT-INTENTIONALITY943-REPORT-CORRECT",
+    "STMT-INTENTIONALITY943-CONTENT-ONLY-REPORT"
+  ],
+  "conclusion_statement_id": "STMT-CONFIGURATION-FALSE",
+  "inference_ids": [
+    "INF-INTENTIONALITY943-ERROR-CORE"
+  ],
+  "meaning": "Take the existing false-content token and situation, apply the qualified report premise there, and transport report truth to content truth through the tested equivalence, contradicting that same token’s false content. Three single-deletion models show inclusion-minimality in this fixed semantics, not minimum cardinality across other vocabularies. The misleading replacement of external content by a correct internal report fails; neither mental/physical identity nor physical realization is a premise of this core.",
+  "definition_ids": [
+    "DEF-MIND-OCCURRENCE-FRAME",
+    "DEF-INTENTIONALITY943-CONTENT",
+    "DEF-INTENTIONALITY943-AFFECTION-REPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-INTENTIONALITY943-TOKEN-CONTENT",
+    "DISAMB-INTENTIONALITY943-REPORT-CONTENT"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "EMPTY-TRUTHMAKER-CONCRETE-INCOMPATIBLE",
+  "argument_id": "EMPTY-TRUTHMAKER-CONCRETE-INCOMPATIBLE",
+  "challenge_module": "TruthCore.Results.Explanation.EmptyTruthmaker.Concrete.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.EmptyTruthmaker.Concrete.Solution",
+  "theorem": "TruthCore.Results.Explanation.EmptyTruthmaker.Concrete.incompatible",
+  "comparator_config": "results/EMPTY-TRUTHMAKER-CONCRETE-INCOMPATIBLE/comparator.json",
+  "status": "solution-present"
+}

@@ -5,10 +5,12 @@ import TruthCore.Models.BoundedOmission
 import TruthCore.Models.ConstitutiveConfiguration
 import TruthCore.Models.ContingentAncestry
 import TruthCore.Models.CountTemporalControls
+import TruthCore.Models.EmptyTruthmaker
 import TruthCore.Models.FiniteSupport
 import TruthCore.Models.HistoryTimeScope
 import TruthCore.Models.Inertia
 import TruthCore.Models.InfiniteGreatestWhole
+import TruthCore.Models.Intentionality943
 import TruthCore.Models.MegarianCapacity
 import TruthCore.Models.ModalExistenceDegrees
 import TruthCore.Models.NecessarilyUnderived

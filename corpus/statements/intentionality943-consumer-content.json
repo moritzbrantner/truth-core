@@ -1,0 +1,15 @@
+{
+  "id": "STMT-INTENTIONALITY943-CONSUMER-CONTENT",
+  "paraphrase": "Every target mental token has an etiological producer/consumer function with a response and specific end; its content truth at any situation coincides with the success condition for that response to serve that end under proper functioning. This is a stipulated analyst consumer-function configuration with explicitly primitive relations, not an independently demonstrated naturalization or an attributed author formulation.",
+  "lean_declaration": "TruthCore.Alternatives.Intentionality943.ConsumerContent",
+  "definition_ids": [
+    "DEF-MIND-OCCURRENCE-FRAME",
+    "DEF-INTENTIONALITY943-CONTENT",
+    "DEF-INTENTIONALITY943-AFFECTION-REPORT",
+    "DEF-INTENTIONALITY943-CONSUMER-FUNCTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-INTENTIONALITY943-TOKEN-CONTENT",
+    "DISAMB-INTENTIONALITY943-REPORT-CONTENT"
+  ]
+}

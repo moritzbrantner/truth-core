@@ -1,0 +1,15 @@
+{
+  "id": "STMT-EMPTY-TRUTHMAKER-FACTIVITY",
+  "lean_declaration": "TruthCore.Explanation.EmptyTruthmaker.NegativeFactivity",
+  "paraphrase": "At every accessible world, making the single negative entails absence of every eligible existent.",
+  "definition_ids": [
+    "DEF-EMPTY-TRUTHMAKER-SCOPED",
+    "DEF-NEGATIVE-TRUTHMAKER-DOMAIN",
+    "DEF-BEARER-TRUTHMAKING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUTHMAKER-SCOPE-IDENTITY",
+    "DISAMB-TRUTHMAKING-REASON-CAUSE"
+  ],
+  "note": "Source-free conditional framework commitment; not independently defended. Candidate inhabitedness does not imply existence; the eligible roster need not exhaust reality."
+}
