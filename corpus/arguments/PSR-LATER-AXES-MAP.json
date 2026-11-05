@@ -1,0 +1,45 @@
+{
+  "id": "PSR-LATER-AXES-MAP",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-PSR-LATER-AXES-MAP",
+  "inference_ids": [
+    "INF-PSR-LATER-AXES-MAP"
+  ],
+  "meaning": "Compose the certified scope/modal/quality map with later epistemic, contrast, normalized probability, productive and stopping comparisons. All philosophically consequential bridge conditions occur explicitly inside the quantified certificate clauses. No new source claim or independent root-premise discharge; no concatenation of incidental properties of unrelated witnesses.",
+  "definition_ids": [
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-SCOPE",
+    "DEF-PSR-STRENGTH-MODAL",
+    "DEF-PSR-STRENGTH-TOTALITY",
+    "DEF-PSR-STRENGTH-REASON",
+    "DEF-PSR-REASON-NECESSITATING",
+    "DEF-PSR-REASON-INDEPENDENT",
+    "DEF-PSR-REASON-DISTRIBUTION",
+    "DEF-PSR-DOMAIN-BRIDGES",
+    "DEF-PSR-EXTERNAL-CAUSE",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-EPISTEMIC-SUPPORT",
+    "DEF-DEMAND-STANCE",
+    "DEF-EPISTEMIC-ONTIC-BRIDGES",
+    "DEF-EXPLANATORY-REASON-CLOSED",
+    "DEF-EXPLANATORY-CONTRAST",
+    "DEF-EXPLANATORY-FAVOURING-FRAME",
+    "DEF-EXPLANATORY-NET-SELECTION",
+    "DEF-EXPLANATORY-BASE-FIXED",
+    "DEF-EXPLANATORY-CHOICE-MARKS",
+    "DEF-DERIVATIVE-JOINT-SUPPLY",
+    "DEF-PSR-EVENT-CHANCE",
+    "DEF-PSR-CONDITIONAL-CHANCE",
+    "DEF-PSR-CHANCE-RANKING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-PSR-REASON-NECESSITATING",
+    "DISAMB-REASON-EPISTEMIC-ONTIC",
+    "DISAMB-EXPLANATORY-SELECTION",
+    "DISAMB-EXPLANATORY-CHOICE",
+    "DISAMB-PROBABILITY-EXPLANATION",
+    "DISAMB-EXPLANATORY-CONTRAST-STOP"
+  ]
+}

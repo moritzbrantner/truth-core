@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PSR-EVENT-CHANCE",
+  "term": "probability of an arena fact",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.PSRLaterAxes.chance",
+  "definition": "A normalized Mathlib PMF on the SAME arena worlds assigns probability to each fact’s truth set using PMF.toOuterMeasure. Every set is measurable for this discrete PMF construction. The measure is supplied independently of modal accessibility and the ontic reason/causal relations. An event outside PMF support may remain true at an accessible world.",
+  "note": "An analyst probability interpretation, not an empirical propensity estimate or causal principle. The finite control assigns masses 3/4 and 1/4 to worlds 0 and 1 of the existing ground arena. Probability-zero does not mean impossible. Applicability of the PMF and its support to reality is OPEN. See docs/notes/psr-strength-755.md, later axes."
+}

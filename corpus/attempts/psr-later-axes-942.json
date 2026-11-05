@@ -1,0 +1,26 @@
+{
+  "id": "ATTEMPT-PSR-LATER-AXES-942",
+  "statement_ids": [
+    "STMT-PSR-STRENGTH-MAP",
+    "STMT-PSR-COLLAPSE-CORE",
+    "STMT-PSR-EPISTEMIC-ONTIC-BRIDGE-LADDER",
+    "STMT-EXPLANATORY-SYMMETRY-CORE",
+    "STMT-EXPLANATORY-ADEQUACY-COMPARISON",
+    "STMT-ULTIMATE-ADEQUACY-COMPARISON",
+    "STMT-NO-BRUTE-FOUNDATION-NORM-TEST",
+    "STMT-PSR-LATER-AXES-MAP"
+  ],
+  "date": "2026-11-05",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "evidence": [
+    "PSR-LATER-AXES-MAP",
+    "PSR-STRENGTH-MAP",
+    "PSR-COLLAPSE-CORE",
+    "PSR-EPISTEMIC-ONTIC-BRIDGE-LADDER",
+    "EXPLANATORY-SYMMETRY-CORE",
+    "ULTIMATE-ADEQUACY-COMPARISON"
+  ],
+  "summary": "Reused the existing map, inquiry, contrast, stopping and productive overlay declarations after related/dossier inventory. Rejected relabeling the ordinal rankings in #779 as probabilistic: that result explicitly had no probability measure. A genuine normalized finite Mathlib PMF on the existing ground worlds supplies event-ratio conditioning and specializes perReason favouring. Global sample-space truth, not accessibility-relative necessity without a support bridge, gives no probability raising. The less-likely actual world has true source, admitted reason and outcome, false rival and positive mass; it fails max-probability net selection. Conditioning on existence alone does not examine contingent exercise. Probability-zero is not impossibility. Composed tracking+support coverage into the earlier collapse core; kept the critic with brute root. All-necessary productive overlays have reason closure and contingent PSR; the chain even has FactPSR yet no Supply. Rooted branch and plural Supply retain opposite leastness verdicts. Exact scope and open interpretation/applicability bridges persist in docs/notes/psr-strength-755.md. No independent root closure, personal/impersonal discriminator, source reading, new causal ontology or metaphysical possibility claim. Frozen Challenge SHA-256 164843cfa4119861dd37dad788672a76a74157c48c52520c61b06623ab825285. Focused canonical module build, scoped binding (1 bound, 0 mismatch), Comparator and NanoDa pass; actual axioms propext, Classical.choice and Quot.sound match the Mathlib policy. Claim/type self-sweep preserves global-truth versus necessity and the all-necessary productive control. Computed frontier-diff: 90 open premises remain 90; cheapest cost31 unchanged.",
+  "blocker": "Probability support/propensity and its relationship to accessible alternatives, genuine reason relevance, productive applicability/actual exercise and adequacy, and an analysis of personal agency remain OPEN."
+}
