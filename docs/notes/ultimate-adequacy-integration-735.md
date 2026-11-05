@@ -9,7 +9,8 @@ unresolved bridges; conditional consequence does not establish premise truth.
 
 ### Unique necessary actual root to perfection (2026-11-05)
 
-The `agent/unique-root-perfection` batch registers
+The `agent/unique-root-perfection` batch (verified implementation
+`6f0a97e18b008d9f2a57b3b5da74c2dd1b717e45`) registers
 `UNIQUE-ROOT-PERFECTION`, composing `DirectEsseRootRoute.maximumExistsOfExistingRoot`,
 `maximumEqualsRoot` and `DirectEsseRootPerfectionGoodness.perfectOfMaximum`.
 It preserves the supplied actual root, its accessible-world necessity and its
@@ -28,7 +29,9 @@ No source claim, definition or disambiguation is introduced or reinterpreted.
 All retained definitions and disambiguations concern the existing vocabulary;
 source fidelity, dictionary applicability and the open metaphysical policies
 retain their prior boundaries. Attribution self-check finds no changed stating
-claims. Final delivered-head CI and current-head review remain required.
+claims. The focused build, scoped binding (one result, zero mismatches),
+Comparator with no permitted axioms and NanoDa pass. Final delivered-head CI
+and current-head review remain required.
 
 The coordinator's service trial used preview `a2d97ecf1429e86b3e12f15b91b735f85e27822e`,
 dirty fingerprint `d9531f3a0bb331b7b49d7d7cee53c17822d8a8d124bb6f7dd3fae582039893f3`,
@@ -47,7 +50,11 @@ had only the expected unused-tactic warning. All responses passed client binding
 checks, and no preview source file was changed. Recommendation: retain the
 shared service for repeated edits and goals; its startup cost and older preview
 imports mean final canonical-clone CLI/CI verification remains necessary.
-These interactive observations certify no final result.
+The canonical CLI check of the final public module took 1.51 s. Its imports
+include the subsequently merged module migration, whereas the service preview
+retained the earlier dependencies; this is a workflow observation, not a
+controlled speedup estimate. These interactive observations certify no final result.
+Next step: delivered-head CI and current-head review, then merge the PR.
 
 
 PRs #810–[#821](https://github.com/moritzbrantner/truth-core/pull/821) are
