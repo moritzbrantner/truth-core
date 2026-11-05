@@ -1,7 +1,12 @@
-import TruthCore.Causality.SourceForest
+module
+
+public import TruthCore.Causality.SourceForest
 
 /-! Analyst structural follow-up: upstream confluence controls finite paths
 once a graph-relative source EXISTS, without assuming well-foundedness. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.SourceWitness
 open TruthCore.Logic.Regress
 open TruthCore.Causality.SourceForest

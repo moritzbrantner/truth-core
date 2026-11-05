@@ -1,6 +1,8 @@
-import Mathlib.Analysis.SpecialFunctions.Exp
-import TruthCore.Causality.BoundedPastResource
-import TruthCore.Results.Causality.BoundedPastResource.Solution
+module
+
+public import Mathlib.Analysis.SpecialFunctions.Exp
+public import TruthCore.Causality.BoundedPastResource
+public import TruthCore.Results.Causality.BoundedPastResource.Solution
 
 /-! Two omission controls for the uniform-growth resource constraint.
 The whole integer grid, ordered in its usual direction, supplies a beginningless
@@ -8,6 +10,9 @@ past ending at zero: every t ≤ 0 has an earlier integer t - 1. The real-valued
 stock is a mathematical assignment, not entropy, a clock budget, or a proof of
 physical or metaphysical realization. No assumption about becoming is encoded.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Models.PastResourceControls
 open TruthCore.Causality.BoundedPastResource
 

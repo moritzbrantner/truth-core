@@ -1,5 +1,9 @@
-import TruthCore.Modal.ConvergenceCertificate
-import TruthCore.Results.Modal.Convergence.Solution
+module
+
+public import TruthCore.Modal.ConvergenceCertificate
+public import TruthCore.Results.Modal.Convergence.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Modal.ConvergenceCertificate
 universe u v

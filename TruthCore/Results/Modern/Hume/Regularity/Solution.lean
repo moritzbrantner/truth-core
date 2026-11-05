@@ -1,4 +1,8 @@
-import TruthCore.Modern.Hume.RegularityModels
+module
+
+public import TruthCore.Modern.Hume.RegularityModels
+
+@[expose] public section
 
 namespace TruthCore.Results.Modern.Hume.Regularity
 open TruthCore.Modern.Hume.Regularity

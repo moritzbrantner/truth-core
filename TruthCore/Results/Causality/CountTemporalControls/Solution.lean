@@ -1,4 +1,9 @@
-import TruthCore.Models.CountTemporalControls
+module
+
+public import TruthCore.Models.CountTemporalControls
+
+@[expose] public section
+
 namespace TruthCore.Results.Causality.CountTemporalControls
 open TruthCore.Models.CountTemporalControls
 open TruthCore.Causality.CountTemporalNecessity

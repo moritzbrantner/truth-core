@@ -1,5 +1,9 @@
-import TruthCore.Causality.BearerRegress
-import TruthCore.Results.Logic.CogitoSubject.Solution
+module
+
+public import TruthCore.Causality.BearerRegress
+public import TruthCore.Results.Logic.CogitoSubject.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.BearerRegress
 

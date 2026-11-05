@@ -1,4 +1,8 @@
-import TruthCore.Greek.Aristotle.Physics.BookI.Chapter5
+module
+
+public import TruthCore.Greek.Aristotle.Physics.BookI.Chapter5
+
+@[expose] public section
 
 namespace TruthCore.Results.Aristotle.Physics.NaturalBecomingFromContraries
 

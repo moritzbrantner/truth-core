@@ -8,6 +8,10 @@ lists stay unchanged. Challenges and the generated aggregators stay ordinary fil
 
     python3 scripts/convert_to_module.py plan [--max-level N] [--json]
     python3 scripts/convert_to_module.py convert [--max-level N | FILE ...]
+    python3 scripts/convert_to_module.py check
+
+`check` (run by CI) fails when a library file other than a Challenge or an aggregator is not a
+module: new Solutions and vocabulary files are written as modules (owner decision on #986).
 
 `plan` lists every library file that is not yet a module, with its topological level (the
 longest chain of TruthCore imports below it) and whether it is convertible now. A file is
@@ -190,6 +194,7 @@ def main(argv: list[str] | None = None) -> int:
     plan = sub.add_parser("plan")
     plan.add_argument("--max-level", type=int)
     plan.add_argument("--json", action="store_true")
+    sub.add_parser("check")
     conv = sub.add_parser("convert")
     conv.add_argument("--max-level", type=int)
     conv.add_argument("files", nargs="*", type=Path)
@@ -205,6 +210,15 @@ def main(argv: list[str] | None = None) -> int:
             for name, why in sorted(blocked.items()):
                 print(f"  blocked {name}: {why}")
             print(f"{len(selected)} convertible, {len(blocked)} blocked", file=sys.stderr)
+        return 0
+    if args.command == "check":
+        missing = graph.candidates(None)
+        for name in missing:
+            print(f"not a module: {graph.files[name].relative_to(graph.root)}", file=sys.stderr)
+        if missing:
+            print("write new Solutions and vocabulary files as modules: "
+                  "python3 scripts/convert_to_module.py convert <FILE> (AGENTS.md)", file=sys.stderr)
+            return 1
         return 0
     if args.files and args.max_level is not None:
         parser.error("give either --max-level or files")

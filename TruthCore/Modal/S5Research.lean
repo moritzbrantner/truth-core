@@ -1,9 +1,14 @@
-import TruthCore.Modal.KResearch
-import TruthCore.Modal.Cube
+module
+
+public import TruthCore.Modal.KResearch
+public import TruthCore.Modal.Cube
 
 /-! Issue #267: stipulated S5 experiments, not historical attributions.
 The shared domains and evaluator are reused. All conclusions retain their root,
 component and proposition scope; no theological axiom is imported. -/
+
+@[expose] public section
+
 namespace TruthCore.Modal.S5Research
 open TruthCore.Modal.ResearchFixture
 open TruthCore.Modal.ResearchFinite

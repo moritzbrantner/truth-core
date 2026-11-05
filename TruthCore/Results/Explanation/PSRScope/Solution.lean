@@ -1,4 +1,8 @@
-import TruthCore.Explanation.ExistencePSR
+module
+
+public import TruthCore.Explanation.ExistencePSR
+
+@[expose] public section
 
 namespace TruthCore.Results.Explanation.PSRScope
 open TruthCore.Explanation.ExistencePSR

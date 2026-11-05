@@ -1,11 +1,16 @@
-import TruthCore.Causality.RootWithoutLimitingPrinciple
-import TruthCore.Case.Catholicism.StageTwo
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.IntellectWill
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article8
+module
+
+public import TruthCore.Causality.RootWithoutLimitingPrinciple
+public import TruthCore.Case.Catholicism.StageTwo
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.IntellectWill
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article8
 
 /-! Same-witness conditional attribute composition. Intellect and will retain
 existing primitive predicates constrained by the q14/q19 readings; no omniscience,
 free choice, divine naming or source applicability is established. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.RootIntellectWill
 open TruthCore.Causality.BruteFoundationBoundary
 open TruthCore.Causality.NecessaryRootFork (ActualRoot)

@@ -1,6 +1,10 @@
-import TruthCore.Results.Causality.DirectEsseRootGodExistence.Solution
-import TruthCore.Results.Causality.NecessaryFirstBeing.Solution
-import TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Solution
+module
+
+public import TruthCore.Results.Causality.DirectEsseRootGodExistence.Solution
+public import TruthCore.Results.Causality.NecessaryFirstBeing.Solution
+public import TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.DirectEsseRootGodExistence.ExistenceOnly
 

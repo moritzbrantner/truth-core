@@ -1,6 +1,10 @@
-import TruthCore.Causality.NecessaryConcreteUnderived
-import TruthCore.Logic.ExcludedMiddle
-import TruthCore.Results.Causality.NecessarilyUnderived.PositiveUnion.Solution
+module
+
+public import TruthCore.Causality.NecessaryConcreteUnderived
+public import TruthCore.Logic.ExcludedMiddle
+public import TruthCore.Results.Causality.NecessarilyUnderived.PositiveUnion.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.NecessaryConcreteUnderivedFromNecessity
 open TruthCore.Causality.BruteFoundationBoundary (Profile NecessaryConcreteAt)

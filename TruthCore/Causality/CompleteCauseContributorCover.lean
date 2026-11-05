@@ -1,4 +1,6 @@
-import TruthCore.Causality.AtomisticCausalSource
+module
+
+public import TruthCore.Causality.AtomisticCausalSource
 
 /-! Selected-context contributor policies, interpreting Rutten ChapterVII p157
 and fn211 (RUTTEN-RENEWED-THEISM-CH7-REPLIES). The supplied family records
@@ -8,6 +10,9 @@ predecessor set. Necessary background conditions are not automatically
 productive participants. Source fidelity and real causal application remain open.
 No event ontology, cause existence, fusion formation, causal inheritance or
 cross-world identity is introduced. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.CompleteCauseContributorCover
 open TruthCore.Logic.Regress (Graph)
 open TruthCore.Mereology.UniversalFusionBoundary (Covers)

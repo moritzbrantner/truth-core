@@ -1,9 +1,14 @@
-import TruthCore.Metaethics.NaturalisticRealism
+module
+
+public import TruthCore.Metaethics.NaturalisticRealism
 
 /-! #249: theory bundles for the selected naturalist fragments. Source-level
 answers and strongest replies, shared questions and exact counts are recorded
 in docs/naturalistic-moral-realism.md. Model consistency does not establish
 the existence of the proposed natural grounds or their normative adequacy. -/
+
+@[expose] public section
+
 namespace TruthCore.Comparison.NaturalisticRealism
 open TruthCore.Metaethics.NaturalisticRealism
 open TruthCore.Latin.Aquinas.SummaTheologiae

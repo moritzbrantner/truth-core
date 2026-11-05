@@ -1,4 +1,9 @@
-import TruthCore.Causality.NecessaryClassicalGodRoot
+module
+
+public import TruthCore.Causality.NecessaryClassicalGodRoot
+
+@[expose] public section
+
 namespace TruthCore.Results.Causality.NecessaryClassicalGodRootProjection
 open TruthCore.Causality.BruteFoundationBoundary
 open TruthCore.Causality.NecessaryClassicalGodRoot

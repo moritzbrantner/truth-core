@@ -1,4 +1,6 @@
-import TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.Quantifiers
+module
+
+public import TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.Quantifiers
 
 /-!
 Analyst-stipulated intervention semantics for #435. No source is attributed this
@@ -9,6 +11,9 @@ the output records an effect in a distinct recipient. This is a mathematical
 capacity criterion, not an analysis of metaphysical causation or a proof of
 metaphysical possibility. See docs/necessary-concrete-causal-powers.md.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.CausalPowers
 open TruthCore.Modal
 open TruthCore.Isabelle.AFP.GoedelGod (Box)

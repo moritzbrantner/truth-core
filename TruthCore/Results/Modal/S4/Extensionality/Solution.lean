@@ -1,4 +1,9 @@
-import TruthCore.Results.Modal.S4.ScopeBoundary.Solution
+module
+
+public import TruthCore.Results.Modal.S4.ScopeBoundary.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Modal.S4.Extensionality
 open TruthCore.Modal
 open TruthCore.Modal.ResearchFixture

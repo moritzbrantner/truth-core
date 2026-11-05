@@ -1,6 +1,11 @@
-import TruthCore.Causality.TemporalPrimaVia
-import TruthCore.Results.Causality.TemporalActualization.Framework.Solution
-import TruthCore.Results.Aquinas.SummaTheologiae.PrimaVia.Solution
+module
+
+public import TruthCore.Causality.TemporalPrimaVia
+public import TruthCore.Results.Causality.TemporalActualization.Framework.Solution
+public import TruthCore.Results.Aquinas.SummaTheologiae.PrimaVia.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Causality.TemporalPrimaVia.Route
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Causality.TemporalActualization

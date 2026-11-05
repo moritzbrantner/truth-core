@@ -1,5 +1,9 @@
-import TruthCore.Explanation.ExplanatoryAdequacy
-import TruthCore.Results.Explanation.UltimateAdequacy.Solution
+module
+
+public import TruthCore.Explanation.ExplanatoryAdequacy
+public import TruthCore.Results.Explanation.UltimateAdequacy.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Explanation.ExplanatoryAdequacy
 open TruthCore.Explanation.ExplanatoryAdequacy

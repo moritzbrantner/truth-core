@@ -1,9 +1,14 @@
-import TruthCore.Results.Causality.NecessarySimplePlurality.Solution
+module
+
+public import TruthCore.Results.Causality.NecessarySimplePlurality.Solution
 
 /-! Closed finite-model projections of the single joint control. Registration
 is model-relative, not source fidelity or metaphysical possibility. The Q11
 predicate parameter is the two-root candidate predicate, not an identification
 of those candidates with God. -/
+
+@[expose] public section
+
 namespace TruthCore.Models.NecessarySimplePlurality
 open TruthCore.Causality.NecessarySimplePlurality
 

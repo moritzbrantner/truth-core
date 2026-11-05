@@ -1,4 +1,6 @@
-import TruthCore.Causality.FiniteBranching
+module
+
+public import TruthCore.Causality.FiniteBranching
 
 /-!
 # Finite source inspections do not imply a global source
@@ -7,6 +9,9 @@ The relation is the already-checked successor-predecessor countermodel:
 `cause y x` means `y = x + 1` on natural numbers. This is a source-free
 mathematical counterexample, not a claim about physical regress.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.FiniteRestriction
 
 open TruthCore.Causality.FiniteBranching

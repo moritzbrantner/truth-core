@@ -1,5 +1,9 @@
-import TruthCore.Results.Causality.WholeRosterFoundation.Solution
-import TruthCore.Results.Causality.ConcreteExistentialSupply.Solution
+module
+
+public import TruthCore.Results.Causality.WholeRosterFoundation.Solution
+public import TruthCore.Results.Causality.ConcreteExistentialSupply.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.WholeRosterRootEquivalence
 open TruthCore.Causality.BruteFoundationBoundary

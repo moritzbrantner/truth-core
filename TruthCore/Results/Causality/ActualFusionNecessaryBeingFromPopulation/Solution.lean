@@ -1,5 +1,9 @@
-import TruthCore.Results.Causality.ActualFusionNecessaryBeing.Solution
-import TruthCore.Explanation.WellFoundedSource
+module
+
+public import TruthCore.Results.Causality.ActualFusionNecessaryBeing.Solution
+public import TruthCore.Explanation.WellFoundedSource
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.ActualFusionNecessaryBeingFromPopulation
 open TruthCore.German.Kant.CosmologicalInference

@@ -1,4 +1,8 @@
-import TruthCore.Causality.PartFreePlurality
+module
+
+public import TruthCore.Causality.PartFreePlurality
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.PartFreePlurality
 open TruthCore.Causality.PartFreePlurality

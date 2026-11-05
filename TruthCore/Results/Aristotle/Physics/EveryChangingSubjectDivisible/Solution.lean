@@ -1,4 +1,8 @@
-import TruthCore.Greek.Aristotle.Physics.BookVI.Chapter4
+module
+
+public import TruthCore.Greek.Aristotle.Physics.BookVI.Chapter4
+
+@[expose] public section
 
 namespace TruthCore.Results.Aristotle.Physics.EveryChangingSubjectDivisible
 open TruthCore.Greek.Aristotle.Physics

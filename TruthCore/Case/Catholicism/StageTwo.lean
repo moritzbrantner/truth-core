@@ -1,4 +1,6 @@
-import TruthCore.Case.Catholicism.StageOneQuartaVia
+module
+
+public import TruthCore.Case.Catholicism.StageOneQuartaVia
 
 /-!
 Stage 2, the classical divine attributes (owner decision on #143, 2026-10-24:
@@ -17,6 +19,8 @@ The other five (infinite, immutable, eternal, intellect, will) are derived in
 groups 2 and 3 (results CATHOLICISM-STAGE2-GOD-IS-INFINITE … -HAS-WILL), each
 also supported by *Dei Filius* ch. 1.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Case.Catholicism
 

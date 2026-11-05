@@ -1,4 +1,9 @@
-import TruthCore.Results.Causality.TemporalActualization.Reciprocal.Solution
+module
+
+public import TruthCore.Results.Causality.TemporalActualization.Reciprocal.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Causality.TemporalActualization.Controls
 open TruthCore.Causality.TemporalActualization
 

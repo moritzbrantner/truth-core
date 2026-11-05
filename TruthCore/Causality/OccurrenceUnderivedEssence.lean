@@ -1,9 +1,14 @@
-import TruthCore.Causality.CogitoNecessaryConcrete
-import TruthCore.Causality.UnderivedEssenceEsse
+module
+
+public import TruthCore.Causality.CogitoNecessaryConcrete
+public import TruthCore.Causality.UnderivedEssenceEsse
 
 /-! #701: one selected actual world and rigid candidate domain throughout.
 No historical attribution: the new support-to-ground map is an open analyst
 premise, not evidence that actual existential support is concrete grounding. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.OccurrenceUnderivedEssence
 open TruthCore.Causality.BruteFoundationBoundary
 open TruthCore.Causality.CogitoNecessaryConcrete

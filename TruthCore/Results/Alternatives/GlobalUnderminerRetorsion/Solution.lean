@@ -1,7 +1,11 @@
-import TruthCore.Alternatives.FirstClosure
-import TruthCore.Alternatives.Retorsion
-import TruthCore.Results.Logic.PerformedDenial.NoAccurateDenial.Solution
-import TruthCore.Results.Logic.PerformedDenial.StaticControl.Solution
+module
+
+public import TruthCore.Alternatives.FirstClosure
+public import TruthCore.Alternatives.Retorsion
+public import TruthCore.Results.Logic.PerformedDenial.NoAccurateDenial.Solution
+public import TruthCore.Results.Logic.PerformedDenial.StaticControl.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Alternatives.GlobalUnderminerRetorsion
 open TruthCore.Logic.PerformedDenial

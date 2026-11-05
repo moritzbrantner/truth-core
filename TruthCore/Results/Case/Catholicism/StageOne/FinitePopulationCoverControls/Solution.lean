@@ -1,4 +1,8 @@
-import TruthCore.Results.Case.Catholicism.StageOne.FinitePopulationCover.Proof
+module
+
+public import TruthCore.Results.Case.Catholicism.StageOne.FinitePopulationCover.Proof
+
+@[expose] public section
 
 namespace TruthCore.Results.Case.Catholicism.StageOne.FinitePopulationCoverControls
 open TruthCore.Case.Catholicism.StageOne.NecessaryIndividual

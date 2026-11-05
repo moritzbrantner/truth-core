@@ -1,6 +1,11 @@
-import TruthCore.Results.Aquinas.SummaTheologiae.FirstBeingNoPotency.Solution
-import TruthCore.Case.Catholicism.StageTwo
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article1
+module
+
+public import TruthCore.Results.Aquinas.SummaTheologiae.FirstBeingNoPotency.Solution
+public import TruthCore.Case.Catholicism.StageTwo
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article1
+
+@[expose] public section
+
 namespace TruthCore.Results.Case.Catholicism.StageTwo.GodIsImmutable
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Case.Catholicism

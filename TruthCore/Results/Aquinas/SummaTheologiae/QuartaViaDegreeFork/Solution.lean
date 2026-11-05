@@ -1,4 +1,8 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaViaFork
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaViaFork
+
+@[expose] public section
 
 namespace TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaDegreeFork
 open TruthCore.Latin.Aquinas.SummaTheologiae

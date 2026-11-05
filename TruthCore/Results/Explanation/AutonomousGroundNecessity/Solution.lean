@@ -1,6 +1,10 @@
-import TruthCore.Explanation.AutonomousGroundNecessity
-import TruthCore.Results.Explanation.JointCondition.Solution
-import TruthCore.Causality.BruteFoundationRoutes
+module
+
+public import TruthCore.Explanation.AutonomousGroundNecessity
+public import TruthCore.Results.Explanation.JointCondition.Solution
+public import TruthCore.Causality.BruteFoundationRoutes
+
+@[expose] public section
 
 namespace TruthCore.Results.Explanation.AutonomousGroundNecessity
 open TruthCore.Explanation.AutonomousGroundNecessity

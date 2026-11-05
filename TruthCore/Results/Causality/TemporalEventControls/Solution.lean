@@ -1,4 +1,9 @@
-import TruthCore.Causality.TemporalEventControls
+module
+
+public import TruthCore.Causality.TemporalEventControls
+
+@[expose] public section
+
 namespace TruthCore.Results.Causality.TemporalEventControls
 open TruthCore.Causality TruthCore.Causality.TemporalEventControls
 /-- First time, first event, metric boundedness and causal regress are distinct. -/

@@ -1,11 +1,16 @@
-import TruthCore.Causality.ModalNecessaryBeingActuality
-import TruthCore.Causality.ExistenceActuality
-import TruthCore.Causality.NecessarilyUnderived
-import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaNecessaryPerSeIsMaximeEns.Solution
+module
+
+public import TruthCore.Causality.ModalNecessaryBeingActuality
+public import TruthCore.Causality.ExistenceActuality
+public import TruthCore.Causality.NecessarilyUnderived
+public import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaNecessaryPerSeIsMaximeEns.Solution
 
 /-! Analyst configured adapter for the existing modalPossible/modalIsAt reading.
 No assertion is made for arbitrary temporal Possible or independently true
 metaphysical/act dictionaries. Existing convergence remains off the root. -/
+
+@[expose] public section
+
 namespace TruthCore.Results.Causality.ModalNecessaryBeingActuality
 open TruthCore.Causality.BruteFoundationBoundary (Profile)
 open TruthCore.Causality.NecessaryConcreteRouteBridge (modalPossible modalIsAt)

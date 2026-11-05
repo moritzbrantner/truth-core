@@ -1,5 +1,10 @@
-import TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaEachDirected.Solution
-import TruthCore.Case.Catholicism.StageOneQuintaVia
+module
+
+public import TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaEachDirected.Solution
+public import TruthCore.Case.Catholicism.StageOneQuintaVia
+
+@[expose] public section
+
 namespace TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaOneGovernor
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaModels

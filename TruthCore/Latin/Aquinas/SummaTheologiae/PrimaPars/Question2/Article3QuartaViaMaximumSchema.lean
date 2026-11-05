@@ -1,11 +1,16 @@
-import TruthCore.Logic.MaximumOrder
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaViaOrder
+module
+
+public import TruthCore.Logic.MaximumOrder
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaViaOrder
 
 /-! Conditional instances of the maximum schema, composing the order lemmas
 from #386. No new source reading is attributed here. Being, goodness and truth
 remain separate respects; neither their scales nor their maxima are identified.
 The unrestricted cause-more-such condition remains an explicit hypothesis,
 including its open extension beyond synonymous causes (Metaphysics II.1). -/
+
+@[expose] public section
+
 namespace TruthCore.Latin.Aquinas.SummaTheologiae
 
 open TruthCore.Logic.MaximumOrder

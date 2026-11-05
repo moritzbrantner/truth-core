@@ -1,10 +1,15 @@
-import TruthCore.Causality.RootIntellectWillPureAct
-import TruthCore.Causality.StrictPriorityPureAct
-import TruthCore.Causality.PartFreePlurality
+module
+
+public import TruthCore.Causality.RootIntellectWillPureAct
+public import TruthCore.Causality.StrictPriorityPureAct
+public import TruthCore.Causality.PartFreePlurality
 
 /-! Positive joint configuration on the UNCHANGED five-being part-free
 strengthening (#684), not the original four-being #681 interpretation.
 No metaphysical possibility or explanatory/cognitive adequacy is asserted. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.RootIntellectWillPureActPlurality
 open TruthCore.Causality.PartFreePlurality
 open TruthCore.Causality.BruteFoundationBoundary

@@ -1,6 +1,10 @@
-import TruthCore.Causality.CogitoNecessaryConcrete
-import TruthCore.Causality.SelectedAncestry
-import TruthCore.Results.Logic.CogitoSubject.Solution
+module
+
+public import TruthCore.Causality.CogitoNecessaryConcrete
+public import TruthCore.Causality.SelectedAncestry
+public import TruthCore.Results.Logic.CogitoSubject.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.CogitoNecessaryConcrete
 

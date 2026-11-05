@@ -1,5 +1,7 @@
-import TruthCore.Alternatives.NightCosmogony
-import TruthCore.Logic.ExcludedMiddle
+module
+
+public import TruthCore.Alternatives.NightCosmogony
+public import TruthCore.Logic.ExcludedMiddle
 
 /-!
 The alternatives for the *same* unpreceded moved potency in the existing Night
@@ -8,6 +10,9 @@ not a new interpretation of motion, act, potency or priority. The coverage
 theorem takes excluded middle explicitly; no source is attributed with this
 classification. The self-mover and other-mover branches can overlap.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Alternatives.NightActualizationFork
 
 /-- No mover in act in the given respect moves this being. This does not deny

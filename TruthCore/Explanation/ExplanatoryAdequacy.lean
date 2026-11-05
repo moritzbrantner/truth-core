@@ -1,5 +1,7 @@
-import TruthCore.Explanation.PSRStrength
-import TruthCore.Explanation.UltimateAdequacy
+module
+
+public import TruthCore.Explanation.PSRStrength
+public import TruthCore.Explanation.UltimateAdequacy
 
 /-!
 # Candidate standards of ultimate explanatory adequacy (#750)
@@ -10,6 +12,9 @@ interpreted parameter of #755: the theorems say what follows when an analyst-bui
 interpretation admits a reason, not that the reason genuinely explains. See
 `docs/notes/explanatory-adequacy-750.md` for the interpretation, sources and rivals.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Explanation.ExplanatoryAdequacy
 
 open TruthCore.Explanation.PSRStrength

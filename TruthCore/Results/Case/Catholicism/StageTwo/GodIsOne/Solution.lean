@@ -1,5 +1,10 @@
-import TruthCore.Case.Catholicism.StageTwo
-import TruthCore.Results.Aquinas.SummaTheologiae.AtMostOneMaximeEns.Solution
+module
+
+public import TruthCore.Case.Catholicism.StageTwo
+public import TruthCore.Results.Aquinas.SummaTheologiae.AtMostOneMaximeEns.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Case.Catholicism.StageTwo.GodIsOne
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Greek.Aristotle.Metaphysics (CauseOfQualityInAnotherIsMoreSuchReading)

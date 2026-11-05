@@ -1,4 +1,8 @@
-import TruthCore.Explanation.DisjunctionGround
+module
+
+public import TruthCore.Explanation.DisjunctionGround
+
+@[expose] public section
 
 namespace TruthCore.Results.Explanation.DisjunctionGround
 open TruthCore.Explanation.PSRStrength

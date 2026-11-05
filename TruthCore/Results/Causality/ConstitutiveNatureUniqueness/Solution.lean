@@ -1,6 +1,11 @@
-import TruthCore.Causality.ConstitutiveNatureUniqueness
-import TruthCore.Results.Case.Catholicism.Q11NatureUniqueness.Solution
-import TruthCore.Results.Causality.PartFreePlurality.Solution
+module
+
+public import TruthCore.Causality.ConstitutiveNatureUniqueness
+public import TruthCore.Results.Case.Catholicism.Q11NatureUniqueness.Solution
+public import TruthCore.Results.Causality.PartFreePlurality.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Causality.ConstitutiveNatureUniqueness
 open TruthCore.Case.Catholicism
 open TruthCore.Latin.Aquinas.SummaTheologiae

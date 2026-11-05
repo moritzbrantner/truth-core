@@ -1,4 +1,9 @@
-import TruthCore.Greek.Aristotle.Physics.BookVII.Chapter1
+module
+
+public import TruthCore.Greek.Aristotle.Physics.BookVII.Chapter1
+
+@[expose] public section
+
 namespace TruthCore.Results.Aristotle.Physics.InitialMoverReductioFails
 open TruthCore.Greek.Aristotle.Physics
 theorem initialMoverReductioFails

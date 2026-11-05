@@ -1,4 +1,9 @@
-import TruthCore.Results.Modal.S4.Countermodels.Solution
+module
+
+public import TruthCore.Results.Modal.S4.Countermodels.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Modal.S4.ScopeBoundary
 open TruthCore.Modal
 open TruthCore.Modal.ResearchFixture

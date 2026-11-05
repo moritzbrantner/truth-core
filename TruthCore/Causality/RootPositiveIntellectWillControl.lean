@@ -1,10 +1,15 @@
-import TruthCore.Causality.RootPositiveIntellectWill
+module
+
+public import TruthCore.Causality.RootPositiveIntellectWill
 
 /-! Positive/discriminating extension of the EXACT #732 concurrent role model.
 Only previously unspecified modal/ground, part/priority, represented-map and
 cognitive dictionaries are supplied. No old role, act, cause or grade changes.
 The component assignment deliberately does NOT impose priority of every part;
 its formal satisfaction is not a metaphysical interpretation or adequacy claim. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.RootPositiveIntellectWillControl
 open TruthCore.Causality.BruteFoundationBoundary
 open TruthCore.Causality.WholeRosterFoundation

@@ -1,4 +1,8 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.InfinityReceptionControl
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.InfinityReceptionControl
+
+@[expose] public section
 
 namespace TruthCore.Results.Aquinas.SummaTheologiae.SubsistentInfinityReceptionControls
 open TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.InfinityReception

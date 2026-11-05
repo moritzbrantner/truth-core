@@ -1,6 +1,8 @@
-import TruthCore.Logic.ExcludedMiddle
-import TruthCore.Modern.Papineau.RiseOfPhysicalism
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question75.Subsistence
+module
+
+public import TruthCore.Logic.ExcludedMiddle
+public import TruthCore.Modern.Papineau.RiseOfPhysicalism
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question75.Subsistence
 
 /-!
 A certified comparison arena for one question of #419: what is the status of
@@ -17,6 +19,8 @@ No declaration here says that a mental occurrence is or is not physical. Every
 model of this vocabulary is a finite formal interpretation, not a claim about
 metaphysical possibility or about how thinking is implemented.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Alternatives.MindPhysicalism
 

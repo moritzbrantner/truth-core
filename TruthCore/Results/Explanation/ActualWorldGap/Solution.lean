@@ -1,6 +1,11 @@
-import TruthCore.Explanation.ActualWorldGap
-import TruthCore.Results.Explanation.HistorySelection.Solution
-import TruthCore.Results.Explanation.UltimateAdequacy.Solution
+module
+
+public import TruthCore.Explanation.ActualWorldGap
+public import TruthCore.Results.Explanation.HistorySelection.Solution
+public import TruthCore.Results.Explanation.UltimateAdequacy.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Explanation.ActualWorldGap
 open TruthCore.Explanation.ActualWorldGap
 open TruthCore.Modal.TemporalHistory TruthCore.Modal.HistoryContrastive

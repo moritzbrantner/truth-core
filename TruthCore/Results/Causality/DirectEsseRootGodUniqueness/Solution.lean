@@ -1,7 +1,11 @@
-import TruthCore.Results.Causality.WholeRosterFoundation.Solution
-import TruthCore.Causality.DirectEsseRootRoute
-import TruthCore.Causality.WholeRosterFoundation
-import TruthCore.Case.Catholicism.StageTwo
+module
+
+public import TruthCore.Results.Causality.WholeRosterFoundation.Solution
+public import TruthCore.Causality.DirectEsseRootRoute
+public import TruthCore.Causality.WholeRosterFoundation
+public import TruthCore.Case.Catholicism.StageTwo
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.DirectEsseRootGodUniqueness
 open TruthCore.Causality.BruteFoundationBoundary

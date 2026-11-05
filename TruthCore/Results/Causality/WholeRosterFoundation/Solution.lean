@@ -1,5 +1,9 @@
-import TruthCore.Causality.WholeRosterFoundation
-import TruthCore.Causality.NecessaryConcreteRouteBridge
+module
+
+public import TruthCore.Causality.WholeRosterFoundation
+public import TruthCore.Causality.NecessaryConcreteRouteBridge
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.WholeRosterFoundation
 open TruthCore.Causality.BruteFoundationBoundary

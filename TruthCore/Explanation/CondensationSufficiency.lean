@@ -1,6 +1,8 @@
-import TruthCore.Explanation.UltimateAdequacy
-import TruthCore.Explanation.PSRStrength
-import Mathlib.Combinatorics.Quiver.ConnectedComponent
+module
+
+public import TruthCore.Explanation.UltimateAdequacy
+public import TruthCore.Explanation.PSRStrength
+public import Mathlib.Combinatorics.Quiver.ConnectedComponent
 
 /-! Analyst comparison for #752 under the #733/#734 joint-group profile. It asks
 what passes from a causal-group record to its projected membership graph and to
@@ -9,6 +11,9 @@ proposed inductive standard: nothing here defends it as actual productive
 explanation, and a rival who rejects it is not refuted. A component is a
 reachability class, not a substance, a cause or a ground. See
 docs/notes/scc-sufficiency-752.md. -/
+
+@[expose] public section
+
 namespace TruthCore.Explanation.CondensationSufficiency
 open TruthCore.Logic.Regress
 open TruthCore.Causality.JointGroups

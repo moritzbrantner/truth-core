@@ -1,7 +1,9 @@
-import TruthCore.Causality.EsseReception
-import TruthCore.Latin.Aquinas.DeEnte.EsseReception
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.InfinityEternity
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.InfinityReception
+module
+
+public import TruthCore.Causality.EsseReception
+public import TruthCore.Latin.Aquinas.DeEnte.EsseReception
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.InfinityEternity
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.InfinityReception
 
 /-!
 Formal omission and compatibility controls for the five reception premises
@@ -11,6 +13,8 @@ interpretation of the shared vocabulary. It shows what the encoded premises do
 and do not entail. It does not claim that any interpretation is metaphysically
 possible or that a rival reading of Aquinas is correct.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.InfinityReception.Control
 open TruthCore.Causality.EsseReception

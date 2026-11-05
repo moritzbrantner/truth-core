@@ -1,8 +1,13 @@
-import TruthCore.Results.Case.Catholicism.Q11NatureUniqueness.Solution
-import TruthCore.Case.Catholicism.StagesOneTwo
-import TruthCore.Results.Case.Catholicism.StageOneViaFullDescription.Solution
-import TruthCore.Results.Aquinas.SummaTheologiae.PrimaVia.Solution
-import TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributesAll.Solution
+module
+
+public import TruthCore.Results.Case.Catholicism.Q11NatureUniqueness.Solution
+public import TruthCore.Case.Catholicism.StagesOneTwo
+public import TruthCore.Results.Case.Catholicism.StageOneViaFullDescription.Solution
+public import TruthCore.Results.Aquinas.SummaTheologiae.PrimaVia.Solution
+public import TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributesAll.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Case.Catholicism.StagesOneTwoQ11
 open TruthCore.Case.Catholicism
 open TruthCore.Latin.Aquinas.SummaTheologiae

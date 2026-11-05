@@ -1,4 +1,6 @@
-import TruthCore.Alternatives.Inertia
+module
+
+public import TruthCore.Alternatives.Inertia
 
 /-!
 The inertial objection to the prima via's mover premise as a theory bundle
@@ -13,6 +15,8 @@ of a persevering body and the mover bridge are unattributed open premises. No
 pinned source states the whole bundle; no modern statement of the objection is
 pinned.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Comparison.Inertia
 

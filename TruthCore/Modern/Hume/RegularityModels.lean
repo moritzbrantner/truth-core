@@ -1,4 +1,8 @@
-import TruthCore.Comparison.HumeRegularity
+module
+
+public import TruthCore.Comparison.HumeRegularity
+
+@[expose] public section
 
 namespace TruthCore.Modern.Hume.Regularity
 open TruthCore.Comparison.HumeRegularity

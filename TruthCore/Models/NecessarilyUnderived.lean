@@ -1,5 +1,7 @@
-import TruthCore.Causality.NecessarilyUnderived
-import TruthCore.Models.FiniteSupport
+module
+
+public import TruthCore.Causality.NecessarilyUnderived
+public import TruthCore.Models.FiniteSupport
 
 /-!
 # Independent finite controls for necessary underived existence
@@ -8,6 +10,8 @@ These are formal structures, not claims that their support relations describe
 metaphysical possibilities. In particular, an ungrounded individual in the
 signature is not thereby God or a self-explaining existence fact.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Models.NecessarilyUnderived
 

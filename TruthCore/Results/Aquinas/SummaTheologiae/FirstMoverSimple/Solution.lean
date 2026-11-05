@@ -1,5 +1,10 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.FirstMoverAttributes
-import TruthCore.Case.Catholicism.StageOneBridges
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.FirstMoverAttributes
+public import TruthCore.Case.Catholicism.StageOneBridges
+
+@[expose] public section
+
 namespace TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverSimple
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Case.Catholicism (FirstUnmovedMoverIsFirstBeing)

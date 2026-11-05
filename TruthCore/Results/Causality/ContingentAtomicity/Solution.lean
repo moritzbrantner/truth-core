@@ -1,6 +1,10 @@
-import TruthCore.Causality.ContingentAtomicity
-import TruthCore.Logic.ExcludedMiddle
-import TruthCore.Results.Causality.ScopedActualCausality.Solution
+module
+
+public import TruthCore.Causality.ContingentAtomicity
+public import TruthCore.Logic.ExcludedMiddle
+public import TruthCore.Results.Causality.ScopedActualCausality.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.ContingentAtomicity
 open TruthCore.German.Kant.CosmologicalInference

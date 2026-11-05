@@ -1,6 +1,8 @@
-import TruthCore.Case.Catholicism.StageOne
-import TruthCore.Latin.Aquinas.InMetaphysicam.BookXII
-import TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.ActPriorFromIncorruptible.Solution
+module
+
+public import TruthCore.Case.Catholicism.StageOne
+public import TruthCore.Latin.Aquinas.InMetaphysicam.BookXII
+public import TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.ActPriorFromIncorruptible.Solution
 
 /-!
 *Metaphysics* Λ.7 and *In Metaph.* XII, lect. 7 as a route to the pure act of the
@@ -12,6 +14,8 @@ mover, any such potency in a respect of change (it cannot be otherwise in any
 way, unlike the first heaven, which can be otherwise in place). The proof
 composes that result's pure-act corollary.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverPureActFromLambda7
 open TruthCore.Latin.Aquinas.SummaTheologiae

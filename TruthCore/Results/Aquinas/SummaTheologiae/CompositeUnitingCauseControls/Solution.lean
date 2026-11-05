@@ -1,4 +1,8 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7UnitingControl
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7UnitingControl
+
+@[expose] public section
 
 namespace TruthCore.Results.Aquinas.SummaTheologiae.CompositeUnitingCauseControls
 open TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7Uniting

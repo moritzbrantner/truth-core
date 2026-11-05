@@ -1,11 +1,16 @@
-import TruthCore.Causality.UnderivedNonComposite
-import TruthCore.Causality.ExistenceActuality
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article4
+module
+
+public import TruthCore.Causality.UnderivedNonComposite
+public import TruthCore.Causality.ExistenceActuality
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article4
 
 /-! A conditional same-witness connection for #319. The q.3 a.4 first-proof
 premises retain their existing source readings. Actuality and causal/support
 interfaces are explicitly open; no modal necessity, pure actuality, uniqueness
 or self-explanation follows merely from equality in the Principle sort. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.UnderivedEssenceEsse
 open TruthCore.German.Kant.CosmologicalInference
 open TruthCore.Causality.NamedPotentialCauser

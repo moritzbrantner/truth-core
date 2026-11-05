@@ -1,5 +1,10 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.ActPotencyTheory
-import TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyModels
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.ActPotencyTheory
+public import TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyModels
+
+@[expose] public section
+
 namespace TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.BeingInActReading
 open TruthCore.Latin.Aquinas.SummaTheologiae
 

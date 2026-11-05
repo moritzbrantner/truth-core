@@ -1,9 +1,14 @@
-import TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.Quantifiers
+module
+
+public import TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.Quantifiers
 
 /-! Stipulated accessible-population closure policies for #533/#534.
 These impose no frame condition or metaphysical possibility interpretation.
 With no accessible pair both policies hold vacuously; neither asserts a successor.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Case.Catholicism.StageOne.NecessaryIndividual
 open TruthCore.Modal
 open TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1 (ExistsAt)

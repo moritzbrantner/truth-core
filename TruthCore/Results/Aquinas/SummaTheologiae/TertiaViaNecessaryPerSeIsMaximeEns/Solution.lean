@@ -1,5 +1,10 @@
-import TruthCore.Case.Catholicism.StageOneConvergence
-import TruthCore.Logic.ExcludedMiddle
+module
+
+public import TruthCore.Case.Catholicism.StageOneConvergence
+public import TruthCore.Logic.ExcludedMiddle
+
+@[expose] public section
+
 namespace TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaNecessaryPerSeIsMaximeEns
 open TruthCore.Logic
 open TruthCore.Latin.Aquinas.SummaTheologiae

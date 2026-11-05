@@ -1,12 +1,17 @@
-import TruthCore.Case.Catholicism.StageOneQuartaVia
-import TruthCore.Logic.StrengthComparison
-import TruthCore.Greek.Aristotle.Metaphysics
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question4.Article2
+module
+
+public import TruthCore.Case.Catholicism.StageOneQuartaVia
+public import TruthCore.Logic.StrengthComparison
+public import TruthCore.Greek.Aristotle.Metaphysics
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question4.Article2
 
 /-! A scope comparison, not a new source attribution. See the semantic dossier
 in docs/notes/causal-perfection-transfer.md. `CausesIn` retains effective causal
 responsibility, including mediated primary causation if independently justified;
 it is not defined as mere enabling or counterfactual dependence. -/
+
+@[expose] public section
+
 namespace TruthCore.Case.Catholicism
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Logic.StrengthComparison

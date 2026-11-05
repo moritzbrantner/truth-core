@@ -1,5 +1,7 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7Cause
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7Uniting
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7Cause
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7Uniting
 
 /-!
 Formal omission and compatibility controls for the five premises that derive
@@ -8,6 +10,8 @@ Each control is a stipulated finite interpretation of the shared vocabulary. It
 shows what the encoded premises do and do not entail. It does not claim that any
 interpretation is metaphysically possible, nor that a rival account is refuted.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7Uniting.Control
 open TruthCore.Latin.Aquinas.SummaTheologiae

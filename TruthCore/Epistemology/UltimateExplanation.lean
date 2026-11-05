@@ -1,12 +1,17 @@
-import TruthCore.Results.Modern.Hume.Induction.Solution
-import TruthCore.Results.Modern.Hume.Regularity.Solution
-import TruthCore.Results.Explanation.HistorySelection.Solution
+module
+
+public import TruthCore.Results.Modern.Hume.Induction.Solution
+public import TruthCore.Results.Modern.Hume.Regularity.Solution
+public import TruthCore.Results.Explanation.HistorySelection.Solution
 
 /-! #737: bounded predictive/decision discriminator. Histories, temporal causes
 and grounds reuse Hume's existing interfaces. Exact truth over an evidence cell
 is deliberately stronger than fallible reliability, and is not defined as
 justification. The additional normative entitlement bridge remains OPEN.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Epistemology.UltimateExplanation
 open TruthCore.Modern.Hume.Induction
 open TruthCore.Modern.Hume.Regularity

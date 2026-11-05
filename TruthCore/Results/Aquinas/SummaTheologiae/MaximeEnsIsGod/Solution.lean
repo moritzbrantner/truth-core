@@ -1,4 +1,9 @@
-import TruthCore.Results.Aquinas.SummaTheologiae.AtMostOneMaximeEns.Solution
+module
+
+public import TruthCore.Results.Aquinas.SummaTheologiae.AtMostOneMaximeEns.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Aquinas.SummaTheologiae.MaximeEnsIsGod
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Greek.Aristotle.Metaphysics (CauseOfQualityInAnotherIsMoreSuchReading)

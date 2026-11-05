@@ -1,4 +1,8 @@
-import TruthCore.Models.QuartaViaDegreeFork
+module
+
+public import TruthCore.Models.QuartaViaDegreeFork
+
+@[expose] public section
 
 namespace TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaDegreeBranchWitnesses
 

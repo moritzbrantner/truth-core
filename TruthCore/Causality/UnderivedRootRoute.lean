@@ -1,5 +1,7 @@
-import TruthCore.Causality.NecessaryRootFork
-import TruthCore.Causality.NecessarilyUnderived
+module
+
+public import TruthCore.Causality.NecessaryRootFork
+public import TruthCore.Causality.NecessarilyUnderived
 
 /-!
 # From actual existence to a necessarily underived ground (#487)
@@ -37,6 +39,9 @@ clauses hold while there are two such grounds with no ancestry between them, one
 contingent concretum that is absent at a world where its ground exists. So the
 premises give neither unity nor a ground that entails its effect.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.UnderivedRootRoute
 
 open TruthCore.Causality.BruteFoundationBoundary

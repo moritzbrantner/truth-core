@@ -1,8 +1,10 @@
-import Mathlib.Order.FixedPoints
-import Mathlib.Order.WellFounded
-import TruthCore.Causality.GroundingLimits
-import TruthCore.Results.Causality.FiniteGroundingHasSource.Solution
-import TruthCore.Results.Causality.RegressReadingsCoincide.Solution
+module
+
+public import Mathlib.Order.FixedPoints
+public import Mathlib.Order.WellFounded
+public import TruthCore.Causality.GroundingLimits
+public import TruthCore.Results.Causality.FiniteGroundingHasSource.Solution
+public import TruthCore.Results.Causality.RegressReadingsCoincide.Solution
 
 /-!
 Analyst's structural schema (#412). An edge points from an upstream relatum to
@@ -11,6 +13,9 @@ endpoints. Finite paths and inductive closure reuse the existing causal
 vocabulary solely for its explicitly parameterized mathematical structure.
 No source interpretation or actual well-foundedness is asserted.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Logic.Regress
 open TruthCore.Causality
 

@@ -1,7 +1,9 @@
-import Mathlib.Basic.Finite.Defs
-import TruthCore.Logic.Regress
-import TruthCore.German.Kant.CosmologicalInference
-import TruthCore.Results.Causality.GroundingAllowsRegress.Solution
+module
+
+public import Mathlib.Basic.Finite.Defs
+public import TruthCore.Logic.Regress
+public import TruthCore.German.Kant.CosmologicalInference
+public import TruthCore.Results.Causality.GroundingAllowsRegress.Solution
 
 /-! World-local actual-node source/regress classification. Edge y x means
 upstream y causes x in ONE fixed world. FiniteCausalPath edge x s walks
@@ -10,6 +12,9 @@ not temporal instants. Restricting the carrier to actual nodes prevents absent
 isolated candidates from serving as starters. No causal endpoint-soundness,
 modal accessibility, finite branching or cross-world union condition is assumed.
 All sources and regress are relative to the chosen ordinary causal relation. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.WorldSourceRegress
 open TruthCore.German.Kant.CosmologicalInference
 open TruthCore.Logic.Regress

@@ -1,5 +1,9 @@
-import TruthCore.Modal.TemporalHistory
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3TertiaVia
+module
+
+public import TruthCore.Modal.TemporalHistory
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3TertiaVia
+
+@[expose] public section
 
 namespace TruthCore.Modal.PastSeriality
 open TruthCore.Modal

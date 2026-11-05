@@ -1,5 +1,7 @@
-import TruthCore.Models.FiniteSupport
-import TruthCore.Results.Alternatives.GenerationFromNightRefuted.Solution
+module
+
+public import TruthCore.Models.FiniteSupport
+public import TruthCore.Results.Alternatives.GenerationFromNightRefuted.Solution
 
 /-! One joint moving survivor of the Night elimination. Three beings share one
 respect: `idle` is in potency with no actual being simply prior to it; `moved`
@@ -12,6 +14,9 @@ This finite interpretation certifies satisfiability of the predicates only.
 `idle` is not being moved at this evaluation; no assertion of permanent rest,
 metaphysical possibility, or truth of the bare rival follows. The stronger
 Night commitment fails, and global act-priority still fails. -/
+
+@[expose] public section
+
 namespace TruthCore.Models.NightMovingResidual
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Alternatives.ActPotencyRegress

@@ -1,4 +1,9 @@
-import TruthCore.Modal.S5Research
+module
+
+public import TruthCore.Modal.S5Research
+
+@[expose] public section
+
 namespace TruthCore.Results.Modal.S5.DomainBoundary
 open TruthCore.Modal TruthCore.Modal.ResearchFixture TruthCore.Modal.S5Research
 open TruthCore.Isabelle.AFP.GoedelGod (Dia)

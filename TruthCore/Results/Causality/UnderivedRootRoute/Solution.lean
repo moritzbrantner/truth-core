@@ -1,4 +1,8 @@
-import TruthCore.Causality.UnderivedRootRoute
+module
+
+public import TruthCore.Causality.UnderivedRootRoute
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.UnderivedRootRoute
 

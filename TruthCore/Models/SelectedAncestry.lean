@@ -1,8 +1,13 @@
-import TruthCore.Causality.SelectedAncestry
+module
+
+public import TruthCore.Causality.SelectedAncestry
 
 /-! Same-semantics controls for the one-complete-cone theorem. These are formal
 interpretations, not metaphysical possibilities or adequate rivals retaining
 the omitted premise. -/
+
+@[expose] public section
+
 namespace TruthCore.Models.SelectedAncestry
 open TruthCore.Causality.BruteFoundationBoundary
 open TruthCore.Causality.NecessaryRootFork

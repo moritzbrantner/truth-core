@@ -1,9 +1,14 @@
-import TruthCore.Explanation.ExplanatoryAdequacy
-import TruthCore.Logic.ExcludedMiddle
+module
+
+public import TruthCore.Explanation.ExplanatoryAdequacy
+public import TruthCore.Logic.ExcludedMiddle
 
 /-! An unattributed fact-level composition for #786/#545. This reuses #750's
 reason-closed account and contingent-reason foundedness, without identifying
 facts with concrete bearers or admitted reasons with efficient causes. -/
+
+@[expose] public section
+
 namespace TruthCore.Explanation.NecessaryFactBoundary
 
 open TruthCore.Explanation.PSRStrength

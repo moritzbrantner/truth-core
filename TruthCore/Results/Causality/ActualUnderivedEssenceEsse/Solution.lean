@@ -1,5 +1,10 @@
-import TruthCore.Causality.ActualUnderivedEssenceEsse
-import TruthCore.Results.Causality.UnderivedEssenceEsse.Solution
+module
+
+public import TruthCore.Causality.ActualUnderivedEssenceEsse
+public import TruthCore.Results.Causality.UnderivedEssenceEsse.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Causality.ActualUnderivedEssenceEsse
 open TruthCore.German.Kant.CosmologicalInference
 open TruthCore.Causality.NecessarilyUnderived

@@ -1,4 +1,9 @@
-import TruthCore.Explanation.LawActuality
+module
+
+public import TruthCore.Explanation.LawActuality
+
+@[expose] public section
+
 namespace TruthCore.Results.Explanation.LawActuality
 open TruthCore.Explanation.LawActuality
 open TruthCore.Epistemology.UltimateExplanation

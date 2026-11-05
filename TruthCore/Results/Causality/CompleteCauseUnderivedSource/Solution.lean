@@ -1,11 +1,15 @@
-import TruthCore.Causality.CompleteCauseContributorCover
-import TruthCore.Causality.PluralRootConfluence
-import TruthCore.Causality.UnderivedCommonSource
-import TruthCore.Results.Causality.CompleteCauseContributorCover.Solution
-import TruthCore.Results.Causality.CompleteCauseSourceUniqueness.Solution
-import TruthCore.Results.Causality.PluralRootConfluence.Solution
-import TruthCore.Results.Causality.SourceForest.Solution
-import TruthCore.Results.Causality.UnderivedCommonSource.Solution
+module
+
+public import TruthCore.Causality.CompleteCauseContributorCover
+public import TruthCore.Causality.PluralRootConfluence
+public import TruthCore.Causality.UnderivedCommonSource
+public import TruthCore.Results.Causality.CompleteCauseContributorCover.Solution
+public import TruthCore.Results.Causality.CompleteCauseSourceUniqueness.Solution
+public import TruthCore.Results.Causality.PluralRootConfluence.Solution
+public import TruthCore.Results.Causality.SourceForest.Solution
+public import TruthCore.Results.Causality.UnderivedCommonSource.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.CompleteCauseUnderivedSource
 open TruthCore.Causality

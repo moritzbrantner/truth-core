@@ -1,5 +1,10 @@
-import TruthCore.Logic.CogitoConcrete
-import TruthCore.Results.Logic.CogitoSubject.Solution
+module
+
+public import TruthCore.Logic.CogitoConcrete
+public import TruthCore.Results.Logic.CogitoSubject.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Logic.CogitoConcrete
 open TruthCore.Logic.CogitoSubject
 open TruthCore.Logic.CogitoConcrete

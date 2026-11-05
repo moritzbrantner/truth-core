@@ -1,4 +1,6 @@
-import TruthCore.Teleonomy.Mechanisms
+module
+
+public import TruthCore.Teleonomy.Mechanisms
 
 /-!
 #251: the existing naturalistic-teleonomy rival, not a new Fifth Way.
@@ -10,6 +12,9 @@ below tests consistency of its mechanisms with the already encoded Fifth Way
 alternative; it does not settle the truth or total explanatory adequacy of that
 global thesis. No lack of coverage counts as a contradiction.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Comparison.Teleonomy
 open TruthCore.Teleonomy
 

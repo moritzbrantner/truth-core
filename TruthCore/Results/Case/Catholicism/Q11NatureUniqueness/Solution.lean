@@ -1,4 +1,9 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question11.Article3Nature
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question11.Article3Nature
+
+@[expose] public section
+
 namespace TruthCore.Results.Case.Catholicism.Q11NatureUniqueness
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Case.Catholicism

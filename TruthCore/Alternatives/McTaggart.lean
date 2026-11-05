@@ -1,4 +1,6 @@
-import TruthCore.Alternatives.ActPotencyRegress
+module
+
+public import TruthCore.Alternatives.ActPotencyRegress
 
 /-!
 McTaggart's own commitment about change, and the weak bridge from the prima
@@ -11,6 +13,8 @@ would be a timeless universe"). It is neither A-series change (`ASeriesChanges`,
 `DEF-A-SERIES-CHANGE`) nor reduction from potency to act (`MovedIn`,
 `DEF-MOTION-AS-REDUCTION`); `DISAMB-CHANGE-A-SERIES` keeps the three apart.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Alternatives.McTaggart
 

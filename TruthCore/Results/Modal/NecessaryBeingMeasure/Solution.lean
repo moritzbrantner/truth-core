@@ -1,4 +1,8 @@
-import TruthCore.Modal.NecessaryBeingMeasure
+module
+
+public import TruthCore.Modal.NecessaryBeingMeasure
+
+@[expose] public section
 
 namespace TruthCore.Results.Modal.NecessaryBeingMeasure
 open MeasureTheory

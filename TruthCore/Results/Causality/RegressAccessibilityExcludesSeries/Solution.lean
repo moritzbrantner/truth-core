@@ -1,4 +1,8 @@
-import TruthCore.Causality.RegressReadings
+module
+
+public import TruthCore.Causality.RegressReadings
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.RegressAccessibilityExcludesSeries
 open TruthCore.Causality

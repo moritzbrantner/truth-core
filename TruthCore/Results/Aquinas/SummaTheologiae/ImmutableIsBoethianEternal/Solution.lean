@@ -1,4 +1,9 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.BoethianEternity
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.BoethianEternity
+
+@[expose] public section
+
 namespace TruthCore.Results.Aquinas.SummaTheologiae.ImmutableIsBoethianEternal
 open TruthCore.Latin.Aquinas.SummaTheologiae
 

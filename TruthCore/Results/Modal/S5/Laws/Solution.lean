@@ -1,7 +1,12 @@
-import TruthCore.Modal.S5Research
-import TruthCore.Results.Modal.K.Laws.Solution
-import TruthCore.Results.Modal.B.Laws.Solution
-import TruthCore.Results.Modal.B.NecessarySymmetry.Solution
+module
+
+public import TruthCore.Modal.S5Research
+public import TruthCore.Results.Modal.K.Laws.Solution
+public import TruthCore.Results.Modal.B.Laws.Solution
+public import TruthCore.Results.Modal.B.NecessarySymmetry.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Modal.S5.Laws
 open TruthCore.Modal TruthCore.Modal.ResearchFixture TruthCore.Modal.S5Research
 open TruthCore.Isabelle.AFP.GoedelGod (MProp Box Dia)

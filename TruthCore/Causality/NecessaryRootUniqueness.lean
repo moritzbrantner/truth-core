@@ -1,5 +1,9 @@
-import TruthCore.Causality.NecessaryConcreteRouteBridge
-import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaMaximumInBeing.Solution
+module
+
+public import TruthCore.Causality.NecessaryConcreteRouteBridge
+public import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaMaximumInBeing.Solution
+
+@[expose] public section
 
 namespace TruthCore.Causality.NecessaryRootUniqueness
 open TruthCore.Causality.BruteFoundationBoundary

@@ -1,7 +1,9 @@
-import TruthCore.Causality.NecessaryRootFork
-import TruthCore.Case.Catholicism.StageOneConvergence
-import TruthCore.Case.Catholicism.StageOneQuartaVia
-import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaNecessaryPerSeIsMaximeEns.Solution
+module
+
+public import TruthCore.Causality.NecessaryRootFork
+public import TruthCore.Case.Catholicism.StageOneConvergence
+public import TruthCore.Case.Catholicism.StageOneQuartaVia
+public import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaNecessaryPerSeIsMaximeEns.Solution
 
 /-!
 # What a necessary concrete root supplies to the root route (#487)
@@ -38,6 +40,9 @@ replaced by two that cover every actual concretum, the same premise follows from
 selected relation with no necessity, root or contingency premise, in a model with
 a contingent maximum.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.NecessaryConcreteRouteBridge
 
 open TruthCore.Causality.BruteFoundationBoundary

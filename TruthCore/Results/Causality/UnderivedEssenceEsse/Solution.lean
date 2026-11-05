@@ -1,7 +1,12 @@
-import TruthCore.Causality.UnderivedEssenceEsse
-import TruthCore.Results.Logic.ExcludedMiddleIffDne.Solution
-import TruthCore.Results.Causality.NecessarilyUnderived.PositiveUnion.Solution
-import TruthCore.Results.Aquinas.SummaTheologiae.EssenceEsseExternalCause.Solution
+module
+
+public import TruthCore.Causality.UnderivedEssenceEsse
+public import TruthCore.Results.Logic.ExcludedMiddleIffDne.Solution
+public import TruthCore.Results.Causality.NecessarilyUnderived.PositiveUnion.Solution
+public import TruthCore.Results.Aquinas.SummaTheologiae.EssenceEsseExternalCause.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Causality.UnderivedEssenceEsse
 open TruthCore.German.Kant.CosmologicalInference
 open TruthCore.Causality.NecessarilyUnderived

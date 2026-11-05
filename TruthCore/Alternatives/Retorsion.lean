@@ -1,6 +1,8 @@
-import TruthCore.Alternatives.McTaggart
-import TruthCore.Comparison.McTaggart
-import TruthCore.Logic.PerformedDenial
+module
+
+public import TruthCore.Alternatives.McTaggart
+public import TruthCore.Comparison.McTaggart
+public import TruthCore.Logic.PerformedDenial
 
 /-!
 Global underminers as instances of the performed-denial retorsion (#515).
@@ -24,6 +26,8 @@ premise. The schema never supplies it.
   without being change episodes, and the `opinionGate` model of
   `TruthCore.Alternatives.FirstClosure` satisfies his held position.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Alternatives.Retorsion
 

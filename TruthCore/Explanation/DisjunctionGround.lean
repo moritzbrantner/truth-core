@@ -1,5 +1,7 @@
-import TruthCore.Explanation.StoppingPoints
-import TruthCore.Logic.ExcludedMiddle
+module
+
+public import TruthCore.Explanation.StoppingPoints
+public import TruthCore.Logic.ExcludedMiddle
 
 /-!
 # Local truthmakers versus one ground of a necessary existential fact (#485)
@@ -26,6 +28,9 @@ show that encoded bundles are satisfiable, not that they are metaphysically
 possible. See `docs/notes/disjunction-ground-485.md` for the reading, the rival
 replies and the open bridges.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Explanation.DisjunctionGround
 
 open TruthCore.Explanation.PSRStrength

@@ -1,4 +1,9 @@
-import TruthCore.Results.Modern.Hume.SelfApplication.HigherOrder.Solution
+module
+
+public import TruthCore.Results.Modern.Hume.SelfApplication.HigherOrder.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Modern.Hume.SelfApplication.Reflexive
 open TruthCore.Modern.Hume.Conceivability
 open TruthCore.Modern.Hume.SelfApplication

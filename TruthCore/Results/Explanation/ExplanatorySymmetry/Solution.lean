@@ -1,5 +1,9 @@
-import TruthCore.Explanation.ExplanatorySymmetry
-import TruthCore.Results.Explanation.ExplanatoryAdequacy.Solution
+module
+
+public import TruthCore.Explanation.ExplanatorySymmetry
+public import TruthCore.Results.Explanation.ExplanatoryAdequacy.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Explanation.ExplanatorySymmetry
 open TruthCore.Explanation.ExplanatorySymmetry

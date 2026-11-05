@@ -1,11 +1,16 @@
-import TruthCore.Causality.ScopedActualCausality
-import Mathlib.Order.Sum.Order
+module
+
+public import TruthCore.Causality.ScopedActualCausality
+public import Mathlib.Order.Sum.Order
 
 /-! OPEN analyst restriction of atomic-part existence to actual CONTINGENT
 objects. Necessary individuals need not have simple parts. Same Ontic,
 actual-node order and frame-relative necessity as the scoped route.
 The disjoint-sum controls are formal scope tests, not explanations of an
 infinite causal regress, source claims or metaphysically possible worlds. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.ContingentAtomicity
 open TruthCore.German.Kant.CosmologicalInference
 open TruthCore.Causality.WorldSourceRegress

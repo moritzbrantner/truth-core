@@ -1,4 +1,9 @@
-import TruthCore.Comparison.ProblemOfEvil
+module
+
+public import TruthCore.Comparison.ProblemOfEvil
+
+@[expose] public section
+
 namespace TruthCore.Results.Comparison.ProblemOfEvil.CatholicEntailsEvilPremise
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Comparison.ProblemOfEvil

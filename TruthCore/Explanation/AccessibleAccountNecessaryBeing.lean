@@ -1,7 +1,12 @@
-import TruthCore.Explanation.WeakAccountNecessaryBeing
+module
+
+public import TruthCore.Explanation.WeakAccountNecessaryBeing
 
 /-! Local accessibility of one selected fact in the SAME account relation.
 This does not identify global regress insufficiency with well-foundedness. -/
+
+@[expose] public section
+
 namespace TruthCore.Explanation.AccessibleAccountNecessaryBeing
 open TruthCore.Explanation.PSRStrength
 open TruthCore.Explanation.ExplanatoryAdequacy

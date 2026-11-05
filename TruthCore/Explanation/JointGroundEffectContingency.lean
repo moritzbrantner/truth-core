@@ -1,4 +1,6 @@
-import TruthCore.Explanation.AutonomousGroundNecessity
+module
+
+public import TruthCore.Explanation.AutonomousGroundNecessity
 
 /-!
 Selected-record consumer of existing whole-ground necessitation. The record's
@@ -7,6 +9,9 @@ subtype. No aggregate fact, actual bearer, causal relation, autonomous necessity
 or target-truth/existence coherence is introduced. Necessitation is not inferred
 from explanatory adequacy or admission.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Explanation.JointGroundEffectContingency
 open TruthCore.Explanation.ExistenceIngredient
 open TruthCore.Causality.JointGroups

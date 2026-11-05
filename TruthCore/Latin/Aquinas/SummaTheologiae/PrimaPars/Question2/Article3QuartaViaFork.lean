@@ -1,5 +1,7 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaViaMaximumSchema
-import TruthCore.Logic.ExcludedMiddle
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaViaMaximumSchema
+public import TruthCore.Logic.ExcludedMiddle
 
 /-! A conditional fork on the existing homogeneous-scale contrast reading.
 Maximality alone is weaker than strict greatestness. The causal genus and
@@ -12,6 +14,9 @@ The alternative extends strict degree comparisons, not causal edges. Its
 inhabitedness is supplied separately in the fork, so an empty carrier does not
 serve as the intended unbounded rival. No result identifies these respects or
 the strict top with God, nor denies self-causation. -/
+
+@[expose] public section
+
 namespace TruthCore.Latin.Aquinas.SummaTheologiae
 
 /-- A selected maximum in being strictly exceeds every distinct being, causes

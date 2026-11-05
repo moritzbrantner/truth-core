@@ -1,4 +1,8 @@
-import TruthCore.Causality.FiniteBranching
+module
+
+public import TruthCore.Causality.FiniteBranching
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.FiniteBranching
 

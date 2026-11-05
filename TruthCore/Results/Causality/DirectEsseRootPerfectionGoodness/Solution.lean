@@ -1,6 +1,11 @@
-import TruthCore.Results.Causality.DirectEsseRootPerfection.Solution
-import TruthCore.Causality.DirectEsseRootPerfectionGoodness
-import TruthCore.Results.Causality.DirectEsseRootUniquenessAtBeing.Solution
+module
+
+public import TruthCore.Results.Causality.DirectEsseRootPerfection.Solution
+public import TruthCore.Causality.DirectEsseRootPerfectionGoodness
+public import TruthCore.Results.Causality.DirectEsseRootUniquenessAtBeing.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Causality.DirectEsseRootPerfectionGoodness
 open TruthCore.Causality.BruteFoundationBoundary
 open TruthCore.Causality.NecessaryConcreteRouteBridge

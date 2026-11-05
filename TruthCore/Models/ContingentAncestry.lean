@@ -1,9 +1,14 @@
-import TruthCore.Causality.ContingentAncestry
+module
+
+public import TruthCore.Causality.ContingentAncestry
 
 /-! A strictness interpretation: a contingent target is grounded in two
 necessary beings that support each other. Necessary existence is witnessed,
 while an actual root and full-cone well-foundedness fail. No metaphysical
 possibility or adequacy of the necessary cycle is asserted. -/
+
+@[expose] public section
+
 namespace TruthCore.Models.ContingentAncestry
 open TruthCore.Causality.BruteFoundationBoundary
 open TruthCore.Causality.NecessaryRootFork

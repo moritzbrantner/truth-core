@@ -1,5 +1,10 @@
-import TruthCore.Modal.S5Research
-import TruthCore.Results.Modern.Hume.Conceivability.Solution
+module
+
+public import TruthCore.Modal.S5Research
+public import TruthCore.Results.Modern.Hume.Conceivability.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Modal.S5.SymmetryBoundary
 open TruthCore.Modal TruthCore.Modal.ResearchFixture TruthCore.Modal.S5Research
 open TruthCore.Isabelle.AFP.GoedelGod (Dia)

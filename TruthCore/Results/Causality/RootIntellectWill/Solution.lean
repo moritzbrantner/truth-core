@@ -1,6 +1,10 @@
-import TruthCore.Causality.RootIntellectWill
-import TruthCore.Results.Causality.RootWithoutLimitingPrinciple.Solution
-import TruthCore.Results.Causality.RootEssenceIdentity.Solution
+module
+
+public import TruthCore.Causality.RootIntellectWill
+public import TruthCore.Results.Causality.RootWithoutLimitingPrinciple.Solution
+public import TruthCore.Results.Causality.RootEssenceIdentity.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.RootIntellectWill
 open TruthCore.Causality.BruteFoundationBoundary

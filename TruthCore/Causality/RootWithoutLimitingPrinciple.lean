@@ -1,8 +1,13 @@
-import TruthCore.Causality.RootEssenceIdentity
-import TruthCore.Causality.RootMultiplication
+module
+
+public import TruthCore.Causality.RootEssenceIdentity
+public import TruthCore.Causality.RootMultiplication
 
 /-! Source-free composition endpoint. Absence of the existing three represented
 limitation horns is not Q7 unreceivedness or infinity, common nature or uniqueness. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.RootWithoutLimitingPrinciple
 open TruthCore.Causality.BruteFoundationBoundary
 open TruthCore.Causality.NecessaryRootFork

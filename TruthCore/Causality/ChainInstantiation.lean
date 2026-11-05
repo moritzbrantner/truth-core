@@ -1,10 +1,15 @@
-import TruthCore.Causality.LocalTransmission
-import TruthCore.German.Kant.CosmologicalInference
+module
+
+public import TruthCore.Causality.LocalTransmission
+public import TruthCore.German.Kant.CosmologicalInference
 
 /-! Analyst controls for #704. `Nat` indexes candidate stages, not instantiation
 in reality. `ExistsAt` carries the population extension; causal edges are
 world-local and require both endpoints. No temporal or grounding interpretation
 is established by these definitions. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.ChainInstantiation
 open TruthCore.German.Kant.CosmologicalInference
 

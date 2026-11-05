@@ -1,5 +1,9 @@
-import TruthCore.Explanation.MechanismInterventionParity
-import TruthCore.Results.Explanation.CompleteResponseParity.Solution
+module
+
+public import TruthCore.Explanation.MechanismInterventionParity
+public import TruthCore.Results.Explanation.CompleteResponseParity.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Explanation.MechanismInterventionParity
 

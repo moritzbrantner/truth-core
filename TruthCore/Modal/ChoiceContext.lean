@@ -1,10 +1,15 @@
-import TruthCore.Modal.SelectedEffectBridge
+module
+
+public import TruthCore.Modal.SelectedEffectBridge
 
 /-! Stipulative finite decision table, motivated by the free-will definition
 fork in Carneades's public article and video KODJicKd5ps. No sourced claim:
 complete input means the explicitly selected input of this table, not a proved
 complete physical state. Constraint absence is not identified with freedom or
 responsibility. See docs/notes/carneades-choice-context.md. -/
+
+@[expose] public section
+
 namespace TruthCore.Modal.ChoiceContext
 open TruthCore.Modal.SelectedEffectBridge
 

@@ -1,7 +1,11 @@
-import TruthCore.Results.Causality.WholeRosterFoundation.Solution
-import TruthCore.Causality.WholeRosterFoundation
-import TruthCore.Causality.NecessaryConcreteRouteBridge
-import TruthCore.Case.Catholicism.StageTwo
+module
+
+public import TruthCore.Results.Causality.WholeRosterFoundation.Solution
+public import TruthCore.Causality.WholeRosterFoundation
+public import TruthCore.Causality.NecessaryConcreteRouteBridge
+public import TruthCore.Case.Catholicism.StageTwo
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.NecessaryRootGodUniqueness
 open TruthCore.Causality.BruteFoundationBoundary

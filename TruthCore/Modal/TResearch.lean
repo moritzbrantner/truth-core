@@ -1,7 +1,12 @@
-import TruthCore.Modal.KResearch
+module
+
+public import TruthCore.Modal.KResearch
 
 /-! Issue #264: stipulated T experiments. Reflexivity is the only assumed frame
 condition. Existing shared branching/duplicate models retain their exact meanings. -/
+
+@[expose] public section
+
 namespace TruthCore.Modal.TResearch
 open TruthCore.Modal.ResearchFixture
 open TruthCore.Modal.ResearchFinite

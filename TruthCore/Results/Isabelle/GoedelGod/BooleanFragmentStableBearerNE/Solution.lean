@@ -1,4 +1,8 @@
-import TruthCore.Isabelle.AFP.GoedelGod.GeneratedFragment
+module
+
+public import TruthCore.Isabelle.AFP.GoedelGod.GeneratedFragment
+
+@[expose] public section
 
 namespace TruthCore.Results.Isabelle.GoedelGod.BooleanFragmentStableBearerNE
 

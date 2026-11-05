@@ -1,4 +1,8 @@
-import TruthCore.Models.TemporalHistoryControls
+module
+
+public import TruthCore.Models.TemporalHistoryControls
+
+@[expose] public section
 
 namespace TruthCore.Results.Modal.TemporalHistoryControls
 open TruthCore.Modal.TemporalHistory

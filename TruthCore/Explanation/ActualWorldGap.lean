@@ -1,5 +1,7 @@
-import TruthCore.Explanation.PSRStrength
-import TruthCore.Explanation.UltimateAdequacy
+module
+
+public import TruthCore.Explanation.PSRStrength
+public import TruthCore.Explanation.UltimateAdequacy
 
 /-!
 # Local causal records and the actual complete history (#751)
@@ -12,6 +14,9 @@ accessibility is not real possibility. No world-selecting event is modelled, and
 no theorem here defends the demand or refutes physicalism: it is left an explicit
 parameter. See `docs/notes/actual-world-gap-751.md`.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Explanation.ActualWorldGap
 
 open TruthCore.Modal.TemporalHistory TruthCore.Modal.HistoryContrastive

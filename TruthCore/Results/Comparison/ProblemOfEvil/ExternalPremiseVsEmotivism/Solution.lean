@@ -1,4 +1,9 @@
-import TruthCore.Refutations.ProblemOfEvil
+module
+
+public import TruthCore.Refutations.ProblemOfEvil
+
+@[expose] public section
+
 namespace TruthCore.Results.Comparison.ProblemOfEvil.ExternalPremiseVsEmotivism
 open TruthCore.English.OConnor
 open TruthCore.Refutations.ProblemOfEvil

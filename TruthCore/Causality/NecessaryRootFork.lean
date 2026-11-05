@@ -1,4 +1,6 @@
-import TruthCore.Causality.CogitoNecessaryConcrete
+module
+
+public import TruthCore.Causality.CogitoNecessaryConcrete
 
 /-!
 # Well-founded actual ancestry: necessary concretum or nonnecessary root (#553)
@@ -32,6 +34,9 @@ What this adds to `BRUTE-ROOT-DISJUNCTION` and `COGITO-ANCESTRY-ROOT-FORK`:
 
 `NecessaryAt` is accessibility-relative and de re over rigid candidate identity.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.NecessaryRootFork
 
 open TruthCore.Causality.BruteFoundationBoundary

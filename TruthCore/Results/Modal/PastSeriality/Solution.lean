@@ -1,5 +1,10 @@
-import TruthCore.Modal.PastSerialityCertificate
-import TruthCore.Results.Modal.StandardCorrespondence.Solution
+module
+
+public import TruthCore.Modal.PastSerialityCertificate
+public import TruthCore.Results.Modal.StandardCorrespondence.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Modal.PastSeriality
 open TruthCore.Modal
 open TruthCore.Modal.PastSeriality

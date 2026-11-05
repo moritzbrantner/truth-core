@@ -1,10 +1,15 @@
-import TruthCore.Causality.NecessaryConcreteRouteBridge
-import TruthCore.Causality.ExistenceActuality
-import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaMaximumInBeing.Solution
+module
+
+public import TruthCore.Causality.NecessaryConcreteRouteBridge
+public import TruthCore.Causality.ExistenceActuality
+public import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaMaximumInBeing.Solution
 
 /-! Source-free non-corpus helpers for the existing direct esse-to-selected-ground
 interface. They assert no independent warrant for that interface or completeness
 of the resulting causal explanation. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.DirectEsseRootRoute
 open TruthCore.Causality.BruteFoundationBoundary
 open TruthCore.Causality.CogitoNecessaryConcrete (ActualConcreteGround)

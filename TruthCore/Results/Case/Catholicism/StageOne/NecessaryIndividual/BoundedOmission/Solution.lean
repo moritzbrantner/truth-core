@@ -1,5 +1,9 @@
-import TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.BoundedOmission
-import TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.Alternating.Solution
+module
+
+public import TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.BoundedOmission
+public import TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.Alternating.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.BoundedOmission
 open TruthCore.Case.Catholicism.StageOne.NecessaryIndividual

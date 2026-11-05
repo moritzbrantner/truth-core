@@ -1,5 +1,7 @@
-import TruthCore.Alternatives.ActPotencyRegress
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.ActPotencyTheory
+module
+
+public import TruthCore.Alternatives.ActPotencyRegress
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.ActPotencyTheory
 
 /-!
 The elimination attempt for the Meinongian rival of ST I q.4 a.1 ad 3 (#497).
@@ -15,6 +17,8 @@ premise itself, since the other nine together do not refute the rival. Other
 assumptions over the same predicates (for example `∀ x, InAct x esse`) can also
 refute it; each of them entails the premise and is a new open premise.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Alternatives.ActualityWithoutBeing
 

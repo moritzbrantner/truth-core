@@ -1,8 +1,13 @@
-import TruthCore.History.Resurrection
+module
+
+public import TruthCore.History.Resurrection
 
 /-! Theories for the stage-4 pilot. These are expressly limited bundles of
 propositions, not new corpus entities. Their common findings are accepted
 open premises. Counts describe this encoding; they do not rank worldviews. -/
+
+@[expose] public section
+
 namespace TruthCore.Comparison.Resurrection
 open TruthCore.History.Resurrection
 

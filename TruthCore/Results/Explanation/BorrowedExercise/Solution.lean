@@ -1,6 +1,11 @@
-import TruthCore.Explanation.BorrowedExercise
-import TruthCore.Results.Causality.DerivativeJointPower.Solution
-import TruthCore.Results.Explanation.CondensationSufficiency.Solution
+module
+
+public import TruthCore.Explanation.BorrowedExercise
+public import TruthCore.Results.Causality.DerivativeJointPower.Solution
+public import TruthCore.Results.Explanation.CondensationSufficiency.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Explanation.BorrowedExercise
 open TruthCore.Causality TruthCore.Logic.Regress
 open TruthCore.Causality.JointGroups TruthCore.Causality.DerivativeJointPower

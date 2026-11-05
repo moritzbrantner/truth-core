@@ -1,5 +1,9 @@
-import TruthCore.Causality.ActualRootUniqueness
-import TruthCore.Causality.NecessaryRootUniqueness
+module
+
+public import TruthCore.Causality.ActualRootUniqueness
+public import TruthCore.Causality.NecessaryRootUniqueness
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.ActualRootNecessityUpgrade
 open TruthCore.Causality.BruteFoundationBoundary (Profile EveryContingentGroundedAt)

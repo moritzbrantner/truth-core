@@ -1,4 +1,6 @@
-import TruthCore.Causality.BruteFoundationBoundary
+module
+
+public import TruthCore.Causality.BruteFoundationBoundary
 
 /-!
 # Three routes beyond a contingent brute foundation (#505)
@@ -11,6 +13,8 @@ A token satisfying weak explanation coverage need not provide a sufficient,
 concrete, noncircular reason. Necessary source + strict effect necessitation
 excludes contingent effect. Each disputed bridge remains open.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Causality.BruteFoundationRoutes
 

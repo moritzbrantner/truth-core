@@ -1,8 +1,12 @@
-import TruthCore.Results.Causality.RootIntellectWillReduced.Solution
-import TruthCore.Causality.RootIntellectWillPureAct
-import TruthCore.Causality.StrictPriorityPureAct
-import TruthCore.Results.Causality.RootWithoutLimitingPrinciple.Solution
-import TruthCore.Results.Causality.RootEssenceIdentity.Solution
+module
+
+public import TruthCore.Results.Causality.RootIntellectWillReduced.Solution
+public import TruthCore.Causality.RootIntellectWillPureAct
+public import TruthCore.Causality.StrictPriorityPureAct
+public import TruthCore.Results.Causality.RootWithoutLimitingPrinciple.Solution
+public import TruthCore.Results.Causality.RootEssenceIdentity.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.RootIntellectWillStrictPureAct
 open TruthCore.Causality.BruteFoundationBoundary

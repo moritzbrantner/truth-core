@@ -1,11 +1,16 @@
-import TruthCore.Modal.TemporalHistory
-import TruthCore.Causality.BruteFoundationExplanations
+module
+
+public import TruthCore.Modal.TemporalHistory
+public import TruthCore.Causality.BruteFoundationExplanations
 
 /-! Analyst controls for #467. Worlds index complete supplied presence histories;
 no aggregate being, PSR, externality or metaphysical admissibility is inferred.
 Discrimination is an explicit *entailing* standard, not a definition of every
 adequate explanation. Internal reason truth can discriminate without explaining
 why that contingent reason itself obtains. -/
+
+@[expose] public section
+
 namespace TruthCore.Modal.HistoryContrastive
 open TruthCore.Modal.TemporalHistory
 open TruthCore.Causality.BruteFoundationExplanations

@@ -1,8 +1,13 @@
-import TruthCore.Explanation.CondensationSufficiency
-import TruthCore.Results.Causality.DerivativeJointPower.Solution
-import TruthCore.Results.Causality.CompleteCauseSourceUniqueness.Solution
-import TruthCore.Results.Explanation.UltimateAdequacy.Solution
-import Mathlib.Order.WellFoundedSet
+module
+
+public import TruthCore.Explanation.CondensationSufficiency
+public import TruthCore.Results.Causality.DerivativeJointPower.Solution
+public import TruthCore.Results.Causality.CompleteCauseSourceUniqueness.Solution
+public import TruthCore.Results.Explanation.UltimateAdequacy.Solution
+public import Mathlib.Order.WellFoundedSet
+
+@[expose] public section
+
 namespace TruthCore.Results.Explanation.CondensationSufficiency
 open TruthCore.Logic.Regress Relation
 open TruthCore.Causality.JointGroups

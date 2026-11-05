@@ -1,8 +1,13 @@
-import TruthCore.Logic.ExcludedMiddle
-import TruthCore.Modern.Hume.Conceivability
+module
+
+public import TruthCore.Logic.ExcludedMiddle
+public import TruthCore.Modern.Hume.Conceivability
 
 /-! Stipulated mathematical semantics for #261; no source attribution.
 Domains do not assert which propositions describe metaphysical possibilities. -/
+
+@[expose] public section
+
 namespace TruthCore.Modal.ResearchFixture
 open TruthCore.Isabelle.AFP.GoedelGod (MProp Box)
 open TruthCore.Modern.Hume.Conceivability (Collapse)

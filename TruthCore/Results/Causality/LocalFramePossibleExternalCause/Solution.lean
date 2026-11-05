@@ -1,4 +1,8 @@
-import TruthCore.Causality.LocalFramePossibleExternalCause
+module
+
+public import TruthCore.Causality.LocalFramePossibleExternalCause
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.LocalFramePossibleExternalCause
 open TruthCore.Causality.LocalFramePossibleExternalCause

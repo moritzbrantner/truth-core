@@ -1,6 +1,8 @@
-import TruthCore.Case.Catholicism.StageOne.CausalFinitism
-import TruthCore.Results.Case.Catholicism.CausalFinitism.Solution
-import TruthCore.Logic.Regress
+module
+
+public import TruthCore.Case.Catholicism.StageOne.CausalFinitism
+public import TruthCore.Results.Case.Catholicism.CausalFinitism.Solution
+public import TruthCore.Logic.Regress
 
 /-!
 # Finite immediate causes, infinite ancestry, and well-foundedness
@@ -11,6 +13,9 @@ Well-foundedness is the inductive `Acc` condition on this *same* relation,
 not a claim that every observed causal relation is well-founded, nor a bound
 on temporal duration or on the number of possible-world alternatives.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.FiniteBranching
 
 open TruthCore.Case.Catholicism.StageOne.CausalFinitism

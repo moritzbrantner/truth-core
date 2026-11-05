@@ -1,8 +1,13 @@
-import TruthCore.Causality.ConcreteExistentialSupply
+module
+
+public import TruthCore.Causality.ConcreteExistentialSupply
 
 /-! A whole-roster foundation condition, source-free and relative to the selected
 actual-concrete grounding relation. Unlike Escape, it tests only Set.univ.
 Its applicability to real existential explanation remains an open premise. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.WholeRosterFoundation
 open TruthCore.Causality.BruteFoundationBoundary
 open TruthCore.Causality.NecessaryRootFork

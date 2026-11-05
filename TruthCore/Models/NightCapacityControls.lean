@@ -1,6 +1,8 @@
-import TruthCore.Models.NightActualizationFork
-import TruthCore.Models.NightMovingResidual
-import TruthCore.Results.Bridges.AristPotencyAnalysisNonSimultaneity.Solution
+module
+
+public import TruthCore.Models.NightActualizationFork
+public import TruthCore.Models.NightMovingResidual
+public import TruthCore.Results.Bridges.AristPotencyAnalysisNonSimultaneity.Solution
 
 /-! Capacity extensions of the seven existing Night interpretations. Their
 beings, respects, act, potency, motion, moving and simple-priority assignments
@@ -12,6 +14,9 @@ same-respect act/potency exclusion. It fails in SelfMover and Overlap by the
 existing analysis-to-exclusion bridge. These are joint finite controls of the
 six-atom territory projection, not complete accounts of Aristotelian capacity,
 metaphysical possibilities, or defenses of any root premise. -/
+
+@[expose] public section
+
 namespace TruthCore.Models.NightCapacityControls
 
 open TruthCore.Latin.Aquinas.SummaTheologiae

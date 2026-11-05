@@ -1,6 +1,8 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaViaAscent
-import TruthCore.Latin.Aquinas.InMetaphysicam.BookII
-import TruthCore.Greek.Aristotle.Metaphysics
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaViaAscent
+public import TruthCore.Latin.Aquinas.InMetaphysicam.BookII
+public import TruthCore.Greek.Aristotle.Metaphysics
 
 /-! Two-being Boolean omission controls for the causal-ascent derivation of the
 grades-to-maximum step (`QUARTA-VIA-GRADES-MAXIMUM-FROM-CAUSAL-ASCENT`). Respects are
@@ -8,6 +10,9 @@ Booleans and every fixture ignores them. In each fixture exactly one of the four
 premises fails, the other three hold, something is more such than something,
 and nothing is maximal in the respect. These are satisfiability fixtures for
 the encoded premises, not metaphysical possibilities or source readings. -/
+
+@[expose] public section
+
 namespace TruthCore.Models.QuartaViaCausalAscent
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Latin.Aquinas.InMetaphysicam

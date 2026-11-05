@@ -1,4 +1,9 @@
-import TruthCore.Metaethics.DescriptivePlanBoundary
+module
+
+public import TruthCore.Metaethics.DescriptivePlanBoundary
+
+@[expose] public section
+
 namespace TruthCore.Results.Metaethics.DescriptivePlanBoundary
 open TruthCore.Metaethics.DescriptivePlanBoundary
 open TruthCore.Metaethics.PlanStateEmbedding

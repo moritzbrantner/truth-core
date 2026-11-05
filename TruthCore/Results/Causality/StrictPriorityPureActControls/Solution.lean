@@ -1,6 +1,11 @@
-import TruthCore.Causality.StrictPriorityPureAct
-import TruthCore.Results.Causality.DirectEsseGenusOmissionControl.Solution
-import TruthCore.Results.Causality.NecessarySimplePlurality.Solution
+module
+
+public import TruthCore.Causality.StrictPriorityPureAct
+public import TruthCore.Results.Causality.DirectEsseGenusOmissionControl.Solution
+public import TruthCore.Results.Causality.NecessarySimplePlurality.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Causality.StrictPriorityPureActControls
 open TruthCore.Causality.StrictPriorityPureAct
 open TruthCore.Causality.StrictPriorityPureAct.Controls

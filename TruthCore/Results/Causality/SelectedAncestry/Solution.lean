@@ -1,5 +1,9 @@
-import TruthCore.Causality.SelectedAncestry
-import TruthCore.Models.SelectedAncestry
+module
+
+public import TruthCore.Causality.SelectedAncestry
+public import TruthCore.Models.SelectedAncestry
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.SelectedAncestry
 open TruthCore.Causality.BruteFoundationBoundary

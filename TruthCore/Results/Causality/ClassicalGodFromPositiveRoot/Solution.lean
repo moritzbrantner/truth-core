@@ -1,6 +1,11 @@
-import TruthCore.Causality.NecessaryClassicalGodRoot
-import TruthCore.Logic.ExcludedMiddle
-import TruthCore.Results.Aquinas.SummaTheologiae.FirstBeingNoPotency.Solution
+module
+
+public import TruthCore.Causality.NecessaryClassicalGodRoot
+public import TruthCore.Logic.ExcludedMiddle
+public import TruthCore.Results.Aquinas.SummaTheologiae.FirstBeingNoPotency.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Causality.ClassicalGodFromPositiveRoot
 open TruthCore.Causality.BruteFoundationBoundary
 open TruthCore.Causality.NecessaryConcreteRouteBridge

@@ -1,10 +1,15 @@
-import TruthCore.Explanation.EmptyHistoryCausalAvailability
-import TruthCore.Models.CountTemporalControls
+module
+
+public import TruthCore.Explanation.EmptyHistoryCausalAvailability
+public import TruthCore.Models.CountTemporalControls
 
 /-! A source-free positive joint compatibility control on the EXACT old count
 history. Empty contingent extension is not empty concrete existence. The
 negative fact is admitted explicitly; CauseFact is neither Ontic.Causes nor
 Arena.explains. No causal adequacy or metaphysical possibility is established. -/
+
+@[expose] public section
+
 namespace TruthCore.Explanation.EmptyHistoryCountControl
 open TruthCore.Models.CountTemporalControls
 open TruthCore.Explanation.PSRStrength (Arena Contingent)

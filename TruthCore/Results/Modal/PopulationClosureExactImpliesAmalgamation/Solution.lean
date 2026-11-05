@@ -1,4 +1,8 @@
-import TruthCore.Models.PopulationClosureSeparation
+module
+
+public import TruthCore.Models.PopulationClosureSeparation
+
+@[expose] public section
 
 namespace TruthCore.Results.Modal.PopulationClosureExactImpliesAmalgamation
 open TruthCore.Models.PopulationClosureSeparation

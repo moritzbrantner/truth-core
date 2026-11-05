@@ -1,4 +1,8 @@
-import TruthCore.Causality.NecessarilyUnderived
+module
+
+public import TruthCore.Causality.NecessarilyUnderived
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.NecessarilyUnderived.PositiveUnion
 

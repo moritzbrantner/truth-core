@@ -1,8 +1,13 @@
-import TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.Quantifiers
+module
+
+public import TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.Quantifiers
 
 /-! Task-local cardinality diagnostics for #606. The fixed roster, literal
 identity, accessibility and existence predicate retain Quantifiers' meanings.
 All profiles here are stipulated interpretations, not sourced modal claims. -/
+
+@[expose] public section
+
 namespace TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.BoundedOmission
 open TruthCore.Modal
 open TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1 (ExistsAt)

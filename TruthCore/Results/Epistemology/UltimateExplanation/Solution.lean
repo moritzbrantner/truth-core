@@ -1,4 +1,9 @@
-import TruthCore.Epistemology.UltimateExplanation
+module
+
+public import TruthCore.Epistemology.UltimateExplanation
+
+@[expose] public section
+
 namespace TruthCore.Results.Epistemology.UltimateExplanation
 open TruthCore.Epistemology.UltimateExplanation
 open TruthCore.Modern.Hume.Induction

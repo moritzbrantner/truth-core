@@ -1,4 +1,9 @@
-import TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1
+module
+
+public import TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1
+
+@[expose] public section
+
 namespace TruthCore.Results.Isabelle.NotesOnGoedel.EmptyPropertyIsEssence
 open TruthCore.Modal (Frame)
 open TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1

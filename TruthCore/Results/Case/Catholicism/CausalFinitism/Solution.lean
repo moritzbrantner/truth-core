@@ -1,6 +1,10 @@
-import TruthCore.Case.Catholicism.StageOne.CausalFinitism
-import TruthCore.Results.Bridges.PerSeRegressFiniteGrounding.Solution
-import TruthCore.Results.Causality.FiniteGroundingHasSource.Solution
+module
+
+public import TruthCore.Case.Catholicism.StageOne.CausalFinitism
+public import TruthCore.Results.Bridges.PerSeRegressFiniteGrounding.Solution
+public import TruthCore.Results.Causality.FiniteGroundingHasSource.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Case.Catholicism.CausalFinitism
 open TruthCore.Case.Catholicism.StageOne.CausalFinitism

@@ -1,5 +1,9 @@
-import TruthCore.Modal.ActualistDomains
-import TruthCore.Models.PSR
+module
+
+public import TruthCore.Modal.ActualistDomains
+public import TruthCore.Models.PSR
+
+@[expose] public section
 
 namespace TruthCore.Modal.ActualistDomains
 open TruthCore.German.Kant.CosmologicalInference

@@ -1,5 +1,10 @@
-import TruthCore.Case.Catholicism.StageOneBridges
-import TruthCore.Results.Aquinas.SummaTheologiae.FirstBeingNoPotency.Solution
+module
+
+public import TruthCore.Case.Catholicism.StageOneBridges
+public import TruthCore.Results.Aquinas.SummaTheologiae.FirstBeingNoPotency.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverPureAct
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Case.Catholicism (FirstUnmovedMoverIsPureAct IsFirstUnmovedMover

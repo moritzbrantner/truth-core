@@ -1,5 +1,9 @@
-import TruthCore.Modal.ExistenceDegrees
-import TruthCore.Results.Modal.ExistenceDegrees.Solution
+module
+
+public import TruthCore.Modal.ExistenceDegrees
+public import TruthCore.Results.Modal.ExistenceDegrees.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Modal.ExistenceDegreesActual
 open TruthCore.German.Kant.CosmologicalInference

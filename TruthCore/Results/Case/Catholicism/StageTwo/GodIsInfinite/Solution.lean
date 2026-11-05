@@ -1,7 +1,12 @@
-import TruthCore.Results.Case.Catholicism.StageTwo.GodIsSimple.Solution
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.InfinityEternity
-import TruthCore.Logic.ExcludedMiddle
+module
+
+public import TruthCore.Results.Case.Catholicism.StageTwo.GodIsSimple.Solution
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.InfinityEternity
+public import TruthCore.Logic.ExcludedMiddle
+
+@[expose] public section
+
 namespace TruthCore.Results.Case.Catholicism.StageTwo.GodIsInfinite
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Greek.Aristotle.Metaphysics (CauseOfQualityInAnotherIsMoreSuchReading)

@@ -1,4 +1,9 @@
-import TruthCore.Modern.Hume.Conceivability
+module
+
+public import TruthCore.Modern.Hume.Conceivability
+
+@[expose] public section
+
 namespace TruthCore.Results.Modern.Hume.Conceivability
 open TruthCore.Modal
 open TruthCore.Isabelle.AFP.GoedelGod (MProp Box Dia)

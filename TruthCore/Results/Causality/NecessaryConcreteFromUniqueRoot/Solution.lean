@@ -1,4 +1,8 @@
-import TruthCore.Causality.NecessaryRootUniqueness
+module
+
+public import TruthCore.Causality.NecessaryRootUniqueness
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.NecessaryConcreteFromUniqueRoot
 open TruthCore.Causality.BruteFoundationBoundary

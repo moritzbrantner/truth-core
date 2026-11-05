@@ -1,4 +1,9 @@
-import TruthCore.Results.Causality.ConstitutiveConfiguration.Solution
+module
+
+public import TruthCore.Results.Causality.ConstitutiveConfiguration.Solution
+
+@[expose] public section
+
 namespace TruthCore.Models.ConstitutiveConfiguration
 open TruthCore.Case.Catholicism TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Causality.ConstitutiveNatureUniqueness TruthCore.Causality.ConstitutiveConfiguration

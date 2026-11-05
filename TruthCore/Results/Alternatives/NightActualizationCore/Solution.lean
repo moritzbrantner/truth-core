@@ -1,6 +1,10 @@
-import TruthCore.Alternatives.NightCosmogony
-import TruthCore.Logic.Configuration
-import TruthCore.Results.Alternatives.GenerationFromNightRefuted.Solution
+module
+
+public import TruthCore.Alternatives.NightCosmogony
+public import TruthCore.Logic.Configuration
+public import TruthCore.Results.Alternatives.GenerationFromNightRefuted.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Alternatives.NightActualizationCore
 open TruthCore.Latin.Aquinas.SummaTheologiae

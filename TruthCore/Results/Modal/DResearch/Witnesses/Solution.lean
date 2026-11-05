@@ -1,4 +1,9 @@
-import TruthCore.Modal.DResearch.Witnesses
+module
+
+public import TruthCore.Modal.DResearch.Witnesses
+
+@[expose] public section
+
 namespace TruthCore.Results.Modal.DResearch.Witnesses
 open TruthCore.Modal
 open TruthCore.Modal.ResearchFixture

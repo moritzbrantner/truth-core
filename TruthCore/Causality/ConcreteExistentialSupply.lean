@@ -1,11 +1,16 @@
-import TruthCore.Causality.NecessaryRootFork
-import TruthCore.Causality.DerivativeJointPower
-import TruthCore.Causality.NecessaryConcreteUnderived
+module
+
+public import TruthCore.Causality.NecessaryRootFork
+public import TruthCore.Causality.DerivativeJointPower
+public import TruthCore.Causality.NecessaryConcreteUnderived
 
 /-! Apply the existing joint-supply standard to one selected existential-grounding
 profile. This is an explicit APPLICATION premise, not a source attribution or a
 proof that actual existence obeys that standard. No event/bearer identification is
 made: nodes here are the existing actual-concrete subtype itself. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.ConcreteExistentialSupply
 open TruthCore.Causality.BruteFoundationBoundary
 open TruthCore.Causality.NecessaryRootFork

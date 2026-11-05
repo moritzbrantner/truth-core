@@ -1,6 +1,6 @@
+module
 
-
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7
 
 /-!
 The simplicity conclusions of ST I q.3 a.1, a.2, a.4 and a.7, stated for the
@@ -8,6 +8,8 @@ The simplicity conclusions of ST I q.3 a.1, a.2, a.4 and a.7, stated for the
 conclusions to be derived for the first mover moved by none, not readings of
 those sentences.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Latin.Aquinas.SummaTheologiae
 

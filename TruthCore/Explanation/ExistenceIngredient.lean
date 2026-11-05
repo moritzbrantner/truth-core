@@ -1,5 +1,7 @@
-import TruthCore.Explanation.ExistencePSR
-import TruthCore.Causality.JointGroups
+module
+
+public import TruthCore.Explanation.ExistencePSR
+public import TruthCore.Causality.JointGroups
 
 /-!
 Typed analyst extraction motivated by the materialized Dasgupta §9 reading.
@@ -11,6 +13,9 @@ not modal truths or proofs of a bearer. No truth, sufficiency, actual ground,
 autonomy or causal property is inferred from record admission alone.
 See docs/notes/underived-essence-identity.md for meanings and open applications.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Explanation.ExistenceIngredient
 open TruthCore.Explanation.ExistencePSR
 open TruthCore.Causality.JointGroups

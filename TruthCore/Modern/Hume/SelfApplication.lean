@@ -1,9 +1,14 @@
-import TruthCore.Results.Modern.Hume.Conceivability.Solution
+module
+
+public import TruthCore.Results.Modern.Hume.Conceivability.Solution
 
 /-! Issue #268 extends, rather than repeats, #248. The modal laws below are
 stipulated comparisons. No unrestricted or necessary bridge, higher-order
 conception, or modal frame is attributed to Treatise I.3.3 §§1–7.
 The source reading itself reuses STMT-HUME-NARROW-IDEAS-WITHHOLDING. -/
+
+@[expose] public section
+
 namespace TruthCore.Modern.Hume.SelfApplication
 open TruthCore.Modal
 open TruthCore.Isabelle.AFP.GoedelGod (MProp Box Dia)

@@ -1,6 +1,8 @@
-import TruthCore.Logic.CogitoSubject
-import TruthCore.German.Kant.CosmologicalInference
-import TruthCore.Alternatives.ActPotencyRegress
+module
+
+public import TruthCore.Logic.CogitoSubject
+public import TruthCore.German.Kant.CosmologicalInference
+public import TruthCore.Alternatives.ActPotencyRegress
 
 /-!
 From an actual thought to an inhabited actual world, and to the prima via's
@@ -40,6 +42,9 @@ conclusion at the witness `embed e`, so any proof from it is a transcription
 (AGENTS.md invariant 16); it is used here only in a model showing that the
 bearer route is not necessary for population.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Logic.CogitoConcrete
 
 open TruthCore.Logic.CogitoSubject

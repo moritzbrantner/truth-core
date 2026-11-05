@@ -1,8 +1,12 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaViaFork
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question4.Article1
-import TruthCore.Logic.Configuration
-import TruthCore.Models.QuartaViaDegreeFork
-import TruthCore.Models.QuartaViaMaximumControls
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaViaFork
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question4.Article1
+public import TruthCore.Logic.Configuration
+public import TruthCore.Models.QuartaViaDegreeFork
+public import TruthCore.Models.QuartaViaMaximumControls
+
+@[expose] public section
 
 namespace TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaMaximumInBeing
 open TruthCore.Latin.Aquinas.SummaTheologiae

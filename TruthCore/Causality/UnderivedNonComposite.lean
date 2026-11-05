@@ -1,11 +1,16 @@
-import TruthCore.Causality.UnderivedCommonSource
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7Cause
+module
+
+public import TruthCore.Causality.UnderivedCommonSource
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7Cause
 
 /-! Analyst-defined interfaces for #319. The reused q.3 a.7 reading gives a
 uniting cause, but does not index its actual presence or identify CausesIn with
 Ontic.Causes. Neither interface below is attributed to Aquinas or established
 by the connection. Composite retains the existing q.3 parameter, not a newly
 defined proper-part predicate. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.UnderivedNonComposite
 open TruthCore.German.Kant.CosmologicalInference
 open TruthCore.Causality.NamedPotentialCauser

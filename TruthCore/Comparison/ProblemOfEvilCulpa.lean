@@ -1,5 +1,9 @@
-import TruthCore.Comparison.ProblemOfEvil
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question48.Article5
+module
+
+public import TruthCore.Comparison.ProblemOfEvil
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question48.Article5
+
+@[expose] public section
 
 namespace TruthCore.Comparison.ProblemOfEvilCulpa
 open TruthCore.Latin.Aquinas.SummaTheologiae

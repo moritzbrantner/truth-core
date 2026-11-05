@@ -1,4 +1,9 @@
-import TruthCore.Causality.TemporalActualization
+module
+
+public import TruthCore.Causality.TemporalActualization
+
+@[expose] public section
+
 namespace TruthCore.Results.Causality.TemporalActualization.Framework
 open TruthCore.Causality.TemporalActualization
 

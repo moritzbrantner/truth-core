@@ -1,6 +1,10 @@
-import TruthCore.Causality.ActualFusionNecessaryBeing
-import TruthCore.Causality.NecessarilyUnderived
-import TruthCore.Explanation.WellFoundedSource
+module
+
+public import TruthCore.Causality.ActualFusionNecessaryBeing
+public import TruthCore.Causality.NecessarilyUnderived
+public import TruthCore.Explanation.WellFoundedSource
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.ReflexiveActualFusionNecessaryBeing
 open TruthCore.German.Kant.CosmologicalInference

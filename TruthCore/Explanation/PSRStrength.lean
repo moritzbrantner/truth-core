@@ -1,4 +1,6 @@
-import TruthCore.Explanation.ExistencePSR
+module
+
+public import TruthCore.Explanation.ExistencePSR
 
 /-!
 # A common arena for strengths of the Principle of Sufficient Reason (#755)
@@ -16,6 +18,9 @@ Models below are analyst-built mathematical interpretations. A model shows that 
 formal bundle is satisfiable, not that it is metaphysically possible. Theorems
 establish conditional consequence, not the truth of any PSR.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Explanation.PSRStrength
 
 open TruthCore.German.Kant.CosmologicalInference

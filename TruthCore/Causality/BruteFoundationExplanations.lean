@@ -1,4 +1,6 @@
-import TruthCore.Causality.BruteFoundationBoundary
+module
+
+public import TruthCore.Causality.BruteFoundationBoundary
 
 /-!
 # Explanatory coverage is weaker than necessitating explanation
@@ -13,6 +15,8 @@ reason to an actual fact neither proves complete explanation nor entails that
 the explanandum is true wherever the reason is present. The difference is
 tested below, not passed off as an argument for a necessary being.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Causality.BruteFoundationExplanations
 

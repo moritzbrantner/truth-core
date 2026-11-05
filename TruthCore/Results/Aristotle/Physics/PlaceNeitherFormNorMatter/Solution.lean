@@ -1,4 +1,8 @@
-import TruthCore.Greek.Aristotle.Physics.BookIV.Chapter2
+module
+
+public import TruthCore.Greek.Aristotle.Physics.BookIV.Chapter2
+
+@[expose] public section
 
 namespace TruthCore.Results.Aristotle.Physics.PlaceNeitherFormNorMatter
 

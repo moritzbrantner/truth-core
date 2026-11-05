@@ -1,5 +1,9 @@
-import TruthCore.Explanation.FixedConstituentNecessaryBeing
-import TruthCore.Results.Explanation.NecessaryFactBoundary.Solution
+module
+
+public import TruthCore.Explanation.FixedConstituentNecessaryBeing
+public import TruthCore.Results.Explanation.NecessaryFactBoundary.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Explanation.FixedConstituentNecessaryBeing
 open TruthCore.Explanation.PSRStrength

@@ -1,5 +1,9 @@
-import TruthCore.Explanation.JointContingencyLocalization
-import TruthCore.Results.Explanation.JointCondition.Solution
+module
+
+public import TruthCore.Explanation.JointContingencyLocalization
+public import TruthCore.Results.Explanation.JointCondition.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Explanation.JointContingencyLocalization
 open TruthCore.Explanation.PSRStrength

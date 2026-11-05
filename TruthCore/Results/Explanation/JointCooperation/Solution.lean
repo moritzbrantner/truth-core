@@ -1,6 +1,11 @@
-import TruthCore.Explanation.JointCooperation
-import TruthCore.Results.Explanation.UltimateAdequacy.Solution
-import TruthCore.Results.Causality.JointGroups.Solution
+module
+
+public import TruthCore.Explanation.JointCooperation
+public import TruthCore.Results.Explanation.UltimateAdequacy.Solution
+public import TruthCore.Results.Causality.JointGroups.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Explanation.JointCooperation
 open TruthCore.Explanation.JointCooperation
 open TruthCore.Causality.JointGroups TruthCore.Causality.DerivativeJointPower

@@ -1,5 +1,9 @@
-import TruthCore.Results.Alternatives.MegarianAbolishesMotion.Solution
-import TruthCore.Logic.Configuration
+module
+
+public import TruthCore.Results.Alternatives.MegarianAbolishesMotion.Solution
+public import TruthCore.Logic.Configuration
+
+@[expose] public section
 
 namespace TruthCore.Results.Alternatives.MegarianCapacityCore
 open TruthCore.Latin.Aquinas.SummaTheologiae

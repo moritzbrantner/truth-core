@@ -1,4 +1,6 @@
-import TruthCore.Explanation.JointCondition
+module
+
+public import TruthCore.Explanation.JointCondition
 
 /-!
 Classical localization for the existing fixed conjunction. No aggregate fact,
@@ -7,6 +9,9 @@ and original Arena are retained; the old JointCondition definitions are not
 changed. A logical equivalence neither asserts joint contingency nor selects a
 particular member independently of the supplied contingent package.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Explanation.JointContingencyLocalization
 open TruthCore.Explanation.PSRStrength
 open TruthCore.Explanation.JointCondition

@@ -1,5 +1,9 @@
-import TruthCore.Causality.HeadlessCausalAncestry
-import TruthCore.Results.Causality.WorldSourceRegress.Solution
+module
+
+public import TruthCore.Causality.HeadlessCausalAncestry
+public import TruthCore.Results.Causality.WorldSourceRegress.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.HeadlessCausalAncestry
 open TruthCore.Causality.HeadlessCausalAncestry

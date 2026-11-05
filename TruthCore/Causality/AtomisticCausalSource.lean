@@ -1,6 +1,8 @@
-import TruthCore.Logic.Regress
-import TruthCore.Mereology.UniversalFusionBoundary
-import Mathlib.Order.Max
+module
+
+public import TruthCore.Logic.Regress
+public import TruthCore.Mereology.UniversalFusionBoundary
+public import Mathlib.Order.Max
 
 /-! Analyst minimum extracted from the atomistic argument's structure.
 The fixed carrier denotes non-null objects in the chosen interpretation; it
@@ -13,6 +15,9 @@ proper-part descent, not its full P2. Conditional cover is only containment
 from the nonempty caused-simple sum, not unrestricted or unguarded fusion.
 The selected edge may be read as complete existence production; no automatic
 identification with partial contribution or actual existential ground is made. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.AtomisticCausalSource
 open TruthCore.Logic.Regress (Graph)
 open TruthCore.Mereology.UniversalFusionBoundary (Composite Overlap Covers Fusion)

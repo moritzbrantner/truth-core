@@ -1,14 +1,19 @@
-import Mathlib.Order.Directed
-import Mathlib.Order.Zorn
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaViaOrder
-import TruthCore.Logic.ExcludedMiddle
-import TruthCore.Models.QuartaViaCausalAscent
+module
+
+public import Mathlib.Order.Directed
+public import Mathlib.Order.Zorn
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaViaOrder
+public import TruthCore.Logic.ExcludedMiddle
+public import TruthCore.Models.QuartaViaCausalAscent
 
 /-! The *quarta via*'s grades-to-maximum step (`STMT-GRADES-HAVE-A-MAXIMUM`)
 derived by causal ascent (#341), with one omission countermodel per nonlogical
 premise, and two order-theoretic facts on the homogeneous-scale reading: a
 Zorn form of the existence step and directedness turning a maximal grade into
 a greatest one. -/
+
+@[expose] public section
+
 namespace TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaGradesFromCausalAscent
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Latin.Aquinas.InMetaphysicam

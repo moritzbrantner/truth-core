@@ -1,5 +1,7 @@
-import TruthCore.Explanation.CompleteResponseParity
-import TruthCore.Modern.Hume.Regularity
+module
+
+public import TruthCore.Explanation.CompleteResponseParity
+public import TruthCore.Modern.Hume.Regularity
 
 /-! A bounded response-mechanism experiment following #974.
 
@@ -11,6 +13,9 @@ Neither intervention family is independently certified as physically or
 metaphysically available. The root of `OneState` explicitly carries TWO bits;
 calling it one state or one graph node does not make it simple or underived.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Explanation.MechanismInterventionParity
 
 open TruthCore.Modern.Hume.Regularity

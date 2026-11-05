@@ -1,4 +1,9 @@
-import TruthCore.Greek.Aristotle.Physics.BookVI.Chapter8
+module
+
+public import TruthCore.Greek.Aristotle.Physics.BookVI.Chapter8
+
+@[expose] public section
+
 namespace TruthCore.Results.Aristotle.Physics.NotWhollyDeterminateDuringPrimaryMotion
 open TruthCore.Greek.Aristotle.Physics
 theorem notWhollyDeterminateDuringPrimaryMotion

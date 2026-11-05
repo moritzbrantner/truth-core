@@ -1,5 +1,9 @@
-import TruthCore.Explanation.AccessibleAccountNecessaryBeing
-import TruthCore.Results.Explanation.FixedConstituentNecessaryBeing.Solution
+module
+
+public import TruthCore.Explanation.AccessibleAccountNecessaryBeing
+public import TruthCore.Results.Explanation.FixedConstituentNecessaryBeing.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Explanation.AccessibleAccountNecessaryBeing
 open TruthCore.Explanation.PSRStrength

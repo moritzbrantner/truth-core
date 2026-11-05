@@ -1,4 +1,9 @@
-import TruthCore.Modal.ActualReasonWitness
+module
+
+public import TruthCore.Modal.ActualReasonWitness
+
+@[expose] public section
+
 namespace TruthCore.Results.Modal.ActualReasonWitness
 open TruthCore.Modal.ActualReasonWitness
 theorem checks : Certificate := by

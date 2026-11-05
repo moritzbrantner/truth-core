@@ -1,6 +1,11 @@
-import TruthCore.Isabelle.AFP.GoedelGod
-import TruthCore.Logic.ExcludedMiddle
-import TruthCore.Results.Isabelle.GoedelGod.GodLikeNecessarilyExists.Solution
+module
+
+public import TruthCore.Isabelle.AFP.GoedelGod
+public import TruthCore.Logic.ExcludedMiddle
+public import TruthCore.Results.Isabelle.GoedelGod.GodLikeNecessarilyExists.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Isabelle.GoedelGod.ModalCollapse
 open TruthCore.Modal (Frame Symmetric)
 open TruthCore.Logic (ExcludedMiddle)

@@ -1,4 +1,9 @@
-import TruthCore.Teleonomy.Mechanisms
+module
+
+public import TruthCore.Teleonomy.Mechanisms
+
+@[expose] public section
+
 namespace TruthCore.Results.Comparison.Teleonomy.GovernedMechanisms
 open TruthCore.Teleonomy
 open TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaModels

@@ -1,4 +1,9 @@
-import TruthCore.Results.Modern.Russell.Description.Solution
+module
+
+public import TruthCore.Results.Modern.Russell.Description.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Modern.Russell.Cardinality
 open TruthCore.Modern.Russell.Existence
 private theorem nonemptyA : ExistsPred (Inst singleA) := ⟨.a, rfl⟩

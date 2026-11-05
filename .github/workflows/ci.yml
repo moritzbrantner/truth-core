@@ -44,6 +44,8 @@ jobs:
         run: scripts/root-imports.sh
       - name: Check generated docs tables and lists are up to date
         run: python3 scripts/docs_index.py
+      - name: Check every library file except Challenges and aggregators is a Lean module
+        run: python3 scripts/convert_to_module.py check
       # Prebuilt Mathlib, then an incremental TruthCore build from the latest main build
       # (.github/actions/lean-setup). This job alone writes the Lean caches, and only on main.
       - uses: ./.github/actions/lean-setup

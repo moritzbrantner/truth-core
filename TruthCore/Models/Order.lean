@@ -1,9 +1,14 @@
-import TruthCore.Models.FiniteSupport
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaViaOrder
+module
+
+public import TruthCore.Models.FiniteSupport
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaViaOrder
 
 /-! Named finite interpretations and closed certificates for #414.
 Registration tests formal consequence only; it does not establish metaphysical possibility.
 Existing Challenges and proof obligations are unchanged. -/
+
+@[expose] public section
+
 namespace TruthCore.Models.Order
 open TruthCore.Models.FiniteSupport
 /-- Constructive instances of Mathlib's Preorder. The larger global Boolean

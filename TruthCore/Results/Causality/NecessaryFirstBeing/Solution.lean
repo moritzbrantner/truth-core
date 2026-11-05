@@ -1,6 +1,10 @@
-import TruthCore.Causality.NecessaryFirstBeing
-import TruthCore.Results.Causality.WholeRosterFoundation.Solution
-import TruthCore.Results.Aquinas.SummaTheologiae.FirstBeingNoPotency.Solution
+module
+
+public import TruthCore.Causality.NecessaryFirstBeing
+public import TruthCore.Results.Causality.WholeRosterFoundation.Solution
+public import TruthCore.Results.Aquinas.SummaTheologiae.FirstBeingNoPotency.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.NecessaryFirstBeing
 open TruthCore.Causality.BruteFoundationBoundary

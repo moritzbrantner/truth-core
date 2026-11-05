@@ -1,4 +1,9 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3SecundaVia
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3SecundaVia
+
+@[expose] public section
+
 namespace TruthCore.Results.Aquinas.SummaTheologiae.MoverRegressFromCauseRegress
 open TruthCore.Latin.Aquinas.SummaTheologiae
 

@@ -1,4 +1,8 @@
-import TruthCore.Mereology.FusionNoNecessaryParts
+module
+
+public import TruthCore.Mereology.FusionNoNecessaryParts
+
+@[expose] public section
 
 namespace TruthCore.Results.Mereology.FusionNoNecessaryParts
 open TruthCore.German.Kant.CosmologicalInference

@@ -1,11 +1,16 @@
-import TruthCore.Explanation.ExistenceIngredient
-import TruthCore.Explanation.JointCondition
+module
+
+public import TruthCore.Explanation.ExistenceIngredient
+public import TruthCore.Explanation.JointCondition
 
 /-! Selected-target analyst consumer of complete autonomous fact grounds.
 The strong full-ground premise is NOT inferred from the owner's scoped PSR.
 Autonomous necessity and whole-ground necessitation are separate OPEN inputs.
 Fact labels are not beings; no efficient cause, selected R, essential-label
 realization, IngredientAt, well-foundedness or modal frame law is introduced. -/
+
+@[expose] public section
+
 namespace TruthCore.Explanation.AutonomousGroundNecessity
 open TruthCore.Explanation.ExistenceIngredient
 open TruthCore.Explanation.PSRStrength
