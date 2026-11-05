@@ -15,7 +15,7 @@ readings, and a view developed by followers is not attributed to him.
 | Position | Variant and source | Class | Against which premise or floor item | Status |
 |---|---|---|---|---|
 | Wittgensteinian fideism, sharp form | WF-N: the critics' four theses (Nielsen 1967), `SEP-FIDEISM` §2.2.4 | rival | `STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE` (all 12 routes) | conditionally defeated as a description of Catholic practice (`WF-FAILS-AS-DESCRIPTION-OF-CATHOLIC-PRACTICE`); open premises, so not counted (#999) |
-| Early Phillips | WF-P1: praise of God refers to no object (1976), `SEP-RELIGIOUS-LANGUAGE` §4.1; the stronger thesis that "God" names no being is an unattributed reconstruction it supports | rival (the reconstruction) | `STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE`, `STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS`, `STMT-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD` (the nominal identification on every route) | recorded, not refuted |
+| Early Phillips | WF-P1: praise of God "does not refer to some object called God" (1976), `SEP-RELIGIOUS-LANGUAGE` §4.1; the stronger thesis that "God" names no being is an unattributed reconstruction it supports | rival (the reconstruction) | `STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE`, `STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS`, `STMT-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD` (the nominal identification on every route) | recorded, not refuted |
 | Late Phillips, religious minimalism | WF-P2: reference and truth constituted inside the game; outside evidence admissible, `SEP-RELIGIOUS-LANGUAGE` §§4.1-4.2; `SEP-FIDEISM` §2.2.4 | rival off-route (face value theory); neutral to route leaves | `STMT-FACE-VALUE-THEORY-RELIGIOUS-LANGUAGE` (no route premise) | recorded |
 | Nielsen's critique | insulation of every form of life, `SEP-RELIGIOUS-LANGUAGE` §4.2 | objection to WF-N | attacks `STMT-WF-RELIGION-CUT-OFF-FROM-SHARED-REASON` | recorded; not a defeat (#1007: "not preferable" is not falsity) |
 | Lectures on religious belief (1938, student notes) | religious beliefs not hypotheses, `SEP-RELIGIOUS-LANGUAGE` §4.2 | rival in spirit to recognizability by signs; not attached to a leaf | none (the notes are not Wittgenstein's text; no claim attributes WF-N to him) | recorded as a reported reading |
@@ -33,7 +33,8 @@ The label is Kai Nielsen's (*Philosophy* 42, 1967). The SEP entry *Fideism*
 discourse is self-referential and does not let us talk about reality, (3)
 religious beliefs can be understood only by believers, and (4) religion cannot
 be criticized. It also reports that Nielsen aimed at Wittgensteinians (Malcolm,
-Winch), not Wittgenstein; that Wittgenstein likely endorsed none of the four;
+Winch), not Wittgenstein; that the entry's author doubts Wittgenstein would
+have endorsed any of the four;
 and that Phillips called the charge a caricature (1981, 89-90): he denied only
 his critics' *conception* of the connection between religion and life and of
 criticism (`STMT-PHILLIPS-DENIES-ONLY-CRITICS-CONCEPTION`).
@@ -91,11 +92,13 @@ CouncilDefinesNaturalKnowabilityReading P → DefinitionIsOwnStandardReading P �
 By the fideist's own internality, the defined move is correct. By the cut-off
 thesis it is not. Each premise is needed (countermodels in the same Comparator
 config), and the fideist bundle alone is consistent (`WF-CONSISTENT`). So the
-defeat comes from the community's rule, not from incoherence.
+conditional defeat comes from the community's rule together with the two open
+bridges, not from incoherence.
 
 What it shows, and what it does not:
 
-- It refutes WF-N **as a description of Catholic practice**. It says nothing
+- Given its open premises, it refutes WF-N **as a description of Catholic
+  practice**. It says nothing
   about other practices, or about every possible fideistic proposal.
 - It does not touch Phillips's "not generally" thesis: that thesis allows
   God's knowability by natural reason. Nor does it touch minimalism, which admits
@@ -161,8 +164,10 @@ whole-worldview comparison, not falsity.
 ### Rival entries on route leaves
 
 - `STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE` (12 of 12 routes): rival
-  `STMT-WF-RELIGION-CUT-OFF-FROM-SHARED-REASON`. Recognizability by external
-  signs answers to shared reason. Conditionally defeated, as above.
+  `STMT-WF-RELIGION-CUT-OFF-FROM-SHARED-REASON`, on the reading that
+  recognizability by external signs answers to shared reason. The fideist pair
+  is conditionally defeated as a description of Catholic practice, as above;
+  the rival entry itself is not refuted.
 - `STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE` (9 routes),
   `STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS` (1), `STMT-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD`
   (3): rival `STMT-GOD-NAMES-NO-BEING-WF-P1`, the unattributed reconstruction of
