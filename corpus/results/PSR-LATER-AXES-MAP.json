@@ -1,0 +1,10 @@
+{
+  "id": "PSR-LATER-AXES-MAP",
+  "argument_id": "PSR-LATER-AXES-MAP",
+  "challenge_module": "TruthCore.Results.Explanation.PSRLaterAxes.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.PSRLaterAxes.Solution",
+  "theorem": "TruthCore.Results.Explanation.PSRLaterAxes.interpretedMap",
+  "comparator_config": "results/PSR-LATER-AXES-MAP/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional composition on the shared Arena vocabulary, with genuine normalized PMF chance specialization and distinct actual exercise/Supply controls. No independent premise truth, personal-source discrimination, adequate explanation or metaphysical possibility claim."
+}

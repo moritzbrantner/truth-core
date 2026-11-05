@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PSR-CHANCE-RANKING",
+  "term": "fixed conditional probability ranking of outcomes",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.PSRLaterAxes.chanceFrame",
+  "definition": "The existing perReason favouring frame specialized to conditional event probabilities: r favours f over g when chanceGiven μ A r g < chanceGiven μ A r f. One fixed PMF and one arena are used at every designated world. PositiveBase records positive probability for base reasons. ProTanto and NetSelects separately require actual truth of reason/outcome and falsity of the compared rival; a probability ranking alone asserts none of these.",
+  "note": "A precise probabilistic reading of the earlier ranking parameter, not an analysis of sufficient explanation. Max-probability net selection of every actual outcome, together with necessary base, base fixation and exclusive/exhaustive outcome field, entails no contingency by the existing symmetry core. The 3/4–1/4 control admits a true positively probable less-likely outcome with an admitted true reason while failing that selection demand. Likelihood ranking, probability raising, truth-discriminating contrast and productive Supply stay distinct. No real-world probability or adequacy standard is established."
+}

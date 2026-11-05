@@ -1,0 +1,41 @@
+{
+  "id": "STMT-PSR-LATER-AXES-MAP",
+  "paraphrase": "Extends the existing PSR strength map and its collapse core, retaining the existence-scope controls. Under support coverage, the epistemic-to-ontic tracking bridge is equivalent to contingent-fact PSR and composes with the earlier aggregate collapse core; a critic can meet its demands with a supported brute root. Uniform truth-discriminating contrast implies per-rival contrast, which conflicts with reason closure, a contingent explanandum and foundedness; the necessary-ground and infinite-chain accounts separate the standards. On the same arena worlds, normalized Mathlib PMFs give event probabilities and event-ratio conditioning. A fact true at every sample world has probability one and cannot probability-raise another fact by conditioning. Fixed conditional-probability rankings inherit the symmetry core’s no-contingency conclusion when a necessary base and exclusive/exhaustive field have net selection at every relevant world; positive base mass licenses conditioning. In the explicit 3/4–1/4 ground control, the true less-likely rival has a true admitted reason and positive probability but fails net selection. Probability zero under a point mass does not prevent truth at an accessible world. At fixed target2 the all-necessary productive overlays all meet contingent PSR and have reason-closed accounts, while the source-free chain even meets FactPSR but lacks productive Supply. Single/plural Supply succeed, plural has no least graph foundation, and the rooted branch has no target Supply. The stopping norm admits two brute roots and an unexplained necessary ground, while its unrestricted form rejects that necessary stop. The same necessary-base contingent-outcome choice-mark frame permits either supplied personal flag. All statements are conditional consequences or named abstract controls; no PSR, genuine explanation, causal applicability, probability assignment or personal ground is independently established.",
+  "lean_declaration": "TruthCore.Explanation.PSRLaterAxes.InterpretedMap",
+  "definition_ids": [
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-PSR-STRENGTH-SCOPE",
+    "DEF-PSR-STRENGTH-MODAL",
+    "DEF-PSR-STRENGTH-TOTALITY",
+    "DEF-PSR-STRENGTH-REASON",
+    "DEF-PSR-REASON-NECESSITATING",
+    "DEF-PSR-REASON-INDEPENDENT",
+    "DEF-PSR-REASON-DISTRIBUTION",
+    "DEF-PSR-DOMAIN-BRIDGES",
+    "DEF-PSR-EXTERNAL-CAUSE",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-EPISTEMIC-SUPPORT",
+    "DEF-DEMAND-STANCE",
+    "DEF-EPISTEMIC-ONTIC-BRIDGES",
+    "DEF-EXPLANATORY-REASON-CLOSED",
+    "DEF-EXPLANATORY-CONTRAST",
+    "DEF-EXPLANATORY-FAVOURING-FRAME",
+    "DEF-EXPLANATORY-NET-SELECTION",
+    "DEF-EXPLANATORY-BASE-FIXED",
+    "DEF-EXPLANATORY-CHOICE-MARKS",
+    "DEF-DERIVATIVE-JOINT-SUPPLY",
+    "DEF-PSR-EVENT-CHANCE",
+    "DEF-PSR-CONDITIONAL-CHANCE",
+    "DEF-PSR-CHANCE-RANKING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PSR-EXPLANATION-CAUSE",
+    "DISAMB-PSR-REASON-NECESSITATING",
+    "DISAMB-REASON-EPISTEMIC-ONTIC",
+    "DISAMB-EXPLANATORY-SELECTION",
+    "DISAMB-EXPLANATORY-CHOICE",
+    "DISAMB-PROBABILITY-EXPLANATION",
+    "DISAMB-EXPLANATORY-CONTRAST-STOP"
+  ]
+}
