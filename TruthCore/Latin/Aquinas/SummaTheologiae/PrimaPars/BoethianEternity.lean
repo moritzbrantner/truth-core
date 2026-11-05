@@ -29,7 +29,7 @@ Not encoded: the further connotations of *perfecta* and *possessio* (reply 3:
 perfection/lack vocabulary; reply 6 ties them to immutability itself. The
 definition therefore does not reduce to `PureAct`: a non-pure-act being can
 satisfy it, and a pure-act being need not (see the controls in
-`TruthCore.Results.Aquinas.SummaTheologiae.ImmutableIsEternal`).
+`TruthCore.Results.Aquinas.SummaTheologiae.ImmutableIsBoethianEternal`).
 
 Source witnesses: SCTA diplomatic TEI of the Leonine edition, passages
 `AQUINAS-ST-I-Q9-A1`, `AQUINAS-ST-I-Q10-A1`, `AQUINAS-ST-I-Q18-A3`.
@@ -73,20 +73,32 @@ def BoethianEternal (LivesAt : Being → Time → Prop)
 end
 
 /-- Whatever is changed in any way is in some way in potency (q.9 a.1 co.:
-*omne autem quod quocumque modo mutatur, est aliquo modo in potentia*), read in
-the duration frame: if x's life begins or ends, or has succession, then x is in
-potency in some respect.
+*omne autem quod quocumque modo mutatur, est aliquo modo in potentia*), read only
+for succession in the duration frame: if a living thing's life-state differs
+between two times at which it lives, it is in potency in some respect.
 
-Reading choices: beginning or ceasing to live and change of life-state count as
-being changed *quocumque modo*; "in some way in potency" is read as potency in the
-subject, the `InPotency` that `PureAct` quantifies over, not q.9 a.2's power in
-another (`STMT-CREATURE-MUTABILITY-THROUGH-CREATOR-POWER`). -/
-def ChangeRequiresPotencyReading {Being : Sort u} {Respect : Sort z}
+Reading choices: change of life-state while living is a change *quocumque modo*;
+"in some way in potency" is read as potency in the subject, the `InPotency` that
+`PureAct` quantifies over, not q.9 a.2's power in another
+(`DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER`). Beginning or ceasing to live is not
+covered: Aquinas denies that creation is a change properly speaking, so that
+coverage is the separate open premise `LifeBoundaryRequiresPotencyReading`. -/
+def SuccessionRequiresPotencyReading {Being : Sort u} {Respect : Sort z}
     {Time : Type v} {State : Sort w} [LT Time]
     (InPotency : Being → Respect → Prop)
     (LivesAt : Being → Time → Prop) (lifeStateAt : Being → Time → State) : Prop :=
-  ∀ x, (LifeBeginsOrEnds LivesAt x ∨ LifeHasSuccession LivesAt lifeStateAt x) →
-    ∃ r, InPotency x r
+  ∀ x, LifeHasSuccession LivesAt lifeStateAt x → ∃ r, InPotency x r
+
+/-- Open premise, unattributed: whatever begins or ceases to live (between an
+earlier and a later time of the frame) is in potency in itself in some respect.
+Supported, not stated, by q.10 a.1 co.: what is altogether immutable can have
+neither beginning nor end. That sentence gives only that what has a beginning or
+end is not altogether immutable, which q.9 a.2 allows to hold through a power in
+another; the step to potency in the subject is the added commitment. -/
+def LifeBoundaryRequiresPotencyReading {Being : Sort u} {Respect : Sort z}
+    {Time : Type v} [LT Time]
+    (InPotency : Being → Respect → Prop) (LivesAt : Being → Time → Prop) : Prop :=
+  ∀ x, LifeBeginsOrEnds LivesAt x → ∃ r, InPotency x r
 
 /-- Open premise, unattributed: whatever is in potency in no respect lives at
 some time of the frame. Supported, not stated, by q.18 a.3 co.: what is its own
@@ -96,5 +108,16 @@ the bare absence of potency. -/
 def PureActLivesReading {Being : Sort u} {Respect : Sort z} {Time : Type v}
     (InPotency : Being → Respect → Prop) (LivesAt : Being → Time → Prop) : Prop :=
   ∀ x, PureAct InPotency x → ∃ t, LivesAt x t
+
+/-- The typed specialization of `ImmutableIsEternalReading`: whatever is in
+potency in no respect is Boethian-eternal. It is a distinct statement from the
+primitive-`Eternal` reading the root routes consume; identifying the two needs a
+recognition commitment that primitive eternity is (or follows from) Boethian
+eternity, which is not asserted here. -/
+def ImmutableIsBoethianEternalReading {Being : Sort u} {Respect : Sort z}
+    {Time : Type v} {State : Sort w} [LT Time]
+    (InPotency : Being → Respect → Prop)
+    (LivesAt : Being → Time → Prop) (lifeStateAt : Being → Time → State) : Prop :=
+  ∀ x, PureAct InPotency x → BoethianEternal LivesAt lifeStateAt x
 
 end TruthCore.Latin.Aquinas.SummaTheologiae

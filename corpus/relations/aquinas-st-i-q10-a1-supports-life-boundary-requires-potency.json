@@ -1,0 +1,9 @@
+{
+  "id": "REL-AQUINAS-ST-I-Q10-A1-SUPPORTS-LIFE-BOUNDARY-REQUIRES-POTENCY",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q10-A1-IMMUTABLE-NO-BEGINNING-END",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-LIFE-BOUNDARY-REQUIRES-POTENCY",
+  "note": "By contraposition the sentence gives: what begins or ends is not altogether immutable. The open premise strengthens 'not altogether immutable' to 'in potency in its subject in some respect', which q.9 a.2's mutability through another does not supply."
+}
