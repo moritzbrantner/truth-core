@@ -1,0 +1,26 @@
+{
+  "id": "FINITE-HITTING-CORE",
+  "premise_statement_ids": [
+    "STMT-FINITE-HITTING-UNIVERSAL",
+    "STMT-FINITE-HITTING",
+    "STMT-ABSENCE-AMALGAMATION",
+    "STMT-FINITE-HITTING-NO-NECESSARY"
+  ],
+  "conclusion_statement_id": "STMT-CONFIGURATION-FALSE",
+  "inference_ids": [
+    "INF-FINITE-HITTING-CORE"
+  ],
+  "meaning": "Under an explicit universal-accessibility background and actual world, finite hitting and absence amalgamation contradict no fixed necessary individual. This eliminates every superset in the same semantics; it does not identify which commitment to reject.",
+  "definition_ids": [
+    "DEF-FINITE-HITTING-PROFILE",
+    "DEF-POPULATION-CLOSURE",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-CONFIGURATION-FALSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FINITE-HITTING-PROFILE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

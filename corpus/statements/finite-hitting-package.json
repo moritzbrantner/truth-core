@@ -1,0 +1,16 @@
+{
+  "id": "STMT-FINITE-HITTING-PACKAGE",
+  "paraphrase": "Full #561 conditional cluster: finite hitting plus subset amalgamation yields a fixed necessary individual; one finite possible population or genuine product-topological compactness supplies hitting under necessary population. Finite-world bound, three inclusion-minimal cores relative to inhabited universal components, deletion controls, strict weakening controls, and a coherent double-infinite noncompact tail survivor with finite but no global joint omission. Retains the exact existing finite-cover laws/controls, closure separation and tail convergence. No assumption truth, metaphysical possibility, God identity or root closure is established.",
+  "lean_declaration": "TruthCore.Modal.FiniteHitting.Package",
+  "definition_ids": [
+    "DEF-FINITE-HITTING-PROFILE",
+    "DEF-POPULATION-CLOSURE",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-MODAL-FIXTURE-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FINITE-HITTING-PROFILE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

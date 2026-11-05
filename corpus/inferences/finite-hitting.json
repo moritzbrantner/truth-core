@@ -1,0 +1,9 @@
+{
+  "id": "INF-FINITE-HITTING",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-FINITE-HITTING-PACKAGE",
+  "rule": "finite-omission-and-mathlib-compact-subcover",
+  "meaning": "Finite omission composition and genuine Mathlib cylinder finite subcover prove A/B/C. The package checks exact semantic controls and all survivor costs. Open premises: H+A, P+A+O or P+A+K; no real modal applicability is defended and no root premise discharged.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

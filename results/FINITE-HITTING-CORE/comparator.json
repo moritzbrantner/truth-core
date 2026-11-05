@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.FiniteHitting.Challenge",
+  "solution_module": "TruthCore.Results.Modal.FiniteHitting.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.FiniteHitting.hittingCore"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

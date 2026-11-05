@@ -1,0 +1,27 @@
+{
+  "id": "FINITE-HITTING-FINITE-WORLD-CORE",
+  "premise_statement_ids": [
+    "STMT-FINITE-HITTING-UNIVERSAL",
+    "STMT-NECESSARY-INDIVIDUAL-DE-DICTO",
+    "STMT-ABSENCE-AMALGAMATION",
+    "STMT-FINITE-HITTING-ONE-FINITE",
+    "STMT-FINITE-HITTING-NO-NECESSARY"
+  ],
+  "conclusion_statement_id": "STMT-CONFIGURATION-FALSE",
+  "inference_ids": [
+    "INF-FINITE-HITTING-FINITE-WORLD-CORE"
+  ],
+  "meaning": "Under an explicit universal-accessibility background and actual world, necessary population, absence amalgamation and one finite possible population contradict no fixed necessary individual. All three non-background policies remain open; no God identity or root discharge follows.",
+  "definition_ids": [
+    "DEF-FINITE-HITTING-PROFILE",
+    "DEF-POPULATION-CLOSURE",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-CONFIGURATION-FALSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FINITE-HITTING-PROFILE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

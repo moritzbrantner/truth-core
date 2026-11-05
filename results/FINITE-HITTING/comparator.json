@@ -1,0 +1,21 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.FiniteHitting.Challenge",
+  "solution_module": "TruthCore.Results.Modal.FiniteHitting.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.FiniteHitting.checks",
+    "TruthCore.Results.Modal.FiniteHitting.laws",
+    "TruthCore.Results.Modal.FiniteHitting.compactLaws",
+    "TruthCore.Results.Modal.FiniteHitting.weakening",
+    "TruthCore.Results.Modal.FiniteHitting.tailBoundary",
+    "TruthCore.Results.Modal.FiniteHitting.omissionControls",
+    "TruthCore.Results.Modal.FiniteHitting.strictAmalgamation",
+    "TruthCore.Results.Modal.FiniteHitting.cores",
+    "TruthCore.Results.Modal.FiniteHitting.tailProfiles"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

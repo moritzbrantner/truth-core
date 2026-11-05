@@ -1,0 +1,16 @@
+{
+  "id": "STMT-FINITE-HITTING-UNIVERSAL",
+  "paraphrase": "The supplied component has universal accessibility. This existing predicate is stronger than S5 with disconnected components.",
+  "lean_declaration": "TruthCore.Modal.S5Research.Universal",
+  "definition_ids": [
+    "DEF-FINITE-HITTING-PROFILE",
+    "DEF-POPULATION-CLOSURE",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-MODAL-FIXTURE-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FINITE-HITTING-PROFILE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

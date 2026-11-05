@@ -1,0 +1,10 @@
+{
+  "id": "FINITE-HITTING",
+  "argument_id": "FINITE-HITTING",
+  "challenge_module": "TruthCore.Results.Modal.FiniteHitting.Challenge",
+  "solution_module": "TruthCore.Results.Modal.FiniteHitting.Solution",
+  "theorem": "TruthCore.Results.Modal.FiniteHitting.checks",
+  "comparator_config": "results/FINITE-HITTING/comparator.json",
+  "status": "solution-present",
+  "description": "Finite omission composition and genuine Mathlib cylinder finite subcover prove A/B/C. The package checks exact semantic controls and all survivor costs. Open premises: H+A, P+A+O or P+A+K; no real modal applicability is defended and no root premise discharged."
+}

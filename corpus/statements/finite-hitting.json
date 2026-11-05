@@ -1,0 +1,16 @@
+{
+  "id": "STMT-FINITE-HITTING",
+  "paraphrase": "One finite list of rigid concrete candidates hits every admissible population; it does not bound entire populations.",
+  "lean_declaration": "TruthCore.Modal.FiniteHitting.Hitting",
+  "definition_ids": [
+    "DEF-FINITE-HITTING-PROFILE",
+    "DEF-POPULATION-CLOSURE",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-MODAL-FIXTURE-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FINITE-HITTING-PROFILE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

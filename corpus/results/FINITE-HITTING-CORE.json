@@ -1,0 +1,10 @@
+{
+  "id": "FINITE-HITTING-CORE",
+  "argument_id": "FINITE-HITTING-CORE",
+  "challenge_module": "TruthCore.Results.Modal.FiniteHitting.Challenge",
+  "solution_module": "TruthCore.Results.Modal.FiniteHitting.Solution",
+  "theorem": "TruthCore.Results.Modal.FiniteHitting.hittingCore",
+  "comparator_config": "results/FINITE-HITTING-CORE/comparator.json",
+  "status": "solution-present",
+  "description": "Under an explicit universal-accessibility background and actual world, finite hitting and absence amalgamation contradict no fixed necessary individual. This eliminates every superset in the same semantics; it does not identify which commitment to reject."
+}

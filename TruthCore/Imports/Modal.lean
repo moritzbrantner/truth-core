@@ -19,6 +19,8 @@ import TruthCore.Modal.DeonticFutureBoundary
 import TruthCore.Modal.Examples
 import TruthCore.Modal.ExistenceDegreeAttainment
 import TruthCore.Modal.ExistenceDegrees
+import TruthCore.Modal.FiniteHitting.FiniteControls
+import TruthCore.Modal.FiniteHitting.Vocabulary
 import TruthCore.Modal.GraphBridge
 import TruthCore.Modal.GraphBridgeCertificate
 import TruthCore.Modal.HistoryContrastive

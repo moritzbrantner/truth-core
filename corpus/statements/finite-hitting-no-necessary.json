@@ -1,0 +1,16 @@
+{
+  "id": "STMT-FINITE-HITTING-NO-NECESSARY",
+  "paraphrase": "No fixed rigid candidate is concretely present at every world accessible from the designated actual world; exactly the negation of existing DeRe.",
+  "lean_declaration": "TruthCore.Modal.FiniteHitting.NoNecessary",
+  "definition_ids": [
+    "DEF-FINITE-HITTING-PROFILE",
+    "DEF-POPULATION-CLOSURE",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-MODAL-FIXTURE-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FINITE-HITTING-PROFILE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}
