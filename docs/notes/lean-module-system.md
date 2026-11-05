@@ -193,12 +193,17 @@ definitions, so their edit is a docstring change (`SomethingIsMovedReading`, `Pu
 times are with a warm build on the shared machine (`LEAN_NUM_THREADS=2`, heavy lock) and are
 noisy; the first measured build after a seed took 1,308 s for the same 519 modules.
 
-| Hub | Before: rebuilt / wall | After wave 1: rebuilt / wall |
-| --- | --- | --- |
-| `Modal.Kripke` (proof) | 519 / 255 s | 471 / 252 s |
-| `Logic.ExcludedMiddle` (proof) | 437 / 226 s | 413 / 244 s |
-| `…Question2.Article3` (docstring) | 476 (model) | 432 / 262 s |
-| `…Question3.Article1` (docstring) | 411 (model) | 404 / 240 s |
+| Hub | Before: rebuilt / wall | After wave 1 | After wave 2 |
+| --- | --- | --- | --- |
+| `Modal.Kripke` (proof) | 519 / 255 s | 471 / 252 s | 30 / 15 s |
+| `Logic.ExcludedMiddle` (proof) | 437 / 226 s | 413 / 244 s | 25 / 13 s |
+| `…Question2.Article3` (docstring) | 476 (model) | 432 / 262 s | 27 / 14 s |
+| `…Question3.Article1` (docstring) | 411 (model) | 404 / 240 s | 23 / 13 s |
+
+After wave 2 the rebuilt set is the hub, the generated aggregators that import it
+transitively, and the root: the aggregators are the only non-module library files left.
+Converting them (`root_imports.py` emitting `module` + `public import`) would reduce a
+proof-only edit to the hub alone.
 
 **Wave 1** (levels 0–2, 385 files, including the four hubs). Manual cases:
 
@@ -216,6 +221,29 @@ noisy; the first measured build after a seed took 1,308 s for the same 519 modul
   names are identical before and after. Only compiler-generated `match_N` matcher names differ
   (47 removed, 3 added), because modules share matchers differently. Matchers are still
   checked through the dependency closure of the declarations that use them.
+
+**Wave 2** (all remaining levels, 853 files; every non-Challenge, non-aggregator file is now a
+module). Manual cases:
+
+- `Causality.TemporalEventControls` dropped its unused `import Mathlib.Tactic`; its 105
+  dependents build unchanged.
+- `Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Solution`: five `private instance`
+  `Decidable` declarations are public. `NecessaryClassicalGodRootFromAsymmetry` decides with
+  them: an ordinary file's private instance stays active in importers, a module's does not.
+  They are the only new NanoDa roots.
+- `Modal.ResearchFinite`, `Modal.DResearch.Language` and `Modal.DResearch.Witnesses` run
+  `#guard` checks, which evaluate code at compile time; they `meta import` the module that
+  defines it.
+- Verification: full build, bind-check (918 bound, 2 pinned, 0 mismatch), scoped NanoDa over
+  the 849 converted modules (32,095 declarations), Comparator over the 137 results that
+  depend on a manual case, and an axiom scan of all 1,122 result theorems against their
+  `permitted_axioms` (none exceeds them). Roots: the non-auxiliary names are identical
+  apart from the five instances; only `match_N` auxiliaries differ.
+- Negative control: a `sorry` hidden in `Models.ModalExistenceDegrees` makes scoped NanoDa
+  and `verify-result.sh MODAL-DEGREE-UNBOUNDED-WORLD-CONTROL` fail (`sorryAx`).
+- Operational note: do not change sources while `lake build` runs. Lake hashes a file before
+  Lean reads it, so an edit (or `git stash`/checkout) in between leaves outputs that do not
+  match their traces; Lake then replays them as fresh. A clean rebuild of `.lake/build/lib/lean/TruthCore` fixes it.
 
 ## Decision points
 
