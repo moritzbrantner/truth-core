@@ -19,11 +19,13 @@ accords with the rule at `a` is fixed. Nothing here says what fixes it.
 The logical point is the regress: if an item is determined only through a
 determined interpretation of it, and interpretations do not go on behind one
 another without end, then nothing is determined. Readings differ on which
-premise to give up (`DISAMB-RULE-FOLLOWING-PARADOX`): the paradox reading
-(Kripke's sceptic) keeps the interpretation premise and denies that any
-meaning is determined by a fact; the diagnostic reading (§201's own next
-sentence) keeps determination and denies the interpretation premise: some
-grasp of a rule is not an interpretation but is shown in practice (§202).
+premise to give up (`DISAMB-RULE-FOLLOWING-PARADOX`). The diagnostic reading
+(following §201's own next sentence) keeps determination and denies the
+interpretation premise: some grasp of a rule is not an interpretation but is
+exhibited in following the rule. Kripke's sceptic, as reported, denies that any
+fact determines meaning; this vocabulary maps that, unattributed, to giving up
+factual determination, and does not record whether the figure keeps the
+interpretation premise.
 -/
 
 namespace TruthCore.German.Wittgenstein.RuleFollowing
@@ -45,8 +47,9 @@ def NoEndlessInterpretationReading {Item : Type}
   WellFounded Interprets
 
 /-- Some rule-following is determined (`STMT-SOME-RULE-APPLICATION-DETERMINED`):
-some item is determined. The diagnostic reading keeps this (we do follow
-rules, §202); the paradox reading denies it in the factual sense. -/
+some item is determined. Open and unattributed: the diagnostic reading keeps
+it; on this vocabulary's unattributed mapping, Kripke's sceptic gives it up in
+the factual sense. -/
 def SomeApplicationDeterminedReading {Item : Type} (Determined : Item → Prop) : Prop :=
   ∃ a, Determined a
 

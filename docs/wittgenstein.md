@@ -15,7 +15,7 @@ readings, and a view developed by followers is not attributed to him.
 | Position | Variant and source | Class | Against which premise or floor item | Status |
 |---|---|---|---|---|
 | Wittgensteinian fideism, sharp form | WF-N: the critics' four theses (Nielsen 1967), `SEP-FIDEISM` §2.2.4 | rival | `STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE` (all 12 routes) | conditionally defeated as a description of Catholic practice (`WF-FAILS-AS-DESCRIPTION-OF-CATHOLIC-PRACTICE`); open premises, so not counted (#999) |
-| Early Phillips | WF-P1: praise of God refers to no object (1976), `SEP-RELIGIOUS-LANGUAGE` §4.1; the stronger thesis that "God" names no being is an unattributed reconstruction it supports | rival (the reconstruction) | `STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE`, `STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS`, `STMT-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD` (the nominal identification on every route) | recorded, not refuted |
+| Early Phillips | WF-P1: praise of God "does not refer to some object called God" (1976), `SEP-RELIGIOUS-LANGUAGE` §4.1; the stronger thesis that "God" names no being is an unattributed reconstruction it supports | rival (the reconstruction) | `STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE`, `STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS`, `STMT-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD` (the nominal identification on every route) | recorded, not refuted |
 | Late Phillips, religious minimalism | WF-P2: reference and truth constituted inside the game; outside evidence admissible, `SEP-RELIGIOUS-LANGUAGE` §§4.1-4.2; `SEP-FIDEISM` §2.2.4 | rival off-route (face value theory); neutral to route leaves | `STMT-FACE-VALUE-THEORY-RELIGIOUS-LANGUAGE` (no route premise) | recorded |
 | Nielsen's critique | insulation of every form of life, `SEP-RELIGIOUS-LANGUAGE` §4.2 | objection to WF-N | attacks `STMT-WF-RELIGION-CUT-OFF-FROM-SHARED-REASON` | recorded; not a defeat (#1007: "not preferable" is not falsity) |
 | On Certainty: doubt rests on what stands fast | §§115, 341 (German, `WITTGENSTEIN-UEBER-GEWISSHEIT`) | support (against global doubt only) | the global sceptical rival of any observation floor item; no specific item (F3, F4) | `WITTGENSTEIN-UNIVERSAL-DOUBT-FAILS`, conditional on the stated §341 premise |
@@ -39,7 +39,8 @@ The label is Kai Nielsen's (*Philosophy* 42, 1967). The SEP entry *Fideism*
 discourse is self-referential and does not let us talk about reality, (3)
 religious beliefs can be understood only by believers, and (4) religion cannot
 be criticized. It also reports that Nielsen aimed at Wittgensteinians (Malcolm,
-Winch), not Wittgenstein; that Wittgenstein likely endorsed none of the four;
+Winch), not Wittgenstein; that the entry's author doubts Wittgenstein would
+have endorsed any of the four;
 and that Phillips called the charge a caricature (1981, 89-90): he denied only
 his critics' *conception* of the connection between religion and life and of
 criticism (`STMT-PHILLIPS-DENIES-ONLY-CRITICS-CONCEPTION`).
@@ -97,11 +98,13 @@ CouncilDefinesNaturalKnowabilityReading P → DefinitionIsOwnStandardReading P �
 By the fideist's own internality, the defined move is correct. By the cut-off
 thesis it is not. Each premise is needed (countermodels in the same Comparator
 config), and the fideist bundle alone is consistent (`WF-CONSISTENT`). So the
-defeat comes from the community's rule, not from incoherence.
+conditional defeat comes from the community's rule together with the two open
+bridges, not from incoherence.
 
 What it shows, and what it does not:
 
-- It refutes WF-N **as a description of Catholic practice**. It says nothing
+- Given its open premises, it refutes WF-N **as a description of Catholic
+  practice**. It says nothing
   about other practices, or about every possible fideistic proposal.
 - It does not touch Phillips's "not generally" thesis: that thesis allows
   God's knowability by natural reason. Nor does it touch minimalism, which admits
@@ -121,13 +124,22 @@ What it shows, and what it does not:
   - Re-read "natural reason" as a practice-internal standard
     (`needsNaturalReasonIsShared`).
 
-  A possible further objection, unresolved: the first escape seems to need a
-  criterion of the practice's grammar that can override the practice's own
-  authoritative self-description, and such a criterion may not fit the
-  internal-grammar thesis. The second escape is an interpretive dispute about
-  the council's text, settled by reading, not by this objection. The
-  objection is a judgment with no vocabulary yet and is not counted. Blocker: a
-  typed account of who fixes a practice's grammar.
+  A further objection is recorded as unresolved and is not a consequence of
+  either escape: that a fideist who takes an escape imports a standard from
+  outside the game, against the internal-grammar thesis. The countermodels show
+  only that each bridge is needed. The objection would need two bridges, neither
+  recorded:
+
+  1. that rejecting conciliar definitions as part of the grammar appeals to a
+     standard not internal to the practice. It could instead appeal to
+     distinctions within the practice, and the second escape is itself an
+     internal re-reading of "natural reason";
+  2. that the internal-grammar thesis forbids external standards.
+     `InternalGrammarReading` formalizes only that internal endorsement implies
+     correctness.
+
+  It is not counted. Blocker: a typed account of who fixes a practice's
+  grammar.
 
 Self-application: an unresolved objection, not a result. One might argue
 that the fideist thesis is a claim about the grammar of religion made in
@@ -158,8 +170,10 @@ whole-worldview comparison, not falsity.
 ### Rival entries on route leaves
 
 - `STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE` (12 of 12 routes): rival
-  `STMT-WF-RELIGION-CUT-OFF-FROM-SHARED-REASON`. Recognizability by external
-  signs answers to shared reason. Conditionally defeated, as above.
+  `STMT-WF-RELIGION-CUT-OFF-FROM-SHARED-REASON`, on the reading that
+  recognizability by external signs answers to shared reason. The fideist pair
+  is conditionally defeated as a description of Catholic practice, as above;
+  the rival entry itself is not refuted.
 - `STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE` (9 routes),
   `STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS` (1), `STMT-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD`
   (3): rival `STMT-GOD-NAMES-NO-BEING-WF-P1`, the unattributed reconstruction of
@@ -186,8 +200,8 @@ kommen."
 derives the failure of universal doubt from §341. The premise is needed.
 
 `anyGivenSentenceDoubtable` bounds what the result gives: §341 is consistent
-with doubting any one chosen sentence. So the result can serve against a
-*global* sceptical rival of an observation floor item. It supports no
+with doubting any one chosen sentence. So the result could serve, once §341 is
+established, against a *global* sceptical rival of an observation floor item. It supports no
 particular item. It does not establish 'something changes' (F3) or 'something
 is moved' (F4). It does not touch Pyrrhonian suspension, which neither
 asserts nor doubts in this sense.
@@ -202,7 +216,8 @@ Four senses are recorded in `DISAMB-HINGE-STATUS`:
 3. **Non-propositional animal certainty** (Moyal-Sharrock).
 4. **Nonsense** (Read, Crary).
 
-The readings that deny sense 1 cite these passages:
+Passages that bear on sense 1 (how they bear is part of the dispute; which
+passages each reading relies on is not recorded):
 
 - §151: "Moore *weiß* nicht, was er zu wissen behauptet, aber es steht für ihn
   fest".
@@ -233,7 +248,7 @@ hand", §1), it is a Moore-type hinge, and the reading question above decides it
 ### Proposed floor-basis changes (for the owner; none applied)
 
 - **P-OC-1.** Add the On Certainty hinge readings to the F3 and F4
-  `disagreement` records, as claims that deny that the items are known
+  `disagreement` records, as claims that deny that hinges are known truths
   (`WITTGENSTEIN-OC-151-STAND-FAST-NOT-KNOWN`, `SEP-FIDEISM-4-HINGES-NONSENSE-A`,
   `SEP-FIDEISM-4-HINGES-NON-PROPOSITIONAL-A`). Under #1007 this is
   bookkeeping: the approval stays, and the disagreement becomes visible.
@@ -262,10 +277,14 @@ well-founded induction.
 `regressFork` adds that these two premises and "some application is
 determined" cannot all hold. The readings choose differently:
 
-- §201 itself keeps determination and gives up the interpretation premise:
-  "eine Auffassung einer Regel ..., die *nicht* eine *Deutung* ist".
-- Kripke's sceptic keeps the paradox and denies factual determination. Kripke
-  does not identify this figure with Wittgenstein.
+- The diagnostic reading, following §201's own next sentences, keeps
+  determination and gives up the interpretation premise: "eine Auffassung
+  einer Regel ..., die *nicht* eine *Deutung* ist".
+- Kripke's sceptic, as reported, takes the paradox as a genuine sceptical
+  problem and denies that any fact determines meaning. In this vocabulary that
+  is mapped, unattributed, to giving up factual determination; whether the
+  figure keeps the interpretation premise is not recorded. Kripke does not
+  identify the figure with Wittgenstein.
 - An endless regress gives up finiteness.
 
 The result settles no reading (`DISAMB-RULE-FOLLOWING-PARADOX`). Neutral to the
@@ -277,9 +296,11 @@ routes.
 §304 says that the sensation "ist kein Etwas, aber auch nicht ein Nichts".
 §308: "Und wollen sie [die geistigen Vorgänge] doch natürlich nicht leugnen!"
 
-On either reading of the sections (reductio or nonsense,
-`DISAMB-PLA-FALSE-OR-NONSENSE`), the argument targets the private
-*identification* of an inner object, not the occurrence of thought. So it is
+This record reads §§258, 304 and 308 as follows, on either reading of the
+sections (reductio or nonsense, `DISAMB-PLA-FALSE-OR-NONSENSE`): the argument
+targets the private *identification* of an inner object, not the occurrence of
+thought. That is a classification judgment from the recorded passages, not a
+reported reading. So it is
 **neutral** to candidate F5 (`STMT-COGITO-THOUGHT-OCCURS`) as an occurrence
 premise. It is a rival only to a Cartesian private-introspection *basis* for
 F5. The retorsion basis proposed on #1007 ("a denial is a thought") uses a
