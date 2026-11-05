@@ -1,0 +1,9 @@
+{
+  "id": "INF-ACTUAL-EXISTENCE-ADEQUACY-REALIZATION",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-ACTUAL-EXISTENCE-ADEQUACY-REALIZATION",
+  "rule": "model-construction",
+  "meaning": "Realize the supplied intervention outputs as existence of the same rigid bearer at explicitly tagged setting worlds; prove observational reduction, actual concreteness/contingency/coherence and a setting-world difference. Reuse the original checked verification-independence result.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
