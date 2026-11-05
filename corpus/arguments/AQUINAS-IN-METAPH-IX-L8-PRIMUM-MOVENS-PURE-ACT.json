@@ -1,0 +1,26 @@
+{
+  "id": "AQUINAS-IN-METAPH-IX-L8-PRIMUM-MOVENS-PURE-ACT",
+  "premise_statement_ids": [
+    "STMT-MOVER-MOVED-AT-NO-TIME-IS-PURE-ACT",
+    "STMT-SLICE-FIRST-MOVER-MOVED-AT-NO-TIME"
+  ],
+  "conclusion_statement_id": "STMT-FIRST-UNMOVED-MOVER-IS-PURE-ACT",
+  "inference_ids": [
+    "INF-AQUINAS-IN-METAPH-IX-L8-PRIMUM-MOVENS-PURE-ACT"
+  ],
+  "meaning": "Transcription (single application): the proof applies the lect. 8 reading, whose consequent is the conclusion's, after the bridge supplies its antecedent, so under invariant 16 it does not expand STMT-FIRST-UNMOVED-MOVER-IS-PURE-ACT on any route; the ST I q.3 a.1 derivation stays the selected proof. In Metaph. IX, lect. 8 n. 11 for the stage-1 pure-act statement, split from the one-time case statement (owner option B on #352). Premises: over a supplied clock, a mover moved in no respect at any time is, at any time at which it moves something, in potency in no respect (STMT-MOVER-MOVED-AT-NO-TIME-IS-PURE-ACT, the reading of 'primum movens, quod est in actu tantum'); and a first mover moved by none at a time is moved at no time (STMT-SLICE-FIRST-MOVER-MOVED-AT-NO-TIME, an open bridge that no claim states). Conclusion: at any time t, every first mover moved by none at t is pure act at t, which is STMT-FIRST-UNMOVED-MOVER-IS-PURE-ACT with the time-free prima via predicates instantiated at t (DEF-MOTION-AS-REDUCTION reads them at one time). Step: a first mover at t moves something at t, and by the bridge it is moved at no time, so the reading applies at t. Each premise is needed (primumMovensFacts): in the strictly forward feedback model of FIRST-WAY-SLICE-CONTROLS no mover is moved at no time, so the reading holds while the conclusion fails at t = 1; with one being, one respect and one time, a never-moved mover in potency satisfies the bridge and falsifies the conclusion. Both premises hold together in a model with a first mover at a time. Not used: act's simple priority, non-simultaneity, the first-being bridge, uniqueness. It closes nothing: the reading is a stated commitment without an argument for 'tantum', and the bridge is open and false in the feedback model.",
+  "definition_ids": [
+    "DEF-FIRST-UNMOVED-MOVER",
+    "DEF-TIME-SLICED-FIRST-MOVER",
+    "DEF-MOVED-AT-NO-TIME",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-PURE-ACT",
+    "DEF-POTENCY",
+    "DEF-ACT",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNMOVED-AT-A-TIME",
+    "DISAMB-MOTION"
+  ]
+}
