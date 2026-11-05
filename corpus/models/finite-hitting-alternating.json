@@ -1,0 +1,91 @@
+{
+  "id": "MODEL-FINITE-HITTING-ALTERNATING",
+  "description": "Rigid Bool candidates, universal Bool worlds, actual false. The existing alternating singleton assignment omits A. Only zero-axiom components are registered; O/K and infinite models remain exact Lean certificates, not finite-registry statuses.",
+  "vocabulary": "finite-hitting-universal-component",
+  "lean_declaration": "TruthCore.Modal.FiniteHitting.FiniteControls.frame",
+  "bindings": {
+    "W": "Bool",
+    "I": "Bool",
+    "F": "TruthCore.Modal.FiniteHitting.FiniteControls.frame",
+    "present": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.alternatingExists",
+    "w": "Bool.false"
+  },
+  "carriers": [
+    {
+      "binding": "W",
+      "elements": [
+        "Bool.false",
+        "Bool.true"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
+    },
+    {
+      "binding": "I",
+      "elements": [
+        "Bool.false",
+        "Bool.true"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-FINITE-HITTING-UNIVERSAL",
+      "value": "satisfies",
+      "arguments": [
+        "W",
+        "F"
+      ],
+      "theorem": "TruthCore.Modal.FiniteHitting.FiniteControls.universal"
+    },
+    {
+      "statement_id": "STMT-NECESSARY-INDIVIDUAL-DE-DICTO",
+      "value": "satisfies",
+      "arguments": [
+        "W",
+        "I",
+        "F",
+        "present",
+        "w"
+      ],
+      "theorem": "TruthCore.Modal.FiniteHitting.FiniteControls.Alternating.population"
+    },
+    {
+      "statement_id": "STMT-FINITE-HITTING",
+      "value": "satisfies",
+      "arguments": [
+        "W",
+        "I",
+        "present"
+      ],
+      "theorem": "TruthCore.Modal.FiniteHitting.FiniteControls.Alternating.hitting"
+    },
+    {
+      "statement_id": "STMT-ABSENCE-AMALGAMATION",
+      "value": "violates",
+      "arguments": [
+        "W",
+        "I",
+        "F",
+        "present",
+        "w"
+      ],
+      "theorem": "TruthCore.Modal.FiniteHitting.FiniteControls.Alternating.notAmalgamation"
+    },
+    {
+      "statement_id": "STMT-FINITE-HITTING-NO-NECESSARY",
+      "value": "satisfies",
+      "arguments": [
+        "W",
+        "I",
+        "F",
+        "present",
+        "w"
+      ],
+      "theorem": "TruthCore.Modal.FiniteHitting.FiniteControls.Alternating.noNecessary"
+    }
+  ],
+  "modules": [
+    "TruthCore.Modal.FiniteHitting.FiniteControls"
+  ]
+}

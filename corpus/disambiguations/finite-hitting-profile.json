@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-FINITE-HITTING-PROFILE",
+  "term": "finite alternatives versus finite roster versus modal compactness",
+  "resolution": "Keep finite alternatives, one finite population, finite total roster and genuine product-topological compactness distinct. Entailments retain the exact P/A background in the note; none is a premise truth claim. Same rigid candidate at each complete possible history in one universal component, never counterpart matching or temporal transitions. H implies necessary population. P+A+O implies H. Finite full cover implies O without P or A. Neither H nor O follows from necessary population alone. The infinite-tail survivor is coherent mathematics, not a metaphysical possibility proof. See docs/notes/finite-hitting-561.md.",
+  "sense_definition_ids": [
+    "DEF-FINITE-HITTING-PROFILE",
+    "DEF-FINITE-POPULATION-COVER",
+    "DEF-LIMIT-ADMISSION-PROFILE"
+  ]
+}

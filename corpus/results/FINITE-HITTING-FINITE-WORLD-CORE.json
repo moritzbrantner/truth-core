@@ -1,0 +1,10 @@
+{
+  "id": "FINITE-HITTING-FINITE-WORLD-CORE",
+  "argument_id": "FINITE-HITTING-FINITE-WORLD-CORE",
+  "challenge_module": "TruthCore.Results.Modal.FiniteHitting.Challenge",
+  "solution_module": "TruthCore.Results.Modal.FiniteHitting.Solution",
+  "theorem": "TruthCore.Results.Modal.FiniteHitting.finiteWorldCore",
+  "comparator_config": "results/FINITE-HITTING-FINITE-WORLD-CORE/comparator.json",
+  "status": "solution-present",
+  "description": "Under an explicit universal-accessibility background and actual world, necessary population, absence amalgamation and one finite possible population contradict no fixed necessary individual. All three non-background policies remain open; no God identity or root discharge follows."
+}

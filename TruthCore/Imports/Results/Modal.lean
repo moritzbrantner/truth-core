@@ -23,6 +23,7 @@ import TruthCore.Results.Modal.ExistenceDegreeAttainment.Solution
 import TruthCore.Results.Modal.ExistenceDegreeUnboundedWorldControl.Solution
 import TruthCore.Results.Modal.ExistenceDegrees.Solution
 import TruthCore.Results.Modal.ExistenceDegreesActual.Solution
+import TruthCore.Results.Modal.FiniteHitting.Solution
 import TruthCore.Results.Modal.GraphBridge.Solution
 import TruthCore.Results.Modal.GraphBridgeCertificate.Solution
 import TruthCore.Results.Modal.HistoryContrastive.Solution

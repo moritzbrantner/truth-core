@@ -1,0 +1,8 @@
+{
+  "id": "DEF-FINITE-HITTING-PROFILE",
+  "term": "finite hitting, finite possible population and compact profile space",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Modal.FiniteHitting.Hitting",
+  "definition": "Hitting p supplies a finite list with at least one member concretely present at each admissible world. It need not bound the union of populations. OneFinite p supplies one world with a Mathlib-finite population; it need not make all populations finite. component W is universal accessibility on the supplied inhabited component; an explicit actual w rules out empty-world-type vacuity. profilePresent S x v is v.val x = true in the product of discrete Bool spaces. K is actual Mathlib IsCompact S, not an assumed possible limit, finite consistency or an epistemic possibility rule. NoNecessary is the negation of the existing DeRe, with no change to candidate identity.",
+  "note": "Analyst formulations #561; attribution deferred. Semantic meaning, examples, rival and open applicability burdens are in docs/notes/finite-hitting-561.md. Absence amalgamation remains the existing explicitly stipulated subset-of-intersection policy, not exact meet closure or a temporal operation. Necessarily concrete here does not imply God, uniqueness, underived ground or cause."
+}

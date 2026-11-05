@@ -1,0 +1,201 @@
+{
+  "id": "CONFIG-FINITE-HITTING-561",
+  "description": "Certified cores and superconfigurations under EXPLICIT U background. Single-policy deletion certificates and inclusion-minimality relative to U are in FINITE-HITTING; finite registry omits unsupported classical O/K and the infinite tail, so absent registry witnesses remain unresolved rather than contradictory. No global minimum-cardinality or metaphysical possibility claim.",
+  "seed_statement_id": "STMT-FINITE-HITTING",
+  "semantics": {
+    "id": "finite-hitting-rigid-universal-component",
+    "logic": "Classical Lean with approved Mathlib axioms. U is an explicit fixed semantic background; the theorem hypotheses do not independently establish it.",
+    "frame": "One inhabited universal-accessibility component. Actual w is supplied. Finite registry models use Bool worlds; tail survivor and compact-profile witnesses stay in exact Lean records.",
+    "domain": "Fixed rigid I over W; present denotes concrete existence by stipulation. No temporal or counterpart reading.",
+    "identity": "Literal same Lean individual at every history.",
+    "vocabulary": "finite-hitting-universal-component",
+    "modules": [
+      "TruthCore.Modal.FiniteHitting.Vocabulary"
+    ],
+    "parameters": [
+      {
+        "name": "W",
+        "type": "Type"
+      },
+      {
+        "name": "I",
+        "type": "Type"
+      },
+      {
+        "name": "F",
+        "type": "TruthCore.Modal.Frame W"
+      },
+      {
+        "name": "present",
+        "type": "I → W → Prop"
+      },
+      {
+        "name": "w",
+        "type": "W"
+      }
+    ],
+    "parameter_order": [
+      "W",
+      "I",
+      "F",
+      "present",
+      "w"
+    ],
+    "applications": {
+      "STMT-FINITE-HITTING-UNIVERSAL": [
+        "W",
+        "F"
+      ],
+      "STMT-FINITE-HITTING": [
+        "W",
+        "I",
+        "present"
+      ],
+      "STMT-FINITE-HITTING-ONE-FINITE": [
+        "W",
+        "I",
+        "present"
+      ],
+      "STMT-NECESSARY-INDIVIDUAL-DE-DICTO": [
+        "W",
+        "I",
+        "F",
+        "present",
+        "w"
+      ],
+      "STMT-ABSENCE-AMALGAMATION": [
+        "W",
+        "I",
+        "F",
+        "present",
+        "w"
+      ],
+      "STMT-FINITE-HITTING-NO-NECESSARY": [
+        "W",
+        "I",
+        "F",
+        "present",
+        "w"
+      ]
+    },
+    "permitted_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "configurations": [
+    {
+      "id": "hitting-core",
+      "statement_ids": [
+        "STMT-FINITE-HITTING-UNIVERSAL",
+        "STMT-FINITE-HITTING",
+        "STMT-ABSENCE-AMALGAMATION",
+        "STMT-FINITE-HITTING-NO-NECESSARY"
+      ]
+    },
+    {
+      "id": "hitting-populated-superconfiguration",
+      "statement_ids": [
+        "STMT-FINITE-HITTING-UNIVERSAL",
+        "STMT-FINITE-HITTING",
+        "STMT-ABSENCE-AMALGAMATION",
+        "STMT-FINITE-HITTING-NO-NECESSARY",
+        "STMT-NECESSARY-INDIVIDUAL-DE-DICTO"
+      ]
+    },
+    {
+      "id": "one-finite-world-core",
+      "statement_ids": [
+        "STMT-FINITE-HITTING-UNIVERSAL",
+        "STMT-NECESSARY-INDIVIDUAL-DE-DICTO",
+        "STMT-ABSENCE-AMALGAMATION",
+        "STMT-FINITE-HITTING-ONE-FINITE",
+        "STMT-FINITE-HITTING-NO-NECESSARY"
+      ]
+    },
+    {
+      "id": "both-finiteness-superconfiguration",
+      "statement_ids": [
+        "STMT-FINITE-HITTING-UNIVERSAL",
+        "STMT-NECESSARY-INDIVIDUAL-DE-DICTO",
+        "STMT-ABSENCE-AMALGAMATION",
+        "STMT-FINITE-HITTING",
+        "STMT-FINITE-HITTING-ONE-FINITE",
+        "STMT-FINITE-HITTING-NO-NECESSARY"
+      ]
+    },
+    {
+      "id": "omit-amalgamation",
+      "statement_ids": [
+        "STMT-FINITE-HITTING-UNIVERSAL",
+        "STMT-FINITE-HITTING",
+        "STMT-NECESSARY-INDIVIDUAL-DE-DICTO",
+        "STMT-FINITE-HITTING-NO-NECESSARY"
+      ]
+    },
+    {
+      "id": "omit-no-necessary",
+      "statement_ids": [
+        "STMT-FINITE-HITTING-UNIVERSAL",
+        "STMT-FINITE-HITTING",
+        "STMT-NECESSARY-INDIVIDUAL-DE-DICTO",
+        "STMT-ABSENCE-AMALGAMATION"
+      ]
+    },
+    {
+      "id": "omit-population",
+      "statement_ids": [
+        "STMT-FINITE-HITTING-UNIVERSAL",
+        "STMT-ABSENCE-AMALGAMATION",
+        "STMT-FINITE-HITTING-NO-NECESSARY"
+      ]
+    },
+    {
+      "id": "infinite-survivor-outside-finite-registry",
+      "statement_ids": [
+        "STMT-FINITE-HITTING-UNIVERSAL",
+        "STMT-NECESSARY-INDIVIDUAL-DE-DICTO",
+        "STMT-ABSENCE-AMALGAMATION",
+        "STMT-FINITE-HITTING-NO-NECESSARY"
+      ]
+    }
+  ],
+  "incompatibility_result_ids": [
+    "FINITE-HITTING-CORE",
+    "FINITE-HITTING-FINITE-WORLD-CORE"
+  ],
+  "implication_result_ids": [],
+  "model_bindings": [
+    {
+      "model_id": "MODEL-FINITE-HITTING-ALTERNATING",
+      "parameters": {
+        "W": "W",
+        "I": "I",
+        "F": "F",
+        "present": "present",
+        "w": "w"
+      }
+    },
+    {
+      "model_id": "MODEL-FINITE-HITTING-MIXED",
+      "parameters": {
+        "W": "W",
+        "I": "I",
+        "F": "F",
+        "present": "present",
+        "w": "w"
+      }
+    },
+    {
+      "model_id": "MODEL-FINITE-HITTING-FIXED",
+      "parameters": {
+        "W": "W",
+        "I": "I",
+        "F": "F",
+        "present": "present",
+        "w": "w"
+      }
+    }
+  ]
+}

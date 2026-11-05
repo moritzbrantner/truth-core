@@ -1,0 +1,16 @@
+{
+  "id": "STMT-FINITE-HITTING-ONE-FINITE",
+  "paraphrase": "At least one admissible complete history has a Mathlib-finite concrete population.",
+  "lean_declaration": "TruthCore.Modal.FiniteHitting.OneFinite",
+  "definition_ids": [
+    "DEF-FINITE-HITTING-PROFILE",
+    "DEF-POPULATION-CLOSURE",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-MODAL-FIXTURE-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FINITE-HITTING-PROFILE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}
