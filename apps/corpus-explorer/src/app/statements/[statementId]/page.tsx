@@ -326,7 +326,7 @@ export default async function StatementPage({ params }: StatementPageProps) {
             {lean ? (
               <>
                 <pre className="lean-snippet">{lean.snippet}</pre>
-                <a className="link-quiet mt-2 inline-block text-sm" href={sourceUrl(lean.file, lean.line)} rel="noreferrer" target="_blank">
+                <a className="link-quiet mt-2 inline-block text-sm" href={lean.sourceUrl ?? sourceUrl(lean.file, lean.line)} rel="noreferrer" target="_blank">
                   {lean.file}:{lean.line} ↗
                 </a>
               </>

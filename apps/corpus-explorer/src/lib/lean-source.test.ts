@@ -1,8 +1,17 @@
 import { describe, expect, test } from "bun:test";
 
-import { indexLeanSource } from "./lean-source";
+import { indexLeanSource, leanIndex, pinnedCoreLocations } from "./lean-source";
 
 describe("Lean source locations", () => {
+  test("resolves raw core WellFounded to its inspected pinned official source", () => {
+    const location = leanIndex().get("WellFounded");
+    expect(location?.name).toBe("WellFounded");
+    expect(location?.file).toBe("src/Init/WF.lean");
+    expect(location?.line).toBe(60);
+    expect(location?.sourceUrl).toBe("https://github.com/leanprover/lean4/blob/v4.35.0/src/Init/WF.lean#L60");
+    expect(pinnedCoreLocations("leanprover/lean4:v0.0.0")).toEqual([]);
+  });
+
   test("indexes an indented theorem without including the next declaration", () => {
     const source = [
       "namespace Example",
