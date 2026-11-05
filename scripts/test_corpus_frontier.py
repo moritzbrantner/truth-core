@@ -1233,6 +1233,29 @@ class FrontierDiffTest(unittest.TestCase):
         self.assertFalse(delta["changed"])
         self.assertEqual(delta["base_counts"], delta["head_counts"])
 
+    def test_pre_pinned_rule_base_reports_no_spurious_move(self) -> None:
+        # A base from #987 but before the pinned-source rule (2026-11-05) says
+        # "stated" for a bibliographic-only premise and caches route counts
+        # with that depth; the delta normalizes both, so nothing moves.
+        claims = [{"id": "CLAIM-BIB", "statement_id": "OPEN-B", "witness": "bibliographic"}]
+        head = self.reaching(RESULTS, claims=claims)
+        item = {item["statement_id"]: item for item in head["items"]}["OPEN-B"]
+        self.assertEqual(item["depth"], "supported")
+        base = json.loads(json.dumps(head))
+        for item in base["items"]:
+            if item["statement_id"] == "OPEN-B":
+                item["depth"] = "stated"
+        for route in base["routes"]["routes"]:
+            if "OPEN-B" in route["open_premise_depths"]:
+                route["open_premise_depths"]["OPEN-B"] = "stated"
+                route["depth_counts"]["supported"] -= 1
+                route["depth_counts"]["stated"] += 1
+        base["all_item_depths"] = {}
+        delta = corpus.frontier_delta(base, head)
+        self.assertFalse(delta["changed"])
+        self.assertEqual(delta["moved"], {})
+        self.assertEqual(delta["base_counts"], delta["head_counts"])
+
     def test_base_without_routes_is_tolerated(self) -> None:
         base = self.reaching(RESULTS)
         del base["routes"]

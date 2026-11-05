@@ -1218,12 +1218,13 @@ def statement_view(
 
 
 def item_depth(item: dict[str, Any]) -> str:
-    """An open premise's depth (#987). A report from a revision before #987
-    says "sourced" for both supported and stated premises; its
-    `stating_claims` tells them apart; claims that are only bibliographic
-    (`bibliographic_claims`) support rather than state (2026-11-05)."""
+    """An open premise's depth (#987), normalized to the current rule. A report
+    from a revision before #987 says "sourced" for both supported and stated
+    premises; its `stating_claims` tells them apart. A report from before the
+    pinned-source rule (2026-11-05) says "stated" for a premise stated only by
+    bibliographic claims (`bibliographic_claims`); it is supported."""
     depth = item["depth"]
-    if depth == FRONTIER_LEGACY_SOURCED:
+    if depth in (FRONTIER_LEGACY_SOURCED, FRONTIER_STATED):
         pinned = set(item.get("stating_claims", ())) - set(item.get("bibliographic_claims", ()))
         return FRONTIER_STATED if pinned else FRONTIER_SUPPORTED
     return depth
@@ -2449,10 +2450,19 @@ def frontier_delta(base: dict[str, Any], head: dict[str, Any]) -> dict[str, Any]
     def route_depth_counts(report: dict[str, Any], route: dict[str, Any] | None) -> dict[str, int] | None:
         if route is None:
             return None
-        if "depth_counts" in route:
-            return route["depth_counts"]
         depths = {item["statement_id"]: item_depth(item) for item in report["items"]}
         depths.update(report.get("all_item_depths", {}))
+        if "open_premise_depths" in route:
+            # Recount cached route depths with the normalized item depths, so a
+            # base whose own rule differed (2026-11-05) reports no spurious move.
+            counts = {depth: 0 for depth in (*FRONTIER_DEPTHS, ROUTE_PROVED_UNESTABLISHED)}
+            for statement_id, depth in route["open_premise_depths"].items():
+                if depth != ROUTE_PROVED_UNESTABLISHED:
+                    depth = depths.get(statement_id, depth)
+                counts[depth] += 1
+            return counts
+        if "depth_counts" in route:
+            return route["depth_counts"]
         unestablished = set(route.get("proved_unestablished_statement_ids", []))
         counts = {depth: 0 for depth in (*FRONTIER_DEPTHS, ROUTE_PROVED_UNESTABLISHED)}
         for statement_id in route["open_premise_statement_ids"]:
