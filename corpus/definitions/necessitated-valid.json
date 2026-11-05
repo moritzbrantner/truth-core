@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NECESSITATED-VALID",
+  "term": "necessitated designated validity",
+  "definition": "For every admitted actual world a and successor v of a, F a v holds: box varies evaluation while retaining the SAME designated actuality. No self-access, existence of successors or real-world applicability is asserted.",
+  "basis": "stipulative",
+  "note": "Analyst formulation for issue #1049. Neither naming/context policy nor metaphysical applicability is defended. SEP Modal Logic §§10/16 is navigation only; attribution deferred. No new modal calculus or reality claim.",
+  "lean_declaration": "TruthCore.Modal.DesignatedValidity.NecessitatedValid"
+}

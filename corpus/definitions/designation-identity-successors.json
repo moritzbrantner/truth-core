@@ -1,0 +1,8 @@
+{
+  "id": "DEF-DESIGNATION-IDENTITY-SUCCESSORS",
+  "term": "identity-only successors at admitted actualities",
+  "definition": "Every successor v of an admitted actual world a equals a. No self-access is required. This is a restrictive frame/policy configuration, not a theorem that real modal alternatives collapse.",
+  "basis": "stipulative",
+  "note": "Analyst formulation for issue #1049. Neither naming/context policy nor metaphysical applicability is defended. SEP Modal Logic §§10/16 is navigation only; attribution deferred. No new modal calculus or reality claim.",
+  "lean_declaration": "TruthCore.Modal.DesignatedValidity.IdentitySuccessors"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-INDEPENDENT-NECESSITATION-RULE",
+  "term": "context-independent semantic necessitation rule",
+  "definition": "For EVERY world predicate P, diagonal validity of F a e = P e implies necessitated validity. Content has no dependence on the designated-actuality coordinate. The quantification is over all predicates, not just formulas expressible in a selected language.",
+  "basis": "stipulative",
+  "note": "Analyst formulation for issue #1049. Neither naming/context policy nor metaphysical applicability is defended. SEP Modal Logic §§10/16 is navigation only; attribution deferred. No new modal calculus or reality claim.",
+  "lean_declaration": "TruthCore.Modal.DesignatedValidity.IndependentRule"
+}

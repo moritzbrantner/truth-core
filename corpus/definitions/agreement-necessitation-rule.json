@@ -1,0 +1,8 @@
+{
+  "id": "DEF-AGREEMENT-NECESSITATION-RULE",
+  "term": "necessitation restricted to actuality agreement",
+  "definition": "For EVERY world predicate P, diagonal validity of Agreement P implies its necessitated validity. This is a semantic schema over P, not an unrestricted object-language substitution or a theorem about a historical modal calculus.",
+  "basis": "stipulative",
+  "note": "Analyst formulation for issue #1049. Neither naming/context policy nor metaphysical applicability is defended. SEP Modal Logic §§10/16 is navigation only; attribution deferred. No new modal calculus or reality claim.",
+  "lean_declaration": "TruthCore.Modal.DesignatedValidity.AgreementRule"
+}

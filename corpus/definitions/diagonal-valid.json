@@ -1,0 +1,8 @@
+{
+  "id": "DEF-DIAGONAL-VALID",
+  "term": "designated actuality validity",
+  "definition": "For a fixed designation policy D and two-index content F, every admitted actual world a satisfies F a a. The first index fixes actuality/context; the second is evaluation. This is semantic diagonal validity, not theoremhood or truth under a local premise.",
+  "basis": "stipulative",
+  "note": "Analyst formulation for issue #1049. Neither naming/context policy nor metaphysical applicability is defended. SEP Modal Logic §§10/16 is navigation only; attribution deferred. No new modal calculus or reality claim.",
+  "lean_declaration": "TruthCore.Modal.DesignatedValidity.DiagonalValid"
+}

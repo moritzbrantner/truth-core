@@ -1,0 +1,8 @@
+{
+  "id": "DEF-DESIGNATION-CONTENT-TRANSPORT",
+  "term": "content transport under redesignation",
+  "definition": "On each edge from an admitted a to v, F v v implies F a v. This one-way edge-local bridge retains the sentence denotation while changing its actuality coordinate. With successor closure it suffices for the supplied-content rule; it is not required of every individual sentence, whose diagonal premise may fail.",
+  "basis": "stipulative",
+  "note": "Analyst formulation for issue #1049. Neither naming/context policy nor metaphysical applicability is defended. SEP Modal Logic §§10/16 is navigation only; attribution deferred. No new modal calculus or reality claim.",
+  "lean_declaration": "TruthCore.Modal.DesignatedValidity.ContentTransport"
+}

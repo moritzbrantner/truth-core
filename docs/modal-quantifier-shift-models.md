@@ -374,3 +374,68 @@ when a worldview argument treats an actuality-valid existential or indexical
 principle as a necessary premise: its rule/application bridge must be supplied
 rather than obtained from classical validity alone. This intake records a
 research result and implementation brief only; no proof has been run.
+
+
+### Delivered formalization for #1049
+
+The preceding intake is the historical research brief. Its selected targets
+are now implemented in `TruthCore.Modal.DesignatedValidity`, its transparent
+`DesignatedValidityCertificate.Certificate`, and
+`TruthCore.Results.Modal.DesignatedValidity.Solution`:
+
+- `independent_iff`: `IndependentRule frame D ↔ SuccessorClosed frame D`.
+- `of_transport`: closure and `ContentTransport frame D F` turn
+  `DiagonalValid D F` into `NecessitatedValid frame D F`. This remains a
+  sufficient theorem for a supplied F, not a necessary per-sentence condition.
+- `unrestricted_iff` and `agreement_iff`: each indicated rule is equivalent
+  to `IdentitySuccessors frame D`. The first ranges over all two-index
+  denotations; the second over all predicates in the explicit Agreement schema.
+  Neither theorem asserts that every denotation is expressible in a language.
+- `holds_of_closed` and `global_necessitation` specialize to the EXISTING
+  object language/Valid. `empty_policy` records the vacuity explicitly.
+- `controls` imports `ActualistDomains.checks` for the unchanged domain
+  boundaries and `ContingentOnly.evaluation2` for its contingent candidate.
+  It retains a necessary candidate and population at every world, and both
+  failures use exactly the same ontology. In the first, transport holds while
+  closure fails; in the second, closure and the independent rule hold while
+  Agreement transport and necessitation fail. No finite-model registry or new
+  ontology is invented merely to register the same fixture again.
+- `history_rule_failure` CALLS the existing `ActualWorldGap.refl_total` and
+  `rival_not_total`, placing their already proved diagonal/rigid boundary in
+  the new rule predicates. It does not reprove or rename that boundary as a
+  philosophical discovery.
+
+The registered zero-premise theorem `checks` binds the complete transparent
+certificate; the quantified hypotheses in its conditional conjuncts remain
+visible. This is a proved rule correspondence/control package, not a
+transcription of an opaque modal bridge. No classical axiom, nonempty-policy
+assumption, frame law, historical attribution or metaphysical applicability
+is smuggled into the generic result. The controls are nonvacuously populated;
+empty-policy permissibility is a separate generic boundary.
+
+Challenge compiled before Solution creation and frozen SHA256
+`5ab554c7d4f0c51738d696d4a64151199160938887d4973b2b49be49f289b2db`.
+Focused vocabulary/certificate/Solution compilation passed; exact binding
+reported one bound result, zero mismatch. Comparator accepted the unchanged
+Challenge and zero-permitted-axiom Solution, with its independent NanoDa kernel
+accepting the solution. These establish formal consequence, not source fidelity
+or the truth of a selected designation/content policy. Local logs:
+`/tmp/modal1049-build.log`, `/tmp/modal1049-verification.log`; delivered-head CI
+and current-head review remain the publication gates.
+
+Claim/type self-sweep: diagonal validity quantifies all ADMITTED a, not all
+worlds or just one observation; the second index alone moves under box; both
+rule iff statements quantify their stated denotation scope; identity-only
+successors permits no successors; the transport theorem does not claim
+necessity; local assumptions and syntactic theoremhood are distinct; two
+controls share every old ontology field; old source/domain results remain
+unchanged. There are no source claims/passages. Attribution check reports no
+new or changed stating claim. All semantic/application bridges and rival
+repairs described in the intake remain OPEN.
+
+Intended AND computed actual root comparison against
+`13f1d8f2b3f96687248f7aa1a10e288a29a2a2eb`: no change. Catholic root reaching
+open premises remain 90 (30 bare, 18 supported, 42 stated); cheapest route
+remains cost 31. No existing root premise is added, removed, relabeled or
+closed. The new off-root theorem characterizes conditional rule policies;
+#467 and #464 are not closed by it.

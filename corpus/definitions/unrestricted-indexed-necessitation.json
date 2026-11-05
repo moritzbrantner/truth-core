@@ -1,0 +1,8 @@
+{
+  "id": "DEF-UNRESTRICTED-INDEXED-NECESSITATION",
+  "term": "unrestricted two-index semantic necessitation",
+  "definition": "For EVERY denotation F:W→W→Prop, diagonal validity implies necessitated validity. This scope can exceed any particular object language; it is not a proof-calculus soundness or completeness predicate.",
+  "basis": "stipulative",
+  "note": "Analyst formulation for issue #1049. Neither naming/context policy nor metaphysical applicability is defended. SEP Modal Logic §§10/16 is navigation only; attribution deferred. No new modal calculus or reality claim.",
+  "lean_declaration": "TruthCore.Modal.DesignatedValidity.UnrestrictedRule"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ACTUALITY-AGREEMENT",
+  "term": "actuality-agreement content",
+  "definition": "Agreement P a e means P e iff P a. Its diagonal is always true; off-diagonal it compares a fixed actuality with the evaluation world. For example, agreement about whether the SAME candidate exists; this is not claiming that the candidate exists at every world.",
+  "basis": "stipulative",
+  "note": "Analyst formulation for issue #1049. Neither naming/context policy nor metaphysical applicability is defended. SEP Modal Logic §§10/16 is navigation only; attribution deferred. No new modal calculus or reality claim.",
+  "lean_declaration": "TruthCore.Modal.DesignatedValidity.Agreement"
+}
