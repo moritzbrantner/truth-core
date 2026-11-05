@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.Verificationism.SelfApplication.Challenge",
+  "solution_module": "TruthCore.Results.Logic.Verificationism.SelfApplication.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.Verificationism.SelfApplication.verificationistDilemma"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

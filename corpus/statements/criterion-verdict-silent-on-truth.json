@@ -1,0 +1,13 @@
+{
+  "id": "STMT-CRITERION-VERDICT-SILENT-ON-TRUTH",
+  "paraphrase": "A criterion's verdict settles nothing about truth: in some truth-conditional language whose frame has an observation statement, some sentence that is neither analytic nor conclusively verifiable is true at a world. Failing an adopted criterion does not make a sentence untrue or deprive it of truth conditions.",
+  "lean_declaration": "TruthCore.Logic.Verificationism.CriterionVerdictSilentOnTruth",
+  "definition_ids": [
+    "DEF-TRUTH-CONDITIONAL-LANGUAGE",
+    "DEF-EMPIRICIST-FRAME",
+    "DEF-CONCLUSIVE-VERIFIABILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-VERIFICATIONIST-MEANINGFUL"
+  ]
+}

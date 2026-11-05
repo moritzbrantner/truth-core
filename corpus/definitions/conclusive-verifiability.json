@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CONCLUSIVE-VERIFIABILITY",
+  "term": "conclusively (strongly) verifiable",
+  "definition": "`ConclusivelyVerifiable F s`: some finite list of observation statements that hold together at some world entails s.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.Verificationism.ConclusivelyVerifiable",
+  "note": "Strong verification (variant V1, Schlick). Analyst's typing for the #1008 verificationism showcase. Sourcing the criterion's wording to its proponent is a separate claim (attribution discipline, #989); see docs/showcase-verificationism.md for the witness status."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-VERIFIABILITY-VARIANT",
+  "term": "verifiable (conclusive, weak 1936, or 1946)",
+  "sense_definition_ids": [
+    "DEF-CONCLUSIVE-VERIFIABILITY",
+    "DEF-AYER-1936-WEAK-VERIFIABILITY",
+    "DEF-AYER-1946-VERIFIABILITY"
+  ],
+  "resolution": "Each result uses exactly one sense. STMT-STRONG-VERIFICATION-EXCLUDES-LAWS concerns conclusive verification (V1) only; STMT-AYER-1936-CRITERION-TRIVIAL the unrestricted 1936 test (V2); STMT-CHURCH-1949-TRIVIALIZATION and its corollaries the 1946 direct and indirect clauses (V3). No result transfers a verdict from one sense to another: a sentence not conclusively verifiable may pass the 1936 or 1946 test, which is why the weaker criteria were proposed. The self-application premises (STMT-VERIFICATION-PRINCIPLE-NOT-VERIFIABLE) take the variant's own sense as a parameter."
+}

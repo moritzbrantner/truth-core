@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.Verificationism.Ayer1936Exclusion.Challenge",
+  "solution_module": "TruthCore.Results.Logic.Verificationism.Ayer1936Exclusion.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.Verificationism.Ayer1936Exclusion.ayer1936ExclusionFails"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

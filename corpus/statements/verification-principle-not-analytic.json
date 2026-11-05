@@ -1,0 +1,15 @@
+{
+  "id": "STMT-VERIFICATION-PRINCIPLE-NOT-ANALYTIC",
+  "paraphrase": "The formulation of the verification principle is not analytic. An open premise; Ayer's 1946 reply that the principle is a definition contests it.",
+  "lean_declaration": "TruthCore.Logic.Verificationism.PrincipleNotAnalytic",
+  "definition_ids": [
+    "DEF-TRUTH-CONDITIONAL-LANGUAGE",
+    "DEF-EMPIRICIST-FRAME",
+    "DEF-VERIFICATION-PRINCIPLE",
+    "DEF-SELF-APPLICATION-NORM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-VERIFICATIONIST-MEANINGFUL",
+    "DISAMB-VERIFIABILITY-VARIANT"
+  ]
+}

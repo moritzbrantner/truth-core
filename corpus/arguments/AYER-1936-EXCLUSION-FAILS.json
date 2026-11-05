@@ -1,0 +1,17 @@
+{
+  "id": "AYER-1936-EXCLUSION-FAILS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-AYER-1936-EXCLUSION-FAILS",
+  "inference_ids": [
+    "INF-AYER-1936-EXCLUSION-FAILS"
+  ],
+  "meaning": "From STMT-AYER-1936-CRITERION-TRIVIAL and no premises: a sentence whose negation does not entail some observation statement passes the 1936 test, so no frame satisfies the V2 exclusion thesis STMT-AYER-1936-EXCLUDES-METAPHYSICS, which this argument refutes.",
+  "definition_ids": [
+    "DEF-AYER-1936-WEAK-VERIFIABILITY",
+    "DEF-EMPIRICIST-FRAME",
+    "DEF-TRUTH-CONDITIONAL-LANGUAGE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-VERIFIABILITY-VARIANT"
+  ]
+}
