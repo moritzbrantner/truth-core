@@ -83,6 +83,24 @@ jobs:
               echo '```'
             } | tee -a "$GITHUB_STEP_SUMMARY"
           fi
+      # Attribution self-check (#989, owner decision 2026-11-05): on a PR, every new or
+      # changed stating claim (or claim whose statement text or passage changed) must
+      # record "The passage states X, which is the premise." against freshly
+      # materialized pinned text. Its report goes to the job summary.
+      - name: Check attribution of new or changed stating claims
+        if: github.event_name == 'pull_request'
+        run: |
+          set -o pipefail
+          if git rev-parse --verify HEAD^1 >/dev/null 2>&1; then
+            {
+              echo "### Attribution self-check (\`corpus.py attribution-check --base HEAD^1\`)"
+              echo '```text'
+              status=0
+              python3 scripts/corpus.py attribution-check --base HEAD^1 --materialize --max-chars 2000 2>&1 || status=$?
+              echo '```'
+              exit $status
+            } | tee -a "$GITHUB_STEP_SUMMARY"
+          fi
       # On a PR, refetch only passages with changed manifests, including when the verifier
       # also changes. Offline tests exercise verifier changes without making unrelated witness
       # availability a merge gate. Main refetches everything but reports unchanged,
