@@ -1,0 +1,9 @@
+{
+  "id": "REL-AQUINAS-SCG-I-18-SUPPORTS-UNITING-CAUSE-IS-EFFICIENT",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-SCG-I-18-COMPOSER-IS-EFFICIENT-CAUSE",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-UNITING-CAUSE-IS-EFFICIENT",
+  "note": "SCG I.18 n.4 says the composer is the efficient cause of the composite, with no temporal qualifier. The premise's EfficientlyCausesIn is efficient causing here and now (DEF-EFFICIENT-CAUSING), so the premise also says that every uniter, including one whose uniting is past, is a present efficient cause of the composite in some respect. The source does not state that temporal step (Codex review on #995). Closing the gap would take a bridge from having composed to causing now, or a time-neutral premise."
+}

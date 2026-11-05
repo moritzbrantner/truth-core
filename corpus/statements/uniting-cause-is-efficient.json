@@ -1,6 +1,6 @@
 {
   "id": "STMT-UNITING-CAUSE-IS-EFFICIENT",
-  "paraphrase": "Unattributed open premise: whatever unites two things into x is an efficient cause of x in some respect. Motivated by, but not stated in, ST I q.3 a.7 co., third proof, which excludes a uniting cause of God because he is the first efficient cause; that sentence does not classify every uniting cause as efficient.",
+  "paraphrase": "Open premise: whatever unites two things into x is an efficient cause of x in some respect. Unattributed. SCG I.18 n.4, Componens autem est causa efficiens compositi, supports but does not state it: the source has no temporal qualifier, while EfficientlyCausesIn is efficient causing here and now (relation REL-AQUINAS-SCG-I-18-SUPPORTS-UNITING-CAUSE-IS-EFFICIENT). ST I q.3 a.7 co., third proof, motivates but does not state it.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7Uniting.UnitingCauseIsEfficientCauseReading",
   "definition_ids": [
     "DEF-UNITING-CAUSE",

@@ -1,0 +1,31 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "AQUINAS-SCG",
+    "source_url": "https://www.corpusthomisticum.org/scg2006.html",
+    "retrieved_at": "2026-11-05T13:17:31Z",
+    "sha256": "sha256:f3b59aba0c3f5ac941b2f032346a525bdd341ea6d93ec114bad755e0a4572aad",
+    "encoding": "iso-8859-1",
+    "language": "lat",
+    "license": "Corpus Thomisticum identifies its text as 'Textum Leoninum emendatum ex plagulis de prelo Taurini 1961 editum' (the Leonine text as corrected from the proofs of the Turin 1961 edition); ©2019 Fundación Tomás de Aquino quoad hanc editionem, all rights reserved. The medieval work is public domain; no open licence for the digital transcription is asserted. Only metadata, hashes, locators and a short incipit are committed. Two independent exact-downloader GETs on 2026-11-05 matched response and selected-text bytes. No archive fallback is pinned: the Wayback Machine was unreachable from the pinning host. No translation is claimed."
+  },
+  "passages": [
+    {
+      "id": "AQUINAS-SCG-II-15-LAT",
+      "locator": "II.15 [24521–24531]",
+      "claim_locator_prefixes": [
+        "II.15 "
+      ],
+      "html_selector": {
+        "from": {
+          "anchor": "24521"
+        },
+        "to": {
+          "anchor": "24532"
+        }
+      },
+      "text_sha256": "sha256:a38c01c5baeadf604d37275fc4c00d24f9eda386300c1b8f883a3c878b9b944c",
+      "incipit": "[24521] Contra Gentiles, lib. 2 cap. 15 tit. Quod Deus sit omnibus causa"
+    }
+  ]
+}

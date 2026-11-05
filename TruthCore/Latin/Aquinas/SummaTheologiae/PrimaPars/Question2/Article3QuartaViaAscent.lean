@@ -36,12 +36,12 @@ def MoreSuchHasThePerfectionReading {Being : Sort u} {Respect : Sort v}
 distinct from itself: if `y` is more `r` than `x`, and `x` has `r`, some `c ≠ x`
 causes `x`'s being `r`.
 
-Unattributed open bridge. ST I q.44 a.1 co. says that what is found in
-something by participation is caused in it by that to which it belongs
-essentially, and that things diversified by diverse participation of *esse*,
-as more or less perfect, are caused by a first being. It does not say that
-being exceeded in an arbitrary perfection is having it by participation; that
-step is this premise's, not the source's (relation
+Read from SCG II.15 n.3 (*Quod igitur alicui minus convenit quam aliis, non
+convenit ei ex sua natura tantum, sed ex alia causa*): what belongs to
+something less than to others belongs to it not from its nature alone but from
+another cause. *Alia causa* is read as a cause other than the bearer itself
+(claim `AQUINAS-SCG-II-15-LESSER-HAS-IT-FROM-ANOTHER-CAUSE`). ST I q.44 a.1 co.,
+on participated *esse*, supports it only (relation
 `REL-AQUINAS-ST-I-Q44-A1-SUPPORTS-EXCEEDED-PERFECTION-IS-CAUSED`). The cause is
 not required to have `r`, to be more `r`, or to be the exceeding `y`. -/
 def ExceededPerfectionIsCausedReading {Being : Sort u} {Respect : Sort v}

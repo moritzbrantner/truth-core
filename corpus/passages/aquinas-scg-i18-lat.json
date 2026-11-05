@@ -1,0 +1,31 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "AQUINAS-SCG",
+    "source_url": "https://www.corpusthomisticum.org/scg1014.html",
+    "retrieved_at": "2026-11-05T13:17:32Z",
+    "sha256": "sha256:0959a25158eac4902fee8eb24af471397fb80969f6400769c07c0a48a1c64334",
+    "encoding": "iso-8859-1",
+    "language": "lat",
+    "license": "Corpus Thomisticum identifies its text as 'Textum Leoninum emendatum ex plagulis de prelo Taurini 1961 editum' (the Leonine text as corrected from the proofs of the Turin 1961 edition); ©2019 Fundación Tomás de Aquino quoad hanc editionem, all rights reserved. The medieval work is public domain; no open licence for the digital transcription is asserted. Only metadata, hashes, locators and a short incipit are committed. Two independent exact-downloader GETs on 2026-11-05 matched response and selected-text bytes. No archive fallback is pinned: the Wayback Machine was unreachable from the pinning host. No translation is claimed."
+  },
+  "passages": [
+    {
+      "id": "AQUINAS-SCG-I-18-LAT",
+      "locator": "I.18 [23645–23652]",
+      "claim_locator_prefixes": [
+        "I.18 "
+      ],
+      "html_selector": {
+        "from": {
+          "anchor": "23645"
+        },
+        "to": {
+          "anchor": "23653"
+        }
+      },
+      "text_sha256": "sha256:304801df801ef48dfa184ebe7566e6775ba82b3385d5e6af2298754efe0e4dec",
+      "incipit": "[23645] Contra Gentiles, lib. 1 cap. 18 tit. Quod in Deo nulla est"
+    }
+  ]
+}
