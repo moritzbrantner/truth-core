@@ -734,6 +734,7 @@ def frontier_report(
 
     closed = set(verified_conclusions)
     refuted: set[str] = set()
+    established: set[str] = set()
 
     # Floor markings (#500): rule (b) closes a self_evident statement only
     # while its basis criterion holds, recomputed here from the current
@@ -781,12 +782,14 @@ def frontier_report(
                 elif argument["id"] not in refuting_arguments.get(denial, ()):
                     reasons.append(f"{argument['id']} has no refutes relation to {denial}")
                 else:
+                    # #999: the retorsion is a refutation of the denial, so it
+                    # meets the basis only from established premises.
                     open_premises = sorted(
-                        {premise for premise in argument["premise_statement_ids"] if premise not in closed}
+                        {premise for premise in argument["premise_statement_ids"] if premise not in established}
                     )
                     if not open_premises:
                         return []
-                    reasons.append(f"{result_id} rests on open premises {', '.join(open_premises)}")
+                    reasons.append(f"{result_id} rests on unestablished premises {', '.join(open_premises)}")
             return reasons
         if basis == FLOOR_COMMON_GROUND:
             if rivals:
@@ -825,39 +828,56 @@ def frontier_report(
         return (
             argument is not None
             and relation["subject_id"] in verified_arguments
-            and all(premise in closed for premise in argument["premise_statement_ids"])
+            and all(premise in established for premise in argument["premise_statement_ids"])
         )
 
     def defended(statement_id: str) -> bool:
         recorded = alternatives.get(statement_id, ())
         return bool(recorded) and all(alternative in refuted for alternative in recorded)
 
-    # Rules (c) and (d), jointly to a fixpoint. A refutation counts only from a
-    # premise-free argument or one whose premises are all closed (#391), and a
-    # transcription carries closure from its premises to its conclusion
-    # (#143, 2026-10-24). Each pass visits refutations by relation ID and
-    # transcription results by result ID, so the recorded result for a
-    # conclusion is deterministic.
+    # Rules (b)-(d), jointly to a least fixpoint. A refutation counts only from
+    # a premise-free argument or one whose premises are all *established*
+    # (#391, #999): a refutation resting on an open premise, or on a premise
+    # merely proved from open premises, defends nothing. A transcription
+    # carries closure from its premises to its conclusion (#143, 2026-10-24).
+    # `established` (self-evident with a met basis, defended, or the conclusion
+    # of a verified result whose premises are all established) grows in the
+    # same fixpoint; being least, it admits no circular support (a refutation
+    # cannot rest on the premise its own rival's refutation would defend).
+    # Each pass visits refutations by relation ID and transcription results by
+    # result ID, so the recorded result for a conclusion is deterministic.
     transcription_steps = sorted(
         (result["id"], argument_by_id[result["argument_id"]])
         for result in results
         if result["id"] in transcription_results and result["argument_id"] in argument_by_id
     )
     closed_via_transcription: dict[str, dict[str, Any]] = {}
+    verified_steps = [
+        argument_by_id[result["argument_id"]] for result in results if result["argument_id"] in argument_by_id
+    ]
     changed = True
     while changed:
         changed = False
         for statement_id in sorted(floor_markings):
-            if statement_id not in closed and not floor_reasons(statement_id):
+            if statement_id not in established and not floor_reasons(statement_id):
                 closed.add(statement_id)
+                established.add(statement_id)
                 changed = True
         for relation in refutations:
             if relation["object_id"] not in refuted and refutation_counts(relation):
                 refuted.add(relation["object_id"])
                 changed = True
         for statement_id in alternatives:
-            if statement_id not in closed and defended(statement_id):
+            if statement_id not in established and defended(statement_id):
                 closed.add(statement_id)
+                established.add(statement_id)
+                changed = True
+        for argument in verified_steps:
+            conclusion = argument["conclusion_statement_id"]
+            if conclusion not in established and all(
+                premise in established for premise in argument["premise_statement_ids"]
+            ):
+                established.add(conclusion)
                 changed = True
         for result_id, argument in transcription_steps:
             conclusion = argument["conclusion_statement_id"]
@@ -885,6 +905,10 @@ def frontier_report(
                 "statement_id": relation["object_id"],
                 "verified": relation["subject_id"] in verified_arguments,
                 "open_premise_statement_ids": [premise for premise in premises if premise not in closed],
+                # #999: what keeps a verified refutation from counting.
+                "unestablished_premise_statement_ids": [
+                    premise for premise in premises if premise not in established
+                ],
                 "counted": refutation_counts(relation),
             }
         )
@@ -919,28 +943,8 @@ def frontier_report(
             closed_statements[statement_id] = "via_transcription"
 
     # Closed is a per-node property: a proved statement may still rest on open
-    # premises (the skeleton proves the root from nine of them). A statement is
-    # *established* when it is self-evident or defended, or is the conclusion of
-    # a verified result (transcriptions included) whose premises are all
-    # established. Computed as a least fixpoint; it adds no closure rule.
-    established = {
-        statement_id
-        for statement_id in statement_by_id
-        if statement_id in floor_met or defended(statement_id)
-    }
-    verified_steps = [
-        argument_by_id[result["argument_id"]] for result in results if result["argument_id"] in argument_by_id
-    ]
-    changed = True
-    while changed:
-        changed = False
-        for argument in verified_steps:
-            conclusion = argument["conclusion_statement_id"]
-            if conclusion not in established and all(
-                premise in established for premise in argument["premise_statement_ids"]
-            ):
-                established.add(conclusion)
-                changed = True
+    # premises (the skeleton proves the root from nine of them). `established`
+    # was computed in the fixpoint above; it adds no closure rule.
 
     stating_claims: dict[str, set[str]] = {}
     for claim in claims or []:
@@ -1657,7 +1661,7 @@ def format_frontier(report: dict[str, Any]) -> str:
             reason = (
                 "no verified result"
                 if not refutation["verified"]
-                else "open premises " + ", ".join(refutation["open_premise_statement_ids"])
+                else "unestablished premises " + ", ".join(refutation["unestablished_premise_statement_ids"])
             )
             lines.append(f"  {refutation['relation_id']} ({refutation['argument_id']} refutes {refutation['statement_id']}): {reason}")
     closures = report.get("closed_via_transcription", [])
@@ -2262,7 +2266,9 @@ def check_warnings() -> list[str]:
         if not refutation["verified"]:
             reason = "its argument has no verified result"
         else:
-            reason = "it rests on open premises " + ", ".join(refutation["open_premise_statement_ids"])
+            reason = "it rests on unestablished premises " + ", ".join(
+                refutation["unestablished_premise_statement_ids"]
+            )
         warnings.append(
             f"{refutation['relation_id']}: refutation of {refutation['statement_id']} does not count "
             f"for closure rule (c): {reason}"
