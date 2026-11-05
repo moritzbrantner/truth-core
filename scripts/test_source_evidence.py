@@ -552,6 +552,16 @@ class WebSnapshotTest(unittest.TestCase):
             with self.assertRaisesRegex(se.SourceUnavailableError, "HTTP Error 403"):
                 se.download(LIVE_URL, "WEB-A", attempts=1)
 
+    def test_malformed_gzip_body_is_integrity_not_availability_failure(self) -> None:
+        response = mock.MagicMock()
+        response.__enter__.return_value = response
+        response.read.return_value = b"not gzip bytes"
+        response.headers = {"Content-Encoding": "gzip"}
+        with mock.patch.object(se.urllib.request, "urlopen", return_value=response):
+            with self.assertRaisesRegex(se.SourceEvidenceError, "invalid gzip response body") as caught:
+                se.download(LIVE_URL, "WEB-A", attempts=1)
+        self.assertNotIsInstance(caught.exception, se.SourceUnavailableError)
+
     def manifest(self, passage: dict) -> None:
         se.validate_web_snapshot_manifest(se.ROOT / "corpus" / "passages" / "fixture.json", passage)
 
@@ -829,6 +839,24 @@ class PullRequestScopeTest(unittest.TestCase):
             self.assertEqual(se.verify_all(defer_unavailable_ids={"WEB-A"}), 0)
         self.assertIn("WEB-A: unavailable, NOT byte-verified", out.getvalue())
         self.assertIn("source evidence incomplete", out.getvalue())
+
+    def test_unreachable_witness_without_wayback_is_not_deferred(self) -> None:
+        passage = self.passages["WEB-A"][1]
+        passage.pop("wayback_url", None)
+        passage.pop("wayback_sha256", None)
+        only = {"WEB-A": self.passages["WEB-A"]}
+
+        with (
+            mock.patch.object(se, "passage_index", return_value=only),
+            mock.patch.object(se, "validate_bindings", return_value=(1, 0)),
+            mock.patch.object(
+                se, "fetch_web_bytes",
+                side_effect=se.SourceUnavailableError("WEB-A: cannot fetch: HTTP 403"),
+            ),
+        ):
+            with self.assertRaisesRegex(se.SourceEvidenceError, "HTTP 403") as caught:
+                se.verify_all(defer_unavailable_ids={"WEB-A"})
+        self.assertNotIsInstance(caught.exception, se.SourceUnavailableError)
 
     def test_changed_witness_remains_strict_when_unreachable(self) -> None:
         passage = self.passages["WEB-A"][1]

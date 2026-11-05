@@ -1206,15 +1206,21 @@ def download(url: str, label: str, *, attempts: int = 3) -> bytes:
             with urllib.request.urlopen(request, timeout=60) as response:
                 data = response.read()
                 content_encoding = response.headers.get("Content-Encoding", "").strip().lower()
-                if content_encoding == "gzip":
-                    data = gzip.decompress(data)
-                elif content_encoding == "zstd":
-                    data = decompress_zstd(data, label)
-            return data
         except (urllib.error.URLError, TimeoutError, OSError) as exc:
             last_error = exc
             if attempt + 1 < attempts:
                 time.sleep(1 + attempt)
+            continue
+        # Decoding happens after a successful transfer: a body that does not decode is
+        # an integrity failure of the returned bytes, never transport unavailability.
+        if content_encoding == "gzip":
+            try:
+                data = gzip.decompress(data)
+            except (OSError, EOFError) as exc:
+                raise SourceEvidenceError(f"{label}: invalid gzip response body from {url}: {exc}") from exc
+        elif content_encoding == "zstd":
+            data = decompress_zstd(data, label)
+        return data
     raise SourceUnavailableError(f"{label}: cannot fetch {url}: {last_error}")
 
 
@@ -1242,7 +1248,9 @@ def resolve_web_snapshot(passage: dict[str, Any], *, use_cache: bool = True, fet
         data = fetch(passage["source_url"], passage["sha256"], passage["id"])
     except SourceEvidenceError as live_error:
         if not passage.get("wayback_url"):
-            raise
+            # Without a pinned fallback there is no second failed fetch, so even a
+            # transport failure stays a hard (non-deferrable) error.
+            raise SourceEvidenceError(str(live_error)) from live_error
         try:
             data = fetch(passage["wayback_url"], passage["wayback_sha256"], passage["id"])
         except SourceEvidenceError as archive_error:
