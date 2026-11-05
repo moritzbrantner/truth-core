@@ -368,7 +368,9 @@ def validate_self_evident(
                 if not isinstance(position, dict):
                     raise CorpusError(f"{where}: each common_ground position is an object")
                 known_statement("position statement_id", position.get("statement_id"))
-                require_string_list(position, "claim_ids", path, allow_empty=False)
+                for claim_id in require_string_list(position, "claim_ids", path, allow_empty=False):
+                    if claim_ids is not None and claim_id not in claim_ids:
+                        raise CorpusError(f"{where}: self_evident position claim {claim_id} is not a known claim")
         return
     if basis == FLOOR_RETORSION:
         if any(justification_id not in result_ids for justification_id in justification):
