@@ -7,11 +7,26 @@ import { DEFAULT_ROOT_STATEMENT_ID } from "./proposition-graph";
 /**
  * The project's current state, as computed by `python3 scripts/corpus.py
  * frontier --json` at build time (#200). The explorer does not re-implement
- * the closure rules here: every "closed", "open", "bare" or "sourced" on the
+ * the closure rules here: every "closed", "open", "bare", "supported" or "stated" on the
  * state, statement and result pages comes from that report.
  */
 
-export type FrontierDepth = "bare" | "sourced";
+/**
+ * Depth of an open premise (#987): "stated" when a claim on a pinned source
+ * states it, "supported" when only a `supports` relation (whose note records
+ * the gap) or only a bibliographic citation (no pinned bytes) points to it,
+ * otherwise "bare". Supported and stated are both undefended.
+ */
+export type FrontierDepth = "bare" | "supported" | "stated";
+
+export const FRONTIER_DEPTHS: readonly FrontierDepth[] = ["bare", "supported", "stated"];
+
+/** Plain-language description of each depth, for marks and legends. */
+export const FRONTIER_DEPTH_DESCRIPTIONS: Record<FrontierDepth, string> = {
+  bare: "No claim states it and no supports relation backs it",
+  supported: "Only a supports relation or a bibliographic citation backs it; no claim on a pinned source states it",
+  stated: "A claim on a pinned source states it; not yet defended",
+};
 
 export type FrontierItem = {
   statement_id: string;
@@ -89,13 +104,15 @@ export type Refutation = {
   statement_id: string;
   verified: boolean;
   open_premise_statement_ids: string[];
-  /** Counts for rule (c) only when verified and every premise is closed (#391). */
+  /** Premises that keep a verified refutation from counting (#999). */
+  unestablished_premise_statement_ids?: string[];
+  /** Counts for rule (c) only when verified and every premise is established (#391, #999). */
   counted: boolean;
 };
 
 export type RootRoute = {
   argument_id: string;
-  /** Distinct open leaves: sourced or bare premises kept as leaves, intermediate conclusions expanded (#391). */
+  /** Distinct open leaves: stated, supported or bare premises kept as leaves, intermediate conclusions expanded (#391). */
   cost: number;
   premise_count: number;
   verified: boolean;
@@ -104,6 +121,9 @@ export type RootRoute = {
   cheapest: boolean;
   open_premise_statement_ids: string[];
   proved_unestablished_statement_ids: string[];
+  /** Depth of each open leaf; "proved_unestablished" for a leaf proved from open premises (#987). */
+  open_premise_depths: Record<string, FrontierDepth | "proved_unestablished">;
+  depth_counts: Record<FrontierDepth | "proved_unestablished", number>;
 };
 
 export type ClosureReason = "proved" | "self_evident" | "alternatives_refuted" | "via_transcription";
@@ -264,7 +284,7 @@ export const CLOSURE_LABELS: Record<ClosureReason, string> = {
 export const CLOSURE_DESCRIPTIONS: Record<ClosureReason, string> = {
   proved: "Conclusion of a verified result that is not a transcription.",
   self_evident: "Marked self-evident, and its floor basis criterion holds on the current records.",
-  alternatives_refuted: "Every recorded alternative is refuted by a verified argument whose premises are all closed.",
+  alternatives_refuted: "Every recorded alternative is refuted by a verified argument whose premises are all established.",
   via_transcription: "Conclusion of a transcription result whose premises are all closed.",
 };
 
@@ -283,7 +303,7 @@ export type Rival = {
 
 /**
  * Recorded alternatives (with the refutations that count: a verified argument
- * whose premises are all closed, #391) and objections.
+ * whose premises are all established, #391, #999) and objections.
  */
 export function rivals(corpus: Corpus, report: FrontierReport) {
   const refuters = new Map<string, string[]>();

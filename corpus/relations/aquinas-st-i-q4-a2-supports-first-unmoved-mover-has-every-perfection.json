@@ -1,0 +1,9 @@
+{
+  "id": "REL-AQUINAS-ST-I-Q4-A2-SUPPORTS-FIRST-UNMOVED-MOVER-HAS-EVERY-PERFECTION",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q4-A2-GOD-UNIVERSALLY-PERFECT",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-FIRST-UNMOVED-MOVER-HAS-EVERY-PERFECTION",
+  "note": "ST I q.4 a.2 co. says that the perfections of all things are in God, who is therefore called universally perfect. It does not state the premise, for three reasons. (1) Its subject is God, not every first mover moved by none; identifying the two is a separate open step (STMT-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD). (2) The first proof reaches only the perfections found in things, which is the weaker, derived FirstUnmovedMoverHasEveryPerfectionOfThings, not act in every respect. (3) The second proof's 'totam perfectionem essendi in se contineat' is said of ipsum esse per se subsistens. q.4 a.1 co. ('primum principium activum oportet maxime esse in actu') says the first active principle is maximally in act, not in act in every respect."
+}

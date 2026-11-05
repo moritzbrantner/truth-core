@@ -261,6 +261,7 @@ class FrontierReportTest(unittest.TestCase):
                     "statement_id": "ALT",
                     "verified": True,
                     "open_premise_statement_ids": ["OPEN-A"],
+                    "unestablished_premise_statement_ids": ["OPEN-A"],
                     "counted": False,
                 }
             ],
@@ -279,6 +280,57 @@ class FrontierReportTest(unittest.TestCase):
         self.assertNotIn("OPEN-A", self.ids(report))
         self.assertNotIn("OPEN-B", self.ids(report))
         self.assertTrue(all(refutation["counted"] for refutation in report["refutations"]))
+
+    def test_refutation_resting_on_a_proved_unestablished_premise_does_not_count(self) -> None:
+        # #999 regression: MID is closed (proved by ARG-MID) but rests on the
+        # open OPEN-A, so it is not established. A refutation from MID used to
+        # count, defending OPEN-B and making it established.
+        arguments = [*ARGUMENTS, argument("ARG-REF", ["MID"], "NOT-ALT")]
+        results = [*RESULTS, {"id": "ARG-REF", "argument_id": "ARG-REF"}]
+        relations = [
+            relation("statement", "ALT", "alternative_to", "OPEN-B"),
+            relation("argument", "ARG-REF", "refutes", "ALT"),
+        ]
+        report = corpus.frontier_report(STATEMENTS, arguments, results, relations, root="ROOT")
+        self.assertIn("MID", report["closed_statements"])
+        self.assertNotIn("MID", report["established_statements"])
+        self.assertEqual(report["refuted_statements"], [])
+        self.assertIn("OPEN-B", self.ids(report))
+        self.assertNotIn("OPEN-B", report["established_statements"])
+        (refutation,) = report["refutations"]
+        self.assertFalse(refutation["counted"])
+        self.assertEqual(refutation["open_premise_statement_ids"], [])
+        self.assertEqual(refutation["unestablished_premise_statement_ids"], ["MID"])
+        self.assertIn("unestablished premises MID", corpus.format_frontier(report))
+        # Once OPEN-A is defended, MID is established and the refutation counts.
+        relations += [
+            relation("statement", "ALT-A", "alternative_to", "OPEN-A"),
+            relation("argument", "ARG-FREE", "refutes", "ALT-A"),
+        ]
+        arguments.append(argument("ARG-FREE", [], "NOT-ALT-A"))
+        results.append({"id": "ARG-FREE", "argument_id": "ARG-FREE"})
+        report = corpus.frontier_report(STATEMENTS, arguments, results, relations, root="ROOT")
+        self.assertEqual(report["refuted_statements"], ["ALT", "ALT-A"])
+        self.assertIn("OPEN-B", report["established_statements"])
+        self.assertIn("ROOT", report["established_statements"])
+
+    def test_mutually_supporting_refutations_establish_nothing(self) -> None:
+        # #999: OPEN-A's rival is refuted from OPEN-B and OPEN-B's rival from
+        # OPEN-A. Each would be defended if the other were; the least fixpoint
+        # admits neither.
+        arguments = [*ARGUMENTS, argument("ARG-RA", ["OPEN-B"], "NOT-ALT-A"), argument("ARG-RB", ["OPEN-A"], "NOT-ALT-B")]
+        results = [*RESULTS, {"id": "ARG-RA", "argument_id": "ARG-RA"}, {"id": "ARG-RB", "argument_id": "ARG-RB"}]
+        relations = [
+            relation("statement", "ALT-A", "alternative_to", "OPEN-A"),
+            relation("statement", "ALT-B", "alternative_to", "OPEN-B"),
+            relation("argument", "ARG-RA", "refutes", "ALT-A"),
+            relation("argument", "ARG-RB", "refutes", "ALT-B"),
+        ]
+        report = corpus.frontier_report(STATEMENTS, arguments, results, relations, root="ROOT")
+        self.assertEqual(report["refuted_statements"], [])
+        self.assertIn("OPEN-A", self.ids(report))
+        self.assertIn("OPEN-B", self.ids(report))
+        self.assertFalse(any(refutation["counted"] for refutation in report["refutations"]))
 
     def test_declared_transcription_is_not_proved(self) -> None:
         # #391: an opaque-atom result declared in its record closes nothing by
@@ -357,16 +409,37 @@ class FrontierReportTest(unittest.TestCase):
         self.assertEqual(items["OPEN-B"]["bibliographic_claims"], ["CLAIM-BIB-2"])
         self.assertIn("bibliographic witness, not byte-verified: CLAIM-BIB\n", corpus.format_frontier(report) + "\n")
 
+    def test_bibliographic_only_stating_claims_count_as_supported(self) -> None:
+        # Owner decision 2026-11-05: only a claim on a pinned source states a
+        # premise; a bibliographic citation alone supports it.
+        only_bib = [{"id": "CLAIM-BIB", "statement_id": "OPEN-A", "witness": "bibliographic"}]
+        report = corpus.frontier_report(STATEMENTS, ARGUMENTS, RESULTS, [], root="ROOT", claims=only_bib)
+        item = {item["statement_id"]: item for item in report["items"]}["OPEN-A"]
+        self.assertEqual(item["depth"], "supported")
+        self.assertEqual(item["stating_claims"], ["CLAIM-BIB"])
+        self.assertEqual(item["bibliographic_claims"], ["CLAIM-BIB"])
+        self.assertEqual(report["depth_counts"], {"bare": 2, "supported": 1, "stated": 0})
+        routes = report["routes"]["routes"]
+        self.assertTrue(routes)
+        for route in routes:
+            if "OPEN-A" in route["open_premise_depths"]:
+                self.assertEqual(route["open_premise_depths"]["OPEN-A"], "supported")
+        # Adding a claim on a pinned source makes it stated.
+        pinned = only_bib + [{"id": "CLAIM-PINNED", "statement_id": "OPEN-A"}]
+        report = corpus.frontier_report(STATEMENTS, ARGUMENTS, RESULTS, [], root="ROOT", claims=pinned)
+        item = {item["statement_id"]: item for item in report["items"]}["OPEN-A"]
+        self.assertEqual(item["depth"], "stated")
+
     def test_classifies_open_premises_by_depth(self) -> None:
         # #143 (2026-10-24): bare = no stating claim and no supports relation.
         claims = [{"id": "CLAIM-A", "statement_id": "OPEN-A"}]
         report = corpus.frontier_report(STATEMENTS, ARGUMENTS, RESULTS, [], root="ROOT", claims=claims)
         items = {item["statement_id"]: item for item in report["items"]}
-        self.assertEqual(items["OPEN-A"]["depth"], "sourced")
+        self.assertEqual(items["OPEN-A"]["depth"], "stated")
         self.assertEqual(items["OPEN-A"]["stating_claims"], ["CLAIM-A"])
         self.assertEqual(items["OPEN-B"]["depth"], "bare")
-        self.assertEqual(report["depth_counts"], {"bare": 2, "sourced": 1})
-        self.assertIn("3 open premises: 2 bare, 1 sourced-undefended", corpus.format_frontier(report))
+        self.assertEqual(report["depth_counts"], {"bare": 2, "supported": 0, "stated": 1})
+        self.assertIn("3 open premises: 2 bare, 0 supported, 1 stated", corpus.format_frontier(report))
         supported = corpus.frontier_report(
             STATEMENTS,
             ARGUMENTS,
@@ -377,8 +450,38 @@ class FrontierReportTest(unittest.TestCase):
         )
         self.assertEqual(
             {item["statement_id"]: item["depth"] for item in supported["items"]},
-            {"OPEN-A": "sourced", "OPEN-B": "sourced", "SIDE": "bare"},
+            {"OPEN-A": "stated", "OPEN-B": "supported", "SIDE": "bare"},
         )
+        self.assertEqual(supported["depth_counts"], {"bare": 1, "supported": 1, "stated": 1})
+        self.assertIn("[supported]", corpus.format_frontier(supported))
+        # #987: a stating claim wins over a supports relation.
+        both = corpus.frontier_report(
+            STATEMENTS,
+            ARGUMENTS,
+            RESULTS,
+            [relation("claim", "CLAIM-EVIDENCE", "supports", "OPEN-A")],
+            root="ROOT",
+            claims=claims,
+        )
+        self.assertEqual({item["statement_id"]: item["depth"] for item in both["items"]}["OPEN-A"], "stated")
+
+    def test_supports_relation_without_gap_note_warns(self) -> None:
+        noted = {**relation("claim", "CLAIM-E", "supports", "OPEN-B"), "note": "states only half"}
+        bare = relation("claim", "CLAIM-F", "supports", "OPEN-A")
+        warnings = corpus.supports_gap_warnings([noted, bare, relation("statement", "X", "alternative_to", "OPEN-A")])
+        self.assertEqual(len(warnings), 1)
+        self.assertIn("CLAIM-F and OPEN-A", warnings[0])
+
+    def test_legacy_sourced_depth_is_split_by_stating_claims(self) -> None:
+        # #987: reports from revisions before the split say "sourced".
+        legacy = [
+            {"statement_id": "S", "depth": "sourced", "stating_claims": ["CLAIM"]},
+            {"statement_id": "U", "depth": "sourced", "stating_claims": []},
+            {"statement_id": "B", "depth": "bare", "stating_claims": []},
+            {"statement_id": "C", "depth": "sourced", "stating_claims": ["BIB"], "bibliographic_claims": ["BIB"]},
+        ]
+        self.assertEqual([corpus.item_depth(item) for item in legacy], ["stated", "supported", "bare", "supported"])
+        self.assertEqual(corpus.depth_counts(legacy), {"bare": 1, "supported": 2, "stated": 1})
 
     def test_output_is_deterministic(self) -> None:
         shuffled = corpus.frontier_report(
@@ -439,8 +542,27 @@ class RouteCostTest(unittest.TestCase):
         self.assertEqual([entry["argument_id"] for entry in routes["routes"]], ["R2", "R1", "R3"])
         text = corpus.format_routes(routes)
         self.assertIn("cheapest R2", text)
-        self.assertIn("   2         3  R1  [designated]", text)
-        self.assertIn("   1         1  R2  [cheapest]", text)
+        self.assertIn("cost  bare  supported  stated  proved  premises  argument", text)
+        self.assertIn("   2     2          0       0       0         3  R1  [designated]", text)
+        self.assertIn("   1     1          0       0       0         1  R2  [cheapest]", text)
+        self.assertIn("  C [bare]", text)
+        self.assertEqual(
+            entries["R1"]["depth_counts"], {"bare": 2, "supported": 0, "stated": 0, "proved_unestablished": 0}
+        )
+        self.assertEqual(entries["R1"]["open_premise_depths"], {"A": "bare", "B": "bare"})
+
+    def test_route_leaves_are_counted_by_depth(self) -> None:
+        # #987: route leaves by bare / supported / stated; a proved but
+        # unestablished leaf is counted on its own.
+        arguments = [argument("R1", ["A", "B", "C"], "ROOT"), argument("DA", ["P1"], "A")]
+        results = [{"id": "R1", "argument_id": "R1"}, {"id": "DA", "argument_id": "DA"}]
+        claims = [{"id": "CLAIM-A", "statement_id": "A"}, {"id": "CLAIM-C", "statement_id": "C"}]
+        supports = [relation("claim", "CLAIM-C", "supports", "B")]
+        entry = self.by_id(self.routes(arguments, results, supports, claims=claims))["R1"]
+        self.assertEqual(entry["open_premise_depths"], {"A": "proved_unestablished", "B": "supported", "C": "stated"})
+        self.assertEqual(
+            entry["depth_counts"], {"bare": 0, "supported": 1, "stated": 1, "proved_unestablished": 1}
+        )
 
     def test_added_derivation_under_a_sourced_premise_never_raises_a_route_cost(self) -> None:
         arguments = [argument("R1", ["A", "B"], "ROOT")]
@@ -729,7 +851,7 @@ class FloorBasisTest(unittest.TestCase):
         ret = [argument("ARG-RET", ["PRESUP"], "NOT-NOT-P")]
         results = [{"id": "RET", "argument_id": "ARG-RET"}]
         report = self.report(statements, ret, results, relations)
-        self.assertEqual(self.floor(report)["P"]["reasons"], ["RET rests on open premises PRESUP"])
+        self.assertEqual(self.floor(report)["P"]["reasons"], ["RET rests on unestablished premises PRESUP"])
         self.assertNotIn("P", report["closed_statements"])
         # Once the presupposition is closed, the retorsion closes the premise.
         closed_presup = [statement("P", self_evident=marking), statement("NOT-P"), statement("PRESUP")]
@@ -740,6 +862,17 @@ class FloorBasisTest(unittest.TestCase):
             relations,
         )
         self.assertEqual(report["closed_statements"]["P"], "self_evident")
+        # #999: a presupposition proved from an open premise is closed but not
+        # established, so the retorsion still does not meet the basis.
+        report = self.report(
+            [*closed_presup, statement("OPEN")],
+            [*ret, argument("ARG-PRESUP", ["OPEN"], "PRESUP")],
+            [*results, {"id": "PRESUP-R", "argument_id": "ARG-PRESUP"}],
+            relations,
+        )
+        self.assertIn("PRESUP", report["closed_statements"])
+        self.assertEqual(self.floor(report)["P"]["reasons"], ["RET rests on unestablished premises PRESUP"])
+        self.assertNotIn("P", report["closed_statements"])
         # A circular retorsion (resting on P itself) closes nothing.
         report = self.report(statements, [argument("ARG-RET", ["P"], "NOT-NOT-P")], results, relations)
         self.assertFalse(self.floor(report)["P"]["met"])
@@ -950,9 +1083,9 @@ class FrontierCorpusTest(unittest.TestCase):
         self.assertTrue(all(item["path_to_root"][-1] == "STMT-CATHOLICISM-TRUE" for item in report["items"]))
         # Depth counts cover exactly the premises that reach the root.
         counts = report["depth_counts"]
-        self.assertEqual(counts["bare"] + counts["sourced"], report["open_premise_count"])
+        self.assertEqual(counts["bare"] + counts["supported"] + counts["stated"], report["open_premise_count"])
         depths = {item["statement_id"]: item["depth"] for item in report["items"]}
-        self.assertEqual(depths["STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS"], "sourced")
+        self.assertIn(depths["STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS"], ("supported", "stated"))
         # #145: the prima via's regress premise is derived from the secunda via's.
         self.assertNotIn("STMT-NO-INFINITE-PER-SE-MOVER-SERIES", depths)
         # #367: the finite-ancestry route expanded efficient-cause regress
@@ -1090,7 +1223,7 @@ class FrontierDiffTest(unittest.TestCase):
         # Base: ARG-MID unverified, so the route keeps MID as one open leaf.
         base = self.reaching([{"id": "ARG-ROOT", "argument_id": "ARG-ROOT"}])
         # Head: ARG-MID verified (MID closed, the route opens OPEN-A instead),
-        # OPEN-B gains a stating claim (bare -> sourced), and an unverified
+        # OPEN-B gains a stating claim (bare -> stated), and an unverified
         # second route adds the premise NEW.
         head = self.reaching(
             RESULTS,
@@ -1101,9 +1234,10 @@ class FrontierDiffTest(unittest.TestCase):
         self.assertTrue(delta["changed"])
         self.assertEqual(delta["added"], {"bare": ["NEW"]})
         self.assertEqual(delta["removed"], {})
-        self.assertEqual(delta["moved"], {"bare -> closed": ["MID"], "bare -> sourced": ["OPEN-B"]})
-        self.assertEqual(delta["base_counts"], {"open": 3, "bare": 3, "sourced": 0})
-        self.assertEqual(delta["head_counts"], {"open": 3, "bare": 2, "sourced": 1})
+        self.assertEqual(delta["moved"], {"bare -> closed": ["MID"], "bare -> stated": ["OPEN-B"]})
+        self.assertEqual(delta["base_counts"], {"open": 3, "bare": 3, "supported": 0, "stated": 0})
+        self.assertEqual(delta["head_counts"], {"open": 3, "bare": 2, "supported": 0, "stated": 1})
+        self.assertEqual(delta["bare_added"], ["NEW"])
         changes = {change["argument_id"]: change for change in delta["route_changes"]}
         self.assertEqual(sorted(changes), ["ARG-NEW", "ARG-ROOT"])
         self.assertEqual((changes["ARG-ROOT"]["base_cost"], changes["ARG-ROOT"]["head_cost"]), (2, 2))
@@ -1114,11 +1248,76 @@ class FrontierDiffTest(unittest.TestCase):
         text = corpus.format_frontier_delta(delta)
         self.assertIn("added (bare): 1\n  NEW", text)
         self.assertIn("moved (bare -> closed): 1\n  MID", text)
-        self.assertIn("  ARG-NEW: absent -> 1 (unverified)\n", text)
-        self.assertIn("  ARG-ROOT: 2 -> 2\n    + OPEN-A\n    - MID", text)
+        self.assertIn("  ARG-NEW: absent -> 1 (1 bare, 0 supported, 0 stated) (unverified)\n", text)
+        self.assertIn(
+            "  ARG-ROOT: 2 (2 bare, 0 supported, 0 stated) -> 2 (1 bare, 0 supported, 1 stated)\n"
+            "    + OPEN-A\n    - MID",
+            text,
+        )
+        self.assertIn("bare premises added: 1 (a relocation that adds a bare premise is not progress)\n  NEW", text)
         reverse = corpus.frontier_delta(head, base)
         self.assertEqual(reverse["removed"], {"bare": ["NEW"]})
-        self.assertEqual(reverse["moved"], {"closed -> bare": ["MID"], "sourced -> bare": ["OPEN-B"]})
+        self.assertEqual(reverse["moved"], {"closed -> bare": ["MID"], "stated -> bare": ["OPEN-B"]})
+        self.assertEqual(reverse["bare_added"], ["MID", "OPEN-B"])
+
+    def test_supports_only_relocation_is_visible_and_adds_no_bare_premise(self) -> None:
+        # #987: replacing a bare premise by a premise that only a supports
+        # relation backs is a relocation into "supported", not "stated".
+        base = self.reaching(RESULTS)
+        head = corpus.restrict_to_root(
+            corpus.frontier_report(
+                STATEMENTS,
+                ARGUMENTS,
+                RESULTS,
+                [relation("claim", "CLAIM-E", "supports", "OPEN-B")],
+                root="ROOT",
+            )
+        )
+        delta = corpus.frontier_delta(base, head)
+        self.assertEqual(delta["moved"], {"bare -> supported": ["OPEN-B"]})
+        self.assertEqual(delta["bare_added"], [])
+        delta.update(base="BASE", head="HEAD")
+        text = corpus.format_frontier_delta(delta)
+        self.assertIn("bare premises added: none", text)
+        self.assertIn("moved (bare -> supported): 1\n  OPEN-B", text)
+
+    def test_legacy_base_report_is_split_into_supported_and_stated(self) -> None:
+        # A base computed by a pre-#987 corpus.py says "sourced" and has no
+        # per-route depth counts; the delta derives both from its items.
+        head = self.reaching(RESULTS, claims=[{"id": "CLAIM-B", "statement_id": "OPEN-B"}])
+        base = json.loads(json.dumps(head))
+        for item in base["items"]:
+            if item["depth"] != "bare":
+                item["depth"] = "sourced"
+        for route in base["routes"]["routes"]:
+            del route["depth_counts"]
+            del route["open_premise_depths"]
+        delta = corpus.frontier_delta(base, head)
+        self.assertFalse(delta["changed"])
+        self.assertEqual(delta["base_counts"], delta["head_counts"])
+
+    def test_pre_pinned_rule_base_reports_no_spurious_move(self) -> None:
+        # A base from #987 but before the pinned-source rule (2026-11-05) says
+        # "stated" for a bibliographic-only premise and caches route counts
+        # with that depth; the delta normalizes both, so nothing moves.
+        claims = [{"id": "CLAIM-BIB", "statement_id": "OPEN-B", "witness": "bibliographic"}]
+        head = self.reaching(RESULTS, claims=claims)
+        item = {item["statement_id"]: item for item in head["items"]}["OPEN-B"]
+        self.assertEqual(item["depth"], "supported")
+        base = json.loads(json.dumps(head))
+        for item in base["items"]:
+            if item["statement_id"] == "OPEN-B":
+                item["depth"] = "stated"
+        for route in base["routes"]["routes"]:
+            if "OPEN-B" in route["open_premise_depths"]:
+                route["open_premise_depths"]["OPEN-B"] = "stated"
+                route["depth_counts"]["supported"] -= 1
+                route["depth_counts"]["stated"] += 1
+        base["all_item_depths"] = {}
+        delta = corpus.frontier_delta(base, head)
+        self.assertFalse(delta["changed"])
+        self.assertEqual(delta["moved"], {})
+        self.assertEqual(delta["base_counts"], delta["head_counts"])
 
     def test_base_without_routes_is_tolerated(self) -> None:
         base = self.reaching(RESULTS)

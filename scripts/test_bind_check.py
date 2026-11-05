@@ -240,5 +240,69 @@ class BindToolInputTest(unittest.TestCase):
         )
 
 
+class ScopedBindCheckTest(unittest.TestCase):
+    """`bind-check --result/--affected` (#990): bind only selected results."""
+
+    def scope(self, **kwargs):
+        import argparse
+
+        args = argparse.Namespace(**{"result": None, "affected": False, "base": None, "head": None, **kwargs})
+        return corpus.bind_check_scope(args, {"A", "B", "C"})
+
+    def test_result_ids_select_exactly_and_unknown_ids_fail(self):
+        self.assertIsNone(self.scope())
+        self.assertEqual(self.scope(result=["B", "A"]), {"A", "B"})
+        with self.assertRaisesRegex(corpus.CorpusError, "unknown result id"):
+            self.scope(result=["A", "Z"])
+        with self.assertRaisesRegex(corpus.CorpusError, "need --affected"):
+            self.scope(base="origin/main")
+        with self.assertRaisesRegex(corpus.CorpusError, "needs --base"):
+            self.scope(affected=True)
+
+    def test_affected_reuses_affected_results_select(self):
+        from unittest.mock import patch
+
+        import affected_results
+
+        with (
+            patch.object(corpus, "changed_paths", return_value=["corpus/results/B.json"]) as changed,
+            patch.object(affected_results, "select", return_value=("subset", ["B"])) as select,
+        ):
+            self.assertEqual(self.scope(affected=True, base="origin/main", result=["A"]), {"A", "B"})
+        changed.assert_called_once_with("origin/main", None)
+        select.assert_called_once_with(corpus.ROOT, ["corpus/results/B.json"])
+        with patch.object(corpus, "changed_paths", return_value=["scripts/x.py"]), patch.object(
+            affected_results, "select", return_value=("full", ["A", "B", "C"])
+        ):
+            self.assertIsNone(self.scope(affected=True, base="origin/main"))
+            self.assertIsNone(self.scope(affected=True, base="origin/main", result=["A"]))
+
+    def test_scoped_report_binds_only_selected_results_and_skips_stale_pins(self):
+        from unittest.mock import patch
+
+        results = [
+            (Path("a.json"), {"id": "A", "argument_id": "ARG", "theorem": "tA"}),
+            (Path("b.json"), {"id": "B", "argument_id": "ARG", "theorem": "tB"}),
+        ]
+        argument = {"id": "ARG", **ARGUMENT}
+        records = {
+            "statements": list(STATEMENTS.values()),
+            "arguments": [(Path("arg.json"), argument)],
+            "results": results,
+        }
+        stale_pin = ("STALE", "role", "Type")
+        with (
+            patch.object(corpus, "load_dir", side_effect=lambda name: records[name]),
+            patch.dict(corpus.PINNED_UNDECLARED_BINDINGS, {stale_pin: "x"}),
+        ):
+            full = corpus.bind_report([])
+            scoped = corpus.bind_report([], result_ids={"B"})
+        self.assertEqual([entry["id"] for entry in full["results"]], ["A", "B"])
+        self.assertIn(list(stale_pin), full["stale_pins"])
+        self.assertEqual([entry["id"] for entry in scoped["results"]], ["B"])
+        self.assertEqual(scoped["stale_pins"], [])
+        self.assertEqual(scoped["scope"], ["B"])
+
+
 if __name__ == "__main__":
     unittest.main()

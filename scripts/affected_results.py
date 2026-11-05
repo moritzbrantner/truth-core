@@ -86,6 +86,7 @@ EXPLORER_INPUT_PATTERNS = (
     "scripts/argument_context.py",
     "scripts/source_evidence.py",
     "scripts/premise_dossiers.py",
+    "scripts/attribution_check.py",
     "scripts/bridge_experiments.py",
     "scripts/issue_acceptance.py",
     "scripts/finite_models.py",
@@ -97,6 +98,8 @@ EXPLORER_INPUT_PATTERNS = (
     "scripts/CheckStrength.lean",
     "scripts/territory.py",
     "scripts/root_imports.py",
+    # corpus.py imports it for `bind-check --affected` (#990).
+    "scripts/affected_results.py",
     "scripts/testdata/objective-truth-pilot.json",
     "scripts/testdata/frontier-transcription-closure.json",
     ".github/workflows/*",

@@ -12,8 +12,9 @@ from collections import Counter
 from pathlib import Path
 from typing import Any, Callable, Iterable
 
-from source_evidence import BIBLIOGRAPHIC_WITNESS, SourceEvidenceError, validate_bindings
+from source_evidence import BIBLIOGRAPHIC_WITNESS, UNAVAILABLE_WITNESS, SourceEvidenceError, validate_bindings
 from premise_dossiers import dossier_index, format_dossier, validate_attempt
+from attribution_check import AttributionError, validate_attribution
 from finite_models import validate_model, model_report, verify_models
 from configurations import validate_case, configuration_report, verify_case, verify_compositions
 from territory import format_territory, territory_report
@@ -211,11 +212,22 @@ STAGE_CONCLUSIONS = (
     (5, "STMT-CHRIST-FOUNDED-VISIBLE-CHURCH"),
     (6, "STMT-CHRISTS-CHURCH-IS-THE-CATHOLIC-CHURCH"),
 )
-# Depth of an open premise (#143, 2026-10-24): "bare" when no claim states it
-# and no `supports` relation points to it; otherwise "sourced" (sourced but not
-# yet defended). The aim is to drive bare premises to zero, then defend the rest.
+# Depth of an open premise (#143, 2026-10-24; three categories by owner
+# decision on #987, 2026-11-05): "stated" when a claim on a pinned source
+# passage states it; otherwise "supported" when only `supports` relations, or
+# only claims on a bibliographic span (cited by page, no pinned bytes; owner
+# decision 2026-11-05), point to it; otherwise "bare". A bibliographic-only
+# premise becomes stated once its witness is pinned. Supported and stated premises are both
+# undefended. A relocation counts as progress only if it adds no bare premise.
 FRONTIER_BARE = "bare"
-FRONTIER_SOURCED = "sourced"
+FRONTIER_SUPPORTED = "supported"
+FRONTIER_STATED = "stated"
+FRONTIER_DEPTHS = (FRONTIER_BARE, FRONTIER_SUPPORTED, FRONTIER_STATED)
+# The pre-#987 depth that covered both supported and stated; reports from
+# older revisions (frontier-diff) still carry it.
+FRONTIER_LEGACY_SOURCED = "sourced"
+# A route leaf that is closed (proved) but rests on open premises.
+ROUTE_PROVED_UNESTABLISHED = "proved_unestablished"
 
 
 # Floor bases (#500; #497, "The floor: criteria, not owner approval"). A
@@ -630,9 +642,11 @@ def frontier_report(
     premises are closed (#391). Rules (c) and (d) are applied jointly to a
     fixpoint.
 
-    Each open premise also gets a depth (#143, 2026-10-24): "bare" when no
-    claim states it and no `supports` relation points to it, otherwise
-    "sourced" (sourced but undefended)."""
+    Each open premise also gets a depth (#143, 2026-10-24; #987): "stated"
+    when a claim on a pinned source states it, otherwise "supported" when a
+    `supports` relation or only bibliographic claims point to it, otherwise
+    "bare". Each route also counts its open leaves by
+    the same depths (`depth_counts`)."""
     statement_by_id = {statement["id"]: statement for statement in statements}
     argument_by_id = {argument["id"]: argument for argument in arguments}
     verified_arguments = {result["argument_id"] for result in results}
@@ -720,6 +734,7 @@ def frontier_report(
 
     closed = set(verified_conclusions)
     refuted: set[str] = set()
+    established: set[str] = set()
 
     # Floor markings (#500): rule (b) closes a self_evident statement only
     # while its basis criterion holds, recomputed here from the current
@@ -767,12 +782,14 @@ def frontier_report(
                 elif argument["id"] not in refuting_arguments.get(denial, ()):
                     reasons.append(f"{argument['id']} has no refutes relation to {denial}")
                 else:
+                    # #999: the retorsion is a refutation of the denial, so it
+                    # meets the basis only from established premises.
                     open_premises = sorted(
-                        {premise for premise in argument["premise_statement_ids"] if premise not in closed}
+                        {premise for premise in argument["premise_statement_ids"] if premise not in established}
                     )
                     if not open_premises:
                         return []
-                    reasons.append(f"{result_id} rests on open premises {', '.join(open_premises)}")
+                    reasons.append(f"{result_id} rests on unestablished premises {', '.join(open_premises)}")
             return reasons
         if basis == FLOOR_COMMON_GROUND:
             if rivals:
@@ -811,39 +828,56 @@ def frontier_report(
         return (
             argument is not None
             and relation["subject_id"] in verified_arguments
-            and all(premise in closed for premise in argument["premise_statement_ids"])
+            and all(premise in established for premise in argument["premise_statement_ids"])
         )
 
     def defended(statement_id: str) -> bool:
         recorded = alternatives.get(statement_id, ())
         return bool(recorded) and all(alternative in refuted for alternative in recorded)
 
-    # Rules (c) and (d), jointly to a fixpoint. A refutation counts only from a
-    # premise-free argument or one whose premises are all closed (#391), and a
-    # transcription carries closure from its premises to its conclusion
-    # (#143, 2026-10-24). Each pass visits refutations by relation ID and
-    # transcription results by result ID, so the recorded result for a
-    # conclusion is deterministic.
+    # Rules (b)-(d), jointly to a least fixpoint. A refutation counts only from
+    # a premise-free argument or one whose premises are all *established*
+    # (#391, #999): a refutation resting on an open premise, or on a premise
+    # merely proved from open premises, defends nothing. A transcription
+    # carries closure from its premises to its conclusion (#143, 2026-10-24).
+    # `established` (self-evident with a met basis, defended, or the conclusion
+    # of a verified result whose premises are all established) grows in the
+    # same fixpoint; being least, it admits no circular support (a refutation
+    # cannot rest on the premise its own rival's refutation would defend).
+    # Each pass visits refutations by relation ID and transcription results by
+    # result ID, so the recorded result for a conclusion is deterministic.
     transcription_steps = sorted(
         (result["id"], argument_by_id[result["argument_id"]])
         for result in results
         if result["id"] in transcription_results and result["argument_id"] in argument_by_id
     )
     closed_via_transcription: dict[str, dict[str, Any]] = {}
+    verified_steps = [
+        argument_by_id[result["argument_id"]] for result in results if result["argument_id"] in argument_by_id
+    ]
     changed = True
     while changed:
         changed = False
         for statement_id in sorted(floor_markings):
-            if statement_id not in closed and not floor_reasons(statement_id):
+            if statement_id not in established and not floor_reasons(statement_id):
                 closed.add(statement_id)
+                established.add(statement_id)
                 changed = True
         for relation in refutations:
             if relation["object_id"] not in refuted and refutation_counts(relation):
                 refuted.add(relation["object_id"])
                 changed = True
         for statement_id in alternatives:
-            if statement_id not in closed and defended(statement_id):
+            if statement_id not in established and defended(statement_id):
                 closed.add(statement_id)
+                established.add(statement_id)
+                changed = True
+        for argument in verified_steps:
+            conclusion = argument["conclusion_statement_id"]
+            if conclusion not in established and all(
+                premise in established for premise in argument["premise_statement_ids"]
+            ):
+                established.add(conclusion)
                 changed = True
         for result_id, argument in transcription_steps:
             conclusion = argument["conclusion_statement_id"]
@@ -871,6 +905,10 @@ def frontier_report(
                 "statement_id": relation["object_id"],
                 "verified": relation["subject_id"] in verified_arguments,
                 "open_premise_statement_ids": [premise for premise in premises if premise not in closed],
+                # #999: what keeps a verified refutation from counting.
+                "unestablished_premise_statement_ids": [
+                    premise for premise in premises if premise not in established
+                ],
                 "counted": refutation_counts(relation),
             }
         )
@@ -905,28 +943,8 @@ def frontier_report(
             closed_statements[statement_id] = "via_transcription"
 
     # Closed is a per-node property: a proved statement may still rest on open
-    # premises (the skeleton proves the root from nine of them). A statement is
-    # *established* when it is self-evident or defended, or is the conclusion of
-    # a verified result (transcriptions included) whose premises are all
-    # established. Computed as a least fixpoint; it adds no closure rule.
-    established = {
-        statement_id
-        for statement_id in statement_by_id
-        if statement_id in floor_met or defended(statement_id)
-    }
-    verified_steps = [
-        argument_by_id[result["argument_id"]] for result in results if result["argument_id"] in argument_by_id
-    ]
-    changed = True
-    while changed:
-        changed = False
-        for argument in verified_steps:
-            conclusion = argument["conclusion_statement_id"]
-            if conclusion not in established and all(
-                premise in established for premise in argument["premise_statement_ids"]
-            ):
-                established.add(conclusion)
-                changed = True
+    # premises (the skeleton proves the root from nine of them). `established`
+    # was computed in the fixpoint above; it adds no closure rule.
 
     stating_claims: dict[str, set[str]] = {}
     for claim in claims or []:
@@ -935,6 +953,22 @@ def frontier_report(
     bibliographic_claims = {
         claim["id"] for claim in claims or [] if claim.get("witness") == BIBLIOGRAPHIC_WITNESS
     }
+    # Claims on a permanently unavailable web snapshot: pinned once, never refetched,
+    # not byte-verified (owner decision 2026-11-05). Like bibliographic claims they
+    # still state their statement; the report only marks them.
+    unavailable_claims = {
+        claim["id"] for claim in claims or [] if claim.get("witness") == UNAVAILABLE_WITNESS
+    }
+
+    def source_depth(statement_id: str) -> str:
+        stating = stating_claims.get(statement_id, set())
+        # Only a claim on a pinned source states a premise; a bibliographic
+        # citation alone supports it (owner decision 2026-11-05).
+        if stating - bibliographic_claims:
+            return FRONTIER_STATED
+        if stating or support.get(statement_id):
+            return FRONTIER_SUPPORTED
+        return FRONTIER_BARE
 
     route_report = root_routes(
         root,
@@ -951,6 +985,19 @@ def frontier_report(
     # floor premise that reaches it with its basis.
     for entry in floor_report:
         entry["reaches_root"] = entry["statement_id"] == root or upward(entry["statement_id"])[2] is not None
+    # Route leaves by depth (#987). A leaf that is closed but not established
+    # (proved from open premises) is counted separately, not by its sources.
+    for entry in route_report["routes"]:
+        unestablished = set(entry["proved_unestablished_statement_ids"])
+        depths = {
+            statement_id: ROUTE_PROVED_UNESTABLISHED if statement_id in unestablished else source_depth(statement_id)
+            for statement_id in entry["open_premise_statement_ids"]
+        }
+        entry["open_premise_depths"] = depths
+        entry["depth_counts"] = {
+            depth: sum(1 for value in depths.values() if value == depth)
+            for depth in (*FRONTIER_DEPTHS, ROUTE_PROVED_UNESTABLISHED)
+        }
     route_report["floor_bases"] = [
         {"statement_id": entry["statement_id"], "basis": entry["basis"]}
         for entry in floor_report
@@ -984,11 +1031,12 @@ def frontier_report(
                         stating_claims.get(statement_id, set()) | support.get(statement_id, set())
                     )
                 ),
-                "depth": (
-                    FRONTIER_SOURCED
-                    if stating_claims.get(statement_id) or support.get(statement_id)
-                    else FRONTIER_BARE
+                "unavailable_claims": sorted(
+                    unavailable_claims.intersection(
+                        stating_claims.get(statement_id, set()) | support.get(statement_id, set())
+                    )
                 ),
+                "depth": source_depth(statement_id),
             }
         )
     items.sort(
@@ -1185,12 +1233,24 @@ def statement_view(
     }
 
 
+def item_depth(item: dict[str, Any]) -> str:
+    """An open premise's depth (#987), normalized to the current rule. A report
+    from a revision before #987 says "sourced" for both supported and stated
+    premises; its `stating_claims` tells them apart. A report from before the
+    pinned-source rule (2026-11-05) says "stated" for a premise stated only by
+    bibliographic claims (`bibliographic_claims`); it is supported."""
+    depth = item["depth"]
+    if depth in (FRONTIER_LEGACY_SOURCED, FRONTIER_STATED):
+        pinned = set(item.get("stating_claims", ())) - set(item.get("bibliographic_claims", ()))
+        return FRONTIER_STATED if pinned else FRONTIER_SUPPORTED
+    return depth
+
+
 def depth_counts(items: list[dict[str, Any]]) -> dict[str, int]:
-    """Open premises by depth: bare vs. sourced but undefended."""
-    return {
-        depth: sum(1 for item in items if item["depth"] == depth)
-        for depth in (FRONTIER_BARE, FRONTIER_SOURCED)
-    }
+    """Open premises by depth: bare, supported (only a `supports` relation or
+    a bibliographic claim) and stated (a claim on a pinned source states it);
+    the last two are undefended (#987)."""
+    return {depth: sum(1 for item in items if item_depth(item) == depth) for depth in FRONTIER_DEPTHS}
 
 
 # Transcription heuristics (#156 review). Many results only transcribe a bridge
@@ -1514,6 +1574,16 @@ def opaque_atoms(
     return all(propositional_over(kind, atoms, definitions) for kind in hypotheses + [goal])
 
 
+def format_depth_counts(counts: dict[str, int]) -> str:
+    text = (
+        f"{counts[FRONTIER_BARE]} bare, {counts[FRONTIER_SUPPORTED]} supported, "
+        f"{counts[FRONTIER_STATED]} stated"
+    )
+    if counts.get(ROUTE_PROVED_UNESTABLISHED):
+        text += f", {counts[ROUTE_PROVED_UNESTABLISHED]} proved-unestablished"
+    return text
+
+
 def format_frontier(report: dict[str, Any]) -> str:
     lines: list[str] = []
     root = report["root"]
@@ -1521,7 +1591,7 @@ def format_frontier(report: dict[str, Any]) -> str:
     counts = report["depth_counts"]
     lines.append(
         f"frontier: {report['open_premise_count']} open premises: "
-        f"{counts[FRONTIER_BARE]} bare, {counts[FRONTIER_SOURCED]} sourced-undefended; root {root_note}"
+        f"{format_depth_counts(counts)}; root {root_note}"
     )
     if not report["alternatives_recorded"]:
         lines.append("alternatives: no alternatives recorded")
@@ -1562,6 +1632,10 @@ def format_frontier(report: dict[str, Any]) -> str:
             lines.append(
                 "  bibliographic witness, not byte-verified: " + ", ".join(item["bibliographic_claims"])
             )
+        if item.get("unavailable_claims"):
+            lines.append(
+                "  permanently unavailable witness, not byte-verified: " + ", ".join(item["unavailable_claims"])
+            )
         if item.get("transcription_premise_of"):
             lines.append(
                 "  transcription premise of: " + ", ".join(item["transcription_premise_of"])
@@ -1587,7 +1661,7 @@ def format_frontier(report: dict[str, Any]) -> str:
             reason = (
                 "no verified result"
                 if not refutation["verified"]
-                else "open premises " + ", ".join(refutation["open_premise_statement_ids"])
+                else "unestablished premises " + ", ".join(refutation["unestablished_premise_statement_ids"])
             )
             lines.append(f"  {refutation['relation_id']} ({refutation['argument_id']} refutes {refutation['statement_id']}): {reason}")
     closures = report.get("closed_via_transcription", [])
@@ -1635,7 +1709,8 @@ def format_routes(routes: dict[str, Any]) -> str:
     ]
     if not entries:
         return "\n".join(lines)
-    lines.append("cost  premises  argument")
+    # "proved": leaves proved from open premises, not established.
+    lines.append("cost  bare  supported  stated  proved  premises  argument")
     for entry in entries:
         marks = [
             mark
@@ -1648,14 +1723,23 @@ def format_routes(routes: dict[str, Any]) -> str:
             if present
         ]
         suffix = f"  [{', '.join(marks)}]" if marks else ""
-        lines.append(f"{entry['cost']:>4}  {entry['premise_count']:>8}  {entry['argument_id']}{suffix}")
+        depths = entry.get("depth_counts") or {}
+        lines.append(
+            f"{entry['cost']:>4}  {depths.get(FRONTIER_BARE, 0):>4}  {depths.get(FRONTIER_SUPPORTED, 0):>9}  "
+            f"{depths.get(FRONTIER_STATED, 0):>6}  {depths.get(ROUTE_PROVED_UNESTABLISHED, 0):>6}  "
+            f"{entry['premise_count']:>8}  {entry['argument_id']}{suffix}"
+        )
     for entry in entries:
         if not entry["cheapest"]:
             continue
         lines.append("")
         lines.append(f"open premises of the cheapest route {entry['argument_id']} ({entry['cost']}):")
+        depths = entry.get("open_premise_depths", {})
         for statement_id in entry["open_premise_statement_ids"]:
-            note = " (proved, rests on open premises)" if statement_id in entry["proved_unestablished_statement_ids"] else ""
+            if statement_id in entry["proved_unestablished_statement_ids"]:
+                note = " (proved, rests on open premises)"
+            else:
+                note = f" [{depths[statement_id]}]" if statement_id in depths else ""
             lines.append(f"  {statement_id}{note}")
     lines.extend(format_floor_bases(routes))
     return "\n".join(lines)
@@ -1979,6 +2063,10 @@ def validate() -> dict[str, int]:
             raise CorpusError(
                 f"{path.relative_to(ROOT)}: claim status must be 'formalized' in the MVP"
             )
+        try:
+            validate_attribution(str(path.relative_to(ROOT)), claim)
+        except AttributionError as exc:
+            raise CorpusError(str(exc)) from exc
         parent = claim.get("interpretation_of")
         if parent is not None and parent not in claim_index:
             raise CorpusError(
@@ -2137,11 +2225,25 @@ def validate() -> dict[str, int]:
     }
 
 
+def supports_gap_warnings(relations: list[dict[str, Any]]) -> list[str]:
+    """A `supports` relation makes its premise "supported", not "stated"
+    (#987); its note records what the claim leaves unstated."""
+    return [
+        f"{relation['id']}: supports relation has no note recording the gap between "
+        f"{relation['subject_id']} and {relation['object_id']}"
+        for relation in sorted(relations, key=lambda relation: relation["id"])
+        if relation.get("predicate") == SUPPORTS_PREDICATE
+        and not (isinstance(relation.get("note"), str) and relation["note"].strip())
+    ]
+
+
 def check_warnings() -> list[str]:
     """Closure-integrity warnings (#391): unflagged opaque-atom candidates,
     `refutes` relations that do not count because their argument is
     unverified or rests on open premises, and self_evident markings whose
-    floor basis is not met by the current records (#500)."""
+    floor basis is not met by the current records (#500), and `supports`
+    relations without a note recording the gap between the claim and the
+    premise it supports (#987)."""
     statements = [record for _, record in load_dir("statements")]
     arguments = [record for _, record in load_dir("arguments")]
     results = [record for _, record in load_dir("results")]
@@ -2164,11 +2266,14 @@ def check_warnings() -> list[str]:
         if not refutation["verified"]:
             reason = "its argument has no verified result"
         else:
-            reason = "it rests on open premises " + ", ".join(refutation["open_premise_statement_ids"])
+            reason = "it rests on unestablished premises " + ", ".join(
+                refutation["unestablished_premise_statement_ids"]
+            )
         warnings.append(
             f"{refutation['relation_id']}: refutation of {refutation['statement_id']} does not count "
             f"for closure rule (c): {reason}"
         )
+    warnings.extend(supports_gap_warnings(relations))
     for entry in report["floor"]:
         if not entry["met"]:
             warnings.append(
@@ -2298,7 +2403,9 @@ FRONTIER_ABSENT = "absent"
 def revision_frontier(revision: str, root: str | None) -> dict[str, Any]:
     """The reaching-root frontier report at a Git revision, computed by that
     revision's own corpus.py on a `git archive` extract (no Lean build: the
-    frontier reads only corpus records and Lean source text)."""
+    frontier reads only corpus records and Lean source text). The full report
+    is restricted here, so `all_item_depths` keeps the depth of every open
+    premise: route leaves of a pre-#987 report are classified from it."""
     import subprocess
     import tarfile
     import tempfile
@@ -2313,21 +2420,22 @@ def revision_frontier(revision: str, root: str | None) -> dict[str, Any]:
     with tempfile.TemporaryDirectory(prefix="frontier-diff-") as directory:
         with tarfile.open(fileobj=io.BytesIO(archive)) as tar:
             tar.extractall(directory, filter="data")
-        command = [sys.executable, str(Path(directory) / "scripts" / "corpus.py"), "frontier",
-                   "--reaching-root", "--json"]
+        command = [sys.executable, str(Path(directory) / "scripts" / "corpus.py"), "frontier", "--json"]
         if root is not None:
             command += ["--root", root]
         completed = subprocess.run(command, cwd=directory, capture_output=True, text=True)
     if completed.returncode != 0:
         raise CorpusError(f"frontier at {revision} failed: {completed.stderr.strip()}")
-    return json.loads(completed.stdout)
+    report = json.loads(completed.stdout)
+    all_item_depths = {item["statement_id"]: item_depth(item) for item in report["items"]}
+    return {**restrict_to_root(report), "all_item_depths": all_item_depths}
 
 
 def frontier_status(report: dict[str, Any], statement_id: str) -> str:
-    """bare, sourced (undefended), closed, or absent from the reaching-root frontier."""
+    """bare, supported, stated, closed, or absent from the reaching-root frontier."""
     for item in report["items"]:
         if item["statement_id"] == statement_id:
-            return item["depth"]
+            return item_depth(item)
     if statement_id in report.get("closed_statements", ()) or statement_id in report.get(
         "established_statements", ()
     ):
@@ -2338,8 +2446,14 @@ def frontier_status(report: dict[str, Any], statement_id: str) -> str:
 def frontier_delta(base: dict[str, Any], head: dict[str, Any]) -> dict[str, Any]:
     """Change between two reaching-root frontier reports (#948): open premises
     added (absent before), removed (absent after), and moved between bare,
-    sourced-undefended and closed; and per-route open-premise costs. A report
-    from a revision older than the route costs (#391) has no routes."""
+    supported, stated and closed; and per-route open-premise costs and their
+    depth counts. `bare_added` lists every premise that is bare at the head
+    and was not bare at the base (added bare, or moved to bare): a relocation
+    counts as progress only if it adds no bare premise (#987). A report from a
+    revision older than the route costs (#391) has no routes; one older than
+    #987 has no per-route depth counts, which are then derived from its
+    `proved_unestablished_statement_ids` and the depths of its open premises
+    (`all_item_depths` when present, else its items)."""
     no_routes = {"cheapest_argument_id": None, "routes": []}
     base = {**base, "routes": base.get("routes") or no_routes}
     head = {**head, "routes": head.get("routes") or no_routes}
@@ -2359,6 +2473,31 @@ def frontier_delta(base: dict[str, Any], head: dict[str, Any]) -> dict[str, Any]
             moved.setdefault(f"{before} -> {after}", []).append(statement_id)
     base_routes = {entry["argument_id"]: entry for entry in base["routes"]["routes"]}
     head_routes = {entry["argument_id"]: entry for entry in head["routes"]["routes"]}
+    def route_depth_counts(report: dict[str, Any], route: dict[str, Any] | None) -> dict[str, int] | None:
+        if route is None:
+            return None
+        depths = {item["statement_id"]: item_depth(item) for item in report["items"]}
+        depths.update(report.get("all_item_depths", {}))
+        if "open_premise_depths" in route:
+            # Recount cached route depths with the normalized item depths, so a
+            # base whose own rule differed (2026-11-05) reports no spurious move.
+            counts = {depth: 0 for depth in (*FRONTIER_DEPTHS, ROUTE_PROVED_UNESTABLISHED)}
+            for statement_id, depth in route["open_premise_depths"].items():
+                if depth != ROUTE_PROVED_UNESTABLISHED:
+                    depth = depths.get(statement_id, depth)
+                counts[depth] += 1
+            return counts
+        if "depth_counts" in route:
+            return route["depth_counts"]
+        unestablished = set(route.get("proved_unestablished_statement_ids", []))
+        counts = {depth: 0 for depth in (*FRONTIER_DEPTHS, ROUTE_PROVED_UNESTABLISHED)}
+        for statement_id in route["open_premise_statement_ids"]:
+            if statement_id in unestablished or statement_id not in depths:
+                counts[ROUTE_PROVED_UNESTABLISHED] += 1
+            else:
+                counts[depths[statement_id]] += 1
+        return counts
+
     route_changes: list[dict[str, Any]] = []
     for argument_id in sorted(set(base_routes) | set(head_routes)):
         before_route, after_route = base_routes.get(argument_id), head_routes.get(argument_id)
@@ -2368,7 +2507,11 @@ def frontier_delta(base: dict[str, Any], head: dict[str, Any]) -> dict[str, Any]
         after_verified = bool(after_route and after_route["verified"])
         before_open = set(before_route["open_premise_statement_ids"]) if before_route else set()
         after_open = set(after_route["open_premise_statement_ids"]) if after_route else set()
-        if (before_cost, before_verified, before_open) == (after_cost, after_verified, after_open):
+        before_depths = route_depth_counts(base, before_route)
+        after_depths = route_depth_counts(head, after_route)
+        if (before_cost, before_verified, before_open, before_depths) == (
+            after_cost, after_verified, after_open, after_depths
+        ):
             continue
         route_changes.append({
             "argument_id": argument_id,
@@ -2376,6 +2519,8 @@ def frontier_delta(base: dict[str, Any], head: dict[str, Any]) -> dict[str, Any]
             "head_cost": after_cost,
             "base_verified": before_verified,
             "head_verified": after_verified,
+            "base_depth_counts": before_depths,
+            "head_depth_counts": after_depths,
             "opened_premise_statement_ids": sorted(after_open - before_open),
             "closed_premise_statement_ids": sorted(before_open - after_open),
         })
@@ -2392,6 +2537,12 @@ def frontier_delta(base: dict[str, Any], head: dict[str, Any]) -> dict[str, Any]
         "added": added,
         "removed": removed,
         "moved": dict(sorted(moved.items())),
+        "bare_added": sorted(
+            statement_id
+            for statement_id in open_ids
+            if frontier_status(head, statement_id) == FRONTIER_BARE
+            and frontier_status(base, statement_id) != FRONTIER_BARE
+        ),
         "base_cheapest_route": cheapest(base),
         "head_cheapest_route": cheapest(head),
         "route_changes": route_changes,
@@ -2405,7 +2556,7 @@ def frontier_delta(base: dict[str, Any], head: dict[str, Any]) -> dict[str, Any]
 
 def format_frontier_delta(delta: dict[str, Any]) -> str:
     def counts(c: dict[str, int]) -> str:
-        return f"{c['open']} ({c[FRONTIER_BARE]} bare, {c[FRONTIER_SOURCED]} sourced)"
+        return f"{c['open']} ({format_depth_counts(c)})"
 
     def route(r: dict[str, Any]) -> str:
         return f"{r['argument_id']} (cost {r['cost']})" if r["argument_id"] else "none"
@@ -2418,6 +2569,12 @@ def format_frontier_delta(delta: dict[str, Any]) -> str:
     if not delta["changed"]:
         lines.append("no change")
         return "\n".join(lines)
+    bare_added = delta["bare_added"]
+    if bare_added:
+        lines.append(f"bare premises added: {len(bare_added)} (a relocation that adds a bare premise is not progress)")
+        lines.extend(f"  {statement_id}" for statement_id in bare_added)
+    else:
+        lines.append("bare premises added: none")
     for label, groups in (("added", delta["added"]), ("removed", delta["removed"]), ("moved", delta["moved"])):
         for status, statement_ids in sorted(groups.items()):
             lines.append(f"{label} ({status}): {len(statement_ids)}")
@@ -2425,11 +2582,15 @@ def format_frontier_delta(delta: dict[str, Any]) -> str:
     if delta["route_changes"]:
         lines.append("route cost changes:")
     for change in delta["route_changes"]:
-        def side(cost: int | None, verified: bool) -> str:
-            return "absent" if cost is None else f"{cost}{'' if verified else ' (unverified)'}"
+        def side(cost: int | None, verified: bool, depths: dict[str, int] | None) -> str:
+            if cost is None:
+                return "absent"
+            split = f" ({format_depth_counts(depths)})" if depths else ""
+            return f"{cost}{split}{'' if verified else ' (unverified)'}"
         lines.append(
-            f"  {change['argument_id']}: {side(change['base_cost'], change['base_verified'])}"
-            f" -> {side(change['head_cost'], change['head_verified'])}"
+            f"  {change['argument_id']}: "
+            f"{side(change['base_cost'], change['base_verified'], change.get('base_depth_counts'))}"
+            f" -> {side(change['head_cost'], change['head_verified'], change.get('head_depth_counts'))}"
         )
         if change["base_cost"] is None or change["head_cost"] is None:
             continue
@@ -2986,11 +3147,16 @@ def bind_result(
 def bind_report(
     described_list: list[dict[str, Any]],
     schema_bindings: Iterable[tuple[dict[str, Any], dict[str, Any]]] = (),
+    result_ids: set[str] | None = None,
 ) -> dict[str, Any]:
-    """Bind every result against the Lean descriptions (keyed by theorem name)."""
+    """Bind every result (or only `result_ids`) against the Lean descriptions
+    (keyed by theorem name). A scoped report checks no stale pins: a pin
+    unused by the selected results may be used by another one."""
     statement_index = index_by_id(load_dir("statements"), "statement")
     argument_index = index_by_id(load_dir("arguments"), "argument")
     results = load_dir("results")
+    if result_ids is not None:
+        results = [item for item in results if item[1]["id"] in result_ids]
     by_theorem = {entry.get("theorem"): entry for entry in described_list}
     entries = []
     for _, result in sorted(results, key=lambda item: item[1]["id"]):
@@ -3003,13 +3169,71 @@ def bind_report(
         entry["kind"] = "schema-registration"
         entries.append(entry)
     used = {tuple(item["pin"]) for entry in entries for item in entry["undecidable"]}
-    stale = sorted(list(key) for key in PINNED_UNDECLARED_BINDINGS if key not in used)
+    stale = (
+        sorted(list(key) for key in PINNED_UNDECLARED_BINDINGS if key not in used)
+        if result_ids is None
+        else []
+    )
     summary = Counter(entry["status"] for entry in entries)
-    return {
+    report = {
         "summary": {status: summary.get(status, 0) for status in ("bound", "pinned", "mismatch")},
         "stale_pins": stale,
         "results": entries,
     }
+    if result_ids is not None:
+        report["scope"] = sorted(result_ids)
+    return report
+
+
+def changed_paths(base: str, head: str | None) -> list[str]:
+    """Paths changed from `base` to `head`, or to the working tree (tracked
+    edits plus untracked, non-ignored files) when `head` is None."""
+    import subprocess
+
+    def git(*args: str) -> list[str]:
+        try:
+            output = subprocess.run(
+                ["git", *args], cwd=ROOT, check=True, capture_output=True, text=True, timeout=60
+            ).stdout
+        except (subprocess.SubprocessError, OSError) as exc:
+            raise CorpusError(f"cannot resolve the diff against {base}: {exc}") from exc
+        return [path for path in output.split("\0") if path]
+
+    if head is not None:
+        return git("diff", "--name-only", "-z", "--no-renames", base, head, "--")
+    return sorted(
+        set(git("diff", "--name-only", "-z", "--no-renames", base, "--"))
+        | set(git("ls-files", "-z", "--others", "--exclude-standard"))
+    )
+
+
+def bind_check_scope(args: argparse.Namespace, known: set[str]) -> set[str] | None:
+    """The result IDs `bind-check` covers: all (None), `--result` IDs, or the
+    results `affected_results.select` picks for the `--affected` diff."""
+    selected: set[str] | None = None
+    requested = getattr(args, "result", None)
+    base, head = getattr(args, "base", None), getattr(args, "head", None)
+    if requested:
+        unknown = sorted(set(requested) - known)
+        if unknown:
+            raise CorpusError(f"bind-check: unknown result id(s): {', '.join(unknown)}")
+        selected = set(requested)
+    if getattr(args, "affected", False):
+        import affected_results
+
+        if not base:
+            raise CorpusError("bind-check --affected needs --base")
+
+        mode, ids = affected_results.select(ROOT, changed_paths(base, head))
+        if mode == "full":
+            # The full fallback keeps the full run's stale-pin and model checks,
+            # even when --result also names results.
+            print("bind-check --affected: the change selects every result", file=sys.stderr)
+            return None
+        selected = (selected or set()) | set(ids)
+    elif base or head:
+        raise CorpusError("bind-check: --base and --head need --affected")
+    return selected
 
 
 def registered_configurations(statements=None, results=None, arguments=None, models=None):
@@ -3249,21 +3473,42 @@ def command_models(args: argparse.Namespace) -> int:
     return 0
 
 
+def command_attribution_check(args: argparse.Namespace) -> int:
+    import attribution_check
+
+    argv = ["--base", args.base, "--max-chars", str(args.max_chars)]
+    if args.materialize:
+        argv.append("--materialize")
+    return attribution_check.main(argv)
+
+
 def command_bind_check(args: argparse.Namespace) -> int:
     validate()
     results = load_dir("results")
+    scope = bind_check_scope(args, {record["id"] for _, record in results})
+    if scope is not None:
+        if not scope:
+            print("bind-check: no result selected; nothing to check")
+            return 0
+        print(f"bind-check limited to {len(scope)} result(s): {', '.join(sorted(scope))}", file=sys.stderr)
     schema_bindings = schema_binding_records(
-        [relation for _, relation in load_dir("relations")],
+        [
+            relation
+            for _, relation in load_dir("relations")
+            if scope is None or relation.get("verification_result_id") in scope
+        ],
         {record["id"]: record for _, record in results},
     )
+    selected = results if scope is None else [item for item in results if item[1]["id"] in scope]
     if args.lean_json:
         described_list = json.loads(Path(args.lean_json).read_text(encoding="utf-8"))
     else:
         described_list = run_bind_tool(bind_tool_input(
-            results + [(ROOT, binding) for binding, _ in schema_bindings]
+            selected + [(ROOT, binding) for binding, _ in schema_bindings]
         ))
-    report = bind_report(described_list, schema_bindings)
-    if not args.lean_json:
+    report = bind_report(described_list, schema_bindings, scope)
+    # Registered model checks are global; a scoped run leaves them to the full gate.
+    if not args.lean_json and scope is None:
         try:
             report["models"] = verify_models(registered_models(), {r["id"]: r for _, r in load_dir("statements")}, ROOT)
         except ValueError as exc:
@@ -3699,12 +3944,31 @@ def parser() -> argparse.ArgumentParser:
     sub.add_parser("results", help="print verification result IDs, one per line").set_defaults(
         func=command_ids("results")
     )
+    attribution = sub.add_parser(
+        "attribution-check",
+        help="pre-push gate (#989): premise vs pinned passage text for each new or changed stating claim",
+    )
+    attribution.add_argument("--base", required=True, help="diff base, for example origin/main; the head is the working tree")
+    attribution.add_argument("--materialize", action="store_true", help="materialize passages not yet cached")
+    attribution.add_argument("--max-chars", type=int, default=6000, help="clip each passage text (0: never)")
+    attribution.set_defaults(func=command_attribution_check)
     bind = sub.add_parser(
         "bind-check",
         help="check that argument premises/conclusions match each result theorem's Lean type (after lake build)",
     )
     bind.add_argument("--json", action="store_true", help="print the full deterministic binding report")
     bind.add_argument("--lean-json", help="use a saved scripts/BindTypes.lean output instead of running Lean")
+    bind.add_argument(
+        "--result", action="append", metavar="ID",
+        help="check only this result (repeatable); needs only its Solution module built, and skips "
+        "the stale-pin and registered-model checks, which only the full run makes",
+    )
+    bind.add_argument(
+        "--affected", action="store_true",
+        help="check only the results affected_results.py selects for the diff from --base",
+    )
+    bind.add_argument("--base", help="diff base for --affected (for example origin/main)")
+    bind.add_argument("--head", help="diff head for --affected (default: the working tree)")
     bind.set_defaults(func=command_bind_check)
     unused = sub.add_parser(
         "unused-premises",

@@ -1,6 +1,6 @@
 {
   "id": "STMT-EXCEEDED-PERFECTION-IS-CAUSED",
-  "paraphrase": "Whatever has a perfection and is exceeded in it by something has that perfection from a cause distinct from itself. The cause is not required to have the perfection, to be more such, or to be the exceeding thing. An unattributed bridge: no source read here says that being exceeded in an arbitrary perfection is having it by participation.",
+  "paraphrase": "Whatever has a perfection and is exceeded in it by something has that perfection from a cause distinct from itself. The cause is not required to have the perfection, to be more such, or to be the exceeding thing. Stated by SCG II.15 n.3, Quod igitur alicui minus convenit quam aliis, non convenit ei ex sua natura tantum, sed ex alia causa (claim AQUINAS-SCG-II-15-LESSER-HAS-IT-FROM-ANOTHER-CAUSE), with 'alia causa' read as a cause other than the bearer itself. ST I q.44 a.1 only supports it, at esse.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.ExceededPerfectionIsCausedReading",
   "definition_ids": [
     "DEF-MORE-IN",

@@ -39,7 +39,7 @@ export const GRAPH_STATUSES: ReadonlyArray<{ id: GraphStatus; label: string; des
   {
     id: "defended",
     label: "Alternatives refuted",
-    description: "Every recorded alternative is refuted by a verified argument whose premises are all closed.",
+    description: "Every recorded alternative is refuted by a verified argument whose premises are all established.",
   },
   { id: "alternative", label: "Alternative", description: "Recorded as an alternative to another statement." },
   { id: "objection", label: "Objection", description: "Recorded as an objection attacking another statement." },
@@ -57,7 +57,7 @@ export const GRAPH_STATUSES: ReadonlyArray<{ id: GraphStatus; label: string; des
   { id: "source-only", label: "Source reading only", description: "Stated by a source; no argument uses it yet." },
 ];
 
-export type FrontierDepth = "bare" | "sourced";
+export type FrontierDepth = "bare" | "supported" | "stated";
 
 export type CorpusStatementInput = {
   id: string;
@@ -149,7 +149,9 @@ export type GraphStatement = {
   /**
    * Depth of an open premise, as in `corpus.py frontier` (#143, 2026-10-24):
    * "bare" when no claim states it and no `supports` relation points to it,
-   * otherwise "sourced" (sourced but undefended). Absent off the frontier.
+   * otherwise "supported" when only a `supports` relation or a bibliographic
+   * claim points to it, and "stated" when a claim on a pinned source states it
+   * (#987). Absent off the frontier.
    */
   frontierDepth?: FrontierDepth;
   /**
@@ -157,7 +159,7 @@ export type GraphStatement = {
    * premises are closed ("closed via transcription from closed premises").
    */
   closedViaTranscription?: { resultId: string; argumentId: string; premises: string[] };
-  /** Refuted by a counted `refutes`: a verified argument whose premises are all closed. */
+  /** Refuted by a counted `refutes`: a verified argument whose premises are all established (#999). */
   refuted: boolean;
   selfEvidentJustification: string[];
   /** Its self_evident marking with basis, criterion and disagreement (`floor` of `corpus.py frontier`). */

@@ -8,6 +8,7 @@ import codecs
 import gzip
 import hashlib
 import html.parser
+import http.client
 import json
 import os
 import re
@@ -32,6 +33,9 @@ PASSAGES = CORPUS / "passages"
 CACHE = ROOT / ".cache" / "truth-core" / "sources"
 MEDIA_CACHE = ROOT / ".cache" / "truth-core" / "media"
 WEB_CACHE = ROOT / ".cache" / "truth-core" / "web"
+# Verified raw bytes of immutable repository witnesses, keyed by Git blob SHA,
+# so a worker can read the whole TEI file when pinning another range (#990).
+RAW_CACHE = ROOT / ".cache" / "truth-core" / "raw"
 SOURCE_DIAGNOSTICS = ROOT / ".cache" / "truth-core" / "source-diagnostics"
 SHA1_RE = re.compile(r"^[0-9a-f]{40}$")
 SHA256_RE = re.compile(r"^sha256:[0-9a-f]{64}$")
@@ -53,6 +57,13 @@ BIBLIOGRAPHIC_WITNESS = "bibliographic"
 # At most a short quotation (about two sentences, fair-use scale).
 MAX_QUOTATION_CHARS = 300
 MIN_WHY_BIBLIOGRAPHIC_CHARS = 20
+# A web snapshot whose every pinned URL is permanently gone (owner decision,
+# 2026-11-05, robkoons.net feed): its record, hashes and claims are kept, but it
+# is never fetched again. Its claims carry witness: "unavailable", so they show
+# as not byte-verified; a hash-checked local cache may still be materialized.
+UNAVAILABLE_WITNESS = "unavailable"
+DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+MIN_UNAVAILABLE_REASON_CHARS = 20
 DOI_RE = re.compile(r"^10\.\d{4,9}/\S+$")
 
 
@@ -95,6 +106,11 @@ def is_web_snapshot(passage: dict[str, Any]) -> bool:
 
 def is_bibliographic(passage: dict[str, Any]) -> bool:
     return passage.get("kind") == BIBLIOGRAPHIC_SPAN
+
+
+def is_unavailable(passage: dict[str, Any]) -> bool:
+    """A web snapshot marked permanently unavailable: never fetched again."""
+    return is_web_snapshot(passage) and "unavailable" in passage
 
 
 def is_translation(passage: dict[str, Any]) -> bool:
@@ -261,6 +277,20 @@ def validate_web_snapshot_manifest(path: Path, passage: dict[str, Any]) -> None:
         raise SourceEvidenceError(f"{where}: incipit must be a string of at most {MAX_INCIPIT_CHARS} characters")
     if "text" in passage:
         raise SourceEvidenceError(f"{where}: web snapshots must not commit page text")
+    if "unavailable" in passage:
+        unavailable = passage["unavailable"]
+        if (
+            not isinstance(unavailable, dict)
+            or set(unavailable) != {"since", "reason"}
+            or not isinstance(unavailable["since"], str)
+            or not DATE_RE.fullmatch(unavailable["since"])
+            or not isinstance(unavailable["reason"], str)
+            or len(unavailable["reason"].strip()) < MIN_UNAVAILABLE_REASON_CHARS
+        ):
+            raise SourceEvidenceError(
+                f"{where}: unavailable must be {{since: YYYY-MM-DD, reason: why every pinned URL is gone "
+                f"(at least {MIN_UNAVAILABLE_REASON_CHARS} characters)}}"
+            )
 
 
 def validate_translation(where: str, translation: Any) -> None:
@@ -557,21 +587,29 @@ def validate_bibliographic_ranges(passages: dict[str, tuple[Path, dict[str, Any]
 def validate_claim_witness(
     claims: list[tuple[Path, dict[str, Any]]], bound: dict[str, dict[str, Any]]
 ) -> None:
-    """Every claim on a bibliographic span carries witness: "bibliographic", and no
-    other claim does, so a reader can tell byte-verified evidence from a citation."""
+    """Every claim on a bibliographic span carries witness: "bibliographic", every
+    claim on a permanently unavailable web snapshot carries witness: "unavailable",
+    and no other claim carries a witness, so a reader can tell byte-verified
+    evidence from evidence that is not."""
     for path, claim in claims:
         passage = bound[claim["id"]]
         witness = claim.get("witness")
         if is_bibliographic(passage):
-            if witness != BIBLIOGRAPHIC_WITNESS:
-                raise SourceEvidenceError(
-                    f"{path.relative_to(ROOT)}: claim on bibliographic span {passage['id']} "
-                    f"needs witness: {BIBLIOGRAPHIC_WITNESS!r} (not byte-verified)"
-                )
-        elif witness is not None:
+            expected, what = BIBLIOGRAPHIC_WITNESS, "bibliographic span"
+        elif is_unavailable(passage):
+            expected, what = UNAVAILABLE_WITNESS, "permanently unavailable web snapshot"
+        else:
+            expected, what = None, ""
+        if expected is not None and witness != expected:
             raise SourceEvidenceError(
-                f"{path.relative_to(ROOT)}: witness {witness!r} is only for claims on a bibliographic span; "
-                "remove it when the passage is upgraded to a pinned witness"
+                f"{path.relative_to(ROOT)}: claim on {what} {passage['id']} "
+                f"needs witness: {expected!r} (not byte-verified)"
+            )
+        if expected is None and witness is not None:
+            raise SourceEvidenceError(
+                f"{path.relative_to(ROOT)}: witness {witness!r} is only for claims on a bibliographic span "
+                "or a permanently unavailable web snapshot; remove it when the passage is upgraded to a "
+                "pinned, available witness"
             )
 
 
@@ -659,30 +697,82 @@ def git_blob_sha(data: bytes) -> str:
     return hashlib.sha1(header + data).hexdigest()
 
 
-def fetch_source(passage: dict[str, Any], *, attempts: int = 3) -> bytes:
-    last_error: Exception | None = None
-    request = urllib.request.Request(
-        passage["source_url"],
-        headers={"User-Agent": "truth-core-source-evidence/1"},
-    )
+def raw_cache_path(blob_sha: str) -> Path:
+    return RAW_CACHE / blob_sha
 
+
+def fetch_blob(url: str, expected: str | None, label: str, *, attempts: int = 3) -> bytes:
+    """Fetch an immutable repository file; reject it unless its Git blob SHA is
+    `expected` (when given). Verified bytes are kept in the raw cache."""
+    last_error: Exception | None = None
+    request = urllib.request.Request(url, headers={"User-Agent": "truth-core-source-evidence/1"})
     for attempt in range(attempts):
         try:
             with urllib.request.urlopen(request, timeout=30) as response:
                 data = response.read()
             actual = git_blob_sha(data)
-            expected = passage["git_blob_sha"]
-            if actual != expected:
-                raise SourceEvidenceError(
-                    f"{passage['id']}: source blob mismatch: expected {expected}, got {actual}"
-                )
+            if expected is not None and actual != expected:
+                raise SourceEvidenceError(f"{label}: source blob mismatch: expected {expected}, got {actual}")
+            RAW_CACHE.mkdir(parents=True, exist_ok=True)
+            raw_cache_path(actual).write_bytes(data)
             return data
-        except (urllib.error.URLError, TimeoutError, SourceEvidenceError) as exc:
+        except (urllib.error.URLError, TimeoutError, http.client.HTTPException, SourceEvidenceError) as exc:
             last_error = exc
             if attempt + 1 < attempts:
                 time.sleep(1 + attempt)
+    raise SourceEvidenceError(f"{label}: cannot verify source witness: {last_error}")
 
-    raise SourceEvidenceError(f"{passage['id']}: cannot verify source witness: {last_error}")
+
+def fetch_source(passage: dict[str, Any], *, attempts: int = 3, use_cache: bool = False) -> bytes:
+    """The pinned witness bytes, checked against `git_blob_sha`. `verify`
+    always refetches; `materialize` may reuse a hash-checked raw cache."""
+    expected = passage["git_blob_sha"]
+    cached = raw_cache_path(expected)
+    if use_cache and cached.is_file():
+        data = cached.read_bytes()
+        if git_blob_sha(data) == expected:
+            return data
+    return fetch_blob(passage["source_url"], expected, passage["id"], attempts=attempts)
+
+
+def raw_witness(passage_id: str, path: str | None, output: str | None) -> int:
+    """Write the whole verified file of a pinned repository witness (#990).
+
+    With `path`, fetch another file at the same repository revision instead and
+    print the fields that pin it (a new passage's `path`, `source_url` and
+    `git_blob_sha`); a revision-pinned URL serves immutable bytes."""
+    passages = passage_index()
+    indexed = passages.get(passage_id)
+    if indexed is None:
+        raise SourceEvidenceError(f"unknown passage id {passage_id}")
+    _, passage = indexed
+    if is_web_snapshot(passage) or is_media_span(passage) or is_bibliographic(passage):
+        raise SourceEvidenceError(
+            f"{passage_id}: raw-witness applies only to immutable repository witnesses; "
+            "pin a web page with web-hashes"
+        )
+    if path is None:
+        data = fetch_source(passage, use_cache=True)
+        fields = {key: passage[key] for key in ("repository", "revision", "path", "source_url", "git_blob_sha")}
+    else:
+        fragment = f"/{passage['repository']}/{passage['revision']}/{passage['path']}"
+        url = passage["source_url"].replace(fragment, f"/{passage['repository']}/{passage['revision']}/{path}")
+        data = fetch_blob(url, None, f"{passage['repository']}@{passage['revision'][:12]}:{path}")
+        fields = {
+            "repository": passage["repository"],
+            "revision": passage["revision"],
+            "path": path,
+            "source_url": url,
+            "git_blob_sha": git_blob_sha(data),
+        }
+    output_path = Path(output) if output else raw_cache_path(fields["git_blob_sha"])
+    if not output_path.is_absolute():
+        output_path = ROOT / output_path
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    if output_path != raw_cache_path(fields["git_blob_sha"]):
+        output_path.write_bytes(data)
+    print(json.dumps({**fields, "raw_path": str(output_path)}, indent=2, ensure_ascii=False))
+    return 0
 
 
 # ---------------------------------------------------------------------------
@@ -1353,6 +1443,7 @@ def verify_all(
     media_skipped = []
     web_verified = 0
     web_unavailable: list[tuple[str, str]] = []
+    retired: list[str] = []
     bibliographic = []
     fetched: dict[tuple[str, str], bytes] = {}
 
@@ -1365,6 +1456,10 @@ def verify_all(
         if is_bibliographic(passage):
             # No bytes are pinned: there is nothing to fetch or re-hash.
             bibliographic.append(passage["id"])
+            continue
+        if is_unavailable(passage):
+            # Permanently gone: never fetched again, never counted as verified.
+            retired.append(passage["id"])
             continue
         if is_web_snapshot(passage):
             # Always refetch (no cache), once per page: the live page, or its pinned Wayback capture.
@@ -1409,6 +1504,11 @@ def verify_all(
         )
     if bibliographic:
         print(f"bibliographic spans not byte-verified (citation only): {', '.join(sorted(bibliographic))}")
+    if retired:
+        print(
+            "permanently unavailable web snapshots, never fetched, NOT byte-verified: "
+            + ", ".join(sorted(retired))
+        )
     for passage_id, reason in sorted(web_unavailable):
         print(f"{passage_id}: unavailable, NOT byte-verified in this run: {reason}")
     print(
@@ -1416,6 +1516,7 @@ def verify_all(
         f"{len(passages)} passages, {len(snapshots)} immutable source snapshots, "
         f"{media_verified} media spans verified, {web_verified} web snapshot passages verified, "
         f"{len(web_unavailable)} web snapshot passages unavailable, "
+        f"{len(retired)} web snapshot passages permanently unavailable, "
         f"{len(bibliographic)} bibliographic spans not byte-verified"
     )
     return 0
@@ -1513,6 +1614,15 @@ def extract_plain_text(data: bytes, passage: dict[str, Any]) -> str:
     return text
 
 
+def refuse_unavailable_fetch(url: str, expected: str, label: str) -> bytes:
+    """Fetch stand-in for a permanently unavailable snapshot: only a hash-checked
+    local cache may serve its bytes."""
+    raise SourceEvidenceError(
+        f"{label}: permanently unavailable web snapshot, not byte-verified: it is never fetched, "
+        "and no hash-checked local cache of its pinned bytes exists"
+    )
+
+
 def materialize(passage_id: str, output: str | None, export: str | None = None) -> int:
     passages = passage_index()
     validate_bindings()
@@ -1532,11 +1642,14 @@ def materialize(passage_id: str, output: str | None, export: str | None = None) 
     elif is_web_snapshot(passage):
         if export:
             raise SourceEvidenceError(f"{passage_id}: --export applies only to media spans")
-        text = materialize_web_snapshot(passage)
+        if is_unavailable(passage):
+            text = materialize_web_snapshot(passage, fetch=refuse_unavailable_fetch)
+        else:
+            text = materialize_web_snapshot(passage)
     else:
         if export:
             raise SourceEvidenceError(f"{passage_id}: --export applies only to media spans")
-        data = fetch_source(passage)
+        data = fetch_source(passage, use_cache=True)
         text = extract_plain_text(data, passage)
 
     if output:
@@ -1608,10 +1721,13 @@ def bibliographic_citation(passage: dict[str, Any]) -> str:
 
 def check() -> int:
     passage_count, claim_count = validate_bindings()
-    bibliographic = sum(is_bibliographic(passage) for _, passage in passage_index().values())
+    passages = passage_index().values()
+    bibliographic = sum(is_bibliographic(passage) for _, passage in passages)
+    retired = sum(is_unavailable(passage) for _, passage in passages)
     print(
         f"source evidence manifests ok: {passage_count} passages"
         + (f" ({bibliographic} bibliographic, not byte-verified)" if bibliographic else "")
+        + (f" ({retired} permanently unavailable, not byte-verified)" if retired else "")
         + f"; {claim_count} formalized claims have unambiguous source evidence"
     )
     return 0
@@ -1656,6 +1772,16 @@ def parser() -> argparse.ArgumentParser:
     materialize_parser.add_argument(
         "--export", help="youtube-corpus source-span export to read a media span from"
     )
+    raw_parser = sub.add_parser(
+        "raw-witness",
+        help=(
+            "write the whole verified file of a pinned repository witness (for example its TEI XML), "
+            "or with --path fetch another file at the same revision and print its pinning fields"
+        ),
+    )
+    raw_parser.add_argument("passage_id", help="an already-pinned passage whose repository revision is used")
+    raw_parser.add_argument("--path", help="another file path in the same repository revision")
+    raw_parser.add_argument("--output", help="write the raw bytes here (default: the raw cache)")
     hashes_parser = sub.add_parser(
         "web-hashes", help="fetch a page and print the pinning fields of a web snapshot passage"
     )
@@ -1692,6 +1818,8 @@ def main() -> int:
             return verify_all(export, selected)
         if args.command == "materialize":
             return materialize(args.passage_id, args.output, args.export)
+        if args.command == "raw-witness":
+            return raw_witness(args.passage_id, args.path, args.output)
         if args.command == "web-hashes":
             return web_hashes(args.url, args.encoding, args.selector, args.wayback, args.pdf_pages, args.raw_text)
         raise AssertionError(f"unexpected command {args.command}")

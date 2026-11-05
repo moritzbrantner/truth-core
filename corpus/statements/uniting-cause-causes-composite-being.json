@@ -1,6 +1,6 @@
 {
   "id": "STMT-UNITING-CAUSE-CAUSES-COMPOSITE-BEING",
-  "paraphrase": "Unattributed open premise: whatever unites two things into x causes the being of x (CausesIn c x esse, effective causal responsibility). ST I q.11 a.1 co. states only that a composite has no being while its parts are divided, a necessary condition, not that the uniter causes its esse.",
+  "paraphrase": "Unattributed open premise: whatever unites two things into x causes the being of x (CausesIn c x esse, effective causal responsibility). ST I q.11 a.1 co. states only that a composite has no being while its parts are divided, a necessary condition, not that the uniter causes its esse. SCG I.18 n.4 says that the composer is the efficient cause of the composite; it supports but does not state the premise, since being an efficient cause of the composite is not yet causing its esse (relation REL-AQUINAS-SCG-I-18-SUPPORTS-UNITING-CAUSE-CAUSES-COMPOSITE-BEING).",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7Uniting.UnitingCauseCausesBeingReading",
   "definition_ids": [
     "DEF-UNITING-CAUSE",

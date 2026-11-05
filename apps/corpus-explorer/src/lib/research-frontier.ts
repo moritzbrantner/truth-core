@@ -69,6 +69,24 @@ export function researchFrontier(
         href: `/dossiers/${item.statement_id}`,
       });
     }
+    if (item.depth === "supported") {
+      const bibliographicOnly = item.stating_claims.length > 0;
+      add({
+        id: `evidence:${item.statement_id}`,
+        kind: "evidence",
+        frontier: "knowledge",
+        statementIds: [item.statement_id],
+        recordIds: bibliographicOnly ? item.stating_claims : item.supporting_claims,
+        title: item.paraphrase,
+        blocker: bibliographicOnly
+          ? "Only a bibliographic citation states it: no pinned source bytes, so it counts as supported until a witness is pinned."
+          : "Only a supports relation backs it: no claim states it, and the relation's note records the gap (#987).",
+        nextAction: bibliographicOnly
+          ? "Pin a witness for the cited passage, or find a pinned source that states it."
+          : "Find a source that states it, or close the recorded gap by an explicit argument.",
+        href: `/dossiers/${item.statement_id}`,
+      });
+    }
     for (const alternative of item.alternatives.filter((entry) => !entry.refuted)) {
       add({
         id: `alternative:${item.statement_id}:${alternative.statement_id}`,

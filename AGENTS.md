@@ -307,11 +307,14 @@ python3 scripts/source_evidence.py check
 python3 scripts/source_evidence.py verify
 lake build
 python3 scripts/corpus.py check
+python3 scripts/bundle_audit.py
 python3 scripts/corpus.py bind-check
 scripts/verify-result.sh <RESULT-ID>
 ```
 
-`corpus.py bind-check` (after `lake build`) reads each result theorem's type and checks that its `Prop` hypotheses are exactly the argument's premise statements and its result type is the conclusion statement, matched by `lean_declaration` head constant; type and vocabulary parameters are not premises. A hypothesis whose head is a theory definition (`TruthCore.Comparison.*`) is a theory bundle: it is unfolded one step and split on `∧`, and each conjunct must bind to a listed premise, covering them exactly. A conclusion that is a theory definition is a consistency claim: its argument must list `commitment_statement_ids` (and may then have no premises), and these must match the conclusion's conjuncts in the same way. Keep non-theory conclusion propositions outside `TruthCore.Comparison`. `source_evidence.py check` verifies offline manifest and claim bindings. `source_evidence.py verify` fetches the exact pinned editions and rejects byte drift by Git blob SHA. Source fidelity remains a research/review judgment. Lean/Comparator verifies only the formal consequence.
+`bundle_audit.py` runs offline. Run it whenever you edit an argument bundle or a definition its audit pins by hash: CI runs it right after `corpus.py check`.
+
+`corpus.py bind-check` (after `lake build`) reads each result theorem's type and checks that its `Prop` hypotheses are exactly the argument's premise statements and its result type is the conclusion statement, matched by `lean_declaration` head constant; type and vocabulary parameters are not premises. A hypothesis whose head is a theory definition (`TruthCore.Comparison.*`) is a theory bundle: it is unfolded one step and split on `∧`, and each conjunct must bind to a listed premise, covering them exactly. A conclusion that is a theory definition is a consistency claim: its argument must list `commitment_statement_ids` (and may then have no premises), and these must match the conclusion's conjuncts in the same way. Keep non-theory conclusion propositions outside `TruthCore.Comparison`. During development, `corpus.py bind-check --result <ID>` (repeatable) or `--affected --base <BASE>` binds only the named or affected results and needs only their Solution modules built; the full `bind-check` (CI) also checks stale pins and registered models. `source_evidence.py check` verifies offline manifest and claim bindings. `source_evidence.py verify` fetches the exact pinned editions and rejects byte drift by Git blob SHA. Source fidelity remains a research/review judgment. Lean/Comparator verifies only the formal consequence.
 
 Do not call an argument mechanically verified unless its result passes Comparator. CI also runs an independent no-`sorry` NanoDa check: over the whole built library on `main` pushes, nightly and manual runs, and on a PR over the modules its diff can affect (changed modules and their reverse dependents; `docs/axiom-policy.md`), so a failure a PR's scope missed still turns the next `main` run red.
 
@@ -320,6 +323,7 @@ Do not call an argument mechanically verified unless its result passes Comparato
 Before requesting `@codex review`, apply the Review guidelines below to your own diff in one pass and fix what you find:
 
 - every "read as" or attributed claim states no more than its cited sentence; any strengthening is stated as an explicit, unattributed open premise;
+- **attribution self-check (#989), before the first push:** run `python3 scripts/corpus.py attribution-check --base <merge-base> --materialize`. For each new or changed stating claim (or claim whose statement text changed), it prints the premise next to the claim locator and the pinned passage text, and it fails until the claim records `"attribution": "The passage states X, which is the premise."` Check quantifier scope, species/genus restriction (one kind of cause or being read as all), and temporal and modal scope. If the sentence would be false, because the passage only bears on the premise or states something narrower, do not keep the claim as stating. Replace it by a `supports` relation with a gap note (#987), or state the narrower reading as its own statement;
 - every load-bearing term on a root path links a definition through `definition_ids`;
 - every ambiguous term links a disambiguation through `disambiguation_ids`.
 
@@ -332,7 +336,7 @@ Before requesting `@codex review`, apply the Review guidelines below to your own
 - conditions in the source (same-sense cause, restricted domain, "in any respect") survived into the Lean type;
 - any condition added is not attributed to a source that does not state it; it is an explicit, unattributed open premise.
 
-Each PR also reports its intended and actual change in root-path open premises, including "no change". The actual change is computed, not hand-written: link or paste the output of `python3 scripts/corpus.py frontier-diff --base <merge-base>` (per-route costs and reaching-root premises added, removed, or moved between bare, sourced-undefended and closed), which CI prints to the job summary for every PR.
+Each PR also reports its intended and actual change in root-path open premises, including "no change". The actual change is computed, not hand-written: link or paste the output of `python3 scripts/corpus.py frontier-diff --base <merge-base>` (per-route costs and reaching-root premises added, removed, or moved between bare, supported, stated and closed, and the bare premises added; a relocation counts as progress only if it adds no bare premise, #987), which CI prints to the job summary for every PR. Route costs follow the [per-route open-premise cost rule](docs/corpus-model.md#premise-program-and-frontier) (`frontier --routes`): a premise is established when it is self-evident with a met floor basis, defended (every recorded rival refuted by a verified refutation whose premises are all established, recursively and without circularity, #999), or derived from established premises; a stated or supported premise stays one leaf until it is established, so adding a derivation under it never raises a route's cost, while a derivation under a bare premise, or a new intermediate step, is a relocation and may raise it.
 
 ## Review guidelines
 

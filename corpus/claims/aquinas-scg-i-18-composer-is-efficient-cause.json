@@ -1,0 +1,14 @@
+{
+  "id": "AQUINAS-SCG-I-18-COMPOSER-IS-EFFICIENT-CAUSE",
+  "statement_id": "STMT-COMPOSER-IS-EFFICIENT-CAUSE-OF-COMPOSITE",
+  "source_id": "AQUINAS-SCG",
+  "locator": "I.18 n.4 [23649]: Componens autem est causa efficiens compositi",
+  "interpretation": "The passage states that the composer is the efficient cause of the composite. The componens is identified in the same paragraph as that by which things plural in themselves are united into one ('quae autem secundum se sunt plura, in unum non convenirent nisi ab aliquo componente unirentur'), which is the uniting cause of DEF-UNITING-CAUSE. The sentence is a general premise of the reductio about God ('autem'), not part of the hypothesis 'si compositus esset Deus'. It carries no temporal qualifier, so it is bound to the time-neutral STMT-COMPOSER-IS-EFFICIENT-CAUSE-OF-COMPOSITE. It does not state STMT-UNITING-CAUSE-IS-EFFICIENT, whose EfficientlyCausesIn is efficient causing here and now (DEF-EFFICIENT-CAUSING): the sentence does not say that every composer, including a past one, is a present efficient cause (Codex review on #995). It supports that premise and STMT-UNITING-CAUSE-CAUSES-COMPOSITE-BEING through recorded supports relations. The paragraph's 'nihil est causa sui ipsius' is not used here.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-UNITING-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNITING-CAUSE"
+  ]
+}

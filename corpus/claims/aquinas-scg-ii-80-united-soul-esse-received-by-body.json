@@ -1,0 +1,15 @@
+{
+  "id": "AQUINAS-SCG-II-80-UNITED-SOUL-ESSE-RECEIVED-BY-BODY",
+  "statement_id": "STMT-UNITED-SOUL-ESSE-RECEIVED-BY-BODY",
+  "source_id": "AQUINAS-SCG",
+  "locator": "II.80 n.13 [25287]: Esse quidem animae humanae dum est corpori unita, etsi sit absolutum a corpore non dependens, tamen stramentum quoddam ipsius et subiectum ipsum recipiens est corpus",
+  "interpretation": "The passage states that while the human soul is united to the body, its esse, though not dependent on the body, has the body as a kind of substrate ('stramentum') and as the very subject receiving it. That is the statement. It is a temporally restricted claim ('dum est corpori unita'): the same paragraph says that the separated soul's esse belongs to it alone without the body ('Esse vero separatae animae est ipsi soli absque corpore'). 'Subiectum ipsum recipiens' is read as the body receiving the soul's esse. It is not read as the body receiving the soul as a form, because the subject of the sentence is 'esse animae'. The sentence does not say that the body is the only principle receiving that esse, nor whether the soul's own essence also receives it (per De ente c.4, a created intellectual substance receives esse in its quiddity). The context is the reply to the fifth argument against survival: the mode of understanding follows the mode of being.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ESSE-RECEIVED-IN",
+    "DEF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSE-RECEPTION"
+  ]
+}

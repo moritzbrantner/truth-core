@@ -47,6 +47,9 @@ export default async function ClaimPage({ params }: ClaimPageProps) {
         {claim.witness === "bibliographic" ? (
           <StatusMark tone="muted">Bibliographic witness · not byte-verified</StatusMark>
         ) : null}
+        {claim.witness === "unavailable" ? (
+          <StatusMark tone="muted">Witness permanently unavailable · not byte-verified</StatusMark>
+        ) : null}
         <p className="font-mono text-xs text-[var(--muted)]">{claim.id}</p>
         <Link className="link-quiet text-xs" href={`/statements/${claim.statement_id}`}>
           Statement {claim.statement_id} →

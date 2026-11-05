@@ -7,6 +7,7 @@ import {
   CLOSURE_DESCRIPTIONS,
   CLOSURE_LABELS,
   DEFAULT_ROOT_STATEMENT_ID,
+  FRONTIER_DEPTHS,
   type ClosureReason,
   type FrontierItem,
   formatUtc,
@@ -71,7 +72,8 @@ export default function StatePage() {
   const reaching = report.items.filter((item) => item.path_to_root);
   const reachingDepth = {
     bare: reaching.filter((item) => item.depth === "bare").length,
-    sourced: reaching.filter((item) => item.depth === "sourced").length,
+    supported: reaching.filter((item) => item.depth === "supported").length,
+    stated: reaching.filter((item) => item.depth === "stated").length,
   };
   const stagesOf = (statementId: string) => report.statement_stages[statementId] ?? [];
 
@@ -92,6 +94,7 @@ export default function StatePage() {
       onRoute: onRootPath.has(statementId),
       open,
       bare: open.filter((item) => item.depth === "bare").length,
+      supported: open.filter((item) => item.depth === "supported").length,
       closed: closed.length,
       offRoute: members.filter((id) => !onRootPath.has(id)).length,
     };
@@ -115,7 +118,7 @@ export default function StatePage() {
 
   const { alternatives, objections } = rivals(corpus, report);
   const paraphrase = (id: string) => findStatement(corpus, id)?.paraphrase ?? id;
-  const sortedReaching = [...reaching].sort((a, b) => (a.depth === b.depth ? 0 : a.depth === "bare" ? -1 : 1));
+  const sortedReaching = [...reaching].sort((a, b) => FRONTIER_DEPTHS.indexOf(a.depth) - FRONTIER_DEPTHS.indexOf(b.depth));
 
   return (
     <>
@@ -138,7 +141,7 @@ export default function StatePage() {
           </p>
         </div>
         <dl className="grid grid-cols-2 gap-x-6 gap-y-5 border-l border-[var(--line)] pl-5">
-          <Count label="Open premises" value={reaching.length} note={`${reachingDepth.bare} bare · ${reachingDepth.sourced} sourced`} />
+          <Count label="Open premises" value={reaching.length} note={`${reachingDepth.bare} bare · ${reachingDepth.supported} supported · ${reachingDepth.stated} stated`} />
           <Count
             label="Established"
             value={report.established_statements.length}
@@ -231,7 +234,8 @@ export default function StatePage() {
                   <StatementStateMark state={stage.state} />
                   <div aria-hidden="true" className="meter">
                     <span style={{ width: `${total ? (100 * stage.closed) / total : 0}%`, background: "var(--status-proved)" }} />
-                    <span style={{ width: `${total ? (100 * (stage.open.length - stage.bare)) / total : 0}%`, background: "var(--status-open)" }} />
+                    <span style={{ width: `${total ? (100 * (stage.open.length - stage.bare - stage.supported)) / total : 0}%`, background: "var(--status-open)" }} />
+                    <span style={{ width: `${total ? (100 * stage.supported) / total : 0}%`, background: "var(--status-transcription)" }} />
                     <span style={{ width: `${total ? (100 * stage.bare) / total : 0}%`, background: "var(--status-objection)" }} />
                   </div>
                 </div>
@@ -265,7 +269,8 @@ export default function StatePage() {
         </div>
         <p className="mt-4 flex flex-wrap gap-4 text-xs text-[var(--muted)]">
           <span><span className="state-mark-dot" style={{ background: "var(--status-proved)" }} /> closed</span>
-          <span><span className="state-mark-dot" style={{ background: "var(--status-open)" }} /> open, sourced</span>
+          <span><span className="state-mark-dot" style={{ background: "var(--status-open)" }} /> open, stated</span>
+          <span><span className="state-mark-dot" style={{ background: "var(--status-transcription)" }} /> open, supported only</span>
           <span><span className="state-mark-dot" style={{ background: "var(--status-objection)" }} /> open, bare</span>
         </p>
       </section>

@@ -93,7 +93,7 @@ export default function ObjectiveTruthPage() {
           {obligations.map((item) => (
             <li key={item.statement_id}>
               <Link className="text-sm underline" href={pilotGraphHref(item.statement_id)}>{item.paraphrase}</Link>
-              <p className="mt-1 text-xs text-[var(--muted)]">{item.depth === "bare" ? "No source claim yet states or supports this bridge." : "Sourced, but not yet defended."}</p>
+              <p className="mt-1 text-xs text-[var(--muted)]">{item.depth === "bare" ? "No source claim yet states or supports this bridge." : item.depth === "supported" ? "Only supported (by a source that does not state it, or by a bibliographic citation without pinned bytes); not yet defended." : "Stated by a source, but not yet defended."}</p>
             </li>
           ))}
           {candidates.map((item) => <li key={item.id}><Link className="text-sm underline" href={`/candidates/${item.id}`}>{item.goal}</Link></li>)}

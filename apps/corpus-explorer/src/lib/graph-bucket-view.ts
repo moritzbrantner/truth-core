@@ -106,7 +106,7 @@ export function bucketCanMatch(bucket: BucketSummary, state: GraphState) {
   if (state.reach && !any(bucket.facets.reach, [state.reach])) return false;
   if (state.status.length && !any(bucket.facets.status, state.status)) return false;
   if (state.source && !any(bucket.facets.source, [state.source])) return false;
-  if (state.leaf === "frontier" && !any(bucket.facets.closure, ["frontier-bare", "frontier-sourced"])) return false;
+  if (state.leaf === "frontier" && !any(bucket.facets.closure, ["frontier-bare", "frontier-supported", "frontier-stated"])) return false;
   return true;
 }
 

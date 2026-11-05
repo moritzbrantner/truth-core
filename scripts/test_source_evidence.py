@@ -824,6 +824,128 @@ class BibliographicSpanTest(unittest.TestCase):
         self.assertIn("1 bibliographic spans not byte-verified", out.getvalue())
 
 
+class RawWitnessTest(unittest.TestCase):
+    """Raw bytes of repository witnesses are cached by blob SHA (#990)."""
+
+    DATA = b"<TEI><text><body><div n='1'>alpha</div></body></text></TEI>\n"
+    OTHER = b"<TEI>beta</TEI>\n"
+    BASE_URL = "https://raw.githubusercontent.com/org/repo/" + "a" * 40 + "/"
+
+    def setUp(self) -> None:
+        directory = tempfile.TemporaryDirectory()
+        self.addCleanup(directory.cleanup)
+        patcher = mock.patch.object(se, "RAW_CACHE", Path(directory.name))
+        patcher.start()
+        self.addCleanup(patcher.stop)
+        self.passage = {
+            "id": "TEI-A", "kind": None, "repository": "org/repo", "revision": "a" * 40,
+            "path": "data/a.xml", "source_url": self.BASE_URL + "data/a.xml",
+            "git_blob_sha": se.git_blob_sha(self.DATA),
+        }
+        self.requested: list[str] = []
+        pages = {self.BASE_URL + "data/a.xml": self.DATA, self.BASE_URL + "data/b.xml": self.OTHER}
+
+        def urlopen(request, timeout=None):
+            self.requested.append(request.full_url)
+            return contextlib.closing(io.BytesIO(pages[request.full_url]))
+
+        patcher = mock.patch.object(se.urllib.request, "urlopen", side_effect=urlopen)
+        patcher.start()
+        self.addCleanup(patcher.stop)
+
+    def test_materialize_reuses_the_verified_cache_but_verify_refetches(self) -> None:
+        self.assertEqual(se.fetch_source(self.passage), self.DATA)
+        self.assertEqual(se.raw_cache_path(self.passage["git_blob_sha"]).read_bytes(), self.DATA)
+        self.assertEqual(se.fetch_source(self.passage, use_cache=True), self.DATA)
+        self.assertEqual(len(self.requested), 1)
+        se.fetch_source(self.passage)
+        self.assertEqual(len(self.requested), 2)
+        # A corrupted cache entry is ignored, refetched and repaired.
+        se.raw_cache_path(self.passage["git_blob_sha"]).write_bytes(b"tampered")
+        self.assertEqual(se.fetch_source(self.passage, use_cache=True), self.DATA)
+        self.assertEqual(len(self.requested), 3)
+
+    def test_blob_mismatch_is_rejected_and_not_cached(self) -> None:
+        wrong = dict(self.passage, git_blob_sha="0" * 40)
+        with mock.patch.object(se.time, "sleep"), self.assertRaisesRegex(se.SourceEvidenceError, "blob mismatch"):
+            se.fetch_source(wrong)
+        self.assertFalse(se.raw_cache_path("0" * 40).exists())
+
+    def test_raw_witness_pins_another_file_at_the_same_revision(self) -> None:
+        index = {"TEI-A": (Path("fixture.json"), self.passage)}
+        with tempfile.TemporaryDirectory() as directory, mock.patch.object(
+            se, "passage_index", return_value=index
+        ), contextlib.redirect_stdout(io.StringIO()) as out:
+            output = Path(directory) / "b.xml"
+            self.assertEqual(se.raw_witness("TEI-A", "data/b.xml", str(output)), 0)
+            self.assertEqual(output.read_bytes(), self.OTHER)
+        fields = json.loads(out.getvalue())
+        self.assertEqual(fields["source_url"], self.BASE_URL + "data/b.xml")
+        self.assertEqual(fields["git_blob_sha"], se.git_blob_sha(self.OTHER))
+        self.assertEqual((fields["revision"], fields["path"]), ("a" * 40, "data/b.xml"))
+
+    def test_raw_witness_refuses_web_snapshots(self) -> None:
+        index = {"WEB": (Path("fixture.json"), web_passage({"from": {"anchor": "13"}}, id="WEB"))}
+        with mock.patch.object(se, "passage_index", return_value=index), self.assertRaisesRegex(
+            se.SourceEvidenceError, "only to immutable repository witnesses"
+        ):
+            se.raw_witness("WEB", None, None)
+class PermanentlyUnavailableWebSnapshotTest(unittest.TestCase):
+    """A web snapshot the owner accepted as gone: kept, never fetched, never verified."""
+
+    PATH = se.ROOT / "corpus" / "passages" / "fixture.json"
+    CLAIM_PATH = se.ROOT / "corpus" / "claims" / "fixture.json"
+    MARK = {"since": "2026-11-05", "reason": "host answers 404 and no archive capture exists"}
+
+    def test_manifest_requires_date_and_reason(self) -> None:
+        se.validate_web_snapshot_manifest(self.PATH, web_passage({"from": {"anchor": "13"}}, unavailable=self.MARK))
+        for bad in ({"since": "2026-11-05"}, {"since": "5 Nov", "reason": self.MARK["reason"]}, {**self.MARK, "reason": "gone"}, True):
+            with self.subTest(bad=bad), self.assertRaisesRegex(se.SourceEvidenceError, "unavailable must be"):
+                se.validate_web_snapshot_manifest(self.PATH, web_passage({"from": {"anchor": "13"}}, unavailable=bad))
+
+    def test_claims_carry_the_unavailable_witness_marking(self) -> None:
+        retired = web_passage({"from": {"anchor": "13"}}, unavailable=self.MARK)
+        live = web_passage({"from": {"anchor": "13"}})
+
+        def check(claim: dict, passage: dict) -> None:
+            se.validate_claim_witness([(self.CLAIM_PATH, claim)], {claim["id"]: passage})
+
+        check({"id": "C", "witness": "unavailable"}, retired)
+        with self.assertRaisesRegex(se.SourceEvidenceError, "needs witness: 'unavailable'"):
+            check({"id": "C"}, retired)
+        with self.assertRaisesRegex(se.SourceEvidenceError, "needs witness: 'unavailable'"):
+            check({"id": "C", "witness": "bibliographic"}, retired)
+        with self.assertRaisesRegex(se.SourceEvidenceError, "permanently unavailable web snapshot; remove it"):
+            check({"id": "C", "witness": "unavailable"}, live)
+
+    def test_never_fetched_and_never_verified(self) -> None:
+        retired = web_passage({"from": {"anchor": "13"}}, unavailable=self.MARK, id="WEB-GONE")
+        passages = {"WEB-GONE": (self.PATH, retired)}
+        with (
+            mock.patch.object(se, "passage_index", return_value=passages),
+            mock.patch.object(se, "validate_bindings", return_value=(1, 0)),
+            mock.patch.object(se, "fetch_web_bytes") as fetch,
+            mock.patch.object(se, "web_cache_path", return_value=Path("/nonexistent/truth-core-cache")),
+        ):
+            with contextlib.redirect_stdout(io.StringIO()) as out:
+                self.assertEqual(se.verify_all(), 0)
+            with self.assertRaisesRegex(se.SourceEvidenceError, "permanently unavailable web snapshot, not byte-verified"):
+                se.materialize("WEB-GONE", None)
+            fetch.assert_not_called()
+        self.assertIn("permanently unavailable web snapshots, never fetched, NOT byte-verified: WEB-GONE", out.getvalue())
+        self.assertIn("0 web snapshot passages verified", out.getvalue())
+        self.assertIn("1 web snapshot passages permanently unavailable", out.getvalue())
+
+    def test_materializes_from_a_hash_checked_cache(self) -> None:
+        retired = web_passage({"from": {"anchor": "13"}, "to": {"anchor": "14"}}, unavailable=self.MARK, id="WEB-GONE")
+        with tempfile.TemporaryDirectory() as tmp:
+            cached = Path(tmp) / "page.html"
+            cached.write_bytes(HTML)
+            with mock.patch.object(se, "web_cache_path", return_value=cached):
+                text = se.materialize_web_snapshot(retired, fetch=se.refuse_unavailable_fetch)
+        self.assertEqual(se.sha256_text(text), retired["text_sha256"])
+
+
 class PullRequestScopeTest(unittest.TestCase):
     """`verify --base` refetches only the passages whose manifests a change touches."""
 

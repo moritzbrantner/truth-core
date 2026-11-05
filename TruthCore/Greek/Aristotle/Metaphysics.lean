@@ -78,7 +78,11 @@ than that thing. `CausesIn y x r` says that `y` is a cause of `x`'s being `r`;
 sentence: Aristotle says it of that in virtue of which the *synonymous* quality
 belongs to the others, so of a cause that has the quality in the same sense, while
 `CausesIn` carries no synonymy condition and also covers equivocal or analogical
-causes. The extension is an unattributed open strengthening, not Aristotle's claim.
+causes. That extension is not the claim of this sentence. Aristotle states it
+without the synonymy condition elsewhere, *Posterior Analytics* I.2, 72a29-30
+(*ἀεὶ γὰρ δι᾿ ὃ ὑπάρχει ἕκαστον, ἐκεῖνο μᾶλλον ὑπάρχει*: always, that because of
+which each thing belongs itself belongs more), claim
+`ARIST-APOST-72A-CAUSE-MORE-SUCH`.
 The reading supplies no step from causing one quality to being more in another. The
 text does not itself instantiate it at being: 993b26-31 concludes that the
 principles of the eternal beings are most true (see `AsToBeingSoToTruthReading`).
