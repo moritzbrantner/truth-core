@@ -1,0 +1,8 @@
+{
+  "id": "STMT-EPISTEMIC-ACCURACY-DOMINANCE",
+  "paraphrase": "For complementary credences r,s in [0,1], their projection ((1+r-s)/2,(1-r+s)/2) remains in [0,1] and sums to one. In each of the two possible truth states, summed binary squared error decreases by exactly (r+s-1)^2/2; if r+s differs from one the improvement is strict in both states. No probability estimate or calibration assumption is used. This restricted statewise dominance does not establish normative authority or dominate coherent wishful credences.",
+  "lean_declaration": "TruthCore.Logic.EpistemicAccuracy.DominanceCertificate",
+  "definition_ids": [
+    "DEF-EPISTEMIC-ACCURACY"
+  ]
+}

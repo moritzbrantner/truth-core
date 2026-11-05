@@ -1,0 +1,8 @@
+{
+  "id": "STMT-EPISTEMIC-ACCURACY-CERTIFICATE",
+  "paraphrase": "For expected binary squared error over real inputs, error(q,r)-error(q,q)=(r-q)^2, so q uniquely minimizes expected error. If epsilon is nonnegative, q lies within epsilon of c, and r is more than twice epsilon from c, c has strictly smaller expected error than r for every such q. At q=1/2, r=1 costs 1/4 more error than r=1/2, while a unit comfort reward reverses the combined-cost preference. Probability applications restrict credences to [0,1]. These are accuracy comparisons, not a proof of normative authority, calibration or overriding duty. The separate positive epistemic argument and its open normative bridge are in docs/notes/epistemic-reasons-930.md.",
+  "lean_declaration": "TruthCore.Logic.EpistemicAccuracy.Certificate",
+  "definition_ids": [
+    "DEF-EPISTEMIC-ACCURACY"
+  ]
+}

@@ -5,6 +5,7 @@ import TruthCore.Logic.CogitoSubject
 import TruthCore.Logic.Configuration
 import TruthCore.Logic.ContrastiveWorldview
 import TruthCore.Logic.CorrectionCriterion
+import TruthCore.Logic.EpistemicAccuracy
 import TruthCore.Logic.EpistemicReasons
 import TruthCore.Logic.ExcludedMiddle
 import TruthCore.Logic.JustificationIntrospection

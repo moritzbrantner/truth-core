@@ -1,0 +1,8 @@
+{
+  "id": "DEF-EPISTEMIC-ACCURACY",
+  "term": "expected binary epistemic squared error",
+  "definition": "error(q,r)=q*(1-r)^2+(1-q)*r^2 on real inputs. In probability applications q and r are in [0,1]. Within(q,c,epsilon) bounds q-c above and below by epsilon. q is an independently warranted assessment if so applied, not defined as truth or calibration. The theorem supplies no normative predicate. pairError scores the two complementary credences by (1-r)^2+s^2 when p is true and r^2+(1-s)^2 otherwise. Projection uses ((1+r-s)/2,(1-r+s)/2). This statewise summed-error comparison needs no q.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.EpistemicAccuracy.error",
+  "note": "Analyst formulation for #930, attribution deferred. Reasons to use this transparent symmetric measure, strongest rival and limits are in docs/notes/epistemic-reasons-930.md. Accuracy is not combined practical utility."
+}
