@@ -194,8 +194,11 @@ type RawCorpusClaim = TermLinks & {
   interpretation: string;
   /** Present on claims read from a translated web snapshot. */
   basis?: "translation";
-  /** Present on claims cited from a bibliographic span: not byte-verified (#378). */
-  witness?: "bibliographic";
+  /**
+   * Present on claims cited from a bibliographic span (#378) or read from a
+   * permanently unavailable web snapshot: either way not byte-verified.
+   */
+  witness?: "bibliographic" | "unavailable";
   status: "formalized";
 };
 

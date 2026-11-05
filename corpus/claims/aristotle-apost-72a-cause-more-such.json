@@ -1,0 +1,17 @@
+{
+  "id": "ARIST-APOST-72A-CAUSE-MORE-SUCH",
+  "statement_id": "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH",
+  "source_id": "ARIST-APOST",
+  "locator": "I.2, 72a29–30: ἀεὶ γὰρ δι᾿ ὃ ὑπάρχει ἕκαστον, ἐκεῖνο μᾶλλον ὑπάρχει, οἷον δι᾿ ὃ φιλοῦμεν, ἐκεῖνο φίλον μᾶλλον",
+  "interpretation": "The passage states that always, that because of which each attribute belongs to something itself has that attribute more (that because of which we love something is more loved), which is the premise: if y, other than x, is a cause of x's being r, then y is more r than x. 'δι᾿ ὃ ὑπάρχει' (that because of which it belongs) is read as y being a cause of x's having r (CausesIn y x r), and 'ἐκεῖνο μᾶλλον ὑπάρχει' as the same attribute belonging more to the cause (MoreIn r y x), as the example's φίλον ... μᾶλλον shows. 'ἀεὶ' gives the universal quantifier, and the sentence carries no synonymy or same-sense condition, unlike Metaphysics II.1, 993b24-26. The premise adds the condition y ≠ x, so it is no stronger than the sentence. Aristotle uses the principle for epistemic grounds (premises are known more than conclusions), but states it generally and illustrates it with a non-epistemic cause of loving. A restricted reading, for example Aquinas' attribution-order restriction (STMT-ATTRIBUTION-ORDER-RESTRICTS-CAUSE-MORE-SUCH, which attacks this premise), would be a different and weaker statement; it is not claimed here. That the principle is true of equivocal or analogical causes, including causes of being, is not argued in the passage and remains open.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-MORE-IN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE",
+    "DISAMB-BEING-UNIVOCITY",
+    "DISAMB-ORDER-OF-BEING"
+  ]
+}
