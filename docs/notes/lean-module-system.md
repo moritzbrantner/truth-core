@@ -222,7 +222,7 @@ proof-only edit to the hub alone.
   (47 removed, 3 added), because modules share matchers differently. Matchers are still
   checked through the dependency closure of the declarations that use them.
 
-**Wave 2** (all remaining levels, 853 files; every non-Challenge, non-aggregator file is now a
+**Wave 2** (all remaining levels, 852 files; every non-Challenge, non-aggregator file is now a
 module). Manual cases:
 
 - `Causality.TemporalEventControls` dropped its unused `import Mathlib.Tactic`; its 105
