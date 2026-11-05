@@ -758,6 +758,12 @@ class FrontierSchemaTest(unittest.TestCase):
         for marking in (
             {"basis": "common_ground", "justification_ids": ["R"], "question_statement_id": "UNKNOWN",
              "disagreement": {"rival_statement_ids": ["RIVAL"]}, "owner_approval": approval},
+            # #1020 review: a supplied basis record keeps its shape and references.
+            {"basis": "common_ground", "justification_ids": ["R"], "question_statement_id": "Q",
+             "positions": [None], "disagreement": {"rival_statement_ids": ["RIVAL"]}, "owner_approval": approval},
+            {"basis": "common_ground", "justification_ids": ["R"], "question_statement_id": "Q",
+             "positions": [{"statement_id": "UNKNOWN", "claim_ids": ["C"]}],
+             "disagreement": {"rival_statement_ids": ["RIVAL"]}, "owner_approval": approval},
             # #1007: an approval links the owner's comment, has a date, and needs a disagreement record.
             {"basis": "retorsion", "justification_ids": ["R"], "denial_statement_id": "NOT-P", **none,
              "owner_approval": {"decision": "yes", "date": "2026-11-05"}},

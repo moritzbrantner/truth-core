@@ -358,6 +358,17 @@ def validate_self_evident(
                 known_statement(field, marking[field])
         for rival in marking.get("sceptical_rival_ids", []):
             known_statement("sceptical_rival_ids entry", rival)
+        # A basis record is optional here, but one that is supplied keeps its
+        # shape and references (#1020 review): positions feed criterion_reasons.
+        if "positions" in marking:
+            positions = marking["positions"]
+            if not isinstance(positions, list) or not positions:
+                raise CorpusError(f"{where}: self_evident positions, when given, must be a non-empty list")
+            for position in positions:
+                if not isinstance(position, dict):
+                    raise CorpusError(f"{where}: each common_ground position is an object")
+                known_statement("position statement_id", position.get("statement_id"))
+                require_string_list(position, "claim_ids", path, allow_empty=False)
         return
     if basis == FLOOR_RETORSION:
         if any(justification_id not in result_ids for justification_id in justification):
