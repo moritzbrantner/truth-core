@@ -1,0 +1,24 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "WITTGENSTEIN-TRACTATUS",
+    "source_url": "https://www.gutenberg.org/files/5740/5740-t/5740-t.tex",
+    "retrieved_at": "2026-11-05T15:46:38Z",
+    "sha256": "sha256:52158eed80f03552c257e22dca26e1684588814554481242be94063ce9c6061f",
+    "encoding": "utf-8",
+    "language": "deu",
+    "license": "Public domain: the German text (Wittgenstein died 1951) is out of copyright in the EU and wherever the term is 70 years after the author's death or less, and the 1922 edition with the Ogden translation is in the public domain in the United States; distributed by Project Gutenberg under the Project Gutenberg License (checked 2026-11-05). Only hashes, locators and a short incipit are committed. Two fetches on 2026-11-05 gave identical bytes. No Wayback fallback: web.archive.org refused connections from the pinning environment."
+  },
+  "passages": [
+    {
+      "id": "WITTGENSTEIN-TLP",
+      "locator": "Preface and propositions 1-7 (whole LaTeX source, German and English)",
+      "claim_locator_prefixes": [
+        "TLP "
+      ],
+      "raw_text": true,
+      "text_sha256": "sha256:eeec3cf77123a45f43e661f64dceb18ec326b228edd5c04bacf33b04e4c20cea",
+      "incipit": "% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%"
+    }
+  ]
+}

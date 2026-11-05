@@ -1,0 +1,12 @@
+{
+  "id": "SEP-RELIGIOUS-LANGUAGE-4-1-PHILLIPS-NO-OBJECT-A",
+  "statement_id": "STMT-PHILLIPS-GOD-TALK-NOT-REFERENCE-TO-AN-OBJECT",
+  "source_id": "SEP-RELIGIOUS-LANGUAGE",
+  "locator": "§4.1, 'the praising and the glorifying does not refer to some object called God'",
+  "interpretation": "Phillips's early writings, as the entry quotes them: 'religious belief is itself the expression of a moral vision' (1976: 143) and 'the praising and the glorifying does not refer to some object called God. Rather, the expression of such praise and glory is what we call the worship of God' (1976: 149). Read as a claim about the activity of praise only; it does not state that the name 'God' applies to no being (STMT-GOD-NAMES-NO-BEING-WF-P1 is that unattributed thesis, which this claim only supports). The entry calls these sympathetic to non-cognitivism and reports that his later remarks are more minimalist (STMT-PHILLIPS-REALISM-CONCEPTS-RELIGION-INTERNAL). Attribution reading of the position the entry reports, not a view of the entry's author.",
+  "status": "formalized",
+  "attribution": "The passage states that the early Phillips held that religious belief expresses a moral vision and that praising God does not refer to some object called God, which is the premise.",
+  "definition_ids": [
+    "DEF-WITTGENSTEINIAN-FIDEISM"
+  ]
+}

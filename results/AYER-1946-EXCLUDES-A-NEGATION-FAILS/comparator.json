@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.Verificationism.Ayer1946Closure.Challenge",
+  "solution_module": "TruthCore.Results.Logic.Verificationism.Ayer1946Closure.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.Verificationism.Ayer1946Closure.ayer1946ExcludesANegationFails"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

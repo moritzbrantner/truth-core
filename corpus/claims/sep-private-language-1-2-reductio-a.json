@@ -1,0 +1,9 @@
+{
+  "id": "SEP-PRIVATE-LANGUAGE-1-2-REDUCTIO-A",
+  "statement_id": "STMT-PLA-REDUCTIO-READING",
+  "source_id": "SEP-PRIVATE-LANGUAGE",
+  "locator": "§1.2, assume that it is true that a private language is possible",
+  "interpretation": "The entry: one way to argue against a private language is by reductio, 'assume that it is true that a private language is possible, show that that assumption leads to certain absurdities or a contradiction, and then conclude that it is actually false that a private language is possible. This is the way in which the argument was typically understood.' Attribution reading of the position the entry reports, not a view of the entry's author.",
+  "status": "formalized",
+  "attribution": "The passage states that the private-language argument was typically understood as a reductio concluding that it is false that a private language is possible, which is the premise."
+}

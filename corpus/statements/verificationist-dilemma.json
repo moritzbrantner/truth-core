@@ -1,0 +1,15 @@
+{
+  "id": "STMT-VERIFICATIONIST-DILEMMA",
+  "paraphrase": "The verificationist self-application dilemma: if the principle holds, its own formulation is not meaningful; if its formulation is meaningful, the principle fails. So the principle is not both true and meaningful.",
+  "lean_declaration": "TruthCore.Logic.Verificationism.VerificationistDilemma",
+  "definition_ids": [
+    "DEF-TRUTH-CONDITIONAL-LANGUAGE",
+    "DEF-EMPIRICIST-FRAME",
+    "DEF-VERIFICATION-PRINCIPLE",
+    "DEF-SELF-APPLICATION-NORM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-VERIFICATIONIST-MEANINGFUL",
+    "DISAMB-VERIFIABILITY-VARIANT"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "MEANING-NEGATION-CLOSURE-STRONG-ENTAILS-WEAK",
+  "premise_statement_ids": [
+    "STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-STRONG"
+  ],
+  "conclusion_statement_id": "STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-WEAK",
+  "inference_ids": [
+    "INF-MEANING-NEGATION-CLOSURE-STRONG-ENTAILS-WEAK"
+  ],
+  "meaning": "The strong version of negation closure entails the weak one by instantiation: closure at every sentence gives closure at every negated sentence. Records the strengthening between the -STRONG and -WEAK sibling statements (#1017).",
+  "definition_ids": [
+    "DEF-MEANING-NEGATION-CLOSURE",
+    "DEF-VERIFICATION-PRINCIPLE",
+    "DEF-TRUTH-CONDITIONAL-LANGUAGE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-VERIFICATIONIST-MEANINGFUL"
+  ]
+}

@@ -79,7 +79,7 @@ export function researchFrontier(
         recordIds: bibliographicOnly ? item.stating_claims : item.supporting_claims,
         title: item.paraphrase,
         blocker: bibliographicOnly
-          ? "Only a bibliographic citation states it: no pinned source bytes, so it counts as supported until a witness is pinned."
+          ? "Only a bibliographic citation or a permanently unavailable witness states it: no verifiable source bytes, so it counts as supported until a witness is pinned."
           : "Only a supports relation backs it: no claim states it, and the relation's note records the gap (#987).",
         nextAction: bibliographicOnly
           ? "Pin a witness for the cited passage, or find a pinned source that states it."

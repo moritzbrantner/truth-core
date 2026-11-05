@@ -1,0 +1,38 @@
+{
+  "id": "STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-STRONG",
+  "paraphrase": "Strong version: for every sentence, if it is meaningful (literally, cognitively significant), so is its negation.",
+  "lean_declaration": "TruthCore.Logic.Verificationism.MeaningClosedUnderNegation",
+  "definition_ids": [
+    "DEF-MEANING-NEGATION-CLOSURE",
+    "DEF-VERIFICATION-PRINCIPLE",
+    "DEF-TRUTH-CONDITIONAL-LANGUAGE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-VERIFICATIONIST-MEANINGFUL"
+  ],
+  "self_evident": {
+    "basis": "common_ground",
+    "justification_ids": [
+      "SEP-HEMPEL-2-3-NEGATION-CLOSURE"
+    ],
+    "question_statement_id": "STMT-VERIFICATION-PRINCIPLE",
+    "positions": [
+      {
+        "statement_id": "STMT-HEMPEL-DEDUCTIVE-CRITERION-SEARCH-USELESS",
+        "claim_ids": [
+          "SEP-HEMPEL-2-3-NEGATION-CLOSURE"
+        ]
+      }
+    ],
+    "disagreement": {
+      "rival_statement_ids": [
+        "STMT-SOME-MEANINGFUL-NEGATION-NOT-MEANINGFUL"
+      ]
+    },
+    "owner_approval": {
+      "decision": "https://github.com/moritzbrantner/truth-core/issues/1008#issuecomment-6662364121",
+      "date": "2026-11-05"
+    },
+    "note": "Floor item approved by the owner on 2026-11-05 (#1008) on the common-ground basis; strong version. It is the weakest version the strengthened 1946 corollary (AYER-1946-EXCLUDES-A-NEGATION-FAILS) needs, since that rival says only that some negated sentence is excluded, so closure must hold at an arbitrary sentence. Defeat 2 needs only the weak version (STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-WEAK), which this entails (MEANING-NEGATION-CLOSURE-STRONG-ENTAILS-WEAK). Hempel imposes the biconditional (S meaningful iff its negation is) as an adequacy condition, as SEP reports him; this is its left-to-right half. The recorded rival stays recorded and unrefuted, and the common-ground criterion is not mechanically met, so the premise is established relative to the owner's approval."
+  }
+}

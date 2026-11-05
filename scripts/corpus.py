@@ -215,9 +215,11 @@ STAGE_CONCLUSIONS = (
 # Depth of an open premise (#143, 2026-10-24; three categories by owner
 # decision on #987, 2026-11-05): "stated" when a claim on a pinned source
 # passage states it; otherwise "supported" when only `supports` relations, or
-# only claims on a bibliographic span (cited by page, no pinned bytes; owner
-# decision 2026-11-05), point to it; otherwise "bare". A bibliographic-only
-# premise becomes stated once its witness is pinned. Supported and stated premises are both
+# only claims that are not byte-verifiable, point to it: claims on a
+# bibliographic span (cited by page, no pinned bytes) or on a permanently
+# unavailable witness (bytes no longer re-verifiable; owner decisions
+# 2026-11-05); otherwise "bare". Such a premise becomes stated once a
+# (new) witness is pinned. Supported and stated premises are both
 # undefended. A relocation counts as progress only if it adds no bare premise.
 FRONTIER_BARE = "bare"
 FRONTIER_SUPPORTED = "supported"
@@ -230,8 +232,9 @@ FRONTIER_LEGACY_SOURCED = "sourced"
 ROUTE_PROVED_UNESTABLISHED = "proved_unestablished"
 
 
-# Floor bases (#500; #497, "The floor: criteria, not owner approval"). A
-# self_evident marking names the written criterion it meets. `frontier_report`
+# Floor bases (#500; #497). A self_evident marking names the written criterion
+# it meets; since #1007 an owner approval can stand in for a criterion that is
+# not mechanically met (OWNER_APPROVAL_FIELDS below). `frontier_report`
 # recomputes from the current relations, claims and results whether that
 # criterion holds; a marking whose criterion fails closes nothing, and
 # `corpus.py check` warns about it. `logical` is no basis: such a premise is
@@ -250,6 +253,31 @@ LEGACY_FLOOR_STATEMENTS = {"STMT-EXCLUDED-MIDDLE"}
 # `disagreement` is either this literal or an object listing the recorded
 # rivals and/or claims that deny the statement is self-evident.
 DISAGREEMENT_NONE = "none recorded"
+# Owner-approved floor items (#1007, owner decision 2026-11-05). Floor growth is
+# an explicit owner decision per item: a marking may carry `owner_approval`
+# (the decision's issue-comment URL and date). It is then met although its
+# basis criterion is not mechanically met, for example while its own recorded
+# rivals stay unrefuted. The basis, its evidence and the full disagreement
+# record are still required, the unmet criterion stays visible in the report
+# (`criterion_reasons`), and a newly recorded rival that the disagreement
+# record omits still reopens the marking.
+OWNER_APPROVAL_FIELDS = {"decision", "date"}
+OWNER_APPROVAL_URL_RE = re.compile(r"^https://github\.com/moritzbrantner/truth-core/issues/\d+#issuecomment-\d+$")
+OWNER_APPROVAL_DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+
+
+def validate_owner_approval(where: Path, marking: dict[str, Any]) -> None:
+    approval = marking.get("owner_approval")
+    if approval is None:
+        return
+    if not isinstance(approval, dict) or set(approval) != OWNER_APPROVAL_FIELDS:
+        raise CorpusError(f"{where}: self_evident owner_approval must be an object with exactly decision and date")
+    if not isinstance(approval["decision"], str) or not OWNER_APPROVAL_URL_RE.match(approval["decision"]):
+        raise CorpusError(f"{where}: self_evident owner_approval decision must link the owner's issue comment")
+    if not isinstance(approval["date"], str) or not OWNER_APPROVAL_DATE_RE.match(approval["date"]):
+        raise CorpusError(f"{where}: self_evident owner_approval date must be YYYY-MM-DD")
+    if marking.get("disagreement") is None:
+        raise CorpusError(f"{where}: an owner-approved marking needs a disagreement record (#378, #1007)")
 
 
 def validate_disagreement(where: Path, marking: dict[str, Any], basis: str, claim_ids: set[str],
@@ -312,6 +340,7 @@ def validate_self_evident(
     if basis not in FLOOR_BASES:
         raise CorpusError(f"{where}: self_evident basis must be one of {', '.join(sorted(FLOOR_BASES))}")
     validate_disagreement(where, marking, basis, claim_ids, statement_ids)
+    validate_owner_approval(where, marking)
 
     def known_statement(field: str, value: Any) -> None:
         if not isinstance(value, str) or not value:
@@ -644,8 +673,8 @@ def frontier_report(
 
     Each open premise also gets a depth (#143, 2026-10-24; #987): "stated"
     when a claim on a pinned source states it, otherwise "supported" when a
-    `supports` relation or only bibliographic claims point to it, otherwise
-    "bare". Each route also counts its open leaves by
+    `supports` relation or only bibliographic or unavailable-witness claims
+    point to it, otherwise "bare". Each route also counts its open leaves by
     the same depths (`depth_counts`)."""
     statement_by_id = {statement["id"]: statement for statement in statements}
     argument_by_id = {argument["id"]: argument for argument in arguments}
@@ -751,20 +780,35 @@ def frontier_report(
         if statement.get("self_evident") is not None
     }
 
+    def stale_disagreement(statement_id: str) -> list[str]:
+        """#378: the recorded disagreement must cover every current rival, so a
+        newly recorded rival is not hidden behind a stale record. An
+        owner-approved marking is held to this for every basis (#1007)."""
+        marking = floor_markings[statement_id]
+        basis = marking.get("basis") or FLOOR_LEGACY
+        disagreement = marking.get("disagreement")
+        if disagreement is None or (basis == FLOOR_COMMON_GROUND and marking.get("owner_approval") is None):
+            return []
+        listed = set(disagreement.get("rival_statement_ids", [])) if isinstance(disagreement, dict) else set()
+        unlisted = [rival for rival in sorted(alternatives.get(statement_id, ())) if rival not in listed]
+        return ["disagreement record omits recorded rivals: " + ", ".join(unlisted)] if unlisted else []
+
     def floor_reasons(statement_id: str) -> list[str]:
-        """Why the marking's criterion does not hold now; empty when it does."""
+        """Why the marking is not met now; empty when it is. An owner-approved
+        marking (#1007) is met unless its disagreement record is stale."""
+        if floor_markings[statement_id].get("owner_approval") is not None:
+            return stale_disagreement(statement_id)
+        return criterion_reasons(statement_id)
+
+    def criterion_reasons(statement_id: str) -> list[str]:
+        """Why the marking's basis criterion does not hold now; empty when it does."""
         marking = floor_markings[statement_id]
         basis = marking.get("basis") or FLOOR_LEGACY
         rivals = sorted(alternatives.get(statement_id, ()))
         justification = marking.get("justification_ids", [])
-        # #378: the recorded disagreement must cover every current rival, so
-        # a newly recorded rival is not hidden behind a stale record.
-        disagreement = marking.get("disagreement")
-        if disagreement is not None and basis != FLOOR_COMMON_GROUND:
-            listed = set(disagreement.get("rival_statement_ids", [])) if isinstance(disagreement, dict) else set()
-            unlisted = [rival for rival in rivals if rival not in listed]
-            if unlisted:
-                return ["disagreement record omits recorded rivals: " + ", ".join(unlisted)]
+        stale = stale_disagreement(statement_id)
+        if stale:
+            return stale
         if basis == FLOOR_LEGACY:
             return []
         if basis == FLOOR_RETORSION:
@@ -927,6 +971,8 @@ def frontier_report(
                 "reasons": reasons,
                 "justification_ids": sorted(marking.get("justification_ids", [])),
                 "disagreement": marking.get("disagreement"),
+                "owner_approval": marking.get("owner_approval"),
+                "criterion_reasons": criterion_reasons(statement_id),
             }
         )
     floor_met = {entry["statement_id"] for entry in floor_report if entry["met"]}
@@ -954,17 +1000,19 @@ def frontier_report(
         claim["id"] for claim in claims or [] if claim.get("witness") == BIBLIOGRAPHIC_WITNESS
     }
     # Claims on a permanently unavailable web snapshot: pinned once, never refetched,
-    # not byte-verified (owner decision 2026-11-05). Like bibliographic claims they
-    # still state their statement; the report only marks them.
+    # not byte-verified. Like bibliographic claims they only support their
+    # statement (owner decision 2026-11-05).
     unavailable_claims = {
         claim["id"] for claim in claims or [] if claim.get("witness") == UNAVAILABLE_WITNESS
     }
+    unverifiable_claims = bibliographic_claims | unavailable_claims
 
     def source_depth(statement_id: str) -> str:
         stating = stating_claims.get(statement_id, set())
-        # Only a claim on a pinned source states a premise; a bibliographic
-        # citation alone supports it (owner decision 2026-11-05).
-        if stating - bibliographic_claims:
+        # Only a claim on a pinned, re-verifiable source states a premise; a
+        # bibliographic citation or an unavailable witness alone supports it
+        # (owner decisions 2026-11-05).
+        if stating - unverifiable_claims:
             return FRONTIER_STATED
         if stating or support.get(statement_id):
             return FRONTIER_SUPPORTED
@@ -1238,10 +1286,12 @@ def item_depth(item: dict[str, Any]) -> str:
     from a revision before #987 says "sourced" for both supported and stated
     premises; its `stating_claims` tells them apart. A report from before the
     pinned-source rule (2026-11-05) says "stated" for a premise stated only by
-    bibliographic claims (`bibliographic_claims`); it is supported."""
+    bibliographic (`bibliographic_claims`) or unavailable-witness
+    (`unavailable_claims`) claims; it is supported."""
     depth = item["depth"]
     if depth in (FRONTIER_LEGACY_SOURCED, FRONTIER_STATED):
-        pinned = set(item.get("stating_claims", ())) - set(item.get("bibliographic_claims", ()))
+        unverifiable = set(item.get("bibliographic_claims", ())) | set(item.get("unavailable_claims", ()))
+        pinned = set(item.get("stating_claims", ())) - unverifiable
         return FRONTIER_STATED if pinned else FRONTIER_SUPPORTED
     return depth
 
@@ -1651,6 +1701,10 @@ def format_frontier(report: dict[str, Any]) -> str:
     )
     for entry in floor:
         status = "met" if entry["met"] else "not met: " + "; ".join(entry["reasons"])
+        if entry.get("owner_approval") and entry["met"]:
+            status = "met by owner approval " + entry["owner_approval"]["decision"]
+            if entry.get("criterion_reasons"):
+                status += " (criterion not met: " + "; ".join(entry["criterion_reasons"]) + ")"
         lines.append(f"  {entry['statement_id']} [{entry['basis']}]: {status}")
     lines.extend(format_floor_bases(report.get("routes", {})))
     uncounted =[refutation for refutation in report.get("refutations", []) if not refutation["counted"]]

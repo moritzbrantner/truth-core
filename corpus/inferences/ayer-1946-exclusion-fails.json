@@ -1,0 +1,9 @@
+{
+  "id": "INF-AYER-1946-EXCLUSION-FAILS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-AYER-1946-EXCLUSION-FAILS",
+  "rule": "constructive-proof",
+  "meaning": "From Church's trivialization and no premises: if a sentence m and its negation were both not literally meaningful by the 1946 criterion, the negation would in particular not be directly verifiable, so m would be indirectly verifiable and hence meaningful. So no language with Church's observation statements satisfies the V3 exclusion thesis STMT-AYER-1946-EXCLUDES-SENTENCE-AND-NEGATION, which this argument refutes.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

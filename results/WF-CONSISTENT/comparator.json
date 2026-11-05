@@ -1,0 +1,1 @@
+{"challenge_module": "TruthCore.Results.Comparison.FideismConsistent.Challenge", "solution_module": "TruthCore.Results.Comparison.FideismConsistent.Solution", "theorem_names": ["TruthCore.Results.Comparison.FideismConsistent.wittgensteinianFideismConsistent"], "permitted_axioms": [], "enable_nanoda": true}

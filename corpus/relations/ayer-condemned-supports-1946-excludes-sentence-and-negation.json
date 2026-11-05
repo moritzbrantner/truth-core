@@ -1,0 +1,9 @@
+{
+  "id": "REL-AYER-CONDEMNED-SUPPORTS-1946-EXCLUDES-SENTENCE-AND-NEGATION",
+  "subject_kind": "claim",
+  "subject_id": "AYER-LTL-PELICAN-I-21-CONDEMNED",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-AYER-1946-EXCLUDES-SENTENCE-AND-NEGATION",
+  "note": "Gap: the monism-pluralism verdict condemns a thesis and its rival together, which is the pattern the statement types. The passage belongs to ch. I, written for the 1936 criterion and reprinted in the second edition; that Ayer holds the verdict under the 1946 criterion, and of 'there is a god' and its negation (ch. VI), is not stated here. The ch. VI passage has no admissible witness."
+}

@@ -1,0 +1,17 @@
+{
+  "id": "AYER-1936-CRITERION-TRIVIAL",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-AYER-1936-CRITERION-TRIVIAL",
+  "inference_ids": [
+    "INF-AYER-1936-CRITERION-TRIVIAL"
+  ],
+  "meaning": "From no premises, for every truth-conditional language: take the further premise P = (not-s or o) for an observation statement o. Then s with P entails o. If P alone entailed o, then not-s would entail o (not-s entails P). So whenever not-s does not entail o, s passes Ayer's 1936 test.",
+  "definition_ids": [
+    "DEF-AYER-1936-WEAK-VERIFIABILITY",
+    "DEF-EMPIRICIST-FRAME",
+    "DEF-TRUTH-CONDITIONAL-LANGUAGE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-VERIFIABILITY-VARIANT"
+  ]
+}

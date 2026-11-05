@@ -1,0 +1,15 @@
+{
+  "id": "STMT-VERIFICATION-PRINCIPLE-NOT-VERIFIABLE",
+  "paraphrase": "The formulation of the verification principle is not verifiable in the variant's sense. An open premise. For the 1946 criterion it is in tension with Church's trivialization (STMT-CHURCH-1949-TRIVIALIZATION): with Church's observation statements it can hold only if the principle's negation is directly verifiable.",
+  "lean_declaration": "TruthCore.Logic.Verificationism.PrincipleNotVerifiable",
+  "definition_ids": [
+    "DEF-TRUTH-CONDITIONAL-LANGUAGE",
+    "DEF-EMPIRICIST-FRAME",
+    "DEF-VERIFICATION-PRINCIPLE",
+    "DEF-SELF-APPLICATION-NORM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-VERIFICATIONIST-MEANINGFUL",
+    "DISAMB-VERIFIABILITY-VARIANT"
+  ]
+}

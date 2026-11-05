@@ -1,0 +1,9 @@
+{
+  "id": "REL-KRIPKE-NO-FACT-ALTERNATIVE-TO-PU-GRASP-NOT-INTERPRETATION",
+  "subject_kind": "statement",
+  "subject_id": "STMT-KRIPKE-NO-FACT-OF-MEANING",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-PU-SOME-GRASP-OF-RULE-NOT-INTERPRETATION",
+  "note": "Exegetical and philosophical rival: Kripke's sceptic takes the §201 paradox as a genuine sceptical problem with a sceptical solution, where §201 itself diagnoses a misunderstanding and points to a grasp that is not an interpretation (DISAMB-RULE-FOLLOWING-PARADOX). Off the root routes."
+}

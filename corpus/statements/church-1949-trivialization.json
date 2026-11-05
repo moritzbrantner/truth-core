@@ -1,0 +1,14 @@
+{
+  "id": "STMT-CHURCH-1949-TRIVIALIZATION",
+  "paraphrase": "Church's trivialization of Ayer's 1946 criterion: in any truth-conditional language with three observation statements o1, o2, o3 such that o1 does not entail o3 and o3 does not entail o2, every sentence whose negation is not directly verifiable is indirectly verifiable. The witness is Church's auxiliary sentence (not-o1 and o2) or (o3 and not-S). A theorem of logic about the criterion as defined, with no philosophical premise.",
+  "lean_declaration": "TruthCore.Logic.Verificationism.ChurchTrivialization",
+  "definition_ids": [
+    "DEF-TRUTH-CONDITIONAL-LANGUAGE",
+    "DEF-EMPIRICIST-FRAME",
+    "DEF-AYER-1946-VERIFIABILITY",
+    "DEF-CHURCH-SENTENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-VERIFIABILITY-VARIANT"
+  ]
+}

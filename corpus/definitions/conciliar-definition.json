@@ -1,0 +1,11 @@
+{
+  "id": "DEF-CONCILIAR-DEFINITION",
+  "term": "defined (by a council of the practice)",
+  "definition": "`P.Defined m`: an ecumenical council of the practice defines m, condemning its denial by canon (anathema sit).",
+  "basis": "stipulative",
+  "claim_ids": [
+    "VATICAN-I-DEI-FILIUS-CAN-II-1-NATURAL-KNOWABILITY"
+  ],
+  "lean_declaration": "TruthCore.Alternatives.Fideism.Practice.Defined",
+  "note": "Stipulated as the form of Dei Filius's canons; whether such a definition belongs to the practice's grammar is the open bridge STMT-CONCILIAR-DEFINITION-IS-PRACTICE-OWN-STANDARD, not part of this sense."
+}

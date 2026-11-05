@@ -1,0 +1,10 @@
+{
+  "id": "STMT-WF-FAILS-AS-DESCRIPTION-OF-CATHOLIC-PRACTICE",
+  "paraphrase": "Wittgensteinian fideism in its sharp form (internal grammar together with the cut-off thesis) does not hold of the Catholic practice: it misdescribes that practice. It says nothing about other practices or about weaker fideist proposals such as Phillips's later view or religious minimalism.",
+  "lean_declaration": "TruthCore.Alternatives.Fideism.FideismFailsAsDescription",
+  "definition_ids": [
+    "DEF-WITTGENSTEINIAN-FIDEISM",
+    "DEF-CORRECT-MOVE-IN-PRACTICE",
+    "DEF-PRACTICE-OWN-STANDARD"
+  ]
+}

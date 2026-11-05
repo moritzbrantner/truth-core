@@ -1,0 +1,8 @@
+{
+  "id": "DEF-AYER-1936-WEAK-VERIFIABILITY",
+  "term": "weakly verifiable (Ayer 1936)",
+  "definition": "`WeaklyVerifiable1936 F s`: for some further premises ps and observation statement e, s together with ps entails e and ps alone does not entail e. The further premises are unrestricted.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.Verificationism.WeaklyVerifiable1936",
+  "note": "Variant V2. Types Ayer's first-edition formulation in claim AYER-LTL-PELICAN-I-20-CRITERION (ch. I, p. 20 of the Pelican reprint), which Ayer's own note calls over-simplified."
+}

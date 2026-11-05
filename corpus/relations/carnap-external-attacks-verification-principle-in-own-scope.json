@@ -1,0 +1,9 @@
+{
+  "id": "REL-CARNAP-EXTERNAL-ATTACKS-VERIFICATION-PRINCIPLE-IN-OWN-SCOPE",
+  "subject_kind": "claim",
+  "subject_id": "CARNAP-ESO-II-EXTERNAL-PRACTICAL",
+  "predicate": "attacks",
+  "object_kind": "statement",
+  "object_id": "STMT-VERIFICATION-PRINCIPLE-IN-OWN-SCOPE",
+  "note": "The proposal reply, recorded as an objection: Carnap makes adopting a linguistic framework a practical decision, not an assertion. That does not by itself falsify PrincipleInOwnScope (which says only that the formulation is in scope): the bridge from nonassertive adoption to the formulation's lying outside the scope it governs is open and unattributed (docs/ayer-verification-boundary.md). LOGIC-SELF-APPLICATION-SCOPE-NEEDED shows only that nothing follows once the scope premise is dropped."
+}

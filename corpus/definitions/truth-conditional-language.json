@@ -1,0 +1,8 @@
+{
+  "id": "DEF-TRUTH-CONDITIONAL-LANGUAGE",
+  "term": "truth-conditional language; logical entailment",
+  "definition": "`Language`: sentences true or false at worlds, with negation, conjunction and disjunction obeying their classical truth conditions. `Language.Entails Γ s`: s holds at every world at which every premise in Γ holds. Sentences are not identified with their truth sets. The standard propositional language is the instance whose worlds are valuations, where this is classical logical consequence.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.Verificationism.Language",
+  "note": "Stipulative: the logic within which every verificationist criterion speaks of 'entails' and 'deducible'. No particular atoms, finiteness or decidability are assumed, so each theorem applies to every such language."
+}

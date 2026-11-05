@@ -1,0 +1,18 @@
+{
+  "id": "STMT-STRONG-VERIFICATIONISM-WITH-LAWS-FAILS",
+  "paraphrase": "For any frame and meaningfulness predicate closed under negation, the V1 package fails.",
+  "lean_declaration": "TruthCore.Logic.Verificationism.StrongVerificationismWithLawsFails",
+  "definition_ids": [
+    "DEF-TESTABLE-LAW-LANGUAGE",
+    "DEF-CONCLUSIVE-VERIFIABILITY",
+    "DEF-UNIVERSAL-LAW-SETTING",
+    "DEF-VERIFICATION-PRINCIPLE",
+    "DEF-TRUTH-CONDITIONAL-LANGUAGE",
+    "DEF-EMPIRICIST-FRAME",
+    "DEF-MEANING-NEGATION-CLOSURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-VERIFICATIONIST-MEANINGFUL",
+    "DISAMB-VERIFIABILITY-VARIANT"
+  ]
+}

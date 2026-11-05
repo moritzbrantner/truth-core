@@ -1,0 +1,22 @@
+{
+  "id": "STMT-CASE-NON-CONTRADICTION",
+  "paraphrase": "Non-contradiction for the case predicates: for every predicate of beings in respects, nothing both has it and lacks it in the same respect (Aristotle, Metaphysics IV.3, 1005b19-20).",
+  "lean_declaration": "TruthCore.Logic.CaseNonContradiction.CasePredicateNonContradiction",
+  "self_evident": {
+    "basis": "retorsion",
+    "justification_ids": [
+      "LOGIC-CASE-NON-CONTRADICTION-NOT-DENIABLE"
+    ],
+    "denial_statement_id": "STMT-SOME-CASE-PREDICATE-CONTRADICTION-TRUE",
+    "disagreement": {
+      "rival_statement_ids": [
+        "STMT-SOME-CASE-PREDICATE-CONTRADICTION-TRUE"
+      ]
+    },
+    "owner_approval": {
+      "decision": "https://github.com/moritzbrantner/truth-core/issues/1007#issuecomment-6661146758",
+      "date": "2026-11-05"
+    },
+    "note": "Floor item F1 (#1007), approved by the owner on the retorsion basis. Aristotle defends the principle elenctically, from what an opponent grants by speaking significantly (Metaphysics IV.4, 1006a11-28; claim ARIST-MET-1006A-PNC-ELENCTIC-A). Lean refutes the denial without axioms (LOGIC-CASE-NON-CONTRADICTION-NOT-DENIABLE), so inside the encoded logic the principle is no assumption. The marking records the floor relativity of D-L: a dialetheist (Hegel on motion, Priest) rejects that Lean's negation represents their position, so a classical refutation of a dialetheic rival counts only relative to this marking."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "WF-FAILS-AS-DESCRIPTION-OF-CATHOLIC-PRACTICE",
+  "argument_id": "WF-FAILS-AS-DESCRIPTION-OF-CATHOLIC-PRACTICE",
+  "challenge_module": "TruthCore.Results.Alternatives.FideismCatholicPractice.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.FideismCatholicPractice.Solution",
+  "theorem": "TruthCore.Results.Alternatives.FideismCatholicPractice.fideismFailsAsDescription",
+  "comparator_config": "results/WF-FAILS-AS-DESCRIPTION-OF-CATHOLIC-PRACTICE/comparator.json",
+  "status": "solution-present",
+  "description": "Derived, not a transcription: no premise has the conclusion as its consequent; the proof combines the council's defined move with the definition bridge and the fideist's internal-grammar thesis to get a correct move, and with the shared-reason reading and the cut-off thesis to deny it. The countermodels needsCouncil, needsDefinitionIsOwnStandard (the fideist's escape: conciliar teaching is theology about the practice, not its grammar) and needsNaturalReasonIsShared (the practice-internal re-reading of natural reason) show that each premise is needed. Conditional defeat resting on three open premises; no refutes relation (#999) and no premise closed. Zero axioms."
+}

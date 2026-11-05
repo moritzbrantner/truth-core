@@ -1,0 +1,10 @@
+{
+  "id": "STMT-WF-CONSISTENT",
+  "paraphrase": "The sharp fideist bundle (internal grammar and the cut-off thesis) is jointly satisfiable: some practice satisfies both. Its defeat for the Catholic practice therefore comes from that practice's rule, not from incoherence.",
+  "lean_declaration": "TruthCore.Comparison.Fideism.WittgensteinianFideismConsistent",
+  "definition_ids": [
+    "DEF-WITTGENSTEINIAN-FIDEISM",
+    "DEF-CORRECT-MOVE-IN-PRACTICE",
+    "DEF-PRACTICE-OWN-STANDARD"
+  ]
+}

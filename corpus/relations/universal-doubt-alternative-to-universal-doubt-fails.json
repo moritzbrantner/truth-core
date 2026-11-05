@@ -1,0 +1,9 @@
+{
+  "id": "REL-UNIVERSAL-DOUBT-ALTERNATIVE-TO-UNIVERSAL-DOUBT-FAILS",
+  "subject_kind": "statement",
+  "subject_id": "STMT-UNIVERSAL-DOUBT",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-UNIVERSAL-DOUBT-FAILS",
+  "note": "Off the root routes. The universal doubter is refuted conditionally by WITTGENSTEIN-UNIVERSAL-DOUBT-FAILS, whose one premise (Über Gewißheit §341) is stated but not established; under #999 no refutes relation is recorded."
+}

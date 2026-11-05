@@ -1,0 +1,10 @@
+{
+  "id": "DEF-DOUBTED-SENTENCE",
+  "term": "doubted (sentence)",
+  "definition": "`Doubted s`: the doubter in question doubts s, treats it as open to question. 'Exempt from doubt' is the negation. It does not say that an exempt sentence is known, true or justified.",
+  "basis": "stipulative",
+  "claim_ids": [
+    "WITTGENSTEIN-OC-341-DOUBT-RESTS-ON-EXEMPT"
+  ],
+  "note": "Analytical vocabulary for Über Gewißheit §§115, 341 (#1010); what status an exempt sentence has is DISAMB-HINGE-STATUS."
+}

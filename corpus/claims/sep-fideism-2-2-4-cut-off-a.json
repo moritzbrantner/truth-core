@@ -1,0 +1,13 @@
+{
+  "id": "SEP-FIDEISM-2-2-4-CUT-OFF-A",
+  "statement_id": "STMT-WF-RELIGION-CUT-OFF-FROM-SHARED-REASON",
+  "source_id": "SEP-FIDEISM",
+  "locator": "§2.2.4, '(1) that religion is logically cut off from other aspects of life'",
+  "interpretation": "The entry lists the theses Wittgensteinian fideism 'is variously characterized as entailing': '(1) that religion is logically cut off from other aspects of life; (2) that religious discourse is essentially self-referential and does not allow us to talk about reality; (3) that religious beliefs can be understood only by religious believers; and (4) that religion cannot be criticized.' Read thesis (1), with (4), for the practice's moves: no correct religious move answers to standards of reason shared with those outside the practice. This is the critics' characterization (Nielsen, 1967), which the same section reports Phillips rejecting as a caricature and doubts Wittgenstein would have endorsed; it is recorded as variant WF-N, not as Phillips's or Wittgenstein's view. Attribution reading of the position the entry reports, not a view of the entry's author.",
+  "status": "formalized",
+  "attribution": "The passage states that Wittgensteinian fideism is characterized as entailing that religion is logically cut off from other aspects of life and cannot be criticized, which, read for the practice's moves, is the premise that no correct religious move answers to reason shared with outsiders.",
+  "definition_ids": [
+    "DEF-WITTGENSTEINIAN-FIDEISM",
+    "DEF-NATURAL-REASON-SHARED"
+  ]
+}

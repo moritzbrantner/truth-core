@@ -409,6 +409,26 @@ class FrontierReportTest(unittest.TestCase):
         self.assertEqual(items["OPEN-B"]["bibliographic_claims"], ["CLAIM-BIB-2"])
         self.assertIn("bibliographic witness, not byte-verified: CLAIM-BIB\n", corpus.format_frontier(report) + "\n")
 
+    def test_unavailable_witness_only_stating_claims_count_as_supported(self) -> None:
+        # Owner decision 2026-11-05: a claim on a permanently unavailable
+        # witness can no longer be re-verified, so it only supports.
+        only_gone = [{"id": "CLAIM-GONE", "statement_id": "OPEN-A", "witness": "unavailable"}]
+        report = corpus.frontier_report(STATEMENTS, ARGUMENTS, RESULTS, [], root="ROOT", claims=only_gone)
+        item = {item["statement_id"]: item for item in report["items"]}["OPEN-A"]
+        self.assertEqual(item["depth"], "supported")
+        self.assertEqual(item["unavailable_claims"], ["CLAIM-GONE"])
+        self.assertEqual(report["depth_counts"], {"bare": 2, "supported": 1, "stated": 0})
+        for route in report["routes"]["routes"]:
+            if "OPEN-A" in route["open_premise_depths"]:
+                self.assertEqual(route["open_premise_depths"]["OPEN-A"], "supported")
+        mixed = only_gone + [{"id": "CLAIM-BIB", "statement_id": "OPEN-A", "witness": "bibliographic"}]
+        report = corpus.frontier_report(STATEMENTS, ARGUMENTS, RESULTS, [], root="ROOT", claims=mixed)
+        self.assertEqual({i["statement_id"]: i for i in report["items"]}["OPEN-A"]["depth"], "supported")
+        # A newly pinned witness makes it stated again.
+        repinned = only_gone + [{"id": "CLAIM-NEW", "statement_id": "OPEN-A"}]
+        report = corpus.frontier_report(STATEMENTS, ARGUMENTS, RESULTS, [], root="ROOT", claims=repinned)
+        self.assertEqual({i["statement_id"]: i for i in report["items"]}["OPEN-A"]["depth"], "stated")
+
     def test_bibliographic_only_stating_claims_count_as_supported(self) -> None:
         # Owner decision 2026-11-05: only a claim on a pinned source states a
         # premise; a bibliographic citation alone supports it.
@@ -479,9 +499,12 @@ class FrontierReportTest(unittest.TestCase):
             {"statement_id": "U", "depth": "sourced", "stating_claims": []},
             {"statement_id": "B", "depth": "bare", "stating_claims": []},
             {"statement_id": "C", "depth": "sourced", "stating_claims": ["BIB"], "bibliographic_claims": ["BIB"]},
+            {"statement_id": "G", "depth": "stated", "stating_claims": ["GONE"], "unavailable_claims": ["GONE"]},
         ]
-        self.assertEqual([corpus.item_depth(item) for item in legacy], ["stated", "supported", "bare", "supported"])
-        self.assertEqual(corpus.depth_counts(legacy), {"bare": 1, "supported": 2, "stated": 1})
+        self.assertEqual(
+            [corpus.item_depth(item) for item in legacy], ["stated", "supported", "bare", "supported", "supported"]
+        )
+        self.assertEqual(corpus.depth_counts(legacy), {"bare": 1, "supported": 3, "stated": 1})
 
     def test_output_is_deterministic(self) -> None:
         shuffled = corpus.frontier_report(
@@ -730,7 +753,26 @@ class FrontierSchemaTest(unittest.TestCase):
             "sceptical_rival_ids": ["NOT-P"],
             "disagreement": {"rival_statement_ids": ["NOT-P"], "claim_ids": ["D"]},
         })
+        approval = {
+            "decision": "https://github.com/moritzbrantner/truth-core/issues/1007#issuecomment-1",
+            "date": "2026-11-05",
+        }
+        check({
+            "basis": "observation",
+            "justification_ids": ["C"],
+            "sceptical_rival_ids": ["NOT-P"],
+            "disagreement": {"rival_statement_ids": ["NOT-P"]},
+            "owner_approval": approval,
+        })
         for marking in (
+            # #1007: an approval links the owner's comment, has a date, and needs a disagreement record.
+            {"basis": "retorsion", "justification_ids": ["R"], "denial_statement_id": "NOT-P", **none,
+             "owner_approval": {"decision": "yes", "date": "2026-11-05"}},
+            {"basis": "retorsion", "justification_ids": ["R"], "denial_statement_id": "NOT-P", **none,
+             "owner_approval": {"decision": approval["decision"]}},
+            {"basis": "common_ground", "justification_ids": ["C", "D"], "question_statement_id": "Q",
+             "positions": [{"statement_id": "Q", "claim_ids": ["C"]}, {"statement_id": "RIVAL", "claim_ids": ["D"]}],
+             "owner_approval": approval},
             {"justification_ids": ["R"], **none},  # basis-less outside the legacy list
             {"basis": "logical", "justification_ids": ["R"], **none},
             {"basis": "retorsion", "justification_ids": ["C"], "denial_statement_id": "NOT-P", **none},
@@ -884,6 +926,49 @@ class FloorBasisTest(unittest.TestCase):
             relations,
         )
         self.assertEqual(self.floor(report)["P"]["reasons"], ["RET is a transcription"])
+
+    APPROVAL = {
+        "decision": "https://github.com/moritzbrantner/truth-core/issues/1007#issuecomment-1",
+        "date": "2026-11-05",
+    }
+
+    def test_owner_approval_meets_a_marking_whose_rivals_stay_unrefuted(self) -> None:
+        # #1007: floor growth is an owner decision per item. The approved
+        # marking is met while its sceptical rival stays unrefuted; the unmet
+        # criterion stays visible.
+        marking = {
+            "basis": "observation",
+            "justification_ids": ["C-OBS"],
+            "sceptical_rival_ids": ["ELEATIC"],
+            "disagreement": {"rival_statement_ids": ["ELEATIC"]},
+            "owner_approval": self.APPROVAL,
+        }
+        statements = [statement("P", self_evident=marking), statement("ELEATIC"), statement("NEW-RIVAL")]
+        rival = [relation("statement", "ELEATIC", "alternative_to", "P")]
+        report = self.report(statements, relations=rival, claims=[("C-OBS", "P")])
+        entry = self.floor(report)["P"]
+        self.assertTrue(entry["met"])
+        self.assertEqual(entry["reasons"], [])
+        self.assertEqual(entry["criterion_reasons"], ["sceptical rivals not refuted: ELEATIC"])
+        self.assertEqual(entry["owner_approval"], self.APPROVAL)
+        self.assertEqual(report["closed_statements"]["P"], "self_evident")
+        self.assertIn("ROOT", report["established_statements"])
+        self.assertEqual(report["refuted_statements"], [])
+        self.assertIn("met by owner approval", corpus.format_frontier(report))
+        # A newly recorded rival that the disagreement record omits reopens it.
+        report = self.report(
+            statements,
+            relations=[*rival, relation("statement", "NEW-RIVAL", "alternative_to", "P")],
+            claims=[("C-OBS", "P")],
+        )
+        self.assertEqual(self.floor(report)["P"]["reasons"], ["disagreement record omits recorded rivals: NEW-RIVAL"])
+        self.assertNotIn("P", report["closed_statements"])
+        # Without the approval the same marking is not met.
+        unapproved = {key: value for key, value in marking.items() if key != "owner_approval"}
+        report = self.report(
+            [statement("P", self_evident=unapproved), statement("ELEATIC")], relations=rival, claims=[("C-OBS", "P")]
+        )
+        self.assertFalse(self.floor(report)["P"]["met"])
 
     def test_observation_needs_a_stating_claim_and_handled_sceptical_rivals(self) -> None:
         marking = {"basis": "observation", "justification_ids": ["C-OBS"], "sceptical_rival_ids": ["ELEATIC"]}

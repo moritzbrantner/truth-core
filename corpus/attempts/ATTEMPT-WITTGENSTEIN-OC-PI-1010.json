@@ -1,0 +1,22 @@
+{
+  "id": "ATTEMPT-WITTGENSTEIN-OC-PI-1010",
+  "statement_ids": [
+    "STMT-OC-DOUBT-RESTS-ON-EXEMPT-SENTENCES",
+    "STMT-UNIVERSAL-DOUBT-FAILS",
+    "STMT-NO-RULE-APPLICATION-DETERMINED",
+    "STMT-COGITO-THOUGHT-OCCURS",
+    "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD"
+  ],
+  "date": "2026-11-05",
+  "kind": "reading",
+  "outcome": "succeeded",
+  "summary": "Read the German Über Gewißheit (§§1, 7, 35-36, 94-97, 105, 110, 115, 151-152, 192-205, 253, 338-345, 383) and Philosophische Untersuchungen I (§§198, 201-202, 217-219, 243, 246, 258, 265, 293, 304, 307-308) from pinned public-domain witnesses, and the readings in SEP Fideism §4 and SEP Private Language §§1.1-1.2, 4. Two Lean results: the §341 → §115 retorsion against universal doubt, and the regress shape of §§198/201 with its three-way fork. Findings: (1) On Certainty supports no specific floor item: §341 gives only that some sentence stands fast (anyGivenSentenceDoubtable), and §151 denies that Moore-type propositions are known, so, if F3/F4 function as hinges (a bridge no source supplies), on the a-rational, non-propositional and nonsense readings they would stand fast without being established as known truths; only a known-truth reading supports the observation basis. (2) §§35-36 call 'there are physical objects' nonsense, a rival to the statementhood of a candidate F2 phrased with 'physical object', not to its truth. (3) The private-language sections deny a private ostensive criterion (§258), not the occurrence of thought (§§304, 308): neutral to F5 as an occurrence premise, a rival only to a Cartesian private-introspection basis for it; the retorsion basis (a denial is a thought) is unaffected. Rejected: reading §205 as an unconditional thesis that hinges are neither true nor false (the antecedent is not asserted); attributing Kripke's sceptical solution to Wittgenstein.",
+  "evidence": [
+    "WITTGENSTEIN-UNIVERSAL-DOUBT-FAILS",
+    "WITTGENSTEIN-INTERPRETATION-REGRESS",
+    "WITTGENSTEIN-OC-341-DOUBT-RESTS-ON-EXEMPT",
+    "WITTGENSTEIN-OC-151-STAND-FAST-NOT-KNOWN",
+    "WITTGENSTEIN-PU-308-NOT-DENIED"
+  ],
+  "blocker": "Any floor-basis change suggested by the hinge readings (recording them in the F3/F4 disagreement records, or a hinge basis) needs an owner decision (#1007); none is applied."
+}

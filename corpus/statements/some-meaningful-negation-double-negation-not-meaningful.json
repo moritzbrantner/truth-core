@@ -1,0 +1,13 @@
+{
+  "id": "STMT-SOME-MEANINGFUL-NEGATION-DOUBLE-NEGATION-NOT-MEANINGFUL",
+  "paraphrase": "The denial of the weak floor item: some meaningful negated sentence has a double negation that is not meaningful. Unattributed: the commitment of a strong verificationist for whom the negation of a law is verifiable and meaningful but the law's double negation is neither analytic nor conclusively verifiable.",
+  "lean_declaration": "TruthCore.Logic.Verificationism.SomeMeaningfulNegationDoubleNegationNotMeaningful",
+  "definition_ids": [
+    "DEF-MEANING-NEGATION-CLOSURE",
+    "DEF-VERIFICATION-PRINCIPLE",
+    "DEF-TRUTH-CONDITIONAL-LANGUAGE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-VERIFICATIONIST-MEANINGFUL"
+  ]
+}

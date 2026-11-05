@@ -1,0 +1,9 @@
+{
+  "id": "REL-TLP-4-003-SUPPORTS-GOD-SENTENCES-NONSENSICAL",
+  "subject_kind": "claim",
+  "subject_id": "WITTGENSTEIN-TLP-4-003-NONSENSICAL",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-TLP-GOD-SENTENCES-NONSENSICAL",
+  "note": "4.003 says most philosophical propositions are nonsensical, not that every sentence about God is; the extension to natural theology is the reconstruction's step."
+}

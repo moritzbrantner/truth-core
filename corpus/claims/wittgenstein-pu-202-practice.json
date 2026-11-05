@@ -1,0 +1,9 @@
+{
+  "id": "WITTGENSTEIN-PU-202-PRACTICE",
+  "statement_id": "STMT-PU-RULE-FOLLOWING-IS-A-PRACTICE",
+  "source_id": "WITTGENSTEIN-PHILOSOPHISCHE-UNTERSUCHUNGEN",
+  "locator": "§202, Darum ist ›der Regel folgen‹ eine Praxis",
+  "interpretation": "§202: 'Darum ist ›der Regel folgen‹ eine Praxis. Und der Regel zu folgen glauben ist nicht: der Regel folgen. Und darum kann man nicht der Regel ›privatim‹ folgen, weil sonst der Regel zu folgen glauben dasselbe wäre, wie der Regel folgen.' Whether 'Praxis' requires a community (Kripke) or only a regular practice, possibly of one person, is the disputed reading; it is not settled here.",
+  "status": "formalized",
+  "attribution": "The passage states that following a rule is a practice, that thinking one follows a rule is not following it, and that therefore one cannot follow a rule privately, which is the premise."
+}

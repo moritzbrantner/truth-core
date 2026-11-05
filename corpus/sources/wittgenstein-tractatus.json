@@ -1,0 +1,10 @@
+{
+  "id": "WITTGENSTEIN-TRACTATUS",
+  "kind": "primary_text",
+  "author": "Ludwig Wittgenstein",
+  "work": "Logisch-philosophische Abhandlung / Tractatus Logico-Philosophicus (London: Kegan Paul, Trench, Trubner, 1922; German text with the English translation by C. K. Ogden and F. P. Ramsey)",
+  "citation_system": "decimal proposition number (e.g. 6.522)",
+  "work_urn": "https://www.gutenberg.org/ebooks/5740",
+  "catalog_url": "https://www.gutenberg.org/ebooks/5740",
+  "notes": "Pinned from Project Gutenberg eBook #5740, the LaTeX source of the 1922 bilingual edition; German propositions are marked \\PropositionG{N}, English ones \\PropositionE{N}. Claims read the German original and give the Ogden English only as an aid; they carry no translation basis. Propositions 6.53-6.54 (the ladder) are used by the verificationism showcase (#1008), not here. Shared Tractatus witness for #1008 and #1010 (coordination on #1008)."
+}

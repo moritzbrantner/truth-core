@@ -1,0 +1,12 @@
+{
+  "id": "SEP-FIDEISM-2-2-4-PHILLIPS-NOT-GENERALLY-CONCLUSION-A",
+  "statement_id": "STMT-PHILLIPS-RELIGION-NOT-GENERALLY-CONCLUSION",
+  "source_id": "SEP-FIDEISM",
+  "locator": "§2.2.4, 'not generally the relation between conclusions and their justification'",
+  "interpretation": "In the last decade of his life Phillips 'argued that religious beliefs depend for their sense and importance on non-religious features of human existence, but that the relation between the former and the latter is not generally the relation between conclusions and their justification.' Read with its quantifier: 'not generally', which allows some religious beliefs to stand as justified conclusions. Attribution reading of the position the entry reports, not a view of the entry's author.",
+  "status": "formalized",
+  "attribution": "The passage states that Phillips argued that religious beliefs depend for their sense on non-religious features of human existence but are not generally related to them as conclusions to their justification, which is the premise.",
+  "definition_ids": [
+    "DEF-WITTGENSTEINIAN-FIDEISM"
+  ]
+}

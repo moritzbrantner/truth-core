@@ -1,0 +1,11 @@
+{
+  "id": "INF-MEANING-NEGATION-CLOSURE-STRONG-ENTAILS-WEAK",
+  "input_statement_ids": [
+    "STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-STRONG"
+  ],
+  "output_statement_id": "STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-WEAK",
+  "rule": "constructive-proof",
+  "meaning": "The strong version of negation closure entails the weak one by instantiation: closure at every sentence gives closure at every negated sentence. Records the strengthening between the -STRONG and -WEAK sibling statements (#1017).",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

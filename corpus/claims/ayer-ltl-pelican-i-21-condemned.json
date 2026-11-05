@@ -1,0 +1,15 @@
+{
+  "id": "AYER-LTL-PELICAN-I-21-CONDEMNED",
+  "statement_id": "STMT-AYER-UNREALITY-OF-SENSE-WORLD-NONSENSICAL",
+  "source_id": "AYER-LTL-PELICAN",
+  "locator": "ch. I, p. 21, \"is saying something which, according to our criterion of significance, is literally nonsensical\"",
+  "interpretation": "Ayer's examples of what the 1936 criterion rules out: the unreality thesis, because no conceivable observation could tend to show it, and the monism-pluralism controversy as a whole, since both sides admit no empirical situation could bear on it, so both a thesis and its rival are condemned.",
+  "attribution": "The passage states that the assertion that the sensible world is unreal is, by his criterion, literally nonsensical, and that the monist-pluralist dispute is fictitious, which is the premise.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-AYER-1936-WEAK-VERIFIABILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-VERIFIABILITY-VARIANT"
+  ]
+}

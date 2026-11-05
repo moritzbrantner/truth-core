@@ -1,0 +1,9 @@
+{
+  "id": "STMT-CONCILIAR-DEFINITION-IS-PRACTICE-OWN-STANDARD",
+  "paraphrase": "Open bridge, unattributed: in the Catholic practice, whatever an ecumenical council defines by canon is endorsed by the practice's own authoritative standards, so it belongs to the practice's grammar and is not merely theology about it.",
+  "lean_declaration": "TruthCore.Alternatives.Fideism.DefinitionIsOwnStandardReading",
+  "definition_ids": [
+    "DEF-CONCILIAR-DEFINITION",
+    "DEF-PRACTICE-OWN-STANDARD"
+  ]
+}

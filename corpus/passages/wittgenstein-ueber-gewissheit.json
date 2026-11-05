@@ -1,0 +1,24 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "WITTGENSTEIN-UEBER-GEWISSHEIT",
+    "source_url": "https://www.wittgensteinproject.org/w/index.php?title=%C3%9Cber_Gewi%C3%9Fheit&action=raw&oldid=12461",
+    "retrieved_at": "2026-11-05T15:36:00Z",
+    "sha256": "sha256:03fb077c24be79adf6b3c9ed4bb332bb23c303ebd704843ab8e6e4947e710409",
+    "encoding": "utf-8",
+    "language": "deu",
+    "license": "The page states that the work is in the public domain ('Dieses Werk ist gemeinfrei, weil seine urheberrechtliche Schutzfrist abgelaufen ist') in its country of origin and every state with a term of 70 years or less after the author's death (Wittgenstein died 1951). It is a reproduction of the Suhrkamp edition named in the colophon; the site's wiki content is CC BY-SA. US copyright status is not asserted. Pinned as the MediaWiki raw wikitext of one fixed page revision (oldid), which is byte-stable (two identical fetches on 2026-11-05); the rendered HTML page is not byte-stable (per-request ids). Only hashes, locators and a short incipit are committed. No Wayback fallback: web.archive.org refused connections from the pinning environment."
+  },
+  "passages": [
+    {
+      "id": "WITTGENSTEIN-OC",
+      "locator": "§§1-676 (whole text, raw wikitext)",
+      "claim_locator_prefixes": [
+        "§"
+      ],
+      "raw_text": true,
+      "text_sha256": "sha256:03fb077c24be79adf6b3c9ed4bb332bb23c303ebd704843ab8e6e4947e710409",
+      "incipit": "{{menu bar\n|work=OC\n|export"
+    }
+  ]
+}

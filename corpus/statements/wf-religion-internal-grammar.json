@@ -1,0 +1,10 @@
+{
+  "id": "STMT-WF-RELIGION-INTERNAL-GRAMMAR",
+  "paraphrase": "Wittgensteinian fideism, commitment 1 (internal grammar): whatever the religious practice's own authoritative standards endorse is a correct move in it. Only this direction is formalized; that correctness is fixed by nothing else is not used.",
+  "lean_declaration": "TruthCore.Alternatives.Fideism.InternalGrammarReading",
+  "definition_ids": [
+    "DEF-WITTGENSTEINIAN-FIDEISM",
+    "DEF-CORRECT-MOVE-IN-PRACTICE",
+    "DEF-PRACTICE-OWN-STANDARD"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "WITTGENSTEIN-UNIVERSAL-DOUBT-FAILS",
+  "premise_statement_ids": [
+    "STMT-OC-DOUBT-RESTS-ON-EXEMPT-SENTENCES"
+  ],
+  "conclusion_statement_id": "STMT-UNIVERSAL-DOUBT-FAILS",
+  "inference_ids": [
+    "INF-WITTGENSTEIN-UNIVERSAL-DOUBT-FAILS"
+  ],
+  "meaning": "Über Gewißheit §115 from §341 (#1010): if whenever something is doubted some sentence is exempt from doubt, then universal doubt (something doubted and everything doubted) fails, since the doubter's own doubt supplies an exempt sentence that universality denies. The premise is needed (needsDoubtRestsOnExemption). It picks out no particular hinge: anyGivenSentenceDoubtable shows the premise consistent with doubting any one chosen sentence, so it gives no support to a specific floor item such as F3 or F4, and it says nothing about whether an exempt sentence is known or true (DISAMB-HINGE-STATUS). It does not touch Pyrrhonian suspension. The premise is stated, not established, so under #999 no refutes relation is recorded.",
+  "definition_ids": [
+    "DEF-DOUBTED-SENTENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HINGE-STATUS"
+  ]
+}

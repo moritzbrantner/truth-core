@@ -1,0 +1,12 @@
+{
+  "id": "SEP-RELIGIOUS-LANGUAGE-4-1-INTERNAL-STANDARDS-A",
+  "statement_id": "STMT-WF-RELIGION-INTERNAL-GRAMMAR",
+  "source_id": "SEP-RELIGIOUS-LANGUAGE",
+  "locator": "§4.1, 'realism-relevant concepts are understood as language game internal concepts'",
+  "interpretation": "Religious minimalists (Putnam; Phillips in his later writings) 'agree' that 'realism-relevant concepts are understood as language game internal concepts. To know what makes for truth in religion, for instance, we need to look at the internal standards of justification that inform religious discourse.' Read as: what the practice's own standards of justification endorse is correct in it. This is the minimalist variant (WF-P2); §4.2 adds that minimalists allow outside evidence to inform religious judgement, so it does not carry the cut-off thesis. Attribution reading of the position the entry reports, not a view of the entry's author.",
+  "status": "formalized",
+  "attribution": "The passage states that religious minimalists take truth in religion to be fixed by the internal standards of justification of religious discourse, which is the premise that what the practice's own standards endorse is correct in it.",
+  "definition_ids": [
+    "DEF-WITTGENSTEINIAN-FIDEISM"
+  ]
+}
