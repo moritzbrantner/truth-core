@@ -19,7 +19,7 @@ readings, and a view developed by followers is not attributed to him.
 | Late Phillips, religious minimalism | WF-P2: reference and truth constituted inside the game; outside evidence admissible, `SEP-RELIGIOUS-LANGUAGE` §§4.1-4.2; `SEP-FIDEISM` §2.2.4 | rival off-route (face value theory); neutral to route leaves | `STMT-FACE-VALUE-THEORY-RELIGIOUS-LANGUAGE` (no route premise) | recorded |
 | Nielsen's critique | insulation of every form of life, `SEP-RELIGIOUS-LANGUAGE` §4.2 | objection to WF-N | attacks `STMT-WF-RELIGION-CUT-OFF-FROM-SHARED-REASON` | recorded; not a defeat (#1007: "not preferable" is not falsity) |
 | On Certainty: doubt rests on what stands fast | §§115, 341 (German, `WITTGENSTEIN-UEBER-GEWISSHEIT`) | support (against global doubt only) | the global sceptical rival of any observation floor item; no specific item (F3, F4) | `WITTGENSTEIN-UNIVERSAL-DOUBT-FAILS`, conditional on the stated §341 premise |
-| On Certainty: hinges stand fast but are not known | §151, §§204-205 (conditional), §§94-97; readings via `SEP-FIDEISM` §4 (Pritchard, Moyal-Sharrock, Read/Crary) | rival reading of the *basis* of F3/F4 (not of their truth) | 'established' for F3/F4 (observation basis) | recorded; floor-basis proposal for the owner below |
+| On Certainty: hinges stand fast but are not known | §151, §§204-205 (conditional), §§94-97; readings via `SEP-FIDEISM` §4 (Pritchard, Moyal-Sharrock, Read/Crary) | rival reading of the *basis* of F3/F4, conditional on their being hinges (a bridge no source gives) | 'established' for F3/F4 (observation basis) | recorded; floor-basis proposal for the owner below |
 | On Certainty: "there are physical objects" is nonsense | §§35-36 | rival to the statementhood of a candidate F2 phrased with "physical object" | candidate F2 ('something exists'), not approved | recorded |
 | PI: rule-following regress | §§198, 201-202; Kripke via `SEP-PRIVATE-LANGUAGE` §4 | neutral to the routes | none | `WITTGENSTEIN-INTERPRETATION-REGRESS` (regress plus three-way fork) |
 | PI: private-language argument | §§243, 258, 293, 304, 308; readings via `SEP-PRIVATE-LANGUAGE` §§1.1-1.2 | neutral to F5 as an occurrence premise; rival only to a private-introspection basis for it | candidate F5 (`STMT-COGITO-THOUGHT-OCCURS`) | recorded |
@@ -224,11 +224,20 @@ passages each reading relies on is not recorded):
 - §205, recorded as a conditional only: *if* the true is what is grounded, the
   ground is neither true nor false.
 
-Which sense the text supports is disputed, and none is attributed here. On
-the non-knowledge senses (2-4), the bearing on 'established' is as follows.
-F3 and F4 would *stand fast* without being *established* in the corpus's
-sense. They would not be denied, but they would not be known truths that
-refute their rivals either.
+Which sense the text supports is disputed, and none is attributed here.
+
+The bearing on F3 and F4 is conditional. It needs a bridge that no source
+gives: that these particular items ('something changes', 'something is
+moved') function as hinges. §151 discusses Moore's own propositions, and the
+reported readings concern hinges in general. None identifies F3/F4 as hinges
+or denies that those items are known.
+
+*If* that bridge holds, then on senses 2-4 F3 and F4 would stand fast without
+being established as known truths in the corpus's sense. They would not be
+denied, but they would not be known truths that refute their rivals either.
+Only the nonsense and non-propositional senses (3-4), and §205's conditional,
+bear on whether they are true at all. Sense 2 (Pritchard) says nothing against
+their truth.
 
 The bearing is on the floor **basis**, not on the items. No reading of *On
 Certainty* says that nothing changes or that nothing is moved. A hinge
@@ -245,19 +254,23 @@ hand", §1), it is a Moore-type hinge, and the reading question above decides it
 
 ### Proposed floor-basis changes (for the owner; none applied)
 
-- **P-OC-1.** Add the On Certainty hinge readings to the F3 and F4
-  `disagreement` records, as claims that deny that hinges are known truths
-  (`WITTGENSTEIN-OC-151-STAND-FAST-NOT-KNOWN`, `SEP-FIDEISM-4-HINGES-NONSENSE-A`,
-  `SEP-FIDEISM-4-HINGES-NON-PROPOSITIONAL-A`). Under #1007 this is
-  bookkeeping: the approval stays, and the disagreement becomes visible.
-  Recommended.
+- **P-OC-1.** Record the hinge readings as a *conditional* disagreement with F3
+  and F4: they bear on F3 and F4 only if those items function as hinges, a
+  bridge no source supplies (`WITTGENSTEIN-OC-151-STAND-FAST-NOT-KNOWN`,
+  `SEP-FIDEISM-4-HINGES-NONSENSE-A`, `SEP-FIDEISM-4-HINGES-NON-PROPOSITIONAL-A`).
+  This is not a listing of the claims as denials of F3 and F4 themselves.
+  Under #1007 it is bookkeeping: the approval stays, and the possible
+  disagreement becomes visible together with its missing bridge.
+  Recommended, with the bridge stated.
 - **P-OC-2.** Use `WITTGENSTEIN-UNIVERSAL-DOUBT-FAILS` as the refutation of a
   recorded *global* doubt rival, should one ever be listed under
   `sceptical_rival_ids` for an observation marking. It cannot count until
   §341 is established, so it has no effect today. Recommended only as a
   pointer.
-- **P-OC-3.** Do not adopt a "hinge" basis for F2-F4. It would make the items
-  stand fast without being true, which is weaker than the case needs.
+- **P-OC-3.** Do not adopt a "hinge" basis for F2-F4. On senses 2-4 it would
+  make the items stand fast without establishing them as known truths. On
+  senses 3-4 it would also leave their truth-aptness in question. That is
+  weaker than the case needs.
 
 ## Philosophical Investigations
 
