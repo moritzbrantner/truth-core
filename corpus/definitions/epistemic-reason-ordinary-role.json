@@ -1,0 +1,7 @@
+{
+  "id": "DEF-EPISTEMIC-REASON-ORDINARY-ROLE",
+  "term": "ordinary epistemic favoring",
+  "definition": "A consideration counts in favor of an attitude toward assessable content for a subject in relevant circumstances, with favorable bearing on answering correctly or being warranted in the answer. Mere causal production or reward does not supply that bearing by itself. Warrant may be defeasible and the favored answer false. This role can be interpreted within a chosen truth-directed project; it does not itself require preference-independent authority.",
+  "basis": "stipulative",
+  "note": "Analyst formulation motivated by the count-versus-reassurance argument in docs/notes/epistemic-reasons-preconditions.md. The definition fixes the proposed role, not its actual instantiation or normative authority; those are open philosophical claims. It supplies no numerical probability requirement, perfect access condition, or irreducibility claim."
+}

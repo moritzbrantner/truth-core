@@ -49,6 +49,17 @@ prerequisites; it does not show that one already explicitly believes every
 prerequisite or accepts a theory called transcendentalism. Nor does `P → C`
 establish that C exists necessarily, at every possible world.
 
+The ordinary-role existential is registered separately as
+`STMT-THERE-ARE-ORDINARY-ROLE-EPISTEMIC-REASONS`; the stronger authority
+existential as `STMT-THERE-ARE-PREFERENCE-INDEPENDENT-EPISTEMIC-REASONS`.
+Both remain **OPEN**, with neither a self-evidence marking nor a certified
+result. `DISAMB-EPISTEMIC-REASON-EXISTENCE-ROLE-AUTHORITY` links their three
+precise sense definitions and identifies their relationship to unchanged F6.
+These reusable analyst propositions have no Lean declaration: a theorem
+encoding their role premises would not establish their instantiation or
+philosophical warrant. `interpretation_of` is a source-claim relation, so no
+such attribution record is fabricated for this analyst fork.
+
 ## A complete argument: support cannot be replaced by production
 
 Consider the factual question whether a jar contains an even number of tiles.
@@ -248,7 +259,8 @@ those access/authority distinctions. #756's epistemic/ontic boundary, #932's
 discursive-authority investigation and #933's grounding question remain
 separate; no undelivered bridge from them is used.
 
-PR #1045, inspected read-only at `ffe53ec53150bacad511a1a5ff1b8b2fcb926993`,
+The merged PR #1045 argument is linked in
+[the correction note](epistemic-reasons-930.md). It was inspected read-only at `ffe53ec53150bacad511a1a5ff1b8b2fcb926993`,
 contains the earlier #930 argument and mathematical accuracy controls. Its
 proofs are not imported or restated here. No accuracy cost has been used as a
 normative premise in this investigation.
@@ -256,15 +268,18 @@ normative premise in this investigation.
 A new Lean theorem `∃ a p, Reason a p → ...` deriving nonempty domains would
 add no philosophical content. Adding a new predicate “epistemic favoring” and
 assuming `Reason → Favoring` would merely transcribe B. Both were rejected;
-there is no new theorem, frozen Challenge, statement, source claim or formal
-model. This note and the linked attempt preserve the argument rather than
+there is no new theorem, frozen Challenge, source claim or formal
+model. The two consequential analyst readings are separate open statements,
+with linked definitions and disambiguation rather than a decorative proof. This note and the linked attempt preserve the argument rather than
 advertise a manufactured proof count.
 
 Premise comparison: F6 retained as accepted common ground. B adds the openly
 defended ordinary-role interpretation; C defends a distinction used to assess
 explanations. Neither is classified as a newly closed premise. Preference
 independence is not added as an undisputed input. No philosophical or root
-premise is discharged; no formal graph, root route or closure changes.
+premise is discharged; the two open sibling statements and their sense records
+add reusable interpretation metadata, without a formal inference, root route
+or closure change.
 
 The next consequential question in #930 is whether being an epistemic merit
 of factual endorsement itself supplies a pro tanto reason for a person wholly

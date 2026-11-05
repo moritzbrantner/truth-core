@@ -1,0 +1,11 @@
+{
+  "id": "STMT-THERE-ARE-PREFERENCE-INDEPENDENT-EPISTEMIC-REASONS",
+  "paraphrase": "Some ordinary-role epistemic reason has pro tanto normative force that does not depend on its subject desiring accuracy or the favored answer, with relevant evidence and circumstances fixed. Analyst preference-independent reading; philosophical warrant remains OPEN. This asserts no overriding duty, agent-neutrality, factivity, infallible access, irreducibility or personal ground, and does not inherit F6 approval.",
+  "definition_ids": [
+    "DEF-EPISTEMIC-REASON-ORDINARY-ROLE",
+    "DEF-EPISTEMIC-REASON-PREFERENCE-INDEPENDENT-ROLE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EPISTEMIC-REASON-EXISTENCE-ROLE-AUTHORITY"
+  ]
+}
