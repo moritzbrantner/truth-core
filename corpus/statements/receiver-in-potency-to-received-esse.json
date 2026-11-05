@@ -1,0 +1,14 @@
+{
+  "id": "STMT-RECEIVER-IN-POTENCY-TO-RECEIVED-ESSE",
+  "paraphrase": "For every being x and principle r: if the esse of x is received in r, then r stands in receptive potency to the esse of x, as a receiver to its act. It does not say that the receiver differs from what it receives.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.DeEnte.ReceiverInPotencyToReceivedEsseReading",
+  "definition_ids": [
+    "DEF-ESSE-RECEIVED-IN",
+    "DEF-RECEPTIVE-POTENCY",
+    "DEF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSE-RECEPTION",
+    "DISAMB-RECEPTIVE-POTENCY"
+  ]
+}

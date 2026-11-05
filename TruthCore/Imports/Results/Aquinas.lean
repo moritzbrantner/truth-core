@@ -63,6 +63,8 @@ import TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaOneGovernor.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.ReducedDescriptionSuffices.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.SecundaVia.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.StrongReadingIntended.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.SubsistentInfinityFromReception.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.SubsistentInfinityReceptionControls.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaFinitePastExcludesSuccession.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaFinitePastHorn.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaNecessaryBeing.Solution

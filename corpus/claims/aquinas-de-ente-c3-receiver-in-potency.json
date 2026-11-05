@@ -1,0 +1,17 @@
+{
+  "id": "AQUINAS-DE-ENTE-C3-RECEIVER-IN-POTENCY",
+  "statement_id": "STMT-RECEIVER-IN-POTENCY-TO-RECEIVED-ESSE",
+  "source_id": "AQUINAS-DE-ENTE-ET-ESSENTIA",
+  "locator": "cap.3 [69874]: Omne autem quod recipit aliquid ab alio est in potentia respectu illius, et hoc quod receptum est in eo est actus eius",
+  "interpretation": "Whatever receives something from another is in potency with respect to it, and what is received in it is its act. Applied to esse, as the next sentence applies it to the quiddity of an intelligence: if a thing's esse is received in a principle, that principle stands in receptive potency to that esse as to its act. Only reception in a principle is formalized, not the origin 'from another'. The reading does not include that receiver and received are distinct; that is the separate unattributed STMT-NOTHING-IN-RECEPTIVE-POTENCY-TO-ITSELF. Receptive potency here belongs to a recipient that actually has the received act. It is not the legacy InPotency (DISAMB-RECEPTIVE-POTENCY).",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ESSE-RECEIVED-IN",
+    "DEF-RECEPTIVE-POTENCY",
+    "DEF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSE-RECEPTION",
+    "DISAMB-RECEPTIVE-POTENCY"
+  ]
+}
