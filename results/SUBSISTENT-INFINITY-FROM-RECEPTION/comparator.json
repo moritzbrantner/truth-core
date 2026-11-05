@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.SubsistentInfinityFromReception.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.SubsistentInfinityFromReception.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Aquinas.SummaTheologiae.SubsistentInfinityFromReception.subsistentBeingIsInfinite"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

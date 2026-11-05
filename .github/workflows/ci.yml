@@ -74,7 +74,9 @@ jobs:
           fi
       # On a PR, refetch only passages with changed manifests, including when the verifier
       # also changes. Offline tests exercise verifier changes without making unrelated witness
-      # availability a merge gate. Main and nightly runs still verify all sources live.
+      # availability a merge gate. Main refetches everything but reports unchanged,
+      # transport-unreachable web snapshots explicitly as unverified; nightlies and
+      # manual runs keep strict full verification. Drift is always fatal.
       - name: Verify immutable primary-source witnesses
         if: needs.comparator-plan.outputs.source == 'true'
         env:
@@ -82,6 +84,8 @@ jobs:
         run: |
           if [[ "$EVENT" == pull_request ]] && git rev-parse --verify HEAD^1 >/dev/null 2>&1; then
             python3 scripts/source_evidence.py verify --base HEAD^1 --head HEAD
+          elif [[ "$EVENT" == push ]] && git rev-parse --verify HEAD^1 >/dev/null 2>&1; then
+            python3 scripts/source_evidence.py verify --defer-unavailable-unchanged HEAD^1
           else
             python3 scripts/source_evidence.py verify
           fi
