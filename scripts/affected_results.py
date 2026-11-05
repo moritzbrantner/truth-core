@@ -24,7 +24,8 @@ on any cache state.
 keys its once-per-pin full NanoDa check on them.
 
 `select` also emits the heavyweight impact decisions to GITHUB_OUTPUT and the
-Actions summary (#568). Recognized documentation bypasses expensive work;
+Actions summary (#568). Recognized documentation and the offline frontier test
+bypass expensive work;
 missing diff bases and nightly/manual requests select full coverage. --main
 retains exhaustive verification for formal/corpus edits on main.
 
@@ -86,6 +87,7 @@ EXPLORER_INPUT_PATTERNS = (
     "scripts/source_evidence.py",
     "scripts/premise_dossiers.py",
     "scripts/bridge_experiments.py",
+    "scripts/issue_acceptance.py",
     "scripts/finite_models.py",
     "scripts/configurations.py",
     "scripts/configuration_explorer.py",
@@ -111,7 +113,7 @@ MAX_SHARDS = 4
 
 
 def input_kind(path: str) -> str:
-    """Only recognized non-executable prose may bypass the safety fallback.
+    """Classify inputs for the safety fallback and targeted checks.
 
     Markdown inside an app, verifier, result or script can be a build/test input;
     it deliberately does not inherit the documentation exemption.
@@ -120,6 +122,10 @@ def input_kind(path: str) -> str:
         path.startswith("docs/") and path.endswith(".md")
     ):
         return "docs"
+    # CI runs this file through unconditional unittest discovery. Its shared
+    # fixtures and the production code under test keep their own classifications.
+    if path == "scripts/test_corpus_frontier.py":
+        return "offline-test"
     if changed_module(path):
         return "lean"
     if path.startswith(("corpus/", "results/")) and path.endswith(".json"):
@@ -196,11 +202,14 @@ def changed_module(path: str) -> str | None:
 
 
 def needs_full_run(changed: Iterable[str]) -> list[str]:
-    return sorted(
-        path for path in changed
-        if input_kind(path) == "unknown"
-        or any(fnmatch.fnmatchcase(path, pattern) for pattern in FULL_RUN_PATTERNS)
-    )
+    unsafe = []
+    for path in changed:
+        kind = input_kind(path)
+        if kind == "offline-test":
+            continue
+        if kind == "unknown" or any(fnmatch.fnmatchcase(path, pattern) for pattern in FULL_RUN_PATTERNS):
+            unsafe.append(path)
+    return sorted(unsafe)
 
 
 def impact_plan(root: Path, changed: Iterable[str] | None, *, main: bool = False) -> dict:

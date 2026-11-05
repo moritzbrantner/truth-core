@@ -4,10 +4,9 @@ Agents currently assemble an argument's context from one `dossier` per premise,
 `related`, `frontier`, the Challenge module and hand-read imports. This module
 projects that context once, for one argument, from the existing authorities:
 
-* Lean source (authoritative for the advertised type and for actual reuse): the
-  frozen theorem text is copied verbatim from the Challenge module, companion
-  theorems are listed from the same module, and Lean-level dependencies are the
-  `import` closure of the Solution module mapped back to result records.
+* Lean source is authoritative for the advertised theorem's text. Import closure
+  is a proximity hint, not proof use; optional Lean proof-term inspection marks
+  reachable theorem references separately from unused imports.
 * `frontier_report` (authoritative for closure, depth and routes).
 * Corpus JSON records (arguments, results, attempts, models, relations,
   candidates, configurations, definitions) for everything else.
@@ -91,8 +90,79 @@ def resolve_target(target: str, arguments: dict[str, Any], results: dict[str, An
     return None, concluding
 
 
+def classify_result_reuse(root: Path, result: dict[str, Any], results: list[dict[str, Any]],
+                          arguments: dict[str, dict[str, Any]], used_theorems: list[str],
+                          closure_cache: dict[str, dict[str, int]] | None = None) -> list[dict[str, Any]]:
+    """Classify observed proof-term references against imports and the argument graph.
+
+    A graph link means only that the reused conclusion is an explicit premise or
+    commitment of this argument. No new edge or proof status is inferred.
+    """
+    module = result.get("solution_module", "")
+    if closure_cache is not None and module in closure_cache:
+        closure = closure_cache[module]
+    else:
+        closure = import_closure(root, module) if module else {}
+        if closure_cache is not None:
+            closure_cache[module] = closure
+    by_module: dict[str, list[dict[str, Any]]] = {}
+    for other in results:
+        for key in ("solution_module", "challenge_module"):
+            if other.get(key):
+                by_module.setdefault(other[key], []).append(other)
+    graph = arguments.get(result["argument_id"], {})
+    graph_premises = set(graph.get("premise_statement_ids", []) + graph.get("commitment_statement_ids", []))
+    used = set(used_theorems)
+    found: dict[str, dict[str, Any]] = {}
+    def add(other: dict[str, Any], imported_module: str | None, depth: int | None) -> None:
+        if other["id"] == result["id"]:
+            return
+        conclusion = arguments.get(other["argument_id"], {}).get("conclusion_statement_id")
+        graph_linked = conclusion in graph_premises
+        theorem_used = other.get("theorem") in used
+        classification = ("theorem-used, graph-linked" if graph_linked else
+                          "theorem-used, not in argument graph") if theorem_used else "import only"
+        found[other["id"]] = {
+            "module": imported_module or other.get("solution_module"), "depth": depth,
+            "result_id": other["id"], "argument_id": other["argument_id"],
+            "theorem": other.get("theorem"), "status": other.get("status"),
+            "graph_linked": graph_linked, "theorem_used": theorem_used,
+            "classification": classification,
+        }
+    for imported_module, depth in closure.items():
+        for other in by_module.get(imported_module, []):
+            add(other, imported_module, depth)
+    for other in results:
+        if other.get("theorem") in used and other["id"] not in found:
+            add(other, None, None)
+    return sorted(found.values(), key=lambda entry: (entry["depth"] is None,
+                  entry["depth"] if entry["depth"] is not None else 0, entry["result_id"]))
+
+
+def lean_reuse_review(root: Path, results: list[dict[str, Any]],
+                      arguments: dict[str, dict[str, Any]],
+                      proof_uses: dict[str, list[str]]) -> dict[str, Any]:
+    """One deterministic, read-only view of inspected result proof dependencies."""
+    cache: dict[str, dict[str, int]] = {}
+    findings = []
+    for result in sorted(results, key=lambda entry: entry["id"]):
+        if result.get("theorem") not in proof_uses:
+            continue
+        for entry in classify_result_reuse(root, result, results, arguments,
+                                           proof_uses[result["theorem"]], cache):
+            findings.append({"source_result_id": result["id"], **entry})
+    classes = ("theorem-used, graph-linked", "theorem-used, not in argument graph", "import only")
+    return {
+        "authority": "Lean proof-term references; advisory only, not graph or proof certification",
+        "summary": {"results_inspected": len(proof_uses),
+                    **{key: sum(f["classification"] == key for f in findings) for key in classes}},
+        "findings": findings,
+    }
+
+
 def context_pack(root: Path, data: dict[str, list[dict[str, Any]]], report: dict[str, Any], argument_id: str,
-                 related: list[dict[str, Any]] | None = None) -> dict[str, Any]:
+                 related: list[dict[str, Any]] | None = None,
+                 proof_uses: dict[str, list[str]] | None = None) -> dict[str, Any]:
     """`related` is the existing research-index ranking for the conclusion, passed through unchanged."""
     statements = {entry["id"]: entry for entry in data["statements"]}
     arguments = {entry["id"]: entry for entry in data["arguments"]}
@@ -166,7 +236,11 @@ def context_pack(root: Path, data: dict[str, list[dict[str, Any]]], report: dict
         consumers_depth2 = sorted(
             {other["id"] for other in data["results"] if other["id"] != result["id"] and other["id"] not in consumers
              and other.get("solution_module") and consumer_modules.intersection(lean_imports(root, other["solution_module"]))})
-        lean.append({
+        if proof_uses is not None and theorem in proof_uses:
+            reused = classify_result_reuse(root, result, data["results"], arguments, proof_uses[theorem])
+            for item in reused:
+                item["transcription"] = item["result_id"] in transcriptions
+        lean_entry = {
             "result_id": result["id"], "theorem": theorem, "status": result.get("status"),
             "transcription": result["id"] in transcriptions,
             "challenge_path": str(module_path(Path(), result.get("challenge_module", ""))),
@@ -181,7 +255,11 @@ def context_pack(root: Path, data: dict[str, list[dict[str, Any]]], report: dict
             "reused_results": reused,
             "lean_consumers": consumers,
             "lean_consumers_depth2": consumers_depth2,
-        })
+        }
+        if proof_uses is not None and theorem in proof_uses:
+            lean_entry["proof_theorems"] = sorted(set(proof_uses[theorem]))
+            lean_entry["proof_use_advisory"] = True
+        lean.append(lean_entry)
 
     # Lean neighbours: other results whose Solution directly imports a non-result module ours imports
     # directly (shared vocabulary). Proximity only: a shared import is not a shared premise.
@@ -400,9 +478,16 @@ def format_context(pack: dict[str, Any], limit: int = 6, width: int = 150, overf
                 lines.append(f"    L{block['line']} {_short(head, width)} [{checked}]")
             if len(entry["companion_theorems"]) > limit:
                 lines.append(f"    … {len(entry['companion_theorems']) - limit} more")
-        lines.append("  reuses results through Lean imports (depth 1 = direct):")
-        capped(entry["reused_results"], lambda r: [f"    {r['result_id']} d{r['depth']} [{r['status']}; {'graph-linked' if r['graph_linked'] else 'import only, not an argument premise'}] {r['theorem']}"],
-               ids=lambda r: [r["result_id"]])
+        if entry.get("proof_use_advisory"):
+            lines.append("  theorem reuse: Lean proof-term reachability (review only); d = import depth:")
+            capped(entry["reused_results"], lambda r: [f"    {r['result_id']} d{r['depth'] if r['depth'] is not None else '?'} "
+                f"[{r['status']}; {r['classification']}] {r['theorem']}"],
+                ids=lambda r: [r["result_id"]])
+        else:
+            lines.append("  reuses results through Lean imports (depth 1 = direct; not proof use):")
+            capped(entry["reused_results"], lambda r: [f"    {r['result_id']} d{r['depth']} "
+                f"[{r['status']}; {'graph-linked' if r['graph_linked'] else 'import only, not an argument premise'}] {r['theorem']}"],
+                ids=lambda r: [r["result_id"]])
         lines.append("  results whose Solution imports this Solution: " + (", ".join(entry["lean_consumers"]) or "none"))
         if entry.get("lean_consumers_depth2"):
             second = entry["lean_consumers_depth2"]

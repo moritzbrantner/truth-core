@@ -76,6 +76,18 @@ class DossierTests(unittest.TestCase):
         self.data["arguments"][0]["meaning"] = "m"
         self.assertIn("Floor basis: observation (met); justification: CLAIM", format_dossier(dossier, self.data))
 
+    def test_optional_issue_targets_are_explicitly_snapshot_scoped(self):
+        from premise_dossiers import format_dossier
+        self.data["claims"][0].update(source_id="SOURCE", locator="section", interpretation="Reading")
+        self.data["definitions"] = [{"id": "D1", "definition": "D1"}, {"id": "D2", "definition": "D2"}]
+        self.data["disambiguations"][0]["resolution"] = "Two senses"
+        self.data["arguments"][0]["meaning"] = "A conditional implication"
+        dossier = dossier_index(self.data, self.report)["P"]
+        self.assertNotIn("Issue targets", format_dossier(dossier, self.data))
+        dossier["targeting_issues"] = [{"number": 149, "status": "missing"}]
+        self.assertIn("Issue targets (offline acceptance snapshot): #149 [missing]",
+                      format_dossier(dossier, self.data))
+
     def test_restricted_projection_equals_full_entry(self):
         full = dossier_index(self.data, self.report)
         for sid in full:
