@@ -23,6 +23,7 @@ import TruthCore.Imports.Metaethics
 import TruthCore.Imports.Modal
 import TruthCore.Imports.Models
 import TruthCore.Imports.Modern
+import TruthCore.Imports.Observation
 import TruthCore.Imports.Politics
 import TruthCore.Imports.Refutations
 import TruthCore.Imports.Results.Alternatives
