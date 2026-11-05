@@ -63,33 +63,27 @@ def DiverseUnitedOnlyThroughUnitingCauseReading {Being : Sort u}
     (Unites : Being → Being → Being → Being → Prop) : Prop :=
   ∀ x a b, ComponentOf a x → ComponentOf b x → a ≠ b → ∃ c, Unites c a b x
 
-/-- A uniting cause is an efficient cause of what it unites, in some respect
-(*Deus autem non habet causam ... cum sit prima causa efficiens*).
+/-- A uniting cause is an efficient cause of what it unites, in some respect.
 
-The third proof excludes a uniting cause of God by his being the first efficient
-cause. That exclusion works only if the cause a composite has is an efficient
-cause; this is the reading formalized. Only "in some respect" is asserted, the
-weakest form that the *secunda via*'s exclusion of self-causation can use.
-
-Source: Thomas Aquinas, *Summa theologiae* I q.3 a.7 co., third proof.
+Unattributed open premise. It is motivated by, but not stated in, ST I q.3 a.7
+co., third proof (*Deus autem non habet causam ... cum sit prima causa
+efficiens*): that sentence excludes a uniting cause of God because he is the
+first efficient cause, but does not say that every uniting cause is efficient.
+Only "in some respect" is asserted, the weakest form that the *secunda via*'s
+exclusion of self-causation can use.
 -/
 def UnitingCauseIsEfficientCauseReading {Being : Sort u} {Respect : Sort v}
     (Unites : Being → Being → Being → Being → Prop)
     (EfficientlyCausesIn : Being → Being → Respect → Prop) : Prop :=
   ∀ c a b x, Unites c a b x → ∃ r, EfficientlyCausesIn c x r
 
-/-- A cause uniting the components of a composite causes the composite's being
-(*non habet esse quandiu partes eius sunt divisae, sed postquam constituunt et
-componunt ipsum compositum*).
+/-- A cause uniting the components of a composite causes the composite's being.
 
-Read from q.11 a.1 co. together with q.3 a.7 co. (*omne compositum causam
-habet*, given through the uniting cause): the composite has being only once its
-parts compose it, so what unites them causes its being. The step from "has being
-only once united" to "the uniter causes its being" is the interpretive step of
-this reading.
-
-Source: Thomas Aquinas, *Summa theologiae* I q.11 a.1 co.; I q.3 a.7 co., third
-proof.
+Unattributed open premise. ST I q.11 a.1 co. (*non habet esse quandiu partes eius
+sunt divisae, sed postquam constituunt et componunt ipsum compositum*) makes
+union a necessary condition of the composite's being; it does not say that what
+brings about the union is an effective cause (`CausesIn`) of its esse. This
+bridge supplies that further step.
 -/
 def UnitingCauseCausesBeingReading {Being : Sort u} {Respect : Sort v}
     (Unites : Being → Being → Being → Being → Prop)

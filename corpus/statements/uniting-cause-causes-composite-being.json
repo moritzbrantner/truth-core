@@ -1,6 +1,6 @@
 {
   "id": "STMT-UNITING-CAUSE-CAUSES-COMPOSITE-BEING",
-  "paraphrase": "Whatever unites two things into x causes the being of x (CausesIn c x esse).",
+  "paraphrase": "Unattributed open premise: whatever unites two things into x causes the being of x (CausesIn c x esse, effective causal responsibility). ST I q.11 a.1 co. states only that a composite has no being while its parts are divided, a necessary condition, not that the uniter causes its esse.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7Uniting.UnitingCauseCausesBeingReading",
   "definition_ids": [
     "DEF-UNITING-CAUSE",
