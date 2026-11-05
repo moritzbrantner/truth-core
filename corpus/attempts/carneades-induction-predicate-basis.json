@@ -1,15 +1,17 @@
 {
   "id": "ATTEMPT-CARNEADES-INDUCTION-PREDICATE-BASIS",
-  "date": "2026-10-28",
+  "date": "2026-11-05",
   "statement_ids": [
     "STMT-HUME-INDUCTION-TESTS",
-    "STMT-SCIENCE-PREDICATE-RECODING"
+    "STMT-SCIENCE-PREDICATE-RECODING",
+    "STMT-SCIENCE-INDUCTION-SELECTION"
   ],
   "kind": "derivation",
   "outcome": "succeeded",
-  "summary": "Read complete public Carneades.org auto captions for ye9qprxFP28 (00:00\u201303:40), with exact source/timestamps/download hash, provisional interpretation and rejected readings in docs/notes/carneades-induction.md. Existing Hume finite-prefix controls were reused as a boundary, not duplicated. Constructed a distinct stipulative two-phase recoding/factorization control: invertibility and extensional transport preserve information but not fixed-coordinate phase independence. Shared Lean development service accepted the exact combined vocabulary/proof with no diagnostics; final CI verification remains required. No source claim or historical attribution established; media materialization/audio verification remain undone. Relevant physical feature selection and normative/pragmatic preference remain open, and inability of deduction is not identified with irrational induction. Intended/actual root premise delta zero.",
+  "summary": "Read complete public Carneades.org auto captions for ye9qprxFP28 (00:00\u201303:40), with exact source/timestamps/download hash, provisional interpretation and rejected readings in docs/notes/carneades-induction.md. Existing Hume finite-prefix controls were reused as a boundary, not duplicated. Constructed a distinct stipulative two-phase recoding/factorization control: invertibility and extensional transport preserve information but not fixed-coordinate phase independence. Shared Lean development service accepted the exact combined vocabulary/proof with no diagnostics; final CI verification remains required. No source claim or historical attribution established; media materialization/audio verification remain undone. Relevant physical feature selection and normative/pragmatic preference remain open, and inability of deduction is not identified with irrational induction. Intended/actual root premise delta zero. Owner logic-first extension #1036: attribution is now deferred, not a prerequisite. Proved general recoding symmetry closure, singleton fixed-point requirement and incompatible deterministic selector bundle. Witnessed omission of evidence symmetry, equivariance and singleton output; instantiated finite-record restriction commuting with future recoding. Added original/recoded uniformity criteria selecting opposite candidates, with their warrant open. Rejected finite-prefix repetition, opaque selector flags, syntactic-disjunction-to-unnaturalness and uncertainty-to-irrationality inferences. No new sources/claims/passages; existing witness notes retained as provisional history. Root frontier premises retained unchanged; no root premise discharged.",
   "evidence": [
     "HUME-INDUCTION-TESTS",
-    "SCIENCE-PREDICATE-RECODING"
+    "SCIENCE-PREDICATE-RECODING",
+    "SCIENCE-INDUCTION-SELECTION"
   ]
 }
