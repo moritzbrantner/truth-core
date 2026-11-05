@@ -42,6 +42,15 @@ impl Corpus {
             records: BTreeMap::new(),
             fingerprint: 0xcbf29ce484222325,
         };
+        if fs::symlink_metadata(root.join("corpus"))
+            .is_ok_and(|metadata| metadata.file_type().is_symlink())
+        {
+            return Err(failure(
+                "invalid_path",
+                "corpus",
+                "a symlinked corpus directory is not supported".into(),
+            ));
+        }
         for &kind in KINDS {
             let directory = root.join("corpus").join(kind);
             if fs::symlink_metadata(&directory)

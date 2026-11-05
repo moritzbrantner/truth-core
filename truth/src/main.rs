@@ -1,16 +1,24 @@
 use serde_json::{Value, json};
-use std::{collections::BTreeMap, env, path::PathBuf, process::ExitCode};
+use std::{collections::BTreeMap, env, ffi::OsString, path::PathBuf, process::ExitCode};
 use truth::Corpus;
 
 const HELP: &str =
     "Usage: truth [--root PATH] [--json] status\n       truth [--root PATH] [--json] inspect ID";
 
-fn run(args: &[String]) -> Result<Value, (u8, Value)> {
+/// Arguments stay OS-native so a non-UTF-8 `--root` path works; every other
+/// argument must be UTF-8 text and is otherwise a usage error.
+fn run(args: &[OsString]) -> Result<Value, (u8, Value)> {
     let mut root = PathBuf::from(".");
     let mut positional = Vec::new();
     let mut args = args.iter();
     while let Some(arg) = args.next() {
-        match arg.as_str() {
+        let arg = arg.to_str().ok_or_else(|| {
+            (
+                2,
+                json!({"code":"usage", "message": "arguments other than the --root path must be UTF-8"}),
+            )
+        })?;
+        match arg {
             "--json" => {}
             "--root" => {
                 root = args.next().map(PathBuf::from).ok_or_else(|| {
@@ -66,7 +74,7 @@ fn run(args: &[String]) -> Result<Value, (u8, Value)> {
 }
 
 fn main() -> ExitCode {
-    let args: Vec<_> = env::args().skip(1).collect();
+    let args: Vec<OsString> = env::args_os().skip(1).collect();
     if matches!(args.as_slice(), [arg] if arg == "--help" || arg == "-h") {
         println!("{HELP}");
         return ExitCode::SUCCESS;

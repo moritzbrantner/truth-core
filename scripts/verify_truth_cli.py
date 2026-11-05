@@ -92,6 +92,30 @@ class TruthParity(unittest.TestCase):
             directory.symlink_to(Path(outside), target_is_directory=True)
             result = self.invoke("--root", str(root), "status", code=1)
             self.assertEqual(result["error"]["code"], "invalid_path")
+            # The corpus directory itself may not be a symlink either.
+            directory.unlink()
+            (Path(outside) / "statements").mkdir()
+            (Path(outside) / "statements" / "foreign.json").write_text(foreign.read_text())
+            (root / "corpus").rmdir()
+            (root / "corpus").symlink_to(Path(outside), target_is_directory=True)
+            result = self.invoke("--root", str(root), "status", code=1)
+            self.assertEqual((result["error"]["code"], result["error"]["path"]), ("invalid_path", "corpus"))
+
+    def test_non_utf8_root_path_is_accepted(self):
+        import os
+
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(os.fsdecode(os.fsencode(temporary) + b"/root-\xff"))
+            (root / "corpus" / "statements").mkdir(parents=True)
+            (root / "corpus" / "statements" / "a.json").write_text(
+                json.dumps({"id": "STMT-FIXTURE", "paraphrase": "One"})
+            )
+            result = subprocess.run(
+                [self.binary, "--json", "--root", os.fsencode(str(root)), "status"],
+                capture_output=True, check=False,
+            )
+            self.assertEqual(result.returncode, 0, result.stderr)
+            self.assertEqual(json.loads(result.stdout)["counts"]["statements"], 1)
 
 
 if __name__ == "__main__":
