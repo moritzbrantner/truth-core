@@ -15,6 +15,14 @@ import Lean
 
 open Lean Meta
 
+/-- Whether `n` was declared in a TruthCore module (not in Lean, Mathlib or another library). -/
+def isLocal (env : Environment) (n : Name) : Bool :=
+  match env.getModuleIdxFor? n with
+  | some idx => match env.header.moduleNames[idx.toNat]? with
+    | some m => (`TruthCore).isPrefixOf m
+    | none => false
+  | none => false
+
 def describeProofUse (targets : Array String) (thm : Name) : MetaM Json := do
   let env ← getEnv
   let some (.thmInfo info) := env.find? thm
@@ -28,9 +36,11 @@ def describeProofUse (targets : Array String) (thm : Name) : MetaM Json := do
     if n == thm || seen.contains n then continue
     seen := seen.insert n
     referenced := referenced.insert n
-    -- Walk through local helpers; library definitions are boundaries.
+    -- Walk through local helpers; library definitions are boundaries. Locality is
+    -- the declaring module, so private (`_private.TruthCore…`) and auxiliary
+    -- helpers of TruthCore modules are followed too.
     -- An axiom/constructor has no inspectable proof body.
-    if !("TruthCore.".isPrefixOf n.toString) then continue
+    if !(isLocal env n) then continue
     match env.find? n with
     | some (.thmInfo ci) => pending := pending ++ ci.value.getUsedConstants
     | some (.defnInfo ci) => pending := pending ++ ci.value.getUsedConstants
