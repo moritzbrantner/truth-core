@@ -21,6 +21,7 @@ import TruthCore.Results.Aquinas.SummaTheologiae.GoodnessFromDesirability.Soluti
 import TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectIncorporeal.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectNonorganic.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectSubsistence.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.ImmutableIsBoethianEternal.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.InfiniteGreatestWhole.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.IrrelevantRespectObjection.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.MaximeEnsIsGod.Solution
