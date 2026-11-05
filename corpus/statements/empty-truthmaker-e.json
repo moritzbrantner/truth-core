@@ -1,0 +1,15 @@
+{
+  "id": "STMT-EMPTY-TRUTHMAKER-E",
+  "lean_declaration": "TruthCore.Explanation.EmptyTruthmaker.EmptyPossible",
+  "paraphrase": "Some world accessible from the selected root has no existent in the fixed eligible maker roster.",
+  "definition_ids": [
+    "DEF-EMPTY-TRUTHMAKER-SCOPED",
+    "DEF-NEGATIVE-TRUTHMAKER-DOMAIN",
+    "DEF-BEARER-TRUTHMAKING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUTHMAKER-SCOPE-IDENTITY",
+    "DISAMB-TRUTHMAKING-REASON-CAUSE"
+  ],
+  "note": "Source-free conditional framework commitment; not independently defended. Candidate inhabitedness does not imply existence; the eligible roster need not exhaust reality."
+}

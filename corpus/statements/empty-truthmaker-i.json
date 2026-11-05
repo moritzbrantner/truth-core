@@ -1,0 +1,15 @@
+{
+  "id": "STMT-EMPTY-TRUTHMAKER-I",
+  "lean_declaration": "TruthCore.Explanation.EmptyTruthmaker.Immanence",
+  "paraphrase": "Every maker of the selected negative at an accessible world exists in that same world.",
+  "definition_ids": [
+    "DEF-EMPTY-TRUTHMAKER-SCOPED",
+    "DEF-NEGATIVE-TRUTHMAKER-DOMAIN",
+    "DEF-BEARER-TRUTHMAKING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUTHMAKER-SCOPE-IDENTITY",
+    "DISAMB-TRUTHMAKING-REASON-CAUSE"
+  ],
+  "note": "Source-free conditional framework commitment; not independently defended. Candidate inhabitedness does not imply existence; the eligible roster need not exhaust reality."
+}

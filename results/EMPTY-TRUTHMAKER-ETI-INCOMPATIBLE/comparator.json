@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.EmptyTruthmaker.Core.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.EmptyTruthmaker.Core.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Explanation.EmptyTruthmaker.Core.incompatible"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

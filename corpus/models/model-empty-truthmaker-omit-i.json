@@ -1,0 +1,87 @@
+{
+  "id": "MODEL-EMPTY-TRUTHMAKER-OMIT-I",
+  "description": "One accessible Unit world and one Unit candidate; the candidate is absent yet stipulated making is factive; this is an omission control, not an endorsed nonexistent ontology. Pullback of the already checked negativeArena control, not a newly discovered model.",
+  "vocabulary": "EMPTY-TRUTHMAKER-SCOPED",
+  "lean_declaration": "TruthCore.Explanation.EmptyTruthmaker.emptyControl",
+  "bindings": {
+    "W": "Unit",
+    "B": "Unit",
+    "F": "TruthCore.Explanation.EmptyTruthmaker.oneFrame",
+    "present": "TruthCore.Explanation.EmptyTruthmaker.emptyControl",
+    "makes": "TruthCore.Explanation.EmptyTruthmaker.absentMaking",
+    "a": "Unit.unit"
+  },
+  "carriers": [
+    {
+      "binding": "W",
+      "elements": [
+        "Unit.unit"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateUnit"
+    },
+    {
+      "binding": "B",
+      "elements": [
+        "Unit.unit"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateUnit"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-EMPTY-TRUTHMAKER-E",
+      "value": "satisfies",
+      "arguments": [
+        "W",
+        "B",
+        "F",
+        "present",
+        "a"
+      ],
+      "theorem": "TruthCore.Models.EmptyTruthmaker.omitI_E"
+    },
+    {
+      "statement_id": "STMT-EMPTY-TRUTHMAKER-T",
+      "value": "satisfies",
+      "arguments": [
+        "W",
+        "B",
+        "F",
+        "present",
+        "makes",
+        "a"
+      ],
+      "theorem": "TruthCore.Models.EmptyTruthmaker.omitI_T"
+    },
+    {
+      "statement_id": "STMT-EMPTY-TRUTHMAKER-I",
+      "value": "violates",
+      "arguments": [
+        "W",
+        "B",
+        "F",
+        "present",
+        "makes",
+        "a"
+      ],
+      "theorem": "TruthCore.Models.EmptyTruthmaker.omitI_notI"
+    },
+    {
+      "statement_id": "STMT-EMPTY-TRUTHMAKER-FACTIVITY",
+      "value": "satisfies",
+      "arguments": [
+        "W",
+        "B",
+        "F",
+        "present",
+        "makes",
+        "a"
+      ],
+      "theorem": "TruthCore.Models.EmptyTruthmaker.omitI_factive"
+    }
+  ],
+  "modules": [
+    "TruthCore.Models.EmptyTruthmaker",
+    "TruthCore.Models.FiniteSupport"
+  ]
+}

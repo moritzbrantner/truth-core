@@ -1,0 +1,15 @@
+{
+  "id": "STMT-CONCRETE-MAKER-POLICY",
+  "lean_declaration": "TruthCore.Explanation.TruthmakerTheories.ConcreteMaker",
+  "paraphrase": "Every maker of every represented fact at any world belongs to the supplied world-relative concrete extension.",
+  "definition_ids": [
+    "DEF-CONCRETE-EMPTY-TRUTHMAKER",
+    "DEF-BEARER-TRUTHMAKING",
+    "DEF-NEGATIVE-TRUTHMAKER-DOMAIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUTHMAKER-SCOPE-IDENTITY",
+    "DISAMB-TRUTHMAKING-REASON-CAUSE"
+  ],
+  "note": "Unattributed stipulated framework policy. For a concrete-existent interpretation of ConcreteMaker, the supplied concrete predicate must itself denote concrete existents; the theorem does not independently establish that interpretation."
+}

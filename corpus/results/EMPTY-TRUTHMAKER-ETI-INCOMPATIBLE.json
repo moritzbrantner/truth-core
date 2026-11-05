@@ -1,0 +1,9 @@
+{
+  "id": "EMPTY-TRUTHMAKER-ETI-INCOMPATIBLE",
+  "argument_id": "EMPTY-TRUTHMAKER-ETI-INCOMPATIBLE",
+  "challenge_module": "TruthCore.Results.Explanation.EmptyTruthmaker.Core.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.EmptyTruthmaker.Core.Solution",
+  "theorem": "TruthCore.Results.Explanation.EmptyTruthmaker.Core.incompatible",
+  "comparator_config": "results/EMPTY-TRUTHMAKER-ETI-INCOMPATIBLE/comparator.json",
+  "status": "solution-present"
+}
