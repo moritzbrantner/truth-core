@@ -1,0 +1,15 @@
+{
+  "id": "ATTEMPT-EPISTEMIC-REASONS-PRECONDITIONS-930",
+  "statement_ids": [
+    "STMT-THERE-ARE-EPISTEMIC-REASONS",
+    "STMT-THERE-ARE-ORDINARY-ROLE-EPISTEMIC-REASONS",
+    "STMT-THERE-ARE-PREFERENCE-INDEPENDENT-EPISTEMIC-REASONS"
+  ],
+  "date": "2026-11-05",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Completed the bounded conceptual argument in docs/notes/epistemic-reasons-preconditions.md: accepted F6 plus a defended ordinary epistemic-role interpretation requires actual favorable bearing on correctness or warrant, which mere causal influence or reward does not supply by itself. The bare Lean existential has no such encoded semantics. Distinguished role indispensability from ontological irreducibility; retained naturalist/functional, impersonal, constitutive and goal-relative explanations, and the open preference-independent authority bridge. Rejected decorative existential and Reason-to-Favoring transcription proofs. Registered two distinct OPEN analyst existentials for ordinary-role and preference-independent reasons, with sense definitions and shared disambiguation; neither inherits F6 approval. No new theorem, formal model, source attribution, formal inference or root premise discharge; success describes completion of the argument and comparison, not establishment of F6 or certification of the semantic bridge. PR1045 inspected read-only, not imported or changed.",
+  "evidence": [
+    "PR-1046"
+  ]
+}

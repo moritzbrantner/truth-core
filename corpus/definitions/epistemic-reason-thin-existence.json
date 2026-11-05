@@ -1,0 +1,8 @@
+{
+  "id": "DEF-EPISTEMIC-REASON-THIN-EXISTENCE",
+  "term": "thin epistemic reason existence",
+  "definition": "Existence of some agent and content related by Reason: some agent has an epistemic reason to believe some content. The Lean existential does not constrain the interpretation of Reason through correctness, evidence, desires, causal influence or authority.",
+  "basis": "stipulative",
+  "note": "Names the formal scope already encoded by accepted F6, without changing its intended meaning, recorded approval or declaration. It is not a replacement definition of epistemic reasons as arbitrary relations. See docs/notes/epistemic-reasons-preconditions.md.",
+  "lean_declaration": "TruthCore.Logic.EpistemicReasons.ThereAreEpistemicReasons"
+}
