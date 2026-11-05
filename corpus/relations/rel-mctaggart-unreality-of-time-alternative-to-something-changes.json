@@ -1,0 +1,9 @@
+{
+  "id": "REL-MCTAGGART-UNREALITY-OF-TIME-ALTERNATIVE-TO-SOMETHING-CHANGES",
+  "subject_kind": "statement",
+  "subject_id": "STMT-MCTAGGART-UNREALITY-OF-TIME",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-SOMETHING-CHANGES",
+  "note": "Class: substantive. Each conjunct is sourced to the pinned 1908 paper (MCTAGGART-1908-TIME-UNREAL-A, MCTAGGART-1908-ALL-CHANGE-A-SERIES-A); together they entail that nothing changes. Defeated by consequence against F3 (MCTAGGART-BUNDLE-DEFEATED-BY-CHANGE) once F3 is established."
+}
