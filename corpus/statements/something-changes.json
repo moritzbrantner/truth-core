@@ -1,0 +1,11 @@
+{
+  "id": "STMT-SOMETHING-CHANGES",
+  "paraphrase": "Something changes, in the general sense of change: some thing changes in some characteristic, quality or relation, the thoughts of conscious beings included. Floor candidate F3 (#1007), approved by the owner on the observation basis; the marking waits for a pinned text that states it in this sense.",
+  "lean_declaration": "TruthCore.Observation.Change.SomethingChangesReading",
+  "definition_ids": [
+    "DEF-CHANGE-GENERAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CHANGE-A-SERIES"
+  ]
+}

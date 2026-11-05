@@ -1,0 +1,19 @@
+{
+  "id": "MCTAGGART-BUNDLE-DEFEATED-BY-CHANGE",
+  "premise_statement_ids": [
+    "STMT-SOMETHING-CHANGES"
+  ],
+  "conclusion_statement_id": "STMT-MCTAGGART-UNREALITY-OF-TIME-FALSE",
+  "inference_ids": [
+    "INF-MCTAGGART-BUNDLE-DEFEATED-BY-CHANGE"
+  ],
+  "meaning": "Defeat by consequence (#1007, pilot b). McTaggart's two theses entail that nothing changes: whatever changed would, by all change being A-series change, give an event changing in its A-series determinations, which his first thesis denies. Given F3 (something changes), at least one thesis is false. Uses no opining, motion or bridge premise, unlike MCTAGGART-UNREALITY-OF-TIME-REFUTED. McTaggart's later reply (Nature of Existence II, § 511: appearers do not change) denies exactly F3, so the defeat is relative to F3's floor marking.",
+  "definition_ids": [
+    "DEF-A-SERIES-CHANGE",
+    "DEF-CHANGE-GENERAL",
+    "DEF-OPINING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CHANGE-A-SERIES"
+  ]
+}

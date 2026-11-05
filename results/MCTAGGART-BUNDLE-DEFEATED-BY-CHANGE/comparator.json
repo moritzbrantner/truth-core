@@ -1,0 +1,10 @@
+{
+  "challenge_module": "TruthCore.Results.Alternatives.McTaggartDefeatedByChange.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.McTaggartDefeatedByChange.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Alternatives.McTaggartDefeatedByChange.bundleDefeatedByChange",
+    "TruthCore.Results.Alternatives.McTaggartDefeatedByChange.needsSomethingChanges"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
