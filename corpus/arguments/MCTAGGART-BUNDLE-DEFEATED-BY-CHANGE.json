@@ -7,7 +7,7 @@
   "inference_ids": [
     "INF-MCTAGGART-BUNDLE-DEFEATED-BY-CHANGE"
   ],
-  "meaning": "Defeat by consequence (#1007, pilot b). McTaggart's two theses entail that nothing changes: whatever changed would, by all change being A-series change, give an event changing in its A-series determinations, which his first thesis denies. Given F3 (something changes), at least one thesis is false. Uses no opining, motion or bridge premise, unlike MCTAGGART-UNREALITY-OF-TIME-REFUTED. McTaggart's later reply (Nature of Existence II, § 511: appearers do not change) denies exactly F3, so the defeat is relative to F3's floor marking.",
+  "meaning": "Defeat by consequence (#1007, pilot b). McTaggart's two theses entail that nothing changes: whatever changed would, by all change being A-series change, give an event changing in its A-series determinations, which his first thesis denies. Given F3 (something changes), at least one thesis is false. Uses no opining, motion or bridge premise, unlike MCTAGGART-UNREALITY-OF-TIME-REFUTED. The defeat is relative to F3's floor marking and reaches only the 1908 bundle: McTaggart's later reply (Nature of Existence II, § 511: appearers do not change, AppearingsDoNotChangeReading) restricts the denial of change to opiners, which is compatible with F3 as stated, so it is not defeated here.",
   "definition_ids": [
     "DEF-A-SERIES-CHANGE",
     "DEF-CHANGE-GENERAL",
