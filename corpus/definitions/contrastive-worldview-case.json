@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CONTRASTIVE-WORLDVIEW-CASE",
+  "term": "actual truth, inherited testimony and social attraction",
+  "definition": "A Case separately records a Comparison, an actual true hypothesis, an attractive hypothesis and an inherited hypothesis, each Boolean. The probability update does not read the last three fields. The testimonyLikelihood channel outputs the true hypothesis with probability three quarters and the other with one quarter; each truth-conditioned row sums to one. These are stipulated conditional channel rates, not factivity, an accessible calibration or empirical tradition reliability.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.ContrastiveWorldview.Case",
+  "note": "Analyst formulation for issue #934; attribution deferred. Scope, competing readings and open applicability in docs/notes/contrastive-worldview-934.md. No claim about actual probability, reliability or normative authority is supplied."
+}

@@ -1,0 +1,21 @@
+{
+  "id": "STMT-CONTRASTIVE-WORLDVIEW-CORE",
+  "paraphrase": "For positive rational two-hypothesis Bayesian inputs with a non-dogmatic prior, posterior probabilities normalize and posterior odds equal prior odds times the likelihood ratio. Equal likelihoods preserve the prior; W gains probability exactly when its likelihood exceeds V\u2019s, while winning requires a prior-weighted likelihood advantage. Under an equal prior a posterior win is exactly a strict likelihood advantage; with equal likelihoods a posterior win requires prior greater than one half. Relabeling both hypotheses swaps their posteriors; changing only community identity preserves the declared public assessment. The imported neutral-selection symmetry theorem excludes a unique neutral answer on fixed evidence. Concrete cases separate inherited priors, reliable but fallible inherited testimony, false attractive choices and opposite truths with identical comparison data. A coherent insider membership convention varies with community and fails the declared public invariance condition. These are analyst framework consequences, not categorical obligations, factive warrant or worldview truth.",
+  "lean_declaration": "TruthCore.Logic.ContrastiveWorldview.CoreCertificate",
+  "definition_ids": [
+    "DEF-CONTRASTIVE-WORLDVIEW-BAYES",
+    "DEF-CONTRASTIVE-WORLDVIEW-CASE",
+    "DEF-CONTRASTIVE-WORLDVIEW-LOCAL-STANDARD",
+    "DEF-SCIENCE-INDUCTION-SELECTION",
+    "DEF-DATA-RELATIVE-CORRECTION-CRITERION",
+    "DEF-REFLECTIVE-EPISTEMIC-POLICY",
+    "DEF-TRUTH-DIRECTED-EPISTEMIC-BRIDGE",
+    "DEF-TRANSCENDENTAL-CATEGORICAL-DUTY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONTRASTIVE-WORLDVIEW-JUSTIFICATION",
+    "DISAMB-SCIENCE-INDUCTION-SELECTION",
+    "DISAMB-TRANSCENDENTAL-ACCESS-AND-DUTY",
+    "DISAMB-CORRECTION-CRITERION-AND-JUSTIFICATION"
+  ]
+}
