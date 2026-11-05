@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Decision.SignedWager.Challenge",
+  "solution_module": "TruthCore.Results.Decision.SignedWager.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Decision.SignedWager.practicalNontruth"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}
