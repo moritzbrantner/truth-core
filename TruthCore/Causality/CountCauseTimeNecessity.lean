@@ -1,11 +1,16 @@
-import TruthCore.Causality.CountTemporalNecessity
-import TruthCore.Models.CountTemporalControls
+module
+
+public import TruthCore.Causality.CountTemporalNecessity
+public import TruthCore.Models.CountTemporalControls
 
 /-! Analyst-defined cause-time configuration, not a source attribution. Reuse
 History, the exact AtLeastAt predicate and the supplied CauseCount relation.
 Only absence of count one at the selected cause time is required; no temporal
 order, first threshold or independently sufficient causal contribution is added.
 The existential witness remains an OPEN admission commitment. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.CountCauseTimeNecessity
 open TruthCore.Causality.CountTemporalNecessity
 open TruthCore.Modal.TemporalHistory

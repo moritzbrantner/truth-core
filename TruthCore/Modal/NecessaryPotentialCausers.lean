@@ -1,11 +1,16 @@
-import TruthCore.Modal.ExistenceDegrees
-import TruthCore.Models.NecessarilyUnderived
+module
+
+public import TruthCore.Modal.ExistenceDegrees
+public import TruthCore.Models.NecessarilyUnderived
 
 /-! A selected causal-union profile, not an identification of efficient
 causation with grounding: the existing support-union parameter is explicitly
 instantiated by Ontic.Causes. No intensity or degree-order premises are used.
 The conclusion is negative non-distinctness; no equality-stability or excluded-middle inference to positive identity is
 included. -/
+
+@[expose] public section
+
 namespace TruthCore.Modal.NecessaryPotentialCausers
 open TruthCore.German.Kant.CosmologicalInference
 open TruthCore.Causality.NecessarilyUnderived

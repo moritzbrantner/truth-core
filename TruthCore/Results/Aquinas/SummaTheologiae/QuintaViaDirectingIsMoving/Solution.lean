@@ -1,5 +1,10 @@
-import TruthCore.Case.Catholicism.StageOneQuintaVia
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question103.Government
+module
+
+public import TruthCore.Case.Catholicism.StageOneQuintaVia
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question103.Government
+
+@[expose] public section
+
 namespace TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaDirectingIsMoving
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Case.Catholicism (DirectingIsMoving)

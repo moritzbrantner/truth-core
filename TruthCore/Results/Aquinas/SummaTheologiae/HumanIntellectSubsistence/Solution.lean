@@ -1,6 +1,10 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question75.Subsistence
-import TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectIncorporeal.Solution
-import TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectNonorganic.Solution
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question75.Subsistence
+public import TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectIncorporeal.Solution
+public import TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectNonorganic.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectSubsistence
 open TruthCore.Latin.Aquinas.SummaTheologiae.HumanIntellect

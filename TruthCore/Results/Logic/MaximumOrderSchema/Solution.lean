@@ -1,4 +1,9 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaViaMaximumSchema
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaViaMaximumSchema
+
+@[expose] public section
+
 namespace TruthCore.Results.Logic.MaximumOrderSchema
 open TruthCore.Logic.MaximumOrder
 theorem maximumOrderSchema : MaximumOrderSchema := by

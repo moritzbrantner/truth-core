@@ -1,10 +1,15 @@
-import TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributesIdentity.Solution
-import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverIsMaximeEnsIdentity.Solution
-import TruthCore.Results.Aquinas.SummaTheologiae.MaximeEnsIsGodViaFullDescriptionIdentity.Solution
-import TruthCore.Case.Catholicism.StagesOneTwo
-import TruthCore.Results.Case.Catholicism.StageOneViaFullDescription.Solution
-import TruthCore.Results.Aquinas.SummaTheologiae.PrimaVia.Solution
-import TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributesAll.Solution
+module
+
+public import TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributesIdentity.Solution
+public import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverIsMaximeEnsIdentity.Solution
+public import TruthCore.Results.Aquinas.SummaTheologiae.MaximeEnsIsGodViaFullDescriptionIdentity.Solution
+public import TruthCore.Case.Catholicism.StagesOneTwo
+public import TruthCore.Results.Case.Catholicism.StageOneViaFullDescription.Solution
+public import TruthCore.Results.Aquinas.SummaTheologiae.PrimaVia.Solution
+public import TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributesAll.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Case.Catholicism.StagesOneTwoIdentity
 open TruthCore.Case.Catholicism
 open TruthCore.Latin.Aquinas.SummaTheologiae

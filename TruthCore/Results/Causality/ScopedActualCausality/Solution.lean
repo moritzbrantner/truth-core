@@ -1,6 +1,10 @@
-import TruthCore.Causality.ScopedActualCausality
-import TruthCore.Results.Causality.AtomisticCausalSource.Solution
-import TruthCore.Results.Causality.WorldSourceRegress.Solution
+module
+
+public import TruthCore.Causality.ScopedActualCausality
+public import TruthCore.Results.Causality.AtomisticCausalSource.Solution
+public import TruthCore.Results.Causality.WorldSourceRegress.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.ScopedActualCausality
 open TruthCore.Causality.ScopedActualCausality

@@ -1,9 +1,14 @@
-import TruthCore.Models.FiniteSupport
-import TruthCore.Explanation.ExistencePSR
+module
+
+public import TruthCore.Models.FiniteSupport
+public import TruthCore.Explanation.ExistencePSR
 
 /-! Named finite interpretations and closed certificates for #414.
 Registration tests formal consequence only; it does not establish metaphysical possibility.
 Existing Challenges and proof obligations are unchanged. -/
+
+@[expose] public section
+
 namespace TruthCore.Models.PSR
 open TruthCore.Explanation.ExistencePSR
 open TruthCore.German.Kant.CosmologicalInference

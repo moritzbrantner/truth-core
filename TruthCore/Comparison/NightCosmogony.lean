@@ -1,4 +1,6 @@
-import TruthCore.Alternatives.NightCosmogony
+module
+
+public import TruthCore.Alternatives.NightCosmogony
 
 /-!
 The "potency prior" cosmogony of *Metaphysics* XII.6, 1071b22-28, as a theory
@@ -13,6 +15,8 @@ everything able acts", 1071b23-24) are not formalized: they constrain only
 ability and act, not `PriorSimply`. Hesiod's and the Orphic theogonies
 themselves are not pinned; the bundle is the position as Aristotle presents it.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Comparison.NightCosmogony
 

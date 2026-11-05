@@ -1,5 +1,7 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3SecundaVia
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3SecundaVia
 
 /-!
 Typed premises of the third proof of ST I q.3 a.7 co. (*omne compositum causam
@@ -27,6 +29,8 @@ Source witnesses: SCTA diplomatic TEI of the Leonine edition, `scta-texts/TAca84
 passages `AQUINAS-ST-I-Q3-A7` and `AQUINAS-ST-I-Q11-A1`; Corpus Thomisticum Latin
 web snapshot of *Summa contra gentiles* I.18, passage `AQUINAS-SCG-I-18-LAT`.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7Uniting
 

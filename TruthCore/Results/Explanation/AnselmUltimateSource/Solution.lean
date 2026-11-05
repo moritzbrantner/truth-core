@@ -1,4 +1,8 @@
-import TruthCore.Explanation.AnselmUltimateSource
+module
+
+public import TruthCore.Explanation.AnselmUltimateSource
+
+@[expose] public section
 
 namespace TruthCore.Results.Explanation.AnselmUltimateSource
 open TruthCore.Explanation.AnselmUltimateSource

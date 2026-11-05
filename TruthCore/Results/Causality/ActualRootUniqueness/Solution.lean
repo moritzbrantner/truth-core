@@ -1,6 +1,10 @@
-import TruthCore.Causality.ActualRootUniqueness
-import TruthCore.Causality.DirectEsseRootUniquenessAtBeing
-import TruthCore.Results.Causality.WholeRosterFoundation.Solution
+module
+
+public import TruthCore.Causality.ActualRootUniqueness
+public import TruthCore.Causality.DirectEsseRootUniquenessAtBeing
+public import TruthCore.Results.Causality.WholeRosterFoundation.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.ActualRootUniqueness
 open TruthCore.Causality.BruteFoundationBoundary (Profile)

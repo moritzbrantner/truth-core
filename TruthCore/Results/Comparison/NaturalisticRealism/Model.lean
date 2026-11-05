@@ -1,4 +1,8 @@
-import TruthCore.Comparison.NaturalisticRealism
+module
+
+public import TruthCore.Comparison.NaturalisticRealism
+
+@[expose] public section
 
 namespace TruthCore.Results.Comparison.NaturalisticRealism
 open TruthCore.Metaethics.NaturalisticRealism

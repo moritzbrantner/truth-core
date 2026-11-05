@@ -1,5 +1,9 @@
-import TruthCore.Results.Isabelle.GoedelGod.InvariantFilterMakesNecessaryExistenceUniversal.Solution
-import TruthCore.Results.Isabelle.GoedelGod.NecessaryExistenceWorldIsolation.Solution
+module
+
+public import TruthCore.Results.Isabelle.GoedelGod.InvariantFilterMakesNecessaryExistenceUniversal.Solution
+public import TruthCore.Results.Isabelle.GoedelGod.NecessaryExistenceWorldIsolation.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Isabelle.GoedelGod.InvariantFilterDiffersFromScott
 

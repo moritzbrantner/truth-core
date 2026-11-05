@@ -1,19 +1,24 @@
-import TruthCore.Causality.NecessarySimplePlurality
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article8
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7Cause
-import TruthCore.Causality.PowerExistenceBoundary
-import TruthCore.Causality.NecessarilyUnderived
-import TruthCore.Explanation.ExistencePSR
-import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverSimple.Solution
-import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverPureAct.Solution
-import TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Solution
-import TruthCore.Results.Case.Catholicism.Q11NatureUniqueness.Solution
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article4
+module
+
+public import TruthCore.Causality.NecessarySimplePlurality
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article8
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7Cause
+public import TruthCore.Causality.PowerExistenceBoundary
+public import TruthCore.Causality.NecessarilyUnderived
+public import TruthCore.Explanation.ExistencePSR
+public import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverSimple.Solution
+public import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverPureAct.Solution
+public import TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Solution
+public import TruthCore.Results.Case.Catholicism.Q11NatureUniqueness.Solution
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article4
 
 /-! A five-being controlled strengthening of the unchanged four-being model.
 Efficient cause and priority are strict rank increase; components additionally
 have positive rank. This is finite satisfiability of the encoded commitments,
 not metaphysical possibility or a complete classical divine model. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.PartFreePlurality
 
 open TruthCore.Latin.Aquinas.SummaTheologiae

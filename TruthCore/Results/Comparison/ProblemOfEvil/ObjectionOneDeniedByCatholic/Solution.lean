@@ -1,5 +1,10 @@
-import TruthCore.Refutations.ProblemOfEvil
-import TruthCore.Results.Aquinas.SummaTheologiae.PrimaVia.Solution
+module
+
+public import TruthCore.Refutations.ProblemOfEvil
+public import TruthCore.Results.Aquinas.SummaTheologiae.PrimaVia.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Comparison.ProblemOfEvil.ObjectionOneDeniedByCatholic
 open TruthCore.Comparison.ProblemOfEvil
 open TruthCore.Refutations.ProblemOfEvil

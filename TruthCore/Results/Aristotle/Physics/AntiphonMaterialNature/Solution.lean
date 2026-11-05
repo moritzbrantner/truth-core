@@ -1,4 +1,8 @@
-import TruthCore.Greek.Aristotle.Physics.BookII.Chapter1
+module
+
+public import TruthCore.Greek.Aristotle.Physics.BookII.Chapter1
+
+@[expose] public section
 
 namespace TruthCore.Results.Aristotle.Physics.AntiphonMaterialNature
 

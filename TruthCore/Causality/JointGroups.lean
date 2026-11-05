@@ -1,10 +1,15 @@
-import TruthCore.Causality.SourceWitness
-import TruthCore.Causality.PluralRootConfluence
+module
+
+public import TruthCore.Causality.SourceWitness
+public import TruthCore.Causality.PluralRootConfluence
 
 /-! Analyst semantics for #733, not a source-derived account of causation.
 Groups index records, not additional substances. Membership projection reuses
 Graph; its arrows never assert individual sufficiency. See the linked semantic
 and source audit in docs/notes/joint-causal-groups-733.md. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.JointGroups
 open TruthCore.Logic.Regress
 open TruthCore.Causality.SourceForest

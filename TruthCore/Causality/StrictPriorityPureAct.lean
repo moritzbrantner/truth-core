@@ -1,9 +1,14 @@
-import TruthCore.Causality.NecessaryFirstBeing
-import TruthCore.Causality.DirectEsseGenusOmissionControl
-import Mathlib.Order.Defs.Unbundled
+module
+
+public import TruthCore.Causality.NecessaryFirstBeing
+public import TruthCore.Causality.DirectEsseGenusOmissionControl
+public import Mathlib.Order.Defs.Unbundled
 
 /-! Alternative conditional no-potency route and two finite separation controls.
 No source attribution or metaphysical applicability is asserted. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.StrictPriorityPureAct
 open TruthCore.Causality.BruteFoundationBoundary
 open TruthCore.Causality.WholeRosterFoundation

@@ -1,5 +1,7 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.ActPriorFromMotion
-import TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyModels
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.ActPriorFromMotion
+public import TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyModels
 
 /-!
 Facts about deriving act's simple priority from motion (#352). Beings `a`, `b`,
@@ -7,6 +9,8 @@ Facts about deriving act's simple priority from motion (#352). Beings `a`, `b`,
 `ActPotencyModels`. Each model below is written as exhaustive, non-overlapping
 matches, so the proofs need no axioms.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.ActPriorFromMotion
 open TruthCore.Latin.Aquinas.SummaTheologiae

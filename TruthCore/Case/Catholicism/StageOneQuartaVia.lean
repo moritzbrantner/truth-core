@@ -1,5 +1,7 @@
-import TruthCore.Case.Catholicism.StageOneBridges
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaVia
+module
+
+public import TruthCore.Case.Catholicism.StageOneBridges
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaVia
 
 /-!
 Stage-1 statements that connect the *prima via*'s first mover moved by none
@@ -10,6 +12,8 @@ Stage-1 statements that connect the *prima via*'s first mover moved by none
 no source sentence asserts them in this form, and each states exactly one link
 that the derivation needs.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Case.Catholicism
 

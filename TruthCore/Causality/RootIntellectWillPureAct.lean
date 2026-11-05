@@ -1,8 +1,13 @@
-import TruthCore.Causality.RootIntellectWill
+module
+
+public import TruthCore.Causality.RootIntellectWill
 
 /-! Same-witness joint endpoint only: no-potency is conjoined INSIDE the existing
 existential root tuple. No separate existential witnesses are identified.
 No source reading, positive perfection, God, eternity or reality truth is added. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.RootIntellectWillPureAct
 open TruthCore.Causality.BruteFoundationBoundary
 open TruthCore.Causality.NecessaryRootFork (ActualRoot)

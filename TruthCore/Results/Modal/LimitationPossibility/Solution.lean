@@ -1,4 +1,9 @@
-import TruthCore.Modal.LimitationPossibility
+module
+
+public import TruthCore.Modal.LimitationPossibility
+
+@[expose] public section
+
 namespace TruthCore.Results.Modal.LimitationPossibility
 open TruthCore.Modal.LimitationPossibility
 open TruthCore.Isabelle.AFP.GoedelGod

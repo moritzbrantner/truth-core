@@ -1,7 +1,9 @@
-import Mathlib.Order.Bounds.Basic
-import TruthCore.Case.Catholicism.StageOneQuartaVia
-import TruthCore.Greek.Aristotle.Metaphysics
-import TruthCore.Logic.ExcludedMiddle
+module
+
+public import Mathlib.Order.Bounds.Basic
+public import TruthCore.Case.Catholicism.StageOneQuartaVia
+public import TruthCore.Greek.Aristotle.Metaphysics
+public import TruthCore.Logic.ExcludedMiddle
 
 /-!
 Order models of *more and less in being* (issue #340, item 3).
@@ -47,6 +49,8 @@ which source fixes it.
 Source witnesses: SCTA diplomatic TEI of the Leonine edition, passages
 `AQUINAS-ST-I-Q3-A5` and `AQUINAS-ST-I-Q13-A5`.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Latin.Aquinas.SummaTheologiae
 

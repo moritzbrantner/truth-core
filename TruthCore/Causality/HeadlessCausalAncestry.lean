@@ -1,11 +1,16 @@
-import TruthCore.Causality.WorldSourceRegress
-import TruthCore.Logic.ExcludedMiddle
+module
+
+public import TruthCore.Causality.WorldSourceRegress
+public import TruthCore.Logic.ExcludedMiddle
 
 /-! Source-agnostic branching-network reconstruction of the survey A2
 mathematical question. Edges retain the supplied Graph meaning. A full ancestor
 cone is not assumed linear, acyclic, well-founded, infinite, concrete or actual.
 Actual application uses the existing WorldSourceRegress actual-node subtype.
 Nothing identifies ordinary causation with existential grounding. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.HeadlessCausalAncestry
 open TruthCore.Logic.Regress
 

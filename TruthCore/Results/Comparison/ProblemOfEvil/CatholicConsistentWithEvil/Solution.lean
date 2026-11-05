@@ -1,5 +1,7 @@
-import TruthCore.Comparison.ProblemOfEvil
-import TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaModels
+module
+
+public import TruthCore.Comparison.ProblemOfEvil
+public import TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaModels
 
 /-!
 A concrete model of the background, the frozen Catholic bundle, and evil.
@@ -28,6 +30,8 @@ Every predicate is a concrete extension defined by case analysis; none is a
 constant placeholder. The definitions are non-overlapping matches, so no proof
 needs `propext`.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Results.Comparison.ProblemOfEvil.CatholicConsistentWithEvil
 open TruthCore.Comparison.ProblemOfEvil

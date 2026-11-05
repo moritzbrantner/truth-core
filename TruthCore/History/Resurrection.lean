@@ -1,12 +1,16 @@
-import TruthCore.Greek.Clement.FirstCorinthians
-import TruthCore.Greek.Josephus.Antiquities
-import TruthCore.Greek.NewTestament.Acts
-import TruthCore.Greek.NewTestament.FirstCorinthians
-import TruthCore.Greek.NewTestament.Galatians
-import TruthCore.Greek.NewTestament.John
-import TruthCore.Greek.NewTestament.Mark
-import TruthCore.Greek.NewTestament.Matthew
-import TruthCore.Latin.Tacitus.Annals
+module
+
+public import TruthCore.Greek.Clement.FirstCorinthians
+public import TruthCore.Greek.Josephus.Antiquities
+public import TruthCore.Greek.NewTestament.Acts
+public import TruthCore.Greek.NewTestament.FirstCorinthians
+public import TruthCore.Greek.NewTestament.Galatians
+public import TruthCore.Greek.NewTestament.John
+public import TruthCore.Greek.NewTestament.Mark
+public import TruthCore.Greek.NewTestament.Matthew
+public import TruthCore.Latin.Tacitus.Annals
+
+@[expose] public section
 
 namespace TruthCore.History.Resurrection
 open TruthCore.Case.Catholicism

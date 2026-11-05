@@ -1,9 +1,14 @@
-import TruthCore.Causality.DirectEsseRootPerfectionGoodness
+module
+
+public import TruthCore.Causality.DirectEsseRootPerfectionGoodness
 
 /-! Full-background omission control on the EXACT #732 secondary-only rival.
 Only an all-present/all-concrete Profile view is added; the old role carrier,
 act, grades and causal responsibility fields are unchanged. Formal compatibility
 is not metaphysical possibility, morality or an adequate explanation. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.DirectEsseRootGoodnessOmission
 open TruthCore.Causality.BruteFoundationBoundary
 open TruthCore.Causality.WholeRosterFoundation

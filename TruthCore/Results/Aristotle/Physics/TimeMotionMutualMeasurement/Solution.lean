@@ -1,4 +1,8 @@
-import TruthCore.Greek.Aristotle.Physics.BookIV.Chapter12
+module
+
+public import TruthCore.Greek.Aristotle.Physics.BookIV.Chapter12
+
+@[expose] public section
 
 namespace TruthCore.Results.Aristotle.Physics.TimeMotionMutualMeasurement
 

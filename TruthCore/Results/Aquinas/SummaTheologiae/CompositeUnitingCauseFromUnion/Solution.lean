@@ -1,5 +1,9 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7Cause
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7Uniting
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7Cause
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7Uniting
+
+@[expose] public section
 
 universe u v
 

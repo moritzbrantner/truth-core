@@ -1,4 +1,8 @@
-import TruthCore.Causality.CompleteCauseContributorCover
+module
+
+public import TruthCore.Causality.CompleteCauseContributorCover
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.CompleteCauseContributorCover
 open TruthCore.Logic.Regress (Graph)

@@ -1,5 +1,7 @@
-import Mathlib.Data.Set.Defs
-import TruthCore.Explanation.PSRStrength
+module
+
+public import Mathlib.Data.Set.Defs
+public import TruthCore.Explanation.PSRStrength
 
 /-!
 Owner-proposed compression of multiple actual conditions into one conjunction.
@@ -10,6 +12,9 @@ The existing Arena's beings, facts, truth and causal relations remain unchanged.
 No explanation, individual sufficiency or causal direction follows from this
 logical packaging. See docs/notes/underived-essence-identity.md.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Explanation.JointCondition
 open TruthCore.Explanation.PSRStrength
 open TruthCore.German.Kant.CosmologicalInference

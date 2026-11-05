@@ -1,4 +1,9 @@
-import TruthCore.Greek.Aristotle.Physics.BookVII.Chapter2
+module
+
+public import TruthCore.Greek.Aristotle.Physics.BookVII.Chapter2
+
+@[expose] public section
+
 namespace TruthCore.Results.Aristotle.Physics.NoIntermediateThreeMotions
 open TruthCore.Greek.Aristotle.Physics
 theorem noIntermediateThreeMotions

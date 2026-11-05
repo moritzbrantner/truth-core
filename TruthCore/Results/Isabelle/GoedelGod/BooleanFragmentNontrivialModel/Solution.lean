@@ -1,6 +1,10 @@
-import TruthCore.Results.Isabelle.GoedelGod.BooleanFragmentClosed.Solution
-import TruthCore.Results.Isabelle.GoedelGod.BooleanFragmentStableBearerNE.Solution
-import TruthCore.Results.Isabelle.GoedelGod.NecessaryExistenceWorldIsolation.Solution
+module
+
+public import TruthCore.Results.Isabelle.GoedelGod.BooleanFragmentClosed.Solution
+public import TruthCore.Results.Isabelle.GoedelGod.BooleanFragmentStableBearerNE.Solution
+public import TruthCore.Results.Isabelle.GoedelGod.NecessaryExistenceWorldIsolation.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Isabelle.GoedelGod.BooleanFragmentNontrivialModel
 

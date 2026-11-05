@@ -1,9 +1,14 @@
-import TruthCore.Models.FiniteSupport
-import TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.Alternating.Solution
+module
+
+public import TruthCore.Models.FiniteSupport
+public import TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.Alternating.Solution
 
 /-! Finite interpretations of the existing quantifier vocabulary. These are
 mathematical assignments with a universal Boolean frame and literal identity;
 no metaphysical possibility, actual ontology or philosophical premise follows. -/
+
+@[expose] public section
+
 namespace TruthCore.Models.NecessaryIndividual
 open TruthCore.Case.Catholicism.StageOne.NecessaryIndividual
 

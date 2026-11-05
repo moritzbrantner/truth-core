@@ -1,4 +1,9 @@
-import TruthCore.Comparison.Resurrection
+module
+
+public import TruthCore.Comparison.Resurrection
+
+@[expose] public section
+
 namespace TruthCore.Results.Comparison.Resurrection.GroupHallucinationConsistent
 open TruthCore.History.Resurrection
 open TruthCore.Comparison.Resurrection

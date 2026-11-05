@@ -1,4 +1,9 @@
-import TruthCore.Modern.Russell.Existence
+module
+
+public import TruthCore.Modern.Russell.Existence
+
+@[expose] public section
+
 namespace TruthCore.Results.Modern.Russell.Description
 open TruthCore.Modern.Russell.Existence
 theorem checks : DescriptionLaw := by

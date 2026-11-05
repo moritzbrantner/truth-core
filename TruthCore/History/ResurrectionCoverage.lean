@@ -1,4 +1,8 @@
-import TruthCore.Comparison.Resurrection
+module
+
+public import TruthCore.Comparison.Resurrection
+
+@[expose] public section
 
 namespace TruthCore.History.Resurrection
 open TruthCore.Comparison.Resurrection

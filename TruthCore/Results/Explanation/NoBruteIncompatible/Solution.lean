@@ -1,5 +1,10 @@
-import TruthCore.Results.Explanation.NoBruteExistence.Solution
-import TruthCore.Logic.Configuration
+module
+
+public import TruthCore.Results.Explanation.NoBruteExistence.Solution
+public import TruthCore.Logic.Configuration
+
+@[expose] public section
+
 namespace TruthCore.Results.Explanation.NoBruteIncompatible
 open TruthCore.Explanation.ExistencePSR
 open TruthCore.Explanation.NoBruteExistence

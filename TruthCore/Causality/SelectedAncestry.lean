@@ -1,9 +1,14 @@
-import TruthCore.Causality.NecessaryRootFork
+module
+
+public import TruthCore.Causality.NecessaryRootFork
 
 /-! One selected existent's COMPLETE actual grounding ancestry (#311/#613).
 Reuse ActualConcreteGround and Mathlib ReflTransGen. No observed prefix, new
 ontology or thought occurrence is substituted for this cone. All application
 hypotheses remain explicit and source-free. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.SelectedAncestry
 open TruthCore.Causality.BruteFoundationBoundary
 open TruthCore.Causality.NecessaryRootFork

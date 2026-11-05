@@ -1,5 +1,10 @@
-import TruthCore.Causality.TemporalPrimaVia
-import TruthCore.Results.Causality.TemporalPrimaVia.Route.Solution
+module
+
+public import TruthCore.Causality.TemporalPrimaVia
+public import TruthCore.Results.Causality.TemporalPrimaVia.Route.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Causality.TemporalPrimaVia.Controls
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Causality.TemporalActualization

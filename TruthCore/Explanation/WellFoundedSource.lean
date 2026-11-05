@@ -1,6 +1,8 @@
-import Mathlib.Order.WellFounded
-import TruthCore.Explanation.ExistencePSR
-import TruthCore.Models.PSR
+module
+
+public import Mathlib.Order.WellFounded
+public import TruthCore.Explanation.ExistencePSR
+public import TruthCore.Models.PSR
 
 /-!
 # Existence-PSR, a causal source, and well-foundedness
@@ -12,6 +14,9 @@ finds are merely without an *existing incoming cause* at that world; neither
 their necessity, uniqueness, reality, intrinsic explanatory sufficiency nor
 divinity is encoded.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Explanation.WellFoundedSource
 
 open TruthCore.Explanation.ExistencePSR

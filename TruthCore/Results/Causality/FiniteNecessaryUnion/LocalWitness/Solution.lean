@@ -1,4 +1,8 @@
-import TruthCore.Causality.FiniteNecessaryUnion
+module
+
+public import TruthCore.Causality.FiniteNecessaryUnion
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.FiniteNecessaryUnion.LocalWitness
 

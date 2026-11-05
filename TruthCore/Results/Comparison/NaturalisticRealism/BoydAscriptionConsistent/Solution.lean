@@ -1,4 +1,9 @@
-import TruthCore.Results.Comparison.NaturalisticRealism.ModelFacts
+module
+
+public import TruthCore.Results.Comparison.NaturalisticRealism.ModelFacts
+
+@[expose] public section
+
 namespace TruthCore.Results.Comparison.NaturalisticRealism.BoydAscriptionConsistent
 open TruthCore.Comparison.NaturalisticRealism
 

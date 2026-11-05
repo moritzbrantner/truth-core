@@ -1,7 +1,11 @@
-import TruthCore.Results.Causality.NecessaryFirstBeing.Solution
-import TruthCore.Causality.RootIntellectWill
-import TruthCore.Results.Causality.RootWithoutLimitingPrinciple.Solution
-import TruthCore.Results.Causality.RootEssenceIdentity.Solution
+module
+
+public import TruthCore.Results.Causality.NecessaryFirstBeing.Solution
+public import TruthCore.Causality.RootIntellectWill
+public import TruthCore.Results.Causality.RootWithoutLimitingPrinciple.Solution
+public import TruthCore.Results.Causality.RootEssenceIdentity.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.RootNonlimitationFromCompositionKinds
 open TruthCore.Causality.BruteFoundationBoundary

@@ -1,7 +1,12 @@
-import TruthCore.Causality.UnderivedEssenceEsse
+module
+
+public import TruthCore.Causality.UnderivedEssenceEsse
 
 /-! Selected-world restrictions of the existing support vocabulary. These are
 open structural hypotheses, with no new historical attribution. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.ActualUnderivedEssenceEsse
 open TruthCore.German.Kant.CosmologicalInference
 open TruthCore.Causality.NecessarilyUnderived

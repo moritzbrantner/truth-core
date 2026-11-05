@@ -1,4 +1,9 @@
-import TruthCore.Greek.Aristotle.Physics.BookVI.Chapter10
+module
+
+public import TruthCore.Greek.Aristotle.Physics.BookVI.Chapter10
+
+@[expose] public section
+
 namespace TruthCore.Results.Aristotle.Physics.DivisibleTimeNoIndivisibleMotion
 open TruthCore.Greek.Aristotle.Physics
 theorem divisibleTimeNoIndivisibleMotion

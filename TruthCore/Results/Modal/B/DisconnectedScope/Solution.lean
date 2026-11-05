@@ -1,5 +1,10 @@
-import TruthCore.Modal.BResearch
-import TruthCore.Results.Modal.K.Laws.Solution
+module
+
+public import TruthCore.Modal.BResearch
+public import TruthCore.Results.Modal.K.Laws.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Modal.B.DisconnectedScope
 open TruthCore.Modal
 open TruthCore.Modal.ResearchFixture

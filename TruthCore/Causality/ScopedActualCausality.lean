@@ -1,13 +1,18 @@
-import TruthCore.Causality.AtomisticCausalSource
-import TruthCore.Causality.WorldSourceRegress
-import TruthCore.Causality.PossibleCauseOfContingency
-import TruthCore.Logic.ExcludedMiddle
-import Mathlib.Order.Basic
+module
+
+public import TruthCore.Causality.AtomisticCausalSource
+public import TruthCore.Causality.WorldSourceRegress
+public import TruthCore.Causality.PossibleCauseOfContingency
+public import TruthCore.Logic.ExcludedMiddle
+public import Mathlib.Order.Basic
 
 /-! Analyst restriction of ordinary causal coverage to ONE selected world.
 The complete-production interpretation is OPEN, not inferred from grounding or
 from the source's nonmodal argument. No distinctness, concreteness, endpoint
 policy or frame property is built into the predicate. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.ScopedActualCausality
 open TruthCore.German.Kant.CosmologicalInference
 open TruthCore.Causality.WorldSourceRegress

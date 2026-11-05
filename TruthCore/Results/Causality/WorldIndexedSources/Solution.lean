@@ -1,5 +1,10 @@
-import TruthCore.Models.WorldIndexedSources
-import TruthCore.Results.Causality.WorldSourceRegress.Solution
+module
+
+public import TruthCore.Models.WorldIndexedSources
+public import TruthCore.Results.Causality.WorldSourceRegress.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Causality.WorldIndexedSources
 open TruthCore.German.Kant.CosmologicalInference
 open TruthCore.Causality.NecessarilyUnderived

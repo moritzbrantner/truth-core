@@ -1,4 +1,8 @@
-import TruthCore.Causality.FiniteRestriction
+module
+
+public import TruthCore.Causality.FiniteRestriction
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.FiniteRestriction
 

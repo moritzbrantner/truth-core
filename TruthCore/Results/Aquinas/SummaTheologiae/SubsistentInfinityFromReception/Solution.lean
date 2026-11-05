@@ -1,7 +1,11 @@
-import TruthCore.Causality.EsseReception
-import TruthCore.Latin.Aquinas.DeEnte.EsseReception
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.InfinityEternity
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.InfinityReception
+module
+
+public import TruthCore.Causality.EsseReception
+public import TruthCore.Latin.Aquinas.DeEnte.EsseReception
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.InfinityEternity
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.InfinityReception
+
+@[expose] public section
 
 universe u w
 

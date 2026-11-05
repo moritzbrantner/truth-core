@@ -1,10 +1,12 @@
-import TruthCore.Logic.Regress
-import TruthCore.Logic.SelfApplication
-import TruthCore.Greek.Plato.ParticipationGrounding
-import TruthCore.Explanation.ExistencePSR
-import TruthCore.Results.Case.Catholicism.CausalFinitism.Solution
-import TruthCore.Results.Causality.GroundingYieldsRegress.Solution
-import TruthCore.Results.Aristotle.Physics.Typed.MovedByAnotherRegressFromPerSeRegress.Solution
+module
+
+public import TruthCore.Logic.Regress
+public import TruthCore.Logic.SelfApplication
+public import TruthCore.Greek.Plato.ParticipationGrounding
+public import TruthCore.Explanation.ExistencePSR
+public import TruthCore.Results.Case.Catholicism.CausalFinitism.Solution
+public import TruthCore.Results.Causality.GroundingYieldsRegress.Solution
+public import TruthCore.Results.Aristotle.Physics.Typed.MovedByAnotherRegressFromPerSeRegress.Solution
 
 /-!
 Six distinct domain adapters for #412. These are analyst conditionals, not
@@ -13,6 +15,9 @@ causes and movers reuse their existing, different relations; grounding uses
 fact tokens, explanation reason/existence-fact tokens, parthood strict order,
 and justification claim tokens. No cross-domain truth bridge is automatic.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Logic.RegressDomains
 open TruthCore.Logic.Regress TruthCore.Causality
 open TruthCore.Latin.Aquinas.SummaTheologiae

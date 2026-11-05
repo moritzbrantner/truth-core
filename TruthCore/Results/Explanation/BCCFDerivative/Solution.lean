@@ -1,4 +1,8 @@
-import TruthCore.Explanation.BCCFDerivative
+module
+
+public import TruthCore.Explanation.BCCFDerivative
+
+@[expose] public section
 
 namespace TruthCore.Results.Explanation.BCCFDerivative
 open TruthCore.Explanation.PSRStrength

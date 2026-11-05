@@ -1,7 +1,9 @@
-import TruthCore.Modal.TemporalHistory
-import TruthCore.Causality.NecessaryBeingSurvey
-import TruthCore.Causality.NecessarilyUnderived
-import TruthCore.Logic.ExcludedMiddle
+module
+
+public import TruthCore.Modal.TemporalHistory
+public import TruthCore.Causality.NecessaryBeingSurvey
+public import TruthCore.Causality.NecessarilyUnderived
+public import TruthCore.Logic.ExcludedMiddle
 
 /-! Source-free temporal interpretation of the survey count interface.
 Worlds, beings and times reuse History without changing its Ontic or now.
@@ -9,6 +11,9 @@ The guarded causal configurations are OPEN framework assumptions, not new
 attributions to A7. CauseCount is a supplied relation to a threshold situation,
 not Ontic.Causes, fact explanation, or a source of structural causal laws.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.CountTemporalNecessity
 open TruthCore.German.Kant.CosmologicalInference
 open TruthCore.Modal.TemporalHistory

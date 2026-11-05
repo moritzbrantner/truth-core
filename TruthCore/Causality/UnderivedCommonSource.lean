@@ -1,9 +1,14 @@
-import TruthCore.Causality.NamedPotentialCauser
-import TruthCore.Causality.SourceForest
+module
+
+public import TruthCore.Causality.NamedPotentialCauser
+public import TruthCore.Causality.SourceForest
 
 /-! Analyst-defined integration for #319. R stays an explicit existential-support
 relation. The one-way actual causal-edge interface below is OPEN, not sourced,
 and is not an equation between causal power, explanation or esse. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.UnderivedCommonSource
 open TruthCore.German.Kant.CosmologicalInference
 open TruthCore.Causality.WorldSourceRegress

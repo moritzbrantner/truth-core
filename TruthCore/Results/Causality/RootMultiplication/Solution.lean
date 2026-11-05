@@ -1,5 +1,10 @@
-import TruthCore.Causality.RootMultiplication
-import TruthCore.Results.Causality.ConstitutiveNatureUniqueness.Solution
+module
+
+public import TruthCore.Causality.RootMultiplication
+public import TruthCore.Results.Causality.ConstitutiveNatureUniqueness.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Causality.RootMultiplication
 open TruthCore.Case.Catholicism
 open TruthCore.Latin.Aquinas.SummaTheologiae

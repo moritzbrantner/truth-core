@@ -1,10 +1,15 @@
-import TruthCore.Causality.WorldSourceRegress
-import Mathlib.Data.Int.Basic
+module
+
+public import TruthCore.Causality.WorldSourceRegress
+public import Mathlib.Data.Int.Basic
 
 /-! Analyst-defined structural constraints on the existing causal graph.
 Instantiate G by actualGraph m w for one fixed world: connectivity is on actual
 causal nodes, not on modal accessibility. Unique predecessors are a strong open
 restriction, not a general law about efficient causation. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.SourceForest
 open TruthCore.Logic.Regress
 

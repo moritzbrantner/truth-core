@@ -1,11 +1,16 @@
-import TruthCore.Causality.BruteFoundationExplanations
-import TruthCore.Explanation.ExistencePSR
-import TruthCore.Causality.LocalTransmission
-import TruthCore.Logic.Regress
+module
+
+public import TruthCore.Causality.BruteFoundationExplanations
+public import TruthCore.Explanation.ExistencePSR
+public import TruthCore.Causality.LocalTransmission
+public import TruthCore.Logic.Regress
 
 /-! A failed discriminator for #698. Modal entailment is not enough when the
 reason's truth is freely copied from the target. These are mathematical
 expansions, not independently adequate existence explanations. -/
+
+@[expose] public section
+
 namespace TruthCore.Explanation.TargetCopyExpansion
 open TruthCore.Causality.BruteFoundationBoundary
 open TruthCore.Causality.BruteFoundationExplanations

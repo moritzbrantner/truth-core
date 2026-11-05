@@ -1,12 +1,17 @@
-import TruthCore.Models.PSR
-import TruthCore.Modal.WorldwiseExplanation
-import TruthCore.Explanation.WellFoundedSource
-import TruthCore.Explanation.NoBruteExistence
+module
+
+public import TruthCore.Models.PSR
+public import TruthCore.Modal.WorldwiseExplanation
+public import TruthCore.Explanation.WellFoundedSource
+public import TruthCore.Explanation.NoBruteExistence
 
 /-! Local explanation-coverage evaluations on unchanged registered PSR data.
 Reasons remain stipulated tokens; neither causal nor grounding explanation is
 identified with `explains`. The empty control has an inhabited candidate domain
 but no actual individuals. No metaphysical adequacy or ontology label follows. -/
+
+@[expose] public section
+
 namespace TruthCore.Models.PSRLocalControls
 open TruthCore.Explanation.ExistencePSR
 open TruthCore.Explanation.NoBruteExistence

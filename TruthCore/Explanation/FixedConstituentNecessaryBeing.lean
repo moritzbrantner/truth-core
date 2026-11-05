@@ -1,5 +1,7 @@
-import TruthCore.Explanation.NecessaryFactBoundary
-import TruthCore.Explanation.StoppingPoints
+module
+
+public import TruthCore.Explanation.NecessaryFactBoundary
+public import TruthCore.Explanation.StoppingPoints
 
 /-!
 Analyst fact-to-bearer consumer on a genuine PSRStrength.Arena. K assigns a
@@ -8,6 +10,9 @@ Nonempty assigned sets and realization wherever a fact holds are separate OPEN
 premises, restricted to the supplied account. No fact/bearer identification,
 positive-label constructor, phantom Ontic or modal frame law is introduced.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Explanation.FixedConstituentNecessaryBeing
 open TruthCore.Explanation.PSRStrength
 

@@ -1,4 +1,8 @@
-import TruthCore.Logic.RegressDomains
+module
+
+public import TruthCore.Logic.RegressDomains
+
+@[expose] public section
 
 namespace TruthCore.Results.Logic.RegressSchema
 open TruthCore.Logic.Regress TruthCore.Logic.RegressDomains TruthCore.Causality

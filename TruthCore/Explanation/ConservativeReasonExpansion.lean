@@ -1,5 +1,7 @@
-import TruthCore.Modal.WorldwiseExplanation
-import TruthCore.Modal.NecessaryVariableEffects
+module
+
+public import TruthCore.Modal.WorldwiseExplanation
+public import TruthCore.Modal.NecessaryVariableEffects
 
 /-!
 # Conservative enrichment by weak explanatory tokens
@@ -10,6 +12,9 @@ No reason is proved metaphysically sufficient, intrinsic by nature, productive,
 or an efficient cause. The construction diagnoses what the existing weak
 clauses alone constrain; it does not refute an adequately interpreted PSR.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Explanation.ConservativeReasonExpansion
 
 open TruthCore.German.Kant.CosmologicalInference

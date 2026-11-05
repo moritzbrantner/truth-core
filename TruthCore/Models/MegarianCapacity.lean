@@ -1,5 +1,7 @@
-import TruthCore.Models.FiniteSupport
-import TruthCore.Alternatives.ActPotencyRegress
+module
+
+public import TruthCore.Models.FiniteSupport
+public import TruthCore.Alternatives.ActPotencyRegress
 
 /-! Named finite interpretations for the Megarian capacity core (#576,
 `MEGARIAN-CAPACITY-MOTION-INCOMPATIBLE`). Beings and respects are `Unit`. Each
@@ -19,6 +21,9 @@ possibility or close any premise.
   motion's incompleteness fails.
 * `MovedWithoutAbility`: the being is moved, not actual and not able. The
   Megarian thesis holds vacuously; the ability of what is moved fails. -/
+
+@[expose] public section
+
 namespace TruthCore.Models.MegarianCapacity
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Alternatives.ActPotencyRegress

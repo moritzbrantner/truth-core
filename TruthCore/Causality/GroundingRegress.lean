@@ -1,5 +1,7 @@
-import TruthCore.Causality.EssentialPower
-import TruthCore.German.Kant.CosmologicalInference
+module
+
+public import TruthCore.Causality.EssentialPower
+public import TruthCore.German.Kant.CosmologicalInference
 
 /-!
 # How far inductive grounding goes toward the regress premise
@@ -24,6 +26,8 @@ any of the conditionals' antecedents of an actual causal relation. Kant's
 (AGENTS.md invariant 6), so the Kant conditional uses Lean core's
 `WellFounded` rather than the Aquinas reading.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Causality.GroundingRegress
 

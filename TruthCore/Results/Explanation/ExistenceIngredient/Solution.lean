@@ -1,4 +1,8 @@
-import TruthCore.Explanation.ExistenceIngredient
+module
+
+public import TruthCore.Explanation.ExistenceIngredient
+
+@[expose] public section
 
 namespace TruthCore.Results.Explanation.ExistenceIngredient
 open TruthCore.Explanation.ExistenceIngredient

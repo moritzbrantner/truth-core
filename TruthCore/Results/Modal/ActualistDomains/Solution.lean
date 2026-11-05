@@ -1,4 +1,9 @@
-import TruthCore.Modal.ActualistDomainsCertificate
+module
+
+public import TruthCore.Modal.ActualistDomainsCertificate
+
+@[expose] public section
+
 namespace TruthCore.Results.Modal.ActualistDomains
 open TruthCore.German.Kant.CosmologicalInference
 open TruthCore.Modal.ActualistDomains

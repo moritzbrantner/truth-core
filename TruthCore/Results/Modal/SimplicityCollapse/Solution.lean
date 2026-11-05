@@ -1,6 +1,10 @@
-import TruthCore.Modal.SimplicityCollapse
-import TruthCore.Results.Modal.SelectedEffectBridge.Solution
-import TruthCore.Results.Explanation.ExplanatorySymmetry.Solution
+module
+
+public import TruthCore.Modal.SimplicityCollapse
+public import TruthCore.Results.Modal.SelectedEffectBridge.Solution
+public import TruthCore.Results.Explanation.ExplanatorySymmetry.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Modal.SimplicityCollapse
 open TruthCore.Modal.SimplicityCollapse

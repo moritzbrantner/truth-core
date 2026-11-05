@@ -1,4 +1,8 @@
-import TruthCore.Models.PastResourceControls
+module
+
+public import TruthCore.Models.PastResourceControls
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.PastResourceControls
 open TruthCore.Causality.BoundedPastResource

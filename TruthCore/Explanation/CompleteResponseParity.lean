@@ -1,4 +1,6 @@
-import TruthCore.Explanation.JointCooperation
+module
+
+public import TruthCore.Explanation.JointCooperation
 
 /-! Matched response experiment after #735/#744 (#953).
 
@@ -9,6 +11,9 @@ Even complete scenario sufficiency of every record does not identify the
 number of graph foundations. The scenarios are NOT asserted to be possible
 worlds or genuine causal interventions; their productive interpretation is
 still an independent philosophical question. -/
+
+@[expose] public section
+
 namespace TruthCore.Explanation.CompleteResponseParity
 
 open TruthCore.Causality.JointGroups TruthCore.Causality.DerivativeJointPower

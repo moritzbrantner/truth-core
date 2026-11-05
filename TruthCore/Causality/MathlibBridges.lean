@@ -1,7 +1,9 @@
-import Mathlib.Order.Filter.AtTopBot.Basic
-import Mathlib.Logic.Relation
-import TruthCore.Causality.EssentialPower
-import TruthCore.Causality.Supertasks
+module
+
+public import Mathlib.Order.Filter.AtTopBot.Basic
+public import Mathlib.Logic.Relation
+public import TruthCore.Causality.EssentialPower
+public import TruthCore.Causality.Supertasks
 
 /-!
 # Mathlib names for hand-rolled causality and supertask notions
@@ -15,6 +17,8 @@ results zero-axiom.
 
 None of these lemmas is a corpus result; they bind no statement.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Causality
 

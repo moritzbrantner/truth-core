@@ -1,10 +1,15 @@
-import TruthCore.Epistemology.UltimateExplanation
-import TruthCore.Results.Causality.ChainInstantiation.Solution
+module
+
+public import TruthCore.Epistemology.UltimateExplanation
+public import TruthCore.Results.Causality.ChainInstantiation.Solution
 
 /-! #743. Analyst law-identification test, not a modal or epistemic theory.
 Each time-dependent rule determines one full signal. A history explicitly
 represents one present state-bearer at every time. These mathematical witnesses
 are not actual concreta; real applicability and warrant remain OPEN. -/
+
+@[expose] public section
+
 namespace TruthCore.Explanation.LawActuality
 open TruthCore.Epistemology.UltimateExplanation
 open TruthCore.Modern.Hume.Induction

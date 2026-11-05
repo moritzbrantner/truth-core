@@ -1,4 +1,6 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3SecundaVia
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3SecundaVia
 
 /-!
 # Two readings of "the series cannot go on to infinity"
@@ -25,6 +27,8 @@ The definitions are generic in the relation, so they apply equally to the
 *prima via*'s `NoInfinitePerSeMoverSeriesReading MovesAsMoved`, which has the
 same body.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Causality
 

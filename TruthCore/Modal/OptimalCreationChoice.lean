@@ -1,9 +1,14 @@
-import TruthCore.Results.Modal.SelectedEffectBridge.Solution
-import Mathlib.Order.Bounds.Basic
+module
+
+public import TruthCore.Results.Modal.SelectedEffectBridge.Solution
+public import Mathlib.Order.Bounds.Basic
 
 /-! Stipulative optimization constraints, not a sourced theory of perfect agency.
 Candidate options need not exist at the world where a choice is made. Fixed
 feasibility and quality are backgrounds, not consequences of necessary agency. -/
+
+@[expose] public section
+
 namespace TruthCore.Modal.OptimalCreationChoice
 open TruthCore.Modal.SelectedEffectBridge
 open TruthCore.Modal.NecessaryVariableEffects

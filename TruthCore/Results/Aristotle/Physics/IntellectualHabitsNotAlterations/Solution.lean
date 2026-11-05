@@ -1,4 +1,8 @@
-import TruthCore.Greek.Aristotle.Physics.BookVII.Chapter3
+module
+
+public import TruthCore.Greek.Aristotle.Physics.BookVII.Chapter3
+
+@[expose] public section
 
 namespace TruthCore.Results.Aristotle.Physics.IntellectualHabitsNotAlterations
 open TruthCore.Greek.Aristotle.Physics

@@ -1,5 +1,10 @@
-import TruthCore.Ethics.HardCaseGoods
-import TruthCore.Results.Ethics.HardCaseTyped.Solution
+module
+
+public import TruthCore.Ethics.HardCaseGoods
+public import TruthCore.Results.Ethics.HardCaseTyped.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Ethics.HardCaseGoods
 open TruthCore.Ethics.HardCaseTyped TruthCore.Ethics.HardCaseGoods
 

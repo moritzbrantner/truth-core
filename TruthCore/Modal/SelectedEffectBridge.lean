@@ -1,8 +1,13 @@
-import TruthCore.Modal.NecessaryVariableEffects
+module
+
+public import TruthCore.Modal.NecessaryVariableEffects
 
 /-! Analyst-defined output controls for #462. An act is a rigid token, not a
 metaphysical analysis of willing. Local output uniqueness does not impose
 cross-world output identity. Existing causal/existence tables are unchanged. -/
+
+@[expose] public section
+
 namespace TruthCore.Modal.SelectedEffectBridge
 open TruthCore.German.Kant.CosmologicalInference
 open TruthCore.Modal.NecessaryContingentActivity

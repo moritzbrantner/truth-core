@@ -1,5 +1,9 @@
-import TruthCore.Causality.GroundingLimits
-import TruthCore.Results.Causality.FiniteGroundingHasSource.Solution
+module
+
+public import TruthCore.Causality.GroundingLimits
+public import TruthCore.Results.Causality.FiniteGroundingHasSource.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.FiniteGroundingLimitNotClosed
 open TruthCore.Causality

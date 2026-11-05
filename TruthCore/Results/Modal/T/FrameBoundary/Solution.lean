@@ -1,4 +1,9 @@
-import TruthCore.Modal.TResearch
+module
+
+public import TruthCore.Modal.TResearch
+
+@[expose] public section
+
 namespace TruthCore.Results.Modal.T.FrameBoundary
 open TruthCore.Modal
 open TruthCore.Modal.ResearchFixture

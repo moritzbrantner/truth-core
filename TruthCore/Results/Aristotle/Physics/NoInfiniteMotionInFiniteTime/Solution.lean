@@ -1,4 +1,9 @@
-import TruthCore.Greek.Aristotle.Physics.BookVI.Chapter7
+module
+
+public import TruthCore.Greek.Aristotle.Physics.BookVI.Chapter7
+
+@[expose] public section
+
 namespace TruthCore.Results.Aristotle.Physics.NoInfiniteMotionInFiniteTime
 open TruthCore.Greek.Aristotle.Physics
 theorem noInfiniteMotionInFiniteTime

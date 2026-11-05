@@ -1,4 +1,9 @@
-import TruthCore.History.ResurrectionCoverage
+module
+
+public import TruthCore.History.ResurrectionCoverage
+
+@[expose] public section
+
 namespace TruthCore.Results.Comparison.Resurrection.AnswerMapsCorrect
 open TruthCore.History.Resurrection
 open TruthCore.Comparison.Resurrection

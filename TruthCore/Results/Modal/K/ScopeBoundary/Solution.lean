@@ -1,4 +1,9 @@
-import TruthCore.Results.Modal.K.Laws.Solution
+module
+
+public import TruthCore.Results.Modal.K.Laws.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Modal.K.ScopeBoundary
 open TruthCore.Modal
 open TruthCore.Modal.ResearchFixture

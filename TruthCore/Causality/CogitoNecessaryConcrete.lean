@@ -1,7 +1,9 @@
-import Mathlib.Logic.Relation
-import TruthCore.Causality.BruteFoundationBoundary
-import TruthCore.Logic.CogitoConcrete
-import TruthCore.Logic.ExcludedMiddle
+module
+
+public import Mathlib.Logic.Relation
+public import TruthCore.Causality.BruteFoundationBoundary
+public import TruthCore.Logic.CogitoConcrete
+public import TruthCore.Logic.ExcludedMiddle
 
 /-!
 # From an occurring thought to a necessary concrete ground-ancestor of its bearer (#564)
@@ -44,6 +46,9 @@ divinity is built in. Excluded middle enters as the explicit hypothesis
 `GroundAncestor` is Mathlib's `Relation.ReflTransGen` of `ActualConcreteGround`
 (invariant 14), not a hand-rolled closure.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.CogitoNecessaryConcrete
 
 open TruthCore.Causality.BruteFoundationBoundary

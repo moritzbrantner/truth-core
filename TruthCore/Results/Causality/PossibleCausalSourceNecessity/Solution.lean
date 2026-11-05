@@ -1,6 +1,10 @@
-import TruthCore.Causality.PossibleCausalSourceNecessity
-import TruthCore.Results.Causality.HeadlessCausalAncestry.Solution
-import TruthCore.Results.Causality.WorldSourceRegress.Solution
+module
+
+public import TruthCore.Causality.PossibleCausalSourceNecessity
+public import TruthCore.Results.Causality.HeadlessCausalAncestry.Solution
+public import TruthCore.Results.Causality.WorldSourceRegress.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.PossibleCausalSourceNecessity
 open TruthCore.Causality.PossibleCausalSourceNecessity

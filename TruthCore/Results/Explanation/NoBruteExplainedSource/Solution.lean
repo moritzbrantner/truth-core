@@ -1,5 +1,10 @@
-import TruthCore.Explanation.NoBruteExistence
-import TruthCore.Explanation.WellFoundedSource
+module
+
+public import TruthCore.Explanation.NoBruteExistence
+public import TruthCore.Explanation.WellFoundedSource
+
+@[expose] public section
+
 namespace TruthCore.Results.Explanation.NoBruteExplainedSource
 open TruthCore.Explanation.ExistencePSR
 open TruthCore.Explanation.NoBruteExistence

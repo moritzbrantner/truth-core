@@ -1,4 +1,9 @@
-import TruthCore.History.Resurrection
+module
+
+public import TruthCore.History.Resurrection
+
+@[expose] public section
+
 namespace TruthCore.Results.Bridges.StageFourFromResurrectionPilot
 open TruthCore.Case.Catholicism
 open TruthCore.History.Resurrection

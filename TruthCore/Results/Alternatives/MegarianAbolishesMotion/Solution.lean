@@ -1,4 +1,9 @@
-import TruthCore.Alternatives.ActPotencyRegress
+module
+
+public import TruthCore.Alternatives.ActPotencyRegress
+
+@[expose] public section
+
 namespace TruthCore.Results.Alternatives.MegarianAbolishesMotion
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Alternatives.ActPotencyRegress

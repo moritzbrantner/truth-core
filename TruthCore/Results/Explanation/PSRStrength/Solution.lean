@@ -1,4 +1,8 @@
-import TruthCore.Explanation.PSRStrength
+module
+
+public import TruthCore.Explanation.PSRStrength
+
+@[expose] public section
 
 namespace TruthCore.Results.Explanation.PSRStrength
 open TruthCore.Explanation.PSRStrength

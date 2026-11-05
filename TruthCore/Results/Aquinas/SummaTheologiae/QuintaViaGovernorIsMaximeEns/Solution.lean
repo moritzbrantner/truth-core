@@ -1,8 +1,13 @@
-import TruthCore.Case.Catholicism.StageOneConvergence
-import TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaOneGovernor.Solution
-import TruthCore.Results.Aquinas.SummaTheologiae.QuartaVia.Solution
-import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverIsMaximeEns.Solution
-import TruthCore.Results.Aquinas.SummaTheologiae.MaximeEnsIsGod.Solution
+module
+
+public import TruthCore.Case.Catholicism.StageOneConvergence
+public import TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaOneGovernor.Solution
+public import TruthCore.Results.Aquinas.SummaTheologiae.QuartaVia.Solution
+public import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverIsMaximeEns.Solution
+public import TruthCore.Results.Aquinas.SummaTheologiae.MaximeEnsIsGod.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaGovernorIsMaximeEns
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Greek.Aristotle.Metaphysics (CauseOfQualityInAnotherIsMoreSuchReading)

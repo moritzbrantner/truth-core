@@ -1,8 +1,13 @@
-import TruthCore.Modal.ResearchFinite
+module
+
+public import TruthCore.Modal.ResearchFinite
 
 /-! Mathematical D-frame experiments for #263. These are stipulated Kripke
 semantics, not historical attributions or claims of metaphysical possibility.
 The proposition domain, root and any identity criterion remain explicit. -/
+
+@[expose] public section
+
 namespace TruthCore.Modal.DResearch
 open TruthCore.Modal.ResearchFixture
 open TruthCore.Isabelle.AFP.GoedelGod (MProp Box Dia)

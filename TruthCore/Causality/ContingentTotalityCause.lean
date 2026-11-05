@@ -1,5 +1,7 @@
-import TruthCore.Causality.PossibleCauseOfContingency
-import TruthCore.Mereology.UniversalFusionBoundary
+module
+
+public import TruthCore.Causality.PossibleCauseOfContingency
+public import TruthCore.Mereology.UniversalFusionBoundary
 
 /-!
 Analyst application of NecessaryBeing survey A1's outside-contingents step.
@@ -11,6 +13,9 @@ meaning. Causes is not identified with existential grounding or temporal
 precedence. Actual cause occurrence and coverage are independent OPEN premises.
 See docs/necessarybeing-survey-inventory.md for source/application boundaries.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.ContingentTotalityCause
 open TruthCore.German.Kant.CosmologicalInference
 open TruthCore.Causality.PossibleCauseOfContingency

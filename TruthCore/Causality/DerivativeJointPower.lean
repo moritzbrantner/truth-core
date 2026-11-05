@@ -1,5 +1,7 @@
-import TruthCore.Causality.JointGroups
-import TruthCore.Causality.TemporalActualization
+module
+
+public import TruthCore.Causality.JointGroups
+public import TruthCore.Causality.TemporalActualization
 
 /-! Analyst-defined supply test for #734. Borrowing itself is not defined by
 termination. Supply is an explicitly INDUCTIVE proposed explanatory standard,
@@ -8,6 +10,9 @@ epistemic GeneratedWarrant: its rules are exercised causal-group records.
 Its possibly infinite contributor sets impose no finite branching or uniform depth.
 Enablers need occurrence via Exercise.coherent, not productive Supply.
 Actual applicability and productive adequacy remain OPEN; see the linked note. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.DerivativeJointPower
 open TruthCore.Logic.Regress
 open TruthCore.Causality.JointGroups

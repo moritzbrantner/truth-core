@@ -1,10 +1,15 @@
-import TruthCore.Causality.RootPositiveIntellectWill
-import TruthCore.Case.Catholicism.StagesOneTwo
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.InfinityEternity
+module
+
+public import TruthCore.Causality.RootPositiveIntellectWill
+public import TruthCore.Case.Catholicism.StagesOneTwo
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.InfinityEternity
 
 /-! Conditional shared-root naming/attribute composition. Existing infinity,
 eternity, nominal naming and classical-field adapters remain explicit open
 interfaces; no source interpretation or philosophical truth is established. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.NecessaryClassicalGodRoot
 open TruthCore.Causality.BruteFoundationBoundary
 open TruthCore.Causality.DirectEsseRootPerfectionGoodness

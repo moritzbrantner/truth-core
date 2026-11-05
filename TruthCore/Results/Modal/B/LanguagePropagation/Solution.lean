@@ -1,4 +1,9 @@
-import TruthCore.Modal.BResearch
+module
+
+public import TruthCore.Modal.BResearch
+
+@[expose] public section
+
 namespace TruthCore.Results.Modal.B.LanguagePropagation
 open TruthCore.Modal
 open TruthCore.Modal.ResearchFixture

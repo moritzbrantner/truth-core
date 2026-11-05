@@ -1,4 +1,6 @@
-import TruthCore.Explanation.UltimateAdequacy
+module
+
+public import TruthCore.Explanation.UltimateAdequacy
 
 /-! Analyst semantics for #744, not a source-derived account of cooperation.
 Reuses the #733 `Exercise` records and #734 `Supply` unchanged. Every label below
@@ -8,6 +10,9 @@ is relative to one supplied scenario space and one supplied event carrier:
 until `ScenariosAreWorlds` or `WorldsAreScenarios` is supplied as a separate bridge.
 Scenario sufficiency has no causal direction, so `CommonSource` also requires
 exercised ancestry. See docs/notes/joint-cooperation-744.md. -/
+
+@[expose] public section
+
 namespace TruthCore.Explanation.JointCooperation
 open TruthCore.Causality.JointGroups TruthCore.Causality.DerivativeJointPower
 open TruthCore.Logic.Regress

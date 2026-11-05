@@ -1,4 +1,9 @@
-import TruthCore.Models.NoBruteExistenceCompatibility
+module
+
+public import TruthCore.Models.NoBruteExistenceCompatibility
+
+@[expose] public section
+
 namespace TruthCore.Results.Explanation.NoBruteCompatibility
 /-- Relative explanatory coverage does not rule out the existing contingent,
 well-founded grounding-brute rival or imply a necessary concrete individual. -/

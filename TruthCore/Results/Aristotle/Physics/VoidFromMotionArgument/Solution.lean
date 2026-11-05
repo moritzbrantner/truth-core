@@ -1,4 +1,8 @@
-import TruthCore.Greek.Aristotle.Physics.BookIV.Chapter6
+module
+
+public import TruthCore.Greek.Aristotle.Physics.BookIV.Chapter6
+
+@[expose] public section
 
 namespace TruthCore.Results.Aristotle.Physics.VoidFromMotionArgument
 

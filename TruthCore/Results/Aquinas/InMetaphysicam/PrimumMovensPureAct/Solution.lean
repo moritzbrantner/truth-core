@@ -1,6 +1,11 @@
-import TruthCore.Latin.Aquinas.InMetaphysicam.BookIX
-import TruthCore.Causality.TemporalPrimaVia
-import TruthCore.Results.Causality.TemporalPrimaVia.Controls.Solution
+module
+
+public import TruthCore.Latin.Aquinas.InMetaphysicam.BookIX
+public import TruthCore.Causality.TemporalPrimaVia
+public import TruthCore.Results.Causality.TemporalPrimaVia.Controls.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Aquinas.InMetaphysicam.PrimumMovensPureAct
 open TruthCore.Latin.Aquinas.SummaTheologiae (PureAct)
 open TruthCore.Latin.Aquinas.InMetaphysicam (MoverMovedAtNoTimeIsInActOnlyReading)

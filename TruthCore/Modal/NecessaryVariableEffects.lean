@@ -1,4 +1,6 @@
-import TruthCore.Modal.NecessaryContingentActivity
+module
+
+public import TruthCore.Modal.NecessaryContingentActivity
 
 /-!
 Issue #462: even a necessarily existing cause that produces *some* effect at
@@ -6,6 +8,9 @@ every accessible world need not produce the *same* effect in every world.
 The causal relation is world-indexed and says nothing about the sufficiency
 of fixed antecedent conditions, free will, or metaphysical creation ex nihilo.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Modal.NecessaryVariableEffects
 
 open TruthCore.German.Kant.CosmologicalInference

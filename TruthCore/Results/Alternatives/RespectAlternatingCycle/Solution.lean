@@ -1,4 +1,8 @@
-import TruthCore.Models.RespectAlternatingMotionCycle
+module
+
+public import TruthCore.Models.RespectAlternatingMotionCycle
+
+@[expose] public section
 
 namespace TruthCore.Results.Alternatives.RespectAlternatingCycle
 

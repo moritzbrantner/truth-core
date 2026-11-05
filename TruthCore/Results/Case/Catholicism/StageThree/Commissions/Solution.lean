@@ -1,4 +1,8 @@
-import TruthCore.Case.Catholicism.StageThree.Commissions
+module
+
+public import TruthCore.Case.Catholicism.StageThree.Commissions
+
+@[expose] public section
 
 namespace TruthCore.Results.Case.Catholicism.StageThree.Commissions
 open TruthCore.Case.Catholicism

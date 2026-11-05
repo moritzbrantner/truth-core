@@ -1,7 +1,12 @@
-import TruthCore.Modal.ResearchFinite
+module
+
+public import TruthCore.Modal.ResearchFinite
 
 /-! K experiments (#262): stipulated mathematical frames, with no historical or
 metaphysical attribution. Reuses the shared semantics and finite evaluator. -/
+
+@[expose] public section
+
 namespace TruthCore.Modal.KResearch
 open TruthCore.Modal.ResearchFixture
 open TruthCore.Modal.ResearchFinite

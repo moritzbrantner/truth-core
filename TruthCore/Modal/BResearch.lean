@@ -1,6 +1,11 @@
-import TruthCore.Modal.KResearch
+module
+
+public import TruthCore.Modal.KResearch
 
 /-! Issue #266: stipulated B-frame experiments, not historical/metaphysical claims. -/
+
+@[expose] public section
+
 namespace TruthCore.Modal.BResearch
 open TruthCore.Modal.ResearchFixture
 open TruthCore.Modal.ResearchFinite

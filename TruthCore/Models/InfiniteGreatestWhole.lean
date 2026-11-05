@@ -1,14 +1,19 @@
-import TruthCore.Models.QuartaViaDegreeFork
-import Mathlib.Basic.Real.Basic
-import Mathlib.Algebra.CharZero.Infinite
-import Mathlib.Data.Set.Finite.Basic
-import Mathlib.Order.Minimal
-import Mathlib.Tactic.Linarith
+module
+
+public import TruthCore.Models.QuartaViaDegreeFork
+public import Mathlib.Basic.Real.Basic
+public import Mathlib.Algebra.CharZero.Infinite
+public import Mathlib.Data.Set.Finite.Basic
+public import Mathlib.Order.Minimal
+public import Mathlib.Tactic.Linarith
 
 /-! #696: regions are sets of mathematical points, ordered by inclusion.
 This is neither an order of being nor evidence of actual physical infinity.
 First-coordinate extent uses the ordinary real order, a different order from
 inclusion on regions. No norm, topology or outer-boundary property is claimed. -/
+
+@[expose] public section
+
 namespace TruthCore.Models.InfiniteGreatestWhole
 open TruthCore.Latin.Aquinas.SummaTheologiae
 

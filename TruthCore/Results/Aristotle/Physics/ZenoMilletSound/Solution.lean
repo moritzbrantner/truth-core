@@ -1,4 +1,8 @@
-import TruthCore.Greek.Aristotle.Physics.BookVII.Chapter5
+module
+
+public import TruthCore.Greek.Aristotle.Physics.BookVII.Chapter5
+
+@[expose] public section
 
 namespace TruthCore.Results.Aristotle.Physics.ZenoMilletSound
 open TruthCore.Greek.Aristotle.Physics

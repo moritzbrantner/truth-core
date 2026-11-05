@@ -1,5 +1,7 @@
-import TruthCore.Explanation.PSRStrength
-import TruthCore.Logic.SelfApplication
+module
+
+public import TruthCore.Explanation.PSRStrength
+public import TruthCore.Logic.SelfApplication
 
 /-!
 # Applying the demand for reasons to one's own stance (#756)
@@ -17,6 +19,9 @@ that a formal bundle is satisfiable. It does not show that the evidence in it is
 good, that the bundle is metaphysically possible, or that any person holds it. See
 `docs/notes/psr-self-application-756.md` for the interpretation and the limits.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Explanation.PSRSelfApplication
 
 open TruthCore.Explanation.PSRStrength

@@ -1,4 +1,9 @@
-import TruthCore.Comparison.McTaggart
+module
+
+public import TruthCore.Comparison.McTaggart
+
+@[expose] public section
+
 namespace TruthCore.Results.Alternatives.McTaggartUnrealityOfTimeRefuted
 open TruthCore.Alternatives.ActPotencyRegress
 open TruthCore.Alternatives.McTaggart

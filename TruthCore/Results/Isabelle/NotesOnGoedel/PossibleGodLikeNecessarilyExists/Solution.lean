@@ -1,6 +1,11 @@
-import TruthCore.Isabelle.AFP.GoedelGod
-import TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1
-import TruthCore.Logic.ExcludedMiddle
+module
+
+public import TruthCore.Isabelle.AFP.GoedelGod
+public import TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1
+public import TruthCore.Logic.ExcludedMiddle
+
+@[expose] public section
+
 namespace TruthCore.Results.Isabelle.NotesOnGoedel.PossibleGodLikeNecessarilyExists
 open TruthCore.Modal (Frame Symmetric)
 open TruthCore.Logic (ExcludedMiddle)

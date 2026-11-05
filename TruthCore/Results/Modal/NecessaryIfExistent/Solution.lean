@@ -1,4 +1,9 @@
-import TruthCore.Modal.NecessaryIfExistent
+module
+
+public import TruthCore.Modal.NecessaryIfExistent
+
+@[expose] public section
+
 namespace TruthCore.Results.Modal.NecessaryIfExistent
 open TruthCore.Modal TruthCore.Modal.NecessaryIfExistent
 open TruthCore.Isabelle.AFP.GoedelGod (Box Dia)

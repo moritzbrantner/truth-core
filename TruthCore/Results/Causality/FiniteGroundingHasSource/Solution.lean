@@ -1,4 +1,8 @@
-import TruthCore.Causality.EssentialPower
+module
+
+public import TruthCore.Causality.EssentialPower
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.FiniteGroundingHasSource
 open TruthCore.Causality

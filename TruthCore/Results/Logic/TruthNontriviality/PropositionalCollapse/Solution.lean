@@ -1,6 +1,11 @@
-import TruthCore.Logic.TruthNontriviality
-import TruthCore.Results.Logic.TruthPilot.SomePropositionHolds.Solution
-import TruthCore.Results.Logic.TruthPilot.LogicalFloor.Solution
+module
+
+public import TruthCore.Logic.TruthNontriviality
+public import TruthCore.Results.Logic.TruthPilot.SomePropositionHolds.Solution
+public import TruthCore.Results.Logic.TruthPilot.LogicalFloor.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Logic.TruthNontriviality.PropositionalCollapse
 open TruthCore.Logic.TruthNontriviality
 /-- Composes the two existing witnesses: a proposition that holds and one that

@@ -1,5 +1,10 @@
-import TruthCore.Causality.CountTemporalNecessity
-import TruthCore.Results.Causality.NecessaryBeingCountDescent.Solution
+module
+
+public import TruthCore.Causality.CountTemporalNecessity
+public import TruthCore.Results.Causality.NecessaryBeingCountDescent.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Causality.CountTemporalNecessity
 open TruthCore.Causality.CountTemporalNecessity
 open TruthCore.Modal.TemporalHistory

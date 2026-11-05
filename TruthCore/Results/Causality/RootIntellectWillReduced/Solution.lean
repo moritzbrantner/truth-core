@@ -1,9 +1,13 @@
-import TruthCore.Results.Causality.RootIntellectWill.Solution
-import TruthCore.Results.Causality.RootNonlimitationFromCompositionKinds.Solution
-import TruthCore.Results.Causality.RootIntellectWillOmission.Solution
-import TruthCore.Causality.RootIntellectWill
-import TruthCore.Results.Causality.RootWithoutLimitingPrinciple.Solution
-import TruthCore.Results.Causality.RootEssenceIdentity.Solution
+module
+
+public import TruthCore.Results.Causality.RootIntellectWill.Solution
+public import TruthCore.Results.Causality.RootNonlimitationFromCompositionKinds.Solution
+public import TruthCore.Results.Causality.RootIntellectWillOmission.Solution
+public import TruthCore.Causality.RootIntellectWill
+public import TruthCore.Results.Causality.RootWithoutLimitingPrinciple.Solution
+public import TruthCore.Results.Causality.RootEssenceIdentity.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.RootIntellectWillReduced
 open TruthCore.Causality.BruteFoundationBoundary

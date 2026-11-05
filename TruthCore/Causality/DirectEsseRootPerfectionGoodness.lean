@@ -1,11 +1,16 @@
-import TruthCore.Causality.DirectEsseRootUniquenessAtBeing
-import TruthCore.Case.Catholicism.CausalPerfectionTransfer
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question5.Article1
+module
+
+public import TruthCore.Causality.DirectEsseRootUniquenessAtBeing
+public import TruthCore.Case.Catholicism.CausalPerfectionTransfer
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question5.Article1
 
 /-! Conditional selected-root attributes, without a God predicate or naming.
 InAct is a supplied global dictionary: correspondence to worlds and actual
 perfections remains OPEN. Supreme goodness below is the existing causal
 predicate, not moral perfection, omniscience or a divine identity. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.DirectEsseRootPerfectionGoodness
 open TruthCore.Causality.BruteFoundationBoundary
 open TruthCore.Causality.NecessaryRootFork

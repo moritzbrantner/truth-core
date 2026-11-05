@@ -1,11 +1,16 @@
-import TruthCore.Causality.BruteFoundationBoundary
-import TruthCore.Explanation.ExistencePSR
+module
+
+public import TruthCore.Causality.BruteFoundationBoundary
+public import TruthCore.Explanation.ExistencePSR
 
 /-! A source-free compatibility expansion of the existing contingent-root
 interpretation. Only explanation labels are added; the old ontology and its
 separate grounding assignment are unchanged. The intrinsic tag establishes
 neither explanatory adequacy nor grounding by an actual concrete individual.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Models.NoBruteExistenceCompatibility
 open TruthCore.Explanation.ExistencePSR
 open TruthCore.Causality.BruteFoundationBoundary

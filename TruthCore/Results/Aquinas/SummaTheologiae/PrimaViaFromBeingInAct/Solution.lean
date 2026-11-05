@@ -1,5 +1,10 @@
-import TruthCore.Results.Aquinas.SummaTheologiae.PrimaVia.Solution
-import TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyModels
+module
+
+public import TruthCore.Results.Aquinas.SummaTheologiae.PrimaVia.Solution
+public import TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyModels
+
+@[expose] public section
+
 namespace TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaFromBeingInAct
 open TruthCore.Latin.Aquinas.SummaTheologiae
 

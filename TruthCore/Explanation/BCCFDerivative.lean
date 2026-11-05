@@ -1,4 +1,6 @@
-import TruthCore.Explanation.PSRStrength
+module
+
+public import TruthCore.Explanation.PSRStrength
 
 /-!
 # Testing the reply that derivative facts differ from direct facts (#365)
@@ -16,6 +18,9 @@ are direct. See `docs/notes/bccf-sources-365.md` for the interpretation and for 
 sourced readings. Models show that encoded bundles are satisfiable, not that they
 are metaphysically possible. No PSR and no reply is established here.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Explanation.BCCFDerivative
 
 open TruthCore.Explanation.PSRStrength

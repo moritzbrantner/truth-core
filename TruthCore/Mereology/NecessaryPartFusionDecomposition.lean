@@ -1,4 +1,6 @@
-import TruthCore.Mereology.FusionNoNecessaryParts
+module
+
+public import TruthCore.Mereology.FusionNoNecessaryParts
 
 /-!
 Analyst selected-fusion reconstruction of the displayed L2 part-extraction step.
@@ -7,6 +9,9 @@ fusion is a separate OPEN premise, not inferred from local parts-to-whole
 existence or from necessity of its members. All orders and modal domains remain
 fixed; no actual existence, cause, root, or ordinary contingency is asserted.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Mereology.NecessaryPartFusionDecomposition
 open TruthCore.German.Kant.CosmologicalInference
 open TruthCore.Mereology.UniversalFusionBoundary

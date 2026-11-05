@@ -1,4 +1,8 @@
-import TruthCore.Causality.NecessaryRootFork
+module
+
+public import TruthCore.Causality.NecessaryRootFork
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.NecessaryRootFork
 

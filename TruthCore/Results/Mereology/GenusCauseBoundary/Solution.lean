@@ -1,6 +1,10 @@
-import TruthCore.Mereology.GenusCauseBoundary
-import TruthCore.Results.Aquinas.SummaTheologiae.EssenceEsseExternalCause.Solution
-import TruthCore.Results.Aristotle.Metaphysics.BeingNotAGenus.Solution
+module
+
+public import TruthCore.Mereology.GenusCauseBoundary
+public import TruthCore.Results.Aquinas.SummaTheologiae.EssenceEsseExternalCause.Solution
+public import TruthCore.Results.Aristotle.Metaphysics.BeingNotAGenus.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Mereology.GenusCauseBoundary
 open TruthCore.Mereology.GenusCauseBoundary

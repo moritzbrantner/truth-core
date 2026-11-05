@@ -1,4 +1,8 @@
-import TruthCore.Modal.Convergence
+module
+
+public import TruthCore.Modal.Convergence
+
+@[expose] public section
 
 namespace TruthCore.Results.Modal.Convergence
 open TruthCore.Modal

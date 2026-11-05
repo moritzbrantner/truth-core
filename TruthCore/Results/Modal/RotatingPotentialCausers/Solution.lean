@@ -1,4 +1,9 @@
-import TruthCore.Modal.NecessaryPotentialCausers
+module
+
+public import TruthCore.Modal.NecessaryPotentialCausers
+
+@[expose] public section
+
 namespace TruthCore.Results.Modal.RotatingPotentialCausers
 open TruthCore.German.Kant.CosmologicalInference
 open TruthCore.Causality.NecessarilyUnderived

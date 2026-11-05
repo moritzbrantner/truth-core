@@ -1,7 +1,8 @@
-import TruthCore.Causality.ConvergentSchedule
-import TruthCore.Causality.RegressReadings
-import Mathlib.Data.Int.Order.Basic
-import Mathlib.Tactic
+module
+
+public import TruthCore.Causality.ConvergentSchedule
+public import TruthCore.Causality.RegressReadings
+public import Mathlib.Data.Int.Order.Basic
 
 /-! Analyst-defined mathematical controls, with no physical realizability claim.
 The existing convergent schedule has a first stage. Reflecting its clock gives
@@ -15,6 +16,9 @@ Implication-failure matrix (all within the stipulated mathematics):
   causal edges.
 The no-first-*time* bounded-age interval (0,1] is the distinct control of PR609;
 it is not reconstructed here. None of these controls proves physical possibility. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.TemporalEventControls
 
 /-- Closed real interval with its usual Mathlib subtype order. -/

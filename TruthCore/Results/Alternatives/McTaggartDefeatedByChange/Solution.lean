@@ -1,5 +1,10 @@
-import TruthCore.Comparison.McTaggart
-import TruthCore.Observation.Change
+module
+
+public import TruthCore.Comparison.McTaggart
+public import TruthCore.Observation.Change
+
+@[expose] public section
+
 namespace TruthCore.Results.Alternatives.McTaggartDefeatedByChange
 open TruthCore.Alternatives.McTaggart
 open TruthCore.Observation.Change

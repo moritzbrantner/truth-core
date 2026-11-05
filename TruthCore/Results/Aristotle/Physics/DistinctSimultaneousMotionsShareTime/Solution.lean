@@ -1,4 +1,8 @@
-import TruthCore.Greek.Aristotle.Physics.BookIV.Chapter14
+module
+
+public import TruthCore.Greek.Aristotle.Physics.BookIV.Chapter14
+
+@[expose] public section
 
 namespace TruthCore.Results.Aristotle.Physics.DistinctSimultaneousMotionsShareTime
 

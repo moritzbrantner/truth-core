@@ -1,5 +1,10 @@
-import TruthCore.Causality.UnderivedNonComposite
-import TruthCore.Results.Causality.UnderivedCommonSource.Solution
+module
+
+public import TruthCore.Causality.UnderivedNonComposite
+public import TruthCore.Results.Causality.UnderivedCommonSource.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Causality.UnderivedNonComposite
 open TruthCore.German.Kant.CosmologicalInference
 open TruthCore.Causality.NecessarilyUnderived

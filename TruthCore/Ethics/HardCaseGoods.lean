@@ -1,8 +1,13 @@
-import TruthCore.Ethics.HardCaseTyped
+module
+
+public import TruthCore.Ethics.HardCaseTyped
 
 /-! A supplementary thin-profile test for #699. The goods and their damage
 are stipulated separately from moral verdicts; they are not source readings,
 real-world facts, or a claim that any richer theory admits both verdicts. -/
+
+@[expose] public section
+
 namespace TruthCore.Ethics.HardCaseGoods
 open TruthCore.Ethics.HardCaseTyped
 

@@ -1,5 +1,10 @@
-import TruthCore.Explanation.EmptyHistoryCountControl
-import TruthCore.Results.Causality.CountTemporalControls.Solution
+module
+
+public import TruthCore.Explanation.EmptyHistoryCountControl
+public import TruthCore.Results.Causality.CountTemporalControls.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Explanation.EmptyHistoryCountControl
 open TruthCore.Explanation.EmptyHistoryCountControl
 open TruthCore.Explanation.EmptyHistoryCausalAvailability

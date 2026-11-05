@@ -1,6 +1,11 @@
-import TruthCore.Modal.S5Research
-import TruthCore.Results.Modal.K.ScopeBoundary.Solution
-import TruthCore.Results.Modal.K.Laws.Solution
+module
+
+public import TruthCore.Modal.S5Research
+public import TruthCore.Results.Modal.K.ScopeBoundary.Solution
+public import TruthCore.Results.Modal.K.Laws.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Modal.S5.Countermodels
 open TruthCore.Modal
 open TruthCore.Modal.ResearchFixture

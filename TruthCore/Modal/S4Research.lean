@@ -1,9 +1,14 @@
-import TruthCore.Modal.KResearch
-import TruthCore.Modal.Cube
+module
+
+public import TruthCore.Modal.KResearch
+public import TruthCore.Modal.Cube
 
 /-! Stipulated S4 experiments for #265, not a historical attribution.
 The same fixed language is compared with all predicates; neither denotes
 metaphysical possibility without a separate interpretation. -/
+
+@[expose] public section
+
 namespace TruthCore.Modal.S4Research
 open TruthCore.Modal.ResearchFixture
 open TruthCore.Modal.ResearchFinite

@@ -1,5 +1,10 @@
-import TruthCore.Bridges.PerSeRegressFiniteGrounding
-import TruthCore.Logic.ExcludedMiddle
+module
+
+public import TruthCore.Bridges.PerSeRegressFiniteGrounding
+public import TruthCore.Logic.ExcludedMiddle
+
+@[expose] public section
+
 namespace TruthCore.Results.Bridges.PerSeRegressFiniteGrounding
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Causality

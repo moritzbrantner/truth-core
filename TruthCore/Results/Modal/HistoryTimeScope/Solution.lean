@@ -1,4 +1,9 @@
-import TruthCore.Models.HistoryTimeScope
+module
+
+public import TruthCore.Models.HistoryTimeScope
+
+@[expose] public section
+
 namespace TruthCore.Results.Modal.HistoryTimeScope
 open TruthCore.Modal.TemporalHistory TruthCore.Models.HistoryTimeScope
 /-- Shared-time formal controls; no metaphysical necessity or eternity assertion. -/

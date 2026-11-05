@@ -1,10 +1,15 @@
-import TruthCore.Explanation.AnselmUltimateSource
+module
+
+public import TruthCore.Explanation.AnselmUltimateSource
 
 /-! Source-free premise-strength audit, not an independent defense of Anselm's
 or Tapp's common-power commitment. Forget only the power relation; never infer
 actual power facts back from through facts. The characterization below is
 explicitly relative to global ultimate availability, unlike the local ancestry
 composition, which does not assume that premise. -/
+
+@[expose] public section
+
 namespace TruthCore.Explanation.AnselmCommonSourceAudit
 open TruthCore.Explanation.AnselmUltimateSource
 

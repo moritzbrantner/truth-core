@@ -1,6 +1,11 @@
-import TruthCore.Causality.OccurrenceUnderivedEssence
-import TruthCore.Results.Causality.CogitoNecessaryConcrete.Solution
-import TruthCore.Results.Causality.UnderivedEssenceEsse.Solution
+module
+
+public import TruthCore.Causality.OccurrenceUnderivedEssence
+public import TruthCore.Results.Causality.CogitoNecessaryConcrete.Solution
+public import TruthCore.Results.Causality.UnderivedEssenceEsse.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Causality.OccurrenceUnderivedEssence
 open TruthCore.Causality.CogitoNecessaryConcrete
 open TruthCore.Causality.OccurrenceUnderivedEssence

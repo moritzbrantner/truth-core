@@ -1,4 +1,9 @@
-import TruthCore.Modal.NecessaryIfConnectivity
+module
+
+public import TruthCore.Modal.NecessaryIfConnectivity
+
+@[expose] public section
+
 namespace TruthCore.Results.Modal.NecessaryIfConnectivity
 open TruthCore.Modal TruthCore.Modal.NecessaryIfExistent
 open TruthCore.Modal.NecessaryIfConnectivity

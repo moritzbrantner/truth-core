@@ -1,5 +1,7 @@
-import TruthCore.Causality.NecessaryRootFork
-import TruthCore.Causality.NecessarilyUnderived
+module
+
+public import TruthCore.Causality.NecessaryRootFork
+public import TruthCore.Causality.NecessarilyUnderived
 
 /-!
 Source-free composition of #487/#553 with #495/#542. Restrict the existing
@@ -8,6 +10,9 @@ existential grounding. The same selected `Profile.grounds` relation is used
 throughout. Concrete is the existing profile parameter, not a new definition of
 physicality. All structural/metaphysical hypotheses remain open.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.NecessaryConcreteUnderived
 
 open TruthCore.Causality.BruteFoundationBoundary

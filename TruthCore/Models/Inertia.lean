@@ -1,5 +1,7 @@
-import TruthCore.Models.FiniteSupport
-import TruthCore.Alternatives.Inertia
+module
+
+public import TruthCore.Models.FiniteSupport
+public import TruthCore.Alternatives.Inertia
 
 /-! Named finite interpretations and closed certificates for the inertia bridge
 (#497). Registration tests formal consequence only; it does not establish
@@ -25,6 +27,9 @@ physical or metaphysical possibility. Each removal model of
 * `RivalSurvives`: the one body perseveres, is moved and has no mover. The whole
   bundle and no self-motion hold, so the inertial rival holds and the mover
   premise fails. -/
+
+@[expose] public section
+
 namespace TruthCore.Models.Inertia
 open TruthCore.Models.FiniteSupport
 

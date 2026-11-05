@@ -1,5 +1,9 @@
-import TruthCore.Causality.RootWithoutLimitingPrinciple
-import TruthCore.Results.Causality.RootEssenceIdentity.Solution
+module
+
+public import TruthCore.Causality.RootWithoutLimitingPrinciple
+public import TruthCore.Results.Causality.RootEssenceIdentity.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.RootWithoutLimitingPrinciple
 open TruthCore.Causality.BruteFoundationBoundary

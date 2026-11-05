@@ -1,4 +1,9 @@
-import TruthCore.Ethics.HardCaseTyped
+module
+
+public import TruthCore.Ethics.HardCaseTyped
+
+@[expose] public section
+
 namespace TruthCore.Results.Ethics.HardCaseTyped
 open TruthCore.Ethics.HardCaseTyped TruthCore.Modal.DeonticFutureBoundary
 

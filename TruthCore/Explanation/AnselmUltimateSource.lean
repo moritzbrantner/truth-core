@@ -1,5 +1,7 @@
-import TruthCore.Explanation.WellFoundedSource
-import Mathlib.Basic.ExistsUnique
+module
+
+public import TruthCore.Explanation.WellFoundedSource
+public import Mathlib.Basic.ExistsUnique
 
 /-!
 Analyst reduction of Tapp 2014 §6's Monologion reconstruction, not a new claim
@@ -10,6 +12,9 @@ No transitivity, antisymmetry, WF or three-case axiom is built into the data.
 All substantive interfaces are separate open predicates. See
  docs/notes/necessary-simple-plurality.md for source/application boundaries.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Explanation.AnselmUltimateSource
 open TruthCore.Explanation.ExistencePSR
 

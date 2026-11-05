@@ -1,4 +1,8 @@
-import TruthCore.Causality.GroundingRegress
+module
+
+public import TruthCore.Causality.GroundingRegress
+
+@[expose] public section
 
 namespace TruthCore.Results.Kant.CosmologicalInference.WellFoundedCausesBlockAllContingent
 open TruthCore.Causality.GroundingRegress

@@ -1,6 +1,10 @@
-import TruthCore.Causality.PluralRootConfluence
-import TruthCore.Results.Causality.PartFreePlurality.Solution
-import TruthCore.Results.Causality.SourceWitness.Solution
+module
+
+public import TruthCore.Causality.PluralRootConfluence
+public import TruthCore.Results.Causality.PartFreePlurality.Solution
+public import TruthCore.Results.Causality.SourceWitness.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.PluralRootConfluence
 open TruthCore.Causality.PartFreePlurality

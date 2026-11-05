@@ -1,5 +1,9 @@
-import TruthCore.Explanation.JointGroundEffectContingency
-import TruthCore.Results.Explanation.JointContingencyLocalization.Solution
+module
+
+public import TruthCore.Explanation.JointGroundEffectContingency
+public import TruthCore.Results.Explanation.JointContingencyLocalization.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Explanation.JointGroundEffectContingency
 open TruthCore.Explanation.PSRStrength

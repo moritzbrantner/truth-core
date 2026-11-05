@@ -1,4 +1,9 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaViaOrder
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaViaOrder
+
+@[expose] public section
+
 namespace TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaOrderFirstBeing
 open TruthCore.Latin.Aquinas.SummaTheologiae
 

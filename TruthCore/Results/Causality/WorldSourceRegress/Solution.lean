@@ -1,7 +1,12 @@
-import Mathlib.Order.Monotone.Basic
-import Mathlib.Data.Fintype.EquivFin
-import Mathlib.Order.WithBot
-import TruthCore.Causality.WorldSourceRegress
+module
+
+public import Mathlib.Order.Monotone.Basic
+public import Mathlib.Data.Fintype.EquivFin
+public import Mathlib.Order.WithBot
+public import TruthCore.Causality.WorldSourceRegress
+
+@[expose] public section
+
 namespace TruthCore.Results.Causality.WorldSourceRegress
 open TruthCore.Causality
 open TruthCore.Causality.WorldSourceRegress

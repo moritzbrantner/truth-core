@@ -1,4 +1,8 @@
-import TruthCore.Causality.PowerExistenceBoundary
+module
+
+public import TruthCore.Causality.PowerExistenceBoundary
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.PowerExistenceBoundary
 open TruthCore.Causality

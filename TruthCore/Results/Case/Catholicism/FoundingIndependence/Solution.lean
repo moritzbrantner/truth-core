@@ -1,4 +1,9 @@
-import TruthCore.Case.Catholicism.FoundingIndependence
+module
+
+public import TruthCore.Case.Catholicism.FoundingIndependence
+
+@[expose] public section
+
 namespace TruthCore.Results.Case.Catholicism.FoundingIndependence
 open TruthCore.Case.Catholicism
 open TruthCore.Case.Catholicism.FoundingIndependence

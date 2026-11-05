@@ -1,6 +1,11 @@
-import TruthCore.Causality.RootPositiveIntellectWillControl
-import TruthCore.Results.Causality.RootPositiveIntellectWill.Solution
-import TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Solution
+module
+
+public import TruthCore.Causality.RootPositiveIntellectWillControl
+public import TruthCore.Results.Causality.RootPositiveIntellectWill.Solution
+public import TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Causality.RootPositiveIntellectWillControl
 open TruthCore.Causality.RootPositiveIntellectWillControl
 open TruthCore.Causality.NecessaryRootFork (ActualRoot)

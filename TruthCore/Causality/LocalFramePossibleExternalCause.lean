@@ -1,12 +1,17 @@
-import TruthCore.Causality.PossibleCauseOfContingency
-import TruthCore.Causality.NecessarilyUnderived
-import TruthCore.Results.Causality.ExternalCandidateNecessity.Solution
-import TruthCore.Results.Modal.NecessaryIfExistent.Solution
+module
+
+public import TruthCore.Causality.PossibleCauseOfContingency
+public import TruthCore.Causality.NecessarilyUnderived
+public import TruthCore.Results.Causality.ExternalCandidateNecessity.Solution
+public import TruthCore.Results.Modal.NecessaryIfExistent.Solution
 
 /-! Source-free frame-scope weakening of the existing possible-external-cause
 route. Keep the original Scenario and world-independent concrete predicate.
 No claim that beginnings or external causal opportunity are possible is proved.
 The classical logical basis is inherited from external-candidate equivalence. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.LocalFramePossibleExternalCause
 open TruthCore.Causality.PossibleCauseOfContingency
 open TruthCore.Causality.NecessarilyUnderived (ActualReflexive)

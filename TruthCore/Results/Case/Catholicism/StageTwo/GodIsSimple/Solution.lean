@@ -1,6 +1,11 @@
-import TruthCore.Case.Catholicism.StageTwo
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7Cause
-import TruthCore.Greek.Aristotle.Metaphysics
+module
+
+public import TruthCore.Case.Catholicism.StageTwo
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7Cause
+public import TruthCore.Greek.Aristotle.Metaphysics
+
+@[expose] public section
+
 namespace TruthCore.Results.Case.Catholicism.StageTwo.GodIsSimple
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Greek.Aristotle.Metaphysics (CauseOfQualityInAnotherIsMoreSuchReading)

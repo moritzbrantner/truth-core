@@ -1,4 +1,9 @@
-import TruthCore.Modal.OptimalCreationChoice
+module
+
+public import TruthCore.Modal.OptimalCreationChoice
+
+@[expose] public section
+
 namespace TruthCore.Results.Modal.OptimalCreationChoice
 open TruthCore.Modal.SelectedEffectBridge
 open TruthCore.Modal.OptimalCreationChoice

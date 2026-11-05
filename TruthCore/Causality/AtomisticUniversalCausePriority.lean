@@ -1,11 +1,16 @@
-import TruthCore.Causality.AtomisticCausalSource
-import Mathlib.Order.WellFounded
+module
+
+public import TruthCore.Causality.AtomisticCausalSource
+public import Mathlib.Order.WellFounded
 
 /-! Conditional extension of the analyst minimum. Proper-part descent is
 well-founded; causal descent is NOT assumed well-founded. Priority means
 asymmetric existential requirement in Rutten chapter VI, fn174, rather than
 Aquinas's act/potency priority. Independent applicability remains open.
 The endpoint concerns the CAUSE N, not the cover M's universal priority. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.AtomisticUniversalCausePriority
 open TruthCore.Logic.Regress (Graph)
 open TruthCore.Mereology.UniversalFusionBoundary (Covers)

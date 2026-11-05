@@ -1,8 +1,12 @@
-import TruthCore.Causality.NecessaryConcreteUnderived
-import TruthCore.Causality.ContingentAtomicity
-import TruthCore.Logic.ExcludedMiddle
-import TruthCore.Results.Causality.ScopedActualCausality.Solution
-import TruthCore.Results.Causality.ContingentAtomicity.Solution
+module
+
+public import TruthCore.Causality.NecessaryConcreteUnderived
+public import TruthCore.Causality.ContingentAtomicity
+public import TruthCore.Logic.ExcludedMiddle
+public import TruthCore.Results.Causality.ScopedActualCausality.Solution
+public import TruthCore.Results.Causality.ContingentAtomicity.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.ConcreteAtomisticNecessaryBeing
 open TruthCore.Causality.BruteFoundationBoundary

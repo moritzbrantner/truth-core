@@ -1,7 +1,12 @@
-import Mathlib.Order.RelClasses
-import TruthCore.Causality.NamedPotentialCauser
-import TruthCore.Explanation.WellFoundedSource
-import TruthCore.Logic.Configuration
+module
+
+public import Mathlib.Order.RelClasses
+public import TruthCore.Causality.NamedPotentialCauser
+public import TruthCore.Explanation.WellFoundedSource
+public import TruthCore.Logic.Configuration
+
+@[expose] public section
+
 namespace TruthCore.Results.Causality.CausalHarvest
 open TruthCore.German.Kant.CosmologicalInference
 open TruthCore.Causality.NecessarilyUnderived

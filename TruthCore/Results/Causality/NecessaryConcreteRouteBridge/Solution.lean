@@ -1,4 +1,8 @@
-import TruthCore.Causality.NecessaryConcreteRouteBridge
+module
+
+public import TruthCore.Causality.NecessaryConcreteRouteBridge
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.NecessaryConcreteRouteBridge
 

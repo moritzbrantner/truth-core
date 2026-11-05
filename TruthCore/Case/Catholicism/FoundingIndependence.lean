@@ -1,10 +1,15 @@
-import TruthCore.Comparison.Resurrection
+module
+
+public import TruthCore.Comparison.Resurrection
 
 /-! A formal-schema independence test, not a source interpretation or a
 possible-world counterexample to Christian history. The skeleton's fields are
 uninterpreted predicates. Even the pilot's independently stipulated
 `authorityVindicated` imposes no institutional mandate or agency constraint.
 No claim is made that a genuine divine attestation would have this meaning. -/
+
+@[expose] public section
+
 namespace TruthCore.Case.Catholicism.FoundingIndependence
 open TruthCore.History.Resurrection
 open TruthCore.Comparison.Resurrection

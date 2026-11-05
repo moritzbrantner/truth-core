@@ -1,5 +1,10 @@
-import TruthCore.Causality.DirectEsseRootGoodnessOmission
-import TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Solution
+module
+
+public import TruthCore.Causality.DirectEsseRootGoodnessOmission
+public import TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Causality.DirectEsseRootGoodnessOmission
 open TruthCore.Causality.DirectEsseRootGoodnessOmission
 open TruthCore.Causality.DirectEsseRootPerfectionGoodness

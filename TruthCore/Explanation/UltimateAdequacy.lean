@@ -1,13 +1,18 @@
-import TruthCore.Causality.DerivativeJointPower
-import TruthCore.Explanation.HistorySelection
-import TruthCore.Epistemology.UltimateExplanation
-import TruthCore.Explanation.TargetCopyExpansion
-import TruthCore.Explanation.ConservativeReasonExpansion
+module
+
+public import TruthCore.Causality.DerivativeJointPower
+public import TruthCore.Explanation.HistorySelection
+public import TruthCore.Epistemology.UltimateExplanation
+public import TruthCore.Explanation.TargetCopyExpansion
+public import TruthCore.Explanation.ConservativeReasonExpansion
 
 /-! Shared exercise comparison for #735. All four configurations use Nat event
 and bearer candidates, target2, Bool×Bool scenarios and the actual (true,true)
 context. No predicate named adequate is supplied. Intrinsic contribution is not
 intrinsic existence; the separate modal overlay tests that distinction. -/
+
+@[expose] public section
+
 namespace TruthCore.Explanation.UltimateAdequacy
 open TruthCore.Causality.JointGroups TruthCore.Causality.DerivativeJointPower
 open TruthCore.Logic.Regress

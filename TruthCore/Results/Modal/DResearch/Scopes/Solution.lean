@@ -1,5 +1,10 @@
-import TruthCore.Modal.DResearch.Scopes
-import TruthCore.Results.Modal.DResearch.Witnesses.Solution
+module
+
+public import TruthCore.Modal.DResearch.Scopes
+public import TruthCore.Results.Modal.DResearch.Witnesses.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Modal.DResearch.Scopes
 open TruthCore.Modal
 open TruthCore.Modal.ResearchFixture

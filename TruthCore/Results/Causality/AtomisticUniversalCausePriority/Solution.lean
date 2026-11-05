@@ -1,6 +1,10 @@
-import TruthCore.Causality.AtomisticUniversalCausePriority
-import TruthCore.Logic.ExcludedMiddle
-import TruthCore.Results.Causality.AtomisticCausalSource.Solution
+module
+
+public import TruthCore.Causality.AtomisticUniversalCausePriority
+public import TruthCore.Logic.ExcludedMiddle
+public import TruthCore.Results.Causality.AtomisticCausalSource.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.AtomisticUniversalCausePriority
 open TruthCore.Logic.Regress (Graph)

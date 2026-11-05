@@ -1,5 +1,7 @@
-import TruthCore.Explanation.AnselmUltimateSource
-import TruthCore.Causality.SelectedAncestry
+module
+
+public import TruthCore.Explanation.AnselmUltimateSource
+public import TruthCore.Causality.SelectedAncestry
 
 /-! Source-free same-witness composition interface. The original concrete
 predicate, modal ontology and rigid candidate identity are preserved. Only
@@ -7,6 +9,9 @@ distinct through-sources count as selected grounds; through-self is not
 productive self-grounding. The local ancestry and source-closure assumptions
 are OPEN applications to this explicitly derived relation, not consequences
 of naming it grounding. See docs/notes/necessary-simple-plurality.md. -/
+
+@[expose] public section
+
 namespace TruthCore.Explanation.NecessaryUltimateSource
 open TruthCore.Explanation.AnselmUltimateSource
 open TruthCore.Causality.BruteFoundationBoundary

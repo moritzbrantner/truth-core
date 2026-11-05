@@ -1,7 +1,12 @@
-import TruthCore.Case.Catholicism.StageTwo
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question4.Article1
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question4.Article2
-import TruthCore.Logic.ExcludedMiddle
+module
+
+public import TruthCore.Case.Catholicism.StageTwo
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question4.Article1
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question4.Article2
+public import TruthCore.Logic.ExcludedMiddle
+
+@[expose] public section
+
 namespace TruthCore.Results.Case.Catholicism.StageTwo.GodIsPerfect
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Case.Catholicism

@@ -1,4 +1,8 @@
-import TruthCore.Explanation.WellFoundedSource
+module
+
+public import TruthCore.Explanation.WellFoundedSource
+
+@[expose] public section
 
 namespace TruthCore.Results.Explanation.WellFoundedSource
 

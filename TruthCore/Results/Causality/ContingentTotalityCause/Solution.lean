@@ -1,5 +1,9 @@
-import TruthCore.Causality.ContingentTotalityCause
-import TruthCore.Results.Causality.ExternalCandidateNecessity.Solution
+module
+
+public import TruthCore.Causality.ContingentTotalityCause
+public import TruthCore.Results.Causality.ExternalCandidateNecessity.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.ContingentTotalityCause
 open TruthCore.German.Kant.CosmologicalInference

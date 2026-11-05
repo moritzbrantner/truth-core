@@ -1,4 +1,8 @@
-import TruthCore.Causality.GroundingRegress
+module
+
+public import TruthCore.Causality.GroundingRegress
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.GroundingAllowsRegress
 open TruthCore.Causality TruthCore.Causality.GroundingRegress

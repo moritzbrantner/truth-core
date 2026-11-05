@@ -1,8 +1,13 @@
-import TruthCore.Results.Modal.GraphBridge.Solution
-import Mathlib.Combinatorics.Quiver.ConnectedComponent
+module
+
+public import TruthCore.Results.Modal.GraphBridge.Solution
+public import Mathlib.Combinatorics.Quiver.ConnectedComponent
 
 /-! Accessibility components use Mathlib's possibly empty paths. These are
 modal graph facts, with no causal or temporal interpretation. -/
+
+@[expose] public section
+
 namespace TruthCore.Modal.AccessibilityComponents
 universe u
 

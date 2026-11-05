@@ -1,4 +1,9 @@
-import TruthCore.Models.InfiniteGreatestWhole
+module
+
+public import TruthCore.Models.InfiniteGreatestWhole
+
+@[expose] public section
+
 namespace TruthCore.Results.Aquinas.SummaTheologiae.InfiniteGreatestWhole
 open TruthCore.Models.InfiniteGreatestWhole
 open TruthCore.Latin.Aquinas.SummaTheologiae

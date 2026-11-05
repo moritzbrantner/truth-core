@@ -1,6 +1,10 @@
-import TruthCore.Causality.DirectEsseGenusOmissionControl
-import TruthCore.Results.Causality.NecessarySimplePlurality.Solution
-import TruthCore.Results.Causality.DirectEsseRootUniqueness.Solution
+module
+
+public import TruthCore.Causality.DirectEsseGenusOmissionControl
+public import TruthCore.Results.Causality.NecessarySimplePlurality.Solution
+public import TruthCore.Results.Causality.DirectEsseRootUniqueness.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.DirectEsseGenusOmissionControl
 open TruthCore.Causality.DirectEsseGenusOmissionControl

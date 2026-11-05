@@ -1,5 +1,9 @@
-import TruthCore.Modal.GraphBridgeCertificate
-import TruthCore.Results.Modal.GraphBridge.Solution
+module
+
+public import TruthCore.Modal.GraphBridgeCertificate
+public import TruthCore.Results.Modal.GraphBridge.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Modal.GraphBridgeCertificate
 universe u v

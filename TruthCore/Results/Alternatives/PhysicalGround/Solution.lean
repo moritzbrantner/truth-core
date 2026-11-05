@@ -1,8 +1,12 @@
-import TruthCore.Alternatives.PhysicalGround
-import TruthCore.Results.Case.Catholicism.StageTwo.GodHasWill.Solution
-import TruthCore.Results.Causality.RootMultiplication.Solution
-import TruthCore.Results.Comparison.MindPhysicalism.Solution
-import TruthCore.Results.Explanation.ExplanatorySymmetry.Solution
+module
+
+public import TruthCore.Alternatives.PhysicalGround
+public import TruthCore.Results.Case.Catholicism.StageTwo.GodHasWill.Solution
+public import TruthCore.Results.Causality.RootMultiplication.Solution
+public import TruthCore.Results.Comparison.MindPhysicalism.Solution
+public import TruthCore.Results.Explanation.ExplanatorySymmetry.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Alternatives.PhysicalGround
 

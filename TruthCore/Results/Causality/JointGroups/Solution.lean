@@ -1,6 +1,11 @@
-import TruthCore.Causality.JointGroups
-import TruthCore.Results.Causality.SourceWitness.Solution
-import TruthCore.Results.Causality.PluralRootConfluence.Solution
+module
+
+public import TruthCore.Causality.JointGroups
+public import TruthCore.Results.Causality.SourceWitness.Solution
+public import TruthCore.Results.Causality.PluralRootConfluence.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Causality.JointGroups
 open TruthCore.Logic.Regress
 open TruthCore.Causality

@@ -1,12 +1,14 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7Cause
-import TruthCore.Causality.PowerExistenceBoundary
-import TruthCore.Causality.NecessarilyUnderived
-import TruthCore.Explanation.ExistencePSR
-import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverSimple.Solution
-import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverPureAct.Solution
-import TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Solution
-import TruthCore.Results.Case.Catholicism.Q11NatureUniqueness.Solution
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article4
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7Cause
+public import TruthCore.Causality.PowerExistenceBoundary
+public import TruthCore.Causality.NecessarilyUnderived
+public import TruthCore.Explanation.ExistencePSR
+public import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverSimple.Solution
+public import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverPureAct.Solution
+public import TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Solution
+public import TruthCore.Results.Case.Catholicism.Q11NatureUniqueness.Solution
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article4
 
 /-!
 A joint finite interpretation for #320, using existing interfaces rather than
@@ -22,6 +24,9 @@ Genus/difference, subject/accident and adequacy of intrinsic explanation are not
 encoded. In particular the PSR tokens below are only sound candidate assignments.
 The source readings reused here remain open; no new historical claim is made.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.NecessarySimplePlurality
 
 open TruthCore.Latin.Aquinas.SummaTheologiae

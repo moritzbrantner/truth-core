@@ -1,11 +1,16 @@
-import Mathlib.Order.Bounds.Basic
-import TruthCore.Modal.ExistenceDegrees
+module
+
+public import Mathlib.Order.Bounds.Basic
+public import TruthCore.Modal.ExistenceDegrees
 
 /-! Attainment of the selected individual's own accessible-world degree
 family. Mathlib's IsGreatest on the image of the accessible-world set expresses
 an attained upper bound, rather than mere boundedness. Preorder-equivalent
 labels may still differ. This is an analyst's mathematical bridge, not a new
 attributed philosophical premise. -/
+
+@[expose] public section
+
 namespace TruthCore.Modal.ExistenceDegrees
 open TruthCore.German.Kant.CosmologicalInference
 

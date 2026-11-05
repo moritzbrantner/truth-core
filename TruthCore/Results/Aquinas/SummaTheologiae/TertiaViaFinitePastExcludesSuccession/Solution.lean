@@ -1,5 +1,10 @@
-import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaSuccessionNeedsInfinitePast.Solution
-import TruthCore.Refutations.TertiaVia
+module
+
+public import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaSuccessionNeedsInfinitePast.Solution
+public import TruthCore.Refutations.TertiaVia
+
+@[expose] public section
+
 namespace TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaFinitePastExcludesSuccession
 open TruthCore.Logic
 open TruthCore.Latin.Aquinas.SummaTheologiae

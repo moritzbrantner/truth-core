@@ -1,6 +1,11 @@
-import TruthCore.Logic.TruthNontriviality
-import TruthCore.Results.Logic.TruthNontriviality.Core.Solution
-import TruthCore.Results.Logic.TruthPilot.LocalVariation.Solution
+module
+
+public import TruthCore.Logic.TruthNontriviality
+public import TruthCore.Results.Logic.TruthNontriviality.Core.Solution
+public import TruthCore.Results.Logic.TruthPilot.LocalVariation.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Logic.TruthNontriviality.Controls
 open TruthCore.Logic.SelfApplication
 open TruthCore.Logic.Relativism

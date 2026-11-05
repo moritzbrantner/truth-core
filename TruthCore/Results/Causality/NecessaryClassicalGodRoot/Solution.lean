@@ -1,6 +1,11 @@
-import TruthCore.Causality.NecessaryClassicalGodRoot
-import TruthCore.Results.Causality.RootPositiveIntellectWill.Solution
-import TruthCore.Results.Aquinas.SummaTheologiae.FirstBeingNoPotency.Solution
+module
+
+public import TruthCore.Causality.NecessaryClassicalGodRoot
+public import TruthCore.Results.Causality.RootPositiveIntellectWill.Solution
+public import TruthCore.Results.Aquinas.SummaTheologiae.FirstBeingNoPotency.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Causality.NecessaryClassicalGodRoot
 open TruthCore.Causality.BruteFoundationBoundary
 open TruthCore.Causality.NecessaryConcreteRouteBridge

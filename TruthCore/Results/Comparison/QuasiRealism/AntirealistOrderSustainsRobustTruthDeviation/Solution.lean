@@ -1,4 +1,9 @@
-import TruthCore.Results.Comparison.QuasiRealism.MinimalismCollapsesRobustTruth.Solution
+module
+
+public import TruthCore.Results.Comparison.QuasiRealism.MinimalismCollapsesRobustTruth.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Comparison.QuasiRealism.AntirealistOrderSustainsRobustTruthDeviation
 open TruthCore.English.VanRoojen
 open TruthCore.Refutations.QuasiRealism

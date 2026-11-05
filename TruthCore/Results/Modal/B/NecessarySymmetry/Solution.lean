@@ -1,4 +1,9 @@
-import TruthCore.Results.Modal.B.Laws.Solution
+module
+
+public import TruthCore.Results.Modal.B.Laws.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Modal.B.NecessarySymmetry
 open TruthCore.Modal
 open TruthCore.Modal.ResearchFixture

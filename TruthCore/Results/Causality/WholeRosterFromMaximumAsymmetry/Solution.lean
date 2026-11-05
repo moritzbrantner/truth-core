@@ -1,4 +1,9 @@
-import TruthCore.Causality.DirectEsseRootUniquenessAtBeing
+module
+
+public import TruthCore.Causality.DirectEsseRootUniquenessAtBeing
+
+@[expose] public section
+
 namespace TruthCore.Results.Causality.WholeRosterFromMaximumAsymmetry
 open TruthCore.Causality.BruteFoundationBoundary
 open TruthCore.Causality.WholeRosterFoundation

@@ -1,4 +1,9 @@
-import TruthCore.Modal.S5Research
+module
+
+public import TruthCore.Modal.S5Research
+
+@[expose] public section
+
 namespace TruthCore.Results.Modal.S5.Language
 open TruthCore.Modal
 open TruthCore.Modal.ResearchFixture

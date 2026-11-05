@@ -1,4 +1,6 @@
-import TruthCore.Mereology.FusionNoNecessaryParts
+module
+
+public import TruthCore.Mereology.FusionNoNecessaryParts
 
 /-!
 Analyst whole-route consumer, not a source binding of A2/A4/C1–3. The actual
@@ -6,6 +8,9 @@ selected fusion and all causal/part-existence policies are explicit. No profile,
 concreteness dictionary, L1/L2 warrant, modal frame law or model is introduced.
 The conclusion is SOME actual necessary individual, not a necessary cause.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.ActualFusionNecessaryBeing
 open TruthCore.German.Kant.CosmologicalInference
 open TruthCore.Mereology.UniversalFusionBoundary

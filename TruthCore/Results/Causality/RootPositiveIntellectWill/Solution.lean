@@ -1,5 +1,10 @@
-import TruthCore.Causality.RootPositiveIntellectWill
-import TruthCore.Results.Causality.DirectEsseRootPerfectionGoodness.Solution
+module
+
+public import TruthCore.Causality.RootPositiveIntellectWill
+public import TruthCore.Results.Causality.DirectEsseRootPerfectionGoodness.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Causality.RootPositiveIntellectWill
 open TruthCore.Causality.BruteFoundationBoundary
 open TruthCore.Causality.NecessaryConcreteRouteBridge

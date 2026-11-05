@@ -1,5 +1,10 @@
-import TruthCore.Comparison.NightCosmogony
-import TruthCore.Models.NightCosmogony
+module
+
+public import TruthCore.Comparison.NightCosmogony
+public import TruthCore.Models.NightCosmogony
+
+@[expose] public section
+
 namespace TruthCore.Results.Alternatives.GenerationFromNightRefuted
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Alternatives.ActPotencyRegress

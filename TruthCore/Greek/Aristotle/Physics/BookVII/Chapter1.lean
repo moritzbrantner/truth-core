@@ -1,4 +1,8 @@
-import TruthCore.Greek.Aristotle.Physics.BookVI.Chapter10
+module
+
+public import TruthCore.Greek.Aristotle.Physics.BookVI.Chapter10
+
+@[expose] public section
 
 namespace TruthCore.Greek.Aristotle.Physics
 

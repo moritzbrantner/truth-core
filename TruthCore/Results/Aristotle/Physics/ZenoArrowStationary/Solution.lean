@@ -1,4 +1,9 @@
-import TruthCore.Greek.Aristotle.Physics.BookVI.Chapter9
+module
+
+public import TruthCore.Greek.Aristotle.Physics.BookVI.Chapter9
+
+@[expose] public section
+
 namespace TruthCore.Results.Aristotle.Physics.ZenoArrowStationary
 open TruthCore.Greek.Aristotle.Physics
 theorem zenoArrowStationary (ArrowAtRestInEveryNow ArrowIsStationary : Prop)

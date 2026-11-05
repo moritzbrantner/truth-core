@@ -1,6 +1,11 @@
-import TruthCore.Results.Aquinas.SummaTheologiae.QuartaVia.Solution
-import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverIsMaximeEns.Solution
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question4.Article2
+module
+
+public import TruthCore.Results.Aquinas.SummaTheologiae.QuartaVia.Solution
+public import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverIsMaximeEns.Solution
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question4.Article2
+
+@[expose] public section
+
 namespace TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverHasPerfectionsOfThings
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Case.Catholicism (FirstUnmovedMoverHasEveryPerfectionOfThings

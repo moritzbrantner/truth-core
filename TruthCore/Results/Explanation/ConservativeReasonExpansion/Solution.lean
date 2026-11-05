@@ -1,4 +1,8 @@
-import TruthCore.Explanation.ConservativeReasonExpansion
+module
+
+public import TruthCore.Explanation.ConservativeReasonExpansion
+
+@[expose] public section
 
 namespace TruthCore.Results.Explanation.ConservativeReasonExpansion
 

@@ -1,6 +1,11 @@
-import TruthCore.Modal.BResearch
-import TruthCore.Results.Modal.B.Laws.Solution
-import TruthCore.Results.Modal.K.ScopeBoundary.Solution
+module
+
+public import TruthCore.Modal.BResearch
+public import TruthCore.Results.Modal.B.Laws.Solution
+public import TruthCore.Results.Modal.K.ScopeBoundary.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Modal.B.ScopeBoundary
 open TruthCore.Modal
 open TruthCore.Modal.ResearchFixture

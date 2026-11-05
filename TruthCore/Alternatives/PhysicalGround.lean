@@ -1,15 +1,17 @@
-import TruthCore.Alternatives.MindPhysicalism
-import TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.CausalPowers
-import TruthCore.Case.Catholicism.StageTwo
-import TruthCore.Causality.NecessarilyUnderived
-import TruthCore.Causality.RootMultiplication
-import TruthCore.Explanation.ExplanatorySymmetry
-import TruthCore.Greek.Aristotle.Metaphysics
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.IntellectWill
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7Cause
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article8
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question4.Article2
+module
+
+public import TruthCore.Alternatives.MindPhysicalism
+public import TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.CausalPowers
+public import TruthCore.Case.Catholicism.StageTwo
+public import TruthCore.Causality.NecessarilyUnderived
+public import TruthCore.Causality.RootMultiplication
+public import TruthCore.Explanation.ExplanatorySymmetry
+public import TruthCore.Greek.Aristotle.Metaphysics
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.IntellectWill
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7Cause
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article8
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question4.Article2
 
 /-!
 # A necessary physical ground, tested on the standards of a classical ground (#468)
@@ -21,6 +23,9 @@ are finite analyst-built interpretations and may carry inert rows. Names such as
 `rival` and `classical` are comparison labels for tables. See
 `docs/notes/physical-ground-468.md` for readings, examples and rival accounts.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Alternatives.PhysicalGround
 
 open TruthCore.Latin.Aquinas.SummaTheologiae

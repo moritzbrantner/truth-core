@@ -1,5 +1,7 @@
-import TruthCore.Models.NightCosmogony
-import TruthCore.Alternatives.NightActualizationFork
+module
+
+public import TruthCore.Models.NightCosmogony
+public import TruthCore.Alternatives.NightActualizationFork
 
 /-! Joint finite witnesses for the Night actualization fork. The four original
 Night models are reused unchanged. Each closed certificate concerns one model;
@@ -7,6 +9,9 @@ no separate interpretations are combined. `Overlap` shows that the self-mover
 and distinct-mover horns can hold for the same unpreceded moved potency.
 `NonactualMover` distinguishes lacking an actual mover from lacking any mover.
 These are satisfiability witnesses of the encoding, not metaphysical claims. -/
+
+@[expose] public section
+
 namespace TruthCore.Models.NightActualizationFork
 
 open TruthCore.Models.FiniteSupport

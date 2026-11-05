@@ -1,5 +1,10 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3Interpretation
-import TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaModels
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3Interpretation
+public import TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaModels
+
+@[expose] public section
+
 namespace TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaFacts.StrongReadingYields
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Results.Aquinas.SummaTheologiae

@@ -1,5 +1,9 @@
-import Mathlib.Basic.Logic.Basic
-import TruthCore.Causality.BruteFoundationBoundary
+module
+
+public import Mathlib.Basic.Logic.Basic
+public import TruthCore.Causality.BruteFoundationBoundary
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.BruteRootDisjunction
 

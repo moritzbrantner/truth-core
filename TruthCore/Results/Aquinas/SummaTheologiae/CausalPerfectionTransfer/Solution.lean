@@ -1,9 +1,13 @@
-import TruthCore.Case.Catholicism.CausalPerfectionTransfer
-import TruthCore.Results.Aquinas.SummaTheologiae.AtMostOneMaximeEns.Solution
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article8
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question4.Article1
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question5.Article1
-import TruthCore.Case.Catholicism.StageTwo
+module
+
+public import TruthCore.Case.Catholicism.CausalPerfectionTransfer
+public import TruthCore.Results.Aquinas.SummaTheologiae.AtMostOneMaximeEns.Solution
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article8
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question4.Article1
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question5.Article1
+public import TruthCore.Case.Catholicism.StageTwo
+
+@[expose] public section
 
 namespace TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer
 open TruthCore.Latin.Aquinas.SummaTheologiae
@@ -54,25 +58,28 @@ theorem equivalence {Being Respect : Type} [DecidableEq Being]
 
 attribute [local instance] transferFourForallDecidable
 
-private instance boolForallDecidable (p : Bool → Prop) [DecidablePred p] :
+/- These instances are public: importers such as
+`NecessaryClassicalGodRootFromAsymmetry` decide `transferCause` with them. An ordinary file's
+private instance stays active in importers; a module's does not. -/
+instance boolForallDecidable (p : Bool → Prop) [DecidablePred p] :
     Decidable (∀ b, p b) := decidable_of_iff (p false ∧ p true) Bool.forall_bool.symm
 
-private instance causeDecidable (b : Bool) (c x : TransferRole) (r : Bool) :
+instance causeDecidable (b : Bool) (c x : TransferRole) (r : Bool) :
     Decidable (transferCause b c x r) := by
   cases r <;> cases b <;> unfold transferCause <;> infer_instance
 
-private instance moreDecidable (b r : Bool) (c x : TransferRole) :
+instance moreDecidable (b r : Bool) (c x : TransferRole) :
     Decidable (transferMore b r c x) := by
   unfold transferMore
   infer_instance
 
-private instance backgroundDecidable (b : Bool) : Decidable (TransferModelBackground b) := by
+instance backgroundDecidable (b : Bool) : Decidable (TransferModelBackground b) := by
   unfold TransferModelBackground MaximumInGenusCausesAllInGenusReading CausesAllInGenus
     CauseOfQualityInAnotherIsMoreSuchReading PerfectionsOfEffectPreexistInCauseReading
     IsMaximumIn transferAct
   infer_instance
 
-private instance universalTransferDecidable (b : Bool) :
+instance universalTransferDecidable (b : Bool) :
     Decidable (UniversalCauseTransfersPerfections transferAct (transferCause b) false) := by
   unfold UniversalCauseTransfersPerfections CausesAllInGenus transferAct
   infer_instance

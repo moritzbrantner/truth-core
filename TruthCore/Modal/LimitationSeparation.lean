@@ -1,7 +1,12 @@
-import TruthCore.Modal.LimitationPossibility
+module
+
+public import TruthCore.Modal.LimitationPossibility
 
 /-! Stronger analyst consequence of the EXISTING classifier inputs. No source
 reading, property domain, classifier meaning or frame principle is added. -/
+
+@[expose] public section
+
 namespace TruthCore.Modal.LimitationSeparation
 open TruthCore.Isabelle.AFP.GoedelGod (Property Dia)
 

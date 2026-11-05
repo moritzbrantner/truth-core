@@ -1,10 +1,15 @@
-import TruthCore.Modal.NecessaryIfExistent
-import TruthCore.Modal.GraphBridge
+module
+
+public import TruthCore.Modal.NecessaryIfExistent
+public import TruthCore.Modal.GraphBridge
 
 /-! Exact pointwise frame correspondence for #437. Mathematical reachability
 uses Mathlib Relation.ReflTransGen, rather than a new modal or graph engine.
 The input is still the boxed conditional at a single named standpoint; no
 metaphysical adequacy or possibility premise is established. -/
+
+@[expose] public section
+
 namespace TruthCore.Modal.NecessaryIfConnectivity
 open TruthCore.Modal.NecessaryIfExistent
 open TruthCore.Isabelle.AFP.GoedelGod (Box Dia)

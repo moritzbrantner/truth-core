@@ -1,5 +1,10 @@
-import TruthCore.Metaethics.ExplanationOrder
-import TruthCore.Results.Comparison.MoralError.AquinasGermansErred.Solution
+module
+
+public import TruthCore.Metaethics.ExplanationOrder
+public import TruthCore.Results.Comparison.MoralError.AquinasGermansErred.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Comparison.QuasiRealism.SharedDataDoNotChooseOrder
 open TruthCore.Metaethics.ExplanationOrder
 

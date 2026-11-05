@@ -1,4 +1,9 @@
-import TruthCore.History.Resurrection
+module
+
+public import TruthCore.History.Resurrection
+
+@[expose] public section
+
 namespace TruthCore.Results.Bridges.ResurrectionPilotGodExists
 open TruthCore.History.Resurrection
 /-- Bridge (#401), a transcription (invariant 16): stage 1 of the case

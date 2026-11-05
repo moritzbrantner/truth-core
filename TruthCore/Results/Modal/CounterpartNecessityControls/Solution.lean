@@ -1,4 +1,8 @@
-import TruthCore.Modal.CounterpartNecessity
+module
+
+public import TruthCore.Modal.CounterpartNecessity
+
+@[expose] public section
 
 namespace TruthCore.Results.Modal.CounterpartNecessityControls
 /-- Closed model controls; no root obligation is discharged. -/

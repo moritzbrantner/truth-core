@@ -1,7 +1,9 @@
-import Mathlib.Logic.Relation
-import TruthCore.Causality.NecessarilyUnderived
-import TruthCore.Greek.Aristotle.Categories
-import TruthCore.Logic.CogitoConcrete
+module
+
+public import Mathlib.Logic.Relation
+public import TruthCore.Causality.NecessarilyUnderived
+public import TruthCore.Greek.Aristotle.Categories
+public import TruthCore.Logic.CogitoConcrete
 
 /-!
 # Does the support ancestry of a thought's bearer terminate? (#562)
@@ -36,6 +38,9 @@ that the two terminus branches can hold together. A "non-substantial terminus"
 is only a terminus failing the supplied `Substance`; it is not shown to be a
 process or event.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.BearerRegress
 
 open TruthCore.Causality.NecessarilyUnderived

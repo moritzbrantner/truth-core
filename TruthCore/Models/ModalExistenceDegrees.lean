@@ -1,6 +1,8 @@
-import TruthCore.Modal.NecessaryVariableEffects
-import TruthCore.Models.OrderSecondary
-import TruthCore.Modal.ExistenceDegrees
+module
+
+public import TruthCore.Modal.NecessaryVariableEffects
+public import TruthCore.Models.OrderSecondary
+public import TruthCore.Modal.ExistenceDegrees
 
 /-! Finite and infinite controls for a separately declared modal weak-bound profile.
 The finite controls reuse ordered `Fin 3` intensity labels; the infinite
@@ -14,6 +16,9 @@ possible. The empty-cause variant is separate data, not an edit to that model.
 All interpretations have rigid candidate identities and universal accessibility.
 These are formal controls, not claims of metaphysical possibility or a
 formalization of the whole Koons argument. -/
+
+@[expose] public section
+
 namespace TruthCore.Models.ModalExistenceDegrees
 
 open TruthCore.German.Kant.CosmologicalInference

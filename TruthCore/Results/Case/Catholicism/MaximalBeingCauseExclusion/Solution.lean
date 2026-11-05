@@ -1,6 +1,11 @@
-import TruthCore.Case.Catholicism.MaximalBeingCauseExclusion
-import TruthCore.Results.Aquinas.SummaTheologiae.QuartaVia.Solution
-import TruthCore.Greek.Aristotle.Metaphysics
+module
+
+public import TruthCore.Case.Catholicism.MaximalBeingCauseExclusion
+public import TruthCore.Results.Aquinas.SummaTheologiae.QuartaVia.Solution
+public import TruthCore.Greek.Aristotle.Metaphysics
+
+@[expose] public section
+
 namespace TruthCore.Results.Case.Catholicism.MaximalBeingCauseExclusion
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Greek.Aristotle.Metaphysics (CauseOfQualityInAnotherIsMoreSuchReading)

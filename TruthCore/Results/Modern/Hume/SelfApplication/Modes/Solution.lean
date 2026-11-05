@@ -1,4 +1,9 @@
-import TruthCore.Modern.Hume.SelfApplication
+module
+
+public import TruthCore.Modern.Hume.SelfApplication
+
+@[expose] public section
+
 namespace TruthCore.Results.Modern.Hume.SelfApplication.Modes
 open TruthCore.Modal
 open TruthCore.Isabelle.AFP.GoedelGod (MProp Box Dia)
