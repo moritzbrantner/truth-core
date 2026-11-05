@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ADDITIVE-POPULATION-SCORING",
+  "term": "separable anonymous additive population scoring",
+  "definition": "score f p sums the per-person real scores f(w). Additive f value asserts exact equality for every finite list; PositiveLifeScore f says every strictly positive welfare has strictly positive score. These are explicit ethical framework assumptions, not facts independently established by the theorem. List order is irrelevant to the sum; interpersonal cardinal comparability is stipulated.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Ethics.PopulationScoring.Additive",
+  "note": "Analyst formulation for issue #1038; attribution deferred. See docs/notes/carneades-population-aggregation.md for assumptions, omission witnesses and remaining application burdens."
+}

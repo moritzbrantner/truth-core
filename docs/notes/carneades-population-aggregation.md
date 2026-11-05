@@ -112,3 +112,110 @@ interpersonal aggregation, availability of arbitrary finite profiles and the
 normative authority of either ranking remain OPEN for ethical application.
 Intended and actual root-premise delta: zero. The new independent statement is
 not connected to a root argument and closes no existing frontier leaf.
+
+## Individual scoring and replication obstruction (#1038)
+
+The new `PopulationScoring.Population = List ℝ` assigns an explicit welfare to
+one individual per entry. Count is list length, ordinary total is the sum and
+mean is total/count. For a strictly positive count, `summary` reuses the old
+`PopulationAggregation.Profile`, and `summary_total` proves its product total
+equals the individual sum. The old summary theorem has not become a distribution
+theorem by relabeling: `replication` imports and consumes the exact existing
+`TruthCore.Results.Ethics.PopulationAggregation.controls`, then realizes its
+finite count by `List.replicate`. In the generic score proof the old real-number
+inequality is instantiated on **score units**, not by identifying f(w) with
+welfare w; the new list contains welfare w at each entry and its score is
+n*f(w). All entries in that replication equal the specified welfare. The common interpersonal cardinal scale remains stipulated.
+
+The proposed population value `value` is independently constrained by
+`Additive f value`: on **every** finite list it equals the sum of a real-valued
+per-person score `f`. For any welfare `w` with `f w > 0` and any finite baseline,
+sufficiently many replicas strictly exceed its value. The baseline can be empty
+or mixed-sign; it need not have positive welfare or score. No monotonicity,
+continuity, linearity of f, or normalization of f at zero is assumed. If every
+positive welfare has positive score, then for each cutoff δ>0 the construction
+chooses w=δ/2 and a finite nonempty replication outranking the baseline.
+
+`NoLowReplication value p δ` explicitly bounds every uniform population with
+0<w<δ and every positive finite replication count by the same baseline's
+value. For δ>0 this contradicts additive representation and universal
+positive-life scoring. Thus at least one member of **this particular bundle**
+must be rejected. This is neither an unrestricted population-ethics impossibility
+nor an argument choosing one uniquely correct ranking. The arithmetic assumes
+all finite lists are admissible comparisons; physical feasibility, available
+resources, identity and welfare-measurement adequacy remain OPEN.
+
+The omission controls distinguish consequential alternatives:
+
+- Zero scoring preserves additive representation and the no-low-replication
+  bound but rejects positive scoring of positive lives.
+- Average welfare preserves the bound below a nonempty positive-mean baseline.
+  No f represents average as an additive sum on all finite lists: [2] and [2,2]
+  already force incompatible per-person scores. It therefore rejects additive
+  representation. Adding any life with 0<w<the baseline's mean strictly lowers
+  its average while strictly increasing ordinary total. The original list must
+  be nonempty; its positive mean follows from this exact positive-lower-life
+  guard rather than from an assumption that each existing life is positive.
+- Positive-critical-level scoring sums w-c. For c>0 it bounds replications with
+  0<w<c below baseline [c+1], but rejects universal positive-life scoring:
+  c/2 has negative score. Adding **any** positive life below c strictly lowers
+  critical value, whatever the existing distribution. This is its specific
+  mere-addition cost; the life remains positive in ordinary welfare units.
+- With a finite count cap N and N*w≤the baseline total, every n≤N replication
+  has total at most that baseline. Restricting admissible replication can block
+  the unrestricted construction without changing ordinary positive welfare
+  scores. This is a sufficient cap control, not a claim that every feasible cap
+  avoids all ranking reversals.
+
+All-positive [1,1] and mixed-sign [-1,3] both have total two and mean one; the
+latter explicitly contains a negative life. Uniform replications have mean
+exactly w under n>0. These distribution controls reject the stronger reading
+that a positive average implies every life positive, or that summary equality
+establishes distributional fairness. List ordering adds no moral significance:
+all additive scores sum the same individual entries; no cardinal scale is
+inferred from ordinal preference.
+
+The new argument is an analyst formulation with attribution deferred. The
+existing source leads and provisional findings above are preserved; no new
+source, passage or claim record is added. It is a non-transcription mathematical
+constraint, using the old checked theorem rather than a fresh assumed bridge.
+Actual premise comparison: no top-level corpus premises, all scoring/cutoff/
+nonempty guards explicit inside `Controls`; no root-route premise retained,
+added, removed or discharged. Root-frontier delta is zero.
+
+Development service probes used the coordinator's unchanged preview HEAD
+`a2d97ecf1429e86b3e12f15b91b735f85e27822e`, session `workloop-20261105`,
+workspace `/home/moenarch/moritzbrantner/truth-core`. Initial separate-file
+submission could not resolve the new vocabulary outside the canonical clone;
+a combined full-content submission corrected a nonexistent List import and
+then was rejected because the preview's cached PopulationAggregation Solution
+predates the module migration. Final combined content SHA256 was
+`33dcf69683a7b95fb592adbb8ec5991805800180907f1c39639e7d3979975527`.
+This is rejection evidence, not proof verification. The worker did not rebuild
+or alter the preview; canonical CLI verification is used instead.
+
+`total_low_replication` explicitly instantiates the generic theorem with
+f=id and value=ordinary total. Its premises are only an arbitrary finite list,
+a cutoff δ and δ>0; the positive-life-score and additive-representation guards
+are proved by their definitions rather than introduced as further assumptions.
+Its moral authority and feasible realization remain open as above.
+
+The same service returned the seed dossier with the exact preview HEAD,
+workspace and dirty-state binding above; it did not establish a new proposition
+or change corpus status. CLI `corpus.py related` and `dossier` supplied reuse
+context before implementation. For this task the service did not replace CLI
+proof development because of the stale module cache; retain the shared preview
+only after the coordinator refreshes its dependencies in a future experiment.
+
+Claim/type self-sweep: the new statement, inference, argument and result all bind
+to `PopulationScoring.Controls`. Its representation, strictly-positive score,
+cutoff, count and nonempty assumptions remain within the quantified clauses;
+there is no unrestricted negative conclusion or premise truth assertion.
+`replication` permits any real per-person function but requires positive score
+at the selected welfare; `low_replication` separately requires positive scores
+for all positive welfare. The zero, average, critical-level and capped controls
+remove different hypotheses rather than refute the generic conditional. The
+all-positive/mixed example asserts only equal summaries and their displayed
+entry signs. No new metaphysical relation or historical attribution is hidden
+in the definitions. The existing source findings and old summary theorem retain
+their original, narrower scope.

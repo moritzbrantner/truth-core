@@ -1,13 +1,15 @@
 {
   "id": "ATTEMPT-CARNEADES-POPULATION-AGGREGATION",
-  "date": "2026-10-28",
+  "date": "2026-11-05",
   "statement_ids": [
-    "STMT-FINITE-POPULATION-AGGREGATION-CONTROLS"
+    "STMT-FINITE-POPULATION-AGGREGATION-CONTROLS",
+    "STMT-FINITE-POPULATION-SCORING-TRADEOFFS"
   ],
   "kind": "derivation",
   "outcome": "succeeded",
-  "summary": "Read complete public auto-caption stream of Carneades video zG814I1DBzU; provisional locators, VTT hash, source-fidelity limits, decisive arithmetic bridge, strongest rival, and rejected readings persist in docs/notes/carneades-population-aggregation.md. No attributed source claim or materialized media_span is asserted. Independent stipulated real-scale finite profiles yield arbitrary low-positive-mean total dominance, global total/average strict-ranking incompatibility, equal-count agreement and zero-mean boundary. No ordinal-to-cardinal inference, infinite sum, individual-welfare distribution, moral adequacy, historical Parfit claim or attained maximum is established. Reuses Mathlib Archimedean naturals and positive multiplication cancellation; no existing Railton criterion is equated to a numeric scale. No root-route premise change; common scale, actual feasible count growth and normative authority remain OPEN for application. Frozen Challenge SHA256 58fa4570d5065f44160d25b0a160c46d578e7f06011ddc09a42776daa1724c9c. Development probe had initial import placement and multiplication-theorem API errors, corrected without changing Challenge. Canonical delivered verification belongs to CI.",
+  "summary": "Read complete public auto-caption stream of Carneades video zG814I1DBzU; provisional locators, VTT hash, source-fidelity limits, decisive arithmetic bridge, strongest rival, and rejected readings persist in docs/notes/carneades-population-aggregation.md. No attributed source claim or materialized media_span is asserted. Independent stipulated real-scale finite profiles yield arbitrary low-positive-mean total dominance, global total/average strict-ranking incompatibility, equal-count agreement and zero-mean boundary. No ordinal-to-cardinal inference, infinite sum, moral adequacy, historical Parfit claim or attained maximum is established. Reuses Mathlib Archimedean naturals and positive multiplication cancellation; no existing Railton criterion is equated to a numeric scale. No root-route premise change; common scale, actual feasible count growth and normative authority remain OPEN for application. Frozen Challenge SHA256 58fa4570d5065f44160d25b0a160c46d578e7f06011ddc09a42776daa1724c9c. Development probe had initial import placement and multiplication-theorem API errors, corrected without changing Challenge. Canonical delivered verification belongs to CI. Issue #1038 extends the existing arithmetic to explicit finite individual lists and generic separable additive per-person scoring: any positively scored repeatable welfare exceeds each finite baseline with enough replicas; universal positive-life scoring contradicts a fixed positive-cutoff no-low-replication constraint. Average, critical-level, zero-score and count-cap omission controls locate distinct rejected commitments and guarded mere-addition costs. All-positive and mixed-sign lists witness equal summaries without equal individual positivity. Exact old controls theorem is imported and consumed. No new attribution/source records or root-premise changes. Preview rejected stale non-module cached dependency; canonical CLI and delivered CI own proof evidence. Frozen new Challenge SHA256 2f4a04d2573ddd94f55ffb2da1d507331f64b423dc818beab5a57e5f036e1851. Full assumptions, rejected stronger readings and remaining feasibility/normative gaps persist in the same note.",
   "evidence": [
-    "FINITE-POPULATION-AGGREGATION-CONTROLS"
+    "FINITE-POPULATION-AGGREGATION-CONTROLS",
+    "FINITE-POPULATION-SCORING-TRADEOFFS"
   ]
 }

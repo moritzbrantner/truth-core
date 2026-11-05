@@ -1,0 +1,8 @@
+{
+  "id": "DEF-FINITE-INDIVIDUAL-WELFARE-POPULATION",
+  "term": "finite individual welfare population",
+  "definition": "Population is List \u211d: each entry is one individual on a stipulated common cardinal interpersonal welfare scale. Length is count, total sums welfare and mean divides total by count. Summary requires strictly positive count and reuses the old Profile; its total is proved equal to the individual sum. Empty average is an arithmetic extension only; ranking statements use nonempty guards. Positive average does not imply each entry positive.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Ethics.PopulationScoring.Population",
+  "note": "Analyst formulation for issue #1038; attribution deferred. See docs/notes/carneades-population-aggregation.md for assumptions, omission witnesses and remaining application burdens."
+}
