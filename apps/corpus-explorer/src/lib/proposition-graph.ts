@@ -39,7 +39,7 @@ export const GRAPH_STATUSES: ReadonlyArray<{ id: GraphStatus; label: string; des
   {
     id: "defended",
     label: "Alternatives refuted",
-    description: "Every recorded alternative is refuted by a verified argument whose premises are all closed.",
+    description: "Every recorded alternative is refuted by a verified argument whose premises are all established.",
   },
   { id: "alternative", label: "Alternative", description: "Recorded as an alternative to another statement." },
   { id: "objection", label: "Objection", description: "Recorded as an objection attacking another statement." },
@@ -159,7 +159,7 @@ export type GraphStatement = {
    * premises are closed ("closed via transcription from closed premises").
    */
   closedViaTranscription?: { resultId: string; argumentId: string; premises: string[] };
-  /** Refuted by a counted `refutes`: a verified argument whose premises are all closed. */
+  /** Refuted by a counted `refutes`: a verified argument whose premises are all established (#999). */
   refuted: boolean;
   selfEvidentJustification: string[];
   /** Its self_evident marking with basis, criterion and disagreement (`floor` of `corpus.py frontier`). */
