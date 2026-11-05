@@ -7,7 +7,11 @@
     "sha256": "sha256:61854f98b4887ae9c5cbdea88f9fd1a83a4f1a318a0412dc6e058629ee1d9047",
     "encoding": "utf-8",
     "language": "eng",
-    "license": "Author-published RSS feed; no explicit reuse license observed. Copyright remains with the author. Only hashes, locators and a short XML incipit are committed. Four normal source-tool fetches were byte-identical. No fixed archive fallback could be verified: HTTPS Wayback CDX/availability/capture requests reset, HTTP availability returned 403, and Arquivo.pt found no capture. This snapshot is therefore fragile against future author-feed updates; do not normalize volatile HTML nonce bytes or silently replace these hashes."
+    "license": "Author-published RSS feed; no explicit reuse license observed. Copyright remains with the author. Only hashes, locators and a short XML incipit are committed. Four normal source-tool fetches were byte-identical. No fixed archive fallback could be verified: HTTPS Wayback CDX/availability/capture requests reset, HTTP availability returned 403, and Arquivo.pt found no capture. This snapshot is therefore fragile against future author-feed updates; do not normalize volatile HTML nonce bytes or silently replace these hashes.",
+    "unavailable": {
+      "since": "2026-11-05",
+      "reason": "robkoons.net answers HTTP 404 to GitHub-hosted runners for this feed, and no archive capture could be pinned (see the license note). Owner decision 2026-11-05: accept that this witness is gone; it is never fetched again. The pinned hashes record the bytes read on 2026-10-28; claims on it are not byte-verified."
+    }
   },
   "passages": [
     {

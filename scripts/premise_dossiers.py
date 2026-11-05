@@ -103,6 +103,10 @@ def dossier_index(data: dict[str, list[dict[str, Any]]], report: dict[str, Any],
             "bibliographic_claim_ids": sorted(
                 entry["id"] for entry in [*claims, *supporting_claims] if entry.get("witness") == "bibliographic"
             ),
+            # Claims on a permanently unavailable web snapshot, not byte-verified.
+            "unavailable_claim_ids": sorted(
+                entry["id"] for entry in [*claims, *supporting_claims] if entry.get("witness") == "unavailable"
+            ),
             "definition_ids": sorted(did for did in definition_ids if did in definitions),
             "disambiguation_ids": sorted(disambiguation_ids),
             "argument_ids": sorted(touching_ids),
@@ -184,6 +188,8 @@ def format_dossier(dossier: dict[str, Any], data: dict[str, list[dict[str, Any]]
                 description = f"{record['source_id']} {record['locator']}: {description}"
                 if record.get("witness") == "bibliographic":
                     description = f"[bibliographic witness, not byte-verified] {description}"
+                if record.get("witness") == "unavailable":
+                    description = f"[permanently unavailable witness, not byte-verified] {description}"
             if directory == "relations":
                 description = f"{record['subject_id']} {record['predicate']} {record['object_id']}: {record.get('note', record.get('basis', ''))}"
             if directory == "results":

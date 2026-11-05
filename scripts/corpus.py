@@ -12,7 +12,7 @@ from collections import Counter
 from pathlib import Path
 from typing import Any, Callable, Iterable
 
-from source_evidence import BIBLIOGRAPHIC_WITNESS, SourceEvidenceError, validate_bindings
+from source_evidence import BIBLIOGRAPHIC_WITNESS, UNAVAILABLE_WITNESS, SourceEvidenceError, validate_bindings
 from premise_dossiers import dossier_index, format_dossier, validate_attempt
 from finite_models import validate_model, model_report, verify_models
 from configurations import validate_case, configuration_report, verify_case, verify_compositions
@@ -946,6 +946,12 @@ def frontier_report(
     bibliographic_claims = {
         claim["id"] for claim in claims or [] if claim.get("witness") == BIBLIOGRAPHIC_WITNESS
     }
+    # Claims on a permanently unavailable web snapshot: pinned once, never refetched,
+    # not byte-verified (owner decision 2026-11-05). Like bibliographic claims they
+    # still state their statement; the report only marks them.
+    unavailable_claims = {
+        claim["id"] for claim in claims or [] if claim.get("witness") == UNAVAILABLE_WITNESS
+    }
 
     def source_depth(statement_id: str) -> str:
         if stating_claims.get(statement_id):
@@ -1012,6 +1018,11 @@ def frontier_report(
                 "stating_claims": sorted(stating_claims.get(statement_id, ())),
                 "bibliographic_claims": sorted(
                     bibliographic_claims.intersection(
+                        stating_claims.get(statement_id, set()) | support.get(statement_id, set())
+                    )
+                ),
+                "unavailable_claims": sorted(
+                    unavailable_claims.intersection(
                         stating_claims.get(statement_id, set()) | support.get(statement_id, set())
                     )
                 ),
@@ -1606,6 +1617,10 @@ def format_frontier(report: dict[str, Any]) -> str:
         if item.get("bibliographic_claims"):
             lines.append(
                 "  bibliographic witness, not byte-verified: " + ", ".join(item["bibliographic_claims"])
+            )
+        if item.get("unavailable_claims"):
+            lines.append(
+                "  permanently unavailable witness, not byte-verified: " + ", ".join(item["unavailable_claims"])
             )
         if item.get("transcription_premise_of"):
             lines.append(
