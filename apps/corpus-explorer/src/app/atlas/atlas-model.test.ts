@@ -33,7 +33,7 @@ function fixture(): VerifiedConfigurationCase {
     verification: { result_ids: ["R"], original_bound_result_ids: ["R"], models: { models: 1, certificates: 1, axioms: [] }, compositions: { cores: 1 } },
     family_verification: { cores: 1 },
     assumption_space: {
-      statement_ids: ["P", "Q"], max_dimensions: 10, root: "root",
+      statement_ids: ["P", "Q"], max_dimensions: 11, root: "root",
       nodes: [
         { id: "root", kind: "decision", statement_id: "P", exclude: "witness", include: "impossible" },
         { id: "witness", kind: "terminal", required_statement_ids: [], optional_statement_ids: ["Q"], report: witnessed, syntactic_selections_covered: 2 },
@@ -82,6 +82,21 @@ test("mosaic enumerates exact certified terminal status in Gray order without in
   expect(cells[1]?.resultId).toBe("R");
   expect(certifiedCores(fixture())).toHaveLength(1);
   expect(certifiedCores(fixture())[0]?.statement_ids).toEqual(["P", "Q"]);
+});
+
+test("eleven-dimension mosaic retains all 2,048 masks including the highest assumption bit", () => {
+  const configuration = fixture();
+  const dimensions = ["P", "Q", ...Array.from({ length: 9 }, (_, i) => `DIMENSION_${i}`)];
+  configuration.assumption_space.statement_ids = dimensions;
+  configuration.assumption_space.nodes = configuration.assumption_space.nodes.map((node) => node.kind === "terminal"
+    ? { ...node, optional_statement_ids: dimensions.slice(1), syntactic_selections_covered: 1024 } : node);
+  configuration.assumption_space.limits.syntactic_selections = 2048;
+  configuration.assumption_space.limits.covered_selections = 2048;
+  const cells = certifiedMosaic(configuration);
+  expect(cells).toHaveLength(2048);
+  expect(new Set(cells.map((cell) => cell.mask)).size).toBe(2048);
+  expect(Math.max(...cells.map((cell) => cell.mask))).toBe(2047);
+  expect(cells.find((cell) => cell.mask === 1 << 10)?.statementIds).toEqual([dimensions[10]!]);
 });
 
 test("broken certified assumption path fails closed instead of showing unresolved as if certified", () => {
