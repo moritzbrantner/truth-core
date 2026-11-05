@@ -1,4 +1,9 @@
-import TruthCore.Spacetime.BoostSimultaneity
+module
+
+public import TruthCore.Spacetime.BoostSimultaneity
+
+@[expose] public section
+
 namespace TruthCore.Results.Spacetime.BoostSimultaneity
 open TruthCore.Spacetime.BoostSimultaneity
 

@@ -1,4 +1,6 @@
-import Mathlib.Data.Set.Lattice.Bounded
+module
+
+public import Mathlib.Data.Set.Lattice.Bounded
 
 /-!
 An analyst's scope test for #328. Varzi, SEP Mereology §4.4, definition (59),
@@ -7,6 +9,9 @@ identity. The mathematical clauses below are not attributed causal principles.
 A carrier denotes one fixed domain, with no implicit world or existence guard.
 Mathlib's subset partial order supplies parthood in the nonempty-set model.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Mereology.UniversalFusionBoundary
 
 /-- Common-part overlap; empty sets are excluded from the concrete carrier. -/

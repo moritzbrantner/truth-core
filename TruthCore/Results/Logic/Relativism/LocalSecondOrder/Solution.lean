@@ -1,5 +1,10 @@
-import TruthCore.Logic.Relativism
-import TruthCore.Results.Logic.SelfApplication.DemarcationTest.Solution
+module
+
+public import TruthCore.Logic.Relativism
+public import TruthCore.Results.Logic.SelfApplication.DemarcationTest.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Logic.Relativism.LocalSecondOrder
 open TruthCore.Logic.SelfApplication
 open TruthCore.Logic.Relativism

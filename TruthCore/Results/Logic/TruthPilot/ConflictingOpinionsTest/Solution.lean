@@ -1,4 +1,9 @@
-import TruthCore.Logic.TruthPilot
+module
+
+public import TruthCore.Logic.TruthPilot
+
+@[expose] public section
+
 namespace TruthCore.Results.Logic.TruthPilot.ConflictingOpinionsTest
 open TruthCore.Logic.TruthPilot
 /-- Test Aristotle’s reported all-opinions-true target only under an explicit interpretation of expressed negation. No refutes relation against every relativism or against withholding. -/

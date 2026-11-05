@@ -1,3 +1,5 @@
+module
+
 /-!
 Source-derived reading from Thomas Aquinas, *De ente et essentia* c.3
 (Baur/Koch numbering, Corpus Thomisticum anchor [69874]), passage
@@ -14,6 +16,8 @@ have a respect without actually having it), and no step relates the two. Both
 relations are parameters whose content is fixed only by the premises that use
 them (DISAMB-ESSE-RECEPTION).
 -/
+
+@[expose] public section
 
 namespace TruthCore.Latin.Aquinas.DeEnte
 

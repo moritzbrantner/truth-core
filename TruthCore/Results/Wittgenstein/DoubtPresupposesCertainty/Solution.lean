@@ -1,4 +1,9 @@
-import TruthCore.German.Wittgenstein.OnCertainty
+module
+
+public import TruthCore.German.Wittgenstein.OnCertainty
+
+@[expose] public section
+
 namespace TruthCore.Results.Wittgenstein.DoubtPresupposesCertainty
 open TruthCore.German.Wittgenstein.OnCertainty
 

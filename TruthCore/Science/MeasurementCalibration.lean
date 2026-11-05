@@ -1,10 +1,15 @@
-import Mathlib.Algebra.Group.Int.Defs
+module
+
+public import Mathlib.Algebra.Group.Int.Defs
 
 /-! Analyst's additive measurement model, motivated by Duhem's distinction
 between a tested hypothesis and its instrumental auxiliaries (La Théorie
 physique, II.VI §§I–III). Duhem is not credited with this model or theorem.
 The signal function and one constant bias jointly determine every reading;
 constant bias, additive response and exact data are explicit model choices. -/
+
+@[expose] public section
+
 namespace TruthCore.Science.MeasurementCalibration
 
 /-- Exact agreement of all readings in a constant-additive-bias profile. -/

@@ -1,3 +1,5 @@
+module
+
 /-!
 Wittgenstein on rule-following: the shape of the interpretation regress
 (*Philosophische Untersuchungen* §§198, 201; #1010).
@@ -27,6 +29,8 @@ fact determines meaning; this vocabulary maps that, unattributed, to giving up
 factual determination, and does not record whether the figure keeps the
 interpretation premise.
 -/
+
+@[expose] public section
 
 namespace TruthCore.German.Wittgenstein.RuleFollowing
 

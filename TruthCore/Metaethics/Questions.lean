@@ -1,3 +1,5 @@
+module
+
 /-!
 Notions in which the shared metaethical questions of #183 are put, and the
 propositions that answer them. They are definitions of what the questions ask,
@@ -15,6 +17,8 @@ not premises of any theory: each theory's answer is a separate, sourced reading.
   prose in `TruthCore.Comparison.MoralError`; on the cognitive reading it
   presupposes moral error.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Metaethics
 

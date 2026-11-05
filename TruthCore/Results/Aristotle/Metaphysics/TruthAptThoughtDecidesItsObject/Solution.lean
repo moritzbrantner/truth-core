@@ -1,4 +1,9 @@
-import TruthCore.Greek.Aristotle.MetaphysicsIV7
+module
+
+public import TruthCore.Greek.Aristotle.MetaphysicsIV7
+
+@[expose] public section
+
 namespace TruthCore.Results.Aristotle.Metaphysics.TruthAptThoughtDecidesItsObject
 open TruthCore.Greek.Aristotle.Metaphysics
 /-- *Metaphysics* IV.7, 1012a2-5, reading A: a thought that is true or false is

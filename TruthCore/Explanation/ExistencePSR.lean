@@ -1,4 +1,6 @@
-import TruthCore.German.Kant.CosmologicalInference
+module
+
+public import TruthCore.German.Kant.CosmologicalInference
 
 /-!
 Two finite, analyst-defined countermodels for the PSR scope question in #312.
@@ -8,6 +10,9 @@ typed separately from a cause of an *individual*. Neither the admissibility
 of an explanation token nor the models' logical consistency demonstrates the
 metaphysical truth of the unrestricted PSR or of a necessary being.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Explanation.ExistencePSR
 
 open TruthCore.German.Kant.CosmologicalInference

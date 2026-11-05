@@ -1,5 +1,10 @@
-import TruthCore.Logic.Verificationism
-import TruthCore.Results.Logic.SelfApplication.Dilemma.Solution
+module
+
+public import TruthCore.Logic.Verificationism
+public import TruthCore.Results.Logic.SelfApplication.Dilemma.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Logic.Verificationism.SelfApplication
 open TruthCore.Logic.Verificationism
 open TruthCore.Logic.SelfApplication

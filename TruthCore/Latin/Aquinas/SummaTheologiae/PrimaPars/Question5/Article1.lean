@@ -1,3 +1,5 @@
+module
+
 /-!
 Source-derived reading from Thomas Aquinas, *Summa theologiae* I q.5 a.1 co.
 (*utrum bonum differat secundum rem ab ente*).
@@ -25,6 +27,8 @@ a definition here, so the conclusion is not analytic in this vocabulary.
 Source witness: SCTA diplomatic TEI of the Leonine edition, vol. 4 (Rome 1888),
 `scta-texts/TAca84`, passage `AQUINAS-ST-I-Q5-A1`.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Latin.Aquinas.SummaTheologiae
 

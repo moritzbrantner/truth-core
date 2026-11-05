@@ -1,4 +1,6 @@
-import TruthCore.German.Kant.CosmologicalInference
+module
+
+public import TruthCore.German.Kant.CosmologicalInference
 
 /-!
 Issue #435: a small formal separation of necessary existence and contingent
@@ -9,6 +11,9 @@ entities existing at the world of that edge.
 An outgoing causal edge is an *exercise* of causation, not a definition of an
 unexercised power, substantial concreteness or metaphysical possibility.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Modal.NecessaryContingentActivity
 
 open TruthCore.German.Kant.CosmologicalInference

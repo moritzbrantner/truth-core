@@ -1,3 +1,5 @@
+module
+
 /-!
 Source-derived readings from Thomas Aquinas, *Summa theologiae* I q.2 a.3 co.,
 the *prima via* (argument from motion).
@@ -22,6 +24,8 @@ formalized; the argument concerns a present series of movers, not a history.
 Source witness: SCTA diplomatic TEI of the Leonine edition, vol. 4 (Rome 1888),
 `scta-texts/TAca84`, passage `AQUINAS-ST-I-Q2-A3`.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Latin.Aquinas.SummaTheologiae
 

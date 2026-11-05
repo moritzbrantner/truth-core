@@ -1,4 +1,6 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3TertiaVia
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3TertiaVia
 
 /-!
 Conclusion propositions of the eternal-world dilemma for the *tertia via*
@@ -6,6 +8,8 @@ Conclusion propositions of the eternal-world dilemma for the *tertia via*
 because they are not theories: `bind-check` binds them to their statements by
 head constant, without unfolding.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Refutations.TertiaVia
 

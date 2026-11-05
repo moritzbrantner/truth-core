@@ -1,5 +1,7 @@
-import TruthCore.Greek.Aristotle.MetaphysicsIX
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3
+module
+
+public import TruthCore.Greek.Aristotle.MetaphysicsIX
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3
 
 /-!
 The owner's worldview-level argument for F7 (#1007), as a partition by the
@@ -22,6 +24,8 @@ supplied as a hypothesis, never as an axiom). F7 is equivalent to the
 conjunction of the three constraints that exclude the cells one by one, so a
 floor that defeats every ¬F7 cell has to entail F7 itself.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Alternatives.PotencyAnalysisPartition
 

@@ -1,5 +1,10 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3
-import TruthCore.Results.Causality.SameRespectActualization.Solution
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3
+public import TruthCore.Results.Causality.SameRespectActualization.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaRelative
 open TruthCore.Latin.Aquinas.SummaTheologiae
 theorem primaViaRelative {Being : Type} {Respect : Type}

@@ -1,4 +1,8 @@
-import TruthCore.Causality.NecessaryBeingSurvey
+module
+
+public import TruthCore.Causality.NecessaryBeingSurvey
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.NecessaryBeingCountDescent
 open TruthCore.Causality.NecessaryBeingSurvey

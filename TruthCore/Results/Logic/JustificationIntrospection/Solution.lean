@@ -1,4 +1,8 @@
-import TruthCore.Logic.JustificationIntrospection
+module
+
+public import TruthCore.Logic.JustificationIntrospection
+
+@[expose] public section
 
 namespace TruthCore.Results.Logic.JustificationIntrospection
 open TruthCore.Modal TruthCore.Logic.JustificationIntrospection

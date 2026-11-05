@@ -1,4 +1,8 @@
-import Mathlib.Logic.Function.Basic
+module
+
+public import Mathlib.Logic.Function.Basic
+
+@[expose] public section
 
 namespace TruthCore.Epistemology.FitnessTruthBoundary
 

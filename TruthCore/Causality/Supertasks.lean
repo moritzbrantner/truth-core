@@ -1,3 +1,7 @@
+module
+
+@[expose] public section
+
 namespace TruthCore.Causality
 
 /-- An abstract order with stages indexed by the natural numbers and a separate

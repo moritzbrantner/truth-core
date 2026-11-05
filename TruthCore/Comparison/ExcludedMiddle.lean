@@ -1,5 +1,7 @@
-import TruthCore.Logic.ExcludedMiddle
-import TruthCore.English.Iemhoff.Intuitionism
+module
+
+public import TruthCore.Logic.ExcludedMiddle
+public import TruthCore.English.Iemhoff.Intuitionism
 
 /-!
 Intuitionism as a rival theory to the self-evident `STMT-EXCLUDED-MIDDLE`
@@ -53,6 +55,8 @@ Each line names the proposition that answers the question, or *unexplained*.
   is paired with a full worldview (an owner decision; Dummett himself was a
   Catholic).
 -/
+
+@[expose] public section
 
 namespace TruthCore.Comparison.ExcludedMiddle
 

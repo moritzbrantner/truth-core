@@ -1,3 +1,5 @@
+module
+
 /-!
 Aristotle, *Metaphysics* IX (Θ).6, 1048a25-b9: actuality defined by analogy and
 by contrast with potency.
@@ -16,6 +18,8 @@ reading can be compared with Aquinas' premises directly:
 Source witness: Ross/Perseus Greek text, passage `ARIST-MET-IX-6`.
 CTS work: `urn:cts:greekLit:tlg0086.tlg025`.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Greek.Aristotle.Metaphysics
 

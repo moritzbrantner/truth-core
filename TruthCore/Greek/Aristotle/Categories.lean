@@ -1,6 +1,10 @@
+module
+
 /-!
 Source-derived claims from Aristotle's *Categories*.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Greek.Aristotle.Categories
 

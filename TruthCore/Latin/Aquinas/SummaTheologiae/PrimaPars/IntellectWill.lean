@@ -1,3 +1,5 @@
+module
+
 /-!
 Source-derived readings from Thomas Aquinas, *Summa theologiae* I q.14 a.1 co.
 (*utrum in Deo sit scientia*) and I q.19 a.1 co. (*utrum in Deo sit voluntas*),
@@ -10,6 +12,8 @@ and `HasWill x` are primitive predicates whose content these readings constrain.
 Source witnesses: SCTA diplomatic TEI of the Leonine edition, vol. 4 (Rome 1888),
 `scta-texts/TAca84`, passages `AQUINAS-ST-I-Q14-A1` and `AQUINAS-ST-I-Q19-A1`.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Latin.Aquinas.SummaTheologiae
 

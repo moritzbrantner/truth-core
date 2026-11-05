@@ -1,5 +1,7 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article4
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article5
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article4
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article5
 
 /-!
 An analyst's joint finite control for #319/#325. The existing strict-genus
@@ -13,6 +15,9 @@ profile varies. No new generic composition, essence or causation vocabulary
 is introduced: the relations are the existing source interfaces. These are
 formal interpretations, not claims of metaphysical possibility.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Mereology.GenusCauseBoundary
 
 open TruthCore.Greek.Aristotle.Metaphysics

@@ -1,3 +1,5 @@
+module
+
 /-!
 An analytical profile prompted by PI I.258 and I.265 (Anscombe translation,
 verified witness WITTGENSTEIN-PI-PRIVATE-CRITERION-CONTEXT). This is not a
@@ -7,6 +9,9 @@ Prop-valued classification, not a computable test, epistemic justification,
 public convention, or proof that a private language is possible/impossible.
 No existing causal-response or moral-correction vocabulary has this meaning.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Logic.CorrectionCriterion
 
 /-- A supplied correctness norm admits an exact classification using only the

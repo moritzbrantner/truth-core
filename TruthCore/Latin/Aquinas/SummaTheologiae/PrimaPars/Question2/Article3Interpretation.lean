@@ -1,4 +1,6 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3
 
 /-!
 Interpretive vocabulary for the two readings of the *prima via* per se premise
@@ -13,6 +15,8 @@ This module keeps two kinds of statement apart:
   q.46 a.2 ad 7 shows, the charity principle). These stay atomic propositions.
   Lean only checks what follows from them; their truth is source-fidelity work.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Latin.Aquinas.SummaTheologiae
 

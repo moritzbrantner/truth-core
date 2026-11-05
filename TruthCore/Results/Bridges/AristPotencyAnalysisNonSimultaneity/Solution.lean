@@ -1,5 +1,10 @@
-import TruthCore.Greek.Aristotle.MetaphysicsIX
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3
+module
+
+public import TruthCore.Greek.Aristotle.MetaphysicsIX
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3
+
+@[expose] public section
+
 namespace TruthCore.Results.Bridges.AristPotencyAnalysisNonSimultaneity
 open TruthCore.Greek.Aristotle.Metaphysics
 open TruthCore.Latin.Aquinas.SummaTheologiae

@@ -1,10 +1,15 @@
-import TruthCore.Causality.GrimReaper
-import Mathlib.Data.Finset.Lattice.Fold
+module
+
+public import TruthCore.Causality.GrimReaper
+public import Mathlib.Data.Finset.Lattice.Fold
 
 /-! Source-free finite-test control for the exact existing Reaper rule.
 Only the tested indices are finite; each tested clause still quantifies over
 the entire unbounded natural-number tail. This is not a finite schedule and
 does not assert causal powers, possible worlds or metaphysical realizability. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.GrimReaperFiniteTests
 
 /-- Every finite selection of the complete infinite-tail clauses has a total

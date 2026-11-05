@@ -1,9 +1,14 @@
-import TruthCore.Modal.GraphBridge
+module
+
+public import TruthCore.Modal.GraphBridge
 
 /-! A transparent assembly target for the reusable graph bridge helpers.
 Every frame restriction stays inside its own quantified clause. This bundles
 existing helper conclusions for delivery; it is not a new philosophical proof.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Modal
 universe u v
 

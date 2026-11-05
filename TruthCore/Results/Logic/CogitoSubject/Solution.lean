@@ -1,4 +1,9 @@
-import TruthCore.Logic.CogitoSubject
+module
+
+public import TruthCore.Logic.CogitoSubject
+
+@[expose] public section
+
 namespace TruthCore.Results.Logic.CogitoSubject
 open TruthCore.Logic.CogitoSubject
 

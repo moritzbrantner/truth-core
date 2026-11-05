@@ -1,4 +1,9 @@
-import TruthCore.Case.Catholicism.StageOne
+module
+
+public import TruthCore.Case.Catholicism.StageOne
+
+@[expose] public section
+
 namespace TruthCore.Results.Case.Catholicism.StageOneFromPrimaVia
 open TruthCore.Case.Catholicism
 open TruthCore.Latin.Aquinas.SummaTheologiae

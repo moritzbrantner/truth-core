@@ -1,5 +1,7 @@
-import Mathlib.Analysis.SpecificLimits.Basic
-import TruthCore.Causality.Supertasks
+module
+
+public import Mathlib.Analysis.SpecificLimits.Basic
+public import TruthCore.Causality.Supertasks
 
 /-!
 # A convergent Zeno schedule for the abstract supertask order
@@ -18,6 +20,8 @@ many stages. It does not assert that infinitely many distinct physical
 operations can be carried out in finite time (the open SU-REAL bridge of
 `docs/supertasks.md`, #318), nor that any output is attained at the endpoint.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Causality
 

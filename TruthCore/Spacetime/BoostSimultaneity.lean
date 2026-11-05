@@ -1,14 +1,19 @@
-import Mathlib.LinearAlgebra.QuadraticForm.Prod
-import Mathlib.Basic.Real.Basic
-import Mathlib.Tactic.Linarith
-import Mathlib.Tactic.NormNum
-import Mathlib.Tactic.Ring
+module
+
+public import Mathlib.LinearAlgebra.QuadraticForm.Prod
+public import Mathlib.Basic.Real.Basic
+public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.NormNum
+public import Mathlib.Tactic.Ring
 
 /-! A task-local analytic 1+1-dimensional profile in units c=1. The pinned
 Mathlib has no Minkowski-space/Lorentz-group definition; we use its quadratic
 forms and linear isometry equivalences rather than a bespoke mathematical
 isometry. This profile is not an empirical validation of special relativity,
 a definition of physical causation, or a definition of metaphysical presence. -/
+
+@[expose] public section
+
 namespace TruthCore.Spacetime.BoostSimultaneity
 noncomputable section
 

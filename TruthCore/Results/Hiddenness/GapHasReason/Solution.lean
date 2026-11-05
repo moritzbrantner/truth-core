@@ -1,4 +1,8 @@
-import TruthCore.Hiddenness.Vocabulary
+module
+
+public import TruthCore.Hiddenness.Vocabulary
+
+@[expose] public section
 
 namespace TruthCore.Results.Hiddenness.GapHasReason
 open TruthCore.Hiddenness

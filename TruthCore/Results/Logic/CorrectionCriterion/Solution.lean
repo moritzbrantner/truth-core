@@ -1,4 +1,8 @@
-import TruthCore.Logic.CorrectionCriterion
+module
+
+public import TruthCore.Logic.CorrectionCriterion
+
+@[expose] public section
 
 namespace TruthCore.Results.Logic.CorrectionCriterion
 open TruthCore.Logic.CorrectionCriterion

@@ -1,4 +1,9 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuintaVia
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuintaVia
+
+@[expose] public section
+
 namespace TruthCore.Results.Bridges.QuintaRegularBodiesAllToSome
 open TruthCore.Latin.Aquinas.SummaTheologiae
 /-- Bridge (#401): the quinta via's first premise on its universal reading

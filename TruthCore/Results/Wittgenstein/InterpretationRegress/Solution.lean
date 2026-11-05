@@ -1,4 +1,9 @@
-import TruthCore.German.Wittgenstein.RuleFollowing
+module
+
+public import TruthCore.German.Wittgenstein.RuleFollowing
+
+@[expose] public section
+
 namespace TruthCore.Results.Wittgenstein.InterpretationRegress
 open TruthCore.German.Wittgenstein.RuleFollowing
 

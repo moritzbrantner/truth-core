@@ -1,5 +1,9 @@
-import TruthCore.Greek.Aristotle.Metaphysics
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaVia
+module
+
+public import TruthCore.Greek.Aristotle.Metaphysics
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaVia
+
+@[expose] public section
 
 namespace TruthCore.Results.Aristotle.Metaphysics.MostTrueIsMostBeing
 

@@ -1,10 +1,15 @@
-import TruthCore.Models.FiniteSupport
-import TruthCore.Greek.Aristotle.Physics
-import TruthCore.Greek.Aristotle.Physics.Typed.Motion
+module
+
+public import TruthCore.Models.FiniteSupport
+public import TruthCore.Greek.Aristotle.Physics
+public import TruthCore.Greek.Aristotle.Physics.Typed.Motion
 
 /-! Named finite interpretations and closed certificates for #414.
 Registration tests formal consequence only; it does not establish metaphysical possibility.
 Existing Challenges and proof obligations are unchanged. -/
+
+@[expose] public section
+
 namespace TruthCore.Models.Physics
 open TruthCore.Models.FiniteSupport
 structure Model where

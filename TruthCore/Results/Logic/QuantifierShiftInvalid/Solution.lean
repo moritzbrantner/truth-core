@@ -1,4 +1,9 @@
-import TruthCore.Logic.QuantifierShift
+module
+
+public import TruthCore.Logic.QuantifierShift
+
+@[expose] public section
+
 namespace TruthCore.Results.Logic.QuantifierShiftInvalid
 open TruthCore.Logic
 

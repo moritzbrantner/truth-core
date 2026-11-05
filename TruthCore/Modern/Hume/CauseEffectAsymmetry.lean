@@ -1,3 +1,5 @@
+module
+
 /-!
 Hume, *Treatise* I.3.6 §7 (SBN 89–90): "The same principle cannot be both the
 cause and effect of another; and this is, perhaps, the only proposition
@@ -6,6 +8,8 @@ certain."
 
 Source witness: HUME-TREATISE-I-3-6 (Hume Texts Online, hash-pinned).
 -/
+
+@[expose] public section
 
 namespace TruthCore.Modern.Hume.CauseEffectAsymmetry
 

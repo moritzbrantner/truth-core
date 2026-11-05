@@ -1,3 +1,5 @@
+module
+
 /-!
 Excluded middle and its constructive neighbours (#167).
 
@@ -21,6 +23,8 @@ What Lean can and cannot show about it, without any axiom:
   (Aristotle's elenchus, *Metaphysics* IV.4 and IV.7, plus the results above),
   not proved.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Logic
 

@@ -1,4 +1,8 @@
-import TruthCore.German.Kant.CosmologicalInference
+module
+
+public import TruthCore.German.Kant.CosmologicalInference
+
+@[expose] public section
 
 namespace TruthCore.Results.Kant.CosmologicalInference.ChangeDoesNotGiveModalContingency
 open TruthCore.German.Kant.CosmologicalInference

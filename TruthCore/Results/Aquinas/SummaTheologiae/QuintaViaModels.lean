@@ -1,3 +1,5 @@
+module
+
 /-!
 Finite models for the *quinta via* (ST I q.2 a.3, fifth way; #148).
 
@@ -5,6 +7,8 @@ Two natural bodies `b0`, `b1` and two possible directors `d0`, `d1`; one end
 and one respect (`Unit`). The predicates are written as non-overlapping matches,
 so the models need no axioms.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaModels
 

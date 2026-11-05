@@ -1,9 +1,14 @@
-import TruthCore.German.Kant.CosmologicalInference
+module
+
+public import TruthCore.German.Kant.CosmologicalInference
 
 /-! One-way actuality interfaces for the #319 foundation investigation.
 The ontic existence assignment, supplied act-in-esse predicate and represented
 cause/support relations retain independent meanings. These declarations assert
 neither interface nor a metaphysical analysis of existence. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.ExistenceActuality
 
 open TruthCore.German.Kant.CosmologicalInference

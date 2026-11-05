@@ -1,4 +1,6 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.IntellectWill
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.IntellectWill
 
 /-!
 ST I q.14 a.1 co., materialized as AQUINAS-ST-I-Q14-A1. This interface models
@@ -12,6 +14,9 @@ reception modes nor a divine interpretation; no meaning-preserving reuse of
 that relation supplies the distinctions needed here. Divine knowledge is not
 being modeled as passive acquisition from creatures (q.14 a.1 ad 1–3).
 -/
+
+@[expose] public section
+
 namespace TruthCore.Latin.Aquinas.SummaTheologiae.FormReception
 
 /-- Modes of the capacity to have a form; neither constructor asserts an

@@ -1,4 +1,8 @@
-import TruthCore.Greek.Plato.Timaeus
+module
+
+public import TruthCore.Greek.Plato.Timaeus
+
+@[expose] public section
 
 namespace TruthCore.Results.Plato.Timaeus.CosmosCauseB
 

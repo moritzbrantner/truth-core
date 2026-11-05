@@ -1,5 +1,7 @@
-import Mathlib.Analysis.Normed.Group.Basic
-import Mathlib.Tactic.Abel
+module
+
+public import Mathlib.Analysis.Normed.Group.Basic
+public import Mathlib.Tactic.Abel
 
 /-!
 Analyst's one-dimensional configuration profile for the Leibniz–Clarke exchange.
@@ -13,6 +15,9 @@ configurations from these relative data if the selector must also be equivariant
 under every translation. That requirement is an explicit mathematical profile,
 not an interpretation of every sufficient reason, divine act, or physical theory.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Space.TranslationBoundary
 
 abbrev Configuration (B : Type) := B → ℝ

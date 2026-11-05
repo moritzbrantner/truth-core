@@ -1,5 +1,7 @@
-import TruthCore.Isabelle.AFP.GoedelGod
-import TruthCore.Logic.ExcludedMiddle
+module
+
+public import TruthCore.Isabelle.AFP.GoedelGod
+public import TruthCore.Logic.ExcludedMiddle
 
 /-! An analyst configuration related to the A8 source readings, not a binding
 of those broad readings. Reuse AFP's constant-domain Property/Box/Dia. The
@@ -7,6 +9,9 @@ classifier is arbitrary except for the explicit backward-closure premise;
 no deficiency-property domain or existential classifier definition is chosen.
 Possible exemplification is not actual existence, an Ontic necessary bearer,
 or God. Source correspondence and the evaluative inputs remain OPEN. -/
+
+@[expose] public section
+
 namespace TruthCore.Modal.LimitationPossibility
 open TruthCore.Isabelle.AFP.GoedelGod
 

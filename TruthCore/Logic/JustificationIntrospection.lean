@@ -1,10 +1,15 @@
-import TruthCore.Modal.Kripke
+module
+
+public import TruthCore.Modal.Kripke
 
 /-!
 An analyst's epistemic interpretation of the existing Kripke frame. This is
 not a source attribution or an account of all knowledge. In particular, absence
 of knowledge of justification is not definitionally absence of justification.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Logic.JustificationIntrospection
 open TruthCore.Modal
 

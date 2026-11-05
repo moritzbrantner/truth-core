@@ -1,3 +1,5 @@
+module
+
 /-!
 Self-application (retorsion) as a reusable schema (#397).
 
@@ -27,6 +29,8 @@ Three typed layers, all data with no built-in philosophical premise:
 Instances: `TruthCore.Logic.Relativism`, `TruthCore.Greek.Plato.Theaetetus`,
 `TruthCore.Logic.Scientism`. Everything is constructive; no axiom is used.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Logic.SelfApplication
 

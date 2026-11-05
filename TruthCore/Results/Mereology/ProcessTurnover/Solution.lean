@@ -1,4 +1,9 @@
-import TruthCore.Mereology.ProcessTurnover
+module
+
+public import TruthCore.Mereology.ProcessTurnover
+
+@[expose] public section
+
 namespace TruthCore.Results.Mereology.ProcessTurnover
 open TruthCore.Mereology.ProcessTurnover TruthCore.Mereology.Vitalism
  theorem certificate : Boundary := by

@@ -1,5 +1,7 @@
-import Mathlib.Basic.Logic.Basic
-import TruthCore.German.Kant.CosmologicalInference
+module
+
+public import Mathlib.Basic.Logic.Basic
+public import TruthCore.German.Kant.CosmologicalInference
 
 /-!
 # Possible external causes versus brute contingent beginnings
@@ -21,6 +23,8 @@ Worlds are complete histories. 'beginsContingency' is an independently
 interpreted predicate, not a temporal transition or a proof that the
 totality of contingent things could have a first occurrence.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Causality.PossibleCauseOfContingency
 

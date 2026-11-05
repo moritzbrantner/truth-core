@@ -1,3 +1,5 @@
+module
+
 /-!
 ST I q.75 a.2 co., first subconclusion (not a body), read from the pinned Latin
 `AQUINAS-ST-I-Q75-A1-A2`. This module does not formalize the subsequent organ,
@@ -10,6 +12,9 @@ opposite implication and the highest immateriality of God. Its primitive
 representation. This local typed vocabulary is therefore distinct, without
 changing or restating that earlier conclusion as a premise.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Latin.Aquinas.SummaTheologiae.HumanIntellect
 
 /-- Typed vocabulary for the first q.75 a.2 inference. `BodilyNature` selects

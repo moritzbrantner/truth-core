@@ -1,12 +1,17 @@
-import TruthCore.Modal.Cube
-import TruthCore.Isabelle.AFP.GoedelGod
-import TruthCore.Logic.ExcludedMiddle
-import TruthCore.Models.FiniteSupport
+module
+
+public import TruthCore.Modal.Cube
+public import TruthCore.Isabelle.AFP.GoedelGod
+public import TruthCore.Logic.ExcludedMiddle
+public import TruthCore.Models.FiniteSupport
 
 /-! Issue #437: a stipulated proposition G, not a definition of God or Scott's
 individual property NE. Reuses the existing Kripke frame and Box/Dia semantics.
 No source is attributed; metaphysical adequacy and either possibility premise
 remain open. One-world conclusions concern successors of that world only. -/
+
+@[expose] public section
+
 namespace TruthCore.Modal.NecessaryIfExistent
 open TruthCore.Isabelle.AFP.GoedelGod (MProp Box Dia)
 universe u

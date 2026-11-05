@@ -1,5 +1,10 @@
-import TruthCore.Logic.Relativism
-import TruthCore.Results.Logic.SelfApplication.Dilemma.Solution
+module
+
+public import TruthCore.Logic.Relativism
+public import TruthCore.Results.Logic.SelfApplication.Dilemma.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Logic.Relativism.SelfFalsifying
 open TruthCore.Logic.SelfApplication
 open TruthCore.Logic.Relativism

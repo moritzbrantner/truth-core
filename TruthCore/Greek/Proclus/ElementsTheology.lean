@@ -1,4 +1,6 @@
-import TruthCore.Greek.Plato.Forms
+module
+
+public import TruthCore.Greek.Plato.Forms
 
 /-!
 A bounded reading of Proclus, Elements of Theology proposition 2, consulted in
@@ -10,6 +12,9 @@ This does not identify Proclus's One with a Platonic Form, assert FormOf, or
 transfer any of the Platonic theory commitments. The entity `one` and quality
 `unity` remain independent parameters. No theorem defends this source reading.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Greek.Proclus.ElementsTheology
 
 open TruthCore.Greek.Plato.Forms

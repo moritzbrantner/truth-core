@@ -1,3 +1,5 @@
+module
+
 /-!
 Source-derived reading from Thomas Aquinas, *Summa contra Gentiles* I.13
 [29]-[30], used by the eternal-world dilemma for the *tertia via* (owner
@@ -10,6 +12,8 @@ cause from which `x`'s coming to be takes its origin.
 Source witness: the English translation of A. C. Pegis (web snapshot, passage
 `AQUINAS-SCG-I-13-EN`); claims on it carry `basis: translation`.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Latin.Aquinas.SummaContraGentiles
 

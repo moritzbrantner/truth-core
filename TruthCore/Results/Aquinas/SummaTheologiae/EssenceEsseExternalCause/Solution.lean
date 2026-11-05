@@ -1,4 +1,8 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article4
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article4
+
+@[expose] public section
 
 namespace TruthCore.Results.Aquinas.SummaTheologiae.EssenceEsseExternalCause
 

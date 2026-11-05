@@ -1,3 +1,5 @@
+module
+
 /-!
 Source-derived reading from Thomas Aquinas, *Summa theologiae* I q.4 a.1
 (*utrum Deus sit perfectus*), reply to the third objection.
@@ -9,6 +11,8 @@ respect (has the perfection) `r`, and `esse` is the respect of being.
 Source witness: SCTA diplomatic TEI of the Leonine edition, vol. 4 (Rome 1888),
 `scta-texts/TAca84`, passage `AQUINAS-ST-I-Q4-A1`.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Latin.Aquinas.SummaTheologiae
 

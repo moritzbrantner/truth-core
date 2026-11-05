@@ -1,4 +1,6 @@
-import TruthCore.Modal.Kripke
+module
+
+public import TruthCore.Modal.Kripke
 
 /-!
 Small tests of contested bridges in CPR A238–248/B297–305, A458–460/B486–488,
@@ -7,6 +9,9 @@ formalization of transcendental idealism. Worlds and modal accessibility reuse
 `TruthCore.Modal.Frame`; causal dependence is a separate relation. A modal
 countermodel does not by itself establish real possibility in Kant's sense.
 -/
+
+@[expose] public section
+
 namespace TruthCore.German.Kant.CosmologicalInference
 
 /-- A constant domain of candidate beings, world-relative existence, and a

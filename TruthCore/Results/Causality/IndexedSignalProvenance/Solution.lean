@@ -1,4 +1,8 @@
-import TruthCore.Causality.IndexedSignalProvenance
+module
+
+public import TruthCore.Causality.IndexedSignalProvenance
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.IndexedSignalProvenance
 open TruthCore.Causality.IndexedSignalProvenance

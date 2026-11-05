@@ -1,3 +1,5 @@
+module
+
 /-!
 *Über Gewißheit* on doubt and what stands fast (#1010).
 
@@ -13,6 +15,8 @@ in question. "Exempt from doubt" is `¬ Doubted s`. Nothing here says that an
 exempt sentence is known, true or justified: that is exactly what the hinge
 readings dispute (`DISAMB-HINGE-STATUS`).
 -/
+
+@[expose] public section
 
 namespace TruthCore.German.Wittgenstein.OnCertainty
 

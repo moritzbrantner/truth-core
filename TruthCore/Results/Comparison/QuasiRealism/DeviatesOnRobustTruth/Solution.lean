@@ -1,5 +1,10 @@
-import TruthCore.Refutations.QuasiRealism
-import TruthCore.Metaethics.AnswerMap
+module
+
+public import TruthCore.Refutations.QuasiRealism
+public import TruthCore.Metaethics.AnswerMap
+
+@[expose] public section
+
 namespace TruthCore.Results.Comparison.QuasiRealism.DeviatesOnRobustTruth
 open TruthCore.English.VanRoojen
 open TruthCore.Refutations.QuasiRealism

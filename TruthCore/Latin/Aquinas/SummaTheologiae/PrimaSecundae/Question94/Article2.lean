@@ -1,3 +1,5 @@
+module
+
 /-!
 Source-derived reading from Thomas Aquinas, *Summa theologiae* I-II q.94 a.2 co.
 (*utrum lex naturalis contineat plura praecepta, vel unum tantum*), used by the
@@ -13,6 +15,8 @@ Vocabulary, all of it parameters rather than definitions:
 Source witness: SCTA diplomatic TEI of the Leonine edition, vol. 7 (Rome 1892),
 `scta-texts/TAca84`, passage `AQUINAS-ST-I-II-Q94-A2`.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Latin.Aquinas.SummaTheologiae
 

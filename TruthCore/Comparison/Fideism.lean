@@ -1,4 +1,6 @@
-import TruthCore.Alternatives.Fideism
+module
+
+public import TruthCore.Alternatives.Fideism
 
 /-!
 Wittgensteinian fideism as a complete rival worldview (#1010, owner request
@@ -64,6 +66,8 @@ filling-in of what the variant would answer), or **unexplained**.
   reported: the view insulates every form of life from reasonable criticism or
   defence (2000: 147, as quoted in SEP *Religious Language* §4.2).
 -/
+
+@[expose] public section
 
 namespace TruthCore.Comparison.Fideism
 

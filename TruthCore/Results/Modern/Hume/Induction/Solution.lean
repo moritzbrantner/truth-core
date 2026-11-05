@@ -1,4 +1,9 @@
-import TruthCore.Modern.Hume.Induction
+module
+
+public import TruthCore.Modern.Hume.Induction
+
+@[expose] public section
+
 namespace TruthCore.Results.Modern.Hume.Induction
 open TruthCore.Modern.Hume.Induction
 

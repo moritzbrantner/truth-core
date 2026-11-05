@@ -1,4 +1,9 @@
-import TruthCore.Greek.Aristotle.SynonymousCause
+module
+
+public import TruthCore.Greek.Aristotle.SynonymousCause
+
+@[expose] public section
+
 namespace TruthCore.Results.Aristotle.SynonymyScope
 open TruthCore.Greek.Aristotle.Metaphysics
 /-- The finite typed interpretation witnesses both relevant causal cases. -/

@@ -1,10 +1,15 @@
-import Mathlib.Order.Defs.PartialOrder
-import TruthCore.German.Kant.CosmologicalInference
+module
+
+public import Mathlib.Order.Defs.PartialOrder
+public import TruthCore.German.Kant.CosmologicalInference
 
 /-! A small history extension of existing modal ontology. Alternative worlds,
 individuals and times remain distinct parameters. Coherence is an explicit
 proposition, not a hidden proof field or a change to Ontic.ExistsAt.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Modal.TemporalHistory
 open TruthCore.German.Kant.CosmologicalInference
 

@@ -1,5 +1,9 @@
-import TruthCore.Ethics.MoralAccessFibers
-import TruthCore.Results.Logic.CorrectionCriterion.Solution
+module
+
+public import TruthCore.Ethics.MoralAccessFibers
+public import TruthCore.Results.Logic.CorrectionCriterion.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Ethics.MoralAccessFibers
 open TruthCore.Logic.CorrectionCriterion

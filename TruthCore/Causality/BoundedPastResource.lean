@@ -1,6 +1,8 @@
-import Mathlib.Algebra.Order.Archimedean.Real.Basic
-import Mathlib.Data.Int.Order.Basic
-import TruthCore.Logic.Configuration
+module
+
+public import Mathlib.Algebra.Order.Archimedean.Real.Basic
+public import Mathlib.Data.Int.Order.Basic
+public import TruthCore.Logic.Configuration
 
 /-! A neutral real-valued stock on integer time, not an empirical entropy law.
 The past is the entire integer half-line at or before now. Real values are
@@ -9,6 +11,9 @@ and uniform positive stock growth are explicit, independently open hypotheses.
 No finite duration since a first event, causal well-foundedness or event-count
 bound is assumed. The Causality namespace does not identify stock with a cause.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.BoundedPastResource
 
 /-- One fixed positive real increment, not a separate positive amount per step. -/

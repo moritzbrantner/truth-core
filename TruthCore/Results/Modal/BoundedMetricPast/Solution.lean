@@ -1,4 +1,9 @@
-import TruthCore.Modal.BoundedMetricPastControl
+module
+
+public import TruthCore.Modal.BoundedMetricPastControl
+
+@[expose] public section
+
 namespace TruthCore.Results.Modal.BoundedMetricPast
 open TruthCore.Modal.BoundedMetricPast
 open TruthCore.Latin.Aquinas.SummaTheologiae

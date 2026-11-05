@@ -1,5 +1,7 @@
-import TruthCore.Greek.Plato.Forms
-import TruthCore.Greek.Plato.Timaeus
+module
+
+public import TruthCore.Greek.Plato.Forms
+public import TruthCore.Greek.Plato.Timaeus
 
 /-!
 Scoped, independently challengeable reading bundles, not historical identities.
@@ -14,6 +16,9 @@ optional variants. Neither includes an unrestricted one-over-many rule applying
 to Forms themselves. Issues #258–#260 investigate further assumptions and replies.
 No bundle defines a verdict on Catholicism or any other theory.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Comparison.PlatonicForms
 open TruthCore.Greek.Plato.Forms
 

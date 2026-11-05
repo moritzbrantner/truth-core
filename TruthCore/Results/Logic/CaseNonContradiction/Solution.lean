@@ -1,5 +1,10 @@
-import TruthCore.Logic.CaseNonContradiction
-import TruthCore.Results.Logic.TruthPilot.LogicalFloor.Solution
+module
+
+public import TruthCore.Logic.CaseNonContradiction
+public import TruthCore.Results.Logic.TruthPilot.LogicalFloor.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Logic.CaseNonContradiction
 open TruthCore.Logic.CaseNonContradiction
 universe u v

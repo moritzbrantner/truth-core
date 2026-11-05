@@ -1,3 +1,5 @@
+module
+
 /-!
 Wittgensteinian fideism as a rival account of religious discourse (#1010).
 
@@ -35,6 +37,8 @@ unattributed thesis it supports, that the name "God" applies to no being
 leaves. Blocker: a typed reference relation for
 "God" shared with those leaves.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Alternatives.Fideism
 

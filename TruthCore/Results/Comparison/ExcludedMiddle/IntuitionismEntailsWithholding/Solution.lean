@@ -1,4 +1,9 @@
-import TruthCore.Comparison.ExcludedMiddle
+module
+
+public import TruthCore.Comparison.ExcludedMiddle
+
+@[expose] public section
+
 namespace TruthCore.Results.Comparison.ExcludedMiddle.IntuitionismEntailsWithholding
 open TruthCore.Logic
 open TruthCore.Comparison.ExcludedMiddle

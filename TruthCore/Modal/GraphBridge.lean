@@ -1,7 +1,9 @@
-import Mathlib.Combinatorics.Digraph.Basic
-import Mathlib.Combinatorics.Quiver.Path
-import Mathlib.Logic.Relation
-import TruthCore.Modal.Kripke
+module
+
+public import Mathlib.Combinatorics.Digraph.Basic
+public import Mathlib.Combinatorics.Quiver.Path
+public import Mathlib.Logic.Relation
+public import TruthCore.Modal.Kripke
 
 /-! Faithful mathematical adapters for the existing Kripke frame.
 
@@ -13,6 +15,9 @@ Quiver instance on World: different frames may coexist on the same carrier.
 Quiver reachability includes nil paths and transitive closure. It does not
 replace the one-step relation used by modal Holds; additional frame conditions
 are required to identify reachability with accessibility. -/
+
+@[expose] public section
+
 namespace TruthCore.Modal.Frame
 
 universe u

@@ -1,4 +1,9 @@
-import TruthCore.Greek.Aristotle.MetaphysicsIV7
+module
+
+public import TruthCore.Greek.Aristotle.MetaphysicsIV7
+
+@[expose] public section
+
 namespace TruthCore.Results.Bridges.IV7ContradictoryPairFromExcludedMiddle
 open TruthCore.Greek.Aristotle.Metaphysics
 /-- Bridge (#401), an instance of excluded middle: the conclusion of the change

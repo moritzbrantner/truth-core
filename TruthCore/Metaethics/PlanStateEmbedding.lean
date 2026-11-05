@@ -1,4 +1,6 @@
-import Mathlib.Data.Set.Basic
+module
+
+public import Mathlib.Data.Set.Basic
 
 /-!
 An analyst's propositional planning-language reconstruction for #185.
@@ -13,6 +15,9 @@ The semantic result establishes consequence inside this model only. It does
 not establish its psychological interpretation, ordinary-language adequacy,
 or either the truth or falsity of substantive moral realism.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Metaethics.PlanStateEmbedding
 
 /-- A descriptive valuation and a complete permission plan are separate fields.

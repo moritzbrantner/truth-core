@@ -1,5 +1,10 @@
-import TruthCore.Alternatives.PotencyAnalysisPartition
-import TruthCore.Logic.ExcludedMiddle
+module
+
+public import TruthCore.Alternatives.PotencyAnalysisPartition
+public import TruthCore.Logic.ExcludedMiddle
+
+@[expose] public section
+
 namespace TruthCore.Results.Alternatives.PotencyAnalysisPartition
 open TruthCore.Alternatives.PotencyAnalysisPartition
 open TruthCore.Greek.Aristotle.Metaphysics

@@ -1,5 +1,9 @@
-import TruthCore.Comparison.Metaethics
-import TruthCore.English.Stevenson.Disagreement
+module
+
+public import TruthCore.Comparison.Metaethics
+public import TruthCore.English.Stevenson.Disagreement
+
+@[expose] public section
 
 namespace TruthCore.Comparison.Stevenson
 open TruthCore.English.VanRoojen TruthCore.English.Stevenson

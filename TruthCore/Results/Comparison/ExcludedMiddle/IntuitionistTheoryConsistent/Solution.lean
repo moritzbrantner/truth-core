@@ -1,5 +1,10 @@
-import TruthCore.Comparison.ExcludedMiddle
-import TruthCore.Results.Logic.ExcludedMiddleIrrefutable.Solution
+module
+
+public import TruthCore.Comparison.ExcludedMiddle
+public import TruthCore.Results.Logic.ExcludedMiddleIrrefutable.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Comparison.ExcludedMiddle.IntuitionistTheoryConsistent
 open TruthCore.Logic
 open TruthCore.English.Iemhoff

@@ -1,7 +1,11 @@
-import Mathlib.Algebra.Order.Archimedean.Real.Basic
-import Mathlib.Order.Interval.Set.Defs
-import Mathlib.Tactic.Linarith
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3TertiaVia
+module
+
+public import Mathlib.Algebra.Order.Archimedean.Real.Basic
+public import Mathlib.Order.Interval.Set.Defs
+public import Mathlib.Tactic.Linarith
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3TertiaVia
+
+@[expose] public section
 
 namespace TruthCore.Modal.BoundedMetricPast
 open TruthCore.Latin.Aquinas.SummaTheologiae

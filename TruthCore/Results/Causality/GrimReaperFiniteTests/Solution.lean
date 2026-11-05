@@ -1,5 +1,9 @@
-import TruthCore.Causality.GrimReaperFiniteTests
-import TruthCore.Results.Causality.GrimReaperImpossible.Solution
+module
+
+public import TruthCore.Causality.GrimReaperFiniteTests
+public import TruthCore.Results.Causality.GrimReaperImpossible.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.GrimReaperFiniteTests
 open TruthCore.Causality.GrimReaperFiniteTests

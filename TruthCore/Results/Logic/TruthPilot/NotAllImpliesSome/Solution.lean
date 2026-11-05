@@ -1,4 +1,9 @@
-import TruthCore.Logic.TruthPilot
+module
+
+public import TruthCore.Logic.TruthPilot
+
+@[expose] public section
+
 namespace TruthCore.Results.Logic.TruthPilot.NotAllImpliesSome
 open TruthCore.Logic.TruthPilot
 /-- Use the proved proposition not-every-proposition-fails itself as the existential witness. Reverse implication preserves statement identity. -/

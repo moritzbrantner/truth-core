@@ -1,8 +1,13 @@
-import TruthCore.Modal.GraphBridge
+module
+
+public import TruthCore.Modal.GraphBridge
 
 /-! Exact finite path correspondence for modal convergence schemas. Path length
 is Mathlib's Quiver.Path.length, not reflexive-transitive reachability. These
 are frame correspondences, not Hilbert completeness or canonical-model claims. -/
+
+@[expose] public section
+
 namespace TruthCore.Modal
 universe u v
 namespace Formula

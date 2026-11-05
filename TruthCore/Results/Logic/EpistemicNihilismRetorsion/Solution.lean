@@ -1,4 +1,9 @@
-import TruthCore.Logic.EpistemicReasons
+module
+
+public import TruthCore.Logic.EpistemicReasons
+
+@[expose] public section
+
 namespace TruthCore.Results.Logic.EpistemicNihilismRetorsion
 open TruthCore.Logic.EpistemicReasons
 

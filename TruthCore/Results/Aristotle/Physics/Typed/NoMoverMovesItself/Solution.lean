@@ -1,5 +1,10 @@
-import TruthCore.Greek.Aristotle.Physics
-import TruthCore.Greek.Aristotle.Physics.Typed.Motion
+module
+
+public import TruthCore.Greek.Aristotle.Physics
+public import TruthCore.Greek.Aristotle.Physics.Typed.Motion
+
+@[expose] public section
+
 namespace TruthCore.Results.Aristotle.Physics.Typed.NoMoverMovesItself
 open TruthCore.Greek.Aristotle.Physics
 open TruthCore.Greek.Aristotle.Physics.Typed

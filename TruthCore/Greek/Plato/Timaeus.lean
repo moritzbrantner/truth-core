@@ -1,9 +1,13 @@
+module
+
 /-!
 Source-derived claims from Plato's *Timaeus*.
 
 These declarations encode readings of passages; they do not assert that the readings are
 historically exhaustive or philosophically true.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Greek.Plato.Timaeus
 

@@ -1,4 +1,8 @@
-import TruthCore.Causality.UniqueFeedback
+module
+
+public import TruthCore.Causality.UniqueFeedback
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.UniqueFeedback
 open TruthCore.Causality.UniqueFeedback

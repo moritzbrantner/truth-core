@@ -1,4 +1,6 @@
-import TruthCore.Hiddenness.Vocabulary
+module
+
+public import TruthCore.Hiddenness.Vocabulary
 
 /-!
 Finite consistency checks for the hiddenness slice of the rival bundles in
@@ -6,6 +8,9 @@ Finite consistency checks for the hiddenness slice of the rival bundles in
 Lean formalization and unexplained questions. These definitions assert neither
 the truth nor the consistency of every commitment of a complete worldview.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Comparison.Hiddenness
 open TruthCore.Hiddenness
 

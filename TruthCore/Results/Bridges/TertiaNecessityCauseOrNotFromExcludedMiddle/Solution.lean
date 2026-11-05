@@ -1,5 +1,10 @@
-import TruthCore.Logic.ExcludedMiddle
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3TertiaVia
+module
+
+public import TruthCore.Logic.ExcludedMiddle
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3TertiaVia
+
+@[expose] public section
+
 namespace TruthCore.Results.Bridges.TertiaNecessityCauseOrNotFromExcludedMiddle
 open TruthCore.Latin.Aquinas.SummaTheologiae
 /-- Bridge (#401), an instance of excluded middle: the tertia via's case split

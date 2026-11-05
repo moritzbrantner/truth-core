@@ -1,9 +1,11 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3Interpretation
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article1
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question4.Article1
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question5.Article1
-import TruthCore.Greek.Aristotle.MetaphysicsIX
-import TruthCore.Greek.Aristotle.Physics
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3Interpretation
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article1
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question4.Article1
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question5.Article1
+public import TruthCore.Greek.Aristotle.MetaphysicsIX
+public import TruthCore.Greek.Aristotle.Physics
 
 /-!
 The act/potency premises shared by every root route of the case (#352), taken
@@ -38,6 +40,8 @@ read in one model. The *prima via*'s observation premise
 (`NoInfinitePerSeMoverSeriesReading`) are added to every model, so that the
 facts below hold in worlds that contain motion.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Latin.Aquinas.SummaTheologiae
 

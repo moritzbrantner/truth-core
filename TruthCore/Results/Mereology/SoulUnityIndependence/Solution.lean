@@ -1,4 +1,8 @@
-import TruthCore.Mereology.Vitalism
+module
+
+public import TruthCore.Mereology.Vitalism
+
+@[expose] public section
 
 namespace TruthCore.Results.Mereology.SoulUnityIndependence
 open TruthCore.Mereology.Vitalism

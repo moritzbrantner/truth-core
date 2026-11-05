@@ -1,4 +1,8 @@
-import Mathlib.Tactic
+module
+
+public import Mathlib.Data.Fintype.Pi
+
+@[expose] public section
 
 namespace TruthCore.Politics.DistrictMajority
 

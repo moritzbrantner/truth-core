@@ -1,4 +1,6 @@
-import TruthCore.English.VanRoojen.MoralCognitivism
+module
+
+public import TruthCore.English.VanRoojen.MoralCognitivism
 
 /-!
 The quasi-realism deviation map (#185; owner method of 2026-10-24 on #181) and
@@ -73,6 +75,8 @@ Which side holds turns on the order of explanation, which is open. The data
 the quasi-realist accepts do not by themselves require the robust answer
 (countermodel `quasiRealistDataDoNotRequireRobustTruth`).
 -/
+
+@[expose] public section
 
 namespace TruthCore.Refutations.QuasiRealism
 

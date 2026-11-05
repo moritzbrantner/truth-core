@@ -1,4 +1,8 @@
-import TruthCore.Causality.Supertasks
+module
+
+public import TruthCore.Causality.Supertasks
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.SupertaskOscillation
 open TruthCore.Causality

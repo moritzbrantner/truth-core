@@ -1,4 +1,6 @@
-import TruthCore.English.VanRoojen.MoralCognitivism
+module
+
+public import TruthCore.English.VanRoojen.MoralCognitivism
 
 /-!
 The moral-language comparison (#182, part of the emotivism refutation #181):
@@ -23,6 +25,8 @@ Question `Q-MORAL-LANGUAGE-VALIDITY`: why is Geach's moral modus ponens valid?
 Only theories and consistency claims live in this namespace: `bind-check`
 treats every `TruthCore.Comparison.*` definition as a theory bundle.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Comparison.MoralLanguage
 

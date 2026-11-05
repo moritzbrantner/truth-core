@@ -1,6 +1,10 @@
-import Mathlib.Data.Fintype.Card
-import Mathlib.Order.WellFounded
-import TruthCore.Results.Modern.Fine.PlgDerivedRules.Solution
+module
+
+public import Mathlib.Data.Fintype.Card
+public import Mathlib.Order.WellFounded
+public import TruthCore.Results.Modern.Fine.PlgDerivedRules.Solution
+
+@[expose] public section
 
 namespace TruthCore.Results.Modern.Fine.StrictGroundAcyclic
 open TruthCore.Modern.Fine.PureLogicOfGround

@@ -1,5 +1,10 @@
-import TruthCore.Logic.TruthPilot
-import TruthCore.Results.Logic.TruthPilot.SomePropositionHolds.Solution
+module
+
+public import TruthCore.Logic.TruthPilot
+public import TruthCore.Results.Logic.TruthPilot.SomePropositionHolds.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Logic.TruthPilot.NotEveryPropositionFails
 open TruthCore.Logic.TruthPilot
 /-- Compose the separately verified existential proof: universal failure would negate its witnessed proposition. -/

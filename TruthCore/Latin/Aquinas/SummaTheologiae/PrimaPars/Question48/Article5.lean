@@ -1,4 +1,8 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question48.Articles2and3
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question48.Articles2and3
+
+@[expose] public section
 
 namespace TruthCore.Latin.Aquinas.SummaTheologiae
 

@@ -1,4 +1,6 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article1
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article1
 
 /-!
 Typed Boethian eternity for ST I q.10 a.1 (#353).
@@ -34,6 +36,8 @@ satisfy it, and a pure-act being need not (see the controls in
 Source witnesses: SCTA diplomatic TEI of the Leonine edition, passages
 `AQUINAS-ST-I-Q9-A1`, `AQUINAS-ST-I-Q10-A1`, `AQUINAS-ST-I-Q18-A3`.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Latin.Aquinas.SummaTheologiae
 

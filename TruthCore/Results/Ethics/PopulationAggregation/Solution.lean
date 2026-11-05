@@ -1,5 +1,9 @@
-import TruthCore.Ethics.PopulationAggregation
-import Mathlib.Tactic.NormNum
+module
+
+public import TruthCore.Ethics.PopulationAggregation
+public import Mathlib.Tactic.NormNum
+
+@[expose] public section
 
 namespace TruthCore.Results.Ethics.PopulationAggregation
 open TruthCore.Ethics.PopulationAggregation

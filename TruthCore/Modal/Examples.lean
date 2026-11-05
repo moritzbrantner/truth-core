@@ -1,4 +1,8 @@
-import TruthCore.Modal.Cube
+module
+
+public import TruthCore.Modal.Cube
+
+@[expose] public section
 
 namespace TruthCore.Modal.Examples
 

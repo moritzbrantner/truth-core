@@ -1,3 +1,7 @@
+module
+
+@[expose] public section
+
 namespace TruthCore.Causality.NecessaryBeingSurvey
 
 /-- An uninterpreted predicate: `causableAtLeast n` represents the source's

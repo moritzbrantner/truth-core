@@ -1,4 +1,9 @@
-import TruthCore.Refutations.QuasiRealism
+module
+
+public import TruthCore.Refutations.QuasiRealism
+
+@[expose] public section
+
 namespace TruthCore.Results.Comparison.QuasiRealism.MinimalismCollapsesRobustTruth
 open TruthCore.English.VanRoojen
 

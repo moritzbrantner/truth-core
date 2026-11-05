@@ -1,5 +1,7 @@
-import TruthCore.Case.Catholicism.Root
-import TruthCore.Metaethics.AnswerMap
+module
+
+public import TruthCore.Case.Catholicism.Root
+public import TruthCore.Metaethics.AnswerMap
 
 /-!
 Stage-4 pilot (#223). This is a finite vocabulary for conditional comparison,
@@ -8,6 +10,9 @@ explanatory commitments are separate. Every causal interpretation is open.
 The consistency models establish satisfiability of these limited bundles,
 not the truth or completeness of any worldview.
 -/
+
+@[expose] public section
+
 namespace TruthCore.History.Resurrection
 open TruthCore.Case.Catholicism
 

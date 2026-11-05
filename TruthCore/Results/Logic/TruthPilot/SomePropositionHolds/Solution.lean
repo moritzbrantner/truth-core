@@ -1,4 +1,9 @@
-import TruthCore.Logic.TruthPilot
+module
+
+public import TruthCore.Logic.TruthPilot
+
+@[expose] public section
+
 namespace TruthCore.Results.Logic.TruthPilot.SomePropositionHolds
 open TruthCore.Logic.TruthPilot
 /-- A direct witness True and its constructor prove the exact existential inside Lean logic. No source or philosophical independence premise. -/

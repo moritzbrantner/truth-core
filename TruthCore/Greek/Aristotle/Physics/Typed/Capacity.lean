@@ -1,8 +1,12 @@
+module
+
 /-!
 A capacity requirement from Aristotle, *Physics* VIII.1, 251a8–16.
 The beings, respects, `MovedIn` and `InPotency` are the shared act/potency
 vocabulary used in `Typed.Motion`; no new per-chapter vocabulary is introduced.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Greek.Aristotle.Physics.Typed
 

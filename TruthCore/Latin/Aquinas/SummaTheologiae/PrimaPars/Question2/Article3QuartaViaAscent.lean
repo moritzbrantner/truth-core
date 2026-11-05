@@ -1,4 +1,6 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaVia
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaVia
 
 /-!
 Two premises of a causal-ascent derivation of the *quarta via*'s
@@ -12,6 +14,8 @@ Existing results deliberately leave `MoreIn` free of any link to `InAct`
 adds that link as a separate premise; nothing here changes the earlier
 vocabulary or results.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Latin.Aquinas.SummaTheologiae
 

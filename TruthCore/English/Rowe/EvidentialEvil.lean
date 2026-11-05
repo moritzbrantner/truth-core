@@ -1,3 +1,5 @@
+module
+
 /-!
 Rowe, “The Problem of Evil and Some Varieties of Atheism” (1979),
 pp. 335–339, read in the materialized ROWE-EVIL-ATHEISM-1979-FULL witness.
@@ -6,6 +8,9 @@ inductive warrant. No probability or inference from unrecognized to absent
 costs is built into this vocabulary. These are event/being/outcome relations,
 not the voluntary-operation vocabulary of Aquinas' culpa account.
 -/
+
+@[expose] public section
+
 namespace TruthCore.English.Rowe
 
 /-- A scoped interpretation, not an identification with the existing Catholic

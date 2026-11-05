@@ -1,4 +1,9 @@
-import TruthCore.Logic.Strength.Order
+module
+
+public import TruthCore.Logic.Strength.Order
+
+@[expose] public section
+
 namespace TruthCore.Results.Logic.StrengthOrder
 open TruthCore.Logic.Strength.Order
 universe u

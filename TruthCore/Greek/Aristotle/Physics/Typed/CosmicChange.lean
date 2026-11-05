@@ -1,4 +1,8 @@
+module
+
 /-! A motion requirement in the predecessor survey of Physics VIII.1. -/
+
+@[expose] public section
 
 namespace TruthCore.Greek.Aristotle.Physics.Typed
 

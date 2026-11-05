@@ -1,5 +1,9 @@
-import Mathlib.Order.WellFounded
-import TruthCore.Modern.Fine.PureLogicOfGround
+module
+
+public import Mathlib.Order.WellFounded
+public import TruthCore.Modern.Fine.PureLogicOfGround
+
+@[expose] public section
 
 namespace TruthCore.Results.Modern.Fine.InfiniteDescent
 open TruthCore.Modern.Fine.PureLogicOfGround

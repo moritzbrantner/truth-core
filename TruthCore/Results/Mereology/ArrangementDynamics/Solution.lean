@@ -1,4 +1,9 @@
-import TruthCore.Mereology.ArrangementDynamics
+module
+
+public import TruthCore.Mereology.ArrangementDynamics
+
+@[expose] public section
+
 namespace TruthCore.Results.Mereology.ArrangementDynamics
 open TruthCore.Mereology.ArrangementDynamics
 

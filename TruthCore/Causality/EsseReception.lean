@@ -1,9 +1,13 @@
+module
+
 /-!
 Two unattributed open premises about the reception of esse. They are used in
 deriving `SubsistentBeingIsInfiniteReading` (result
 SUBSISTENT-INFINITY-FROM-RECEPTION). No source claim states either in this
 generality. Vocabulary as in `TruthCore.Latin.Aquinas.DeEnte`.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Causality.EsseReception
 

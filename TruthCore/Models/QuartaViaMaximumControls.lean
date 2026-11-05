@@ -1,10 +1,15 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaVia
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question4.Article1
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaVia
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question4.Article1
 
 /-! Two-being Boolean controls for deriving a maximum in esse without the truth
 bridge. Respects are Booleans: `false` is the fixture's truth, goodness and
 nobility, and `true` is its esse. These are satisfiability fixtures for encoded
 premises, not metaphysical possibilities or source readings. -/
+
+@[expose] public section
+
 namespace TruthCore.Models.QuartaViaMaximumControls
 open TruthCore.Latin.Aquinas.SummaTheologiae
 

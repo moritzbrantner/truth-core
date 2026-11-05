@@ -1,3 +1,5 @@
+module
+
 /-!
 Analytical reassembly variant of the Theseus puzzle, not a historical attribution.
 Plutarch, Theseus 23.1 (Perrin translation, PLUTARCH-THESEUS-23-EN), reports
@@ -9,6 +11,9 @@ not be equal when their bearers are. The two slots each retain their position;
 a Bool records old/new component generation at that slot. This finite fixture
 stipulates component identities and replacement history, not ship identity.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Mereology.TheseusIdentity
 
 inductive Stage where

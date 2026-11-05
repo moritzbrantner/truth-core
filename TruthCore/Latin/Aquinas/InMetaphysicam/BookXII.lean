@@ -1,3 +1,5 @@
+module
+
 /-!
 Source-derived readings from Aristotle, *Metaphysics* Λ.7, 1072a21-b13, and
 Thomas Aquinas, *Sententia libri Metaphysicae* XII, lect. 7 n. 11–14: the
@@ -41,6 +43,8 @@ Source witnesses: Perseus Greek *Metaphysics* (passages `ARIST-MET-XII-7`, and
 Latin pages, pinned as web snapshot passages `AQUINAS-IN-METAPH-XII-L7`,
 `AQUINAS-IN-METAPH-XII-L11` and `AQUINAS-IN-METAPH-V-L6`.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Latin.Aquinas.InMetaphysicam
 

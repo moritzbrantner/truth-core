@@ -1,4 +1,9 @@
-import TruthCore.Logic.SelfApplication
+module
+
+public import TruthCore.Logic.SelfApplication
+
+@[expose] public section
+
 namespace TruthCore.Results.Logic.SelfApplication.ScopeNeeded
 open TruthCore.Logic.SelfApplication
 /-- Countermodel for a dropped scope premise: a norm with empty scope and an

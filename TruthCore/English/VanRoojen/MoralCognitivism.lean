@@ -1,3 +1,5 @@
+module
+
 /-!
 Readings of the positions that Mark van Roojen's *Stanford Encyclopedia of
 Philosophy* entry "Moral Cognitivism vs. Non-Cognitivism" (Spring 2026
@@ -22,6 +24,8 @@ Shared vocabulary, all of it parameters rather than definitions:
 The vocabulary says nothing about what meanings or attitudes are. In
 particular it does not assume that meanings are propositions.
 -/
+
+@[expose] public section
 
 namespace TruthCore.English.VanRoojen
 

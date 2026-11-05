@@ -1,5 +1,10 @@
-import TruthCore.Greek.Aristotle.Physics
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3
+module
+
+public import TruthCore.Greek.Aristotle.Physics
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3
+
+@[expose] public section
+
 namespace TruthCore.Results.Bridges.AristMotionAnalysisMovedAsInPotency
 open TruthCore.Greek.Aristotle.Physics
 open TruthCore.Latin.Aquinas.SummaTheologiae

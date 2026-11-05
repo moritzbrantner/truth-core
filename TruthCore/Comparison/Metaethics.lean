@@ -1,9 +1,11 @@
-import TruthCore.English.OConnor.Metaethics
-import TruthCore.English.VanRoojen.MoralCognitivism
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question5.Article1
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question48.Articles2and3
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaSecundae.Question94.Article2
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaSecundae.Question94.Article4
+module
+
+public import TruthCore.English.OConnor.Metaethics
+public import TruthCore.English.VanRoojen.MoralCognitivism
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question5.Article1
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question48.Articles2and3
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaSecundae.Question94.Article2
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaSecundae.Question94.Article4
 
 /-!
 Emotivism, expressivism and Catholic natural law as complete rival theories
@@ -125,6 +127,8 @@ validity test for all three realist accounts. See
 `docs/naturalistic-moral-realism.md`; the older counts above retain their
 original eight-question scope.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Comparison.Metaethics
 

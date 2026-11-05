@@ -1,4 +1,8 @@
-import TruthCore.Mereology.UniversalFusionBoundary
+module
+
+public import TruthCore.Mereology.UniversalFusionBoundary
+
+@[expose] public section
 
 namespace TruthCore.Results.Mereology.UniversalFusionBoundary
 open TruthCore.Mereology.UniversalFusionBoundary

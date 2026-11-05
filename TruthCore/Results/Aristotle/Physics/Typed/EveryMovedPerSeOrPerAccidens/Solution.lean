@@ -1,4 +1,9 @@
-import TruthCore.Greek.Aristotle.Physics.Typed.Motion
+module
+
+public import TruthCore.Greek.Aristotle.Physics.Typed.Motion
+
+@[expose] public section
+
 namespace TruthCore.Results.Aristotle.Physics.Typed.EveryMovedPerSeOrPerAccidens
 open TruthCore.Greek.Aristotle.Physics.Typed
 open TruthCore.Latin.Aquinas.SummaTheologiae

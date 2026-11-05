@@ -1,5 +1,7 @@
-import TruthCore.Logic.Relativism
-import TruthCore.Logic.TruthPilot
+module
+
+public import TruthCore.Logic.Relativism
+public import TruthCore.Logic.TruthPilot
 
 /-!
 Nontriviality of truth (#556): what a global collapse or denial of truth can
@@ -15,6 +17,8 @@ Everything here is about an encoded logic and stipulated test semantics. Nothing
 says what relativists or nihilists hold; nothing here is about mind-independent
 truth, and `Prop` has no world parameter. No statement is attributed to a source.
 -/
+
+@[expose] public section
 
 namespace TruthCore.Logic.TruthNontriviality
 

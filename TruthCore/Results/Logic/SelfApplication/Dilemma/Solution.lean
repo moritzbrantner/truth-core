@@ -1,4 +1,9 @@
-import TruthCore.Logic.SelfApplication
+module
+
+public import TruthCore.Logic.SelfApplication
+
+@[expose] public section
+
 namespace TruthCore.Results.Logic.SelfApplication.Dilemma
 open TruthCore.Logic.SelfApplication
 /-- The reusable self-application dilemma, premise-free: a claim in a norm's

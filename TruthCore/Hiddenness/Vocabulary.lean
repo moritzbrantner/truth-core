@@ -1,4 +1,6 @@
-import TruthCore.Metaethics.AnswerMap
+module
+
+public import TruthCore.Metaethics.AnswerMap
 
 /-!
 The independent hiddenness question set (#252). These are interpretation
@@ -7,6 +9,9 @@ goodness and historical vocabularies do not represent time-indexed personal
 access; no identification with them is silently imposed. A proposed identification
 with the root's God requires a separate bridge, not the spelling of `God`.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Hiddenness
 
 /-- Worlds index interpretations of the alleged necessary premises. `actual`

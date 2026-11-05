@@ -1,5 +1,7 @@
-import TruthCore.Case.Catholicism.StageOne
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuintaVia
+module
+
+public import TruthCore.Case.Catholicism.StageOne
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuintaVia
 
 /-!
 Stage-1 statement that connects the *quinta via*'s intelligent director (ST I q.2
@@ -15,6 +17,8 @@ result `AQUINAS-ST-I-Q2-A3-QUINTA-VIA-ONE-GOVERNOR` shows that the remaining pre
 not entail the conclusion, and each is derived from ST I
 q.103 (`AQUINAS-ST-I-Q103-DIRECTING-IS-MOVING`, `AQUINAS-ST-I-Q103-DIRECTOR-REGRESS`).
 -/
+
+@[expose] public section
 
 namespace TruthCore.Case.Catholicism
 

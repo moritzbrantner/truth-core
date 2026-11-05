@@ -1,4 +1,8 @@
-import TruthCore.Logic.ReflectiveCoherence
+module
+
+public import TruthCore.Logic.ReflectiveCoherence
+
+@[expose] public section
 
 namespace TruthCore.Results.Logic.ReflectiveCoherence.Limits
 

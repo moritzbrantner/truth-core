@@ -1,4 +1,6 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaVia
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3QuartaVia
 
 /-!
 A consequence of existing fourth-way vocabulary, not a new reading equating
@@ -7,6 +9,9 @@ The argument uses the existing causal-comparison premise from Metaphysics II.1.
 ST I q.9 a.2 motivates investigating sustaining dependence, but the mapping from
 that distinct notion to `CausesIn` at `esse` remains open.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Case.Catholicism
 open TruthCore.Latin.Aquinas.SummaTheologiae
 

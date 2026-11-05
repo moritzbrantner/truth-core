@@ -1,7 +1,12 @@
+module
+
 /-! Analyst partial case of SCG I.42[9], not a binding of its whole argument.
 Feature denotes a repeatable characteristic kind, not a numerical accident token.
 Roles are standpoint-local; no Ontic, modal frame or God predicate is supplied.
 Formal character and its production differ from eminent InAct and CausesIn. -/
+
+@[expose] public section
+
 namespace TruthCore.Causality.AccidentalFeatureOrigin
 
 /-- Independently interpreted OPEN roles. An externalFeatureCause witness is

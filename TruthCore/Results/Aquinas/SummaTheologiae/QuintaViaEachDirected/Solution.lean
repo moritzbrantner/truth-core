@@ -1,4 +1,9 @@
-import TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaActsForAnEnd.Solution
+module
+
+public import TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaActsForAnEnd.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaEachDirected
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaModels

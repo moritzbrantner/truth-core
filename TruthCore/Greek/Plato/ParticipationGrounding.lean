@@ -1,4 +1,6 @@
-import TruthCore.Greek.Plato.Forms
+module
+
+public import TruthCore.Greek.Plato.Forms
 
 /-!
 Issue #260: modern, deliberately limited tests of the participant-selection
@@ -9,10 +11,16 @@ Research: Phaedo 100c–e leaves the manner open; Parmenides 131e and 132d–133
 challenge spatial/resemblance accounts, not every possible participation relation;
 Metaphysics I.9 991a8–b9 separates being, knowledge and productive change.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Greek.Plato.ParticipationGrounding
 open TruthCore.Greek.Plato.Forms
 
-private instance : NeZero 4 where
+/-- Public so that the exposed definitions below elaborate their `Fin 4` literals with it, as
+before the module conversion. A private instance is invisible to an exposed body, and core's
+fallback `NeZero (3 + 1)` would add `propext` to the zero-axiom results. -/
+instance : NeZero 4 where
   out h := Nat.noConfusion h
 
 universe u v w

@@ -1,4 +1,9 @@
-import TruthCore.Comparison.Fideism
+module
+
+public import TruthCore.Comparison.Fideism
+
+@[expose] public section
+
 namespace TruthCore.Results.Alternatives.FideismCatholicPractice
 open TruthCore.Alternatives.Fideism
 

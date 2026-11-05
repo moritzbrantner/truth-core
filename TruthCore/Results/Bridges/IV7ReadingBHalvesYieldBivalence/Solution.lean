@@ -1,4 +1,9 @@
-import TruthCore.Greek.Aristotle.MetaphysicsIV7
+module
+
+public import TruthCore.Greek.Aristotle.MetaphysicsIV7
+
+@[expose] public section
+
 namespace TruthCore.Results.Bridges.IV7ReadingBHalvesYieldBivalence
 open TruthCore.Greek.Aristotle.Metaphysics
 /-- Bridge (#401): the two halves of the thought argument's universal reading,

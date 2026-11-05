@@ -1,4 +1,9 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3Interpretation
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3Interpretation
+
+@[expose] public section
+
 namespace TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaFacts.AbsoluteEntailsRelative
 open TruthCore.Latin.Aquinas.SummaTheologiae
 

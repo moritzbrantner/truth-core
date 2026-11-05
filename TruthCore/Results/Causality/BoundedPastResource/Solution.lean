@@ -1,7 +1,11 @@
-import TruthCore.Causality.BoundedPastResource
-import Mathlib.Tactic.Linarith
-import Mathlib.Tactic.NormNum
-import Lean.Elab.Tactic.Omega
+module
+
+public import TruthCore.Causality.BoundedPastResource
+public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.NormNum
+public import Lean.Elab.Tactic.Omega
+
+@[expose] public section
 
 namespace TruthCore.Results.Causality.BoundedPastResource
 open TruthCore.Causality.BoundedPastResource

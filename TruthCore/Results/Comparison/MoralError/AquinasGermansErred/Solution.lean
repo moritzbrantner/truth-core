@@ -1,4 +1,9 @@
-import TruthCore.Comparison.MoralError
+module
+
+public import TruthCore.Comparison.MoralError
+
+@[expose] public section
+
 namespace TruthCore.Results.Comparison.MoralError.AquinasGermansErred
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Metaethics

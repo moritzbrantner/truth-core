@@ -1,3 +1,5 @@
+module
+
 /-!
 Readings from David Papineau, "The Rise of Physicalism", in *Physicalism and
 Its Discontents* (2001), pp. 3–36.
@@ -12,6 +14,8 @@ stipulated sense (pp. 12–13), not Aristotle's respects of physical motion. Any
 passage to the case vocabulary is an explicit, unattributed bridge
 (`TruthCore.Alternatives.PhysicalCompleteness`).
 -/
+
+@[expose] public section
 
 namespace TruthCore.Modern.Papineau.RiseOfPhysicalism
 

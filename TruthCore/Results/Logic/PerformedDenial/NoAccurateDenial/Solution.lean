@@ -1,4 +1,8 @@
-import TruthCore.Logic.PerformedDenial
+module
+
+public import TruthCore.Logic.PerformedDenial
+
+@[expose] public section
 
 namespace TruthCore.Results.Logic.PerformedDenial.NoAccurateDenial
 open TruthCore.Logic.PerformedDenial

@@ -1,9 +1,14 @@
+module
+
 /-!
 Typed specifications for selected comparisons of open propositions. These are
 descriptions, not proof-status records: certificates remain corpus results.
 Background propositions are ordered and shared by every obligation. Vocabulary
 and typeclass parameters belong to the enclosing specification declaration.
 -/
+
+@[expose] public section
+
 namespace TruthCore.Logic.StrengthComparison
 
 /-- A selected comparison, without any assertion that its obligations hold.

@@ -1,5 +1,10 @@
-import TruthCore.Greek.Plato.Theaetetus
-import TruthCore.Results.Logic.TruthPilot.ConflictingOpinionsTest.Solution
+module
+
+public import TruthCore.Greek.Plato.Theaetetus
+public import TruthCore.Results.Logic.TruthPilot.ConflictingOpinionsTest.Solution
+
+@[expose] public section
+
 namespace TruthCore.Results.Plato.Theaetetus.PeritropeAbsoluteHorn
 open TruthCore.Logic.SelfApplication
 open TruthCore.Logic.TruthPilot

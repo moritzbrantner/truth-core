@@ -1,4 +1,9 @@
-import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article1
+module
+
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article1
+
+@[expose] public section
+
 namespace TruthCore.Results.Aquinas.SummaTheologiae.FirstBeingNoPotency
 open TruthCore.Latin.Aquinas.SummaTheologiae
 theorem firstBeingNoPotency {Being : Type} {Respect : Type}
