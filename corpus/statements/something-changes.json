@@ -1,11 +1,31 @@
 {
   "id": "STMT-SOMETHING-CHANGES",
-  "paraphrase": "Something changes, in the general sense of change: some thing changes in some characteristic, quality or relation, the thoughts of conscious beings included. Floor candidate F3 (#1007), approved by the owner on the observation basis; the marking waits for a pinned text that states it in this sense.",
+  "paraphrase": "Something changes, in the general sense of change: some thing changes in some characteristic, quality or relation, the thoughts of conscious beings included. Floor item F3 (#1007).",
   "lean_declaration": "TruthCore.Observation.Change.SomethingChangesReading",
   "definition_ids": [
     "DEF-CHANGE-GENERAL"
   ],
   "disambiguation_ids": [
     "DISAMB-CHANGE-A-SERIES"
-  ]
+  ],
+  "self_evident": {
+    "basis": "observation",
+    "justification_ids": [
+      "AQUINAS-ST-I-Q2-A3-MOTION-EVIDENT-A",
+      "ARIST-PHYS-185A-NATURAL-MOTION-ASSUMPTION-A"
+    ],
+    "sceptical_rival_ids": [
+      "STMT-MCTAGGART-UNREALITY-OF-TIME"
+    ],
+    "disagreement": {
+      "rival_statement_ids": [
+        "STMT-MCTAGGART-UNREALITY-OF-TIME"
+      ]
+    },
+    "owner_approval": {
+      "decision": "https://github.com/moritzbrantner/truth-core/issues/1007#issuecomment-6661672293",
+      "date": "2026-11-05"
+    },
+    "note": "Floor item F3 (#1007), approved by the owner on the observation basis; the approval plus that basis is the evidence, so no stating text is pinned (owner, 2026-11-05). Closest texts, recorded as supporting justifications: Aquinas, ST I q.2 a.3 (aliqua moveri, sensu constat) and Aristotle, Physics I.2, 185a12-14 (some natural things move, evident by induction). Both state motion, not change in this general sense: identifying motion or Aristotle's μεταβολή with McTaggart's 'change' is a reading step no source states (TruthCore.Alternatives.McTaggart). Recorded rival: McTaggart's 1908 bundle, defeated by consequence against F3 (MCTAGGART-BUNDLE-DEFEATED-BY-CHANGE); his later reply that appearers do not change is compatible with F3 and is not defeated. Parmenides' denial of change (fr. 8) is not recorded as a rival yet: it waits for a pinned witness."
+  }
 }
