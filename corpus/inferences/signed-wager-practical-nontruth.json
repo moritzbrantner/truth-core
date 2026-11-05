@@ -1,0 +1,9 @@
+{
+  "id": "INF-SIGNED-WAGER-PRACTICAL-NONTRUTH",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-SIGNED-WAGER-PRACTICAL-NONTRUTH",
+  "rule": "direct-proof",
+  "meaning": "Compute guarded EReal expectations under explicit probability assumptions and construct the typed conditional model. No theological premise discharged.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

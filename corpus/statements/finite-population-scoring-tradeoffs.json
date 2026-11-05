@@ -1,0 +1,14 @@
+{
+  "id": "STMT-FINITE-POPULATION-SCORING-TRADEOFFS",
+  "paraphrase": "Conditional on a common interpersonal cardinal real welfare scale and admissible arbitrary finite uniform replication, any separable additive population value with a strictly positive score for one repeatable welfare level is exceeded by a finite replication of that level. Universal positive-life scoring consequently permits arbitrarily low strictly positive welfare replication to outrank each finite baseline, incompatibly with the explicit no-low-replication bound. Zero scoring drops positive-life valuation, average ranking drops additive representation, positive critical-level scoring drops positive scoring for every positive life, and bounded replication limits the conclusion. Critical-level scoring penalizes adding a positive life below its critical level; average ranking reverses positive mere addition below the existing nonempty average while total increases. Explicit all-positive and mixed-sign individual distributions can share total and mean. Nonempty summaries recover the old count/mean total. This is a conditional scoring constraint, not an unrestricted impossibility, a uniquely correct ethics, actual feasibility, historical attribution or root-premise discharge.",
+  "lean_declaration": "TruthCore.Ethics.PopulationScoring.Controls",
+  "definition_ids": [
+    "DEF-FINITE-INDIVIDUAL-WELFARE-POPULATION",
+    "DEF-ADDITIVE-POPULATION-SCORING",
+    "DEF-NO-LOW-REPLICATION",
+    "DEF-POSITIVE-CRITICAL-LEVEL-SCORING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-POPULATION-MEAN-TOTAL-NORMATIVE-RANKING"
+  ]
+}

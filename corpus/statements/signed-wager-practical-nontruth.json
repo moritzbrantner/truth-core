@@ -1,0 +1,11 @@
+{
+  "id": "STMT-SIGNED-WAGER-PRACTICAL-NONTRUTH",
+  "paraphrase": "A nonvacuous negative-finite-cost, non-dogmatic prior model has a practical maximizer and all many-policy mixtures maximize, while the actual religious proposition is false. Distinct one and one-half act probabilities tie; omitting positive prior or positive action destroys infinite payoff. Act choice does not encode belief control.",
+  "lean_declaration": "TruthCore.Decision.SignedWager.PracticalNontruth",
+  "definition_ids": [
+    "DEF-SIGNED-WAGER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SIGNED-WAGER-ACT-TRUTH"
+  ]
+}
