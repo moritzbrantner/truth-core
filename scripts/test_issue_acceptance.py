@@ -103,6 +103,22 @@ class IssueAcceptanceTests(unittest.TestCase):
             self.assertEqual(analyze_issues(issues, data, {}, root=root)["issues"][0]["status"], "missing")
             path.write_text("/-\ntheorem proof : True := by trivial\n-/\n", encoding="utf-8")
             self.assertEqual(analyze_issues(issues, data, {}, root=root)["issues"][0]["status"], "missing")
+            # Same short name in another namespace, or a primed name, is not the registered theorem.
+            for wrong in ("namespace TruthCore.Other\ntheorem proof : True := by trivial\nend TruthCore.Other\n",
+                          "namespace TruthCore.Demo\ntheorem proof' : True := by trivial\nend TruthCore.Demo\n"):
+                path.write_text(wrong, encoding="utf-8")
+                self.assertEqual(analyze_issues(issues, data, {}, root=root)["issues"][0]["status"], "missing")
+            path.write_text("namespace TruthCore\nsection\nnamespace Demo\ntheorem proof : True := by trivial\n"
+                            "end Demo\nend\nend TruthCore\n", encoding="utf-8")
+            self.assertEqual(analyze_issues(issues, data, {}, root=root)["issues"][0]["status"], "delivered")
+
+    def test_crlf_contracts_are_found_and_counted_as_duplicates(self):
+        crlf = acceptance("results: [RESULT-1]").replace("\n", "\r\n")
+        report = analyze_issues([issue(1, crlf)], records(), {})
+        self.assertEqual(report["issues"][0]["status"], "delivered")
+        mixed = issue(2, acceptance("results: [RESULT-1]"),
+                      comments=[{"body": acceptance("results: [RESULT-PENDING]").replace("\n", "\r\n")}])
+        self.assertEqual(analyze_issues([mixed], records(), {})["issues"][0]["status"], "malformed")
 
     def test_offline_cli_reads_gh_shape_and_never_mutates_snapshot(self):
         with tempfile.TemporaryDirectory() as directory:
