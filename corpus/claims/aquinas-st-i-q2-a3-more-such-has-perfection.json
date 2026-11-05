@@ -1,0 +1,15 @@
+{
+  "id": "AQUINAS-ST-I-Q2-A3-MORE-SUCH-HAS-PERFECTION-A",
+  "statement_id": "STMT-MORE-SUCH-HAS-THE-PERFECTION",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.2 a.3 co., quarta via: magis et minus dicuntur de diversis ... sicut magis calidum est, quod magis appropinquat maxime calido",
+  "interpretation": "Read as a presupposition of the comparative as the text uses it: 'more' and 'less' good, true, hot are said of the things compared, and the example's 'magis calidum' is a hot thing; so what is said more r has r. Only the exceeding side is read; whether the less r also has r (the text's 'minus ... bonum' suggests so) is not formalized, which keeps the reading weaker than that suggestion. The approach relation and the maximum are not part of this reading, and nothing here makes the grades an order.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-MORE-IN",
+    "DEF-ACT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-BEING-UNIVOCITY"
+  ]
+}

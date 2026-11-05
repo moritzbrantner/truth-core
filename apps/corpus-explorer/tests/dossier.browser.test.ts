@@ -44,10 +44,15 @@ test("premise dossier: statement navigation, durable attempt evidence and route 
   await page.getByRole("heading", { name: "Premise dossier", exact: true }).waitFor();
   expect(await page.getByRole("region", { name: "Current status", exact: true }).innerText()).toContain("not established");
   const attempts = page.getByRole("region", { name: "Attempt log", exact: true });
-  expect(await attempts.innerText()).toContain("Finite omission models");
-  expect(await attempts.getByRole("link", { name: "PR-374", exact: true }).getAttribute("href")).toBe("https://github.com/moritzbrantner/truth-core/pull/374");
   const originalAttempt = attempts.locator("#ATTEMPT-ACT-POTENCY-INDEPENDENCE");
-  expect(await originalAttempt.getByRole("link", { name: "ACT-POTENCY-PREMISES-INDEPENDENT", exact: true }).getAttribute("href")).toBe(`${basePath}/results/ACT-POTENCY-PREMISES-INDEPENDENT/`);
+  await originalAttempt.getByRole("link", { name: /Full attempt and evidence/ }).click();
+  await page.waitForURL((url) => url.pathname.endsWith("/attempts/ATTEMPT-ACT-POTENCY-INDEPENDENCE/"));
+  expect(await page.getByRole("region", { name: "Findings and limits", exact: true }).innerText()).toContain("Finite omission models");
+  const evidence = page.getByRole("region", { name: "Evidence", exact: true });
+  expect(await evidence.getByRole("link", { name: "PR-374", exact: true }).getAttribute("href")).toBe("https://github.com/moritzbrantner/truth-core/pull/374");
+  expect(await evidence.getByRole("link", { name: "ACT-POTENCY-PREMISES-INDEPENDENT", exact: true }).getAttribute("href")).toBe(`${basePath}/results/ACT-POTENCY-PREMISES-INDEPENDENT/`);
+  await page.getByRole("region", { name: "Related propositions", exact: true }).getByRole("link", { name: /STMT-ACT-SIMPLY-PRIOR-TO-POTENCY/ }).click();
+  await page.waitForURL((url) => url.pathname.endsWith("/dossiers/STMT-ACT-SIMPLY-PRIOR-TO-POTENCY/") && url.hash === "#ATTEMPT-ACT-POTENCY-INDEPENDENCE");
   const models = page.getByRole("region", { name: "Schema instances and countermodels", exact: true });
   const registration = models.getByRole("listitem").filter({ hasText: "MODEL-ACT-POTENCY-M3" });
   expect(await registration.innerText()).toContain("violates");

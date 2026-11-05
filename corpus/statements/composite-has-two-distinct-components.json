@@ -1,0 +1,9 @@
+{
+  "id": "STMT-COMPOSITE-HAS-TWO-DISTINCT-COMPONENTS",
+  "paraphrase": "Every composite has at least two numerically distinct components. Stronger than STMT-COMPOSITE-HAS-COMPONENT-OTHER-THAN-ITSELF, which gives only one component other than the composite.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7Uniting.CompositeHasTwoDistinctComponentsReading",
+  "definition_ids": [
+    "DEF-COMPOSITION-COMPONENT",
+    "DEF-SIMPLE"
+  ]
+}

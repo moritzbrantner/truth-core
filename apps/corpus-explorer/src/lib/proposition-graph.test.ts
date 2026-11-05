@@ -36,13 +36,14 @@ describe("proposition graph status", () => {
     expect(byId.get("P1")?.transitiveDependentArguments).toBe(2);
   });
 
-  test("classifies open premises as bare or sourced, as corpus.py frontier does", () => {
+  test("classifies open premises as bare, supported or stated, as corpus.py frontier does", () => {
     const depths = Object.fromEntries(
       graph.statements.filter((entry) => entry.frontier).map((entry) => [entry.id, entry.frontierDepth]),
     );
     // P1/P2 are stated by claims; T has a supports relation; ALT and TC have neither.
-    expect(depths).toEqual({ ALT: "bare", P1: "sourced", P2: "sourced", T: "sourced", TC: "bare" });
-    expect(byId.get("T")?.tags).toContain("frontier:sourced");
+    expect(depths).toEqual({ ALT: "bare", P1: "stated", P2: "stated", T: "supported", TC: "bare" });
+    expect(byId.get("T")?.tags).toContain("frontier:supported");
+    expect(byId.get("P1")?.tags).toContain("frontier:stated");
     expect(byId.get("TC")?.tags).toContain("frontier:bare");
     expect(byId.get("C")?.frontierDepth).toBeUndefined();
   });

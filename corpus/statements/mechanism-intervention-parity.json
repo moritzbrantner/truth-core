@@ -1,0 +1,18 @@
+{
+  "id": "STMT-MECHANISM-INTERVENTION-PARITY",
+  "lean_declaration": "TruthCore.Explanation.MechanismInterventionParity.Certificate",
+  "paraphrase": "On the existing #974 Boolean-pair public observation interface, a target computed from the surgically overridden public inputs and an idle target computed directly from the untouched background agree under all four natural states. Under explicitly stipulated interventions the active AND target changes when either input is switched on while the other is on; the idle target does not. A single pair-valued root-state slot and two separately stored Boolean root-state slots yield exactly the same responses under every such public intervention by packing and unpacking. A single one-BIT slot cannot realize all four independently controllable public pairs. The earlier #974 single-versus-plural graph-root contrast is preserved, but no genuine causation, intervention accessibility, ontic unity, or ultimate adequacy is established.",
+  "definition_ids": [
+    "DEF-MECHANISM-INTERVENTION-PARITY",
+    "DEF-REGULARITY-INTERVENTION",
+    "DEF-COMPLETE-RESPONSE-PARITY",
+    "DEF-JOINT-SCENARIO-SUFFICIENCY",
+    "DEF-DERIVATIVE-JOINT-SUPPLY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REGULARITY-CAUSAL-SENSES",
+    "DISAMB-JOINT-SUPPLY-POWER-OCCURRENCE",
+    "DISAMB-JOINT-CAUSAL-MEMBERSHIP-EXERCISE",
+    "DISAMB-ULTIMATE-ADEQUACY-FOUNDATION"
+  ]
+}

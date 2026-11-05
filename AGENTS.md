@@ -13,7 +13,7 @@ The master gives each worker a four-line brief:
 
 For a substantial frontier investigation (not a single source reading), the brief or the existing investigation issue also carries a compact **investigation brief**: the thesis and its downstream purpose; the strongest case and the strongest rivals; the existing results reused; the decisive missing bridge or fork; and the expected premise or configuration delta. It lives in the one current handoff or issue, not in another tracker.
 
-The PR reports the actual premise comparison, including remaining open premises; a new connection is not itself a discharge. For non-proof work, use “none” or “no premise change” where applicable.
+The PR reports the actual premise comparison by linking or pasting the computed delta (`python3 scripts/corpus.py frontier-diff --base <merge-base>`; CI prints it to the job summary of the "Report the premise frontier" step), not a hand-reconstructed list; a new connection is not itself a discharge. For non-proof work, use “none” or “no premise change” where applicable.
 
 The coordinator runs `python3 scripts/worker_env.py --check` once for the
 selected toolchain/cache setup and supplies that setup to workers. Workers use
@@ -21,6 +21,13 @@ selected toolchain/cache setup and supplies that setup to workers. Workers use
 preflight unless the setup changes. Keep machine-specific verifier paths in
 repository-local Git configuration or the explicit environment, not in briefs
 that workers must reconstruct or in committed source.
+
+Workers reuse a warm clone rather than compiling TruthCore cold: retain a
+quiescent prepared clone, or prepare a new one with
+`scripts/prepare-worker.py --seed-build-from <WARM-CLONE>` under the heavy-job
+lock ([worker startup](docs/worker-startup.md)). Lake then rebuilds only modules
+whose inputs changed. A seeded build output is readiness, not verification:
+build, binding, axiom, Comparator and NanoDa gates still run on the final inputs.
 
 Before handoff or retirement, persist verified source findings, rejected interpretations with reasons, and remaining gaps in the existing passage, claim, definition, disambiguation or candidate records, or their linked repository notes. Keep precise witness locators and distinguish sourced readings from open commitments; temporary files must not be the only copy. Do not create claims merely to record research activity.
 
@@ -35,7 +42,9 @@ Before handoff or retirement, persist verified source findings, rejected interpr
    evidence stays in the existing CI or command logs.
 3. **Keep PRs focused.** Explain the problem, change, premise effects, essential
    validation and remaining gaps. Preserve the required claim/type self-sweep
-   and exact premise comparison. Link existing check evidence instead of
+   and exact premise comparison; take the latter from the computed
+   `corpus.py frontier-diff` delta in the CI job summary rather than
+   reconstructing it by hand. Link existing check evidence instead of
    narrating the execution chronology or repeating successful-check inventories;
    include a reproduction command when the linked evidence is insufficient.
 4. **Maintain one current handoff.** The coordinator updates the designated
@@ -112,6 +121,14 @@ findings, remaining blocker when blocked, and result/claim/PR evidence. A succes
 attempt does not establish its target or change frontier closure. The dossier is
 computed from corpus records, not edited separately. See `docs/premise-dossiers.md`
 for the attempt format and reference boundaries.
+
+## Encode first (owner direction, 2026-11-03)
+
+Formalize what can be formalized. Derive what can be derived. Document only what cannot yet be encoded.
+
+- **Encodings must be able to fail.** A transcription or an opaque flag is documentation in Lean syntax, not formalization (invariant 16).
+- **Interpretation forks become sibling propositions.** Where a point is open to interpretation, create one claim or statement per defensible option (invariant 5), linked by `interpretation_of` or a disambiguation, not "reading A / reading B" paragraphs in a note.
+- **Prose residue names its blocker.** Prose is legitimate for source-fidelity judgments, rejected interpretations with their reasons, and what cannot yet be typed. Each such residue says what encoding it would need: vocabulary, a source, or a judgment that cannot be encoded.
 
 ## Proof-seeking stance
 
@@ -314,7 +331,7 @@ Before requesting `@codex review`, apply the Review guidelines below to your own
 - conditions in the source (same-sense cause, restricted domain, "in any respect") survived into the Lean type;
 - any condition added is not attributed to a source that does not state it; it is an explicit, unattributed open premise.
 
-Each PR also reports its intended and actual change in root-path open premises (`corpus.py frontier --routes` for the per-route cost, `--reaching-root` for the premises), including "no change".
+Each PR also reports its intended and actual change in root-path open premises, including "no change". The actual change is computed, not hand-written: link or paste the output of `python3 scripts/corpus.py frontier-diff --base <merge-base>` (per-route costs and reaching-root premises added, removed, or moved between bare, supported, stated and closed, and the bare premises added; a relocation counts as progress only if it adds no bare premise, #987), which CI prints to the job summary for every PR.
 
 ## Review guidelines
 

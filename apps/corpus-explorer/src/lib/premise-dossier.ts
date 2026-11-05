@@ -21,7 +21,7 @@ export type PremiseDossier = {
   root: string;
   closure: ClosureReason | null;
   established: boolean;
-  frontier: { depth: "bare" | "sourced"; path_to_root: string[] | null } | null;
+  frontier: { depth: "bare" | "supported" | "stated"; path_to_root: string[] | null } | null;
   claim_ids: string[];
   supporting_claim_ids: string[];
   definition_ids: string[];
@@ -64,7 +64,7 @@ function dossier(value: unknown): value is PremiseDossier {
     || typeof value.established !== "boolean") {
     return false;
   }
-  if (value.frontier !== null && (!record(value.frontier) || !oneOf(["bare", "sourced"], value.frontier.depth)
+  if (value.frontier !== null && (!record(value.frontier) || !oneOf(["bare", "supported", "stated"], value.frontier.depth)
     || (value.frontier.path_to_root !== null && !strings(value.frontier.path_to_root)))) {
     return false;
   }
@@ -97,14 +97,41 @@ export function parseDossiers(value: unknown): Record<string, PremiseDossier> {
 }
 
 let cached: Record<string, PremiseDossier> | undefined;
+let cachedAttempts: Record<string, CorpusAttempt> | undefined;
+
+function loadDossierReport(target: string): unknown {
+  return JSON.parse(execFileSync("python3", ["scripts/corpus.py", "dossier", target, "--json"], {
+    cwd: path.resolve(process.cwd(), "../.."), encoding: "utf8", maxBuffer: 64 * 1024 * 1024,
+  }));
+}
+
+/** Resolve one real corpus dossier without building the full static-page index. */
+export function getDossier(statementId: string): PremiseDossier {
+  const value = loadDossierReport(statementId);
+  if (!dossier(value) || value.statement.id !== statementId) {
+    throw new Error(`Invalid dossier report for ${statementId}`);
+  }
+  return value;
+}
 
 /** Build once for all static pages; closure and route costs stay owned by corpus.py. */
 export function getDossiers(): Record<string, PremiseDossier> {
   if (!cached) {
-    const output: unknown = JSON.parse(execFileSync("python3", ["scripts/corpus.py", "dossier", "--all", "--json"], {
-      cwd: path.resolve(process.cwd(), "../.."), encoding: "utf8", maxBuffer: 64 * 1024 * 1024,
-    }));
-    cached = parseDossiers(output);
+    cached = parseDossiers(loadDossierReport("--all"));
   }
   return cached;
+}
+
+/** Each durable research attempt may be referenced by several premise dossiers. */
+export function getAttempts(): Record<string, CorpusAttempt> {
+  if (!cachedAttempts) {
+    const attempts: Record<string, CorpusAttempt> = {};
+    for (const dossier of Object.values(getDossiers())) {
+      for (const entry of dossier.attempts) {
+        attempts[entry.id] = entry;
+      }
+    }
+    cachedAttempts = attempts;
+  }
+  return cachedAttempts;
 }

@@ -1,4 +1,9 @@
-import TruthCore.Greek.Plato.ThirdMan.Sensitivity
+module
+
+public import TruthCore.Greek.Plato.ThirdMan.Sensitivity
+
+@[expose] public section
+
 namespace TruthCore.Results.Greek.Plato.ThirdMan.Sensitivity
 open TruthCore.Greek.Plato.Forms TruthCore.Greek.Plato.ThirdMan
 

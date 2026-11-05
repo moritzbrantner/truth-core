@@ -1,0 +1,8 @@
+{
+  "id": "DEF-COMPLETE-RESPONSE-PARITY",
+  "term": "matched observable response with distinct hidden causal records",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.CompleteResponseParity.MatchedObservations",
+  "definition": "Two stipulated Exercises on the same Boolean-pair scenario space have matching occurrence truth tables for the two public contributors and their effect, under the explicit correspondence single.a ↔ plural.0, single.b ↔ plural.1 and single.t ↔ plural.2. The models have different event and bearer carriers and separate record graphs; hidden events are not identified by this observation interface.",
+  "note": "Observable equality is neither equality of complete event structures nor causal or interventional equivalence. In the completed single-source control, root occurrence is true exactly when both inputs are true; the #735 plural control has no such common root. Both satisfy every recorded group's scenario-wide sufficiency and inductive Supply. Neither scenario sufficiency nor Supply establishes productive explanation. See docs/notes/joint-cooperation-744.md."
+}

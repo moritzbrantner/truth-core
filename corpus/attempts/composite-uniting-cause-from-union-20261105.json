@@ -1,0 +1,23 @@
+{
+  "id": "ATTEMPT-COMPOSITE-UNITING-CAUSE-FROM-UNION-20261105",
+  "date": "2026-11-05",
+  "statement_ids": [
+    "STMT-COMPOSITE-HAS-A-UNITING-CAUSE",
+    "STMT-COMPOSITE-HAS-TWO-DISTINCT-COMPONENTS",
+    "STMT-DIVERSE-COMPONENTS-UNITED-ONLY-BY-A-CAUSE",
+    "STMT-UNITING-CAUSE-IS-EFFICIENT",
+    "STMT-UNITING-CAUSE-CAUSES-COMPOSITE-BEING",
+    "STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF",
+    "STMT-COMPOSITE-HAS-COMPONENT-OTHER-THAN-ITSELF"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Issue #356, uniting-cause premise. Materialized and reread AQUINAS-ST-I-Q3-A7 in full and pinned AQUINAS-ST-I-Q11-A1 in the existing q.11 snapshot (same blob 41e38b54, TEI id TAca84-d1e103-Dd1e137). The existing claim's 'interpretive step' (the uniting cause is a cause, other than the composite, of its being) is split into typed premises over the existing q.3 a.7 ComponentOf, the secunda via EfficientlyCausesIn and the quarta via CausesIn, plus a new Unites relation (DEF-UNITING-CAUSE, DISAMB-UNITING-CAUSE). Two distinct components come from q.11 a.1 (partes eius ... divisae); the uniting principle from q.3 a.7 tertio; uniter-is-efficient and uniter-causes-being were first attributed (tertio's appeal to God as first efficient cause; q.11 a.1 'non habet esse quandiu partes eius sunt divisae'), but Codex review on #983 (two P1s) found both strengthen their sentences: tertio does not classify every uniter as efficient, and q.11 a.1 gives union as a necessary condition of esse, not the uniter as its effective cause. Both are now unattributed bare premises. Distinctness c ≠ x is derived from the existing q.2 a.3 no-efficient-self-cause statement rather than assumed. The EXACT legacy CompositeHasAUnitingCauseReading is derived with zero axioms and Composite, CausesIn and esse left as parameters, so existing consumers are unchanged. Six Bool/Unit controls show each premise is needed and that the five are jointly satisfiable with a composite; the first also shows that the existing fifth-proof reading (one component other than itself) does not suffice. Rival location, not refutation: brute composition rejects the uniting principle; a self-uniting whole (priority monism's shape) rejects uniter-is-efficient or no-efficient-self-cause; composition without being-dependence (composition as identity, innocent fusion) rejects uniter-causes-being. Rejected: identifying EfficientlyCausesIn with CausesIn (DISAMB-CAUSE keeps them apart), a CausesIn irreflexivity read from q.3 a.4 'nulla res sufficit quod sit sibi causa essendi' (that sentence concerns sufficient self-causation, so the reading would strengthen it), and reading diversa as specific difference (the proof covers homogeneous wholes).",
+  "blocker": "All five premises are open: three sourced but undefended, two (uniter-is-efficient, uniter-causes-being) unattributed and bare; STMT-COMPOSITE-HAS-A-UNITING-CAUSE stays one sourced leaf under the route-cost rule until all are closed. A source stating either bridge in general form would make it sourced; candidates are SCG I.18 ('per aliquam causam unientem', not pinned) and a text identifying the cause of a whole's union with an efficient cause of its esse. STMT-NO-COMPONENT-IS-FIRST-BEING and STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS were not touched. Independent defense against the three rival shapes, and actual presence of the uniter (DISAMB-UNITING-CAUSE-ACTUALITY), remain open.",
+  "evidence": [
+    "COMPOSITE-UNITING-CAUSE-FROM-UNION",
+    "COMPOSITE-UNITING-CAUSE-CONTROLS",
+    "AQUINAS-ST-I-Q11-A1-COMPOSITE-PARTS-A",
+    "AQUINAS-ST-I-Q3-A7-DIVERSE-UNITED-BY-CAUSE"
+  ]
+}

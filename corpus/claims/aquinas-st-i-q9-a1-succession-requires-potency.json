@@ -1,0 +1,15 @@
+{
+  "id": "AQUINAS-ST-I-Q9-A1-SUCCESSION-REQUIRES-POTENCY",
+  "statement_id": "STMT-SUCCESSION-REQUIRES-POTENCY",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.9 a.1 co.: Omne autem quod quocumque modo mutatur, est aliquo modo in potentia",
+  "interpretation": "The first proof of God's immutability rests on the general principle that whatever is changed in any way is in some way in potency. Formalized only for succession: a living thing whose life-state differs between two times at which it lives is changed quocumque modo (q.10 a.1 co.: in every motion there is succession). 'Aliquo modo in potentia' is read as potency in the subject (the InPotency of PureAct), the sense q.9 a.1's own conclusion uses for God; q.9 a.2's mutability through a power in another is excluded (DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER). Beginning or ceasing to live is not claimed under this principle, since Aquinas denies that creation is a change properly speaking; that coverage is the separate unattributed premise STMT-LIFE-BOUNDARY-REQUIRES-POTENCY.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-POTENCY",
+    "DEF-LIFE-PRESENT-AT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER"
+  ]
+}

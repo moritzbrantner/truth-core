@@ -3,7 +3,7 @@ import Link from "next/link";
 import { getCorpus } from "@/lib/corpus";
 
 export default function SourcesPage() {
-  const sources = getCorpus().sources.sort(
+  const sources = [...getCorpus().sources].sort(
     (left, right) => left.author.localeCompare(right.author) || left.work.localeCompare(right.work),
   );
 

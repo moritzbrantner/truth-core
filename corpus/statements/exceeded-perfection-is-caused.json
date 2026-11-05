@@ -1,0 +1,14 @@
+{
+  "id": "STMT-EXCEEDED-PERFECTION-IS-CAUSED",
+  "paraphrase": "Whatever has a perfection and is exceeded in it by something has that perfection from a cause distinct from itself. The cause is not required to have the perfection, to be more such, or to be the exceeding thing. An unattributed bridge: no source read here says that being exceeded in an arbitrary perfection is having it by participation.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.ExceededPerfectionIsCausedReading",
+  "definition_ids": [
+    "DEF-MORE-IN",
+    "DEF-ACT",
+    "DEF-CAUSE-OF-PERFECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE",
+    "DISAMB-BEING-UNIVOCITY"
+  ]
+}

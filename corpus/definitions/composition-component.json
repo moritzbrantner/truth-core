@@ -1,0 +1,8 @@
+{
+  "id": "DEF-COMPOSITION-COMPONENT",
+  "term": "component of a composite (componens; Lean `ComponentOf`)",
+  "definition": "`ComponentOf a x`: a is one of the things x is composed of, whether a quantitative part, matter or form, essence or esse, or another principle of the q.3 a.7 enumeration. Components are quantified over the same domain as the composite. `a ≠ b` for two components is numerical distinctness, the sense in which the parts of a homogeneous whole are diverse (q.3 a.7 co., fifth proof: pars aquae est aqua).",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.CompositeHasComponentOtherThanItselfReading",
+  "note": "Stipulated from the existing q.3 a.7 vocabulary (TruthCore/Latin/Aquinas/SummaTheologiae/PrimaPars/Question3/Article7.lean), where ComponentOf is a parameter. Aquinas uses componentes (second proof) and partes (fourth proof; q.11 a.1) without defining them. Placing matter/form and essence/esse principles in the same Being domain as wholes is a modelling choice, not a claim that they are complete beings. A source would be a text defining componentes across the kinds of composition."
+}

@@ -6,6 +6,7 @@ import { useMemo, useState } from "react";
 
 import { selectedConfiguration } from "@/lib/configuration-selection";
 import type { VerifiedConfigurationBundle, VerifiedConfigurationCase } from "@/lib/verified-configurations";
+import type { FrontierDepth } from "@/lib/site-state";
 
 import {
   certifiedCores, certifiedMosaic, frontierTiles, routeImpact,
@@ -208,11 +209,23 @@ function MosaicView({ cases, producer, registrations, selectedCase, changeCase, 
   </div>;
 }
 
+const DEPTH_BADGE: Record<FrontierDepth | "proved_unestablished", string> = {
+  bare: styles.bareBadge,
+  supported: styles.supportedBadge,
+  stated: styles.statedBadge,
+  proved_unestablished: styles.unestablishedBadge,
+};
+
+const TREE_TILE: Record<FrontierDepth, string> = {
+  bare: styles.treeBare,
+  supported: styles.treeSupported,
+  stated: styles.treeStated,
+};
+
 function RouteView({ model, selectedRouteId, selectRoute }: { model: AtlasModel; selectedRouteId: string | null; selectRoute: (id: string) => void }) {
   const routes = model.routes;
   const selected = routes.find((route) => route.argument_id === selectedRouteId) ?? routes.find((route) => route.designated) ?? routes[0];
   const max = Math.max(1, ...routes.map((route) => route.cost));
-  const premiseDepth = new Map(model.premises.map((item) => [item.id, item.depth]));
   return <div className={styles.viewBody}>
     <div className={styles.metricStrip}>
       <div><span>Recorded root routes</span><strong>{routes.length}</strong></div>
@@ -222,12 +235,12 @@ function RouteView({ model, selectedRouteId, selectRoute }: { model: AtlasModel;
     <div className={styles.routeLayout}>
       <section className={styles.panel} aria-label="Compare conditional proof routes">
         <div className={styles.panelHeading}><span>Alternative routes / open premise burden</span><span>{routes.length} recorded</span></div>
-        <div className={styles.barKey}><span><i className={styles.bareSwatch} /> Bare open</span><span><i className={styles.sourcedSwatch} /> Sourced open</span><span><i className={styles.unestablishedSwatch} /> Proved, unestablished</span></div>
+        <div className={styles.barKey}><span><i className={styles.bareSwatch} /> Bare open</span><span><i className={styles.supportedSwatch} /> Supported open</span><span><i className={styles.statedSwatch} /> Stated open</span><span><i className={styles.unestablishedSwatch} /> Proved, unestablished</span></div>
         <div className={styles.routeRows}>{routes.map((route, index) => <button type="button" className={`${styles.routeRow} ${selected?.argument_id === route.argument_id ? styles.selectedRoute : ""}`}
           key={route.argument_id} aria-pressed={selected?.argument_id === route.argument_id} onClick={() => selectRoute(route.argument_id)}>
           <span className={styles.routeIndex}>{String(index + 1).padStart(2, "0")}</span>
           <span className={styles.routeRowBody}><span className={styles.routeName}>{compactId(route.argument_id)}</span>
-            <span className={styles.routeBarTrack}><span className={styles.routeBare} style={{ width: `${100 * route.bare / max}%` }} /><span className={styles.routeSourced} style={{ width: `${100 * route.sourced / max}%` }} /><span className={styles.routeUnestablished} style={{ width: `${100 * route.provedUnestablished / max}%` }} /></span>
+            <span className={styles.routeBarTrack}><span className={styles.routeBare} style={{ width: `${100 * route.bare / max}%` }} /><span className={styles.routeSupported} style={{ width: `${100 * route.supported / max}%` }} /><span className={styles.routeStated} style={{ width: `${100 * route.stated / max}%` }} /><span className={styles.routeUnestablished} style={{ width: `${100 * route.provedUnestablished / max}%` }} /></span>
           </span>
           <strong className={styles.routeCost}>{route.cost}</strong>
         </button>)}</div>
@@ -237,11 +250,11 @@ function RouteView({ model, selectedRouteId, selectRoute }: { model: AtlasModel;
         <div className={styles.panelHeading}><span>Selected route</span><span>{selected.cheapest ? "Lowest cost" : selected.designated ? "Designated" : "Alternative"}</span></div>
         <h3 className={styles.routeTitle}>{compactId(selected.argument_id)}</h3>
         <p className={styles.panelNote}>{selected.label}</p>
-        <div className={styles.routeSummary}><div><strong>{selected.cost}</strong><span>route leaves</span></div><div><strong>{selected.bare}</strong><span>bare</span></div><div><strong>{selected.sourced}</strong><span>sourced</span></div><div><strong>{selected.provedUnestablished}</strong><span>proved, unestablished</span></div></div>
+        <div className={styles.routeSummary}><div><strong>{selected.cost}</strong><span>route leaves</span></div><div><strong>{selected.bare}</strong><span>bare</span></div><div><strong>{selected.supported}</strong><span>supported</span></div><div><strong>{selected.stated}</strong><span>stated</span></div><div><strong>{selected.provedUnestablished}</strong><span>proved, unestablished</span></div></div>
         <p className={styles.routeCaveat}>{selected.verified ? "Verified formal result" : "Formal verification not recorded"} · {selected.transcription ? "transcription-only" : "conditional derivation"} · {selected.proved_unestablished_statement_ids.length} proved but unestablished intermediates.</p>
         <Link href={model.argumentTargets[selected.argument_id]} className={styles.primaryAction}>Inspect argument and inferences ↗</Link>
         <details className={styles.evidenceDetails}><summary>Inspect all {selected.open_premise_statement_ids.length} route leaves</summary>
-          <ul className={styles.detailPremises}>{selected.open_premise_statement_ids.map((id) => <li key={id}><span className={premiseDepth.get(id) === "bare" ? styles.bareBadge : premiseDepth.get(id) === "sourced" ? styles.sourcedBadge : styles.unestablishedBadge}>{premiseDepth.get(id) ?? "proved, unestablished"}</span><Link href={`/statements/${id}`}>{id}</Link></li>)}</ul>
+          <ul className={styles.detailPremises}>{selected.open_premise_statement_ids.map((id) => <li key={id}><span className={DEPTH_BADGE[selected.open_premise_depths[id] ?? "proved_unestablished"]}>{selected.open_premise_depths[id] === "proved_unestablished" || !selected.open_premise_depths[id] ? "proved, unestablished" : selected.open_premise_depths[id]}</span><Link href={`/statements/${id}`}>{id}</Link></li>)}</ul>
         </details>
       </section> : null}
     </div>
@@ -252,14 +265,14 @@ function FrontierView({ model, selectedGroup, selectGroup }: { model: AtlasModel
   const [filter, setFilter] = useState("");
   const tiles = useMemo(() => frontierTiles(model.premises), [model.premises]);
   const active = tiles.find((tile) => tile.id === selectedGroup) ?? tiles[0];
-  const groups = [{ id: "root", label: "Reaches root", entries: tiles.slice(0, 2) }, { id: "other", label: "Other open premises", entries: tiles.slice(2) }];
+  const groups = [{ id: "root", label: "Reaches root", entries: tiles.slice(0, 3) }, { id: "other", label: "Other open premises", entries: tiles.slice(3) }];
   const filtered = active.premises.filter((premise) => `${premise.id} ${premise.label}`.toLowerCase().includes(filter.toLowerCase()));
   const sorted = [...filtered].sort((a, b) => b.dependentStatements.length - a.dependentStatements.length || a.id.localeCompare(b.id));
   return <div className={styles.viewBody}>
     <div className={styles.metricStrip}>
       <div><span>Open premise frontier</span><strong>{model.premises.length}</strong></div>
       <div><span>Root-reaching open</span><strong>{model.premises.filter((item) => item.rootReaching).length}</strong></div>
-      <div><span>With source claims</span><strong>{model.premises.filter((item) => item.depth === "sourced").length}</strong></div>
+      <div><span>Supported only / stated by a source</span><strong>{model.premises.filter((item) => item.depth === "supported").length} / {model.premises.filter((item) => item.depth === "stated").length}</strong></div>
     </div>
     <section className={styles.panel} aria-label="Open-premise treemap">
       <div className={styles.panelHeading}><span>Disjoint partitions of the open frontier</span><span>Area = count</span></div>
@@ -268,13 +281,13 @@ function FrontierView({ model, selectedGroup, selectGroup }: { model: AtlasModel
         return <div key={group.id} className={styles.treeGroup} style={{ flexGrow: total || 1 }}>
           <span className={styles.treeGroupTitle}>{group.label} · {total}</span>
           <div className={styles.treeGroupTiles}>{group.entries.map((tile) => <button type="button" key={tile.id}
-            className={`${styles.treeTile} ${tile.depth === "bare" ? styles.treeBare : styles.treeSourced} ${active.id === tile.id ? styles.treeActive : ""}`}
+            className={`${styles.treeTile} ${TREE_TILE[tile.depth]} ${active.id === tile.id ? styles.treeActive : ""}`}
             style={{ flexGrow: tile.count || 0.01 }} onClick={() => selectGroup(tile.id)} aria-pressed={active.id === tile.id}>
             <strong>{tile.count}</strong><span>{tile.depth}</span>
           </button>)}</div>
         </div>;
       })}</div>
-      <p className={styles.diagramFoot}>Each open premise appears exactly once. “Sourced” means it has recorded source claims; it does not mean justified or established. “Reaches root” means a recorded dependency path.</p>
+      <p className={styles.diagramFoot}>Each open premise appears exactly once. “Supported” means only a supports relation backs it (its note records what the source leaves unstated); “stated” means a source claim states it. Neither means justified or established. “Reaches root” means a recorded dependency path.</p>
     </section>
     <section className={styles.panel} aria-label="Selected frontier partition">
       <div className={styles.panelHeading}><span>{active.title}</span><span>{active.count} open premises</span></div>

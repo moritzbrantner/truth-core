@@ -14,6 +14,47 @@ For one owner-scoped thesis or argument (#565):
 
 Keep the readable case and rivals in its existing issue/note; keep proofs, sources, countermodels, and substantive attempts in their canonical records/dossiers. No parallel research registry. The [#565 pilot note](notes/argument-first-pilots-565.md) illustrates the method with #564 and #563.
 
+### Machine-checkable issue acceptance (#949)
+
+An issue can declare its completion evidence in **one** fenced block in its body
+or one designated comment. This is an optional reconciliation aid, not another
+corpus registry or a permission to close issues automatically:
+
+````markdown
+```truth-core-acceptance
+results: [RESULT-ID]
+theorems: [TruthCore.Namespace.theorem]
+statements: [STMT-ID: closed, STMT-OTHER: sourced]
+configurations: [CONFIG-ID]
+attempts: [ATTEMPT-ID]
+```
+````
+
+Each field is optional; at least one nonempty bracketed list is required. IDs
+are comma-separated and unquoted. `results` requires an existing
+`solution-present` result record. `theorems` requires a registered result's
+theorem and its corresponding source declaration in the checked-out revision.
+For statements, `closed` accepts any computed frontier closure, `proved`
+requires the non-transcription `proved` closure, and `sourced` requires an
+attributed source claim with a locator. Configuration and attempt IDs require
+records to exist; a failed attempt is **not** evidence of derivability.
+
+```bash
+python3 scripts/corpus.py issues                        # read-only gh issue list
+gh issue list --state open --limit 1000 --json number,title,body,url,comments > /tmp/truth-core-issues.json
+python3 scripts/corpus.py issues --from /tmp/truth-core-issues.json --json
+python3 scripts/corpus.py issues --from /tmp/truth-core-issues.json --for STMT-ID
+python3 scripts/corpus.py dossier STMT-ID --issues-from /tmp/truth-core-issues.json
+```
+
+The report distinguishes `delivered`, `missing`, `malformed` and `untracked`;
+its JSON includes a reverse index from canonical IDs to issue numbers. It is a
+read-only projection of the checked-out corpus and optional issue snapshot,
+not a live Lean/Comparator/source verification or proof of philosophical truth.
+Run it on `main` to reconcile the current main branch; a feature checkout
+reports that checkout's hypothetical state. Human/coordinator review decides
+whether an issue can actually close.
+
 ## Semantic grounding of metaphysical relations
 
 For newly introduced or substantially reinterpreted relations involving causation,
@@ -63,9 +104,9 @@ from that independent defense.
 
 Use `python3 scripts/corpus.py frontier --routes` and `--reaching-root`. Report exactly what changed for root-facing open premises, including **no change** for unconnected outposts.
 
-- An open premise is **bare** (no source claim/support) or **sourced but undefended**. First remove bare gaps, then independently defend sourced premises.
+- An open premise is **bare** (no source claim states or supports it), **supported** (only a `supports` relation backs it; its note records the gap) or **stated** (a source claim states it); supported and stated premises are undefended (#987). First remove bare gaps, then close the recorded gaps of supported premises and independently defend stated ones.
 - A transcription (`opaque_atoms`, `single_application`, `assembly`, `instantiation`) does not close an open conclusion; it propagates closure only when **all** its premises are closed. An alleged refutation counts only when verified **and** all its premises are closed.
-- Replacing one open premise with narrower leaves ("relocation") counts as progress only when **every** new leaf is sourced **and** needed by an omission countermodel.
+- Replacing one open premise with narrower leaves ("relocation") counts as progress only when it adds **no bare premise** (every new leaf is supported or stated; `frontier-diff` lists bare premises added) **and** every new leaf is needed by an omission countermodel. Report supported leaves as supported, not as stated (#987).
 - Neither source attribution, a conditional theorem, a narrative, nor an unverified model proves a premise. Preserve exact semantics, assumptions, and surviving rivals; see [configuration elimination](configuration-elimination-loop.md).
 
 ## 1. Campaign: a meaningful source objective

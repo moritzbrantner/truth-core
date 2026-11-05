@@ -8,5 +8,5 @@ out/
 coverage/
 .turbo/
 __pycache__/
-
 /target/
+/verifier/target/

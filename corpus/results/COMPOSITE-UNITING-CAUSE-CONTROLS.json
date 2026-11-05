@@ -1,0 +1,10 @@
+{
+  "id": "COMPOSITE-UNITING-CAUSE-CONTROLS",
+  "argument_id": "COMPOSITE-UNITING-CAUSE-CONTROLS",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.CompositeUnitingCauseControls.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.CompositeUnitingCauseControls.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.CompositeUnitingCauseControls.checks",
+  "comparator_config": "results/COMPOSITE-UNITING-CAUSE-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Six explicit Bool/Unit interpretations (the composite is true, causal respects Unit). In the five omission cases the other four premises hold and CompositeHasAUnitingCauseReading fails at the composite true:\n- omitting two-distinct-components: true has the single component false, so the existing fifth-proof reading (a component other than itself) still holds, and nothing unites or causes;\n- omitting the uniting-cause principle (the formal shape of brute composition): true has components false and true, and nothing unites them;\n- omitting uniter-is-efficient (the shape of a self-uniting whole, as in priority monism): true unites itself and causes its own being, but nothing is an efficient cause;\n- omitting uniter-causes-being (the shape of composition without causal dependence of being, as in composition as identity): false efficiently unites true but causes no being;\n- omitting no-efficient-self-cause: true efficiently unites itself and causes its own being.\nA sixth interpretation satisfies all five: false efficiently unites true and causes its being. The rival labels name only which premise each interpretation rejects; these are stipulated formal controls, not models of those theories or claims of metaphysical possibility."
+}

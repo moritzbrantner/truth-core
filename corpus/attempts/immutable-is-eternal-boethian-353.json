@@ -1,0 +1,22 @@
+{
+  "id": "ATTEMPT-IMMUTABLE-IS-ETERNAL-BOETHIAN-353",
+  "date": "2026-11-05",
+  "statement_ids": [
+    "STMT-IMMUTABLE-IS-ETERNAL",
+    "STMT-IMMUTABLE-IS-BOETHIAN-ETERNAL",
+    "STMT-SUCCESSION-REQUIRES-POTENCY",
+    "STMT-LIFE-BOUNDARY-REQUIRES-POTENCY",
+    "STMT-PURE-ACT-LIVES"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "#353: typed Boethian eternity (DEF-BOETHIAN-ETERNAL) over a duration frame, with q.18 a.3 newly pinned and q.9 a.1, q.10 a.1-2 reread. Derived the typed specialization STMT-IMMUTABLE-IS-BOETHIAN-ETERNAL from the q.9 a.1 succession principle, an open life-boundary premise and the open premise that pure act lives. Rejected (Codex P1 on PR #979): binding the result to STMT-IMMUTABLE-IS-ETERNAL by instantiating its primitive Eternal, since the root routes take Eternal separately and the joint model with primitive Eternal := False satisfies all premises (omission case 5); and attributing first-coming-to-be coverage to q.9 a.1, since Aquinas denies creation is a change (now the unattributed STMT-LIFE-BOUNDARY-REQUIRES-POTENCY, control boundaryPremiseNeeded). Also rejected: possession of life from q.10 a.1 ad 2 (it states eternal -> living, the converse); attributing pure-act-lives to q.18 a.3 (its ground is self-understanding; only a supports relation). Reuse check: the Physics change statements (STMT-CHANGE-ACTUALITY-OF-POTENTIAL and kin) have no time frame; STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY is about present MovedIn, not variation across times.",
+  "blocker": "STMT-IMMUTABLE-IS-ETERNAL stays open: closing it needs either a recognition premise (BoethianEternal implies primitive Eternal) or the root routes specialized to Eternal := BoethianEternal; that is an owner modelling decision. The three premises of the typed result remain open; obligation B (external conservation) and the perfecta/possessio connotations are not encoded; Boethius' Consolatio V is cited only through Aquinas.",
+  "evidence": [
+    "IMMUTABLE-IS-BOETHIAN-ETERNAL",
+    "AQUINAS-ST-I-Q9-A1-SUCCESSION-REQUIRES-POTENCY",
+    "AQUINAS-ST-I-Q10-A1-IMMUTABLE-NO-BEGINNING-END",
+    "AQUINAS-ST-I-Q18-A3-HIGHEST-LIFE",
+    "AQUINAS-ST-I-Q10-A1-BOETHIAN-DEFINITION"
+  ]
+}
