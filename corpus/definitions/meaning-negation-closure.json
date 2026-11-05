@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MEANING-NEGATION-CLOSURE",
+  "term": "meaningfulness closed under negation (strong and weak)",
+  "definition": "`MeaningClosedUnderNegation L meaningful` (strong): for every sentence s, if s is meaningful then its negation is meaningful. `MeaningClosedUnderNegationOfNegations L meaningful` (weak): for every s, if the negation of s is meaningful then its double negation is. `meaningful` is the pre-theoretic predicate (sense (2) of DISAMB-VERIFICATIONIST-MEANINGFUL), not a criterion's verdict.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.Verificationism.MeaningClosedUnderNegation",
+  "note": "Owner-approved floor items (2026-11-05, #1008), strong and weak siblings (#1017). Hempel's adequacy assumption, as SEP reports it, is the biconditional; both versions are parts of its left-to-right half."
+}

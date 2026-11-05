@@ -51,9 +51,12 @@ import TruthCore.Results.Logic.TruthPilot.SomePropositionHolds.Solution
 import TruthCore.Results.Logic.TruthPilot.StableExcludesGlobal.Solution
 import TruthCore.Results.Logic.Verificationism.Ayer1936Exclusion.Solution
 import TruthCore.Results.Logic.Verificationism.Ayer1936Trivial.Solution
+import TruthCore.Results.Logic.Verificationism.Ayer1946Closure.Solution
 import TruthCore.Results.Logic.Verificationism.Ayer1946Exclusion.Solution
 import TruthCore.Results.Logic.Verificationism.Ayer1946NegationClosed.Solution
 import TruthCore.Results.Logic.Verificationism.Church.Solution
+import TruthCore.Results.Logic.Verificationism.NegationClosureStrongWeak.Solution
 import TruthCore.Results.Logic.Verificationism.SelfApplication.Solution
+import TruthCore.Results.Logic.Verificationism.StrongVerificationClosure.Solution
 import TruthCore.Results.Logic.Verificationism.StrongVerificationLaws.Solution
 import TruthCore.Results.Logic.Verificationism.VerdictSilent.Solution

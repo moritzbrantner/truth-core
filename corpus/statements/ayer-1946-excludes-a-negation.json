@@ -1,0 +1,17 @@
+{
+  "id": "STMT-AYER-1946-EXCLUDES-A-NEGATION",
+  "paraphrase": "The V3 package: meaningfulness is literal meaningfulness by the 1946 criterion, the language has observation statements as Church's construction uses them, and some negated sentence (such as 'there is no god') is not meaningful. Unattributed as a package: the criterion is quoted in IEP-REL-LANG-2A-AYER-1946-CRITERION; Ayer's verdict on 'there is no god' (ch. VI) has no admissible witness.",
+  "lean_declaration": "TruthCore.Logic.Verificationism.Ayer1946ExcludesANegation",
+  "definition_ids": [
+    "DEF-AYER-1946-VERIFIABILITY",
+    "DEF-LITERAL-MEANINGFULNESS-1946",
+    "DEF-CHURCH-SENTENCE",
+    "DEF-VERIFICATION-PRINCIPLE",
+    "DEF-TRUTH-CONDITIONAL-LANGUAGE",
+    "DEF-EMPIRICIST-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-VERIFICATIONIST-MEANINGFUL",
+    "DISAMB-VERIFIABILITY-VARIANT"
+  ]
+}
