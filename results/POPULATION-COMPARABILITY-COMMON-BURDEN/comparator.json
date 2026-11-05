@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Ethics.PopulationComparability.Challenge",
+  "solution_module": "TruthCore.Results.Ethics.PopulationComparability.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Ethics.PopulationComparability.controls"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}
