@@ -1,6 +1,4 @@
-module
-public import TruthCore.Science.InductionSelection
-@[expose] public section
+import TruthCore.Science.InductionSelection
 namespace TruthCore.Results.Science.InductionSelection
 open TruthCore.Science.InductionSelection
 /-- Symmetry obstruction with nonvacuous alternatives and observed-data model. -/
