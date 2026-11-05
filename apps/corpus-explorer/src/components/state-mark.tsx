@@ -1,4 +1,4 @@
-import { CLOSURE_LABELS, type ResultKind, type StatementState } from "@/lib/site-state";
+import { CLOSURE_LABELS, FRONTIER_DEPTH_DESCRIPTIONS, type FrontierDepth, type ResultKind, type StatementState } from "@/lib/site-state";
 
 type Tone = "proved" | "conditional" | "self-evident" | "defended" | "transcription" | "open" | "source-only" | "objection";
 
@@ -34,8 +34,8 @@ export function StatementStateMark({ state }: { state: StatementState }) {
   }
   if (state.kind === "open") {
     return (
-      <Mark tone="open" title={state.item.depth === "bare" ? "No claim states it and no source supports it" : "Stated or supported by a source, not yet defended"}>
-        Open · {state.item.depth === "bare" ? "bare" : "sourced"}
+      <Mark tone="open" title={FRONTIER_DEPTH_DESCRIPTIONS[state.item.depth]}>
+        Open · {state.item.depth}
         {state.item.transcription_only ? " · transcribed only" : ""}
         {state.item.floor_unmet ? ` · ${state.item.floor_unmet.basis} criterion fails` : ""}
       </Mark>
@@ -54,6 +54,6 @@ export function ResultKindMark({ kind }: { kind: ResultKind }) {
   );
 }
 
-export function DepthMark({ depth }: { depth: "bare" | "sourced" }) {
-  return <Mark tone={depth === "bare" ? "objection" : "open"}>{depth}</Mark>;
+export function DepthMark({ depth }: { depth: FrontierDepth }) {
+  return <Mark tone={depth === "bare" ? "objection" : depth === "supported" ? "transcription" : "open"} title={FRONTIER_DEPTH_DESCRIPTIONS[depth]}>{depth}</Mark>;
 }

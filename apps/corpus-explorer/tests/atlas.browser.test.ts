@@ -65,7 +65,7 @@ test("atlas's five lenses use the current static reports, expose evidence, and p
   await navigation.getByRole("button", { name: /Frontier treemap/ }).click();
   await page.getByRole("region", { name: "Open-premise treemap" }).waitFor();
   await page.getByRole("region", { name: "Open-premise treemap" }).getByRole("button").last().click();
-  await page.waitForURL((url) => url.searchParams.get("group") === "other-sourced");
+  await page.waitForURL((url) => url.searchParams.get("group") === "other-stated");
 
   await navigation.getByRole("button", { name: /Impact waves/ }).click();
   await page.getByText("Hypothetical challenge / recorded dependencies").waitFor();

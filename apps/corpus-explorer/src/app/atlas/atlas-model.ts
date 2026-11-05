@@ -17,7 +17,8 @@ export type AtlasPremise = {
 export type AtlasRoute = RootRoute & {
   label: string;
   bare: number;
-  sourced: number;
+  supported: number;
+  stated: number;
   provedUnestablished: number;
 };
 
@@ -31,7 +32,7 @@ export type AtlasModel = {
 };
 
 export type AtlasTile = {
-  id: "root-bare" | "root-sourced" | "other-bare" | "other-sourced";
+  id: `${"root" | "other"}-${FrontierDepth}`;
   title: string;
   count: number;
   premises: AtlasPremise[];
@@ -59,7 +60,6 @@ export function buildAtlasModel(corpus: Corpus, report: FrontierReport, coreStat
     ...report.routes.routes.map((route) => route.argument_id),
     ...report.items.flatMap((item) => report.premise_dependents[item.statement_id]?.arguments ?? []),
   ]);
-  const depths = new Map(report.items.map((item) => [item.statement_id, item.depth]));
   const roots = new Set(report.reaching_root_statements);
   return {
     root: report.root,
@@ -78,9 +78,11 @@ export function buildAtlasModel(corpus: Corpus, report: FrontierReport, coreStat
     routes: report.routes.routes.map((route) => ({
       ...route,
       label: argumentsById[route.argument_id] ?? route.argument_id,
-      bare: route.open_premise_statement_ids.filter((id) => depths.get(id) === "bare").length,
-      sourced: route.open_premise_statement_ids.filter((id) => depths.get(id) === "sourced").length,
-      provedUnestablished: route.proved_unestablished_statement_ids.length,
+      // Route leaf depths come from corpus.py frontier (#987), not from the items.
+      bare: route.depth_counts.bare,
+      supported: route.depth_counts.supported,
+      stated: route.depth_counts.stated,
+      provedUnestablished: route.depth_counts.proved_unestablished,
     })),
     labels,
     argumentTargets: Object.fromEntries(corpus.arguments.filter((argument) => linkedArguments.has(argument.id)).map((argument) => [argument.id,
@@ -89,13 +91,15 @@ export function buildAtlasModel(corpus: Corpus, report: FrontierReport, coreStat
   };
 }
 
-/** Disjoint partitions: neither sourced/bare nor root-reachability is an epistemic score. */
+/** Disjoint partitions: neither source depth nor root-reachability is an epistemic score. */
 export function frontierTiles(premises: readonly AtlasPremise[]): AtlasTile[] {
   const groups = [
     { id: "root-bare", title: "Root-reaching · bare", rootReaching: true, depth: "bare" },
-    { id: "root-sourced", title: "Root-reaching · sourced", rootReaching: true, depth: "sourced" },
+    { id: "root-supported", title: "Root-reaching · supported", rootReaching: true, depth: "supported" },
+    { id: "root-stated", title: "Root-reaching · stated", rootReaching: true, depth: "stated" },
     { id: "other-bare", title: "Other · bare", rootReaching: false, depth: "bare" },
-    { id: "other-sourced", title: "Other · sourced", rootReaching: false, depth: "sourced" },
+    { id: "other-supported", title: "Other · supported", rootReaching: false, depth: "supported" },
+    { id: "other-stated", title: "Other · stated", rootReaching: false, depth: "stated" },
   ] as const;
   return groups.map((group) => {
     const matching = premises.filter((premise) => premise.rootReaching === group.rootReaching && premise.depth === group.depth);
