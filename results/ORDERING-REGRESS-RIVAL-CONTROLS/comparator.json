@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.OrderingCardinality.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.OrderingCardinality.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Explanation.OrderingCardinality.controls"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

@@ -1,0 +1,13 @@
+{
+  "id": "STMT-ORDERING-REGRESS-RIVAL-CONTROLS",
+  "paraphrase": "Closed R1–R3 and informational controls on the labeled enumeration semantics: the endpoint plus every immediate upstream link determines the arrangement; every such chain has an upstream predecessor at every node and is not well-founded; continuum-many Nat-to-Bool assignments coexist with an empty well-founded dependency relation on Unit; one ordinary induction reconstructs every position from the endpoint and applicable next-rule. Constant candidate information admits no entailing selector at any designated arrangement, whereas the full endpoint/link equality vector does. This establishes mathematical countercontrols to a cardinality-only argument for causal termination, not explanatory adequacy or causal realizability.",
+  "lean_declaration": "TruthCore.Explanation.OrderingCardinality.Controls",
+  "definition_ids": [
+    "DEF-LABELED-CHAIN-ARRANGEMENT",
+    "DEF-ARRANGEMENT-ENTAILING-SELECTION",
+    "DEF-HISTORY-SELECTION-INFORMATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-LABELED-ORDER-EXPLANATION"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "ATTEMPT-ORDERING-CARDINALITY-1003",
+  "statement_ids": [
+    "STMT-NO-INFINITE-REGRESS-OF-CAUSES-OF-A-PERFECTION",
+    "STMT-LABELED-ORDERING-CARDINALITY",
+    "STMT-ORDERING-REGRESS-RIVAL-CONTROLS",
+    "STMT-COMPLETE-CHAIN-EXPLANATION-SELECTS-ARRANGEMENT",
+    "STMT-COMPLETE-CHAIN-EXPLANATION-ALLOWS-UNSELECTED",
+    "STMT-ORDERING-FINITE-RULE-VERIFICATION"
+  ],
+  "date": "2026-11-05",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Issue #1003: establish the labeled mathematical cardinality claim and R1–R3 controls; the attempted inference to no infinite causal regress fails as a discriminator. Distinct transported omega orders are counted, not duplicate encodings or unlabeled types. Fixed endpoint plus all links determine the order; binary-vector abundance can accompany an empty well-founded dependency relation; finite induction reconstructs an infinite enumeration from a seed and rule. Constant evidence fails selection; complete endpoint/link facts pass the same test without thereby being explanatory. Rejected: cardinality as a quantity of unexplainedness, identical fixed links with independently permuted order, and the claim that infinite cases require infinite separate checking. The selection requirement and the nonselecting-explanation rival are explicit OPEN siblings. No new source claim or attribution to Leibniz, and no root-premise defense. Exact proof/interpretation boundaries are in docs/notes/ordering-cardinality-1003.md. A separate closed successor-recursion certificate verifies all values by finite induction without a universal test-outcome hypothesis. Verification: all three focused result builds pass; scoped binding reports 3 bound and 0 mismatches; Comparator and independent NanoDa accept all three frozen Challenges. Axiom probes match the permitted Mathlib policy (cardinality and controls use propext, Classical.choice and Quot.sound; finite-rule verification uses Quot.sound). Claim/type self-sweep preserves labeled-order scope, the fixed endpoint, abstract Unit omission, conditional reconstruction and the separate closed rule example; no target-causal-WF or adequacy claim follows. Computed frontier-diff against current main reports 90 open premises (30 bare, 18 supported, 42 stated), cheapest route 31, no change.",
+  "evidence": [
+    "ORDERING-CARDINALITY",
+    "ORDERING-REGRESS-RIVAL-CONTROLS",
+    "ORDERING-FINITE-RULE-VERIFICATION"
+  ],
+  "blocker": "Deriving the existing real causal WF premise still needs independently defended arrangement-explanation relevance, actual causal admissibility, rejection of nonnecessitating/intrinsic rivals, and a further bridge from explanatory demand to impossible infinite regress. A demand for explanation alone is not nonexistence. The existing supported target remains open."
+}

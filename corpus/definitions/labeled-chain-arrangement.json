@@ -1,0 +1,8 @@
+{
+  "id": "DEF-LABELED-CHAIN-ARRANGEMENT",
+  "term": "labeled countable chain arrangement",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.OrderingCardinality.Arrangement",
+  "definition": "An arrangement is a bijective enumeration e : Nat ≃ Nat of one fixed, rigid, countably infinite labeled roster. earlier e x y means the position of x is less than the position of y. next e x is the label one position farther upstream. chainData retains e 0 and every immediate upstream link. This gives an order of type omega, or omega-star on reversing the orientation; the enumeration positions are not physical times. generated is the finite Nat.rec program with zero and successor clauses; FiniteRule verifies all its values, and the identity enumeration successor equation.",
+  "note": "Owner idea #1003, mathematical semantics only. Example: swap labels 0 and 1 while retaining every other label; this changes the labeled order and links. A second description of the same bijection is not a new arrangement. All enumerations are isomorphic after forgetting labels, so this is not a count of unlabeled order types. earlier is irreflexive and transitive, but the immediate upstream relation is not transitive and has a predecessor at every node; the selected endpoint is not an upstream source. No grounding, efficient cause, metaphysical possibility or physical realization is inferred from these assignments. Whether rearrangements preserve real causal capacity, identity or admissibility is OPEN. The record reuses the existing mathematical graph/WF semantics without introducing a new metaphysical cause relation. See docs/notes/ordering-cardinality-1003.md."
+}

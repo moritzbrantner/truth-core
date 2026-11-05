@@ -1,0 +1,17 @@
+{
+  "id": "ORDERING-REGRESS-RIVAL-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-ORDERING-REGRESS-RIVAL-CONTROLS",
+  "inference_ids": [
+    "INF-ORDERING-REGRESS-RIVAL-CONTROLS"
+  ],
+  "meaning": "R1: reconstruct a bijective enumeration from its endpoint and complete successor table by Nat induction. R2: use Cardinal.mk_arrow for binary vectors and exhibit a well-founded empty Unit relation; every upstream enumeration chain instead has a predecessor at every node, refuting its WF. R3: the same finite inductive reconstruction proves the universal conditional rule. Reuse HistorySelection.EvidenceOnly literally: constant truth cannot distinguish a swapped-label rival, while all endpoint/link equality facts determine the arrangement. These are structural and informational controls, not a proof of complete explanation or a defeat of an actual worldview.",
+  "definition_ids": [
+    "DEF-LABELED-CHAIN-ARRANGEMENT",
+    "DEF-ARRANGEMENT-ENTAILING-SELECTION",
+    "DEF-HISTORY-SELECTION-INFORMATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-LABELED-ORDER-EXPLANATION"
+  ]
+}

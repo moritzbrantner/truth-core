@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.OrderingCardinality.FiniteRule.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.OrderingCardinality.FiniteRule.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Explanation.OrderingCardinality.FiniteRule.verifies"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

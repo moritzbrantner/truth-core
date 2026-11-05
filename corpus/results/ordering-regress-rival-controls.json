@@ -1,0 +1,10 @@
+{
+  "id": "ORDERING-REGRESS-RIVAL-CONTROLS",
+  "argument_id": "ORDERING-REGRESS-RIVAL-CONTROLS",
+  "challenge_module": "TruthCore.Results.Explanation.OrderingCardinality.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.OrderingCardinality.Solution",
+  "theorem": "TruthCore.Results.Explanation.OrderingCardinality.controls",
+  "comparator_config": "results/ORDERING-REGRESS-RIVAL-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "R1: reconstruct a bijective enumeration from its endpoint and complete successor table by Nat induction. R2: use Cardinal.mk_arrow for binary vectors and exhibit a well-founded empty Unit relation; every upstream enumeration chain instead has a predecessor at every node, refuting its WF. R3: the same finite inductive reconstruction proves the universal conditional rule. Reuse HistorySelection.EvidenceOnly literally: constant truth cannot distinguish a swapped-label rival, while all endpoint/link equality facts determine the arrangement. These are structural and informational controls, not a proof of complete explanation or a defeat of an actual worldview. All philosophical adequacy/admissibility bridges remain open; no root premise is discharged."
+}
