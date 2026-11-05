@@ -38,11 +38,20 @@ This is a moral policy, not a transition law supplied by scenario description. -
 def Retention (s : Case) : Prop :=
   s.duty .before .originalReturn → s.duty .after .originalReturn
 
-/-- Strict chronological future in this three-stage finite example. -/
+/-- Strict chronological future in this three-stage finite example. Nested
+exhaustive cases avoid the `propext` dependency that Lean generates for an
+overlapping multi-discriminant proposition match; the truth table is unchanged. -/
 def laterFrame : Frame Stage := ⟨fun t u =>
-  match t, u with
-  | .before, .after | .before, .later | .after, .later => True
-  | _, _ => False⟩
+  match t with
+  | .before => match u with
+    | .before => False
+    | .after => True
+    | .later => True
+  | .after => match u with
+    | .before => False
+    | .after => False
+    | .later => True
+  | .later => False⟩
 def FutureCan (s : Case) (t : Stage) (a : Action) : Prop :=
   Can laterFrame t (fun u => s.able u a)
 def FutureOIC (s : Case) : Prop := ∀ a, s.duty .after a → FutureCan s .after a
