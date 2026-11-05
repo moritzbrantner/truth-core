@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-ESSE-LIMITATION",
+  "term": "limitation of esse versus represented limiting principle",
+  "sense_definition_ids": [
+    "DEF-ESSE-LIMITED",
+    "DEF-HAS-LIMITING-PRINCIPLE"
+  ],
+  "resolution": "EsseLimited (DEF-ESSE-LIMITED) is limitation of a thing's esse in formal perfection, the q.7 notion. HasLimitingPrinciple (DEF-HAS-LIMITING-PRINCIPLE) is the analyst's three-disjunct proxy of composition, esse other than essence, or a prior being. No result identifies them or derives one from the other; SUBSISTENT-INFINITY-FROM-RECEPTION uses only EsseLimited. Neither is quantitative finitude (DISAMB-INFINITY)."
+}

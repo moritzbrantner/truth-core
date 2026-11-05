@@ -1,0 +1,17 @@
+{
+  "id": "AQUINAS-DE-ENTE-C3-RECEIVER-NOT-RECEIVED",
+  "statement_id": "STMT-RECEIVER-IS-NOT-THE-RECEIVED-ESSE",
+  "source_id": "AQUINAS-DE-ENTE-ET-ESSENTIA",
+  "locator": "cap.3 [69874]: Omne autem quod recipit aliquid ab alio est in potentia respectu illius, et hoc quod receptum est in eo est actus eius",
+  "interpretation": "Whatever receives something from another is in potency with respect to it, and what is received in it is its act. Read as: when a thing's esse is received in a principle, that principle is not the esse itself, so no esse is received in itself. The sentence correlates receiver as potency with received as act; that this correlation requires two distinct principles is the reading's added step, open and not stated in the sentence. The source then applies the correlation to intelligences whose essence/esse distinction it has already argued, so the passage does not independently defend the step against a proposed self-receiving esse (ATTEMPT-SUBSISTENT-INFINITY-RECEPTION-AUDIT-20261031). 'From another' (causal origin) is not formalized: only reception in a principle is.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ESSE-RECEIVED-IN",
+    "DEF-ESSE",
+    "DEF-ESSENCE-THOMISTIC-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSE-RECEPTION",
+    "DISAMB-ESSENCE"
+  ]
+}

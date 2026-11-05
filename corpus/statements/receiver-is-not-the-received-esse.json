@@ -1,0 +1,14 @@
+{
+  "id": "STMT-RECEIVER-IS-NOT-THE-RECEIVED-ESSE",
+  "paraphrase": "For every being x and principle r: if the esse of x is received in r, then r is not the esse of x itself. No esse is received in itself.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.DeEnte.ReceiverIsNotTheReceivedEsseReading",
+  "definition_ids": [
+    "DEF-ESSE-RECEIVED-IN",
+    "DEF-ESSE",
+    "DEF-ESSENCE-THOMISTIC-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSE-RECEPTION",
+    "DISAMB-ESSENCE"
+  ]
+}

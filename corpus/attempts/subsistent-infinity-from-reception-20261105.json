@@ -1,0 +1,23 @@
+{
+  "id": "ATTEMPT-SUBSISTENT-INFINITY-FROM-RECEPTION-20261105",
+  "date": "2026-11-05",
+  "statement_ids": [
+    "STMT-SUBSISTENT-BEING-IS-INFINITE",
+    "STMT-ESSE-LIMITED-ONLY-THROUGH-RECEPTION",
+    "STMT-ESSE-RECEIVED-IN-OWN-ESSENCE",
+    "STMT-RECEIVER-IS-NOT-THE-RECEIVED-ESSE",
+    "STMT-UNLIMITED-ESSE-IS-INFINITE"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Issue #354 follow-up to ATTEMPT-SUBSISTENT-INFINITY-RECEPTION-AUDIT-20261031, taking its three design obligations as explicit typed premises rather than waiting for their independent defense. Materialized and reread AQUINAS-ST-I-Q7-A1, AQUINAS-ST-I-Q7-A2 and AQUINAS-DE-ENTE-C3-4. Obligation (1), why identity of essence and esse excludes reception, is split into two sourced readings over one new respect-indexed relation EsseReceivedIn x r (x's esse received in principle r): every receiver of x's esse is x's essence (De ente c.4 [69875], 'ad capacitatem naturae recipientis'), and no receiver is the esse it receives (De ente c.3 [69874], receiver in potency, received its act). Obligation (2), receiver exhaustion, is the q.7 a.1 warrant restricted to esse: limited esse is received. Obligation (3), the adapter to the old primitive Infinite, is q.7 a.1 'infinitum dicitur ... non est finitum' with a.2: unlimited esse suffices for Infinite. The EXACT legacy SubsistentBeingIsInfiniteReading is derived (zero axioms) without changing its type or any consumer. Five Unit/Bool interpretations show each premise is needed and the four are jointly satisfiable with a limited, non-infinite received-esse being. The legacy not-both act/potency law and Composite are not used, so the actualized-receptive-potency boundary of the 2026-10-31 audit is respected.",
+  "blocker": "All four new premises are sourced but undefended. The weakest points are the two added reading steps flagged in their claims: that the receiver/received correlation of De ente c.3 requires two distinct principles (the passage applies it only after arguing the essence/esse distinction of intelligences), and the generalization of the receiving nature from created intellectual substances to every received esse. Receiver exhaustion for every limitation of esse is not argued in q.7 a.1. A rival who posits a self-receiving or otherwise limited unreceived esse is modelled, not refuted.",
+  "evidence": [
+    "SUBSISTENT-INFINITY-FROM-RECEPTION",
+    "SUBSISTENT-INFINITY-RECEPTION-CONTROLS",
+    "AQUINAS-ST-I-Q7-A1-ESSE-LIMITED-ONLY-THROUGH-RECEPTION",
+    "AQUINAS-ST-I-Q7-A1-UNLIMITED-ESSE-INFINITE",
+    "AQUINAS-DE-ENTE-C4-ESSE-RECEIVED-IN-NATURE",
+    "AQUINAS-DE-ENTE-C3-RECEIVER-NOT-RECEIVED"
+  ]
+}

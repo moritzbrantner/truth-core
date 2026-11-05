@@ -1,0 +1,14 @@
+{
+  "id": "STMT-ESSE-RECEIVED-IN-OWN-ESSENCE",
+  "paraphrase": "For every being x and principle r: if the esse of x is received in r, then r is the essence of x. It says nothing about reception of forms in matter, and does not assert that any esse is received.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.DeEnte.EsseReceivedInOwnEssenceReading",
+  "definition_ids": [
+    "DEF-ESSE-RECEIVED-IN",
+    "DEF-ESSE",
+    "DEF-ESSENCE-THOMISTIC-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSE-RECEPTION",
+    "DISAMB-ESSENCE"
+  ]
+}

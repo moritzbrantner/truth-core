@@ -1,0 +1,18 @@
+{
+  "id": "STMT-SUBSISTENT-INFINITY-RECEPTION-CONTROLS",
+  "paraphrase": "Five stipulated finite interpretations of the shared essence/esse/reception/limitation vocabulary. For each of STMT-ESSE-LIMITED-ONLY-THROUGH-RECEPTION, STMT-ESSE-RECEIVED-IN-OWN-ESSENCE, STMT-RECEIVER-IS-NOT-THE-RECEIVED-ESSE and STMT-UNLIMITED-ESSE-IS-INFINITE there is an interpretation where that reading fails, the other three hold, and STMT-SUBSISTENT-BEING-IS-INFINITE fails: a limited unreceived esse; an esse received in a principle other than the essence; an esse received in itself; nothing limited and nothing infinite. A fifth interpretation satisfies all four together and has a being whose esse is its essence and another whose esse differs from its essence, is received in that essence, is limited and is not infinite. These are formal interpretations, not claims that any is metaphysically possible.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.InfinityReception.Control.Certificate",
+  "definition_ids": [
+    "DEF-ESSE-LIMITED",
+    "DEF-ESSE-RECEIVED-IN",
+    "DEF-INFINITE",
+    "DEF-ESSE",
+    "DEF-ESSENCE-THOMISTIC-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSE-RECEPTION",
+    "DISAMB-ESSE-LIMITATION",
+    "DISAMB-INFINITY",
+    "DISAMB-ESSENCE"
+  ]
+}

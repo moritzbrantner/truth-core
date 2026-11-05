@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ESSE-RECEIVED-IN",
+  "term": "reception of esse (EsseReceivedIn x r)",
+  "definition": "EsseReceivedIn x r: the act of being of x is received in the principle r, which stands to it as receiving potency to received act (De ente c.3 [69874], c.4 [69875]; ST I q.7 a.1-2). The relation is indexed to the esse of a particular thing; r ranges over the same Principle sort as essenceOf and esseOf of q.3 a.4. In Lean it is a parameter constrained only by the premises that use it.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Latin.Aquinas.DeEnte.EsseReceivedInOwnEssenceReading",
+  "note": "Structural properties are not built in: that a receiver is the thing's essence and that it is not the received esse are separate open premises (STMT-ESSE-RECEIVED-IN-OWN-ESSENCE, STMT-RECEIVER-IS-NOT-THE-RECEIVED-ESSE), each shown necessary by STMT-SUBSISTENT-INFINITY-RECEPTION-CONTROLS. Examples: per De ente c.4, an intelligence's esse is received in its quiddity. Non-examples: a form received in matter (a different act and receiver), a quality in a subject, and an efficient cause giving esse 'from another' (DISAMB-ESSE-RECEPTION). OPEN: whether reception of esse is a real constitution of its bearer and its relation to the Composite predicate, as recorded in docs/notes/causal-perfection-transfer.md. What would source it as a definition: a passage defining reception of esse rather than applying it."
+}

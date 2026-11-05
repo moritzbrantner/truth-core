@@ -1,0 +1,10 @@
+{
+  "id": "SUBSISTENT-INFINITY-RECEPTION-CONTROLS",
+  "argument_id": "SUBSISTENT-INFINITY-RECEPTION-CONTROLS",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.SubsistentInfinityReceptionControls.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.SubsistentInfinityReceptionControls.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.SubsistentInfinityReceptionControls.checks",
+  "comparator_config": "results/SUBSISTENT-INFINITY-RECEPTION-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Five explicit Unit/Bool interpretations of the reception vocabulary. Omitting limitation-only-through-reception: one being with limited, unreceived esse, not infinite. Omitting reception-in-own-essence: esse false received in principle true. Omitting receiver-is-not-the-received-esse: one principle receiving itself. Omitting unlimited-esse-is-infinite: nothing limited, received or infinite. In each the other three readings hold and SubsistentBeingIsInfiniteReading fails at a being whose esse equals its essence. A fifth interpretation satisfies all four readings with a being whose esse is its essence and a being whose esse differs from its essence, is received in it, is limited and is not infinite. Stipulated formal controls only; no metaphysical possibility or rival source reading is claimed."
+}

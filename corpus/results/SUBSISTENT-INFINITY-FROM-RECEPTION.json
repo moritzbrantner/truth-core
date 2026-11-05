@@ -1,0 +1,10 @@
+{
+  "id": "SUBSISTENT-INFINITY-FROM-RECEPTION",
+  "argument_id": "SUBSISTENT-INFINITY-FROM-RECEPTION",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.SubsistentInfinityFromReception.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.SubsistentInfinityFromReception.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.SubsistentInfinityFromReception.subsistentBeingIsInfinite",
+  "comparator_config": "results/SUBSISTENT-INFINITY-FROM-RECEPTION/comparator.json",
+  "status": "solution-present",
+  "description": "Derive the EXACT existing SubsistentBeingIsInfiniteReading (for every x, esseOf x = essenceOf x implies Infinite x) from four typed reception readings over the same essenceOf/esseOf maps and the same primitive Infinite. Take x whose esse is its essence and suppose its esse is limited. By limitation-only-through-reception (q.7 a.1) its esse is received in some principle r; by reception-in-own-essence (De ente c.4) r is the essence of x, which equals its esse; this contradicts receiver-is-not-the-received-esse (De ente c.3). So the esse of x is not limited, and by unlimited-esse-is-infinite (q.7 a.1-2) x is infinite. No premise contains the conclusion: identity of essence and esse appears in none of them, and STMT-SUBSISTENT-INFINITY-RECEPTION-CONTROLS shows each is needed. All four premises remain open, sourced but undefended; the derivation does not establish that any of them is true, that anything's esse is its essence, or that any being is infinite."
+}
