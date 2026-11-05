@@ -66,12 +66,13 @@ def DiverseUnitedOnlyThroughUnitingCauseReading {Being : Sort u}
 
 /-- A uniting cause is an efficient cause of what it unites, in some respect.
 
-Read from SCG I.18 n.4 (*Componens autem est causa efficiens compositi*), where
-the *componens* is that by which things plural in themselves are united into
-one (claim `AQUINAS-SCG-I-18-COMPOSER-IS-EFFICIENT-CAUSE`). ST I q.3 a.7 co.,
-third proof, motivates but does not state it. Only "in some respect" is
-asserted, weaker than the source's efficient cause of the composite and the
-weakest form that the *secunda via*'s exclusion of self-causation can use.
+Unattributed open premise. SCG I.18 n.4 (*Componens autem est causa efficiens
+compositi*) supports it but has no temporal qualifier, while
+`EfficientlyCausesIn` is efficient causing here and now, so a past composer is
+not covered (relation `REL-AQUINAS-SCG-I-18-SUPPORTS-UNITING-CAUSE-IS-EFFICIENT`).
+ST I q.3 a.7 co., third proof, motivates but does not state it. Only "in some
+respect" is asserted, the weakest form that the *secunda via*'s exclusion of
+self-causation can use.
 -/
 def UnitingCauseIsEfficientCauseReading {Being : Sort u} {Respect : Sort v}
     (Unites : Being → Being → Being → Being → Prop)

@@ -1,6 +1,6 @@
 {
   "id": "STMT-UNITING-CAUSE-IS-EFFICIENT",
-  "paraphrase": "Open premise: whatever unites two things into x is an efficient cause of x in some respect. Stated by SCG I.18 n.4, Componens autem est causa efficiens compositi, where the componens is that by which things plural in themselves are united into one (claim AQUINAS-SCG-I-18-COMPOSER-IS-EFFICIENT-CAUSE); the premise asserts only efficient causing in some respect, weaker than the source's efficient cause of the composite. ST I q.3 a.7 co., third proof, motivates but does not state it.",
+  "paraphrase": "Open premise: whatever unites two things into x is an efficient cause of x in some respect. Unattributed. SCG I.18 n.4, Componens autem est causa efficiens compositi, supports but does not state it: the source has no temporal qualifier, while EfficientlyCausesIn is efficient causing here and now (relation REL-AQUINAS-SCG-I-18-SUPPORTS-UNITING-CAUSE-IS-EFFICIENT). ST I q.3 a.7 co., third proof, motivates but does not state it.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7Uniting.UnitingCauseIsEfficientCauseReading",
   "definition_ids": [
     "DEF-UNITING-CAUSE",

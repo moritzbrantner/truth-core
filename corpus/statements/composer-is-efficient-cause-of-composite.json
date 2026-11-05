@@ -1,0 +1,10 @@
+{
+  "id": "STMT-COMPOSER-IS-EFFICIENT-CAUSE-OF-COMPOSITE",
+  "paraphrase": "Whatever composes a composite, uniting into one things that are plural in themselves, is an efficient cause of that composite, with no claim about when it causes. Time-neutral: unlike STMT-UNITING-CAUSE-IS-EFFICIENT, it does not say that the composer is an efficient cause here and now (DEF-EFFICIENT-CAUSING). Not encoded in Lean: an encoding needs a time-neutral efficient-cause relation, and the shared EfficientlyCausesIn is read at one time.",
+  "definition_ids": [
+    "DEF-UNITING-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNITING-CAUSE"
+  ]
+}
