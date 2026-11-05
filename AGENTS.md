@@ -331,7 +331,7 @@ Before requesting `@codex review`, apply the Review guidelines below to your own
 - conditions in the source (same-sense cause, restricted domain, "in any respect") survived into the Lean type;
 - any condition added is not attributed to a source that does not state it; it is an explicit, unattributed open premise.
 
-Each PR also reports its intended and actual change in root-path open premises, including "no change". The actual change is computed, not hand-written: link or paste the output of `python3 scripts/corpus.py frontier-diff --base <merge-base>` (per-route costs and reaching-root premises added, removed, or moved between bare, sourced-undefended and closed), which CI prints to the job summary for every PR.
+Each PR also reports its intended and actual change in root-path open premises, including "no change". The actual change is computed, not hand-written: link or paste the output of `python3 scripts/corpus.py frontier-diff --base <merge-base>` (per-route costs and reaching-root premises added, removed, or moved between bare, supported, stated and closed, and the bare premises added; a relocation counts as progress only if it adds no bare premise, #987), which CI prints to the job summary for every PR.
 
 ## Review guidelines
 

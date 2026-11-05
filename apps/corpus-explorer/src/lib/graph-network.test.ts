@@ -101,3 +101,11 @@ test("real corpus: bounded settled layout for 1000+ statements", () => {
   expect(structure.positions.size).toBe(corpus.statements.length + corpus.inferences.length);
   expect([...structure.positions.values()].every((point) => Number.isFinite(point.x) && Number.isFinite(point.y))).toBe(true);
 }, 30000);
+
+test("a saved pre-#987 frontier-sourced closure filter selects both supported and stated", () => {
+  expect(parseGraphState(new URLSearchParams("closure=frontier-sourced&closure=frontier-bare")).closure).toEqual([
+    "frontier-supported",
+    "frontier-stated",
+    "frontier-bare",
+  ]);
+});

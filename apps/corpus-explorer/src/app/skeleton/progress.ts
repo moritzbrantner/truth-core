@@ -1,6 +1,6 @@
 import type { Corpus } from "@/lib/corpus";
 import type { ResearchObligation } from "@/lib/research-frontier";
-import { resultKind, type FrontierReport } from "@/lib/site-state";
+import { FRONTIER_DEPTHS, resultKind, type FrontierReport } from "@/lib/site-state";
 
 type ProgressCorpus = Pick<Corpus, "arguments" | "inferences" | "results" | "relations" | "statements">;
 
@@ -13,7 +13,7 @@ export function skeletonProgress(
   const established = new Set(report.established_statements);
   const open = report.items
     .filter((item) => item.path_to_root !== null)
-    .sort((a, b) => Number(a.depth !== "bare") - Number(b.depth !== "bare") || a.statement_id.localeCompare(b.statement_id));
+    .sort((a, b) => FRONTIER_DEPTHS.indexOf(a.depth) - FRONTIER_DEPTHS.indexOf(b.depth) || a.statement_id.localeCompare(b.statement_id));
   const openFor = (id: string) => open.filter(
     (item) => item.statement_id === id || item.transitive_dependent_statements.includes(id),
   );
