@@ -1,0 +1,10 @@
+{
+  "id": "EPISTEMIC-NIHILISM-SELF-UNDERMINING",
+  "argument_id": "EPISTEMIC-NIHILISM-SELF-UNDERMINING",
+  "challenge_module": "TruthCore.Results.Logic.EpistemicNihilismRetorsion.Challenge",
+  "solution_module": "TruthCore.Results.Logic.EpistemicNihilismRetorsion.Solution",
+  "theorem": "TruthCore.Results.Logic.EpistemicNihilismRetorsion.nihilismSelfUndermining",
+  "comparator_config": "results/EPISTEMIC-NIHILISM-SELF-UNDERMINING/comparator.json",
+  "status": "solution-present",
+  "description": "Zero-axiom. The retorsion itself is a one-step instantiation of nihilism at its own content; its weight is in the two companion theorems: a reasoned belief in nihilism refutes its content, and an interpretation certifies that nihilism can hold while no one has a reason to believe it. Self-undermining, not falsity; it refutes nothing."
+}
