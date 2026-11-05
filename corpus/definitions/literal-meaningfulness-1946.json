@@ -4,5 +4,5 @@
   "definition": "`LiterallyMeaningful1946 F s`: s is analytic or empirically verifiable in the 1946 sense.",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Logic.Verificationism.LiterallyMeaningful1946",
-  "note": "Analyst's typing for the #1008 verificationism showcase. Sourcing the criterion's wording to its proponent is a separate claim (attribution discipline, #989); the witness status is recorded in docs/ayer-verification-boundary.md and, for the other proponents, in the #1008 showcase sources."
+  "note": "Analyst's typing for the #1008 verificationism showcase. Sourcing the criterion's wording to its proponent is a separate claim (attribution discipline, #989); the witnesses are listed in docs/showcase-verificationism.md."
 }

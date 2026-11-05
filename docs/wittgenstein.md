@@ -15,7 +15,7 @@ readings, and a view developed by followers is not attributed to him.
 | Position | Variant and source | Class | Against which premise or floor item | Status |
 |---|---|---|---|---|
 | Wittgensteinian fideism, sharp form | WF-N: the critics' four theses (Nielsen 1967), `SEP-FIDEISM` §2.2.4 | rival | `STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE` (all 12 routes) | conditionally defeated as a description of Catholic practice (`WF-FAILS-AS-DESCRIPTION-OF-CATHOLIC-PRACTICE`); open premises, so not counted (#999) |
-| Early Phillips | WF-P1: God-talk refers to no object (1976), `SEP-RELIGIOUS-LANGUAGE` §4.1 | rival | `STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE`, `STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS`, `STMT-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD` (the nominal identification on every route) | recorded, not refuted |
+| Early Phillips | WF-P1: praise of God refers to no object (1976), `SEP-RELIGIOUS-LANGUAGE` §4.1; the stronger thesis that "God" names no being is an unattributed reconstruction it supports | rival (the reconstruction) | `STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE`, `STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS`, `STMT-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD` (the nominal identification on every route) | recorded, not refuted |
 | Late Phillips, religious minimalism | WF-P2: reference and truth constituted inside the game; outside evidence admissible, `SEP-RELIGIOUS-LANGUAGE` §§4.1-4.2; `SEP-FIDEISM` §2.2.4 | rival off-route (face value theory); neutral to route leaves | `STMT-FACE-VALUE-THEORY-RELIGIOUS-LANGUAGE` (no route premise) | recorded |
 | Nielsen's critique | insulation of every form of life, `SEP-RELIGIOUS-LANGUAGE` §4.2 | objection to WF-N | attacks `STMT-WF-RELIGION-CUT-OFF-FROM-SHARED-REASON` | recorded; not a defeat (#1007: "not preferable" is not falsity) |
 | On Certainty: doubt rests on what stands fast | §§115, 341 (German, `WITTGENSTEIN-UEBER-GEWISSHEIT`) | support (against global doubt only) | the global sceptical rival of any observation floor item; no specific item (F3, F4) | `WITTGENSTEIN-UNIVERSAL-DOUBT-FAILS`, conditional on the stated §341 premise |
@@ -48,7 +48,10 @@ Three variants are kept apart (`DEF-WITTGENSTEINIAN-FIDEISM`):
   and cut-off (`STMT-WF-RELIGION-CUT-OFF-FROM-SHARED-REASON`).
 - **WF-P1**, early Phillips: religious belief expresses a moral vision, and praise
   of God "does not refer to some object called God"
-  (`STMT-PHILLIPS-GOD-TALK-NOT-REFERENCE-TO-AN-OBJECT`).
+  (`STMT-PHILLIPS-GOD-TALK-NOT-REFERENCE-TO-AN-OBJECT`). This is a remark about
+  the activity of praise. The stronger thesis that the name "God" applies to no
+  being (`STMT-GOD-NAMES-NO-BEING-WF-P1`) is an unattributed reconstruction that
+  the remark only supports.
 - **WF-P2**, late Phillips and minimalism: "God" may be said to refer, but what
   reference, object and existence amount to must be shown in the religious
   context, and "true" has several senses
@@ -141,7 +144,8 @@ whole-worldview comparison, not falsity.
   signs answers to shared reason. Conditionally defeated, as above.
 - `STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE` (9 routes),
   `STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS` (1), `STMT-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD`
-  (3): rival `STMT-PHILLIPS-GOD-TALK-NOT-REFERENCE-TO-AN-OBJECT`. Unrefuted.
+  (3): rival `STMT-GOD-NAMES-NO-BEING-WF-P1`, the unattributed reconstruction of
+  WF-P1, which Phillips's reported remark only supports. Unrefuted.
   The parallel argument from *Dei Filius* ch. 1 and canons I.1-3 (God a
   substance really distinct from the world) needs a typed reference relation.
 

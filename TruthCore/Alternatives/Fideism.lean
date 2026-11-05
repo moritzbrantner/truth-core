@@ -28,9 +28,11 @@ them; none carries a built-in philosophical premise:
   (`DEF-NATURAL-REASON-SHARED`; contrasted in `DISAMB-NATURAL-REASON` with a
   practice-internal re-reading, `DEF-NATURAL-REASON-PRACTICE-INTERNAL`).
 
-Not formalized here: early Phillips's thesis that God-talk does not refer to an
-object (`STMT-PHILLIPS-GOD-TALK-NOT-REFERENCE-TO-AN-OBJECT`), recorded as a
-rival of the nominal-definition leaves. Blocker: a typed reference relation for
+Not formalized here: early Phillips's remark that praise does not refer to an
+object (`STMT-PHILLIPS-GOD-TALK-NOT-REFERENCE-TO-AN-OBJECT`), and the stronger,
+unattributed thesis it supports, that the name "God" applies to no being
+(`STMT-GOD-NAMES-NO-BEING-WF-P1`), recorded as a rival of the nominal-definition
+leaves. Blocker: a typed reference relation for
 "God" shared with those leaves.
 -/
 

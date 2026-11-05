@@ -95,3 +95,29 @@ necessary for the ethical theory. The strongest proposal reply and each
 self-application bridge must be recorded independently; the existing generic
 proofs need no restatement as new premises. No new inference was missing from
 the repository; the unsatisfied boundary is sourcing and interpretation.
+
+## Update 2026-11-05 (#1008)
+
+The verificationism showcase, `docs/showcase-verificationism.md`, partly
+resolves the source search above.
+
+**Newly pinned witnesses:**
+
+- **LSE PH201 course PDF.** It has an OCR text layer. Chapter I, pp. 18–21 of
+  the Penguin reprint, is pinned as source `AYER-LTL-PELICAN`.
+- **IEP "Religious Language" §2a.** It quotes the 1946 criterion (p. 13) and
+  ch. VI p. 144 verbatim, and is pinned as source `IEP-RELIGIOUS-LANGUAGE`.
+
+**Formal status:**
+
+- **The 1946 criterion.** It is now typed in Lean, and Church's
+  trivialization of it is proved premise-free (`CHURCH-1949-TRIVIALIZATION`).
+- **Self-application.** It is instantiated as
+  `VERIFICATIONISM-SELF-APPLICATION-DILEMMA`, with its three premises open.
+- **The proposal reply.** It is recorded as an attack on the scope premise
+  (`CARNAP-ESO-II-EXTERNAL-PRACTICAL`).
+
+**Still unpinned:**
+
+- **Chapter VI and Ayer's "definition" reply.** Neither has an admissible
+  witness.

@@ -1,0 +1,9 @@
+{
+  "id": "REL-AYER-LAWS-SUPPORTS-STRONG-VERIFICATION-EXCLUDES-LAWS",
+  "subject_kind": "claim",
+  "subject_id": "AYER-LTL-PELICAN-I-18-LAWS",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-STRONG-VERIFICATION-EXCLUDES-LAWS",
+  "note": "Gap: Ayer gives the informal reason (infinitely many cases, no finite series of observations). The Lean statement adds the analyst's setting (observation statements about finitely many individuals; independent variation) and the negation half, which Ayer does not state here."
+}

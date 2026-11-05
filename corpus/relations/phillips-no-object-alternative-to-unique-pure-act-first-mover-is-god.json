@@ -1,9 +1,9 @@
 {
   "id": "REL-PHILLIPS-NO-OBJECT-ALTERNATIVE-TO-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD",
   "subject_kind": "statement",
-  "subject_id": "STMT-PHILLIPS-GOD-TALK-NOT-REFERENCE-TO-AN-OBJECT",
+  "subject_id": "STMT-GOD-NAMES-NO-BEING-WF-P1",
   "predicate": "alternative_to",
   "object_kind": "statement",
   "object_id": "STMT-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD",
-  "note": "Class: rival account of what 'God' does in worship (WF-P1, early Phillips, reported by SEP-RELIGIOUS-LANGUAGE §4.1). It denies that the name applies to any being, so it is a rival to every nominal identification of God on the root routes. Not refuted: the sourced defeat WF-FAILS-AS-DESCRIPTION-OF-CATHOLIC-PRACTICE targets the cut-off thesis, and the parallel argument from Dei Filius ch. 1 and can. I.1-3 (God a substance really distinct from the world, the denial condemned) is not built (blocker: a typed reference relation). Phillips's later view (STMT-PHILLIPS-REALISM-CONCEPTS-RELIGION-INTERNAL) withdraws the denial of reference. No refutes relation."
+  "note": "Class: rival account of what 'God' does in worship, an unattributed reconstruction of WF-P1 (STMT-GOD-NAMES-NO-BEING-WF-P1): the name applies to no being, so the thesis rivals every nominal identification of God on the root routes. It is only supported by Phillips's reported remark that praise does not refer to some object called God (SEP-RELIGIOUS-LANGUAGE §4.1; REL-PHILLIPS-NO-OBJECT-SUPPORTS-GOD-NAMES-NO-BEING), which is narrower; no source states it, and Phillips's later view withdraws the denial of reference. Not refuted: the sourced defeat WF-FAILS-AS-DESCRIPTION-OF-CATHOLIC-PRACTICE targets the cut-off thesis, and the parallel argument from Dei Filius ch. 1 and can. I.1-3 (God a substance really distinct from the world, the denial condemned) is not built (blocker: a typed reference relation). No refutes relation."
 }

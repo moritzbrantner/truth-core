@@ -1,0 +1,28 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "WITTGENSTEIN-TLP-OGDEN",
+    "source_url": "https://www.gutenberg.org/files/5740/5740-pdf.pdf",
+    "retrieved_at": "2026-11-05T15:19:32Z",
+    "sha256": "sha256:c3d23024a96a24943bd4c87bdd85e543958cdb4d464a9ba51c40e41e18811951",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "Public domain in the US (1922 publication); Project Gutenberg License for the ebook. No Wayback fallback is pinned yet; the snapshot is fragile to live-page drift. Only hashes, locators and a short incipit are committed."
+  },
+  "passages": [
+    {
+      "id": "WITTGENSTEIN-TLP-6-52-7",
+      "locator": "6.521-7 (Ogden translation, printed p. 90)",
+      "claim_locator_prefixes": [
+        "6.53",
+        "6.54"
+      ],
+      "pdf_pages": {
+        "first": 92,
+        "last": 92
+      },
+      "text_sha256": "sha256:a6d9ae83d32c8e466d5a91fae33aed8bfe92744d0cfa006e89a7ecfdf5f56769",
+      "incipit": "TRACTATUS LOGICO-PHILOSOPHICUS the sense of life became clear, could not then"
+    }
+  ]
+}

@@ -4,5 +4,5 @@
   "definition": "`churchSentence o1 o2 o3 s` is (not-o1 and o2) or (o3 and not-s), the auxiliary premise of Church's 1949 review. `ChurchObservations F o1 o2 o3`: the three are observation statements, o1 does not entail o3, and o3 does not entail o2. Church's own hypothesis, that no one of the three taken alone entails any of the others, contains both non-entailments; the formalization uses only these two, so it is weaker than Church's hypothesis and the theorem correspondingly stronger.",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Logic.Verificationism.churchSentence",
-  "note": "Stipulative typing of Church's construction (Journal of Symbolic Logic 14, 1949, 52-53); the review is copyrighted; its wording is checked against a secondary verbatim quotation added with the #1008 showcase sources."
+  "note": "Stipulative typing of Church's construction as quoted verbatim in claim IEP-REL-LANG-2A-CHURCH (JSL 14, 1949, p. 53). The review itself is in copyright with no hosted copy."
 }
