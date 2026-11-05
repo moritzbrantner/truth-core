@@ -1,0 +1,11 @@
+{
+  "id": "INF-AQUINAS-ST-I-Q2-A3-SECOND-MOVERS-STRONG-ENTAILS-RELEVANT-RESPECT",
+  "input_statement_ids": [
+    "STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED"
+  ],
+  "output_statement_id": "STMT-SECOND-MOVERS-MOVE-AS-MOVED-IN-RELEVANT-RESPECT",
+  "rule": "constructive-proof",
+  "meaning": "The strong per se link reading entails the relevant-respect reading for the same relations: a second mover that moves only insofar as it is moved in some respect is in particular a per se link when it is moved in a respect relevant to its moving (the relevance condition is simply dropped). Registers the strength order between the two sibling readings of moventia secunda non movent nisi per hoc quod sunt mota (#151, #1017).",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

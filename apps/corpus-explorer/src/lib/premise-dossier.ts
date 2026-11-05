@@ -60,7 +60,7 @@ function dossier(value: unknown): value is PremiseDossier {
   if (!record(value) || !record(value.statement) || typeof value.statement.id !== "string"
     || typeof value.statement.paraphrase !== "string"
     || (value.statement.lean_declaration !== undefined && typeof value.statement.lean_declaration !== "string")
-    || typeof value.root !== "string" || (value.closure !== null && !oneOf(["proved", "self_evident", "alternatives_refuted", "via_transcription"], value.closure))
+    || typeof value.root !== "string" || (value.closure !== null && !oneOf(["proved", "self_evident", "alternatives_refuted", "via_strength", "via_transcription"], value.closure))
     || typeof value.established !== "boolean") {
     return false;
   }

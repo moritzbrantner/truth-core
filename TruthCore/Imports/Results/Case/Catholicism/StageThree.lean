@@ -3,3 +3,4 @@ import TruthCore.Results.Case.Catholicism.StageThree.CommissionAttestation.Solut
 import TruthCore.Results.Case.Catholicism.StageThree.Commissions.Solution
 import TruthCore.Results.Case.Catholicism.StageThree.DivineFounding.Solution
 import TruthCore.Results.Case.Catholicism.StageThree.FoundingScope.Solution
+import TruthCore.Results.Case.Catholicism.StageThree.FoundingScopeStrength.Solution

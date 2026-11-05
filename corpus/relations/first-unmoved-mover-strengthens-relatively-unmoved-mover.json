@@ -1,0 +1,10 @@
+{
+  "id": "REL-FIRST-UNMOVED-MOVER-STRENGTHENS-RELATIVELY-UNMOVED-MOVER",
+  "subject_kind": "statement",
+  "subject_id": "STMT-FIRST-UNMOVED-MOVER-CANNOT-BE-LACKING",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "STMT-RELATIVELY-UNMOVED-MOVER-CANNOT-BE-LACKING",
+  "verification_result_id": "AQUINAS-ST-I-Q2-A3-ABSOLUTE-READING-ENTAILS-RELATIVE",
+  "note": "The absolute (a nullo movetur) and relative (unmoved as mover of its series) conclusions of the two First Way readings (#151). The model-quantified premise-free fact AQUINAS-ST-I-Q2-A3-ABSOLUTE-CONCLUSION-ENTAILS-RELATIVE proves the same entailment in every motion model; this registration binds it to the two statements. No strictness countermodel is registered."
+}

@@ -20,5 +20,8 @@
   "disambiguation_ids": [
     "DISAMB-VERIFICATIONIST-MEANINGFUL",
     "DISAMB-VERIFIABILITY-VARIANT"
-  ]
+  ],
+  "strong_version_needed": {
+    "STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-STRONG": "The proof applies closure at y, an arbitrary sentence whose negation the rival says is not meaningful; the weak version applies closure only to a meaningful sentence that is itself a negation, which y need not be. No result shows the weak version insufficient; this is the reason the strong one is used."
+  }
 }

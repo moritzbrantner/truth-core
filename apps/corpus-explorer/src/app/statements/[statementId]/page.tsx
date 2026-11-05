@@ -48,6 +48,10 @@ export default async function StatementPage({ params }: StatementPageProps) {
   const relations = corpus.relations.filter((relation) => relation.object_id === statement.id || relation.subject_id === statement.id);
   const supports = relations.filter((relation) => relation.predicate === "supports" && relation.object_id === statement.id);
   const closure = report.closed_via_transcription.find((entry) => entry.statement_id === statement.id);
+  // Strong and weak versions (#1017): the registered strength order, strong ⇒ weak.
+  const versions = (report.strength_order ?? []).filter(
+    (entry) => entry.strong_statement_id === statement.id || entry.weak_statement_id === statement.id,
+  );
   const describe = (id: string) => findStatement(corpus, id)?.paraphrase ?? findClaim(corpus, id)?.paraphrase ?? id;
 
   return (
@@ -217,6 +221,50 @@ export default async function StatementPage({ params }: StatementPageProps) {
         </p>
       </section>
 
+      {versions.length ? (
+        <section className="record-section">
+          <p className="eyebrow">Strong and weak versions</p>
+          <ul className="premise-list mt-3">
+            {versions.map((entry) => {
+              const isStrong = entry.strong_statement_id === statement.id;
+              const notes = [
+                entry.weak_established_via_strength ? "weak version established through this entailment" : null,
+                entry.strong_refuted_via_strength ? "strong version refuted through its weak version" : null,
+              ].filter(Boolean);
+              return (
+                <li key={entry.relation_id}>
+                  <p className="font-mono text-sm break-all">
+                    <Link className={isStrong ? "font-semibold" : "link-quiet"} href={`/statements/${entry.strong_statement_id}`}>
+                      {entry.strong_statement_id}
+                    </Link>
+                    {" ⇒ "}
+                    <Link className={isStrong ? "link-quiet" : "font-semibold"} href={`/statements/${entry.weak_statement_id}`}>
+                      {entry.weak_statement_id}
+                    </Link>
+                  </p>
+                  <p className="mt-2 font-serif text-lg leading-snug">
+                    {isStrong ? "Weak version: " : "Strong version: "}
+                    {describe(isStrong ? entry.weak_statement_id : entry.strong_statement_id)}
+                  </p>
+                  <p className="mt-1 text-sm text-[var(--muted)]">
+                    Entailment proved by <Link className="link-quiet" href={`/results/${entry.result_id}`}>{entry.result_id}</Link>
+                    {entry.strictness_result_id ? (
+                      <>
+                        ; strict by <Link className="link-quiet" href={`/results/${entry.strictness_result_id}`}>{entry.strictness_result_id}</Link>
+                      </>
+                    ) : null}
+                    {notes.length ? ` · ${notes.join(" · ")}` : ""}
+                  </p>
+                </li>
+              );
+            })}
+          </ul>
+          <p className="mt-3 text-xs leading-5 text-[var(--muted)]">
+            An established strong version establishes the weak one; a refuted weak version refutes the strong one; never the reverse. Each version keeps its own source claims.
+          </p>
+        </section>
+      ) : null}
+
       <section className="record-section">
         <p className="eyebrow">Used by</p>
         {using.length ? (
@@ -244,12 +292,12 @@ export default async function StatementPage({ params }: StatementPageProps) {
         )}
       </section>
 
-      {relations.filter((relation) => relation.predicate !== "supports").length ? (
+      {relations.filter((relation) => relation.predicate !== "supports" && relation.predicate !== "strengthens").length ? (
         <section className="record-section">
           <p className="eyebrow">Alternatives, objections and other relations</p>
           <ul className="premise-list mt-3">
             {relations
-              .filter((relation) => relation.predicate !== "supports")
+              .filter((relation) => relation.predicate !== "supports" && relation.predicate !== "strengthens")
               .map((relation) => {
                 const other = relation.subject_id === statement.id ? relation.object_id : relation.subject_id;
                 const otherIsStatement = Boolean(findStatement(corpus, other));

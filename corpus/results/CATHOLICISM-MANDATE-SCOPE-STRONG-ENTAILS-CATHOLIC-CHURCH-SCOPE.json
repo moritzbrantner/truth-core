@@ -1,0 +1,9 @@
+{
+  "id": "CATHOLICISM-MANDATE-SCOPE-STRONG-ENTAILS-CATHOLIC-CHURCH-SCOPE",
+  "argument_id": "CATHOLICISM-MANDATE-SCOPE-STRONG-ENTAILS-CATHOLIC-CHURCH-SCOPE",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingScopeStrength.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingScopeStrength.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.FoundingScopeStrength.mandateScopeStrongEntailsCatholicChurchScope",
+  "comparator_config": "results/CATHOLICISM-MANDATE-SCOPE-STRONG-ENTAILS-CATHOLIC-CHURCH-SCOPE/comparator.json",
+  "status": "solution-present"
+}
