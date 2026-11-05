@@ -3,4 +3,5 @@ import TruthCore.Ethics.HardCaseGoods
 import TruthCore.Ethics.HardCaseTyped
 import TruthCore.Ethics.MoralAccessFibers
 import TruthCore.Ethics.PopulationAggregation
+import TruthCore.Ethics.PopulationComparability
 import TruthCore.Ethics.PopulationScoring

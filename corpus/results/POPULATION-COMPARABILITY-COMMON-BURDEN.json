@@ -1,0 +1,10 @@
+{
+  "id": "POPULATION-COMPARABILITY-COMMON-BURDEN",
+  "argument_id": "POPULATION-COMPARABILITY-COMMON-BURDEN",
+  "challenge_module": "TruthCore.Results.Ethics.PopulationComparability.Challenge",
+  "solution_module": "TruthCore.Results.Ethics.PopulationComparability.Solution",
+  "theorem": "TruthCore.Results.Ethics.PopulationComparability.controls",
+  "comparator_config": "results/POPULATION-COMPARABILITY-COMMON-BURDEN/comparator.json",
+  "status": "solution-present",
+  "description": "For the same two individuals, total, average and fixed critical-level strict comparisons coincide. Whenever one individual gains and the other loses between alternatives, two independently positive affine rescalings, each preserving both individuals' own strict welfare orderings, induce opposite collective comparisons simultaneously for all three policies and every critical level. The same transformations are applied across alternatives; arbitrary individual origin shifts cancel. A common positive unit scale preserves these equal-count comparisons; Pareto agreement with one strict gain prevents reversal under every independent positive scale. These are conditional representation constraints, not inconsistency, moral inadequacy, interpersonal comparability, equal justification, historical attribution or root-premise discharge."
+}

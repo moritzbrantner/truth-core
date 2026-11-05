@@ -1,0 +1,17 @@
+{
+  "id": "INF-POPULATION-COMPARABILITY-COMMON-BURDEN",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-POPULATION-COMPARABILITY-COMMON-BURDEN",
+  "rule": "positive-affine-opposing-difference-reversal",
+  "meaning": "For the same two individuals, total, average and fixed critical-level strict comparisons coincide. Whenever one individual gains and the other loses between alternatives, two independently positive affine rescalings, each preserving both individuals' own strict welfare orderings, induce opposite collective comparisons simultaneously for all three policies and every critical level. The same transformations are applied across alternatives; arbitrary individual origin shifts cancel. A common positive unit scale preserves these equal-count comparisons; Pareto agreement with one strict gain prevents reversal under every independent positive scale. These are conditional representation constraints, not inconsistency, moral inadequacy, interpersonal comparability, equal justification, historical attribution or root-premise discharge.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": [],
+  "definition_ids": [
+    "DEF-FINITE-INDIVIDUAL-WELFARE-POPULATION",
+    "DEF-POSITIVE-CRITICAL-LEVEL-SCORING",
+    "DEF-INDIVIDUAL-AFFINE-WELFARE-REFRAMING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-POPULATION-MEAN-TOTAL-NORMATIVE-RANKING"
+  ]
+}
