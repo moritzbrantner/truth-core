@@ -81,7 +81,9 @@ theorem withoutRegress :
 `zorn_le_nonempty`): if the scale is inhabited and every nonempty chain of
 grades has an upper bound on the scale, something is maximal in `r`. The bound
 must lie on the scale, so it presupposes a grade at least as high as every
-member of the chain; (0,1) fails it. No cause is involved. -/
+member of the chain. The open interval (0,1) of `INFINITE-GREATEST-WHOLE-CONTROL`
+has no maximal grade, so by this theorem it fails the chain condition. No cause
+is involved. -/
 theorem zornMaximum {Being : Type} {Respect : Type} [Preorder Being]
     {InAct : Being → Respect → Prop} {MoreIn : Respect → Being → Being → Prop}
     {r : Respect} (hScale : HomogeneousScaleReading InAct MoreIn r) [Nonempty Being]
