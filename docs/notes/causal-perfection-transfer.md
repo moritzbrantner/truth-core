@@ -647,17 +647,27 @@ added; no modal invariance or numerical unity follows from this reading.
 
 ### Typed reception derivation (#354, 2026-11-05)
 
-SUBSISTENT-INFINITY-FROM-RECEPTION takes the three obligations above as four
-explicit, sourced but undefended premises over one esse-indexed relation
-`EsseReceivedIn x r` and one `EsseLimited x` (DEF-ESSE-RECEIVED-IN,
-DEF-ESSE-LIMITED). Obligation (1) is split into reception in the thing's own
-essence (De ente c.4 [69875]) and receiver-is-not-the-received-esse (De ente
-c.3 [69874]); obligation (2) is the q.7 a.1 warrant restricted to esse;
-obligation (3) is unlimited esse sufficing for the old primitive `Infinite`.
+SUBSISTENT-INFINITY-FROM-RECEPTION takes the three obligations above as five
+explicit open premises. They use one esse-indexed reception relation
+`EsseReceivedIn x r`, one `EsseLimited x`, and a receptive potency
+`ReceptivePotencyTo p a` that is kept apart from the legacy `InPotency`
+(DEF-ESSE-RECEIVED-IN, DEF-ESSE-LIMITED, DEF-RECEPTIVE-POTENCY).
+
+- Obligation (1) is split into three premises:
+  - reception only in the thing's own essence: unattributed, because De ente
+    c.4 [69875] and q.7 a.2 state it only for created intellectual substances
+    and subsistent created forms;
+  - receiver in receptive potency to the received esse: De ente c.3
+    [69874], sourced;
+  - nothing in receptive potency to itself: unattributed.
+- Obligation (2) is the q.7 a.1 warrant restricted to esse: limited esse is
+  received.
+- Obligation (3) is that unlimited esse suffices for the old primitive
+  `Infinite`.
+
 The exact legacy `SubsistentBeingIsInfiniteReading` is derived without the
 legacy not-both law or `Composite`, so the actualized-receptive-potency
-boundary above is kept. SUBSISTENT-INFINITY-RECEPTION-CONTROLS shows each
-premise is needed. The added reading steps (two principles from the c.3
-correlation; generalizing the receiving nature; exhaustion of limitation by
-reception) are stated in the claims and remain the open burdens
+boundary above is kept. SUBSISTENT-INFINITY-RECEPTION-CONTROLS shows that each
+premise is needed. The two unattributed generalizations, and the question
+whether reception exhausts limitation, remain the open burdens
 (ATTEMPT-SUBSISTENT-INFINITY-FROM-RECEPTION-20261105).

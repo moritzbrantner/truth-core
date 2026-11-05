@@ -4,7 +4,7 @@
   "definition": "Divine infinity is unboundedness of subsistent being not received in, and limited by, anything (ST I q.7 a.1). It is the infinity of perfection, not an infinite quantity or indeterminate matter. Infinite is a primitive predicate supplied to GodIsInfinite and to ClassicalAttributesSuffice.",
   "basis": "sourced",
   "lean_declaration": "TruthCore.Case.Catholicism.GodIsInfinite",
-  "note": "SubsistentBeingIsInfiniteReading gives only the sufficient condition esseOf x = essenceOf x → Infinite x, reading non-reception through q.3 a.4. Infinite has no definitional expansion imposing the full source account; the theorem remains conditional on that interpretation and premise. UnlimitedEsseIsInfiniteReading (STMT-UNLIMITED-ESSE-IS-INFINITE) adds a second sufficient condition, not a definition: a being whose esse is not limited (DEF-ESSE-LIMITED) is Infinite; SUBSISTENT-INFINITY-FROM-RECEPTION derives the q.3 a.4 reading from it and three reception readings.",
+  "note": "SubsistentBeingIsInfiniteReading gives only the sufficient condition esseOf x = essenceOf x → Infinite x, reading non-reception through q.3 a.4. Infinite has no definitional expansion imposing the full source account; the theorem remains conditional on that interpretation and premise.",
   "claim_ids": [
     "AQUINAS-ST-I-Q7-A1-SUBSISTENT-BEING-INFINITE"
   ]
