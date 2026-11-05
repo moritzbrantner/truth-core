@@ -1,0 +1,9 @@
+{
+  "id": "REL-AQUINAS-SCG-I-18-SUPPORTS-UNITING-CAUSE-CAUSES-COMPOSITE-BEING",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-SCG-I-18-COMPOSER-IS-EFFICIENT-CAUSE",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-UNITING-CAUSE-CAUSES-COMPOSITE-BEING",
+  "note": "SCG I.18 n.4 says the composer is the efficient cause of the composite. It bears on the premise but does not state it: the premise says the uniter causes the composite's esse (CausesIn c x esse), and the passage names neither esse nor the step from efficiently causing a composite to causing its being; DISAMB-UNITING-CAUSE keeps EfficientlyCausesIn and CausesIn apart. No passage searched in SCG I-III (Corpus Thomisticum, 2026-11-05) states that the composer or uniter gives the composite its esse."
+}

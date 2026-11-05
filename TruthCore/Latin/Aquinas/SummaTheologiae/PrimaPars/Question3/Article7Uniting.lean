@@ -24,7 +24,8 @@ New vocabulary, a parameter:
   separate premise below.
 
 Source witnesses: SCTA diplomatic TEI of the Leonine edition, `scta-texts/TAca84`,
-passages `AQUINAS-ST-I-Q3-A7` and `AQUINAS-ST-I-Q11-A1`.
+passages `AQUINAS-ST-I-Q3-A7` and `AQUINAS-ST-I-Q11-A1`; Corpus Thomisticum Latin
+web snapshot of *Summa contra gentiles* I.18, passage `AQUINAS-SCG-I-18-LAT`.
 -/
 
 namespace TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7Uniting
@@ -65,12 +66,12 @@ def DiverseUnitedOnlyThroughUnitingCauseReading {Being : Sort u}
 
 /-- A uniting cause is an efficient cause of what it unites, in some respect.
 
-Unattributed open premise. It is motivated by, but not stated in, ST I q.3 a.7
-co., third proof (*Deus autem non habet causam ... cum sit prima causa
-efficiens*): that sentence excludes a uniting cause of God because he is the
-first efficient cause, but does not say that every uniting cause is efficient.
-Only "in some respect" is asserted, the weakest form that the *secunda via*'s
-exclusion of self-causation can use.
+Read from SCG I.18 n.4 (*Componens autem est causa efficiens compositi*), where
+the *componens* is that by which things plural in themselves are united into
+one (claim `AQUINAS-SCG-I-18-COMPOSER-IS-EFFICIENT-CAUSE`). ST I q.3 a.7 co.,
+third proof, motivates but does not state it. Only "in some respect" is
+asserted, weaker than the source's efficient cause of the composite and the
+weakest form that the *secunda via*'s exclusion of self-causation can use.
 -/
 def UnitingCauseIsEfficientCauseReading {Being : Sort u} {Respect : Sort v}
     (Unites : Being → Being → Being → Being → Prop)
@@ -82,7 +83,10 @@ def UnitingCauseIsEfficientCauseReading {Being : Sort u} {Respect : Sort v}
 Unattributed open premise. ST I q.11 a.1 co. (*non habet esse quandiu partes eius
 sunt divisae, sed postquam constituunt et componunt ipsum compositum*) makes
 union a necessary condition of the composite's being; it does not say that what
-brings about the union is an effective cause (`CausesIn`) of its esse. This
+brings about the union is an effective cause (`CausesIn`) of its esse. SCG I.18
+n.4 makes the composer the efficient cause of the composite but does not name
+its esse (relation
+`REL-AQUINAS-SCG-I-18-SUPPORTS-UNITING-CAUSE-CAUSES-COMPOSITE-BEING`). This
 bridge supplies that further step.
 -/
 def UnitingCauseCausesBeingReading {Being : Sort u} {Respect : Sort v}

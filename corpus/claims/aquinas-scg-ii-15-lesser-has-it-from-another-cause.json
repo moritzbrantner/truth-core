@@ -1,0 +1,17 @@
+{
+  "id": "AQUINAS-SCG-II-15-LESSER-HAS-IT-FROM-ANOTHER-CAUSE",
+  "statement_id": "STMT-EXCEEDED-PERFECTION-IS-CAUSED",
+  "source_id": "AQUINAS-SCG",
+  "locator": "II.15 n.3 [24524]: Quod igitur alicui minus convenit quam aliis, non convenit ei ex sua natura tantum, sed ex alia causa",
+  "interpretation": "The passage states that whatever belongs to something less than it belongs to others belongs to it not from its own nature alone but from another cause, which is the premise: if x has r and something y is more r than x, then some cause c other than x causes x's having r. 'Minus convenit quam aliis' is read as x having r and being exceeded in r by another (MoreIn r y x with InAct x r); the plural 'aliis' is read generically, since the preceding sentence argues from any diminution ('si ... aliquid minoratum inveniatur'). 'Alia causa' is read as a cause other than x itself: chapter 15 n.2 equates what belongs to a thing without a cause with what belongs to it 'secundum quod ipsum', so a thing having r from itself is having it from its nature, which the sentence excludes as the sole source; and n.3 at once names the cause, what is maximally such in the genus. The source's quantifier ('quod alicui convenit') ranges over whatever belongs to a thing, not only perfections, so the premise is no stronger than the sentence. The premise is weaker than the source in three ways it keeps: it does not say the cause has r, is more r, or is the maximum; it does not keep 'tantum' (x's own nature may also contribute); and it drops the argument's warrant (diminution with the nature intact shows dependence on another). Not formalized here: the next sentence, that what is most such in a genus is the cause of all in it (STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS is a separate, stronger weak-maximum premise), and the application to God as maxime ens.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-MORE-IN",
+    "DEF-ACT",
+    "DEF-CAUSE-OF-PERFECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE",
+    "DISAMB-BEING-UNIVOCITY"
+  ]
+}
