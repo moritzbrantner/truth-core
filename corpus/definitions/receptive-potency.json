@@ -1,0 +1,8 @@
+{
+  "id": "DEF-RECEPTIVE-POTENCY",
+  "term": "receptive potency (ReceptivePotencyTo p a)",
+  "definition": "ReceptivePotencyTo p a: the principle p stands in potency to a as to its act, the way De ente c.3 [69874] says whatever receives something is in potency with respect to it and what is received is its act. The recipient may already actually have the act: an intelligence's quiddity is in this potency to the esse it has. In Lean it is a parameter on the Principle sort, constrained only by STMT-RECEIVER-IN-POTENCY-TO-RECEIVED-ESSE and STMT-NOTHING-IN-RECEPTIVE-POTENCY-TO-ITSELF.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Latin.Aquinas.DeEnte.ReceiverInPotencyToReceivedEsseReading",
+  "note": "Stipulative label for the act/potency correlation of De ente c.3. Example: an intelligence's quiddity with respect to its received esse. Non-example: the legacy InPotency x r (DEF-POTENCY), able to have a respect without having it, which excludes actually having it in the same respect. No step relates the two. Its irreflexivity is an open premise, not part of the definition. What would source it as a definition: a passage defining receptive potency rather than applying it."
+}
