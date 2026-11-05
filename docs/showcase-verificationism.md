@@ -54,7 +54,7 @@ The answer kinds are:
 
 | Question | V1 | V2 | V3 | V4 |
 |---|---|---|---|---|
-| Is "God exists" meaningful? | U: not addressed by the pinned V1 claims | S, by pattern only: the criterion condemns transcendent theses (`AYER-LTL-PELICAN-I-21-CONDEMNED`); **R** for the exclusion thesis (defeat 3′) | S: no, the notion of God is "not an intelligible notion" (`IEP-REL-LANG-2A-AYER-GOD`); **R** for the pair "God exists" / "there is no God" (defeat 3) | S: not a sentence of the empiricist language; V: says nothing about its truth (defeat 4) |
+| Is "God exists" meaningful? | U: not addressed by the pinned V1 claims | S, by pattern only: the criterion condemns transcendent theses (`AYER-LTL-PELICAN-I-21-CONDEMNED`); **R** for the exclusion thesis (defeat 3′) | S: no, the notion of God is "not an intelligible notion" (`IEP-REL-LANG-2A-AYER-GOD`); **R** for the pair "God exists" / "there is no God" (defeat 3) | S: not a sentence of the empiricist language; V (general): failing a criterion does not entail untruth (defeat 4) |
 | Are laws of science meaningful? | S: "important nonsense" (`AYER-LTL-PELICAN-I-18-IMPORTANT-NONSENSE`); V: laws are excluded and their negations admitted (defeat 2) | S: yes, the criterion was designed to admit them | S: yes | S: yes, inside the framework |
 | What is the status of the criterion itself? | U (V: the dilemma, if it is in scope) | U (V: the dilemma) | S: a definition (Ayer 1946; no admissible witness); V: the dilemma | S: a practical proposal, not an assertion |
 | Does the criterion exclude anything? | V: yes, too much (laws) | **R**: it excludes only sentences whose negation entails every observation statement | **R**: never a sentence together with its negation | V: only relative to the adopted language |
@@ -104,10 +104,11 @@ premises.
 
 - **Status:** the refutation counts (`corpus.py frontier --json` shows it as
   `counted: true`). **Established.**
-- **With closure under negation:** if meaningfulness is closed under negation,
-  which Ayer's "equally nonsensical" verdict on the atheist presupposes, then
-  no sentence fails to be meaningful
-  (`AYER-1946-NEGATION-CLOSED-EXCLUDES-NOTHING`).
+- **With closure under negation:** if meaningfulness is closed under negation
+  for *every* sentence, then no sentence fails to be meaningful
+  (`AYER-1946-NEGATION-CLOSED-EXCLUDES-NOTHING`). That universal closure is an
+  additional open assumption, not attributed to Ayer: his verdict that one
+  theistic sentence and its negation are both nonsensical does not supply it.
 
 **V2 falls the same way, more simply.** `AYER-1936-CRITERION-TRIVIAL` uses the
 further premise ¬S ∨ o: S passes the 1936 test unless ¬S entails o.
@@ -180,14 +181,18 @@ principle.
 - **Proposal reading.** The distinction between adopting a rule and asserting
   a sentence (`docs/ayer-verification-boundary.md`) is what V4 builds on.
 
-## 5. Defeat 4: the proposal reading (V4) survives, but is toothless
+## 5. Defeat 4: the proposal reading (V4) is not defeated here, and is toothless
 
-**Escapes self-application.** Carnap's reply is that adopting an empiricist
+**Objects to self-application.** Carnap's reply is that adopting an empiricist
 language is "a matter of a practical decision", and "there is no such belief
 or assertion or assumption" (`CARNAP-ESO-II-EXTERNAL-PRACTICAL`). It is
-recorded as `attacks` against the scope premise. The existing countermodel
-`LOGIC-SELF-APPLICATION-SCOPE-NEEDED` shows that without the scope premise
-nothing follows.
+recorded as an `attacks` objection to the scope premise, not as its failure:
+`PrincipleInOwnScope scope v` says only that the formulation is in scope, and
+nonassertive adoption does not by itself take a formulation out of scope.
+The missing bridge, from "the criterion is adopted, not asserted" to "its
+formulation is not a sentence in the scope it governs", is open
+(`docs/ayer-verification-boundary.md`). `LOGIC-SELF-APPLICATION-SCOPE-NEEDED`
+shows only that if the scope premise is dropped, nothing follows.
 
 **Settles no truth.** `CRITERION-VERDICT-SILENT-ON-TRUTH` is a countermodel:
 
@@ -197,13 +202,17 @@ nothing follows.
 - So failing an adopted criterion does not make a sentence untrue, and does
   not deprive it of truth conditions.
 
-**Survives, without a verdict on theology.** V4 is consistent and survives
-every defeat here, but it is a recommendation, not a truth. It cannot
-establish that theology is meaningless; at most it can say that theological
-sentences are not sentences of the recommended language.
+**No defeat applies, and no verdict on theology follows from the model.**
+None of defeats 1–3 binds V4 as recorded here, but V4 itself is not encoded
+as a configuration, so its consistency as a complete position is not
+certified. The countermodel shows only that the general inference from
+"fails the adopted criterion" to "untrue" fails; it says nothing specifically
+about theological sentences. Read as a recommendation rather than a truth, V4
+gives no ground for the claim that theology is meaningless beyond "not a
+sentence of the recommended language".
 
 **Status (D-I, #1007).** It neither defends nor attacks any route premise.
-Its survival is recorded, and it has no cost effect.
+That it is undefeated here is recorded, and it has no cost effect.
 
 ## 6. Defeat 5: the movement's own retrospective (optional)
 
@@ -223,7 +232,7 @@ proofs.
 | 3′ 1936 triviality | V2 exclusion | **established**: premise-free refutation, counted |
 | 2 universal laws | V1 | proved consequence; needs an unestablished premise (laws are meaningful, or meaningfulness is closed under negation) |
 | 1 self-application | V1–V3 | conditional on three open premises; for V3 superseded by Church |
-| 4 proposal | V4 | **V4 survives**: consistent, toothless (D-I) |
+| 4 proposal | V4 | **V4 not defeated**: the scope objection needs an open bridge; the countermodel blocks only the inference from failing the criterion to untruth; V4's consistency is not certified (D-I: no route effect) |
 | 5 Hempel | the programme | sourced testimony (SEP) |
 
 **Frontier.** `frontier-diff`: open premises reaching the root 91 → 91. The

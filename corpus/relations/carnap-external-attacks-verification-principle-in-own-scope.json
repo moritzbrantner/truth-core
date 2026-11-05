@@ -5,5 +5,5 @@
   "predicate": "attacks",
   "object_kind": "statement",
   "object_id": "STMT-VERIFICATION-PRINCIPLE-IN-OWN-SCOPE",
-  "note": "The proposal reply: if adopting an empiricist language is a practical decision and not an assertion, the criterion is not a statement within the scope it governs, so the self-application premise fails for V4 (LOGIC-SELF-APPLICATION-SCOPE-NEEDED). An objection, not a refutation."
+  "note": "The proposal reply, recorded as an objection: Carnap makes adopting a linguistic framework a practical decision, not an assertion. That does not by itself falsify PrincipleInOwnScope (which says only that the formulation is in scope): the bridge from nonassertive adoption to the formulation's lying outside the scope it governs is open and unattributed (docs/ayer-verification-boundary.md). LOGIC-SELF-APPLICATION-SCOPE-NEEDED shows only that nothing follows once the scope premise is dropped."
 }
