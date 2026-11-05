@@ -1,0 +1,17 @@
+{
+  "id": "ATTEMPT-IN-METAPH-IX-L8-FIRST-MOVER-IN-ACT-ONLY",
+  "statement_ids": [
+    "STMT-MOVER-MOVED-AT-NO-TIME-IS-PURE-ACT",
+    "STMT-SLICE-FIRST-MOVER-MOVED-AT-NO-TIME",
+    "STMT-FIRST-UNMOVED-MOVER-IS-PURE-ACT"
+  ],
+  "date": "2026-11-03",
+  "kind": "reading",
+  "outcome": "succeeded",
+  "summary": "Owner decisions on #352 (2026-11-03): record In Metaph. IX, lect. 8 n. 11 ('quousque veniatur ad primum movens, quod est in actu tantum') as a stating claim, settling item (d) of ATTEMPT-LAMBDA7-FIRST-MOVER-PURE-ACT; then, after the #946 review found the temporal scope lost, split it (option B). Witness: AQUINAS-IN-METAPH-IX-L7-L9 (Corpus Thomisticum web snapshot), materialized; lect. 8 read whole, with lect. 7 n. 4-8. Reading: the series of agents is ordered in time and stops at an agent that never goes from potency to act ('id enim, quod exit de potentia in actum, requirit actum praecedentem in agente'), so 'primum movens' is a mover moved at no time (DEF-MOVED-AT-NO-TIME), and 'in actu tantum' is PureAct at the times at which it moves (STMT-MOVER-MOVED-AT-NO-TIME-IS-PURE-ACT). Rejected: the direct reading as STMT-FIRST-UNMOVED-MOVER-IS-PURE-ACT, because a mover unmoved at one time may have been moved earlier (FIRST-WAY-SLICE-CONTROLS feedback model; #946 review); 'tantum' restricted to the act by which it moves (no restricting phrase; content of STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT); pure act at every time (stronger than the sentence). Bridge: STMT-SLICE-FIRST-MOVER-MOVED-AT-NO-TIME, open and unattributed, false in the feedback model. Result AQUINAS-IN-METAPH-IX-L8-PRIMUM-MOVENS-PURE-ACT composes reading and bridge into the one-time statement, with each premise needed and joint satisfiability. Finding: that composition is a single-application transcription (invariant 16), so it does not expand the pure-act statement, and the owner's expected skeleton cost 30 is not reached: frontier-diff reports no change (cheapest 31, skeleton 31; 91 reaching the root, 33 bare and 58 sourced). Earlier PR figures (31 to 29) counted the time-scope step for free.",
+  "evidence": [
+    "AQUINAS-IN-METAPH-IX-L8-FIRST-MOVER-IN-ACT-ONLY-A",
+    "AQUINAS-IN-METAPH-IX-L8-PRIMUM-MOVENS-PURE-ACT"
+  ],
+  "blocker": "No route gain: the bridge STMT-SLICE-FIRST-MOVER-MOVED-AT-NO-TIME is open, and a composition through it is a transcription. A gain needs the bridge closed, or a derivation of pure act at one time that does more than apply the lect. 8 reading."
+}

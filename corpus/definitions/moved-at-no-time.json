@@ -1,0 +1,7 @@
+{
+  "id": "DEF-MOVED-AT-NO-TIME",
+  "term": "moved at no time (never reduced from potency to act)",
+  "definition": "Over a supplied clock, with the prima via predicates taken at each time (Moved t x r: x is being reduced from potency to act in respect r at t), f is moved at no time when Moved t f r fails for every time t and every respect r. It is stronger than being unmoved at one time (DEF-TIME-SLICED-FIRST-MOVER) and says nothing about whether f exists at every time or is eternal.",
+  "basis": "stipulative",
+  "note": "Analyst instantiation for #352 (option B), the antecedent shared by MoverMovedAtNoTimeIsInActOnlyReading and SliceFirstMoverMovedAtNoTimeBridge; it has no Lean declaration of its own. Claim AQUINAS-IN-METAPH-IX-L8-FIRST-MOVER-IN-ACT-ONLY-A reads In Metaph. IX, lect. 8 n. 11's 'primum movens' in this sense, as the agent at which a history of agents stops because it never goes from potency to act ('id enim, quod exit de potentia in actum, requirit actum praecedentem in agente'). That claim is the reading's source; the definition itself is not attributed."
+}
