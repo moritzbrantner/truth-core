@@ -1,4 +1,9 @@
-import TruthCore.Greek.Plato.ThirdMan
+module
+
+public import TruthCore.Greek.Plato.ThirdMan
+
+@[expose] public section
+
 namespace TruthCore.Results.Greek.Plato.ThirdMan.Regress
 open TruthCore.Greek.Plato.Forms TruthCore.Greek.Plato.ThirdMan
 universe u v

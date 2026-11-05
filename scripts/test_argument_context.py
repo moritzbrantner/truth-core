@@ -119,6 +119,14 @@ class ArgumentContextTests(unittest.TestCase):
         self.assertEqual(lean["lean_consumers"], ["DOWN"])
         self.assertEqual(lean["lean_consumers_depth2"], ["FAR"])
 
+    def test_module_system_headers_keep_imports_and_theorems_visible(self):
+        write(self.root, "TruthCore.Base.Solution",
+              "module\n\npublic import TruthCore.Deep.Solution\npublic import Mathlib.Order.Basic\n\n"
+              "@[expose] public section\n\npublic theorem exported : True := trivial\n")
+        self.assertEqual(import_closure(self.root, "TruthCore.Up.Solution"),
+                         {"TruthCore.Base.Solution": 1, "TruthCore.Vocab": 1, "TruthCore.Deep.Solution": 2})
+        self.assertEqual([b["name"] for b in theorem_blocks(self.root, "TruthCore.Base.Solution")], ["exported"])
+
     def test_proof_term_reuse_distinguishes_three_review_classes_without_changing_graph(self):
         write(self.root, "TruthCore.Up.Solution",
               "import TruthCore.Base.Solution\nimport TruthCore.Peer.Solution\nimport TruthCore.Vocab\n")
