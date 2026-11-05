@@ -1,0 +1,10 @@
+{
+  "id": "LOGIC-CASE-NON-CONTRADICTION-NOT-DENIABLE",
+  "argument_id": "LOGIC-CASE-NON-CONTRADICTION-NOT-DENIABLE",
+  "challenge_module": "TruthCore.Results.Logic.CaseNonContradiction.Challenge",
+  "solution_module": "TruthCore.Results.Logic.CaseNonContradiction.Solution",
+  "theorem": "TruthCore.Results.Logic.CaseNonContradiction.noCasePredicateContradiction",
+  "comparator_config": "results/LOGIC-CASE-NON-CONTRADICTION-NOT-DENIABLE/comparator.json",
+  "status": "solution-present",
+  "description": "Zero-axiom: no being both has and lacks a case predicate in the same respect. Composes LOGIC-NON-CONTRADICTION. Refutes the classical statement of the dialetheic rival; relative to the F1 floor marking only (D-L)."
+}
