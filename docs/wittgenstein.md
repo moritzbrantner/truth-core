@@ -64,11 +64,13 @@ Three variants are kept apart (`DEF-WITTGENSTEINIAN-FIDEISM`):
   (`STMT-MINIMALISM-ALLOWS-EXTERNAL-EVIDENCE`).
 
 Its answers to the shared question set are in the answer map of
-`TruthCore/Comparison/Fideism.lean`. The short form: what "God exists" says is
-fixed inside the practice. Cosmological and first-mover questions asked as
-hypotheses about the world are grammatical confusions, so as answers they are
-**unexplained** by design. Moral grounding is moral vision. Criticism from
-outside is denied (WF-N) or reconceived (Phillips).
+`TruthCore/Comparison/Fideism.lean`. Each answer there is labelled *reported*
+(the SEP entries report it) or *reconstruction* (the comparison's own,
+unattributed). Reported: what "God exists" says is fixed inside the practice
+(WF-P2). Religious belief expresses a moral vision (WF-P1). Criticism from
+outside is denied (WF-N) or reconceived (Phillips). No witness reports a
+fideist answer to the cosmological or first-mover questions, so they are
+**unexplained**, and the reconstructions there are labelled as such.
 
 Sources. Phillips, Winch and Nielsen are in copyright, and no legitimately
 hosted copy was found. They have bibliographic source identities only
