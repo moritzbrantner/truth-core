@@ -50,8 +50,9 @@ class ReportTest(unittest.TestCase):
             mock.patch.object(ac.se, "load_json_dir", return_value=[(Path("s.json"), STATEMENT)]),
             mock.patch.object(ac.se, "CACHE", cache),
             mock.patch.object(ac, "ROOT", cache.parent),
+            mock.patch.object(ac, "changed_paths", return_value=[]),
         ):
-            return ac.report("origin/main", None, materialize=False, max_chars=0)
+            return ac.report("origin/main", materialize=False, max_chars=0)
 
     def test_prints_premise_beside_passage_and_fails_without_attribution(self) -> None:
         text, problems = self.run_report([(claim(), "new claim")])
@@ -81,6 +82,46 @@ class ReportTest(unittest.TestCase):
         text, problems = self.run_report([])
         self.assertIn("no new or changed stating claim", text)
         self.assertEqual(problems, [])
+
+
+class ChangedClaimsTest(unittest.TestCase):
+    """Selection by stable ID, statement text and resolved passage (#998 review)."""
+
+    def select(self, paths, base_files, head_files, claims=()):
+        def read_at(revision, path):
+            return (base_files if revision is not None else head_files).get(path)
+
+        passages = {"TEXT-1": (Path("p.json"), PASSAGE)}
+        with (
+            mock.patch.object(ac, "changed_paths", return_value=paths),
+            mock.patch.object(ac, "read_at", side_effect=read_at),
+            mock.patch.object(ac.se, "load_json_dir", return_value=[(Path("c.json"), c) for c in claims]),
+        ):
+            return [(c["id"], reason) for c, reason in ac.changed_claims("origin/main", passages)]
+
+    def test_moved_claim_file_is_compared_by_id(self) -> None:
+        old, new = "corpus/claims/old.json", "corpus/claims/new.json"
+        self.assertEqual(self.select([old, new], {old: claim()}, {new: claim()}), [])
+        self.assertEqual(
+            self.select([old, new], {old: claim()}, {new: claim(interpretation="broader")}),
+            [("C", "changed interpretation")],
+        )
+
+    def test_renamed_statement_with_new_paraphrase_selects_its_claims(self) -> None:
+        old, new = "corpus/statements/old.json", "corpus/statements/new.json"
+        broadened = dict(STATEMENT, paraphrase="Whatever exists is in potency.")
+        self.assertEqual(
+            self.select([old, new], {old: STATEMENT}, {new: broadened}, claims=[claim()]),
+            [("C", "statement STMT-P paraphrase changed")],
+        )
+
+    def test_changed_passage_selects_the_claims_resolving_to_it(self) -> None:
+        manifest = "corpus/passages/p.json"
+        head = {manifest: {"snapshot": {}, "passages": [{"id": "TEXT-1"}]}}
+        self.assertEqual(
+            self.select([manifest], {}, head, claims=[claim()]),
+            [("C", "passage TEXT-1 changed")],
+        )
 
 
 if __name__ == "__main__":

@@ -3375,8 +3375,6 @@ def command_attribution_check(args: argparse.Namespace) -> int:
     import attribution_check
 
     argv = ["--base", args.base, "--max-chars", str(args.max_chars)]
-    if args.head:
-        argv += ["--head", args.head]
     if args.materialize:
         argv.append("--materialize")
     return attribution_check.main(argv)
@@ -3836,8 +3834,7 @@ def parser() -> argparse.ArgumentParser:
         "attribution-check",
         help="pre-push gate (#989): premise vs pinned passage text for each new or changed stating claim",
     )
-    attribution.add_argument("--base", required=True, help="diff base, for example origin/main")
-    attribution.add_argument("--head", help="diff head (default: the working tree, including untracked files)")
+    attribution.add_argument("--base", required=True, help="diff base, for example origin/main; the head is the working tree")
     attribution.add_argument("--materialize", action="store_true", help="materialize passages not yet cached")
     attribution.add_argument("--max-chars", type=int, default=6000, help="clip each passage text (0: never)")
     attribution.set_defaults(func=command_attribution_check)

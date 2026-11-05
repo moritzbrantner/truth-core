@@ -19,6 +19,8 @@ the source cache; `--materialize` fetches what is missing.
 from __future__ import annotations
 
 import argparse
+import contextlib
+import io
 import json
 import subprocess
 import sys
@@ -70,9 +72,9 @@ def git(*args: str) -> str:
         raise AttributionError(f"git {' '.join(args)} failed: {exc}") from exc
 
 
-def changed_paths(base: str, head: str | None) -> list[str]:
-    if head is not None:
-        return [p for p in git("diff", "--name-only", "-z", "--no-renames", base, head, "--").split("\0") if p]
+def changed_paths(base: str) -> list[str]:
+    """Paths changed from `base` to the working tree, including untracked files.
+    Renames appear as a deletion and an addition (`--no-renames`)."""
     tracked = git("diff", "--name-only", "-z", "--no-renames", base, "--").split("\0")
     untracked = git("ls-files", "-z", "--others", "--exclude-standard").split("\0")
     return sorted({p for p in [*tracked, *untracked] if p})
@@ -92,35 +94,64 @@ def read_at(revision: str | None, path: str) -> dict[str, Any] | None:
     return json.loads(text)
 
 
-def changed_claims(base: str, head: str | None) -> list[tuple[dict[str, Any], str]]:
-    """Claims the change adds or alters, or whose statement text changed, with a reason."""
-    paths = changed_paths(base, head)
-    selected: dict[str, tuple[dict[str, Any], str]] = {}
+def records_by_id(paths: list[str], directory: str, revision: str | None) -> dict[str, dict[str, Any]]:
+    """The records of `directory` among `paths` at `revision`, keyed by stable ID,
+    so a moved file is compared with itself rather than treated as new."""
+    records = {}
     for path in paths:
-        if not (path.startswith("corpus/claims/") and path.endswith(".json")):
-            continue
-        after = read_at(head, path)
-        if after is None:
-            continue
-        before = read_at(base, path)
+        if path.startswith(f"corpus/{directory}/") and path.endswith(".json"):
+            record = read_at(revision, path)
+            if record is not None and isinstance(record.get("id"), str):
+                records[record["id"]] = record
+    return records
+
+
+def changed_passage_ids(paths: list[str]) -> set[str]:
+    """Passages whose manifest the change adds or edits (as in the working tree)."""
+    changed = set()
+    for path in paths:
+        if path.startswith("corpus/passages/") and path.endswith(".json"):
+            manifest = read_at(None, path)
+            if manifest:
+                changed.update(passage["id"] for passage in manifest.get("passages", []) if "id" in passage)
+    return changed
+
+
+def changed_claims(
+    base: str, passages: dict[str, tuple[Path, dict[str, Any]]] | None = None
+) -> list[tuple[dict[str, Any], str]]:
+    """Claims the change adds or alters, whose statement text changed, or whose
+    resolved passage changed, with a reason. The working tree is the head."""
+    paths = changed_paths(base)
+    before_claims = records_by_id(paths, "claims", base)
+    selected: dict[str, tuple[dict[str, Any], str]] = {}
+    for claim_id, after in records_by_id(paths, "claims", None).items():
+        before = before_claims.get(claim_id)
         if before is None:
-            selected[after["id"]] = (after, "new claim")
+            selected[claim_id] = (after, "new claim")
             continue
         fields = [field for field in ATTRIBUTED_FIELDS if before.get(field) != after.get(field)]
         if fields:
-            selected[after["id"]] = (after, "changed " + ", ".join(fields))
-    changed_statements = set()
-    for path in paths:
-        if path.startswith("corpus/statements/") and path.endswith(".json"):
-            after, before = read_at(head, path), read_at(base, path)
-            if after is not None and before is not None and after.get("paraphrase") != before.get("paraphrase"):
-                changed_statements.add(after["id"])
-    if changed_statements:
-        for claim_path in sorted((ROOT / "corpus" / "claims").glob("*.json")):
-            relative = claim_path.relative_to(ROOT).as_posix()
-            claim = read_at(head, relative)
-            if claim and claim["statement_id"] in changed_statements and claim["id"] not in selected:
+            selected[claim_id] = (after, "changed " + ", ".join(fields))
+    before_statements = records_by_id(paths, "statements", base)
+    changed_statements = {
+        statement_id
+        for statement_id, after in records_by_id(paths, "statements", None).items()
+        if statement_id in before_statements and before_statements[statement_id].get("paraphrase") != after.get("paraphrase")
+    }
+    changed_passages = changed_passage_ids(paths)
+    if changed_statements or changed_passages:
+        passages = passages if passages is not None else se.passage_index()
+        for _, claim in se.load_json_dir("claims"):
+            if claim["id"] in selected:
+                continue
+            if claim["statement_id"] in changed_statements:
                 selected[claim["id"]] = (claim, f"statement {claim['statement_id']} paraphrase changed")
+                continue
+            if changed_passages:
+                passage = resolve_passage(claim, passages)
+                if passage["id"] in changed_passages:
+                    selected[claim["id"]] = (claim, f"passage {passage['id']} changed")
     return [selected[key] for key in sorted(selected)]
 
 
@@ -136,19 +167,26 @@ def resolve_passage(claim: dict[str, Any], passages: dict[str, tuple[Path, dict[
     return matches[0]
 
 
-def passage_text(passage: dict[str, Any], materialize: bool) -> tuple[str | None, str]:
-    """The materialized passage text, or None and why it is unavailable."""
+def passage_text(passage: dict[str, Any], materialize: bool, changed: bool = False) -> tuple[str | None, str]:
+    """The passage text, or None and why it is unavailable. `--materialize`
+    always re-materializes (hash-checked against the current manifest); without
+    it a cached text is shown only when the change leaves the passage unchanged."""
     if se.is_bibliographic(passage):
         return None, f"bibliographic span: read {se.bibliographic_citation(passage)} in the edition itself"
     cached = se.CACHE / f"{passage['id']}.txt"
-    if not cached.is_file() and materialize:
+    command = f"python3 scripts/source_evidence.py materialize {passage['id']}"
+    if materialize:
         try:
-            se.materialize(passage["id"], None)
+            with contextlib.redirect_stdout(io.StringIO()):
+                se.materialize(passage["id"], None)
         except se.SourceEvidenceError as exc:
             return None, f"cannot materialize: {exc}"
+        return cached.read_text(encoding="utf-8"), f"{cached.relative_to(ROOT)}, materialized now"
+    if changed:
+        return None, f"the change edits this passage, so a cached text may be stale: run {command} or use --materialize"
     if not cached.is_file():
-        return None, f"not materialized: run python3 scripts/source_evidence.py materialize {passage['id']}"
-    return cached.read_text(encoding="utf-8"), str(cached.relative_to(ROOT))
+        return None, f"not materialized: run {command}"
+    return cached.read_text(encoding="utf-8"), f"{cached.relative_to(ROOT)}, cached and not re-verified now"
 
 
 def clip(text: str, limit: int) -> str:
@@ -158,13 +196,14 @@ def clip(text: str, limit: int) -> str:
     return f"{text[:half]}\n[... {len(text) - limit} characters omitted; read the whole file ...]\n{text[-half:]}"
 
 
-def report(base: str, head: str | None, *, materialize: bool, max_chars: int) -> tuple[str, list[str]]:
-    """Text report and the list of problems that fail the gate."""
+def report(base: str, *, materialize: bool, max_chars: int) -> tuple[str, list[str]]:
+    """Text report and the list of problems that fail the gate (working tree vs `base`)."""
     statements = {record["id"]: record for _, record in se.load_json_dir("statements")}
     passages = se.passage_index()
     lines: list[str] = []
     problems: list[str] = []
-    claims = changed_claims(base, head)
+    claims = changed_claims(base, passages)
+    edited = changed_passage_ids(changed_paths(base)) if claims else set()
     if not claims:
         return f"attribution-check: no new or changed stating claim since {base}", []
     lines.append(f"attribution-check: {len(claims)} new or changed stating claim(s) since {base}")
@@ -178,7 +217,7 @@ def report(base: str, head: str | None, *, materialize: bool, max_chars: int) ->
     for claim, reason in claims:
         statement = statements.get(claim["statement_id"], {})
         passage = resolve_passage(claim, passages)
-        text, where = passage_text(passage, materialize)
+        text, where = passage_text(passage, materialize, passage["id"] in edited)
         lines.append("")
         lines.append(f"== {claim['id']} ({reason}) -> {claim['statement_id']}")
         lines.append(f"premise: {statement.get('paraphrase', '(unknown statement)')}")
@@ -206,13 +245,15 @@ def report(base: str, head: str | None, *, materialize: bool, max_chars: int) ->
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
-    parser.add_argument("--base", required=True, help="diff base, for example origin/main or the merge base")
-    parser.add_argument("--head", help="diff head (default: the working tree, including untracked files)")
+    parser.add_argument(
+        "--base", required=True,
+        help="diff base, for example origin/main or the merge base; the head is always the working tree",
+    )
     parser.add_argument("--materialize", action="store_true", help="materialize passages not yet in the cache")
     parser.add_argument("--max-chars", type=int, default=6000, help="clip each passage text (0: never)")
     args = parser.parse_args(argv)
     try:
-        text, problems = report(args.base, args.head, materialize=args.materialize, max_chars=args.max_chars)
+        text, problems = report(args.base, materialize=args.materialize, max_chars=args.max_chars)
     except (AttributionError, se.SourceEvidenceError) as exc:
         print(f"attribution-check error: {exc}", file=sys.stderr)
         return 2
