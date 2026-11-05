@@ -1,0 +1,10 @@
+{
+  "id": "STMT-HEMPEL-VERIFIABILITY-EXCLUDES-UNIVERSALS",
+  "paraphrase": "Hempel 1950 (as reported): the verifiability criterion makes existential generalizations meaningful and universal generalizations, including general laws, not; and on the assumption that a sentence is meaningful iff its negation is, it yields counterintuitive if not inconsistent consequences.",
+  "definition_ids": [
+    "DEF-CONCLUSIVE-VERIFIABILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-VERIFIABILITY-VARIANT"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "SCHLICK-MV-342-METHOD",
+  "statement_id": "STMT-SCHLICK-MEANING-IS-METHOD-OF-VERIFICATION",
+  "source_id": "SCHLICK-MEANING-VERIFICATION",
+  "locator": "p. 342, \"The meaning of a proposition is the method of its verification.\"",
+  "interpretation": "Schlick's statement of the principle, which he traces in a footnote (MSGA editors) to Wittgenstein. Verification here includes falsification ('verified (or falsified)'). Nothing in the sentence says verification must be conclusive.",
+  "attribution": "The passage states that stating a sentence's meaning is stating the rules of its use, the same as stating how it can be verified or falsified, and that the meaning of a proposition is the method of its verification, which is the premise.",
+  "status": "formalized"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "AYER-LTL-PELICAN-I-20-CRITERION",
+  "statement_id": "STMT-AYER-1936-CRITERION-STATED",
+  "source_id": "AYER-LTL-PELICAN",
+  "locator": "ch. I, p. 20, \"some experiential propositions can be deduced from it in conjunction with certain other premises without being deducible from those other premises alone\"",
+  "interpretation": "Ayer's first-edition criterion (V2), typed as DEF-AYER-1936-WEAK-VERIFIABILITY: the further premises are unrestricted. Ayer's own note 8 calls it 'an over-simplified statement, which is not literally correct' and points to the Introduction for the correct formulation (V3).",
+  "attribution": "The passage states that the mark of a genuine factual proposition is that some experiential propositions can be deduced from it with certain other premises without being deducible from those premises alone, which is the premise.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-AYER-1936-WEAK-VERIFIABILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-VERIFIABILITY-VARIANT"
+  ]
+}

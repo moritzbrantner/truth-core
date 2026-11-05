@@ -1,6 +1,6 @@
 {
   "id": "STMT-AYER-1936-EXCLUDES-METAPHYSICS",
-  "paraphrase": "The V2 exclusion thesis: some sentence fails Ayer's 1936 test although its negation does not entail some observation statement. A metaphysical sentence in Ayer's sense has no observational consequences, and neither does its negation. Stated as the rival's commitment; its attribution awaits a witness.",
+  "paraphrase": "The V2 exclusion thesis: some sentence fails Ayer's 1936 test although its negation does not entail some observation statement. A metaphysical sentence in Ayer's sense has no observational consequences, and neither does its negation. Stated as the rival's commitment in the analyst's typing, unattributed: the sourced claims bearing on it are linked as supports relations that record their gaps.",
   "lean_declaration": "TruthCore.Logic.Verificationism.Ayer1936ExcludesMetaphysics",
   "definition_ids": [
     "DEF-TRUTH-CONDITIONAL-LANGUAGE",

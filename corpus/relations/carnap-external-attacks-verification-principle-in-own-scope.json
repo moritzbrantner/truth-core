@@ -1,0 +1,9 @@
+{
+  "id": "REL-CARNAP-EXTERNAL-ATTACKS-VERIFICATION-PRINCIPLE-IN-OWN-SCOPE",
+  "subject_kind": "claim",
+  "subject_id": "CARNAP-ESO-II-EXTERNAL-PRACTICAL",
+  "predicate": "attacks",
+  "object_kind": "statement",
+  "object_id": "STMT-VERIFICATION-PRINCIPLE-IN-OWN-SCOPE",
+  "note": "The proposal reply: if adopting an empiricist language is a practical decision and not an assertion, the criterion is not a statement within the scope it governs, so the self-application premise fails for V4 (LOGIC-SELF-APPLICATION-SCOPE-NEEDED). An objection, not a refutation."
+}

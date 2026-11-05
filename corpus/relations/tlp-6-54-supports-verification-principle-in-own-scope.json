@@ -1,0 +1,9 @@
+{
+  "id": "REL-TLP-6-54-SUPPORTS-VERIFICATION-PRINCIPLE-IN-OWN-SCOPE",
+  "subject_kind": "claim",
+  "subject_id": "WITTGENSTEIN-TLP-6-54-LADDER",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-VERIFICATION-PRINCIPLE-IN-OWN-SCOPE",
+  "note": "Gap: 6.54 applies the Tractatus's own sense boundary (what can be said, 6.53) to its own propositions, so it bears on the scope premise; it does not concern a verification principle, which the Tractatus does not state, and it does not say that a later verificationist formulation lies in its own scope."
+}

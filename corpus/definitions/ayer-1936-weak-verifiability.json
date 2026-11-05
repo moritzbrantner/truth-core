@@ -4,5 +4,5 @@
   "definition": "`WeaklyVerifiable1936 F s`: for some further premises ps and observation statement e, s together with ps entails e and ps alone does not entail e. The further premises are unrestricted.",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Logic.Verificationism.WeaklyVerifiable1936",
-  "note": "Variant V2, the first edition of Language, Truth and Logic (1936), ch. 1. Analyst's typing for the #1008 verificationism showcase. Sourcing the criterion's wording to its proponent is a separate claim (attribution discipline, #989); the witness status is recorded in docs/ayer-verification-boundary.md and, for the other proponents, in the #1008 showcase sources."
+  "note": "Variant V2. Types Ayer's first-edition formulation in claim AYER-LTL-PELICAN-I-20-CRITERION (ch. I, p. 20 of the Pelican reprint), which Ayer's own note calls over-simplified."
 }

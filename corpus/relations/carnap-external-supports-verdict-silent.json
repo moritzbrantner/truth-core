@@ -1,0 +1,9 @@
+{
+  "id": "REL-CARNAP-EXTERNAL-SUPPORTS-VERDICT-SILENT",
+  "subject_kind": "claim",
+  "subject_id": "CARNAP-ESO-II-EXTERNAL-PRACTICAL",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-CRITERION-VERDICT-SILENT-ON-TRUTH",
+  "note": "Gap: Carnap says framework acceptance is no assertion; the Lean model shows the further point that failing an adopted criterion does not settle a sentence's truth, which Carnap does not state in these words."
+}
