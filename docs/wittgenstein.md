@@ -331,7 +331,8 @@ metaphysics to nonsense yet points at the unsayable. Reconstructed from 4.003,
 4.11, 6.42 and 6.432, it yields a rival to the *arguability* of natural
 theology: sentences about God are not false but nonsensical
 (`STMT-TLP-GOD-SENTENCES-NONSENSICAL`). No proposition states it in this form,
-so it is unattributed, and the four claims only `support` it.
+so it is unattributed, and three claims (4.003, 4.11, 6.432) only `support`
+it, each with a gap note.
 
 Its object is `STMT-NATURAL-THEOLOGY-ARGUABLE`. Every route presupposes that
 statement, but no route premise states it, so no route leaf gains a rival
@@ -345,7 +346,7 @@ self-application, which #1008 owns (`DISAMB-TLP-NONSENSE`).
 
 Lean: not built. The one formal point is bipolarity: a sentence true in every
 possibility has no sense, so necessary-being claims are not pictures. It
-unfolds in two lines, and as a result it would be decorative.
+unfolds in two lines, so as a result it would be decorative.
 
 ## Lecture on Ethics (1929)
 
@@ -355,16 +356,18 @@ years.
 
 - **Absolute value is no fact.** Relative value judgments are statements of
   fact, but no statement of fact is or implies a judgment of absolute value
-  (`STMT-LE-ABSOLUTE-VALUE-NO-FACT`). This is neutral to F6. "One ought to
-  believe what the evidence supports" can be read relatively, as instrumental
-  to truth; whether F6 is absolute is not settled here. Only on the absolute
-  reading would the Lecture classify F6 as nonsense rather than false.
+  (`STMT-LE-ABSOLUTE-VALUE-NO-FACT`). Classified neutral to F6 on a relative
+  reading of F6 ("one ought to believe what the evidence supports" as
+  instrumental to truth). On an absolute reading of F6 the Lecture would class
+  it as nonsense rather than false. Which reading F6 takes is not settled here.
 - **Wonder at the existence of the world is nonsense,** because one cannot
-  imagine the world not existing (`STMT-LE-WONDER-AT-EXISTENCE-NONSENSE`). It is
-  the same bipolarity criterion. It is a rival to the statementhood of a
+  imagine the world not existing (`STMT-LE-WONDER-AT-EXISTENCE-NONSENSE`). This
+  record connects it with the Tractatus's bipolarity; the Lecture states only
+  the imaginability condition. It is a rival to the statementhood of a
   candidate F2 of the form "the world exists", not to its truth. Wittgenstein
   reads "God created the world" as an expression of this experience.
-- **Religious terms are similes** that are similes of nothing
+- **Religious terms seem to be similes,** and where the facts cannot be stated
+  without the simile the expressions are nonsense
   (`STMT-LE-RELIGIOUS-TERMS-SIMILES`). This is a rival in spirit to realist
   God-talk, close to WF-P1. It is not attached to a leaf: the Lecture says the
   terms "seem" to be used so, and it ends in respect, not denial
