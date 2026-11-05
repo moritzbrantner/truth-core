@@ -10,6 +10,7 @@ from pathlib import Path
 from unittest.mock import patch
 
 import corpus
+from lean_test_support import build_skip_reason
 from argument_context import context_pack, format_context, import_closure, lean_reuse_review, resolve_target, theorem_blocks
 
 CHALLENGE = """import Demo.Vocabulary
@@ -268,6 +269,9 @@ class RepositoryContextTests(unittest.TestCase):
         results = corpus.load_dir("results")
         target = next(record for _, record in results
                       if record["id"] == "AQUINAS-ST-I-Q11-A3-GOD-ONE-FROM-NATURE")
+        reason = build_skip_reason(target["solution_module"])
+        if reason:
+            self.skipTest(reason)
         rows = corpus.run_lean_reuse_tool(results, inspect=[target["theorem"]])
         usage = corpus.lean_reuse_usage_map(rows, [target["theorem"]])
         self.assertIsInstance(usage[target["theorem"]], list)
