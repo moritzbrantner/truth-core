@@ -1,0 +1,11 @@
+{
+  "id": "DISAMB-HINGE-STATUS",
+  "term": "hinge (what stands fast in Über Gewißheit)",
+  "sense_definition_ids": [
+    "DEF-HINGE-KNOWN-TRUTH",
+    "DEF-HINGE-ARATIONAL-COMMITMENT",
+    "DEF-HINGE-NON-PROPOSITIONAL-CERTAINTY",
+    "DEF-HINGE-NONSENSE"
+  ],
+  "resolution": "STMT-OC-DOUBT-RESTS-ON-EXEMPT-SENTENCES and the result WITTGENSTEIN-UNIVERSAL-DOUBT-FAILS use only 'exempt from doubt' (DEF-DOUBTED-SENTENCE), which is neutral between the four senses: none is assumed. Only the known-truth sense would let a hinge count as an established floor item with an observation basis; the a-rational, non-propositional and nonsense senses each deny that a hinge is a known truth (§151, §§204-205), so under them the floor items F3/F4 would stand fast without being established in the corpus's sense. No argument passes from 'stands fast' to 'is known' or 'is true'. STMT-OC-IF-TRUTH-IS-GROUNDED-GROUND-NOT-TRUE is recorded as a conditional because §205 does not assert its antecedent."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "WITTGENSTEIN-INTERPRETATION-REGRESS",
+  "premise_statement_ids": [
+    "STMT-RULE-DETERMINED-ONLY-THROUGH-INTERPRETATION",
+    "STMT-NO-ENDLESS-INTERPRETATION-REGRESS"
+  ],
+  "conclusion_statement_id": "STMT-NO-RULE-APPLICATION-DETERMINED",
+  "inference_ids": [
+    "INF-WITTGENSTEIN-INTERPRETATION-REGRESS"
+  ],
+  "meaning": "The shape of the regress in PU §§198, 201 (#1010). If every item, an application of a rule or an interpretation of it, is determined only through a determined interpretation of it, and there is no endless chain of interpretations, then nothing is determined: the paradox of §201's first sentence. The fork theorem in the same config (regressFork) shows that the two premises are inconsistent with STMT-SOME-RULE-APPLICATION-DETERMINED, so a reader must give up one of the three: the diagnostic reading of §201 gives up the interpretation premise (STMT-PU-SOME-GRASP-OF-RULE-NOT-INTERPRETATION), Kripke's sceptic gives up factual determination (STMT-KRIPKE-NO-FACT-OF-MEANING), and an endless regress gives up finiteness. Each premise is needed (needsOnlyThroughInterpretation, needsNoEndless). The result attributes neither premise to Wittgenstein and settles no reading (DISAMB-RULE-FOLLOWING-PARADOX). Off the root routes.",
+  "definition_ids": [
+    "DEF-INTERPRETATION-OF-AN-ITEM",
+    "DEF-DETERMINED-BY-RULE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RULE-FOLLOWING-PARADOX"
+  ]
+}

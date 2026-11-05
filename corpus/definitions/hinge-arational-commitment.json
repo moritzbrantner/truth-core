@@ -1,0 +1,9 @@
+{
+  "id": "DEF-HINGE-ARATIONAL-COMMITMENT",
+  "term": "hinge (a-rational commitment reading)",
+  "definition": "A hinge is a fundamental practical commitment, not a belief, not rationally grounded, on which all rational assessment of beliefs depends (Pritchard, as SEP-FIDEISM §4 reports).",
+  "basis": "sourced",
+  "claim_ids": [
+    "SEP-FIDEISM-4-PRITCHARD-QUASI-FIDEISM-A"
+  ]
+}

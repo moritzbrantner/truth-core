@@ -1,0 +1,9 @@
+{
+  "id": "DEF-PLA-PRIVATE-LANGUAGE-FALSE",
+  "term": "private language (impossible: false)",
+  "definition": "'A private language is possible' is an intelligible proposition, shown false by reductio.",
+  "basis": "sourced",
+  "claim_ids": [
+    "SEP-PRIVATE-LANGUAGE-1-2-REDUCTIO-A"
+  ]
+}

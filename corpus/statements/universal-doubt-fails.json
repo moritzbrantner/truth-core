@@ -1,0 +1,8 @@
+{
+  "id": "STMT-UNIVERSAL-DOUBT-FAILS",
+  "paraphrase": "Universal doubt does not hold: whoever wanted to doubt everything would not get as far as doubting (Über Gewißheit §115).",
+  "lean_declaration": "TruthCore.German.Wittgenstein.OnCertainty.UniversalDoubtFails",
+  "definition_ids": [
+    "DEF-DOUBTED-SENTENCE"
+  ]
+}
