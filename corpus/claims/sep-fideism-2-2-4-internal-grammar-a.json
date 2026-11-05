@@ -1,0 +1,12 @@
+{
+  "id": "SEP-FIDEISM-2-2-4-INTERNAL-GRAMMAR-A",
+  "statement_id": "STMT-WF-RELIGION-INTERNAL-GRAMMAR",
+  "source_id": "SEP-FIDEISM",
+  "locator": "§2.2.4, 'religion is a self-contained and primarily expressive enterprise, governed by its own internal logic or grammar'",
+  "interpretation": "The entry reports the fideistic interpretation of the later Wittgenstein: religion is 'a self-contained and primarily expressive enterprise, governed by its own internal logic or \"grammar\"', the view 'commonly called Wittgensteinian Fideism'. Read as: what the practice's own standards (its grammar) endorse is a correct move in it. Only that direction is formalized. The entry doubts that Wittgenstein endorsed the view; it is not attributed to him. Attribution reading of the position the entry reports, not a view of the entry's author.",
+  "status": "formalized",
+  "attribution": "The passage states that on Wittgensteinian fideism religion is a self-contained enterprise governed by its own internal grammar, which is the premise that what the practice's own standards endorse is a correct move in it.",
+  "definition_ids": [
+    "DEF-WITTGENSTEINIAN-FIDEISM"
+  ]
+}

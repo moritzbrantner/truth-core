@@ -1,0 +1,12 @@
+{
+  "id": "VATICAN-I-DEI-FILIUS-CH2-NATURAL-KNOWABILITY",
+  "statement_id": "STMT-DEI-FILIUS-CH2-CHURCH-TEACHES-NATURAL-KNOWABILITY",
+  "source_id": "VATICAN-I-DEI-FILIUS",
+  "locator": "ch. 2, para. 1: Eadem Sancta Mater Ecclesia tenet et docet, Deum, rerum omnium principium et finem, naturali humanae rationis lumine e rebus creatis certo cognosci posse",
+  "interpretation": "The Church 'holds and teaches' that God, beginning and end of all things, 'can be known with certainty by the natural light of human reason from created things' (with Rom 1:20), and that it pleased God to reveal himself 'alia, eaque supernaturali via' (Heb 1:1-2). The contrast of the natural light with the supernatural way is what STMT-NATURAL-REASON-IS-SHARED-REASON reads (a supports relation, not a stating claim).",
+  "status": "formalized",
+  "attribution": "The passage states that the Church holds and teaches that God can be known with certainty from created things by the natural light of human reason and that God also revealed himself by another, supernatural way, which is the premise.",
+  "definition_ids": [
+    "DEF-NATURAL-REASON-SHARED"
+  ]
+}
