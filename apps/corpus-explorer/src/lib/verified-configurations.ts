@@ -3,6 +3,8 @@ import path from "node:path";
 
 import type { RegisteredConfigurationCase } from "./configuration-cases";
 
+const MAX_ASSUMPTION_DIMENSIONS = 11;
+
 export type ConfigurationCore = {
   statement_ids: string[];
   result_id: string;
@@ -32,7 +34,7 @@ export type VerifiedConfigurationCase = Omit<RegisteredConfigurationCase, "verif
   configurations: CertifiedSelection[];
   assumption_space: {
     statement_ids: string[];
-    max_dimensions: 10;
+    max_dimensions: typeof MAX_ASSUMPTION_DIMENSIONS;
     root: string;
     nodes: AssumptionNode[];
     limits: { classifier_calls: number; decision_nodes: number; terminal_families: number; syntactic_selections: number; covered_selections: number; note: string };
@@ -95,8 +97,8 @@ function verifiedCase(value: unknown): value is VerifiedConfigurationCase {
       && model.profile_mismatches.every((entry: unknown) => record(entry) && typeof entry.parameter === "string" && typeof entry.expected === "string" && typeof entry.registered === "string"))
     || !record(value.assumption_space)) { return false; }
   const space = value.assumption_space;
-  if (!strings(space.statement_ids) || space.statement_ids.length > 10 || new Set(space.statement_ids).size !== space.statement_ids.length
-    || space.max_dimensions !== 10 || typeof space.root !== "string" || !Array.isArray(space.nodes) || !space.nodes.every(node)
+  if (!strings(space.statement_ids) || space.statement_ids.length > MAX_ASSUMPTION_DIMENSIONS || new Set(space.statement_ids).size !== space.statement_ids.length
+    || space.max_dimensions !== MAX_ASSUMPTION_DIMENSIONS || typeof space.root !== "string" || !Array.isArray(space.nodes) || !space.nodes.every(node)
     || !record(space.limits) || typeof space.limits.note !== "string"
     || !["classifier_calls", "decision_nodes", "terminal_families", "syntactic_selections", "covered_selections"].every((key) => record(space.limits) && count(space.limits[key]))) { return false; }
   const nodes = new Map(space.nodes.map((entry) => [entry.id, entry]));

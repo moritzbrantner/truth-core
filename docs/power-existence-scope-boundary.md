@@ -1420,3 +1420,11 @@ No presupposition-only-to-efficient-cause inference, respect-to-bare-being
 substitution, new passive-potency claim, transitivity, well-foundedness or
 modal support transport is admitted. Exact premise change: zero. The bounded
 lecture is exhausted; queue/candidate handling remains coordinator-owned.
+
+## Common modal priority (#950)
+
+The [source and type audit](notes/modal-grounding-priority-950.md) distinguishes
+necessary target truth, persistence of support and one common WF priority rank.
+It composes the existing necessary-underived union route without defending its
+metaphysical premises; rotating/parity/switching controls preserve the remaining
+escapes and the separate no-contingent-supporter burden.

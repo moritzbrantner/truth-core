@@ -1,0 +1,10 @@
+{
+  "id": "STMT-GROUNDING-ENTAILMENT-AND-INTERNALITY-INDEPENDENT",
+  "paraphrase": "Grounding entailment and internality are logically independent claims even given factivity: entailment concerns grounded truth, while internality concerns the persistence of grounding when its relata obtain.",
+  "definition_ids": [
+    "DEF-GROUNDING-NECESSITATION-SOURCE-SENSES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSITATION-PRIORITY-INVARIANCE"
+  ]
+}

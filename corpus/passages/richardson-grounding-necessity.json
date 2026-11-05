@@ -1,0 +1,28 @@
+{
+  "snapshot": {
+    "source_url": "https://web.archive.org/web/20240216095037id_/https://philpapers.org/archive/RICGIN.pdf",
+    "retrieved_at": "2026-11-05T19:54:41Z",
+    "sha256": "sha256:af0aa004d7c1ce418d7df24e8da20ffebb71d1ecdd7040b35b0989563512b001",
+    "kind": "web_snapshot",
+    "source_id": "RICHARDSON-GROUNDING-NECESSARY-CONTINGENT-2021",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "Copyright2019 Taylor & Francis; complete archived public PhilPapers author deposit; no book/publisher paywall bypass. Older/later1MiB-truncated archive captures rejected."
+  },
+  "passages": [
+    {
+      "id": "RICHARDSON-GROUNDING-NECESSARY-CONTINGENT-2021-ARTICLE",
+      "locator": "Grounding is Necessary and Contingent, complete supplied PDF including front matter and references",
+      "claim_locator_prefixes": [
+        "PDF p.",
+        "PDF pp."
+      ],
+      "pdf_pages": {
+        "first": 1,
+        "last": 29
+      },
+      "text_sha256": "sha256:08dca316b9153a8b763b52c2644b46585993bc17b614f2286783ad7553964c7a",
+      "incipit": "Inquiry An Interdisciplinary Journal of Philosophy ISSN: (Print) (Online)"
+    }
+  ]
+}

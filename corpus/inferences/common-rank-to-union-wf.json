@@ -1,0 +1,11 @@
+{
+  "id": "INF-COMMON-RANK-TO-UNION-WF",
+  "input_statement_ids": [
+    "STMT-COMMON-WELL-FOUNDED-PRIORITY-RANK"
+  ],
+  "output_statement_id": "STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT",
+  "rule": "checked-theorem-composition-and-model-controls",
+  "meaning": "Pull accessibility back along the supplied rank map using the existing Regress.Graph.Map.wellFounded.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
