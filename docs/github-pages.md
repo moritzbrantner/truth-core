@@ -8,7 +8,7 @@
 - `/forest` — competing conclusions as expandable AND/OR argument trees, with hypothetical premise reversals explicitly kept separate from verified refutations.
 - `/forest/assumptions` — a complete, recursively expandable single-goal AND/OR tree with locally saved hypothetical True/False choices, unsaved shareable previews, and reviews of certified incompatible cores. Search keeps exact text/ID matches first, then prioritizes propositions near the focused goal and premises that could complete a recorded result route. Arguments show satisfied, unresolved and denied *hypothetical* premises and are ordered by current readiness and recorded evidence; derived implications appear nearest the focused goal first. None of these display rankings changes corpus statuses, verification, or conflict certificates.
 - `/guide/classical-god` — a three-step, ordinary-language walkthrough of the supplied perfect-root → positive intellect/will → classical-God assembly. It links the exact corpus inputs, Lean proof records, statement and source dossiers, countermodel status, the argument forest and the full network. It shows the selected God-root frontier's current route costs without turning conditional derivations into premise truth.
-- `/state` — the **state of the case** (#200): the root and the six stages with their status, the open premises that reach the root (bare first, then sourced), the closed statements on the root's paths, the verified derivations on those paths, and the recorded alternatives (refuted or not) and objections.
+- `/state` — the **state of the case** (#200): the root and the six stages with their status, the open premises that reach the root (bare first, then supported, then stated), the closed statements on the root's paths, the verified derivations on those paths, and the recorded alternatives (refuted or not) and objections.
 - `/statements/<ID>` — one statement: where it stands, what establishes it, its source witnesses (stating claims and `supports` relations), the arguments that use it, its relations, and its Lean declaration with a link to the source line.
 - `/dossiers/<ID>` — one premise dossier: source readings, definitions, competing interpretations, attempts and blockers, and root-route contribution, all derived from the canonical records.
 - `/results/<ID>` — one result: verified derivation or transcription, conclusion and premises with their status, the advertised theorem as frozen in the Challenge module, the Comparator configuration (permitted axioms, NanoDa), and the proof projection.
@@ -33,7 +33,7 @@ under **More views and filters** and the research queue occupies a narrow inspec
 Community colors and structural leaves describe inference connectivity, not confidence.
 Round proposition dots and small square inference junctions preserve the AND-premise
 structure of arguments. Rings distinguish establishment, conditional closure and
-bare or sourced frontier; the visible legend and optional **Frontier highlighted**
+bare, supported or stated frontier; the visible legend and optional **Frontier highlighted**
 emphasis reveal the frontier dots without inventing a geometric boundary. The
 default dashed research-link layer adds the corpus's recorded alternatives,
 attacks, refutations and claim/argument evidence. For claim and argument relations,
@@ -64,7 +64,7 @@ computed at build time. **Graph data** lists the buckets; any can be loaded, or
 every one (`b=all`). `lookup.json` (ID → bucket) loads when the URL addresses a
 node, and `search.json` when a text query is typed. Facet filters for lane, area
 (the import area of the Lean namespace), closure (established, conditional,
-bare or sourced frontier, neither), linked record kind (claim, argument, result,
+bare, supported or stated frontier, neither), linked record kind (claim, argument, result,
 inference, research link) and root reachability live in the URL (`lane`,
 `area`, `closure`, `rec`, `reach`). Each bucket's manifest entry counts these
 facets, so with a filter active only the default buckets (kept as dimmed

@@ -1,0 +1,20 @@
+{
+  "id": "STMT-SUBSISTENT-INFINITY-RECEPTION-CONTROLS",
+  "paraphrase": "Six stipulated finite interpretations of the shared essence/esse/reception/limitation/receptive-potency vocabulary. Each of STMT-ESSE-LIMITED-ONLY-THROUGH-RECEPTION, STMT-ESSE-RECEIVED-IN-OWN-ESSENCE, STMT-RECEIVER-IN-POTENCY-TO-RECEIVED-ESSE, STMT-NOTHING-IN-RECEPTIVE-POTENCY-TO-ITSELF and STMT-UNLIMITED-ESSE-IS-INFINITE has an interpretation in which it fails, the other four hold, and STMT-SUBSISTENT-BEING-IS-INFINITE fails. The five cases are: a limited unreceived esse; an esse received in a principle other than the essence; an esse received in itself with no receptive potency; an esse received in and in potency to itself; and nothing limited and nothing infinite. A sixth interpretation satisfies all five. It has a being whose esse is its essence, and another being whose esse differs from its essence, is received in that essence, is limited and is not infinite. These are formal interpretations, not claims that any is metaphysically possible.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.InfinityReception.Control.Certificate",
+  "definition_ids": [
+    "DEF-ESSE-LIMITED",
+    "DEF-ESSE-RECEIVED-IN",
+    "DEF-RECEPTIVE-POTENCY",
+    "DEF-INFINITE",
+    "DEF-ESSE",
+    "DEF-ESSENCE-THOMISTIC-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSE-RECEPTION",
+    "DISAMB-ESSE-LIMITATION",
+    "DISAMB-RECEPTIVE-POTENCY",
+    "DISAMB-INFINITY",
+    "DISAMB-ESSENCE"
+  ]
+}

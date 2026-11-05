@@ -1,0 +1,8 @@
+{
+  "id": "DEF-INSTANCE-GROUNDING",
+  "term": "instance (truthmaker) reading of grounds of an existential fact",
+  "definition": "InstanceGrounding A d says every reason for d, at any world, is the existence fact A.exist x of some individual x. It is the fact-to-bearer bridge of #485: it excludes an abstract law, structural rule or other non-existence fact as a reason for d. It says nothing about whether x is concrete or causes anything.",
+  "basis": "stipulative",
+  "note": "Analyst-stated condition for #485; it is under test, not asserted. A sourced reading would need pinned witnesses for the grounding-of-disjunction literature listed on #485 (Merlo 2020, Trogdon 2013, Leuenberger 2014), none of which was read for this work.",
+  "lean_declaration": "TruthCore.Explanation.DisjunctionGround.InstanceGrounding"
+}

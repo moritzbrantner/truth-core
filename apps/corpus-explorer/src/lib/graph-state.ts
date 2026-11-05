@@ -152,7 +152,9 @@ export function parseGraphState(params: ReadableParams): GraphState {
     arg: params.get("arg") ?? "",
     area: list(params, "area"),
     lane: list(params, "lane"),
-    closure: list(params, "closure").filter((value): value is ClosureFacet => CLOSURE_FACETS.some((facet) => facet.id === value)),
+    // Saved links from before #987 name "frontier-sourced": both of its successors.
+    closure: [...new Set(list(params, "closure").flatMap((value) => (value === "frontier-sourced" ? ["frontier-supported", "frontier-stated"] : [value])))]
+      .filter((value): value is ClosureFacet => CLOSURE_FACETS.some((facet) => facet.id === value)),
     rec: list(params, "rec").filter((value): value is RecordFacet => RECORD_FACETS.some((facet) => facet.id === value)),
     reach: oneOf(params.get("reach"), ["", "root", "other"] as const, ""),
     buckets: list(params, "b"),

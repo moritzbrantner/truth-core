@@ -688,3 +688,24 @@ Two narrow source glosses and one disambiguation supply no Lean relation or fram
 Root and independent fidelity reviews accepted these readings without substantive findings after materialization/raw-title hash checks; this is source fidelity only, not soundness or formal consequence.
 
 A5C archive availability repair: existing dated Wayback capture20200217005950 returns exactly the original13527bytes/hash0fe7083b…ca26009. Only fallback URL/hash are added; no repin or claim/type change. Historical hosted677677… drift remains unexplained because its response body was not retained. This supports a repaired new head, not an identical-run retry.
+
+### A5 alternate literal reports and revised-history scope (2026-11-01)
+
+Materialized/read the four existing `NECESSARYBEING-A5P2B/C2/P2C/C3` witnesses and inspected raw titles after SHA256 verification. Six qualified claims add two bare statements, with four exact proposition-content reuses:
+
+| Claim | Precise locator and identity decision |
+| --- | --- |
+| `NB-SURVEY-A5-ALT-POSSIBLE-IMPOSSIBILITY` | C2 modal paragraph after20/note, with P2B question context. Reuses `STMT-NB-A2-ALT-POSSIBLE-IMPOSSIBILITY`; question and suffix match A2. C2’s causal prefix reuses main’s six non-modal readings, not a new main-P2 report. |
+| `NB-SURVEY-A5-REVISED-MUST-EXIST` | P2C opening stipulation/complement. Reuses `STMT-NB-A2-REVISED-MUST-EXIST`; κ concerns individual existence, not an automatically redefined fact-obtaining predicate. |
+| `NB-SURVEY-A5-REVISED-SHORT-UNCAUSABILITY-REPORT` | NEW corresponding statement; P2C shortened reaffirmation/affirmative continuation. It omits P1’s explicit obtaining/nonempty conditional. Preserve the literal wording without choosing an entailment relation to the full report. |
+| `NB-SURVEY-A5-RECALLED-FULL-UNCAUSABILITY-REPORT` | C3steps2–3 explicitly recalls the FULL original conditional. Reuses `STMT-NB-A5-NEGATED-NECESSARY-UNCAUSABILITY` conditional on earlier P1 retention, not as a conclusion from the shortened answer or an actual session-state claim. |
+| `NB-SURVEY-A5-REVISED-HISTORY-REDUCTIO` | NEW corresponding statement; C3steps1–20, inner proof11 and fixed-roster note. The prefix words match main but κ changes the individual roster/class. Retain the separately recalled full report and earlier positive-caused content as conditional inputs. |
+| `NB-SURVEY-A5-REVISED-ACTUALITY-CONCLUSION` | C3 final paragraph after20/note. Reuses `STMT-NB-A2-REVISED-ACTUALITY-CONCLUSION`; text matches A2C3 and consumes discharged20, not hypothetical17 cause. |
+
+The source calls the short wording a previous report, but that reference does not certify equivalence, either entailment direction or actual retention of the full report. No countermodel, formal semantics or owner selection is introduced to settle their relationship. If the full report is separately retained, its ordinary classical conditional unpacking carries nonempty obtaining-situation coverage; this batch supplies no bridge from the short wording to that guarded input.
+
+P2C/C3 stock situation tooltips still describe possible situations not required to obtain. The revised κ/complement concerns individual existence and the exact individual roster. Do not silently apply κ to fact obtaining or equate ordinary situation-contingency with the revised individual class. Source uses of necessity and the same-C/individual/time/domain correspondences remain explicit application obligations rather than a chosen formal classification.
+
+Inner NecC is discharged at11 while outer NoPossibleκNB persists through11–17; only18–20 discharges possible κ Necessary Being. Neither hypothetical C-causability nor its causal witness is exported. Step11 still borrows earlier `STMT-NB-A4-POSSIBLE-CAUSED-THING` CONTENT, not new assent or an all-entry-route/session guarantee. Rigid current-or-past/EVER roster, negative empty C, fact admission/preservation, actual concrete causal bearer, whole-history externality and modal/rigid-witness guards remain OPEN. Already verified empty-history/count/conjunction/modal results need no repeated proof/model and are not source soundness.
+
+All materially different A5 main/alternate readings now have precise public attribution or exact-reuse locators; the short/full relationship remains unresolved rather than silently decided. The existing candidate advances to **A6**. No new glossary, framework, Lean, inference/result, pin, source kind/dependency or philosophical discharge is added. This public delivery includes exactly four named alternate witness manifests and depends only on the already merged #850 main meanings. It preserves independently delivered A8–A10 history and introduces none of the private A6–A7 findings. No PHP answer/session request or campaign completion is claimed.

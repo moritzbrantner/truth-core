@@ -6,8 +6,10 @@ import TruthCore.Results.Explanation.AnselmUltimateSource.Solution
 import TruthCore.Results.Explanation.AutonomousGroundNecessity.Solution
 import TruthCore.Results.Explanation.BCCFDerivative.Solution
 import TruthCore.Results.Explanation.BorrowedExercise.Solution
+import TruthCore.Results.Explanation.CompleteResponseParity.Solution
 import TruthCore.Results.Explanation.CondensationSufficiency.Solution
 import TruthCore.Results.Explanation.ConservativeReasonExpansion.Solution
+import TruthCore.Results.Explanation.DisjunctionGround.Solution
 import TruthCore.Results.Explanation.EmptyHistoryCausalAvailability.Solution
 import TruthCore.Results.Explanation.EmptyHistoryCountControl.Solution
 import TruthCore.Results.Explanation.ExistenceIngredient.Solution
@@ -21,6 +23,7 @@ import TruthCore.Results.Explanation.JointContingencyLocalization.Solution
 import TruthCore.Results.Explanation.JointCooperation.Solution
 import TruthCore.Results.Explanation.JointGroundEffectContingency.Solution
 import TruthCore.Results.Explanation.LawActuality.Solution
+import TruthCore.Results.Explanation.MechanismInterventionParity.Solution
 import TruthCore.Results.Explanation.NecessaryFactBoundary.Solution
 import TruthCore.Results.Explanation.NecessaryUltimateSource.Solution
 import TruthCore.Results.Explanation.NoBruteCompatibility.Solution

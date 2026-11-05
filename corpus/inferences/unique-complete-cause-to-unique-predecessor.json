@@ -1,0 +1,11 @@
+{
+  "id": "INF-UNIQUE-COMPLETE-CAUSE-TO-UNIQUE-PREDECESSOR",
+  "input_statement_ids": [
+    "STMT-UNIQUE-COMPLETE-CAUSE-PER-EFFECT"
+  ],
+  "output_statement_id": "STMT-SOURCE-FOREST-UNIQUE-PREDECESSOR",
+  "rule": "mechanical-same-graph-interface-projection",
+  "meaning": "Mechanical assembly/transcription: UniqueCausePerEffect G and Relator.LeftUnique G.edge differ only in quantifier binder order. On the SAME graph G, reorder effect/cause variables and preserve the exact incoming-edge condition and equality. The complete-production interpretation is not transferred to a different contribution/grounding graph. No new existence, connectivity, source uniqueness, causal WF, single-effect-per-producer law, necessity or premise truth follows.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

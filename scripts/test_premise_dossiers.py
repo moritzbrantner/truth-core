@@ -76,6 +76,42 @@ class DossierTests(unittest.TestCase):
         self.data["arguments"][0]["meaning"] = "m"
         self.assertIn("Floor basis: observation (met); justification: CLAIM", format_dossier(dossier, self.data))
 
+    def test_optional_issue_targets_are_explicitly_snapshot_scoped(self):
+        from premise_dossiers import format_dossier
+        self.data["claims"][0].update(source_id="SOURCE", locator="section", interpretation="Reading")
+        self.data["definitions"] = [{"id": "D1", "definition": "D1"}, {"id": "D2", "definition": "D2"}]
+        self.data["disambiguations"][0]["resolution"] = "Two senses"
+        self.data["arguments"][0]["meaning"] = "A conditional implication"
+        dossier = dossier_index(self.data, self.report)["P"]
+        self.assertNotIn("Issue targets", format_dossier(dossier, self.data))
+        dossier["targeting_issues"] = [{"number": 149, "status": "missing"}]
+        self.assertIn("Issue targets (offline acceptance snapshot): #149 [missing]",
+                      format_dossier(dossier, self.data))
+
+    def test_restricted_projection_equals_full_entry(self):
+        full = dossier_index(self.data, self.report)
+        for sid in full:
+            self.assertEqual(dossier_index(self.data, self.report, only={sid}), {sid: full[sid]})
+        self.assertEqual(dossier_index(self.data, self.report, only=set()), {})
+
+    def test_text_limit_caps_sections_keeps_newest_attempts_and_zero_limit_is_unchanged(self):
+        from premise_dossiers import format_dossier
+        self.data["definitions"] = [{"id": "D1", "definition": "x" * 500}, {"id": "D2", "definition": "d2"}]
+        self.data["disambiguations"][0]["resolution"] = "r"
+        self.data["claims"][0].update(source_id="S", locator="L", interpretation="i")
+        self.data["arguments"][0]["meaning"] = "m"
+        self.data["attempts"] = [attempt(id=f"ATTEMPT-{n}", date=f"2026-10-0{n}") for n in range(1, 4)]
+        dossier = dossier_index(self.data, self.report, only={"P"})["P"]
+        full = format_dossier(dossier, self.data)
+        self.assertEqual(format_dossier(dossier, self.data, limit=None), full)
+        self.assertIn("x" * 500, full)
+        capped = format_dossier(dossier, self.data, limit=1)
+        self.assertIn("  … 1 more (see --json)", capped)  # one of the two definitions hidden
+        self.assertNotIn("x" * 300, capped)  # long prose clipped under a limit
+        self.assertIn("  … 2 earlier (see --json)", capped)
+        self.assertIn("ATTEMPT-3", capped)
+        self.assertNotIn("ATTEMPT-1 ", capped)
+
     def test_all_backfilled_attempts_bind_to_existing_records(self):
         data = {name: [record for _, record in corpus.load_dir(name)] for name in ("statements", "results", "claims", "attempts")}
         evidence = {entry["id"] for entry in data["results"] + data["claims"]}

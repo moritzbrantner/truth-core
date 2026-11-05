@@ -7,6 +7,12 @@ and current root-route contribution. `--json` emits the same projection as JSON;
 `--root STMT-…` selects a different root. `--all --json` emits the complete index
 in one call for static explorer generation. Unknown statements or roots fail.
 
+A single-statement dossier projects only that statement and skips corpus
+validation (run `corpus.py check`); `--all` still validates. Text output shows at
+most `--limit` entries per section (default 8; the newest attempts) and shortens
+long prose, saying how many entries `--json` adds. `--limit 0` gives the full
+text. `--json` is always complete and unchanged (#958).
+
 The explorer links `/dossiers/<STMT-ID>/` from every statement page. CLI and
 explorer consume the same Python projection and authoritative frontier rules.
 Closure classification and *established* are separate: a conditional proof can

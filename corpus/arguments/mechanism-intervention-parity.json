@@ -1,0 +1,17 @@
+{
+  "id": "MECHANISM-INTERVENTION-PARITY",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-MECHANISM-INTERVENTION-PARITY",
+  "inference_ids": ["INF-MECHANISM-INTERVENTION-PARITY"],
+  "meaning": "Reuse the existing regularity/intervention contrast to separate a structural AND equation from an idle lookup under surgical public settings; independently prove that packing the same two Boolean degrees of freedom in one root-state slot cannot be distinguished from two slots by those settings. Retain #974's graph-root contrast without inferring metaphysical explanation from the experiment.",
+  "definition_ids": [
+    "DEF-MECHANISM-INTERVENTION-PARITY",
+    "DEF-REGULARITY-INTERVENTION",
+    "DEF-COMPLETE-RESPONSE-PARITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REGULARITY-CAUSAL-SENSES",
+    "DISAMB-JOINT-SUPPLY-POWER-OCCURRENCE",
+    "DISAMB-ULTIMATE-ADEQUACY-FOUNDATION"
+  ]
+}

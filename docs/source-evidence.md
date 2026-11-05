@@ -65,6 +65,14 @@ python3 scripts/source_evidence.py web-hashes <URL> --encoding utf-8 \
   --wayback 'https://web.archive.org/web/<timestamp>id_/<URL>'
 ```
 
+Byte hashes cover the response entity after HTTP `Content-Encoding` decoding,
+not the gzip- or zstd-coded response bytes. The downloader requests `identity`, but still
+decodes a server's gzip or zstd response before applying the unchanged hash
+checks. Zstd uses Python 3.14's `compression.zstd` when available; older Python
+requires the OS `zstd` command (`sudo apt-get install zstd` on Debian/Ubuntu).
+A missing decoder or malformed zstd body fails explicitly. Decoding does not
+normalize page content or permit a different byte/text hash.
+
 Pages change: a footer year, an analytics script, or a site edit makes the live bytes drift. Every web snapshot should therefore carry a Wayback fallback. Use a fixed-timestamp `id_` capture whose extracted text matches the pinned `text_sha256` for **every** passage of the manifest (`web-hashes … --wayback` prints `wayback_text_matches`). Fetch it twice so that `wayback_sha256` is byte-stable. If no existing capture matches but the live page still gives the pinned bytes, ask the Wayback Machine to save the page now (`https://web.archive.org/save/<URL>`), then pin the new capture after the same checks. Adding a fallback leaves `sha256`, `text_sha256` and `retrieved_at` unchanged; the `license` note says which capture was pinned and why. When no matching capture can be pinned, the note says so, and the snapshot stays fragile.
 
 A page that drifts without a matching capture can no longer be materialized. Do not just swap in the new hashes. First compare the newly extracted text with the pinned `text_sha256`. If the text is unchanged, only the byte hash is re-pinned, and the note records the old hash and the date. If the text changed, re-read every claim on the passage against the new text before re-pinning (a fidelity review, not a hash update).
@@ -179,9 +187,11 @@ Network-backed source verification:
 python3 scripts/source_evidence.py verify
 ```
 
-`verify` also refetches every web snapshot, live or from its Wayback capture, and checks bytes and extracted text. `verify --base <REF> [--head <REF>]` refetches only the passages whose manifest files changed between the two commits. It refetches all of them when `scripts/source_evidence.py` itself changed. Every manifest and claim binding is still validated offline.
+`verify` also refetches every web snapshot, live or from its Wayback capture, and checks bytes and extracted text. `verify --base <REF> [--head <REF>]` refetches only the passages whose manifest files changed between the two commits, **even if the verifier itself changed**. A verifier-only PR runs the offline corpus and verifier regression checks without refetching unrelated witnesses. Every manifest and claim binding is still validated offline.
 
-CI runs the corpus binding check on every run. On a pull request it runs `verify --base HEAD^1 --head HEAD`, so each passage the PR adds or changes is fetched and checked. Unrelated PRs are no longer blocked by a page that drifted outside the repository. On a push to `main`, and in the nightly scheduled run, CI runs the full `verify`. Drift therefore still turns `main` and the nightly run red, where the owner is notified. The repair is a fallback or re-pin as described above. New claims therefore cannot enter the formalized corpus without reproducible source evidence, except claims on a bibliographic span, which are marked `witness: "bibliographic"` and listed as not byte-verified.
+CI runs the corpus binding check and deterministic verifier tests on every run. On a pull request it runs `verify --base HEAD^1 --head HEAD`, so each passage the PR adds or changes is fetched and checked; an unavailable or hash-mismatched changed witness still fails CI. A source-verifier code change alone does not turn every unchanged third-party document into a PR dependency.
+
+On a push to `main`, CI refetches **all** witnesses using `verify --defer-unavailable-unchanged HEAD^1`. Only a web snapshot unchanged since that base whose every pinned URL is transport-unreachable may be deferred: the live URL **and** the pinned Wayback fallback, or the live URL alone when no fallback is pinned. A response that arrives but drifts or does not decode is never deferred. The output names it `unavailable, NOT byte-verified` and the final report says `source evidence incomplete`; it never counts as verified. Newly changed witnesses, downloaded-byte drift, extraction drift, invalid manifests, and immutable repository witnesses remain hard failures. The nightly scheduled run and manual full run stay strictly blocking on missing access too, so persistent outages are visible rather than silently becoming certification. This separates transient third-party availability from a bad repository change without weakening the changed-witness gate. Bibliographic spans remain explicitly unverified citation-only evidence.
 
 ## What this does not prove
 
@@ -193,3 +203,21 @@ The source-evidence layer intentionally does not use an LLM score as a truth ora
 - the philosophical premise itself is true.
 
 Those are handled by explicit interpretation notes, fidelity critique, alternative claims, and human or scholarly review. The source-evidence layer makes that review auditable because the underlying witness is stable and reproducible.
+
+## Rejected web-response diagnostics
+
+When a downloaded web body fails its pinned SHA-256, verification still rejects
+it and saves those exact hash-input bytes as `.bin` under the ignored
+`.cache/truth-core/source-diagnostics/` directory. A paired JSON file records
+only the requested URL, passage label, expected hash and actual hash. Filenames
+are hashes; rejected bodies never enter the trusted web cache. The diagnostic
+write uses the failed download itself, with no second request. If writing fails,
+the original byte-drift error still fails verification.
+
+The source-verification CI job uploads only this directory as
+`source-drift-diagnostics-<run_attempt>`, retained for three days. Each rerun
+keeps earlier attempts’ artifacts. Inspect a downloaded `.bin`
+as untrusted data and compare its paired hashes; a later successful fetch cannot
+explain what the failed request returned. Request/response headers and environment
+values are not collected. These diagnostics do not establish the cause of drift
+or authorize changing a source pin.

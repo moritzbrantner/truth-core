@@ -69,6 +69,19 @@ export function researchFrontier(
         href: `/dossiers/${item.statement_id}`,
       });
     }
+    if (item.depth === "supported") {
+      add({
+        id: `evidence:${item.statement_id}`,
+        kind: "evidence",
+        frontier: "knowledge",
+        statementIds: [item.statement_id],
+        recordIds: item.supporting_claims,
+        title: item.paraphrase,
+        blocker: "Only a supports relation backs it: no claim states it, and the relation's note records the gap (#987).",
+        nextAction: "Find a source that states it, or close the recorded gap by an explicit argument.",
+        href: `/dossiers/${item.statement_id}`,
+      });
+    }
     for (const alternative of item.alternatives.filter((entry) => !entry.refuted)) {
       add({
         id: `alternative:${item.statement_id}:${alternative.statement_id}`,

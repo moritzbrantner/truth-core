@@ -1,4 +1,6 @@
-import TruthCore.Greek.Plato.Forms
+module
+
+public import TruthCore.Greek.Plato.Forms
 
 /-! Parmenides 132a–b and 132d–133a: independently challengeable reconstructions.
 The shared Forms vocabulary is unchanged. Eligibility models the disputed domain
@@ -6,6 +8,8 @@ of the formation rule; it is not inferred from ordinary self-predication.
 All strengthened schemata here are explicit research premises, not dialogue-wide
 attributions. No temporal production, causal priority, or verdict on Platonism
 is built into a list of numerically distinct Forms. -/
+@[expose] public section
+
 namespace TruthCore.Greek.Plato.ThirdMan
 open TruthCore.Greek.Plato.Forms
 universe u v

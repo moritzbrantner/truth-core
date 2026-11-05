@@ -1,0 +1,8 @@
+{
+  "id": "DEF-LOCAL-GROUND",
+  "term": "local ground (box-exists reason)",
+  "definition": "LocallyGrounded A a d says that at every world accessible from a some fact is admitted as a reason for d there. The reason may differ from world to world, so this is the world-local truthmaker or reason of whichever disjunct holds there.",
+  "basis": "stipulative",
+  "note": "Analyst-stated condition for #485; it is under test, not asserted. A sourced reading would need pinned witnesses for the grounding-of-disjunction literature listed on #485 (Merlo 2020, Trogdon 2013, Leuenberger 2014), none of which was read for this work.",
+  "lean_declaration": "TruthCore.Explanation.DisjunctionGround.LocallyGrounded"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "STMT-COMPOSITE-UNITING-CAUSE-CONTROLS",
+  "paraphrase": "Six stipulated finite interpretations of the composition/uniting/causal vocabulary. Each of STMT-COMPOSITE-HAS-TWO-DISTINCT-COMPONENTS, STMT-DIVERSE-COMPONENTS-UNITED-ONLY-BY-A-CAUSE, STMT-UNITING-CAUSE-IS-EFFICIENT, STMT-UNITING-CAUSE-CAUSES-COMPOSITE-BEING and STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF has an interpretation in which it fails, the other four hold, and STMT-COMPOSITE-HAS-A-UNITING-CAUSE fails. In the first, STMT-COMPOSITE-HAS-COMPONENT-OTHER-THAN-ITSELF also holds. A sixth interpretation satisfies all five with a composite present. These are formal interpretations, not claims that any is metaphysically possible.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7Uniting.Control.Certificate",
+  "definition_ids": [
+    "DEF-COMPOSITION-COMPONENT",
+    "DEF-UNITING-CAUSE",
+    "DEF-EFFICIENT-CAUSING",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-ESSE",
+    "DEF-SIMPLE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNITING-CAUSE",
+    "DISAMB-CAUSE"
+  ]
+}

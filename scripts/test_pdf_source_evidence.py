@@ -1,5 +1,7 @@
 """PDF web snapshots use the existing byte/text integrity boundary."""
 import subprocess
+import tempfile
+from pathlib import Path
 import unittest
 from unittest import mock
 
@@ -40,7 +42,17 @@ def passage() -> dict:
     }
 
 
-class PdfSnapshotTest(unittest.TestCase):
+class IsolatedPdfEvidenceTest(unittest.TestCase):
+    def setUp(self):
+        directory = tempfile.TemporaryDirectory()
+        self.addCleanup(directory.cleanup)
+        for name, child in (("WEB_CACHE", "trusted"), ("SOURCE_DIAGNOSTICS", "diagnostics")):
+            patcher = mock.patch.object(se, name, Path(directory.name) / child)
+            patcher.start()
+            self.addCleanup(patcher.stop)
+
+
+class PdfSnapshotTest(IsolatedPdfEvidenceTest):
     def test_materialize_selected_page_and_integrity(self):
         item = passage()
         def fetch(url, expected, label):
@@ -94,7 +106,7 @@ class PdfSnapshotTest(unittest.TestCase):
             se.extract_web_text(fixture_pdf(second_text=b''), item)
 
 
-class PdfSoftHyphenTest(unittest.TestCase):
+class PdfSoftHyphenTest(IsolatedPdfEvidenceTest):
     # Actual Oppy pp.16/18/20 deltas from Poppler 24.02.0 and 26.01.0.
     # Synthetic surrounding text avoids redistributing the copyrighted chapter.
     old = "\u00adreality r\u00ad\neality, \u00adsingularity” real-time non‐natural\f"

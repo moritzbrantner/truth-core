@@ -1,0 +1,33 @@
+{
+  "id": "ATOMIC-SOURCE-TO-GRAPH-SOURCE-WITNESS",
+  "premise_statement_ids": [
+    "STMT-ATOMIC-CAUSAL-SOURCE-EXISTS"
+  ],
+  "conclusion_statement_id": "STMT-GRAPH-HAS-SOURCE-WITNESS",
+  "inference_ids": [
+    "INF-ATOMIC-SOURCE-TO-GRAPH-SOURCE-WITNESS"
+  ],
+  "meaning": "Mechanical assembly/transcription: the existing SourceExists G and HasSource G definitions express the SAME existential of a graph-relative source. Preserve the exact carrier G and edge interpretation; repack the SAME source witness without selecting another. No actual presence follows for a raw graph; an actualGraph subtype already supplies that separately. No source truth, uniqueness, WF, necessity, grounding interpretation or new independent philosophical argument is established.",
+  "definition_ids": [
+    "DEF-ATOMIC-OBJECT-DOMAIN",
+    "DEF-ATOMIC-SIMPLE-PART",
+    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
+    "DEF-COMPLETE-OBJECT-CAUSATION",
+    "DEF-OBJECT-CAUSE-NONOVERLAP",
+    "DEF-ATOMIC-CAUSAL-SOURCE",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-SOURCE-EXISTENCE-WITNESS",
+    "DEF-SOURCE-FOREST-CONSTRAINTS",
+    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
+    "DEF-WORLD-SOURCE-REGRESS-CLASSIFICATION",
+    "DEF-FINITE-CAUSAL-PATH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
+    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE",
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-NO-INFINITE-REGRESS-READING"
+  ]
+}

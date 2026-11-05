@@ -7,6 +7,8 @@ import TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.PremisesIndepen
 import TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyModels
 import TruthCore.Results.Aquinas.SummaTheologiae.AtMostOneMaximeEns.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.CompositeUnitingCauseControls.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.CompositeUnitingCauseFromUnion.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.EssenceEsseExternalCause.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.FirstBeingNoPotency.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverHasPerfectionsOfThings.Solution
@@ -21,6 +23,7 @@ import TruthCore.Results.Aquinas.SummaTheologiae.GoodnessFromDesirability.Soluti
 import TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectIncorporeal.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectNonorganic.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectSubsistence.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.ImmutableIsBoethianEternal.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.InfiniteGreatestWhole.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.IrrelevantRespectObjection.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.MaximeEnsIsGod.Solution
@@ -47,6 +50,7 @@ import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaBroadGenusCompatible.S
 import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaDegreeBranchWitnesses.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaDegreeFork.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaForkElimination.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaGradesFromCausalAscent.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaHomogeneousScale.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaMaximumInBeing.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaOrderFirstBeing.Solution
@@ -62,6 +66,8 @@ import TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaOneGovernor.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.ReducedDescriptionSuffices.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.SecundaVia.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.StrongReadingIntended.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.SubsistentInfinityFromReception.Solution
+import TruthCore.Results.Aquinas.SummaTheologiae.SubsistentInfinityReceptionControls.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaFinitePastExcludesSuccession.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaFinitePastHorn.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.TertiaViaNecessaryBeing.Solution

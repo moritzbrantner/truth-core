@@ -14,12 +14,13 @@ theorem confluent_of_uniquePredecessor {Node : Type} (G : Graph Node)
     subst y
     exact ⟨x, .refl, .refl⟩) hab hac
 
-/-- Confluence joins upstream paths. Mathlib's equivalence of Join makes weak
-connectivity sufficient for two sources to have a common ancestor; each
-source forces that ancestor to be itself. No WF is used. -/
-theorem atMostOne_of_confluent {Node : Type} (G : Graph Node)
-    (hConnected : WeaklyConnected G) (hConfluent : UpstreamConfluent G) :
-    AtMostOneSource G := by
+/-- The crucial source-collapse step is LOCAL to a pair of sources in ONE
+weak component. Confluence joins their upstream paths; a source cannot have
+a strict upstream predecessor. No global connectivity or WF is needed. -/
+theorem sources_eq_of_connected_pair {Node : Type} (G : Graph Node)
+    (hConfluent : UpstreamConfluent G) (a b : Node)
+    (hConnected : Relation.EqvGen G.edge a b)
+    (ha : G.Source a) (hb : G.Source b) : a = b := by
   let upstream := fun a b => G.edge b a
   have hJoin : Equivalence (Relation.Join (Relation.ReflTransGen upstream)) :=
     Relation.equivalence_join hConfluent
@@ -31,11 +32,19 @@ theorem atMostOne_of_confluent {Node : Type} (G : Graph Node)
     | refl a => exact hJoin.refl a
     | symm a b _ ih => exact hJoin.symm ih
     | trans a b c _ _ ih₁ ih₂ => exact hJoin.trans ih₁ ih₂
-  intro a b ha hb
-  obtain ⟨s, has, hbs⟩ := hConnectedJoin a b (hConnected a b)
+  obtain ⟨s, has, hbs⟩ := hConnectedJoin a b hConnected
   have hsa : s = a := Relation.reflTransGen_iff_eq (fun y he => ha ⟨y, he⟩) |>.mp has
   have hsb : s = b := Relation.reflTransGen_iff_eq (fun y he => hb ⟨y, he⟩) |>.mp hbs
   exact hsa.symm.trans hsb
+
+/-- Confluence joins upstream paths. Global weak connectedness is precisely
+the premise that lets the pair-local lemma compare EVERY pair of sources.
+No well-foundedness or source existence is assumed. -/
+theorem atMostOne_of_confluent {Node : Type} (G : Graph Node)
+    (hConnected : WeaklyConnected G) (hConfluent : UpstreamConfluent G) :
+    AtMostOneSource G := by
+  intro a b ha hb
+  exact sources_eq_of_connected_pair G hConfluent a b (hConnected a b) ha hb
 
 theorem atMostOne {Node : Type} (G : Graph Node)
     (hConnected : WeaklyConnected G) (hPred : UniquePredecessor G) :

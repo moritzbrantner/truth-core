@@ -1,0 +1,19 @@
+{
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaGradesFromCausalAscent.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaGradesFromCausalAscent.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaGradesFromCausalAscent.gradesHaveAMaximum",
+    "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaGradesFromCausalAscent.withoutBearer",
+    "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaGradesFromCausalAscent.withoutCause",
+    "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaGradesFromCausalAscent.withoutExceeded",
+    "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaGradesFromCausalAscent.withoutRegress",
+    "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaGradesFromCausalAscent.zornMaximum",
+    "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaGradesFromCausalAscent.directedMaximalIsGreatest"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

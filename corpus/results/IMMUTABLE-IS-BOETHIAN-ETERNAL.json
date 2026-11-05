@@ -1,0 +1,10 @@
+{
+  "id": "IMMUTABLE-IS-BOETHIAN-ETERNAL",
+  "argument_id": "IMMUTABLE-IS-BOETHIAN-ETERNAL",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.ImmutableIsBoethianEternal.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.ImmutableIsBoethianEternal.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.ImmutableIsBoethianEternal.immutableIsBoethianEternal",
+  "comparator_config": "results/IMMUTABLE-IS-BOETHIAN-ETERNAL/comparator.json",
+  "status": "solution-present",
+  "description": "Derives STMT-IMMUTABLE-IS-BOETHIAN-ETERNAL (pure act implies typed Boethian eternity: possession of life, no beginning or end, no succession in a duration frame) from the q.9 a.1 succession principle and two open premises, life boundaries require potency and pure act lives. Not a transcription: no premise has eternity as its consequent; the potency premises conclude only potency, and the proof turns each against pure act. Omission controls show each premise is needed; a joint model shows the premises are satisfiable with a pure-act being. It does not close STMT-IMMUTABLE-IS-ETERNAL (primitive Eternal), establish any premise, or exclude dependence on external conservation."
+}

@@ -38,7 +38,13 @@ export type ForestModel = {
   arguments: Record<string, ForestArgument>;
 };
 
-/** Minimal complete tree payload; the comparison-only inspector fields are not shipped. */
+/** Characters of an argument's meaning that the tree displays (see `StatementBranch`). */
+export const TREE_MEANING_LIMIT = 160;
+
+/**
+ * Minimal complete tree payload; the comparison-only inspector fields are not shipped,
+ * and each argument meaning is cut to what the tree excerpt can display.
+ */
 export type ForestTreeModel = {
   defaultGoal: string;
   statements: Record<string, Pick<ForestStatement,
@@ -231,5 +237,10 @@ export function buildAssumptionTree(graph: PropositionGraph): ForestTreeModel {
     const { id, paraphrase, status, statusLabel, argumentIds, totalArguments } = statement;
     statements[id] = { id, paraphrase, status, statusLabel, argumentIds, totalArguments };
   }
-  return { defaultGoal: full.defaultGoal, statements, arguments: full.arguments };
+  const argumentsMap: ForestTreeModel["arguments"] = {};
+  for (const argument of Object.values(full.arguments)) {
+    // One character past the limit keeps the excerpt's ellipsis identical to the full text's.
+    argumentsMap[argument.id] = { ...argument, meaning: argument.meaning.slice(0, TREE_MEANING_LIMIT + 1) };
+  }
+  return { defaultGoal: full.defaultGoal, statements, arguments: argumentsMap };
 }

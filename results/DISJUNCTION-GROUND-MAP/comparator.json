@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.DisjunctionGround.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.DisjunctionGround.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Explanation.DisjunctionGround.disjunctionGroundMap"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

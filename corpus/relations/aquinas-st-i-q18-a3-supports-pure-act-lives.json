@@ -1,0 +1,9 @@
+{
+  "id": "REL-AQUINAS-ST-I-Q18-A3-SUPPORTS-PURE-ACT-LIVES",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q18-A3-HIGHEST-LIFE",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-PURE-ACT-LIVES",
+  "note": "Q.18 a.3 gives God the highest life because his nature is his own understanding and nothing he has is determined by another. The open premise generalizes to whatever is in potency in no respect and keeps only life at some time of the frame; the step from pure act to self-understanding is not stated there."
+}

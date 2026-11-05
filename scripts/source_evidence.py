@@ -5,13 +5,13 @@ from __future__ import annotations
 
 import argparse
 import codecs
-import fnmatch
 import gzip
 import hashlib
 import html.parser
 import json
 import os
 import re
+import shutil
 import subprocess
 import sys
 import time
@@ -21,12 +21,18 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 from typing import Any, Iterable, Iterator
 
+try:
+    from compression import zstd as _zstd
+except ImportError:
+    _zstd = None
+
 ROOT = Path(__file__).resolve().parents[1]
 CORPUS = ROOT / "corpus"
 PASSAGES = CORPUS / "passages"
 CACHE = ROOT / ".cache" / "truth-core" / "sources"
 MEDIA_CACHE = ROOT / ".cache" / "truth-core" / "media"
 WEB_CACHE = ROOT / ".cache" / "truth-core" / "web"
+SOURCE_DIAGNOSTICS = ROOT / ".cache" / "truth-core" / "source-diagnostics"
 SHA1_RE = re.compile(r"^[0-9a-f]{40}$")
 SHA256_RE = re.compile(r"^sha256:[0-9a-f]{64}$")
 YOUTUBE_ID_RE = re.compile(r"^[A-Za-z0-9_-]{11}$")
@@ -52,6 +58,10 @@ DOI_RE = re.compile(r"^10\.\d{4,9}/\S+$")
 
 class SourceEvidenceError(Exception):
     pass
+
+
+class SourceUnavailableError(SourceEvidenceError):
+    """A witness could not be fetched; this does not imply byte or text drift."""
 
 
 def load_json_dir(name: str) -> list[tuple[Path, dict[str, Any]]]:
@@ -1154,8 +1164,36 @@ def sha256_bytes(data: bytes) -> str:
     return "sha256:" + hashlib.sha256(data).hexdigest()
 
 
+def decompress_zstd(data: bytes, label: str) -> bytes:
+    """Decode an HTTP entity without accepting compressed bytes as pinned content."""
+    if _zstd is not None:
+        try:
+            return _zstd.decompress(data)
+        except _zstd.ZstdError as exc:
+            raise SourceEvidenceError(f"{label}: invalid zstd response body: {exc}") from exc
+    decoder = shutil.which("zstd")
+    if decoder is None:
+        raise SourceEvidenceError(
+            f"{label}: zstd response requires Python 3.14 compression.zstd or the zstd CLI "
+            "(install zstd on older Python)"
+        )
+    try:
+        decoded = subprocess.run(
+            [decoder, "--decompress", "--stdout", "--quiet"],
+            input=data,
+            capture_output=True,
+            timeout=30,
+        )
+    except (OSError, subprocess.TimeoutExpired) as exc:
+        raise SourceEvidenceError(f"{label}: cannot run zstd response decoder: {exc}") from exc
+    if decoded.returncode:
+        detail = decoded.stderr.decode("utf-8", errors="replace").strip()
+        raise SourceEvidenceError(f"{label}: invalid zstd response body: {detail}")
+    return decoded.stdout
+
+
 def download(url: str, label: str, *, attempts: int = 3) -> bytes:
-    """The response body with any gzip content coding removed; network errors are retried.
+    """The response body with gzip/zstd content coding removed; network errors are retried.
 
     The pinned hash covers these bytes. A fixed User-Agent is sent because some
     servers vary the page by client.
@@ -1168,14 +1206,37 @@ def download(url: str, label: str, *, attempts: int = 3) -> bytes:
         try:
             with urllib.request.urlopen(request, timeout=60) as response:
                 data = response.read()
-                if response.headers.get("Content-Encoding", "").lower() == "gzip":
-                    data = gzip.decompress(data)
-            return data
+                content_encoding = response.headers.get("Content-Encoding", "").strip().lower()
         except (urllib.error.URLError, TimeoutError, OSError) as exc:
             last_error = exc
             if attempt + 1 < attempts:
                 time.sleep(1 + attempt)
-    raise SourceEvidenceError(f"{label}: cannot fetch {url}: {last_error}")
+            continue
+        # Decoding happens after a successful transfer: a body that does not decode is
+        # an integrity failure of the returned bytes, never transport unavailability.
+        if content_encoding == "gzip":
+            try:
+                data = gzip.decompress(data)
+            except (OSError, EOFError) as exc:
+                raise SourceEvidenceError(f"{label}: invalid gzip response body from {url}: {exc}") from exc
+        elif content_encoding == "zstd":
+            data = decompress_zstd(data, label)
+        return data
+    raise SourceUnavailableError(f"{label}: cannot fetch {url}: {last_error}")
+
+
+def save_web_drift(url: str, expected: str, actual: str, label: str, data: bytes) -> None:
+    """Keep rejected bytes separate from trusted source caches; never refetch."""
+    metadata = {
+        "url": url, "label": label,
+        "expected_sha256": expected, "actual_sha256": actual,
+    }
+    encoded = json.dumps(metadata, sort_keys=True, ensure_ascii=False)
+    # No URL, label or caller-supplied hash becomes a filesystem path.
+    stem = hashlib.sha256(encoded.encode("utf-8")).hexdigest()
+    SOURCE_DIAGNOSTICS.mkdir(parents=True, exist_ok=True)
+    (SOURCE_DIAGNOSTICS / f"{stem}.bin").write_bytes(data)
+    (SOURCE_DIAGNOSTICS / f"{stem}.json").write_text(encoded + "\n", encoding="utf-8")
 
 
 def fetch_web_bytes(url: str, expected: str, label: str) -> bytes:
@@ -1183,6 +1244,15 @@ def fetch_web_bytes(url: str, expected: str, label: str) -> bytes:
     data = download(url, label)
     actual = sha256_bytes(data)
     if actual != expected:
+        try:
+            save_web_drift(url, expected, actual, label, data)
+        except OSError as exc:
+            # Diagnostics must neither accept drift nor replace its original error.
+            try:
+                print(f"warning: could not save source drift diagnostics: {exc}", file=sys.stderr)
+            except (OSError, ValueError):
+                # A failed warning must not mask the byte-drift error either.
+                pass
         raise SourceEvidenceError(f"{label}: byte drift at {url}: expected {expected}, got {actual}")
     return data
 
@@ -1202,11 +1272,21 @@ def resolve_web_snapshot(passage: dict[str, Any], *, use_cache: bool = True, fet
         data = fetch(passage["source_url"], passage["sha256"], passage["id"])
     except SourceEvidenceError as live_error:
         if not passage.get("wayback_url"):
+            # No pinned fallback: the live error keeps its type, so a transport
+            # failure stays an availability error and byte drift stays an
+            # integrity error. Only `verify --defer-unavailable-unchanged` (main
+            # pushes) may defer the former, and it reports it as not verified.
             raise
         try:
             data = fetch(passage["wayback_url"], passage["wayback_sha256"], passage["id"])
         except SourceEvidenceError as archive_error:
-            raise SourceEvidenceError(f"{live_error}; Wayback fallback failed: {archive_error}") from archive_error
+            error_type = (
+                SourceUnavailableError
+                if isinstance(live_error, SourceUnavailableError)
+                and isinstance(archive_error, SourceUnavailableError)
+                else SourceEvidenceError
+            )
+            raise error_type(f"{live_error}; Wayback fallback failed: {archive_error}") from archive_error
         print(f"note: {live_error}; using the pinned Wayback capture", file=sys.stderr)
         expected = passage["wayback_sha256"]
     else:
@@ -1222,11 +1302,6 @@ def materialize_web_snapshot(passage: dict[str, Any], *, use_cache: bool = True,
     return text
 
 
-# A change to how evidence is fetched, extracted or hashed can change every passage's
-# result, so it re-verifies every passage live even on a pull request.
-FULL_VERIFY_PATTERNS = ("scripts/source_evidence.py",)
-
-
 def git_changed_files(base: str, head: str, root: Path = ROOT) -> list[str]:
     output = subprocess.run(
         ["git", "diff", "--name-only", "--no-renames", base, head],
@@ -1240,15 +1315,13 @@ def git_changed_files(base: str, head: str, root: Path = ROOT) -> list[str]:
 
 def changed_passage_ids(
     changed_files: Iterable[str], passages: dict[str, tuple[Path, dict[str, Any]]], root: Path = ROOT
-) -> set[str] | None:
-    """The passages a change adds or edits, or None when every passage must be verified.
+) -> set[str]:
+    """The passages whose manifests a change adds or edits.
 
-    A passage is selected when its manifest file under corpus/passages/ changed. A
-    deleted manifest selects nothing; a change to the verifier itself selects all.
+    Deleted manifests and verifier-only changes select nothing. Every manifest
+    is still validated offline; main and scheduled CI verify all sources live.
     """
     changed = set(changed_files)
-    if any(fnmatch.fnmatch(path, pattern) for path in changed for pattern in FULL_VERIFY_PATTERNS):
-        return None
     return {
         passage_id
         for passage_id, (path, _) in passages.items()
@@ -1256,7 +1329,12 @@ def changed_passage_ids(
     }
 
 
-def verify_all(export_path: Path | None = None, passage_ids: set[str] | None = None) -> int:
+def verify_all(
+    export_path: Path | None = None,
+    passage_ids: set[str] | None = None,
+    *,
+    defer_unavailable_ids: set[str] | None = None,
+) -> int:
     """Refetch and hash-check source evidence: every passage, or only `passage_ids`.
 
     The offline manifest and claim-binding check always covers every passage.
@@ -1274,6 +1352,7 @@ def verify_all(export_path: Path | None = None, passage_ids: set[str] | None = N
     media_verified = 0
     media_skipped = []
     web_verified = 0
+    web_unavailable: list[tuple[str, str]] = []
     bibliographic = []
     fetched: dict[tuple[str, str], bytes] = {}
 
@@ -1289,7 +1368,13 @@ def verify_all(export_path: Path | None = None, passage_ids: set[str] | None = N
             continue
         if is_web_snapshot(passage):
             # Always refetch (no cache), once per page: the live page, or its pinned Wayback capture.
-            materialize_web_snapshot(passage, use_cache=False, fetch=fetch_once)
+            try:
+                materialize_web_snapshot(passage, use_cache=False, fetch=fetch_once)
+            except SourceUnavailableError as exc:
+                if defer_unavailable_ids is None or passage["id"] not in defer_unavailable_ids:
+                    raise
+                web_unavailable.append((passage["id"], str(exc)))
+                continue
             web_verified += 1
             print(f"verified web snapshot {passage['id']} ({passage['sha256'][7:19]})")
             continue
@@ -1324,9 +1409,13 @@ def verify_all(export_path: Path | None = None, passage_ids: set[str] | None = N
         )
     if bibliographic:
         print(f"bibliographic spans not byte-verified (citation only): {', '.join(sorted(bibliographic))}")
+    for passage_id, reason in sorted(web_unavailable):
+        print(f"{passage_id}: unavailable, NOT byte-verified in this run: {reason}")
     print(
-        f"source evidence ok: {len(passages)} passages, {len(snapshots)} immutable source snapshots, "
+        f"source evidence {'incomplete' if web_unavailable else 'ok'}: "
+        f"{len(passages)} passages, {len(snapshots)} immutable source snapshots, "
         f"{media_verified} media spans verified, {web_verified} web snapshot passages verified, "
+        f"{len(web_unavailable)} web snapshot passages unavailable, "
         f"{len(bibliographic)} bibliographic spans not byte-verified"
     )
     return 0
@@ -1546,10 +1635,19 @@ def parser() -> argparse.ArgumentParser:
         "--base",
         help=(
             "verify live only the passages whose manifests changed between BASE and --head "
-            "(all of them when this script changed); every manifest is still checked offline"
+            "(including verifier-only PRs with no changed passages); every manifest is checked offline"
         ),
     )
     verify_parser.add_argument("--head", default="HEAD", help="the head of the --base comparison")
+    verify_parser.add_argument(
+        "--defer-unavailable-unchanged",
+        metavar="BASE",
+        help=(
+            "verify all witnesses, but report transport-unreachable unchanged web snapshots as "
+            "explicitly unverified; witnesses changed since BASE, byte drift, and text drift "
+            "remain hard failures (intended for main pushes; nightly is strict)"
+        ),
+    )
     materialize_parser = sub.add_parser(
         "materialize", help="verify and extract one source passage to a local UTF-8 text file"
     )
@@ -1580,11 +1678,17 @@ def main() -> int:
             return check()
         if args.command == "verify":
             export = Path(args.export) if args.export else None
+            if args.base and args.defer_unavailable_unchanged:
+                raise SourceEvidenceError("--base and --defer-unavailable-unchanged are mutually exclusive")
+            if args.defer_unavailable_unchanged:
+                index = passage_index()
+                changed = changed_passage_ids(
+                    git_changed_files(args.defer_unavailable_unchanged, args.head), index
+                )
+                return verify_all(export, defer_unavailable_ids=set(index) - changed)
             if args.base is None:
                 return verify_all(export)
             selected = changed_passage_ids(git_changed_files(args.base, args.head), passage_index())
-            if selected is None:
-                print(f"{', '.join(FULL_VERIFY_PATTERNS)} changed: verifying every passage live")
             return verify_all(export, selected)
         if args.command == "materialize":
             return materialize(args.passage_id, args.output, args.export)
