@@ -824,6 +824,72 @@ class BibliographicSpanTest(unittest.TestCase):
         self.assertIn("1 bibliographic spans not byte-verified", out.getvalue())
 
 
+class RawWitnessTest(unittest.TestCase):
+    """Raw bytes of repository witnesses are cached by blob SHA (#990)."""
+
+    DATA = b"<TEI><text><body><div n='1'>alpha</div></body></text></TEI>\n"
+    OTHER = b"<TEI>beta</TEI>\n"
+    BASE_URL = "https://raw.githubusercontent.com/org/repo/" + "a" * 40 + "/"
+
+    def setUp(self) -> None:
+        directory = tempfile.TemporaryDirectory()
+        self.addCleanup(directory.cleanup)
+        patcher = mock.patch.object(se, "RAW_CACHE", Path(directory.name))
+        patcher.start()
+        self.addCleanup(patcher.stop)
+        self.passage = {
+            "id": "TEI-A", "kind": None, "repository": "org/repo", "revision": "a" * 40,
+            "path": "data/a.xml", "source_url": self.BASE_URL + "data/a.xml",
+            "git_blob_sha": se.git_blob_sha(self.DATA),
+        }
+        self.requested: list[str] = []
+        pages = {self.BASE_URL + "data/a.xml": self.DATA, self.BASE_URL + "data/b.xml": self.OTHER}
+
+        def urlopen(request, timeout=None):
+            self.requested.append(request.full_url)
+            return contextlib.closing(io.BytesIO(pages[request.full_url]))
+
+        patcher = mock.patch.object(se.urllib.request, "urlopen", side_effect=urlopen)
+        patcher.start()
+        self.addCleanup(patcher.stop)
+
+    def test_materialize_reuses_the_verified_cache_but_verify_refetches(self) -> None:
+        self.assertEqual(se.fetch_source(self.passage), self.DATA)
+        self.assertEqual(se.raw_cache_path(self.passage["git_blob_sha"]).read_bytes(), self.DATA)
+        self.assertEqual(se.fetch_source(self.passage, use_cache=True), self.DATA)
+        self.assertEqual(len(self.requested), 1)
+        se.fetch_source(self.passage)
+        self.assertEqual(len(self.requested), 2)
+        # A corrupted cache entry is ignored, refetched and repaired.
+        se.raw_cache_path(self.passage["git_blob_sha"]).write_bytes(b"tampered")
+        self.assertEqual(se.fetch_source(self.passage, use_cache=True), self.DATA)
+        self.assertEqual(len(self.requested), 3)
+
+    def test_blob_mismatch_is_rejected_and_not_cached(self) -> None:
+        wrong = dict(self.passage, git_blob_sha="0" * 40)
+        with mock.patch.object(se.time, "sleep"), self.assertRaisesRegex(se.SourceEvidenceError, "blob mismatch"):
+            se.fetch_source(wrong)
+        self.assertFalse(se.raw_cache_path("0" * 40).exists())
+
+    def test_raw_witness_pins_another_file_at_the_same_revision(self) -> None:
+        index = {"TEI-A": (Path("fixture.json"), self.passage)}
+        with tempfile.TemporaryDirectory() as directory, mock.patch.object(
+            se, "passage_index", return_value=index
+        ), contextlib.redirect_stdout(io.StringIO()) as out:
+            output = Path(directory) / "b.xml"
+            self.assertEqual(se.raw_witness("TEI-A", "data/b.xml", str(output)), 0)
+            self.assertEqual(output.read_bytes(), self.OTHER)
+        fields = json.loads(out.getvalue())
+        self.assertEqual(fields["source_url"], self.BASE_URL + "data/b.xml")
+        self.assertEqual(fields["git_blob_sha"], se.git_blob_sha(self.OTHER))
+        self.assertEqual((fields["revision"], fields["path"]), ("a" * 40, "data/b.xml"))
+
+    def test_raw_witness_refuses_web_snapshots(self) -> None:
+        index = {"WEB": (Path("fixture.json"), web_passage({"from": {"anchor": "13"}}, id="WEB"))}
+        with mock.patch.object(se, "passage_index", return_value=index), self.assertRaisesRegex(
+            se.SourceEvidenceError, "only to immutable repository witnesses"
+        ):
+            se.raw_witness("WEB", None, None)
 class PermanentlyUnavailableWebSnapshotTest(unittest.TestCase):
     """A web snapshot the owner accepted as gone: kept, never fetched, never verified."""
 
