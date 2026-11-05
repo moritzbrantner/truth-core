@@ -97,6 +97,7 @@ export function parseDossiers(value: unknown): Record<string, PremiseDossier> {
 }
 
 let cached: Record<string, PremiseDossier> | undefined;
+let cachedAttempts: Record<string, CorpusAttempt> | undefined;
 
 function loadDossierReport(target: string): unknown {
   return JSON.parse(execFileSync("python3", ["scripts/corpus.py", "dossier", target, "--json"], {
@@ -119,4 +120,18 @@ export function getDossiers(): Record<string, PremiseDossier> {
     cached = parseDossiers(loadDossierReport("--all"));
   }
   return cached;
+}
+
+/** Each durable research attempt may be referenced by several premise dossiers. */
+export function getAttempts(): Record<string, CorpusAttempt> {
+  if (!cachedAttempts) {
+    const attempts: Record<string, CorpusAttempt> = {};
+    for (const dossier of Object.values(getDossiers())) {
+      for (const entry of dossier.attempts) {
+        attempts[entry.id] = entry;
+      }
+    }
+    cachedAttempts = attempts;
+  }
+  return cachedAttempts;
 }
