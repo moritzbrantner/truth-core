@@ -2533,6 +2533,19 @@ def command_dossier(args: argparse.Namespace) -> int:
     if not report["root_known"]:
         raise CorpusError(f"unknown root statement: {args.root}")
     dossiers = dossier_index(data, report, only=None if args.all else {args.statement_id})
+    if args.issues_from:
+        from issue_acceptance import analyze_issues, issues_for_id, read_issue_snapshot
+        try:
+            issue_report = analyze_issues(read_issue_snapshot(Path(args.issues_from)), data,
+                                          report["closed_statements"], root=ROOT)
+        except (ValueError, OSError) as exc:
+            raise CorpusError(str(exc)) from exc
+        issues_by_number = {entry["number"]: entry for entry in issue_report["issues"]}
+        for statement_id, dossier in dossiers.items():
+            dossier["targeting_issues"] = [
+                {"number": number, "status": issues_by_number[number]["status"]}
+                for number in issues_for_id(issue_report, statement_id)
+            ]
     if args.all:
         print(json.dumps(dossiers, ensure_ascii=False))
         return 0
@@ -2580,6 +2593,40 @@ def command_context(args: argparse.Namespace) -> int:
         proof_uses = lean_reuse_usage_map(raw, expected)
     pack = context_pack(ROOT, data, report, argument_id, related=related, proof_uses=proof_uses)
     print(json.dumps(pack, indent=2, ensure_ascii=False) if args.json else format_context(pack, limit=args.limit))
+    return 0
+
+
+def command_issues(args: argparse.Namespace) -> int:
+    """Reconcile declared issue acceptance against this checkout; never mutate issues."""
+    from issue_acceptance import analyze_issues, issues_for_id, read_issue_snapshot
+
+    try:
+        issues = read_issue_snapshot(Path(args.from_file) if args.from_file else None)
+        names = ("statements", "claims", "arguments", "results", "relations", "configurations", "attempts")
+        data = {name: [record for _, record in load_dir(name)] for name in names}
+        frontier = frontier_report(
+            data["statements"], data["arguments"], data["results"], data["relations"],
+            transcription=transcription_flags(data["results"], data["arguments"], data["statements"]),
+            claims=data["claims"],
+        )
+        report = analyze_issues(issues, data, frontier["closed_statements"], root=ROOT)
+    except (ValueError, OSError) as exc:
+        raise CorpusError(str(exc)) from exc
+    if args.for_id:
+        matching = set(issues_for_id(report, args.for_id))
+        report = {**report, "issues": [entry for entry in report["issues"] if entry["number"] in matching],
+                  "selected_id": args.for_id}
+    if args.json:
+        print(json.dumps(report, indent=2, ensure_ascii=False, sort_keys=True))
+    else:
+        for entry in report["issues"]:
+            print(f"#{entry['number']} [{entry['status']}]: {entry['title']}")
+            for requirement in entry["requirements"]:
+                label = requirement["id"] + (f": {requirement['expected']}" if requirement["expected"] else "")
+                print(f"  {'ok' if requirement['met'] else 'missing'} {requirement['kind']}: {label} ({requirement['detail']})")
+            for error in entry["errors"]:
+                print(f"  malformed: {error}")
+        print("Summary: " + ", ".join(f"{key}={count}" for key, count in report["summary"].items()))
     return 0
 
 
@@ -3598,6 +3645,7 @@ def parser() -> argparse.ArgumentParser:
     dossier.add_argument("--json", action="store_true", help="print machine-readable JSON (always complete)")
     dossier.add_argument("--limit", type=int, default=8, help="entries shown per text section (0 = all)")
     dossier.add_argument("--root", default=DEFAULT_FRONTIER_ROOT)
+    dossier.add_argument("--issues-from", metavar="FILE", help="append issue targets from one offline gh JSON snapshot")
     dossier.set_defaults(func=command_dossier)
     context = sub.add_parser("context", help="one bounded context pack for an argument: Lean type, reuse, premises, countermodels, open work")
     context.add_argument("target", help="argument ID, result ID, or a statement concluded by exactly one argument")
@@ -3608,6 +3656,11 @@ def parser() -> argparse.ArgumentParser:
     context.add_argument("--proof-use", action="store_true", help="inspect proof-term references from cached Lean build (no rebuild)")
     context.add_argument("--proof-use-json", help="use saved LeanReuse.lean output instead of running Lean")
     context.set_defaults(func=command_context)
+    issues = sub.add_parser("issues", help="read-only issue acceptance reconciliation against this checkout (#949)")
+    issues.add_argument("--from", dest="from_file", metavar="FILE", help="offline JSON from gh issue list --json")
+    issues.add_argument("--for", dest="for_id", metavar="CORPUS-ID", help="show issues targeting one result/statement/configuration/attempt")
+    issues.add_argument("--json", action="store_true", help="include requirements and a reverse index")
+    issues.set_defaults(func=command_issues)
     reuse = sub.add_parser("lean-reuse", help="advisory theorem-use versus import/argument-graph review (after lake build)")
     reuse.add_argument("--review", action="store_true", help="show theorem uses absent from the argument graph")
     reuse.add_argument("--json", action="store_true", help="include all three classifications in deterministic JSON")
