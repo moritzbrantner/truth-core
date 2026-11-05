@@ -68,9 +68,18 @@
         "s"
       ],
       "theorem": "TruthCore.Results.Modal.RetainedDuty.Evaluations.ableReturn4"
+    },
+    {
+      "statement_id": "STMT-RETAINED-DUTY-LOCAL-OIC",
+      "value": "satisfies",
+      "arguments": [
+        "s"
+      ],
+      "theorem": "TruthCore.Results.Modal.RetainedDutyLocal.Evaluations.ableReturnLocal"
     }
   ],
   "modules": [
-    "TruthCore.Results.Modal.RetainedDuty.Solution"
+    "TruthCore.Results.Modal.RetainedDuty.Solution",
+    "TruthCore.Results.Modal.RetainedDutyLocal.Solution"
   ]
 }

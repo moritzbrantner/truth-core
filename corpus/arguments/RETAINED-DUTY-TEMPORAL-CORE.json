@@ -11,12 +11,15 @@
     "INF-RETAINED-DUTY-TRANSFER",
     "INF-RETAINED-DUTY-DIRECT-CORE"
   ],
-  "meaning": "Initial original-return duty plus explicit same-action retention yields present duty, then composes the direct core with present inability and present OIC. Each single omission is witnessed in the controls; no moral policy or action-substitution bridge is proved true.",
+  "meaning": "Initial original-return duty plus explicit same-action retention yields present duty, then composes the direct core with present inability and present OIC. Each single omission is witnessed in the controls; no moral policy or action-substitution bridge is proved true. Frozen universal-policy predecessor; the local-policy companion is the operational elimination result. Universal OIC is not a weakest sufficient policy.",
   "definition_ids": [
     "DEF-RETAINED-DUTY-CASE",
     "DEF-RETAINED-DUTY-POLICIES"
   ],
   "disambiguation_ids": [
     "DISAMB-RETAINED-DUTY-ACTION-TIME"
-  ]
+  ],
+  "strong_version_needed": {
+    "STMT-RETAINED-DUTY-PRESENT-OIC": "Frozen predecessor target retained under invariant 12, not logically needed. RETAINED-DUTY-LOCAL-TEMPORAL-CORE is the weaker operational replacement; no stronger-necessity claim is made."
+  }
 }

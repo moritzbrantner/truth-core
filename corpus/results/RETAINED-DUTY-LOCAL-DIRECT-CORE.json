@@ -1,0 +1,10 @@
+{
+  "id": "RETAINED-DUTY-LOCAL-DIRECT-CORE",
+  "argument_id": "RETAINED-DUTY-LOCAL-DIRECT-CORE",
+  "challenge_module": "TruthCore.Results.Modal.RetainedDutyLocal.Challenge",
+  "solution_module": "TruthCore.Results.Modal.RetainedDutyLocal.Solution",
+  "theorem": "TruthCore.Results.Modal.RetainedDutyLocal.directCore",
+  "comparator_config": "results/RETAINED-DUTY-LOCAL-DIRECT-CORE/comparator.json",
+  "status": "solution-present",
+  "description": "Operational direct core: identical original-return duty and inability at after conflict with original-return-only OIC. Compensation and debt-repayment OIC are not premises. All single omissions are witnessed; this is inclusion-minimal, not a claim of absolute weakest logical formulation."
+}

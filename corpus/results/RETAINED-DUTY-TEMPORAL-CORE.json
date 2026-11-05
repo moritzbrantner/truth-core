@@ -6,5 +6,5 @@
   "theorem": "TruthCore.Results.Modal.RetainedDuty.retainedCore",
   "comparator_config": "results/RETAINED-DUTY-TEMPORAL-CORE/comparator.json",
   "status": "solution-present",
-  "description": "Initial original-return duty plus explicit same-action retention yields present duty, then composes the direct core with present inability and present OIC. Each single omission is witnessed in the controls; no moral policy or action-substitution bridge is proved true."
+  "description": "Initial original-return duty plus explicit same-action retention yields present duty, then composes the direct core with present inability and present OIC. Each single omission is witnessed in the controls; no moral policy or action-substitution bridge is proved true. Frozen universal-policy predecessor; use RETAINED-DUTY-LOCAL-TEMPORAL-CORE for the weaker operational constraint. Single-member omission minimality does not establish policy-strength minimality."
 }

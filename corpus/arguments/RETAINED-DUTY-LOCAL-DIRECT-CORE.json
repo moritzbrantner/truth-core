@@ -1,0 +1,20 @@
+{
+  "id": "RETAINED-DUTY-LOCAL-DIRECT-CORE",
+  "premise_statement_ids": [
+    "STMT-RETAINED-DUTY-PRESENT-DUTY",
+    "STMT-RETAINED-DUTY-PRESENT-INABILITY",
+    "STMT-RETAINED-DUTY-LOCAL-OIC"
+  ],
+  "conclusion_statement_id": "STMT-CONFIGURATION-FALSE",
+  "inference_ids": [
+    "INF-RETAINED-DUTY-LOCAL-DIRECT-CORE"
+  ],
+  "meaning": "Operational direct core: identical original-return duty and inability at after conflict with original-return-only OIC. Compensation and debt-repayment OIC are not premises. All single omissions are witnessed; this is inclusion-minimal, not a claim of absolute weakest logical formulation.",
+  "definition_ids": [
+    "DEF-RETAINED-DUTY-CASE",
+    "DEF-RETAINED-DUTY-POLICIES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RETAINED-DUTY-ACTION-TIME"
+  ]
+}

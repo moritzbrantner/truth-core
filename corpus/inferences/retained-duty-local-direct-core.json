@@ -1,0 +1,13 @@
+{
+  "id": "INF-RETAINED-DUTY-LOCAL-DIRECT-CORE",
+  "input_statement_ids": [
+    "STMT-RETAINED-DUTY-PRESENT-DUTY",
+    "STMT-RETAINED-DUTY-PRESENT-INABILITY",
+    "STMT-RETAINED-DUTY-LOCAL-OIC"
+  ],
+  "output_statement_id": "STMT-CONFIGURATION-FALSE",
+  "rule": "modus-ponens",
+  "meaning": "Operational direct core: identical original-return duty and inability at after conflict with original-return-only OIC. Compensation and debt-repayment OIC are not premises. All single omissions are witnessed; this is inclusion-minimal, not a claim of absolute weakest logical formulation.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

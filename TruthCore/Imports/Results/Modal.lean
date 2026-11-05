@@ -45,6 +45,7 @@ import TruthCore.Results.Modal.PopulationClosureSeparation.Solution
 import TruthCore.Results.Modal.PossibilityTransfer.Solution
 import TruthCore.Results.Modal.ResearchFixture.Solution
 import TruthCore.Results.Modal.RetainedDuty.Solution
+import TruthCore.Results.Modal.RetainedDutyLocal.Solution
 import TruthCore.Results.Modal.RigidDesignation.Solution
 import TruthCore.Results.Modal.RotatingPotentialCausers.Solution
 import TruthCore.Results.Modal.S4.Countermodels.Solution

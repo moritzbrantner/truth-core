@@ -185,3 +185,41 @@ debt-specific interpretation. The earlier date-only `FutureCan` control is
 narrower and must not be presented as quantification over alternative histories.
 This distinguishes actual recovery from a choice-accessible recovery without
 claiming that the supplied alternatives are empirically or morally justified.
+
+
+## Review repair: action-local operational cores
+
+The review of PR #1041 correctly identified that the initial universal-OIC
+formulation was stronger than the contradiction needs. Set-deletion minimality
+of those cores did not minimize the strength of their OIC policy. The frozen
+original Challenge and all five original theorem types remain unchanged;
+`RetainedDutyLocal` supplies separately frozen weaker companions.
+
+`LocalOIC s` means only `PresentDuty s → s.able after originalReturn`.
+The new direct core consumes present duty, present inability and this local
+policy. The temporal core consumes initial duty, the same retention policy,
+present inability and LocalOIC, composing the existing retention transfer.
+These are the operational elimination results; neither needs OIC for
+compensation or debt repayment. The original universal results are preserved
+as frozen predecessors, with no claim that the stronger policy is necessary.
+
+`universalToLocal` binds the universal statement to its local sibling, and the
+registered `strengthens` relation records that exact entailment. The comparison
+is an instantiation transcription, not independent moral warrant. Strictness is
+witnessed twice in `LocalControls`: an original-return duty and ability hold in
+both controls, so local OIC is nonvacuous. One additionally owes compensation
+without compensation ability; the other owes debt repayment without repayment
+ability. Universal OIC fails independently in each. These are distinct action
+policies, not a redefinition of original return.
+
+The old five omission interpretations gain local-policy evaluations. They
+certify every single deletion for each weaker core: noDuty/ableReturn/crash for
+the direct core; neverOwed/lapse/ableReturn/crash for the temporal core. The
+remaining original premise facts are imported, not reproved. No-duty vacuity
+remains explicit. This establishes inclusion-minimality of the new premise sets
+and a strict weakening relative to the old universal policy, not absolute
+logical weakestness. The same frozen future and branching repairs are unchanged.
+
+Premise delta: replace universal present OIC by original-return-only LocalOIC in
+both operational arguments; retain all their other premises. No moral policy is
+proved true, and no Catholicism root premise changes. Attribution stays deferred.

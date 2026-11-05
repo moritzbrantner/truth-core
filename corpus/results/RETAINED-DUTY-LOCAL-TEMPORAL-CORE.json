@@ -1,0 +1,10 @@
+{
+  "id": "RETAINED-DUTY-LOCAL-TEMPORAL-CORE",
+  "argument_id": "RETAINED-DUTY-LOCAL-TEMPORAL-CORE",
+  "challenge_module": "TruthCore.Results.Modal.RetainedDutyLocal.Challenge",
+  "solution_module": "TruthCore.Results.Modal.RetainedDutyLocal.Solution",
+  "theorem": "TruthCore.Results.Modal.RetainedDutyLocal.retainedCore",
+  "comparator_config": "results/RETAINED-DUTY-LOCAL-TEMPORAL-CORE/comparator.json",
+  "status": "solution-present",
+  "description": "Operational temporal core: imported initial-duty/retention transfer gives present original-return duty, then the local direct core yields falsity. Universal OIC and policies about compensation/debt repayment are unnecessary. Every single omission is witnessed under the same typed Case."
+}

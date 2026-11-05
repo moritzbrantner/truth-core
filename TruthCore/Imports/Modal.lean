@@ -38,6 +38,7 @@ import TruthCore.Modal.PossibilityTransfer
 import TruthCore.Modal.ResearchFinite
 import TruthCore.Modal.ResearchFixture
 import TruthCore.Modal.RetainedDuty
+import TruthCore.Modal.RetainedDutyLocal
 import TruthCore.Modal.RigidDesignation
 import TruthCore.Modal.S4Research
 import TruthCore.Modal.S5Research

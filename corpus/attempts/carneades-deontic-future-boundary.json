@@ -8,18 +8,24 @@
     "STMT-RETAINED-DUTY-INITIAL-DUTY",
     "STMT-RETAINED-DUTY-RETENTION",
     "STMT-RETAINED-DUTY-CONTROLS",
-    "STMT-RETAINED-DUTY-BRANCH-CONTROLS"
+    "STMT-RETAINED-DUTY-BRANCH-CONTROLS",
+    "STMT-RETAINED-DUTY-LOCAL-OIC",
+    "STMT-RETAINED-DUTY-LOCAL-CONTROLS"
   ],
   "date": "2026-10-28",
   "kind": "derivation",
   "outcome": "succeeded",
-  "summary": "Read complete provisional auto captions for qjNs4t4GQ2A; derived exact ideal/available-successor overlap correspondence and finite controls. Broad possibility does not ensure feasible repayment; alternative feasible fulfillment does not ensure selected actual fulfillment. Rejected attribution of these analyst semantics to Kant, identification of reparation with returning the destroyed object, and inference from a frame choice to moral truth. Full findings and locators: docs/notes/carneades-deontology-boundary.md. Successful semantic construction changes no Catholic-case frontier premise. 2026-11-05 #1035 logic-first continuation, attribution deferred: explicit same-agent/same-action dated duty-retention transfer and 3-input direct/4-input temporal incompatible cores, with all single-removal controls and five registered finite interpretations. Distinguishes destroyed-original return from future compensation, possible later debt ability from actual fulfillment, and retrospective responsibility from retained present duty. Composes the exact existing future compatibility result under explicit ideal-interpretation/overlap assumptions; no moral policy proved true, no root change. Rejected collapsing reparation into original return and treating future ability as actual repayment. Stale non-module preview import rejected; canonical CLI fallback passed. Detailed boundaries, strongest retention/cancellation rivals and service evidence are in the existing deontology note. Self-sweep separately freezes a complete-future branching control: possible recovery is feasible despite actual non-recovery with no future ability/performance; actual abilities agree with the Case. The date-only FutureCan control is explicitly narrower and not a counterfactual-history semantics.",
+  "summary": "Read complete provisional auto captions for qjNs4t4GQ2A; derived exact ideal/available-successor overlap correspondence and finite controls. Broad possibility does not ensure feasible repayment; alternative feasible fulfillment does not ensure selected actual fulfillment. Rejected attribution of these analyst semantics to Kant, identification of reparation with returning the destroyed object, and inference from a frame choice to moral truth. Full findings and locators: docs/notes/carneades-deontology-boundary.md. Successful semantic construction changes no Catholic-case frontier premise. 2026-11-05 #1035 logic-first continuation, attribution deferred: explicit same-agent/same-action dated duty-retention transfer and 3-input direct/4-input temporal incompatible cores, with all single-removal controls and five registered finite interpretations. Distinguishes destroyed-original return from future compensation, possible later debt ability from actual fulfillment, and retrospective responsibility from retained present duty. Composes the exact existing future compatibility result under explicit ideal-interpretation/overlap assumptions; no moral policy proved true, no root change. Rejected collapsing reparation into original return and treating future ability as actual repayment. Stale non-module preview import rejected; canonical CLI fallback passed. Detailed boundaries, strongest retention/cancellation rivals and service evidence are in the existing deontology note. Self-sweep separately freezes a complete-future branching control: possible recovery is feasible despite actual non-recovery with no future ability/performance; actual abilities agree with the Case. The date-only FutureCan control is explicitly narrower and not a counterfactual-history semantics. PR1041 review repair: the original universal-OIC cores were single-member-deletion minimal but not policy-strength minimal. Preserve frozen predecessor types; new operational cores require only original-return LocalOIC. Verified universal-to-local comparison and two nonvacuous strictness controls separately fail compensation/debt OIC. Existing five omission models gain local evaluations; old future/branching evidence is unchanged. No root delta or attribution change.",
   "evidence": [
     "DEONTIC-FUTURE-BOUNDARY",
     "RETAINED-DUTY-DIRECT-CORE",
     "RETAINED-DUTY-TEMPORAL-CORE",
     "RETAINED-DUTY-TRANSFER",
     "RETAINED-DUTY-CONTROLS",
-    "RETAINED-DUTY-BRANCH-CONTROLS"
+    "RETAINED-DUTY-BRANCH-CONTROLS",
+    "RETAINED-DUTY-UNIVERSAL-TO-LOCAL",
+    "RETAINED-DUTY-LOCAL-DIRECT-CORE",
+    "RETAINED-DUTY-LOCAL-TEMPORAL-CORE",
+    "RETAINED-DUTY-LOCAL-CONTROLS"
   ]
 }
