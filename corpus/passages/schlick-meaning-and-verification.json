@@ -1,0 +1,40 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "SCHLICK-MEANING-VERIFICATION",
+    "source_url": "https://www.uni-rostock.de/storages/uni-rostock/Alle_PHF/IPH/media/Schlick-Forschungsstelle/MSGA_I_6.pdf",
+    "retrieved_at": "2026-11-05T15:19:33Z",
+    "sha256": "sha256:4f4236dc9963e24c428c131022ea1ff8f27679b606a4d8a963123c45aba5572f",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "Schlick text public domain (author died 1936; no US renewal); MSGA edition © Springer 2008, hosted by the Universität Rostock Schlick-Forschungsstelle with the publisher's permission. No Wayback fallback is pinned yet; the snapshot is fragile to live-page drift. Only hashes, locators and a short incipit are committed."
+  },
+  "passages": [
+    {
+      "id": "SCHLICK-MV-342",
+      "locator": "MSGA I/6 p. 712 (Philosophical Review p. 342)",
+      "claim_locator_prefixes": [
+        "p. 342"
+      ],
+      "pdf_pages": {
+        "first": 720,
+        "last": 720
+      },
+      "text_sha256": "sha256:b0734a8bb721765c282db3f4af8a31c1d1227842935e8bf10f93dc8630458564",
+      "incipit": "Meaning and Verification Ts 4 A 342 my own views about these matters. I can"
+    },
+    {
+      "id": "SCHLICK-MV-350-353",
+      "locator": "MSGA I/6 pp. 725-727 (Philosophical Review pp. 350-353)",
+      "claim_locator_prefixes": [
+        "pp. 350-353"
+      ],
+      "pdf_pages": {
+        "first": 733,
+        "last": 735
+      },
+      "text_sha256": "sha256:0487d6bc5f7764048b2955817f0f45fc50867bd629a08367b0d4bbbfc9bf9b7a",
+      "incipit": "Meaning and Verification 5 10 15 20 25 30 35 as the description of any fact."
+    }
+  ]
+}

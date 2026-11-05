@@ -1,0 +1,15 @@
+{
+  "id": "STMT-AYER-1946-EXCLUDES-SENTENCE-AND-NEGATION",
+  "paraphrase": "The V3 exclusion thesis: in an empirical language with three observation statements as Church's construction uses them (o1 does not entail o3, o3 does not entail o2), the 1946 criterion counts some sentence and its negation both as not literally meaningful (neither analytic nor directly or indirectly verifiable), as Ayer holds of 'there is a god' and 'there is no god'. Stated as the rival's commitment in the analyst's typing, unattributed: the sourced claims bearing on it are linked as supports relations that record their gaps.",
+  "lean_declaration": "TruthCore.Logic.Verificationism.Ayer1946ExcludesSentenceAndNegation",
+  "definition_ids": [
+    "DEF-TRUTH-CONDITIONAL-LANGUAGE",
+    "DEF-EMPIRICIST-FRAME",
+    "DEF-AYER-1946-VERIFIABILITY",
+    "DEF-LITERAL-MEANINGFULNESS-1946"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-VERIFIABILITY-VARIANT",
+    "DISAMB-VERIFICATIONIST-MEANINGFUL"
+  ]
+}

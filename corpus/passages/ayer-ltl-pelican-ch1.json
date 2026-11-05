@@ -1,0 +1,30 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "AYER-LTL-PELICAN",
+    "source_url": "https://personal.lse.ac.uk/robert49/teaching/ph201/Week02_Ayer2.pdf",
+    "retrieved_at": "2026-11-05T15:22:22Z",
+    "sha256": "sha256:845934847b3fee64d25bec6be602c8f5b8706e2b2b91fcaf300070131a9912cf",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "© A. J. Ayer estate; university course copy (LSE PH201), no redistribution licence asserted. No Wayback fallback is pinned yet; the snapshot is fragile to live-page drift. Only hashes, locators and a short incipit are committed."
+  },
+  "passages": [
+    {
+      "id": "AYER-LTL-PELICAN-I-18-21",
+      "locator": "ch. I, pp. 18-21",
+      "claim_locator_prefixes": [
+        "ch. I, p. 18",
+        "ch. I, p. 19",
+        "ch. I, p. 20",
+        "ch. I, p. 21"
+      ],
+      "pdf_pages": {
+        "first": 7,
+        "last": 10
+      },
+      "text_sha256": "sha256:6f335b6276aacfcb29d816f04a2a44582818418ba2f1d3aba5bfd815a725fc38",
+      "incipit": "verified, then it follows that he has made an utterance which has no literal"
+    }
+  ]
+}

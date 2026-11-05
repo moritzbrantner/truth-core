@@ -1,0 +1,15 @@
+{
+  "id": "STMT-AYER-1946-EXCLUSION-FAILS",
+  "paraphrase": "No language and frame satisfy the V3 exclusion thesis: wherever Church's three observation statements exist, no sentence and its negation are both not literally meaningful by the 1946 criterion.",
+  "lean_declaration": "TruthCore.Logic.Verificationism.Ayer1946ExclusionFails",
+  "definition_ids": [
+    "DEF-TRUTH-CONDITIONAL-LANGUAGE",
+    "DEF-EMPIRICIST-FRAME",
+    "DEF-AYER-1946-VERIFIABILITY",
+    "DEF-LITERAL-MEANINGFULNESS-1946"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-VERIFIABILITY-VARIANT",
+    "DISAMB-VERIFICATIONIST-MEANINGFUL"
+  ]
+}

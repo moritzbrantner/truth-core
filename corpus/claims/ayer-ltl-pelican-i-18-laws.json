@@ -1,0 +1,15 @@
+{
+  "id": "AYER-LTL-PELICAN-I-18-LAWS",
+  "statement_id": "STMT-AYER-LAWS-NOT-CONCLUSIVELY-VERIFIABLE",
+  "source_id": "AYER-LTL-PELICAN",
+  "locator": "ch. I, p. 18, \"they cannot, even in principle, be verified conclusively\"",
+  "interpretation": "Defeat 2 in the movement's own words: Ayer's argument against the strong criterion ('our argument will prove too much'), with examples 'arsenic is poisonous', 'all men are mortal'.",
+  "attribution": "The passage states that general propositions of law, covering an infinite number of cases, cannot even in principle be verified conclusively, so that the conclusive criterion obliges us to treat them like metaphysical statements, which is the premise.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CONCLUSIVE-VERIFIABILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-VERIFIABILITY-VARIANT"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "AYER-1936-CRITERION-TRIVIAL",
+  "argument_id": "AYER-1936-CRITERION-TRIVIAL",
+  "challenge_module": "TruthCore.Results.Logic.Verificationism.Ayer1936Trivial.Challenge",
+  "solution_module": "TruthCore.Results.Logic.Verificationism.Ayer1936Trivial.Solution",
+  "theorem": "TruthCore.Results.Logic.Verificationism.Ayer1936Trivial.ayer1936CriterionTrivial",
+  "comparator_config": "results/AYER-1936-CRITERION-TRIVIAL/comparator.json",
+  "status": "solution-present"
+}

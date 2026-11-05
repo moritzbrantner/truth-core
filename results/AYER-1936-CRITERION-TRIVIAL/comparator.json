@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.Verificationism.Ayer1936Trivial.Challenge",
+  "solution_module": "TruthCore.Results.Logic.Verificationism.Ayer1936Trivial.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.Verificationism.Ayer1936Trivial.ayer1936CriterionTrivial"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

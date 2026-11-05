@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.Verificationism.StrongVerificationLaws.Challenge",
+  "solution_module": "TruthCore.Results.Logic.Verificationism.StrongVerificationLaws.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.Verificationism.StrongVerificationLaws.strongVerificationExcludesLaws"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

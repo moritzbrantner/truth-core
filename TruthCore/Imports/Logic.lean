@@ -27,3 +27,5 @@ import TruthCore.Logic.TranscendentalPractice
 import TruthCore.Logic.TruthComposition
 import TruthCore.Logic.TruthNontriviality
 import TruthCore.Logic.TruthPilot
+import TruthCore.Logic.Verificationism
+import TruthCore.Logic.Verificationism.Model

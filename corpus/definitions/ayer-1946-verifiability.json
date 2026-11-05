@@ -1,0 +1,8 @@
+{
+  "id": "DEF-AYER-1946-VERIFIABILITY",
+  "term": "directly / indirectly / empirically verifiable (Ayer 1946)",
+  "definition": "`DirectlyVerifiable F s`: s is an observation statement, or with one or more observation statements entails an observation statement not entailed by them alone. `IndirectlyVerifiable F s` (least predicate closed under the clause): with a nonempty list of further premises s entails a directly verifiable statement not entailed by those premises alone, each premise being analytic, directly verifiable or indirectly verifiable (`AdmissiblePremise`). `EmpiricallyVerifiable`: directly or indirectly verifiable.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.Verificationism.EmpiricallyVerifiable",
+  "note": "Variant V3. Types Ayer's revised criterion as quoted verbatim in claim IEP-REL-LANG-2A-AYER-1946-CRITERION (LTL 2nd ed., Introduction, p. 13); the inductive reading of the recursion is the analyst's."
+}

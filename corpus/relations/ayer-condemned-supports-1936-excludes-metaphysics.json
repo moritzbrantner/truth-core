@@ -1,0 +1,9 @@
+{
+  "id": "REL-AYER-CONDEMNED-SUPPORTS-1936-EXCLUDES-METAPHYSICS",
+  "subject_kind": "claim",
+  "subject_id": "AYER-LTL-PELICAN-I-21-CONDEMNED",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-AYER-1936-EXCLUDES-METAPHYSICS",
+  "note": "Gap: Ayer says the criterion condemns these assertions; the statement's formal condition (the condemned sentence's negation does not entail some observation statement) is the analyst's typing of 'no conceivable observation could have any tendency to show' it, not Ayer's wording."
+}
