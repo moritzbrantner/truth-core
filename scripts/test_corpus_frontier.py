@@ -409,6 +409,26 @@ class FrontierReportTest(unittest.TestCase):
         self.assertEqual(items["OPEN-B"]["bibliographic_claims"], ["CLAIM-BIB-2"])
         self.assertIn("bibliographic witness, not byte-verified: CLAIM-BIB\n", corpus.format_frontier(report) + "\n")
 
+    def test_unavailable_witness_only_stating_claims_count_as_supported(self) -> None:
+        # Owner decision 2026-11-05: a claim on a permanently unavailable
+        # witness can no longer be re-verified, so it only supports.
+        only_gone = [{"id": "CLAIM-GONE", "statement_id": "OPEN-A", "witness": "unavailable"}]
+        report = corpus.frontier_report(STATEMENTS, ARGUMENTS, RESULTS, [], root="ROOT", claims=only_gone)
+        item = {item["statement_id"]: item for item in report["items"]}["OPEN-A"]
+        self.assertEqual(item["depth"], "supported")
+        self.assertEqual(item["unavailable_claims"], ["CLAIM-GONE"])
+        self.assertEqual(report["depth_counts"], {"bare": 2, "supported": 1, "stated": 0})
+        for route in report["routes"]["routes"]:
+            if "OPEN-A" in route["open_premise_depths"]:
+                self.assertEqual(route["open_premise_depths"]["OPEN-A"], "supported")
+        mixed = only_gone + [{"id": "CLAIM-BIB", "statement_id": "OPEN-A", "witness": "bibliographic"}]
+        report = corpus.frontier_report(STATEMENTS, ARGUMENTS, RESULTS, [], root="ROOT", claims=mixed)
+        self.assertEqual({i["statement_id"]: i for i in report["items"]}["OPEN-A"]["depth"], "supported")
+        # A newly pinned witness makes it stated again.
+        repinned = only_gone + [{"id": "CLAIM-NEW", "statement_id": "OPEN-A"}]
+        report = corpus.frontier_report(STATEMENTS, ARGUMENTS, RESULTS, [], root="ROOT", claims=repinned)
+        self.assertEqual({i["statement_id"]: i for i in report["items"]}["OPEN-A"]["depth"], "stated")
+
     def test_bibliographic_only_stating_claims_count_as_supported(self) -> None:
         # Owner decision 2026-11-05: only a claim on a pinned source states a
         # premise; a bibliographic citation alone supports it.
@@ -479,9 +499,12 @@ class FrontierReportTest(unittest.TestCase):
             {"statement_id": "U", "depth": "sourced", "stating_claims": []},
             {"statement_id": "B", "depth": "bare", "stating_claims": []},
             {"statement_id": "C", "depth": "sourced", "stating_claims": ["BIB"], "bibliographic_claims": ["BIB"]},
+            {"statement_id": "G", "depth": "stated", "stating_claims": ["GONE"], "unavailable_claims": ["GONE"]},
         ]
-        self.assertEqual([corpus.item_depth(item) for item in legacy], ["stated", "supported", "bare", "supported"])
-        self.assertEqual(corpus.depth_counts(legacy), {"bare": 1, "supported": 2, "stated": 1})
+        self.assertEqual(
+            [corpus.item_depth(item) for item in legacy], ["stated", "supported", "bare", "supported", "supported"]
+        )
+        self.assertEqual(corpus.depth_counts(legacy), {"bare": 1, "supported": 3, "stated": 1})
 
     def test_output_is_deterministic(self) -> None:
         shuffled = corpus.frontier_report(
