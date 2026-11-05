@@ -155,3 +155,18 @@ passage or claim is added; no existing challenge is weakened; no premise truth
 or Catholicism root closure is asserted. The actual root/frontier comparison
 is recorded with delivered-head verification evidence. Shared convention
 `sourceRevision`: `625cb04ca568aebc8d45c90033e107a05e9bd2a0`.
+
+
+Verification evidence: the canonical full `lake build` passed; exact three-result
+binding reports 3 bound and 0 mismatch. `scripts/verify-result.sh` accepts
+`FINITE-HITTING`, `FINITE-HITTING-CORE` and
+`FINITE-HITTING-FINITE-WORLD-CORE`, each with independent NanoDa acceptance.
+The live configuration command checks both core signatures/compositions and all
+three finite registrations (24 zero-axiom certificates); it verifies five
+incompatible configurations and three finite-model-witnessed deletions. Its
+infinite survivor case correctly remains unresolved by that finite registry.
+Corpus/bundle audit, generated imports/docs, module format and attribution
+self-check pass. Computed root delta is exactly zero: 90 open reaching-root
+premises (30 bare, 18 supported, 42 stated), cheapest route cost 31 unchanged.
+The merge of main `825ae260` adds only #1046 metadata/docs, so successful proof
+evidence is reused. Delivered-head CI and current-head Codex review remain gates.
