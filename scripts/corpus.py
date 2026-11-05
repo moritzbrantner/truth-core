@@ -2596,6 +2596,25 @@ def command_context(args: argparse.Namespace) -> int:
     return 0
 
 
+def command_bridge_experiments(args: argparse.Namespace) -> int:
+    """Read-only, profile-scoped cross-argument experiment discovery (#953)."""
+    from bridge_experiments import experiment_report, format_experiments
+
+    directories = ("statements", "arguments", "results", "relations", "claims", "inferences", "attempts")
+    data = {name: [record for _, record in load_dir(name)] for name in directories}
+    report = frontier_report(
+        data["statements"], data["arguments"], data["results"], data["relations"],
+        root=args.root,
+        transcription=transcription_flags(data["results"], data["arguments"], data["statements"]),
+        claims=data["claims"], inferences=data["inferences"],
+    )
+    if not report["root_known"]:
+        raise CorpusError(f"unknown root statement: {args.root}")
+    try:
+        experiments = experiment_report(ROOT, data, report, args.anchor, args.profile_module, limit=args.limit)
+    except ValueError as exc:
+        raise CorpusError(str(exc)) from exc
+    print(json.dumps(experiments, indent=2, ensure_ascii=False) if args.json else format_experiments(experiments))
 def command_issues(args: argparse.Namespace) -> int:
     """Reconcile declared issue acceptance against this checkout; never mutate issues."""
     from issue_acceptance import analyze_issues, issues_for_id, read_issue_snapshot
@@ -3656,6 +3675,14 @@ def parser() -> argparse.ArgumentParser:
     context.add_argument("--proof-use", action="store_true", help="inspect proof-term references from cached Lean build (no rebuild)")
     context.add_argument("--proof-use-json", help="use saved LeanReuse.lean output instead of running Lean")
     context.set_defaults(func=command_context)
+    bridges = sub.add_parser("bridge-experiments", help="rank recorded cross-argument joins under one named Lean profile; discovery only")
+    bridges.add_argument("anchor", metavar="RESULT-ID", help="an existing result, not a new premise")
+    bridges.add_argument("--profile-module", required=True, metavar="LEAN-MODULE",
+                         help="exact common Lean profile import; a shared import is not semantic equivalence")
+    bridges.add_argument("--limit", type=int, default=5, help="maximum results shown (1-20; default 5)")
+    bridges.add_argument("--root", default=DEFAULT_FRONTIER_ROOT)
+    bridges.add_argument("--json", action="store_true", help="include complete argument premise bundles and negative-test protocols")
+    bridges.set_defaults(func=command_bridge_experiments)
     issues = sub.add_parser("issues", help="read-only issue acceptance reconciliation against this checkout (#949)")
     issues.add_argument("--from", dest="from_file", metavar="FILE", help="offline JSON from gh issue list --json")
     issues.add_argument("--for", dest="for_id", metavar="CORPUS-ID", help="show issues targeting one result/statement/configuration/attempt")
