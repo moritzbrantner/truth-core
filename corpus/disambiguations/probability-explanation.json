@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-PROBABILITY-EXPLANATION",
+  "term": "probabilistic explanation and selection",
+  "sense_definition_ids": [
+    "DEF-PSR-EVENT-CHANCE",
+    "DEF-PSR-CONDITIONAL-CHANCE",
+    "DEF-PSR-CHANCE-RANKING"
+  ],
+  "resolution": "Event probability, probability raising by conditioning, ranking outcomes by conditional probability, reasons false at a rival, and inductive productive Supply are different conditions. The later-axis map passes from fixed conditional ranking to the existing favouring core through the stated chanceFrame specialization only. It never infers causal production, adequacy or actual truth from positive probability. Source truth everywhere is stronger than accessibility-relative necessity without a support bridge, and conditioning on the source existence fact is not conditioning on its contingent exercise. Zero probability is kept apart from impossibility."
+}

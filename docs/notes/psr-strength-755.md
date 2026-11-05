@@ -139,10 +139,102 @@ ground have the same row, and each theorem leaves its conclusion conditional.
 - **Open bridges:** whether explanation is necessitating, whether a totality fact
   exists (`BCCFAt`), `Distribution`, `UnexplainedFacts`, and extensionality. Nothing
   here defends or refutes any of them.
-- **Axes not formalized:** the rational-inquiry norm (axis 1 of #755), contrastive
-  explanation, probabilistic explanation, and independently productive `Supply`
-  (#698, #750). `ReasonIndependent` is modal only, so a reason that merely differs
-  modally from its target passes it without being relevant to it.
-- **Not composed:** #465's modal countermodels, #735/#750 adequacy and #746 stopping
-  are not imported as lemmas. Only #312's `ExistencePSR` and `ContingentPSR` are
-  composed, along `ofModel`.
+- **Later axes:** the #942 extension below composes inquiry, contrast, a genuine
+  normalized probability specialization, productive `Supply` and stopping tests.
+  `ReasonIndependent` remains modal only; modal difference alone does not
+  establish relevance.
+- **Open interpretation:** none of these conditions establishes genuine
+  explanation, productive applicability or a personal ground.
+
+
+## Later axes composed (#942)
+
+`PSR-LATER-AXES-MAP` (`PSRLaterAxes.interpretedMap`) imports and consumes the
+original `strengthMap` and `collapseCore`, then connects the later results on
+the same `Arena` vocabulary. The map is a collection of conditional constraints
+and exact named controls. Different model carriers are not combined into one
+witness. No PSR or explanatory standard is established.
+
+| Axis | Certified connection | Existing results consumed |
+| --- | --- | --- |
+| Inquiry | With support coverage, the tracking bridge is equivalent to contingent-fact PSR. Their conjunction therefore reaches the aggregate collapse core when its other hypotheses hold. Meeting an inquiry demand alone does not: the critic retains a supported brute root. | `bridgeLadder`, `stanceMap`, `collapse_distribution` |
+| Contrast | Uniform contrast implies per-rival contrast; the latter conflicts with a reason-closed founded account of a contingent target. The necessary-ground account is closed and two-way but fails contrast. The chain with its whole has per-rival contrast but no uniform reason. | `core_contrast`, `ground_closed`, `ground_two_way`, `chain_contrast_whole`, `chain_not_uniform_whole` |
+| Probability | A normalized PMF and event-ratio conditioning specialize the existing per-reason ranking. With the stated base/field/selection conditions the earlier symmetry core rules out a contingent field member; it does not show that chance itself rules out contingency. | `perReason_fixed`, `core_necessary`, `core_pair` |
+| Production | At actual target2, every all-necessary overlay meets contingent PSR and admits a reason-closed account. Single/plural Supply succeeds; branch/chain Supply fails. The chain even has unrestricted fact PSR. Plural Supply has no least graph foundation, and a rooted branch has no target Supply. | `overlay_all_necessary`, `single_supply`, `plural_supply`, `plural_no_least`, `branch_least`, `branch_no_supply`, `chain_no_supply` |
+| Stopping | The contingent-only foundation norm permits two brute roots and an unexplained necessary ground; the unrestricted norm rejects that necessary stop. Neither is asserted. | `foundationNormTest` |
+| Scope and witness identity | The earlier scope controls remain in the composed map, including failure of existential causal inference; the old modal/witness-strength rows remain unchanged. | `psrScopeBoundary`, `strengthMap` |
+
+### Probability: what has actually been added
+
+The ordinal rankings of #779 were explicitly **not** probability measures. The
+new `chance` uses Mathlib's normalized `PMF` on the arena's own world carrier.
+Its outer measure makes every event measurable. `chanceGiven r f` is the
+intersection probability divided by the probability of `r`; `PositiveBase`
+licenses conditioning by every base member, and `Raises` explicitly requires a
+positive denominator. A positive denominator says nothing about actual truth.
+`ProTanto` and `NetSelects` retain their separate truth and admitted-reason
+clauses.
+
+The finite control puts mass 3/4 at world0 and 1/4 at world1 of the existing
+necessary-ground arena. The source fact is true at both and at every other
+world. At world0 the target is true and highest-ranked. At world1 the source
+and rival outcome are true, the target is false, and the source is admitted as
+a reason for that rival; the rival has positive probability 1/4 but is not
+net-selected by the fixed ranking. Thus demanding highest-probability selection
+of **every** actual outcome is stronger than allowing probabilistic explanation.
+No theorem says the admitted reason is adequate.
+
+A fact true at **every sample world** has probability one, and conditioning on
+it leaves every outcome probability unchanged. This prevents probability
+raising by that truth event alone. It does not follow from mere modal necessity
+at the actual world when the PMF may charge inaccessible worlds. An application
+to `NecessaryAt` would need a support/accessibility bridge. In the concrete
+control accessibility is universal and the source fact is globally true.
+Conditioning on its existence is distinct from conditioning on a contingent
+act, exercise or enabling condition: none of those is excluded by this result.
+
+The point-mass control gives the rival probability zero while it remains true
+at accessible world1. Probability-zero therefore is not encoded as
+impossibility. The PMF is a mathematical input; objective propensity,
+epistemic credence and real-world applicability are **OPEN**. Association and
+probability ranking are not causal production.
+
+### Productive and personal boundaries
+
+The productive comparison reuses the exact #735 groups, intrinsic contributions
+and actual target2, through #750's `overlay`. This projection treats event
+existence facts as facts and graph contributors as admitted reasons; its
+applicability to existential or metaphysical explanation remains **OPEN**.
+The all-necessary overlay changes the modal status of bearers without changing
+the actual graph. Its contingent PSR is vacuous, which is why the separate,
+nonvacuous `FactPSR` chain control is included: every actual chain member has a
+successor reason, and there is still no intrinsic contribution from which
+inductive `Supply` can be derived. An admitted reason and productive supply
+are different conditions. Existing #735 background/exercise verification stays
+in its own certificate and is not promoted to explanatory adequacy here.
+
+No positive personal-versus-impersonal discriminator is available in this
+signature. The same `acting` frame has a necessary base, a contingent outcome
+and all four tested choice marks with either value of the supplied personal
+flag. The map proves those exact named controls; it does not assert that
+personal and impersonal agency are equivalent. A substantive discriminator
+would require an independently interpreted account of agency and a bridge
+connecting it to explanation or production. Merely adding a personal flag
+would stipulate the requested distinction. This is the remaining vocabulary
+and philosophical blocker, rather than a missing proof search.
+
+### Premises, sources and proof boundaries
+
+All hypotheses of a conditional row remain inside its explicit quantified
+statement. In particular, support coverage and tracking, aggregate existence,
+necessitation, contrast, foundedness and necessary-base/selection/field clauses
+are not silently established. The positive-base condition in the probability
+row licenses interpretation as conditioning; the imported order-theoretic core
+actually holds without that side condition. No claim is attributed to a new
+source and no previous source interpretation is changed.
+
+The new certificate closes no root premise. The root frontier remains subject
+to the computed `frontier-diff`; its eventual PR records that exact delta.
+The attempt `ATTEMPT-PSR-LATER-AXES-942` preserves the rejected identification of
+ordinal favouring with probability and the remaining support, exercise,
+relevance, agency and adequacy bridges.

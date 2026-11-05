@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PSR-CONDITIONAL-CHANCE",
+  "term": "conditional event probability and probability raising",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.PSRLaterAxes.Raises",
+  "definition": "chanceGiven μ A r f is the probability of the intersection of the reason and outcome truth sets divided by the probability of the reason truth set. Raises requires positive conditioning mass and strict increase over the unconditional probability of f. Association under a supplied distribution is neither causal production nor explanatory adequacy. Positive conditioning probability does not itself assert actual truth of the reason or outcome.",
+  "note": "Stipulated specialization of standard conditional probability to existing Arena truth sets; no hand-rolled probability measure. The ratio is totalized at zero denominator, so substantive conditioning applications explicitly use PositiveBase or the positive-mass clause of Raises. A fact true throughout the sample space has probability one and cannot raise another event’s probability by conditioning on its own truth. Modal necessity at a world is weaker unless the probability support is confined to its accessible worlds. Necessary existence and contingent exercise are distinct possible conditioning events; the result concerns the former only when its truth is ubiquitous. These interpretation/support/exercise bridges remain OPEN."
+}
