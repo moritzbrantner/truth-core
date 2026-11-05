@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NECESSARY-FULL-CONDITION-IMPLICATION",
+  "term": "necessary implication from total condition",
+  "definition": "NecessaryImplication A a q p means at every accessible world truth of q implies truth of p. For the C/N/S interpretation q represents all relevant total-ground conditions including enablers; the theorem itself is a modal schema and does not establish that any supplied q is complete, actual or explanatory.",
+  "basis": "stipulative",
+  "note": "Analyst framework for #545, not independently established metaphysical applicability. See docs/notes/grounding-baseline-545.md for examples, exclusions, structural properties and strongest rival replies.",
+  "lean_declaration": "TruthCore.Explanation.GroundingBaseline.NecessaryImplication"
+}

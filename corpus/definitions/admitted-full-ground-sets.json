@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ADMITTED-FULL-GROUND-SETS",
+  "term": "admitted complete-ground candidates",
+  "definition": "FullGround F is an arbitrary relation between a predicate-valued set of facts and an explanandum. Admission is primitive and does not entail actual truth, membership dependency, modal sufficiency or adequate explanation. It permits plural, infinite or empty sets; every admitted candidate set is quantified over in the terminus conclusion, not just one chosen set.",
+  "basis": "stipulative",
+  "note": "Analyst framework for #545, not independently established metaphysical applicability. See docs/notes/grounding-baseline-545.md for examples, exclusions, structural properties and strongest rival replies.",
+  "lean_declaration": "TruthCore.Explanation.GroundingBaseline.FullGround"
+}

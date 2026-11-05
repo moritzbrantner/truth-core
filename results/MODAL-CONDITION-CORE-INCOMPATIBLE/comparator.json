@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.GroundingBaseline.Core.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.GroundingBaseline.Core.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Explanation.GroundingBaseline.Core.incompatible"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

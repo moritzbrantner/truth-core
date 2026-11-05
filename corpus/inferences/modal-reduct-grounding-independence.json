@@ -1,0 +1,9 @@
+{
+  "id": "INF-MODAL-REDUCT-GROUNDING-INDEPENDENCE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-MODAL-REDUCT-GROUNDING-INDEPENDENCE",
+  "rule": "Explicit typed deduction and matched model construction",
+  "meaning": "Ground-free existing modal-language structural induction and exact common-reduct grounded/ungrounded models.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

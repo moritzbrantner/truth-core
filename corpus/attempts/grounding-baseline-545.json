@@ -1,0 +1,29 @@
+{
+  "id": "ATTEMPT-GROUNDING-BASELINE-545",
+  "date": "2026-11-05",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "statement_ids": [
+    "STMT-MODAL-REDUCT-GROUNDING-INDEPENDENCE",
+    "STMT-GROUNDING-NECESSITATION-CORE-MODELS",
+    "STMT-CONTINGENT-FULL-GROUND-TERMINUS",
+    "STMT-CONTINGENT-FULL-GROUND-TERMINUS-CONTROLS",
+    "STMT-GROUND-ENABLING-CYCLE-CONTROL",
+    "STMT-GENERAL-MODAL-REDUCT-INVARIANCE"
+  ],
+  "evidence": [
+    "MODAL-REDUCT-GROUNDING-INDEPENDENCE",
+    "GROUNDING-NECESSITATION-INCOMPATIBLE",
+    "GROUNDING-NECESSITATION-CORE-MODELS",
+    "CONTINGENT-FULL-GROUND-TERMINUS",
+    "CONTINGENT-FULL-GROUND-TERMINUS-CONTROLS",
+    "GROUND-ENABLING-CYCLE-CONTROL",
+    "MODAL-CONDITION-CORE-INCOMPATIBLE",
+    "NECESSARY-FACT-BOUNDARY",
+    "EXPLANATORY-ADEQUACY-CORE",
+    "CONDENSATION-SUFFICIENCY-CERTIFICATE",
+    "GENERAL-MODAL-REDUCT-INVARIANCE"
+  ],
+  "summary": "Approved A-D formal baseline, source-free analyst policies. Existing modal language/K, forced contingent descent and Mathlib SCC projection consumed. Arbitrary admitted complete-ground sets: actual member truth, linkage, joint sufficiency and WF explicit; terminal fact can differ from original x. Rejected importing stronger ReasonClosed/nonCopy/coverage merely to use necessaryReason; forced has the faithful lighter scope. Existing boxed-fact notion exported instead of duplicated. Raw-frame configuration specialization needed because current data-role parser does not admit three-carrier Arena, with all3 policies retained. Main frozen Challenge8b90bd4511916512238e2fdc5dbc4c499a54b0bafefff4341f2cf69664e2a04d and separate profile Challenge6f68af68f907aedf3c1f38ecc5fcc2c7514d9f026b584948b873af2c112ca733 compiled before their Solutions. Canonical modules build cleanly; final verification status is recorded in PR/current545 handoff. Scope/omissions/rejected interpretations in docs/notes/grounding-baseline-545.md. Shared convention sourceRevision625cb04ca568aebc8d45c90033e107a05e9bd2a0. Separate general reduct-functional companion covers internally quantified queries only under SAME access/existence/rigid-identity factorization; no ground argument or new syntax. Original seven gates passed before adding this independent companion; affected evidence only is rerun. Final evidence: all eight focused result builds/bindings/Comparator/NanoDa pass; original7 bound7/0 plus separately affected semantic companion bound1/0. Exact axiom probes: fiveempty, omission-map and SCC use approved3, generic reduct uses propext+Quot.sound. Raw3-policy configuration live verification, all9 finite evaluations and generated incompatibility composition pass; configuration-explorer7tests pass. Corpus/source manifests, attribution(no changed stating claims), bundle/module/generated/diff pass. Frontier90open(30bare,18supported,42stated), cheapest31 unchanged. Bounded shared-service corpus query and two modal-K fragment edits/goals accepted at supplied previewa2d97ecf dirtyfingerprintd9531f3a, submitted hashesb09bb627... andcdf065a3..., no diagnostics; canonical A-D used CLI because preview imports older. No full canonical-module certification inferred from preview.",
+  "blocker": "All real-world modal/grounding/applicability and full-explanation policies remain OPEN; no P2-B productive existential-support defense or independent root premise closure."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-FULL-GROUND-ACTUAL-MEMBERS",
+  "term": "actual truth of complete-ground members",
+  "definition": "ActualMembers requires every member of every admitted complete-ground candidate to be true at the fixed actual world. This is separate from sufficiency at other worlds and says nothing about an ontic cause or actual causal exercise.",
+  "basis": "stipulative",
+  "note": "Analyst framework for #545, not independently established metaphysical applicability. See docs/notes/grounding-baseline-545.md for examples, exclusions, structural properties and strongest rival replies.",
+  "lean_declaration": "TruthCore.Explanation.GroundingBaseline.ActualMembers"
+}

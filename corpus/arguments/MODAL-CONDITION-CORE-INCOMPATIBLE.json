@@ -1,0 +1,22 @@
+{
+  "id": "MODAL-CONDITION-CORE-INCOMPATIBLE",
+  "premise_statement_ids": [
+    "STMT-CONDITION-CONTINGENT-PROFILE",
+    "STMT-CONDITION-NECESSARY-PROFILE",
+    "STMT-CONDITION-IMPLICATION-PROFILE"
+  ],
+  "conclusion_statement_id": "STMT-CONFIGURATION-FALSE",
+  "inference_ids": [
+    "INF-MODAL-CONDITION-CORE-INCOMPATIBLE"
+  ],
+  "meaning": "Exact data-only raw-frame specialization of GROUNDING-NECESSITATION-INCOMPATIBLE for the existing configuration engine, retaining all three policies.",
+  "definition_ids": [
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-BOXED-FACT-TRUTH",
+    "DEF-NECESSARY-FULL-CONDITION-IMPLICATION",
+    "DEF-MODAL-CONDITION-CORE-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GROUNDING-BASELINE-SENSES"
+  ]
+}

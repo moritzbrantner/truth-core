@@ -1,0 +1,29 @@
+{
+  "id": "CONTINGENT-FULL-GROUND-TERMINUS",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-FACT-CONTINGENT-AT",
+    "STMT-WELL-FOUNDED-FACT-DEPENDENCY",
+    "STMT-FULL-GROUND-ACTUAL-MEMBERS",
+    "STMT-FULL-GROUND-LINKED-MEMBERS",
+    "STMT-FULL-GROUND-JOINT-NECESSITATION"
+  ],
+  "conclusion_statement_id": "STMT-CONTINGENT-FULL-GROUND-TERMINUS",
+  "inference_ids": [
+    "INF-CONTINGENT-FULL-GROUND-TERMINUS"
+  ],
+  "meaning": "Consume existing ExplanatoryAdequacy.forced on an explicit R-reason projection. Under WF, an actually contingent member with only noncontingent predecessors cannot admit any candidate complete-ground set: actual members would all be boxed true, and joint sufficiency would contradict that member’s accessible failure. Explicit EM extracts the existential; no stronger ReasonClosed/nonCopy/coverage hypothesis.",
+  "definition_ids": [
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-ADMITTED-FULL-GROUND-SETS",
+    "DEF-FULL-GROUND-ACTUAL-MEMBERS",
+    "DEF-FULL-GROUND-MEMBER-DEPENDENCY",
+    "DEF-FULL-GROUND-JOINT-NECESSITATION",
+    "DEF-CONTINGENT-FULL-GROUND-TERMINUS",
+    "DEF-FACT-DEPENDENCY-WELL-FOUNDED",
+    "DEF-BOXED-FACT-TRUTH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GROUNDING-BASELINE-SENSES"
+  ]
+}

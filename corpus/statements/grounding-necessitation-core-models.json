@@ -1,0 +1,13 @@
+{
+  "id": "STMT-GROUNDING-NECESSITATION-CORE-MODELS",
+  "paraphrase": "On arbitrary accessibility, actual contingency of p, boxed truth of q and boxed q→p are inconsistent. Three universal two-world controls delete each policy in turn, retaining the other two; p and q are actually true in each control. Inclusion-minimality is conditional on this common modal interpretation; no member is independently established.",
+  "lean_declaration": "TruthCore.Explanation.GroundingBaseline.NecessitationCore",
+  "definition_ids": [
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-BOXED-FACT-TRUTH",
+    "DEF-NECESSARY-FULL-CONDITION-IMPLICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GROUNDING-BASELINE-SENSES"
+  ]
+}

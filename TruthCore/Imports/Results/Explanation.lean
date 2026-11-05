@@ -17,6 +17,9 @@ import TruthCore.Results.Explanation.ExplanatoryAdequacy.Solution
 import TruthCore.Results.Explanation.ExplanatoryClosure.Solution
 import TruthCore.Results.Explanation.ExplanatorySymmetry.Solution
 import TruthCore.Results.Explanation.FixedConstituentNecessaryBeing.Solution
+import TruthCore.Results.Explanation.GroundingBaseline.Core.Solution
+import TruthCore.Results.Explanation.GroundingBaseline.Reduct.Solution
+import TruthCore.Results.Explanation.GroundingBaseline.Solution
 import TruthCore.Results.Explanation.HistorySelection.Solution
 import TruthCore.Results.Explanation.JointCondition.Solution
 import TruthCore.Results.Explanation.JointContingencyLocalization.Solution

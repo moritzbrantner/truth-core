@@ -1,0 +1,10 @@
+{
+  "id": "MODAL-CONDITION-CORE-INCOMPATIBLE",
+  "argument_id": "MODAL-CONDITION-CORE-INCOMPATIBLE",
+  "challenge_module": "TruthCore.Results.Explanation.GroundingBaseline.Core.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.GroundingBaseline.Core.Solution",
+  "theorem": "TruthCore.Results.Explanation.GroundingBaseline.Core.incompatible",
+  "comparator_config": "results/MODAL-CONDITION-CORE-INCOMPATIBLE/comparator.json",
+  "status": "solution-present",
+  "description": "Exact data-only raw-frame specialization of GROUNDING-NECESSITATION-INCOMPATIBLE for the existing configuration engine, retaining all three policies."
+}

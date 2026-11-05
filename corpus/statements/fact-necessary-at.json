@@ -1,0 +1,13 @@
+{
+  "id": "STMT-FACT-NECESSARY-AT",
+  "paraphrase": "The selected fact holds at every world accessible from the same evaluation world in the same Arena. The existing StoppingPoints.NecessaryFact is reused; this does not assert actual truth on a nonreflexive frame, necessary individual existence or source fidelity.",
+  "lean_declaration": "TruthCore.Explanation.StoppingPoints.NecessaryFact",
+  "definition_ids": [
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-BOXED-FACT-TRUTH",
+    "DEF-NECESSARY-FULL-CONDITION-IMPLICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GROUNDING-BASELINE-SENSES"
+  ]
+}

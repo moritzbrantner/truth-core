@@ -1,0 +1,10 @@
+{
+  "id": "GROUNDING-NECESSITATION-INCOMPATIBLE",
+  "argument_id": "GROUNDING-NECESSITATION-INCOMPATIBLE",
+  "challenge_module": "TruthCore.Results.Explanation.GroundingBaseline.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.GroundingBaseline.Solution",
+  "theorem": "TruthCore.Results.Explanation.GroundingBaseline.necessitationImpossible",
+  "comparator_config": "results/GROUNDING-NECESSITATION-INCOMPATIBLE/comparator.json",
+  "status": "solution-present",
+  "description": "Apply existing Kripke K to boxed q and boxed q→p, then contradict the accessible failure of actual contingent p. No reflexivity or S5."
+}

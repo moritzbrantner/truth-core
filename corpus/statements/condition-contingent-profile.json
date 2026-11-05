@@ -1,0 +1,14 @@
+{
+  "id": "STMT-CONDITION-CONTINGENT-PROFILE",
+  "paraphrase": "Raw-frame specialization of the same actual contingent-fact predicate for condition p; actual truth plus an accessible failure world.",
+  "lean_declaration": "TruthCore.Explanation.GroundingBaseline.ConditionContingent",
+  "definition_ids": [
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-BOXED-FACT-TRUTH",
+    "DEF-NECESSARY-FULL-CONDITION-IMPLICATION",
+    "DEF-MODAL-CONDITION-CORE-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GROUNDING-BASELINE-SENSES"
+  ]
+}

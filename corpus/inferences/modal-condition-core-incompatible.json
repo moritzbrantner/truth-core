@@ -1,0 +1,13 @@
+{
+  "id": "INF-MODAL-CONDITION-CORE-INCOMPATIBLE",
+  "input_statement_ids": [
+    "STMT-CONDITION-CONTINGENT-PROFILE",
+    "STMT-CONDITION-NECESSARY-PROFILE",
+    "STMT-CONDITION-IMPLICATION-PROFILE"
+  ],
+  "output_statement_id": "STMT-CONFIGURATION-FALSE",
+  "rule": "Typed deductive composition",
+  "meaning": "Exact data-only raw-frame specialization of GROUNDING-NECESSITATION-INCOMPATIBLE for the existing configuration engine, retaining all three policies.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

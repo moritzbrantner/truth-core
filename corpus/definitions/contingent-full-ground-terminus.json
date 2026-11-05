@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CONTINGENT-FULL-GROUND-TERMINUS",
+  "term": "contingent fact without an admitted complete ground",
+  "definition": "UngroundedContingent says SOME actually contingent fact has NO admitted full candidate set. That fact can differ from the originally supplied explanandum. It can still have partial reasons, efficient causes or other nonnecessitating explanations. The reasonView adapter uses R as a structural admitted-reason relation only for existing forced descent; its members are not individually sufficient complete grounds.",
+  "basis": "stipulative",
+  "note": "Analyst framework for #545, not independently established metaphysical applicability. See docs/notes/grounding-baseline-545.md for examples, exclusions, structural properties and strongest rival replies.",
+  "lean_declaration": "TruthCore.Explanation.GroundingBaseline.UngroundedContingent"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "MODAL-REDUCT-GROUNDING-INDEPENDENCE",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-MODAL-REDUCT-GROUNDING-INDEPENDENCE",
+  "inference_ids": [
+    "INF-MODAL-REDUCT-GROUNDING-INDEPENDENCE"
+  ],
+  "meaning": "Ground-free existing modal-language structural induction and exact common-reduct grounded/ungrounded models.",
+  "definition_ids": [
+    "DEF-GROUNDING-MODAL-REDUCT",
+    "DEF-KANT-ONTOLOGICAL-MODEL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GROUNDING-BASELINE-SENSES"
+  ]
+}

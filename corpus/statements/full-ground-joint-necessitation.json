@@ -1,0 +1,18 @@
+{
+  "id": "STMT-FULL-GROUND-JOINT-NECESSITATION",
+  "paraphrase": "For every admitted complete-ground candidate S of f, at every accessible world truth of every member of S jointly suffices for truth of f. No individual member is asserted sufficient.",
+  "lean_declaration": "TruthCore.Explanation.GroundingBaseline.JointNecessitation",
+  "definition_ids": [
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-ADMITTED-FULL-GROUND-SETS",
+    "DEF-FULL-GROUND-ACTUAL-MEMBERS",
+    "DEF-FULL-GROUND-MEMBER-DEPENDENCY",
+    "DEF-FULL-GROUND-JOINT-NECESSITATION",
+    "DEF-CONTINGENT-FULL-GROUND-TERMINUS",
+    "DEF-FACT-DEPENDENCY-WELL-FOUNDED",
+    "DEF-BOXED-FACT-TRUTH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GROUNDING-BASELINE-SENSES"
+  ]
+}

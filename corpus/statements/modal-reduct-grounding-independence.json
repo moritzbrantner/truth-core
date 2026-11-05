@@ -1,0 +1,12 @@
+{
+  "id": "STMT-MODAL-REDUCT-GROUNDING-INDEPENDENCE",
+  "paraphrase": "The existing propositional modal language with existence/rigid-equality atoms is invariant under pointwise identical modal reducts. Two exact universal Bool-world extensions share existence/identity/causation and an actually contingent candidate, have sound distinct endpoints and locally well-founded grounding, but differ on whether that candidate is grounded. This is a formal non-entailment, not metaphysical possibility.",
+  "lean_declaration": "TruthCore.Explanation.GroundingBaseline.ModalIndependence",
+  "definition_ids": [
+    "DEF-GROUNDING-MODAL-REDUCT",
+    "DEF-KANT-ONTOLOGICAL-MODEL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GROUNDING-BASELINE-SENSES"
+  ]
+}

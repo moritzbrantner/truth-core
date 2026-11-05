@@ -1,0 +1,156 @@
+{
+  "id": "CONFIG-GROUNDING-MODAL-CONDITION-CORE",
+  "description": "Exact three-policy C/N/S incompatibility with each two-policy deletion witnessed. Nothing here establishes contingency, necessary grounds or explanatory adequacy.",
+  "seed_statement_id": "STMT-CONDITION-CONTINGENT-PROFILE",
+  "semantics": {
+    "id": "grounding-modal-condition-core",
+    "logic": "Constructive Lean propositions, zero axioms. No S5 or actual-reflexivity policy is required by the general core.",
+    "frame": "Arbitrary shared Kripke frame K. Finite controls use universal Bool accessibility.",
+    "domain": "Fixed fact carrier F and truth:W→F→Prop; the raw specialization computes the existing basic Arena internally with no being carriers or proof fields. q is supplied as the whole condition only as an OPEN intended reading.",
+    "identity": "Literal fact/world identity; same K/truth/a/p/q across the three conditions.",
+    "vocabulary": "grounding-modal-condition-core",
+    "parameters": [
+      {
+        "name": "W",
+        "type": "Type"
+      },
+      {
+        "name": "F",
+        "type": "Type"
+      },
+      {
+        "name": "K",
+        "type": "TruthCore.Modal.Frame W"
+      },
+      {
+        "name": "truth",
+        "type": "W → F → Prop"
+      },
+      {
+        "name": "a",
+        "type": "W"
+      },
+      {
+        "name": "p",
+        "type": "F"
+      },
+      {
+        "name": "q",
+        "type": "F"
+      }
+    ],
+    "parameter_order": [
+      "W",
+      "F",
+      "K",
+      "truth",
+      "a",
+      "p",
+      "q"
+    ],
+    "applications": {
+      "STMT-CONDITION-CONTINGENT-PROFILE": [
+        "W",
+        "F",
+        "K",
+        "truth",
+        "a",
+        "p"
+      ],
+      "STMT-CONDITION-NECESSARY-PROFILE": [
+        "W",
+        "F",
+        "K",
+        "truth",
+        "a",
+        "q"
+      ],
+      "STMT-CONDITION-IMPLICATION-PROFILE": [
+        "W",
+        "F",
+        "K",
+        "truth",
+        "a",
+        "q",
+        "p"
+      ]
+    },
+    "modules": [
+      "TruthCore.Explanation.GroundingBaseline"
+    ],
+    "permitted_axioms": []
+  },
+  "configurations": [
+    {
+      "id": "all-three",
+      "statement_ids": [
+        "STMT-CONDITION-CONTINGENT-PROFILE",
+        "STMT-CONDITION-NECESSARY-PROFILE",
+        "STMT-CONDITION-IMPLICATION-PROFILE"
+      ]
+    },
+    {
+      "id": "omit-0",
+      "statement_ids": [
+        "STMT-CONDITION-NECESSARY-PROFILE",
+        "STMT-CONDITION-IMPLICATION-PROFILE"
+      ]
+    },
+    {
+      "id": "omit-1",
+      "statement_ids": [
+        "STMT-CONDITION-CONTINGENT-PROFILE",
+        "STMT-CONDITION-IMPLICATION-PROFILE"
+      ]
+    },
+    {
+      "id": "omit-2",
+      "statement_ids": [
+        "STMT-CONDITION-CONTINGENT-PROFILE",
+        "STMT-CONDITION-NECESSARY-PROFILE"
+      ]
+    }
+  ],
+  "incompatibility_result_ids": [
+    "MODAL-CONDITION-CORE-INCOMPATIBLE"
+  ],
+  "implication_result_ids": [],
+  "model_bindings": [
+    {
+      "model_id": "MODEL-MODAL-CONDITION-NOC",
+      "parameters": {
+        "W": "W",
+        "F": "F",
+        "K": "K",
+        "truth": "truth",
+        "a": "a",
+        "p": "p",
+        "q": "q"
+      }
+    },
+    {
+      "model_id": "MODEL-MODAL-CONDITION-NON",
+      "parameters": {
+        "W": "W",
+        "F": "F",
+        "K": "K",
+        "truth": "truth",
+        "a": "a",
+        "p": "p",
+        "q": "q"
+      }
+    },
+    {
+      "model_id": "MODEL-MODAL-CONDITION-NOS",
+      "parameters": {
+        "W": "W",
+        "F": "F",
+        "K": "K",
+        "truth": "truth",
+        "a": "a",
+        "p": "p",
+        "q": "q"
+      }
+    }
+  ]
+}

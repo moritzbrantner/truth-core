@@ -1,0 +1,8 @@
+{
+  "id": "DEF-GROUND-ENABLING-RULES",
+  "term": "ground and enabling rule dependencies",
+  "definition": "The four-event groundRule has baseA→effectA and baseB→effectB; enables has effectB→effectA and effectA→effectB. fullDependency is their union. SatisfiesRules requires one base and every relevant enabler for each effect; bases are true in both all-on/off assignments. These are candidate local rule links, not asserted complete metaphysical grounds or temporal causal loops. Mathlib SCCs of the full union put the distinct effects in one component.",
+  "basis": "stipulative",
+  "note": "Analyst framework for #545, not independently established metaphysical applicability. See docs/notes/grounding-baseline-545.md for examples, exclusions, structural properties and strongest rival replies.",
+  "lean_declaration": "TruthCore.Explanation.GroundingBaseline.SatisfiesRules"
+}
