@@ -1,0 +1,16 @@
+{
+  "id": "STMT-CONCRETE-EMPTY-TRUTH-AT",
+  "lean_declaration": "TruthCore.Explanation.EmptyTruthmaker.ConcreteEmptyAt",
+  "paraphrase": "The represented negative fact is true at the selected world, and at every world its truth is equivalent to absence of every member of the supplied concrete extension.",
+  "definition_ids": [
+    "DEF-EMPTY-TRUTHMAKER-SCOPED",
+    "DEF-NEGATIVE-TRUTHMAKER-DOMAIN",
+    "DEF-BEARER-TRUTHMAKING",
+    "DEF-CONCRETE-EMPTY-TRUTHMAKER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUTHMAKER-SCOPE-IDENTITY",
+    "DISAMB-TRUTHMAKING-REASON-CAUSE"
+  ],
+  "note": "Source-free conditional framework commitment; not independently defended. Candidate inhabitedness does not imply existence; the eligible roster need not exhaust reality."
+}

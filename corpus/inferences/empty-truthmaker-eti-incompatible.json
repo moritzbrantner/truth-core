@@ -1,0 +1,13 @@
+{
+  "id": "INF-EMPTY-TRUTHMAKER-ETI-INCOMPATIBLE",
+  "input_statement_ids": [
+    "STMT-EMPTY-TRUTHMAKER-E",
+    "STMT-EMPTY-TRUTHMAKER-T",
+    "STMT-EMPTY-TRUTHMAKER-I"
+  ],
+  "output_statement_id": "STMT-CONFIGURATION-FALSE",
+  "rule": "direct-proof",
+  "meaning": "Exactly E/T/I on the accessible component are incompatible. The proof consumes negativeMap through an explicit one-proposition and accessibility adapter. No factivity premise is needed by the contradiction; all deletion models preserve factivity.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

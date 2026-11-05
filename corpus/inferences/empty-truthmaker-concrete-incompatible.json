@@ -1,0 +1,13 @@
+{
+  "id": "INF-EMPTY-TRUTHMAKER-CONCRETE-INCOMPATIBLE",
+  "input_statement_ids": [
+    "STMT-CONCRETE-EMPTY-TRUTH-AT",
+    "STMT-NEGATIVE-TRUTH-NEEDS-MAKER-AT",
+    "STMT-CONCRETE-MAKER-POLICY"
+  ],
+  "output_statement_id": "STMT-CONFIGURATION-FALSE",
+  "rule": "direct-proof",
+  "meaning": "Concrete absence interpreted by ConcreteEmptyFact and actually true here, negative coverage here, and ConcreteMaker imply False. This is the missing general concrete bridge. Merely admitting an existing abstract maker does not satisfy ConcreteMaker.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

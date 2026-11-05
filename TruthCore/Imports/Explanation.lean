@@ -12,6 +12,8 @@ import TruthCore.Explanation.ConservativeReasonExpansion
 import TruthCore.Explanation.DisjunctionGround
 import TruthCore.Explanation.EmptyHistoryCausalAvailability
 import TruthCore.Explanation.EmptyHistoryCountControl
+import TruthCore.Explanation.EmptyTruthmaker
+import TruthCore.Explanation.EmptyTruthmakerReplies
 import TruthCore.Explanation.ExistenceIngredient
 import TruthCore.Explanation.ExistencePSR
 import TruthCore.Explanation.ExplanatoryAdequacy

@@ -1,0 +1,9 @@
+{
+  "id": "EMPTY-TRUTHMAKER-REPLIES",
+  "argument_id": "EMPTY-TRUTHMAKER-REPLIES",
+  "challenge_module": "TruthCore.Results.Explanation.EmptyTruthmaker.Replies.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.EmptyTruthmaker.Replies.Solution",
+  "theorem": "TruthCore.Results.Explanation.EmptyTruthmaker.Replies.replies",
+  "comparator_config": "results/EMPTY-TRUTHMAKER-REPLIES/comparator.json",
+  "status": "solution-present"
+}
