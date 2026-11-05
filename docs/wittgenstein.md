@@ -184,8 +184,8 @@ kommen."
 derives the failure of universal doubt from §341. The premise is needed.
 
 `anyGivenSentenceDoubtable` bounds what the result gives: §341 is consistent
-with doubting any one chosen sentence. So the result can serve against a
-*global* sceptical rival of an observation floor item. It supports no
+with doubting any one chosen sentence. So the result could serve, once §341 is
+established, against a *global* sceptical rival of an observation floor item. It supports no
 particular item. It does not establish 'something changes' (F3) or 'something
 is moved' (F4). It does not touch Pyrrhonian suspension, which neither
 asserts nor doubts in this sense.
@@ -200,7 +200,8 @@ Four senses are recorded in `DISAMB-HINGE-STATUS`:
 3. **Non-propositional animal certainty** (Moyal-Sharrock).
 4. **Nonsense** (Read, Crary).
 
-The readings that deny sense 1 cite these passages:
+Passages that bear on sense 1 (how they bear is part of the dispute; which
+passages each reading relies on is not recorded):
 
 - §151: "Moore *weiß* nicht, was er zu wissen behauptet, aber es steht für ihn
   fest".
@@ -231,7 +232,7 @@ hand", §1), it is a Moore-type hinge, and the reading question above decides it
 ### Proposed floor-basis changes (for the owner; none applied)
 
 - **P-OC-1.** Add the On Certainty hinge readings to the F3 and F4
-  `disagreement` records, as claims that deny that the items are known
+  `disagreement` records, as claims that deny that hinges are known truths
   (`WITTGENSTEIN-OC-151-STAND-FAST-NOT-KNOWN`, `SEP-FIDEISM-4-HINGES-NONSENSE-A`,
   `SEP-FIDEISM-4-HINGES-NON-PROPOSITIONAL-A`). Under #1007 this is
   bookkeeping: the approval stays, and the disagreement becomes visible.
@@ -260,10 +261,14 @@ well-founded induction.
 `regressFork` adds that these two premises and "some application is
 determined" cannot all hold. The readings choose differently:
 
-- §201 itself keeps determination and gives up the interpretation premise:
-  "eine Auffassung einer Regel ..., die *nicht* eine *Deutung* ist".
-- Kripke's sceptic keeps the paradox and denies factual determination. Kripke
-  does not identify this figure with Wittgenstein.
+- The diagnostic reading, following §201's own next sentences, keeps
+  determination and gives up the interpretation premise: "eine Auffassung
+  einer Regel ..., die *nicht* eine *Deutung* ist".
+- Kripke's sceptic, as reported, takes the paradox as a genuine sceptical
+  problem and denies that any fact determines meaning. In this vocabulary that
+  is mapped, unattributed, to giving up factual determination; whether the
+  figure keeps the interpretation premise is not recorded. Kripke does not
+  identify the figure with Wittgenstein.
 - An endless regress gives up finiteness.
 
 The result settles no reading (`DISAMB-RULE-FOLLOWING-PARADOX`). Neutral to the
@@ -275,9 +280,11 @@ routes.
 §304 says that the sensation "ist kein Etwas, aber auch nicht ein Nichts".
 §308: "Und wollen sie [die geistigen Vorgänge] doch natürlich nicht leugnen!"
 
-On either reading of the sections (reductio or nonsense,
-`DISAMB-PLA-FALSE-OR-NONSENSE`), the argument targets the private
-*identification* of an inner object, not the occurrence of thought. So it is
+This record reads §§258, 304 and 308 as follows, on either reading of the
+sections (reductio or nonsense, `DISAMB-PLA-FALSE-OR-NONSENSE`): the argument
+targets the private *identification* of an inner object, not the occurrence of
+thought. That is a classification judgment from the recorded passages, not a
+reported reading. So it is
 **neutral** to candidate F5 (`STMT-COGITO-THOUGHT-OCCURS`) as an occurrence
 premise. It is a rival only to a Cartesian private-introspection *basis* for
 F5. The retorsion basis proposed on #1007 ("a denial is a thought") uses a

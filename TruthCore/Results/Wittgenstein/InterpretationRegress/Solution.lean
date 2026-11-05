@@ -23,7 +23,7 @@ theorem interpretationRegress {Item : Type}
 determined, the two regress premises are inconsistent. So a reader who keeps
 determination (the diagnostic reading) must give up the interpretation premise
 or admit an endless regress; a reader who keeps the interpretation premise and
-finiteness (Kripke's sceptic) must deny that any application is determined. -/
+finiteness must deny that any application is determined. -/
 theorem regressFork {Item : Type}
     (Interprets : Item → Item → Prop) (Determined : Item → Prop) :
     ¬ (DeterminedOnlyThroughInterpretationReading Interprets Determined ∧
