@@ -1,0 +1,4 @@
+[workspace]
+members = ["truth"]
+exclude = ["verifier"]
+resolver = "3"

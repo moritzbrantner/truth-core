@@ -409,6 +409,27 @@ class FrontierReportTest(unittest.TestCase):
         self.assertEqual(items["OPEN-B"]["bibliographic_claims"], ["CLAIM-BIB-2"])
         self.assertIn("bibliographic witness, not byte-verified: CLAIM-BIB\n", corpus.format_frontier(report) + "\n")
 
+    def test_bibliographic_only_stating_claims_count_as_supported(self) -> None:
+        # Owner decision 2026-11-05: only a claim on a pinned source states a
+        # premise; a bibliographic citation alone supports it.
+        only_bib = [{"id": "CLAIM-BIB", "statement_id": "OPEN-A", "witness": "bibliographic"}]
+        report = corpus.frontier_report(STATEMENTS, ARGUMENTS, RESULTS, [], root="ROOT", claims=only_bib)
+        item = {item["statement_id"]: item for item in report["items"]}["OPEN-A"]
+        self.assertEqual(item["depth"], "supported")
+        self.assertEqual(item["stating_claims"], ["CLAIM-BIB"])
+        self.assertEqual(item["bibliographic_claims"], ["CLAIM-BIB"])
+        self.assertEqual(report["depth_counts"], {"bare": 2, "supported": 1, "stated": 0})
+        routes = report["routes"]["routes"]
+        self.assertTrue(routes)
+        for route in routes:
+            if "OPEN-A" in route["open_premise_depths"]:
+                self.assertEqual(route["open_premise_depths"]["OPEN-A"], "supported")
+        # Adding a claim on a pinned source makes it stated.
+        pinned = only_bib + [{"id": "CLAIM-PINNED", "statement_id": "OPEN-A"}]
+        report = corpus.frontier_report(STATEMENTS, ARGUMENTS, RESULTS, [], root="ROOT", claims=pinned)
+        item = {item["statement_id"]: item for item in report["items"]}["OPEN-A"]
+        self.assertEqual(item["depth"], "stated")
+
     def test_classifies_open_premises_by_depth(self) -> None:
         # #143 (2026-10-24): bare = no stating claim and no supports relation.
         claims = [{"id": "CLAIM-A", "statement_id": "OPEN-A"}]
@@ -457,9 +478,10 @@ class FrontierReportTest(unittest.TestCase):
             {"statement_id": "S", "depth": "sourced", "stating_claims": ["CLAIM"]},
             {"statement_id": "U", "depth": "sourced", "stating_claims": []},
             {"statement_id": "B", "depth": "bare", "stating_claims": []},
+            {"statement_id": "C", "depth": "sourced", "stating_claims": ["BIB"], "bibliographic_claims": ["BIB"]},
         ]
-        self.assertEqual([corpus.item_depth(item) for item in legacy], ["stated", "supported", "bare"])
-        self.assertEqual(corpus.depth_counts(legacy), {"bare": 1, "supported": 1, "stated": 1})
+        self.assertEqual([corpus.item_depth(item) for item in legacy], ["stated", "supported", "bare", "supported"])
+        self.assertEqual(corpus.depth_counts(legacy), {"bare": 1, "supported": 2, "stated": 1})
 
     def test_output_is_deterministic(self) -> None:
         shuffled = corpus.frontier_report(
@@ -1272,6 +1294,29 @@ class FrontierDiffTest(unittest.TestCase):
             del route["open_premise_depths"]
         delta = corpus.frontier_delta(base, head)
         self.assertFalse(delta["changed"])
+        self.assertEqual(delta["base_counts"], delta["head_counts"])
+
+    def test_pre_pinned_rule_base_reports_no_spurious_move(self) -> None:
+        # A base from #987 but before the pinned-source rule (2026-11-05) says
+        # "stated" for a bibliographic-only premise and caches route counts
+        # with that depth; the delta normalizes both, so nothing moves.
+        claims = [{"id": "CLAIM-BIB", "statement_id": "OPEN-B", "witness": "bibliographic"}]
+        head = self.reaching(RESULTS, claims=claims)
+        item = {item["statement_id"]: item for item in head["items"]}["OPEN-B"]
+        self.assertEqual(item["depth"], "supported")
+        base = json.loads(json.dumps(head))
+        for item in base["items"]:
+            if item["statement_id"] == "OPEN-B":
+                item["depth"] = "stated"
+        for route in base["routes"]["routes"]:
+            if "OPEN-B" in route["open_premise_depths"]:
+                route["open_premise_depths"]["OPEN-B"] = "stated"
+                route["depth_counts"]["supported"] -= 1
+                route["depth_counts"]["stated"] += 1
+        base["all_item_depths"] = {}
+        delta = corpus.frontier_delta(base, head)
+        self.assertFalse(delta["changed"])
+        self.assertEqual(delta["moved"], {})
         self.assertEqual(delta["base_counts"], delta["head_counts"])
 
     def test_base_without_routes_is_tolerated(self) -> None:

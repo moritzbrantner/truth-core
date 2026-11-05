@@ -7,11 +7,14 @@ import subprocess
 import tempfile
 import unittest
 
+from lean_test_support import requires_built
+
 ROOT = Path(__file__).resolve().parents[1]
 NS = 'TruthCore.StrengthBindingFixture.'
 
 
 @unittest.skipUnless(shutil.which('lake') or (Path.home() / '.elan/bin/lake').exists(), 'Lean integration requires lake')
+@requires_built('TruthCore.Logic.StrengthComparison', 'TruthCore.Results.Logic.StrengthCause.Solution')
 class StrengthBindingTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):

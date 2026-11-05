@@ -14,6 +14,7 @@ from typing import Any, Callable, Iterable
 
 from source_evidence import BIBLIOGRAPHIC_WITNESS, UNAVAILABLE_WITNESS, SourceEvidenceError, validate_bindings
 from premise_dossiers import dossier_index, format_dossier, validate_attempt
+from attribution_check import AttributionError, validate_attribution
 from finite_models import validate_model, model_report, verify_models
 from configurations import validate_case, configuration_report, verify_case, verify_compositions
 from territory import format_territory, territory_report
@@ -212,10 +213,11 @@ STAGE_CONCLUSIONS = (
     (6, "STMT-CHRISTS-CHURCH-IS-THE-CATHOLIC-CHURCH"),
 )
 # Depth of an open premise (#143, 2026-10-24; three categories by owner
-# decision on #987, 2026-11-05): "stated" when a claim on a source passage
-# states it; otherwise "supported" when only `supports` relations point to it
-# (source evidence that bears on it without stating it; the relation's note
-# records the gap); otherwise "bare". Supported and stated premises are both
+# decision on #987, 2026-11-05): "stated" when a claim on a pinned source
+# passage states it; otherwise "supported" when only `supports` relations, or
+# only claims on a bibliographic span (cited by page, no pinned bytes; owner
+# decision 2026-11-05), point to it; otherwise "bare". A bibliographic-only
+# premise becomes stated once its witness is pinned. Supported and stated premises are both
 # undefended. A relocation counts as progress only if it adds no bare premise.
 FRONTIER_BARE = "bare"
 FRONTIER_SUPPORTED = "supported"
@@ -641,8 +643,9 @@ def frontier_report(
     fixpoint.
 
     Each open premise also gets a depth (#143, 2026-10-24; #987): "stated"
-    when a claim states it, otherwise "supported" when a `supports` relation
-    points to it, otherwise "bare". Each route also counts its open leaves by
+    when a claim on a pinned source states it, otherwise "supported" when a
+    `supports` relation or only bibliographic claims point to it, otherwise
+    "bare". Each route also counts its open leaves by
     the same depths (`depth_counts`)."""
     statement_by_id = {statement["id"]: statement for statement in statements}
     argument_by_id = {argument["id"]: argument for argument in arguments}
@@ -958,9 +961,12 @@ def frontier_report(
     }
 
     def source_depth(statement_id: str) -> str:
-        if stating_claims.get(statement_id):
+        stating = stating_claims.get(statement_id, set())
+        # Only a claim on a pinned source states a premise; a bibliographic
+        # citation alone supports it (owner decision 2026-11-05).
+        if stating - bibliographic_claims:
             return FRONTIER_STATED
-        if support.get(statement_id):
+        if stating or support.get(statement_id):
             return FRONTIER_SUPPORTED
         return FRONTIER_BARE
 
@@ -1228,18 +1234,22 @@ def statement_view(
 
 
 def item_depth(item: dict[str, Any]) -> str:
-    """An open premise's depth (#987). A report from a revision before #987
-    says "sourced" for both supported and stated premises; its
-    `stating_claims` tells them apart."""
+    """An open premise's depth (#987), normalized to the current rule. A report
+    from a revision before #987 says "sourced" for both supported and stated
+    premises; its `stating_claims` tells them apart. A report from before the
+    pinned-source rule (2026-11-05) says "stated" for a premise stated only by
+    bibliographic claims (`bibliographic_claims`); it is supported."""
     depth = item["depth"]
-    if depth == FRONTIER_LEGACY_SOURCED:
-        return FRONTIER_STATED if item.get("stating_claims") else FRONTIER_SUPPORTED
+    if depth in (FRONTIER_LEGACY_SOURCED, FRONTIER_STATED):
+        pinned = set(item.get("stating_claims", ())) - set(item.get("bibliographic_claims", ()))
+        return FRONTIER_STATED if pinned else FRONTIER_SUPPORTED
     return depth
 
 
 def depth_counts(items: list[dict[str, Any]]) -> dict[str, int]:
-    """Open premises by depth: bare, supported (only a `supports` relation)
-    and stated (a claim states it); the last two are undefended (#987)."""
+    """Open premises by depth: bare, supported (only a `supports` relation or
+    a bibliographic claim) and stated (a claim on a pinned source states it);
+    the last two are undefended (#987)."""
     return {depth: sum(1 for item in items if item_depth(item) == depth) for depth in FRONTIER_DEPTHS}
 
 
@@ -2053,6 +2063,10 @@ def validate() -> dict[str, int]:
             raise CorpusError(
                 f"{path.relative_to(ROOT)}: claim status must be 'formalized' in the MVP"
             )
+        try:
+            validate_attribution(str(path.relative_to(ROOT)), claim)
+        except AttributionError as exc:
+            raise CorpusError(str(exc)) from exc
         parent = claim.get("interpretation_of")
         if parent is not None and parent not in claim_index:
             raise CorpusError(
@@ -2462,10 +2476,19 @@ def frontier_delta(base: dict[str, Any], head: dict[str, Any]) -> dict[str, Any]
     def route_depth_counts(report: dict[str, Any], route: dict[str, Any] | None) -> dict[str, int] | None:
         if route is None:
             return None
-        if "depth_counts" in route:
-            return route["depth_counts"]
         depths = {item["statement_id"]: item_depth(item) for item in report["items"]}
         depths.update(report.get("all_item_depths", {}))
+        if "open_premise_depths" in route:
+            # Recount cached route depths with the normalized item depths, so a
+            # base whose own rule differed (2026-11-05) reports no spurious move.
+            counts = {depth: 0 for depth in (*FRONTIER_DEPTHS, ROUTE_PROVED_UNESTABLISHED)}
+            for statement_id, depth in route["open_premise_depths"].items():
+                if depth != ROUTE_PROVED_UNESTABLISHED:
+                    depth = depths.get(statement_id, depth)
+                counts[depth] += 1
+            return counts
+        if "depth_counts" in route:
+            return route["depth_counts"]
         unestablished = set(route.get("proved_unestablished_statement_ids", []))
         counts = {depth: 0 for depth in (*FRONTIER_DEPTHS, ROUTE_PROVED_UNESTABLISHED)}
         for statement_id in route["open_premise_statement_ids"]:
@@ -3124,11 +3147,16 @@ def bind_result(
 def bind_report(
     described_list: list[dict[str, Any]],
     schema_bindings: Iterable[tuple[dict[str, Any], dict[str, Any]]] = (),
+    result_ids: set[str] | None = None,
 ) -> dict[str, Any]:
-    """Bind every result against the Lean descriptions (keyed by theorem name)."""
+    """Bind every result (or only `result_ids`) against the Lean descriptions
+    (keyed by theorem name). A scoped report checks no stale pins: a pin
+    unused by the selected results may be used by another one."""
     statement_index = index_by_id(load_dir("statements"), "statement")
     argument_index = index_by_id(load_dir("arguments"), "argument")
     results = load_dir("results")
+    if result_ids is not None:
+        results = [item for item in results if item[1]["id"] in result_ids]
     by_theorem = {entry.get("theorem"): entry for entry in described_list}
     entries = []
     for _, result in sorted(results, key=lambda item: item[1]["id"]):
@@ -3141,13 +3169,71 @@ def bind_report(
         entry["kind"] = "schema-registration"
         entries.append(entry)
     used = {tuple(item["pin"]) for entry in entries for item in entry["undecidable"]}
-    stale = sorted(list(key) for key in PINNED_UNDECLARED_BINDINGS if key not in used)
+    stale = (
+        sorted(list(key) for key in PINNED_UNDECLARED_BINDINGS if key not in used)
+        if result_ids is None
+        else []
+    )
     summary = Counter(entry["status"] for entry in entries)
-    return {
+    report = {
         "summary": {status: summary.get(status, 0) for status in ("bound", "pinned", "mismatch")},
         "stale_pins": stale,
         "results": entries,
     }
+    if result_ids is not None:
+        report["scope"] = sorted(result_ids)
+    return report
+
+
+def changed_paths(base: str, head: str | None) -> list[str]:
+    """Paths changed from `base` to `head`, or to the working tree (tracked
+    edits plus untracked, non-ignored files) when `head` is None."""
+    import subprocess
+
+    def git(*args: str) -> list[str]:
+        try:
+            output = subprocess.run(
+                ["git", *args], cwd=ROOT, check=True, capture_output=True, text=True, timeout=60
+            ).stdout
+        except (subprocess.SubprocessError, OSError) as exc:
+            raise CorpusError(f"cannot resolve the diff against {base}: {exc}") from exc
+        return [path for path in output.split("\0") if path]
+
+    if head is not None:
+        return git("diff", "--name-only", "-z", "--no-renames", base, head, "--")
+    return sorted(
+        set(git("diff", "--name-only", "-z", "--no-renames", base, "--"))
+        | set(git("ls-files", "-z", "--others", "--exclude-standard"))
+    )
+
+
+def bind_check_scope(args: argparse.Namespace, known: set[str]) -> set[str] | None:
+    """The result IDs `bind-check` covers: all (None), `--result` IDs, or the
+    results `affected_results.select` picks for the `--affected` diff."""
+    selected: set[str] | None = None
+    requested = getattr(args, "result", None)
+    base, head = getattr(args, "base", None), getattr(args, "head", None)
+    if requested:
+        unknown = sorted(set(requested) - known)
+        if unknown:
+            raise CorpusError(f"bind-check: unknown result id(s): {', '.join(unknown)}")
+        selected = set(requested)
+    if getattr(args, "affected", False):
+        import affected_results
+
+        if not base:
+            raise CorpusError("bind-check --affected needs --base")
+
+        mode, ids = affected_results.select(ROOT, changed_paths(base, head))
+        if mode == "full":
+            # The full fallback keeps the full run's stale-pin and model checks,
+            # even when --result also names results.
+            print("bind-check --affected: the change selects every result", file=sys.stderr)
+            return None
+        selected = (selected or set()) | set(ids)
+    elif base or head:
+        raise CorpusError("bind-check: --base and --head need --affected")
+    return selected
 
 
 def registered_configurations(statements=None, results=None, arguments=None, models=None):
@@ -3387,21 +3473,42 @@ def command_models(args: argparse.Namespace) -> int:
     return 0
 
 
+def command_attribution_check(args: argparse.Namespace) -> int:
+    import attribution_check
+
+    argv = ["--base", args.base, "--max-chars", str(args.max_chars)]
+    if args.materialize:
+        argv.append("--materialize")
+    return attribution_check.main(argv)
+
+
 def command_bind_check(args: argparse.Namespace) -> int:
     validate()
     results = load_dir("results")
+    scope = bind_check_scope(args, {record["id"] for _, record in results})
+    if scope is not None:
+        if not scope:
+            print("bind-check: no result selected; nothing to check")
+            return 0
+        print(f"bind-check limited to {len(scope)} result(s): {', '.join(sorted(scope))}", file=sys.stderr)
     schema_bindings = schema_binding_records(
-        [relation for _, relation in load_dir("relations")],
+        [
+            relation
+            for _, relation in load_dir("relations")
+            if scope is None or relation.get("verification_result_id") in scope
+        ],
         {record["id"]: record for _, record in results},
     )
+    selected = results if scope is None else [item for item in results if item[1]["id"] in scope]
     if args.lean_json:
         described_list = json.loads(Path(args.lean_json).read_text(encoding="utf-8"))
     else:
         described_list = run_bind_tool(bind_tool_input(
-            results + [(ROOT, binding) for binding, _ in schema_bindings]
+            selected + [(ROOT, binding) for binding, _ in schema_bindings]
         ))
-    report = bind_report(described_list, schema_bindings)
-    if not args.lean_json:
+    report = bind_report(described_list, schema_bindings, scope)
+    # Registered model checks are global; a scoped run leaves them to the full gate.
+    if not args.lean_json and scope is None:
         try:
             report["models"] = verify_models(registered_models(), {r["id"]: r for _, r in load_dir("statements")}, ROOT)
         except ValueError as exc:
@@ -3837,12 +3944,31 @@ def parser() -> argparse.ArgumentParser:
     sub.add_parser("results", help="print verification result IDs, one per line").set_defaults(
         func=command_ids("results")
     )
+    attribution = sub.add_parser(
+        "attribution-check",
+        help="pre-push gate (#989): premise vs pinned passage text for each new or changed stating claim",
+    )
+    attribution.add_argument("--base", required=True, help="diff base, for example origin/main; the head is the working tree")
+    attribution.add_argument("--materialize", action="store_true", help="materialize passages not yet cached")
+    attribution.add_argument("--max-chars", type=int, default=6000, help="clip each passage text (0: never)")
+    attribution.set_defaults(func=command_attribution_check)
     bind = sub.add_parser(
         "bind-check",
         help="check that argument premises/conclusions match each result theorem's Lean type (after lake build)",
     )
     bind.add_argument("--json", action="store_true", help="print the full deterministic binding report")
     bind.add_argument("--lean-json", help="use a saved scripts/BindTypes.lean output instead of running Lean")
+    bind.add_argument(
+        "--result", action="append", metavar="ID",
+        help="check only this result (repeatable); needs only its Solution module built, and skips "
+        "the stale-pin and registered-model checks, which only the full run makes",
+    )
+    bind.add_argument(
+        "--affected", action="store_true",
+        help="check only the results affected_results.py selects for the diff from --base",
+    )
+    bind.add_argument("--base", help="diff base for --affected (for example origin/main)")
+    bind.add_argument("--head", help="diff head for --affected (default: the working tree)")
     bind.set_defaults(func=command_bind_check)
     unused = sub.add_parser(
         "unused-premises",

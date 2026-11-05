@@ -21,6 +21,17 @@ concurrency:
   cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 jobs:
+  truth-cli:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+      - name: Verify Rust corpus CLI
+        run: |
+          cargo fmt --all --check
+          cargo clippy --locked -p truth --all-targets -- -D warnings
+          cargo test --locked -p truth
+          cargo build --locked -p truth
+          python3 scripts/verify_truth_cli.py target/debug/truth
   corpus-and-lean:
     needs: comparator-plan
     runs-on: ubuntu-latest

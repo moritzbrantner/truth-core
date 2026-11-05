@@ -5,6 +5,7 @@ import subprocess
 import unittest
 
 import bundle_audit
+from lean_test_support import requires_built
 
 
 class BundleAuditTest(unittest.TestCase):
@@ -32,6 +33,7 @@ class BundleAuditTest(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'scoped consumer'):
             bundle_audit.check(audit=missing)
 
+    @requires_built('TruthCore.Results.Aquinas.SummaTheologiae.MaximeEnsIsGodViaFullDescriptionIdentity.Solution', 'TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverIsMaximeEnsIdentity.Solution')
     @unittest.skipUnless((Path.home() / '.elan/bin/lake').exists(), 'requires pinned Lean')
     def test_conditional_bridges_do_not_supply_existence(self):
         run = subprocess.run(['python3', 'scripts/worker_env.py', '--', 'lake', 'env', 'lean',
@@ -56,6 +58,7 @@ class BundleAuditTest(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'disposition'):
             bundle_audit.check(audit=audit)
 
+    @requires_built('TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributes.Solution')
     @unittest.skipUnless((Path.home() / '.elan/bin/lake').exists(), 'requires pinned Lean')
     def test_preservation_and_vacuity_controls(self):
         run = subprocess.run(['python3', 'scripts/worker_env.py', '--', 'lake', 'env', 'lean',
@@ -64,6 +67,7 @@ class BundleAuditTest(unittest.TestCase):
         self.assertEqual(run.returncode, 0, run.stdout + run.stderr)
         self.assertNotIn('sorry', run.stdout + run.stderr)
 
+    @requires_built('TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributesIdentity.Solution', 'TruthCore.Case.Catholicism.StagesOneTwo')
     @unittest.skipUnless((Path.home() / '.elan/bin/lake').exists(), 'requires pinned Lean')
     def test_specialized_inhabited_and_split_witness_controls(self):
         run = subprocess.run(['python3', 'scripts/worker_env.py', '--', 'lake', 'env', 'lean',
