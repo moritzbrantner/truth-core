@@ -215,9 +215,11 @@ STAGE_CONCLUSIONS = (
 # Depth of an open premise (#143, 2026-10-24; three categories by owner
 # decision on #987, 2026-11-05): "stated" when a claim on a pinned source
 # passage states it; otherwise "supported" when only `supports` relations, or
-# only claims on a bibliographic span (cited by page, no pinned bytes; owner
-# decision 2026-11-05), point to it; otherwise "bare". A bibliographic-only
-# premise becomes stated once its witness is pinned. Supported and stated premises are both
+# only claims that are not byte-verifiable, point to it: claims on a
+# bibliographic span (cited by page, no pinned bytes) or on a permanently
+# unavailable witness (bytes no longer re-verifiable; owner decisions
+# 2026-11-05); otherwise "bare". Such a premise becomes stated once a
+# (new) witness is pinned. Supported and stated premises are both
 # undefended. A relocation counts as progress only if it adds no bare premise.
 FRONTIER_BARE = "bare"
 FRONTIER_SUPPORTED = "supported"
@@ -644,8 +646,8 @@ def frontier_report(
 
     Each open premise also gets a depth (#143, 2026-10-24; #987): "stated"
     when a claim on a pinned source states it, otherwise "supported" when a
-    `supports` relation or only bibliographic claims point to it, otherwise
-    "bare". Each route also counts its open leaves by
+    `supports` relation or only bibliographic or unavailable-witness claims
+    point to it, otherwise "bare". Each route also counts its open leaves by
     the same depths (`depth_counts`)."""
     statement_by_id = {statement["id"]: statement for statement in statements}
     argument_by_id = {argument["id"]: argument for argument in arguments}
@@ -950,17 +952,19 @@ def frontier_report(
         claim["id"] for claim in claims or [] if claim.get("witness") == BIBLIOGRAPHIC_WITNESS
     }
     # Claims on a permanently unavailable web snapshot: pinned once, never refetched,
-    # not byte-verified (owner decision 2026-11-05). Like bibliographic claims they
-    # still state their statement; the report only marks them.
+    # not byte-verified. Like bibliographic claims they only support their
+    # statement (owner decision 2026-11-05).
     unavailable_claims = {
         claim["id"] for claim in claims or [] if claim.get("witness") == UNAVAILABLE_WITNESS
     }
+    unverifiable_claims = bibliographic_claims | unavailable_claims
 
     def source_depth(statement_id: str) -> str:
         stating = stating_claims.get(statement_id, set())
-        # Only a claim on a pinned source states a premise; a bibliographic
-        # citation alone supports it (owner decision 2026-11-05).
-        if stating - bibliographic_claims:
+        # Only a claim on a pinned, re-verifiable source states a premise; a
+        # bibliographic citation or an unavailable witness alone supports it
+        # (owner decisions 2026-11-05).
+        if stating - unverifiable_claims:
             return FRONTIER_STATED
         if stating or support.get(statement_id):
             return FRONTIER_SUPPORTED
@@ -1234,10 +1238,12 @@ def item_depth(item: dict[str, Any]) -> str:
     from a revision before #987 says "sourced" for both supported and stated
     premises; its `stating_claims` tells them apart. A report from before the
     pinned-source rule (2026-11-05) says "stated" for a premise stated only by
-    bibliographic claims (`bibliographic_claims`); it is supported."""
+    bibliographic (`bibliographic_claims`) or unavailable-witness
+    (`unavailable_claims`) claims; it is supported."""
     depth = item["depth"]
     if depth in (FRONTIER_LEGACY_SOURCED, FRONTIER_STATED):
-        pinned = set(item.get("stating_claims", ())) - set(item.get("bibliographic_claims", ()))
+        unverifiable = set(item.get("bibliographic_claims", ())) | set(item.get("unavailable_claims", ()))
+        pinned = set(item.get("stating_claims", ())) - unverifiable
         return FRONTIER_STATED if pinned else FRONTIER_SUPPORTED
     return depth
 
