@@ -7,13 +7,11 @@ public import TruthCore.Modern.Hume.Regularity
 /-!
 # #750: independent verification and intervention on one concrete bearer
 
-Analyst finite specialization, NOT the full first-order Hempel–Oppenheim theory.
+Explicit analyst-stipulated finite criteria, not a historical attribution.
 Logical valuations, accessible worlds and intervention contexts are three
-explicitly different domains. Hempel–Oppenheim (1948), pp.160–164, §§7.5–7.8,
-motivate basic-sentence verification independence but reject banning all shared
-content. Woodward, Human Face, pp.71–76, requires admissible interventions,
-not mere observation; pp.90–93 leave global extension open. Neither source
-establishes that the tables below apply to ultimate existential explanation.
+explicitly different domains. No universal explanatory norm, intervention
+admissibility or ultimate existential application is established. Historical
+reading findings are deferred in docs/notes/explanatory-adequacy-750.md.
 -/
 
 @[expose] public section
@@ -33,13 +31,13 @@ def eval (v : Valuation) : Atom → Prop
   | .reason => v.1 = true
   | .target => v.2 = true
 
-/-- A basic sentence or its denial, as in H–O p.163. -/
+/-- A basic sentence or its denial, in the stipulated propositional language. -/
 abbrev Literal := Atom × Bool
 
 def verified (v : Valuation) (evidence : List Literal) : Prop :=
   ∀ l ∈ evidence, if l.2 then eval v l.1 else ¬ eval v l.1
 
-/-- Finite propositional specialization of H–O §7.8(3), strengthened to
+/-- Stipulated finite propositional criterion requiring
 actually true evidence for an actual account. The law is compatible with a
 basic class entailing the condition but not the target. Compatibility does NOT
 require a law-world where the condition holds and the target fails. No
@@ -83,7 +81,7 @@ def Target (m : Experiment) : Prop :=
     Contingent (arena m) true ((arena m).exist ())
 
 /-- Intervention relevance is the EXISTING Changes predicate on the supplied
-response table. Whether settings are admissible under Woodward's IV is OPEN;
+response table. Whether settings are admissible interventions is OPEN;
 this criterion is conditional on that interpretation, not a reduction.
 Response pairs are not Arena worlds: realizing them as the same bearer's
 ExistsAt is a separate OPEN bridge. -/

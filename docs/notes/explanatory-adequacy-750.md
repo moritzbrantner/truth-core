@@ -6,7 +6,7 @@ standard. The theorems are `core` and `comparison` in
 `TruthCore.Explanation.ExplanatoryAdequacy` and the #755 `Arena`. `core` is zero-axiom;
 `comparison` permits the Mathlib three because it consumes #735's `plural_no_least`.
 They establish conditional consequence and model verdicts. They establish no standard
-and no model's metaphysical possibility. The original comparison added no source claim; the source-led P2 extension below adds five qualified primary readings.
+and no model's metaphysical possibility. The original comparison added no source claim. The P2 logical extension below also adds no historical claim; new attribution is DEFERRED by owner.
 
 ## Findings
 
@@ -257,9 +257,9 @@ no original Challenge changed. Root route costs and open-premise membership
 remain unchanged (11 routes,62 open), and this result is off root paths.
 Shared convention sourceRevision: `c104800c7aaeaea12d56f9093e71bdef6a2ce6fa`.
 
-## P2 source-led actual-bearer comparison (2026-11-05)
+## P2 logical actual-bearer comparison (2026-11-05)
 
-**#750 remains OPEN.** This adds a source-backed failed universal discriminator,
+**#750 remains OPEN.** This adds an analyst-stipulated logical comparison,
 not an independently established ultimate-existence standard. The new checked
 certificates are `TruthCore.Results.Explanation.ActualExistenceAdequacy.comparison`
 and `.realization`.
@@ -268,41 +268,56 @@ before proof work. No source assertion is a theorem hypothesis or an established
 norm floor. The theorem's explicit models are not a claim about which real
 metaphysical alternative is possible.
 
-### Primary arguments and the strongest objection
+### Deferred reading history and precise future-attribution inputs
 
-The pinned CSULB university copy of Hempel and Oppenheim, *Studies in the Logic
-of Explanation*, Philosophy of Science 15(2), 1948, pp.135–175,
-DOI [10.1086/286983](https://doi.org/10.1086/286983), is passage
-`HEMPEL-OPPENHEIM-EXPLANATION-1948`. The entire article was materialized; relevant
-contexts read were §3 pp.136–139 and §7 pp.158–164, including the definitions and
-objections surrounding the selected clauses. Five source positions are retained
-as qualified readings, not assertions of their truth:
+**Owner redirection:** focus on actual logic; new historical attribution is
+DEFERRED until the source infrastructure is ready. The five new H–O claims,
+associated prose-only source-position statements and source/passage manifests
+have been removed from the active PR. Nothing below is active corpus attribution,
+independent support for a norm, or a claim that a tentative formalization is what
+an author said. Both formal certificates and criteria stand as analyst stipulations.
+Already-merged source records remain unchanged.
 
-* §3 pp.137–138 (R1)–(R4): deductive consequence; general laws essential to the
-  derivation; empirical content; true explanans. Confirmed-at-a-time is distinct
-  from true. These are the deductive scientific scheme's clauses, not a complete
-  norm for every explanation.
-* §7 pp.158–160 (7.2)–(7.6): the precise reconstruction assumes a model language
-  of qualitative predicates with physical objects or spacetime locations. A
-  theory is more constrained than an arbitrary true sentence. Full lawlikeness,
-  essential generality and empirical content are **not** certified by our finite
-  Boolean law.
-* pp.160–162 (7.5)–(7.7): the singular condition C alone must not derive E, but
-  banning all shared content overreaches. Equivalent reformulations expose shared
-  content even in intuitively good explanations; prohibiting it generally would
-  confine explanation to purely theoretical derivations. The authors decline an
-  arbitrary partial-copy cutoff. This is the strongest source objection to a
-  blanket independence demand, not an objection ignored to rescue that demand.
-* pp.162–164 (7.8), note32: C-alone nonentailment is insufficient. Their example
-  can attach an arbitrary law to a condition that can be verified only by
-  verifying E. They add compatibility of T with a basic-sentence class entailing
-  C but not E. A law's making C imply E is carefully distinguished from making
-  verification of C depend on verification of E. Predictive use supplies their
-  rationale; the argument establishes why a specific pseudo-explanation fails
-  this scientific project, not why every ultimate explanation must predict.
-* p.164 following (7.9): statistical laws and inductive confirmation are possible
-  extensions, left undeveloped here. We therefore reject reading this source as
-  demanding strict necessitation of every legitimate explanation.
+For future attribution, the previously consulted item was Hempel and Oppenheim,
+*Studies in the Logic of Explanation*, Philosophy of Science15(2),1948, pp.135–175,
+DOI10.1086/286983, university course copy:
+`https://home.csulb.edu/~cwallis/382/readings/690/recieved/hempel.studies.logic.explanation.1948.pdf`.
+The byte hash was `bc4c1fdb24a9e1ac075f602becdebced3f04135bd804d7322072f7ef21ff96b7`;
+the then-read Poppler26.01.0 normalized text hash was
+`68912010e155fc3080c92a1fbe4d5f08c7df86967064160f7306f4c14da7aa50`.
+Previously checked byte-identical capture:
+`https://web.archive.org/web/20240711043309id_/https://home.csulb.edu/~cwallis/382/readings/690/recieved/hempel.studies.logic.explanation.1948.pdf`.
+The entire article was previously materialized; contexts read included §3
+pp.136–139 and §7 pp.158–164. These are retained research inputs, not active pins.
+
+Five tentative prior reading findings are preserved for later attribution review:
+
+* §3 pp.137–138 (R1)–(R4): distinguish deductive consequence, essential law use,
+  empirical content and true explanans; distinguish truth from confirmation.
+  Future attribution must retain the deductive scientific scope.
+* §7 pp.158–160 (7.2)–(7.6): distinguish theory/law constraints from arbitrary
+  truth; check qualitative-predicate and physical-object/spacetime language scope.
+  The Boolean criterion below does not encode those conditions.
+* pp.160–162 (7.5)–(7.7): retain the objection to prohibiting all shared content
+  and the distinction between complete and partial self-explanation. Do not
+  turn C-alone nonentailment into a blanket anti-overlap norm.
+* pp.162–164 (7.8), note32: retain basic-sentence evidence independence and the
+  difference between truth entailment under a law and verification dependence.
+  Future attribution must check the exact compatibility/quantifier conditions;
+  the present criterion is only an analyst stipulation.
+* p.164 following (7.9): retain the question of statistical/inductive extension;
+  do not infer a universal necessitation norm from a deductive scheme.
+
+CI repair diagnosis preserved for future source work: the SAME PDF bytes extracted
+under CI Poppler24.02.0-1ubuntu9.11 yielded text hash
+`77613921143f81df956d5730484c2c830a6197bca79b3430f98e344f69b76d9c`.
+Exact-version reproduction found six letter-joining differences around
+coordinates, locations, fundamental-law and general-law word sequences. There
+were no soft hyphens; the existing soft-hyphen normalization did not apply.
+This was extraction-version variability, not observed byte drift. No text hash
+was blindly replaced, no multiple-hash acceptance was added, and no shared source
+tooling was changed. Alternate-witness investigation stopped under owner direction.
+Historical attribution remains deferred; the logic does not depend on resolving it.
 
 Woodward's already pinned *Causation with a Human Face*, passage
 `WOODWARD-HUMAN-FACE`, supplies the strongest causal reply. The existing readings
@@ -355,10 +370,10 @@ The domains must not be collapsed:
 | `Bool` Arena worlds | stipulated complete alternatives with reason and existence coextensive | SAME x is concrete and actually contingent; existence-fact coherence |
 | experimental setting/background pairs | independently supplied responses from existing `Regularity.chain`/`fork` | `Changes setX` holds only in the productive table |
 
-Criterion V (`VerificationIndependent`) is a finite propositional specialization
-of the **basic-evidence clause**, with actually true evidence additionally required.
-It does not implement Hempel–Oppenheim's full first-order language, lawlikeness,
-generality or empirical content. The condition `reason` passes with the singleton
+Criterion V (`VerificationIndependent`) is an analyst-stipulated finite
+propositional **basic-evidence independence** clause, with actually true evidence
+required. No historical theory, lawlikeness, generality or empirical-content norm
+is attributed or implemented. The condition `reason` passes with the singleton
 positive reason literal. Logical assignment `(true,false)` shows that evidence
 does not entail the target. Compatibility with the law `reason ↔ target` has
 witness `(true,true)`. The copied condition `target` fails for every evidence
@@ -427,8 +442,7 @@ actual-truth or production theorem here. #735's Supply and plural/no-least
 witnesses remain separate from #750 adequacy; #745/#746 stopping norms and
 #545 explanation→real-support retain their open applicability burdens.
 
-**Actual delta:** two checked SAME-bearer model comparisons; five qualified primary
-source readings; two existing Woodward readings consumed; explicit logical versus
+**Actual delta:** two checked SAME-bearer model comparisons; historical attribution deferred; existing Woodward context retained; explicit logical versus
 modal versus response domain separation; the strongest shared-content objection
 and global-scope objection preserved. No new independent norm, no self-evident
 premise, no owner floor selection, no root/frontier closure and no surviving
@@ -449,10 +463,9 @@ choice of terminology. #750's independently defended ultimate standard and P2
 application remain **OPEN**; #735 end-to-end and #545 P2-B receive this limit, not
 a discharged premise.
 
-Claim/type self-sweep: source statements retain the scientific and singular-event
-scope; no source states the finite `Comparison` theorem. The five claims are
-prose-only qualified positions, not new opaque proof premises. The finite
-verification test is an analyst specialization with explicit gaps. The certificate
+Claim/type self-sweep: no new source claims or source-position statements remain.
+No source is attributed the finite `Comparison` theorem. The finite verification
+test is an analyst stipulation with explicit gaps. The certificate
 checks an Ontic interpretation and separate response data, not empirical existence
 or actual production. No strict necessity, uniqueness, agency, causal asymmetry,
 well-foundedness or root truth is inferred. Shared conventions resolved at
