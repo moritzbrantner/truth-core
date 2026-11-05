@@ -2569,7 +2569,16 @@ def command_context(args: argparse.Namespace) -> int:
             related = cached_related(ROOT, arguments[argument_id]["conclusion_statement_id"], args.related)["matches"]
         except (ValueError, OSError, sqlite3.Error) as exc:
             print(f"context: related ranking unavailable: {exc}", file=sys.stderr)
-    pack = context_pack(ROOT, data, report, argument_id, related=related)
+    proof_uses = None
+    if args.proof_use_json or args.proof_use:
+        selected = [result for result in data["results"] if result["argument_id"] == argument_id]
+        expected = [result["theorem"] for result in selected]
+        if args.proof_use_json:
+            raw = read_lean_reuse_json(Path(args.proof_use_json))
+        else:
+            raw = run_lean_reuse_tool(load_dir("results"), inspect=expected)
+        proof_uses = lean_reuse_usage_map(raw, expected)
+    pack = context_pack(ROOT, data, report, argument_id, related=related, proof_uses=proof_uses)
     print(json.dumps(pack, indent=2, ensure_ascii=False) if args.json else format_context(pack, limit=args.limit))
     return 0
 
@@ -2611,7 +2620,8 @@ def bind_tool_input(results: list[tuple[Path, dict[str, Any]]]) -> dict[str, lis
     return out
 
 
-def run_bind_tool(tool_input: dict[str, list[str]]) -> list[dict[str, Any]]:
+def run_bind_tool(tool_input: dict[str, list[str]], *, tool: Path = BIND_TOOL,
+                  command_name: str = "bind-check") -> list[dict[str, Any]]:
     """Run scripts/BindTypes.lean against the built library (needs `lake build`)."""
     import subprocess
     import tempfile
@@ -2621,27 +2631,27 @@ def run_bind_tool(tool_input: dict[str, list[str]]) -> list[dict[str, Any]]:
         input_path = handle.name
     try:
         completed = subprocess.run(
-            ["lake", "env", "lean", "--run", str(BIND_TOOL), input_path],
+            ["lake", "env", "lean", "--run", str(tool), input_path],
             cwd=ROOT,
             capture_output=True,
             text=True,
             check=False,
         )
     except FileNotFoundError as exc:
-        raise CorpusError("bind-check needs `lake` on PATH (run after `lake build`)") from exc
+        raise CorpusError(f"{command_name} needs `lake` on PATH (run after `lake build`)") from exc
     finally:
         Path(input_path).unlink(missing_ok=True)
     if completed.returncode != 0:
         raise CorpusError(
-            f"{BIND_TOOL.relative_to(ROOT)} failed (exit {completed.returncode}):\n"
+            f"{tool.relative_to(ROOT)} failed (exit {completed.returncode}):\n"
             f"{completed.stderr.strip() or completed.stdout.strip()}"
         )
     try:
         described = json.loads(completed.stdout)
     except json.JSONDecodeError as exc:
-        raise CorpusError(f"{BIND_TOOL.relative_to(ROOT)} printed invalid JSON: {exc}") from exc
+        raise CorpusError(f"{tool.relative_to(ROOT)} printed invalid JSON: {exc}") from exc
     if not isinstance(described, list):
-        raise CorpusError(f"{BIND_TOOL.relative_to(ROOT)} must print a JSON array")
+        raise CorpusError(f"{tool.relative_to(ROOT)} must print a JSON array")
     return described
 
 
@@ -3214,6 +3224,84 @@ def command_bind_check(args: argparse.Namespace) -> int:
     return 1 if report["summary"]["mismatch"] or report["stale_pins"] else 0
 
 
+# --- Lean proof-term theorem reuse (#959): review only; no generated authority ----
+
+LEAN_REUSE_TOOL = ROOT / "scripts" / "LeanReuse.lean"
+
+
+def read_lean_reuse_json(path: Path) -> list[dict[str, Any]]:
+    try:
+        rows = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        raise CorpusError(f"cannot read Lean reuse output {path}: {exc}") from exc
+    if not isinstance(rows, list):
+        raise CorpusError("Lean reuse output must be a JSON array")
+    return rows
+
+
+def lean_reuse_usage_map(rows: list[dict[str, Any]], expected: list[str]) -> dict[str, list[str]]:
+    """Validate the derived Lean export; never treat missing proofs as unused imports."""
+    expected_set = set(expected)
+    uses: dict[str, list[str]] = {}
+    for row in rows:
+        if not isinstance(row, dict) or not isinstance(row.get("theorem"), str):
+            raise CorpusError("Lean reuse output contains an invalid theorem entry")
+        theorem = row["theorem"]
+        if theorem not in expected_set:
+            continue  # A full-corpus fixture is valid for a single context target.
+        if theorem in uses:
+            raise CorpusError(f"duplicate Lean reuse entry for {theorem}")
+        if row.get("error"):
+            raise CorpusError(f"Lean reuse could not inspect {theorem}: {row['error']}")
+        names = row.get("proof_theorems")
+        if not isinstance(names, list) or any(not isinstance(n, str) for n in names):
+            raise CorpusError(f"Lean reuse entry for {theorem} needs proof_theorems: [strings]")
+        uses[theorem] = sorted(set(names) - {theorem})
+    missing = expected_set - uses.keys()
+    if missing:
+        raise CorpusError("Lean reuse did not inspect these theorems (built library may be stale): " + ", ".join(sorted(missing)))
+    return uses
+
+
+def run_lean_reuse_tool(results: list[tuple[Path, dict[str, Any]]],
+                        inspect: list[str] | None = None) -> list[dict[str, Any]]:
+    ordered = sorted((record for _, record in results), key=lambda record: record["id"])
+    inspected = set(inspect) if inspect is not None else {r["theorem"] for r in ordered}
+    tool_input = {
+        "modules": sorted({r["solution_module"] for r in ordered if r["theorem"] in inspected}),
+        "theorems": sorted({r["theorem"] for r in ordered}),
+        "inspect": sorted(inspected),
+    }
+    return run_bind_tool(tool_input, tool=LEAN_REUSE_TOOL, command_name="lean-reuse")
+
+
+def command_lean_reuse(args: argparse.Namespace) -> int:
+    """Read-only review; no corpus graph writes and no CI gate."""
+    from argument_context import lean_reuse_review
+    if not args.review:
+        raise CorpusError("lean-reuse is review-only; pass --review")
+    results = [record for _, record in load_dir("results")]
+    arguments = {r["id"]: r for _, r in load_dir("arguments")}
+    if args.usage_json:
+        rows = read_lean_reuse_json(Path(args.usage_json))
+    else:
+        rows = run_lean_reuse_tool(load_dir("results"))
+    uses = lean_reuse_usage_map(rows, [r["theorem"] for r in results])
+    report = lean_reuse_review(ROOT, results, arguments, uses)
+    if args.json:
+        print(json.dumps(report, ensure_ascii=False, indent=2))
+    else:
+        for entry in report["findings"]:
+            if entry["classification"] == "theorem-used, not in argument graph":
+                depth = entry["depth"] if entry["depth"] is not None else "no source import"
+                print(f"review: {entry['source_result_id']} uses {entry['result_id']} "
+                      f"({entry['theorem']}; {depth}; no matching argument premise)")
+        summary = report["summary"]
+        print("lean-reuse: " + ", ".join(f"{k}: {v}" for k, v in summary.items()))
+        print("All classifications: lean-reuse --review --json (advisory; no graph changes)")
+    return 0
+
+
 # --- unused-premises (#571): result proofs that ignore a listed premise ---------
 
 UNUSED_TOOL = ROOT / "scripts" / "UnusedPremises.lean"
@@ -3517,7 +3605,14 @@ def parser() -> argparse.ArgumentParser:
     context.add_argument("--limit", type=int, default=6, help="entries shown per list in text output")
     context.add_argument("--related", type=int, default=8, help="related statements to the conclusion from the research index (0 = skip)")
     context.add_argument("--root", default=DEFAULT_FRONTIER_ROOT)
+    context.add_argument("--proof-use", action="store_true", help="inspect proof-term references from cached Lean build (no rebuild)")
+    context.add_argument("--proof-use-json", help="use saved LeanReuse.lean output instead of running Lean")
     context.set_defaults(func=command_context)
+    reuse = sub.add_parser("lean-reuse", help="advisory theorem-use versus import/argument-graph review (after lake build)")
+    reuse.add_argument("--review", action="store_true", help="show theorem uses absent from the argument graph")
+    reuse.add_argument("--json", action="store_true", help="include all three classifications in deterministic JSON")
+    reuse.add_argument("--usage-json", help="use saved LeanReuse.lean output instead of running Lean")
+    reuse.set_defaults(func=command_lean_reuse)
     sub.add_parser("arguments", help="print argument IDs, one per line").set_defaults(
         func=command_ids("arguments")
     )
