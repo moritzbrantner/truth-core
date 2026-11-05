@@ -22,9 +22,9 @@ from pathlib import Path
 from typing import Any
 
 ID_TOKEN = re.compile(r"(?<![A-Za-z0-9-])[A-Z][A-Z0-9]*(?:-[A-Z0-9]+)+(?![A-Za-z0-9-])")
-IMPORT = re.compile(r"^import\s+(\S+)", re.M)
-DECLARATION = re.compile(r"^(?:@\[[^\]]*\]\s*)?(?:private\s+|protected\s+)?(?:theorem|lemma)\s+(\S+)", re.M)
-BOUNDARY = re.compile(r"^(?:/--|@\[|theorem\s|lemma\s|def\s|abbrev\s|structure\s|inductive\s|instance\s|end\s|namespace\s|section\s|open\s|variable\s|noncomputable\s|private\s|protected\s|--)", re.M)
+IMPORT = re.compile(r"^(?:public\s+)?import\s+(\S+)", re.M)
+DECLARATION = re.compile(r"^(?:@\[[^\]]*\]\s*)?(?:private\s+|public\s+|protected\s+)?(?:theorem|lemma)\s+(\S+)", re.M)
+BOUNDARY = re.compile(r"^(?:/--|@\[|theorem\s|lemma\s|def\s|abbrev\s|structure\s|inductive\s|instance\s|end\s|namespace\s|section\s|open\s|variable\s|noncomputable\s|private\s|public\s|protected\s|--)", re.M)
 
 
 def module_path(root: Path, module: str) -> Path:
