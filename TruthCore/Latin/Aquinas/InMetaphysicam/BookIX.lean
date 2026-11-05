@@ -1,3 +1,5 @@
+import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article1
+
 /-!
 Source-derived readings from Thomas Aquinas, *Sententia libri Metaphysicae*
 IX, lect. 9 n. 1–7, on *Metaphysics* Θ.8, 1050b6-19: act is prior to potency
@@ -18,13 +20,19 @@ of being, that is, of substance. The argument adds two primitives:
   distinct from simple priority (`SummaTheologiae.ActSimplyPriorToPotencyReading`)
   and from priority in time; no reading here identifies them.
 
+One reading from lect. 8 n. 11 is time-indexed: `MoverMovedAtNoTimeIsInActOnlyReading`
+takes the *prima via* predicates at each time of a supplied clock, as
+`TruthCore.Causality.TemporalPrimaVia` does, because the series it states is a
+history of agents, not a present series.
+
 Source witness: Corpus Thomisticum Latin page, pinned as web snapshot passage
 `AQUINAS-IN-METAPH-IX-L7-L9`.
 -/
 
 namespace TruthCore.Latin.Aquinas.InMetaphysicam
+open TruthCore.Latin.Aquinas.SummaTheologiae (PureAct)
 
-universe u v
+universe u v w
 
 /-- `x` is incorruptible simply (*incorruptibile simpliciter*): it cannot fail
 to be in substance, the respect `esse`. Lect. 9 n. 4–5 (*simpliciter est
@@ -80,5 +88,29 @@ Source: Aquinas, *In Metaph.* IX, lect. 9 n. 5–6; Aristotle, *Met.* Θ.8,
 def IncorruptibleIsInActReading {Being : Sort u} {Respect : Sort v}
     (InAct CanFailToBe : Being → Respect → Prop) (esse : Respect) : Prop :=
   ∀ e, IncorruptibleSimply CanFailToBe esse e → InAct e esse
+
+/-- The first mover is in act only (*semper prius exigitur actus secundum quem
+generans aut movens aut faciens est actu, ante alterum actum quo generatum vel
+factum est in actu, postquam fuit in potentia; quousque veniatur ad primum
+movens, quod est in actu tantum. Id enim, quod exit de potentia in actum,
+requirit actum praecedentem in agente*).
+
+The series is ordered in time: each agent's act comes before the act of what it
+brings from potency to act. It stops at an agent that needs no earlier act,
+because it never goes from potency to act. So *primum movens* is read as a mover
+that is moved, in any respect, at no time of the clock (`Moved t f r` false for
+every `t` and `r`), not as a mover unmoved at one time. *In actu tantum* has no
+restricting phrase and is read as pure act (`PureAct`): at a time at which it
+moves something, it is in potency in no respect. Only times at which it moves
+are covered; the sentence does not consider others. Only the negative half of
+*in actu tantum* is formalized. No existence or uniqueness is asserted.
+
+Source: Aquinas, *In Metaph.* IX, lect. 8 n. 11, referring back to lect. 7
+n. 4–8 (priority of act in time). -/
+def MoverMovedAtNoTimeIsInActOnlyReading {Being : Sort u} {Respect : Sort v}
+    {Time : Sort w} (Moved : Time → Being → Respect → Prop)
+    (Moves : Time → Being → Being → Respect → Prop)
+    (InPotency : Time → Being → Respect → Prop) : Prop :=
+  ∀ t f, (∃ x r, Moves t f x r) → (∀ t' r, ¬ Moved t' f r) → PureAct (InPotency t) f
 
 end TruthCore.Latin.Aquinas.InMetaphysicam

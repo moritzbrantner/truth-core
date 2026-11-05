@@ -1,0 +1,16 @@
+{
+  "id": "STMT-SLICE-FIRST-MOVER-MOVED-AT-NO-TIME",
+  "paraphrase": "Over a supplied clock: whatever is a first mover moved by none at some time t (it moves something at t and is moved in no respect at t) is moved in no respect at any time. This unattributed bridge is open; it fails in the strictly forward feedback model of FIRST-WAY-SLICE-CONTROLS.",
+  "lean_declaration": "TruthCore.Causality.TemporalPrimaVia.SliceFirstMoverMovedAtNoTimeBridge",
+  "definition_ids": [
+    "DEF-TIME-SLICED-FIRST-MOVER",
+    "DEF-MOVED-AT-NO-TIME",
+    "DEF-FIRST-UNMOVED-MOVER",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNMOVED-AT-A-TIME",
+    "DISAMB-MOTION"
+  ]
+}

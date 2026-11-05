@@ -60,6 +60,15 @@ def StrictPureActConflict : Prop :=
     (∀ t, FirstUnmovedMoverIsPureAct (Moved t) (Moves t) (PureAct (Potency t))) →
     ∀ t y x r, y ≠ x → Moves t y x r → ∀ s, ¬ Potency t y s
 
+/-- Open bridge from one time to the whole clock: a first mover moved by none at
+some time is moved in no respect at any time. Unattributed. It carries a reading
+stated for a history of agents (`MoverMovedAtNoTimeIsInActOnlyReading`) to the
+case's statements read at one time. It fails in the feedback model below: A is a
+first unmoved mover at t = 1 and is moved at t = 2. -/
+def SliceFirstMoverMovedAtNoTimeBridge {B R T : Type} (Moved : T → B → R → Prop)
+    (Moves : T → B → B → R → Prop) : Prop :=
+  ∀ t f, IsFirstUnmovedMover (Moved t) (Moves t) f → ∀ t' r, ¬ Moved t' f r
+
 /-- Every premise of the route theorem except `RegressIfSimultaneous`, for the
 models below. -/
 def LocalRoutePremises {E B R T : Type} [LT T] (clock : E → T) (bearer : E → B)
