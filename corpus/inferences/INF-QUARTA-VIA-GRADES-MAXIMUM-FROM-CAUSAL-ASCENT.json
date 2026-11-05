@@ -1,0 +1,15 @@
+{
+  "id": "INF-QUARTA-VIA-GRADES-MAXIMUM-FROM-CAUSAL-ASCENT",
+  "input_statement_ids": [
+    "STMT-MORE-SUCH-HAS-THE-PERFECTION",
+    "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH",
+    "STMT-EXCEEDED-PERFECTION-IS-CAUSED",
+    "STMT-NO-INFINITE-REGRESS-OF-CAUSES-OF-A-PERFECTION",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "output_statement_id": "STMT-GRADES-HAVE-A-MAXIMUM",
+  "rule": "well-founded-induction",
+  "meaning": "Derives the quarta via's grades-to-maximum step (weak IsMaximumIn) from four nonlogical premises and excluded middle by well-founded induction along distinct causes of the perfection. The exceeding comparand has the perfection; a bearer that nothing exceeds is the maximum; a bearer that something exceeds has the perfection from a distinct cause, which is more such than it and so has the perfection, and the induction applies to that cause. The maximum is neither unique nor greatest, nor shown to cause anything, and is not identified with God. Cause-more-such is the existing unrestricted strengthening of Met II.1; exceeded-is-caused is an unattributed bridge supported, not stated, by ST I q.44 a.1. This is a formal derivation, not a reading of the source's order of argument: Aquinas grounds the step in approach to a maximum, not in causal ascent.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "REL-AQUINAS-ST-I-Q44-A1-SUPPORTS-EXCEEDED-PERFECTION-IS-CAUSED",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q44-A1-PARTICIPATED-ESSE-CAUSE",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-EXCEEDED-PERFECTION-IS-CAUSED",
+  "note": "ST I q.44 a.1 co. says that what is found in something by participation is caused in it by that to which it belongs essentially, and that things diversified by diverse participation of esse, as more or less perfect, are caused; ad 1 that being by participation entails being caused by another. It bears on the premise at r = esse but does not state it: that being exceeded in a perfection is having it by participation, and the extension to every perfection, belong to the premise, not the source."
+}

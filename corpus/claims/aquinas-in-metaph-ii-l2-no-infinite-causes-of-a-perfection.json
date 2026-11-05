@@ -1,0 +1,15 @@
+{
+  "id": "AQUINAS-IN-METAPH-II-L2-NO-INFINITE-CAUSES-OF-A-PERFECTION-A",
+  "statement_id": "STMT-NO-INFINITE-REGRESS-OF-CAUSES-OF-A-PERFECTION",
+  "source_id": "AQUINAS-IN-METAPH",
+  "locator": "II, lect. 2 n. 11: quod sit aliquod principium esse et veritatis rerum; et quod causae existentium non sunt infinitae, nec procedendo in directum secundum unam aliquam speciem causae",
+  "interpretation": "Aquinas' paraphrase of Metaphysics II.2, 994a1-2, introduced because the preceding proof (n. 3-10: what causes being and truth in others is most true) would be removed if causes went on to infinity, there being then no first causes. Read as: for each perfection, the series of distinct causes of that perfection does not go on to infinity, formalized as well-foundedness (DEF-PERFECTION-CAUSE-REGRESS-ACCESSIBILITY). Reading step: the text indexes a line 'in directum' by one species of cause (material, efficient, final, formal, n. 12), and separately denies infinitely many species; this reading indexes the line by the perfection caused, as the lecture's own application to 'principium esse et veritatis' does. A line of causes of one perfection that alternates between species is not addressed by the sentence, and its inclusion belongs to the reading. The supporting arguments of Met II.2 (994a11-19 and following) are not derived.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-PERFECTION-CAUSE-REGRESS-ACCESSIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE"
+  ]
+}

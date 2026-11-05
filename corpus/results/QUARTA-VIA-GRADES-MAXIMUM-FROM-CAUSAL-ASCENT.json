@@ -1,0 +1,10 @@
+{
+  "id": "QUARTA-VIA-GRADES-MAXIMUM-FROM-CAUSAL-ASCENT",
+  "argument_id": "QUARTA-VIA-GRADES-MAXIMUM-FROM-CAUSAL-ASCENT",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaGradesFromCausalAscent.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaGradesFromCausalAscent.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaGradesFromCausalAscent.gradesHaveAMaximum",
+  "comparator_config": "results/QUARTA-VIA-GRADES-MAXIMUM-FROM-CAUSAL-ASCENT/comparator.json",
+  "status": "solution-present",
+  "description": "From what is more such has the perfection, the unrestricted cause-more-such principle, exceeded-is-caused, no infinite regress of causes of a perfection (well-foundedness) and excluded middle: wherever something is more r than something, something has r and nothing is more r than it (weak IsMaximumIn, STMT-GRADES-HAVE-A-MAXIMUM). Proof by well-founded induction along distinct causes of r. Not unique, not greatest, not shown to cause anything, not identified with God. Supplementary closed obligations: withoutBearer, withoutCause, withoutExceeded and withoutRegress each give one two-being Boolean fixture where the named premise fails, the other three hold, something is more such than something and nothing is maximal (the regress fixture is a two-cycle of causes). zornMaximum: on the homogeneous-scale contrast reading, an inhabited scale whose nonempty chains are bounded above has a maximal grade (Mathlib zorn_le_nonempty). directedMaximalIsGreatest: on a directed homogeneous partial order a maximal grade is greatest and unique (Mathlib IsMax.isTop). Fixtures concern encoded satisfiability, not metaphysical possibility. Every nonlogical premise remains open."
+}
