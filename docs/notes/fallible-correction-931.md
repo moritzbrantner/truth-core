@@ -155,6 +155,11 @@ protocol's feedback. In particular an internally coherent binary prediction
 can be false; the projection result does not already solve this task. We reuse
 F6, STMT-THERE-ARE-EPISTEMIC-REASONS, as the accepted existential floor. Neither
 that floor nor the performance algebra alone identifies particular reasons.
+The [preconditions note](epistemic-reasons-preconditions.md) separately records
+STMT-THERE-ARE-ORDINARY-ROLE-EPISTEMIC-REASONS and
+STMT-THERE-ARE-PREFERENCE-INDEPENDENT-EPISTEMIC-REASONS as OPEN. This
+slice does not transfer F6 approval to either stronger claim; its restricted
+reason-giving argument remains a defeasible philosophical defense.
 
 ## The decisive epistemic cases under this interpretation
 
