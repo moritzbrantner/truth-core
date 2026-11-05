@@ -24,7 +24,7 @@ readings, and a view developed by followers is not attributed to him.
 | PI: rule-following regress | §§198, 201-202; Kripke via `SEP-PRIVATE-LANGUAGE` §4 | neutral to the routes | none | `WITTGENSTEIN-INTERPRETATION-REGRESS` (regress plus three-way fork) |
 | PI: private-language argument | §§243, 258, 293, 304, 308; readings via `SEP-PRIVATE-LANGUAGE` §§1.1-1.2 | neutral to F5 as an occurrence premise; rival only to a private-introspection basis for it | candidate F5 (`STMT-COGITO-THOUGHT-OCCURS`) | recorded |
 | Tractatus, traditional reading | 4.003, 4.11, 6.42, 6.432, 6.522, 7 (German, `WITTGENSTEIN-TRACTATUS`); `SEP-WITTGENSTEIN` §2.4 | rival to the arguability of natural theology | `STMT-NATURAL-THEOLOGY-ARGUABLE` (presupposed by every route, stated by none; not a route leaf) | recorded as an unattributed reconstruction (`STMT-TLP-GOD-SENTENCES-NONSENSICAL`); not refuted |
-| Tractatus, resolute reading | `SEP-WITTGENSTEIN` §2.4 | neutral: no thesis, no ineffable truths | none | recorded; the self-application (6.53-6.54) belongs to #1008 |
+| Tractatus, resolute reading | `SEP-WITTGENSTEIN` §2.4 | neutral: the book points at no ineffable truths (a claim about the book) | none | recorded; the self-application (6.53-6.54) belongs to #1008 |
 | Lecture on Ethics | absolute value is no fact; wonder at existence is nonsense; religious terms are similes (`WITTGENSTEIN-LECTURE-ON-ETHICS`) | rival in spirit to realist God-talk as simile; an objection to the statementhood of "the world exists" is only an unattributed reconstruction (needs an imaginability-to-sense bridge) | candidate F2 (reconstruction only); off-route | recorded |
 | Lectures on religious belief (1938, student notes) | religious beliefs not hypotheses, `SEP-RELIGIOUS-LANGUAGE` §4.2 | rival in spirit to recognizability by signs; not attached to a leaf | none (the notes are not Wittgenstein's text; no claim attributes WF-N to him) | recorded as a reported reading |
 
@@ -355,13 +355,20 @@ entry. This is an honest gap: the routes leave their meaningfulness
 presupposition implicit.
 
 On the **resolute** reading (`DEF-TLP-NONSENSE-PLAIN`), the book's own
-propositions are plain nonsense, and there are no ineffable truths. The
-reconstruction is then no thesis and rivals nothing. That is the book's
+propositions are plain nonsense, and the book does not point at ineffable
+truths but leads its reader away from that temptation. This is a claim about
+the book, not a denial that such truths exist. On this reading the
+reconstruction is not the book's thesis, so the book supplies no rival. That is the book's
 self-application, which #1008 owns (`DISAMB-TLP-NONSENSE`).
 
-Lean: not built. The one formal point is bipolarity: a sentence true in every
-possibility has no sense, so necessary-being claims are not pictures. It
-unfolds in two lines, so as a result it would be decorative.
+Lean: not built. The Tractatus's tautology remarks (4.46-4.462) concern
+sentences true under every truth-assignment. Applying them to necessary-being
+claims is an unattributed reconstruction. It needs an open bridge: that the
+necessity predicated of a being is the logical necessity of the proposition
+asserting it (`DISAMB-NECESSARY` distinguishes the two), and that the
+assertion is true under every assignment. The bridge is not recorded. Given
+it, the remaining step would be a two-line unfolding with no new logical
+content.
 
 ## Lecture on Ethics (1929)
 
