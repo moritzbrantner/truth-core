@@ -1,0 +1,12 @@
+{
+  "id": "INF-IMMUTABLE-IS-ETERNAL-FROM-BOETHIAN-ETERNITY",
+  "input_statement_ids": [
+    "STMT-CHANGE-REQUIRES-POTENCY",
+    "STMT-PURE-ACT-LIVES"
+  ],
+  "output_statement_id": "STMT-IMMUTABLE-IS-ETERNAL",
+  "rule": "direct-proof",
+  "meaning": "Let x be in potency in no respect. If its life began or ended, or had succession, it would be changed and hence in potency in some respect (STMT-CHANGE-REQUIRES-POTENCY), contradicting pure act; so its life is interminable and all at once. By STMT-PURE-ACT-LIVES it lives at some time. These are the three conjuncts of Boethian eternity (DEF-BOETHIAN-ETERNAL), which instantiates the Eternal parameter.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,19 @@
+{
+  "id": "ATTEMPT-IMMUTABLE-IS-ETERNAL-BOETHIAN-353",
+  "date": "2026-11-05",
+  "statement_ids": [
+    "STMT-IMMUTABLE-IS-ETERNAL",
+    "STMT-CHANGE-REQUIRES-POTENCY",
+    "STMT-PURE-ACT-LIVES"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "#353: typed Boethian eternity (DEF-BOETHIAN-ETERNAL) over a duration frame, with q.18 a.3 newly pinned and q.9 a.1, q.10 a.1-2 reread. Derived STMT-IMMUTABLE-IS-ETERNAL with Eternal := BoethianEternal from the q.9 a.1 change principle and the open premise that pure act lives. Rejected: deriving possession of life from pure act through q.10 a.1 ad 2 (it states eternal -> living, the converse); attributing pure-act-lives to q.18 a.3 (its ground is self-understanding, so it is only a supports relation); a change principle covering only succession (control successionOnlyPrincipleInsufficient: a pure-act being may then begin to live). Reuse check: the Physics change statements (STMT-CHANGE-ACTUALITY-OF-POTENTIAL and kin) have no time frame and do not coincide; STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY is about present MovedIn, not variation across times.",
+  "blocker": "STMT-CHANGE-REQUIRES-POTENCY (sourced, with the open burden that first beginning to be counts as change and that 'aliquo modo' is potency in the subject) and STMT-PURE-ACT-LIVES (supported, unattributed) remain open. Obligation B (external conservation) and the perfecta/possessio connotations are not encoded. Boethius' Consolatio V is cited only through Aquinas.",
+  "evidence": [
+    "IMMUTABLE-IS-ETERNAL-FROM-BOETHIAN-ETERNITY",
+    "AQUINAS-ST-I-Q9-A1-CHANGE-REQUIRES-POTENCY",
+    "AQUINAS-ST-I-Q18-A3-HIGHEST-LIFE",
+    "AQUINAS-ST-I-Q10-A1-BOETHIAN-DEFINITION"
+  ]
+}

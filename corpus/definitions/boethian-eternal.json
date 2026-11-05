@@ -1,0 +1,12 @@
+{
+  "id": "DEF-BOETHIAN-ETERNAL",
+  "term": "Boethian eternity (interminabilis vitae tota simul et perfecta possessio)",
+  "definition": "`BoethianEternal LivesAt lifeStateAt x`: x lives at some time of the duration frame (possession of life), no earlier and later time differ in whether x lives (Interminable: no beginning or end), and no two times at which x lives differ in its life-state (TotaSimul: no succession). The connotations of perfecta and possessio beyond these (nothing lacking, indeficient holding, q.10 a.1 ad 3 and ad 6) are not encoded; they would need a perfection/lack vocabulary.",
+  "basis": "sourced",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.BoethianEternal",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q10-A1-BOETHIAN-DEFINITION",
+    "AQUINAS-ST-I-Q10-A1-ETERNITY-WITHOUT-SUCCESSION"
+  ],
+  "note": "Instantiates the primitive Eternal parameter of STMT-IMMUTABLE-IS-ETERNAL in the result IMMUTABLE-IS-ETERNAL-FROM-BOETHIAN-ETERNITY. It is not defined as temporal omnipresence or within-life constancy alone: possession, interminability and succession-freedom are separate conjuncts, and q.10 a.5's aevum (internally all at once but with adjunct change) fails TotaSimul when its adjunct operations enter the life-state. It does not encode independence from external conservation (obligation B of docs/eternity-dependence-connection.md). The frame carries no order axioms and no richness condition: in a frame with no earlier/later pair of times the two marks hold trivially, so the definition's content is relative to the times the frame supplies."
+}

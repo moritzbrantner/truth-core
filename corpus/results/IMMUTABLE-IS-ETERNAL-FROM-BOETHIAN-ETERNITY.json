@@ -1,0 +1,10 @@
+{
+  "id": "IMMUTABLE-IS-ETERNAL-FROM-BOETHIAN-ETERNITY",
+  "argument_id": "IMMUTABLE-IS-ETERNAL-FROM-BOETHIAN-ETERNITY",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.ImmutableIsEternal.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.ImmutableIsEternal.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.ImmutableIsEternal.immutableIsEternal",
+  "comparator_config": "results/IMMUTABLE-IS-ETERNAL-FROM-BOETHIAN-ETERNITY/comparator.json",
+  "status": "solution-present",
+  "description": "Derives STMT-IMMUTABLE-IS-ETERNAL with Eternal := BoethianEternal (typed life, beginning/end and succession in a duration frame) from the q.9 a.1 change principle and the open premise that pure act lives. Not a transcription: neither premise has eternity as its consequent; the change principle concludes only potency, and the proof turns it against pure act for each mark. Omission controls show each premise is needed and that a succession-only change principle fails; a joint model shows the premises are satisfiable with a pure-act being. It does not establish either premise, independence from external conservation, or proper eternity beyond the encoded marks."
+}

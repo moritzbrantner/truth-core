@@ -4,7 +4,7 @@
   "definition": "Eternity has neither beginning nor end and is without succession, all at once (ST I q.10 a.1); it is not merely endless time. In stage 2 Eternal is a primitive predicate supplied to GodIsEternal and ClassicalAttributesSuffice.",
   "basis": "sourced",
   "lean_declaration": "TruthCore.Case.Catholicism.GodIsEternal",
-  "note": "ImmutableIsEternalReading states only that being in potency in no respect suffices for Eternal. It does not encode time, beginning, end or succession, so the intended sourced meaning is not a new definitionally enforced temporal theorem.",
+  "note": "ImmutableIsEternalReading states only that being in potency in no respect suffices for Eternal. It does not encode time, beginning, end or succession, so the intended sourced meaning is not a new definitionally enforced temporal theorem. The result IMMUTABLE-IS-ETERNAL-FROM-BOETHIAN-ETERNITY instantiates Eternal with the typed DEF-BOETHIAN-ETERNAL (possession of life, no beginning or end, no succession in a duration frame) and derives the sufficient condition from STMT-CHANGE-REQUIRES-POTENCY and STMT-PURE-ACT-LIVES; downstream routes, which are polymorphic in Eternal, keep the primitive parameter.",
   "claim_ids": [
     "AQUINAS-ST-I-Q10-A1-ETERNITY-WITHOUT-SUCCESSION",
     "AQUINAS-ST-I-Q10-A2-ETERNITY-FOLLOWS-IMMUTABILITY"

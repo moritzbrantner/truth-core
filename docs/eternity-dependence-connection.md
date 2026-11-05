@@ -140,6 +140,22 @@ life, succession and independence. Primitive `Eternal` is not silently defined
 as temporal omnipresence, within-life constancy, or an enum label. A recognition
 premise cannot be advertised as a derived conclusion while it remains open.
 
+### Obligation C: typed Boethian eternity (#353)
+
+`IMMUTABLE-IS-ETERNAL-FROM-BOETHIAN-ETERNITY` now gives proper eternity typed
+content (`DEF-BOETHIAN-ETERNAL`, `TruthCore/Latin/Aquinas/SummaTheologiae/PrimaPars/BoethianEternity.lean`):
+possession of life at some time of a duration frame, no beginning or end of that
+life, and no succession of its life-state. With that instantiation,
+`STMT-IMMUTABLE-IS-ETERNAL` is derived from the q.9 a.1 change principle
+(`STMT-CHANGE-REQUIRES-POTENCY`) and the open premise `STMT-PURE-ACT-LIVES`,
+which q.18 a.3 supports only through intellect. Omission controls in the same
+result show that each premise is needed and that a succession-only change
+principle lets a pure-act being begin to live (cases 1 and 3 below are excluded
+by the definition; case 2 by including operations in the life-state). The
+derivation stays within potency in the subject
+(`DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER`): obligations A and B, and case 4's
+external conservation, are untouched.
+
 ## Omission cases to retain
 
 These are descriptions of necessary modeling controls, not newly verified Lean

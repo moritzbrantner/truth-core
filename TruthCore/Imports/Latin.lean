@@ -5,6 +5,7 @@ import TruthCore.Latin.Aquinas.SummaContraGentiles.BookI.Chapter13
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.ActPotencyTheory
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.ActPriorFromIncorruptible
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.ActPriorFromMotion
+import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.BoethianEternity
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.FirstMoverAttributes
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.InfinityEternity
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.IntellectWill
