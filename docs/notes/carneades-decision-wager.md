@@ -88,3 +88,87 @@ empty diagnostics. The preview was dirty and the API bound the exact submitted
 content; no final CI or Comparator status is inferred from this observation.
 The first probe required a noncomputable marker and the current Mathlib import;
 the second accepted the proof with a cosmetic linter warning, removed in v3.
+
+## Logic-first signed-cost reconstruction (#1034, 2026-11-05)
+
+Attribution remains deferred under the owner's logic-first direction. The
+following is a working reconstruction, not newly authenticated channel content,
+Pascal interpretation, or source claim. No new source or passage is asserted.
+
+`TruthCore.Decision.SignedWager` uses Mathlib `EReal`: real utilities include
+negative finite costs, positive infinity, and negative infinity. Its partial
+`add` returns `none` for either ordering of positive and negative infinity;
+undefined expectation is never an ordinary zero or a candidate maximizer score.
+`expectation p u v` uses complementary real weights `p` and `1-p`. A separately
+stated `Probability` guard gives nonnegativity and normalization, rather than
+pretending arbitrary algebraic weights are priors. Zero-probability outcomes
+contribute zero, including an impossible infinite payoff.
+
+The single-policy profile has independently selected act-one probability `q`
+and policy-one prior `p`, success probability `p*q`, infinite utility on success,
+and arbitrary signed finite utility `c` otherwise. The theorem permits every
+real `c`, including negative expenses. Both probabilities are explicitly bounded;
+positive `p` and `q` imply expectation `some top`. Thus finite costs do not by
+themselves answer the strongest infinite-reward reply. This is a utility
+consequence, not a premise that rewards actually exist or that expectation must
+be maximized. The previous `InfiniteWager.mixtureTie` theorem is imported and
+consumed as the old nonnegative control inside the certificate; that control is
+not advertised as a newly discovered result.
+
+The competing-policy profile has two incompatible rewarded acts: policy one
+rewards act one and policy two rewards act two, each infinitely; failure has
+finite utility `c`. Their priors are `p` and `1-p`, and the act lottery has
+weights `q` and `1-q`. Independence yields success probability
+`p*q+(1-p)*(1-q)`. This is proved to lie in [0,1]. If `0<p<1`, it is positive
+for every feasible `q`, including both pure acts and every positive mixture.
+All therefore attain top: expected value alone fails to single out one practice.
+This is a symmetric reward-policy control, not a proof that every religion has
+the same payoff, that all policies have positive priors, or that mixtures of
+religious practice are feasible. The result allows asymmetric positive priors;
+symmetry concerns the paired reward structure, not a mandated 50/50 prior.
+
+Opposing *punishment* is separately tested: with strictly positive complementary
+weights, expectation of positive infinity and negative infinity is `none`.
+One must either restrict the utility domain, supply a different decision rule,
+or justify a regularization/ordering before drawing a practical conclusion.
+The guard deliberately does not accept Mathlib's totalized opposing-infinity
+addition as decision-theoretic arithmetic. Setting prior or rewarded-act weight
+to zero instead gives the finite outcome, so dropping positivity invalidates the
+infinite-reward conclusion. Both zero controls are explicit model witnesses.
+
+`practicalNontruth` gives an actual two-world model: prior 1/2, act-one weight
+1, unsuccessful utility -1, and a religious proposition true only at the other
+world. The actual world is false. Act one maximizes the single-policy expectation;
+every feasible lottery maximizes the competing-policy expectation. Distinct
+weights 1 and 1/2 tie in the signed profile. This witnesses why practical
+maximization does not entail actuality of a religious proposition. Neither
+`Maximizes` nor an act lottery represents choosing a belief; belief control is
+not derived. Zero-prior and zero-action alternatives in this same negative-cost
+model fail to attain top, making the omissions nonvacuous.
+
+Scope and strongest replies: tie-permitting maximizing norms survive, and an
+explicit tie-breaking norm could select an act. A theological argument could
+exclude a rival policy or assign a zero prior; that is an additional commitment,
+not a decision-theoretic consequence. A finite/truncated utility model might rank
+acts differently; this theorem assumes genuinely infinite rewards. State/action
+independence, shared finite failure utility, feasibility of lotteries, payoff
+assignments, priors, and any practical norm remain application assumptions. The
+profile does not yet model distinct finite costs in every outcome cell, an
+arbitrary finite family of religions, correlated policies/acts, or a defended
+salvation theory. These limits do not turn the formal conditional into a source
+reading or a truth-root proof.
+
+Claim/type self-sweep: two structured mathematical certificates, no opaque-Prop
+transcription and no added theological axiom. The only actual-world countermodel
+is the explicitly defined Bool interpretation; it does not refute religious
+truth. No new stating claim, source, passage, or root-support edge is created.
+No premise is defended, added to the truth root, removed, or discharged.
+The conditional work connects signed utility arithmetic with a practical
+nontruth control; frontier/root-premise delta is none.
+
+Frozen Challenge SHA256:
+`d419888370e41bd902f64d7de0bf4e978b7187a1984e00f97b2f5903c5d7f1cb`.
+Its typed vocabulary snapshot SHA256 is
+`c1a0dcd0ca0921f6ff46532e2b5097b6698c78b84f48790c69f5c2a1bda2afe3`.
+Shared convention sourceRevision:
+`625cb04ca568aebc8d45c90033e107a05e9bd2a0`.
