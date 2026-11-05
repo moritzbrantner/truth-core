@@ -170,7 +170,70 @@ def prepare_verifier(root):
     reconcile(root, "verifier", inputs, output, lambda: run(root, "scripts/bootstrap-verifier.sh"))
 
 
-def prepare(root):
+def build_fingerprint(build):
+    """Entry metadata of a build tree; refuses links so a copy cannot escape the clone."""
+    entries = []
+    for folder, directories, files in os.walk(build, followlinks=False):
+        for name in sorted(directories + files):
+            path = Path(folder) / name
+            if path.is_symlink():
+                raise ValueError(f"refusing to seed from a build tree with a symlink: {path}")
+            stat = path.lstat()
+            # A directory's size reflects its own history, not its entries; a copy may differ.
+            size = 0 if path.is_dir() else stat.st_size
+            entries.append((str(path.relative_to(build)), stat.st_mode, size, stat.st_mtime_ns))
+    return hashlib.sha256(json.dumps(sorted(entries)).encode()).hexdigest()
+
+
+SEED_INPUTS = ("lean-toolchain", "lake-manifest.json", "lakefile.toml")
+
+
+def seed_build(root, source):
+    """Copy TruthCore's own `.lake/build` from a quiescent warm clone; never verify anything.
+
+    Lake keys every module's trace on its source, imports, options and toolchain, so the next
+    `lake build` replays only unchanged modules and rebuilds every stale one and its dependents.
+    Lake does not rehash replayed outputs, so seed only from a clone this machine's workers own.
+    The copy is a plain or reflinked copy, never hardlinks: a rebuild in one clone must not
+    rewrite the other's outputs in place.
+    """
+    source = worker_clone(source)
+    if source == root:
+        raise ValueError("--seed-build-from must name a different clone")
+    for name in SEED_INPUTS:
+        if (source / name).read_bytes() != (root / name).read_bytes():
+            raise ValueError(f"--seed-build-from has a different {name}; its build output cannot be reused")
+    origin, target = source / ".lake/build", root / ".lake/build"
+    # resolve() also rejects a symlinked `.lake`, so the copy cannot come from outside a clone.
+    for clone, path in ((source, origin), (root, target.parent)):
+        if path.exists() and path.resolve() != path:
+            raise ValueError(f"refusing a symlinked build path in {clone}: {path}")
+    if not origin.is_dir():
+        raise ValueError(f"--seed-build-from has no real build output: {origin}")
+    if target.exists() or target.is_symlink():
+        print(f"unchanged: existing build output kept at {target}; Lake reconciles it", flush=True)
+        return
+    staging = root / ".lake/build.seeding"
+    if staging.exists() or staging.is_symlink():
+        raise ValueError(f"leftover seeding directory; inspect and remove it: {staging}")
+    revision = run(source, "git", "rev-parse", "HEAD", capture=True).strip()
+    before = build_fingerprint(origin)
+    target.parent.mkdir(exist_ok=True)
+    try:
+        run(root, "cp", "-a", "--reflink=auto", "--", str(origin), str(staging))
+        if build_fingerprint(origin) != before:
+            raise ValueError("--seed-build-from build output changed during the copy; stop its writer first")
+        if build_fingerprint(staging) != before:
+            raise ValueError("seeded build output does not match its source")
+    except BaseException:
+        shutil.rmtree(staging, ignore_errors=True)
+        raise
+    staging.rename(target)
+    print(f"changed: build output seeded from {source} at {revision}; "
+          "the next lake build rebuilds every module whose inputs differ", flush=True)
+
+
+def prepare(root, seed_from=None):
     for tool in ("git", "lean", "lake", "cargo", "rustc", "go", "bun"):
         if shutil.which(tool) is None:
             raise ValueError(f"missing required build tool: {tool}")
@@ -183,6 +246,8 @@ def prepare(root):
     check_packages(root, acquiring=True)
     run(root, "lake", "exe", "cache", "get")
     check_packages(root)
+    if seed_from is not None:
+        seed_build(root, seed_from)
     prepare_verifier(root)
     prepare_bun(root)
     print("ready: dependencies prepared; source/Lean/Comparator verification still required", flush=True)
@@ -191,11 +256,14 @@ def prepare(root):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--clone", required=True, help="explicit standalone clone whose install directories are disposable")
+    parser.add_argument("--seed-build-from", metavar="WARM_CLONE",
+                        help="quiescent standalone clone with the same toolchain, manifest and lakefile "
+                             "whose TruthCore build output seeds this clone's absent .lake/build")
     args = parser.parse_args()
     started = time.monotonic()
     print(f"started_utc={datetime.now(timezone.utc).isoformat()}", flush=True)
     try:
-        prepare(worker_clone(args.clone))
+        prepare(worker_clone(args.clone), args.seed_build_from)
     except (ValueError, OSError, subprocess.SubprocessError) as error:
         print(f"preparation failed: {error}", file=sys.stderr)
         return 1

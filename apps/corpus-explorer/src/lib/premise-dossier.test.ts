@@ -1,6 +1,6 @@
 import { describe, expect, test } from "bun:test";
 
-import { getDossiers, parseDossiers, type PremiseDossier } from "./premise-dossier";
+import { getAttempts, getDossiers, parseDossiers, type PremiseDossier } from "./premise-dossier";
 
 function example(): PremiseDossier {
   return {
@@ -28,11 +28,14 @@ describe("dossier transport", () => {
   });
   test("real corpus projection includes durable attempts and exact route membership", () => {
     const dossiers = getDossiers();
+    const attempts = getAttempts();
     const p = dossiers["STMT-ACT-SIMPLY-PRIOR-TO-POTENCY"];
     expect(p?.attempts.some((entry) => entry.id === "ATTEMPT-ACT-POTENCY-INDEPENDENCE")).toBe(true);
     expect(p?.model_evaluations.some((model) => model.model_id === "MODEL-ACT-POTENCY-M3" && model.value === "violates")).toBe(true);
     expect(p?.established).toBe(false);
     expect(p?.route_contributions.some((entry) => entry.open_leaf)).toBe(true);
     expect(dossiers["STMT-NOTHING-ELSE-REACHES-THE-PRIMARY"]?.attempts.find((entry) => entry.id === "ATTEMPT-STRICT-PRIMACY-READING")?.outcome).toBe("failed");
+    expect(Object.keys(attempts).sort()).toEqual([...new Set(Object.values(dossiers).flatMap((entry) => entry.attempts.map((attempt) => attempt.id)))].sort());
+    expect(attempts["ATTEMPT-ACT-POTENCY-INDEPENDENCE"]?.statement_ids).toContain("STMT-ACT-SIMPLY-PRIOR-TO-POTENCY");
   }, 90_000);
 });

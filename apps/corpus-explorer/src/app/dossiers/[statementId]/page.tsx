@@ -1,9 +1,11 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
-import { TermsSection } from "@/components/terms-section";
-import { findStatement, getCorpus } from "@/lib/corpus";
+import { findStatement, getCorpus, termsFor } from "@/lib/corpus";
 import { getDossiers } from "@/lib/premise-dossier";
+
+import { DossierAttemptIndex } from "./dossier-attempt-index";
+import { DossierTermIndex } from "./dossier-term-index";
 
 export function generateStaticParams() {
   return Object.keys(getDossiers()).map((statementId) => ({ statementId }));
@@ -23,12 +25,6 @@ export default async function DossierPage({ params }: { params: Promise<{ statem
   const claims = corpus.claims.filter((entry) => dossier.claim_ids.includes(entry.id) || dossier.supporting_claim_ids.includes(entry.id));
   const arguments_ = corpus.arguments.filter((entry) => dossier.argument_ids.includes(entry.id));
   const relations = corpus.relations.filter((entry) => dossier.alternative_relation_ids.includes(entry.id) || dossier.objection_relation_ids.includes(entry.id));
-  const evidenceHref = (id: string) => {
-    if (/^PR-[1-9][0-9]*$/.test(id)) {
-      return `https://github.com/moritzbrantner/truth-core/pull/${id.slice(3)}`;
-    }
-    return corpus.results.some((entry) => entry.id === id) ? `/results/${id}` : `/claims/${id}`;
-  };
   const status = dossier.closure ?? (dossier.frontier ? `open · ${dossier.frontier.depth}` : "not on the frontier");
   return (
     <article className="max-w-5xl [overflow-wrap:anywhere]">
@@ -50,7 +46,7 @@ export default async function DossierPage({ params }: { params: Promise<{ statem
           <p className="mt-2 text-sm leading-6">{claim.interpretation}</p>
         </li>)}</ul> : <p className="mt-3">No source reading states or supports this proposition.</p>}
       </section>
-      <TermsSection corpus={corpus} records={[{ definition_ids: dossier.definition_ids, disambiguation_ids: dossier.disambiguation_ids }]} />
+      <DossierTermIndex terms={termsFor(corpus, [{ definition_ids: dossier.definition_ids, disambiguation_ids: dossier.disambiguation_ids }])} />
       <section className="record-section" aria-labelledby="dossier-rivals">
         <h2 id="dossier-rivals" className="eyebrow">Alternatives and objections</h2>
         {relations.length ? <ul className="mt-4 grid gap-3">{relations.map((relation) => {
@@ -118,17 +114,7 @@ export default async function DossierPage({ params }: { params: Promise<{ statem
           </tr>)}</tbody>
         </table></div>
       </section>
-      <section className="record-section" aria-labelledby="dossier-attempts">
-        <h2 id="dossier-attempts" className="eyebrow">Attempt log</h2>
-        {dossier.attempts.length ? <ol className="mt-4 grid gap-5">{dossier.attempts.map((attempt) => <li id={attempt.id} key={attempt.id}>
-          <p className="text-sm">{attempt.date} · {attempt.kind} · {attempt.outcome}</p>
-          <p className="mt-1 font-mono text-xs break-all">{attempt.id}</p>
-          <p className="mt-2 leading-7">{attempt.summary}</p>
-          {attempt.blocker ? <p className="mt-2 text-sm"><strong>Remaining blocker:</strong> {attempt.blocker}</p> : null}
-          <ul className="mt-2 flex flex-wrap gap-x-4 gap-y-2">{attempt.evidence.map((id) => <li key={id}><Link className="link-quiet font-mono text-xs" href={evidenceHref(id)}>{id}</Link></li>)}</ul>
-          {!attempt.evidence.length ? <p className="mt-2 text-sm text-[var(--muted)]">No evidence reference recorded.</p> : null}
-        </li>)}</ol> : <p className="mt-3">No attempt is recorded for this proposition.</p>}
-      </section>
+      <DossierAttemptIndex attempts={dossier.attempts} />
     </article>
   );
 }

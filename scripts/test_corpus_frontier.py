@@ -1072,5 +1072,63 @@ class FrontierCorpusTest(unittest.TestCase):
         self.assertEqual(self.run_frontier(), self.run_frontier())
 
 
+class FrontierDiffTest(unittest.TestCase):
+    """`frontier-diff` (#948): the computed premise delta between two corpora."""
+
+    def reaching(self, results, claims=None, arguments=ARGUMENTS):
+        return corpus.restrict_to_root(
+            corpus.frontier_report(STATEMENTS + [statement("NEW")], arguments, results, [], root="ROOT", claims=claims)
+        )
+
+    def test_identical_reports_have_no_change(self) -> None:
+        delta = corpus.frontier_delta(self.reaching(RESULTS), self.reaching(RESULTS))
+        self.assertFalse(delta["changed"])
+        self.assertEqual(delta["added"], {})
+        self.assertEqual(delta["route_changes"], [])
+        delta.update(base="BASE", head="HEAD")
+        self.assertIn("no change", corpus.format_frontier_delta(delta))
+
+    def test_reports_added_removed_and_moved_premises_and_route_costs(self) -> None:
+        # Base: ARG-MID unverified, so the route keeps MID as one open leaf.
+        base = self.reaching([{"id": "ARG-ROOT", "argument_id": "ARG-ROOT"}])
+        # Head: ARG-MID verified (MID closed, the route opens OPEN-A instead),
+        # OPEN-B gains a stating claim (bare -> sourced), and an unverified
+        # second route adds the premise NEW.
+        head = self.reaching(
+            RESULTS,
+            claims=[{"id": "CLAIM-B", "statement_id": "OPEN-B"}],
+            arguments=ARGUMENTS + [argument("ARG-NEW", ["NEW"], "ROOT")],
+        )
+        delta = corpus.frontier_delta(base, head)
+        self.assertTrue(delta["changed"])
+        self.assertEqual(delta["added"], {"bare": ["NEW"]})
+        self.assertEqual(delta["removed"], {})
+        self.assertEqual(delta["moved"], {"bare -> closed": ["MID"], "bare -> sourced": ["OPEN-B"]})
+        self.assertEqual(delta["base_counts"], {"open": 3, "bare": 3, "sourced": 0})
+        self.assertEqual(delta["head_counts"], {"open": 3, "bare": 2, "sourced": 1})
+        changes = {change["argument_id"]: change for change in delta["route_changes"]}
+        self.assertEqual(sorted(changes), ["ARG-NEW", "ARG-ROOT"])
+        self.assertEqual((changes["ARG-ROOT"]["base_cost"], changes["ARG-ROOT"]["head_cost"]), (2, 2))
+        self.assertEqual(changes["ARG-ROOT"]["opened_premise_statement_ids"], ["OPEN-A"])
+        self.assertEqual(changes["ARG-ROOT"]["closed_premise_statement_ids"], ["MID"])
+        self.assertEqual((changes["ARG-NEW"]["base_cost"], changes["ARG-NEW"]["head_cost"]), (None, 1))
+        delta.update(base="BASE", head="HEAD")
+        text = corpus.format_frontier_delta(delta)
+        self.assertIn("added (bare): 1\n  NEW", text)
+        self.assertIn("moved (bare -> closed): 1\n  MID", text)
+        self.assertIn("  ARG-NEW: absent -> 1 (unverified)\n", text)
+        self.assertIn("  ARG-ROOT: 2 -> 2\n    + OPEN-A\n    - MID", text)
+        reverse = corpus.frontier_delta(head, base)
+        self.assertEqual(reverse["removed"], {"bare": ["NEW"]})
+        self.assertEqual(reverse["moved"], {"closed -> bare": ["MID"], "sourced -> bare": ["OPEN-B"]})
+
+    def test_base_without_routes_is_tolerated(self) -> None:
+        base = self.reaching(RESULTS)
+        del base["routes"]
+        delta = corpus.frontier_delta(base, self.reaching(RESULTS))
+        self.assertEqual(delta["base_cheapest_route"], {"argument_id": None, "cost": None})
+        self.assertEqual([change["base_cost"] for change in delta["route_changes"]], [None])
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -1,0 +1,19 @@
+{
+  "id": "COMPLETE-RESPONSE-PARITY",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-COMPLETE-RESPONSE-PARITY",
+  "inference_ids": ["INF-COMPLETE-RESPONSE-PARITY"],
+  "meaning": "Constructively compare the original #744 single control, a strengthened one-source control with all records scenario-sufficient, and the existing #735 plural exercise. The two strengthened models exhibit matching public input/target response and complete record sufficiency but different source counts. The result is semantic parity under a selected observation interface, not productive explanatory equivalence.",
+  "definition_ids": [
+    "DEF-COMPLETE-RESPONSE-PARITY",
+    "DEF-JOINT-SCENARIO-SUFFICIENCY",
+    "DEF-JOINT-COOPERATION-BRANCHES",
+    "DEF-DERIVATIVE-JOINT-SUPPLY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-JOINT-COOPERATION-NECESSITY",
+    "DISAMB-JOINT-SUPPLY-POWER-OCCURRENCE",
+    "DISAMB-JOINT-CAUSAL-MEMBERSHIP-EXERCISE",
+    "DISAMB-ULTIMATE-ADEQUACY-FOUNDATION"
+  ]
+}

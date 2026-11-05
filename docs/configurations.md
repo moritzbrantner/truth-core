@@ -40,6 +40,10 @@ A case has these fields:
   changed role types and arbitrary proof-carrying contexts are rejected.
   Parameters use a small names/application/arrows grammar, with no Lean commands
   or tactic bodies. The two carrier types currently have universe zero.
+  Later profiles add carrier-valued relations and two audited data-only
+  structures over declared carriers (`DATA_STRUCTURES` in
+  `scripts/configurations.py`: `ExistencePSR.Model` and Kant's `Ontic`, whose
+  fields are a frame and relations, never proofs).
 - Optional `constants` fix role names to closed Lean terms (for example
   `{"W": "Nat", "I": "Bool"}`); only literal `Bool`/`Nat` carrier constants are
   supported in this slice, so a fixed proposition cannot turn `w` into a hidden
@@ -132,6 +136,24 @@ Necessary exemplification with individual contingency is **unresolved by the
 available certified artifacts** in that profile. This is an inventory boundary,
 not a claim of logical undecidability, impossibility or metaphysical uncertainty.
 No temporal Third Way reading is equated with Kripke accessibility.
+
+## Modal grounding union (#542)
+
+`CONFIG-MODAL-GROUNDING-UNION` registers the #542 elimination rule over one
+shared `Ontic` structure, support relation and evaluation world. Its live
+implication rules are the existing results `NECESSARY-UNDERIVED-POSITIVE-UNION`
+(necessary bearer, actual reflexivity, no contingent ground of a necessary
+bearer, well-founded cross-world necessary-support union and explicit excluded
+middle yield a necessarily underived bearer),
+`NECESSARY-SUPPORT-UNION-WF-FROM-ACTUAL`, `NECESSARY-PREDECESSOR-LIFT-FROM-BRIDGES`
+and the two lifting results. The five registered `NECESSARILY-UNDERIVED-ESSE-SUPPORT`
+models are the controls: the rotating cross-world cycle witnesses the route with
+union well-foundedness replaced by actual well-foundedness, the switching model
+the route without the no-contingent-ground premise, and the varying model a
+union-route instance without edge invariance; the model records carry their
+violated conclusions. `PARITY-UNION-REGRESS` (a `Nat` carrier) and the classical
+`FINITE-NECESSARY-UNION-CLASSIFICATION` stay certified results outside this
+zero-axiom finite-model profile. No premise is established.
 
 The first slice supplies live CLI status, persistent settings, certified cores
 with removal witnesses, registered controls, conservative unresolved reporting,

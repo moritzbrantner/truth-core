@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import io
 import json
 import re
 import sys
@@ -2235,7 +2236,8 @@ def command_next(_: argparse.Namespace) -> int:
     return 0
 
 
-def command_frontier(args: argparse.Namespace) -> int:
+def current_frontier(root: str | None, reaching_root: bool) -> dict[str, Any]:
+    """The frontier report of the working tree, as `frontier` prints it."""
     validate()
     statements = [record for _, record in load_dir("statements")]
     arguments = [record for _, record in load_dir("arguments")]
@@ -2247,26 +2249,35 @@ def command_frontier(args: argparse.Namespace) -> int:
         arguments,
         results,
         relations,
-        root=args.root,
+        root=root,
         transcription=transcription_flags(results, arguments, statements),
         claims=claims,
         inferences=[record for _, record in load_dir("inferences")],
     )
-    if args.reaching_root:
-        report["items"] = [item for item in report["items"] if item["path_to_root"] is not None]
-        report["open_premise_count"] = len(report["items"])
-        report["depth_counts"] = depth_counts(report["items"])
-        on_path = {
-            argument_id
-            for item in report["items"]
-            for argument_id in item["transitive_dependent_arguments"]
-        }
-        report["transcription_flags"] = [
-            flag for flag in report["transcription_flags"] if flag["argument_id"] in on_path
-        ]
-        report["closed_via_transcription"] = [
-            closure for closure in report["closed_via_transcription"] if closure["path_to_root"] is not None
-        ]
+    return restrict_to_root(report) if reaching_root else report
+
+
+def restrict_to_root(report: dict[str, Any]) -> dict[str, Any]:
+    """`frontier --reaching-root`: keep only open premises from which the root is reached."""
+    report["items"] = [item for item in report["items"] if item["path_to_root"] is not None]
+    report["open_premise_count"] = len(report["items"])
+    report["depth_counts"] = depth_counts(report["items"])
+    on_path = {
+        argument_id
+        for item in report["items"]
+        for argument_id in item["transitive_dependent_arguments"]
+    }
+    report["transcription_flags"] = [
+        flag for flag in report["transcription_flags"] if flag["argument_id"] in on_path
+    ]
+    report["closed_via_transcription"] = [
+        closure for closure in report["closed_via_transcription"] if closure["path_to_root"] is not None
+    ]
+    return report
+
+
+def command_frontier(args: argparse.Namespace) -> int:
+    report = current_frontier(args.root, args.reaching_root)
     if args.routes:
         if args.json:
             print(json.dumps(report["routes"], indent=2, ensure_ascii=False))
@@ -2277,6 +2288,169 @@ def command_frontier(args: argparse.Namespace) -> int:
         print(json.dumps(report, indent=2, ensure_ascii=False))
     else:
         print(format_frontier(report))
+    return 0
+
+
+FRONTIER_CLOSED = "closed"
+FRONTIER_ABSENT = "absent"
+
+
+def revision_frontier(revision: str, root: str | None) -> dict[str, Any]:
+    """The reaching-root frontier report at a Git revision, computed by that
+    revision's own corpus.py on a `git archive` extract (no Lean build: the
+    frontier reads only corpus records and Lean source text)."""
+    import subprocess
+    import tarfile
+    import tempfile
+
+    try:
+        archive = subprocess.run(
+            ["git", "-C", str(ROOT), "archive", "--format=tar", revision],
+            check=True, capture_output=True,
+        ).stdout
+    except subprocess.CalledProcessError as error:
+        raise CorpusError(f"cannot archive revision {revision}: {error.stderr.decode().strip()}") from error
+    with tempfile.TemporaryDirectory(prefix="frontier-diff-") as directory:
+        with tarfile.open(fileobj=io.BytesIO(archive)) as tar:
+            tar.extractall(directory, filter="data")
+        command = [sys.executable, str(Path(directory) / "scripts" / "corpus.py"), "frontier",
+                   "--reaching-root", "--json"]
+        if root is not None:
+            command += ["--root", root]
+        completed = subprocess.run(command, cwd=directory, capture_output=True, text=True)
+    if completed.returncode != 0:
+        raise CorpusError(f"frontier at {revision} failed: {completed.stderr.strip()}")
+    return json.loads(completed.stdout)
+
+
+def frontier_status(report: dict[str, Any], statement_id: str) -> str:
+    """bare, sourced (undefended), closed, or absent from the reaching-root frontier."""
+    for item in report["items"]:
+        if item["statement_id"] == statement_id:
+            return item["depth"]
+    if statement_id in report.get("closed_statements", ()) or statement_id in report.get(
+        "established_statements", ()
+    ):
+        return FRONTIER_CLOSED
+    return FRONTIER_ABSENT
+
+
+def frontier_delta(base: dict[str, Any], head: dict[str, Any]) -> dict[str, Any]:
+    """Change between two reaching-root frontier reports (#948): open premises
+    added (absent before), removed (absent after), and moved between bare,
+    sourced-undefended and closed; and per-route open-premise costs. A report
+    from a revision older than the route costs (#391) has no routes."""
+    no_routes = {"cheapest_argument_id": None, "routes": []}
+    base = {**base, "routes": base.get("routes") or no_routes}
+    head = {**head, "routes": head.get("routes") or no_routes}
+    open_ids = sorted({item["statement_id"] for report in (base, head) for item in report["items"]})
+    added: dict[str, list[str]] = {}
+    removed: dict[str, list[str]] = {}
+    moved: dict[str, list[str]] = {}
+    for statement_id in open_ids:
+        before, after = frontier_status(base, statement_id), frontier_status(head, statement_id)
+        if before == after:
+            continue
+        if before == FRONTIER_ABSENT:
+            added.setdefault(after, []).append(statement_id)
+        elif after == FRONTIER_ABSENT:
+            removed.setdefault(before, []).append(statement_id)
+        else:
+            moved.setdefault(f"{before} -> {after}", []).append(statement_id)
+    base_routes = {entry["argument_id"]: entry for entry in base["routes"]["routes"]}
+    head_routes = {entry["argument_id"]: entry for entry in head["routes"]["routes"]}
+    route_changes: list[dict[str, Any]] = []
+    for argument_id in sorted(set(base_routes) | set(head_routes)):
+        before_route, after_route = base_routes.get(argument_id), head_routes.get(argument_id)
+        before_cost = before_route["cost"] if before_route else None
+        after_cost = after_route["cost"] if after_route else None
+        before_verified = bool(before_route and before_route["verified"])
+        after_verified = bool(after_route and after_route["verified"])
+        before_open = set(before_route["open_premise_statement_ids"]) if before_route else set()
+        after_open = set(after_route["open_premise_statement_ids"]) if after_route else set()
+        if (before_cost, before_verified, before_open) == (after_cost, after_verified, after_open):
+            continue
+        route_changes.append({
+            "argument_id": argument_id,
+            "base_cost": before_cost,
+            "head_cost": after_cost,
+            "base_verified": before_verified,
+            "head_verified": after_verified,
+            "opened_premise_statement_ids": sorted(after_open - before_open),
+            "closed_premise_statement_ids": sorted(before_open - after_open),
+        })
+
+    def cheapest(report: dict[str, Any]) -> dict[str, Any]:
+        argument_id = report["routes"]["cheapest_argument_id"]
+        entry = next((e for e in report["routes"]["routes"] if e["argument_id"] == argument_id), None)
+        return {"argument_id": argument_id, "cost": entry["cost"] if entry else None}
+
+    delta = {
+        "root": head["root"],
+        "base_counts": {"open": len(base["items"]), **depth_counts(base["items"])},
+        "head_counts": {"open": len(head["items"]), **depth_counts(head["items"])},
+        "added": added,
+        "removed": removed,
+        "moved": dict(sorted(moved.items())),
+        "base_cheapest_route": cheapest(base),
+        "head_cheapest_route": cheapest(head),
+        "route_changes": route_changes,
+    }
+    delta["changed"] = bool(
+        added or removed or moved or route_changes
+        or delta["base_cheapest_route"] != delta["head_cheapest_route"]
+    )
+    return delta
+
+
+def format_frontier_delta(delta: dict[str, Any]) -> str:
+    def counts(c: dict[str, int]) -> str:
+        return f"{c['open']} ({c[FRONTIER_BARE]} bare, {c[FRONTIER_SOURCED]} sourced)"
+
+    def route(r: dict[str, Any]) -> str:
+        return f"{r['argument_id']} (cost {r['cost']})" if r["argument_id"] else "none"
+
+    lines = [
+        f"premise delta for {delta['root']}: {delta['base']} -> {delta['head']}",
+        f"open premises reaching the root: {counts(delta['base_counts'])} -> {counts(delta['head_counts'])}",
+        f"cheapest route: {route(delta['base_cheapest_route'])} -> {route(delta['head_cheapest_route'])}",
+    ]
+    if not delta["changed"]:
+        lines.append("no change")
+        return "\n".join(lines)
+    for label, groups in (("added", delta["added"]), ("removed", delta["removed"]), ("moved", delta["moved"])):
+        for status, statement_ids in sorted(groups.items()):
+            lines.append(f"{label} ({status}): {len(statement_ids)}")
+            lines.extend(f"  {statement_id}" for statement_id in statement_ids)
+    if delta["route_changes"]:
+        lines.append("route cost changes:")
+    for change in delta["route_changes"]:
+        def side(cost: int | None, verified: bool) -> str:
+            return "absent" if cost is None else f"{cost}{'' if verified else ' (unverified)'}"
+        lines.append(
+            f"  {change['argument_id']}: {side(change['base_cost'], change['base_verified'])}"
+            f" -> {side(change['head_cost'], change['head_verified'])}"
+        )
+        if change["base_cost"] is None or change["head_cost"] is None:
+            continue
+        if change["opened_premise_statement_ids"]:
+            lines.append(f"    + {', '.join(change['opened_premise_statement_ids'])}")
+        if change["closed_premise_statement_ids"]:
+            lines.append(f"    - {', '.join(change['closed_premise_statement_ids'])}")
+    return "\n".join(lines)
+
+
+def command_frontier_diff(args: argparse.Namespace) -> int:
+    """Computed premise delta between two revisions (#948); writes nothing."""
+    base = revision_frontier(args.base, args.root)
+    head = revision_frontier(args.head, args.root) if args.head else current_frontier(args.root, True)
+    delta = frontier_delta(base, head)
+    delta["base"] = args.base
+    delta["head"] = args.head or "working tree"
+    if args.json:
+        print(json.dumps(delta, indent=2, ensure_ascii=False))
+    else:
+        print(format_frontier_delta(delta))
     return 0
 
 
@@ -2346,7 +2520,10 @@ def command_related(args: argparse.Namespace) -> int:
 
 
 def command_dossier(args: argparse.Namespace) -> int:
-    validate()
+    # The explorer's --all export keeps full validation; a single-statement read skips it
+    # like `related` and `context` do (#958): run `corpus.py check` to validate.
+    if args.all:
+        validate()
     directories = ("statements", "claims", "definitions", "disambiguations", "inferences", "arguments", "results", "relations", "attempts", "models", "configurations")
     data = {name: [record for _, record in load_dir(name)] for name in directories}
     if not args.all and args.statement_id not in {entry["id"] for entry in data["statements"]}:
@@ -2355,14 +2532,120 @@ def command_dossier(args: argparse.Namespace) -> int:
                              root=args.root, transcription=transcription_flags(data["results"], data["arguments"], data["statements"]), claims=data["claims"])
     if not report["root_known"]:
         raise CorpusError(f"unknown root statement: {args.root}")
-    dossiers = dossier_index(data, report)
+    dossiers = dossier_index(data, report, only=None if args.all else {args.statement_id})
+    if args.issues_from:
+        from issue_acceptance import analyze_issues, issues_for_id, read_issue_snapshot
+        try:
+            issue_report = analyze_issues(read_issue_snapshot(Path(args.issues_from)), data,
+                                          report["closed_statements"], root=ROOT)
+        except (ValueError, OSError) as exc:
+            raise CorpusError(str(exc)) from exc
+        issues_by_number = {entry["number"]: entry for entry in issue_report["issues"]}
+        for statement_id, dossier in dossiers.items():
+            dossier["targeting_issues"] = [
+                {"number": number, "status": issues_by_number[number]["status"]}
+                for number in issues_for_id(issue_report, statement_id)
+            ]
     if args.all:
         print(json.dumps(dossiers, ensure_ascii=False))
         return 0
-    if args.statement_id not in dossiers:
-        raise CorpusError(f"unknown statement: {args.statement_id}")
     dossier = dossiers[args.statement_id]
-    print(json.dumps(dossier, indent=2, ensure_ascii=False) if args.json else format_dossier(dossier, data))
+    limit = None if args.limit <= 0 else args.limit
+    print(json.dumps(dossier, indent=2, ensure_ascii=False) if args.json else format_dossier(dossier, data, limit=limit))
+    return 0
+
+
+def command_context(args: argparse.Namespace) -> int:
+    """Derived argument context pack (docs/notes/argument-context.md): read-only; run `check` for validation."""
+    # Imported here so the explorer, which loads corpus.py, does not depend on this agent-only module.
+    from argument_context import context_pack, format_context, resolve_target
+    directories = ("statements", "claims", "definitions", "disambiguations", "inferences", "arguments", "results",
+                   "relations", "attempts", "models", "configurations", "candidates")
+    data = {name: [record for _, record in load_dir(name)] for name in directories}
+    arguments = {entry["id"]: entry for entry in data["arguments"]}
+    results = {entry["id"]: entry for entry in data["results"]}
+    argument_id, choices = resolve_target(args.target, arguments, results)
+    if argument_id is None:
+        if choices:
+            raise CorpusError(f"{args.target} is concluded by several arguments; choose one: " + ", ".join(choices))
+        raise CorpusError(f"unknown argument, result or concluded statement: {args.target}")
+    report = frontier_report(data["statements"], data["arguments"], data["results"], data["relations"],
+                             root=args.root, transcription=transcription_flags(data["results"], data["arguments"], data["statements"]),
+                             claims=data["claims"])
+    if not report["root_known"]:
+        raise CorpusError(f"unknown root statement: {args.root}")
+    related = []
+    if args.related:
+        import sqlite3
+        from research_index import cached_related
+        try:
+            related = cached_related(ROOT, arguments[argument_id]["conclusion_statement_id"], args.related)["matches"]
+        except (ValueError, OSError, sqlite3.Error) as exc:
+            print(f"context: related ranking unavailable: {exc}", file=sys.stderr)
+    proof_uses = None
+    if args.proof_use_json or args.proof_use:
+        selected = [result for result in data["results"] if result["argument_id"] == argument_id]
+        expected = [result["theorem"] for result in selected]
+        if args.proof_use_json:
+            raw = read_lean_reuse_json(Path(args.proof_use_json))
+        else:
+            raw = run_lean_reuse_tool(load_dir("results"), inspect=expected)
+        proof_uses = lean_reuse_usage_map(raw, expected)
+    pack = context_pack(ROOT, data, report, argument_id, related=related, proof_uses=proof_uses)
+    print(json.dumps(pack, indent=2, ensure_ascii=False) if args.json else format_context(pack, limit=args.limit))
+    return 0
+
+
+def command_bridge_experiments(args: argparse.Namespace) -> int:
+    """Read-only, profile-scoped cross-argument experiment discovery (#953)."""
+    from bridge_experiments import experiment_report, format_experiments
+
+    directories = ("statements", "arguments", "results", "relations", "claims", "inferences", "attempts")
+    data = {name: [record for _, record in load_dir(name)] for name in directories}
+    report = frontier_report(
+        data["statements"], data["arguments"], data["results"], data["relations"],
+        root=args.root,
+        transcription=transcription_flags(data["results"], data["arguments"], data["statements"]),
+        claims=data["claims"], inferences=data["inferences"],
+    )
+    if not report["root_known"]:
+        raise CorpusError(f"unknown root statement: {args.root}")
+    try:
+        experiments = experiment_report(ROOT, data, report, args.anchor, args.profile_module, limit=args.limit)
+    except ValueError as exc:
+        raise CorpusError(str(exc)) from exc
+    print(json.dumps(experiments, indent=2, ensure_ascii=False) if args.json else format_experiments(experiments))
+def command_issues(args: argparse.Namespace) -> int:
+    """Reconcile declared issue acceptance against this checkout; never mutate issues."""
+    from issue_acceptance import analyze_issues, issues_for_id, read_issue_snapshot
+
+    try:
+        issues = read_issue_snapshot(Path(args.from_file) if args.from_file else None)
+        names = ("statements", "claims", "arguments", "results", "relations", "configurations", "attempts")
+        data = {name: [record for _, record in load_dir(name)] for name in names}
+        frontier = frontier_report(
+            data["statements"], data["arguments"], data["results"], data["relations"],
+            transcription=transcription_flags(data["results"], data["arguments"], data["statements"]),
+            claims=data["claims"],
+        )
+        report = analyze_issues(issues, data, frontier["closed_statements"], root=ROOT)
+    except (ValueError, OSError) as exc:
+        raise CorpusError(str(exc)) from exc
+    if args.for_id:
+        matching = set(issues_for_id(report, args.for_id))
+        report = {**report, "issues": [entry for entry in report["issues"] if entry["number"] in matching],
+                  "selected_id": args.for_id}
+    if args.json:
+        print(json.dumps(report, indent=2, ensure_ascii=False, sort_keys=True))
+    else:
+        for entry in report["issues"]:
+            print(f"#{entry['number']} [{entry['status']}]: {entry['title']}")
+            for requirement in entry["requirements"]:
+                label = requirement["id"] + (f": {requirement['expected']}" if requirement["expected"] else "")
+                print(f"  {'ok' if requirement['met'] else 'missing'} {requirement['kind']}: {label} ({requirement['detail']})")
+            for error in entry["errors"]:
+                print(f"  malformed: {error}")
+        print("Summary: " + ", ".join(f"{key}={count}" for key, count in report["summary"].items()))
     return 0
 
 
@@ -2403,7 +2686,8 @@ def bind_tool_input(results: list[tuple[Path, dict[str, Any]]]) -> dict[str, lis
     return out
 
 
-def run_bind_tool(tool_input: dict[str, list[str]]) -> list[dict[str, Any]]:
+def run_bind_tool(tool_input: dict[str, list[str]], *, tool: Path = BIND_TOOL,
+                  command_name: str = "bind-check") -> list[dict[str, Any]]:
     """Run scripts/BindTypes.lean against the built library (needs `lake build`)."""
     import subprocess
     import tempfile
@@ -2413,27 +2697,27 @@ def run_bind_tool(tool_input: dict[str, list[str]]) -> list[dict[str, Any]]:
         input_path = handle.name
     try:
         completed = subprocess.run(
-            ["lake", "env", "lean", "--run", str(BIND_TOOL), input_path],
+            ["lake", "env", "lean", "--run", str(tool), input_path],
             cwd=ROOT,
             capture_output=True,
             text=True,
             check=False,
         )
     except FileNotFoundError as exc:
-        raise CorpusError("bind-check needs `lake` on PATH (run after `lake build`)") from exc
+        raise CorpusError(f"{command_name} needs `lake` on PATH (run after `lake build`)") from exc
     finally:
         Path(input_path).unlink(missing_ok=True)
     if completed.returncode != 0:
         raise CorpusError(
-            f"{BIND_TOOL.relative_to(ROOT)} failed (exit {completed.returncode}):\n"
+            f"{tool.relative_to(ROOT)} failed (exit {completed.returncode}):\n"
             f"{completed.stderr.strip() or completed.stdout.strip()}"
         )
     try:
         described = json.loads(completed.stdout)
     except json.JSONDecodeError as exc:
-        raise CorpusError(f"{BIND_TOOL.relative_to(ROOT)} printed invalid JSON: {exc}") from exc
+        raise CorpusError(f"{tool.relative_to(ROOT)} printed invalid JSON: {exc}") from exc
     if not isinstance(described, list):
-        raise CorpusError(f"{BIND_TOOL.relative_to(ROOT)} must print a JSON array")
+        raise CorpusError(f"{tool.relative_to(ROOT)} must print a JSON array")
     return described
 
 
@@ -3006,9 +3290,151 @@ def command_bind_check(args: argparse.Namespace) -> int:
     return 1 if report["summary"]["mismatch"] or report["stale_pins"] else 0
 
 
+# --- Lean proof-term theorem reuse (#959): review only; no generated authority ----
+
+LEAN_REUSE_TOOL = ROOT / "scripts" / "LeanReuse.lean"
+
+
+def read_lean_reuse_json(path: Path) -> list[dict[str, Any]]:
+    try:
+        rows = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        raise CorpusError(f"cannot read Lean reuse output {path}: {exc}") from exc
+    if not isinstance(rows, list):
+        raise CorpusError("Lean reuse output must be a JSON array")
+    return rows
+
+
+def lean_reuse_usage_map(rows: list[dict[str, Any]], expected: list[str]) -> dict[str, list[str]]:
+    """Validate the derived Lean export; never treat missing proofs as unused imports."""
+    expected_set = set(expected)
+    uses: dict[str, list[str]] = {}
+    for row in rows:
+        if not isinstance(row, dict) or not isinstance(row.get("theorem"), str):
+            raise CorpusError("Lean reuse output contains an invalid theorem entry")
+        theorem = row["theorem"]
+        if theorem not in expected_set:
+            continue  # A full-corpus fixture is valid for a single context target.
+        if theorem in uses:
+            raise CorpusError(f"duplicate Lean reuse entry for {theorem}")
+        if row.get("error"):
+            raise CorpusError(f"Lean reuse could not inspect {theorem}: {row['error']}")
+        names = row.get("proof_theorems")
+        if not isinstance(names, list) or any(not isinstance(n, str) for n in names):
+            raise CorpusError(f"Lean reuse entry for {theorem} needs proof_theorems: [strings]")
+        uses[theorem] = sorted(set(names) - {theorem})
+    missing = expected_set - uses.keys()
+    if missing:
+        raise CorpusError("Lean reuse did not inspect these theorems (built library may be stale): " + ", ".join(sorted(missing)))
+    return uses
+
+
+def run_lean_reuse_tool(results: list[tuple[Path, dict[str, Any]]],
+                        inspect: list[str] | None = None) -> list[dict[str, Any]]:
+    ordered = sorted((record for _, record in results), key=lambda record: record["id"])
+    inspected = set(inspect) if inspect is not None else {r["theorem"] for r in ordered}
+    tool_input = {
+        "modules": sorted({r["solution_module"] for r in ordered if r["theorem"] in inspected}),
+        "theorems": sorted({r["theorem"] for r in ordered}),
+        "inspect": sorted(inspected),
+    }
+    return run_bind_tool(tool_input, tool=LEAN_REUSE_TOOL, command_name="lean-reuse")
+
+
+def command_lean_reuse(args: argparse.Namespace) -> int:
+    """Read-only review; no corpus graph writes and no CI gate."""
+    from argument_context import lean_reuse_review
+    if not args.review:
+        raise CorpusError("lean-reuse is review-only; pass --review")
+    results = [record for _, record in load_dir("results")]
+    arguments = {r["id"]: r for _, r in load_dir("arguments")}
+    if args.usage_json:
+        rows = read_lean_reuse_json(Path(args.usage_json))
+    else:
+        rows = run_lean_reuse_tool(load_dir("results"))
+    uses = lean_reuse_usage_map(rows, [r["theorem"] for r in results])
+    report = lean_reuse_review(ROOT, results, arguments, uses)
+    if args.json:
+        print(json.dumps(report, ensure_ascii=False, indent=2))
+    else:
+        for entry in report["findings"]:
+            if entry["classification"] == "theorem-used, not in argument graph":
+                depth = entry["depth"] if entry["depth"] is not None else "no source import"
+                print(f"review: {entry['source_result_id']} uses {entry['result_id']} "
+                      f"({entry['theorem']}; {depth}; no matching argument premise)")
+        summary = report["summary"]
+        print("lean-reuse: " + ", ".join(f"{k}: {v}" for k, v in summary.items()))
+        print("All classifications: lean-reuse --review --json (advisory; no graph changes)")
+    return 0
+
+
 # --- unused-premises (#571): result proofs that ignore a listed premise ---------
 
 UNUSED_TOOL = ROOT / "scripts" / "UnusedPremises.lean"
+UNUSED_EXEMPTIONS = ROOT / "scripts" / "unused-premise-exemptions.json"
+
+
+def load_unused_exemptions(path: Path = UNUSED_EXEMPTIONS) -> dict[tuple[str, str], str]:
+    """Read the checked-in exemptions of `unused-premises --strict` (owner decision on #571).
+
+    The file is `{"exemptions": [{"result_id", "statement_ids", "reason"}, ...]}`.
+    Each entry exempts the listed premise statements of one result from the
+    strict gate, for the recorded reason (an intended full-theory bundle, or a
+    finding pending a weaker result). Returns `(result_id, statement_id) -> reason`.
+    """
+    if not path.exists():
+        return {}
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as exc:
+        raise CorpusError(f"{path.name}: invalid JSON: {exc}") from exc
+    entries = data.get("exemptions") if isinstance(data, dict) else None
+    if not isinstance(entries, list):
+        raise CorpusError(f"{path.name}: expected an object with an `exemptions` list")
+    exemptions: dict[tuple[str, str], str] = {}
+    for index, entry in enumerate(entries):
+        where = f"{path.name}: exemption {index}"
+        if not isinstance(entry, dict) or set(entry) != {"result_id", "statement_ids", "reason"}:
+            raise CorpusError(f"{where}: needs exactly `result_id`, `statement_ids` and `reason`")
+        result_id, statement_ids, reason = entry["result_id"], entry["statement_ids"], entry["reason"]
+        if not isinstance(result_id, str) or not result_id:
+            raise CorpusError(f"{where}: `result_id` must be a nonempty string")
+        if not isinstance(reason, str) or not reason.strip():
+            raise CorpusError(f"{where} ({result_id}): `reason` must be a nonempty string")
+        if (
+            not isinstance(statement_ids, list)
+            or not statement_ids
+            or not all(isinstance(item, str) and item for item in statement_ids)
+        ):
+            raise CorpusError(f"{where} ({result_id}): `statement_ids` must be a nonempty list of ids")
+        for statement_id in statement_ids:
+            if (result_id, statement_id) in exemptions:
+                raise CorpusError(f"{where}: {result_id} / {statement_id} is exempted twice")
+            exemptions[(result_id, statement_id)] = reason
+    return exemptions
+
+
+def apply_unused_exemptions(
+    report: dict[str, Any], exemptions: dict[tuple[str, str], str]
+) -> dict[str, Any]:
+    """Split findings into exempted and gating ones, and list stale exemptions.
+
+    A finding is exempted when its `(result_id, statement_id)` is listed. An
+    exemption is stale when its result was checked but has no such finding
+    (the premise is used now, or the result changed); a stale exemption fails
+    the strict gate like a finding, so the list cannot silently outlive its
+    reason. Exemptions of skipped or unknown results are stale as well.
+    """
+    found = {(finding["result_id"], finding["statement_id"]) for finding in report["findings"]}
+    gating = [finding for finding in report["findings"] if (finding["result_id"], finding["statement_id"]) not in exemptions]
+    exempted = [
+        dict(finding, exemption_reason=exemptions[(finding["result_id"], finding["statement_id"])])
+        for finding in report["findings"]
+        if (finding["result_id"], finding["statement_id"]) in exemptions
+    ]
+    stale = sorted(f"{result_id} / {statement_id}" for result_id, statement_id in exemptions if (result_id, statement_id) not in found)
+    summary = dict(report["summary"], exempted=len(exempted), gating=len(gating), stale_exemptions=len(stale))
+    return dict(report, summary=summary, findings=gating, exempted=exempted, stale_exemptions=stale)
 
 
 def run_unused_tool(tool_input: dict[str, list[str]]) -> list[dict[str, Any]]:
@@ -3118,6 +3544,9 @@ def command_unused_premises(args: argparse.Namespace) -> int:
     )
     root_open = {item["statement_id"] for item in frontier["items"] if item["path_to_root"] is not None}
     report = unused_premise_findings(bind_entries, usage_list, root_open)
+    report = apply_unused_exemptions(
+        report, load_unused_exemptions(Path(args.exemptions) if args.exemptions else UNUSED_EXEMPTIONS)
+    )
     if args.json:
         print(json.dumps(report, indent=2, ensure_ascii=False, sort_keys=True))
     else:
@@ -3125,14 +3554,19 @@ def command_unused_premises(args: argparse.Namespace) -> int:
             where = f" (conjunct {finding['conjunct'] + 1} of {finding['bundle']})" if "bundle" in finding else ""
             root = " [open, on root path]" if finding["open_on_root_path"] else ""
             print(f"unused: {finding['result_id']}: {finding['statement_id']} via {finding['hypothesis']}{where}{root}")
+        for finding in report["exempted"]:
+            print(f"exempted: {finding['result_id']}: {finding['statement_id']} ({finding['exemption_reason']})")
+        for key in report["stale_exemptions"]:
+            print(f"stale exemption: {key} has no unused-premise finding; remove it from {UNUSED_EXEMPTIONS.name}")
         for result_id in report["skipped"]:
             print(f"skipped: {result_id} (not bound by bind-check)")
         summary = report["summary"]
         print(
-            f"unused-premises: {summary['checked']} results checked, {summary['findings']} unused premise(s), "
+            f"unused-premises: {summary['checked']} results checked, {summary['gating']} unexempted and "
+            f"{summary['exempted']} exempted unused premise(s), {summary['stale_exemptions']} stale exemption(s), "
             f"{summary['skipped']} skipped"
         )
-    return 1 if args.strict and report["findings"] else 0
+    return 1 if args.strict and (report["findings"] or report["stale_exemptions"]) else 0
 
 
 def parser() -> argparse.ArgumentParser:
@@ -3201,6 +3635,15 @@ def parser() -> argparse.ArgumentParser:
         help="print the open-premise cost of each argument concluding the root, cheapest marked",
     )
     frontier.set_defaults(func=command_frontier)
+    frontier_diff = sub.add_parser(
+        "frontier-diff",
+        help="computed premise delta: reaching-root open premises and route costs, base vs head (#948)",
+    )
+    frontier_diff.add_argument("--base", required=True, help="base revision, e.g. HEAD^1 on a PR merge commit")
+    frontier_diff.add_argument("--head", help="head revision (default: the working tree)")
+    frontier_diff.add_argument("--root", default=DEFAULT_FRONTIER_ROOT)
+    frontier_diff.add_argument("--json", action="store_true", help="print the delta as JSON")
+    frontier_diff.set_defaults(func=command_frontier_diff)
     territory = sub.add_parser(
         "territory",
         help="emergent positions and territory matrix from certified cores, models and claims (no hand-authored worldviews)",
@@ -3218,9 +3661,38 @@ def parser() -> argparse.ArgumentParser:
     target = dossier.add_mutually_exclusive_group(required=True)
     target.add_argument("statement_id", nargs="?")
     target.add_argument("--all", action="store_true", help="emit all dossiers as one JSON object (for the explorer)")
-    dossier.add_argument("--json", action="store_true", help="print machine-readable JSON")
+    dossier.add_argument("--json", action="store_true", help="print machine-readable JSON (always complete)")
+    dossier.add_argument("--limit", type=int, default=8, help="entries shown per text section (0 = all)")
     dossier.add_argument("--root", default=DEFAULT_FRONTIER_ROOT)
+    dossier.add_argument("--issues-from", metavar="FILE", help="append issue targets from one offline gh JSON snapshot")
     dossier.set_defaults(func=command_dossier)
+    context = sub.add_parser("context", help="one bounded context pack for an argument: Lean type, reuse, premises, countermodels, open work")
+    context.add_argument("target", help="argument ID, result ID, or a statement concluded by exactly one argument")
+    context.add_argument("--json", action="store_true", help="print every entry untruncated")
+    context.add_argument("--limit", type=int, default=6, help="entries shown per list in text output")
+    context.add_argument("--related", type=int, default=8, help="related statements to the conclusion from the research index (0 = skip)")
+    context.add_argument("--root", default=DEFAULT_FRONTIER_ROOT)
+    context.add_argument("--proof-use", action="store_true", help="inspect proof-term references from cached Lean build (no rebuild)")
+    context.add_argument("--proof-use-json", help="use saved LeanReuse.lean output instead of running Lean")
+    context.set_defaults(func=command_context)
+    bridges = sub.add_parser("bridge-experiments", help="rank recorded cross-argument joins under one named Lean profile; discovery only")
+    bridges.add_argument("anchor", metavar="RESULT-ID", help="an existing result, not a new premise")
+    bridges.add_argument("--profile-module", required=True, metavar="LEAN-MODULE",
+                         help="exact common Lean profile import; a shared import is not semantic equivalence")
+    bridges.add_argument("--limit", type=int, default=5, help="maximum results shown (1-20; default 5)")
+    bridges.add_argument("--root", default=DEFAULT_FRONTIER_ROOT)
+    bridges.add_argument("--json", action="store_true", help="include complete argument premise bundles and negative-test protocols")
+    bridges.set_defaults(func=command_bridge_experiments)
+    issues = sub.add_parser("issues", help="read-only issue acceptance reconciliation against this checkout (#949)")
+    issues.add_argument("--from", dest="from_file", metavar="FILE", help="offline JSON from gh issue list --json")
+    issues.add_argument("--for", dest="for_id", metavar="CORPUS-ID", help="show issues targeting one result/statement/configuration/attempt")
+    issues.add_argument("--json", action="store_true", help="include requirements and a reverse index")
+    issues.set_defaults(func=command_issues)
+    reuse = sub.add_parser("lean-reuse", help="advisory theorem-use versus import/argument-graph review (after lake build)")
+    reuse.add_argument("--review", action="store_true", help="show theorem uses absent from the argument graph")
+    reuse.add_argument("--json", action="store_true", help="include all three classifications in deterministic JSON")
+    reuse.add_argument("--usage-json", help="use saved LeanReuse.lean output instead of running Lean")
+    reuse.set_defaults(func=command_lean_reuse)
     sub.add_parser("arguments", help="print argument IDs, one per line").set_defaults(
         func=command_ids("arguments")
     )
@@ -3239,7 +3711,11 @@ def parser() -> argparse.ArgumentParser:
         help="report result premises whose bound hypothesis the proof term never uses (after lake build)",
     )
     unused.add_argument("--json", action="store_true", help="print the deterministic report as JSON")
-    unused.add_argument("--strict", action="store_true", help="exit 1 when any unused premise is found")
+    unused.add_argument(
+        "--strict", action="store_true",
+        help="exit 1 on an unexempted unused premise or a stale exemption (CI gate)",
+    )
+    unused.add_argument("--exemptions", help="exemption file (default scripts/unused-premise-exemptions.json)")
     unused.add_argument("--root", default=DEFAULT_FRONTIER_ROOT, help="root for the on-root-path flag")
     unused.add_argument("--bind-json", help="use a saved `bind-check --json` report instead of running Lean")
     unused.add_argument("--usage-json", help="use a saved scripts/UnusedPremises.lean output instead of running Lean")

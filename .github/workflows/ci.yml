@@ -42,7 +42,7 @@ jobs:
           save: "true"
       # Offline PDF fixture tests always run, even when live source work is unaffected.
       - name: Install PDF source extraction
-        run: sudo apt-get update && sudo apt-get install -y poppler-utils
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils zstd
       - name: Validate corpus metadata and source bindings
         run: python3 scripts/corpus.py check
       - name: Check bounded migration coverage and review freshness
@@ -50,13 +50,33 @@ jobs:
       - name: Bind argument records to result theorem types
         if: needs.comparator-plan.outputs.lean == 'true'
         run: python3 scripts/corpus.py bind-check
+      # Exemptions (intended full-theory bundles, each with a reason) live in
+      # scripts/unused-premise-exemptions.json (owner decision on #571).
+      - name: Check that result proofs use every listed premise
+        if: needs.comparator-plan.outputs.lean == 'true'
+        run: python3 scripts/corpus.py unused-premises --strict
       - name: Test corpus tooling and media-span and web-snapshot evidence offline
         run: python3 -m unittest discover -s scripts -p 'test_*.py'
+      # On a PR, HEAD is the merge commit and HEAD^1 the base: the computed premise delta
+      # (#948) goes to the job summary, where the PR body links it instead of hand-writing it.
       - name: Report the premise frontier
-        run: python3 scripts/corpus.py frontier --reaching-root
-      # On a PR, refetch only the passages whose manifests the PR adds or changes (every
-      # passage when the verifier changed) and still validates every manifest offline. A live
-      # page that drifts then turns main and the nightly run red without blocking unrelated PRs.
+        env:
+          EVENT: ${{ github.event_name }}
+        run: |
+          python3 scripts/corpus.py frontier --reaching-root
+          if [[ "$EVENT" == pull_request ]] && git rev-parse --verify HEAD^1 >/dev/null 2>&1; then
+            {
+              echo "### Premise delta (\`corpus.py frontier-diff --base HEAD^1\`)"
+              echo '```text'
+              python3 scripts/corpus.py frontier-diff --base HEAD^1
+              echo '```'
+            } | tee -a "$GITHUB_STEP_SUMMARY"
+          fi
+      # On a PR, refetch only passages with changed manifests, including when the verifier
+      # also changes. Offline tests exercise verifier changes without making unrelated witness
+      # availability a merge gate. Main refetches everything but reports unchanged,
+      # transport-unreachable web snapshots explicitly as unverified; nightlies and
+      # manual runs keep strict full verification. Drift is always fatal.
       - name: Verify immutable primary-source witnesses
         if: needs.comparator-plan.outputs.source == 'true'
         env:
@@ -64,6 +84,8 @@ jobs:
         run: |
           if [[ "$EVENT" == pull_request ]] && git rev-parse --verify HEAD^1 >/dev/null 2>&1; then
             python3 scripts/source_evidence.py verify --base HEAD^1 --head HEAD
+          elif [[ "$EVENT" == push ]] && git rev-parse --verify HEAD^1 >/dev/null 2>&1; then
+            python3 scripts/source_evidence.py verify --defer-unavailable-unchanged HEAD^1
           else
             python3 scripts/source_evidence.py verify
           fi
@@ -82,6 +104,15 @@ jobs:
           python3 scripts/source_evidence.py materialize AQUINAS-ST-I-Q4-A2 --output /tmp/aquinas-st-i-q4-a2.txt
           python3 scripts/source_evidence.py materialize ARIST-MET-II-1 --output /tmp/aristotle-metaphysics-ii-1.txt
           python3 scripts/source_evidence.py materialize AQUINAS-ST-I-Q13-A8 --output /tmp/aquinas-st-i-q13-a8.txt
+      - name: Upload rejected source bytes for diagnosis
+        if: always() && needs.comparator-plan.outputs.source == 'true'
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        with:
+          name: source-drift-diagnostics-${{ github.run_attempt }}
+          path: .cache/truth-core/source-diagnostics
+          include-hidden-files: true
+          if-no-files-found: ignore
+          retention-days: 3
 
   corpus-explorer:
     needs: comparator-plan

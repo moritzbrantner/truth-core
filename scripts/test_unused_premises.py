@@ -85,6 +85,60 @@ class UnusedPremiseFindingsTest(unittest.TestCase):
         self.assertEqual(report["summary"]["checked"], 0)
 
 
+class UnusedPremiseExemptionsTest(unittest.TestCase):
+    def report(self) -> dict:
+        return corpus.unused_premise_findings(
+            [bound("R", [premise("P", 1), premise("Q", 2)])],
+            [usage("R", [hyp(1, False), hyp(2, False)])],
+        )
+
+    def load(self, data: object) -> dict:
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "exemptions.json"
+            path.write_text(json.dumps(data))
+            return corpus.load_unused_exemptions(path)
+
+    def test_exempted_finding_does_not_gate(self):
+        applied = corpus.apply_unused_exemptions(self.report(), {("R", "P"): "full-theory bundle"})
+        self.assertEqual([f["statement_id"] for f in applied["findings"]], ["Q"])
+        self.assertEqual(applied["exempted"][0]["exemption_reason"], "full-theory bundle")
+        self.assertEqual(applied["stale_exemptions"], [])
+        self.assertEqual(applied["summary"]["gating"], 1)
+        self.assertEqual(applied["summary"]["exempted"], 1)
+
+    def test_exemption_without_finding_is_stale(self):
+        applied = corpus.apply_unused_exemptions(
+            self.report(), {("R", "P"): "a", ("R", "Q"): "b", ("R", "Z"): "c", ("S", "P"): "d"}
+        )
+        self.assertEqual(applied["findings"], [])
+        self.assertEqual(applied["stale_exemptions"], ["R / Z", "S / P"])
+
+    def test_loader_maps_each_statement_to_its_reason(self):
+        loaded = self.load({"exemptions": [{"result_id": "R", "statement_ids": ["P", "Q"], "reason": "bundle"}]})
+        self.assertEqual(loaded, {("R", "P"): "bundle", ("R", "Q"): "bundle"})
+
+    def test_loader_rejects_missing_reason_duplicates_and_extra_keys(self):
+        for bad in (
+            {"exemptions": [{"result_id": "R", "statement_ids": ["P"], "reason": "  "}]},
+            {"exemptions": [{"result_id": "R", "statement_ids": ["P"]}]},
+            {"exemptions": [{"result_id": "R", "statement_ids": [], "reason": "x"}]},
+            {"exemptions": [{"result_id": "R", "statement_ids": ["P"], "reason": "x", "note": "y"}]},
+            {"exemptions": [
+                {"result_id": "R", "statement_ids": ["P"], "reason": "x"},
+                {"result_id": "R", "statement_ids": ["P"], "reason": "y"},
+            ]},
+            [],
+        ):
+            with self.subTest(bad=bad), self.assertRaises(corpus.CorpusError):
+                self.load(bad)
+
+    def test_checked_in_exemptions_are_well_formed(self):
+        exemptions = corpus.load_unused_exemptions()
+        result_ids = {record["id"] for _, record in corpus.load_dir("results")}
+        self.assertTrue(exemptions)
+        self.assertLessEqual({result_id for result_id, _ in exemptions}, result_ids)
+
+
 @unittest.skipUnless(shutil.which("lake"), "needs the Lean toolchain (lake)")
 class UnusedPremisesToolTest(unittest.TestCase):
     """Run scripts/UnusedPremises.lean on a small fixture that imports only Init."""

@@ -114,3 +114,12 @@ by dossiers, exact theorem inspection and established certification. The local
 skill `.agents/skills/proposition-reuse/SKILL.md` supplies the same entry point;
 it changes no global skill or agent configuration. No Git hook or proof gate is
 installed. Discovery is not run on every commit or every diagnostic request.
+
+For a more selective **cross-argument** investigation, `corpus.py
+bridge-experiments <RESULT-ID> --profile-module <LEAN-MODULE>` reads existing
+attempt blockers and exact direct Solution imports, preserving complete
+argument premise bundles in `--json`. It requires both result conclusions to
+be an explicit focus of the same attempt, excluding broad survey citations
+that do not describe the selected semantic question. This is a read-only
+research-priority aid, **not** an entailment or shared-witness proof; see the
+[#953 same-profile pilot and negative controls](cross-argument-experiments-953.md).

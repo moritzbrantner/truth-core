@@ -1,0 +1,10 @@
+{
+  "id": "MECHANISM-INTERVENTION-PARITY",
+  "argument_id": "MECHANISM-INTERVENTION-PARITY",
+  "challenge_module": "TruthCore.Results.Explanation.MechanismInterventionParity.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.MechanismInterventionParity.Solution",
+  "theorem": "TruthCore.Results.Explanation.MechanismInterventionParity.certificate",
+  "comparator_config": "results/MECHANISM-INTERVENTION-PARITY/comparator.json",
+  "status": "solution-present",
+  "description": "A conditional experiment on the #974 observation interface: a stipulated surgical change of either public contributor (with the other true) changes an active AND target, while an idle lookup with identical natural observations ignores both overrides. A one-slot pair-valued hidden state and two independently stored Boolean root-state slots are interventionally equivalent for all public overrides; a one-bit state cannot cover all four pairs. The preexisting #974 graph source-count fork remains. These results do not certify actual surgical accessibility, productive causation, ontic simplicity or unique ultimate explanation."
+}

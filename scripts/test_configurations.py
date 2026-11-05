@@ -196,6 +196,23 @@ class ConfigurationTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, 'proof-valued parameters'):
                 self.validate()
 
+    def test_kant_ontic_data_role_is_admitted_on_declared_carriers(self):
+        profile = self.case['semantics']
+        profile['parameters'].append({'name': 'm', 'type': 'TruthCore.German.Kant.CosmologicalInference.Ontic W I'})
+        profile['parameter_order'].append('m')
+        for mid, model in self.models.items():
+            model['bindings']['Ontic'] = 'Fixture.ontic'
+            self.case['model_bindings'][list(self.models).index(mid)]['parameters']['m'] = 'Ontic'
+        self.validate()
+        source = certificate_source(self.case, self.statements, self.results, self.arguments, self.models)
+        self.assertIn('def model_parameter_0_5 : TruthCore.German.Kant.CosmologicalInference.Ontic (Bool) (Bool) := Fixture.ontic', source)
+        for bad in ['TruthCore.German.Kant.CosmologicalInference.Ontic W Later',
+                    'TruthCore.German.Kant.CosmologicalInference.Ontic W',
+                    'TruthCore.German.Kant.CosmologicalInference.NecessaryBeing m w']:
+            profile['parameters'][-1]['type'] = bad
+            with self.assertRaisesRegex(ValueError, 'proof-valued parameters'):
+                self.validate()
+
     def test_false_conclusions_cannot_enter_implication_discovery(self):
         self.statements['False'] = {'id': 'False', 'lean_declaration': 'TruthCore.Logic.ConfigurationFalse'}
         self.case['semantics']['applications']['False'] = []

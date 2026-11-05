@@ -1,0 +1,11 @@
+{
+  "id": "DEF-UNITING-CAUSE",
+  "term": "uniting cause (causa adunans; Lean `Unites`)",
+  "definition": "`Unites c a b x`: c is a cause through which the diverse things a and b come together into the one thing x (q.3 a.7 co., third proof: per aliquam causam adunantem ipsa). The relation is not by definition efficient causing (`EfficientlyCausesIn`, DEF-EFFICIENT-CAUSING) or causing being (`CausesIn c x esse`, DEF-CAUSE-OF-PERFECTION); each passage is a separate premise (DISAMB-UNITING-CAUSE). It does not require c to be distinct from x, outside x, a nonpart, earlier in time, or actual at a world. Example: the agent who mixes elements into a mixed body. Excluded: a mere common location of a and b, or a set-theoretic union, which no reading here calls a cause.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q3-A7-DIVERSE-UNITED-BY-CAUSE"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7Uniting.DiverseUnitedOnlyThroughUnitingCauseReading",
+  "note": "Structural properties are not assumed: no transitivity, asymmetry or irreflexivity is built in. Distinctness of uniter and composite is derived only through UnitingCauseIsEfficientCauseReading and the secunda via's NothingIsEfficientCauseOfItselfReading. OPEN: real applicability, and whether mereological fusion, priority-monist wholes or composition as identity have a uniting cause in this sense (docs/notes/composition-causal-scope.md)."
+}

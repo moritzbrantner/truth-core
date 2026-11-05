@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MECHANISM-INTERVENTION-PARITY",
+  "term": "surgically set public contributors versus hidden-state packaging",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.MechanismInterventionParity.RespondsToEitherInput",
+  "definition": "Setting contains optional Boolean surgical overrides of two named public contributors. The background state is held fixed; overridden inputs feed the active target equation. RespondsToEitherInput reuses the Hume.Regularity Changes predicate to demand a change of target when each contributor is changed while the other is held true. Natural Agreement uses no overrides. OneState wraps a Boolean pair in one root-state slot; TwoState stores two Boolean slots.",
+  "note": "These are explicitly stipulated counterfactual operations, not observations, actual interventions on necessary beings, modal possibilities or a productive/metaphysical explanation. The #752 ProductivelyEssential test deletes intrinsic supply inputs and is a separate notion, already satisfied by both relevant roots; one slot containing a pair does not establish source simplicity. See docs/notes/joint-cooperation-744.md."
+}

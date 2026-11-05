@@ -14,6 +14,47 @@ For one owner-scoped thesis or argument (#565):
 
 Keep the readable case and rivals in its existing issue/note; keep proofs, sources, countermodels, and substantive attempts in their canonical records/dossiers. No parallel research registry. The [#565 pilot note](notes/argument-first-pilots-565.md) illustrates the method with #564 and #563.
 
+### Machine-checkable issue acceptance (#949)
+
+An issue can declare its completion evidence in **one** fenced block in its body
+or one designated comment. This is an optional reconciliation aid, not another
+corpus registry or a permission to close issues automatically:
+
+````markdown
+```truth-core-acceptance
+results: [RESULT-ID]
+theorems: [TruthCore.Namespace.theorem]
+statements: [STMT-ID: closed, STMT-OTHER: sourced]
+configurations: [CONFIG-ID]
+attempts: [ATTEMPT-ID]
+```
+````
+
+Each field is optional; at least one nonempty bracketed list is required. IDs
+are comma-separated and unquoted. `results` requires an existing
+`solution-present` result record. `theorems` requires a registered result's
+theorem and its corresponding source declaration in the checked-out revision.
+For statements, `closed` accepts any computed frontier closure, `proved`
+requires the non-transcription `proved` closure, and `sourced` requires an
+attributed source claim with a locator. Configuration and attempt IDs require
+records to exist; a failed attempt is **not** evidence of derivability.
+
+```bash
+python3 scripts/corpus.py issues                        # read-only gh issue list
+gh issue list --state open --limit 1000 --json number,title,body,url,comments > /tmp/truth-core-issues.json
+python3 scripts/corpus.py issues --from /tmp/truth-core-issues.json --json
+python3 scripts/corpus.py issues --from /tmp/truth-core-issues.json --for STMT-ID
+python3 scripts/corpus.py dossier STMT-ID --issues-from /tmp/truth-core-issues.json
+```
+
+The report distinguishes `delivered`, `missing`, `malformed` and `untracked`;
+its JSON includes a reverse index from canonical IDs to issue numbers. It is a
+read-only projection of the checked-out corpus and optional issue snapshot,
+not a live Lean/Comparator/source verification or proof of philosophical truth.
+Run it on `main` to reconcile the current main branch; a feature checkout
+reports that checkout's hypothetical state. Human/coordinator review decides
+whether an issue can actually close.
+
 ## Semantic grounding of metaphysical relations
 
 For newly introduced or substantially reinterpreted relations involving causation,

@@ -13,19 +13,25 @@ worker = importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(worker)
 
 
+def fixture_clone(root):
+    root.mkdir()
+    subprocess.run(["git", "init", "-q", str(root)], check=True)
+    subprocess.run(["git", "-C", str(root), "remote", "add", "origin",
+                    "https://github.com/moritzbrantner/truth-core.git"], check=True)
+    subprocess.run(["git", "-C", str(root), "-c", "user.name=Fixture", "-c", "user.email=fixture@example.invalid",
+                    "commit", "--allow-empty", "-qm", "fixture"], check=True)
+    for name in ("lean-toolchain", "lake-manifest.json", "lakefile.toml", "bun.lock", "scripts/bootstrap-verifier.sh"):
+        path = root / name
+        path.parent.mkdir(exist_ok=True)
+        path.touch()
+    return root
+
+
 class PreparationTests(unittest.TestCase):
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory()
         self.addCleanup(self.temp.cleanup)
-        self.root = Path(self.temp.name) / "clone"
-        self.root.mkdir()
-        subprocess.run(["git", "init", "-q", str(self.root)], check=True)
-        subprocess.run(["git", "-C", str(self.root), "remote", "add", "origin",
-                        "https://github.com/moritzbrantner/truth-core.git"], check=True)
-        for name in ("lean-toolchain", "lake-manifest.json", "bun.lock", "scripts/bootstrap-verifier.sh"):
-            path = self.root / name
-            path.parent.mkdir(exist_ok=True)
-            path.touch()
+        self.root = fixture_clone(Path(self.temp.name) / "clone")
         (self.root / "package.json").write_text(json.dumps({"workspaces": ["apps/*"]}))
         self.app = self.root / "apps/explorer"
         self.app.mkdir(parents=True)
@@ -156,6 +162,84 @@ class PreparationTests(unittest.TestCase):
         with patch.object(worker, "run", side_effect=["pinned\n", " M lakefile.lean\n"]):
             with self.assertRaisesRegex(ValueError, "modified pinned"):
                 worker.check_packages(self.root)
+
+
+class SeedBuildTests(unittest.TestCase):
+    def setUp(self):
+        self.temp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.temp.cleanup)
+        self.root = fixture_clone(Path(self.temp.name) / "clone")
+        self.warm = fixture_clone(Path(self.temp.name) / "warm")
+        self.olean = self.warm / ".lake/build/lib/lean/TruthCore/Leaf.olean"
+        self.olean.parent.mkdir(parents=True)
+        self.olean.write_bytes(b"olean")
+
+    def test_copies_absent_build_output_without_changing_the_source(self):
+        before = worker.build_fingerprint(self.warm / ".lake/build")
+        worker.seed_build(self.root, self.warm)
+        copy = self.root / ".lake/build/lib/lean/TruthCore/Leaf.olean"
+        self.assertEqual(copy.read_bytes(), b"olean")
+        self.assertNotEqual(copy.stat().st_ino, self.olean.stat().st_ino)
+        self.assertEqual(worker.build_fingerprint(self.warm / ".lake/build"), before)
+        self.assertEqual(worker.build_fingerprint(self.root / ".lake/build"), before)
+        self.assertFalse((self.root / ".lake/build.seeding").exists())
+
+    def test_existing_build_output_is_kept(self):
+        existing = self.root / ".lake/build/keep"
+        existing.parent.mkdir(parents=True)
+        existing.write_text("own")
+        worker.seed_build(self.root, self.warm)
+        self.assertEqual(existing.read_text(), "own")
+        self.assertFalse((self.root / ".lake/build/lib").exists())
+
+    def test_mismatched_build_inputs_refused(self):
+        for name in worker.SEED_INPUTS:
+            (self.warm / name).write_text("other")
+            with self.assertRaisesRegex(ValueError, f"different {name}"):
+                worker.seed_build(self.root, self.warm)
+            (self.warm / name).write_text("")
+        self.assertFalse((self.root / ".lake/build").exists())
+
+    def test_unsafe_sources_refused(self):
+        with self.assertRaisesRegex(ValueError, "different clone"):
+            worker.seed_build(self.root, self.root)
+        (self.olean.parent / "escape").symlink_to(self.root)
+        with self.assertRaisesRegex(ValueError, "symlink"):
+            worker.seed_build(self.root, self.warm)
+        (self.olean.parent / "escape").unlink()
+        external = self.root.parent / "external-cache"
+        (self.warm / ".lake").rename(external)
+        (self.warm / ".lake").symlink_to(external, target_is_directory=True)
+        with self.assertRaisesRegex(ValueError, "symlinked build path"):
+            worker.seed_build(self.root, self.warm)
+        (self.warm / ".lake").unlink()
+        (external).rename(self.warm / ".lake")
+        own = self.root.parent / "own-lake"
+        own.mkdir()
+        (self.root / ".lake").symlink_to(own, target_is_directory=True)
+        with self.assertRaisesRegex(ValueError, "symlinked build path"):
+            worker.seed_build(self.root, self.warm)
+        (self.root / ".lake").unlink()
+        alias = self.root.parent / "alias"
+        alias.symlink_to(self.warm, target_is_directory=True)
+        with self.assertRaises(ValueError):
+            worker.seed_build(self.root, alias)
+        self.assertFalse((self.root / ".lake/build").exists())
+
+    def test_source_written_during_copy_discards_the_copy(self):
+        original_run = worker.run
+
+        def concurrent_writer(root, *command, **kwargs):
+            result = original_run(root, *command, **kwargs)
+            if command[0] == "cp":
+                self.olean.write_bytes(b"rebuilt by another writer")
+            return result
+
+        with patch.object(worker, "run", side_effect=concurrent_writer):
+            with self.assertRaisesRegex(ValueError, "changed during the copy"):
+                worker.seed_build(self.root, self.warm)
+        self.assertFalse((self.root / ".lake/build").exists())
+        self.assertFalse((self.root / ".lake/build.seeding").exists())
 
 
 if __name__ == "__main__":

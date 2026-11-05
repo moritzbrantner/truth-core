@@ -29,6 +29,7 @@ import TruthCore.Models.PhysicsFirstMover
 import TruthCore.Models.PopulationClosureSeparation
 import TruthCore.Models.PrimaVia
 import TruthCore.Models.Q11
+import TruthCore.Models.QuartaViaCausalAscent
 import TruthCore.Models.QuartaViaDegreeFork
 import TruthCore.Models.QuartaViaMaximumControls
 import TruthCore.Models.RespectAlternatingMotionCycle

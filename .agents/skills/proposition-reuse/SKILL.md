@@ -12,6 +12,10 @@ python3 scripts/corpus.py related <STMT-ID> --limit 10
 python3 scripts/corpus.py dossier <STMT-ID>
 ```
 
+When the seed is an existing argument or result, first run
+`python3 scripts/corpus.py context <ARGUMENT-OR-RESULT-ID>` (add `--json` for every
+entry); then open dossiers only for the premises it reports open.
+
 The first command automatically refreshes its disposable SQLite lookup index.
 Use `--json` for complete machine-readable match evidence and attempt blockers.
 If no seed ID is known, start with

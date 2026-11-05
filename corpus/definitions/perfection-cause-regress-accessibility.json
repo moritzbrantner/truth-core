@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PERFECTION-CAUSE-REGRESS-ACCESSIBILITY",
+  "term": "no infinite regress of causes of a perfection, accessibility (well-foundedness) reading",
+  "definition": "`NoInfiniteRegressOfCausesOfAPerfectionReading CausesIn`: for every respect r, Lean core's `WellFounded` holds of `fun c x => c ≠ x ∧ CausesIn c x r`. Every being is accessible: each has a well-founded inductive certificate built from its distinct causes of r. This excludes infinite backward series and cycles of distinct causes of r, not self-causation, and bounds no finite depth.",
+  "basis": "stipulative",
+  "note": "The same accessibility reading the corpus gives the Second Way premise (DEF-REGRESS-ACCESSIBILITY-READING), applied to the cause-of-perfection relation DEF-CAUSE-OF-PERFECTION instead of per se efficient causes. It is not attributed to a source: In Metaph. II lect. 2 n. 11 and the secunda via support it only within one species of cause (relation REL-AQUINAS-ST-I-Q2-A3-SECUNDA-VIA-SUPPORTS-NO-INFINITE-REGRESS-OF-CAUSES-OF-A-PERFECTION). Sourcing it would need a text excluding mixed-species lines of causes of one perfection, and a species-of-cause parameter to state the scoped reading.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.InMetaphysicam.NoInfiniteRegressOfCausesOfAPerfectionReading"
+}

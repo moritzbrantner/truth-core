@@ -1,3 +1,5 @@
+module
+
 /-!
 A shared interface for the Forms readings of Phaedo 99d–102a, Parmenides
 128e–130e, Republic V 475e–480a / X 596a–598c and Timaeus 27d–29b / 51b–52d.
@@ -9,6 +11,8 @@ The predicates for explanation, independence and essential characterization are
 uninterpreted philosophical vocabulary. Satisfying them in a finite model tests
 formal compatibility only; it supplies no philosophical explanation.
 -/
+@[expose] public section
+
 namespace TruthCore.Greek.Plato.Forms
 
 universe u v
