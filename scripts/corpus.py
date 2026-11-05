@@ -212,10 +212,11 @@ STAGE_CONCLUSIONS = (
     (6, "STMT-CHRISTS-CHURCH-IS-THE-CATHOLIC-CHURCH"),
 )
 # Depth of an open premise (#143, 2026-10-24; three categories by owner
-# decision on #987, 2026-11-05): "stated" when a claim on a source passage
-# states it; otherwise "supported" when only `supports` relations point to it
-# (source evidence that bears on it without stating it; the relation's note
-# records the gap); otherwise "bare". Supported and stated premises are both
+# decision on #987, 2026-11-05): "stated" when a claim on a pinned source
+# passage states it; otherwise "supported" when only `supports` relations, or
+# only claims on a bibliographic span (cited by page, no pinned bytes; owner
+# decision 2026-11-05), point to it; otherwise "bare". A bibliographic-only
+# premise becomes stated once its witness is pinned. Supported and stated premises are both
 # undefended. A relocation counts as progress only if it adds no bare premise.
 FRONTIER_BARE = "bare"
 FRONTIER_SUPPORTED = "supported"
@@ -641,8 +642,9 @@ def frontier_report(
     fixpoint.
 
     Each open premise also gets a depth (#143, 2026-10-24; #987): "stated"
-    when a claim states it, otherwise "supported" when a `supports` relation
-    points to it, otherwise "bare". Each route also counts its open leaves by
+    when a claim on a pinned source states it, otherwise "supported" when a
+    `supports` relation or only bibliographic claims point to it, otherwise
+    "bare". Each route also counts its open leaves by
     the same depths (`depth_counts`)."""
     statement_by_id = {statement["id"]: statement for statement in statements}
     argument_by_id = {argument["id"]: argument for argument in arguments}
@@ -948,9 +950,12 @@ def frontier_report(
     }
 
     def source_depth(statement_id: str) -> str:
-        if stating_claims.get(statement_id):
+        stating = stating_claims.get(statement_id, set())
+        # Only a claim on a pinned source states a premise; a bibliographic
+        # citation alone supports it (owner decision 2026-11-05).
+        if stating - bibliographic_claims:
             return FRONTIER_STATED
-        if support.get(statement_id):
+        if stating or support.get(statement_id):
             return FRONTIER_SUPPORTED
         return FRONTIER_BARE
 
@@ -1215,16 +1220,19 @@ def statement_view(
 def item_depth(item: dict[str, Any]) -> str:
     """An open premise's depth (#987). A report from a revision before #987
     says "sourced" for both supported and stated premises; its
-    `stating_claims` tells them apart."""
+    `stating_claims` tells them apart; claims that are only bibliographic
+    (`bibliographic_claims`) support rather than state (2026-11-05)."""
     depth = item["depth"]
     if depth == FRONTIER_LEGACY_SOURCED:
-        return FRONTIER_STATED if item.get("stating_claims") else FRONTIER_SUPPORTED
+        pinned = set(item.get("stating_claims", ())) - set(item.get("bibliographic_claims", ()))
+        return FRONTIER_STATED if pinned else FRONTIER_SUPPORTED
     return depth
 
 
 def depth_counts(items: list[dict[str, Any]]) -> dict[str, int]:
-    """Open premises by depth: bare, supported (only a `supports` relation)
-    and stated (a claim states it); the last two are undefended (#987)."""
+    """Open premises by depth: bare, supported (only a `supports` relation or
+    a bibliographic claim) and stated (a claim on a pinned source states it);
+    the last two are undefended (#987)."""
     return {depth: sum(1 for item in items if item_depth(item) == depth) for depth in FRONTIER_DEPTHS}
 
 

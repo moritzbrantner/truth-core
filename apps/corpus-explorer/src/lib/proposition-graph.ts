@@ -149,8 +149,9 @@ export type GraphStatement = {
   /**
    * Depth of an open premise, as in `corpus.py frontier` (#143, 2026-10-24):
    * "bare" when no claim states it and no `supports` relation points to it,
-   * otherwise "supported" when only a `supports` relation points to it, and
-   * "stated" when a claim states it (#987). Absent off the frontier.
+   * otherwise "supported" when only a `supports` relation or a bibliographic
+   * claim points to it, and "stated" when a claim on a pinned source states it
+   * (#987). Absent off the frontier.
    */
   frontierDepth?: FrontierDepth;
   /**
