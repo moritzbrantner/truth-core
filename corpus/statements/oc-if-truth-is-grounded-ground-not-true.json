@@ -1,0 +1,7 @@
+{
+  "id": "STMT-OC-IF-TRUTH-IS-GROUNDED-GROUND-NOT-TRUE",
+  "paraphrase": "Über Gewißheit §205, conditional: if the true is what is grounded, then the ground is neither true nor false. Only the conditional is recorded; §205 does not assert its antecedent.",
+  "disambiguation_ids": [
+    "DISAMB-HINGE-STATUS"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "INF-WITTGENSTEIN-INTERPRETATION-REGRESS",
+  "input_statement_ids": [
+    "STMT-RULE-DETERMINED-ONLY-THROUGH-INTERPRETATION",
+    "STMT-NO-ENDLESS-INTERPRETATION-REGRESS"
+  ],
+  "output_statement_id": "STMT-NO-RULE-APPLICATION-DETERMINED",
+  "rule": "well-founded-induction",
+  "meaning": "By well-founded induction on 'is an interpretation of': a determined item would have a determined interpretation below it, which by the induction hypothesis is not determined.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "WITTGENSTEIN-OC-205-GROUND-NOT-TRUE",
+  "statement_id": "STMT-OC-IF-TRUTH-IS-GROUNDED-GROUND-NOT-TRUE",
+  "source_id": "WITTGENSTEIN-UEBER-GEWISSHEIT",
+  "locator": "§205, Wenn das Wahre das Begründete ist, dann ist der Grund nicht wahr, noch falsch",
+  "interpretation": "§205: 'Wenn das Wahre das Begründete ist, dann ist der Grund nicht wahr, noch falsch.' Recorded as a conditional only; whether Wittgenstein accepts the antecedent is the disputed question behind the 'neither true nor false' reading of hinges.",
+  "status": "formalized",
+  "attribution": "The passage states that if the true is what is grounded then the ground is neither true nor false, which is the premise."
+}

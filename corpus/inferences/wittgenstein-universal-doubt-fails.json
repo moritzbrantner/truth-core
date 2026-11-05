@@ -1,0 +1,11 @@
+{
+  "id": "INF-WITTGENSTEIN-UNIVERSAL-DOUBT-FAILS",
+  "input_statement_ids": [
+    "STMT-OC-DOUBT-RESTS-ON-EXEMPT-SENTENCES"
+  ],
+  "output_statement_id": "STMT-UNIVERSAL-DOUBT-FAILS",
+  "rule": "reductio",
+  "meaning": "Suppose something is doubted and everything is doubted. The doubt supplies, by the premise, an exempt sentence; universality makes it doubted. Contradiction.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

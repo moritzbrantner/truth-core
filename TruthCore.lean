@@ -53,6 +53,7 @@ import TruthCore.Imports.Results.Politics
 import TruthCore.Imports.Results.Science
 import TruthCore.Imports.Results.Space
 import TruthCore.Imports.Results.Spacetime
+import TruthCore.Imports.Results.Wittgenstein
 import TruthCore.Imports.Science
 import TruthCore.Imports.Space
 import TruthCore.Imports.Spacetime

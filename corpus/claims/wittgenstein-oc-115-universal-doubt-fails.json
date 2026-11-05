@@ -1,0 +1,12 @@
+{
+  "id": "WITTGENSTEIN-OC-115-UNIVERSAL-DOUBT-FAILS",
+  "statement_id": "STMT-UNIVERSAL-DOUBT-FAILS",
+  "source_id": "WITTGENSTEIN-UEBER-GEWISSHEIT",
+  "locator": "§115, Wer an allem zweifeln wollte, der würde auch nicht bis zum Zweifel kommen",
+  "interpretation": "§115: 'Wer an allem zweifeln wollte, der würde auch nicht bis zum Zweifel kommen. Das Spiel des Zweifelns selbst setzt schon die Gewißheit voraus.' Read as: the position of someone who doubts and doubts everything does not hold. The ground given, that the game of doubt presupposes certainty, is the §341 premise.",
+  "status": "formalized",
+  "attribution": "The passage states that whoever wanted to doubt everything would not get as far as doubting, which is the premise that universal doubt does not hold.",
+  "definition_ids": [
+    "DEF-DOUBTED-SENTENCE"
+  ]
+}

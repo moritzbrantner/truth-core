@@ -18,10 +18,14 @@ readings, and a view developed by followers is not attributed to him.
 | Early Phillips | WF-P1: praise of God "does not refer to some object called God" (1976), `SEP-RELIGIOUS-LANGUAGE` §4.1; the stronger thesis that "God" names no being is an unattributed reconstruction it supports | rival (the reconstruction) | `STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE`, `STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS`, `STMT-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD` (the nominal identification on every route) | recorded, not refuted |
 | Late Phillips, religious minimalism | WF-P2: reference and truth constituted inside the game; outside evidence admissible, `SEP-RELIGIOUS-LANGUAGE` §§4.1-4.2; `SEP-FIDEISM` §2.2.4 | rival off-route (face value theory); neutral to route leaves | `STMT-FACE-VALUE-THEORY-RELIGIOUS-LANGUAGE` (no route premise) | recorded |
 | Nielsen's critique | insulation of every form of life, `SEP-RELIGIOUS-LANGUAGE` §4.2 | objection to WF-N | attacks `STMT-WF-RELIGION-CUT-OFF-FROM-SHARED-REASON` | recorded; not a defeat (#1007: "not preferable" is not falsity) |
+| On Certainty: doubt rests on what stands fast | §§115, 341 (German, `WITTGENSTEIN-UEBER-GEWISSHEIT`) | support (against global doubt only) | the global sceptical rival of any observation floor item; no specific item (F3, F4) | `WITTGENSTEIN-UNIVERSAL-DOUBT-FAILS`, conditional on the stated §341 premise |
+| On Certainty: hinges stand fast but are not known | §151, §§204-205 (conditional), §§94-97; readings via `SEP-FIDEISM` §4 (Pritchard, Moyal-Sharrock, Read/Crary) | rival reading of the *basis* of F3/F4, conditional on their being hinges (a bridge no source gives) | 'established' for F3/F4 (observation basis) | recorded; floor-basis proposal for the owner below |
+| On Certainty: "there are physical objects" is nonsense | §§35-36 | rival to the statementhood of a candidate F2 phrased with "physical object" | candidate F2 ('something exists'), not approved | recorded |
+| PI: rule-following regress | §§198, 201-202; Kripke via `SEP-PRIVATE-LANGUAGE` §4 | neutral to the routes | none | `WITTGENSTEIN-INTERPRETATION-REGRESS` (regress plus three-way fork) |
+| PI: private-language argument | §§243, 258, 293, 304, 308; readings via `SEP-PRIVATE-LANGUAGE` §§1.1-1.2 | neutral to F5 as an occurrence premise; rival only to a private-introspection basis for it | candidate F5 (`STMT-COGITO-THOUGHT-OCCURS`) | recorded |
 | Lectures on religious belief (1938, student notes) | religious beliefs not hypotheses, `SEP-RELIGIOUS-LANGUAGE` §4.2 | rival in spirit to recognizability by signs; not attached to a leaf | none (the notes are not Wittgenstein's text; no claim attributes WF-N to him) | recorded as a reported reading |
 
-The Tractatus, the *Investigations* (rule-following, private language) and *On
-Certainty* follow in later PRs of #1010.
+The Tractatus and the Lecture on Ethics follow in a later PR of #1010.
 
 ## Wittgensteinian fideism
 
@@ -177,3 +181,140 @@ whole-worldview comparison, not falsity.
 
 No route cost changes: the leaves were already open, and none had a floor
 marking.
+
+## On Certainty
+
+The witness is the German text, public domain in the EU, pinned as the raw
+wikitext of one revision of the Ludwig Wittgenstein Project page. The Paul and
+Anscombe translation is in copyright and is not used.
+
+### Doubt rests on what stands fast (support, narrowly)
+
+§341: "unsre *Zweifel* beruhen darauf, daß gewisse Sätze vom Zweifel ausgenommen
+sind". §115: "Wer an allem zweifeln wollte, der würde auch nicht bis zum Zweifel
+kommen."
+
+`TruthCore.Results.Wittgenstein.DoubtPresupposesCertainty.universalDoubtFails`
+derives the failure of universal doubt from §341. The premise is needed.
+
+`anyGivenSentenceDoubtable` bounds what the result gives: §341 is consistent
+with doubting any one chosen sentence. So the result could serve, once §341 is
+established, against a *global* sceptical rival of an observation floor item. It supports no
+particular item. It does not establish 'something changes' (F3) or 'something
+is moved' (F4). It does not touch Pyrrhonian suspension, which neither
+asserts nor doubts in this sense.
+
+### What the hinges are: the reading that decides "established"
+
+Four senses are recorded in `DISAMB-HINGE-STATUS`:
+
+1. **Known truth** (Moore's own claim). Only on this reading would a hinge
+   count as an established floor item with an observation basis.
+2. **A-rational commitment** (Pritchard's quasi-fideism).
+3. **Non-propositional animal certainty** (Moyal-Sharrock).
+4. **Nonsense** (Read, Crary).
+
+Passages that bear on sense 1 (how they bear is part of the dispute; which
+passages each reading relies on is not recorded):
+
+- §151: "Moore *weiß* nicht, was er zu wissen behauptet, aber es steht für ihn
+  fest".
+- §204: justification ends not in seeing that something is true but in our
+  acting.
+- §205, recorded as a conditional only: *if* the true is what is grounded, the
+  ground is neither true nor false.
+
+Which sense the text supports is disputed, and none is attributed here.
+
+The bearing on F3 and F4 is conditional. It needs a bridge that no source
+gives: that these particular items ('something changes', 'something is
+moved') function as hinges. §151 discusses Moore's own propositions, and the
+reported readings concern hinges in general. None identifies F3/F4 as hinges
+or denies that those items are known.
+
+*If* that bridge holds, then on senses 2-4 F3 and F4 would stand fast without
+being established as known truths in the corpus's sense. They would not be
+denied, but they would not be known truths that refute their rivals either.
+Only the nonsense and non-propositional senses (3-4), and §205's conditional,
+bear on whether they are true at all. Sense 2 (Pritchard) says nothing against
+their truth.
+
+The bearing is on the floor **basis**, not on the items. No reading of *On
+Certainty* says that nothing changes or that nothing is moved. A hinge
+reading is therefore not an `alternative_to` F3/F4, and none is recorded.
+Recording one would reopen the approved markings.
+
+### "There are physical objects" (F2)
+
+§§35-36: "»Es gibt physikalische Gegenstände« Unsinn", since "physical object"
+is a logical concept. This bears on how a candidate F2 ('something exists') is
+phrased, not on its truth. Applied to an F2 phrased as an existential over a
+formal concept, the remark would need a further, unattributed step: that
+"something" is a logical concept the way "physical object" is. Phrased with a
+material predicate ("here is a hand", §1), F2 would be a Moore-type
+proposition. Whether it is then a hinge is the same open bridge as for F3/F4.
+
+### Proposed floor-basis changes (for the owner; none applied)
+
+- **P-OC-1.** Record the hinge readings as a *conditional* disagreement with F3
+  and F4: they bear on F3 and F4 only if those items function as hinges, a
+  bridge no source supplies (`WITTGENSTEIN-OC-151-STAND-FAST-NOT-KNOWN`,
+  `SEP-FIDEISM-4-HINGES-NONSENSE-A`, `SEP-FIDEISM-4-HINGES-NON-PROPOSITIONAL-A`).
+  This is not a listing of the claims as denials of F3 and F4 themselves.
+  Under #1007 it is bookkeeping: the approval stays, and the possible
+  disagreement becomes visible together with its missing bridge.
+  Recommended, with the bridge stated.
+- **P-OC-2.** Use `WITTGENSTEIN-UNIVERSAL-DOUBT-FAILS` as the refutation of a
+  recorded *global* doubt rival, should one ever be listed under
+  `sceptical_rival_ids` for an observation marking. It cannot count until
+  §341 is established, so it has no effect today. Recommended only as a
+  pointer.
+- **P-OC-3.** Do not adopt a "hinge" basis for F2-F4. On senses 2-4 it would
+  make the items stand fast without establishing them as known truths. On
+  senses 3-4 it would also leave their truth-aptness in question. That is
+  weaker than the case needs.
+
+## Philosophical Investigations
+
+The witness is the German *Philosophische Untersuchungen*, Part I, public
+domain in the EU, pinned like *Über Gewißheit*.
+
+### Rule-following (§§198, 201-202): the shape of the regress
+
+`TruthCore.Results.Wittgenstein.InterpretationRegress.interpretationRegress` is
+the logical point. Suppose an item is determined only through a determined
+interpretation of it, and there is no endless chain of interpretations
+("Deutung hinter Deutung"). Then nothing is determined. The proof is
+well-founded induction.
+
+`regressFork` adds that these two premises and "some application is
+determined" cannot all hold. The readings choose differently:
+
+- The diagnostic reading, following §201's own next sentences, keeps
+  determination and gives up the interpretation premise: "eine Auffassung
+  einer Regel ..., die *nicht* eine *Deutung* ist".
+- Kripke's sceptic, as reported, takes the paradox as a genuine sceptical
+  problem and denies that any fact determines meaning. In this vocabulary that
+  is mapped, unattributed, to giving up factual determination; whether the
+  figure keeps the interpretation premise is not recorded. Kripke does not
+  identify the figure with Wittgenstein.
+- An endless regress gives up finiteness.
+
+The result settles no reading (`DISAMB-RULE-FOLLOWING-PARADOX`). Neutral to the
+routes.
+
+### Private language and F5
+
+§258 denies a criterion of correctness for a sign fixed by private ostension.
+§304 says that the sensation "ist kein Etwas, aber auch nicht ein Nichts".
+§308: "Und wollen sie [die geistigen Vorgänge] doch natürlich nicht leugnen!"
+
+This record reads §§258, 304 and 308 as follows, on either reading of the
+sections (reductio or nonsense, `DISAMB-PLA-FALSE-OR-NONSENSE`): the argument
+targets the private *identification* of an inner object, not the occurrence of
+thought. That is a classification judgment from the recorded passages, not a
+reported reading. So it is
+**neutral** to candidate F5 (`STMT-COGITO-THOUGHT-OCCURS`) as an occurrence
+premise. It is a rival only to a Cartesian private-introspection *basis* for
+F5. The retorsion basis proposed on #1007 ("a denial is a thought") uses a
+public speech act and is unaffected.

@@ -1,0 +1,10 @@
+{
+  "id": "WITTGENSTEIN-INTERPRETATION-REGRESS",
+  "argument_id": "WITTGENSTEIN-INTERPRETATION-REGRESS",
+  "challenge_module": "TruthCore.Results.Wittgenstein.InterpretationRegress.Challenge",
+  "solution_module": "TruthCore.Results.Wittgenstein.InterpretationRegress.Solution",
+  "theorem": "TruthCore.Results.Wittgenstein.InterpretationRegress.interpretationRegress",
+  "comparator_config": "results/WITTGENSTEIN-INTERPRETATION-REGRESS/comparator.json",
+  "status": "solution-present",
+  "description": "Derived, not a transcription: the proof is a well-founded induction (Lean core WellFounded.induction), and the countermodels needsOnlyThroughInterpretation and needsNoEndless show each premise is needed; regressFork records the three-way inconsistency. Settles no exegetical reading. Zero axioms."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "REL-PLA-NONSENSE-ALTERNATIVE-TO-REDUCTIO-READING",
+  "subject_kind": "statement",
+  "subject_id": "STMT-PLA-NONSENSE-READING",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-PLA-REDUCTIO-READING",
+  "note": "Rival readings of PU §§243-315 (SEP-PRIVATE-LANGUAGE §1.2, DISAMB-PLA-FALSE-OR-NONSENSE): a private language is false (reductio) or nonsense (Baker). Neither denies that sensations or thoughts occur (STMT-PU-SENSATION-NOT-SOMETHING-NOT-NOTHING, STMT-PU-MENTAL-PROCESSES-NOT-DENIED)."
+}

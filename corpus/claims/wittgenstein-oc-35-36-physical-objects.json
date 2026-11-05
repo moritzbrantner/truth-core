@@ -1,0 +1,9 @@
+{
+  "id": "WITTGENSTEIN-OC-35-36-PHYSICAL-OBJECTS",
+  "statement_id": "STMT-OC-PHYSICAL-OBJECTS-SENTENCE-NOT-FORMABLE",
+  "source_id": "WITTGENSTEIN-UEBER-GEWISSHEIT",
+  "locator": "§§35-36, »Es gibt physikalische Gegenstände« Unsinn ... läßt sich ein Satz »Es gibt physikalische Gegenstände« nicht bilden",
+  "interpretation": "§35: 'Und doch ist »Es gibt physikalische Gegenstände« Unsinn.' §36: the instruction 'A ist ein physikalischer Gegenstand' teaches the use of words, 'physikalischer Gegenstand' is 'ein logischer Begriff', 'Und darum läßt sich ein Satz »Es gibt physikalische Gegenstände« nicht bilden.' §35 also says 'Ich weiß nicht' to whether one can imagine there being no physical objects. The remark is about 'physical object', not about 'something' in general.",
+  "status": "formalized",
+  "attribution": "The passage states that 'there are physical objects' is nonsense because 'physical object' is a logical concept, so that the sentence cannot be formed, which is the premise."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "STMT-SOME-RULE-APPLICATION-DETERMINED",
+  "paraphrase": "Open premise, unattributed: some application of a rule is determined; what accords with the rule there is fixed.",
+  "lean_declaration": "TruthCore.German.Wittgenstein.RuleFollowing.SomeApplicationDeterminedReading",
+  "definition_ids": [
+    "DEF-INTERPRETATION-OF-AN-ITEM",
+    "DEF-DETERMINED-BY-RULE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RULE-FOLLOWING-PARADOX"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "SEP-PRIVATE-LANGUAGE",
+    "source_url": "https://plato.stanford.edu/archives/spr2026/entries/private-language/",
+    "retrieved_at": "2026-11-05T15:36:03Z",
+    "sha256": "sha256:3da65815b99a90b7a8ce335b83c5d7043b75e2cb2a45f7963ba71b339500f849",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "Copyright by Stewart Candlish and George Wrisley; the Stanford Encyclopedia of Philosophy is copyright by The Metaphysics Research Lab, Stanford University (notices on the page, checked 2026-11-05). Only hashes, locators and a short incipit are committed. Two live fetches on 2026-11-05 gave identical bytes. No archival fallback: web.archive.org refused connections from the pinning environment."
+  },
+  "passages": [
+    {
+      "id": "SEP-PRIVATE-LANGUAGE-1-1",
+      "locator": "§§1.1-1.2 (Recent Developments; False or Nonsense?)",
+      "claim_locator_prefixes": [
+        "§1."
+      ],
+      "html_selector": {
+        "from": {
+          "anchor": "RecDevTheConForReaWitPriLanSecPhiInv"
+        },
+        "to": {
+          "anchor": "SigIss"
+        }
+      },
+      "text_sha256": "sha256:471d9818dd7e09f156766734298993ed88ed34b27c59eda58cbec57af78aeccd",
+      "incipit": "1.1 Recent Developments and Their Consequences\nInterpretation of Wittgenstein"
+    },
+    {
+      "id": "SEP-PRIVATE-LANGUAGE-4",
+      "locator": "§4 (Kripke's Sceptical Wittgenstein)",
+      "claim_locator_prefixes": [
+        "§4"
+      ],
+      "html_selector": {
+        "from": {
+          "anchor": "KriSceWit"
+        },
+        "to": {
+          "anchor": "Bib"
+        }
+      },
+      "text_sha256": "sha256:7697c8a26ce9c3e0059f3a7a2252e6ac8ee4ccc9b52e48e31f51d11c4a994347",
+      "incipit": "4. Kripke’s Sceptical Wittgenstein\nThe Orthodox domination of the secondary"
+    }
+  ]
+}

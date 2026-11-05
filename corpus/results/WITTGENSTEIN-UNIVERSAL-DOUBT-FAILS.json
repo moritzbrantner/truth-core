@@ -1,0 +1,10 @@
+{
+  "id": "WITTGENSTEIN-UNIVERSAL-DOUBT-FAILS",
+  "argument_id": "WITTGENSTEIN-UNIVERSAL-DOUBT-FAILS",
+  "challenge_module": "TruthCore.Results.Wittgenstein.DoubtPresupposesCertainty.Challenge",
+  "solution_module": "TruthCore.Results.Wittgenstein.DoubtPresupposesCertainty.Solution",
+  "theorem": "TruthCore.Results.Wittgenstein.DoubtPresupposesCertainty.universalDoubtFails",
+  "comparator_config": "results/WITTGENSTEIN-UNIVERSAL-DOUBT-FAILS/comparator.json",
+  "status": "solution-present",
+  "description": "Derived, not a transcription: no premise has the conclusion as consequent; needsDoubtRestsOnExemption shows the premise is needed, and anyGivenSentenceDoubtable bounds what it gives. Zero axioms."
+}

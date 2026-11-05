@@ -1,0 +1,11 @@
+{
+  "id": "STMT-OC-DOUBT-RESTS-ON-EXEMPT-SENTENCES",
+  "paraphrase": "Über Gewißheit §341: whenever something is doubted, some sentence is exempt from doubt (the hinges on which questions and doubts turn). It says nothing about which sentence, or that it is known or true.",
+  "lean_declaration": "TruthCore.German.Wittgenstein.OnCertainty.DoubtRestsOnExemptionReading",
+  "definition_ids": [
+    "DEF-DOUBTED-SENTENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-HINGE-STATUS"
+  ]
+}
