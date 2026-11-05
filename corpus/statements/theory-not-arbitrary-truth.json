@@ -1,0 +1,11 @@
+{
+  "id": "STMT-EXPLANATORY-THEORY-NOT-ARBITRARY-TRUTH",
+  "paraphrase": "In the specified model language for particular-event explanation, a true explanans requires a theory, not merely an arbitrary true essentially generalized sentence, together with a true singular component.",
+  "definition_ids": [
+    "DEF-ACTUAL-EXISTENCE-ADEQUACY-DOMAINS",
+    "DEF-PSR-STRENGTH-ARENA"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ACTUAL-EXISTENCE-VERIFICATION-RELEVANCE"
+  ]
+}

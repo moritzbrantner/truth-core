@@ -6,7 +6,7 @@ standard. The theorems are `core` and `comparison` in
 `TruthCore.Explanation.ExplanatoryAdequacy` and the #755 `Arena`. `core` is zero-axiom;
 `comparison` permits the Mathlib three because it consumes #735's `plural_no_least`.
 They establish conditional consequence and model verdicts. They establish no standard
-and no model's metaphysical possibility. No new source claim is added.
+and no model's metaphysical possibility. The original comparison added no source claim; the source-led P2 extension below adds five qualified primary readings.
 
 ## Findings
 
@@ -256,3 +256,224 @@ The Challenge was frozen before its Solution with SHA256
 no original Challenge changed. Root route costs and open-premise membership
 remain unchanged (11 routes,62 open), and this result is off root paths.
 Shared convention sourceRevision: `c104800c7aaeaea12d56f9093e71bdef6a2ce6fa`.
+
+## P2 source-led actual-bearer comparison (2026-11-05)
+
+**#750 remains OPEN.** This adds a source-backed failed universal discriminator,
+not an independently established ultimate-existence standard. The new checked
+certificates are `TruthCore.Results.Explanation.ActualExistenceAdequacy.comparison`
+and `.realization`.
+Its conclusion is `ActualExistenceAdequacy.Comparison`; the Challenge was frozen
+before proof work. No source assertion is a theorem hypothesis or an established
+norm floor. The theorem's explicit models are not a claim about which real
+metaphysical alternative is possible.
+
+### Primary arguments and the strongest objection
+
+The pinned CSULB university copy of Hempel and Oppenheim, *Studies in the Logic
+of Explanation*, Philosophy of Science 15(2), 1948, pp.135–175,
+DOI [10.1086/286983](https://doi.org/10.1086/286983), is passage
+`HEMPEL-OPPENHEIM-EXPLANATION-1948`. The entire article was materialized; relevant
+contexts read were §3 pp.136–139 and §7 pp.158–164, including the definitions and
+objections surrounding the selected clauses. Five source positions are retained
+as qualified readings, not assertions of their truth:
+
+* §3 pp.137–138 (R1)–(R4): deductive consequence; general laws essential to the
+  derivation; empirical content; true explanans. Confirmed-at-a-time is distinct
+  from true. These are the deductive scientific scheme's clauses, not a complete
+  norm for every explanation.
+* §7 pp.158–160 (7.2)–(7.6): the precise reconstruction assumes a model language
+  of qualitative predicates with physical objects or spacetime locations. A
+  theory is more constrained than an arbitrary true sentence. Full lawlikeness,
+  essential generality and empirical content are **not** certified by our finite
+  Boolean law.
+* pp.160–162 (7.5)–(7.7): the singular condition C alone must not derive E, but
+  banning all shared content overreaches. Equivalent reformulations expose shared
+  content even in intuitively good explanations; prohibiting it generally would
+  confine explanation to purely theoretical derivations. The authors decline an
+  arbitrary partial-copy cutoff. This is the strongest source objection to a
+  blanket independence demand, not an objection ignored to rescue that demand.
+* pp.162–164 (7.8), note32: C-alone nonentailment is insufficient. Their example
+  can attach an arbitrary law to a condition that can be verified only by
+  verifying E. They add compatibility of T with a basic-sentence class entailing
+  C but not E. A law's making C imply E is carefully distinguished from making
+  verification of C depend on verification of E. Predictive use supplies their
+  rationale; the argument establishes why a specific pseudo-explanation fails
+  this scientific project, not why every ultimate explanation must predict.
+* p.164 following (7.9): statistical laws and inductive confirmation are possible
+  extensions, left undeveloped here. We therefore reject reading this source as
+  demanding strict necessitation of every legitimate explanation.
+
+Woodward's already pinned *Causation with a Human Face*, passage
+`WOODWARD-HUMAN-FACE`, supplies the strongest causal reply. The existing readings
+`WOODWARD-INTERVENTION-RELEVANCE` (pp.71–76, §4.3 C/IV) and
+`WOODWARD-COSMIC-SCOPE` (pp.90–93, §4.6) are reused, not recreated. Relevant §4.3–4.4
+and §4.6 context was read in the materialized text. Common-cause or selection
+correlation is separated from response under intervention. IV requires an
+intervention cause, broken incoming dependence and exclusion/independence of
+other paths; these are substantive causal primitives. Footnote11 pp.75–76
+explicitly denies reduction to wholly noncausal vocabulary and argues that using
+other causal relations need not presuppose the very X→Y relation at issue. That
+is a serious noncircularity defense within a causal framework, not a proof of all
+its primitives. §4.4 pp.76–80 also allows limited invariant, background-dependent
+causal relationships. Merely conditional/local coverage can therefore be genuine
+local explanation; its inability to answer an ultimate question does not make it
+no explanation at all.
+
+Woodward's §4.6 warns that a global universe has no outside environment to supply
+the usual exogenous intervention. He leaves meaningful global counterfactuals
+open. We neither infer that global causes are impossible nor stipulate that an
+ultimate personal cause automatically supplies the required admissible settings.
+The source supplies a real scope objection to a universal intervention norm.
+
+### One bearer, two criteria, three domains
+
+The rigid bearer is `x = () : Unit` in **both** accounts. `arena chain` and
+`arena fork` reuse the existing `Ontic` through `PSRStrength.Arena`; `profile`
+reuses `BruteFoundationBoundary.Profile` and explicitly supplies concrete kind.
+Both have the SAME existence-fact map `exist x = Atom.target`. The theorem checks
+coherence at every modeled world, actual existence at `true`, concrete kind, and
+absence at the accessible `false` world. Thus the target is existence of this
+contingent concrete bearer in the stipulated interpretation, not an arbitrary
+Fact whose name was changed. Ontic causes and Profile grounds are empty: the
+construction does not infer an existential cause or P2-B real support.
+
+For ordinary orientation, consider the actual existence of a particular ice
+crystal and a proposed preparation condition. A report repeating that this
+crystal exists is different from independently checking preparation. A common
+cause could nevertheless account for agreement between preparation and existence.
+This example motivates the distinction, but no empirical crystal identification,
+complete absence alternative or intervention experiment is asserted here. The
+Unit interpretation is a mathematical model; its application to an actual
+worldly individual and its metaphysical alternatives remains **OPEN**.
+
+The domains must not be collapsed:
+
+| Domain | Interpretation | What the certificate checks |
+| --- | --- | --- |
+| `Bool × Bool` valuations | logically unrestricted assignments to reason/target | basic evidence can entail condition without entailing target |
+| `Bool` Arena worlds | stipulated complete alternatives with reason and existence coextensive | SAME x is concrete and actually contingent; existence-fact coherence |
+| experimental setting/background pairs | independently supplied responses from existing `Regularity.chain`/`fork` | `Changes setX` holds only in the productive table |
+
+Criterion V (`VerificationIndependent`) is a finite propositional specialization
+of the **basic-evidence clause**, with actually true evidence additionally required.
+It does not implement Hempel–Oppenheim's full first-order language, lawlikeness,
+generality or empirical content. The condition `reason` passes with the singleton
+positive reason literal. Logical assignment `(true,false)` shows that evidence
+does not entail the target. Compatibility with the law `reason ↔ target` has
+witness `(true,true)`. The copied condition `target` fails for every evidence
+class: entailment of that condition already entails the target.
+
+This compatibility clause does **not** assert a law-world with reason true and
+target false. Restricting logical consequence to accessible law-worlds would erase
+the distinction: here reason and target are coextensive throughout those worlds.
+Consequently modal noncopy is not a substitute for independent verification.
+The causal chain is a counterexample to demanding noncoextension as a necessary
+condition within this admitted local causal framework.
+
+Criterion I reuses `Regularity.Changes` on the supplied set-X responses. Both
+accounts pass V and agree on ALL Arena truth/existence assignments; only the
+additional intervention data distinguish them. The proof consumes the existing
+`Regularity.checks` intervention test rather than reproving its response result.
+IV admissibility is **not** inferred from those tables. Nor are experimental
+responses additional Arena worlds: realizing each response as the same x's
+`ExistsAt` in an intervention world is an additional **OPEN** bridge. That first theorem
+therefore certifies a response-table distinction on the proposed existence
+variable. The separately frozen realization companion below supplies a conditional
+model realization, without claiming actual worldly existential production.
+The richer `ResponseWorld = Sum Bool (Bool × Bool)` DOES realize interventions.
+`realized m` interprets each table output as the SAME x's `ExistsAt` at its tagged
+setting world, and uses the same target existence fact. The companion checks
+coherence everywhere, concrete kind, actual existence and accessible absence at
+observational worlds; every setting-world output is its existential realization.
+Both models preserve the original observational reduct and hence actual x, while
+chain has `ExistentialResponse` and fork does not. Their full profiles explicitly
+differ at setting `(true,false)`. This is a constructed conditional interpretation,
+not an independently defended IV or metaphysical applicability claim. The existence
+change is no longer merely an unglued response flag within that interpretation.
+
+### Symmetric ultimate-rival comparison
+
+These are the SAME question and same actual x throughout: why does x actually
+exist? No row gets special exemption, an agency flag or a stipulated adequacy win.
+A blank outcome below means no warranted verdict, not failed truth.
+
+| Strongest account | V can legitimately ask | I and the remaining extension premise |
+| --- | --- | --- |
+| Necessary impersonal law/structure | Are actual antecedent data independently verifiable, and is the law independently specified rather than an x-containing conditional manufactured after the fact? V alone cannot distinguish the productive and confounded cases. | A necessary source's existence cannot itself be toggled across metaphysically possible worlds. Operation/background settings and their admissibility would need a defensible interpretation. No ultimate verdict. |
+| Personal/free choice | Reasons/abilities can be independently characterized without necessitating which free outcome occurs. A true reason at both outcome alternatives need not be irrelevant. | A legitimate intervention on choice/operation, holding the appropriate background fixed, is an extra theory, not entailed by the personal label. A probabilistic or free account need not maximize outcome probability. No ultimate verdict. |
+| Plural contributors | Independently testable contributor conditions may satisfy V jointly or separately; V does not count sources or establish joint existential support. | The joint setting, dependence among contributors, and no bypass routes must be specified. Neither V nor the present table proves unity or a unique ground. No ultimate verdict. |
+| Infinite/global coherence | Global constraints can carry content beyond x and avoid merely copying x. V is not an argument for well-foundedness; finite local verification may be inapplicable. | Woodward's global-scope warning is especially consequential. Supply a coherent global counterfactual/response interpretation or defend a noncausal alternative criterion. Infinity itself is not refuted. |
+| Intrinsic/primitive/brute x | Repeating x is not an independent antecedent explanation under V. A brute theorist can instead deny an external explanation is owed; an intrinsic theory may propose independently characterized essence/structure. | No external intervention is promised by a brute view. Lack of response data does not refute x or establish universal PSR; an intrinsic account still owes any claimed existential relevance. No ultimate verdict. |
+
+Necessary impersonal, personal, probabilistic, structural and plural accounts can
+explain contingent effects without strictly necessitating or maximizing them.
+Positive probability, normalized conditional probability and truth coextension
+are neither actual obtaining nor causal production. V rejects a definite copied
+evidence pattern; it does not supply an explanation's truth, law status, actual
+existential efficacy or a reason that a brute stopping point is unavailable.
+I has a stronger local discrimination once response/admissibility facts are given,
+but neither source defends its unconditional application to ultimate existence.
+
+### Exact reuse, premise comparison and next bridge
+
+The earlier `ExplanatoryAdequacy.core`, `.comparison` and `.forced` remain valid
+under their original semantics. Their modal noncopy/contrast verdicts are not
+reinterpreted as logical verification or interventions. The `ReasonClosed.covered`
+clause still stipulates coverage and cannot independently exclude brute x.
+`PSRLaterAxes.interpretedMap` remains the authority for its probability/selection
+and support-accessibility distinctions; no probability normalization becomes an
+actual-truth or production theorem here. #735's Supply and plural/no-least
+witnesses remain separate from #750 adequacy; #745/#746 stopping norms and
+#545 explanation→real-support retain their open applicability burdens.
+
+**Actual delta:** two checked SAME-bearer model comparisons; five qualified primary
+source readings; two existing Woodward readings consumed; explicit logical versus
+modal versus response domain separation; the strongest shared-content objection
+and global-scope objection preserved. No new independent norm, no self-evident
+premise, no owner floor selection, no root/frontier closure and no surviving
+ultimate territory eliminated. All ultimate rivals above survive. The theorem
+has no corpus premise statements: model commitments are in its conclusion, not
+established premises of a real-world argument.
+
+The smallest missing bridge is a defensible relation between independently
+characterized evidence/reason and **this x's actual obtaining**, including the
+admissibility and real-world applicability of any proposed existential response.
+The realization companion supplies a faithful formal interpretation of those
+responses as existence, but does not establish that this interpretation applies.
+For a noncausal ultimate account it may be a different relevance relation, which
+must answer the same copied-evidence objection without begging the PSR question.
+This is narrower than another undefined completeness predicate. It is not supplied
+by source agreement, modality, an agency flag, a true law, a response flag, or a
+choice of terminology. #750's independently defended ultimate standard and P2
+application remain **OPEN**; #735 end-to-end and #545 P2-B receive this limit, not
+a discharged premise.
+
+Claim/type self-sweep: source statements retain the scientific and singular-event
+scope; no source states the finite `Comparison` theorem. The five claims are
+prose-only qualified positions, not new opaque proof premises. The finite
+verification test is an analyst specialization with explicit gaps. The certificate
+checks an Ontic interpretation and separate response data, not empirical existence
+or actual production. No strict necessity, uniqueness, agency, causal asymmetry,
+well-foundedness or root truth is inferred. Shared conventions resolved at
+`625cb04ca568aebc8d45c90033e107a05e9bd2a0`.
+
+Development-service comparison: the supplied preview at
+`a2d97ecf1429e86b3e12f15b91b735f85e27822e`, dirty fingerprint
+`d9531f3a0bb331b7b49d7d7cee53c17822d8a8d124bb6f7dd3fae582039893f3`,
+rejected this module's import because its cached ExplanatoryAdequacy was
+non-`module`. Scratch path was `Scratch/adequacy750/ActualExistenceAdequacy.lean`;
+submitted content hash was
+`a971be839d4f9768ad70426c642ec40107dc9f19a438700e22453a455ec1c196`.
+The response was correctly bound to that development preview; it was not a
+canonical failure. The pinned CLI clone checked the new vocabulary and proof.
+Recommendation: retain the binding/diagnostic interface, revise preview freshness
+before using module-era imports, and use the CLI meanwhile. No service refresh,
+dependency or adapter change was made by this worker.
+
+The companion also preserves the same verification comparison rather than choosing
+a norm to select its preferred model. Both results use `propext`, inherited
+from the certified `Regularity.checks` bundle; their configs permit the required
+approved Mathlib three, since the imported existing vocabulary reaches Mathlib. No new axiom or dependency was introduced. The canonical
+corpus record service query succeeded on the worker clone with exact revision/input
+binding, independently of the stale Lean preview failure described above.

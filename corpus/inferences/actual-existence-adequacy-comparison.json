@@ -1,0 +1,9 @@
+{
+  "id": "INF-ACTUAL-EXISTENCE-ADEQUACY-COMPARISON",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-ACTUAL-EXISTENCE-ADEQUACY-COMPARISON",
+  "rule": "model-construction",
+  "meaning": "Embed the existing chain/fork experiments into one Ontic/Profile/Arena target and check logical basic evidence on unrestricted valuations separately from the supplied response tables. Reuse certified Regularity.checks for the intervention distinction.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

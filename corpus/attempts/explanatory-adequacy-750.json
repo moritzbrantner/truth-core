@@ -1,19 +1,31 @@
 {
   "id": "ATTEMPT-EXPLANATORY-ADEQUACY-750",
-  "date": "2026-10-31",
+  "date": "2026-11-05",
   "statement_ids": [
     "STMT-EXPLANATORY-ADEQUACY-CORE",
     "STMT-EXPLANATORY-ADEQUACY-COMPARISON",
     "STMT-FACT-REQUIRES-SUFFICIENT-REASON",
     "STMT-CONTINGENT-DETAIL-RENEWS-SERIES-REASON-DEMAND",
-    "STMT-OPPY-2020-NECESSITY-COMPARATIVE-COST"
+    "STMT-OPPY-2020-NECESSITY-COMPARATIVE-COST",
+    "STMT-ACTUAL-EXISTENCE-ADEQUACY-COMPARISON",
+    "STMT-BASIC-EVIDENCE-INDEPENDENCE-REQUIREMENT",
+    "STMT-PARTIAL-SHARED-CONTENT-NOT-BANNED",
+    "STMT-TOTAL-CAUSE-REQUIRES-INTERVENTION-CONTRAST",
+    "STMT-GLOBAL-INTERVENTION-EXTENSION-NEEDS-ACCOUNT",
+    "STMT-ACTUAL-EXISTENCE-ADEQUACY-REALIZATION"
   ],
   "kind": "countermodel",
   "outcome": "succeeded",
-  "summary": "Tested candidate adequacy standards over the #755 arena on one target and shared rivals. Certified that reason closure, a contingent explanandum, well-founded contingent reasons and only contingent reasons are inconsistent, with necessitating and contrast variants, and a deletion model per member of the first bundle. Rejected: a necessary-being stop as a criterion (circular: it names the satisfier; recorded as a control); modal non-copying as relevance (a true-everywhere token passes); truth-discriminating contrast as the general norm (it refuses a reason that holds at the rival and, with closure and a contingent explanandum, every well-founded account); two-way reasons as sufficient (tokens pass given a rival outcome). Excluding a brute terminus under reason closure is stipulated by its covered clause, so no independent argument against that rival was obtained. Non-theistic witnesses meet reason closure: a necessary fact with no necessary being, and a source-free chain. First draft of the chain made the target coextensive with member 0; moved the member cut so non-copy holds. Read Leibniz Monadology §§31-45 and Oppy 2020 pp.13-22; no new claim. Root delta none.",
-  "blocker": "No standard is defended. Open: how a reason true at both a world and its rival is relevant to which outcome obtains; whether a contingent stop can be excluded independently; whether explanation is well-founded.",
+  "summary": "Tested candidate adequacy standards over the #755 arena on one target and shared rivals. Certified that reason closure, a contingent explanandum, well-founded contingent reasons and only contingent reasons are inconsistent, with necessitating and contrast variants, and a deletion model per member of the first bundle. Rejected: a necessary-being stop as a criterion (circular: it names the satisfier; recorded as a control); modal non-copying as relevance (a true-everywhere token passes); truth-discriminating contrast as the general norm (it refuses a reason that holds at the rival and, with closure and a contingent explanandum, every well-founded account); two-way reasons as sufficient (tokens pass given a rival outcome). Excluding a brute terminus under reason closure is stipulated by its covered clause, so no independent argument against that rival was obtained. Non-theistic witnesses meet reason closure: a necessary fact with no necessary being, and a source-free chain. First draft of the chain made the target coextensive with member 0; moved the member cut so non-copy holds. Read Leibniz Monadology §§31-45 and Oppy 2020 pp.13-22; no new claim. Root delta none. P2 extension: materialized primary Hempel–Oppenheim 1948 full article, read §3 and §7 context; recorded five qualified positions and reused materialized Woodward §§4.3–4.4/4.6. Rejected banning all shared content: H–O pp.160–162 expressly permit unavoidable partial overlap. Distinguished unrestricted logical valuation consequence from law-restricted accessible-world coextension. Certified coherent actual contingent concrete Unit bearer with the same existence fact in chain and fork, identical Arena truths/existence, independent basic evidence for reason but not copied target, and different supplied response tables. Intervention outputs are not Arena worlds; realization as this bearer’s existential changes and IV admissibility remain OPEN. This is a source-backed failed universal discriminator beyond the old fact-only test, not real-world reification or an established ultimate criterion. All named ultimate rival territories survive; #750 remains OPEN. Details and source locators in docs/notes/explanatory-adequacy-750.md. Separately frozen realization companion supplies explicit tagged intervention worlds and realizes each table output as the same bearer’s ExistsAt. It preserves observational equality and actual x, while certifying differing full setting-world existence profiles and chain/fork existential response. This discharges the formal gluing gap in the constructed interpretation; IV admissibility and real-world applicability remain OPEN.",
+  "blocker": "OPEN: defensible relevance of an independently characterized reason to this concrete bearer’s ACTUAL obtaining. Verification independence alone does not provide IV admissibility or a real-world application bridge; the companion constructs a formal existential realization only; modal noncopy overreaches; global intervention and noncausal rivals need an explicit scope account. Neither source establishes a universal sufficient criterion or excludes brute existence. No root/frontier closure.",
   "evidence": [
     "EXPLANATORY-ADEQUACY-CORE",
-    "EXPLANATORY-ADEQUACY-COMPARISON"
+    "EXPLANATORY-ADEQUACY-COMPARISON",
+    "ACTUAL-EXISTENCE-ADEQUACY-COMPARISON",
+    "HEMPEL-OPPENHEIM-BASIC-EVIDENCE-INDEPENDENCE-REQUIREMENT",
+    "HEMPEL-OPPENHEIM-PARTIAL-SHARED-CONTENT-NOT-BANNED",
+    "WOODWARD-INTERVENTION-RELEVANCE",
+    "WOODWARD-COSMIC-SCOPE",
+    "ACTUAL-EXISTENCE-ADEQUACY-REALIZATION"
   ]
 }

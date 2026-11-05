@@ -1,0 +1,16 @@
+{
+  "id": "HEMPEL-OPPENHEIM-BASIC-EVIDENCE-INDEPENDENCE-REQUIREMENT",
+  "statement_id": "STMT-BASIC-EVIDENCE-INDEPENDENCE-REQUIREMENT",
+  "source_id": "HEMPEL-OPPENHEIM-LOGIC-EXPLANATION",
+  "locator": "pp.162–164, §7 (7.8) and note 32",
+  "interpretation": "The passage motivates (7.8)(3) using an arbitrary-law pseudo-explanation whose antecedent can only be verified by verifying E. Note 32 explicitly distinguishes truth entailment under T from verification dependence. The proposed formal test specializes only its basic-evidence idea; it does not certify the full source criterion. Full materialized relevant context read; source positions are distinct from analyst defenses and application commitments.",
+  "attribution": "The passage states A potential explanans (T,C) for singular E requires essentially generalized T, singular C, derivability of E from T and C, and compatibility of T with a class of basic sentences entailing C but not E, which is the qualified source premise.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ACTUAL-EXISTENCE-ADEQUACY-DOMAINS",
+    "DEF-PSR-STRENGTH-ARENA"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ACTUAL-EXISTENCE-VERIFICATION-RELEVANCE"
+  ]
+}

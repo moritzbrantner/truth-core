@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ACTUAL-EXISTENCE-ADEQUACY-DOMAINS",
+  "term": "logical evidence, modal existence and intervention domains",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.ActualExistenceAdequacy.VerificationIndependent",
+  "definition": "Basic-literal evidence is evaluated over all Boolean assignments to reason and target; compatibility with the proposed law is existential, not restriction of logical consequence to law worlds. Arena worlds carry Ontic existence of the same Unit bearer, with existence fact target. Profile supplies concrete kind explicitly. Intervention relevance reuses Changes on independently supplied experimental response tables.",
+  "note": "Finite propositional specialization motivated by Hempel–Oppenheim pp.160–164, not their full first-order theory or lawlikeness/empirical-content requirements. Woodward IV admissibility is an OPEN application premise; these are not inherently cosmic interventions. No transitivity, well-foundedness or source ontology follows. Examples, counterexamples, domain distinctions and rival application gaps: docs/notes/explanatory-adequacy-750.md."
+}

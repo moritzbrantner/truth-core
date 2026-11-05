@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-ACTUAL-EXISTENCE-VERIFICATION-RELEVANCE",
+  "term": "verification independence versus existential relevance",
+  "note": "Neither independent verification nor a response flag establishes ultimate existential relevance. Requiring complete absence of shared content overreaches Hempel\u2013Oppenheim; source assertion is not independent truth. See docs/notes/explanatory-adequacy-750.md.",
+  "resolution": "Logical verification independence concerns a class of basic sentences entailing the antecedent condition without entailing the target over unrestricted logical valuations. Modal coextension concerns truth throughout accessible worlds, which may already obey a law. It does not settle logical independence. Intervention relevance concerns responses under admissible settings; response data and causal admissibility are extra inputs. Actual concrete existence in the finite model is explicit Ontic/Profile framework data, not empirical identification or production of a worldly existent.",
+  "sense_definition_ids": [
+    "DEF-ACTUAL-EXISTENCE-ADEQUACY-DOMAINS",
+    "DEF-REGULARITY-INTERVENTION"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "ACTUAL-EXISTENCE-ADEQUACY-REALIZATION",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-ACTUAL-EXISTENCE-ADEQUACY-REALIZATION",
+  "inference_ids": [
+    "INF-ACTUAL-EXISTENCE-ADEQUACY-REALIZATION"
+  ],
+  "meaning": "Under the explicit tagged-world realization, the SAME Unit concrete bearer exists actually and is contingent with coherent existence facts in both models. The observational reduct agrees with the original Arena and between chain/fork. Every setting-world ExistsAt is exactly its supplied response output. Chain has an existential response, fork does not; their FULL world profiles differ at a setting world. Basic-evidence independence still passes. This constructs a conditional existential interpretation; it establishes neither IV admissibility, actual worldly applicability, a universal adequacy criterion, nor root closure.",
+  "definition_ids": [
+    "DEF-ACTUAL-EXISTENCE-ADEQUACY-DOMAINS",
+    "DEF-PSR-STRENGTH-ARENA"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ACTUAL-EXISTENCE-VERIFICATION-RELEVANCE"
+  ]
+}

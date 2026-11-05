@@ -1,0 +1,11 @@
+{
+  "id": "STMT-PARTIAL-SHARED-CONTENT-NOT-BANNED",
+  "paraphrase": "Prohibiting all shared content between antecedent conditions and a singular explanandum would restrict explanation to purely theoretical derivations; ordinary usage supplies no warranted arbitrary cutoff for partial self-explanation.",
+  "definition_ids": [
+    "DEF-ACTUAL-EXISTENCE-ADEQUACY-DOMAINS",
+    "DEF-PSR-STRENGTH-ARENA"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ACTUAL-EXISTENCE-VERIFICATION-RELEVANCE"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "ACTUAL-EXISTENCE-ADEQUACY-COMPARISON",
+  "argument_id": "ACTUAL-EXISTENCE-ADEQUACY-COMPARISON",
+  "challenge_module": "TruthCore.Results.Explanation.ActualExistenceAdequacy.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.ActualExistenceAdequacy.Solution",
+  "theorem": "TruthCore.Results.Explanation.ActualExistenceAdequacy.comparison",
+  "comparator_config": "results/ACTUAL-EXISTENCE-ADEQUACY-COMPARISON/comparator.json",
+  "status": "solution-present",
+  "description": "On the SAME explicit concrete Unit bearer, chain and fork have coherent existence facts, actual existence and accessible absence. They agree on all world-relative fact truths and existence. Basic-evidence verification independence holds for the proposed reason and fails for a copied target condition. The reason is modally coextensive with the target even in the productive chain. Supplied intervention responses distinguish chain from fork. Logical evidence independence does not supply those responses or IV admissibility. This is a finite source-motivated failed universal discriminator, not an independently defended ultimate-existence standard, real-world ontology, or root closure."
+}

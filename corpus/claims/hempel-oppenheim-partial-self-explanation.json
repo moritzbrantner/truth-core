@@ -1,0 +1,16 @@
+{
+  "id": "HEMPEL-OPPENHEIM-PARTIAL-SHARED-CONTENT-NOT-BANNED",
+  "statement_id": "STMT-PARTIAL-SHARED-CONTENT-NOT-BANNED",
+  "source_id": "HEMPEL-OPPENHEIM-LOGIC-EXPLANATION",
+  "locator": "pp.160–162, §7 (7.5)–(7.7)",
+  "interpretation": "The passage distinguishes complete C-alone derivability from partial shared content, gives equivalent reformulations and theorem (7.7), and expressly declines a blanket prohibition. This supports rejection of that particular stronger norm, not permission for every circular account. Full materialized relevant context read; source positions are distinct from analyst defenses and application commitments.",
+  "attribution": "The passage states Prohibiting all shared content between antecedent conditions and a singular explanandum would restrict explanation to purely theoretical derivations; ordinary usage supplies no warranted arbitrary cutoff for partial self-explanation, which is the qualified source premise.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ACTUAL-EXISTENCE-ADEQUACY-DOMAINS",
+    "DEF-PSR-STRENGTH-ARENA"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ACTUAL-EXISTENCE-VERIFICATION-RELEVANCE"
+  ]
+}

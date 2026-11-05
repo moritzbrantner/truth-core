@@ -1,0 +1,16 @@
+{
+  "id": "HEMPEL-OPPENHEIM-EXPLANATORY-THEORY-NOT-ARBITRARY-TRUTH",
+  "statement_id": "STMT-EXPLANATORY-THEORY-NOT-ARBITRARY-TRUTH",
+  "source_id": "HEMPEL-OPPENHEIM-LOGIC-EXPLANATION",
+  "locator": "pp.158–160, §7 (7.2)–(7.6)",
+  "interpretation": "The passage defines theories from true purely generalized sentences or their essentially generalized consequences, then requires a theory in (7.6). Its model language assumes qualitative predicates and physical objects or spacetime locations. No ultimate-existence applicability is stated. Full materialized relevant context read; source positions are distinct from analyst defenses and application commitments.",
+  "attribution": "The passage states In the specified model language for particular-event explanation, a true explanans requires a theory, not merely an arbitrary true essentially generalized sentence, together with a true singular component, which is the qualified source premise.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ACTUAL-EXISTENCE-ADEQUACY-DOMAINS",
+    "DEF-PSR-STRENGTH-ARENA"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ACTUAL-EXISTENCE-VERIFICATION-RELEVANCE"
+  ]
+}

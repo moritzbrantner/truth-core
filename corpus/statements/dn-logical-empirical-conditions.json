@@ -1,0 +1,11 @@
+{
+  "id": "STMT-DEDUCTIVE-EXPLANATION-LAW-TRUTH-CONTENT",
+  "paraphrase": "A deductive scientific explanation must entail its explanandum, use general laws essentially in that derivation, have empirical content, and have a true explanans.",
+  "definition_ids": [
+    "DEF-ACTUAL-EXISTENCE-ADEQUACY-DOMAINS",
+    "DEF-PSR-STRENGTH-ARENA"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ACTUAL-EXISTENCE-VERIFICATION-RELEVANCE"
+  ]
+}
