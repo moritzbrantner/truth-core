@@ -14,6 +14,7 @@ from typing import Any, Callable, Iterable
 
 from source_evidence import BIBLIOGRAPHIC_WITNESS, UNAVAILABLE_WITNESS, SourceEvidenceError, validate_bindings
 from premise_dossiers import dossier_index, format_dossier, validate_attempt
+from attribution_check import AttributionError, validate_attribution
 from finite_models import validate_model, model_report, verify_models
 from configurations import validate_case, configuration_report, verify_case, verify_compositions
 from territory import format_territory, territory_report
@@ -2058,6 +2059,10 @@ def validate() -> dict[str, int]:
             raise CorpusError(
                 f"{path.relative_to(ROOT)}: claim status must be 'formalized' in the MVP"
             )
+        try:
+            validate_attribution(str(path.relative_to(ROOT)), claim)
+        except AttributionError as exc:
+            raise CorpusError(str(exc)) from exc
         parent = claim.get("interpretation_of")
         if parent is not None and parent not in claim_index:
             raise CorpusError(
@@ -3462,6 +3467,15 @@ def command_models(args: argparse.Namespace) -> int:
     return 0
 
 
+def command_attribution_check(args: argparse.Namespace) -> int:
+    import attribution_check
+
+    argv = ["--base", args.base, "--max-chars", str(args.max_chars)]
+    if args.materialize:
+        argv.append("--materialize")
+    return attribution_check.main(argv)
+
+
 def command_bind_check(args: argparse.Namespace) -> int:
     validate()
     results = load_dir("results")
@@ -3924,6 +3938,14 @@ def parser() -> argparse.ArgumentParser:
     sub.add_parser("results", help="print verification result IDs, one per line").set_defaults(
         func=command_ids("results")
     )
+    attribution = sub.add_parser(
+        "attribution-check",
+        help="pre-push gate (#989): premise vs pinned passage text for each new or changed stating claim",
+    )
+    attribution.add_argument("--base", required=True, help="diff base, for example origin/main; the head is the working tree")
+    attribution.add_argument("--materialize", action="store_true", help="materialize passages not yet cached")
+    attribution.add_argument("--max-chars", type=int, default=6000, help="clip each passage text (0: never)")
+    attribution.set_defaults(func=command_attribution_check)
     bind = sub.add_parser(
         "bind-check",
         help="check that argument premises/conclusions match each result theorem's Lean type (after lake build)",
