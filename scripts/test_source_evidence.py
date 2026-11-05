@@ -906,7 +906,7 @@ class PullRequestScopeTest(unittest.TestCase):
         self.assertIn("WEB-A: unavailable, NOT byte-verified", out.getvalue())
         self.assertIn("source evidence incomplete", out.getvalue())
 
-    def test_unreachable_witness_without_wayback_is_not_deferred(self) -> None:
+    def test_unreachable_witness_without_wayback_is_deferred_as_unverified(self) -> None:
         passage = self.passages["WEB-A"][1]
         passage.pop("wayback_url", None)
         passage.pop("wayback_sha256", None)
@@ -917,12 +917,44 @@ class PullRequestScopeTest(unittest.TestCase):
             mock.patch.object(se, "validate_bindings", return_value=(1, 0)),
             mock.patch.object(
                 se, "fetch_web_bytes",
-                side_effect=se.SourceUnavailableError("WEB-A: cannot fetch: HTTP 403"),
+                side_effect=se.SourceUnavailableError("WEB-A: cannot fetch: HTTP 404"),
+            ),
+            contextlib.redirect_stdout(io.StringIO()) as out,
+        ):
+            self.assertEqual(se.verify_all(defer_unavailable_ids={"WEB-A"}), 0)
+        self.assertIn("WEB-A: unavailable, NOT byte-verified", out.getvalue())
+        self.assertIn("source evidence incomplete", out.getvalue())
+
+    def test_unreachable_witness_without_wayback_is_strict_when_not_deferred(self) -> None:
+        passage = self.passages["WEB-A"][1]
+        passage.pop("wayback_url", None)
+        passage.pop("wayback_sha256", None)
+        only = {"WEB-A": self.passages["WEB-A"]}
+
+        with (
+            mock.patch.object(se, "passage_index", return_value=only),
+            mock.patch.object(se, "validate_bindings", return_value=(1, 0)),
+            mock.patch.object(
+                se, "fetch_web_bytes",
+                side_effect=se.SourceUnavailableError("WEB-A: cannot fetch: HTTP 404"),
             ),
         ):
-            with self.assertRaisesRegex(se.SourceEvidenceError, "HTTP 403") as caught:
+            with self.assertRaisesRegex(se.SourceEvidenceError, "HTTP 404"):
+                se.verify_all()
+
+    def test_byte_drift_without_wayback_is_never_deferred(self) -> None:
+        passage = self.passages["WEB-A"][1]
+        passage.pop("wayback_url", None)
+        passage.pop("wayback_sha256", None)
+        only = {"WEB-A": self.passages["WEB-A"]}
+
+        with (
+            mock.patch.object(se, "passage_index", return_value=only),
+            mock.patch.object(se, "validate_bindings", return_value=(1, 0)),
+            mock.patch.object(se, "fetch_web_bytes", side_effect=se.SourceEvidenceError("WEB-A: byte drift")),
+        ):
+            with self.assertRaisesRegex(se.SourceEvidenceError, "byte drift"):
                 se.verify_all(defer_unavailable_ids={"WEB-A"})
-        self.assertNotIsInstance(caught.exception, se.SourceUnavailableError)
 
     def test_changed_witness_remains_strict_when_unreachable(self) -> None:
         passage = self.passages["WEB-A"][1]

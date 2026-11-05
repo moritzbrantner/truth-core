@@ -1272,9 +1272,11 @@ def resolve_web_snapshot(passage: dict[str, Any], *, use_cache: bool = True, fet
         data = fetch(passage["source_url"], passage["sha256"], passage["id"])
     except SourceEvidenceError as live_error:
         if not passage.get("wayback_url"):
-            # Without a pinned fallback there is no second failed fetch, so even a
-            # transport failure stays a hard (non-deferrable) error.
-            raise SourceEvidenceError(str(live_error)) from live_error
+            # No pinned fallback: the live error keeps its type, so a transport
+            # failure stays an availability error and byte drift stays an
+            # integrity error. Only `verify --defer-unavailable-unchanged` (main
+            # pushes) may defer the former, and it reports it as not verified.
+            raise
         try:
             data = fetch(passage["wayback_url"], passage["wayback_sha256"], passage["id"])
         except SourceEvidenceError as archive_error:
