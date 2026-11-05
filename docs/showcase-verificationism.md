@@ -266,10 +266,14 @@ sentence of the recommended language".
 (`ATTEMPT-CARNAP-V4-BRIDGE-1008`, outcome: blocked), I tried three routes:
 
 - **The pragmatic-justification regress.** On what grounds is the proposal
-  adopted? Carnap answers that the grounds are factual questions of
-  efficiency, "a matter of fact, based upon the content of our experiences",
-  asked inside an accepted language (`CARNAP-ESO-II-EFFICIENCY-FACT`). No
-  further criterion is needed, so no regress arises.
+  adopted? Carnap's sourced answer is that the grounds are factual questions
+  of efficiency, "a matter of fact, based upon the content of our
+  experiences", which make a language advisable
+  (`CARNAP-ESO-II-EFFICIENCY-FACT`). He does not say whether those grounds
+  need a further meaning criterion. The conclusion that no regress arises is
+  the analyst's reasoning, not Carnap's: it assumes efficiency claims can be
+  assessed inside an accepted empirical language. The search did not
+  establish a regress against V4.
 - **Quine 1951.** As SEP reports him, Quine rejects the internal/external
   distinction because it rests on the analytic/synthetic distinction
   (`SEP-CARNAP-7-QUINE`). This is recorded as `attacks`. It bites only if

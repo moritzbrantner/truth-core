@@ -3,7 +3,7 @@
   "statement_id": "STMT-CARNAP-ADOPTION-ADVISED-BY-EMPIRICAL-EFFICIENCY",
   "source_id": "CARNAP-ESO",
   "locator": "§II, p. 6, \"This is a matter of fact, based upon the content of our experiences.\"",
-  "interpretation": "Carnap's answer to 'on what grounds is the proposal adopted?': on factual grounds about efficiency, statable inside an accepted empirical language, which advise acceptance without being evidence for an external thesis. This blocks the pragmatic-justification regress as a bridge against V4: the grounds need no further meaning criterion beyond the language in which they are stated.",
+  "interpretation": "Carnap's answer to 'on what grounds is a framework adopted?': the decision is influenced by theoretical knowledge, questions of a language's efficiency are theoretical questions of degree, and the thing language's efficiency is a matter of fact based on experience, which makes it advisable to accept it, not confirming evidence for the reality of the thing world. The passage gives the rationale only; it does not address whether those grounds need a further meaning criterion. The inference that no regress arises is the analyst's (ATTEMPT-CARNAP-V4-BRIDGE-1008), not Carnap's.",
   "attribution": "The passage states that the decision to accept the thing language is influenced by theoretical knowledge, that questions about its efficiency are theoretical questions of degree, and that its efficiency is a matter of fact based on experience which makes it advisable to accept it, which is the premise.",
   "status": "formalized"
 }
