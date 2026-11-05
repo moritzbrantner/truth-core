@@ -1,0 +1,19 @@
+{
+  "id": "ATTEMPT-WITTGENSTEIN-TLP-LE-1010",
+  "statement_ids": [
+    "STMT-TLP-GOD-SENTENCES-NONSENSICAL",
+    "STMT-NATURAL-THEOLOGY-ARGUABLE",
+    "STMT-LE-WONDER-AT-EXISTENCE-NONSENSE"
+  ],
+  "date": "2026-11-05",
+  "kind": "reading",
+  "outcome": "succeeded",
+  "summary": "Read the German Tractatus (Preface, 4.003, 4.01, 4.11-4.112, 6.4-6.522, 7) from the Gutenberg #5740 LaTeX source and the Lecture on Ethics from the Wittgenstein Project, with the traditional and resolute readings reported in SEP Wittgenstein §2.4. 6.53-6.54 left to #1008. Findings: the Tractatus is a meaning-theoretic rival to the arguability of natural theology only on its traditional reading, and only as an unattributed reconstruction from 4.003, 4.11, 6.42 and 6.432 (none states it); on the resolute reading it is no thesis. No route premise states arguability, so no route leaf gains a rival. The Lecture on Ethics adds a rival to the statementhood, not the truth, of 'something exists' type claims: wonder at the world's existence is nonsense because its non-existence is unimaginable (bipolarity); it reads 'God created the world' as expressing that experience. Lean: not built. The bipolarity point (a sentence true in every possibility has no sense) is a two-line unfolding with no real logical content; recording it would be decorative.",
+  "evidence": [
+    "WITTGENSTEIN-TLP-4-11-NATURAL-SCIENCE",
+    "WITTGENSTEIN-TLP-6-432-GOD-NOT-REVEALED",
+    "SEP-WITTGENSTEIN-2-4-RESOLUTE-A",
+    "WITTGENSTEIN-LE-WONDER-AT-EXISTENCE"
+  ],
+  "blocker": "The Lectures and Conversations on Religious Belief (1938; ed. Barrett 1966) are students' notes in copyright with no hosted copy; they enter only as SEP-RELIGIOUS-LANGUAGE §4.2 reports them."
+}

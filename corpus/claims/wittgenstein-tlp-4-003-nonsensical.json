@@ -1,0 +1,9 @@
+{
+  "id": "WITTGENSTEIN-TLP-4-003-NONSENSICAL",
+  "statement_id": "STMT-TLP-PHILOSOPHICAL-PROPOSITIONS-NONSENSICAL",
+  "source_id": "WITTGENSTEIN-TRACTATUS",
+  "locator": "TLP 4.003, Die meisten Sätze und Fragen, welche über philosophische Dinge geschrieben worden sind, sind nicht falsch, sondern unsinnig",
+  "interpretation": "4.003: 'Die meisten Sätze und Fragen, welche über philosophische Dinge geschrieben worden sind, sind nicht falsch, sondern unsinnig.' Quantifier kept: 'die meisten', most, not all.",
+  "status": "formalized",
+  "attribution": "The passage states that most propositions and questions written about philosophical matters are not false but nonsensical and arise from not understanding the logic of our language, which is the premise."
+}

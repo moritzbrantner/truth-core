@@ -1,0 +1,9 @@
+{
+  "id": "REL-TLP-4-11-SUPPORTS-GOD-SENTENCES-NONSENSICAL",
+  "subject_kind": "claim",
+  "subject_id": "WITTGENSTEIN-TLP-4-11-NATURAL-SCIENCE",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-TLP-GOD-SENTENCES-NONSENSICAL",
+  "note": "4.11 gives that every true proposition is natural science; it does not mention God and leaves open whether a sentence about God could be a false proposition with sense."
+}

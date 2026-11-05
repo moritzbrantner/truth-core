@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-TLP-NONSENSE",
+  "term": "nonsense (Unsinn) in the Tractatus",
+  "sense_definition_ids": [
+    "DEF-TLP-NONSENSE-ILLUMINATING",
+    "DEF-TLP-NONSENSE-PLAIN"
+  ],
+  "resolution": "STMT-TLP-TRADITIONAL-READING-INEFFABLE-SHOWN takes the illuminating sense, STMT-TLP-RESOLUTE-READING-NO-INEFFABLE the plain sense; STMT-TLP-INEXPRESSIBLE-SHOWS-ITSELF and STMT-TLP-PHILOSOPHICAL-PROPOSITIONS-NONSENSICAL quote the text and take neither. The rival STMT-TLP-GOD-SENTENCES-NONSENSICAL is reconstructed on the traditional reading; on the resolute reading the propositions it is reconstructed from are themselves plain nonsense, so it is no thesis at all and rivals nothing (the book's self-application, 6.54, is the subject of #1008). No record passes from one sense to the other."
+}
