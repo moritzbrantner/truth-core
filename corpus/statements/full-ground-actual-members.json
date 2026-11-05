@@ -1,0 +1,18 @@
+{
+  "id": "STMT-FULL-GROUND-ACTUAL-MEMBERS",
+  "paraphrase": "Every member of every admitted candidate complete-ground set is true at the fixed actual world.",
+  "lean_declaration": "TruthCore.Explanation.GroundingBaseline.ActualMembers",
+  "definition_ids": [
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-ADMITTED-FULL-GROUND-SETS",
+    "DEF-FULL-GROUND-ACTUAL-MEMBERS",
+    "DEF-FULL-GROUND-MEMBER-DEPENDENCY",
+    "DEF-FULL-GROUND-JOINT-NECESSITATION",
+    "DEF-CONTINGENT-FULL-GROUND-TERMINUS",
+    "DEF-FACT-DEPENDENCY-WELL-FOUNDED",
+    "DEF-BOXED-FACT-TRUTH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GROUNDING-BASELINE-SENSES"
+  ]
+}

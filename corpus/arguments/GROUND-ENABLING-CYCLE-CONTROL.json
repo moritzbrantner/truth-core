@@ -1,0 +1,18 @@
+{
+  "id": "GROUND-ENABLING-CYCLE-CONTROL",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-GROUND-ENABLING-CYCLE-CONTROL",
+  "inference_ids": [
+    "INF-GROUND-ENABLING-CYCLE-CONTROL"
+  ],
+  "meaning": "Separate raw/enabling relations; reuse exact graph WF controls and Mathlib SCC equivalence from CondensationSufficiency.comp_eq_iff; exhibit two fixed assignments and full-union cycle.",
+  "definition_ids": [
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-GROUND-ENABLING-RULES",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-FACT-DEPENDENCY-WELL-FOUNDED"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GROUNDING-BASELINE-SENSES"
+  ]
+}

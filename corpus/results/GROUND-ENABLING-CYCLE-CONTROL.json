@@ -1,0 +1,10 @@
+{
+  "id": "GROUND-ENABLING-CYCLE-CONTROL",
+  "argument_id": "GROUND-ENABLING-CYCLE-CONTROL",
+  "challenge_module": "TruthCore.Results.Explanation.GroundingBaseline.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.GroundingBaseline.Solution",
+  "theorem": "TruthCore.Results.Explanation.GroundingBaseline.enablingCycle",
+  "comparator_config": "results/GROUND-ENABLING-CYCLE-CONTROL/comparator.json",
+  "status": "solution-present",
+  "description": "Separate raw/enabling relations; reuse exact graph WF controls and Mathlib SCC equivalence from CondensationSufficiency.comp_eq_iff; exhibit two fixed assignments and full-union cycle."
+}

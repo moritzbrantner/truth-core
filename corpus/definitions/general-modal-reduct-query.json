@@ -1,0 +1,8 @@
+{
+  "id": "DEF-GENERAL-MODAL-REDUCT-QUERY",
+  "term": "shared ground-free semantic query",
+  "definition": "For any two extensions with pointwise equivalent access/existence and the same rigid carrier identity, every SAME semantic query function receiving only those three reduct relations has equivalent truth. The query may quantify internally but must factor through that shared reduct; it receives no differing ground interpretation. Extensionality/propositional extensionality are explicit mathematical proof tools, not a claim about ground-sensitive queries.",
+  "basis": "stipulative",
+  "note": "Semantic factorization of #545 A, not a new modal language. The same function and external parameters are held fixed; allowing differently captured grounding interpretations would not meet that factorization. No metaphysical applicability is established.",
+  "lean_declaration": "TruthCore.Explanation.GroundingBaseline.Reduct.GeneralInvariant"
+}

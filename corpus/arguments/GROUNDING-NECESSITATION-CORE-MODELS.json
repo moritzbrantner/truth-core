@@ -1,0 +1,17 @@
+{
+  "id": "GROUNDING-NECESSITATION-CORE-MODELS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-GROUNDING-NECESSITATION-CORE-MODELS",
+  "inference_ids": [
+    "INF-GROUNDING-NECESSITATION-CORE-MODELS"
+  ],
+  "meaning": "Exact C/N/S contradiction and three deletion models, all with actual p/q truth.",
+  "definition_ids": [
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-BOXED-FACT-TRUTH",
+    "DEF-NECESSARY-FULL-CONDITION-IMPLICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GROUNDING-BASELINE-SENSES"
+  ]
+}

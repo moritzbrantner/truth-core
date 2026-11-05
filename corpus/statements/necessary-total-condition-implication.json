@@ -1,0 +1,13 @@
+{
+  "id": "STMT-NECESSARY-TOTAL-CONDITION-IMPLICATION",
+  "paraphrase": "At every world accessible from a in the same Arena, truth of the supplied total condition q implies truth of p. That q includes every relevant ground/enabler is an explicit interpretation burden, not proved by the implication.",
+  "lean_declaration": "TruthCore.Explanation.GroundingBaseline.NecessaryImplication",
+  "definition_ids": [
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-BOXED-FACT-TRUTH",
+    "DEF-NECESSARY-FULL-CONDITION-IMPLICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GROUNDING-BASELINE-SENSES"
+  ]
+}

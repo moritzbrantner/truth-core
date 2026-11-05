@@ -1,0 +1,18 @@
+{
+  "id": "STMT-FULL-GROUND-LINKED-MEMBERS",
+  "paraphrase": "Every member of each admitted candidate complete-ground set is an immediate predecessor of its target under the supplied R.",
+  "lean_declaration": "TruthCore.Explanation.GroundingBaseline.LinkedMembers",
+  "definition_ids": [
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-ADMITTED-FULL-GROUND-SETS",
+    "DEF-FULL-GROUND-ACTUAL-MEMBERS",
+    "DEF-FULL-GROUND-MEMBER-DEPENDENCY",
+    "DEF-FULL-GROUND-JOINT-NECESSITATION",
+    "DEF-CONTINGENT-FULL-GROUND-TERMINUS",
+    "DEF-FACT-DEPENDENCY-WELL-FOUNDED",
+    "DEF-BOXED-FACT-TRUTH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GROUNDING-BASELINE-SENSES"
+  ]
+}

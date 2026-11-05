@@ -1,0 +1,9 @@
+{
+  "id": "INF-CONTINGENT-FULL-GROUND-TERMINUS-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-CONTINGENT-FULL-GROUND-TERMINUS-CONTROLS",
+  "rule": "Explicit typed deduction and matched model construction",
+  "meaning": "Arbitrary-set terminus schema, matched consistency model and four one-policy deletion controls.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

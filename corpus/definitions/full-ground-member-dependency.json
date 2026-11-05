@@ -1,0 +1,8 @@
+{
+  "id": "DEF-FULL-GROUND-MEMBER-DEPENDENCY",
+  "term": "membership as immediate dependency",
+  "definition": "LinkedMembers requires every member r of every admitted complete-ground candidate S for f to satisfy R r f. R is one actual fact-dependency relation. Its well-foundedness is a separate policy; admission itself neither forbids self-membership nor proves termination.",
+  "basis": "stipulative",
+  "note": "Analyst framework for #545, not independently established metaphysical applicability. See docs/notes/grounding-baseline-545.md for examples, exclusions, structural properties and strongest rival replies.",
+  "lean_declaration": "TruthCore.Explanation.GroundingBaseline.LinkedMembers"
+}

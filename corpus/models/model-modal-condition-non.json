@@ -1,0 +1,79 @@
+{
+  "id": "MODEL-MODAL-CONDITION-NON",
+  "description": "Universal two-world same-frame C/N/S deletion control noN; actual p and q true. A mathematical interpretation, not metaphysical possibility.",
+  "vocabulary": "grounding-modal-condition-core",
+  "lean_declaration": "TruthCore.Explanation.GroundingBaseline.noN",
+  "bindings": {
+    "W": "Bool",
+    "F": "Bool",
+    "K": "TruthCore.Explanation.GroundingBaseline.noN.ontic.frame",
+    "truth": "TruthCore.Explanation.GroundingBaseline.noN.holds",
+    "a": "Bool.false",
+    "p": "Bool.false",
+    "q": "Bool.true"
+  },
+  "carriers": [
+    {
+      "binding": "W",
+      "elements": [
+        "Bool.false",
+        "Bool.true"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
+    },
+    {
+      "binding": "F",
+      "elements": [
+        "Bool.false",
+        "Bool.true"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "STMT-CONDITION-CONTINGENT-PROFILE",
+      "value": "satisfies",
+      "arguments": [
+        "W",
+        "F",
+        "K",
+        "truth",
+        "a",
+        "p"
+      ],
+      "theorem": "TruthCore.Results.Explanation.GroundingBaseline.noN_cont"
+    },
+    {
+      "statement_id": "STMT-CONDITION-NECESSARY-PROFILE",
+      "value": "violates",
+      "arguments": [
+        "W",
+        "F",
+        "K",
+        "truth",
+        "a",
+        "q"
+      ],
+      "theorem": "TruthCore.Results.Explanation.GroundingBaseline.noN_nec"
+    },
+    {
+      "statement_id": "STMT-CONDITION-IMPLICATION-PROFILE",
+      "value": "satisfies",
+      "arguments": [
+        "W",
+        "F",
+        "K",
+        "truth",
+        "a",
+        "q",
+        "p"
+      ],
+      "theorem": "TruthCore.Results.Explanation.GroundingBaseline.noN_imp"
+    }
+  ],
+  "modules": [
+    "TruthCore.Results.Explanation.GroundingBaseline.Solution",
+    "TruthCore.Models.FiniteSupport"
+  ]
+}

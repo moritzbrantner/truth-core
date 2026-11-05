@@ -1,0 +1,8 @@
+{
+  "id": "DEF-BOXED-FACT-TRUTH",
+  "term": "boxed fact truth",
+  "definition": "The existing StoppingPoints.NecessaryFact says the same fact is true at every world accessible from a. It need not be actually true without actual reflexivity; it is not a necessarily existing bearer or essence. GroundingBaseline exports that existing declaration rather than adding another necessity notion.",
+  "basis": "stipulative",
+  "note": "Analyst framework for #545, not independently established metaphysical applicability. See docs/notes/grounding-baseline-545.md for examples, exclusions, structural properties and strongest rival replies.",
+  "lean_declaration": "TruthCore.Explanation.StoppingPoints.NecessaryFact"
+}

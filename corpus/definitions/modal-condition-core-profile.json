@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MODAL-CONDITION-CORE-PROFILE",
+  "term": "raw-frame C/N/S specialization",
+  "definition": "conditionArena constructs the same existing basic arena from a Kripke frame and fact valuation. ConditionContingent, ConditionNecessary and ConditionImplication specialize the same arena predicates without any new policy. This exposes data-only frame/valuation roles to the existing configuration tool, which does not accept a three-carrier Arena parameter; no policy is discarded to fit a bound.",
+  "basis": "stipulative",
+  "note": "Analyst framework for #545, not independently established metaphysical applicability. See docs/notes/grounding-baseline-545.md for examples, exclusions, structural properties and strongest rival replies.",
+  "lean_declaration": "TruthCore.Explanation.GroundingBaseline.conditionArena"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-FACT-DEPENDENCY-WELL-FOUNDED",
+  "term": "well-founded fact-dependency relation",
+  "definition": "WellFounded R is the existing Lean accessibility condition on an arbitrary fixed fact relation, excluding finite cycles and infinite backward predecessor descent. It is not inferred from being called grounding, and need not be true of every serious metaphysical framework.",
+  "basis": "stipulative",
+  "note": "Analyst framework for #545, not independently established metaphysical applicability. See docs/notes/grounding-baseline-545.md for examples, exclusions, structural properties and strongest rival replies.",
+  "lean_declaration": "WellFounded"
+}

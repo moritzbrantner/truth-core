@@ -1,0 +1,14 @@
+{
+  "id": "STMT-CONDITION-IMPLICATION-PROFILE",
+  "paraphrase": "Raw-frame specialization of the same necessarily true implication q→p, with the frame/valuation fixed across every selected premise.",
+  "lean_declaration": "TruthCore.Explanation.GroundingBaseline.ConditionImplication",
+  "definition_ids": [
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-BOXED-FACT-TRUTH",
+    "DEF-NECESSARY-FULL-CONDITION-IMPLICATION",
+    "DEF-MODAL-CONDITION-CORE-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GROUNDING-BASELINE-SENSES"
+  ]
+}

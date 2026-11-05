@@ -1,0 +1,18 @@
+{
+  "id": "STMT-CONTINGENT-FULL-GROUND-TERMINUS",
+  "paraphrase": "Some actually contingent fact has no admitted complete-ground candidate set at all. The selected fact need not be the originally supplied contingent target and can retain partial reasons, efficient causes or nonnecessitating explanations.",
+  "lean_declaration": "TruthCore.Explanation.GroundingBaseline.UngroundedContingent",
+  "definition_ids": [
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-ADMITTED-FULL-GROUND-SETS",
+    "DEF-FULL-GROUND-ACTUAL-MEMBERS",
+    "DEF-FULL-GROUND-MEMBER-DEPENDENCY",
+    "DEF-FULL-GROUND-JOINT-NECESSITATION",
+    "DEF-CONTINGENT-FULL-GROUND-TERMINUS",
+    "DEF-FACT-DEPENDENCY-WELL-FOUNDED",
+    "DEF-BOXED-FACT-TRUTH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GROUNDING-BASELINE-SENSES"
+  ]
+}

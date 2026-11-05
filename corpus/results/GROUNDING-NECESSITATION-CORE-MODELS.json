@@ -1,0 +1,10 @@
+{
+  "id": "GROUNDING-NECESSITATION-CORE-MODELS",
+  "argument_id": "GROUNDING-NECESSITATION-CORE-MODELS",
+  "challenge_module": "TruthCore.Results.Explanation.GroundingBaseline.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.GroundingBaseline.Solution",
+  "theorem": "TruthCore.Results.Explanation.GroundingBaseline.necessitationCore",
+  "comparator_config": "results/GROUNDING-NECESSITATION-CORE-MODELS/comparator.json",
+  "status": "solution-present",
+  "description": "Exact C/N/S contradiction and three deletion models, all with actual p/q truth."
+}

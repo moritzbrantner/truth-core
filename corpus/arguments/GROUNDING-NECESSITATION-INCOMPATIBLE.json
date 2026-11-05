@@ -1,0 +1,21 @@
+{
+  "id": "GROUNDING-NECESSITATION-INCOMPATIBLE",
+  "premise_statement_ids": [
+    "STMT-FACT-CONTINGENT-AT",
+    "STMT-FACT-NECESSARY-AT",
+    "STMT-NECESSARY-TOTAL-CONDITION-IMPLICATION"
+  ],
+  "conclusion_statement_id": "STMT-CONFIGURATION-FALSE",
+  "inference_ids": [
+    "INF-GROUNDING-NECESSITATION-INCOMPATIBLE"
+  ],
+  "meaning": "Apply existing Kripke K to boxed q and boxed q→p, then contradict the accessible failure of actual contingent p. No reflexivity or S5.",
+  "definition_ids": [
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-BOXED-FACT-TRUTH",
+    "DEF-NECESSARY-FULL-CONDITION-IMPLICATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GROUNDING-BASELINE-SENSES"
+  ]
+}

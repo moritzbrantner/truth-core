@@ -1,0 +1,10 @@
+{
+  "id": "CONTINGENT-FULL-GROUND-TERMINUS",
+  "argument_id": "CONTINGENT-FULL-GROUND-TERMINUS",
+  "challenge_module": "TruthCore.Results.Explanation.GroundingBaseline.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.GroundingBaseline.Solution",
+  "theorem": "TruthCore.Results.Explanation.GroundingBaseline.contingentTerminus",
+  "comparator_config": "results/CONTINGENT-FULL-GROUND-TERMINUS/comparator.json",
+  "status": "solution-present",
+  "description": "Consume existing ExplanatoryAdequacy.forced on an explicit R-reason projection. Under WF, an actually contingent member with only noncontingent predecessors cannot admit any candidate complete-ground set: actual members would all be boxed true, and joint sufficiency would contradict that member’s accessible failure. Explicit EM extracts the existential; no stronger ReasonClosed/nonCopy/coverage hypothesis."
+}

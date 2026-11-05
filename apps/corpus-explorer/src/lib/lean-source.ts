@@ -15,6 +15,8 @@ export type LeanLocation = {
   file: string;
   /** 1-based line of the declaration keyword. */
   line: number;
+  /** Official pinned source URL for declarations outside this repository. */
+  sourceUrl?: string;
   /** Preceding doc comment (if any) and the declaration block. */
   snippet: string;
 };
@@ -100,6 +102,21 @@ export function indexLeanSource(relativeFile: string, text: string): LeanLocatio
   return found;
 }
 
+/** Source-location metadata only, not proof certification. The declaration and
+ * line were inspected in this exact installed Lean release (Init/WF.lean:60).
+ * An uninspected toolchain gets no guessed location. No library fetch is needed.
+ */
+export function pinnedCoreLocations(toolchain: string): LeanLocation[] {
+  if (toolchain.trim() !== "leanprover/lean4:v4.35.0") return [];
+  return [{
+    name: "WellFounded",
+    file: "src/Init/WF.lean",
+    line: 60,
+    sourceUrl: "https://github.com/leanprover/lean4/blob/v4.35.0/src/Init/WF.lean#L60",
+    snippet: "Lean core accessibility predicate; see the pinned official declaration.",
+  }];
+}
+
 let cached: Map<string, LeanLocation> | null = null;
 
 export function leanIndex(root = repositoryRoot): Map<string, LeanLocation> {
@@ -110,6 +127,9 @@ export function leanIndex(root = repositoryRoot): Map<string, LeanLocation> {
     for (const location of indexLeanSource(relative, readFileSync(file, "utf8"))) {
       if (!index.has(location.name)) index.set(location.name, location);
     }
+  }
+  for (const location of pinnedCoreLocations(readFileSync(path.join(root, "lean-toolchain"), "utf8"))) {
+    if (!index.has(location.name)) index.set(location.name, location);
   }
   if (root === repositoryRoot) cached = index;
   return index;

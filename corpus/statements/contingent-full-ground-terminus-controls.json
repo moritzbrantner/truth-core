@@ -1,0 +1,18 @@
+{
+  "id": "STMT-CONTINGENT-FULL-GROUND-TERMINUS-CONTROLS",
+  "paraphrase": "Given explicit EM, an actual contingent fact, WF of the supplied fact relation, actual members, member-to-relation links and joint necessitation for ALL admitted candidate sets, some contingent fact has no admitted complete ground. Reuses forced descent, without ReasonClosed/nonCopy/coverage. A brute-relative-to-G model satisfies the backgrounds. Separate controls retain actual contingency and full-candidate coverage while independently omitting actual member truth, linkage, joint necessitation or WF. These witness no metaphysical possibility or privileged rejection.",
+  "lean_declaration": "TruthCore.Explanation.GroundingBaseline.ContingentTerminus",
+  "definition_ids": [
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-ADMITTED-FULL-GROUND-SETS",
+    "DEF-FULL-GROUND-ACTUAL-MEMBERS",
+    "DEF-FULL-GROUND-MEMBER-DEPENDENCY",
+    "DEF-FULL-GROUND-JOINT-NECESSITATION",
+    "DEF-CONTINGENT-FULL-GROUND-TERMINUS",
+    "DEF-FACT-DEPENDENCY-WELL-FOUNDED",
+    "DEF-BOXED-FACT-TRUTH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GROUNDING-BASELINE-SENSES"
+  ]
+}

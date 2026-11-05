@@ -1,0 +1,22 @@
+{
+  "id": "CONTINGENT-FULL-GROUND-TERMINUS-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-CONTINGENT-FULL-GROUND-TERMINUS-CONTROLS",
+  "inference_ids": [
+    "INF-CONTINGENT-FULL-GROUND-TERMINUS-CONTROLS"
+  ],
+  "meaning": "Arbitrary-set terminus schema, matched consistency model and four one-policy deletion controls.",
+  "definition_ids": [
+    "DEF-PSR-STRENGTH-ARENA",
+    "DEF-ADMITTED-FULL-GROUND-SETS",
+    "DEF-FULL-GROUND-ACTUAL-MEMBERS",
+    "DEF-FULL-GROUND-MEMBER-DEPENDENCY",
+    "DEF-FULL-GROUND-JOINT-NECESSITATION",
+    "DEF-CONTINGENT-FULL-GROUND-TERMINUS",
+    "DEF-FACT-DEPENDENCY-WELL-FOUNDED",
+    "DEF-BOXED-FACT-TRUTH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GROUNDING-BASELINE-SENSES"
+  ]
+}

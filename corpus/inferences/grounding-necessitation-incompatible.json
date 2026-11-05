@@ -1,0 +1,13 @@
+{
+  "id": "INF-GROUNDING-NECESSITATION-INCOMPATIBLE",
+  "input_statement_ids": [
+    "STMT-FACT-CONTINGENT-AT",
+    "STMT-FACT-NECESSARY-AT",
+    "STMT-NECESSARY-TOTAL-CONDITION-IMPLICATION"
+  ],
+  "output_statement_id": "STMT-CONFIGURATION-FALSE",
+  "rule": "Typed deductive composition",
+  "meaning": "Apply existing Kripke K to boxed q and boxed q→p, then contradict the accessible failure of actual contingent p. No reflexivity or S5.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
