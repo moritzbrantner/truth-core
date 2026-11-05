@@ -1,0 +1,26 @@
+{
+  "id": "ATTEMPT-FALLIBLE-CORRECTION-931",
+  "date": "2026-11-06",
+  "statement_ids": [
+    "STMT-FALLIBLE-CORRECTION-CERTIFICATE",
+    "STMT-CORRECTION-CRITERION-EXACT-FACTORIZATION",
+    "STMT-TRANSCENDENTAL-INQUIRY-ACCESS-BOUNDARY",
+    "STMT-EPISTEMIC-ACCURACY-CERTIFICATE",
+    "STMT-EPISTEMIC-ACCURACY-DOMINANCE",
+    "STMT-THERE-ARE-EPISTEMIC-REASONS"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Derived finite rational weighted-majority potential and expert-weight bounds for arbitrary advice/feedback streams, corruption transfer to actual truth, and a two-expert ten-error budget allowing two expert errors and one false label. Concrete traces prove correction and misleading updates; constant false feedback yields indefinitely false answers after the initial tie, recovering in a false actual world but failing in a true one. Applied the existing characterization to shared reports rather than reimplementing exact access. Composed both #930 accuracy certificates and #929 boundary unchanged. Rejected coherence implies accuracy, apparent success self-certifies reliability, occasional correction gives an exact classifier, and a mathematical guarantee entails normative warrant. Positive restricted warrant argument, independent-check motivation, rival epistemologies and actual-error/ontology limits persist in docs/notes/fallible-correction-931.md. No new sources/claims/passages. Reused exact existing CogitoSubject.subjectlessControl, nonSubstantialBearerModel and CogitoConcrete.omissionControls in the linked ontological boundary discussion; no bearer/concreteness bridge is silently supplied.",
+  "evidence": [
+    "LOGIC-FALLIBLE-CORRECTION",
+    "CORRECTION-CRITERION-EXACT-FACTORIZATION",
+    "LOGIC-TRANSCENDENTAL-INQUIRY-ACCESS-BOUNDARY",
+    "LOGIC-EPISTEMIC-ACCURACY",
+    "LOGIC-EPISTEMIC-ACCURACY-DOMINANCE",
+    "COGITO-SUBJECTLESS-CONTROL",
+    "COGITO-NON-SUBSTANTIAL-BEARER-MODEL",
+    "COGITO-CONCRETE-OMISSION-CONTROLS"
+  ],
+  "blocker": "No actual feedback calibration, empirically justified numerical corruption bound, good expert pool or future generalization is established. The restricted epistemic reason-giving bridge has positive explanatory support but remains open against the goal-relative rival. #931 remains open for real-application warrant. F6 retained, no root premise change or closure. Full4442-job build, exact1-result binding and Comparator plus independent result NanoDa PASS. Corpus, bundle audit, source-manifest, attribution, module-format, generators and whitespace checks PASS. Final delivered-head CI/current-head review remain required. Convention sourceRevision625cb04ca568aebc8d45c90033e107a05e9bd2a0."
+}
