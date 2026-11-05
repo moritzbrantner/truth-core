@@ -1,0 +1,10 @@
+{
+  "id": "SCIENCE-INDUCTION-SELECTION",
+  "argument_id": "SCIENCE-INDUCTION-SELECTION",
+  "challenge_module": "TruthCore.Results.Science.InductionSelection.Challenge",
+  "solution_module": "TruthCore.Results.Science.InductionSelection.Solution",
+  "theorem": "TruthCore.Results.Science.InductionSelection.certificate",
+  "comparator_config": "results/SCIENCE-INDUCTION-SELECTION/comparator.json",
+  "status": "solution-present",
+  "description": "Under a supplied invertible evidence/hypothesis recoding, a neutral set-valued answer at fixed evidence is closed under hypothesis recoding, so a uniquely selected hypothesis must be a fixed point. Fixed evidence, an equivariant deterministic selector and a moved selected hypothesis are incompatible. Asymmetric evidence supports an equivariant unique selector; a privileged unique choice on symmetric evidence fails equivariance; selecting both or abstaining is neutral, and these exhaust neutral responses in the two-hypothesis model. Restriction to n observations commutes with the existing post-cutoff feature recoding, which swaps two complete predictions agreeing on every observation and differing at n. Neither a neutral singleton answer nor a total equivariant selector exists in this profile. With nonempty observations, uniformity in the original outcome coordinate selects the constant-true prediction; the same test in recoded coordinates selects the other prediction and is not neutral. Exact earlier predicate-recoding and Hume controls are reused. No physical basis, projectibility norm, induction irrationality, source attribution or root truth is established."
+}

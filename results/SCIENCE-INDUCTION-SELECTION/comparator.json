@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Science.InductionSelection.Challenge",
+  "solution_module": "TruthCore.Results.Science.InductionSelection.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Science.InductionSelection.certificate"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}
