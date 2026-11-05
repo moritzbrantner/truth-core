@@ -12,5 +12,6 @@ import TruthCore.Results.Alternatives.NightActualizationCore.Solution
 import TruthCore.Results.Alternatives.NightActualizationFork.Solution
 import TruthCore.Results.Alternatives.PerSeCausalLoopImpossible.Solution
 import TruthCore.Results.Alternatives.PhysicalGround.Solution
+import TruthCore.Results.Alternatives.PotencyAnalysisPartition.Solution
 import TruthCore.Results.Alternatives.RespectAlternatingCycle.Solution
 import TruthCore.Results.Alternatives.RespectSwitch.Solution
