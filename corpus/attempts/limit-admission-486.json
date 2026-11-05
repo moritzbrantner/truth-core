@@ -1,0 +1,18 @@
+{
+  "id": "ATTEMPT-LIMIT-ADMISSION-486",
+  "statement_ids": [
+    "STMT-FINITE-POPULATION-COVER-CONTROLS",
+    "STMT-SUPERTASK-STABLE-ENDPOINT",
+    "STMT-LIMIT-ADMISSION-PACKAGE",
+    "STMT-LIMIT-ADMISSION-CLOSED",
+    "STMT-LIMIT-ADMISSION-ADMITTED"
+  ],
+  "date": "2026-11-05",
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Reuse the exact existing Nat-tail presence and certified tail controls; prove genuine Mathlib product convergence to the unadmitted empty profile. Reciprocal real event times approach 0 with no first event; reciprocal supertask times strictly approach 1 without an endpoint event. Separate state controls reuse the existing certified oscillation and stable-endpoint theorems: Bool convergence iff existing stability, oscillation has no limit, constant stages can disagree with an independently assigned endpoint, and constant whole-state assignment is coherent. Closed admission plus convergence and stage containment is a sufficient bridge with three distinct named premises, not a proven actual-domain policy. Each negative range is not closed; its closure supplies a mathematical positive model. Reject identifying ambient closure with modal actuality, a first time with a first event, or timing convergence with state convergence/physical completion. Domain policies and applicability remain OPEN; no necessary being, causal root, physical completion or root discharge. Exact interpretation, strongest rivals, preview-cache failure/CLI fallback and proof boundaries are persisted in docs/notes/finite-population-cover-533.md. Successful research attempt is not final proof certification; gates and delivered-head CI are reported in the PR.",
+  "evidence": [
+    "LIMIT-ADMISSION",
+    "LIMIT-CLOSED-ADMISSION"
+  ]
+}

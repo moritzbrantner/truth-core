@@ -1,0 +1,14 @@
+{
+  "id": "STMT-LIMIT-ADMISSION-STAGES",
+  "paraphrase": "The supplied admission subset contains every term of the supplied Nat-indexed sequence. This open input is separate from convergence and closedness.",
+  "lean_declaration": "TruthCore.Logic.LimitAdmission.StagesAdmitted",
+  "definition_ids": [
+    "DEF-LIMIT-ADMISSION-CLOSED",
+    "DEF-LIMIT-ADMISSION-PROFILE",
+    "DEF-LIMIT-ADMISSION-EVENT",
+    "DEF-LIMIT-ADMISSION-TERMINAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-LIMIT-ADMISSION-DOMAINS"
+  ]
+}

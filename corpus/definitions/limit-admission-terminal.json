@@ -1,0 +1,8 @@
+{
+  "id": "DEF-LIMIT-ADMISSION-TERMINAL",
+  "term": "terminal outcome coherence",
+  "definition": "A state assigns Bool values to the existing SupertaskMoment.stage n and separate .limit. TerminalOutcome requires the sequence of stage states to converge in discrete Bool topology to the assigned endpoint value. It is separate from convergence of stage times and from an endpoint event. mismatchedState assigns true to every stage and false to the endpoint; constant true supplies a coherent positive assignment. No real physical continuity or completion is asserted.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.LimitAdmission.TerminalOutcome",
+  "note": "Analyst formulation for #486, attribution deferred. Formal applicability to actual worlds/events/apparatus remains OPEN. See docs/notes/finite-population-cover-533.md for the cross-domain investigation and proof boundaries."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "STMT-LIMIT-ADMISSION-MODAL-BOUNDARY",
+  "paraphrase": "Reuse the existing finite population controls and exact tail presence predicate. Every finite candidate list is jointly absent at some tail world, and tail profiles converge in product topology to the empty profile, which belongs to ambient closure but not to the admitted tail family. That family is not closed; its mathematical closure is a closed positive admission model. This is modal comparison, not temporal travel or metaphysical possibility.",
+  "lean_declaration": "TruthCore.Logic.LimitAdmission.ModalBoundary",
+  "definition_ids": [
+    "DEF-LIMIT-ADMISSION-CLOSED",
+    "DEF-LIMIT-ADMISSION-PROFILE",
+    "DEF-LIMIT-ADMISSION-EVENT",
+    "DEF-LIMIT-ADMISSION-TERMINAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-LIMIT-ADMISSION-DOMAINS"
+  ]
+}

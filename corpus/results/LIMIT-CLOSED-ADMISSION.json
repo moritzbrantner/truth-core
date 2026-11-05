@@ -1,0 +1,10 @@
+{
+  "id": "LIMIT-CLOSED-ADMISSION",
+  "argument_id": "LIMIT-CLOSED-ADMISSION",
+  "challenge_module": "TruthCore.Results.Logic.LimitAdmission.Challenge",
+  "solution_module": "TruthCore.Results.Logic.LimitAdmission.Solution",
+  "theorem": "TruthCore.Results.Logic.LimitAdmission.closedAdmission",
+  "comparator_config": "results/LIMIT-CLOSED-ADMISSION/comparator.json",
+  "status": "solution-present",
+  "description": "Derive membership in a chosen subset from separately supplied convergence, closedness and containment. This does not establish any of these inputs for actual worlds, events or physical states."
+}

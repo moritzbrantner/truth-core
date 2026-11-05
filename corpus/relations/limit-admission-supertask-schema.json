@@ -1,0 +1,12 @@
+{
+  "id": "REL-LIMIT-ADMISSION-SUPERTASK-SCHEMA",
+  "subject_kind": "statement",
+  "subject_id": "STMT-LIMIT-ADMISSION-SUPERTASK-TRANSFER",
+  "predicate": "instance_of_schema",
+  "object_kind": "statement",
+  "object_id": "STMT-LIMIT-ADMISSION-SCHEMA",
+  "verification_result_id": "LIMIT-ADMISSION",
+  "instance_theorem": "TruthCore.Results.Logic.LimitAdmission.supertaskTransfer",
+  "schema_theorem": "TruthCore.Results.Logic.LimitAdmission.closureLaws",
+  "note": "Separate typed conditional application of the shared closed-set limit theorem. Both obligations have frozen Challenges and are checked by LIMIT-ADMISSION Comparator/NanoDa and exact schema binding. This registration establishes no actual-domain closure policy and implies no cross-domain equivalence."
+}

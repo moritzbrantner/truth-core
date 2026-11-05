@@ -1,0 +1,11 @@
+{
+  "id": "DISAMB-LIMIT-ADMISSION-DOMAINS",
+  "term": "limit admission",
+  "sense_definition_ids": [
+    "DEF-LIMIT-ADMISSION-CLOSED",
+    "DEF-LIMIT-ADMISSION-PROFILE",
+    "DEF-LIMIT-ADMISSION-EVENT",
+    "DEF-LIMIT-ADMISSION-TERMINAL"
+  ],
+  "resolution": "Closedness is a shared mathematical proof pattern, while modal admissibility, temporal event occupancy and terminal-state coherence are distinct policies on different data. Convergence gives ambient closure membership; only separately supplied closed admission plus stage containment gives actual membership in the chosen set. Closure of a world set does not imply closed occurrence sets, nor does timing convergence imply state convergence or a final indexed operation. A time point need not be an event; stable stages need not constrain an independently assigned endpoint. No causal or metaphysical equivalence or realizability is claimed."
+}

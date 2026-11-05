@@ -1,0 +1,8 @@
+{
+  "id": "DEF-LIMIT-ADMISSION-EVENT",
+  "term": "event occupancy and time boundary",
+  "definition": "eventTimes is precisely the range of eventTime n = 1/(n+1) in real time. The ambient interval [0,1] has first point 0; event occupancy is separate from the existence of a time. stageEvents is the range of stageTime n = 1 - eventTime n and omits time 1. Neither mathematical set claims physical occurrence.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.LimitAdmission.eventTimes",
+  "note": "Analyst formulation for #486, attribution deferred. Formal applicability to actual worlds/events/apparatus remains OPEN. See docs/notes/finite-population-cover-533.md for the cross-domain investigation and proof boundaries."
+}

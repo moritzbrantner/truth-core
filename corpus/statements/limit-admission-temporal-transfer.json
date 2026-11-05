@@ -1,0 +1,14 @@
+{
+  "id": "STMT-LIMIT-ADMISSION-TEMPORAL-TRANSFER",
+  "paraphrase": "Every closed real event-occupancy set containing all reciprocal event times 1/(n+1) contains 0. Closed event occupancy remains an independent actual-domain commitment.",
+  "lean_declaration": "TruthCore.Logic.LimitAdmission.TemporalTransfer",
+  "definition_ids": [
+    "DEF-LIMIT-ADMISSION-CLOSED",
+    "DEF-LIMIT-ADMISSION-PROFILE",
+    "DEF-LIMIT-ADMISSION-EVENT",
+    "DEF-LIMIT-ADMISSION-TERMINAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-LIMIT-ADMISSION-DOMAINS"
+  ]
+}

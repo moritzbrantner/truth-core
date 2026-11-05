@@ -1,0 +1,10 @@
+{
+  "id": "LIMIT-ADMISSION",
+  "argument_id": "LIMIT-ADMISSION",
+  "challenge_module": "TruthCore.Results.Logic.LimitAdmission.Challenge",
+  "solution_module": "TruthCore.Results.Logic.LimitAdmission.Solution",
+  "theorem": "TruthCore.Results.Logic.LimitAdmission.checks",
+  "comparator_config": "results/LIMIT-ADMISSION/comparator.json",
+  "status": "solution-present",
+  "description": "Build Mathlib closure laws, instantiate the same proof pattern separately for modal, temporal and supertask data, and prove typed omission controls, retaining exact tail and supertask theorem reuse. Conditional mathematics only; attribution deferred and actual-domain applicability OPEN."
+}

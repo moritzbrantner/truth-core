@@ -1,0 +1,8 @@
+{
+  "id": "DEF-LIMIT-ADMISSION-PROFILE",
+  "term": "modal profile admission",
+  "definition": "The Boolean product \u2115 \u2192 Bool uses the discrete topology on Bool and coordinatewise product topology. tailProfile n b encodes the existing finiteCoverTailPresent b n, exactly n \u2264 b. tailWorlds admits precisely these profiles; falseProfile is everywhere false. This compares world extensions with rigid candidate identity, not a history or a physical removal process.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.LimitAdmission.tailWorlds",
+  "note": "Analyst formulation for #486, attribution deferred. Formal applicability to actual worlds/events/apparatus remains OPEN. See docs/notes/finite-population-cover-533.md for the cross-domain investigation and proof boundaries."
+}

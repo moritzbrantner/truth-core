@@ -1,0 +1,8 @@
+{
+  "id": "DEF-LIMIT-ADMISSION-CLOSED",
+  "term": "closed admission",
+  "definition": "A subset A of an ambient topological space is closed in Mathlib's sense IsClosed A. Admitting every stage of a convergent sequence does not imply this policy. This is a mathematical sufficient bridge, not a metaphysical law. Converges is Tendsto atTop (nhds x), StagesAdmitted is range f \u2286 A, and LimitAdmitted is x \u2208 A.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.LimitAdmission.ClosedAdmission",
+  "note": "Analyst formulation for #486, attribution deferred. Formal applicability to actual worlds/events/apparatus remains OPEN. See docs/notes/finite-population-cover-533.md for the cross-domain investigation and proof boundaries."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "STMT-LIMIT-ADMISSION-TEMPORAL-BOUNDARY",
+  "paraphrase": "The event times 1/(n+1) lie in (0,1] and converge to 0. The interval [0,1] has first time point 0 but the event range excludes 0 and has a strictly earlier event for each event. That range is not closed, while its closure is a closed mathematical set containing 0. No actual event history or causal beginning is asserted.",
+  "lean_declaration": "TruthCore.Logic.LimitAdmission.TemporalBoundary",
+  "definition_ids": [
+    "DEF-LIMIT-ADMISSION-CLOSED",
+    "DEF-LIMIT-ADMISSION-PROFILE",
+    "DEF-LIMIT-ADMISSION-EVENT",
+    "DEF-LIMIT-ADMISSION-TERMINAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-LIMIT-ADMISSION-DOMAINS"
+  ]
+}
