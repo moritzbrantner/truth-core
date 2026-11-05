@@ -1,0 +1,12 @@
+{
+  "id": "STMT-UNITING-CAUSE-IS-EFFICIENT",
+  "paraphrase": "Whatever unites two things into x is an efficient cause of x in some respect.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7Uniting.UnitingCauseIsEfficientCauseReading",
+  "definition_ids": [
+    "DEF-UNITING-CAUSE",
+    "DEF-EFFICIENT-CAUSING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNITING-CAUSE"
+  ]
+}

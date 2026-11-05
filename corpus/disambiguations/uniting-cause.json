@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-UNITING-CAUSE",
+  "term": "uniting cause versus efficient cause versus cause of being",
+  "sense_definition_ids": [
+    "DEF-UNITING-CAUSE",
+    "DEF-EFFICIENT-CAUSING",
+    "DEF-CAUSE-OF-PERFECTION"
+  ],
+  "resolution": "COMPOSITE-UNITING-CAUSE-FROM-UNION keeps the three relations as separate parameters. Unites (DEF-UNITING-CAUSE) is the third proof's causa adunans. STMT-UNITING-CAUSE-IS-EFFICIENT passes from it only to efficient causing in SOME respect, which is all that STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF needs to exclude the composite as its own uniter. STMT-UNITING-CAUSE-CAUSES-COMPOSITE-BEING passes separately from uniting to CausesIn c x esse, the relation of the conclusion. No premise passes from efficient causing to CausesIn or back, so the argument never treats an efficient cause as a cause of being, or a cause of being as efficient, except through the two stated premises about the same uniter. Controls 3 and 4 of COMPOSITE-UNITING-CAUSE-CONTROLS show that neither passage follows from the other."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "AQUINAS-ST-I-Q11-A1-COMPOSITE-PARTS-A",
+  "statement_id": "STMT-COMPOSITE-HAS-TWO-DISTINCT-COMPONENTS",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.11 a.1 co.: Quod autem est compositum, non habet esse quandiu partes eius sunt divisae",
+  "interpretation": "A composite has parts (partes eius, plural) that can be divided from one another and that constitute and compose it. Read as: every composite has at least two numerically distinct components. Only the plurality of components is formalized; the claim that the composite has no being while they are divided is the separate reading AQUINAS-ST-I-Q11-A1-COMPOSITE-BEING-THROUGH-UNION-A. The sentence covers every composite (omne ens aut est simplex, aut compositum), so partes is read with the components of every kind of composition (DEF-COMPOSITION-COMPONENT), not only quantitative parts.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-COMPOSITION-COMPONENT",
+    "DEF-SIMPLE"
+  ]
+}

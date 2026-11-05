@@ -1,0 +1,10 @@
+{
+  "id": "COMPOSITE-UNITING-CAUSE-FROM-UNION",
+  "argument_id": "COMPOSITE-UNITING-CAUSE-FROM-UNION",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.CompositeUnitingCauseFromUnion.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.CompositeUnitingCauseFromUnion.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.CompositeUnitingCauseFromUnion.compositeHasAUnitingCause",
+  "comparator_config": "results/COMPOSITE-UNITING-CAUSE-FROM-UNION/comparator.json",
+  "status": "solution-present",
+  "description": "Derive the EXACT existing CompositeHasAUnitingCauseReading (every composite x has some c with c ≠ x and CausesIn c x esse), keeping Composite, CausesIn and esse as parameters, from five typed premises. Take a composite x. By two-distinct-components (q.11 a.1, sourced) it has components a ≠ b. By the uniting-cause principle (q.3 a.7 third proof, sourced) some c unites a and b into x. By uniter-causes-being (q.11 a.1 with q.3 a.7, sourced) CausesIn c x esse. By uniter-is-efficient (q.3 a.7 third proof, sourced) c efficiently causes x in some respect r; if c were x, x would be an efficient cause of itself in r, contradicting STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF (q.2 a.3, sourced, and itself derived in AQUINAS-ST-I-Q2-A3-SECUNDA-VIA from two sourced priority premises). So c ≠ x. No premise contains the conclusion: distinctness is derived, not assumed, and STMT-COMPOSITE-UNITING-CAUSE-CONTROLS shows each premise is needed. All five premises remain open and sourced but undefended. The derivation does not establish that anything is composite, that the uniter is actual, outside or a nonpart of the composite, or that rival accounts of composition (brute composition, priority monism, composition as identity) are false: each is located at a premise it rejects, not refuted."
+}

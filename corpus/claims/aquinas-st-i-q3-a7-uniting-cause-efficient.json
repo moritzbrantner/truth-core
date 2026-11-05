@@ -1,0 +1,15 @@
+{
+  "id": "AQUINAS-ST-I-Q3-A7-UNITING-CAUSE-EFFICIENT-A",
+  "statement_id": "STMT-UNITING-CAUSE-IS-EFFICIENT",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.3 a.7 co., third proof: Deus autem non habet causam, ut supra ostensum est, cum sit prima causa efficiens",
+  "interpretation": "The third proof excludes God from having the uniting cause that every composite has on the ground that he is the first efficient cause, which (q.2 a.3) is efficiently caused by nothing. That ground excludes the uniting cause only if a uniting cause is an efficient cause of what it unites. This suppressed premise of the reason is the reading formalized, in its weakest form: an efficient cause of x in some respect. Which respect, and whether the uniter causes x's being, are not part of it.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-UNITING-CAUSE",
+    "DEF-EFFICIENT-CAUSING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNITING-CAUSE"
+  ]
+}

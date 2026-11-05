@@ -1,0 +1,14 @@
+{
+  "id": "STMT-UNITING-CAUSE-CAUSES-COMPOSITE-BEING",
+  "paraphrase": "Whatever unites two things into x causes the being of x (CausesIn c x esse).",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7Uniting.UnitingCauseCausesBeingReading",
+  "definition_ids": [
+    "DEF-UNITING-CAUSE",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNITING-CAUSE",
+    "DISAMB-CAUSE"
+  ]
+}

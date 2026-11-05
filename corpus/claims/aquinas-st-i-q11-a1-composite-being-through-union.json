@@ -1,0 +1,17 @@
+{
+  "id": "AQUINAS-ST-I-Q11-A1-COMPOSITE-BEING-THROUGH-UNION-A",
+  "statement_id": "STMT-UNITING-CAUSE-CAUSES-COMPOSITE-BEING",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.11 a.1 co.: non habet esse quandiu partes eius sunt divisae, sed postquam constituunt et componunt ipsum compositum",
+  "interpretation": "A composite does not have being while its parts are divided, but only after they constitute and compose it; hence the being of each thing consists in indivision. Read with q.3 a.7 co., third proof, where the cause uniting the composite's diverse components is the cause the composite has (omne compositum causam habet): what unites the components causes the being (esse) of the composite. The passage from 'has being only once its parts compose it' to 'the uniter causes its being' is the interpretive step; q.11 a.1 states the first, and q.3 a.7 identifies the cause of the composite with the uniter. Nothing about the uniter's distinctness from the composite is part of this reading.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-UNITING-CAUSE",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNITING-CAUSE",
+    "DISAMB-CAUSE"
+  ]
+}
