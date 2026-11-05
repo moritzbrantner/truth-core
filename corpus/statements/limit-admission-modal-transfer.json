@@ -1,0 +1,14 @@
+{
+  "id": "STMT-LIMIT-ADMISSION-MODAL-TRANSFER",
+  "paraphrase": "Every closed subset W of the Boolean profile product space containing all existing Nat-tail profiles contains the empty profile. This conditional does not assert that metaphysically admissible worlds form such a closed set.",
+  "lean_declaration": "TruthCore.Logic.LimitAdmission.ModalTransfer",
+  "definition_ids": [
+    "DEF-LIMIT-ADMISSION-CLOSED",
+    "DEF-LIMIT-ADMISSION-PROFILE",
+    "DEF-LIMIT-ADMISSION-EVENT",
+    "DEF-LIMIT-ADMISSION-TERMINAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-LIMIT-ADMISSION-DOMAINS"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "STMT-LIMIT-ADMISSION-CLOSED",
+  "paraphrase": "The supplied admission subset is closed in its ambient topology. This separately named open premise is not inferred from finite stages, finite omission or clock convergence. Actual-domain applicability remains OPEN.",
+  "lean_declaration": "TruthCore.Logic.LimitAdmission.ClosedAdmission",
+  "definition_ids": [
+    "DEF-LIMIT-ADMISSION-CLOSED",
+    "DEF-LIMIT-ADMISSION-PROFILE",
+    "DEF-LIMIT-ADMISSION-EVENT",
+    "DEF-LIMIT-ADMISSION-TERMINAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-LIMIT-ADMISSION-DOMAINS"
+  ]
+}

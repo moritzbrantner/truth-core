@@ -1,0 +1,14 @@
+{
+  "id": "STMT-LIMIT-ADMISSION-PACKAGE",
+  "paraphrase": "Joint mathematical package: genuine Mathlib convergence/closure, separate conditional admission transfers for modal Boolean profiles, reciprocal temporal event times and reciprocal supertask stage times, and separate typed positive and negative controls. No actual-domain admission, physical completion, causal root, necessary being or root-premise discharge is asserted.",
+  "lean_declaration": "TruthCore.Logic.LimitAdmission.Package",
+  "definition_ids": [
+    "DEF-LIMIT-ADMISSION-CLOSED",
+    "DEF-LIMIT-ADMISSION-PROFILE",
+    "DEF-LIMIT-ADMISSION-EVENT",
+    "DEF-LIMIT-ADMISSION-TERMINAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-LIMIT-ADMISSION-DOMAINS"
+  ]
+}

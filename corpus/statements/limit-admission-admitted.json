@@ -1,0 +1,14 @@
+{
+  "id": "STMT-LIMIT-ADMISSION-ADMITTED",
+  "paraphrase": "The supplied point belongs to the supplied admission subset. The closed-admission rule derives this from convergence to that point, closed admission and containment of every stage, not from ambient closure membership alone.",
+  "lean_declaration": "TruthCore.Logic.LimitAdmission.LimitAdmitted",
+  "definition_ids": [
+    "DEF-LIMIT-ADMISSION-CLOSED",
+    "DEF-LIMIT-ADMISSION-PROFILE",
+    "DEF-LIMIT-ADMISSION-EVENT",
+    "DEF-LIMIT-ADMISSION-TERMINAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-LIMIT-ADMISSION-DOMAINS"
+  ]
+}

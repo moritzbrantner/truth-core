@@ -1,0 +1,14 @@
+{
+  "id": "STMT-LIMIT-ADMISSION-CONVERGES",
+  "paraphrase": "The supplied Nat-indexed sequence converges to the supplied ambient point under Mathlib Tendsto atTop (nhds x). This open parameterized input says nothing about an admission subset.",
+  "lean_declaration": "TruthCore.Logic.LimitAdmission.Converges",
+  "definition_ids": [
+    "DEF-LIMIT-ADMISSION-CLOSED",
+    "DEF-LIMIT-ADMISSION-PROFILE",
+    "DEF-LIMIT-ADMISSION-EVENT",
+    "DEF-LIMIT-ADMISSION-TERMINAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-LIMIT-ADMISSION-DOMAINS"
+  ]
+}

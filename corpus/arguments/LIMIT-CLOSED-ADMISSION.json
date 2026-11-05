@@ -1,0 +1,22 @@
+{
+  "id": "LIMIT-CLOSED-ADMISSION",
+  "premise_statement_ids": [
+    "STMT-LIMIT-ADMISSION-CONVERGES",
+    "STMT-LIMIT-ADMISSION-CLOSED",
+    "STMT-LIMIT-ADMISSION-STAGES"
+  ],
+  "conclusion_statement_id": "STMT-LIMIT-ADMISSION-ADMITTED",
+  "inference_ids": [
+    "INF-LIMIT-CLOSED-ADMISSION"
+  ],
+  "meaning": "Derive membership in a chosen subset from separately supplied convergence, closedness and containment. This does not establish any of these inputs for actual worlds, events or physical states.",
+  "definition_ids": [
+    "DEF-LIMIT-ADMISSION-CLOSED",
+    "DEF-LIMIT-ADMISSION-PROFILE",
+    "DEF-LIMIT-ADMISSION-EVENT",
+    "DEF-LIMIT-ADMISSION-TERMINAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-LIMIT-ADMISSION-DOMAINS"
+  ]
+}

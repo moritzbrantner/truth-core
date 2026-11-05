@@ -1,0 +1,14 @@
+{
+  "id": "STMT-LIMIT-ADMISSION-SCHEMA",
+  "paraphrase": "For every topological space X, sequence f and limit x, convergence along Nat atTop implies x belongs to closure(range f). Every closed A containing all sequence stages contains x. These are conditional mathematical laws; closedness and containment are independently required.",
+  "lean_declaration": "TruthCore.Logic.LimitAdmission.ClosureLaws",
+  "definition_ids": [
+    "DEF-LIMIT-ADMISSION-CLOSED",
+    "DEF-LIMIT-ADMISSION-PROFILE",
+    "DEF-LIMIT-ADMISSION-EVENT",
+    "DEF-LIMIT-ADMISSION-TERMINAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-LIMIT-ADMISSION-DOMAINS"
+  ]
+}

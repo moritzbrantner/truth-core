@@ -1,0 +1,14 @@
+{
+  "id": "STMT-LIMIT-ADMISSION-SUPERTASK-TRANSFER",
+  "paraphrase": "Every closed event-occupancy set containing all reciprocal stage times 1-1/(n+1) contains 1. Separately, for every state on existing supertask moments, stage-state convergence to b and endpoint coherence imply the assigned endpoint equals b. Neither condition follows from timing convergence.",
+  "lean_declaration": "TruthCore.Logic.LimitAdmission.SupertaskTransfer",
+  "definition_ids": [
+    "DEF-LIMIT-ADMISSION-CLOSED",
+    "DEF-LIMIT-ADMISSION-PROFILE",
+    "DEF-LIMIT-ADMISSION-EVENT",
+    "DEF-LIMIT-ADMISSION-TERMINAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-LIMIT-ADMISSION-DOMAINS"
+  ]
+}

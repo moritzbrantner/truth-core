@@ -1,0 +1,20 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.LimitAdmission.Challenge",
+  "solution_module": "TruthCore.Results.Logic.LimitAdmission.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.LimitAdmission.checks",
+    "TruthCore.Results.Logic.LimitAdmission.closureLaws",
+    "TruthCore.Results.Logic.LimitAdmission.modalTransfer",
+    "TruthCore.Results.Logic.LimitAdmission.temporalTransfer",
+    "TruthCore.Results.Logic.LimitAdmission.supertaskTransfer",
+    "TruthCore.Results.Logic.LimitAdmission.modalBoundary",
+    "TruthCore.Results.Logic.LimitAdmission.temporalBoundary",
+    "TruthCore.Results.Logic.LimitAdmission.supertaskBoundary"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

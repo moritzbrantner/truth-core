@@ -80,3 +80,106 @@ or new root edge is present. Expected/actual root-premise delta remains zero.
 Cross-lane edit: the new StageOne vocabulary and helper/wrapper result modules
 are minimal lane A additions for this lane C issue; generated Case and Results
 imports follow those modules. No shared vocabulary definition was duplicated.
+
+
+## Limit admission extension (#486)
+
+The #533 tail ontology is reused literally: `tailProfile n b = true` iff
+`finiteCoverTailPresent b n`, i.e. `n ≤ b`. The exact imported
+`FinitePopulationCoverControls.checks` remains part of the certificate. Each
+finite list is jointly absent after its maximum, but every admitted tail
+remains inhabited. Mathlib's product topology proves coordinatewise convergence
+to `falseProfile`; the empty profile lies in `closure tailWorlds` and never in
+`tailWorlds`. Thus that family is not closed. This supplies the topology that
+#484's reconciliation left open, without requiring an unimplemented #484 API.
+
+`TruthCore/Logic/LimitAdmission.lean` fixes the typed mathematical interpretation;
+`Results/Logic/LimitAdmission/{Challenge,Solution}.lean` freezes and checks it.
+`ClosureLaws` says, for any topological space, Nat-indexed `f` and `x`,
+`Tendsto f atTop (nhds x)` implies `x ∈ closure (range f)` and, for any closed
+`A` containing the range, `x ∈ A`. `LIMIT-CLOSED-ADMISSION` exposes exactly three
+separate premise heads: `Converges`, `ClosedAdmission`, `StagesAdmitted`.
+`ClosedAdmission` is a named OPEN domain policy, not a consequence of the first
+or third premise. `LimitAdmitted` is membership in the selected set; no bridge
+identifies ambient closure with actual admission.
+
+The modal, temporal and supertask conditional transfers have separate theorem
+obligations and checked `instance_of_schema` links to the universal law. Their
+shared mathematical proof pattern identifies neither their data nor their
+actual-domain policies. Modal worlds are compared under rigid candidate
+identity, never traversed or physically subtracted. The profile's topology is
+explicitly the product of discrete Bool topologies, not an unspecified notion
+of metaphysical similarity or a proof of modal compactness.
+
+The reciprocal temporal schedule is `eventTime n = 1/(n+1)`. It lies in `(0,1]`
+and converges to 0, while its event range excludes 0 and has an earlier event
+for each event. The ambient interval `[0,1]` has first point 0. Thus bounded
+duration and a first time point do not force a first event. This is the exact
+reciprocal example requested in #486; the existing `TemporalEventControls`
+uses the distinct reflected geometric Zeno schedule. Neither is an actual
+history or a causal-relation model. Closed occurrence sets containing every
+reciprocal stage admit an event at 0. Without that closedness assumption the
+same event range is a certified negative control. Its mathematical closure is
+a closed positive control; identifying this extension with actual occupancy
+remains OPEN. No causal priority or first cause is inferred from event time.
+
+The reciprocal supertask schedule is `stageTime n = 1 - eventTime n`, strictly
+increasing in `[0,1)` and converging to 1. It assigns clock readings to the
+EXISTING `SupertaskMoment`; `.limit` is not any `.stage n`. The event set that
+contains exactly those stages excludes 1, although 1 is an ambient limit.
+Again its closure is a closed positive admission model. The imported
+`supertaskStableEndpoint` theorem remains abstract order/stability mathematics,
+not finite physical completion. The same convergent clock can accompany the
+existing oscillating output, whose lack of eventual stability is upgraded to
+lack of topological Bool convergence using the proved equivalence between
+these two notions for DISCRETE Bool only. No eventual-constant replacement for
+real convergence is introduced.
+
+Even convergent apparatus states do not fix a separately assigned endpoint:
+`mismatchedState` has true at every finite stage and false at `.limit`.
+`TerminalOutcome` explicitly requires convergence TO the assigned endpoint.
+Together with convergence to `b`, uniqueness of limits in Bool forces the
+endpoint to equal `b`. The everywhere-true state is a positive coherent model.
+Endpoint-state coherence and closed event occupancy remain separate inputs;
+neither gives a final indexed operation, a law of nature, or a physically
+possible supertask. Completion as another operation would require an explicit
+extension of the operation carrier, rather than relabeling the existing limit.
+
+The strongest positive rival accepts closed admissibility/occurrence for its
+own domain, or supplies an endpoint law satisfying `TerminalOutcome`; the
+conditional results then admit the boundary. The strongest negative rival
+accepts every finite stage and the mathematical limit but withholds just that
+policy, as the same-profile controls demonstrate. Which policy applies to
+actual worlds, event histories and apparatus remains OPEN independently in
+each domain. Encoding the real applicability judgment needs a defended domain
+interpretation or physical model; the topology alone cannot supply it.
+
+These are infinite Mathlib/topological interpretations, outside the existing
+finite-model and configuration registry's supported data roles. They are kept
+as exact statements/results/attempts and checked schema links. The registry is
+not widened and no finite certificate or global minimality is claimed. No new
+sources, passages, claims, external dependencies, solver or status store.
+
+Preview trial: the coordinator-owned service returned a response bound to HEAD
+`a2d97ecf1429e86b3e12f15b91b735f85e27822e`, workspace
+`/home/moenarch/moritzbrantner/truth-core`, session `workloop-20261105`, scratch
+`Scratch/limit486/Vocabulary.lean`, content SHA256
+`60ba2c274da4a54ca22160811ccaca0197e1689a248af6fa360547d830629d8d`.
+It rejected importing the old cached non-module `FinitePopulationCover` from a
+new Lean module. That is diagnostic failure, not proof evidence. The isolated
+warm-seeded canonical CLI compiled the new vocabulary and all three controls;
+no preview session/cache was rebuilt. Retain the preview helper for compatible
+inputs, but revise its preparation before modern-module work; CLI fallback
+keeps research unblocked. Final build/binding/Comparator/NanoDa and CI remain
+the proof authority.
+
+Claim/type self-sweep: universal topology is conditional; each negative model
+uses exactly its declared ambient space and admission set. Positive closures
+are mathematical extensions, not realized worlds/events. Bool convergence is
+identified with stability only through a theorem under the discrete topology.
+The real schedules never become constant. No causal relation, actual event,
+physical completion, divine identity, necessary concretum or root truth is
+introduced. Closedness/applicability and terminal-outcome commitments remain
+OPEN. Intended root-premise discharge: zero; the actual computed frontier delta
+is reported in the PR/CI. Shared convention sourceRevision:
+`625cb04ca568aebc8d45c90033e107a05e9bd2a0`.

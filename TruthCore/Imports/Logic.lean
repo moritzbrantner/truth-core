@@ -8,6 +8,7 @@ import TruthCore.Logic.EpistemicReasons
 import TruthCore.Logic.ExcludedMiddle
 import TruthCore.Logic.JustificationIntrospection
 import TruthCore.Logic.KnowledgeRetorsion
+import TruthCore.Logic.LimitAdmission
 import TruthCore.Logic.MaximumOrder
 import TruthCore.Logic.PerformedDenial
 import TruthCore.Logic.QuantifierShift

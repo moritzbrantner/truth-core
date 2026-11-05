@@ -1,0 +1,18 @@
+{
+  "id": "LIMIT-ADMISSION",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-LIMIT-ADMISSION-PACKAGE",
+  "inference_ids": [
+    "INF-LIMIT-ADMISSION"
+  ],
+  "meaning": "Build Mathlib closure laws, instantiate the same proof pattern separately for modal, temporal and supertask data, and prove typed omission controls, retaining exact tail and supertask theorem reuse. Conditional mathematics only; attribution deferred and actual-domain applicability OPEN.",
+  "definition_ids": [
+    "DEF-LIMIT-ADMISSION-CLOSED",
+    "DEF-LIMIT-ADMISSION-PROFILE",
+    "DEF-LIMIT-ADMISSION-EVENT",
+    "DEF-LIMIT-ADMISSION-TERMINAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-LIMIT-ADMISSION-DOMAINS"
+  ]
+}
