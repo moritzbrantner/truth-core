@@ -15,7 +15,7 @@ readings, and a view developed by followers is not attributed to him.
 | Position | Variant and source | Class | Against which premise or floor item | Status |
 |---|---|---|---|---|
 | Wittgensteinian fideism, sharp form | WF-N: the critics' four theses (Nielsen 1967), `SEP-FIDEISM` §2.2.4 | rival | `STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE` (all 12 routes) | conditionally defeated as a description of Catholic practice (`WF-FAILS-AS-DESCRIPTION-OF-CATHOLIC-PRACTICE`); open premises, so not counted (#999) |
-| Early Phillips | WF-P1: praise of God refers to no object (1976), `SEP-RELIGIOUS-LANGUAGE` §4.1; the stronger thesis that "God" names no being is an unattributed reconstruction it supports | rival (the reconstruction) | `STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE`, `STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS`, `STMT-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD` (the nominal identification on every route) | recorded, not refuted |
+| Early Phillips | WF-P1: praise of God "does not refer to some object called God" (1976), `SEP-RELIGIOUS-LANGUAGE` §4.1; the stronger thesis that "God" names no being is an unattributed reconstruction it supports | rival (the reconstruction) | `STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE`, `STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS`, `STMT-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD` (the nominal identification on every route) | recorded, not refuted |
 | Late Phillips, religious minimalism | WF-P2: reference and truth constituted inside the game; outside evidence admissible, `SEP-RELIGIOUS-LANGUAGE` §§4.1-4.2; `SEP-FIDEISM` §2.2.4 | rival off-route (face value theory); neutral to route leaves | `STMT-FACE-VALUE-THEORY-RELIGIOUS-LANGUAGE` (no route premise) | recorded |
 | Nielsen's critique | insulation of every form of life, `SEP-RELIGIOUS-LANGUAGE` §4.2 | objection to WF-N | attacks `STMT-WF-RELIGION-CUT-OFF-FROM-SHARED-REASON` | recorded; not a defeat (#1007: "not preferable" is not falsity) |
 | On Certainty: doubt rests on what stands fast | §§115, 341 (German, `WITTGENSTEIN-UEBER-GEWISSHEIT`) | support (against global doubt only) | the global sceptical rival of any observation floor item; no specific item (F3, F4) | `WITTGENSTEIN-UNIVERSAL-DOUBT-FAILS`, conditional on the stated §341 premise |
@@ -37,7 +37,8 @@ The label is Kai Nielsen's (*Philosophy* 42, 1967). The SEP entry *Fideism*
 discourse is self-referential and does not let us talk about reality, (3)
 religious beliefs can be understood only by believers, and (4) religion cannot
 be criticized. It also reports that Nielsen aimed at Wittgensteinians (Malcolm,
-Winch), not Wittgenstein; that Wittgenstein likely endorsed none of the four;
+Winch), not Wittgenstein; that the entry's author doubts Wittgenstein would
+have endorsed any of the four;
 and that Phillips called the charge a caricature (1981, 89-90): he denied only
 his critics' *conception* of the connection between religion and life and of
 criticism (`STMT-PHILLIPS-DENIES-ONLY-CRITICS-CONCEPTION`).
@@ -95,11 +96,13 @@ CouncilDefinesNaturalKnowabilityReading P → DefinitionIsOwnStandardReading P �
 By the fideist's own internality, the defined move is correct. By the cut-off
 thesis it is not. Each premise is needed (countermodels in the same Comparator
 config), and the fideist bundle alone is consistent (`WF-CONSISTENT`). So the
-defeat comes from the community's rule, not from incoherence.
+conditional defeat comes from the community's rule together with the two open
+bridges, not from incoherence.
 
 What it shows, and what it does not:
 
-- It refutes WF-N **as a description of Catholic practice**. It says nothing
+- Given its open premises, it refutes WF-N **as a description of Catholic
+  practice**. It says nothing
   about other practices, or about every possible fideistic proposal.
 - It does not touch Phillips's "not generally" thesis: that thesis allows
   God's knowability by natural reason. Nor does it touch minimalism, which admits
@@ -119,13 +122,22 @@ What it shows, and what it does not:
   - Re-read "natural reason" as a practice-internal standard
     (`needsNaturalReasonIsShared`).
 
-  A possible further objection, unresolved: the first escape seems to need a
-  criterion of the practice's grammar that can override the practice's own
-  authoritative self-description, and such a criterion may not fit the
-  internal-grammar thesis. The second escape is an interpretive dispute about
-  the council's text, settled by reading, not by this objection. The
-  objection is a judgment with no vocabulary yet and is not counted. Blocker: a
-  typed account of who fixes a practice's grammar.
+  A further objection is recorded as unresolved and is not a consequence of
+  either escape: that a fideist who takes an escape imports a standard from
+  outside the game, against the internal-grammar thesis. The countermodels show
+  only that each bridge is needed. The objection would need two bridges, neither
+  recorded:
+
+  1. that rejecting conciliar definitions as part of the grammar appeals to a
+     standard not internal to the practice. It could instead appeal to
+     distinctions within the practice, and the second escape is itself an
+     internal re-reading of "natural reason";
+  2. that the internal-grammar thesis forbids external standards.
+     `InternalGrammarReading` formalizes only that internal endorsement implies
+     correctness.
+
+  It is not counted. Blocker: a typed account of who fixes a practice's
+  grammar.
 
 Self-application: an unresolved objection, not a result. One might argue
 that the fideist thesis is a claim about the grammar of religion made in
@@ -156,8 +168,10 @@ whole-worldview comparison, not falsity.
 ### Rival entries on route leaves
 
 - `STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE` (12 of 12 routes): rival
-  `STMT-WF-RELIGION-CUT-OFF-FROM-SHARED-REASON`. Recognizability by external
-  signs answers to shared reason. Conditionally defeated, as above.
+  `STMT-WF-RELIGION-CUT-OFF-FROM-SHARED-REASON`, on the reading that
+  recognizability by external signs answers to shared reason. The fideist pair
+  is conditionally defeated as a description of Catholic practice, as above;
+  the rival entry itself is not refuted.
 - `STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE` (9 routes),
   `STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS` (1), `STMT-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD`
   (3): rival `STMT-GOD-NAMES-NO-BEING-WF-P1`, the unattributed reconstruction of
