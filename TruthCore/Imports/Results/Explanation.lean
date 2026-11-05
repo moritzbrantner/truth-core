@@ -30,6 +30,9 @@ import TruthCore.Results.Explanation.NoBruteCompatibility.Solution
 import TruthCore.Results.Explanation.NoBruteExistence.Solution
 import TruthCore.Results.Explanation.NoBruteExplainedSource.Solution
 import TruthCore.Results.Explanation.NoBruteIncompatible.Solution
+import TruthCore.Results.Explanation.OrderingCardinality.FiniteRule.Solution
+import TruthCore.Results.Explanation.OrderingCardinality.Solution
+import TruthCore.Results.Explanation.OrderingCardinality.TruthfulRival.Solution
 import TruthCore.Results.Explanation.PSRScope.Solution
 import TruthCore.Results.Explanation.PSRSelfApplication.Solution
 import TruthCore.Results.Explanation.PSRStrength.Solution

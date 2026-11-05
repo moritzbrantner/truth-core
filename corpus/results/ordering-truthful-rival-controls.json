@@ -1,0 +1,10 @@
+{
+  "id": "ORDERING-TRUTHFUL-RIVAL-CONTROLS",
+  "argument_id": "ORDERING-TRUTHFUL-RIVAL-CONTROLS",
+  "challenge_module": "TruthCore.Results.Explanation.OrderingCardinality.TruthfulRival.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.OrderingCardinality.TruthfulRival.Solution",
+  "theorem": "TruthCore.Results.Explanation.OrderingCardinality.TruthfulRival.checks",
+  "comparator_config": "results/ORDERING-TRUTHFUL-RIVAL-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "In the same labeled-arrangement arena, an adequacy judgment accepting only candidates false at the designated arrangement cannot satisfy the truthful rival. If acceptance of the constantly true candidate is supplied, that candidate is true at the actual arrangement and a constructed distinct swapped-label arrangement, so the truthful rival holds. The truthful rival contradicts CompleteRequiresSelection for the same actual arrangement and adequacy judgment. The positive control proves no real explanatory adequacy."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "STMT-LABELED-ORDERING-CARDINALITY",
+  "paraphrase": "The bijective enumerations of a fixed Nat-labeled roster have cardinality 2^aleph0, strictly greater than aleph0. Transporting the strict Nat order along an enumeration is injective, and the range of these distinct labeled order relations itself has cardinality 2^aleph0. This counts labeled orders of type omega (or their reversals), not unlabeled order types or independently established possible causal histories.",
+  "lean_declaration": "TruthCore.Explanation.OrderingCardinality.Cardinality",
+  "definition_ids": [
+    "DEF-LABELED-CHAIN-ARRANGEMENT",
+    "DEF-ARRANGEMENT-ENTAILING-SELECTION",
+    "DEF-HISTORY-SELECTION-INFORMATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-LABELED-ORDER-EXPLANATION"
+  ]
+}

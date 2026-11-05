@@ -1,0 +1,17 @@
+{
+  "id": "ORDERING-CARDINALITY",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-LABELED-ORDERING-CARDINALITY",
+  "inference_ids": [
+    "INF-ORDERING-CARDINALITY"
+  ],
+  "meaning": "Compose Mathlib Cardinal.mk_perm_eq_two_power, Cardinal.mk_nat and Cardinal.cantor. Prove injectivity of transported strict omega orders by the identity of increasing inverse maps on Nat, then count their range. No premise about real causes or explanatory obligation is assumed.",
+  "definition_ids": [
+    "DEF-LABELED-CHAIN-ARRANGEMENT",
+    "DEF-ARRANGEMENT-ENTAILING-SELECTION",
+    "DEF-HISTORY-SELECTION-INFORMATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-LABELED-ORDER-EXPLANATION"
+  ]
+}

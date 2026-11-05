@@ -1,0 +1,9 @@
+{
+  "id": "INF-ORDERING-FINITE-RULE-VERIFICATION",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-ORDERING-FINITE-RULE-VERIFICATION",
+  "rule": "direct-proof",
+  "meaning": "Finite Nat induction proves every value of the closed zero/successor recursive program equals its position; the identity enumeration has the successor upstream rule at every label by reduction. No universal test-outcome hypothesis, real-world law actuality or causal-grounding premise is assumed.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

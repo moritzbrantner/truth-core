@@ -1,0 +1,10 @@
+{
+  "id": "ORDERING-CARDINALITY",
+  "argument_id": "ORDERING-CARDINALITY",
+  "challenge_module": "TruthCore.Results.Explanation.OrderingCardinality.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.OrderingCardinality.Solution",
+  "theorem": "TruthCore.Results.Explanation.OrderingCardinality.cardinality",
+  "comparator_config": "results/ORDERING-CARDINALITY/comparator.json",
+  "status": "solution-present",
+  "description": "Compose Mathlib Cardinal.mk_perm_eq_two_power, Cardinal.mk_nat and Cardinal.cantor. Prove injectivity of transported strict omega orders by the identity of increasing inverse maps on Nat, then count their range. No premise about real causes or explanatory obligation is assumed. All philosophical adequacy/admissibility bridges remain open; no root premise is discharged."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "REL-UNSELECTED-EXPLANATION-ALTERNATIVE-TO-SELECTION",
+  "subject_kind": "statement",
+  "subject_id": "STMT-COMPLETE-CHAIN-EXPLANATION-ALLOWS-UNSELECTED",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-COMPLETE-CHAIN-EXPLANATION-SELECTS-ARRANGEMENT"
+}
