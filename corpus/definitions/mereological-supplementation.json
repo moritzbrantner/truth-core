@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MEREOLOGICAL-SUPPLEMENTATION",
+  "term": "weak and strong mereological supplementation",
+  "lean_declaration": "TruthCore.Mereology.SupplementationFusion.StrongSupplementation",
+  "basis": "stipulative",
+  "definition": "WeakSupplementation B says x<y has z≤y disjoint from x. StrongSupplementation B says failure x≤y has z≤x disjoint from y. Both use existing common-part Overlap and one fixed Mathlib PartialOrder; proper part is its strict order. These are distinct explicit analyst framework assumptions.",
+  "note": "Analyst formulation for #1050; attribution and metaphysical applicability deferred. Common-part overlap is unchanged: an admitted null object would overlap everything. The rival expressly excludes one. See docs/notes/universal-fusion-grounding.md."
+}

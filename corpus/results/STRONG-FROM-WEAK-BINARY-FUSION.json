@@ -1,0 +1,10 @@
+{
+  "id": "STRONG-FROM-WEAK-BINARY-FUSION",
+  "argument_id": "STRONG-FROM-WEAK-BINARY-FUSION",
+  "challenge_module": "TruthCore.Results.Mereology.SupplementationFusion.Challenge",
+  "solution_module": "TruthCore.Results.Mereology.SupplementationFusion.Solution",
+  "theorem": "TruthCore.Results.Mereology.SupplementationFusion.strongFromWeakBinary",
+  "comparator_config": "results/STRONG-FROM-WEAK-BINARY-FUSION/comparator.json",
+  "status": "solution-present",
+  "description": "Take a Sum2 fusion u of {x,y}. If every part of x overlaps y, the no-extra-parts clause implies every part of u overlaps y. Since y≤u, weak supplementation excludes y<u, so u=y and x≤y. Classical contraposition produces the separating remainder. Only binary Sum2 formation is used; no atomism, unrestricted-family formation or modal premises."
+}

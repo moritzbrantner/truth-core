@@ -5,5 +5,6 @@ import TruthCore.Results.Mereology.GenusCauseBoundary.Solution
 import TruthCore.Results.Mereology.NecessaryPartFusionDecomposition.Solution
 import TruthCore.Results.Mereology.ProcessTurnover.Solution
 import TruthCore.Results.Mereology.SoulUnityIndependence.Solution
+import TruthCore.Results.Mereology.SupplementationFusion.Solution
 import TruthCore.Results.Mereology.TheseusIdentity.Solution
 import TruthCore.Results.Mereology.UniversalFusionBoundary.Solution
