@@ -1,0 +1,8 @@
+{
+  "id": "DEF-TESTABLE-LAW-LANGUAGE",
+  "term": "analytic validity; testable universal law",
+  "definition": "`AnalyticValid F`: every analytic sentence is true at every world. `HasTestableLaw F`: the language has a universal law in a law setting (DEF-UNIVERSAL-LAW-SETTING) and an individual a with observation statements R a and notB (true exactly where B a is false) that hold together at some world.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.Verificationism.HasTestableLaw",
+  "note": "Stipulative: what the V1 package holds of its empirical language. That analytic sentences are tautologies is the positivists' account of analyticity; that a scientific language contains testable universal laws ('arsenic is poisonous', 'all men are mortal', AYER-LTL-PELICAN-I-18-LAWS) is common to the V1 proponent and his critics."
+}

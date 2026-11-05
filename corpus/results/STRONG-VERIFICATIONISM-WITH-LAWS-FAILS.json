@@ -1,0 +1,9 @@
+{
+  "id": "STRONG-VERIFICATIONISM-WITH-LAWS-FAILS",
+  "argument_id": "STRONG-VERIFICATIONISM-WITH-LAWS-FAILS",
+  "challenge_module": "TruthCore.Results.Logic.Verificationism.StrongVerificationClosure.Challenge",
+  "solution_module": "TruthCore.Results.Logic.Verificationism.StrongVerificationClosure.Solution",
+  "theorem": "TruthCore.Results.Logic.Verificationism.StrongVerificationClosure.strongVerificationismWithLawsFails",
+  "comparator_config": "results/STRONG-VERIFICATIONISM-WITH-LAWS-FAILS/comparator.json",
+  "status": "solution-present"
+}

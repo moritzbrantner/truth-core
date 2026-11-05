@@ -55,7 +55,7 @@ The answer kinds are:
 | Question | V1 | V2 | V3 | V4 |
 |---|---|---|---|---|
 | Is "God exists" meaningful? | U: not addressed by the pinned V1 claims | S, by pattern only: the criterion condemns transcendent theses (`AYER-LTL-PELICAN-I-21-CONDEMNED`); **R** for the exclusion thesis (defeat 3′) | S: no, the notion of God is "not an intelligible notion" (`IEP-REL-LANG-2A-AYER-GOD`); **R** for the pair "God exists" / "there is no God" (defeat 3) | S: not a sentence of the empiricist language; V (general): failing a criterion does not entail untruth (defeat 4) |
-| Are laws of science meaningful? | S: "important nonsense" (`AYER-LTL-PELICAN-I-18-IMPORTANT-NONSENSE`); V: laws are excluded and their negations admitted (defeat 2) | S: yes, the criterion was designed to admit them | S: yes | S: yes, inside the framework |
+| Are laws of science meaningful? | S: "important nonsense" (`AYER-LTL-PELICAN-I-18-IMPORTANT-NONSENSE`); V: laws are excluded and their negations admitted; **R** with the weak closure floor item (defeat 2) | S: yes, the criterion was designed to admit them | S: yes | S: yes, inside the framework |
 | What is the status of the criterion itself? | U (V: the dilemma, if it is in scope) | U (V: the dilemma) | S: a definition (Ayer 1946; no admissible witness); V: the dilemma | S: a practical proposal, not an assertion |
 | Does the criterion exclude anything? | V: yes, too much (laws) | **R**: it excludes only sentences whose negation entails every observation statement | **R**: never a sentence together with its negation | V: only relative to the adopted language |
 | Ethics | S: emotivism (Ayer ch. VI, `AYER-LTL-EMOTIVISM`, no witness) | same | same | U |
@@ -107,8 +107,23 @@ premises.
 - **With closure under negation:** if meaningfulness is closed under negation
   for *every* sentence, then no sentence fails to be meaningful
   (`AYER-1946-NEGATION-CLOSED-EXCLUDES-NOTHING`). That universal closure is an
-  additional open assumption, not attributed to Ayer: his verdict that one
+  additional assumption, not attributed to Ayer: his verdict that one
   theistic sentence and its negation are both nonsensical does not supply it.
+- **Counted with the floor (owner decision, 2026-11-05).** The owner approved
+  closure of meaningfulness under negation as a floor item, in two sibling
+  versions (§3a). `AYER-1946-EXCLUDES-A-NEGATION-FAILS` uses the **strong**
+  version: if a sentence is meaningful, so is its negation. Its argument:
+  1. Suppose ¬y is not meaningful, where meaningfulness is the 1946 criterion.
+  2. Then ¬y is not directly verifiable.
+  3. By Church, y is indirectly verifiable, so y is meaningful.
+  4. By closure, ¬y is meaningful, a contradiction.
+
+  So under V3 no negated sentence fails to be meaningful; "there is no god"
+  is included. This refutes `STMT-AYER-1946-EXCLUDES-A-NEGATION`, and the
+  refutation counts. The strong version is the weakest one this refutation
+  needs, because the rival leaves open which negation it excludes. It does
+  not show that every sentence is meaningful: closure runs only from a
+  sentence to its negation.
 
 **V2 falls the same way, more simply.** `AYER-1936-CRITERION-TRIVIAL` uses the
 further premise ¬S ∨ o: S passes the 1936 test unless ¬S entails o.
@@ -137,17 +152,53 @@ This is also counted and **established**.
 **The proponent's answer.** Some positivists bite the bullet: laws are
 "important nonsense" (`AYER-LTL-PELICAN-I-18-IMPORTANT-NONSENSE`).
 
-**Status: proved consequence, not a counted defeat.**
+**Status: established, via the weak floor item.**
+`STRONG-VERIFICATIONISM-WITH-LAWS-FAILS` refutes the V1 package
+`STMT-STRONG-VERIFICATIONISM-WITH-LAWS`. The package has three parts:
+analytic sentences are valid; a sentence is meaningful iff it is analytic or
+conclusively verifiable; and the language has a testable universal law. The
+refutation goes:
 
-- **Missing premise.** The consequence contradicts V1 only together with
-  either "laws of science are meaningful" or "meaningfulness is closed under
-  negation" (Hempel's assumption). Neither is an established floor item.
-- **F3/F4 do not help.** The approved observation items (#1007: something
-  changes, something is moved) are singular observations. They are
-  conclusively verifiable and consistent with V1.
-- **Not preferable is not false.** Calling the bullet "not preferable" does not
-  establish falsity (#1007). It is recorded for the whole-worldview comparison.
-- **Open.** See §7.
+1. The negation of the law is conclusively verifiable, so it is meaningful.
+2. By closure, the law's double negation is meaningful.
+3. So the double negation is analytic or conclusively verifiable.
+4. It is not analytic: analytic sentences are valid, and the double negation
+   fails where the possible counterinstance holds.
+5. It is not conclusively verifiable: the argument is the same as for the law.
+
+This also defeats the "important nonsense" reply: V1 cannot admit the
+negation of a law while excluding its double negation. The refutation counts.
+
+- **Weakest version needed.** It uses only the **weak** version: closure for
+  negated sentences.
+- **F3/F4 still do not help.** The observation items are singular and
+  consistent with V1. The defeat runs through the closure floor item instead.
+
+### 3a. The floor item: closure under negation, strong and weak
+
+The owner approved it on 2026-11-05
+(https://github.com/moritzbrantner/truth-core/issues/1008#issuecomment-6662364121).
+It is recorded as two sibling statements for #1017.
+
+| Sibling | Statement | Used by |
+|---|---|---|
+| `STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-STRONG` | for every S, if S is meaningful, so is ¬S | `AYER-1946-EXCLUDES-A-NEGATION-FAILS` |
+| `STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-WEAK` | for every S, if ¬S is meaningful, so is ¬¬S | `STRONG-VERIFICATIONISM-WITH-LAWS-FAILS` |
+
+`MEANING-NEGATION-CLOSURE-STRONG-ENTAILS-WEAK` proves strong ⊢ weak.
+
+How each sibling is marked:
+
+- **Marking.** Each is marked `self_evident` on the `common_ground` basis,
+  with `owner_approval`.
+- **Justification.** Hempel's adequacy condition, which SEP §2.3 reports as
+  "S is meaningful iff its negation is". Claims `SEP-HEMPEL-2-3-NEGATION-CLOSURE`
+  and `…-WEAK`.
+- **Recorded rivals.** These are unattributed; they are what V1 is committed
+  to: `STMT-SOME-MEANINGFUL-NEGATION-NOT-MEANINGFUL` (strong) and
+  `STMT-SOME-MEANINGFUL-NEGATION-DOUBLE-NEGATION-NOT-MEANINGFUL` (weak).
+- **Basis criterion.** It is not mechanically met. Both items are established
+  relative to the owner's approval.
 
 ## 4. Defeat 1: self-application (V1–V3)
 
@@ -211,6 +262,26 @@ about theological sentences. Read as a recommendation rather than a truth, V4
 gives no ground for the claim that theology is meaningless beyond "not a
 sentence of the recommended language".
 
+**Search for a bridge against V4.** At the owner's request
+(`ATTEMPT-CARNAP-V4-BRIDGE-1008`, outcome: blocked), I tried three routes:
+
+- **The pragmatic-justification regress.** On what grounds is the proposal
+  adopted? Carnap answers that the grounds are factual questions of
+  efficiency, "a matter of fact, based upon the content of our experiences",
+  asked inside an accepted language (`CARNAP-ESO-II-EFFICIENCY-FACT`). No
+  further criterion is needed, so no regress arises.
+- **Quine 1951.** As SEP reports him, Quine rejects the internal/external
+  distinction because it rests on the analytic/synthetic distinction
+  (`SEP-CARNAP-7-QUINE`). This is recorded as `attacks`. It bites only if
+  analyticity is rejected, which is not an established floor item, and SEP
+  reports the mainstream reply that Quine partly misunderstood Carnap.
+- **Self-application to Carnap's metatheses.** This is the analyst's
+  reasoning, unsourced. Carnap could treat his metatheses as analytic in a
+  constructed metalanguage, which would meet the analytic disjunct of the
+  standard.
+
+No honest bridge was found. V4 stays open.
+
 **Status (D-I, #1007).** It neither defends nor attacks any route premise.
 That it is undefeated here is recorded, and it has no cost effect.
 
@@ -230,14 +301,20 @@ proofs.
 |---|---|---|
 | 3 Church | V3 exclusion of a sentence and its negation | **established**: premise-free refutation, counted |
 | 3′ 1936 triviality | V2 exclusion | **established**: premise-free refutation, counted |
-| 2 universal laws | V1 | proved consequence; needs an unestablished premise (laws are meaningful, or meaningfulness is closed under negation) |
+| 2 universal laws | V1 package with testable laws | **established**: counted refutation from the owner-approved weak closure floor item |
+| 3″ 1946 with closure | V3 exclusion of a negated sentence | **established**: counted refutation from the owner-approved strong closure floor item |
 | 1 self-application | V1–V3 | conditional on three open premises; for V3 superseded by Church |
-| 4 proposal | V4 | **V4 not defeated**: the scope objection needs an open bridge; the countermodel blocks only the inference from failing the criterion to untruth; V4's consistency is not certified (D-I: no route effect) |
+| 4 proposal | V4 | **V4 not defeated** (bridge search blocked, `ATTEMPT-CARNAP-V4-BRIDGE-1008`): the scope objection needs an open bridge; the countermodel blocks only the inference from failing the criterion to untruth; V4's consistency is not certified (D-I: no route effect) |
 | 5 Hempel | the programme | sourced testimony (SEP) |
 
-**Frontier.** `frontier-diff`: open premises reaching the root 91 → 91. The
-cheapest route stays at cost 31. No route leaf has a verificationist
-`alternative_to`. The cost effect is 0.
+**Frontier.** Every step left the frontier unchanged (`frontier-diff`), so
+the cost effect is 0. Neither closure floor item is a premise on any route,
+and no route leaf has a verificationist `alternative_to`.
+
+- **Showcase PRs:** open premises reaching the root stayed 91 → 91.
+- **Closure follow-up:** the count stayed 90 → 90. The base is 90 because the
+  F4 marking (#1009) had already been merged.
+- **Cheapest route:** stays at cost 31 throughout.
 
 ## 8. Witnesses and gaps
 
@@ -252,6 +329,7 @@ cheapest route stays at cost 31. No route leaf has a verificationist
 | Church 1949 | IEP "Religious Language" §2a | secondary, verbatim quotation |
 | Hempel 1950 | SEP "Hempel" §2.3; SEP "Vienna Circle" §3.1 | secondary |
 | Carnap 1950 (ESO) | CMU Carnap Project transcriptions | in copyright |
+| Quine 1951 (as reported) | SEP "Carnap" §7 | secondary |
 | Carnap 1931/32 (*Überwindung*) | CMU Carnap Project transcriptions | in copyright |
 
 **Not pinned:**

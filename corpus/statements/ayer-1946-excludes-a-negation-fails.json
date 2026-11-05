@@ -1,0 +1,18 @@
+{
+  "id": "STMT-AYER-1946-EXCLUDES-A-NEGATION-FAILS",
+  "paraphrase": "For any frame and meaningfulness predicate closed under negation, the V3 package fails.",
+  "lean_declaration": "TruthCore.Logic.Verificationism.Ayer1946ExcludesANegationFails",
+  "definition_ids": [
+    "DEF-AYER-1946-VERIFIABILITY",
+    "DEF-LITERAL-MEANINGFULNESS-1946",
+    "DEF-CHURCH-SENTENCE",
+    "DEF-VERIFICATION-PRINCIPLE",
+    "DEF-TRUTH-CONDITIONAL-LANGUAGE",
+    "DEF-EMPIRICIST-FRAME",
+    "DEF-MEANING-NEGATION-CLOSURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-VERIFICATIONIST-MEANINGFUL",
+    "DISAMB-VERIFIABILITY-VARIANT"
+  ]
+}

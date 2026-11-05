@@ -1,0 +1,18 @@
+{
+  "id": "ATTEMPT-CARNAP-V4-BRIDGE-1008",
+  "date": "2026-11-05",
+  "statement_ids": [
+    "STMT-VERIFICATION-PRINCIPLE-IN-OWN-SCOPE",
+    "STMT-CARNAP-EXTERNAL-QUESTIONS-PRACTICAL"
+  ],
+  "kind": "refutation",
+  "outcome": "blocked",
+  "summary": "Owner request (#1008): find an honest bridge from 'the criterion is adopted, not asserted' to 'its formulation lies outside the scope it governs', or another route that defeats the proposal reading (V4). Route 1, the pragmatic-justification regress (on what grounds is the proposal adopted, and do those grounds need a meaning criterion?): Carnap answers in ESO §II that the grounds are factual questions of efficiency, 'a matter of fact, based upon the content of our experiences', asked inside an accepted empirical language; they advise acceptance and need no further criterion (CARNAP-ESO-II-EFFICIENCY-FACT). No regress and no self-application follow. Route 2, Quine 1951: as SEP reports it, the objection is that the internal/external distinction rests on the analytic/synthetic distinction (SEP-CARNAP-7-QUINE). It bites only if analyticity is rejected, which is no established floor item, and the entry reports the mainstream reply that Quine partly misunderstood Carnap; recorded as an attacks relation, not a refutation. Route 3 (analyst's reasoning, unsourced), self-application to Carnap's own metatheses (that external questions are not theoretical): Carnap could treat them as analytic in a constructed metalanguage, so the analytic disjunct of the standard is met and the dilemma's premise STMT-VERIFICATION-PRINCIPLE-NOT-ANALYTIC fails for him. Result: no honest bridge; V4 stays open, as the owner allowed. What V4 cannot do is unchanged: it gives no ground for 'theology is meaningless' beyond 'not a sentence of the recommended language' (CRITERION-VERDICT-SILENT-ON-TRUTH blocks only the inference from failing a criterion to untruth).",
+  "blocker": "A defeat of V4 needs either an established premise against framework-relative analyticity (Quine's route) or a sourced, defended bridge from non-assertive adoption to exclusion from scope; neither exists. Quine 1951 itself has no admissible witness (copyright; only an unofficial mirror found).",
+  "evidence": [
+    "CARNAP-ESO-II-EFFICIENCY-FACT",
+    "SEP-CARNAP-7-QUINE",
+    "CARNAP-ESO-II-EXTERNAL-PRACTICAL",
+    "CRITERION-VERDICT-SILENT-ON-TRUTH"
+  ]
+}

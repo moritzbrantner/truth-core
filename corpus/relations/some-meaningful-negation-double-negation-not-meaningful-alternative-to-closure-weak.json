@@ -1,0 +1,9 @@
+{
+  "id": "REL-SOME-MEANINGFUL-NEGATION-DOUBLE-NEGATION-NOT-MEANINGFUL-ALTERNATIVE-TO-CLOSURE-WEAK",
+  "subject_kind": "statement",
+  "subject_id": "STMT-SOME-MEANINGFUL-NEGATION-DOUBLE-NEGATION-NOT-MEANINGFUL",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-WEAK",
+  "note": "Class: recorded rival of an owner-approved floor item (weak version). No source states it as a thesis; it follows from V1 with testable laws. Not refuted here."
+}
