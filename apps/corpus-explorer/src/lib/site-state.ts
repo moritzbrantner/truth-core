@@ -12,9 +12,10 @@ import { DEFAULT_ROOT_STATEMENT_ID } from "./proposition-graph";
  */
 
 /**
- * Depth of an open premise (#987): "stated" when a claim states it,
- * "supported" when only a `supports` relation (whose note records the gap)
- * points to it, otherwise "bare". Supported and stated are both undefended.
+ * Depth of an open premise (#987): "stated" when a claim on a pinned source
+ * states it, "supported" when only a `supports` relation (whose note records
+ * the gap) or only a bibliographic citation (no pinned bytes) points to it,
+ * otherwise "bare". Supported and stated are both undefended.
  */
 export type FrontierDepth = "bare" | "supported" | "stated";
 
@@ -23,8 +24,8 @@ export const FRONTIER_DEPTHS: readonly FrontierDepth[] = ["bare", "supported", "
 /** Plain-language description of each depth, for marks and legends. */
 export const FRONTIER_DEPTH_DESCRIPTIONS: Record<FrontierDepth, string> = {
   bare: "No claim states it and no supports relation backs it",
-  supported: "Only a supports relation backs it; no claim states it (its note records the gap)",
-  stated: "A source claim states it; not yet defended",
+  supported: "Only a supports relation or a bibliographic citation backs it; no claim on a pinned source states it",
+  stated: "A claim on a pinned source states it; not yet defended",
 };
 
 export type FrontierItem = {

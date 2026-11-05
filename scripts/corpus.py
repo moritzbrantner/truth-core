@@ -212,10 +212,11 @@ STAGE_CONCLUSIONS = (
     (6, "STMT-CHRISTS-CHURCH-IS-THE-CATHOLIC-CHURCH"),
 )
 # Depth of an open premise (#143, 2026-10-24; three categories by owner
-# decision on #987, 2026-11-05): "stated" when a claim on a source passage
-# states it; otherwise "supported" when only `supports` relations point to it
-# (source evidence that bears on it without stating it; the relation's note
-# records the gap); otherwise "bare". Supported and stated premises are both
+# decision on #987, 2026-11-05): "stated" when a claim on a pinned source
+# passage states it; otherwise "supported" when only `supports` relations, or
+# only claims on a bibliographic span (cited by page, no pinned bytes; owner
+# decision 2026-11-05), point to it; otherwise "bare". A bibliographic-only
+# premise becomes stated once its witness is pinned. Supported and stated premises are both
 # undefended. A relocation counts as progress only if it adds no bare premise.
 FRONTIER_BARE = "bare"
 FRONTIER_SUPPORTED = "supported"
@@ -641,8 +642,9 @@ def frontier_report(
     fixpoint.
 
     Each open premise also gets a depth (#143, 2026-10-24; #987): "stated"
-    when a claim states it, otherwise "supported" when a `supports` relation
-    points to it, otherwise "bare". Each route also counts its open leaves by
+    when a claim on a pinned source states it, otherwise "supported" when a
+    `supports` relation or only bibliographic claims point to it, otherwise
+    "bare". Each route also counts its open leaves by
     the same depths (`depth_counts`)."""
     statement_by_id = {statement["id"]: statement for statement in statements}
     argument_by_id = {argument["id"]: argument for argument in arguments}
@@ -954,9 +956,12 @@ def frontier_report(
     }
 
     def source_depth(statement_id: str) -> str:
-        if stating_claims.get(statement_id):
+        stating = stating_claims.get(statement_id, set())
+        # Only a claim on a pinned source states a premise; a bibliographic
+        # citation alone supports it (owner decision 2026-11-05).
+        if stating - bibliographic_claims:
             return FRONTIER_STATED
-        if support.get(statement_id):
+        if stating or support.get(statement_id):
             return FRONTIER_SUPPORTED
         return FRONTIER_BARE
 
@@ -1224,18 +1229,22 @@ def statement_view(
 
 
 def item_depth(item: dict[str, Any]) -> str:
-    """An open premise's depth (#987). A report from a revision before #987
-    says "sourced" for both supported and stated premises; its
-    `stating_claims` tells them apart."""
+    """An open premise's depth (#987), normalized to the current rule. A report
+    from a revision before #987 says "sourced" for both supported and stated
+    premises; its `stating_claims` tells them apart. A report from before the
+    pinned-source rule (2026-11-05) says "stated" for a premise stated only by
+    bibliographic claims (`bibliographic_claims`); it is supported."""
     depth = item["depth"]
-    if depth == FRONTIER_LEGACY_SOURCED:
-        return FRONTIER_STATED if item.get("stating_claims") else FRONTIER_SUPPORTED
+    if depth in (FRONTIER_LEGACY_SOURCED, FRONTIER_STATED):
+        pinned = set(item.get("stating_claims", ())) - set(item.get("bibliographic_claims", ()))
+        return FRONTIER_STATED if pinned else FRONTIER_SUPPORTED
     return depth
 
 
 def depth_counts(items: list[dict[str, Any]]) -> dict[str, int]:
-    """Open premises by depth: bare, supported (only a `supports` relation)
-    and stated (a claim states it); the last two are undefended (#987)."""
+    """Open premises by depth: bare, supported (only a `supports` relation or
+    a bibliographic claim) and stated (a claim on a pinned source states it);
+    the last two are undefended (#987)."""
     return {depth: sum(1 for item in items if item_depth(item) == depth) for depth in FRONTIER_DEPTHS}
 
 
@@ -2456,10 +2465,19 @@ def frontier_delta(base: dict[str, Any], head: dict[str, Any]) -> dict[str, Any]
     def route_depth_counts(report: dict[str, Any], route: dict[str, Any] | None) -> dict[str, int] | None:
         if route is None:
             return None
-        if "depth_counts" in route:
-            return route["depth_counts"]
         depths = {item["statement_id"]: item_depth(item) for item in report["items"]}
         depths.update(report.get("all_item_depths", {}))
+        if "open_premise_depths" in route:
+            # Recount cached route depths with the normalized item depths, so a
+            # base whose own rule differed (2026-11-05) reports no spurious move.
+            counts = {depth: 0 for depth in (*FRONTIER_DEPTHS, ROUTE_PROVED_UNESTABLISHED)}
+            for statement_id, depth in route["open_premise_depths"].items():
+                if depth != ROUTE_PROVED_UNESTABLISHED:
+                    depth = depths.get(statement_id, depth)
+                counts[depth] += 1
+            return counts
+        if "depth_counts" in route:
+            return route["depth_counts"]
         unestablished = set(route.get("proved_unestablished_statement_ids", []))
         counts = {depth: 0 for depth in (*FRONTIER_DEPTHS, ROUTE_PROVED_UNESTABLISHED)}
         for statement_id in route["open_premise_statement_ids"]:
