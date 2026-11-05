@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.SubsistentInfinityReceptionControls.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.SubsistentInfinityReceptionControls.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Aquinas.SummaTheologiae.SubsistentInfinityReceptionControls.checks"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

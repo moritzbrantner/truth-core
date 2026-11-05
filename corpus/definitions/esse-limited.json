@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ESSE-LIMITED",
+  "term": "limited esse (EsseLimited x)",
+  "definition": "EsseLimited x: the act of being (esse) of x is limited, finite in formal perfection, in the way ST I q.7 a.1 says form received in matter has its amplitude contracted and q.7 a.2 says a created subsistent form's esse is contracted to a determinate nature. In Lean EsseLimited is a parameter; its content is fixed only by STMT-ESSE-LIMITED-ONLY-THROUGH-RECEPTION and STMT-UNLIMITED-ESSE-IS-INFINITE. It is not quantitative finitude and not the represented RootMultiplication.HasLimitingPrinciple disjunction.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.InfinityReception.EsseLimitedOnlyThroughReceptionReading",
+  "note": "Stipulative label for the limitation q.7 a.1-2 speak of, indexed to a thing's esse. What would source it as a definition: a materialized passage giving an account of limitation of esse independent of reception, against which the reception premise could then be tested rather than presupposed. Examples: per q.7 a.2 and De ente c.4, the esse of an angel or of a composite substance is limited. Counterexample (per q.7 a.1): the divine esse is not limited. Distinguished from limitation of matter by form (perfective determination) and from quantitative boundedness."
+}

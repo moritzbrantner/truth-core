@@ -1,0 +1,13 @@
+{
+  "id": "INF-IMMUTABLE-IS-BOETHIAN-ETERNAL",
+  "input_statement_ids": [
+    "STMT-SUCCESSION-REQUIRES-POTENCY",
+    "STMT-LIFE-BOUNDARY-REQUIRES-POTENCY",
+    "STMT-PURE-ACT-LIVES"
+  ],
+  "output_statement_id": "STMT-IMMUTABLE-IS-BOETHIAN-ETERNAL",
+  "rule": "direct-proof",
+  "meaning": "Let x be in potency in no respect. If its life had succession (STMT-SUCCESSION-REQUIRES-POTENCY) or began or ended (STMT-LIFE-BOUNDARY-REQUIRES-POTENCY), x would be in potency in some respect, contradicting pure act; so its life is all at once and interminable. By STMT-PURE-ACT-LIVES it lives at some time. These are the three conjuncts of DEF-BOETHIAN-ETERNAL.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

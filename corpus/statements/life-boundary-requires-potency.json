@@ -1,0 +1,12 @@
+{
+  "id": "STMT-LIFE-BOUNDARY-REQUIRES-POTENCY",
+  "paraphrase": "Open premise, unattributed: whatever begins or ceases to live between an earlier and a later time of the duration frame is in potency in itself in some respect. Q.10 a.1 supports it only in the weaker form that what has a beginning or end is not altogether immutable.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.LifeBoundaryRequiresPotencyReading",
+  "definition_ids": [
+    "DEF-POTENCY",
+    "DEF-LIFE-PRESENT-AT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER"
+  ]
+}
