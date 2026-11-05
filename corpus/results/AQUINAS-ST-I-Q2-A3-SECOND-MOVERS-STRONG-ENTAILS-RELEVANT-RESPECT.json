@@ -1,0 +1,9 @@
+{
+  "id": "AQUINAS-ST-I-Q2-A3-SECOND-MOVERS-STRONG-ENTAILS-RELEVANT-RESPECT",
+  "argument_id": "AQUINAS-ST-I-Q2-A3-SECOND-MOVERS-STRONG-ENTAILS-RELEVANT-RESPECT",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaStrength.PerSeLink.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaStrength.PerSeLink.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaStrength.PerSeLink.secondMoversStrongEntailsRelevantRespect",
+  "comparator_config": "results/AQUINAS-ST-I-Q2-A3-SECOND-MOVERS-STRONG-ENTAILS-RELEVANT-RESPECT/comparator.json",
+  "status": "solution-present"
+}

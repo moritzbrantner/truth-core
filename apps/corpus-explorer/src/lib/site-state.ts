@@ -127,7 +127,19 @@ export type RootRoute = {
   depth_counts: Record<FrontierDepth | "proved_unestablished", number>;
 };
 
-export type ClosureReason = "proved" | "self_evident" | "alternatives_refuted" | "via_transcription";
+export type ClosureReason = "proved" | "self_evident" | "alternatives_refuted" | "via_strength" | "via_transcription";
+
+/** A registered strong/weak pair (#1017) and what propagated through it. */
+export type StrengthOrderEntry = {
+  relation_id: string;
+  strong_statement_id: string;
+  weak_statement_id: string;
+  result_id: string;
+  argument_id: string;
+  strictness_result_id: string | null;
+  weak_established_via_strength: boolean;
+  strong_refuted_via_strength: boolean;
+};
 
 export type FrontierReport = {
   root: string;
@@ -155,6 +167,8 @@ export type FrontierReport = {
     path_to_root: string[] | null;
   }>;
   closed_statements: Record<string, ClosureReason>;
+  /** Registered strength order (#1017); absent in reports from older revisions. */
+  strength_order?: StrengthOrderEntry[];
   /** Self-evident or defended, or reached from such statements through verified results only. */
   established_statements: string[];
   /** Statements whose upward argument walk reaches the root (root_route aware). */
@@ -279,6 +293,7 @@ export const CLOSURE_LABELS: Record<ClosureReason, string> = {
   proved: "Proved",
   self_evident: "Self-evident",
   alternatives_refuted: "Alternatives refuted",
+  via_strength: "Established through its strong version",
   via_transcription: "Closed through closed premises",
 };
 
@@ -286,6 +301,7 @@ export const CLOSURE_DESCRIPTIONS: Record<ClosureReason, string> = {
   proved: "Conclusion of a verified result that is not a transcription.",
   self_evident: "Marked self-evident, and its floor basis criterion holds on the current records.",
   alternatives_refuted: "Every recorded alternative is refuted by a verified argument whose premises are all established.",
+  via_strength: "Weak version of an established strong version, through a verified entailment (strengthens, #1017).",
   via_transcription: "Conclusion of a transcription result whose premises are all closed.",
 };
 

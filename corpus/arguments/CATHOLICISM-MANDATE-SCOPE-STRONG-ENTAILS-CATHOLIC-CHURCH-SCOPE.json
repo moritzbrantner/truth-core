@@ -1,0 +1,19 @@
+{
+  "id": "CATHOLICISM-MANDATE-SCOPE-STRONG-ENTAILS-CATHOLIC-CHURCH-SCOPE",
+  "premise_statement_ids": [
+    "STMT-MANDATE-COVERS-JESUS-FOUNDING-WITH-TEACHING"
+  ],
+  "conclusion_statement_id": "STMT-MANDATE-COVERS-JESUS-FOUNDING-OF-CATHOLIC-CHURCH",
+  "inference_ids": [
+    "INF-CATHOLICISM-MANDATE-SCOPE-STRONG-ENTAILS-CATHOLIC-CHURCH-SCOPE"
+  ],
+  "meaning": "The universal scope premise entails its instance at the Catholic Church: if every visible authoritative society Jesus founded was founded in the exercise of any mandate he holds and commissioned to teach, then, should Jesus have founded the Catholic Church as such a society, he founded it in that mandate and commissioned it to teach. Composes FoundingScope.scope_implies_catholic_church_scope; registers the strength order between the two scope premises (#357, #1017).",
+  "definition_ids": [
+    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+    "DEF-SKELETON-OPEN-PREDICATES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FOUNDED-BY-GOD"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "AQUINAS-ST-I-Q2-A3-ABSOLUTE-READING-ENTAILS-RELATIVE",
+  "premise_statement_ids": [
+    "STMT-FIRST-UNMOVED-MOVER-CANNOT-BE-LACKING"
+  ],
+  "conclusion_statement_id": "STMT-RELATIVELY-UNMOVED-MOVER-CANNOT-BE-LACKING",
+  "inference_ids": [
+    "INF-AQUINAS-ST-I-Q2-A3-ABSOLUTE-READING-ENTAILS-RELATIVE"
+  ],
+  "meaning": "The absolute prima via conclusion entails the relative one for the same relations: if a first mover moved in no respect cannot be lacking, a mover unmoved in every respect relevant to its moving cannot be lacking either, for any relevance relation. The statement-level counterpart of the model-quantified fact AQUINAS-ST-I-Q2-A3-ABSOLUTE-CONCLUSION-ENTAILS-RELATIVE; registers the strength order between the two conclusions (#151, #1017).",
+  "definition_ids": [
+    "DEF-FIRST-UNMOVED-MOVER",
+    "DEF-PER-SE-LINK-RELEVANT-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PER-SE-LINK"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "AQUINAS-ST-I-Q2-A3-ABSOLUTE-READING-ENTAILS-RELATIVE",
+  "argument_id": "AQUINAS-ST-I-Q2-A3-ABSOLUTE-READING-ENTAILS-RELATIVE",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaStrength.AbsoluteReading.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaStrength.AbsoluteReading.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaStrength.AbsoluteReading.absoluteReadingEntailsRelative",
+  "comparator_config": "results/AQUINAS-ST-I-Q2-A3-ABSOLUTE-READING-ENTAILS-RELATIVE/comparator.json",
+  "status": "solution-present"
+}
