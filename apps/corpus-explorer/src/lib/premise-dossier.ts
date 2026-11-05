@@ -99,13 +99,25 @@ export function parseDossiers(value: unknown): Record<string, PremiseDossier> {
 let cached: Record<string, PremiseDossier> | undefined;
 let cachedAttempts: Record<string, CorpusAttempt> | undefined;
 
+function loadDossierReport(target: string): unknown {
+  return JSON.parse(execFileSync("python3", ["scripts/corpus.py", "dossier", target, "--json"], {
+    cwd: path.resolve(process.cwd(), "../.."), encoding: "utf8", maxBuffer: 64 * 1024 * 1024,
+  }));
+}
+
+/** Resolve one real corpus dossier without building the full static-page index. */
+export function getDossier(statementId: string): PremiseDossier {
+  const value = loadDossierReport(statementId);
+  if (!dossier(value) || value.statement.id !== statementId) {
+    throw new Error(`Invalid dossier report for ${statementId}`);
+  }
+  return value;
+}
+
 /** Build once for all static pages; closure and route costs stay owned by corpus.py. */
 export function getDossiers(): Record<string, PremiseDossier> {
   if (!cached) {
-    const output: unknown = JSON.parse(execFileSync("python3", ["scripts/corpus.py", "dossier", "--all", "--json"], {
-      cwd: path.resolve(process.cwd(), "../.."), encoding: "utf8", maxBuffer: 64 * 1024 * 1024,
-    }));
-    cached = parseDossiers(output);
+    cached = parseDossiers(loadDossierReport("--all"));
   }
   return cached;
 }
