@@ -1,0 +1,16 @@
+{
+  "id": "STMT-MOVER-MOVED-AT-NO-TIME-IS-PURE-ACT",
+  "paraphrase": "Over a supplied clock: at any time at which it moves something, a mover that is moved in no respect at any time is in potency in no respect at that time. It asserts no existence or uniqueness, and nothing about times at which the mover moves nothing.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.InMetaphysicam.MoverMovedAtNoTimeIsInActOnlyReading",
+  "definition_ids": [
+    "DEF-MOVED-AT-NO-TIME",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-PURE-ACT",
+    "DEF-POTENCY",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNMOVED-AT-A-TIME",
+    "DISAMB-MOTION"
+  ]
+}

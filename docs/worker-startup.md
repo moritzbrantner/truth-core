@@ -39,6 +39,7 @@ python3 scripts/source_evidence.py check
 python3 scripts/source_evidence.py verify
 LEAN_NUM_THREADS=2 lake build
 python3 scripts/corpus.py check
+python3 scripts/bundle_audit.py
 python3 scripts/corpus.py bind-check
 scripts/verify-result.sh <RESULT-ID>
 ```
