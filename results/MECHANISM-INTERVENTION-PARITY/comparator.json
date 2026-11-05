@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.MechanismInterventionParity.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.MechanismInterventionParity.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Explanation.MechanismInterventionParity.certificate"
+  ],
+  "permitted_axioms": ["propext", "Classical.choice", "Quot.sound"],
+  "enable_nanoda": true
+}

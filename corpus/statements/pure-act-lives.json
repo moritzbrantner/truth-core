@@ -1,0 +1,9 @@
+{
+  "id": "STMT-PURE-ACT-LIVES",
+  "paraphrase": "Open premise, unattributed: whatever is in potency in no respect lives at some time of the duration frame (its life is present at some time). ST I q.18 a.3 supports it for God through intellect, but does not state it of pure act as such.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PureActLivesReading",
+  "definition_ids": [
+    "DEF-PURE-ACT",
+    "DEF-LIFE-PRESENT-AT"
+  ]
+}

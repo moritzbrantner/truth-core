@@ -1,0 +1,11 @@
+{
+  "id": "AQUINAS-ST-I-Q10-A1-IMMUTABLE-NO-BEGINNING-END",
+  "statement_id": "STMT-ALTOGETHER-IMMUTABLE-HAS-NO-BEGINNING-OR-END",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.10 a.1 co.: Quod vero est omnino immutabile, sicut nec successionem, ita nec principium aut finem habere potest",
+  "interpretation": "Things measured by time have beginning and end in time, because in whatever is moved there is some beginning and some end; what is altogether immutable can have neither succession nor beginning nor end. 'Omnino immutabile' is taken in q.9's sense, which q.9 a.2 contrasts with creatures mutable through a power in another; the sentence does not itself say that whatever begins has potency in its subject.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-IMMUTABLE"
+  ]
+}
