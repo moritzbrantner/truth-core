@@ -114,27 +114,41 @@ What it shows, and what it does not:
   relation is recorded.
 - The fideist's escapes are exactly the denials of the two bridges.
   - Treat the council as theology *about* the practice rather than its grammar
-    (`needsDefinitionIsOwnStandard`). This is close to Phillips's picture of
-    philosophical distortion entering belief (2005, 75, as quoted). The
-    reconstruction is unattributed.
+    (`needsDefinitionIsOwnStandard`). It may connect with Phillips's remark
+    that his approach rescues belief and atheism "from philosophical
+    distortion" (2005, 75, as quoted), but no witness says he read conciliar
+    teaching so. The reconstruction is unattributed.
   - Re-read "natural reason" as a practice-internal standard
     (`needsNaturalReasonIsShared`).
 
-  Either escape needs a criterion of the practice's grammar that overrides the
-  practice's own authoritative self-description. That is a standard from outside
-  the game, which sits badly with the internal-grammar thesis. This last step is
-  a judgment with no vocabulary yet. Blocker: a typed account of who fixes a
-  practice's grammar.
+  A possible further objection, unresolved: the first escape seems to need a
+  criterion of the practice's grammar that can override the practice's own
+  authoritative self-description, and such a criterion may not fit the
+  internal-grammar thesis. The second escape is an interpretive dispute about
+  the council's text, settled by reading, not by this objection. The
+  objection is a judgment with no vocabulary yet and is not counted. Blocker: a
+  typed account of who fixes a practice's grammar.
 
-Self-application (prose only). The fideist thesis is a claim about the
-grammar of religion. It is made in philosophy, not as a move of the religious
-game. Under the insulation reading of thesis (3), only insiders understand
-religious claims, so the thesis cannot be correct about religion. The generic
-schema `STMT-SELF-APPLICATION-DILEMMA` (`DEF-SELF-APPLICATION-NORM`) has this
-shape. Instantiating it would add only an `instantiation` transcription, because
-its load-bearing premise is a judgment the corpus cannot type yet: that the
-fideist thesis falls outside the religious game. For the Catholic case, the
-defeat above already covers it: the game's own standard condemns the thesis.
+Self-application: an unresolved objection, not a result. One might argue
+that the fideist thesis is a claim about the grammar of religion made in
+philosophy, outside the religious game, and so cannot be correct by its own
+lights. That does not follow from the reported theses.
+
+- Thesis (3) restricts who can *understand* religious beliefs, not who can
+  correctly make philosophical claims about religion. A believer doing
+  philosophy is compatible with it.
+- The generic schema `STMT-SELF-APPLICATION-DILEMMA` (`DEF-SELF-APPLICATION-NORM`)
+  applies only if the fideist claim falls within the norm's scope and fails its
+  standard. Placing the claim outside the game establishes neither.
+
+The objection would need three explicit bridges, none recorded:
+
+1. a norm whose scope includes claims *about* a practice's grammar;
+2. a bridge from understanding to correctness;
+3. the premise that the fideist claim fails that norm's standard.
+
+Until then it stays an objection for the whole-worldview comparison, with no
+Lean and no counted defeat.
 
 Nielsen's critique (`STMT-NIELSEN-WF-INSULATES-FORMS-OF-LIFE`) is recorded as an
 `attacks` relation on the cut-off thesis. It judges a consequence (no form of
@@ -188,7 +202,7 @@ Four senses are recorded in `DISAMB-HINGE-STATUS`:
 3. **Non-propositional animal certainty** (Moyal-Sharrock).
 4. **Nonsense** (Read, Crary).
 
-Wittgenstein's own text leans against sense 1:
+The readings that deny sense 1 cite these passages:
 
 - §151: "Moore *weiß* nicht, was er zu wissen behauptet, aber es steht für ihn
   fest".
@@ -197,7 +211,8 @@ Wittgenstein's own text leans against sense 1:
 - §205, recorded as a conditional only: *if* the true is what is grounded, the
   ground is neither true nor false.
 
-So the "neither true nor false" reading bears on 'established' as follows.
+Which sense the text supports is disputed, and none is attributed here. On
+the non-knowledge senses (2-4), the bearing on 'established' is as follows.
 F3 and F4 would *stand fast* without being *established* in the corpus's
 sense. They would not be denied, but they would not be known truths that
 refute their rivals either.
