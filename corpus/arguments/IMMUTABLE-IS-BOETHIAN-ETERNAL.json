@@ -1,0 +1,22 @@
+{
+  "id": "IMMUTABLE-IS-BOETHIAN-ETERNAL",
+  "premise_statement_ids": [
+    "STMT-SUCCESSION-REQUIRES-POTENCY",
+    "STMT-LIFE-BOUNDARY-REQUIRES-POTENCY",
+    "STMT-PURE-ACT-LIVES"
+  ],
+  "conclusion_statement_id": "STMT-IMMUTABLE-IS-BOETHIAN-ETERNAL",
+  "inference_ids": [
+    "INF-IMMUTABLE-IS-BOETHIAN-ETERNAL"
+  ],
+  "meaning": "ST I q.10 a.1 with q.9 a.1: the altogether immutable (in potency in no respect) is eternal in Boethius' typed sense over a duration frame. No succession follows from the sourced q.9 a.1 succession principle, no beginning or end from the open boundary premise, possession of life from the open premise that pure act lives. The conclusion is a separate typed statement; it does not close STMT-IMMUTABLE-IS-ETERNAL, whose primitive Eternal the root routes consume. The Comparator config also verifies three omission controls (successionPremiseNeeded, boundaryPremiseNeeded, lifePremiseNeeded) and a joint model with a pure-act being (premisesJointlySatisfiable).",
+  "definition_ids": [
+    "DEF-BOETHIAN-ETERNAL",
+    "DEF-LIFE-PRESENT-AT",
+    "DEF-PURE-ACT",
+    "DEF-POTENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER"
+  ]
+}

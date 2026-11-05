@@ -1,0 +1,14 @@
+{
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.ImmutableIsBoethianEternal.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.ImmutableIsBoethianEternal.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Aquinas.SummaTheologiae.ImmutableIsBoethianEternal.pureActInterminableTotaSimul",
+    "TruthCore.Results.Aquinas.SummaTheologiae.ImmutableIsBoethianEternal.immutableIsBoethianEternal",
+    "TruthCore.Results.Aquinas.SummaTheologiae.ImmutableIsBoethianEternal.successionPremiseNeeded",
+    "TruthCore.Results.Aquinas.SummaTheologiae.ImmutableIsBoethianEternal.boundaryPremiseNeeded",
+    "TruthCore.Results.Aquinas.SummaTheologiae.ImmutableIsBoethianEternal.lifePremiseNeeded",
+    "TruthCore.Results.Aquinas.SummaTheologiae.ImmutableIsBoethianEternal.premisesJointlySatisfiable"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

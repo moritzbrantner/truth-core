@@ -31,6 +31,7 @@ import TruthCore.Causality.DirectEsseRootGoodnessOmission
 import TruthCore.Causality.DirectEsseRootPerfectionGoodness
 import TruthCore.Causality.DirectEsseRootRoute
 import TruthCore.Causality.DirectEsseRootUniquenessAtBeing
+import TruthCore.Causality.EsseReception
 import TruthCore.Causality.EssentialPower
 import TruthCore.Causality.ExistenceActuality
 import TruthCore.Causality.ExistentialSelfActualization

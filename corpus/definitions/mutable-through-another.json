@@ -1,0 +1,9 @@
+{
+  "id": "DEF-MUTABLE-THROUGH-ANOTHER",
+  "term": "mutable through a power in another (q.9 a.2)",
+  "definition": "A thing is mutable through a power in another when some other being has the power to change it, above all the creator's power to cease giving it esse, whether or not the thing itself has any potency in its subject (ST I q.9 a.2 co.). No Lean declaration encodes this sense.",
+  "basis": "sourced",
+  "claim_ids": [
+    "AQUINAS-ST-I-Q9-A2-EXTERNAL-MUTABILITY"
+  ]
+}
