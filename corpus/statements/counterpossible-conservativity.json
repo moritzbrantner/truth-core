@@ -1,0 +1,16 @@
+{
+  "id": "STMT-COUNTERPOSSIBLE-CONSERVATIVITY",
+  "paraphrase": "Two interpretations reuse the exact active AND and idle lookup mechanisms on normal backgrounds (true,u). Their entire normal observations agree for every u: PUBLIC contributor a is always on, cofactor and effect vary with u. In this declared normal Kripke model the public atom is necessary and the effect contingent; the public atom is not logically valid over arbitrary valuations. One normal-first universal selector selects all normal antecedent witnesses and consults only the originating context repair, if no normal witness exists and that repair satisfies the antecedent. For arbitrary antecedent/consequent predicates agreeing on every normal state and a normal-witness antecedent, both interpretations have identical selected conditional evaluations and agree with normal-only evaluation. For PUBLIC a off, normal-only evaluation validates both opposite effect consequents vacuously; each extension selects exactly the originating repair. At origin true, the active equation yields effect-off and rejects effect-on, while the idle equation reverses those evaluations. Repairs clamp PUBLIC a=false but keep latent background first=true: no latent-source intervention, necessary-bearer nonexistence or source-nonexistence underdetermination is encoded. Adding repairs to modal accessibility would destroy public-atom necessity, a separate profile change. The old strict-absence-vacuity baseline and intervention results are composed, not identified with counterfactual semantics. This explicit analyst conditional interpretation is not actual counterpossible truth, metaphysical possibility, logical contradiction, causation or grounding; the vacuist can reject repair evaluation and the nonvacuist owes its defense. Attribution deferred, no root-premise change.",
+  "lean_declaration": "TruthCore.Modal.CounterpossibleConservativity.Certificate",
+  "definition_ids": [
+    "DEF-COUNTERPOSSIBLE-NORMAL-REPAIR-DOMAINS",
+    "DEF-COUNTERPOSSIBLE-NORMAL-FIRST-SELECTION",
+    "DEF-COUNTERPOSSIBLE-PUBLIC-ATOM-INTERPRETATION",
+    "DEF-MECHANISM-INTERVENTION-PARITY",
+    "DEF-REGULARITY-INTERVENTION",
+    "DEF-EXPLANATORY-ENABLES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COUNTERPOSSIBLE-PUBLIC-CLAMP-MODAL-NECESSITY"
+  ]
+}

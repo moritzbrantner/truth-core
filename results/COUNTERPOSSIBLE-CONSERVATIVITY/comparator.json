@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.CounterpossibleConservativity.Challenge",
+  "solution_module": "TruthCore.Results.Modal.CounterpossibleConservativity.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.CounterpossibleConservativity.certificate"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

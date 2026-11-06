@@ -375,3 +375,13 @@ two-source countermodel nor a nature-label argument closes the bridge from
 independent step is a non-question-begging *law-grounding discriminator*,
 followed separately by any bridge from grounding a law to one **necessary
 concrete individual**. A theorem about group records does not supply either.
+
+## Public-contributor-off interpretation follow-up
+
+[Counterpossible conservativity](counterpossible-conservativity.md) reuses the
+exact active AND and idle lookup mechanisms on normal backgrounds `(true,u)`.
+It compares a normal-only conditional with an explicit conservative repair
+interpretation. Repairs clamp PUBLIC a only; latent first=true remains intact.
+No latent-source intervention, necessary-bearer nonexistence or real
+counterpossible truth is established, and the original intervention/application
+boundaries remain OPEN.
