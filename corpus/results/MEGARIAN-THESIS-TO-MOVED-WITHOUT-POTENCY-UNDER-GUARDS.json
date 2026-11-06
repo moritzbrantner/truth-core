@@ -1,0 +1,10 @@
+{
+  "id": "MEGARIAN-THESIS-TO-MOVED-WITHOUT-POTENCY-UNDER-GUARDS",
+  "argument_id": "MEGARIAN-THESIS-TO-MOVED-WITHOUT-POTENCY-UNDER-GUARDS",
+  "challenge_module": "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.GuardedCountercase.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.GuardedCountercase.Solution",
+  "theorem": "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.GuardedCountercase.guardedCountercase",
+  "comparator_config": "results/MEGARIAN-THESIS-TO-MOVED-WITHOUT-POTENCY-UNDER-GUARDS/comparator.json",
+  "status": "solution-present",
+  "description": "A real moved tuple and the SAME-sense weak potency-to-capacity/nonactuality analysis make the Megarian thesis yield the exact analyst moved/not-potent countertuple, without the existing historical occasionalist candidate additional story. The raw thesis alone is not an automatic opponent of moved-in-potency."
+}

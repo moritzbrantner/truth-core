@@ -1,0 +1,10 @@
+{
+  "id": "ADMITTED-INSULATION-REJECTS-REVELATION-CAPABILITY",
+  "argument_id": "ADMITTED-INSULATION-REJECTS-REVELATION-CAPABILITY",
+  "challenge_module": "TruthCore.Results.Alternatives.RevelationRecognition.Capability.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.RevelationRecognition.Capability.Solution",
+  "theorem": "TruthCore.Results.Alternatives.RevelationRecognition.Capability.insulationRejectsCapability",
+  "comparator_config": "results/ADMITTED-INSULATION-REJECTS-REVELATION-CAPABILITY/comparator.json",
+  "status": "solution-present",
+  "description": "Obtain an actual God candidate, realize capability as a correct recognition move in an admitted situation, make that move outsider-shared by the separate bridge, and contradict cut-off in that same situation. No actual recognition or capability truth is independently supplied."
+}

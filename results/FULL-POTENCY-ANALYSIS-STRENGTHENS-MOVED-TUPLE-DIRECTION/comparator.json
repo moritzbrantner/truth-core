@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.AnalysisStrength.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.AnalysisStrength.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.AnalysisStrength.analysisStrength"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -27,7 +27,30 @@ class BundleAuditTest(unittest.TestCase):
 
     def test_naming_route_reuses_frozen_consumer_contract(self):
         audit = bundle_audit.check(audit=json.loads(bundle_audit.AUDITS[2].read_text()))
-        self.assertEqual(len(audit['records']), 163)
+        index = bundle_audit.records(bundle_audit.ROOT)
+        expected = bundle_audit.expected_scope(index, audit['result_id'])
+        for result_id in audit['consumer_result_ids']:
+            for kind, ids in bundle_audit.expected_scope(index, result_id).items():
+                expected[kind].update(ids)
+        self.assertEqual(
+            {(row['kind'], row['id']) for row in audit['records']},
+            {(kind, record_id) for kind, ids in expected.items() for record_id in ids},
+        )
+        semantic_rows = {
+            'STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE': {
+                'DEF-REVELATION-RECOGNITION-PROFILE',
+                'DISAMB-REVELATION-CAPABILITY-AND-PRACTICE-UPTAKE',
+            },
+            'STMT-CHRIST-FOUNDED-VISIBLE-CHURCH': {
+                'DEF-CHURCH-CRITERION-CALIBRATION',
+            },
+        }
+        for statement_id, required in semantic_rows.items():
+            statement = index['statements'][statement_id][1]
+            links = set(statement.get('definition_ids', []) + statement.get('disambiguation_ids', []))
+            if required & links:
+                self.assertTrue(required <= links)
+                self.assertTrue(required <= {row['id'] for row in audit['records']})
         self.assertTrue({'DEF-INDEPENDENT-POTENCY', 'DISAMB-POTENCY'} <=
                         {row['id'] for row in audit['records']})
         self.assertEqual(sum(row['kind'] == 'results' for row in audit['records']), 11)

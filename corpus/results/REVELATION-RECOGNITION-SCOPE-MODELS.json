@@ -1,0 +1,10 @@
+{
+  "id": "REVELATION-RECOGNITION-SCOPE-MODELS",
+  "argument_id": "REVELATION-RECOGNITION-SCOPE-MODELS",
+  "challenge_module": "TruthCore.Results.Alternatives.RevelationRecognition.Models.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.RevelationRecognition.Models.Solution",
+  "theorem": "TruthCore.Results.Alternatives.RevelationRecognition.Models.recognitionModels",
+  "comparator_config": "results/REVELATION-RECOGNITION-SCOPE-MODELS/comparator.json",
+  "status": "solution-present",
+  "description": "Six finite controls reuse the existing DivineFounding signature and vary only the stated recognition situations/predicates. Actual insulation can coexist with capacity via another situation; realization/sharedness/nonempty God and admitted-subset coverage each have a concrete failure control. Full calibration is stricter than its one-way direction. These are schema controls, not modal or historical completeness."
+}

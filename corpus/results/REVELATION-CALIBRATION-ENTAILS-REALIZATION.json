@@ -1,0 +1,11 @@
+{
+  "id": "REVELATION-CALIBRATION-ENTAILS-REALIZATION",
+  "argument_id": "REVELATION-CALIBRATION-ENTAILS-REALIZATION",
+  "challenge_module": "TruthCore.Results.Alternatives.RevelationRecognition.Strength.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.RevelationRecognition.Strength.Solution",
+  "theorem": "TruthCore.Results.Alternatives.RevelationRecognition.Strength.calibrationRealizes",
+  "comparator_config": "results/REVELATION-CALIBRATION-ENTAILS-REALIZATION/comparator.json",
+  "status": "solution-present",
+  "description": "The full calibration implies its forward realization direction, pointwise on God candidates. This assembly transcription registers strength; capability-conflict arguments use the weaker realization.",
+  "transcription": "assembly"
+}
