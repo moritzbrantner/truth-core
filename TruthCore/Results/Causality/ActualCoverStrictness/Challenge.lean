@@ -1,8 +1,5 @@
-module
+import TruthCore.Causality.ActualCoverStrictness
 
-public import TruthCore.Causality.ActualCoverStrictness
-
-@[expose] public section
 namespace TruthCore.Results.Causality.ActualCoverStrictness
 open TruthCore.Causality.ActualCoverStrictness
 
