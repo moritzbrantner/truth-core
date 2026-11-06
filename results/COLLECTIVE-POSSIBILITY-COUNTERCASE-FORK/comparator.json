@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.Coverage.Challenge",
+  "solution_module": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.Coverage.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.Coverage.coverage"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

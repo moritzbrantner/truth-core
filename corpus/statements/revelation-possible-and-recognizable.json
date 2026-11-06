@@ -1,1 +1,12 @@
-{"id":"STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE","paraphrase":"Whatever is God can reveal, and can make a revelation recognizable as his by external signs, the motives of credibility.","lean_declaration":"TruthCore.Case.Catholicism.RevelationPossibleAndRecognizable","definition_ids":["DEF-GOD-OF-CLASSICAL-THEISM"]}
+{
+  "id": "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE",
+  "paraphrase": "Whatever is God can reveal, and can make a revelation recognizable as his by external signs, the motives of credibility.",
+  "lean_declaration": "TruthCore.Case.Catholicism.RevelationPossibleAndRecognizable",
+  "definition_ids": [
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-REVELATION-RECOGNITION-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REVELATION-CAPABILITY-AND-PRACTICE-UPTAKE"
+  ]
+}

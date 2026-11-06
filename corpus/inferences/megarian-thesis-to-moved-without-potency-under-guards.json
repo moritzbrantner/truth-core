@@ -1,0 +1,13 @@
+{
+  "id": "INF-MEGARIAN-THESIS-TO-MOVED-WITHOUT-POTENCY-UNDER-GUARDS",
+  "input_statement_ids": [
+    "STMT-MEGARIAN-ABILITY-ONLY-WHEN-ACTING",
+    "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD",
+    "STMT-MOVED-TUPLE-POTENCY-HAS-UNACTUALIZED-CAPACITY"
+  ],
+  "output_statement_id": "STMT-ACTUAL-MOVED-NOT-POTENT-COUNTERTUPLE",
+  "rule": "constructive-proof",
+  "meaning": "A real moved tuple and the SAME-sense weak potency-to-capacity/nonactuality analysis make the Megarian thesis yield the exact analyst moved/not-potent countertuple, without the existing historical occasionalist candidate additional story. The raw thesis alone is not an automatic opponent of moved-in-potency.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

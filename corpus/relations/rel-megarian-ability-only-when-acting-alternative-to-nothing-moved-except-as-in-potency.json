@@ -2,8 +2,8 @@
   "id": "REL-MEGARIAN-ABILITY-ONLY-WHEN-ACTING-ALTERNATIVE-TO-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
   "subject_kind": "statement",
   "subject_id": "STMT-MEGARIAN-ABILITY-ONLY-WHEN-ACTING",
-  "predicate": "alternative_to",
+  "predicate": "attacks",
   "object_kind": "statement",
   "object_id": "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
-  "note": "Class: countermodel/inconsistency. With the Metaphysics IX.6 analysis of potency (STMT-POTENCY-IS-UNACTUALIZED-CAPACITY) the thesis leaves nothing in potency, so a moved thing would be moved without potency. Refuted given open premises STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD, STMT-WHAT-IS-BEING-MOVED-TO-R-IS-NOT-YET-R and STMT-WHAT-IS-BEING-MOVED-TO-R-IS-ABLE-TO-BE-R by MEGARIAN-THESIS-ABOLISHES-MOTION (Metaphysics IX.3, 1047a10-17), which does not use the rivalled premise. No refutes relation is recorded while that premise is open (#391: rule (c) does not yet check the premises of a refuting argument)."
+  "note": "The original full-strength Megarian thesis is a guarded semantic objection, not an unconditional complement of moved-in-potency. The new checked bridge needs an actual moved witness and the SAME-sense moved-tuple potency-to-unactualized-capacity analysis before yielding the precise analyst moved/not-potent countertuple, without deriving the stronger occasionalist candidate story. Existing MEGARIAN-THESIS-ABOLISHES-MOTION and its four-premise core remain unchanged; their incomplete-motion and ability premises remain open. No unqualified refutation or floor change is registered. See docs/notes/megarian-moved-potency-boundary.md."
 }

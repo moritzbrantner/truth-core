@@ -1,0 +1,8 @@
+{
+  "id": "STMT-COLLECTIVE-POSSIBILITY-PRECISE-COUNTERCASE",
+  "paraphrase": "Each being can not-be, yet common absence is not possible under the SAME supplied semantics. Exact deciding countercase to the original collective conditional; no infinite-generative-history thesis is included.",
+  "lean_declaration": "TruthCore.Logic.CollectivePossibilityRouteBoundary.Countercase",
+  "definition_ids": [
+    "DEF-COLLECTIVE-POSSIBILITY-LOCAL-PROOF-ROUTE"
+  ]
+}

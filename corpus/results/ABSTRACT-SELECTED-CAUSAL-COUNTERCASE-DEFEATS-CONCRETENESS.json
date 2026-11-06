@@ -1,0 +1,10 @@
+{
+  "id": "ABSTRACT-SELECTED-CAUSAL-COUNTERCASE-DEFEATS-CONCRETENESS",
+  "argument_id": "ABSTRACT-SELECTED-CAUSAL-COUNTERCASE-DEFEATS-CONCRETENESS",
+  "challenge_module": "TruthCore.Results.Causality.CausalConcreteRivals.CounterFailure.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CausalConcreteRivals.CounterFailure.Solution",
+  "theorem": "TruthCore.Results.Causality.CausalConcreteRivals.CounterFailure.counterFailure",
+  "comparator_config": "results/ABSTRACT-SELECTED-CAUSAL-COUNTERCASE-DEFEATS-CONCRETENESS/comparator.json",
+  "status": "solution-present",
+  "description": "A no-esse capacity or productive-causer witness contradicts the SAME original two-clause commitment only with the explicit concrete/esse calibration."
+}

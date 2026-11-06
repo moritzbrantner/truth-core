@@ -1,0 +1,14 @@
+{
+  "id": "STMT-NAMED-PRODUCTIVE-ABSTRACT-CAUSAL-CASES-FAIL",
+  "paraphrase": "All three specified productive/no-esse countercases fail in the SAME supplied profile. This does not by itself eliminate capacity-only or further-category countercases.",
+  "lean_declaration": "TruthCore.Causality.CausalConcreteRivalBoundary.NamedCasesFail",
+  "definition_ids": [
+    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE",
+    "DEF-CONCRETE-ESSE-IN-RE",
+    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ]
+}

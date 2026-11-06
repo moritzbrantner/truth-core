@@ -1,0 +1,11 @@
+{
+  "id": "MATH-COUNTERCASE-IN-NAMED-CAUSAL-FORK",
+  "argument_id": "MATH-COUNTERCASE-IN-NAMED-CAUSAL-FORK",
+  "challenge_module": "TruthCore.Results.Causality.CausalConcreteRivals.NamedFromMath.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CausalConcreteRivals.NamedFromMath.Solution",
+  "theorem": "TruthCore.Results.Causality.CausalConcreteRivals.NamedFromMath.namedFromMath",
+  "comparator_config": "results/MATH-COUNTERCASE-IN-NAMED-CAUSAL-FORK/comparator.json",
+  "status": "solution-present",
+  "description": "Explicit mathematical-branch injection into the named disjunction.",
+  "transcription": "instantiation"
+}

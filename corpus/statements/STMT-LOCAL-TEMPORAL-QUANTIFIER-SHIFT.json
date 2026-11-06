@@ -1,0 +1,8 @@
+{
+  "id": "STMT-LOCAL-TEMPORAL-QUANTIFIER-SHIFT",
+  "paraphrase": "Restricted OPEN shift for ONE supplied presence profile: if each being is absent sometime, there is a time when all are absent. Strictly weaker than the refuted global schema over every domain/dictionary; invalidity of the global schema does not refute this local proposition.",
+  "lean_declaration": "TruthCore.Logic.CollectivePossibilityRouteBoundary.LocalShift",
+  "definition_ids": [
+    "DEF-COLLECTIVE-POSSIBILITY-LOCAL-PROOF-ROUTE"
+  ]
+}

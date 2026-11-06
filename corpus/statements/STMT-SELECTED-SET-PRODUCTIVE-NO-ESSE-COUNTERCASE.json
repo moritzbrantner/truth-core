@@ -1,0 +1,14 @@
+{
+  "id": "STMT-SELECTED-SET-PRODUCTIVE-NO-ESSE-COUNTERCASE",
+  "paraphrase": "A selected-world productive cause is a supplied set and lacks esse in re. Explicit category, activity and classification witness; stronger than the raw event-set account.",
+  "lean_declaration": "TruthCore.Causality.CausalConcreteRivalBoundary.SetCounter",
+  "definition_ids": [
+    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE",
+    "DEF-CONCRETE-ESSE-IN-RE",
+    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ]
+}

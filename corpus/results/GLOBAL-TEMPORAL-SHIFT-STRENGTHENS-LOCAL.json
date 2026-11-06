@@ -1,0 +1,11 @@
+{
+  "id": "GLOBAL-TEMPORAL-SHIFT-STRENGTHENS-LOCAL",
+  "argument_id": "GLOBAL-TEMPORAL-SHIFT-STRENGTHENS-LOCAL",
+  "challenge_module": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.GlobalStrength.Challenge",
+  "solution_module": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.GlobalStrength.Solution",
+  "theorem": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.GlobalStrength.globalStrength",
+  "comparator_config": "results/GLOBAL-TEMPORAL-SHIFT-STRENGTHENS-LOCAL/comparator.json",
+  "status": "solution-present",
+  "description": "Exact sole-premise restriction: the global temporal shift would imply a local shift for any fixed supplied profile. Global invalidity does not refute local instances.",
+  "transcription": "instantiation"
+}
