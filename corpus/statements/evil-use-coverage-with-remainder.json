@@ -1,0 +1,18 @@
+{
+  "id": "STMT-EVIL-USE-COVERAGE-WITH-REMAINDER",
+  "paraphrase": "For a fixed critic-utterance interpretation and target Rowe frame, at least one holds: the critic's selected evil utterance is true under own semantics; the target-internal permission conditional holds; the utterance expresses disapproval; or none of these three holds. These conditions may overlap. Coverage retains an explicit remainder and does not exhaust philosophical schools.",
+  "lean_declaration": "TruthCore.Metaethics.EvilObjection.UseCoverageWithRemainder",
+  "definition_ids": [
+    "DEF-EVIL-OBJECTION-CRITIC",
+    "DEF-EVIL-OBJECTION-USES",
+    "DEF-INTERNAL-PERMISSION-CHALLENGE",
+    "DEF-AFFECTIVE-BADNESS-ANALYSIS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EVIL-OBJECTION-SEMANTICS",
+    "DISAMB-MORAL-ANTIREALISM",
+    "DISAMB-TRUE",
+    "DISAMB-ROWE-SUFFERING-AND-CULPA",
+    "DISAMB-ROWE-APPARENT-AND-ACTUAL"
+  ]
+}

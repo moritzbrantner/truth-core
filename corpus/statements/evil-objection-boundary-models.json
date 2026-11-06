@@ -1,0 +1,18 @@
+{
+  "id": "STMT-EVIL-OBJECTION-BOUNDARY-MODELS",
+  "paraphrase": "Explicit model interpretations jointly certify the limits of the diagnostic fork: strict truthless moral semantics permits true non-moral suffering reports and a nonvacuous target-internal challenge; changing only the target's blocking-cost relation switches from a permission-satisfying narrow-theist frame to one with actual gratuitous suffering. Affective badness analysis also permits a true truth-apt evil utterance. Finally, the explicit remaining-use condition is inhabitable and named-use coverage fails there. No actual speaker, deity, event or full philosophical worldview is thereby modeled.",
+  "lean_declaration": "TruthCore.Metaethics.EvilObjection.BoundaryModels",
+  "definition_ids": [
+    "DEF-EVIL-OBJECTION-CRITIC",
+    "DEF-EVIL-OBJECTION-USES",
+    "DEF-INTERNAL-PERMISSION-CHALLENGE",
+    "DEF-AFFECTIVE-BADNESS-ANALYSIS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EVIL-OBJECTION-SEMANTICS",
+    "DISAMB-MORAL-ANTIREALISM",
+    "DISAMB-TRUE",
+    "DISAMB-ROWE-SUFFERING-AND-CULPA",
+    "DISAMB-ROWE-APPARENT-AND-ACTUAL"
+  ]
+}

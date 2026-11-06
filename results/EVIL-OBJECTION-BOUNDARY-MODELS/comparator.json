@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Metaethics.EvilObjection.BoundaryModels.Challenge",
+  "solution_module": "TruthCore.Results.Metaethics.EvilObjection.BoundaryModels.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Metaethics.EvilObjection.BoundaryModels.boundaryModels"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

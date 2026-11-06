@@ -1,0 +1,18 @@
+{
+  "id": "STMT-BADNESS-AS-DISAPPROVAL-ANALYSIS",
+  "paraphrase": "Analyst affective analysis: in the supplied utterance domain, a sentence ascribes badness exactly when it expresses the speaker's disapproval. The proposition does not itself exclude truth-aptness or truth, and is not attributed to all emotivists or expressivists.",
+  "lean_declaration": "TruthCore.Metaethics.EvilObjection.BadnessAsDisapproval",
+  "definition_ids": [
+    "DEF-EVIL-OBJECTION-CRITIC",
+    "DEF-EVIL-OBJECTION-USES",
+    "DEF-INTERNAL-PERMISSION-CHALLENGE",
+    "DEF-AFFECTIVE-BADNESS-ANALYSIS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EVIL-OBJECTION-SEMANTICS",
+    "DISAMB-MORAL-ANTIREALISM",
+    "DISAMB-TRUE",
+    "DISAMB-ROWE-SUFFERING-AND-CULPA",
+    "DISAMB-ROWE-APPARENT-AND-ACTUAL"
+  ]
+}

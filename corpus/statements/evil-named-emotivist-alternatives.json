@@ -1,0 +1,18 @@
+{
+  "id": "STMT-EVIL-NAMED-EMOTIVIST-ALTERNATIVES",
+  "paraphrase": "Under the critic's strict truthless semantics, the own-true-evil-premise branch is excluded; either the target-internal permission challenge or affective protest holds. This conclusion requires the separately recorded named-use coverage premise.",
+  "lean_declaration": "TruthCore.Metaethics.EvilObjection.NamedEmotivistAlternatives",
+  "definition_ids": [
+    "DEF-EVIL-OBJECTION-CRITIC",
+    "DEF-EVIL-OBJECTION-USES",
+    "DEF-INTERNAL-PERMISSION-CHALLENGE",
+    "DEF-AFFECTIVE-BADNESS-ANALYSIS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EVIL-OBJECTION-SEMANTICS",
+    "DISAMB-MORAL-ANTIREALISM",
+    "DISAMB-TRUE",
+    "DISAMB-ROWE-SUFFERING-AND-CULPA",
+    "DISAMB-ROWE-APPARENT-AND-ACTUAL"
+  ]
+}

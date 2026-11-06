@@ -1,0 +1,24 @@
+{
+  "id": "EVIL-USE-COVERAGE-WITH-REMAINDER",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-EVIL-USE-COVERAGE-WITH-REMAINDER",
+  "inference_ids": [
+    "INF-EVIL-USE-COVERAGE-WITH-REMAINDER"
+  ],
+  "meaning": "Excluded middle covers the three named diagnostic conditions only by retaining their exact joint-negation remainder. Coverage excluding that remainder remains a separate open proposition; no mutual exclusivity or philosophical-school exhaustiveness follows.",
+  "definition_ids": [
+    "DEF-EVIL-OBJECTION-CRITIC",
+    "DEF-EVIL-OBJECTION-USES",
+    "DEF-INTERNAL-PERMISSION-CHALLENGE",
+    "DEF-AFFECTIVE-BADNESS-ANALYSIS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EVIL-OBJECTION-SEMANTICS",
+    "DISAMB-MORAL-ANTIREALISM",
+    "DISAMB-TRUE",
+    "DISAMB-ROWE-SUFFERING-AND-CULPA",
+    "DISAMB-ROWE-APPARENT-AND-ACTUAL"
+  ]
+}

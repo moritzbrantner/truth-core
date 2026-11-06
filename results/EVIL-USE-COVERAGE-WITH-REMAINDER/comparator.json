@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Metaethics.EvilObjection.Coverage.Challenge",
+  "solution_module": "TruthCore.Results.Metaethics.EvilObjection.Coverage.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Metaethics.EvilObjection.Coverage.useCoverageWithRemainder"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

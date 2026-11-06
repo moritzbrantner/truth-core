@@ -1,0 +1,8 @@
+{
+  "id": "DEF-AFFECTIVE-BADNESS-ANALYSIS",
+  "term": "badness as disapproval",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Metaethics.EvilObjection.BadnessAsDisapproval",
+  "definition": "BadnessAsDisapproval c := \u2200 \u03c6, c.SaysBad \u03c6 \u2194 c.ExpressesDisapproval \u03c6. It is an explicit analyst proposition about the supplied utterance domain. It does not add moral truthlessness; the truthAffectiveCritic witness satisfies it while the selected evil utterance is true and truth-apt. StrictTruthlessPolicy is a separate stronger semantic configuration with four explicit bridges.",
+  "note": "A reconstruction for consequence testing, not a sourced definition of every emotivist or contemporary expressivist. The explicit witness models compatibility with some truth-aptness interpretation, not robust mind-independent moral truth, complete quasi-realism or full solution of Frege\u2013Geach. The existing sourced OConnor truth-value denial and existing positive Stevenson/quasi-realist theories retain their distinct scopes. No author attribution is added."
+}
