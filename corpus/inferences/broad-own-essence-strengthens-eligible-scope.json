@@ -1,0 +1,11 @@
+{
+  "id": "INF-BROAD-OWN-ESSENCE-STRENGTHENS-ELIGIBLE-SCOPE",
+  "input_statement_ids": [
+    "STMT-ESSE-RECEIVED-IN-OWN-ESSENCE"
+  ],
+  "output_statement_id": "STMT-ELIGIBLE-BEARERS-RECEIVE-ESSE-ONLY-IN-OWN-ESSENCE",
+  "rule": "constructive-proof",
+  "meaning": "Exact sole-premise scope strength: the original broad law implies the supplied eligible-bearer restriction. No source eligibility criterion is adopted.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

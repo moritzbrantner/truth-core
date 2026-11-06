@@ -1,0 +1,18 @@
+{
+  "id": "IDENTITY-SCOPED-RECEPTION-STRICTNESS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-IDENTITY-SCOPED-RECEPTION-STRICTNESS-CONTROL",
+  "inference_ids": [
+    "INF-IDENTITY-SCOPED-RECEPTION-STRICTNESS"
+  ],
+  "meaning": "Finite strictness profile: broad own-essence fails at an actual nonidentity soul-labelled reception tuple while the identity-scoped premise holds and an identity candidate exists. This does not claim the entire five-premise infinity bundle.",
+  "definition_ids": [
+    "DEF-UNITED-ESSE-RECEPTION-INTERPRETATION-PROFILE",
+    "DEF-ESSE-RECEIVED-IN",
+    "DEF-ESSENCE-THOMISTIC-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSE-RECEPTION",
+    "DISAMB-ESSENCE"
+  ]
+}
