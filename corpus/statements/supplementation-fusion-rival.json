@@ -1,0 +1,18 @@
+{
+  "id": "STMT-SUPPLEMENTATION-FUSION-RIVAL",
+  "lean_declaration": "TruthCore.Mereology.SupplementationFusion.RivalCertificate",
+  "paraphrase": "The fixed four-object Mathlib partial order has a,b strictly below both incomparable u,v and no other strict comparisons. RivalCertificate jointly asserts weak supplementation, all-nonempty-Set Sum3 formation, failure of strong supplementation and overlap-extensional parthood, distinct duplicate Sum2 fusions u/v of {a,b} with identical proper parts, no common upper bound of {u,v}, failure of unrestricted Sum2, no greatest or null object, and Sum3 fusion u of {u,v} although v is not part of u. This is a mathematical interpretation, not a full classical extensional mereology or real material coincidence.",
+  "definition_ids": [
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-MEREOLOGICAL-SUPPLEMENTATION",
+    "DEF-BINARY-SUM2-FORMATION",
+    "DEF-OVERLAP-FUSION",
+    "DEF-MEREOLOGICAL-AXIOM-COMPARISON",
+    "DEF-SUPPLEMENTATION-FUSION-RIVAL",
+    "DEF-OVERLAP-EXTENSIONAL-PARTHOOD"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SUM2-AND-SUM3-FUSION"
+  ]
+}

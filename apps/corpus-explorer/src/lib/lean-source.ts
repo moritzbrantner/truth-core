@@ -102,8 +102,9 @@ export function indexLeanSource(relativeFile: string, text: string): LeanLocatio
   return found;
 }
 
-/** Source-location metadata only, not proof certification. The declaration and
- * line were inspected in this exact installed Lean release (Init/WF.lean:60).
+/** Source-location metadata only, not proof certification. Declarations and
+ * lines were inspected in this exact installed Lean release (Init/WF.lean:60
+ * and Init/Prelude.lean:839).
  * An uninspected toolchain gets no guessed location. No library fetch is needed.
  */
 export function pinnedCoreLocations(toolchain: string): LeanLocation[] {
@@ -114,6 +115,12 @@ export function pinnedCoreLocations(toolchain: string): LeanLocation[] {
     line: 60,
     sourceUrl: "https://github.com/leanprover/lean4/blob/v4.35.0/src/Init/WF.lean#L60",
     snippet: "Lean core accessibility predicate; see the pinned official declaration.",
+  }, {
+    name: "Nonempty",
+    file: "src/Init/Prelude.lean",
+    line: 839,
+    sourceUrl: "https://github.com/leanprover/lean4/blob/v4.35.0/src/Init/Prelude.lean#L839",
+    snippet: "Lean core carrier inhabitation typeclass; see the pinned official declaration.",
   }];
 }
 

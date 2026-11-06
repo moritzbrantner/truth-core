@@ -1,0 +1,12 @@
+{
+  "id": "STMT-MEREOLOGICAL-SEPARATION-CHARACTERIZATION",
+  "lean_declaration": "TruthCore.Mereology.SupplementationFusion.SeparationCharacterization",
+  "paraphrase": "Strong supplementation is equivalent to the existing OverlapExtensionalParthood condition on the supplied fixed partial order. Neither side is independently asserted true of actual parthood.",
+  "definition_ids": [
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-MEREOLOGICAL-SUPPLEMENTATION",
+    "DEF-MEREOLOGICAL-AXIOM-COMPARISON",
+    "DEF-OVERLAP-EXTENSIONAL-PARTHOOD"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "SUM2-SUM3-COMPARISON",
+  "premise_statement_ids": [
+    "STMT-STRONG-SUPPLEMENTATION"
+  ],
+  "conclusion_statement_id": "STMT-SUM2-SUM3-COMPARISON",
+  "inference_ids": [
+    "INF-SUM2-SUM3-COMPARISON"
+  ],
+  "meaning": "Sum2 implies Sum3 using common parts, no-extra-parts and containment, without supplementation. For the converse, the separation characterization converts overlap inclusion for each family member to containment; reflexive overlap then supplies no-extra-parts. No family is asserted to exist or to have a fusion merely by this pointwise equivalence.",
+  "definition_ids": [
+    "DEF-MEREOLOGICAL-SUPPLEMENTATION",
+    "DEF-BINARY-SUM2-FORMATION",
+    "DEF-OVERLAP-FUSION",
+    "DEF-MEREOLOGICAL-AXIOM-COMPARISON",
+    "DEF-SUPPLEMENTATION-FUSION-RIVAL",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-OVERLAP-EXTENSIONAL-PARTHOOD"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SUM2-AND-SUM3-FUSION"
+  ]
+}

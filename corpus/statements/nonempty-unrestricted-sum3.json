@@ -1,0 +1,13 @@
+{
+  "id": "STMT-NONEMPTY-UNRESTRICTED-SUM3",
+  "lean_declaration": "TruthCore.Mereology.SupplementationFusion.UnrestrictedOverlap",
+  "paraphrase": "Every nonempty Lean Set of candidates has a Sum3 overlap-profile fusion, without requiring selected members to be parts of that witness. No empty-family formation, actual ontology or first-order schema equivalence is asserted.",
+  "definition_ids": [
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-OVERLAP-FUSION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SUM2-AND-SUM3-FUSION"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "MEREOLOGICAL-SEPARATION-CHARACTERIZATION",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-MEREOLOGICAL-SEPARATION-CHARACTERIZATION",
+  "inference_ids": [
+    "INF-MEREOLOGICAL-SEPARATION-CHARACTERIZATION"
+  ],
+  "meaning": "Strong supplementation gives the contrapositive of overlap inclusion implying parthood; transitivity supplies the forward implication. Conversely, if every part of x overlaps y, every overlap of x overlaps y through a common subpart, so existing overlap-extensional parthood gives x≤y. Classical contraposition yields a disjoint part. This is an equivalence, not unconditional strong supplementation.",
+  "definition_ids": [
+    "DEF-MEREOLOGICAL-SUPPLEMENTATION",
+    "DEF-BINARY-SUM2-FORMATION",
+    "DEF-OVERLAP-FUSION",
+    "DEF-MEREOLOGICAL-AXIOM-COMPARISON",
+    "DEF-SUPPLEMENTATION-FUSION-RIVAL",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-OVERLAP-EXTENSIONAL-PARTHOOD"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SUM2-AND-SUM3-FUSION"
+  ]
+}

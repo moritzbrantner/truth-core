@@ -1,0 +1,13 @@
+{
+  "id": "INF-STRONG-SUM3-GREATEST-ENTITY",
+  "input_statement_ids": [
+    "STMT-INHABITED-CARRIER",
+    "STMT-STRONG-SUPPLEMENTATION",
+    "STMT-NONEMPTY-UNRESTRICTED-SUM3"
+  ],
+  "output_statement_id": "STMT-MEREOLOGICAL-GREATEST-ENTITY",
+  "rule": "typed-partial-order-supplementation-and-fusion",
+  "meaning": "Convert each nonempty Sum3 fusion to existing Sum2 using the comparison theorem, then apply TruthCore.Results.Mereology.UniversalFusionBoundary.checks first conjunct to the inhabited carrier. Strong supplementation and carrier inhabitation remain explicit; applying the old theorem to bare Sum3 would be invalid.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

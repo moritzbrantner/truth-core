@@ -1,0 +1,11 @@
+{
+  "id": "INF-SUM2-SUM3-COMPARISON",
+  "input_statement_ids": [
+    "STMT-STRONG-SUPPLEMENTATION"
+  ],
+  "output_statement_id": "STMT-SUM2-SUM3-COMPARISON",
+  "rule": "typed-partial-order-supplementation-and-fusion",
+  "meaning": "Sum2 implies Sum3 using common parts, no-extra-parts and containment, without supplementation. For the converse, the separation characterization converts overlap inclusion for each family member to containment; reflexive overlap then supplies no-extra-parts. No family is asserted to exist or to have a fusion merely by this pointwise equivalence.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

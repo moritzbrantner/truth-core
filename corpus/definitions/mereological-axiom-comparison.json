@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MEREOLOGICAL-AXIOM-COMPARISON",
+  "term": "mereological separation and fusion comparison",
+  "lean_declaration": "TruthCore.Mereology.SupplementationFusion.FusionComparison",
+  "basis": "stipulative",
+  "definition": "FusionComparison B asserts pointwise equivalence of existing Sum2 Fusion and Sum3 OverlapFusion on this carrier. SeparationCharacterization B is strong supplementation iff existing OverlapExtensionalParthood. GreatestEntity B means some carrier candidate contains every candidate; no actual existence, necessity, causal or grounding role is asserted.",
+  "note": "Analyst formulation for #1050; attribution and metaphysical applicability deferred. Common-part overlap is unchanged: an admitted null object would overlap everything. The rival expressly excludes one. See docs/notes/universal-fusion-grounding.md."
+}

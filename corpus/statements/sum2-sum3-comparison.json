@@ -1,0 +1,14 @@
+{
+  "id": "STMT-SUM2-SUM3-COMPARISON",
+  "lean_declaration": "TruthCore.Mereology.SupplementationFusion.FusionComparison",
+  "paraphrase": "For every family and candidate in this fixed partial order, the existing Sum2 Fusion predicate holds exactly when the Sum3 OverlapFusion predicate holds. This pointwise condition asserts no fusion formation.",
+  "definition_ids": [
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-OVERLAP-FUSION",
+    "DEF-MEREOLOGICAL-AXIOM-COMPARISON"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SUM2-AND-SUM3-FUSION"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-OVERLAP-FUSION",
+  "term": "overlap-profile Sum3 fusion",
+  "lean_declaration": "TruthCore.Mereology.SupplementationFusion.OverlapFusion",
+  "basis": "stipulative",
+  "definition": "OverlapFusion family u says for every p, Overlap p u iff some x in family overlaps p, using the same existing common-part Overlap. It does not include member containment. UnrestrictedOverlap requires such a witness for every nonempty Lean Set, with the same second-order scope as existing Unrestricted; no empty-family or first-order schema equivalence is asserted.",
+  "note": "Analyst formulation for #1050; attribution and metaphysical applicability deferred. Common-part overlap is unchanged: an admitted null object would overlap everything. The rival expressly excludes one. See docs/notes/universal-fusion-grounding.md."
+}

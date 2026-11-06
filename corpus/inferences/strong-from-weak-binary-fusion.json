@@ -1,0 +1,12 @@
+{
+  "id": "INF-STRONG-FROM-WEAK-BINARY-FUSION",
+  "input_statement_ids": [
+    "STMT-WEAK-SUPPLEMENTATION",
+    "STMT-BINARY-SUM2-FORMATION"
+  ],
+  "output_statement_id": "STMT-STRONG-SUPPLEMENTATION",
+  "rule": "typed-partial-order-supplementation-and-fusion",
+  "meaning": "Take a Sum2 fusion u of {x,y}. If every part of x overlaps y, the no-extra-parts clause implies every part of u overlaps y. Since y≤u, weak supplementation excludes y<u, so u=y and x≤y. Classical contraposition produces the separating remainder. Only binary Sum2 formation is used; no atomism, unrestricted-family formation or modal premises.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

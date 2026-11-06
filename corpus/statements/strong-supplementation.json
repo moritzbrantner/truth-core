@@ -1,0 +1,10 @@
+{
+  "id": "STMT-STRONG-SUPPLEMENTATION",
+  "lean_declaration": "TruthCore.Mereology.SupplementationFusion.StrongSupplementation",
+  "paraphrase": "Whenever x is not part of y, some part of x is disjoint from y, in the same supplied Mathlib partial order with existing common-part overlap.",
+  "definition_ids": [
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-MEREOLOGICAL-SUPPLEMENTATION"
+  ]
+}
