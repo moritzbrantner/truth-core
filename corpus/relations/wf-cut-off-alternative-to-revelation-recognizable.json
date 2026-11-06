@@ -1,9 +1,9 @@
 {
   "id": "REL-WF-CUT-OFF-ALTERNATIVE-TO-REVELATION-RECOGNIZABLE",
   "subject_kind": "statement",
-  "subject_id": "STMT-WF-RELIGION-CUT-OFF-FROM-SHARED-REASON",
+  "subject_id": "STMT-REVELATION-CAPABILITY-REJECTED",
   "predicate": "alternative_to",
   "object_kind": "statement",
   "object_id": "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE",
-  "note": "Class: rival account of how faith relates to evidence (WF-N). On the reading that recognizability of a revelation by external signs (the motives of credibility) answers to reason shared with outsiders, the cut-off thesis excludes it as a correct religious move; that reading is the relation's own, not a recorded premise. Defeated as a description of the Catholic practice only conditionally: WF-FAILS-AS-DESCRIPTION-OF-CATHOLIC-PRACTICE derives that the fideist pair fails from three open premises (the stated Dei Filius canon, the open definition bridge and the open shared-reason reading), so under #999 it counts as no refutation. Minimalism (STMT-MINIMALISM-ALLOWS-EXTERNAL-EVIDENCE) does not hold the cut-off thesis and is not a rival here. No refutes relation."
+  "note": "Serious WF-N cut-off rival retained at full strength in STMT-WF-RELIGION-CUT-OFF-FROM-SHARED-REASON. The endpoint is now the exact negation of the unchanged root capability, not an independent actual-practice predicate. ACTUAL-INSULATION-REJECTS-CAPABILITY-WITH-EXPLICIT-COVERAGE checks the translation only with explicit actual God existence, candidate realization, admitted-subset coverage, shared recognition, raw actual cut-off and persistence to admitted situations. The original practice thesis can coexist with capability; a finite control realizes correct recognition only in a nonactual situation. The three old council/internal-grammar bridges refute only a conjunction and do not supply this modal/practice map. No premise is independently defended, no refutes relation is registered, and refuting raw actual cut-off alone cannot automatically defend the root capability through this rival relation. Minimalist external-evidence views remain outside the sharp cut-off thesis."
 }

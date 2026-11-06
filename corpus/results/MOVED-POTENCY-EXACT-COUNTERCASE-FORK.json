@@ -1,0 +1,27 @@
+{
+  "id": "MOVED-POTENCY-EXACT-COUNTERCASE-FORK",
+  "argument_id": "MOVED-POTENCY-EXACT-COUNTERCASE-FORK",
+  "challenge_module": "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.Coverage.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.Coverage.Solution",
+  "theorem": "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.Coverage.coverage",
+  "comparator_config": "results/MOVED-POTENCY-EXACT-COUNTERCASE-FORK/comparator.json",
+  "status": "solution-present",
+  "description": "Structural universal-or-actual-countertuple fork under explicit excluded middle. No named-worldview exhaustion or historical interpretation is inferred.",
+  "transcription": "instantiation",
+  "case_split": {
+    "target_statement_id": "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
+    "cases": [
+      {
+        "label": "moved-in-potency universal",
+        "statement_id": "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MovedOnlyAsInPotencyReading"
+      },
+      {
+        "label": "actual moved/not-potent tuple",
+        "statement_id": "STMT-ACTUAL-MOVED-NOT-POTENT-COUNTERTUPLE",
+        "lean_declaration": "TruthCore.Alternatives.MegarianMovedPotencyBoundary.Countertuple"
+      }
+    ],
+    "survival_result_id": "MEGARIAN-MOVED-POTENCY-BOUNDARIES"
+  }
+}

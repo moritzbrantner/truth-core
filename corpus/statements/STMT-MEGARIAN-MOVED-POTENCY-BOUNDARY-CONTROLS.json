@@ -1,0 +1,17 @@
+{
+  "id": "STMT-MEGARIAN-MOVED-POTENCY-BOUNDARY-CONTROLS",
+  "paraphrase": "Four exact extensions of the old Megarian Unit models: no-motion model satisfies Megarian thesis, full potency analysis and moved-in-potency vacuously; already-actual moved model satisfies Megarian thesis and moved-in-potency while the weak analysis fails; moved-without-ability model has Megarian thesis, actual movement and full analysis but a moved-without-potency countertuple; idle-potency control satisfies weak moved-tuple analysis but rejects full analysis. No actual ontology or metaphysical possibility is asserted.",
+  "lean_declaration": "TruthCore.Alternatives.MegarianMovedPotencyBoundary.Controls",
+  "definition_ids": [
+    "DEF-MEGARIAN-MOVED-POTENCY-INTERPRETATION-BOUNDARY",
+    "DEF-ACT",
+    "DEF-CAPACITY-TO-BE",
+    "DEF-POTENCY",
+    "DEF-MOTION-AS-REDUCTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION",
+    "DISAMB-POTENCY",
+    "DISAMB-IN-ACT"
+  ]
+}

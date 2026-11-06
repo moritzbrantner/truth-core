@@ -900,14 +900,14 @@
       "kind": "statements",
       "id": "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE",
       "path": "corpus/statements/revelation-possible-and-recognizable.json",
-      "status": "inspected",
-      "classification": "bounded_inspection",
-      "finding": "Inspected proposition and linked term records: Whatever is God can reveal, and can make a revelation recognizable as his by external signs, the motives of credibility. Quantifier scope and witness identity are preserved in the scoped complete applications; no source-fidelity renewal.",
+      "status": "repaired",
+      "classification": "semantic_scope_repair",
+      "finding": "Re-reviewed unchanged root capability declaration and paraphrase. Added explicit recognition-profile definition/disambiguation links; no actual recognition follows from capability. Raw actual-practice cut-off now reaches an exact capability-negation sibling only via explicit candidate realization, admitted-situation coverage, shared recognition, persistence and actual God witness. New scope controls preserve the original root Signature and Challenges; no renewed source certification.",
       "before": {
         "sha256": "16ef4cb65a959663ac4ad425e4c2ff868d1058f87a6db74a3e39c0a89cc7c8e5",
         "lean_declaration": "TruthCore.Case.Catholicism.RevelationPossibleAndRecognizable"
       },
-      "reviewed_sha256": "16ef4cb65a959663ac4ad425e4c2ff868d1058f87a6db74a3e39c0a89cc7c8e5"
+      "reviewed_sha256": "3e725b1903b7e9ec82daf04a490b0362ef8070bca7ae743d9312bea35c97ebd2"
     },
     {
       "kind": "statements",
@@ -2169,6 +2169,32 @@
         "lean_declaration": null
       },
       "reviewed_sha256": "76c589c5cfd15ed8c5e30f534a8061c497b54c621ace403f3a9b49686ebf5a58"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-REVELATION-RECOGNITION-PROFILE",
+      "path": "corpus/definitions/revelation-recognition-profile.json",
+      "status": "inspected",
+      "classification": "explicit_semantic_profile",
+      "finding": "Inspected new analyst profile vocabulary linked by the existing stage-3 consumer premise. Candidate situations, admitted subset, actual situation, recognition and correctness are distinct; realization, coverage and sharedness remain open. This term link does not replace the original capability predicate or establish the profile applicability.",
+      "before": {
+        "sha256": "absent (new record)",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "fe6db14db1e2080343a95b8c414b35dd06aeed535f36f1c185110227e05b0f67"
+    },
+    {
+      "kind": "disambiguations",
+      "id": "DISAMB-REVELATION-CAPABILITY-AND-PRACTICE-UPTAKE",
+      "path": "corpus/disambiguations/revelation-capability-and-practice-uptake.json",
+      "status": "inspected",
+      "classification": "explicit_semantic_profile",
+      "finding": "Inspected capability-versus-actual-practice resolution: existing root consumers retain capacity, not actual recognition. Exact opposing capability negation requires explicit God witness, realization/coverage, shared recognition and persistence; raw actual CutOff remains a separate serious thesis.",
+      "before": {
+        "sha256": "absent (new record)",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "7bad58b314201d9316472714f59a11f78c57365e3f302903413f2304f05da48a"
     },
     {
       "kind": "definitions",

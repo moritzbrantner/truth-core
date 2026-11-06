@@ -1,0 +1,11 @@
+{
+  "id": "REALIZED-POSSIBILITY-STRENGTHENS-COMMON-ABSENCE",
+  "argument_id": "REALIZED-POSSIBILITY-STRENGTHENS-COMMON-ABSENCE",
+  "challenge_module": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.RealizationStrength.Challenge",
+  "solution_module": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.RealizationStrength.Solution",
+  "theorem": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.RealizationStrength.realizationStrength",
+  "comparator_config": "results/REALIZED-POSSIBILITY-STRENGTHENS-COMMON-ABSENCE/comparator.json",
+  "status": "solution-present",
+  "description": "Exact sole-premise restriction from arbitrary-condition realization to the common-absence interface actually used.",
+  "transcription": "instantiation"
+}

@@ -25,9 +25,10 @@
         "STMT-MATHEMATICAL-FACTS-ARE-CAUSALLY-RELEVANT",
         "STMT-PLATONIC-FORMS-ARE-EFFICIENT-CAUSES",
         "STMT-SOME-CAUSE-LACKS-ESSE-IN-RE",
-        "STMT-SOME-CAUSES-ARE-SETS"
+        "STMT-SOME-CAUSES-ARE-SETS",
+        "STMT-SELECTED-CAUSAL-CONCRETENESS-COMMITMENT-FAILS"
       ],
-      "note": "Also recorded: the SEP 'Abstract Objects' §3.2 participation problem (no account says what participation in an event makes an object a cause), an objection to the principle's application rather than a rival thesis."
+      "note": "Also recorded: the SEP 'Abstract Objects' §3.2 participation problem (no account says what participation in an event makes an object a cause), an objection to the principle's application rather than a rival thesis. The exact selected-profile negative is now registered as a formal alternative. The original four full-strength accounts remain semantic objections; their productive/classification/world-selection interfaces are separate OPEN propositions, not implied by the disagreement roster. Owner approval is unchanged."
     },
     "owner_approval": {
       "decision": "https://github.com/moritzbrantner/truth-core/issues/1103#issuecomment-6683616439",

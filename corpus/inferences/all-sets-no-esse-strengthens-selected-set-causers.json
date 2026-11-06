@@ -1,0 +1,11 @@
+{
+  "id": "INF-ALL-SETS-NO-ESSE-STRENGTHENS-SELECTED-SET-CAUSERS",
+  "input_statement_ids": [
+    "STMT-ALL-SUPPLIED-SETS-LACK-ESSE"
+  ],
+  "output_statement_id": "STMT-SELECTED-SET-CAUSERS-LACK-ESSE",
+  "rule": "constructive-proof",
+  "meaning": "Sole-premise restriction of the stronger classification to selected productive set-causers; weaker premise is used by the actual route.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

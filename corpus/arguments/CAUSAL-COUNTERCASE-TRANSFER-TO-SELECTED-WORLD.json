@@ -1,0 +1,19 @@
+{
+  "id": "CAUSAL-COUNTERCASE-TRANSFER-TO-SELECTED-WORLD",
+  "premise_statement_ids": [
+    "STMT-WITNESS-WORLD-HAS-NO-ESSE-CAUSAL-COUNTERCASE",
+    "STMT-CAUSAL-COUNTER-WITNESS-WORLD-IS-SELECTED"
+  ],
+  "conclusion_statement_id": "STMT-SELECTED-NO-ESSE-CAUSAL-COUNTERCASE",
+  "inference_ids": [
+    "INF-CAUSAL-COUNTERCASE-TRANSFER-TO-SELECTED-WORLD"
+  ],
+  "meaning": "World-identification transport transcription. Another or accessible world alone is insufficient.",
+  "definition_ids": [
+    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ]
+}
