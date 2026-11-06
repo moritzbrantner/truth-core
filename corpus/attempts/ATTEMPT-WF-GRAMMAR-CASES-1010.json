@@ -9,12 +9,11 @@
   "date": "2026-11-06",
   "kind": "derivation",
   "outcome": "succeeded",
-  "summary": "Owner decision 2026-11-06: cover who fixes the grammar by cases. Partition from excluded middle (authorities / ordinary use / neither). Authority cell: composed from the two earlier defeats through the case bridge. Ordinary-use cell: Catechism (Latin typical edition) CCC 31-36 (natural knowability, ways as converging arguments) and the creed's first article (pinned Greek) support, but do not state, that ordinary use affirms natural knowability and confesses the one true God. Neither cell is recorded as held by any source; it survives (certified model). No survey data is pinned: none found as a legitimately hosted, pinnable dataset with a scope matching 'ordinary Catholic use'. CCC 12, 185-197 and 199-200 were read but not pinned: the vatican.va pages served two byte variants (CI saw the other one), so no reliable witness could be pinned.",
+  "summary": "Owner decision 2026-11-06: cover who fixes the grammar by cases. Partition from excluded middle (authorities / ordinary use / neither). Authority cell: composed from the two earlier defeats through the case bridge. Ordinary-use cell: the creed's first article (pinned Greek) supports, but does not state, that ordinary use confesses the one true God; the Catechism (CCC 12, 31-38, 185-202, read in the Latin typical edition) would support that ordinary use affirms natural knowability, but no Catechism page could be pinned: vatican.va serves byte variants of its catechism_lt pages (CI fetched different bytes for each page tried), so the ordinary-use knowability premise is bare. The neither cell is recorded as held by no source; it survives (certified model). No survey data is pinned: none found as a legitimately hosted, pinnable dataset with a scope matching 'ordinary Catholic use'.",
   "evidence": [
     "FIDEISM-FAILS-IN-AUTHORITY-AND-USE-CASES",
     "FIDEISM-GRAMMAR-CASES-PARTITION",
-    "CCC-31-36-KNOWLEDGE-OF-GOD",
     "CREED-C381-ART-01"
   ],
-  "blocker": "Case 2 is only supported: the Catechism and the creed show what the practice teaches its members and asks them to profess, not what ordinary believers in fact mean. Both case bridges and the shared-reason reading are open."
+  "blocker": "Case 2 is weak: the knowability premise is bare (the Catechism could not be pinned) and the confession premise only supported by the creed text; both case bridges and the shared-reason reading are open."
 }
