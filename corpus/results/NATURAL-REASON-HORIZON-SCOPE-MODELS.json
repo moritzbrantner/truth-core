@@ -1,0 +1,10 @@
+{
+  "id": "NATURAL-REASON-HORIZON-SCOPE-MODELS",
+  "argument_id": "NATURAL-REASON-HORIZON-SCOPE-MODELS",
+  "challenge_module": "TruthCore.Results.Alternatives.NaturalReasonHorizon.Models.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.NaturalReasonHorizon.Models.Solution",
+  "theorem": "TruthCore.Results.Alternatives.NaturalReasonHorizon.Models.horizonModels",
+  "comparator_config": "results/NATURAL-REASON-HORIZON-SCOPE-MODELS/comparator.json",
+  "status": "solution-present",
+  "description": "Four Boolean controls retain a theistic audience and actual nonmember natural-reason use under shared, nonshared and mixed standards; an empty natural-move domain witnesses the vacuity boundary. The mixed model imports the prior rejection theorem. These certify predicates, not real theological or apologetic history."
+}

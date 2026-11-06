@@ -1,0 +1,14 @@
+{
+  "id": "STMT-NATURAL-REASON-NAMED-UNIFORM-PROFILES-COVER",
+  "paraphrase": "Open named coverage premise: either all natural-knowability moves are shared or all are nonshared. Mixed behavior is a precise further alternative; no census of all philosophical theories is claimed.",
+  "lean_declaration": "TruthCore.Alternatives.NaturalReasonHorizon.NamedNaturalReasonCoverage",
+  "definition_ids": [
+    "DEF-NATURAL-REASON-PROFILE-COMPARISON",
+    "DEF-NATURAL-REASON-SHARED",
+    "DEF-NATURAL-REASON-PRACTICE-INTERNAL",
+    "DEF-CONCILIAR-DEFINITION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NATURAL-REASON"
+  ]
+}
