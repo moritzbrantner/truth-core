@@ -4,15 +4,29 @@
     "STMT-GOD-NAMES-NO-BEING-WF-P1",
     "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE",
     "STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS",
-    "STMT-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD"
+    "STMT-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD",
+    "STMT-PROPER-REFERENCE-PRESERVED",
+    "STMT-GOD-NAME-SHARED-REFERENCE-EXTENSION",
+    "STMT-PROPER-REFERENCE-LOST",
+    "STMT-FULL-NOMINAL-DESCRIPTOR-EXISTS",
+    "STMT-REDUCED-NOMINAL-DESCRIPTOR-EXISTS",
+    "STMT-PURE-ACT-NOMINAL-DESCRIPTOR-EXISTS"
   ],
   "date": "2026-11-06",
   "kind": "derivation",
   "outcome": "succeeded",
-  "summary": "Owner request (2026-11-05): a typed reference relation and the Dei Filius ch. 1 / can. I.1 parallel against the WF-P1 reconstruction. NamingPractice adds names, a practice-use reference relation and referential confession to the fideism Practice. Certified: with can. I.1 (stated) and the definition bridge (open), internal grammar + grammar-fixed reference + no-being is inconsistent; WF-P1 escapes by rejecting grammar-fixed reference (certified model). Link schemas show the rival conflicts with the nominal-identification leaves exactly where a being fits their descriptions. The rival is therefore not refuted: the defeat is conditional on two open bridges and binds only a fideist holding WF-P2's reference thesis. Rejected: identifying the practice-use reference with the leaves' proper-sense application (kept apart in DISAMB-NAME-APPLICATION).",
+  "summary": "Owner request (2026-11-05): a typed reference relation and the Dei Filius ch. 1 / can. I.1 parallel against the WF-P1 reconstruction. NamingPractice adds names, a practice-use reference relation and referential confession to the fideism Practice. Certified: with can. I.1 (stated) and the definition bridge (open), internal grammar + grammar-fixed reference + no-being is inconsistent; WF-P1 escapes by rejecting grammar-fixed reference (certified model). Link schemas show the rival conflicts with the nominal-identification leaves exactly where a being fits their descriptions. The rival is therefore not refuted: the defeat is conditional on two open bridges and binds only a fideist holding WF-P2's reference thesis. Rejected: identifying the practice-use reference with the leaves' proper-sense application (kept apart in DISAMB-NAME-APPLICATION). Definition audit (2026-11-06): the nominal proper God predicate is now compared with practice reference by an explicit open one-way transfer proposition, with stronger coextension, a lost-reference witness, checked EM structural coverage and strictness controls. A proper God witness plus transfer rejects raw practice no-reference. Conversely, raw no-reference plus transfer plus the matching full/reduced/pure-act descriptor witness negates that exact proper-profile naming leaf. The three existing alternative_to relation IDs retain this serious rival but now use those exact negations as endpoints; future refutation of the raw practice thesis alone cannot defend a nominal leaf. This corrects graph scope, rather than asking prose notes to override unconditioned endpoints. Existing practice-instantiated noBeing link schemas remain unchanged, and the full-description transfer composition explicitly reuses the checked old theorem. Rejected: no-reference alone refutes a nominal naming implication, or a conditional naming leaf supplies its own satisfying witness. No coverage of named reference theories, source attribution or independent semantic warrant is claimed.",
   "evidence": [
     "FIDEIST-REFERENCE-BUNDLE-FAILS-FOR-CATHOLIC-PRACTICE",
-    "VATICAN-I-DEI-FILIUS-CAN-I-1-ONE-TRUE-GOD"
+    "VATICAN-I-DEI-FILIUS-CAN-I-1-ONE-TRUE-GOD",
+    "GOD-NAME-COEXTENSION-PRESERVES-PROPER-REFERENCE",
+    "PROPER-GOD-EXISTENCE-REJECTS-PRACTICE-NO-REFERENCE",
+    "NAME-APPLICATION-TRANSFER-CASES",
+    "FULL-DESCRIPTION-EXCLUDED-AFTER-REFERENCE-TRANSFER",
+    "NAME-APPLICATION-TRANSFER-MODELS",
+    "PRACTICE-NO-REFERENCE-REJECTS-FULL-NAMING",
+    "PRACTICE-NO-REFERENCE-REJECTS-REDUCED-NAMING",
+    "PRACTICE-NO-REFERENCE-REJECTS-PURE-ACT-NAMING"
   ],
-  "blocker": "To refute WF-P1 itself, an argument would need either grammar-fixed reference as an established premise or another route from the practice's correct confession to reference; and STMT-CONCILIAR-DEFINITION-IS-PRACTICE-OWN-STANDARD would have to be established."
+  "blocker": "To refute WF-P1 itself, an argument would need either grammar-fixed reference as an established premise or another route from the practice's correct confession to reference; and STMT-CONCILIAR-DEFINITION-IS-PRACTICE-OWN-STANDARD would have to be established. Proper-to-practice transfer and actual descriptor witnesses are now explicit additional open routes; this audit does not defend them. Coextension is stronger than required and is not assumed by the conflict arguments."
 }

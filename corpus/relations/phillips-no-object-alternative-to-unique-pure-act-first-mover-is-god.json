@@ -1,9 +1,9 @@
 {
   "id": "REL-PHILLIPS-NO-OBJECT-ALTERNATIVE-TO-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD",
   "subject_kind": "statement",
-  "subject_id": "STMT-GOD-NAMES-NO-BEING-WF-P1",
+  "subject_id": "STMT-PURE-ACT-NOMINAL-NAMING-FAILS",
   "predicate": "alternative_to",
   "object_kind": "statement",
   "object_id": "STMT-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD",
-  "note": "Class: rival account of what 'God' does in worship, an unattributed reconstruction of WF-P1 (STMT-GOD-NAMES-NO-BEING-WF-P1), supported only by Phillips's reported remark (REL-PHILLIPS-NO-OBJECT-SUPPORTS-GOD-NAMES-NO-BEING). Typed (#1010): the reconstruction says that in the practice's use the name refers to no being; with the leaf's predicate instantiated by that reference (a schema under DISAMB-NAME-APPLICATION, not an asserted identification of senses), the link theorems in FIDEIST-REFERENCE-BUNDLE-FAILS-FOR-CATHOLIC-PRACTICE's config show that the leaf and the rival together imply that no being fits the leaf's description, so they conflict exactly where some being fits it. Defeat by the Dei Filius ch. 1 / can. I.1 parallel is conditional: it needs the open bridges STMT-CONCILIAR-DEFINITION-IS-PRACTICE-OWN-STANDARD and STMT-GRAMMAR-FIXES-REFERENCE, and it bites only a fideist who holds the latter; noBeingSurvivesWithoutGrammarFixedReference certifies WF-P1's escape. Not refuted; no refutes relation (#999)."
+  "note": "Serious no-object/practice-use rival retained at full strength in STMT-GOD-NAMES-NO-BEING-WF-P1, supported only by the reported Phillips remark (REL-PHILLIPS-NO-OBJECT-SUPPORTS-GOD-NAMES-NO-BEING). The relation endpoint is now the exact proper-profile negation of this naming leaf, rather than the independent practice-reference predicate. PRACTICE-NO-REFERENCE-REJECTS-PURE-ACT-NAMING checks the transfer: raw no-reference plus STMT-PROPER-REFERENCE-PRESERVED plus the corresponding actual descriptor witness yields this negation. Neither bridge nor witness is silently assumed. Refuting the raw practice thesis alone therefore cannot mark this rival refuted or defend the nominal leaf. No philosopher is attributed this added analyst bridge; no refutes relation or independent defeat is asserted. The original FideismReference link theorem remains an unchanged practice-instantiated schema under DISAMB-NAME-APPLICATION."
 }
