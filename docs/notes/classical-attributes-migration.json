@@ -846,13 +846,13 @@
       "id": "DISAMB-IN-ACT",
       "path": "corpus/disambiguations/in-act.json",
       "status": "inspected",
-      "classification": "intentional_abstraction",
-      "finding": "Existing sense separation retained. The selected result uses a single fixed vocabulary context and does not change sense across premises. The record constrains interpretation, not premise truth.",
+      "classification": "adopted_potency_scope",
+      "finding": "Reviewed the added adopted-potency clarification: formal/virtual act remain distinct choices, and each adopted result uses exactly one supplied act predicate everywhere. No virtual reading is attributed to IX.6; generic proof interfaces remain unchanged.",
       "before": {
         "sha256": "d611f0ba3737ca2630ca3cbee8a618e86eb5385773ea453b31b36fc017435cac",
         "lean_declaration": null
       },
-      "reviewed_sha256": "d611f0ba3737ca2630ca3cbee8a618e86eb5385773ea453b31b36fc017435cac"
+      "reviewed_sha256": "9410922badd636cf4af03e355327b5dc3a43827ea0e98930ef4598469d53f4ee"
     },
     {
       "kind": "disambiguations",

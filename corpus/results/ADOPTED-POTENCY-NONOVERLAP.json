@@ -1,0 +1,10 @@
+{
+  "id": "ADOPTED-POTENCY-NONOVERLAP",
+  "argument_id": "ADOPTED-POTENCY-NONOVERLAP",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.AdoptedPotencyNonOverlap.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.AdoptedPotencyNonOverlap.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.AdoptedPotencyNonOverlap.nonOverlap",
+  "comparator_config": "results/ADOPTED-POTENCY-NONOVERLAP/comparator.json",
+  "status": "solution-present",
+  "description": "By the owner-adopted definition, adopted potency gives capacity and absence of the very same act in the very same respect. F1 applied to that act predicate excludes its conjunction with act. This is an adopted-sense result, not a proof of generic non-overlap for arbitrary independent potency relations; the original statement and countermodels remain unchanged."
+}

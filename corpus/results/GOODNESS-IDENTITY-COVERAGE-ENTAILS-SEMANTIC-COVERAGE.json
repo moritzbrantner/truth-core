@@ -1,0 +1,10 @@
+{
+  "id": "GOODNESS-IDENTITY-COVERAGE-ENTAILS-SEMANTIC-COVERAGE",
+  "argument_id": "GOODNESS-IDENTITY-COVERAGE-ENTAILS-SEMANTIC-COVERAGE",
+  "challenge_module": "TruthCore.Results.Metaethics.GoodnessCoverageStrength.Challenge",
+  "solution_module": "TruthCore.Results.Metaethics.GoodnessCoverageStrength.Solution",
+  "theorem": "TruthCore.Results.Metaethics.GoodnessCoverageStrength.identityCoverageEntailsSemantic",
+  "comparator_config": "results/GOODNESS-IDENTITY-COVERAGE-ENTAILS-SEMANTIC-COVERAGE/comparator.json",
+  "status": "solution-present",
+  "description": "Strength registration: strong candidate-identity coverage is the only proposition premise and entails weak semantic coverage. Pointwise Iff is used; no propext or property-identity inference."
+}

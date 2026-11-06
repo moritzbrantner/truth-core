@@ -1,0 +1,9 @@
+{
+  "id": "INF-PRIMITIVE-ETERNITY-DEFINITION-BOUNDARIES",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-PRIMITIVE-ETERNITY-DEFINITION-CONTROLS",
+  "rule": "constructive-proof",
+  "meaning": "Finite strictness, missing-recognition, overlap and remainder interpretations. The three existing typed eternity premises are jointly nonvacuous in the missing-recognition control, while the exact primitive target is false.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -11,5 +11,6 @@
   "definition_ids": [
     "DEF-ACT",
     "DEF-CAPACITY-TO-BE"
-  ]
+  ],
+  "disambiguation_ids": ["DISAMB-POTENCY"]
 }

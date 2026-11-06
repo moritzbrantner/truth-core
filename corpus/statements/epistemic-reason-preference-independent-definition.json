@@ -1,0 +1,11 @@
+{
+  "id": "STMT-EPISTEMIC-REASON-PREFERENCE-INDEPENDENT-DEFINITION",
+  "paraphrase": "Candidate stronger authority meaning: an attributed consideration counts as a reason iff it meets the ordinary epistemic role and retains pro tanto force across every supplied preference alternative, keeping subject, evidence, target and circumstances fixed. No claim exhausts actual psychology.",
+  "lean_declaration": "TruthCore.Logic.EpistemicReasonDefinitionFork.PreferenceIndependentDefinition",
+  "definition_ids": [
+    "DEF-EPISTEMIC-REASON-DEFINITION-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EPISTEMIC-REASON-EXISTENCE-ROLE-AUTHORITY"
+  ]
+}

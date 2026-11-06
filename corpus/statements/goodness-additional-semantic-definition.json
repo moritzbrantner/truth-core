@@ -1,0 +1,14 @@
+{
+  "id": "STMT-GOODNESS-ADDITIONAL-SEMANTIC-DEFINITION",
+  "paraphrase": "A further relevant extensional definition exists in the supplied class: an admissible proposal is not pointwise coextensive with any named due-actuality, feature-based or fixed-assessor approval account. A mere extra candidate tag or property intension does not suffice.",
+  "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.AdditionalSemanticDefinition",
+  "definition_ids": [
+    "DEF-FORM-END-DUE-PERFECTION",
+    "DEF-GOODNESS-DUE-ACTUALITY-PROPOSITION",
+    "DEF-GOODNESS-NAMED-DEFINITION-SPACE",
+    "DEF-GOODNESS-SEMANTIC-DEFINITION-COVERAGE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOODNESS-UNRESTRICTED-DUE-AND-ULTIMATE"
+  ]
+}

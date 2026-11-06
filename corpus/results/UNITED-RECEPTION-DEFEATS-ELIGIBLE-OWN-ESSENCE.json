@@ -1,0 +1,10 @@
+{
+  "id": "UNITED-RECEPTION-DEFEATS-ELIGIBLE-OWN-ESSENCE",
+  "argument_id": "UNITED-RECEPTION-DEFEATS-ELIGIBLE-OWN-ESSENCE",
+  "challenge_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.RestrictedFailure.Challenge",
+  "solution_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.RestrictedFailure.Solution",
+  "theorem": "TruthCore.Results.Causality.EsseReceptionDefinitions.RestrictedFailure.restrictedFailure",
+  "comparator_config": "results/UNITED-RECEPTION-DEFEATS-ELIGIBLE-OWN-ESSENCE/comparator.json",
+  "status": "solution-present",
+  "description": "The same countertuple defeats the scope-restricted law if that soul bearer is explicitly eligible; merely naming a restriction does not avoid the objection."
+}

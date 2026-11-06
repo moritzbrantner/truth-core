@@ -16,7 +16,9 @@ class BundleAuditTest(unittest.TestCase):
 
     def test_all_specialization_and_consumer_scope(self):
         audit = bundle_audit.check(audit=json.loads(bundle_audit.AUDITS[1].read_text()))
-        self.assertEqual(len(audit['records']), 149)
+        self.assertEqual(len(audit['records']), 151)
+        self.assertTrue({'DEF-INDEPENDENT-POTENCY', 'DISAMB-POTENCY'} <=
+                        {row['id'] for row in audit['records']})
         self.assertEqual(sum(row['kind'] == 'results' for row in audit['records']), 5)
         missing = copy.deepcopy(audit)
         missing['consumer_result_ids'].pop()
@@ -25,7 +27,9 @@ class BundleAuditTest(unittest.TestCase):
 
     def test_naming_route_reuses_frozen_consumer_contract(self):
         audit = bundle_audit.check(audit=json.loads(bundle_audit.AUDITS[2].read_text()))
-        self.assertEqual(len(audit['records']), 161)
+        self.assertEqual(len(audit['records']), 163)
+        self.assertTrue({'DEF-INDEPENDENT-POTENCY', 'DISAMB-POTENCY'} <=
+                        {row['id'] for row in audit['records']})
         self.assertEqual(sum(row['kind'] == 'results' for row in audit['records']), 11)
         self.assertEqual(len(audit['contract_baselines']), 11)
         missing = copy.deepcopy(audit)

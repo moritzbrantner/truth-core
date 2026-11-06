@@ -1,0 +1,17 @@
+{
+  "id": "GLOBAL-PERSISTENCE-STRENGTHENS-UNITER-PERSISTENCE",
+  "premise_statement_ids": [
+    "STMT-ALL-EFFICIENT-ACTIVITY-PERSISTS-TO-SELECTED-TIME"
+  ],
+  "conclusion_statement_id": "STMT-UNITER-EFFICIENT-ACTIVITY-PERSISTS-TO-SELECTED-TIME",
+  "inference_ids": [
+    "INF-GLOBAL-PERSISTENCE-STRENGTHENS-UNITER-PERSISTENCE"
+  ],
+  "meaning": "Logical strength registration: global same-respect persistence implies restricted some-respect persistence; finite controls show the converse fails.",
+  "definition_ids": [
+    "DEF-COMPOSER-TEMPORAL-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNITING-CAUSE"
+  ]
+}

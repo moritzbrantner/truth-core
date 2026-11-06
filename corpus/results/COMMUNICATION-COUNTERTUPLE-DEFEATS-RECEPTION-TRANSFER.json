@@ -1,0 +1,10 @@
+{
+  "id": "COMMUNICATION-COUNTERTUPLE-DEFEATS-RECEPTION-TRANSFER",
+  "argument_id": "COMMUNICATION-COUNTERTUPLE-DEFEATS-RECEPTION-TRANSFER",
+  "challenge_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.Counteraccount.Challenge",
+  "solution_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.Counteraccount.Solution",
+  "theorem": "TruthCore.Results.Causality.EsseReceptionDefinitions.Counteraccount.counteraccount",
+  "comparator_config": "results/COMMUNICATION-COUNTERTUPLE-DEFEATS-RECEPTION-TRANSFER/comparator.json",
+  "status": "solution-present",
+  "description": "The explicit union/communication/same-act/nonreception countertuple contradicts the universal same-sense transfer. It need not decide the separately selected tuple."
+}

@@ -1,0 +1,27 @@
+{
+  "id": "SELECTED-SOUL-BODY-RECEPTION-FORK",
+  "argument_id": "SELECTED-SOUL-BODY-RECEPTION-FORK",
+  "challenge_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.SelectedCoverage.Challenge",
+  "solution_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.SelectedCoverage.Solution",
+  "theorem": "TruthCore.Results.Causality.EsseReceptionDefinitions.SelectedCoverage.selectedCoverage",
+  "comparator_config": "results/SELECTED-SOUL-BODY-RECEPTION-FORK/comparator.json",
+  "status": "solution-present",
+  "description": "Selected-tuple structural fork under explicit excluded middle; neither source sense is thereby adopted.",
+  "transcription": "instantiation",
+  "case_split": {
+    "target_statement_id": "STMT-SELECTED-BODY-RECEIVES-SELECTED-SOUL-ESSE",
+    "cases": [
+      {
+        "label": "canonical reception",
+        "statement_id": "STMT-SELECTED-BODY-RECEIVES-SELECTED-SOUL-ESSE",
+        "lean_declaration": "TruthCore.Causality.EsseReceptionDefinitionFork.SelectedReception"
+      },
+      {
+        "label": "distinct communication sense",
+        "statement_id": "STMT-SELECTED-BODY-DOES-NOT-CANONICALLY-RECEIVE-SOUL-ESSE",
+        "lean_declaration": "TruthCore.Causality.EsseReceptionDefinitionFork.SelectedNonReception"
+      }
+    ],
+    "survival_result_id": "UNITED-ESSE-RECEPTION-DEFINITION-BOUNDARIES"
+  }
+}

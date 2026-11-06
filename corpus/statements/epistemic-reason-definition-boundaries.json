@@ -1,0 +1,11 @@
+{
+  "id": "STMT-EPISTEMIC-REASON-DEFINITION-BOUNDARIES",
+  "paraphrase": "Explicit finite interpretations distinguish ordinary support from preference-independent force, mere production/reward, and the unclassified remainder. Goal-relative and preference-independent profiles differ only in the force field; a compatible profile satisfies all four named calibrations. A separate model shows why consideration presentation is required to transport thin F6. These are formal interpretations, not actual normative-warrant claims.",
+  "lean_declaration": "TruthCore.Logic.EpistemicReasonDefinitionFork.BoundaryCertificate",
+  "definition_ids": [
+    "DEF-EPISTEMIC-REASON-DEFINITION-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EPISTEMIC-REASON-EXISTENCE-ROLE-AUTHORITY"
+  ]
+}

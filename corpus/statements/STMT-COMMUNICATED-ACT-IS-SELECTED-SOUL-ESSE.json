@@ -1,0 +1,14 @@
+{
+  "id": "STMT-COMMUNICATED-ACT-IS-SELECTED-SOUL-ESSE",
+  "paraphrase": "OPEN identity input: the selected communicated act is the esse of the SAME selected soul bearer. A different communicated form/quality is not silently substituted for this act.",
+  "lean_declaration": "TruthCore.Causality.EsseReceptionDefinitionFork.CommunicatedActIsSoulEsse",
+  "definition_ids": [
+    "DEF-UNITED-ESSE-RECEPTION-INTERPRETATION-PROFILE",
+    "DEF-ESSE-RECEIVED-IN",
+    "DEF-ESSENCE-THOMISTIC-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSE-RECEPTION",
+    "DISAMB-ESSENCE"
+  ]
+}

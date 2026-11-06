@@ -1,0 +1,14 @@
+{
+  "id": "STMT-ELIGIBLE-OWN-ESSENCE-RECEPTION-PRINCIPLE-FAILS",
+  "paraphrase": "Exact negation of the eligibility-restricted own-essence principle. Reception plus recipient distinction still defeats the restricted law if the SAME selected soul is eligible.",
+  "lean_declaration": "TruthCore.Causality.EsseReceptionDefinitionFork.RestrictedOwnEssenceFails",
+  "definition_ids": [
+    "DEF-UNITED-ESSE-RECEPTION-INTERPRETATION-PROFILE",
+    "DEF-ESSE-RECEIVED-IN",
+    "DEF-ESSENCE-THOMISTIC-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSE-RECEPTION",
+    "DISAMB-ESSENCE"
+  ]
+}

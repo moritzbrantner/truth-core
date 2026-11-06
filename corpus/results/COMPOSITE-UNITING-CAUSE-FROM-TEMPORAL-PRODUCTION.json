@@ -1,0 +1,10 @@
+{
+  "id": "COMPOSITE-UNITING-CAUSE-FROM-TEMPORAL-PRODUCTION",
+  "argument_id": "COMPOSITE-UNITING-CAUSE-FROM-TEMPORAL-PRODUCTION",
+  "challenge_module": "TruthCore.Results.Causality.ComposerTemporalDefinitions.TemporalComposition.Bound.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ComposerTemporalDefinitions.TemporalComposition.Bound.Solution",
+  "theorem": "TruthCore.Results.Causality.ComposerTemporalDefinitions.TemporalComposition.Bound.temporalComposition",
+  "comparator_config": "results/COMPOSITE-UNITING-CAUSE-FROM-TEMPORAL-PRODUCTION/comparator.json",
+  "status": "solution-present",
+  "description": "Compose the imported original composite-uniter theorem at the existential-time efficient relation. All-time no-self excludes self-production at the witnessed activity time, deriving distinctness. No persistence or selected-time efficient-composer bridge is required. The SAME independent CausesIn and esse conclude the original target."
+}
