@@ -69,8 +69,9 @@ message thesis implies this only with an actual mandate and founded body. -/
 def CatholicMandateScopeRejected (σ : Signature) (A : Agency σ) : Prop :=
   ¬ MandatedFoundingOfCatholicChurch σ A
 
-/-- Empty mandate antecedents permit the two raw conditionals to coexist;
-actual mandate/body witnesses make their opposition nonvacuous. -/
+/-- An unrealized combined mandate/body antecedent permits the two raw
+conditionals to coexist; actual joint witnesses make their opposition
+nonvacuous. This coarse target does not export which antecedent is absent. -/
 def MessageScopeModels : Prop :=
   (∃ σ : Signature, ∃ A : Agency σ,
     MandateCoversOnlyMessage σ A ∧ MandatedFoundingOfCatholicChurch σ A ∧
@@ -89,4 +90,13 @@ def GoverningComponentsDoNotForceTeachingScope : Prop :=
   (∃ σ : Signature, ∃ A : Agency σ, ∃ E : Commissioning,
     ChurchFoundedInCommissionedApostles σ A E ∧ GoverningGrantExists E ∧
     ActualMandatedCatholicFounding σ A ∧ ¬ MandatedFoundingOfCatholicChurch σ A)
+/-- The stronger empty-mandate control explicitly exports absence of every
+Jesus mandate while retaining an actual founded visible Catholic body. Unlike the
+coarser MessageScopeModels target, no consumer must inspect the construction
+to distinguish lack of mandate from lack of founding or visibility. -/
+def EmptyMandateScopeCoexistence : Prop :=
+  ∃ σ : Signature, ∃ A : Agency σ,
+    MandateCoversOnlyMessage σ A ∧ MandatedFoundingOfCatholicChurch σ A ∧
+    (∀ g, ¬ A.HoldsMandate σ.jesus g) ∧
+    σ.Founded σ.jesus σ.catholicChurch ∧ σ.VisibleWithAuthority σ.catholicChurch
 end TruthCore.Case.Catholicism.StageThree.MessageReportBoundary

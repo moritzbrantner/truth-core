@@ -9,6 +9,7 @@ public import TruthCore.Results.Case.Catholicism.StageThree.FoundingScopeStrengt
 public import TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Attestation.Solution
 public import TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Composition.Solution
 public import TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Coverage.Solution
+public import TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.EmptyMandate.Solution
 public import TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Grant.Solution
 public import TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Link.Solution
 public import TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Models.Solution

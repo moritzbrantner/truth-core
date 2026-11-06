@@ -1,6 +1,6 @@
 {
   "id": "STMT-MESSAGE-SCOPE-BOUNDARY-MODELS",
-  "paraphrase": "Two schema controls: with no actual mandate the raw message-only and Catholic mandate-scope conditionals coexist; with an actual mandate and founded visible body the raw message-only thesis excludes that exact scope. Neither control is actual history.",
+  "paraphrase": "Two schema controls: the raw message-only and Catholic mandate-scope conditionals coexist while their combined actual-mandate/founded-visible-body antecedent is unrealized; with an actual joint witness, the raw message-only thesis excludes the exact scope. The first coarse target does not identify which antecedent is absent. EMPTY-MANDATE-CATHOLIC-SCOPE-COEXISTENCE separately exports the stronger absence-of-every-mandate control with actual founding and visibility.",
   "lean_declaration": "TruthCore.Case.Catholicism.StageThree.MessageReportBoundary.MessageScopeModels",
   "definition_ids": [
     "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
