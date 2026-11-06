@@ -39,11 +39,35 @@ class TrivialCategoryTest(unittest.TestCase):
     def test_declared_or_nonconstant_sites_pass(self) -> None:
         self.assertEqual(warnings_for("  concrete := fun _ => True  -- category-constant: intended (fixture)\n"), [])
         self.assertEqual(
-            warnings_for("-- category-constant: intended (no abstracta)\n\n  abstract := fun _ => False\n"), []
+            warnings_for("-- category-constant: intended (no abstracta)\n  abstract := fun _ => False\n"), []
         )
         self.assertEqual(warnings_for("  concrete := fun x => x = c\n"), [])
         self.assertEqual(warnings_for("  powerConcrete := fun _ _ _ => True.intro\n"), [])
         self.assertEqual(warnings_for("def abstractMaking : Making := fun _ _ _ => True\n"), [])
+
+    def test_named_binders_and_multiline_are_reported(self) -> None:
+        self.assertEqual(len(warnings_for("  concrete := fun x => True\n")), 1)
+        self.assertEqual(len(warnings_for("  concrete := fun (x : B) => True\n")), 1)
+        found = warnings_for("  concrete := fun _ =>\n    True\n")
+        self.assertEqual(len(found), 1)
+        self.assertIn("M.lean:1", found[0])
+
+    def test_literal_prefix_of_larger_body_is_not_constant(self) -> None:
+        self.assertEqual(warnings_for("  concrete := fun _x => True ∧ _x = c\n"), [])
+        self.assertEqual(warnings_for("  concrete := fun _x => False ∨ _x = c\n"), [])
+
+    def test_marker_does_not_carry_to_next_declaration(self) -> None:
+        source = (
+            "  concrete := fun _ => True  -- category-constant: intended (fixture)\n"
+            "  abstract := fun _ => False\n"
+        )
+        found = warnings_for(source)
+        self.assertEqual(len(found), 1)
+        self.assertIn("abstract is constantly False", found[0])
+
+    def test_block_comments_are_not_scanned(self) -> None:
+        self.assertEqual(warnings_for("/- example:\n  concrete := fun _ => True\n-/\n"), [])
+        self.assertEqual(warnings_for("/-- doc /- nested -/ concrete := fun _ => True -/\ndef x := 1\n"), [])
 
 
 if __name__ == "__main__":
