@@ -144,4 +144,3 @@ independent reverification of unchanged source attributions or proof inputs.
 - `DISAMB-SCIENCE-PREDICATE-BASIS`
 - `DISAMB-SCIENCE-TEST-ADEQUACY`
 - `DISAMB-TELEONOMY-FINALITY-AND-AGENCY`
-
