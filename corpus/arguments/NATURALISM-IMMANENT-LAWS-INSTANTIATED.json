@@ -1,0 +1,25 @@
+{
+  "id": "NATURALISM-IMMANENT-LAWS-INSTANTIATED",
+  "premise_statement_ids": [
+    "STMT-NATURALISM-N1"
+  ],
+  "conclusion_statement_id": "STMT-NATURALISM-IMMANENT-LAWS-INSTANTIATED",
+  "inference_ids": [
+    "INF-NATURALISM-IMMANENT-LAWS-INSTANTIATED"
+  ],
+  "meaning": "Unpack N1 at a represented law entity, then unpack its concrete instance-derived location to recover an existing bearer and its instantiation. A checked companion excludes existing uninstantiated law representatives. This is conditional on the selected representation/location profile, not an independent defense of immanent universals or the truth of N1.",
+  "definition_ids": [
+    "DEF-NATURALISM-N1",
+    "DEF-SPATIOTEMPORAL-FRAME",
+    "DEF-SPATIOTEMPORAL-LOCATED",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-NATURALISM-LAW-REPRESENTATION",
+    "DEF-IMMANENT-LAW-LOCATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SPATIOTEMPORAL"
+  ],
+  "strong_version_needed": {
+    "STMT-NATURALISM-N1": "The theorem ranges over existing law representatives without a supplied concreteness predicate. N2 would need an additional classification of those entities as concrete; no all-existing-concrete bridge is silently assumed. This is an N1 occupant profile, not a claim about all naturalist variants."
+  }
+}

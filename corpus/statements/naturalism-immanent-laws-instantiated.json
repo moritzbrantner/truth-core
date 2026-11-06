@@ -1,0 +1,16 @@
+{
+  "id": "STMT-NATURALISM-IMMANENT-LAWS-INSTANTIATED",
+  "paraphrase": "Under occupant N1 in the explicitly constructed immanent-location frame, every existing right-summand law representative has an existing bearer instance. This profile fixes location by actual located instances; rule truth or selection does not imply law-entity existence.",
+  "lean_declaration": "TruthCore.Ontology.NaturalismLaws.ExistingLawsInstantiated",
+  "definition_ids": [
+    "DEF-NATURALISM-N1",
+    "DEF-SPATIOTEMPORAL-FRAME",
+    "DEF-SPATIOTEMPORAL-LOCATED",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-NATURALISM-LAW-REPRESENTATION",
+    "DEF-IMMANENT-LAW-LOCATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SPATIOTEMPORAL"
+  ]
+}

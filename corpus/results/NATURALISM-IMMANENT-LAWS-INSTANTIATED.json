@@ -1,0 +1,10 @@
+{
+  "id": "NATURALISM-IMMANENT-LAWS-INSTANTIATED",
+  "argument_id": "NATURALISM-IMMANENT-LAWS-INSTANTIATED",
+  "challenge_module": "TruthCore.Results.Ontology.NaturalismLaws.Instantiation.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.NaturalismLaws.Instantiation.Solution",
+  "theorem": "TruthCore.Results.Ontology.NaturalismLaws.Instantiation.instantiated",
+  "comparator_config": "results/NATURALISM-IMMANENT-LAWS-INSTANTIATED/comparator.json",
+  "status": "solution-present",
+  "description": "Unpack N1 at a represented law entity, then unpack its concrete instance-derived location to recover an existing bearer and its instantiation. A checked companion excludes existing uninstantiated law representatives. This is conditional on the selected representation/location profile, not an independent defense of immanent universals or the truth of N1."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NATURALISM-LAW-REPRESENTATION",
+  "term": "rule content, law representatives and actual instances",
+  "definition": "An analyst Representation separates bearers B from rule-indexed law-entity candidates R using the disjoint domain B \u2295 R. Ontic presence of each class is supplied independently. ActualInstance requires an existing bearer that instantiates the represented universal. The predicate is not rule truth, a proof term, law selection, or merely a sentence mentioning a law. Distinct indices denote distinct right-summand candidates in this representation; arbitrary overlapping denotation is outside this profile.",
+  "basis": "stipulative",
+  "note": "Logic-first analyst profile for #1109; attribution deferred. Actual metaphysical applicability and any identification with an author's theory remain open. See docs/showcase-naturalism.md \u00a74 and ATTEMPT-NATURALISM-LAW-REPRESENTATIONS-1109.",
+  "lean_declaration": "TruthCore.Ontology.NaturalismLaws.Representation"
+}
