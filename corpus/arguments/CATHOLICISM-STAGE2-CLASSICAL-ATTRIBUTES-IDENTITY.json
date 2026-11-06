@@ -24,7 +24,7 @@
   "inference_ids": [
     "INF-STAGE2-CLASSICAL-ATTRIBUTES-IDENTITY"
   ],
-  "meaning": "Under explicit DecidableEq parameters on both \u03c3.Being and Principle, derive the same universal conditional attributes field from the other 18 unchanged premises. Identity case splits suffice for uniqueness, perfection and esse/essence identity. This is a separate sufficient interface, not a proof of logical minimality or of either equality decision assumption; it supplies no existence witness and does not change the designated root route.",
+  "meaning": "Under explicit DecidableEq parameters on both σ.Being and Principle, derive the same universal conditional attributes field from the other 18 unchanged premises. Identity case splits suffice for uniqueness, perfection and esse/essence identity. This is a separate sufficient interface, not a proof of logical minimality or of either equality decision assumption; it supplies no existence witness and does not change the designated root route.",
   "definition_ids": [
     "DEF-SIMPLE",
     "DEF-UNIVERSALLY-PERFECT",
@@ -54,7 +54,9 @@
     "DEF-SIMPLE-PRIORITY",
     "DEF-POTENCY"
   ],
-  "disambiguation_ids": ["DISAMB-POTENCY",
-    "DISAMB-ESSENCE"
+  "disambiguation_ids": [
+    "DISAMB-POTENCY",
+    "DISAMB-ESSENCE",
+    "DISAMB-MAXIME-ENS"
   ]
 }
