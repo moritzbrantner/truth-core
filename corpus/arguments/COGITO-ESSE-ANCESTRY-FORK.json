@@ -1,0 +1,40 @@
+{
+  "id": "COGITO-ESSE-ANCESTRY-FORK",
+  "premise_statement_ids": [
+    "STMT-COGITO-THOUGHT-OCCURS",
+    "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT",
+    "STMT-COGITO-BEARER-EXISTS-AT-WORLD",
+    "STMT-COGITO-THINKER-GROUNDING-ACCESSIBLE",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-EXISTING-IN-ACT-AT"
+  ],
+  "conclusion_statement_id": "STMT-COGITO-ANCESTRY-ROOT-FORK",
+  "inference_ids": [
+    "INF-COGITO-ESSE-ANCESTRY-FORK"
+  ],
+  "meaning": "Specialize the imported ancestryRootFork to the same ontic and grounding relations with concrete := HasEsseInRe InAct esse, deriving its C premise from E and ExistingInActAt. The thinker-local accessibility and explicit excluded middle premises are unchanged. The conclusion is the same conditional fork in this adopted profile, not an assertion that its necessary horn obtains.",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-COGITO-ESSE-PROFILE",
+    "DEF-CONCRETE-ESSE-IN-RE",
+    "DEF-ESSE",
+    "DEF-EXISTING-IN-ACT-AT",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-THOUGHT-BEARER",
+    "DEF-THOUGHT-OCCURRENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE",
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "OCCURRENCE-ESSE-SAME-WITNESS",
+  "argument_id": "OCCURRENCE-ESSE-SAME-WITNESS",
+  "challenge_module": "TruthCore.Results.Logic.CogitoEsse.Challenge",
+  "solution_module": "TruthCore.Results.Logic.CogitoEsse.Solution",
+  "theorem": "TruthCore.Results.Logic.CogitoEsse.sameWitnessEssence",
+  "comparator_config": "results/OCCURRENCE-ESSE-SAME-WITNESS/comparator.json",
+  "status": "solution-present",
+  "description": "Compose the imported checks theorem while specializing concrete to HasEsseInRe of the q3 profile's own InAct and esse. The existing existence/esse premise now supplies C as well. Preserve all support-to-ground, source presence, typed cause/support and q3 dichotomy premises. The same ancestor remains the witness of necessity, root minimality, lack of existing support and represented essence–esse identity. This is an explicit intended-profile specialization, not a proof of the generic conclusion for an unrelated concrete parameter."
+}

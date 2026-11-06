@@ -1,0 +1,10 @@
+{
+  "id": "COGITO-ESSE-NECESSARY-ANCESTOR",
+  "argument_id": "COGITO-ESSE-NECESSARY-ANCESTOR",
+  "challenge_module": "TruthCore.Results.Logic.CogitoEsse.Challenge",
+  "solution_module": "TruthCore.Results.Logic.CogitoEsse.Solution",
+  "theorem": "TruthCore.Results.Logic.CogitoEsse.necessaryConcreteAncestor",
+  "comparator_config": "results/COGITO-ESSE-NECESSARY-ANCESTOR/comparator.json",
+  "status": "solution-present",
+  "description": "Compose the imported necessaryConcreteAncestor with the derived C bridge in the adopted esse profile. Occurrence, bearer existence, thinker-local accessibility, ancestry-grounding and excluded middle remain premises; necessity remains accessibility-relative. The SAME ontic and grounding relations are used throughout. No claim that any premise or actual necessary individual is established."
+}

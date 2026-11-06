@@ -76,6 +76,7 @@ EXPLORER_INPUT_PATTERNS = (
     "bun.lock",
     "turbo.json",
     "scripts/corpus.py",
+    "scripts/next_steps.py",
     "scripts/bundle_audit.py",
     "scripts/expression_contracts.py",
     "scripts/contracts/*.json",

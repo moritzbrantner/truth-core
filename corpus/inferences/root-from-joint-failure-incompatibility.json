@@ -1,0 +1,11 @@
+{
+  "id": "INF-ROOT-FROM-JOINT-FAILURE-INCOMPATIBILITY",
+  "input_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "output_statement_id": "STMT-ROOT-FROM-JOINT-FAILURE-INCOMPATIBILITY",
+  "rule": "constructive-proof",
+  "meaning": "Derive the universally quantified logical rule template by explicit excluded-middle case analysis over completion and missing-premise cases. This does not instantiate any root route or establish the inputs of a philosophical argument.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

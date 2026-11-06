@@ -5,6 +5,7 @@ public import TruthCore.Results.Logic.AdaptivePrediction.Solution
 public import TruthCore.Results.Logic.AtomismIndependence.Solution
 public import TruthCore.Results.Logic.CaseNonContradiction.Solution
 public import TruthCore.Results.Logic.CogitoConcrete.Solution
+public import TruthCore.Results.Logic.CogitoEsse.Solution
 public import TruthCore.Results.Logic.CogitoSubject.Solution
 public import TruthCore.Results.Logic.ContrastiveWorldview.Solution
 public import TruthCore.Results.Logic.CorrectionCriterion.Solution
@@ -24,6 +25,7 @@ public import TruthCore.Results.Logic.FallibleCorrection.Solution
 public import TruthCore.Results.Logic.FiniteValidationLogic.Solution
 public import TruthCore.Results.Logic.FitchKnowability.Solution
 public import TruthCore.Results.Logic.IntuitionisticKnowability.Solution
+public import TruthCore.Results.Logic.JointRouteFailure.Solution
 public import TruthCore.Results.Logic.JustificationIntrospection.Solution
 public import TruthCore.Results.Logic.KnowabilityCompatibility.Solution
 public import TruthCore.Results.Logic.KnowledgeAdmissibility.Solution

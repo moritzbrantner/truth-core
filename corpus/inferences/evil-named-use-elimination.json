@@ -1,0 +1,15 @@
+{
+  "id": "INF-EVIL-NAMED-USE-ELIMINATION",
+  "input_statement_ids": [
+    "STMT-EVIL-NAMED-USE-COVERAGE",
+    "STMT-MORAL-STATEMENTS-LACK-TRUTH-VALUE",
+    "STMT-LACKING-TRUTH-VALUE-EXCLUDES-TRUTH",
+    "STMT-BADNESS-ASCRIPTIONS-ARE-MORAL",
+    "STMT-MAN-MADE-EVIL-PREMISE-SAYS-SOMETHING-BAD"
+  ],
+  "output_statement_id": "STMT-EVIL-NAMED-EMOTIVIST-ALTERNATIVES",
+  "rule": "constructive-proof",
+  "meaning": "Given the explicit named-use coverage assumption, compose the existing external-emotivism result and eliminate the own-true-premise branch. Internal challenge or affective protest remains. Named coverage is not inferred from an unsuccessful search for alternatives; its explicit countermodel is preserved.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

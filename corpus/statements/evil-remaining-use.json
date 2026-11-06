@@ -1,0 +1,18 @@
+{
+  "id": "STMT-EVIL-REMAINING-USE",
+  "paraphrase": "Remaining diagnostic condition for a fixed critic and target frame: the selected evil utterance is not true under own semantics, the internal permission conditional does not hold, and no disapproval is expressed. It is an explicit, satisfiable remainder relative to these three conditions, not an unnamed philosophical school.",
+  "lean_declaration": "TruthCore.Metaethics.EvilObjection.RemainingUse",
+  "definition_ids": [
+    "DEF-EVIL-OBJECTION-CRITIC",
+    "DEF-EVIL-OBJECTION-USES",
+    "DEF-INTERNAL-PERMISSION-CHALLENGE",
+    "DEF-AFFECTIVE-BADNESS-ANALYSIS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EVIL-OBJECTION-SEMANTICS",
+    "DISAMB-MORAL-ANTIREALISM",
+    "DISAMB-TRUE",
+    "DISAMB-ROWE-SUFFERING-AND-CULPA",
+    "DISAMB-ROWE-APPARENT-AND-ACTUAL"
+  ]
+}

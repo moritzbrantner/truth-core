@@ -1,0 +1,10 @@
+{
+  "id": "EVIL-OBJECTION-BOUNDARY-MODELS",
+  "argument_id": "EVIL-OBJECTION-BOUNDARY-MODELS",
+  "challenge_module": "TruthCore.Results.Metaethics.EvilObjection.BoundaryModels.Challenge",
+  "solution_module": "TruthCore.Results.Metaethics.EvilObjection.BoundaryModels.Solution",
+  "theorem": "TruthCore.Results.Metaethics.EvilObjection.BoundaryModels.boundaryModels",
+  "comparator_config": "results/EVIL-OBJECTION-BOUNDARY-MODELS/comparator.json",
+  "status": "solution-present",
+  "description": "Compose the existing Rowe apparent-compatibility witness with explicit utterance interpretations and a cost-only variant. Certify strict-emotivist internal-critique survival, true descriptive suffering, affective analysis compatible with truth, and inhabitation of the exact remainder where named coverage fails. The cost-only variant retains occurrence and all attributes; it does not witness actual gratuitous suffering or a complete worldview."
+}
