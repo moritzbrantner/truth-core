@@ -1,0 +1,11 @@
+{
+  "id": "DISAMB-GOODNESS-UNRESTRICTED-DUE-AND-ULTIMATE",
+  "term": "goodness as unrestricted actuality, due actuality, ultimate perfection, or moral/welfare ascription",
+  "sense_definition_ids": [
+    "DEF-GOOD-AS-BEING-IN-ACT",
+    "DEF-GOODNESS-DUE-ACTUALITY-PROPOSITION",
+    "DEF-GOOD-SIMPLICITER-ULTIMATE-PERFECTION",
+    "DEF-GOODNESS-ASPECT-SCOPE-TRANSFER"
+  ],
+  "resolution": "The existing route leaf STMT-GOODNESS-IS-ACTUALITY uses unrestricted per-perfection GoodIn↔Has. STMT-GOODNESS-DUE-TO-FORM-AND-END is the owner’s proposed restricted GoodIn↔Due∧Has, kept open. Given the latter, unrestricted coextension holds exactly when every actual perfection is due; no such bridge is silently supplied. GoodSimply remains independent and only the existing ultimate-perfection exclusion is reused. The naturalist comparisons explicitly instantiate their existing schemas on aspect ascriptions as analyst transfer tests, not historical identifications. PropertyPresentation separately distinguishes extensional agreement from property identity; Moore’s intensional claims are not refuted by extensional controls."
+}

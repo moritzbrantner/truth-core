@@ -1,0 +1,10 @@
+{
+  "id": "GOODNESS-DUE-ACTUALITY-WITH-DUE-BRIDGE-ENTAILS-UNRESTRICTED",
+  "argument_id": "GOODNESS-DUE-ACTUALITY-WITH-DUE-BRIDGE-ENTAILS-UNRESTRICTED",
+  "challenge_module": "TruthCore.Results.Metaethics.GoodnessDueToUnrestricted.Challenge",
+  "solution_module": "TruthCore.Results.Metaethics.GoodnessDueToUnrestricted.Solution",
+  "theorem": "TruthCore.Results.Metaethics.GoodnessDueToUnrestricted.dueToUnrestricted",
+  "comparator_config": "results/GOODNESS-DUE-ACTUALITY-WITH-DUE-BRIDGE-ENTAILS-UNRESTRICTED/comparator.json",
+  "status": "solution-present",
+  "description": "Root-relevant conditional connection from TWO open inputs, not a premise discharge. Reuses the checked routeBridge theorem; due coextension alone is insufficient. The actual-to-due bridge and the named-account exploration add visible reaching-root assumptions, reported by frontier-diff; no floor approval or independent historical-theory refutation is claimed."
+}
