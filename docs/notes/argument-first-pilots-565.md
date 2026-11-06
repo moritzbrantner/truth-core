@@ -283,3 +283,14 @@ Both focused Solution and Challenge builds, scoped binding, Comparator and
 independent NanoDa checks pass; the theorem uses exactly propext. Full integrated
 CI remains the final delivery gate. Intended and actual
 root-premise delta: none; this comparison defends no open root commitment.
+
+## Grounding structure and transworld identity
+
+[The common-source comparison](grounding-identity-profile.md) reuses the existing
+BruteFoundationDoubling source and exact local-law assumptions, with a genuine
+root-child edge. It compares the old disjoint-world profile with a fixed-tag
+rigid companion on the same candidate roster, frame and literal actual data.
+Guarded local-fiber matching and exact counterpart composition preserve the
+represented grounding structure but do not establish numerical transworld
+identity, metaphysical possibility, PSR or anti-brute-root principles. No root
+premise is discharged.

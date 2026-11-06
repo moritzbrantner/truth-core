@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-GROUNDING-SOURCE-ROLE-IDENTITY",
+  "term": "same individual across world-local grounding copies",
+  "sense_definition_ids": [
+    "DEF-GROUNDING-IDENTITY-COMMON-SOURCE",
+    "DEF-GROUNDING-IDENTITY-GUARDED-CORRESPONDENCE"
+  ],
+  "resolution": "Literal identity is equality of the entire (tag, source coordinate) pair. Counterparts and cross-profile matching preserve source coordinates on existing fibers, so the same role may have differently tagged individuals. At world false both profiles have literally the same data; at other worlds their local structures correspond without equating tagged bearers. Coherent composition and bijection do not supply numerical identity. Neither profile is shown physically or metaphysically adequate."
+}
