@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Metaethics.EvilObjection.InternalChallenge.Challenge",
+  "solution_module": "TruthCore.Results.Metaethics.EvilObjection.InternalChallenge.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Metaethics.EvilObjection.InternalChallenge.internalPermissionChallenge"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

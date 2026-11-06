@@ -1,0 +1,10 @@
+{
+  "id": "EVIL-EMOTIVIST-USE-FORK",
+  "argument_id": "EVIL-EMOTIVIST-USE-FORK",
+  "challenge_module": "TruthCore.Results.Metaethics.EvilObjection.UseFork.Challenge",
+  "solution_module": "TruthCore.Results.Metaethics.EvilObjection.UseFork.Solution",
+  "theorem": "TruthCore.Results.Metaethics.EvilObjection.UseFork.emotivistUseFork",
+  "comparator_config": "results/EVIL-EMOTIVIST-USE-FORK/comparator.json",
+  "status": "solution-present",
+  "description": "Compose the existing external-emotivism theorem with the checked coverage-with-remainder result: under all four strict semantic bridges the own-true-premise branch is excluded, leaving internal challenge, affective protest or explicit remaining use. This classifies a limitation of one objection-use, not falsehood of emotivism or proof of God."
+}

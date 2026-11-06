@@ -1,0 +1,10 @@
+{
+  "id": "EVIL-NAMED-USE-ELIMINATION",
+  "argument_id": "EVIL-NAMED-USE-ELIMINATION",
+  "challenge_module": "TruthCore.Results.Metaethics.EvilObjection.NamedElimination.Challenge",
+  "solution_module": "TruthCore.Results.Metaethics.EvilObjection.NamedElimination.Solution",
+  "theorem": "TruthCore.Results.Metaethics.EvilObjection.NamedElimination.namedEmotivistAlternatives",
+  "comparator_config": "results/EVIL-NAMED-USE-ELIMINATION/comparator.json",
+  "status": "solution-present",
+  "description": "Given the explicit named-use coverage assumption, compose the existing external-emotivism result and eliminate the own-true-premise branch. Internal challenge or affective protest remains. Named coverage is not inferred from an unsuccessful search for alternatives; its explicit countermodel is preserved."
+}

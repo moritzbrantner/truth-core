@@ -1,0 +1,8 @@
+{
+  "id": "DEF-EVIL-OBJECTION-CRITIC",
+  "term": "critic utterance semantics",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Metaethics.EvilObjection.Critic",
+  "definition": "Critic supplies a sentence type, SaysBad/Moral/TruthApt/Holds/ExpressesDisapproval predicates, and three designated utterance roles: evilUtterance, sufferingReport, internalReport. The role names alone impose no classification or truth. StrictTruthlessPolicy is precisely the conjunction of the four existing OConnor semantic/classification premises used by POE-EXTERNAL-PREMISE-VS-EMOTIVISM. OwnTruePremise specializes the existing asserted-evil-premise reading to the critic's selected sentence. DescriptiveReport separately classifies the suffering report as non-moral and identifies its truth with some occurring intense suffering. TrueInternalReport separately classifies a true report of the target conditional as non-moral and binds its content to that conditional.",
+  "note": "Analyst comparison interface, not a new attribution. Three distinct utterance constructors in the explicit witness prevent replacing descriptive suffering or a logical report by a moral evil assertion. Holds means truth in this supplied interpretation; it is not ObjectiveTruth and no negation sentence or truth of the opposite moral judgment is inferred from \u00acHolds. Existing truth-aptness and badness-classification relations are reused rather than equated with suffering or Catholic privation. Application to any actual critic and classification of the internal report remain open interpretation commitments; see docs/notes/evil-emotivism-use-boundary.md."
+}

@@ -1,0 +1,18 @@
+{
+  "id": "STMT-EVIL-INTERNAL-PERMISSION-CHALLENGE",
+  "paraphrase": "In the supplied Rowe frame, existence of an omniscient, omnipotent, wholly good being would conflict with the permission constraint. The critic's own moral truth predicate is absent. This conditional may be vacuous generally; the separate survivor certificate includes a theistic witness.",
+  "lean_declaration": "TruthCore.Metaethics.EvilObjection.InternalPermissionChallenge",
+  "definition_ids": [
+    "DEF-EVIL-OBJECTION-CRITIC",
+    "DEF-EVIL-OBJECTION-USES",
+    "DEF-INTERNAL-PERMISSION-CHALLENGE",
+    "DEF-AFFECTIVE-BADNESS-ANALYSIS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EVIL-OBJECTION-SEMANTICS",
+    "DISAMB-MORAL-ANTIREALISM",
+    "DISAMB-TRUE",
+    "DISAMB-ROWE-SUFFERING-AND-CULPA",
+    "DISAMB-ROWE-APPARENT-AND-ACTUAL"
+  ]
+}

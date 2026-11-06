@@ -2,4 +2,9 @@
 module
 
 public import TruthCore.Results.Metaethics.DescriptivePlanBoundary.Solution
+public import TruthCore.Results.Metaethics.EvilObjection.BoundaryModels.Solution
+public import TruthCore.Results.Metaethics.EvilObjection.Coverage.Solution
+public import TruthCore.Results.Metaethics.EvilObjection.InternalChallenge.Solution
+public import TruthCore.Results.Metaethics.EvilObjection.NamedElimination.Solution
+public import TruthCore.Results.Metaethics.EvilObjection.UseFork.Solution
 public import TruthCore.Results.Metaethics.PlanStateEmbeddingControl.Solution
