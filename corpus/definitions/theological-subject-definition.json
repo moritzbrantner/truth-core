@@ -1,0 +1,8 @@
+{
+  "id": "DEF-THEOLOGICAL-SUBJECT-DEFINITION",
+  "term": "theological by subject matter",
+  "definition": "The independent scope predicate calibrates pointwise to the target presentation being classified divine in the supplied table. Cosmos subject is a distinct tag; an actual subject interpretation remains open.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.ScopedEmpiricalProofBarrier.SubjectDefinition",
+  "note": "Analyst formulation; attribution deferred. Source STMT-WORLD-BEGINNING-NOT-DEMONSTRABLE and Hume verdict meanings remain separate. See docs/notes/scoped-empirical-proof-barrier.md."
+}
