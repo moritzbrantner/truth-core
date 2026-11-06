@@ -1,6 +1,6 @@
 {
   "id": "STMT-ORDINARY-USE-CONFESSES-ONE-TRUE-GOD",
-  "paraphrase": "Case-2 evidence, supported: some move of the Catholic practice's ordinary use confesses, with the name 'God', that there is a being it names (the creed the faithful profess: 'one God, the Father almighty, maker of heaven and earth').",
+  "paraphrase": "Case-2 evidence, supported by the pinned creed: some move of the Catholic practice's ordinary use confesses, with the name 'God', that there is a being it names (the creed the faithful profess: 'one God, the Father almighty, maker of heaven and earth').",
   "lean_declaration": "TruthCore.Alternatives.FideismGrammarCases.OrdinaryUseConfessesGodReading",
   "definition_ids": [
     "DEF-IN-ORDINARY-USE",

@@ -402,17 +402,16 @@ The partition is an instantiation, so it fixes the form only, not the cell.
   defeats then apply. They are composed by importing their theorems.
 - **Ordinary-use cell.** An open case bridge
   (`STMT-USE-GRAMMAR-MAKES-ORDINARY-USE-OWN-STANDARD`) makes ordinary-use moves
-  the practice's own standard. The evidence that ordinary use affirms natural
-  knowability and confesses the one true God is **supported, not stated**:
-  - CCC 31-36: the ways to God are "argumenta convergentia et persuadentia",
-    and CCC 36 repeats *Dei Filius*.
-  - The creed's first article (pinned Greek) confesses "one God, the Father
-    almighty, maker of heaven and earth".
-  - Read but not pinned: CCC 12 (the Catechism goes chiefly to bishops and
-    catechists, so it is the teaching the faithful receive, not evidence of
-    what they say), and CCC 185-202 (the creed is a norm for all; "Credo in
-    Deum" is the first affirmation). These vatican.va pages serve two byte
-    variants, so they could not be pinned.
+  the practice's own standard. Two evidence premises then do the work:
+  - That ordinary use affirms natural knowability is **bare**. The Catechism
+    repeats *Dei Filius* (CCC 36), and it presents the ways to God as
+    "argumenta convergentia et persuadentia" (CCC 31). But no Catechism page
+    could be pinned: vatican.va serves byte variants of the catechism pages,
+    and CI fetched different bytes for each page tried. CCC 12, 185-202 were
+    read on the same terms.
+  - That ordinary use confesses the one true God is **supported** by the pinned
+    creed, first article: "one God, the Father almighty, maker of heaven and
+    earth". The text is the creed, not evidence of how believers understand it.
   - No pinnable survey of ordinary believers was found, so none is recorded.
 - **Neither cell.** `neitherCellSurvives` certifies that both fideist bundles
   hold there, with every premise. The third view (`STMT-GRAMMAR-FIXED-BY-NEITHER`,
@@ -422,8 +421,9 @@ The partition is an instantiation, so it fixes the form only, not the cell.
   or ordinary use" is a missing bridge.
 
 So the fideist descriptive thesis fails in both cells where the practice fixes
-its own grammar. It fails only conditionally, on the shared-reason reading and
-the two case bridges (all open) and the ordinary-use evidence (supported). It
+its own grammar. It fails only conditionally: on the shared-reason reading and
+the two case bridges (all open), and on the ordinary-use evidence (knowability
+bare, confession supported). Case 2 is the weak case. It
 survives only if the grammar is fixed by neither. Nothing is established, so no
 refutes relation is recorded (#999).
 

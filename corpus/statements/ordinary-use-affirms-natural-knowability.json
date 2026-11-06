@@ -1,6 +1,6 @@
 {
   "id": "STMT-ORDINARY-USE-AFFIRMS-NATURAL-KNOWABILITY",
-  "paraphrase": "Case-2 evidence, supported: some move of the Catholic practice's ordinary use affirms that God can be known with certainty from created things by the natural light of human reason (the catechesis the faithful receive repeats Dei Filius, CCC 36).",
+  "paraphrase": "Case-2 evidence, open: some move of the Catholic practice's ordinary use affirms that God can be known with certainty from created things by the natural light of human reason. The Catechism repeats Dei Filius on this (CCC 36), but no Catechism page could be pinned (vatican.va serves byte variants of the catechism_lt pages; CI fetched a different one), so no source claim supports it in the corpus: it is bare.",
   "lean_declaration": "TruthCore.Alternatives.FideismGrammarCases.OrdinaryUseAffirmsNaturalKnowabilityReading",
   "definition_ids": [
     "DEF-IN-ORDINARY-USE",
