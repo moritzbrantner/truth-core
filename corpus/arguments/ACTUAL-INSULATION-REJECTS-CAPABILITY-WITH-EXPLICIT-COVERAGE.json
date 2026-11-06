@@ -1,0 +1,27 @@
+{
+  "id": "ACTUAL-INSULATION-REJECTS-CAPABILITY-WITH-EXPLICIT-COVERAGE",
+  "premise_statement_ids": [
+    "STMT-GOD-EXISTS",
+    "STMT-CANDIDATE-RECOGNITION-REALIZED",
+    "STMT-ADMISSIBLE-RECOGNITION-COVERAGE",
+    "STMT-RECOGNITION-ANSWERS-TO-SHARED-REASON",
+    "STMT-WF-RELIGION-CUT-OFF-FROM-SHARED-REASON",
+    "STMT-ACTUAL-CUT-OFF-PERSISTS-TO-ADMISSIBLE"
+  ],
+  "conclusion_statement_id": "STMT-REVELATION-CAPABILITY-REJECTED",
+  "inference_ids": [
+    "INF-ACTUAL-INSULATION-REJECTS-CAPABILITY-WITH-EXPLICIT-COVERAGE"
+  ],
+  "meaning": "Compose candidate realization and explicit admitted-subset coverage, then import the actual-insulation result. All six premises remain explicit: actual God, candidate realization, coverage, sharedness, raw actual cut-off and persistence. No capability-to-actual-event inference or independent closure.",
+  "definition_ids": [
+    "DEF-REVELATION-RECOGNITION-PROFILE",
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-WITTGENSTEINIAN-FIDEISM",
+    "DEF-NATURAL-REASON-SHARED",
+    "DEF-REVELATION-ACTUAL-PRACTICE-RECOGNITION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REVELATION-CAPABILITY-AND-PRACTICE-UPTAKE",
+    "DISAMB-PRACTICE-SENSITIVITY-AND-FIDEIST-INSULATION"
+  ]
+}

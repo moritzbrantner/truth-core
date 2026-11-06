@@ -1,0 +1,15 @@
+{
+  "id": "STMT-ALL-ADMISSIBLE-PRACTICES-CUT-OFF",
+  "paraphrase": "Every selected admitted situation has a practice in which no move answerable to outsider-shared reason is correct. This ranges over the admitted profile; it does not assert all real possibilities are represented or that the actual situation is admitted.",
+  "lean_declaration": "TruthCore.Alternatives.RevelationRecognition.AllAdmissiblePracticesCutOff",
+  "definition_ids": [
+    "DEF-REVELATION-RECOGNITION-PROFILE",
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-WITTGENSTEINIAN-FIDEISM",
+    "DEF-NATURAL-REASON-SHARED"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REVELATION-CAPABILITY-AND-PRACTICE-UPTAKE",
+    "DISAMB-PRACTICE-SENSITIVITY-AND-FIDEIST-INSULATION"
+  ]
+}

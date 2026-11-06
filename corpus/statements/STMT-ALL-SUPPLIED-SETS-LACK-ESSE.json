@@ -1,0 +1,14 @@
+{
+  "id": "STMT-ALL-SUPPLIED-SETS-LACK-ESSE",
+  "paraphrase": "OPEN stronger classification: every supplied set lacks esse in re. Not licensed by the single set-of-two anchor and not needed by the conditional set counterargument.",
+  "lean_declaration": "TruthCore.Causality.CausalConcreteRivalBoundary.AllSetsNoEsse",
+  "definition_ids": [
+    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE",
+    "DEF-CONCRETE-ESSE-IN-RE",
+    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ]
+}

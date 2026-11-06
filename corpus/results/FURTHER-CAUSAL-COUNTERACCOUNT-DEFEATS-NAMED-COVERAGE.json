@@ -1,0 +1,10 @@
+{
+  "id": "FURTHER-CAUSAL-COUNTERACCOUNT-DEFEATS-NAMED-COVERAGE",
+  "argument_id": "FURTHER-CAUSAL-COUNTERACCOUNT-DEFEATS-NAMED-COVERAGE",
+  "challenge_module": "TruthCore.Results.Causality.CausalConcreteRivals.OtherFailure.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CausalConcreteRivals.OtherFailure.Solution",
+  "theorem": "TruthCore.Results.Causality.CausalConcreteRivals.OtherFailure.otherFailure",
+  "comparator_config": "results/FURTHER-CAUSAL-COUNTERACCOUNT-DEFEATS-NAMED-COVERAGE/comparator.json",
+  "status": "solution-present",
+  "description": "An actual selected countercase outside every named productive branch contradicts the coverage hypothesis."
+}

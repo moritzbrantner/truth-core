@@ -1,0 +1,14 @@
+{
+  "id": "STMT-SELECTED-FORM-PRODUCTIVE-NO-ESSE-COUNTERCASE",
+  "paraphrase": "A selected-world productive cause is a supplied Form and lacks esse in re. Productive reading plus no-esse classification are both required.",
+  "lean_declaration": "TruthCore.Causality.CausalConcreteRivalBoundary.FormCounter",
+  "definition_ids": [
+    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE",
+    "DEF-CONCRETE-ESSE-IN-RE",
+    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ]
+}

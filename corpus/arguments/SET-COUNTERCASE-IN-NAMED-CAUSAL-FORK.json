@@ -1,0 +1,18 @@
+{
+  "id": "SET-COUNTERCASE-IN-NAMED-CAUSAL-FORK",
+  "premise_statement_ids": [
+    "STMT-SELECTED-SET-PRODUCTIVE-NO-ESSE-COUNTERCASE"
+  ],
+  "conclusion_statement_id": "STMT-NAMED-PRODUCTIVE-ABSTRACT-CAUSAL-CASES",
+  "inference_ids": [
+    "INF-SET-COUNTERCASE-IN-NAMED-CAUSAL-FORK"
+  ],
+  "meaning": "Explicit set-branch injection into the named disjunction.",
+  "definition_ids": [
+    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ]
+}

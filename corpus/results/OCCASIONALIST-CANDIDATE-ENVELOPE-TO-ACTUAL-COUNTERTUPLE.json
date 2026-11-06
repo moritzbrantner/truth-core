@@ -1,0 +1,11 @@
+{
+  "id": "OCCASIONALIST-CANDIDATE-ENVELOPE-TO-ACTUAL-COUNTERTUPLE",
+  "argument_id": "OCCASIONALIST-CANDIDATE-ENVELOPE-TO-ACTUAL-COUNTERTUPLE",
+  "challenge_module": "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.RawCounterProjection.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.RawCounterProjection.Solution",
+  "theorem": "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.RawCounterProjection.rawCounterProjection",
+  "comparator_config": "results/OCCASIONALIST-CANDIDATE-ENVELOPE-TO-ACTUAL-COUNTERTUPLE/comparator.json",
+  "status": "solution-present",
+  "description": "Projection transcription of only the existing candidate Lean envelope into the precise analyst countertuple. The old source/candidate paraphrase includes a re-creation story not encoded by that envelope; no reverse implication or derivation of the full historical view is claimed.",
+  "transcription": "instantiation"
+}

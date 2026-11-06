@@ -1,0 +1,23 @@
+{
+  "id": "MOVED-POTENCY-EXACT-COUNTERCASE-FORK",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-MOVED-IN-POTENCY-OR-EXACT-COUNTERTUPLE",
+  "inference_ids": [
+    "INF-MOVED-POTENCY-EXACT-COUNTERCASE-FORK"
+  ],
+  "meaning": "Structural universal-or-actual-countertuple fork under explicit excluded middle. No named-worldview exhaustion or historical interpretation is inferred.",
+  "definition_ids": [
+    "DEF-MEGARIAN-MOVED-POTENCY-INTERPRETATION-BOUNDARY",
+    "DEF-ACT",
+    "DEF-CAPACITY-TO-BE",
+    "DEF-POTENCY",
+    "DEF-MOTION-AS-REDUCTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION",
+    "DISAMB-POTENCY",
+    "DISAMB-IN-ACT"
+  ]
+}

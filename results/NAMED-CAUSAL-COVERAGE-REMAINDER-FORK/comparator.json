@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.CausalConcreteRivals.CoverageRemainder.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CausalConcreteRivals.CoverageRemainder.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.CausalConcreteRivals.CoverageRemainder.coverageRemainder"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

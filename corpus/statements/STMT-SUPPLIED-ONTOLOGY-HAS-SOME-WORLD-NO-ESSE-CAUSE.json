@@ -1,0 +1,14 @@
+{
+  "id": "STMT-SUPPLIED-ONTOLOGY-HAS-SOME-WORLD-NO-ESSE-CAUSE",
+  "paraphrase": "At some supplied world a candidate without esse in re has causal power or causes productively. Analyst world-indexed sibling; does not automatically contradict the selected-world commitment.",
+  "lean_declaration": "TruthCore.Causality.CausalConcreteRivalBoundary.OtherWorldCounter",
+  "definition_ids": [
+    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE",
+    "DEF-CONCRETE-ESSE-IN-RE",
+    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ]
+}

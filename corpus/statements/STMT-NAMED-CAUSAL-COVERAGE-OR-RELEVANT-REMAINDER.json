@@ -1,0 +1,14 @@
+{
+  "id": "STMT-NAMED-CAUSAL-COVERAGE-OR-RELEVANT-REMAINDER",
+  "paraphrase": "Either the explicit named-case coverage hypothesis holds or a precise relevant countercase outside those cases exists. Excluded-middle structural fork, with no empirical census claim.",
+  "lean_declaration": "TruthCore.Causality.CausalConcreteRivalBoundary.CoverageFork",
+  "definition_ids": [
+    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE",
+    "DEF-CONCRETE-ESSE-IN-RE",
+    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ]
+}

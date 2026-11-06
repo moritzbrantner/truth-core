@@ -1,0 +1,14 @@
+{
+  "id": "STMT-SELECTED-NO-ESSE-CAUSAL-COUNTERCASE",
+  "paraphrase": "At the selected world one candidate lacks esse in re and either possesses causal power or productively causes an effect. Both clauses retain the same witness and world; the concrete-to-esse calibration is a separate input.",
+  "lean_declaration": "TruthCore.Causality.CausalConcreteRivalBoundary.SelectedCounter",
+  "definition_ids": [
+    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE",
+    "DEF-CONCRETE-ESSE-IN-RE",
+    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ]
+}

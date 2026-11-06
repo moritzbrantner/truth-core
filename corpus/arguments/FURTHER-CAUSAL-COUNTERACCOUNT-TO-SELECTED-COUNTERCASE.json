@@ -1,0 +1,18 @@
+{
+  "id": "FURTHER-CAUSAL-COUNTERACCOUNT-TO-SELECTED-COUNTERCASE",
+  "premise_statement_ids": [
+    "STMT-FURTHER-RELEVANT-ABSTRACT-CAUSAL-COUNTERACCOUNT"
+  ],
+  "conclusion_statement_id": "STMT-SELECTED-NO-ESSE-CAUSAL-COUNTERCASE",
+  "inference_ids": [
+    "INF-FURTHER-CAUSAL-COUNTERACCOUNT-TO-SELECTED-COUNTERCASE"
+  ],
+  "meaning": "Projection transcription: the precise relevant remainder carries an actual selected countercase, connecting it through the explicit calibration to the exact old commitment negation.",
+  "definition_ids": [
+    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ]
+}

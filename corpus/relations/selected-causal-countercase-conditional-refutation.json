@@ -1,0 +1,9 @@
+{
+  "id": "REL-SELECTED-CAUSAL-COUNTERCASE-CONDITIONAL-REFUTATION",
+  "subject_kind": "argument",
+  "subject_id": "ABSTRACT-SELECTED-CAUSAL-COUNTERCASE-DEFEATS-CONCRETENESS",
+  "predicate": "refutes",
+  "object_kind": "statement",
+  "object_id": "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS",
+  "note": "Exact checked conditional contradiction under the registered explicit premises, which remain OPEN. Neither the original approved commitment nor a coverage hypothesis is independently refuted by this registration."
+}
