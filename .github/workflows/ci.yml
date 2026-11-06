@@ -416,6 +416,9 @@ jobs:
           fi
       - name: Verify this shard of the selected results
         env:
+          # A Mathlib Comparator process can consume several GiB while parsing exports.
+          # Bound per-runner memory; the matrix still verifies every selected result.
+          TRUTH_CORE_VERIFY_JOBS: "1"
           SHARD: ${{ matrix.shard }}/${{ needs.comparator-plan.outputs.shard_count }}
         run: scripts/verify-all.sh --results-file "$RUNNER_TEMP/results.txt" --shard "$SHARD"
 
