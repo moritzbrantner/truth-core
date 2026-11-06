@@ -1,0 +1,11 @@
+{
+  "id": "INF-IMMEDIATE-FOUNDING-ENVOY-CALIBRATION",
+  "input_statement_ids": [
+    "STMT-DIVINE-FOUNDING-IS-IMMEDIATE-ONLY"
+  ],
+  "output_statement_id": "STMT-DIVINE-FOUNDING-IMMEDIATE-ENVOY-CALIBRATION",
+  "rule": "constructive-proof",
+  "meaning": "Under direct-only calibration, the old envoy bridge holds exactly when every relevant commissioned Jesus event is also a direct founding. This is a conditional equivalence, not a claim that directness forces either compatibility or incompatibility.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

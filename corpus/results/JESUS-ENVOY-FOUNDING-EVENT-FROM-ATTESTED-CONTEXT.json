@@ -1,0 +1,10 @@
+{
+  "id": "JESUS-ENVOY-FOUNDING-EVENT-FROM-ATTESTED-CONTEXT",
+  "argument_id": "JESUS-ENVOY-FOUNDING-EVENT-FROM-ATTESTED-CONTEXT",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Context.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Context.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Context.commissionedEventFromContext",
+  "comparator_config": "results/JESUS-ENVOY-FOUNDING-EVENT-FROM-ATTESTED-CONTEXT/comparator.json",
+  "status": "solution-present",
+  "description": "Compose the case\u2019s existing God and visible-society witnesses with attestation, veracity and scope: obtain a held mandate and then the commissioned founding event. This supplies the nonvacuity condition conditionally without inventing a new historical premise. It does not assume or derive the envoy-to-principal bridge."
+}

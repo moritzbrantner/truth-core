@@ -1,0 +1,15 @@
+{
+  "id": "STMT-DIVINE-FOUNDING-READING-CASES-COVER",
+  "paraphrase": "For the fixed semantic profile, the direct-only reading holds, or the Jesus-envoy-inclusive reading holds, or neither holds. Named readings can overlap; this logical coverage does not establish the stronger named-only coverage hypothesis.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.FoundingDefinitions.ReadingCoverageWithRemainder",
+  "definition_ids": [
+    "DEF-PRINCIPAL-ACT-FOUNDING-READING",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+    "DEF-FOUNDED-BY-GOD-IMMEDIATELY",
+    "DEF-GOD-OF-CLASSICAL-THEISM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FOUNDED-BY-GOD",
+    "DISAMB-GOD"
+  ]
+}

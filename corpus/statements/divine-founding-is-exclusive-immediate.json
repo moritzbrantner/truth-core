@@ -1,0 +1,15 @@
+{
+  "id": "STMT-DIVINE-FOUNDING-IS-EXCLUSIVE-IMMEDIATE",
+  "paraphrase": "Stronger, openly stipulated reading in this Jesus-specific comparison: the target accepts exactly direct principal founding on God candidates, and every Jesus-envoy teaching event in that scope excludes direct founding of the same society by that principal. This does not encode exclusion of every possible creature's act or infer that Jesus is distinct from any God candidate.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.FoundingDefinitions.ExclusiveImmediateReading",
+  "definition_ids": [
+    "DEF-PRINCIPAL-ACT-FOUNDING-READING",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+    "DEF-FOUNDED-BY-GOD-IMMEDIATELY",
+    "DEF-GOD-OF-CLASSICAL-THEISM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FOUNDED-BY-GOD",
+    "DISAMB-GOD"
+  ]
+}

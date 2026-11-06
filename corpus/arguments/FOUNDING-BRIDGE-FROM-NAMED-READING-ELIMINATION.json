@@ -1,0 +1,22 @@
+{
+  "id": "FOUNDING-BRIDGE-FROM-NAMED-READING-ELIMINATION",
+  "premise_statement_ids": [
+    "STMT-DIVINE-FOUNDING-NAMED-READINGS-COVER",
+    "STMT-DIVINE-FOUNDING-IMMEDIATE-READING-FAILS"
+  ],
+  "conclusion_statement_id": "STMT-ENVOY-FOUNDING-IS-GODS-FOUNDING",
+  "inference_ids": [
+    "INF-FOUNDING-BRIDGE-FROM-NAMED-READING-ELIMINATION"
+  ],
+  "meaning": "Eliminating the direct-only reading yields the inclusive reading under the openly assumed named coverage; the imported inclusive-calibration theorem then supplies the existing envoy bridge. The coverage hypothesis is not hidden behind an assumed exhaustive list.",
+  "definition_ids": [
+    "DEF-PRINCIPAL-ACT-FOUNDING-READING",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+    "DEF-FOUNDED-BY-GOD-IMMEDIATELY",
+    "DEF-GOD-OF-CLASSICAL-THEISM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FOUNDED-BY-GOD",
+    "DISAMB-GOD"
+  ]
+}

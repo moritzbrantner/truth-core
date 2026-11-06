@@ -1,0 +1,9 @@
+{
+  "id": "INF-NAME-APPLICATION-TRANSFER-MODELS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-NAME-APPLICATION-TRANSFER-MODELS",
+  "rule": "constructive-proof",
+  "meaning": "Three explicit schema controls witness loss, inhabited agreement, and strictness of one-way preservation relative to coextension. No arbitrary predicate interpretation is claimed to establish classical theism or actual practice.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

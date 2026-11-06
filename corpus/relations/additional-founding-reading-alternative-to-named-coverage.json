@@ -1,0 +1,9 @@
+{
+  "id": "REL-ADDITIONAL-FOUNDING-READING-ALTERNATIVE-TO-NAMED-COVERAGE",
+  "subject_kind": "statement",
+  "subject_id": "STMT-DIVINE-FOUNDING-HAS-ADDITIONAL-READING",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-DIVINE-FOUNDING-NAMED-READINGS-COVER",
+  "note": "The precise remaining reading is the negation of both named extension calibrations, hence contradicts their disjunction. It is an alternative to named coverage, not automatically an alternative to the old envoy bridge: the finite remainder controls admit opposite bridge verdicts."
+}

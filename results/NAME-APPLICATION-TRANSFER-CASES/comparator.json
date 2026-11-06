@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Alternatives.NameApplicationTransfer.Coverage.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.NameApplicationTransfer.Coverage.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Alternatives.NameApplicationTransfer.Coverage.transferCoverage"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
