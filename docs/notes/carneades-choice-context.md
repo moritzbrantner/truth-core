@@ -121,3 +121,14 @@ control elaborated in 0.21 seconds without restarting a Lean session. This is
 proof-edit feedback only. Canonical module build, binding, Comparator and
 NanoDa evidence belong to the delivered revision's CI; interactive diagnostics
 do not replace those gates.
+
+## Acquisition-history follow-up under #945
+
+[Present response and intervention history](reason-response-history.md) reuses
+the exact decision table and context-closure theorem. Two deterministic
+acquisition routes have identical actual records and entire represented
+reason-response functions but opposite action-changing earlier interventions.
+Existing classifier factorization excludes identifying those intervention
+properties from present behavior alone. Historical ownership, normative
+freedom/desert, real manipulation and same-past alternatives remain OPEN; input
+sensitivity is not promoted to a sufficient freedom criterion.

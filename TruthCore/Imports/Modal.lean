@@ -39,6 +39,7 @@ import TruthCore.Modal.NecessaryVariableEffects
 import TruthCore.Modal.OptimalCreationChoice
 import TruthCore.Modal.PastSerialityCertificate
 import TruthCore.Modal.PossibilityTransfer
+import TruthCore.Modal.ReasonResponseHistory
 import TruthCore.Modal.ResearchFinite
 import TruthCore.Modal.ResearchFixture
 import TruthCore.Modal.RetainedDuty

@@ -45,6 +45,7 @@ import TruthCore.Results.Modal.PastSeriality.Solution
 import TruthCore.Results.Modal.PopulationClosureExactImpliesAmalgamation.Solution
 import TruthCore.Results.Modal.PopulationClosureSeparation.Solution
 import TruthCore.Results.Modal.PossibilityTransfer.Solution
+import TruthCore.Results.Modal.ReasonResponseHistory.Solution
 import TruthCore.Results.Modal.ResearchFixture.Solution
 import TruthCore.Results.Modal.RetainedDuty.Solution
 import TruthCore.Results.Modal.RetainedDutyLocal.Solution

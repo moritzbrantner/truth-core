@@ -1,0 +1,15 @@
+{
+  "id": "ATTEMPT-REASON-RESPONSE-HISTORY",
+  "statement_ids": [
+    "STMT-REASON-RESPONSE-HISTORY",
+    "STMT-CHOICE-CONTEXT-CONTROLS",
+    "STMT-CORRECTION-CRITERION-EXACT-FACTORIZATION"
+  ],
+  "date": "2026-11-06",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Read live #945 and inventory exact physicalism/q75 and ChoiceContext boundaries under logic-first owner direction. Basic determinism/same-input alternatives were already covered. Added two-stage review-copy/external-copy acquisition with same actual current record and entire represented reason-response function but opposite actual action-changing acquisition interventions. Composed sameContextSameAction for closure and imported CorrectionCriterion.characterization.1 for exact classifier/fiber-invariance; no generic impossibility proof duplicated. Explicit imposed-override masking and enriched acquisition-data classification bound the omission. Rejected physicalism=determinism, indeterminism=agency, signal sensitivity=freedom and input labels=autonomous ownership. No source acquisition or root discharge. Historical ownership, rational adequacy, same-past alternatives, real causal/intervention applicability and freedom/desert remain OPEN. See docs/notes/reason-response-history.md.",
+  "evidence": [
+    "REASON-RESPONSE-HISTORY"
+  ]
+}
