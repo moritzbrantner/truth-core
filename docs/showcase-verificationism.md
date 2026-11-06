@@ -60,6 +60,43 @@ The answer kinds are:
 | Does the criterion exclude anything? | V: yes, too much (laws) | **R**: it excludes only sentences whose negation entails every observation statement | **R**: never a sentence together with its negation | V: only relative to the adopted language |
 | Ethics | S: emotivism (Ayer ch. VI, `AYER-LTL-EMOTIVISM`, no witness) | same | same | U |
 
+### Boundaries on the shared worldview questions
+
+The five rows above concern meaning criteria. They do not supply a replacement
+account of the rest of the worldview. The owner’s **no win by subtraction**
+rule in [the case principles](catholic-case.md#owner-principles-binding) permits
+an unknown answer only when it is recorded as **unexplained**. The following map
+uses the existing question IDs from
+[`Comparison.ExcludedMiddle`](../TruthCore/Comparison/ExcludedMiddle.lean),
+[`Comparison.Fideism`](../TruthCore/Comparison/Fideism.lean) and
+[`Comparison.Metaethics`](../TruthCore/Comparison/Metaethics.lean). Cosmic order
+and mind are the additional prose categories already listed in the first of
+those comparisons; no new question IDs or historical answers are introduced.
+
+Here **U** means *unexplained by the criterion or proposal alone, as recorded in
+this showcase*. It is not a positive denial, a claim that proponents never
+addressed the question, or a reason to count a route premise as established.
+The same boundary applies separately to V1, V2, V3 and V4.
+
+| Shared question or recorded category | V1 | V2 | V3 | V4 | Boundary |
+|---|---|---|---|---|---|
+| `Q-RELIGIOUS-LANGUAGE` | see above | see above | see above | see above | The God-sentence row records meaning verdicts and their limits; it does not establish God’s existence or nonexistence. |
+| `Q-EXISTENCE`, `Q-ULTIMATE` | U | U | U | U | No replacement explanation of why anything exists or whether there is a first cause. |
+| `Q-CHANGE`, `Q-FIRST-MOVER` | U | U | U | U | No replacement account of change or the origin of motion; unexplained does not mean that change or a first mover is denied. |
+| `Q-ONE-FIRST-MOVER`, `Q-ATTRIBUTES` | U | U | U | U | No derivation of uniqueness or divine attributes. |
+| Cosmic order; mind | U | U | U | U | No replacement account of order, consciousness or cognition is supplied by these meaning rules. |
+| `Q-TRUTH` | U | U | U | U | The formal comparison supplies truth conditions; this is not a theory of what makes thoughts or propositions true. |
+| `Q-EXCLUDED-MIDDLE`, `Q-DECIDABLE-CASES` | U | U | U | U | The proof metatheory and finite Boolean model do not supply each variant’s independent answer to these logical questions. No denial of excluded middle is attributed. |
+| `Q-MORAL-GROUNDING`, `Q-ROBUST-TRUTH` | U | U | U | U | The emotivism lead above is not a replacement account of objective moral grounding or robust truth. |
+| `Q-MORAL-LANGUAGE-VALIDITY`, `Q-MORAL-ERROR`, `Q-MORAL-DISAGREEMENT`, `Q-MORAL-PROGRESS` | U | U | U | U | No theory-specific answer is derived here; the separate metaethical investigations are not silently imported as these variants’ commitments. |
+| `Q-NORMATIVE-REASONS`, `Q-EVIL-PREMISE` | U | U | U | U | No categorical reason or verdict on the truth of the evil premise follows. The V4 task-cost policy is only a declared practical policy. |
+| `Q-REVELATION`, `Q-JESUS-AND-CHURCH` | U | U | U | U | No replacement historical account or finding about revelation, Jesus, the resurrection or Church authority. Questions about meaning do not settle that evidence as false. |
+| `Q-CRITICISM` | U | U | U | U | The tests here criticize specific meaning criteria; no general account of the scope or authority of criticism is supplied. |
+
+Thus the showcase records logical defeats of specified criterion packages and a
+bounded surviving proposal model, while leaving these broader explanatory
+burdens visible. Incompleteness itself is not a refutation (D-I, #1007).
+
 ## 2. Defeat 3 (centrepiece): Church's trivialization of V3
 
 **Source.** IEP, "Religious Language" §2a, quotes Church's 1949 review (JSL 14,
