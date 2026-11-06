@@ -2,6 +2,7 @@
 import TruthCore.Results.Alternatives.ActualityWithoutBeingNotEliminated.Solution
 import TruthCore.Results.Alternatives.EleaticRestSelfRefuting.Solution
 import TruthCore.Results.Alternatives.FideismCatholicPractice.Solution
+import TruthCore.Results.Alternatives.FideismReference.Solution
 import TruthCore.Results.Alternatives.GenerationFromNightRefuted.Solution
 import TruthCore.Results.Alternatives.GlobalUnderminerRetorsion.Solution
 import TruthCore.Results.Alternatives.InertialObjectionYieldsRival.Solution

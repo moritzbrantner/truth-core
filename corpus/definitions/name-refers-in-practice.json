@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NAME-REFERS-IN-PRACTICE",
+  "term": "refers to (a name, in a practice's use)",
+  "definition": "`N.RefersTo n b`: in the practice's use, the name n refers to (applies to) the being b. The practice-use sense of a name's application, as minimalists speak of reference inside a language game; not the proper sense fixed by a nominal definition (DEF-GOD-NOMINAL-Q13).",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Alternatives.FideismReference.NamingPractice.RefersTo",
+  "note": "Typed reference relation for #1010 (owner request 2026-11-05). It fixes no theory of reference; DISAMB-NAME-APPLICATION says how it relates to the leaves' proper-sense predicate."
+}

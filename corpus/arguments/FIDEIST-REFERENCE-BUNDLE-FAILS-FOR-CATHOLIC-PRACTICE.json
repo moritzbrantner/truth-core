@@ -1,0 +1,23 @@
+{
+  "id": "FIDEIST-REFERENCE-BUNDLE-FAILS-FOR-CATHOLIC-PRACTICE",
+  "premise_statement_ids": [
+    "STMT-DEI-FILIUS-CONFESSES-ONE-TRUE-GOD",
+    "STMT-CONCILIAR-DEFINITION-IS-PRACTICE-OWN-STANDARD"
+  ],
+  "conclusion_statement_id": "STMT-FIDEIST-REFERENCE-BUNDLE-FAILS-FOR-CATHOLIC-PRACTICE",
+  "inference_ids": [
+    "INF-FIDEIST-REFERENCE-BUNDLE-FAILS-FOR-CATHOLIC-PRACTICE"
+  ],
+  "meaning": "The Dei Filius ch. 1 / can. I.1 parallel to WF-FAILS-AS-DESCRIPTION-OF-CATHOLIC-PRACTICE, with a typed reference relation (#1010). Given the stated canon (STMT-DEI-FILIUS-CONFESSES-ONE-TRUE-GOD) and the open definition bridge (STMT-CONCILIAR-DEFINITION-IS-PRACTICE-OWN-STANDARD), the bundle internal grammar + grammar-fixed reference (STMT-GRAMMAR-FIXES-REFERENCE, WF-P2's thesis in typed form, open) + the WF-P1 reconstruction (STMT-GOD-NAMES-NO-BEING-WF-P1) fails of the Catholic practice. Each premise is needed (needsCouncil, needsDefinitionIsOwnStandard), and WF-P1 escapes by rejecting grammar-fixed reference (noBeingSurvivesWithoutGrammarFixedReference), so this defeats only a fideist who holds both internal grammar and grammar-fixed reference; it does not refute WF-P1 as such. The config's link theorems (noBeingExcludesFullDescription, noBeingExcludesUniquePureActFirstMover) show, as a schema over DISAMB-NAME-APPLICATION, that the reconstruction conflicts with the nominal-identification leaves exactly where a being fits their descriptions. No premise is established; no refutes relation (#999).",
+  "definition_ids": [
+    "DEF-NAME-REFERS-IN-PRACTICE",
+    "DEF-CONFESSES-REFERENT",
+    "DEF-WITTGENSTEINIAN-FIDEISM",
+    "DEF-CORRECT-MOVE-IN-PRACTICE",
+    "DEF-PRACTICE-OWN-STANDARD",
+    "DEF-CONCILIAR-DEFINITION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NAME-APPLICATION"
+  ]
+}

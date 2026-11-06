@@ -1,0 +1,15 @@
+{
+  "id": "STMT-FIDEIST-REFERENCE-BUNDLE-FAILS-FOR-CATHOLIC-PRACTICE",
+  "paraphrase": "The bundle of internal grammar, grammar-fixed reference and the WF-P1 reconstruction (the name 'God' refers to no being in the practice's use) does not hold of the Catholic practice. Nothing about a fideist who rejects grammar-fixed reference, or about other practices.",
+  "lean_declaration": "TruthCore.Alternatives.FideismReference.FideistReferenceBundleFails",
+  "definition_ids": [
+    "DEF-NAME-REFERS-IN-PRACTICE",
+    "DEF-CONFESSES-REFERENT",
+    "DEF-WITTGENSTEINIAN-FIDEISM",
+    "DEF-CORRECT-MOVE-IN-PRACTICE",
+    "DEF-PRACTICE-OWN-STANDARD"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NAME-APPLICATION"
+  ]
+}

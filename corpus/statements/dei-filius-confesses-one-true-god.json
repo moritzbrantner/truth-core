@@ -1,0 +1,9 @@
+{
+  "id": "STMT-DEI-FILIUS-CONFESSES-ONE-TRUE-GOD",
+  "paraphrase": "In the Catholic practice, the First Vatican Council defines, condemning its denial (Dei Filius can. I.1), a move that confesses with the name 'God' that there is a being it names: the one true God, creator and lord of things visible and invisible.",
+  "lean_declaration": "TruthCore.Alternatives.FideismReference.CouncilConfessesGodReading",
+  "definition_ids": [
+    "DEF-CONFESSES-REFERENT",
+    "DEF-CONCILIAR-DEFINITION"
+  ]
+}
