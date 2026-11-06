@@ -268,7 +268,7 @@ These references describe delivered cluster work, not a completed whole-corpus a
 - [PR1138](https://github.com/moritzbrantner/truth-core/pull/1138), `e6402fab`, supplies the previously missing operational-Boethian→primitive-Eternal recognition and composes the existing typed result into the EXACT all-beings root premise. All three old typed inputs remain visible, including pure-act-life and the boundary-to-subject-potency bridge. Five zero-axiom results; computed root89→92, cheapest31 unchanged. The old target gains a checked-consequence classification while remaining unestablished. The controls preserve the partial Boethian scope, endless succession, recognition strictness, overlap and remainder.
 - [PR1141](https://github.com/moritzbrantner/truth-core/pull/1141), `387e2b5d`, supplies a weaker selected-perfection maximal→greatest bridge from active-pair degree calibration, local directedness and explicit excluded middle; no homogeneous all-being partial order or uniqueness is needed. The unchanged source-shaped greatest-degree causal premise then reaches the EXACT old selected-esse all-maximal premise. Six checked results (five zero-axiom; finite control uses propext under approved Mathlib policy), computed root89→97, cheapest31 unchanged. The incomparable control's greatest-degree causal conditional is explicitly vacuous, not refuted; tied bearers block strict supremacy/uniqueness. Three existing maximum audit rows were re-reviewed without changing their historical/source boundaries.
 - [PR1135](https://github.com/moritzbrantner/truth-core/pull/1135), `c929ab21`, corrects quasi-realist versus robust-truth rivalry: a shared moral-content witness is necessary to derive exact negation of the robust universal. Existing empty-domain overlap and nonempty-neither controls are reused; raw source commitments remain distinct. This is an actual endpoint correction, not a note-only restriction.
-- [PR1137](https://github.com/moritzbrantner/truth-core/pull/1137), current repair `5bfbc1f0`, separates assertion-policy withholding from object-level excluded middle. Refuted `∃p,¬(p∨¬p)` is not global `¬∀p,(p∨¬p)`. The exact global complement is now an unrefuted analyst rival, and withholding moves to its exact policy target. The legacy owner floor is preserved. Actual-record regressions ensure removing that floor does not let a finite rival-list artifact establish EM. Notes alone were expressly rejected as an adequate engine constraint. A metadata overclaim about incidental control witnesses was corrected to the exact exported compatibility/nonimplication properties before the required rereview.
+- [PR1137](https://github.com/moritzbrantner/truth-core/pull/1137), semantic repair `5bfbc1f0`, separates assertion-policy withholding from object-level excluded middle. Refuted `∃p,¬(p∨¬p)` is not global `¬∀p,(p∨¬p)`. The exact global complement is now an unrefuted analyst rival, and withholding moves to its exact policy target. The legacy owner floor is preserved. Actual-record regressions ensure removing that floor does not let a finite rival-list artifact establish EM. Notes alone were expressly rejected as an adequate engine constraint. A metadata overclaim about incidental control witnesses was corrected to the exact exported compatibility/nonimplication properties before the required rereview.
 - [PR1136](https://github.com/moritzbrantner/truth-core/pull/1136), updated head `d37016f9`, corrects actual practice cutoff versus a possible recognizable-revelation capability. Ten zero-axiom results expose capacity realization, shared recognition, admissible-state coverage and nonempty God as separate premises; actual cutoff persists to other admissible states only under its explicit additional commitment. The exact root capability-negation sibling replaces the unsafe rival endpoint. A model has actual cutoff and recognizable capacity realized elsewhere. Computed root89→89, cheapest31 unchanged.
 - [PR1140](https://github.com/moritzbrantner/truth-core/pull/1140), `910da687`, encodes visible, spiritual and joint Church calibrations, open named coverage/remainder, and standalone visible/joint→existing-stage5 connections with actual selected founding witnesses. Spiritual does not mean invisible, and its insufficiency for stage5 is a countermodel, not falsity. Five zero-axiom results; computed root89→93 (five bare inputs added, old stage5 stated→checked classification), cheapest31 unchanged. Modern-society identity remains independent.
 
@@ -277,3 +277,215 @@ Hiddenness was inspected through all five disambiguations, eleven namespace-boun
 The Science/Spacetime/Teleonomy extension reviewed twenty definition records, thirty-two linked statements, thirteen exact result/argument packs and five disambiguations. Calibration/recoding/induction-selection/boost-simultaneity mathematics has no discovered cross-sense inference: response equality is not empirical warrant, reversible coding is not physical naturalness, a set-valued answer is not probability/action, and coordinate simultaneity is not privileged metaphysical presence. The one consequential gap was an untyped global no-director summary used as an alternative to a universal director principle without a shared noncognitive-tending witness. [PR1139](https://github.com/moritzbrantner/truth-core/pull/1139), `5c75c258`, replaces that endpoint by exact negation derived from an explicit undirected-tending witness. Its empty-tending overlap and prior governed/unguided fragments prevent natural mechanism from being equated with exclusion of ultimate direction. The full raw summary remains unchanged, with an OPEN semantic-witness bridge. Two zero-axiom results; root89→89, cheapest31 unchanged. Exact reviewed IDs and source/typed scope dispositions are durably listed in that PR's teleonomy note.
 
 Remaining work still includes the precise united-soul/body reception fork, the modal single/plural and pointwise/collective possible-causer scope, broader source-specific metaphysical interfaces and the remaining corpus namespace/disambiguation inventory. Mereology read coverage is being deepened separately; its catalogue counts alone are not treated as a completed semantic audit. The latest owner example of unrestricted versus theological proof skepticism is being checked against actual prior records, with class criterion, proof standard, barrier and matched controls kept distinct.
+
+
+### Completed cluster findings and remaining sweep (continuation)
+
+This section supersedes earlier “remaining” descriptions for delivered batches;
+the baseline inventory remains historical. It does not claim the whole
+semantic sweep is complete. The coordinator's single handoff records current
+heads, CI and integration status. Per-batch frontier counts below are computed
+comparisons, not additive predictions for the combined repository.
+
+- [PR1143](https://github.com/moritzbrantner/truth-core/pull/1143) encodes the
+  united-soul communication/reception fork. Actual union, soul/body role maps,
+  communicated-act identity, same-sense reception and recipient/essence
+  distinction are independent inputs. The old infinity theorem only uses
+  own-essence reception for esse=essence candidates; its imported proof on that
+  subtype reaches the EXACT old conclusion with a strictly weaker premise. A
+  nonidentity reception counterexample and separate identity candidate witness
+  strictness without claiming the rest of the infinity bundle. Eleven zero-axiom
+  results; computed root89→90, cheapest30 unchanged. Source claims retain only
+  their original communication/reception senses.
+- [PR1147](https://github.com/moritzbrantner/truth-core/pull/1147) corrects the
+  global quantifier-shift schema as a purported rival to collective possibility.
+  It was a proposed positive proof method; its refutation cannot refute the
+  conclusion it proposed to license. A strictly weaker local shift plus explicit
+  distributive realization and realized-common-absence-to-Possible reaches the
+  exact old target. An exact unrefuted complement and precise individual-possible/
+  joint-impossible countercase retain meaningful opposition. The existing full
+  perpetual-succession rival is unchanged. Actual-record counterfactual: before
+  repair, removing only that unencoded rival edge caused false finite-roster
+  closure from refuting the positive method; after repair the exact complement
+  blocks it. Seven zero-axiom results; root114→114, cheapest30 unchanged.
+- [PR1145](https://github.com/moritzbrantner/truth-core/pull/1145) distinguishes
+  unrestricted from theological proof skepticism through explicit category
+  criteria, proof standards and a deciding finite-observation barrier. No old
+  unrestricted-self-refutation→theology-refutation was found. Matched ordinary
+  hidden-content and theological-tautology controls prevent an exception label
+  from doing the work. Five checked results, no general theological-unprovability
+  conclusion or new historical attribution.
+- [PR1149](https://github.com/moritzbrantner/truth-core/pull/1149) corrects four
+  further semantic-rival edges: truth-as-provability versus thought-composition
+  accounts can coexist; anti/realist explanation directions need asymmetry and
+  an actual moral witness to contradict; the raw Tractatus no-divine-sense reply
+  needs an explicit meaning/proof-standard mapping before denying natural
+  theology's arguability; competing PLA text readings are interpretive objections,
+  not exhaustive object-level denials. Five zero-axiom results and actual-record
+  closure regressions; root 116→116, cheapest 30 unchanged. Details and rejected
+  readings are durable in `docs/notes/semantic-rival-scope.md`.
+
+The authority lane delivered seven applicable clusters: founding (#1128), proper
+name/practice transfer (#1132), recognizable revelation (#1136), visible/spiritual
+Church (#1140), natural-reason horizon versus outsider usability (#1142), commission
+criterion (#1144), and conciliar theological content versus normative role
+(#1150). Together these register 54 checked results. Their original source
+accounts stay intact; the exact negative endpoints require explicit transfer,
+exclusion and nonvacuity premises. The existing authorities/use/neither grammar
+partition was already a structural fork and was reused, not called a census of
+worldviews. A separate mandate-scope control (#1151) retains teaching in the
+Catholic-only weak scope: restricting the two-society model's attested mandate
+to the Catholic society preserves that weak scope and the other three old
+inputs but defeats the old universal bridge at the second society. This
+justifies the original argument's `strong_version_needed`; weak+Stage6→strong
+was already encoded and no new root route is claimed.
+
+Authority non-applicability is use-sensitive: all eleven literal Mark2/Mark14/
+John8–9/Phil2 pilot report statements have zero argument premise/commitment/
+conclusion occurrences; four disambiguations already distinguish report, history
+and divine-authority interpretation. There is no present inference to repair.
+The Resurrection pilot's six theories and seven results are bounded answer-map
+consistency/availability, not historical ranking or completeness of all theories.
+Stage4 still needs actual JesusClaims and Rose on the SAME State.core; no report
+or answer count is transferred into an event. Exact IDs and source/typed
+boundaries are persisted in `docs/resurrection-pilot.md`.
+
+The Mereology extension read all thirteen vocabulary modules, forty definitions,
+seventeen disambiguation resolutions, seventy-one linked statement paraphrases
+and fifty-five direct argument/result headers (twenty-three namespace-local).
+Thirty-three attempts were inventoried with bounded summary/blocker inspection;
+this is not fresh verification of every linked historical source note or kernel
+proof. No present cross-sense inference was found: Sum1/2/3, supplementation,
+atomic versus gunk profiles, actual versus necessary parts, unity/soul,
+identity/turnover, intervention closure and externality already have separate
+predicates, explicit bridges and controls. None of the inspected cluster's
+seventy-one statements had an `alternative_to` edge. These already-handled
+distinctions are not grounds to create a new fork for every noun.
+
+Exact reviewed Mereology definitions: `DEF-ATOMIC-FUSION-CONTRAST`, `DEF-UNIVERSAL-FUSION-PROFILE`, `DEF-NO-NECESSARY-PARTS-AT`, `DEF-MODAL-PARTHOOD-NECESSITY-DOWNWARD`, `DEF-POSITIVE-BOOLEAN-MEREOLOGY`, `DEF-OVERLAP-FUSION`, `DEF-THESEUS-OCCURRENCE-BEARER`, `DEF-MEREO-STRUCTURAL-UNITY`, `DEF-SELECTED-NECESSARY-PARTS-FUSION`, `DEF-UNIVERSAL-FUSION-DOMAIN`, `DEF-MEREO-SOUL-AS-FUNCTIONAL-ORGANIZATION`, `DEF-FUSION-DISTINCT-CAUSE`, `DEF-SUM1-FUSION-COMPARISON`, `DEF-THESEUS-IDENTITY-PRINCIPLES`, `DEF-MEREO-SOUL-AS-FORM`, `DEF-SUM1-LEAST-UPPER-BOUND`, `DEF-FUSION-OUTSIDE-CAUSE`, `DEF-BINARY-SUM2-FORMATION`, `DEF-PROCESS-TURNOVER-REPRESENTATION`, `DEF-MEREOLOGICAL-SUPPLEMENTATION`, `DEF-SUPPLEMENTATION-FUSION-RIVAL`, `DEF-MEREOLOGICAL-COMPLEMENTATION`, `DEF-SUM1-COMPLEMENTATION-RIVALS`, `DEF-OVERLAP-EXTENSIONAL-PARTHOOD`, `DEF-MEREO-INTERVENTION-DYNAMICS`, `DEF-NECESSARY-PART-FUSION-DECOMPOSITION`, `DEF-MATERIAL-HISTORY-CORRESPONDENCE`, `DEF-MATERIAL-SLICE-COINCIDENCE`, `DEF-MEREO-OPERATIONAL-LIFE-PROFILE`, `DEF-GENUS-CAUSE-FINITE-CONTROL`, `DEF-ACTUAL-FUSION-PROFILE-CERTIFICATE`, `DEF-PRINCIPAL-IDEAL-ACTUALITY`, `DEF-MEREO-PRIMITIVE-BEARER-PROFILE`, `DEF-REGULAR-REAL-REGION-MEREOLOGY`, `DEF-FUSION-GROUND-INTERPRETATIONS`, `DEF-FINITE-NO-GUNK`, `DEF-MEREO-SUBSTANTIAL-UNITY`, `DEF-THESEUS-COMPONENT-INVENTORY`, `DEF-MEREOLOGICAL-AXIOM-COMPARISON`, `DEF-MATERIAL-TEMPORAL-WHOLE`.
+
+Exact reviewed Mereology disambiguations: `DISAMB-SUM1-AND-SUM2-FUSION`, `DISAMB-ARISTOTLE-H6-UNITY-AND-CAUSATION`, `DISAMB-MEREO-SOUL`, `DISAMB-DOWNWARD-ACTUALITY-AND-FIXED-WHOLE`, `DISAMB-FUSION-CAUSE-EXTERNALITY`, `DISAMB-GENUS-PREDICATION-REAL-COMPOSITION`, `DISAMB-SELECTED-NECESSARY-FUSION-AND-ACTUAL-PART`, `DISAMB-MEREO-UNITY`, `DISAMB-PROCESS-CARRIER-MATERIAL-STAGE`, `DISAMB-GUNK-FUSION-AND-PHYSICAL-COMPOSITION`, `DISAMB-THESEUS-IDENTITY-CONTINUITY-MATERIAL`, `DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY`, `DISAMB-EXACT-REMAINDER-AND-SUPPLEMENT`, `DISAMB-SUM2-AND-SUM3-FUSION`, `DISAMB-ACTUAL-FUSION-BARE-NE-AND-NECESSARY-CAUSE`, `DISAMB-MATERIAL-EXTENSION-TEMPORAL-SCOPE`, `DISAMB-MEREO-DESCRIPTION-BEARER`.
+
+At the ecabfd9d+modal-repair snapshot, a mechanical check found zero argument
+premises without a Lean declaration. This is an inventory result, not a semantic
+adequacy claim: an existing declaration can still use the wrong sense or scope.
+The 57-edge `alternative_to` snapshot is being reviewed at exact endpoints.
+Removing only a target's own floor in actual-record copies leaves EM, causal
+concreteness, general change, movedness and thin epistemic reasons unestablished.
+The independently floored case noncontradiction still has an exact classical
+negation rival; it is not a refutation of paraconsistent object negation. The
+weak meaningful-negation principle remains inherited from its independently
+floored strong sibling. These counterfactuals preserve every real approval and
+do not create hypothetical proofs or statuses. Two floored targets also had
+all-recorded-rivals-refuted patterns; baseline classification count zero for
+`alternatives_refuted` alone must not be confused with absence of such patterns.
+
+Remaining substantive scope: productive abstract causal accounts and selected
+world/classification guards; the Megarian ability thesis versus moved-in-potency
+requires a real moved witness and the appropriate unactualized-potency bridge;
+UniverseUncaused excludes every candidate cause while the current positive
+asks for an existing cause, so actuality/negation scope needs a precise guard;
+no-well-foundedness versus an infinite descending chain needs actual coverage
+under its logic/choice policy; general change versus its stronger McTaggart
+bundle needs the exact no-change comparison; and modal single/plural and
+pointwise/collective possible-causer source boundaries remain to be fully
+disposed. The sorted disambiguation-resolution sweep now covers all 350 baseline
+entries, including the reread nature/limitation entry. At semantic snapshot
+79909898 (base607ff3ae plus the universe scope batch), the five added current
+entries and nine changed baseline resolutions were also read. This completes
+resolution-text discovery for all 355 then-current disambiguations, not exact
+source/proof/use review of every statement in the repository.
+These are semantic tasks, not satisfied by namespace counts or the absence of
+unbound argument premises. No whole-repository completion is claimed.
+
+The causal/concrete batch now addresses the first remaining scope item above:
+productive set/Form witnesses and mathematical relevance have explicit no-esse,
+productive-reading and selected-world interfaces. Four broad automatic rival
+edges become guarded attacks; the exact selected-profile negative is the
+unrefuted formal alternative. Structural commitment/countercase and explicit
+named-coverage/remainder forks connect through sixteen checked results and
+separate visible AND premises to the EXACT old commitment. The dormant abstract
+power control manifests at an accessible other world but lies outside all three
+named selected productive accounts. Raw theories are not refuted by declaring
+them insufficient for that target. An existing source-backed event-set statement
+loses only an unsupported appended inference from the set-of-two anchor to all
+impure sets; its source account and claim identity remain. Exact witness,
+interpretation, rejected readings and reproducible own-floor-removal check are
+persisted in `docs/notes/causal-concrete-rival-boundary.md`. Computed comparison
+against721bab8e: root116→116 (52bare/20supported/44stated), cheapest30 unchanged.
+This preserves owner approval and introduces no new floor or premise discharge.
+
+
+### Additional endpoint corrections and resolution coverage
+
+[PR1152](https://github.com/moritzbrantner/truth-core/pull/1152) is now integrated.
+Its coverage premise is explicitly **existential support**: if any selected
+causal countercase exists, some named productive case exists. It does not
+classify every witness. Review caught and corrected the original universal
+prose overclaim; exact definitions/proofs and elimination were unchanged. A
+remainder requires a selected countercase while no named productive case exists
+anywhere in that selected profile. A named case can coexist with unrelated
+capacity-only examples. This distinction must also govern future coverage prose.
+
+[PR1153](https://github.com/moritzbrantner/truth-core/pull/1153) exposes the
+Megarian guard and a precise moved/not-potent countertuple, with six zero-axiom
+results. The raw Megarian thesis becomes a guarded objection; actual movement
+and the SAME-sense weak moved-tuple potency interpretation yield the analyst
+countertuple. The original occasionalist candidate remains stronger in prose
+than its existing countertuple-only Lean envelope. A one-way envelope projection
+does not derive its divine re-creation story. Explicit-EM structural coverage
+and four extensions of old models preserve both missing-input coexistence
+cases. Computed root 116→116, cheapest 30 unchanged; clean targeted review at
+`7438cb17`. Existing source claims, models, Challenges and approvals are unchanged.
+
+[PR1154](https://github.com/moritzbrantner/truth-core/pull/1154) handles three
+remaining truth-lane edges. Generic ScopedScientism needs actual scope coverage
+before denying a nonempirically established witness. All-established-in-scope,
+pointwise nonempirical-witness coverage and sufficient existential coverage are
+separate strength levels; the route uses the existential form. Constancy of
+moral meaning coexists with occasion-based attitude meaning if expression is
+constant; actual free-standing attitude and embedded loss plus a moral witness
+are explicit before the old exact emotivist-meaning negation follows. Kripke's
+no-fact report and PU noninterpretive grasp are preserved as distinct source
+readings, with an interpretive attacks edge instead of automatic formal rivalry.
+Six checked results and actual-record closure regressions; root 116→116, route 30
+unchanged. The linked note preserves quantifiers and exact controls.
+
+The universe-causer scope batch reuses the existing full endpoint-actuality
+policy and weakens it to causers of the selected whole. The old no-edge rival is
+preserved; exact no-existing-cause is a separate, weaker complement. A checked
+existing-causer/no-edge/only-absent-causers trilemma exposes generic Ontic scope.
+The usual two-way fork explicitly requires selected-whole-causer actuality.
+The third generic assignment violates intended causal actuality and is not
+claimed to be actual or metaphysically possible. Eight zero-axiom results
+connect that scope choice to the EXACT old existing-cause target and export
+whole population/actuality in the controls. Seven earlier fusion/cover/atomistic
+records explain why a policy about a separately selected spacetime whole cannot
+replace their chosen source/sum/cover actuality inputs without a mapping. No
+claim that their full both-endpoint interfaces are minimal is made. See
+`docs/notes/universe-cause-scope-boundary.md`. Against base 607ff3ae the computed
+root frontier remains 116 (52 bare / 20 supported / 44 stated), route 30 unchanged.
+
+The 355-resolution discovery snapshot consists of the original 350 plus
+DISAMB-GOODNESS-UNRESTRICTED-DUE-AND-ULTIMATE, DISAMB-EVIL-OBJECTION-SEMANTICS,
+DISAMB-SCOPED-PROOF-STANDARD-AND-THEOLOGICAL-DOMAIN, DISAMB-POTENCY and
+DISAMB-MEANING-DEFINITION-CALIBRATIONS. Nine baseline resolutions changed and
+were reread: duration, in-act, causal-power-concreteness, uniting-cause,
+verificationist-meaningful, esse-reception, existence-esse-support, maxime-ens
+and epistemic-reason-existence-role-authority. Semantic snapshot 79909898 has
+3,313 statements, 1,344 definitions, 355 disambiguations, 1,133 arguments,
+1,131 results, 346 relations and 392 attempts. These are actual JSON-record counts at that
+snapshot, not a new claim of semantic completion or summed PR frontier effects.
+
+Concrete remaining endpoint work includes accepted explanation truth versus
+truthful nonselection; exact general no-change versus the stronger McTaggart
+bundle; explicit WF/descending-chain coverage using the existing classical
+coincidence theorem; the untyped quantifier-shift-versus-plenitude textual
+interpretation edge; and final dispositions of all 57 baseline rival edges against
+the integrated delivery head. The authority lane is correcting two further
+OnlyMessage endpoints with actual mandate/founding witnesses and distinguishing
+local face-value language from cross-discourse semantic uniformity. Broader
+source-only possible-causer plurality remains an explicitly separate reading,
+not a detected current typed quantifier exchange. Full source/argument use-level
+coverage and final integrated additions still need their precise dispositions;
+the completed resolution-text sweep does not substitute for those tasks.

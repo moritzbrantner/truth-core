@@ -1,0 +1,10 @@
+{
+  "id": "COLLECTIVE-POSSIBILITY-ROUTE-BOUNDARIES",
+  "argument_id": "COLLECTIVE-POSSIBILITY-ROUTE-BOUNDARIES",
+  "challenge_module": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.Controls.Challenge",
+  "solution_module": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.Controls.Solution",
+  "theorem": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.Controls.controls",
+  "comparator_config": "results/COLLECTIVE-POSSIBILITY-ROUTE-BOUNDARIES/comparator.json",
+  "status": "solution-present",
+  "description": "Reuse the unchanged global quantifier-shift refutation while checking local survival, target true/false and missing-realization-interface controls. Refuting a universal proof method settles none of those local target verdicts."
+}

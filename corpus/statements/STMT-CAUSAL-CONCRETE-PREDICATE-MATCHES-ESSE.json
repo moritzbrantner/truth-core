@@ -1,0 +1,14 @@
+{
+  "id": "STMT-CAUSAL-CONCRETE-PREDICATE-MATCHES-ESSE",
+  "paraphrase": "OPEN interpretation bridge: in this supplied causal profile, the concrete predicate is coextensive with having esse in re in the SAME InAct/esse dictionary. Adopted sense is retained, but arbitrary generic OwnerCommitmentAt parameters are not silently identified with it.",
+  "lean_declaration": "TruthCore.Causality.CausalConcreteRivalBoundary.Calibration",
+  "definition_ids": [
+    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE",
+    "DEF-CONCRETE-ESSE-IN-RE",
+    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ]
+}

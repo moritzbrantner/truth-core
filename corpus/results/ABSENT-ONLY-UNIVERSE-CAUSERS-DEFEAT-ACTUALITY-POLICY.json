@@ -1,0 +1,10 @@
+{
+  "id": "ABSENT-ONLY-UNIVERSE-CAUSERS-DEFEAT-ACTUALITY-POLICY",
+  "argument_id": "ABSENT-ONLY-UNIVERSE-CAUSERS-DEFEAT-ACTUALITY-POLICY",
+  "challenge_module": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.AbsentFailure.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.AbsentFailure.Solution",
+  "theorem": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.AbsentFailure.absentFailure",
+  "comparator_config": "results/ABSENT-ONLY-UNIVERSE-CAUSERS-DEFEAT-ACTUALITY-POLICY/comparator.json",
+  "status": "solution-present",
+  "description": "An actual candidate edge plus absence of every existing causer contradicts selected-whole-causer actuality. This excludes the remainder when that independently supplied intended policy holds."
+}

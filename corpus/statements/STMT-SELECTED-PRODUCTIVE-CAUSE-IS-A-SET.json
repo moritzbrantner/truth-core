@@ -1,0 +1,14 @@
+{
+  "id": "STMT-SELECTED-PRODUCTIVE-CAUSE-IS-A-SET",
+  "paraphrase": "Some productive cause at the selected world is a supplied set. This typed analyst sibling alone asserts no lack of esse; real event-sets and the abstract anchor need not share a classification.",
+  "lean_declaration": "TruthCore.Causality.CausalConcreteRivalBoundary.SetCause",
+  "definition_ids": [
+    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE",
+    "DEF-CONCRETE-ESSE-IN-RE",
+    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ]
+}

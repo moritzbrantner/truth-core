@@ -777,3 +777,66 @@ exist, religious discourse is meaningless, or the Catholic nominal-definition
 leaves are discharged. The experiment does not connect their shared reference
 relation yet. Root premises and #1010's existing conditional defeat remain
 unchanged; #1073 supplies one boundary, not completion of #1010.
+
+
+## Revelation capability versus actual practice (definition audit, 2026-11-06)
+
+The root's `RevealsRecognizably` says a God can make revelation recognizable.
+The original `CutOffReading` constrains correct moves in one practice. Its old
+rival relation mentioned a shared-recognition interpretation only in prose;
+that did not constrain the graph endpoint and did not turn a capability into an
+actual correct move. The original pair-defeat and its frozen Challenges remain
+unchanged: negating internal grammar together with cut-off is still not a
+refutation of cut-off itself.
+
+`RevelationRecognition.RecognitionProfile` now supplies candidate situations,
+their separate practices and recognition moves, an admitted subset, and a
+distinguished actual situation. Admissibility is an open analyst framework
+choice, not an exhaustive real-possibility domain or a new modal logic. A move
+judging a revelation divine, its correctness, and whether its correctness
+answers to outsider-shared reason are distinct predicates. A recognizable
+message need not actually be recognized; a correct private recognition need
+not answer to outsider-shared standards. These ordinary analogies fix the
+intended distinction without proving its divine applicability.
+
+The full capacity calibration is a biconditional with possible correct
+recognition in the admitted subset. Its forward direction is the weaker
+`STMT-RECOGNIZABLE-CAPACITY-REALIZED`, used in consequences. The more explicit
+route splits that into candidate-carrier realization and
+`STMT-ADMISSIBLE-RECOGNITION-COVERAGE`: a correct witness somewhere in the
+candidate carrier has an admitted witness for that same God candidate.
+`RECOGNITION-ADMISSIBILITY-COVERAGE-OR-OUTSIDE-WITNESS` checks coverage or a
+precise further situation: correct recognition exists only outside the admitted
+subset, with none admitted. Thus a missing relevant situation is an explicit
+proposition, not an untracked escape. Coverage beyond the selected candidate
+carrier is not asserted; relating that carrier to real modal possibilities
+would require a further semantic interpretation and adequacy argument.
+
+`STMT-RECOGNITION-ANSWERS-TO-SHARED-REASON` is separate. So is
+`STMT-ACTUAL-CUT-OFF-PERSISTS-TO-ADMISSIBLE`, which carries the actual sharp
+cut-off policy through admitted situations. Given these, candidate realization,
+admitted coverage, the raw actual cut-off thesis and an actual God witness,
+`ACTUAL-INSULATION-REJECTS-CAPABILITY-WITH-EXPLICIT-COVERAGE` composes the
+recognition witness and the contradiction in its own situation. The conclusion
+is exactly `¬ RevelationPossibleAndRecognizable σ` on the unchanged root
+Signature. The existing alternative relation now points from that negated-root
+sibling. Refuting the raw actual-practice thesis alone cannot automatically
+count as refuting this stronger capability challenge through that link.
+
+Insulation in every admitted situation implies actual cut-off only if the
+actual situation is admitted. That separate hypothesis is registered in the
+ordinary conditional theorem; no unconditional `strengthens` edge is claimed.
+Only full calibration → one-way realization is registered as a strength order.
+The persistence application is labelled a transcription of an open bridge;
+neither it nor the calibration independently warrants a philosophical input.
+
+`REVELATION-RECOGNITION-SCOPE-MODELS` checks six finite controls. The first has
+actual cut-off and capability together, with correct shared recognition in
+another admitted situation and persistence false. The next three show why
+realization, sharedness and an actual God witness cannot be dropped. Another
+separates one-way realization from full calibration. The last has correct
+recognition only outside the admitted subset, witnessing a substantive coverage
+gap. These reuse the original schema signature; they are not Christian
+histories, complete modal models or independent models of classical attributes.
+No source claim, author interpretation, real-world coverage or root premise is
+established by these conditional findings.

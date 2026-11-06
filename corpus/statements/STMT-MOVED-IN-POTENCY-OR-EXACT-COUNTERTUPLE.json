@@ -1,0 +1,17 @@
+{
+  "id": "STMT-MOVED-IN-POTENCY-OR-EXACT-COUNTERTUPLE",
+  "paraphrase": "Either every moved tuple is in potency, or some actual moved tuple is not in potency, in the SAME MovedIn/InPotency dictionary. Checked structural coverage under explicit excluded middle, not exhaustion of historical accounts of motion.",
+  "lean_declaration": "TruthCore.Alternatives.MegarianMovedPotencyBoundary.MovedPotencyFork",
+  "definition_ids": [
+    "DEF-MEGARIAN-MOVED-POTENCY-INTERPRETATION-BOUNDARY",
+    "DEF-ACT",
+    "DEF-CAPACITY-TO-BE",
+    "DEF-POTENCY",
+    "DEF-MOTION-AS-REDUCTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION",
+    "DISAMB-POTENCY",
+    "DISAMB-IN-ACT"
+  ]
+}

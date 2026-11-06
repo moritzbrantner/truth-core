@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Alternatives.RevelationRecognition.Actual.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.RevelationRecognition.Actual.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Alternatives.RevelationRecognition.Actual.allCutOffRestrictsToActual"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -1,0 +1,19 @@
+{
+  "id": "PRODUCTIVE-SET-COUNTERCASE-FROM-EXPLICIT-CLASSIFICATION",
+  "premise_statement_ids": [
+    "STMT-SELECTED-PRODUCTIVE-CAUSE-IS-A-SET",
+    "STMT-SELECTED-SET-CAUSERS-LACK-ESSE"
+  ],
+  "conclusion_statement_id": "STMT-SELECTED-SET-PRODUCTIVE-NO-ESSE-COUNTERCASE",
+  "inference_ids": [
+    "INF-PRODUCTIVE-SET-COUNTERCASE-FROM-EXPLICIT-CLASSIFICATION"
+  ],
+  "meaning": "Guarded interpretation transcription: selected set cause plus explicit no-esse classification supply the countercase.",
+  "definition_ids": [
+    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ]
+}

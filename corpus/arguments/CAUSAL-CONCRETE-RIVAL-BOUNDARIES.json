@@ -1,0 +1,16 @@
+{
+  "id": "CAUSAL-CONCRETE-RIVAL-BOUNDARIES",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-CAUSAL-CONCRETE-RIVAL-BOUNDARY-CONTROLS",
+  "inference_ids": [
+    "INF-CAUSAL-CONCRETE-RIVAL-BOUNDARIES"
+  ],
+  "meaning": "Three anchored finite models check category/classification/production/world/capacity boundaries and witness a genuine relevant remainder. No actual ontology or metaphysical possibility is claimed.",
+  "definition_ids": [
+    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ]
+}

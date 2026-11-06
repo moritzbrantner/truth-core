@@ -1,0 +1,15 @@
+{
+  "id": "UNIVERSE-NO-CAUSE-STRENGTHENS-NO-EXISTING-CAUSE",
+  "premise_statement_ids": [
+    "STMT-UNIVERSE-UNCAUSED"
+  ],
+  "conclusion_statement_id": "STMT-SPACETIME-WHOLE-HAS-NO-EXISTING-CAUSE",
+  "inference_ids": [
+    "INF-UNIVERSE-NO-CAUSE-STRENGTHENS-NO-EXISTING-CAUSE"
+  ],
+  "meaning": "Sole-premise scope order: no causal edge implies no existing causer. The absent-edge control rejects the converse on a generic signature while expressly violating the intended actuality policy.",
+  "definition_ids": [
+    "DEF-UNIVERSE-CAUSER-ACTUALITY-SCOPE",
+    "DEF-SPATIOTEMPORAL-FRAME"
+  ]
+}

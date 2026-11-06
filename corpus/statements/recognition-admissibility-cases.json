@@ -1,0 +1,15 @@
+{
+  "id": "STMT-RECOGNITION-ADMISSIBILITY-CASES",
+  "paraphrase": "Either the admitted situations cover the selected capability-recognition witnesses, or an explicit correct-recognition witness lies outside the admitted subset with none admitted. Structural coverage uses explicit excluded middle; it does not exhaust real possibility beyond the profile.",
+  "lean_declaration": "TruthCore.Alternatives.RevelationRecognition.RecognitionAdmissibilityCases",
+  "definition_ids": [
+    "DEF-REVELATION-RECOGNITION-PROFILE",
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-WITTGENSTEINIAN-FIDEISM",
+    "DEF-NATURAL-REASON-SHARED"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REVELATION-CAPABILITY-AND-PRACTICE-UPTAKE",
+    "DISAMB-PRACTICE-SENSITIVITY-AND-FIDEIST-INSULATION"
+  ]
+}

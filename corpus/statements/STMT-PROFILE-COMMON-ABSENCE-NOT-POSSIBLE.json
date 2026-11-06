@@ -1,0 +1,8 @@
+{
+  "id": "STMT-PROFILE-COMMON-ABSENCE-NOT-POSSIBLE",
+  "paraphrase": "Common absence is not Possible for the supplied presence/possibility profile. This does not deny individual possible absences or introduce an arbitrary truth/realization identity.",
+  "lean_declaration": "TruthCore.Logic.CollectivePossibilityRouteBoundary.JointAbsenceImpossible",
+  "definition_ids": [
+    "DEF-COLLECTIVE-POSSIBILITY-LOCAL-PROOF-ROUTE"
+  ]
+}

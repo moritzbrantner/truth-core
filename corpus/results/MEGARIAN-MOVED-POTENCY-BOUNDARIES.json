@@ -1,0 +1,10 @@
+{
+  "id": "MEGARIAN-MOVED-POTENCY-BOUNDARIES",
+  "argument_id": "MEGARIAN-MOVED-POTENCY-BOUNDARIES",
+  "challenge_module": "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.Controls.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.Controls.Solution",
+  "theorem": "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.Controls.controls",
+  "comparator_config": "results/MEGARIAN-MOVED-POTENCY-BOUNDARIES/comparator.json",
+  "status": "solution-present",
+  "description": "Reuse the old finite Megarian models without changing their fields, extending only InPotency. Check actual-motion and interpretation omissions, the guarded negative branch and strictness of the weaker analysis."
+}

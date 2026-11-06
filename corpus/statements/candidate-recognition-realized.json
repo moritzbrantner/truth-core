@@ -1,0 +1,15 @@
+{
+  "id": "STMT-CANDIDATE-RECOGNITION-REALIZED",
+  "paraphrase": "Open analyst bridge: each God candidate with recognizable-revelation capability has a correct recognition move somewhere in the selected candidate-situation carrier, before the admissibility filter. Adequacy of that carrier to real possibilities remains open.",
+  "lean_declaration": "TruthCore.Alternatives.RevelationRecognition.CandidateRecognitionRealized",
+  "definition_ids": [
+    "DEF-REVELATION-RECOGNITION-PROFILE",
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-WITTGENSTEINIAN-FIDEISM",
+    "DEF-NATURAL-REASON-SHARED"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REVELATION-CAPABILITY-AND-PRACTICE-UPTAKE",
+    "DISAMB-PRACTICE-SENSITIVITY-AND-FIDEIST-INSULATION"
+  ]
+}

@@ -16,6 +16,7 @@ public import TruthCore.Causality.BruteFoundationBoundary
 public import TruthCore.Causality.BruteFoundationDoubling
 public import TruthCore.Causality.BruteFoundationExplanations
 public import TruthCore.Causality.BruteFoundationRoutes
+public import TruthCore.Causality.CausalConcreteRivalBoundary
 public import TruthCore.Causality.CausalPowerConcreteness
 public import TruthCore.Causality.CausalPowerConcretenessStrength
 public import TruthCore.Causality.ChainInstantiation
@@ -83,6 +84,7 @@ public import TruthCore.Causality.PossibleCausalSourceNecessity
 public import TruthCore.Causality.PossibleCauseOfContingency
 public import TruthCore.Causality.PowerExistenceBoundary
 public import TruthCore.Causality.RegressReadings
+public import TruthCore.Causality.RegressRivalCoverage
 public import TruthCore.Causality.RootEssenceIdentity
 public import TruthCore.Causality.RootIntellectWill
 public import TruthCore.Causality.RootIntellectWillOmission

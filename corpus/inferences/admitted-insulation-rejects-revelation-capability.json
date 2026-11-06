@@ -1,0 +1,14 @@
+{
+  "id": "INF-ADMITTED-INSULATION-REJECTS-REVELATION-CAPABILITY",
+  "input_statement_ids": [
+    "STMT-GOD-EXISTS",
+    "STMT-RECOGNIZABLE-CAPACITY-REALIZED",
+    "STMT-RECOGNITION-ANSWERS-TO-SHARED-REASON",
+    "STMT-ALL-ADMISSIBLE-PRACTICES-CUT-OFF"
+  ],
+  "output_statement_id": "STMT-REVELATION-CAPABILITY-REJECTED",
+  "rule": "constructive-proof",
+  "meaning": "Obtain an actual God candidate, realize capability as a correct recognition move in an admitted situation, make that move outsider-shared by the separate bridge, and contradict cut-off in that same situation. No actual recognition or capability truth is independently supplied.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

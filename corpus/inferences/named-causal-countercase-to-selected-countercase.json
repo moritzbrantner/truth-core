@@ -1,0 +1,11 @@
+{
+  "id": "INF-NAMED-CAUSAL-COUNTERCASE-TO-SELECTED-COUNTERCASE",
+  "input_statement_ids": [
+    "STMT-NAMED-PRODUCTIVE-ABSTRACT-CAUSAL-CASES"
+  ],
+  "output_statement_id": "STMT-SELECTED-NO-ESSE-CAUSAL-COUNTERCASE",
+  "rule": "constructive-proof",
+  "meaning": "Case elimination preserves the selected no-esse productive witness from each named branch.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

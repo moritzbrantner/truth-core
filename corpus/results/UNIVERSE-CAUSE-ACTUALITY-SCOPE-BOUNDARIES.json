@@ -1,0 +1,10 @@
+{
+  "id": "UNIVERSE-CAUSE-ACTUALITY-SCOPE-BOUNDARIES",
+  "argument_id": "UNIVERSE-CAUSE-ACTUALITY-SCOPE-BOUNDARIES",
+  "challenge_module": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.Controls.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.Controls.Solution",
+  "theorem": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.Controls.controls",
+  "comparator_config": "results/UNIVERSE-CAUSE-ACTUALITY-SCOPE-BOUNDARIES/comparator.json",
+  "status": "solution-present",
+  "description": "Exact absent/actual/no-edge controls preserve a populated whole and distinguish generic signature admissibility from the independently intended endpoint-actuality policy."
+}

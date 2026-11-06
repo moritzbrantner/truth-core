@@ -1,0 +1,11 @@
+{
+  "id": "SET-COUNTERCASE-IN-NAMED-CAUSAL-FORK",
+  "argument_id": "SET-COUNTERCASE-IN-NAMED-CAUSAL-FORK",
+  "challenge_module": "TruthCore.Results.Causality.CausalConcreteRivals.NamedFromSet.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CausalConcreteRivals.NamedFromSet.Solution",
+  "theorem": "TruthCore.Results.Causality.CausalConcreteRivals.NamedFromSet.namedFromSet",
+  "comparator_config": "results/SET-COUNTERCASE-IN-NAMED-CAUSAL-FORK/comparator.json",
+  "status": "solution-present",
+  "description": "Explicit set-branch injection into the named disjunction.",
+  "transcription": "instantiation"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "INF-COLLECTIVE-POSSIBILITY-FAILS-FROM-DECIDING-INPUTS",
+  "input_statement_ids": [
+    "STMT-PROFILE-EACH-BEING-CAN-NOT-BE",
+    "STMT-PROFILE-COMMON-ABSENCE-NOT-POSSIBLE"
+  ],
+  "output_statement_id": "STMT-COLLECTIVE-POSSIBILITY-FAILS",
+  "rule": "constructive-proof",
+  "meaning": "Individual possible absences plus impossibility of joint absence contradict the original collective conditional under the SAME semantics. No bare proof-method failure is used.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

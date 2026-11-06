@@ -1,0 +1,10 @@
+{
+  "id": "REL-FULL-POTENCY-ANALYSIS-STRENGTHENS-MOVED-TUPLE-DIRECTION",
+  "subject_kind": "statement",
+  "subject_id": "STMT-POTENCY-IS-UNACTUALIZED-CAPACITY",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "STMT-MOVED-TUPLE-POTENCY-HAS-UNACTUALIZED-CAPACITY",
+  "verification_result_id": "FULL-POTENCY-ANALYSIS-STRENGTHENS-MOVED-TUPLE-DIRECTION",
+  "note": "Sole-premise checked restriction; guarded counterargument uses the weakest moved-tuple direction. Existing full-analysis arguments and source claims retain their meanings."
+}
