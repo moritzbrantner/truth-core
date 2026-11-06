@@ -98,6 +98,8 @@ EXPLORER_INPUT_PATTERNS = (
     "scripts/CheckStrength.lean",
     "scripts/territory.py",
     "scripts/root_imports.py",
+    # root_imports.py imports it to detect fully converted areas (#986).
+    "scripts/convert_to_module.py",
     # corpus.py imports it for `bind-check --affected` (#990).
     "scripts/affected_results.py",
     "scripts/testdata/objective-truth-pilot.json",
