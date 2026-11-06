@@ -1,0 +1,9 @@
+{
+  "id": "REL-EXACT-GENERAL-NO-CHANGE-CONDITIONAL-REFUTATION",
+  "subject_kind": "argument",
+  "subject_id": "EXACT-GENERAL-NO-CHANGE-NEGATES-F3",
+  "predicate": "refutes",
+  "object_kind": "statement",
+  "object_id": "STMT-SOMETHING-CHANGES",
+  "note": "Conditional logical opposition only; the no-general-change premise is not established. Owner-approved F3 remains established on its original observation basis."
+}

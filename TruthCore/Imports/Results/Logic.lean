@@ -73,6 +73,7 @@ public import TruthCore.Results.Logic.SoritesBoundary.Solution
 public import TruthCore.Results.Logic.StrengthCause.Solution
 public import TruthCore.Results.Logic.StrengthOrder.Solution
 public import TruthCore.Results.Logic.StrengthUnique.Solution
+public import TruthCore.Results.Logic.TemporalPastCoverage.Coverage.Solution
 public import TruthCore.Results.Logic.ThoughtChangeSubject.Solution
 public import TruthCore.Results.Logic.ThresholdBelief.Solution
 public import TruthCore.Results.Logic.TranscendentalPractice.AgencyDuty.Solution

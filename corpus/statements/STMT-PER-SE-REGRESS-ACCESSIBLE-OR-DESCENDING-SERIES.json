@@ -1,0 +1,12 @@
+{
+  "id": "STMT-PER-SE-REGRESS-ACCESSIBLE-OR-DESCENDING-SERIES",
+  "paraphrase": "For the SAME supplied per-se link, the old accessibility/WF premise holds or an actual Nat-indexed descending series exists. Members need not be distinct, so cycles are included. Explicit-EM coverage composes the old classical-choice coincidence theorem; it establishes neither branch for a real causal relation.",
+  "lean_declaration": "TruthCore.Causality.RegressRivalCoverage.RegressFork",
+  "definition_ids": [
+    "DEF-REGRESS-ACCESSIBILITY-READING",
+    "DEF-NO-INFINITE-DESCENDING-PER-SE-SERIES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NO-INFINITE-REGRESS-READING"
+  ]
+}

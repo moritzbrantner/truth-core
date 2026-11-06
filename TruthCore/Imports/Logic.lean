@@ -43,6 +43,7 @@ public import TruthCore.Logic.Strength.Cause
 public import TruthCore.Logic.Strength.Order
 public import TruthCore.Logic.Strength.UniqueExistence
 public import TruthCore.Logic.StrengthComparison
+public import TruthCore.Logic.TemporalPastCoverage
 public import TruthCore.Logic.ThoughtChangeSubject
 public import TruthCore.Logic.ThresholdBelief
 public import TruthCore.Logic.TranscendentalPractice

@@ -1,0 +1,8 @@
+{
+  "id": "STMT-PAST-PREDECESSOR-OR-FIRST-TIME-FORK",
+  "paraphrase": "For the SAME Before/now profile, every time up to now has a predecessor or some time up to now has none. These are the existing PastIsInfinite/PastIsFinite senses under explicit EM, not finite cardinality, a physical beginning or an actually traversed infinite history.",
+  "lean_declaration": "TruthCore.Logic.TemporalPastCoverage.PastFork",
+  "definition_ids": [
+    "DEF-TEMPORAL-EXISTENCE-BEGINNING"
+  ]
+}

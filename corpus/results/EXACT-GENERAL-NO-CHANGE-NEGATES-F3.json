@@ -1,0 +1,10 @@
+{
+  "id": "EXACT-GENERAL-NO-CHANGE-NEGATES-F3",
+  "argument_id": "EXACT-GENERAL-NO-CHANGE-NEGATES-F3",
+  "challenge_module": "TruthCore.Results.Observation.ChangeRivalCoverage.CounterFailure.Challenge",
+  "solution_module": "TruthCore.Results.Observation.ChangeRivalCoverage.CounterFailure.Solution",
+  "theorem": "TruthCore.Results.Observation.ChangeRivalCoverage.CounterFailure.counterFailure",
+  "comparator_config": "results/EXACT-GENERAL-NO-CHANGE-NEGATES-F3/comparator.json",
+  "status": "solution-present",
+  "description": "Universal absence of the SAME general change contradicts F3 actual change witness. No A-series/general-change or appearance/actual-change transfer is hidden."
+}
