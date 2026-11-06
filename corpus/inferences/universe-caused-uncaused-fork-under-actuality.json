@@ -1,0 +1,12 @@
+{
+  "id": "INF-UNIVERSE-CAUSED-UNCAUSED-FORK-UNDER-ACTUALITY",
+  "input_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-SELECTED-WHOLE-CAUSERS-ACTUALLY-EXIST"
+  ],
+  "output_statement_id": "STMT-UNIVERSE-EXISTING-CAUSE-OR-UNCAUSED-UNDER-ACTUALITY",
+  "rule": "constructive-proof",
+  "meaning": "The usual existing-cause/no-cause disjunction has an explicit actuality-policy premise. An unguarded finite roster is not taken as exhaustive on generic Ontic.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.AbsentFailure.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.AbsentFailure.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.AbsentFailure.absentFailure"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

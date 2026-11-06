@@ -1,0 +1,19 @@
+{
+  "id": "CAUSAL-ENDPOINT-ACTUALITY-STRENGTHENS-WHOLE-CAUSER-ACTUALITY",
+  "premise_statement_ids": [
+    "STMT-CAUSES-HAVE-ACTUAL-ENDPOINTS-AT"
+  ],
+  "conclusion_statement_id": "STMT-SELECTED-WHOLE-CAUSERS-ACTUALLY-EXIST",
+  "inference_ids": [
+    "INF-CAUSAL-ENDPOINT-ACTUALITY-STRENGTHENS-WHOLE-CAUSER-ACTUALITY"
+  ],
+  "meaning": "Sole-premise restriction of the EXISTING all-edge/both-endpoint actuality policy to selected-whole causers only. No generic Ontic field or original argument is changed.",
+  "definition_ids": [
+    "DEF-UNIVERSE-CAUSER-ACTUALITY-SCOPE",
+    "DEF-SPATIOTEMPORAL-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ACTUAL-FUSION-BARE-NE-AND-NECESSARY-CAUSE",
+    "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY"
+  ]
+}

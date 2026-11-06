@@ -5,3 +5,4 @@ public import TruthCore.Ontology.ConcreteAbstract
 public import TruthCore.Ontology.Naturalism
 public import TruthCore.Ontology.NaturalismConsequences
 public import TruthCore.Ontology.Spatiotemporal
+public import TruthCore.Ontology.UniverseCauseScopeBoundary
