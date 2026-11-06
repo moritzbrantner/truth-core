@@ -1,7 +1,7 @@
 {
   "id": "DEF-PER-SE-EFFICIENT-CAUSE-LINK",
   "term": "causes as caused (the per se link of a series of efficient causes; Lean `CausesAsCaused`)",
-  "definition": "`CausesAsCaused c x`: c efficiently causes x only insofar as c is itself, here and now, efficiently caused. c is a middle cause (medium) of a per se ordered series of efficient causes: remove its cause and its causing is removed. 'No infinite regress' is well-foundedness of this relation (`NoInfinitePerSeEfficientCauseSeriesReading`). It is a relation between efficient causes, distinct from the mover link `MovesAsMoved` (DEF-PER-SE-ORDERED-SERIES); STMT-PER-SE-MOVER-LINK-IS-PER-SE-CAUSE-LINK is the explicit premise that every per se mover link is such a cause link.",
+  "definition": "`CausesAsCaused c x`: c efficiently causes x only insofar as c is itself, here and now, efficiently caused. c is a middle cause (medium) of a per se ordered series of efficient causes: remove its cause and its causing is removed. 'No infinite regress' is well-foundedness of this relation (`NoInfinitePerSeEfficientCauseSeriesReading`). It is a relation between efficient causes, distinct from the mover link `MovesAsMoved` (DEF-PER-SE-ORDERED-SERIES); STMT-PER-SE-MOVER-LINK-IS-PER-SE-CAUSE-LINK is the explicit premise that every per se mover link is such a cause link. In Lean CausesAsCaused is a primitive relation parameter: the 'here and now' and 'remove its cause and its causing is removed' content is the intended reading, constrained only by the premises that use it; the linked declaration is the premise SecondEfficientCausesCauseOnlyAsCausedReading, not a definitional body.",
   "basis": "sourced",
   "claim_ids": [
     "AQUINAS-ST-I-Q2-A3-SECOND-EFFICIENT-CAUSES-A",

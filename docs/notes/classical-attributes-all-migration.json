@@ -1105,12 +1105,12 @@
       "path": "corpus/definitions/classical-attributes-bundle.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
-      "finding": "Existing interpretation retained: The case groups simple, perfect, good, one, infinite, immutable, eternal, intellect and will in the order of ClassicalAttributesSuffice. In the complete stage-2 composition its arguments are IsSimple Composite (DEF-SIMPLE), IsPerfect InAct (DEF-UNIVERSALLY-PERFECT), IsSupremelyGood InAct GoodIn CausesIn esse (DEF-SUPREMELY-GOOD), IsTheOneGod σ.IsGod (DEF-ONE-GOD), Infinite (DEF-INFINITE), IsImmutable InPotency (DEF-IMMUTABLE), Eternal (DEF-ETERNAL), HasIntellect (DEF-HAS-INTELLECT), and HasWill (DEF-HAS-WILL). No new structural law, source attribution or independently established premise is introduced.",
+      "finding": "Existing interpretation retained: The case groups simple, perfect, good, one, infinite, immutable, eternal, intellect and will in the order of ClassicalAttributesSuffice. In the complete stage-2 composition its arguments are IsSimple Composite (DEF-SIMPLE), IsPerfect InAct (DEF-UNIVERSALLY-PERFECT), IsSupremelyGood InAct GoodIn CausesIn esse (DEF-SUPREMELY-GOOD), IsTheOneGod σ.IsGod (DEF-ONE-GOD), Infinite (DEF-INFINITE), IsImmutable InPotency (DEF-IMMUTABLE), Eternal (DEF-ETERNAL), HasIntellect (DEF-HAS-INTELLECT), and HasWill (DEF-HAS-WILL). No new structural law, source attribution or independently established premise is introduced. Re-reviewed in the #1103 definitions audit: the note now records that the attribute 'one' (IsTheOneGod σ.IsGod) mentions IsGod and holds vacuously when nothing is God; a dependency, not a circular proof.",
       "before": {
         "sha256": "5fab6d1e3a87715f74605cb761ad1aa2353a0b54447aa154af4ef24b30300535",
         "lean_declaration": "TruthCore.Case.Catholicism.ClassicalAttributesSuffice"
       },
-      "reviewed_sha256": "5fab6d1e3a87715f74605cb761ad1aa2353a0b54447aa154af4ef24b30300535"
+      "reviewed_sha256": "d396c807471e1a863bf07c8dc75cc86b1c0302ef5c445a941856f01893e77334"
     },
     {
       "kind": "definitions",
@@ -1586,12 +1586,12 @@
       "path": "corpus/definitions/simple-priority.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
-      "finding": "Existing interpretation retained: `PriorSimply y x`: y is prior to x simply, not in time: whatever is in potency in a respect presupposes some being in act in that respect, because potency is reduced to act only by a being in act. It is a dependence relation distinct from present moving. Whether simple priority makes y a cause of x's being is not part of this definition: that is the open premise STMT-SIMPLY-PRIOR-IS-CAUSE-OF-BEING. No new structural law, source attribution or independently established premise is introduced.",
+      "finding": "Existing interpretation retained: `PriorSimply y x`: y is prior to x simply, not in time: whatever is in potency in a respect presupposes some being in act in that respect, because potency is reduced to act only by a being in act. It is a dependence relation distinct from present moving. Whether simple priority makes y a cause of x's being is not part of this definition: that is the open premise STMT-SIMPLY-PRIOR-IS-CAUSE-OF-BEING. No new structural law, source attribution or independently established premise is introduced. Re-reviewed in the #1103 definitions audit: the definition now says PriorSimply is a primitive constrained only by the linked premise ActSimplyPriorToPotencyReading.",
       "before": {
         "sha256": "875e4d5d931b5ec580cc42ddbcf305645c65fdd3d781b423589ffafbe8bb9189",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.ActSimplyPriorToPotencyReading"
       },
-      "reviewed_sha256": "875e4d5d931b5ec580cc42ddbcf305645c65fdd3d781b423589ffafbe8bb9189"
+      "reviewed_sha256": "e52e09bf76f35cb1cf1e5b5ce8ad86764cf7bc944f4bcc6cfc0bfd544b539040"
     },
     {
       "kind": "definitions",
