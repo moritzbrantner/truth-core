@@ -72,7 +72,7 @@ def OrdinaryUseAffirmsNaturalKnowabilityReading (C : CasedPractice Being) : Prop
 
 /-- Case-2 evidence (`STMT-ORDINARY-USE-CONFESSES-ONE-TRUE-GOD`): some move of
 ordinary use confesses, with the name `god`, that there is a being it names
-(the creed professed by believers, CCC 199-202). -/
+(the creed professed by believers, first article). -/
 def OrdinaryUseConfessesGodReading (C : CasedPractice Being) (god : C.Name) : Prop :=
   ∃ m, C.ConfessesReferent m god ∧ C.InOrdinaryUse m
 
