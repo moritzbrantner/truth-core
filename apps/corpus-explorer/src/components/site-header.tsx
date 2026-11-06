@@ -8,6 +8,7 @@ const links = [
   { href: "/guide/classical-god", label: "Guide" },
   { href: "/atlas", label: "Atlas" },
   { href: "/state", label: "Case" },
+  { href: "/next", label: "Next steps" },
   { href: "/statements/STMT-CATHOLICISM-TRUE", label: "Root proposition" },
   { href: "/candidates", label: "Research" },
   { href: "/results", label: "Results" },

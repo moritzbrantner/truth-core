@@ -2,6 +2,7 @@ import { execFileSync } from "node:child_process";
 import path from "node:path";
 
 import type { Corpus } from "./corpus";
+import type { NextStepsReport } from "./next-steps";
 import { DEFAULT_ROOT_STATEMENT_ID } from "./proposition-graph";
 
 /**
@@ -142,6 +143,8 @@ export type StrengthOrderEntry = {
 };
 
 export type FrontierReport = {
+  /** Produced by Python frontier; clients only display this projection. */
+  next_steps?: NextStepsReport;
   root: string;
   root_known: boolean;
   transcription_flags: TranscriptionFlag[];
