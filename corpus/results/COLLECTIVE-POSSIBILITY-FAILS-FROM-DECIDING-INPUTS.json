@@ -1,0 +1,10 @@
+{
+  "id": "COLLECTIVE-POSSIBILITY-FAILS-FROM-DECIDING-INPUTS",
+  "argument_id": "COLLECTIVE-POSSIBILITY-FAILS-FROM-DECIDING-INPUTS",
+  "challenge_module": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.Countercase.Challenge",
+  "solution_module": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.Countercase.Solution",
+  "theorem": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.Countercase.countercase",
+  "comparator_config": "results/COLLECTIVE-POSSIBILITY-FAILS-FROM-DECIDING-INPUTS/comparator.json",
+  "status": "solution-present",
+  "description": "Individual possible absences plus impossibility of joint absence contradict the original collective conditional under the SAME semantics. No bare proof-method failure is used."
+}

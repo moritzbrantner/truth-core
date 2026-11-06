@@ -1,0 +1,12 @@
+{
+  "id": "COLLECTIVE-POSSIBILITY-ROUTE-BOUNDARIES",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-COLLECTIVE-POSSIBILITY-PROOF-ROUTE-CONTROLS",
+  "inference_ids": [
+    "INF-COLLECTIVE-POSSIBILITY-ROUTE-BOUNDARIES"
+  ],
+  "meaning": "Reuse the unchanged global quantifier-shift refutation while checking local survival, target true/false and missing-realization-interface controls. Refuting a universal proof method settles none of those local target verdicts.",
+  "definition_ids": [
+    "DEF-COLLECTIVE-POSSIBILITY-LOCAL-PROOF-ROUTE"
+  ]
+}

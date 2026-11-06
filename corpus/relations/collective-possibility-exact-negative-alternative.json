@@ -1,0 +1,9 @@
+{
+  "id": "REL-COLLECTIVE-POSSIBILITY-EXACT-NEGATIVE-ALTERNATIVE",
+  "subject_kind": "statement",
+  "subject_id": "STMT-COLLECTIVE-POSSIBILITY-FAILS",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-ALL-CAN-NOT-BE-THEN-NOTHING-POSSIBLE",
+  "note": "Exact unrefuted analyst complement of the same conditional. The existing perpetual-succession rival is preserved separately; refuting a positive proof method or a finite named roster cannot establish this premise."
+}

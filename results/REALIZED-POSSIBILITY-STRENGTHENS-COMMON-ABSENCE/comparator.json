@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.RealizationStrength.Challenge",
+  "solution_module": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.RealizationStrength.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.RealizationStrength.realizationStrength"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

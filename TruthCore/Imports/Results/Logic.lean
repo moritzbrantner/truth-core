@@ -7,6 +7,13 @@ public import TruthCore.Results.Logic.CaseNonContradiction.Solution
 public import TruthCore.Results.Logic.CogitoConcrete.Solution
 public import TruthCore.Results.Logic.CogitoEsse.Solution
 public import TruthCore.Results.Logic.CogitoSubject.Solution
+public import TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.Controls.Solution
+public import TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.Countercase.Solution
+public import TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.CountercaseProjection.Solution
+public import TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.Coverage.Solution
+public import TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.GlobalStrength.Solution
+public import TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.LocalRoute.Solution
+public import TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.RealizationStrength.Solution
 public import TruthCore.Results.Logic.ContrastiveWorldview.Solution
 public import TruthCore.Results.Logic.CorrectionCriterion.Solution
 public import TruthCore.Results.Logic.EpistemicAccuracy.Solution

@@ -1,0 +1,11 @@
+{
+  "id": "INF-REALIZED-POSSIBILITY-STRENGTHENS-COMMON-ABSENCE",
+  "input_statement_ids": [
+    "STMT-TEMPORALLY-REALIZED-CONDITIONS-ARE-POSSIBLE"
+  ],
+  "output_statement_id": "STMT-REALIZED-COMMON-ABSENCE-IS-POSSIBLE",
+  "rule": "constructive-proof",
+  "meaning": "Exact sole-premise restriction from arbitrary-condition realization to the common-absence interface actually used.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
