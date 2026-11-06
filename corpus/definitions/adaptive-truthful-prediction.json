@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ADAPTIVE-TRUTHFUL-PREDICTION",
+  "term": "total finite-history binary prediction under truthful feedback",
+  "definition": "Predictor is List Bool → Bool, deterministic and total, with newest-first finite histories. past truth n contains exactly labels before n; forecast p truth n is p on that past. history recursively prepends the opposite of p on its current history; diagonal p is the resulting one stream. historyWeights reconstructs the existing weighted update and weighted reuses the existing predict; advice experts truth evaluates each history-based expert on the same actual past. There is no random seed, chance model, computability restriction, semantic-content assignment or normative predicate.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.AdaptivePrediction.Predictor",
+  "note": "Analyst formulation #1058 under #931, attribution deferred. Meaning, explicit scopes and rejected semantic inference: docs/notes/fallible-correction-931.md."
+}

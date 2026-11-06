@@ -1,0 +1,8 @@
+{
+  "id": "DEF-KNOWABILITY-MODAL-COMPATIBILITY",
+  "term": "epistemic inclusion and knowability schema strength",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.KnowabilityCompatibility.Included",
+  "definition": "Included E R requires each same-world epistemic alternative to be a modal alternative. relationalContext constructs the existing Context with existing fixed-agent Knows E, not a new epistemic operator. GlobalForward is truth-to-possible-knowledge at all worlds; existing GlobalRestrictedEquivalence adds possible-knowledge-to-truth. AdmittedKnown concludes knowledge only for true contents in the supplied admissible family.",
+  "note": "Analyst formulation for #1059, attribution deferred. E inclusion in R is not equality, commutation, time transport, factivity, or a claim that any actual possibility relation has a given structure. The universal four-world R includes E; the earlier two-block R does not. The line union includes E but is not Euclidean. World zero versus singleton world two illustrates actual ignorance versus possible knowledge. Real-world modal/epistemic applicability remains OPEN. See docs/notes/sep-fitch-knowability-gap-20261106.md."
+}

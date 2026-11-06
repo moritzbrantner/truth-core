@@ -1,0 +1,17 @@
+{
+  "id": "ADAPTIVE-PREDICTION-LEARNER-ADAPTER",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-ADAPTIVE-PREDICTION-LEARNER-ADAPTER",
+  "inference_ids": [
+    "INF-ADAPTIVE-PREDICTION-LEARNER-ADAPTER"
+  ],
+  "meaning": "For every finite pool of history-dependent experts, every supplied truthful stream and every round, the history-weight adapter equals the existing rational weighted-majority learner on the same induced advice and feedback streams. The adapter reuses the original voting and update rules. This is an exact protocol identity, not an epistemic-warrant claim.",
+  "definition_ids": [
+    "DEF-ADAPTIVE-TRUTHFUL-PREDICTION",
+    "DEF-FALLIBLE-WEIGHTED-CORRECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ADAPTIVE-FAILURE-AND-WARRANT",
+    "DISAMB-FALLIBLE-CORRECTION-AND-WARRANT"
+  ]
+}

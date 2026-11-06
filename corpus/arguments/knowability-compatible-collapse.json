@@ -1,0 +1,21 @@
+{
+  "id": "KNOWABILITY-COMPATIBLE-COLLAPSE",
+  "premise_statement_ids": [
+    "STMT-EUCLIDEAN-FRAME",
+    "STMT-KNOWABILITY-EPISTEMIC-INCLUDED",
+    "STMT-FITCH-GLOBAL-RESTRICTED-EQUIVALENCE"
+  ],
+  "conclusion_statement_id": "STMT-KNOWABILITY-ADMITTED-KNOWN",
+  "inference_ids": [
+    "INF-KNOWABILITY-COMPATIBLE-COLLAPSE"
+  ],
+  "meaning": "Given a true admitted content at w, forward knowability supplies an R-successor v knowing it. Every E-successor u of w is an R-successor by inclusion; Euclideanness gives R(u,v). Reverse knowability at u then gives truth at u, hence relational knowledge at w. No factivity, reflexivity, epistemic transitivity, Moore closure, classical stability or actuality-index transport is used. This is a conditional consequence under the explicit stronger biconditional, not a proof of its applicability or unrestricted omniscience.",
+  "definition_ids": [
+    "DEF-FITCH-WORLD-INDEXED-KNOWLEDGE",
+    "DEF-FITCH-ADMISSIBLE-CONTENTS",
+    "DEF-KNOWABILITY-MODAL-COMPATIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FITCH-OPERATOR-SCOPE"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "ADAPTIVE-PREDICTION-DIAGONAL",
+  "argument_id": "ADAPTIVE-PREDICTION-DIAGONAL",
+  "challenge_module": "TruthCore.Results.Logic.AdaptivePrediction.Challenge",
+  "solution_module": "TruthCore.Results.Logic.AdaptivePrediction.Solution",
+  "theorem": "TruthCore.Results.Logic.AdaptivePrediction.diagonalBoundary",
+  "comparator_config": "results/ADAPTIVE-PREDICTION-DIAGONAL/comparator.json",
+  "status": "solution-present",
+  "description": "For each total deterministic finite-history binary predictor, one recursively constructed infinite stream has coherent truthful histories, a wrong prediction at every round, and exactly n mistakes at every horizon n, using the existing FallibleCorrection.mistakes. The stream depends on the predictor; this does not assert a single stream defeats all predictors or identify prediction failure with semantic indeterminacy."
+}

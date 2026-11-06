@@ -1,0 +1,21 @@
+{
+  "id": "ATTEMPT-KNOWABILITY-COMPATIBILITY-1059",
+  "statement_ids": [
+    "STMT-KNOWABILITY-EPISTEMIC-INCLUDED",
+    "STMT-FITCH-GLOBAL-RESTRICTED-EQUIVALENCE",
+    "STMT-KNOWABILITY-ADMITTED-KNOWN",
+    "STMT-KNOWABILITY-FORWARD-COMPATIBLE-SURVIVOR",
+    "STMT-KNOWABILITY-LINE-COMPATIBLE-SURVIVOR",
+    "STMT-KNOWABILITY-POSITIVE-COMPATIBLE-SURVIVOR"
+  ],
+  "date": "2026-11-06",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Analyst formulations for #1059 distinguish forward-only knowability from the stronger biconditional under explicit E inclusion in R. Euclidean sibling reach plus the reverse schema yields admitted knowledge without factivity, reflexivity or Moore closure. Reusing the exact earlier four-world epistemic/content interpretation, universal R preserves forward knowability with actual ignorance and compatibility; E union oldR preserves even the biconditional and compatibility but is a reflexive symmetric non-Euclidean line. Prior strong S5 survivor omits compatibility. No new source claims, CC100-124 reinterpretation, F6 strengthening, common knower, actual-world knowledge, antirealist blanket defeat or root discharge. Frozen Challenge SHA256 aa93f7e522c1aae0406e69890a2ca53d8a25b93755a11b9778720af206bca0c8 compiled before Solution; unchanged. Initial Solution syntax used reserved binder extends and a non-unfolded decidability goal; corrected without changing the Challenge or semantics. Focused core/Solution compile warning-free and direct axiom probes empty; the three original Comparator and independent NanoDa checks passed with zero permitted axioms and3bindings0mismatch. Positive joint-background companion then frozen separately at SHA25661df2cc207280ea7b1896343521b737cad4a4d9a520ed0df3109e78e548b7a39 without changing the original Challenge. It uses old modal equivalence for both E/R on the same worlds/C/atom, supplying an admitted nonconstant atom and joint satisfiability of collapse assumptions. All four exact bindings pass with0mismatch; all four Comparator and independent NanoDa checks pass with no permitted axioms. Existing three proof terms/types unchanged when the positive companion was added; their accepted evidence is reused. Final delivered-head CI/review remains required. Root comparison90→90 (30bare18supported42stated), cheapest31→31. Exact claim/type sweep and strongest-rival/application gaps are in the linked existing note. Convention sourceRevision625cb04ca568aebc8d45c90033e107a05e9bd2a0.",
+  "evidence": [
+    "KNOWABILITY-COMPATIBLE-COLLAPSE",
+    "KNOWABILITY-FORWARD-COMPATIBLE-SURVIVOR",
+    "KNOWABILITY-LINE-COMPATIBLE-SURVIVOR",
+    "KNOWABILITY-POSITIVE-COMPATIBLE-SURVIVOR"
+  ]
+}
