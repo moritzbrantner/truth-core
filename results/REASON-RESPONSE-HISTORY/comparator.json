@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.ReasonResponseHistory.Challenge",
+  "solution_module": "TruthCore.Results.Modal.ReasonResponseHistory.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.ReasonResponseHistory.certificate"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

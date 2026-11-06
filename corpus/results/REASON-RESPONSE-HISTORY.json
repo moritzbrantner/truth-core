@@ -1,0 +1,10 @@
+{
+  "id": "REASON-RESPONSE-HISTORY",
+  "argument_id": "REASON-RESPONSE-HISTORY",
+  "challenge_module": "TruthCore.Results.Modal.ReasonResponseHistory.Challenge",
+  "solution_module": "TruthCore.Results.Modal.ReasonResponseHistory.Solution",
+  "theorem": "TruthCore.Results.Modal.ReasonResponseHistory.certificate",
+  "comparator_config": "results/REASON-RESPONSE-HISTORY/comparator.json",
+  "status": "solution-present",
+  "description": "In a stipulated two-stage deterministic mechanism using the exact ChoiceContext action, copying the earlier review input or external-setting input into the current law selector produces the same actual current record/action and entire one-bit reason-response function at the selected actual inputs. Both mechanisms are sensitive to the reason signal, yet only the review-copy mechanism admits an actual action-changing review intervention and only the external-copy mechanism admits an actual action-changing external intervention, with other inputs fixed. Reusing exact classifier factorization, no classifier of the present record plus whole represented reason-response function exactly identifies either earlier intervention predicate across acquisition mechanisms; adding the acquisition function repairs review-influence classification. Existing same-context closure transports equal acquisition outputs to equal actions when the other current inputs stay fixed. Imposed override masks action variation regardless of acquisition. These typed intervention dependencies are not normative ownership, real manipulation, free will, responsibility, rational adequacy or physical causation; neither compatibilism nor incompatibilism is vindicated. Own-review and external-setting are declared toy interpretations, same-past alternatives and applicability remain OPEN, attribution deferred, no root-premise change."
+}
