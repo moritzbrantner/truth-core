@@ -1,5 +1,123 @@
 # Necessary existence: cumulative argument and adequacy comparisons (#735/#786)
 
+## Owner question: explanatory parity and the remaining gap
+
+Owner question, paraphrased (2026-11-06): **Are the alternatives merely
+mathematically correct, or do they match the explanatory benefits of one
+necessary being? What gaps remain?** This takes priority over producing another
+model or increasing the result count in #613/#750.
+
+**Complete explanatory parity has not been established. Neither has an automatic
+explanatory victory for a singular necessary being.** The certified alternatives
+have specific conditional resources: some supply the same target, some meet an
+admitted-reason standard, and some preserve actual grounding structure without
+rigid necessity. Those are more informative than bare consistency, but they are
+not independently adequate accounts of real existence. Conversely, the existing
+`idle` necessary-being model gives no reason for the target: necessity alone is
+not explanation. Stronger singular-ground routes have substantial conditional
+reach; their open dependence, unification and application premises cannot be
+discarded merely because a thinner rival survives.
+
+### Keep the two fixed-target comparisons separate
+
+- **#750 fact-level comparison:** worlds `Nat`, actual world `0`, and the same
+  `ExplanatoryAdequacy.Fact.target`. `ground`, `plural`, `brute` and `chain`
+  associate it with existence of bearer `none : Option Bool`; `law` associates
+  it with existence of `() : Unit`. Thus the fact-level explanandum is fixed,
+  but this is not one common rigid-bearer carrier across every account. The
+  admitted reason relations are supplied, and Causes is empty.
+- **#735 productive comparison:** the same `Nat` target `2`, event/bearer
+  signature and actual exercise context `(true,true)` across `single`, `plural`,
+  `branch` and `chain`. Their dependence structures differ deliberately.
+  Modal overlays designate world `false`, preserve that actual population and
+  graph, and vary existence separately. Exercise scenarios and modal worlds
+  are distinct domains.
+
+These are **two comparison levels**, not one all-five productive
+actual-existence certificate. In particular, a fact-level impersonal `law`
+interpretation is not thereby a mechanism realizing the #735 exercise.
+
+### One demand at a time, applied without personal or impersonal exemptions
+
+The following are candidate explanatory demands, not newly endorsed adequacy
+axioms. The theorem namespaces are `TruthCore.Results.Explanation.*` unless
+explicitly marked otherwise.
+
+| Demand and fixed target | Exact certificate or named model | Certified coverage | Remaining OPEN burden |
+| --- | --- | --- | --- |
+| Actual target and productive contributions (#735 target2) | `UltimateAdequacy.structural` / `certificate`; `PSRLaterAxes.productive` | **Single and plural both have Supply**. Plural has two indispensable contributors and no least source. Branch has a least source but no target Supply; source-free chain lacks Supply. | This is narrow positive single/plural parity under the stated **inductive Supply** semantics. It establishes neither real productive adequacy nor the bridge from event exercise/power to the bearer's actual existence. |
+| Admitted reason coverage (#750 target) | `ExplanatoryAdequacy.ground_closed`, `plural_closed`, `law_closed`, `chain_closed_whole`; `token_closed`, `idle_open`, `brute_open` | Necessary ground, plural grounds, impersonal necessary fact and infinite reasons meet ReasonClosed. A true-everywhere token also passes. Mere necessary existence in `idle` does not; the contingent brute stop fails its coverage clause. | Token success exposes a weak discriminator. Brute failure uses the disputed demand already in `covered`; it does not independently refute brute actuality. A genuinely relevant explanation needs more than admitted edges and truth. |
+| Contrast selection (#750 target/history) | `ExplanatoryAdequacy.core_contrast`, `chain_contrast_whole`, `chain_not_uniform_whole`; `HistorySelection.no_selection` | Strict truth-discriminating contrast conflicts with founded reason closure for a contingent target, including a singular necessary-ground account. The infinite account meets per-rival contrast but not uniform whole contrast. | Nonnecessitating, probabilistic and personal accounts can reject strict entailing selection. Failing that criterion is not refutation; adopting it must not penalize only the impersonal rival. |
+| Indispensable contributors and enablers (#745 event target) | `ExplanatoryClosure.certificate`, `lens`, `modal_cost` | Conditional joint sufficiency/Supply can leave an indispensable enabler unaccounted. Closure need not be founded; universally imposed closure can recover a PSR. | No independent duty of ultimate recursive closure follows. Record membership must represent genuine productive/enabling roles, not listed idle events. These event results do not by themselves explain bearer existence. |
+| The foundation's own obtaining (#746) | `StoppingPoints.stoppingMap`, `foundationNormTest` | Contingency-restricted demands can exempt an unexplained necessary stop; the unrestricted demand does not. Twin roots and self-reason controls expose limits of the tested stopping rules. | An intrinsic explanation must explain rather than merely rename necessity or insert a self-reason. Apply that burden equally to necessary personal, impersonal and plural foundations; a principled primitive stop remains a rival. |
+| Unity and source count (#735/#319/#320) | `UltimateAdequacy.certificate`; `Causality.UnderivedCommonSource.named_support` / `from_union`; `MechanismInterventionParity.surgical_parity` | Plural Supply need not have a least source. Conditional source uniqueness retains confluence/connectedness/support premises. A one-slot pair state and two slots can have identical full public intervention behavior. | Neither graph source count nor state packaging proves ontic simplicity or explanatory compression. A unique actual graph source is not automatically a complete explanation or universal cause. |
+| Necessity versus preserved actual structure (#1079 and modal routes) | `Causality.GroundingIdentityProfile.comparison`; `Modal.FiniteHitting.hitting_deRe` / `compact_deRe`; `Causality.ActualFusionNecessaryBeingFromPopulation.necessaryBeing` | Local actual grounding data can agree while rigid necessity differs. Finite-hitting and fusion routes derive NE under explicit additional modal/causal policies. | Surviving no-NE models do not satisfy every stronger route's premises. The actual-fusion no-NE control has empty Causes and supplies no competing causal explanation. Applicability of identity, amalgamation/compactness, fusion and causal policies remains open. |
+| Personal versus impersonal explanation | `PSRLaterAxes.agency`; `ExplanatorySymmetry.comparison` | The same tested choice marks admit either supplied personal flag. `ground` has no independently interpreted personal-agency predicate. | This is a limitation of the tested signature, **not explanatory equivalence of personal and impersonal theories**. Actual intellect, will and personal explanatory relevance require their own argument. |
+
+The exact Lean statements are in the existing
+[adequacy](../../TruthCore/Results/Explanation/ExplanatoryAdequacy/Solution.lean),
+[productive comparison](../../TruthCore/Results/Explanation/UltimateAdequacy/Solution.lean),
+[later axes](../../TruthCore/Results/Explanation/PSRLaterAxes/Solution.lean),
+[closure](../../TruthCore/Results/Explanation/ExplanatoryClosure/Solution.lean) and
+[stopping-point](../../TruthCore/Results/Explanation/StoppingPoints/Solution.lean)
+Solutions. Their certificate evidence is reused; this audit adds no proof or model.
+
+### Strongest surviving replies
+
+The infinite rival need not claim that predecessors alone settle everything.
+`HistorySelection.certificate`, importing `UniqueFeedback.controls`, includes a
+beginningless **unique global solution**. This supplies a whole-pattern
+constraint without a first member; why that global law obtains remains open.
+Failure of inductive Supply cannot refute that holistic reply unless the Supply
+requirement applies independently. A singular necessary foundation likewise
+still owes the relevance and actual-exercise account for its contingent effect.
+Plural foundations can offer jointly indispensable contributions instead of one
+least source. An impersonal necessary structure can propose intrinsic or
+nonnecessitating explanation; the current signatures do not exclude it by name.
+A world-local brute account can retain local explanation while declining the
+ultimate coverage demand. Each has an explicit remaining burden, not an automatic
+complete-worldview parity verdict or a license to exempt the favored account.
+
+### One next application: audit the claimed complete account, not another toy
+
+For the **claimed complete singular-NE account of one fixed contingent
+existence**, identify the actual contributors, enablers and exercise—including
+any selector—and distinguish scenario joint sufficiency from a nonnecessitating
+explanation. Then apply the existing `ExplanatoryClosure.modal_cost` test, using
+the same interpretation for plural and impersonal candidates.
+
+Its exact retained inputs are `ScenariosAreWorlds`, `WorldsAreScenarios`,
+`FullSupply` of the target, necessity of every admitted `Stop` event
+(`∀ e, Stop e → NecessaryAt o w e`), and contingency of the target. The conclusion is `IncompleteLink`: some exercised ancestor record
+is not jointly sufficient. This forces an explicit choice about sufficiency,
+varying conditions or the claimed modal/application bridges, not a conclusion
+that nonnecessitating explanation is impossible. In particular, a contingent
+exercise or selector presents an obtaining burden to examine, not an automatic
+flaw, refutation or unexplained fact by definition. Personal/probabilistic
+explanations may explicitly deny necessitating scenario-to-world sufficiency;
+that denial must be assessed rather than silently replaced by it. A necessary
+single root alone settles neither relevance nor why this contingent exercise
+occurs, and plural/impersonal accounts face the same standard. Do not apply it directly to
+#735 merely because its sources are necessary in an overlay: its intervention
+scenarios can omit source exercises, while its modal overlay can retain their
+bearers. The scenario/existence correspondence needs its own justification. Its target
+is an event, so an actual-existence application also owes the event/bearer
+correspondence rather than silently identifying exercise with esse.
+
+The decisive gap is **why the proposed intrinsic, productive, probabilistic or
+personal account explains actual obtaining instead of labeling it**. Existing
+formal machinery can test a specified account; it cannot supply that real
+interpretation or independently endorse the criterion. This is the next
+application/discriminator task under #750/#545, not a need for another generic
+uniqueness theorem, arbitrary ground label, model or worldview score.
+
+**Premise comparison:** no premise, inference application, configuration or
+root closure changes. The existing conditional results and their philosophical
+limits are retained. Actual explanatory adequacy, application, unity and
+personal attributes remain OPEN. This is a reuse-only audit answering the
+owner's question; it does not introduce a new source claim or attribution.
+
+
 For the current necessary-root routes to the nine classical attributes, see the
 [consequence matrix](classical-attributes-all-migration.md#root-to-attribute-configurations-826-2026-10-31)
 from #826. It records exact inputs, same-witness results, omission controls and
