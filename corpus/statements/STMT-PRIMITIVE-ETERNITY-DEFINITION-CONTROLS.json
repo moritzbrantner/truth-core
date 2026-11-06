@@ -1,0 +1,12 @@
+{
+  "id": "STMT-PRIMITIVE-ETERNITY-DEFINITION-CONTROLS",
+  "paraphrase": "Finite SAME-profile controls: endless life permits successive life-states and need not be operationally Boethian; the weak recognition transfer need not imply biconditional calibration; all three old typed eternity premises and a pure-act being can coexist with failure of primitive eternity; overlap and precise remainder also survive. No actual or metaphysically possible ontology is claimed.",
+  "lean_declaration": "TruthCore.Causality.EternityDefinitionFork.Controls",
+  "definition_ids": [
+    "DEF-ETERNITY-CALIBRATION-PROFILE",
+    "DEF-BOETHIAN-ETERNAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-DURATION-SENSE"
+  ]
+}

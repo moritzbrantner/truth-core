@@ -1,0 +1,12 @@
+{
+  "id": "STMT-PRIMITIVE-ETERNITY-BOETHIAN-DEFINITION",
+  "paraphrase": "Open analyst calibration: for every being in the supplied duration profile, primitive Eternal holds exactly when the existing operational BoethianEternal predicate holds. That predicate includes life present somewhere, no life-boundary witness and no succession witness in admitted earlier-than comparisons. Its documented omission of perfect possession is preserved.",
+  "lean_declaration": "TruthCore.Causality.EternityDefinitionFork.BoethianDefinition",
+  "definition_ids": [
+    "DEF-ETERNITY-CALIBRATION-PROFILE",
+    "DEF-BOETHIAN-ETERNAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-DURATION-SENSE"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "PRIMITIVE-ETERNITY-DEFINITION-FORK",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-PRIMITIVE-ETERNITY-DEFINITION-FORK",
+  "inference_ids": [
+    "INF-PRIMITIVE-ETERNITY-DEFINITION-FORK"
+  ],
+  "meaning": "Structural coverage transcription under explicit excluded middle: named calibrations cover or both fail. Philosophical named coverage remains OPEN.",
+  "definition_ids": [
+    "DEF-ETERNITY-CALIBRATION-PROFILE",
+    "DEF-BOETHIAN-ETERNAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-DURATION-SENSE"
+  ]
+}

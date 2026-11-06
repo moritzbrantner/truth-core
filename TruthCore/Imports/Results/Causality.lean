@@ -82,6 +82,11 @@ public import TruthCore.Results.Causality.EsseReceptionDefinitions.ScopeStrength
 public import TruthCore.Results.Causality.EsseReceptionDefinitions.SelectedCoverage.Solution
 public import TruthCore.Results.Causality.EsseReceptionDefinitions.TransferCoverage.Solution
 public import TruthCore.Results.Causality.EssentialPowerUnderdetermined.Solution
+public import TruthCore.Results.Causality.EternityDefinitions.Controls.Solution
+public import TruthCore.Results.Causality.EternityDefinitions.Coverage.Solution
+public import TruthCore.Results.Causality.EternityDefinitions.NamedElimination.Solution
+public import TruthCore.Results.Causality.EternityDefinitions.PrimitiveComposition.Solution
+public import TruthCore.Results.Causality.EternityDefinitions.RecognitionStrength.Solution
 public import TruthCore.Results.Causality.ExistentialSelfActualization.Solution
 public import TruthCore.Results.Causality.ExternalCandidateNecessity.Solution
 public import TruthCore.Results.Causality.FiniteBranching.Solution
