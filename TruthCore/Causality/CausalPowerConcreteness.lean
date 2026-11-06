@@ -1,6 +1,6 @@
 module
 
-public import TruthCore.German.Kant.CosmologicalInference
+public import TruthCore.Causality.GroundingIdentityProfile
 
 /-!
 # Owner-proposed causal-power concreteness premise
@@ -45,5 +45,81 @@ policy alone says nothing about powers, causation or being caused. -/
 def AbstractConcreteDisjoint {B : Type}
     (abstract concrete : B → Prop) : Prop :=
   ∀ x, abstract x → ¬ concrete x
+
+/-- Required interpretation contract for intended P2-B/P3 investigations.
+The old ontic/grounding signature is preserved exactly. Disjointness and the
+thin exercise-to-power dictionary fix the intended senses; power-to-concrete
+is the owner's framework commitment. None is proved for arbitrary predicates.
+Power possession and causal exercise require actual endpoints. No
+grounding-to-causation or well-foundedness is included. -/
+structure IntendedProfile (W B : Type) where
+  underlying : BruteFoundationBoundary.Profile W B
+  abstract : B → Prop
+  hasCausalPower : W → B → Prop
+  disjoint : AbstractConcreteDisjoint abstract underlying.concrete
+  powerExists : ∀ w x, hasCausalPower w x → underlying.ontic.ExistsAt w x
+  causalEndpoints : ∀ w x y, underlying.ontic.Causes w x y →
+    underlying.ontic.ExistsAt w x ∧ underlying.ontic.ExistsAt w y
+  exerciseHasPower : ∀ w x y,
+    underlying.ontic.Causes w x y → hasCausalPower w x
+  powerConcrete : ∀ w,
+    PowerRequiresConcreteAt underlying.concrete hasCausalPower w
+
+/-- Intended P2-B entry point: the semantic contract is required, while
+existence of actual concrete grounds remains the old, separate open premise. -/
+def P2At {W B : Type} (p : IntendedProfile W B) (w : W) : Prop :=
+  BruteFoundationBoundary.EveryContingentGroundedAt p.underlying w
+
+/-- Intended P3 entry point: EXACTLY the same underlying grounding relation
+as P2At, with the interpretation contract required but WF not assumed by it. -/
+def P3At {W B : Type} (p : IntendedProfile W B) (w : W) : Prop :=
+  WellFounded (p.underlying.grounds w)
+
+/-- Adapt the EXISTING doubled root-child profile without changing any old
+field. Thin power belongs to the actually existing source-role roots; it is
+not defined by concreteness or by currently having an outgoing edge. The old
+inventory contains no abstract members, not a newly invented abstract roster. -/
+def doubledExample : IntendedProfile Bool (Bool × (Bool × Bool)) where
+  underlying := BruteFoundationDoubling.doubled BruteFoundationDoubling.exampleSource
+  abstract := fun _ => False
+  hasCausalPower := fun w x =>
+    (BruteFoundationDoubling.doubled BruteFoundationDoubling.exampleSource).ontic.ExistsAt w x ∧
+      x.2.2 = false
+  disjoint := fun _ h => h.elim
+  powerExists := fun _ _ h => h.1
+  causalEndpoints := fun w x y h =>
+    let hs := BruteFoundationDoubling.doublesGroundSound
+      BruteFoundationDoubling.exampleSource
+      BruteFoundationDoubling.exampleSourceConditions.2.2.1 w x y h
+    ⟨hs.1, hs.2.1⟩
+  exerciseHasPower := fun w x y h =>
+    ⟨(BruteFoundationDoubling.doublesGroundSound
+      BruteFoundationDoubling.exampleSource
+      BruteFoundationDoubling.exampleSourceConditions.2.2.1 w x y h).1,
+      h.2.2.2.2.1⟩
+  powerConcrete := fun _ _ _ => True.intro
+
+/-- Adapt the EXISTING rigid companion using its literal old profile. Presence,
+root-role power and the original causal/grounding edges are preserved at the
+same worlds; no modal assignment or identity convention is changed. -/
+def rigidExample : IntendedProfile Bool (Bool × (Bool × Bool)) where
+  underlying := GroundingIdentityProfile.rigid BruteFoundationDoubling.exampleSource
+  abstract := fun _ => False
+  hasCausalPower := fun w x =>
+    (GroundingIdentityProfile.rigid BruteFoundationDoubling.exampleSource).ontic.ExistsAt w x ∧
+      x.2.2 = false
+  disjoint := fun _ h => h.elim
+  powerExists := fun _ _ h => h.1
+  causalEndpoints := fun _ x y h =>
+    let hs := BruteFoundationDoubling.doublesGroundSound
+      BruteFoundationDoubling.exampleSource
+      BruteFoundationDoubling.exampleSourceConditions.2.2.1 false x y h
+    ⟨hs.1, hs.2.1⟩
+  exerciseHasPower := fun _ x y h =>
+    ⟨(BruteFoundationDoubling.doublesGroundSound
+      BruteFoundationDoubling.exampleSource
+      BruteFoundationDoubling.exampleSourceConditions.2.2.1 false x y h).1,
+      h.2.2.2.2.1⟩
+  powerConcrete := fun _ _ _ => True.intro
 
 end TruthCore.Causality.CausalPowerConcreteness
