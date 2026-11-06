@@ -4,7 +4,8 @@
 Owner decisions in docs/decisions/2026-11-05-01-lean-module-system.md: every converted file
 gets a `module` first line, `public import` for each import, and `@[expose] public section`
 after the imports and any leading module docstring. Names, `def` unfolding and NanoDa root
-lists stay unchanged. Challenges and the generated aggregators stay ordinary files.
+lists stay unchanged. Challenges stay ordinary files. This script never selects the generated
+aggregators: `scripts/root_imports.py` emits them as modules once their area is fully converted.
 
     python3 scripts/convert_to_module.py plan [--max-level N] [--json]
     python3 scripts/convert_to_module.py convert [--max-level N | FILE ...]
