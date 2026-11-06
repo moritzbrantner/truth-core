@@ -1,0 +1,32 @@
+{
+  "id": "COMPOSER-TEMPORAL-DEFINITION-FORK",
+  "argument_id": "COMPOSER-TEMPORAL-DEFINITION-FORK",
+  "challenge_module": "TruthCore.Results.Causality.ComposerTemporalDefinitions.Coverage.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ComposerTemporalDefinitions.Coverage.Solution",
+  "theorem": "TruthCore.Results.Causality.ComposerTemporalDefinitions.Coverage.coverage",
+  "comparator_config": "results/COMPOSER-TEMPORAL-DEFINITION-FORK/comparator.json",
+  "status": "solution-present",
+  "description": "Structural coverage transcription: explicit excluded middle yields named calibration coverage or its precise remainder; named philosophical coverage is not established.",
+  "transcription": "instantiation",
+  "case_split": {
+    "target_statement_id": "STMT-EFFICIENT-ATTRIBUTION-TEMPORAL-DEFINITION",
+    "cases": [
+      {
+        "label": "selected-time attribution",
+        "statement_id": "STMT-EFFICIENT-ATTRIBUTION-CURRENT-DEFINITION",
+        "lean_declaration": "TruthCore.Causality.ComposerTemporalDefinitionFork.CurrentDefinition"
+      },
+      {
+        "label": "existential-time attribution",
+        "statement_id": "STMT-EFFICIENT-ATTRIBUTION-TEMPORAL-DEFINITION",
+        "lean_declaration": "TruthCore.Causality.ComposerTemporalDefinitionFork.TemporalDefinition"
+      },
+      {
+        "label": "additional calibration",
+        "statement_id": "STMT-EFFICIENT-ATTRIBUTION-ADDITIONAL-TEMPORAL-DEFINITION",
+        "lean_declaration": "TruthCore.Causality.ComposerTemporalDefinitionFork.Other"
+      }
+    ],
+    "survival_result_id": "COMPOSER-TEMPORAL-DEFINITION-BOUNDARIES"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "STMT-EPISTEMIC-REASON-BARE-REWARD-DEFINITION-FAILS",
+  "paraphrase": "The selected attributed reason relation is not coextensive with the bare-reward criterion. This does not show that rewards can never carry information or favorable epistemic bearing.",
+  "lean_declaration": "TruthCore.Logic.EpistemicReasonDefinitionFork.RewardDefinitionFails",
+  "definition_ids": [
+    "DEF-EPISTEMIC-REASON-DEFINITION-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EPISTEMIC-REASON-EXISTENCE-ROLE-AUTHORITY"
+  ]
+}

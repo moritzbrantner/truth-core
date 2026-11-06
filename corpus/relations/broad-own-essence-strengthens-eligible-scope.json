@@ -1,0 +1,10 @@
+{
+  "id": "REL-BROAD-OWN-ESSENCE-STRENGTHENS-ELIGIBLE-SCOPE",
+  "subject_kind": "statement",
+  "subject_id": "STMT-ESSE-RECEIVED-IN-OWN-ESSENCE",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "STMT-ELIGIBLE-BEARERS-RECEIVE-ESSE-ONLY-IN-OWN-ESSENCE",
+  "verification_result_id": "BROAD-OWN-ESSENCE-STRENGTHENS-ELIGIBLE-SCOPE",
+  "note": "Sole-premise checked restriction. New infinity route uses the identity-scoped version; the old frozen broad interface is preserved."
+}

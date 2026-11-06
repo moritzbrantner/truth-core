@@ -1,0 +1,12 @@
+{
+  "id": "STMT-PRIMITIVE-ETERNITY-ADDITIONAL-DEFINITION",
+  "paraphrase": "Both named calibrations fail in the SAME admitted duration profile. This precise remainder opposes named coverage, not the target eternity claim or the adequacy of every alternative atemporal account.",
+  "lean_declaration": "TruthCore.Causality.EternityDefinitionFork.Other",
+  "definition_ids": [
+    "DEF-ETERNITY-CALIBRATION-PROFILE",
+    "DEF-BOETHIAN-ETERNAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-DURATION-SENSE"
+  ]
+}

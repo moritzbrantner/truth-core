@@ -1,0 +1,11 @@
+{
+  "id": "INF-BOETHIAN-CALIBRATION-STRENGTHENS-RECOGNITION",
+  "input_statement_ids": [
+    "STMT-PRIMITIVE-ETERNITY-BOETHIAN-DEFINITION"
+  ],
+  "output_statement_id": "STMT-BOETHIAN-ETERNITY-SUFFICES-FOR-PRIMITIVE-ETERNITY",
+  "rule": "constructive-proof",
+  "meaning": "Exact strength registration: biconditional operational calibration implies only the one-way recognition actually needed by the root route; converse fails in the controls.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

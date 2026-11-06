@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.EternityDefinitions.NamedElimination.Challenge",
+  "solution_module": "TruthCore.Results.Causality.EternityDefinitions.NamedElimination.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.EternityDefinitions.NamedElimination.namedElimination"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

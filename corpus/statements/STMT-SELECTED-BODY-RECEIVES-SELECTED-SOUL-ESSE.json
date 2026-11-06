@@ -1,0 +1,14 @@
+{
+  "id": "STMT-SELECTED-BODY-RECEIVES-SELECTED-SOUL-ESSE",
+  "paraphrase": "The canonical reception relation holds in the selected state from the selected soul bearer to its mapped bodily recipient. This proposition is separate from the original source communication claim and from the identity of recipient with essence.",
+  "lean_declaration": "TruthCore.Causality.EsseReceptionDefinitionFork.SelectedReception",
+  "definition_ids": [
+    "DEF-UNITED-ESSE-RECEPTION-INTERPRETATION-PROFILE",
+    "DEF-ESSE-RECEIVED-IN",
+    "DEF-ESSENCE-THOMISTIC-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSE-RECEPTION",
+    "DISAMB-ESSENCE"
+  ]
+}

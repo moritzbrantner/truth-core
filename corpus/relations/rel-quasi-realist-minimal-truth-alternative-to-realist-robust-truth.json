@@ -1,1 +1,9 @@
-{"id": "REL-QUASI-REALIST-MINIMAL-TRUTH-ALTERNATIVE-TO-REALIST-ROBUST-TRUTH", "subject_kind": "statement", "subject_id": "STMT-QUASI-REALIST-MINIMAL-TRUTH-APT", "predicate": "alternative_to", "object_kind": "statement", "object_id": "STMT-REALIST-ROBUST-TRUTH-APT"}
+{
+  "id": "REL-QUASI-REALIST-MINIMAL-TRUTH-ALTERNATIVE-TO-REALIST-ROBUST-TRUTH",
+  "subject_kind": "statement",
+  "subject_id": "STMT-NOT-REALIST-ROBUST-TRUTH-APT",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-REALIST-ROBUST-TRUTH-APT",
+  "note": "Exact scoped logical rival endpoint after definition audit: failure of the same robust-universal target. The stronger attributed raw STMT-QUASI-REALIST-MINIMAL-TRUTH-APT is preserved unchanged and remains an explicit premise, together with STMT-GEACH-MINOR-PREMISE-IS-MORAL, of QUASI-REALIST-NONEMPTY-IMPLIES-NOT-ROBUST. The raw universal alone is not an incompatible alternative: an empty moral class permits both raw source answers, while another nonempty control rejects both (METAETHICS-TRUTH-APT-RIVAL-CONTROLS). Thus refuting the raw quasi-realist reading cannot automatically defend the robust target through this relation. The historical relation ID is retained; no exhaustive philosophical theory classification or refutation is inferred."
+}

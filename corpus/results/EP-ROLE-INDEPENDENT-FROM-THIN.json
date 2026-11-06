@@ -1,0 +1,11 @@
+{
+  "id": "EP-ROLE-INDEPENDENT-FROM-THIN",
+  "argument_id": "EP-ROLE-INDEPENDENT-FROM-THIN",
+  "challenge_module": "TruthCore.Results.Logic.EpistemicReasonDefinitions.IndependentFromThin.Challenge",
+  "solution_module": "TruthCore.Results.Logic.EpistemicReasonDefinitions.IndependentFromThin.Solution",
+  "theorem": "TruthCore.Results.Logic.EpistemicReasonDefinitions.IndependentFromThin.independentFromThin",
+  "comparator_config": "results/EP-ROLE-INDEPENDENT-FROM-THIN/comparator.json",
+  "status": "solution-present",
+  "description": "Calibration transcription: thin F6 plus consideration presentation and the stronger preference-independent definition supplies an independent-force witness. The two additional premises remain open; F6 approval alone supplies neither.",
+  "transcription": "instantiation"
+}

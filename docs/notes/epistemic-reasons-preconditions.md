@@ -2,8 +2,10 @@
 
 Analyst investigation for [#930](https://github.com/moritzbrantner/truth-core/issues/930),
 2026-11-05. F6 is accepted common ground; this note does not reopen its defense.
-Attribution is deferred. These are arguments offered for assessment, not claims
-about a historical author's view or new mechanically certified results.
+Attribution is deferred. The conceptual arguments are offered for assessment,
+not claims about a historical author's view. The dated conditional-encoding
+section below now links checked logical and finite-model results, without
+certifying actual normative warrant.
 
 **Conclusion:** accepting epistemic reasons commits us to actual epistemic
 favoring: some consideration makes a belief or other relevant attitude better
@@ -52,12 +54,16 @@ establish that C exists necessarily, at every possible world.
 The ordinary-role existential is registered separately as
 `STMT-THERE-ARE-ORDINARY-ROLE-EPISTEMIC-REASONS`; the stronger authority
 existential as `STMT-THERE-ARE-PREFERENCE-INDEPENDENT-EPISTEMIC-REASONS`.
-Both remain **OPEN**, with neither a self-evidence marking nor a certified
-result. `DISAMB-EPISTEMIC-REASON-EXISTENCE-ROLE-AUTHORITY` links their three
+Both remain **OPEN** as actual normative-instance claims. Conditional calibration
+results and finite comparison controls are now encoded, without a new self-evidence
+marking or transfer of F6 approval. `DISAMB-EPISTEMIC-REASON-EXISTENCE-ROLE-AUTHORITY` links their three
 precise sense definitions and identifies their relationship to unchanged F6.
-These reusable analyst propositions have no Lean declaration: a theorem
-encoding their role premises would not establish their instantiation or
-philosophical warrant. `interpretation_of` is a source-claim relation, so no
+The earlier version left these analyst propositions without Lean declarations
+because encoding would not establish their instantiation or philosophical warrant.
+That was an unnecessary obstacle to the owner’s conditional-definition investigation:
+they now bind `SomeOrdinaryReason` and `SomePreferenceIndependentReason` in
+`Logic/EpistemicReasonDefinitionFork.lean`. The additional consideration-presentation
+and meaning-calibration propositions remain explicit open inputs. `interpretation_of` is a source-claim relation, so no
 such attribution record is fabricated for this analyst fork.
 
 ## A complete argument: support cannot be replaced by production
@@ -267,21 +273,94 @@ normative premise in this investigation.
 
 A new Lean theorem `∃ a p, Reason a p → ...` deriving nonempty domains would
 add no philosophical content. Adding a new predicate “epistemic favoring” and
-assuming `Reason → Favoring` would merely transcribe B. Both were rejected;
-there is no new theorem, frozen Challenge, source claim or formal
-model. The two consequential analyst readings are separate open statements,
-with linked definitions and disambiguation rather than a decorative proof. This note and the linked attempt preserve the argument rather than
+assuming `Reason → Favoring` would merely transcribe B. Those decorative proof shapes remain rejected. The subsequent conditional
+encoding instead separates assessability, applicable considerations, favoring,
+production, reward, and preference-indexed force; it includes calibration
+propositions, a checked definition fork and concrete comparison controls. These
+controls do not certify actual normative warrant. The two consequential analyst
+readings remain separate open statements with linked definitions and disambiguation. This note and the linked attempt preserve the argument rather than
 advertise a manufactured proof count.
 
 Premise comparison: F6 retained as accepted common ground. B adds the openly
 defended ordinary-role interpretation; C defends a distinction used to assess
 explanations. Neither is classified as a newly closed premise. Preference
 independence is not added as an undisputed input. No philosophical or root
-premise is discharged; the two open sibling statements and their sense records
-add reusable interpretation metadata, without a formal inference, root route
-or closure change.
+premise is discharged; the original two open sibling statements and their sense records added
+reusable interpretation metadata. The later conditional encoding below adds
+formal inferences and models, while preserving open actual-instance and
+authority burdens and adding no root route.
 
 The next consequential question in #930 is whether being an epistemic merit
 of factual endorsement itself supplies a pro tanto reason for a person wholly
 indifferent to accuracy. The goal-relative reply must be answered on its own
 terms. Ontological grounding is downstream of fixing that authority claim.
+
+
+## Encoded definition comparison (owner clarification, 2026-11-06)
+
+`TruthCore.Logic.EpistemicReasonDefinitionFork.Frame` keeps F6's thin
+`Reason : Agent → Content → Prop` independent of the consideration-indexed
+`CountsAsReason` relation. `ConsiderationPresentation` is the explicit bridge
+from a thin belief reason to some consideration attributed as a reason for that
+belief. It is needed: the `unpresented` control has a nonempty thin relation and
+a vacuously correct ordinary calibration but no attributed consideration.
+
+Four candidate definition propositions calibrate `CountsAsReason`: ordinary
+epistemic role, preference-independent role, bare production, and bare reward.
+These are pointwise semantic conditions on one fixed profile, not a census of
+historical schools. The normative relations `favors` and `force` remain
+independently interpreted inputs. `favors` means that the consideration makes
+the attitude better supported as an answer under the selected epistemic standard;
+`force` means that it counts pro tanto in favor of taking the attitude for the
+subject with the supplied preference. This is distinct from psychologically
+producing that attitude or paying for it. Whether a concrete consideration
+actually warrants the judgment, and how its authority is constituted, remain
+philosophical application burdens; the model names do not discharge them.
+
+The exact statement
+`STMT-EPISTEMIC-REASON-DEFINITION-CANDIDATES-COVER` says that at least one of
+these calibrations holds. Its complementary
+`STMT-EPISTEMIC-REASON-ADDITIONAL-DEFINITION-REMAINS` says that none holds in the
+selected profile. Excluded middle gives their structural fork, not the stronger
+claim that the named list alone covers all relevant interpretations. The latter
+can be used as an explicit open premise in a conditional elimination: if bare
+production and reward are rejected, one of the two role analyses remains.
+Together with F6 and consideration presentation, either supplies an ordinary-role
+witness. The calibration transport and structural-coverage results are explicitly
+labelled transcriptions; they do not independently defend the calibrations.
+
+The checked `BoundaryCertificate` retains its named finite profiles:
+
+- `goalRelative`: a count is attributed and favors a belief without producing
+  it, and its favorable bearing can coexist with the content being false.
+  Actual pro tanto force holds at the supplied accuracy preference, but fails
+  at the comfort preference. This is a formal illustration of the role/authority
+  distinction, not evidence that an actual mistaken count is warranted.
+- `independent`: exactly the same profile with only the `force` field changed.
+  The ordinary reason now has force at every supplied preference. No change to
+  evidence or factual truth produces this stronger commitment automatically.
+- `bareProduction`: reassurance is attributed as the reason because it produces
+  and rewards belief; the epistemic-favoring relation still selects the count.
+  The production and reward calibrations hold but there is no attributed reason
+  satisfying the ordinary role. Thus those calibrations plus thin F6 do not
+  entail the stronger ordinary-role existential.
+- `compatible`: production, reward, ordinary role and independent force are
+  coextensive in one interpretation. This prevents the insufficiency controls
+  from being promoted to a blanket refutation of natural or functional accounts;
+  coextension does not establish property identity or a metaphysical reduction.
+- `remaining`: thin reason attribution is nonempty and has a consideration
+  presentation, while all four calibration propositions fail. This is a genuine
+  counterprofile to named coverage. It is a rival only to that coverage claim,
+  not automatically to every claim about actual epistemic support.
+
+`EP-ROLE-INDEPENDENT-STRENGTHENS-ORDINARY` registers the exact strength order
+between the two existential statements: forgetting preference-independent force
+retains the ordinary-role witness. This does **not** order their calibration
+propositions: the calibrated attribution relation may contain fewer instances
+under the strong definition, so the two analyses need not be coextensive.
+
+No owner approval, new source claim, actual warrant, overriding duty, or root
+closure is supplied by this batch. Source attribution remains deferred. The
+remaining research is to discriminate the actual calibrations and their
+admissible preference class, not to wait for the owner to choose a word meaning
+before studying its consequences.

@@ -1,0 +1,15 @@
+{
+  "id": "STMT-NOT-REALIST-ROBUST-TRUTH-APT",
+  "paraphrase": "Universal robust truth-aptness of moral contents fails under the shared Moral and Robust predicates. This exact negation is the rival endpoint, derived from the unchanged full quasi-realist reading plus an explicit moral witness, not identified with that raw universal.",
+  "lean_declaration": "TruthCore.Logic.MetaethicsTruthAptRivalBoundary.NotRealistRobustTruthApt",
+  "definition_ids": [
+    "DEF-NOT-REALIST-ROBUST-TRUTH-APT",
+    "DEF-TRUTH-ROBUST",
+    "DEF-MINIMAL-TRUTH-APTNESS",
+    "DEF-MORAL-STATEMENT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUTH-APT",
+    "DISAMB-TRUE"
+  ]
+}

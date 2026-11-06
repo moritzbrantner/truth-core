@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.Counteraccount.Challenge",
+  "solution_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.Counteraccount.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.EsseReceptionDefinitions.Counteraccount.counteraccount"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

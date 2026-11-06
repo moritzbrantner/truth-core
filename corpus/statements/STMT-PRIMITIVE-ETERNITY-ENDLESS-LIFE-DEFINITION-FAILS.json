@@ -1,0 +1,12 @@
+{
+  "id": "STMT-PRIMITIVE-ETERNITY-ENDLESS-LIFE-DEFINITION-FAILS",
+  "paraphrase": "The endless-life calibration fails for the supplied primitive Eternal; without the separate named coverage premise this does not establish the Boethian calibration.",
+  "lean_declaration": "TruthCore.Causality.EternityDefinitionFork.EndlessDefinitionFails",
+  "definition_ids": [
+    "DEF-ETERNITY-CALIBRATION-PROFILE",
+    "DEF-BOETHIAN-ETERNAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-DURATION-SENSE"
+  ]
+}

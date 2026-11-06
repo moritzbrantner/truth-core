@@ -1,0 +1,20 @@
+{
+  "id": "GOODNESS-SEMANTIC-NAMED-COVERAGE-FORK",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-GOODNESS-SEMANTIC-NAMED-COVERAGE-FORK",
+  "inference_ids": [
+    "INF-GOODNESS-SEMANTIC-NAMED-COVERAGE-FORK"
+  ],
+  "meaning": "Apply explicit excluded middle to weak semantic named coverage and to existence of an admissible proposal not coextensive with any named account. This makes the actual extensional coverage gap first-class and does not create a gap from renaming alone.",
+  "definition_ids": [
+    "DEF-FORM-END-DUE-PERFECTION",
+    "DEF-GOODNESS-DUE-ACTUALITY-PROPOSITION",
+    "DEF-GOODNESS-NAMED-DEFINITION-SPACE",
+    "DEF-GOODNESS-SEMANTIC-DEFINITION-COVERAGE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOODNESS-UNRESTRICTED-DUE-AND-ULTIMATE"
+  ]
+}

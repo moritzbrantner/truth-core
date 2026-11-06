@@ -1,0 +1,14 @@
+{
+  "id": "STMT-ESSE-RECEIVED-IN-OWN-ESSENCE-FAILS",
+  "paraphrase": "Exact negation of the original broad all-bearer/all-recipient own-essence principle in the selected reception slice. The checked conditional derivation needs actual canonical reception and recipient/own-essence distinction.",
+  "lean_declaration": "TruthCore.Causality.EsseReceptionDefinitionFork.OwnEssenceFails",
+  "definition_ids": [
+    "DEF-UNITED-ESSE-RECEPTION-INTERPRETATION-PROFILE",
+    "DEF-ESSE-RECEIVED-IN",
+    "DEF-ESSENCE-THOMISTIC-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSE-RECEPTION",
+    "DISAMB-ESSENCE"
+  ]
+}

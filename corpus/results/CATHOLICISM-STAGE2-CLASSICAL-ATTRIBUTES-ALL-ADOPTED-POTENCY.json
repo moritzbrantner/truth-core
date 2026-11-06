@@ -1,0 +1,10 @@
+{
+  "id": "CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-ALL-ADOPTED-POTENCY",
+  "argument_id": "CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-ALL-ADOPTED-POTENCY",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.AdoptedPotency.ClassicalAttributesAll.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.AdoptedPotency.ClassicalAttributesAll.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.AdoptedPotency.ClassicalAttributesAll.godHasClassicalAttributes",
+  "comparator_config": "results/CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-ALL-ADOPTED-POTENCY/comparator.json",
+  "status": "solution-present",
+  "description": "Adopted-potency specialization of CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-ALL: uniformly replace the independent InPotency parameter in EVERY hypothesis by CanBe x r \u2227 \u00ac InAct x r, including act priority, motion, immutability, eternity and the attribute-sufficiency interface wherever present. Compose the unchanged verified generic theorem with ADOPTED-POTENCY-NONOVERLAP from established F1. This removes the generic non-overlap premise only in this explicitly adopted configuration. The original Challenge/result and rival interpretations are retained. No capacity existence or applicability-to-reality premise is established."
+}
