@@ -1,0 +1,9 @@
+{
+  "id": "REL-ACCEPTED-FALSE-CONDITIONAL-FACTIVITY-REFUTATION",
+  "subject_kind": "argument",
+  "subject_id": "ACCEPTED-FALSE-CANDIDATE-DEFEATS-FACTIVITY",
+  "predicate": "refutes",
+  "object_kind": "statement",
+  "object_id": "STMT-ACCEPTED-ARRANGEMENT-EXPLANATIONS-ARE-TRUE",
+  "note": "Checked matching-profile conditional contradiction only. The actual accepted-countercase premise remains OPEN; this is no independent metaphysical refutation or warrant for an explanatory judgment."
+}
