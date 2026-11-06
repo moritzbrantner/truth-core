@@ -1,0 +1,11 @@
+{
+  "id": "INF-EXACT-OPINER-NONMOTION-DEFEATS-OPINING-NORM",
+  "input_statement_ids": [
+    "STMT-OPINER-LACKS-ITS-OPINION-MOTION"
+  ],
+  "output_statement_id": "STMT-OPINING-MOTION-NORM-FAILS",
+  "rule": "constructive-proof",
+  "meaning": "An actual opiner lacking the SAME designated motion contradicts the old universal opining norm. No global-no-motion premise or historical-school identification is required.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
