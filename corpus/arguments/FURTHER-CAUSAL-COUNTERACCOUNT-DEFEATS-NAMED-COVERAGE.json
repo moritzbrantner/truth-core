@@ -1,0 +1,18 @@
+{
+  "id": "FURTHER-CAUSAL-COUNTERACCOUNT-DEFEATS-NAMED-COVERAGE",
+  "premise_statement_ids": [
+    "STMT-FURTHER-RELEVANT-ABSTRACT-CAUSAL-COUNTERACCOUNT"
+  ],
+  "conclusion_statement_id": "STMT-NAMED-PRODUCTIVE-CAUSAL-COVERAGE-FAILS",
+  "inference_ids": [
+    "INF-FURTHER-CAUSAL-COUNTERACCOUNT-DEFEATS-NAMED-COVERAGE"
+  ],
+  "meaning": "An actual selected countercase outside every named productive branch contradicts the coverage hypothesis.",
+  "definition_ids": [
+    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ]
+}

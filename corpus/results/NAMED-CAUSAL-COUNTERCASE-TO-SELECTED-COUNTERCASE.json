@@ -1,0 +1,32 @@
+{
+  "id": "NAMED-CAUSAL-COUNTERCASE-TO-SELECTED-COUNTERCASE",
+  "argument_id": "NAMED-CAUSAL-COUNTERCASE-TO-SELECTED-COUNTERCASE",
+  "challenge_module": "TruthCore.Results.Causality.CausalConcreteRivals.NamedCounter.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CausalConcreteRivals.NamedCounter.Solution",
+  "theorem": "TruthCore.Results.Causality.CausalConcreteRivals.NamedCounter.namedCounter",
+  "comparator_config": "results/NAMED-CAUSAL-COUNTERCASE-TO-SELECTED-COUNTERCASE/comparator.json",
+  "status": "solution-present",
+  "description": "Case elimination preserves the selected no-esse productive witness from each named branch.",
+  "transcription": "instantiation",
+  "case_split": {
+    "target_statement_id": "STMT-NAMED-PRODUCTIVE-ABSTRACT-CAUSAL-CASES",
+    "cases": [
+      {
+        "label": "productive set",
+        "statement_id": "STMT-SELECTED-SET-PRODUCTIVE-NO-ESSE-COUNTERCASE",
+        "lean_declaration": "TruthCore.Causality.CausalConcreteRivalBoundary.SetCounter"
+      },
+      {
+        "label": "productive Form",
+        "statement_id": "STMT-SELECTED-FORM-PRODUCTIVE-NO-ESSE-COUNTERCASE",
+        "lean_declaration": "TruthCore.Causality.CausalConcreteRivalBoundary.FormCounter"
+      },
+      {
+        "label": "productive mathematical fact",
+        "statement_id": "STMT-SELECTED-MATH-PRODUCTIVE-NO-ESSE-COUNTERCASE",
+        "lean_declaration": "TruthCore.Causality.CausalConcreteRivalBoundary.MathCounter"
+      }
+    ],
+    "survival_result_id": "CAUSAL-CONCRETE-RIVAL-BOUNDARIES"
+  }
+}

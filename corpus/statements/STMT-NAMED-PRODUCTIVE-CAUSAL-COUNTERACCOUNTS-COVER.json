@@ -1,0 +1,14 @@
+{
+  "id": "STMT-NAMED-PRODUCTIVE-CAUSAL-COUNTERACCOUNTS-COVER",
+  "paraphrase": "OPEN coverage hypothesis: every selected-world no-esse capacity or productive countercase belongs to the supplied set/Form/mathematical productive cases. Investigated examples do not establish this completeness premise.",
+  "lean_declaration": "TruthCore.Causality.CausalConcreteRivalBoundary.NamedCoverage",
+  "definition_ids": [
+    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE",
+    "DEF-CONCRETE-ESSE-IN-RE",
+    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ]
+}

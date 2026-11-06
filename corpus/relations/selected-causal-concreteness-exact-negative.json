@@ -1,0 +1,9 @@
+{
+  "id": "REL-SELECTED-CAUSAL-CONCRETENESS-EXACT-NEGATIVE",
+  "subject_kind": "statement",
+  "subject_id": "STMT-SELECTED-CAUSAL-CONCRETENESS-COMMITMENT-FAILS",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS",
+  "note": "Exact selected-profile complement, unrefuted. Broad category or other-world accounts require their explicit interfaces; no finite named-theory roster is treated as exhaustive."
+}

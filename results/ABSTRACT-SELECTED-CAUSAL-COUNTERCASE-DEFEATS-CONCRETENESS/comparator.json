@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.CausalConcreteRivals.CounterFailure.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CausalConcreteRivals.CounterFailure.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.CausalConcreteRivals.CounterFailure.counterFailure"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

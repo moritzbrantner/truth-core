@@ -1,0 +1,19 @@
+{
+  "id": "CAUSAL-CONCRETENESS-PRECISE-COUNTERCASE-FORK",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-CAUSAL-CONCRETE-PREDICATE-MATCHES-ESSE"
+  ],
+  "conclusion_statement_id": "STMT-SELECTED-CAUSAL-CONCRETENESS-OR-COUNTERCASE",
+  "inference_ids": [
+    "INF-CAUSAL-CONCRETENESS-PRECISE-COUNTERCASE-FORK"
+  ],
+  "meaning": "Structural fork under explicit excluded middle and calibration; exhausts the two-clause counterexample shapes, not philosophical theories.",
+  "definition_ids": [
+    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "INF-FORM-COUNTERCASE-IN-NAMED-CAUSAL-FORK",
+  "input_statement_ids": [
+    "STMT-SELECTED-FORM-PRODUCTIVE-NO-ESSE-COUNTERCASE"
+  ],
+  "output_statement_id": "STMT-NAMED-PRODUCTIVE-ABSTRACT-CAUSAL-CASES",
+  "rule": "constructive-proof",
+  "meaning": "Explicit Form-branch injection into the named disjunction.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
