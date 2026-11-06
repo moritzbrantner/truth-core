@@ -1,6 +1,7 @@
 module
 
 public import TruthCore.Causality.GroundingIdentityProfile
+public import TruthCore.Ontology.ConcreteAbstract
 
 /-!
 # Owner-proposed causal-power concreteness premise
@@ -121,5 +122,35 @@ def rigidExample : IntendedProfile Bool (Bool × (Bool × Bool)) where
       BruteFoundationDoubling.exampleSourceConditions.2.2.1 false x y h).1,
       h.2.2.2.2.1⟩
   powerConcrete := fun _ _ _ => True.intro
+
+/-- Intended interpretation under the adopted sense of #1103 (owner, 2026-11-06).
+It extends the #1094 contract with three requirements:
+* concreteness is having esse in re (`HasEsseInRe InAct esse`);
+* abstractness is its contradictory (`EsseAbstract InAct esse`);
+* the paradigm anchors hold: the reasoner is concrete and the set containing
+  2 is abstract.
+`IntendedProfile` itself is unchanged, so existing results and frozen
+Challenges keep their meaning. The #1094 adapters `doubledExample` and
+`rigidExample` have no abstract candidate. They therefore cannot supply anchors
+and are not intended interpretations in this sense. -/
+structure EsseIntendedProfile (W B R : Type) extends IntendedProfile W B where
+  InAct : B → R → Prop
+  esse : R
+  concreteIsEsse : ∀ x, underlying.concrete x ↔
+    TruthCore.Ontology.ConcreteAbstract.HasEsseInRe InAct esse x
+  abstractIsNoEsse : ∀ x, abstract x ↔
+    TruthCore.Ontology.ConcreteAbstract.EsseAbstract InAct esse x
+  anchors : TruthCore.Ontology.ConcreteAbstract.Anchors
+    (TruthCore.Ontology.ConcreteAbstract.esseClassification InAct esse)
+
+/-- In an esse-intended profile, neither concreteness nor abstractness is a
+constant predicate: the anchors rule out the all-True and all-False
+instantiations. -/
+theorem EsseIntendedProfile.concrete_not_constant {W B R : Type}
+    (p : EsseIntendedProfile W B R) :
+    ¬ TruthCore.Ontology.ConcreteAbstract.Constant p.underlying.concrete := by
+  rintro (h | h)
+  · exact p.anchors.setOfTwoAbstract ((p.concreteIsEsse _).mp (h p.anchors.setOfTwo))
+  · exact h p.anchors.reasoner ((p.concreteIsEsse _).mpr p.anchors.reasonerConcrete)
 
 end TruthCore.Causality.CausalPowerConcreteness

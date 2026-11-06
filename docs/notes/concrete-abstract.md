@@ -54,3 +54,30 @@ The finite capacity model (`DEF-CAUSAL-CAPACITY-CONCRETE`) and the
 world-indexed predicate of `NecessaryIndividual.Quantifiers`
 (`DEF-NECESSARY-INDIVIDUAL-CONCRETE`) are model-local senses. They do not fix
 the corpus sense.
+
+## Migration of existing uses
+
+- **Generic parameters stay generic.** Most library files take `concrete` as a
+  parameter of a generic theorem or profile, for example
+  `BruteFoundationBoundary.Profile.concrete`, `Scenario.concrete` and
+  `CogitoConcrete`. They keep it: each result holds for every instantiation,
+  and frozen Challenges cannot change. Their intended instantiation is now
+  the adopted sense. The 13 reaching-root statements that use concreteness
+  link `DEF-CONCRETE-ESSE-IN-RE` and `DISAMB-CONCRETE-ABSTRACT-CRITERIA`, and
+  `DEF-INHABITED-CONCRETE-WORLD` now says so instead of leaving the criterion
+  open (#544).
+- **Intended interpretation.** `CausalPowerConcreteness.EsseIntendedProfile`
+  extends the #1094 `IntendedProfile`. It ties `concrete`/`abstract` to the
+  esse sense and requires the anchors, and its
+  `EsseIntendedProfile.concrete_not_constant` proves that concreteness is
+  not constant. `IntendedProfile` is unchanged. The #1094 adapters have an
+  empty abstract extension, so they cannot be esse-intended profiles; they
+  show compatibility with the weaker contract only.
+- **World-indexed senses.** `NecessaryIndividual.Quantifiers.ConcreteAt` and
+  `EmptyTruthmakerReplies.concrete` take world-indexed predicates. Frozen
+  Challenges use them, so their Lean names are kept. The disambiguation
+  records them as a different, world-varying sense; the adopted sense is
+  their world-constant special case.
+- **Constant instantiations.** `corpus.py check` warns about a constant
+  `concrete`/`abstract` that has no `category-constant: intended (<reason>)`
+  declaration (#1107).
