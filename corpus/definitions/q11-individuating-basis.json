@@ -6,5 +6,6 @@
   "claim_ids": [
     "AQUINAS-ST-I-Q11-A3-INDIVIDUATING-BASIS-A"
   ],
-  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.IndividuatingBasisIsIncommunicableReading"
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.IndividuatingBasisIsIncommunicableReading",
+  "note": "Typed parameter location: suppositumOf : Being → Principle in IndividuatingBasisIsIncommunicableReading. The linked declaration is the open injectivity constraint STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE, not a definition of the map or a consequence of its name. The map interpretation and acceptance of that constraint remain OPEN."
 }

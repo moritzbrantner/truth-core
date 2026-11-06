@@ -3,6 +3,6 @@
   "term": "metaphysical grounding",
   "definition": "Grounds a b is the separately interpreted directed relation of a grounding b, using Fact tokens. It is distinct from material implication, Forms.Explains, efficient causation and epistemic identification. Neither asymmetry nor actuality follows from the interface alone.",
   "basis": "stipulative",
-  "note": "Modern analytical test vocabulary for issue #260. The primary passages motivate the question, not these formal definitions. A sourced replacement would require a passage specifying these precise relations and restrictions.",
-  "lean_declaration": "TruthCore.Greek.Plato.ParticipationGrounding.Explanation"
+  "note": "Modern analytical test vocabulary for issue #260. The primary passages motivate the question, not these formal definitions. A sourced replacement would require a passage specifying these precise relations and restrictions. Lean locator: Explanation.Grounds is the separately supplied Fact → Fact → Prop field, not the enclosing Explanation structure or a definition of implication. Its grounding interpretation and applicability remain OPEN; no structural law follows from having the field.",
+  "lean_declaration": "TruthCore.Greek.Plato.ParticipationGrounding.Explanation.Grounds"
 }

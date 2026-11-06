@@ -1,0 +1,10 @@
+{
+  "id": "CATHOLICISM-WEAK-MANDATE-SCOPE-DOES-NOT-FORCE-BRIDGE",
+  "argument_id": "CATHOLICISM-WEAK-MANDATE-SCOPE-DOES-NOT-FORCE-BRIDGE",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingWeakScope.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingWeakScope.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.FoundingWeakScope.weakScopeCountermodel",
+  "comparator_config": "results/CATHOLICISM-WEAK-MANDATE-SCOPE-DOES-NOT-FORCE-BRIDGE/comparator.json",
+  "status": "solution-present",
+  "description": "The four weakened inputs and nonempty global stage antecedents coexist with universal bridge failure. The coarse existential target does not identify actual Catholic founding or a distinct other founded body; those construction properties are exported by the separate explicit-body sibling. Universal scope/stage6 fail, so the existing weak-plus-stage6 composition is unaffected. No actual-world refutation."
+}
