@@ -1,0 +1,19 @@
+{
+  "id": "KNOWLEDGE-ADMISSIBILITY-CERTIFICATE",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-KNOWLEDGE-ADMISSIBILITY-CERTIFICATE",
+  "inference_ids": [
+    "INF-KNOWLEDGE-ADMISSIBILITY-CERTIFICATE"
+  ],
+  "meaning": "A universally conditional bridge plus one joint interpreted report-learning comparison. The internal general-law inputs remain explicit; the same epistemic novelty survives both supervenient and twin profiles. No root premise or actual-world interpretation is established.",
+  "definition_ids": [
+    "DEF-COMPLETE-REPRESENTED-PHYSICAL-KNOWLEDGE",
+    "DEF-PHENOMENAL-REPORT-SUPERVENIENCE",
+    "DEF-VERIDICAL-REPORT-UPDATE",
+    "DEF-EPISTEMIC-ALTERNATIVES-KNOWLEDGE",
+    "DEF-TWO-RELATION-POSSIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REPRESENTED-AND-ACTUAL-PHYSICAL-COMPLETENESS"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "KNOWLEDGE-ADMISSIBILITY-CERTIFICATE",
+  "argument_id": "KNOWLEDGE-ADMISSIBILITY-CERTIFICATE",
+  "challenge_module": "TruthCore.Results.Logic.KnowledgeAdmissibility.Challenge",
+  "solution_module": "TruthCore.Results.Logic.KnowledgeAdmissibility.Solution",
+  "theorem": "TruthCore.Results.Logic.KnowledgeAdmissibility.checks",
+  "comparator_config": "results/KNOWLEDGE-ADMISSIBILITY-CERTIFICATE/comparator.json",
+  "status": "solution-present",
+  "description": "General admissibility-to-phenomenal-knowledge consequence composed from existing box transfer, with a joint fixed learning episode and supervenient/twin metaphysical controls. Not a transcription: typed reports, arbitrary predicates, actual nonknowledge and updates constrain the profile and admit contrasting outcomes. Analyst formulation, attribution deferred; actual completeness, ideal reflection, identity transparency and metaphysical applicability OPEN. No physicalism refutation or root closure."
+}

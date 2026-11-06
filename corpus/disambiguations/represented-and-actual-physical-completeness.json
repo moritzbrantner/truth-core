@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-REPRESENTED-AND-ACTUAL-PHYSICAL-COMPLETENESS",
+  "term": "complete physical information",
+  "sense_definition_ids": [
+    "DEF-COMPLETE-REPRESENTED-PHYSICAL-KNOWLEDGE",
+    "DEF-ACTUAL-PHYSICAL-INFORMATION-COMPLETENESS"
+  ],
+  "resolution": "Certificate proves knowledge of all predicates of the supplied physical projection. It does not establish that the projection exhausts actual physics. This distinction is maintained in the general physical-equality hypothesis, finite survivor and twin rival; no actual Mary completeness premise is inferred."
+}
