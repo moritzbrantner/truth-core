@@ -1,0 +1,12 @@
+{
+  "id": "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS",
+  "paraphrase": "OPEN owner-proposed framework commitment: At the selected world w, (1) every candidate individual with causal power at w is concrete, and (2) every individual that causes anything at w is concrete. Concreteness and causal power are independently supplied predicates; power is a capacity that need not be exercised. The direct outgoing-causation clause is retained independently, not inferred through an assumed exercise-to-power interface. With a separately explicit abstract/concrete disjointness policy, these clauses exclude abstract powers and outgoing abstract causation. No materiality, spatial location, concrete-to-power converse, inability to be caused, existential coverage or necessity is included.",
+  "lean_declaration": "TruthCore.Causality.CausalPowerConcreteness.OwnerCommitmentAt",
+  "definition_ids": [
+    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ],
+  "note": "Owner formulation, not a source claim, self-evident premise or established metaphysical truth. The Lean declaration defines the two-clause proposition to be assumed; it does not prove either clause. Disjointness is an explicit separate classification policy, not an assumed complement. See docs/notes/causal-power-concreteness.md. No argument/result or root closure is registered."
+}

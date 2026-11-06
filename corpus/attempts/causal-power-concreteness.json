@@ -1,0 +1,14 @@
+{
+  "id": "ATTEMPT-CAUSAL-POWER-CONCRETENESS",
+  "date": "2026-11-06",
+  "kind": "derivation",
+  "outcome": "blocked",
+  "statement_ids": [
+    "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS"
+  ],
+  "summary": "Registered an OPEN owner-proposed two-clause power/actual-causation-to-concreteness commitment with independently supplied predicates, after fresh related/dossier reuse of STMT-NECESSARY-CONCRETE-CAUSAL-CAPACITY. Rejected the existing response-capacity criterion as an exact synonym: it defines the test criterion instead of independently constraining concreteness. Added no theorem, proof result, source attribution or self-evidence. The note distinguishes capacity/exercise, explicit abstract/concrete disjointness, immaterial agency, and cause/support/adequacy interfaces. Even assuming the owner premise, P2-B still needs existence of an appropriate actual existential supporter; support-to-cause/power and endpoint actuality are not supplied. No new countermodel or frontier closure. Shared convention sourceRevision625cb04ca568aebc8d45c90033e107a05e9bd2a0.",
+  "blocker": "Independent warrant for the owner premise and the actual causal/existential-support interfaces remains OPEN. This intake does not derive EveryContingentGroundedAt or well-foundedness.",
+  "evidence": [
+    "NECESSARY-CONCRETE-CAUSAL-CAPACITY"
+  ]
+}

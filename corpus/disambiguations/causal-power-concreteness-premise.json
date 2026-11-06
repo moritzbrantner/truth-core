@@ -1,0 +1,11 @@
+{
+  "id": "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE",
+  "term": "power implies concrete versus a capacity definition of concrete",
+  "sense_definition_ids": [
+    "DEF-ABSTRACT-CONCRETE-DISJOINTNESS",
+    "DEF-CAUSAL-CAPACITY-CONCRETE",
+    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE",
+    "DEF-PRESENT-ESSE-SUPPORT"
+  ],
+  "resolution": "The owner premise constrains independently supplied concreteness and power predicates. The earlier finite intervention model instead selects response capacity as its concreteness criterion; that model does not establish the new independent premise. Capacity need not be exercised now, and lacking outgoing power does not imply abstractness. Concreteness allows immaterial causal agents and is not materiality or spatial location. The owner commitment separately retains the direct actual-causer-to-concrete clause, without deriving it from capacity. Outgoing abstract causal inertness needs explicit abstract/concrete disjointness together with that direct clause; a cause-to-power interface is unnecessary for this route. It says nothing about incoming causation. Present existential support is another relation: neither every support nor every adequate explanation is identified with causal power."
+}
