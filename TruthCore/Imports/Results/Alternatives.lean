@@ -21,3 +21,13 @@ public import TruthCore.Results.Alternatives.PhysicalGround.Solution
 public import TruthCore.Results.Alternatives.PotencyAnalysisPartition.Solution
 public import TruthCore.Results.Alternatives.RespectAlternatingCycle.Solution
 public import TruthCore.Results.Alternatives.RespectSwitch.Solution
+public import TruthCore.Results.Alternatives.RevelationRecognition.Actual.Solution
+public import TruthCore.Results.Alternatives.RevelationRecognition.Admissibility.Solution
+public import TruthCore.Results.Alternatives.RevelationRecognition.Capability.Solution
+public import TruthCore.Results.Alternatives.RevelationRecognition.Composition.Solution
+public import TruthCore.Results.Alternatives.RevelationRecognition.Coverage.Solution
+public import TruthCore.Results.Alternatives.RevelationRecognition.Models.Solution
+public import TruthCore.Results.Alternatives.RevelationRecognition.Persistence.Solution
+public import TruthCore.Results.Alternatives.RevelationRecognition.Realization.Solution
+public import TruthCore.Results.Alternatives.RevelationRecognition.SplitComposition.Solution
+public import TruthCore.Results.Alternatives.RevelationRecognition.Strength.Solution

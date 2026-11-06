@@ -1,0 +1,11 @@
+{
+  "id": "ALL-ADMISSIBLE-CUT-OFF-RESTRICTS-TO-ACTUAL",
+  "argument_id": "ALL-ADMISSIBLE-CUT-OFF-RESTRICTS-TO-ACTUAL",
+  "challenge_module": "TruthCore.Results.Alternatives.RevelationRecognition.Actual.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.RevelationRecognition.Actual.Solution",
+  "theorem": "TruthCore.Results.Alternatives.RevelationRecognition.Actual.allCutOffRestrictsToActual",
+  "comparator_config": "results/ALL-ADMISSIBLE-CUT-OFF-RESTRICTS-TO-ACTUAL/comparator.json",
+  "status": "solution-present",
+  "description": "Restrict admitted-situation insulation to the actual practice only under its explicit admissibility premise. Ordinary conditional instantiation, not an unconditional strength relation.",
+  "transcription": "instantiation"
+}

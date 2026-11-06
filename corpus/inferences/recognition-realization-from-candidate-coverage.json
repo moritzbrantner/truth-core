@@ -1,0 +1,12 @@
+{
+  "id": "INF-RECOGNITION-REALIZATION-FROM-CANDIDATE-COVERAGE",
+  "input_statement_ids": [
+    "STMT-CANDIDATE-RECOGNITION-REALIZED",
+    "STMT-ADMISSIBLE-RECOGNITION-COVERAGE"
+  ],
+  "output_statement_id": "STMT-RECOGNIZABLE-CAPACITY-REALIZED",
+  "rule": "constructive-proof",
+  "meaning": "Assembly transcription: candidate recognition supplies a witness and the explicit admitted-subset coverage premise supplies an admitted witness. Both coverage of the selected carrier and its applicability stay open.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,12 @@
+{
+  "id": "INF-ACTUAL-CUT-OFF-EXTENDS-BY-PERSISTENCE",
+  "input_statement_ids": [
+    "STMT-WF-RELIGION-CUT-OFF-FROM-SHARED-REASON",
+    "STMT-ACTUAL-CUT-OFF-PERSISTS-TO-ADMISSIBLE"
+  ],
+  "output_statement_id": "STMT-ALL-ADMISSIBLE-PRACTICES-CUT-OFF",
+  "rule": "constructive-proof",
+  "meaning": "Apply the explicit persistence premise to actual cut-off. Transcription of the open modal-scope bridge; no independent defense of persistence.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

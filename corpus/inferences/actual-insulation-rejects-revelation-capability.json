@@ -1,0 +1,15 @@
+{
+  "id": "INF-ACTUAL-INSULATION-REJECTS-REVELATION-CAPABILITY",
+  "input_statement_ids": [
+    "STMT-GOD-EXISTS",
+    "STMT-RECOGNIZABLE-CAPACITY-REALIZED",
+    "STMT-RECOGNITION-ANSWERS-TO-SHARED-REASON",
+    "STMT-WF-RELIGION-CUT-OFF-FROM-SHARED-REASON",
+    "STMT-ACTUAL-CUT-OFF-PERSISTS-TO-ADMISSIBLE"
+  ],
+  "output_statement_id": "STMT-REVELATION-CAPABILITY-REJECTED",
+  "rule": "constructive-proof",
+  "meaning": "Compose actual-to-admitted persistence with the imported admitted-insulation contradiction. Raw actual cut-off remains a real premise; without persistence it can coexist with capability. This is conditional and does not refute the actual-practice thesis.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

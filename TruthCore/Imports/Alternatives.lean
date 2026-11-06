@@ -18,3 +18,4 @@ public import TruthCore.Alternatives.PhysicalGround
 public import TruthCore.Alternatives.PotencyAnalysisPartition
 public import TruthCore.Alternatives.RespectSwitch
 public import TruthCore.Alternatives.Retorsion
+public import TruthCore.Alternatives.RevelationRecognition

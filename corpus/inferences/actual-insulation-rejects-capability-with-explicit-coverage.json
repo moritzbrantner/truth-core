@@ -1,0 +1,16 @@
+{
+  "id": "INF-ACTUAL-INSULATION-REJECTS-CAPABILITY-WITH-EXPLICIT-COVERAGE",
+  "input_statement_ids": [
+    "STMT-GOD-EXISTS",
+    "STMT-CANDIDATE-RECOGNITION-REALIZED",
+    "STMT-ADMISSIBLE-RECOGNITION-COVERAGE",
+    "STMT-RECOGNITION-ANSWERS-TO-SHARED-REASON",
+    "STMT-WF-RELIGION-CUT-OFF-FROM-SHARED-REASON",
+    "STMT-ACTUAL-CUT-OFF-PERSISTS-TO-ADMISSIBLE"
+  ],
+  "output_statement_id": "STMT-REVELATION-CAPABILITY-REJECTED",
+  "rule": "constructive-proof",
+  "meaning": "Compose candidate realization and explicit admitted-subset coverage, then import the actual-insulation result. All six premises remain explicit: actual God, candidate realization, coverage, sharedness, raw actual cut-off and persistence. No capability-to-actual-event inference or independent closure.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
