@@ -1,5 +1,12 @@
 # Testing standards of ultimate explanatory adequacy (#750)
 
+For the owner's question whether alternatives match the explanatory benefits of
+one necessary being, see the [fixed-target coverage and gap audit](ultimate-adequacy-integration-735.md#owner-question-explanatory-parity-and-the-remaining-gap).
+It distinguishes this note's fact-level target from #735's productive target2,
+retains token success and idle-necessary-being failure as criterion limits, and
+proposes one existing-theorem application rather than another model. It claims
+neither complete explanatory parity nor an automatic singular-NE victory.
+
 Outcome: a **failed discriminator with a certified incompatible core**, not a defended
 standard. The theorems are `core` and `comparison` in
 `TruthCore.Results.Explanation.ExplanatoryAdequacy.Solution`, over
