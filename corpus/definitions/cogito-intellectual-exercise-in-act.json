@@ -1,0 +1,8 @@
+{
+  "id": "DEF-COGITO-INTELLECTUAL-EXERCISE-IN-ACT",
+  "term": "intellectual operation requiring actuality",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.CogitoEsse.IntellectualExerciseRequiresAct",
+  "definition": "For every b and e, attribution of e as an intellectual exercise of b requires some respect r with InAct b r. It supplies neither act of esse nor indexed existence by itself, and makes no claim about bodily realization or per-se subsistence.",
+  "note": "Analyst interface for the separate conditional operation route in #1113, reusing DEF-Q75-OPERATION-ATTRIBUTION. Exact historical attribution is deferred. It is not the causation-only OperationOnlyOfBeingInActReading and is not an additional recorded root premise; see docs/notes/cogito-esse-1113.md."
+}

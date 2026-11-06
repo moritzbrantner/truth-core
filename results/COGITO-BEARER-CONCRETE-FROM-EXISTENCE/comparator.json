@@ -1,0 +1,15 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.CogitoEsse.Challenge",
+  "solution_module": "TruthCore.Results.Logic.CogitoEsse.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.CogitoEsse.bearerConcrete",
+    "TruthCore.Results.Logic.CogitoEsse.existingConcrete",
+    "TruthCore.Results.Logic.CogitoEsse.bearerConcreteOfOperation"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

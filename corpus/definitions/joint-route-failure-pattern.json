@@ -1,0 +1,8 @@
+{
+  "id": "DEF-JOINT-ROUTE-FAILURE-PATTERN",
+  "term": "indexed route and exhaustive failure consequence",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.JointRouteFailure.Complete",
+  "definition": "For premise family premises : I \u2192 Prop, Complete premises means \u2200 i, premises i; Failure premises means \u2203 i, \u00acpremises i. EveryFailureEntails premises X means \u2200 i, \u00acpremises i \u2192 X. Empty-index routes are complete and cannot fail. Failure implies incompleteness constructively; conversely incompleteness supplies a failure under the explicit ExcludedMiddle premise. A route is a conjunction in a fixed interpretation, not a measure of philosophical plausibility. RootFromJointFailureIncompatibility quantifies over two such families, a common conclusion and their failure consequences; it is a logical pattern only.",
+  "note": "Analyst logical rule template requested in #1119. Indices may be finite premise rosters but no finiteness assumption is needed. Common semantic profile and valid route/failure consequence certificates are obligations of every philosophical instantiation. No source attribution or real-world relation is introduced. A counterexample with Bool premises shows that checking one sampled failure implication is insufficient; a shared-obligation theorem shows that covering two routes does not evade any proposition required by both."
+}

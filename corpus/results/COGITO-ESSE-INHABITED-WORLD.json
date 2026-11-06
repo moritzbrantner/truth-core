@@ -1,0 +1,11 @@
+{
+  "id": "COGITO-ESSE-INHABITED-WORLD",
+  "argument_id": "COGITO-ESSE-INHABITED-WORLD",
+  "challenge_module": "TruthCore.Results.Logic.CogitoEsse.Challenge",
+  "solution_module": "TruthCore.Results.Logic.CogitoEsse.Solution",
+  "theorem": "TruthCore.Results.Logic.CogitoEsse.inhabitedOfThought",
+  "comparator_config": "results/COGITO-ESSE-INHABITED-WORLD/comparator.json",
+  "status": "solution-present",
+  "description": "Compose the existing inhabited-world theorem with COGITO-BEARER-CONCRETE-FROM-EXISTENCE. Concreteness is consistently HasEsseInRe InAct esse; no independent C premise remains. O, B, E and ExistingInActAt remain explicit. Transcription/instantiation, not independent closure of any open premise.",
+  "transcription": "instantiation"
+}

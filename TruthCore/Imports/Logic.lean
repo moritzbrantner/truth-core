@@ -5,6 +5,7 @@ public import TruthCore.Logic.AdaptivePrediction
 public import TruthCore.Logic.AtomismIndependence
 public import TruthCore.Logic.CaseNonContradiction
 public import TruthCore.Logic.CogitoConcrete
+public import TruthCore.Logic.CogitoEsse
 public import TruthCore.Logic.CogitoSubject
 public import TruthCore.Logic.Configuration
 public import TruthCore.Logic.ContrastiveWorldview
@@ -16,6 +17,7 @@ public import TruthCore.Logic.FallibleCorrection
 public import TruthCore.Logic.FiniteValidationLogic
 public import TruthCore.Logic.FitchKnowability
 public import TruthCore.Logic.IntuitionisticKnowability
+public import TruthCore.Logic.JointRouteFailure
 public import TruthCore.Logic.JustificationIntrospection
 public import TruthCore.Logic.KnowabilityCompatibility
 public import TruthCore.Logic.KnowledgeAdmissibility

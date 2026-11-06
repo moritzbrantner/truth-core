@@ -1,0 +1,8 @@
+{
+  "id": "DEF-COGITO-THINKING-AS-INTELLECTUAL-EXERCISE",
+  "term": "occurring borne thought as an intellectual exercise",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.CogitoEsse.BorneThoughtExercisesIntellect",
+  "definition": "For every b and e, Occurs e and Bears b e imply attribution of e as an intellectual exercise of b in the supplied q75 OperationAttribution. This does not follow merely from Occurs or Bears; an impersonal event or content bearer need not exercise intellect.",
+  "note": "Analyst interface for the separate conditional operation route in #1113, reusing DEF-Q75-OPERATION-ATTRIBUTION. Exact historical attribution is deferred. It is not the causation-only OperationOnlyOfBeingInActReading and is not an additional recorded root premise; see docs/notes/cogito-esse-1113.md."
+}
