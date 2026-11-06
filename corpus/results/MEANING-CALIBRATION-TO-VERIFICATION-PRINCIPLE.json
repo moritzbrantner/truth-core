@@ -1,0 +1,10 @@
+{
+  "id": "MEANING-CALIBRATION-TO-VERIFICATION-PRINCIPLE",
+  "argument_id": "MEANING-CALIBRATION-TO-VERIFICATION-PRINCIPLE",
+  "challenge_module": "TruthCore.Results.Logic.MeaningDefinitionFork.CalibrationToPrinciple.Challenge",
+  "solution_module": "TruthCore.Results.Logic.MeaningDefinitionFork.CalibrationToPrinciple.Solution",
+  "theorem": "TruthCore.Results.Logic.MeaningDefinitionFork.CalibrationToPrinciple.calibrationToPrinciple",
+  "comparator_config": "results/MEANING-CALIBRATION-TO-VERIFICATION-PRINCIPLE/comparator.json",
+  "status": "solution-present",
+  "description": "Full calibration entails the existing one-way principle; the reverse fails in the nontrivial analytic-only control. No criterion is adopted."
+}

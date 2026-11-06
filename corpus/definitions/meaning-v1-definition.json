@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MEANING-V1-DEFINITION",
+  "term": "V1 definition of cognitive meaning",
+  "definition": "Scoped calibration with analytic-or-conclusively-verifiable sentences.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.MeaningDefinitionFork.V1Definition",
+  "note": "Analyst formulation; attribution deferred. See docs/notes/meaning-definition-fork.md."
+}

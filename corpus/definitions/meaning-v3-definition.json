@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MEANING-V3-DEFINITION",
+  "term": "V3 definition of cognitive meaning",
+  "definition": "Scoped calibration with LiterallyMeaningful1946. The existing Ayer1946ExcludesANegation package already includes its global biconditional; this new independent proposition does not repair or replace that correct package.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.MeaningDefinitionFork.V3Definition",
+  "note": "Analyst formulation; attribution deferred. See docs/notes/meaning-definition-fork.md."
+}

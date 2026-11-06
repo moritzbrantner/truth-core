@@ -1,0 +1,14 @@
+{
+  "id": "DISAMB-MEANING-DEFINITION-CALIBRATIONS",
+  "term": "meaningful: independent predicate, one-way condition, full calibration or proposal membership",
+  "sense_definition_ids": [
+    "DEF-VERIFICATION-PRINCIPLE",
+    "DEF-MEANING-CRITERION-CALIBRATION",
+    "DEF-MEANING-V1-DEFINITION",
+    "DEF-MEANING-V2-DEFINITION",
+    "DEF-MEANING-V3-DEFINITION",
+    "DEF-MEANING-ALL-IN-SCOPE",
+    "DEF-MEANING-NAMED-COVERAGE"
+  ],
+  "resolution": "The existing one-way principle is necessary-only and is not a full definition. These new independent propositions calibrate V1/V2/V3 or all-in-scope to the independent predicate on an explicit scope. Existing StrongVerificationismWithLaws and Ayer1946ExcludesANegation already retain full biconditionals and are preserved. All-admitted fails an explicitly supplied exclusion goal, not every possible meaning account. Named coverage remains open; its additional-extension rival denies coverage under exactly this extensional profile. V4 expressive membership/pragmatic adoption is a different question (DISAMB-V4-PROPOSAL-MEANING-AND-TRUTH), not a fifth interchangeable cognitive-meaning predicate. See docs/notes/meaning-definition-fork.md."
+}
