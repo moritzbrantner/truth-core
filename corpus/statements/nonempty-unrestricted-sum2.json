@@ -1,0 +1,9 @@
+{
+  "id": "STMT-NONEMPTY-UNRESTRICTED-SUM2",
+  "lean_declaration": "TruthCore.Mereology.UniversalFusionBoundary.Unrestricted",
+  "paraphrase": "Every nonempty Lean Set in the fixed partial-order carrier has an existing Sum2 Fusion: an upper bound every part of which overlaps a selected member. No empty-family formation or actual ontology is asserted.",
+  "definition_ids": [
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-UNIVERSAL-FUSION-PROFILE"
+  ]
+}

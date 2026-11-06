@@ -1,0 +1,10 @@
+{
+  "id": "UNRESTRICTED-SUM1-TO-SUM2",
+  "argument_id": "UNRESTRICTED-SUM1-TO-SUM2",
+  "challenge_module": "TruthCore.Results.Mereology.SumOneComplementation.Challenge",
+  "solution_module": "TruthCore.Results.Mereology.SumOneComplementation.Solution",
+  "theorem": "TruthCore.Results.Mereology.SumOneComplementation.unrestrictedTransfer",
+  "comparator_config": "results/UNRESTRICTED-SUM1-TO-SUM2/comparator.json",
+  "status": "solution-present",
+  "description": "Composition/transcription corollary, not an independent premise discharge. For each supplied nonempty family, take its supplied least upper bound and apply the checked pointwise comparison. This connects actual Sum1 witnesses to the existing Sum2 predicate, rather than assuming the resulting Sum2 witnesses. Exact complementation and all-nonempty Sum1 formation remain open framework commitments."
+}

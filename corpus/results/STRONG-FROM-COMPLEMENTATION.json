@@ -1,0 +1,10 @@
+{
+  "id": "STRONG-FROM-COMPLEMENTATION",
+  "argument_id": "STRONG-FROM-COMPLEMENTATION",
+  "challenge_module": "TruthCore.Results.Mereology.SumOneComplementation.Challenge",
+  "solution_module": "TruthCore.Results.Mereology.SumOneComplementation.Solution",
+  "theorem": "TruthCore.Results.Mereology.SumOneComplementation.strongOfComplementation",
+  "comparator_config": "results/STRONG-FROM-COMPLEMENTATION/comparator.json",
+  "status": "solution-present",
+  "description": "Take the exact remainder of x minus y. Reflexive self-parthood shows it is a part of x disjoint from y, supplying the existing strong-supplementation witness. No sum-formation assumption is used."
+}

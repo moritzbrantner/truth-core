@@ -1,0 +1,25 @@
+{
+  "id": "STRONG-FROM-COMPLEMENTATION",
+  "premise_statement_ids": [
+    "STMT-MEREOLOGICAL-COMPLEMENTATION"
+  ],
+  "conclusion_statement_id": "STMT-STRONG-SUPPLEMENTATION",
+  "inference_ids": [
+    "INF-STRONG-FROM-COMPLEMENTATION"
+  ],
+  "meaning": "Take the exact remainder of x minus y. Reflexive self-parthood shows it is a part of x disjoint from y, supplying the existing strong-supplementation witness. No sum-formation assumption is used.",
+  "definition_ids": [
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-MEREOLOGICAL-COMPLEMENTATION",
+    "DEF-SUM1-LEAST-UPPER-BOUND",
+    "DEF-SUM1-FUSION-COMPARISON",
+    "DEF-SUM1-COMPLEMENTATION-RIVALS",
+    "DEF-MEREOLOGICAL-SUPPLEMENTATION",
+    "DEF-OVERLAP-EXTENSIONAL-PARTHOOD"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SUM1-AND-SUM2-FUSION",
+    "DISAMB-EXACT-REMAINDER-AND-SUPPLEMENT"
+  ]
+}

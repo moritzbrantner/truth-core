@@ -1,0 +1,13 @@
+{
+  "id": "STMT-NONEMPTY-UNRESTRICTED-SUM1",
+  "lean_declaration": "TruthCore.Mereology.SumOneComplementation.UnrestrictedSumOne",
+  "paraphrase": "Every nonempty Lean Set in the fixed carrier has a Mathlib least upper bound (Sum1). This alone asserts no no-extra-parts clause or actual-world ontology.",
+  "definition_ids": [
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-SUM1-LEAST-UPPER-BOUND"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SUM1-AND-SUM2-FUSION"
+  ]
+}

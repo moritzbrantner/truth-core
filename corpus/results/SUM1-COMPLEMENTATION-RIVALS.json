@@ -1,0 +1,10 @@
+{
+  "id": "SUM1-COMPLEMENTATION-RIVALS",
+  "argument_id": "SUM1-COMPLEMENTATION-RIVALS",
+  "challenge_module": "TruthCore.Results.Mereology.SumOneComplementation.Challenge",
+  "solution_module": "TruthCore.Results.Mereology.SumOneComplementation.Solution",
+  "theorem": "TruthCore.Results.Mereology.SumOneComplementation.rivalChecks",
+  "comparator_config": "results/SUM1-COMPLEMENTATION-RIVALS/comparator.json",
+  "status": "solution-present",
+  "description": "The same JoinRival jointly satisfies strong supplementation and every nonempty-family Sum1, while its top join of a,b contains a third disjoint atom and no Sum2 of a,b exists. Its missing top-minus-atom exact remainder refutes complementation. AtomPair jointly satisfies exact complementation but has no upper bound, hence neither Sum1 nor Sum2, for its pair. Both orders lack a null object. The all-family assertion is proved for arbitrary Sets, not merely sample families. This does not certify actual physical or metaphysical possibilities."
+}

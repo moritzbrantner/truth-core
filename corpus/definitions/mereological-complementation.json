@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MEREOLOGICAL-COMPLEMENTATION",
+  "term": "exact mereological remainder",
+  "lean_declaration": "TruthCore.Mereology.SumOneComplementation.Complementation",
+  "basis": "stipulative",
+  "definition": "Complementation B requires, for x,y with y not part of x, a z whose parts are exactly the parts of y disjoint from x. It includes every such disjoint part, rather than merely one separating part. The conditional does not require an empty remainder when y is part of x.",
+  "note": "Analyst framework for #1054, attribution deferred. Reuses the existing fixed partial-order domain and common-part Overlap without modal or actual-existence guards. Mathematical witnesses do not establish real-world parthood applicability. See docs/notes/universal-fusion-grounding.md."
+}

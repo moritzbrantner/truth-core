@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SUM1-FUSION-COMPARISON",
+  "term": "pointwise Sum1 and Sum2 comparison",
+  "lean_declaration": "TruthCore.Mereology.SumOneComplementation.SumOneComparison",
+  "basis": "stipulative",
+  "definition": "For every nonempty Set and every candidate u in one fixed Mathlib partial order, IsLUB family u iff the existing Sum2 Fusion family u. This is a pointwise comparison, not a formation assumption.",
+  "note": "Analyst framework for #1054, attribution deferred. Reuses the existing fixed partial-order domain and common-part Overlap without modal or actual-existence guards. Mathematical witnesses do not establish real-world parthood applicability. See docs/notes/universal-fusion-grounding.md."
+}
