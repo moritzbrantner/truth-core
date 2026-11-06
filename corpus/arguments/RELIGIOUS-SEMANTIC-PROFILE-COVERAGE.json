@@ -1,0 +1,19 @@
+{
+  "id": "RELIGIOUS-SEMANTIC-PROFILE-COVERAGE",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-RELIGIOUS-SEMANTIC-CASES",
+  "inference_ids": [
+    "INF-RELIGIOUS-SEMANTIC-PROFILE-COVERAGE"
+  ],
+  "meaning": "Explicit excluded middle yields local-plus-invariant, local-plus-actual-matched-difference, or local failure. The local menu has an explicit further option; no census of historical theories is proved.",
+  "definition_ids": [
+    "DEF-RELIGIOUS-CONTENT-AND-DISCOURSE-TRUTH-PROFILE",
+    "DEF-RELIGIOUS-LOCAL-FACE-VALUE",
+    "DEF-RELIGIOUS-CROSS-DISCOURSE-FACE-VALUE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RELIGIOUS-LOCAL-FACE-VALUE-AND-CROSS-DISCOURSE-UNIFORMITY"
+  ]
+}

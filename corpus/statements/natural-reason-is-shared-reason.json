@@ -1,9 +1,10 @@
 {
   "id": "STMT-NATURAL-REASON-IS-SHARED-REASON",
-  "paraphrase": "Open reading bridge, unattributed: a move that affirms that God can be known by the natural light of human reason answers to standards of reason shared with those outside the practice, not to a practice-internal standard.",
+  "paraphrase": "Open reading bridge, unattributed: a move that affirms that God can be known by the natural light of human reason answers to standards of reason shared with those outside the practice, available without that practice's special revelation or authority. The practice's own standards may also endorse it.",
   "lean_declaration": "TruthCore.Alternatives.Fideism.NaturalReasonIsSharedReading",
   "definition_ids": [
-    "DEF-NATURAL-REASON-SHARED"
+    "DEF-NATURAL-REASON-SHARED",
+    "DEF-NATURAL-REASON-PROFILE-COMPARISON"
   ],
   "disambiguation_ids": [
     "DISAMB-NATURAL-REASON"

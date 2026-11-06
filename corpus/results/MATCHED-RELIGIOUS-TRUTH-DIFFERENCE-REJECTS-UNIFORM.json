@@ -1,0 +1,10 @@
+{
+  "id": "MATCHED-RELIGIOUS-TRUTH-DIFFERENCE-REJECTS-UNIFORM",
+  "argument_id": "MATCHED-RELIGIOUS-TRUTH-DIFFERENCE-REJECTS-UNIFORM",
+  "challenge_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.Difference.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.Difference.Solution",
+  "theorem": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.matchedDifferenceRejectsUniform",
+  "comparator_config": "results/MATCHED-RELIGIOUS-TRUTH-DIFFERENCE-REJECTS-UNIFORM/comparator.json",
+  "status": "solution-present",
+  "description": "Instantiate invariance at the actual religious same-content witness and contradict its opposed truth applications. Local descriptive status is not refuted."
+}

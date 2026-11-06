@@ -1,0 +1,19 @@
+{
+  "id": "NO-GOVERNING-GRANT-REJECTS-HISTORICAL-COMMISSION-BUNDLE",
+  "premise_statement_ids": [
+    "STMT-NO-GOVERNING-GRANT"
+  ],
+  "conclusion_statement_id": "STMT-HISTORICAL-COMMISSION-BUNDLE-REJECTED",
+  "inference_ids": [
+    "INF-NO-GOVERNING-GRANT-REJECTS-HISTORICAL-COMMISSION-BUNDLE"
+  ],
+  "meaning": "The existing historical bundle supplies a governing grant, contradicting the universal absence of such grants. Matthew28 alone is not denied.",
+  "definition_ids": [
+    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
+    "DEF-COMMISSION-REPORT-POWERS",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMMISSION-REPORT-AND-EVENT"
+  ]
+}

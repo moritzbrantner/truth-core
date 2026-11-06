@@ -1,0 +1,23 @@
+{
+  "id": "COUNCIL-DEFINITION-SUPPLIES-NATURAL-KNOWABILITY-MOVE",
+  "premise_statement_ids": [
+    "STMT-DEI-FILIUS-DEFINES-NATURAL-KNOWABILITY-OF-GOD"
+  ],
+  "conclusion_statement_id": "STMT-NATURAL-KNOWABILITY-MOVE-EXISTS",
+  "inference_ids": [
+    "INF-COUNCIL-DEFINITION-SUPPLIES-NATURAL-KNOWABILITY-MOVE"
+  ],
+  "meaning": "Project the actual natural-knowability move from the existing conciliar-definition premise. Assembly transcription; the Defined property is not needed for this weaker witness.",
+  "definition_ids": [
+    "DEF-NATURAL-REASON-PROFILE-COMPARISON",
+    "DEF-NATURAL-REASON-SHARED",
+    "DEF-NATURAL-REASON-PRACTICE-INTERNAL",
+    "DEF-CONCILIAR-DEFINITION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NATURAL-REASON"
+  ],
+  "strong_version_needed": {
+    "STMT-DEI-FILIUS-DEFINES-NATURAL-KNOWABILITY-OF-GOD": "This certificate registers projection of the weak natural-move witness from the existing defined-move premise."
+  }
+}

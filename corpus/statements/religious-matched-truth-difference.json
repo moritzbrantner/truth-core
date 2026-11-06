@@ -1,0 +1,13 @@
+{
+  "id": "STMT-RELIGIOUS-MATCHED-TRUTH-DIFFERENCE",
+  "paraphrase": "An actual selected religious sentence has the same apparent content assigned in both discourse positions but is counted true in exactly one. A difference somewhere on unrelated sentences, or different contents, does not supply this witness.",
+  "lean_declaration": "TruthCore.Alternatives.ReligiousLanguageSemantics.MatchedReligiousTruthDifference",
+  "definition_ids": [
+    "DEF-RELIGIOUS-CONTENT-AND-DISCOURSE-TRUTH-PROFILE",
+    "DEF-RELIGIOUS-LOCAL-FACE-VALUE",
+    "DEF-RELIGIOUS-CROSS-DISCOURSE-FACE-VALUE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RELIGIOUS-LOCAL-FACE-VALUE-AND-CROSS-DISCOURSE-UNIFORMITY"
+  ]
+}

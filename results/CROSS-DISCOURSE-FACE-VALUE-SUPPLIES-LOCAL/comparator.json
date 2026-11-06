@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.Local.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.Local.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.crossDiscourseSuppliesLocal"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

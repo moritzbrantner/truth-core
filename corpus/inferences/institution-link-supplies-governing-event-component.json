@@ -1,0 +1,11 @@
+{
+  "id": "INF-INSTITUTION-LINK-SUPPLIES-GOVERNING-EVENT-COMPONENT",
+  "input_statement_ids": [
+    "STMT-CHURCH-FOUNDED-IN-COMMISSIONED-APOSTLES"
+  ],
+  "output_statement_id": "STMT-GOVERNING-EVENT-INSTITUTION-LINK",
+  "rule": "constructive-proof",
+  "meaning": "Project only the governing-event institutional consequence needed to confront the message rival. The old teaching component is unnecessary for this target.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

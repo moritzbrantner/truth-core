@@ -1,0 +1,19 @@
+{
+  "id": "RELIGIOUS-NONDESCRIPTION-REJECTS-LOCAL-FACE-VALUE",
+  "premise_statement_ids": [
+    "STMT-RELIGIOUS-NONDESCRIPTIVE-WITNESS"
+  ],
+  "conclusion_statement_id": "STMT-RELIGIOUS-LOCAL-FACE-VALUE-FAILS",
+  "inference_ids": [
+    "INF-RELIGIOUS-NONDESCRIPTION-REJECTS-LOCAL-FACE-VALUE"
+  ],
+  "meaning": "An actual religious sentence lacking descriptive fact representation contradicts the local descriptive clause. Merely discourse-internal concept use would not supply this witness.",
+  "definition_ids": [
+    "DEF-RELIGIOUS-CONTENT-AND-DISCOURSE-TRUTH-PROFILE",
+    "DEF-RELIGIOUS-LOCAL-FACE-VALUE",
+    "DEF-RELIGIOUS-CROSS-DISCOURSE-FACE-VALUE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RELIGIOUS-LOCAL-FACE-VALUE-AND-CROSS-DISCOURSE-UNIFORMITY"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "STMT-RELIGIOUS-NAMED-LOCAL-PROFILES-REJECTED",
+  "paraphrase": "Exact negation of the two-profile local comparison menu, not of all philosophical religious-language accounts.",
+  "lean_declaration": "TruthCore.Alternatives.ReligiousLanguageSemantics.NamedLocalProfilesRejected",
+  "definition_ids": [
+    "DEF-RELIGIOUS-CONTENT-AND-DISCOURSE-TRUTH-PROFILE",
+    "DEF-RELIGIOUS-LOCAL-FACE-VALUE",
+    "DEF-RELIGIOUS-CROSS-DISCOURSE-FACE-VALUE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RELIGIOUS-LOCAL-FACE-VALUE-AND-CROSS-DISCOURSE-UNIFORMITY"
+  ]
+}

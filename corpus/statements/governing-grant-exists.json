@@ -1,0 +1,13 @@
+{
+  "id": "STMT-GOVERNING-GRANT-EXISTS",
+  "paraphrase": "Jesus gave or promised some power in the existing fixed governing table, in the existing Commissioning interpretation. This does not itself constitute any institution.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.MessageReportBoundary.GoverningGrantExists",
+  "definition_ids": [
+    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
+    "DEF-COMMISSION-REPORT-POWERS",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMMISSION-REPORT-AND-EVENT"
+  ]
+}

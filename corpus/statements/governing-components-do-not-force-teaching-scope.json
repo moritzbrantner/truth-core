@@ -1,0 +1,13 @@
+{
+  "id": "STMT-GOVERNING-COMPONENTS-DO-NOT-FORCE-TEACHING-SCOPE",
+  "paraphrase": "Two nonempty schema controls show why the original narrow scope still needs teaching: a governing-only institutional link plus the full historical bundle, and the original institutional link plus only a governing grant, each permit Catholic teaching-commission scope to fail. No historical conclusion is inferred.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.MessageReportBoundary.GoverningComponentsDoNotForceTeachingScope",
+  "definition_ids": [
+    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
+    "DEF-COMMISSION-REPORT-POWERS",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMMISSION-REPORT-AND-EVENT"
+  ]
+}

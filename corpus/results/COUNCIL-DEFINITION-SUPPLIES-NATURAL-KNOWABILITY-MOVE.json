@@ -1,0 +1,11 @@
+{
+  "id": "COUNCIL-DEFINITION-SUPPLIES-NATURAL-KNOWABILITY-MOVE",
+  "argument_id": "COUNCIL-DEFINITION-SUPPLIES-NATURAL-KNOWABILITY-MOVE",
+  "challenge_module": "TruthCore.Results.Alternatives.NaturalReasonHorizon.Witness.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.NaturalReasonHorizon.Witness.Solution",
+  "theorem": "TruthCore.Results.Alternatives.NaturalReasonHorizon.Witness.councilSuppliesNaturalMove",
+  "comparator_config": "results/COUNCIL-DEFINITION-SUPPLIES-NATURAL-KNOWABILITY-MOVE/comparator.json",
+  "status": "solution-present",
+  "description": "Project the actual natural-knowability move from the existing conciliar-definition premise. Assembly transcription; the Defined property is not needed for this weaker witness.",
+  "transcription": "assembly"
+}

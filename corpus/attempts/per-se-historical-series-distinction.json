@@ -1,0 +1,20 @@
+{
+  "id": "ATTEMPT-PER-SE-HISTORICAL-SERIES-DISTINCTION",
+  "statement_ids": [
+    "STMT-INFINITE-REGRESS-IMPOSSIBLE-ONLY-IN-PER-SE-SERIES",
+    "STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES",
+    "STMT-NO-INFINITE-PER-SE-MOVER-SERIES",
+    "STMT-PER-SE-HISTORICAL-SERIES-DISTINCTION"
+  ],
+  "date": "2026-11-06",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Typed analyst sibling constrains separate essential/historical relations: explicit historical-to-essential inclusion plus accessibility excludes an infinite historical chain; an Option Nat witness without inclusion has nonempty accessible essential dependence on the same injective historical chain members. Old P\u2227Q source transcription, source claim, frozen Challenges and root no-regress premises retained. Reused exact SecundaVia omission theorems, accessibility exclusion and finite-unbounded-depth control; no new source attribution. Rejected assuming a first in the series definition, conflating all historical links with essential links without a dictionary, and reading abstract compatibility as metaphysical possibility or permission for all accidental series. Here-and-now/removal and temporal applicability remain OPEN time/intervention bridges. Exact models, proof locators, prior-control scope and service/CLI comparison persisted in docs/causal-regress-and-grim-reapers.md.",
+  "evidence": [
+    "PER-SE-HISTORICAL-SERIES-DISTINCTION",
+    "AQUINAS-ST-I-Q2-A3-SECUNDA-VIA",
+    "REGRESS-ACCESSIBILITY-EXCLUDES-DESCENDING-SERIES",
+    "REGRESS-ACCESSIBILITY-ALLOWS-UNBOUNDED-DEPTH",
+    "FIRST-WAY-SLICE-CONTROLS"
+  ]
+}

@@ -219,6 +219,43 @@ hosted copy was found. They have bibliographic source identities only
 `NIELSEN-PHILLIPS-WITTGENSTEINIAN-FIDEISM-2005`). Every claim is read from the
 pinned SEP entries, and each says it reports the position.
 
+### Local face-value status and discourse comparison
+
+The old face-value and reported late-Phillips statements remain unbound source
+propositions. Their meanings are not identified with the new analyst predicates.
+The former automatic alternative edge is a guarded attack: discourse-internal
+uses of reference, object, existence or true do not by themselves supply a
+religious sentence that lacks propositional content or descriptive function.
+Conversely, the serious minimalist denial of descriptive fact representation
+is not dismissed merely because a sentence has propositional or assertoric form.
+
+`ReligiousLanguageSemantics.Profile` distinguishes apparent content, content
+assigned in each of two discourse settings, belief assertion, fact representation,
+and truth/fact criteria. `LocalFaceValue` constrains these at the selected setting.
+`CrossDiscourseFaceValue` additionally requires truth invariance where the same
+religious content is assigned in both settings. An actual matched-content truth
+difference rejects that stronger profile, while local face-value status may
+survive. A truth difference on an unrelated sentence need not reject even matched
+religious invariance. A separate actual `NonDescriptiveReligiousWitness` does
+reject the local descriptive clause. None of these witnesses is silently
+extracted from the unbound reported late-Phillips thesis.
+
+The checked fork is local-plus-invariant, local-plus-actual-matched-difference,
+or failure of the local characterization. The two local profiles have their own
+explicit open menu-coverage proposition; local failure is the precise further
+option, with coarser local-failure controls and a separate detailed model target. The
+detailed target explicitly exports matched religious inhabitance, nonreligious
+truth variation, isolated belief/descriptive failures with the other local
+clauses retained, and assigned-content truth/fact coherence. No such property
+is recovered merely from an existential witness hidden behind a weaker type.
+This is structural
+coverage on supplied sentences/content/discourses, not a census of historical
+religious-language accounts or a proof of actual context-relative reality.
+The four controls preserve the independent truth-variation and non-description
+criticisms. Source-fidelity of minimalist descriptive-role denial, actual content
+matching and applicability of either analyst profile remain open. Those are
+judgments or additional bridges, not checked identities of the old source claims.
+
 ### Defeat by consequence: the practice's own rule
 
 Fideism's thesis is descriptive: it says how the religious game is played.
@@ -560,6 +597,50 @@ What the result does not do:
 
 No route cost changes: the leaves were already open, and none had a floor
 marking.
+
+### Natural-reason profiles and descriptive horizon (analyst reconstruction, 2026-11-06)
+
+`NaturalReasonHorizon` keeps the existing mixed prose horizon reconstruction
+and supporting source claims unchanged. A new typed modest descriptive sibling
+says natural-knowability users are theists and the practice's own standards
+endorse those moves. Nonmembership in that practice does not imply non-theism;
+reason available without its particular revelation/authority is not neutrality
+to every possible worldview. This modest sibling is not silently substituted
+for every component of the older horizon reply.
+
+The actual standard profiles are separate: the existing shared bridge says all
+natural-knowability moves answer to shared reason; a new proposition says all
+lack sharedness; and a mixed proposition supplies both an actual shared witness
+and an actual nonshared witness. Explicit EM checks these three structural
+cases, while named uniform coverage remains an open premise. Mixed behavior is
+a precise further relevant profile, not an untracked extra philosophical label.
+When no move affirms natural knowability, both universal readings can hold
+vacuously, so an actual move matters for conflict between them.
+
+The conciliar defined-move premise supplies that weaker actual natural-move
+witness, as a separately registered strength comparison. The existing two
+grammar arguments still need the Defined component to obtain own-standard
+endorsement and correctness, and now say why. New standard-conflict arguments
+use only the weaker witness. All-nonshared plus that witness negates the exact
+old shared bridge; actual mixed witnesses reject both uniform profiles, and a
+separate projection composes that rejection into the same bridge negation.
+
+The existing horizon alternative link now uses that exact negation as its
+subject. The serious exclusive/private challenge remains; the descriptive
+horizon cannot be automatically eliminated by refuting it or used to defend
+the shared bridge through a mismatched graph endpoint. No refutes relation or
+independent source defense is asserted. The shared statement's prose also no
+longer excludes internal endorsement: its unchanged Lean type permits a move
+to satisfy both OwnStandard and AnswersToSharedReason.
+
+Four Boolean controls witness the modest descriptive horizon and actual
+nonmember use with shared, nonshared and mixed standards, plus the empty-move
+overlap. Thus a theological audience alone does not determine which standard
+profile holds. These are formal interpretations, not apologetic history or
+independent warrant of a standard. A stronger neutrality-to-every-worldview
+claim would need a worldview domain, a cross-framework standard-admissibility
+relation and an applicability argument; those are not encoded or inferred from
+non-Christian use here. Root premises and route costs are unchanged.
 
 ## On Certainty
 

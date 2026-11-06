@@ -1,0 +1,9 @@
+{
+  "id": "REL-MATCHED-RELIGIOUS-TRUTH-DIFFERENCE-OPPOSES-UNIFORM",
+  "subject_kind": "statement",
+  "subject_id": "STMT-RELIGIOUS-MATCHED-TRUTH-DIFFERENCE",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-RELIGIOUS-MATCHED-TRUTH-UNIFORM",
+  "note": "Exact same-profile incompatibility checked by the linked argument/result; not an identity with either old unbound historical source thesis. No root or philosophical-theory closure asserted."
+}

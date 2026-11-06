@@ -1,0 +1,8 @@
+{
+  "id": "DEF-RELIGIOUS-CONTENT-AND-DISCOURSE-TRUTH-PROFILE",
+  "term": "religious sentence content, assertion, fact representation and matched discourse truth",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Alternatives.ReligiousLanguageSemantics.Profile",
+  "definition": "A supplied sentence/content profile distinguishes the apparent content of a sentence, content actually assigned in each of two discourses, belief assertion, descriptive fact representation, truth application, and the corresponding fact criterion. False/true are discourse positions, not possible worlds or truth values of religious claims. Local face-value status does not automatically impose cross-discourse truth invariance.",
+  "note": "Analyst framework with attribution deferred. Practice has no sentence-content or assertion/fact-role fields; Verificationism.Language concerns entailment/observation, so neither is silently identified with this profile. Content matching is an explicit guard on invariance and its counterexample. Local truth criteria are independent supplied predicates, not a theorem asserting relative reality. The old unbound Phillips and face-value source propositions remain unchanged; applicability bridges to them are not claimed."
+}

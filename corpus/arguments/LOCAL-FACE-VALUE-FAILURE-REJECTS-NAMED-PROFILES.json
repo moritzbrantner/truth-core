@@ -1,0 +1,19 @@
+{
+  "id": "LOCAL-FACE-VALUE-FAILURE-REJECTS-NAMED-PROFILES",
+  "premise_statement_ids": [
+    "STMT-RELIGIOUS-LOCAL-FACE-VALUE-FAILS"
+  ],
+  "conclusion_statement_id": "STMT-RELIGIOUS-NAMED-LOCAL-PROFILES-REJECTED",
+  "inference_ids": [
+    "INF-LOCAL-FACE-VALUE-FAILURE-REJECTS-NAMED-PROFILES"
+  ],
+  "meaning": "Both menu options contain local face-value status, so local failure rejects the exact comparison menu, not every religious-language account.",
+  "definition_ids": [
+    "DEF-RELIGIOUS-CONTENT-AND-DISCOURSE-TRUTH-PROFILE",
+    "DEF-RELIGIOUS-LOCAL-FACE-VALUE",
+    "DEF-RELIGIOUS-CROSS-DISCOURSE-FACE-VALUE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RELIGIOUS-LOCAL-FACE-VALUE-AND-CROSS-DISCOURSE-UNIFORMITY"
+  ]
+}
