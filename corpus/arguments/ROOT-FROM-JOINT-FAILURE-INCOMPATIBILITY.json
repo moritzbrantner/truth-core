@@ -1,0 +1,14 @@
+{
+  "id": "ROOT-FROM-JOINT-FAILURE-INCOMPATIBILITY",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-ROOT-FROM-JOINT-FAILURE-INCOMPATIBILITY",
+  "inference_ids": [
+    "INF-ROOT-FROM-JOINT-FAILURE-INCOMPATIBILITY"
+  ],
+  "meaning": "Logical schema, not a concrete root settlement: excluded middle turns failure of a conjunction into a failed index. If the left route fails, its exhaustive consequence X holds; any failure of the right would then supply Y and contradict \u00ac(X \u2227 Y). Hence the right route completes, or the left already did; either route yields the common conclusion. Every route derivation and failure consequence remains an input inside the quantified schema.",
+  "definition_ids": [
+    "DEF-JOINT-ROUTE-FAILURE-PATTERN"
+  ]
+}
