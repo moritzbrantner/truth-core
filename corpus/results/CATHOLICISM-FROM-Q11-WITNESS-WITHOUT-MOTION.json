@@ -1,0 +1,10 @@
+{
+  "id": "CATHOLICISM-FROM-Q11-WITNESS-WITHOUT-MOTION",
+  "argument_id": "CATHOLICISM-FROM-Q11-WITNESS-WITHOUT-MOTION",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StrengthConsumers.RootQ11.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StrengthConsumers.RootQ11.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StrengthConsumers.RootQ11.catholicismQ11WithoutMotion",
+  "comparator_config": "results/CATHOLICISM-FROM-Q11-WITNESS-WITHOUT-MOTION/comparator.json",
+  "status": "solution-present",
+  "description": "Analyst reduction of CATHOLICISM-FROM-PRIMA-VIA-WITH-Q11-UNIQUENESS: the existing Fourth-Way theorem supplies a maximum and the existing full-description naming theorem names that maximum. Use it directly, without the First-Way motion, absolute-unmovedness, or created-agent-identification detour. The same endpoint is retained; no minimality, premise truth, or philosophical discharge is claimed. The historical/teaching-authority end of root compositions remains a structural map through the imported Skeleton result."
+}

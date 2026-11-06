@@ -22,5 +22,8 @@
     "DISAMB-MOTION",
     "DISAMB-PER-SE",
     "DISAMB-PER-SE-LINK"
-  ]
+  ],
+  "strong_version_needed": {
+    "STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED": "For this exact encoded interface, the successor-chain omission interpretation extends with relevance false, satisfying the weak link and well-founded per-se relation while the VII.1 local moved-mover chain is infinite. Checked by PRIMA-VIA-WEAK-CONSUMER-BOUNDARIES. This scope does not extend to arbitrary added attribute/historical premises, nor establish the strong premise philosophically. See docs/notes/prima-via-strength-consumers.md."
+  }
 }

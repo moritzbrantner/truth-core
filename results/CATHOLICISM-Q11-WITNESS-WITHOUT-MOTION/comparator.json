@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StrengthConsumers.Q11Witness.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StrengthConsumers.Q11Witness.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Case.Catholicism.StrengthConsumers.Q11Witness.uniqueClassicalGodQ11WithoutMotion"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-06",
+  "statement_ids": [
+    "STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED",
+    "STMT-FIRST-UNMOVED-MOVER-CANNOT-BE-LACKING",
+    "STMT-SECOND-MOVERS-MOVE-AS-MOVED-IN-RELEVANT-RESPECT",
+    "STMT-RELATIVELY-UNMOVED-MOVER-CANNOT-BE-LACKING"
+  ],
+  "kind": "derivation",
+  "id": "ATTEMPT-PRIMA-VIA-FULL-BUNDLE-WEAKENING-OPEN-1021",
+  "outcome": "blocked",
+  "summary": "The relative conclusion does not type-match the absolute first-mover naming interfaces in the frozen StageOneViaMaximeEns, FromPrimaViaViaMaximeEns, FromPrimaVia, and POE-Catholic-denies-objection-one proofs. This records a current proof-path gap, not an impossibility theorem. The finite generic weak/Stage1 model does not certify the additional maximum/naming, full root-history, or complete Catholic problem-of-evil bundles. No source predicate is silently identified and no extra relevance or naming bridge is manufactured. See the four exact dispositions in docs/notes/prima-via-strength-consumers.md.",
+  "blocker": "A weaker derivation or countermodel must preserve each entire original additional bundle and its parameter roles. Existing scoped weak countermodels cannot be promoted to that stronger claim.",
+  "evidence": [
+    "CATHOLICISM-STAGE1-VIA-MAXIME-ENS",
+    "CATHOLICISM-FROM-PRIMA-VIA-VIA-MAXIME-ENS",
+    "CATHOLICISM-FROM-PRIMA-VIA",
+    "POE-CATHOLIC-DENIES-OBJECTION-ONE",
+    "PRIMA-VIA-WEAK-CONSUMER-BOUNDARIES"
+  ]
+}

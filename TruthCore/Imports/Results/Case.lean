@@ -67,3 +67,10 @@ public import TruthCore.Results.Case.Catholicism.StageTwo.GodIsSupremelyGood.Sol
 public import TruthCore.Results.Case.Catholicism.StagesOneTwo.Solution
 public import TruthCore.Results.Case.Catholicism.StagesOneTwoIdentity.Solution
 public import TruthCore.Results.Case.Catholicism.StagesOneTwoQ11.Solution
+public import TruthCore.Results.Case.Catholicism.StrengthConsumers.Boundary.Solution
+public import TruthCore.Results.Case.Catholicism.StrengthConsumers.IdentityWitness.Solution
+public import TruthCore.Results.Case.Catholicism.StrengthConsumers.Q11Witness.Solution
+public import TruthCore.Results.Case.Catholicism.StrengthConsumers.RootFull.Solution
+public import TruthCore.Results.Case.Catholicism.StrengthConsumers.RootIdentity.Solution
+public import TruthCore.Results.Case.Catholicism.StrengthConsumers.RootQ11.Solution
+public import TruthCore.Results.Case.Catholicism.StrengthConsumers.StageOneFull.Solution

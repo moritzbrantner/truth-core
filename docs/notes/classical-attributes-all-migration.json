@@ -131,12 +131,12 @@
       "path": "corpus/arguments/CATHOLICISM-STAGES-ONE-TWO-Q11-NATURE.json",
       "status": "inspected",
       "classification": "adopted_potency_scope",
-      "finding": "Original Challenge unchanged. Same f and maximality transport as original composition. Ninth attribute uses Q11NatureUniqueness on original σ.IsGod with explicit hIndividual, hNature, hCommon, rather than hMaximal. Same f receives all nine predicates and the primitive field. F7 continuation: inspected the new DISAMB-POTENCY navigation link; the generic theorem, argument premises and conclusion are unchanged. The disambiguation explicitly retains independent potency for this generic configuration. #1111: added required DISAMB-MAXIME-ENS navigation for the existing generic-perfection/maxime-ens vocabulary union; argument premises, inference IDs and theorem remain unchanged.",
+      "finding": "Original Challenge unchanged. Same f and maximality transport as original composition. Ninth attribute uses Q11NatureUniqueness on original σ.IsGod with explicit hIndividual, hNature, hCommon, rather than hMaximal. Same f receives all nine predicates and the primitive field. F7 continuation: inspected the new DISAMB-POTENCY navigation link; the generic theorem, argument premises and conclusion are unchanged. The disambiguation explicitly retains independent potency for this generic configuration. Strength-consumer audit (#1021): inspected the new strong_version_needed disposition. The original premise list, conclusion, Challenge and Solution are unchanged. Redundant for the conclusion; evidence and exact scope: CATHOLICISM-Q11-WITNESS-WITHOUT-MOTION and docs/notes/prima-via-strength-consumers.md. No global necessity or premise-truth claim is added. #1111: added required DISAMB-MAXIME-ENS navigation for the existing generic-perfection/maxime-ens vocabulary union; argument premises, inference IDs and theorem remain unchanged.",
       "before": {
         "sha256": "21a6d8efa53accb59532c6fafb164ee5d011344910fec0c6f53e51c648fae863",
         "lean_declaration": null
       },
-      "reviewed_sha256": "7232d762d7c399e31dcc84c0dcf8a60cc8b802cc866db5a767a1fd84aa07a12f"
+      "reviewed_sha256": "fe060c3cc3a021401c6ed4f78d58cfec7124f2d1fe4de8c98bdaee18a3a80581"
     },
     {
       "kind": "arguments",
@@ -144,12 +144,12 @@
       "path": "corpus/arguments/CATHOLICISM-STAGES-ONE-TWO-SAME-WITNESS.json",
       "status": "inspected",
       "classification": "adopted_potency_scope",
-      "finding": "Original Challenge unchanged. Obtain First-Way f, identify it with Fourth-Way m using the imported equality, transport maximality to f, name f, and apply all eight pointwise proofs to f. Ninth attribute uses original σ.IsGod and retained hMaximal; bridge applied to that same f. F7 continuation: inspected the new DISAMB-POTENCY navigation link; the generic theorem, argument premises and conclusion are unchanged. The disambiguation explicitly retains independent potency for this generic configuration. #1111: added required DISAMB-MAXIME-ENS navigation for the existing generic-perfection/maxime-ens vocabulary union; argument premises, inference IDs and theorem remain unchanged.",
+      "finding": "Original Challenge unchanged. Obtain First-Way f, identify it with Fourth-Way m using the imported equality, transport maximality to f, name f, and apply all eight pointwise proofs to f. Ninth attribute uses original σ.IsGod and retained hMaximal; bridge applied to that same f. F7 continuation: inspected the new DISAMB-POTENCY navigation link; the generic theorem, argument premises and conclusion are unchanged. The disambiguation explicitly retains independent potency for this generic configuration. Strength-consumer audit (#1021): inspected the new strong_version_needed disposition. The original premise list, conclusion, Challenge and Solution are unchanged. Redundant for the conclusion; evidence and exact scope: CATHOLICISM-QUARTA-VIA-CLASSICAL-WITNESS and docs/notes/prima-via-strength-consumers.md. No global necessity or premise-truth claim is added. #1111: added required DISAMB-MAXIME-ENS navigation for the existing generic-perfection/maxime-ens vocabulary union; argument premises, inference IDs and theorem remain unchanged.",
       "before": {
         "sha256": "e01d0e55edc32c4c7bf7c5814ad9fe41f3a51bf5a12a67b7b46b1254b11a5c57",
         "lean_declaration": null
       },
-      "reviewed_sha256": "a16b3e4bd691cf955703de6468e4708a07e4a2928bbea6f4af81e06b6e5d822c"
+      "reviewed_sha256": "631e7a2d59b33fb2febeb19b707a954d242dda4ac90f042c25f7361c5496c2c2"
     },
     {
       "kind": "statements",

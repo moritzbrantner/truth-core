@@ -1,0 +1,13 @@
+{
+  "id": "INF-POE-EVIL-PREMISE-FROM-DUE-DEFICIENCY",
+  "input_statement_ids": [
+    "STMT-EVIL-IS-PRIVATION-OF-DUE-GOOD",
+    "STMT-SOMETHING-FALLS-SHORT-OF-DUE-GOOD",
+    "STMT-EVIL-IS-AS-PROPOSITIONAL-TRUTH"
+  ],
+  "output_statement_id": "STMT-EVIL-PREMISE-IS-TRUE",
+  "rule": "constructive-proof",
+  "meaning": "A due good is absent in a supplied subject. The privation equivalence classifies that deficiency as evil and thus supplies an evil witness; no motion, God, goodness-coextension or per-evil production commitment is used. The explicit sentence-truth bridge then yields the advertised sentence; this final application is a reduced transcription, not independent warrant for the bridge or premise truth.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,21 @@
+{
+  "id": "PRIMA-VIA-WEAK-CONSUMER-BOUNDARIES",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-PRIMA-VIA-WEAK-CONSUMER-BOUNDARIES",
+  "inference_ids": [
+    "INF-PRIMA-VIA-WEAK-CONSUMER-BOUNDARIES"
+  ],
+  "meaning": "Five typed boundaries in the original independent-potency dictionary: the weaker relevant-respect link fails to yield the absolute conclusion even with the being-in-act reduction; it fails to transfer well-founded per-se regress to the exact VII.1 and VIII.5 chains; the relative conclusion can coexist with all other generic Stage1 inputs and no God witness; and the director-regress interface with that weak link fails even retaining its through-director and unmoved-design bridges. The director test retains excluded middle explicitly. No claim covers additional Fourth-Way, later-attribute, problem-of-evil or historical premises.",
+  "definition_ids": [
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-INDEPENDENT-POTENCY",
+    "DEF-PER-SE-LINK-RELEVANT-RESPECT",
+    "DEF-FIRST-UNMOVED-MOVER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-POTENCY",
+    "DISAMB-PER-SE-LINK"
+  ]
+}

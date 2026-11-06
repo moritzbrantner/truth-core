@@ -1,0 +1,29 @@
+{
+  "id": "INF-CATHOLICISM-FROM-FULL-DESCRIPTION-WITHOUT-MOTION",
+  "input_statement_ids": [
+    "STMT-THINGS-MORE-AND-LESS-GOOD-TRUE-NOBLE",
+    "STMT-GRADES-HAVE-A-MAXIMUM",
+    "STMT-MOST-TRUE-IS-MOST-BEING",
+    "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
+    "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING",
+    "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-CAUSE-OF-BEING-CAUSES-EVERY-PERFECTION",
+    "STMT-NO-COMPONENT-IS-FIRST-BEING",
+    "STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING",
+    "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE",
+    "STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES",
+    "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE",
+    "STMT-JESUS-CLAIMED-DIVINE-AUTHORITY-AND-ROSE",
+    "STMT-CHRIST-FOUNDED-VISIBLE-CHURCH",
+    "STMT-CHRISTS-CHURCH-IS-THE-CATHOLIC-CHURCH",
+    "STMT-BRIDGE-CHRISTS-CHURCH-FOUNDED-BY-GOD",
+    "STMT-BRIDGE-GOD-FOUNDED-AUTHORITY-PROPOSES-ONLY-TRUTH",
+    "STMT-CATHOLIC-CHURCH-DEFINITIVELY-PROPOSES-CREED"
+  ],
+  "output_statement_id": "STMT-CATHOLICISM-TRUE",
+  "rule": "constructive-proof",
+  "meaning": "Analyst reduction of CATHOLICISM-FROM-PRIMA-VIA-VIA-FULL-DESCRIPTION: the existing Fourth-Way theorem supplies a maximum and the existing full-description naming theorem names that maximum. Use it directly, without the First-Way motion, absolute-unmovedness, or created-agent-identification detour. The same endpoint is retained; no minimality, premise truth, or philosophical discharge is claimed.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
