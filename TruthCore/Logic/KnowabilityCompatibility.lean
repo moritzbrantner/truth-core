@@ -76,4 +76,17 @@ def LineSurvivor : Prop :=
   GlobalRestrictedEquivalence c C ∧ Moore c survivorAtom c.actual ∧
   ¬ MooreAdmissible c C survivorAtom
 
+/-- A nonvacuous joint background for the collapse: use the earlier modal
+frame for BOTH relations, retain the same nonconstant atom and admissibility. -/
+def positiveContext : Context (Fin 4) :=
+  relationalContext survivorModal survivorModal 0
+
+def PositiveSurvivor : Prop :=
+  let c := positiveContext
+  let C := AtomInvariant survivorAtom
+  Euclidean c.modal ∧ Included survivorModal c.modal ∧
+  BooleanClosed C ∧ C survivorAtom ∧
+  GlobalRestrictedEquivalence c C ∧ AdmittedKnown c C ∧
+  survivorAtom 0 ∧ ¬ survivorAtom 1
+
 end TruthCore.Logic.KnowabilityCompatibility
