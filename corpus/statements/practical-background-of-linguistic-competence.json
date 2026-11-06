@@ -1,0 +1,12 @@
+{
+  "id": "STMT-PRACTICAL-BACKGROUND-OF-LINGUISTIC-COMPETENCE",
+  "paraphrase": "OPEN analyst formulation; attribution DEFERRED: Competent participation in at least some linguistic practices depends on learned practical capacities and shared regularities of action for which possession of further verbal interpretations alone is insufficient. This is a restricted claim about competence, not truth by agreement, universal cultural uniformity, or immunity from external criticism.",
+  "definition_ids": [
+    "DEF-PRACTICAL-BACKGROUND-OF-COMPETENCE",
+    "DEF-ACTIVITY-SENSITIVE-LINGUISTIC-PRACTICE"
+  ],
+  "note": "Unproved and unestablished. No Lean declaration, source claim or self-evidence marking. The bearing classification and strongest rivals are in docs/wittgenstein.md; existing formal boundaries do not establish this existential philosophical proposition.",
+  "disambiguation_ids": [
+    "DISAMB-PRACTICE-SENSITIVITY-AND-FIDEIST-INSULATION"
+  ]
+}

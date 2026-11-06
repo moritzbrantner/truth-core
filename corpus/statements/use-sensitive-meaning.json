@@ -1,0 +1,11 @@
+{
+  "id": "STMT-USE-SENSITIVE-MEANING",
+  "paraphrase": "OPEN analyst formulation; attribution DEFERRED: At least some expressions require attention to their rule-governed role in a specified practice for adequate understanding of competent uses; merely identifying a named object does not exhaust what is required. This asserts neither a universal meaning-is-use identity nor that complete sentence-level inference behavior fixes literal reference.",
+  "definition_ids": [
+    "DEF-USE-SENSITIVE-MEANING"
+  ],
+  "note": "Unproved and unestablished. No Lean declaration, source claim or self-evidence marking. The bearing classification and strongest rivals are in docs/wittgenstein.md; existing formal boundaries do not establish this existential philosophical proposition.",
+  "disambiguation_ids": [
+    "DISAMB-PRACTICE-SENSITIVITY-AND-FIDEIST-INSULATION"
+  ]
+}

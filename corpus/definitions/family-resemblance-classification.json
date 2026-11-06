@@ -1,0 +1,7 @@
+{
+  "id": "DEF-FAMILY-RESEMBLANCE-CLASSIFICATION",
+  "term": "family-resemblance classification under an independent feature vocabulary",
+  "definition": "Relative to a specified classification-feature vocabulary chosen independently of category membership, instances may exhibit overlapping similarity patterns without one feature in that vocabulary common to every instance. The OPEN analyst position asserts that this can adequately describe at least one competent ordinary classification. It does not deny the existence of a membership predicate, arbitrary disjunctive descriptions, or every common nature.",
+  "basis": "stipulative",
+  "note": "Stipulative sense, attribution DEFERRED. Actual category adequacy and the allowed feature stock remain philosophical burdens, not a connected-graph result. A further common feature/disjunctive essence is a surviving rival. No blanket anti-essentialism or claim about all theological concepts; docs/wittgenstein.md."
+}
