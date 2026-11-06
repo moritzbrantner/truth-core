@@ -1,0 +1,20 @@
+{
+  "id": "STMT-POSITIVE-BOOLEAN-MEREOLOGY-PROFILE",
+  "paraphrase": "For every supplied Mathlib complete Boolean algebra, its nonzero elements satisfy the existing exact-remainder and all-nonempty-family Sum1/Sum2 profile. No atomicity or absence of a least positive element is assumed or concluded generically.",
+  "lean_declaration": "TruthCore.Mereology.AtomlessFusionProfile.PositiveProfile",
+  "definition_ids": [
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-MEREOLOGICAL-COMPLEMENTATION",
+    "DEF-SUM1-LEAST-UPPER-BOUND",
+    "DEF-POSITIVE-BOOLEAN-MEREOLOGY",
+    "DEF-REGULAR-REAL-REGION-MEREOLOGY",
+    "DEF-ATOMIC-FUSION-CONTRAST",
+    "DEF-FINITE-NO-GUNK"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GUNK-FUSION-AND-PHYSICAL-COMPOSITION",
+    "DISAMB-SUM1-AND-SUM2-FUSION",
+    "DISAMB-EXACT-REMAINDER-AND-SUPPLEMENT"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "STMT-FINITE-NO-GUNK",
+  "paraphrase": "No finite inhabited partial order can give every object a strict proper part. This rules out finite witnesses for the selected atomless branch without claiming all infinite models are atomless.",
+  "lean_declaration": "TruthCore.Mereology.AtomlessFusionProfile.FiniteBoundary",
+  "definition_ids": [
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-MEREOLOGICAL-COMPLEMENTATION",
+    "DEF-SUM1-LEAST-UPPER-BOUND",
+    "DEF-POSITIVE-BOOLEAN-MEREOLOGY",
+    "DEF-REGULAR-REAL-REGION-MEREOLOGY",
+    "DEF-ATOMIC-FUSION-CONTRAST",
+    "DEF-FINITE-NO-GUNK"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GUNK-FUSION-AND-PHYSICAL-COMPOSITION",
+    "DISAMB-SUM1-AND-SUM2-FUSION",
+    "DISAMB-EXACT-REMAINDER-AND-SUPPLEMENT"
+  ]
+}

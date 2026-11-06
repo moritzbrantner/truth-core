@@ -1,0 +1,11 @@
+{
+  "id": "DISAMB-GUNK-FUSION-AND-PHYSICAL-COMPOSITION",
+  "term": "gunk, atomicity and physical composition",
+  "sense_definition_ids": [
+    "DEF-REGULAR-REAL-REGION-MEREOLOGY",
+    "DEF-ATOMIC-FUSION-CONTRAST",
+    "DEF-POSITIVE-BOOLEAN-MEREOLOGY",
+    "DEF-ATOMIC-SIMPLE-PART"
+  ],
+  "resolution": "Every object has a strict nonempty proper part is stronger than merely failure of all-object atomicity in a mixed domain. Minimal parts (atomicity), fusion of atoms (atomisticity), and terminating decomposition are distinct. Regular open regions form a mathematical carrier: individual points are not objects, joins regularize unions, and remainders collect all disjoint parts rather than every point in a raw set difference. Exact remainder/fusion consistency establishes no physical gunk or actual material universalism. Removing Boolean zero does not alone exclude a least remaining element in every Boolean algebra."
+}

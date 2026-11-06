@@ -1,0 +1,8 @@
+{
+  "id": "DEF-FINITE-NO-GUNK",
+  "term": "finite obstruction to every object being composite",
+  "lean_declaration": "TruthCore.Mereology.AtomlessFusionProfile.FiniteBoundary",
+  "basis": "stipulative",
+  "definition": "FiniteBoundary says no finite inhabited partial order satisfies every object having a strict proper part. Mathlib NoMinOrder.infinite supplies the obstruction. It does not say every infinite domain is atomless or that finite models cannot distinguish other mereological properties.",
+  "note": "Analyst mathematical formulation for #1062; attribution deferred. Physical applicability, substantial unity, composition-as-identity, causation and modal existence remain OPEN. See docs/notes/universal-fusion-grounding.md."
+}
