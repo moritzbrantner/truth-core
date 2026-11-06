@@ -1,0 +1,10 @@
+{
+  "id": "ATOMLESS-COMPLETE-FUSION-MODEL",
+  "argument_id": "ATOMLESS-COMPLETE-FUSION-MODEL",
+  "challenge_module": "TruthCore.Results.Mereology.AtomlessFusionProfile.Challenge",
+  "solution_module": "TruthCore.Results.Mereology.AtomlessFusionProfile.Solution",
+  "theorem": "TruthCore.Results.Mereology.AtomlessFusionProfile.gunkModel",
+  "comparator_config": "results/ATOMLESS-COMPLETE-FUSION-MODEL/comparator.json",
+  "status": "solution-present",
+  "description": "Instantiate the constructed full profile on Mathlib Heyting-regular open real regions, using its Boolean algebra and the complete lattice lifted from its regularization Galois insertion. Every nonempty region contains a real interval; a strictly smaller open interval is regular and misses an interior point of the original region. Top supplies population; NoMinOrder excludes a least object and supplies infinitude."
+}

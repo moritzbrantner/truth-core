@@ -1,0 +1,10 @@
+{
+  "id": "POSITIVE-BOOLEAN-MEREOLOGY-PROFILE",
+  "argument_id": "POSITIVE-BOOLEAN-MEREOLOGY-PROFILE",
+  "challenge_module": "TruthCore.Results.Mereology.AtomlessFusionProfile.Challenge",
+  "solution_module": "TruthCore.Results.Mereology.AtomlessFusionProfile.Solution",
+  "theorem": "TruthCore.Results.Mereology.AtomlessFusionProfile.positiveProfile",
+  "comparator_config": "results/POSITIVE-BOOLEAN-MEREOLOGY-PROFILE/comparator.json",
+  "status": "solution-present",
+  "description": "Construct the exact Boolean difference y minus x when nonzero. Common-part overlap of positive elements is equivalently nonzero meet. For a nonempty family its Boolean supremum is nonzero and supplies Mathlib IsLUB on the subtype. Import the checked Sum1-to-Sum2 transfer; no atomism premise is used."
+}

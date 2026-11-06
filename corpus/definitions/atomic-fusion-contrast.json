@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ATOMIC-FUSION-CONTRAST",
+  "term": "atomic full-fusion contrast",
+  "lean_declaration": "TruthCore.Mereology.AtomlessFusionProfile.AtomicCertificate",
+  "basis": "stipulative",
+  "definition": "AtomicCertificate uses the EXISTING Body of nonempty subsets of Bool. It jointly asserts population, Profile, EXISTING AtomicParts (every object has a minimal part), no least object, and finiteness. This is atomicity, not an advertised theorem that every object is the fusion of all of its atoms; atomic and atomistic are not silently identified.",
+  "note": "Analyst mathematical formulation for #1062; attribution deferred. Physical applicability, substantial unity, composition-as-identity, causation and modal existence remain OPEN. See docs/notes/universal-fusion-grounding.md."
+}

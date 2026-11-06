@@ -1,0 +1,24 @@
+{
+  "id": "FINITE-NO-GUNK",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-FINITE-NO-GUNK",
+  "inference_ids": [
+    "INF-FINITE-NO-GUNK"
+  ],
+  "meaning": "An assumed strict proper part below every object is Mathlib NoMinOrder. Import NoMinOrder.infinite to contradict supplied finiteness. No remainder or fusion assumption is required for this obstruction.",
+  "definition_ids": [
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-MEREOLOGICAL-COMPLEMENTATION",
+    "DEF-SUM1-LEAST-UPPER-BOUND",
+    "DEF-POSITIVE-BOOLEAN-MEREOLOGY",
+    "DEF-REGULAR-REAL-REGION-MEREOLOGY",
+    "DEF-ATOMIC-FUSION-CONTRAST",
+    "DEF-FINITE-NO-GUNK"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GUNK-FUSION-AND-PHYSICAL-COMPOSITION",
+    "DISAMB-SUM1-AND-SUM2-FUSION",
+    "DISAMB-EXACT-REMAINDER-AND-SUPPLEMENT"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-POSITIVE-BOOLEAN-MEREOLOGY",
+  "term": "positive Boolean mereology",
+  "lean_declaration": "TruthCore.Mereology.AtomlessFusionProfile.PositiveProfile",
+  "basis": "stipulative",
+  "definition": "For a supplied Mathlib CompleteBooleanAlgebra A, Positive A removes its bottom element. Profile combines the EXISTING exact Complementation, all-nonempty-Set Mathlib IsLUB formation, and Sum2 Fusion formation on the inherited partial order. Zero removal alone does not guarantee absence of a least positive element; the concrete model certificates separately prove that guard. Generic Profile does not assert population; a trivial Boolean algebra has no positive objects. Concrete model certificates provide nonvacuity separately.",
+  "note": "Analyst mathematical formulation for #1062; attribution deferred. Physical applicability, substantial unity, composition-as-identity, causation and modal existence remain OPEN. See docs/notes/universal-fusion-grounding.md."
+}
