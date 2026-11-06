@@ -1,0 +1,13 @@
+{
+  "id": "STMT-KNOWABILITY-EPISTEMIC-INCLUDED",
+  "paraphrase": "Every epistemic alternative is modally accessible from the same world. This is an explicit open compatibility bridge.",
+  "lean_declaration": "TruthCore.Logic.KnowabilityCompatibility.Included",
+  "definition_ids": [
+    "DEF-FITCH-WORLD-INDEXED-KNOWLEDGE",
+    "DEF-FITCH-ADMISSIBLE-CONTENTS",
+    "DEF-KNOWABILITY-MODAL-COMPATIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FITCH-OPERATOR-SCOPE"
+  ]
+}

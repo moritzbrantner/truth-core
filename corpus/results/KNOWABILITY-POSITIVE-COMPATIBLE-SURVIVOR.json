@@ -1,0 +1,10 @@
+{
+  "id": "KNOWABILITY-POSITIVE-COMPATIBLE-SURVIVOR",
+  "argument_id": "KNOWABILITY-POSITIVE-COMPATIBLE-SURVIVOR",
+  "challenge_module": "TruthCore.Results.Logic.KnowabilityCompatibility.Positive.Challenge",
+  "solution_module": "TruthCore.Results.Logic.KnowabilityCompatibility.Solution",
+  "theorem": "TruthCore.Results.Logic.KnowabilityCompatibility.positiveSurvivor",
+  "comparator_config": "results/KNOWABILITY-POSITIVE-COMPATIBLE-SURVIVOR/comparator.json",
+  "status": "solution-present",
+  "description": "Use the earlier modal equivalence for both epistemic and modal accessibility on the same four worlds and atom-invariant content family. Import its S5 properties and Boolean/nonconstant atom checks, prove the biconditional by content invariance, and compose admittedKnown. This jointly witnesses the three collapse assumptions with a true and a false value of an admitted nonconstant atom. It establishes nonvacuity of the formal background, not actual human knowledge or philosophical premise truth."
+}

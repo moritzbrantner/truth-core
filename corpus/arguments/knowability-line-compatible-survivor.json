@@ -1,0 +1,17 @@
+{
+  "id": "KNOWABILITY-LINE-COMPATIBLE-SURVIVOR",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-KNOWABILITY-LINE-COMPATIBLE-SURVIVOR",
+  "inference_ids": [
+    "INF-KNOWABILITY-LINE-COMPATIBLE-SURVIVOR"
+  ],
+  "meaning": "Import the prior Fitch certificate and use the union of its epistemic and modal relations. Old modal edges preserve old biconditional witnesses; on new epistemic edges symmetry lets knowledge at the endpoint supply truth at the starting world. The reflexive symmetric line includes E and retains biconditional restricted knowability with actual ignorance, while explicit edges0–1 and0–2 without1–2 refute Euclideanness. No actual metaphysical interpretation or global minimality is claimed.",
+  "definition_ids": [
+    "DEF-FITCH-WORLD-INDEXED-KNOWLEDGE",
+    "DEF-FITCH-ADMISSIBLE-CONTENTS",
+    "DEF-KNOWABILITY-MODAL-COMPATIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FITCH-OPERATOR-SCOPE"
+  ]
+}

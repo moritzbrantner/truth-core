@@ -1,0 +1,13 @@
+{
+  "id": "STMT-KNOWABILITY-LINE-COMPATIBLE-SURVIVOR",
+  "paraphrase": "On the same four worlds, epistemic frame, atom and content family, the union of the earlier epistemic and modal relations is the reflexive symmetric line2–0–1–3. It includes epistemic alternatives and satisfies global biconditional restricted knowability with actual ignorance, but is not Euclidean. The Moore content remains inadmissible.",
+  "lean_declaration": "TruthCore.Logic.KnowabilityCompatibility.LineSurvivor",
+  "definition_ids": [
+    "DEF-FITCH-WORLD-INDEXED-KNOWLEDGE",
+    "DEF-FITCH-ADMISSIBLE-CONTENTS",
+    "DEF-KNOWABILITY-MODAL-COMPATIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FITCH-OPERATOR-SCOPE"
+  ]
+}

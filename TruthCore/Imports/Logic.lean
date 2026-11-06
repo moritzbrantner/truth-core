@@ -11,6 +11,7 @@ import TruthCore.Logic.ExcludedMiddle
 import TruthCore.Logic.FallibleCorrection
 import TruthCore.Logic.FitchKnowability
 import TruthCore.Logic.JustificationIntrospection
+import TruthCore.Logic.KnowabilityCompatibility
 import TruthCore.Logic.KnowledgeRetorsion
 import TruthCore.Logic.LimitAdmission
 import TruthCore.Logic.MaximumOrder

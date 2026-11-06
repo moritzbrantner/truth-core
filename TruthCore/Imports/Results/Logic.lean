@@ -13,6 +13,7 @@ import TruthCore.Results.Logic.ExcludedMiddleNotDeniable.Solution
 import TruthCore.Results.Logic.FallibleCorrection.Solution
 import TruthCore.Results.Logic.FitchKnowability.Solution
 import TruthCore.Results.Logic.JustificationIntrospection.Solution
+import TruthCore.Results.Logic.KnowabilityCompatibility.Solution
 import TruthCore.Results.Logic.KnowledgeRetorsion.Solution
 import TruthCore.Results.Logic.LimitAdmission.Solution
 import TruthCore.Results.Logic.MaximumOrderSchema.Solution
