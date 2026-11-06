@@ -2,6 +2,14 @@
 module
 
 public import TruthCore.Results.Case.Catholicism.StageThree.CommissionAttestation.Solution
+public import TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Coverage.Solution
+public import TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Elimination.Solution
+public import TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Matching.Solution
+public import TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Models.Solution
+public import TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Narrow.Solution
+public import TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Scope.Solution
+public import TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Strength.Solution
+public import TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Witness.Solution
 public import TruthCore.Results.Case.Catholicism.StageThree.Commissions.Solution
 public import TruthCore.Results.Case.Catholicism.StageThree.DivineFounding.Solution
 public import TruthCore.Results.Case.Catholicism.StageThree.FoundingScope.Solution

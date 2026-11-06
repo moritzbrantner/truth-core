@@ -1,0 +1,19 @@
+{
+  "id": "STMT-COMMISSION-GOVERNANCE-IS-NARROW",
+  "paraphrase": "Open analyst calibration: the selected governing predicate on the existing nine powers matches the unchanged fixed Power.Governing table. Teaching, baptizing, discipling and preaching remain outside that narrow table.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.CommissionDefinitions.NarrowGovernanceCriterion",
+  "definition_ids": [
+    "DEF-COMMISSION-GOVERNANCE-CALIBRATION",
+    "DEF-TEACHING-INCLUSIVE-GOVERNING-POWER",
+    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
+    "DEF-COMMISSION-REPORT-POWERS",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMMISSION-GOVERNANCE-CRITERIA",
+    "DISAMB-COMMISSION-REPORT-AND-EVENT",
+    "DISAMB-FOUNDED-BY-GOD",
+    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS"
+  ]
+}

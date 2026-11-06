@@ -1,0 +1,11 @@
+{
+  "id": "INF-COMMISSION-REPORT-BUNDLE-SUPPLIES-MATTHEW28",
+  "input_statement_ids": [
+    "STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS"
+  ],
+  "output_statement_id": "STMT-MATTHEW28-COMMISSION-GOES-BACK-TO-JESUS",
+  "rule": "constructive-proof",
+  "meaning": "Project the weaker Matthew 28 historical commission from the existing report-to-event bundle. Assembly transcription; no actual event is derived from the literal textual report.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

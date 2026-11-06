@@ -1,0 +1,10 @@
+{
+  "id": "COMMISSION-GOVERNANCE-INTERPRETATION-MODELS",
+  "argument_id": "COMMISSION-GOVERNANCE-INTERPRETATION-MODELS",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Models.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Models.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Models.criterionModels",
+  "comparator_config": "results/COMMISSION-GOVERNANCE-INTERPRETATION-MODELS/comparator.json",
+  "status": "solution-present",
+  "description": "Reuse Commissions.messageRival_compatible_with_mt28 to witness old narrow link true/broader link false with a real mandate and founded visible body. A full commissioning controls consistency. Baptize-inclusive Other admits the target; no-governing Other rejects it with a matching bridge and the same nonempty context. These are schema controls, not history."
+}

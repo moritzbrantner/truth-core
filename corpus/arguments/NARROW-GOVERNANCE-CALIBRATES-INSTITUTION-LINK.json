@@ -1,0 +1,25 @@
+{
+  "id": "NARROW-GOVERNANCE-CALIBRATES-INSTITUTION-LINK",
+  "premise_statement_ids": [
+    "STMT-COMMISSION-GOVERNANCE-IS-NARROW"
+  ],
+  "conclusion_statement_id": "STMT-COMMISSION-NARROW-INSTITUTION-LINK-CALIBRATION",
+  "inference_ids": [
+    "INF-NARROW-GOVERNANCE-CALIBRATES-INSTITUTION-LINK"
+  ],
+  "meaning": "Transport governing-power premises in both directions through the explicit narrow calibration, preserving mandate/body/visibility and teaching. This checks exact equivalence with the original bridge, not a change to its fixed table.",
+  "definition_ids": [
+    "DEF-COMMISSION-GOVERNANCE-CALIBRATION",
+    "DEF-TEACHING-INCLUSIVE-GOVERNING-POWER",
+    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
+    "DEF-COMMISSION-REPORT-POWERS",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMMISSION-GOVERNANCE-CRITERIA",
+    "DISAMB-COMMISSION-REPORT-AND-EVENT",
+    "DISAMB-FOUNDED-BY-GOD",
+    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS"
+  ]
+}

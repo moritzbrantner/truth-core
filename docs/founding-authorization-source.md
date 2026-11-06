@@ -331,6 +331,50 @@ modern treatments are copyrighted and were not read
 **Premise effect.** No change. The conclusion is used by no argument reaching
 the root, so `frontier --reaching-root` and `--routes` are unchanged.
 
+## Governing-power criteria and matching institutional bridge (analyst reconstruction, 2026-11-06)
+
+The fixed nine-power `Power.Governing` table and source claims stay unchanged.
+`CommissionDefinitions` states independent narrow and teaching-inclusive
+calibration propositions for a selected governing predicate. Their named
+coverage is open; EM coverage retains a precise further extension. A criterion
+adding baptizing but not teaching is one such extension. Nothing here claims
+the nine constructors exhaust every real ecclesial power or jurisdiction.
+
+The matching `InstitutionLinkFor` preserves mandate, Catholic body, visibility
+and teaching conditions while exposing the selected criterion as a parameter.
+Under narrow calibration it is equivalent to the original institutional bridge.
+Under teaching-inclusive calibration it supplies the literal broader bridge;
+that fixed broader bridge strengthens the old one as a sole-premise result.
+Its reverse is false in the exact original
+`messageRival_compatible_with_mt28` witness, with an actual mandate, founded
+visible body and Matthew 28 commission. Thus changing the governing label
+cannot transport the old bridge into the broader configuration.
+
+`MATTHEW28-WITH-TEACHING-GOVERNANCE-SUPPLIES-MANDATE-SCOPE` connects directly
+to the unchanged Catholic mandate target. It requires the actual Matthew 28
+commission, teaching-inclusive calibration and a matching institutional bridge.
+Matthew 28 gives teaching; the criterion makes that power governing; the bridge
+carries its institutional consequence. This is a labelled transcription of open
+inputs, not a historical defense. Its historical witness is projected from the
+old full report-to-event bundle, never inferred from the literal report.
+The original narrow-table route still needs an additional governing commission
+and records why.
+
+Named elimination requires actual negation of narrow calibration before using
+the broader case. The original message control shows a narrower configuration
+can grant Matthew 28; that inadequacy of Matthew 28 alone is not falsity of the
+narrow criterion. Further criteria have controls giving opposite mandate-target
+verdicts, so Other opposes only named coverage. The earlier rejected shortcut
+of classifying teaching/baptizing as governing was silent reuse of a mismatched
+bridge; explicit alternative configurations with separate applicability
+premises remain legitimate research inputs.
+
+No report, institutional history, fulfilled promise, recipient identity or
+universal mandate applicability is independently established. The existing
+Gave gave-or-promised reading and its lack of a type-level identity with the
+root jesus remain explicit boundaries. All eight checked results are conditional
+scope/definition comparisons; the original source findings below are retained.
+
 ## Verified witnesses and findings
 
 The complete ranges below were materialized and read, not inferred from the

@@ -1,0 +1,11 @@
+{
+  "id": "INF-NARROW-GOVERNANCE-CALIBRATES-INSTITUTION-LINK",
+  "input_statement_ids": [
+    "STMT-COMMISSION-GOVERNANCE-IS-NARROW"
+  ],
+  "output_statement_id": "STMT-COMMISSION-NARROW-INSTITUTION-LINK-CALIBRATION",
+  "rule": "constructive-proof",
+  "meaning": "Transport governing-power premises in both directions through the explicit narrow calibration, preserving mandate/body/visibility and teaching. This checks exact equivalence with the original bridge, not a change to its fixed table.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
