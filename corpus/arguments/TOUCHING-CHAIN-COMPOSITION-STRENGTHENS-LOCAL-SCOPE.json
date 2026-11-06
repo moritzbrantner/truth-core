@@ -1,0 +1,21 @@
+{
+  "id": "TOUCHING-CHAIN-COMPOSITION-STRENGTHENS-LOCAL-SCOPE",
+  "premise_statement_ids": [
+    "STMT-TOUCHING-CHAIN-FORMS-ONE"
+  ],
+  "conclusion_statement_id": "STMT-LOCAL-TOUCHING-MOVED-MOVER-CHAIN-FORMS-ONE",
+  "inference_ids": [
+    "INF-TOUCHING-CHAIN-COMPOSITION-STRENGTHENS-LOCAL-SCOPE"
+  ],
+  "meaning": "Sole-premise scope restriction of the old global composition reading; the populated control proves that the reverse implication fails. No old source attribution is changed.",
+  "definition_ids": [
+    "DEF-LOCAL-TOUCHING-CHAIN-COMPOSITION-SCOPE",
+    "DEF-CONTACT-OR-CONTINUITY",
+    "DEF-ONE-MADE-OF-ALL",
+    "DEF-LOCAL-BODILY-MOTION",
+    "DEF-PRIMARY-MOVER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION"
+  ]
+}

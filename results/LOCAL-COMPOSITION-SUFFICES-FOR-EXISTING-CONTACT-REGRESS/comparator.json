@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Aristotle.Physics.LocalContactComposition.Regress.Challenge",
+  "solution_module": "TruthCore.Results.Aristotle.Physics.LocalContactComposition.Regress.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Aristotle.Physics.LocalContactComposition.Regress.localCompositionRegress"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

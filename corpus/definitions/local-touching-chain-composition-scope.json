@@ -1,0 +1,8 @@
+{
+  "id": "DEF-LOCAL-TOUCHING-CHAIN-COMPOSITION-SCOPE",
+  "term": "composition restricted to local moved-mover chains",
+  "definition": "The existing TouchingChainFormsOneReading requires a whole for every injective touching chain. LocalTouchingChainFormsOne requires it only when every adjacent pair also satisfies the original LocalMovedMoverLink under the SAME IsLocal, MovedIn, MovesIn and MovesPrimarily dictionary. Contact/continuity and ComposedOf remain the same primitives; no relation transfer or quantitative infinity semantics is hidden in the restriction. The populated two-track Nat×Bool interpretation distinguishes the scopes.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.LocalContactComposition.LocalTouchingChainFormsOne",
+  "note": "Analyst weaker sufficient premise, attribution deferred. Source reading and frozen proof preserved; see docs/notes/local-contact-composition.md. Relation applicability, actual aggregate construction and the existing traversal premise remain OPEN."
+}

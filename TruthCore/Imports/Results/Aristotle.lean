@@ -40,6 +40,9 @@ public import TruthCore.Results.Aristotle.Physics.InfiniteNoPrinciple.Solution
 public import TruthCore.Results.Aristotle.Physics.InfinitePrinciplesUnknowable.Solution
 public import TruthCore.Results.Aristotle.Physics.InitialMoverReductioFails.Solution
 public import TruthCore.Results.Aristotle.Physics.IntellectualHabitsNotAlterations.Solution
+public import TruthCore.Results.Aristotle.Physics.LocalContactComposition.Control.Solution
+public import TruthCore.Results.Aristotle.Physics.LocalContactComposition.Regress.Solution
+public import TruthCore.Results.Aristotle.Physics.LocalContactComposition.Strength.Solution
 public import TruthCore.Results.Aristotle.Physics.MagnitudeMotionTimeNotIndivisibles.Solution
 public import TruthCore.Results.Aristotle.Physics.MarketplaceChance.Solution
 public import TruthCore.Results.Aristotle.Physics.MatterUngeneratedImperishable.Solution

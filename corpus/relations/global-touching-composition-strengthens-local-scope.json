@@ -1,0 +1,10 @@
+{
+  "id": "REL-GLOBAL-TOUCHING-COMPOSITION-STRENGTHENS-LOCAL-SCOPE",
+  "subject_kind": "statement",
+  "subject_id": "STMT-TOUCHING-CHAIN-FORMS-ONE",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "STMT-LOCAL-TOUCHING-MOVED-MOVER-CHAIN-FORMS-ONE",
+  "verification_result_id": "TOUCHING-CHAIN-COMPOSITION-STRENGTHENS-LOCAL-SCOPE",
+  "note": "Sole-premise same-dictionary scope weakening, strict in the populated two-track control. Neither statement is a new identity criterion for wholes."
+}
