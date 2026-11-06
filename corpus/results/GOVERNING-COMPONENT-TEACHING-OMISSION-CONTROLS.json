@@ -1,0 +1,10 @@
+{
+  "id": "GOVERNING-COMPONENT-TEACHING-OMISSION-CONTROLS",
+  "argument_id": "GOVERNING-COMPONENT-TEACHING-OMISSION-CONTROLS",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.StrengthModels.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.StrengthModels.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.governingComponentsDoNotForceTeachingScope",
+  "comparator_config": "results/GOVERNING-COMPONENT-TEACHING-OMISSION-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Two nonempty omission controls retain the needed counterpart input while replacing only the original link or historical bundle by its weaker governing-only projection. Teaching scope fails; the old narrow-scope proof genuinely needs more than these projections."
+}

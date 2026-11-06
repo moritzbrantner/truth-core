@@ -79,4 +79,14 @@ def MessageScopeModels : Prop :=
     MandateCoversOnlyMessage σ A ∧ ActualMandatedCatholicFounding σ A ∧
     CatholicMandateScopeRejected σ A)
 
+/-- The old narrow-scope conclusion retains two teaching requirements that
+neither governing-only projection supplies. All mandate/body witnesses remain
+actual and nonempty in these omission controls. -/
+def GoverningComponentsDoNotForceTeachingScope : Prop :=
+  (∃ σ : Signature, ∃ A : Agency σ, ∃ E : Commissioning,
+    GoverningEventInstitutionLink σ A E ∧ CommissionReportsGoBackToJesus E ∧
+    ActualMandatedCatholicFounding σ A ∧ ¬ MandatedFoundingOfCatholicChurch σ A) ∧
+  (∃ σ : Signature, ∃ A : Agency σ, ∃ E : Commissioning,
+    ChurchFoundedInCommissionedApostles σ A E ∧ GoverningGrantExists E ∧
+    ActualMandatedCatholicFounding σ A ∧ ¬ MandatedFoundingOfCatholicChurch σ A)
 end TruthCore.Case.Catholicism.StageThree.MessageReportBoundary

@@ -6,6 +6,7 @@ public import TruthCore.Results.Case.Catholicism.StageThree.Commissions.Solution
 public import TruthCore.Results.Case.Catholicism.StageThree.DivineFounding.Solution
 public import TruthCore.Results.Case.Catholicism.StageThree.FoundingScope.Solution
 public import TruthCore.Results.Case.Catholicism.StageThree.FoundingScopeStrength.Solution
+public import TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Attestation.Solution
 public import TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Composition.Solution
 public import TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Coverage.Solution
 public import TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Grant.Solution
@@ -15,3 +16,4 @@ public import TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundar
 public import TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Rival.Solution
 public import TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Scope.Solution
 public import TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.ScopeModels.Solution
+public import TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.StrengthModels.Solution
