@@ -292,7 +292,8 @@ to finite intersections, including the empty conjunction.
 
 There is also a positive finite control. With two states of probabilities 0.95
 and 0.05 and threshold 0.9, the accepted events are the likely singleton and the
-universal event. The policy is conjunction closed and rejects contradiction,
+universal event. The Boolean labels name sample states: the singleton event {true} is not the
+logical tautology True. The policy is conjunction closed and rejects contradiction,
 yet its proper accepted event is false if the positive-probability rare state
 is actual. This witnesses a coherent fallible policy, not actual epistemic
 warrant or a defense of its chosen threshold. It prevents a false inference
@@ -320,5 +321,8 @@ conclusions use actual sets, normalized measures and intersections, not opaque
 Prop atoms. The general core theorem is composed into the uniform and skew
 comparisons; probability and truth remain distinct in the positive counterworld.
 The old accuracy/contrastive/induction results remain unchanged and are not
-reintroduced as assumptions. The root-frontier comparison is reported with the
-final verification evidence; no philosophical closure follows from this batch.
+reintroduced as assumptions. All four result bindings and Comparator plus independent NanoDa checks pass
+with the approved Mathlib trio. The frozen Challenge remains unchanged. The
+computed root frontier stays90 (30bare/18supported/42stated), cheapest route31;
+no philosophical closure follows from this batch. Final delivered-head CI/review
+retains integration coverage; local result checks do not certify its outcome.
