@@ -1,0 +1,8 @@
+{
+  "id": "STMT-REALIZED-COMMON-ABSENCE-IS-POSSIBLE",
+  "paraphrase": "Weak OPEN realization interface consumed by the local proof route: if common absence is realized at some admitted time, that common-absence condition is Possible. Does not assert any actual absence; stronger arbitrary-condition realization is separate.",
+  "lean_declaration": "TruthCore.Logic.CollectivePossibilityRouteBoundary.EmptyRealizedIsPossible",
+  "definition_ids": [
+    "DEF-COLLECTIVE-POSSIBILITY-LOCAL-PROOF-ROUTE"
+  ]
+}

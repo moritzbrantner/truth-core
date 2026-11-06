@@ -1,0 +1,10 @@
+{
+  "id": "COLLECTIVE-COUNTERCASE-NEGATES-COLLECTIVE-PREMISE",
+  "argument_id": "COLLECTIVE-COUNTERCASE-NEGATES-COLLECTIVE-PREMISE",
+  "challenge_module": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.CountercaseProjection.Challenge",
+  "solution_module": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.CountercaseProjection.Solution",
+  "theorem": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.CountercaseProjection.countercaseProjection",
+  "comparator_config": "results/COLLECTIVE-COUNTERCASE-NEGATES-COLLECTIVE-PREMISE/comparator.json",
+  "status": "solution-present",
+  "description": "The actual countercase branch negates the SAME collective premise. Keeps the structural OR branch connected to its deciding consequence."
+}

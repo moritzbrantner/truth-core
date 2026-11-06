@@ -1,0 +1,10 @@
+{
+  "id": "REL-REALIZED-POSSIBILITY-STRENGTHENS-COMMON-ABSENCE",
+  "subject_kind": "statement",
+  "subject_id": "STMT-TEMPORALLY-REALIZED-CONDITIONS-ARE-POSSIBLE",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "STMT-REALIZED-COMMON-ABSENCE-IS-POSSIBLE",
+  "verification_result_id": "REALIZED-POSSIBILITY-STRENGTHENS-COMMON-ABSENCE",
+  "note": "Exact sole-premise restriction. No refuted strong version refutes a weak one."
+}

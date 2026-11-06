@@ -1,0 +1,14 @@
+{
+  "id": "REALIZED-POSSIBILITY-STRENGTHENS-COMMON-ABSENCE",
+  "premise_statement_ids": [
+    "STMT-TEMPORALLY-REALIZED-CONDITIONS-ARE-POSSIBLE"
+  ],
+  "conclusion_statement_id": "STMT-REALIZED-COMMON-ABSENCE-IS-POSSIBLE",
+  "inference_ids": [
+    "INF-REALIZED-POSSIBILITY-STRENGTHENS-COMMON-ABSENCE"
+  ],
+  "meaning": "Exact sole-premise restriction from arbitrary-condition realization to the common-absence interface actually used.",
+  "definition_ids": [
+    "DEF-COLLECTIVE-POSSIBILITY-LOCAL-PROOF-ROUTE"
+  ]
+}

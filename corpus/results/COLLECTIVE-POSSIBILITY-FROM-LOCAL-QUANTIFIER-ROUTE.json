@@ -1,0 +1,11 @@
+{
+  "id": "COLLECTIVE-POSSIBILITY-FROM-LOCAL-QUANTIFIER-ROUTE",
+  "argument_id": "COLLECTIVE-POSSIBILITY-FROM-LOCAL-QUANTIFIER-ROUTE",
+  "challenge_module": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.LocalRoute.Challenge",
+  "solution_module": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.LocalRoute.Solution",
+  "theorem": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.LocalRoute.localRoute",
+  "comparator_config": "results/COLLECTIVE-POSSIBILITY-FROM-LOCAL-QUANTIFIER-ROUTE/comparator.json",
+  "status": "solution-present",
+  "description": "Positive route transcription: individual possible absences realize separately, the local shift supplies a common realized absence, and the explicit realization interface makes it Possible. This supports the SAME collective premise rather than opposing it.",
+  "transcription": "instantiation"
+}

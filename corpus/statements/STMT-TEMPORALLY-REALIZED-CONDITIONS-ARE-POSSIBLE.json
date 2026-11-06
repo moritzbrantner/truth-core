@@ -1,0 +1,8 @@
+{
+  "id": "STMT-TEMPORALLY-REALIZED-CONDITIONS-ARE-POSSIBLE",
+  "paraphrase": "OPEN interpretation interface: every condition realized at some admitted time is possible in the supplied Possible sense. No converse, temporal plenitude or definition of possibility as realization is asserted.",
+  "lean_declaration": "TruthCore.Logic.CollectivePossibilityRouteBoundary.RealizedIsPossible",
+  "definition_ids": [
+    "DEF-COLLECTIVE-POSSIBILITY-LOCAL-PROOF-ROUTE"
+  ]
+}
