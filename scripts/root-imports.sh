@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # Every module under TruthCore/ except result challenges (Challenge.lean) is
 # imported by exactly one generated per-area aggregator TruthCore/Imports/<Area>.lean,
-# and TruthCore.lean imports only the aggregators (#416). See scripts/root_imports.py.
+# and TruthCore.lean imports only the aggregators (#416). An aggregator is a Lean module
+# with `public import`s once its whole area is (#986). See scripts/root_imports.py.
 #
 #   scripts/root-imports.sh          check (CI); exits 1 and prints a diff if stale
 #   scripts/root-imports.sh --write  regenerate the aggregators and TruthCore.lean
