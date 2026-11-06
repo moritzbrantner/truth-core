@@ -55,3 +55,19 @@ local-regress conclusion has no root path in the inspected context, so this is a
 weaker conditional sufficient configuration rather than root closure. Exact
 frontier comparison is reported in the PR and CI; no reduction is inferred just
 from registering a weaker premise.
+
+The bounded actual-use dispositions in this batch are:
+
+| Definition IDs | Existing argument consumers inspected | Disposition |
+|---|---|---|
+| `DEF-ARISTOTELIAN-ALTERATION`, `DEF-ARISTOTELIAN-GROWTH`, `DEF-PHYSICAL-PROPORTION-THRESHOLD-READING` | `ARIST-PHYS-250B-NO-GUARANTEED-HALF-AGENT-CHANGE` | Full Chapter5 reading and exact result interface read. Existential non-effect cases imply failure of universal guarantee; no quantitative or modal strengthening. Opaque analysis components remain labelled transcription. |
+| `DEF-CONTACT-OR-CONTINUITY`, `DEF-ONE-MADE-OF-ALL` | `ARIST-PHYS-VII-1-LOCAL-REGRESS-FROM-CONTACT` | Full typed vocabulary, frozen theorem and actual proof read. Consequential all-touching versus local-link composition scope is encoded by this batch. No contact/continuity identity is derived. |
+| `DEF-INFINITE-TRAVERSAL-IN-FINITE-TIME` | `ARIST-PHYS-VII-1-LOCAL-REGRESS-FROM-CONTACT` | Traversal and its impossibility are explicit independent primitives/premises. This batch supplies no quantitative model or general impossibility of supertasks. |
+| `DEF-LOCAL-BODILY-MOTION`, `DEF-PRIMARY-MOVER` | `ARIST-PHYS-VII-1-LOCAL-REGRESS-FROM-CONTACT`, `ARIST-PHYS-VII-1-REGRESS-FROM-PER-SE-REGRESS` | Local/primary chain restriction remains explicit. Exact old strictness interface distinguishes it from general accessibility, including cycles/nonlocal cases. The second consumer's strong-link replacement is reserved to the separate 20-use audit. |
+| `DEF-NATURAL-AND-FORCED-MOTION`, `DEF-PASSIVE-NATURAL-MOTION` | `ARIST-PHYS-VIII-4-EVERY-MOVED-PER-SE-OR-PER-ACCIDENS`, `ARIST-PHYS-VIII-4-EVERY-PHYSICAL-MOTION-HAS-A-PER-SE-MOVER` | Full typed vocabulary and frozen result interfaces read. Existing nested divisions and literal-reading countermodel already expose the deciding per-accidens-to-per-se bridge. No new fork needed. |
+
+Consumers were enumerated from direct argument definition links and definition
+links on their premise/conclusion statement IDs. The new local-composition
+arguments also consume the existing local-chain vocabulary. This is ten exact
+prior definition dispositions, not a claim that every Physics definition or all
+355 parent-owned records have been audited.
