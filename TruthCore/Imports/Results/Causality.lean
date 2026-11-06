@@ -2,6 +2,7 @@
 import TruthCore.Results.Causality.AccidentalFeatureOrigin.Solution
 import TruthCore.Results.Causality.ActualCommonRoot.Solution
 import TruthCore.Results.Causality.ActualCoverNecessaryBeing.Solution
+import TruthCore.Results.Causality.ActualCoverStrictness.Solution
 import TruthCore.Results.Causality.ActualFusionNecessaryBeing.Solution
 import TruthCore.Results.Causality.ActualFusionNecessaryBeingFromPopulation.Solution
 import TruthCore.Results.Causality.ActualRootNecessityUpgrade.Solution

@@ -2,6 +2,7 @@
 import TruthCore.Causality.AccidentalFeatureOrigin
 import TruthCore.Causality.ActualCommonRoot
 import TruthCore.Causality.ActualCoverNecessaryBeing
+import TruthCore.Causality.ActualCoverStrictness
 import TruthCore.Causality.ActualFusionNecessaryBeing
 import TruthCore.Causality.ActualRootUniqueness
 import TruthCore.Causality.ActualUnderivedEssenceEsse

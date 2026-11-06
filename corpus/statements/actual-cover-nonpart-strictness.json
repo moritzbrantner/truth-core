@@ -1,0 +1,28 @@
+{
+  "id": "STMT-ACTUAL-COVER-NONPART-STRICTNESS",
+  "paraphrase": "One coherent three-object, two-world interpretation satisfies all six premises of the existing actual-cover NE route while admitting actual overlapping source/effect with a shared proper part and neither included in the other. The necessary source causes both contingent family members; the effect actually covers their nonempty no-necessary-parts family. CauseNotPartOfEffectAt holds and CauseEffectNonoverlapAt fails. An explicit IntendedProfile witness satisfies the required concrete causal-power interpretation with no abstract candidates. The existing fromPopulation theorem supplies bare NE; no new NE derivation, physical applicability, global minimality or constitutive-support repair follows.",
+  "lean_declaration": "TruthCore.Causality.ActualCoverStrictness.Certificate",
+  "definition_ids": [
+    "DEF-ACTUAL-COVER-NONPART-STRICTNESS",
+    "DEF-ACTUAL-NO-NECESSARY-PARTS-COVER",
+    "DEF-CAUSE-NOT-PART-OF-EFFECT",
+    "DEF-ACTUAL-NO-NECESSARY-PARTS-FUSION",
+    "DEF-ACTUAL-PARTS-AND-CAUSAL-POLICIES",
+    "DEF-NO-NECESSARY-PARTS-AT",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-PSR-POPULATED-WORLD",
+    "DEF-ACTUAL-MODAL-REFLEXIVITY",
+    "DEF-PRESENT-ESSE-SUPPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ACTUAL-COVER-NONPART-AND-FUSION-NONOVERLAP",
+    "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY",
+    "DISAMB-ACTUAL-FUSION-BARE-NE-AND-NECESSARY-CAUSE",
+    "DISAMB-EXISTENCE-ESSE-SUPPORT"
+  ]
+}
