@@ -1,0 +1,15 @@
+{
+  "id": "STMT-GOODNESS-CORRECT-SUPPORT-STRICT-CONTROL",
+  "paraphrase": "One explicit widened original artifact candidate space retains correct-account existence, conditional named support, failure of the feature/approval accounts, and the due-actuality thesis. It exports the admissible named correct .due witness and the admissible extension-unnamed WRONG .other witness. Global semantic named coverage fails. A different wrong account does not prevent support for a correct named account; no property identity or real-world possibility is inferred.",
+  "lean_declaration": "TruthCore.Metaethics.GoodnessCorrectSupport.StrictControl",
+  "definition_ids": [
+    "DEF-FORM-END-DUE-PERFECTION",
+    "DEF-GOODNESS-DUE-ACTUALITY-PROPOSITION",
+    "DEF-GOODNESS-NAMED-DEFINITION-SPACE",
+    "DEF-GOODNESS-SEMANTIC-DEFINITION-COVERAGE",
+    "DEF-GOODNESS-CORRECT-ACCOUNT-SUPPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOODNESS-UNRESTRICTED-DUE-AND-ULTIMATE"
+  ]
+}

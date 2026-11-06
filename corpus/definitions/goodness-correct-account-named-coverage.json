@@ -1,0 +1,8 @@
+{
+  "id": "DEF-GOODNESS-CORRECT-ACCOUNT-NAMED-COVERAGE",
+  "term": "semantic named coverage of correct admissible goodness accounts",
+  "definition": "Every admissible proposal that correctly describes the SAME profile GoodIn relation is semantically named. This is equivalent to conditional existential CorrectAccountSupport, because any two correct accounts coextend. Wrong admissible accounts may remain unnamed. Neither formulation asserts that any correct account actually exists or a property-identity claim.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Metaethics.GoodnessCorrectSupport.CorrectAccountsSemanticallyNamed",
+  "note": "Analyst exact logical scope, not a new adopted OPEN premise. No additional reaching-root premise introduced. P1 correction discussion4497633832; see docs/notes/truth-definition-use-audit.md."
+}

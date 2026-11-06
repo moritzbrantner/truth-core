@@ -1,0 +1,10 @@
+{
+  "id": "GOODNESS-SUPPORT-EQUIVALENT-TO-CORRECT-COVERAGE",
+  "argument_id": "GOODNESS-SUPPORT-EQUIVALENT-TO-CORRECT-COVERAGE",
+  "challenge_module": "TruthCore.Results.Metaethics.GoodnessCorrectSupport.CorrectCoverage.Challenge",
+  "solution_module": "TruthCore.Results.Metaethics.GoodnessCorrectSupport.CorrectCoverage.Solution",
+  "theorem": "TruthCore.Results.Metaethics.GoodnessCorrectSupport.CorrectCoverage.supportCoverageEquivalence",
+  "comparator_config": "results/GOODNESS-SUPPORT-EQUIVALENT-TO-CORRECT-COVERAGE/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional existential named support is equivalent to coverage of every admissible CORRECT account under the SAME goodness/denotation dictionary. Correct accounts coextend with each other and named membership transports along that coextension. This neither asserts a correct account exists nor covers wrong admissible candidates or property identities."
+}

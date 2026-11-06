@@ -1,0 +1,14 @@
+{
+  "id": "GOODNESS-SUPPORT-EQUIVALENT-TO-CORRECT-COVERAGE",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-GOODNESS-SUPPORT-EQUIVALENT-CORRECT-COVERAGE",
+  "inference_ids": [
+    "INF-GOODNESS-SUPPORT-EQUIVALENT-TO-CORRECT-COVERAGE"
+  ],
+  "meaning": "Conditional existential named support is equivalent to coverage of every admissible CORRECT account under the SAME goodness/denotation dictionary. Correct accounts coextend with each other and named membership transports along that coextension. This neither asserts a correct account exists nor covers wrong admissible candidates or property identities.",
+  "definition_ids": [
+    "DEF-GOODNESS-CORRECT-ACCOUNT-SUPPORT",
+    "DEF-GOODNESS-CORRECT-ACCOUNT-NAMED-COVERAGE",
+    "DEF-GOODNESS-SEMANTIC-DEFINITION-COVERAGE"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "INF-GOODNESS-FROM-CORRECT-NAMED-SUPPORT",
+  "input_statement_ids": [
+    "STMT-GOODNESS-CORRECT-ACCOUNT-SUPPORT",
+    "STMT-GOODNESS-CORRECT-ADMISSIBLE-ACCOUNT-EXISTS",
+    "STMT-GOODNESS-FEATURE-ACCOUNT-FAILS",
+    "STMT-GOODNESS-APPROVAL-ACCOUNT-FAILS"
+  ],
+  "output_statement_id": "STMT-GOODNESS-DUE-TO-FORM-AND-END",
+  "rule": "constructive-proof",
+  "meaning": "Weaker conditional elimination reuses GOODNESS-FROM-NAMED-DEFINITION-ELIMINATION on a singleton-admissibility restriction of the SAME proposal meanings at a supported correct witness. No global candidate classification or property identity is inferred.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
