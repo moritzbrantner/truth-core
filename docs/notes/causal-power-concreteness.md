@@ -108,8 +108,18 @@ meet the additional interpretation contract by explicit constructors.
 
 The wrapper's `P2At` and `P3At` can now be evaluated on these adapters, using
 exactly the old profiles and results rather than creating new worlds or theorem
-counts. This supplies well-formed interpretation evidence; it does not turn a
-failed P2 instance into a true one or otherwise close a root obligation.
+counts. Focused compile checks establish the exact premise status: `¬ P2At
+doubledExample false`, by composing the old `doublesPopulation`,
+`doublesWellFounded`, `necessaryConcreteOfGroundedContingents` and
+`doubledHasNoNecessary`. Its actual contingent root has no incoming ground.
+For `rigidExample`, every actual candidate exists necessarily because existence
+is identical at every world; `P2At rigidExample w` therefore holds ONLY vacuously,
+with no actual contingent antecedent. Both have `P3At` via old WF evidence.
+Thus the doubled adapter is not a counterexample to the P2+P3 necessary-concrete
+route: it fails P2. The rigid adapter already has necessary concrete individuals.
+
+This supplies well-formed interpretation evidence, not a nonvacuous model
+of P2+P3 with no necessary concretum or any root-premise closure.
 
 ## Meaning, examples and rivals
 
