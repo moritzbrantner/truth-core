@@ -1,0 +1,9 @@
+{
+  "id": "AQUINAS-SCG-I-3-PHILOSOPHERS-NATURAL-LIGHT",
+  "statement_id": "STMT-AQUINAS-PHILOSOPHERS-PROVED-GOD-BY-NATURAL-LIGHT",
+  "source_id": "AQUINAS-SCG",
+  "locator": "I.3 n.2 [23504], quae etiam philosophi demonstrative de Deo probaverunt, ducti naturalis lumine rationis",
+  "interpretation": "I.3 n.2: 'Quaedam vero sunt ad quae etiam ratio naturalis pertingere potest, sicut est Deum esse, Deum esse unum, et alia huiusmodi; quae etiam philosophi demonstrative de Deo probaverunt, ducti naturalis lumine rationis.' The text does not qualify 'philosophi'; that it means philosophers outside the faith (such as Aristotle) is a reading, not stated here. The claim records the attribution of proof to them, not that the proofs succeed.",
+  "status": "formalized",
+  "attribution": "The passage states that natural reason can reach some truths about God, such as that God exists and is one, and that the philosophers proved these demonstratively, led by the natural light of reason, which is the premise."
+}

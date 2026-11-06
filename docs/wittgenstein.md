@@ -306,6 +306,82 @@ Nielsen's critique (`STMT-NIELSEN-WF-INSULATES-FORMS-OF-LIFE`) is recorded as an
 life can be criticized or defended) unacceptable. Under #1007 that is
 whole-worldview comparison, not falsity.
 
+### The two bridges, sourced and defended (owner request 2026-11-05)
+
+Both bridges remain open: each is supported, not stated, and neither is
+established. So `WF-FAILS-AS-DESCRIPTION-OF-CATHOLIC-PRACTICE` still does not
+count (#999). What changed is the evidence on each side and the fideist reply
+at full strength, recorded as an `alternative_to` the bridge.
+
+**(a) Conciliar definitions are the practice's own standard**
+(`STMT-CONCILIAR-DEFINITION-IS-PRACTICE-OWN-STANDARD`). Supporting texts, each
+a `supports` relation with its gap:
+
+- *The practice's law of teaching.* CIC can. 749 §2: an ecumenical council
+  teaches as "fidei et morum doctores et iudices" for the universal Church
+  when it declares a doctrine definitively. §3: nothing counts as infallibly
+  defined unless that is manifest.
+- *Its standards of membership.* Cann. 750-751 make obstinate denial of what is
+  proposed as revealed heresy. Can. 1364 attaches excommunication to heresy.
+  Can. 1365 punishes teaching "doctrinam ... a Concilio Oecumenico damnatam".
+- *Its self-description.* *Dei Filius* ch. 4 and can. IV.3: the sense of dogma
+  is the sense "quem semel declaravit Sancta Mater Ecclesia".
+- *Wittgenstein.* PU §373: "Welche Art von Gegenstand etwas ist, sagt die
+  Grammatik. (Theologie als Grammatik.)"
+
+The gaps that keep the bridge open:
+
+- §3 and the dogma clauses do not show that can. II.1 is a dogmatic
+  definition.
+- Sanctioning the denial excludes a move; it does not yet endorse the defined
+  move.
+- §373 is an unexplained parenthesis.
+
+Fideist reply, an unattributed reconstruction that Phillips's "rescued from
+philosophical distortion" (2005, 75) only supports:
+`STMT-COUNCIL-TEACHING-THEOLOGY-NOT-GRAMMAR`. Conciliar definitions are
+second-order theology about the practice. The grammar is shown in worship and
+life, and doctrinal formulae may carry philosophical distortion. Recorded
+against it, as `attacks`, not refutations: §373, and the practice's own law
+(can. 1365), which does not treat conciliar condemnations as optional theory.
+The deciding question is who fixes a practice's grammar. It has no vocabulary
+yet, so it stays a judgment.
+
+**(b) "The natural light of human reason" is reason shared with outsiders**
+(`STMT-NATURAL-REASON-IS-SHARED-REASON`). Supporting texts:
+
+- *Dei Filius* ch. 4 distinguishes the two orders of knowledge "principio"
+  ("in altero naturali ratione, in altero fide divina"). It cites the
+  Apostle's testimony that God was known "a gentibus ... per ea, quae facta
+  sunt".
+- Scholastic usage: *Summa contra Gentiles* I.2 n.4, natural reason "cui omnes
+  assentire coguntur", invoked against Muslims and pagans, who share no
+  scriptural authority with Christians. I.3 n.2: the
+  philosophers proved God's existence "ducti naturalis lumine rationis".
+
+The gaps that keep the bridge open: the council does not say "shared with
+outsiders", and Aquinas is a theologian of the practice, not its council.
+
+Fideist reply, unattributed, supported by Clayton and Taylor as SEP *Fideism* §3
+reports them: `STMT-NATURAL-REASON-WITHIN-THEOLOGICAL-HORIZON`. The tradition's
+natural reason works within a theological horizon, towards fellow theists.
+Recorded against it, as `attacks`: SCG I.2 invokes natural reason against
+outsiders to Christianity, and *Dei Filius* ch. 4 appeals to the gentiles.
+Whether those outsiders stand outside every theological horizon (the reply
+allows fellow theists) is a further bridge the texts do not state. Clayton's own report
+places Vatican I after the modern shift to a neutral starting point, which
+cuts against the reply.
+
+**Patristic usage** of *lumen naturale* is not yet pinned. Rom 1:19-20 is the
+common root of *Dei Filius* ch. 2 and ch. 4. A pinned patristic witness is the
+next source step.
+
+**What would make the defeat count.** Each bridge would have to be established:
+self-evident with a met basis (not plausible for either), or defended, with
+every recorded rival refuted from established premises. That means refuting the
+two replies above, which today are met only by stated texts. Both bridges stay
+open, and that is the honest result.
+
 ### Rival entries on route leaves
 
 - `STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE` (12 of 12 routes): rival
@@ -395,7 +471,7 @@ formal concept, the remark would need a further, unattributed step: that
 material predicate ("here is a hand", §1), F2 would be a Moore-type
 proposition. Whether it is then a hinge is the same open bridge as for F3/F4.
 
-### Proposed floor-basis changes (for the owner; none applied)
+### Floor-basis changes (owner decision 2026-11-05: P-OC-1 and P-OC-3 approved)
 
 - **P-OC-1.** Record the hinge readings as a *conditional* disagreement with F3
   and F4: they bear on F3 and F4 only if those items function as hinges, a
@@ -404,7 +480,9 @@ proposition. Whether it is then a hinge is the same open bridge as for F3/F4.
   This is not a listing of the claims as denials of F3 and F4 themselves.
   Under #1007 it is bookkeeping: the approval stays, and the possible
   disagreement becomes visible together with its missing bridge.
-  Recommended, with the bridge stated.
+  **Applied:** the F3 (`STMT-SOMETHING-CHANGES`) and F4
+  (`STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD`) disagreement records now list the
+  three claims, with a note naming the missing bridge. Both markings stay met.
 - **P-OC-2.** Use `WITTGENSTEIN-UNIVERSAL-DOUBT-FAILS` as the refutation of a
   recorded *global* doubt rival, should one ever be listed under
   `sceptical_rival_ids` for an observation marking. It cannot count until
@@ -413,7 +491,7 @@ proposition. Whether it is then a hinge is the same open bridge as for F3/F4.
 - **P-OC-3.** Do not adopt a "hinge" basis for F2-F4. On senses 2-4 it would
   make the items stand fast without establishing them as known truths. On
   senses 3-4 it would also leave their truth-aptness in question. That is
-  weaker than the case needs.
+  weaker than the case needs. **Approved:** no hinge basis is added.
 
 ## Philosophical Investigations
 

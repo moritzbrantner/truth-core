@@ -742,12 +742,12 @@
       "path": "corpus/statements/something-is-moved-in-this-world.json",
       "status": "unresolved",
       "classification": "open_premise",
-      "finding": "Retained explicit open commitment: Something in this world is being moved (reduced from potency to act in some respect); this is evident to the senses. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification. Re-reviewed 2026-11-05 after the record gained the owner-approved observation floor marking F4 (#1007): the Lean declaration and paraphrase are unchanged; the statement is now established relative to that approval, with its Eleatic and McTaggart-style rivals recorded and unrefuted.",
+      "finding": "Retained explicit open commitment: Something in this world is being moved (reduced from potency to act in some respect); this is evident to the senses. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification. Re-reviewed 2026-11-05 after the record gained the owner-approved observation floor marking F4 (#1007): the Lean declaration and paraphrase are unchanged; the statement is now established relative to that approval, with its Eleatic and McTaggart-style rivals recorded and unrefuted. Re-reviewed 2026-11-06 after its disagreement record gained the conditional On Certainty hinge-reading claims (P-OC-1, #1010): only the disagreement record changed; the Lean declaration, paraphrase, basis and approval are unchanged, and the marking stays met.",
       "before": {
         "sha256": "031871baee7733c258d26d38fbcf4ca5ae4c011fcb49c78ceea612ddf32a36df",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.SomethingIsMovedReading"
       },
-      "reviewed_sha256": "f2bd00da20eeb7b2634c122dcc1cb991e7c1ca066e20c548f104c53523ac5594"
+      "reviewed_sha256": "af1e0a99082167ed1ea0fd9da5bdce7563ff6422b9957124e0eb52fcf662bc16"
     },
     {
       "kind": "statements",

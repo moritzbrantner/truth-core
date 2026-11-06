@@ -1,0 +1,31 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "CODEX-IURIS-CANONICI-1983",
+    "source_url": "https://www.vatican.va/archive/cod-iuris-canonici/latin/documents/cic_liberVI_la.html",
+    "retrieved_at": "2026-11-06T07:51:56Z",
+    "sha256": "sha256:8a85a5ec741dbc051f8f23b29a8bec86a9e96cbbba621d83064ab48be2e17d51",
+    "encoding": "iso-8859-1",
+    "language": "lat",
+    "license": "Official Latin text of the Codex Iuris Canonici (1983; Book VI as revised by Pascite gregem Dei, 2021) on the Holy See's site; the page carries no reuse notice (checked 2026-11-06). Only hashes, locators and a short incipit are committed. Two fetches on 2026-11-06 gave identical bytes. No Wayback fallback: web.archive.org refused connections from the pinning environment."
+  },
+  "passages": [
+    {
+      "id": "CIC-1983-1364-1369",
+      "locator": "Book VI, Part II, Title I (delicts against the faith and the unity of the Church), cann. 1364-1369",
+      "claim_locator_prefixes": [
+        "can. 136"
+      ],
+      "html_selector": {
+        "from": {
+          "anchor": "pars2 tit1"
+        },
+        "to": {
+          "anchor": "pars2 tit2"
+        }
+      },
+      "text_sha256": "sha256:eabdf83a28c0dc5030c3cbc34090cab057e8c2fdacbbcab094fb356fa29544dd",
+      "incipit": "TITULUS I\nDE DELICTIS CONTRA FIDEM\nET ECCLESIAE UNITATEM\nCan. 1364 - § 1."
+    }
+  ]
+}

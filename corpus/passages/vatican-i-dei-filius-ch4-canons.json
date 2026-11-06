@@ -1,0 +1,48 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "VATICAN-I-DEI-FILIUS",
+    "source_url": "https://www.vatican.va/archive/hist_councils/i-vatican-council/documents/vat-i_const_18700424_dei-filius_la.html",
+    "retrieved_at": "2026-10-24T01:22:12Z",
+    "sha256": "sha256:cdb6433e97aaa0fd31cd148d513392324c39779f0137402208ad66d19e8d7016",
+    "encoding": "iso-8859-1",
+    "language": "lat",
+    "license": "Conciliar text of 1870 (public domain); the page carries no copyright or reuse notice (checked 2026-10-24). Publisher per page metadata: Segreteria per la Comunicazione (Holy See). Only hashes, locators and a short incipit are committed.",
+    "wayback_url": "https://web.archive.org/web/20260221050058id_/https://www.vatican.va/archive/hist_councils/i-vatican-council/documents/vat-i_const_18700424_dei-filius_la.html",
+    "wayback_sha256": "sha256:cdb6433e97aaa0fd31cd148d513392324c39779f0137402208ad66d19e8d7016"
+  },
+  "passages": [
+    {
+      "id": "VATICAN-I-DEI-FILIUS-CH4",
+      "locator": "ch. 4 (DS 3015-3020)",
+      "claim_locator_prefixes": [
+        "ch. 4, "
+      ],
+      "html_selector": {
+        "from": {
+          "text": "CAPUT IV"
+        },
+        "to": {
+          "text": "CANONES"
+        }
+      },
+      "text_sha256": "sha256:d83564788b47a9de54e0e9703d3bad77ab0bcb5503cc17458eb87255b780e653",
+      "incipit": "CAPUT IV\nDE FIDE ET RATIONE\nHoc quoque perpetuus Ecclesiae catholicae consensus"
+    },
+    {
+      "id": "VATICAN-I-DEI-FILIUS-CANONS-IV",
+      "locator": "canons IV, De fide et ratione, with the closing exhortation (DS 3041-3045)",
+      "claim_locator_prefixes": [
+        "can. IV."
+      ],
+      "html_selector": {
+        "from": {
+          "text": "IV. DE FIDE ET RATIONE"
+        }
+      },
+      "text_sha256": "sha256:9091336055362443c815d24194cd2de3155deeda287931287f1a0ff70eebcfbd",
+      "incipit": "IV. DE FIDE ET RATIONE\n1. Si quis dixerit, in revelatione divina nulla vera et"
+    }
+  ],
+  "notes": "Third manifest on the pinned Dei Filius page (same bytes as vatican-i-dei-filius.json), added for #1010 so the existing passages and claims stay untouched."
+}

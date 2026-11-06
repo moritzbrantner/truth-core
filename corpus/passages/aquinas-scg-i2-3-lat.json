@@ -1,0 +1,32 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "AQUINAS-SCG",
+    "source_url": "https://www.corpusthomisticum.org/scg1001.html",
+    "retrieved_at": "2026-11-06T07:51:57Z",
+    "sha256": "sha256:fed1a3735c86ec66dfdd04819e7121bcee7fb0407787264954508984d210f105",
+    "encoding": "iso-8859-1",
+    "language": "lat",
+    "license": "Corpus Thomisticum identifies its text as 'Textum Leoninum emendatum ex plagulis de prelo Taurini 1961 editum' (the Leonine text as corrected from the proofs of the Turin 1961 edition); ©2019 Fundación Tomás de Aquino quoad hanc editionem, all rights reserved. The medieval work is public domain; no open licence for the digital transcription is asserted. Only metadata, hashes, locators and a short incipit are committed. Two fetches on 2026-11-06 matched response and selected-text bytes. No archive fallback is pinned: the Wayback Machine was unreachable from the pinning host. No translation is claimed."
+  },
+  "passages": [
+    {
+      "id": "AQUINAS-SCG-I-2-3-LAT",
+      "locator": "I.2 n.2 - I.3 n.2 [23498-23504]",
+      "claim_locator_prefixes": [
+        "I.2 ",
+        "I.3 "
+      ],
+      "html_selector": {
+        "from": {
+          "anchor": "23498"
+        },
+        "to": {
+          "anchor": "23505"
+        }
+      },
+      "text_sha256": "sha256:4212098aea873d263b9cefef8455e76381f5ec2fe0c2f4b9ae6c7c0eaa7fde4d",
+      "incipit": "[23498] Contra Gentiles, lib. 1 cap. 2 n. 2 Assumpta igitur ex divina pietate"
+    }
+  ]
+}
