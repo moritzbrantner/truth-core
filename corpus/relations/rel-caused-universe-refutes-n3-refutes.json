@@ -1,0 +1,9 @@
+{
+  "id": "REL-CAUSED-UNIVERSE-REFUTES-N3",
+  "subject_kind": "argument",
+  "subject_id": "CAUSED-UNIVERSE-REFUTES-N3",
+  "predicate": "refutes",
+  "object_kind": "statement",
+  "object_id": "STMT-NATURALISM-N3",
+  "note": "Conditional consequence-defeat (#1007, owner argument on #1109): it rests on the open caused-universe premise and bridges, so it does not count (#999). The naturalist escapes are certified: NATURALIST-UNCAUSED-UNIVERSE-SURVIVOR (brute universe, regress) and CAUSAL-LOOP-REJECTS-BRIDGE (bridge denied)."
+}

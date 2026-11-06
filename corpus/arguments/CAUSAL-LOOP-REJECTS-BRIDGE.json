@@ -1,0 +1,16 @@
+{
+  "id": "CAUSAL-LOOP-REJECTS-BRIDGE",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-CAUSAL-LOOP-REJECTS-BRIDGE",
+  "inference_ids": [
+    "INF-CAUSAL-LOOP-REJECTS-BRIDGE"
+  ],
+  "meaning": "A model with the whole, two parts a and b that cause each other, a causing the whole, and a non-existent number two: the whole has an existing cause, every naturalist variant and the floor item hold, nothing causes itself, and the whole-to-part bridge fails, since it would make a cause itself.",
+  "definition_ids": [
+    "DEF-SPATIOTEMPORAL-FRAME",
+    "DEF-PART-OF-SPACETIME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SPATIOTEMPORAL"
+  ]
+}

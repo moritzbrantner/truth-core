@@ -1,0 +1,9 @@
+{
+  "id": "STMT-TEMPORAL-CONTAINED-IN-SPACETIME",
+  "paraphrase": "Open premise: whatever is temporal, in the supplied sense, is a part of the spacetime whole: there is no time (no other temporal series, such as an aevum) outside this spacetime.",
+  "lean_declaration": "TruthCore.Ontology.NaturalismConsequences.TemporalContainedInSpacetime",
+  "definition_ids": [
+    "DEF-PART-OF-SPACETIME",
+    "DEF-SPATIOTEMPORAL-FRAME"
+  ]
+}

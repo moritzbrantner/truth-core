@@ -1,0 +1,9 @@
+{
+  "id": "REL-CONCRETE-NOT-SPATIOTEMPORAL-ALTERNATIVE-TO-N2",
+  "subject_kind": "statement",
+  "subject_id": "STMT-SOME-CONCRETE-BEING-NOT-SPATIOTEMPORAL",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-NATURALISM-N2",
+  "note": "The Thomist combination is the contradictory of N2 for the same sense and world (Naturalism.concreteNaturalism_excludes proves N2 excludes it; the converse needs excluded middle). Neither is a route premise, so the relation records the rivalry without a cost effect."
+}

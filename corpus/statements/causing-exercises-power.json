@@ -1,0 +1,5 @@
+{
+  "id": "STMT-CAUSING-EXERCISES-POWER",
+  "paraphrase": "Open reading premise: at the selected world whatever causes something has causal power (the exercise-to-power reading that the IntendedProfile contract of CausalPowerConcreteness also adopts).",
+  "lean_declaration": "TruthCore.Ontology.NaturalismConsequences.CausingExercisesPower"
+}

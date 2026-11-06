@@ -1,0 +1,9 @@
+{
+  "id": "INF-NATURALIST-UNCAUSED-UNIVERSE-SURVIVOR",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-NATURALIST-UNCAUSED-UNIVERSE-SURVIVOR",
+  "rule": "constructive-proof",
+  "meaning": "A model with the spacetime whole, its stages part n (each caused by part (n+1)) and a non-existent number two: every existent is located in the one region, related to every existent and a part of the whole; nothing causes the whole. It satisfies every conjunct of the survivor statement, so the brute-universe and regress escapes are consistent with N1–N3i and with every listed floor item.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "UNIVERSE-CAUSE-ATEMPORAL",
+  "argument_id": "UNIVERSE-CAUSE-ATEMPORAL",
+  "challenge_module": "TruthCore.Results.Ontology.Naturalism.Atemporal.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.Naturalism.Atemporal.Solution",
+  "theorem": "TruthCore.Results.Ontology.Naturalism.Atemporal.universeCauseAtemporal",
+  "comparator_config": "results/UNIVERSE-CAUSE-ATEMPORAL/comparator.json",
+  "status": "solution-present"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "INF-UNIVERSE-CAUSE-ATEMPORAL",
+  "input_statement_ids": [
+    "STMT-CAUSING-WHOLE-CAUSES-PARTS",
+    "STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF",
+    "STMT-TEMPORAL-CONTAINED-IN-SPACETIME"
+  ],
+  "output_statement_id": "STMT-CAUSES-OF-UNIVERSE-ATEMPORAL",
+  "rule": "constructive-proof",
+  "meaning": "Strong version of 'exists out of time' (#1017): composing UNIVERSE-CAUSE-OUTSIDE-SPACETIME with the premise that every temporal thing is part of the spacetime whole, every cause of the whole is not temporal at all. The weak conclusion needs no claim about other times; the strong one needs exactly that premise, which an aevum or a second temporal series would falsify.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

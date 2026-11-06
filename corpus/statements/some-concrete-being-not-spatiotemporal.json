@@ -1,0 +1,11 @@
+{
+  "id": "STMT-SOME-CONCRETE-BEING-NOT-SPATIOTEMPORAL",
+  "paraphrase": "The Thomist combination: at the selected world some existing concrete thing is not spatiotemporal in the supplied sense. Analyst formulation: Aquinas says that God, angels and the intellectual soul are incorporeal (ST I q.3 a.1; q.50 a.1; q.75 a.2); reading incorporeal as not spatiotemporal is the analyst's bridge, and under the occupant sense presence by power does not count as occupation (DISAMB-SPATIOTEMPORAL).",
+  "lean_declaration": "TruthCore.Ontology.Spatiotemporal.SomeConcreteNotSpatiotemporal",
+  "definition_ids": [
+    "DEF-CONCRETE-ESSE-IN-RE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SPATIOTEMPORAL"
+  ]
+}

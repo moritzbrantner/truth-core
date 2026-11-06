@@ -1,0 +1,22 @@
+{
+  "id": "CAUSED-UNIVERSE-REFUTES-N3-INTERACTION",
+  "premise_statement_ids": [
+    "STMT-UNIVERSE-HAS-EXISTING-CAUSE",
+    "STMT-CAUSING-WHOLE-CAUSES-PARTS",
+    "STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF",
+    "STMT-THESIS-CONTAINED-IN-SPACETIME",
+    "STMT-SPACETIME-WHOLE-SATISFIES-THESIS"
+  ],
+  "conclusion_statement_id": "STMT-NATURALISM-N3-INTERACTION-FAILS",
+  "inference_ids": [
+    "INF-CAUSED-UNIVERSE-REFUTES-N3-INTERACTION"
+  ],
+  "meaning": "The cause of the spacetime whole causes something satisfying the thesis predicate (the whole itself), so N3i would make it satisfy the predicate and be a part of spacetime, which UNIVERSE-CAUSE-OUTSIDE-SPACETIME excludes. So N3i fails. Conditional on the open premises.",
+  "definition_ids": [
+    "DEF-SPATIOTEMPORAL-FRAME",
+    "DEF-PART-OF-SPACETIME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SPATIOTEMPORAL"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "STMT-NATURALISM-N1-FAILS",
+  "paraphrase": "N1 fails at the selected world: something existing there does not satisfy the thesis predicate (stated constructively as the negation of N1).",
+  "lean_declaration": "TruthCore.Ontology.NaturalismConsequences.ExistenceNaturalismFails",
+  "definition_ids": [
+    "DEF-NATURALISM-N1"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NATURALISM-VARIANT"
+  ]
+}

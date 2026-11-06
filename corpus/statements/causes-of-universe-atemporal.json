@@ -1,0 +1,9 @@
+{
+  "id": "STMT-CAUSES-OF-UNIVERSE-ATEMPORAL",
+  "paraphrase": "Strong version of the owner's 'exists out of time': at the selected world every cause of the spacetime whole is not temporal at all, in the supplied sense of temporal.",
+  "lean_declaration": "TruthCore.Ontology.NaturalismConsequences.CausesOfUniverseAtemporal",
+  "definition_ids": [
+    "DEF-PART-OF-SPACETIME",
+    "DEF-SPATIOTEMPORAL-FRAME"
+  ]
+}

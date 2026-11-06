@@ -1,0 +1,9 @@
+{
+  "id": "INF-CAUSAL-LOOP-REJECTS-BRIDGE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-CAUSAL-LOOP-REJECTS-BRIDGE",
+  "rule": "constructive-proof",
+  "meaning": "A model with the whole, two parts a and b that cause each other, a causing the whole, and a non-existent number two: the whole has an existing cause, every naturalist variant and the floor item hold, nothing causes itself, and the whole-to-part bridge fails, since it would make a cause itself.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

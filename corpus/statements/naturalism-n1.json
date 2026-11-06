@@ -1,0 +1,12 @@
+{
+  "id": "STMT-NATURALISM-N1",
+  "paraphrase": "N1, existence naturalism: at the selected world, everything that exists satisfies the thesis predicate P. With P a spatiotemporal sense: everything that exists is spatiotemporal.",
+  "lean_declaration": "TruthCore.Ontology.Naturalism.ExistenceNaturalism",
+  "definition_ids": [
+    "DEF-NATURALISM-N1"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NATURALISM-VARIANT",
+    "DISAMB-SPATIOTEMPORAL"
+  ]
+}

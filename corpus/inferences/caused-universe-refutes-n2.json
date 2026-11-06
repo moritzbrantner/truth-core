@@ -1,0 +1,15 @@
+{
+  "id": "INF-CAUSED-UNIVERSE-REFUTES-N2",
+  "input_statement_ids": [
+    "STMT-UNIVERSE-HAS-EXISTING-CAUSE",
+    "STMT-CAUSING-WHOLE-CAUSES-PARTS",
+    "STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF",
+    "STMT-THESIS-CONTAINED-IN-SPACETIME",
+    "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS"
+  ],
+  "output_statement_id": "STMT-NATURALISM-N2-FAILS",
+  "rule": "constructive-proof",
+  "meaning": "Owner's steps (3)–(4): the existing cause of the spacetime whole is concrete by the activity clause of the weak causal-concreteness floor item, so N2 would make it satisfy the thesis predicate and, by containment, be a part of spacetime, which UNIVERSE-CAUSE-OUTSIDE-SPACETIME excludes. So N2 fails; equivalently N2 commits its holder to an uncaused universe or to denying a bridge. Conditional on the open caused-universe premise and bridges.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

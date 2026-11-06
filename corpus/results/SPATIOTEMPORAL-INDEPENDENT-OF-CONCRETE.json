@@ -1,0 +1,9 @@
+{
+  "id": "SPATIOTEMPORAL-INDEPENDENT-OF-CONCRETE",
+  "argument_id": "SPATIOTEMPORAL-INDEPENDENT-OF-CONCRETE",
+  "challenge_module": "TruthCore.Results.Ontology.Naturalism.Independence.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.Naturalism.Independence.Solution",
+  "theorem": "TruthCore.Results.Ontology.Naturalism.Independence.spatiotemporalIndependentOfConcrete",
+  "comparator_config": "results/SPATIOTEMPORAL-INDEPENDENT-OF-CONCRETE/comparator.json",
+  "status": "solution-present"
+}

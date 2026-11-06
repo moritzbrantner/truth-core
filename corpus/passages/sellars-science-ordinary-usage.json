@@ -1,0 +1,31 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "SELLARS-EMPIRICISM-MIND",
+    "source_url": "https://www.ditext.com/sellars/epm9.html",
+    "retrieved_at": "2026-11-06T12:35:53Z",
+    "sha256": "sha256:c61298cebd8aedeb7e002e3da24315a53dbeb0fdc662de85dce54561ec83f02a",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "Copyright University of Minnesota Press; authorized hypertext editorial introduction expressly states reproduction with publisher permission. Only hashes, locators and analytical paraphrases committed. No Wayback fallback is pinned for this chapter."
+  },
+  "passages": [
+    {
+      "id": "SELLARS-EPM-SCIENCE-ORDINARY-USAGE",
+      "locator": "IX, §§39–44, complete chapter",
+      "claim_locator_prefixes": [
+        "IX §41"
+      ],
+      "html_selector": {
+        "from": {
+          "text": "IX. SCIENCE AND ORDINARY USAGE"
+        },
+        "to": {
+          "text": "[Next]"
+        }
+      },
+      "text_sha256": "sha256:0d970023a0f69c67b8851d22b50f93355d176748f736947686f2b1d13ecb7c84",
+      "incipit": "IX. SCIENCE AND ORDINARY USAGE"
+    }
+  ]
+}

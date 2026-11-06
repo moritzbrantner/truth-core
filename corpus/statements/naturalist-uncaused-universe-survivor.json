@@ -1,0 +1,19 @@
+{
+  "id": "STMT-NATURALIST-UNCAUSED-UNIVERSE-SURVIVOR",
+  "paraphrase": "Some model satisfies jointly: the concrete/abstract anchors (the reasoner exists, the set of 2 does not), the owner's #1113 bridge (existents are in act of esse), N1 in all three spatiotemporal senses, N2, N3 and N3i in the part-of-spacetime sense, the weak causal-concreteness floor item, the exercise-to-power reading, the whole-to-part bridge, no self-causation, that the whole satisfies the thesis and exists and is located, that something changes, something is moved and some agent has an epistemic reason (each borne by a part of spacetime), that nothing causes the whole, and that every proper part of it has a cause (an infinite regress). It certifies the brute-universe and regress escapes as consistent with every listed floor item; it does not say they are true.",
+  "lean_declaration": "TruthCore.Ontology.NaturalismConsequences.NaturalistUncausedUniverseSurvivor",
+  "definition_ids": [
+    "DEF-CAUSING-WHOLE-CAUSES-PARTS",
+    "DEF-CONCRETE-ABSTRACT-ANCHORS",
+    "DEF-NATURALISM-N1",
+    "DEF-NATURALISM-N2",
+    "DEF-NATURALISM-N3",
+    "DEF-NATURALISM-N3-INTERACTION",
+    "DEF-PART-OF-SPACETIME",
+    "DEF-SPATIOTEMPORAL-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NATURALISM-VARIANT",
+    "DISAMB-SPATIOTEMPORAL"
+  ]
+}

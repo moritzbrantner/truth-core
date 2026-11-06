@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Ontology.Naturalism.N1EntailsN2.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.Naturalism.N1EntailsN2.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Ontology.Naturalism.N1EntailsN2.n1EntailsN2"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
