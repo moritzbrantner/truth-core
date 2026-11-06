@@ -13,6 +13,11 @@ public import TruthCore.Results.Ontology.Naturalism.RefutesN2.Solution
 public import TruthCore.Results.Ontology.Naturalism.RefutesN3.Solution
 public import TruthCore.Results.Ontology.Naturalism.RefutesN3i.Solution
 public import TruthCore.Results.Ontology.Naturalism.Survivor.Solution
+public import TruthCore.Results.Ontology.NaturalismContrasts.Controls.Solution
+public import TruthCore.Results.Ontology.NaturalismContrasts.Exclusion.Solution
+public import TruthCore.Results.Ontology.NaturalismContrasts.Occupant.Solution
+public import TruthCore.Results.Ontology.NaturalismContrasts.Population.Solution
+public import TruthCore.Results.Ontology.NaturalismContrasts.WholeOccupation.Solution
 public import TruthCore.Results.Ontology.NaturalismLaws.Controls.Solution
 public import TruthCore.Results.Ontology.NaturalismLaws.Instantiation.Solution
 public import TruthCore.Results.Ontology.UniverseCauseScopeBoundary.AbsentFailure.Solution

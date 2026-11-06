@@ -1,0 +1,3100 @@
+{
+  "base_revision": "554905a5",
+  "scope": "The exact79 Logic/English/Metaethics/Ethics definitions in the coordinator finite outside-disambiguation inventory, plus their linked consumers. Full definition text/note/head and84 selected frozen consuming result types inspected; existing proof verification reused. Not full historical source re-reading or independent proof re-verification of all cross-cluster descendants.",
+  "count": 79,
+  "selected_exact_result_type_count": 84,
+  "new_concrete_invalid_inference_gaps": [],
+  "reserved_pointer_intersection": [],
+  "definitions": [
+    {
+      "index": 0,
+      "statement_ids": [
+        "STMT-EMPTY-EPISODE-DENIAL-CONTROL",
+        "STMT-ELEATIC-RETORSION-SCHEMA-INSTANCE",
+        "STMT-NO-ACCURATE-PERFORMED-EPISODE-DENIAL"
+      ],
+      "argument_ids": [
+        "LOGIC-PERFORMED-DENIAL-RETORSION",
+        "LOGIC-EMPTY-EPISODE-CONTROL",
+        "ELEATIC-RETORSION-SCHEMA-INSTANCE"
+      ],
+      "result_ids": [
+        "LOGIC-PERFORMED-DENIAL-RETORSION",
+        "LOGIC-EMPTY-EPISODE-CONTROL",
+        "ELEATIC-RETORSION-SCHEMA-INSTANCE"
+      ],
+      "inspected_consumer_ids": [
+        "LOGIC-PERFORMED-DENIAL-RETORSION"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Logic/PerformedDenial/NoAccurateDenial/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Same-domain occurring denial plus separate accuracy conjunct is explicit; retorsion does not infer occurrence from mere content or refute mistaken assertion.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-ACCURATE-PERFORMED-DENIAL",
+      "lean_declaration": "TruthCore.Logic.PerformedDenial.AccuratePerformedDenial",
+      "definition_path": "corpus/definitions/accurate-performed-denial.json"
+    },
+    {
+      "index": 1,
+      "statement_ids": [
+        "STMT-FINITE-POPULATION-SCORING-TRADEOFFS"
+      ],
+      "argument_ids": [
+        "FINITE-POPULATION-SCORING-TRADEOFFS"
+      ],
+      "result_ids": [
+        "FINITE-POPULATION-SCORING-TRADEOFFS"
+      ],
+      "inspected_consumer_ids": [
+        "FINITE-POPULATION-SCORING-TRADEOFFS"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Ethics/PopulationScoring/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Additive representation and positive-life scoring are explicit conditional assumptions in Controls; no independent ethical authority or feasibility inferred.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-ADDITIVE-POPULATION-SCORING",
+      "lean_declaration": "TruthCore.Ethics.PopulationScoring.Additive",
+      "definition_path": "corpus/definitions/additive-population-scoring.json"
+    },
+    {
+      "index": 2,
+      "statement_ids": [
+        "STMT-CAUSAL-DEFINITION-CONTAINS-ABSENCE-GLOSS",
+        "STMT-SINGLE-INSTANCE-SHOWS-SUCCESSION-NOT-TIE",
+        "STMT-NO-BOUNDARY-IS-PHYSICAL-PROPOSAL",
+        "STMT-MIMIC-THEORY-COLLAPSES",
+        "STMT-QUASI-REALIST-AND-REALIST-ROBUST-ANSWERS-EQUIVALENT",
+        "STMT-LAWS-AS-BEST-SYSTEM-THEOREMS",
+        "STMT-GLOBAL-INTERVENTION-EXTENSION-NEEDS-ACCOUNT",
+        "STMT-CAUSE-AS-SIMILAR-SUCCESSION",
+        "STMT-TOTAL-CAUSE-REQUIRES-INTERVENTION-CONTRAST",
+        "STMT-REALIST-ROBUST-ANSWER-HOLDS-IF-EQUIVALENT",
+        "STMT-QUASI-REALIST-ROBUST-TRUTH-ANSWER-DEVIATES",
+        "STMT-HUME-REGULARITY-MODELS",
+        "STMT-HUME-REGULARITY-TESTS",
+        "STMT-HUME-INDUCTION-TESTS",
+        "STMT-MIMIC-ASSUMED",
+        "STMT-CAUSE-AS-CUSTOMARY-TRANSITION"
+      ],
+      "argument_ids": [
+        "HUME-REGULARITY-TESTS",
+        "HUME-INDUCTION-SELF-APPLICATION",
+        "HUME-INDUCTION-SELECTIVITY",
+        "MIMIC-THEORY-COLLAPSES",
+        "HUME-INDUCTION-TESTS",
+        "QUASI-REALISM-DEVIATES-ON-ROBUST-TRUTH",
+        "HUME-INDUCTION-PRACTICE",
+        "HUME-REGULARITY-MODELS"
+      ],
+      "result_ids": [
+        "HUME-REGULARITY-TESTS",
+        "HUME-INDUCTION-SELF-APPLICATION",
+        "HUME-INDUCTION-SELECTIVITY",
+        "MIMIC-THEORY-COLLAPSES",
+        "HUME-INDUCTION-TESTS",
+        "QUASI-REALISM-DEVIATES-ON-ROBUST-TRUTH",
+        "HUME-INDUCTION-PRACTICE",
+        "HUME-REGULARITY-MODELS"
+      ],
+      "inspected_consumer_ids": [
+        "MIMIC-THEORY-COLLAPSES",
+        "QUASI-REALISM-DEVIATES-ON-ROBUST-TRUTH"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Comparison/QuasiRealism/MimicCollapses/Challenge.lean",
+        "TruthCore/Results/Comparison/QuasiRealism/DeviatesOnRobustTruth/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Matching compares answer availability and propositional equivalence only on the chosen signature; collapse is not identity of full worldviews. Robust-answer deviation requires an answered/moral witness separately.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-ANSWER-MAP-MATCHING",
+      "lean_declaration": "TruthCore.Metaethics.Matches",
+      "definition_path": "corpus/definitions/answer-map-matching.json"
+    },
+    {
+      "index": 3,
+      "statement_ids": [
+        "STMT-EXEMPTED-THESIS-ABSOLUTELY-TRUE",
+        "STMT-TRUTH-COLLAPSE-CONTROLS",
+        "STMT-NO-ABSOLUTE-TRUTH-THESIS-NOT-ABSOLUTELY-TRUE",
+        "STMT-NO-ABSOLUTE-TRUTH-MODELS",
+        "STMT-PROTAGORAS-SINCERE",
+        "STMT-TRUTH-NONTRIVIALITY-CORE",
+        "STMT-PROTAGORAS-ASSERTS-MEASURE"
+      ],
+      "argument_ids": [
+        "RELATIVISM-NO-ABSOLUTE-TRUTH-SELF-FALSIFYING",
+        "TRUTH-NONTRIVIALITY-CORE",
+        "PLATO-THEAET-PERITROPE-ABSOLUTE-HORN",
+        "TRUTH-COLLAPSE-CONTROLS",
+        "ARIST-MET-IV-8-EXEMPTION-REGRESS",
+        "RELATIVISM-NO-ABSOLUTE-TRUTH-MODELS",
+        "PLATO-THEAET-PERITROPE-RELATIVE-HORN"
+      ],
+      "result_ids": [
+        "RELATIVISM-NO-ABSOLUTE-TRUTH-SELF-FALSIFYING",
+        "TRUTH-NONTRIVIALITY-CORE",
+        "PLATO-THEAET-PERITROPE-ABSOLUTE-HORN",
+        "TRUTH-COLLAPSE-CONTROLS",
+        "ARIST-MET-IV-8-EXEMPTION-REGRESS",
+        "RELATIVISM-NO-ABSOLUTE-TRUTH-MODELS",
+        "PLATO-THEAET-PERITROPE-RELATIVE-HORN"
+      ],
+      "inspected_consumer_ids": [
+        "RELATIVISM-NO-ABSOLUTE-TRUTH-SELF-FALSIFYING"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Logic/Relativism/SelfFalsifying/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Absolute versus agent-relative commitment is a typed parameter; assertion commitment is distinct from correctness, with relative/exempted survivor controls.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": true,
+      "definition_id": "DEF-ASSERTION-COMMITMENT",
+      "lean_declaration": "TruthCore.Logic.SelfApplication.AssertionCommitment",
+      "definition_path": "corpus/definitions/assertion-commitment.json"
+    },
+    {
+      "index": 4,
+      "statement_ids": [
+        "STMT-MORAL-DATA-DO-NOT-CHOOSE-EXPLANATORY-ORDER"
+      ],
+      "argument_ids": [
+        "MORAL-DATA-DO-NOT-CHOOSE-EXPLANATORY-ORDER"
+      ],
+      "result_ids": [
+        "MORAL-DATA-DO-NOT-CHOOSE-EXPLANATORY-ORDER"
+      ],
+      "inspected_consumer_ids": [
+        "MORAL-DATA-DO-NOT-CHOOSE-EXPLANATORY-ORDER"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Comparison/QuasiRealism/SharedDataDoNotChooseOrder/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Acceptance patterns vary while due/possessed goods are fixed by SharedData; fixture invariance is expressly not metaphysical objectivity or a truthmaker.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-ATTITUDE-INDEPENDENCE-TEST",
+      "lean_declaration": "TruthCore.Metaethics.ExplanationOrder.SharedData",
+      "definition_path": "corpus/definitions/attitude-independence-test.json"
+    },
+    {
+      "index": 5,
+      "statement_ids": [
+        "STMT-COGITO-CONCRETE-OMISSION-CONTROLS",
+        "STMT-COGITO-BORNE-THOUGHT-IS-OPINING"
+      ],
+      "argument_ids": [
+        "COGITO-CONCRETE-OMISSION-CONTROLS",
+        "COGITO-SOMETHING-MOVED-FROM-THOUGHT"
+      ],
+      "result_ids": [
+        "COGITO-CONCRETE-OMISSION-CONTROLS",
+        "COGITO-SOMETHING-MOVED-FROM-THOUGHT"
+      ],
+      "inspected_consumer_ids": [
+        "COGITO-SOMETHING-MOVED-FROM-THOUGHT"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Logic/CogitoConcrete/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Bearing\u2192opining is an independent bridge; omission controls permit a borne nonopining episode. Current opining source-scope work is separate; the bridge never silently covers every Descartes cogitatio.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-BORNE-THOUGHT-AS-OPINING",
+      "lean_declaration": "TruthCore.Logic.CogitoConcrete.BorneThoughtIsOpining",
+      "definition_path": "corpus/definitions/borne-thought-as-opining.json"
+    },
+    {
+      "index": 6,
+      "statement_ids": [
+        "STMT-CHURCH-1949-TRIVIALIZATION",
+        "STMT-AYER-1946-EXCLUDES-A-NEGATION-FAILS",
+        "STMT-CHURCH-1949-EITHER-S-OR-NEGATION-VERIFIABLE",
+        "STMT-AYER-1946-EXCLUDES-A-NEGATION"
+      ],
+      "argument_ids": [
+        "AYER-1946-EXCLUDES-A-NEGATION-FAILS",
+        "CHURCH-1949-TRIVIALIZATION"
+      ],
+      "result_ids": [
+        "AYER-1946-EXCLUDES-A-NEGATION-FAILS",
+        "CHURCH-1949-TRIVIALIZATION"
+      ],
+      "inspected_consumer_ids": [
+        "CHURCH-1949-TRIVIALIZATION"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Logic/Verificationism/Church/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Church sentence has fixed Boolean clauses and observation/nonentailment guards; its result trivializes the specified criterion, not pretheoretic meaning or truth.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": true,
+      "definition_id": "DEF-CHURCH-SENTENCE",
+      "lean_declaration": "TruthCore.Logic.Verificationism.churchSentence",
+      "definition_path": "corpus/definitions/church-sentence.json"
+    },
+    {
+      "index": 7,
+      "statement_ids": [
+        "STMT-COGITO-BEARER-IS-CONCRETE",
+        "STMT-EXISTING-IN-ACT-AT"
+      ],
+      "argument_ids": [
+        "COGITO-NECESSARY-CONCRETE-ANCESTOR",
+        "COGITO-ESSE-INHABITED-WORLD",
+        "NECESSARY-CLASSICAL-GOD-CASE-ADOPTED-POTENCY",
+        "DIRECT-ESSE-ROOT-GOD-UNIQUENESS",
+        "COGITO-BEARER-CONCRETE-FROM-EXISTENCE",
+        "NECESSARY-CLASSICAL-GOD-ROOT-FROM-ASYMMETRY",
+        "MODAL-NECESSARY-BEING-ACTUALITY",
+        "DIRECT-ESSE-ROOT-PERFECTION-GOODNESS",
+        "GREATEST-DEGREE-ACTUAL-COMMON-ROOT",
+        "ROOT-INTELLECT-WILL",
+        "COGITO-ESSE-ANCESTRY-FORK",
+        "WHOLE-ROSTER-FROM-MAXIMUM-ASYMMETRY",
+        "ACTUAL-ROOT-UNIQUENESS",
+        "DIRECT-ESSE-ROOT-UNIQUENESS-FROM-ASYMMETRY",
+        "DIRECT-ESSE-ROOT-PERFECTION",
+        "OCCURRENCE-SAME-WITNESS-ESSENCE",
+        "COGITO-BEARER-CONCRETE-FROM-OPERATION",
+        "COGITO-ANCESTRY-ROOT-FORK",
+        "ACTUAL-COMMON-ROOT",
+        "UNDERIVED-ROOT-PERFECTION",
+        "NECESSARY-CLASSICAL-GOD-ROOT",
+        "NECESSARY-CLASSICAL-GOD-CASE",
+        "NECESSARY-UNION-UNDERIVED-ESSENCE-IDENTITY",
+        "DIRECT-ESSE-ROOT-UNIQUENESS-AT-BEING",
+        "COGITO-INHABITED-CONCRETE-WORLD",
+        "MODAL-TERTIA-VIA-CONVERGENCE",
+        "ROOT-POSITIVE-INTELLECT-WILL",
+        "DIRECT-ESSE-ROOT-GOD-EXISTENCE",
+        "DIRECT-ESSE-ROOT-GOD-EXISTENCE-ONLY",
+        "DIRECT-ESSE-ROOT-UNIQUENESS",
+        "ACTUAL-NECESSARY-UNDERIVED-ESSENCE-IDENTITY",
+        "ROOT-ESSENCE-IDENTITY",
+        "ROOT-WITHOUT-LIMITING-PRINCIPLE",
+        "OCCURRENCE-ESSE-SAME-WITNESS",
+        "UNIQUE-ROOT-PERFECTION",
+        "COGITO-ESSE-NECESSARY-ANCESTOR"
+      ],
+      "result_ids": [
+        "COGITO-NECESSARY-CONCRETE-ANCESTOR",
+        "COGITO-ESSE-INHABITED-WORLD",
+        "NECESSARY-CLASSICAL-GOD-CASE-ADOPTED-POTENCY",
+        "DIRECT-ESSE-ROOT-GOD-UNIQUENESS",
+        "COGITO-BEARER-CONCRETE-FROM-EXISTENCE",
+        "NECESSARY-CLASSICAL-GOD-ROOT-FROM-ASYMMETRY",
+        "MODAL-NECESSARY-BEING-ACTUALITY",
+        "DIRECT-ESSE-ROOT-PERFECTION-GOODNESS",
+        "GREATEST-DEGREE-ACTUAL-COMMON-ROOT",
+        "ROOT-INTELLECT-WILL",
+        "COGITO-ESSE-ANCESTRY-FORK",
+        "WHOLE-ROSTER-FROM-MAXIMUM-ASYMMETRY",
+        "ACTUAL-ROOT-UNIQUENESS",
+        "DIRECT-ESSE-ROOT-UNIQUENESS-FROM-ASYMMETRY",
+        "DIRECT-ESSE-ROOT-PERFECTION",
+        "OCCURRENCE-SAME-WITNESS-ESSENCE",
+        "COGITO-BEARER-CONCRETE-FROM-OPERATION",
+        "COGITO-ANCESTRY-ROOT-FORK",
+        "ACTUAL-COMMON-ROOT",
+        "UNDERIVED-ROOT-PERFECTION",
+        "NECESSARY-CLASSICAL-GOD-ROOT",
+        "NECESSARY-CLASSICAL-GOD-CASE",
+        "NECESSARY-UNION-UNDERIVED-ESSENCE-IDENTITY",
+        "DIRECT-ESSE-ROOT-UNIQUENESS-AT-BEING",
+        "COGITO-INHABITED-CONCRETE-WORLD",
+        "MODAL-TERTIA-VIA-CONVERGENCE",
+        "ROOT-POSITIVE-INTELLECT-WILL",
+        "DIRECT-ESSE-ROOT-GOD-EXISTENCE",
+        "DIRECT-ESSE-ROOT-GOD-EXISTENCE-ONLY",
+        "DIRECT-ESSE-ROOT-UNIQUENESS",
+        "ACTUAL-NECESSARY-UNDERIVED-ESSENCE-IDENTITY",
+        "ROOT-ESSENCE-IDENTITY",
+        "ROOT-WITHOUT-LIMITING-PRINCIPLE",
+        "OCCURRENCE-ESSE-SAME-WITNESS",
+        "UNIQUE-ROOT-PERFECTION",
+        "COGITO-ESSE-NECESSARY-ANCESTOR"
+      ],
+      "inspected_consumer_ids": [
+        "COGITO-BEARER-CONCRETE-FROM-EXISTENCE",
+        "COGITO-BEARER-CONCRETE-FROM-OPERATION"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Logic/CogitoEsse/Challenge.lean",
+        "TruthCore/Results/Logic/CogitoEsse/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Adopted profile reuses exact existence/grounding with concrete=HasEsseInRe; ExistingInActAt stays explicit. Operation route retains separate thought-as-exercise and exercise-requires-act bridges.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-COGITO-ESSE-PROFILE",
+      "lean_declaration": "TruthCore.Logic.CogitoEsse.profile",
+      "definition_path": "corpus/definitions/cogito-esse-profile.json"
+    },
+    {
+      "index": 8,
+      "statement_ids": [
+        "STMT-INTELLECTUAL-EXERCISE-REQUIRES-ACT"
+      ],
+      "argument_ids": [
+        "COGITO-BEARER-CONCRETE-FROM-EXISTENCE",
+        "COGITO-BEARER-CONCRETE-FROM-OPERATION"
+      ],
+      "result_ids": [
+        "COGITO-BEARER-CONCRETE-FROM-EXISTENCE",
+        "COGITO-BEARER-CONCRETE-FROM-OPERATION"
+      ],
+      "inspected_consumer_ids": [
+        "COGITO-BEARER-CONCRETE-FROM-OPERATION"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Logic/CogitoEsse/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Intellectual exercise\u2192some InAct respect is an independent typed bridge; operation result additionally needs actuality-only-insofar-as-being to reach esse.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-COGITO-INTELLECTUAL-EXERCISE-IN-ACT",
+      "lean_declaration": "TruthCore.Logic.CogitoEsse.IntellectualExerciseRequiresAct",
+      "definition_path": "corpus/definitions/cogito-intellectual-exercise-in-act.json"
+    },
+    {
+      "index": 9,
+      "statement_ids": [
+        "STMT-COGITO-NON-SUBSTANTIAL-BEARER-MODEL",
+        "STMT-COGITO-EVERY-BEARER-IS-SUBSTANCE",
+        "STMT-BEARER-REGRESS-CONTROLS",
+        "STMT-BEARER-OUTCOME-COVERAGE",
+        "STMT-COGITO-SOME-SUBSTANTIAL-THINKING-SUBJECT"
+      ],
+      "argument_ids": [
+        "COGITO-SUBSTANTIAL-SUBJECT-FROM-OCCURRENCE",
+        "BEARER-REGRESS-CONTROLS",
+        "BEARER-OUTCOME-COVERAGE",
+        "COGITO-NON-SUBSTANTIAL-BEARER-MODEL"
+      ],
+      "result_ids": [
+        "COGITO-SUBSTANTIAL-SUBJECT-FROM-OCCURRENCE",
+        "BEARER-REGRESS-CONTROLS",
+        "BEARER-OUTCOME-COVERAGE",
+        "COGITO-NON-SUBSTANTIAL-BEARER-MODEL"
+      ],
+      "inspected_consumer_ids": [
+        "COGITO-SUBSTANTIAL-SUBJECT-FROM-OCCURRENCE",
+        "COGITO-NON-SUBSTANTIAL-BEARER-MODEL"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Logic/CogitoSubject/Challenge.lean",
+        "TruthCore/Results/Logic/CogitoSubject/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Substance remains a primitive placeholder, independent of bare bearerhood; separate bridge and non-substantial-bearer model block a Cartesian/Thomist identity inference.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-COGITO-SUBSTANCE-PREDICATE",
+      "lean_declaration": "TruthCore.Logic.CogitoSubject.EveryBearerIsSubstance",
+      "definition_path": "corpus/definitions/cogito-substance-predicate.json"
+    },
+    {
+      "index": 10,
+      "statement_ids": [
+        "STMT-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE"
+      ],
+      "argument_ids": [
+        "COGITO-BEARER-CONCRETE-FROM-EXISTENCE",
+        "COGITO-BEARER-CONCRETE-FROM-OPERATION"
+      ],
+      "result_ids": [
+        "COGITO-BEARER-CONCRETE-FROM-EXISTENCE",
+        "COGITO-BEARER-CONCRETE-FROM-OPERATION"
+      ],
+      "inspected_consumer_ids": [
+        "COGITO-BEARER-CONCRETE-FROM-OPERATION"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Logic/CogitoEsse/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Borne occurrence\u2192intellectual exercise is independent of occurrence/bearing; operation consumer retains it explicitly, rather than reusing causation-only operation vocabulary.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-COGITO-THINKING-AS-INTELLECTUAL-EXERCISE",
+      "lean_declaration": "TruthCore.Logic.CogitoEsse.BorneThoughtExercisesIntellect",
+      "definition_path": "corpus/definitions/cogito-thinking-as-intellectual-exercise.json"
+    },
+    {
+      "index": 11,
+      "statement_ids": [
+        "STMT-COLLECTIVE-POSSIBILITY-PRECISE-COUNTERCASE",
+        "STMT-LOCAL-TEMPORAL-QUANTIFIER-SHIFT",
+        "STMT-COLLECTIVE-POSSIBILITY-PROOF-ROUTE-CONTROLS",
+        "STMT-COLLECTIVE-POSSIBILITY-FAILS",
+        "STMT-REALIZED-COMMON-ABSENCE-IS-POSSIBLE",
+        "STMT-PROFILE-COMMON-ABSENCE-NOT-POSSIBLE",
+        "STMT-COLLECTIVE-POSSIBILITY-OR-PRECISE-COUNTERCASE",
+        "STMT-TEMPORALLY-REALIZED-CONDITIONS-ARE-POSSIBLE",
+        "STMT-PROFILE-EACH-BEING-CAN-NOT-BE"
+      ],
+      "argument_ids": [
+        "COLLECTIVE-POSSIBILITY-COUNTERCASE-FORK",
+        "COLLECTIVE-POSSIBILITY-ROUTE-BOUNDARIES",
+        "GLOBAL-TEMPORAL-SHIFT-STRENGTHENS-LOCAL",
+        "REALIZED-POSSIBILITY-STRENGTHENS-COMMON-ABSENCE",
+        "COLLECTIVE-POSSIBILITY-FROM-LOCAL-QUANTIFIER-ROUTE",
+        "COLLECTIVE-POSSIBILITY-FAILS-FROM-DECIDING-INPUTS",
+        "COLLECTIVE-COUNTERCASE-NEGATES-COLLECTIVE-PREMISE"
+      ],
+      "result_ids": [
+        "COLLECTIVE-POSSIBILITY-COUNTERCASE-FORK",
+        "COLLECTIVE-POSSIBILITY-ROUTE-BOUNDARIES",
+        "GLOBAL-TEMPORAL-SHIFT-STRENGTHENS-LOCAL",
+        "REALIZED-POSSIBILITY-STRENGTHENS-COMMON-ABSENCE",
+        "COLLECTIVE-POSSIBILITY-FROM-LOCAL-QUANTIFIER-ROUTE",
+        "COLLECTIVE-POSSIBILITY-FAILS-FROM-DECIDING-INPUTS",
+        "COLLECTIVE-COUNTERCASE-NEGATES-COLLECTIVE-PREMISE"
+      ],
+      "inspected_consumer_ids": [
+        "COLLECTIVE-POSSIBILITY-COUNTERCASE-FORK",
+        "COLLECTIVE-POSSIBILITY-FROM-LOCAL-QUANTIFIER-ROUTE"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Logic/CollectivePossibilityRouteBoundary/Coverage/Challenge.lean",
+        "TruthCore/Results/Logic/CollectivePossibilityRouteBoundary/LocalRoute/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Recent corrected fork distinguishes invalid global proof method, local shift and collective conclusion; realization\u2192possibility is independently supplied with omission control.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-COLLECTIVE-POSSIBILITY-LOCAL-PROOF-ROUTE",
+      "lean_declaration": "TruthCore.Logic.CollectivePossibilityRouteBoundary.Frame",
+      "definition_path": "corpus/definitions/collective-possibility-local-proof-route.json"
+    },
+    {
+      "index": 12,
+      "statement_ids": [
+        "STMT-CONFIGURATION-FALSE"
+      ],
+      "argument_ids": [
+        "PSR-LOCAL-NO-BRUTE-INCOMPATIBLE-WITH-BRUTE",
+        "NECESSARY-INDIVIDUAL-DICTO-JOINT-INCOMPATIBLE",
+        "RETAINED-DUTY-LOCAL-TEMPORAL-CORE",
+        "GROUNDING-NECESSITATION-INCOMPATIBLE",
+        "QUARTA-VIA-UNBOUNDED-CORE",
+        "RETAINED-DUTY-LOCAL-DIRECT-CORE",
+        "INTENTIONALITY943-ERROR-CORE",
+        "NIGHT-ACTUALIZATION-CORE",
+        "NECESSARY-INDIVIDUAL-RE-CONTINGENCY-INCOMPATIBLE",
+        "MODAL-CONDITION-CORE-INCOMPATIBLE",
+        "EMPTY-TRUTHMAKER-ETI-INCOMPATIBLE",
+        "CONSTITUTIVE-NATURE-PLURALITY-CORE",
+        "MEGARIAN-CAPACITY-MOTION-INCOMPATIBLE",
+        "RETAINED-DUTY-TEMPORAL-CORE",
+        "FINITE-HITTING-FINITE-WORLD-CORE",
+        "FINITE-HITTING-CORE",
+        "PSR-POPULATION-WF-EXTERNAL-CAUSES-INCOMPATIBLE",
+        "BOUNDED-PAST-RESOURCE-CONTRADICTION",
+        "EMPTY-TRUTHMAKER-CONCRETE-INCOMPATIBLE",
+        "RETAINED-DUTY-DIRECT-CORE"
+      ],
+      "result_ids": [
+        "PSR-LOCAL-NO-BRUTE-INCOMPATIBLE-WITH-BRUTE",
+        "CONSTITUTIVE-NATURE-PLURALITY-CORE",
+        "NECESSARY-INDIVIDUAL-DICTO-JOINT-INCOMPATIBLE",
+        "RETAINED-DUTY-LOCAL-TEMPORAL-CORE",
+        "GROUNDING-NECESSITATION-INCOMPATIBLE",
+        "QUARTA-VIA-UNBOUNDED-CORE",
+        "RETAINED-DUTY-LOCAL-DIRECT-CORE",
+        "INTENTIONALITY943-ERROR-CORE",
+        "NIGHT-ACTUALIZATION-CORE",
+        "NECESSARY-INDIVIDUAL-RE-CONTINGENCY-INCOMPATIBLE",
+        "MODAL-CONDITION-CORE-INCOMPATIBLE",
+        "EMPTY-TRUTHMAKER-ETI-INCOMPATIBLE",
+        "MEGARIAN-CAPACITY-MOTION-INCOMPATIBLE",
+        "RETAINED-DUTY-TEMPORAL-CORE",
+        "FINITE-HITTING-FINITE-WORLD-CORE",
+        "FINITE-HITTING-CORE",
+        "PSR-POPULATION-WF-EXTERNAL-CAUSES-INCOMPATIBLE",
+        "BOUNDED-PAST-RESOURCE-CONTRADICTION",
+        "EMPTY-TRUTHMAKER-CONCRETE-INCOMPATIBLE",
+        "RETAINED-DUTY-DIRECT-CORE"
+      ],
+      "inspected_consumer_ids": [
+        "PSR-LOCAL-NO-BRUTE-INCOMPATIBLE-WITH-BRUTE"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Explanation/NoBruteIncompatible/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "ConfigurationFalse is exactly Lean False for a shared-parameter simultaneous bundle; no rule selects which premise fails or labels an individual school false.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-CONFIGURATION-FALSE",
+      "lean_declaration": "TruthCore.Logic.ConfigurationFalse",
+      "definition_path": "corpus/definitions/configuration-false.json"
+    },
+    {
+      "index": 13,
+      "statement_ids": [
+        "STMT-WEAK-SCIENTISM-CONSISTENT",
+        "STMT-DEMARCATION-TEST",
+        "STMT-RESTRICTED-MEASURE-CRITERION",
+        "STMT-WEAK-SCIENTISM-RESTRICTED",
+        "STMT-LOCAL-NO-ABSOLUTE-TRUTH",
+        "STMT-LOCAL-RELATIVISM-SECOND-ORDER",
+        "STMT-WEAK-SCIENTISM-DEMARCATION-OUTCOME",
+        "STMT-RESTRICTED-MEASURE-CONCESSION",
+        "STMT-RESTRICTED-MEASURE",
+        "STMT-DEMARCATION-OUTSIDE-CONSISTENT"
+      ],
+      "argument_ids": [
+        "SCIENTISM-WEAK-CONSISTENT",
+        "RELATIVISM-LOCAL-SECOND-ORDER",
+        "LOGIC-DEMARCATION-OUTSIDE-CONSISTENT",
+        "LOGIC-DEMARCATION-TEST",
+        "SCIENTISM-WEAK-DEMARCATION",
+        "PLATO-THEAET-CONCESSION-DEFEATS-MEASURE"
+      ],
+      "result_ids": [
+        "SCIENTISM-WEAK-CONSISTENT",
+        "RELATIVISM-LOCAL-SECOND-ORDER",
+        "LOGIC-DEMARCATION-OUTSIDE-CONSISTENT",
+        "LOGIC-DEMARCATION-TEST",
+        "SCIENTISM-WEAK-DEMARCATION",
+        "PLATO-THEAET-CONCESSION-DEFEATS-MEASURE"
+      ],
+      "inspected_consumer_ids": [
+        "SCIENTISM-WEAK-DEMARCATION"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Logic/Scientism/WeakDemarcation/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Norm.restrict intersects supplied scope and domain; concession carries outside-domain plus inside-strong-scope guards. Own formulation and empirical status remain independent.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": true,
+      "definition_id": "DEF-DEMARCATION-RESTRICTION",
+      "lean_declaration": "TruthCore.Logic.SelfApplication.Norm.restrict",
+      "definition_path": "corpus/definitions/demarcation-restriction.json"
+    },
+    {
+      "index": 14,
+      "statement_ids": [
+        "STMT-STEVENSON-EMOTIVISM-CONSISTENT",
+        "STMT-MORAL-SENTENCES-HAVE-DESCRIPTIVE-MEANING",
+        "STMT-STEVENSON-FACTUAL-AGREEMENT-CONSISTENT"
+      ],
+      "argument_ids": [
+        "STEVENSON-FACTUAL-AGREEMENT",
+        "STEVENSON-EMOTIVISM-CONSISTENT"
+      ],
+      "result_ids": [
+        "STEVENSON-FACTUAL-AGREEMENT",
+        "STEVENSON-EMOTIVISM-CONSISTENT"
+      ],
+      "inspected_consumer_ids": [
+        "STEVENSON-EMOTIVISM-CONSISTENT",
+        "STEVENSON-FACTUAL-AGREEMENT"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Comparison/Metaethics/StevensonEmotivismConsistent/Challenge.lean",
+        "TruthCore/Results/Comparison/Metaethics/StevensonFactualAgreement/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "HasDescriptiveMeaning is an explicit reported primitive in a consistency bundle; neither descriptive semantics nor compositional validity is inferred from the marker.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-DESCRIPTIVE-MORAL-MEANING",
+      "lean_declaration": "TruthCore.English.VanRoojen.MoralSentencesHaveDescriptiveMeaningReading",
+      "definition_path": "corpus/definitions/descriptive-moral-meaning.json"
+    },
+    {
+      "index": 15,
+      "statement_ids": [
+        "STMT-DESCRIPTIVE-PLAN-BOUNDARY"
+      ],
+      "argument_ids": [
+        "DESCRIPTIVE-PLAN-BOUNDARY"
+      ],
+      "result_ids": [
+        "DESCRIPTIVE-PLAN-BOUNDARY"
+      ],
+      "inspected_consumer_ids": [
+        "DESCRIPTIVE-PLAN-BOUNDARY"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Metaethics/DescriptivePlanBoundary/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Syntactic factual fragment excludes every forbidden constructor recursively; satisfiability, normative conditional and nonempty bridge-omission witness remain separate.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-DESCRIPTIVE-PLAN-FRAGMENT",
+      "lean_declaration": "TruthCore.Metaethics.DescriptivePlanBoundary.Descriptive",
+      "definition_path": "corpus/definitions/descriptive-plan-fragment.json"
+    },
+    {
+      "index": 16,
+      "statement_ids": [
+        "STMT-NO-ABSOLUTE-TRUTH-THESIS-DISQUOTES"
+      ],
+      "argument_ids": [
+        "RELATIVISM-NO-ABSOLUTE-TRUTH-SELF-FALSIFYING"
+      ],
+      "result_ids": [
+        "RELATIVISM-NO-ABSOLUTE-TRUTH-SELF-FALSIFYING"
+      ],
+      "inspected_consumer_ids": [
+        "RELATIVISM-NO-ABSOLUTE-TRUTH-SELF-FALSIFYING"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Logic/Relativism/SelfFalsifying/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "One-direction disquotation for one content is explicit; retorsion additionally needs thesis-in-scope, not a silently global truth schema.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": true,
+      "definition_id": "DEF-DISQUOTATION",
+      "lean_declaration": "TruthCore.Logic.SelfApplication.Disquotes",
+      "definition_path": "corpus/definitions/disquotation.json"
+    },
+    {
+      "index": 17,
+      "statement_ids": [
+        "STMT-EMPIRICAL-PROOF-ADDITIONAL-BARRIER",
+        "STMT-EMPIRICAL-PROOF-RESTRICTED-DENIAL",
+        "STMT-CRITERION-VERDICT-SILENT-ON-TRUTH",
+        "STMT-VERIFICATION-PRINCIPLE-NOT-ANALYTIC",
+        "STMT-CHURCH-1949-TRIVIALIZATION",
+        "STMT-AYER-1936-EXCLUDES-METAPHYSICS",
+        "STMT-EMPIRICAL-PROOF-FINITARY-CONTROL",
+        "STMT-AYER-1946-NEGATION-CLOSED-EXCLUDES-NOTHING",
+        "STMT-VERIFICATION-PRINCIPLE",
+        "STMT-AYER-1936-EXCLUSION-FAILS",
+        "STMT-EMPIRICAL-PROOF-SUBJECT-DEFINITION",
+        "STMT-VERIFICATIONIST-DILEMMA",
+        "STMT-AYER-1936-CRITERION-TRIVIAL",
+        "STMT-AYER-1946-EXCLUDES-A-NEGATION-FAILS",
+        "STMT-AYER-1946-EXCLUSION-FAILS",
+        "STMT-EMPIRICAL-PROOF-BARRIER-COVERAGE",
+        "STMT-EMPIRICAL-PROOF-SCOPED-BARRIER",
+        "STMT-STRONG-VERIFICATIONISM-WITH-LAWS",
+        "STMT-EMPIRICAL-PROOF-METHOD-DEFINITION",
+        "STMT-EMPIRICAL-PROOF-REMAINING-DOMAIN",
+        "STMT-EMPIRICAL-PROOF-GLOBAL-DENIAL",
+        "STMT-EMPIRICAL-PROOF-NAMED-DOMAIN-COVERAGE",
+        "STMT-AYER-1946-EXCLUDES-SENTENCE-AND-NEGATION",
+        "STMT-VERIFICATION-PRINCIPLE-IN-OWN-SCOPE",
+        "STMT-AYER-1946-EXCLUDES-A-NEGATION",
+        "STMT-VERIFICATION-PRINCIPLE-NOT-VERIFIABLE",
+        "STMT-EMPIRICAL-PROOF-CONTROLS",
+        "STMT-EMPIRICAL-PROOF-DOMAIN-FORK",
+        "STMT-STRONG-VERIFICATION-EXCLUDES-LAWS",
+        "STMT-EMPIRICAL-PROOF-PREMISE-DEFINITION",
+        "STMT-STRONG-VERIFICATIONISM-WITH-LAWS-FAILS"
+      ],
+      "argument_ids": [
+        "FINITE-OBSERVATION-INSUFFICIENCY-WITHOUT-FIBER-BARRIER",
+        "THEOLOGICAL-DOMAIN-DEFINITION-FORK",
+        "STRONG-VERIFICATIONISM-WITH-LAWS-FAILS",
+        "AYER-1936-CRITERION-TRIVIAL",
+        "VERIFICATIONISM-SELF-APPLICATION-DILEMMA",
+        "AYER-1946-EXCLUDES-A-NEGATION-FAILS",
+        "SCOPED-EMPIRICAL-PROOF-FROM-OBSERVATION-BARRIER",
+        "SCOPED-EMPIRICAL-PROOF-CONTROLS",
+        "STRONG-VERIFICATION-EXCLUDES-LAWS",
+        "AYER-1946-NEGATION-CLOSED-EXCLUDES-NOTHING",
+        "AYER-1946-EXCLUSION-FAILS",
+        "CHURCH-1949-TRIVIALIZATION",
+        "AYER-1936-EXCLUSION-FAILS",
+        "CRITERION-VERDICT-SILENT-ON-TRUTH",
+        "MEANING-CALIBRATION-TO-VERIFICATION-PRINCIPLE",
+        "GLOBAL-EMPIRICAL-PROOF-DENIAL-STRENGTHENS-RESTRICTED"
+      ],
+      "result_ids": [
+        "FINITE-OBSERVATION-INSUFFICIENCY-WITHOUT-FIBER-BARRIER",
+        "THEOLOGICAL-DOMAIN-DEFINITION-FORK",
+        "STRONG-VERIFICATIONISM-WITH-LAWS-FAILS",
+        "AYER-1936-CRITERION-TRIVIAL",
+        "VERIFICATIONISM-SELF-APPLICATION-DILEMMA",
+        "AYER-1946-EXCLUDES-A-NEGATION-FAILS",
+        "SCOPED-EMPIRICAL-PROOF-FROM-OBSERVATION-BARRIER",
+        "SCOPED-EMPIRICAL-PROOF-CONTROLS",
+        "STRONG-VERIFICATION-EXCLUDES-LAWS",
+        "AYER-1946-NEGATION-CLOSED-EXCLUDES-NOTHING",
+        "AYER-1946-EXCLUSION-FAILS",
+        "CHURCH-1949-TRIVIALIZATION",
+        "AYER-1936-EXCLUSION-FAILS",
+        "CRITERION-VERDICT-SILENT-ON-TRUTH",
+        "MEANING-CALIBRATION-TO-VERIFICATION-PRINCIPLE",
+        "GLOBAL-EMPIRICAL-PROOF-DENIAL-STRENGTHENS-RESTRICTED"
+      ],
+      "inspected_consumer_ids": [
+        "CRITERION-VERDICT-SILENT-ON-TRUTH"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Logic/Verificationism/VerdictSilent/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Observation and analytic classifications remain parameters. Criterion-verdict countermodel separates rejection from falsity; existing meaning/scoped-proof siblings expose calibration and domain choices.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": true,
+      "definition_id": "DEF-EMPIRICIST-FRAME",
+      "lean_declaration": "TruthCore.Logic.Verificationism.Frame",
+      "definition_path": "corpus/definitions/empiricist-frame.json"
+    },
+    {
+      "index": 18,
+      "statement_ids": [
+        "STMT-EMPTY-EPISODE-DENIAL-CONTROL",
+        "STMT-ELEATIC-RETORSION-SCHEMA-INSTANCE",
+        "STMT-NO-ACCURATE-PERFORMED-EPISODE-DENIAL",
+        "STMT-STATIC-EPISODE-CONTROL",
+        "STMT-MCTAGGART-ESCAPES-RETORSION-SCHEMA"
+      ],
+      "argument_ids": [
+        "LOGIC-PERFORMED-DENIAL-RETORSION",
+        "LOGIC-EMPTY-EPISODE-CONTROL",
+        "ELEATIC-RETORSION-SCHEMA-INSTANCE",
+        "MCTAGGART-ESCAPES-RETORSION-SCHEMA",
+        "LOGIC-STATIC-EPISODE-CONTROL"
+      ],
+      "result_ids": [
+        "LOGIC-PERFORMED-DENIAL-RETORSION",
+        "LOGIC-EMPTY-EPISODE-CONTROL",
+        "ELEATIC-RETORSION-SCHEMA-INSTANCE",
+        "MCTAGGART-ESCAPES-RETORSION-SCHEMA",
+        "LOGIC-STATIC-EPISODE-CONTROL"
+      ],
+      "inspected_consumer_ids": [
+        "LOGIC-PERFORMED-DENIAL-RETORSION"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Logic/PerformedDenial/NoAccurateDenial/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "NoEpisodeOccurs is negative existential over a possibly empty carrier; actual occurrence is independent. Controls distinguish denial content, accurate performed assertion and positive occurrence.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-EPISODE-OCCURRENCE",
+      "lean_declaration": "TruthCore.Logic.PerformedDenial.NoEpisodeOccurs",
+      "definition_path": "corpus/definitions/episode-occurrence.json"
+    },
+    {
+      "index": 19,
+      "statement_ids": [
+        "STMT-STATIC-EPISODE-CONTROL",
+        "STMT-MCTAGGART-ESCAPES-RETORSION-SCHEMA"
+      ],
+      "argument_ids": [
+        "MCTAGGART-ESCAPES-RETORSION-SCHEMA",
+        "LOGIC-STATIC-EPISODE-CONTROL"
+      ],
+      "result_ids": [
+        "MCTAGGART-ESCAPES-RETORSION-SCHEMA",
+        "LOGIC-STATIC-EPISODE-CONTROL"
+      ],
+      "inspected_consumer_ids": [
+        "LOGIC-STATIC-EPISODE-CONTROL"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Logic/PerformedDenial/StaticControl/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "State variation is a deliberately weak two-index inequality test; singleton occurring-episode control blocks inference to succession, material motion or a full theory of time.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-EPISODIC-STATE-VARIATION",
+      "lean_declaration": "TruthCore.Logic.PerformedDenial.StaticEpisodeControl",
+      "definition_path": "corpus/definitions/episodic-state-variation.json"
+    },
+    {
+      "index": 20,
+      "statement_ids": [
+        "STMT-FALLIBLE-CORRECTION-CERTIFICATE",
+        "STMT-EPISTEMIC-ACCURACY-DOMINANCE",
+        "STMT-EPISTEMIC-ACCURACY-CERTIFICATE"
+      ],
+      "argument_ids": [
+        "LOGIC-FALLIBLE-CORRECTION",
+        "LOGIC-EPISTEMIC-ACCURACY",
+        "LOGIC-EPISTEMIC-ACCURACY-DOMINANCE"
+      ],
+      "result_ids": [
+        "LOGIC-FALLIBLE-CORRECTION",
+        "LOGIC-EPISTEMIC-ACCURACY",
+        "LOGIC-EPISTEMIC-ACCURACY-DOMINANCE"
+      ],
+      "inspected_consumer_ids": [
+        "LOGIC-EPISTEMIC-ACCURACY-DOMINANCE",
+        "LOGIC-EPISTEMIC-ACCURACY",
+        "LOGIC-FALLIBLE-CORRECTION"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Logic/EpistemicAccuracy/Statewise/Challenge.lean",
+        "TruthCore/Results/Logic/EpistemicAccuracy/Challenge.lean",
+        "TruthCore/Results/Logic/FallibleCorrection/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Squared-error expected/statewise scoring is fixed math; probability estimate, combined practical utility and normative reason are not equated. Dominance has explicit bounded-credence guards.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-EPISTEMIC-ACCURACY",
+      "lean_declaration": "TruthCore.Logic.EpistemicAccuracy.error",
+      "definition_path": "corpus/definitions/epistemic-accuracy.json"
+    },
+    {
+      "index": 21,
+      "statement_ids": [
+        "STMT-MORAL-DATA-DO-NOT-CHOOSE-EXPLANATORY-ORDER"
+      ],
+      "argument_ids": [
+        "MORAL-DATA-DO-NOT-CHOOSE-EXPLANATORY-ORDER"
+      ],
+      "result_ids": [
+        "MORAL-DATA-DO-NOT-CHOOSE-EXPLANATORY-ORDER"
+      ],
+      "inspected_consumer_ids": [
+        "MORAL-DATA-DO-NOT-CHOOSE-EXPLANATORY-ORDER"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Comparison/QuasiRealism/SharedDataDoNotChooseOrder/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Opposed explanation edges use distinct typed relata and a separate asymmetry condition; shared moral data admit both order profiles, not a source truthmaking verdict.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-EXPLANATION-ORDER-TEST",
+      "lean_declaration": "TruthCore.Metaethics.ExplanationOrder.SharedDataDoNotChooseOrder",
+      "definition_path": "corpus/definitions/explanation-order-test.json"
+    },
+    {
+      "index": 22,
+      "statement_ids": [
+        "STMT-TRUTH-COLLAPSE-CONTROLS",
+        "STMT-TRUTH-NONTRIVIALITY-CORE"
+      ],
+      "argument_ids": [
+        "TRUTH-NONTRIVIALITY-CORE",
+        "TRUTH-COLLAPSE-CONTROLS"
+      ],
+      "result_ids": [
+        "TRUTH-NONTRIVIALITY-CORE",
+        "TRUTH-COLLAPSE-CONTROLS"
+      ],
+      "inspected_consumer_ids": [
+        "TRUTH-NONTRIVIALITY-CORE"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Logic/TruthNontriviality/Core/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Surjectivity onto Prop is an explicit expressivity bridge; local all-true/all-false and nonexpressive controls block inference to every content language.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": true,
+      "definition_id": "DEF-EXPRESSIVE-TRUTH-PREDICATE",
+      "lean_declaration": "TruthCore.Logic.TruthNontriviality.Expressive",
+      "definition_path": "corpus/definitions/expressive-truth-predicate.json"
+    },
+    {
+      "index": 23,
+      "statement_ids": [
+        "STMT-FINITE-POPULATION-SCORING-TRADEOFFS",
+        "STMT-POPULATION-COMPARABILITY-COMMON-BURDEN"
+      ],
+      "argument_ids": [
+        "POPULATION-COMPARABILITY-COMMON-BURDEN",
+        "FINITE-POPULATION-SCORING-TRADEOFFS"
+      ],
+      "result_ids": [
+        "POPULATION-COMPARABILITY-COMMON-BURDEN",
+        "FINITE-POPULATION-SCORING-TRADEOFFS"
+      ],
+      "inspected_consumer_ids": [
+        "FINITE-POPULATION-SCORING-TRADEOFFS"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Ethics/PopulationScoring/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "List real entries, shared cardinal scale and nonempty guards are explicit. Arithmetic total/mean equality and distribution countercontrol do not supply interpersonal entitlement.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-FINITE-INDIVIDUAL-WELFARE-POPULATION",
+      "lean_declaration": "TruthCore.Ethics.PopulationScoring.Population",
+      "definition_path": "corpus/definitions/finite-individual-welfare-population.json"
+    },
+    {
+      "index": 24,
+      "statement_ids": [
+        "STMT-FITCH-GLOBAL-LAWS",
+        "STMT-KNOWABILITY-POSITIVE-COMPATIBLE-SURVIVOR",
+        "STMT-KNOWABILITY-LINE-COMPATIBLE-SURVIVOR",
+        "STMT-FITCH-MOORE-INSTANCE",
+        "STMT-KNOWABILITY-ADMITTED-KNOWN",
+        "STMT-FITCH-RELEVANT-LAWS",
+        "STMT-FITCH-GLOBAL-RESTRICTED-EQUIVALENCE",
+        "STMT-FITCH-MOORE-UNKNOWABLE",
+        "STMT-KNOWABILITY-FORWARD-COMPATIBLE-SURVIVOR",
+        "STMT-FITCH-MOORE-ADMISSIBLE",
+        "STMT-FITCH-RESTRICTED-KNOWABILITY",
+        "STMT-FITCH-RESTRICTED-SURVIVOR",
+        "STMT-KNOWABILITY-EPISTEMIC-INCLUDED"
+      ],
+      "argument_ids": [
+        "FITCH-GLOBAL-LAWS-SPECIALIZE",
+        "KNOWABILITY-COMPATIBLE-COLLAPSE",
+        "KNOWABILITY-POSITIVE-COMPATIBLE-SURVIVOR",
+        "KNOWABILITY-LINE-COMPATIBLE-SURVIVOR",
+        "FITCH-STABILITY-UPGRADE",
+        "FITCH-DOUBLE-NEGATED-KNOWLEDGE",
+        "FITCH-MOORE-UNKNOWABLE",
+        "KNOWABILITY-FORWARD-COMPATIBLE-SURVIVOR",
+        "FITCH-RESTRICTED-INSTANCE",
+        "FITCH-RESTRICTED-SURVIVOR"
+      ],
+      "result_ids": [
+        "KNOWABILITY-COMPATIBLE-COLLAPSE",
+        "KNOWABILITY-POSITIVE-COMPATIBLE-SURVIVOR",
+        "FITCH-DOUBLE-NEGATED-KNOWLEDGE",
+        "FITCH-GLOBAL-LAWS-SPECIALIZE",
+        "KNOWABILITY-LINE-COMPATIBLE-SURVIVOR",
+        "KNOWABILITY-FORWARD-COMPATIBLE-SURVIVOR",
+        "FITCH-RESTRICTED-INSTANCE",
+        "FITCH-MOORE-UNKNOWABLE",
+        "FITCH-STABILITY-UPGRADE",
+        "FITCH-RESTRICTED-SURVIVOR"
+      ],
+      "inspected_consumer_ids": [
+        "FITCH-RESTRICTED-INSTANCE",
+        "FITCH-RESTRICTED-SURVIVOR"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Logic/FitchKnowability/Challenge.lean",
+        "TruthCore/Results/Logic/FitchKnowability/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Restricted knowability has independently supplied Moore admissibility; AtomInvariant is only a semantic Boolean-family surrogate. Fixed agent/world scope and survivor exclusions are bound.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-FITCH-ADMISSIBLE-CONTENTS",
+      "lean_declaration": "TruthCore.Logic.FitchKnowability.AtomInvariant",
+      "definition_path": "corpus/definitions/fitch-admissible-contents.json"
+    },
+    {
+      "index": 25,
+      "statement_ids": [
+        "STMT-FITCH-TRUTH-KNOWN",
+        "STMT-FITCH-DOUBLE-NEGATED-KNOWLEDGE",
+        "STMT-FITCH-KNOWLEDGE-STABLE",
+        "STMT-FITCH-RESTRICTED-SURVIVOR"
+      ],
+      "argument_ids": [
+        "FITCH-GLOBAL-LAWS-SPECIALIZE",
+        "FITCH-STABILITY-UPGRADE",
+        "FITCH-DOUBLE-NEGATED-KNOWLEDGE",
+        "FITCH-MOORE-UNKNOWABLE",
+        "FITCH-RESTRICTED-INSTANCE",
+        "FITCH-RESTRICTED-SURVIVOR"
+      ],
+      "result_ids": [
+        "FITCH-DOUBLE-NEGATED-KNOWLEDGE",
+        "FITCH-GLOBAL-LAWS-SPECIALIZE",
+        "FITCH-RESTRICTED-INSTANCE",
+        "FITCH-MOORE-UNKNOWABLE",
+        "FITCH-STABILITY-UPGRADE",
+        "FITCH-RESTRICTED-SURVIVOR"
+      ],
+      "inspected_consumer_ids": [
+        "FITCH-STABILITY-UPGRADE"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Logic/FitchKnowability/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "KnowledgeStable is local double-negation elimination for the selected knowledge proposition; stability upgrade retains it and does not import unrestricted excluded middle or a common knower.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-FITCH-RELEVANT-STABILITY",
+      "lean_declaration": "TruthCore.Logic.FitchKnowability.KnowledgeStable",
+      "definition_path": "corpus/definitions/fitch-relevant-stability.json"
+    },
+    {
+      "index": 26,
+      "statement_ids": [
+        "STMT-GOODNESS-ADDITIONAL-RELEVANT-DEFINITION",
+        "STMT-GOODNESS-DUE-TO-FORM-AND-END",
+        "STMT-GOODNESS-FORM-END-DEFINITION-FORK",
+        "STMT-GOODNESS-ADDITIONAL-SEMANTIC-DEFINITION",
+        "STMT-GOODNESS-NAMED-DEFINITIONS-COVER",
+        "STMT-GOODNESS-FEATURE-ACCOUNT-FAILS",
+        "STMT-GOODNESS-FORM-END-BOUNDARIES",
+        "STMT-GOODNESS-APPROVAL-ACCOUNT-FAILS",
+        "STMT-GOODNESS-CORRECT-ADMISSIBLE-ACCOUNT-EXISTS",
+        "STMT-EVERY-ACTUAL-PERFECTION-IS-DUE-TO-FORM-AND-END",
+        "STMT-GOODNESS-SEMANTIC-NAMED-DEFINITIONS-COVER",
+        "STMT-GOODNESS-SURPLUS-BEYOND-DUE-ACTUALITY",
+        "STMT-GOODNESS-DUE-ACTUALITY-PROPERTY-IDENTITY",
+        "STMT-GOODNESS-SEMANTIC-NAMED-COVERAGE-FORK",
+        "STMT-GOODNESS-NAMED-COVERAGE-FORK",
+        "STMT-GOODNESS-OMITS-DUE-ACTUALITY"
+      ],
+      "argument_ids": [
+        "GOODNESS-PROPERTY-IDENTITY-ENTAILS-DUE-ACTUALITY",
+        "GOODNESS-SEMANTIC-NAMED-COVERAGE-FORK",
+        "GOODNESS-DUE-ACTUALITY-WITH-DUE-BRIDGE-ENTAILS-UNRESTRICTED",
+        "GOODNESS-IDENTITY-COVERAGE-ENTAILS-SEMANTIC-COVERAGE",
+        "GOODNESS-FORM-END-DEFINITION-FORK",
+        "GOODNESS-NAMED-DEFINITION-COVERAGE-FORK",
+        "GOODNESS-FORM-END-BOUNDARIES",
+        "GOODNESS-FROM-NAMED-DEFINITION-ELIMINATION"
+      ],
+      "result_ids": [
+        "GOODNESS-PROPERTY-IDENTITY-ENTAILS-DUE-ACTUALITY",
+        "GOODNESS-SEMANTIC-NAMED-COVERAGE-FORK",
+        "GOODNESS-DUE-ACTUALITY-WITH-DUE-BRIDGE-ENTAILS-UNRESTRICTED",
+        "GOODNESS-IDENTITY-COVERAGE-ENTAILS-SEMANTIC-COVERAGE",
+        "GOODNESS-FORM-END-DEFINITION-FORK",
+        "GOODNESS-NAMED-DEFINITION-COVERAGE-FORK",
+        "GOODNESS-FORM-END-BOUNDARIES",
+        "GOODNESS-FROM-NAMED-DEFINITION-ELIMINATION"
+      ],
+      "inspected_consumer_ids": [
+        "GOODNESS-FROM-NAMED-DEFINITION-ELIMINATION"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Metaethics/GoodnessSemanticElimination/Challenge.lean"
+      ],
+      "disposition": "existing-explicit-with-new-strength-refinement",
+      "reason": "GoodIn, due standard and actuality are independent. Due-actuality is a falsifiable thesis; stronger unrestricted actuality needs AllActualitiesDue. Named elimination has explicit coverage/correct-account inputs.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "follow_up": "Implemented conditional support refinement in GoodnessCorrectSupport: global coverage implies sufficient existential support; support+separate correct existence+old failure inputs yields exact old due-actuality target; populated named-correct/wrong-unnamed strict control. See new_conditional_strength_results.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-FORM-END-DUE-PERFECTION",
+      "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.Frame",
+      "definition_path": "corpus/definitions/form-end-due-perfection.json"
+    },
+    {
+      "index": 27,
+      "statement_ids": [
+        "STMT-TRUTH-COLLAPSE-CONTROLS",
+        "STMT-TRUTH-NONTRIVIALITY-CORE"
+      ],
+      "argument_ids": [
+        "TRUTH-NONTRIVIALITY-CORE",
+        "TRUTH-COLLAPSE-CONTROLS"
+      ],
+      "result_ids": [
+        "TRUTH-NONTRIVIALITY-CORE",
+        "TRUTH-COLLAPSE-CONTROLS"
+      ],
+      "inspected_consumer_ids": [
+        "TRUTH-NONTRIVIALITY-CORE"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Logic/TruthNontriviality/Core/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Global denial is specifically both absolute and all-agent relative truth under T; relative survivors and selfcapture/disquotation premises prevent general nihilist/source conflation.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": true,
+      "definition_id": "DEF-GLOBAL-TRUTH-NIHILISM",
+      "lean_declaration": "TruthCore.Logic.TruthNontriviality.GlobalTruthNihilism",
+      "definition_path": "corpus/definitions/global-truth-nihilism.json"
+    },
+    {
+      "index": 28,
+      "statement_ids": [
+        "STMT-GOODNESS-FORM-END-BOUNDARIES"
+      ],
+      "argument_ids": [
+        "GOODNESS-FORM-END-BOUNDARIES"
+      ],
+      "result_ids": [
+        "GOODNESS-FORM-END-BOUNDARIES"
+      ],
+      "inspected_consumer_ids": [
+        "GOODNESS-FORM-END-BOUNDARIES"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Metaethics/GoodnessFormEndBoundary/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Artifact assignments are finite formal controls retaining surplus, omission, ultimate-good and intensional distinctions; they are not empirical natural-kind or metaphysical-possibility evidence.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-GOODNESS-FORM-END-CONTROLS",
+      "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.artifact",
+      "definition_path": "corpus/definitions/goodness-form-end-controls.json"
+    },
+    {
+      "index": 29,
+      "statement_ids": [
+        "STMT-GOODNESS-ADDITIONAL-RELEVANT-DEFINITION",
+        "STMT-GOODNESS-ADDITIONAL-SEMANTIC-DEFINITION",
+        "STMT-GOODNESS-NAMED-DEFINITIONS-COVER",
+        "STMT-GOODNESS-FEATURE-ACCOUNT-FAILS",
+        "STMT-GOODNESS-FORM-END-BOUNDARIES",
+        "STMT-GOODNESS-APPROVAL-ACCOUNT-FAILS",
+        "STMT-GOODNESS-CORRECT-ADMISSIBLE-ACCOUNT-EXISTS",
+        "STMT-GOODNESS-SEMANTIC-NAMED-DEFINITIONS-COVER",
+        "STMT-GOODNESS-SEMANTIC-NAMED-COVERAGE-FORK",
+        "STMT-GOODNESS-NAMED-COVERAGE-FORK"
+      ],
+      "argument_ids": [
+        "GOODNESS-SEMANTIC-NAMED-COVERAGE-FORK",
+        "GOODNESS-IDENTITY-COVERAGE-ENTAILS-SEMANTIC-COVERAGE",
+        "GOODNESS-NAMED-DEFINITION-COVERAGE-FORK",
+        "GOODNESS-FORM-END-BOUNDARIES",
+        "GOODNESS-FROM-NAMED-DEFINITION-ELIMINATION"
+      ],
+      "result_ids": [
+        "GOODNESS-SEMANTIC-NAMED-COVERAGE-FORK",
+        "GOODNESS-IDENTITY-COVERAGE-ENTAILS-SEMANTIC-COVERAGE",
+        "GOODNESS-NAMED-DEFINITION-COVERAGE-FORK",
+        "GOODNESS-FORM-END-BOUNDARIES",
+        "GOODNESS-FROM-NAMED-DEFINITION-ELIMINATION"
+      ],
+      "inspected_consumer_ids": [
+        "GOODNESS-NAMED-DEFINITION-COVERAGE-FORK"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Metaethics/GoodnessNamedCoverage/Challenge.lean"
+      ],
+      "disposition": "existing-explicit-with-new-strength-refinement",
+      "reason": "Named candidate identity, admissibility and correctness are separate. NamedCoverage and CorrectAccountExists are OPEN; a fourth relevant proposal is witnessed without mistaking a label alias for semantic difference.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "follow_up": "Implemented conditional support refinement in GoodnessCorrectSupport: global coverage implies sufficient existential support; support+separate correct existence+old failure inputs yields exact old due-actuality target; populated named-correct/wrong-unnamed strict control. See new_conditional_strength_results.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-GOODNESS-NAMED-DEFINITION-SPACE",
+      "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.DefinitionSpace",
+      "definition_path": "corpus/definitions/goodness-named-definition-space.json"
+    },
+    {
+      "index": 30,
+      "statement_ids": [
+        "STMT-GOODNESS-FORM-END-BOUNDARIES",
+        "STMT-GOODNESS-DUE-ACTUALITY-PROPERTY-IDENTITY"
+      ],
+      "argument_ids": [
+        "GOODNESS-PROPERTY-IDENTITY-ENTAILS-DUE-ACTUALITY",
+        "GOODNESS-FORM-END-DEFINITION-FORK",
+        "GOODNESS-FORM-END-BOUNDARIES"
+      ],
+      "result_ids": [
+        "GOODNESS-PROPERTY-IDENTITY-ENTAILS-DUE-ACTUALITY",
+        "GOODNESS-FORM-END-DEFINITION-FORK",
+        "GOODNESS-FORM-END-BOUNDARIES"
+      ],
+      "inspected_consumer_ids": [
+        "GOODNESS-PROPERTY-IDENTITY-ENTAILS-DUE-ACTUALITY"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Metaethics/GoodnessPropertyIdentity/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Property equality entails coextension but the converse has a distinct-referent control. Moore simplicity/non-naturalness/openness is not identified with this equality test.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-GOODNESS-PROPERTY-PRESENTATION",
+      "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.PropertyPresentation",
+      "definition_path": "corpus/definitions/goodness-property-presentation.json"
+    },
+    {
+      "index": 31,
+      "statement_ids": [
+        "STMT-GOODNESS-ADDITIONAL-SEMANTIC-DEFINITION",
+        "STMT-GOODNESS-SEMANTIC-NAMED-DEFINITIONS-COVER",
+        "STMT-GOODNESS-SEMANTIC-NAMED-COVERAGE-FORK"
+      ],
+      "argument_ids": [
+        "GOODNESS-SEMANTIC-NAMED-COVERAGE-FORK",
+        "GOODNESS-IDENTITY-COVERAGE-ENTAILS-SEMANTIC-COVERAGE",
+        "GOODNESS-FROM-NAMED-DEFINITION-ELIMINATION"
+      ],
+      "result_ids": [
+        "GOODNESS-SEMANTIC-NAMED-COVERAGE-FORK",
+        "GOODNESS-IDENTITY-COVERAGE-ENTAILS-SEMANTIC-COVERAGE",
+        "GOODNESS-FROM-NAMED-DEFINITION-ELIMINATION"
+      ],
+      "inspected_consumer_ids": [
+        "GOODNESS-SEMANTIC-NAMED-COVERAGE-FORK",
+        "GOODNESS-IDENTITY-COVERAGE-ENTAILS-SEMANTIC-COVERAGE"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Metaethics/GoodnessSemanticCoverage/Challenge.lean",
+        "TruthCore/Results/Metaethics/GoodnessCoverageStrength/Challenge.lean"
+      ],
+      "disposition": "existing-explicit-with-new-strength-refinement",
+      "reason": "Semantic coverage groups actual extensions and has a genuinely extension-different remainder. Identity coverage strengthens it; selected-support strength follow-up separately flagged, not a discovered invalid theorem.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "follow_up": "Implemented conditional support refinement in GoodnessCorrectSupport: global coverage implies sufficient existential support; support+separate correct existence+old failure inputs yields exact old due-actuality target; populated named-correct/wrong-unnamed strict control. See new_conditional_strength_results.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-GOODNESS-SEMANTIC-DEFINITION-COVERAGE",
+      "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.SemanticNamedCoverage",
+      "definition_path": "corpus/definitions/goodness-semantic-definition-coverage.json"
+    },
+    {
+      "index": 32,
+      "statement_ids": [
+        "STMT-GOODNESS-FORM-END-DEFINITION-FORK",
+        "STMT-GOODNESS-FORM-END-BOUNDARIES",
+        "STMT-GOODNESS-SURPLUS-BEYOND-DUE-ACTUALITY",
+        "STMT-GOODNESS-OMITS-DUE-ACTUALITY"
+      ],
+      "argument_ids": [
+        "GOODNESS-PROPERTY-IDENTITY-ENTAILS-DUE-ACTUALITY",
+        "GOODNESS-FORM-END-DEFINITION-FORK",
+        "GOODNESS-FORM-END-BOUNDARIES"
+      ],
+      "result_ids": [
+        "GOODNESS-PROPERTY-IDENTITY-ENTAILS-DUE-ACTUALITY",
+        "GOODNESS-FORM-END-DEFINITION-FORK",
+        "GOODNESS-FORM-END-BOUNDARIES"
+      ],
+      "inspected_consumer_ids": [
+        "GOODNESS-FORM-END-DEFINITION-FORK"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Metaethics/GoodnessFormEndFork/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Surplus and omission are structural counterexample cells under explicit EM, may overlap and do not partition historical schools. Eliminating cells supplies no independent warrant for doing so.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-GOODNESS-SURPLUS-OMISSION-CELLS",
+      "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.SurplusGood",
+      "definition_path": "corpus/definitions/goodness-surplus-omission-cells.json"
+    },
+    {
+      "index": 33,
+      "statement_ids": [
+        "STMT-HARD-CASE-GOODS-CONTROL"
+      ],
+      "argument_ids": [
+        "HARD-CASE-GOODS-CONTROL"
+      ],
+      "result_ids": [
+        "HARD-CASE-GOODS-CONTROL"
+      ],
+      "inspected_consumer_ids": [
+        "HARD-CASE-GOODS-CONTROL"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Ethics/HardCaseGoods/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Human goods/damage are independently assigned from forbidden verdicts; positive and negative instances prevent all-true fixture but imply no categorical prohibition.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-HARD-CASE-HUMAN-GOODS",
+      "lean_declaration": "TruthCore.Ethics.HardCaseGoods.HumanGood",
+      "definition_path": "corpus/definitions/hard-case-human-goods.json"
+    },
+    {
+      "index": 34,
+      "statement_ids": [
+        "STMT-HARD-CASE-GOODS-CONTROL",
+        "STMT-HARD-CASE-TYPED-CONTROLS"
+      ],
+      "argument_ids": [
+        "HARD-CASE-GOODS-CONTROL",
+        "HARD-CASE-TYPED-CONTROLS"
+      ],
+      "result_ids": [
+        "HARD-CASE-GOODS-CONTROL",
+        "HARD-CASE-TYPED-CONTROLS"
+      ],
+      "inspected_consumer_ids": [
+        "HARD-CASE-TYPED-CONTROLS"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Ethics/HardCaseTyped/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Case facts, feasibility, verdict, categorical reason and ideal-successor duty are separate. Opposite-verdict/reason and goods-conflict controls do not classify full historical theories.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-HARD-CASE-TYPED-CONTROLS",
+      "lean_declaration": "TruthCore.Ethics.HardCaseTyped.Facts",
+      "definition_path": "corpus/definitions/hard-case-typed-controls.json"
+    },
+    {
+      "index": 35,
+      "statement_ids": [
+        "STMT-POPULATION-COMPARABILITY-COMMON-BURDEN"
+      ],
+      "argument_ids": [
+        "POPULATION-COMPARABILITY-COMMON-BURDEN"
+      ],
+      "result_ids": [
+        "POPULATION-COMPARABILITY-COMMON-BURDEN"
+      ],
+      "inspected_consumer_ids": [
+        "POPULATION-COMPARABILITY-COMMON-BURDEN"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Ethics/PopulationComparability/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Same individuals and positive affine transformations are fixed; own-person order preservation differs from interpersonal units. Representation-invariance is proposed, not moral authority.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-INDIVIDUAL-AFFINE-WELFARE-REFRAMING",
+      "lean_declaration": "TruthCore.Ethics.PopulationComparability.reframe",
+      "definition_path": "corpus/definitions/individual-affine-welfare-reframing.json"
+    },
+    {
+      "index": 36,
+      "statement_ids": [
+        "STMT-ROOT-FROM-JOINT-FAILURE-INCOMPATIBILITY"
+      ],
+      "argument_ids": [
+        "ROOT-FROM-JOINT-FAILURE-INCOMPATIBILITY"
+      ],
+      "result_ids": [
+        "ROOT-FROM-JOINT-FAILURE-INCOMPATIBILITY"
+      ],
+      "inspected_consumer_ids": [
+        "ROOT-FROM-JOINT-FAILURE-INCOMPATIBILITY"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Logic/JointRouteFailure/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Route completion is universal conjunction; each failure mode needs its consequence. Explicit EM and sampled-failure countercontrol prevent coverage from one selected failure or evasion of shared leaves.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-JOINT-ROUTE-FAILURE-PATTERN",
+      "lean_declaration": "TruthCore.Logic.JointRouteFailure.Complete",
+      "definition_path": "corpus/definitions/joint-route-failure-pattern.json"
+    },
+    {
+      "index": 37,
+      "statement_ids": [
+        "STMT-KNOWABILITY-POSITIVE-COMPATIBLE-SURVIVOR",
+        "STMT-KNOWABILITY-LINE-COMPATIBLE-SURVIVOR",
+        "STMT-KNOWABILITY-ADMITTED-KNOWN",
+        "STMT-FITCH-GLOBAL-RESTRICTED-EQUIVALENCE",
+        "STMT-KNOWABILITY-FORWARD-COMPATIBLE-SURVIVOR",
+        "STMT-KNOWABILITY-EPISTEMIC-INCLUDED"
+      ],
+      "argument_ids": [
+        "KNOWABILITY-COMPATIBLE-COLLAPSE",
+        "KNOWABILITY-POSITIVE-COMPATIBLE-SURVIVOR",
+        "KNOWABILITY-LINE-COMPATIBLE-SURVIVOR",
+        "KNOWABILITY-FORWARD-COMPATIBLE-SURVIVOR"
+      ],
+      "result_ids": [
+        "KNOWABILITY-COMPATIBLE-COLLAPSE",
+        "KNOWABILITY-POSITIVE-COMPATIBLE-SURVIVOR",
+        "KNOWABILITY-LINE-COMPATIBLE-SURVIVOR",
+        "KNOWABILITY-FORWARD-COMPATIBLE-SURVIVOR"
+      ],
+      "inspected_consumer_ids": [
+        "KNOWABILITY-COMPATIBLE-COLLAPSE",
+        "KNOWABILITY-FORWARD-COMPATIBLE-SURVIVOR"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Logic/KnowabilityCompatibility/Challenge.lean",
+        "TruthCore/Results/Logic/KnowabilityCompatibility/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Epistemic inclusion in modal accessibility is an explicit one-way bridge. Collapse additionally needs Euclideanness and reverse knowability; forward-only and non-Euclidean survivors are separate.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-KNOWABILITY-MODAL-COMPATIBILITY",
+      "lean_declaration": "TruthCore.Logic.KnowabilityCompatibility.Included",
+      "definition_path": "corpus/definitions/knowability-modal-compatibility.json"
+    },
+    {
+      "index": 38,
+      "statement_ids": [
+        "STMT-FOURTH-WAY-MAXIMUM-SCHEMA-INSTANCES",
+        "STMT-ATTRIBUTION-MAXIMUM-SCHEMA-INSTANCE",
+        "STMT-MAXIMUM-ORDER-SCHEMA"
+      ],
+      "argument_ids": [
+        "ATTRIBUTION-MAXIMUM-SCHEMA-INSTANCE",
+        "MAXIMUM-ORDER-SCHEMA",
+        "FOURTH-WAY-MAXIMUM-SCHEMA-INSTANCES"
+      ],
+      "result_ids": [
+        "ATTRIBUTION-MAXIMUM-SCHEMA-INSTANCE",
+        "MAXIMUM-ORDER-SCHEMA",
+        "FOURTH-WAY-MAXIMUM-SCHEMA-INSTANCES"
+      ],
+      "inspected_consumer_ids": [
+        "MAXIMUM-ORDER-SCHEMA",
+        "ATTRIBUTION-MAXIMUM-SCHEMA-INSTANCE",
+        "FOURTH-WAY-MAXIMUM-SCHEMA-INSTANCES"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Logic/MaximumOrderSchema/Challenge.lean",
+        "TruthCore/Results/Logic/MaximumOrderSchema/Challenge.lean",
+        "TruthCore/Results/Logic/MaximumOrderSchema/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Mathlib maximality is not greatestness, existence, uniqueness or causing all others. Degree ascent and profile-specific adapters are independent with omission/countercontrols.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-MAXIMUM-ORDER-SCHEMA",
+      "lean_declaration": "TruthCore.Logic.MaximumOrder.System",
+      "definition_path": "corpus/definitions/maximum-order-schema.json"
+    },
+    {
+      "index": 39,
+      "statement_ids": [
+        "STMT-SOME-MEANINGFUL-NEGATION-DOUBLE-NEGATION-NOT-MEANINGFUL",
+        "STMT-AYER-1946-EXCLUDES-A-NEGATION-FAILS",
+        "STMT-SOME-MEANINGFUL-NEGATION-NOT-MEANINGFUL",
+        "STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-WEAK",
+        "STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-STRONG",
+        "STMT-STRONG-VERIFICATIONISM-WITH-LAWS-FAILS"
+      ],
+      "argument_ids": [
+        "STRONG-VERIFICATIONISM-WITH-LAWS-FAILS",
+        "MEANING-NEGATION-CLOSURE-STRONG-ENTAILS-WEAK",
+        "AYER-1946-EXCLUDES-A-NEGATION-FAILS",
+        "MEANING-NAMED-DEMARCATING-ACCOUNTS-FAIL",
+        "MEANING-V3-CALIBRATION-REJECTED"
+      ],
+      "result_ids": [
+        "STRONG-VERIFICATIONISM-WITH-LAWS-FAILS",
+        "MEANING-NEGATION-CLOSURE-STRONG-ENTAILS-WEAK",
+        "AYER-1946-EXCLUDES-A-NEGATION-FAILS",
+        "MEANING-NAMED-DEMARCATING-ACCOUNTS-FAIL",
+        "MEANING-V3-CALIBRATION-REJECTED"
+      ],
+      "inspected_consumer_ids": [
+        "MEANING-NEGATION-CLOSURE-STRONG-ENTAILS-WEAK",
+        "MEANING-V3-CALIBRATION-REJECTED"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Logic/Verificationism/NegationClosureStrongWeak/Challenge.lean",
+        "TruthCore/Results/Logic/MeaningDefinitionFork/V3RejectionBound/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Strong and weak negation closure have checked strength order; pretheoretic meaningfulness is distinct from criterion verdict. V3 rejection retains observation and excluded-negation inputs.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": true,
+      "definition_id": "DEF-MEANING-NEGATION-CLOSURE",
+      "lean_declaration": "TruthCore.Logic.Verificationism.MeaningClosedUnderNegation",
+      "definition_path": "corpus/definitions/meaning-negation-closure.json"
+    },
+    {
+      "index": 40,
+      "statement_ids": [
+        "STMT-NECESSARY-FACT-BOUNDARY",
+        "STMT-MODAL-S5-LANGUAGE"
+      ],
+      "argument_ids": [
+        "NECESSARY-FACT-BOUNDARY",
+        "MODAL-S5-LANGUAGE"
+      ],
+      "result_ids": [
+        "NECESSARY-FACT-BOUNDARY",
+        "MODAL-S5-LANGUAGE"
+      ],
+      "inspected_consumer_ids": [
+        "MODAL-S5-LANGUAGE"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Modal/S5/Language/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Object ExcludedMiddle is explicit conditional input to S5 language laws, not a kernel axiom or a proof of its independent philosophical statement; domain negation closure remains separate.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-MODAL-S5-CLASSICAL-REASONING",
+      "lean_declaration": "TruthCore.Logic.ExcludedMiddle",
+      "definition_path": "corpus/definitions/modal-s5-classical-reasoning.json"
+    },
+    {
+      "index": 41,
+      "statement_ids": [
+        "STMT-MORAL-ACCESS-FIBER-CONTROLS"
+      ],
+      "argument_ids": [
+        "MORAL-ACCESS-FIBER-CONTROLS"
+      ],
+      "result_ids": [
+        "MORAL-ACCESS-FIBER-CONTROLS"
+      ],
+      "inspected_consumer_ids": [
+        "MORAL-ACCESS-FIBER-CONTROLS"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Ethics/MoralAccessFibers/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Exact classifier tests distinguish coarse/enriched data and norm-restricted subtypes; proposed basis equivalence/sufficiency is OPEN and no constant classifier yields warrant.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-MORAL-ACCESS-FIBER-TEST",
+      "lean_declaration": "TruthCore.Ethics.MoralAccessFibers.State",
+      "definition_path": "corpus/definitions/moral-access-fiber-test.json"
+    },
+    {
+      "index": 42,
+      "statement_ids": [
+        "STMT-NATURALIST-BOYD-CONSISTENT",
+        "STMT-CATHOLIC-NATURAL-LAW-CONSISTENT",
+        "STMT-NATURALIST-RAILTON-ASCRIPTION-CONSISTENT",
+        "STMT-SOME-MORAL-ERROR-OCCURS",
+        "STMT-GERMANS-HELD-ROBBERY-NOT-UNJUST",
+        "STMT-ERRED-MORAL-SENTENCE-HAS-TRUTH-VALUE",
+        "STMT-NO-MORAL-ERROR",
+        "STMT-ROBBERY-NOT-UNJUST-HAS-TRUTH-VALUE",
+        "STMT-SOMEONE-ERRS-ABOUT-A-MORAL-SENTENCE",
+        "STMT-BOYD-MORAL-ERROR-PROGRESS",
+        "STMT-MORAL-ERROR-ARISES-AS-SPECULATIVE-ERROR",
+        "STMT-NATURALIST-RAILTON-CONSISTENT",
+        "STMT-NATURALIST-BOYD-ASCRIPTION-CONSISTENT",
+        "STMT-GENUINE-MORAL-CORRECTION-REPLACES-AN-UNTRUE-BELIEF",
+        "STMT-NATURALIST-FIXTURE-ERROR",
+        "STMT-MORAL-MISTAKE-IS-FIRST-ORDER-MORAL-QUESTION",
+        "STMT-MORAL-DATA-DO-NOT-CHOOSE-EXPLANATORY-ORDER",
+        "STMT-QUASI-REALISM-ADMITS-MORAL-ERROR",
+        "STMT-NATURALIST-TRUE-EVALUATIVE-ASCRIPTION",
+        "STMT-NATURALIST-ASCRIBED-ERROR"
+      ],
+      "argument_ids": [
+        "QUASI-REALISM-ADMITS-MORAL-ERROR",
+        "NATURALIST-BOYD-ASCRIPTION-CONSISTENT",
+        "CATHOLIC-NATURAL-LAW-CONSISTENT",
+        "MORAL-DATA-DO-NOT-CHOOSE-EXPLANATORY-ORDER",
+        "NATURALIST-RAILTON-CONSISTENT",
+        "NATURALIST-BOYD-CONSISTENT",
+        "NATURALIST-RAILTON-ASCRIPTION-CONSISTENT",
+        "AQUINAS-ST-I-II-Q94-A4-GERMANS-ERRED",
+        "EMOTIVISM-EXCLUDES-MORAL-ERROR"
+      ],
+      "result_ids": [
+        "QUASI-REALISM-ADMITS-MORAL-ERROR",
+        "NATURALIST-BOYD-ASCRIPTION-CONSISTENT",
+        "CATHOLIC-NATURAL-LAW-CONSISTENT",
+        "MORAL-DATA-DO-NOT-CHOOSE-EXPLANATORY-ORDER",
+        "NATURALIST-RAILTON-CONSISTENT",
+        "NATURALIST-BOYD-CONSISTENT",
+        "NATURALIST-RAILTON-ASCRIPTION-CONSISTENT",
+        "AQUINAS-ST-I-II-Q94-A4-GERMANS-ERRED",
+        "EMOTIVISM-EXCLUDES-MORAL-ERROR"
+      ],
+      "inspected_consumer_ids": [
+        "EMOTIVISM-EXCLUDES-MORAL-ERROR",
+        "QUASI-REALISM-ADMITS-MORAL-ERROR"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Comparison/MoralError/EmotivismExcludesMoralError/Challenge.lean",
+        "TruthCore/Results/Comparison/MoralError/QuasiRealismAdmitsMoralError/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Error is cognitive acceptance+truth-aptness+falsity. NoMoralError is only that defined sense; quasi-realist minimal error and correction/attitude-change senses remain separate.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-MORAL-ERROR",
+      "lean_declaration": "TruthCore.Metaethics.SomeMoralError",
+      "definition_path": "corpus/definitions/moral-error.json"
+    },
+    {
+      "index": 43,
+      "statement_ids": [
+        "STMT-GEACH-ANTECEDENT-EXPRESSES-ATTITUDE-IF-VALID-ON-NAIVE-EMOTIVISM",
+        "STMT-EXPRESSIVISM-CONSISTENT-WITH-GEACH-VALIDITY",
+        "STMT-GEACH-MODUS-PONENS-INVALID",
+        "STMT-BLACKBURN-VALIDITY-AS-ATTITUDE-CLASH",
+        "STMT-GEACH-MODUS-PONENS-VALID",
+        "STMT-PRAGMATIC-INCOHERENCE-IS-NOT-INCONSISTENCY",
+        "STMT-GEACH-MINOR-PREMISE-SAME-MEANING-IF-VALID",
+        "STMT-EXPRESSIVISM-NEEDS-B-TYPE-INCONSISTENCY",
+        "STMT-VALIDITY-REQUIRES-CONSTANT-MEANING"
+      ],
+      "argument_ids": [
+        "FREGE-GEACH-REFUTES-NAIVE-EMOTIVIST-MEANING",
+        "FREGE-GEACH-NAIVE-EMOTIVISM-INVALIDATES-MORAL-MP",
+        "EXPRESSIVISM-CONSISTENT-WITH-GEACH-VALIDITY"
+      ],
+      "result_ids": [
+        "FREGE-GEACH-REFUTES-NAIVE-EMOTIVIST-MEANING",
+        "FREGE-GEACH-NAIVE-EMOTIVISM-INVALIDATES-MORAL-MP",
+        "EXPRESSIVISM-CONSISTENT-WITH-GEACH-VALIDITY"
+      ],
+      "inspected_consumer_ids": [
+        "FREGE-GEACH-REFUTES-NAIVE-EMOTIVIST-MEANING"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Comparison/MoralLanguage/FregeGeachRefutesNaiveEmotivism/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "ValidMP is primitive; constant meaning is only a separate necessary-condition premise, not sufficiency. Frege\u2013Geach refutation retains actual expression/loss plus valid-MP/moral guards.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-MORAL-MODUS-PONENS-VALIDITY",
+      "lean_declaration": "TruthCore.English.VanRoojen.ValidityRequiresConstantMeaningReading",
+      "definition_path": "corpus/definitions/moral-modus-ponens-validity.json"
+    },
+    {
+      "index": 44,
+      "statement_ids": [
+        "STMT-GEACH-ANTECEDENT-LACKS-FREE-STANDING-ATTITUDE",
+        "STMT-EMOTIVIST-MEANING-IS-EXPRESSED-ATTITUDE",
+        "STMT-GEACH-ANTECEDENT-EXPRESSES-ATTITUDE-IF-VALID-ON-NAIVE-EMOTIVISM",
+        "STMT-STEVENSON-EMOTIVISM-CONSISTENT",
+        "STMT-EMOTIVIST-MEANING-FAILS",
+        "STMT-FREE-MORAL-ASSERTION-EXPRESSES-ATTITUDE",
+        "STMT-EXPRESSIVIST-MORAL-MEANING-INVARIANT",
+        "STMT-EXPRESSIVISM-CONSISTENT-WITH-GEACH-VALIDITY",
+        "STMT-GEACH-MODUS-PONENS-INVALID",
+        "STMT-BLACKBURN-VALIDITY-AS-ATTITUDE-CLASH",
+        "STMT-MORAL-SENTENCES-HAVE-DESCRIPTIVE-MEANING",
+        "STMT-GEACH-MODUS-PONENS-VALID",
+        "STMT-PRAGMATIC-INCOHERENCE-IS-NOT-INCONSISTENCY",
+        "STMT-GEACH-MINOR-PREMISE-EXPRESSES-ATTITUDE",
+        "STMT-GEACH-MINOR-PREMISE-SAME-MEANING-IF-VALID",
+        "STMT-EXPRESSIVISM-NEEDS-B-TYPE-INCONSISTENCY",
+        "STMT-VALIDITY-REQUIRES-CONSTANT-MEANING",
+        "STMT-STEVENSON-FACTUAL-AGREEMENT-CONSISTENT"
+      ],
+      "argument_ids": [
+        "FREGE-GEACH-REFUTES-NAIVE-EMOTIVIST-MEANING",
+        "INVARIANT-MEANING-WITH-ATTITUDE-LOSS-REFUTES-OCCASION",
+        "FREGE-GEACH-NAIVE-EMOTIVISM-INVALIDATES-MORAL-MP",
+        "STEVENSON-FACTUAL-AGREEMENT",
+        "EXPRESSIVISM-CONSISTENT-WITH-GEACH-VALIDITY",
+        "STEVENSON-EMOTIVISM-CONSISTENT"
+      ],
+      "result_ids": [
+        "FREGE-GEACH-REFUTES-NAIVE-EMOTIVIST-MEANING",
+        "INVARIANT-MEANING-WITH-ATTITUDE-LOSS-REFUTES-OCCASION",
+        "FREGE-GEACH-NAIVE-EMOTIVISM-INVALIDATES-MORAL-MP",
+        "STEVENSON-FACTUAL-AGREEMENT",
+        "EXPRESSIVISM-CONSISTENT-WITH-GEACH-VALIDITY",
+        "STEVENSON-EMOTIVISM-CONSISTENT"
+      ],
+      "inspected_consumer_ids": [
+        "INVARIANT-MEANING-WITH-ATTITUDE-LOSS-REFUTES-OCCASION"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Metaethics/MeaningRivalBoundary/GuardedNegative/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Same-meaning equality and attitude expression use shared sentence/context carriers; expression is not reporting an attitude. Guarded-negative repair1154 adds actual loss/nonvacuity; constant-expression overlap survives.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-MORAL-SENTENCE-OCCURRENCE",
+      "lean_declaration": "TruthCore.English.VanRoojen.ExpressivistMoralMeaningInvariantReading",
+      "definition_path": "corpus/definitions/moral-sentence-occurrence.json"
+    },
+    {
+      "index": 45,
+      "statement_ids": [
+        "STMT-NATURALIST-BOYD-CONSISTENT",
+        "STMT-CATHOLIC-NATURAL-LAW-CONSISTENT",
+        "STMT-QUASI-REALIST-AND-REALIST-ROBUST-ANSWERS-EQUIVALENT",
+        "STMT-BADNESS-ASCRIPTIONS-ARE-MORAL",
+        "STMT-GEACH-ANTECEDENT-LACKS-FREE-STANDING-ATTITUDE",
+        "STMT-NATURALIST-RAILTON-ASCRIPTION-CONSISTENT",
+        "STMT-SOME-MORAL-ERROR-OCCURS",
+        "STMT-EMOTIVIST-MEANING-IS-EXPRESSED-ATTITUDE",
+        "STMT-GEACH-ANTECEDENT-EXPRESSES-ATTITUDE-IF-VALID-ON-NAIVE-EMOTIVISM",
+        "STMT-NO-OBJECTIVE-MORAL-TRUTHS",
+        "STMT-STEVENSON-EMOTIVISM-CONSISTENT",
+        "STMT-MORAL-DISAGREEMENT-INCLUDES-ATTITUDE-CLASH",
+        "STMT-GEACH-MINOR-PREMISE-IS-MORAL",
+        "STMT-ANTIREALIST-ORDER-OF-EXPLANATION",
+        "STMT-REALIST-ORDER-OF-EXPLANATION",
+        "STMT-GERMANS-HELD-ROBBERY-NOT-UNJUST",
+        "STMT-NO-GENUINE-MORAL-CONTRADICTION",
+        "STMT-EMOTIVIST-MEANING-FAILS",
+        "STMT-MINIMALISM-COLLAPSES-NON-COGNITIVISM",
+        "STMT-ERRED-MORAL-SENTENCE-HAS-TRUTH-VALUE",
+        "STMT-EXPLANATORY-ORDER-RIVAL-CONTROLS",
+        "STMT-FREE-MORAL-ASSERTION-EXPRESSES-ATTITUDE",
+        "STMT-EXPRESSIVIST-MORAL-MEANING-INVARIANT",
+        "STMT-EXPRESSIVISM-CONSISTENT-WITH-GEACH-VALIDITY",
+        "STMT-REALIST-ROBUST-ANSWER-HOLDS-IF-EQUIVALENT",
+        "STMT-METAETHICS-TRUTH-APT-RIVAL-CONTROLS",
+        "STMT-NO-MORAL-ERROR",
+        "STMT-QUASI-REALIST-ROBUST-TRUTH-ANSWER-DEVIATES",
+        "STMT-GEACH-MODUS-PONENS-INVALID",
+        "STMT-ROBBERY-NOT-UNJUST-HAS-TRUTH-VALUE",
+        "STMT-SOMEONE-ERRS-ABOUT-A-MORAL-SENTENCE",
+        "STMT-CONTESTED-MORAL-SENTENCE-HAS-TRUTH-VALUE",
+        "STMT-MORAL-JUDGMENTS-ARE-TRUTH-APT",
+        "STMT-MORAL-SENTENCES-HAVE-DESCRIPTIVE-MEANING",
+        "STMT-GEACH-MODUS-PONENS-VALID",
+        "STMT-REALIST-ROBUST-TRUTH-APT",
+        "STMT-MORAL-ERROR-ARISES-AS-SPECULATIVE-ERROR",
+        "STMT-MORAL-STATEMENTS-LACK-TRUTH-VALUE",
+        "STMT-NATURALIST-RAILTON-CONSISTENT",
+        "STMT-NATURALIST-BOYD-ASCRIPTION-CONSISTENT",
+        "STMT-GENUINE-MORAL-CORRECTION-REPLACES-AN-UNTRUE-BELIEF",
+        "STMT-QUASI-REALIST-MINIMAL-TRUTH-APT",
+        "STMT-EVALUATIVE-ASCRIPTIONS-DESCRIBE-FACTS",
+        "STMT-NOT-REALIST-ROBUST-TRUTH-APT",
+        "STMT-GEACH-MINOR-PREMISE-EXPRESSES-ATTITUDE",
+        "STMT-GEACH-MINOR-PREMISE-SAME-MEANING-IF-VALID",
+        "STMT-MORAL-MISTAKE-IS-FIRST-ORDER-MORAL-QUESTION",
+        "STMT-MORAL-DATA-DO-NOT-CHOOSE-EXPLANATORY-ORDER",
+        "STMT-SOMEONE-GENUINELY-CONTRADICTS-ABOUT-A-MORAL-SENTENCE",
+        "STMT-VALIDITY-REQUIRES-CONSTANT-MEANING",
+        "STMT-STEVENSON-STRUCTURED-DISAGREEMENT",
+        "STMT-QUASI-REALISM-ADMITS-MORAL-ERROR",
+        "STMT-NOT-REALIST-EXPLANATORY-ORDER",
+        "STMT-OCONNOR-EMOTIVISM-CONSISTENT",
+        "STMT-STEVENSON-FACTUAL-AGREEMENT-CONSISTENT",
+        "STMT-NATURALIST-TRUE-EVALUATIVE-ASCRIPTION",
+        "STMT-NATURALIST-ASCRIBED-ERROR"
+      ],
+      "argument_ids": [
+        "FREGE-GEACH-REFUTES-NAIVE-EMOTIVIST-MEANING",
+        "EVIL-EMOTIVIST-USE-FORK",
+        "QUASI-REALISM-ADMITS-MORAL-ERROR",
+        "NATURALIST-BOYD-ASCRIPTION-CONSISTENT",
+        "ANTIREALIST-ORDER-GUARDED-NOT-REALIST",
+        "CATHOLIC-NATURAL-LAW-CONSISTENT",
+        "MORAL-DATA-DO-NOT-CHOOSE-EXPLANATORY-ORDER",
+        "INVARIANT-MEANING-WITH-ATTITUDE-LOSS-REFUTES-OCCASION",
+        "NATURALIST-RAILTON-CONSISTENT",
+        "QUASI-REALIST-NONEMPTY-IMPLIES-NOT-ROBUST",
+        "POE-EXTERNAL-PREMISE-VS-EMOTIVISM",
+        "FREGE-GEACH-NAIVE-EMOTIVISM-INVALIDATES-MORAL-MP",
+        "MINIMALISM-COLLAPSES-ROBUST-TRUTH-DEVIATION",
+        "EMOTIVISM-EXCLUDES-GENUINE-MORAL-CONTRADICTION",
+        "NATURALIST-BOYD-CONSISTENT",
+        "EXPLANATORY-ORDER-RIVAL-CONTROLS",
+        "EVIL-NAMED-USE-ELIMINATION",
+        "STEVENSON-FACTUAL-AGREEMENT",
+        "NATURALIST-RAILTON-ASCRIPTION-CONSISTENT",
+        "QUASI-REALISM-DEVIATES-ON-ROBUST-TRUTH",
+        "ANTIREALIST-ORDER-SUSTAINS-ROBUST-TRUTH-DEVIATION",
+        "EXPRESSIVISM-CONSISTENT-WITH-GEACH-VALIDITY",
+        "AQUINAS-ST-I-II-Q94-A4-GERMANS-ERRED",
+        "OCONNOR-EMOTIVISM-CONSISTENT",
+        "EMOTIVISM-EXCLUDES-MORAL-ERROR",
+        "STEVENSON-EMOTIVISM-CONSISTENT",
+        "METAETHICS-TRUTH-APT-RIVAL-CONTROLS"
+      ],
+      "result_ids": [
+        "FREGE-GEACH-REFUTES-NAIVE-EMOTIVIST-MEANING",
+        "EVIL-EMOTIVIST-USE-FORK",
+        "QUASI-REALISM-ADMITS-MORAL-ERROR",
+        "NATURALIST-BOYD-ASCRIPTION-CONSISTENT",
+        "ANTIREALIST-ORDER-GUARDED-NOT-REALIST",
+        "CATHOLIC-NATURAL-LAW-CONSISTENT",
+        "MORAL-DATA-DO-NOT-CHOOSE-EXPLANATORY-ORDER",
+        "INVARIANT-MEANING-WITH-ATTITUDE-LOSS-REFUTES-OCCASION",
+        "NATURALIST-RAILTON-CONSISTENT",
+        "QUASI-REALIST-NONEMPTY-IMPLIES-NOT-ROBUST",
+        "POE-EXTERNAL-PREMISE-VS-EMOTIVISM",
+        "FREGE-GEACH-NAIVE-EMOTIVISM-INVALIDATES-MORAL-MP",
+        "MINIMALISM-COLLAPSES-ROBUST-TRUTH-DEVIATION",
+        "EMOTIVISM-EXCLUDES-GENUINE-MORAL-CONTRADICTION",
+        "NATURALIST-BOYD-CONSISTENT",
+        "EXPLANATORY-ORDER-RIVAL-CONTROLS",
+        "EVIL-NAMED-USE-ELIMINATION",
+        "STEVENSON-FACTUAL-AGREEMENT",
+        "NATURALIST-RAILTON-ASCRIPTION-CONSISTENT",
+        "QUASI-REALISM-DEVIATES-ON-ROBUST-TRUTH",
+        "ANTIREALIST-ORDER-SUSTAINS-ROBUST-TRUTH-DEVIATION",
+        "EXPRESSIVISM-CONSISTENT-WITH-GEACH-VALIDITY",
+        "AQUINAS-ST-I-II-Q94-A4-GERMANS-ERRED",
+        "OCONNOR-EMOTIVISM-CONSISTENT",
+        "EMOTIVISM-EXCLUDES-MORAL-ERROR",
+        "STEVENSON-EMOTIVISM-CONSISTENT",
+        "METAETHICS-TRUTH-APT-RIVAL-CONTROLS"
+      ],
+      "inspected_consumer_ids": [
+        "POE-EXTERNAL-PREMISE-VS-EMOTIVISM"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Comparison/ProblemOfEvil/ExternalPremiseVsEmotivism/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Moral is a scoped primitive and badness\u2192moral is a separate premise. External emotivism consequence retains that classification and lacking-truthvalue\u2192not-true; no general nonmoral evil refutation follows.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-MORAL-STATEMENT",
+      "lean_declaration": "TruthCore.English.OConnor.BadnessAscriptionsAreMoralReading",
+      "definition_path": "corpus/definitions/moral-statement.json"
+    },
+    {
+      "index": 46,
+      "statement_ids": [
+        "STMT-NATURALIST-BOYD-CONSISTENT",
+        "STMT-BOYD-CONTINGENT-REASONS",
+        "STMT-NATURALIST-CATEGORICAL-BRIDGE-OPEN",
+        "STMT-RIGHT-WITHOUT-UNIVERSAL-REASONS",
+        "STMT-RAILTON-CONTINGENT-REASONS",
+        "STMT-NATURALIST-RAILTON-ASCRIPTION-CONSISTENT",
+        "STMT-NATURALIST-RAILTON-CONSISTENT",
+        "STMT-NATURALIST-BOYD-ASCRIPTION-CONSISTENT",
+        "STMT-GOOD-WITHOUT-UNIVERSAL-REASONS"
+      ],
+      "argument_ids": [
+        "NATURALIST-BOYD-ASCRIPTION-CONSISTENT",
+        "NATURALIST-RAILTON-CONSISTENT",
+        "NATURALIST-BOYD-CONSISTENT",
+        "NATURALIST-RAILTON-ASCRIPTION-CONSISTENT"
+      ],
+      "result_ids": [
+        "NATURALIST-BOYD-ASCRIPTION-CONSISTENT",
+        "NATURALIST-RAILTON-CONSISTENT",
+        "NATURALIST-BOYD-CONSISTENT",
+        "NATURALIST-RAILTON-ASCRIPTION-CONSISTENT"
+      ],
+      "inspected_consumer_ids": [
+        "NATURALIST-RAILTON-ASCRIPTION-CONSISTENT",
+        "NATURALIST-BOYD-ASCRIPTION-CONSISTENT"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Comparison/NaturalisticRealism/RailtonAscriptionConsistent/Challenge.lean",
+        "TruthCore/Results/Comparison/NaturalisticRealism/BoydAscriptionConsistent/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Instrumental agent reason is independent of welfare/rightness/goodness and categorical universality. Naturalist fragments retain right/good without universal reasons as possible predicate controls.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-NATURALIST-CATEGORICAL-REASONS",
+      "lean_declaration": "TruthCore.Metaethics.NaturalisticRealism.Sig.Reason",
+      "definition_path": "corpus/definitions/naturalist-categorical-reasons.json"
+    },
+    {
+      "index": 47,
+      "statement_ids": [
+        "STMT-NATURALIST-BOYD-CONSISTENT",
+        "STMT-NATURALIST-RAILTON-ASCRIPTION-CONSISTENT",
+        "STMT-DESCRIPTIVE-MORAL-ASCRIPTIONS-HAVE-COMPOSITIONAL-TRUTH-CONDITIONS",
+        "STMT-NATURALIST-TRUE-ASCRIPTION",
+        "STMT-NATURALIST-RAILTON-CONSISTENT",
+        "STMT-NATURALIST-BOYD-ASCRIPTION-CONSISTENT",
+        "STMT-EVALUATIVE-ASCRIPTIONS-DESCRIBE-FACTS",
+        "STMT-NATURALIST-TRUE-EVALUATIVE-ASCRIPTION",
+        "STMT-NATURALIST-ASCRIBED-ERROR"
+      ],
+      "argument_ids": [
+        "NATURALIST-BOYD-ASCRIPTION-CONSISTENT",
+        "NATURALIST-RAILTON-CONSISTENT",
+        "NATURALIST-BOYD-CONSISTENT",
+        "NATURALIST-RAILTON-ASCRIPTION-CONSISTENT"
+      ],
+      "result_ids": [
+        "NATURALIST-BOYD-ASCRIPTION-CONSISTENT",
+        "NATURALIST-RAILTON-CONSISTENT",
+        "NATURALIST-BOYD-CONSISTENT",
+        "NATURALIST-RAILTON-ASCRIPTION-CONSISTENT"
+      ],
+      "inspected_consumer_ids": [
+        "NATURALIST-RAILTON-ASCRIPTION-CONSISTENT",
+        "NATURALIST-BOYD-ASCRIPTION-CONSISTENT"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Comparison/NaturalisticRealism/RailtonAscriptionConsistent/Challenge.lean",
+        "TruthCore/Results/Comparison/NaturalisticRealism/BoydAscriptionConsistent/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "DescriptiveTruth constrains only actual ascription witnesses, not every sentence. Strengthened models witness both true evaluative ascription and false accepted ascription; truth-aptness does not imply truth.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-NATURALIST-DESCRIPTIVE-TRUTH",
+      "lean_declaration": "TruthCore.Metaethics.NaturalisticRealism.DescriptiveTruth",
+      "definition_path": "corpus/definitions/naturalist-descriptive-truth.json"
+    },
+    {
+      "index": 48,
+      "statement_ids": [
+        "STMT-NATURAL-PREDICATE-MODUS-PONENS",
+        "STMT-DESCRIPTIVE-MORAL-ASCRIPTIONS-HAVE-COMPOSITIONAL-TRUTH-CONDITIONS"
+      ],
+      "argument_ids": [
+        "NATURAL-PREDICATE-MODUS-PONENS"
+      ],
+      "result_ids": [
+        "NATURAL-PREDICATE-MODUS-PONENS"
+      ],
+      "inspected_consumer_ids": [
+        "NATURAL-PREDICATE-MODUS-PONENS"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Comparison/NaturalisticRealism/NaturalPredicateModusPonens/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Existing recursive formula semantics validates MP under a supplied valuation; no inference from source truth-aptness alone to that semantics or to normative warrant.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-NATURALIST-SHARED-SEMANTICS",
+      "lean_declaration": "TruthCore.Metaethics.NaturalisticRealism.NaturalPredicateModusPonens",
+      "definition_path": "corpus/definitions/naturalist-shared-semantics.json"
+    },
+    {
+      "index": 49,
+      "statement_ids": [
+        "STMT-TRUTH-COLLAPSE-CONTROLS",
+        "STMT-TRUTH-NONTRIVIALITY-CORE"
+      ],
+      "argument_ids": [
+        "TRUTH-NONTRIVIALITY-CORE",
+        "TRUTH-COLLAPSE-CONTROLS"
+      ],
+      "result_ids": [
+        "TRUTH-NONTRIVIALITY-CORE",
+        "TRUTH-COLLAPSE-CONTROLS"
+      ],
+      "inspected_consumer_ids": [
+        "TRUTH-COLLAPSE-CONTROLS"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Logic/TruthNontriviality/Controls/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Truth-of-negation exhaustion and exclusion are independent laws with glut/nonexhaustive controls; no unmarked classical completion of every semantic predicate.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": true,
+      "definition_id": "DEF-NEGATION-EXHAUSTIVE",
+      "lean_declaration": "TruthCore.Logic.TruthNontriviality.NegationExhaustive",
+      "definition_path": "corpus/definitions/negation-exhaustive.json"
+    },
+    {
+      "index": 50,
+      "statement_ids": [
+        "STMT-FINITE-POPULATION-SCORING-TRADEOFFS"
+      ],
+      "argument_ids": [
+        "FINITE-POPULATION-SCORING-TRADEOFFS"
+      ],
+      "result_ids": [
+        "FINITE-POPULATION-SCORING-TRADEOFFS"
+      ],
+      "inspected_consumer_ids": [
+        "FINITE-POPULATION-SCORING-TRADEOFFS"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Ethics/PopulationScoring/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "NoLowReplication is a fixed-baseline positive-cutoff finite-replication bound. Conditional obstruction retains additive and positive-score assumptions; average/critical policies exhibit distinct costs.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-NO-LOW-REPLICATION",
+      "lean_declaration": "TruthCore.Ethics.PopulationScoring.NoLowReplication",
+      "definition_path": "corpus/definitions/no-low-replication.json"
+    },
+    {
+      "index": 51,
+      "statement_ids": [
+        "STMT-METAETHICS-TRUTH-APT-RIVAL-CONTROLS",
+        "STMT-NOT-REALIST-ROBUST-TRUTH-APT"
+      ],
+      "argument_ids": [
+        "QUASI-REALIST-NONEMPTY-IMPLIES-NOT-ROBUST",
+        "METAETHICS-TRUTH-APT-RIVAL-CONTROLS"
+      ],
+      "result_ids": [
+        "QUASI-REALIST-NONEMPTY-IMPLIES-NOT-ROBUST",
+        "METAETHICS-TRUTH-APT-RIVAL-CONTROLS"
+      ],
+      "inspected_consumer_ids": [
+        "QUASI-REALIST-NONEMPTY-IMPLIES-NOT-ROBUST"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Logic/MetaethicsTruthAptRivalBoundary/ExactRival/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Exact robust-universal negative is distinct from full raw quasi commitment; Geach moral population guards transfer and empty-domain overlap remains verified (1135).",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-NOT-REALIST-ROBUST-TRUTH-APT",
+      "lean_declaration": "TruthCore.Logic.MetaethicsTruthAptRivalBoundary.NotRealistRobustTruthApt",
+      "definition_path": "corpus/definitions/not-realist-robust-truth-apt.json"
+    },
+    {
+      "index": 52,
+      "statement_ids": [
+        "STMT-NO-OBJECTIVE-MORAL-TRUTHS",
+        "STMT-EVIL-PREMISE-NOT-OBJECTIVE",
+        "STMT-OCONNOR-EMOTIVISM-CONSISTENT"
+      ],
+      "argument_ids": [
+        "OCONNOR-EMOTIVISM-CONSISTENT"
+      ],
+      "result_ids": [
+        "OCONNOR-EMOTIVISM-CONSISTENT"
+      ],
+      "inspected_consumer_ids": [
+        "OCONNOR-EMOTIVISM-CONSISTENT"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Comparison/Metaethics/OConnorEmotivismConsistent/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "ObjectiveTruth remains a primitive in the original consistency bundle. Pending1129 supplies independent actual-truth/stability calibrations and weakest truth-component bridge without source identity or floor adoption.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-OBJECTIVE-TRUTH",
+      "lean_declaration": "TruthCore.English.OConnor.NoObjectiveMoralTruthsReading",
+      "definition_path": "corpus/definitions/objective-truth.json"
+    },
+    {
+      "index": 53,
+      "statement_ids": [
+        "STMT-KNOWLEDGE-ADMISSIBILITY-CERTIFICATE"
+      ],
+      "argument_ids": [
+        "KNOWLEDGE-ADMISSIBILITY-CERTIFICATE"
+      ],
+      "result_ids": [
+        "KNOWLEDGE-ADMISSIBILITY-CERTIFICATE"
+      ],
+      "inspected_consumer_ids": [
+        "KNOWLEDGE-ADMISSIBILITY-CERTIFICATE"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Logic/KnowledgeAdmissibility/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Report supervenience is actual-relative over M-admitted descriptions, distinct from causal/reductive identity. Knowledge transfer needs known physical equality and E\u2286M at actuality; twin/supervenient profiles share learning episode.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-PHENOMENAL-REPORT-SUPERVENIENCE",
+      "lean_declaration": "TruthCore.Logic.KnowledgeAdmissibility.SupervenesAt",
+      "definition_path": "corpus/definitions/phenomenal-report-supervenience.json"
+    },
+    {
+      "index": 54,
+      "statement_ids": [
+        "STMT-PILOT-LOCAL-PROFILE-VARIATION",
+        "STMT-PILOT-GLOBAL-VARIATION-MODEL",
+        "STMT-PILOT-EPISTEMIC-DIFFERENCES-MODEL",
+        "STMT-PILOT-LOGICAL-SENTENCE-STABLE",
+        "STMT-PILOT-NOT-GLOBAL-PROFILE-VARIATION",
+        "STMT-PILOT-GLOBAL-PROFILE-VARIATION",
+        "STMT-PILOT-LOCAL-VARIATION-COMPATIBLE"
+      ],
+      "argument_ids": [
+        "PILOT-GLOBAL-VARIATION-MODEL",
+        "PILOT-EPISTEMIC-DIFFERENCES-MODEL",
+        "PILOT-STABLE-SENTENCE-EXCLUDES-GLOBAL-VARIATION",
+        "PILOT-LOCAL-VARIATION-COMPATIBLE"
+      ],
+      "result_ids": [
+        "PILOT-GLOBAL-VARIATION-MODEL",
+        "PILOT-EPISTEMIC-DIFFERENCES-MODEL",
+        "PILOT-STABLE-SENTENCE-EXCLUDES-GLOBAL-VARIATION",
+        "PILOT-LOCAL-VARIATION-COMPATIBLE"
+      ],
+      "inspected_consumer_ids": [
+        "PILOT-EPISTEMIC-DIFFERENCES-MODEL",
+        "PILOT-LOCAL-VARIATION-COMPATIBLE"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Logic/TruthPilot/EpistemicDifferences/Challenge.lean",
+        "TruthCore/Results/Logic/TruthPilot/LocalVariation/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Endorsement and truth interpretations are independent; local/global profile variation and stable logical sentence have separate propositions/models. Invariance is not sufficient philosophical objectivity.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": true,
+      "definition_id": "DEF-PILOT-PROFILE-TRUTH",
+      "lean_declaration": "TruthCore.Logic.TruthPilot.Interpretation",
+      "definition_path": "corpus/definitions/pilot-profile-truth.json"
+    },
+    {
+      "index": 55,
+      "statement_ids": [
+        "STMT-DESCRIPTIVE-PLAN-BOUNDARY",
+        "STMT-PLAN-STATE-EMBEDDING-CONTROL"
+      ],
+      "argument_ids": [
+        "DESCRIPTIVE-PLAN-BOUNDARY",
+        "PLAN-STATE-EMBEDDING-CONTROL"
+      ],
+      "result_ids": [
+        "DESCRIPTIVE-PLAN-BOUNDARY",
+        "PLAN-STATE-EMBEDDING-CONTROL"
+      ],
+      "inspected_consumer_ids": [
+        "PLAN-STATE-EMBEDDING-CONTROL"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Metaethics/PlanStateEmbeddingControl/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Acceptance is ideal compatible-state inclusion, not explicit human belief or warrant. MP and converse-failure controls retain nonempty states and an available action.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-PLAN-STATE-ACCEPTANCE",
+      "lean_declaration": "TruthCore.Metaethics.PlanStateEmbedding.Accepts",
+      "definition_path": "corpus/definitions/plan-state-acceptance.json"
+    },
+    {
+      "index": 56,
+      "statement_ids": [
+        "STMT-PLAN-STATE-EMBEDDING-CONTROL"
+      ],
+      "argument_ids": [
+        "PLAN-STATE-EMBEDDING-CONTROL"
+      ],
+      "result_ids": [
+        "PLAN-STATE-EMBEDDING-CONTROL"
+      ],
+      "inspected_consumer_ids": [
+        "PLAN-STATE-EMBEDDING-CONTROL"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Metaethics/PlanStateEmbeddingControl/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Embedding certificate asserts semantic MP plus inhabited distinct formulas and converse failure only; it is not historical expressivist completeness or explanatory sufficiency.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-PLAN-STATE-EMBEDDING-CONTROL",
+      "lean_declaration": "TruthCore.Metaethics.PlanStateEmbedding.PlanStateEmbeddingControl",
+      "definition_path": "corpus/definitions/plan-state-embedding-control.json"
+    },
+    {
+      "index": 57,
+      "statement_ids": [
+        "STMT-DESCRIPTIVE-PLAN-BOUNDARY",
+        "STMT-PLAN-STATE-EMBEDDING-CONTROL"
+      ],
+      "argument_ids": [
+        "DESCRIPTIVE-PLAN-BOUNDARY",
+        "PLAN-STATE-EMBEDDING-CONTROL"
+      ],
+      "result_ids": [
+        "DESCRIPTIVE-PLAN-BOUNDARY",
+        "PLAN-STATE-EMBEDDING-CONTROL"
+      ],
+      "inspected_consumer_ids": [
+        "PLAN-STATE-EMBEDDING-CONTROL"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Metaethics/PlanStateEmbeddingControl/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Factual coordinate and permission plan are independent fields; plan exclusion is not a metaphysical moral fact and permission is not exclusive choice.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-PLAN-STATE-POINT",
+      "lean_declaration": "TruthCore.Metaethics.PlanStateEmbedding.Point",
+      "definition_path": "corpus/definitions/plan-state-point.json"
+    },
+    {
+      "index": 58,
+      "statement_ids": [
+        "STMT-DESCRIPTIVE-PLAN-BOUNDARY",
+        "STMT-PLAN-STATE-EMBEDDING-CONTROL"
+      ],
+      "argument_ids": [
+        "DESCRIPTIVE-PLAN-BOUNDARY",
+        "PLAN-STATE-EMBEDDING-CONTROL"
+      ],
+      "result_ids": [
+        "DESCRIPTIVE-PLAN-BOUNDARY",
+        "PLAN-STATE-EMBEDDING-CONTROL"
+      ],
+      "inspected_consumer_ids": [
+        "PLAN-STATE-EMBEDDING-CONTROL"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Metaethics/PlanStateEmbeddingControl/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Atoms and conditional are explicit syntax, embedded atom unchanged; material support clause is stipulated and not attributed to Gibbard indicative semantics.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-PLAN-STATE-SENTENCE",
+      "lean_declaration": "TruthCore.Metaethics.PlanStateEmbedding.Sentence",
+      "definition_path": "corpus/definitions/plan-state-sentence.json"
+    },
+    {
+      "index": 59,
+      "statement_ids": [
+        "STMT-PLURAL-CLOSURE-BOUNDARY"
+      ],
+      "argument_ids": [
+        "PLURAL-CLOSURE-BOUNDARY"
+      ],
+      "result_ids": [
+        "PLURAL-CLOSURE-BOUNDARY"
+      ],
+      "inspected_consumer_ids": [
+        "PLURAL-CLOSURE-BOUNDARY"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Logic/PluralClosureBoundary/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "K3/LP truth/falsity bits are object semantics, not Lean contradiction; same syntax/tables and independent closure policy define a bounded comparison rather than a census of all logics.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": true,
+      "definition_id": "DEF-PLURAL-TRUTH-FALSITY-MATRICES",
+      "lean_declaration": "TruthCore.Logic.PluralClosureBoundary.Consequence",
+      "definition_path": "corpus/definitions/plural-truth-falsity-matrices.json"
+    },
+    {
+      "index": 60,
+      "statement_ids": [
+        "STMT-FINITE-POPULATION-SCORING-TRADEOFFS",
+        "STMT-POPULATION-COMPARABILITY-COMMON-BURDEN"
+      ],
+      "argument_ids": [
+        "POPULATION-COMPARABILITY-COMMON-BURDEN",
+        "FINITE-POPULATION-SCORING-TRADEOFFS"
+      ],
+      "result_ids": [
+        "POPULATION-COMPARABILITY-COMMON-BURDEN",
+        "FINITE-POPULATION-SCORING-TRADEOFFS"
+      ],
+      "inspected_consumer_ids": [
+        "FINITE-POPULATION-SCORING-TRADEOFFS"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Ethics/PopulationScoring/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Critical-level arithmetic and average have explicit positive/nonempty guards and different addition costs; no policy is inferred morally correct from its score.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-POSITIVE-CRITICAL-LEVEL-SCORING",
+      "lean_declaration": "TruthCore.Ethics.PopulationScoring.critical",
+      "definition_path": "corpus/definitions/positive-critical-level-scoring.json"
+    },
+    {
+      "index": 61,
+      "statement_ids": [
+        "STMT-CONTRASTIVE-WORLDVIEW-CORE",
+        "STMT-TRUTH-DIRECTED-REFLECTIVE-DUTY",
+        "STMT-TRANSCENDENTAL-INQUIRY-ACCESS-BOUNDARY",
+        "STMT-CONTRASTIVE-WORLDVIEW-BOUNDARY",
+        "STMT-REFLECTIVE-COHERENCE-LIMITS"
+      ],
+      "argument_ids": [
+        "LOGIC-REFLECTIVE-COHERENCE-LIMITS",
+        "LOGIC-TRANSCENDENTAL-INQUIRY-ACCESS-BOUNDARY",
+        "LOGIC-CONTRASTIVE-WORLDVIEW",
+        "LOGIC-TRUTH-DIRECTED-REFLECTIVE-DUTY"
+      ],
+      "result_ids": [
+        "LOGIC-REFLECTIVE-COHERENCE-LIMITS",
+        "LOGIC-TRANSCENDENTAL-INQUIRY-ACCESS-BOUNDARY",
+        "LOGIC-CONTRASTIVE-WORLDVIEW",
+        "LOGIC-TRUTH-DIRECTED-REFLECTIVE-DUTY"
+      ],
+      "inspected_consumer_ids": [
+        "LOGIC-REFLECTIVE-COHERENCE-LIMITS",
+        "LOGIC-TRUTH-DIRECTED-REFLECTIVE-DUTY",
+        "LOGIC-TRANSCENDENTAL-INQUIRY-ACCESS-BOUNDARY"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Logic/ReflectiveCoherence/Limits/Challenge.lean",
+        "TruthCore/Results/Logic/ReflectiveCoherence/TruthDirected/Challenge.lean",
+        "TruthCore/Results/Logic/TranscendentalPractice/InquiryAccess/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "OughtAdopt is a normative selection parameter. Consistency norm, duty compatibility, actual truth and evidence access have independent definitions and omission witnesses; truth-directed bridge is openly additional.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-REFLECTIVE-EPISTEMIC-POLICY",
+      "lean_declaration": "TruthCore.Logic.ReflectiveCoherence.consistencyNorm",
+      "definition_path": "corpus/definitions/reflective-epistemic-policy.json"
+    },
+    {
+      "index": 62,
+      "statement_ids": [
+        "STMT-ROWE-REFINED-GRATUITOUS-SUFFERING",
+        "STMT-ROWE-REFINED-PERMISSION-CONSTRAINT"
+      ],
+      "argument_ids": [
+        "POE-ROWE-BALANCE-NEUTRAL-CORE"
+      ],
+      "result_ids": [
+        "POE-ROWE-BALANCE-NEUTRAL-CORE"
+      ],
+      "inspected_consumer_ids": [
+        "POE-ROWE-BALANCE-NEUTRAL-CORE"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Comparison/ProblemOfEvil/RoweBalanceNeutralCore/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Balance-neutral refinement is separately named, changes BOTH premises, and reuses deductive structure only under revised types. It is not silently substituted for simplified Rowe or a sufficient permission rule.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-ROWE-BALANCE-NEUTRAL-GOOD-LOSS",
+      "lean_declaration": "TruthCore.English.Rowe.withBalanceNeutral",
+      "definition_path": "corpus/definitions/rowe-balance-neutral-good-loss.json"
+    },
+    {
+      "index": 63,
+      "statement_ids": [
+        "STMT-ROWE-NO-GRATUITOUS-SUFFERING",
+        "STMT-ROWE-APPARENT-COMPATIBILITY",
+        "STMT-ROWE-PERMISSION-CONSTRAINT",
+        "STMT-ROWE-REFINED-GRATUITOUS-SUFFERING",
+        "STMT-ROWE-APPARENTLY-POINTLESS-SUFFERING",
+        "STMT-ROWE-NO-THEISTIC-BEING",
+        "STMT-ROWE-THEISTIC-BEING-EXISTS",
+        "STMT-ROWE-REFINED-PERMISSION-CONSTRAINT",
+        "STMT-ROWE-GRATUITOUS-SUFFERING"
+      ],
+      "argument_ids": [
+        "POE-ROWE-APPARENT-COMPATIBILITY",
+        "EVIL-INTERNAL-PERMISSION-CHALLENGE",
+        "POE-ROWE-BALANCE-NEUTRAL-CORE",
+        "POE-ROWE-DEDUCTIVE-CORE"
+      ],
+      "result_ids": [
+        "POE-ROWE-APPARENT-COMPATIBILITY",
+        "EVIL-INTERNAL-PERMISSION-CHALLENGE",
+        "POE-ROWE-BALANCE-NEUTRAL-CORE",
+        "POE-ROWE-DEDUCTIVE-CORE"
+      ],
+      "inspected_consumer_ids": [
+        "POE-ROWE-DEDUCTIVE-CORE",
+        "POE-ROWE-APPARENT-COMPATIBILITY"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Comparison/ProblemOfEvil/RoweDeductiveCore/Challenge.lean",
+        "TruthCore/Results/Comparison/ProblemOfEvil/RoweApparentCompatibility/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Counterfactual unavoidable cost differs from actual connected/unrecognized good; necessary permission constraint is not sufficiency. Apparent compatibility leaves inference from unrecognized to absent OPEN.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-ROWE-BLOCKING-COST",
+      "lean_declaration": "TruthCore.English.Rowe.BlockingCost",
+      "definition_path": "corpus/definitions/rowe-blocking-cost.json"
+    },
+    {
+      "index": 64,
+      "statement_ids": [
+        "STMT-ROWE-NO-GRATUITOUS-SUFFERING",
+        "STMT-ROWE-APPARENT-COMPATIBILITY",
+        "STMT-ROWE-PERMISSION-CONSTRAINT",
+        "STMT-ROWE-REFINED-GRATUITOUS-SUFFERING",
+        "STMT-ROWE-APPARENTLY-POINTLESS-SUFFERING",
+        "STMT-ROWE-NO-THEISTIC-BEING",
+        "STMT-ROWE-THEISTIC-BEING-EXISTS",
+        "STMT-ROWE-REFINED-PERMISSION-CONSTRAINT",
+        "STMT-ROWE-GRATUITOUS-SUFFERING"
+      ],
+      "argument_ids": [
+        "POE-ROWE-APPARENT-COMPATIBILITY",
+        "EVIL-INTERNAL-PERMISSION-CHALLENGE",
+        "POE-ROWE-BALANCE-NEUTRAL-CORE",
+        "POE-ROWE-DEDUCTIVE-CORE"
+      ],
+      "result_ids": [
+        "POE-ROWE-APPARENT-COMPATIBILITY",
+        "EVIL-INTERNAL-PERMISSION-CHALLENGE",
+        "POE-ROWE-BALANCE-NEUTRAL-CORE",
+        "POE-ROWE-DEDUCTIVE-CORE"
+      ],
+      "inspected_consumer_ids": [
+        "POE-ROWE-DEDUCTIVE-CORE"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Comparison/ProblemOfEvil/RoweDeductiveCore/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Narrow three-attribute theism is an existential under explicit interpretations, not whole Catholicism or every deity notion. Deductive result retains gratuitous-suffering and permission premises.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-ROWE-NARROW-THEISM",
+      "lean_declaration": "TruthCore.English.Rowe.TheisticBeingExists",
+      "definition_path": "corpus/definitions/rowe-narrow-theism.json"
+    },
+    {
+      "index": 65,
+      "statement_ids": [
+        "STMT-WEAK-SCIENTISM-CONSISTENT",
+        "STMT-SCIENTISM-SCOPE-RIVAL-CONTROLS",
+        "STMT-SCIENTISM-NOT-EMPIRICALLY-ESTABLISHED",
+        "STMT-WEAK-SCIENTISM-RESTRICTED",
+        "STMT-STRONG-SCIENTISM-DILEMMA",
+        "STMT-STRONG-SCIENTISM",
+        "STMT-WEAK-SCIENTISM-NOT-EMPIRICALLY-ESTABLISHED",
+        "STMT-WEAK-SCIENTISM-DEMARCATION-OUTCOME",
+        "STMT-SOME-NON-EMPIRICAL-ESTABLISHED"
+      ],
+      "argument_ids": [
+        "SCIENTISM-WEAK-CONSISTENT",
+        "SCIENTISM-STRONG-DILEMMA",
+        "SCIENTISM-SCOPE-RIVAL-CONTROLS",
+        "SCIENTISM-SCOPE-GUARDED-NONEMPIRICAL-NEGATIVE",
+        "SCIENTISM-WEAK-DEMARCATION"
+      ],
+      "result_ids": [
+        "SCIENTISM-WEAK-CONSISTENT",
+        "SCIENTISM-STRONG-DILEMMA",
+        "SCIENTISM-SCOPE-RIVAL-CONTROLS",
+        "SCIENTISM-SCOPE-GUARDED-NONEMPIRICAL-NEGATIVE",
+        "SCIENTISM-WEAK-DEMARCATION"
+      ],
+      "inspected_consumer_ids": [
+        "SCIENTISM-SCOPE-GUARDED-NONEMPIRICAL-NEGATIVE"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Logic/ScientismScopeBoundary/GuardedNegative/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Established and empirical establishment are independent predicates; recent1154 scope-transfer siblings prevent treating generic ScopedScientism as universal, while old selfapplication types remain fixed.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-SCIENTISM-EPISTEMIC-FRAME",
+      "lean_declaration": "TruthCore.Logic.Scientism.EpistemicFrame",
+      "definition_path": "corpus/definitions/scientism-epistemic-frame.json"
+    },
+    {
+      "index": 66,
+      "statement_ids": [
+        "STMT-SELF-CAUSING-GENERATED-ALTERNATIVE-CAUSE",
+        "STMT-CAUSE-READINGS-DELTA-NOT-CONDITIONAL-RESTATEMENT",
+        "STMT-CAUSE-READINGS-SELF-ONLY-SEPARATOR",
+        "STMT-CAUSE-READINGS-EXACT-SELF-CAUSE-DELTA",
+        "STMT-CAUSE-READINGS-MIXED-SELF-OTHER-CONTROL",
+        "STMT-CAUSE-READINGS-NO-CAUSE-DELTA-CONTROL"
+      ],
+      "argument_ids": [
+        "STRENGTH-CAUSE-SEPARATOR",
+        "STRENGTH-CAUSE-NO-CAUSE-CONTROL",
+        "STRENGTH-CAUSE-IMPLICATION",
+        "STRENGTH-CAUSE-RECONSTRUCTION",
+        "STRENGTH-CAUSE-DELTA-FORWARD",
+        "STRENGTH-CAUSE-EQUIVALENCE",
+        "STRENGTH-CAUSE-NON-RESTATEMENT-CONTROL",
+        "STRENGTH-CAUSE-MIXED-CONTROL"
+      ],
+      "result_ids": [
+        "STRENGTH-CAUSE-SEPARATOR",
+        "STRENGTH-CAUSE-NO-CAUSE-CONTROL",
+        "STRENGTH-CAUSE-IMPLICATION",
+        "STRENGTH-CAUSE-RECONSTRUCTION",
+        "STRENGTH-CAUSE-DELTA-FORWARD",
+        "STRENGTH-CAUSE-EQUIVALENCE",
+        "STRENGTH-CAUSE-NON-RESTATEMENT-CONTROL",
+        "STRENGTH-CAUSE-MIXED-CONTROL"
+      ],
+      "inspected_consumer_ids": [
+        "STRENGTH-CAUSE-EQUIVALENCE",
+        "STRENGTH-CAUSE-NON-RESTATEMENT-CONTROL"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Logic/StrengthCause/Challenge.lean",
+        "TruthCore/Results/Logic/StrengthCause/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Local alternative cause guarded by generated selfcausation differs from global irreflexivity; broad/distinct readings have checked exact delta and self-only/mixed/no-cause controls with explicit decidable equality.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-SELF-CAUSING-GENERATED-ALTERNATIVE-CAUSE",
+      "lean_declaration": "TruthCore.Logic.Strength.Cause.SelfCausingGeneratedHaveAlternativeCause",
+      "definition_path": "corpus/definitions/self-causing-generated-alternative-cause.json"
+    },
+    {
+      "index": 67,
+      "statement_ids": [
+        "STMT-STEVENSON-STRUCTURED-DISAGREEMENT",
+        "STMT-STEVENSON-FACTUAL-AGREEMENT-CONSISTENT"
+      ],
+      "argument_ids": [
+        "STEVENSON-FACTUAL-AGREEMENT"
+      ],
+      "result_ids": [
+        "STEVENSON-FACTUAL-AGREEMENT"
+      ],
+      "inspected_consumer_ids": [
+        "STEVENSON-FACTUAL-AGREEMENT"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Comparison/Metaethics/StevensonFactualAgreement/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Practical interest opposition+mutual redirection differs from belief opposition and truth. Factual agreement quantifies over designated factual sentences and has a nonempty factual witness.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-STEVENSON-STRUCTURED-DISAGREEMENT",
+      "lean_declaration": "TruthCore.English.Stevenson.DisagreementReading",
+      "definition_path": "corpus/definitions/stevenson-structured-disagreement.json"
+    },
+    {
+      "index": 68,
+      "statement_ids": [
+        "STMT-STRENGTH-ORDER-UNEQUAL",
+        "STMT-STRENGTH-ORDER-GREATER",
+        "STMT-STRENGTH-ORDER-EQUAL",
+        "STMT-STRENGTH-ORDER-ALLOWED-CASES",
+        "STMT-STRENGTH-ORDER-REMAINDER-IDENTITY",
+        "STMT-STRENGTH-ORDER-ZERO-SEPARATOR",
+        "STMT-STRENGTH-ORDER-AT-LEAST",
+        "STMT-STRENGTH-ORDER-EXACT-DELTA"
+      ],
+      "argument_ids": [
+        "STRENGTH-ORDER-REMAINDER-IDENTITY",
+        "STRENGTH-ORDER-SEPARATOR",
+        "STRENGTH-ORDER-DELTA-FORWARD",
+        "STRENGTH-ORDER-EQUIVALENCE",
+        "STRENGTH-ORDER-IMPLICATION",
+        "STRENGTH-ORDER-ALLOWED-CASES",
+        "STRENGTH-ORDER-RECONSTRUCTION"
+      ],
+      "result_ids": [
+        "STRENGTH-ORDER-REMAINDER-IDENTITY",
+        "STRENGTH-ORDER-SEPARATOR",
+        "STRENGTH-ORDER-DELTA-FORWARD",
+        "STRENGTH-ORDER-EQUIVALENCE",
+        "STRENGTH-ORDER-IMPLICATION",
+        "STRENGTH-ORDER-ALLOWED-CASES",
+        "STRENGTH-ORDER-RECONSTRUCTION"
+      ],
+      "inspected_consumer_ids": [
+        "STRENGTH-ORDER-REMAINDER-IDENTITY"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Logic/StrengthOrder/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Pinned Mathlib linear order is a fixed mathematical interface with checked weak/strict/equal remainder and zero separator; no primitive metaphysical comparison acquires these laws by name.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-STRENGTH-LINEAR-ORDER",
+      "lean_declaration": "TruthCore.Logic.Strength.Order.spec",
+      "definition_path": "corpus/definitions/strength-linear-order.json"
+    },
+    {
+      "index": 69,
+      "statement_ids": [
+        "STMT-STRENGTH-UNIQUE-EXISTS",
+        "STMT-STRENGTH-AT-MOST-ONE",
+        "STMT-STRENGTH-EXISTS",
+        "STMT-STRENGTH-UNIQUE-TWO-POINT-SEPARATOR",
+        "STMT-STRENGTH-UNIQUE-EXACT-DELTA"
+      ],
+      "argument_ids": [
+        "STRENGTH-UNIQUE-RECONSTRUCTION",
+        "STRENGTH-UNIQUE-SEPARATOR",
+        "STRENGTH-UNIQUE-IMPLICATION",
+        "STRENGTH-UNIQUE-DELTA-FORWARD",
+        "STRENGTH-UNIQUE-EQUIVALENCE"
+      ],
+      "result_ids": [
+        "STRENGTH-UNIQUE-RECONSTRUCTION",
+        "STRENGTH-UNIQUE-SEPARATOR",
+        "STRENGTH-UNIQUE-IMPLICATION",
+        "STRENGTH-UNIQUE-DELTA-FORWARD",
+        "STRENGTH-UNIQUE-EQUIVALENCE"
+      ],
+      "inspected_consumer_ids": [
+        "STRENGTH-UNIQUE-EQUIVALENCE",
+        "STRENGTH-UNIQUE-SEPARATOR"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Logic/StrengthUnique/Challenge.lean",
+        "TruthCore/Results/Logic/StrengthUnique/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Existence, unique existence and at-most-one have checked exact delta and two-point separator. Empty at-most-one does not supply existence; no philosophical domain instantiated.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-STRENGTH-PREDICATE-UNIQUENESS",
+      "lean_declaration": "TruthCore.Logic.Strength.UniqueExistence.AtMostOne",
+      "definition_path": "corpus/definitions/strength-predicate-uniqueness.json"
+    },
+    {
+      "index": 70,
+      "statement_ids": [
+        "STMT-SUPERVENIENCE-EXPLAINED-BY-PURPOSES-OF-MORAL-TALK",
+        "STMT-MORAL-DATA-DO-NOT-CHOOSE-EXPLANATORY-ORDER"
+      ],
+      "argument_ids": [
+        "MORAL-DATA-DO-NOT-CHOOSE-EXPLANATORY-ORDER"
+      ],
+      "result_ids": [
+        "MORAL-DATA-DO-NOT-CHOOSE-EXPLANATORY-ORDER"
+      ],
+      "inspected_consumer_ids": [
+        "MORAL-DATA-DO-NOT-CHOOSE-EXPLANATORY-ORDER"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Comparison/QuasiRealism/SharedDataDoNotChooseOrder/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Competence-purpose explanation is one explicit topic edge, not global supervenience, truthmaking or an exhaustive account. Shared data/order control already leaves actual explanation bridge OPEN.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-SUPERVENIENCE-COMPETENCE",
+      "lean_declaration": "TruthCore.English.VanRoojen.SupervenienceExplainedByPurposesReading",
+      "definition_path": "corpus/definitions/supervenience-competence.json"
+    },
+    {
+      "index": 71,
+      "statement_ids": [
+        "STMT-STRONG-VERIFICATIONISM-WITH-LAWS",
+        "STMT-STRONG-VERIFICATIONISM-WITH-LAWS-FAILS"
+      ],
+      "argument_ids": [
+        "STRONG-VERIFICATIONISM-WITH-LAWS-FAILS"
+      ],
+      "result_ids": [
+        "STRONG-VERIFICATIONISM-WITH-LAWS-FAILS"
+      ],
+      "inspected_consumer_ids": [
+        "STRONG-VERIFICATIONISM-WITH-LAWS-FAILS"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Logic/Verificationism/StrongVerificationClosure/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Analytic validity and testable-law setting have explicit universal/counterinstance observation guards; strong verification exclusion targets that package, not every science or meaning criterion.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": true,
+      "definition_id": "DEF-TESTABLE-LAW-LANGUAGE",
+      "lean_declaration": "TruthCore.Logic.Verificationism.HasTestableLaw",
+      "definition_path": "corpus/definitions/testable-law-language.json"
+    },
+    {
+      "index": 72,
+      "statement_ids": [
+        "STMT-TRUTH-COLLAPSE-CONTROLS",
+        "STMT-TRUTH-NONTRIVIALITY-CORE"
+      ],
+      "argument_ids": [
+        "TRUTH-NONTRIVIALITY-CORE",
+        "TRUTH-COLLAPSE-CONTROLS"
+      ],
+      "result_ids": [
+        "TRUTH-NONTRIVIALITY-CORE",
+        "TRUTH-COLLAPSE-CONTROLS"
+      ],
+      "inspected_consumer_ids": [
+        "TRUTH-NONTRIVIALITY-CORE"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Logic/TruthNontriviality/Core/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Thesis capture is an independent conditional converse schema; retorsion uses disquotation separately. Controls expose omission rather than deriving capture from simple assertion.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": true,
+      "definition_id": "DEF-THESIS-CAPTURE",
+      "lean_declaration": "TruthCore.Logic.TruthNontriviality.CapturesThesis",
+      "definition_path": "corpus/definitions/thesis-captures.json"
+    },
+    {
+      "index": 73,
+      "statement_ids": [
+        "STMT-COGITO-NON-SUBSTANTIAL-BEARER-MODEL",
+        "STMT-ACTUAL-SUPPORT-CONCRETE-GROUND",
+        "STMT-COGITO-NECESSARY-CONCRETE-ANCESTOR",
+        "STMT-IN-SUBJECT-IS-EXISTENT-SUPPORT",
+        "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT",
+        "STMT-BEARER-ANCESTRY-DEPENDENTS-SUPPORTED",
+        "STMT-COGITO-CONCRETE-OMISSION-CONTROLS",
+        "STMT-SAID-OF-SUBJECT-IS-EXISTENT-SUPPORT",
+        "STMT-COGITO-EVERY-BEARER-IS-SUBSTANCE",
+        "STMT-COGITO-BEARER-EXISTS-AT-WORLD",
+        "STMT-BEARER-REGRESS-CONTROLS",
+        "STMT-BEARER-OUTCOME-COVERAGE",
+        "STMT-COGITO-MULTIPLE-BEARERS-MODEL",
+        "STMT-COGITO-BORNE-THOUGHT-IS-OPINING",
+        "STMT-COGITO-BEARER-IS-CONCRETE",
+        "STMT-OCCURRENCE-SAME-WITNESS-ESSENCE",
+        "STMT-OCCURRENCE-NECESSARY-RECIPIENT-CONTROL",
+        "STMT-COGITO-SOME-THINKING-SUBJECT",
+        "STMT-COGITO-ANCESTRY-ROOT-FORK",
+        "STMT-COGITO-NO-THOUGHT-CONTROL",
+        "STMT-COGITO-SUBJECTLESS-CONTROL",
+        "STMT-COGITO-THINKER-ANCESTRY-GROUNDED",
+        "STMT-COGITO-SOME-SUBSTANTIAL-THINKING-SUBJECT",
+        "STMT-PRIMARY-SUBSTANCE-TERMINUS-OF-BEARER",
+        "STMT-COGITO-THINKER-GROUNDING-ACCESSIBLE",
+        "STMT-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE",
+        "STMT-COGITO-ANCESTRY-CONTROLS"
+      ],
+      "argument_ids": [
+        "COGITO-NECESSARY-CONCRETE-ANCESTOR",
+        "COGITO-ESSE-INHABITED-WORLD",
+        "COGITO-CONCRETE-OMISSION-CONTROLS",
+        "COGITO-BEARER-CONCRETE-FROM-EXISTENCE",
+        "COGITO-SUBSTANTIAL-SUBJECT-FROM-OCCURRENCE",
+        "COGITO-SOMETHING-MOVED-FROM-THOUGHT",
+        "COGITO-ESSE-ANCESTRY-FORK",
+        "BEARER-REGRESS-CONTROLS",
+        "BEARER-OUTCOME-COVERAGE",
+        "COGITO-SUBJECTLESS-CONTROL",
+        "OCCURRENCE-SAME-WITNESS-ESSENCE",
+        "COGITO-ANCESTRY-CONTROLS",
+        "BEARER-PRIMARY-SUBSTANCE-TERMINUS",
+        "COGITO-BEARER-CONCRETE-FROM-OPERATION",
+        "COGITO-MULTIPLE-BEARERS-MODEL",
+        "COGITO-NO-THOUGHT-CONTROL",
+        "COGITO-ANCESTRY-ROOT-FORK",
+        "OCCURRENCE-NECESSARY-RECIPIENT-CONTROL",
+        "COGITO-INHABITED-CONCRETE-WORLD",
+        "OCCURRENCE-ESSE-SAME-WITNESS",
+        "COGITO-NON-SUBSTANTIAL-BEARER-MODEL",
+        "COGITO-SUBJECT-FROM-OCCURRENCE",
+        "COGITO-ESSE-NECESSARY-ANCESTOR"
+      ],
+      "result_ids": [
+        "COGITO-NECESSARY-CONCRETE-ANCESTOR",
+        "COGITO-ESSE-INHABITED-WORLD",
+        "COGITO-CONCRETE-OMISSION-CONTROLS",
+        "COGITO-BEARER-CONCRETE-FROM-EXISTENCE",
+        "COGITO-SUBSTANTIAL-SUBJECT-FROM-OCCURRENCE",
+        "COGITO-SOMETHING-MOVED-FROM-THOUGHT",
+        "COGITO-ESSE-ANCESTRY-FORK",
+        "BEARER-REGRESS-CONTROLS",
+        "BEARER-OUTCOME-COVERAGE",
+        "COGITO-SUBJECTLESS-CONTROL",
+        "OCCURRENCE-SAME-WITNESS-ESSENCE",
+        "COGITO-ANCESTRY-CONTROLS",
+        "BEARER-PRIMARY-SUBSTANCE-TERMINUS",
+        "COGITO-BEARER-CONCRETE-FROM-OPERATION",
+        "COGITO-MULTIPLE-BEARERS-MODEL",
+        "COGITO-NO-THOUGHT-CONTROL",
+        "COGITO-ANCESTRY-ROOT-FORK",
+        "OCCURRENCE-NECESSARY-RECIPIENT-CONTROL",
+        "COGITO-INHABITED-CONCRETE-WORLD",
+        "OCCURRENCE-ESSE-SAME-WITNESS",
+        "COGITO-NON-SUBSTANTIAL-BEARER-MODEL",
+        "COGITO-SUBJECT-FROM-OCCURRENCE",
+        "COGITO-ESSE-NECESSARY-ANCESTOR"
+      ],
+      "inspected_consumer_ids": [
+        "COGITO-SUBJECT-FROM-OCCURRENCE",
+        "COGITO-MULTIPLE-BEARERS-MODEL"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Logic/CogitoSubject/Challenge.lean",
+        "TruthCore/Results/Logic/CogitoSubject/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Bearer relation implies no substance, uniqueness, persistence, materiality or personhood. Explicit bridges and subjectless/multiple/non-substantial controls block those transfers.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-THOUGHT-BEARER",
+      "lean_declaration": "TruthCore.Logic.CogitoSubject.SomeThinkingSubject",
+      "definition_path": "corpus/definitions/thought-bearer.json"
+    },
+    {
+      "index": 74,
+      "statement_ids": [
+        "STMT-THOUGHT-CHANGE-OMISSION-CONTROLS",
+        "STMT-THOUGHT-CHANGE-SUBJECT-WITNESS"
+      ],
+      "argument_ids": [
+        "COGITO-PHYSICS-THOUGHT-CHANGE-OMISSION-CONTROLS",
+        "COGITO-PHYSICS-THOUGHT-CHANGE-SUBJECT"
+      ],
+      "result_ids": [
+        "COGITO-PHYSICS-THOUGHT-CHANGE-OMISSION-CONTROLS",
+        "COGITO-PHYSICS-THOUGHT-CHANGE-SUBJECT"
+      ],
+      "inspected_consumer_ids": [
+        "COGITO-PHYSICS-THOUGHT-CHANGE-SUBJECT",
+        "COGITO-PHYSICS-THOUGHT-CHANGE-OMISSION-CONTROLS"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Logic/ThoughtChangeSubject/Challenge.lean",
+        "TruthCore/Results/Logic/ThoughtChangeSubject/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Thought-as-change and Physics actuality-of-potential are separate inputs. Conclusion retains a potential subject of change, not Cartesian ego or episode/bearer identity; three omission controls preserve scope.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-THOUGHT-CHANGE-SUBJECT-WITNESS",
+      "lean_declaration": "TruthCore.Logic.ThoughtChangeSubject.ThoughtChangeHasPotentialSubject",
+      "definition_path": "corpus/definitions/thought-change-subject-witness.json"
+    },
+    {
+      "index": 75,
+      "statement_ids": [
+        "STMT-STRONG-VERIFICATIONISM-WITH-LAWS",
+        "STMT-STRONG-VERIFICATION-EXCLUDES-LAWS",
+        "STMT-STRONG-VERIFICATIONISM-WITH-LAWS-FAILS"
+      ],
+      "argument_ids": [
+        "STRONG-VERIFICATIONISM-WITH-LAWS-FAILS",
+        "STRONG-VERIFICATION-EXCLUDES-LAWS"
+      ],
+      "result_ids": [
+        "STRONG-VERIFICATIONISM-WITH-LAWS-FAILS",
+        "STRONG-VERIFICATION-EXCLUDES-LAWS"
+      ],
+      "inspected_consumer_ids": [
+        "STRONG-VERIFICATION-EXCLUDES-LAWS"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Logic/Verificationism/StrongVerificationLaws/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Infinite individual domain, finite observation mentions and independent counterinstance construction are explicit structural inputs. Law nonverification is not impossibility of logical/theological proof.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": true,
+      "definition_id": "DEF-UNIVERSAL-LAW-SETTING",
+      "lean_declaration": "TruthCore.Logic.Verificationism.LawSetting",
+      "definition_path": "corpus/definitions/universal-law-setting.json"
+    },
+    {
+      "index": 76,
+      "statement_ids": [
+        "STMT-UNRECOGNIZED-PROPERTY-IDENTITY-POSSIBLE"
+      ],
+      "argument_ids": [
+        "UNRECOGNIZED-PROPERTY-IDENTITY-POSSIBLE"
+      ],
+      "result_ids": [
+        "UNRECOGNIZED-PROPERTY-IDENTITY-POSSIBLE"
+      ],
+      "inspected_consumer_ids": [
+        "UNRECOGNIZED-PROPERTY-IDENTITY-POSSIBLE"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Comparison/NaturalisticRealism/UnrecognizedIdentityPossible/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Distinct names may denote the same nonconstant property without recognition; countermodel rejects only nonrecognition\u2192nonidentity, not full open-question argument or philosophical identity criterion.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-UNRECOGNIZED-PROPERTY-IDENTITY",
+      "lean_declaration": "TruthCore.Metaethics.NaturalisticRealism.UnrecognizedIdentityPossible",
+      "definition_path": "corpus/definitions/unrecognized-property-identity.json"
+    },
+    {
+      "index": 77,
+      "statement_ids": [
+        "STMT-KNOWLEDGE-ADMISSIBILITY-CERTIFICATE"
+      ],
+      "argument_ids": [
+        "KNOWLEDGE-ADMISSIBILITY-CERTIFICATE"
+      ],
+      "result_ids": [
+        "KNOWLEDGE-ADMISSIBILITY-CERTIFICATE"
+      ],
+      "inspected_consumer_ids": [
+        "KNOWLEDGE-ADMISSIBILITY-CERTIFICATE"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Logic/KnowledgeAdmissibility/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Report update restricts epistemic alternatives only; no change to facts or phenomenal/physical functions. Veridical-report idealization supplies no perception/reliability/warrant theorem.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-VERIDICAL-REPORT-UPDATE",
+      "lean_declaration": "TruthCore.Logic.KnowledgeAdmissibility.observe",
+      "definition_path": "corpus/definitions/veridical-report-update.json"
+    },
+    {
+      "index": 78,
+      "statement_ids": [
+        "STMT-REFLECTIVE-COHERENCE-BOUNDARY",
+        "STMT-TRUTH-DIRECTED-REFLECTIVE-DUTY",
+        "STMT-REFLECTIVE-COHERENCE-LIMITS"
+      ],
+      "argument_ids": [
+        "LOGIC-REFLECTIVE-COHERENCE-LIMITS",
+        "LOGIC-REFLECTIVE-COHERENCE-BOUNDARY",
+        "LOGIC-TRUTH-DIRECTED-REFLECTIVE-DUTY"
+      ],
+      "result_ids": [
+        "LOGIC-REFLECTIVE-COHERENCE-LIMITS",
+        "LOGIC-REFLECTIVE-COHERENCE-BOUNDARY",
+        "LOGIC-TRUTH-DIRECTED-REFLECTIVE-DUTY"
+      ],
+      "inspected_consumer_ids": [
+        "LOGIC-REFLECTIVE-COHERENCE-BOUNDARY",
+        "LOGIC-TRUTH-DIRECTED-REFLECTIVE-DUTY"
+      ],
+      "challenge_paths": [
+        "TruthCore/Results/Logic/ReflectiveCoherence/Boundary/Challenge.lean",
+        "TruthCore/Results/Logic/ReflectiveCoherence/TruthDirected/Challenge.lean"
+      ],
+      "disposition": "already-explicit-no-new-gap",
+      "reason": "Entails is all-model consequence in ONE supplied semantics; endorsement and actuality differ. CoherenceBoundary separates inconsistency from incompatibility/error; necessary implication is not unrestricted metaphysical necessity.",
+      "prior_inventory_member": false,
+      "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
+      "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
+      "prior_full_module_read": false,
+      "definition_id": "DEF-WORLDVIEW-NECESSARY-IMPLICATION",
+      "lean_declaration": "TruthCore.Logic.ReflectiveCoherence.Entails",
+      "definition_path": "corpus/definitions/worldview-necessary-implication.json"
+    }
+  ],
+  "new_conditional_strength_results": [
+    "GOODNESS-GLOBAL-COVERAGE-STRENGTHENS-CORRECT-SUPPORT",
+    "GOODNESS-FROM-CORRECT-NAMED-SUPPORT",
+    "GOODNESS-CORRECT-SUPPORT-STRICT-CONTROL",
+    "GOODNESS-SUPPORT-EQUIVALENT-TO-CORRECT-COVERAGE"
+  ],
+  "review_scope_correction": "Support DOES entail semantic named coverage of EVERY admissible CORRECT account; new checked equivalence certifies this on the SAME dictionary without new OPEN/root premise. Strict control separates arbitrary-admissible coverage via explicitly WRONG .other."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "NATURALISM-OCCUPANT-REMOTE-SIMPLE-EXCLUSION",
+  "argument_id": "NATURALISM-OCCUPANT-REMOTE-SIMPLE-EXCLUSION",
+  "challenge_module": "TruthCore.Results.Ontology.NaturalismContrasts.Occupant.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.NaturalismContrasts.Occupant.Solution",
+  "theorem": "TruthCore.Results.Ontology.NaturalismContrasts.Occupant.occupantNoExistingSimpleRemote",
+  "comparator_config": "results/NATURALISM-OCCUPANT-REMOTE-SIMPLE-EXCLUSION/comparator.json",
+  "status": "solution-present",
+  "description": "Compose the checked part-based exclusion with the existing thesis-containment bridge instantiated at Located F: occupant N1 makes every existing candidate located; containment makes it a part of the same selected spacetime whole. The two component/composite bridges and distinct population then exclude an existing simple remote candidate under the shared Case dictionary. Without containment, the exported controls show occupant N1 can survive failed part N1. No inference from physical to spatiotemporal or from a naming implication to God-characterization is added."
+}

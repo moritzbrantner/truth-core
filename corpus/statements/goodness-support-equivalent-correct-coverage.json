@@ -1,0 +1,10 @@
+{
+  "id": "STMT-GOODNESS-SUPPORT-EQUIVALENT-CORRECT-COVERAGE",
+  "paraphrase": "Conditional existential named support is equivalent to coverage of every admissible CORRECT account under the SAME goodness/denotation dictionary. Correct accounts coextend with each other and named membership transports along that coextension. This neither asserts a correct account exists nor covers wrong admissible candidates or property identities.",
+  "lean_declaration": "TruthCore.Metaethics.GoodnessCorrectSupport.SupportCoverageEquivalence",
+  "definition_ids": [
+    "DEF-GOODNESS-CORRECT-ACCOUNT-SUPPORT",
+    "DEF-GOODNESS-CORRECT-ACCOUNT-NAMED-COVERAGE",
+    "DEF-GOODNESS-SEMANTIC-DEFINITION-COVERAGE"
+  ]
+}

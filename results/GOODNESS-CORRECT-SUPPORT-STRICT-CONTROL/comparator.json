@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Metaethics.GoodnessCorrectSupport.Controls.Challenge",
+  "solution_module": "TruthCore.Results.Metaethics.GoodnessCorrectSupport.Controls.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Metaethics.GoodnessCorrectSupport.Controls.strictControl"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

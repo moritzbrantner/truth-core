@@ -1,0 +1,35 @@
+{
+  "id": "NATURALISM-PART-REMOTE-SIMPLE-EXCLUSION",
+  "premise_statement_ids": [
+    "STMT-NATURALISM-N1",
+    "STMT-EXISTING-SPACETIME-PROPER-PARTS-ARE-COMPONENTS",
+    "STMT-EXISTING-SPACETIME-COMPONENTS-MAKE-WHOLE-COMPOSITE",
+    "STMT-TWO-BEINGS-EXIST-AT"
+  ],
+  "conclusion_statement_id": "STMT-NO-EXISTING-SIMPLE-REMOTE-BEING",
+  "inference_ids": [
+    "INF-NATURALISM-PART-REMOTE-SIMPLE-EXCLUSION"
+  ],
+  "meaning": "Compose the checked constructive population constraint with the explicit distinct-pair premise. The conclusion denies an existing candidate with the same Case simplicity/remoteness properties, not the truth of a God-naming implication or every interpretation of God. All worldview, dictionary and population premises remain open.",
+  "definition_ids": [
+    "DEF-NATURALISM-N1",
+    "DEF-SPATIOTEMPORAL-FRAME",
+    "DEF-PART-OF-SPACETIME",
+    "DEF-SPATIOTEMPORAL-LOCATED",
+    "DEF-COMPOSITION-COMPONENT",
+    "DEF-REMOTE-FROM-ALL",
+    "DEF-SIMPLE",
+    "DEF-EXISTING-SPACETIME-PART-COMPONENT-BRIDGE",
+    "DEF-EXISTING-SPACETIME-COMPONENT-COMPOSITE-BRIDGE",
+    "DEF-NATURALISM-REMOTE-SIMPLE-CONTRAST",
+    "DEF-SPACETIME-WHOLE-OCCUPATION-SCOPE",
+    "DEF-KANT-ONTOLOGICAL-MODEL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SPATIOTEMPORAL",
+    "DISAMB-SPACETIME-PART-AND-COMPOSITION"
+  ],
+  "strong_version_needed": {
+    "STMT-NATURALISM-N1": "This comparison tests N1 over every existing candidate. The conclusion ranges over the remote/simple candidate, both population witnesses, or the selected whole without a supplied concreteness predicate or an all-existents-concrete bridge. N2 would constrain only the concrete subset and would need an additional explicit classification bridge; that is a different configuration, not a replacement justified by this signature."
+  }
+}

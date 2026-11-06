@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Ontology.NaturalismContrasts.Occupant.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.NaturalismContrasts.Occupant.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Ontology.NaturalismContrasts.Occupant.occupantNoExistingSimpleRemote"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

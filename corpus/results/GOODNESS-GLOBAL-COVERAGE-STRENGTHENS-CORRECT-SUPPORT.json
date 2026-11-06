@@ -1,0 +1,10 @@
+{
+  "id": "GOODNESS-GLOBAL-COVERAGE-STRENGTHENS-CORRECT-SUPPORT",
+  "argument_id": "GOODNESS-GLOBAL-COVERAGE-STRENGTHENS-CORRECT-SUPPORT",
+  "challenge_module": "TruthCore.Results.Metaethics.GoodnessCorrectSupport.Strength.Challenge",
+  "solution_module": "TruthCore.Results.Metaethics.GoodnessCorrectSupport.Strength.Solution",
+  "theorem": "TruthCore.Results.Metaethics.GoodnessCorrectSupport.Strength.globalCoverageImpliesSupport",
+  "comparator_config": "results/GOODNESS-GLOBAL-COVERAGE-STRENGTHENS-CORRECT-SUPPORT/comparator.json",
+  "status": "solution-present",
+  "description": "Global semantic coverage implies conditional existential named correct-account support. No correct account or philosophical coverage is independently established."
+}

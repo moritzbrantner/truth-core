@@ -1,0 +1,10 @@
+{
+  "id": "NATURALISM-REMOTE-SIMPLE-POPULATION",
+  "argument_id": "NATURALISM-REMOTE-SIMPLE-POPULATION",
+  "challenge_module": "TruthCore.Results.Ontology.NaturalismContrasts.Population.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.NaturalismContrasts.Population.Solution",
+  "theorem": "TruthCore.Results.Ontology.NaturalismContrasts.Population.remoteSimplePopulationConstraint",
+  "comparator_config": "results/NATURALISM-REMOTE-SIMPLE-POPULATION/comparator.json",
+  "status": "solution-present",
+  "description": "Under part N1 and the two explicit selected-world dictionary bridges, an existing simple remote being excludes a numerically distinct pair of existents. Remoteness rules out its proper-part status; simplicity then transfers negatively to the whole, which cannot have an existing proper component. A proposed distinct pair yields incompatible double-negated identities with the same whole. No excluded middle, positive identity conclusion or actual whole-existence assertion is used."
+}
