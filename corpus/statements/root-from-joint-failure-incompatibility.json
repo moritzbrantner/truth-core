@@ -1,0 +1,8 @@
+{
+  "id": "STMT-ROOT-FROM-JOINT-FAILURE-INCOMPATIBILITY",
+  "paraphrase": "Logical rule template: for two indexed families of premise propositions and a common conclusion, if each complete family suffices for the conclusion, every failure mode of the first entails X, every failure mode of the second entails Y, and X and Y are incompatible, then the common conclusion follows. Excluded middle is an explicit argument premise. No particular Catholicism route pair is instantiated or settled.",
+  "lean_declaration": "TruthCore.Logic.JointRouteFailure.RootFromJointFailureIncompatibility",
+  "definition_ids": [
+    "DEF-JOINT-ROUTE-FAILURE-PATTERN"
+  ]
+}
