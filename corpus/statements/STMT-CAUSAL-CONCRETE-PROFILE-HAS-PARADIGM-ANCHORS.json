@@ -1,0 +1,14 @@
+{
+  "id": "STMT-CAUSAL-CONCRETE-PROFILE-HAS-PARADIGM-ANCHORS",
+  "paraphrase": "The supplied esse classification has a concrete reasoner and an abstract set-of-two anchor. This does not classify every impure set or every mathematical explanation.",
+  "lean_declaration": "TruthCore.Causality.CausalConcreteRivalBoundary.Anchored",
+  "definition_ids": [
+    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE",
+    "DEF-CONCRETE-ESSE-IN-RE",
+    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ]
+}

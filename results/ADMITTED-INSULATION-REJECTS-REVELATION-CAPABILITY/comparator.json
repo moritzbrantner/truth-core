@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Alternatives.RevelationRecognition.Capability.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.RevelationRecognition.Capability.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Alternatives.RevelationRecognition.Capability.insulationRejectsCapability"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

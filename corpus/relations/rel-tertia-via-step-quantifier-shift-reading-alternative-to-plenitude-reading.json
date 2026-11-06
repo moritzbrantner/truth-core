@@ -1,1 +1,9 @@
-{"id": "REL-TERTIA-VIA-STEP-QUANTIFIER-SHIFT-READING-ALTERNATIVE-TO-PLENITUDE-READING", "subject_kind": "statement", "subject_id": "STMT-TERTIA-VIA-STEP-RESTS-ON-QUANTIFIER-SHIFT", "predicate": "alternative_to", "object_kind": "statement", "object_id": "STMT-TERTIA-VIA-STEP-RESTS-ON-PLENITUDE"}
+{
+  "id": "REL-TERTIA-VIA-STEP-QUANTIFIER-SHIFT-READING-ALTERNATIVE-TO-PLENITUDE-READING",
+  "subject_kind": "statement",
+  "subject_id": "STMT-TERTIA-VIA-STEP-RESTS-ON-QUANTIFIER-SHIFT",
+  "predicate": "attacks",
+  "object_kind": "statement",
+  "object_id": "STMT-TERTIA-VIA-STEP-RESTS-ON-PLENITUDE",
+  "note": "Competing unbound source interpretations, preserved at full strength. The plenitude reading explicitly denies the proposed shift, but refuting shift alone does not prove that plenitude licenses the passage or exhaust every other interpretation. No typed target/negation mapping or exhaustive historical-reading coverage is encoded, so this is interpretive opposition rather than automatic finite-roster defense. Encoding a deciding source-fidelity account would need an explicit passage-to-inference mapping and admissibility criterion; independent opaque labels would not settle it. See docs/notes/causal-temporal-rival-coverage.md."
+}

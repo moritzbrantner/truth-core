@@ -1,0 +1,11 @@
+{
+  "id": "INF-EXACT-GENERAL-NO-CHANGE-NEGATES-F3",
+  "input_statement_ids": [
+    "STMT-NOTHING-CHANGES-IN-GENERAL"
+  ],
+  "output_statement_id": "STMT-GENERAL-SOME-CHANGE-FAILS",
+  "rule": "constructive-proof",
+  "meaning": "Universal absence of the SAME general change contradicts F3 actual change witness. No A-series/general-change or appearance/actual-change transfer is hidden.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.Controls.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.Controls.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.Controls.controls"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

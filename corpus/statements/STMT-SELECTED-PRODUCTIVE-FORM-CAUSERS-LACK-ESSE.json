@@ -1,0 +1,14 @@
+{
+  "id": "STMT-SELECTED-PRODUCTIVE-FORM-CAUSERS-LACK-ESSE",
+  "paraphrase": "OPEN classification: supplied Forms that productively cause at the selected world lack esse in re. Separate Forms interpreted as really existing do not satisfy this merely by being Forms.",
+  "lean_declaration": "TruthCore.Causality.CausalConcreteRivalBoundary.FormCausersNoEsse",
+  "definition_ids": [
+    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE",
+    "DEF-CONCRETE-ESSE-IN-RE",
+    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ]
+}

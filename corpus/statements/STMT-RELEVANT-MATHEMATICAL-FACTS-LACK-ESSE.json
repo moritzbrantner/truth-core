@@ -1,0 +1,14 @@
+{
+  "id": "STMT-RELEVANT-MATHEMATICAL-FACTS-LACK-ESSE",
+  "paraphrase": "OPEN classification: supplied mathematical facts relevant to outcomes lack esse in re. No claim that every mathematical explanation is a productive cause is included.",
+  "lean_declaration": "TruthCore.Causality.CausalConcreteRivalBoundary.RelevantFactsNoEsse",
+  "definition_ids": [
+    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE",
+    "DEF-CONCRETE-ESSE-IN-RE",
+    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ]
+}

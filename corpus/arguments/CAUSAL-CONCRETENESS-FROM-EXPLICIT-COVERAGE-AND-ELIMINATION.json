@@ -1,0 +1,21 @@
+{
+  "id": "CAUSAL-CONCRETENESS-FROM-EXPLICIT-COVERAGE-AND-ELIMINATION",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-CAUSAL-CONCRETE-PREDICATE-MATCHES-ESSE",
+    "STMT-NAMED-PRODUCTIVE-CAUSAL-COUNTERACCOUNTS-COVER",
+    "STMT-NAMED-PRODUCTIVE-ABSTRACT-CAUSAL-CASES-FAIL"
+  ],
+  "conclusion_statement_id": "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS",
+  "inference_ids": [
+    "INF-CAUSAL-CONCRETENESS-FROM-EXPLICIT-COVERAGE-AND-ELIMINATION"
+  ],
+  "meaning": "Conditional elimination composes the structural fork: only explicit coverage plus actual negation of all three countercases yields the EXACT old commitment. This does not provide warrant or replace its adopted floor.",
+  "definition_ids": [
+    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ]
+}

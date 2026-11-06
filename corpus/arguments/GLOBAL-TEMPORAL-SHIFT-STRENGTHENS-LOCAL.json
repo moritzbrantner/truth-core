@@ -1,0 +1,14 @@
+{
+  "id": "GLOBAL-TEMPORAL-SHIFT-STRENGTHENS-LOCAL",
+  "premise_statement_ids": [
+    "STMT-EACH-SOMETIME-NOT-ENTAILS-SOMETIME-NOTHING"
+  ],
+  "conclusion_statement_id": "STMT-LOCAL-TEMPORAL-QUANTIFIER-SHIFT",
+  "inference_ids": [
+    "INF-GLOBAL-TEMPORAL-SHIFT-STRENGTHENS-LOCAL"
+  ],
+  "meaning": "Exact sole-premise restriction: the global temporal shift would imply a local shift for any fixed supplied profile. Global invalidity does not refute local instances.",
+  "definition_ids": [
+    "DEF-COLLECTIVE-POSSIBILITY-LOCAL-PROOF-ROUTE"
+  ]
+}

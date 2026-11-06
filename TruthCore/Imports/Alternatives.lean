@@ -10,6 +10,7 @@ public import TruthCore.Alternatives.FirstClosure
 public import TruthCore.Alternatives.Inertia
 public import TruthCore.Alternatives.Intentionality943
 public import TruthCore.Alternatives.McTaggart
+public import TruthCore.Alternatives.MegarianMovedPotencyBoundary
 public import TruthCore.Alternatives.MindPhysicalism
 public import TruthCore.Alternatives.NightActualizationFork
 public import TruthCore.Alternatives.NightCosmogony
@@ -18,3 +19,4 @@ public import TruthCore.Alternatives.PhysicalGround
 public import TruthCore.Alternatives.PotencyAnalysisPartition
 public import TruthCore.Alternatives.RespectSwitch
 public import TruthCore.Alternatives.Retorsion
+public import TruthCore.Alternatives.RevelationRecognition

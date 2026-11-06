@@ -1,0 +1,17 @@
+{
+  "id": "GENERAL-CHANGE-EXACT-COMPLEMENT-FORK",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-GENERAL-CHANGE-OR-EXACT-NO-CHANGE",
+  "inference_ids": [
+    "INF-GENERAL-CHANGE-EXACT-COMPLEMENT-FORK"
+  ],
+  "meaning": "Structural some-change/no-general-change fork under explicit excluded middle. Refuting only the stronger sourced McTaggart bundle cannot exhaust every exact no-change counteraccount.",
+  "definition_ids": [
+    "DEF-CHANGE-GENERAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CHANGE-A-SERIES"
+  ]
+}

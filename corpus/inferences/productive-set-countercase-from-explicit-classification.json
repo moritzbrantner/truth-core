@@ -1,0 +1,12 @@
+{
+  "id": "INF-PRODUCTIVE-SET-COUNTERCASE-FROM-EXPLICIT-CLASSIFICATION",
+  "input_statement_ids": [
+    "STMT-SELECTED-PRODUCTIVE-CAUSE-IS-A-SET",
+    "STMT-SELECTED-SET-CAUSERS-LACK-ESSE"
+  ],
+  "output_statement_id": "STMT-SELECTED-SET-PRODUCTIVE-NO-ESSE-COUNTERCASE",
+  "rule": "constructive-proof",
+  "meaning": "Guarded interpretation transcription: selected set cause plus explicit no-esse classification supply the countercase.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

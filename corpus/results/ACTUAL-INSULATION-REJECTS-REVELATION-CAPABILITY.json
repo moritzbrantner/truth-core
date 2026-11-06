@@ -1,0 +1,10 @@
+{
+  "id": "ACTUAL-INSULATION-REJECTS-REVELATION-CAPABILITY",
+  "argument_id": "ACTUAL-INSULATION-REJECTS-REVELATION-CAPABILITY",
+  "challenge_module": "TruthCore.Results.Alternatives.RevelationRecognition.Composition.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.RevelationRecognition.Composition.Solution",
+  "theorem": "TruthCore.Results.Alternatives.RevelationRecognition.Composition.actualInsulationRejectsCapability",
+  "comparator_config": "results/ACTUAL-INSULATION-REJECTS-REVELATION-CAPABILITY/comparator.json",
+  "status": "solution-present",
+  "description": "Compose actual-to-admitted persistence with the imported admitted-insulation contradiction. Raw actual cut-off remains a real premise; without persistence it can coexist with capability. This is conditional and does not refute the actual-practice thesis."
+}

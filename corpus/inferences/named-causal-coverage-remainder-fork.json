@@ -1,0 +1,11 @@
+{
+  "id": "INF-NAMED-CAUSAL-COVERAGE-REMAINDER-FORK",
+  "input_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "output_statement_id": "STMT-NAMED-CAUSAL-COVERAGE-OR-RELEVANT-REMAINDER",
+  "rule": "constructive-proof",
+  "meaning": "Structural coverage-hypothesis-or-actual-remainder fork, not a proof that the named philosophical list is complete.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

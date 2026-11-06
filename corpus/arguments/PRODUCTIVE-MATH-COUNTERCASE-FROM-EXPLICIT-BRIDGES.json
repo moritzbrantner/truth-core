@@ -1,0 +1,20 @@
+{
+  "id": "PRODUCTIVE-MATH-COUNTERCASE-FROM-EXPLICIT-BRIDGES",
+  "premise_statement_ids": [
+    "STMT-SELECTED-MATHEMATICAL-RELEVANCE-WITNESS",
+    "STMT-MATHEMATICAL-RELEVANCE-COUNTS-AS-PRODUCTIVE-CAUSATION",
+    "STMT-RELEVANT-MATHEMATICAL-FACTS-LACK-ESSE"
+  ],
+  "conclusion_statement_id": "STMT-SELECTED-MATH-PRODUCTIVE-NO-ESSE-COUNTERCASE",
+  "inference_ids": [
+    "INF-PRODUCTIVE-MATH-COUNTERCASE-FROM-EXPLICIT-BRIDGES"
+  ],
+  "meaning": "Guarded transcription retaining independent mathematical relevance, production interface and no-esse classification.",
+  "definition_ids": [
+    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ]
+}

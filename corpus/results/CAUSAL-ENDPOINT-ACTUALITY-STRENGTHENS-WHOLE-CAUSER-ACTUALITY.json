@@ -1,0 +1,11 @@
+{
+  "id": "CAUSAL-ENDPOINT-ACTUALITY-STRENGTHENS-WHOLE-CAUSER-ACTUALITY",
+  "argument_id": "CAUSAL-ENDPOINT-ACTUALITY-STRENGTHENS-WHOLE-CAUSER-ACTUALITY",
+  "challenge_module": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.ActualityStrength.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.ActualityStrength.Solution",
+  "theorem": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.ActualityStrength.actualityStrength",
+  "comparator_config": "results/CAUSAL-ENDPOINT-ACTUALITY-STRENGTHENS-WHOLE-CAUSER-ACTUALITY/comparator.json",
+  "status": "solution-present",
+  "description": "Sole-premise restriction of the EXISTING all-edge/both-endpoint actuality policy to selected-whole causers only. No generic Ontic field or original argument is changed.",
+  "transcription": "instantiation"
+}

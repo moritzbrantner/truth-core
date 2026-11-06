@@ -1,0 +1,9 @@
+{
+  "id": "STMT-SPACETIME-WHOLE-HAS-ONLY-ABSENT-CANDIDATE-CAUSERS",
+  "paraphrase": "A candidate edge to the selected whole exists but no causer of that whole exists at the selected world. Precise generic-signature remainder outside both existing-causer and no-edge cases. It violates the intended actuality policy; no historical worldview or metaphysical possibility is attributed this assignment.",
+  "lean_declaration": "TruthCore.Ontology.UniverseCauseScopeBoundary.OnlyAbsentCausers",
+  "definition_ids": [
+    "DEF-UNIVERSE-CAUSER-ACTUALITY-SCOPE",
+    "DEF-SPATIOTEMPORAL-FRAME"
+  ]
+}

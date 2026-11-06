@@ -1,0 +1,11 @@
+{
+  "id": "INF-ABSENT-ONLY-UNIVERSE-CAUSERS-IMPLY-NO-EXISTING-CAUSE",
+  "input_statement_ids": [
+    "STMT-SPACETIME-WHOLE-HAS-ONLY-ABSENT-CANDIDATE-CAUSERS"
+  ],
+  "output_statement_id": "STMT-SPACETIME-WHOLE-HAS-NO-EXISTING-CAUSE",
+  "rule": "constructive-proof",
+  "meaning": "Projection transcription connects the precise generic remainder to the exact old positive conclusion negation.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

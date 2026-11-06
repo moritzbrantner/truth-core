@@ -1,0 +1,18 @@
+{
+  "id": "NAMED-CAUSAL-COVERAGE-REMAINDER-FORK",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-NAMED-CAUSAL-COVERAGE-OR-RELEVANT-REMAINDER",
+  "inference_ids": [
+    "INF-NAMED-CAUSAL-COVERAGE-REMAINDER-FORK"
+  ],
+  "meaning": "Structural coverage-hypothesis-or-actual-remainder fork, not a proof that the named philosophical list is complete.",
+  "definition_ids": [
+    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ]
+}

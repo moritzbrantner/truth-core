@@ -1,0 +1,9 @@
+{
+  "id": "REL-NAMED-CAUSAL-COVERAGE-EXACT-NEGATIVE",
+  "subject_kind": "statement",
+  "subject_id": "STMT-NAMED-PRODUCTIVE-CAUSAL-COVERAGE-FAILS",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-NAMED-PRODUCTIVE-CAUSAL-COUNTERACCOUNTS-COVER",
+  "note": "Exact selected-profile complement, unrefuted. Broad category or other-world accounts require their explicit interfaces; no finite named-theory roster is treated as exhaustive."
+}
