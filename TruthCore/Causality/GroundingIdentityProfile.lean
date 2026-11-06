@@ -19,7 +19,6 @@ The actual-world assignments agree literally. Neither rival is vindicated.
 namespace TruthCore.Causality.GroundingIdentityProfile
 open BruteFoundationDoubling BruteFoundationBoundary
 open TruthCore.German.Kant.CosmologicalInference
-namespace CP := TruthCore.Modal.CounterpartNecessity
 
 /-- Copy the old actual-world existence and edge assignments to every world.
 The independent source concrete predicate and universal frame are retained. -/
@@ -46,7 +45,7 @@ def LocalLaws (m : Profile Bool (Bool × B)) (noninitial : B → Prop) : Prop :=
 /-- Qualitative correspondence is equality of SOURCE coordinates, guarded
 by existence in the appropriate domains. It is not equality of tagged beings.
 This reuses the existing four-place counterpart-relation interface. -/
-def counterparts (s : LocalState B) : CP.Relation Bool (Bool × B) :=
+def counterparts (s : LocalState B) : TruthCore.Modal.CounterpartNecessity.Relation Bool (Bool × B) :=
   fun w x v y => (doubled s).ontic.ExistsAt w x ∧
     (doubled s).ontic.ExistsAt v y ∧ x.2 = y.2
 
@@ -55,9 +54,11 @@ of concreteness and of the represented grounding/causing edges on existing
 endpoints. No generic preservation of arbitrary modal formulas is asserted. -/
 def SameLocalData (s : LocalState B) : Prop :=
   (∀ w x, (rigid s).ontic.ExistsAt w x →
-    ∃! y, (doubled s).ontic.ExistsAt w y ∧ x.2 = y.2) ∧
+    ∃ y, ((doubled s).ontic.ExistsAt w y ∧ x.2 = y.2) ∧
+      ∀ z, (doubled s).ontic.ExistsAt w z ∧ x.2 = z.2 → z = y) ∧
   (∀ w y, (doubled s).ontic.ExistsAt w y →
-    ∃! x, (rigid s).ontic.ExistsAt w x ∧ x.2 = y.2) ∧
+    ∃ x, ((rigid s).ontic.ExistsAt w x ∧ x.2 = y.2) ∧
+      ∀ z, (rigid s).ontic.ExistsAt w z ∧ z.2 = y.2 → z = x) ∧
   (∀ w x y, (rigid s).ontic.ExistsAt w x →
     (doubled s).ontic.ExistsAt w y → x.2 = y.2 →
     ((rigid s).concrete x ↔ (doubled s).concrete y)) ∧
@@ -78,18 +79,18 @@ def Comparison (s : LocalState B) (noninitial : B → Prop) : Prop :=
   (rigid s).grounds false = (doubled s).grounds false ∧
   LocalLaws (rigid s) noninitial ∧ LocalLaws (doubled s) noninitial ∧
   SameLocalData s ∧
-  CP.Total (doubled s).ontic (counterparts s) ∧
-  CP.Unique (doubled s).ontic (counterparts s) ∧
-  CP.Injective (doubled s).ontic (counterparts s) ∧
+  TruthCore.Modal.CounterpartNecessity.Total (doubled s).ontic (counterparts s) ∧
+  TruthCore.Modal.CounterpartNecessity.Unique (doubled s).ontic (counterparts s) ∧
+  TruthCore.Modal.CounterpartNecessity.Injective (doubled s).ontic (counterparts s) ∧
   (∀ w v y, (doubled s).ontic.ExistsAt v y →
     ∃ x, (doubled s).ontic.ExistsAt w x ∧ counterparts s w x v y) ∧
   (∀ w x, (doubled s).ontic.ExistsAt w x → counterparts s w x w x) ∧
   (∀ w v u x z,
     (∃ y, counterparts s w x v y ∧ counterparts s v y u z) ↔
       counterparts s w x u z) ∧
-  (∀ b, s.existsAt b → CP.CounterpartNecessaryAt (doubled s).ontic
+  (∀ b, s.existsAt b → TruthCore.Modal.CounterpartNecessity.CounterpartNecessaryAt (doubled s).ontic
     (counterparts s) false (false, b)) ∧
-  ¬ CP.IdentityBridge (counterparts s) ∧
+  ¬ TruthCore.Modal.CounterpartNecessity.IdentityBridge (counterparts s) ∧
   NecessaryConcreteAt (rigid s) false ∧ ¬ NecessaryConcreteAt (doubled s) false
 
 /-- Closed conditional schema retains exactly the old source-side assumptions,
