@@ -1,0 +1,12 @@
+{
+  "id": "INF-MAXIMAL-BEING-CAUSES-FROM-GREATEST-DEGREE",
+  "input_statement_ids": [
+    "STMT-MAXIMAL-SELECTED-BEARERS-HAVE-GREATEST-DEGREE",
+    "STMT-GREATEST-DEGREE-IN-GENUS-CAUSES-ALL-IN-GENUS"
+  ],
+  "output_statement_id": "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS",
+  "rule": "constructive-proof",
+  "meaning": "Explicit semantic transport transcription: source-shaped greatest-degree causal principle plus weak maximal-to-greatest interface yields the EXACT existing selected-esse all-merely-maximal causal premise. The selected respect instantiates esse without assuming every perfection is being.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

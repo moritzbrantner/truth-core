@@ -25,6 +25,7 @@ public import TruthCore.Logic.KnowledgeAdmissibility
 public import TruthCore.Logic.KnowledgeRetorsion
 public import TruthCore.Logic.LimitAdmission
 public import TruthCore.Logic.MaximumOrder
+public import TruthCore.Logic.MeaningDefinitionFork
 public import TruthCore.Logic.MetaethicsTruthAptRivalBoundary
 public import TruthCore.Logic.PerformedDenial
 public import TruthCore.Logic.PluralClosureBoundary
@@ -35,6 +36,7 @@ public import TruthCore.Logic.Regress
 public import TruthCore.Logic.RegressDomains
 public import TruthCore.Logic.Relativism
 public import TruthCore.Logic.Scientism
+public import TruthCore.Logic.ScopedEmpiricalProofBarrier
 public import TruthCore.Logic.SelfApplication
 public import TruthCore.Logic.SoritesBoundary
 public import TruthCore.Logic.Strength.Cause

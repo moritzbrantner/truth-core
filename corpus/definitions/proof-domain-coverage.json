@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PROOF-DOMAIN-COVERAGE",
+  "term": "coverage of the named theological-domain definitions",
+  "definition": "An explicit OPEN hypothesis that one of the three domain calibrations holds. RemainingDomain denies all three on the same inquiry table and predicate; it is an extensional remainder, not an exhaustive historical school census.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.ScopedEmpiricalProofBarrier.NamedDomainCoverage",
+  "note": "Analyst formulation; attribution deferred. Source STMT-WORLD-BEGINNING-NOT-DEMONSTRABLE and Hume verdict meanings remain separate. See docs/notes/scoped-empirical-proof-barrier.md."
+}

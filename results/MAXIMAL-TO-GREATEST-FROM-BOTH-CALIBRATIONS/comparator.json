@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.MaximumDefinitions.CalibrationsToBridge.Challenge",
+  "solution_module": "TruthCore.Results.Causality.MaximumDefinitions.CalibrationsToBridge.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.MaximumDefinitions.CalibrationsToBridge.calibrationsToBridge"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

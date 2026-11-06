@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MEANING-ALL-IN-SCOPE",
+  "term": "all in-scope contents meaningful",
+  "definition": "Every sentence in the supplied comparison scope is cognitively meaningful. An analyst comparison option for a truth-conditional language, not every utterance in every language.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.MeaningDefinitionFork.AllInScopeMeaningful",
+  "note": "Analyst formulation; attribution deferred. See docs/notes/meaning-definition-fork.md."
+}

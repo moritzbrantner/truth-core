@@ -1,0 +1,10 @@
+{
+  "id": "MEANING-DEFINITION-CONTROLS",
+  "argument_id": "MEANING-DEFINITION-CONTROLS",
+  "challenge_module": "TruthCore.Results.Logic.MeaningDefinitionFork.Controls.Challenge",
+  "solution_module": "TruthCore.Results.Logic.MeaningDefinitionFork.Controls.Solution",
+  "theorem": "TruthCore.Results.Logic.MeaningDefinitionFork.Controls.controls",
+  "comparator_config": "results/MEANING-DEFINITION-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "The explicit analytic-only classifier in the existing two-coordinate language is a genuine remaining extension, nontrivial, and satisfies the weak one-way V3 principle. This is not a model of the joint rejection theorem's closure/demarcation premises."
+}

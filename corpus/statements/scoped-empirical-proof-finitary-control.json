@@ -1,0 +1,22 @@
+{
+  "id": "STMT-EMPIRICAL-PROOF-FINITARY-CONTROL",
+  "paraphrase": "The existing raven law lacks a finite observation proof despite failing the proposed global observation-indistinguishability barrier. In a singleton ordinary inquiry this witnesses AdditionalRelevantBarrier and refutes BarrierExplainsAll. Reuses the existing law-setting theorem; no real-world empirical impossibility or theological conclusion follows.",
+  "lean_declaration": "TruthCore.Logic.ScopedEmpiricalProofBarrier.Control.FinitaryControl",
+  "definition_ids": [
+    "DEF-SCOPED-PROOF-INQUIRIES",
+    "DEF-THEOLOGICAL-SUBJECT-DEFINITION",
+    "DEF-THEOLOGICAL-PREMISE-DEFINITION",
+    "DEF-THEOLOGICAL-METHOD-DEFINITION",
+    "DEF-PROOF-DOMAIN-COVERAGE",
+    "DEF-EMPIRICAL-OBSERVATION-BARRIER",
+    "DEF-SCOPED-EMPIRICAL-PROOF-DENIAL",
+    "DEF-EMPIRICAL-BARRIER-COVERAGE",
+    "DEF-EMPIRICAL-BEGINNING-QUESTION-CONTROL",
+    "DEF-CONCLUSIVE-VERIFIABILITY",
+    "DEF-TRUTH-CONDITIONAL-LANGUAGE",
+    "DEF-EMPIRICIST-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SCOPED-PROOF-STANDARD-AND-THEOLOGICAL-DOMAIN"
+  ]
+}

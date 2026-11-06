@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Finitary.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Finitary.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Finitary.finitary"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
