@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ESSE-INTENDED-PROFILE",
+  "term": "intended causal-existential profile under the esse sense of concrete",
+  "definition": "EsseIntendedProfile extends the #1094 IntendedProfile with an InAct relation and an esse respect such that the profile's concrete predicate is equivalent to HasEsseInRe InAct esse, its abstract predicate is equivalent to EsseAbstract InAct esse (no esse in re), and the paradigm anchors hold (a reasoner who is concrete, a set containing 2 that is abstract). In such a profile neither concrete nor abstract is constant (EsseIntendedProfile.concrete_not_constant).",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.CausalPowerConcreteness.EsseIntendedProfile",
+  "note": "Owner decisions on #1103 (2026-11-06): the adopted esse sense and the anchors as required facts of intended models. IntendedProfile is kept unchanged so that existing results and frozen Challenges keep their meaning. The #1094 adapters doubledExample/rigidExample and the ActualCoverStrictness/WorldwiseCompositeGround witnesses have an empty abstract extension, so they cannot supply anchors and are not intended interpretations in this sense; they demonstrate only compatibility with the #1094 contract."
+}

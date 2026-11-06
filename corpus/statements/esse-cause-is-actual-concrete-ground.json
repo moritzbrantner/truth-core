@@ -9,7 +9,8 @@
     "DEF-KANT-ONTOLOGICAL-MODEL",
     "DEF-ESSE",
     "DEF-ACT",
-    "DEF-CAUSE-OF-PERFECTION"
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-CONCRETE-ESSE-IN-RE"
   ],
   "disambiguation_ids": [
     "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
@@ -29,7 +30,8 @@
     "DISAMB-PER-SE",
     "DISAMB-EXISTENCE-ESSE-SUPPORT",
     "DISAMB-TEMPORAL-HISTORY-EXISTENCE-AXES",
-    "DISAMB-HISTORY-TIME-SCOPE"
+    "DISAMB-HISTORY-TIME-SCOPE",
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA"
   ],
   "note": "Records the pre-existing EsseCauseIsActualConcreteGround predicate as an OPEN, unattributed interface, not a newly proved premise. No converse, global-world claim, causal sufficiency or completeness of explanation is asserted. ExistsAt w is world-relative existence, not temporal concurrence or presentism: a complete-history interpretation may include past producers not alive now. Historical production alone does not establish the supplied esse-cause or grounds relation; their sustaining interpretation requires separate defense. An explicit world/time coherence interface would be needed to read existence at w as presence at a designated time; none is part of this predicate."
 }
