@@ -73,6 +73,7 @@ public import TruthCore.Results.Causality.ContingentTotalityCause.Solution
 public import TruthCore.Results.Causality.ConvergentZenoSchedule.Solution
 public import TruthCore.Results.Causality.CountCauseTimeNecessity.Solution
 public import TruthCore.Results.Causality.CountCauseTimeNecessityProjection.Solution
+public import TruthCore.Results.Causality.CountCauseTimeOpportunity.Solution
 public import TruthCore.Results.Causality.CountTemporalControls.Solution
 public import TruthCore.Results.Causality.CountTemporalNecessity.Solution
 public import TruthCore.Results.Causality.DefinitionDictionaryConnections.Solution

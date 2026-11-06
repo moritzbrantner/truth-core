@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.CountCauseTimeOpportunity.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CountCauseTimeOpportunity.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.CountCauseTimeOpportunity.opportunityOfThresholds"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
