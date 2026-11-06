@@ -1,0 +1,17 @@
+{
+  "id": "STMT-NO-EXISTING-SET-REPRESENTATIVES",
+  "paraphrase": "No right-summand set representative exists at the selected world in the supplied Ontic domain. Mathematical interpretation of a representative is distinct from object-level existence; no universal small representation of all sets is claimed.",
+  "lean_declaration": "TruthCore.Ontology.NaturalismSets.NoExistingSetRepresentatives",
+  "definition_ids": [
+    "DEF-NATURALISM-N1",
+    "DEF-SPATIOTEMPORAL-FRAME",
+    "DEF-SPATIOTEMPORAL-LOCATED",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-NATURALISM-SET-REPRESENTATIVES",
+    "DEF-SET-LOCATION-MEMBER-SUPPORT",
+    "DEF-MEMBER-CONFERS-SET-LOCATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SPATIOTEMPORAL"
+  ]
+}

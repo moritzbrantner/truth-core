@@ -1,0 +1,10 @@
+{
+  "id": "NATURALISM-SET-REPRESENTATION-CONTROLS",
+  "argument_id": "NATURALISM-SET-REPRESENTATION-CONTROLS",
+  "challenge_module": "TruthCore.Results.Ontology.NaturalismSets.Controls.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.NaturalismSets.Controls.Solution",
+  "theorem": "TruthCore.Results.Ontology.NaturalismSets.controls",
+  "comparator_config": "results/NATURALISM-SET-REPRESENTATION-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Construct two Ontic/frame pairs with actual Bool\u2192ZFSet interpretation \u2205/{\u2205}. The nominalist-style profile preserves an existing located bearer and mathematical membership while set entities are absent/unlocated; its unlocation reuses the certified induction theorem. The forward-only model has both set entities existing and located, retains member-to-set propagation and explicitly violates reverse support at the empty-set representative. These reject only the inference from forward propagation alone, not any preferred worldview. Approved Mathlib axiom policy applies; this is not advertised as zero-axiom."
+}

@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Ontology.NaturalismSets.Controls.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.NaturalismSets.Controls.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Ontology.NaturalismSets.controls"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

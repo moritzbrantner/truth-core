@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MEMBER-CONFERS-SET-LOCATION",
+  "term": "forward propagation of a represented member location",
+  "definition": "For represented sets s,t and a region r, actual decode(t)\u2208decode(s) plus location of t at r implies location of s at r. This gives no converse and imposes no restriction at an empty-set representative. The populated Controls retain this forward rule while an existing empty-set representative is located and reverse support is false.",
+  "basis": "stipulative",
+  "note": "Analyst location/representation profile for #1109, attribution deferred. No claim that every set or every nominalist/realist theory has this profile. See docs/showcase-naturalism.md \u00a74 and ATTEMPT-NATURALISM-SET-REPRESENTATIVES-1109.",
+  "lean_declaration": "TruthCore.Ontology.NaturalismSets.MemberConfersSetLocation"
+}

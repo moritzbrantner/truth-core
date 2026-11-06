@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Ontology.NaturalismSets.Unlocation.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.NaturalismSets.Unlocation.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Ontology.NaturalismSets.unlocated"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}
