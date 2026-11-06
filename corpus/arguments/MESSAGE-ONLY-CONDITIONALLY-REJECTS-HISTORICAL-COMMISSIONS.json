@@ -1,0 +1,21 @@
+{
+  "id": "MESSAGE-ONLY-CONDITIONALLY-REJECTS-HISTORICAL-COMMISSIONS",
+  "premise_statement_ids": [
+    "STMT-JESUS-MANDATE-COVERS-ONLY-MESSAGE",
+    "STMT-GOVERNING-EVENT-INSTITUTION-LINK",
+    "STMT-ACTUAL-MANDATED-CATHOLIC-FOUNDING"
+  ],
+  "conclusion_statement_id": "STMT-HISTORICAL-COMMISSION-BUNDLE-REJECTED",
+  "inference_ids": [
+    "INF-MESSAGE-ONLY-CONDITIONALLY-REJECTS-HISTORICAL-COMMISSIONS"
+  ],
+  "meaning": "Compose the nonvacuous rival/weak-link incompatibility and exact report-bundle rejection. Every scope and transfer input remains visible.",
+  "definition_ids": [
+    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
+    "DEF-COMMISSION-REPORT-POWERS",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMMISSION-REPORT-AND-EVENT"
+  ]
+}

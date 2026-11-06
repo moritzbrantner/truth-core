@@ -1,0 +1,13 @@
+{
+  "id": "STMT-INSTITUTIONAL-TRANSFER-COUNTERCASE",
+  "paraphrase": "A precise positive transfer remainder: an actual mandate and founded visible Catholic body, with a governing power actually given or promised, but without founding that body in the mandate. This defeats the weak institutional link, not the report-to-event thesis or a whole historical account.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.MessageReportBoundary.InstitutionalTransferCountercase",
+  "definition_ids": [
+    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
+    "DEF-COMMISSION-REPORT-POWERS",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMMISSION-REPORT-AND-EVENT"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "INSTITUTIONAL-TRANSFER-COVERAGE",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-INSTITUTIONAL-TRANSFER-CASES",
+  "inference_ids": [
+    "INF-INSTITUTIONAL-TRANSFER-COVERAGE"
+  ],
+  "meaning": "Explicit excluded middle yields the institutional link or an actual positive countercase with mandate, body and governing event. This is structural coverage, not a census of historical theories.",
+  "definition_ids": [
+    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
+    "DEF-COMMISSION-REPORT-POWERS",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMMISSION-REPORT-AND-EVENT"
+  ]
+}

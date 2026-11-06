@@ -1,0 +1,13 @@
+{
+  "id": "INF-MESSAGE-ONLY-CONDITIONALLY-REJECTS-HISTORICAL-COMMISSIONS",
+  "input_statement_ids": [
+    "STMT-JESUS-MANDATE-COVERS-ONLY-MESSAGE",
+    "STMT-GOVERNING-EVENT-INSTITUTION-LINK",
+    "STMT-ACTUAL-MANDATED-CATHOLIC-FOUNDING"
+  ],
+  "output_statement_id": "STMT-HISTORICAL-COMMISSION-BUNDLE-REJECTED",
+  "rule": "constructive-proof",
+  "meaning": "Compose the nonvacuous rival/weak-link incompatibility and exact report-bundle rejection. Every scope and transfer input remains visible.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
