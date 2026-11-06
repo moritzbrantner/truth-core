@@ -5,3 +5,4 @@ public import TruthCore.Case.Catholicism.StageThree.CommissionAttestation
 public import TruthCore.Case.Catholicism.StageThree.Commissions
 public import TruthCore.Case.Catholicism.StageThree.DivineFounding
 public import TruthCore.Case.Catholicism.StageThree.FoundingScope
+public import TruthCore.Case.Catholicism.StageThree.FoundingWeakScope

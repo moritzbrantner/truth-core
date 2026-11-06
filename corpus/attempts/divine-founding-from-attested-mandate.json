@@ -10,12 +10,13 @@
   ],
   "kind": "derivation",
   "outcome": "succeeded",
-  "summary": "Derived the universal founding bridge from four typed premises over an agency vocabulary (attestation by the resurrection, divine veracity applied to confirmation, the mandate's scope over Jesus' founding with a teaching commission, envoy founding, restricted to Jesus as envoy). The society-universal is carried by the scope premise, not derived. Omission models show each premise necessary; a joint model shows the premises and every stage antecedent satisfiable. Newly pinned Acts 17 and John 13; the attestation premise is read from Acts 17.31, Matthew 28.18-20, John 13.20 and Dei Filius ch. 3 para. 1 support the other three. All four premises remain open; the scope premise's universal reach over societies and the eleven-to-society map are unsourced. The bare bridge leaves the frontier; route costs rise by 3. Not established: the bridge's truth, any premise, or historical fidelity.",
+  "summary": "Derived the universal founding bridge from four typed premises over an agency vocabulary (attestation by the resurrection, divine veracity applied to confirmation, the mandate's scope over Jesus' founding with a teaching commission, envoy founding, restricted to Jesus as envoy). The society-universal is carried by the scope premise, not derived. Omission models show each premise necessary; a joint model shows the premises and every stage antecedent satisfiable. Newly pinned Acts 17 and John 13; the attestation premise is read from Acts 17.31, Matthew 28.18-20, John 13.20 and Dei Filius ch. 3 para. 1 support the other three. All four premises remain open; the scope premise's universal reach over societies and the eleven-to-society map are unsourced. The bare bridge leaves the frontier; route costs rise by 3. Not established: the bridge's truth, any premise, or historical fidelity. Strength audit (2026-11-06): the Catholic-only scope still includes teaching; its weakness concerns society range. A new nonempty two-society countermodel keeps attestation, veracity, the weak scope and envoy transfer but rejects the universal bridge, fixing an insufficiency not witnessed by the original twoSocietySig (whose teaching-founding field was everywhere true). Stage6 fails in the countermodel; the existing weak-plus-stage6 composition is preserved and already recovers universal scope on the root graph. This audit adds no philosophical premise, root route or actual-world refutation.",
   "evidence": [
     "CATHOLICISM-BRIDGE-DIVINE-FOUNDING-FROM-ATTESTED-MANDATE",
     "NT-ACTS-17-31-RESURRECTION-AS-ASSURANCE",
     "NT-MATT-28-18-20-COMMISSION-UNDER-AUTHORITY",
     "NT-JOHN-13-20-ENVOY-RECEPTION",
-    "PR-421"
+    "PR-421",
+    "CATHOLICISM-WEAK-MANDATE-SCOPE-DOES-NOT-FORCE-BRIDGE"
   ]
 }

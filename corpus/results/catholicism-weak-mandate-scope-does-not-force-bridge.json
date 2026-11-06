@@ -1,0 +1,10 @@
+{
+  "id": "CATHOLICISM-WEAK-MANDATE-SCOPE-DOES-NOT-FORCE-BRIDGE",
+  "argument_id": "CATHOLICISM-WEAK-MANDATE-SCOPE-DOES-NOT-FORCE-BRIDGE",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingWeakScope.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingWeakScope.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.FoundingWeakScope.weakScopeCountermodel",
+  "comparator_config": "results/CATHOLICISM-WEAK-MANDATE-SCOPE-DOES-NOT-FORCE-BRIDGE/comparator.json",
+  "status": "solution-present",
+  "description": "A nonempty two-society schema model satisfies attestation, veracity, the Catholic-Church-only mandate scope (including teaching), and envoy transfer, with every antecedent of the old divine-founding bridge inhabited, while that universal bridge fails at the other society Jesus founded. Universal mandate scope and stage6 identity both fail. This shows that the weak scope cannot replace the strong scope in the existing four-input argument; it does not refute either scope as an actual historical proposition, and it does not challenge the existing weak-plus-stage6 derivation."
+}
