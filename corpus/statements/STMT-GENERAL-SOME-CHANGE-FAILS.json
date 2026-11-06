@@ -1,0 +1,11 @@
+{
+  "id": "STMT-GENERAL-SOME-CHANGE-FAILS",
+  "paraphrase": "Exact negation of F3 SomethingChangesReading under the SAME general Changes dictionary. It does not identify change with A-series determination or MovedIn.",
+  "lean_declaration": "TruthCore.Observation.ChangeRivalCoverage.ChangeFails",
+  "definition_ids": [
+    "DEF-CHANGE-GENERAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CHANGE-A-SERIES"
+  ]
+}
