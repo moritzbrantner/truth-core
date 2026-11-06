@@ -1,0 +1,10 @@
+{
+  "id": "MESSAGE-ONLY-WITH-INSTITUTION-LINK-REJECTS-GOVERNING-GRANTS",
+  "argument_id": "MESSAGE-ONLY-WITH-INSTITUTION-LINK-REJECTS-GOVERNING-GRANTS",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Rival.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Rival.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.messageOnlyRejectsGoverning",
+  "comparator_config": "results/MESSAGE-ONLY-WITH-INSTITUTION-LINK-REJECTS-GOVERNING-GRANTS/comparator.json",
+  "status": "solution-present",
+  "description": "An actual mandator and founded visible body make the institutional link nonvacuous. A governing grant would then give the very founding-in-mandate the raw rival denies."
+}

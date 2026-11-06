@@ -1,0 +1,10 @@
+{
+  "id": "MESSAGE-SCOPE-BOUNDARY-CONTROLS",
+  "argument_id": "MESSAGE-SCOPE-BOUNDARY-CONTROLS",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.ScopeModels.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.ScopeModels.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.messageScopeModels",
+  "comparator_config": "results/MESSAGE-SCOPE-BOUNDARY-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Construct an empty-mandate coexistence model and import the nonempty message/report model, deriving exact Catholic-scope failure using the checked actual-witness theorem."
+}

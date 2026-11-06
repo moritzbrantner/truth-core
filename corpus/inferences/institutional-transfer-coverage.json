@@ -1,0 +1,11 @@
+{
+  "id": "INF-INSTITUTIONAL-TRANSFER-COVERAGE",
+  "input_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "output_statement_id": "STMT-INSTITUTIONAL-TRANSFER-CASES",
+  "rule": "constructive-proof",
+  "meaning": "Explicit excluded middle yields the institutional link or an actual positive countercase with mandate, body and governing event. This is structural coverage, not a census of historical theories.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

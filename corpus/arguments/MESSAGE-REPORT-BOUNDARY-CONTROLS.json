@@ -1,0 +1,17 @@
+{
+  "id": "MESSAGE-REPORT-BOUNDARY-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-MESSAGE-REPORT-BOUNDARY-MODELS",
+  "inference_ids": [
+    "INF-MESSAGE-REPORT-BOUNDARY-CONTROLS"
+  ],
+  "meaning": "Reuse the old schema signature/agency, fullCommissioning, and messageRival_compatible_with_mt28. Raw message-only and historical reports coexist without institutional transfer; the link-bearing rival may retain Matthew28. No historical thesis is refuted.",
+  "definition_ids": [
+    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
+    "DEF-COMMISSION-REPORT-POWERS",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMMISSION-REPORT-AND-EVENT"
+  ]
+}

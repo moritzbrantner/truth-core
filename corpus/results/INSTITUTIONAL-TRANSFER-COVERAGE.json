@@ -1,0 +1,10 @@
+{
+  "id": "INSTITUTIONAL-TRANSFER-COVERAGE",
+  "argument_id": "INSTITUTIONAL-TRANSFER-COVERAGE",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Coverage.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Coverage.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.institutionalTransferCoverage",
+  "comparator_config": "results/INSTITUTIONAL-TRANSFER-COVERAGE/comparator.json",
+  "status": "solution-present",
+  "description": "Explicit excluded middle yields the institutional link or an actual positive countercase with mandate, body and governing event. This is structural coverage, not a census of historical theories."
+}

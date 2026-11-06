@@ -1,0 +1,17 @@
+{
+  "id": "MESSAGE-SCOPE-BOUNDARY-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-MESSAGE-SCOPE-BOUNDARY-MODELS",
+  "inference_ids": [
+    "INF-MESSAGE-SCOPE-BOUNDARY-CONTROLS"
+  ],
+  "meaning": "Construct an empty-mandate coexistence model and import the nonempty message/report model, deriving exact Catholic-scope failure using the checked actual-witness theorem.",
+  "definition_ids": [
+    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
+    "DEF-COMMISSION-REPORT-POWERS",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMMISSION-REPORT-AND-EVENT"
+  ]
+}

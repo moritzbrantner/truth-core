@@ -1,0 +1,11 @@
+{
+  "id": "INF-HISTORICAL-COMMISSION-BUNDLE-SUPPLIES-GOVERNING-GRANT",
+  "input_statement_ids": [
+    "STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS"
+  ],
+  "output_statement_id": "STMT-GOVERNING-GRANT-EXISTS",
+  "rule": "constructive-proof",
+  "meaning": "Import the existing commission_reports_give_teach_and_governing theorem and project its governing witness; no report/event inference is added.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

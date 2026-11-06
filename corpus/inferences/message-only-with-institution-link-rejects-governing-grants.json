@@ -1,0 +1,13 @@
+{
+  "id": "INF-MESSAGE-ONLY-WITH-INSTITUTION-LINK-REJECTS-GOVERNING-GRANTS",
+  "input_statement_ids": [
+    "STMT-JESUS-MANDATE-COVERS-ONLY-MESSAGE",
+    "STMT-GOVERNING-EVENT-INSTITUTION-LINK",
+    "STMT-ACTUAL-MANDATED-CATHOLIC-FOUNDING"
+  ],
+  "output_statement_id": "STMT-NO-GOVERNING-GRANT",
+  "rule": "constructive-proof",
+  "meaning": "An actual mandator and founded visible body make the institutional link nonvacuous. A governing grant would then give the very founding-in-mandate the raw rival denies.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
