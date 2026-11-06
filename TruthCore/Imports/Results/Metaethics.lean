@@ -10,6 +10,7 @@ public import TruthCore.Results.Metaethics.EvilObjection.UseFork.Solution
 public import TruthCore.Results.Metaethics.ExplanationRivalBoundary.Controls.Solution
 public import TruthCore.Results.Metaethics.ExplanationRivalBoundary.ExactRival.Solution
 public import TruthCore.Results.Metaethics.GoodnessCorrectSupport.Controls.Solution
+public import TruthCore.Results.Metaethics.GoodnessCorrectSupport.CorrectCoverage.Solution
 public import TruthCore.Results.Metaethics.GoodnessCorrectSupport.Elimination.Solution
 public import TruthCore.Results.Metaethics.GoodnessCorrectSupport.Strength.Solution
 public import TruthCore.Results.Metaethics.GoodnessCoverageStrength.Solution

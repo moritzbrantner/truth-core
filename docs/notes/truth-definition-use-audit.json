@@ -3093,6 +3093,8 @@
   "new_conditional_strength_results": [
     "GOODNESS-GLOBAL-COVERAGE-STRENGTHENS-CORRECT-SUPPORT",
     "GOODNESS-FROM-CORRECT-NAMED-SUPPORT",
-    "GOODNESS-CORRECT-SUPPORT-STRICT-CONTROL"
-  ]
+    "GOODNESS-CORRECT-SUPPORT-STRICT-CONTROL",
+    "GOODNESS-SUPPORT-EQUIVALENT-TO-CORRECT-COVERAGE"
+  ],
+  "review_scope_correction": "Support DOES entail semantic named coverage of EVERY admissible CORRECT account; new checked equivalence certifies this on the SAME dictionary without new OPEN/root premise. Strict control separates arbitrary-admissible coverage via explicitly WRONG .other."
 }

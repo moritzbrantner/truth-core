@@ -11,11 +11,24 @@ open TruthCore.Metaethics.GoodnessFormEnd
 
 /-- If the admissible class has a correct account, some admissible correct
 account has a named extension. This may transfer to a different witness and
-need not classify every correct or every admissible account. It does not by
-itself assert existence. No globally weakest formulation is claimed. -/
+does not require coverage of every admissible account. It DOES entail semantic
+named coverage of every admissible CORRECT account, since all correct accounts
+coextend with GoodIn. It does not assert existence or property identity. No
+globally weakest formulation is claimed. -/
 def CorrectAccountSupport {f : Frame} (s : DefinitionSpace f) : Prop :=
   CorrectAccountExists s →
     ∃ d, s.admissible d ∧ CorrectAccount s d ∧ SemanticallyNamed s d
+
+/-- Coverage only of admissible correct accounts under the SAME denotation and
+GoodIn dictionary. Wrong admissible accounts may remain extension-unnamed. -/
+def CorrectAccountsSemanticallyNamed {f : Frame} (s : DefinitionSpace f) : Prop :=
+  ∀ d, s.admissible d → CorrectAccount s d → SemanticallyNamed s d
+
+/-- The conditional existential formulation is equivalent to universal
+coverage of CORRECT admissible accounts, not of all admissible candidates. -/
+def SupportCoverageEquivalence : Prop :=
+  ∀ (f : Frame) (s : DefinitionSpace f),
+    CorrectAccountSupport s ↔ CorrectAccountsSemanticallyNamed s
 
 /-- All original proposal meanings are retained; only admissibility is narrowed
 for reuse of the existing semantic-elimination theorem at one supported witness. -/

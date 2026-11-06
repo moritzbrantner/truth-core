@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Metaethics.GoodnessCorrectSupport.CorrectCoverage.Challenge",
+  "solution_module": "TruthCore.Results.Metaethics.GoodnessCorrectSupport.CorrectCoverage.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Metaethics.GoodnessCorrectSupport.CorrectCoverage.supportCoverageEquivalence"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
