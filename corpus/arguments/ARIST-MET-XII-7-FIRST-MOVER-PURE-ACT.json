@@ -23,7 +23,7 @@
     "DEF-CAN-BE-OTHERWISE",
     "DEF-RESPECT-OF-CHANGE"
   ],
-  "disambiguation_ids": [
+  "disambiguation_ids": ["DISAMB-POTENCY",
     "DISAMB-MOTION",
     "DISAMB-CAN-FAIL-TO-BE-OR-BE-OTHERWISE",
     "DISAMB-CORRUPTIBLE-SIMPLY-OR-IN-A-RESPECT"

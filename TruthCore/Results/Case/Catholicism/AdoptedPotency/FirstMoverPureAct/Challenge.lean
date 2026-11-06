@@ -3,6 +3,7 @@ import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.AdoptedPotency
 namespace TruthCore.Results.Case.Catholicism.AdoptedPotency.FirstMoverPureAct
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Case.Catholicism (FirstUnmovedMoverIsPureAct IsFirstUnmovedMover
+  FirstUnmovedMoverIsFirstBeing)
 
 /-- Adopted-potency specialization of `AQUINAS-ST-I-Q3-A1-FIRST-MOVER-PURE-ACT`. Every occurrence of the old
 potency parameter, including immutability, priority and sufficiency, is uniformly
@@ -17,6 +18,6 @@ theorem firstMoverPureAct {Being : Type}
     (hFirstBeing : FirstUnmovedMoverIsFirstBeing MovedIn MovesIn PriorSimply)
     (hPrior : ActSimplyPriorToPotencyReading InAct (TruthCore.Latin.Aquinas.SummaTheologiae.AdoptedPotency.InPotency InAct CanBe) PriorSimply)
     (hF1 : TruthCore.Logic.CaseNonContradiction.CasePredicateNonContradiction.{1, 1}):
-    FirstUnmovedMoverIsPureAct MovedIn MovesIn (PureAct InPotency) := by
+    FirstUnmovedMoverIsPureAct MovedIn MovesIn (PureAct (TruthCore.Latin.Aquinas.SummaTheologiae.AdoptedPotency.InPotency InAct CanBe)) := by
   sorry
 end TruthCore.Results.Case.Catholicism.AdoptedPotency.FirstMoverPureAct

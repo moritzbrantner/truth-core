@@ -129,7 +129,7 @@
       "path": "corpus/statements/excluded-middle.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
-      "finding": "Full ∀ p, p ∨ ¬p is an explicit retained hypothesis, not an implicit typeclass law. The proof uses equality instances. Usage does not show full excluded middle is logically necessary; a weaker identity-decidability migration is left to the next scope.",
+      "finding": "Full \u2200 p, p \u2228 \u00acp is an explicit retained hypothesis, not an implicit typeclass law. The proof uses equality instances. Usage does not show full excluded middle is logically necessary; a weaker identity-decidability migration is left to the next scope.",
       "before": {
         "sha256": "279edc03ac8141e2a580cefd9c9998f4dd260565e154c5856b4735abdda3eaa8",
         "lean_declaration": "TruthCore.Logic.ExcludedMiddle"
@@ -142,7 +142,7 @@
       "path": "corpus/statements/god-has-classical-divine-attributes.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
-      "finding": "Universal over the same σ.IsGod witness; no existence and no unpacking of the primitive HasClassicalAttributes field. Empty IsGod interpretation remains admitted.",
+      "finding": "Universal over the same \u03c3.IsGod witness; no existence and no unpacking of the primitive HasClassicalAttributes field. Empty IsGod interpretation remains admitted.",
       "before": {
         "sha256": "360ff5ab30ca29c81f8bbc62c8eee4f47bb55a6caf7d8a0fba76c753f1ef91ae",
         "lean_declaration": "TruthCore.Case.Catholicism.GodHasClassicalAttributes"
@@ -429,11 +429,11 @@
       "path": "corpus/definitions/classical-attributes-bundle.json",
       "status": "repaired",
       "classification": "defect",
-      "finding": "Existing one-way warning retained; names NineClassicalAttributes and checked curried/conjunctive regrouping. No converse to the primitive field; no new statement IDs for ordinary connective occurrences. Re-reviewed in the #1103 definitions audit: the note now records that the attribute 'one' (IsTheOneGod σ.IsGod) mentions IsGod and holds vacuously when nothing is God; a dependency, not a circular proof; existence requires separate premises.",
+      "finding": "Existing one-way warning retained; names NineClassicalAttributes and checked curried/conjunctive regrouping. No converse to the primitive field; no new statement IDs for ordinary connective occurrences. Re-reviewed in the #1103 definitions audit: the note now records that the attribute 'one' (IsTheOneGod \u03c3.IsGod) mentions IsGod and holds vacuously when nothing is God; a dependency, not a circular proof; existence requires separate premises.",
       "before": {
         "sha256": "fdfbcb586159f5837c706684cbc2eb804ea2d4099203a42d011a48075bda127e",
         "lean_declaration": "TruthCore.Case.Catholicism.ClassicalAttributesSuffice",
-        "prose": "The owner's stage-2 reading of Dei Filius ch. 1. Signature.HasClassicalAttributes is still a primitive field. ClassicalAttributesSuffice is an explicit open, one-way premise from the nine predicates to that field, not a definitional equality or an eliminator recovering all nine predicates from it. GodHasClassicalAttributes means ∀ g, σ.IsGod g → σ.HasClassicalAttributes g. No changed proof, closed frontier, or truth of the bridge is claimed by adding this mapping."
+        "prose": "The owner's stage-2 reading of Dei Filius ch. 1. Signature.HasClassicalAttributes is still a primitive field. ClassicalAttributesSuffice is an explicit open, one-way premise from the nine predicates to that field, not a definitional equality or an eliminator recovering all nine predicates from it. GodHasClassicalAttributes means \u2200 g, \u03c3.IsGod g \u2192 \u03c3.HasClassicalAttributes g. No changed proof, closed frontier, or truth of the bridge is claimed by adding this mapping."
       },
       "reviewed_sha256": "a455088d1f6dec3f215058ecc0a1e5cbf277a12840e23e5e76fbd158d881cae5"
     },
@@ -534,7 +534,7 @@
       "path": "corpus/definitions/will.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
-      "finding": "Inspected existing meaning and Lean binding where present. Retain this sense and its recorded source/stipulative limits; no equivalence with a merely similar relation is introduced. WillFollowsIntellectReading formalizes HasIntellect x → HasWill x, not the internal structure of intellectual appetite or divine choice. The source supplies the intended meaning; no equivalence definition of HasWill is added.",
+      "finding": "Inspected existing meaning and Lean binding where present. Retain this sense and its recorded source/stipulative limits; no equivalence with a merely similar relation is introduced. WillFollowsIntellectReading formalizes HasIntellect x \u2192 HasWill x, not the internal structure of intellectual appetite or divine choice. The source supplies the intended meaning; no equivalence definition of HasWill is added.",
       "before": {
         "sha256": "dfd544e34de8506b44fe89df3c3eafc38118a04929968f5d21eb7fee0a75b864",
         "lean_declaration": "TruthCore.Case.Catholicism.GodHasWill"
@@ -547,7 +547,7 @@
       "path": "corpus/definitions/immutable.json",
       "status": "repaired",
       "classification": "defect",
-      "finding": "Removed duplicated no-potency body by reusing existing PureAct. isImmutable_iff_noPotency : IsImmutable p g ↔ ∀ r, ¬p g r is Iff.rfl under original Sort parameters. General philosophical immutability remains distinct.",
+      "finding": "Removed duplicated no-potency body by reusing existing PureAct. isImmutable_iff_noPotency : IsImmutable p g \u2194 \u2200 r, \u00acp g r is Iff.rfl under original Sort parameters. General philosophical immutability remains distinct.",
       "before": {
         "sha256": "31fd07b13fbd052e24a2106ee9b2f908589e17248665de5ed56f69855f5843d4",
         "lean_declaration": "TruthCore.Case.Catholicism.IsImmutable",
@@ -587,7 +587,7 @@
       "path": "corpus/definitions/infinite.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
-      "finding": "Inspected existing meaning and Lean binding where present. Retain this sense and its recorded source/stipulative limits; no equivalence with a merely similar relation is introduced. SubsistentBeingIsInfiniteReading gives only the sufficient condition esseOf x = essenceOf x → Infinite x, reading non-reception through q.3 a.4. Infinite has no definitional expansion imposing the full source account; the theorem remains conditional on that interpretation and premise.",
+      "finding": "Inspected existing meaning and Lean binding where present. Retain this sense and its recorded source/stipulative limits; no equivalence with a merely similar relation is introduced. SubsistentBeingIsInfiniteReading gives only the sufficient condition esseOf x = essenceOf x \u2192 Infinite x, reading non-reception through q.3 a.4. Infinite has no definitional expansion imposing the full source account; the theorem remains conditional on that interpretation and premise.",
       "before": {
         "sha256": "c3b5222ff51bbd4cf8ac245d6d3c024cd22e0d196b94f1959579572edf183fdf",
         "lean_declaration": "TruthCore.Case.Catholicism.GodIsInfinite"
@@ -639,7 +639,7 @@
       "path": "corpus/definitions/one-god.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
-      "finding": "IsTheOneGod IsGod g is ∀ g′, IsGod g′ → g′ = g; it asserts neither IsGod g nor existence. Assembly separately carries IsGod g and uses identical g throughout.",
+      "finding": "IsTheOneGod IsGod g is \u2200 g\u2032, IsGod g\u2032 \u2192 g\u2032 = g; it asserts neither IsGod g nor existence. Assembly separately carries IsGod g and uses identical g throughout.",
       "before": {
         "sha256": "4f16637dddb106061838c277b33238bc83ad629a282096297299e41e2991bb69",
         "lean_declaration": "TruthCore.Case.Catholicism.IsTheOneGod"
@@ -846,13 +846,13 @@
       "id": "DISAMB-IN-ACT",
       "path": "corpus/disambiguations/in-act.json",
       "status": "inspected",
-      "classification": "intentional_abstraction",
-      "finding": "Existing sense separation retained. The selected result uses a single fixed vocabulary context and does not change sense across premises. The record constrains interpretation, not premise truth.",
+      "classification": "adopted_potency_scope",
+      "finding": "Reviewed the added adopted-potency clarification: formal/virtual act remain distinct choices, and each adopted result uses exactly one supplied act predicate everywhere. No virtual reading is attributed to IX.6; generic proof interfaces remain unchanged.",
       "before": {
         "sha256": "d611f0ba3737ca2630ca3cbee8a618e86eb5385773ea453b31b36fc017435cac",
         "lean_declaration": null
       },
-      "reviewed_sha256": "d611f0ba3737ca2630ca3cbee8a618e86eb5385773ea453b31b36fc017435cac"
+      "reviewed_sha256": "9410922badd636cf4af03e355327b5dc3a43827ea0e98930ef4598469d53f4ee"
     },
     {
       "kind": "disambiguations",
@@ -912,7 +912,7 @@
       "path": "corpus/claims/vatican-i-dei-filius-ch1-one-true-living-god.json",
       "status": "repaired",
       "classification": "defect",
-      "finding": "Re-read materialized VATICAN-I-DEI-FILIUS-CH1, DS 3001–3002. The council confesses an existing God and attributes; it does not universally quantify arbitrary predicates into a skeleton field. Corrected explanatory bridge wording without revising the source-bound statement or adding a claim.",
+      "finding": "Re-read materialized VATICAN-I-DEI-FILIUS-CH1, DS 3001\u20133002. The council confesses an existing God and attributes; it does not universally quantify arbitrary predicates into a skeleton field. Corrected explanatory bridge wording without revising the source-bound statement or adding a claim.",
       "before": {
         "sha256": "30f1cac9de7051ce7aa7e15a9b87ac3ab92d51b9a114a7a0c087dce63662c9c8",
         "lean_declaration": null,

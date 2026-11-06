@@ -6,6 +6,7 @@ import TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.BeingInActReadi
 import TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.DefinitionalAnalysesConservative.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.PremisesIndependent.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyModels
+import TruthCore.Results.Aquinas.SummaTheologiae.AdoptedPotencyNonOverlap.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.AtMostOneMaximeEns.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Solution
 import TruthCore.Results.Aquinas.SummaTheologiae.CompositeUnitingCauseControls.Solution

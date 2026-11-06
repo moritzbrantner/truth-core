@@ -11,10 +11,12 @@ potency parameter, including immutability, priority and sufficiency, is uniforml
 non-overlap; all other original hypotheses retain their existing scope. -/
 theorem catholicismFromPrimaViaWithClassicalAttributes (σ : Signature)
     {Respect : Type}
-    {Principle : Type}[DecidableEq σ.Being] [DecidableEq Principle]
+    {Principle : Type}
+    [DecidableEq σ.Being]
+    [DecidableEq Principle]
     (MovedIn : σ.Being → Respect → Prop)
     (MovesIn : σ.Being → σ.Being → Respect → Prop)
-    (InPotency InAct GoodIn : σ.Being → Respect → Prop)
+    (CanBe InAct GoodIn : σ.Being → Respect → Prop)
     (MovesAsMoved : σ.Being → σ.Being → Prop)
     (MoreIn : Respect → σ.Being → σ.Being → Prop)
     (CausesIn : σ.Being → σ.Being → Respect → Prop)
@@ -23,10 +25,10 @@ theorem catholicismFromPrimaViaWithClassicalAttributes (σ : Signature)
     (Composite ComposedOfMatterAndForm Infinite Eternal HasIntellect HasWill : σ.Being → Prop)
     (essenceOf esseOf : σ.Being → Principle)
     (hSense : SomethingIsMovedReading MovedIn)
-    (hPotency : MovedOnlyAsInPotencyReading MovedIn InPotency)
+    (hPotency : MovedOnlyAsInPotencyReading MovedIn (TruthCore.Latin.Aquinas.SummaTheologiae.AdoptedPotency.InPotency InAct CanBe))
     (hAct : MovesOnlyAsInActReading MovesIn InAct)
     (hReduction : ReducedOnlyByAMoverReading MovedIn MovesIn)
-    (hNotBoth : NotActAndPotencyInSameRespectReading InAct InPotency)
+    (hF1 : TruthCore.Logic.CaseNonContradiction.CasePredicateNonContradiction.{1, 1})
     (hPerSe : SecondMoversMoveOnlyAsMovedReading MovedIn MovesIn MovesAsMoved)
     (hRegress : NoInfinitePerSeMoverSeriesReading MovesAsMoved)
     (hExcludedMiddle : FirstUnmovedMoverExistsOrNot MovedIn MovesIn)
@@ -43,16 +45,16 @@ theorem catholicismFromPrimaViaWithClassicalAttributes (σ : Signature)
     (hApplied : CreatedAgentIsAppliedToActByGodReading MovedIn MovesIn CausesIn esse σ.IsGod)
     (hSuffice : ClassicalAttributesSuffice σ (IsSimple Composite) (IsPerfect InAct)
       (IsSupremelyGood InAct GoodIn CausesIn esse) (IsTheOneGod σ.IsGod)
-      Infinite (IsImmutable InPotency) Eternal HasIntellect HasWill)
+      Infinite (IsImmutable (TruthCore.Latin.Aquinas.SummaTheologiae.AdoptedPotency.InPotency InAct CanBe)) Eternal HasIntellect HasWill)
     (hMaximal : GodIsMaximalInBeing σ.IsGod InAct MoreIn esse)
     (hUniting : CompositeHasAUnitingCauseReading Composite CausesIn esse)
     (hPreexist : PerfectionsOfEffectPreexistInCauseReading InAct CausesIn esse)
     (hGoodness : GoodnessIsActualityReading GoodIn InAct)
-    (hPrior : ActSimplyPriorToPotencyReading InAct InPotency PriorSimply)
+    (hPrior : ActSimplyPriorToPotencyReading InAct (TruthCore.Latin.Aquinas.SummaTheologiae.AdoptedPotency.InPotency InAct CanBe) PriorSimply)
     (hKinds : MatterFormAndEsseEssenceAreCompositionsReading ComposedOfMatterAndForm Composite
       essenceOf esseOf)
     (hInfinity : SubsistentBeingIsInfiniteReading essenceOf esseOf Infinite)
-    (hEternity : ImmutableIsEternalReading InPotency Eternal)
+    (hEternity : ImmutableIsEternalReading (TruthCore.Latin.Aquinas.SummaTheologiae.AdoptedPotency.InPotency InAct CanBe) Eternal)
     (hImmaterial : ImmaterialIsIntellectualReading ComposedOfMatterAndForm HasIntellect ComponentOf)
     (hWillFollows : WillFollowsIntellectReading HasIntellect HasWill)
     (hRevelation : RevelationPossibleAndRecognizable σ)
@@ -61,7 +63,7 @@ theorem catholicismFromPrimaViaWithClassicalAttributes (σ : Signature)
     (hCatholic : ChristsChurchIsCatholicChurch σ)
     (hDivineFounding : BridgeChristsChurchFoundedByGod σ)
     (hOnlyTruth : BridgeGodFoundedAuthorityProposesOnlyTruth σ)
-    (hProposes : CatholicChurchDefinitivelyProposesCreed σ) :
+    (hProposes : CatholicChurchDefinitivelyProposesCreed σ):
     CatholicismTrue σ := by
   sorry
 end TruthCore.Results.Case.Catholicism.AdoptedPotency.FromPrimaViaWithClassicalAttributesIdentity
