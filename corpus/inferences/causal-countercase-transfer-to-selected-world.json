@@ -1,0 +1,12 @@
+{
+  "id": "INF-CAUSAL-COUNTERCASE-TRANSFER-TO-SELECTED-WORLD",
+  "input_statement_ids": [
+    "STMT-WITNESS-WORLD-HAS-NO-ESSE-CAUSAL-COUNTERCASE",
+    "STMT-CAUSAL-COUNTER-WITNESS-WORLD-IS-SELECTED"
+  ],
+  "output_statement_id": "STMT-SELECTED-NO-ESSE-CAUSAL-COUNTERCASE",
+  "rule": "constructive-proof",
+  "meaning": "World-identification transport transcription. Another or accessible world alone is insufficient.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

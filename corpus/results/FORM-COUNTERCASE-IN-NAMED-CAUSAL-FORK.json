@@ -1,0 +1,11 @@
+{
+  "id": "FORM-COUNTERCASE-IN-NAMED-CAUSAL-FORK",
+  "argument_id": "FORM-COUNTERCASE-IN-NAMED-CAUSAL-FORK",
+  "challenge_module": "TruthCore.Results.Causality.CausalConcreteRivals.NamedFromForm.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CausalConcreteRivals.NamedFromForm.Solution",
+  "theorem": "TruthCore.Results.Causality.CausalConcreteRivals.NamedFromForm.namedFromForm",
+  "comparator_config": "results/FORM-COUNTERCASE-IN-NAMED-CAUSAL-FORK/comparator.json",
+  "status": "solution-present",
+  "description": "Explicit Form-branch injection into the named disjunction.",
+  "transcription": "instantiation"
+}
