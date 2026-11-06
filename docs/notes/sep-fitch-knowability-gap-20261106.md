@@ -188,7 +188,9 @@ some-agent/sometime interpretation only if factivity and conjunct extraction
 are supplied at each relevant world for that same content. The concrete
 survivor is fixed-agent relational knowledge. No common witness across contents,
 God, actual epistemic authority or root truth follows. F6 epistemic-reason
-existence is unchanged. The independent questions of adequate admissibility,
+existence is unchanged. A transcendental commitment to conditions of inquiry or
+denial is distinct from the claim that every truth is knowable, and still more
+from knowledge of every truth. No further normativity premise is introduced. The independent questions of adequate admissibility,
 humanly possible inquiry, actuality/time indexing and applicability to reality
 remain OPEN; their blockers are semantic/formalization choices rather than
 missing source acquisition.

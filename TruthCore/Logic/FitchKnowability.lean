@@ -91,6 +91,9 @@ def BooleanClosed {W : Type} (C : (W → Prop) → Prop) : Prop :=
   (∀ p q, C p → C q → C (fun w => p w ∨ q w)) ∧
   (∀ p, C p → C (fun w => ¬ p w))
 
+-- Avoid the default computed NeZero proof in finite numeral elaboration.
+local instance : NeZero 4 := ⟨Nat.noConfusion⟩
+
 /-- The nonconstant basic atom is true at worlds zero and two. -/
 def survivorAtom (w : Fin 4) : Prop := w = 0 ∨ w = 2
 

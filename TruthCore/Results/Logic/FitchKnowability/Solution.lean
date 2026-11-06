@@ -1,7 +1,6 @@
 module
 
 public import TruthCore.Logic.FitchKnowability
-public import Lean.Elab.Tactic.Omega
 
 @[expose] public section
 
@@ -39,6 +38,8 @@ theorem relevantFromGlobal {W : Type} (c : Context W) (p : W → Prop)
     (laws : GlobalLaws c) : RelevantLaws c p := by
   intro v _
   exact ⟨laws.1 _ v, fun h => (laws.2 p (fun w => ¬ c.knows p w) v h).1⟩
+
+local instance : NeZero 4 := ⟨Nat.noConfusion⟩
 
 private abbrev atom := survivorAtom
 private abbrev epistemic := survivorEpistemic
@@ -94,7 +95,7 @@ private theorem endpointKnown (q : Fin 4 → Prop) (e : Fin 4)
     (bound : 2 ≤ e.val) (truth : q e) : context.knows q e := by
   intro v hv
   rcases hv with ⟨he, _⟩ | he
-  · omega
+  · exact False.elim (Nat.not_lt_of_ge bound he)
   · cases he
     exact truth
 
