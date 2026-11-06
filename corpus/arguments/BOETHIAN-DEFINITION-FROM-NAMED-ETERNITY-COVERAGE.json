@@ -1,0 +1,19 @@
+{
+  "id": "BOETHIAN-DEFINITION-FROM-NAMED-ETERNITY-COVERAGE",
+  "premise_statement_ids": [
+    "STMT-PRIMITIVE-ETERNITY-NAMED-DEFINITIONS-COVER",
+    "STMT-PRIMITIVE-ETERNITY-ENDLESS-LIFE-DEFINITION-FAILS"
+  ],
+  "conclusion_statement_id": "STMT-PRIMITIVE-ETERNITY-BOETHIAN-DEFINITION",
+  "inference_ids": [
+    "INF-BOETHIAN-DEFINITION-FROM-NAMED-ETERNITY-COVERAGE"
+  ],
+  "meaning": "Exact conditional disjunct elimination; requires named coverage and actual negation of endless calibration, not merely failure to prove the latter.",
+  "definition_ids": [
+    "DEF-ETERNITY-CALIBRATION-PROFILE",
+    "DEF-BOETHIAN-ETERNAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-DURATION-SENSE"
+  ]
+}

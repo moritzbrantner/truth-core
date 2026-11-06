@@ -1,0 +1,31 @@
+{
+  "id": "GOODNESS-FORM-END-DEFINITION-FORK",
+  "argument_id": "GOODNESS-FORM-END-DEFINITION-FORK",
+  "challenge_module": "TruthCore.Results.Metaethics.GoodnessFormEndFork.Challenge",
+  "solution_module": "TruthCore.Results.Metaethics.GoodnessFormEndFork.Solution",
+  "theorem": "TruthCore.Results.Metaethics.GoodnessFormEndFork.definitionFork",
+  "comparator_config": "results/GOODNESS-FORM-END-DEFINITION-FORK/comparator.json",
+  "status": "solution-present",
+  "description": "Zero-axiom certified structural fork under explicit excluded middle, with a checked failureElimination companion. Named theories are not presumed exhaustive or exclusive. Named model controls live in GOODNESS-FORM-END-BOUNDARIES. No root premise or floor item is settled.",
+  "case_split": {
+    "target_statement_id": "STMT-GOODNESS-DUE-TO-FORM-AND-END",
+    "cases": [
+      {
+        "label": "Due-actuality coextension",
+        "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.DueActualityThesis",
+        "statement_id": "STMT-GOODNESS-DUE-TO-FORM-AND-END"
+      },
+      {
+        "label": "Surplus goodness",
+        "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.SurplusGood",
+        "statement_id": "STMT-GOODNESS-SURPLUS-BEYOND-DUE-ACTUALITY"
+      },
+      {
+        "label": "Omitted due goodness",
+        "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.OmittedDueGood",
+        "statement_id": "STMT-GOODNESS-OMITS-DUE-ACTUALITY"
+      }
+    ],
+    "survival_result_id": "GOODNESS-FORM-END-BOUNDARIES"
+  }
+}

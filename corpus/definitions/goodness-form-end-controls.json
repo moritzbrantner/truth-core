@@ -1,0 +1,8 @@
+{
+  "id": "DEF-GOODNESS-FORM-END-CONTROLS",
+  "term": "fixed finite goodness comparison profiles",
+  "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.artifact",
+  "basis": "stipulative",
+  "definition": "artifact has exactly two named bearers, knife and counterweight, and three perfections, existence, edge and mass. Both exist and have mass; neither has an edge. Forms and ends select which perfections are due. artifact GoodIn is due actuality; surplusArtifact uses all actuality; omissionArtifact retains only counterweight due actualities; mixedArtifact ascribes only knife mass. The exported BoundaryCertificate names these constants, retains the surplus and omission witnesses, the generic-coextension boundary, ultimate-perfection distinction, coarse/enriched criteria and candidate-space controls.",
+  "note": "Stipulated artifact illustrations, not empirical observations or witnesses of real metaphysical possibility. All advertised properties are retained in the exported proposition. GoodSimply is an independent predicate; the reused UltimateDuePerfectionRequiredReading only excludes good simpliciter when ultimate perfection is missing. A model with correct named coverage and one with an explicit fourth relevant definition test both scope branches."
+}

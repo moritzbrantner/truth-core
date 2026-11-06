@@ -1,0 +1,11 @@
+{
+  "id": "STMT-EPISTEMIC-REASON-BARE-PRODUCTION-DEFINITION-FAILS",
+  "paraphrase": "The selected attributed reason relation is not coextensive with the bare-production criterion. This is a profile-specific rejection of that calibration, not a refutation of every naturalistic account.",
+  "lean_declaration": "TruthCore.Logic.EpistemicReasonDefinitionFork.ProductionDefinitionFails",
+  "definition_ids": [
+    "DEF-EPISTEMIC-REASON-DEFINITION-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EPISTEMIC-REASON-EXISTENCE-ROLE-AUTHORITY"
+  ]
+}

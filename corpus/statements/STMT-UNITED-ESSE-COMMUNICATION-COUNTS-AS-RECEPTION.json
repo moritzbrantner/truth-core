@@ -1,0 +1,14 @@
+{
+  "id": "STMT-UNITED-ESSE-COMMUNICATION-COUNTS-AS-RECEPTION",
+  "paraphrase": "OPEN interpretation transfer: in a supplied union, communicating that soul bearer own esse to the mapped bodily recipient counts as canonical EsseReceivedIn for that bearer/recipient in the SAME state. No source claim is assigned this reading merely because it uses receiving language.",
+  "lean_declaration": "TruthCore.Causality.EsseReceptionDefinitionFork.SameSenseTransfer",
+  "definition_ids": [
+    "DEF-UNITED-ESSE-RECEPTION-INTERPRETATION-PROFILE",
+    "DEF-ESSE-RECEIVED-IN",
+    "DEF-ESSENCE-THOMISTIC-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSE-RECEPTION",
+    "DISAMB-ESSENCE"
+  ]
+}

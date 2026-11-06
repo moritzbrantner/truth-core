@@ -1,0 +1,19 @@
+{
+  "id": "METAETHICS-TRUTH-APT-RIVAL-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-METAETHICS-TRUTH-APT-RIVAL-CONTROLS",
+  "inference_ids": [
+    "INF-METAETHICS-TRUTH-APT-RIVAL-CONTROLS"
+  ],
+  "meaning": "Export the prior checked empty-moral and neither-answer finite witnesses with the exact overlap/nonexhaustion properties relevant to alternative closure. Does not establish that the abstract predicates are entire philosophical theories.",
+  "definition_ids": [
+    "DEF-NOT-REALIST-ROBUST-TRUTH-APT",
+    "DEF-TRUTH-ROBUST",
+    "DEF-MINIMAL-TRUTH-APTNESS",
+    "DEF-MORAL-STATEMENT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUTH-APT",
+    "DISAMB-TRUE"
+  ]
+}

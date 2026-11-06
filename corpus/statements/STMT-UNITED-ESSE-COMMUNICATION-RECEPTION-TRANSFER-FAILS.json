@@ -1,0 +1,14 @@
+{
+  "id": "STMT-UNITED-ESSE-COMMUNICATION-RECEPTION-TRANSFER-FAILS",
+  "paraphrase": "The universal same-act communication-to-canonical-reception transfer fails in this profile. This does not by itself settle reception at the separately selected union.",
+  "lean_declaration": "TruthCore.Causality.EsseReceptionDefinitionFork.SameSenseTransferFails",
+  "definition_ids": [
+    "DEF-UNITED-ESSE-RECEPTION-INTERPRETATION-PROFILE",
+    "DEF-ESSE-RECEIVED-IN",
+    "DEF-ESSENCE-THOMISTIC-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSE-RECEPTION",
+    "DISAMB-ESSENCE"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "STMT-PRIMITIVE-ETERNITY-NAMED-DEFINITIONS-COVER",
+  "paraphrase": "Open coverage: the supplied primitive Eternal has the operational Boethian calibration or the endless-life calibration. These may overlap and are not asserted to exhaust philosophical definitions of eternity.",
+  "lean_declaration": "TruthCore.Causality.EternityDefinitionFork.NamedCoverage",
+  "definition_ids": [
+    "DEF-ETERNITY-CALIBRATION-PROFILE",
+    "DEF-BOETHIAN-ETERNAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-DURATION-SENSE"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "UNDIRECTED-TENDING-WITNESS-REFUTES-DIRECTOR-PRINCIPLE",
+  "premise_statement_ids": [
+    "STMT-UNDIRECTED-NONCOGNITIVE-TENDING-WITNESS"
+  ],
+  "conclusion_statement_id": "STMT-NOT-NONCOGNITIVE-TENDING-DIRECTOR-PRINCIPLE",
+  "inference_ids": [
+    "INF-UNDIRECTED-TENDING-WITNESS-REFUTES-DIRECTOR-PRINCIPLE"
+  ],
+  "meaning": "Specialize the existing universal director principle at the explicit noncognitive tending witness and contradict its absence of a director. Same predicates and end are retained. This rejects no mechanism, source profile or intended reality interpretation.",
+  "definition_ids": [
+    "DEF-TELEONOMY-DIRECTOR-RIVAL-WITNESS",
+    "DEF-INTENTIO-AS-TENDING",
+    "DEF-TELEONOMY-MODEL-SCOPE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-INTENTIO",
+    "DISAMB-TELEONOMY-FINALITY-AND-AGENCY"
+  ]
+}

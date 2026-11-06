@@ -1,0 +1,18 @@
+{
+  "id": "TEMPORAL-DEFINITION-FROM-NAMED-COVERAGE",
+  "premise_statement_ids": [
+    "STMT-EFFICIENT-ATTRIBUTION-NAMED-TEMPORAL-DEFINITIONS-COVER",
+    "STMT-EFFICIENT-ATTRIBUTION-CURRENT-DEFINITION-FAILS"
+  ],
+  "conclusion_statement_id": "STMT-EFFICIENT-ATTRIBUTION-TEMPORAL-DEFINITION",
+  "inference_ids": [
+    "INF-TEMPORAL-DEFINITION-FROM-NAMED-COVERAGE"
+  ],
+  "meaning": "Conditional disjunct elimination: coverage plus actual negation of selected-time calibration yields temporal calibration. Failure of selected-time calibration without coverage is insufficient.",
+  "definition_ids": [
+    "DEF-COMPOSER-TEMPORAL-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNITING-CAUSE"
+  ]
+}

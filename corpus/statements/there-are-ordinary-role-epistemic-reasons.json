@@ -1,10 +1,12 @@
 {
   "id": "STMT-THERE-ARE-ORDINARY-ROLE-EPISTEMIC-REASONS",
-  "paraphrase": "Some consideration is an epistemic reason for some subject and attitude toward assessable content, with favorable bearing on answering correctly or being warranted in the answer; its favorable bearing is not supplied merely by producing or rewarding that attitude. Analyst ordinary-role reading, argued in docs/notes/epistemic-reasons-preconditions.md; philosophical warrant remains OPEN. This does not assert preference-independent force and is not a new encoding or approval of F6.",
+  "paraphrase": "Some subject, consideration and attitude toward assessable content instantiate both attributed reason status and favorable epistemic bearing in applicable circumstances. Favoring is separately interpreted rather than identified with production or reward. This analyst role existential remains open; it neither asserts preference-independent force nor inherits F6 approval.",
   "definition_ids": [
+    "DEF-EPISTEMIC-REASON-DEFINITION-PROFILE",
     "DEF-EPISTEMIC-REASON-ORDINARY-ROLE"
   ],
   "disambiguation_ids": [
     "DISAMB-EPISTEMIC-REASON-EXISTENCE-ROLE-AUTHORITY"
-  ]
+  ],
+  "lean_declaration": "TruthCore.Logic.EpistemicReasonDefinitionFork.SomeOrdinaryReason"
 }

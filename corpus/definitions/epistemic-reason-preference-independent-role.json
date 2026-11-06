@@ -3,5 +3,6 @@
   "term": "preference-independent epistemic favoring",
   "definition": "Ordinary epistemic favoring whose pro tanto normative force does not depend on the subject desiring accuracy or the favored answer, with the relevant evidence and circumstances fixed. Pro tanto force can be outweighed; preference independence does not entail agent-neutrality, an overriding duty, factivity, infallible access or ontological irreducibility.",
   "basis": "stipulative",
-  "note": "Analyst objective reading selected for comparison, not an approved floor item or a derivation from F6. See the separately defended and still open authority bridge in docs/notes/epistemic-reasons-preconditions.md and docs/notes/epistemic-reasons-930.md. This fixes a sense; it does not establish that the sense is instantiated."
+  "note": "Analyst objective reading selected for comparison, not an approved floor item or a derivation from F6. See the separately defended and still open authority bridge in docs/notes/epistemic-reasons-preconditions.md and docs/notes/epistemic-reasons-930.md. This fixes a sense; it does not establish that the sense is instantiated. Conditional encoding now exists in EpistemicReasonDefinitionFork; its finite interpretations and calibration propositions do not establish actual instantiation or philosophical warrant. See DEF-EPISTEMIC-REASON-DEFINITION-PROFILE.",
+  "lean_declaration": "TruthCore.Logic.EpistemicReasonDefinitionFork.IndependentInstance"
 }

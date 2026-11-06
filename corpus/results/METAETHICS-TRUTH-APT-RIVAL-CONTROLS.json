@@ -1,0 +1,10 @@
+{
+  "id": "METAETHICS-TRUTH-APT-RIVAL-CONTROLS",
+  "argument_id": "METAETHICS-TRUTH-APT-RIVAL-CONTROLS",
+  "challenge_module": "TruthCore.Results.Logic.MetaethicsTruthAptRivalBoundary.Controls.Challenge",
+  "solution_module": "TruthCore.Results.Logic.MetaethicsTruthAptRivalBoundary.Controls.Solution",
+  "theorem": "TruthCore.Results.Logic.MetaethicsTruthAptRivalBoundary.Controls.controls",
+  "comparator_config": "results/METAETHICS-TRUTH-APT-RIVAL-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Export the prior checked empty-moral and neither-answer finite witnesses with the exact overlap/nonexhaustion properties relevant to alternative closure. Does not establish that the abstract predicates are entire philosophical theories."
+}

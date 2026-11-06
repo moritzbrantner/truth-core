@@ -1,0 +1,12 @@
+{
+  "id": "STMT-BOETHIAN-ETERNITY-SUFFICES-FOR-PRIMITIVE-ETERNITY",
+  "paraphrase": "Weak open transfer: the SAME being satisfying the existing operational BoethianEternal predicate satisfies the independently supplied primitive Eternal. Does not require a converse or forbid Eternal attribution outside this class.",
+  "lean_declaration": "TruthCore.Causality.EternityDefinitionFork.BoethianRecognition",
+  "definition_ids": [
+    "DEF-ETERNITY-CALIBRATION-PROFILE",
+    "DEF-BOETHIAN-ETERNAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-DURATION-SENSE"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "PRIMITIVE-ETERNITY-DEFINITION-BOUNDARIES",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-PRIMITIVE-ETERNITY-DEFINITION-CONTROLS",
+  "inference_ids": [
+    "INF-PRIMITIVE-ETERNITY-DEFINITION-BOUNDARIES"
+  ],
+  "meaning": "Finite strictness, missing-recognition, overlap and remainder interpretations. The three existing typed eternity premises are jointly nonvacuous in the missing-recognition control, while the exact primitive target is false.",
+  "definition_ids": [
+    "DEF-ETERNITY-CALIBRATION-PROFILE",
+    "DEF-BOETHIAN-ETERNAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-DURATION-SENSE"
+  ]
+}

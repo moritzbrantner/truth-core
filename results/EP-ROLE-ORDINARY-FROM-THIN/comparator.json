@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.EpistemicReasonDefinitions.OrdinaryFromThin.Challenge",
+  "solution_module": "TruthCore.Results.Logic.EpistemicReasonDefinitions.OrdinaryFromThin.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.EpistemicReasonDefinitions.OrdinaryFromThin.ordinaryFromThin"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -1,0 +1,10 @@
+{
+  "id": "GOODNESS-FORM-END-BOUNDARIES",
+  "argument_id": "GOODNESS-FORM-END-BOUNDARIES",
+  "challenge_module": "TruthCore.Results.Metaethics.GoodnessFormEndBoundary.Challenge",
+  "solution_module": "TruthCore.Results.Metaethics.GoodnessFormEndBoundary.Solution",
+  "theorem": "TruthCore.Results.Metaethics.GoodnessFormEndBoundary.boundaries",
+  "comparator_config": "results/GOODNESS-FORM-END-BOUNDARIES/comparator.json",
+  "status": "solution-present",
+  "description": "Premise-free model/constraint certificate for the explicit analyst interpretation. It retains named profiles and every advertised witness in its type. Models do not prove real metaphysical possibility, actual goodness, complete historical theories, or any premise’s independent warrant. Zero axioms; imports and applies the existing exact criterion characterization."
+}
