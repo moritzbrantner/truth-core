@@ -18,7 +18,7 @@
     "DEF-PURE-ACT",
     "DEF-RESPECT"
   ],
-  "disambiguation_ids": [
+  "disambiguation_ids": ["DISAMB-POTENCY",
     "DISAMB-MOTION",
     "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME",
     "DISAMB-CORRUPTIBLE-SIMPLY-OR-IN-A-RESPECT"
