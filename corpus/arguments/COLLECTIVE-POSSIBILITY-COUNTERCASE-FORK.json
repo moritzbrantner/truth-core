@@ -1,0 +1,14 @@
+{
+  "id": "COLLECTIVE-POSSIBILITY-COUNTERCASE-FORK",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-COLLECTIVE-POSSIBILITY-OR-PRECISE-COUNTERCASE",
+  "inference_ids": [
+    "INF-COLLECTIVE-POSSIBILITY-COUNTERCASE-FORK"
+  ],
+  "meaning": "Checked structural coverage under explicit excluded middle: collective conditional or its precise semantic countercase. No completeness of a named historical roster is inferred.",
+  "definition_ids": [
+    "DEF-COLLECTIVE-POSSIBILITY-LOCAL-PROOF-ROUTE"
+  ]
+}
