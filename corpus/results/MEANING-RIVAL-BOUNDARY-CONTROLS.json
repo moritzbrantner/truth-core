@@ -1,0 +1,10 @@
+{
+  "id": "MEANING-RIVAL-BOUNDARY-CONTROLS",
+  "argument_id": "MEANING-RIVAL-BOUNDARY-CONTROLS",
+  "challenge_module": "TruthCore.Results.Metaethics.MeaningRivalBoundary.Controls.Challenge",
+  "solution_module": "TruthCore.Results.Metaethics.MeaningRivalBoundary.Controls.Solution",
+  "theorem": "TruthCore.Results.Metaethics.MeaningRivalBoundary.Controls.controls",
+  "comparator_config": "results/MEANING-RIVAL-BOUNDARY-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Populated constant-expression overlap and actual attitude-loss failure control, retaining the full bound properties."
+}

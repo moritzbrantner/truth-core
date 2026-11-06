@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SCIENTISM-POINTWISE-COUNTEREXAMPLE-SCOPE",
+  "term": "every nonempirical established witness in scope",
+  "definition": "Every established claim failing empirical establishment is in scope. Does not require empirically established claims in scope. Stronger than sufficient existential witness-transfer coverage; no global minimality asserted.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.ScientismScopeBoundary.NonEmpiricalWitnessesInScope",
+  "note": "Analyst scope boundary; attribution deferred. See docs/notes/scientism-meaning-rival-boundary.md."
+}

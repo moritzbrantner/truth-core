@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SCIENTISM-EXACT-NONEMPIRICAL-NEGATIVE",
+  "term": "no established nonempirical claim",
+  "definition": "Exact logical negation of the existing SomeNonEmpiricalEstablished predicate, using the SAME EpistemicFrame. Not identified with generic scoped scientism.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.ScientismScopeBoundary.NoNonEmpiricalEstablished",
+  "note": "Analyst scope boundary; attribution deferred. See docs/notes/scientism-meaning-rival-boundary.md."
+}

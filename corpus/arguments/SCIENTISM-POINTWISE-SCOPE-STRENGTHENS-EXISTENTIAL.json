@@ -1,0 +1,11 @@
+{
+  "id": "SCIENTISM-POINTWISE-SCOPE-STRENGTHENS-EXISTENTIAL",
+  "premise_statement_ids": [
+    "STMT-SCIENTISM-POINTWISE-NONEMPIRICAL-SCOPE"
+  ],
+  "conclusion_statement_id": "STMT-SCIENTISM-EXISTENTIAL-NONEMPIRICAL-SCOPE",
+  "inference_ids": [
+    "INF-SCIENTISM-POINTWISE-SCOPE-STRENGTHENS-EXISTENTIAL"
+  ],
+  "meaning": "Pointwise witness coverage implies existential witness-transfer coverage by preserving an existing witness."
+}

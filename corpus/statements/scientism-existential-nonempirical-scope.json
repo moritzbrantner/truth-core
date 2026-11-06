@@ -1,0 +1,8 @@
+{
+  "id": "STMT-SCIENTISM-EXISTENTIAL-NONEMPIRICAL-SCOPE",
+  "paraphrase": "If any nonempirical established claim exists, some such claim lies in scope; not necessarily every such claim. OPEN analyst witness-transfer premise, sufficient for the guarded negative result.",
+  "lean_declaration": "TruthCore.Logic.ScientismScopeBoundary.SomeNonEmpiricalWitnessInScope",
+  "definition_ids": [
+    "DEF-SCIENTISM-EXISTENTIAL-COUNTEREXAMPLE-SCOPE"
+  ]
+}

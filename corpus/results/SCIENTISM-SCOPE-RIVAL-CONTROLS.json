@@ -1,0 +1,10 @@
+{
+  "id": "SCIENTISM-SCOPE-RIVAL-CONTROLS",
+  "argument_id": "SCIENTISM-SCOPE-RIVAL-CONTROLS",
+  "challenge_module": "TruthCore.Results.Logic.ScientismScopeBoundary.Controls.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ScientismScopeBoundary.Controls.Solution",
+  "theorem": "TruthCore.Results.Logic.ScientismScopeBoundary.Controls.controls",
+  "comparator_config": "results/SCIENTISM-SCOPE-RIVAL-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Populated outside-scope overlap and two strict coverage-strength controls."
+}

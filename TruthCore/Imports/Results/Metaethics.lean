@@ -18,4 +18,6 @@ public import TruthCore.Results.Metaethics.GoodnessNamedElimination.Solution
 public import TruthCore.Results.Metaethics.GoodnessPropertyIdentity.Solution
 public import TruthCore.Results.Metaethics.GoodnessSemanticCoverage.Solution
 public import TruthCore.Results.Metaethics.GoodnessSemanticElimination.Solution
+public import TruthCore.Results.Metaethics.MeaningRivalBoundary.Controls.Solution
+public import TruthCore.Results.Metaethics.MeaningRivalBoundary.GuardedNegative.Solution
 public import TruthCore.Results.Metaethics.PlanStateEmbeddingControl.Solution
