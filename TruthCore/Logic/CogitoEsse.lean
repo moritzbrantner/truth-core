@@ -4,6 +4,8 @@ public import TruthCore.Logic.CogitoConcrete
 public import TruthCore.Causality.CogitoNecessaryConcrete
 public import TruthCore.Causality.ExistenceActuality
 public import TruthCore.Ontology.ConcreteAbstract
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question75.Subsistence
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question4.Article1
 
 /-!
 # Cogito in the adopted esse sense of concrete (#1113)
@@ -49,5 +51,24 @@ abstract candidates from the carrier, or equate concrete with spatiotemporal. -/
 def EveryExistentConcreteAt {W B : Type} (o : Ontic W B)
     (concrete : B → Prop) (w : W) : Prop :=
   ∀ x, o.ExistsAt w x → concrete x
+
+/-- Analyst bridge for the operation route requested in #1113: every bearer
+of an occurring episode is attributed that intellectual exercise. Occurrence
+and bearing alone do not define operation; an impersonal bearer interpretation
+can reject this input. No q75 source attribution is made for this bridge. -/
+def BorneThoughtExercisesIntellect {B Episode : Type}
+    (Occurs : Episode → Prop) (Bears : B → Episode → Prop)
+    (a : TruthCore.Latin.Aquinas.SummaTheologiae.HumanIntellect.OperationAttribution B Episode) : Prop :=
+  ∀ b e, Occurs e → Bears b e → a.IntellectualExercise b e
+
+/-- Analyst intellectual-operation instance of operari sequitur esse. This is
+separate from the existing causation-only OperationOnlyOfBeingInActReading;
+no physical realization, bodily independence or subsistence claim is included.
+The q75 operation attribution vocabulary is reused; historical attribution of
+this exact episode-indexed instance is deferred. -/
+def IntellectualExerciseRequiresAct {B Episode R : Type}
+    (a : TruthCore.Latin.Aquinas.SummaTheologiae.HumanIntellect.OperationAttribution B Episode)
+    (InAct : B → R → Prop) : Prop :=
+  ∀ b e, a.IntellectualExercise b e → ∃ r, InAct b r
 
 end TruthCore.Logic.CogitoEsse

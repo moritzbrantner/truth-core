@@ -100,4 +100,16 @@ theorem sameWitnessEssence {W B Episode P A : Type}
       (profile o grounds p.InAct p.esse) Occurs Bears R w p := by
   sorry
 
+/-- Conditional operation route, preserving both analyst bridge inputs.
+The existing causation-only q75 premise is not silently applied to thinking. -/
+theorem bearerConcreteOfOperation {B R Episode : Type}
+    (Occurs : Episode → Prop) (Bears : B → Episode → Prop)
+    (a : TruthCore.Latin.Aquinas.SummaTheologiae.HumanIntellect.OperationAttribution B Episode)
+    (InAct : B → R → Prop) (esse : R)
+    (hThinking : BorneThoughtExercisesIntellect Occurs Bears a)
+    (hOperation : IntellectualExerciseRequiresAct a InAct)
+    (hBeing : TruthCore.Latin.Aquinas.SummaTheologiae.ActualityOnlyInsofarAsBeingReading InAct esse) :
+    EveryBearerIsConcrete Occurs Bears (HasEsseInRe InAct esse) := by
+  sorry
+
 end TruthCore.Results.Logic.CogitoEsse
