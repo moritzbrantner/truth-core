@@ -111,6 +111,12 @@ public import TruthCore.Results.Causality.InfiniteLocalTransmission.Solution
 public import TruthCore.Results.Causality.JointGroups.Solution
 public import TruthCore.Results.Causality.LocalFramePossibleExternalCause.Solution
 public import TruthCore.Results.Causality.LocalObservationSelectsSolution.Solution
+public import TruthCore.Results.Causality.MaximumDefinitions.CalibrationsToBridge.Solution
+public import TruthCore.Results.Causality.MaximumDefinitions.CausalTransport.Solution
+public import TruthCore.Results.Causality.MaximumDefinitions.Controls.Solution
+public import TruthCore.Results.Causality.MaximumDefinitions.Coverage.Solution
+public import TruthCore.Results.Causality.MaximumDefinitions.DirectedBridge.Solution
+public import TruthCore.Results.Causality.MaximumDefinitions.NamedElimination.Solution
 public import TruthCore.Results.Causality.ModalNecessaryBeingActuality.Solution
 public import TruthCore.Results.Causality.NecessarilyUnderived.LiftFromBridges.Solution
 public import TruthCore.Results.Causality.NecessarilyUnderived.NonRefutationLift.Solution

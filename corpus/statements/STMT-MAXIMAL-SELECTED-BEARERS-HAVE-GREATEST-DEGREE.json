@@ -1,0 +1,13 @@
+{
+  "id": "STMT-MAXIMAL-SELECTED-BEARERS-HAVE-GREATEST-DEGREE",
+  "paraphrase": "OPEN weak semantic interface: every merely maximal bearer under the supplied comparative has a greatest represented degree among bearers of the SAME selected perfection. No converse, existence or uniqueness is asserted. This is not guaranteed by the word maximum.",
+  "lean_declaration": "TruthCore.Causality.MaximumDefinitionFork.MaximalToGreatest",
+  "definition_ids": [
+    "DEF-MAXIMUM-CALIBRATION-PROFILE",
+    "DEF-MAXIMUM-IN-A-PERFECTION",
+    "DEF-GREATEST-DEGREE-IN-A-PERFECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MAXIME-ENS"
+  ]
+}

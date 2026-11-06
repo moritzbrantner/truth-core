@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.MaximumDefinitions.CausalTransport.Challenge",
+  "solution_module": "TruthCore.Results.Causality.MaximumDefinitions.CausalTransport.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.MaximumDefinitions.CausalTransport.causalTransport"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}
