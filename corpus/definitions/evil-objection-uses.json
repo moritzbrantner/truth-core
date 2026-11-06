@@ -1,0 +1,8 @@
+{
+  "id": "DEF-EVIL-OBJECTION-USES",
+  "term": "problem-of-evil use modes and remaining use",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Metaethics.EvilObjection.RemainingUse",
+  "definition": "For fixed Critic c and Rowe Sig s, OwnTruePremise c is c.Holds c.evilUtterance; AffectiveProtest c is c.ExpressesDisapproval c.evilUtterance; InternalPermissionChallenge s is the target-conditional defined separately. NamedUseCoverage is their disjunction. RemainingUse is the conjunction of their three negations. UseCoverageWithRemainder adds that remainder as a fourth branch and is proved from explicit excluded middle. EmotivistUseFork excludes OwnTruePremise and preserves the other three branches. NamedEmotivistAlternatives excludes OwnTruePremise and leaves only InternalPermissionChallenge or AffectiveProtest, conditionally on NamedUseCoverage.",
+  "note": "These are semantic diagnostic conditions for one critic/target profile, not exclusive speech acts or an exhaustive list of worldviews. Internal challenge and protest overlap in the model. Coverage without the remainder is an explicit proposition and has a countermodel; no search history establishes it. The exact force called moot here is limited to inability to use this selected moral sentence as an own-true premise under the strict truthless policy; neither the occurrence of suffering, God's existence nor every internal criticism is decided."
+}

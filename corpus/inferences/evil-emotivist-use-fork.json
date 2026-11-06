@@ -1,0 +1,15 @@
+{
+  "id": "INF-EVIL-EMOTIVIST-USE-FORK",
+  "input_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-MORAL-STATEMENTS-LACK-TRUTH-VALUE",
+    "STMT-LACKING-TRUTH-VALUE-EXCLUDES-TRUTH",
+    "STMT-BADNESS-ASCRIPTIONS-ARE-MORAL",
+    "STMT-MAN-MADE-EVIL-PREMISE-SAYS-SOMETHING-BAD"
+  ],
+  "output_statement_id": "STMT-EVIL-EMOTIVIST-USE-FORK",
+  "rule": "constructive-proof",
+  "meaning": "Compose the existing external-emotivism theorem with the checked coverage-with-remainder result: under all four strict semantic bridges the own-true-premise branch is excluded, leaving internal challenge, affective protest or explicit remaining use. This classifies a limitation of one objection-use, not falsehood of emotivism or proof of God.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

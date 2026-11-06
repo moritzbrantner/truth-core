@@ -1,0 +1,11 @@
+{
+  "id": "INF-EVIL-INTERNAL-PERMISSION-CHALLENGE",
+  "input_statement_ids": [
+    "STMT-ROWE-GRATUITOUS-SUFFERING"
+  ],
+  "output_statement_id": "STMT-EVIL-INTERNAL-PERMISSION-CHALLENGE",
+  "rule": "constructive-proof",
+  "meaning": "Reuse the checked typed Rowe deductive core: actual gratuitous suffering implies that target narrow-theism attributes conflict with the target permission constraint. This is a hypothetical internal critique independent of any critic moral sentence's truth predicate. Neither gratuitous suffering nor the permission rule is independently established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,10 @@
+{
+  "id": "EVIL-INTERNAL-PERMISSION-CHALLENGE",
+  "argument_id": "EVIL-INTERNAL-PERMISSION-CHALLENGE",
+  "challenge_module": "TruthCore.Results.Metaethics.EvilObjection.InternalChallenge.Challenge",
+  "solution_module": "TruthCore.Results.Metaethics.EvilObjection.InternalChallenge.Solution",
+  "theorem": "TruthCore.Results.Metaethics.EvilObjection.InternalChallenge.internalPermissionChallenge",
+  "comparator_config": "results/EVIL-INTERNAL-PERMISSION-CHALLENGE/comparator.json",
+  "status": "solution-present",
+  "description": "Reuse the checked typed Rowe deductive core: actual gratuitous suffering implies that target narrow-theism attributes conflict with the target permission constraint. This is a hypothetical internal critique independent of any critic moral sentence's truth predicate. Neither gratuitous suffering nor the permission rule is independently established."
+}
