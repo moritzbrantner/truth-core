@@ -1,0 +1,11 @@
+{
+  "id": "INF-MIXED-NATURAL-REASON-REJECTS-UNIFORM-BRIDGES",
+  "input_statement_ids": [
+    "STMT-NATURAL-REASON-IS-MIXED"
+  ],
+  "output_statement_id": "STMT-UNIFORM-NATURAL-REASON-BRIDGES-REJECTED",
+  "rule": "constructive-proof",
+  "meaning": "The nonshared witness defeats the universal shared bridge; the shared witness defeats universal nonsharedness. This is a local standard-profile constraint, not a refutation of the descriptive horizon or a whole worldview.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

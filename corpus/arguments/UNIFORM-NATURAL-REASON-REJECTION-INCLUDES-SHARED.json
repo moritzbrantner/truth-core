@@ -1,0 +1,23 @@
+{
+  "id": "UNIFORM-NATURAL-REASON-REJECTION-INCLUDES-SHARED",
+  "premise_statement_ids": [
+    "STMT-UNIFORM-NATURAL-REASON-BRIDGES-REJECTED"
+  ],
+  "conclusion_statement_id": "STMT-SHARED-NATURAL-REASON-BRIDGE-REJECTED",
+  "inference_ids": [
+    "INF-UNIFORM-NATURAL-REASON-REJECTION-INCLUDES-SHARED"
+  ],
+  "meaning": "Project the exact rejection of the old shared bridge from rejection of both uniform readings. Assembly transcription; this is the shared-scope connection used by the rival endpoint.",
+  "definition_ids": [
+    "DEF-NATURAL-REASON-PROFILE-COMPARISON",
+    "DEF-NATURAL-REASON-SHARED",
+    "DEF-NATURAL-REASON-PRACTICE-INTERNAL",
+    "DEF-CONCILIAR-DEFINITION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NATURAL-REASON"
+  ],
+  "strong_version_needed": {
+    "STMT-UNIFORM-NATURAL-REASON-BRIDGES-REJECTED": "This certificate registers the stronger two-rejection conjunction projected to the weaker shared-bridge rejection."
+  }
+}

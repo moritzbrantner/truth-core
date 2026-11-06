@@ -1,0 +1,11 @@
+{
+  "id": "UNIFORM-NATURAL-REASON-REJECTION-INCLUDES-SHARED",
+  "argument_id": "UNIFORM-NATURAL-REASON-REJECTION-INCLUDES-SHARED",
+  "challenge_module": "TruthCore.Results.Alternatives.NaturalReasonHorizon.Projection.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.NaturalReasonHorizon.Projection.Solution",
+  "theorem": "TruthCore.Results.Alternatives.NaturalReasonHorizon.Projection.uniformRejectionIncludesShared",
+  "comparator_config": "results/UNIFORM-NATURAL-REASON-REJECTION-INCLUDES-SHARED/comparator.json",
+  "status": "solution-present",
+  "description": "Project the exact rejection of the old shared bridge from rejection of both uniform readings. Assembly transcription; this is the shared-scope connection used by the rival endpoint.",
+  "transcription": "assembly"
+}

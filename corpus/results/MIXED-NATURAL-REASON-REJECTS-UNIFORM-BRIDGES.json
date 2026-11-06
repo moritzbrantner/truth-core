@@ -1,0 +1,10 @@
+{
+  "id": "MIXED-NATURAL-REASON-REJECTS-UNIFORM-BRIDGES",
+  "argument_id": "MIXED-NATURAL-REASON-REJECTS-UNIFORM-BRIDGES",
+  "challenge_module": "TruthCore.Results.Alternatives.NaturalReasonHorizon.Mixed.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.NaturalReasonHorizon.Mixed.Solution",
+  "theorem": "TruthCore.Results.Alternatives.NaturalReasonHorizon.Mixed.mixedRejectsUniform",
+  "comparator_config": "results/MIXED-NATURAL-REASON-REJECTS-UNIFORM-BRIDGES/comparator.json",
+  "status": "solution-present",
+  "description": "The nonshared witness defeats the universal shared bridge; the shared witness defeats universal nonsharedness. This is a local standard-profile constraint, not a refutation of the descriptive horizon or a whole worldview."
+}

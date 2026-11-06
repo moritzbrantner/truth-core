@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Alternatives.NaturalReasonHorizon.Private.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.NaturalReasonHorizon.Private.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Alternatives.NaturalReasonHorizon.Private.nonsharedRejectsShared"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
