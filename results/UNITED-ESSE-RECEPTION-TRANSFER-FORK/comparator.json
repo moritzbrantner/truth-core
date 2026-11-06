@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.TransferCoverage.Challenge",
+  "solution_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.TransferCoverage.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.EsseReceptionDefinitions.TransferCoverage.transferCoverage"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

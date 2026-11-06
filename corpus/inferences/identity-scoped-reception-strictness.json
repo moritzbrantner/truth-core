@@ -1,0 +1,9 @@
+{
+  "id": "INF-IDENTITY-SCOPED-RECEPTION-STRICTNESS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-IDENTITY-SCOPED-RECEPTION-STRICTNESS-CONTROL",
+  "rule": "constructive-proof",
+  "meaning": "Finite strictness profile: broad own-essence fails at an actual nonidentity soul-labelled reception tuple while the identity-scoped premise holds and an identity candidate exists. This does not claim the entire five-premise infinity bundle.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

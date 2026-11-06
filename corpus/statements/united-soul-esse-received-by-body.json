@@ -1,6 +1,6 @@
 {
   "id": "STMT-UNITED-SOUL-ESSE-RECEIVED-BY-BODY",
-  "paraphrase": "While the human soul is united to the body, the body is the subject that receives the soul's esse, although that esse does not depend on the body. Nothing is said about the separated soul, whose esse belongs to it alone without the body. Not encoded in Lean: an encoding would need the soul and body typed in the EsseReceivedIn vocabulary, a time or state index for 'while united', and a decision whether the body can be the soul's essence or a part of the human essence (DISAMB-ESSE-RECEPTION).",
+  "paraphrase": "While the human soul is united to the body, the body is the subject that receives the soul's esse, although that esse does not depend on the body. Nothing is said about the separated soul, whose esse belongs to it alone without the body. The full source assertion, including dependence and separated-state contrasts, remains unbound; separate analyst siblings now encode union, communication, act identity, sense transfer and recipient distinction with checked conditional consequences. Neither interpretation of canonical reception is assigned to this source claim.",
   "definition_ids": [
     "DEF-ESSE-RECEIVED-IN",
     "DEF-ESSE"

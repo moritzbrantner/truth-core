@@ -1,0 +1,23 @@
+{
+  "id": "UNITED-COMMUNICATION-TO-SELECTED-RECEPTION",
+  "premise_statement_ids": [
+    "STMT-SELECTED-HUMAN-SOUL-BODY-UNION",
+    "STMT-SELECTED-UNION-COMMUNICATES-SOUL-ACT-TO-BODY",
+    "STMT-COMMUNICATED-ACT-IS-SELECTED-SOUL-ESSE",
+    "STMT-UNITED-ESSE-COMMUNICATION-COUNTS-AS-RECEPTION"
+  ],
+  "conclusion_statement_id": "STMT-SELECTED-BODY-RECEIVES-SELECTED-SOUL-ESSE",
+  "inference_ids": [
+    "INF-UNITED-COMMUNICATION-TO-SELECTED-RECEPTION"
+  ],
+  "meaning": "Explicit interpretation transport transcription: actual selected union, conditional communication, same-act identity and same-sense transfer yield canonical reception of the SAME bearer/recipient/state.",
+  "definition_ids": [
+    "DEF-UNITED-ESSE-RECEPTION-INTERPRETATION-PROFILE",
+    "DEF-ESSE-RECEIVED-IN",
+    "DEF-ESSENCE-THOMISTIC-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSE-RECEPTION",
+    "DISAMB-ESSENCE"
+  ]
+}

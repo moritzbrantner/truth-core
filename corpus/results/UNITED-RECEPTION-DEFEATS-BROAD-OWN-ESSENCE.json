@@ -1,0 +1,10 @@
+{
+  "id": "UNITED-RECEPTION-DEFEATS-BROAD-OWN-ESSENCE",
+  "argument_id": "UNITED-RECEPTION-DEFEATS-BROAD-OWN-ESSENCE",
+  "challenge_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.OwnEssenceFailure.Challenge",
+  "solution_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.OwnEssenceFailure.Solution",
+  "theorem": "TruthCore.Results.Causality.EsseReceptionDefinitions.OwnEssenceFailure.ownEssenceFailure",
+  "comparator_config": "results/UNITED-RECEPTION-DEFEATS-BROAD-OWN-ESSENCE/comparator.json",
+  "status": "solution-present",
+  "description": "A concrete canonical reception tuple with recipient distinct from that bearer essence contradicts the original universal own-essence principle. Conditional counterexample, not unconditional source or metaphysical refutation."
+}

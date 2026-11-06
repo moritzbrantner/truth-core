@@ -25,6 +25,7 @@ public import TruthCore.Logic.KnowledgeRetorsion
 public import TruthCore.Logic.LimitAdmission
 public import TruthCore.Logic.MaximumOrder
 public import TruthCore.Logic.MeaningDefinitionFork
+public import TruthCore.Logic.MetaethicsTruthAptRivalBoundary
 public import TruthCore.Logic.PerformedDenial
 public import TruthCore.Logic.PluralClosureBoundary
 public import TruthCore.Logic.QuantifierShift

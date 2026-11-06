@@ -1,0 +1,10 @@
+{
+  "id": "QUASI-REALIST-NONEMPTY-IMPLIES-NOT-ROBUST",
+  "argument_id": "QUASI-REALIST-NONEMPTY-IMPLIES-NOT-ROBUST",
+  "challenge_module": "TruthCore.Results.Logic.MetaethicsTruthAptRivalBoundary.ExactRival.Challenge",
+  "solution_module": "TruthCore.Results.Logic.MetaethicsTruthAptRivalBoundary.ExactRival.Solution",
+  "theorem": "TruthCore.Results.Logic.MetaethicsTruthAptRivalBoundary.ExactRival.exactRival",
+  "comparator_config": "results/QUASI-REALIST-NONEMPTY-IMPLIES-NOT-ROBUST/comparator.json",
+  "status": "solution-present",
+  "description": "Compose the existing checked robust-answer deviation with the unchanged full quasi-realist reading and explicit Geach moral witness. Universal robust aptness would then give both source answers, contradicting their checked deviation. No thin/minimal truth is silently robust."
+}

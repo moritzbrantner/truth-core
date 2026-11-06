@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.RestrictedFailure.Challenge",
+  "solution_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.RestrictedFailure.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.EsseReceptionDefinitions.RestrictedFailure.restrictedFailure"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -35,6 +35,8 @@ public import TruthCore.Results.Logic.MeaningDefinitionFork.V2Rejection.Solution
 public import TruthCore.Results.Logic.MeaningDefinitionFork.V2RejectionBound.Solution
 public import TruthCore.Results.Logic.MeaningDefinitionFork.V3Rejection.Solution
 public import TruthCore.Results.Logic.MeaningDefinitionFork.V3RejectionBound.Solution
+public import TruthCore.Results.Logic.MetaethicsTruthAptRivalBoundary.Controls.Solution
+public import TruthCore.Results.Logic.MetaethicsTruthAptRivalBoundary.ExactRival.Solution
 public import TruthCore.Results.Logic.PerformedDenial.EmptyControl.Solution
 public import TruthCore.Results.Logic.PerformedDenial.NoAccurateDenial.Solution
 public import TruthCore.Results.Logic.PerformedDenial.StaticControl.Solution
