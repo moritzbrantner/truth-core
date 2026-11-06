@@ -1,0 +1,14 @@
+{
+  "id": "STMT-FURTHER-RELEVANT-ABSTRACT-CAUSAL-COUNTERACCOUNT",
+  "paraphrase": "A selected-world no-esse capacity/productive countercase exists but none of the named productive cases does. This precise remainder defeats named coverage; under the esse calibration it also defeats the original two-clause commitment.",
+  "lean_declaration": "TruthCore.Causality.CausalConcreteRivalBoundary.OtherCounter",
+  "definition_ids": [
+    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE",
+    "DEF-CONCRETE-ESSE-IN-RE",
+    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ]
+}

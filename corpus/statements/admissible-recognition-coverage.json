@@ -1,0 +1,15 @@
+{
+  "id": "STMT-ADMISSIBLE-RECOGNITION-COVERAGE",
+  "paraphrase": "Open coverage premise: for each God candidate with the capability, if correct recognition is realized somewhere in the candidate carrier then some admitted situation contains correct recognition of that same candidate. Candidate and admitted-situation coverage are not assumed equal.",
+  "lean_declaration": "TruthCore.Alternatives.RevelationRecognition.AdmissibleRecognitionCoverage",
+  "definition_ids": [
+    "DEF-REVELATION-RECOGNITION-PROFILE",
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-WITTGENSTEINIAN-FIDEISM",
+    "DEF-NATURAL-REASON-SHARED"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REVELATION-CAPABILITY-AND-PRACTICE-UPTAKE",
+    "DISAMB-PRACTICE-SENSITIVITY-AND-FIDEIST-INSULATION"
+  ]
+}

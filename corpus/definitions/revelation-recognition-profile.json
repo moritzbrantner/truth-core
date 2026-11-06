@@ -1,0 +1,8 @@
+{
+  "id": "DEF-REVELATION-RECOGNITION-PROFILE",
+  "term": "admitted possible recognition of revelation",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Alternatives.RevelationRecognition.RecognitionProfile",
+  "definition": "A RecognitionProfile indexes candidate situations, their practices and a recognition-as-divine move relation, with an admitted subset and distinguished actual situation. Correct recognition is a recognition move satisfying the practice Correct predicate; outsider-shared standards are a separate predicate. The root capability is calibrated by explicit independent propositions; no actual recognition follows merely from capability.",
+  "note": "Analyst reconstruction with attribution deferred. Ordinary analogy: an origin-marked message can be recognizable in a permitted circumstance while its actual community accepts no publicly answerable recognition move; private recognition need not answer to shared reason. These examples do not establish actual divine signs or correct religious practice. Admissibility and candidate-carrier adequacy are open; neither exhaustive real possibility nor a specific modal logic is imposed. OutsideAdmissibleRecognition is a first-class additional-relevant-situation witness, and AdmissibleRecognitionCoverage is an open coverage premise. No temporal persistence, causal principle or all-world accessibility is implicit."
+}

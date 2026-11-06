@@ -1,0 +1,11 @@
+{
+  "id": "INF-RECOGNITION-ADMISSIBILITY-COVERAGE-OR-OUTSIDE-WITNESS",
+  "input_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "output_statement_id": "STMT-RECOGNITION-ADMISSIBILITY-CASES",
+  "rule": "constructive-proof",
+  "meaning": "EM checks coverage or an actual relevant correct-recognition witness outside the admitted subset, with none admitted. It handles the quantified remainder rather than assuming the selected admitted cases exhaust it.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

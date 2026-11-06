@@ -1,0 +1,14 @@
+{
+  "id": "STMT-SELECTED-CAUSAL-CONCRETENESS-COMMITMENT-FAILS",
+  "paraphrase": "Exact negation of the original two-clause OwnerCommitmentAt at the SAME selected world, concrete and capacity/causation predicates. Neither other-world counterexamples nor mere explanatory relevance automatically imply this.",
+  "lean_declaration": "TruthCore.Causality.CausalConcreteRivalBoundary.OwnerFails",
+  "definition_ids": [
+    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE",
+    "DEF-CONCRETE-ESSE-IN-RE",
+    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ]
+}

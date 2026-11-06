@@ -1,0 +1,12 @@
+{
+  "id": "INF-ALL-ADMISSIBLE-CUT-OFF-RESTRICTS-TO-ACTUAL",
+  "input_statement_ids": [
+    "STMT-ALL-ADMISSIBLE-PRACTICES-CUT-OFF",
+    "STMT-RECOGNITION-ACTUAL-SITUATION-ADMISSIBLE"
+  ],
+  "output_statement_id": "STMT-WF-RELIGION-CUT-OFF-FROM-SHARED-REASON",
+  "rule": "constructive-proof",
+  "meaning": "Restrict admitted-situation insulation to the actual practice only under its explicit admissibility premise. Ordinary conditional instantiation, not an unconditional strength relation.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

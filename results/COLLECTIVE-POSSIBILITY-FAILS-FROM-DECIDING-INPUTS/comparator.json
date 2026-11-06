@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.Countercase.Challenge",
+  "solution_module": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.Countercase.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.Countercase.countercase"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
