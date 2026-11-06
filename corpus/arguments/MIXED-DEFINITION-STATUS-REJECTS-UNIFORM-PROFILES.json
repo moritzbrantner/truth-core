@@ -1,0 +1,20 @@
+{
+  "id": "MIXED-DEFINITION-STATUS-REJECTS-UNIFORM-PROFILES",
+  "premise_statement_ids": [
+    "STMT-CONCILIAR-DEFINITION-STATUS-MIXED"
+  ],
+  "conclusion_statement_id": "STMT-CONCILIAR-UNIFORM-DEFINITION-STATUS-REJECTED",
+  "inference_ids": [
+    "INF-MIXED-DEFINITION-STATUS-REJECTS-UNIFORM-PROFILES"
+  ],
+  "meaning": "The nonendorsed defined witness defeats the old universal bridge; the endorsed defined witness defeats universal nonendorsement. This rejects two uniform profiles, not theology or a whole worldview.",
+  "definition_ids": [
+    "DEF-THEOLOGICAL-CONTENT-AND-RELIGIOUS-LIFE-ROLES",
+    "DEF-CONCILIAR-DEFINITION",
+    "DEF-PRACTICE-OWN-STANDARD",
+    "DEF-CORRECT-MOVE-IN-PRACTICE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THEOLOGICAL-FORMULATION-AND-NORMATIVE-GRAMMAR"
+  ]
+}

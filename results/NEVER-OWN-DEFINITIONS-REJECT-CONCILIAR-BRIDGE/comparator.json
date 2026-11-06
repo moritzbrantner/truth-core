@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Private.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Private.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Private.neverOwnRejectsBridge"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

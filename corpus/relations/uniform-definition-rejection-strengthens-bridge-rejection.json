@@ -1,0 +1,10 @@
+{
+  "id": "REL-UNIFORM-DEFINITION-REJECTION-STRENGTHENS-BRIDGE-REJECTION",
+  "subject_kind": "statement",
+  "subject_id": "STMT-CONCILIAR-UNIFORM-DEFINITION-STATUS-REJECTED",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "STMT-CONCILIAR-DEFINITION-BRIDGE-REJECTED",
+  "verification_result_id": "UNIFORM-DEFINITION-REJECTION-INCLUDES-BRIDGE",
+  "note": "Both universal rejections include the exact normative bridge rejection; no stronger rejection follows from the weaker one."
+}

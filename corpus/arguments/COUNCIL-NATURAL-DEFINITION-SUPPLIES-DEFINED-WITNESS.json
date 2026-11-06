@@ -1,0 +1,23 @@
+{
+  "id": "COUNCIL-NATURAL-DEFINITION-SUPPLIES-DEFINED-WITNESS",
+  "premise_statement_ids": [
+    "STMT-DEI-FILIUS-DEFINES-NATURAL-KNOWABILITY-OF-GOD"
+  ],
+  "conclusion_statement_id": "STMT-DEFINED-MOVE-EXISTS",
+  "inference_ids": [
+    "INF-COUNCIL-NATURAL-DEFINITION-SUPPLIES-DEFINED-WITNESS"
+  ],
+  "meaning": "Project a weak actual Defined witness from the existing council-defined natural-knowability move. Assembly transcription; natural-knowability content is not needed for definition-status conflict.",
+  "definition_ids": [
+    "DEF-THEOLOGICAL-CONTENT-AND-RELIGIOUS-LIFE-ROLES",
+    "DEF-CONCILIAR-DEFINITION",
+    "DEF-PRACTICE-OWN-STANDARD",
+    "DEF-CORRECT-MOVE-IN-PRACTICE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THEOLOGICAL-FORMULATION-AND-NORMATIVE-GRAMMAR"
+  ],
+  "strong_version_needed": {
+    "STMT-DEI-FILIUS-DEFINES-NATURAL-KNOWABILITY-OF-GOD": "This certificate registers the sole-premise strong-to-weak projection; consequence arguments use only the needed weak component."
+  }
+}

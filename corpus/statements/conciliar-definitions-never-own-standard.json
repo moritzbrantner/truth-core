@@ -1,0 +1,14 @@
+{
+  "id": "STMT-CONCILIAR-DEFINITIONS-NEVER-OWN-STANDARD",
+  "paraphrase": "Every defined move lacks endorsement by the practice own standards. This is a precise all-nonendorsed profile, distinct from merely saying the move has theological content.",
+  "lean_declaration": "TruthCore.Alternatives.ConciliarGrammarDefinitions.DefinitionsNeverOwn",
+  "definition_ids": [
+    "DEF-THEOLOGICAL-CONTENT-AND-RELIGIOUS-LIFE-ROLES",
+    "DEF-CONCILIAR-DEFINITION",
+    "DEF-PRACTICE-OWN-STANDARD",
+    "DEF-CORRECT-MOVE-IN-PRACTICE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THEOLOGICAL-FORMULATION-AND-NORMATIVE-GRAMMAR"
+  ]
+}

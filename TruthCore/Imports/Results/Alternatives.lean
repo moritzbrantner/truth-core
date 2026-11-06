@@ -2,6 +2,15 @@
 module
 
 public import TruthCore.Results.Alternatives.ActualityWithoutBeingNotEliminated.Solution
+public import TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Coverage.Solution
+public import TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Description.Solution
+public import TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Exclusion.Solution
+public import TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Mixed.Solution
+public import TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Models.Solution
+public import TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Private.Solution
+public import TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Projection.Solution
+public import TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Scope.Solution
+public import TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Witness.Solution
 public import TruthCore.Results.Alternatives.EleaticRestSelfRefuting.Solution
 public import TruthCore.Results.Alternatives.FideismCatholicPractice.Solution
 public import TruthCore.Results.Alternatives.FideismGrammarCases.Solution

@@ -1,0 +1,10 @@
+{
+  "id": "CONCILIAR-GRAMMAR-ROLE-CONTROLS",
+  "argument_id": "CONCILIAR-GRAMMAR-ROLE-CONTROLS",
+  "challenge_module": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Models.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Models.Solution",
+  "theorem": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Models.roleModels",
+  "comparator_config": "results/CONCILIAR-GRAMMAR-ROLE-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Four finite controls retain a real ordinary-life endorsed move. Theology and normative endorsement overlap in one; distinct defined/nonendorsed and ordinary/endorsed moves support exclusion, actual bridge failure and the original fideist pair in another. Mixed status and empty-definition overlap complete the stated boundaries. No liturgical history or actual authority is established."
+}

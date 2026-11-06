@@ -1,0 +1,14 @@
+{
+  "id": "STMT-CONCILIAR-DEFINITION-BRIDGE-REJECTED",
+  "paraphrase": "Exact negation of STMT-CONCILIAR-DEFINITION-IS-PRACTICE-OWN-STANDARD: not every defined move is endorsed by the practice own standards. It is not merely a descriptive theological classification or an absence of natural knowledge.",
+  "lean_declaration": "TruthCore.Alternatives.ConciliarGrammarDefinitions.DefinitionBridgeRejected",
+  "definition_ids": [
+    "DEF-THEOLOGICAL-CONTENT-AND-RELIGIOUS-LIFE-ROLES",
+    "DEF-CONCILIAR-DEFINITION",
+    "DEF-PRACTICE-OWN-STANDARD",
+    "DEF-CORRECT-MOVE-IN-PRACTICE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THEOLOGICAL-FORMULATION-AND-NORMATIVE-GRAMMAR"
+  ]
+}
