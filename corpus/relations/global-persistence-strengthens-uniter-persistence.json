@@ -1,0 +1,10 @@
+{
+  "id": "REL-GLOBAL-PERSISTENCE-STRENGTHENS-UNITER-PERSISTENCE",
+  "subject_id": "STMT-ALL-EFFICIENT-ACTIVITY-PERSISTS-TO-SELECTED-TIME",
+  "object_id": "STMT-UNITER-EFFICIENT-ACTIVITY-PERSISTS-TO-SELECTED-TIME",
+  "verification_result_id": "GLOBAL-PERSISTENCE-STRENGTHENS-UNITER-PERSISTENCE",
+  "note": "Exact sole-premise checked strength registration; no temporal interpretation is adopted.",
+  "predicate": "strengthens",
+  "subject_kind": "statement",
+  "object_kind": "statement"
+}

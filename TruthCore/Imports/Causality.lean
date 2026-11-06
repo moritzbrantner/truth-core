@@ -22,6 +22,7 @@ public import TruthCore.Causality.ChainInstantiation
 public import TruthCore.Causality.CogitoNecessaryConcrete
 public import TruthCore.Causality.CommonPriority
 public import TruthCore.Causality.CompleteCauseContributorCover
+public import TruthCore.Causality.ComposerTemporalDefinitionFork
 public import TruthCore.Causality.ConcreteExistentialSupply
 public import TruthCore.Causality.ConstitutiveConfiguration
 public import TruthCore.Causality.ConstitutiveNatureUniqueness
