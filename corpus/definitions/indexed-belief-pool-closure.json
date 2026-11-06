@@ -1,0 +1,8 @@
+{
+  "id": "DEF-INDEXED-BELIEF-POOL-CLOSURE",
+  "term": "context-indexed belief-pool closure",
+  "definition": "Separate pools BK and BL each contain the initial g and are closed under their own K3 or LP relation, respectively. Their semantic theories of g can both reject C because no common unindexed pool or cross-profile transfer is required.",
+  "basis": "stipulative",
+  "note": "Strongest local pluralist/conventionalist survivor in #1084. Separate indexing is not rejected as false; the example isolates the extra shared-pool bridge. It is no complete philosophy of pluralism or theory of categorical epistemic authority.",
+  "lean_declaration": "TruthCore.Logic.PluralClosureBoundary.SurvivorControls"
+}

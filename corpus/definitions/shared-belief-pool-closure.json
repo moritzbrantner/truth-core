@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SHARED-BELIEF-POOL-CLOSURE",
+  "term": "shared belief-pool closure",
+  "definition": "A Pool is one extensional predicate selecting formulas. Closed L B requires B contain every L-semantic consequence of every finite list of its selected members. JointClosureLaw explicitly assumes the SAME B contains g and is closed under both K3 and LP, then derives selection of C. Neither actual belief nor normative authority is built into selection.",
+  "basis": "stipulative",
+  "note": "The common-pool plus both-closure bridge is an additional policy commitment, with categorical authority and actual feasibility OPEN. The fixed g is p or (q and object-not-q); C is p and (q or object-not-q). Three named-input deletions and a nontrivial common pool are certified; not a global weakest-bundle or join=CPL theorem.",
+  "lean_declaration": "TruthCore.Logic.PluralClosureBoundary.Closed"
+}
