@@ -1,0 +1,20 @@
+{
+  "id": "SELECTED-SOUL-BODY-RECEPTION-FORK",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-SELECTED-SOUL-BODY-RECEPTION-FORK",
+  "inference_ids": [
+    "INF-SELECTED-SOUL-BODY-RECEPTION-FORK"
+  ],
+  "meaning": "Selected-tuple structural fork under explicit excluded middle; neither source sense is thereby adopted.",
+  "definition_ids": [
+    "DEF-UNITED-ESSE-RECEPTION-INTERPRETATION-PROFILE",
+    "DEF-ESSE-RECEIVED-IN",
+    "DEF-ESSENCE-THOMISTIC-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSE-RECEPTION",
+    "DISAMB-ESSENCE"
+  ]
+}

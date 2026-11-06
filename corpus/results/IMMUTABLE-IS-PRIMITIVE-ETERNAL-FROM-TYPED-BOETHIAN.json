@@ -1,0 +1,10 @@
+{
+  "id": "IMMUTABLE-IS-PRIMITIVE-ETERNAL-FROM-TYPED-BOETHIAN",
+  "argument_id": "IMMUTABLE-IS-PRIMITIVE-ETERNAL-FROM-TYPED-BOETHIAN",
+  "challenge_module": "TruthCore.Results.Causality.EternityDefinitions.PrimitiveComposition.Challenge",
+  "solution_module": "TruthCore.Results.Causality.EternityDefinitions.PrimitiveComposition.Solution",
+  "theorem": "TruthCore.Results.Causality.EternityDefinitions.PrimitiveComposition.primitiveComposition",
+  "comparator_config": "results/IMMUTABLE-IS-PRIMITIVE-ETERNAL-FROM-TYPED-BOETHIAN/comparator.json",
+  "status": "solution-present",
+  "description": "Compose the existing typed immutableIsBoethianEternal theorem with the explicit one-way recognition transfer to the EXACT all-beings ImmutableIsEternalReading root premise. Succession-to-subject-potency, boundary-to-subject-potency, and pure-act-has-life stay separately visible. No inference from immutable to alive is hidden in a definition."
+}

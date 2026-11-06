@@ -1,0 +1,11 @@
+{
+  "id": "BROAD-OWN-ESSENCE-STRENGTHENS-IDENTITY-SCOPE",
+  "argument_id": "BROAD-OWN-ESSENCE-STRENGTHENS-IDENTITY-SCOPE",
+  "challenge_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.IdentityScopeStrength.Challenge",
+  "solution_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.IdentityScopeStrength.Solution",
+  "theorem": "TruthCore.Results.Causality.EsseReceptionDefinitions.IdentityScopeStrength.identityScopeStrength",
+  "comparator_config": "results/BROAD-OWN-ESSENCE-STRENGTHENS-IDENTITY-SCOPE/comparator.json",
+  "status": "solution-present",
+  "description": "Exact sole-premise strength registration: the original broad own-essence law implies its restriction to esse=essence bearers; a nonempty identity-domain strictness control rejects the converse.",
+  "transcription": "instantiation"
+}

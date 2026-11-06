@@ -1,0 +1,10 @@
+{
+  "id": "UNITED-ESSE-RECEPTION-DEFINITION-BOUNDARIES",
+  "argument_id": "UNITED-ESSE-RECEPTION-DEFINITION-BOUNDARIES",
+  "challenge_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.Controls.Challenge",
+  "solution_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.Controls.Solution",
+  "theorem": "TruthCore.Results.Causality.EsseReceptionDefinitions.Controls.controls",
+  "comparator_config": "results/UNITED-ESSE-RECEPTION-DEFINITION-BOUNDARIES/comparator.json",
+  "status": "solution-present",
+  "description": "Six exact finite controls distinguish union, act identity, communication, canonical reception, recipient identity and eligibility scope. No actual anthropology, causal dependence or metaphysical possibility is established."
+}

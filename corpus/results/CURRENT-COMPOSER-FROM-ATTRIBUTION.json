@@ -1,0 +1,11 @@
+{
+  "id": "CURRENT-COMPOSER-FROM-ATTRIBUTION",
+  "argument_id": "CURRENT-COMPOSER-FROM-ATTRIBUTION",
+  "challenge_module": "TruthCore.Results.Causality.ComposerTemporalDefinitions.CurrentCalibration.Bound.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ComposerTemporalDefinitions.CurrentCalibration.Bound.Solution",
+  "theorem": "TruthCore.Results.Causality.ComposerTemporalDefinitions.CurrentCalibration.Bound.currentCalibration",
+  "comparator_config": "results/CURRENT-COMPOSER-FROM-ATTRIBUTION/comparator.json",
+  "status": "solution-present",
+  "description": "Calibration transcription: the original independent composer attribution yields the EXACT existing current uniter-efficient premise only under selected-time calibration.",
+  "transcription": "instantiation"
+}

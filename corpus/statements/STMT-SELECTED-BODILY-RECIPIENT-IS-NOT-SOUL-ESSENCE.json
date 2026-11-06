@@ -1,0 +1,14 @@
+{
+  "id": "STMT-SELECTED-BODILY-RECIPIENT-IS-NOT-SOUL-ESSENCE",
+  "paraphrase": "OPEN distinction input: the mapped bodily recipient is not the essence of the SAME selected soul bearer. The whole human essence is not substituted for the soul essence.",
+  "lean_declaration": "TruthCore.Causality.EsseReceptionDefinitionFork.BodyIsNotSoulEssence",
+  "definition_ids": [
+    "DEF-UNITED-ESSE-RECEPTION-INTERPRETATION-PROFILE",
+    "DEF-ESSE-RECEIVED-IN",
+    "DEF-ESSENCE-THOMISTIC-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSE-RECEPTION",
+    "DISAMB-ESSENCE"
+  ]
+}

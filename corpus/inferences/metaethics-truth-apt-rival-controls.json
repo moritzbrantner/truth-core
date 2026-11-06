@@ -1,0 +1,9 @@
+{
+  "id": "INF-METAETHICS-TRUTH-APT-RIVAL-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-METAETHICS-TRUTH-APT-RIVAL-CONTROLS",
+  "rule": "constructive-proof",
+  "meaning": "Export the prior checked empty-moral and neither-answer finite witnesses with the exact overlap/nonexhaustion properties relevant to alternative closure. Does not establish that the abstract predicates are entire philosophical theories.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

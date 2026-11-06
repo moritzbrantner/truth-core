@@ -1,0 +1,42 @@
+{
+  "id": "EP-ROLE-DEFINITION-FORK",
+  "argument_id": "EP-ROLE-DEFINITION-FORK",
+  "challenge_module": "TruthCore.Results.Logic.EpistemicReasonDefinitions.DefinitionFork.Challenge",
+  "solution_module": "TruthCore.Results.Logic.EpistemicReasonDefinitions.DefinitionFork.Solution",
+  "theorem": "TruthCore.Results.Logic.EpistemicReasonDefinitions.DefinitionFork.definitionFork",
+  "comparator_config": "results/EP-ROLE-DEFINITION-FORK/comparator.json",
+  "status": "solution-present",
+  "description": "Logical structural-coverage transcription over the four calibration propositions and their explicit remainder. It does not show named coverage or eliminate an unlisted interpretation.",
+  "transcription": "instantiation",
+  "case_split": {
+    "target_statement_id": "STMT-EPISTEMIC-REASON-DEFINITION-CANDIDATES-COVER",
+    "cases": [
+      {
+        "label": "ordinary role",
+        "lean_declaration": "TruthCore.Logic.EpistemicReasonDefinitionFork.OrdinaryDefinition",
+        "statement_id": "STMT-EPISTEMIC-REASON-ORDINARY-ROLE-DEFINITION"
+      },
+      {
+        "label": "preference-independent role",
+        "lean_declaration": "TruthCore.Logic.EpistemicReasonDefinitionFork.PreferenceIndependentDefinition",
+        "statement_id": "STMT-EPISTEMIC-REASON-PREFERENCE-INDEPENDENT-DEFINITION"
+      },
+      {
+        "label": "bare production",
+        "lean_declaration": "TruthCore.Logic.EpistemicReasonDefinitionFork.ProductionDefinition",
+        "statement_id": "STMT-EPISTEMIC-REASON-BARE-PRODUCTION-DEFINITION"
+      },
+      {
+        "label": "bare reward",
+        "lean_declaration": "TruthCore.Logic.EpistemicReasonDefinitionFork.RewardDefinition",
+        "statement_id": "STMT-EPISTEMIC-REASON-BARE-REWARD-DEFINITION"
+      },
+      {
+        "label": "remaining interpretation",
+        "lean_declaration": "TruthCore.Logic.EpistemicReasonDefinitionFork.RemainingDefinition",
+        "statement_id": "STMT-EPISTEMIC-REASON-ADDITIONAL-DEFINITION-REMAINS"
+      }
+    ],
+    "survival_result_id": "EP-ROLE-DEFINITION-BOUNDARIES"
+  }
+}

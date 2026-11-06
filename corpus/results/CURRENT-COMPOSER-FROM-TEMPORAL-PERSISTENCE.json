@@ -1,0 +1,11 @@
+{
+  "id": "CURRENT-COMPOSER-FROM-TEMPORAL-PERSISTENCE",
+  "argument_id": "CURRENT-COMPOSER-FROM-TEMPORAL-PERSISTENCE",
+  "challenge_module": "TruthCore.Results.Causality.ComposerTemporalDefinitions.CurrentTransfer.Bound.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ComposerTemporalDefinitions.CurrentTransfer.Bound.Solution",
+  "theorem": "TruthCore.Results.Causality.ComposerTemporalDefinitions.CurrentTransfer.Bound.currentTransfer",
+  "comparator_config": "results/CURRENT-COMPOSER-FROM-TEMPORAL-PERSISTENCE/comparator.json",
+  "status": "solution-present",
+  "description": "Explicit temporal-transfer transcription: historical efficient activity plus the uniter-restricted persistence premise yields the exact current efficient-uniter premise.",
+  "transcription": "instantiation"
+}

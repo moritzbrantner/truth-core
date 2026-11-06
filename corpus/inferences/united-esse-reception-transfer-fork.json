@@ -1,0 +1,11 @@
+{
+  "id": "INF-UNITED-ESSE-RECEPTION-TRANSFER-FORK",
+  "input_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "output_statement_id": "STMT-UNITED-ESSE-RECEPTION-TRANSFER-FORK",
+  "rule": "constructive-proof",
+  "meaning": "Structural coverage transcription under explicit excluded middle: the universal same-act transfer or a fully specified countertuple. No historical theory roster is exhausted.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

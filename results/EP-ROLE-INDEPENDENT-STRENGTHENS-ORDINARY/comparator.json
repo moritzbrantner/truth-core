@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.EpistemicReasonDefinitions.IndependentStrength.Challenge",
+  "solution_module": "TruthCore.Results.Logic.EpistemicReasonDefinitions.IndependentStrength.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.EpistemicReasonDefinitions.IndependentStrength.independentStrengthensOrdinary"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
