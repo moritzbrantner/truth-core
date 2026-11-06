@@ -1,0 +1,42 @@
+{
+  "id": "CATHOLICISM-FROM-PRIMA-VIA-ADOPTED-POTENCY",
+  "premise_statement_ids": [
+    "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD",
+    "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
+    "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
+    "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+    "STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED",
+    "STMT-NO-INFINITE-PER-SE-MOVER-SERIES",
+    "STMT-FIRST-UNMOVED-MOVER-EXISTS-OR-NOT",
+    "STMT-AT-MOST-ONE-FIRST-UNMOVED-MOVER",
+    "STMT-FIRST-UNMOVED-MOVER-IS-PURE-ACT",
+    "STMT-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD",
+    "STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES",
+    "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE",
+    "STMT-JESUS-CLAIMED-DIVINE-AUTHORITY-AND-ROSE",
+    "STMT-CHRIST-FOUNDED-VISIBLE-CHURCH",
+    "STMT-CHRISTS-CHURCH-IS-THE-CATHOLIC-CHURCH",
+    "STMT-BRIDGE-CHRISTS-CHURCH-FOUNDED-BY-GOD",
+    "STMT-BRIDGE-GOD-FOUNDED-AUTHORITY-PROPOSES-ONLY-TRUTH",
+    "STMT-CATHOLIC-CHURCH-DEFINITIVELY-PROPOSES-CREED",
+    "STMT-CASE-NON-CONTRADICTION"
+  ],
+  "conclusion_statement_id": "STMT-CATHOLICISM-TRUE",
+  "inference_ids": [
+    "INF-CATHOLICISM-FROM-PRIMA-VIA-ADOPTED-POTENCY"
+  ],
+  "meaning": "Adopted-potency specialization of CATHOLICISM-FROM-PRIMA-VIA: uniformly replace the independent InPotency parameter in EVERY hypothesis by CanBe x r \u2227 \u00ac InAct x r, including act priority, motion, immutability, eternity and the attribute-sufficiency interface wherever present. Compose the unchanged verified generic theorem with ADOPTED-POTENCY-NONOVERLAP from established F1. This removes the generic non-overlap premise only in this explicitly adopted configuration. The original Challenge/result and rival interpretations are retained. No capacity existence or applicability-to-reality premise is established.",
+  "definition_ids": [
+    "DEF-CAPACITY-TO-BE",
+    "DEF-CATHOLICISM-TRUE-PHASE-1",
+    "DEF-POTENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOD",
+    "DISAMB-IN-ACT",
+    "DISAMB-POTENCY"
+  ],
+  "strong_version_needed": {
+    "STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED": "This adopted-potency specialization retains the frozen generic root theorem\u2019s strong per-se interface, whose proof imports the absolute first-mover route. The adopted definition supplies non-overlap and does not supply a weakening from the absolute conclusion to a relevant-respect root route. Whether the weak premise suffices for the final root through a different composition remains open; no necessity claim beyond the reused proof is made."
+  }
+}
