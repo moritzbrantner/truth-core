@@ -1,0 +1,11 @@
+{
+  "id": "INSTITUTION-LINK-SUPPLIES-GOVERNING-EVENT-COMPONENT",
+  "argument_id": "INSTITUTION-LINK-SUPPLIES-GOVERNING-EVENT-COMPONENT",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Link.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Link.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.institutionLinkComponent",
+  "comparator_config": "results/INSTITUTION-LINK-SUPPLIES-GOVERNING-EVENT-COMPONENT/comparator.json",
+  "status": "solution-present",
+  "description": "Project only the governing-event institutional consequence needed to confront the message rival. The old teaching component is unnecessary for this target.",
+  "transcription": "assembly"
+}

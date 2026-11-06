@@ -1,0 +1,10 @@
+{
+  "id": "CATHOLICISM-MESSAGE-RIVAL-EXCLUDED-BY-ATTESTATION-WEAK-LINK",
+  "argument_id": "CATHOLICISM-MESSAGE-RIVAL-EXCLUDED-BY-ATTESTATION-WEAK-LINK",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Attestation.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Attestation.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.weakLinkAttestationRejectsMessage",
+  "comparator_config": "results/CATHOLICISM-MESSAGE-RIVAL-EXCLUDED-BY-ATTESTATION-WEAK-LINK/comparator.json",
+  "status": "solution-present",
+  "description": "Reuse attestation_gives_governing and the weak governing-event link to exclude the message rival whenever an actual mandate/founded-visible-body antecedent holds. The old institutional teaching component is unnecessary; original Challenge retained as a legacy interface."
+}
