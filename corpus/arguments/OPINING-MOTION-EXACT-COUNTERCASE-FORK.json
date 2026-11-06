@@ -1,0 +1,21 @@
+{
+  "id": "OPINING-MOTION-EXACT-COUNTERCASE-FORK",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-OPINING-MOTION-NORM-OR-EXACT-COUNTERTUPLE",
+  "inference_ids": [
+    "INF-OPINING-MOTION-EXACT-COUNTERCASE-FORK"
+  ],
+  "meaning": "Checked structural universal-or-actual-countertuple coverage under explicit excluded middle. A finite list containing only the stronger global-no-motion account is not used as exhaustive.",
+  "definition_ids": [
+    "DEF-OPINING-MOTION-EXACT-COUNTERTUPLE",
+    "DEF-OPINING",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION",
+    "DISAMB-CHANGE-A-SERIES"
+  ]
+}

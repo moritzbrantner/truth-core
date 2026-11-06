@@ -1,0 +1,15 @@
+{
+  "id": "STMT-OPINING-MOTION-NORM-OR-EXACT-COUNTERTUPLE",
+  "paraphrase": "The original every-opiner designated-motion norm or an actual opinion/nonmotion countertuple in the SAME respect. Explicit-EM structural coverage, not an exhaustive list of historical skeptical theories.",
+  "lean_declaration": "TruthCore.Alternatives.OpiningMotionRivalCoverage.OpinionMotionFork",
+  "definition_ids": [
+    "DEF-OPINING-MOTION-EXACT-COUNTERTUPLE",
+    "DEF-OPINING",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION",
+    "DISAMB-CHANGE-A-SERIES"
+  ]
+}

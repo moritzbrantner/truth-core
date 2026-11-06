@@ -1,0 +1,14 @@
+{
+  "id": "STMT-COMPLETE-ARRANGEMENT-SELECTION-REQUIREMENT-FAILS",
+  "paraphrase": "Exact negation of the old CompleteRequiresSelection on the SAME arrangement and supplied adequacy judgment. A false accepted candidate and a truthful nonselecting accepted candidate are distinct ways it can fail.",
+  "lean_declaration": "TruthCore.Explanation.SelectionCoverageBoundary.SelectionFails",
+  "definition_ids": [
+    "DEF-ACCEPTED-EXPLANATION-TRUTHFULNESS-POLICY",
+    "DEF-LABELED-CHAIN-ARRANGEMENT",
+    "DEF-ARRANGEMENT-ENTAILING-SELECTION",
+    "DEF-HISTORY-SELECTION-INFORMATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-LABELED-ORDER-EXPLANATION"
+  ]
+}

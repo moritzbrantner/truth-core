@@ -1,0 +1,12 @@
+{
+  "id": "INF-THEOLOGICAL-EXCLUSION-SUPPLIES-NEVER-OWN-DEFINITIONS",
+  "input_statement_ids": [
+    "STMT-CONCILIAR-DEFINITIONS-ARE-THEOLOGICAL",
+    "STMT-THEOLOGY-EXCLUDED-FROM-OWN-STANDARDS"
+  ],
+  "output_statement_id": "STMT-CONCILIAR-DEFINITIONS-NEVER-OWN-STANDARD",
+  "rule": "constructive-proof",
+  "meaning": "Apply the explicit exclusion to the theological content of each defined move. Single-application transcription of the open exclusion; the descriptive content premise alone does not supply it.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

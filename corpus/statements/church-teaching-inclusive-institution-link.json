@@ -1,0 +1,19 @@
+{
+  "id": "STMT-CHURCH-TEACHING-INCLUSIVE-INSTITUTION-LINK",
+  "paraphrase": "Open fixed broader institutional bridge, with governing powers exactly the old narrow table plus teaching. It includes the old narrow bridge but adds the institutional consequence for teaching; the old bridge does not imply this stronger one.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.CommissionDefinitions.TeachingInclusiveInstitutionLink",
+  "definition_ids": [
+    "DEF-COMMISSION-GOVERNANCE-CALIBRATION",
+    "DEF-TEACHING-INCLUSIVE-GOVERNING-POWER",
+    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
+    "DEF-COMMISSION-REPORT-POWERS",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMMISSION-GOVERNANCE-CRITERIA",
+    "DISAMB-COMMISSION-REPORT-AND-EVENT",
+    "DISAMB-FOUNDED-BY-GOD",
+    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS"
+  ]
+}

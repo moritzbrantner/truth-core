@@ -1,0 +1,8 @@
+{
+  "id": "DEF-TLP-PROFILE-NO-DIVINE-SENSE",
+  "term": "profile-relative denial of divine or higher sense",
+  "definition": "Every meaningful content is neither about God nor about the higher in this one semantic profile. An analyst sibling of the traditional-reading reconstruction, not a new attribution to the Tractatus or a source-to-profile identity.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.NaturalTheologySemanticScope.NoMeaningfulDivine",
+  "note": "Analyst scope/compatibility boundary; attribution deferred. See docs/notes/semantic-rival-scope.md."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "STMT-DEFINED-MOVE-EXISTS",
+  "paraphrase": "An actual move is defined by the selected practice council. No natural-knowability content, endorsement or correctness is asserted. This weak nonempty witness suffices to confront incompatible definition-status profiles.",
+  "lean_declaration": "TruthCore.Alternatives.ConciliarGrammarDefinitions.DefinedMoveExists",
+  "definition_ids": [
+    "DEF-THEOLOGICAL-CONTENT-AND-RELIGIOUS-LIFE-ROLES",
+    "DEF-CONCILIAR-DEFINITION",
+    "DEF-PRACTICE-OWN-STANDARD",
+    "DEF-CORRECT-MOVE-IN-PRACTICE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THEOLOGICAL-FORMULATION-AND-NORMATIVE-GRAMMAR"
+  ]
+}

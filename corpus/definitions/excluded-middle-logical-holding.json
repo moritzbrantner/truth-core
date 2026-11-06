@@ -1,0 +1,8 @@
+{
+  "id": "DEF-EXCLUDED-MIDDLE-LOGICAL-HOLDING",
+  "term": "excluded middle as logical holding",
+  "definition": "Every Lean proposition p has p or not-p. This is not a stage-indexed assertion, known-proof or source-language validity predicate.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.ExcludedMiddle",
+  "note": "Analyst scope clarification of existing vocabulary; source claims untouched. See docs/notes/excluded-middle-assertion-boundary.md."
+}

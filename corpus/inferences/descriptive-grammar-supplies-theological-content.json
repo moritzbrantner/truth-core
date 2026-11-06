@@ -1,0 +1,11 @@
+{
+  "id": "INF-DESCRIPTIVE-GRAMMAR-SUPPLIES-THEOLOGICAL-CONTENT",
+  "input_statement_ids": [
+    "STMT-DESCRIPTIVE-THEOLOGY-AND-RELIGIOUS-GRAMMAR"
+  ],
+  "output_statement_id": "STMT-CONCILIAR-DEFINITIONS-ARE-THEOLOGICAL",
+  "rule": "constructive-proof",
+  "meaning": "Project the theological-content component of the modest descriptive profile. Assembly transcription/sole-premise strength; the normative exclusion is still separate.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

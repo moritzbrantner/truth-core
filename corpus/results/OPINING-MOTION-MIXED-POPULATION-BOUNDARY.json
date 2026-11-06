@@ -1,0 +1,10 @@
+{
+  "id": "OPINING-MOTION-MIXED-POPULATION-BOUNDARY",
+  "argument_id": "OPINING-MOTION-MIXED-POPULATION-BOUNDARY",
+  "challenge_module": "TruthCore.Results.Alternatives.OpiningMotionRivalCoverage.Controls.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.OpiningMotionRivalCoverage.Controls.Solution",
+  "theorem": "TruthCore.Results.Alternatives.OpiningMotionRivalCoverage.Controls.controls",
+  "comparator_config": "results/OPINING-MOTION-MIXED-POPULATION-BOUNDARY/comparator.json",
+  "status": "solution-present",
+  "description": "Exact populated mixed interpretation exports a stationary opiner, distinct moved being, opinion/nonmotion countertuple, norm failure and failure of the strong raw rival. It tests logical scope only, not actual cognition or physical/metaphysical realizability."
+}

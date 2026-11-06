@@ -1,0 +1,14 @@
+{
+  "id": "STMT-CHRIST-FOUNDED-SELECTED-CHURCH",
+  "paraphrase": "Jesus founded at least one society satisfying the selected Church predicate. This explicit historical witness does not itself assert visibility, spiritual communion or Catholic identity.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.ChurchDefinitions.ChristFoundedSelectedChurch",
+  "definition_ids": [
+    "DEF-CHURCH-CRITERION-CALIBRATION",
+    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY",
+    "DEF-CHURCH-SPIRITUAL-COMMUNITY",
+    "DEF-SKELETON-OPEN-PREDICATES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS"
+  ]
+}

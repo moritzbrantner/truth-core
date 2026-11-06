@@ -1,0 +1,12 @@
+{
+  "id": "TRUTH-ACCOUNT-COMPATIBILITY",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-TRUTH-ACCOUNT-COMPATIBILITY",
+  "inference_ids": [
+    "INF-TRUTH-ACCOUNT-COMPATIBILITY"
+  ],
+  "meaning": "Compose the entire earlier checked intuitionist-framework witness with explicit signed thought-composition semantics and four populated signed verdicts. The old raw account is not logical negation of the other, even under this shared interpretation.",
+  "definition_ids": [
+    "DEF-SIGNED-THOUGHT-TRUTH-PROFILE"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NATURAL-THEOLOGY-SEMANTIC-PROFILE",
+  "term": "natural-theology semantic and argument profile",
+  "definition": "An analyst profile supplies meaning/divine-subject predicates and a domain of candidate argument presentations, with target, listed premises, admission and world-premise criteria, an independent warrant criterion, and a selected standard. Formal consequence uses existing Language.Entails; finite observation uses observation premises, satisfiability and entailment. Warrant, actual premise truth, roster completeness and source interpretation are not inferred from these labels.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.NaturalTheologySemanticScope.Profile",
+  "note": "Analyst scope/compatibility boundary; attribution deferred. See docs/notes/semantic-rival-scope.md."
+}

@@ -1,0 +1,21 @@
+{
+  "id": "THEOLOGICAL-EXCLUSION-SUPPLIES-NEVER-OWN-DEFINITIONS",
+  "premise_statement_ids": [
+    "STMT-CONCILIAR-DEFINITIONS-ARE-THEOLOGICAL",
+    "STMT-THEOLOGY-EXCLUDED-FROM-OWN-STANDARDS"
+  ],
+  "conclusion_statement_id": "STMT-CONCILIAR-DEFINITIONS-NEVER-OWN-STANDARD",
+  "inference_ids": [
+    "INF-THEOLOGICAL-EXCLUSION-SUPPLIES-NEVER-OWN-DEFINITIONS"
+  ],
+  "meaning": "Apply the explicit exclusion to the theological content of each defined move. Single-application transcription of the open exclusion; the descriptive content premise alone does not supply it.",
+  "definition_ids": [
+    "DEF-THEOLOGICAL-CONTENT-AND-RELIGIOUS-LIFE-ROLES",
+    "DEF-CONCILIAR-DEFINITION",
+    "DEF-PRACTICE-OWN-STANDARD",
+    "DEF-CORRECT-MOVE-IN-PRACTICE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THEOLOGICAL-FORMULATION-AND-NORMATIVE-GRAMMAR"
+  ]
+}

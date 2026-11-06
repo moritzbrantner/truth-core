@@ -1,0 +1,37 @@
+{
+  "id": "CHURCH-DEFINITION-CASES-WITH-REMAINDER",
+  "argument_id": "CHURCH-DEFINITION-CASES-WITH-REMAINDER",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.ChurchDefinitions.Coverage.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.ChurchDefinitions.Coverage.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.ChurchDefinitions.Coverage.criterionCoverage",
+  "comparator_config": "results/CHURCH-DEFINITION-CASES-WITH-REMAINDER/comparator.json",
+  "status": "solution-present",
+  "description": "Three explicit EM instances check visible, spiritual, joint-aspect or neither-named-extension coverage. Named coverage is not proved and exclusivity is not claimed.",
+  "transcription": "instantiation",
+  "case_split": {
+    "target_statement_id": "STMT-CHURCH-HAS-JOINT-ASPECT-CRITERION",
+    "cases": [
+      {
+        "label": "visible criterion",
+        "lean_declaration": "TruthCore.Case.Catholicism.StageThree.ChurchDefinitions.VisibleCriterion",
+        "statement_id": "STMT-CHURCH-HAS-VISIBLE-CRITERION"
+      },
+      {
+        "label": "spiritual criterion",
+        "lean_declaration": "TruthCore.Case.Catholicism.StageThree.ChurchDefinitions.SpiritualCriterion",
+        "statement_id": "STMT-CHURCH-HAS-SPIRITUAL-CRITERION"
+      },
+      {
+        "label": "joint-aspect criterion",
+        "lean_declaration": "TruthCore.Case.Catholicism.StageThree.ChurchDefinitions.JointAspectCriterion",
+        "statement_id": "STMT-CHURCH-HAS-JOINT-ASPECT-CRITERION"
+      },
+      {
+        "label": "additional Church extension",
+        "lean_declaration": "TruthCore.Case.Catholicism.StageThree.ChurchDefinitions.AdditionalChurchCriterion",
+        "statement_id": "STMT-CHURCH-HAS-ADDITIONAL-CRITERION"
+      }
+    ],
+    "survival_result_id": "CHURCH-DEFINITION-INTERPRETATION-MODELS"
+  }
+}

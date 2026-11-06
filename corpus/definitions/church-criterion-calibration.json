@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CHURCH-CRITERION-CALIBRATION",
+  "term": "selected Church criterion calibration",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.ChurchDefinitions.JointAspectCriterion",
+  "definition": "A selected Church predicate and a spiritual-community predicate apply to the same Root.Signature Society objects. VisibleCriterion compares Church extension to the existing VisibleWithAuthority predicate; SpiritualCriterion compares it to the selected spiritual extension; JointAspectCriterion compares it to their intersection. These criteria need not be exclusive. A separate ChristFoundedSelectedChurch proposition supplies the historical founding witness.",
+  "note": "Analyst framework with attribution deferred. Ordinary communities can have visible offices and inward fellowship; one description alone does not decide the other. This does not reconstruct membership, sacraments, jurisdiction or a full historical theory of Church. Existing sourced definitions remain source readings; no universal biconditional is attributed to Lumen gentium. NamedChurchCoverage is an open first-class profile-coverage hypothesis. AdditionalChurchCriterion is a genuinely different extension and may admit or deny the stage-5 visible-founded-society target; it is a rival only to named coverage. Local bodies and the Catholic universal body are not identified, and no stage-6 identity is implied."
+}

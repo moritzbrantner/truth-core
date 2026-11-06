@@ -1,0 +1,11 @@
+{
+  "id": "COMMISSION-REPORT-BUNDLE-SUPPLIES-MATTHEW28",
+  "argument_id": "COMMISSION-REPORT-BUNDLE-SUPPLIES-MATTHEW28",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Witness.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Witness.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Witness.reportsSupplyMatthew28",
+  "comparator_config": "results/COMMISSION-REPORT-BUNDLE-SUPPLIES-MATTHEW28/comparator.json",
+  "status": "solution-present",
+  "description": "Project the weaker Matthew 28 historical commission from the existing report-to-event bundle. Assembly transcription; no actual event is derived from the literal textual report.",
+  "transcription": "assembly"
+}

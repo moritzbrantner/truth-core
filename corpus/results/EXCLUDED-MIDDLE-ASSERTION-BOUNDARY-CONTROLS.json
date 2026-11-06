@@ -1,0 +1,10 @@
+{
+  "id": "EXCLUDED-MIDDLE-ASSERTION-BOUNDARY-CONTROLS",
+  "argument_id": "EXCLUDED-MIDDLE-ASSERTION-BOUNDARY-CONTROLS",
+  "challenge_module": "TruthCore.Results.Logic.ExcludedMiddleAssertionBoundary.Controls.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ExcludedMiddleAssertionBoundary.Controls.Solution",
+  "theorem": "TruthCore.Results.Logic.ExcludedMiddleAssertionBoundary.Controls.controls",
+  "comparator_config": "results/EXCLUDED-MIDDLE-ASSERTION-BOUNDARY-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Construct exact marker controls, reusing the checked constructive irrefutability theorem. Object-level EM is retained explicitly as an input to the coexistence model. The markers are not a complete intuitionist or epistemic semantics."
+}

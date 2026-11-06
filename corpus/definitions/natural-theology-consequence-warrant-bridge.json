@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NATURAL-THEOLOGY-CONSEQUENCE-WARRANT-BRIDGE",
+  "term": "formal consequence to warrant bridge",
+  "definition": "Every admitted formally valid candidate meets the independently supplied warrant criterion. Explicit OPEN bridge: formal validity does not itself supply warrant or world-grounded premises. The finite control negates this bridge only in its stipulated profile, not as a general epistemological impossibility.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.NaturalTheologySemanticScope.ConsequenceWarrantBridge",
+  "note": "Analyst scope/compatibility boundary; attribution deferred. See docs/notes/semantic-rival-scope.md."
+}

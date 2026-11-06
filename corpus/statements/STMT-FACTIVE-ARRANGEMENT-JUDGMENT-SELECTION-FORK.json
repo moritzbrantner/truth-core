@@ -1,0 +1,14 @@
+{
+  "id": "STMT-FACTIVE-ARRANGEMENT-JUDGMENT-SELECTION-FORK",
+  "paraphrase": "Complete entailing selection or an accepted truthful nonselecting candidate on the SAME profile. The checked coverage theorem requires explicit accepted-candidate factivity and excluded middle; no such factivity is hidden in generic adequate.",
+  "lean_declaration": "TruthCore.Explanation.SelectionCoverageBoundary.FactiveSelectionFork",
+  "definition_ids": [
+    "DEF-ACCEPTED-EXPLANATION-TRUTHFULNESS-POLICY",
+    "DEF-LABELED-CHAIN-ARRANGEMENT",
+    "DEF-ARRANGEMENT-ENTAILING-SELECTION",
+    "DEF-HISTORY-SELECTION-INFORMATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-LABELED-ORDER-EXPLANATION"
+  ]
+}

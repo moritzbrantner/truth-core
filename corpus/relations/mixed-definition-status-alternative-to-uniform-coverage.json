@@ -1,0 +1,9 @@
+{
+  "id": "REL-MIXED-DEFINITION-STATUS-ALTERNATIVE-TO-UNIFORM-COVERAGE",
+  "subject_kind": "statement",
+  "subject_id": "STMT-CONCILIAR-DEFINITION-STATUS-MIXED",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-CONCILIAR-NAMED-DEFINITION-STATUS-COVERAGE",
+  "note": "Actual endorsed and nonendorsed defined witnesses exclude both uniform status profiles. This opposes named uniform coverage, not theology, authority, ordinary religious life or a whole worldview."
+}

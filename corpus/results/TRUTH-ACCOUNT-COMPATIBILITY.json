@@ -1,0 +1,10 @@
+{
+  "id": "TRUTH-ACCOUNT-COMPATIBILITY",
+  "argument_id": "TRUTH-ACCOUNT-COMPATIBILITY",
+  "challenge_module": "TruthCore.Results.Logic.TruthAccountCompatibility.Compatibility.Challenge",
+  "solution_module": "TruthCore.Results.Logic.TruthAccountCompatibility.Compatibility.Solution",
+  "theorem": "TruthCore.Results.Logic.TruthAccountCompatibility.Compatibility.jointEncodedAccounts",
+  "comparator_config": "results/TRUTH-ACCOUNT-COMPATIBILITY/comparator.json",
+  "status": "solution-present",
+  "description": "Compose the entire earlier checked intuitionist-framework witness with explicit signed thought-composition semantics and four populated signed verdicts. The old raw account is not logical negation of the other, even under this shared interpretation."
+}

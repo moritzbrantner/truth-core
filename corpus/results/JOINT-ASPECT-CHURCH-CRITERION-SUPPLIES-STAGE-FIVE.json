@@ -1,0 +1,11 @@
+{
+  "id": "JOINT-ASPECT-CHURCH-CRITERION-SUPPLIES-STAGE-FIVE",
+  "argument_id": "JOINT-ASPECT-CHURCH-CRITERION-SUPPLIES-STAGE-FIVE",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.ChurchDefinitions.Joint.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.ChurchDefinitions.Joint.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.ChurchDefinitions.Joint.jointCriterionSuppliesStageFive",
+  "comparator_config": "results/JOINT-ASPECT-CHURCH-CRITERION-SUPPLIES-STAGE-FIVE/comparator.json",
+  "status": "solution-present",
+  "description": "Definition-projection transcription: the selected founded Church witness has both aspects by the joint calibration, so that same society satisfies the old visible criterion. No second body or Catholic identity is substituted.",
+  "transcription": "assembly"
+}

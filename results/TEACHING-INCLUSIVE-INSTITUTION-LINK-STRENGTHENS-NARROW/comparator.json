@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Strength.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Strength.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Strength.teachingLinkSuppliesNarrowLink"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
