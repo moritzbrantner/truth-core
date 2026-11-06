@@ -1,0 +1,32 @@
+{
+  "id": "PRIMITIVE-ETERNITY-DEFINITION-FORK",
+  "argument_id": "PRIMITIVE-ETERNITY-DEFINITION-FORK",
+  "challenge_module": "TruthCore.Results.Causality.EternityDefinitions.Coverage.Challenge",
+  "solution_module": "TruthCore.Results.Causality.EternityDefinitions.Coverage.Solution",
+  "theorem": "TruthCore.Results.Causality.EternityDefinitions.Coverage.coverage",
+  "comparator_config": "results/PRIMITIVE-ETERNITY-DEFINITION-FORK/comparator.json",
+  "status": "solution-present",
+  "description": "Structural coverage transcription under explicit excluded middle: named calibrations cover or both fail. Philosophical named coverage remains OPEN.",
+  "transcription": "instantiation",
+  "case_split": {
+    "target_statement_id": "STMT-PRIMITIVE-ETERNITY-BOETHIAN-DEFINITION",
+    "cases": [
+      {
+        "label": "operational Boethian calibration",
+        "statement_id": "STMT-PRIMITIVE-ETERNITY-BOETHIAN-DEFINITION",
+        "lean_declaration": "TruthCore.Causality.EternityDefinitionFork.BoethianDefinition"
+      },
+      {
+        "label": "endless life with succession permitted",
+        "statement_id": "STMT-PRIMITIVE-ETERNITY-ENDLESS-LIFE-DEFINITION",
+        "lean_declaration": "TruthCore.Causality.EternityDefinitionFork.EndlessDefinition"
+      },
+      {
+        "label": "additional calibration",
+        "statement_id": "STMT-PRIMITIVE-ETERNITY-ADDITIONAL-DEFINITION",
+        "lean_declaration": "TruthCore.Causality.EternityDefinitionFork.Other"
+      }
+    ],
+    "survival_result_id": "PRIMITIVE-ETERNITY-DEFINITION-BOUNDARIES"
+  }
+}

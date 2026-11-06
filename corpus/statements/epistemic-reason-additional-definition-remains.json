@@ -1,0 +1,11 @@
+{
+  "id": "STMT-EPISTEMIC-REASON-ADDITIONAL-DEFINITION-REMAINS",
+  "paraphrase": "In the fixed comparison profile, none of the four named calibration propositions describes the attributed reason relation. This is the precise further-interpretation alternative; its actual instantiation is not inferred from failed research.",
+  "lean_declaration": "TruthCore.Logic.EpistemicReasonDefinitionFork.RemainingDefinition",
+  "definition_ids": [
+    "DEF-EPISTEMIC-REASON-DEFINITION-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EPISTEMIC-REASON-EXISTENCE-ROLE-AUTHORITY"
+  ]
+}

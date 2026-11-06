@@ -1,0 +1,11 @@
+{
+  "id": "BOETHIAN-DEFINITION-FROM-NAMED-ETERNITY-COVERAGE",
+  "argument_id": "BOETHIAN-DEFINITION-FROM-NAMED-ETERNITY-COVERAGE",
+  "challenge_module": "TruthCore.Results.Causality.EternityDefinitions.NamedElimination.Challenge",
+  "solution_module": "TruthCore.Results.Causality.EternityDefinitions.NamedElimination.Solution",
+  "theorem": "TruthCore.Results.Causality.EternityDefinitions.NamedElimination.namedElimination",
+  "comparator_config": "results/BOETHIAN-DEFINITION-FROM-NAMED-ETERNITY-COVERAGE/comparator.json",
+  "status": "solution-present",
+  "description": "Exact conditional disjunct elimination; requires named coverage and actual negation of endless calibration, not merely failure to prove the latter.",
+  "transcription": "instantiation"
+}

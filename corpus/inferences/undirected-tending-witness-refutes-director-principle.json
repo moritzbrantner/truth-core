@@ -1,0 +1,11 @@
+{
+  "id": "INF-UNDIRECTED-TENDING-WITNESS-REFUTES-DIRECTOR-PRINCIPLE",
+  "input_statement_ids": [
+    "STMT-UNDIRECTED-NONCOGNITIVE-TENDING-WITNESS"
+  ],
+  "output_statement_id": "STMT-NOT-NONCOGNITIVE-TENDING-DIRECTOR-PRINCIPLE",
+  "rule": "constructive-proof",
+  "meaning": "Specialize the existing universal director principle at the explicit noncognitive tending witness and contradict its absence of a director. Same predicates and end are retained. This rejects no mechanism, source profile or intended reality interpretation.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

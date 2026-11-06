@@ -1,0 +1,10 @@
+{
+  "id": "SUBSISTENT-INFINITY-FROM-IDENTITY-SCOPED-RECEPTION",
+  "argument_id": "SUBSISTENT-INFINITY-FROM-IDENTITY-SCOPED-RECEPTION",
+  "challenge_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.InfinityFromIdentityScope.Challenge",
+  "solution_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.InfinityFromIdentityScope.Solution",
+  "theorem": "TruthCore.Results.Causality.EsseReceptionDefinitions.InfinityFromIdentityScope.infinityFromIdentityScope",
+  "comparator_config": "results/SUBSISTENT-INFINITY-FROM-IDENTITY-SCOPED-RECEPTION/comparator.json",
+  "status": "solution-present",
+  "description": "Compose the unchanged original subsistentBeingIsInfinite theorem over the subtype of SAME bearers whose esse=essence. The old broad own-essence input is replaced by the strictly weaker identity-scoped law; all other original limitation/receptive-potency/irreflexivity/infinity inputs remain explicit. Exact original target, no arbitrary soul-exclusion rule."
+}

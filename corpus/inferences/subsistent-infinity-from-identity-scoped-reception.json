@@ -1,0 +1,15 @@
+{
+  "id": "INF-SUBSISTENT-INFINITY-FROM-IDENTITY-SCOPED-RECEPTION",
+  "input_statement_ids": [
+    "STMT-ESSE-LIMITED-ONLY-THROUGH-RECEPTION",
+    "STMT-IDENTITY-BEARERS-RECEIVE-ESSE-ONLY-IN-OWN-ESSENCE",
+    "STMT-RECEIVER-IN-POTENCY-TO-RECEIVED-ESSE",
+    "STMT-NOTHING-IN-RECEPTIVE-POTENCY-TO-ITSELF",
+    "STMT-UNLIMITED-ESSE-IS-INFINITE"
+  ],
+  "output_statement_id": "STMT-SUBSISTENT-BEING-IS-INFINITE",
+  "rule": "constructive-proof",
+  "meaning": "Compose the unchanged original subsistentBeingIsInfinite theorem over the subtype of SAME bearers whose esse=essence. The old broad own-essence input is replaced by the strictly weaker identity-scoped law; all other original limitation/receptive-potency/irreflexivity/infinity inputs remain explicit. Exact original target, no arbitrary soul-exclusion rule.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
