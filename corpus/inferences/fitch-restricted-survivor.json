@@ -1,0 +1,9 @@
+{
+  "id": "INF-FITCH-RESTRICTED-SURVIVOR",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-FITCH-RESTRICTED-SURVIVOR",
+  "rule": "constructive-proof",
+  "meaning": "Construct the exact four-world interpretation in survivorContext, survivorEpistemic and survivorAtom. Singleton epistemic endpoints with each atom value witness global biconditional knowability of atom-invariant contents; the uncertain actual pair witnesses actual ignorance. Atom invariance excludes its Moore content. Both frames are S5 but E is not a subset of R. The model retains global factivity and conjunct extraction and changes admissibility, not scope or background laws; no unrestricted knowability or real-world applicability is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,12 @@
+{
+  "id": "STMT-FITCH-MOORE-UNKNOWABLE",
+  "paraphrase": "The selected Moore conjunction cannot be known at any world modally accessible from actuality.",
+  "lean_declaration": "TruthCore.Logic.FitchKnowability.MooreUnknowable",
+  "definition_ids": [
+    "DEF-FITCH-WORLD-INDEXED-KNOWLEDGE",
+    "DEF-FITCH-ADMISSIBLE-CONTENTS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FITCH-OPERATOR-SCOPE"
+  ]
+}

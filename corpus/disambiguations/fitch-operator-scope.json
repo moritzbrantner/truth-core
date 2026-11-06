@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-FITCH-OPERATOR-SCOPE",
+  "term": "fixed-agent world-indexed K versus distributed someone/sometime knowledge",
+  "sense_definition_ids": [
+    "DEF-FITCH-WORLD-INDEXED-KNOWLEDGE",
+    "DEF-EPISTEMIC-ALTERNATIVES-KNOWLEDGE",
+    "DEF-CC100-124-KNOWABILITY-KNOWER"
+  ],
+  "resolution": "The generic Context may interpret K in different ways only when its laws are supplied. The survivor uses the existing fixed-agent relational Knows. The CC100-124 possible-someone and contextual/literal actual-someone readings are not identified with that box. Distributed some-agent/sometime K inherits factivity and left-conjunct extraction from each witness when truth refers to the same content/world; it never yields a common agent/time across propositions. No F6 epistemic-reason premise supplies knowability. Modal R and epistemic E remain distinct; the survivor has E not contained in R."
+}

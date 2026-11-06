@@ -1,0 +1,12 @@
+{
+  "id": "STMT-FITCH-RELEVANT-LAWS",
+  "paraphrase": "At every world modally accessible from actuality, knowledge of the selected Moore conjunction is factive and yields knowledge of its left conjunct.",
+  "lean_declaration": "TruthCore.Logic.FitchKnowability.RelevantLaws",
+  "definition_ids": [
+    "DEF-FITCH-WORLD-INDEXED-KNOWLEDGE",
+    "DEF-FITCH-ADMISSIBLE-CONTENTS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FITCH-OPERATOR-SCOPE"
+  ]
+}

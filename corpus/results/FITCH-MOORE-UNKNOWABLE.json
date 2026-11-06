@@ -1,0 +1,10 @@
+{
+  "id": "FITCH-MOORE-UNKNOWABLE",
+  "argument_id": "FITCH-MOORE-UNKNOWABLE",
+  "challenge_module": "TruthCore.Results.Logic.FitchKnowability.Challenge",
+  "solution_module": "TruthCore.Results.Logic.FitchKnowability.Solution",
+  "theorem": "TruthCore.Results.Logic.FitchKnowability.mooreUnknowable",
+  "comparator_config": "results/FITCH-MOORE-UNKNOWABLE/comparator.json",
+  "status": "solution-present",
+  "description": "At a possible knower world, factivity gives the negated knowledge conjunct while left extraction gives its contradictory positive knowledge. Only these instance laws at relevant worlds are required; no necessitation of local assumptions is used."
+}

@@ -1,0 +1,21 @@
+{
+  "id": "FITCH-RESTRICTED-INSTANCE",
+  "premise_statement_ids": [
+    "STMT-FITCH-RESTRICTED-KNOWABILITY",
+    "STMT-FITCH-MOORE-ADMISSIBLE"
+  ],
+  "conclusion_statement_id": "STMT-FITCH-MOORE-INSTANCE",
+  "inference_ids": [
+    "INF-FITCH-RESTRICTED-INSTANCE"
+  ],
+  "meaning": "Instantiate actual restricted knowability at the Moore content using its separately declared admissibility. This is schema specialization, not an independent defense of either assumption.",
+  "definition_ids": [
+    "DEF-FITCH-WORLD-INDEXED-KNOWLEDGE",
+    "DEF-FITCH-ADMISSIBLE-CONTENTS",
+    "DEF-FITCH-RELEVANT-STABILITY",
+    "DEF-EPISTEMIC-ALTERNATIVES-KNOWLEDGE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FITCH-OPERATOR-SCOPE"
+  ]
+}

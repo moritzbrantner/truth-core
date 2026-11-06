@@ -6,8 +6,15 @@
     "STMT-CC100-124-CONTEXTUAL-COMMON-KNOWER-BRIDGE"
   ],
   "date": "2026-11-06",
-  "kind": "reading",
+  "kind": "derivation",
   "outcome": "succeeded",
-  "summary": "Bounded SEP sections2\u20135 logic-first intake and exact declaration/dossier inventory found no checked Fitch/Moore-conjunction consequence for the existing CC100-124 statements. Implementation design and rejected duplicates persist in docs/notes/sep-fitch-knowability-gap-20261106.md: weak accessed-world factivity/extraction core, constructive double-negated knowledge versus explicit stability upgrade, and an unverified four-world S5 survivor of global biconditional knowability restricted to atomic-valuation-invariant contents. No attribution, formal verification, philosophical premise establishment, common-knower conclusion or frontier closure is claimed.",
-  "evidence": []
+  "summary": "Issue #1053 implements the previously bounded SEP intake as analyst formulations: accessed-world Moore-conjunction unknowability; constructive truth-to-double-negated-knowledge; explicit relevant stability upgrade; admissible-domain specialization; global-to-relevant law specialization; exact four-world S5 survivor of globally biconditional knowability for atom-invariant contents, with actual ignorance, no Moore admissibility and E not a subset of R. Exact interpretations, rejected duplicates and remaining bridges persist in docs/notes/sep-fitch-knowability-gap-20261106.md. No source claim, common knower, epistemic-reason-to-knowability bridge, inclusion-minimality, philosophical premise establishment or root closure is inferred.",
+  "evidence": [
+    "FITCH-MOORE-UNKNOWABLE",
+    "FITCH-DOUBLE-NEGATED-KNOWLEDGE",
+    "FITCH-STABILITY-UPGRADE",
+    "FITCH-RESTRICTED-INSTANCE",
+    "FITCH-GLOBAL-LAWS-SPECIALIZE",
+    "FITCH-RESTRICTED-SURVIVOR"
+  ]
 }

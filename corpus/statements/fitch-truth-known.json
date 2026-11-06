@@ -1,0 +1,12 @@
+{
+  "id": "STMT-FITCH-TRUTH-KNOWN",
+  "paraphrase": "If the selected content is actually true, it is known at that actual world; this fixes neither an agent nor a common knower beyond the supplied operator.",
+  "lean_declaration": "TruthCore.Logic.FitchKnowability.TruthKnown",
+  "definition_ids": [
+    "DEF-FITCH-WORLD-INDEXED-KNOWLEDGE",
+    "DEF-FITCH-RELEVANT-STABILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FITCH-OPERATOR-SCOPE"
+  ]
+}

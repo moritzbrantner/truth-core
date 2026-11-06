@@ -1,0 +1,12 @@
+{
+  "id": "STMT-FITCH-DOUBLE-NEGATED-KNOWLEDGE",
+  "paraphrase": "Truth of the selected content at actuality implies double-negated knowledge of that content there.",
+  "lean_declaration": "TruthCore.Logic.FitchKnowability.DoubleNegatedKnowledge",
+  "definition_ids": [
+    "DEF-FITCH-WORLD-INDEXED-KNOWLEDGE",
+    "DEF-FITCH-RELEVANT-STABILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FITCH-OPERATOR-SCOPE"
+  ]
+}

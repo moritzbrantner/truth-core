@@ -150,8 +150,45 @@ adequate syntax or account of human discovery.
    extraction and even S5, retains restricted global knowability, and rejects
    Moore admissibility. No primitive premise or root obligation is discharged.
 
-This intake is unverified proof design. Next step is owner/coordinator selection
-and Lean implementation, followed by normal build/binding/axiom/Comparator/NanoDa
-checks; no verifier preparation, service operation or full build was performed.
+The intake above preceded implementation. Issue #1053 selected this cluster;
+the implemented declarations and exact proof boundaries are recorded below.
 Convention resolution sourceRevision:
 `625cb04ca568aebc8d45c90033e107a05e9bd2a0`.
+
+
+## Selected implementation (#1053)
+
+The vocabulary is `TruthCore.Logic.FitchKnowability`; all six checked results
+are in `TruthCore.Results.Logic.FitchKnowability.Solution`. The weak core is
+`RelevantLaws`, not `GlobalLaws`; `relevantFromGlobal` explicitly records the
+strong-to-weak implication. `mooreUnknowable` applies factivity and extraction
+at the possible knower. `doubleNegatedKnowledge` composes that obstruction
+with `MooreInstance`. `stabilityUpgrade` separately consumes
+`KnowledgeStable`; it does not use ambient classical DNE. `restrictedInstance`
+requires both `RestrictedKnowability` and `MooreAdmissible`. No inclusion-
+minimality, intuitionistic countermodel or proof of either open premise is
+advertised. The constructive theorem can be read as exclusion of the selected
+actual unknown truth; it does not replace double-negated knowledge by knowledge.
+
+`restrictedSurvivor` certifies the exact named `survivorEpistemic`,
+`survivorModal`, `survivorContext` and `survivorAtom`. Both frames are reflexive,
+symmetric and transitive. The result includes full global factivity and
+conjunct extraction, Boolean closure of `AtomInvariant survivorAtom`, inclusion
+of the atom itself, global biconditional restricted knowability, actual
+ignorance, failure of Moore admissibility, and failure of E-subset-R. Thus the
+rival keeps the epistemic laws, scope and selected content fixed while excluding
+the Moore content from the knowability domain. In particular, this witness does
+not answer what happens if epistemic alternatives are additionally required to
+be modally possible: that is an OPEN compatibility extension, not an omitted
+property that can be silently ascribed to the model.
+
+All formulations are analyst statements with attribution deferred. Existing
+CC100-124 source readings are unchanged. The generic K result extends to a
+some-agent/sometime interpretation only if factivity and conjunct extraction
+are supplied at each relevant world for that same content. The concrete
+survivor is fixed-agent relational knowledge. No common witness across contents,
+God, actual epistemic authority or root truth follows. F6 epistemic-reason
+existence is unchanged. The independent questions of adequate admissibility,
+humanly possible inquiry, actuality/time indexing and applicability to reality
+remain OPEN; their blockers are semantic/formalization choices rather than
+missing source acquisition.
