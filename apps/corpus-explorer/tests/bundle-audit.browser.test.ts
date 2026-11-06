@@ -76,11 +76,13 @@ test("complete specialization and consumers expose same-witness and identity bou
   for (const id of ["CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-ALL", "CATHOLICISM-STAGES-ONE-TWO-Q11-NATURE", "CATHOLICISM-QUARTA-VIA-CLASSICAL-WITNESS", "CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-IDENTITY"]) {
     await page.goto(`${base}results/${id}/#bundle-audit`);
     const panel = page.getByRole("region", { name: "Bounded bundle audit", exact: true });
-    expect(await panel.locator("[data-audit-coverage]").innerText()).toContain("149 record dispositions");
+    expect(await panel.locator("[data-audit-coverage]").innerText()).toContain("151 record dispositions");
     expect(await panel.innerText()).toContain("DecidableEq Principle");
     expect(await panel.innerText()).toContain("same witness");
     expect(await panel.innerText()).toContain("Q11-NATURE");
     await panel.locator("[data-audit-records] > summary").click();
+    expect(await panel.getByRole("link", { name: "DEF-INDEPENDENT-POTENCY", exact: true }).count()).toBe(1);
+    expect(await panel.getByRole("link", { name: "DISAMB-POTENCY", exact: true }).count()).toBe(1);
     const immutable = panel.locator("li").filter({ has: page.locator("a", { hasText: "STMT-GOD-IS-IMMUTABLE" }) });
     expect(await immutable.innerText()).toContain("IsImmutable InPotency");
     expect(await immutable.innerText()).toContain("same Respect");
@@ -119,12 +121,14 @@ test("naming route exposes one-way applications, witness identity and explicit e
   for (const id of ids) {
     await page.goto(`${base}results/${id}/#bundle-audit`);
     const panel = page.getByRole("region", { name: "Bounded bundle audit", exact: true });
-    expect(await panel.locator("[data-audit-coverage]").innerText()).toContain("161 record dispositions");
+    expect(await panel.locator("[data-audit-coverage]").innerText()).toContain("163 record dispositions");
     expect(await panel.innerText()).toContain("DecidableEq Principle");
     expect(await panel.innerText()).toContain("FirstUnmovedMoverExistsOrNot");
     expect(await panel.innerText()).toContain("same witness");
     expect(await panel.innerText()).toContain("one-way");
     await panel.locator("[data-audit-records] > summary").click();
+    expect(await panel.getByRole("link", { name: "DEF-INDEPENDENT-POTENCY", exact: true }).count()).toBe(1);
+    expect(await panel.getByRole("link", { name: "DISAMB-POTENCY", exact: true }).count()).toBe(1);
     const bridge = panel.locator("li").filter({ has: page.locator("a", { hasText: "STMT-FIRST-UNMOVED-MOVER-IS-MAXIME-ENS" }) });
     expect(await bridge.innerText()).toContain("Every first mover");
   }
