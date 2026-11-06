@@ -142,8 +142,14 @@ kalam premise. It is an efficient cause, not a PSR reason
 | `CAUSED-UNIVERSE-REFUTES-N3-INTERACTION` | the whole satisfies the thesis `STMT-SPACETIME-WHOLE-SATISFIES-THESIS` | N3i |
 
 Each refutation rests on U, the whole-to-part bridge, no self-causation,
-thesis containment and the extra premise in its row. Equivalently, each variant
-with those premises commits its holder to an uncaused universe: **N ⊢ ¬U**.
+thesis containment and the extra premise in its row. Equivalently, each variant, with the other premises in its refutation
+(excluding U), entails that the universe has **no existing cause**: **N ⊢ ¬U**.
+This is weaker than `STMT-UNIVERSE-UNCAUSED`, which excludes every causal
+edge into the whole. The `Ontic` vocabulary does not require causal endpoints
+to exist; even the N2 concreteness floor item supplies concreteness, not
+existence. To infer the stronger uncaused-universe position from ¬U would
+require an additional causal-endpoint existence premise. The survivor below
+separately witnesses that stronger position.
 
 **Status: conditional, not counted.**
 
