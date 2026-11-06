@@ -1,0 +1,9 @@
+{
+  "id": "REL-UNIVERSE-NO-EXISTING-CAUSE-EXACT-ALTERNATIVE",
+  "subject_kind": "statement",
+  "subject_id": "STMT-SPACETIME-WHOLE-HAS-NO-EXISTING-CAUSE",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-UNIVERSE-HAS-EXISTING-CAUSE",
+  "note": "Exact matching-scope unrefuted negative, not a presumed complete list of historical accounts."
+}

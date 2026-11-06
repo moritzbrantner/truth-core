@@ -14,7 +14,11 @@
     "DEF-POTENCY",
     "DEF-RESPECT"
   ],
-  "disambiguation_ids": ["DISAMB-POTENCY",
+  "disambiguation_ids": [
+    "DISAMB-POTENCY",
     "DISAMB-IN-ACT"
-  ]
+  ],
+  "strong_version_needed": {
+    "STMT-POTENCY-IS-UNACTUALIZED-CAPACITY": "The frozen original conclusion excludes simultaneous act/potency at ALL tuples, including unmoved ones. The new moved-tuple-only weak analysis leaves such tuples unconstrained and cannot replace this input in that result. This preserves the old interface, not a claim that the full biconditional is logically minimal: its unrestricted forward direction would suffice, while the present rival bridge needs only the moved-tuple direction."
+  }
 }

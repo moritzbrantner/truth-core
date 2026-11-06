@@ -1,0 +1,11 @@
+{
+  "id": "INF-FURTHER-CAUSAL-COUNTERACCOUNT-TO-SELECTED-COUNTERCASE",
+  "input_statement_ids": [
+    "STMT-FURTHER-RELEVANT-ABSTRACT-CAUSAL-COUNTERACCOUNT"
+  ],
+  "output_statement_id": "STMT-SELECTED-NO-ESSE-CAUSAL-COUNTERCASE",
+  "rule": "constructive-proof",
+  "meaning": "Projection transcription: the precise relevant remainder carries an actual selected countercase, connecting it through the explicit calibration to the exact old commitment negation.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

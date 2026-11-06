@@ -1,0 +1,11 @@
+{
+  "id": "REVELATION-RECOGNITION-BRIDGE-CASES",
+  "argument_id": "REVELATION-RECOGNITION-BRIDGE-CASES",
+  "challenge_module": "TruthCore.Results.Alternatives.RevelationRecognition.Coverage.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.RevelationRecognition.Coverage.Solution",
+  "theorem": "TruthCore.Results.Alternatives.RevelationRecognition.Coverage.bridgeCoverage",
+  "comparator_config": "results/REVELATION-RECOGNITION-BRIDGE-CASES/comparator.json",
+  "status": "solution-present",
+  "description": "Explicit EM separates successful admitted realization/sharedness from failure of either bridge. No named philosophical definition, bridge adequacy or exhaustive real-possibility domain is established.",
+  "transcription": "instantiation"
+}

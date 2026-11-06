@@ -7,6 +7,7 @@ public import TruthCore.Logic.CaseNonContradiction
 public import TruthCore.Logic.CogitoConcrete
 public import TruthCore.Logic.CogitoEsse
 public import TruthCore.Logic.CogitoSubject
+public import TruthCore.Logic.CollectivePossibilityRouteBoundary
 public import TruthCore.Logic.Configuration
 public import TruthCore.Logic.ContrastiveWorldview
 public import TruthCore.Logic.CorrectionCriterion
@@ -43,6 +44,7 @@ public import TruthCore.Logic.Strength.Cause
 public import TruthCore.Logic.Strength.Order
 public import TruthCore.Logic.Strength.UniqueExistence
 public import TruthCore.Logic.StrengthComparison
+public import TruthCore.Logic.TemporalPastCoverage
 public import TruthCore.Logic.ThoughtChangeSubject
 public import TruthCore.Logic.ThresholdBelief
 public import TruthCore.Logic.TranscendentalPractice

@@ -1,0 +1,11 @@
+{
+  "id": "INF-OCCASIONALIST-CANDIDATE-ENVELOPE-TO-ACTUAL-COUNTERTUPLE",
+  "input_statement_ids": [
+    "STMT-MOVED-WITHOUT-POTENCY"
+  ],
+  "output_statement_id": "STMT-ACTUAL-MOVED-NOT-POTENT-COUNTERTUPLE",
+  "rule": "constructive-proof",
+  "meaning": "Projection transcription of only the existing candidate Lean envelope into the precise analyst countertuple. The old source/candidate paraphrase includes a re-creation story not encoded by that envelope; no reverse implication or derivation of the full historical view is claimed.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

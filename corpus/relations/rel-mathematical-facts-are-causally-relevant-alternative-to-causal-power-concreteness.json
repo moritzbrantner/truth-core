@@ -2,8 +2,8 @@
   "id": "REL-MATHEMATICAL-FACTS-ARE-CAUSALLY-RELEVANT-ALTERNATIVE-TO-CAUSAL-POWER-CONCRETENESS",
   "subject_kind": "statement",
   "subject_id": "STMT-MATHEMATICAL-FACTS-ARE-CAUSALLY-RELEVANT",
-  "predicate": "alternative_to",
+  "predicate": "attacks",
   "object_kind": "statement",
   "object_id": "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS",
-  "note": "Causal reading of Baker's cicada case; the explanatory reading is compatible with the weak version."
+  "note": "Causal reading of Baker's cicada case; the explanatory reading is compatible with the weak version. Definition audit: retained as a full-strength semantic objection. Automatic opposition requires productive/no-esse and SAME-selected-world interfaces; those are now explicit sibling propositions and checked arguments. The exact selected-profile negative is the formal alternative. See docs/notes/causal-concrete-rival-boundary.md."
 }

@@ -1,0 +1,16 @@
+{
+  "id": "UNIVERSE-EXISTING-CAUSE-FROM-CANDIDATE-CAUSE-AND-ACTUALITY",
+  "premise_statement_ids": [
+    "STMT-SPACETIME-WHOLE-HAS-A-CANDIDATE-CAUSE",
+    "STMT-SELECTED-WHOLE-CAUSERS-ACTUALLY-EXIST"
+  ],
+  "conclusion_statement_id": "STMT-UNIVERSE-HAS-EXISTING-CAUSE",
+  "inference_ids": [
+    "INF-UNIVERSE-EXISTING-CAUSE-FROM-CANDIDATE-CAUSE-AND-ACTUALITY"
+  ],
+  "meaning": "Explicit witness/actuality transport to the EXACT old UniverseHasExistingCause. A bare candidate edge does not smuggle in its causer actual existence.",
+  "definition_ids": [
+    "DEF-UNIVERSE-CAUSER-ACTUALITY-SCOPE",
+    "DEF-SPATIOTEMPORAL-FRAME"
+  ]
+}

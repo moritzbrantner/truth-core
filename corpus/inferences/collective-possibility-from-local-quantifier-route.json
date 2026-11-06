@@ -1,0 +1,13 @@
+{
+  "id": "INF-COLLECTIVE-POSSIBILITY-FROM-LOCAL-QUANTIFIER-ROUTE",
+  "input_statement_ids": [
+    "STMT-LOCAL-TEMPORAL-QUANTIFIER-SHIFT",
+    "STMT-WHAT-CAN-NOT-BE-SOMETIME-IS-NOT",
+    "STMT-REALIZED-COMMON-ABSENCE-IS-POSSIBLE"
+  ],
+  "output_statement_id": "STMT-ALL-CAN-NOT-BE-THEN-NOTHING-POSSIBLE",
+  "rule": "constructive-proof",
+  "meaning": "Positive route transcription: individual possible absences realize separately, the local shift supplies a common realized absence, and the explicit realization interface makes it Possible. This supports the SAME collective premise rather than opposing it.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
