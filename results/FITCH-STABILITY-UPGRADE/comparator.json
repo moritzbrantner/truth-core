@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.FitchKnowability.Challenge",
+  "solution_module": "TruthCore.Results.Logic.FitchKnowability.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.FitchKnowability.stabilityUpgrade"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -1,0 +1,12 @@
+{
+  "id": "INF-FITCH-STABILITY-UPGRADE",
+  "input_statement_ids": [
+    "STMT-FITCH-DOUBLE-NEGATED-KNOWLEDGE",
+    "STMT-FITCH-KNOWLEDGE-STABLE"
+  ],
+  "output_statement_id": "STMT-FITCH-TRUTH-KNOWN",
+  "rule": "constructive-proof",
+  "meaning": "Apply explicit stability of this actual Kp to its checked double-negation consequence. No ambient classical axiom supplies the upgrade and no universal or common knower is inferred.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

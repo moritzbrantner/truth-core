@@ -1,0 +1,12 @@
+{
+  "id": "INF-FITCH-RESTRICTED-INSTANCE",
+  "input_statement_ids": [
+    "STMT-FITCH-RESTRICTED-KNOWABILITY",
+    "STMT-FITCH-MOORE-ADMISSIBLE"
+  ],
+  "output_statement_id": "STMT-FITCH-MOORE-INSTANCE",
+  "rule": "constructive-proof",
+  "meaning": "Instantiate actual restricted knowability at the Moore content using its separately declared admissibility. This is schema specialization, not an independent defense of either assumption.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

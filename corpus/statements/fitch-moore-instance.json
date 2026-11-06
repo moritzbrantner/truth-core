@@ -1,0 +1,12 @@
+{
+  "id": "STMT-FITCH-MOORE-INSTANCE",
+  "paraphrase": "If the selected Moore conjunction is actually true, that same content is known at some modally accessible world.",
+  "lean_declaration": "TruthCore.Logic.FitchKnowability.MooreInstance",
+  "definition_ids": [
+    "DEF-FITCH-WORLD-INDEXED-KNOWLEDGE",
+    "DEF-FITCH-ADMISSIBLE-CONTENTS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FITCH-OPERATOR-SCOPE"
+  ]
+}

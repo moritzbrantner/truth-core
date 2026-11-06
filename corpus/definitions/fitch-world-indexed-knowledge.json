@@ -1,0 +1,8 @@
+{
+  "id": "DEF-FITCH-WORLD-INDEXED-KNOWLEDGE",
+  "term": "world-indexed knowledge and possible knowledge",
+  "definition": "A Context supplies an actual world, a modal Frame and K:(W\u2192Prop)\u2192W\u2192Prop. PossibleKnown c p w means some modally accessible v knows the same predicate p at v; Moore c p w means p holds but Kp fails at that very world. RelevantLaws require factivity and left-conjunct extraction only for this Moore content at worlds accessible from actuality. No actual-only necessitation, agent/time quantification, or relationship between modal and epistemic alternatives is implicit.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.FitchKnowability.Context",
+  "note": "Analyst formulation for #1053; attribution deferred. Applicability to real knowledge and semantic antirealism remains open. See docs/notes/sep-fitch-knowability-gap-20261106.md."
+}

@@ -1,0 +1,20 @@
+{
+  "id": "FITCH-MOORE-UNKNOWABLE",
+  "premise_statement_ids": [
+    "STMT-FITCH-RELEVANT-LAWS"
+  ],
+  "conclusion_statement_id": "STMT-FITCH-MOORE-UNKNOWABLE",
+  "inference_ids": [
+    "INF-FITCH-MOORE-UNKNOWABLE"
+  ],
+  "meaning": "At a possible knower world, factivity gives the negated knowledge conjunct while left extraction gives its contradictory positive knowledge. Only these instance laws at relevant worlds are required; no necessitation of local assumptions is used.",
+  "definition_ids": [
+    "DEF-FITCH-WORLD-INDEXED-KNOWLEDGE",
+    "DEF-FITCH-ADMISSIBLE-CONTENTS",
+    "DEF-FITCH-RELEVANT-STABILITY",
+    "DEF-EPISTEMIC-ALTERNATIVES-KNOWLEDGE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FITCH-OPERATOR-SCOPE"
+  ]
+}

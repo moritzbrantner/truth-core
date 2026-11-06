@@ -1,0 +1,10 @@
+{
+  "id": "FITCH-STABILITY-UPGRADE",
+  "argument_id": "FITCH-STABILITY-UPGRADE",
+  "challenge_module": "TruthCore.Results.Logic.FitchKnowability.Challenge",
+  "solution_module": "TruthCore.Results.Logic.FitchKnowability.Solution",
+  "theorem": "TruthCore.Results.Logic.FitchKnowability.stabilityUpgrade",
+  "comparator_config": "results/FITCH-STABILITY-UPGRADE/comparator.json",
+  "status": "solution-present",
+  "description": "Apply explicit stability of this actual Kp to its checked double-negation consequence. No ambient classical axiom supplies the upgrade and no universal or common knower is inferred."
+}
