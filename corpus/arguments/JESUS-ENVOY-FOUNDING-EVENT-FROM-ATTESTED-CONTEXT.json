@@ -1,0 +1,31 @@
+{
+  "id": "JESUS-ENVOY-FOUNDING-EVENT-FROM-ATTESTED-CONTEXT",
+  "premise_statement_ids": [
+    "STMT-GOD-EXISTS",
+    "STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES",
+    "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE",
+    "STMT-JESUS-CLAIMED-DIVINE-AUTHORITY-AND-ROSE",
+    "STMT-CHRIST-FOUNDED-VISIBLE-CHURCH",
+    "STMT-RESURRECTION-CONFIRMS-JESUS-MANDATE",
+    "STMT-GOD-CONFIRMS-ONLY-TRUTH",
+    "STMT-MANDATE-COVERS-JESUS-FOUNDING-WITH-TEACHING"
+  ],
+  "conclusion_statement_id": "STMT-JESUS-ENVOY-TEACHING-FOUNDING-EVENT-EXISTS",
+  "inference_ids": [
+    "INF-JESUS-ENVOY-FOUNDING-EVENT-FROM-ATTESTED-CONTEXT"
+  ],
+  "meaning": "Compose the case\u2019s existing God and visible-society witnesses with attestation, veracity and scope: obtain a held mandate and then the commissioned founding event. This supplies the nonvacuity condition conditionally without inventing a new historical premise. It does not assume or derive the envoy-to-principal bridge.",
+  "definition_ids": [
+    "DEF-PRINCIPAL-ACT-FOUNDING-READING",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+    "DEF-FOUNDED-BY-GOD-IMMEDIATELY",
+    "DEF-GOD-OF-CLASSICAL-THEISM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FOUNDED-BY-GOD",
+    "DISAMB-GOD"
+  ],
+  "strong_version_needed": {
+    "STMT-MANDATE-COVERS-JESUS-FOUNDING-WITH-TEACHING": "The visible-founded-society witness is not assumed to be the named Catholic Church in this eight-premise interface. The weak Catholic-only scope does not apply to it without adding the separate stage-6 identity premise. This preserves the existing generic context and no universal scope is attributed to a source."
+  }
+}
