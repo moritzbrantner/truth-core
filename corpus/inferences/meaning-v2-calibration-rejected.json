@@ -1,0 +1,11 @@
+{
+  "id": "INF-MEANING-V2-CALIBRATION-REJECTED",
+  "input_statement_ids": [
+    "STMT-MEANING-V2-EXCLUDED-TARGET"
+  ],
+  "output_statement_id": "STMT-MEANING-NOT-V2",
+  "rule": "constructive-proof",
+  "meaning": "Compose the existing unrestricted-auxiliary construction with the independent excluded target. The V2 admission contradicts its calibration at that exact target; no inference from meaninglessness to untruth.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

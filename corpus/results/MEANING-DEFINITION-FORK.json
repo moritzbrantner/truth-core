@@ -1,0 +1,27 @@
+{
+  "id": "MEANING-DEFINITION-FORK",
+  "argument_id": "MEANING-DEFINITION-FORK",
+  "challenge_module": "TruthCore.Results.Logic.MeaningDefinitionFork.Coverage.Challenge",
+  "solution_module": "TruthCore.Results.Logic.MeaningDefinitionFork.Coverage.Solution",
+  "theorem": "TruthCore.Results.Logic.MeaningDefinitionFork.Coverage.definitionFork",
+  "comparator_config": "results/MEANING-DEFINITION-FORK/comparator.json",
+  "status": "solution-present",
+  "description": "Logical coverage transcription under explicit excluded middle. Named coverage stays open; otherwise all four named calibrations fail. Not a survey of philosophical meanings.",
+  "transcription": "instantiation",
+  "case_split": {
+    "target_statement_id": "STMT-MEANING-NAMED-COVERAGE",
+    "cases": [
+      {
+        "label": "at least one named scoped calibration",
+        "lean_declaration": "TruthCore.Logic.MeaningDefinitionFork.NamedCoverage",
+        "statement_id": "STMT-MEANING-NAMED-COVERAGE"
+      },
+      {
+        "label": "genuinely remaining extension on this scope",
+        "lean_declaration": "TruthCore.Logic.MeaningDefinitionFork.RemainingDefinition",
+        "statement_id": "STMT-MEANING-REMAINING-DEFINITION"
+      }
+    ],
+    "survival_result_id": "MEANING-DEFINITION-CONTROLS"
+  }
+}

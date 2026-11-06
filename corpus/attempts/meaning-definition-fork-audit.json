@@ -1,0 +1,21 @@
+{
+  "id": "ATTEMPT-MEANING-DEFINITION-FORK-AUDIT",
+  "date": "2026-11-06",
+  "statement_ids": [
+    "STMT-VERIFICATION-PRINCIPLE",
+    "STMT-MEANING-CALIBRATION",
+    "STMT-MEANING-NAMED-COVERAGE",
+    "STMT-MEANING-REMAINING-DEFINITION"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Scoped V1/V2/V3/all-in-scope calibrations and open named coverage are separate propositions. Existing V1/V3 packages already include correct biconditionals, so rejected the reading that their closure proofs silently adopted a criterion. Compose existing V2 admission and correctly calibrated V3 refutation to discriminate definitions under explicit independent target requirements. Analytic-only control is a genuine nontrivial remaining extension and strictness witness; it is not a model of the joint rejection package. No source claim or owner-approved floor changed. Exact types, limits and remaining work in docs/notes/meaning-definition-fork.md. A failed binding attempt used raw logical heads (Not/Exists); changing only Solution aliases then failed Comparator statement identity. Original draft Challenges are preserved unchanged with their exact raw-form Solutions. New Bound Challenge/Solution siblings freeze the named-head forms and compose the same original proof, with no logical or premise strengthening.",
+  "evidence": [
+    "MEANING-CALIBRATION-TO-VERIFICATION-PRINCIPLE",
+    "MEANING-DEFINITION-FORK",
+    "MEANING-V2-CALIBRATION-REJECTED",
+    "MEANING-V3-CALIBRATION-REJECTED",
+    "MEANING-NAMED-DEMARCATING-ACCOUNTS-FAIL",
+    "MEANING-DEFINITION-CONTROLS"
+  ]
+}

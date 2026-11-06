@@ -1,0 +1,17 @@
+{
+  "id": "STMT-MEANING-ALL-IN-SCOPE",
+  "paraphrase": "Every sentence in the supplied comparison scope is cognitively meaningful. This comparison proposal is distinct from criterion validity or historical identity.",
+  "lean_declaration": "TruthCore.Logic.MeaningDefinitionFork.AllInScopeMeaningful",
+  "definition_ids": [
+    "DEF-MEANING-CRITERION-CALIBRATION",
+    "DEF-MEANING-V1-DEFINITION",
+    "DEF-MEANING-V2-DEFINITION",
+    "DEF-MEANING-V3-DEFINITION",
+    "DEF-MEANING-ALL-IN-SCOPE",
+    "DEF-MEANING-NAMED-COVERAGE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-VERIFICATIONIST-MEANINGFUL",
+    "DISAMB-MEANING-DEFINITION-CALIBRATIONS"
+  ]
+}
