@@ -6,5 +6,25 @@
   "theorem": "TruthCore.Results.Alternatives.PotencyAnalysisPartition.partition",
   "comparator_config": "results/POTENCY-ANALYSIS-PARTITION/comparator.json",
   "status": "solution-present",
-  "description": "Zero-axiom; excluded middle is a hypothesis. Exhaustiveness of the Q-F7 partition, with cellsDenyF7 and f7IffCellConstraints in the Comparator config. It establishes the partition, not F7."
+  "description": "Zero-axiom; excluded middle is a hypothesis. Exhaustiveness of the Q-F7 partition, with cellsDenyF7 and f7IffCellConstraints in the Comparator config. It establishes the partition, not F7.",
+  "case_split": {
+    "target_statement_id": "STMT-POTENCY-IS-UNACTUALIZED-CAPACITY",
+    "cases": [
+      {
+        "label": "Potency and act in the same respect",
+        "lean_declaration": "TruthCore.Alternatives.PotencyAnalysisPartition.PotencyWithActCell",
+        "statement_id": "STMT-ACT-AND-POTENCY-IN-SAME-RESPECT"
+      },
+      {
+        "label": "Potency without capacity",
+        "lean_declaration": "TruthCore.Alternatives.PotencyAnalysisPartition.PotencyWithoutCapacityCell"
+      },
+      {
+        "label": "Unexercised capacity without potency",
+        "lean_declaration": "TruthCore.Alternatives.PotencyAnalysisPartition.UnexercisedCapacityWithoutPotencyCell"
+      }
+    ],
+    "survival_result_id": "POTENCY-ANALYSIS-CELLS-SURVIVE-FLOOR",
+    "note": "The bound coverage theorem gives the target or these three cells under excluded middle. The survivor certificate witnesses each cell with the floor constraints stated in its own type; it does not prove compatibility with every future floor extension. Cell refutations require their exact interpretation, not a merely similar worldview. This metadata is navigation; the frozen coverage theorem remains authoritative."
+  }
 }

@@ -859,6 +859,9 @@ def frontier_report(
     transcription: list[dict[str, Any]] | None = None,
     claims: list[dict[str, Any]] | None = None,
     inferences: list[dict[str, Any]] | None = None,
+    *,
+    _hypothesis: str | None = None,
+    _include_next_steps: bool = False,
 ) -> dict[str, Any]:
     """Open premises: used as an argument premise and not closed. A statement
     is closed when it is (a) the conclusion of a verified result that is not a
@@ -883,6 +886,7 @@ def frontier_report(
     anything else is computed: it would otherwise close the weak version from
     an open strong sibling by rule (a) or (d), circularly where the weak
     version is also a premise of a proof of the strong one."""
+    original_arguments, original_results = arguments, results
     order = strength_order(relations, results, arguments)
     registration_arguments = {entry["argument_id"] for entry in order}
     if registration_arguments:
@@ -973,9 +977,11 @@ def frontier_report(
                 path[:0] = [node, argument_id]
         return seen_arguments, seen_statements, path
 
-    closed = set(verified_conclusions)
+    # Private what-if probes use exactly this fixpoint; they never persist a floor
+    # marking or change the actual report. Only next-work cost projections call it.
+    closed = set(verified_conclusions) | ({_hypothesis} if _hypothesis else set())
     refuted: set[str] = set()
-    established: set[str] = set()
+    established: set[str] = {_hypothesis} if _hypothesis else set()
 
     # Floor markings (#500): rule (b) closes a self_evident statement only
     # while its basis criterion holds, recomputed here from the current
@@ -1165,6 +1171,15 @@ def frontier_report(
                     "premise_statement_ids": sorted(set(premises)),
                 }
                 changed = True
+
+    if _hypothesis is not None:
+        probe_sourced = {claim["statement_id"] for claim in claims or []} | set(support)
+        return root_routes(
+            root, statement_by_id, argument_by_id, results, transcription_results,
+            closed, established,
+            lambda sid: sid in probe_sourced,
+            routes.get(root or "", set()),
+        )
 
     refutation_report = []
     for relation in refutations:
@@ -1372,7 +1387,7 @@ def frontier_report(
         {item["statement_id"] for item in items},
         upward,
     )
-    return {
+    report = {
         "root": root,
         "root_known": root is not None and root in statement_by_id,
         "transcription_flags": transcription or [],
@@ -1398,8 +1413,21 @@ def frontier_report(
         "open_premise_count": len(items),
         "depth_counts": depth_counts(items),
         "items": items,
+        "statement_depths": {sid: source_depth(sid) for sid in statement_by_id},
         **view,
     }
+    if not _include_next_steps:
+        return report
+    from next_steps import next_steps_report
+    report["next_steps"] = next_steps_report(
+        report, statements, original_arguments, original_results, relations,
+        lambda sid: frontier_report(
+            statements, original_arguments, original_results, relations, root=root,
+            transcription=transcription, claims=claims, inferences=inferences,
+            _hypothesis=sid,
+        ),
+    )
+    return report
 
 
 def statement_view(
@@ -2344,6 +2372,11 @@ def validate() -> dict[str, int]:
                     f"the declaration of statement {other}; each statement needs its own"
                 )
         validate_self_evident(path, statement, claim_ids, result_ids, set(statement_index))
+        from next_steps import validate_settlement_actions
+        try:
+            validate_settlement_actions(statement)
+        except ValueError as exc:
+            raise CorpusError(f"{path.relative_to(ROOT)}: {exc}") from exc
         used_definitions.update(validate_term_links(path, statement, definition_ids, disambiguation_ids))
 
     citable = set(statement_index) | definition_ids | disambiguation_ids
@@ -2492,6 +2525,15 @@ def validate() -> dict[str, int]:
             )
 
     result_configs = {result["id"]: validate_result_config(path, result, argument_index) for path, result in results}
+
+    from next_steps import validate_case_split
+    for path, result in results:
+        try:
+            validate_case_split(result, set(statement_index), result_ids)
+        except ValueError as exc:
+            raise CorpusError(f"{path.relative_to(ROOT)}: {exc}") from exc
+        for case in result.get("case_split", {}).get("cases", []):
+            lean_tail_exists(path, case["lean_declaration"], all_lean)
 
     result_records = {key: value[1] for key, value in result_index.items()}
     argument_records = {key: value[1] for key, value in argument_index.items()}
@@ -2765,7 +2807,7 @@ def command_next(_: argparse.Namespace) -> int:
     return 0
 
 
-def current_frontier(root: str | None, reaching_root: bool) -> dict[str, Any]:
+def current_frontier(root: str | None, reaching_root: bool, *, next_steps: bool = True) -> dict[str, Any]:
     """The frontier report of the working tree, as `frontier` prints it."""
     validate()
     statements = [record for _, record in load_dir("statements")]
@@ -2782,6 +2824,7 @@ def current_frontier(root: str | None, reaching_root: bool) -> dict[str, Any]:
         transcription=transcription_flags(results, arguments, statements),
         claims=claims,
         inferences=[record for _, record in load_dir("inferences")],
+        _include_next_steps=next_steps,
     )
     return restrict_to_root(report) if reaching_root else report
 
@@ -2805,8 +2848,19 @@ def restrict_to_root(report: dict[str, Any]) -> dict[str, Any]:
     return report
 
 
+def command_next_steps(args: argparse.Namespace) -> int:
+    """Presentation only: frontier owns closure, derivation and what-if semantics."""
+    report = current_frontier(args.root, False)["next_steps"]
+    if args.json:
+        print(json.dumps(report, indent=2, ensure_ascii=False))
+    else:
+        from next_steps import format_next_steps
+        print(format_next_steps(report))
+    return 0
+
+
 def command_frontier(args: argparse.Namespace) -> int:
-    report = current_frontier(args.root, args.reaching_root)
+    report = current_frontier(args.root, args.reaching_root, next_steps=args.json and not args.routes)
     if args.routes:
         if args.json:
             print(json.dumps(report["routes"], indent=2, ensure_ascii=False))
@@ -4283,6 +4337,10 @@ def parser() -> argparse.ArgumentParser:
     sub.add_parser("next", help="print the highest-priority Codex work item").set_defaults(
         func=command_next
     )
+    next_steps = sub.add_parser("next-steps", help="rank root settlement work from the authoritative frontier")
+    next_steps.add_argument("--root", default=DEFAULT_FRONTIER_ROOT)
+    next_steps.add_argument("--json", action="store_true")
+    next_steps.set_defaults(func=command_next_steps)
     frontier = sub.add_parser(
         "frontier",
         help="list open premises: not verified, not self-evident, alternatives not all refuted",
