@@ -1,0 +1,13 @@
+{
+  "id": "ATTEMPT-SEP-FITCH-KNOWABILITY-GAP-20261106",
+  "statement_ids": [
+    "STMT-CC100-124-TRUTH-KNOWABILITY",
+    "STMT-CC100-124-CONTEXTUAL-TRUTH-KNOWLEDGE",
+    "STMT-CC100-124-CONTEXTUAL-COMMON-KNOWER-BRIDGE"
+  ],
+  "date": "2026-11-06",
+  "kind": "reading",
+  "outcome": "succeeded",
+  "summary": "Bounded SEP sections2\u20135 logic-first intake and exact declaration/dossier inventory found no checked Fitch/Moore-conjunction consequence for the existing CC100-124 statements. Implementation design and rejected duplicates persist in docs/notes/sep-fitch-knowability-gap-20261106.md: weak accessed-world factivity/extraction core, constructive double-negated knowledge versus explicit stability upgrade, and an unverified four-world S5 survivor of global biconditional knowability restricted to atomic-valuation-invariant contents. No attribution, formal verification, philosophical premise establishment, common-knower conclusion or frontier closure is claimed.",
+  "evidence": []
+}
