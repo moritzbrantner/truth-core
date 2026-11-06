@@ -6,5 +6,6 @@
   "claim_ids": [
     "AFP-GOEDELGOD-SYM-A"
   ],
-  "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.Box"
+  "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.Box",
+  "note": " Operator/framework distinction (#1111): Box and Dia themselves require only the supplied Frame; their declarations assume no symmetry, reflexivity, domain policy, comprehension or excluded middle. The sourced KB embedding context above states separate commitments, not extra conjuncts of the operator definition. DEF-MODAL-FIXTURE-FRAME uses that same Box with arbitrary frames. NecessaryAt in DEF-KANT-MODAL-NECESSITY is Box applied to one fixed individual’s existence predicate under the identical frame; that exact equality transfers no KB frame law or historical/source identity."
 }

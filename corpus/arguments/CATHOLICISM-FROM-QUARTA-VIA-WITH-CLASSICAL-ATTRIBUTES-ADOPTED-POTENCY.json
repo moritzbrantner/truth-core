@@ -36,7 +36,7 @@
   "inference_ids": [
     "INF-CATHOLICISM-FROM-QUARTA-VIA-WITH-CLASSICAL-ATTRIBUTES-ADOPTED-POTENCY"
   ],
-  "meaning": "Adopted-potency specialization of CATHOLICISM-FROM-QUARTA-VIA-WITH-CLASSICAL-ATTRIBUTES: uniformly replace the independent InPotency parameter in EVERY hypothesis by CanBe x r \u2227 \u00ac InAct x r, including act priority, motion, immutability, eternity and the attribute-sufficiency interface wherever present. Compose the unchanged verified generic theorem with ADOPTED-POTENCY-NONOVERLAP from established F1. This removes the generic non-overlap premise only in this explicitly adopted configuration. The original Challenge/result and rival interpretations are retained. No capacity existence or applicability-to-reality premise is established.",
+  "meaning": "Adopted-potency specialization of CATHOLICISM-FROM-QUARTA-VIA-WITH-CLASSICAL-ATTRIBUTES: uniformly replace the independent InPotency parameter in EVERY hypothesis by CanBe x r ∧ ¬ InAct x r, including act priority, motion, immutability, eternity and the attribute-sufficiency interface wherever present. Compose the unchanged verified generic theorem with ADOPTED-POTENCY-NONOVERLAP from established F1. This removes the generic non-overlap premise only in this explicitly adopted configuration. The original Challenge/result and rival interpretations are retained. No capacity existence or applicability-to-reality premise is established.",
   "definition_ids": [
     "DEF-ACT",
     "DEF-ALTOGETHER-IMMATERIAL",
@@ -82,6 +82,7 @@
     "DISAMB-GOD",
     "DISAMB-IN-ACT",
     "DISAMB-PER-SE",
-    "DISAMB-POTENCY"
+    "DISAMB-POTENCY",
+    "DISAMB-MAXIME-ENS"
   ]
 }
