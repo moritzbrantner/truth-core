@@ -103,6 +103,33 @@ class StrengthPropagationTest(unittest.TestCase):
         # The registration does not make STRONG reach the root either.
         self.assertNotIn("STRONG", rep["reaching_root_statements"])
 
+    def test_excluded_registration_preserves_declared_display_over_heuristic(self) -> None:
+        results = [{**entry, "transcription": "assembly"} if entry["id"] == "ARG-S-W" else entry for entry in RESULTS]
+        flag = {"result_id": "ARG-S-W", "argument_id": "ARG-S-W", "proof_steps": 1,
+                "single_application_of": "hStrong", "goal_consequent_premises": []}
+        rep = corpus.frontier_report(STATEMENTS, ARGUMENTS, results, [strengthens("STRONG", "WEAK")],
+                                     root="ROOT", transcription=[flag])
+        self.assertEqual(rep["transcription_results"]["ARG-S-W"], {"kind": "assembly", "declared": True})
+        self.assertEqual(rep["transcription_flags"], [flag])
+        # Displaying the registration must not restore it as a rule-(d) proof:
+        # STRONG is closed from open BASE, so that would wrongly close WEAK.
+        self.assertIn("STRONG", rep["closed_statements"])
+        self.assertNotIn("WEAK", rep["closed_statements"])
+        self.assertNotIn("STRONG", rep["reaching_root_statements"])
+        self.assertEqual(rep["routes"]["routes"][0]["open_premise_statement_ids"], ["OTHER", "WEAK"])
+
+    def test_excluded_registration_without_heuristic_retains_declared_kind(self) -> None:
+        for kind in sorted(corpus.TRANSCRIPTION_KINDS):
+            with self.subTest(kind=kind):
+                results = [{**entry, "transcription": kind} if entry["id"] == "ARG-S-W" else entry for entry in RESULTS]
+                actual = report(results=results, relations=[strengthens("STRONG", "WEAK")])
+                baseline = report(relations=[strengthens("STRONG", "WEAK")])
+                self.assertEqual(actual["transcription_results"]["ARG-S-W"], {"kind": kind, "declared": True})
+                for field in ["closed_statements", "established_statements", "routes", "strength_order", "items", "reaching_root_statements"]:
+                    self.assertEqual(actual[field], baseline[field], field)
+                established = report(with_floor("STRONG"), results=results, relations=[strengthens("STRONG", "WEAK")])
+                self.assertEqual(established["closed_statements"]["WEAK"], "via_strength")
+
     def test_sibling_cycle_closes_nothing(self) -> None:
         # The mandate-scope shape: STRONG is proved from WEAK (and OTHER),
         # and WEAK is registered as entailed by STRONG. Neither closes the other.

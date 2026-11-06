@@ -92,64 +92,64 @@
       "id": "CATHOLICISM-QUARTA-VIA-CLASSICAL-WITNESS",
       "path": "corpus/arguments/CATHOLICISM-QUARTA-VIA-CLASSICAL-WITNESS.json",
       "status": "inspected",
-      "classification": "preservation",
-      "finding": "Original Challenge unchanged. Fourth Way supplies m with maximality; full-description naming gives σ.IsGod m. Eight proofs use local Maximal at m, while uniqueness uses original σ.IsGod and retained hMaximal. The same m receives the sufficiency field.",
+      "classification": "adopted_potency_scope",
+      "finding": "Original Challenge unchanged. Fourth Way supplies m with maximality; full-description naming gives σ.IsGod m. Eight proofs use local Maximal at m, while uniqueness uses original σ.IsGod and retained hMaximal. The same m receives the sufficiency field. F7 continuation: inspected the new DISAMB-POTENCY navigation link; the generic theorem, argument premises and conclusion are unchanged. The disambiguation explicitly retains independent potency for this generic configuration.",
       "before": {
         "sha256": "6212fd81c2ecb0cfe08b4e2ff8c9d7567e06db20722fb5b49aaa88200a0897cd",
         "lean_declaration": null
       },
-      "reviewed_sha256": "6212fd81c2ecb0cfe08b4e2ff8c9d7567e06db20722fb5b49aaa88200a0897cd"
+      "reviewed_sha256": "c59d6bfcc2d287316bf1e6c6ecdca21632771cc45cb778b7e34b21f31bcdaacb"
     },
     {
       "kind": "arguments",
       "id": "CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-ALL",
       "path": "corpus/arguments/CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-ALL.json",
-      "status": "repaired",
-      "classification": "defect",
-      "finding": "Repaired misleading definitional-bridge prose. Exact original 19-hypothesis Challenge preserved, including IsImmutable InPotency, all ordered parameters and original σ. Final conjunction application now uses the previously checked bridge equivalence at the same g.",
+      "status": "inspected",
+      "classification": "adopted_potency_scope",
+      "finding": "Repaired misleading definitional-bridge prose. Exact original 19-hypothesis Challenge preserved, including IsImmutable InPotency, all ordered parameters and original σ. Final conjunction application now uses the previously checked bridge equivalence at the same g. F7 continuation: inspected the new DISAMB-POTENCY navigation link; the generic theorem, argument premises and conclusion are unchanged. The disambiguation explicitly retains independent potency for this generic configuration.",
       "before": {
         "sha256": "856f10f071098b9ad6123c28ff09421360cc747c8fcbf2817c9e5608ee6eabfe",
         "lean_declaration": null
       },
-      "reviewed_sha256": "f06a551a3cea499964d0740a96f623f1aa1f3525759965a5c87c331c8e153236"
+      "reviewed_sha256": "8c97b191fe8d44e76ef58ca23e3808c7c4270e4d578a45d6fdc1cde804106ee9"
     },
     {
       "kind": "arguments",
       "id": "CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-IDENTITY",
       "path": "corpus/arguments/CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-IDENTITY.json",
-      "status": "repaired",
-      "classification": "new_sufficient_interface",
-      "finding": "New separately frozen Challenge and zero-axiom solution: explicit DecidableEq σ.Being and DecidableEq Principle, the other 18 original premises and identical conclusion. Reuses the six EM-free imported attribute proofs; proves uniqueness/perfection/infinity with equality decisions only. No existence, no premise truth, no necessity or minimality claim.",
+      "status": "inspected",
+      "classification": "adopted_potency_scope",
+      "finding": "New separately frozen Challenge and zero-axiom solution: explicit DecidableEq σ.Being and DecidableEq Principle, the other 18 original premises and identical conclusion. Reuses the six EM-free imported attribute proofs; proves uniqueness/perfection/infinity with equality decisions only. No existence, no premise truth, no necessity or minimality claim. F7 continuation: inspected the new DISAMB-POTENCY navigation link; the generic theorem, argument premises and conclusion are unchanged. The disambiguation explicitly retains independent potency for this generic configuration.",
       "before": {
         "sha256": "absent (new record)"
       },
-      "reviewed_sha256": "2040c805f4f22457ab61ca6173a8185c2116f92f565d55bf98664d157a977978"
+      "reviewed_sha256": "ecffa4a9ceb71af381cecb3faf2970fd9ab4d24d2bba863861da1c9b1e17f23a"
     },
     {
       "kind": "arguments",
       "id": "CATHOLICISM-STAGES-ONE-TWO-Q11-NATURE",
       "path": "corpus/arguments/CATHOLICISM-STAGES-ONE-TWO-Q11-NATURE.json",
       "status": "inspected",
-      "classification": "preservation",
-      "finding": "Original Challenge unchanged. Same f and maximality transport as original composition. Ninth attribute uses Q11NatureUniqueness on original σ.IsGod with explicit hIndividual, hNature, hCommon, rather than hMaximal. Same f receives all nine predicates and the primitive field.",
+      "classification": "adopted_potency_scope",
+      "finding": "Original Challenge unchanged. Same f and maximality transport as original composition. Ninth attribute uses Q11NatureUniqueness on original σ.IsGod with explicit hIndividual, hNature, hCommon, rather than hMaximal. Same f receives all nine predicates and the primitive field. F7 continuation: inspected the new DISAMB-POTENCY navigation link; the generic theorem, argument premises and conclusion are unchanged. The disambiguation explicitly retains independent potency for this generic configuration.",
       "before": {
         "sha256": "21a6d8efa53accb59532c6fafb164ee5d011344910fec0c6f53e51c648fae863",
         "lean_declaration": null
       },
-      "reviewed_sha256": "21a6d8efa53accb59532c6fafb164ee5d011344910fec0c6f53e51c648fae863"
+      "reviewed_sha256": "a2fed1a8524b6cbf2d31a2a9e2efb1bf515e2144a7192362001f4126d82f716b"
     },
     {
       "kind": "arguments",
       "id": "CATHOLICISM-STAGES-ONE-TWO-SAME-WITNESS",
       "path": "corpus/arguments/CATHOLICISM-STAGES-ONE-TWO-SAME-WITNESS.json",
       "status": "inspected",
-      "classification": "preservation",
-      "finding": "Original Challenge unchanged. Obtain First-Way f, identify it with Fourth-Way m using the imported equality, transport maximality to f, name f, and apply all eight pointwise proofs to f. Ninth attribute uses original σ.IsGod and retained hMaximal; bridge applied to that same f.",
+      "classification": "adopted_potency_scope",
+      "finding": "Original Challenge unchanged. Obtain First-Way f, identify it with Fourth-Way m using the imported equality, transport maximality to f, name f, and apply all eight pointwise proofs to f. Ninth attribute uses original σ.IsGod and retained hMaximal; bridge applied to that same f. F7 continuation: inspected the new DISAMB-POTENCY navigation link; the generic theorem, argument premises and conclusion are unchanged. The disambiguation explicitly retains independent potency for this generic configuration.",
       "before": {
         "sha256": "e01d0e55edc32c4c7bf7c5814ad9fe41f3a51bf5a12a67b7b46b1254b11a5c57",
         "lean_declaration": null
       },
-      "reviewed_sha256": "e01d0e55edc32c4c7bf7c5814ad9fe41f3a51bf5a12a67b7b46b1254b11a5c57"
+      "reviewed_sha256": "3ad70ca794c946d07debead55eb8413cc4528272d9816ae8e7ea970e37f9a65f"
     },
     {
       "kind": "statements",
@@ -623,14 +623,14 @@
       "kind": "statements",
       "id": "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
       "path": "corpus/statements/nothing-in-act-and-potency-in-same-respect.json",
-      "status": "unresolved",
-      "classification": "open_premise",
-      "finding": "Retained explicit open commitment: Nothing is simultaneously in act and in potency in the same respect, though it may be so in different respects. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "status": "inspected",
+      "classification": "adopted_potency_scope",
+      "finding": "Retained explicit open commitment: Nothing is simultaneously in act and in potency in the same respect, though it may be so in different respects. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification. F7 continuation: inspected added adopted-versus-independent potency links. Original statement text/type and source attribution remain unchanged.",
       "before": {
         "sha256": "a3505a1aa24edb44baa690c8b5b28add891af4a4465f153153dee161ba5d0c47",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.NotActAndPotencyInSameRespectReading"
       },
-      "reviewed_sha256": "a3505a1aa24edb44baa690c8b5b28add891af4a4465f153153dee161ba5d0c47"
+      "reviewed_sha256": "7925d7c238524bccc093a830a2b52a3a8e105e4d40de7ad8c3d1488b93c6f7a2"
     },
     {
       "kind": "statements",
@@ -1468,13 +1468,13 @@
       "id": "DEF-POTENCY",
       "path": "corpus/definitions/potency.json",
       "status": "inspected",
-      "classification": "intentional_abstraction",
-      "finding": "Existing interpretation retained: `InPotency x r`: x is in potency to r, able to be r without being r actually; what is actually hot is at the same time cold in potency. A parameter in Lean, constrained by the same premises as `InAct`; nothing defines it as the negation of act. That gloss, 'able to be r without being r actually', is the Metaphysics IX.6 analysis (STMT-POTENCY-IS-UNACTUALIZED-CAPACITY). If it were made the Lean definition of `InPotency`, STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT would become analytic; the analysis is satisfiable exactly when that premise holds (result ACT-POTENCY-DEFINITIONAL-ANALYSES-CONSERVATIVE), so this would move the premise's openness to the analysis's fidelity without discharging it. `InPotency` therefore stays a parameter. No new structural law, source attribution or independently established premise is introduced.",
+      "classification": "adopted_potency_scope",
+      "finding": "Owner decision #1007 adopts potency as CanBe∧¬InAct. Reviewed the explicit definition and its distinctions from capacity, independent generic potency and receptive potency. Original frozen theorem parameters remain generic under DEF-INDEPENDENT-POTENCY; new sibling signatures uniformly specialize them. No historical virtual-act analysis or real-world applicability is asserted.",
       "before": {
         "sha256": "8be71da7666446ad139a7b0cb252c777d2c039795e67f829bd6ca450cd3a5abd",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel"
       },
-      "reviewed_sha256": "8be71da7666446ad139a7b0cb252c777d2c039795e67f829bd6ca450cd3a5abd"
+      "reviewed_sha256": "ebd62cab60ca2b3be914f348cb333b6d40cf92e4a13c495c82462071ba56ac02"
     },
     {
       "kind": "definitions",
@@ -1806,13 +1806,13 @@
       "id": "DISAMB-IN-ACT",
       "path": "corpus/disambiguations/in-act.json",
       "status": "inspected",
-      "classification": "intentional_abstraction",
-      "finding": "Existing resolution retained: The case does not choose between the two senses. Every premise that speaks of act (STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT, STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT, STMT-PLURAL-FIRST-MOVERS-WOULD-DIFFER-IN-ACT, STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING, STMT-FIRST-UNMOVED-MOVER-HAS-EVERY-PERFECTION) uses the one parameter `InAct`, so within a result every premise is read in the same sense and no step passes from one sense to the other. The choice matters for premise truth, not validity: read formally, 'a thing moves only as in act' faces causes that produce what they do not themselves have; read virtually, the non-simultaneity premise must hold for virtual act too. A defence of these premises must fix one sense and defend all of them in it. BRIDGE-ARIST-POTENCY-ANALYSIS-NON-SIMULTANEITY reads the Metaphysics IX.6 analysis (STMT-POTENCY-IS-UNACTUALIZED-CAPACITY) with the same `InAct` as the non-simultaneity premise, so no step changes sense. IX.6 says 'not actually r' of formal act; read virtually, the analysis would say that potency to r excludes virtual act of r, a stronger reading than IX.6 states. The bridge therefore carries Aristotle's support to the premise on the formal reading only. STMT-PERFECT-INSOFAR-AS-IN-ACT, through which AQUINAS-ST-I-Q5-A1-GOODNESS-FROM-DESIRABILITY derives STMT-GOODNESS-IS-ACTUALITY, uses the one parameter `Has` of the conclusion, which the case instantiates by `InAct`; so the goodness steps take whatever sense the other act premises of a result take. ST I q.4 a.1 co. and q.5 a.1 co. speak of a thing's own act, so their support is for the formal reading.",
+      "classification": "adopted_potency_scope",
+      "finding": "Reviewed the added adopted-potency clarification: formal/virtual act remain distinct choices, and each adopted result uses exactly one supplied act predicate everywhere. No virtual reading is attributed to IX.6; generic proof interfaces remain unchanged.",
       "before": {
         "sha256": "d611f0ba3737ca2630ca3cbee8a618e86eb5385773ea453b31b36fc017435cac",
         "lean_declaration": null
       },
-      "reviewed_sha256": "d611f0ba3737ca2630ca3cbee8a618e86eb5385773ea453b31b36fc017435cac"
+      "reviewed_sha256": "9410922badd636cf4af03e355327b5dc3a43827ea0e98930ef4598469d53f4ee"
     },
     {
       "kind": "disambiguations",
@@ -1956,10 +1956,36 @@
         "lean_declaration": null
       },
       "reviewed_sha256": "0c57a1b17a19d10172166462d91f6a557a6c9c82d7fc9bd7d433c0acc8e94f26"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-INDEPENDENT-POTENCY",
+      "path": "corpus/definitions/independent-potency.json",
+      "status": "inspected",
+      "classification": "adopted_potency_scope",
+      "finding": "Inspected the adopted/independent potency distinction. Generic frozen theorem interfaces keep their independent predicate; the adopted definition is used only by explicit sibling specializations. No rival is declared refuted, no source attribution is added, and no premise truth is inferred from a definition.",
+      "before": {
+        "sha256": "f14338dbf74328dcb184a910e973ae4a13146b5c517a5b8fb85de4e433f0e492",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel"
+      },
+      "reviewed_sha256": "f14338dbf74328dcb184a910e973ae4a13146b5c517a5b8fb85de4e433f0e492"
+    },
+    {
+      "kind": "disambiguations",
+      "id": "DISAMB-POTENCY",
+      "path": "corpus/disambiguations/potency.json",
+      "status": "inspected",
+      "classification": "adopted_potency_scope",
+      "finding": "Inspected the adopted/independent potency distinction. Generic frozen theorem interfaces keep their independent predicate; the adopted definition is used only by explicit sibling specializations. No rival is declared refuted, no source attribution is added, and no premise truth is inferred from a definition.",
+      "before": {
+        "sha256": "76c589c5cfd15ed8c5e30f534a8061c497b54c621ace403f3a9b49686ebf5a58",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "76c589c5cfd15ed8c5e30f534a8061c497b54c621ace403f3a9b49686ebf5a58"
     }
   ],
   "limits": [
-    "Exactly four existing result bundles and their declared statement/inference/term closure, plus three new records for the separate identity interface: 149 dispositions (146 existing, 3 new). The prior 69-record audit is retained separately. No whole-corpus or recursively renewed source audit.",
+    "Current bounded scope: 151 dispositions. The original audit covered four existing result bundles and their declared statement/inference/term closure, plus three records for the separate identity interface: 149 dispositions (146 existing, 3 new). The F7 interpretation clarification adds DEF-INDEPENDENT-POTENCY and DISAMB-POTENCY. The prior 69-record audit is retained separately. No whole-corpus or recursively renewed source audit.",
     "IsImmutable InPotency means no potency in any Respect at the same being. Infinite, Eternal, HasIntellect and HasWill remain primitive predicates constrained by explicit readings, not internally derived accounts of infinity, succession, cognition or appetite.",
     "GodHasClassicalAttributes is universal conditional; IsGod need not be inhabited. Existence in consumers comes separately from Fourth-Way m or First-Way f. All conjunction components concern that same witness; separate existential witnesses cannot be combined.",
     "NineClassicalAttributes and HasClassicalAttributes remain distinct. Only the open one-way sufficiency law connects them. The God-to-maximality naming converse remains open in ALL and original witness consumers; Q11-NATURE has three explicit alternative uniqueness premises.",

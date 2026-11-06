@@ -1302,11 +1302,26 @@ class FrontierCorpusTest(unittest.TestCase):
         # #391 correction: STMT-GOD-EXISTS is an intermediate conclusion with
         # no stating claim, so the skeleton route counts the open leaves
         # under its proof rather than one node.
-        routes = json.loads(self.run_frontier("--routes", "--json"))
+        report = json.loads(self.run_frontier("--json"))
+        routes = report["routes"]
         skeleton = next(entry for entry in routes["routes"] if entry["argument_id"] == "CATHOLICISM-SKELETON")
         self.assertNotIn("STMT-GOD-EXISTS", skeleton["open_premise_statement_ids"])
         self.assertGreater(skeleton["cost"], skeleton["premise_count"])
-        self.assertIn("STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT", skeleton["open_premise_statement_ids"])
+        # The adopted pure-act helper now supplies non-overlap from F1 on the
+        # skeleton's chosen composition; the independent generic schema is
+        # still required by its unchanged direct root route.
+        non_overlap = "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT"
+        self.assertNotIn(non_overlap, skeleton["open_premise_statement_ids"])
+        self.assertNotIn(non_overlap, report["established_statements"])
+        self.assertIn("STMT-ADOPTED-POTENCY-NONOVERLAP", report["established_statements"])
+        generic = next(entry for entry in routes["routes"]
+                       if entry["argument_id"] == "CATHOLICISM-FROM-QUARTA-VIA-WITHOUT-TRUTH-BRIDGE")
+        adopted = next(entry for entry in routes["routes"]
+                       if entry["argument_id"] == generic["argument_id"] + "-ADOPTED-POTENCY")
+        self.assertIn(non_overlap, generic["open_premise_statement_ids"])
+        self.assertEqual(set(adopted["open_premise_statement_ids"]),
+                         set(generic["open_premise_statement_ids"]) - {non_overlap})
+        self.assertEqual(adopted["cost"], generic["cost"] - 1)
         self.assertEqual(skeleton["cost"], len(skeleton["open_premise_statement_ids"]))
 
     def test_text_output_is_stable(self) -> None:

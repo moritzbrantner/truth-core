@@ -11,7 +11,7 @@
     "DEF-CAPACITY-TO-BE",
     "DEF-MOTION-AS-REDUCTION"
   ],
-  "disambiguation_ids": [
+  "disambiguation_ids": ["DISAMB-POTENCY",
     "DISAMB-MOTION"
   ]
 }
