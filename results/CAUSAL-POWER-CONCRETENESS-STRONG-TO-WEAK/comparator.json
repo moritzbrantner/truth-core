@@ -1,0 +1,1 @@
+{"challenge_module": "TruthCore.Results.Causality.CausalPowerConcretenessStrongToWeak.Challenge", "solution_module": "TruthCore.Results.Causality.CausalPowerConcretenessStrongToWeak.Solution", "theorem_names": ["TruthCore.Results.Causality.CausalPowerConcretenessStrongToWeak.weakOfStrong"], "permitted_axioms": [], "enable_nanoda": true}

@@ -13,6 +13,7 @@ import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.InfinityEternity
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.InfinityReception
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.InfinityReceptionControl
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.IntellectWill
+import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.OperationFollowsBeing
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question103.Government
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question105.Article5
 import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question11.Article3

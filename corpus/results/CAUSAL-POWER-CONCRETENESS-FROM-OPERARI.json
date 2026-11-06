@@ -1,0 +1,10 @@
+{
+  "id": "CAUSAL-POWER-CONCRETENESS-FROM-OPERARI",
+  "argument_id": "CAUSAL-POWER-CONCRETENESS-FROM-OPERARI",
+  "challenge_module": "TruthCore.Results.Ontology.CausalPowerConcretenessFromOperari.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.CausalPowerConcretenessFromOperari.Solution",
+  "theorem": "TruthCore.Results.Ontology.CausalPowerConcretenessFromOperari.causalPowerConcretenessOfOperariSequiturEsse",
+  "comparator_config": "results/CAUSAL-POWER-CONCRETENESS-FROM-OPERARI/comparator.json",
+  "status": "solution-present",
+  "description": "Derives OwnerCommitmentAt o (HasEsseInRe InAct esse) hasCausalPower w from the two in-act readings and ActualityOnlyInsofarAsBeingReading by composing each with the latter. A short composition, not a transcription: no premise's consequent is the conclusion, and concreteness is defined from InAct/esse, not from causation or power. It establishes the principle only conditionally on its three open premises."
+}

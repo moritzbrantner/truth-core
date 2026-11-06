@@ -1,0 +1,11 @@
+{
+  "id": "STMT-MATHEMATICAL-FACTS-ARE-CAUSALLY-RELEVANT",
+  "paraphrase": "Some mathematical facts are causally relevant to physical outcomes, e.g. the primeness of 13 and 17 is part of what brings about periodical cicadas' life-cycle lengths. So something without esse in re (a number or mathematical fact) does causal work.",
+  "definition_ids": [
+    "DEF-ABSTRACT-NO-ESSE-IN-RE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA"
+  ],
+  "note": "Analyst causal reading of Alan Baker's cicada case ('Are there genuine mathematical explanations of physical phenomena?', Mind 114, 2005), attribution deferred: no pinned witness. Baker argues for explanatory indispensability, and most discussants read the explanation as non-causal; only the causal reading is a rival to the weak version."
+}
