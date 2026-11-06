@@ -6,6 +6,6 @@
   "theorem": "TruthCore.Results.Metaethics.EvilObjection.Coverage.useCoverageWithRemainder",
   "comparator_config": "results/EVIL-USE-COVERAGE-WITH-REMAINDER/comparator.json",
   "status": "solution-present",
-  "description": "Logical coverage certificate: instantiate the explicit excluded-middle premise at the three typed diagnostic conditions and retain their exact joint-negation remainder. This does not prove philosophical-school exhaustiveness or establish any concrete objection's force. Excluded middle covers the three named diagnostic conditions only by retaining their exact joint-negation remainder. Coverage excluding that remainder remains a separate open proposition; no mutual exclusivity or philosophical-school exhaustiveness follows.",
+  "description": "Logical transcription / coverage certificate: instantiate the explicit excluded-middle premise at the three typed diagnostic conditions and retain their exact joint-negation remainder. This does not prove philosophical-school exhaustiveness or establish any concrete objection's force. Excluded middle covers the three named diagnostic conditions only by retaining their exact joint-negation remainder. Coverage excluding that remainder remains a separate open proposition; no mutual exclusivity or philosophical-school exhaustiveness follows.",
   "transcription": "instantiation"
 }
