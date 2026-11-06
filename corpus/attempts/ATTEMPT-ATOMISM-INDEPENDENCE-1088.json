@@ -1,0 +1,16 @@
+{
+  "id": "ATTEMPT-ATOMISM-INDEPENDENCE-1088",
+  "statement_ids": [
+    "STMT-ATOMISM-INDEPENDENCE-CERTIFICATE",
+    "STMT-TLP-PROPOSITION-IS-PICTURE",
+    "STMT-HUME-REGULARITY-TESTS"
+  ],
+  "date": "2026-11-06",
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "The #1010 inventory found no elementary-joint-saturation certificate. Reused Verificationism.Model.lawLanguage/LawSentence.eval and actual Nat\u2192Bool\u00d7Bool worlds, not a new syntax. Existing counterAt_preserves/ravensSetting.vary and Hume diagonal sampling do not distinguish full pair assignments from joint triple saturation. One parity subtype realizes all individual/pair assignments, necessarily obeys a non-tautological ternary law, and excludes a triple. Unrestricted old worlds supply saturation without the law. In the SAME constrained profile, r0/b0 are saturated and the selected r0/b0/r1 Boolean fragment translates compositionally by replacing r1 with XOR. A b1 difference under equal basis/triple prevents overclaiming representation of the whole world/vocabulary. Initial compile required Solution-only explicit evaluation reduction for equality transport. The axiom probe isolated propext to overlapping-pattern compilation of reanalyze; explicit constructor branches with a decidable r-index=1 test removed that dependency while preserving the substitution. Rejected weakening config[]. Frozen Challenge bytes, premises and semantic mapping unchanged; affected vocabulary/Solution rebuilt and final focused binding/axiom/Comparator/NanoDa run on the repaired inputs. Rejected full independence of all propositions, necessary-being refutation, historical attribution from picture-language records and the two-bit basis as total-world analysis. Exact reuse, joint models, selected scope and strongest reclassification/rejected-saturation rival persist in docs/notes/atomism-independence-1088.md. Root-premise delta none.",
+  "evidence": [
+    "ATOMISM-INDEPENDENCE-CERTIFICATE"
+  ],
+  "blocker": "Which actual claims are elementary, real metaphysical admission/saturation and the case-law-to-elementary-report dictionary remain OPEN. Parent1010 original historical coverage/classification is not completed by this analyst comparison."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "ATOMISM-INDEPENDENCE-CERTIFICATE",
+  "argument_id": "ATOMISM-INDEPENDENCE-CERTIFICATE",
+  "challenge_module": "TruthCore.Results.Logic.AtomismIndependence.Challenge",
+  "solution_module": "TruthCore.Results.Logic.AtomismIndependence.Solution",
+  "theorem": "TruthCore.Results.Logic.AtomismIndependence.checks",
+  "comparator_config": "results/ATOMISM-INDEPENDENCE-CERTIFICATE/comparator.json",
+  "status": "solution-present",
+  "description": "General saturation/necessary-constraint scope law, joint individual/pairwise-versus-triple parity controls, same-profile Selected-fragment reanalysis and explicit whole-world scope obstruction, reusing old LawSentence evaluation and valuation worlds. Not a transcription: concrete assignments and an excluded triple constrain the profile, and structural induction verifies reanalysis. Analyst formulation, attribution deferred; actual elementary classification/metaphysical applicability OPEN. No blanket atomism refutation, entire-world basis claim or root closure."
+}

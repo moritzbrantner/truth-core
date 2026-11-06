@@ -1,0 +1,17 @@
+{
+  "id": "ATOMISM-INDEPENDENCE-CERTIFICATE",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-ATOMISM-INDEPENDENCE-CERTIFICATE",
+  "inference_ids": [
+    "INF-ATOMISM-INDEPENDENCE-CERTIFICATE"
+  ],
+  "meaning": "One universal scope law plus joint parity, saturation, reanalysis and incomplete-world controls. Full joint elementary assignment is an explicit conditional configuration; pairwise variation and an independently saturated smaller basis survive a necessary ternary constraint. No root proposition is identified with an elementary atom.",
+  "definition_ids": [
+    "DEF-JOINT-REPORT-SATURATION",
+    "DEF-PAIRWISE-REPORT-VARIATION",
+    "DEF-SELECTED-BOOLEAN-BASIS-REANALYSIS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PAIRWISE-JOINT-AND-ANALYZED-INDEPENDENCE"
+  ]
+}

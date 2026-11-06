@@ -1,0 +1,9 @@
+{
+  "id": "INF-ATOMISM-INDEPENDENCE-CERTIFICATE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-ATOMISM-INDEPENDENCE-CERTIFICATE",
+  "rule": "report-saturation-equality-transport-and-existing-language-parity-reanalysis",
+  "meaning": "Transport necessary constraints through saturated report witnesses. Construct all pair/individual assignments in one parity-constrained subtype, exclude a concrete triple, and compare unrestricted saturation/law failure. Prove XOR evaluation in the existing syntax and compositional equivalence on Selected only; certify a saturated basis and an unrelated-coordinate difference in that same constrained profile.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
