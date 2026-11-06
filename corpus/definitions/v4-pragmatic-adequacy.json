@@ -1,0 +1,8 @@
+{
+  "id": "DEF-V4-PRAGMATIC-ADEQUACY",
+  "term": "task adequacy and minimum-channel practical adoption",
+  "definition": "Adequate f t reuses CorrectionCriterion.AdmitsCriterion for the task truth predicate through encode f. Adopted chooses an adequate proposal with least retained-coordinate count among the two candidates. Tasks ask the first or second coordinate. Switching a task is changing a goal, not observing the hidden coordinate. This stipulated pragmatic policy is not categorical normative authority, actual efficiency or a historical attribution.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.Verificationism.Proposal.Adopted",
+  "note": "Analyst formulation for #1008, attribution deferred. See docs/showcase-verificationism.md §5a."
+}

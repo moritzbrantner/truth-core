@@ -1,8 +1,8 @@
-# Showcase: logical positivism, systematically defeated (#1008)
+# Showcase: verificationist defeats and the surviving proposal reading (#1008)
 
 This page is a worked example of the defeat-by-consequence method of #1007. It
-takes one rival worldview at full strength, states each of its variants in its
-proponents' own words, derives the consequences in Lean, and says exactly which
+tests the recorded variants of a rival worldview, distinguishes source readings
+from analyst formulations, derives consequences in Lean, and says exactly which
 defeats count and what survives.
 
 - **Counted defeats:** a defeat counts only if it rests on established premises
@@ -59,6 +59,43 @@ The answer kinds are:
 | What is the status of the criterion itself? | U (V: the dilemma, if it is in scope) | U (V: the dilemma) | S: a definition (Ayer 1946; no admissible witness); V: the dilemma | S: a practical proposal, not an assertion |
 | Does the criterion exclude anything? | V: yes, too much (laws) | **R**: it excludes only sentences whose negation entails every observation statement | **R**: never a sentence together with its negation | V: only relative to the adopted language |
 | Ethics | S: emotivism (Ayer ch. VI, `AYER-LTL-EMOTIVISM`, no witness) | same | same | U |
+
+### Boundaries on the shared worldview questions
+
+The five rows above concern meaning criteria. They do not supply a replacement
+account of the rest of the worldview. The owner’s **no win by subtraction**
+rule in [the case principles](catholic-case.md#owner-principles-binding) permits
+an unknown answer only when it is recorded as **unexplained**. The following map
+uses the existing question IDs from
+[`Comparison.ExcludedMiddle`](../TruthCore/Comparison/ExcludedMiddle.lean),
+[`Comparison.Fideism`](../TruthCore/Comparison/Fideism.lean) and
+[`Comparison.Metaethics`](../TruthCore/Comparison/Metaethics.lean). Cosmic order
+and mind are the additional prose categories already listed in the first of
+those comparisons; no new question IDs or historical answers are introduced.
+
+Here **U** means *unexplained by the criterion or proposal alone, as recorded in
+this showcase*. It is not a positive denial, a claim that proponents never
+addressed the question, or a reason to count a route premise as established.
+The same boundary applies separately to V1, V2, V3 and V4.
+
+| Shared question or recorded category | V1 | V2 | V3 | V4 | Boundary |
+|---|---|---|---|---|---|
+| `Q-RELIGIOUS-LANGUAGE` | see above | see above | see above | see above | The God-sentence row records meaning verdicts and their limits; it does not establish God’s existence or nonexistence. |
+| `Q-EXISTENCE`, `Q-ULTIMATE` | U | U | U | U | No replacement explanation of why anything exists or whether there is a first cause. |
+| `Q-CHANGE`, `Q-FIRST-MOVER` | U | U | U | U | No replacement account of change or the origin of motion; unexplained does not mean that change or a first mover is denied. |
+| `Q-ONE-FIRST-MOVER`, `Q-ATTRIBUTES` | U | U | U | U | No derivation of uniqueness or divine attributes. |
+| Cosmic order; mind | U | U | U | U | No replacement account of order, consciousness or cognition is supplied by these meaning rules. |
+| `Q-TRUTH` | U | U | U | U | The formal comparison supplies truth conditions; this is not a theory of what makes thoughts or propositions true. |
+| `Q-EXCLUDED-MIDDLE`, `Q-DECIDABLE-CASES` | U | U | U | U | The proof metatheory and finite Boolean model do not supply each variant’s independent answer to these logical questions. No denial of excluded middle is attributed. |
+| `Q-MORAL-GROUNDING`, `Q-ROBUST-TRUTH` | U | U | U | U | The emotivism lead above is not a replacement account of objective moral grounding or robust truth. |
+| `Q-MORAL-LANGUAGE-VALIDITY`, `Q-MORAL-ERROR`, `Q-MORAL-DISAGREEMENT`, `Q-MORAL-PROGRESS` | U | U | U | U | No theory-specific answer is derived here; the separate metaethical investigations are not silently imported as these variants’ commitments. |
+| `Q-NORMATIVE-REASONS`, `Q-EVIL-PREMISE` | U | U | U | U | No categorical reason or verdict on the truth of the evil premise follows. The V4 task-cost policy is only a declared practical policy. |
+| `Q-REVELATION`, `Q-JESUS-AND-CHURCH` | U | U | U | U | No replacement historical account or finding about revelation, Jesus, the resurrection or Church authority. Questions about meaning do not settle that evidence as false. |
+| `Q-CRITICISM` | U | U | U | U | The tests here criticize specific meaning criteria; no general account of the scope or authority of criticism is supplied. |
+
+Thus the showcase records logical defeats of specified criterion packages and a
+bounded surviving proposal model, while leaving these broader explanatory
+burdens visible. Incompleteness itself is not a refutation (D-I, #1007).
 
 ## 2. Defeat 3 (centrepiece): Church's trivialization of V3
 
@@ -232,7 +269,7 @@ principle.
 - **Proposal reading.** The distinction between adopting a rule and asserting
   a sentence (`docs/ayer-verification-boundary.md`) is what V4 builds on.
 
-## 5. Defeat 4: the proposal reading (V4) is not defeated here, and is toothless
+## 5. The proposal reading (V4) survives the tested objections
 
 **Objects to self-application.** Carnap's reply is that adopting an empiricist
 language is "a matter of a practical decision", and "there is no such belief
@@ -254,13 +291,13 @@ shows only that if the scope premise is dropped, nothing follows.
   not deprive it of truth conditions.
 
 **No defeat applies, and no verdict on theology follows from the model.**
-None of defeats 1–3 binds V4 as recorded here, but V4 itself is not encoded
-as a configuration, so its consistency as a complete position is not
-certified. The countermodel shows only that the general inference from
+None of defeats 1–3 binds V4 as recorded here. Section 5a supplies a joint
+model of a declared proposal reconstruction; it does not certify Carnap’s
+complete historical position. The earlier countermodel shows only that the general inference from
 "fails the adopted criterion" to "untrue" fails; it says nothing specifically
-about theological sentences. Read as a recommendation rather than a truth, V4
-gives no ground for the claim that theology is meaningless beyond "not a
-sentence of the recommended language".
+about theological sentences. Read as a recommendation rather than a truth, the proposal alone
+gives no ground for a language-independent claim that theology is meaningless.
+The particular model below contains no theological proposition.
 
 **Search for a bridge against V4.** At the owner's request
 (`ATTEMPT-CARNAP-V4-BRIDGE-1008`, outcome: blocked), I tried three routes:
@@ -289,6 +326,67 @@ No honest bridge was found. V4 stays open.
 **Status (D-I, #1007).** It neither defends nor attacks any route premise.
 That it is undefeated here is recorded, and it has no cost effect.
 
+## 5a. A joint model of the declared proposal commitments
+
+`VERIFICATIONISM-PROPOSAL-JOINT-SURVIVOR` fills the earlier gap between separate
+scope/verdict counterexamples and a joint survivor artifact. It is an **analyst
+formulation with attribution deferred**, prompted by the existing Carnap records
+on language-relative membership, practical acceptance and empirical efficiency.
+It is not a complete worldview model or a verification of those historical
+interpretations. The blocked V4 defeat search above remains blocked.
+
+The artifact reuses `VerdictSilent.twoCoordinate` and `observableFrame`. A world
+has an observed Boolean coordinate and an independent second coordinate; ambient
+contents are Boolean truth functions. Two proposed object languages retain
+one coordinate or both. Membership in the first language requires invariance
+under changing the second coordinate; the expanded language admits all ambient
+contents. Both are closed under negation, conjunction and disjunction and admit
+all ambient validities. A contingent observed content is included. The hidden
+content and its negation are excluded by the first language, and its partial
+object-language evaluator returns `none` for them. The richer comparison
+metalanguage evaluates the hidden content both true and false at worlds having
+the same retained data. This does **not** attribute to Carnap a verdict that
+excluded metaphysics has cognitive meaning. The hidden coordinate is not God,
+an external-world thesis, or any other theological proposition.
+
+Practical adoption has a concrete job. A task asks for the truth of one of the
+two coordinate contents. Adequacy is the existing `CorrectionCriterion.AdmitsCriterion`
+through the retained representation. The proof imports
+`CorrectionCriterion.characterization.1` to connect exact representation with
+invariance on equal-data fibers. Practical cost is the number of independently
+retained Boolean coordinates: one versus two. The explicit policy chooses a
+minimum-cost adequate proposal, yielding:
+
+| Task goal | One-coordinate proposal | Two-coordinate proposal | Policy choice |
+|---|---|---|---|
+| First-coordinate question | adequate, cost 1 | adequate, cost 2 | first proposal uniquely |
+| Second-coordinate question | inadequate | adequate, cost 2 | expanded proposal uniquely |
+
+The hidden-task impossibility follows from equal retained data with opposite
+answers, not from an assigned disutility. Changing the task changes a supplied
+goal; it is not an empirical observation of the hidden coordinate. This cost
+policy is a stipulated pragmatic criterion, not a categorical epistemic ought,
+a measured psychological preference, or a historical claim about Carnap.
+
+Adopting and asserting are distinct action constructors. The type separation
+supplies no universal assertion of the membership rule and no theorem that
+nonassertion puts a formulation outside its own scope. Scope claims still need
+their own bridge. The model jointly shows that practical adoption, nonempty
+Boolean sublanguages and language-relative exclusions can coexist. It also
+refutes the added bridges that excluded content must be ambiently false, or
+that the empirical language admits every ambient content. Opposite ambient
+truth values remain possible under the same empirical-task adoption. The
+certificate composes the previous `criterionVerdictSilentOnTruth` result rather
+than restating it as a new premise.
+
+**Premise comparison.** The certificate has no open logical premises; it proves
+facts about its declared finite-coordinate interpretation. Membership, task
+adequacy, channel cost and the choice policy are explicit definitions. It
+establishes no actual efficiency, philosophical meaning criterion, categorical
+norm or root premise. The three prose Carnap records remain separate from the
+analyst’s formal statement. Frozen Challenge SHA-256:
+`a23e7670a1b228af139ba9c772dbb64020772335245569340f379a714811c06e`.
+
 ## 6. Defeat 5: the movement's own retrospective (optional)
 
 **Hempel's verdict.** In 1950 Hempel conceded that it was "useless to continue
@@ -308,7 +406,7 @@ proofs.
 | 2 universal laws | V1 package with testable laws | **established**: counted refutation from the owner-approved weak closure floor item |
 | 3″ 1946 with closure | V3 exclusion of a negated sentence | **established**: counted refutation from the owner-approved strong closure floor item |
 | 1 self-application | V1–V3 | conditional on three open premises; for V3 superseded by Church |
-| 4 proposal | V4 | **V4 not defeated** (bridge search blocked, `ATTEMPT-CARNAP-V4-BRIDGE-1008`): the scope objection needs an open bridge; the countermodel blocks only the inference from failing the criterion to untruth; V4's consistency is not certified (D-I: no route effect) |
+| 4 proposal | V4 | **V4 not defeated** (bridge search blocked, `ATTEMPT-CARNAP-V4-BRIDGE-1008`): the scope objection needs an open bridge; the countermodel blocks only the inference from failing the criterion to untruth; the declared §5a reconstruction has a joint model, but no full historical V4 consistency claim follows (D-I: no route effect) |
 | 5 Hempel | the programme | sourced testimony (SEP) |
 
 **Frontier.** Every step left the frontier unchanged (`frontier-diff`), so
