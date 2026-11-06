@@ -218,7 +218,7 @@ def decidingProfile (p : Prop) : Profile Bool Bool where
     ExistsAt := fun w x => w = true ∧ (x = true ∨ p)
     Causes := fun _ _ _ => False
   }
-  concrete := fun _ => True
+  concrete := fun _ => True  -- category-constant: intended (all-concrete inventory: the model tests grounding/modal structure, not the concrete/abstract line; a concrete conclusion here is no evidence that anything is concrete)
   grounds := fun _ y x => y = false ∧ x = true
 
 theorem decidingWF (p : Prop) : ActualGroundingWF (decidingProfile p) true := by
@@ -263,7 +263,7 @@ metaphysically possible. -/
 /-- One candidate existing at every world, with no grounds. -/
 def necessaryProfile : Profile Bool Unit :=
   { ontic := { frame := ⟨fun _ _ => True⟩, ExistsAt := fun _ _ => True, Causes := fun _ _ _ => False }
-    concrete := fun _ => True
+    concrete := fun _ => True  -- category-constant: intended (all-concrete inventory: the model tests grounding/modal structure, not the concrete/abstract line; a concrete conclusion here is no evidence that anything is concrete)
     grounds := fun _ _ _ => False }
 
 /-- `ActualGroundingWF` holds whenever `grounds w` has no edge at all. -/
@@ -295,7 +295,7 @@ def CycleHornModel : Prop :=
 its successor. -/
 def chainProfile : Profile Bool Nat :=
   { ontic := { frame := ⟨fun _ _ => True⟩, ExistsAt := fun w _ => w = true, Causes := fun _ y x => y = x + 1 }
-    concrete := fun _ => True
+    concrete := fun _ => True  -- category-constant: intended (all-concrete inventory: the model tests grounding/modal structure, not the concrete/abstract line; a concrete conclusion here is no evidence that anything is concrete)
     grounds := fun _ y x => y = x + 1 }
 
 /-- Chain variant of the third horn: not well-founded, no individual grounds
@@ -318,7 +318,7 @@ def EmptyControl : Prop :=
 /-- `true` exists at both worlds, `false` only at world `true`; no grounds. -/
 def overlapProfile : Profile Bool Bool :=
   { ontic := { frame := ⟨fun _ _ => True⟩, ExistsAt := fun w x => x = true ∨ w = true, Causes := fun _ _ _ => False }
-    concrete := fun _ => True
+    concrete := fun _ => True  -- category-constant: intended (all-concrete inventory: the model tests grounding/modal structure, not the concrete/abstract line; a concrete conclusion here is no evidence that anything is concrete)
     grounds := fun _ _ _ => False }
 
 /-- The first two horns together: well-founded, with a necessary concretum and a
@@ -345,7 +345,7 @@ def RestrictedWeakerControl : Prop :=
 `true`. -/
 def relationProfile : Profile Bool Bool :=
   { ontic := { frame := ⟨fun _ _ => True⟩, ExistsAt := fun w _ => w = true, Causes := fun _ y x => y = false ∧ x = true }
-    concrete := fun _ => True
+    concrete := fun _ => True  -- category-constant: intended (all-concrete inventory: the model tests grounding/modal structure, not the concrete/abstract line; a concrete conclusion here is no evidence that anything is concrete)
     grounds := fun _ y x => y = true ∧ x = false }
 
 /-- A grounding root need not be a causal root, nor conversely: in one model
@@ -371,7 +371,7 @@ def CounterpartControl : Prop :=
 /-- One candidate existing only at world `true`, in a frame with no accessibility. -/
 def noAccessProfile : Profile Bool Unit :=
   { ontic := { frame := ⟨fun _ _ => False⟩, ExistsAt := fun w _ => w = true, Causes := fun _ _ _ => False }
-    concrete := fun _ => True
+    concrete := fun _ => True  -- category-constant: intended (all-concrete inventory: the model tests grounding/modal structure, not the concrete/abstract line; a concrete conclusion here is no evidence that anything is concrete)
     grounds := fun _ _ _ => False }
 
 /-- The necessary horn is accessibility-relative: with no accessible world a

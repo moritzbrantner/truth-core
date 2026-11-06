@@ -81,7 +81,7 @@ not defined by concreteness or by currently having an outgoing edge. The old
 inventory contains no abstract members, not a newly invented abstract roster. -/
 def doubledExample : IntendedProfile Bool (Bool × (Bool × Bool)) where
   underlying := BruteFoundationDoubling.doubled BruteFoundationDoubling.exampleSource
-  abstract := fun _ => False
+  abstract := fun _ => False  -- category-constant: intended (old inventory has no abstract candidate; meets the #1094 contract but supplies no Anchors, so not an intended interpretation under #1103)
   hasCausalPower := fun w x =>
     (BruteFoundationDoubling.doubled BruteFoundationDoubling.exampleSource).ontic.ExistsAt w x ∧
       x.2.2 = false
@@ -104,7 +104,7 @@ root-role power and the original causal/grounding edges are preserved at the
 same worlds; no modal assignment or identity convention is changed. -/
 def rigidExample : IntendedProfile Bool (Bool × (Bool × Bool)) where
   underlying := GroundingIdentityProfile.rigid BruteFoundationDoubling.exampleSource
-  abstract := fun _ => False
+  abstract := fun _ => False  -- category-constant: intended (old inventory has no abstract candidate; meets the #1094 contract but supplies no Anchors, so not an intended interpretation under #1103)
   hasCausalPower := fun w x =>
     (GroundingIdentityProfile.rigid BruteFoundationDoubling.exampleSource).ontic.ExistsAt w x ∧
       x.2.2 = false

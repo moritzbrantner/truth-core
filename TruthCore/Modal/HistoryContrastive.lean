@@ -54,7 +54,7 @@ is true exactly when its bearer (r,0) exists; otherwise it is always true. -/
 def reasons (internal : Bool) : ExplanationProfile Bool (Bool × Nat) Bool where
   reality := {
     ontic := chains.ontic
-    concrete := fun _ => True
+    concrete := fun _ => True  -- category-constant: intended (all-concrete inventory: the model switches only reason truth, not the concrete/abstract line)
     grounds := fun _ _ _ => False
   }
   reasonPresent := fun w r => if internal then r = w else True

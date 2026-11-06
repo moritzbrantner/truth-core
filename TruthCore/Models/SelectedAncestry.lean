@@ -21,7 +21,7 @@ def brute : Profile Bool Unit where
     frame := ⟨fun _ _ => True⟩
     ExistsAt := fun w _ => w = false
     Causes := fun _ _ _ => False }
-  concrete := fun _ => True
+  concrete := fun _ => True  -- category-constant: intended (all-concrete inventory: the model tests grounding/modal structure, not the concrete/abstract line; a concrete conclusion here is no evidence that anything is concrete)
   grounds := fun _ _ _ => False
 
 /-- One source-free successor chain of actual contingent candidates. -/
@@ -30,7 +30,7 @@ def chain : Profile Bool Nat where
     frame := ⟨fun _ _ => True⟩
     ExistsAt := fun w _ => w = false
     Causes := fun _ _ _ => False }
-  concrete := fun _ => True
+  concrete := fun _ => True  -- category-constant: intended (all-concrete inventory: the model tests grounding/modal structure, not the concrete/abstract line; a concrete conclusion here is no evidence that anything is concrete)
   grounds := fun w source downstream => w = false ∧ source = downstream + 1
 
 inductive Node where
@@ -44,7 +44,7 @@ def combined : Profile Bool Node where
     frame := ⟨fun _ _ => True⟩
     ExistsAt := fun w x => x = .root ∨ w = false
     Causes := fun _ _ _ => False }
-  concrete := fun _ => True
+  concrete := fun _ => True  -- category-constant: intended (all-concrete inventory: the model tests grounding/modal structure, not the concrete/abstract line; a concrete conclusion here is no evidence that anything is concrete)
   grounds := fun w source downstream => w = false ∧
     ((source = .root ∧ downstream = .target) ∨
       ∃ n, source = .chain (n + 1) ∧ downstream = .chain n)

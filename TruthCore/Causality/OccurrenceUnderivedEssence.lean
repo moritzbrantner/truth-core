@@ -43,7 +43,7 @@ def SameWitnessEssenceIdentity (m : TruthCore.Causality.BruteFoundationBoundary.
 necessary recipient true, and its ground is the actual necessary source false. -/
 def recipientGrounding : TruthCore.Causality.BruteFoundationBoundary.Profile Bool Bool where
   ontic := TruthCore.Models.NecessarilyUnderived.varying
-  concrete := fun _ => True
+  concrete := fun _ => True  -- category-constant: intended (all-concrete inventory: the model tests grounding/modal structure, not the concrete/abstract line; a concrete conclusion here is no evidence that anything is concrete)
   grounds := TruthCore.Models.NecessarilyUnderived.varyingSupport
 
 def recipientBears (b : Bool) (_ : Unit) : Prop := b = true
