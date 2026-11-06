@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Alternatives.NaturalReasonHorizon.Witness.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.NaturalReasonHorizon.Witness.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Alternatives.NaturalReasonHorizon.Witness.councilSuppliesNaturalMove"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

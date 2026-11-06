@@ -1,0 +1,14 @@
+{
+  "id": "STMT-OUTSIDER-NATURAL-REASON-USE-EXISTS",
+  "paraphrase": "Some agent outside the selected religious practice uses a natural-knowability move. Such an outsider can still be a theist; this is not a claim that reason is neutral to every worldview.",
+  "lean_declaration": "TruthCore.Alternatives.NaturalReasonHorizon.OutsiderNaturalUseExists",
+  "definition_ids": [
+    "DEF-NATURAL-REASON-PROFILE-COMPARISON",
+    "DEF-NATURAL-REASON-SHARED",
+    "DEF-NATURAL-REASON-PRACTICE-INTERNAL",
+    "DEF-CONCILIAR-DEFINITION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NATURAL-REASON"
+  ]
+}

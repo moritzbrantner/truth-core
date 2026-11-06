@@ -1,0 +1,10 @@
+{
+  "id": "REL-UNIFORM-NATURAL-REJECTION-STRENGTHENS-SHARED-REJECTION",
+  "subject_kind": "statement",
+  "subject_id": "STMT-UNIFORM-NATURAL-REASON-BRIDGES-REJECTED",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "STMT-SHARED-NATURAL-REASON-BRIDGE-REJECTED",
+  "verification_result_id": "UNIFORM-NATURAL-REASON-REJECTION-INCLUDES-SHARED",
+  "note": "Rejecting both uniform readings includes rejecting the shared bridge; no stronger profile is inferred from the weak rejection."
+}
