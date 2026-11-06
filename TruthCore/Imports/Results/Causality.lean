@@ -162,3 +162,4 @@ import TruthCore.Results.Causality.WholeRosterRootEquivalence.Solution
 import TruthCore.Results.Causality.WorldIndexedSources.Solution
 import TruthCore.Results.Causality.WorldLocalGroundingDoubling.Solution
 import TruthCore.Results.Causality.WorldSourceRegress.Solution
+import TruthCore.Results.Causality.WorldwiseCompositeGround.Solution

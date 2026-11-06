@@ -1,0 +1,25 @@
+{
+  "id": "STMT-WORLDWISE-COMPOSITE-GROUND",
+  "paraphrase": "One five-role Bool-world interpretation has the same rigid necessary concrete whole at both worlds, with two disjoint actually existing contingent proper parts at EACH world and replacement of the pair across worlds. The required IntendedProfile and exact same direct support satisfy P2At and P3At at every world. Each actual-domain subtype inherits existing nonempty-Bool-subset parthood; standard StrongSupplementation, Sum2 Fusion of its active pair into the whole, standard overlap-disjointness and actual endpoint guards hold jointly. No actual proper-part candidate is necessary or proper at every world. Whole-first support has no reverse part-to-whole support. This structural survivor refutes automatic worldwise part-freeness from this P2/P3 package, not fixed-order persistence theorems, intrinsic adequacy, reality fit or Catholicism. Whole necessity/support are assignments, not a new NE derivation.",
+  "lean_declaration": "TruthCore.Causality.WorldwiseCompositeGround.ReplacementCertificate",
+  "definition_ids": [
+    "DEF-WORLDWISE-COMPOSITE-GROUND",
+    "DEF-CAUSAL-EXISTENTIAL-INTENDED-PROFILE",
+    "DEF-PRESENT-ESSE-SUPPORT",
+    "DEF-MEREOLOGICAL-SUPPLEMENTATION",
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-MODAL-CONTINGENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-POWER-CAPACITY-EXERCISE",
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-SUM1-AND-SUM2-FUSION",
+    "DISAMB-DOWNWARD-ACTUALITY-AND-FIXED-WHOLE",
+    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE",
+    "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY"
+  ]
+}
