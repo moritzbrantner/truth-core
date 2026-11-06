@@ -1,0 +1,11 @@
+{
+  "id": "INF-COMPOSER-TEMPORAL-DEFINITION-FORK",
+  "input_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "output_statement_id": "STMT-EFFICIENT-ATTRIBUTION-TEMPORAL-DEFINITION-FORK",
+  "rule": "constructive-proof",
+  "meaning": "Structural coverage transcription: explicit excluded middle yields named calibration coverage or its precise remainder; named philosophical coverage is not established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

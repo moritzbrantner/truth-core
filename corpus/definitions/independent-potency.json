@@ -1,0 +1,8 @@
+{
+  "id": "DEF-INDEPENDENT-POTENCY",
+  "term": "independently supplied potency predicate (generic and rival configurations)",
+  "definition": "The generic InPotency x r is an independently supplied relation between a being and a respect. No capacity-without-act equation is built into it. Generic results state their constraints as explicit hypotheses; omission models and Night configurations can therefore test their independence, including simultaneous act and potency. It is not interchangeable with the adopted DEF-POTENCY until a PotencyIsUnactualizedCapacityReading equation is supplied. The original frozen Challenges and their independent countermodels retain this interpretation.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel",
+  "note": "Preserves the general model vocabulary for comparison after the owner adopted unactualized capacity in #1007. The formal non-overlap theorem for the adopted function does not prove generic non-overlap. Example: the Night self-mover assigns both act and potency to one individual in one respect. Counterexample to identifying the predicates: that assignment cannot be unactualized capacity relative to that same act. The Night residual and no-reduction examples that already satisfy non-overlap may still admit an adopted-capacity interpretation; the definition does not refute their priority or causal theses. Independent applicability remains OPEN; historical attribution of particular models is deferred."
+}

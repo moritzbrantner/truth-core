@@ -20,11 +20,14 @@
     "DEF-INFINITE",
     "DEF-RECEPTIVE-POTENCY"
   ],
-  "disambiguation_ids": [
+  "disambiguation_ids": ["DISAMB-POTENCY",
     "DISAMB-ESSE-LIMITATION",
     "DISAMB-ESSE-RECEPTION",
     "DISAMB-ESSENCE",
     "DISAMB-INFINITY",
     "DISAMB-RECEPTIVE-POTENCY"
-  ]
+  ],
+  "strong_version_needed": {
+    "STMT-ESSE-RECEIVED-IN-OWN-ESSENCE": "Preserved frozen original result interface. Its general all-bearer premise is stronger than necessary for the conclusion; new SUBSISTENT-INFINITY-FROM-IDENTITY-SCOPED-RECEPTION is the preferred weaker conditional route and imports this proof over the identity-bearing subtype. No philosophical necessity of the stronger version is asserted."
+  }
 }

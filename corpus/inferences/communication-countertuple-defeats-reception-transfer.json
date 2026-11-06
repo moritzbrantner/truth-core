@@ -1,0 +1,11 @@
+{
+  "id": "INF-COMMUNICATION-COUNTERTUPLE-DEFEATS-RECEPTION-TRANSFER",
+  "input_statement_ids": [
+    "STMT-UNITED-ESSE-COMMUNICATION-HAS-NONRECEPTIVE-COUNTERCASE"
+  ],
+  "output_statement_id": "STMT-UNITED-ESSE-COMMUNICATION-RECEPTION-TRANSFER-FAILS",
+  "rule": "constructive-proof",
+  "meaning": "The explicit union/communication/same-act/nonreception countertuple contradicts the universal same-sense transfer. It need not decide the separately selected tuple.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NOT-REALIST-ROBUST-TRUTH-APT",
+  "term": "failure of universal robust moral truth-aptness",
+  "definition": "NotRealistRobustTruthApt Moral Robust is exactly the negation of the existing RealistRobustTruthAptReading under the same predicates. It is not identified with the stronger raw quasi-realist commitment, which additionally asserts minimal aptness and may hold vacuously with no moral contents.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.MetaethicsTruthAptRivalBoundary.NotRealistRobustTruthApt",
+  "note": "Analyst logical endpoint, attribution deferred. See docs/notes/metaethics-truth-apt-rival-boundary.md."
+}

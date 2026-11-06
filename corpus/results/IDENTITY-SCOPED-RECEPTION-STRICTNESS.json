@@ -1,0 +1,10 @@
+{
+  "id": "IDENTITY-SCOPED-RECEPTION-STRICTNESS",
+  "argument_id": "IDENTITY-SCOPED-RECEPTION-STRICTNESS",
+  "challenge_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.IdentityScopeControl.Challenge",
+  "solution_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.IdentityScopeControl.Solution",
+  "theorem": "TruthCore.Results.Causality.EsseReceptionDefinitions.IdentityScopeControl.identityScopeControl",
+  "comparator_config": "results/IDENTITY-SCOPED-RECEPTION-STRICTNESS/comparator.json",
+  "status": "solution-present",
+  "description": "Finite strictness profile: broad own-essence fails at an actual nonidentity soul-labelled reception tuple while the identity-scoped premise holds and an identity candidate exists. This does not claim the entire five-premise infinity bundle."
+}

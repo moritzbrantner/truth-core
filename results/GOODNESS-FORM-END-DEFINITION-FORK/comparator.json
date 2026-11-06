@@ -1,0 +1,10 @@
+{
+  "challenge_module": "TruthCore.Results.Metaethics.GoodnessFormEndFork.Challenge",
+  "solution_module": "TruthCore.Results.Metaethics.GoodnessFormEndFork.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Metaethics.GoodnessFormEndFork.definitionFork",
+    "TruthCore.Results.Metaethics.GoodnessFormEndFork.failureElimination"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

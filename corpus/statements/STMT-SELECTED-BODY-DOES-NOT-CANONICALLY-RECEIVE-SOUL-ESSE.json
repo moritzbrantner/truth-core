@@ -1,0 +1,14 @@
+{
+  "id": "STMT-SELECTED-BODY-DOES-NOT-CANONICALLY-RECEIVE-SOUL-ESSE",
+  "paraphrase": "The canonical reception relation fails for the selected state/soul/bodily-recipient tuple. Does not deny the independent communication relation or prove the broad own-essence principle.",
+  "lean_declaration": "TruthCore.Causality.EsseReceptionDefinitionFork.SelectedNonReception",
+  "definition_ids": [
+    "DEF-UNITED-ESSE-RECEPTION-INTERPRETATION-PROFILE",
+    "DEF-ESSE-RECEIVED-IN",
+    "DEF-ESSENCE-THOMISTIC-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSE-RECEPTION",
+    "DISAMB-ESSENCE"
+  ]
+}

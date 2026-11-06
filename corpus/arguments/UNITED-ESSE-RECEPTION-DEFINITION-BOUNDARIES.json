@@ -1,0 +1,18 @@
+{
+  "id": "UNITED-ESSE-RECEPTION-DEFINITION-BOUNDARIES",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-UNITED-ESSE-RECEPTION-INTERPRETATION-CONTROLS",
+  "inference_ids": [
+    "INF-UNITED-ESSE-RECEPTION-DEFINITION-BOUNDARIES"
+  ],
+  "meaning": "Six exact finite controls distinguish union, act identity, communication, canonical reception, recipient identity and eligibility scope. No actual anthropology, causal dependence or metaphysical possibility is established.",
+  "definition_ids": [
+    "DEF-UNITED-ESSE-RECEPTION-INTERPRETATION-PROFILE",
+    "DEF-ESSE-RECEIVED-IN",
+    "DEF-ESSENCE-THOMISTIC-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSE-RECEPTION",
+    "DISAMB-ESSENCE"
+  ]
+}

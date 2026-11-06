@@ -1,0 +1,10 @@
+{
+  "id": "COMPOSER-TEMPORAL-PAST-SELF-COUNTERMODEL",
+  "argument_id": "COMPOSER-TEMPORAL-PAST-SELF-COUNTERMODEL",
+  "challenge_module": "TruthCore.Results.Causality.ComposerTemporalDefinitions.PastSelfCountermodel.Bound.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ComposerTemporalDefinitions.PastSelfCountermodel.Bound.Solution",
+  "theorem": "TruthCore.Results.Causality.ComposerTemporalDefinitions.PastSelfCountermodel.Bound.pastSelfCountermodel",
+  "comparator_config": "results/COMPOSER-TEMPORAL-PAST-SELF-COUNTERMODEL/comparator.json",
+  "status": "solution-present",
+  "description": "Finite countermodel to replacing all-time no-self by current no-self in the historical route. Keeps all other composition premises and a composite nonvacuous."
+}

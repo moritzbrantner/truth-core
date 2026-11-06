@@ -1,0 +1,10 @@
+{
+  "id": "REL-BOETHIAN-CALIBRATION-STRENGTHENS-RECOGNITION",
+  "subject_kind": "statement",
+  "subject_id": "STMT-PRIMITIVE-ETERNITY-BOETHIAN-DEFINITION",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "STMT-BOETHIAN-ETERNITY-SUFFICES-FOR-PRIMITIVE-ETERNITY",
+  "verification_result_id": "BOETHIAN-CALIBRATION-STRENGTHENS-RECOGNITION",
+  "note": "Sole-premise exact strength registration; primitive composition uses the weaker one-way recognition."
+}

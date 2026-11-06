@@ -1,0 +1,10 @@
+{
+  "id": "PRIMITIVE-ETERNITY-DEFINITION-BOUNDARIES",
+  "argument_id": "PRIMITIVE-ETERNITY-DEFINITION-BOUNDARIES",
+  "challenge_module": "TruthCore.Results.Causality.EternityDefinitions.Controls.Challenge",
+  "solution_module": "TruthCore.Results.Causality.EternityDefinitions.Controls.Solution",
+  "theorem": "TruthCore.Results.Causality.EternityDefinitions.Controls.controls",
+  "comparator_config": "results/PRIMITIVE-ETERNITY-DEFINITION-BOUNDARIES/comparator.json",
+  "status": "solution-present",
+  "description": "Finite strictness, missing-recognition, overlap and remainder interpretations. The three existing typed eternity premises are jointly nonvacuous in the missing-recognition control, while the exact primitive target is false."
+}

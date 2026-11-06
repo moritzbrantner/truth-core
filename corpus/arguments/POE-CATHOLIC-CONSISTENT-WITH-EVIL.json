@@ -24,7 +24,7 @@
     "STMT-GOD-DRAWS-GOOD-FROM-EVERY-EVIL",
     "STMT-EVIL-IS-FOUND-IN-THINGS"
   ],
-  "disambiguation_ids": [
+  "disambiguation_ids": ["DISAMB-POTENCY",
     "DISAMB-AD1-GOOD-FROM-EVIL"
   ]
 }

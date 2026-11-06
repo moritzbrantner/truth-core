@@ -1,0 +1,13 @@
+{
+  "id": "STMT-GOODNESS-FORM-END-DEFINITION-FORK",
+  "paraphrase": "For every fixed typed form/end profile, goodness exactly coextends with due actuality, or some goodness is surplus beyond due actuality, or some due actuality is omitted from goodness. Coverage uses excluded middle; surplus and omission may overlap. This is not a claim that named historical schools exhaust the definitions.",
+  "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.DefinitionFork",
+  "definition_ids": [
+    "DEF-FORM-END-DUE-PERFECTION",
+    "DEF-GOODNESS-DUE-ACTUALITY-PROPOSITION",
+    "DEF-GOODNESS-SURPLUS-OMISSION-CELLS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOODNESS-UNRESTRICTED-DUE-AND-ULTIMATE"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "EP-ROLE-INDEPENDENT-STRENGTHENS-ORDINARY",
+  "premise_statement_ids": [
+    "STMT-THERE-ARE-PREFERENCE-INDEPENDENT-EPISTEMIC-REASONS"
+  ],
+  "conclusion_statement_id": "STMT-THERE-ARE-ORDINARY-ROLE-EPISTEMIC-REASONS",
+  "inference_ids": [
+    "INF-EP-ROLE-INDEPENDENT-STRENGTHENS-ORDINARY"
+  ],
+  "meaning": "Forget the universal force conjunct of an existing preference-independent reason to retain its ordinary-role witness. This registers a strength order, not an argument that either existential is actually instantiated.",
+  "definition_ids": [
+    "DEF-EPISTEMIC-REASON-DEFINITION-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EPISTEMIC-REASON-EXISTENCE-ROLE-AUTHORITY"
+  ]
+}

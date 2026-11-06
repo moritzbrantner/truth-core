@@ -1,0 +1,11 @@
+{
+  "id": "BOETHIAN-CALIBRATION-STRENGTHENS-RECOGNITION",
+  "argument_id": "BOETHIAN-CALIBRATION-STRENGTHENS-RECOGNITION",
+  "challenge_module": "TruthCore.Results.Causality.EternityDefinitions.RecognitionStrength.Challenge",
+  "solution_module": "TruthCore.Results.Causality.EternityDefinitions.RecognitionStrength.Solution",
+  "theorem": "TruthCore.Results.Causality.EternityDefinitions.RecognitionStrength.recognitionStrength",
+  "comparator_config": "results/BOETHIAN-CALIBRATION-STRENGTHENS-RECOGNITION/comparator.json",
+  "status": "solution-present",
+  "description": "Exact strength registration: biconditional operational calibration implies only the one-way recognition actually needed by the root route; converse fails in the controls.",
+  "transcription": "instantiation"
+}

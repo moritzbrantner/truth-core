@@ -1,0 +1,11 @@
+{
+  "id": "EP-ROLE-NAMED-DEFINITION-ELIMINATION",
+  "argument_id": "EP-ROLE-NAMED-DEFINITION-ELIMINATION",
+  "challenge_module": "TruthCore.Results.Logic.EpistemicReasonDefinitions.NamedElimination.Challenge",
+  "solution_module": "TruthCore.Results.Logic.EpistemicReasonDefinitions.NamedElimination.Solution",
+  "theorem": "TruthCore.Results.Logic.EpistemicReasonDefinitions.NamedElimination.namedDefinitionElimination",
+  "comparator_config": "results/EP-ROLE-NAMED-DEFINITION-ELIMINATION/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional definition-case elimination: named coverage plus rejection of the bare production and reward calibrations leaves ordinary or independent role. Reuse the checked calibration/strength results to obtain an ordinary witness from thin F6 and presentation. Every coverage/definition rejection is explicit; no philosophical winner or root closure is asserted.",
+  "transcription": "instantiation"
+}

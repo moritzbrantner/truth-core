@@ -122,3 +122,67 @@ Owner decisions on #352 (2026-11-03): record the stating claim, then split it (o
 - **(2) actuality only insofar as being.** No more basic reading was found in Θ, ST I q.3 a.4, q.4 a.1 or q.5 a.1 (finding 6).
 - **(6), (7), (8).** They now have Aristotelian supports (Θ.8; *Physics* III.1, III.3). (8), the per se premise, is outside act/potency proper and is better handled with the per se ordering work.
 - Read Θ.2, Θ.4, Θ.5, Θ.7 and Θ.9 for further constraints on `CanBe`.
+
+
+## Owner-adopted potency configuration (2026-11-06, #1007)
+
+The [owner definition decision](https://github.com/moritzbrantner/truth-core/issues/1007#issuecomment-6685335011)
+adopts potency as capacity without act in the same respect. The new
+`AdoptedPotency.InPotency InAct CanBe x r` is exactly `CanBe x r ∧ ¬ InAct x r`.
+`ADOPTED-POTENCY-NONOVERLAP` derives same-respect non-overlap from F1 using that
+same act predicate. The existing `ACT-POTENCY-DEFINITIONAL-ANALYSES-CONSERVATIVE`
+certificate is imported and instantiated at this function as a second check of
+the definitional boundary. No existence of a capacity or bridge to reality is
+supplied by defining the function.
+
+The original `STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT` still ranges over
+an independent `InPotency` parameter. Proving non-overlap for the adopted function
+would not prove that generic schema. Consequently its frozen Challenges and
+countermodels remain unchanged; the adopted result has a sibling statement,
+`STMT-ADOPTED-POTENCY-NONOVERLAP`. No owner floor approval is fabricated for the
+generic schema. The owner-approved definition is visible as a configuration,
+not as a universal theorem about a rival’s independently interpreted predicate.
+
+The eleven root compositions with a direct generic non-overlap hypothesis have
+`-ADOPTED-POTENCY` siblings. The remaining original root, `CATHOLICISM-SKELETON`,
+has no potency parameter; adopted siblings of
+`AQUINAS-ST-I-Q3-A1-FIRST-MOVER-PURE-ACT` and
+`CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-ALL` make the new interpretation available
+at its attribute subgoal. Each wrapper calls the already verified generic theorem
+and supplies its non-overlap input from the adopted result and F1. This preserves
+the original proof rather than restating its derivation.
+
+The route audit is exact at the theorem interface:
+
+| Occurrence | Adopted application |
+| --- | --- |
+| Motion’s potency input | `MovedOnlyAsInPotencyReading MovedIn (AdoptedPotency.InPotency InAct CanBe)` |
+| Priority of act | `ActSimplyPriorToPotencyReading InAct (AdoptedPotency.InPotency InAct CanBe) PriorSimply` |
+| Pure-act-derived immutability | `IsImmutable (AdoptedPotency.InPotency InAct CanBe)` |
+| Eternity bridge | `ImmutableIsEternalReading (AdoptedPotency.InPotency InAct CanBe) Eternal` |
+| Attribute sufficiency | the identical adopted immutability predicate in `ClassicalAttributesSuffice` |
+| The necessary-classical-God profile | the identical substitutions with `p.InAct`, never a new act predicate |
+
+All occurrences of the old potency parameter are replaced uniformly, including
+inside other hypothesis types. The old generic proof’s dependent type enforces
+that every imported step receives that same predicate. Some historical routes
+also take a separate primitive `PureAct` with its own open identifying premise;
+this wrapper does not redefine that primitive or assert it equals immutability.
+The strong per-se interfaces are retained where the original proof consumes them;
+weak sufficiency through another composition remains open.
+
+`DISAMB-POTENCY` distinguishes the adopted definition from generic independent
+potency (including omission models), capacity or power retained while exercised,
+Megarian restrictions on capacity, and receptive potency of essence to esse.
+The Night self-mover’s coactual potency is outside the adopted sense, but Night
+residual/no-reduction models already satisfying non-overlap may still admit a
+capacity analysis. Adopting the definition does not defeat those order or causal
+rivals. The three generic partition cells remain witnessed; this is interpretation
+selection, not cell refutation. Formal versus virtual act remains separately
+controlled by `DISAMB-IN-ACT`; no virtual reading is attributed to IX.6.
+
+Before interpreting any cost change, distinguish generic from adopted route
+siblings. The generic direct routes retain their old non-overlap premise. Only
+the explicitly adopted compositions remove it, adding established F1. The actual
+route comparison is the computed `frontier-diff` in the PR/CI evidence; it does
+not count a change of definition as an unconditional victory over rival senses.

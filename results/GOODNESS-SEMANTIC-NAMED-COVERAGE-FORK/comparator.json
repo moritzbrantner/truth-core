@@ -1,0 +1,10 @@
+{
+  "challenge_module": "TruthCore.Results.Metaethics.GoodnessSemanticCoverage.Challenge",
+  "solution_module": "TruthCore.Results.Metaethics.GoodnessSemanticCoverage.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Metaethics.GoodnessSemanticCoverage.coverageOrDifferentDefinition",
+    "TruthCore.Results.Metaethics.GoodnessSemanticCoverage.semanticScopeControls"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

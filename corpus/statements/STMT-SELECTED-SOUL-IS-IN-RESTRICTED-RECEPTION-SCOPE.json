@@ -1,0 +1,14 @@
+{
+  "id": "STMT-SELECTED-SOUL-IS-IN-RESTRICTED-RECEPTION-SCOPE",
+  "paraphrase": "OPEN scope input: the selected soul bearer belongs to the supplied eligibility class. A restriction avoids the counterexample only if that class actually excludes the tuple or another input is rejected.",
+  "lean_declaration": "TruthCore.Causality.EsseReceptionDefinitionFork.SelectedSoulEligible",
+  "definition_ids": [
+    "DEF-UNITED-ESSE-RECEPTION-INTERPRETATION-PROFILE",
+    "DEF-ESSE-RECEIVED-IN",
+    "DEF-ESSENCE-THOMISTIC-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSE-RECEPTION",
+    "DISAMB-ESSENCE"
+  ]
+}

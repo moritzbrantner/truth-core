@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Metaethics.GoodnessFormEndBoundary.Challenge",
+  "solution_module": "TruthCore.Results.Metaethics.GoodnessFormEndBoundary.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Metaethics.GoodnessFormEndBoundary.boundaries"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

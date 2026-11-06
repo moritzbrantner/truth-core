@@ -1,0 +1,13 @@
+{
+  "id": "STMT-GOODNESS-FEATURE-ACCOUNT-FAILS",
+  "paraphrase": "The supplied named feature-based definition does not correctly describe goodness in the fixed profile. This is an open substantive failure premise, not mere dislike or unexplained adequacy.",
+  "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.FeatureAccountFails",
+  "definition_ids": [
+    "DEF-FORM-END-DUE-PERFECTION",
+    "DEF-GOODNESS-DUE-ACTUALITY-PROPOSITION",
+    "DEF-GOODNESS-NAMED-DEFINITION-SPACE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOODNESS-UNRESTRICTED-DUE-AND-ULTIMATE"
+  ]
+}

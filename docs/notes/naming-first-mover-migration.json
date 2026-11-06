@@ -41,6 +41,15 @@
     41
   ],
   "premise_delta": "No change to legacy route premises or Challenges; designated route cost remains 40. Separate bridge interfaces use DecidableEq Being. Three alternative compositions use DecidableEq σ.Being and DecidableEq Principle and retain FirstUnmovedMoverExistsOrNot explicitly. Instances are assumptions, not established premises. Two newly registered alternative root routes have costs 39 and 40, with instances outside proposition counts. No philosophical premise discharged.",
+  "limits": [
+    "Full-description naming is one-way: supplied maximum plus all description conditions implies IsGod of that same witness. Naming supplies no maximum existence and no God-to-maximum converse.",
+    "Identity of supplied first mover f and maximum m establishes neither existence. First Way uses its explicit existence disjunction; Fourth Way supplies m. The first mover, maximum and attributed God remain the same witness throughout.",
+    "A unique maximum does not give uniqueness of original IsGod. GodIsMaximalInBeing remains explicit on this route; #730 split-witness and nonmaximal-IsGod controls remain valid unchanged.",
+    "DecidableEq Being is sufficient for the two new bridge variants. Attribute and root variants additionally assume DecidableEq Principle. Equality decisions do not prove FirstUnmovedMoverExistsOrNot here. No minimality, necessity or strict logical-strength certificate is claimed.",
+    "Reuse #730 source evidence and countermodels only at advertised scope. Strict causal ascent, every-perfection and first-being bridges, naming sufficiency/converse, formal/eminent interpretation and historical/authority premises remain open. No new source-fidelity finding or reading is asserted.",
+    "Exactly six existing result bundles (146 initial records), plus five separately frozen alternative interfaces (15 new records); unchanged attribute dependencies reuse prior audits. No other root route is migrated. Inspector, binding, Comparator and NanoDa authorities remain separate."
+  ],
+  "next_scope": "Which retained causal or naming bridge can discriminate the strongest surviving rival on this route? Philosophical investigation and other routes require the next bounded task.",
   "records": [
     {
       "kind": "arguments",
@@ -99,52 +108,52 @@
       "id": "CATHOLICISM-FROM-EFFICIENT-REGRESS-WITH-CLASSICAL-ATTRIBUTES",
       "path": "corpus/arguments/CATHOLICISM-FROM-EFFICIENT-REGRESS-WITH-CLASSICAL-ATTRIBUTES.json",
       "status": "inspected",
-      "classification": "bounded_inspection",
-      "finding": "Import the existing subrelation/accessibility proof from efficient-cause regress to mover regress. Separately instantiate full EM at first-mover existence; this supplies the disjunction, not existence directly. Pass that disjunction and the unchanged complete applications to FromPrimaViaWithClassicalAttributes; same witness is preserved inside that imported proof. No philosophical premise discharge.",
+      "classification": "adopted_potency_scope",
+      "finding": "Import the existing subrelation/accessibility proof from efficient-cause regress to mover regress. Separately instantiate full EM at first-mover existence; this supplies the disjunction, not existence directly. Pass that disjunction and the unchanged complete applications to FromPrimaViaWithClassicalAttributes; same witness is preserved inside that imported proof. No philosophical premise discharge. F7 continuation: inspected the new DISAMB-POTENCY navigation link; the generic theorem, argument premises and conclusion are unchanged. The disambiguation explicitly retains independent potency for this generic configuration.",
       "before": {
         "sha256": "261137a14405d298ae6994fbbbc979f57269dedcdf5b53e846c90ca6bef12860",
         "lean_declaration": null
       },
-      "reviewed_sha256": "261137a14405d298ae6994fbbbc979f57269dedcdf5b53e846c90ca6bef12860"
+      "reviewed_sha256": "69bfcb9f5e1f3ad4a45ec32d7a93ee69ad300cb7592bf37f3de0e77b3db5c697"
     },
     {
       "kind": "arguments",
       "id": "CATHOLICISM-FROM-EFFICIENT-REGRESS-WITH-CLASSICAL-ATTRIBUTES-IDENTITY",
       "path": "corpus/arguments/CATHOLICISM-FROM-EFFICIENT-REGRESS-WITH-CLASSICAL-ATTRIBUTES-IDENTITY.json",
-      "status": "repaired",
-      "classification": "new_sufficient_interface",
-      "finding": "Separate sufficient interface under explicit DecidableEq σ.Being and DecidableEq Principle; neither instance is independently established. Retain all original nonlogical premises and the same conclusion. Naming is one-way and does not supply a maximum; identity relates supplied witnesses and supplies neither witness. No necessity, minimality, strict-strength or philosophical premise discharge is claimed. Retain FirstUnmovedMoverExistsOrNot explicitly; equality decisions do not select its existence branch. First Way and Fourth Way supply f and m; identify f = m, transport maximality to f, and name and attribute that same f. GodIsMaximalInBeing remains explicit for uniqueness of the original IsGod predicate. Reuse ClassicalAttributesIdentity only with those matching hypotheses. The historical end remains a structural transcription through the existing skeleton. Complete expression contract pins carrier identity instances separately from proposition hypotheses. Separate Challenge frozen; no existing Challenge changes.",
+      "status": "inspected",
+      "classification": "adopted_potency_scope",
+      "finding": "Separate sufficient interface under explicit DecidableEq σ.Being and DecidableEq Principle; neither instance is independently established. Retain all original nonlogical premises and the same conclusion. Naming is one-way and does not supply a maximum; identity relates supplied witnesses and supplies neither witness. No necessity, minimality, strict-strength or philosophical premise discharge is claimed. Retain FirstUnmovedMoverExistsOrNot explicitly; equality decisions do not select its existence branch. First Way and Fourth Way supply f and m; identify f = m, transport maximality to f, and name and attribute that same f. GodIsMaximalInBeing remains explicit for uniqueness of the original IsGod predicate. Reuse ClassicalAttributesIdentity only with those matching hypotheses. The historical end remains a structural transcription through the existing skeleton. Complete expression contract pins carrier identity instances separately from proposition hypotheses. Separate Challenge frozen; no existing Challenge changes. F7 continuation: inspected the new DISAMB-POTENCY navigation link; the generic theorem, argument premises and conclusion are unchanged. The disambiguation explicitly retains independent potency for this generic configuration.",
       "before": {
         "sha256": "absent (new record)",
         "lean_declaration": null
       },
-      "reviewed_sha256": "55291cc025b0ffb7eacab1fa4155d4ff6c8e56961bb6e67305df0070504330b1"
+      "reviewed_sha256": "5d5bc8b792dc65e96f451a209e85886ec762e5806eabbe7034df9476ced9dff8"
     },
     {
       "kind": "arguments",
       "id": "CATHOLICISM-FROM-PRIMA-VIA-WITH-CLASSICAL-ATTRIBUTES",
       "path": "corpus/arguments/CATHOLICISM-FROM-PRIMA-VIA-WITH-CLASSICAL-ATTRIBUTES.json",
       "status": "inspected",
-      "classification": "bounded_inspection",
-      "finding": "Imported same-witness package supplies g, IsGod g, uniqueness of original IsGod and attributes of g. For every other IsGod, uniqueness gives other = g, transporting the field to that other. Apply original skeleton with the same g and universal field. Revelation, history, authority and all twelve Creed contents remain conditional; historical end remains structural transcription.",
+      "classification": "adopted_potency_scope",
+      "finding": "Imported same-witness package supplies g, IsGod g, uniqueness of original IsGod and attributes of g. For every other IsGod, uniqueness gives other = g, transporting the field to that other. Apply original skeleton with the same g and universal field. Revelation, history, authority and all twelve Creed contents remain conditional; historical end remains structural transcription. F7 continuation: inspected the new DISAMB-POTENCY navigation link; the generic theorem, argument premises and conclusion are unchanged. The disambiguation explicitly retains independent potency for this generic configuration.",
       "before": {
         "sha256": "2896aaffff3f5570bb9adcd21a247ca664501d993de171a7b335156d99228b0f",
         "lean_declaration": null
       },
-      "reviewed_sha256": "2896aaffff3f5570bb9adcd21a247ca664501d993de171a7b335156d99228b0f"
+      "reviewed_sha256": "c6fc8a960b37e0829f36cf9515319debf5c3a1749df5c749437801f21dd6b54c"
     },
     {
       "kind": "arguments",
       "id": "CATHOLICISM-FROM-PRIMA-VIA-WITH-CLASSICAL-ATTRIBUTES-IDENTITY",
       "path": "corpus/arguments/CATHOLICISM-FROM-PRIMA-VIA-WITH-CLASSICAL-ATTRIBUTES-IDENTITY.json",
-      "status": "repaired",
-      "classification": "new_sufficient_interface",
-      "finding": "Separate sufficient interface under explicit DecidableEq σ.Being and DecidableEq Principle; neither instance is independently established. Retain all original nonlogical premises and the same conclusion. Naming is one-way and does not supply a maximum; identity relates supplied witnesses and supplies neither witness. No necessity, minimality, strict-strength or philosophical premise discharge is claimed. Retain FirstUnmovedMoverExistsOrNot explicitly; equality decisions do not select its existence branch. First Way and Fourth Way supply f and m; identify f = m, transport maximality to f, and name and attribute that same f. GodIsMaximalInBeing remains explicit for uniqueness of the original IsGod predicate. Reuse ClassicalAttributesIdentity only with those matching hypotheses. The historical end remains a structural transcription through the existing skeleton. Complete expression contract pins carrier identity instances separately from proposition hypotheses. Separate Challenge frozen; no existing Challenge changes.",
+      "status": "inspected",
+      "classification": "adopted_potency_scope",
+      "finding": "Separate sufficient interface under explicit DecidableEq σ.Being and DecidableEq Principle; neither instance is independently established. Retain all original nonlogical premises and the same conclusion. Naming is one-way and does not supply a maximum; identity relates supplied witnesses and supplies neither witness. No necessity, minimality, strict-strength or philosophical premise discharge is claimed. Retain FirstUnmovedMoverExistsOrNot explicitly; equality decisions do not select its existence branch. First Way and Fourth Way supply f and m; identify f = m, transport maximality to f, and name and attribute that same f. GodIsMaximalInBeing remains explicit for uniqueness of the original IsGod predicate. Reuse ClassicalAttributesIdentity only with those matching hypotheses. The historical end remains a structural transcription through the existing skeleton. Complete expression contract pins carrier identity instances separately from proposition hypotheses. Separate Challenge frozen; no existing Challenge changes. F7 continuation: inspected the new DISAMB-POTENCY navigation link; the generic theorem, argument premises and conclusion are unchanged. The disambiguation explicitly retains independent potency for this generic configuration.",
       "before": {
         "sha256": "absent (new record)",
         "lean_declaration": null
       },
-      "reviewed_sha256": "7f43ac7163cc435fc86bb3d45a6928b0355eda296a6aa17975f79db39ab458f4"
+      "reviewed_sha256": "a36beb78ed70344750f04a4b7b1a714f0748ea1f1dd43741f4196d787562a7cf"
     },
     {
       "kind": "arguments",
@@ -164,26 +173,26 @@
       "id": "CATHOLICISM-STAGES-ONE-TWO-SAME-WITNESS",
       "path": "corpus/arguments/CATHOLICISM-STAGES-ONE-TWO-SAME-WITNESS.json",
       "status": "inspected",
-      "classification": "reused_unchanged_audit",
-      "finding": "Reuse #730 audit of the unchanged consumer and its complete expression contract. First-Way f and Fourth-Way m are supplied separately, identity transports maximality to f, and naming, uniqueness and all attributes concern f. GodIsMaximalInBeing is retained for the original IsGod uniqueness. No strengthening to reuse the attribute interface.",
+      "classification": "adopted_potency_scope",
+      "finding": "Reuse #730 audit of the unchanged consumer and its complete expression contract. First-Way f and Fourth-Way m are supplied separately, identity transports maximality to f, and naming, uniqueness and all attributes concern f. GodIsMaximalInBeing is retained for the original IsGod uniqueness. No strengthening to reuse the attribute interface. F7 continuation: inspected the new DISAMB-POTENCY navigation link; the generic theorem, argument premises and conclusion are unchanged. The disambiguation explicitly retains independent potency for this generic configuration.",
       "before": {
         "sha256": "e01d0e55edc32c4c7bf7c5814ad9fe41f3a51bf5a12a67b7b46b1254b11a5c57",
         "lean_declaration": null
       },
-      "reviewed_sha256": "e01d0e55edc32c4c7bf7c5814ad9fe41f3a51bf5a12a67b7b46b1254b11a5c57"
+      "reviewed_sha256": "3ad70ca794c946d07debead55eb8413cc4528272d9816ae8e7ea970e37f9a65f"
     },
     {
       "kind": "arguments",
       "id": "CATHOLICISM-STAGES-ONE-TWO-SAME-WITNESS-IDENTITY",
       "path": "corpus/arguments/CATHOLICISM-STAGES-ONE-TWO-SAME-WITNESS-IDENTITY.json",
-      "status": "repaired",
-      "classification": "new_sufficient_interface",
-      "finding": "Separate sufficient interface under explicit DecidableEq σ.Being and DecidableEq Principle; neither instance is independently established. Retain all original nonlogical premises and the same conclusion. Naming is one-way and does not supply a maximum; identity relates supplied witnesses and supplies neither witness. No necessity, minimality, strict-strength or philosophical premise discharge is claimed. Retain FirstUnmovedMoverExistsOrNot explicitly; equality decisions do not select its existence branch. First Way and Fourth Way supply f and m; identify f = m, transport maximality to f, and name and attribute that same f. GodIsMaximalInBeing remains explicit for uniqueness of the original IsGod predicate. Reuse ClassicalAttributesIdentity only with those matching hypotheses. Complete expression contract pins carrier identity instances separately from proposition hypotheses. Separate Challenge frozen; no existing Challenge changes.",
+      "status": "inspected",
+      "classification": "adopted_potency_scope",
+      "finding": "Separate sufficient interface under explicit DecidableEq σ.Being and DecidableEq Principle; neither instance is independently established. Retain all original nonlogical premises and the same conclusion. Naming is one-way and does not supply a maximum; identity relates supplied witnesses and supplies neither witness. No necessity, minimality, strict-strength or philosophical premise discharge is claimed. Retain FirstUnmovedMoverExistsOrNot explicitly; equality decisions do not select its existence branch. First Way and Fourth Way supply f and m; identify f = m, transport maximality to f, and name and attribute that same f. GodIsMaximalInBeing remains explicit for uniqueness of the original IsGod predicate. Reuse ClassicalAttributesIdentity only with those matching hypotheses. Complete expression contract pins carrier identity instances separately from proposition hypotheses. Separate Challenge frozen; no existing Challenge changes. F7 continuation: inspected the new DISAMB-POTENCY navigation link; the generic theorem, argument premises and conclusion are unchanged. The disambiguation explicitly retains independent potency for this generic configuration.",
       "before": {
         "sha256": "absent (new record)",
         "lean_declaration": null
       },
-      "reviewed_sha256": "72447a107b3c9b84382e24e3f0b9399673ece19469216b4d55b5a7bd9b2fc25c"
+      "reviewed_sha256": "e5dd1c07aece838a032cbef84464da5c9fe2acb209b7480fc8444455a36c225a"
     },
     {
       "kind": "results",
@@ -813,14 +822,14 @@
       "kind": "statements",
       "id": "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
       "path": "corpus/statements/nothing-in-act-and-potency-in-same-respect.json",
-      "status": "unresolved",
-      "classification": "reused_unchanged_audit",
-      "finding": "Reuse unchanged prior audit disposition: Retained explicit open commitment: Nothing is simultaneously in act and in potency in the same respect, though it may be so in different respects. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "status": "inspected",
+      "classification": "adopted_potency_scope",
+      "finding": "Reuse unchanged prior audit disposition: Retained explicit open commitment: Nothing is simultaneously in act and in potency in the same respect, though it may be so in different respects. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification. F7 continuation: inspected added adopted-versus-independent potency links. Original statement text/type and source attribution remain unchanged.",
       "before": {
         "sha256": "a3505a1aa24edb44baa690c8b5b28add891af4a4465f153153dee161ba5d0c47",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.NotActAndPotencyInSameRespectReading"
       },
-      "reviewed_sha256": "a3505a1aa24edb44baa690c8b5b28add891af4a4465f153153dee161ba5d0c47"
+      "reviewed_sha256": "7925d7c238524bccc093a830a2b52a3a8e105e4d40de7ad8c3d1488b93c6f7a2"
     },
     {
       "kind": "statements",
@@ -1659,13 +1668,13 @@
       "id": "DEF-POTENCY",
       "path": "corpus/definitions/potency.json",
       "status": "inspected",
-      "classification": "reused_unchanged_audit",
-      "finding": "Reuse unchanged prior audit disposition: Existing interpretation retained: `InPotency x r`: x is in potency to r, able to be r without being r actually; what is actually hot is at the same time cold in potency. A parameter in Lean, constrained by the same premises as `InAct`; nothing defines it as the negation of act. That gloss, 'able to be r without being r actually', is the Metaphysics IX.6 analysis (STMT-POTENCY-IS-UNACTUALIZED-CAPACITY). If it were made the Lean definition of `InPotency`, STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT would become analytic; the analysis is satisfiable exactly when that premise holds (result ACT-POTENCY-DEFINITIONAL-ANALYSES-CONSERVATIVE), so this would move the premise's openness to the analysis's fidelity without discharging it. `InPotency` therefore stays a parameter. No new structural law, source attribution or independently established premise is introduced.",
+      "classification": "adopted_potency_scope",
+      "finding": "Owner decision #1007 adopts potency as CanBe∧¬InAct. Reviewed the explicit definition and its distinctions from capacity, independent generic potency and receptive potency. Original frozen theorem parameters remain generic under DEF-INDEPENDENT-POTENCY; new sibling signatures uniformly specialize them. No historical virtual-act analysis or real-world applicability is asserted.",
       "before": {
         "sha256": "8be71da7666446ad139a7b0cb252c777d2c039795e67f829bd6ca450cd3a5abd",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel"
       },
-      "reviewed_sha256": "8be71da7666446ad139a7b0cb252c777d2c039795e67f829bd6ca450cd3a5abd"
+      "reviewed_sha256": "ebd62cab60ca2b3be914f348cb333b6d40cf92e4a13c495c82462071ba56ac02"
     },
     {
       "kind": "definitions",
@@ -1997,13 +2006,13 @@
       "id": "DISAMB-IN-ACT",
       "path": "corpus/disambiguations/in-act.json",
       "status": "inspected",
-      "classification": "reused_unchanged_audit",
-      "finding": "Reuse unchanged prior audit disposition: Existing resolution retained: The case does not choose between the two senses. Every premise that speaks of act (STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT, STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT, STMT-PLURAL-FIRST-MOVERS-WOULD-DIFFER-IN-ACT, STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING, STMT-FIRST-UNMOVED-MOVER-HAS-EVERY-PERFECTION) uses the one parameter `InAct`, so within a result every premise is read in the same sense and no step passes from one sense to the other. The choice matters for premise truth, not validity: read formally, 'a thing moves only as in act' faces causes that produce what they do not themselves have; read virtually, the non-simultaneity premise must hold for virtual act too. A defence of these premises must fix one sense and defend all of them in it. BRIDGE-ARIST-POTENCY-ANALYSIS-NON-SIMULTANEITY reads the Metaphysics IX.6 analysis (STMT-POTENCY-IS-UNACTUALIZED-CAPACITY) with the same `InAct` as the non-simultaneity premise, so no step changes sense. IX.6 says 'not actually r' of formal act; read virtually, the analysis would say that potency to r excludes virtual act of r, a stronger reading than IX.6 states. The bridge therefore carries Aristotle's support to the premise on the formal reading only. STMT-PERFECT-INSOFAR-AS-IN-ACT, through which AQUINAS-ST-I-Q5-A1-GOODNESS-FROM-DESIRABILITY derives STMT-GOODNESS-IS-ACTUALITY, uses the one parameter `Has` of the conclusion, which the case instantiates by `InAct`; so the goodness steps take whatever sense the other act premises of a result take. ST I q.4 a.1 co. and q.5 a.1 co. speak of a thing's own act, so their support is for the formal reading.",
+      "classification": "adopted_potency_scope",
+      "finding": "Reviewed the added adopted-potency clarification: formal/virtual act remain distinct choices, and each adopted result uses exactly one supplied act predicate everywhere. No virtual reading is attributed to IX.6; generic proof interfaces remain unchanged.",
       "before": {
         "sha256": "d611f0ba3737ca2630ca3cbee8a618e86eb5385773ea453b31b36fc017435cac",
         "lean_declaration": null
       },
-      "reviewed_sha256": "d611f0ba3737ca2630ca3cbee8a618e86eb5385773ea453b31b36fc017435cac"
+      "reviewed_sha256": "9410922badd636cf4af03e355327b5dc3a43827ea0e98930ef4598469d53f4ee"
     },
     {
       "kind": "disambiguations",
@@ -2137,6 +2146,32 @@
     },
     {
       "kind": "definitions",
+      "id": "DEF-INDEPENDENT-POTENCY",
+      "path": "corpus/definitions/independent-potency.json",
+      "status": "inspected",
+      "classification": "adopted_potency_scope",
+      "finding": "Inspected the adopted/independent potency distinction. Generic frozen theorem interfaces keep their independent predicate; the adopted definition is used only by explicit sibling specializations. No rival is declared refuted, no source attribution is added, and no premise truth is inferred from a definition.",
+      "before": {
+        "sha256": "f14338dbf74328dcb184a910e973ae4a13146b5c517a5b8fb85de4e433f0e492",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel"
+      },
+      "reviewed_sha256": "f14338dbf74328dcb184a910e973ae4a13146b5c517a5b8fb85de4e433f0e492"
+    },
+    {
+      "kind": "disambiguations",
+      "id": "DISAMB-POTENCY",
+      "path": "corpus/disambiguations/potency.json",
+      "status": "inspected",
+      "classification": "adopted_potency_scope",
+      "finding": "Inspected the adopted/independent potency distinction. Generic frozen theorem interfaces keep their independent predicate; the adopted definition is used only by explicit sibling specializations. No rival is declared refuted, no source attribution is added, and no premise truth is inferred from a definition.",
+      "before": {
+        "sha256": "76c589c5cfd15ed8c5e30f534a8061c497b54c621ace403f3a9b49686ebf5a58",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "76c589c5cfd15ed8c5e30f534a8061c497b54c621ace403f3a9b49686ebf5a58"
+    },
+    {
+      "kind": "definitions",
       "id": "DEF-CHURCH-CRITERION-CALIBRATION",
       "path": "corpus/definitions/church-criterion-calibration.json",
       "status": "inspected",
@@ -2148,14 +2183,5 @@
       },
       "reviewed_sha256": "52c22cda27bf17f91954d494fb19ff80314599d5bd06ec4ae663738206158fb3"
     }
-  ],
-  "limits": [
-    "Full-description naming is one-way: supplied maximum plus all description conditions implies IsGod of that same witness. Naming supplies no maximum existence and no God-to-maximum converse.",
-    "Identity of supplied first mover f and maximum m establishes neither existence. First Way uses its explicit existence disjunction; Fourth Way supplies m. The first mover, maximum and attributed God remain the same witness throughout.",
-    "A unique maximum does not give uniqueness of original IsGod. GodIsMaximalInBeing remains explicit on this route; #730 split-witness and nonmaximal-IsGod controls remain valid unchanged.",
-    "DecidableEq Being is sufficient for the two new bridge variants. Attribute and root variants additionally assume DecidableEq Principle. Equality decisions do not prove FirstUnmovedMoverExistsOrNot here. No minimality, necessity or strict logical-strength certificate is claimed.",
-    "Reuse #730 source evidence and countermodels only at advertised scope. Strict causal ascent, every-perfection and first-being bridges, naming sufficiency/converse, formal/eminent interpretation and historical/authority premises remain open. No new source-fidelity finding or reading is asserted.",
-    "Exactly six existing result bundles (146 initial records), plus five separately frozen alternative interfaces (15 new records); unchanged attribute dependencies reuse prior audits. No other root route is migrated. Inspector, binding, Comparator and NanoDa authorities remain separate."
-  ],
-  "next_scope": "Which retained causal or naming bridge can discriminate the strongest surviving rival on this route? Philosophical investigation and other routes require the next bounded task."
+  ]
 }

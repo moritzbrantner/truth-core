@@ -1,0 +1,19 @@
+{
+  "id": "ATTEMPT-ETERNITY-DEFINITION-FORK-AUDIT",
+  "statement_ids": [
+    "STMT-IMMUTABLE-IS-BOETHIAN-ETERNAL",
+    "STMT-IMMUTABLE-IS-ETERNAL",
+    "STMT-PRIMITIVE-ETERNITY-NAMED-DEFINITIONS-COVER"
+  ],
+  "date": "2026-11-06",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Reused exact BoethianEternity predicates and immutableIsBoethianEternal theorem. Encoded separate primitive-predicate calibrations, weakest recognition, coverage/Other and five checked consequences, including an actual route to the root all-beings primitive eternity premise. Rejected identification of interminable life with no succession, treating typed Boethian as full perfecta possessio, hiding life/nonempty or boundary-to-subject-potency assumptions, inferring semantic recognition from the name Eternal, and claiming arbitrary admitted comparisons form a complete time ontology. Controls witness strict recognition strength and missing primitive recognition under all three old premises with a pure-act being. Source claims/frozen Challenges unchanged; new attribution deferred. Research boundaries in docs/notes/eternity-definition-fork.md.",
+  "evidence": [
+    "BOETHIAN-CALIBRATION-STRENGTHENS-RECOGNITION",
+    "IMMUTABLE-IS-PRIMITIVE-ETERNAL-FROM-TYPED-BOETHIAN",
+    "PRIMITIVE-ETERNITY-DEFINITION-FORK",
+    "BOETHIAN-DEFINITION-FROM-NAMED-ETERNITY-COVERAGE",
+    "PRIMITIVE-ETERNITY-DEFINITION-BOUNDARIES"
+  ]
+}

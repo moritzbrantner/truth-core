@@ -1,0 +1,10 @@
+{
+  "id": "TELEONOMY-DIRECTOR-RIVAL-CONTROLS",
+  "argument_id": "TELEONOMY-DIRECTOR-RIVAL-CONTROLS",
+  "challenge_module": "TruthCore.Results.Comparison.Teleonomy.DirectorRivalBoundary.Controls.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.Teleonomy.DirectorRivalBoundary.Controls.Solution",
+  "theorem": "TruthCore.Results.Comparison.Teleonomy.DirectorRivalBoundary.Controls.controls",
+  "comparator_config": "results/TELEONOMY-DIRECTOR-RIVAL-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Construct the empty-tending overlap and explicit old finite-model witness, derive its exact negative using the generic checked result, and reuse existing unguided/governed results. Do not merge separate objects into a global worldview or identify broad tending with selection."
+}

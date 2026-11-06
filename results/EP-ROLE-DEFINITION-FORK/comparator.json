@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.EpistemicReasonDefinitions.DefinitionFork.Challenge",
+  "solution_module": "TruthCore.Results.Logic.EpistemicReasonDefinitions.DefinitionFork.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.EpistemicReasonDefinitions.DefinitionFork.definitionFork"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
