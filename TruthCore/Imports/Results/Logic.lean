@@ -25,6 +25,8 @@ public import TruthCore.Results.Logic.EpistemicReasonDefinitions.IndependentFrom
 public import TruthCore.Results.Logic.EpistemicReasonDefinitions.IndependentStrength.Solution
 public import TruthCore.Results.Logic.EpistemicReasonDefinitions.NamedElimination.Solution
 public import TruthCore.Results.Logic.EpistemicReasonDefinitions.OrdinaryFromThin.Solution
+public import TruthCore.Results.Logic.ExcludedMiddleAssertionBoundary.Controls.Solution
+public import TruthCore.Results.Logic.ExcludedMiddleAssertionBoundary.ExactPolicyRival.Solution
 public import TruthCore.Results.Logic.ExcludedMiddleIffDne.Solution
 public import TruthCore.Results.Logic.ExcludedMiddleIrrefutable.Solution
 public import TruthCore.Results.Logic.ExcludedMiddleNotDeniable.Solution

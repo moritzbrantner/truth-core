@@ -1,0 +1,13 @@
+{
+  "id": "STMT-EXCLUDED-MIDDLE-ASSERTION-BOUNDARY-CONTROLS",
+  "paraphrase": "Under explicit object-level excluded middle, some stage-indexed marker structure satisfies the existing withholding package together with object-level excluded middle and failure of universal assertion. A second marker structure fails the full withholding package while universal assertion also fails. These bound compatibility and non-implication results are not complete epistemic or intended intuitionist-logic models; the particular no-assertion/mixed-stage implementations are not additional exported witness properties.",
+  "lean_declaration": "TruthCore.Logic.ExcludedMiddleAssertionBoundary.Controls",
+  "definition_ids": [
+    "DEF-EXCLUDED-MIDDLE-LOGICAL-HOLDING",
+    "DEF-EXCLUDED-MIDDLE-ASSERTION-POLICY",
+    "DEF-EXCLUDED-MIDDLE-WITHHOLDING-POLICY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXCLUDED-MIDDLE-HOLDING-AND-ASSERTION"
+  ]
+}

@@ -1,1 +1,26 @@
-{"id":"STMT-EXCLUDED-MIDDLE","paraphrase":"Excluded middle as a general principle: every proposition either holds or does not hold (∀ p, p ∨ ¬p).","lean_declaration":"TruthCore.Logic.ExcludedMiddle","self_evident":{"justification_ids":["ARIST-MET-1011B-EXCLUDED-MIDDLE-A","ARIST-MET-1012A-EXCLUDED-MIDDLE-ELENCTIC-A","ARIST-MET-1006A-PNC-ELENCTIC-A","LOGIC-EXCLUDED-MIDDLE-IRREFUTABLE","LOGIC-EXCLUDED-MIDDLE-NOT-DENIABLE","LOGIC-EXCLUDED-MIDDLE-IFF-DNE"],"disagreement":{"rival_statement_ids":["STMT-EXCLUDED-MIDDLE-WITHHELD-INTUITIONISM","STMT-SOME-EXCLUDED-MIDDLE-INSTANCE-FAILS"]},"note":"Argued, not proved. Aristotle states the law (Met. IV.7, 1011b23-24) and defends it elenctically, from what the opponent grants by speaking significantly (IV.4, 1006a11-28; IV.7, 1012a17-24), not by demonstration. Lean shows without any axiom that no instance can be denied (¬¬(p ∨ ¬p); no p with ¬(p ∨ ¬p)) and that the law is equivalent to double-negation elimination. Lean does not prove excluded middle itself, and these results do not refute withholding assent (intuitionism, STMT-EXCLUDED-MIDDLE-WITHHELD-INTUITIONISM), which stays a recorded, unrefuted alternative."},"definition_ids":["DEF-SELF-EVIDENT-MARKING"]}
+{
+  "id": "STMT-EXCLUDED-MIDDLE",
+  "paraphrase": "Excluded middle as a general principle: every proposition either holds or does not hold (∀ p, p ∨ ¬p).",
+  "lean_declaration": "TruthCore.Logic.ExcludedMiddle",
+  "self_evident": {
+    "justification_ids": [
+      "ARIST-MET-1011B-EXCLUDED-MIDDLE-A",
+      "ARIST-MET-1012A-EXCLUDED-MIDDLE-ELENCTIC-A",
+      "ARIST-MET-1006A-PNC-ELENCTIC-A",
+      "LOGIC-EXCLUDED-MIDDLE-IRREFUTABLE",
+      "LOGIC-EXCLUDED-MIDDLE-NOT-DENIABLE",
+      "LOGIC-EXCLUDED-MIDDLE-IFF-DNE"
+    ],
+    "disagreement": {
+      "rival_statement_ids": [
+        "STMT-EXCLUDED-MIDDLE-WITHHELD-INTUITIONISM",
+        "STMT-SOME-EXCLUDED-MIDDLE-INSTANCE-FAILS",
+        "STMT-NOT-EXCLUDED-MIDDLE"
+      ]
+    },
+    "note": "Argued, not proved. Aristotle states the law (Met. IV.7, 1011b23-24) and defends it elenctically, from what the opponent grants by speaking significantly (IV.4, 1006a11-28; IV.7, 1012a17-24), not by demonstration. Lean shows without any axiom that no instance can be denied (¬¬(p ∨ ¬p); no p with ¬(p ∨ ¬p)) and that the law is equivalent to double-negation elimination. Lean does not prove excluded middle itself, and these results do not refute withholding assent (intuitionism, STMT-EXCLUDED-MIDDLE-WITHHELD-INTUITIONISM), which stays a recorded, unrefuted alternative. Scope audit: withholding remains a serious unrefuted proof/assertion-policy position, now linked to the universal assertion target. Exact global logical denial STMT-NOT-EXCLUDED-MIDDLE is separately unrefuted and is not attributed to intuitionism. The legacy floor basis and justification are retained; no-instance-denial does not independently prove global EM."
+  },
+  "definition_ids": [
+    "DEF-SELF-EVIDENT-MARKING"
+  ]
+}
