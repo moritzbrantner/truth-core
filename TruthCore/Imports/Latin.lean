@@ -9,6 +9,7 @@ public import TruthCore.Latin.Aquinas.SummaContraGentiles.BookI.Chapter13
 public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.ActPotencyTheory
 public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.ActPriorFromIncorruptible
 public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.ActPriorFromMotion
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.AdoptedPotency
 public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.BoethianEternity
 public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.FirstMoverAttributes
 public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.InfinityEternity

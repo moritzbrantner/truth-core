@@ -16,7 +16,7 @@
     "DEF-PURE-ACT",
     "DEF-POTENCY"
   ],
-  "disambiguation_ids": [
+  "disambiguation_ids": ["DISAMB-POTENCY",
     "DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER"
   ]
 }

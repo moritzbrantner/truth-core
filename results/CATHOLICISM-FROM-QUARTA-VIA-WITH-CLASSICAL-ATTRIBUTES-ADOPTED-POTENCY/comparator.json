@@ -1,0 +1,9 @@
+{
+  "permitted_axioms": [],
+  "enable_nanoda": true,
+  "challenge_module": "TruthCore.Results.Case.Catholicism.AdoptedPotency.FromQuartaViaWithClassicalAttributes.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.AdoptedPotency.FromQuartaViaWithClassicalAttributes.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Case.Catholicism.AdoptedPotency.FromQuartaViaWithClassicalAttributes.catholicismFromQuartaViaWithClassicalAttributes"
+  ]
+}

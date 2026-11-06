@@ -18,7 +18,7 @@
     "DEF-RESPECT",
     "DEF-CONFIGURATION-FALSE"
   ],
-  "disambiguation_ids": [
+  "disambiguation_ids": ["DISAMB-POTENCY",
     "DISAMB-MOTION"
   ]
 }
