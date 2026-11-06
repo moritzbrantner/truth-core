@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.MeaningDefinitionFork.V3RejectionBound.Challenge",
+  "solution_module": "TruthCore.Results.Logic.MeaningDefinitionFork.V3RejectionBound.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.MeaningDefinitionFork.V3RejectionBound.v3Rejection"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

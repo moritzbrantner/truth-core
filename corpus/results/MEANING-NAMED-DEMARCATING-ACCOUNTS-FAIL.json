@@ -1,0 +1,10 @@
+{
+  "id": "MEANING-NAMED-DEMARCATING-ACCOUNTS-FAIL",
+  "argument_id": "MEANING-NAMED-DEMARCATING-ACCOUNTS-FAIL",
+  "challenge_module": "TruthCore.Results.Logic.MeaningDefinitionFork.NamedRejectionBound.Challenge",
+  "solution_module": "TruthCore.Results.Logic.MeaningDefinitionFork.NamedRejectionBound.Solution",
+  "theorem": "TruthCore.Results.Logic.MeaningDefinitionFork.NamedRejectionBound.namedRejection",
+  "comparator_config": "results/MEANING-NAMED-DEMARCATING-ACCOUNTS-FAIL/comparator.json",
+  "status": "solution-present",
+  "description": "Compose the checked V2/V3 calibration rejections, explicit not-V1 input and excluded negation to reject all four named global accounts. This yields the remainder without assuming named coverage; if coverage is additionally demanded, those inputs conflict. Joint philosophical applicability and a model of this entire bundle remain open."
+}

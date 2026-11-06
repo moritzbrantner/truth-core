@@ -1,0 +1,23 @@
+{
+  "id": "MEANING-DEFINITION-FORK",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-MEANING-DEFINITION-FORK",
+  "inference_ids": [
+    "INF-MEANING-DEFINITION-FORK"
+  ],
+  "meaning": "Logical coverage transcription under explicit excluded middle. Named coverage stays open; otherwise all four named calibrations fail. Not a survey of philosophical meanings.",
+  "definition_ids": [
+    "DEF-MEANING-CRITERION-CALIBRATION",
+    "DEF-MEANING-V1-DEFINITION",
+    "DEF-MEANING-V2-DEFINITION",
+    "DEF-MEANING-V3-DEFINITION",
+    "DEF-MEANING-ALL-IN-SCOPE",
+    "DEF-MEANING-NAMED-COVERAGE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-VERIFICATIONIST-MEANINGFUL",
+    "DISAMB-MEANING-DEFINITION-CALIBRATIONS"
+  ]
+}

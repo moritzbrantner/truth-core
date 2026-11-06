@@ -1,0 +1,17 @@
+{
+  "id": "STMT-MEANING-REMAINING-DEFINITION",
+  "paraphrase": "None of V1, V2, V3 or all-in-scope meaningfulness calibrates the current meaning predicate on the same scope. This additional-extension rival opposes named coverage, not every meaningfulness claim.",
+  "lean_declaration": "TruthCore.Logic.MeaningDefinitionFork.RemainingDefinition",
+  "definition_ids": [
+    "DEF-MEANING-CRITERION-CALIBRATION",
+    "DEF-MEANING-V1-DEFINITION",
+    "DEF-MEANING-V2-DEFINITION",
+    "DEF-MEANING-V3-DEFINITION",
+    "DEF-MEANING-ALL-IN-SCOPE",
+    "DEF-MEANING-NAMED-COVERAGE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-VERIFICATIONIST-MEANINGFUL",
+    "DISAMB-MEANING-DEFINITION-CALIBRATIONS"
+  ]
+}
