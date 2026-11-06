@@ -100,7 +100,8 @@
     "DEF-ACTUAL-GROUNDING-ASYMMETRIC",
     "DEF-NECESSARY-CLASSICAL-GOD-ROOT-CONTROL"
   ],
-  "disambiguation_ids": ["DISAMB-POTENCY",
+  "disambiguation_ids": [
+    "DISAMB-POTENCY",
     "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
     "DISAMB-NECESSARY",
     "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
@@ -127,5 +128,8 @@
     "DISAMB-ETERNITY-AND-TEMPORAL-PERPETUITY",
     "DISAMB-IMMUTABLE-AND-CURRENTLY-UNCHANGING",
     "DISAMB-INTELLECT-AND-SENSE-COGNITION"
-  ]
+  ],
+  "strong_version_needed": {
+    "STMT-ACTUAL-GROUNDING-ASYMMETRIC": "The frozen prior interface consumes global actual-grounding asymmetry and remains available as that existing configuration. This is not a global necessity claim: its new maximal-target-asymmetry sibling reaches the EXACT same target with only reverse-edge exclusion at maximal-in-esse targets, retaining all other inputs. Nonmaximal reciprocal dependents are not ruled out by that weaker policy."
+  }
 }

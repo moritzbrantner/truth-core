@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.MaximalGroundingAsymmetry.WholeRoster.Challenge",
+  "solution_module": "TruthCore.Results.Causality.MaximalGroundingAsymmetry.WholeRoster.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.MaximalGroundingAsymmetry.WholeRoster.wholeRoster"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
