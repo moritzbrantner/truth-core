@@ -1,0 +1,9 @@
+{
+  "id": "INF-ADAPTIVE-PREDICTION-DIAGONAL",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-ADAPTIVE-PREDICTION-DIAGONAL",
+  "rule": "recursive-history-coherence-and-exact-mistake-induction",
+  "meaning": "For each total deterministic finite-history binary predictor, one recursively constructed infinite stream has coherent truthful histories, a wrong prediction at every round, and exactly n mistakes at every horizon n, using the existing FallibleCorrection.mistakes. The stream depends on the predictor; this does not assert a single stream defeats all predictors or identify prediction failure with semantic indeterminacy.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

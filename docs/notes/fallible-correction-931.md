@@ -256,3 +256,63 @@ handoff, which remains the single progress tracker. #931 stays open for the
 remaining real-application warrant question. Next concrete step: select a
 bounded factual application with independently inspectable feedback and compare
 the evidence for its error/corruption regime against the skeptical alternative.
+
+## Adaptive correction without an environmental restriction (#1058)
+
+Truthful feedback alone does not guarantee eventual predictive success. The
+new analyst construction takes any total deterministic method whose input is
+the finite sequence of earlier true binary labels. Starting with the empty
+history, let the next true label be the opposite of the method's prediction,
+then feed that true label back. This recursively defines **one infinite
+stream**, including all of its compatible finite prefixes. The proof identifies
+the generated history at every round with the actual past of this same stream.
+At every round the prediction is wrong; the existing `FallibleCorrection.mistakes`
+counts exactly `n` errors in the first `n` rounds.
+
+The quantifiers matter: for every method there is a method-dependent failing
+stream. There is no claim that one stream defeats all methods. A method which
+already encodes a particular stream can predict it; the diagonal for that
+method would be a different stream. The construction assumes neither a bound
+on computation nor a randomized method or chance distribution. It supplies
+no probability that an actual stream is adversarial, and no conclusion about
+expected stochastic performance.
+
+The comparison with the positive result uses the **same** rational update and
+voting functions. For a finite pool of history-based experts, `historyWeights`
+reconstructs the original state by applying each earlier expert prediction to
+its subsequent true feedback. `learnerAdapter` proves equality with the original
+`learner` on the induced advice and feedback streams, for every pool size,
+stream and round. No fresh weighted-majority rule or performance premise is
+introduced.
+
+For a pool of two experts, diagonalize that history-based weighted learner.
+The original learner then makes eleven mistakes at horizon eleven, with no
+false feedback. Importing the existing certificate's two-expert budget shows
+that **each** expert must have more than two mistakes on that same prefix:
+otherwise the learner would have at most ten mistakes. This is the concrete
+two-expert/budget-two consequence only. A lower bound for arbitrary finite
+pool sizes and expert-error budgets would need its own arithmetic argument;
+it is not inferred from this instance.
+
+The positive guarantee survives. Its good-expert coverage hypothesis cannot
+hold on this adversarial prefix; that is a reason to inspect a proposed
+environmental or rule-class restriction, rather than discard the theorem.
+The unrestricted methodological skeptic and the restricted learner therefore
+disagree about which streams and expert coverage are warranted for the inquiry.
+Independent evidence about that applicability remains the philosophical bridge.
+The diagonal does not prove that all methods are irrational, that actual
+knowledge is impossible, or that epistemic reasons do not exist.
+
+This also marks a boundary for a possible rule-following argument. Identifying
+determinate semantic content with unrestricted next-case prediction would be
+an additional premise. Failure to predict does not establish meaninglessness
+or semantic indeterminacy. This mathematical result does not complete the
+missing meaning-as-use/language-games coverage of #1010 or attribute a theory
+to Wittgenstein or Hume. The existing Hume finite-prefix result remains a
+distinct, weaker boundary; it was reused for discovery, not restated as the
+all-horizon adaptive theorem.
+
+The three result records are `ADAPTIVE-PREDICTION-DIAGONAL`,
+`ADAPTIVE-PREDICTION-LEARNER-ADAPTER` and `ADAPTIVE-PREDICTION-TWO-EXPERT`.
+Their definitions quantify the protocol inputs explicitly. Added/removed root
+premises: none. Actual feedback warrant and normative authority remain open.
