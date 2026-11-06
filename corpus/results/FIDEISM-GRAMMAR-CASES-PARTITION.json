@@ -1,0 +1,11 @@
+{
+  "id": "FIDEISM-GRAMMAR-CASES-PARTITION",
+  "argument_id": "FIDEISM-GRAMMAR-CASES-PARTITION",
+  "challenge_module": "TruthCore.Results.Alternatives.FideismGrammarPartition.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.FideismGrammarPartition.Solution",
+  "theorem": "TruthCore.Results.Alternatives.FideismGrammarPartition.partition",
+  "comparator_config": "results/FIDEISM-GRAMMAR-CASES-PARTITION/comparator.json",
+  "status": "solution-present",
+  "description": "Zero-axiom; excluded middle is a hypothesis. A transcription in the sense of instantiation: it only applies excluded middle twice to the two cell propositions, so it certifies the form of the partition. cellsExclusive is in the config.",
+  "transcription": "instantiation"
+}

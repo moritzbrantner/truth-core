@@ -1,0 +1,20 @@
+{
+  "id": "ATTEMPT-WF-GRAMMAR-CASES-1010",
+  "statement_ids": [
+    "STMT-FIDEISM-FAILS-IN-AUTHORITY-AND-USE-CASES",
+    "STMT-GRAMMAR-FIXED-BY-NEITHER",
+    "STMT-ORDINARY-USE-AFFIRMS-NATURAL-KNOWABILITY",
+    "STMT-ORDINARY-USE-CONFESSES-ONE-TRUE-GOD"
+  ],
+  "date": "2026-11-06",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Owner decision 2026-11-06: cover who fixes the grammar by cases. Partition from excluded middle (authorities / ordinary use / neither). Authority cell: composed from the two earlier defeats through the case bridge. Ordinary-use cell: Catechism (Latin typical edition) CCC 31-36 (natural knowability, ways as converging arguments), CCC 12 (addressees), CCC 185-197 and 199-200 (creed as norm and profession; 'Credo in Deum' as the fundamental affirmation; confession of oneness inseparable from confessing God's existence) support, but do not state, that ordinary use affirms natural knowability and confesses the one true God. Neither cell is recorded as held by any source; it survives (certified model). No survey data is pinned: none found as a legitimately hosted, pinnable dataset with a scope matching 'ordinary Catholic use'.",
+  "evidence": [
+    "FIDEISM-FAILS-IN-AUTHORITY-AND-USE-CASES",
+    "FIDEISM-GRAMMAR-CASES-PARTITION",
+    "CCC-31-36-KNOWLEDGE-OF-GOD",
+    "CCC-199-200-CREDO-IN-DEUM"
+  ],
+  "blocker": "Case 2 is only supported: the Catechism and the creed show what the practice teaches its members and asks them to profess, not what ordinary believers in fact mean. Both case bridges and the shared-reason reading are open."
+}

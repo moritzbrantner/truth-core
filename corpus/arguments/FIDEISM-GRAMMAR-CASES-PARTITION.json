@@ -1,0 +1,15 @@
+{
+  "id": "FIDEISM-GRAMMAR-CASES-PARTITION",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-FIDEISM-GRAMMAR-CASES-COVER",
+  "inference_ids": [
+    "INF-FIDEISM-GRAMMAR-CASES-PARTITION"
+  ],
+  "meaning": "Exhaustiveness of the grammar-fixing cases from excluded middle alone (owner decision 2026-11-06, #1010; same form as POTENCY-ANALYSIS-PARTITION): every practice's grammar is fixed by its authorities, or not and by ordinary use, or by neither. No list of theories of grammar enters; cellsExclusive shows the cells are disjoint. It establishes the partition, not which cell the Catholic practice is in.",
+  "definition_ids": [
+    "DEF-GRAMMAR-FIXED-BY-AUTHORITIES",
+    "DEF-GRAMMAR-FIXED-BY-ORDINARY-USE"
+  ]
+}

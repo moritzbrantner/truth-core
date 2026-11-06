@@ -1,0 +1,11 @@
+{
+  "id": "STMT-AUTHORITY-GRAMMAR-MAKES-DEFINITIONS-OWN-STANDARD",
+  "paraphrase": "Case-1 bridge, open and unattributed: if the practice's authorities fix its grammar, then what an ecumenical council defines by canon is endorsed by the practice's own standards.",
+  "lean_declaration": "TruthCore.Alternatives.FideismGrammarCases.AuthorityCaseBridgeReading",
+  "definition_ids": [
+    "DEF-GRAMMAR-FIXED-BY-AUTHORITIES",
+    "DEF-GRAMMAR-FIXED-BY-ORDINARY-USE",
+    "DEF-CONCILIAR-DEFINITION",
+    "DEF-PRACTICE-OWN-STANDARD"
+  ]
+}

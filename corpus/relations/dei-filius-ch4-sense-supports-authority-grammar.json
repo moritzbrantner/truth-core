@@ -1,0 +1,9 @@
+{
+  "id": "REL-DEI-FILIUS-CH4-SENSE-SUPPORTS-AUTHORITY-GRAMMAR",
+  "subject_kind": "claim",
+  "subject_id": "VATICAN-I-DEI-FILIUS-CH4-DECLARED-SENSE",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-AUTHORITY-GRAMMAR-MAKES-DEFINITIONS-OWN-STANDARD",
+  "note": "The authorities' own self-description: the sense of dogma is the sense the Church declared. If authorities fix the grammar, their declarations of sense belong to it. Gap: whether can. II.1 is a dogma."
+}

@@ -1,0 +1,33 @@
+{
+  "id": "FIDEISM-FAILS-IN-AUTHORITY-AND-USE-CASES",
+  "premise_statement_ids": [
+    "STMT-DEI-FILIUS-DEFINES-NATURAL-KNOWABILITY-OF-GOD",
+    "STMT-DEI-FILIUS-CONFESSES-ONE-TRUE-GOD",
+    "STMT-NATURAL-REASON-IS-SHARED-REASON",
+    "STMT-AUTHORITY-GRAMMAR-MAKES-DEFINITIONS-OWN-STANDARD",
+    "STMT-USE-GRAMMAR-MAKES-ORDINARY-USE-OWN-STANDARD",
+    "STMT-ORDINARY-USE-AFFIRMS-NATURAL-KNOWABILITY",
+    "STMT-ORDINARY-USE-CONFESSES-ONE-TRUE-GOD"
+  ],
+  "conclusion_statement_id": "STMT-FIDEISM-FAILS-IN-AUTHORITY-AND-USE-CASES",
+  "inference_ids": [
+    "INF-FIDEISM-FAILS-IN-AUTHORITY-AND-USE-CASES"
+  ],
+  "meaning": "Owner decision 2026-11-06 (#1010): who fixes the grammar, covered by cases. In the authority cell, the open case bridge yields the definition bridge, and the two earlier defeats apply (WF-FAILS-AS-DESCRIPTION-OF-CATHOLIC-PRACTICE from Dei Filius can. II.1, FIDEIST-REFERENCE-BUNDLE-FAILS-FOR-CATHOLIC-PRACTICE from can. I.1), composed by importing their theorems. In the ordinary-use cell, the open case bridge makes ordinary-use moves the practice's own standard; with the supported evidence that ordinary use affirms natural knowability (CCC 31-36, 12) and confesses the one true God (CCC 185-202), both fideist bundles fail. With FIDEISM-GRAMMAR-CASES-PARTITION, the remaining cell is grammar fixed by neither: neitherCellSurvives certifies that both bundles survive there with every premise. needsAuthorityCaseBridge and needsUseCaseBridge show the case bridges are needed. Status: premises open (the shared-reason reading, both case bridges), supported (both ordinary-use evidence premises), stated (the two canons); none established, so no refutes relation (#999). So: the fideist descriptive thesis fails whichever of the practice's own fixers fixes its grammar, conditionally on those premises; it survives only if neither does.",
+  "definition_ids": [
+    "DEF-GRAMMAR-FIXED-BY-AUTHORITIES",
+    "DEF-GRAMMAR-FIXED-BY-ORDINARY-USE",
+    "DEF-IN-ORDINARY-USE",
+    "DEF-WITTGENSTEINIAN-FIDEISM",
+    "DEF-CORRECT-MOVE-IN-PRACTICE",
+    "DEF-PRACTICE-OWN-STANDARD",
+    "DEF-CONCILIAR-DEFINITION",
+    "DEF-NATURAL-REASON-SHARED",
+    "DEF-CONFESSES-REFERENT",
+    "DEF-NAME-REFERS-IN-PRACTICE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NATURAL-REASON",
+    "DISAMB-NAME-APPLICATION"
+  ]
+}

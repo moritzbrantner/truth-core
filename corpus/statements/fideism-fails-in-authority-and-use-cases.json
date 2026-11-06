@@ -1,0 +1,16 @@
+{
+  "id": "STMT-FIDEISM-FAILS-IN-AUTHORITY-AND-USE-CASES",
+  "paraphrase": "In the two cells where the practice fixes its own grammar (by its authorities or by its ordinary use), both fideist bundles fail of the Catholic practice: the cut-off pair (internal grammar and cut-off) and the reference bundle (internal grammar, grammar-fixed reference and the no-being reconstruction). Nothing is claimed for the third cell.",
+  "lean_declaration": "TruthCore.Alternatives.FideismGrammarCases.FideismFailsInAuthorityAndUseCases",
+  "definition_ids": [
+    "DEF-GRAMMAR-FIXED-BY-AUTHORITIES",
+    "DEF-GRAMMAR-FIXED-BY-ORDINARY-USE",
+    "DEF-WITTGENSTEINIAN-FIDEISM",
+    "DEF-CORRECT-MOVE-IN-PRACTICE",
+    "DEF-PRACTICE-OWN-STANDARD"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NATURAL-REASON",
+    "DISAMB-NAME-APPLICATION"
+  ]
+}

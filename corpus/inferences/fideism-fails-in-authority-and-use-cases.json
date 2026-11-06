@@ -1,0 +1,17 @@
+{
+  "id": "INF-FIDEISM-FAILS-IN-AUTHORITY-AND-USE-CASES",
+  "input_statement_ids": [
+    "STMT-DEI-FILIUS-DEFINES-NATURAL-KNOWABILITY-OF-GOD",
+    "STMT-DEI-FILIUS-CONFESSES-ONE-TRUE-GOD",
+    "STMT-NATURAL-REASON-IS-SHARED-REASON",
+    "STMT-AUTHORITY-GRAMMAR-MAKES-DEFINITIONS-OWN-STANDARD",
+    "STMT-USE-GRAMMAR-MAKES-ORDINARY-USE-OWN-STANDARD",
+    "STMT-ORDINARY-USE-AFFIRMS-NATURAL-KNOWABILITY",
+    "STMT-ORDINARY-USE-CONFESSES-ONE-TRUE-GOD"
+  ],
+  "output_statement_id": "STMT-FIDEISM-FAILS-IN-AUTHORITY-AND-USE-CASES",
+  "rule": "case-analysis",
+  "meaning": "Case on the disjunction. Authorities: the definition bridge follows, apply the two earlier results. Ordinary use: the ordinary-use knowability move is own standard, hence correct, and answers to shared reason, against cut-off; the ordinary-use confession is correct, so 'God' refers, against no-being.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

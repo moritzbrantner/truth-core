@@ -1,0 +1,9 @@
+{
+  "id": "REL-CIC-749-SUPPORTS-AUTHORITY-GRAMMAR",
+  "subject_kind": "claim",
+  "subject_id": "CIC-749-COUNCIL-TEACHERS-AND-JUDGES",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-AUTHORITY-GRAMMAR-MAKES-DEFINITIONS-OWN-STANDARD",
+  "note": "In the authority cell, can. 749 §2 names an ecumenical council among the authorities that teach definitively for the universal Church. Gap: that 'fixing the grammar' covers conciliar canons, and §3 (nothing counts as infallibly defined unless manifest)."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-IN-ORDINARY-USE",
+  "term": "in ordinary use (a move)",
+  "definition": "`C.InOrdinaryUse m`: the move m belongs to the ordinary practitioners' use: it is taught to them in catechesis or professed by them, as the creed is.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Alternatives.FideismGrammarCases.CasedPractice.InOrdinaryUse",
+  "note": "Stipulated (#1010). Whether catechesis addressed through bishops and catechists (CCC 12) is ordinary use is part of the supported, not stated, evidence premises."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "REL-CCC-185-197-SUPPORTS-ORDINARY-USE-CONFESSES",
+  "subject_kind": "claim",
+  "subject_id": "CCC-185-197-CREED-PROFESSED",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-ORDINARY-USE-CONFESSES-ONE-TRUE-GOD",
+  "note": "The creed is the norm for all, the faith Christians profess, received at baptism and recited. Gap: the Catechism says what the profession is, not how ordinary believers understand their recitation; that recitation is a confession in the sense of DEF-CONFESSES-REFERENT is the reading."
+}
