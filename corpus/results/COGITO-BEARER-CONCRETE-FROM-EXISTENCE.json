@@ -1,0 +1,10 @@
+{
+  "id": "COGITO-BEARER-CONCRETE-FROM-EXISTENCE",
+  "argument_id": "COGITO-BEARER-CONCRETE-FROM-EXISTENCE",
+  "challenge_module": "TruthCore.Results.Logic.CogitoEsse.Challenge",
+  "solution_module": "TruthCore.Results.Logic.CogitoEsse.Solution",
+  "theorem": "TruthCore.Results.Logic.CogitoEsse.bearerConcrete",
+  "comparator_config": "results/COGITO-BEARER-CONCRETE-FROM-EXISTENCE/comparator.json",
+  "status": "solution-present",
+  "description": "In the adopted esse sense of concrete, E and the selected-world existence/esse contract entail C: the bearer exists at w, hence is in act of esse, which is HasEsseInRe. This is a conditional connection, not a new floor approval or an actual-occurrence witness. It says nothing about arbitrary concrete predicates in old frozen Challenges."
+}
