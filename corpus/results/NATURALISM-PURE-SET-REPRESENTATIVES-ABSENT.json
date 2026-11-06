@@ -1,0 +1,10 @@
+{
+  "id": "NATURALISM-PURE-SET-REPRESENTATIVES-ABSENT",
+  "argument_id": "NATURALISM-PURE-SET-REPRESENTATIVES-ABSENT",
+  "challenge_module": "TruthCore.Results.Ontology.NaturalismSets.Exclusion.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.NaturalismSets.Exclusion.Solution",
+  "theorem": "TruthCore.Results.Ontology.NaturalismSets.absent",
+  "comparator_config": "results/NATURALISM-PURE-SET-REPRESENTATIVES-ABSENT/comparator.json",
+  "status": "solution-present",
+  "description": "Compose the imported checked pure-set unlocation theorem with occupant N1 at a proposed existing right-summand representative. This excludes object-level set representatives under the explicit support criterion, not Lean mathematical inhabitants. The criterion and N1 remain open. Approved Mathlib axiom policy applies; this is not advertised as zero-axiom."
+}

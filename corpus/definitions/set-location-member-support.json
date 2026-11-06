@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SET-LOCATION-MEMBER-SUPPORT",
+  "term": "location supported by a represented strict member",
+  "definition": "Every located right-summand set representative has some located representative decoding to an actual strict member. The located member may occupy another region. Only the witnessed member must be represented; no full closure under membership is imposed. No candidate-presence guard is used: this is a supplied rule of location, and the unlocation theorem needs no existential premise. Actual Mathlib membership/foundation supplies the induction, not a bespoke order. Applicability of this support criterion remains open.",
+  "basis": "stipulative",
+  "note": "Analyst location/representation profile for #1109, attribution deferred. No claim that every set or every nominalist/realist theory has this profile. See docs/showcase-naturalism.md \u00a74 and ATTEMPT-NATURALISM-SET-REPRESENTATIVES-1109.",
+  "lean_declaration": "TruthCore.Ontology.NaturalismSets.SetLocationHasMemberSupport"
+}

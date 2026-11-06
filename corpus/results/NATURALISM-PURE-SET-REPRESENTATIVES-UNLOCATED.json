@@ -1,0 +1,10 @@
+{
+  "id": "NATURALISM-PURE-SET-REPRESENTATIVES-UNLOCATED",
+  "argument_id": "NATURALISM-PURE-SET-REPRESENTATIVES-UNLOCATED",
+  "challenge_module": "TruthCore.Results.Ontology.NaturalismSets.Unlocation.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.NaturalismSets.Unlocation.Solution",
+  "theorem": "TruthCore.Results.Ontology.NaturalismSets.unlocated",
+  "comparator_config": "results/NATURALISM-PURE-SET-REPRESENTATIVES-UNLOCATED/comparator.json",
+  "status": "solution-present",
+  "description": "Use Mathlib.ZFSet.inductionOn on the actual interpreted pure set. Reverse support at a located representative supplies a located representative of a strict member; the induction hypothesis excludes it. No full representative closure or injectivity is needed. This is conditional on the supplied location support rule. Approved Mathlib axiom policy applies; this is not advertised as zero-axiom."
+}

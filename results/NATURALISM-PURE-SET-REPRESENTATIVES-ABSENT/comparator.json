@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Ontology.NaturalismSets.Exclusion.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.NaturalismSets.Exclusion.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Ontology.NaturalismSets.absent"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

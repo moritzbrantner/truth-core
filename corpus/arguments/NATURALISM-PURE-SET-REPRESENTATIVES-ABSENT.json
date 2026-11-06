@@ -1,0 +1,27 @@
+{
+  "id": "NATURALISM-PURE-SET-REPRESENTATIVES-ABSENT",
+  "premise_statement_ids": [
+    "STMT-NATURALISM-N1",
+    "STMT-SET-LOCATION-HAS-MEMBER-SUPPORT"
+  ],
+  "conclusion_statement_id": "STMT-NO-EXISTING-SET-REPRESENTATIVES",
+  "inference_ids": [
+    "INF-NATURALISM-PURE-SET-REPRESENTATIVES-ABSENT"
+  ],
+  "meaning": "Compose the imported checked pure-set unlocation theorem with occupant N1 at a proposed existing right-summand representative. This excludes object-level set representatives under the explicit support criterion, not Lean mathematical inhabitants. The criterion and N1 remain open.",
+  "definition_ids": [
+    "DEF-NATURALISM-N1",
+    "DEF-SPATIOTEMPORAL-FRAME",
+    "DEF-SPATIOTEMPORAL-LOCATED",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-NATURALISM-SET-REPRESENTATIVES",
+    "DEF-SET-LOCATION-MEMBER-SUPPORT",
+    "DEF-MEMBER-CONFERS-SET-LOCATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SPATIOTEMPORAL"
+  ],
+  "strong_version_needed": {
+    "STMT-NATURALISM-N1": "The proposed existing set representatives are not independently classified as concrete. N2 requires a separate concrete classification input; it cannot replace the tested N1 occupant instance without that extra premise. The result is not claimed for all naturalist variants."
+  }
+}
