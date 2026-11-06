@@ -2113,14 +2113,14 @@
       "kind": "disambiguations",
       "id": "DISAMB-TRUE",
       "path": "corpus/disambiguations/true.json",
-      "status": "inspected",
-      "classification": "reused_unchanged_audit",
-      "finding": "Reuse unchanged prior audit disposition: Existing resolution retained: The quarta via's 'true' is the truth of things (the respect `verum`), not the truth of sentences; no result links `verum` with `Holds`. The problem-of-evil results use truth of sentences. POE-EXTERNAL-PREMISE-VS-EMOTIVISM uses O'Connor's own notion (DEF-TRUTH-VALUE): moral statements are not the kind of sentence that can be true or false, so they are not true. That is the robust sense, and the result holds against his emotivism as he states it. It does not hold against an expressivist who grants moral sentences minimal truth: such a theorist rejects STMT-MORAL-STATEMENTS-LACK-TRUTH-VALUE in the minimal sense, and answering that rival is the open work of #182 and #185. 'Objectively true' (DEF-OBJECTIVE-TRUTH) is truth independent of attitudes; the result's conclusion denies truth simply, and it denies objective truth only under the further, unformalized bridge that what is objectively true is true (no Lean declaration states it). 'Catholicism is true' (DEF-CATHOLICISM-TRUE-PHASE-1) is the plain conjunction of its two conditions, not a further truth predicate. The objective-truth pilot uses DEF-LEAN-PROPOSITION-HOLDING for ∃ P : Prop, P and its logical counterpart: a proof in the encoded logic, not an identification with ontological, robust, minimal or attitude-independent truth. Its profile Interpretation is a stipulated external mapping, and a bridge preserving a logical sentence across profiles remains explicit and open.",
+      "status": "repaired",
+      "classification": "clarified_conditional_bridge",
+      "finding": "Reviewed additive truth-sense clarification: quarta-via verum remains distinct from sentence truth, and robust/minimal truth and the Lean-Prop pilot remain distinct. The formerly unformalized objective-implies-truth condition is now the explicit weak STMT-OBJECTIVE-TRUTH-HAS-TRUTH-COMPONENT, used only in the separately registered external-evil composition. New profile calibrations are analyst siblings, not attributed identities or an adopted root premise. Existing audited theorem types, arguments and source claims are unchanged; this row does not certify philosophical attitude independence or named-definition exhaustion.",
       "before": {
         "sha256": "03757e504426c6dea3171c5d42d965eddeceb3954fd1f6ad52305c396bf3a8e2",
         "lean_declaration": null
       },
-      "reviewed_sha256": "03757e504426c6dea3171c5d42d965eddeceb3954fd1f6ad52305c396bf3a8e2"
+      "reviewed_sha256": "aab9e48371e81d95d2613fb877dcee6b2cbc717e080f646b016af686c56d5b5d"
     },
     {
       "kind": "claims",

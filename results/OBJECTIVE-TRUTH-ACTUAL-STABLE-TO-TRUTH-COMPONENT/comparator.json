@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.ProfileToTruth.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.ProfileToTruth.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.ProfileToTruth.profileToTruth"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

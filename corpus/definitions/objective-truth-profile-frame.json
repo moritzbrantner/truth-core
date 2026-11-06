@@ -1,0 +1,8 @@
+{
+  "id": "DEF-OBJECTIVE-TRUTH-PROFILE-FRAME",
+  "term": "supplied attitude-profile truth family",
+  "definition": "Frame supplies a fixed Sentence type, an AttitudeProfile type with one actual profile, holds at each profile, and an independently supplied objective classifier. Stable f s means \u2200 p, holds p s \u2194 holds actual s. The intended comparison varies attitudes while content and non-attitude facts stay fixed; those application conditions are not inferred from the field names.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.ObjectiveTruthDefinitionFork.Frame",
+  "note": "Analyst operational arena for competing truth definitions. This is not property identity, robust representation, causal independence, knowledge or a proof that a real language has these profiles. The actual field explicitly witnesses a profile; an evil parameter in the external result explicitly witnesses its sentence. No conclusion about actual thinkers or a deity is inferred."
+}

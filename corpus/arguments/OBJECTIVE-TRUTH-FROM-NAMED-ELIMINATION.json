@@ -1,0 +1,21 @@
+{
+  "id": "OBJECTIVE-TRUTH-FROM-NAMED-ELIMINATION",
+  "premise_statement_ids": [
+    "STMT-OBJECTIVE-TRUTH-NAMED-DEFINITIONS-COVER",
+    "STMT-OBJECTIVE-TRUTH-NOT-INVARIANCE-ONLY",
+    "STMT-OBJECTIVE-TRUTH-NOT-ACTUAL-TRUTH-ONLY"
+  ],
+  "conclusion_statement_id": "STMT-OBJECTIVE-TRUTH-ACTUAL-STABLE-DEFINITION",
+  "inference_ids": [
+    "INF-OBJECTIVE-TRUTH-FROM-NAMED-ELIMINATION"
+  ],
+  "meaning": "Logical elimination transcription under three explicitly open premises: named coverage and failure of the two alternative calibrations force actual-stable calibration. No independent philosophical warrant for those inputs is supplied.",
+  "definition_ids": [
+    "DEF-OBJECTIVE-TRUTH-PROFILE-FRAME",
+    "DEF-OBJECTIVE-TRUTH-NAMED-COVERAGE",
+    "DEF-OBJECTIVE-TRUTH-TRUTH-COMPONENT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-OBJECTIVE-TRUTH-CALIBRATIONS"
+  ]
+}

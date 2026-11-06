@@ -26,6 +26,12 @@ public import TruthCore.Results.Logic.KnowledgeAdmissibility.Solution
 public import TruthCore.Results.Logic.KnowledgeRetorsion.Solution
 public import TruthCore.Results.Logic.LimitAdmission.Solution
 public import TruthCore.Results.Logic.MaximumOrderSchema.Solution
+public import TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.BridgeOmission.Solution
+public import TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.Controls.Solution
+public import TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.Coverage.Solution
+public import TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.ExternalBridge.Solution
+public import TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.NamedElimination.Solution
+public import TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.ProfileToTruth.Solution
 public import TruthCore.Results.Logic.PerformedDenial.EmptyControl.Solution
 public import TruthCore.Results.Logic.PerformedDenial.NoAccurateDenial.Solution
 public import TruthCore.Results.Logic.PerformedDenial.StaticControl.Solution

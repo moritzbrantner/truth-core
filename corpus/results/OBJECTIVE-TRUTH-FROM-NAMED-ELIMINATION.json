@@ -1,0 +1,11 @@
+{
+  "id": "OBJECTIVE-TRUTH-FROM-NAMED-ELIMINATION",
+  "argument_id": "OBJECTIVE-TRUTH-FROM-NAMED-ELIMINATION",
+  "challenge_module": "TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.NamedElimination.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.NamedElimination.Solution",
+  "theorem": "TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.NamedElimination.namedElimination",
+  "comparator_config": "results/OBJECTIVE-TRUTH-FROM-NAMED-ELIMINATION/comparator.json",
+  "status": "solution-present",
+  "description": "Logical elimination transcription under three explicitly open premises: named coverage and failure of the two alternative calibrations force actual-stable calibration. No independent philosophical warrant for those inputs is supplied.",
+  "transcription": "instantiation"
+}
