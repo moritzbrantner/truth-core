@@ -1,0 +1,14 @@
+{
+  "id": "STMT-DESCRIPTIVE-THEISTIC-HORIZON",
+  "paraphrase": "Modest analyst descriptive horizon: users of natural-knowability moves are theists and the practice own standards endorse those moves. This does not state that shared standards are absent, and it is not identified with the older mixed prose horizon reconstruction.",
+  "lean_declaration": "TruthCore.Alternatives.NaturalReasonHorizon.DescriptiveTheisticHorizon",
+  "definition_ids": [
+    "DEF-NATURAL-REASON-PROFILE-COMPARISON",
+    "DEF-NATURAL-REASON-SHARED",
+    "DEF-NATURAL-REASON-PRACTICE-INTERNAL",
+    "DEF-CONCILIAR-DEFINITION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NATURAL-REASON"
+  ]
+}

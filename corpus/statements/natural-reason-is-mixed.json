@@ -1,0 +1,14 @@
+{
+  "id": "STMT-NATURAL-REASON-IS-MIXED",
+  "paraphrase": "A natural-knowability move answers to shared reason and another natural-knowability move does not. Actual positive and negative witnesses distinguish this further relevant profile from both uniform interpretations.",
+  "lean_declaration": "TruthCore.Alternatives.NaturalReasonHorizon.MixedNaturalReason",
+  "definition_ids": [
+    "DEF-NATURAL-REASON-PROFILE-COMPARISON",
+    "DEF-NATURAL-REASON-SHARED",
+    "DEF-NATURAL-REASON-PRACTICE-INTERNAL",
+    "DEF-CONCILIAR-DEFINITION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NATURAL-REASON"
+  ]
+}
