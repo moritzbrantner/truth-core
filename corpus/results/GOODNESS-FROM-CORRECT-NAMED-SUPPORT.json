@@ -1,0 +1,10 @@
+{
+  "id": "GOODNESS-FROM-CORRECT-NAMED-SUPPORT",
+  "argument_id": "GOODNESS-FROM-CORRECT-NAMED-SUPPORT",
+  "challenge_module": "TruthCore.Results.Metaethics.GoodnessCorrectSupport.Elimination.Challenge",
+  "solution_module": "TruthCore.Results.Metaethics.GoodnessCorrectSupport.Elimination.Solution",
+  "theorem": "TruthCore.Results.Metaethics.GoodnessCorrectSupport.Elimination.dueFromSupportedElimination",
+  "comparator_config": "results/GOODNESS-FROM-CORRECT-NAMED-SUPPORT/comparator.json",
+  "status": "solution-present",
+  "description": "Weaker conditional elimination reuses GOODNESS-FROM-NAMED-DEFINITION-ELIMINATION on a singleton-admissibility restriction of the SAME proposal meanings at a supported correct witness. No global candidate classification or property identity is inferred."
+}

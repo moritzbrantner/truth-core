@@ -1,0 +1,8 @@
+{
+  "id": "DEF-GOODNESS-CORRECT-ACCOUNT-SUPPORT",
+  "term": "conditional existential support for a correct named goodness account",
+  "definition": "If a correct admissible account exists, some admissible correct account has the extension of one of the supplied named due/feature/approval accounts. The witness may differ from the original existential witness. This sufficient bridge neither asserts existence nor classifies every admissible or every correct proposal. Global SemanticNamedCoverage is stronger, as a populated wrong-unnamed-account control verifies.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Metaethics.GoodnessCorrectSupport.CorrectAccountSupport",
+  "note": "Analyst sufficient support; attribution deferred. Uses exactly the original GoodnessFormEnd meanings. Property identity remains separate from coextension; no globally weakest formulation or adopted coverage. See docs/notes/truth-definition-use-audit.md."
+}

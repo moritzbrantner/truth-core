@@ -610,7 +610,7 @@
       "prior_inventory_member": false,
       "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
       "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
-      "prior_full_module_read": false,
+      "prior_full_module_read": true,
       "definition_id": "DEF-DEMARCATION-RESTRICTION",
       "lean_declaration": "TruthCore.Logic.SelfApplication.Norm.restrict",
       "definition_path": "corpus/definitions/demarcation-restriction.json"
@@ -1127,12 +1127,12 @@
       "challenge_paths": [
         "TruthCore/Results/Metaethics/GoodnessSemanticElimination/Challenge.lean"
       ],
-      "disposition": "already-explicit-no-new-gap",
+      "disposition": "existing-explicit-with-new-strength-refinement",
       "reason": "GoodIn, due standard and actuality are independent. Due-actuality is a falsifiable thesis; stronger unrestricted actuality needs AllActualitiesDue. Named elimination has explicit coverage/correct-account inputs.",
       "prior_inventory_member": false,
       "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
       "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
-      "follow_up": "Authorized new GoodnessCorrectSupport sibling: sufficient existential transfer of a correct admissible account to some semantically named correct account; global coverage remains stronger. Distinct control must retain a correct named account and wrong admissible unnamed account.",
+      "follow_up": "Implemented conditional support refinement in GoodnessCorrectSupport: global coverage implies sufficient existential support; support+separate correct existence+old failure inputs yields exact old due-actuality target; populated named-correct/wrong-unnamed strict control. See new_conditional_strength_results.",
       "prior_full_module_read": false,
       "definition_id": "DEF-FORM-END-DUE-PERFECTION",
       "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.Frame",
@@ -1229,12 +1229,12 @@
       "challenge_paths": [
         "TruthCore/Results/Metaethics/GoodnessNamedCoverage/Challenge.lean"
       ],
-      "disposition": "already-explicit-no-new-gap",
+      "disposition": "existing-explicit-with-new-strength-refinement",
       "reason": "Named candidate identity, admissibility and correctness are separate. NamedCoverage and CorrectAccountExists are OPEN; a fourth relevant proposal is witnessed without mistaking a label alias for semantic difference.",
       "prior_inventory_member": false,
       "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
       "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
-      "follow_up": "Authorized new GoodnessCorrectSupport sibling: sufficient existential transfer of a correct admissible account to some semantically named correct account; global coverage remains stronger. Distinct control must retain a correct named account and wrong admissible unnamed account.",
+      "follow_up": "Implemented conditional support refinement in GoodnessCorrectSupport: global coverage implies sufficient existential support; support+separate correct existence+old failure inputs yields exact old due-actuality target; populated named-correct/wrong-unnamed strict control. See new_conditional_strength_results.",
       "prior_full_module_read": false,
       "definition_id": "DEF-GOODNESS-NAMED-DEFINITION-SPACE",
       "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.DefinitionSpace",
@@ -1297,12 +1297,12 @@
         "TruthCore/Results/Metaethics/GoodnessSemanticCoverage/Challenge.lean",
         "TruthCore/Results/Metaethics/GoodnessCoverageStrength/Challenge.lean"
       ],
-      "disposition": "already-explicit-no-new-gap",
+      "disposition": "existing-explicit-with-new-strength-refinement",
       "reason": "Semantic coverage groups actual extensions and has a genuinely extension-different remainder. Identity coverage strengthens it; selected-support strength follow-up separately flagged, not a discovered invalid theorem.",
       "prior_inventory_member": false,
       "verification": "Existing kernel/check evidence reused; no proof rerun. Definition text, shared typed vocabulary and listed selected consuming frozen types read at audit base.",
       "scope_note": "All linked consumers are catalogued below. The listed inspected consumers are the exact semantic interface/control checks; this is not a new re-verification or independent source-fidelity review of every cross-cluster descendant.",
-      "follow_up": "Authorized new GoodnessCorrectSupport sibling: sufficient existential transfer of a correct admissible account to some semantically named correct account; global coverage remains stronger. Distinct control must retain a correct named account and wrong admissible unnamed account.",
+      "follow_up": "Implemented conditional support refinement in GoodnessCorrectSupport: global coverage implies sufficient existential support; support+separate correct existence+old failure inputs yields exact old due-actuality target; populated named-correct/wrong-unnamed strict control. See new_conditional_strength_results.",
       "prior_full_module_read": false,
       "definition_id": "DEF-GOODNESS-SEMANTIC-DEFINITION-COVERAGE",
       "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.SemanticNamedCoverage",
@@ -3089,5 +3089,10 @@
       "lean_declaration": "TruthCore.Logic.ReflectiveCoherence.Entails",
       "definition_path": "corpus/definitions/worldview-necessary-implication.json"
     }
+  ],
+  "new_conditional_strength_results": [
+    "GOODNESS-GLOBAL-COVERAGE-STRENGTHENS-CORRECT-SUPPORT",
+    "GOODNESS-FROM-CORRECT-NAMED-SUPPORT",
+    "GOODNESS-CORRECT-SUPPORT-STRICT-CONTROL"
   ]
 }

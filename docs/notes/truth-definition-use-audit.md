@@ -6,7 +6,7 @@ All 79 definition texts, notes and heads were read. Eighty-four distinct selecte
 
 The main distinction is between a consequential choice of meaning and an already explicit mathematical/interface choice. Arbitrary norm selection is not justified duty; satisfiability is not actual truth; implication is not endorsement; report equality is not phenomenal identity or warrant; plan support is not descriptive fact; population arithmetic is not an adopted ethical ordering. These differences already have separate typed inputs and omission/nonvacuity controls. No fork is manufactured merely because a primitive or fixture has a philosophical name.
 
-One additional *strength* opportunity was found, without invalidating an existing theorem: goodness elimination uses global semantic coverage of every admissible candidate although it needs only conditional existential support for a correct semantically named account. The authorized `GoodnessCorrectSupport` follow-up keeps old global coverage and correct-account existence separate, proves global coverage implies support, and requires a populated strict control containing a correct named account plus a wrong admissible unnamed account. The original module, Challenges and source claims remain unchanged. The original identity-versus-coextension comparison is valid within its stated comparison; no globally weakest coverage claim follows from it.
+One additional *strength* opportunity was found, without invalidating an existing theorem: goodness elimination uses global semantic coverage of every admissible candidate although it needs only conditional existential support for a correct semantically named account. The `GoodnessCorrectSupport` follow-up now keeps old global coverage and correct-account existence separate, proves global coverage implies support, and exports a populated strict control containing a correct named account plus a wrong admissible unnamed account. The original module, Challenges and source claims remain unchanged. The original identity-versus-coextension comparison is valid within its stated comparison; no globally weakest coverage claim follows from it.
 
 ## Priority interfaces
 
@@ -102,3 +102,22 @@ The selected consumer column links actual result records; all consumers and exac
 | [DEF-WORLDVIEW-NECESSARY-IMPLICATION](../../corpus/definitions/worldview-necessary-implication.json) | [LOGIC-REFLECTIVE-COHERENCE-BOUNDARY](../../corpus/results/LOGIC-REFLECTIVE-COHERENCE-BOUNDARY.json), [LOGIC-TRUTH-DIRECTED-REFLECTIVE-DUTY](../../corpus/results/LOGIC-TRUTH-DIRECTED-REFLECTIVE-DUTY.json) | Existing explicit scope/control: Entails is all-model consequence in ONE supplied semantics; endorsement and actuality differ. CoherenceBoundary separates inconsistency from incompatibility/error; necessary implication is not unrestricted metaphysical necessity. |
 
 No new claim, definition-pointer edit, floor approval, philosophical source identity or theory-exhaustion claim is made by this inventory. The accompanying existence/support follow-up is conditional research; it does not independently establish goodness or any root premise. Remaining unencoded residue consists of the stated real-world interpretation/applicability and source-fidelity judgments; obtaining such judgments is a separate task, not a hidden premise in the inspected consequences.
+
+## Conditional correct-account support refinement
+
+`CorrectAccountSupport s` is exactly:
+
+```lean
+CorrectAccountExists s →
+  ∃ d, s.admissible d ∧ CorrectAccount s d ∧ SemanticallyNamed s d
+```
+
+It asserts no actual correct account and does not require the transferred witness to be the same witness offered by the antecedent. The independently OPEN `CorrectAccountExists` remains a separate input of `GOODNESS-FROM-CORRECT-NAMED-SUPPORT`, as do the old exact feature/approval failure propositions. Global `SemanticNamedCoverage` remains an independent stronger sibling, with a sole-premise checked `strengthens` result. This is a selected sufficient premise, not a globally weakest logical formulation or a new philosophical coverage adoption.
+
+The weaker elimination composes the existing checked `dueFromSemanticElimination` theorem on `selectedSpace s d`, which changes ONLY admissibility to the supported singleton. Denotations, named proposals, goodness, actuality, form and end all remain literally unchanged. Correctness at that supported witness, and its membership in one named extension, yield the exact original `DueActualityThesis f`. No old theorem or Challenge is weakened. The original global route stays as a comparison/reuse route, with a metadata explanation for its stronger input.
+
+The strict control widens the original `artifactSpace false` to admit all four of its original proposals. Its .due proposal is explicitly admissible, correct and semantically named. Its .other proposal is explicitly admissible, WRONG and extensionally unlike every named proposal; global coverage consequently fails. The bound proposition also exports correct-account existence, conditional support, feature/approval failure and the exact due-actuality thesis. Thus support is genuinely weaker even with all elimination inputs available, rather than merely vacuous when no correct account exists. A wrong unnamed account is not a counterexample to supported existence of a correct named account.
+
+Only extensional agreement is used. The original independent `PropertyPresentation`/`PropertyIdentity` vocabulary and its coextension-without-identity control remain untouched. No actual admissibility roster, property identity, form/end applicability, philosophical source identity or independent truth of goodness follows from this construction. The extension-different .other in this control is the original finite proposal; it is not a claim that any historical school is false.
+
+Claim/type self-sweep for this refinement: support's implication antecedent matches the old correct-existence head; the strength theorem has global coverage as its sole premise; weaker elimination retains four independent inputs and the exact old conclusion; StrictControl exports both concrete witnesses, wrongness, extension-nonmembership, global failure and every advertised weaker-elimination input. There is no automatic floor or root discharge.

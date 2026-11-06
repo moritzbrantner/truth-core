@@ -1,0 +1,11 @@
+{
+  "id": "INF-GOODNESS-GLOBAL-COVERAGE-STRENGTHENS-CORRECT-SUPPORT",
+  "input_statement_ids": [
+    "STMT-GOODNESS-SEMANTIC-NAMED-DEFINITIONS-COVER"
+  ],
+  "output_statement_id": "STMT-GOODNESS-CORRECT-ACCOUNT-SUPPORT",
+  "rule": "constructive-proof",
+  "meaning": "Global semantic coverage implies conditional existential named correct-account support. No correct account or philosophical coverage is independently established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

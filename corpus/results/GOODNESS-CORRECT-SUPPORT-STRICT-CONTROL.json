@@ -1,0 +1,10 @@
+{
+  "id": "GOODNESS-CORRECT-SUPPORT-STRICT-CONTROL",
+  "argument_id": "GOODNESS-CORRECT-SUPPORT-STRICT-CONTROL",
+  "challenge_module": "TruthCore.Results.Metaethics.GoodnessCorrectSupport.Controls.Challenge",
+  "solution_module": "TruthCore.Results.Metaethics.GoodnessCorrectSupport.Controls.Solution",
+  "theorem": "TruthCore.Results.Metaethics.GoodnessCorrectSupport.Controls.strictControl",
+  "comparator_config": "results/GOODNESS-CORRECT-SUPPORT-STRICT-CONTROL/comparator.json",
+  "status": "solution-present",
+  "description": "A populated named correct account and wrong admissible extension-unnamed account separate sufficient correct-account support from global semantic named coverage; all weaker elimination inputs and exact thesis are exported."
+}
