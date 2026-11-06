@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.WorldwiseCompositeGround.Challenge",
+  "solution_module": "TruthCore.Results.Causality.WorldwiseCompositeGround.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.WorldwiseCompositeGround.checks"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}
