@@ -3,6 +3,7 @@ import TruthCore.Results.Logic.AdaptivePrediction.Solution
 import TruthCore.Results.Logic.AtomismIndependence.Solution
 import TruthCore.Results.Logic.CaseNonContradiction.Solution
 import TruthCore.Results.Logic.CogitoConcrete.Solution
+import TruthCore.Results.Logic.CogitoEsse.Solution
 import TruthCore.Results.Logic.CogitoSubject.Solution
 import TruthCore.Results.Logic.ContrastiveWorldview.Solution
 import TruthCore.Results.Logic.CorrectionCriterion.Solution

@@ -1,0 +1,16 @@
+{
+  "id": "INF-COGITO-ESSE-ANCESTRY-FORK",
+  "input_statement_ids": [
+    "STMT-COGITO-THOUGHT-OCCURS",
+    "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT",
+    "STMT-COGITO-BEARER-EXISTS-AT-WORLD",
+    "STMT-COGITO-THINKER-GROUNDING-ACCESSIBLE",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-EXISTING-IN-ACT-AT"
+  ],
+  "output_statement_id": "STMT-COGITO-ANCESTRY-ROOT-FORK",
+  "rule": "constructive-proof",
+  "meaning": "Specialize the imported ancestryRootFork to the same ontic and grounding relations with concrete := HasEsseInRe InAct esse, deriving its C premise from E and ExistingInActAt. The thinker-local accessibility and explicit excluded middle premises are unchanged. The conclusion is the same conditional fork in this adopted profile, not an assertion that its necessary horn obtains.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

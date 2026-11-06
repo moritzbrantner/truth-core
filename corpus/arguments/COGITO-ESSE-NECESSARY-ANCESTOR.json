@@ -1,0 +1,41 @@
+{
+  "id": "COGITO-ESSE-NECESSARY-ANCESTOR",
+  "premise_statement_ids": [
+    "STMT-COGITO-THOUGHT-OCCURS",
+    "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT",
+    "STMT-COGITO-BEARER-EXISTS-AT-WORLD",
+    "STMT-COGITO-THINKER-GROUNDING-ACCESSIBLE",
+    "STMT-COGITO-THINKER-ANCESTRY-GROUNDED",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-EXISTING-IN-ACT-AT"
+  ],
+  "conclusion_statement_id": "STMT-COGITO-NECESSARY-CONCRETE-ANCESTOR",
+  "inference_ids": [
+    "INF-COGITO-ESSE-NECESSARY-ANCESTOR"
+  ],
+  "meaning": "Compose the imported necessaryConcreteAncestor with the derived C bridge in the adopted esse profile. Occurrence, bearer existence, thinker-local accessibility, ancestry-grounding and excluded middle remain premises; necessity remains accessibility-relative. The SAME ontic and grounding relations are used throughout. No claim that any premise or actual necessary individual is established.",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-COGITO-ESSE-PROFILE",
+    "DEF-CONCRETE-ESSE-IN-RE",
+    "DEF-ESSE",
+    "DEF-EXISTING-IN-ACT-AT",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-THOUGHT-BEARER",
+    "DEF-THOUGHT-OCCURRENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE",
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING"
+  ]
+}

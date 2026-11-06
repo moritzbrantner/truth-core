@@ -1,0 +1,23 @@
+{
+  "id": "ATTEMPT-COGITO-ESSE-1113",
+  "statement_ids": [
+    "STMT-COGITO-BEARER-IS-CONCRETE",
+    "STMT-EXISTING-IN-ACT-AT",
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-COGITO-ANCESTRY-ROOT-FORK",
+    "STMT-COGITO-NECESSARY-CONCRETE-ANCESTOR",
+    "STMT-OCCURRENCE-SAME-WITNESS-ESSENCE"
+  ],
+  "date": "2026-11-06",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Owner #1113 adopts existing-in-re -> act of esse -> concrete, but not arbitrary legacy Ontic assignments. New profile retains ontology and grounding exactly and fixes concrete to HasEsseInRe. Derive C from existing E plus ExistingInActAt, then import and compose inhabited-world, ancestry-fork, necessary-ancestor and same-witness essence Solutions using that same criterion; the final composition uses the q3 profile's own InAct/esse. Existing generic Challenges and omission models are untouched. actualConcreteGround_iff shows that with this contract actual existence plus the original grounding edge suffices; the concrete guard adds no further restriction. Distinct operation route: existing q75 OperationOnlyOfBeingInActReading is causation-only, so applying it to thinking was rejected. The additional conditional bearerConcreteOfOperation instead exposes occurrence-to-intellectual-exercise and intellectual-exercise-to-act interfaces, plus ActualityOnlyInsofarAsBeingReading. These analyst interfaces are not new root premises; exact source attribution is deferred. No source, passage or claim added. No occurrence, existence bridge, grounding premise or floor item is established by these connections. Computed initial frontier delta: one root-reaching bare premise C becomes conditionally proved, no bare premise added, every route cost unchanged (cheapest 31). See docs/notes/cogito-esse-1113.md.",
+  "evidence": [
+    "COGITO-BEARER-CONCRETE-FROM-EXISTENCE",
+    "COGITO-ESSE-INHABITED-WORLD",
+    "COGITO-ESSE-ANCESTRY-FORK",
+    "COGITO-ESSE-NECESSARY-ANCESTOR",
+    "OCCURRENCE-ESSE-SAME-WITNESS"
+  ],
+  "blocker": "The adopted selected-world interpretation contract and occurrence-to-existence bridge remain explicit premises, not independently established floor items. Using the operation route as a separately recorded root derivation would need justification/interpretation of its intellectual-exercise interfaces; q75's causation-only existing reading does not supply them."
+}

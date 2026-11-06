@@ -1,0 +1,22 @@
+{
+  "id": "INF-OCCURRENCE-ESSE-SAME-WITNESS",
+  "input_statement_ids": [
+    "STMT-COGITO-THOUGHT-OCCURS",
+    "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT",
+    "STMT-COGITO-BEARER-EXISTS-AT-WORLD",
+    "STMT-COGITO-THINKER-GROUNDING-ACCESSIBLE",
+    "STMT-COGITO-THINKER-ANCESTRY-GROUNDED",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-ACTUAL-SUPPORT-CONCRETE-GROUND",
+    "STMT-EXISTING-IN-ACT-AT",
+    "STMT-UNITING-CAUSES-PRESENT",
+    "STMT-ACTUAL-ESSE-CAUSES-SUPPORT-AT",
+    "STMT-Q3A4-DISTINCT-ESSE-CAUSE-DICHOTOMY",
+    "STMT-Q3A4-ESSENTIAL-PRINCIPLES-NOT-DISTINCT-ESSE-CAUSE"
+  ],
+  "output_statement_id": "STMT-OCCURRENCE-SAME-WITNESS-ESSENCE",
+  "rule": "constructive-proof",
+  "meaning": "Compose the imported checks theorem while specializing concrete to HasEsseInRe of the q3 profile's own InAct and esse. The existing existence/esse premise now supplies C as well. Preserve all support-to-ground, source presence, typed cause/support and q3 dichotomy premises. The same ancestor remains the witness of necessity, root minimality, lack of existing support and represented essence–esse identity. This is an explicit intended-profile specialization, not a proof of the generic conclusion for an unrelated concrete parameter.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
