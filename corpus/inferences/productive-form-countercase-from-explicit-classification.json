@@ -1,0 +1,12 @@
+{
+  "id": "INF-PRODUCTIVE-FORM-COUNTERCASE-FROM-EXPLICIT-CLASSIFICATION",
+  "input_statement_ids": [
+    "STMT-SELECTED-PRODUCTIVE-CAUSE-IS-A-FORM",
+    "STMT-SELECTED-PRODUCTIVE-FORM-CAUSERS-LACK-ESSE"
+  ],
+  "output_statement_id": "STMT-SELECTED-FORM-PRODUCTIVE-NO-ESSE-COUNTERCASE",
+  "rule": "constructive-proof",
+  "meaning": "Guarded interpretation transcription: productive Form plus explicit no-esse classification; separateness alone does not supply the latter.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

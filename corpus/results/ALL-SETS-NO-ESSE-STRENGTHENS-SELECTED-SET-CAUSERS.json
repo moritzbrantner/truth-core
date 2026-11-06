@@ -1,0 +1,11 @@
+{
+  "id": "ALL-SETS-NO-ESSE-STRENGTHENS-SELECTED-SET-CAUSERS",
+  "argument_id": "ALL-SETS-NO-ESSE-STRENGTHENS-SELECTED-SET-CAUSERS",
+  "challenge_module": "TruthCore.Results.Causality.CausalConcreteRivals.SetScopeStrength.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CausalConcreteRivals.SetScopeStrength.Solution",
+  "theorem": "TruthCore.Results.Causality.CausalConcreteRivals.SetScopeStrength.setScopeStrength",
+  "comparator_config": "results/ALL-SETS-NO-ESSE-STRENGTHENS-SELECTED-SET-CAUSERS/comparator.json",
+  "status": "solution-present",
+  "description": "Sole-premise restriction of the stronger classification to selected productive set-causers; weaker premise is used by the actual route.",
+  "transcription": "instantiation"
+}
