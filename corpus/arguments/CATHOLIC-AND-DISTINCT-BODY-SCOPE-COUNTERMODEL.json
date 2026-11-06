@@ -1,0 +1,17 @@
+{
+  "id": "CATHOLIC-AND-DISTINCT-BODY-SCOPE-COUNTERMODEL",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-CATHOLIC-AND-DISTINCT-BODY-SCOPE-COUNTERMODEL",
+  "inference_ids": [
+    "INF-CATHOLIC-AND-DISTINCT-BODY-SCOPE-COUNTERMODEL"
+  ],
+  "meaning": "A single schema profile explicitly supplies a God from whom Jesus holds a mandate, actual Catholic founding and visibility, and a distinct other society actually founded by Jesus and visible. Attestation, veracity, Catholic-only scope including teaching and envoy transfer hold, but divine teaching-founding fails at that same God/other-body pair and the universal bridge fails. Universal mandate scope and stage6 identity also fail. This exports nonvacuous Catholic scope and the precise other-body countercase, not merely global nonemptiness or hidden properties of a concrete construction.",
+  "definition_ids": [
+    "DEF-SKELETON-OPEN-PREDICATES",
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FOUNDED-BY-GOD"
+  ]
+}
