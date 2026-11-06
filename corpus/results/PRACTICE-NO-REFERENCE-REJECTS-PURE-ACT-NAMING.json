@@ -1,0 +1,10 @@
+{
+  "id": "PRACTICE-NO-REFERENCE-REJECTS-PURE-ACT-NAMING",
+  "argument_id": "PRACTICE-NO-REFERENCE-REJECTS-PURE-ACT-NAMING",
+  "challenge_module": "TruthCore.Results.Alternatives.NameApplicationTransfer.PureActNaming.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.NameApplicationTransfer.PureActNaming.Solution",
+  "theorem": "TruthCore.Results.Alternatives.NameApplicationTransfer.PureActNaming.noReferenceRejectsPureActNaming",
+  "comparator_config": "results/PRACTICE-NO-REFERENCE-REJECTS-PURE-ACT-NAMING/comparator.json",
+  "status": "solution-present",
+  "description": "A unique pure-act first-mover witness would be proper by the naming leaf and a practice referent by transfer, contrary to no-reference. This negates the proper-profile leaf only under the supplied witness and transfer."
+}
