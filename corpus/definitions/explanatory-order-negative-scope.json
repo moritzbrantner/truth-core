@@ -1,0 +1,8 @@
+{
+  "id": "DEF-EXPLANATORY-ORDER-NEGATIVE-SCOPE",
+  "term": "failure of the realist explanatory universal",
+  "definition": "Exact negation of the existing RealistOrderOfExplanationReading under the same Moral and TruthExplainsTalk predicates. Raw anti-order only supplies it with separate asymmetry and a moral witness; neither raw source account includes those guards by fiat.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Metaethics.ExplanationRivalBoundary.NotRealistOrder",
+  "note": "Analyst scope/compatibility boundary; attribution deferred. See docs/notes/semantic-rival-scope.md."
+}

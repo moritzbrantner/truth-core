@@ -1,0 +1,8 @@
+{
+  "id": "DEF-THEOLOGICAL-METHOD-DEFINITION",
+  "term": "theological by declared method",
+  "definition": "The independent scope predicate calibrates to the presentation declaring the revelatory method. This is a domain criterion, not an adopted restriction on possible proofs.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.ScopedEmpiricalProofBarrier.MethodDefinition",
+  "note": "Analyst formulation; attribution deferred. Source STMT-WORLD-BEGINNING-NOT-DEMONSTRABLE and Hume verdict meanings remain separate. See docs/notes/scoped-empirical-proof-barrier.md."
+}

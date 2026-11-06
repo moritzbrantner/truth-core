@@ -1,0 +1,14 @@
+{
+  "id": "EXPLANATORY-ORDER-RIVAL-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-EXPLANATORY-ORDER-RIVAL-CONTROLS",
+  "inference_ids": [
+    "INF-EXPLANATORY-ORDER-RIVAL-CONTROLS"
+  ],
+  "meaning": "Exact populated-both, empty-both and populated-neither controls retain asymmetry status and moral witnesses. They block inferring preferred order merely by refuting a stronger raw account.",
+  "definition_ids": [
+    "DEF-EXPLANATORY-ORDER-NEGATIVE-SCOPE",
+    "DEF-ORDER-OF-EXPLANATION",
+    "DEF-MORAL-STATEMENT"
+  ]
+}

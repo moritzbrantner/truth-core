@@ -1,0 +1,11 @@
+{
+  "id": "INF-CAUSAL-ENDPOINT-ACTUALITY-STRENGTHENS-WHOLE-CAUSER-ACTUALITY",
+  "input_statement_ids": [
+    "STMT-CAUSES-HAVE-ACTUAL-ENDPOINTS-AT"
+  ],
+  "output_statement_id": "STMT-SELECTED-WHOLE-CAUSERS-ACTUALLY-EXIST",
+  "rule": "constructive-proof",
+  "meaning": "Sole-premise restriction of the EXISTING all-edge/both-endpoint actuality policy to selected-whole causers only. No generic Ontic field or original argument is changed.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

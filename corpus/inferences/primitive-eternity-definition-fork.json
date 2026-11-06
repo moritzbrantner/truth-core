@@ -1,0 +1,11 @@
+{
+  "id": "INF-PRIMITIVE-ETERNITY-DEFINITION-FORK",
+  "input_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "output_statement_id": "STMT-PRIMITIVE-ETERNITY-DEFINITION-FORK",
+  "rule": "constructive-proof",
+  "meaning": "Structural coverage transcription under explicit excluded middle: named calibrations cover or both fail. Philosophical named coverage remains OPEN.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

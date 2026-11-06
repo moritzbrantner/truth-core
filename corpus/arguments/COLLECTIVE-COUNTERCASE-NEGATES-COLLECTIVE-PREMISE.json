@@ -1,0 +1,14 @@
+{
+  "id": "COLLECTIVE-COUNTERCASE-NEGATES-COLLECTIVE-PREMISE",
+  "premise_statement_ids": [
+    "STMT-COLLECTIVE-POSSIBILITY-PRECISE-COUNTERCASE"
+  ],
+  "conclusion_statement_id": "STMT-COLLECTIVE-POSSIBILITY-FAILS",
+  "inference_ids": [
+    "INF-COLLECTIVE-COUNTERCASE-NEGATES-COLLECTIVE-PREMISE"
+  ],
+  "meaning": "The actual countercase branch negates the SAME collective premise. Keeps the structural OR branch connected to its deciding consequence.",
+  "definition_ids": [
+    "DEF-COLLECTIVE-POSSIBILITY-LOCAL-PROOF-ROUTE"
+  ]
+}

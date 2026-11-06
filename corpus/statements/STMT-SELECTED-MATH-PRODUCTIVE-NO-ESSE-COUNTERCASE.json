@@ -1,0 +1,14 @@
+{
+  "id": "STMT-SELECTED-MATH-PRODUCTIVE-NO-ESSE-COUNTERCASE",
+  "paraphrase": "A relevant supplied mathematical fact lacks esse in re and productively causes its outcome at the selected world. Noncausal explanatory relevance is not this countercase.",
+  "lean_declaration": "TruthCore.Causality.CausalConcreteRivalBoundary.MathCounter",
+  "definition_ids": [
+    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE",
+    "DEF-CONCRETE-ESSE-IN-RE",
+    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ]
+}

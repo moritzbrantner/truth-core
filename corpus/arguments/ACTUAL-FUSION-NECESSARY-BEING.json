@@ -27,5 +27,8 @@
   "disambiguation_ids": [
     "DISAMB-ACTUAL-FUSION-BARE-NE-AND-NECESSARY-CAUSE",
     "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY"
-  ]
+  ],
+  "strong_version_needed": {
+    "STMT-CAUSES-HAVE-ACTUAL-ENDPOINTS-AT": "The proof uses causer actuality at the supplied actual fusion sum. No premise identifies that sum with a selected spacetime whole, so the new whole-specific policy cannot replace this input without a separate mapping. Frozen interface retained; no claim that effect actuality or every unrelated edge is minimal."
+  }
 }

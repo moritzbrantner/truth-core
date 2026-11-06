@@ -1,0 +1,9 @@
+{
+  "id": "REL-REMAINING-THEOLOGICAL-DOMAIN-OPPOSES-COVERAGE",
+  "subject_kind": "statement",
+  "subject_id": "STMT-EMPIRICAL-PROOF-REMAINING-DOMAIN",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-EMPIRICAL-PROOF-NAMED-DOMAIN-COVERAGE",
+  "note": "Same table/predicate; the remainder denies each named calibration. It is not a proof-status rival."
+}

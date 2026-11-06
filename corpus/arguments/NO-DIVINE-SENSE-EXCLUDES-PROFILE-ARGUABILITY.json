@@ -1,0 +1,17 @@
+{
+  "id": "NO-DIVINE-SENSE-EXCLUDES-PROFILE-ARGUABILITY",
+  "premise_statement_ids": [
+    "STMT-TLP-PROFILE-NO-MEANINGFUL-DIVINE"
+  ],
+  "conclusion_statement_id": "STMT-NATURAL-THEOLOGY-PROFILE-NOT-ARGUABLE",
+  "inference_ids": [
+    "INF-NO-DIVINE-SENSE-EXCLUDES-PROFILE-ARGUABILITY"
+  ],
+  "meaning": "Semantic projection transcription: no meaningful divine content excludes an arguable meaningful divine content under the SAME profile, regardless of its explicitly selected argument standard. This is not an inference from a Tractatus source passage or a proof of its strong meaning denial.",
+  "definition_ids": [
+    "DEF-NATURAL-THEOLOGY-SEMANTIC-PROFILE",
+    "DEF-NATURAL-THEOLOGY-PROFILE-ARGUABILITY",
+    "DEF-TLP-PROFILE-NO-DIVINE-SENSE",
+    "DEF-NATURAL-THEOLOGY-CONSEQUENCE-WARRANT-BRIDGE"
+  ]
+}

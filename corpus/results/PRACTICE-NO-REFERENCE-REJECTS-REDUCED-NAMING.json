@@ -1,0 +1,10 @@
+{
+  "id": "PRACTICE-NO-REFERENCE-REJECTS-REDUCED-NAMING",
+  "argument_id": "PRACTICE-NO-REFERENCE-REJECTS-REDUCED-NAMING",
+  "challenge_module": "TruthCore.Results.Alternatives.NameApplicationTransfer.ReducedNaming.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.NameApplicationTransfer.ReducedNaming.Solution",
+  "theorem": "TruthCore.Results.Alternatives.NameApplicationTransfer.ReducedNaming.noReferenceRejectsReducedNaming",
+  "comparator_config": "results/PRACTICE-NO-REFERENCE-REJECTS-REDUCED-NAMING/comparator.json",
+  "status": "solution-present",
+  "description": "A reduced descriptor witness would be proper by the reduced naming leaf and a practice referent by transfer, contrary to no-reference. The witness and transfer are explicit prerequisites to this exact proper-profile negation."
+}

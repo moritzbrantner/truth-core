@@ -1,0 +1,14 @@
+{
+  "id": "STMT-SELECTED-CAUSAL-CONCRETENESS-OR-COUNTERCASE",
+  "paraphrase": "Under explicit excluded middle and the esse calibration, the exact original selected-world commitment or a precise no-esse capacity/productive countercase holds. Structural coverage, not exhaustion of philosophical theories.",
+  "lean_declaration": "TruthCore.Causality.CausalConcreteRivalBoundary.StructuralFork",
+  "definition_ids": [
+    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE",
+    "DEF-CONCRETE-ESSE-IN-RE",
+    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ]
+}

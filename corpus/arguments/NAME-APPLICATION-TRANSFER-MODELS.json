@@ -1,0 +1,19 @@
+{
+  "id": "NAME-APPLICATION-TRANSFER-MODELS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-NAME-APPLICATION-TRANSFER-MODELS",
+  "inference_ids": [
+    "INF-NAME-APPLICATION-TRANSFER-MODELS"
+  ],
+  "meaning": "Three explicit schema controls witness loss, inhabited agreement, and strictness of one-way preservation relative to coextension. No arbitrary predicate interpretation is claimed to establish classical theism or actual practice.",
+  "definition_ids": [
+    "DEF-PROPER-TO-PRACTICE-REFERENCE-CALIBRATION",
+    "DEF-NAME-REFERS-IN-PRACTICE",
+    "DEF-GOD-NOMINAL-Q13",
+    "DEF-GOD-OF-CLASSICAL-THEISM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NAME-APPLICATION",
+    "DISAMB-GOD"
+  ]
+}

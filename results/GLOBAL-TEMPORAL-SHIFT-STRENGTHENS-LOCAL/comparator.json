@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.GlobalStrength.Challenge",
+  "solution_module": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.GlobalStrength.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.GlobalStrength.globalStrength"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

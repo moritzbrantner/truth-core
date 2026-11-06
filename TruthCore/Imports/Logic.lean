@@ -7,6 +7,7 @@ public import TruthCore.Logic.CaseNonContradiction
 public import TruthCore.Logic.CogitoConcrete
 public import TruthCore.Logic.CogitoEsse
 public import TruthCore.Logic.CogitoSubject
+public import TruthCore.Logic.CollectivePossibilityRouteBoundary
 public import TruthCore.Logic.Configuration
 public import TruthCore.Logic.ContrastiveWorldview
 public import TruthCore.Logic.CorrectionCriterion
@@ -14,6 +15,7 @@ public import TruthCore.Logic.EpistemicAccuracy
 public import TruthCore.Logic.EpistemicReasonDefinitionFork
 public import TruthCore.Logic.EpistemicReasons
 public import TruthCore.Logic.ExcludedMiddle
+public import TruthCore.Logic.ExcludedMiddleAssertionBoundary
 public import TruthCore.Logic.FallibleCorrection
 public import TruthCore.Logic.FiniteValidationLogic
 public import TruthCore.Logic.FitchKnowability
@@ -25,7 +27,9 @@ public import TruthCore.Logic.KnowledgeAdmissibility
 public import TruthCore.Logic.KnowledgeRetorsion
 public import TruthCore.Logic.LimitAdmission
 public import TruthCore.Logic.MaximumOrder
+public import TruthCore.Logic.MeaningDefinitionFork
 public import TruthCore.Logic.MetaethicsTruthAptRivalBoundary
+public import TruthCore.Logic.NaturalTheologySemanticScope
 public import TruthCore.Logic.ObjectiveTruthDefinitionFork
 public import TruthCore.Logic.PerformedDenial
 public import TruthCore.Logic.PluralClosureBoundary
@@ -36,15 +40,18 @@ public import TruthCore.Logic.Regress
 public import TruthCore.Logic.RegressDomains
 public import TruthCore.Logic.Relativism
 public import TruthCore.Logic.Scientism
+public import TruthCore.Logic.ScopedEmpiricalProofBarrier
 public import TruthCore.Logic.SelfApplication
 public import TruthCore.Logic.SoritesBoundary
 public import TruthCore.Logic.Strength.Cause
 public import TruthCore.Logic.Strength.Order
 public import TruthCore.Logic.Strength.UniqueExistence
 public import TruthCore.Logic.StrengthComparison
+public import TruthCore.Logic.TemporalPastCoverage
 public import TruthCore.Logic.ThoughtChangeSubject
 public import TruthCore.Logic.ThresholdBelief
 public import TruthCore.Logic.TranscendentalPractice
+public import TruthCore.Logic.TruthAccountCompatibility
 public import TruthCore.Logic.TruthComposition
 public import TruthCore.Logic.TruthNontriviality
 public import TruthCore.Logic.TruthPilot

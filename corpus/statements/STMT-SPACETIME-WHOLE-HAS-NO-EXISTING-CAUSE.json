@@ -1,0 +1,9 @@
+{
+  "id": "STMT-SPACETIME-WHOLE-HAS-NO-EXISTING-CAUSE",
+  "paraphrase": "Exact negation of the existing UniverseHasExistingCause at the SAME Ontic/world/whole. It does not deny causal edges from absent candidate causers in a generic signature; the brute-universe no-edge position is stronger.",
+  "lean_declaration": "TruthCore.Ontology.UniverseCauseScopeBoundary.NoExistingCause",
+  "definition_ids": [
+    "DEF-UNIVERSE-CAUSER-ACTUALITY-SCOPE",
+    "DEF-SPATIOTEMPORAL-FRAME"
+  ]
+}

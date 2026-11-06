@@ -1,0 +1,10 @@
+{
+  "id": "FOUNDING-BRIDGE-FROM-NAMED-READING-ELIMINATION",
+  "argument_id": "FOUNDING-BRIDGE-FROM-NAMED-READING-ELIMINATION",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Elimination.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Elimination.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Elimination.namedElimination",
+  "comparator_config": "results/FOUNDING-BRIDGE-FROM-NAMED-READING-ELIMINATION/comparator.json",
+  "status": "solution-present",
+  "description": "Eliminating the direct-only reading yields the inclusive reading under the openly assumed named coverage; the imported inclusive-calibration theorem then supplies the existing envoy bridge. The coverage hypothesis is not hidden behind an assumed exhaustive list."
+}

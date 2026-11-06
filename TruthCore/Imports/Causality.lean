@@ -16,12 +16,14 @@ public import TruthCore.Causality.BruteFoundationBoundary
 public import TruthCore.Causality.BruteFoundationDoubling
 public import TruthCore.Causality.BruteFoundationExplanations
 public import TruthCore.Causality.BruteFoundationRoutes
+public import TruthCore.Causality.CausalConcreteRivalBoundary
 public import TruthCore.Causality.CausalPowerConcreteness
 public import TruthCore.Causality.CausalPowerConcretenessStrength
 public import TruthCore.Causality.ChainInstantiation
 public import TruthCore.Causality.CogitoNecessaryConcrete
 public import TruthCore.Causality.CommonPriority
 public import TruthCore.Causality.CompleteCauseContributorCover
+public import TruthCore.Causality.ComposerTemporalDefinitionFork
 public import TruthCore.Causality.ConcreteExistentialSupply
 public import TruthCore.Causality.ConstitutiveConfiguration
 public import TruthCore.Causality.ConstitutiveNatureUniqueness
@@ -40,6 +42,7 @@ public import TruthCore.Causality.DirectEsseRootUniquenessAtBeing
 public import TruthCore.Causality.EsseReception
 public import TruthCore.Causality.EsseReceptionDefinitionFork
 public import TruthCore.Causality.EssentialPower
+public import TruthCore.Causality.EternityDefinitionFork
 public import TruthCore.Causality.ExistenceActuality
 public import TruthCore.Causality.ExistentialSelfActualization
 public import TruthCore.Causality.FiniteBranching
@@ -58,6 +61,7 @@ public import TruthCore.Causality.JointGroups
 public import TruthCore.Causality.LocalFramePossibleExternalCause
 public import TruthCore.Causality.LocalTransmission
 public import TruthCore.Causality.MathlibBridges
+public import TruthCore.Causality.MaximumDefinitionFork
 public import TruthCore.Causality.ModalNecessaryBeingActuality
 public import TruthCore.Causality.NamedPotentialCauser
 public import TruthCore.Causality.NecessarilyUnderived
@@ -80,6 +84,7 @@ public import TruthCore.Causality.PossibleCausalSourceNecessity
 public import TruthCore.Causality.PossibleCauseOfContingency
 public import TruthCore.Causality.PowerExistenceBoundary
 public import TruthCore.Causality.RegressReadings
+public import TruthCore.Causality.RegressRivalCoverage
 public import TruthCore.Causality.RootEssenceIdentity
 public import TruthCore.Causality.RootIntellectWill
 public import TruthCore.Causality.RootIntellectWillOmission

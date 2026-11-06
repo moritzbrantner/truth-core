@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.ComposerTemporalDefinitions.PastSelfCountermodel.Bound.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ComposerTemporalDefinitions.PastSelfCountermodel.Bound.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.ComposerTemporalDefinitions.PastSelfCountermodel.Bound.pastSelfCountermodel"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

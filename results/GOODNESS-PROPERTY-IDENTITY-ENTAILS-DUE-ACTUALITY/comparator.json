@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Metaethics.GoodnessPropertyIdentity.Challenge",
+  "solution_module": "TruthCore.Results.Metaethics.GoodnessPropertyIdentity.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Metaethics.GoodnessPropertyIdentity.entailsDueActuality"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

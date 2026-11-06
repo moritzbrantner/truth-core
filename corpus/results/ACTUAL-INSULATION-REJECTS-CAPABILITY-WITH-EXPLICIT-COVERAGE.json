@@ -1,0 +1,10 @@
+{
+  "id": "ACTUAL-INSULATION-REJECTS-CAPABILITY-WITH-EXPLICIT-COVERAGE",
+  "argument_id": "ACTUAL-INSULATION-REJECTS-CAPABILITY-WITH-EXPLICIT-COVERAGE",
+  "challenge_module": "TruthCore.Results.Alternatives.RevelationRecognition.SplitComposition.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.RevelationRecognition.SplitComposition.Solution",
+  "theorem": "TruthCore.Results.Alternatives.RevelationRecognition.SplitComposition.actualInsulationRejectsCapabilityWithCoverage",
+  "comparator_config": "results/ACTUAL-INSULATION-REJECTS-CAPABILITY-WITH-EXPLICIT-COVERAGE/comparator.json",
+  "status": "solution-present",
+  "description": "Compose candidate realization and explicit admitted-subset coverage, then import the actual-insulation result. All six premises remain explicit: actual God, candidate realization, coverage, sharedness, raw actual cut-off and persistence. No capability-to-actual-event inference or independent closure."
+}

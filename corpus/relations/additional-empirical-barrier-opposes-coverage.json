@@ -1,0 +1,9 @@
+{
+  "id": "REL-ADDITIONAL-EMPIRICAL-BARRIER-OPPOSES-COVERAGE",
+  "subject_kind": "statement",
+  "subject_id": "STMT-EMPIRICAL-PROOF-ADDITIONAL-BARRIER",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-EMPIRICAL-PROOF-BARRIER-COVERAGE",
+  "note": "The scoped unprovable target without ObservationBarrier contradicts that barrier coverage. It need not contradict restricted unprovability; the law control witnesses both facts together."
+}

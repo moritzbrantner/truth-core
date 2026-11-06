@@ -1,0 +1,27 @@
+{
+  "id": "COLLECTIVE-POSSIBILITY-COUNTERCASE-FORK",
+  "argument_id": "COLLECTIVE-POSSIBILITY-COUNTERCASE-FORK",
+  "challenge_module": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.Coverage.Challenge",
+  "solution_module": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.Coverage.Solution",
+  "theorem": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.Coverage.coverage",
+  "comparator_config": "results/COLLECTIVE-POSSIBILITY-COUNTERCASE-FORK/comparator.json",
+  "status": "solution-present",
+  "description": "Checked structural coverage under explicit excluded middle: collective conditional or its precise semantic countercase. No completeness of a named historical roster is inferred.",
+  "transcription": "instantiation",
+  "case_split": {
+    "target_statement_id": "STMT-ALL-CAN-NOT-BE-THEN-NOTHING-POSSIBLE",
+    "cases": [
+      {
+        "label": "collective conditional",
+        "statement_id": "STMT-ALL-CAN-NOT-BE-THEN-NOTHING-POSSIBLE",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.AllCanNotBeThenNothingPossibleReading"
+      },
+      {
+        "label": "precise individual/joint countercase",
+        "statement_id": "STMT-COLLECTIVE-POSSIBILITY-PRECISE-COUNTERCASE",
+        "lean_declaration": "TruthCore.Logic.CollectivePossibilityRouteBoundary.Countercase"
+      }
+    ],
+    "survival_result_id": "COLLECTIVE-POSSIBILITY-ROUTE-BOUNDARIES"
+  }
+}

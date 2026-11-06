@@ -1,0 +1,19 @@
+{
+  "id": "STMT-FULL-NOMINAL-NAMING-FAILS",
+  "paraphrase": "The proper-sense full naming leaf is false: it is not the case that every unique fully described principle satisfies the proper God predicate. This is the exact negation of the original leaf, not the raw practice-use no-reference thesis.",
+  "lean_declaration": "TruthCore.Alternatives.NameApplicationTransfer.FullNominalNamingFails",
+  "definition_ids": [
+    "DEF-PROPER-TO-PRACTICE-REFERENCE-CALIBRATION",
+    "DEF-NAME-REFERS-IN-PRACTICE",
+    "DEF-GOD-NOMINAL-Q13",
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-NOMINAL-DEFINITION",
+    "DEF-MAXIME-ENS",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-REMOTE-FROM-ALL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NAME-APPLICATION",
+    "DISAMB-GOD"
+  ]
+}

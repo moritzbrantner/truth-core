@@ -129,12 +129,12 @@
       "path": "corpus/statements/excluded-middle.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
-      "finding": "Full ∀ p, p ∨ ¬p is an explicit retained hypothesis, not an implicit typeclass law. The proof uses equality instances. Usage does not show full excluded middle is logically necessary; a weaker identity-decidability migration is left to the next scope.",
+      "finding": "Reviewed scope metadata correction: object-level ExcludedMiddle declaration and legacy floor basis/justification remain unchanged. The serious withholding position targets universal assertion; exact analyst global negation remains an unrefuted logical rival. Disagreement metadata includes that complement. Focused actual-record regression prevents floor-removal from turning instance-denial refutation into proof of global EM.",
       "before": {
         "sha256": "279edc03ac8141e2a580cefd9c9998f4dd260565e154c5856b4735abdda3eaa8",
         "lean_declaration": "TruthCore.Logic.ExcludedMiddle"
       },
-      "reviewed_sha256": "279edc03ac8141e2a580cefd9c9998f4dd260565e154c5856b4735abdda3eaa8"
+      "reviewed_sha256": "852c967c753f4095ad19e84aa864325d4fcadda8c079b4e26da54e62110d46a8"
     },
     {
       "kind": "statements",
@@ -886,12 +886,12 @@
       "path": "corpus/disambiguations/maxime-ens.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
-      "finding": "Source-scope re-review for PR905: Merely maximal (nothing above), greatest represented degree (all bearer degrees below or equivalent) and strict primacy remain distinct. Greatest degree permits tied bearers; no uniqueness or strict supremacy enters the new source reading. The old maximality theorem interfaces remain unchanged; weakening an antecedent strengthens a causal conditional. Earlier recorded disposition (historical context, not the current source attribution): Existing sense separation retained. The selected result uses a single fixed vocabulary context and does not change sense across premises. The record constrains interpretation, not premise truth.",
+      "finding": "Source-scope re-review for PR905: Merely maximal (nothing above), greatest represented degree (all bearer degrees below or equivalent) and strict primacy remain distinct. Greatest degree permits tied bearers; no uniqueness or strict supremacy enters the new source reading. The old maximality theorem interfaces remain unchanged; weakening an antecedent strengthens a causal conditional. Earlier recorded disposition (historical context, not the current source attribution): Existing sense separation retained. The selected result uses a single fixed vocabulary context and does not change sense across premises. The record constrains interpretation, not premise truth. Definition-fork re-review: the new paragraph preserves every original meaning and source boundary; only separate conditional interfaces are registered. The old selected-esse maximal causal premise follows from greatest-degree causation only with explicit maximal-to-greatest transfer, itself derived under supplied active-pair degree calibration, local directedness and excluded middle. Neither source attribution nor old theorem inputs gain those assumptions silently.",
       "before": {
         "sha256": "09f962384fd21f5a330426b296b4167a159e3fc4a30dd53f9d3bd9ab5ea0e713",
         "lean_declaration": null
       },
-      "reviewed_sha256": "b4ed2a67d9b014d6f23d93cca1dd614cc68059c5ec61f17acdaf3c2fde5de903"
+      "reviewed_sha256": "68ae62a727276f7c53958bceb99004953db0eb682f55eaadb95fb685ccd7fc65"
     },
     {
       "kind": "disambiguations",

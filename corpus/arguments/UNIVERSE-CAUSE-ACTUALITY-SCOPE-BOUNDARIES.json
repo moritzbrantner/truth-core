@@ -1,0 +1,13 @@
+{
+  "id": "UNIVERSE-CAUSE-ACTUALITY-SCOPE-BOUNDARIES",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-UNIVERSE-CAUSE-ACTUALITY-SCOPE-CONTROLS",
+  "inference_ids": [
+    "INF-UNIVERSE-CAUSE-ACTUALITY-SCOPE-BOUNDARIES"
+  ],
+  "meaning": "Exact absent/actual/no-edge controls preserve a populated whole and distinguish generic signature admissibility from the independently intended endpoint-actuality policy.",
+  "definition_ids": [
+    "DEF-UNIVERSE-CAUSER-ACTUALITY-SCOPE",
+    "DEF-SPATIOTEMPORAL-FRAME"
+  ]
+}

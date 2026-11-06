@@ -1,0 +1,10 @@
+{
+  "id": "REL-GOODNESS-PROPERTY-IDENTITY-STRENGTHENS-DUE-ACTUALITY",
+  "subject_kind": "statement",
+  "subject_id": "STMT-GOODNESS-DUE-ACTUALITY-PROPERTY-IDENTITY",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "STMT-GOODNESS-DUE-TO-FORM-AND-END",
+  "verification_result_id": "GOODNESS-PROPERTY-IDENTITY-ENTAILS-DUE-ACTUALITY",
+  "note": "Same supplied profile/presentation. Property identity entails coextension; the fixed Bool property presentation in GOODNESS-FORM-END-BOUNDARIES has coextension with distinct referents, so the reverse is not supplied. No actual property-identity judgment is settled."
+}

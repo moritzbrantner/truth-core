@@ -1,0 +1,25 @@
+{
+  "id": "EXCLUSIVE-IMMEDIATE-FOUNDING-REJECTS-ENVOY-BRIDGE",
+  "premise_statement_ids": [
+    "STMT-DIVINE-FOUNDING-IS-EXCLUSIVE-IMMEDIATE",
+    "STMT-JESUS-ENVOY-TEACHING-FOUNDING-EVENT-EXISTS"
+  ],
+  "conclusion_statement_id": "STMT-JESUS-ENVOY-FOUNDING-BRIDGE-FAILS",
+  "inference_ids": [
+    "INF-EXCLUSIVE-IMMEDIATE-FOUNDING-REJECTS-ENVOY-BRIDGE"
+  ],
+  "meaning": "With a real God-candidate/Jesus-envoy event, the old bridge would give target founding, immediate calibration would give direct founding, and the extra exclusion denies it. Both extra scope and nonvacuity remain explicit; the weaker calibration permits the opposite verdict.",
+  "definition_ids": [
+    "DEF-PRINCIPAL-ACT-FOUNDING-READING",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+    "DEF-FOUNDED-BY-GOD-IMMEDIATELY",
+    "DEF-GOD-OF-CLASSICAL-THEISM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FOUNDED-BY-GOD",
+    "DISAMB-GOD"
+  ],
+  "strong_version_needed": {
+    "STMT-DIVINE-FOUNDING-IS-EXCLUSIVE-IMMEDIATE": "The extra exclusion supplies the contradiction; minimal direct calibration alone can coexist with a nonempty envoy event and the bridge, as the first model witnesses."
+  }
+}

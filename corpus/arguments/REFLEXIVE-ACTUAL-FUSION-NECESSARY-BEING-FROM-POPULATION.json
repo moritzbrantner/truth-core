@@ -29,5 +29,8 @@
   "disambiguation_ids": [
     "DISAMB-ACTUAL-FUSION-BARE-NE-AND-NECESSARY-CAUSE",
     "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY"
-  ]
+  ],
+  "strong_version_needed": {
+    "STMT-CAUSES-HAVE-ACTUAL-ENDPOINTS-AT": "The sum is obtained existentially from population/fusion assumptions and passed to the unchanged reflexive theorem. No spacetime-whole mapping constrains that witness, so the new whole-specific policy does not replace this input as stated. No both-endpoint minimality claimed."
+  }
 }

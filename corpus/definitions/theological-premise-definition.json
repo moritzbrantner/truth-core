@@ -1,0 +1,8 @@
+{
+  "id": "DEF-THEOLOGICAL-PREMISE-DEFINITION",
+  "term": "theological by presented premises",
+  "definition": "The independent scope predicate calibrates to the presentation listing at least one revelation-origin premise. This does not say every alternative proof of its target uses revelation.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.ScopedEmpiricalProofBarrier.PremiseDefinition",
+  "note": "Analyst formulation; attribution deferred. Source STMT-WORLD-BEGINNING-NOT-DEMONSTRABLE and Hume verdict meanings remain separate. See docs/notes/scoped-empirical-proof-barrier.md."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "INF-GOODNESS-IDENTITY-COVERAGE-ENTAILS-SEMANTIC-COVERAGE",
+  "input_statement_ids": [
+    "STMT-GOODNESS-NAMED-DEFINITIONS-COVER"
+  ],
+  "output_statement_id": "STMT-GOODNESS-SEMANTIC-NAMED-DEFINITIONS-COVER",
+  "rule": "constructive-proof",
+  "meaning": "An identical named candidate has pointwise identical extension; map each identity case to semantic coextension. The strong identity coverage is not required in the core elimination.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

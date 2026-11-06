@@ -1,0 +1,10 @@
+{
+  "id": "REL-ALL-TIME-NO-SELF-STRENGTHENS-CURRENT-NO-SELF",
+  "subject_id": "STMT-NOTHING-SELF-EFFICIENTLY-CAUSES-AT-ANY-ADMITTED-TIME",
+  "object_id": "STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF",
+  "verification_result_id": "ALL-TIME-NO-SELF-STRENGTHENS-CURRENT-NO-SELF",
+  "note": "Exact sole-premise checked strength registration; no temporal interpretation is adopted.",
+  "predicate": "strengthens",
+  "subject_kind": "statement",
+  "object_kind": "statement"
+}

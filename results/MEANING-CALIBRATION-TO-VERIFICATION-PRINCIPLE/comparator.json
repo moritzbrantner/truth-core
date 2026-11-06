@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.MeaningDefinitionFork.CalibrationToPrinciple.Challenge",
+  "solution_module": "TruthCore.Results.Logic.MeaningDefinitionFork.CalibrationToPrinciple.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.MeaningDefinitionFork.CalibrationToPrinciple.calibrationToPrinciple"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

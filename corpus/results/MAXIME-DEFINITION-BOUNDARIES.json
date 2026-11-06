@@ -1,0 +1,10 @@
+{
+  "id": "MAXIME-DEFINITION-BOUNDARIES",
+  "argument_id": "MAXIME-DEFINITION-BOUNDARIES",
+  "challenge_module": "TruthCore.Results.Causality.MaximumDefinitions.Controls.Challenge",
+  "solution_module": "TruthCore.Results.Causality.MaximumDefinitions.Controls.Solution",
+  "theorem": "TruthCore.Results.Causality.MaximumDefinitions.Controls.controls",
+  "comparator_config": "results/MAXIME-DEFINITION-BOUNDARIES/comparator.json",
+  "status": "solution-present",
+  "description": "Finite incomparable/tied/remainder controls for the exact declared profiles. The incomparable model source greatest-degree causal principle is explicitly vacuous; it does not refute that conditional or establish a real causal ontology."
+}

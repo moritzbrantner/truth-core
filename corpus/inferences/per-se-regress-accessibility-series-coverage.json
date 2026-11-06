@@ -1,0 +1,11 @@
+{
+  "id": "INF-PER-SE-REGRESS-ACCESSIBILITY-SERIES-COVERAGE",
+  "input_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "output_statement_id": "STMT-PER-SE-REGRESS-ACCESSIBLE-OR-DESCENDING-SERIES",
+  "rule": "constructive-proof",
+  "meaning": "Compose the EXISTING REGRESS-READINGS-COINCIDE-CLASSICALLY theorem to prove WF or an actual Nat-indexed descending series. The imported reverse direction uses approved classical choice; not a constructive-exhaustion claim or real-world causal well-foundedness.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

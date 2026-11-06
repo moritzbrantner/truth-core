@@ -1,0 +1,11 @@
+{
+  "id": "CAUSAL-CONCRETENESS-FROM-EXPLICIT-COVERAGE-AND-ELIMINATION",
+  "argument_id": "CAUSAL-CONCRETENESS-FROM-EXPLICIT-COVERAGE-AND-ELIMINATION",
+  "challenge_module": "TruthCore.Results.Causality.CausalConcreteRivals.NamedElimination.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CausalConcreteRivals.NamedElimination.Solution",
+  "theorem": "TruthCore.Results.Causality.CausalConcreteRivals.NamedElimination.namedElimination",
+  "comparator_config": "results/CAUSAL-CONCRETENESS-FROM-EXPLICIT-COVERAGE-AND-ELIMINATION/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional elimination composes the structural fork: only explicit coverage plus actual negation of all three countercases yields the EXACT old commitment. This does not provide warrant or replace its adopted floor.",
+  "transcription": "instantiation"
+}

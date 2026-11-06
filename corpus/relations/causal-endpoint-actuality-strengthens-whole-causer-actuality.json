@@ -1,0 +1,10 @@
+{
+  "id": "REL-CAUSAL-ENDPOINT-ACTUALITY-STRENGTHENS-WHOLE-CAUSER-ACTUALITY",
+  "subject_kind": "statement",
+  "subject_id": "STMT-CAUSES-HAVE-ACTUAL-ENDPOINTS-AT",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "STMT-SELECTED-WHOLE-CAUSERS-ACTUALLY-EXIST",
+  "verification_result_id": "CAUSAL-ENDPOINT-ACTUALITY-STRENGTHENS-WHOLE-CAUSER-ACTUALITY",
+  "note": "Exact sole-premise scope restriction. Original stronger proposition and source meanings stay intact; use the weaker actuality policy in this selected-whole route."
+}

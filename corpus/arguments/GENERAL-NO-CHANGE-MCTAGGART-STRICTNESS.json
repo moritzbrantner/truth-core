@@ -1,0 +1,15 @@
+{
+  "id": "GENERAL-NO-CHANGE-MCTAGGART-STRICTNESS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-GENERAL-NO-CHANGE-MCTAGGART-STRICTNESS-CONTROL",
+  "inference_ids": [
+    "INF-GENERAL-NO-CHANGE-MCTAGGART-STRICTNESS"
+  ],
+  "meaning": "Populated finite strictness control: no general change need not include McTaggart1908 appearance commitments. Not actual ontology or an endorsement inside the modeled carrier.",
+  "definition_ids": [
+    "DEF-CHANGE-GENERAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CHANGE-A-SERIES"
+  ]
+}

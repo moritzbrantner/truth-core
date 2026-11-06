@@ -1,0 +1,12 @@
+{
+  "id": "STMT-PRIMITIVE-ETERNITY-ENDLESS-LIFE-DEFINITION",
+  "paraphrase": "Open analyst calibration: primitive Eternal holds exactly when life is present at some admitted time and has no existing life-boundary witness. Succession is permitted. This does not identify endless temporal life with the existing Boethian predicate or a complete theory of time.",
+  "lean_declaration": "TruthCore.Causality.EternityDefinitionFork.EndlessDefinition",
+  "definition_ids": [
+    "DEF-ETERNITY-CALIBRATION-PROFILE",
+    "DEF-BOETHIAN-ETERNAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-DURATION-SENSE"
+  ]
+}

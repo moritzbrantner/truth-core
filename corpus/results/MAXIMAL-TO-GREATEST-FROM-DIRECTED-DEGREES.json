@@ -1,0 +1,10 @@
+{
+  "id": "MAXIMAL-TO-GREATEST-FROM-DIRECTED-DEGREES",
+  "argument_id": "MAXIMAL-TO-GREATEST-FROM-DIRECTED-DEGREES",
+  "challenge_module": "TruthCore.Results.Causality.MaximumDefinitions.DirectedBridge.Challenge",
+  "solution_module": "TruthCore.Results.Causality.MaximumDefinitions.DirectedBridge.Solution",
+  "theorem": "TruthCore.Results.Causality.MaximumDefinitions.DirectedBridge.directedBridge",
+  "comparator_config": "results/MAXIMAL-TO-GREATEST-FROM-DIRECTED-DEGREES/comparator.json",
+  "status": "solution-present",
+  "description": "Derive the weak maximal-to-greatest interface from explicit excluded middle, active-pair strict degree calibration and local directedness of represented bearer degrees. No global homogeneous scale, uniqueness or source warrant is inferred."
+}

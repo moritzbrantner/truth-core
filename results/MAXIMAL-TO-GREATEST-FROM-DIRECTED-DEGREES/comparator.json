@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.MaximumDefinitions.DirectedBridge.Challenge",
+  "solution_module": "TruthCore.Results.Causality.MaximumDefinitions.DirectedBridge.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.MaximumDefinitions.DirectedBridge.directedBridge"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

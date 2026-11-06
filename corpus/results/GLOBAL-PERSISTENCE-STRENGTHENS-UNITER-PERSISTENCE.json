@@ -1,0 +1,11 @@
+{
+  "id": "GLOBAL-PERSISTENCE-STRENGTHENS-UNITER-PERSISTENCE",
+  "argument_id": "GLOBAL-PERSISTENCE-STRENGTHENS-UNITER-PERSISTENCE",
+  "challenge_module": "TruthCore.Results.Causality.ComposerTemporalDefinitions.PersistenceStrength.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ComposerTemporalDefinitions.PersistenceStrength.Solution",
+  "theorem": "TruthCore.Results.Causality.ComposerTemporalDefinitions.PersistenceStrength.persistenceStrength",
+  "comparator_config": "results/GLOBAL-PERSISTENCE-STRENGTHENS-UNITER-PERSISTENCE/comparator.json",
+  "status": "solution-present",
+  "description": "Logical strength registration: global same-respect persistence implies restricted some-respect persistence; finite controls show the converse fails.",
+  "transcription": "instantiation"
+}

@@ -2,3 +2,4 @@
 module
 
 public import TruthCore.Observation.Change
+public import TruthCore.Observation.ChangeRivalCoverage

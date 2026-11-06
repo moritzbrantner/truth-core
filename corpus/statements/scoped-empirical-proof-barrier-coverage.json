@@ -1,0 +1,22 @@
+{
+  "id": "STMT-EMPIRICAL-PROOF-BARRIER-COVERAGE",
+  "paraphrase": "All empirically unprovable scoped targets have the proposed observation-indistinguishability barrier. Explicit OPEN coverage claim.",
+  "lean_declaration": "TruthCore.Logic.ScopedEmpiricalProofBarrier.BarrierExplainsAll",
+  "definition_ids": [
+    "DEF-SCOPED-PROOF-INQUIRIES",
+    "DEF-THEOLOGICAL-SUBJECT-DEFINITION",
+    "DEF-THEOLOGICAL-PREMISE-DEFINITION",
+    "DEF-THEOLOGICAL-METHOD-DEFINITION",
+    "DEF-PROOF-DOMAIN-COVERAGE",
+    "DEF-EMPIRICAL-OBSERVATION-BARRIER",
+    "DEF-SCOPED-EMPIRICAL-PROOF-DENIAL",
+    "DEF-EMPIRICAL-BARRIER-COVERAGE",
+    "DEF-EMPIRICAL-BEGINNING-QUESTION-CONTROL",
+    "DEF-CONCLUSIVE-VERIFIABILITY",
+    "DEF-TRUTH-CONDITIONAL-LANGUAGE",
+    "DEF-EMPIRICIST-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SCOPED-PROOF-STANDARD-AND-THEOLOGICAL-DOMAIN"
+  ]
+}
