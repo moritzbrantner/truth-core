@@ -1,0 +1,22 @@
+{
+  "id": "SPATIOTEMPORAL-INDEPENDENT-OF-CONCRETE",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-SPATIOTEMPORAL-INDEPENDENT-OF-CONCRETE",
+  "inference_ids": [
+    "INF-SPATIOTEMPORAL-INDEPENDENT-OF-CONCRETE"
+  ],
+  "meaning": "A four-candidate model (has esse in re × in spacetime) with the reasoner concrete and the set of 2 abstract, one region, the spatiotemporal relation between candidates in spacetime and parthood in the whole, shows that in each of the three senses all four combinations of concreteness and spatiotemporality occur. So neither property is defined by or follows from the other.",
+  "definition_ids": [
+    "DEF-CONCRETE-ESSE-IN-RE",
+    "DEF-ABSTRACT-NO-ESSE-IN-RE",
+    "DEF-CONCRETE-ABSTRACT-ANCHORS",
+    "DEF-SPATIOTEMPORAL-FRAME",
+    "DEF-SPATIOTEMPORAL-LOCATED",
+    "DEF-SPATIOTEMPORAL-RELATED",
+    "DEF-PART-OF-SPACETIME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SPATIOTEMPORAL",
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA"
+  ]
+}

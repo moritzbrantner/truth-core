@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Ontology.Naturalism.Survivor.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.Naturalism.Survivor.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Ontology.Naturalism.Survivor.naturalistUncausedUniverseSurvivor"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

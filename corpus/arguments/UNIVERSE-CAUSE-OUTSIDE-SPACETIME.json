@@ -1,0 +1,19 @@
+{
+  "id": "UNIVERSE-CAUSE-OUTSIDE-SPACETIME",
+  "premise_statement_ids": [
+    "STMT-CAUSING-WHOLE-CAUSES-PARTS",
+    "STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF"
+  ],
+  "conclusion_statement_id": "STMT-CAUSES-OF-UNIVERSE-OUTSIDE-SPACETIME",
+  "inference_ids": [
+    "INF-UNIVERSE-CAUSE-OUTSIDE-SPACETIME"
+  ],
+  "meaning": "Owner's step (2), #1109: suppose c causes the spacetime whole and is a part of it. By the whole-to-part bridge c causes c, which no efficient cause does (ST I q.2 a.3, at the selected world's causation with a trivial respect). So every cause of the whole lies outside spacetime. No existence of a cause is assumed.",
+  "definition_ids": [
+    "DEF-SPATIOTEMPORAL-FRAME",
+    "DEF-PART-OF-SPACETIME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SPATIOTEMPORAL"
+  ]
+}

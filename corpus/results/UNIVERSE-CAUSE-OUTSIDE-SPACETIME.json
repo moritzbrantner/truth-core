@@ -1,0 +1,9 @@
+{
+  "id": "UNIVERSE-CAUSE-OUTSIDE-SPACETIME",
+  "argument_id": "UNIVERSE-CAUSE-OUTSIDE-SPACETIME",
+  "challenge_module": "TruthCore.Results.Ontology.Naturalism.Outside.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.Naturalism.Outside.Solution",
+  "theorem": "TruthCore.Results.Ontology.Naturalism.Outside.universeCauseOutsideSpacetime",
+  "comparator_config": "results/UNIVERSE-CAUSE-OUTSIDE-SPACETIME/comparator.json",
+  "status": "solution-present"
+}

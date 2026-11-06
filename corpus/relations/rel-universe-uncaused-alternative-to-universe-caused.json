@@ -1,0 +1,9 @@
+{
+  "id": "REL-UNIVERSE-UNCAUSED-ALTERNATIVE-TO-UNIVERSE-CAUSED",
+  "subject_kind": "statement",
+  "subject_id": "STMT-UNIVERSE-UNCAUSED",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-UNIVERSE-HAS-EXISTING-CAUSE",
+  "note": "The brute-universe rival (Russell 1948, Oppy as reported), held at full strength; consistent with every naturalist variant and the listed floor items (NATURALIST-UNCAUSED-UNIVERSE-SURVIVOR). Not refuted."
+}

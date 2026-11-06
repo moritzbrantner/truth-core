@@ -1,0 +1,12 @@
+{
+  "id": "STMT-NATURALISM-N3-INTERACTION",
+  "paraphrase": "N3i, interaction naturalism: at the selected world, whatever causes something that satisfies the thesis predicate P satisfies P (Papineau: whatever interacts causally with the physical world is physical).",
+  "lean_declaration": "TruthCore.Ontology.Naturalism.InteractionNaturalism",
+  "definition_ids": [
+    "DEF-NATURALISM-N3-INTERACTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NATURALISM-VARIANT",
+    "DISAMB-SPATIOTEMPORAL"
+  ]
+}

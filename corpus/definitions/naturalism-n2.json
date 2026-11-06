@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NATURALISM-N2",
+  "term": "concrete naturalism (N2)",
+  "definition": "`ConcreteNaturalism o concrete P w := ∀ x, o.ExistsAt w x → concrete x → P x`: everything existing and concrete satisfies P. Concrete is the adopted sense, having esse in re (DEF-CONCRETE-ESSE-IN-RE), supplied as a parameter.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Ontology.Naturalism.ConcreteNaturalism",
+  "note": "Analyst formulation, attribution deferred."
+}

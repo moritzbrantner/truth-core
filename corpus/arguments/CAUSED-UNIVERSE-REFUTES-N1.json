@@ -1,0 +1,21 @@
+{
+  "id": "CAUSED-UNIVERSE-REFUTES-N1",
+  "premise_statement_ids": [
+    "STMT-UNIVERSE-HAS-EXISTING-CAUSE",
+    "STMT-CAUSING-WHOLE-CAUSES-PARTS",
+    "STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF",
+    "STMT-THESIS-CONTAINED-IN-SPACETIME"
+  ],
+  "conclusion_statement_id": "STMT-NATURALISM-N1-FAILS",
+  "inference_ids": [
+    "INF-CAUSED-UNIVERSE-REFUTES-N1"
+  ],
+  "meaning": "If the spacetime whole has an existing cause, N1 makes that cause satisfy the thesis predicate, containment makes it a part of spacetime, and UNIVERSE-CAUSE-OUTSIDE-SPACETIME excludes that. So N1 fails; equivalently, N1 with the bridges entails that the universe has no existing cause. Conditional: the caused universe and both bridges are open.",
+  "definition_ids": [
+    "DEF-SPATIOTEMPORAL-FRAME",
+    "DEF-PART-OF-SPACETIME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SPATIOTEMPORAL"
+  ]
+}

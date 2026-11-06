@@ -1,0 +1,9 @@
+{
+  "id": "STMT-CAUSES-OF-UNIVERSE-OUTSIDE-SPACETIME",
+  "paraphrase": "At the selected world every cause of the spacetime whole is not a part of spacetime.",
+  "lean_declaration": "TruthCore.Ontology.NaturalismConsequences.CausesOfUniverseOutsideSpacetime",
+  "definition_ids": [
+    "DEF-PART-OF-SPACETIME",
+    "DEF-SPATIOTEMPORAL-FRAME"
+  ]
+}

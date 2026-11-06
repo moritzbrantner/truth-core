@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Ontology.Naturalism.RefutesN1.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.Naturalism.RefutesN1.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Ontology.Naturalism.RefutesN1.causedUniverseRefutesN1"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
