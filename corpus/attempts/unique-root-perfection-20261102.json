@@ -1,0 +1,23 @@
+{
+  "id": "ATTEMPT-UNIQUE-ROOT-PERFECTION-20261102",
+  "date": "2026-11-02",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "statement_ids": [
+    "STMT-UNIQUE-NECESSARY-ACTUAL-ROOT",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS",
+    "STMT-EXISTING-IN-ACT-AT",
+    "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
+    "STMT-GRADES-TO-MAXIMUM-AT-BEING",
+    "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING",
+    "STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE",
+    "STMT-DIRECT-ESSE-ROOT-PERFECTION"
+  ],
+  "evidence": [
+    "UNIQUE-ROOT-PERFECTION",
+    "UNDERIVED-ROOT-PERFECTION"
+  ],
+  "summary": "Preserve the SAME supplied unique necessary actual root n, including its supplied necessity and uniqueness among selected actual concrete roots. Import maximumExistsOfExistingRoot and maximumEqualsRoot through the fixed-esse Unit restriction, identify the selected maximum with n, then apply perfectOfMaximum to n. Eight explicit heads replace the underived input of UNDERIVED-ROOT-PERFECTION with the existing unique necessary actual root input, retaining the seven EM/genus/existence/esse-ground/grades/being/preexistence policies. No population, whole roster, contingent grounding, modal union or all-world support exclusion is re-assumed. This is a structural conditional composition deriving maximum and perfection, not a one-premise transcription or independent philosophical argument. No global package weakening, premise truth, uniqueness of all necessary beings, God naming or explanatory adequacy is established. Existing source and dictionary applicability remains OPEN. Reuse search found no existing registered unique-root-to-perfection consumer; all nine touched premise/conclusion dossiers inspected. Challenge48605 independently compiled with intended sorry before freeze 3ad42e2c61b1d3000750d395b06818869390badd97e9a8ec8725017bf5f3768c. Solution35405 focused compile PASS. Existing proofs/Challenges/core/definitions untouched; seven new owned files only. Axiom probe66839 terminal PASS: derive depends on NO axioms, matching config[]. Cheap corpus/source/diff49903 terminal PASS2794statements/1927claims/476passages, existing Frege-Geach warning only. Claim/type self-sweep: literal same m,w,carrier and dictionaries; supplied n/necessity/uniqueness retained, maximum/perfection derived; no source claims, new vocabulary, modal transport, root premise closure or God claim. Shared conventions sourceRevision625cb04ca568aebc8d45c90033e107a05e9bd2a0.",
+  "blocker": "All supplied root and attribute/correspondence policies remain explicit; no independent premise closure or source warrant established. Root owns final integration verification."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "UNIQUE-ROOT-PERFECTION",
+  "argument_id": "UNIQUE-ROOT-PERFECTION",
+  "challenge_module": "TruthCore.Results.Causality.UniqueRootPerfection.Challenge",
+  "solution_module": "TruthCore.Results.Causality.UniqueRootPerfection.Solution",
+  "theorem": "TruthCore.Results.Causality.UniqueRootPerfection.derive",
+  "comparator_config": "results/UNIQUE-ROOT-PERFECTION/comparator.json",
+  "status": "solution-present",
+  "description": "Preserve the SAME supplied unique necessary actual root n, including its supplied necessity and uniqueness among selected actual concrete roots. Import maximumExistsOfExistingRoot and maximumEqualsRoot through the fixed-esse Unit restriction, identify the selected maximum with n, then apply perfectOfMaximum to n. Eight explicit heads replace the underived input of UNDERIVED-ROOT-PERFECTION with the existing unique necessary actual root input, retaining the seven EM/genus/existence/esse-ground/grades/being/preexistence policies. No population, whole roster, contingent grounding, modal union or all-world support exclusion is re-assumed. This is a structural conditional composition deriving maximum and perfection, not a one-premise transcription or independent philosophical argument. No global package weakening, premise truth, uniqueness of all necessary beings, God naming or explanatory adequacy is established. Existing source and dictionary applicability remains OPEN."
+}
