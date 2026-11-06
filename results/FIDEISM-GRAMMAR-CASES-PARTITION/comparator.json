@@ -1,0 +1,1 @@
+{"challenge_module": "TruthCore.Results.Alternatives.FideismGrammarPartition.Challenge", "solution_module": "TruthCore.Results.Alternatives.FideismGrammarPartition.Solution", "theorem_names": ["TruthCore.Results.Alternatives.FideismGrammarPartition.partition", "TruthCore.Results.Alternatives.FideismGrammarPartition.cellsExclusive"], "permitted_axioms": [], "enable_nanoda": true}

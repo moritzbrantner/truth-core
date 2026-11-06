@@ -1,0 +1,10 @@
+{
+  "id": "FIDEISM-FAILS-IN-AUTHORITY-AND-USE-CASES",
+  "argument_id": "FIDEISM-FAILS-IN-AUTHORITY-AND-USE-CASES",
+  "challenge_module": "TruthCore.Results.Alternatives.FideismGrammarCases.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.FideismGrammarCases.Solution",
+  "theorem": "TruthCore.Results.Alternatives.FideismGrammarCases.fideismFailsInAuthorityAndUseCases",
+  "comparator_config": "results/FIDEISM-FAILS-IN-AUTHORITY-AND-USE-CASES/comparator.json",
+  "status": "solution-present",
+  "description": "Derived, not a transcription: case analysis composing the two earlier results (case 1) with a direct derivation from ordinary-use evidence (case 2). neitherCellSurvives, needsAuthorityCaseBridge and needsUseCaseBridge are certified models. Conditional; no refutes relation. Zero axioms."
+}

@@ -2,6 +2,7 @@
 import TruthCore.Alternatives.ActPotencyRegress
 import TruthCore.Alternatives.ActualityWithoutBeing
 import TruthCore.Alternatives.Fideism
+import TruthCore.Alternatives.FideismGrammarCases
 import TruthCore.Alternatives.FideismReference
 import TruthCore.Alternatives.FirstClosure
 import TruthCore.Alternatives.Inertia

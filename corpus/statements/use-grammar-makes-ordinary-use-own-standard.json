@@ -1,0 +1,11 @@
+{
+  "id": "STMT-USE-GRAMMAR-MAKES-ORDINARY-USE-OWN-STANDARD",
+  "paraphrase": "Case-2 bridge, open and unattributed: if ordinary use fixes the practice's grammar, then whatever belongs to ordinary use is endorsed by the practice's own standards.",
+  "lean_declaration": "TruthCore.Alternatives.FideismGrammarCases.UseCaseBridgeReading",
+  "definition_ids": [
+    "DEF-GRAMMAR-FIXED-BY-AUTHORITIES",
+    "DEF-GRAMMAR-FIXED-BY-ORDINARY-USE",
+    "DEF-IN-ORDINARY-USE",
+    "DEF-PRACTICE-OWN-STANDARD"
+  ]
+}

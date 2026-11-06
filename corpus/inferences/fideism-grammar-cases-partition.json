@@ -1,0 +1,11 @@
+{
+  "id": "INF-FIDEISM-GRAMMAR-CASES-PARTITION",
+  "input_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "output_statement_id": "STMT-FIDEISM-GRAMMAR-CASES-COVER",
+  "rule": "excluded-middle-cases",
+  "meaning": "Excluded middle on 'the authorities fix the grammar', then on 'ordinary use fixes the grammar'.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

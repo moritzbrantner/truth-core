@@ -1,0 +1,9 @@
+{
+  "id": "REL-WF-INTERNAL-GRAMMAR-ATTACKS-GRAMMAR-FIXED-BY-NEITHER",
+  "subject_kind": "statement",
+  "subject_id": "STMT-WF-RELIGION-INTERNAL-GRAMMAR",
+  "predicate": "attacks",
+  "object_kind": "statement",
+  "object_id": "STMT-GRAMMAR-FIXED-BY-NEITHER",
+  "note": "The fideist's own commitment that religion is governed by its own internal grammar sits badly with the third cell, in which the grammar is fixed by neither the practice's authorities nor its ordinary use. Not a refutation: 'internal' is not recorded as meaning 'fixed by authorities or by ordinary use', and that reading is the missing bridge; the cell is certified to survive (neitherCellSurvives)."
+}

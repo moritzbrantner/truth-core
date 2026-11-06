@@ -1,0 +1,8 @@
+{
+  "id": "DEF-GRAMMAR-FIXED-BY-ORDINARY-USE",
+  "term": "grammar fixed by ordinary use",
+  "definition": "`C.UseFixesGrammar`: what counts as a correct move of the practice is settled by its ordinary practitioners' use (what they are taught, profess and do).",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Alternatives.FideismGrammarCases.CasedPractice.UseFixesGrammar",
+  "note": "The second answer (owner decision 2026-11-06). Constrained only through STMT-USE-GRAMMAR-MAKES-ORDINARY-USE-OWN-STANDARD."
+}

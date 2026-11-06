@@ -382,6 +382,51 @@ every recorded rival refuted from established premises. That means refuting the
 two replies above, which today are met only by stated texts. Both bridges stay
 open, and that is the honest result.
 
+### Who fixes the grammar: by cases (owner decision 2026-11-06)
+
+The deciding question for both escapes is who fixes a practice's grammar.
+`FIDEISM-GRAMMAR-CASES-PARTITION` splits it into three cells from excluded
+middle alone, in the same form as the F7 partition:
+
+1. the grammar is fixed by the practice's recognized authorities;
+2. or not, and it is fixed by its ordinary practitioners' use;
+3. or it is fixed by neither.
+
+The partition is an instantiation, so it fixes the form only, not the cell.
+
+`FIDEISM-FAILS-IN-AUTHORITY-AND-USE-CASES`:
+
+- **Authority cell.** An open case bridge
+  (`STMT-AUTHORITY-GRAMMAR-MAKES-DEFINITIONS-OWN-STANDARD`, supported by CIC
+  can. 749 and *Dei Filius* ch. 4) yields the definition bridge. The two earlier
+  defeats then apply. They are composed by importing their theorems.
+- **Ordinary-use cell.** An open case bridge
+  (`STMT-USE-GRAMMAR-MAKES-ORDINARY-USE-OWN-STANDARD`) makes ordinary-use moves
+  the practice's own standard. Two evidence premises then do the work:
+  - That ordinary use affirms natural knowability is **bare**. The Catechism
+    repeats *Dei Filius* (CCC 36), and it presents the ways to God as
+    "argumenta convergentia et persuadentia" (CCC 31). But no Catechism page
+    could be pinned: vatican.va serves byte variants of the catechism pages,
+    and CI fetched different bytes for each page tried. CCC 12, 185-202 were
+    read on the same terms.
+  - That ordinary use confesses the one true God is **supported** by the pinned
+    creed, first article: "one God, the Father almighty, maker of heaven and
+    earth". The text is the creed, not evidence of how believers understand it.
+  - No pinnable survey of ordinary believers was found, so none is recorded.
+- **Neither cell.** `neitherCellSurvives` certifies that both fideist bundles
+  hold there, with every premise. The third view (`STMT-GRAMMAR-FIXED-BY-NEITHER`,
+  for instance a philosopher's rational reconstruction) has no recorded
+  proponent for the Catholic practice. The fideist's own internal-grammar thesis
+  attacks it but does not refute it: that "internal" means "fixed by authorities
+  or ordinary use" is a missing bridge.
+
+So the fideist descriptive thesis fails in both cells where the practice fixes
+its own grammar. It fails only conditionally: on the shared-reason reading and
+the two case bridges (all open), and on the ordinary-use evidence (knowability
+bare, confession supported). Case 2 is the weak case. It
+survives only if the grammar is fixed by neither. Nothing is established, so no
+refutes relation is recorded (#999).
+
 ### The reference parallel: *Dei Filius* ch. 1 and can. I.1 against WF-P1
 
 The owner asked for a typed reference relation (2026-11-05).

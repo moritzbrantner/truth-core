@@ -1,0 +1,8 @@
+{
+  "id": "DEF-IN-ORDINARY-USE",
+  "term": "in ordinary use (a move)",
+  "definition": "`C.InOrdinaryUse m`: the move m belongs to the ordinary practitioners' use: it is taught to them in catechesis or professed by them, as the creed is.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Alternatives.FideismGrammarCases.CasedPractice.InOrdinaryUse",
+  "note": "Stipulated (#1010). The two ordinary-use evidence premises differ in status: that ordinary use affirms natural knowability is bare (the Catechism, which repeats Dei Filius, could not be pinned), and that ordinary use confesses the one true God is supported by the pinned creed only. Whether catechesis addressed through bishops and catechists counts as ordinary use is not settled by any pinned record."
+}

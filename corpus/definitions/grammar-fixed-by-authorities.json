@@ -1,0 +1,8 @@
+{
+  "id": "DEF-GRAMMAR-FIXED-BY-AUTHORITIES",
+  "term": "grammar fixed by the practice's authorities",
+  "definition": "`C.AuthoritiesFixGrammar`: what counts as a correct move of the practice is settled by its recognized authorities (for the Catholic practice, the magisterium: councils and the pope teaching definitively).",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Alternatives.FideismGrammarCases.CasedPractice.AuthoritiesFixGrammar",
+  "note": "One answer to who fixes a practice's grammar (owner decision 2026-11-06, #1010). A proposition about the practice, constrained only through STMT-AUTHORITY-GRAMMAR-MAKES-DEFINITIONS-OWN-STANDARD."
+}
