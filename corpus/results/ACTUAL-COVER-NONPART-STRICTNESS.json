@@ -1,0 +1,10 @@
+{
+  "id": "ACTUAL-COVER-NONPART-STRICTNESS",
+  "argument_id": "ACTUAL-COVER-NONPART-STRICTNESS",
+  "challenge_module": "TruthCore.Results.Causality.ActualCoverStrictness.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ActualCoverStrictness.Solution",
+  "theorem": "TruthCore.Results.Causality.ActualCoverStrictness.checks",
+  "comparator_config": "results/ACTUAL-COVER-NONPART-STRICTNESS/comparator.json",
+  "status": "solution-present",
+  "description": "One coherent three-object, two-world interpretation satisfies all six premises of the existing actual-cover NE route while admitting actual overlapping source/effect with a shared proper part and neither included in the other. The necessary source causes both contingent family members; the effect actually covers their nonempty no-necessary-parts family. CauseNotPartOfEffectAt holds and CauseEffectNonoverlapAt fails. An explicit IntendedProfile witness satisfies the required concrete causal-power interpretation with no abstract candidates. The existing fromPopulation theorem supplies bare NE; no new NE derivation, physical applicability, global minimality or constitutive-support repair follows."
+}

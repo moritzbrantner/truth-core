@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ACTUAL-COVER-NONPART-STRICTNESS",
+  "term": "joint actual-cover cause-nonparthood strictness witness",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.ActualCoverStrictness.Certificate",
+  "definition": "One coherent three-object, two-world interpretation satisfies all six premises of the existing actual-cover NE route while admitting actual overlapping source/effect with a shared proper part and neither included in the other. The necessary source causes both contingent family members; the effect actually covers their nonempty no-necessary-parts family. CauseNotPartOfEffectAt holds and CauseEffectNonoverlapAt fails. An explicit IntendedProfile witness satisfies the required concrete causal-power interpretation with no abstract candidates. The existing fromPopulation theorem supplies bare NE; no new NE derivation, physical applicability, global minimality or constitutive-support repair follows.",
+  "note": "Analyst formulation for #418, attribution deferred. The finite V parthood order contains nonzero shared/source/effect objects. All exist actually; only source exists at the other accessible world. Thin power belongs to the source, independently of all-true concreteness; abstract is empty. This is not evidence of physical fit. No cross-world downward existence of parts is assumed. The existing cover route retains ActualReflexive instead of the older ActualPartsExistAt route head. Nonparthood still excludes a genuine constituent-to-whole causal edge, so this model does not reconcile constitutive support with the selected productive causal policy."
+}
