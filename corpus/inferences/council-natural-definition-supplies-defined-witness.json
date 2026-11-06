@@ -1,0 +1,11 @@
+{
+  "id": "INF-COUNCIL-NATURAL-DEFINITION-SUPPLIES-DEFINED-WITNESS",
+  "input_statement_ids": [
+    "STMT-DEI-FILIUS-DEFINES-NATURAL-KNOWABILITY-OF-GOD"
+  ],
+  "output_statement_id": "STMT-DEFINED-MOVE-EXISTS",
+  "rule": "constructive-proof",
+  "meaning": "Project a weak actual Defined witness from the existing council-defined natural-knowability move. Assembly transcription; natural-knowability content is not needed for definition-status conflict.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

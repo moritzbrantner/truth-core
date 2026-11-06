@@ -411,6 +411,54 @@ every recorded rival refuted from established premises. That means refuting the
 two replies above, which today are met only by stated texts. Both bridges stay
 open, and that is the honest result.
 
+### Theological content and normative grammar (analyst reconstruction, 2026-11-06)
+
+The raw `STMT-COUNCIL-TEACHING-THEOLOGY-NOT-GRAMMAR` reply and its supporting
+source claims remain unchanged. A new modest typed profile distinguishes
+whether a defined move has theological content, whether a move plays a role in
+first-order religious life, and whether the practice's own standards endorse
+it. First-order life is a practical role, not a logical quantifier order. A
+doctrinal sentence can function as confession; these labels need not be
+disjoint. No actual institution or liturgical history is thereby established.
+
+`STMT-THEOLOGY-EXCLUDED-FROM-OWN-STANDARDS` states the substantive exclusion
+that a strong opponent reading needs. It is not supplied merely by theological
+content or by calling a formula second-order. The descriptive profile projects
+to the weaker theological-content premise; together with the explicit exclusion
+and an actual Defined witness it yields the exact negation of the unchanged
+`DefinitionIsOwnStandardReading`. The council-defined natural-knowability move
+supplies that weak Defined witness by a registered projection. Original
+cut-off arguments still need its natural content as well as Defined; new
+status-conflict arguments use only the weak witness.
+
+The existing theology-not-grammar alternative relation now uses that exact
+normative-bridge negation as its endpoint. Refuting a descriptive formulation
+alone therefore cannot automatically defend the bridge through a mismatched
+rival link. Mixed actual defined-status witnesses also reject the bridge and
+the opposite universal reading. EM checks all-endorsed, all-nonendorsed or mixed
+structural coverage; named uniform coverage remains open and actual mixed
+witnesses are a precise further profile. Empty definition domains permit the
+two universals to overlap, so nonemptiness is not implicit.
+
+Four controls retain positive ordinary religious-life endorsement. Descriptive
+theology can coexist with the bridge. A two-move model separates a defined,
+theological, nonendorsed move from an ordinary-life endorsed move; it also keeps
+the old council/natural-reason premises and the fideist pair. This extends the
+relevant scope beyond the older missing-bridge control, which did not encode
+roles and used no endorsed move. Other controls witness actual mixed status
+and empty-definition overlap. These are signature interpretations, not a
+refutation of theology, ordinary religious life or any whole worldview.
+
+The old bridge paraphrase now states its exact normative endorsement scope;
+it does not additionally decide theological or practical classification. The
+existing authority/use/neither grammar-fixer cases and their open bridges are
+unchanged. InOrdinaryUse concerns ordinary-practitioner uptake; identifying it
+with the present practical role or with normative endorsement would require a
+separate bridge. The raw reply's philosophical-distortion/fidelity claims also
+need a typed content/fidelity criterion before they could be identified with
+this modest profile. Neither identity nor independent normative warrant is
+assumed here.
+
 ### Who fixes the grammar: by cases (owner decision 2026-11-06)
 
 The deciding question for both escapes is who fixes a practice's grammar.

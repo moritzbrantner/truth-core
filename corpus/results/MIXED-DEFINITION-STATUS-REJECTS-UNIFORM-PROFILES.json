@@ -1,0 +1,10 @@
+{
+  "id": "MIXED-DEFINITION-STATUS-REJECTS-UNIFORM-PROFILES",
+  "argument_id": "MIXED-DEFINITION-STATUS-REJECTS-UNIFORM-PROFILES",
+  "challenge_module": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Mixed.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Mixed.Solution",
+  "theorem": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Mixed.mixedRejectsUniform",
+  "comparator_config": "results/MIXED-DEFINITION-STATUS-REJECTS-UNIFORM-PROFILES/comparator.json",
+  "status": "solution-present",
+  "description": "The nonendorsed defined witness defeats the old universal bridge; the endorsed defined witness defeats universal nonendorsement. This rejects two uniform profiles, not theology or a whole worldview."
+}

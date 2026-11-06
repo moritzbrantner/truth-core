@@ -3,6 +3,7 @@ module
 
 public import TruthCore.Alternatives.ActPotencyRegress
 public import TruthCore.Alternatives.ActualityWithoutBeing
+public import TruthCore.Alternatives.ConciliarGrammarDefinitions
 public import TruthCore.Alternatives.Fideism
 public import TruthCore.Alternatives.FideismGrammarCases
 public import TruthCore.Alternatives.FideismReference
