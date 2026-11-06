@@ -38,7 +38,7 @@
     "DEF-FINITE-CAUSAL-PATH",
     "DEF-REGRESS-SCHEMA-GRAPH"
   ],
-  "disambiguation_ids": [
+  "disambiguation_ids": ["DISAMB-POTENCY",
     "DISAMB-NECESSARY-SIMPLE-PLURALITY",
     "DISAMB-POWER-EXISTENCE-DEPENDENCE",
     "DISAMB-IN-ACT",

@@ -2,6 +2,10 @@ import { afterAll, beforeAll, expect, test } from "bun:test";
 import path from "node:path";
 import { chromium, type Browser } from "playwright";
 
+import baseAudit from "../../../docs/notes/classical-attributes-migration.json";
+import completeAudit from "../../../docs/notes/classical-attributes-all-migration.json";
+import namingAudit from "../../../docs/notes/naming-first-mover-migration.json";
+
 
 let browser: Browser;
 let server: ReturnType<typeof Bun.serve>;
@@ -41,11 +45,11 @@ test("bounded audit exposes exact scope, open premises and unresolved converse o
   const base = `${server.url}${basePath.replace(/^\//, "")}${basePath ? "/" : ""}`;
   await page.goto(`${base}results/CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES/#bundle-audit`);
   const audit = page.getByRole("region", { name: "Bounded bundle audit", exact: true });
-  expect(await audit.locator("[data-audit-coverage]").innerText()).toContain("69 record dispositions");
+  expect(await audit.locator("[data-audit-coverage]").innerText()).toContain(`${baseAudit.records.length} record dispositions`);
   expect(await audit.innerText()).toContain("25 definitions");
   expect(await audit.innerText()).toContain("No change");
   await audit.locator("[data-audit-records] > summary").click();
-  expect(await audit.locator("li").count()).toBeGreaterThanOrEqual(69);
+  expect(await audit.locator("li").count()).toBeGreaterThanOrEqual(baseAudit.records.length);
   const open = audit.locator("li").filter({ has: page.locator("a", { hasText: "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH" }) });
   expect((await open.innerText()).toLowerCase()).toContain("unresolved");
   expect(await open.innerText()).toContain("removed its Aristotle attribution");
@@ -76,11 +80,13 @@ test("complete specialization and consumers expose same-witness and identity bou
   for (const id of ["CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-ALL", "CATHOLICISM-STAGES-ONE-TWO-Q11-NATURE", "CATHOLICISM-QUARTA-VIA-CLASSICAL-WITNESS", "CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-IDENTITY"]) {
     await page.goto(`${base}results/${id}/#bundle-audit`);
     const panel = page.getByRole("region", { name: "Bounded bundle audit", exact: true });
-    expect(await panel.locator("[data-audit-coverage]").innerText()).toContain("149 record dispositions");
+    expect(await panel.locator("[data-audit-coverage]").innerText()).toContain(`${completeAudit.records.length} record dispositions`);
     expect(await panel.innerText()).toContain("DecidableEq Principle");
     expect(await panel.innerText()).toContain("same witness");
     expect(await panel.innerText()).toContain("Q11-NATURE");
     await panel.locator("[data-audit-records] > summary").click();
+    expect(await panel.getByRole("link", { name: "DEF-INDEPENDENT-POTENCY", exact: true }).count()).toBe(1);
+    expect(await panel.getByRole("link", { name: "DISAMB-POTENCY", exact: true }).count()).toBe(1);
     const immutable = panel.locator("li").filter({ has: page.locator("a", { hasText: "STMT-GOD-IS-IMMUTABLE" }) });
     expect(await immutable.innerText()).toContain("IsImmutable InPotency");
     expect(await immutable.innerText()).toContain("same Respect");
@@ -119,14 +125,27 @@ test("naming route exposes one-way applications, witness identity and explicit e
   for (const id of ids) {
     await page.goto(`${base}results/${id}/#bundle-audit`);
     const panel = page.getByRole("region", { name: "Bounded bundle audit", exact: true });
-    expect(await panel.locator("[data-audit-coverage]").innerText()).toContain("163 record dispositions");
+    expect(await panel.locator("[data-audit-coverage]").innerText()).toContain(`${namingAudit.records.length} record dispositions`);
     expect(await panel.innerText()).toContain("DecidableEq Principle");
     expect(await panel.innerText()).toContain("FirstUnmovedMoverExistsOrNot");
     expect(await panel.innerText()).toContain("same witness");
     expect(await panel.innerText()).toContain("one-way");
     await panel.locator("[data-audit-records] > summary").click();
+    expect(await panel.getByRole("link", { name: "DEF-INDEPENDENT-POTENCY", exact: true }).count()).toBe(1);
+    expect(await panel.getByRole("link", { name: "DISAMB-POTENCY", exact: true }).count()).toBe(1);
     const bridge = panel.locator("li").filter({ has: page.locator("a", { hasText: "STMT-FIRST-UNMOVED-MOVER-IS-MAXIME-ENS" }) });
     expect(await bridge.innerText()).toContain("Every first mover");
+    // Exact reviewed semantic rows must survive the presentation, including
+    // whichever independently delivered definition audits this branch carries.
+    const semanticIds = new Set([
+      "DEF-INDEPENDENT-POTENCY", "DISAMB-POTENCY",
+      "DEF-REVELATION-RECOGNITION-PROFILE",
+      "DISAMB-REVELATION-CAPABILITY-AND-PRACTICE-UPTAKE",
+      "DEF-CHURCH-CRITERION-CALIBRATION",
+    ]);
+    for (const row of namingAudit.records.filter((row) => semanticIds.has(row.id))) {
+      expect(await panel.getByRole("link", { name: row.id, exact: true }).count()).toBe(1);
+    }
   }
   await page.close();
   const context = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true });
