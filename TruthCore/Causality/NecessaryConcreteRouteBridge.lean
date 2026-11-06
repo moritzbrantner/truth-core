@@ -353,7 +353,7 @@ def NecessaryRouteControls : Prop :=
 def oneWorld (g : Bool → Bool → Prop) : Profile Unit Bool :=
   { ontic := { frame := { access := fun _ _ => True }, ExistsAt := fun _ _ => True,
                Causes := fun _ _ _ => False }
-    concrete := fun _ => True
+    concrete := fun _ => True  -- category-constant: intended (all-concrete inventory: the model tests grounding/modal structure, not the concrete/abstract line; a concrete conclusion here is no evidence that anything is concrete)
     grounds := fun _ => g }
 
 /-- The relation with the single edge `a → b`. -/
@@ -451,7 +451,7 @@ def contingentRootProfile : Profile Bool Bool :=
   { ontic := { frame := { access := fun _ _ => True },
                ExistsAt := fun v x => x = false ∨ v = true,
                Causes := fun _ _ _ => False }
-    concrete := fun _ => True
+    concrete := fun _ => True  -- category-constant: intended (all-concrete inventory: the model tests grounding/modal structure, not the concrete/abstract line; a concrete conclusion here is no evidence that anything is concrete)
     grounds := fun _ => edge true false }
 
 theorem everyClauseOmitted : EveryClauseOmitted := by
@@ -587,7 +587,7 @@ theorem necessityFreeWitness : NecessityFreeWitness := by
   let m : Profile Bool Unit :=
     { ontic := { frame := { access := fun _ _ => True }, ExistsAt := fun v _ => v = true,
                  Causes := fun _ _ _ => False }
-      concrete := fun _ => True
+      concrete := fun _ => True  -- category-constant: intended (all-concrete inventory: the model tests grounding/modal structure, not the concrete/abstract line; a concrete conclusion here is no evidence that anything is concrete)
       grounds := fun _ _ _ => False }
   let V : Vocabulary Unit Unit :=
     { InAct := fun _ _ => True, MoreIn := fun _ _ _ => False,
@@ -605,7 +605,7 @@ theorem rootNotRigid : RootNotRigid := by
   let m : Profile Bool Bool :=
     { ontic := { frame := { access := fun _ _ => True }, ExistsAt := fun _ _ => True,
                  Causes := fun _ _ _ => False }
-      concrete := fun _ => True
+      concrete := fun _ => True  -- category-constant: intended (all-concrete inventory: the model tests grounding/modal structure, not the concrete/abstract line; a concrete conclusion here is no evidence that anything is concrete)
       grounds := fun v y x => v = true ∧ y = true ∧ x = false }
   exact ⟨Bool, Bool, m, false, true, false,
     ⟨⟨True.intro, True.intro⟩, fun _ h => Bool.noConfusion h.2.2.1⟩, fun _ _ => True.intro,
@@ -616,7 +616,7 @@ theorem beginningLawControl : BeginningLawControl := by
   let m : Profile Bool Unit :=
     { ontic := { frame := { access := fun _ _ => True }, ExistsAt := fun v x => ∃ t, E v x t,
                  Causes := fun _ _ _ => False }
-      concrete := fun _ => True
+      concrete := fun _ => True  -- category-constant: intended (all-concrete inventory: the model tests grounding/modal structure, not the concrete/abstract line; a concrete conclusion here is no evidence that anything is concrete)
       grounds := fun _ _ _ => False }
   refine ⟨m, E, fun _ _ => Iff.rfl, ?_, ?_⟩
   · intro v x t ht hnone

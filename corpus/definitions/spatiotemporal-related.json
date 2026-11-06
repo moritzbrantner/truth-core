@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SPATIOTEMPORAL-RELATED",
+  "term": "spatiotemporal (relational sense)",
+  "definition": "`Related F x := ∃ y, F.related x y`: x stands in a spatiotemporal relation (distance, temporal order, separation) to some candidate.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Ontology.Spatiotemporal.Related",
+  "note": "Stipulative. The relational sense is the one a relationalist about spacetime can use without regions as entities."
+}

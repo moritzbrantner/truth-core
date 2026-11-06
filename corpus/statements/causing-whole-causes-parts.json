@@ -1,0 +1,10 @@
+{
+  "id": "STMT-CAUSING-WHOLE-CAUSES-PARTS",
+  "paraphrase": "Open bridge (owner, analyst formulation): whatever causes the spacetime whole to exist causes each of its parts to exist.",
+  "lean_declaration": "TruthCore.Ontology.NaturalismConsequences.CausingWholeCausesParts",
+  "definition_ids": [
+    "DEF-CAUSING-WHOLE-CAUSES-PARTS",
+    "DEF-PART-OF-SPACETIME",
+    "DEF-SPATIOTEMPORAL-FRAME"
+  ]
+}

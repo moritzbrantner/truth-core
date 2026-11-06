@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SUCCESSIVELY-TEMPORAL",
+  "term": "temporal (successive sense)",
+  "definition": "`SuccessivelyTemporal S x`: for some series i of the family S, x is present at an earlier and a later time of S i and its state differs between them. This is LifeHasSuccession of the q.10 duration frame (the negation of TotaSimul in DEF-BOETHIAN-ETERNAL) with presence in place of life. Being merely present at a time, or at several times without change of state, is not temporal in this sense.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Ontology.NaturalismConsequences.SuccessivelyTemporal",
+  "note": "The analyst's precisification of DEF-TEMPORAL-SUCCESSION-Q10 (time as the measure of change, with before and after, ST I q.10 a.4). It is relative to the supplied family: 'not temporal' means not successively temporal in any supplied series, not in every conceivable series. DISAMB-TEMPORAL-SENSE says how it treats Boethian eternity and the aevum. A source would be a passage that defines being in time as having a successive duration in this before/after sense."
+}

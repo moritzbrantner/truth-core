@@ -1,0 +1,10 @@
+{
+  "id": "REL-NATURALISM-N1-STRENGTHENS-N2",
+  "subject_kind": "statement",
+  "subject_id": "STMT-NATURALISM-N1",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "STMT-NATURALISM-N2",
+  "verification_result_id": "NATURALISM-N1-ENTAILS-N2",
+  "note": "N1 (everything existing satisfies P) entails N2 (everything existing and concrete satisfies P), for the same thesis predicate and world. No strictness countermodel is registered; N2 is strictly weaker wherever something exists without esse in re, which the owner's #1113 bridge excludes for existents in re."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NATURALISM-N3-INTERACTION",
+  "term": "interaction naturalism (N3i)",
+  "definition": "`InteractionNaturalism o P w := ∀ x y, o.Causes w x y → P y → P x`: whatever causes something that satisfies P satisfies P.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Ontology.Naturalism.InteractionNaturalism",
+  "note": "Papineau's p.11 formulation with P = physical (claim PAPINEAU-RISE-INTERACTION-PHYSICAL). It speaks of exercised causation, N3 of causal power; neither entails the other without the exercise-to-power reading."
+}

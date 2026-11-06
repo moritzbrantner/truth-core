@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CAUSING-WHOLE-CAUSES-PARTS",
+  "term": "causing a whole to exist causes its parts to exist",
+  "definition": "`CausingWholeCausesParts o F w := ∀ c y, o.Causes w c F.whole → PartOfSpacetime F y → o.Causes w c y`: whatever causes the spacetime whole to exist causes each of its parts to exist.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Ontology.NaturalismConsequences.CausingWholeCausesParts",
+  "note": "Owner's bridge (#1109), analyst formulation, open. Its rival is the Hume–Edwards view that the whole needs no cause over and above its parts, and the causal-loop model CAUSAL-LOOP-REJECTS-BRIDGE shows it is exactly what a loop escape must deny."
+}

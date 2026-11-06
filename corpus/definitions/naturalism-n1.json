@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NATURALISM-N1",
+  "term": "existence naturalism (N1)",
+  "definition": "`ExistenceNaturalism o P w := ∀ x, o.ExistsAt w x → P x`: everything existing at w satisfies the thesis predicate P. With P a spatiotemporal sense: everything that exists is spatiotemporal.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Ontology.Naturalism.ExistenceNaturalism",
+  "note": "Schema in the thesis predicate, so a proponent's own predicate is kept. Attributed to Armstrong only through Murphy's report (claim MURPHY-2021-ARMSTRONG-NATURALIST)."
+}

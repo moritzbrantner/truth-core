@@ -92,7 +92,7 @@ advertised as an adequate repair. -/
 def reasons (k : Kind) : TruthCore.Causality.BruteFoundationExplanations.ExplanationProfile Bool Nat Unit where
   reality := {
     ontic := modal k false
-    concrete := fun _ => True
+    concrete := fun _ => True  -- category-constant: intended (all-concrete inventory: the model tests explanatory adequacy, not the concrete/abstract line)
     grounds := fun w y x => (modal k false).Causes w y x }
   reasonPresent := fun _ _ => True
   explains := fun w _ e => e = 2 ∧ (modal k false).ExistsAt w e
@@ -137,7 +137,7 @@ def ModalControls : Prop :=
     ¬ TruthCore.Causality.BruteFoundationExplanations.NecessitatesExistenceAt (reasons k) false () 2) ∧
   (∀ k b, TruthCore.Explanation.TargetCopyExpansion.EntailingCoverage
     (TruthCore.Explanation.TargetCopyExpansion.copied
-      { ontic := modal k b, concrete := fun _ => True,
+      { ontic := modal k b, concrete := fun _ => True,  -- category-constant: intended (all-concrete inventory: the model tests explanatory adequacy, not the concrete/abstract line)
         grounds := fun w y x => (modal k b).Causes w y x }))
 
 /-- Formal constraints and comparison, with no independently defended actual

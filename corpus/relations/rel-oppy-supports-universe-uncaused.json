@@ -1,0 +1,9 @@
+{
+  "id": "REL-OPPY-SUPPORTS-UNIVERSE-UNCAUSED",
+  "subject_kind": "claim",
+  "subject_id": "OPPY-EMPIRICAL-KNOWLEDGE-NO-REASON-UNIVERSE-CAUSED",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-UNIVERSE-UNCAUSED",
+  "note": "Gap: Oppy states only that empirical knowledge gives no good reason to assume the universe has a cause, and reports that non-theists typically dispute that it has one; he does not himself assert that nothing causes it."
+}

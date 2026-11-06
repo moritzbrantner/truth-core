@@ -1,0 +1,9 @@
+{
+  "id": "CAUSED-UNIVERSE-REFUTES-N3-INTERACTION",
+  "argument_id": "CAUSED-UNIVERSE-REFUTES-N3-INTERACTION",
+  "challenge_module": "TruthCore.Results.Ontology.Naturalism.RefutesN3i.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.Naturalism.RefutesN3i.Solution",
+  "theorem": "TruthCore.Results.Ontology.Naturalism.RefutesN3i.causedUniverseRefutesN3Interaction",
+  "comparator_config": "results/CAUSED-UNIVERSE-REFUTES-N3-INTERACTION/comparator.json",
+  "status": "solution-present"
+}

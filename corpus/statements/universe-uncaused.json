@@ -1,0 +1,9 @@
+{
+  "id": "STMT-UNIVERSE-UNCAUSED",
+  "paraphrase": "The brute-universe position: at the selected world nothing causes the spacetime whole. The naturalist's escape from the caused-universe argument (Russell's 1948 'the notion of the world having an explanation is a mistake' is navigation only, not pinned here; Oppy reports that non-theists typically deny that the universe has a cause).",
+  "lean_declaration": "TruthCore.Ontology.NaturalismConsequences.UniverseUncaused",
+  "definition_ids": [
+    "DEF-PART-OF-SPACETIME",
+    "DEF-SPATIOTEMPORAL-FRAME"
+  ]
+}

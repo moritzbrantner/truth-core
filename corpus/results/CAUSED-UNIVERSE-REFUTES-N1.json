@@ -1,0 +1,9 @@
+{
+  "id": "CAUSED-UNIVERSE-REFUTES-N1",
+  "argument_id": "CAUSED-UNIVERSE-REFUTES-N1",
+  "challenge_module": "TruthCore.Results.Ontology.Naturalism.RefutesN1.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.Naturalism.RefutesN1.Solution",
+  "theorem": "TruthCore.Results.Ontology.Naturalism.RefutesN1.causedUniverseRefutesN1",
+  "comparator_config": "results/CAUSED-UNIVERSE-REFUTES-N1/comparator.json",
+  "status": "solution-present"
+}

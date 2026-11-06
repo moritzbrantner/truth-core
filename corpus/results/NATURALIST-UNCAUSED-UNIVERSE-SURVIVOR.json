@@ -1,0 +1,9 @@
+{
+  "id": "NATURALIST-UNCAUSED-UNIVERSE-SURVIVOR",
+  "argument_id": "NATURALIST-UNCAUSED-UNIVERSE-SURVIVOR",
+  "challenge_module": "TruthCore.Results.Ontology.Naturalism.Survivor.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.Naturalism.Survivor.Solution",
+  "theorem": "TruthCore.Results.Ontology.Naturalism.Survivor.naturalistUncausedUniverseSurvivor",
+  "comparator_config": "results/NATURALIST-UNCAUSED-UNIVERSE-SURVIVOR/comparator.json",
+  "status": "solution-present"
+}

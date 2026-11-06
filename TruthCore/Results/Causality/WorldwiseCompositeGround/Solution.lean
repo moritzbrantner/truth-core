@@ -104,7 +104,7 @@ theorem checks : ReplacementCertificate := by
       (∀ w, P2At p w ∧ P3At p w) := by
     refine ⟨{
       underlying := profile
-      abstract := fun _ => False
+      abstract := fun _ => False  -- category-constant: intended (no abstract candidate; meets the #1094 contract but supplies no Anchors, so not an intended interpretation under #1103)
       hasCausalPower := fun _ x => x = .whole
       disjoint := fun _ h => h.elim
       powerExists := ?_

@@ -41,7 +41,7 @@ def profile : Profile Bool Body where
     frame := ⟨fun _ _ => True⟩
     ExistsAt := existsAt
     Causes := support }
-  concrete := fun _ => True
+  concrete := fun _ => True  -- category-constant: intended (all-concrete inventory: the model tests grounding/modal structure, not the concrete/abstract line; a concrete conclusion here is no evidence that anything is concrete)
   grounds := support
 
 /-- Ordered objects at this world are actual, not absent self-parts. -/

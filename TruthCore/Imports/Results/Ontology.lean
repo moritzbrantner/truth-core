@@ -3,3 +3,13 @@ module
 
 public import TruthCore.Results.Ontology.CausalPowerConcretenessFromOperari.Solution
 public import TruthCore.Results.Ontology.EsseDichotomy.Solution
+public import TruthCore.Results.Ontology.Naturalism.Atemporal.Solution
+public import TruthCore.Results.Ontology.Naturalism.Independence.Solution
+public import TruthCore.Results.Ontology.Naturalism.Loop.Solution
+public import TruthCore.Results.Ontology.Naturalism.N1EntailsN2.Solution
+public import TruthCore.Results.Ontology.Naturalism.Outside.Solution
+public import TruthCore.Results.Ontology.Naturalism.RefutesN1.Solution
+public import TruthCore.Results.Ontology.Naturalism.RefutesN2.Solution
+public import TruthCore.Results.Ontology.Naturalism.RefutesN3.Solution
+public import TruthCore.Results.Ontology.Naturalism.RefutesN3i.Solution
+public import TruthCore.Results.Ontology.Naturalism.Survivor.Solution
