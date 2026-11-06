@@ -1,0 +1,19 @@
+{
+  "id": "STMT-COMMISSION-NAMED-GOVERNANCE-CRITERIA-COVER",
+  "paraphrase": "Open named coverage premise: the selected governing predicate matches either the narrow table or the teaching-inclusive criterion on the existing nine-power carrier. This does not census all real forms of institutional power.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.CommissionDefinitions.NamedGovernanceCoverage",
+  "definition_ids": [
+    "DEF-COMMISSION-GOVERNANCE-CALIBRATION",
+    "DEF-TEACHING-INCLUSIVE-GOVERNING-POWER",
+    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
+    "DEF-COMMISSION-REPORT-POWERS",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMMISSION-GOVERNANCE-CRITERIA",
+    "DISAMB-COMMISSION-REPORT-AND-EVENT",
+    "DISAMB-FOUNDED-BY-GOD",
+    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS"
+  ]
+}

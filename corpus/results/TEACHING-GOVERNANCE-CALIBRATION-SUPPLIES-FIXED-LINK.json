@@ -1,0 +1,11 @@
+{
+  "id": "TEACHING-GOVERNANCE-CALIBRATION-SUPPLIES-FIXED-LINK",
+  "argument_id": "TEACHING-GOVERNANCE-CALIBRATION-SUPPLIES-FIXED-LINK",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Matching.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Matching.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Matching.teachingCalibrationSuppliesLiteralLink",
+  "comparator_config": "results/TEACHING-GOVERNANCE-CALIBRATION-SUPPLIES-FIXED-LINK/comparator.json",
+  "status": "solution-present",
+  "description": "Definition-projection transcription: map the literal teaching-inclusive governing criterion into the selected predicate through its explicit calibration, then apply the matching institutional bridge. No transfer from the old narrow bridge is assumed.",
+  "transcription": "assembly"
+}

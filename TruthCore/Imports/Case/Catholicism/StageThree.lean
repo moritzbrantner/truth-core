@@ -3,6 +3,7 @@ module
 
 public import TruthCore.Case.Catholicism.StageThree.ChurchDefinitions
 public import TruthCore.Case.Catholicism.StageThree.CommissionAttestation
+public import TruthCore.Case.Catholicism.StageThree.CommissionDefinitions
 public import TruthCore.Case.Catholicism.StageThree.Commissions
 public import TruthCore.Case.Catholicism.StageThree.DivineFounding
 public import TruthCore.Case.Catholicism.StageThree.FoundingDefinitions
