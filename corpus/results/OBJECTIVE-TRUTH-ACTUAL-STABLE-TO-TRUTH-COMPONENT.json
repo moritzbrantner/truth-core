@@ -1,0 +1,10 @@
+{
+  "id": "OBJECTIVE-TRUTH-ACTUAL-STABLE-TO-TRUTH-COMPONENT",
+  "argument_id": "OBJECTIVE-TRUTH-ACTUAL-STABLE-TO-TRUTH-COMPONENT",
+  "challenge_module": "TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.ProfileToTruth.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.ProfileToTruth.Solution",
+  "theorem": "TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.ProfileToTruth.profileToTruth",
+  "comparator_config": "results/OBJECTIVE-TRUTH-ACTUAL-STABLE-TO-TRUTH-COMPONENT/comparator.json",
+  "status": "solution-present",
+  "description": "Extract the actual-truth conjunct of the explicit actual-stable calibration. This verified strong-to-weak consequence does not establish either calibration for a real language."
+}

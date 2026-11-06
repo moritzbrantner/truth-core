@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.NamedElimination.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.NamedElimination.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.NamedElimination.namedElimination"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -1,0 +1,12 @@
+{
+  "id": "STMT-OBJECTIVE-TRUTH-HAS-TRUTH-COMPONENT",
+  "paraphrase": "Open weakest bridge for this composition: every sentence satisfying the supplied objective predicate is true at the supplied actual attitude profile. This does not define the objective predicate completely.",
+  "lean_declaration": "TruthCore.Logic.ObjectiveTruthDefinitionFork.HasTruthComponent",
+  "definition_ids": [
+    "DEF-OBJECTIVE-TRUTH-PROFILE-FRAME",
+    "DEF-OBJECTIVE-TRUTH-TRUTH-COMPONENT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-OBJECTIVE-TRUTH-CALIBRATIONS"
+  ]
+}

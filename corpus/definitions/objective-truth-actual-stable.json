@@ -1,0 +1,8 @@
+{
+  "id": "DEF-OBJECTIVE-TRUTH-ACTUAL-STABLE",
+  "term": "objective as actual truth plus specified profile stability",
+  "definition": "ActualStableDefinition f means \u2200 s, objective s \u2194 (holds actual s \u2227 Stable f s). It is a proposed calibration of an independent predicate, so it can fail.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.ObjectiveTruthDefinitionFork.ActualStableDefinition",
+  "note": "Analyst extensional sibling of the legacy attitude-independence gloss, not an adopted definition or an attribution to O\u2019Connor. Whether stability under these profiles captures philosophical attitude independence remains open. It entails the truth-component bridge, but that weaker bridge suffices for the external-evil composition."
+}

@@ -1,0 +1,17 @@
+{
+  "id": "OBJECTIVE-TRUTH-DEFINITION-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-OBJECTIVE-TRUTH-DEFINITION-CONTROLS",
+  "inference_ids": [
+    "INF-OBJECTIVE-TRUTH-DEFINITION-CONTROLS"
+  ],
+  "meaning": "Checked finite truth tables retain all advertised false-stable, true-variable, remaining-extension and nontrivial-overlap properties in the exported type. No account is declared philosophically correct or source-attributed by these operational controls.",
+  "definition_ids": [
+    "DEF-OBJECTIVE-TRUTH-PROFILE-FRAME",
+    "DEF-OBJECTIVE-TRUTH-NAMED-COVERAGE",
+    "DEF-OBJECTIVE-TRUTH-TRUTH-COMPONENT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-OBJECTIVE-TRUTH-CALIBRATIONS"
+  ]
+}

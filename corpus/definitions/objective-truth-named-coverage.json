@@ -1,0 +1,8 @@
+{
+  "id": "DEF-OBJECTIVE-TRUTH-NAMED-COVERAGE",
+  "term": "named objective-truth calibration coverage and a remaining account",
+  "definition": "NamedCoverage f is ActualStableDefinition f \u2228 InvariantOnlyDefinition f \u2228 ActualTruthOnlyDefinition f. RemainingDefinition f is the conjunction of their negations. Coverage concerns pointwise extensions under one supplied truth/profile family, not candidate-name equality. The broad comparison class allows any binary objective classifier; its philosophical admissibility is not established.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.ObjectiveTruthDefinitionFork.NamedCoverage",
+  "note": "Analyst named coverage is an explicit open framework premise. Excluded middle proves only the four-way structural fork including RemainingDefinition; it does not prove named coverage. The actual-true-variable singleton control differs extensionally from all three named accounts. An additional admissibility restriction or proof of named exhaustion is a separate research obligation; failed search does not establish either."
+}
