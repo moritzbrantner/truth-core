@@ -55,7 +55,9 @@ theorem naturalistUncausedUniverseSurvivor : NaturalistUncausedUniverseSurvivor 
   refine ⟨Unit, Cand, Unit, ontic, frame, inAct, (), power, (), ⟨anchors, part_ne_two 0, fun h => h rfl⟩,
     fun _ h => h, fun _ h => ⟨rfl, h⟩, fun _ h => ⟨(), h⟩, fun _ h => ⟨.part 0, h, part_ne_two 0⟩,
     fun _ _ h => ⟨rfl, h⟩, ?_, ?_, ⟨?_, ?_⟩, fun _ _ h => ⟨_, h⟩, ?_, ?_, ⟨rfl, fun h => Cand.noConfusion h⟩,
-    fun h => Cand.noConfusion h, ⟨(), fun h => Cand.noConfusion h⟩, ?_, ?_, ?_, ?_, ?_⟩
+    fun h => Cand.noConfusion h, ⟨(), fun h => Cand.noConfusion h⟩, ?_, ?_, ?_, ?_, ?_,
+    ⟨Cand.part, fun _ _ h => Cand.part.inj h,
+      fun n => ⟨⟨rfl, part_ne_two n⟩, fun h => Cand.noConfusion h, n, rfl, rfl⟩⟩⟩
   · rintro x ⟨_, n, rfl, _⟩; exact ⟨rfl, part_ne_two _⟩
   · rintro x _ ⟨n, rfl, _⟩ _; exact ⟨rfl, part_ne_two _⟩
   · rintro x ⟨_, n, rfl, _⟩; exact part_ne_two _

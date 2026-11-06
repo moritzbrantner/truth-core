@@ -5,7 +5,7 @@
   "inference_ids": [
     "INF-CAUSAL-LOOP-REJECTS-BRIDGE"
   ],
-  "meaning": "A model with the whole, two parts a and b that cause each other, a causing the whole, and a non-existent number two: the whole has an existing cause, every naturalist variant and the floor item hold, nothing causes itself, and the whole-to-part bridge fails, since it would make a cause itself.",
+  "meaning": "A model with the whole, two parts a and b that cause each other, a causing the whole, and a non-existent number two: the whole has an existing cause, every naturalist variant and the floor item hold, nothing causes itself, the whole-to-part bridge fails, since it would make a cause itself, and a, b witness the certified loop (distinct proper parts causing each other, a causing the whole).",
   "definition_ids": [
     "DEF-SPATIOTEMPORAL-FRAME",
     "DEF-PART-OF-SPACETIME"

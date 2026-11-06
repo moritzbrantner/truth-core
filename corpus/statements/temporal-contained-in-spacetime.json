@@ -1,9 +1,14 @@
 {
   "id": "STMT-TEMPORAL-CONTAINED-IN-SPACETIME",
-  "paraphrase": "Open premise: whatever is temporal, in the supplied sense, is a part of the spacetime whole: there is no time (no other temporal series, such as an aevum) outside this spacetime.",
+  "paraphrase": "Open premise: whatever is successively temporal in some series of the supplied family (present at an earlier and a later time with a change of state) is a part of the spacetime whole: no supplied temporal series, such as a second series or an aevum whose adjunct changes are recorded, has a successive bearer outside this spacetime.",
   "lean_declaration": "TruthCore.Ontology.NaturalismConsequences.TemporalContainedInSpacetime",
   "definition_ids": [
     "DEF-PART-OF-SPACETIME",
-    "DEF-SPATIOTEMPORAL-FRAME"
+    "DEF-SPATIOTEMPORAL-FRAME",
+    "DEF-SUCCESSIVELY-TEMPORAL",
+    "DEF-TEMPORAL-SERIES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TEMPORAL-SENSE"
   ]
 }

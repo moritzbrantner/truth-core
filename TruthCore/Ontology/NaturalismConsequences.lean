@@ -7,6 +7,7 @@ public import TruthCore.Causality.ExistenceActuality
 public import TruthCore.Observation.Change
 public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3
 public import TruthCore.Logic.EpistemicReasons
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.BoethianEternity
 
 /-!
 # Consequences of naturalism (#1109)
@@ -77,15 +78,43 @@ def CausesOfUniverseOutsideSpacetime {W B : Type} (o : Ontic W B) (F : Frame B) 
     Prop :=
   ∀ c, o.Causes w c F.whole → ¬ PartOfSpacetime F c
 
-/-- Whatever is temporal, in the supplied sense, is a part of the spacetime
-whole: there is no time outside this spacetime. -/
-def TemporalContainedInSpacetime {B : Type} (F : Frame B) (temporal : B → Prop) : Prop :=
-  ∀ x, temporal x → PartOfSpacetime F x
+/-- A temporal series over the candidates `B`: a type of times with an
+earlier-than relation, presence of a candidate at a time, and its state at a
+time (its operations included). It is the duration frame of
+`TruthCore.Latin.Aquinas.SummaTheologiae.BoethianEternal`, bundled so that a
+family of series can be supplied. No order axiom is assumed. -/
+structure TemporalSeries (B : Type) where
+  Time : Type
+  earlier : Time → Time → Prop
+  presentAt : B → Time → Prop
+  State : Type
+  stateAt : B → Time → State
 
-/-- Strong version: every cause of the spacetime whole is not temporal at all. -/
-def CausesOfUniverseAtemporal {W B : Type} (o : Ontic W B) (F : Frame B) (w : W)
-    (temporal : B → Prop) : Prop :=
-  ∀ c, o.Causes w c F.whole → ¬ temporal c
+/-- `x` is temporal in the successive sense of ST I q.10 (`DEF-TEMPORAL-SUCCESSION-Q10`:
+time as the measure of change, with before and after) in some series of the
+supplied family: in that series `x` is present at an earlier and a later time and
+its state differs between them. This is `LifeHasSuccession` of the q.10 duration
+frame with presence for life, so a `TotaSimul` being (Boethian eternity) is not
+successively temporal in its frame, and an aeviternal being is successively
+temporal in a series exactly when its adjunct changes (q.10 a.5) enter that
+series' state (`DISAMB-TEMPORAL-SENSE`). -/
+def SuccessivelyTemporal {B I : Type} (S : I → TemporalSeries B) (x : B) : Prop :=
+  ∃ i, @TruthCore.Latin.Aquinas.SummaTheologiae.LifeHasSuccession B (S i).Time (S i).State
+    ⟨(S i).earlier⟩ (S i).presentAt (S i).stateAt x
+
+/-- Whatever is successively temporal in some supplied series is a part of the
+spacetime whole: no supplied temporal series has a successive bearer outside
+this spacetime. -/
+def TemporalContainedInSpacetime {B I : Type} (F : Frame B) (S : I → TemporalSeries B) :
+    Prop :=
+  ∀ x, SuccessivelyTemporal S x → PartOfSpacetime F x
+
+/-- Strong version: no cause of the spacetime whole is successively temporal in
+any supplied series. It does not exclude a non-successive (tota simul) duration,
+eternal or aeviternal. -/
+def CausesOfUniverseAtemporal {W B I : Type} (o : Ontic W B) (F : Frame B) (w : W)
+    (S : I → TemporalSeries B) : Prop :=
+  ∀ c, o.Causes w c F.whole → ¬ SuccessivelyTemporal S c
 
 /-- The naturalist's brute-universe position: nothing causes the spacetime
 whole at `w`. -/
@@ -122,7 +151,9 @@ relational senses), the owner's #1113 bridge, the anchors, the weak
 causal-concreteness floor item, the exercise-to-power reading, the whole-to-part
 bridge, no self-causation, and change, motion and epistemic reasons all borne by
 parts of spacetime: in some model all of these hold, the spacetime whole exists
-and is located, nothing causes it, and every proper part of it has a cause. -/
+and is located, nothing causes it, every proper part of it has a cause, and there
+is an infinite regress: an injective chain of proper parts of spacetime, each
+caused by the next. -/
 def NaturalistUncausedUniverseSurvivor : Prop :=
   ∃ (W B R : Type) (o : Ontic W B) (F : Frame B) (InAct : B → R → Prop) (esse : R)
     (hasCausalPower : W → B → Prop) (w : W),
@@ -148,15 +179,20 @@ def NaturalistUncausedUniverseSurvivor : Prop :=
     (∃ Reason : B → B → Prop, TruthCore.Logic.EpistemicReasons.ThereAreEpistemicReasons Reason ∧
       ∀ a p, Reason a p → PartOfSpacetime F a) ∧
     UniverseUncaused o F w ∧
-    (∀ x, PartOfSpacetime F x → x ≠ F.whole → ∃ c, o.Causes w c x)
+    (∀ x, PartOfSpacetime F x → x ≠ F.whole → ∃ c, o.Causes w c x) ∧
+    (∃ chain : Nat → B, Function.Injective chain ∧
+      ∀ n, PartOfSpacetime F (chain n) ∧ chain n ≠ F.whole ∧
+        o.Causes w (chain (n + 1)) (chain n))
 
 open TruthCore.Ontology.ConcreteAbstract in
 open TruthCore.Causality.CausalPowerConcreteness in
 /-- The causal-loop escape: in some model the spacetime whole has an existing
 cause, every naturalist variant (part-of-spacetime sense), the anchors, the
 #1113 bridge, the causal-concreteness floor item, the exercise-to-power reading,
-no self-causation and containment all hold, and the whole-to-part bridge fails.
-The cause is a part of spacetime standing in a causal loop with another part. -/
+no self-causation and containment all hold, the whole-to-part bridge fails, and
+there is a causal loop through the cause: some existing proper part `c` of
+spacetime causes the whole, and `c` and a distinct proper part `d` cause each
+other. -/
 def CausalLoopRejectsBridge : Prop :=
   ∃ (W B R : Type) (o : Ontic W B) (F : Frame B) (InAct : B → R → Prop) (esse : R)
     (hasCausalPower : W → B → Prop) (w : W),
@@ -171,6 +207,9 @@ def CausalLoopRejectsBridge : Prop :=
     TruthCore.Latin.Aquinas.SummaTheologiae.NothingIsEfficientCauseOfItselfReading
       (fun x y (_ : Unit) => o.Causes w x y) ∧
     ContainedInSpacetime F (PartOfSpacetime F) ∧ WholeSatisfies F (PartOfSpacetime F) ∧
-    UniverseHasExistingCause o F w ∧ ¬ CausingWholeCausesParts o F w
+    UniverseHasExistingCause o F w ∧ ¬ CausingWholeCausesParts o F w ∧
+    (∃ c d, o.ExistsAt w c ∧ o.Causes w c F.whole ∧
+      PartOfSpacetime F c ∧ c ≠ F.whole ∧ PartOfSpacetime F d ∧ d ≠ F.whole ∧ c ≠ d ∧
+      o.Causes w c d ∧ o.Causes w d c)
 
 end TruthCore.Ontology.NaturalismConsequences

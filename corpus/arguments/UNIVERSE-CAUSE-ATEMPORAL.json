@@ -9,12 +9,15 @@
   "inference_ids": [
     "INF-UNIVERSE-CAUSE-ATEMPORAL"
   ],
-  "meaning": "Strong version of 'exists out of time' (#1017): composing UNIVERSE-CAUSE-OUTSIDE-SPACETIME with the premise that every temporal thing is part of the spacetime whole, every cause of the whole is not temporal at all. The weak conclusion needs no claim about other times; the strong one needs exactly that premise, which an aevum or a second temporal series would falsify.",
+  "meaning": "Strong version of 'exists out of time' (#1017): composing UNIVERSE-CAUSE-OUTSIDE-SPACETIME with the open premise that every successive bearer of any supplied temporal series is a part of the spacetime whole, no cause of the whole is successively temporal in any supplied series (DISAMB-TEMPORAL-SENSE). The weak conclusion needs no claim about other times; the strong one needs exactly that premise, which a second series, or an aevum whose adjunct changes are recorded, with a successive bearer outside spacetime would falsify.",
   "definition_ids": [
+    "DEF-PART-OF-SPACETIME",
     "DEF-SPATIOTEMPORAL-FRAME",
-    "DEF-PART-OF-SPACETIME"
+    "DEF-SUCCESSIVELY-TEMPORAL",
+    "DEF-TEMPORAL-SERIES"
   ],
   "disambiguation_ids": [
-    "DISAMB-SPATIOTEMPORAL"
+    "DISAMB-SPATIOTEMPORAL",
+    "DISAMB-TEMPORAL-SENSE"
   ]
 }

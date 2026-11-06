@@ -48,15 +48,19 @@ def anchors : Anchors (esseClassification inAct ()) where
   setOfTwoAbstract := fun h => h rfl
 
 /-- The causal-loop escape: a model in which the spacetime whole has an existing
-cause and every naturalist variant holds, because the whole-to-part bridge
-fails. -/
+cause `a`, `a` and another proper part `b` cause each other, every naturalist
+variant holds, and the whole-to-part bridge fails. -/
 theorem causalLoopRejectsBridge : CausalLoopRejectsBridge := by
   refine ⟨Unit, Cand, Unit, ontic, frame, inAct, (), power, (), ⟨anchors⟩, fun _ h => h,
     fun _ h => ⟨rfl, h⟩, fun _ h _ => ⟨rfl, h⟩, fun _ ⟨_, h⟩ => ⟨rfl, causer_ne_two h⟩,
     fun _ _ h _ => ⟨rfl, causer_ne_two h⟩,
     ⟨fun _ ⟨_, h⟩ => causer_ne_two h, fun _ _ h => causer_ne_two h⟩,
     fun _ _ h => ⟨_, h⟩, ?_, fun _ h => h, ⟨rfl, fun h => Cand.noConfusion h⟩,
-    ⟨.a, fun h => Cand.noConfusion h, Or.inr (Or.inr ⟨rfl, rfl⟩)⟩, ?_⟩
+    ⟨.a, fun h => Cand.noConfusion h, Or.inr (Or.inr ⟨rfl, rfl⟩)⟩, ?_,
+    ⟨.a, .b, fun h => Cand.noConfusion h, Or.inr (Or.inr ⟨rfl, rfl⟩),
+      ⟨rfl, fun h => Cand.noConfusion h⟩, fun h => Cand.noConfusion h,
+      ⟨rfl, fun h => Cand.noConfusion h⟩, fun h => Cand.noConfusion h,
+      fun h => Cand.noConfusion h, Or.inl ⟨rfl, rfl⟩, Or.inr (Or.inl ⟨rfl, rfl⟩)⟩⟩
   · intro x _ h
     rcases h with ⟨rfl, h⟩ | ⟨rfl, h⟩ | ⟨rfl, h⟩ <;> exact Cand.noConfusion h
   · intro hBridge

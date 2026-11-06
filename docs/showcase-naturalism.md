@@ -7,8 +7,9 @@ complete worldview, in the format of `docs/showcase-verificationism.md`.
   established (#999). Every consequence-defeat here needs at least one open
   premise.
 - **What is proved:** the owner's caused-universe argument refutes each
-  ontological variant conditionally: N1, N2, N3 and N3i each entail, with two
-  bridges, that the universe has no existing cause.
+  ontological variant conditionally: N1, N2, N3 and N3i each entail, with the
+  whole-to-part bridge, no self-causation, thesis containment and one
+  variant-specific premise (§3 table), that the universe has no existing cause.
 - **What survives:** the naturalist escapes (brute universe, infinite regress,
   causal loop) have certified joint models together with every floor item
   listed below.
@@ -51,7 +52,16 @@ applying its power (q.52 a.1). Neither is occupation, so this God is not
 | Thomism | bodies, composite substances | God, angels, separated souls (`STMT-SOME-CONCRETE-BEING-NOT-SPATIOTEMPORAL`) | numbers and universals, with esse only in the intellect |
 | N1 (Armstrong, as reported) | everything that exists | excluded | excluded from existence |
 | N2 | allowed | excluded | allowed |
-| N3 / N3i (Papineau) | allowed | allowed only if causally idle | allowed ("noncausal realms", p.11) |
+| N3, spatiotemporal instance (analyst's) | allowed | allowed only if it has no causal power | allowed |
+| N3i, spatiotemporal instance (analyst's) | allowed | allowed only if it causes nothing spatiotemporal | allowed |
+
+The last two rows are the analyst's instances of Papineau's schemas with
+P = a spatiotemporal sense. They are not Papineau's view. His own theses take
+P = physical (`PAPINEAU-RISE-CAUSAL-POWERS-PHYSICAL`,
+`PAPINEAU-RISE-INTERACTION-PHYSICAL`) and constrain the physical/nonphysical
+divide, not the spatiotemporal one. A causally active being that is physical but
+not spatiotemporal is not excluded by them. He also leaves "noncausal realms"
+(p.11) open, which matches the third column for P = physical.
 
 The Thomist combination is recorded as `alternative_to` N2.
 `Naturalism.concreteNaturalism_excludes` proves that N2 excludes it.
@@ -80,8 +90,9 @@ naturalism, "physical" for Papineau.
   contingent; the claim drops that conjunct, so it is weaker than the source.
 - **Papineau.** He leaves open "noncausal realms" (mathematical objects, value)
   that are not physical, so he is not committed to N1. He also never says that
-  physical things are spatiotemporal. The spatiotemporal N3 is the analyst's
-  instance of his schema.
+  physical things are spatiotemporal. The spatiotemporal N3 and N3i (the §1
+  table rows and every part-of-spacetime instance below) are the analyst's
+  instances of his schemas, not his theses.
 - **Sellars.** In the same paragraph Sellars calls the common-sense world of
   objects in Space and Time "unreal". So scientia mensura is not N1: it defers
   ontology to science, whatever science's categories turn out to be.
@@ -130,8 +141,9 @@ kalam premise. It is an efficient cause, not a PSR reason
 | `CAUSED-UNIVERSE-REFUTES-N3` | exercise-to-power reading `STMT-CAUSING-EXERCISES-POWER` | N3 |
 | `CAUSED-UNIVERSE-REFUTES-N3-INTERACTION` | the whole satisfies the thesis `STMT-SPACETIME-WHOLE-SATISFIES-THESIS` | N3i |
 
-Each refutation rests on U and both bridges. Equivalently, each variant with
-the bridges commits its holder to an uncaused universe: **N ⊢ ¬U**.
+Each refutation rests on U, the whole-to-part bridge, no self-causation,
+thesis containment and the extra premise in its row. Equivalently, each variant
+with those premises commits its holder to an uncaused universe: **N ⊢ ¬U**.
 
 **Status: conditional, not counted.**
 
@@ -141,10 +153,22 @@ the bridges commits its holder to an uncaused universe: **N ⊢ ¬U**.
 
 **"Out of time", strong version (#1017).** Read strictly, "C causes time to
 exist" yields only that C is not a part of *this* spacetime.
-`UNIVERSE-CAUSE-ATEMPORAL` derives the stronger "C is not temporal at all" with
-one extra open premise, `STMT-TEMPORAL-CONTAINED-IN-SPACETIME`: no time outside
-this spacetime. An aevum or a second temporal series would falsify it. The
-strong conclusion is recorded as its own statement,
+`UNIVERSE-CAUSE-ATEMPORAL` derives the stronger "C is not successively temporal
+in any supplied temporal series" with one extra open premise,
+`STMT-TEMPORAL-CONTAINED-IN-SPACETIME`: every successive bearer of a supplied
+series is a part of this spacetime.
+
+- *Temporal* is `SuccessivelyTemporal` (`DEF-SUCCESSIVELY-TEMPORAL`): present
+  at an earlier and a later time of a series, with a change of state. This is
+  q.10's successive duration, the negation of Boethian *tota simul*.
+- `DISAMB-TEMPORAL-SENSE` settles the cases. A second series with a successive
+  bearer outside spacetime falsifies the premise. So does an aevum whose
+  adjunct changes are recorded in some supplied series. An aevum with no
+  recorded change is not temporal in this sense.
+- So the conclusion does not say that C is eternal, and it does not exclude a
+  non-successive aeviternal duration.
+
+The strong conclusion is recorded as its own statement,
 `STMT-CAUSES-OF-UNIVERSE-ATEMPORAL`.
 
 ### The naturalist escapes, at full strength
@@ -152,8 +176,8 @@ strong conclusion is recorded as its own statement,
 | Escape | Proponent | Certificate | What it denies |
 |---|---|---|---|
 | Brute universe | Russell 1948 ("the notion of the world having an explanation is a mistake"; navigation, not pinned here); Oppy, who reports that non-theists deny that the universe has a cause (`REL-OPPY-SUPPORTS-UNIVERSE-UNCAUSED`) | `NATURALIST-UNCAUSED-UNIVERSE-SURVIVOR` | U |
-| Infinite regress without an external cause | Hume–Edwards style | same model: every proper part has a cause, the whole has none | U |
-| Causal loop | analyst formulation | `CAUSAL-LOOP-REJECTS-BRIDGE` | the whole-to-part bridge |
+| Infinite regress without an external cause | Hume–Edwards style | same model: an injective chain of proper parts, each caused by the next; every proper part has a cause; the whole has none | U |
+| Causal loop | analyst formulation | `CAUSAL-LOOP-REJECTS-BRIDGE`: an existing proper part c causes the whole, and c and a distinct proper part d cause each other | the whole-to-part bridge |
 
 `STMT-UNIVERSE-UNCAUSED` is recorded as `alternative_to` U.
 
@@ -166,12 +190,17 @@ The survivor model jointly satisfies all of the following:
   whole-to-part bridge and no self-causation;
 - F3 (something changes), F4 (something is moved) and F6 (some agent has an
   epistemic reason), each borne by a part of spacetime;
-- an existing, located spacetime whole that nothing causes.
+- an existing, located spacetime whole that nothing causes;
+- an infinite regress: an injective chain of proper parts of spacetime, each
+  caused by the next.
 
-So the brute-universe escape is consistent with every listed floor item.
+So the brute-universe and regress escapes are consistent with every listed
+floor item.
 
-The loop model shows the other escape: a naturalist who grants a caused
-universe must deny exactly the whole-to-part bridge.
+The loop model shows the other escape. A naturalist who grants a caused
+universe can keep every variant by a causal loop among proper parts: one of
+them causes the whole, and the whole-to-part bridge fails. The model does not
+show that denying the bridge requires a loop.
 
 **Related records:**
 
@@ -209,9 +238,18 @@ so that nothing is lost.
 **What is defeated:** nothing counts.
 
 **What survives:** every variant, through the brute-universe, regress or loop
-escape. The cosmological question is thus sharpened to two open premises, U
-and the whole-to-part bridge. If both were established, all four variants
-would fall together.
+escape. The cosmological question is thus sharpened to U and the whole-to-part
+bridge, but these two are not enough. Each refutation also needs no
+self-causation (sourced, not established) and thesis containment (definitional
+only for the part-of-spacetime sense). Each variant also needs its own extra
+premise:
+
+- N1: none;
+- N2: the weak causal-concreteness floor item;
+- N3: the exercise-to-power reading;
+- N3i: that the whole satisfies the thesis.
+
+Only if all of these were established would all four variants fall.
 
 **Frontier:** no change. Neither U nor the bridge is a root-route premise, and
 no route leaf gained a naturalist rival; see the PR's `frontier-diff`.
