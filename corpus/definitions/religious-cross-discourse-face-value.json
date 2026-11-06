@@ -1,0 +1,8 @@
+{
+  "id": "DEF-RELIGIOUS-CROSS-DISCOURSE-FACE-VALUE",
+  "term": "face-value status with cross-discourse truth invariance",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Alternatives.ReligiousLanguageSemantics.CrossDiscourseFaceValue",
+  "definition": "The analyst stronger profile requires local face-value status and truth invariance on the selected religious sentences whenever the same apparent content is assigned in both supplied discourses. This additional invariance is an independent bridge, not silently part of local propositional, assertoric or descriptive status.",
+  "note": "Analyst comparison criterion, attribution deferred. The original unbound face-value/source statement is not rebound or strengthened. See the independent statement with this criterion and the checked local/strong projections."
+}

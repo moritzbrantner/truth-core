@@ -1,0 +1,11 @@
+{
+  "id": "INF-RELIGIOUS-SEMANTIC-PROFILE-COVERAGE",
+  "input_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "output_statement_id": "STMT-RELIGIOUS-SEMANTIC-CASES",
+  "rule": "constructive-proof",
+  "meaning": "Explicit excluded middle yields local-plus-invariant, local-plus-actual-matched-difference, or local failure. The local menu has an explicit further option; no census of historical theories is proved.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

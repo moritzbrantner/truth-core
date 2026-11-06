@@ -1,0 +1,13 @@
+{
+  "id": "STMT-RELIGIOUS-LOCAL-FACE-VALUE",
+  "paraphrase": "Analyst local fragment: each selected religious sentence has its apparent content, is a belief assertion, and represents the corresponding fact; its truth in that discourse iff that content fact holds there. This is not silently identified with the full old face-value source proposition.",
+  "lean_declaration": "TruthCore.Alternatives.ReligiousLanguageSemantics.LocalFaceValue",
+  "definition_ids": [
+    "DEF-RELIGIOUS-CONTENT-AND-DISCOURSE-TRUTH-PROFILE",
+    "DEF-RELIGIOUS-LOCAL-FACE-VALUE",
+    "DEF-RELIGIOUS-CROSS-DISCOURSE-FACE-VALUE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RELIGIOUS-LOCAL-FACE-VALUE-AND-CROSS-DISCOURSE-UNIFORMITY"
+  ]
+}

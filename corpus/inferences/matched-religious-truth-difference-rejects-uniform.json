@@ -1,0 +1,11 @@
+{
+  "id": "INF-MATCHED-RELIGIOUS-TRUTH-DIFFERENCE-REJECTS-UNIFORM",
+  "input_statement_ids": [
+    "STMT-RELIGIOUS-MATCHED-TRUTH-DIFFERENCE"
+  ],
+  "output_statement_id": "STMT-RELIGIOUS-MATCHED-TRUTH-UNIFORM-REJECTED",
+  "rule": "constructive-proof",
+  "meaning": "Instantiate invariance at the actual religious same-content witness and contradict its opposed truth applications. Local descriptive status is not refuted.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

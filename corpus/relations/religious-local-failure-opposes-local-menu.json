@@ -1,0 +1,9 @@
+{
+  "id": "REL-RELIGIOUS-LOCAL-FAILURE-OPPOSES-LOCAL-MENU",
+  "subject_kind": "statement",
+  "subject_id": "STMT-RELIGIOUS-LOCAL-FACE-VALUE-FAILS",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-RELIGIOUS-NAMED-LOCAL-PROFILES-COVER",
+  "note": "Exact same-profile incompatibility checked by the linked argument/result; not an identity with either old unbound historical source thesis. No root or philosophical-theory closure asserted."
+}

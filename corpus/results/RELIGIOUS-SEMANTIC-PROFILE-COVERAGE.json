@@ -1,0 +1,31 @@
+{
+  "id": "RELIGIOUS-SEMANTIC-PROFILE-COVERAGE",
+  "argument_id": "RELIGIOUS-SEMANTIC-PROFILE-COVERAGE",
+  "challenge_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.Coverage.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.Coverage.Solution",
+  "theorem": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.religiousSemanticCoverage",
+  "comparator_config": "results/RELIGIOUS-SEMANTIC-PROFILE-COVERAGE/comparator.json",
+  "status": "solution-present",
+  "description": "Explicit excluded middle yields local-plus-invariant, local-plus-actual-matched-difference, or local failure. The local menu has an explicit further option; no census of historical theories is proved.",
+  "case_split": {
+    "target_statement_id": "STMT-RELIGIOUS-LOCAL-FACE-VALUE",
+    "cases": [
+      {
+        "label": "local face-value with matched invariance",
+        "lean_declaration": "TruthCore.Alternatives.ReligiousLanguageSemantics.CrossDiscourseFaceValue",
+        "statement_id": "STMT-RELIGIOUS-CROSS-DISCOURSE-FACE-VALUE"
+      },
+      {
+        "label": "local face-value with actual matched variation",
+        "lean_declaration": "TruthCore.Alternatives.ReligiousLanguageSemantics.LocalVariableTruthFaceValue",
+        "statement_id": "STMT-RELIGIOUS-LOCAL-VARIABLE-TRUTH-FACE-VALUE"
+      },
+      {
+        "label": "local face-value fails",
+        "lean_declaration": "TruthCore.Alternatives.ReligiousLanguageSemantics.LocalFaceValueFails",
+        "statement_id": "STMT-RELIGIOUS-LOCAL-FACE-VALUE-FAILS"
+      }
+    ],
+    "survival_result_id": "RELIGIOUS-SEMANTIC-PROFILE-CONTROLS"
+  }
+}

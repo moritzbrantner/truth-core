@@ -1,0 +1,9 @@
+{
+  "id": "REL-RELIGIOUS-NONDESCRIPTION-OPPOSES-LOCAL-FACE-VALUE",
+  "subject_kind": "statement",
+  "subject_id": "STMT-RELIGIOUS-NONDESCRIPTIVE-WITNESS",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-RELIGIOUS-LOCAL-FACE-VALUE",
+  "note": "Exact same-profile incompatibility checked by the linked argument/result; not an identity with either old unbound historical source thesis. No root or philosophical-theory closure asserted."
+}

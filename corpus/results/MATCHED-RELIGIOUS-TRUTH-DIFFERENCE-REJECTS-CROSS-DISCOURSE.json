@@ -1,0 +1,10 @@
+{
+  "id": "MATCHED-RELIGIOUS-TRUTH-DIFFERENCE-REJECTS-CROSS-DISCOURSE",
+  "argument_id": "MATCHED-RELIGIOUS-TRUTH-DIFFERENCE-REJECTS-CROSS-DISCOURSE",
+  "challenge_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.Rejection.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.Rejection.Solution",
+  "theorem": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.matchedDifferenceRejectsCrossDiscourse",
+  "comparator_config": "results/MATCHED-RELIGIOUS-TRUTH-DIFFERENCE-REJECTS-CROSS-DISCOURSE/comparator.json",
+  "status": "solution-present",
+  "description": "Compose exact invariance rejection and the strong-profile projection. This rejects only the stronger analyst profile, not the old unbound face-value/source thesis."
+}

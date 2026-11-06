@@ -1,0 +1,13 @@
+{
+  "id": "STMT-RELIGIOUS-NONDESCRIPTIVE-WITNESS",
+  "paraphrase": "A substantive descriptive-role objection: an actual selected religious sentence does not represent its apparent-content fact in the selected discourse. Unlike a merely context-internal use of concepts, this contradicts local descriptive face-value status.",
+  "lean_declaration": "TruthCore.Alternatives.ReligiousLanguageSemantics.NonDescriptiveReligiousWitness",
+  "definition_ids": [
+    "DEF-RELIGIOUS-CONTENT-AND-DISCOURSE-TRUTH-PROFILE",
+    "DEF-RELIGIOUS-LOCAL-FACE-VALUE",
+    "DEF-RELIGIOUS-CROSS-DISCOURSE-FACE-VALUE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RELIGIOUS-LOCAL-FACE-VALUE-AND-CROSS-DISCOURSE-UNIFORMITY"
+  ]
+}

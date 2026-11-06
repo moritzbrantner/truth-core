@@ -1,0 +1,10 @@
+{
+  "id": "RELIGIOUS-NONDESCRIPTION-REJECTS-LOCAL-FACE-VALUE",
+  "argument_id": "RELIGIOUS-NONDESCRIPTION-REJECTS-LOCAL-FACE-VALUE",
+  "challenge_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.Description.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.Description.Solution",
+  "theorem": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.nonDescriptionRejectsLocal",
+  "comparator_config": "results/RELIGIOUS-NONDESCRIPTION-REJECTS-LOCAL-FACE-VALUE/comparator.json",
+  "status": "solution-present",
+  "description": "An actual religious sentence lacking descriptive fact representation contradicts the local descriptive clause. Merely discourse-internal concept use would not supply this witness."
+}

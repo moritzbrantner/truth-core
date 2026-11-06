@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.DescriptionModel.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.DescriptionModel.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.nonDescriptiveModel"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "CROSS-DISCOURSE-FACE-VALUE-SUPPLIES-LOCAL",
+  "premise_statement_ids": [
+    "STMT-RELIGIOUS-CROSS-DISCOURSE-FACE-VALUE"
+  ],
+  "conclusion_statement_id": "STMT-RELIGIOUS-LOCAL-FACE-VALUE",
+  "inference_ids": [
+    "INF-CROSS-DISCOURSE-FACE-VALUE-SUPPLIES-LOCAL"
+  ],
+  "meaning": "Project local status from the stronger analyst cross-discourse profile. This is an assembly transcription and sole-premise strength certificate.",
+  "definition_ids": [
+    "DEF-RELIGIOUS-CONTENT-AND-DISCOURSE-TRUTH-PROFILE",
+    "DEF-RELIGIOUS-LOCAL-FACE-VALUE",
+    "DEF-RELIGIOUS-CROSS-DISCOURSE-FACE-VALUE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RELIGIOUS-LOCAL-FACE-VALUE-AND-CROSS-DISCOURSE-UNIFORMITY"
+  ],
+  "strong_version_needed": {
+    "STMT-RELIGIOUS-CROSS-DISCOURSE-FACE-VALUE": "This is the checked sole-premise strong-to-weak projection; no historical source claim is attributed the stronger analyst conjunction."
+  }
+}

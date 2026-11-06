@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.Coverage.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.Coverage.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.religiousSemanticCoverage"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
