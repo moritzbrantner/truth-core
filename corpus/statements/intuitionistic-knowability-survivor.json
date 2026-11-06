@@ -1,0 +1,12 @@
+{
+  "id": "STMT-INTUITIONISTIC-KNOWABILITY-SURVIVOR",
+  "paraphrase": "The named three-stage model jointly satisfies genuine future-forcing semantics, exact reused relational operators, compatible equivalence frames, the advertised epistemic laws and full forward knowability over every persistent content. Intuitionistic Moore contents are unknowable and truth implies double-negated knowledge. At stage1, p={1,2} and double-negated Kp are forced, Kp and not Kp are both unforced, and relevant stability/EM formulas are unforced.",
+  "lean_declaration": "TruthCore.Logic.IntuitionisticKnowability.JointSurvivor",
+  "definition_ids": [
+    "DEF-INTUITIONISTIC-PERSISTENT-CONTENTS",
+    "DEF-INTUITIONISTIC-KNOWABILITY-OPERATORS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-INTUITIONISTIC-FORCING-AND-NONFORCING"
+  ]
+}

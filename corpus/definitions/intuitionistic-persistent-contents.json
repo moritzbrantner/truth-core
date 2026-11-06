@@ -1,0 +1,8 @@
+{
+  "id": "DEF-INTUITIONISTIC-PERSISTENT-CONTENTS",
+  "term": "persistent contents and intuitionistic future forcing",
+  "definition": "Content is the order dual of Mathlib UpperSet (Fin 3), ordered by inclusion along information order0≤1≤2. All persistent contents are admitted. Heyting implication is the actual Mathlib residual; its checked membership law quantifies over every future information extension. Heyting negation is pseudocomplement, not pointwise Boolean complement. The four contents are empty, {2}, {1,2}, and univ.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.IntuitionisticKnowability.Content",
+  "note": "Analyst mathematical semantics for1065, attribution deferred. The information order models growth of information, not automatically physical time, epistemic alternatives or metaphysical necessity. H has genuine Heyting operations inherited from existing Mathlib; no substitute implication table or historical attribution. Existing knowability note records the exact semantic-profile comparison."
+}

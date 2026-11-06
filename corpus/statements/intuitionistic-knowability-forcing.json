@@ -1,0 +1,12 @@
+{
+  "id": "STMT-INTUITIONISTIC-KNOWABILITY-FORCING",
+  "paraphrase": "The actual Mathlib Heyting implication and pseudocomplement on all persistent contents have the future-information forcing laws at every world.",
+  "lean_declaration": "TruthCore.Logic.IntuitionisticKnowability.FutureForcing",
+  "definition_ids": [
+    "DEF-INTUITIONISTIC-PERSISTENT-CONTENTS",
+    "DEF-INTUITIONISTIC-KNOWABILITY-OPERATORS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-INTUITIONISTIC-FORCING-AND-NONFORCING"
+  ]
+}

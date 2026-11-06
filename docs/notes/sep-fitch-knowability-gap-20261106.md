@@ -266,3 +266,76 @@ an empty family. Its separately frozen `Positive/Challenge.lean` has SHA256
 the original Challenge is unchanged. The computed #143 frontier remains90
 open premises (30bare/18supported/42stated), cheapest route31, with no additions,
 removals or discharges.
+
+
+## Proper intuitionistic forcing model (#1065)
+
+This is a deliberately different logical semantic profile, not a counterexample
+to the earlier Lean-`Prop` result or to the owner's established excluded-middle
+floor. The model admits **all** persistent contents on information order
+`0 ≤ 1 ≤ 2`. The information order is not automatically physical time,
+epistemic accessibility, or metaphysical necessity. Actuality is stipulated at1.
+
+`TruthCore.Logic.IntuitionisticKnowability.Content` is
+`(UpperSet (Fin 3))ᵒᵈ`: Mathlib orders UpperSet by reverse inclusion, so its dual
+has truth ordered by inclusion. The actual Mathlib Heyting implication and
+pseudocomplement are used. The checked `forcingBridge` shows
+`w ∈ (P ⇨ Q)` iff every information extension `v ≥ w` that forces P forces Q;
+negation specializes this to no future P. This bridge prevents replacing
+intuitionistic negation with Boolean complement or a stand-in truth table.
+
+The epistemic frame is the first-three-world restriction of the earlier
+`survivorEpistemic`: blocks{0,1},{2}. Modal R is the matching restriction of the
+existing universal frame, hence E⊆R. Existing Frame, Knows and PossibleKnown
+meanings are reused exactly on the underlying extensions. Typed content
+constructors use Mathlib upperClosure, and `OperatorsExact` proves it adds no
+world on this selected model: raw relational knowledge and possibility already
+preserve persistent contents. Old epistemic frame properties are imported from
+the checked restricted-survivor certificate, not restated as new premises.
+
+The four persistent contents are `∅`, `{2}`, `{1,2}`, and `univ`. Knowledge maps
+them to `∅`, `{2}`, `{2}`, and `univ`. The joint certificate proves factivity,
+top/conjunction preservation, normal distribution, positive introspection and
+the specifically stated Heyting negative-introspection inequality. Ordinary
+E/R equivalence is also checked, but none of this is a soundness/completeness
+claim for an entire IK/IS5 calculus or a claim that every additional constructive
+modal interaction law holds.
+
+Every persistent content satisfies forward knowability: if true anywhere it
+is true at2, and the fixed agent knows it at the singleton endpoint2. Moore
+contents use **Heyting** `P ⊓ (KP)ᶜ`; all are still contents, and they are bottom
+in this model and cannot be known. Thus no arbitrary epistemic-free syntactic
+restriction excludes them. The certificate also proves `P ≤ (KP)ᶜᶜ` for every
+content.
+
+For the same model choose `P={1,2}`. At1, P and double-negated KP are forced,
+while KP **and its intuitionistic negation** are both unforced. The relevant
+object-language DNE formula `¬¬KP ⇨ KP` and EM formula `KP ∨ ¬KP` are unforced.
+Metalevel non-forcing is not object-level negation. In particular, the old
+pointwise `FitchKnowability.Moore` would give a different, nonpersistent
+extension and is NOT identified with this Moore operation. The old
+`doubleNegatedKnowledge` and `stabilityUpgrade` theorems are comparison anchors,
+not falsely instantiated as future-world-negation theorems. Factivity and the
+matching relational operators are reused only where semantics genuinely match.
+
+Claim/type self-sweep: the counterprofile has one fixed agent/operator and one
+actual information index; no distributed/common-knower, actual human knowledge,
+F6-to-knowability, necessary being, God or root truth is inferred. The strong
+classical/stable rival excludes the omitted-stability profile; this model does
+not refute or silently reopen the established EM floor. Classical Mathlib
+reasoning about a finite mathematical model is separate from the model's
+object-language validity. Applicability of these information stages and
+accessibility relations to actual inquiry remains **OPEN**.
+
+The ordinary-import Challenge was compiled with only its two intended sorry
+warnings and frozen before Solution work: SHA256
+`d89a0bd265e18e8245b0ff4a3d247be3b082cae81e945ccea1dedeb1407a9c77`.
+The selected Solution compiles warning-free; both exact bindings pass. Actual
+axiom probes are exactly the approved Mathlib trio for both results. Initial
+missing Fin order/Fintype imports and explicit-set-membership rewrites were
+repaired without changing the frozen targets. A metadata-only disambiguation
+scope correction avoids retroactively assigning new senses to old arguments.
+Both exact Comparator and independent NanoDa checks passed with the approved
+Mathlib trio. Computed root-frontier90→90 (30bare18supported42stated), cheapest
+route31→31; no added, removed or discharged root premises. Final delivered-head
+CI and current-head review remain required.

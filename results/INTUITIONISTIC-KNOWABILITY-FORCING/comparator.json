@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.IntuitionisticKnowability.Challenge",
+  "solution_module": "TruthCore.Results.Logic.IntuitionisticKnowability.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.IntuitionisticKnowability.forcingBridge"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}
