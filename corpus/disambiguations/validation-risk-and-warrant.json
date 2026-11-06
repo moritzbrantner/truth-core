@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-VALIDATION-RISK-AND-WARRANT",
+  "term": "validation reliability and epistemic warrant",
+  "sense_definition_ids": [
+    "DEF-FINITE-PRODUCT-VALIDATION",
+    "DEF-FALLIBLE-WEIGHTED-CORRECTION",
+    "DEF-WARRANTED-CORRECTION-STANDARD"
+  ],
+  "resolution": "Finite validation controls the joint event that a bad predeclared candidate passes under genuine independent sampling from the deployment measure. Online correction instead compares actual mistake counts against a supplied expert budget; neither theorem certifies that its application assumptions hold. The validation bound is not automatically posterior P(good given pass): a fixed bad candidate can pass with positive probability and its bad-pass event equals its pass event. Selection within the predeclared finite pool is covered with its cardinality penalty; selecting an arbitrary memorizer outside it after seeing validation data is not. Accessible justified correction and categorical epistemic authority remain separate open burdens. No finite-risk bound guarantees future truth or closes a root premise."
+}
