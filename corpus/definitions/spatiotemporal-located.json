@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SPATIOTEMPORAL-LOCATED",
+  "term": "spatiotemporal (occupant sense)",
+  "definition": "`Located F x := ∃ r, F.locatedAt x r`: x occupies some region. The proposition is that of the rival concreteness criterion SpatiotemporalCriterionConcrete (DEF-CONCRETE-SPATIOTEMPORAL-CRITERION), reused as a property and not as a criterion of concreteness. Occupation is dimensive location; presence by power (ST I q.8 a.3, q.52 a.1) is not represented.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Ontology.Spatiotemporal.Located",
+  "note": "Stipulative. SEP 'Abstract Objects' §3.1 (navigation) describes the non-spatiality criterion; the property here is the same proposition with a different role."
+}

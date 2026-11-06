@@ -1,0 +1,23 @@
+{
+  "id": "UNIVERSE-CAUSE-ATEMPORAL",
+  "premise_statement_ids": [
+    "STMT-CAUSING-WHOLE-CAUSES-PARTS",
+    "STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF",
+    "STMT-TEMPORAL-CONTAINED-IN-SPACETIME"
+  ],
+  "conclusion_statement_id": "STMT-CAUSES-OF-UNIVERSE-ATEMPORAL",
+  "inference_ids": [
+    "INF-UNIVERSE-CAUSE-ATEMPORAL"
+  ],
+  "meaning": "Strong version of 'exists out of time' (#1017): composing UNIVERSE-CAUSE-OUTSIDE-SPACETIME with the open premise that every successive bearer of any supplied temporal series is a part of the spacetime whole, no cause of the whole is successively temporal in any supplied series (DISAMB-TEMPORAL-SENSE). The weak conclusion needs no claim about other times; the strong one needs exactly that premise, which a second series, or an aevum whose adjunct changes are recorded, with a successive bearer outside spacetime would falsify.",
+  "definition_ids": [
+    "DEF-PART-OF-SPACETIME",
+    "DEF-SPATIOTEMPORAL-FRAME",
+    "DEF-SUCCESSIVELY-TEMPORAL",
+    "DEF-TEMPORAL-SERIES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SPATIOTEMPORAL",
+    "DISAMB-TEMPORAL-SENSE"
+  ]
+}

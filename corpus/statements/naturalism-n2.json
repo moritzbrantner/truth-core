@@ -1,0 +1,13 @@
+{
+  "id": "STMT-NATURALISM-N2",
+  "paraphrase": "N2, concrete naturalism (analyst formulation, attribution deferred): at the selected world, everything that exists and is concrete (has esse in re) satisfies the thesis predicate P. With P a spatiotemporal sense: every existing concrete thing is spatiotemporal.",
+  "lean_declaration": "TruthCore.Ontology.Naturalism.ConcreteNaturalism",
+  "definition_ids": [
+    "DEF-NATURALISM-N2",
+    "DEF-CONCRETE-ESSE-IN-RE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NATURALISM-VARIANT",
+    "DISAMB-SPATIOTEMPORAL"
+  ]
+}

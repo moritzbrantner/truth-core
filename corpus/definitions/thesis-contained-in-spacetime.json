@@ -1,0 +1,8 @@
+{
+  "id": "DEF-THESIS-CONTAINED-IN-SPACETIME",
+  "term": "thesis predicate contained in spacetime",
+  "definition": "`ContainedInSpacetime F P := ∀ x, P x → PartOfSpacetime F x`: whatever satisfies the naturalist's thesis predicate is a part of the spacetime whole.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Ontology.NaturalismConsequences.ContainedInSpacetime",
+  "note": "Stipulative bridge. True by definition for P = PartOfSpacetime F; open for the occupant and relational senses; and doubtful for Papineau's 'physical', which he glosses as non-mental (DEF-PAPINEAU-PHYSICAL), so that a non-mental thing outside spacetime would count as physical."
+}

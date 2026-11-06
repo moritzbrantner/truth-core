@@ -1,0 +1,11 @@
+{
+  "id": "INF-NATURALISM-N1-ENTAILS-N2",
+  "input_statement_ids": [
+    "STMT-NATURALISM-N1"
+  ],
+  "output_statement_id": "STMT-NATURALISM-N2",
+  "rule": "constructive-proof",
+  "meaning": "Strength registration (#1017): if everything existing at the world satisfies the thesis predicate, so does everything existing and concrete there. It backs the strengthens relation N1 → N2, so a counted refutation of N2 would refute N1.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

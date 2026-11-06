@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Ontology.Naturalism.Atemporal.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.Naturalism.Atemporal.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Ontology.Naturalism.Atemporal.universeCauseAtemporal"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

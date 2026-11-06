@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Ontology.Naturalism.Outside.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.Naturalism.Outside.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Ontology.Naturalism.Outside.universeCauseOutsideSpacetime"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

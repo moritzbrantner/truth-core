@@ -1,0 +1,22 @@
+{
+  "id": "CAUSED-UNIVERSE-REFUTES-N3",
+  "premise_statement_ids": [
+    "STMT-UNIVERSE-HAS-EXISTING-CAUSE",
+    "STMT-CAUSING-WHOLE-CAUSES-PARTS",
+    "STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF",
+    "STMT-THESIS-CONTAINED-IN-SPACETIME",
+    "STMT-CAUSING-EXERCISES-POWER"
+  ],
+  "conclusion_statement_id": "STMT-NATURALISM-N3-FAILS",
+  "inference_ids": [
+    "INF-CAUSED-UNIVERSE-REFUTES-N3"
+  ],
+  "meaning": "The cause of the spacetime whole has causal power by the exercise-to-power reading, so N3 would make it satisfy the thesis predicate and be a part of spacetime, which UNIVERSE-CAUSE-OUTSIDE-SPACETIME excludes. So N3 fails. Conditional on the open premises.",
+  "definition_ids": [
+    "DEF-SPATIOTEMPORAL-FRAME",
+    "DEF-PART-OF-SPACETIME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SPATIOTEMPORAL"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-UNIVERSE-HAS-EXISTING-CAUSE",
+  "term": "the universe has a cause (of its existence)",
+  "definition": "`UniverseHasExistingCause o F w := ∃ c, o.ExistsAt w c ∧ o.Causes w c F.whole`: the spacetime whole has a cause that exists at w. `Causes` is efficient causation of existence (dependence or conservation, as in ST I q.104 a.1), not the cause of a temporal beginning and not a PSR-style reason (DISAMB-PSR-EXPLANATION-CAUSE).",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Ontology.NaturalismConsequences.UniverseHasExistingCause",
+  "note": "Owner formulation (#1109, 2026-11-06), stipulative. Kept independent of the kalam premise: Aquinas holds that a beginning of the world is not demonstrable (ST I q.46 a.2)."
+}

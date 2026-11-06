@@ -1,0 +1,9 @@
+{
+  "id": "CAUSAL-LOOP-REJECTS-BRIDGE",
+  "argument_id": "CAUSAL-LOOP-REJECTS-BRIDGE",
+  "challenge_module": "TruthCore.Results.Ontology.Naturalism.Loop.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.Naturalism.Loop.Solution",
+  "theorem": "TruthCore.Results.Ontology.Naturalism.Loop.causalLoopRejectsBridge",
+  "comparator_config": "results/CAUSAL-LOOP-REJECTS-BRIDGE/comparator.json",
+  "status": "solution-present"
+}

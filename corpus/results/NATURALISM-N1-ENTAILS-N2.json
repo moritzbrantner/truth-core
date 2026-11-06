@@ -1,0 +1,9 @@
+{
+  "id": "NATURALISM-N1-ENTAILS-N2",
+  "argument_id": "NATURALISM-N1-ENTAILS-N2",
+  "challenge_module": "TruthCore.Results.Ontology.Naturalism.N1EntailsN2.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.Naturalism.N1EntailsN2.Solution",
+  "theorem": "TruthCore.Results.Ontology.Naturalism.N1EntailsN2.n1EntailsN2",
+  "comparator_config": "results/NATURALISM-N1-ENTAILS-N2/comparator.json",
+  "status": "solution-present"
+}
