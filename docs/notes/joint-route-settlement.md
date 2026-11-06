@@ -33,7 +33,7 @@ Two boundaries are checked alongside the pattern:
 
 ## Current root roster
 
-At main `8ea6275f93a49c24040c08825909d10c9a989fab`, the authoritative frontier
+At main `fb573ed19bebc950d61b6ff35cbe41ab5430e2e5`, the authoritative frontier
 reports 23 verified root-route bundles. Their pairwise intersections contain
 17–39 open leaves, and 15 leaves appear in every reported bundle. In particular,
 `STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE` is shared. There are no disjoint
