@@ -1,0 +1,10 @@
+{
+  "id": "CLASSICAL-GOD-REVELATION-BOUNDARY",
+  "argument_id": "CLASSICAL-GOD-REVELATION-BOUNDARY",
+  "challenge_module": "TruthCore.Results.Causality.ClassicalGodRevelationBoundary.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ClassicalGodRevelationBoundary.Solution",
+  "theorem": "TruthCore.Results.Causality.ClassicalGodRevelationBoundary.checks",
+  "comparator_config": "results/CLASSICAL-GOD-REVELATION-BOUNDARY/comparator.json",
+  "status": "solution-present",
+  "description": "Concrete analyst boundary under supplied excluded middle on the EXACT unchanged NecessaryClassicalGodRootControl signature: retain its entire Control (old18 configuration, all24 nonlogical interfaces/full25 inputs with EM, same necessary source and nine-attribute witness, unique classical God and necessary non-God effect). Explicit GodExists and GodHasClassicalAttributes hold, while RevelationPossibleAndRecognizable and the phase1 CatholicismTrue root both fail. Revelation fails at the God source because its capability field is False; the root fails separately because FoundedAsTeachingAuthority is False, not as a consequence of revelation failure. Not a complete model of every root route premise or floor; finite respects/empty potency and all prior role-model applicability limits remain. No metaphysical/theological possibility, actual history, exhaustive cross-route failure incompatibility or root settlement is established. Attribution deferred."
+}
