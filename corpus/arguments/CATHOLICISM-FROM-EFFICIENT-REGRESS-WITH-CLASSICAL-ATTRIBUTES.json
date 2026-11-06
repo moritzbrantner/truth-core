@@ -91,11 +91,13 @@
     "DEF-UNIQUE-CLASSICAL-GOD-WITNESS",
     "DEF-PER-SE-EFFICIENT-CAUSE-LINK"
   ],
-  "disambiguation_ids": ["DISAMB-POTENCY",
+  "disambiguation_ids": [
+    "DISAMB-POTENCY",
     "DISAMB-CAUSE",
     "DISAMB-GOD",
     "DISAMB-PER-SE",
     "DISAMB-ESSENCE",
-    "DISAMB-CAUSAL-SERIES"
+    "DISAMB-CAUSAL-SERIES",
+    "DISAMB-MAXIME-ENS"
   ]
 }

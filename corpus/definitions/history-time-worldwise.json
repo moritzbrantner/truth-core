@@ -1,0 +1,8 @@
+{
+  "id": "DEF-HISTORY-TIME-WORLDWISE",
+  "term": "worldwise presence with separately chosen times",
+  "definition": "Worldwise h x means ∀ w, ∃ t, h.IsAt w x t, for a fixed bearer x and History W B T with a shared time carrier T. World and time quantifiers are unrestricted; no modal accessibility, coherence with Ontic.ExistsAt or temporal order is implicit.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Models.HistoryTimeScope.Worldwise",
+  "note": "Exact member of the DEF-HISTORY-TIME-SCOPE vocabulary bundle. HISTORY-TIME-SCOPE-CONTROLS checks AllTime → Common → Worldwise and the finite failures of their converses. No sourced eternity or premise truth follows."
+}

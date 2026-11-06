@@ -26,7 +26,7 @@
     "INF-STAGE2-GOD-IS-SUPREMELY-GOOD",
     "INF-STAGE2-CLASSICAL-ATTRIBUTES"
   ],
-  "meaning": "Conditional stage-2 assembly: for every g satisfying \u03c3.IsGod, derive one, simple, perfect and supremely good from the listed causal and maximality premises, retain the five pointwise attribute premises as inputs, and apply the explicit one-way STMT-CLASSICAL-ATTRIBUTES-SUFFICE to those nine predicates at that same g. HasClassicalAttributes remains a primitive field; no converse or God-existence conclusion follows. Later stage-2 compositions derive the five attribute inputs separately. The bridge is motivated by Dei Filius ch. 1, not asserted by that text as a universal law over arbitrary predicates.",
+  "meaning": "Conditional stage-2 assembly: for every g satisfying σ.IsGod, derive one, simple, perfect and supremely good from the listed causal and maximality premises, retain the five pointwise attribute premises as inputs, and apply the explicit one-way STMT-CLASSICAL-ATTRIBUTES-SUFFICE to those nine predicates at that same g. HasClassicalAttributes remains a primitive field; no converse or God-existence conclusion follows. Later stage-2 compositions derive the five attribute inputs separately. The bridge is motivated by Dei Filius ch. 1, not asserted by that text as a universal law over arbitrary predicates.",
   "definition_ids": [
     "DEF-SIMPLE",
     "DEF-UNIVERSALLY-PERFECT",
@@ -51,6 +51,7 @@
     "DEF-ESSENCE-THOMISTIC-NATURE"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSENCE"
+    "DISAMB-ESSENCE",
+    "DISAMB-MAXIME-ENS"
   ]
 }

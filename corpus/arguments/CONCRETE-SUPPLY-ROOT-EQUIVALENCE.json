@@ -5,7 +5,7 @@
   "inference_ids": [
     "INF-CONCRETE-SUPPLY-ROOT-EQUIVALENCE"
   ],
-  "meaning": "The existential source-backed actual-concrete supply premise is equivalent to an actual concrete root existing. Source_path proves the forward direction; a root itself is a supplied witness for the reverse direction. This exposes the premise\u2019s strength, not an independent defense of source existence.",
+  "meaning": "The existential source-backed actual-concrete supply premise is equivalent to an actual concrete root existing. Source_path proves the forward direction; a root itself is a supplied witness for the reverse direction. This exposes the premise’s strength, not an independent defense of source existence.",
   "definition_ids": [
     "DEF-ACTUAL-GROUNDING-WF",
     "DEF-NONNECESSARY-ROOT",
@@ -32,6 +32,7 @@
     "DISAMB-JOINT-SUPPLY-POWER-OCCURRENCE",
     "DISAMB-REGRESS-DOMAINS",
     "DISAMB-CAUSAL-POWER-GROUNDING",
-    "DISAMB-EXISTENTIAL-SOURCE-SUPPLY-APPLICATION"
+    "DISAMB-EXISTENTIAL-SOURCE-SUPPLY-APPLICATION",
+    "DISAMB-NECESSARY"
   ]
 }

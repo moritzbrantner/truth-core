@@ -74,6 +74,7 @@ public import TruthCore.Results.Causality.CountCauseTimeNecessity.Solution
 public import TruthCore.Results.Causality.CountCauseTimeNecessityProjection.Solution
 public import TruthCore.Results.Causality.CountTemporalControls.Solution
 public import TruthCore.Results.Causality.CountTemporalNecessity.Solution
+public import TruthCore.Results.Causality.DefinitionDictionaryConnections.Solution
 public import TruthCore.Results.Causality.DerivativeJointPower.Solution
 public import TruthCore.Results.Causality.DirectEsseGenusOmissionControl.Solution
 public import TruthCore.Results.Causality.DirectEsseRootGodExistence.ExistenceOnly.Solution

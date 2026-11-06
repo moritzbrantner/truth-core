@@ -3,6 +3,6 @@
   "term": "necessary being in the countermodels",
   "definition": "NecessaryAt m w x quantifies existence of one fixed individual over accessible worlds. NecessaryBeing additionally requires an actual witness. This is a de re possible-world surrogate, not an account of Kantian real possibility, duration, uncausedness, or Scott’s essence-based NE.",
   "basis": "stipulative",
-  "note": "Analyst’s explicit reconstruction for the Kant inquiry (#250), not an assertion that the surrogate exhausts the historical concept. Source fidelity and the missing philosophical bridges are discussed in docs/kant-cosmological-inference.md.",
+  "note": "Analyst’s explicit reconstruction for the Kant inquiry (#250), not an assertion that the surrogate exhausts the historical concept. Source fidelity and the missing philosophical bridges are discussed in docs/kant-cosmological-inference.md. Exact same-dictionary connection: NecessaryAt m w x ↔ TruthCore.Isabelle.AFP.GoedelGod.Box m.frame (fun v => m.ExistsAt v x) w, checked in DefinitionDictionaryConnections.connections. NecessaryBeing additionally binds one individual with actual existence at w; it is not Box applied to an existential quantifier with varying witnesses. No symmetry, reflexivity or population follows from the operator or this equality.",
   "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.NecessaryAt"
 }

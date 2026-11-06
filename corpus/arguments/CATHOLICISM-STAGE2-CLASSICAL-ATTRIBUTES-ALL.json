@@ -38,7 +38,7 @@
     "INF-STAGE2-GOD-HAS-WILL",
     "INF-STAGE2-CLASSICAL-ATTRIBUTES"
   ],
-  "meaning": "Conditional complete Stage 2 assembly: for every g satisfying \u03c3.IsGod, derive nine attributes at that same g, then apply the open one-way sufficiency premise to the primitive HasClassicalAttributes field. IsImmutable is specialized to InPotency on \u03c3.Being and Respect; all other predicates and parameters retain their stated applications. The God-to-maximality converse, causal/first-being bridges, source readings and full excluded-middle interface remain explicit. No existence or converse from the field is derived. A separate identity-decision result supplies a narrower sufficient logical interface without changing this argument or its frozen Challenge.",
+  "meaning": "Conditional complete Stage 2 assembly: for every g satisfying σ.IsGod, derive nine attributes at that same g, then apply the open one-way sufficiency premise to the primitive HasClassicalAttributes field. IsImmutable is specialized to InPotency on σ.Being and Respect; all other predicates and parameters retain their stated applications. The God-to-maximality converse, causal/first-being bridges, source readings and full excluded-middle interface remain explicit. No existence or converse from the field is derived. A separate identity-decision result supplies a narrower sufficient logical interface without changing this argument or its frozen Challenge.",
   "definition_ids": [
     "DEF-SIMPLE",
     "DEF-UNIVERSALLY-PERFECT",
@@ -68,7 +68,9 @@
     "DEF-SIMPLE-PRIORITY",
     "DEF-POTENCY"
   ],
-  "disambiguation_ids": ["DISAMB-POTENCY",
-    "DISAMB-ESSENCE"
+  "disambiguation_ids": [
+    "DISAMB-POTENCY",
+    "DISAMB-ESSENCE",
+    "DISAMB-MAXIME-ENS"
   ]
 }
