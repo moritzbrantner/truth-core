@@ -1,0 +1,10 @@
+{
+  "id": "COUNT-CAUSE-TIME-OPPORTUNITY-FROM-THRESHOLDS",
+  "argument_id": "COUNT-CAUSE-TIME-OPPORTUNITY-FROM-THRESHOLDS",
+  "challenge_module": "TruthCore.Results.Causality.CountCauseTimeOpportunity.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CountCauseTimeOpportunity.Solution",
+  "theorem": "TruthCore.Results.Causality.CountCauseTimeOpportunity.opportunityOfThresholds",
+  "comparator_config": "results/COUNT-CAUSE-TIME-OPPORTUNITY-FROM-THRESHOLDS/comparator.json",
+  "status": "solution-present",
+  "description": "Corpus connection for the already checked substantive opportunityOfOld helper, composing its existing five-to-one inference and selected-cause-time guard projection. Register the existing checked opportunityOfOld helper: guarded five-threshold possibility and the SAME guarded threshold-descent rule yield the old count-one witness, then specialize its all-earlier absence to its SAME cause presence time using tc<t0. World, cause individual, concrete classification, count marker and both selected times are preserved at that final witness. Descent may change witnesses across counts; no five-to-one cause identity or CountDescent monotonicity is inferred. This is a two-input consequence, not a sole-premise strength edge or an independent admission/necessity proof."
+}
