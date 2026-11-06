@@ -431,12 +431,13 @@ The partition is an instantiation, so it fixes the form only, not the cell.
   knowability and confesses the one true God is **supported, not stated**:
   - CCC 31-36: the ways to God are "argumenta convergentia et persuadentia",
     and CCC 36 repeats *Dei Filius*.
-  - CCC 12: the Catechism goes chiefly to bishops and, through them, to
-    catechists. So it is the teaching the faithful receive, not evidence of
-    what they say.
-  - CCC 185-197 and 199-200: the creed is a norm for all and the faith
-    Christians profess. "Credo in Deum" is the first affirmation, and confessing
-    one God is inseparable from confessing his existence.
+  - The creed's first article (pinned Greek) confesses "one God, the Father
+    almighty, maker of heaven and earth".
+  - Read but not pinned: CCC 12 (the Catechism goes chiefly to bishops and
+    catechists, so it is the teaching the faithful receive, not evidence of
+    what they say), and CCC 185-202 (the creed is a norm for all; "Credo in
+    Deum" is the first affirmation). These vatican.va pages serve two byte
+    variants, so they could not be pinned.
   - No pinnable survey of ordinary believers was found, so none is recorded.
 - **Neither cell.** `neitherCellSurvives` certifies that both fideist bundles
   hold there, with every premise. The third view (`STMT-GRAMMAR-FIXED-BY-NEITHER`,
