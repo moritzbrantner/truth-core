@@ -20,6 +20,7 @@ public import TruthCore.Causality.CausalConcreteRivalBoundary
 public import TruthCore.Causality.CausalPowerConcreteness
 public import TruthCore.Causality.CausalPowerConcretenessStrength
 public import TruthCore.Causality.ChainInstantiation
+public import TruthCore.Causality.ClassicalGodRevelationBoundary
 public import TruthCore.Causality.CogitoNecessaryConcrete
 public import TruthCore.Causality.CommonPriority
 public import TruthCore.Causality.CompleteCauseContributorCover
