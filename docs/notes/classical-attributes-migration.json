@@ -429,13 +429,13 @@
       "path": "corpus/definitions/classical-attributes-bundle.json",
       "status": "repaired",
       "classification": "defect",
-      "finding": "Existing one-way warning retained; names NineClassicalAttributes and checked curried/conjunctive regrouping. No converse to the primitive field; no new statement IDs for ordinary connective occurrences.",
+      "finding": "Existing one-way warning retained; names NineClassicalAttributes and checked curried/conjunctive regrouping. No converse to the primitive field; no new statement IDs for ordinary connective occurrences. Re-reviewed in the #1103 definitions audit: the note now records that the attribute 'one' (IsTheOneGod σ.IsGod) mentions IsGod and holds vacuously when nothing is God; a dependency, not a circular proof; existence requires separate premises.",
       "before": {
         "sha256": "fdfbcb586159f5837c706684cbc2eb804ea2d4099203a42d011a48075bda127e",
         "lean_declaration": "TruthCore.Case.Catholicism.ClassicalAttributesSuffice",
         "prose": "The owner's stage-2 reading of Dei Filius ch. 1. Signature.HasClassicalAttributes is still a primitive field. ClassicalAttributesSuffice is an explicit open, one-way premise from the nine predicates to that field, not a definitional equality or an eliminator recovering all nine predicates from it. GodHasClassicalAttributes means ∀ g, σ.IsGod g → σ.HasClassicalAttributes g. No changed proof, closed frontier, or truth of the bridge is claimed by adding this mapping."
       },
-      "reviewed_sha256": "5fab6d1e3a87715f74605cb761ad1aa2353a0b54447aa154af4ef24b30300535"
+      "reviewed_sha256": "a455088d1f6dec3f215058ecc0a1e5cbf277a12840e23e5e76fbd158d881cae5"
     },
     {
       "kind": "definitions",
