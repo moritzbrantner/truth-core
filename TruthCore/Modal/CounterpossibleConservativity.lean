@@ -7,15 +7,18 @@ public import TruthCore.Modal.Kripke
 /-!
 Analyst comparison for #1085; attribution deferred. The old active AND and idle
 lookup equations supply TWO interpretations of explicitly off-normal repairs.
-They agree on every normal observation, with source present throughout and a
+They agree on every normal observation, with PUBLIC contributor a on throughout and a
 contingent effect. Repairs are not accessible normal possibilities.
 
 The selector below selects ALL normal antecedent witnesses, then only if there
 are none consults the originating context's repair when it satisfies the
 antecedent. It has success and normal-first restriction; no centering, closeness,
 seriality, full Lewis/Stalnaker theory or real counterpossible truth is claimed.
-The antecedent is impossible relative to this declared normal model, not a
-logical contradiction. Changing modal accessibility is a separate control.
+The antecedent is public contributor a OFF: impossible relative to this declared
+normal model, not a logical contradiction. The latent background first bit stays
+TRUE even in repairs. The frozen source/sourceOff/sourceAbsent identifiers name
+only that PUBLIC a variable: no latent-source intervention or bearer
+nonexistence is encoded. Changing modal accessibility is a separate control.
 -/
 
 @[expose] public section
@@ -30,11 +33,12 @@ inductive State | normal (context : Bool) | repair (context : Bool) deriving Dec
 inductive Atom | source | cofactor | effect deriving DecidableEq
 
 /-- The old mechanism equation remains intact; only its interpretation in
-normal versus source-off settings is new. -/
+normal versus public-a-off settings is new. -/
 def run : Mode → TwoState → Setting → Observation
   | .active => pluralRun
   | .idle => idleRun
 
+/-- Clamp PUBLIC a to false; preserve the latent source/background values. -/
 def sourceOff : Setting := ⟨some false, none⟩
 
 def observation (mode : Mode) : State → Observation
@@ -68,6 +72,7 @@ def Selected (origin : Bool) (A : State → Prop) : State → Prop
 def SelectedConditional (origin : Bool) (A Q : State → Prop) : Prop :=
   ∀ s, Selected origin A s → Q s
 
+/-- Frozen identifier for PUBLIC a being off, never source nonexistence. -/
 def sourceAbsent (mode : Mode) (s : State) : Prop := ¬ truth mode s .source
 
 def effectPresent (mode : Mode) (s : State) : Prop := truth mode s .effect
@@ -90,7 +95,7 @@ def StrictAbsenceBaseline : Prop :=
     (∀ v, Access A a v → A.holds v r) → Enables A a r f
 
 /-- One joint normal/repair comparison. Existing intervention results are
-composed, not re-proved. Normal source necessity and effect contingency use
+composed, not re-proved. Normal PUBLIC-atom necessity and effect contingency use
 exact Kripke Holds. Logical validity and enlarged accessibility are separated. -/
 def Certificate : Prop :=
   (NaturalAgreement ∧ RespondsToEitherInput pluralRun ∧ ¬ RespondsToEitherInput idleRun) ∧
