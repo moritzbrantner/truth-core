@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PHENOMENAL-REPORT-SUPERVENIENCE",
+  "term": "actual-relative phenomenal-report supervenience",
+  "definition": "SupervenesAt M physical phenomenal a requires each M-admitted candidate with the same physical value as actual a to have the same phenomenal report. PhenomenalTwin supplies an admitted candidate with equal physical and unequal phenomenal report. Both use shared Frame/Box/Dia on candidate descriptions. The general bridge adds known physical equality and the existing IncludedAt epistemic-to-metaphysical inclusion.",
+  "basis": "stipulative",
+  "note": "Actual-relative report dependence, not global supervenience, causal determination, token physicality or reductive identity. At (false,false), diagonal admission satisfies this condition while universal admission supplies an off-diagonal twin. Both relations are equivalences; neither is a grounding order. Independent applicability, complete physics and identity transparency OPEN; docs/notes/knowledge-admissibility-1080.md.",
+  "lean_declaration": "TruthCore.Logic.KnowledgeAdmissibility.SupervenesAt"
+}

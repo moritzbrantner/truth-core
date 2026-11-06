@@ -1,0 +1,8 @@
+{
+  "id": "DEF-VERIDICAL-REPORT-UPDATE",
+  "term": "ideal veridical experiential report update",
+  "definition": "observe E report retains exactly those E alternatives whose report equals the actual report. It changes epistemic accessibility, not the candidate facts or report functions. In the fixture it refines physical-report equality by phenomenal-report equality and is reflexive, symmetric and transitive.",
+  "basis": "stipulative",
+  "note": "No actual perceptual mechanism, justification, acquaintance, concept possession or reliability theorem. A small new operation reusing the existing Frame and relational Knows, since the reuse inventory found no report-based experiential update. Applicability OPEN.",
+  "lean_declaration": "TruthCore.Logic.KnowledgeAdmissibility.observe"
+}

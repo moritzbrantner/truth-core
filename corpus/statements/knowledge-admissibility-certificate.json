@@ -1,0 +1,15 @@
+{
+  "id": "STMT-KNOWLEDGE-ADMISSIBILITY-CERTIFICATE",
+  "paraphrase": "For arbitrary candidate carriers and physical/phenomenal report functions, actual-relative supervenience, epistemically known equality with the actual physical value, and epistemic-to-metaphysical accessibility inclusion imply knowledge of equality with the actual phenomenal report. One fixed Boolean-pair learning episode knows every true predicate of its physical projection, initially lacks and then gains knowledge of the same phenomenal-report equality. With facts/reports/episode fixed, diagonal-class metaphysical accessibility satisfies actual-relative supervenience and excludes twins while inclusion fails; universal accessibility admits a phenomenal physical twin and inclusion while supervenience fails. All four frames are reflexive, symmetric and transitive, and the survivor admits a different physical report. Formal profiles only; no actual completeness, knowledge argument, physicalism refutation or metaphysical possibility is established.",
+  "lean_declaration": "TruthCore.Logic.KnowledgeAdmissibility.Certificate",
+  "definition_ids": [
+    "DEF-COMPLETE-REPRESENTED-PHYSICAL-KNOWLEDGE",
+    "DEF-PHENOMENAL-REPORT-SUPERVENIENCE",
+    "DEF-VERIDICAL-REPORT-UPDATE",
+    "DEF-EPISTEMIC-ALTERNATIVES-KNOWLEDGE",
+    "DEF-TWO-RELATION-POSSIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REPRESENTED-AND-ACTUAL-PHYSICAL-COMPLETENESS"
+  ]
+}

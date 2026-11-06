@@ -15,6 +15,7 @@ import TruthCore.Logic.FitchKnowability
 import TruthCore.Logic.IntuitionisticKnowability
 import TruthCore.Logic.JustificationIntrospection
 import TruthCore.Logic.KnowabilityCompatibility
+import TruthCore.Logic.KnowledgeAdmissibility
 import TruthCore.Logic.KnowledgeRetorsion
 import TruthCore.Logic.LimitAdmission
 import TruthCore.Logic.MaximumOrder

@@ -1,0 +1,18 @@
+{
+  "id": "ATTEMPT-KNOWLEDGE-ADMISSIBILITY-1080",
+  "statement_ids": [
+    "STMT-KNOWLEDGE-ADMISSIBILITY-CERTIFICATE",
+    "STMT-MODAL-POSSIBILITY-TRANSFER",
+    "STMT-HUME-CONCEIVABILITY-TESTS",
+    "STMT-HISTORY-SELECTION-CERTIFICATE"
+  ],
+  "date": "2026-11-06",
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Reuse inventory found existing relational Knows and exact box transfer; no report-update semantics. Composed those instead of recreating transfer or generic HistorySelection fiber discrimination. A fixed actual Boolean pair, physical/phenomenal reports and epistemic update knows every predicate of the represented physical value, gains knowledge of the same initially unknown phenomenal equality, and survives both actual-relative supervenient and admitted-twin metaphysical profiles. The general law derives phenomenal knowledge from supervenience, known physical equality and E-to-M inclusion; applying initial ignorance derives inclusion failure in the survivor. Rejected learning-alone physicalism refutation, actual completeness from all predicates of an arbitrary projection, report difference as substance difference, and model satisfiability as metaphysical possibility. Strongest rival interpretations, exact reuse and limits persist in docs/notes/knowledge-admissibility-1080.md. No source acquisition/attribution or root-premise change.",
+  "evidence": [
+    "KNOWLEDGE-ADMISSIBILITY-CERTIFICATE",
+    "MODAL-POSSIBILITY-TRANSFER"
+  ],
+  "blocker": "Actual complete physics, knowledge adequacy, ideal reflection/identity transparency, actual experience and metaphysical applicability remain OPEN; hyperintensional concept possession or acquaintance would require additional typed vocabulary."
+}

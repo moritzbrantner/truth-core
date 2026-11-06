@@ -1,0 +1,8 @@
+{
+  "id": "DEF-COMPLETE-REPRESENTED-PHYSICAL-KNOWLEDGE",
+  "term": "complete represented physical knowledge",
+  "definition": "For an explicit physical projection W\u2192P, AllPhysicalKnown says every true predicate f:P\u2192Prop of the actual physical value is known under the existing relational Knows. This quantifies over every predicate of that projection, not just finitely listed sentences. It does not claim the projection captures actual complete physics.",
+  "basis": "stipulative",
+  "note": "Analyst profile #1080; attribution deferred. The Boolean fixture represents one physical coordinate. Actual physics, knowledge adequacy and identity transparency remain OPEN. See docs/notes/knowledge-admissibility-1080.md.",
+  "lean_declaration": "TruthCore.Logic.KnowledgeAdmissibility.AllPhysicalKnown"
+}
