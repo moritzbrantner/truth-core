@@ -1,10 +1,11 @@
 {
   "id": "DEF-PER-ACCIDENS-ORDERED-SERIES",
   "term": "per accidens (accidentally) ordered series of causes",
-  "definition": "A multiplication of causes in which each causes in its own right and its having been caused by the one before is accidental to its causing: a craftsman uses many hammers one after another as each breaks; a man generates as man, not as son of his father. An infinite series of this kind is not impossible (ST I q.46 a.2 ad 7). Not formalized: no premise on a root path is about such series.",
+  "definition": "A multiplication of causes in which a cause acts in its own right and its having been caused by a predecessor is accidental to its present causing: a craftsman successively uses different hammers, or a man generates as man rather than as son of his father. The source reading that an infinite series of this kind is not impossible is retained in STMT-INFINITE-REGRESS-IMPOSSIBLE-ONLY-IN-PER-SE-SERIES. Its current two-Prop Lean declaration is an opaque transcription, not a model of history or a proof of metaphysical possibility. Analyst sibling STMT-PER-SE-HISTORICAL-SERIES-DISTINCTION types a more limited claim: a distinct historical-predecessor relation can have an injective infinite chain while essential dependence on the same members is well-founded and nonempty. No first historical member is assumed. This witnesses formal compatibility only, not that all per-accidens series are possible, that an actual infinite past exists, or that the relations satisfy the source intended causal meaning.",
   "basis": "sourced",
   "claim_ids": [
     "AQUINAS-ST-I-Q46-A2-AD7-PER-SE-REGRESS-A",
     "AQUINAS-ST-I-Q46-A2-AD7-ACCIDENTAL-GENERATION-A"
-  ]
+  ],
+  "note": "The relation-level witness and explicit dictionary contrast are recorded in docs/causal-regress-and-grim-reapers.md. Interpreting the primitive historical relation as time, and independence of present power from the removal of historical predecessors, remain OPEN bridges. Arbitrarily long finite chains and one infinite Nat-indexed chain are distinct claims. Root routes retain their essential no-regress assumptions."
 }

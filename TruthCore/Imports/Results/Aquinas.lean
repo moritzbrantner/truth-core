@@ -36,6 +36,7 @@ public import TruthCore.Results.Aquinas.SummaTheologiae.MaximeEnsIsGodViaFullDes
 public import TruthCore.Results.Aquinas.SummaTheologiae.MoverRegressFromCauseRegress.Solution
 public import TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMover.Solution
 public import TruthCore.Results.Aquinas.SummaTheologiae.OneFirstMoverViaMaximeEns.Solution
+public import TruthCore.Results.Aquinas.SummaTheologiae.PerSeHistoricalSeries.Solution
 public import TruthCore.Results.Aquinas.SummaTheologiae.PrimaVia.Solution
 public import TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaFacts.AbsoluteEntailsRelative.Solution
 public import TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaFacts.ObjectionExposesWeakGap.Solution
