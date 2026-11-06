@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Mereology.ActualFusionProfile.Challenge",
+  "solution_module": "TruthCore.Results.Mereology.ActualFusionProfile.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Mereology.ActualFusionProfile.checks"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

@@ -450,3 +450,66 @@ The frozen Challenge is
 `d0830818cbee155bba53fd73fdac5ca68060dcb238a66fec31d89cca03fe571e`.
 The four precise result records and `ATTEMPT-ATOMLESS-FUSION-PROFILE-1062` retain
 the proof/evidence boundaries; no source claim was introduced.
+
+## Full fusion with world-relative actuality (#1071)
+
+Analyst formulation, attribution deferred. The exact existing `Body`, its
+subset order, `Overlap`, Sum2 `Fusion`, Sum1 and exact remainders are retained.
+`ActualFusionProfile.model` uses that same three-object carrier as worlds and
+candidates: every world accesses every world, and `ExistsAt w x` means `x ≤ w`.
+Thus at the singleton-false world only that singleton exists; at the global
+whole world all three candidates exist. These sets represent possible objects,
+not literal mathematical sets being created or destroyed. World indices are
+modal standpoints, not times; literal candidate identity stays fixed.
+
+Global blueprint parthood remains meaningful for absent objects. Actual
+parthood additionally guards existence of the whole. Downward actuality is
+exactly the existing `ActualPartsExistAt`: if x exists and p≤x, then p exists.
+Order transitivity supplies this policy uniformly. It does not assert that ANY
+actual part makes a fixed whole actual. The global whole has an actual
+singleton part at a singleton world while that whole is absent. All selected
+members being actual is different: a global fusion of an all-actual nonempty
+family is its least upper bound, and the world object is an upper bound, so the
+fusion is itself actual. This composes the checked `atomicModel` with the
+checked `sumOneComparison`, rather than adding actuality to the definition of
+fusion or assuming a new bridge with the desired conclusion.
+
+The joint `Certificate` includes the old atomic full-profile certificate,
+universal S5 accessibility, population of every world, possible existence of
+EVERY candidate, downward actuality, actual fusion closure for ALL nonempty
+all-actual Lean Sets, and no necessary candidate at any standpoint. An object
+necessary at any world would have to lie in both disjoint singleton worlds,
+contradicting its nonempty underlying set. Each world has a greatest actual
+whole (the world object itself), but no single object exists at every world:
+`∀w ∃u` has not become `∃u ∀w`. Every candidate is possible, excluding a
+never-existing-object loophole. The inherited certificate gives atomicity,
+not a new atomistic fusion-of-all-atoms assertion or unguarded proper-parts
+extensionality claim.
+
+`Causes=False` fills the existing `Ontic` signature and supplies NO causal
+availability. This is a separation of ordinary fusion/actuality closure from
+necessity, not a refutation of `ActualFusionNecessaryBeing` or its population
+and reflexive variants: those proofs retain substantive causal inputs. The
+strong rival adds an actual causal or necessity bridge, or a stronger fixed
+whole-actuality policy; no such policy follows by changing quantifier order.
+The earlier finite hitting controls lack this full mereological profile, while
+`NecessaryPartFusionDecomposition.fusionBelow/decompose` retain the separate
+necessary-fusion warrant. Neither result is duplicated here.
+
+No source claim, historical interpretation, concrete ontology, explanatory
+adequacy, ontic PSR, God identification or root premise is discharged. Actual
+metaphysical applicability of this principal-ideal interpretation and the
+rival bridges remains **OPEN**. A model witnesses just this explicit classical
+S5 interpretation. Frozen ordinary-import Challenge SHA256:
+`9b0c81cd38b99c68c480c5f8c69af9ab2916a518c93cfe838243df9888af1d2e`.
+
+Focused core/Solution build, exact result binding, Comparator and independent
+result NanoDa pass; the theorem uses exactly the approved Mathlib axiom trio.
+Claim/type self-sweep retains the nonempty guard and all-actual membership
+condition, same model across every conjunct, literal de re identity, and the
+explicit causal-availability exclusion. Against base `7f688818`, root open
+items and routes are unchanged: 90 (30 bare, 18 supported, 42 stated), cheapest
+route cost 31. Final delivered-head CI and current-head review remain required.
+Findings and rejected readings are persisted in
+`corpus/attempts/actual-fusion-profile-1071.json`. Shared policy sourceRevision:
+`625cb04ca568aebc8d45c90033e107a05e9bd2a0`.
