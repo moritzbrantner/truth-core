@@ -1,0 +1,11 @@
+{
+  "id": "INF-ADOPTED-POTENCY-NONOVERLAP",
+  "input_statement_ids": [
+    "STMT-CASE-NON-CONTRADICTION"
+  ],
+  "output_statement_id": "STMT-ADOPTED-POTENCY-NONOVERLAP",
+  "rule": "definition-and-non-contradiction",
+  "meaning": "By the owner-adopted definition, adopted potency gives capacity and absence of the very same act in the very same respect. F1 applied to that act predicate excludes its conjunction with act. This is an adopted-sense result, not a proof of generic non-overlap for arbitrary independent potency relations; the original statement and countermodels remain unchanged.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

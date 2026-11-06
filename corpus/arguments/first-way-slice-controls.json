@@ -21,7 +21,7 @@
     "DEF-RESPECT",
     "DEF-PURE-ACT"
   ],
-  "disambiguation_ids": [
+  "disambiguation_ids": ["DISAMB-POTENCY",
     "DISAMB-UNMOVED-AT-A-TIME",
     "DISAMB-EVENT-BEING-TEMPORAL-PRIORITY",
     "DISAMB-PER-SE-LINK",
