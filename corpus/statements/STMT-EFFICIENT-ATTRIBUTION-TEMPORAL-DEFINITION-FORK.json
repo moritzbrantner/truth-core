@@ -1,0 +1,11 @@
+{
+  "id": "STMT-EFFICIENT-ATTRIBUTION-TEMPORAL-DEFINITION-FORK",
+  "paraphrase": "Structural fork: for every supplied profile, named temporal calibrations cover, or both fail. Conditional on explicit excluded middle. Does not establish named philosophical coverage.",
+  "lean_declaration": "TruthCore.Causality.ComposerTemporalDefinitionFork.DefinitionFork",
+  "definition_ids": [
+    "DEF-COMPOSER-TEMPORAL-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNITING-CAUSE"
+  ]
+}

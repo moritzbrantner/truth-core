@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.AdoptedPotencyNonOverlap.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.AdoptedPotencyNonOverlap.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Aquinas.SummaTheologiae.AdoptedPotencyNonOverlap.nonOverlap"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

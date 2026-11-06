@@ -1,0 +1,9 @@
+{
+  "id": "INF-TELEONOMY-DIRECTOR-RIVAL-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-TELEONOMY-DIRECTOR-RIVAL-CONTROLS",
+  "rule": "constructive-proof",
+  "meaning": "Construct the empty-tending overlap and explicit old finite-model witness, derive its exact negative using the generic checked result, and reuse existing unguided/governed results. Do not merge separate objects into a global worldview or identify broad tending with selection.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

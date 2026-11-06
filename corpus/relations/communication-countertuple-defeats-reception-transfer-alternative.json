@@ -1,0 +1,9 @@
+{
+  "id": "REL-COMMUNICATION-COUNTERTUPLE-DEFEATS-RECEPTION-TRANSFER-ALTERNATIVE",
+  "subject_kind": "statement",
+  "subject_id": "STMT-UNITED-ESSE-COMMUNICATION-RECEPTION-TRANSFER-FAILS",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-UNITED-ESSE-COMMUNICATION-COUNTS-AS-RECEPTION",
+  "note": "Exact negative proposition, derived only under its registered explicit premises; no unconditional philosophical defeat is claimed."
+}

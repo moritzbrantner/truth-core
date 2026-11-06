@@ -1,0 +1,10 @@
+{
+  "id": "GOODNESS-PROPERTY-IDENTITY-ENTAILS-DUE-ACTUALITY",
+  "argument_id": "GOODNESS-PROPERTY-IDENTITY-ENTAILS-DUE-ACTUALITY",
+  "challenge_module": "TruthCore.Results.Metaethics.GoodnessPropertyIdentity.Challenge",
+  "solution_module": "TruthCore.Results.Metaethics.GoodnessPropertyIdentity.Solution",
+  "theorem": "TruthCore.Results.Metaethics.GoodnessPropertyIdentity.entailsDueActuality",
+  "comparator_config": "results/GOODNESS-PROPERTY-IDENTITY-ENTAILS-DUE-ACTUALITY/comparator.json",
+  "status": "solution-present",
+  "description": "Strength registration only: intensional identity is the sole proposition premise. The presentation calibrations belong to the explicit semantic interface; no actual-world identity criterion or non-naturalness claim is established."
+}

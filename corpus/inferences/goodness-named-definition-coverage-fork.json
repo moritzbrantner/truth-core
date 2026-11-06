@@ -1,0 +1,11 @@
+{
+  "id": "INF-GOODNESS-NAMED-DEFINITION-COVERAGE-FORK",
+  "input_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "output_statement_id": "STMT-GOODNESS-NAMED-COVERAGE-FORK",
+  "rule": "constructive-proof",
+  "meaning": "Excluded middle over NamedCoverage and the existence of an admissible unnamed candidate yields coverage or an explicit further-definition witness. This makes scope uncertainty a proposition rather than a perpetual implicit caveat.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,11 @@
+{
+  "id": "STMT-EPISTEMIC-REASON-BARE-PRODUCTION-DEFINITION",
+  "paraphrase": "Candidate bare production meaning: an attributed consideration counts as a reason iff its target is assessable, the consideration applies and it produces that attitude. Analyst diagnostic account, not a blanket characterization of naturalism or a claim that production supplies epistemic bearing.",
+  "lean_declaration": "TruthCore.Logic.EpistemicReasonDefinitionFork.ProductionDefinition",
+  "definition_ids": [
+    "DEF-EPISTEMIC-REASON-DEFINITION-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EPISTEMIC-REASON-EXISTENCE-ROLE-AUTHORITY"
+  ]
+}

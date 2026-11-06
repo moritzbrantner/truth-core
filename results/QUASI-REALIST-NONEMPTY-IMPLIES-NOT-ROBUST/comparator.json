@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.MetaethicsTruthAptRivalBoundary.ExactRival.Challenge",
+  "solution_module": "TruthCore.Results.Logic.MetaethicsTruthAptRivalBoundary.ExactRival.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.MetaethicsTruthAptRivalBoundary.ExactRival.exactRival"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

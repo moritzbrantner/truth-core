@@ -22,6 +22,7 @@ public import TruthCore.Causality.ChainInstantiation
 public import TruthCore.Causality.CogitoNecessaryConcrete
 public import TruthCore.Causality.CommonPriority
 public import TruthCore.Causality.CompleteCauseContributorCover
+public import TruthCore.Causality.ComposerTemporalDefinitionFork
 public import TruthCore.Causality.ConcreteExistentialSupply
 public import TruthCore.Causality.ConstitutiveConfiguration
 public import TruthCore.Causality.ConstitutiveNatureUniqueness
@@ -38,7 +39,9 @@ public import TruthCore.Causality.DirectEsseRootPerfectionGoodness
 public import TruthCore.Causality.DirectEsseRootRoute
 public import TruthCore.Causality.DirectEsseRootUniquenessAtBeing
 public import TruthCore.Causality.EsseReception
+public import TruthCore.Causality.EsseReceptionDefinitionFork
 public import TruthCore.Causality.EssentialPower
+public import TruthCore.Causality.EternityDefinitionFork
 public import TruthCore.Causality.ExistenceActuality
 public import TruthCore.Causality.ExistentialSelfActualization
 public import TruthCore.Causality.FiniteBranching

@@ -1,0 +1,11 @@
+{
+  "id": "STMT-EFFICIENT-ATTRIBUTION-CURRENT-DEFINITION-FAILS",
+  "paraphrase": "The selected-time calibration fails for the supplied attribution profile. Its failure alone does not establish the existential-time calibration; named coverage is independently required.",
+  "lean_declaration": "TruthCore.Causality.ComposerTemporalDefinitionFork.CurrentDefinitionFails",
+  "definition_ids": [
+    "DEF-COMPOSER-TEMPORAL-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNITING-CAUSE"
+  ]
+}

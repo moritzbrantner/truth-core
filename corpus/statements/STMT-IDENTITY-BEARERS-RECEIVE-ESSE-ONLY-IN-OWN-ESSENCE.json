@@ -1,0 +1,14 @@
+{
+  "id": "STMT-IDENTITY-BEARERS-RECEIVE-ESSE-ONLY-IN-OWN-ESSENCE",
+  "paraphrase": "Strictly weaker own-essence input sufficient for the original infinity proof: only for a being whose represented esse already equals its essence, each canonical recipient is that essence. No existence of identity bearers, exclusion of united souls, or source attribution is implied.",
+  "lean_declaration": "TruthCore.Causality.EsseReceptionDefinitionFork.IdentityScopedOwnEssence",
+  "definition_ids": [
+    "DEF-UNITED-ESSE-RECEPTION-INTERPRETATION-PROFILE",
+    "DEF-ESSE-RECEIVED-IN",
+    "DEF-ESSENCE-THOMISTIC-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSE-RECEPTION",
+    "DISAMB-ESSENCE"
+  ]
+}

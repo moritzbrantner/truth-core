@@ -1,0 +1,11 @@
+{
+  "id": "UNITED-COMMUNICATION-TO-SELECTED-RECEPTION",
+  "argument_id": "UNITED-COMMUNICATION-TO-SELECTED-RECEPTION",
+  "challenge_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.ReceptionTransfer.Challenge",
+  "solution_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.ReceptionTransfer.Solution",
+  "theorem": "TruthCore.Results.Causality.EsseReceptionDefinitions.ReceptionTransfer.receptionTransfer",
+  "comparator_config": "results/UNITED-COMMUNICATION-TO-SELECTED-RECEPTION/comparator.json",
+  "status": "solution-present",
+  "description": "Explicit interpretation transport transcription: actual selected union, conditional communication, same-act identity and same-sense transfer yield canonical reception of the SAME bearer/recipient/state.",
+  "transcription": "instantiation"
+}

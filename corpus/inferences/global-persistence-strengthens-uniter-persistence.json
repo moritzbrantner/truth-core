@@ -1,0 +1,11 @@
+{
+  "id": "INF-GLOBAL-PERSISTENCE-STRENGTHENS-UNITER-PERSISTENCE",
+  "input_statement_ids": [
+    "STMT-ALL-EFFICIENT-ACTIVITY-PERSISTS-TO-SELECTED-TIME"
+  ],
+  "output_statement_id": "STMT-UNITER-EFFICIENT-ACTIVITY-PERSISTS-TO-SELECTED-TIME",
+  "rule": "constructive-proof",
+  "meaning": "Logical strength registration: global same-respect persistence implies restricted some-respect persistence; finite controls show the converse fails.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

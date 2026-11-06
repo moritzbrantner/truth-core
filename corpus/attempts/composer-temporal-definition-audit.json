@@ -1,0 +1,24 @@
+{
+  "id": "ATTEMPT-COMPOSER-TEMPORAL-DEFINITION-AUDIT",
+  "statement_ids": [
+    "STMT-COMPOSER-IS-EFFICIENT-CAUSE-OF-COMPOSITE",
+    "STMT-UNITING-CAUSE-IS-EFFICIENT",
+    "STMT-COMPOSITE-HAS-A-UNITING-CAUSE"
+  ],
+  "date": "2026-11-06",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Encoded the previously untyped independent time-neutral composer proposition without identifying it with a selected-time or existential-time account. Ten results expose competing calibration/coverage/Other propositions, temporal transfer, all-time versus current no-self, historical composition and explicit countermodels. Reused exact Article7Uniting and CompositeUnitingCauseFromUnion declarations. Rejected treating a past-builder attribution as a present sustaining claim, treating all time-neutral/atemporal causation as existential temporal production, deriving all-time no-self from a present ban, and treating Other as a rival to the final composite conclusion. Current source attribution remains unchanged. Every new causal profile/transfer is openly stipulated and its real applicability is unresolved. Full research boundaries are in docs/notes/composer-temporal-definition-fork.md.",
+  "evidence": [
+    "TEMPORAL-COMPOSER-FROM-ATTRIBUTION",
+    "CURRENT-COMPOSER-FROM-ATTRIBUTION",
+    "CURRENT-COMPOSER-FROM-TEMPORAL-PERSISTENCE",
+    "GLOBAL-PERSISTENCE-STRENGTHENS-UNITER-PERSISTENCE",
+    "ALL-TIME-NO-SELF-STRENGTHENS-CURRENT-NO-SELF",
+    "COMPOSITE-UNITING-CAUSE-FROM-TEMPORAL-PRODUCTION",
+    "COMPOSER-TEMPORAL-DEFINITION-FORK",
+    "TEMPORAL-DEFINITION-FROM-NAMED-COVERAGE",
+    "COMPOSER-TEMPORAL-DEFINITION-BOUNDARIES",
+    "COMPOSER-TEMPORAL-PAST-SELF-COUNTERMODEL"
+  ]
+}
