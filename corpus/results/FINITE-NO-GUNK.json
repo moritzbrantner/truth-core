@@ -1,0 +1,10 @@
+{
+  "id": "FINITE-NO-GUNK",
+  "argument_id": "FINITE-NO-GUNK",
+  "challenge_module": "TruthCore.Results.Mereology.AtomlessFusionProfile.Challenge",
+  "solution_module": "TruthCore.Results.Mereology.AtomlessFusionProfile.Solution",
+  "theorem": "TruthCore.Results.Mereology.AtomlessFusionProfile.finiteBoundary",
+  "comparator_config": "results/FINITE-NO-GUNK/comparator.json",
+  "status": "solution-present",
+  "description": "An assumed strict proper part below every object is Mathlib NoMinOrder. Import NoMinOrder.infinite to contradict supplied finiteness. No remainder or fusion assumption is required for this obstruction."
+}

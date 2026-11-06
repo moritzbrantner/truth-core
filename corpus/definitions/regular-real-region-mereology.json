@@ -1,0 +1,8 @@
+{
+  "id": "DEF-REGULAR-REAL-REGION-MEREOLOGY",
+  "term": "regular real regions and atomlessness",
+  "lean_declaration": "TruthCore.Mereology.AtomlessFusionProfile.GunkCertificate",
+  "basis": "stipulative",
+  "definition": "RegionAlgebra is Mathlib Heyting.Regular (TopologicalSpace.Opens real), with complete lattice lifted through the existing regularization Galois insertion and its existing Boolean algebra. Region excludes the empty regular open. GunkCertificate jointly asserts population, the same Profile, every object having a proper part, no least object, and infinitude. Order is actual set inclusion in this mathematical carrier; regularization of unions need not equal pointwise union.",
+  "note": "Analyst mathematical formulation for #1062; attribution deferred. Physical applicability, substantial unity, composition-as-identity, causation and modal existence remain OPEN. See docs/notes/universal-fusion-grounding.md."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "INF-ATOMIC-COMPLETE-FUSION-MODEL",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-ATOMIC-COMPLETE-FUSION-MODEL",
+  "rule": "typed-old-body-profile-transport-and-singleton-atomicity",
+  "meaning": "An order isomorphism identical on underlying sets transports the generic positive-powerset remainder and Sum1 construction to the EXISTING Body; its Sum2 witness is imported from UniversalFusionBoundary.checks. Singletons supply minimal parts. Two disjoint singleton bodies exclude a least object, and the powerset carrier is finite.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

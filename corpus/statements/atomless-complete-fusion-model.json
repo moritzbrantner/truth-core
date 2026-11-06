@@ -1,0 +1,20 @@
+{
+  "id": "STMT-ATOMLESS-COMPLETE-FUSION-MODEL",
+  "paraphrase": "The nonempty Mathlib regular open real regions jointly satisfy exact remainders, every nonempty-family Sum1 and Sum2, every object having a strict proper part, absence of a least object, and infinitude. This is a mathematical interpretation, not actual physical gunk.",
+  "lean_declaration": "TruthCore.Mereology.AtomlessFusionProfile.GunkCertificate",
+  "definition_ids": [
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-MEREOLOGICAL-COMPLEMENTATION",
+    "DEF-SUM1-LEAST-UPPER-BOUND",
+    "DEF-POSITIVE-BOOLEAN-MEREOLOGY",
+    "DEF-REGULAR-REAL-REGION-MEREOLOGY",
+    "DEF-ATOMIC-FUSION-CONTRAST",
+    "DEF-FINITE-NO-GUNK"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GUNK-FUSION-AND-PHYSICAL-COMPOSITION",
+    "DISAMB-SUM1-AND-SUM2-FUSION",
+    "DISAMB-EXACT-REMAINDER-AND-SUPPLEMENT"
+  ]
+}

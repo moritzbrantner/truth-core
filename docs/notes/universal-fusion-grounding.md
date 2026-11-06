@@ -387,3 +387,66 @@ Challenge compiles and has hash
 `debab75ea8aef1f35ed55a0136c52d1c64c09bb55d271bb931e601557f742d51`.
 This name-resolution correction changes no intended theorem or premise. All
 accepted Solution work uses the corrected, unchanged Challenge.
+
+## Atomic and atomless models of the full profile (#1062)
+
+Analyst formulations, attribution deferred. The earlier reversed-natural-number
+gunk controls certify an atomless order and selected causal/modal policies;
+they do not certify the exact-remainder/full-fusion package. In that chain any
+two objects overlap, so merely reusing its infinite descending order would miss
+the separating-remainder burden. No physical gunk follows from that old control.
+
+`AtomlessFusionProfile` now uses the **same** existing `Complementation`,
+`UnrestrictedSumOne`, common-part `Overlap` and Sum2 `Fusion` throughout.
+`positiveProfile` constructs the profile on nonzero elements of a supplied
+Mathlib complete Boolean algebra: Boolean difference supplies exact remainders,
+and arbitrary Boolean suprema supply nonempty-family least upper bounds.
+It imports the checked #1056 conversion to Sum2. Excluding Boolean zero alone
+does **not** imply that no least positive element remains: a two-element Boolean
+algebra is a counterexample to that tempting generalization. The concrete
+certificates separately prove the no-least-object guard.
+The generic transfer also asserts no population: the positive carrier of a
+trivial Boolean algebra is empty. Both concrete certificates supply population.
+
+The infinite witness uses Mathlib `Heyting.Regular (TopologicalSpace.Opens ℝ)`.
+Its existing Boolean algebra is completed through the existing regularization
+Galois insertion; no replacement regular-open definition or representation
+library is introduced. Remove the empty region. For every remaining region,
+choose a contained real open interval, then a smaller nonempty interval which
+misses a point still inside the original region. `closure_Ioo` and
+`interior_Icc` prove the smaller interval regular. Thus every object has a
+strict proper part. Population, the full profile, no least object and infinitude
+are proved **jointly**. `NoMinOrder.infinite` separately establishes why no finite
+inhabited partial order can witness this selected gunk condition; infinitude
+alone does not imply gunk.
+
+The contrast uses the **unchanged** `UniversalFusionBoundary.Body` of nonempty
+subsets of `Bool`, via an order isomorphism identical on underlying sets.
+The generic remainder/Sum1 construction transports to this carrier, while its
+old Sum2 certificate is imported. Singletons supply minimal parts; the two
+disjoint singletons rule out a least object. This certificate proves
+**atomicity** (every object has a minimal part), not a newly advertised
+atomistic fusion-of-all-atoms theorem. Atomicity, atomisticity and terminating
+proper-part decomposition remain different commitments.
+
+The real-region order is ordinary inclusion **within the stated carrier**.
+Individual points are not objects. For example `(0,1)` has proper region
+`(0,1/2)`, while the regular-open join of `(0,1)` and `(1,2)` is `(0,2)` rather
+than their raw union. The remainder of `(0,2)` minus `(1,2)` is `(0,1)`, not the
+pointwise difference `(0,1]`: it contains exactly the region-parts disjoint from
+the subtrahend. These examples explain why the model cannot be transferred to
+point-objects or raw set operations by naming alone. Disconnected regions are
+admitted; no substantial unity, organization, soul or grounding follows.
+
+The two models show that this full fusion/remainder profile does not choose
+between atomic and atomless interpretations. They are not an exhaustive fork:
+no assertion that all full-profile models are either wholly atomic or wholly
+atomless is made, and mixed behavior is not excluded by these two witnesses.
+The model comparison also does not establish their
+applicability to actual material composition, their metaphysical possibility,
+modal existence, causation or a necessary being. Those bridges remain OPEN.
+The infinite witness is a Lean model, not a finite configuration registration.
+The frozen Challenge is
+`d0830818cbee155bba53fd73fdac5ca68060dcb238a66fec31d89cca03fe571e`.
+The four precise result records and `ATTEMPT-ATOMLESS-FUSION-PROFILE-1062` retain
+the proof/evidence boundaries; no source claim was introduced.

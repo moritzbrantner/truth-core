@@ -1,0 +1,20 @@
+{
+  "id": "STMT-ATOMIC-COMPLETE-FUSION-MODEL",
+  "paraphrase": "The unchanged nonempty-subsets-of-Bool Body jointly satisfies the same exact-remainder/all-nonempty Sum1/Sum2 profile, population, every object having a minimal part, absence of a least object, and finiteness. Only atomicity is advertised, not a general equivalence with atomisticity.",
+  "lean_declaration": "TruthCore.Mereology.AtomlessFusionProfile.AtomicCertificate",
+  "definition_ids": [
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-MEREOLOGICAL-COMPLEMENTATION",
+    "DEF-SUM1-LEAST-UPPER-BOUND",
+    "DEF-POSITIVE-BOOLEAN-MEREOLOGY",
+    "DEF-REGULAR-REAL-REGION-MEREOLOGY",
+    "DEF-ATOMIC-FUSION-CONTRAST",
+    "DEF-FINITE-NO-GUNK"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GUNK-FUSION-AND-PHYSICAL-COMPOSITION",
+    "DISAMB-SUM1-AND-SUM2-FUSION",
+    "DISAMB-EXACT-REMAINDER-AND-SUPPLEMENT"
+  ]
+}
