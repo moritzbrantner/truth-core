@@ -1,0 +1,26 @@
+{
+  "id": "UNRESTRICTED-SUM1-TO-SUM2",
+  "premise_statement_ids": [
+    "STMT-MEREOLOGICAL-COMPLEMENTATION",
+    "STMT-NONEMPTY-UNRESTRICTED-SUM1"
+  ],
+  "conclusion_statement_id": "STMT-NONEMPTY-UNRESTRICTED-SUM2",
+  "inference_ids": [
+    "INF-UNRESTRICTED-SUM1-TO-SUM2"
+  ],
+  "meaning": "For each supplied nonempty family, take its supplied least upper bound and apply the checked pointwise comparison. This connects actual Sum1 witnesses to the existing Sum2 predicate, rather than assuming the resulting Sum2 witnesses. Exact complementation and all-nonempty Sum1 formation remain open framework commitments.",
+  "definition_ids": [
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-MEREOLOGICAL-COMPLEMENTATION",
+    "DEF-SUM1-LEAST-UPPER-BOUND",
+    "DEF-SUM1-FUSION-COMPARISON",
+    "DEF-SUM1-COMPLEMENTATION-RIVALS",
+    "DEF-MEREOLOGICAL-SUPPLEMENTATION",
+    "DEF-OVERLAP-EXTENSIONAL-PARTHOOD"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SUM1-AND-SUM2-FUSION",
+    "DISAMB-EXACT-REMAINDER-AND-SUPPLEMENT"
+  ]
+}

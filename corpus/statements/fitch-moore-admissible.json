@@ -1,0 +1,12 @@
+{
+  "id": "STMT-FITCH-MOORE-ADMISSIBLE",
+  "paraphrase": "The supplied admissible-content family contains the selected Moore conjunction.",
+  "lean_declaration": "TruthCore.Logic.FitchKnowability.MooreAdmissible",
+  "definition_ids": [
+    "DEF-FITCH-WORLD-INDEXED-KNOWLEDGE",
+    "DEF-FITCH-ADMISSIBLE-CONTENTS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FITCH-OPERATOR-SCOPE"
+  ]
+}

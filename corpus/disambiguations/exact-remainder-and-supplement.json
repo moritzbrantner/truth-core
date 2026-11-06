@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-EXACT-REMAINDER-AND-SUPPLEMENT",
+  "term": "remainder",
+  "sense_definition_ids": [
+    "DEF-MEREOLOGICAL-COMPLEMENTATION",
+    "DEF-MEREOLOGICAL-SUPPLEMENTATION"
+  ],
+  "resolution": "Strong supplementation provides some disjoint part witnessing noncontainment. Exact complementation requires an object comprising all and only the disjoint parts of the minuend. The latter implies the former; the JoinRival shows that strong supplementation, even with every nonempty order join, does not provide the exact remainder. Neither condition is an actual ontology claim."
+}

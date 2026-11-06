@@ -1,0 +1,10 @@
+{
+  "id": "FITCH-RESTRICTED-SURVIVOR",
+  "argument_id": "FITCH-RESTRICTED-SURVIVOR",
+  "challenge_module": "TruthCore.Results.Logic.FitchKnowability.Challenge",
+  "solution_module": "TruthCore.Results.Logic.FitchKnowability.Solution",
+  "theorem": "TruthCore.Results.Logic.FitchKnowability.restrictedSurvivor",
+  "comparator_config": "results/FITCH-RESTRICTED-SURVIVOR/comparator.json",
+  "status": "solution-present",
+  "description": "Construct the exact four-world interpretation in survivorContext, survivorEpistemic and survivorAtom. Singleton epistemic endpoints with each atom value witness global biconditional knowability of atom-invariant contents; the uncertain actual pair witnesses actual ignorance. Atom invariance excludes its Moore content. Both frames are S5 but E is not a subset of R. The model retains global factivity and conjunct extraction and changes admissibility, not scope or background laws; no unrestricted knowability or real-world applicability is established."
+}

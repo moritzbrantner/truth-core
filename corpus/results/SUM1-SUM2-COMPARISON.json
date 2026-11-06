@@ -1,0 +1,10 @@
+{
+  "id": "SUM1-SUM2-COMPARISON",
+  "argument_id": "SUM1-SUM2-COMPARISON",
+  "challenge_module": "TruthCore.Results.Mereology.SumOneComplementation.Challenge",
+  "solution_module": "TruthCore.Results.Mereology.SumOneComplementation.Solution",
+  "theorem": "TruthCore.Results.Mereology.SumOneComplementation.sumOneComparison",
+  "comparator_config": "results/SUM1-SUM2-COMPARISON/comparator.json",
+  "status": "solution-present",
+  "description": "If part p of a nonempty-family least upper bound overlaps no selected member, exact complementation supplies a remainder containing every selected member. Leastness puts the whole inside that remainder, contradicting reflexive overlap of p. Conversely, the no-extra-parts clause supplies overlap inclusion into any upper bound; import the existing separationCharacterization theorem with strong supplementation derived from complementation to obtain containment. The nonempty guard is explicit; neither atomism nor all-family formation is needed."
+}

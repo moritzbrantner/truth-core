@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-SUM1-AND-SUM2-FUSION",
+  "term": "sum and fusion",
+  "sense_definition_ids": [
+    "DEF-SUM1-LEAST-UPPER-BOUND",
+    "DEF-UNIVERSAL-FUSION-PROFILE"
+  ],
+  "resolution": "Sum1 means Mathlib least upper bound. Sum2 means existing upper bound plus no-extra-parts common overlap. They are not identified by terminology or by strong supplementation alone. Their pointwise agreement on nonempty families is proved under exact complementation. All-family quantification ranges over Lean Sets; no first-order-schema equivalence, substantial unity or composition as identity is asserted."
+}

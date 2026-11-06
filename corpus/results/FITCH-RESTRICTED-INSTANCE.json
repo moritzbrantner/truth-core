@@ -1,0 +1,10 @@
+{
+  "id": "FITCH-RESTRICTED-INSTANCE",
+  "argument_id": "FITCH-RESTRICTED-INSTANCE",
+  "challenge_module": "TruthCore.Results.Logic.FitchKnowability.Challenge",
+  "solution_module": "TruthCore.Results.Logic.FitchKnowability.Solution",
+  "theorem": "TruthCore.Results.Logic.FitchKnowability.restrictedInstance",
+  "comparator_config": "results/FITCH-RESTRICTED-INSTANCE/comparator.json",
+  "status": "solution-present",
+  "description": "Instantiate actual restricted knowability at the Moore content using its separately declared admissibility. This is schema specialization, not an independent defense of either assumption."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "STMT-FITCH-RESTRICTED-KNOWABILITY",
+  "paraphrase": "Every actually true content in the supplied admissible family is known at some modally accessible world.",
+  "lean_declaration": "TruthCore.Logic.FitchKnowability.RestrictedKnowability",
+  "definition_ids": [
+    "DEF-FITCH-WORLD-INDEXED-KNOWLEDGE",
+    "DEF-FITCH-ADMISSIBLE-CONTENTS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FITCH-OPERATOR-SCOPE"
+  ]
+}

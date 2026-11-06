@@ -1,0 +1,10 @@
+{
+  "id": "FITCH-GLOBAL-LAWS-SPECIALIZE",
+  "argument_id": "FITCH-GLOBAL-LAWS-SPECIALIZE",
+  "challenge_module": "TruthCore.Results.Logic.FitchKnowability.Challenge",
+  "solution_module": "TruthCore.Results.Logic.FitchKnowability.Solution",
+  "theorem": "TruthCore.Results.Logic.FitchKnowability.relevantFromGlobal",
+  "comparator_config": "results/FITCH-GLOBAL-LAWS-SPECIALIZE/comparator.json",
+  "status": "solution-present",
+  "description": "Specialize global factivity and conjunction extraction to the selected Moore content at each accessed world. This records a strong-to-weak law relation; the obstruction uses only the weak laws."
+}
