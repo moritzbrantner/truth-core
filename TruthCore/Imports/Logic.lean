@@ -27,6 +27,7 @@ public import TruthCore.Logic.LimitAdmission
 public import TruthCore.Logic.MaximumOrder
 public import TruthCore.Logic.MeaningDefinitionFork
 public import TruthCore.Logic.MetaethicsTruthAptRivalBoundary
+public import TruthCore.Logic.NaturalTheologySemanticScope
 public import TruthCore.Logic.PerformedDenial
 public import TruthCore.Logic.PluralClosureBoundary
 public import TruthCore.Logic.QuantifierShift
@@ -45,6 +46,7 @@ public import TruthCore.Logic.StrengthComparison
 public import TruthCore.Logic.ThoughtChangeSubject
 public import TruthCore.Logic.ThresholdBelief
 public import TruthCore.Logic.TranscendentalPractice
+public import TruthCore.Logic.TruthAccountCompatibility
 public import TruthCore.Logic.TruthComposition
 public import TruthCore.Logic.TruthNontriviality
 public import TruthCore.Logic.TruthPilot

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SIGNED-THOUGHT-TRUTH-PROFILE",
+  "term": "signed thought and proposition truth",
+  "definition": "Thought has an affirmative/denying sign and a proposition content. Object obtains exactly when that proposition holds. TrueThought and FalseThought follow the sign-sensitive composition clauses, with all four signed truth/falsity controls populated. This explicit interpretation can coexist with the full earlier stage-proof framework; it is not historical identity or philosophical equivalence.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.TruthAccountCompatibility.Thought",
+  "note": "Analyst scope/compatibility boundary; attribution deferred. See docs/notes/semantic-rival-scope.md."
+}

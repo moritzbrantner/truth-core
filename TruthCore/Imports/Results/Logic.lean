@@ -43,6 +43,8 @@ public import TruthCore.Results.Logic.MeaningDefinitionFork.V3Rejection.Solution
 public import TruthCore.Results.Logic.MeaningDefinitionFork.V3RejectionBound.Solution
 public import TruthCore.Results.Logic.MetaethicsTruthAptRivalBoundary.Controls.Solution
 public import TruthCore.Results.Logic.MetaethicsTruthAptRivalBoundary.ExactRival.Solution
+public import TruthCore.Results.Logic.NaturalTheologySemanticScope.Controls.Solution
+public import TruthCore.Results.Logic.NaturalTheologySemanticScope.Projection.Solution
 public import TruthCore.Results.Logic.PerformedDenial.EmptyControl.Solution
 public import TruthCore.Results.Logic.PerformedDenial.NoAccurateDenial.Solution
 public import TruthCore.Results.Logic.PerformedDenial.StaticControl.Solution
@@ -71,6 +73,7 @@ public import TruthCore.Results.Logic.ThoughtChangeSubject.Solution
 public import TruthCore.Results.Logic.ThresholdBelief.Solution
 public import TruthCore.Results.Logic.TranscendentalPractice.AgencyDuty.Solution
 public import TruthCore.Results.Logic.TranscendentalPractice.InquiryAccess.Solution
+public import TruthCore.Results.Logic.TruthAccountCompatibility.Compatibility.Solution
 public import TruthCore.Results.Logic.TruthNontriviality.Controls.Solution
 public import TruthCore.Results.Logic.TruthNontriviality.Core.Solution
 public import TruthCore.Results.Logic.TruthNontriviality.PropositionalCollapse.Solution

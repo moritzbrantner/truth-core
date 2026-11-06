@@ -1,0 +1,8 @@
+{
+  "id": "STMT-TRUTH-ACCOUNT-COMPATIBILITY",
+  "paraphrase": "The complete existing encoded intuitionist framework, assertion/proof condition and global truth-as-provability reading coexist with the unchanged Aristotelian thought-composition predicate in an explicit signed-content interpretation. True/false affirmations and denials are populated. This is exact encoded compatibility, not identity of accounts, historical agreement, real-world applicability or compatibility of complete philosophies.",
+  "lean_declaration": "TruthCore.Logic.TruthAccountCompatibility.JointEncodedAccounts",
+  "definition_ids": [
+    "DEF-SIGNED-THOUGHT-TRUTH-PROFILE"
+  ]
+}

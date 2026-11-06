@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NATURAL-THEOLOGY-PROFILE-ARGUABILITY",
+  "term": "arguability within one explicit profile",
+  "definition": "Some meaningful divine content has an admitted candidate argument whose premises meet the supplied world-premise criterion and which meets the independently selected standard. This is a new analyst sibling, not a silent encoding/equation of the broader old STMT-NATURAL-THEOLOGY-ARGUABLE; argument-domain adequacy and warrant bridges remain OPEN.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.NaturalTheologySemanticScope.NaturalTheologyArguable",
+  "note": "Analyst scope/compatibility boundary; attribution deferred. See docs/notes/semantic-rival-scope.md."
+}
