@@ -1,0 +1,11 @@
+{
+  "id": "COGITO-BEARER-CONCRETE-FROM-OPERATION",
+  "argument_id": "COGITO-BEARER-CONCRETE-FROM-OPERATION",
+  "challenge_module": "TruthCore.Results.Logic.CogitoEsse.Challenge",
+  "solution_module": "TruthCore.Results.Logic.CogitoEsse.Solution",
+  "theorem": "TruthCore.Results.Logic.CogitoEsse.bearerConcreteOfOperation",
+  "comparator_config": "results/COGITO-BEARER-CONCRETE-FROM-OPERATION/comparator.json",
+  "status": "solution-present",
+  "transcription": "instantiation",
+  "description": "Transcription (instantiation): register the already checked bearerConcreteOfOperation theorem as its own argument, retaining occurrence-to-intellectual-exercise, exercise-to-some-actuality and actuality-to-esse as three explicit premises. Same bearer, episode, InAct and esse throughout; no thinking-as-efficient-causation shortcut or historical q75 attribution. This adds a corpus connection, not a new theorem, premise defense, floor approval, actuality witness or root closure. The existing frozen Challenge and Solution are unchanged."
+}

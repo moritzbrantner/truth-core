@@ -36,6 +36,7 @@ public import TruthCore.Logic.Regress
 public import TruthCore.Logic.RegressDomains
 public import TruthCore.Logic.Relativism
 public import TruthCore.Logic.Scientism
+public import TruthCore.Logic.ScopedEmpiricalProofBarrier
 public import TruthCore.Logic.SelfApplication
 public import TruthCore.Logic.SoritesBoundary
 public import TruthCore.Logic.Strength.Cause

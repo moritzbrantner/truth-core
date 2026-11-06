@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Controls.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Controls.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Controls.controls"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

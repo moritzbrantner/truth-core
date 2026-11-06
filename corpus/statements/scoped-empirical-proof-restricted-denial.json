@@ -1,0 +1,22 @@
+{
+  "id": "STMT-EMPIRICAL-PROOF-RESTRICTED-DENIAL",
+  "paraphrase": "No target in the independently supplied scope has a finite satisfiable observation proof. Global denial strengthens this scoped claim; refuting the global claim does not refute the scoped claim.",
+  "lean_declaration": "TruthCore.Logic.ScopedEmpiricalProofBarrier.RestrictedNoEmpiricalProof",
+  "definition_ids": [
+    "DEF-SCOPED-PROOF-INQUIRIES",
+    "DEF-THEOLOGICAL-SUBJECT-DEFINITION",
+    "DEF-THEOLOGICAL-PREMISE-DEFINITION",
+    "DEF-THEOLOGICAL-METHOD-DEFINITION",
+    "DEF-PROOF-DOMAIN-COVERAGE",
+    "DEF-EMPIRICAL-OBSERVATION-BARRIER",
+    "DEF-SCOPED-EMPIRICAL-PROOF-DENIAL",
+    "DEF-EMPIRICAL-BARRIER-COVERAGE",
+    "DEF-EMPIRICAL-BEGINNING-QUESTION-CONTROL",
+    "DEF-CONCLUSIVE-VERIFIABILITY",
+    "DEF-TRUTH-CONDITIONAL-LANGUAGE",
+    "DEF-EMPIRICIST-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SCOPED-PROOF-STANDARD-AND-THEOLOGICAL-DOMAIN"
+  ]
+}

@@ -11,5 +11,5 @@
     "DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE",
     "DISAMB-IN-ACT"
   ],
-  "note": "Typed and checked as inputs of the additional conditional bearerConcreteOfOperation theorem, but not registered as extra open root premises. See docs/notes/cogito-esse-1113.md and ATTEMPT-COGITO-ESSE-1113."
+  "note": "Open analyst input of the independently registered COGITO-BEARER-CONCRETE-FROM-OPERATION conditional argument. Previously checked only as a companion theorem in the existence-route configuration; now visible in the argument graph. No premise truth, source attribution or floor approval is inferred. See docs/notes/cogito-esse-1113.md and ATTEMPT-COGITO-ESSE-1113."
 }

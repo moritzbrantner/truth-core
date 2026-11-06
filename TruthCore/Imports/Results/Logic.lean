@@ -59,6 +59,12 @@ public import TruthCore.Results.Logic.Relativism.SelfFalsifying.Solution
 public import TruthCore.Results.Logic.Scientism.StrongDilemma.Solution
 public import TruthCore.Results.Logic.Scientism.WeakConsistent.Solution
 public import TruthCore.Results.Logic.Scientism.WeakDemarcation.Solution
+public import TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Barrier.Solution
+public import TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Controls.Solution
+public import TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Coverage.Solution
+public import TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Finitary.Solution
+public import TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Scoped.Solution
+public import TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Strength.Solution
 public import TruthCore.Results.Logic.SelfApplication.DemarcationOutsideConsistent.Solution
 public import TruthCore.Results.Logic.SelfApplication.DemarcationTest.Solution
 public import TruthCore.Results.Logic.SelfApplication.Dilemma.Solution
