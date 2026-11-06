@@ -516,12 +516,12 @@
       "path": "corpus/statements/excluded-middle.json",
       "status": "inspected",
       "classification": "reused_unchanged_audit",
-      "finding": "Reuse unchanged prior audit disposition: Full ∀p, p ∨ ¬p retained in every old interface. The new identity result instead has explicit DecidableEq σ.Being and DecidableEq Principle parameters; its checked proof establishes sufficiency, not logical necessity or minimality. No root-route discharge.",
+      "finding": "Reviewed scope metadata correction: object-level ExcludedMiddle declaration and legacy floor basis/justification remain unchanged. The serious withholding position targets universal assertion; exact analyst global negation remains an unrefuted logical rival. Disagreement metadata includes that complement. Focused actual-record regression prevents floor-removal from turning instance-denial refutation into proof of global EM.",
       "before": {
         "sha256": "279edc03ac8141e2a580cefd9c9998f4dd260565e154c5856b4735abdda3eaa8",
         "lean_declaration": "TruthCore.Logic.ExcludedMiddle"
       },
-      "reviewed_sha256": "279edc03ac8141e2a580cefd9c9998f4dd260565e154c5856b4735abdda3eaa8"
+      "reviewed_sha256": "852c967c753f4095ad19e84aa864325d4fcadda8c079b4e26da54e62110d46a8"
     },
     {
       "kind": "statements",

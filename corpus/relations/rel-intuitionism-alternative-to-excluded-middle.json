@@ -4,6 +4,6 @@
   "subject_id": "STMT-EXCLUDED-MIDDLE-WITHHELD-INTUITIONISM",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-EXCLUDED-MIDDLE",
-  "note": "Definition audit: this existing raw serious intuitionist rival is a proof/assertion-policy package, not logical negation of object-level EM. WITHHOLDING-IMPLIES-NOT-UNIVERSAL-ASSERTION now records its exact negative assertion-policy consequence. EXCLUDED-MIDDLE-ASSERTION-BOUNDARY-CONTROLS shows coexistence with explicit object-level EM in the marker subset, not a complete intuitionist semantics. Existing endpoint is retained pending coverage-authority migration, because deleting it leaves only an already-refuted weaker instance-denial and could manufacture an alternatives_refuted path to general EM. This note does not constrain that engine path; root coordination remains necessary."
+  "object_id": "STMT-ALL-EXCLUDED-MIDDLE-INSTANCES-ASSERTED",
+  "note": "Scoped serious intuitionist rival: the unchanged full withholding package contradicts universal assertion through WITHHOLDING-IMPLIES-NOT-UNIVERSAL-ASSERTION, not object-level EM. Its proof/assertion commitments and source claims remain unchanged. The exact negative policy consequence is also independently recorded as an alternative, so refuting the stronger full package alone cannot establish universal assertion. Object EM now retains the separate unrefuted exact global logical complement STMT-NOT-EXCLUDED-MIDDLE; no denial of global EM is attributed to intuitionism."
 }

@@ -13,6 +13,10 @@ semantics of a complete intuitionist logic or its historical interpretation.
 namespace TruthCore.Logic.ExcludedMiddleAssertionBoundary
 open TruthCore.Logic
 
+/-- Exact global logical complement of EM. This is not explicit failure of
+one instance and is not attributed to intuitionism. -/
+def NotExcludedMiddle : Prop := ¬ ExcludedMiddle
+
 /-- Every stage asserts every instance. This comparison policy is not adopted
 as a correct assertion norm and is not a source attribution. -/
 def AllInstancesAsserted {Stage : Type} (Asserts : Stage → Prop → Prop) : Prop :=

@@ -38,28 +38,41 @@ stage behavior is not an additional exported property. Thus
 refuting the full raw package would not by itself establish the universal
 assertion policy either. A logical negative target is needed for that role.
 
-## Why the legacy endpoints are not silently moved
+## Exact global complement and endpoint migration
 
-The object-EM graph currently records both the withholding position and
-`SomeExcludedMiddleInstanceFails` as alternatives. The latter is exactly
-`∃ p, ¬ (p ∨ ¬ p)`, **not** `¬ ∀ p, p ∨ ¬ p`. Its constructive refutation
-proves no instance is deniable, not that every instance can be proved.
-The existing source/proof record already distinguishes withholding and denial.
+The weaker explicit-denial proposition is `∃ p, ¬ (p ∨ ¬ p)`, not
+`¬ ∀ p, p ∨ ¬ p`. Its constructive refutation proves no instance deniable,
+not general excluded middle. `STMT-NOT-EXCLUDED-MIDDLE` now records the exact
+global logical complement as an independent, unrefuted analyst proposition.
+It is not attributed to intuitionism. No proof of its refutation or independent
+coverage `EM ∨ ¬EM` is supplied.
 
-The engine's `defended()` criterion currently takes a nonempty finite list of
-recorded alternatives as sufficient coverage when all are refuted; it does not
-require a separate coverage result. Moving withholding away would leave only
-the already-refuted weaker instance-denial and could create an unauthorized
-all-alternatives-refuted path to object-level EM. Its legacy floor marking may
-mask this path in current root counts, so unchanged counts would not repair
-the semantic problem.
+The unchanged full withholding position now targets universal assertion. Its
+exact negative assertion-policy consequence remains a separate alternative,
+so refuting the stronger full package alone cannot defend universal assertion.
+Object-level EM retains both the weaker instance-denial and the unrefuted
+exact global complement. No proof-known, assertion-to-validity or warrant
+mapping is invented as a source fact.
 
-Consequently this batch adds the exact assertion-policy endpoint and checked
-boundary but preserves both legacy object-EM edges and the existing floor.
-Their notes name the unresolved coverage-authority migration. Notes alone do
-not constrain closure. The coordinator must resolve that authority before
-moving the old endpoints; no generic additional-option flag, source bridge,
-floor approval or proof of object-level EM is inferred here.
+The legacy EM floor retains its existing basis and justification; its
+disagreement metadata now also lists the global complement. This is not new
+floor approval or a proof of EM. A focused regression reads the actual corpus
+records and removes that floor in memory: refuting explicit instance denial
+then does **not** close or establish EM, because the global complement remains
+unrefuted. The same fixture without that global rival reproduces the unsafe
+all-alternatives-refuted path; retaining the legacy floor preserves its
+existing authority. Run:
+
+```
+python3 -m unittest discover -s scripts -p test_excluded_middle_scope.py
+```
+
+The broader finite-rival limitation remains: `defended()` treats a nonempty
+list of recorded alternatives as sufficient when every member is refuted,
+without requiring an independent coverage result. This focused repair blocks
+the concrete false-closure path; it does not introduce a new proof registry or
+solve every philosophical coverage question. Conditional definition forks
+continue to retain ordinary explicit coverage premises and checked derivations.
 
 The serious intuitionist position remains at full strength, including its
 separate proof and assertion commitments. An eventual comparison of valid

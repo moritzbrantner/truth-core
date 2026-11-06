@@ -1,0 +1,9 @@
+{
+  "id": "REL-NOT-EXCLUDED-MIDDLE-ALTERNATIVE-TO-EXCLUDED-MIDDLE",
+  "subject_kind": "statement",
+  "subject_id": "STMT-NOT-EXCLUDED-MIDDLE",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-EXCLUDED-MIDDLE",
+  "note": "Exact global complement in the same logic, unrefuted and analyst-only. The constructive refutation of ∃p¬(p∨¬p) does not refute this ¬∀p(p∨¬p) statement. No historical attribution or coverage proof is inferred."
+}
