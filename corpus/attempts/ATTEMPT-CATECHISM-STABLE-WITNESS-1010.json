@@ -14,5 +14,5 @@
     "CCC-185-189-CREED-PROFESSED",
     "CCC-199-200-I-BELIEVE-IN-GOD"
   ],
-  "blocker": "CI stability of the English pages is checked only by this PR's runs; if a later run reports byte drift, the premise returns to bare. A Latin witness remains the upgrade."
+  "blocker": "CI stability of the English pages is checked only by this PR's runs. If a later verification reports byte drift, the witness check fails and must be repaired (re-pin after a fidelity re-read) or the affected claims and supports withdrawn; the frontier does not downgrade the premise by itself. A Latin witness remains the upgrade."
 }
