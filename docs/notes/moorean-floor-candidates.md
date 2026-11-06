@@ -4,6 +4,8 @@ This is a reviewable **proposal batch**, requested in [#1119](https://github.com
 
 The batch reuses checked conditional consequences. Ranking reflects potential root reach and how much of the remaining obligation is understood; it does **not** certify that a commitment is obvious, true, or common ground. The first three items form one package about the *selected Catholic practice*. They must not be read as universal claims about every `Practice`, nor as three independent reductions in root cost.
 
+Owner decisions are **not prerequisites to conditional investigation**. Continue treating the competing readings as explicit inputs, type currently untyped rivals as sibling propositions where their content differs, and test consequences, contradictions, triviality and which objections retain force. Establishment is needed for a counted root-frontier settlement, not for exploring a framework. The proposals below are available if a particular floor settlement is selected; they are not a request to choose definitions before that work can proceed.
+
 ## Ranking and present impact
 
 At main `0367eebc5b98263ba16d87a2ddd0e9388d10056e`, there are 12 reported verified root routes, cheapest cost 31. The single recorded rival of `STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE` is `STMT-WF-RELIGION-CUT-OFF-FROM-SHARED-REASON`; revelation is one open leaf on all 12 routes.
@@ -101,4 +103,4 @@ Consequently, even hypothetical settlement of all three inputs establishes only 
 
 ## Premise comparison and next action
 
-Actual delta: **no premise change**, no new bare premise, no floor proposal enacted. The target closure rule is a future counted defense of `STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE`; the immediate research action is to repair the conjunction/single-rival scope and interpretation boundary before claiming that a bridge decision can settle it. The coordinator may present items 1–3 as a precisely scoped package for discussion, with item 4 explicitly lower priority. No item should be submitted as a guaranteed route reduction or as already independently warranted.
+Actual delta: **no premise change**, no new bare premise, no floor proposal enacted. The target closure rule is a future counted defense of `STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE`; the immediate research action is to encode the conjunction/single-rival scopes and interpretation variants explicitly, then test their conditional consequences before claiming that a bridge decision can settle the recorded rival. An argument may cease to support a particular objection without its entire worldview being globally refuted. The coordinator may present items 1–3 as a precisely scoped package for discussion, with item 4 explicitly lower priority. No item should be submitted as a guaranteed route reduction or as already independently warranted.
