@@ -18,9 +18,11 @@
     "DEF-NATURAL-REASON-SHARED"
   ],
   "disambiguation_ids": [
-    "DISAMB-NATURAL-REASON"
+    "DISAMB-NATURAL-REASON",
+    "DISAMB-THEOLOGICAL-FORMULATION-AND-NORMATIVE-GRAMMAR"
   ],
   "strong_version_needed": {
-    "STMT-DEI-FILIUS-DEFINES-NATURAL-KNOWABILITY-OF-GOD": "The defined component is needed to apply DefinitionIsOwnStandardReading, then InternalGrammarReading; an arbitrary natural-knowability move need not be endorsed or correct."
+    "STMT-DEI-FILIUS-DEFINES-NATURAL-KNOWABILITY-OF-GOD": "The defined component is needed to apply DefinitionIsOwnStandardReading, then InternalGrammarReading; an arbitrary natural-knowability move need not be endorsed or correct.",
+    "STMT-COUNCIL-DEFINES-NATURAL-KNOWABILITY": "The original cut-off derivation/authority branch needs the same actual move to be both Defined and natural-knowability: Defined supplies own-standard endorsement/correctness through the definition bridge, while natural content supplies shared reason. The weak merely-natural witness omits Defined, and the weak merely-Defined witness omits natural content; separate existential witnesses do not identify the same move. The original interface therefore retains the joint defined-natural witness."
   }
 }

@@ -1,0 +1,26 @@
+{
+  "id": "TEACHING-GOVERNANCE-CALIBRATION-SUPPLIES-FIXED-LINK",
+  "premise_statement_ids": [
+    "STMT-COMMISSION-GOVERNANCE-INCLUDES-TEACHING",
+    "STMT-CHURCH-INSTITUTION-LINK-FOR-SELECTED-GOVERNANCE"
+  ],
+  "conclusion_statement_id": "STMT-CHURCH-TEACHING-INCLUSIVE-INSTITUTION-LINK",
+  "inference_ids": [
+    "INF-TEACHING-GOVERNANCE-CALIBRATION-SUPPLIES-FIXED-LINK"
+  ],
+  "meaning": "Definition-projection transcription: map the literal teaching-inclusive governing criterion into the selected predicate through its explicit calibration, then apply the matching institutional bridge. No transfer from the old narrow bridge is assumed.",
+  "definition_ids": [
+    "DEF-COMMISSION-GOVERNANCE-CALIBRATION",
+    "DEF-TEACHING-INCLUSIVE-GOVERNING-POWER",
+    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
+    "DEF-COMMISSION-REPORT-POWERS",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMMISSION-GOVERNANCE-CRITERIA",
+    "DISAMB-COMMISSION-REPORT-AND-EVENT",
+    "DISAMB-FOUNDED-BY-GOD",
+    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "STMT-CHURCH-HAS-VISIBLE-CRITERION",
+  "paraphrase": "Open analyst definition proposition: on the selected society carrier, a body satisfies the selected Church predicate iff it satisfies the existing visible, enduring, authoritative criterion. This does not deny a spiritual aspect of the same body.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.ChurchDefinitions.VisibleCriterion",
+  "definition_ids": [
+    "DEF-CHURCH-CRITERION-CALIBRATION",
+    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY",
+    "DEF-CHURCH-SPIRITUAL-COMMUNITY",
+    "DEF-SKELETON-OPEN-PREDICATES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS"
+  ]
+}

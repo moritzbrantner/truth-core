@@ -1,0 +1,14 @@
+{
+  "id": "STMT-CONCILIAR-UNIFORM-DEFINITION-STATUS-REJECTED",
+  "paraphrase": "Both uniform endorsement profiles fail: not all defined moves are endorsed and it is not the case that all defined moves lack endorsement. This does not refute theology, first-order religious life or a whole worldview.",
+  "lean_declaration": "TruthCore.Alternatives.ConciliarGrammarDefinitions.UniformDefinitionStatusRejected",
+  "definition_ids": [
+    "DEF-THEOLOGICAL-CONTENT-AND-RELIGIOUS-LIFE-ROLES",
+    "DEF-CONCILIAR-DEFINITION",
+    "DEF-PRACTICE-OWN-STANDARD",
+    "DEF-CORRECT-MOVE-IN-PRACTICE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THEOLOGICAL-FORMULATION-AND-NORMATIVE-GRAMMAR"
+  ]
+}

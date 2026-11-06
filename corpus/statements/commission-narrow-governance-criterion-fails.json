@@ -1,0 +1,19 @@
+{
+  "id": "STMT-COMMISSION-NARROW-GOVERNANCE-CRITERION-FAILS",
+  "paraphrase": "The selected governing predicate does not coextend with the fixed narrow table. This is actual negation of that calibration, not merely a claim that Matthew 28 alone is insufficient under it.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.CommissionDefinitions.NarrowGovernanceCriterionFails",
+  "definition_ids": [
+    "DEF-COMMISSION-GOVERNANCE-CALIBRATION",
+    "DEF-TEACHING-INCLUSIVE-GOVERNING-POWER",
+    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
+    "DEF-COMMISSION-REPORT-POWERS",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMMISSION-GOVERNANCE-CRITERIA",
+    "DISAMB-COMMISSION-REPORT-AND-EVENT",
+    "DISAMB-FOUNDED-BY-GOD",
+    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS"
+  ]
+}

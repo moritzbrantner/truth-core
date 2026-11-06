@@ -1,0 +1,14 @@
+{
+  "id": "INF-COMMISSION-NAMED-CRITERION-ELIMINATION-SUPPLIES-SCOPE",
+  "input_statement_ids": [
+    "STMT-COMMISSION-NAMED-GOVERNANCE-CRITERIA-COVER",
+    "STMT-COMMISSION-NARROW-GOVERNANCE-CRITERION-FAILS",
+    "STMT-MATTHEW28-COMMISSION-GOES-BACK-TO-JESUS",
+    "STMT-CHURCH-INSTITUTION-LINK-FOR-SELECTED-GOVERNANCE"
+  ],
+  "output_statement_id": "STMT-MANDATE-COVERS-JESUS-FOUNDING-OF-CATHOLIC-CHURCH",
+  "rule": "constructive-proof",
+  "meaning": "Under open named coverage and actual negation of the narrow calibration, select the teaching-inclusive criterion and import its existing standalone mandate-scope connection. Failure of Matthew 28 alone under the narrow bridge is not itself negation of the narrow criterion.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

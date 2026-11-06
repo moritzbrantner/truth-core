@@ -1,0 +1,10 @@
+{
+  "id": "ACCEPTED-FALSE-CANDIDATE-DEFEATS-FACTIVITY",
+  "argument_id": "ACCEPTED-FALSE-CANDIDATE-DEFEATS-FACTIVITY",
+  "challenge_module": "TruthCore.Results.Explanation.SelectionCoverageBoundary.FalseFactivityFailure.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.SelectionCoverageBoundary.FalseFactivityFailure.Solution",
+  "theorem": "TruthCore.Results.Explanation.SelectionCoverageBoundary.FalseFactivityFailure.falseFactivityFailure",
+  "comparator_config": "results/ACCEPTED-FALSE-CANDIDATE-DEFEATS-FACTIVITY/comparator.json",
+  "status": "solution-present",
+  "description": "An actual accepted false candidate contradicts the SAME accepted-candidate factivity policy. No source theory is refuted by assigning a mistaken generic judgment."
+}

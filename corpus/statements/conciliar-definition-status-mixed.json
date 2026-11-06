@@ -1,0 +1,14 @@
+{
+  "id": "STMT-CONCILIAR-DEFINITION-STATUS-MIXED",
+  "paraphrase": "An actual defined move is endorsed by the practice own standards and another actual defined move is not. These opposing witnesses form a further relevant status profile.",
+  "lean_declaration": "TruthCore.Alternatives.ConciliarGrammarDefinitions.MixedDefinitionStatus",
+  "definition_ids": [
+    "DEF-THEOLOGICAL-CONTENT-AND-RELIGIOUS-LIFE-ROLES",
+    "DEF-CONCILIAR-DEFINITION",
+    "DEF-PRACTICE-OWN-STANDARD",
+    "DEF-CORRECT-MOVE-IN-PRACTICE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THEOLOGICAL-FORMULATION-AND-NORMATIVE-GRAMMAR"
+  ]
+}

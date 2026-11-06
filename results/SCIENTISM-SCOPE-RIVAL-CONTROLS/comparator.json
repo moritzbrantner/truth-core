@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.ScientismScopeBoundary.Controls.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ScientismScopeBoundary.Controls.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.ScientismScopeBoundary.Controls.controls"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

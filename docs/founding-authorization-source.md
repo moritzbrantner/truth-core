@@ -331,6 +331,50 @@ modern treatments are copyrighted and were not read
 **Premise effect.** No change. The conclusion is used by no argument reaching
 the root, so `frontier --reaching-root` and `--routes` are unchanged.
 
+## Governing-power criteria and matching institutional bridge (analyst reconstruction, 2026-11-06)
+
+The fixed nine-power `Power.Governing` table and source claims stay unchanged.
+`CommissionDefinitions` states independent narrow and teaching-inclusive
+calibration propositions for a selected governing predicate. Their named
+coverage is open; EM coverage retains a precise further extension. A criterion
+adding baptizing but not teaching is one such extension. Nothing here claims
+the nine constructors exhaust every real ecclesial power or jurisdiction.
+
+The matching `InstitutionLinkFor` preserves mandate, Catholic body, visibility
+and teaching conditions while exposing the selected criterion as a parameter.
+Under narrow calibration it is equivalent to the original institutional bridge.
+Under teaching-inclusive calibration it supplies the literal broader bridge;
+that fixed broader bridge strengthens the old one as a sole-premise result.
+Its reverse is false in the exact original
+`messageRival_compatible_with_mt28` witness, with an actual mandate, founded
+visible body and Matthew 28 commission. Thus changing the governing label
+cannot transport the old bridge into the broader configuration.
+
+`MATTHEW28-WITH-TEACHING-GOVERNANCE-SUPPLIES-MANDATE-SCOPE` connects directly
+to the unchanged Catholic mandate target. It requires the actual Matthew 28
+commission, teaching-inclusive calibration and a matching institutional bridge.
+Matthew 28 gives teaching; the criterion makes that power governing; the bridge
+carries its institutional consequence. This is a labelled transcription of open
+inputs, not a historical defense. Its historical witness is projected from the
+old full report-to-event bundle, never inferred from the literal report.
+The original narrow-table route still needs an additional governing commission
+and records why.
+
+Named elimination requires actual negation of narrow calibration before using
+the broader case. The original message control shows a narrower configuration
+can grant Matthew 28; that inadequacy of Matthew 28 alone is not falsity of the
+narrow criterion. Further criteria have controls giving opposite mandate-target
+verdicts, so Other opposes only named coverage. The earlier rejected shortcut
+of classifying teaching/baptizing as governing was silent reuse of a mismatched
+bridge; explicit alternative configurations with separate applicability
+premises remain legitimate research inputs.
+
+No report, institutional history, fulfilled promise, recipient identity or
+universal mandate applicability is independently established. The existing
+Gave gave-or-promised reading and its lack of a type-level identity with the
+root jesus remain explicit boundaries. All eight checked results are conditional
+scope/definition comparisons; the original source findings below are retained.
+
 ## Verified witnesses and findings
 
 The complete ranges below were materialized and read, not inferred from the
@@ -376,6 +420,49 @@ must not be made to assert equality merely because the same word *Church*
 is used. A future rule may instead preserve the intended universal-body
 scope, but that restriction and its source justification must be explicit.
 (PR #421:) This section made no change to either predicate or statement; the 2026-10-27 section and `DISAMB-FOUNDED-BY-GOD` now fix the envoy reading of `FoundedAsTeachingAuthority`.
+
+## Church criteria and the visible-stage target (analyst reconstruction, 2026-11-06)
+
+`ChurchDefinitions` makes three coextension propositions independent: a selected
+Church predicate matches the existing visible criterion, a selected spiritual
+criterion, or both criteria on the same society objects. They do not separate
+one complex body into societies. Spiritual does not mean invisible; a visible
+criterion does not deny inward communion. No universal biconditional is newly
+attributed to Lumen gentium, and existing source definitions/claims retain their
+exact reading.
+
+`CHURCH-DEFINITION-CASES-WITH-REMAINDER` checks visible, spiritual, joint, or a
+selected extension matching none, using explicit EM. Named-only coverage stays
+an open proposition. The further option is an actual difference of extension,
+not a new label, and the model controls let it admit or deny stage 5. It opposes
+named coverage, not the old visible-founded-society claim. Neither this profile
+nor its named criteria is asserted to exhaust historical ecclesiologies.
+
+The standalone `VISIBLE-CHURCH-CRITERION-SUPPLIES-STAGE-FIVE` and
+`JOINT-ASPECT-CHURCH-CRITERION-SUPPLIES-STAGE-FIVE` results carry an explicit
+selected founding witness through its corresponding calibration into the
+unchanged `ChristFoundedVisibleChurch` conclusion. They are definition-projection
+transcriptions, not historical defenses. The named-elimination result assumes
+named coverage and actual negation of the spiritual calibration, then imports
+those two connections. A model showing spiritual calibration insufficient for
+the target is not its negation and cannot eliminate that disjunct.
+
+Six controls witness triple overlap, spiritual calibration with the target
+false, visible calibration with the target true, a nonempty joint-only Church
+extension, and further extensions giving both target verdicts. The joint-only
+control contains a common body satisfying both aspects plus additional bodies
+satisfying just one aspect, so nonempty intersection does not identify the
+extensions. These are schema society labels, not actual Churches or full models
+of an ecclesiology.
+
+The old target asks only whether some visible society was founded; it does not
+include the selected Church predicate. Consequently even an added claim that
+every selected Church is invisible would not by itself negate that target: a
+separate scope premise would have to cover every founded visible society by
+the selected predicate. No such premise is smuggled in. Membership, jurisdiction,
+modern-body identity and the stage-6 historical identity remain separate open
+questions. The new historical witness, calibrations and named coverage are open
+research inputs; conditional connections establish none of them or the root.
 
 ## Rejected shortcuts and the next obligation
 

@@ -1,0 +1,20 @@
+{
+  "id": "CHURCH-DEFINITION-CASES-WITH-REMAINDER",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-CHURCH-CRITERION-CASES-COVER",
+  "inference_ids": [
+    "INF-CHURCH-DEFINITION-CASES-WITH-REMAINDER"
+  ],
+  "meaning": "Three explicit EM instances check visible, spiritual, joint-aspect or neither-named-extension coverage. Named coverage is not proved and exclusivity is not claimed.",
+  "definition_ids": [
+    "DEF-CHURCH-CRITERION-CALIBRATION",
+    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY",
+    "DEF-CHURCH-SPIRITUAL-COMMUNITY",
+    "DEF-SKELETON-OPEN-PREDICATES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS"
+  ]
+}

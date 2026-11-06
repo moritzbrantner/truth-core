@@ -1,0 +1,12 @@
+{
+  "id": "INF-TEACHING-GOVERNANCE-CALIBRATION-SUPPLIES-FIXED-LINK",
+  "input_statement_ids": [
+    "STMT-COMMISSION-GOVERNANCE-INCLUDES-TEACHING",
+    "STMT-CHURCH-INSTITUTION-LINK-FOR-SELECTED-GOVERNANCE"
+  ],
+  "output_statement_id": "STMT-CHURCH-TEACHING-INCLUSIVE-INSTITUTION-LINK",
+  "rule": "constructive-proof",
+  "meaning": "Definition-projection transcription: map the literal teaching-inclusive governing criterion into the selected predicate through its explicit calibration, then apply the matching institutional bridge. No transfer from the old narrow bridge is assumed.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

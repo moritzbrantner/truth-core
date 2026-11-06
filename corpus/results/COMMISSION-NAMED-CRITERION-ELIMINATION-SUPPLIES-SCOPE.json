@@ -1,0 +1,10 @@
+{
+  "id": "COMMISSION-NAMED-CRITERION-ELIMINATION-SUPPLIES-SCOPE",
+  "argument_id": "COMMISSION-NAMED-CRITERION-ELIMINATION-SUPPLIES-SCOPE",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Elimination.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Elimination.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Elimination.namedEliminationSuppliesScope",
+  "comparator_config": "results/COMMISSION-NAMED-CRITERION-ELIMINATION-SUPPLIES-SCOPE/comparator.json",
+  "status": "solution-present",
+  "description": "Under open named coverage and actual negation of the narrow calibration, select the teaching-inclusive criterion and import its existing standalone mandate-scope connection. Failure of Matthew 28 alone under the narrow bridge is not itself negation of the narrow criterion."
+}

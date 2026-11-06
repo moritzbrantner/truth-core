@@ -1,0 +1,11 @@
+{
+  "id": "INF-SCIENTISM-ALL-SCOPE-STRENGTHENS-POINTWISE",
+  "input_statement_ids": [
+    "STMT-SCIENTISM-ALL-ESTABLISHED-IN-SCOPE"
+  ],
+  "output_statement_id": "STMT-SCIENTISM-POINTWISE-NONEMPIRICAL-SCOPE",
+  "rule": "constructive-proof",
+  "meaning": "All established coverage implies pointwise nonempirical witness coverage.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

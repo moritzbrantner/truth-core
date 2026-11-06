@@ -1,0 +1,21 @@
+{
+  "id": "ARRANGEMENT-SELECTION-FORK-UNDER-FACTIVITY",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-ACCEPTED-ARRANGEMENT-EXPLANATIONS-ARE-TRUE"
+  ],
+  "conclusion_statement_id": "STMT-FACTIVE-ARRANGEMENT-JUDGMENT-SELECTION-FORK",
+  "inference_ids": [
+    "INF-ARRANGEMENT-SELECTION-FORK-UNDER-FACTIVITY"
+  ],
+  "meaning": "Compose the checked trilemma and explicit factivity to eliminate false acceptance. The familiar selection/nonselection fork thus exposes its actual-truth policy.",
+  "definition_ids": [
+    "DEF-ACCEPTED-EXPLANATION-TRUTHFULNESS-POLICY",
+    "DEF-LABELED-CHAIN-ARRANGEMENT",
+    "DEF-ARRANGEMENT-ENTAILING-SELECTION",
+    "DEF-HISTORY-SELECTION-INFORMATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-LABELED-ORDER-EXPLANATION"
+  ]
+}

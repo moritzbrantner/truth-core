@@ -1,0 +1,14 @@
+{
+  "id": "STMT-CHURCH-NAMED-CRITERIA-COVER",
+  "paraphrase": "Open named-extension coverage proposition: the selected Church predicate coextends with the visible criterion, the spiritual criterion, or their conjunction on this fixed society/profile domain. This does not assert an exhaustive census of ecclesiologies.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.ChurchDefinitions.NamedChurchCoverage",
+  "definition_ids": [
+    "DEF-CHURCH-CRITERION-CALIBRATION",
+    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY",
+    "DEF-CHURCH-SPIRITUAL-COMMUNITY",
+    "DEF-SKELETON-OPEN-PREDICATES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS"
+  ]
+}

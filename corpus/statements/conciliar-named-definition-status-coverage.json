@@ -1,0 +1,14 @@
+{
+  "id": "STMT-CONCILIAR-NAMED-DEFINITION-STATUS-COVERAGE",
+  "paraphrase": "Open named uniform coverage premise: either every defined move is endorsed by the practice own standards or every defined move lacks that endorsement. Mixed defined-status witnesses are a precise further alternative; no philosophical-theory census is claimed.",
+  "lean_declaration": "TruthCore.Alternatives.ConciliarGrammarDefinitions.NamedDefinitionStatusCoverage",
+  "definition_ids": [
+    "DEF-THEOLOGICAL-CONTENT-AND-RELIGIOUS-LIFE-ROLES",
+    "DEF-CONCILIAR-DEFINITION",
+    "DEF-PRACTICE-OWN-STANDARD",
+    "DEF-CORRECT-MOVE-IN-PRACTICE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THEOLOGICAL-FORMULATION-AND-NORMATIVE-GRAMMAR"
+  ]
+}

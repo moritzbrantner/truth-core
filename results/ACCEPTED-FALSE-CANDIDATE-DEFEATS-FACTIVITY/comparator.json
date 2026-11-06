@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.SelectionCoverageBoundary.FalseFactivityFailure.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.SelectionCoverageBoundary.FalseFactivityFailure.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Explanation.SelectionCoverageBoundary.FalseFactivityFailure.falseFactivityFailure"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

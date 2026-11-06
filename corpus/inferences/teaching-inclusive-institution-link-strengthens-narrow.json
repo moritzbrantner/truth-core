@@ -1,0 +1,11 @@
+{
+  "id": "INF-TEACHING-INCLUSIVE-INSTITUTION-LINK-STRENGTHENS-NARROW",
+  "input_statement_ids": [
+    "STMT-CHURCH-TEACHING-INCLUSIVE-INSTITUTION-LINK"
+  ],
+  "output_statement_id": "STMT-CHURCH-FOUNDED-IN-COMMISSIONED-APOSTLES",
+  "rule": "constructive-proof",
+  "meaning": "The literal fixed broader bridge applies to every old narrow governing power by left-disjunct injection. Its only premise is the stronger link; the nonempty mismatch model proves the reverse is invalid.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

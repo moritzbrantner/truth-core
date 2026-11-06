@@ -1,0 +1,20 @@
+{
+  "id": "CONCILIAR-DEFINITION-STATUS-COVERAGE",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-CONCILIAR-DEFINITION-STATUS-CASES",
+  "inference_ids": [
+    "INF-CONCILIAR-DEFINITION-STATUS-COVERAGE"
+  ],
+  "meaning": "Explicit EM yields the two uniform endorsement readings or actual mixed witnesses. Empty Defined domains permit universal overlap; named uniform coverage is not established.",
+  "definition_ids": [
+    "DEF-THEOLOGICAL-CONTENT-AND-RELIGIOUS-LIFE-ROLES",
+    "DEF-CONCILIAR-DEFINITION",
+    "DEF-PRACTICE-OWN-STANDARD",
+    "DEF-CORRECT-MOVE-IN-PRACTICE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THEOLOGICAL-FORMULATION-AND-NORMATIVE-GRAMMAR"
+  ]
+}

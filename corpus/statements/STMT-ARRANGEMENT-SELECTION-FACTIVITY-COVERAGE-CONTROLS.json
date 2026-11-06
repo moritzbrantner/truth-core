@@ -1,0 +1,14 @@
+{
+  "id": "STMT-ARRANGEMENT-SELECTION-FACTIVITY-COVERAGE-CONTROLS",
+  "paraphrase": "For every designated arrangement, a false-only judgment accepts an actual-false candidate and violates selection but has no truthful nonselection rival; a true-only judgment is factive and has the truthful nonselection rival and selection failure; a selection-defined positive calibration satisfies selection and factivity and accepts a supplied equality-selector. Reuses old truthful-rival controls; no arbitrary judgment is established actually adequate, and the positive selection-defined case supplies no independent warrant.",
+  "lean_declaration": "TruthCore.Explanation.SelectionCoverageBoundary.Controls",
+  "definition_ids": [
+    "DEF-ACCEPTED-EXPLANATION-TRUTHFULNESS-POLICY",
+    "DEF-LABELED-CHAIN-ARRANGEMENT",
+    "DEF-ARRANGEMENT-ENTAILING-SELECTION",
+    "DEF-HISTORY-SELECTION-INFORMATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-LABELED-ORDER-EXPLANATION"
+  ]
+}

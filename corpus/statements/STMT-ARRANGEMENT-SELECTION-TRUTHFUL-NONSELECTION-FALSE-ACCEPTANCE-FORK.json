@@ -1,0 +1,14 @@
+{
+  "id": "STMT-ARRANGEMENT-SELECTION-TRUTHFUL-NONSELECTION-FALSE-ACCEPTANCE-FORK",
+  "paraphrase": "Structural coverage: complete entailing selection, some accepted truthful nonselecting candidate, or some accepted false candidate. Explicit-EM coverage, not exclusivity: a judgment may accept both false and truthful nonselecting candidates. No philosophical-school census or actual explanatory adequacy is established.",
+  "lean_declaration": "TruthCore.Explanation.SelectionCoverageBoundary.SelectionTrilemma",
+  "definition_ids": [
+    "DEF-ACCEPTED-EXPLANATION-TRUTHFULNESS-POLICY",
+    "DEF-LABELED-CHAIN-ARRANGEMENT",
+    "DEF-ARRANGEMENT-ENTAILING-SELECTION",
+    "DEF-HISTORY-SELECTION-INFORMATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-LABELED-ORDER-EXPLANATION"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "STMT-NO-NONEMPIRICAL-ESTABLISHED",
+  "paraphrase": "There is no established claim failing empirical establishment, the exact negation of the existing existential under the same epistemic predicates.",
+  "lean_declaration": "TruthCore.Logic.ScientismScopeBoundary.NoNonEmpiricalEstablished",
+  "definition_ids": [
+    "DEF-SCIENTISM-EXACT-NONEMPIRICAL-NEGATIVE"
+  ]
+}

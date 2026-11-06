@@ -1,0 +1,10 @@
+{
+  "id": "THEOLOGICAL-EXCLUSION-REJECTS-CONCILIAR-BRIDGE",
+  "argument_id": "THEOLOGICAL-EXCLUSION-REJECTS-CONCILIAR-BRIDGE",
+  "challenge_module": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Scope.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Scope.Solution",
+  "theorem": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Scope.theologyExclusionRejectsBridge",
+  "comparator_config": "results/THEOLOGICAL-EXCLUSION-REJECTS-CONCILIAR-BRIDGE/comparator.json",
+  "status": "solution-present",
+  "description": "Compose the explicit theological-content/exclusion consequence with the actual-witness conflict. This is the exact normative bridge negation, requiring all three premises; no descriptive label or first-order-life fact alone supplies it."
+}

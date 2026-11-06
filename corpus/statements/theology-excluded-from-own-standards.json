@@ -1,0 +1,14 @@
+{
+  "id": "STMT-THEOLOGY-EXCLUDED-FROM-OWN-STANDARDS",
+  "paraphrase": "Separate substantive exclusion premise: theological formulations are not endorsed by the practice own standards. It does not follow merely from a theological label, a second-order description or from the existence of first-order religious life.",
+  "lean_declaration": "TruthCore.Alternatives.ConciliarGrammarDefinitions.TheologyExcludedFromOwnStandards",
+  "definition_ids": [
+    "DEF-THEOLOGICAL-CONTENT-AND-RELIGIOUS-LIFE-ROLES",
+    "DEF-CONCILIAR-DEFINITION",
+    "DEF-PRACTICE-OWN-STANDARD",
+    "DEF-CORRECT-MOVE-IN-PRACTICE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THEOLOGICAL-FORMULATION-AND-NORMATIVE-GRAMMAR"
+  ]
+}

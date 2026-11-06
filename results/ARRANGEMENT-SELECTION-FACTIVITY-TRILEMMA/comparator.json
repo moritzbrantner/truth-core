@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.SelectionCoverageBoundary.Coverage.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.SelectionCoverageBoundary.Coverage.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Explanation.SelectionCoverageBoundary.Coverage.coverage"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

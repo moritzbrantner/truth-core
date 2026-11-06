@@ -1,0 +1,11 @@
+{
+  "id": "INF-TRUTHFUL-NONSELECTION-DEFEATS-EXACT-SELECTION-TARGET",
+  "input_statement_ids": [
+    "STMT-COMPLETE-CHAIN-EXPLANATION-ALLOWS-UNSELECTED"
+  ],
+  "output_statement_id": "STMT-COMPLETE-ARRANGEMENT-SELECTION-REQUIREMENT-FAILS",
+  "rule": "constructive-proof",
+  "meaning": "Compose the EXISTING truthful-rival checks theorem for exact negation of the SAME old selection target. Retains its actual-truth and distinct-arrangement witnesses; old rival stays full strength.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

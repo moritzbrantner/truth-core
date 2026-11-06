@@ -1,0 +1,32 @@
+{
+  "id": "COMMISSION-GOVERNANCE-CASES-WITH-REMAINDER",
+  "argument_id": "COMMISSION-GOVERNANCE-CASES-WITH-REMAINDER",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Coverage.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Coverage.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Coverage.criterionCoverage",
+  "comparator_config": "results/COMMISSION-GOVERNANCE-CASES-WITH-REMAINDER/comparator.json",
+  "status": "solution-present",
+  "description": "Two explicit EM instances check narrow, teaching-inclusive or neither calibration. Named-only coverage is not established, and no census beyond the existing nine-power profile is claimed.",
+  "transcription": "instantiation",
+  "case_split": {
+    "target_statement_id": "STMT-COMMISSION-GOVERNANCE-INCLUDES-TEACHING",
+    "cases": [
+      {
+        "label": "fixed narrow criterion",
+        "lean_declaration": "TruthCore.Case.Catholicism.StageThree.CommissionDefinitions.NarrowGovernanceCriterion",
+        "statement_id": "STMT-COMMISSION-GOVERNANCE-IS-NARROW"
+      },
+      {
+        "label": "teaching-inclusive criterion",
+        "lean_declaration": "TruthCore.Case.Catholicism.StageThree.CommissionDefinitions.TeachingInclusiveGovernanceCriterion",
+        "statement_id": "STMT-COMMISSION-GOVERNANCE-INCLUDES-TEACHING"
+      },
+      {
+        "label": "further governing-power criterion",
+        "lean_declaration": "TruthCore.Case.Catholicism.StageThree.CommissionDefinitions.AdditionalGovernanceCriterion",
+        "statement_id": "STMT-COMMISSION-HAS-ADDITIONAL-GOVERNANCE-CRITERION"
+      }
+    ],
+    "survival_result_id": "COMMISSION-GOVERNANCE-INTERPRETATION-MODELS"
+  }
+}
