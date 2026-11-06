@@ -9,7 +9,7 @@
   ],
   "output_statement_id": "STMT-EVIL-NAMED-EMOTIVIST-ALTERNATIVES",
   "rule": "constructive-proof",
-  "meaning": "Given the explicit named-use coverage assumption, compose the existing external-emotivism result and eliminate the own-true-premise branch. Internal challenge or affective protest remains. Named coverage is not inferred from an unsuccessful search for alternatives; its finite countermodel is preserved.",
+  "meaning": "Given the explicit named-use coverage assumption, compose the existing external-emotivism result and eliminate the own-true-premise branch. Internal challenge or affective protest remains. Named coverage is not inferred from an unsuccessful search for alternatives; its explicit countermodel is preserved.",
   "assumption_statement_ids": [],
   "discharged_statement_ids": []
 }

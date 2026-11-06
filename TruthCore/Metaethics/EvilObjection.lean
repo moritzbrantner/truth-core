@@ -111,7 +111,7 @@ def TrueInternalReport (c : Critic) (s : Sig) : Prop :=
 attributes, powers and evaluative outcome classifications remain the same. -/
 def WithoutBlockingCosts (s : Sig) : Sig := { s with Cost := fun _ _ _ => False }
 
-/-- Finite controls with certified scope. One critic's truthless moral
+/-- Model controls with certified scope. One critic's truthless moral
 semantics and true descriptive report coexist with a permission-satisfying
 narrow-theist frame and its cost-free variant. Only the cost relation changes;
 the variant has actual gratuitous suffering and a nonvacuous internal challenge.

@@ -32,7 +32,7 @@ same semantics. It does not establish God or falsehood of every rival worldview.
 ```
 
 It is an analyst affective analysis, not a complete historical definition of
-emotivism. It does not entail truthlessness. The finite truth-affective witness
+emotivism. It does not entail truthlessness. The truth-affective witness
 satisfies it while the selected evil sentence is both true and truth-apt. This
 keeps positive expressive meaning distinct from the additional no-truth-value
 commitment. It does not establish robust mind-independent moral truth or a
@@ -65,7 +65,7 @@ three conditions. This is an explicit open proposition. The conditional result
 `EVIL-NAMED-USE-ELIMINATION` takes it as a premise: strict truthlessness excludes
 the own-true-premise branch, leaving internal challenge or protest. Without
 that coverage premise, `EVIL-EMOTIVIST-USE-FORK` leaves the explicit remainder
-as well. The finite remainder witness satisfies the four strict semantic
+as well. The explicit remainder witness satisfies the four strict semantic
 premises while named coverage fails. Search history is not evidence that an
 unlisted use is impossible.
 
@@ -91,12 +91,12 @@ internal criticism can grant these standards hypothetically; asserting that
 an actual theist accepts them or that actual suffering satisfies them needs
 further evidence.
 
-The finite survivor separately models a true, non-moral report of the internal
+The explicit survivor separately models a true, non-moral report of the internal
 conditional. Its non-moral classification and the bridge identifying its
 content with the target conditional are **explicit conjuncts** of the witness,
 not a theorem that every embedded moral conditional is non-moral.
 
-## What the finite comparison certifies
+## What the model comparison certifies
 
 `EVIL-OBJECTION-BOUNDARY-MODELS` exports all of the following properties:
 

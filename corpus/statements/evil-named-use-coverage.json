@@ -1,6 +1,6 @@
 {
   "id": "STMT-EVIL-NAMED-USE-COVERAGE",
-  "paraphrase": "Open coverage proposition for one critic/target interpretation: the critic's own evil premise is true, or the target-internal permission conditional holds, or the utterance expresses disapproval. Unlike coverage with the explicit remainder, this is not assumed exhaustive automatically; its failure has a finite witness.",
+  "paraphrase": "Open coverage proposition for one critic/target interpretation: the critic's own evil premise is true, or the target-internal permission conditional holds, or the utterance expresses disapproval. Unlike coverage with the explicit remainder, this is not assumed exhaustive automatically; its failure has a explicit witness.",
   "lean_declaration": "TruthCore.Metaethics.EvilObjection.NamedUseCoverage",
   "definition_ids": [
     "DEF-EVIL-OBJECTION-CRITIC",
