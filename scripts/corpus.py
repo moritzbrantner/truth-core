@@ -883,7 +883,7 @@ def frontier_report(
     strong version establishes (and closes) the weak one, and a refuted weak
     version refutes the strong one, inside the same least fixpoint; never the
     reverse. The backing argument of a registration is set aside before
-    anything else is computed: it would otherwise close the weak version from
+    closure and route semantics are computed: it would otherwise close the weak version from
     an open strong sibling by rule (a) or (d), circularly where the weak
     version is also a premise of a proof of the strong one."""
     original_arguments, original_results = arguments, results
@@ -898,7 +898,11 @@ def frontier_report(
     # Invariant 16: a transcription closes no frontier node. A conclusion is
     # closed by rule (a) only by a verified result that is not a transcription:
     # neither declared one in its record nor found by the Lean heuristics.
-    kinds = transcription_kinds(results, transcription)
+    # Presentation retains declared kinds even for strength registrations set
+    # aside above. Their arguments/results remain excluded from every closure
+    # and route loop below; display metadata must not turn a heuristic into
+    # the authority merely because the declaration belongs to a registration.
+    kinds = transcription_kinds(original_results, transcription)
     transcription_results = set(kinds)
     verified_conclusions = {
         argument_by_id[result["argument_id"]]["conclusion_statement_id"]

@@ -1,0 +1,13 @@
+{
+  "id": "INF-AQUINAS-ST-I-Q3-A1-FIRST-MOVER-PURE-ACT-ADOPTED-POTENCY",
+  "input_statement_ids": [
+    "STMT-FIRST-UNMOVED-MOVER-IS-FIRST-BEING",
+    "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY",
+    "STMT-CASE-NON-CONTRADICTION"
+  ],
+  "output_statement_id": "STMT-FIRST-UNMOVED-MOVER-IS-PURE-ACT",
+  "rule": "verified-composition",
+  "meaning": "Adopted-potency specialization of AQUINAS-ST-I-Q3-A1-FIRST-MOVER-PURE-ACT: uniformly replace the independent InPotency parameter in EVERY hypothesis by CanBe x r \u2227 \u00ac InAct x r, including act priority, motion, immutability, eternity and the attribute-sufficiency interface wherever present. Compose the unchanged verified generic theorem with ADOPTED-POTENCY-NONOVERLAP from established F1. This removes the generic non-overlap premise only in this explicitly adopted configuration. The original Challenge/result and rival interpretations are retained. No capacity existence or applicability-to-reality premise is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

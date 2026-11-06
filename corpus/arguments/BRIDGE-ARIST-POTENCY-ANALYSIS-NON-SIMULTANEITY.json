@@ -14,7 +14,7 @@
     "DEF-POTENCY",
     "DEF-RESPECT"
   ],
-  "disambiguation_ids": [
+  "disambiguation_ids": ["DISAMB-POTENCY",
     "DISAMB-IN-ACT"
   ]
 }
