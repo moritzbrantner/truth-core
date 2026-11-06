@@ -1,0 +1,8 @@
+{
+  "id": "DEF-THRESHOLD-FULL-BELIEF-POLICY",
+  "term": "probability-threshold full-belief policy and conjunction closure",
+  "definition": "Accepted μ t A means t≤μ.real A for an actual Mathlib measure μ. Substantive applications require normalized probability and0<t≤1. ConjunctionClosed means binary intersections of accepted events are accepted; universal-event acceptance handles the empty conjunction, and finiteness yields finite-intersection closure. This stipulated policy is not the definition of epistemic reasons or independently justified belief.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.ThresholdBelief.Accepted",
+  "note": "Analyst reconstruction for #1063 under #930/#931/#1007, attribution deferred. See docs/notes/epistemic-reasons-930.md. Event selection, actual truth and normative warrant stay distinct."
+}

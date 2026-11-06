@@ -1,0 +1,12 @@
+{
+  "id": "DISAMB-THRESHOLD-BELIEF-REASON-AND-TRUTH",
+  "term": "pro tanto support, threshold full belief, conjunction closure, and actual truth",
+  "resolution": "A consideration favors an attitude without automatically requiring full belief or licensing every favored attitude jointly. The analyst policy accepts an event exactly when its supplied probability reaches a selected threshold. Accepted events are closed under intersection; this is an extra structural requirement, not built into pro tanto reasons. The selected actual sample point belongs to the event, independently of whether the threshold policy selects it. The checked finite constraints concern threshold-selected full beliefs. They do not infer categorical obligation from degree of support, actual truth from probability, logical necessity from probability one, or absence of epistemic reasons from failure of conjunction closure. The incompatible package forces rejection of at least one commitment, not a preferred one. Shared burdens apply only to accounts adopting the same semantics and policies. Bool true and false name sample states; the singleton event {true} is contingent, not the logical tautology True.",
+  "sense_definition_ids": [
+    "DEF-THRESHOLD-FULL-BELIEF-POLICY",
+    "DEF-THRESHOLD-HEAVY-CORE",
+    "DEF-THRESHOLD-FINITE-PROBABILITY-MODELS",
+    "DEF-EPISTEMIC-REASON-ORDINARY-ROLE",
+    "DEF-EPISTEMIC-REASON-THIN-EXISTENCE"
+  ]
+}

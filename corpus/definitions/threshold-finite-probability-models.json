@@ -1,0 +1,8 @@
+{
+  "id": "DEF-THRESHOLD-FINITE-PROBABILITY-MODELS",
+  "term": "finite uniform and skew threshold probability models",
+  "definition": "uniform N is Mathlib ProbabilityTheory.uniformOn of the universal Fin N sample set; meaningful lottery applications explicitly require N>0. skew is the Bool measure (19/20)•dirac true+(1/20)•dirac false; its normalization is proved. The threshold 9/10 survivor may designate false as actuality without changing the measure.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.ThresholdBelief.uniform",
+  "note": "These are genuine Mathlib measures, not free numerical weights or opaque belief atoms. No calibration, metaphysical possibility or historical author reading is asserted."
+}

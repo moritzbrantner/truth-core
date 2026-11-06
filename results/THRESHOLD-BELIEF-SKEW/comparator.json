@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.ThresholdBelief.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ThresholdBelief.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.ThresholdBelief.skewSurvivor"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}
