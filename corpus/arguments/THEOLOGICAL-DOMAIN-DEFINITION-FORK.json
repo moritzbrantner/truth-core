@@ -1,0 +1,28 @@
+{
+  "id": "THEOLOGICAL-DOMAIN-DEFINITION-FORK",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-EMPIRICAL-PROOF-DOMAIN-FORK",
+  "inference_ids": [
+    "INF-THEOLOGICAL-DOMAIN-DEFINITION-FORK"
+  ],
+  "meaning": "Logical coverage transcription under explicit excluded middle: one named domain calibration or a genuine remaining extension. Named philosophical exhaustion remains open.",
+  "definition_ids": [
+    "DEF-SCOPED-PROOF-INQUIRIES",
+    "DEF-THEOLOGICAL-SUBJECT-DEFINITION",
+    "DEF-THEOLOGICAL-PREMISE-DEFINITION",
+    "DEF-THEOLOGICAL-METHOD-DEFINITION",
+    "DEF-PROOF-DOMAIN-COVERAGE",
+    "DEF-EMPIRICAL-OBSERVATION-BARRIER",
+    "DEF-SCOPED-EMPIRICAL-PROOF-DENIAL",
+    "DEF-EMPIRICAL-BARRIER-COVERAGE",
+    "DEF-EMPIRICAL-BEGINNING-QUESTION-CONTROL",
+    "DEF-CONCLUSIVE-VERIFIABILITY",
+    "DEF-TRUTH-CONDITIONAL-LANGUAGE",
+    "DEF-EMPIRICIST-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SCOPED-PROOF-STANDARD-AND-THEOLOGICAL-DOMAIN"
+  ]
+}

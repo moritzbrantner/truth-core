@@ -1,0 +1,11 @@
+{
+  "id": "INF-SCOPED-EMPIRICAL-PROOF-FROM-OBSERVATION-BARRIER",
+  "input_statement_ids": [
+    "STMT-EMPIRICAL-PROOF-SCOPED-BARRIER"
+  ],
+  "output_statement_id": "STMT-EMPIRICAL-PROOF-RESTRICTED-DENIAL",
+  "rule": "constructive-proof",
+  "meaning": "The explicit scoped structural barrier blocks the existing finite-observation proof standard. The imported helper specializes a proposed proof at a satisfiable observation world, then transfers all its observations to a target-false alternative. This is not general theological impossibility.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

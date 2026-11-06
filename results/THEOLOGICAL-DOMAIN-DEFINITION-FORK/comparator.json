@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Coverage.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Coverage.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Coverage.domainFork"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
