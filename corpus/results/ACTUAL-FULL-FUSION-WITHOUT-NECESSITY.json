@@ -1,0 +1,10 @@
+{
+  "id": "ACTUAL-FULL-FUSION-WITHOUT-NECESSITY",
+  "argument_id": "ACTUAL-FULL-FUSION-WITHOUT-NECESSITY",
+  "challenge_module": "TruthCore.Results.Mereology.ActualFusionProfile.Challenge",
+  "solution_module": "TruthCore.Results.Mereology.ActualFusionProfile.Solution",
+  "theorem": "TruthCore.Results.Mereology.ActualFusionProfile.checks",
+  "comparator_config": "results/ACTUAL-FULL-FUSION-WITHOUT-NECESSITY/comparator.json",
+  "status": "solution-present",
+  "description": "Reuse the checked AtomicCertificate on the exact existing Body. In the universal three-world model ExistsAt w x iff x\u2264w, reflexivity supplies population and candidate possibility, transitivity supplies downward actuality, and imported Sum2/IsLUB comparison makes each actual family fusion actual. A candidate cannot lie in both disjoint singleton worlds, so none is necessary. The world object is its greatest actual whole; there is no fixed common actual object. The fixed global whole has an actual singleton part where that whole is absent."
+}

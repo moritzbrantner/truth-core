@@ -1,0 +1,21 @@
+{
+  "id": "STMT-ACTUAL-FULL-FUSION-WITHOUT-NECESSITY",
+  "paraphrase": "One fixed Body interpretation jointly has the existing atomic full remainder/Sum1/Sum2 profile, universal S5 access, every world populated, every candidate possible, downward actuality, all-nonempty actual-family fusion closure, and no necessary individual at any world. Every world has a greatest actual whole but none is common to all worlds; an actual part does not force the fixed global whole actual.",
+  "lean_declaration": "TruthCore.Mereology.ActualFusionProfile.Certificate",
+  "definition_ids": [
+    "DEF-PRINCIPAL-IDEAL-ACTUALITY",
+    "DEF-ACTUAL-FUSION-PROFILE-CERTIFICATE",
+    "DEF-ATOMIC-FUSION-CONTRAST",
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-MEREOLOGICAL-COMPLEMENTATION",
+    "DEF-SUM1-LEAST-UPPER-BOUND",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-ACTUAL-PARTS-AND-CAUSAL-POLICIES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-DOWNWARD-ACTUALITY-AND-FIXED-WHOLE",
+    "DISAMB-SUM1-AND-SUM2-FUSION"
+  ]
+}

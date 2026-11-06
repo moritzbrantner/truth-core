@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PRINCIPAL-IDEAL-ACTUALITY",
+  "term": "principal-ideal world-relative actuality",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Mereology.ActualFusionProfile.model",
+  "definition": "The same Body of nonempty subsets of Bool supplies worlds and candidate objects. Universal access is True; ExistsAt w x means x\u2264w in the unchanged global subset order. Causes is False and supplies no causal availability. Literal identity and blueprint parthood stay fixed; actual parthood additionally guards existence of the whole, which entails actuality of its parts.",
+  "note": "Analyst formulation #1071; attribution deferred. At world {false}, only its singleton object is actual; the global whole is absent despite having that actual part. At world {false,true}, all three candidates are actual. These are abstract object representations, not an assertion that mathematical sets are created/destroyed. Downward actuality follows from order transitivity; upward any-part actuality fails. Fixed parthood is reflexive, antisymmetric and transitive; neither a causal order nor cross-world persistence is inferred. Rival stronger whole-actuality and actual causal bridges remain OPEN; physical/metaphysical applicability is OPEN. See docs/notes/universal-fusion-grounding.md."
+}
