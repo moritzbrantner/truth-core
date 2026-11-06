@@ -1,0 +1,9 @@
+{
+  "id": "INF-GOVERNING-COMPONENT-TEACHING-OMISSION-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-GOVERNING-COMPONENTS-DO-NOT-FORCE-TEACHING-SCOPE",
+  "rule": "constructive-proof",
+  "meaning": "Two nonempty omission controls retain the needed counterpart input while replacing only the original link or historical bundle by its weaker governing-only projection. Teaching scope fails; the old narrow-scope proof genuinely needs more than these projections.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

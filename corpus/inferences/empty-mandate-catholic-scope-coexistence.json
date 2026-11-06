@@ -1,0 +1,9 @@
+{
+  "id": "INF-EMPTY-MANDATE-CATHOLIC-SCOPE-COEXISTENCE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-EMPTY-MANDATE-CATHOLIC-SCOPE-COEXISTENCE",
+  "rule": "constructive-model",
+  "meaning": "A schema model satisfies both raw message-only and Catholic mandate-scope conditionals, explicitly has no being from whom Jesus holds a mandate, and retains actual founding and visibility of the Catholic body. This certifies the precise empty-mandate reason for coexistence, not merely absence of a combined antecedent.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,10 @@
+{
+  "id": "MESSAGE-REPORT-BOUNDARY-CONTROLS",
+  "argument_id": "MESSAGE-REPORT-BOUNDARY-CONTROLS",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Models.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Models.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.messageReportModels",
+  "comparator_config": "results/MESSAGE-REPORT-BOUNDARY-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Reuse the old schema signature/agency, fullCommissioning, and messageRival_compatible_with_mt28. Raw message-only and historical reports coexist without institutional transfer; the link-bearing rival may retain Matthew28. No historical thesis is refuted."
+}

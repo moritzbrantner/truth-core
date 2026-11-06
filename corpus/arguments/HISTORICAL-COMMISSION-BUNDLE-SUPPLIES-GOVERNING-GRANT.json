@@ -1,0 +1,22 @@
+{
+  "id": "HISTORICAL-COMMISSION-BUNDLE-SUPPLIES-GOVERNING-GRANT",
+  "premise_statement_ids": [
+    "STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS"
+  ],
+  "conclusion_statement_id": "STMT-GOVERNING-GRANT-EXISTS",
+  "inference_ids": [
+    "INF-HISTORICAL-COMMISSION-BUNDLE-SUPPLIES-GOVERNING-GRANT"
+  ],
+  "meaning": "Import the existing commission_reports_give_teach_and_governing theorem and project its governing witness; no report/event inference is added.",
+  "definition_ids": [
+    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
+    "DEF-COMMISSION-REPORT-POWERS",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMMISSION-REPORT-AND-EVENT"
+  ],
+  "strong_version_needed": {
+    "STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS": "This sole-premise projection certifies the registered strong-to-weak order; consequence arguments use the needed weak component."
+  }
+}

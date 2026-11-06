@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.StrengthModels.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.StrengthModels.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.governingComponentsDoNotForceTeachingScope"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

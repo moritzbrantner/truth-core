@@ -1,0 +1,12 @@
+{
+  "id": "INF-ACTUAL-MESSAGE-ONLY-REJECTS-CATHOLIC-MANDATE-SCOPE",
+  "input_statement_ids": [
+    "STMT-JESUS-MANDATE-COVERS-ONLY-MESSAGE",
+    "STMT-ACTUAL-MANDATED-CATHOLIC-FOUNDING"
+  ],
+  "output_statement_id": "STMT-CATHOLIC-MANDATE-SCOPE-REJECTED",
+  "rule": "constructive-proof",
+  "meaning": "Reuse FoundingScope.messageRival_excludes_scope with an actual mandate and founded visible Catholic body; the raw conditional alone does not negate the other conditional.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

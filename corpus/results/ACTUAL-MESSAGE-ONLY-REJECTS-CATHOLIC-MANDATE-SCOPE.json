@@ -1,0 +1,10 @@
+{
+  "id": "ACTUAL-MESSAGE-ONLY-REJECTS-CATHOLIC-MANDATE-SCOPE",
+  "argument_id": "ACTUAL-MESSAGE-ONLY-REJECTS-CATHOLIC-MANDATE-SCOPE",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Scope.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Scope.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.actualMessageOnlyRejectsCatholicScope",
+  "comparator_config": "results/ACTUAL-MESSAGE-ONLY-REJECTS-CATHOLIC-MANDATE-SCOPE/comparator.json",
+  "status": "solution-present",
+  "description": "Reuse FoundingScope.messageRival_excludes_scope with an actual mandate and founded visible Catholic body; the raw conditional alone does not negate the other conditional."
+}

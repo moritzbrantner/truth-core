@@ -1,0 +1,13 @@
+{
+  "id": "STMT-GOVERNING-EVENT-INSTITUTION-LINK",
+  "paraphrase": "Weak institutional transfer: whenever Jesus holds a mandate and founded the Catholic Church as a visible authoritative body, his giving or promising some power in the unchanged governing table entails founding that body in the mandate. No teaching-commission consequence is asserted.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.MessageReportBoundary.GoverningEventInstitutionLink",
+  "definition_ids": [
+    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
+    "DEF-COMMISSION-REPORT-POWERS",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMMISSION-REPORT-AND-EVENT"
+  ]
+}
