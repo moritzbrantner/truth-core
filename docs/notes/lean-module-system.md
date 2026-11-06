@@ -202,8 +202,8 @@ noisy; the first measured build after a seed took 1,308 s for the same 519 modul
 
 After wave 2 the rebuilt set is the hub, the generated aggregators that import it
 transitively, and the root: the aggregators are the only non-module library files left.
-Converting them (`root_imports.py` emitting `module` + `public import`) would reduce a
-proof-only edit to the hub alone.
+Converting them (`root_imports.py` emitting `module` + `public import`) reduces a
+proof-only edit to the hub alone (below).
 
 **Wave 1** (levels 0–2, 385 files, including the four hubs). Manual cases:
 
@@ -244,6 +244,26 @@ module). Manual cases:
 - Operational note: do not change sources while `lake build` runs. Lake hashes a file before
   Lean reads it, so an edit (or `git stash`/checkout) in between leaves outputs that do not
   match their traces; Lake then replays them as fresh. A clean rebuild of `.lake/build/lib/lean/TruthCore` fixes it.
+
+**Module aggregators** (#986, last step). `scripts/root_imports.py` now emits an area's
+aggregator as a module (`module`, `public import`) once every file of the area is a module,
+and the root `TruthCore.lean` once every aggregator is one; an area with an ordinary file keeps
+an ordinary aggregator. Challenges are not imported by aggregators and stay ordinary. With
+every area converted, all 62 aggregators and the root are modules. Measured with the same
+no-op `skip` edits (warm build, shared machine; wall times very noisy):
+
+| Hub (proof edit) | Before: rebuilt / wall | After: rebuilt / wall |
+| --- | --- | --- |
+| `Modal.Kripke` | 33 / 99 s | 1 / 7 s |
+| `Logic.ExcludedMiddle` | 26 / 1,008 s (machine under load) | 1 / 4 s |
+
+Verification: full `lake build`; `TruthCoreConstants.lean` lists the same 16,368 NanoDa roots
+from the module root as from the ordinary one (empty diff); bind-check 1032 bound, 2 pinned,
+0 mismatch; Comparator passes for `GROUNDING-NECESSITATION-INCOMPATIBLE` (uses
+`Modal.axiomK_valid`) and `MODAL-STANDARD-CORRESPONDENCE-CERTIFICATE`; scoped NanoDa over
+`Modal.Kripke`, `Logic.ExcludedMiddle` and `GroundingBaseline.Solution` passes. Negative
+control: a `sorry` in `axiomK_valid` makes `verify-result.sh GROUNDING-NECESSITATION-INCOMPATIBLE`
+fail (`illegal axiom detected: sorryAx`).
 
 ## Decision points
 

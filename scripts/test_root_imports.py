@@ -94,6 +94,49 @@ class GenerateTest(unittest.TestCase):
             ri.write(self.root, AREAS)
         self.assertTrue((self.root / "TruthCore/Imports/Mine.lean").exists())
 
+    def test_fully_converted_area_gets_a_module_aggregator(self):
+        module = "module\n\n@[expose] public section\ntheorem t : True := trivial\n"
+        for relative in ("Latin/B.lean", "Latin/A/C.lean"):
+            touch(self.root, "TruthCore/" + relative, "-- leading comment\n" + module)
+        ri.write(self.root, AREAS)
+        self.assertEqual(
+            (self.root / "TruthCore/Imports/Latin.lean").read_text(),
+            ri.HEADER + "module\n\npublic import TruthCore.Latin.A.C\npublic import TruthCore.Latin.B\n",
+        )
+        # Other areas still hold ordinary files: their aggregators and the root stay ordinary.
+        self.assertFalse((self.root / "TruthCore/Imports/Greek/NewTestament.lean").read_text().count("module"))
+        self.assertTrue((self.root / "TruthCore.lean").read_text().startswith(ri.HEADER + "import "))
+        self.assertEqual(ri.check(self.root, AREAS), [])
+
+    def test_one_ordinary_file_keeps_its_area_ordinary(self):
+        touch(self.root, "TruthCore/Latin/B.lean", "module\n\ntheorem t : True := trivial\n")
+        ri.write(self.root, AREAS)
+        self.assertEqual(
+            (self.root / "TruthCore/Imports/Latin.lean").read_text(),
+            ri.HEADER + "import TruthCore.Latin.A.C\nimport TruthCore.Latin.B\n",
+        )
+
+    def test_root_is_a_module_once_every_area_is(self):
+        module = "module\n\ntheorem t : True := trivial\n"
+        for relative in ("Latin/B.lean", "Latin/A/C.lean", "Greek/NewTestament/Mark.lean",
+                         "Results/Case/Catholicism/R/Solution.lean"):
+            touch(self.root, "TruthCore/" + relative, module)
+        ri.write(self.root, AREAS)
+        self.assertEqual(
+            (self.root / "TruthCore.lean").read_text(),
+            ri.HEADER
+            + "module\n\n"
+            + "public import TruthCore.Imports.Greek.NewTestament\n"
+            + "public import TruthCore.Imports.Latin\n"
+            + "public import TruthCore.Imports.Results.Case\n",
+        )
+        # The ordinary Challenge is not imported, so it does not block its area.
+        self.assertTrue((self.root / "TruthCore/Imports/Results/Case.lean").read_text().startswith(ri.HEADER + "module\n"))
+        # Converting back one file is reported as stale.
+        touch(self.root, "TruthCore/Latin/B.lean")
+        changed, _ = ri.stale(self.root, AREAS)
+        self.assertEqual(sorted(changed), ["TruthCore.lean", "TruthCore/Imports/Latin.lean"])
+
     def test_hand_edit_is_reported(self):
         ri.write(self.root, AREAS)
         path = self.root / "TruthCore/Imports/Latin.lean"
