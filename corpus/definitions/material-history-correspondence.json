@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MATERIAL-HISTORY-CORRESPONDENCE",
+  "term": "existence and constituent preserving history correspondence",
+  "definition": "Correspondence compares the chosen enduring history with history b: for every represented time and bearer label it preserves existence, and for every token it preserves constituent membership. Enduring false is the statue and true the lump; both have the Unit token initially, only the lump later. These are openly stipulated numerical persistence judgments. The map neither asserts ontological equivalence nor identifies enduring bearers with temporal parts.",
+  "basis": "stipulative",
+  "note": "Analyst reconstruction, attribution deferred (#1075). Physical, modal and persistence applicability remain OPEN. See docs/notes/material-constitution-scope.md.",
+  "lean_declaration": "TruthCore.Mereology.MaterialConstitutionScope.Correspondence"
+}
