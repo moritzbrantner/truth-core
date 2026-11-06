@@ -1,0 +1,18 @@
+{
+  "id": "OCCASIONALIST-CANDIDATE-ENVELOPE-TO-ACTUAL-COUNTERTUPLE",
+  "premise_statement_ids": [
+    "STMT-MOVED-WITHOUT-POTENCY"
+  ],
+  "conclusion_statement_id": "STMT-ACTUAL-MOVED-NOT-POTENT-COUNTERTUPLE",
+  "inference_ids": [
+    "INF-OCCASIONALIST-CANDIDATE-ENVELOPE-TO-ACTUAL-COUNTERTUPLE"
+  ],
+  "meaning": "Projection transcription of only the existing candidate Lean envelope into the precise analyst countertuple. The old source/candidate paraphrase includes a re-creation story not encoded by that envelope; no reverse implication or derivation of the full historical view is claimed.",
+  "definition_ids": [
+    "DEF-MEGARIAN-MOVED-POTENCY-INTERPRETATION-BOUNDARY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION",
+    "DISAMB-POTENCY"
+  ]
+}

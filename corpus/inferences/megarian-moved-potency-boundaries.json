@@ -1,0 +1,9 @@
+{
+  "id": "INF-MEGARIAN-MOVED-POTENCY-BOUNDARIES",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-MEGARIAN-MOVED-POTENCY-BOUNDARY-CONTROLS",
+  "rule": "constructive-proof",
+  "meaning": "Reuse the old finite Megarian models without changing their fields, extending only InPotency. Check actual-motion and interpretation omissions, the guarded negative branch and strictness of the weaker analysis.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

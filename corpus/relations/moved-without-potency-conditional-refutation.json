@@ -1,0 +1,9 @@
+{
+  "id": "REL-MOVED-WITHOUT-POTENCY-CONDITIONAL-REFUTATION",
+  "subject_kind": "argument",
+  "subject_id": "MOVED-WITHOUT-POTENCY-NEGATES-UNIVERSAL",
+  "predicate": "refutes",
+  "object_kind": "statement",
+  "object_id": "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
+  "note": "Exact conditional countertuple contradiction; its countertuple premise remains OPEN and no original premise is independently refuted."
+}
