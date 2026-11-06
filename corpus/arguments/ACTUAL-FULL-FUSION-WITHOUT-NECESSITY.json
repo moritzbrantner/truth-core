@@ -1,0 +1,25 @@
+{
+  "id": "ACTUAL-FULL-FUSION-WITHOUT-NECESSITY",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-ACTUAL-FULL-FUSION-WITHOUT-NECESSITY",
+  "inference_ids": [
+    "INF-ACTUAL-FULL-FUSION-WITHOUT-NECESSITY"
+  ],
+  "meaning": "Reuse the checked AtomicCertificate on the exact existing Body. In the universal three-world model ExistsAt w x iff x\u2264w, reflexivity supplies population and candidate possibility, transitivity supplies downward actuality, and imported Sum2/IsLUB comparison makes each actual family fusion actual. A candidate cannot lie in both disjoint singleton worlds, so none is necessary. The world object is its greatest actual whole; there is no fixed common actual object. The fixed global whole has an actual singleton part where that whole is absent.",
+  "definition_ids": [
+    "DEF-PRINCIPAL-IDEAL-ACTUALITY",
+    "DEF-ACTUAL-FUSION-PROFILE-CERTIFICATE",
+    "DEF-ATOMIC-FUSION-CONTRAST",
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-MEREOLOGICAL-COMPLEMENTATION",
+    "DEF-SUM1-LEAST-UPPER-BOUND",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-ACTUAL-PARTS-AND-CAUSAL-POLICIES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-DOWNWARD-ACTUALITY-AND-FIXED-WHOLE",
+    "DISAMB-SUM1-AND-SUM2-FUSION"
+  ]
+}
