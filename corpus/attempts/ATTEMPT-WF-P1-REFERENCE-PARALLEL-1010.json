@@ -1,0 +1,18 @@
+{
+  "id": "ATTEMPT-WF-P1-REFERENCE-PARALLEL-1010",
+  "statement_ids": [
+    "STMT-GOD-NAMES-NO-BEING-WF-P1",
+    "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE",
+    "STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS",
+    "STMT-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD"
+  ],
+  "date": "2026-11-06",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Owner request (2026-11-05): a typed reference relation and the Dei Filius ch. 1 / can. I.1 parallel against the WF-P1 reconstruction. NamingPractice adds names, a practice-use reference relation and referential confession to the fideism Practice. Certified: with can. I.1 (stated) and the definition bridge (open), internal grammar + grammar-fixed reference + no-being is inconsistent; WF-P1 escapes by rejecting grammar-fixed reference (certified model). Link schemas show the rival conflicts with the nominal-identification leaves exactly where a being fits their descriptions. The rival is therefore not refuted: the defeat is conditional on two open bridges and binds only a fideist holding WF-P2's reference thesis. Rejected: identifying the practice-use reference with the leaves' proper-sense application (kept apart in DISAMB-NAME-APPLICATION).",
+  "evidence": [
+    "FIDEIST-REFERENCE-BUNDLE-FAILS-FOR-CATHOLIC-PRACTICE",
+    "VATICAN-I-DEI-FILIUS-CAN-I-1-ONE-TRUE-GOD"
+  ],
+  "blocker": "To refute WF-P1 itself, an argument would need either grammar-fixed reference as an established premise or another route from the practice's correct confession to reference; and STMT-CONCILIAR-DEFINITION-IS-PRACTICE-OWN-STANDARD would have to be established."
+}

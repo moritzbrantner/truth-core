@@ -1,0 +1,10 @@
+{
+  "id": "FIDEIST-REFERENCE-BUNDLE-FAILS-FOR-CATHOLIC-PRACTICE",
+  "argument_id": "FIDEIST-REFERENCE-BUNDLE-FAILS-FOR-CATHOLIC-PRACTICE",
+  "challenge_module": "TruthCore.Results.Alternatives.FideismReference.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.FideismReference.Solution",
+  "theorem": "TruthCore.Results.Alternatives.FideismReference.fideistReferenceBundleFails",
+  "comparator_config": "results/FIDEIST-REFERENCE-BUNDLE-FAILS-FOR-CATHOLIC-PRACTICE/comparator.json",
+  "status": "solution-present",
+  "description": "Derived, not a transcription: the proof chains the defined confession through the definition bridge and internality to a correct move, and through grammar-fixed reference to a referent that the reconstruction denies. Countermodels needsCouncil and needsDefinitionIsOwnStandard show the premises are needed; noBeingSurvivesWithoutGrammarFixedReference certifies WF-P1's escape. The two link theorems are one-step schemas relating the rival to the leaves. Conditional; no refutes relation. Zero axioms."
+}

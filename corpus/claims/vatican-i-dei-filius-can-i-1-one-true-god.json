@@ -1,0 +1,13 @@
+{
+  "id": "VATICAN-I-DEI-FILIUS-CAN-I-1-ONE-TRUE-GOD",
+  "statement_id": "STMT-DEI-FILIUS-CONFESSES-ONE-TRUE-GOD",
+  "source_id": "VATICAN-I-DEI-FILIUS",
+  "locator": "can. I.1, Si quis unum verum Deum visibilium et invisibilium Creatorem et Dominum negaverit; anathema sit",
+  "interpretation": "Canon I.1: 'Si quis unum verum Deum visibilium et invisibilium Creatorem et Dominum negaverit; anathema sit.' Read as: the council defines, condemning its denial, the confession that there is one true God, creator and lord; that confession uses the name 'God' to say that there is a being it names (DEF-CONFESSES-REFERENT). Canon I.3 (God's substance is not one and the same with that of all things) and ch. 1 ('re et essentia a mundo distinctus') add that the being is distinct from the world; they are not needed for the premise. That the confession, if correct, makes the name refer is not stated here: it is the open bridge STMT-GRAMMAR-FIXES-REFERENCE.",
+  "status": "formalized",
+  "attribution": "The passage states that whoever denies the one true God, creator and lord of things visible and invisible, is anathema, which is the premise that the council defines, condemning its denial, the confession that there is one true God whom the name 'God' names.",
+  "definition_ids": [
+    "DEF-CONFESSES-REFERENT",
+    "DEF-CONCILIAR-DEFINITION"
+  ]
+}

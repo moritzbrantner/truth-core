@@ -1,7 +1,12 @@
 {
   "id": "STMT-GOD-NAMES-NO-BEING-WF-P1",
-  "paraphrase": "Open thesis, unattributed reconstruction of WF-P1: in religious use the name 'God' applies to no being; worship is the whole of what 'God' is used in, and there is no object for the name to denote. Stronger than Phillips's reported remark that praising and glorifying does not refer to some object called God (STMT-PHILLIPS-GOD-TALK-NOT-REFERENCE-TO-AN-OBJECT), which concerns the activity of praise and is recorded only as support.",
+  "paraphrase": "Open thesis, unattributed reconstruction of WF-P1: in religious use the name 'God' applies to no being; worship is the whole of what 'God' is used in, and there is no object for the name to denote. Stronger than Phillips's reported remark that praising and glorifying does not refer to some object called God (STMT-PHILLIPS-GOD-TALK-NOT-REFERENCE-TO-AN-OBJECT), which concerns the activity of praise and is recorded only as support. Typed (#1010): in the practice's use the name refers to no being (NamingPractice.RefersTo), the practice-use sense of application kept apart from the proper sense of the nominal-definition leaves by DISAMB-NAME-APPLICATION.",
   "definition_ids": [
+    "DEF-NAME-REFERS-IN-PRACTICE",
     "DEF-WITTGENSTEINIAN-FIDEISM"
+  ],
+  "lean_declaration": "TruthCore.Alternatives.FideismReference.GodNamesNoBeingReading",
+  "disambiguation_ids": [
+    "DISAMB-NAME-APPLICATION"
   ]
 }

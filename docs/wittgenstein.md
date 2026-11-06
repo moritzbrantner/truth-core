@@ -379,6 +379,40 @@ every recorded rival refuted from established premises. That means refuting the
 two replies above, which today are met only by stated texts. Both bridges stay
 open, and that is the honest result.
 
+### The reference parallel: *Dei Filius* ch. 1 and can. I.1 against WF-P1
+
+The owner asked for a typed reference relation (2026-11-05).
+`TruthCore.Alternatives.FideismReference.NamingPractice` extends the practice
+with names, a practice-use reference relation `RefersTo`
+(`DEF-NAME-REFERS-IN-PRACTICE`), and referential confession `ConfessesReferent`
+(`DEF-CONFESSES-REFERENT`). The WF-P1 reconstruction now has a Lean form:
+`GodNamesNoBeingReading`, `∀ b, ¬ RefersTo god b`.
+
+`FIDEIST-REFERENCE-BUNDLE-FAILS-FOR-CATHOLIC-PRACTICE` takes two premises:
+
+- can. I.1, stated: the council defines the confession of "unum verum Deum ...
+  Creatorem et Dominum";
+- the definition bridge (a), open.
+
+From them it derives that internal grammar, grammar-fixed reference and the
+no-being reconstruction cannot all hold. Grammar-fixed reference
+(`STMT-GRAMMAR-FIXES-REFERENCE`) is WF-P2's thesis in typed form: open,
+supported by late Phillips and PU §373.
+
+What the result does not do:
+
+- **It does not refute WF-P1 as such.** `noBeingSurvivesWithoutGrammarFixedReference`
+  certifies WF-P1's escape: a fideist who rejects grammar-fixed reference keeps
+  internal grammar and no-being together with the council and the bridge. The
+  parallel binds only a fideist who holds both internal grammar and WF-P2's
+  reference thesis.
+- **The senses stay apart.** The leaves use the proper-sense application of the
+  name (`DEF-GOD-NOMINAL-Q13`); the rival uses practice-use reference
+  (`DISAMB-NAME-APPLICATION`). The link theorems `noBeingExcludesFullDescription`
+  and `noBeingExcludesUniquePureActFirstMover` instantiate the leaves' predicate
+  with practice-use reference only as a schema. On that schema, the rival
+  conflicts with each leaf exactly where some being fits its description.
+
 ### Rival entries on route leaves
 
 - `STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE` (12 of 12 routes): rival
@@ -389,9 +423,9 @@ open, and that is the honest result.
 - `STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE` (9 routes),
   `STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS` (1), `STMT-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD`
   (3): rival `STMT-GOD-NAMES-NO-BEING-WF-P1`, the unattributed reconstruction of
-  WF-P1, which Phillips's reported remark only supports. Unrefuted.
-  The parallel argument from *Dei Filius* ch. 1 and canons I.1-3 (God a
-  substance really distinct from the world) needs a typed reference relation.
+  WF-P1, which Phillips's reported remark only supports. Unrefuted. The
+  *Dei Filius* ch. 1 / can. I.1 parallel is now built (section above): it is
+  conditional, and WF-P1 escapes it by rejecting grammar-fixed reference.
 
 No route cost changes: the leaves were already open, and none had a floor
 marking.
