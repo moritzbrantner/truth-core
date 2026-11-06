@@ -394,8 +394,10 @@ reply: those Rom 1 speaks of are idolaters, and the Platonists are pagans.
 
 **Bridge (b) is still not closed.** No text states it in the bridge's form.
 Several speak of practical reason (Rom 2, ST q.91, q.94), or of God's showing
-(Rom 1, Augustine). q.94 a.4 itself implies that God's existence is not a
-common principle equally known to all. Under #999, closing the bridge would
+(Rom 1, Augustine). q.94 a.4 does not say whether God's existence is a common
+principle or a proper conclusion. If it is a proper conclusion (a further,
+unstated premise), the article gives only that it is true for all, not that it
+is equally known. Under #999, closing the bridge would
 need it established, which means refuting the horizon reply from established
 premises.
 
