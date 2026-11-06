@@ -1,0 +1,23 @@
+{
+  "id": "SUM1-COMPLEMENTATION-RIVALS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-SUM1-COMPLEMENTATION-RIVALS",
+  "inference_ids": [
+    "INF-SUM1-COMPLEMENTATION-RIVALS"
+  ],
+  "meaning": "The same JoinRival jointly satisfies strong supplementation and every nonempty-family Sum1, while its top join of a,b contains a third disjoint atom and no Sum2 of a,b exists. Its missing top-minus-atom exact remainder refutes complementation. AtomPair jointly satisfies exact complementation but has no upper bound, hence neither Sum1 nor Sum2, for its pair. Both orders lack a null object. The all-family assertion is proved for arbitrary Sets, not merely sample families. This does not certify actual physical or metaphysical possibilities.",
+  "definition_ids": [
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-MEREOLOGICAL-COMPLEMENTATION",
+    "DEF-SUM1-LEAST-UPPER-BOUND",
+    "DEF-SUM1-FUSION-COMPARISON",
+    "DEF-SUM1-COMPLEMENTATION-RIVALS",
+    "DEF-MEREOLOGICAL-SUPPLEMENTATION",
+    "DEF-OVERLAP-EXTENSIONAL-PARTHOOD"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SUM1-AND-SUM2-FUSION",
+    "DISAMB-EXACT-REMAINDER-AND-SUPPLEMENT"
+  ]
+}

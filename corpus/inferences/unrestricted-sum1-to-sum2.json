@@ -1,0 +1,12 @@
+{
+  "id": "INF-UNRESTRICTED-SUM1-TO-SUM2",
+  "input_statement_ids": [
+    "STMT-MEREOLOGICAL-COMPLEMENTATION",
+    "STMT-NONEMPTY-UNRESTRICTED-SUM1"
+  ],
+  "output_statement_id": "STMT-NONEMPTY-UNRESTRICTED-SUM2",
+  "rule": "typed-partial-order-exact-remainder-and-join",
+  "meaning": "For each supplied nonempty family, take its supplied least upper bound and apply the checked pointwise comparison. This connects actual Sum1 witnesses to the existing Sum2 predicate, rather than assuming the resulting Sum2 witnesses. Exact complementation and all-nonempty Sum1 formation remain open framework commitments.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
