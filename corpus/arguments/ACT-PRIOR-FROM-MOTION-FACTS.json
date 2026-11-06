@@ -14,7 +14,7 @@
     "DEF-FIRST-BEING",
     "DEF-PURE-ACT"
   ],
-  "disambiguation_ids": [
+  "disambiguation_ids": ["DISAMB-POTENCY",
     "DISAMB-MOTION",
     "DISAMB-IN-ACT",
     "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"

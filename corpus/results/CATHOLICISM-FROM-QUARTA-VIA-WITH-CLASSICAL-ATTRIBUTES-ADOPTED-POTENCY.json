@@ -1,0 +1,10 @@
+{
+  "id": "CATHOLICISM-FROM-QUARTA-VIA-WITH-CLASSICAL-ATTRIBUTES-ADOPTED-POTENCY",
+  "argument_id": "CATHOLICISM-FROM-QUARTA-VIA-WITH-CLASSICAL-ATTRIBUTES-ADOPTED-POTENCY",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.AdoptedPotency.FromQuartaViaWithClassicalAttributes.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.AdoptedPotency.FromQuartaViaWithClassicalAttributes.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.AdoptedPotency.FromQuartaViaWithClassicalAttributes.catholicismFromQuartaViaWithClassicalAttributes",
+  "comparator_config": "results/CATHOLICISM-FROM-QUARTA-VIA-WITH-CLASSICAL-ATTRIBUTES-ADOPTED-POTENCY/comparator.json",
+  "status": "solution-present",
+  "description": "Adopted-potency specialization of CATHOLICISM-FROM-QUARTA-VIA-WITH-CLASSICAL-ATTRIBUTES: uniformly replace the independent InPotency parameter in EVERY hypothesis by CanBe x r \u2227 \u00ac InAct x r, including act priority, motion, immutability, eternity and the attribute-sufficiency interface wherever present. Compose the unchanged verified generic theorem with ADOPTED-POTENCY-NONOVERLAP from established F1. This removes the generic non-overlap premise only in this explicitly adopted configuration. The original Challenge/result and rival interpretations are retained. No capacity existence or applicability-to-reality premise is established."
+}
