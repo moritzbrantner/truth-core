@@ -1,0 +1,9 @@
+{
+  "id": "INF-FINITE-OBSERVATION-INSUFFICIENCY-WITHOUT-FIBER-BARRIER",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-EMPIRICAL-PROOF-FINITARY-CONTROL",
+  "rule": "constructive-proof",
+  "meaning": "Compose existing raven-law nonverification with complete observation discrimination. Finite proof insufficiency persists without global observation indistinguishability, giving a genuine additional barrier and failure of its proposed coverage.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

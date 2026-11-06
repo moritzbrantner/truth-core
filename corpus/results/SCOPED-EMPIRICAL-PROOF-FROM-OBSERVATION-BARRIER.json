@@ -1,0 +1,10 @@
+{
+  "id": "SCOPED-EMPIRICAL-PROOF-FROM-OBSERVATION-BARRIER",
+  "argument_id": "SCOPED-EMPIRICAL-PROOF-FROM-OBSERVATION-BARRIER",
+  "challenge_module": "TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Scoped.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Scoped.Solution",
+  "theorem": "TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Scoped.restrictedFromBarrier",
+  "comparator_config": "results/SCOPED-EMPIRICAL-PROOF-FROM-OBSERVATION-BARRIER/comparator.json",
+  "status": "solution-present",
+  "description": "The explicit scoped structural barrier blocks the existing finite-observation proof standard. The imported helper specializes a proposed proof at a satisfiable observation world, then transfers all its observations to a target-false alternative. This is not general theological impossibility."
+}

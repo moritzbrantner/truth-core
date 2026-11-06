@@ -1,0 +1,10 @@
+{
+  "id": "FINITE-OBSERVATION-INSUFFICIENCY-WITHOUT-FIBER-BARRIER",
+  "argument_id": "FINITE-OBSERVATION-INSUFFICIENCY-WITHOUT-FIBER-BARRIER",
+  "challenge_module": "TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Finitary.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Finitary.Solution",
+  "theorem": "TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Finitary.finitary",
+  "comparator_config": "results/FINITE-OBSERVATION-INSUFFICIENCY-WITHOUT-FIBER-BARRIER/comparator.json",
+  "status": "solution-present",
+  "description": "Compose existing raven-law nonverification with complete observation discrimination. Finite proof insufficiency persists without global observation indistinguishability, giving a genuine additional barrier and failure of its proposed coverage."
+}

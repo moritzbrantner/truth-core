@@ -1,0 +1,8 @@
+{
+  "id": "DEF-EMPIRICAL-BARRIER-COVERAGE",
+  "term": "exhaustiveness of the proposed empirical barrier",
+  "definition": "BarrierExplainsAll says every empirically unprovable target in scope has ObservationBarrier. This is OPEN. AdditionalRelevantBarrier supplies an unprovable scoped target without that barrier and opposes that coverage, not the restricted-unprovability claim.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.ScopedEmpiricalProofBarrier.BarrierExplainsAll",
+  "note": "Analyst formulation; attribution deferred. Source STMT-WORLD-BEGINNING-NOT-DEMONSTRABLE and Hume verdict meanings remain separate. See docs/notes/scoped-empirical-proof-barrier.md."
+}
