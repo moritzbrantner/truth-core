@@ -1,0 +1,11 @@
+{
+  "id": "INF-GOD-NAME-COEXTENSION-PRESERVES-PROPER-REFERENCE",
+  "input_statement_ids": [
+    "STMT-GOD-NAME-SHARED-REFERENCE-EXTENSION"
+  ],
+  "output_statement_id": "STMT-PROPER-REFERENCE-PRESERVED",
+  "rule": "constructive-proof",
+  "meaning": "Project the proper-to-practice direction of each shared-extension equivalence. This registers the strong-to-weak comparison; no identity of meanings is inferred.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

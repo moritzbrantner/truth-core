@@ -1,0 +1,11 @@
+{
+  "id": "STMT-NOTHING-CHANGES-IN-GENERAL",
+  "paraphrase": "No candidate changes in the SAME general Changes sense used by F3: no characteristic, quality or relation changes. Exact analyst complement, not merely absence of A-series change, motion-as-reduction or a historical McTaggart/Parmenides doctrine.",
+  "lean_declaration": "TruthCore.Observation.ChangeRivalCoverage.NoChange",
+  "definition_ids": [
+    "DEF-CHANGE-GENERAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CHANGE-A-SERIES"
+  ]
+}

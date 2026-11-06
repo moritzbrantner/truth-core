@@ -1,0 +1,9 @@
+{
+  "id": "REL-IMMEDIATE-READING-FAILURE-ALTERNATIVE-TO-DIRECT-CALIBRATION",
+  "subject_kind": "statement",
+  "subject_id": "STMT-DIVINE-FOUNDING-IMMEDIATE-READING-FAILS",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-DIVINE-FOUNDING-IS-IMMEDIATE-ONLY",
+  "note": "Exact contextual negation of the direct-only calibration in one supplied signature/agency/direct relation. It does not refute immediate founding universally or identify the inclusive interpretation as exhaustive."
+}

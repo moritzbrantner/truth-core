@@ -1,0 +1,10 @@
+{
+  "id": "DIVINE-FOUNDING-DEFINITION-MODELS",
+  "argument_id": "DIVINE-FOUNDING-DEFINITION-MODELS",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Models.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Models.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Models.definitionModels",
+  "comparator_config": "results/DIVINE-FOUNDING-DEFINITION-MODELS/comparator.json",
+  "status": "solution-present",
+  "description": "Five explicit finite controls reuse the old DivineFounding modelSig/modelAgency and stage-antecedent theorem. Overlap, each named-only branch and genuinely different extensions are witnessed. The two remainder witnesses yield opposite old-bridge verdicts; immediate-only does not by itself force falsity. Exported model properties are exactly the listed conjunctions, not historical or metaphysical truth."
+}

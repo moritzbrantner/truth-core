@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Alternatives.NameApplicationTransfer.FullNaming.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.NameApplicationTransfer.FullNaming.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Alternatives.NameApplicationTransfer.FullNaming.noReferenceRejectsFullNaming"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

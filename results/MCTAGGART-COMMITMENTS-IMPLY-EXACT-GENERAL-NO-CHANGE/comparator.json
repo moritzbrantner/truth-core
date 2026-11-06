@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Observation.ChangeRivalCoverage.BundleStrength.Challenge",
+  "solution_module": "TruthCore.Results.Observation.ChangeRivalCoverage.BundleStrength.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Observation.ChangeRivalCoverage.BundleStrength.bundleStrength"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

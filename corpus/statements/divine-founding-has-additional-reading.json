@@ -1,0 +1,15 @@
+{
+  "id": "STMT-DIVINE-FOUNDING-HAS-ADDITIONAL-READING",
+  "paraphrase": "For the fixed semantic profile, founded-as-teaching-authority coextends with neither named direct-only nor Jesus-envoy-inclusive criterion. This precise remaining reading concerns extensions rather than a new name or alias; it does not itself determine whether the old envoy bridge holds.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.FoundingDefinitions.AdditionalFoundingReading",
+  "definition_ids": [
+    "DEF-PRINCIPAL-ACT-FOUNDING-READING",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+    "DEF-FOUNDED-BY-GOD-IMMEDIATELY",
+    "DEF-GOD-OF-CLASSICAL-THEISM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FOUNDED-BY-GOD",
+    "DISAMB-GOD"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "REL-LOST-PROPER-REFERENCE-ALTERNATIVE-TO-PRESERVATION",
+  "subject_kind": "statement",
+  "subject_id": "STMT-PROPER-REFERENCE-LOST",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-PROPER-REFERENCE-PRESERVED",
+  "note": "Actual counterexample to one-way preservation in the fixed profile; not another named reference theory. Explicit EM proves the structural coverage result."
+}

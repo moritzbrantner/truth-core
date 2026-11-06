@@ -1,0 +1,24 @@
+{
+  "id": "EXCLUSIVE-IMMEDIATE-FOUNDING-ENTAILS-DIRECT-CALIBRATION",
+  "premise_statement_ids": [
+    "STMT-DIVINE-FOUNDING-IS-EXCLUSIVE-IMMEDIATE"
+  ],
+  "conclusion_statement_id": "STMT-DIVINE-FOUNDING-IS-IMMEDIATE-ONLY",
+  "inference_ids": [
+    "INF-EXCLUSIVE-IMMEDIATE-FOUNDING-ENTAILS-DIRECT-CALIBRATION"
+  ],
+  "meaning": "Strength-order comparison: the exclusive Jesus-scope reading includes the minimal direct calibration. Operational calibration and positive elimination use the weaker reading; the contradiction needs the extra exclusion.",
+  "definition_ids": [
+    "DEF-PRINCIPAL-ACT-FOUNDING-READING",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+    "DEF-FOUNDED-BY-GOD-IMMEDIATELY",
+    "DEF-GOD-OF-CLASSICAL-THEISM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FOUNDED-BY-GOD",
+    "DISAMB-GOD"
+  ],
+  "strong_version_needed": {
+    "STMT-DIVINE-FOUNDING-IS-EXCLUSIVE-IMMEDIATE": "This certificate registers the strong-to-weak implication."
+  }
+}

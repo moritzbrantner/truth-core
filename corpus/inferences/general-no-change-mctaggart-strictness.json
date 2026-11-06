@@ -1,0 +1,9 @@
+{
+  "id": "INF-GENERAL-NO-CHANGE-MCTAGGART-STRICTNESS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-GENERAL-NO-CHANGE-MCTAGGART-STRICTNESS-CONTROL",
+  "rule": "constructive-proof",
+  "meaning": "Populated finite strictness control: no general change need not include McTaggart1908 appearance commitments. Not actual ontology or an endorsement inside the modeled carrier.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

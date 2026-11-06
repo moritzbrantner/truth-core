@@ -50,7 +50,7 @@ premises, and premise 3 is what gives the mandate its founding content.
 | God may confirm by signs what is false (or signs are not testimony) | 2 | rejected by classical theism; open as a premise |
 | God ratified the message, not an institution: the mandate does not cover founding a society with teaching authority | 3 | **decisive fork**; open |
 | The eleven were commissioned, but the society in the antecedent is not that commissioned body (founding by disciples, local churches) | 3 (universal scope) | open; Lumen gentium §23 particular/universal distinction applies |
-| An authorized envoy's act is his own; only immediate divine institution is God's founding | 4 | `DISAMB-FOUNDED-BY-GOD`: a modelling choice (*per Filium* fits both senses; the Signature does not identify Jesus with God); the immediate-only sense makes 4 false |
+| An authorized envoy's act is his own; only immediate divine institution is God's founding | 4 | `DISAMB-FOUNDED-BY-GOD`: a modelling choice (*per Filium* fits both senses; the Signature does not identify Jesus with God); the strict exclusion needs a nonempty commissioned-event witness to contradict 4; minimal direct calibration alone can admit or reject it |
 
 **Decisive fork.** Premise 3. Premises 1 and 2 concern only Jesus'
 mandate, and premise 4 only what follows once a founding is done in a
@@ -414,3 +414,65 @@ is no newly advertised mechanically verified consequence or frontier closure.
 
 Resolved convention source revision:
 `c104800c7aaeaea12d56f9093e71bdef6a2ce6fa`.
+
+
+## Competing founding definitions (analyst reconstruction, 2026-11-06)
+
+`FoundingDefinitions` calibrates the existing primitive founding predicate
+against a direct-act relation. `ImmediateOnlyReading` says its extension is
+exactly direct founding; `EnvoyInclusiveReading` says its extension is direct
+founding or the existing commissioned Jesus-envoy event. These are independent
+propositions, not changes to the old root signature or historical claims.
+The event requires founding in the mandate and commissioning to teach; it does
+not itself assert `HoldsMandate`, which the original envoy bridge never assumed.
+
+`DIVINE-FOUNDING-DEFINITION-CASES` checks I or E or neither using the existing
+excluded-middle premise. The remainder means neither named calibration fits
+this fixed principal/Jesus/society/teaching profile. It is not a rival to the
+envoy bridge: an interpretation outside both calibrations may still satisfy
+that bridge. `STMT-DIVINE-FOUNDING-NAMED-READINGS-COVER` is the additional,
+**open** proposition that one of the two named extensions fits. Given that
+coverage and a refutation of I, `FOUNDING-BRIDGE-FROM-NAMED-READING-ELIMINATION`
+selects E and composes its consequence, the original envoy bridge. This does
+not establish coverage or the refutation. Extension coverage neither identifies
+philosophical theories nor claims to exhaust all possible vocabulary profiles.
+
+`IMMEDIATE-FOUNDING-ENVOY-CALIBRATION` shows precisely why the earlier blanket
+claim that the immediate reading makes the envoy bridge false was too strong.
+Under minimal I the bridge holds iff every commissioned Jesus-envoy event is
+also a direct act of its principal. `ExclusiveImmediateReading` adds the
+opposite, restricted to that event. It strengthens I, as the checked
+`EXCLUSIVE-IMMEDIATE-FOUNDING-ENTAILS-DIRECT-CALIBRATION` records; with a
+nonempty event it yields the bridge's negation by
+`EXCLUSIVE-IMMEDIATE-FOUNDING-REJECTS-ENVOY-BRIDGE`. The added exclusion is an
+analyst formulation of a stronger reading, not a consequence of the direct
+calibration or a full formalization of excluding every creature. The signature
+does not force Jesus to be distinct from its divine principal. A mediated act
+may also be an own act under an identity interpretation, so deriving the
+exclusion from the word “immediate” alone was rejected.
+
+`JESUS-ENVOY-FOUNDING-EVENT-FROM-ATTESTED-CONTEXT` supplies the nonemptiness
+witness from the five old stage antecedents plus attestation, veracity and the
+universal scope premise. It preserves their open status. The stronger scope is
+needed here to cover the arbitrary society witness; substituting the existing
+Catholic-only scope would additionally need the stage-6 identity.
+
+`DIVINE-FOUNDING-DEFINITION-MODELS` reuses the old schema signature, agency and
+antecedent proofs. Five controls witness I/E overlap with an envoy event; I
+alone with the bridge false; E alone with the bridge true; neither with the
+bridge true; and neither with a nonempty event and the bridge false. Thus the
+remainder is substantive and the named cases need not be exclusive. These are
+interpretations of the existing schema, not histories of Christianity or
+independent models of the full classical-attribute theory. A charter made by a
+principal and a charter enacted through a representative illustrate the
+calibrations; whether the intended divine acts instantiate them remains open.
+
+The computed frontier comparison against c83f89f2 reports 89 open reaching-root
+premises becoming 91, with bare 29 to 32, supported 18 to 17 and stated 42
+unchanged. Cheapest route cost stays 31. The three new bare inputs are E,
+named coverage and failure of I; the old envoy statement gains a conditional
+proved-but-unestablished route. This is configuration progress, not independent
+defense, no-bare-relocation progress or root closure. Further work must either
+defend a calibration/coverage within a specified profile, provide a distinct
+relevant calibration, or resolve the historical mandate/body scope. Previously
+verified source readings and claims above retain their exact content.

@@ -15,11 +15,13 @@
       "ARIST-PHYS-185A-NATURAL-MOTION-ASSUMPTION-A"
     ],
     "sceptical_rival_ids": [
-      "STMT-MCTAGGART-UNREALITY-OF-TIME"
+      "STMT-MCTAGGART-UNREALITY-OF-TIME",
+      "STMT-NOTHING-CHANGES-IN-GENERAL"
     ],
     "disagreement": {
       "rival_statement_ids": [
-        "STMT-MCTAGGART-UNREALITY-OF-TIME"
+        "STMT-MCTAGGART-UNREALITY-OF-TIME",
+        "STMT-NOTHING-CHANGES-IN-GENERAL"
       ],
       "claim_ids": [
         "SEP-FIDEISM-4-HINGES-NON-PROPOSITIONAL-A",
@@ -32,6 +34,6 @@
       "decision": "https://github.com/moritzbrantner/truth-core/issues/1007#issuecomment-6661672293",
       "date": "2026-11-05"
     },
-    "note": "Floor item F3 (#1007), approved by the owner on the observation basis; the approval plus that basis is the evidence, so no stating text is pinned (owner, 2026-11-05). Closest texts, recorded as supporting justifications: Aquinas, ST I q.2 a.3 (aliqua moveri, sensu constat) and Aristotle, Physics I.2, 185a12-14 (some natural things move, evident by induction). Both state motion, not change in this general sense: identifying motion or Aristotle's μεταβολή with McTaggart's 'change' is a reading step no source states (TruthCore.Alternatives.McTaggart). Recorded rival: McTaggart's 1908 bundle, defeated by consequence against F3 (MCTAGGART-BUNDLE-DEFEATED-BY-CHANGE); his later reply that appearers do not change is compatible with F3 and is not defeated. Parmenides' denial of change (fr. 8) is not recorded as a rival yet: it waits for a pinned witness."
+    "note": "Floor item F3 (#1007), approved by the owner on the observation basis; the approval plus that basis is the evidence, so no stating text is pinned (owner, 2026-11-05). Closest texts, recorded as supporting justifications: Aquinas, ST I q.2 a.3 (aliqua moveri, sensu constat) and Aristotle, Physics I.2, 185a12-14 (some natural things move, evident by induction). Both state motion, not change in this general sense: identifying motion or Aristotle's μεταβολή with McTaggart's 'change' is a reading step no source states (TruthCore.Alternatives.McTaggart). Recorded rival: McTaggart's 1908 bundle, defeated by consequence against F3 (MCTAGGART-BUNDLE-DEFEATED-BY-CHANGE); his later reply that appearers do not change is compatible with F3 and is not defeated. Parmenides' denial of change (fr. 8) is not recorded as a rival yet: it waits for a pinned witness. Definition-fork audit adds a precise analyst no-general-change complement, without attributing it to Parmenides or changing approval. A checked consequence from both existing source commitments shows the sourced McTaggart1908 bundle is stronger; refuting only that bundle does not exhaust generic no-change accounts. Structural coverage under explicit EM is registered separately."
   }
 }

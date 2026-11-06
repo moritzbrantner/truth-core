@@ -84,6 +84,7 @@ public import TruthCore.Causality.PossibleCausalSourceNecessity
 public import TruthCore.Causality.PossibleCauseOfContingency
 public import TruthCore.Causality.PowerExistenceBoundary
 public import TruthCore.Causality.RegressReadings
+public import TruthCore.Causality.RegressRivalCoverage
 public import TruthCore.Causality.RootEssenceIdentity
 public import TruthCore.Causality.RootIntellectWill
 public import TruthCore.Causality.RootIntellectWillOmission

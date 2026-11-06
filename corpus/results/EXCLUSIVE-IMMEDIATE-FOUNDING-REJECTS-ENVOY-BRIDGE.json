@@ -1,0 +1,10 @@
+{
+  "id": "EXCLUSIVE-IMMEDIATE-FOUNDING-REJECTS-ENVOY-BRIDGE",
+  "argument_id": "EXCLUSIVE-IMMEDIATE-FOUNDING-REJECTS-ENVOY-BRIDGE",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Exclusive.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Exclusive.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Exclusive.exclusiveImmediateRejectsEnvoy",
+  "comparator_config": "results/EXCLUSIVE-IMMEDIATE-FOUNDING-REJECTS-ENVOY-BRIDGE/comparator.json",
+  "status": "solution-present",
+  "description": "With a real God-candidate/Jesus-envoy event, the old bridge would give target founding, immediate calibration would give direct founding, and the extra exclusion denies it. Both extra scope and nonvacuity remain explicit; the weaker calibration permits the opposite verdict."
+}

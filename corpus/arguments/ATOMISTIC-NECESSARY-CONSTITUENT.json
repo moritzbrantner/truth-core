@@ -40,5 +40,8 @@
     "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
     "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
     "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY"
-  ]
+  ],
+  "strong_version_needed": {
+    "STMT-CAUSES-HAVE-ACTUAL-ENDPOINTS-AT": "The old source-consumer needs actuality of a causer of its selected actualGraph source, whose identity is obtained from the atomistic source theorem. The new weak policy concerns a separately supplied spacetime whole and does not constrain that source without an additional identification. Frozen interface retained; no claim that both endpoints or every unrelated edge are minimal."
+  }
 }
