@@ -1,0 +1,15 @@
+{
+  "id": "STMT-RECOGNITION-ANSWERS-TO-SHARED-REASON",
+  "paraphrase": "Separate open bridge: a correct recognition move concerning a God candidate in an admitted situation answers to standards of reason shared with outsiders in that same situation. Correctness alone does not entail sharedness.",
+  "lean_declaration": "TruthCore.Alternatives.RevelationRecognition.RecognitionAnswersToSharedReason",
+  "definition_ids": [
+    "DEF-REVELATION-RECOGNITION-PROFILE",
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-WITTGENSTEINIAN-FIDEISM",
+    "DEF-NATURAL-REASON-SHARED"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REVELATION-CAPABILITY-AND-PRACTICE-UPTAKE",
+    "DISAMB-PRACTICE-SENSITIVITY-AND-FIDEIST-INSULATION"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "STMT-ACTUAL-CUT-OFF-PERSISTS-TO-ADMISSIBLE",
+  "paraphrase": "Open modal-scope bridge: if the distinguished actual practice has the original sharp cut-off property, all selected admitted practices have it. This additional persistence is needed to transfer an actual-practice rival against a capability claim.",
+  "lean_declaration": "TruthCore.Alternatives.RevelationRecognition.CutOffPersistsToAdmissible",
+  "definition_ids": [
+    "DEF-REVELATION-RECOGNITION-PROFILE",
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-WITTGENSTEINIAN-FIDEISM",
+    "DEF-NATURAL-REASON-SHARED"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REVELATION-CAPABILITY-AND-PRACTICE-UPTAKE",
+    "DISAMB-PRACTICE-SENSITIVITY-AND-FIDEIST-INSULATION"
+  ]
+}

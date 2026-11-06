@@ -8,11 +8,19 @@
   "date": "2026-11-06",
   "kind": "derivation",
   "outcome": "failed",
-  "summary": "Rejected the reading that negating UniverseHasExistingCause entails UniverseUncaused. U is existential over an existing cause, whereas UniverseUncaused excludes all incoming causal edges. Counterexample from review 4492957391: only the spacetime whole exists and is a spacetime part; a nonexisting concrete candidate c has the sole causal edge c \u2192 whole. N1, N2, no self-causation, whole-to-part, containment and the weak causal-concreteness floor item hold, but UniverseUncaused is false. The prose now claims only no existing cause. The existing survivor certificate independently witnesses the stronger uncaused-whole position; it does not turn that position into a consequence of negating U. No theorem, Challenge or premise is changed.",
+  "summary": "Rejected the reading that negating UniverseHasExistingCause entails UniverseUncaused. U is existential over an existing cause, whereas UniverseUncaused excludes all incoming causal edges. Counterexample from review 4492957391: only the spacetime whole exists and is a spacetime part; a nonexisting concrete candidate c has the sole causal edge c → whole. N1, N2, no self-causation, whole-to-part, containment and the weak causal-concreteness floor item hold, but UniverseUncaused is false. The prose now claims only no existing cause. The existing survivor certificate independently witnesses the stronger uncaused-whole position; it does not turn that position into a consequence of negating U. No theorem, Challenge or premise is changed.\n\nDefinition/scope follow-up: UniverseUncaused excludes all candidate edges, while UniverseHasExistingCause requires causer actuality. Reuse existing full endpoint-actuality policy, weaken it to selected-whole-causer actuality and expose the exact positive witness transport. Keep the strongest raw brute-universe alternative, add exact no-existing-cause complement and checked existing/no-edge/only-absent-causers trilemma under explicit EM. Endpoint actuality removes the third generic case; it is not silently built into Ontic. Three finite populated assignments test the scope distinction, with the absent-edge model expressly outside the intended actuality policy and no claim of metaphysical possibility. Eight checked results, all old Challenges/source meanings preserved. See docs/notes/universe-cause-scope-boundary.md.",
   "evidence": [
     "CAUSED-UNIVERSE-REFUTES-N2",
     "NATURALIST-UNCAUSED-UNIVERSE-SURVIVOR",
-    "PR-1117"
+    "PR-1117",
+    "CAUSAL-ENDPOINT-ACTUALITY-STRENGTHENS-WHOLE-CAUSER-ACTUALITY",
+    "UNIVERSE-EXISTING-CAUSE-FROM-CANDIDATE-CAUSE-AND-ACTUALITY",
+    "UNIVERSE-NO-CAUSE-STRENGTHENS-NO-EXISTING-CAUSE",
+    "ABSENT-ONLY-UNIVERSE-CAUSERS-IMPLY-NO-EXISTING-CAUSE",
+    "ABSENT-ONLY-UNIVERSE-CAUSERS-DEFEAT-ACTUALITY-POLICY",
+    "UNIVERSE-CAUSAL-ACTUALITY-SCOPE-TRILEMMA",
+    "UNIVERSE-CAUSED-UNCAUSED-FORK-UNDER-ACTUALITY",
+    "UNIVERSE-CAUSE-ACTUALITY-SCOPE-BOUNDARIES"
   ],
   "blocker": "The stronger inference needs an explicit causal-endpoint existence premise; it is not added to the argument."
 }

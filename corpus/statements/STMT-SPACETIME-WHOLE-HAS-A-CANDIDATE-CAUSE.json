@@ -1,0 +1,9 @@
+{
+  "id": "STMT-SPACETIME-WHOLE-HAS-A-CANDIDATE-CAUSE",
+  "paraphrase": "Some supplied candidate has an Ontic.Causes edge to the selected spacetime whole at the selected world. This generic-signature assertion does not already assert causer actuality, a beginning, necessity, distinctness, or sufficient explanation.",
+  "lean_declaration": "TruthCore.Ontology.UniverseCauseScopeBoundary.HasSomeCause",
+  "definition_ids": [
+    "DEF-UNIVERSE-CAUSER-ACTUALITY-SCOPE",
+    "DEF-SPATIOTEMPORAL-FRAME"
+  ]
+}

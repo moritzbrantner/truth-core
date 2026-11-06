@@ -1,0 +1,12 @@
+{
+  "id": "INF-UNIVERSE-EXISTING-CAUSE-FROM-CANDIDATE-CAUSE-AND-ACTUALITY",
+  "input_statement_ids": [
+    "STMT-SPACETIME-WHOLE-HAS-A-CANDIDATE-CAUSE",
+    "STMT-SELECTED-WHOLE-CAUSERS-ACTUALLY-EXIST"
+  ],
+  "output_statement_id": "STMT-UNIVERSE-HAS-EXISTING-CAUSE",
+  "rule": "constructive-proof",
+  "meaning": "Explicit witness/actuality transport to the EXACT old UniverseHasExistingCause. A bare candidate edge does not smuggle in its causer actual existence.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

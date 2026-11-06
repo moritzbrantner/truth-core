@@ -1,0 +1,9 @@
+{
+  "id": "REL-FURTHER-CAUSAL-COUNTERACCOUNT-CONDITIONAL-REFUTATION",
+  "subject_kind": "argument",
+  "subject_id": "FURTHER-CAUSAL-COUNTERACCOUNT-DEFEATS-NAMED-COVERAGE",
+  "predicate": "refutes",
+  "object_kind": "statement",
+  "object_id": "STMT-NAMED-PRODUCTIVE-CAUSAL-COUNTERACCOUNTS-COVER",
+  "note": "Exact checked conditional contradiction under the registered explicit premises, which remain OPEN. Neither the original approved commitment nor a coverage hypothesis is independently refuted by this registration."
+}

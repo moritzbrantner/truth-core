@@ -1,0 +1,11 @@
+{
+  "id": "INF-REVELATION-CALIBRATION-ENTAILS-REALIZATION",
+  "input_statement_ids": [
+    "STMT-RECOGNITION-CAPACITY-DEFINITION"
+  ],
+  "output_statement_id": "STMT-RECOGNIZABLE-CAPACITY-REALIZED",
+  "rule": "constructive-proof",
+  "meaning": "The full calibration implies its forward realization direction, pointwise on God candidates. This assembly transcription registers strength; capability-conflict arguments use the weaker realization.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

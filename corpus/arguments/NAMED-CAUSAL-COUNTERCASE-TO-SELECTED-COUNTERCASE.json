@@ -1,0 +1,18 @@
+{
+  "id": "NAMED-CAUSAL-COUNTERCASE-TO-SELECTED-COUNTERCASE",
+  "premise_statement_ids": [
+    "STMT-NAMED-PRODUCTIVE-ABSTRACT-CAUSAL-CASES"
+  ],
+  "conclusion_statement_id": "STMT-SELECTED-NO-ESSE-CAUSAL-COUNTERCASE",
+  "inference_ids": [
+    "INF-NAMED-CAUSAL-COUNTERCASE-TO-SELECTED-COUNTERCASE"
+  ],
+  "meaning": "Case elimination preserves the selected no-esse productive witness from each named branch.",
+  "definition_ids": [
+    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ]
+}

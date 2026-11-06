@@ -1,0 +1,14 @@
+{
+  "id": "STMT-MATHEMATICAL-RELEVANCE-COUNTS-AS-PRODUCTIVE-CAUSATION",
+  "paraphrase": "OPEN one-way interpretation bridge: relevance of a supplied mathematical fact to an outcome counts as productive Ontic.Causes at the selected world. Explanation alone is not silently identified with production.",
+  "lean_declaration": "TruthCore.Causality.CausalConcreteRivalBoundary.RelevanceIsProductive",
+  "definition_ids": [
+    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE",
+    "DEF-CONCRETE-ESSE-IN-RE",
+    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ]
+}

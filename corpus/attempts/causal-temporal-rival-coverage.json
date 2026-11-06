@@ -1,0 +1,27 @@
+{
+  "id": "ATTEMPT-CAUSAL-TEMPORAL-RIVAL-COVERAGE",
+  "date": "2026-11-06",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "statement_ids": [
+    "STMT-SOMETHING-CHANGES",
+    "STMT-MCTAGGART-UNREALITY-OF-TIME",
+    "STMT-NOTHING-CHANGES-IN-GENERAL",
+    "STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES",
+    "STMT-INFINITE-PER-SE-CAUSE-SERIES",
+    "STMT-PAST-IS-INFINITE",
+    "STMT-PAST-IS-FINITE",
+    "STMT-TERTIA-VIA-STEP-RESTS-ON-QUANTIFIER-SHIFT",
+    "STMT-TERTIA-VIA-STEP-RESTS-ON-PLENITUDE"
+  ],
+  "summary": "Rival-coverage audit reuses the exact old McTaggart bundle refutation, old classical regress coincidence theorem and existing temporal pointwise predecessor/first-time predicates. Four general-change results separate exact no-change from the stronger appearance-bearing source bundle, register their AND-premise consequence, structural coverage and inhabited strictness. The F3 observation approval is unchanged. One regress result composes the old Mathlib classical-choice theorem into explicit WF-or-actual-descending-series coverage; cycles/repeated members are allowed, no distinct-cause or real-world application claim. One temporal result checks exact first-time/predecessor coverage under explicit EM without order/physical chronology assumptions. The raw quantifier-shift-versus-plenitude historical reading edge becomes attacks: falsity of one reading does not establish the other or a complete source-reading census. No source claim or frozen Challenge is changed; independent source-fidelity attribution remains deferred. Research boundaries, actual-record own-floor counterfactual and remaining explanation-factivity gap are in docs/notes/causal-temporal-rival-coverage.md. Theory-bundle binding expands the McTaggart hypothesis into its two existing commitment IDs; the actual argument therefore exposes both AND inputs. Rejected an alias to evade that expansion and removed the attempted sole-premise strengthens registration. Exact checked Lean proof unchanged; no source or theorem statement weakened.",
+  "evidence": [
+    "MCTAGGART-COMMITMENTS-IMPLY-EXACT-GENERAL-NO-CHANGE",
+    "EXACT-GENERAL-NO-CHANGE-NEGATES-F3",
+    "GENERAL-CHANGE-EXACT-COMPLEMENT-FORK",
+    "GENERAL-NO-CHANGE-MCTAGGART-STRICTNESS",
+    "PER-SE-REGRESS-ACCESSIBILITY-SERIES-COVERAGE",
+    "PAST-PREDECESSOR-FIRST-TIME-COVERAGE"
+  ],
+  "blocker": "The actual general-change, causal-regress and physical temporal interpretations remain framework inputs; no chosen branch or root premise is independently established. Regress coverage uses the existing approved classical-choice mathematics, not constructive completeness. Historical passage-to-inference interpretation and exhaustive source-reading admissibility remain unencoded."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "PAST-PREDECESSOR-FIRST-TIME-COVERAGE",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-PAST-PREDECESSOR-OR-FIRST-TIME-FORK",
+  "inference_ids": [
+    "INF-PAST-PREDECESSOR-FIRST-TIME-COVERAGE"
+  ],
+  "meaning": "Exact old pointwise predecessor/first-time coverage under explicit excluded middle; neither ordering axioms nor temporal actuality or cardinal finiteness are smuggled in.",
+  "definition_ids": [
+    "DEF-TEMPORAL-EXISTENCE-BEGINNING"
+  ]
+}

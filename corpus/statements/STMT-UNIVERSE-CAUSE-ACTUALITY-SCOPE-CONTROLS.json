@@ -1,0 +1,9 @@
+{
+  "id": "STMT-UNIVERSE-CAUSE-ACTUALITY-SCOPE-CONTROLS",
+  "paraphrase": "Three exact populated two-role assignments: an edge from an absent candidate to an existing whole makes no-existing-cause true but no-edge false and violates selected causer actuality; the SAME edge with both roles existing satisfies existing cause and the old full endpoint policy; a populated no-edge assignment satisfies full endpoint actuality vacuously and has no existing cause. The first is outside the intended actuality policy, not actual productive causation or metaphysical possibility.",
+  "lean_declaration": "TruthCore.Ontology.UniverseCauseScopeBoundary.Controls",
+  "definition_ids": [
+    "DEF-UNIVERSE-CAUSER-ACTUALITY-SCOPE",
+    "DEF-SPATIOTEMPORAL-FRAME"
+  ]
+}

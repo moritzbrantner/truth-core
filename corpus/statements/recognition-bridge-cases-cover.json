@@ -1,0 +1,15 @@
+{
+  "id": "STMT-RECOGNITION-BRIDGE-CASES-COVER",
+  "paraphrase": "Either capability is realized correctly in an admitted situation and recognition is outsider-shared, or admitted realization fails, or the shared-recognition bridge fails. Explicit EM covers these structural bridge tests, not named philosophical theories.",
+  "lean_declaration": "TruthCore.Alternatives.RevelationRecognition.RecognitionBridgeCasesCover",
+  "definition_ids": [
+    "DEF-REVELATION-RECOGNITION-PROFILE",
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-WITTGENSTEINIAN-FIDEISM",
+    "DEF-NATURAL-REASON-SHARED"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REVELATION-CAPABILITY-AND-PRACTICE-UPTAKE",
+    "DISAMB-PRACTICE-SENSITIVITY-AND-FIDEIST-INSULATION"
+  ]
+}

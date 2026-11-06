@@ -1,0 +1,8 @@
+{
+  "id": "STMT-COLLECTIVE-POSSIBILITY-OR-PRECISE-COUNTERCASE",
+  "paraphrase": "For every supplied presence/possibility profile, the original collective conditional holds or the precise individually-possible/joint-impossible countercase holds. Checked structural coverage under explicit excluded middle, not exhaustion of historical interpretations.",
+  "lean_declaration": "TruthCore.Logic.CollectivePossibilityRouteBoundary.CollectiveFork",
+  "definition_ids": [
+    "DEF-COLLECTIVE-POSSIBILITY-LOCAL-PROOF-ROUTE"
+  ]
+}

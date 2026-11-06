@@ -1,0 +1,9 @@
+{
+  "id": "STMT-UNIVERSE-EXISTING-CAUSE-NO-CAUSE-ABSENT-CAUSERS-TRILEMMA",
+  "paraphrase": "Structural trilemma on the SAME generic Ontic/world/whole: an existing cause, no candidate causal edge, or at least one candidate causal edge but no existing cause. Checked coverage under explicit excluded middle, not a philosophical-theory census.",
+  "lean_declaration": "TruthCore.Ontology.UniverseCauseScopeBoundary.CauseScopeTrilemma",
+  "definition_ids": [
+    "DEF-UNIVERSE-CAUSER-ACTUALITY-SCOPE",
+    "DEF-SPATIOTEMPORAL-FRAME"
+  ]
+}

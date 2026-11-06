@@ -1,0 +1,11 @@
+{
+  "id": "PRODUCTIVE-SET-COUNTERCASE-FROM-EXPLICIT-CLASSIFICATION",
+  "argument_id": "PRODUCTIVE-SET-COUNTERCASE-FROM-EXPLICIT-CLASSIFICATION",
+  "challenge_module": "TruthCore.Results.Causality.CausalConcreteRivals.SetCounter.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CausalConcreteRivals.SetCounter.Solution",
+  "theorem": "TruthCore.Results.Causality.CausalConcreteRivals.SetCounter.setCounter",
+  "comparator_config": "results/PRODUCTIVE-SET-COUNTERCASE-FROM-EXPLICIT-CLASSIFICATION/comparator.json",
+  "status": "solution-present",
+  "description": "Guarded interpretation transcription: selected set cause plus explicit no-esse classification supply the countercase.",
+  "transcription": "instantiation"
+}
