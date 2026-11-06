@@ -1,0 +1,41 @@
+{
+  "snapshot": {
+    "source_id": "JUSTIN-APOLOGIA-SECUNDA",
+    "edition_urn": "urn:cts:greekLit:tlg0645.tlg002.perseus-grc2",
+    "language": "grc",
+    "repository": "OpenGreekAndLatin/First1KGreek",
+    "revision": "ed91552c52530c8f5a3ddf2dd767e899372a804c",
+    "path": "data/tlg0645/tlg002/tlg0645.tlg002.perseus-grc2.xml",
+    "git_blob_sha": "7973091f909542858cc92fc4cf7fb90a82c2eed3",
+    "source_url": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/ed91552c52530c8f5a3ddf2dd767e899372a804c/data/tlg0645/tlg002/tlg0645.tlg002.perseus-grc2.xml",
+    "license": "CC BY-SA 4.0 (TEI licence statement in the file)"
+  },
+  "passages": [
+    {
+      "id": "JUSTIN-2APOL-7",
+      "locator": "2 Apol. textpart 7 (common numbering 8)",
+      "claim_locator_prefixes": [
+        "textpart 7"
+      ],
+      "cts_path": [
+        {
+          "subtype": "chapter",
+          "n": "7"
+        }
+      ]
+    },
+    {
+      "id": "JUSTIN-2APOL-13",
+      "locator": "2 Apol. textpart 13 (common numbering 13)",
+      "claim_locator_prefixes": [
+        "textpart 13"
+      ],
+      "cts_path": [
+        {
+          "subtype": "chapter",
+          "n": "13"
+        }
+      ]
+    }
+  ]
+}

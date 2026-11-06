@@ -1,0 +1,28 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "AUGUSTINE-DE-CIVITATE-DEI",
+    "source_url": "https://www.thelatinlibrary.com/augustine/civ8.shtml",
+    "retrieved_at": "2026-11-06T09:30:00Z",
+    "sha256": "sha256:202d74a67ef7b1196ec34a6c7319633306bddd5ea8c16b9b75ad1be4f60336bf",
+    "encoding": "utf-8",
+    "language": "lat",
+    "license": "Public-domain Latin text (Augustine, d. 430) as hosted by The Latin Library; the site states no licence for its transcriptions and names no edition. No Wayback fallback: web.archive.org refused connections from the pinning environment. Only hashes, locators and a short incipit are committed. Two fetches on 2026-11-06 gave identical bytes."
+  },
+  "passages": [
+    {
+      "id": "AUGUSTINE-CD-VIII",
+      "locator": "book VIII (whole book)",
+      "claim_locator_prefixes": [
+        "VIII."
+      ],
+      "html_selector": {
+        "from": {
+          "text": "AUGUSTINI DE CIVITATE DEI LIBER VIII"
+        }
+      },
+      "text_sha256": "sha256:098e6a856e924962438829116e051b17b6f01d88b3f1b6f1611d0786e2777e13",
+      "incipit": "AUGUSTINI DE CIVITATE DEI LIBER VIII\n[I] Nunc intentiore nobis opus est animo"
+    }
+  ]
+}
