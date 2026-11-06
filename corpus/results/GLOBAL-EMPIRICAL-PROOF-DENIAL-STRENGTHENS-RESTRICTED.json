@@ -1,0 +1,11 @@
+{
+  "id": "GLOBAL-EMPIRICAL-PROOF-DENIAL-STRENGTHENS-RESTRICTED",
+  "argument_id": "GLOBAL-EMPIRICAL-PROOF-DENIAL-STRENGTHENS-RESTRICTED",
+  "challenge_module": "TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Strength.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Strength.Solution",
+  "theorem": "TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Strength.strength",
+  "comparator_config": "results/GLOBAL-EMPIRICAL-PROOF-DENIAL-STRENGTHENS-RESTRICTED/comparator.json",
+  "status": "solution-present",
+  "description": "Logical strength instantiation: global finite-observation proof denial implies its restriction to an independently supplied scope. The control refutes the converse. No historical global skeptic or proof standard adoption.",
+  "transcription": "instantiation"
+}

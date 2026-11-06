@@ -1,0 +1,23 @@
+{
+  "id": "MEANING-CALIBRATION-TO-VERIFICATION-PRINCIPLE",
+  "premise_statement_ids": [
+    "STMT-MEANING-CALIBRATION"
+  ],
+  "conclusion_statement_id": "STMT-VERIFICATION-PRINCIPLE",
+  "inference_ids": [
+    "INF-MEANING-CALIBRATION-TO-VERIFICATION-PRINCIPLE"
+  ],
+  "meaning": "Full calibration entails the existing one-way principle; the reverse fails in the nontrivial analytic-only control. No criterion is adopted.",
+  "definition_ids": [
+    "DEF-MEANING-CRITERION-CALIBRATION",
+    "DEF-MEANING-V1-DEFINITION",
+    "DEF-MEANING-V2-DEFINITION",
+    "DEF-MEANING-V3-DEFINITION",
+    "DEF-MEANING-ALL-IN-SCOPE",
+    "DEF-MEANING-NAMED-COVERAGE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-VERIFICATIONIST-MEANINGFUL",
+    "DISAMB-MEANING-DEFINITION-CALIBRATIONS"
+  ]
+}

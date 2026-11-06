@@ -1,0 +1,8 @@
+{
+  "id": "DEF-EMPIRICAL-OBSERVATION-BARRIER",
+  "term": "observation-indistinguishability barrier",
+  "definition": "Every world making the target true has a world making it false with exactly the same truth verdicts for every observation sentence. This structural relation blocks finite satisfiable observation premises from entailing the target. It is a candidate barrier for one empirical standard, not theological:=unverifiable.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.ScopedEmpiricalProofBarrier.ObservationBarrier",
+  "note": "Analyst formulation; attribution deferred. Source STMT-WORLD-BEGINNING-NOT-DEMONSTRABLE and Hume verdict meanings remain separate. See docs/notes/scoped-empirical-proof-barrier.md."
+}

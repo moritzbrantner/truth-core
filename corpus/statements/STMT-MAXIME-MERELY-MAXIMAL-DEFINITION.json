@@ -1,0 +1,13 @@
+{
+  "id": "STMT-MAXIME-MERELY-MAXIMAL-DEFINITION",
+  "paraphrase": "OPEN calibration: independently supplied Maxime holds exactly for the existing IsMaximumIn merely-maximal predicate at the selected perfection. That predicate forbids any greater candidate under its supplied MoreIn relation, including unguarded candidates.",
+  "lean_declaration": "TruthCore.Causality.MaximumDefinitionFork.MaximalDefinition",
+  "definition_ids": [
+    "DEF-MAXIMUM-CALIBRATION-PROFILE",
+    "DEF-MAXIMUM-IN-A-PERFECTION",
+    "DEF-GREATEST-DEGREE-IN-A-PERFECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MAXIME-ENS"
+  ]
+}

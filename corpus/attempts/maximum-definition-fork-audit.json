@@ -1,0 +1,20 @@
+{
+  "id": "ATTEMPT-MAXIMUM-DEFINITION-FORK-AUDIT",
+  "statement_ids": [
+    "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS",
+    "STMT-GREATEST-DEGREE-IN-GENUS-CAUSES-ALL-IN-GENUS",
+    "STMT-MAXIMAL-SELECTED-BEARERS-HAVE-GREATEST-DEGREE"
+  ],
+  "date": "2026-11-06",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Inspected exact old IsMaximumIn, source GreatestDegreeBearer, directedMaximalIsGreatest homogeneous-scale result, and old MaximumOrder controls before adding a weaker selected-perfection interface. Six checked results connect the existing greatest-degree causal premise to the exact old selected-esse causal principle through explicit representation and local directedness, retaining named definition/coverage/Other branches. Rejected assuming totality from MoreIn, identifying tied degrees with one bearer, using the stronger homogeneous partial-order uniqueness theorem unnecessarily, reading all merely-maximal causation as directly sourced, and taking incomparable vacuity as refutation of greatest-degree causation. Incomparable/tied/remainder finite controls retain exact boundaries; source claims unchanged. New analyst attribution deferred; actual degree applicability remains OPEN. Full findings in docs/notes/maximum-definition-fork.md.",
+  "evidence": [
+    "MAXIMAL-TO-GREATEST-FROM-DIRECTED-DEGREES",
+    "MAXIMAL-BEING-CAUSES-FROM-GREATEST-DEGREE",
+    "MAXIMAL-TO-GREATEST-FROM-BOTH-CALIBRATIONS",
+    "MAXIME-DEFINITION-FORK",
+    "GREATEST-DEFINITION-FROM-MAXIME-COVERAGE",
+    "MAXIME-DEFINITION-BOUNDARIES"
+  ]
+}

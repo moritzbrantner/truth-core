@@ -1,0 +1,8 @@
+{
+  "id": "DEF-EMPIRICAL-BEGINNING-QUESTION-CONTROL",
+  "term": "beginning-question empirical control",
+  "definition": "The hidden Boolean content calibrates to existing PastIsFinite at now0: Nat with ordinary strict order has earliest0, Nat with reversed strict order has no earliest time. The observable coordinate is independent. This is an analyst earliest-time profile, not q46a2 source identity, actual chronology, metric duration, or an automatic beginning-of-being/beginning-with-time bridge.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.ScopedEmpiricalProofBarrier.Control.pastOrder",
+  "note": "Analyst formulation; attribution deferred. Source STMT-WORLD-BEGINNING-NOT-DEMONSTRABLE and Hume verdict meanings remain separate. See docs/notes/scoped-empirical-proof-barrier.md."
+}

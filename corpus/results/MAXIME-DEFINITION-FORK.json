@@ -1,0 +1,37 @@
+{
+  "id": "MAXIME-DEFINITION-FORK",
+  "argument_id": "MAXIME-DEFINITION-FORK",
+  "challenge_module": "TruthCore.Results.Causality.MaximumDefinitions.Coverage.Challenge",
+  "solution_module": "TruthCore.Results.Causality.MaximumDefinitions.Coverage.Solution",
+  "theorem": "TruthCore.Results.Causality.MaximumDefinitions.Coverage.coverage",
+  "comparator_config": "results/MAXIME-DEFINITION-FORK/comparator.json",
+  "status": "solution-present",
+  "description": "Structural coverage transcription under explicit excluded middle: three named calibration candidates cover or all three fail. No philosophical completeness is inferred.",
+  "transcription": "instantiation",
+  "case_split": {
+    "target_statement_id": "STMT-MAXIME-GREATEST-DEGREE-DEFINITION",
+    "cases": [
+      {
+        "label": "merely maximal",
+        "statement_id": "STMT-MAXIME-MERELY-MAXIMAL-DEFINITION",
+        "lean_declaration": "TruthCore.Causality.MaximumDefinitionFork.MaximalDefinition"
+      },
+      {
+        "label": "greatest represented degree",
+        "statement_id": "STMT-MAXIME-GREATEST-DEGREE-DEFINITION",
+        "lean_declaration": "TruthCore.Causality.MaximumDefinitionFork.GreatestDefinition"
+      },
+      {
+        "label": "strictly supreme",
+        "statement_id": "STMT-MAXIME-STRICT-SUPREMACY-DEFINITION",
+        "lean_declaration": "TruthCore.Causality.MaximumDefinitionFork.StrictDefinition"
+      },
+      {
+        "label": "additional superlative",
+        "statement_id": "STMT-MAXIME-ADDITIONAL-DEFINITION",
+        "lean_declaration": "TruthCore.Causality.MaximumDefinitionFork.Other"
+      }
+    ],
+    "survival_result_id": "MAXIME-DEFINITION-BOUNDARIES"
+  }
+}

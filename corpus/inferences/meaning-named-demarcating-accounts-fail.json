@@ -1,0 +1,15 @@
+{
+  "id": "INF-MEANING-NAMED-DEMARCATING-ACCOUNTS-FAIL",
+  "input_statement_ids": [
+    "STMT-MEANING-NOT-V1-GLOBAL",
+    "STMT-MEANING-V2-EXCLUDED-TARGET",
+    "STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-STRONG",
+    "STMT-MEANING-CHURCH-OBSERVATION-SETTING",
+    "STMT-MEANING-EXCLUDED-NEGATION"
+  ],
+  "output_statement_id": "STMT-MEANING-NAMED-DEMARCATING-ACCOUNTS-FAIL",
+  "rule": "constructive-proof",
+  "meaning": "Compose the checked V2/V3 calibration rejections, explicit not-V1 input and excluded negation to reject all four named global accounts. This yields the remainder without assuming named coverage; if coverage is additionally demanded, those inputs conflict. Joint philosophical applicability and a model of this entire bundle remain open.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
