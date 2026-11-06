@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CONCRETE-ABSTRACT-CLASSIFICATION",
+  "term": "concrete/abstract classification (criterion-neutral)",
+  "definition": "Classification B supplies concrete and abstract predicates on the candidate domain together with required disjointness (∀ x, abstract x → ¬ concrete x). Neither predicate is defined as the complement of the other, and nothing forces every candidate into one of them: borderline or unclassified candidates are permitted. Concreteness is world-independent; concreteness at a world (ConcreteAt) is existence there together with concreteness.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Ontology.ConcreteAbstract.Classification",
+  "note": "Shared typed vocabulary for #1103, replacing ad-hoc free concrete parameters where the meaning coincides. The adopted sense is DEF-CONCRETE-ESSE-IN-RE; rival criteria are sibling senses under DISAMB-CONCRETE-ABSTRACT-CRITERIA. Owner decision on #1103 (2026-11-06): https://github.com/moritzbrantner/truth-core/issues/1103#issuecomment-6683616439. See docs/notes/concrete-abstract.md."
+}

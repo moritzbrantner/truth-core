@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ABSTRACT-FREGE-CRITERION",
+  "term": "abstract as neither mental nor physical (Frege's rival criterion)",
+  "definition": "FregeCriterionAbstract mental physical x := ¬ mental x ∧ ¬ physical x, for supplied predicates. It is a sibling sense, not the adopted one.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Ontology.ConcreteAbstract.FregeCriterionAbstract",
+  "note": "SEP 'Abstract Objects' §3 (navigation): Frege's 'non-mental and non-sensible', amended to 'non-physical and non-mental'. The objections recorded there include mind-dependent abstracta (impure sets of mental items, abstract artifacts) and quarks and electrons for the 'sensible' version."
+}

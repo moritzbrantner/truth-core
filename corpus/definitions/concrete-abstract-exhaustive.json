@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CONCRETE-ABSTRACT-EXHAUSTIVE",
+  "term": "exhaustive concrete/abstract classification (strong version)",
+  "definition": "Exhaustive c means ∀ x, c.concrete x ∨ c.abstract x: every candidate is concrete or abstract. It is the strong version of the classification (#1017) and is assumed by no vocabulary declaration.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Ontology.ConcreteAbstract.Exhaustive",
+  "note": "Kept separate because the owner allows borderline cases (#1103, 2026-11-06), and because SEP 'Abstract Objects' §3.2 records items (Lewis's events as sets, epiphenomenal qualia) that strain a two-way exhaustive split."
+}

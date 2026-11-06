@@ -1,0 +1,15 @@
+{
+  "id": "AQUINAS-DE-ENTE-C2-NATURE-DUPLEX-ESSE",
+  "statement_id": "STMT-AQUINAS-NATURE-HAS-DOUBLE-ESSE",
+  "source_id": "AQUINAS-DE-ENTE-ET-ESSENTIA",
+  "locator": "cap.2 [69873]: Haec autem natura duplex habet esse, unum in singularibus et aliud in anima",
+  "interpretation": "A nature considered according to the esse it has 'in hoc vel in illo' has a double esse, 'unum in singularibus et aliud in anima'. The ratio of species belongs to human nature according to the esse it has in the intellect, where it 'habet esse abstractum ab omnibus individuantibus'. Read here: being in singulars and being in the soul are two different esse of one nature, and universality follows the second. Not read: that every abstract object is a universal, or that the number 2 is a nature in this sense; the number is the owner's paradigm, not Aquinas's example.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ABSTRACT-ESSE-IN-INTELLECTU"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA"
+  ],
+  "attribution": "The passage states that a nature has a double esse, one in singulars and another in the soul, and that the ratio of species belongs to it according to the esse it has in the intellect, where it has esse abstracted from all individuating conditions, which is the premise."
+}

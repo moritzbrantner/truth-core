@@ -1,0 +1,32 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "AQUINAS-ST",
+    "source_url": "https://www.corpusthomisticum.org/sth1084.html",
+    "sha256": "sha256:4b2ce10c68ccca2aa93c2ed1d7a4dc5bc0fff877025dc232ee83bc1f0495f623",
+    "encoding": "iso-8859-1",
+    "language": "lat",
+    "retrieved_at": "2026-11-06T11:24:32Z",
+    "license": "Latin text: Leonine edition; electronic transcription by Roberto Busa, reviewed by Enrique Alarcón. The page claims ©2019 Fundación Tomás de Aquino, all rights reserved for this electronic edition. Only metadata, hashes, locators and short incipits are committed."
+  },
+  "passages": [
+    {
+      "id": "AQUINAS-ST-I-Q85-A1-AD1-AD2",
+      "locator": "I q.85 a.1 ad 1–2",
+      "claim_locator_prefixes": [
+        "I q.85 a.1 ad 1",
+        "I q.85 a.1 ad 2"
+      ],
+      "html_selector": {
+        "from": {
+          "anchor": "32017"
+        },
+        "to": {
+          "anchor": "32019"
+        }
+      },
+      "text_sha256": "sha256:950178c10a26b7a0cf9ba1f9e18592f69f8df78b46b10a6a6e947270f050ea3a",
+      "incipit": "[32017] Iª q. 85 a. 1 ad 1 Ad primum ergo dicendum quod abstrahere contingit"
+    }
+  ]
+}
