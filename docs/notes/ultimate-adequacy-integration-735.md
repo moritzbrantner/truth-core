@@ -39,6 +39,13 @@ certificate is changed by this audit.
 | #750 `tokenExpand` and `idle` | Token expansion retains the input causal relation; on the compared arenas it remains empty. `idle` has a necessary bearer and no explanatory reasons. | Token coverage does not create power, causal efficacy or independently adequate explanation. Idle necessary existence still fails the reason-coverage test; this is no verdict on a richer necessary-source account. |
 | Selected actual-fusion NE route | `ActualFusionNecessaryBeingFromPopulation.necessaryBeing` consumes its declared actual fusion, causal availability, endpoint and nonoverlap policies. | It derives NE conditionally, but contains no automatic abstract/concrete/thin-power dictionary. The owner contract is an additional interpretation obligation, not a replacement for causal availability, fusion or the required route premises. |
 
+`Supply` and `LocalPower` are not the new thin-power predicate. The existing
+`Exercise.ontic` projects occurring events and exercised-group edges; the
+identity bearer map in #735 simplifies representation but does not establish
+that a real bearer exercises causal power or that the edge explains its bare
+existence. The graph correspondence is certified; its intended ontic causal
+interpretation still needs the explicit exercise/power/bearer dictionary.
+
 No inspected fixed named model was shown to contain an abstract productive
 causer. That is weaker than checking the full contract: several have no causal
 structure and others lack the classifications. A concrete field or collective
