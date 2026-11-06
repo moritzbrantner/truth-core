@@ -1,0 +1,15 @@
+{
+  "id": "STMT-INTELLECTUAL-EXERCISE-REQUIRES-ACT",
+  "paraphrase": "Analyst intellectual-operation instance of operari sequitur esse: every attributed intellectual exercise requires its bearer to be in act in some respect. No act-of-esse, indexed existence, bodily independence or subsistence conclusion is included; exact q75 attribution is deferred.",
+  "lean_declaration": "TruthCore.Logic.CogitoEsse.IntellectualExerciseRequiresAct",
+  "definition_ids": [
+    "DEF-COGITO-INTELLECTUAL-EXERCISE-IN-ACT",
+    "DEF-Q75-OPERATION-ATTRIBUTION",
+    "DEF-ACT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE",
+    "DISAMB-IN-ACT"
+  ],
+  "note": "Typed and checked as inputs of the additional conditional bearerConcreteOfOperation theorem, but not registered as extra open root premises. See docs/notes/cogito-esse-1113.md and ATTEMPT-COGITO-ESSE-1113."
+}

@@ -20,8 +20,8 @@ The existing q75 declaration `OperationOnlyOfBeingInActReading` is restricted to
 
 The additional checked theorem `bearerConcreteOfOperation` encodes the requested operation route with its inputs visible:
 
-1. `BorneThoughtExercisesIntellect`: the bearer of each occurring episode is attributed that intellectual exercise, using the existing q75 `OperationAttribution` vocabulary.
-2. `IntellectualExerciseRequiresAct`: such an exercise requires the bearer to be in act in some respect.
+1. `BorneThoughtExercisesIntellect` (`STMT-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE`): the bearer of each occurring episode is attributed that intellectual exercise, using the existing q75 `OperationAttribution` vocabulary.
+2. `IntellectualExerciseRequiresAct` (`STMT-INTELLECTUAL-EXERCISE-REQUIRES-ACT`): such an exercise requires the bearer to be in act in some respect.
 3. The existing `ActualityOnlyInsofarAsBeingReading`: actuality in any respect requires act of esse.
 
 The conclusion is C in the adopted esse sense. These two operation interfaces are analyst formulations, with exact historical attribution deferred. They are not asserted by the meanings of `Occurs` or `Bears`, not inferred from the causation-only q75 premise, and not registered as extra open root premises. The Comparator configuration for the existence route checks this conditional theorem as well. The remaining blocker to using this as an independently recorded root derivation is justification/interpretation of the occurrence-to-intellectual-exercise bridge and the exact q75 operation instance; no new source claim has been invented to fill it. The source lead remains q75 a2, already available through the repository's operation-attribution records.

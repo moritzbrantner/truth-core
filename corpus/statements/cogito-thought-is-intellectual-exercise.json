@@ -1,0 +1,16 @@
+{
+  "id": "STMT-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE",
+  "paraphrase": "Analyst bridge: every bearer of an occurring thought episode is attributed that episode as an intellectual exercise in the supplied q75 operation-attribution structure. This is an open interpretation of Occurs/Bears, not implied by their definitions and not a historical attribution.",
+  "lean_declaration": "TruthCore.Logic.CogitoEsse.BorneThoughtExercisesIntellect",
+  "definition_ids": [
+    "DEF-COGITO-THINKING-AS-INTELLECTUAL-EXERCISE",
+    "DEF-Q75-OPERATION-ATTRIBUTION",
+    "DEF-THOUGHT-OCCURRENCE",
+    "DEF-THOUGHT-BEARER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE",
+    "DISAMB-IN-ACT"
+  ],
+  "note": "Typed and checked as inputs of the additional conditional bearerConcreteOfOperation theorem, but not registered as extra open root premises. See docs/notes/cogito-esse-1113.md and ATTEMPT-COGITO-ESSE-1113."
+}
