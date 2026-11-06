@@ -68,7 +68,7 @@
     "DEF-SIMPLE-PRIORITY",
     "DEF-POTENCY"
   ],
-  "disambiguation_ids": [
+  "disambiguation_ids": ["DISAMB-POTENCY",
     "DISAMB-ESSENCE"
   ]
 }

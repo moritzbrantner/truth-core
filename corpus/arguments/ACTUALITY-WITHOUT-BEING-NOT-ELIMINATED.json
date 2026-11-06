@@ -16,7 +16,7 @@
     "DEF-GOOD-AS-BEING-IN-ACT",
     "DEF-PER-SE-LINK-STRONG"
   ],
-  "disambiguation_ids": [
+  "disambiguation_ids": ["DISAMB-POTENCY",
     "DISAMB-BEING",
     "DISAMB-IN-ACT",
     "DISAMB-MOTION"
