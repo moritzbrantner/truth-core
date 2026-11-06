@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SCOPED-PROOF-INQUIRIES",
+  "term": "proof inquiry, presented premise origins and declared method",
+  "definition": "An inquiry table fixes a carrier of presentations, target content, subject (divine/cosmological/ordinary), list of presented premise origins and declared method. These classify presentations independently of whether the target has some other proof. The fixed empirical standard is existing ConclusivelyVerifiable, not arbitrary logical consequence or warranted demonstration.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.ScopedEmpiricalProofBarrier.Inquiries",
+  "note": "Analyst formulation; attribution deferred. Source STMT-WORLD-BEGINNING-NOT-DEMONSTRABLE and Hume verdict meanings remain separate. See docs/notes/scoped-empirical-proof-barrier.md."
+}

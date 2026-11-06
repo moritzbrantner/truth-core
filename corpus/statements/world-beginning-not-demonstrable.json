@@ -1,1 +1,9 @@
-{"id": "STMT-WORLD-BEGINNING-NOT-DEMONSTRABLE", "paraphrase": "That the world has not always existed is held by faith alone and cannot be demonstrated.", "definition_ids": ["DEF-TEMPORAL-EXISTENCE-BEGINNING", "DEF-BEING-AS-ENTITY"]}
+{
+  "id": "STMT-WORLD-BEGINNING-NOT-DEMONSTRABLE",
+  "paraphrase": "That the world has not always existed is held by faith alone and cannot be demonstrated.",
+  "definition_ids": [
+    "DEF-TEMPORAL-EXISTENCE-BEGINNING",
+    "DEF-BEING-AS-ENTITY"
+  ],
+  "note": "The scoped analyst investigation in docs/notes/scoped-empirical-proof-barrier.md concerns one finite-observation proof standard and an earliest-time control. It is not an encoding, source identity, or proof of this broader q46a2 demonstration claim; this statement and its attribution remain unchanged."
+}
