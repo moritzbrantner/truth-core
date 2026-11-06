@@ -1,0 +1,19 @@
+{
+  "id": "MAXIME-DEFINITION-FORK",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-MAXIME-DEFINITION-FORK",
+  "inference_ids": [
+    "INF-MAXIME-DEFINITION-FORK"
+  ],
+  "meaning": "Structural coverage transcription under explicit excluded middle: three named calibration candidates cover or all three fail. No philosophical completeness is inferred.",
+  "definition_ids": [
+    "DEF-MAXIMUM-CALIBRATION-PROFILE",
+    "DEF-MAXIMUM-IN-A-PERFECTION",
+    "DEF-GREATEST-DEGREE-IN-A-PERFECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MAXIME-ENS"
+  ]
+}

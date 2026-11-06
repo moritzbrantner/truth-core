@@ -1,0 +1,26 @@
+{
+  "id": "GOODNESS-NAMED-DEFINITION-COVERAGE-FORK",
+  "argument_id": "GOODNESS-NAMED-DEFINITION-COVERAGE-FORK",
+  "challenge_module": "TruthCore.Results.Metaethics.GoodnessNamedCoverage.Challenge",
+  "solution_module": "TruthCore.Results.Metaethics.GoodnessNamedCoverage.Solution",
+  "theorem": "TruthCore.Results.Metaethics.GoodnessNamedCoverage.coverageOrFurtherDefinition",
+  "comparator_config": "results/GOODNESS-NAMED-DEFINITION-COVERAGE-FORK/comparator.json",
+  "status": "solution-present",
+  "description": "Zero-axiom logical scope fork. It proves neither named coverage nor a further real definition; the named-space models separately witness both abstract branches.",
+  "case_split": {
+    "target_statement_id": "STMT-GOODNESS-NAMED-DEFINITIONS-COVER",
+    "cases": [
+      {
+        "label": "Named proposals cover admissible definitions",
+        "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.NamedCoverage",
+        "statement_id": "STMT-GOODNESS-NAMED-DEFINITIONS-COVER"
+      },
+      {
+        "label": "Additional relevant definition",
+        "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.AdditionalRelevantDefinition",
+        "statement_id": "STMT-GOODNESS-ADDITIONAL-RELEVANT-DEFINITION"
+      }
+    ],
+    "survival_result_id": "GOODNESS-FORM-END-BOUNDARIES"
+  }
+}

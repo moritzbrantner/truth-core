@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MEANING-NAMED-COVERAGE",
+  "term": "named meaning-account coverage and remaining extension",
+  "definition": "At least one of the three criterion calibrations or all-in-scope account holds. This is an OPEN coverage premise. RemainingDefinition denies all four under the exact same language, frame, independent predicate and scope. The comparison is extensional and not a philosophical theory identity or exhaustive historical survey.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.MeaningDefinitionFork.NamedCoverage",
+  "note": "Analyst formulation; attribution deferred. See docs/notes/meaning-definition-fork.md."
+}

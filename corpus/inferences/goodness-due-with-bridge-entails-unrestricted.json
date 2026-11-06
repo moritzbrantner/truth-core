@@ -1,0 +1,12 @@
+{
+  "id": "INF-GOODNESS-DUE-ACTUALITY-WITH-DUE-BRIDGE-ENTAILS-UNRESTRICTED",
+  "input_statement_ids": [
+    "STMT-GOODNESS-DUE-TO-FORM-AND-END",
+    "STMT-EVERY-ACTUAL-PERFECTION-IS-DUE-TO-FORM-AND-END"
+  ],
+  "output_statement_id": "STMT-GOODNESS-IS-ACTUALITY",
+  "rule": "constructive-proof",
+  "meaning": "In one fixed Frame, use the checked equivalence between unrestricted GoodIn↔Has and AllActualitiesDue under DueActualityThesis. Both the proposed due-goodness thesis and the actual-to-due bridge are explicit premises. The conclusion is exactly the existing unrestricted per-perfection route reading, with the same GoodIn and Has; no real source-sense identification or independent premise truth is inferred.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

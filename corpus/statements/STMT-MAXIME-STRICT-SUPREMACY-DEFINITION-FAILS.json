@@ -1,0 +1,13 @@
+{
+  "id": "STMT-MAXIME-STRICT-SUPREMACY-DEFINITION-FAILS",
+  "paraphrase": "The strict-supremacy calibration fails for the supplied primitive superlative; this alone does not eliminate either nonstrict alternative.",
+  "lean_declaration": "TruthCore.Causality.MaximumDefinitionFork.StrictDefinitionFails",
+  "definition_ids": [
+    "DEF-MAXIMUM-CALIBRATION-PROFILE",
+    "DEF-MAXIMUM-IN-A-PERFECTION",
+    "DEF-GREATEST-DEGREE-IN-A-PERFECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MAXIME-ENS"
+  ]
+}

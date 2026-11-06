@@ -1,0 +1,13 @@
+{
+  "id": "STMT-GOODNESS-OMITS-DUE-ACTUALITY",
+  "paraphrase": "In the supplied fixed profile, some actual perfection due to a bearer’s form and end is not good in that respect. This is another possible disagreement with the owner proposal.",
+  "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.OmittedDueGood",
+  "definition_ids": [
+    "DEF-FORM-END-DUE-PERFECTION",
+    "DEF-GOODNESS-DUE-ACTUALITY-PROPOSITION",
+    "DEF-GOODNESS-SURPLUS-OMISSION-CELLS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOODNESS-UNRESTRICTED-DUE-AND-ULTIMATE"
+  ]
+}

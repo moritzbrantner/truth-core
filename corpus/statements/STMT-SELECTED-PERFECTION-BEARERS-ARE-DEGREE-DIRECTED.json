@@ -1,0 +1,13 @@
+{
+  "id": "STMT-SELECTED-PERFECTION-BEARERS-ARE-DEGREE-DIRECTED",
+  "paraphrase": "OPEN comparison premise: each pair of selected-perfection bearers has a bearer at a represented degree at least as high as both. This local directedness need not compare every pair directly, order all beings, identify tied bearers or give a unique greatest being.",
+  "lean_declaration": "TruthCore.Causality.MaximumDefinitionFork.DirectedBearers",
+  "definition_ids": [
+    "DEF-MAXIMUM-CALIBRATION-PROFILE",
+    "DEF-MAXIMUM-IN-A-PERFECTION",
+    "DEF-GREATEST-DEGREE-IN-A-PERFECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MAXIME-ENS"
+  ]
+}

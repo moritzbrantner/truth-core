@@ -1,0 +1,17 @@
+{
+  "id": "STMT-MEANING-CALIBRATION",
+  "paraphrase": "The supplied criterion is necessary and sufficient for the independently supplied cognitive-meaning property, on exactly the supplied scope.",
+  "lean_declaration": "TruthCore.Logic.MeaningDefinitionFork.Calibration",
+  "definition_ids": [
+    "DEF-MEANING-CRITERION-CALIBRATION",
+    "DEF-MEANING-V1-DEFINITION",
+    "DEF-MEANING-V2-DEFINITION",
+    "DEF-MEANING-V3-DEFINITION",
+    "DEF-MEANING-ALL-IN-SCOPE",
+    "DEF-MEANING-NAMED-COVERAGE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-VERIFICATIONIST-MEANINGFUL",
+    "DISAMB-MEANING-DEFINITION-CALIBRATIONS"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-GOODNESS-PROPERTY-PRESENTATION",
+  "term": "property identity versus extensional goodness agreement",
+  "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.PropertyPresentation",
+  "basis": "stipulative",
+  "definition": "A presentation gives property referents, a denotation map, and calibrated referents for GoodIn and due actuality. PropertyIdentity asserts equality of those two referents. It entails DueActualityThesis, while the explicit Bool presentation permits distinct referents with identical extensions.",
+  "note": "A semantic framework, not proof that reality contains distinct coextensive properties. It encodes the stronger intensional reading separately. Moore’s simplicity, non-naturalness and indefinability claims are not reduced to coextension or asserted refuted: an intensional account of those predicates and a warrant for any identity criterion remain OPEN. The existing unrecognized-property-identity result separately shows that epistemic openness alone does not force nonidentity."
+}
