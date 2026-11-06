@@ -1,0 +1,9 @@
+{
+  "id": "INF-PER-SE-HISTORICAL-SERIES-DISTINCTION",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-PER-SE-HISTORICAL-SERIES-DISTINCTION",
+  "rule": "accessibility-transfer-and-explicit-model",
+  "meaning": "Compose the existing accessibility-excludes-series theorem with an explicit edge dictionary. Construct the Option Nat common-essential-source/historical-successor witness. Neither the well-foundedness premise of any root route nor the causal applicability of either relation is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
