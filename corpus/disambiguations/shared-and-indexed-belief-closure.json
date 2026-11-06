@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-SHARED-AND-INDEXED-BELIEF-CLOSURE",
+  "term": "closure under several logics",
+  "sense_definition_ids": [
+    "DEF-SHARED-BELIEF-POOL-CLOSURE",
+    "DEF-INDEXED-BELIEF-POOL-CLOSURE"
+  ],
+  "resolution": "JointClosureLaw uses one unindexed selected pool and requires closure under each relation on all its finite premise lists. The indexed survivor instead uses two pools with only their own closure; it does not authorize cross-profile transfer. A joint policy consequence is not identity of semantic validity relations or an established categorical ought."
+}

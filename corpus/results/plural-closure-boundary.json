@@ -1,0 +1,10 @@
+{
+  "id": "PLURAL-CLOSURE-BOUNDARY",
+  "argument_id": "PLURAL-CLOSURE-BOUNDARY",
+  "challenge_module": "TruthCore.Results.Logic.PluralClosureBoundary.Challenge",
+  "solution_module": "TruthCore.Results.Logic.PluralClosureBoundary.Solution",
+  "theorem": "TruthCore.Results.Logic.PluralClosureBoundary.checks",
+  "comparator_config": "results/PLURAL-CLOSURE-BOUNDARY/comparator.json",
+  "status": "solution-present",
+  "description": "Typed incomparable K3/LP matrix consequences, a joint-only shared-pool consequence, three input deletions and nontrivial shared/indexed survivors in one bound certificate. Not a transcription: the shared algebra and admitted valuations constrain the relations, each target inference can fail, and the joint result composes separate semantic steps. Analyst formulation, attribution deferred. No global completeness/join, categorical authority, pluralism refutation or root closure."
+}

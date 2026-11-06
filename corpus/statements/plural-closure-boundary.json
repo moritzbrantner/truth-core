@@ -1,0 +1,13 @@
+{
+  "id": "STMT-PLURAL-CLOSURE-BOUNDARY",
+  "paraphrase": "In one two-atom truth/falsity-pair semantics, K3 validates g\u22a2p but LP does not, LP validates excluded middle e for q but K3 does not, and both validate conjunction introduction. For g=p\u2228(q\u2227\u00acq) and C=p\u2227e, neither validates g\u22a2C. Every SAME selected pool containing g and closed under both relations contains C. Each of the three input conditions can be omitted with the others retained and C rejected; both closure omissions are closed semantic theories, and the initial-acceptance omission is a classical designated pool. A common closed nontrivial pool rejects \u00acp, and separately indexed K3/LP pools each contain g and reject C. These are conditional policy and matrix results, not categorical authority, validity collapse, join=CPL or a refutation of pluralism.",
+  "lean_declaration": "TruthCore.Logic.PluralClosureBoundary.Certificate",
+  "definition_ids": [
+    "DEF-PLURAL-TRUTH-FALSITY-MATRICES",
+    "DEF-SHARED-BELIEF-POOL-CLOSURE",
+    "DEF-INDEXED-BELIEF-POOL-CLOSURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SHARED-AND-INDEXED-BELIEF-CLOSURE"
+  ]
+}
