@@ -1,0 +1,15 @@
+{
+  "id": "STMT-METAETHICS-TRUTH-APT-RIVAL-CONTROLS",
+  "paraphrase": "Two already constructed finite witnesses show: with no moral contents, both raw quasi-realist and robust-universal answers hold; with a moral content, both raw answers can fail. Thus the raw answers are not exclusive without a nonempty moral class, and are not jointly exhaustive even with one. Models concern the exact reading predicates, not complete historical theories.",
+  "lean_declaration": "TruthCore.Logic.MetaethicsTruthAptRivalBoundary.Controls",
+  "definition_ids": [
+    "DEF-NOT-REALIST-ROBUST-TRUTH-APT",
+    "DEF-TRUTH-ROBUST",
+    "DEF-MINIMAL-TRUTH-APTNESS",
+    "DEF-MORAL-STATEMENT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUTH-APT",
+    "DISAMB-TRUE"
+  ]
+}

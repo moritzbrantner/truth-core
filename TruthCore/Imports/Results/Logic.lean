@@ -26,6 +26,8 @@ public import TruthCore.Results.Logic.KnowledgeAdmissibility.Solution
 public import TruthCore.Results.Logic.KnowledgeRetorsion.Solution
 public import TruthCore.Results.Logic.LimitAdmission.Solution
 public import TruthCore.Results.Logic.MaximumOrderSchema.Solution
+public import TruthCore.Results.Logic.MetaethicsTruthAptRivalBoundary.Controls.Solution
+public import TruthCore.Results.Logic.MetaethicsTruthAptRivalBoundary.ExactRival.Solution
 public import TruthCore.Results.Logic.PerformedDenial.EmptyControl.Solution
 public import TruthCore.Results.Logic.PerformedDenial.NoAccurateDenial.Solution
 public import TruthCore.Results.Logic.PerformedDenial.StaticControl.Solution
