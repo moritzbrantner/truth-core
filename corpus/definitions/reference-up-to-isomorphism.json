@@ -1,0 +1,7 @@
+{
+  "id": "DEF-REFERENCE-UP-TO-ISOMORPHISM",
+  "term": "reference up to structure isomorphism",
+  "definition": "A structuralist interpretation identifies reference assignments related by a bijection that also transports every function and relation interpretation. The original and transported models agree in this sense even when their name constants have different literal carrier values.",
+  "basis": "stipulative",
+  "note": "Strongest rival in the reference test, not refuted by it. No quotient construction or historical attribution is asserted. See docs/wittgenstein.md."
+}

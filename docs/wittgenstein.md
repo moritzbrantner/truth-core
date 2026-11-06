@@ -401,3 +401,48 @@ years.
 *Lectures and Conversations ... on Religious Belief* (1938) survive as students'
 notes, edited by Barrett in 1966, and are in copyright. No hosted copy was
 found, so they enter only as `SEP-RELIGIOUS-LANGUAGE` §4.2 reports them.
+
+## Sentence use and reference: bounded analyst test (#1073)
+
+`REFERENCE-ANCHOR-BOUNDARY` tests a missing bridge in #1010, with attribution
+deferred. It does not formalize a claim of Phillips or Wittgenstein. The profile
+has one name, one unary predicate, and Mathlib's full first-order syntax,
+including equality, connectives and quantifiers. Literal reference is the name's
+value on a fixed two-individual carrier. The original name denotes `false` and
+the predicate picks `false`; transport both interpretations by Boolean negation
+and the name denotes `true` while the predicate picks `true`.
+
+Reuse inventory: pinned Mathlib `FirstOrder.Language.StrongHomClass.realize_sentence`
+already establishes sentence truth under structure isomorphism, including the
+quantifiers; `Equiv.inducedStructureEquiv` supplies the transported structure.
+There is no reason to recreate either syntax or induction. Existing
+`CorrectionCriterion` concerns classifiers on data fibers; `InterpretationRegress`
+concerns well-founded interpretation dependencies; `Fideism.Practice` concerns
+correct moves. None identifies the value of a name. Existing Verificationism
+syntax lacks interpreted names. Russell's `DescriptionExists`, `ExistsPred`,
+`AtMostOne`, and `Results.Modern.Russell.Description.checks` already supply the
+exact existence/uniqueness analysis needed for the anchor.
+
+The certificate composes those theorems: all sentences agree and every finite
+premise-list truth-preservation inference at either interpretation agrees, yet
+the literal referents differ. This is stronger data than any selected finite
+sentence table, but it remains extensional truth/inference behavior, not all
+pragmatic, causal or historical facts about use. The two labels designate
+individuals of the model; they do not assert two actual metaphysical objects.
+
+A fixed external predicate `anchor x := x = false` has a definite description
+and distinguishes the referents. More generally, if both referents satisfy one
+fixed `DescriptionExists` predicate, Russell's previously proved uniqueness
+analysis forces identity. Both satisfaction requirements and the common fixed
+anchor are additional conditions; sentence agreement does not provide them.
+Transporting the anchor along with the other predicate abandons this extra
+constraint. No premise establishes a real language's possession or justified
+recognition of such an anchor; that applicability remains **OPEN**.
+
+The strongest rival is structuralism: it identifies interpretations related by
+such a permutation and therefore accepts their agreement. Literal carrier
+inequality does not refute it. Rejected inferences: no name denotes, God does not
+exist, religious discourse is meaningless, or the Catholic nominal-definition
+leaves are discharged. The experiment does not connect their shared reference
+relation yet. Root premises and #1010's existing conditional defeat remain
+unchanged; #1073 supplies one boundary, not completion of #1010.

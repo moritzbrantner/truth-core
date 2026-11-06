@@ -1,0 +1,12 @@
+{
+  "id": "STMT-REFERENCE-ANCHOR-BOUNDARY",
+  "paraphrase": "In the stipulated one-name one-predicate Boolean-carrier language, original and swapped interpretations satisfy the same first-order sentences and have the same truth-preservation behavior for every finite premise list, while the name refers to different carrier individuals. The externally fixed singleton anchor has a Russell definite description and is satisfied by the original referent but not the transported one. Universally, two individuals satisfying one DescriptionExists predicate are equal. No actual-language reference or structuralist defeat follows.",
+  "lean_declaration": "TruthCore.Logic.ReferenceAnchor.ReferenceBoundary",
+  "definition_ids": [
+    "DEF-LITERAL-REFERENCE-ON-FIXED-CARRIER",
+    "DEF-REFERENCE-UP-TO-ISOMORPHISM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-LITERAL-AND-STRUCTURAL-REFERENCE"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-LITERAL-REFERENCE-ON-FIXED-CARRIER",
+  "term": "literal reference on a fixed carrier",
+  "definition": "The interpretation of the one name constant is an individual of the supplied Boolean carrier. SameSentences compares all Mathlib first-order sentences under the original and transported interpretations. ConsequenceAt compares truth-preservation at each interpretation for every finite premise list. AnchorRecovery requires both referents to satisfy one externally fixed DescriptionExists predicate; it does not establish that either satisfies it.",
+  "basis": "stipulative",
+  "note": "Analyst profile for #1073; attribution deferred. Predicate interpretation is transported in the isomorphism control. The external anchor is kept fixed. Applicability to actual language, epistemic access and identification of God remain OPEN.",
+  "lean_declaration": "TruthCore.Logic.ReferenceAnchor.referent"
+}

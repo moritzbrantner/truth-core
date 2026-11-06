@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-LITERAL-AND-STRUCTURAL-REFERENCE",
+  "term": "reference identity",
+  "sense_definition_ids": [
+    "DEF-LITERAL-REFERENCE-ON-FIXED-CARRIER",
+    "DEF-REFERENCE-UP-TO-ISOMORPHISM"
+  ],
+  "resolution": "ReferenceBoundary compares literal values on one fixed carrier. Its swapped interpretations are isomorphic, so it does not show a failure of reference identity for a structuralist who identifies permuted models. AnchorRecovery instead keeps one uniquely satisfied predicate fixed across interpretations; allowing that anchor to transport removes the extra identity constraint."
+}
