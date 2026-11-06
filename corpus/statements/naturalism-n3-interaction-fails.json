@@ -1,0 +1,11 @@
+{
+  "id": "STMT-NATURALISM-N3-INTERACTION-FAILS",
+  "paraphrase": "N3i fails at the selected world (the negation of N3i).",
+  "lean_declaration": "TruthCore.Ontology.NaturalismConsequences.InteractionNaturalismFails",
+  "definition_ids": [
+    "DEF-NATURALISM-N3-INTERACTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NATURALISM-VARIANT"
+  ]
+}

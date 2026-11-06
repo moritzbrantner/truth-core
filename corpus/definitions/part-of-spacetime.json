@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PART-OF-SPACETIME",
+  "term": "spatiotemporal (part-of-spacetime sense)",
+  "definition": "`PartOfSpacetime F x := F.partOf x F.whole`: x is a part of the spacetime whole; whether parthood is improper (the whole a part of itself) is left to the supplied relation.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Ontology.Spatiotemporal.PartOfSpacetime",
+  "note": "Stipulative. It fits Armstrong-style naturalism, on which the world is the space-time system and whatever exists belongs to it."
+}

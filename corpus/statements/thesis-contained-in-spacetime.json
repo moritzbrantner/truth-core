@@ -1,0 +1,13 @@
+{
+  "id": "STMT-THESIS-CONTAINED-IN-SPACETIME",
+  "paraphrase": "Open bridge: whatever satisfies the naturalist's thesis predicate P is a part of the spacetime whole. Definitional for P = part of spacetime; open for the occupant and relational senses and for Papineau's 'physical'.",
+  "lean_declaration": "TruthCore.Ontology.NaturalismConsequences.ContainedInSpacetime",
+  "definition_ids": [
+    "DEF-PART-OF-SPACETIME",
+    "DEF-SPATIOTEMPORAL-FRAME",
+    "DEF-THESIS-CONTAINED-IN-SPACETIME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SPATIOTEMPORAL"
+  ]
+}

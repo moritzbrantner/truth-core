@@ -1,0 +1,11 @@
+{
+  "id": "STMT-NATURALISM-N2-FAILS",
+  "paraphrase": "N2 fails at the selected world (the negation of N2).",
+  "lean_declaration": "TruthCore.Ontology.NaturalismConsequences.ConcreteNaturalismFails",
+  "definition_ids": [
+    "DEF-NATURALISM-N2"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NATURALISM-VARIANT"
+  ]
+}

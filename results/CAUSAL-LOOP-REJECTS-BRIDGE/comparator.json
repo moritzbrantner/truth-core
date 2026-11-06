@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Ontology.Naturalism.Loop.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.Naturalism.Loop.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Ontology.Naturalism.Loop.causalLoopRejectsBridge"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

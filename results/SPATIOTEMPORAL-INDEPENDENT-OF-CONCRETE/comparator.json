@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Ontology.Naturalism.Independence.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.Naturalism.Independence.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Ontology.Naturalism.Independence.spatiotemporalIndependentOfConcrete"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -1,0 +1,27 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "MURPHY-2021-EMPTY-WORLD",
+    "source_url": "https://revistas.up.ac.pa/index.php/analitica/article/download/2436/2226/",
+    "sha256": "sha256:d33d04ce5be3ebae25fb5b3e5199fa57e208e08ca012f0b5bd502bb737ea31e7",
+    "encoding": "utf-8",
+    "language": "eng",
+    "retrieved_at": "2026-11-06T12:35:47Z",
+    "license": "Open-access journal article hosted by the publisher (Universidad de Panamá); no redistribution license asserted here. Only hashes, locators and a short incipit are committed. No Wayback fallback is pinned."
+  },
+  "passages": [
+    {
+      "id": "MURPHY-2021-EMPTY-WORLD-52-55",
+      "locator": "pp.52–55 (physical PDF pages 1–4)",
+      "claim_locator_prefixes": [
+        "pp.52–55 "
+      ],
+      "pdf_pages": {
+        "first": 1,
+        "last": 4
+      },
+      "text_sha256": "sha256:40e28a5e456125aba0309d6b7ce00e93c23545bd25c3db2be399e817d67105d2",
+      "incipit": "Analítica (1), oct. 2021 – sept. 2022, ISSN-L 2805-1815, p. 52 - 66 52 IF"
+    }
+  ]
+}

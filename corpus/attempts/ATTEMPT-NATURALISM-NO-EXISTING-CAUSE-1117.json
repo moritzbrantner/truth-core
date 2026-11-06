@@ -1,0 +1,18 @@
+{
+  "id": "ATTEMPT-NATURALISM-NO-EXISTING-CAUSE-1117",
+  "statement_ids": [
+    "STMT-UNIVERSE-HAS-EXISTING-CAUSE",
+    "STMT-UNIVERSE-UNCAUSED",
+    "STMT-NATURALISM-N2-FAILS"
+  ],
+  "date": "2026-11-06",
+  "kind": "derivation",
+  "outcome": "failed",
+  "summary": "Rejected the reading that negating UniverseHasExistingCause entails UniverseUncaused. U is existential over an existing cause, whereas UniverseUncaused excludes all incoming causal edges. Counterexample from review 4492957391: only the spacetime whole exists and is a spacetime part; a nonexisting concrete candidate c has the sole causal edge c \u2192 whole. N1, N2, no self-causation, whole-to-part, containment and the weak causal-concreteness floor item hold, but UniverseUncaused is false. The prose now claims only no existing cause. The existing survivor certificate independently witnesses the stronger uncaused-whole position; it does not turn that position into a consequence of negating U. No theorem, Challenge or premise is changed.",
+  "evidence": [
+    "CAUSED-UNIVERSE-REFUTES-N2",
+    "NATURALIST-UNCAUSED-UNIVERSE-SURVIVOR",
+    "PR-1117"
+  ],
+  "blocker": "The stronger inference needs an explicit causal-endpoint existence premise; it is not added to the argument."
+}

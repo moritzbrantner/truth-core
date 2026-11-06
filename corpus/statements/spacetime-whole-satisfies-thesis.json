@@ -1,0 +1,12 @@
+{
+  "id": "STMT-SPACETIME-WHOLE-SATISFIES-THESIS",
+  "paraphrase": "Open premise: the spacetime whole itself satisfies the thesis predicate P (for P = part of spacetime: the whole is an improper part of itself; for Papineau: the universe is physical).",
+  "lean_declaration": "TruthCore.Ontology.NaturalismConsequences.WholeSatisfies",
+  "definition_ids": [
+    "DEF-PART-OF-SPACETIME",
+    "DEF-SPATIOTEMPORAL-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SPATIOTEMPORAL"
+  ]
+}

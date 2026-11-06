@@ -1,0 +1,12 @@
+{
+  "id": "STMT-NATURALISM-N3",
+  "paraphrase": "N3, causal-power naturalism: at the selected world, everything with causal power satisfies the thesis predicate P (physical, in Papineau's formulation; a spatiotemporal sense, in the spatiotemporal variant).",
+  "lean_declaration": "TruthCore.Ontology.Naturalism.CausalPowerNaturalism",
+  "definition_ids": [
+    "DEF-NATURALISM-N3"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NATURALISM-VARIANT",
+    "DISAMB-SPATIOTEMPORAL"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-TEMPORAL-SERIES",
+  "term": "temporal series (duration frame)",
+  "definition": "`TemporalSeries B`: a type of times with an earlier-than relation, a relation presentAt x t (x is present at time t) and the state of x at t, its operations included. It bundles the duration frame of DEF-BOETHIAN-ETERNAL (Time, <, LivesAt, lifeStateAt) with presence for life, so that a family `S : I → TemporalSeries B` of series can be supplied. No order axiom and no richness condition is assumed.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Ontology.NaturalismConsequences.TemporalSeries",
+  "note": "Stipulative bundling of an existing frame, needed to quantify over several series (ordinary time and any other temporal series) in UNIVERSE-CAUSE-ATEMPORAL. It does not identify any series with physical time; which series a family contains is a modelling input. A source for 'time is a series with before and after' is q.10 (DEF-TEMPORAL-SUCCESSION-Q10)."
+}

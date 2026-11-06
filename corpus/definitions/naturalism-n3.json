@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NATURALISM-N3",
+  "term": "causal-power naturalism (N3)",
+  "definition": "`CausalPowerNaturalism hasCausalPower P w := ∀ x, hasCausalPower w x → P x`: everything with causal power at w satisfies P.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Ontology.Naturalism.CausalPowerNaturalism",
+  "note": "Papineau's p.12 formulation with P = physical (claim PAPINEAU-RISE-CAUSAL-POWERS-PHYSICAL); with P a spatiotemporal sense it is the analyst's spatiotemporal N3."
+}
