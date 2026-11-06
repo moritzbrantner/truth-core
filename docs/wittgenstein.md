@@ -355,7 +355,8 @@ yet, so it stays a judgment.
   Apostle's testimony that God was known "a gentibus ... per ea, quae facta
   sunt".
 - Scholastic usage: *Summa contra Gentiles* I.2 n.4, natural reason "cui omnes
-  assentire coguntur", invoked against Muslims *and pagans*. I.3 n.2: the
+  assentire coguntur", invoked against Muslims and pagans, who share no
+  scriptural authority with Christians. I.3 n.2: the
   philosophers proved God's existence "ducti naturalis lumine rationis".
 
 The gaps that keep the bridge open: the council does not say "shared with
@@ -364,8 +365,10 @@ outsiders", and Aquinas is a theologian of the practice, not its council.
 Fideist reply, unattributed, supported by Clayton and Taylor as SEP *Fideism* §3
 reports them: `STMT-NATURAL-REASON-WITHIN-THEOLOGICAL-HORIZON`. The tradition's
 natural reason works within a theological horizon, towards fellow theists.
-Recorded against it, as `attacks`: SCG I.2 names pagans, who are not
-theists, and *Dei Filius* ch. 4 appeals to the gentiles. Clayton's own report
+Recorded against it, as `attacks`: SCG I.2 invokes natural reason against
+outsiders to Christianity, and *Dei Filius* ch. 4 appeals to the gentiles.
+Whether those outsiders stand outside every theological horizon (the reply
+allows fellow theists) is a further bridge the texts do not state. Clayton's own report
 places Vatican I after the modern shift to a neutral starting point, which
 cuts against the reply.
 
