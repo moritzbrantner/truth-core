@@ -1,0 +1,9 @@
+{
+  "id": "REL-ACTUAL-MOVED-NOT-POTENT-COUNTERTUPLE-ALTERNATIVE",
+  "subject_kind": "statement",
+  "subject_id": "STMT-ACTUAL-MOVED-NOT-POTENT-COUNTERTUPLE",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
+  "note": "Exact unrefuted analyst countertuple. Existing stronger occasionalist candidate remains intact; refuting a full re-creation story would not eliminate every moved/not-potent tuple. Structural coverage is explicit in MOVED-POTENCY-EXACT-COUNTERCASE-FORK."
+}

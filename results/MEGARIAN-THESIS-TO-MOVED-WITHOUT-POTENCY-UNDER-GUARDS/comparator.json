@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.GuardedCountercase.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.GuardedCountercase.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.GuardedCountercase.guardedCountercase"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
