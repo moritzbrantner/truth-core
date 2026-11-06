@@ -1,0 +1,10 @@
+{
+  "id": "MEANING-V2-CALIBRATION-REJECTED",
+  "argument_id": "MEANING-V2-CALIBRATION-REJECTED",
+  "challenge_module": "TruthCore.Results.Logic.MeaningDefinitionFork.V2RejectionBound.Challenge",
+  "solution_module": "TruthCore.Results.Logic.MeaningDefinitionFork.V2RejectionBound.Solution",
+  "theorem": "TruthCore.Results.Logic.MeaningDefinitionFork.V2RejectionBound.v2Rejection",
+  "comparator_config": "results/MEANING-V2-CALIBRATION-REJECTED/comparator.json",
+  "status": "solution-present",
+  "description": "Compose the existing unrestricted-auxiliary construction with the independent excluded target. The V2 admission contradicts its calibration at that exact target; no inference from meaninglessness to untruth."
+}

@@ -1,0 +1,14 @@
+import TruthCore.Causality.MaximumDefinitionFork
+
+namespace TruthCore.Results.Causality.MaximumDefinitions.CausalTransport
+open TruthCore.Latin.Aquinas.SummaTheologiae
+open TruthCore.Causality.MaximumDefinitionFork
+
+/-- Frozen analyst interface; no real-world degree interpretation is adopted. -/
+theorem causalTransport {Degree : Type} [Preorder Degree] (f : Frame Degree)
+    (hBridge : MaximalToGreatest f)
+    (hSource : GreatestDegreeCausesAllInGenusReading f.InAct f.CausesIn f.selected f.value) :
+    MaximumInBeingCausesAllBeingsReading f.InAct f.MoreIn f.CausesIn f.selected := by
+  sorry
+
+end TruthCore.Results.Causality.MaximumDefinitions.CausalTransport

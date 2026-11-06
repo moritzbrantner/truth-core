@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MEANING-CRITERION-CALIBRATION",
+  "term": "criterion calibration of cognitive meaning",
+  "definition": "On the supplied scope, the independent cognitive-meaning predicate holds iff the sentence is analytic or passes the supplied verifiability criterion. This is full extensional calibration, stronger than the existing one-way VerificationPrinciple; no historical or property identity follows.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.MeaningDefinitionFork.Calibration",
+  "note": "Analyst formulation; attribution deferred. See docs/notes/meaning-definition-fork.md."
+}

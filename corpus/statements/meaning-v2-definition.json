@@ -1,0 +1,17 @@
+{
+  "id": "STMT-MEANING-V2-DEFINITION",
+  "paraphrase": "Cognitive meaning calibrates to analyticity or unrestricted 1936 weak verifiability on the supplied scope. Open analyst definition proposition.",
+  "lean_declaration": "TruthCore.Logic.MeaningDefinitionFork.V2Definition",
+  "definition_ids": [
+    "DEF-MEANING-CRITERION-CALIBRATION",
+    "DEF-MEANING-V1-DEFINITION",
+    "DEF-MEANING-V2-DEFINITION",
+    "DEF-MEANING-V3-DEFINITION",
+    "DEF-MEANING-ALL-IN-SCOPE",
+    "DEF-MEANING-NAMED-COVERAGE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-VERIFICATIONIST-MEANINGFUL",
+    "DISAMB-MEANING-DEFINITION-CALIBRATIONS"
+  ]
+}

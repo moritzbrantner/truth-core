@@ -1,0 +1,10 @@
+{
+  "id": "SCOPED-EMPIRICAL-PROOF-CONTROLS",
+  "argument_id": "SCOPED-EMPIRICAL-PROOF-CONTROLS",
+  "challenge_module": "TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Controls.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Controls.Solution",
+  "theorem": "TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Controls.controls",
+  "comparator_config": "results/SCOPED-EMPIRICAL-PROOF-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Fixed inquiry metadata and actual truth-conditional/temporal constructions distinguish domains, proof standards and empirical barriers. All advertised witness properties remain in the bound conclusion; source q46a2, actual theology and independent warrant are not identified with this finite profile."
+}

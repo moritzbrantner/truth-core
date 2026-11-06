@@ -1,0 +1,28 @@
+{
+  "id": "GLOBAL-EMPIRICAL-PROOF-DENIAL-STRENGTHENS-RESTRICTED",
+  "premise_statement_ids": [
+    "STMT-EMPIRICAL-PROOF-GLOBAL-DENIAL"
+  ],
+  "conclusion_statement_id": "STMT-EMPIRICAL-PROOF-RESTRICTED-DENIAL",
+  "inference_ids": [
+    "INF-GLOBAL-EMPIRICAL-PROOF-DENIAL-STRENGTHENS-RESTRICTED"
+  ],
+  "meaning": "Logical strength instantiation: global finite-observation proof denial implies its restriction to an independently supplied scope. The control refutes the converse. No historical global skeptic or proof standard adoption.",
+  "definition_ids": [
+    "DEF-SCOPED-PROOF-INQUIRIES",
+    "DEF-THEOLOGICAL-SUBJECT-DEFINITION",
+    "DEF-THEOLOGICAL-PREMISE-DEFINITION",
+    "DEF-THEOLOGICAL-METHOD-DEFINITION",
+    "DEF-PROOF-DOMAIN-COVERAGE",
+    "DEF-EMPIRICAL-OBSERVATION-BARRIER",
+    "DEF-SCOPED-EMPIRICAL-PROOF-DENIAL",
+    "DEF-EMPIRICAL-BARRIER-COVERAGE",
+    "DEF-EMPIRICAL-BEGINNING-QUESTION-CONTROL",
+    "DEF-CONCLUSIVE-VERIFIABILITY",
+    "DEF-TRUTH-CONDITIONAL-LANGUAGE",
+    "DEF-EMPIRICIST-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SCOPED-PROOF-STANDARD-AND-THEOLOGICAL-DOMAIN"
+  ]
+}

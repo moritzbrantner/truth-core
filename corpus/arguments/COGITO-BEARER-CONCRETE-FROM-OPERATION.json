@@ -1,0 +1,27 @@
+{
+  "id": "COGITO-BEARER-CONCRETE-FROM-OPERATION",
+  "premise_statement_ids": [
+    "STMT-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE",
+    "STMT-INTELLECTUAL-EXERCISE-REQUIRES-ACT",
+    "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING"
+  ],
+  "conclusion_statement_id": "STMT-COGITO-BEARER-IS-CONCRETE",
+  "inference_ids": [
+    "INF-COGITO-BEARER-CONCRETE-FROM-OPERATION"
+  ],
+  "meaning": "Register the existing checked operation route in the adopted esse sense: attribute the same occurring episode to its bearer as intellectual exercise, obtain a respect in which that bearer is in act, then apply actuality-to-esse to that same bearer and respect. Both analyst exercise bridges remain open premises; the causation-only q75 reading is not applied to thought. This is a conditional instantiation/transcription, not independent warrant for those bridges or a new proof. It supplies no occurrence, bearer, selected-world existence, bodily independence or subsistence witness.",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-COGITO-INTELLECTUAL-EXERCISE-IN-ACT",
+    "DEF-COGITO-THINKING-AS-INTELLECTUAL-EXERCISE",
+    "DEF-CONCRETE-ESSE-IN-RE",
+    "DEF-ESSE",
+    "DEF-Q75-OPERATION-ATTRIBUTION",
+    "DEF-THOUGHT-BEARER",
+    "DEF-THOUGHT-OCCURRENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT",
+    "DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE"
+  ]
+}
