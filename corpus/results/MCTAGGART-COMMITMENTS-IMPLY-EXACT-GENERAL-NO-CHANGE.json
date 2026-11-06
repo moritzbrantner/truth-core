@@ -1,0 +1,11 @@
+{
+  "id": "MCTAGGART-COMMITMENTS-IMPLY-EXACT-GENERAL-NO-CHANGE",
+  "argument_id": "MCTAGGART-COMMITMENTS-IMPLY-EXACT-GENERAL-NO-CHANGE",
+  "challenge_module": "TruthCore.Results.Observation.ChangeRivalCoverage.BundleStrength.Challenge",
+  "solution_module": "TruthCore.Results.Observation.ChangeRivalCoverage.BundleStrength.Solution",
+  "theorem": "TruthCore.Results.Observation.ChangeRivalCoverage.BundleStrength.bundleStrength",
+  "comparator_config": "results/MCTAGGART-COMMITMENTS-IMPLY-EXACT-GENERAL-NO-CHANGE/comparator.json",
+  "status": "solution-present",
+  "description": "Compose the unchanged bundleDefeatedByChange theorem from the two existing source commitments displayed as AND inputs by the repository theory-bundle binding contract. These jointly imply exact general no-change. The full source bundle is stronger than bare no-change, but no sole-premise strength registration or reverse source/theory identification is advertised.",
+  "transcription": "instantiation"
+}

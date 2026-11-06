@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Observation.ChangeRivalCoverage.Coverage.Challenge",
+  "solution_module": "TruthCore.Results.Observation.ChangeRivalCoverage.Coverage.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Observation.ChangeRivalCoverage.Coverage.coverage"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
