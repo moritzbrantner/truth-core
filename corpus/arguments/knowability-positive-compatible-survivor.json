@@ -1,0 +1,17 @@
+{
+  "id": "KNOWABILITY-POSITIVE-COMPATIBLE-SURVIVOR",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-KNOWABILITY-POSITIVE-COMPATIBLE-SURVIVOR",
+  "inference_ids": [
+    "INF-KNOWABILITY-POSITIVE-COMPATIBLE-SURVIVOR"
+  ],
+  "meaning": "Use the earlier modal equivalence for both epistemic and modal accessibility on the same four worlds and atom-invariant content family. Import its S5 properties and Boolean/nonconstant atom checks, prove the biconditional by content invariance, and compose admittedKnown. This jointly witnesses the three collapse assumptions with a true and a false value of an admitted nonconstant atom. It establishes nonvacuity of the formal background, not actual human knowledge or philosophical premise truth.",
+  "definition_ids": [
+    "DEF-FITCH-WORLD-INDEXED-KNOWLEDGE",
+    "DEF-FITCH-ADMISSIBLE-CONTENTS",
+    "DEF-KNOWABILITY-MODAL-COMPATIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FITCH-OPERATOR-SCOPE"
+  ]
+}

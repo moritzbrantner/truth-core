@@ -1,0 +1,10 @@
+{
+  "id": "KNOWABILITY-COMPATIBLE-COLLAPSE",
+  "argument_id": "KNOWABILITY-COMPATIBLE-COLLAPSE",
+  "challenge_module": "TruthCore.Results.Logic.KnowabilityCompatibility.Challenge",
+  "solution_module": "TruthCore.Results.Logic.KnowabilityCompatibility.Solution",
+  "theorem": "TruthCore.Results.Logic.KnowabilityCompatibility.admittedKnown",
+  "comparator_config": "results/KNOWABILITY-COMPATIBLE-COLLAPSE/comparator.json",
+  "status": "solution-present",
+  "description": "Given a true admitted content at w, forward knowability supplies an R-successor v knowing it. Every E-successor u of w is an R-successor by inclusion; Euclideanness gives R(u,v). Reverse knowability at u then gives truth at u, hence relational knowledge at w. No factivity, reflexivity, epistemic transitivity, Moore closure, classical stability or actuality-index transport is used. This is a conditional consequence under the explicit stronger biconditional, not a proof of its applicability or unrestricted omniscience."
+}
