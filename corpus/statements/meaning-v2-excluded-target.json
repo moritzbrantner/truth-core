@@ -1,0 +1,17 @@
+{
+  "id": "STMT-MEANING-V2-EXCLUDED-TARGET",
+  "paraphrase": "An in-scope cognitively meaningless content has a negation that does not entail some observation statement. This target-specific demand is independent of the V2 criterion.",
+  "lean_declaration": "TruthCore.Logic.MeaningDefinitionFork.V2ExcludedTarget",
+  "definition_ids": [
+    "DEF-MEANING-CRITERION-CALIBRATION",
+    "DEF-MEANING-V1-DEFINITION",
+    "DEF-MEANING-V2-DEFINITION",
+    "DEF-MEANING-V3-DEFINITION",
+    "DEF-MEANING-ALL-IN-SCOPE",
+    "DEF-MEANING-NAMED-COVERAGE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-VERIFICATIONIST-MEANINGFUL",
+    "DISAMB-MEANING-DEFINITION-CALIBRATIONS"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.ComposerTemporalDefinitions.PersistenceStrength.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ComposerTemporalDefinitions.PersistenceStrength.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.ComposerTemporalDefinitions.PersistenceStrength.persistenceStrength"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

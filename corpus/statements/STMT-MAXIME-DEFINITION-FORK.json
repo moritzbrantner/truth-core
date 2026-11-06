@@ -1,0 +1,13 @@
+{
+  "id": "STMT-MAXIME-DEFINITION-FORK",
+  "paraphrase": "For each supplied preorder/profile, named superlative calibrations cover or all three fail. Structural coverage conditional on explicit excluded middle; not independent proof of named philosophical coverage.",
+  "lean_declaration": "TruthCore.Causality.MaximumDefinitionFork.DefinitionFork",
+  "definition_ids": [
+    "DEF-MAXIMUM-CALIBRATION-PROFILE",
+    "DEF-MAXIMUM-IN-A-PERFECTION",
+    "DEF-GREATEST-DEGREE-IN-A-PERFECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MAXIME-ENS"
+  ]
+}

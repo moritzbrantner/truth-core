@@ -1,0 +1,17 @@
+{
+  "id": "STMT-MEANING-NOT-V1-GLOBAL",
+  "paraphrase": "V1 does not calibrate cognitive meaning across this whole language. Explicit open rejection premise; not a conclusion merely from failed proof search.",
+  "lean_declaration": "TruthCore.Logic.MeaningDefinitionFork.NotV1GlobalDefinition",
+  "definition_ids": [
+    "DEF-MEANING-CRITERION-CALIBRATION",
+    "DEF-MEANING-V1-DEFINITION",
+    "DEF-MEANING-V2-DEFINITION",
+    "DEF-MEANING-V3-DEFINITION",
+    "DEF-MEANING-ALL-IN-SCOPE",
+    "DEF-MEANING-NAMED-COVERAGE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-VERIFICATIONIST-MEANINGFUL",
+    "DISAMB-MEANING-DEFINITION-CALIBRATIONS"
+  ]
+}

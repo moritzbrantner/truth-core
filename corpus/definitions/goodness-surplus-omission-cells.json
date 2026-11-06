@@ -1,0 +1,8 @@
+{
+  "id": "DEF-GOODNESS-SURPLUS-OMISSION-CELLS",
+  "term": "surplus goodness and omitted due goodness",
+  "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.SurplusGood",
+  "basis": "stipulative",
+  "definition": "SurplusGood f means ∃ x p, GoodIn x p ∧ ¬DueActuality f x p. OmittedDueGood f means ∃ x p, DueActuality f x p ∧ ¬GoodIn x p. The structural fork covers exact coextension or at least one such counterexample, under explicit excluded middle.",
+  "note": "Cells characterize deviations from the proposed extension and can overlap, as mixedArtifact verifies. Defeating both is equivalent to the extensional thesis under excluded middle; the fork supplies no independent philosophical reason to defeat them. Named schools need not occupy only one cell."
+}

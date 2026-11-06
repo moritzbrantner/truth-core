@@ -1,0 +1,12 @@
+{
+  "id": "STMT-EVERY-ACTUAL-PERFECTION-IS-DUE-TO-FORM-AND-END",
+  "paraphrase": "Open profile/domain bridge: every perfection actually possessed by a bearer is due under that bearer’s supplied form and end. This is an additional substantive condition, not a consequence of the owner’s due-goodness proposal; the fixed artifact control contains an actual non-due perfection.",
+  "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.AllActualitiesDue",
+  "definition_ids": [
+    "DEF-FORM-END-DUE-PERFECTION",
+    "DEF-GOODNESS-DUE-ACTUALITY-PROPOSITION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOODNESS-UNRESTRICTED-DUE-AND-ULTIMATE"
+  ]
+}

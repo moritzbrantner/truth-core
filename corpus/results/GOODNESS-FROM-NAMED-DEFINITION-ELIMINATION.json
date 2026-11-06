@@ -1,0 +1,10 @@
+{
+  "id": "GOODNESS-FROM-NAMED-DEFINITION-ELIMINATION",
+  "argument_id": "GOODNESS-FROM-NAMED-DEFINITION-ELIMINATION",
+  "challenge_module": "TruthCore.Results.Metaethics.GoodnessSemanticElimination.Challenge",
+  "solution_module": "TruthCore.Results.Metaethics.GoodnessSemanticElimination.Solution",
+  "theorem": "TruthCore.Results.Metaethics.GoodnessSemanticElimination.dueFromSemanticElimination",
+  "comparator_config": "results/GOODNESS-FROM-NAMED-DEFINITION-ELIMINATION/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional elimination from FOUR open premises: weak semantic/coextension named coverage, one correct admissible account, and actual correctness failure of the feature and approval accounts. No candidate-identity coverage is needed. It does not establish the owner proposition, defeat complete historical theories, or close the existing root goodness leaf. The extension-different fourth-account model pinpoints why coverage is needed."
+}

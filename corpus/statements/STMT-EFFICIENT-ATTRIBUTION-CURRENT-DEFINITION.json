@@ -1,0 +1,11 @@
+{
+  "id": "STMT-EFFICIENT-ATTRIBUTION-CURRENT-DEFINITION",
+  "paraphrase": "Explicit open analyst calibration: the independently supplied temporally unspecified efficient-cause attribution holds exactly when efficient activity holds at the selected evaluation time, with the SAME beings and respect. Does not assert any actual attribution follows this reading.",
+  "lean_declaration": "TruthCore.Causality.ComposerTemporalDefinitionFork.CurrentDefinition",
+  "definition_ids": [
+    "DEF-COMPOSER-TEMPORAL-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNITING-CAUSE"
+  ]
+}

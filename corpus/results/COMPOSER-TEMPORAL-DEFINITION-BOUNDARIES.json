@@ -1,0 +1,10 @@
+{
+  "id": "COMPOSER-TEMPORAL-DEFINITION-BOUNDARIES",
+  "argument_id": "COMPOSER-TEMPORAL-DEFINITION-BOUNDARIES",
+  "challenge_module": "TruthCore.Results.Causality.ComposerTemporalDefinitions.Boundaries.Bound.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ComposerTemporalDefinitions.Boundaries.Bound.Solution",
+  "theorem": "TruthCore.Results.Causality.ComposerTemporalDefinitions.Boundaries.Bound.boundaries",
+  "comparator_config": "results/COMPOSER-TEMPORAL-DEFINITION-BOUNDARIES/comparator.json",
+  "status": "solution-present",
+  "description": "Finite survival, overlap, strictness and remainder interpretations; no actual causal or temporal proposition established."
+}

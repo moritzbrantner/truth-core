@@ -1,0 +1,11 @@
+{
+  "id": "TEMPORAL-DEFINITION-FROM-NAMED-COVERAGE",
+  "argument_id": "TEMPORAL-DEFINITION-FROM-NAMED-COVERAGE",
+  "challenge_module": "TruthCore.Results.Causality.ComposerTemporalDefinitions.NamedElimination.Bound.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ComposerTemporalDefinitions.NamedElimination.Bound.Solution",
+  "theorem": "TruthCore.Results.Causality.ComposerTemporalDefinitions.NamedElimination.Bound.namedElimination",
+  "comparator_config": "results/TEMPORAL-DEFINITION-FROM-NAMED-COVERAGE/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional disjunct elimination: coverage plus actual negation of selected-time calibration yields temporal calibration. Failure of selected-time calibration without coverage is insufficient.",
+  "transcription": "instantiation"
+}

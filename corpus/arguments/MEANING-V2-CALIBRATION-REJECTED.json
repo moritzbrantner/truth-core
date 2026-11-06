@@ -1,0 +1,23 @@
+{
+  "id": "MEANING-V2-CALIBRATION-REJECTED",
+  "premise_statement_ids": [
+    "STMT-MEANING-V2-EXCLUDED-TARGET"
+  ],
+  "conclusion_statement_id": "STMT-MEANING-NOT-V2",
+  "inference_ids": [
+    "INF-MEANING-V2-CALIBRATION-REJECTED"
+  ],
+  "meaning": "Compose the existing unrestricted-auxiliary construction with the independent excluded target. The V2 admission contradicts its calibration at that exact target; no inference from meaninglessness to untruth.",
+  "definition_ids": [
+    "DEF-MEANING-CRITERION-CALIBRATION",
+    "DEF-MEANING-V1-DEFINITION",
+    "DEF-MEANING-V2-DEFINITION",
+    "DEF-MEANING-V3-DEFINITION",
+    "DEF-MEANING-ALL-IN-SCOPE",
+    "DEF-MEANING-NAMED-COVERAGE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-VERIFICATIONIST-MEANINGFUL",
+    "DISAMB-MEANING-DEFINITION-CALIBRATIONS"
+  ]
+}

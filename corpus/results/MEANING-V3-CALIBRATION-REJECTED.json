@@ -1,0 +1,11 @@
+{
+  "id": "MEANING-V3-CALIBRATION-REJECTED",
+  "argument_id": "MEANING-V3-CALIBRATION-REJECTED",
+  "challenge_module": "TruthCore.Results.Logic.MeaningDefinitionFork.V3RejectionBound.Challenge",
+  "solution_module": "TruthCore.Results.Logic.MeaningDefinitionFork.V3RejectionBound.Solution",
+  "theorem": "TruthCore.Results.Logic.MeaningDefinitionFork.V3RejectionBound.v3Rejection",
+  "comparator_config": "results/MEANING-V3-CALIBRATION-REJECTED/comparator.json",
+  "status": "solution-present",
+  "description": "Instantiation/composition of the existing correctly calibrated V3 package refutation. Retains independent negation closure, Church setting and excluded negation. Does not apply a bare criterion verdict as cognitive meaning.",
+  "transcription": "instantiation"
+}
