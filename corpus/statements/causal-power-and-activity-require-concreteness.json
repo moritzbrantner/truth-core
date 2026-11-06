@@ -14,5 +14,25 @@
     "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE",
     "DISAMB-CONCRETE-ABSTRACT-CRITERIA"
   ],
-  "note": "Owner formulation, not a source claim or established metaphysical truth. The Lean declaration defines the two-clause proposition; it does not prove either clause. The concreteness sense was fixed by the owner on #1103 (2026-11-06): https://github.com/moritzbrantner/truth-core/issues/1103#issuecomment-6683616439. The proposition does not use exhaustiveness; for the adopted sense exhaustiveness is separately derived from excluded middle (CONCRETE-ABSTRACT-ESSE-DICHOTOMY). See docs/notes/causal-power-concreteness.md and docs/notes/concrete-abstract.md. No argument/result or root closure is registered."
+  "note": "Owner formulation, not a source claim or established metaphysical truth. The Lean declaration defines the two-clause proposition; it does not prove either clause. The concreteness sense was fixed by the owner on #1103 (2026-11-06): https://github.com/moritzbrantner/truth-core/issues/1103#issuecomment-6683616439. The proposition does not use exhaustiveness; for the adopted sense exhaustiveness is separately derived from excluded middle (CONCRETE-ABSTRACT-ESSE-DICHOTOMY). See docs/notes/causal-power-concreteness.md and docs/notes/concrete-abstract.md. No argument/result or root closure is registered.",
+  "self_evident": {
+    "basis": "common_ground",
+    "justification_ids": [
+      "CAUSAL-POWER-CONCRETENESS-FROM-OPERARI"
+    ],
+    "disagreement": {
+      "rival_statement_ids": [
+        "STMT-MATHEMATICAL-FACTS-ARE-CAUSALLY-RELEVANT",
+        "STMT-PLATONIC-FORMS-ARE-EFFICIENT-CAUSES",
+        "STMT-SOME-CAUSE-LACKS-ESSE-IN-RE",
+        "STMT-SOME-CAUSES-ARE-SETS"
+      ],
+      "note": "Also recorded: the SEP 'Abstract Objects' §3.2 participation problem (no account says what participation in an event makes an object a cause), an objection to the principle's application rather than a rival thesis."
+    },
+    "owner_approval": {
+      "decision": "https://github.com/moritzbrantner/truth-core/issues/1103#issuecomment-6683616439",
+      "date": "2026-11-06"
+    },
+    "note": "Floor item (#1007 mechanism), approved by the owner on #1103 (2026-11-06) in its WEAK version: efficient/productive causes (Ontic.Causes) and bearers of causal power are concrete, in the adopted sense of having esse in re. The strong version STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS-STRONG (causes in every sense: formal, final, exemplar, explanatory; strengthens relation REL-CAUSAL-POWER-CONCRETENESS-STRONG-STRENGTHENS-WEAK) is not approved; it would conflict with exemplar causation on the Fourth Way route (STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS) and with Aristotelian formal and final causes. Justification: the owner asked for a derivation as well, and CAUSAL-POWER-CONCRETENESS-FROM-OPERARI derives this statement from operari sequitur esse (ST I q.75 a.2; q.25 a.1) and STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING; its premises are still open, so the approval, not the derivation, is what establishes the item. Recorded rivals are stated at full strength and stay unrefuted."
+  }
 }

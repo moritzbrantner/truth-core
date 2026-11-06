@@ -1,0 +1,11 @@
+{
+  "id": "STMT-AQUINAS-OPERATION-ONLY-OF-BEING-IN-ACT",
+  "paraphrase": "At the selected world, whatever causes something is in act in some respect: operating, such as a hot thing's heating, belongs only to a being in act. It does not say in which respect, and it says nothing about being, subsistence or the mode of the operation.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.OperationFollowsBeing.OperationOnlyOfBeingInActReading",
+  "definition_ids": [
+    "DEF-ACT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT"
+  ]
+}

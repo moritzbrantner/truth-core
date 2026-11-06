@@ -1,0 +1,12 @@
+{
+  "id": "STMT-AQUINAS-ACTIVE-POWER-ONLY-IN-ACT",
+  "paraphrase": "At the selected world, whatever has causal power, an active power or principle of acting on another, is in act in some respect: each thing is an active principle insofar as it is in act. Neither the converse nor any degree of power is included.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.OperationFollowsBeing.ActivePowerOnlyInsofarAsInActReading",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT"
+  ]
+}

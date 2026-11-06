@@ -15,6 +15,7 @@ import TruthCore.Causality.BruteFoundationDoubling
 import TruthCore.Causality.BruteFoundationExplanations
 import TruthCore.Causality.BruteFoundationRoutes
 import TruthCore.Causality.CausalPowerConcreteness
+import TruthCore.Causality.CausalPowerConcretenessStrength
 import TruthCore.Causality.ChainInstantiation
 import TruthCore.Causality.CogitoNecessaryConcrete
 import TruthCore.Causality.CommonPriority

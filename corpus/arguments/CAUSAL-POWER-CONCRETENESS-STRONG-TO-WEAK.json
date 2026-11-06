@@ -1,0 +1,14 @@
+{
+  "id": "CAUSAL-POWER-CONCRETENESS-STRONG-TO-WEAK",
+  "premise_statement_ids": [
+    "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS-STRONG"
+  ],
+  "conclusion_statement_id": "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS",
+  "inference_ids": [
+    "INF-CAUSAL-POWER-CONCRETENESS-STRONG-TO-WEAK"
+  ],
+  "meaning": "Strength order (#1017): the strong causal-power concreteness principle (every causal sense) entails the weak, owner-approved one (efficient causation and causal power).",
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA"
+  ]
+}

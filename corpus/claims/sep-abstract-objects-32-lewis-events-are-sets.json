@@ -1,0 +1,15 @@
+{
+  "id": "SEP-ABSTRACT-OBJECTS-32-LEWIS-EVENTS-ARE-SETS",
+  "statement_id": "STMT-SOME-CAUSES-ARE-SETS",
+  "source_id": "SEP-ABSTRACT-OBJECTS-2020",
+  "locator": "3.2: some writers identify ordinary physical events—causally efficacious items par excellence—with sets",
+  "interpretation": "Rosen reports that 'some writers identify ordinary physical events—causally efficacious items par excellence—with sets', for Lewis an event being an ordered pair of a region of spacetime and a set of such regions (Lewis 1986b), and that on this account 'it would be disastrous to say both that impure sets are abstract objects, and that abstract objects are non-causal'. Read here: on this view some causes are sets. Rosen reports the view; he does not endorse it. That sets are abstract in the adopted esse sense is the corpus anchor, not his claim.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ABSTRACT-NO-ESSE-IN-RE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA"
+  ],
+  "attribution": "The passage states that on the view of some writers, Lewis among them, ordinary physical events, which are causally efficacious items par excellence, are sets, which is the premise."
+}

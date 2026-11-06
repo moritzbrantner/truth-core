@@ -1,0 +1,12 @@
+{
+  "id": "STMT-PLATONIC-FORMS-ARE-EFFICIENT-CAUSES",
+  "paraphrase": "Platonic Forms are causes in the productive sense: the Form of the beautiful does not merely explain why beautiful things are beautiful but brings it about, while being separate from sensible things.",
+  "definition_ids": [
+    "DEF-ABSTRACT-NO-ESSE-IN-RE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-PLATONIC-CAUSE"
+  ],
+  "note": "Productive reading of Phaedo 100b–e, attribution deferred. SEP 'Abstract Objects' §2 says 'Plato's Forms were supposed to be causes par excellence' (navigation; §2 is outside the pinned claim locators). The corpus's own reading of 100d–e (STMT-PLATONIC-EXPLANATORY-PARTICIPATION, DISAMB-PLATONIC-CAUSE) is explanatory and does not conflict with the weak (efficient) version. The rival bites only if the Forms are also abstract in the adopted sense, i.e. lack esse in re. Aquinas (ST I q.85 a.1 ad 2, AQUINAS-ST-I-Q85-A1-AD2-MATHEMATICALS-ABSTRACTED) reads Plato as positing them as existing 'secundum rem'; on that reading separate Forms would have esse in re, would count as concrete, and would be no rival."
+}

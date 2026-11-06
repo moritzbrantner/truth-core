@@ -1,0 +1,31 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "AQUINAS-ST",
+    "source_url": "https://www.corpusthomisticum.org/sth1015.html",
+    "sha256": "sha256:0a3b2a9df913578c6cb94c13cb517544f776ee7555f46569bbfd0562d92ed0d4",
+    "encoding": "iso-8859-1",
+    "language": "lat",
+    "retrieved_at": "2026-11-06T11:24:40Z",
+    "license": "Latin text: Leonine edition; electronic transcription by Roberto Busa, reviewed by Enrique Alarcón. The page claims ©2019 Fundación Tomás de Aquino, all rights reserved for this electronic edition. Only metadata, hashes, locators and short incipits are committed."
+  },
+  "passages": [
+    {
+      "id": "AQUINAS-ST-I-Q25-A1",
+      "locator": "I q.25 a.1 (arguments, sed contra, corpus, replies)",
+      "claim_locator_prefixes": [
+        "I q.25 a.1 "
+      ],
+      "html_selector": {
+        "from": {
+          "anchor": "29490"
+        },
+        "to": {
+          "anchor": "29500"
+        }
+      },
+      "text_sha256": "sha256:c94e909530fbd35fe8e127ad93a60f1c43e569b48365ec0e7b99d5b0a2db658d",
+      "incipit": "[29490] Iª q. 25 a. 1 arg. 1 Ad primum sic proceditur. Videtur quod in Deo non"
+    }
+  ]
+}
