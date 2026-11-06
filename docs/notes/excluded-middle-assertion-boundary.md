@@ -22,16 +22,19 @@ an explicit premise; it is not replaced by a weaker attributed reading.
 
 ## What the marker controls establish
 
-With object-level excluded middle supplied explicitly, no-assertion/no-proof
-markers satisfy the encoded withholding package alongside excluded middle.
+The first exported witness satisfies the encoded withholding package,
+object-level excluded middle and failure of universal assertion. Object-level
+excluded middle is supplied explicitly. The implementation chooses
+no-assertion/no-proof markers; those extra properties are not exported.
 The checked constructive irrefutability result is imported rather than
 reproved. This demonstrates compatibility of these exact encoded formulas.
 It is **not** a classical semantics attributed to intuitionism, a complete
 intuitionist model, or a theory of epistemic access.
 
-A mixed two-stage marker structure asserts every content at one stage with
-no proof markers and asserts none at the other. Full withholding fails its
-proof requirement, while universal assertion fails at the other stage. Thus
+The second exported witness fails both the full withholding package and
+universal assertion. Its implementation uses two stages, asserting every
+content with no proof markers at one stage and none at the other; the mixed
+stage behavior is not an additional exported property. Thus
 refuting the full raw package would not by itself establish the universal
 assertion policy either. A logical negative target is needed for that role.
 
