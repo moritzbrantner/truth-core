@@ -1,0 +1,20 @@
+{
+  "id": "ACTUAL-MESSAGE-ONLY-REJECTS-CATHOLIC-MANDATE-SCOPE",
+  "premise_statement_ids": [
+    "STMT-JESUS-MANDATE-COVERS-ONLY-MESSAGE",
+    "STMT-ACTUAL-MANDATED-CATHOLIC-FOUNDING"
+  ],
+  "conclusion_statement_id": "STMT-CATHOLIC-MANDATE-SCOPE-REJECTED",
+  "inference_ids": [
+    "INF-ACTUAL-MESSAGE-ONLY-REJECTS-CATHOLIC-MANDATE-SCOPE"
+  ],
+  "meaning": "Reuse FoundingScope.messageRival_excludes_scope with an actual mandate and founded visible Catholic body; the raw conditional alone does not negate the other conditional.",
+  "definition_ids": [
+    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
+    "DEF-COMMISSION-REPORT-POWERS",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMMISSION-REPORT-AND-EVENT"
+  ]
+}

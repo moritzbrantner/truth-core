@@ -1,0 +1,13 @@
+{
+  "id": "STMT-HISTORICAL-COMMISSION-BUNDLE-REJECTED",
+  "paraphrase": "Exact negation of STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS on the same Commissioning: not both Matthew28 and at least one of the four governing commissions go back to Jesus. No literal textual report is negated.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.MessageReportBoundary.HistoricalCommissionBundleRejected",
+  "definition_ids": [
+    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
+    "DEF-COMMISSION-REPORT-POWERS",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMMISSION-REPORT-AND-EVENT"
+  ]
+}

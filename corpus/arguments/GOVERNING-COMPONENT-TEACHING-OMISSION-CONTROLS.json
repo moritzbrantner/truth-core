@@ -1,0 +1,17 @@
+{
+  "id": "GOVERNING-COMPONENT-TEACHING-OMISSION-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-GOVERNING-COMPONENTS-DO-NOT-FORCE-TEACHING-SCOPE",
+  "inference_ids": [
+    "INF-GOVERNING-COMPONENT-TEACHING-OMISSION-CONTROLS"
+  ],
+  "meaning": "Two nonempty omission controls retain the needed counterpart input while replacing only the original link or historical bundle by its weaker governing-only projection. Teaching scope fails; the old narrow-scope proof genuinely needs more than these projections.",
+  "definition_ids": [
+    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
+    "DEF-COMMISSION-REPORT-POWERS",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMMISSION-REPORT-AND-EVENT"
+  ]
+}

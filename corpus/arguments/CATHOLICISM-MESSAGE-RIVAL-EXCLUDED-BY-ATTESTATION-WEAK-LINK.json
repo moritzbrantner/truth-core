@@ -1,0 +1,28 @@
+{
+  "id": "CATHOLICISM-MESSAGE-RIVAL-EXCLUDED-BY-ATTESTATION-WEAK-LINK",
+  "premise_statement_ids": [
+    "STMT-GOVERNING-EVENT-INSTITUTION-LINK",
+    "STMT-JOHN-COMMISSION-INDEPENDENT-OF-MATTHEW",
+    "STMT-HEAVEN-RATIFIED-ATTESTATION-CRITERION"
+  ],
+  "conclusion_statement_id": "STMT-MESSAGE-RIVAL-EXCLUDED-GIVEN-FOUNDING",
+  "inference_ids": [
+    "INF-CATHOLICISM-MESSAGE-RIVAL-EXCLUDED-BY-ATTESTATION-WEAK-LINK"
+  ],
+  "meaning": "Reuse attestation_gives_governing and the weak governing-event link to exclude the message rival whenever an actual mandate/founded-visible-body antecedent holds. The old institutional teaching component is unnecessary; original Challenge retained as a legacy interface.",
+  "definition_ids": [
+    "DEF-SKELETON-OPEN-PREDICATES",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY",
+    "DEF-COMMISSION-REPORT-POWERS",
+    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
+    "DEF-HEAVEN-RATIFIED-POWER",
+    "DEF-INDEPENDENT-ATTESTATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FOUNDED-BY-GOD",
+    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS",
+    "DISAMB-COMMISSION-REPORT-AND-EVENT",
+    "DISAMB-ATTESTATION-OF-POWER-AND-FAMILY"
+  ]
+}

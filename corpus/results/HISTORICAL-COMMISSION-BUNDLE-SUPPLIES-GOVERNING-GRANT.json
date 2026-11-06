@@ -1,0 +1,11 @@
+{
+  "id": "HISTORICAL-COMMISSION-BUNDLE-SUPPLIES-GOVERNING-GRANT",
+  "argument_id": "HISTORICAL-COMMISSION-BUNDLE-SUPPLIES-GOVERNING-GRANT",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Grant.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Grant.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.historicalBundleGivesGoverning",
+  "comparator_config": "results/HISTORICAL-COMMISSION-BUNDLE-SUPPLIES-GOVERNING-GRANT/comparator.json",
+  "status": "solution-present",
+  "description": "Import the existing commission_reports_give_teach_and_governing theorem and project its governing witness; no report/event inference is added.",
+  "transcription": "assembly"
+}
