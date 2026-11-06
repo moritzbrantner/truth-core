@@ -1,0 +1,9 @@
+{
+  "id": "REL-CCC-185-189-SUPPORTS-ORDINARY-USE-CONFESSES",
+  "subject_kind": "claim",
+  "subject_id": "CCC-185-189-CREED-PROFESSED",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-ORDINARY-USE-CONFESSES-ONE-TRUE-GOD",
+  "note": "The creed is the common, normative language of faith that Christians profess, first at Baptism. Gap: the Catechism describes the profession; how ordinary believers understand it, and that it is a confession in the sense of DEF-CONFESSES-REFERENT, is the reading."
+}
