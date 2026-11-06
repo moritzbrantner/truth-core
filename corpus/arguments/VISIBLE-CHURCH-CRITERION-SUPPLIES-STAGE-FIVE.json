@@ -1,0 +1,21 @@
+{
+  "id": "VISIBLE-CHURCH-CRITERION-SUPPLIES-STAGE-FIVE",
+  "premise_statement_ids": [
+    "STMT-CHURCH-HAS-VISIBLE-CRITERION",
+    "STMT-CHRIST-FOUNDED-SELECTED-CHURCH"
+  ],
+  "conclusion_statement_id": "STMT-CHRIST-FOUNDED-VISIBLE-CHURCH",
+  "inference_ids": [
+    "INF-VISIBLE-CHURCH-CRITERION-SUPPLIES-STAGE-FIVE"
+  ],
+  "meaning": "Definition-projection transcription: obtain the selected founded Church witness and preserve that same society through the visible calibration. This connects directly to the original stage-5 proposition, without supplying history or identity.",
+  "definition_ids": [
+    "DEF-CHURCH-CRITERION-CALIBRATION",
+    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY",
+    "DEF-CHURCH-SPIRITUAL-COMMUNITY",
+    "DEF-SKELETON-OPEN-PREDICATES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS"
+  ]
+}

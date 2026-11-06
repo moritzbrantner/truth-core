@@ -1,0 +1,14 @@
+{
+  "id": "STMT-CHURCH-CRITERION-CASES-COVER",
+  "paraphrase": "The visible, spiritual, joint-aspect or explicit further Church-extension case holds. Structural coverage uses explicit excluded middle; named-only coverage remains a separate open proposition and the named cases need not be exclusive.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.ChurchDefinitions.ChurchCriterionCases",
+  "definition_ids": [
+    "DEF-CHURCH-CRITERION-CALIBRATION",
+    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY",
+    "DEF-CHURCH-SPIRITUAL-COMMUNITY",
+    "DEF-SKELETON-OPEN-PREDICATES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS"
+  ]
+}

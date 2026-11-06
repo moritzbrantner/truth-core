@@ -4,7 +4,8 @@
   "lean_declaration": "TruthCore.Case.Catholicism.ChristFoundedVisibleChurch",
   "definition_ids": [
     "DEF-SKELETON-OPEN-PREDICATES",
-    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY"
+    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY",
+    "DEF-CHURCH-CRITERION-CALIBRATION"
   ],
   "disambiguation_ids": [
     "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS"

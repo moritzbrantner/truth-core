@@ -1,0 +1,24 @@
+{
+  "id": "ATTEMPT-CHURCH-DEFINITION-CALIBRATION-AUDIT",
+  "date": "2026-11-06",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "statement_ids": [
+    "STMT-CHRIST-FOUNDED-VISIBLE-CHURCH",
+    "STMT-CHURCH-HAS-VISIBLE-CRITERION",
+    "STMT-CHURCH-HAS-SPIRITUAL-CRITERION",
+    "STMT-CHURCH-HAS-JOINT-ASPECT-CRITERION",
+    "STMT-CHURCH-NAMED-CRITERIA-COVER",
+    "STMT-CHURCH-HAS-ADDITIONAL-CRITERION",
+    "STMT-CHRIST-FOUNDED-SELECTED-CHURCH"
+  ],
+  "summary": "Whole-corpus definition audit, Church cluster: the existing sourced visible/spiritual aspect distinction is preserved; analyst visible, spiritual and joint-aspect Church criteria are now independent extension-calibration propositions on the same Society carrier. Structural EM coverage retains a precise additional extension; named coverage is an open premise, not an ecclesiology census. A selected historical founding witness plus visible or joint calibration reaches the existing stage-5 type in standalone registered results. Named coverage plus actual negation of spiritual calibration also reaches stage 5 by composing those results. Six controls witness triple overlap, spiritual-only calibration with stage5 false, visible-only with stage5 true, nonempty joint-only criterion, and a further criterion with both target verdicts. Rejected: spiritual means invisible; visible criterion denies spiritual communion; aspect distinctions imply different societies; spiritual calibration insufficient for stage5 is false; a further extension automatically opposes stage5; Church naming supplies an actual founding event; or visible aspects identify a modern Catholic society. No existing source claim or frozen Challenge changed. Findings and proof boundaries persist in docs/founding-authorization-source.md.",
+  "evidence": [
+    "VISIBLE-CHURCH-CRITERION-SUPPLIES-STAGE-FIVE",
+    "JOINT-ASPECT-CHURCH-CRITERION-SUPPLIES-STAGE-FIVE",
+    "CHURCH-DEFINITION-CASES-WITH-REMAINDER",
+    "CHURCH-NAMED-CRITERION-ELIMINATION-SUPPLIES-STAGE-FIVE",
+    "CHURCH-DEFINITION-INTERPRETATION-MODELS"
+  ],
+  "blocker": "Historical founding, application of the selected criteria, named coverage and actual negation of a candidate remain open. These schema criteria do not encode individual membership, full sacramental/jurisdictional doctrine or a census of real ecclesiologies. No spiritual-only definition by itself refutes the old visible-founded-society target: a negative route would additionally need a scope premise covering every founded visible society by the selected Church predicate. Stage-6 identity remains separate."
+}

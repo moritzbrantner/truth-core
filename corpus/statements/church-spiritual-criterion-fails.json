@@ -1,0 +1,14 @@
+{
+  "id": "STMT-CHURCH-SPIRITUAL-CRITERION-FAILS",
+  "paraphrase": "The selected Church predicate does not coextend with the selected spiritual criterion. This is actual negation of that calibration, not the claim that spiritual community is false or that the calibration is merely insufficient for stage 5.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.ChurchDefinitions.SpiritualCriterionFails",
+  "definition_ids": [
+    "DEF-CHURCH-CRITERION-CALIBRATION",
+    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY",
+    "DEF-CHURCH-SPIRITUAL-COMMUNITY",
+    "DEF-SKELETON-OPEN-PREDICATES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS"
+  ]
+}

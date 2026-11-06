@@ -1,0 +1,21 @@
+{
+  "id": "JOINT-ASPECT-CHURCH-CRITERION-SUPPLIES-STAGE-FIVE",
+  "premise_statement_ids": [
+    "STMT-CHURCH-HAS-JOINT-ASPECT-CRITERION",
+    "STMT-CHRIST-FOUNDED-SELECTED-CHURCH"
+  ],
+  "conclusion_statement_id": "STMT-CHRIST-FOUNDED-VISIBLE-CHURCH",
+  "inference_ids": [
+    "INF-JOINT-ASPECT-CHURCH-CRITERION-SUPPLIES-STAGE-FIVE"
+  ],
+  "meaning": "Definition-projection transcription: the selected founded Church witness has both aspects by the joint calibration, so that same society satisfies the old visible criterion. No second body or Catholic identity is substituted.",
+  "definition_ids": [
+    "DEF-CHURCH-CRITERION-CALIBRATION",
+    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY",
+    "DEF-CHURCH-SPIRITUAL-COMMUNITY",
+    "DEF-SKELETON-OPEN-PREDICATES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS"
+  ]
+}

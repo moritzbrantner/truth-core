@@ -377,6 +377,49 @@ is used. A future rule may instead preserve the intended universal-body
 scope, but that restriction and its source justification must be explicit.
 (PR #421:) This section made no change to either predicate or statement; the 2026-10-27 section and `DISAMB-FOUNDED-BY-GOD` now fix the envoy reading of `FoundedAsTeachingAuthority`.
 
+## Church criteria and the visible-stage target (analyst reconstruction, 2026-11-06)
+
+`ChurchDefinitions` makes three coextension propositions independent: a selected
+Church predicate matches the existing visible criterion, a selected spiritual
+criterion, or both criteria on the same society objects. They do not separate
+one complex body into societies. Spiritual does not mean invisible; a visible
+criterion does not deny inward communion. No universal biconditional is newly
+attributed to Lumen gentium, and existing source definitions/claims retain their
+exact reading.
+
+`CHURCH-DEFINITION-CASES-WITH-REMAINDER` checks visible, spiritual, joint, or a
+selected extension matching none, using explicit EM. Named-only coverage stays
+an open proposition. The further option is an actual difference of extension,
+not a new label, and the model controls let it admit or deny stage 5. It opposes
+named coverage, not the old visible-founded-society claim. Neither this profile
+nor its named criteria is asserted to exhaust historical ecclesiologies.
+
+The standalone `VISIBLE-CHURCH-CRITERION-SUPPLIES-STAGE-FIVE` and
+`JOINT-ASPECT-CHURCH-CRITERION-SUPPLIES-STAGE-FIVE` results carry an explicit
+selected founding witness through its corresponding calibration into the
+unchanged `ChristFoundedVisibleChurch` conclusion. They are definition-projection
+transcriptions, not historical defenses. The named-elimination result assumes
+named coverage and actual negation of the spiritual calibration, then imports
+those two connections. A model showing spiritual calibration insufficient for
+the target is not its negation and cannot eliminate that disjunct.
+
+Six controls witness triple overlap, spiritual calibration with the target
+false, visible calibration with the target true, a nonempty joint-only Church
+extension, and further extensions giving both target verdicts. The joint-only
+control contains a common body satisfying both aspects plus additional bodies
+satisfying just one aspect, so nonempty intersection does not identify the
+extensions. These are schema society labels, not actual Churches or full models
+of an ecclesiology.
+
+The old target asks only whether some visible society was founded; it does not
+include the selected Church predicate. Consequently even an added claim that
+every selected Church is invisible would not by itself negate that target: a
+separate scope premise would have to cover every founded visible society by
+the selected predicate. No such premise is smuggled in. Membership, jurisdiction,
+modern-body identity and the stage-6 historical identity remain separate open
+questions. The new historical witness, calibrations and named coverage are open
+research inputs; conditional connections establish none of them or the root.
+
 ## Rejected shortcuts and the next obligation
 
 - The existing pilot `AuthorityVindicated` field does not encode a sending,

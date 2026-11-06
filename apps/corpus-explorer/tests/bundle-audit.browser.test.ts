@@ -119,7 +119,7 @@ test("naming route exposes one-way applications, witness identity and explicit e
   for (const id of ids) {
     await page.goto(`${base}results/${id}/#bundle-audit`);
     const panel = page.getByRole("region", { name: "Bounded bundle audit", exact: true });
-    expect(await panel.locator("[data-audit-coverage]").innerText()).toContain("161 record dispositions");
+    expect(await panel.locator("[data-audit-coverage]").innerText()).toContain("162 record dispositions");
     expect(await panel.innerText()).toContain("DecidableEq Principle");
     expect(await panel.innerText()).toContain("FirstUnmovedMoverExistsOrNot");
     expect(await panel.innerText()).toContain("same witness");
