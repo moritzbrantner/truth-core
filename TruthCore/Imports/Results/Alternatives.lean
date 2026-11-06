@@ -14,6 +14,12 @@ public import TruthCore.Results.Alternatives.McTaggartDefeatedByChange.Solution
 public import TruthCore.Results.Alternatives.McTaggartUnrealityOfTimeRefuted.Solution
 public import TruthCore.Results.Alternatives.MegarianAbolishesMotion.Solution
 public import TruthCore.Results.Alternatives.MegarianCapacityCore.Solution
+public import TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.AnalysisStrength.Solution
+public import TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.Controls.Solution
+public import TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.CountercaseFailure.Solution
+public import TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.Coverage.Solution
+public import TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.GuardedCountercase.Solution
+public import TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.RawCounterProjection.Solution
 public import TruthCore.Results.Alternatives.NightActualizationCore.Solution
 public import TruthCore.Results.Alternatives.NightActualizationFork.Solution
 public import TruthCore.Results.Alternatives.PerSeCausalLoopImpossible.Solution
@@ -21,3 +27,13 @@ public import TruthCore.Results.Alternatives.PhysicalGround.Solution
 public import TruthCore.Results.Alternatives.PotencyAnalysisPartition.Solution
 public import TruthCore.Results.Alternatives.RespectAlternatingCycle.Solution
 public import TruthCore.Results.Alternatives.RespectSwitch.Solution
+public import TruthCore.Results.Alternatives.RevelationRecognition.Actual.Solution
+public import TruthCore.Results.Alternatives.RevelationRecognition.Admissibility.Solution
+public import TruthCore.Results.Alternatives.RevelationRecognition.Capability.Solution
+public import TruthCore.Results.Alternatives.RevelationRecognition.Composition.Solution
+public import TruthCore.Results.Alternatives.RevelationRecognition.Coverage.Solution
+public import TruthCore.Results.Alternatives.RevelationRecognition.Models.Solution
+public import TruthCore.Results.Alternatives.RevelationRecognition.Persistence.Solution
+public import TruthCore.Results.Alternatives.RevelationRecognition.Realization.Solution
+public import TruthCore.Results.Alternatives.RevelationRecognition.SplitComposition.Solution
+public import TruthCore.Results.Alternatives.RevelationRecognition.Strength.Solution

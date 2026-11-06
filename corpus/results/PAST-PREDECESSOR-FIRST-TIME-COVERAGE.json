@@ -1,0 +1,26 @@
+{
+  "id": "PAST-PREDECESSOR-FIRST-TIME-COVERAGE",
+  "argument_id": "PAST-PREDECESSOR-FIRST-TIME-COVERAGE",
+  "challenge_module": "TruthCore.Results.Logic.TemporalPastCoverage.Coverage.Challenge",
+  "solution_module": "TruthCore.Results.Logic.TemporalPastCoverage.Coverage.Solution",
+  "theorem": "TruthCore.Results.Logic.TemporalPastCoverage.Coverage.coverage",
+  "comparator_config": "results/PAST-PREDECESSOR-FIRST-TIME-COVERAGE/comparator.json",
+  "status": "solution-present",
+  "description": "Exact old pointwise predecessor/first-time coverage under explicit excluded middle; neither ordering axioms nor temporal actuality or cardinal finiteness are smuggled in.",
+  "transcription": "instantiation",
+  "case_split": {
+    "target_statement_id": "STMT-PAST-IS-INFINITE",
+    "cases": [
+      {
+        "label": "pointwise predecessor",
+        "statement_id": "STMT-PAST-IS-INFINITE",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PastIsInfinite"
+      },
+      {
+        "label": "first time",
+        "statement_id": "STMT-PAST-IS-FINITE",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PastIsFinite"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "STMT-JESUS-ENVOY-TEACHING-FOUNDING-EVENT-EXISTS",
+  "paraphrase": "Some God candidate and society satisfy Jesus' primitive FoundedInMandate relation and teaching commission. This is the nonvacuous event condition used in the exclusive-reading contradiction; it is derived conditionally from the existing case's stage, attestation, veracity and mandate-scope premises.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.FoundingDefinitions.EnvoyEventExists",
+  "definition_ids": [
+    "DEF-PRINCIPAL-ACT-FOUNDING-READING",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+    "DEF-FOUNDED-BY-GOD-IMMEDIATELY",
+    "DEF-GOD-OF-CLASSICAL-THEISM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FOUNDED-BY-GOD",
+    "DISAMB-GOD"
+  ]
+}

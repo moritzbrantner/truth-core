@@ -1,0 +1,11 @@
+{
+  "id": "INF-FURTHER-CAUSAL-COUNTERACCOUNT-DEFEATS-NAMED-COVERAGE",
+  "input_statement_ids": [
+    "STMT-FURTHER-RELEVANT-ABSTRACT-CAUSAL-COUNTERACCOUNT"
+  ],
+  "output_statement_id": "STMT-NAMED-PRODUCTIVE-CAUSAL-COVERAGE-FAILS",
+  "rule": "constructive-proof",
+  "meaning": "An actual selected countercase outside every named productive branch contradicts the coverage hypothesis.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

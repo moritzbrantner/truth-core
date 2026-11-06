@@ -1,0 +1,11 @@
+{
+  "id": "FULL-POTENCY-ANALYSIS-STRENGTHENS-MOVED-TUPLE-DIRECTION",
+  "argument_id": "FULL-POTENCY-ANALYSIS-STRENGTHENS-MOVED-TUPLE-DIRECTION",
+  "challenge_module": "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.AnalysisStrength.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.AnalysisStrength.Solution",
+  "theorem": "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.AnalysisStrength.analysisStrength",
+  "comparator_config": "results/FULL-POTENCY-ANALYSIS-STRENGTHENS-MOVED-TUPLE-DIRECTION/comparator.json",
+  "status": "solution-present",
+  "description": "Sole-premise restriction of the old full biconditional analysis to its forward direction at moved tuples only. Strictness is witnessed by the idle-potency control; no full source reading is reattributed to this weaker analyst proposition.",
+  "transcription": "instantiation"
+}

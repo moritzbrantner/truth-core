@@ -1,0 +1,11 @@
+{
+  "id": "ACTUAL-CUT-OFF-EXTENDS-BY-PERSISTENCE",
+  "argument_id": "ACTUAL-CUT-OFF-EXTENDS-BY-PERSISTENCE",
+  "challenge_module": "TruthCore.Results.Alternatives.RevelationRecognition.Persistence.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.RevelationRecognition.Persistence.Solution",
+  "theorem": "TruthCore.Results.Alternatives.RevelationRecognition.Persistence.actualCutOffPersists",
+  "comparator_config": "results/ACTUAL-CUT-OFF-EXTENDS-BY-PERSISTENCE/comparator.json",
+  "status": "solution-present",
+  "description": "Apply the explicit persistence premise to actual cut-off. Transcription of the open modal-scope bridge; no independent defense of persistence.",
+  "transcription": "single_application"
+}

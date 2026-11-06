@@ -1,0 +1,9 @@
+{
+  "id": "STMT-SELECTED-WHOLE-CAUSER-ACTUALITY-FAILS",
+  "paraphrase": "Exact negation of the selected-whole-causer actuality policy. A primitive edge from an absent candidate is excluded only when the actuality policy is supplied, not by generic Ontic itself.",
+  "lean_declaration": "TruthCore.Ontology.UniverseCauseScopeBoundary.WholeCauserActualityFails",
+  "definition_ids": [
+    "DEF-UNIVERSE-CAUSER-ACTUALITY-SCOPE",
+    "DEF-SPATIOTEMPORAL-FRAME"
+  ]
+}

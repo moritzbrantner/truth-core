@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.RegressRivalCoverage.Coverage.Challenge",
+  "solution_module": "TruthCore.Results.Causality.RegressRivalCoverage.Coverage.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.RegressRivalCoverage.Coverage.coverage"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

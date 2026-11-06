@@ -41,6 +41,15 @@
     41
   ],
   "premise_delta": "No change to legacy route premises or Challenges; designated route cost remains 40. Separate bridge interfaces use DecidableEq Being. Three alternative compositions use DecidableEq σ.Being and DecidableEq Principle and retain FirstUnmovedMoverExistsOrNot explicitly. Instances are assumptions, not established premises. Two newly registered alternative root routes have costs 39 and 40, with instances outside proposition counts. No philosophical premise discharged.",
+  "limits": [
+    "Full-description naming is one-way: supplied maximum plus all description conditions implies IsGod of that same witness. Naming supplies no maximum existence and no God-to-maximum converse.",
+    "Identity of supplied first mover f and maximum m establishes neither existence. First Way uses its explicit existence disjunction; Fourth Way supplies m. The first mover, maximum and attributed God remain the same witness throughout.",
+    "A unique maximum does not give uniqueness of original IsGod. GodIsMaximalInBeing remains explicit on this route; #730 split-witness and nonmaximal-IsGod controls remain valid unchanged.",
+    "DecidableEq Being is sufficient for the two new bridge variants. Attribute and root variants additionally assume DecidableEq Principle. Equality decisions do not prove FirstUnmovedMoverExistsOrNot here. No minimality, necessity or strict logical-strength certificate is claimed.",
+    "Reuse #730 source evidence and countermodels only at advertised scope. Strict causal ascent, every-perfection and first-being bridges, naming sufficiency/converse, formal/eminent interpretation and historical/authority premises remain open. No new source-fidelity finding or reading is asserted.",
+    "Exactly six existing result bundles (146 initial records), plus five separately frozen alternative interfaces (15 new records); unchanged attribute dependencies reuse prior audits. No other root route is migrated. Inspector, binding, Comparator and NanoDa authorities remain separate."
+  ],
+  "next_scope": "Which retained causal or naming bridge can discriminate the strongest surviving rival on this route? Philosophical investigation and other routes require the next bounded task.",
   "records": [
     {
       "kind": "arguments",
@@ -891,14 +900,14 @@
       "kind": "statements",
       "id": "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE",
       "path": "corpus/statements/revelation-possible-and-recognizable.json",
-      "status": "inspected",
-      "classification": "bounded_inspection",
-      "finding": "Inspected proposition and linked term records: Whatever is God can reveal, and can make a revelation recognizable as his by external signs, the motives of credibility. Quantifier scope and witness identity are preserved in the scoped complete applications; no source-fidelity renewal.",
+      "status": "repaired",
+      "classification": "semantic_scope_repair",
+      "finding": "Re-reviewed unchanged root capability declaration and paraphrase. Added explicit recognition-profile definition/disambiguation links; no actual recognition follows from capability. Raw actual-practice cut-off now reaches an exact capability-negation sibling only via explicit candidate realization, admitted-situation coverage, shared recognition, persistence and actual God witness. New scope controls preserve the original root Signature and Challenges; no renewed source certification.",
       "before": {
         "sha256": "16ef4cb65a959663ac4ad425e4c2ff868d1058f87a6db74a3e39c0a89cc7c8e5",
         "lean_declaration": "TruthCore.Case.Catholicism.RevelationPossibleAndRecognizable"
       },
-      "reviewed_sha256": "16ef4cb65a959663ac4ad425e4c2ff868d1058f87a6db74a3e39c0a89cc7c8e5"
+      "reviewed_sha256": "3e725b1903b7e9ec82daf04a490b0362ef8070bca7ae743d9312bea35c97ebd2"
     },
     {
       "kind": "statements",
@@ -1931,14 +1940,14 @@
       "kind": "disambiguations",
       "id": "DISAMB-FOUNDED-BY-GOD",
       "path": "corpus/disambiguations/founded-by-god.json",
-      "status": "inspected",
-      "classification": "bounded_inspection",
-      "finding": "Inspected existing semantic record at its advertised scope: Modelling choice, not a sourced reading: Dei Filius ch. 3 para. 5 (per Filium) is compatible with both senses, since the Son is God on the council's theology; the envoy sense is chosen because the skeleton's Signature does not identify jesus with any IsGod being. STMT-ENVOY-FOUNDING-IS-GODS-FOUNDING reads FoundedAsTeachingAuthority in the envoy sense, restricted to Jesus as envoy; that sense includes immediate founding as a special case. With that premise, the predicate as used by STMT-BRIDGE-CHRISTS-CHURCH-FOUNDED-BY-GOD, STMT-CHRISTS-CHURCH-IS-GOD-FOUNDED-TEACHING-AUTHORITY and STMT-CATHOLIC-CHURCH-IS-GOD-FOUNDED-TEACHING-AUTHORITY covers societies Jesus founded in a God's mandate with a teaching commission. STMT-BRIDGE-GOD-FOUNDED-AUTHORITY-PROPOSES-ONLY-TRUTH quantifies over every society God founded as a teaching authority, so on this reading it also covers those societies; because the envoy premise is restricted to Jesus, it is not extended to societies founded by other envoys (e.g. Moses or the prophets of Dei Filius para. 2). The derivation never passes to the immediate-only sense: on that sense the envoy premise is false and the bridge would need a different argument. Stage 5's Founded jesus c is a separate primitive and is not God's founding by definition; the envoy premise is what connects them. No meaning change or renewed source certification.",
+      "status": "repaired",
+      "classification": "semantic_scope_repair",
+      "finding": "Re-reviewed the founding sense used by the naming/root consumer: original Signature predicates and Challenges are unchanged. Minimal direct calibration, envoy-inclusive calibration, and the stronger Jesus-scope exclusion are now separate propositions. Removed the overstatement that immediate-only calibration alone falsifies the envoy bridge; exact failure also needs exclusion and a nonempty event witness. The root still uses the original Jesus-specific one-way bridge. Named coverage remains open, and no societies of other envoys or historical identities are added. No renewed source certification.",
       "before": {
         "sha256": "f0c9978206b4a3c61112f44aeb54f5b1f1677cae68dd29d16c3f355c7768fa3a",
         "lean_declaration": null
       },
-      "reviewed_sha256": "f0c9978206b4a3c61112f44aeb54f5b1f1677cae68dd29d16c3f355c7768fa3a"
+      "reviewed_sha256": "87ca4e5f45b103fdc32e185715adcf54980374781983a0b88fd3b6812e1ef809"
     },
     {
       "kind": "disambiguations",
@@ -2160,15 +2169,32 @@
         "lean_declaration": null
       },
       "reviewed_sha256": "76c589c5cfd15ed8c5e30f534a8061c497b54c621ace403f3a9b49686ebf5a58"
+    },
+    {
+      "kind": "definitions",
+      "id": "DEF-REVELATION-RECOGNITION-PROFILE",
+      "path": "corpus/definitions/revelation-recognition-profile.json",
+      "status": "inspected",
+      "classification": "explicit_semantic_profile",
+      "finding": "Inspected new analyst profile vocabulary linked by the existing stage-3 consumer premise. Candidate situations, admitted subset, actual situation, recognition and correctness are distinct; realization, coverage and sharedness remain open. This term link does not replace the original capability predicate or establish the profile applicability.",
+      "before": {
+        "sha256": "absent (new record)",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "fe6db14db1e2080343a95b8c414b35dd06aeed535f36f1c185110227e05b0f67"
+    },
+    {
+      "kind": "disambiguations",
+      "id": "DISAMB-REVELATION-CAPABILITY-AND-PRACTICE-UPTAKE",
+      "path": "corpus/disambiguations/revelation-capability-and-practice-uptake.json",
+      "status": "inspected",
+      "classification": "explicit_semantic_profile",
+      "finding": "Inspected capability-versus-actual-practice resolution: existing root consumers retain capacity, not actual recognition. Exact opposing capability negation requires explicit God witness, realization/coverage, shared recognition and persistence; raw actual CutOff remains a separate serious thesis.",
+      "before": {
+        "sha256": "absent (new record)",
+        "lean_declaration": null
+      },
+      "reviewed_sha256": "7bad58b314201d9316472714f59a11f78c57365e3f302903413f2304f05da48a"
     }
-  ],
-  "limits": [
-    "Full-description naming is one-way: supplied maximum plus all description conditions implies IsGod of that same witness. Naming supplies no maximum existence and no God-to-maximum converse.",
-    "Identity of supplied first mover f and maximum m establishes neither existence. First Way uses its explicit existence disjunction; Fourth Way supplies m. The first mover, maximum and attributed God remain the same witness throughout.",
-    "A unique maximum does not give uniqueness of original IsGod. GodIsMaximalInBeing remains explicit on this route; #730 split-witness and nonmaximal-IsGod controls remain valid unchanged.",
-    "DecidableEq Being is sufficient for the two new bridge variants. Attribute and root variants additionally assume DecidableEq Principle. Equality decisions do not prove FirstUnmovedMoverExistsOrNot here. No minimality, necessity or strict logical-strength certificate is claimed.",
-    "Reuse #730 source evidence and countermodels only at advertised scope. Strict causal ascent, every-perfection and first-being bridges, naming sufficiency/converse, formal/eminent interpretation and historical/authority premises remain open. No new source-fidelity finding or reading is asserted.",
-    "Exactly six existing result bundles (146 initial records), plus five separately frozen alternative interfaces (15 new records); unchanged attribute dependencies reuse prior audits. No other root route is migrated. Inspector, binding, Comparator and NanoDa authorities remain separate."
-  ],
-  "next_scope": "Which retained causal or naming bridge can discriminate the strongest surviving rival on this route? Philosophical investigation and other routes require the next bounded task."
+  ]
 }

@@ -1,0 +1,11 @@
+{
+  "id": "FURTHER-CAUSAL-COUNTERACCOUNT-TO-SELECTED-COUNTERCASE",
+  "argument_id": "FURTHER-CAUSAL-COUNTERACCOUNT-TO-SELECTED-COUNTERCASE",
+  "challenge_module": "TruthCore.Results.Causality.CausalConcreteRivals.OtherProjection.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CausalConcreteRivals.OtherProjection.Solution",
+  "theorem": "TruthCore.Results.Causality.CausalConcreteRivals.OtherProjection.otherProjection",
+  "comparator_config": "results/FURTHER-CAUSAL-COUNTERACCOUNT-TO-SELECTED-COUNTERCASE/comparator.json",
+  "status": "solution-present",
+  "description": "Projection transcription: the precise relevant remainder carries an actual selected countercase, connecting it through the explicit calibration to the exact old commitment negation.",
+  "transcription": "instantiation"
+}

@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Inclusive.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Inclusive.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Inclusive.inclusiveSuppliesEnvoy"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

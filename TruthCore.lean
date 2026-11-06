@@ -51,6 +51,7 @@ public import TruthCore.Imports.Results.Mereology
 public import TruthCore.Imports.Results.Metaethics
 public import TruthCore.Imports.Results.Modal
 public import TruthCore.Imports.Results.Modern
+public import TruthCore.Imports.Results.Observation
 public import TruthCore.Imports.Results.Ontology
 public import TruthCore.Imports.Results.Plato
 public import TruthCore.Imports.Results.Politics

@@ -1,0 +1,25 @@
+{
+  "id": "REVELATION-CALIBRATION-ENTAILS-REALIZATION",
+  "premise_statement_ids": [
+    "STMT-RECOGNITION-CAPACITY-DEFINITION"
+  ],
+  "conclusion_statement_id": "STMT-RECOGNIZABLE-CAPACITY-REALIZED",
+  "inference_ids": [
+    "INF-REVELATION-CALIBRATION-ENTAILS-REALIZATION"
+  ],
+  "meaning": "The full calibration implies its forward realization direction, pointwise on God candidates. This assembly transcription registers strength; capability-conflict arguments use the weaker realization.",
+  "definition_ids": [
+    "DEF-REVELATION-RECOGNITION-PROFILE",
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-WITTGENSTEINIAN-FIDEISM",
+    "DEF-NATURAL-REASON-SHARED",
+    "DEF-REVELATION-ACTUAL-PRACTICE-RECOGNITION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REVELATION-CAPABILITY-AND-PRACTICE-UPTAKE",
+    "DISAMB-PRACTICE-SENSITIVITY-AND-FIDEIST-INSULATION"
+  ],
+  "strong_version_needed": {
+    "STMT-RECOGNITION-CAPACITY-DEFINITION": "This argument registers strong-to-weak calibration. Consequence arguments use only forward realization."
+  }
+}

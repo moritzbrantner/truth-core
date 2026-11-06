@@ -1,0 +1,27 @@
+{
+  "id": "NAMED-CAUSAL-COVERAGE-REMAINDER-FORK",
+  "argument_id": "NAMED-CAUSAL-COVERAGE-REMAINDER-FORK",
+  "challenge_module": "TruthCore.Results.Causality.CausalConcreteRivals.CoverageRemainder.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CausalConcreteRivals.CoverageRemainder.Solution",
+  "theorem": "TruthCore.Results.Causality.CausalConcreteRivals.CoverageRemainder.coverageRemainder",
+  "comparator_config": "results/NAMED-CAUSAL-COVERAGE-REMAINDER-FORK/comparator.json",
+  "status": "solution-present",
+  "description": "Structural coverage-hypothesis-or-actual-remainder fork, not a proof that the named philosophical list is complete.",
+  "transcription": "instantiation",
+  "case_split": {
+    "target_statement_id": "STMT-NAMED-PRODUCTIVE-CAUSAL-COUNTERACCOUNTS-COVER",
+    "cases": [
+      {
+        "label": "named-case coverage hypothesis",
+        "statement_id": "STMT-NAMED-PRODUCTIVE-CAUSAL-COUNTERACCOUNTS-COVER",
+        "lean_declaration": "TruthCore.Causality.CausalConcreteRivalBoundary.NamedCoverage"
+      },
+      {
+        "label": "actual relevant remainder",
+        "statement_id": "STMT-FURTHER-RELEVANT-ABSTRACT-CAUSAL-COUNTERACCOUNT",
+        "lean_declaration": "TruthCore.Causality.CausalConcreteRivalBoundary.OtherCounter"
+      }
+    ],
+    "survival_result_id": "CAUSAL-CONCRETE-RIVAL-BOUNDARIES"
+  }
+}
