@@ -28,7 +28,7 @@ Excluded middle proves coverage of the collective conditional and this
 countercase. This is coverage of typed truth conditions, not of a finite list of
 historical theories. The exact negative is an unrefuted analyst alternative;
 the original full perpetual-succession rival remains separately unchanged.
-No claim attributes the global complement or the new local route to Aquinas.
+No claim attributes the exact counterpart or the new local route to Aquinas.
 
 Three finite profiles retain the deciding differences. CommonAbsence has two
 beings, both absent at false: the local shift, distributive realization,

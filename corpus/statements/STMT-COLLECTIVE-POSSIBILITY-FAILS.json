@@ -1,6 +1,6 @@
 {
   "id": "STMT-COLLECTIVE-POSSIBILITY-FAILS",
-  "paraphrase": "Exact negation of the original AllCanNotBeThenNothingPossibleReading on the SAME profile. This is an unrefuted analyst rival covering failure of that conditional; no historical source is attributed this global complement.",
+  "paraphrase": "Exact negation of the original AllCanNotBeThenNothingPossibleReading on the SAME profile. This is an unrefuted analyst rival covering failure of that conditional; no historical source is attributed this exact counterpart.",
   "lean_declaration": "TruthCore.Logic.CollectivePossibilityRouteBoundary.CollectiveFails",
   "definition_ids": [
     "DEF-COLLECTIVE-POSSIBILITY-LOCAL-PROOF-ROUTE"
