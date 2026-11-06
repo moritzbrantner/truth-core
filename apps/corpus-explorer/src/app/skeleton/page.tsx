@@ -93,7 +93,7 @@ export default function SkeletonPage() {
           {progress.obligations.map(({ item, candidates }) => (
             <li className="py-4" key={item.statement_id}>
               <details id={`obligation-${item.statement_id}`}>
-                <summary className="cursor-pointer leading-7">
+                <summary className="cursor-pointer leading-7 [overflow-wrap:anywhere]">
                   <span className="mr-3 inline-block"><DepthMark depth={item.depth} /></span>
                   {item.paraphrase}
                 </summary>
