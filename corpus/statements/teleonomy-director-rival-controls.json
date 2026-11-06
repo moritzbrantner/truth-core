@@ -1,0 +1,14 @@
+{
+  "id": "STMT-TELEONOMY-DIRECTOR-RIVAL-CONTROLS",
+  "paraphrase": "A finite empty-tending/no-cognition structure satisfies the universal director principle vacuously; the existing unguided finite profile has an undirected noncognitive tending witness and fails that principle. Existing unguided-finality and governed-mechanism fragments are retained whole as separate model facts, not a shared global worldview model or a source identity.",
+  "lean_declaration": "TruthCore.Teleonomy.DirectorRivalBoundary.Controls",
+  "definition_ids": [
+    "DEF-TELEONOMY-DIRECTOR-RIVAL-WITNESS",
+    "DEF-INTENTIO-AS-TENDING",
+    "DEF-TELEONOMY-MODEL-SCOPE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-INTENTIO",
+    "DISAMB-TELEONOMY-FINALITY-AND-AGENCY"
+  ]
+}
