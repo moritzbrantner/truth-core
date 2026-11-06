@@ -6,5 +6,6 @@
   "claim_ids": [
     "AFP-NOTES-GOEDEL-HOMLINHOL-RSYMM-A"
   ],
-  "lean_declaration": "TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1.ExistsAt"
+  "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.Box",
+  "note": "Lean locator: TruthCore.Isabelle.AFP.GoedelGod.Box is the modal operator; the sibling possibility operator is TruthCore.Isabelle.AFP.GoedelGod.Dia. GoedelVariantHOML1.ExistsAt is only the carrier abbreviation Ind → World → Prop for the independently supplied ex predicate, not a necessity operator or an existence axiom. Actualist quantification is encoded by ex guards in the consuming HOML definitions, for example PropertyInclusion and NecessaryExistence. The record covers this vocabulary family, not one definition that enforces every advertised semantic commitment."
 }

@@ -1,0 +1,10 @@
+{
+  "id": "CATHOLIC-AND-DISTINCT-BODY-SCOPE-COUNTERMODEL",
+  "argument_id": "CATHOLIC-AND-DISTINCT-BODY-SCOPE-COUNTERMODEL",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingWeakScope.BodyWitnesses.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingWeakScope.BodyWitnesses.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.FoundingWeakScope.explicitBodiesScopeCountermodel",
+  "comparator_config": "results/CATHOLIC-AND-DISTINCT-BODY-SCOPE-COUNTERMODEL/comparator.json",
+  "status": "solution-present",
+  "description": "A single schema profile explicitly supplies a God from whom Jesus holds a mandate, actual Catholic founding and visibility, and a distinct other society actually founded by Jesus and visible. Attestation, veracity, Catholic-only scope including teaching and envoy transfer hold, but divine teaching-founding fails at that same God/other-body pair and the universal bridge fails. Universal mandate scope and stage6 identity also fail. This exports nonvacuous Catholic scope and the precise other-body countercase, not merely global nonemptiness or hidden properties of a concrete construction."
+}
