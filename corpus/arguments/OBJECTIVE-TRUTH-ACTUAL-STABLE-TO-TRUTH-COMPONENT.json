@@ -1,0 +1,19 @@
+{
+  "id": "OBJECTIVE-TRUTH-ACTUAL-STABLE-TO-TRUTH-COMPONENT",
+  "premise_statement_ids": [
+    "STMT-OBJECTIVE-TRUTH-ACTUAL-STABLE-DEFINITION"
+  ],
+  "conclusion_statement_id": "STMT-OBJECTIVE-TRUTH-HAS-TRUTH-COMPONENT",
+  "inference_ids": [
+    "INF-OBJECTIVE-TRUTH-ACTUAL-STABLE-TO-TRUTH-COMPONENT"
+  ],
+  "meaning": "Extract the actual-truth conjunct of the explicit actual-stable calibration. This verified strong-to-weak consequence does not establish either calibration for a real language.",
+  "definition_ids": [
+    "DEF-OBJECTIVE-TRUTH-PROFILE-FRAME",
+    "DEF-OBJECTIVE-TRUTH-NAMED-COVERAGE",
+    "DEF-OBJECTIVE-TRUTH-TRUTH-COMPONENT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-OBJECTIVE-TRUTH-CALIBRATIONS"
+  ]
+}

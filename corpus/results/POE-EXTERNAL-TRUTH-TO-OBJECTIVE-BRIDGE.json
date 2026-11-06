@@ -1,0 +1,10 @@
+{
+  "id": "POE-EXTERNAL-TRUTH-TO-OBJECTIVE-BRIDGE",
+  "argument_id": "POE-EXTERNAL-TRUTH-TO-OBJECTIVE-BRIDGE",
+  "challenge_module": "TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.ExternalBridge.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.ExternalBridge.Solution",
+  "theorem": "TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.ExternalBridge.externalBridge",
+  "comparator_config": "results/POE-EXTERNAL-TRUTH-TO-OBJECTIVE-BRIDGE/comparator.json",
+  "status": "solution-present",
+  "description": "Compose the exact imported POE-EXTERNAL-PREMISE-VS-EMOTIVISM theorem with the weakest explicit objective-implies-truth condition. The four original semantic/classification premises remain visible. This conditional external-premise result does not defeat internal critique or infer the truth-component bridge from an uncalibrated predicate."
+}

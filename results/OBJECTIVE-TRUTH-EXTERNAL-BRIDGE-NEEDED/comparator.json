@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.BridgeOmission.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.BridgeOmission.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.BridgeOmission.bridgeOmission"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

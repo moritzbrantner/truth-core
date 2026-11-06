@@ -1,0 +1,13 @@
+{
+  "id": "INF-OBJECTIVE-TRUTH-FROM-NAMED-ELIMINATION",
+  "input_statement_ids": [
+    "STMT-OBJECTIVE-TRUTH-NAMED-DEFINITIONS-COVER",
+    "STMT-OBJECTIVE-TRUTH-NOT-INVARIANCE-ONLY",
+    "STMT-OBJECTIVE-TRUTH-NOT-ACTUAL-TRUTH-ONLY"
+  ],
+  "output_statement_id": "STMT-OBJECTIVE-TRUTH-ACTUAL-STABLE-DEFINITION",
+  "rule": "constructive-proof",
+  "meaning": "Logical elimination transcription under three explicitly open premises: named coverage and failure of the two alternative calibrations force actual-stable calibration. No independent philosophical warrant for those inputs is supplied.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

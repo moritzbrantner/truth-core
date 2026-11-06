@@ -1,0 +1,12 @@
+{
+  "id": "STMT-OBJECTIVE-TRUTH-ADDITIONAL-DEFINITION",
+  "paraphrase": "The current objective classifier in the same comparison class coextends with none of the three named accounts. This explicitly records an additional extension; its philosophical adequacy is not thereby established.",
+  "lean_declaration": "TruthCore.Logic.ObjectiveTruthDefinitionFork.RemainingDefinition",
+  "definition_ids": [
+    "DEF-OBJECTIVE-TRUTH-PROFILE-FRAME",
+    "DEF-OBJECTIVE-TRUTH-NAMED-COVERAGE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-OBJECTIVE-TRUTH-CALIBRATIONS"
+  ]
+}

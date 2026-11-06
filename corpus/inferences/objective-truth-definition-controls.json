@@ -1,0 +1,9 @@
+{
+  "id": "INF-OBJECTIVE-TRUTH-DEFINITION-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-OBJECTIVE-TRUTH-DEFINITION-CONTROLS",
+  "rule": "constructive-proof",
+  "meaning": "Checked finite truth tables retain all advertised false-stable, true-variable, remaining-extension and nontrivial-overlap properties in the exported type. No account is declared philosophically correct or source-attributed by these operational controls.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,11 @@
+{
+  "id": "DISAMB-OBJECTIVE-TRUTH-CALIBRATIONS",
+  "term": "objective truth: legacy parameter, actual-stable, invariance-only or actual-only calibration",
+  "sense_definition_ids": [
+    "DEF-OBJECTIVE-TRUTH",
+    "DEF-OBJECTIVE-TRUTH-ACTUAL-STABLE",
+    "DEF-OBJECTIVE-TRUTH-INVARIANCE-ONLY",
+    "DEF-OBJECTIVE-TRUTH-ACTUAL-ONLY"
+  ],
+  "resolution": "The legacy source claims quantify an independently supplied ObjectiveTruth predicate and retain their original types and attitude-independence gloss. They do not identify it with any new calibration. The new analyst actual-stable account includes truth; invariance-only does not, and actual-only omits stability. These are extensional operational accounts in one supplied profile, not property identity, robust/minimal truth, a census of historical schools, or a proof of genuine causal independence from attitudes. Their extensions can overlap, so exclusivity is not assumed. Only the weaker truth-component bridge is used to extend POE-EXTERNAL-PREMISE-VS-EMOTIVISM. No natural-evil or internal-critique refutation follows. Named coverage is an open proposition; the structural fork retains a genuine remaining-extension branch."
+}

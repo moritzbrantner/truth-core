@@ -7,5 +7,6 @@
     "OCONNOR-TUREK-EVIL-NO-OBJECTIVE-MORAL-TRUTHS",
     "OCONNOR-TUREK-EVIL-PREMISE-NOT-OBJECTIVE"
   ],
-  "lean_declaration": "TruthCore.English.OConnor.NoObjectiveMoralTruthsReading"
+  "lean_declaration": "TruthCore.Comparison.Metaethics.Sig.ObjectiveTruth",
+  "note": "The linked projection is the primitive ObjectiveTruth field of the existing comparison signature; the source readings likewise take an independently supplied predicate. It is not a definition reducing the predicate to a truth/attitude criterion. Source claims and that predicate remain unchanged. Analyst profile calibrations and the weakest objective-implies-truth proposition are recorded separately in DISAMB-OBJECTIVE-TRUTH-CALIBRATIONS; none is silently attributed to these sources or adopted as every philosophical sense of objectivity."
 }

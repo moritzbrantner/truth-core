@@ -1,0 +1,37 @@
+{
+  "id": "OBJECTIVE-TRUTH-DEFINITION-FORK",
+  "argument_id": "OBJECTIVE-TRUTH-DEFINITION-FORK",
+  "challenge_module": "TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.Coverage.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.Coverage.Solution",
+  "theorem": "TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.Coverage.definitionFork",
+  "comparator_config": "results/OBJECTIVE-TRUTH-DEFINITION-FORK/comparator.json",
+  "status": "solution-present",
+  "description": "Logical coverage transcription: decide each of the three calibrated account propositions under explicit excluded middle; if none holds, retain their conjunction of negations as the remaining account. This establishes structural coverage with a remainder, not named exhaustion.",
+  "transcription": "instantiation",
+  "case_split": {
+    "target_statement_id": "STMT-OBJECTIVE-TRUTH-ACTUAL-STABLE-DEFINITION",
+    "cases": [
+      {
+        "label": "actual truth plus profile stability",
+        "lean_declaration": "TruthCore.Logic.ObjectiveTruthDefinitionFork.ActualStableDefinition",
+        "statement_id": "STMT-OBJECTIVE-TRUTH-ACTUAL-STABLE-DEFINITION"
+      },
+      {
+        "label": "stability alone",
+        "lean_declaration": "TruthCore.Logic.ObjectiveTruthDefinitionFork.InvariantOnlyDefinition",
+        "statement_id": "STMT-OBJECTIVE-TRUTH-INVARIANCE-ONLY-DEFINITION"
+      },
+      {
+        "label": "actual truth alone",
+        "lean_declaration": "TruthCore.Logic.ObjectiveTruthDefinitionFork.ActualTruthOnlyDefinition",
+        "statement_id": "STMT-OBJECTIVE-TRUTH-ACTUAL-TRUTH-ONLY-DEFINITION"
+      },
+      {
+        "label": "additional extension",
+        "lean_declaration": "TruthCore.Logic.ObjectiveTruthDefinitionFork.RemainingDefinition",
+        "statement_id": "STMT-OBJECTIVE-TRUTH-ADDITIONAL-DEFINITION"
+      }
+    ],
+    "survival_result_id": "OBJECTIVE-TRUTH-DEFINITION-CONTROLS"
+  }
+}
