@@ -9,7 +9,7 @@
   "inference_ids": [
     "INF-AQUINAS-ST-I-Q11-A3-GOD-ONE-FROM-NATURE"
   ],
-  "meaning": "Q.11 a.3 first-proof reading: transport each God\u2019s individuating basis through suppositum/nature identity to the common divine nature, then apply the explicit incommunicability principle. Equality of beings is derived, not assumed; no maximality, perfection, naming converse, or excluded middle is used. The three principles remain sourced but undefended. The same Comparator config additionally checks the frozen comparison lemma maximalityFromNamedMaximumAndUniqueness: GodIsOne plus an explicitly named maximal witness implies GodIsMaximalInBeing by equality transport. That auxiliary conditional is not registered as a global derivation of the old bridge.",
+  "meaning": "Q.11 a.3 first-proof reading: transport each God’s individuating basis through suppositum/nature identity to the common divine nature, then apply the explicit incommunicability principle. Equality of beings is derived, not assumed; no maximality, perfection, naming converse, or excluded middle is used. The three principles remain sourced but undefended. The same Comparator config additionally checks the frozen comparison lemma maximalityFromNamedMaximumAndUniqueness: GodIsOne plus an explicitly named maximal witness implies GodIsMaximalInBeing by equality transport. That auxiliary conditional is not registered as a global derivation of the old bridge.",
   "definition_ids": [
     "DEF-Q11-INDIVIDUATING-BASIS",
     "DEF-Q11-GOD-SUPPOSITUM-NATURE",
@@ -27,6 +27,7 @@
     "DISAMB-Q11-SUPPOSITUM-NATURE",
     "DISAMB-Q11-GOD-BEING-PERSON",
     "DISAMB-ESSENCE",
-    "DISAMB-GOD"
+    "DISAMB-GOD",
+    "DISAMB-MAXIME-ENS"
   ]
 }

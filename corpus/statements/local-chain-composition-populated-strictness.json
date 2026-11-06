@@ -1,0 +1,15 @@
+{
+  "id": "STMT-LOCAL-CHAIN-COMPOSITION-POPULATED-STRICTNESS",
+  "paraphrase": "An exact Nat×Bool interpretation satisfies local-chain composition and has an actual injective infinite local moved-mover chain with a whole. A second injective touching chain has no whole, so unrestricted touching-chain composition fails. All population, link and absence properties are explicitly exported. The interpretation does not satisfy the entire regress argument: no traversal/impossibility bundle or physical possibility is claimed.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.LocalContactComposition.PopulatedStrictness",
+  "definition_ids": [
+    "DEF-LOCAL-TOUCHING-CHAIN-COMPOSITION-SCOPE",
+    "DEF-CONTACT-OR-CONTINUITY",
+    "DEF-ONE-MADE-OF-ALL",
+    "DEF-LOCAL-BODILY-MOTION",
+    "DEF-PRIMARY-MOVER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION"
+  ]
+}

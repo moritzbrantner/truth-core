@@ -19,5 +19,8 @@
   ],
   "disambiguation_ids": [
     "DISAMB-GOODNESS-UNRESTRICTED-DUE-AND-ULTIMATE"
-  ]
+  ],
+  "strong_version_needed": {
+    "STMT-GOODNESS-SEMANTIC-NAMED-DEFINITIONS-COVER": "This frozen original global-classification route is retained for explicit comparison and reuse. GOODNESS-FROM-CORRECT-NAMED-SUPPORT provides the separate weaker sufficient route to the exact same target, retaining old correct-account existence and failure inputs."
+  }
 }

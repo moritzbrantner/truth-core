@@ -1,0 +1,9 @@
+{
+  "id": "INF-GOODNESS-CORRECT-SUPPORT-STRICT-CONTROL",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-GOODNESS-CORRECT-SUPPORT-STRICT-CONTROL",
+  "rule": "constructive-proof",
+  "meaning": "A populated named correct account and wrong admissible extension-unnamed account separate sufficient correct-account support from global semantic named coverage; all weaker elimination inputs and exact thesis are exported.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

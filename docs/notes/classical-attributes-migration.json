@@ -36,13 +36,13 @@
       "path": "corpus/arguments/CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES.json",
       "status": "repaired",
       "classification": "defect",
-      "finding": "Assembly prose corrected to conditional one-way content. Frozen Challenge unchanged; helper factors only the final connective application. All 15 proof hypotheses are reported used, conservatively; no logical minimality is inferred.",
+      "finding": "Assembly prose corrected to conditional one-way content. Frozen Challenge unchanged; helper factors only the final connective application. All 15 proof hypotheses are reported used, conservatively; no logical minimality is inferred. #1111: added required DISAMB-MAXIME-ENS navigation for the existing generic-perfection/maxime-ens vocabulary union; argument premises, inference IDs and theorem remain unchanged.",
       "before": {
         "sha256": "04552e690716be8ec483b6946d91c8cdaa8c9d6b8354da6f76c984b184492abb",
         "lean_declaration": null,
         "prose": "Stage 2 (owner decision on #143, 2026-10-24, option (a)): the skeleton's open premise STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES, derived. The definitional bridge (Dei Filius ch. 1) lists nine attributes. Four are derived for whatever is God through its being maximal in being: one, simple, perfect, supremely good (CATHOLICISM-STAGE2-GOD-IS-ONE, -SIMPLE, -PERFECT, -SUPREMELY-GOOD, imported). The other five (infinite, immutable, eternal, intellect, will) are open premises, each supported by Dei Filius ch. 1, until their groups (ST I qq.7, 9, 10, 14, 19) are derived."
       },
-      "reviewed_sha256": "5ee47a8dcf2ccd3baae1ce7d97840e4e72c6f0011fa0c50bdd1d8f90230cab26"
+      "reviewed_sha256": "3ea831e5b2a2ce190dcca50d7939e05e1bd7eb5e029ced694f9c7305c8694c65"
     },
     {
       "kind": "statements",
@@ -886,12 +886,12 @@
       "path": "corpus/disambiguations/maxime-ens.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
-      "finding": "Source-scope re-review for PR905: Merely maximal (nothing above), greatest represented degree (all bearer degrees below or equivalent) and strict primacy remain distinct. Greatest degree permits tied bearers; no uniqueness or strict supremacy enters the new source reading. The old maximality theorem interfaces remain unchanged; weakening an antecedent strengthens a causal conditional. Earlier recorded disposition (historical context, not the current source attribution): Existing sense separation retained. The selected result uses a single fixed vocabulary context and does not change sense across premises. The record constrains interpretation, not premise truth. Definition-fork re-review: the new paragraph preserves every original meaning and source boundary; only separate conditional interfaces are registered. The old selected-esse maximal causal premise follows from greatest-degree causation only with explicit maximal-to-greatest transfer, itself derived under supplied active-pair degree calibration, local directedness and excluded middle. Neither source attribution nor old theorem inputs gain those assumptions silently.",
+      "finding": "Source-scope re-review for PR905: Merely maximal (nothing above), greatest represented degree (all bearer degrees below or equivalent) and strict primacy remain distinct. Greatest degree permits tied bearers; no uniqueness or strict supremacy enters the new source reading. The old maximality theorem interfaces remain unchanged; weakening an antecedent strengthens a causal conditional. Earlier recorded disposition (historical context, not the current source attribution): Existing sense separation retained. The selected result uses a single fixed vocabulary context and does not change sense across premises. The record constrains interpretation, not premise truth. Definition-fork re-review: the new paragraph preserves every original meaning and source boundary; only separate conditional interfaces are registered. The old selected-esse maximal causal premise follows from greatest-degree causation only with explicit maximal-to-greatest transfer, itself derived under supplied active-pair degree calibration, local directedness and excluded middle. Neither source attribution nor old theorem inputs gain those assumptions silently. #1111: the existing maximal/greatest distinction now explicitly includes the generic selected-perfection IsMaximumIn sense and its esse specialization; #1141 bridges/countermodels and open source-to-old-I boundary retained. No proof premise changed.",
       "before": {
         "sha256": "09f962384fd21f5a330426b296b4167a159e3fc4a30dd53f9d3bd9ab5ea0e713",
         "lean_declaration": null
       },
-      "reviewed_sha256": "68ae62a727276f7c53958bceb99004953db0eb682f55eaadb95fb685ccd7fc65"
+      "reviewed_sha256": "a57c1d359c05d489996e4188a39cb6ea41d2e6141ba54bf6b1a21d33730e43dd"
     },
     {
       "kind": "disambiguations",

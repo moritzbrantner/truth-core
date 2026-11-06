@@ -1,0 +1,9 @@
+{
+  "id": "INF-DEFINITION-DICTIONARY-CONNECTIONS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-DEFINITION-DICTIONARY-CONNECTIONS",
+  "rule": "natural-deduction",
+  "meaning": "For identical supplied dictionaries: CogitoConcrete.InhabitedConcreteAt m.ontic m.concrete w iff BruteFoundationBoundary.InhabitedAt m w; Kant NecessaryAt o w x iff GoedelGod.Box o.frame (fun v => o.ExistsAt v x) w; and AbstractConcreteDisjoint abstract concrete iff there exists a ConcreteAbstract.Classification with exactly those predicates. All carriers, worlds and predicates are universally quantified. These are definitional-body and proof-packaging connections, not philosophical identity, source identity, a frame law, actual population, arbitrary-predicate disjointness or exhaustiveness. No root premise is discharged.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

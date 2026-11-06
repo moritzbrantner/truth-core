@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Aristotle.Physics.LocalContactComposition.Strength.Challenge",
+  "solution_module": "TruthCore.Results.Aristotle.Physics.LocalContactComposition.Strength.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Aristotle.Physics.LocalContactComposition.Strength.globalImpliesLocal"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

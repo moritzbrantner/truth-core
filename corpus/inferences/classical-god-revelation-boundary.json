@@ -1,0 +1,11 @@
+{
+  "id": "INF-CLASSICAL-GOD-REVELATION-BOUNDARY",
+  "input_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "output_statement_id": "STMT-CLASSICAL-GOD-REVELATION-BOUNDARY",
+  "rule": "existing-positive-control-and-concrete-signature-evaluation",
+  "meaning": "Import NecessaryClassicalGodRootControl.checks unchanged and retain its full conjunction. The SAME source supplies GodExists; assigned God uniqueness transports its attributes to every God. Evaluate revelation at that source and refute root via its divine teaching-foundation conjunct, separately.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

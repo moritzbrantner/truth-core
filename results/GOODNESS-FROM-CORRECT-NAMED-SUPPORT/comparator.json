@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Metaethics.GoodnessCorrectSupport.Elimination.Challenge",
+  "solution_module": "TruthCore.Results.Metaethics.GoodnessCorrectSupport.Elimination.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Metaethics.GoodnessCorrectSupport.Elimination.dueFromSupportedElimination"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

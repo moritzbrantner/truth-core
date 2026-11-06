@@ -21,5 +21,8 @@
   ],
   "disambiguation_ids": [
     "DISAMB-MOTION"
-  ]
+  ],
+  "strong_version_needed": {
+    "STMT-TOUCHING-CHAIN-FORMS-ONE": "The frozen original source-generalized proof interface consumes unrestricted touching-chain composition. It is retained as that existing argument, not a claim of global necessity: LOCAL-COMPOSITION-SUFFICES-FOR-EXISTING-CONTACT-REGRESS reaches the EXACT same conclusion with the weaker local-chain composition premise and the three unchanged contact/traversal/impossibility premises. The old stronger theorem itself does not accept the weaker input."
+  }
 }
