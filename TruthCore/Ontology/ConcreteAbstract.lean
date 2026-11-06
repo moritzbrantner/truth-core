@@ -30,7 +30,8 @@ the distinction one typed home.
   causal efficacy, spatiotemporal occupation, Frege's "non-mental and
   non-physical" and abstraction (SEP "Abstract Objects", §§3–6). None of them
   defines the adopted sense. In particular, causal power does NOT define
-  concreteness, so "only concrete things cause" stays a substantive proposition.
+  concreteness, so the owner's causal principle stays substantive in both of
+  its clauses (power and activity).
 * `Anchors` are paradigm cases that every intended interpretation must respect.
   The reasoner is concrete and the set containing the number 2 is abstract
   (owner, 2026-11-06). They exclude constant interpretations by a checked
@@ -134,8 +135,10 @@ Each rival is typed from its own supplied primitive, so that it can be compared
 with the adopted sense rather than silently identified with it. -/
 
 /-- Causal-efficacy criterion (SEP §3.2): concrete iff it has causal power at
-some world. It is NOT used to define concreteness. If it were, "only concrete
-things have causal power" would hold by definition. -/
+some world. It is NOT used to define concreteness. If it were, the capacity
+clause "only concrete things have causal power" would hold by definition. The
+activity clause (every cause is concrete) would still need an exercise-to-power
+bridge. -/
 def CausalCriterionConcrete {W B : Type} (hasCausalPower : W → B → Prop) (x : B) :
     Prop :=
   ∃ w, hasCausalPower w x

@@ -45,7 +45,7 @@ sections refer to SEP "Abstract Objects" (pinned as
 
 | Criterion | Declaration | Why not adopted |
 |---|---|---|
-| causal efficacy (§3.2) | `CausalCriterionConcrete` | it would make "only concrete things cause" true by definition (invariant 9) |
+| causal efficacy (§3.2) | `CausalCriterionConcrete` | it would make the capacity clause ("only concrete things have causal power") true by definition (invariant 9); the activity clause would need an exercise-to-power bridge |
 | spatiotemporal occupation (§3.1) | `SpatiotemporalCriterionConcrete` | it makes immaterial agents (God, angels, souls) non-concrete |
 | Frege: neither mental nor physical (§3) | `FregeCriterionAbstract` | mind-dependent abstracta; unclear for a divine intellect |
 | abstraction (§6) | none: it needs essence vocabulary | silent on causation and location |
