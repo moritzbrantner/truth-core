@@ -1,0 +1,13 @@
+{
+  "id": "STMT-MAXIME-NAMED-DEFINITIONS-COVER",
+  "paraphrase": "OPEN named coverage: the primitive superlative has the merely-maximal, greatest-degree or strict-supremacy calibration on this SAME profile. Overlap is permitted; no exhaustive philosophical or historical theory census is claimed.",
+  "lean_declaration": "TruthCore.Causality.MaximumDefinitionFork.NamedCoverage",
+  "definition_ids": [
+    "DEF-MAXIMUM-CALIBRATION-PROFILE",
+    "DEF-MAXIMUM-IN-A-PERFECTION",
+    "DEF-GREATEST-DEGREE-IN-A-PERFECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MAXIME-ENS"
+  ]
+}

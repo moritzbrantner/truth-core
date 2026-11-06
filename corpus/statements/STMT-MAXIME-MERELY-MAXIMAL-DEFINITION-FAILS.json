@@ -1,0 +1,13 @@
+{
+  "id": "STMT-MAXIME-MERELY-MAXIMAL-DEFINITION-FAILS",
+  "paraphrase": "The merely-maximal calibration fails for the supplied primitive superlative; this alone does not establish a greatest-degree or strict-supremacy calibration.",
+  "lean_declaration": "TruthCore.Causality.MaximumDefinitionFork.MaximalDefinitionFails",
+  "definition_ids": [
+    "DEF-MAXIMUM-CALIBRATION-PROFILE",
+    "DEF-MAXIMUM-IN-A-PERFECTION",
+    "DEF-GREATEST-DEGREE-IN-A-PERFECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MAXIME-ENS"
+  ]
+}
