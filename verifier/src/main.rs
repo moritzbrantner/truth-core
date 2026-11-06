@@ -200,6 +200,23 @@ impl Export {
         index: u64,
         result: &mut BTreeSet<String>,
     ) -> Result<()> {
+        self.collect_constants(index, result, &mut HashSet::new(), &mut HashSet::new())
+    }
+
+    fn collect_constants(
+        &self,
+        index: u64,
+        result: &mut BTreeSet<String>,
+        completed: &mut HashSet<u64>,
+        active: &mut HashSet<u64>,
+    ) -> Result<()> {
+        if active.contains(&index) {
+            bail!("cyclic dependency expression at index {index}");
+        }
+        if completed.contains(&index) {
+            return Ok(());
+        }
+        active.insert(index);
         let item = self
             .expressions
             .get(&index)
@@ -214,7 +231,7 @@ impl Export {
         }
         for field in ["fn", "arg", "type", "value", "body", "struct", "expr"] {
             if let Some(index) = item.get(field).and_then(Value::as_u64) {
-                self.collect_expression_constants(index, result)?;
+                self.collect_constants(index, result, completed, active)?;
             }
         }
         if let Some(data) = item
@@ -227,15 +244,85 @@ impl Export {
         {
             for field in ["fn", "arg", "type", "value", "body", "struct", "expr"] {
                 if let Some(index) = data.get(field).and_then(Value::as_u64) {
-                    self.collect_expression_constants(index, result)?;
+                    self.collect_constants(index, result, completed, active)?;
                 }
             }
         }
+        active.remove(&index);
+        completed.insert(index);
         Ok(())
     }
 }
 
-fn canonical_level(export: &Export, index: u64) -> Result<Value> {
+// Both exports share this exact structural interner. Child references are IDs in
+// this arena, never expanded trees or digest-only identities. Hash collisions are
+// resolved by full Value equality. Expression and universe nodes have disjoint tags.
+#[derive(Default)]
+struct CanonicalNodes {
+    nodes: HashMap<(NodeKind, Value), u64>,
+}
+
+#[derive(Clone, Copy, Hash, PartialEq, Eq)]
+enum NodeKind {
+    Expression,
+    Level,
+}
+
+// One immutable export per context makes its ID cache export-specific. The
+// normalization policy is fixed (validated lambda annotations only), and neither
+// expression nor level canonicalization depends on binder scope. Only successful
+// nodes enter completed; active nodes are checked first to reject cycles.
+struct Canonicalizer<'a> {
+    export: &'a Export,
+    nodes: &'a std::cell::RefCell<CanonicalNodes>,
+    completed: HashMap<(NodeKind, u64), Value>,
+    active: HashSet<(NodeKind, u64)>,
+}
+
+impl<'a> Canonicalizer<'a> {
+    fn new(export: &'a Export, nodes: &'a std::cell::RefCell<CanonicalNodes>) -> Self {
+        Self {
+            export,
+            nodes,
+            completed: HashMap::new(),
+            active: HashSet::new(),
+        }
+    }
+
+    fn expression(&mut self, index: u64) -> Result<Value> {
+        self.node(NodeKind::Expression, index)
+    }
+
+    fn level(&mut self, index: u64) -> Result<Value> {
+        self.node(NodeKind::Level, index)
+    }
+
+    fn node(&mut self, kind: NodeKind, index: u64) -> Result<Value> {
+        let key = (kind, index);
+        if self.active.contains(&key) {
+            bail!("cyclic expression or universe at index {index}");
+        }
+        if let Some(value) = self.completed.get(&key) {
+            return Ok(value.clone());
+        }
+        self.active.insert(key);
+        let result = match kind {
+            NodeKind::Expression => expression_node(self, index),
+            NodeKind::Level => level_node(self, index),
+        };
+        self.active.remove(&key);
+        let node = result?;
+        let mut nodes = self.nodes.borrow_mut();
+        let next = nodes.nodes.len() as u64;
+        let id = *nodes.nodes.entry((kind, node)).or_insert(next);
+        let value = json!(id);
+        self.completed.insert(key, value.clone());
+        Ok(value)
+    }
+}
+
+fn level_node(context: &mut Canonicalizer<'_>, index: u64) -> Result<Value> {
+    let export = context.export;
     if index == 0 {
         return Ok(json!({ "zero": true }));
     }
@@ -245,14 +332,14 @@ fn canonical_level(export: &Export, index: u64) -> Result<Value> {
         .with_context(|| format!("unknown level index {index}"))?;
     if let Some(value) = item.get("succ") {
         return Ok(
-            json!({ "succ": canonical_level(export, value.as_u64().context("invalid successor level")?)? }),
+            json!({ "succ": context.level(value.as_u64().context("invalid successor level")?)? }),
         );
     }
     for tag in ["max", "imax"] {
         if let Some(values) = item.get(tag).and_then(Value::as_array) {
             return Ok(json!({ tag: [
-                canonical_level(export, values.first().and_then(Value::as_u64).context("level is missing left operand")?)?,
-                canonical_level(export, values.get(1).and_then(Value::as_u64).context("level is missing right operand")?)?
+                context.level(values.first().and_then(Value::as_u64).context("level is missing left operand")?)?,
+                context.level(values.get(1).and_then(Value::as_u64).context("level is missing right operand")?)?
             ] }));
         }
     }
@@ -264,7 +351,8 @@ fn canonical_level(export: &Export, index: u64) -> Result<Value> {
     bail!("invalid level index {index}")
 }
 
-fn canonical_expression(export: &Export, index: u64) -> Result<Value> {
+fn expression_node(context: &mut Canonicalizer<'_>, index: u64) -> Result<Value> {
+    let export = context.export;
     let item = export
         .expressions
         .get(&index)
@@ -274,7 +362,7 @@ fn canonical_expression(export: &Export, index: u64) -> Result<Value> {
     }
     if let Some(value) = item.get("sort") {
         return Ok(
-            json!({ "sort": canonical_level(export, value.as_u64().context("invalid sort level")?)? }),
+            json!({ "sort": context.level(value.as_u64().context("invalid sort level")?)? }),
         );
     }
     if let Some(data) = item.get("const") {
@@ -283,7 +371,7 @@ fn canonical_expression(export: &Export, index: u64) -> Result<Value> {
             .and_then(Value::as_array)
             .context("constant lacks universes")?
             .iter()
-            .map(|level| canonical_level(export, level.as_u64().context("invalid universe")?))
+            .map(|level| context.level(level.as_u64().context("invalid universe")?))
             .collect::<Result<Vec<_>>>()?;
         return Ok(json!({ "const": {
             "name": resolve_name(&export.names, data.get("name").and_then(Value::as_u64).context("constant lacks name")?)?,
@@ -292,8 +380,8 @@ fn canonical_expression(export: &Export, index: u64) -> Result<Value> {
     }
     if let Some(data) = item.get("app") {
         return Ok(json!({ "app": {
-            "fn": canonical_expression(export, data.get("fn").and_then(Value::as_u64).context("application lacks fn")?)?,
-            "arg": canonical_expression(export, data.get("arg").and_then(Value::as_u64).context("application lacks arg")?)?
+            "fn": context.expression(data.get("fn").and_then(Value::as_u64).context("application lacks fn")?)?,
+            "arg": context.expression(data.get("arg").and_then(Value::as_u64).context("application lacks arg")?)?
         }}));
     }
     for tag in ["lam", "forallE"] {
@@ -312,17 +400,17 @@ fn canonical_expression(export: &Export, index: u64) -> Result<Value> {
                 binder_info.clone()
             };
             return Ok(json!({ tag: {
-                "type": canonical_expression(export, data.get("type").and_then(Value::as_u64).context("binder lacks type")?)?,
-                "body": canonical_expression(export, data.get("body").and_then(Value::as_u64).context("binder lacks body")?)?,
+                "type": context.expression(data.get("type").and_then(Value::as_u64).context("binder lacks type")?)?,
+                "body": context.expression(data.get("body").and_then(Value::as_u64).context("binder lacks body")?)?,
                 "binderInfo": binder_info
             }}));
         }
     }
     if let Some(data) = item.get("letE") {
         return Ok(json!({ "letE": {
-            "type": canonical_expression(export, data.get("type").and_then(Value::as_u64).context("let lacks type")?)?,
-            "value": canonical_expression(export, data.get("value").and_then(Value::as_u64).context("let lacks value")?)?,
-            "body": canonical_expression(export, data.get("body").and_then(Value::as_u64).context("let lacks body")?)?,
+            "type": context.expression(data.get("type").and_then(Value::as_u64).context("let lacks type")?)?,
+            "value": context.expression(data.get("value").and_then(Value::as_u64).context("let lacks value")?)?,
+            "body": context.expression(data.get("body").and_then(Value::as_u64).context("let lacks body")?)?,
             "nondep": data.get("nondep").cloned().context("let lacks nondep")?
         }}));
     }
@@ -330,7 +418,7 @@ fn canonical_expression(export: &Export, index: u64) -> Result<Value> {
         return Ok(json!({ "proj": {
             "typeName": resolve_name(&export.names, data.get("typeName").and_then(Value::as_u64).context("projection lacks typeName")?)?,
             "idx": data.get("idx").cloned().context("projection lacks idx")?,
-            "struct": canonical_expression(export, data.get("struct").and_then(Value::as_u64).context("projection lacks struct")?)?
+            "struct": context.expression(data.get("struct").and_then(Value::as_u64).context("projection lacks struct")?)?
         }}));
     }
     for tag in ["natVal", "strVal"] {
@@ -341,7 +429,119 @@ fn canonical_expression(export: &Export, index: u64) -> Result<Value> {
     bail!("unsupported expression index {index}")
 }
 
-fn canonical_declaration(export: &Export, declaration: &Declaration) -> Result<Value> {
+#[cfg(test)]
+fn reference_level(export: &Export, index: u64) -> Result<Value> {
+    if index == 0 {
+        return Ok(json!({ "zero": true }));
+    }
+    let item = export
+        .levels
+        .get(&index)
+        .with_context(|| format!("unknown level index {index}"))?;
+    if let Some(value) = item.get("succ") {
+        return Ok(
+            json!({ "succ": reference_level(export, value.as_u64().context("invalid successor level")?)? }),
+        );
+    }
+    for tag in ["max", "imax"] {
+        if let Some(values) = item.get(tag).and_then(Value::as_array) {
+            return Ok(json!({ tag: [
+                reference_level(export, values.first().and_then(Value::as_u64).context("level is missing left operand")?)?,
+                reference_level(export, values.get(1).and_then(Value::as_u64).context("level is missing right operand")?)?
+            ] }));
+        }
+    }
+    if let Some(value) = item.get("param") {
+        return Ok(
+            json!({ "param": resolve_name(&export.names, value.as_u64().context("invalid level parameter")?)? }),
+        );
+    }
+    bail!("invalid level index {index}")
+}
+
+#[cfg(test)]
+fn reference_expression(export: &Export, index: u64) -> Result<Value> {
+    let item = export
+        .expressions
+        .get(&index)
+        .with_context(|| format!("unknown expression index {index}"))?;
+    if let Some(value) = item.get("bvar") {
+        return Ok(json!({ "bvar": value }));
+    }
+    if let Some(value) = item.get("sort") {
+        return Ok(
+            json!({ "sort": reference_level(export, value.as_u64().context("invalid sort level")?)? }),
+        );
+    }
+    if let Some(data) = item.get("const") {
+        let universes = data
+            .get("us")
+            .and_then(Value::as_array)
+            .context("constant lacks universes")?
+            .iter()
+            .map(|level| reference_level(export, level.as_u64().context("invalid universe")?))
+            .collect::<Result<Vec<_>>>()?;
+        return Ok(json!({ "const": {
+            "name": resolve_name(&export.names, data.get("name").and_then(Value::as_u64).context("constant lacks name")?)?,
+            "us": universes
+        }}));
+    }
+    if let Some(data) = item.get("app") {
+        return Ok(json!({ "app": {
+            "fn": reference_expression(export, data.get("fn").and_then(Value::as_u64).context("application lacks fn")?)?,
+            "arg": reference_expression(export, data.get("arg").and_then(Value::as_u64).context("application lacks arg")?)?
+        }}));
+    }
+    for tag in ["lam", "forallE"] {
+        if let Some(data) = item.get(tag) {
+            let binder_info = data.get("binderInfo").context("binder lacks binderInfo")?;
+            let binder_info = if tag == "lam" {
+                // Lambda annotations guide elaboration, not kernel identity. Validate
+                // the export before erasing only this annotation; forallE stays exact.
+                match binder_info.as_str() {
+                    Some("default" | "implicit" | "strictImplicit" | "instImplicit") => {
+                        json!("default")
+                    }
+                    _ => bail!("invalid lambda binderInfo"),
+                }
+            } else {
+                binder_info.clone()
+            };
+            return Ok(json!({ tag: {
+                "type": reference_expression(export, data.get("type").and_then(Value::as_u64).context("binder lacks type")?)?,
+                "body": reference_expression(export, data.get("body").and_then(Value::as_u64).context("binder lacks body")?)?,
+                "binderInfo": binder_info
+            }}));
+        }
+    }
+    if let Some(data) = item.get("letE") {
+        return Ok(json!({ "letE": {
+            "type": reference_expression(export, data.get("type").and_then(Value::as_u64).context("let lacks type")?)?,
+            "value": reference_expression(export, data.get("value").and_then(Value::as_u64).context("let lacks value")?)?,
+            "body": reference_expression(export, data.get("body").and_then(Value::as_u64).context("let lacks body")?)?,
+            "nondep": data.get("nondep").cloned().context("let lacks nondep")?
+        }}));
+    }
+    if let Some(data) = item.get("proj") {
+        return Ok(json!({ "proj": {
+            "typeName": resolve_name(&export.names, data.get("typeName").and_then(Value::as_u64).context("projection lacks typeName")?)?,
+            "idx": data.get("idx").cloned().context("projection lacks idx")?,
+            "struct": reference_expression(export, data.get("struct").and_then(Value::as_u64).context("projection lacks struct")?)?
+        }}));
+    }
+    for tag in ["natVal", "strVal"] {
+        if let Some(value) = item.get(tag) {
+            return Ok(json!({ tag: value }));
+        }
+    }
+    bail!("unsupported expression index {index}")
+}
+
+fn canonical_declaration(
+    context: &mut Canonicalizer<'_>,
+    declaration: &Declaration,
+) -> Result<Value> {
+    let export = context.export;
     let data = declaration
         .data
         .as_object()
@@ -371,8 +571,7 @@ fn canonical_declaration(export: &Export, declaration: &Declaration) -> Result<V
                     })
                     .collect::<Result<Vec<_>>>()?,
             ),
-            "type" | "value" | "rhs" => canonical_expression(
-                export,
+            "type" | "value" | "rhs" => context.expression(
                 value
                     .as_u64()
                     .with_context(|| format!("{field} is not an expression index"))?,
@@ -382,7 +581,7 @@ fn canonical_declaration(export: &Export, declaration: &Declaration) -> Result<V
                     .as_array()
                     .context("rules is not an array")?
                     .iter()
-                    .map(|rule| canonical_rule(export, rule))
+                    .map(|rule| canonical_rule(context, rule))
                     .collect::<Result<Vec<_>>>()?,
             ),
             _ => value.clone(),
@@ -392,12 +591,13 @@ fn canonical_declaration(export: &Export, declaration: &Declaration) -> Result<V
     Ok(Value::Object(result))
 }
 
-fn canonical_rule(export: &Export, rule: &Value) -> Result<Value> {
+fn canonical_rule(context: &mut Canonicalizer<'_>, rule: &Value) -> Result<Value> {
+    let export = context.export;
     let rule = rule.as_object().context("recursor rule is not an object")?;
     Ok(json!({
         "ctor": resolve_name(&export.names, rule.get("ctor").and_then(Value::as_u64).context("rule lacks ctor")?)?,
         "nfields": rule.get("nfields").cloned().context("rule lacks nfields")?,
-        "rhs": canonical_expression(export, rule.get("rhs").and_then(Value::as_u64).context("rule lacks rhs")?)?
+        "rhs": context.expression(rule.get("rhs").and_then(Value::as_u64).context("rule lacks rhs")?)?
     }))
 }
 
@@ -469,7 +669,8 @@ fn resolve_name(names: &HashMap<u64, Value>, index: u64) -> Result<String> {
     })
 }
 
-fn statement(export: &Export, declaration: &Declaration) -> Result<Value> {
+fn statement(context: &mut Canonicalizer<'_>, declaration: &Declaration) -> Result<Value> {
+    let export = context.export;
     if !matches!(declaration.kind.as_str(), "thm" | "axiom") {
         bail!("target is not a theorem or axiom");
     }
@@ -506,8 +707,7 @@ fn statement(export: &Export, declaration: &Declaration) -> Result<Value> {
     );
     result.insert(
         "type".into(),
-        canonical_expression(
-            export,
+        context.expression(
             declaration
                 .data
                 .get("type")
@@ -518,11 +718,14 @@ fn statement(export: &Export, declaration: &Declaration) -> Result<Value> {
     Ok(Value::Object(result))
 }
 
-fn definition_signature(export: &Export, declaration: &Declaration) -> Result<Value> {
+fn definition_signature(
+    context: &mut Canonicalizer<'_>,
+    declaration: &Declaration,
+) -> Result<Value> {
     if declaration.kind != "def" {
         bail!("definition target is not a definition");
     }
-    let mut result = canonical_declaration(export, declaration)?
+    let mut result = canonical_declaration(context, declaration)?
         .as_object()
         .cloned()
         .context("definition is not an object")?;
@@ -531,6 +734,9 @@ fn definition_signature(export: &Export, declaration: &Declaration) -> Result<Va
 }
 
 fn compare_exports(challenge: &Export, solution: &Export, config: &Config) -> Result<()> {
+    let nodes = std::cell::RefCell::new(CanonicalNodes::default());
+    let mut left = Canonicalizer::new(challenge, &nodes);
+    let mut right = Canonicalizer::new(solution, &nodes);
     let theorem_targets: HashSet<&str> = config.theorem_names.iter().map(String::as_str).collect();
     let definition_targets: HashSet<&str> =
         config.definition_names.iter().map(String::as_str).collect();
@@ -543,7 +749,7 @@ fn compare_exports(challenge: &Export, solution: &Export, config: &Config) -> Re
     for target in &config.theorem_names {
         let challenge_target = challenge.declaration(target)?;
         let solution_target = solution.declaration(target)?;
-        if statement(challenge, challenge_target)? != statement(solution, solution_target)? {
+        if statement(&mut left, challenge_target)? != statement(&mut right, solution_target)? {
             bail!("challenge and solution theorem statements do not match: {target}");
         }
         worklist.extend(challenge.type_constants(challenge_target)?);
@@ -551,8 +757,8 @@ fn compare_exports(challenge: &Export, solution: &Export, config: &Config) -> Re
     for target in &config.definition_names {
         let challenge_target = challenge.declaration(target)?;
         let solution_target = solution.declaration(target)?;
-        if definition_signature(challenge, challenge_target)?
-            != definition_signature(solution, solution_target)?
+        if definition_signature(&mut left, challenge_target)?
+            != definition_signature(&mut right, solution_target)?
         {
             bail!("definition-hole signature does not match: {target}");
         }
@@ -570,8 +776,8 @@ fn compare_exports(challenge: &Export, solution: &Export, config: &Config) -> Re
             worklist.extend(solution.type_constants(solution_declaration)?);
             continue;
         }
-        let challenge_value = canonical_declaration(challenge, challenge_declaration)?;
-        let solution_value = canonical_declaration(solution, solution_declaration)?;
+        let challenge_value = canonical_declaration(&mut left, challenge_declaration)?;
+        let solution_value = canonical_declaration(&mut right, solution_declaration)?;
         if challenge_value != solution_value {
             let differing_field = challenge_value
                 .as_object()
@@ -871,6 +1077,311 @@ mod tests {
 
     fn name(prefix: u64, segment: &str) -> Value {
         json!({ "str": { "pre": prefix, "str": segment } })
+    }
+
+    fn canonical_expression(export: &Export, index: u64) -> Result<Value> {
+        let nodes = std::cell::RefCell::new(CanonicalNodes::default());
+        let root = Canonicalizer::new(export, &nodes).expression(index)?;
+        let mut ordered: Vec<_> = nodes.into_inner().nodes.into_iter().collect();
+        ordered.sort_by_key(|(_, id)| *id);
+        Ok(
+            json!({ "root": root, "nodes": ordered.into_iter().map(|((_, node), _)| node).collect::<Vec<_>>() }),
+        )
+    }
+
+    fn dag(depth: u64, offset: u64, split: bool) -> (Export, u64) {
+        let mut export = Export {
+            names: HashMap::from([(0, json!("_")), (1, name(0, "Nat")), (2, name(1, "add"))]),
+            levels: HashMap::new(),
+            expressions: HashMap::from([
+                (offset, json!({"natVal": 0})),
+                (offset + 1, json!({"const": {"name": 2, "us": []}})),
+            ]),
+            declarations: HashMap::new(),
+        };
+        let mut term = offset;
+        for i in 0..depth {
+            let a = offset + 2 + 3 * i;
+            let b = a + 1;
+            let copy = a + 2;
+            export
+                .expressions
+                .insert(a, json!({"app": {"fn": offset + 1, "arg": term}}));
+            let arg = if split {
+                export
+                    .expressions
+                    .insert(copy, export.expressions[&term].clone());
+                copy
+            } else {
+                term
+            };
+            export
+                .expressions
+                .insert(b, json!({"app": {"fn": a, "arg": arg}}));
+            term = b;
+        }
+        (export, term)
+    }
+
+    fn compact_equal(left: &Export, a: u64, right: &Export, b: u64) -> Result<bool> {
+        let nodes = std::cell::RefCell::new(CanonicalNodes::default());
+        let a = Canonicalizer::new(left, &nodes).expression(a)?;
+        let b = Canonicalizer::new(right, &nodes).expression(b)?;
+        Ok(a == b)
+    }
+
+    fn complete_export(depth: u64, offset: u64, split: bool) -> Export {
+        let (mut export, root) = dag(depth, offset, split);
+        for (i, target) in PRIMITIVE_TARGETS.iter().chain(["goal"].iter()).enumerate() {
+            let index = 100 + i as u64;
+            // resolve_name accepts a complete segment, including periods.
+            export.names.insert(index, name(0, target));
+            export.declarations.insert(
+                (*target).into(),
+                Declaration {
+                    kind: if *target == "goal" { "thm" } else { "def" }.into(),
+                    data: json!({"name": index, "levelParams": [], "type": root, "value": root}),
+                },
+            );
+        }
+        export
+    }
+
+    fn test_config() -> Config {
+        Config {
+            challenge_module: "Challenge".into(),
+            solution_module: "Solution".into(),
+            theorem_names: vec!["goal".into()],
+            definition_names: vec![],
+            permitted_axioms: vec![],
+            enable_nanoda: false,
+            external_kernels: BTreeMap::new(),
+        }
+    }
+
+    #[test]
+    fn compare_exports_handles_shared_dags_and_still_rejects_changes() {
+        let left = complete_export(32, 0, false);
+        let mut right = complete_export(32, 1000, true);
+        let config = test_config();
+        compare_exports(&left, &right, &config).unwrap();
+        right.declarations.get_mut("Nat.sub").unwrap().data["isUnsafe"] = json!(true);
+        assert!(compare_exports(&left, &right, &config).is_err());
+        right
+            .declarations
+            .get_mut("Nat.sub")
+            .unwrap()
+            .data
+            .as_object_mut()
+            .unwrap()
+            .remove("isUnsafe");
+        right.expressions.insert(1000, json!({"natVal": 1}));
+        assert!(compare_exports(&left, &right, &config).is_err());
+    }
+
+    #[test]
+    fn declaration_and_recursor_fields_remain_exact() {
+        let left = complete_export(1, 0, false);
+        let mut right = complete_export(1, 1000, true);
+        let nodes = std::cell::RefCell::new(CanonicalNodes::default());
+        let mut a = Canonicalizer::new(&left, &nodes);
+        let mut b = Canonicalizer::new(&right, &nodes);
+        let declaration = left.declarations["Nat.sub"].clone();
+        let expected = canonical_declaration(&mut a, &declaration).unwrap();
+        assert_eq!(
+            expected,
+            canonical_declaration(&mut b, &right.declarations["Nat.sub"]).unwrap()
+        );
+        for field in ["kindFlag", "isUnsafe", "numParams"] {
+            let mut changed = right.declarations["Nat.sub"].clone();
+            changed.data[field] = json!(1);
+            assert_ne!(expected, canonical_declaration(&mut b, &changed).unwrap());
+        }
+        let rule = json!({"ctor": 2, "nfields": 0, "rhs": 0});
+        let equivalent = json!({"ctor": 2, "nfields": 0, "rhs": 1000});
+        assert_eq!(
+            canonical_rule(&mut a, &rule).unwrap(),
+            canonical_rule(&mut b, &equivalent).unwrap()
+        );
+        drop(b);
+        right.names.insert(3, name(0, "Other"));
+        let mut b = Canonicalizer::new(&right, &nodes);
+        for changed in [
+            json!({"ctor": 3, "nfields": 0, "rhs": 1000}),
+            json!({"ctor": 2, "nfields": 1, "rhs": 1000}),
+            json!({"ctor": 2, "nfields": 0, "rhs": 1001}),
+        ] {
+            assert_ne!(
+                canonical_rule(&mut a, &rule).unwrap(),
+                canonical_rule(&mut b, &changed).unwrap()
+            );
+        }
+    }
+
+    #[test]
+    fn shared_dag_storage_and_dependency_work_are_bounded() {
+        // The old canonicalizer expands 26 nodes to 376,752 bytes at depth12.
+        // Exercise the same public canonicalization seam at much greater depth.
+        let (export, root) = dag(32, 0, false);
+        let actual = canonical_expression(&export, root).unwrap();
+        assert!(serde_json::to_vec(&actual).unwrap().len() < 50_000);
+        let nodes = std::cell::RefCell::new(CanonicalNodes::default());
+        let mut context = Canonicalizer::new(&export, &nodes);
+        let id = context.expression(root).unwrap();
+        assert_eq!(context.completed.len(), export.expressions.len());
+        assert_eq!(nodes.borrow().nodes.len(), export.expressions.len());
+        assert_eq!(context.expression(root).unwrap(), id);
+        assert_eq!(context.completed.len(), export.expressions.len());
+        let mut constants = BTreeSet::new();
+        let mut completed = HashSet::new();
+        export
+            .collect_constants(root, &mut constants, &mut completed, &mut HashSet::new())
+            .unwrap();
+        assert_eq!(constants, BTreeSet::from(["Nat.add".into()]));
+        assert_eq!(completed.len(), export.expressions.len());
+    }
+
+    #[test]
+    fn compact_equality_matches_expansion_across_ids_and_sharing() {
+        for depth in 0..7 {
+            let (left, a) = dag(depth, 0, false);
+            let (mut right, b) = dag(depth, 1000, true);
+            assert_eq!(
+                compact_equal(&left, a, &right, b).unwrap(),
+                reference_expression(&left, a).unwrap() == reference_expression(&right, b).unwrap()
+            );
+            assert!(compact_equal(&left, a, &right, b).unwrap());
+            right.expressions.insert(1000, json!({"natVal": 1}));
+            assert_eq!(
+                compact_equal(&left, a, &right, b).unwrap(),
+                reference_expression(&left, a).unwrap() == reference_expression(&right, b).unwrap()
+            );
+            assert!(!compact_equal(&left, a, &right, b).unwrap());
+        }
+    }
+
+    #[test]
+    fn every_constructor_and_semantic_field_matches_reference_equality() {
+        let (mut export, _) = dag(0, 0, false);
+        export.names.insert(3, name(0, "u"));
+        export.names.insert(4, name(0, "v"));
+        export.levels.extend([
+            (1, json!({"succ": 0})),
+            (2, json!({"max": [0, 1]})),
+            (3, json!({"imax": [0, 1]})),
+            (4, json!({"param": 3})),
+            (5, json!({"param": 4})),
+        ]);
+        let mut variants = vec![
+            json!({"bvar": 0}),
+            json!({"bvar": 1}),
+            json!({"natVal": 0}),
+            json!({"natVal": 1}),
+            json!({"strVal": "a"}),
+            json!({"strVal": "b"}),
+        ];
+        for level in 0..6 {
+            variants.push(json!({"sort": level}));
+            variants.push(json!({"const": {"name": 2, "us": [level]}}));
+        }
+        variants.push(json!({"const": {"name": 3, "us": []}}));
+        for annotation in ["default", "implicit", "strictImplicit", "instImplicit"] {
+            for tag in ["lam", "forallE"] {
+                for body in [0, 1] {
+                    for ty in [0, 1] {
+                        variants.push(
+                            json!({tag: {"type": ty, "body": body, "binderInfo": annotation}}),
+                        );
+                    }
+                }
+            }
+        }
+        for a in [0, 1] {
+            for b in [0, 1] {
+                variants.push(json!({"app": {"fn": a, "arg": b}}));
+                for nondep in [false, true] {
+                    variants.push(
+                        json!({"letE": {"type": a, "value": b, "body": 0, "nondep": nondep}}),
+                    );
+                }
+                variants.push(json!({"proj": {"typeName": 2 + a, "idx": b, "struct": a}}));
+            }
+        }
+        for (i, value) in variants.into_iter().enumerate() {
+            export.expressions.insert(10 + i as u64, value);
+        }
+        let roots: Vec<_> = export
+            .expressions
+            .keys()
+            .copied()
+            .filter(|i| *i >= 10)
+            .collect();
+        let nodes = std::cell::RefCell::new(CanonicalNodes::default());
+        let mut context = Canonicalizer::new(&export, &nodes);
+        let reference: Vec<_> = roots
+            .iter()
+            .map(|i| reference_expression(&export, *i).unwrap())
+            .collect();
+        let compact: Vec<_> = roots
+            .iter()
+            .map(|i| context.expression(*i).unwrap())
+            .collect();
+        for i in 0..roots.len() {
+            for j in 0..roots.len() {
+                assert_eq!(
+                    compact[i] == compact[j],
+                    reference[i] == reference[j],
+                    "roots {} and {}",
+                    roots[i],
+                    roots[j]
+                );
+            }
+        }
+    }
+
+    #[test]
+    fn cycles_and_failed_nodes_are_never_cached_as_successes() {
+        let (mut export, _) = dag(0, 0, false);
+        export.expressions.extend([
+            (2, json!({"app": {"fn": 0, "arg": 3}})),
+            (3, json!({"app": {"fn": 0, "arg": 2}})),
+            (4, json!({"sort": 1})),
+            (5, json!({"app": {"fn": 0}})),
+            (6, json!({"const": {"name": 2, "us": [9]}})),
+        ]);
+        export.levels.insert(1, json!({"succ": 1}));
+        let nodes = std::cell::RefCell::new(CanonicalNodes::default());
+        let mut context = Canonicalizer::new(&export, &nodes);
+        for _ in 0..2 {
+            for root in [2, 3, 4, 5, 6, 99] {
+                assert!(context.expression(root).is_err());
+                assert!(
+                    !context
+                        .completed
+                        .contains_key(&(NodeKind::Expression, root))
+                );
+                assert!(context.active.is_empty());
+            }
+        }
+        assert!(
+            export
+                .collect_expression_constants(2, &mut BTreeSet::new())
+                .is_err()
+        );
+    }
+
+    #[test]
+    fn repeated_universe_dag_is_compact_and_node_kinds_are_distinct() {
+        let (mut export, _) = dag(0, 0, false);
+        for i in 1..128 {
+            export.levels.insert(i, json!({"max": [i - 1, i - 1]}));
+        }
+        export.expressions.insert(2, json!({"sort": 127}));
+        let nodes = std::cell::RefCell::new(CanonicalNodes::default());
+        let mut context = Canonicalizer::new(&export, &nodes);
+        context.expression(2).unwrap();
+        assert_eq!(context.completed.len(), 129);
+        assert_eq!(nodes.borrow().nodes.len(), 129);
     }
 
     #[test]
