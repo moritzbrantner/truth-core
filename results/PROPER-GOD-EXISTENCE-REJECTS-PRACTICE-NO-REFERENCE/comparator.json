@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Alternatives.NameApplicationTransfer.Conflict.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.NameApplicationTransfer.Conflict.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Alternatives.NameApplicationTransfer.Conflict.properExistenceRejectsNoBeing"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

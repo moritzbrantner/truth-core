@@ -14,6 +14,14 @@ public import TruthCore.Results.Alternatives.McTaggartDefeatedByChange.Solution
 public import TruthCore.Results.Alternatives.McTaggartUnrealityOfTimeRefuted.Solution
 public import TruthCore.Results.Alternatives.MegarianAbolishesMotion.Solution
 public import TruthCore.Results.Alternatives.MegarianCapacityCore.Solution
+public import TruthCore.Results.Alternatives.NameApplicationTransfer.Conflict.Solution
+public import TruthCore.Results.Alternatives.NameApplicationTransfer.Coverage.Solution
+public import TruthCore.Results.Alternatives.NameApplicationTransfer.Description.Solution
+public import TruthCore.Results.Alternatives.NameApplicationTransfer.FullNaming.Solution
+public import TruthCore.Results.Alternatives.NameApplicationTransfer.Models.Solution
+public import TruthCore.Results.Alternatives.NameApplicationTransfer.PureActNaming.Solution
+public import TruthCore.Results.Alternatives.NameApplicationTransfer.ReducedNaming.Solution
+public import TruthCore.Results.Alternatives.NameApplicationTransfer.Strength.Solution
 public import TruthCore.Results.Alternatives.NightActualizationCore.Solution
 public import TruthCore.Results.Alternatives.NightActualizationFork.Solution
 public import TruthCore.Results.Alternatives.PerSeCausalLoopImpossible.Solution

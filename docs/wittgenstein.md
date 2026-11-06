@@ -777,3 +777,53 @@ exist, religious discourse is meaningless, or the Catholic nominal-definition
 leaves are discharged. The experiment does not connect their shared reference
 relation yet. Root premises and #1010's existing conditional defeat remain
 unchanged; #1073 supplies one boundary, not completion of #1010.
+
+
+## Proper application and practice reference (definition audit, 2026-11-06)
+
+The nominal leaves' proper predicate and `NamingPractice.RefersTo` are separate.
+`STMT-PROPER-REFERENCE-PRESERVED` is the explicit open analyst proposition
+that every proper instance is referred to by the selected name in the selected
+practice, on the same carrier. Stronger coextension adds the reverse direction;
+`GOD-NAME-COEXTENSION-PRESERVES-PROPER-REFERENCE` registers that order.
+Consequence arguments use the weaker transfer. No new attribution is made to
+Phillips, Aquinas or a theory of reference.
+
+`NAME-APPLICATION-TRANSFER-CASES` checks that either transfer holds or some
+proper instance is not a practice referent, using the existing explicit EM
+premise. Its witness is a relevant failure in this fixed semantic profile.
+This is structural coverage of a transfer test, not exhaustion of named
+philosophical definitions. The prior name-swapping controls above still concern
+literal reference under extensional sentence/inference agreement; they neither
+supply nor refute the new transfer premise.
+
+`PROPER-GOD-EXISTENCE-REJECTS-PRACTICE-NO-REFERENCE` uses the existing actual
+God-existence witness and transfer to refute the practice-use no-being thesis.
+Both remain open inputs. The reverse confrontation needs a matching descriptor
+witness: a universal naming implication can be true when nothing fits its
+antecedent. The new full, reduced and pure-act descriptor-existence propositions
+spell out exactly the antecedents of their respective original naming leaves.
+Raw no-reference, transfer and that witness then negate the proper-profile
+naming leaf, as the three `PRACTICE-NO-REFERENCE-REJECTS-…-NAMING` results check.
+The full-description no-witness consequence also imports the earlier checked
+`noBeingExcludesFullDescription` theorem after an explicit one-way translation.
+It excludes a unique fully described instance, rather than inferring a global
+contradiction without one.
+
+The three existing `alternative_to` relation IDs keep the serious no-object
+rival but now point from these exact proper-profile negations. The raw practice
+thesis remains a full-strength premise of their deriving arguments, with its
+supporting source remark unchanged. This is consequential: a future refutation
+of raw practice no-reference cannot automatically count as refuting the
+proper-profile challenge and defending a nominal leaf. Notes alone could not
+have enforced those transfer/witness conditions in the premise engine.
+
+`NAME-APPLICATION-TRANSFER-MODELS` supplies three finite controls: an inhabited
+proper predicate with empty practice reference and lost transfer; inhabited
+shared reference with no-reference false; and one-way transfer with extra
+practice referents, violating coextension. These are schema interpretations,
+not independently constrained God models or claims about actual religious use.
+The strongest surviving rival rejects transfer or disputes that any nominal
+descriptor has an actual instance. Applicability and independent defense of
+those premises remain open; none of the eight results establishes the root.
+Existing attributed claims and frozen Challenges are unchanged.

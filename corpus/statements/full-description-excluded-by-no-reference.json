@@ -1,0 +1,19 @@
+{
+  "id": "STMT-FULL-DESCRIPTION-EXCLUDED-BY-NO-REFERENCE",
+  "paraphrase": "No being satisfying the full nominal description has its required uniqueness: for each maximum in being that causes all being, every perfection of others and is remote from all, it is not the only maximum. Conditional exclusion of a descriptor witness, not a denial that any being exists.",
+  "lean_declaration": "TruthCore.Alternatives.NameApplicationTransfer.FullDescriptionExcluded",
+  "definition_ids": [
+    "DEF-PROPER-TO-PRACTICE-REFERENCE-CALIBRATION",
+    "DEF-NAME-REFERS-IN-PRACTICE",
+    "DEF-GOD-NOMINAL-Q13",
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-NOMINAL-DEFINITION",
+    "DEF-MAXIME-ENS",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-REMOTE-FROM-ALL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NAME-APPLICATION",
+    "DISAMB-GOD"
+  ]
+}
