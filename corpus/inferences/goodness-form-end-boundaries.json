@@ -1,0 +1,9 @@
+{
+  "id": "INF-GOODNESS-FORM-END-BOUNDARIES",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-GOODNESS-FORM-END-BOUNDARIES",
+  "rule": "constructive-proof",
+  "meaning": "Derive the exact route-interface equivalence and exclusion constraints, then check each stated finite model property; reuse the earlier exact-classification theorem for feature fibers. Positive-case Boyd schemas occupy all three cells under identical positive criteria; calibrated Railton schema instances survive and fail respectively. The missing-definition model satisfies both named failures and a correct admissible account while refuting the target.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

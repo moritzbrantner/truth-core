@@ -1,0 +1,14 @@
+{
+  "id": "STMT-GOODNESS-SEMANTIC-NAMED-COVERAGE-FORK",
+  "paraphrase": "For every fixed profile and definition space, semantic named coverage holds or an explicit admissible proposal has a different extension from all named accounts. Excluded middle is explicit; this does not assert either philosophical branch.",
+  "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.SemanticNamedCoverageFork",
+  "definition_ids": [
+    "DEF-FORM-END-DUE-PERFECTION",
+    "DEF-GOODNESS-DUE-ACTUALITY-PROPOSITION",
+    "DEF-GOODNESS-NAMED-DEFINITION-SPACE",
+    "DEF-GOODNESS-SEMANTIC-DEFINITION-COVERAGE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOODNESS-UNRESTRICTED-DUE-AND-ULTIMATE"
+  ]
+}

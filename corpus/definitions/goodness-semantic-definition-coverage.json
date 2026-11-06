@@ -1,0 +1,8 @@
+{
+  "id": "DEF-GOODNESS-SEMANTIC-DEFINITION-COVERAGE",
+  "term": "semantic named-definition coverage and a genuinely different additional definition",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.SemanticNamedCoverage",
+  "definition": "Coextensive s a b means ∀ x p, denotes a x p ↔ denotes b x p. SemanticNamedCoverage says every admissible candidate coextends pointwise with the named due-actuality, feature-criterion or fixed-assessor approval account. AdditionalSemanticDefinition witnesses an admissible proposal whose extension matches none of those accounts. Candidate-name or intensional differences alone do not create this remainder.",
+  "note": "This weak semantic coverage suffices for the extensional owner proposition and is used by the core conditional elimination. The stronger candidate-identity NamedCoverage is preserved as a sibling with checked entailment to this weak version. Neither coverage premise is adopted or independently established. The fixed fourth proposal in the mixed model differs extensionally from all three named accounts; a mere alias would not be an additional semantic definition. Property identity is handled separately and cannot be inferred from this extensional grouping."
+}

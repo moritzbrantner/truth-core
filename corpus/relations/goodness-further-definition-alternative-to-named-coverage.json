@@ -1,0 +1,9 @@
+{
+  "id": "REL-GOODNESS-FURTHER-DEFINITION-ALTERNATIVE-TO-NAMED-COVERAGE",
+  "subject_kind": "statement",
+  "subject_id": "STMT-GOODNESS-ADDITIONAL-RELEVANT-DEFINITION",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-GOODNESS-NAMED-DEFINITIONS-COVER",
+  "note": "Explicit analyst structural/scope rival under one fixed supplied profile. No counted refutation is registered; conditional/modelled failure is not independent philosophical defeat."
+}

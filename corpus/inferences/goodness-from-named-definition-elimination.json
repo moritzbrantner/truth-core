@@ -1,0 +1,14 @@
+{
+  "id": "INF-GOODNESS-FROM-NAMED-DEFINITION-ELIMINATION",
+  "input_statement_ids": [
+    "STMT-GOODNESS-SEMANTIC-NAMED-DEFINITIONS-COVER",
+    "STMT-GOODNESS-CORRECT-ADMISSIBLE-ACCOUNT-EXISTS",
+    "STMT-GOODNESS-FEATURE-ACCOUNT-FAILS",
+    "STMT-GOODNESS-APPROVAL-ACCOUNT-FAILS"
+  ],
+  "output_statement_id": "STMT-GOODNESS-DUE-TO-FORM-AND-END",
+  "rule": "constructive-proof",
+  "meaning": "Choose the explicitly assumed correct admissible account. Weak semantic coverage makes its extension agree with due actuality, the feature criterion, or fixed-assessor approval. Pointwise correctness negations eliminate the latter two. The calibrated due account therefore describes goodness. Candidate names and property intensions are not silently equated.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
