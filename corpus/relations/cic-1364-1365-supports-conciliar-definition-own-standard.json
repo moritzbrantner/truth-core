@@ -1,0 +1,9 @@
+{
+  "id": "REL-CIC-1364-1365-SUPPORTS-CONCILIAR-DEFINITION-OWN-STANDARD",
+  "subject_kind": "claim",
+  "subject_id": "CIC-1364-1365-SANCTIONS",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-CONCILIAR-DEFINITION-IS-PRACTICE-OWN-STANDARD",
+  "note": "Can. 1365 punishes teaching a doctrine condemned by an ecumenical council. Dei Filius can. II.1 condemns the denial of natural knowability, so by the practice's own law teaching that denial is sanctioned. Gap: sanctioning the denial is excluding a move, not yet endorsing the defined move as correct; and sanctions are law, which the fideist may place outside grammar (STMT-COUNCIL-TEACHING-THEOLOGY-NOT-GRAMMAR)."
+}

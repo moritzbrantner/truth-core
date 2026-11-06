@@ -1,0 +1,9 @@
+{
+  "id": "REL-AQUINAS-SCG-I2-SUPPORTS-NATURAL-REASON-SHARED",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-SCG-I-2-NATURAL-REASON-ALL-ASSENT",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-NATURAL-REASON-IS-SHARED-REASON",
+  "note": "SCG I.2 n.4 names natural reason as that 'cui omnes assentire coguntur', invoked against Muslims and pagans who share no Scripture: scholastic usage of natural reason as reason shared with outsiders, non-theists included. Gap: Aquinas is a theologian of the practice, not its council; that Vatican I's 'naturali humanae rationis lumine' has his sense is the reading step."
+}

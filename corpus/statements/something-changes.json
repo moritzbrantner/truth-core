@@ -20,7 +20,13 @@
     "disagreement": {
       "rival_statement_ids": [
         "STMT-MCTAGGART-UNREALITY-OF-TIME"
-      ]
+      ],
+      "claim_ids": [
+        "SEP-FIDEISM-4-HINGES-NON-PROPOSITIONAL-A",
+        "SEP-FIDEISM-4-HINGES-NONSENSE-A",
+        "WITTGENSTEIN-OC-151-STAND-FAST-NOT-KNOWN"
+      ],
+      "note": "Conditional disagreement (P-OC-1, owner approval 2026-11-05 relayed on #1010): these claims are On Certainty hinge readings that deny that hinges are known truths (§151; Read/Crary, nonsense; Moyal-Sharrock, non-propositional). They bear on this item only through a bridge no source supplies: that this item functions as a hinge. They do not deny the item, and they are not alternatives to it. No separate hinge floor basis is adopted (P-OC-3)."
     },
     "owner_approval": {
       "decision": "https://github.com/moritzbrantner/truth-core/issues/1007#issuecomment-6661672293",

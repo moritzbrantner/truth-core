@@ -1,0 +1,32 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "CODEX-IURIS-CANONICI-1983",
+    "source_url": "https://www.vatican.va/archive/cod-iuris-canonici/latin/documents/cic_liberIII_la.html",
+    "retrieved_at": "2026-11-06T07:51:49Z",
+    "sha256": "sha256:9184880a33a2066e1b7e0ce5c0972c04293fb8f2018ff5434e705578c67b3316",
+    "encoding": "iso-8859-1",
+    "language": "lat",
+    "license": "Official Latin text of the Codex Iuris Canonici (1983; Book VI as revised by Pascite gregem Dei, 2021) on the Holy See's site; the page carries no reuse notice (checked 2026-11-06). Only hashes, locators and a short incipit are committed. Two fetches on 2026-11-06 gave identical bytes. No Wayback fallback: web.archive.org refused connections from the pinning environment."
+  },
+  "passages": [
+    {
+      "id": "CIC-1983-747-755",
+      "locator": "Book III, cann. 747-755",
+      "claim_locator_prefixes": [
+        "can. 74",
+        "can. 75"
+      ],
+      "html_selector": {
+        "from": {
+          "anchor": "LIBER_III_"
+        },
+        "to": {
+          "anchor": "TITULUS_I"
+        }
+      },
+      "text_sha256": "sha256:1288f8d68dadc78bcc01b57984dfd075b9fc85af1a00cea053afcfd410d40c7d",
+      "incipit": "LIBER III\nDE ECCLESIAE MUNERE DOCENDI\nCan. 747 — § 1. Ecclesiae, cui Christus"
+    }
+  ]
+}

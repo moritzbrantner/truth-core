@@ -1,0 +1,9 @@
+{
+  "id": "REL-NATURAL-REASON-HORIZON-ALTERNATIVE-TO-NATURAL-REASON-SHARED",
+  "subject_kind": "statement",
+  "subject_id": "STMT-NATURAL-REASON-WITHIN-THEOLOGICAL-HORIZON",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-NATURAL-REASON-IS-SHARED-REASON",
+  "note": "The fideist escape from the shared-reason bridge at full strength (needsNaturalReasonIsShared is its countermodel). Unattributed: Clayton and Taylor, as reported, describe how the proofs functioned, not what Vatican I's phrase means; STMT-CLAYTON-PROOFS-WITHIN-THEOLOGICAL-THEATER only supports it. Not refuted: the texts that bear against it (Dei Filius ch. 4 on the gentiles; SCG I.2-3 on pagans and philosophers) are stated, not established."
+}
