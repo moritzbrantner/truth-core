@@ -78,6 +78,15 @@ A world-local brute account can retain local explanation while declining the
 ultimate coverage demand. Each has an explicit remaining burden, not an automatic
 complete-worldview parity verdict or a license to exempt the favored account.
 
+The existing [#462 working reply](selected-effect-bridge-462.md) is stronger
+than a necessary bearer plus an external contingent selector: it retains
+necessary intrinsic willing, a nonnecessary creature-directed relation, and
+rational ordering among the intended creatures. Whether this explains the
+complete actual creature order remains OPEN. The existing `twoTokens` model
+is a diagnostic distinction between intrinsic and directed roles, not a source
+claim that there are two real intrinsic divine acts. This reuse adds no new
+attribution or defense of that reply.
+
 ### One next application: audit the claimed complete account, not another toy
 
 For the **claimed complete singular-NE account of one fixed contingent
