@@ -1,0 +1,31 @@
+{
+  "id": "NATURAL-REASON-SHARED-NONSHARED-OR-MIXED",
+  "argument_id": "NATURAL-REASON-SHARED-NONSHARED-OR-MIXED",
+  "challenge_module": "TruthCore.Results.Alternatives.NaturalReasonHorizon.Coverage.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.NaturalReasonHorizon.Coverage.Solution",
+  "theorem": "TruthCore.Results.Alternatives.NaturalReasonHorizon.Coverage.profileCoverage",
+  "comparator_config": "results/NATURAL-REASON-SHARED-NONSHARED-OR-MIXED/comparator.json",
+  "status": "solution-present",
+  "description": "Explicit EM checks the two universal readings or a pair of actual opposing move witnesses. Empty natural-move domains allow universal overlap; named uniform coverage is not established.",
+  "case_split": {
+    "target_statement_id": "STMT-NATURAL-REASON-IS-SHARED-REASON",
+    "cases": [
+      {
+        "label": "all natural-knowability moves shared",
+        "lean_declaration": "TruthCore.Alternatives.Fideism.NaturalReasonIsSharedReading",
+        "statement_id": "STMT-NATURAL-REASON-IS-SHARED-REASON"
+      },
+      {
+        "label": "all natural-knowability moves nonshared",
+        "lean_declaration": "TruthCore.Alternatives.NaturalReasonHorizon.NaturalReasonNeverShared",
+        "statement_id": "STMT-NATURAL-REASON-NEVER-SHARED"
+      },
+      {
+        "label": "actual mixed witnesses",
+        "lean_declaration": "TruthCore.Alternatives.NaturalReasonHorizon.MixedNaturalReason",
+        "statement_id": "STMT-NATURAL-REASON-IS-MIXED"
+      }
+    ],
+    "survival_result_id": "NATURAL-REASON-HORIZON-SCOPE-MODELS"
+  }
+}

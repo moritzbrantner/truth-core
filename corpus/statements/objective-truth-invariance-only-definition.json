@@ -1,0 +1,12 @@
+{
+  "id": "STMT-OBJECTIVE-TRUTH-INVARIANCE-ONLY-DEFINITION",
+  "paraphrase": "Analyst competing definition proposition: the objective classifier coextends with stable truth status, whether that status is true or false at the actual profile.",
+  "lean_declaration": "TruthCore.Logic.ObjectiveTruthDefinitionFork.InvariantOnlyDefinition",
+  "definition_ids": [
+    "DEF-OBJECTIVE-TRUTH-PROFILE-FRAME",
+    "DEF-OBJECTIVE-TRUTH-INVARIANCE-ONLY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-OBJECTIVE-TRUTH-CALIBRATIONS"
+  ]
+}

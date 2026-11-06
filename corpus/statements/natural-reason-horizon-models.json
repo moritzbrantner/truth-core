@@ -1,0 +1,14 @@
+{
+  "id": "STMT-NATURAL-REASON-HORIZON-MODELS",
+  "paraphrase": "Four schema controls witness a descriptive theological horizon and actual nonmember use with either shared or nonshared reason, an actual mixed profile, and vacuous overlap when no move affirms natural knowability. No real apologetic history or universal worldview neutrality is established.",
+  "lean_declaration": "TruthCore.Alternatives.NaturalReasonHorizon.HorizonModels",
+  "definition_ids": [
+    "DEF-NATURAL-REASON-PROFILE-COMPARISON",
+    "DEF-NATURAL-REASON-SHARED",
+    "DEF-NATURAL-REASON-PRACTICE-INTERNAL",
+    "DEF-CONCILIAR-DEFINITION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NATURAL-REASON"
+  ]
+}

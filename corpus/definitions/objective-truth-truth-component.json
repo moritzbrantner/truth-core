@@ -1,0 +1,8 @@
+{
+  "id": "DEF-OBJECTIVE-TRUTH-TRUTH-COMPONENT",
+  "term": "objective truth has a truth component",
+  "definition": "HasTruthComponent f means \u2200 s, objective s \u2192 holds actual s. It is only the forward truth-component condition, not a complete definition.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.ObjectiveTruthDefinitionFork.HasTruthComponent",
+  "note": "This openly stipulated bridge is exactly the extra premise needed to carry the old external-emotivism denial of truth to denial of objective truth. It does not select actual-stable, robust, minimal or any other complete truth account."
+}

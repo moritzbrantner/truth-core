@@ -1,0 +1,8 @@
+{
+  "id": "DEF-OBJECTIVE-TRUTH-INVARIANCE-ONLY",
+  "term": "objective as profile stability alone",
+  "definition": "InvariantOnlyDefinition f means \u2200 s, objective s \u2194 Stable f s. It omits actual truth and can classify an invariably false sentence as objective.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.ObjectiveTruthDefinitionFork.InvariantOnlyDefinition",
+  "note": "Analyst rival calibration, not an attribution to a historical school. It may coextend with actual-stable calibration in some profiles; no exclusivity or philosophical identity follows. The control shows why this interpretation cannot supply objective-implies-truth in general."
+}

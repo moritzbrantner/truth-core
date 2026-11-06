@@ -1,0 +1,13 @@
+{
+  "id": "INF-CATHOLICISM-MESSAGE-RIVAL-EXCLUDED-BY-ATTESTATION-WEAK-LINK",
+  "input_statement_ids": [
+    "STMT-GOVERNING-EVENT-INSTITUTION-LINK",
+    "STMT-JOHN-COMMISSION-INDEPENDENT-OF-MATTHEW",
+    "STMT-HEAVEN-RATIFIED-ATTESTATION-CRITERION"
+  ],
+  "output_statement_id": "STMT-MESSAGE-RIVAL-EXCLUDED-GIVEN-FOUNDING",
+  "rule": "constructive-proof",
+  "meaning": "Reuse attestation_gives_governing and the weak governing-event link to exclude the message rival whenever an actual mandate/founded-visible-body antecedent holds. The old institutional teaching component is unnecessary; original Challenge retained as a legacy interface.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

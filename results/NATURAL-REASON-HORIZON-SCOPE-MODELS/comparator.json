@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Alternatives.NaturalReasonHorizon.Models.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.NaturalReasonHorizon.Models.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Alternatives.NaturalReasonHorizon.Models.horizonModels"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

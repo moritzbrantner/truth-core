@@ -1,0 +1,17 @@
+{
+  "id": "MESSAGE-SCOPE-BOUNDARY-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-MESSAGE-SCOPE-BOUNDARY-MODELS",
+  "inference_ids": [
+    "INF-MESSAGE-SCOPE-BOUNDARY-CONTROLS"
+  ],
+  "meaning": "Coexistence with an unrealized joint mandate/body antecedent and exact opposition with an actual joint witness. The concrete first construction has no mandate, but this coarse registered target exports only absence of the joint antecedent; the explicit empty-mandate sibling certifies the stronger distinction.",
+  "definition_ids": [
+    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
+    "DEF-COMMISSION-REPORT-POWERS",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMMISSION-REPORT-AND-EVENT"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.EmptyMandate.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.EmptyMandate.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.explicitEmptyMandateScopeCoexistence"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "REL-INSTITUTIONAL-TRANSFER-COUNTERCASE-OPPOSES-LINK",
+  "subject_kind": "statement",
+  "subject_id": "STMT-INSTITUTIONAL-TRANSFER-COUNTERCASE",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-GOVERNING-EVENT-INSTITUTION-LINK",
+  "note": "Actual mandate/body/governing-event witnesses without founding-in-mandate contradict this exact transfer. No historical-report negation follows without an opposing link."
+}

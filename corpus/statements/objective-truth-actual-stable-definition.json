@@ -1,0 +1,12 @@
+{
+  "id": "STMT-OBJECTIVE-TRUTH-ACTUAL-STABLE-DEFINITION",
+  "paraphrase": "Analyst definition proposition: in this fixed profile, a sentence is objectively true exactly when it is actually true and its truth status is stable across the supplied attitude profiles. No adoption or independent warrant for this calibration is claimed.",
+  "lean_declaration": "TruthCore.Logic.ObjectiveTruthDefinitionFork.ActualStableDefinition",
+  "definition_ids": [
+    "DEF-OBJECTIVE-TRUTH-PROFILE-FRAME",
+    "DEF-OBJECTIVE-TRUTH-ACTUAL-STABLE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-OBJECTIVE-TRUTH-CALIBRATIONS"
+  ]
+}

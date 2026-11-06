@@ -1455,13 +1455,13 @@
       "id": "DEF-PER-SE-ORDERED-SERIES",
       "path": "corpus/definitions/per-se-ordered-series.json",
       "status": "inspected",
-      "classification": "intentional_abstraction",
-      "finding": "Existing interpretation retained: A series in which each cause after the first causes only insofar as it is, here and now, moved by the one before it: the stone is moved by the stick, the stick by the hand. In Lean the link is `MovesAsMoved y x` (y moves x only insofar as y is itself moved) and 'no infinite regress' is well-foundedness of that relation (`NoInfinitePerSeMoverSeriesReading`). No new structural law, source attribution or independently established premise is introduced.",
+      "classification": "reviewed_semantic_note",
+      "finding": "Reviewed #1112 clarification: no first member is presupposed by an essential-series definition; here-and-now/removal is an OPEN interpretation of primitive links and accessibility a separate premise. Historical succession and essential dependence are distinct without an explicit edge dictionary. The new typed analyst sibling certifies only conditional exclusion and formal same-member compatibility, not metaphysical possibility. Existing source claims, frozen interfaces and every audited route premise remain unchanged; see docs/causal-regress-and-grim-reapers.md.",
       "before": {
         "sha256": "8c7ad57558c8de9d90019cfa7eaf6aa8a98be86d7d03da298cdb18f93420bdf9",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.NoInfinitePerSeMoverSeriesReading"
       },
-      "reviewed_sha256": "8c7ad57558c8de9d90019cfa7eaf6aa8a98be86d7d03da298cdb18f93420bdf9"
+      "reviewed_sha256": "5cbd86e2154a664a5037fe86b73ddff99e4d7dc3fa5d90eea686febba91bf3b9"
     },
     {
       "kind": "definitions",
@@ -1689,13 +1689,13 @@
       "id": "DISAMB-CAUSAL-SERIES",
       "path": "corpus/disambiguations/causal-series.json",
       "status": "inspected",
-      "classification": "intentional_abstraction",
-      "finding": "Existing resolution retained: The no-regress premise STMT-NO-INFINITE-PER-SE-MOVER-SERIES is stated only for per se links (`MovesAsMoved`); nothing on the root path says that a per accidens series must end. ST I q.46 a.2 ad 7 grants that a per accidens series (an infinite past of fathers or hammers) is not impossible (STMT-INFINITE-REGRESS-IMPOSSIBLE-ONLY-IN-PER-SE-SERIES), so an eternal world does not touch the prima via. The series is per se because of STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED, and it is read at one time (simul). The secunda via has its own per se link between efficient causes, `CausesAsCaused` (DEF-PER-SE-EFFICIENT-CAUSE-LINK), with its own no-regress premise STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES. It is not identified with `MovesAsMoved`: the only passage from one to the other is the explicit premise STMT-PER-SE-MOVER-LINK-IS-PER-SE-CAUSE-LINK (q.46 a.2 ad 7, the stone, stick and hand), from which AQUINAS-ST-I-Q46-A2-AD7-MOVER-REGRESS-FROM-CAUSE-REGRESS derives the mover regress premise.",
+      "classification": "reviewed_semantic_note",
+      "finding": "Reviewed #1112 clarification: no first member is presupposed by an essential-series definition; here-and-now/removal is an OPEN interpretation of primitive links and accessibility a separate premise. Historical succession and essential dependence are distinct without an explicit edge dictionary. The new typed analyst sibling certifies only conditional exclusion and formal same-member compatibility, not metaphysical possibility. Existing source claims, frozen interfaces and every audited route premise remain unchanged; see docs/causal-regress-and-grim-reapers.md.",
       "before": {
         "sha256": "e49c7b1303cbad80df9fdf569a5050be6943c34cd984f64022c52c99644e8cae",
         "lean_declaration": null
       },
-      "reviewed_sha256": "e49c7b1303cbad80df9fdf569a5050be6943c34cd984f64022c52c99644e8cae"
+      "reviewed_sha256": "597bfe3a60db507964990c3e3cfd36410bfc4c8ebc0f7bda53cab4b5de8a8803"
     },
     {
       "kind": "disambiguations",
@@ -1935,14 +1935,14 @@
       "kind": "disambiguations",
       "id": "DISAMB-TRUE",
       "path": "corpus/disambiguations/true.json",
-      "status": "inspected",
-      "classification": "intentional_abstraction",
-      "finding": "Existing resolution retained: The quarta via's 'true' is the truth of things (the respect `verum`), not the truth of sentences; no result links `verum` with `Holds`. The problem-of-evil results use truth of sentences. POE-EXTERNAL-PREMISE-VS-EMOTIVISM uses O'Connor's own notion (DEF-TRUTH-VALUE): moral statements are not the kind of sentence that can be true or false, so they are not true. That is the robust sense, and the result holds against his emotivism as he states it. It does not hold against an expressivist who grants moral sentences minimal truth: such a theorist rejects STMT-MORAL-STATEMENTS-LACK-TRUTH-VALUE in the minimal sense, and answering that rival is the open work of #182 and #185. 'Objectively true' (DEF-OBJECTIVE-TRUTH) is truth independent of attitudes; the result's conclusion denies truth simply, and it denies objective truth only under the further, unformalized bridge that what is objectively true is true (no Lean declaration states it). 'Catholicism is true' (DEF-CATHOLICISM-TRUE-PHASE-1) is the plain conjunction of its two conditions, not a further truth predicate. The objective-truth pilot uses DEF-LEAN-PROPOSITION-HOLDING for ∃ P : Prop, P and its logical counterpart: a proof in the encoded logic, not an identification with ontological, robust, minimal or attitude-independent truth. Its profile Interpretation is a stipulated external mapping, and a bridge preserving a logical sentence across profiles remains explicit and open.",
+      "status": "repaired",
+      "classification": "clarified_conditional_bridge",
+      "finding": "Reviewed additive truth-sense clarification: quarta-via verum remains distinct from sentence truth, and robust/minimal truth and the Lean-Prop pilot remain distinct. The formerly unformalized objective-implies-truth condition is now the explicit weak STMT-OBJECTIVE-TRUTH-HAS-TRUTH-COMPONENT, used only in the separately registered external-evil composition. New profile calibrations are analyst siblings, not attributed identities or an adopted root premise. Existing audited theorem types, arguments and source claims are unchanged; this row does not certify philosophical attitude independence or named-definition exhaustion.",
       "before": {
         "sha256": "03757e504426c6dea3171c5d42d965eddeceb3954fd1f6ad52305c396bf3a8e2",
         "lean_declaration": null
       },
-      "reviewed_sha256": "03757e504426c6dea3171c5d42d965eddeceb3954fd1f6ad52305c396bf3a8e2"
+      "reviewed_sha256": "aab9e48371e81d95d2613fb877dcee6b2cbc717e080f646b016af686c56d5b5d"
     },
     {
       "kind": "claims",

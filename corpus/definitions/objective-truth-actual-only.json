@@ -1,0 +1,8 @@
+{
+  "id": "DEF-OBJECTIVE-TRUTH-ACTUAL-ONLY",
+  "term": "objective as actual truth without profile independence",
+  "definition": "ActualTruthOnlyDefinition f means \u2200 s, objective s \u2194 holds actual s. It adds no stability condition to actual truth.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.ObjectiveTruthDefinitionFork.ActualTruthOnlyDefinition",
+  "note": "Analyst competing calibration that separates a plain actual-truth reading from an independence reading. It does not identify the legacy unindexed trueAbs predicate with every use of objective truth. Actual truth of a sentence can vary with the supplied attitude profile."
+}

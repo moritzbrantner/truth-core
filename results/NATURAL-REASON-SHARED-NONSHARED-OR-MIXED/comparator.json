@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Alternatives.NaturalReasonHorizon.Coverage.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.NaturalReasonHorizon.Coverage.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Alternatives.NaturalReasonHorizon.Coverage.profileCoverage"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

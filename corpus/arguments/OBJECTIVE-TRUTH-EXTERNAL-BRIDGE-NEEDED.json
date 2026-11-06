@@ -1,0 +1,18 @@
+{
+  "id": "OBJECTIVE-TRUTH-EXTERNAL-BRIDGE-NEEDED",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-OBJECTIVE-TRUTH-EXTERNAL-BRIDGE-NEEDED",
+  "inference_ids": [
+    "INF-OBJECTIVE-TRUTH-EXTERNAL-BRIDGE-NEEDED"
+  ],
+  "meaning": "Finite omission control for the exact old four-premise external result: choose the stably false content as moral/bad, and truth-aptness as actual truth. All four old hypotheses hold, while invariance-only classifies that false content as objective. The missing truth-component condition is explicitly false. No complete historical theory or alternative problem-of-evil argument is represented.",
+  "definition_ids": [
+    "DEF-OBJECTIVE-TRUTH-PROFILE-FRAME",
+    "DEF-OBJECTIVE-TRUTH-INVARIANCE-ONLY",
+    "DEF-OBJECTIVE-TRUTH-TRUTH-COMPONENT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-OBJECTIVE-TRUTH-CALIBRATIONS",
+    "DISAMB-TRUE"
+  ]
+}

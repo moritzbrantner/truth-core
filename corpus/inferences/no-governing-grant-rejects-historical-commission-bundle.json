@@ -1,0 +1,11 @@
+{
+  "id": "INF-NO-GOVERNING-GRANT-REJECTS-HISTORICAL-COMMISSION-BUNDLE",
+  "input_statement_ids": [
+    "STMT-NO-GOVERNING-GRANT"
+  ],
+  "output_statement_id": "STMT-HISTORICAL-COMMISSION-BUNDLE-REJECTED",
+  "rule": "constructive-proof",
+  "meaning": "The existing historical bundle supplies a governing grant, contradicting the universal absence of such grants. Matthew28 alone is not denied.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

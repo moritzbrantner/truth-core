@@ -350,3 +350,66 @@ For the separate question whether an **endless temporal task can finish**, see
 [supertasks and divergent series](supertasks.md). Its limit-endpoint model,
 oscillating-output counterexample and fixed-cost divergence result do not
 transfer automatically to simultaneous *per se* causal dependence.
+
+
+## Typed per-se / historical distinction (#1112)
+
+`STMT-INFINITE-REGRESS-IMPOSSIBLE-ONLY-IN-PER-SE-SERIES` keeps its original
+source claim and frozen two-`Prop` declaration. That declaration is a
+transcription of two assertions (`P ∧ Q`), not a proof that a causal history
+is possible. The analyst sibling
+`STMT-PER-SE-HISTORICAL-SERIES-DISTINCTION` instead constrains two relations.
+Attribution of this new formulation is deferred.
+
+`HistoricalLinksAreEssential H E` explicitly says that every proposed historical
+predecessor is an essential-dependence predecessor. Given this dictionary and
+`∀ x, Acc E x`, the existing
+`RegressAccessibilityExcludesSeries.accessibilityReadingExcludesDescendingSeries`
+excludes an infinite `H` descent by mapping each chain edge into `E`. Without
+the dictionary there is a concrete same-member witness on `Option Nat`:
+
+- Essential candidate links: `E y x ↔ y = none ∧ ∃ n, x = some n`.
+- Historical candidate links: `H y x ↔ ∃ n, y = some (n+1) ∧ x = some n`.
+- `E` is nonempty and accessible everywhere. Every historical member `some n`
+  has the common essential predecessor `none` and historical predecessor
+  `some (n+1)`. The chain `n ↦ some n` is injective and infinite; none of its
+  historical edges is an essential edge in this model.
+
+A first essential source exists in this witness, not in the definitions of
+series or link. Replacing “each cause after the first” in the definition avoids
+assuming that the target series already has a first. No transitivity axiom is
+imposed on either primitive relation. Well-foundedness is the separate
+hypothesis in the conditional, not part of what a link means. The witness
+certifies compatibility of these exact relation constraints only. It does not
+show a possible infinite past, actual causal history, or that every
+per-accidens series is permitted. Separation of edge extensions alone does not
+prove counterfactual independence of the causal powers of their endpoints.
+
+The strongest conflation tested here identifies historical links with essential
+links; inclusion alone already suffices to exclude the chain under essential
+well-foundedness. No claim is made that these two choices exhaust accounts of
+causation. The old exact controls
+`SecundaVia.secundaViaNeedsPerSeOrder` and
+`SecundaVia.secundaViaNeedsNoRegress` are imported and rechecked, preserving the
+Nat successor models with respectively empty and successor essential links.
+Thus neither the essential-link premise nor its no-regress premise can be
+discarded from that general argument. The new compatibility witness strengthens
+the empty-link control by making essential dependence nonempty on the same
+historical members; it does not satisfy the omitted strong per-se ordering rule.
+`RegressAccessibilityUnboundedDepth.accessibilityAllowsUnboundedDepth` is also
+reused: arbitrarily long finite essential descents are compatible with
+accessibility, whereas a single infinite descending chain is excluded. The new
+historical witness supplies the latter chain for a *different* relation.
+
+The stone/stick/hand and father/son examples motivate the intended distinction;
+the first is sustained exercise of power, while the second's generation by a
+father does not by itself say that the father sustains the son's present
+exercise of power. These are intended readings, not a formal identification of
+ordinary examples with the predicates. **OPEN:** interpreting essential links as
+here-and-now dependence, their removal as loss of power, and historical links
+as temporal succession needs explicit time/intervention vocabulary and an
+applicability bridge. The existing `TemporalPrimaVia.Controls.descent` gives a
+separate time-indexed control, already in the corpus; it is not silently
+identified with this binary witness. Moving-as-moved and causing-as-caused also
+remain distinct, connected only under their existing explicit link premise.
+No root route, floor, no-regress input, or source-derived Challenge is changed.

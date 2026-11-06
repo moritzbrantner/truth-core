@@ -1,0 +1,10 @@
+{
+  "id": "MESSAGE-SCOPE-BOUNDARY-CONTROLS",
+  "argument_id": "MESSAGE-SCOPE-BOUNDARY-CONTROLS",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.ScopeModels.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.ScopeModels.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.messageScopeModels",
+  "comparator_config": "results/MESSAGE-SCOPE-BOUNDARY-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Coexistence with an unrealized joint mandate/body antecedent and exact opposition with an actual joint witness. The concrete first construction has no mandate, but this coarse registered target exports only absence of the joint antecedent; the explicit empty-mandate sibling certifies the stronger distinction."
+}
