@@ -1,0 +1,12 @@
+{
+  "id": "INF-ARRANGEMENT-SELECTION-FORK-UNDER-FACTIVITY",
+  "input_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-ACCEPTED-ARRANGEMENT-EXPLANATIONS-ARE-TRUE"
+  ],
+  "output_statement_id": "STMT-FACTIVE-ARRANGEMENT-JUDGMENT-SELECTION-FORK",
+  "rule": "constructive-proof",
+  "meaning": "Compose the checked trilemma and explicit factivity to eliminate false acceptance. The familiar selection/nonselection fork thus exposes its actual-truth policy.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

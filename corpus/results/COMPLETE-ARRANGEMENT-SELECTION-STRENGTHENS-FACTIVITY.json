@@ -1,0 +1,11 @@
+{
+  "id": "COMPLETE-ARRANGEMENT-SELECTION-STRENGTHENS-FACTIVITY",
+  "argument_id": "COMPLETE-ARRANGEMENT-SELECTION-STRENGTHENS-FACTIVITY",
+  "challenge_module": "TruthCore.Results.Explanation.SelectionCoverageBoundary.SelectionStrength.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.SelectionCoverageBoundary.SelectionStrength.Solution",
+  "theorem": "TruthCore.Results.Explanation.SelectionCoverageBoundary.SelectionStrength.selectionStrength",
+  "comparator_config": "results/COMPLETE-ARRANGEMENT-SELECTION-STRENGTHENS-FACTIVITY/comparator.json",
+  "status": "solution-present",
+  "description": "Sole-premise restriction from complete entailing selection to actual truth of every accepted candidate. True-only control witnesses strictness without independent adequacy.",
+  "transcription": "instantiation"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "ARRANGEMENT-SELECTION-FACTIVITY-BOUNDARIES",
+  "argument_id": "ARRANGEMENT-SELECTION-FACTIVITY-BOUNDARIES",
+  "challenge_module": "TruthCore.Results.Explanation.SelectionCoverageBoundary.Controls.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.SelectionCoverageBoundary.Controls.Solution",
+  "theorem": "TruthCore.Results.Explanation.SelectionCoverageBoundary.Controls.controls",
+  "comparator_config": "results/ARRANGEMENT-SELECTION-FACTIVITY-BOUNDARIES/comparator.json",
+  "status": "solution-present",
+  "description": "Reuse original truthful-rival controls and export exact false-only, true-only and nonempty selection-defined calibration properties for every selected arrangement. The positive calibration is explicitly analytic, not independent explanatory warrant."
+}
