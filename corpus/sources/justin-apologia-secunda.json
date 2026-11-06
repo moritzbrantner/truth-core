@@ -1,0 +1,13 @@
+{
+  "id": "JUSTIN-APOLOGIA-SECUNDA",
+  "kind": "primary_text",
+  "author": "Justin Martyr",
+  "work": "Apologia secunda",
+  "citation_system": "chapter (CTS textpart; First1KGreek numbers chapters one lower in places than the common Otto/Marcovich numbering, which is given in the locator)",
+  "work_urn": "urn:cts:greekLit:tlg0645.tlg002",
+  "catalog_url": "https://github.com/OpenGreekAndLatin/First1KGreek/tree/master/data/tlg0645/tlg002",
+  "notes": "Greek text from the First1KGreek project (Perseus/OGL), CC BY-SA 4.0. Patristic usage on the seed of the logos in all humans (#1010).",
+  "edition_urns": [
+    "urn:cts:greekLit:tlg0645.tlg002.perseus-grc2"
+  ]
+}

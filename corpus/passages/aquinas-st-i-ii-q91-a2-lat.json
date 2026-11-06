@@ -1,0 +1,31 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "AQUINAS-ST",
+    "source_url": "https://www.corpusthomisticum.org/sth2090.html",
+    "retrieved_at": "2026-11-06T09:30:00Z",
+    "sha256": "sha256:b06d31d0a683427d98da5246cfa975463cad35145e221fefb1f398a1feed2791",
+    "encoding": "iso-8859-1",
+    "language": "lat",
+    "license": "Corpus Thomisticum identifies its text as 'Textum Leoninum emendatum ex plagulis de prelo Taurini 1961 editum' (the Leonine text as corrected from the proofs of the Turin 1961 edition); ©2019 Fundación Tomás de Aquino quoad hanc editionem, all rights reserved. The medieval work is public domain; no open licence for the digital transcription is asserted. Only metadata, hashes, locators and a short incipit are committed. Two fetches on 2026-11-06 gave identical bytes. No archive fallback is pinned: the Wayback Machine was unreachable from the pinning host. No translation is claimed."
+  },
+  "passages": [
+    {
+      "id": "AQUINAS-ST-I-II-Q91-A2-LAT",
+      "locator": "I-II q.91 a.2 s.c. and co. [37470-37471]",
+      "claim_locator_prefixes": [
+        "I-II q.91 a.2 "
+      ],
+      "html_selector": {
+        "from": {
+          "anchor": "37470"
+        },
+        "to": {
+          "anchor": "37472"
+        }
+      },
+      "text_sha256": "sha256:ac6623c9d5950deadeeace123a1145e60557107516153a1b9c1e21add8ab081b",
+      "incipit": "[37470] Iª-IIae q. 91 a. 2 s. c. Sed contra est quod, Rom. II, super illud, cum"
+    }
+  ]
+}

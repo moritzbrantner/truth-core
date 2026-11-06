@@ -1,0 +1,9 @@
+{
+  "id": "REL-AQUINAS-COMMON-PRINCIPLES-KNOWN-TO-ALL-SUPPORTS-NATURAL-REASON-SHARED",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-COMMON-PRINCIPLES-KNOWN-TO-ALL",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-NATURAL-REASON-IS-SHARED-REASON",
+  "note": "Common principles of reason are equally known to all, which supports a standard of reason shared with outsiders. Gap: the article does not classify God's existence; if it is a proper conclusion (an additional interpretive premise, not stated here, for which ST I q.2 a.1 would be the place to look), the passage gives that it is true for all but not that it is equally known to all."
+}

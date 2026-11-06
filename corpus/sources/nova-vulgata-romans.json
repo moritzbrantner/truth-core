@@ -1,0 +1,10 @@
+{
+  "id": "NOVA-VULGATA-ROMANS",
+  "kind": "primary_text",
+  "author": "Paul (Nova Vulgata, editio typica altera 1986)",
+  "work": "Epistula ad Romanos (Nova Vulgata Bibliorum Sacrorum Editio)",
+  "citation_system": "chapter and verse (e.g. Rom 1:19-20)",
+  "work_urn": "https://www.vatican.va/archive/bible/nova_vulgata/documents/nova-vulgata_nt_epist-romanos_lt.html",
+  "catalog_url": "https://www.vatican.va/archive/bible/nova_vulgata/documents/nova-vulgata_nt_epist-romanos_lt.html",
+  "notes": "Latin text of Romans in the Nova Vulgata on vatican.va, the scriptural basis Dei Filius cites for natural knowledge of God (ch. 2 'Rom. I'; ch. 4 'a gentibus'). Dei Filius (1870) cites the Vulgate; the Nova Vulgata wording differs slightly ('noscibile'), which is noted where it matters. A pinned Greek witness would be the primary; this is the Latin the Church uses."
+}

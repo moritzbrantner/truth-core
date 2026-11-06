@@ -1,0 +1,48 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "NOVA-VULGATA-ROMANS",
+    "source_url": "https://www.vatican.va/archive/bible/nova_vulgata/documents/nova-vulgata_nt_epist-romanos_lt.html",
+    "retrieved_at": "2026-11-06T09:30:00Z",
+    "sha256": "sha256:15b774bf498d861bbecf9df1083e90a82f3eb545a5cab2fad448205218970d07",
+    "encoding": "iso-8859-1",
+    "language": "lat",
+    "license": "Nova Vulgata (Libreria Editrice Vaticana) on the Holy See's site; no reuse notice on the page (checked 2026-11-06). No Wayback fallback: web.archive.org refused connections from the pinning environment. Only hashes, locators and a short incipit are committed. Two fetches on 2026-11-06 gave identical bytes."
+  },
+  "passages": [
+    {
+      "id": "NOVA-VULGATA-ROM-1",
+      "locator": "Rom 1",
+      "claim_locator_prefixes": [
+        "Rom 1:"
+      ],
+      "html_selector": {
+        "from": {
+          "anchor": "1"
+        },
+        "to": {
+          "anchor": "2"
+        }
+      },
+      "text_sha256": "sha256:d136237a0f4e7f57ddb4031fd2c6ef653689adcc9f90d59625d3965dca5a60f6",
+      "incipit": "1\n1 Paulus servus Christi Iesu, vocatus apostolus, segregatus in evangelium"
+    },
+    {
+      "id": "NOVA-VULGATA-ROM-2",
+      "locator": "Rom 2",
+      "claim_locator_prefixes": [
+        "Rom 2:"
+      ],
+      "html_selector": {
+        "from": {
+          "anchor": "2"
+        },
+        "to": {
+          "anchor": "3"
+        }
+      },
+      "text_sha256": "sha256:2d16be615c0f7e30e235ba9af56c393988145be2bc5230bdb620b1ad107bb90e",
+      "incipit": "2\n1 Propter quod inexcusabilis es, o homo omnis, qui iudicas. In quo enim"
+    }
+  ]
+}

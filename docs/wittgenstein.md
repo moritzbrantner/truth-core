@@ -372,9 +372,38 @@ allows fellow theists) is a further bridge the texts do not state. Clayton's own
 places Vatican I after the modern shift to a neutral starting point, which
 cuts against the reply.
 
-**Patristic usage** of *lumen naturale* is not yet pinned. Rom 1:19-20 is the
-common root of *Dei Filius* ch. 2 and ch. 4. A pinned patristic witness is the
-next source step.
+**Scriptural, patristic and scholastic usage** (owner decision 2026-11-06).
+Each is a stating claim on its own narrower statement and a `supports` relation
+to bridge (b), with its gap:
+
+- Rom 1:19-21: those who suppress the truth knew God through the things that
+  are made, "ut sint inexcusabiles". Rom 2:14-15: gentiles know the law by
+  nature. (Nova Vulgata on vatican.va.)
+- Justin, *Second Apology*: the seed of the logos is implanted "in every race
+  of humans"; all writers could see the things that are, dimly, through it.
+  (First1KGreek.)
+- Augustine, *De civitate Dei* VIII.6: the pagan Platonists, reasoning from
+  changeable things, reached the unchangeable first principle. He applies
+  Rom 1:19-20 to them.
+- Aquinas, ST I-II q.91 a.2: the light of natural reason discerns good and
+  evil, and the gentiles have the natural law. q.94 a.4: the common principles
+  of reason are equally known to all.
+
+No attack on the theological-horizon reply is recorded from these texts. That
+those Rom 1 speaks of are idolaters, or that the Platonists are pagans, puts
+them outside Christianity, not outside every theological horizon (the
+Platonists sought the supreme God). Using them against the reply would need a
+further bridge: that their knowledge was independent of any practice-internal
+theological standard.
+
+**Bridge (b) is still not closed.** No text states it in the bridge's form.
+Several speak of practical reason (Rom 2, ST q.91, q.94), or of God's showing
+(Rom 1, Augustine). q.94 a.4 does not say whether God's existence is a common
+principle or a proper conclusion. If it is a proper conclusion (a further,
+unstated premise), the article gives only that it is true for all, not that it
+is equally known. Under #999, closing the bridge would
+need it established, which means refuting the horizon reply from established
+premises.
 
 **What would make the defeat count.** Each bridge would have to be established:
 self-evident with a met basis (not plausible for either), or defended, with
