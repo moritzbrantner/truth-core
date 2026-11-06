@@ -1,0 +1,9 @@
+{
+  "id": "INF-INTUITIONISTIC-KNOWABILITY-FORCING",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-INTUITIONISTIC-KNOWABILITY-FORCING",
+  "rule": "Mathlib Heyting semantics and explicit finite-world model",
+  "meaning": "Prove the future-forcing bridge using the Heyting residual adjunction and principal upper sets, then specialize implication-to-bottom for pseudocomplement. This validates the chosen non-Boolean semantics; no pointwise negation identity or full modal-calculus theorem is asserted.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

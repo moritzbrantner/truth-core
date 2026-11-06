@@ -1,0 +1,8 @@
+{
+  "id": "DEF-INTUITIONISTIC-KNOWABILITY-OPERATORS",
+  "term": "persistent relational knowledge and possible knowledge",
+  "definition": "Three worlds embed into the first three worlds of the earlier epistemic model, giving E blocks{0,1},{2}; the reused universal modal frame restricts to R universal, so E⊆R. Actuality is information stage1. Knowledge and possibility are constructed as upper closures of the matching existing relational extensions; OperatorsExact proves closure adds no world for persistent contents. Moore content is p meet the Heyting pseudocomplement of Kp.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.IntuitionisticKnowability.OperatorsExact",
+  "note": "The model checks factivity, top/conjunction preservation, normal distribution, positive introspection and the explicitly stated Heyting negative-introspection inequality. These individual laws are not advertised as soundness/completeness for an entire IK/IS5 calculus. Applicability to actual human knowledge, possible learning and anti-realism remains OPEN."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "INTUITIONISTIC-KNOWABILITY-FORCING",
+  "argument_id": "INTUITIONISTIC-KNOWABILITY-FORCING",
+  "challenge_module": "TruthCore.Results.Logic.IntuitionisticKnowability.Challenge",
+  "solution_module": "TruthCore.Results.Logic.IntuitionisticKnowability.Solution",
+  "theorem": "TruthCore.Results.Logic.IntuitionisticKnowability.forcingBridge",
+  "comparator_config": "results/INTUITIONISTIC-KNOWABILITY-FORCING/comparator.json",
+  "status": "solution-present",
+  "description": "Prove the future-forcing bridge using the Heyting residual adjunction and principal upper sets, then specialize implication-to-bottom for pseudocomplement. This validates the chosen non-Boolean semantics; no pointwise negation identity or full modal-calculus theorem is asserted."
+}
