@@ -114,7 +114,7 @@ def alternatingFrame : Frame Bool := ⟨fun _ _ => True⟩
 def alternatingExists : ExistsAt Bool Bool := fun x w => x = w
 
 /-- All roster members satisfy this stipulated criterion whenever present. -/
-def alternatingConcrete : ExistsAt Bool Bool := fun _ _ => True
+def alternatingConcrete : ExistsAt Bool Bool := fun _ _ => True  -- category-constant: intended (all-concrete quantifier fixture: the countermodel concerns de re/de dicto scope, not the concrete/abstract line)
 
 /-- Formal countermodel at explicit actual world false. Reflexivity, a distinct
 accessible world and actual concrete existence rule out empty-world/vacuity

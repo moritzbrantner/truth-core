@@ -183,7 +183,7 @@ def strictProfile : Profile Bool Cand where
     ExistsAt := candExists
     Causes := candGrounds
   }
-  concrete := fun _ => True
+  concrete := fun _ => True  -- category-constant: intended (all-concrete inventory: the model tests grounding/modal structure, not the concrete/abstract line; a concrete conclusion here is no evidence that anything is concrete)
   grounds := candGrounds
 
 /-- One occurring thought, borne by the thinker only. -/
@@ -272,7 +272,7 @@ def cycleProfile : Profile Bool Bool where
     ExistsAt := fun w _ => w = true
     Causes := fun _ y x => y ≠ x
   }
-  concrete := fun _ => True
+  concrete := fun _ => True  -- category-constant: intended (all-concrete inventory: the model tests grounding/modal structure, not the concrete/abstract line; a concrete conclusion here is no evidence that anything is concrete)
   grounds := fun _ y x => y ≠ x
 
 /-- Local well-foundedness omitted: the thinker (`true`) and its only other
@@ -299,7 +299,7 @@ def bruteProfile : Profile Bool Unit where
     ExistsAt := fun w _ => w = true
     Causes := fun _ _ _ => False
   }
-  concrete := fun _ => True
+  concrete := fun _ => True  -- category-constant: intended (all-concrete inventory: the model tests grounding/modal structure, not the concrete/abstract line; a concrete conclusion here is no evidence that anything is concrete)
   grounds := fun _ _ _ => False
 
 /-- Local anti-brute-root omitted: a contingent thinker with no ground at all.

@@ -26,7 +26,7 @@ def model : Profile Bool TransferRole where
   ontic := { frame := ⟨fun _ _ => True⟩
              ExistsAt := fun _ _ => True
              Causes := fun _ c x => transferCause true c x false }
-  concrete := fun _ => True
+  concrete := fun _ => True  -- category-constant: intended (all-concrete inventory: the model tests grounding/modal structure, not the concrete/abstract line; a concrete conclusion here is no evidence that anything is concrete)
   grounds := fun _ c x => transferCause true c x false
 
 /-- NEW dictionaries on the old roles, never claimed to be old model fields. -/

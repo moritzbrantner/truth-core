@@ -44,7 +44,7 @@ def arena (g : Graph Nat) : Profile Bool Nat where
     ExistsAt := fun _ _ => True
     Causes := fun _ => g.edge
   }
-  concrete := fun _ => True
+  concrete := fun _ => True  -- category-constant: intended (all-concrete inventory: the arena tests target-copy coverage, not the concrete/abstract line)
   grounds := fun _ => g.edge
 
 def single : Graph Nat := ⟨fun y x => y = 0 ∧ x ≠ 0⟩

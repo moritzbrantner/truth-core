@@ -187,7 +187,7 @@ def boundaryRival : Profile Bool (Bool × Bool) where
     Causes := fun w y x =>
       y.1 = w ∧ x.1 = w ∧ y.2 = false ∧ x.2 = true
   }
-  concrete := fun _ => True
+  concrete := fun _ => True  -- category-constant: intended (all-concrete inventory: the model tests grounding/modal structure, not the concrete/abstract line; a concrete conclusion here is no evidence that anything is concrete)
   grounds := fun w y x =>
     y.1 = w ∧ x.1 = w ∧ y.2 = false ∧ x.2 = true
 

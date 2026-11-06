@@ -26,7 +26,7 @@ open TruthCore.Case.Catholicism (IsSimple RemoteFromAll)
 No new causal relation or identification beyond this fixture is asserted. -/
 def model : Profile Bool Being where
   ontic := ontic
-  concrete := fun _ => True
+  concrete := fun _ => True  -- category-constant: intended (all-concrete inventory: the model tests grounding/modal structure, not the concrete/abstract line; a concrete conclusion here is no evidence that anything is concrete)
   grounds := power.supportsEsse
 /-- Newly specified positive attributes, with all old fields unchanged.
 These predicates do not encode cognition, appetite or their adequacy. -/

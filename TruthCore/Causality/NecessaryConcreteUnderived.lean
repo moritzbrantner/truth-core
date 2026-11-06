@@ -62,7 +62,7 @@ def witnessProfile : Profile Bool Bool where
     frame := { access := fun _ _ => True }
     ExistsAt := fun w b => b = false ∨ w = false
     Causes := fun _ _ _ => False }
-  concrete := fun _ => True
+  concrete := fun _ => True  -- category-constant: intended (all-concrete inventory: the model tests grounding/modal structure, not the concrete/abstract line; a concrete conclusion here is no evidence that anything is concrete)
   grounds := fun w a b => a = false ∧ b = true ∧ w = false
 
 /-- One joint model of all six nonlogical premises, with an actual contingent

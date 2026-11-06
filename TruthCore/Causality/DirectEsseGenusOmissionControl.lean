@@ -31,7 +31,7 @@ interface, not an independent warrant identifying represented support with real
 existential grounding. No new world/individual carrier or causal law is added. -/
 def profile : TruthCore.Causality.BruteFoundationBoundary.Profile Bool Being where
   ontic := ontic
-  concrete := fun _ => True
+  concrete := fun _ => True  -- category-constant: intended (all-concrete inventory: the model tests grounding/modal structure, not the concrete/abstract line; a concrete conclusion here is no evidence that anything is concrete)
   grounds := power.supportsEsse
 
 /-- Newly supplied grading dictionary on the SAME old carrier. A higher grade
