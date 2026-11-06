@@ -46,10 +46,14 @@ calibration holds. The generic original commitment is not silently redefined.
 
 Excluded middle plus that calibration proves structural coverage: the original
 commitment or a selected no-esse capacity/productive countercase. This is a
-logical partition, not exhaustion of historical theories. The separate named
-coverage premise says every such countercase is one of the three **productive**
-set/Form/math cases. It is OPEN. A second checked fork says this coverage holds
-or there is an actual selected countercase outside all three named branches.
+logical partition, not exhaustion of historical theories. The separate OPEN named
+coverage premise is only an existential-support implication: if any selected
+capacity/productive countercase exists, some **productive** set/Form/math
+countercase exists. It need not be the same witness. It does not classify every
+counterexample: adding a named productive countercase can make coverage true
+while unrelated capacity-only counterexamples remain. A second checked fork
+says this implication holds or a selected countercase exists while **no** named
+productive countercase exists anywhere in the supplied selected profile.
 The remainder contradicts named coverage. Coverage plus actual negation of all
 three named countercases yields the EXACT old commitment, conditionally. That
 positive route is a transcription and supplies no independent warrant or new
@@ -131,3 +135,9 @@ for s in a['statements']:
         s.pop('self_evident', None)
 assert established(d) and not established(a)
 ```
+
+Review correction: the original coverage paraphrase overstated this existential
+implication as witness-preserving classification. The exact definition, proof,
+controls and conditional elimination were unchanged; the corrected prose now
+states their weaker quantifier scope. A universal per-countertuple coverage
+would be a separate stronger hypothesis, which this batch does not introduce.

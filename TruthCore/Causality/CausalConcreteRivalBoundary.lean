@@ -78,8 +78,10 @@ def MathCounter (f : Frame) : Prop :=
   ∃ x y, f.IsMathFact x ∧ f.Relevant x y ∧ ¬ Esse f x ∧ f.ontic.Causes f.selected x y
 
 def NamedCases (f : Frame) : Prop := SetCounter f ∨ FormCounter f ∨ MathCounter f
-/-- OPEN coverage of these particular productive counteraccounts. Capacity-only
-or other-category counterexamples are not excluded by merely listing examples. -/
+/-- OPEN existential-support coverage: if any selected countercase exists, some
+named productive countercase exists, not necessarily with the same witness.
+This does not classify every countertuple. The remainder requires no named
+countercase anywhere, not merely one unclassified witness. -/
 def NamedCoverage (f : Frame) : Prop := SelectedCounter f → NamedCases f
 def OtherCounter (f : Frame) : Prop := SelectedCounter f ∧ ¬ NamedCases f
 def NamedCoverageFails (f : Frame) : Prop := ¬ NamedCoverage f
