@@ -2,7 +2,7 @@ import TruthCore.Mereology.SumOneComplementation
 
 namespace TruthCore.Results.Mereology.SumOneComplementation
 open TruthCore.Mereology.UniversalFusionBoundary
-open TruthCore.Mereology.SupplementationFusion
+open TruthCore.Mereology.SupplementationFusion (StrongSupplementation)
 open TruthCore.Mereology.SumOneComplementation
 
 theorem strongOfComplementation (B : Type) [PartialOrder B]
