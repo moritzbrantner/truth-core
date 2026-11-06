@@ -1,0 +1,15 @@
+{
+  "id": "INF-EP-ROLE-NAMED-DEFINITION-ELIMINATION",
+  "input_statement_ids": [
+    "STMT-THERE-ARE-EPISTEMIC-REASONS",
+    "STMT-EPISTEMIC-REASONS-HAVE-CONSIDERATION-PRESENTATION",
+    "STMT-EPISTEMIC-REASON-DEFINITION-CANDIDATES-COVER",
+    "STMT-EPISTEMIC-REASON-BARE-PRODUCTION-DEFINITION-FAILS",
+    "STMT-EPISTEMIC-REASON-BARE-REWARD-DEFINITION-FAILS"
+  ],
+  "output_statement_id": "STMT-THERE-ARE-ORDINARY-ROLE-EPISTEMIC-REASONS",
+  "rule": "constructive-proof",
+  "meaning": "Conditional definition-case elimination: named coverage plus rejection of the bare production and reward calibrations leaves ordinary or independent role. Reuse the checked calibration/strength results to obtain an ordinary witness from thin F6 and presentation. Every coverage/definition rejection is explicit; no philosophical winner or root closure is asserted.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

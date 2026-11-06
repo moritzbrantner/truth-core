@@ -11,6 +11,12 @@ public import TruthCore.Results.Logic.CorrectionCriterion.Solution
 public import TruthCore.Results.Logic.EpistemicAccuracy.Solution
 public import TruthCore.Results.Logic.EpistemicAccuracy.Statewise.Solution
 public import TruthCore.Results.Logic.EpistemicNihilismRetorsion.Solution
+public import TruthCore.Results.Logic.EpistemicReasonDefinitions.Boundary.Solution
+public import TruthCore.Results.Logic.EpistemicReasonDefinitions.DefinitionFork.Solution
+public import TruthCore.Results.Logic.EpistemicReasonDefinitions.IndependentFromThin.Solution
+public import TruthCore.Results.Logic.EpistemicReasonDefinitions.IndependentStrength.Solution
+public import TruthCore.Results.Logic.EpistemicReasonDefinitions.NamedElimination.Solution
+public import TruthCore.Results.Logic.EpistemicReasonDefinitions.OrdinaryFromThin.Solution
 public import TruthCore.Results.Logic.ExcludedMiddleIffDne.Solution
 public import TruthCore.Results.Logic.ExcludedMiddleIrrefutable.Solution
 public import TruthCore.Results.Logic.ExcludedMiddleNotDeniable.Solution

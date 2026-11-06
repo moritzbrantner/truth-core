@@ -1,0 +1,19 @@
+{
+  "id": "EP-ROLE-ORDINARY-FROM-THIN",
+  "premise_statement_ids": [
+    "STMT-THERE-ARE-EPISTEMIC-REASONS",
+    "STMT-EPISTEMIC-REASONS-HAVE-CONSIDERATION-PRESENTATION",
+    "STMT-EPISTEMIC-REASON-ORDINARY-ROLE-DEFINITION"
+  ],
+  "conclusion_statement_id": "STMT-THERE-ARE-ORDINARY-ROLE-EPISTEMIC-REASONS",
+  "inference_ids": [
+    "INF-EP-ROLE-ORDINARY-FROM-THIN"
+  ],
+  "meaning": "Calibration transcription: thin F6 plus its explicit consideration presentation and ordinary-role definition yields an ordinary-role witness. No actual favorable bearing is proved from the name epistemic reason.",
+  "definition_ids": [
+    "DEF-EPISTEMIC-REASON-DEFINITION-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EPISTEMIC-REASON-EXISTENCE-ROLE-AUTHORITY"
+  ]
+}

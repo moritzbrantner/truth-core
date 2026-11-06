@@ -1,5 +1,9 @@
 # Definitions audit (#1103)
 
+The original Parts 1–2 record the earlier definition-quality audit. Part 3 below
+records the owner’s later repository-wide competing-definition investigation;
+the older snapshot counts are not a claim of whole-corpus completion.
+
 This audit checks the established definitions in priority order. It starts
 with the concrete/abstract distinction (Part 1) and then covers the
 definitions linked from the open leaves of the 12 root routes (Part 2,
@@ -74,3 +78,171 @@ premises (30 bare, 18 supported, 42 stated), with the cheapest route at 31.
   That is about +1 leaf per premise unless the bridge is itself established.
 - Removing the constant-True fixtures as evidence weakens only satisfiability
   and control claims. No closure depended on them.
+
+
+## Part 3: competing definitions as propositions (2026-11-06)
+
+Owner direction in the [current handoff](https://github.com/moritzbrantner/truth-core/issues/418#issuecomment-6686091684):
+encode worldview-specific meanings as explicit propositions, compare their
+consequences, and construct meaningful definition disjunctions. Prove coverage
+where possible; otherwise retain a named coverage proposition as an open
+framework premise and an exact remaining relevant interpretation. Conditional
+elimination can proceed before that premise is independently established.
+Coextension, property identity, contradiction, non-entailment, triviality for a
+purpose, and loss of an objection's force remain different outcomes.
+
+The review is repository-wide, not only a goodness/evil retrofit. It does not
+rewrite every occurrence of a word, equate similar meanings, or add an untestable
+Other rival to every noun. A new interpretation can agree with the target; it
+then is not automatically a rival to that target. A coverage remainder opposes
+its exact coverage claim, not every conclusion mentioned by the investigation.
+Original statements, source readings and frozen Challenges remain distinct.
+
+### Inventory baseline and coverage limits
+
+The mechanical inventory at main
+`85e1e24371136494f8ee937534155f751f0527ca` enumerated **3153 statements,
+1302 definitions, 350 disambiguations, 1022 arguments, 1020 results and 379 attempts**.
+The following partition counts every definition once, by its declared namespace;
+it is a discovery inventory, not an assertion that every source or theorem was
+re-reviewed. 459 definitions name exactly the same Lean declaration string as at
+least one statement; that aids discovery but proves neither philosophical identity
+nor correctness. 267 definitions have no single `lean_declaration` field; some
+already describe several separately encoded predicates, so this is not a count
+of missing formalizations.
+
+| Declared area(s) | Definitions | Audit treatment / remaining scope |
+|---|---:|---|
+| Causality + Explanation |338| Scope/bridge and reason/ground definitions inspected in the first synthesis; much of the typed configuration library still needs consequential-use review. |
+| Modal + German + Isabelle |141| Necessity, per-se necessity and essential/accessibility distinctions inspected; bounded formal profile alternatives are not a census of all modal theories. Remaining semantic calibrations are open. |
+| Logic + Epistemology |110| Truth/meaning/reason/knowledge lane; targeted objective-truth and epistemic-role gaps identified below. |
+| Latin + Greek + Modern + English |233| Source-linked definitions cross several clusters. Existing attribution is preserved; proof/meaning review does not reauthenticate all texts. |
+| Case + History |46| Founding/authority/name/revelation lane; first founding correction is under implementation, transfer gaps remain below. |
+| Ontology + Alternatives |56| Existing concrete/abstract, naturalism, motion and rival frameworks; active potency/cogito work is counted rather than duplicated. |
+| Mereology |40| Existing explicit identity, fusion, overlap and scope controls are candidates for use-level review; whole-cluster completion not claimed. |
+| Metaethics + Ethics |30| Active goodness/evil definition forks plus previously explicit realist/expressivist and population-policy contrasts; no blanket closure from a list of schools. |
+| Science + Spacetime + Space + Teleonomy |16| Existing observation/calibration/coordinate/directedness scopes need use-level review; mathematical distinction alone does not defeat a worldview. |
+| Hiddenness |11| Correct-sort question remains to inspect: ability, access, relationship and culpability are not interchangeable. |
+| Decision + Politics |5| Payoff/ranking and district/individual consent are already typed separately; no unencoded inference to truth or authority is licensed. Remaining comparative-use review is open. |
+| Models + Comparison + Results + external mathematics |9| Review only their advertised philosophical interfaces; do not manufacture competing-definition forks for standard mathematics. |
+| No single declared Lean head |267| Review through their linked statements/arguments and existing notes; mixture of multi-predicate typed records, source glosses and real encoding gaps. |
+
+The baseline frontier had **zero** closures classified `alternatives_refuted`.
+This does not establish philosophical completeness of every rival list; it means
+there was no existing actual defended closure to repair at that baseline.
+Consequential latent coverage/transfer gaps are still recorded below before
+future refutations can be promoted across senses. The frontier engine itself
+is unchanged by this audit batch.
+
+### Targeted findings and actual adjustments
+
+| Cluster / exact seed | Finding and adjustment | Boundary / remaining work |
+|---|---|---|
+| `STMT-THERE-ARE-ORDINARY-ROLE-EPISTEMIC-REASONS`; `STMT-THERE-ARE-PREFERENCE-INDEPENDENT-EPISTEMIC-REASONS` | Their prior note withheld Lean declarations because encoding would not establish actual normative instantiation. Now encoded conditionally in `Logic/EpistemicReasonDefinitionFork.lean`: four calibration propositions, explicit consideration-presentation, named coverage/remaining interpretation, strength order, and finite controls. Six results bind the exact declared obligations. | Unchanged thin F6 approval supplies no stronger interpretation. Calibration transport/structural coverage are transcriptions; actual warrant, force and coverage stay open. See the existing [reason investigation](notes/epistemic-reasons-preconditions.md). |
+| `DEF-OBJECTIVE-TRUTH`; `DISAMB-TRUE`; `POE-EXTERNAL-PREMISE-VS-EMOTIVISM` | Targeted truth-lane implementation: explicit truth-component bridge, stronger actual-truth-plus-profile-invariance calibration and invariant-only rival. False-but-invariant control prevents stance independence from being confused with objective **truth**. | Source ObjectiveTruth predicates and claims remain general. Profile invariance is one operational account, not all philosophical objectivity. Active separate batch. |
+| `STMT-ENVOY-FOUNDING-IS-GODS-FOUNDING`; `DISAMB-FOUNDED-BY-GOD` | Targeted authority-lane implementation: immediate/inclusive calibration propositions, exact strong-exclusion scope, explicit coverage/Other, overlap and countermodels. Old prose's categorical “immediate-only makes it false” needs an actual commissioned-event witness and the exclusion condition; the generic type also lacks a HoldsMandate hypothesis. | Weak principal-own-act and stronger no-envoy/creature readings are not silently equated. Existing Challenges and source claims remain. Active separate batch. |
+| `DISAMB-NAME-APPLICATION`; practice no-reference vs nominal God leaves | Three recorded alternatives cross a practice-reference predicate and proper nominal IsGod without a typed transfer. Existing noBeingExcludes proofs specialize the generic schema; they do not supply a cross-sense implication. | Next authority batch must expose coextension/one-way transfer and correct profile scope, retaining the serious rival at full strength rather than deleting it. |
+| `STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE`; practice CutOff | Practice-move cutoff and God-capability predicates are distinct; the existing relation admits the shared-reason bridge is not a recorded premise. | Need a same-profile mapping and actual/modal recognition witness bridge. Mere capability does not supply an actual practice move. This is additional to the already recorded canon/two-bridge/conjunction gap in the [Moorean note](notes/moorean-floor-candidates.md). |
+| Verificationism's cognitive meaning | Existing VerificationPrinciple is a one-way condition, not a full definition. Criterion verdict, pre-theoretic meaning, and truth conditions are already separated. | Later truth batch: explicit calibrated meaning propositions and coverage/Other, composing existing Church/V2 trivialization and V4 survivor. Trivial demarcation does not by itself falsify a definition on an all-meaningful domain. |
+| Intrinsic vs external mutability; timeless vs temporal duration | `DEF-MUTABLE-THROUGH-ANOTHER` / `DEF-MUTABILITY-IN-ANOTHER` have no exact Lean definition; root Eternal remains a primitive while BoethianEternal is typed. | Next modal/causal batch should encode exact meaning/scope calibration and counterprofiles without identifying externally dependent existence with subject potency or endless succession with timelessness. |
+| Time-neutral composer / current efficient cause | `STMT-COMPOSER-IS-EFFICIENT-CAUSE-OF-COMPOSITE` is intentionally untyped because the available relation was read at a selected time. | A separate typed time-neutral interpretation can be explored conditionally; missing source/warrant is not a reason to leave its relational scope implicit. Preserve the existing time-local statement. |
+
+### Existing distinctions preserved rather than re-created
+
+The truth/meaning read lane inspected 38 disambiguation resolutions, catalogued 100
+linked definitions and 280 linked statements, and inspected exact relevant Lean
+modules/declaration indexes. This is narrower than re-verifying every linked
+theorem or source attribution. Its cluster dispositions are:
+
+- Truth/relativism (`DISAMB-TRUE`, `DISAMB-TRUTH-APT`,
+  `DISAMB-ASSERTED-TRUTH-SENSE`, `DISAMB-NO-ABSOLUTE-TRUTH-SCOPE`,
+  `DISAMB-PILOT-RELATIVITY`, `DISAMB-TRUTH-COLLAPSE-LEVEL`): fixed-sense
+  retorsion, relative/exempted survivors and capture bridges are already explicit.
+  Target the objective-truth calibration gap; do not reclassify indexed truth
+  variation as a blanket denial of objective or ontological truth.
+- Meaning (`DISAMB-VERIFICATIONIST-MEANINGFUL`, `DISAMB-VERIFIABILITY-VARIANT`,
+  `DISAMB-V4-PROPOSAL-MEANING-AND-TRUTH`,
+  `DISAMB-ACTUAL-EXISTENCE-VERIFICATION-RELEVANCE`): preserve the existing
+  diagnostic/proposal/source distinctions while adding consequential calibration.
+- Role/authority (`DISAMB-EPISTEMIC-REASON-EXISTENCE-ROLE-AUTHORITY`,
+  `DISAMB-PLAN-GUIDANCE-VS-CATEGORICAL-REASON`,
+  `DISAMB-TRANSCENDENTAL-ACCESS-AND-DUTY`): an actual favoring instance,
+  extensional successful classification and preference-independent authority
+  are separate. The reason batch repairs the actual conditional-encoding gap.
+- Knowledge/justification (`DISAMB-KNOWLEDGE-ASSERTION`,
+  `DISAMB-FIRST-HIGHER-ORDER-JUSTIFICATION`, `DISAMB-FITCH-OPERATOR-SCOPE`,
+  `DISAMB-CC100-124-TRUTH-COMMON-KNOWER`, `DISAMB-PARM-KNOWLEDGE`): factivity,
+  higher-order access and distributed/fixed-agent knowledge already have
+  explicit propositions. No universal sceptical theory census was asserted.
+- Correctness/warrant (`DISAMB-FIRST-PRINCIPLE-WARRANT`,
+  `DISAMB-CORRECTION-CRITERION-AND-JUSTIFICATION`,
+  `DISAMB-INSTRUMENT-ACCURACY-AND-ENTITLEMENT`,
+  `DISAMB-VALIDATION-RISK-AND-WARRANT`,
+  `DISAMB-GOLDMAN-STATUS-ACCESS-AND-REVISION`,
+  `DISAMB-FALLIBLE-CORRECTION-AND-WARRANT`, `DISAMB-SCIENCE-TEST-ADEQUACY`,
+  `DISAMB-ADAPTIVE-FAILURE-AND-WARRANT`,
+  `DISAMB-BINARY-TRUTH-FITNESS-WARRANT`): preserve the explicit controls; a
+  classifier's successful performance is not a warrant or authority definition.
+- Method/regress (`DISAMB-INFINITIST-AVAILABILITY-AND-WARRANT`,
+  `DISAMB-ARISTOTLE-ANPOST-DEMONSTRATION-AND-ENTITLEMENT`,
+  `DISAMB-CONTRASTIVE-WORLDVIEW-JUSTIFICATION`,
+  `DISAMB-SCIENCE-INDUCTION-SELECTION`, `DISAMB-SEXTUS-EPISTEMIC-REGRESS-SCOPE`,
+  `DISAMB-HUME-INDUCTION-REASON-PRACTICE`,
+  `DISAMB-SELLARS-FOUNDATION-RELIABILITY-AND-RECIPROCITY`): the stipulated
+  GeneratedWarrant norm and historical readings are not all possible
+  justification theories; no general exhaustive Agrippan taxonomy is advertised.
+- Logical classification (`DISAMB-THRESHOLD-BELIEF-REASON-AND-TRUTH`,
+  `DISAMB-SHARED-AND-INDEXED-BELIEF-CLOSURE`,
+  `DISAMB-INTUITIONISTIC-FORCING-AND-NONFORCING`,
+  `DISAMB-SORITES-TOLERANCE-CLASSIFICATION`): K3/LP, indexed pools,
+  pointwise/Heyting negation and binary/partial tolerance already have separate
+  typed profiles and controls. They are bounded alternatives, not a census of
+  all possible logics or vague-language accounts.
+
+The authority/history lane inspected 16 disambiguations and 31 linked definitions
+at the same baseline. The first founding batch is an actual adjustment; the
+remaining dispositions preserve these exact obligations:
+
+| Cluster | Disposition and exact scope |
+|---|---|
+| Founding / mandate | Existing implication and narrow/universal mandate-scope results are reusable; the immediate/inclusive definition calibration and nonvacuous exclusion gap is the first active correction. |
+| Proper nominal God / practice reference (`DISAMB-NAME-APPLICATION`, `DISAMB-GOD`) | Add a weakest proper-application→practice-reference transfer before crossing the 3 current alternative relations; a practice-reference-empty model need not make a proper nominal predicate empty. |
+| Revelation / CutOff | Capability and actual correct shared-reason moves differ; exact practice/world mapping and witness scope must be explicit, as described above. |
+| Natural reason (`DISAMB-NATURAL-REASON`, `DISAMB-PRACTICE-SENSITIVITY-AND-FIDEIST-INSULATION`) | Shared-reason bridge is typed; the theological-horizon reply remains untyped. A theological description of reason may coexist with outsider usability. Encode exclusive insulation separately from theological presentation; outsider-to-Christianity is not neutral-to-every-horizon. |
+| Grammar fixing | Existing `FIDEISM-GRAMMAR-CASES-PARTITION` already proves authorities / not-authorities-and-use / neither under excluded middle. Reuse it; do not call it a census of named schools or turn the surviving neither branch into a refutation. |
+| Visible/spiritual Church (`DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS`) | Spiritual counterpart lacks a typed calibration. Future visible-only/spiritual-only/joint-aspect comparison must preserve possible coexistence, membership/body/jurisdiction distinctions, and separate historical founding/identity obligations. |
+| Commission powers | Existing preach/teach/governance table is explicitly stipulated; institutional founding needs its open link. A governing-power calibration should distinguish announcement, delegated jurisdiction and constitutive authority, preserving report/event and promise/actual-conferral scopes. |
+| Christological words (`DISAMB-JOHN-I-AM-CONTEXT-AND-TRUTH`, `DISAMB-MARK-HIGH-PRIEST-EXCHANGE`, `DISAMB-MARK-FORGIVENESS-AUTHORITY`, `DISAMB-PHIL-CHRISTOLOGY`) | Current report/letter propositions correctly avoid inferring historicity, divine authority or identity. Further divine-name, preexistence, ideal-priority and delegated-agent definition propositions/forks remain to encode; no new attribution is licensed. |
+| Resurrection (`DISAMB-RESURRECTION-PILOT-EVIDENCE`) | The pilot compares a supplied bounded theory roster and bodily-event predicates. If a later elimination relies on the roster exhausting rivals, that is an additional premise; no universal exhaustiveness is presently proved. |
+| God-like / most-real / divine being-person (`DISAMB-KANT-GOD-IDENTIFICATION`, `DISAMB-POSITIVE`, `DISAMB-Q11-GOD-BEING-PERSON`) | Existing fixed interpretations are distinct; no new fork is needed merely because “God” recurs in several frameworks. Preserve the exact identification and person/being bridges. |
+| Electoral authority / historical consent (`DISAMB-ELECTORAL-MAJORITY-CONSENT-AUTHORITY`, `DISAMB-HISTORICAL-RAPE-AND-NONCONSENT`) | Existing mathematical/source scopes do not infer individual consent, legitimate authority or a historical rape concept from majority counts. No current cross-sense inference was identified to rewrite. |
+
+Initial causal/modal checks likewise preserve the explicit statement types in
+`DISAMB-CAUSE`, `DISAMB-PSR-EXPLANATION-CAUSE`,
+`DISAMB-BRUTE-EXISTENCE-AND-GROUNDING`,
+`DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND`, `DISAMB-NECESSARY`,
+`DISAMB-ESSENTIAL-VS-ACCESSIBLE-EXISTENCE`, and `DISAMB-CHANGE-A-SERIES`.
+Existence-PSR is not an external-cause principle; local no-brute existence is
+not all-world PSR or grounding-root exclusion; necessary existence is not
+essential explanation or uncaused necessity; A-series change, general change
+and potency/act motion require their explicit bridges. Their existing checked
+separations are reused. Full use-level review of the remaining module groups
+is still open; this first batch does not declare the repository-wide audit done.
+
+### Active or delivered related work counted in scope
+
+- [#1125](https://github.com/moritzbrantner/truth-core/pull/1125): generic and
+  adopted-potency configurations; original Challenges retained, rival senses
+  not globally refuted by choosing a definition.
+- [#1122](https://github.com/moritzbrantner/truth-core/pull/1122): adopted esse
+  profile/cogito bridge with explicit generic/interpretation boundary.
+- [#1126](https://github.com/moritzbrantner/truth-core/pull/1126): external
+  evil-premise truth, target-internal challenge, affective protest and precise
+  remainder; not an exhaustive account of every possible objection.
+- [#1127](https://github.com/moritzbrantner/truth-core/pull/1127): open form/end
+  goodness proposition, semantic named coverage, additional account and
+  intensional/property-identity fork. No automatic goodness definition adoption.
+
+Audit continuation: finish the actual batches above, then continue the unreviewed
+causal/modal/mereological, source, hiddenness, science and decision clusters.
+A keyword inventory or the first three corrected examples is not completion.

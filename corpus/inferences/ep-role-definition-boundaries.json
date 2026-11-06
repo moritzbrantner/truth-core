@@ -1,0 +1,9 @@
+{
+  "id": "INF-EP-ROLE-DEFINITION-BOUNDARIES",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-EPISTEMIC-REASON-DEFINITION-BOUNDARIES",
+  "rule": "constructive-proof",
+  "meaning": "Finite structured controls: role favoring can be fallible and fail to produce belief; goal-relative force can exist at the actual preference without preference-independent force; bare production/reward need not yield an ordinary-role reason; all four calibrations can coexist; a genuine remaining profile and missing-presentation control expose the exact coverage/representation burdens. No actual normative instance is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
