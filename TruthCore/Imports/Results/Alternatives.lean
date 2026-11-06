@@ -39,6 +39,10 @@ public import TruthCore.Results.Alternatives.NameApplicationTransfer.ReducedNami
 public import TruthCore.Results.Alternatives.NameApplicationTransfer.Strength.Solution
 public import TruthCore.Results.Alternatives.NightActualizationCore.Solution
 public import TruthCore.Results.Alternatives.NightActualizationFork.Solution
+public import TruthCore.Results.Alternatives.OpiningMotionRivalCoverage.Controls.Solution
+public import TruthCore.Results.Alternatives.OpiningMotionRivalCoverage.CounterFailure.Solution
+public import TruthCore.Results.Alternatives.OpiningMotionRivalCoverage.Coverage.Solution
+public import TruthCore.Results.Alternatives.OpiningMotionRivalCoverage.RivalStrength.Solution
 public import TruthCore.Results.Alternatives.PerSeCausalLoopImpossible.Solution
 public import TruthCore.Results.Alternatives.PhysicalGround.Solution
 public import TruthCore.Results.Alternatives.PotencyAnalysisPartition.Solution

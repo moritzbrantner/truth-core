@@ -1,0 +1,10 @@
+{
+  "id": "REL-GLOBAL-NO-MOTION-APPEARINGS-STRENGTHENS-LOCAL-OPINER-COUNTERCASE",
+  "subject_kind": "statement",
+  "subject_id": "STMT-CHANGE-UNREAL-BUT-APPEARS",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "STMT-OPINER-LACKS-ITS-OPINION-MOTION",
+  "verification_result_id": "GLOBAL-NO-MOTION-APPEARINGS-STRENGTHENS-LOCAL-OPINER-COUNTERCASE",
+  "note": "Sole-premise checked weakening, strict in the populated mixed-motion control. No reverse source/theory identity is claimed."
+}

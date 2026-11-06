@@ -16,6 +16,7 @@ public import TruthCore.Alternatives.MindPhysicalism
 public import TruthCore.Alternatives.NameApplicationTransfer
 public import TruthCore.Alternatives.NightActualizationFork
 public import TruthCore.Alternatives.NightCosmogony
+public import TruthCore.Alternatives.OpiningMotionRivalCoverage
 public import TruthCore.Alternatives.PhysicalCompleteness
 public import TruthCore.Alternatives.PhysicalGround
 public import TruthCore.Alternatives.PotencyAnalysisPartition

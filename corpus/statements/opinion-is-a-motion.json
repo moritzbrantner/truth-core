@@ -9,5 +9,6 @@
   ],
   "disambiguation_ids": [
     "DISAMB-MOTION"
-  ]
+  ],
+  "note": " Exact-scope audit: the universal concerns MovedIn x (asOpinion p) for each actual opiner. New STMT-OPINER-LACKS-ITS-OPINION-MOTION is the precise countertuple; a stationary opiner can coexist with another being moving, so the stronger global-no-motion rival is not exhaustive. All source, same-sense and actual applicability burdens remain; no self-evidence marking is added."
 }
