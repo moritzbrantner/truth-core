@@ -1,0 +1,18 @@
+{
+  "id": "CONCRETE-ABSTRACT-ESSE-DICHOTOMY",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-ESSE-CONCRETE-ABSTRACT-DICHOTOMY",
+  "inference_ids": [
+    "INF-CONCRETE-ABSTRACT-ESSE-DICHOTOMY"
+  ],
+  "definition_ids": [
+    "DEF-ABSTRACT-NO-ESSE-IN-RE",
+    "DEF-CONCRETE-ESSE-IN-RE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA"
+  ],
+  "meaning": "Because abstract is defined as the contradictory of concrete (no esse in re), the esse criterion is exhaustive by excluded middle (STMT-EXCLUDED-MIDDLE) and disjoint by non-contradiction. It establishes no classification of any particular candidate, and it does not make any rival criterion exhaustive."
+}

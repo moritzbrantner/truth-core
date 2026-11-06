@@ -11,10 +11,16 @@ shared vocabulary is `TruthCore/Ontology/ConcreteAbstract.lean`.
 
 - **Concrete:** having esse *in re*, its own act of existence in reality
   (`HasEsseInRe InAct esse x := InAct x esse`, reusing `DEF-ESSE`).
-- **Abstract:** having esse only in the intellect, as the number 2 does
-  (`EsseAbstract := inIntellectu x ∧ ¬ InAct x esse`).
-- Disjointness follows from these definitions. Exhaustiveness (`Exhaustive`)
-  is a separate strong version, so borderline cases are allowed.
+- **Abstract:** the contradictory of concrete, having no esse in re
+  (`EsseAbstract := ¬ InAct x esse`). At most it has being in the intellect,
+  as the number 2 does.
+- There are no borderline cases. The owner: "We have these words in order to
+  draw a line. The same way we have words like dead and alive, inside or
+  outside." ([record](https://github.com/moritzbrantner/truth-core/issues/1103#issuecomment-6683816810))
+  Disjointness holds by non-contradiction and exhaustiveness by excluded
+  middle (`EsseDichotomy`, result `CONCRETE-ABSTRACT-ESSE-DICHOTOMY`). Both
+  are derived, not assumed. The exact dichotomy belongs to the esse criterion
+  only; the rival criteria below need not be exhaustive.
 - Concreteness is world-independent; `ConcreteAt o c w x` is existence at
   `w` together with concreteness.
 - Paradigm anchors (`Anchors`): the reasoner is concrete and the set

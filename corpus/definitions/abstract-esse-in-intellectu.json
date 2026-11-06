@@ -1,8 +1,0 @@
-{
-  "id": "DEF-ABSTRACT-ESSE-IN-INTELLECTU",
-  "term": "abstract: esse only in the intellect (adopted sense)",
-  "definition": "EsseAbstract InAct esse inIntellectu x := inIntellectu x ∧ ¬ InAct x esse: the candidate has being in the intellect (the esse in anima of De ente c.2, as the number 2 has it) and no esse in re. Disjointness from DEF-CONCRETE-ESSE-IN-RE is derived, not stipulated (esseClassification). A candidate with neither esse in re nor esse in the intellect is neither concrete nor abstract.",
-  "basis": "stipulative",
-  "lean_declaration": "TruthCore.Ontology.ConcreteAbstract.EsseAbstract",
-  "note": "Owner's adopted sense (#1103, 2026-11-06): abstract things have no esse in re, at most esse in the mind. inIntellectu is a supplied primitive; this definition does not say whose intellect, or that abstracta depend on any particular mind. The SEP mind-dependence objections (§3: impure sets, abstract artifacts) bear on the Fregean rival DEF-ABSTRACT-FREGE-CRITERION, not on this sense. Owner decision on #1103 (2026-11-06): https://github.com/moritzbrantner/truth-core/issues/1103#issuecomment-6683616439. See docs/notes/concrete-abstract.md."
-}

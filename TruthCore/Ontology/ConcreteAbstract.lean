@@ -10,14 +10,16 @@ with no shared meaning, and several models set it to `True`. This module gives
 the distinction one typed home.
 
 * `Classification B` is the criterion-neutral interface: independently supplied
-  `concrete` and `abstract` predicates with REQUIRED disjointness. Exhaustiveness
-  is not built in. `Exhaustive` is the separate strong version (#1017), so
-  borderline or unclassified candidates are allowed.
+  `concrete` and `abstract` predicates with REQUIRED disjointness. It does not
+  require exhaustiveness (`Exhaustive`), because the rival criteria need not be
+  exhaustive. For the adopted esse sense, exhaustiveness is derived from
+  excluded middle and disjointness from non-contradiction (`EsseDichotomy`).
 * The **adopted sense** (owner decision on #1103, 2026-11-06) is the esse
   criterion. A candidate is concrete when it has its own esse *in re*, read with
   the shared Aquinas vocabulary as `InAct x esse` (`DEF-ESSE`). It is abstract
-  when it has esse only in the intellect (`inIntellectu x ∧ ¬ InAct x esse`), as
-  the number 2 does. The source readings are De ente c.1–2 (being "quod aliquid
+  when it lacks esse in re (`¬ InAct x esse`), having at most esse in the
+  intellect, as the number 2 does. Abstract is the contradictory of concrete, so
+  there are no borderline cases (owner, 2026-11-06). The source readings are De ente c.1–2 (being "quod aliquid
   in re ponit" versus propositional truth; a nature's double esse, "unum in
   singularibus et aliud in anima") and ST I q.85 a.1 ad 1–2 (mathematicals are
   abstracted by the intellect, not abstract "secundum rem"). Aquinas does not
@@ -52,8 +54,9 @@ structure Classification (B : Type) where
   abstract : B → Prop
   disjoint : ∀ x, abstract x → ¬ concrete x
 
-/-- The strong version (#1017): every candidate is concrete or abstract. It is
-not assumed anywhere in this module; borderline candidates are permitted. -/
+/-- Every candidate is concrete or abstract. It is not assumed for an arbitrary
+classification: the rival criteria need not satisfy it. For the esse
+classification it is derived from excluded middle (`EsseDichotomy`). -/
 def Exhaustive {B : Type} (c : Classification B) : Prop :=
   ∀ x, c.concrete x ∨ c.abstract x
 
@@ -102,21 +105,28 @@ second sense (propositional truth), in which privations "are". -/
 def HasEsseInRe {B R : Type} (InAct : B → R → Prop) (esse : R) (x : B) : Prop :=
   InAct x esse
 
-/-- Adopted sense of abstract: the candidate has esse in the intellect
-(`inIntellectu`, the nature's "esse in anima" of De ente c.2) and no esse in re.
-A candidate with neither is neither concrete nor abstract, so exhaustiveness
-stays the separate strong version. -/
-def EsseAbstract {B R : Type} (InAct : B → R → Prop) (esse : R)
-    (inIntellectu : B → Prop) (x : B) : Prop :=
-  inIntellectu x ∧ ¬ InAct x esse
+/-- Adopted sense of abstract (owner, #1103): the contradictory of concrete,
+i.e. no esse in re. At most it has being in the intellect, as the number 2 or a
+universal has (De ente c.2, "esse in anima"; ST I q.85 a.1 ad 2). There are no
+borderline cases: "We have these words in order to draw a line" (owner). -/
+def EsseAbstract {B R : Type} (InAct : B → R → Prop) (esse : R) (x : B) : Prop :=
+  ¬ InAct x esse
 
-/-- The esse classification. Its disjointness is DERIVED from the definitions,
-not stipulated. -/
-def esseClassification {B R : Type} (InAct : B → R → Prop) (esse : R)
-    (inIntellectu : B → Prop) : Classification B where
+/-- The esse classification. Its disjointness is derived from the definitions
+by non-contradiction, constructively; it is not stipulated. -/
+def esseClassification {B R : Type} (InAct : B → R → Prop) (esse : R) :
+    Classification B where
   concrete := HasEsseInRe InAct esse
-  abstract := EsseAbstract InAct esse inIntellectu
-  disjoint := fun _ h => h.2
+  abstract := EsseAbstract InAct esse
+  disjoint := fun _ hAbstract hConcrete => hAbstract hConcrete
+
+/-- The exact dichotomy for the esse criterion: every candidate is concrete or
+abstract and none is both. Exhaustiveness is the instance of excluded middle at
+"x has esse in re"; disjointness needs no premise. This holds for the esse
+criterion only: the rival criteria below need not be exhaustive. -/
+def EsseDichotomy {B R : Type} (InAct : B → R → Prop) (esse : R) : Prop :=
+  ∀ x, (HasEsseInRe InAct esse x ∨ EsseAbstract InAct esse x) ∧
+    ¬ (HasEsseInRe InAct esse x ∧ EsseAbstract InAct esse x)
 
 /-! ## Rival criteria (sibling senses, not the adopted one)
 

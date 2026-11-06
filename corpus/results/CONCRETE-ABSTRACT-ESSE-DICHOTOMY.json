@@ -1,0 +1,11 @@
+{
+  "id": "CONCRETE-ABSTRACT-ESSE-DICHOTOMY",
+  "argument_id": "CONCRETE-ABSTRACT-ESSE-DICHOTOMY",
+  "challenge_module": "TruthCore.Results.Ontology.EsseDichotomy.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.EsseDichotomy.Solution",
+  "theorem": "TruthCore.Results.Ontology.EsseDichotomy.esseDichotomyOfExcludedMiddle",
+  "comparator_config": "results/CONCRETE-ABSTRACT-ESSE-DICHOTOMY/comparator.json",
+  "status": "solution-present",
+  "description": "Transcription by instantiation of STMT-EXCLUDED-MIDDLE at 'x has esse in re', with premise-free disjointness. It adds no defense of excluded middle and classifies no particular candidate. Closure propagates from its already closed premise.",
+  "transcription": "instantiation"
+}
