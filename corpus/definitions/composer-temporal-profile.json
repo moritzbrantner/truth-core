@@ -1,0 +1,8 @@
+{
+  "id": "DEF-COMPOSER-TEMPORAL-PROFILE",
+  "term": "temporal scope of efficient-cause attribution",
+  "definition": "Analyst frame with SAME beings, respects, uniting relation, admitted times and selected evaluation time. EfficientAt t c x r is efficient activity at t. Attributed c x r is a separate temporally unspecified efficient-cause attribution. Current and existential-time calibrations, coverage and temporal transfers are OPEN propositions, not properties hidden in these definitions. No world variation or causal time order is assumed. Illustrations: departed builder versus currently operating support; ordinary chronological succession alone is a counterexample to causal attribution. Neither existential-time production nor present activity entails causing esse, asymmetry, well-foundedness or externality. Real applicability remains OPEN. A new time index is necessary because canonical EfficientlyCausesIn is evaluated at one time; TemporalActualization event-token clocks are a different domain and do not supply an efficient-cause relation.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.ComposerTemporalDefinitionFork.Frame",
+  "note": "Stipulated to investigate temporal scope of the existing independent composer attribution without selecting a source interpretation. Actual applicability requires a defended causal interpretation and admitted-time profile. Attribution to an author would require an explicit source statement selecting the relevant temporal calibration; deferred under logic-first direction."
+}

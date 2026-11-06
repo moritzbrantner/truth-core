@@ -1,0 +1,9 @@
+{
+  "id": "REL-COMPOSER-TEMPORAL-OTHER-OPPOSES-NAMED-COVERAGE",
+  "subject_id": "STMT-EFFICIENT-ATTRIBUTION-ADDITIONAL-TEMPORAL-DEFINITION",
+  "object_id": "STMT-EFFICIENT-ATTRIBUTION-NAMED-TEMPORAL-DEFINITIONS-COVER",
+  "note": "Both named calibrations fail; this opposes coverage, not the original independent composer attribution or the composite conclusion.",
+  "predicate": "alternative_to",
+  "subject_kind": "statement",
+  "object_kind": "statement"
+}
