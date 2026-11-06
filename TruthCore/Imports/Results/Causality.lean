@@ -54,6 +54,11 @@ public import TruthCore.Results.Causality.DirectEsseRootUniquenessAtBeing.Soluti
 public import TruthCore.Results.Causality.DirectEsseRootUniquenessFromAsymmetry.Solution
 public import TruthCore.Results.Causality.DirectEsseRootUniquenessScopeControls.Solution
 public import TruthCore.Results.Causality.EssentialPowerUnderdetermined.Solution
+public import TruthCore.Results.Causality.EternityDefinitions.Controls.Solution
+public import TruthCore.Results.Causality.EternityDefinitions.Coverage.Solution
+public import TruthCore.Results.Causality.EternityDefinitions.NamedElimination.Solution
+public import TruthCore.Results.Causality.EternityDefinitions.PrimitiveComposition.Solution
+public import TruthCore.Results.Causality.EternityDefinitions.RecognitionStrength.Solution
 public import TruthCore.Results.Causality.ExistentialSelfActualization.Solution
 public import TruthCore.Results.Causality.ExternalCandidateNecessity.Solution
 public import TruthCore.Results.Causality.FiniteBranching.Solution
