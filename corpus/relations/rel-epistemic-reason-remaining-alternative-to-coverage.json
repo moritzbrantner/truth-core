@@ -1,0 +1,9 @@
+{
+  "id": "REL-EPISTEMIC-REASON-REMAINING-ALTERNATIVE-TO-COVERAGE",
+  "subject_kind": "statement",
+  "subject_id": "STMT-EPISTEMIC-REASON-ADDITIONAL-DEFINITION-REMAINS",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-EPISTEMIC-REASON-DEFINITION-CANDIDATES-COVER",
+  "note": "The remaining calibration conjunction negates the four-way named coverage proposition in the same fixed profile. It is not a blanket rival to ordinary support or independent authority."
+}

@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.EpistemicReasonDefinitions.NamedElimination.Challenge",
+  "solution_module": "TruthCore.Results.Logic.EpistemicReasonDefinitions.NamedElimination.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.EpistemicReasonDefinitions.NamedElimination.namedDefinitionElimination"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

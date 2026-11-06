@@ -1,0 +1,17 @@
+{
+  "id": "EP-ROLE-DEFINITION-FORK",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-EPISTEMIC-REASON-DEFINITION-FORK",
+  "inference_ids": [
+    "INF-EP-ROLE-DEFINITION-FORK"
+  ],
+  "meaning": "Logical structural-coverage transcription over the four calibration propositions and their explicit remainder. It does not show named coverage or eliminate an unlisted interpretation.",
+  "definition_ids": [
+    "DEF-EPISTEMIC-REASON-DEFINITION-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EPISTEMIC-REASON-EXISTENCE-ROLE-AUTHORITY"
+  ]
+}

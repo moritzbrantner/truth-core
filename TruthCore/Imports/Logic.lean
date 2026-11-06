@@ -11,6 +11,7 @@ public import TruthCore.Logic.Configuration
 public import TruthCore.Logic.ContrastiveWorldview
 public import TruthCore.Logic.CorrectionCriterion
 public import TruthCore.Logic.EpistemicAccuracy
+public import TruthCore.Logic.EpistemicReasonDefinitionFork
 public import TruthCore.Logic.EpistemicReasons
 public import TruthCore.Logic.ExcludedMiddle
 public import TruthCore.Logic.FallibleCorrection
