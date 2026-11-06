@@ -1,0 +1,147 @@
+# Elementary-fact independence, constraints and reanalysis (#1088 / #1010)
+
+This analyst comparison distinguishes individual variation, pairwise variation,
+full joint realization and a choice of elementary basis. Attribution is deferred.
+It is not an exegesis or refutation of Wittgenstein, nor a claim that every
+proposition must be an independent elementary fact.
+
+## Exact reuse and remaining gap
+
+`Verificationism.Model.lawLanguage` already supplies worlds
+`Nat → Bool × Bool`, sentences `r n`, `b n`, and compositional Boolean
+`LawSentence.eval`. This comparison imports that implementation unchanged; it
+introduces no propositional syntax. Its selected report coordinates are:
+
+- p: `r 0`, the first bit at index0;
+- q: `b 0`, the second bit at index0;
+- r: `r 1`, the first bit at index1.
+
+The original raven/black gloss is not a defended elementary analysis for this
+experiment. Existing `counterAt_preserves` and `ravensSetting.vary` establish
+remote finite-observation variation. They do not compare all pair assignments
+with joint three-report saturation. `Hume.Regularity.CoincidenceTest` already
+models two-variable diagonal sampling; repeating it would add little. The modal
+ResearchFixture inventory/closure/extensionality results do not assert that
+all assignments to designated reports are realized. Shared Frame and Box are
+reused, without their original embedding's theological axioms.
+
+The related/dossier inventory inspected `STMT-TLP-PROPOSITION-IS-PICTURE` and
+`STMT-HUME-REGULARITY-TESTS`. The former records Tractatus4.01 without a Lean
+formalization and supplies no elementary-independence premise. The #1010
+acceptance audit correctly leaves logical atomism's distinct historical
+position/classification open. This certificate is a bounded analyst boundary,
+not completion of that requirement.
+
+## One constrained profile
+
+Let `reports w = (p,q,r)` and `Parity (p,q,r)` mean `r = p XOR q`.
+`Constrained` is the subtype of the existing worlds satisfying this equation.
+Every constrained world is accessible from every other constrained world. The
+original world space remains available with unrestricted universal accessibility.
+These are stipulated admission profiles, not empirical or metaphysically
+validated possibilities. There is no causal, temporal, grounding or explanatory
+claim in the equation or accessibility relation.
+
+The constrained profile realizes these selected triples (other coordinates are
+not thereby fixed in every world):
+
+| p | q | r |
+|---|---|---|
+| false | false | false |
+| false | true | true |
+| true | false | true |
+| true | true | false |
+
+Every selected report varies both ways. More strongly, **every Boolean
+assignment to every distinct pair** is realized. Nevertheless the triple
+`(false,false,true)` is not realized, while the ternary parity constraint is
+necessary in this profile. Pairwise independence here means assignment
+realization, not probabilistic/statistical independence or causal autonomy.
+Individual contingency does not supply joint independence either.
+
+## General scope law and genuine omission controls
+
+`Saturates F report a` says that for every value in the supplied report domain,
+some world accessible from a has exactly that report. It is full realization
+relative to a designated origin and report map, not a blanket claim about all
+propositions or all metaphysical possibilities.
+
+For arbitrary world/value types, frame, report map, origin and constraint, the
+joint certificate proves:
+
+`Saturates F report a → (Box F (constraint ∘ report) a ↔ ∀ value, constraint value)`.
+
+The forward direction uses the realizing world for each value and transfers its
+necessary constraint along report equality; the reverse direction is direct
+instantiation. Thus full saturation cannot coexist with a necessary constraint
+that fails at a value in that same domain. A necessary individual atom would
+also be excluded if the domain allows that coordinate to be false, but the
+certificate does not designate any actual existence proposition as such an atom.
+
+The controls retain precisely the contrasting inputs:
+
+- Constrained old worlds: the necessary parity constraint and all pair/individual
+  assignments hold, but full triple saturation fails.
+- Unrestricted old worlds: every triple is realized, including a concrete
+  counterexample to parity, so parity is not necessary.
+- The third-report reanalysis below retains the SAME necessary constraint and
+  a genuinely saturated two-report basis. Necessary constraints therefore do
+  not refute every choice of an independent basis.
+
+These are genuine joint interpretations. They establish no global weakest
+premise bundle, actual law, or preferred member of an incompatible bundle.
+
+## Reanalysis survives in the SAME constrained worlds
+
+The existing-language formula
+
+`(r0 ∧ ¬b0) ∨ (¬r0 ∧ b0)`
+
+has the denotation of the selected r1 report on every constrained world. The
+certificate defines `Selected` as exactly the Boolean fragment generated by
+r0,b0,r1, and substitutes this XOR formula for r1 compositionally. For every
+Selected sentence, the substituted sentence uses only r0,b0 and has the same
+truth value at every constrained world. The r0/b0 report pair itself is fully
+saturated in that SAME profile.
+
+This does **not** make two bits a description of the whole infinite world or
+vocabulary. The scope control exhibits two constrained worlds with identical
+basis and selected triple but opposite truth of the existing sentence b1.
+`reanalyze` is total on the old sentence type for implementation convenience;
+its advertised basis/elimination theorem applies only to Selected. No claim
+covers the global law sentence, arbitrary other indices or all facts.
+
+The strongest rival reclassifies linked reports as non-elementary composites,
+changes the primitive analysis or rejects unrestricted saturation. Its reply is
+not refuted; the same-profile reanalysis makes one version explicit. Syntactic
+atomicity of the token r1 in the old language is not philosophical elementary
+status. Representability by a smaller basis is not explanatory reduction,
+epistemic access or a source's intended analysis.
+
+## Bearing on the case and remaining scope
+
+This boundary is neutral to current root routes without another dictionary.
+It could become a conditional rival to a necessary cross-fact law only if the
+law's claims are independently elementary in the SAME sense and unrestricted
+joint realization is supplied. No existing record identifies the case's
+necessary-being or causal propositions with those report atoms. The result
+therefore refutes neither necessary beings nor necessary causal connections.
+No root premise is discharged or reclassified.
+
+Which claims are elementary, which assignments are metaphysically admitted,
+and whether the chosen analysis applies to reality remain **OPEN**. Historical
+independence/analysis claims need their own reading records; available picture
+and mystical-language records do not establish them. Parent #1010 retains its
+full original scope and remains open. No source, passage or claim is added.
+
+The first compile required a Solution-only explicit definitional reduction for
+transporting the old atomic evaluation along the parity equality. The initial
+axiom probe then isolated `propext` to the compiler-generated implementation of
+`reanalyze`, whose patterns overlapped `.r 1` with a catch-all. Its implementation
+was replaced by explicit sentence-constructor branches and a decidable `n=1`
+test for `.r n`, preserving the same substitution and selected scope. Weakening
+the zero-axiom configuration was rejected. The frozen Challenge bytes, premises
+and semantic mapping remain unchanged; the changed definition and Solution were
+rebuilt and received fresh focused binding/axiom/Comparator/NanoDa checks. Direct
+Boolean cases avoid the axiom-carrying helpers identified in #1084. Final
+acceptance evidence belongs to the delivered PR/CI.

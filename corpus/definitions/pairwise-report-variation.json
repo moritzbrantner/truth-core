@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PAIRWISE-REPORT-VARIATION",
+  "term": "individual and pairwise elementary-report variation",
+  "definition": "IndividualVariation realizes both Boolean values of each selected report. PairwiseVariation realizes every assignment to every ordered pair of distinct selected reports. In the parity-constrained subtype of old Nat\u2192Bool\u00d7Bool worlds, p=r0, q=b0 and r=r1 satisfy r=p XOR q; pair/individual variation holds although full triple realization fails. This is possibilistic assignment variation, not probabilistic independence or causal autonomy.",
+  "basis": "stipulative",
+  "note": "One joint constrained interpretation retains a necessary non-tautological ternary law. The original unrestricted world space realizes every triple and contains a counterexample to that law. Neither profile is declared actual metaphysics or a source interpretation.",
+  "lean_declaration": "TruthCore.Logic.AtomismIndependence.PairwiseVariation"
+}

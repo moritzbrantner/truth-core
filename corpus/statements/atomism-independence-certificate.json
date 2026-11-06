@@ -1,0 +1,13 @@
+{
+  "id": "STMT-ATOMISM-INDEPENDENCE-CERTIFICATE",
+  "paraphrase": "For arbitrary frames and report domains, full report saturation makes root-necessary report constraints exactly constraints true at every domain value. In the existing Nat\u2192Bool\u00d7Bool valuation-world semantics, the subtype r1=r0 XOR b0 realizes every individual and distinct-pair Boolean assignment but not every triple, and necessarily satisfies this non-tautological ternary constraint. Unrestricted old worlds realize every triple and refute necessity of the constraint. In the SAME constrained subtype, r0/b0 are saturated and every sentence of the SELECTED three-report Boolean fragment has an equivalent old-language translation using only r0/b0. Equal basis/selected triples can still differ on b1. Formal profile and analysis boundaries only; no actual atomism, necessity, complete-world representation or root conclusion is established.",
+  "lean_declaration": "TruthCore.Logic.AtomismIndependence.Certificate",
+  "definition_ids": [
+    "DEF-JOINT-REPORT-SATURATION",
+    "DEF-PAIRWISE-REPORT-VARIATION",
+    "DEF-SELECTED-BOOLEAN-BASIS-REANALYSIS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PAIRWISE-JOINT-AND-ANALYZED-INDEPENDENCE"
+  ]
+}

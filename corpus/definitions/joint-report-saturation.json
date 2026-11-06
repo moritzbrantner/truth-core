@@ -1,0 +1,8 @@
+{
+  "id": "DEF-JOINT-REPORT-SATURATION",
+  "term": "full joint elementary-report realization",
+  "definition": "Saturates F report a realizes every value of the supplied report domain V as report w at some F-accessible world from a. The general law identifies necessary report constraints with constraints true at every domain value, conditional on saturation. This is report surjectivity, not a claim that all propositions are independently elementary or all value assignments genuinely metaphysically possible.",
+  "basis": "stipulative",
+  "note": "Analyst comparison #1088; attribution deferred. The fixed three-report domain is Bool\u00d7Bool\u00d7Bool from old Verificationism.Model worlds. Universal accessibility on constrained/unrestricted profiles is stipulated. Which claims count elementary and actual metaphysical applicability remain OPEN; no causal, temporal or grounding relation is implied. See docs/notes/atomism-independence-1088.md.",
+  "lean_declaration": "TruthCore.Logic.AtomismIndependence.Saturates"
+}
