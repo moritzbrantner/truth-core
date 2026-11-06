@@ -15,6 +15,21 @@ standard. The theorems are `core` and `comparison` in
 They establish conditional consequence and model verdicts. They establish no standard
 and no model's metaphysical possibility. The original comparison added no source claim. The P2 logical extension below also adds no historical claim; new attribution is DEFERRED by owner.
 
+## Causal-power scope correction (owner, 2026-11-06)
+
+The fixed rival arenas `ground`, `plural`, `law`, `chain`, `brute` and `idle`
+all set `Causes := False`. Their concrete/abstract classifications and thin
+causal powers are unrepresented. `law` contributes an admitted **noncausal
+reason**, not an abstract productive cause; token expansion preserves the input
+causal relation and creates no power. Thus the owner’s causal-inertness contract
+is not contradicted by these empty relations, but its causal side is satisfied
+only vacuously. ReasonClosed and no-NE witnesses are not recovered causal
+explanations or evidence that real abstract items produce concreta. Any stronger
+reading of the comparison is withdrawn; its exact theorem statements remain
+unchanged. See the [model-by-model audit](ultimate-adequacy-integration-735.md#owner-causal-power-contract-audit-p2-bp3-2026-11-06)
+for the distinct #735 exercise and #1072/#1079 controls. Concrete causal holism
+remains a serious rival subject to its own realization and adequacy burdens.
+
 ## Findings
 
 1. **A truth-discriminating contrast demand excludes well-founded accounts of contingent
@@ -36,8 +51,8 @@ and no model's metaphysical possibility. The original comparison added no source
    being is necessary, because it stated that. Without foundedness `chain` meets it
    vacuously, and `law` fails it while having the same reasons as `ground`.
 
-The non-theistic witnesses are `law`, `chain` and `necessitarian`. The first two have no
-necessary being at all. So reason closure does not presuppose a necessary being, and
+The no-NE formal witnesses are `law` and `chain`; `necessitarian` is a separate
+necessity control. Both `law` and `chain` have no necessary being. So reason closure does not presuppose a necessary being, and
 `idle` shows a necessary being does not suffice for it.
 
 **An open premise.** A standard that keeps a nonnecessitating ground and excludes a
