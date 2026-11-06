@@ -17,6 +17,7 @@ public import TruthCore.Logic.FallibleCorrection
 public import TruthCore.Logic.FiniteValidationLogic
 public import TruthCore.Logic.FitchKnowability
 public import TruthCore.Logic.IntuitionisticKnowability
+public import TruthCore.Logic.JointRouteFailure
 public import TruthCore.Logic.JustificationIntrospection
 public import TruthCore.Logic.KnowabilityCompatibility
 public import TruthCore.Logic.KnowledgeAdmissibility

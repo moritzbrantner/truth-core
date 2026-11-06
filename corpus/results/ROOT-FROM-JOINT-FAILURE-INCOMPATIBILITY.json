@@ -1,0 +1,12 @@
+{
+  "id": "ROOT-FROM-JOINT-FAILURE-INCOMPATIBILITY",
+  "argument_id": "ROOT-FROM-JOINT-FAILURE-INCOMPATIBILITY",
+  "challenge_module": "TruthCore.Results.Logic.JointRouteFailure.Challenge",
+  "solution_module": "TruthCore.Results.Logic.JointRouteFailure.Solution",
+  "theorem": "TruthCore.Results.Logic.JointRouteFailure.rootFromJointFailureIncompatibility",
+  "comparator_config": "results/ROOT-FROM-JOINT-FAILURE-INCOMPATIBILITY/comparator.json",
+  "status": "solution-present",
+  "transcription": "opaque_atoms",
+  "description": "Logical rule template / opaque-atom transcription in the sense of invariant16: its indexed propositions have no philosophical interpretation. Requested #1119 machinery, not progress on the case or a concrete joint settlement. Every failure mode is quantified, and excluded middle is explicit; no additional axiom. Auxiliary checks certify the sampled-failure counterexample and shared-obligation boundary. No root premise is discharged.",
+  "joint_settlement_schema": true
+}
