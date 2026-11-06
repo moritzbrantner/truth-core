@@ -6,6 +6,7 @@ public import TruthCore.Metaethics.DescriptivePlanBoundary
 public import TruthCore.Metaethics.EvilObjection
 public import TruthCore.Metaethics.ExplanationOrder
 public import TruthCore.Metaethics.GoodnessFormEnd
+public import TruthCore.Metaethics.MeaningRivalBoundary
 public import TruthCore.Metaethics.NaturalisticRealism
 public import TruthCore.Metaethics.PlanStateEmbedding
 public import TruthCore.Metaethics.Questions

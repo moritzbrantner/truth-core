@@ -1,0 +1,9 @@
+{
+  "id": "INF-SCIENTISM-SCOPE-RIVAL-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-SCIENTISM-SCOPE-RIVAL-CONTROLS",
+  "rule": "constructive-proof",
+  "meaning": "Populated outside-scope overlap and two strict coverage-strength controls.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

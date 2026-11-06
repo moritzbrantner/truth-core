@@ -59,6 +59,10 @@ public import TruthCore.Results.Logic.Relativism.SelfFalsifying.Solution
 public import TruthCore.Results.Logic.Scientism.StrongDilemma.Solution
 public import TruthCore.Results.Logic.Scientism.WeakConsistent.Solution
 public import TruthCore.Results.Logic.Scientism.WeakDemarcation.Solution
+public import TruthCore.Results.Logic.ScientismScopeBoundary.AllToPointwise.Solution
+public import TruthCore.Results.Logic.ScientismScopeBoundary.Controls.Solution
+public import TruthCore.Results.Logic.ScientismScopeBoundary.GuardedNegative.Solution
+public import TruthCore.Results.Logic.ScientismScopeBoundary.PointwiseToExistential.Solution
 public import TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Barrier.Solution
 public import TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Controls.Solution
 public import TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Coverage.Solution
