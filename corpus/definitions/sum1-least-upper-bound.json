@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SUM1-LEAST-UPPER-BOUND",
+  "term": "least-upper-bound Sum1",
+  "lean_declaration": "TruthCore.Mereology.SumOneComplementation.UnrestrictedSumOne",
+  "basis": "stipulative",
+  "definition": "Sum1 is the existing Mathlib IsLUB family u: every selected member is part of u and u is part of every upper bound. UnrestrictedSumOne requires such a u for every nonempty Lean Set. Least is stronger than merely minimal; Sum2 no-extra-parts is not included by definition.",
+  "note": "Analyst framework for #1054, attribution deferred. Reuses the existing fixed partial-order domain and common-part Overlap without modal or actual-existence guards. Mathematical witnesses do not establish real-world parthood applicability. See docs/notes/universal-fusion-grounding.md."
+}

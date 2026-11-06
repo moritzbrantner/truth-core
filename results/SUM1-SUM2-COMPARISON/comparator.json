@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Mereology.SumOneComplementation.Challenge",
+  "solution_module": "TruthCore.Results.Mereology.SumOneComplementation.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Mereology.SumOneComplementation.sumOneComparison"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

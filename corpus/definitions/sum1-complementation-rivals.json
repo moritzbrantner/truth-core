@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SUM1-COMPLEMENTATION-RIVALS",
+  "term": "Sum1 and exact-remainder omission controls",
+  "lean_declaration": "TruthCore.Mereology.SumOneComplementation.RivalCertificate",
+  "basis": "stipulative",
+  "definition": "JoinRival has three incomparable atoms a,b,c below one top, and no other strict parts. AtomPair has two incomparable atoms, with equality as parthood on its own distinct type. RivalCertificate jointly states strong supplementation and every nonempty Sum1 in JoinRival, selected top join of a,b but no Sum2 of that pair, failure of Complementation and no null object; AtomPair satisfies Complementation but has neither a Sum1 nor Sum2 of its pair and no null object.",
+  "note": "Analyst framework for #1054, attribution deferred. Reuses the existing fixed partial-order domain and common-part Overlap without modal or actual-existence guards. Mathematical witnesses do not establish real-world parthood applicability. See docs/notes/universal-fusion-grounding.md."
+}
