@@ -8,7 +8,11 @@
   ],
   "kind": "countermodel",
   "outcome": "succeeded",
-  "summary": "Constructed a bounded three-way mechanism contrast after #974: active AND with two input-state slots, the identical active AND with one pair-valued slot, and an idle background lookup. All three match at neutral settings. Reused Hume's existing Changes predicate: with the other input held true, an ideal override changes the first two targets but not the idle target; the active models coincide for every public override. The packing bijection and a simple four-pair capacity test reveal why one graph slot can hide two degrees of freedom while one Boolean bit cannot. RootParity is reused from #974. These are explicit model definitions and proofs subject to hosted Lean/comparator verification; neither causal efficacy in reality nor ultimate metaphysical unity is supplied.",
+  "summary": "Constructed a bounded three-way mechanism contrast after #974: active AND with two input-state slots, the identical active AND with one pair-valued slot, and an idle background lookup. All three match at neutral settings. Reused Hume's existing Changes predicate: with the other input held true, an ideal override changes the first two targets but not the idle target; the active models coincide for every public override. The packing bijection and a simple four-pair capacity test reveal why one graph slot can hide two degrees of freedom while one Boolean bit cannot. RootParity is reused from #974. These are explicit model definitions and proofs subject to hosted Lean/comparator verification; neither causal efficacy in reality nor ultimate metaphysical unity is supplied. Follow-up COUNTERPOSSIBLE-CONSERVATIVITY retains the no-latent-source-intervention boundary and interprets only PUBLIC contributor a off in explicitly separate repair contexts, comparing conservative conditional evaluations; see docs/notes/counterpossible-conservativity.md. It does not establish source-nonexistence or actual counterpossible truth.",
   "blocker": "Philosophical bridge OPEN: show, using independently motivated evidence and admissible interventions or another defensible notion of production, why one-source ontic unity rather than two independently packaged state bits would explain a joint effect. No root premise discharged; neither #735 adequacy nor #752 productive indispensability alone resolves the source-count question.",
-  "evidence": ["MECHANISM-INTERVENTION-PARITY", "COMPLETE-RESPONSE-PARITY"]
+  "evidence": [
+    "MECHANISM-INTERVENTION-PARITY",
+    "COMPLETE-RESPONSE-PARITY",
+    "COUNTERPOSSIBLE-CONSERVATIVITY"
+  ]
 }

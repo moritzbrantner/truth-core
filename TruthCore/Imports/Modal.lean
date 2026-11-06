@@ -10,6 +10,7 @@ import TruthCore.Modal.ChoiceContext
 import TruthCore.Modal.Convergence
 import TruthCore.Modal.ConvergenceCertificate
 import TruthCore.Modal.CounterpartNecessity
+import TruthCore.Modal.CounterpossibleConservativity
 import TruthCore.Modal.Cube
 import TruthCore.Modal.DResearch.Language
 import TruthCore.Modal.DResearch.Laws

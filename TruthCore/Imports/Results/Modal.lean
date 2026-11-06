@@ -14,6 +14,7 @@ import TruthCore.Results.Modal.ChoiceContext.Solution
 import TruthCore.Results.Modal.Convergence.Solution
 import TruthCore.Results.Modal.ConvergenceCertificate.Solution
 import TruthCore.Results.Modal.CounterpartNecessityControls.Solution
+import TruthCore.Results.Modal.CounterpossibleConservativity.Solution
 import TruthCore.Results.Modal.DResearch.Language.Solution
 import TruthCore.Results.Modal.DResearch.Laws.Solution
 import TruthCore.Results.Modal.DResearch.Scopes.Solution

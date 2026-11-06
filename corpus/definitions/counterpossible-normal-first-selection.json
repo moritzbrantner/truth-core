@@ -1,0 +1,8 @@
+{
+  "id": "DEF-COUNTERPOSSIBLE-NORMAL-FIRST-SELECTION",
+  "term": "normal-first all-witness selection with originating-context repair",
+  "definition": "Selected origin A selects each normal u satisfying A. A repair u is selected only if no normal witness of A exists, u=origin and A holds at that repair. SelectedConditional universally evaluates its consequent on those selected states. The selector has success and no repairs for normal-witness antecedents; it is not claimed centered, nearest-world, serial, or a full Lewis/Stalnaker semantics. NormalConditional evaluates all normal A witnesses and is not material implication at the origin.",
+  "basis": "stipulative",
+  "note": "Analyst bounded comparison for #1085; attribution deferred. The old no-latent-source-intervention boundary is retained. No actual counterpossible truth, metaphysical possibility, causation, grounding or root discharge is asserted. See docs/notes/counterpossible-conservativity.md.",
+  "lean_declaration": "TruthCore.Modal.CounterpossibleConservativity.Selected"
+}
