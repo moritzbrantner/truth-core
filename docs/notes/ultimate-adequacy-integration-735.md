@@ -18,6 +18,46 @@ not explanation. Stronger singular-ground routes have substantial conditional
 reach; their open dependence, unification and application premises cannot be
 discarded merely because a thinner rival survives.
 
+### Owner causal-power contract audit (P2-B/P3, 2026-11-06)
+
+The required interpretation separates abstract and concrete individuals, gives
+causal exercise a **thin** power interpretation, and requires power bearers and
+actual causers to be concrete. Thin power is not underived power, materiality,
+independent sufficiency or necessary existence. Abstract items have no outgoing
+causal efficacy; they can still figure in noncausal explanation. These conditions
+must be stated rather than inferred from model labels. No old Challenge or
+certificate is changed by this audit.
+
+| Existing interpretation | What is actually represented | Contract coverage and limitation |
+| --- | --- | --- |
+| #1072 `ActualFusionProfile.model` | Possible objects and actual parthood; `Causes := False`; no concrete/abstract/power predicates. | No encoded abstract causer violates the contract, but its causal clauses are vacuous. A compatible classification can be added; no causal powers or causal explanation are recovered. The no-NE fusion control is not an adequate concrete causal rival. |
+| #1079 `GroundingIdentityProfile` general schema | Independent source concreteness; grounding edges copied into `Causes`; no power/abstract classification. | The hypotheses do **not** require every copied causer to be concrete. Some allowed sources therefore violate the required interpretation if copied edges are actual causes. The theorem remains true for its stated schema, but universal contract compliance is not established. |
+| #1079 named `exampleSource` | Nonempty root-child edge, `concrete := True`, copied actual endpoints; rigid and doubled profiles preserve these data. | A thin-power/abstract-empty extension is compatible with the explicit example, not encoded or certified by the old comparison. Assigning every candidate concrete is no independent evidence of real causal or existential applicability. |
+| #735 `single` and `plural` | Explicit exercise, identity bearer map, causal-group graph, LocalPower and inductive Supply; modal/reason profiles use concrete=True. | Extendable with thin power on exercise bearers and no abstract bearers. This is meaningful exercise structure, but the abstract/power dictionary and real application are absent from the certificate. Single/plural Supply parity remains narrow; neither classification nor Supply establishes explanatory adequacy. |
+| #735 `branch` and `chain` | Same exercise signature and causal graph; branch has least source without target Supply, chain lacks inductive Supply. | Equally extendable under that classification. Their failure of inductive Supply is not absence of thin causal power and does not by itself refute concrete causal holism. |
+| #750 `ground`, `plural`, `chain`, `law` | Admitted fact reasons and existence facts; `Causes := False`; no concrete/abstract/power predicates. | Contract-compatible only vacuously on the causal side, with classification left unrepresented. In particular `law` is a REASON, not an abstract productive cause; its reason coverage supplies no recovered causal power. These are not certificates of competing causal explanations. |
+| #750 `tokenExpand` and `idle` | Token expansion retains the input causal relation; on the compared arenas it remains empty. `idle` has a necessary bearer and no explanatory reasons. | Token coverage does not create power, causal efficacy or independently adequate explanation. Idle necessary existence still fails the reason-coverage test; this is no verdict on a richer necessary-source account. |
+| Selected actual-fusion NE route | `ActualFusionNecessaryBeingFromPopulation.necessaryBeing` consumes its declared actual fusion, causal availability, endpoint and nonoverlap policies. | It derives NE conditionally, but contains no automatic abstract/concrete/thin-power dictionary. The owner contract is an additional interpretation obligation, not a replacement for causal availability, fusion or the required route premises. |
+
+`Supply` and `LocalPower` are not the new thin-power predicate. The existing
+`Exercise.ontic` projects occurring events and exercised-group edges; the
+identity bearer map in #735 simplifies representation but does not establish
+that a real bearer exercises causal power or that the edge explains its bare
+existence. The graph correspondence is certified; its intended ontic causal
+interpretation still needs the explicit exercise/power/bearer dictionary.
+
+No inspected fixed named model was shown to contain an abstract productive
+causer. That is weaker than checking the full contract: several have no causal
+structure and others lack the classifications. A concrete field or collective
+with actual causal powers is not excluded by these gaps. Its real bearer,
+realization and support relations still need assessment; concreteness alone
+establishes neither an underived contribution nor well-founded existential
+ancestry. The retained theorem truths establish exactly their stated formal
+comparisons. Any reading of these controls as already verified physical accounts
+or complete alternative causal explanations is withdrawn. No premise/root
+closure changes; the existing stronger routes remain conditional on their
+explicit applicability commitments.
+
 ### Keep the two fixed-target comparisons separate
 
 - **#750 fact-level comparison:** worlds `Nat`, actual world `0`, and the same
