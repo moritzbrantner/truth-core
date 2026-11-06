@@ -50,11 +50,13 @@ theorem needsAuthorityCaseBridge :
       CouncilConfessesGodReading C.toNamingPractice god ∧
       NaturalReasonIsSharedReading C.toPractice ∧ UseCaseBridgeReading C ∧
       OrdinaryUseAffirmsNaturalKnowabilityReading C ∧ OrdinaryUseConfessesGodReading C god ∧
-      (InternalGrammarReading C.toPractice ∧ CutOffReading C.toPractice) := by
+      (InternalGrammarReading C.toPractice ∧ CutOffReading C.toPractice) ∧
+      (InternalGrammarReading C.toPractice ∧ GrammarFixesReferenceReading C.toNamingPractice god ∧
+        GodNamesNoBeingReading C.toNamingPractice god) := by
   sorry
 
 /-- The use-case bridge is needed: in the use cell, with every other premise,
-the cut-off pair holds when the bridge fails. -/
+both bundles hold when the bridge fails. -/
 theorem needsUseCaseBridge :
     ∃ (C : CasedPractice Unit) (god : C.Name),
       ¬ C.AuthoritiesFixGrammar ∧ C.UseFixesGrammar ∧ ¬ UseCaseBridgeReading C ∧
@@ -62,7 +64,9 @@ theorem needsUseCaseBridge :
       CouncilConfessesGodReading C.toNamingPractice god ∧
       NaturalReasonIsSharedReading C.toPractice ∧ AuthorityCaseBridgeReading C ∧
       OrdinaryUseAffirmsNaturalKnowabilityReading C ∧ OrdinaryUseConfessesGodReading C god ∧
-      (InternalGrammarReading C.toPractice ∧ CutOffReading C.toPractice) := by
+      (InternalGrammarReading C.toPractice ∧ CutOffReading C.toPractice) ∧
+      (InternalGrammarReading C.toPractice ∧ GrammarFixesReferenceReading C.toNamingPractice god ∧
+        GodNamesNoBeingReading C.toNamingPractice god) := by
   sorry
 
 end TruthCore.Results.Alternatives.FideismGrammarCases

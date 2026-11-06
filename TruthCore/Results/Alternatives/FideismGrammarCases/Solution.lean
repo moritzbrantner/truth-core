@@ -74,15 +74,17 @@ theorem needsAuthorityCaseBridge :
       CouncilConfessesGodReading C.toNamingPractice god ∧
       NaturalReasonIsSharedReading C.toPractice ∧ UseCaseBridgeReading C ∧
       OrdinaryUseAffirmsNaturalKnowabilityReading C ∧ OrdinaryUseConfessesGodReading C god ∧
-      (InternalGrammarReading C.toPractice ∧ CutOffReading C.toPractice) := by
+      (InternalGrammarReading C.toPractice ∧ CutOffReading C.toPractice) ∧
+      (InternalGrammarReading C.toPractice ∧ GrammarFixesReferenceReading C.toNamingPractice god ∧
+        GodNamesNoBeingReading C.toNamingPractice god) := by
   refine ⟨{ Move := Unit, Correct := fun _ => False, OwnStandard := fun _ => False, Defined := fun _ => True, AffirmsNaturalKnowability := fun _ => True, AnswersToSharedReason := fun _ => True, Name := Unit, RefersTo := fun _ _ => False, ConfessesReferent := fun _ _ => True, AuthoritiesFixGrammar := True, UseFixesGrammar := False, InOrdinaryUse := fun _ => True }, (), trivial, ?_, ⟨(), trivial, trivial⟩, ⟨(), trivial, trivial⟩,
     fun _ _ => trivial, fun hU => hU.elim, ⟨(), trivial, trivial⟩, ⟨(), trivial, trivial⟩,
-    ⟨fun _ h => h, fun _ _ h => h⟩⟩
+    ⟨fun _ h => h, fun _ _ h => h⟩, ⟨fun _ h => h, fun _ h _ => h.elim, fun _ h => h⟩⟩
   intro hBridge
   exact hBridge trivial () trivial
 
 /-- The use-case bridge is needed: in the use cell, with every other premise,
-the cut-off pair holds when the bridge fails. -/
+both bundles hold when the bridge fails. -/
 theorem needsUseCaseBridge :
     ∃ (C : CasedPractice Unit) (god : C.Name),
       ¬ C.AuthoritiesFixGrammar ∧ C.UseFixesGrammar ∧ ¬ UseCaseBridgeReading C ∧
@@ -90,10 +92,12 @@ theorem needsUseCaseBridge :
       CouncilConfessesGodReading C.toNamingPractice god ∧
       NaturalReasonIsSharedReading C.toPractice ∧ AuthorityCaseBridgeReading C ∧
       OrdinaryUseAffirmsNaturalKnowabilityReading C ∧ OrdinaryUseConfessesGodReading C god ∧
-      (InternalGrammarReading C.toPractice ∧ CutOffReading C.toPractice) := by
+      (InternalGrammarReading C.toPractice ∧ CutOffReading C.toPractice) ∧
+      (InternalGrammarReading C.toPractice ∧ GrammarFixesReferenceReading C.toNamingPractice god ∧
+        GodNamesNoBeingReading C.toNamingPractice god) := by
   refine ⟨{ Move := Unit, Correct := fun _ => False, OwnStandard := fun _ => False, Defined := fun _ => True, AffirmsNaturalKnowability := fun _ => True, AnswersToSharedReason := fun _ => True, Name := Unit, RefersTo := fun _ _ => False, ConfessesReferent := fun _ _ => True, AuthoritiesFixGrammar := False, UseFixesGrammar := True, InOrdinaryUse := fun _ => True }, (), id, trivial, ?_, ⟨(), trivial, trivial⟩, ⟨(), trivial, trivial⟩,
     fun _ _ => trivial, fun hA => hA.elim, ⟨(), trivial, trivial⟩, ⟨(), trivial, trivial⟩,
-    ⟨fun _ h => h, fun _ _ h => h⟩⟩
+    ⟨fun _ h => h, fun _ _ h => h⟩, ⟨fun _ h => h, fun _ h _ => h.elim, fun _ h => h⟩⟩
   intro hBridge
   exact hBridge trivial () trivial
 
