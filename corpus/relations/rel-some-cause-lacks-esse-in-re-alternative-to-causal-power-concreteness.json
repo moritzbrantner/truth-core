@@ -1,0 +1,9 @@
+{
+  "id": "REL-SOME-CAUSE-LACKS-ESSE-IN-RE-ALTERNATIVE-TO-CAUSAL-POWER-CONCRETENESS",
+  "subject_kind": "statement",
+  "subject_id": "STMT-SOME-CAUSE-LACKS-ESSE-IN-RE",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS",
+  "note": "The full-strength denial of the owner principle in the adopted esse sense."
+}

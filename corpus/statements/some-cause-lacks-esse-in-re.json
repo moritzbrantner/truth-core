@@ -1,0 +1,12 @@
+{
+  "id": "STMT-SOME-CAUSE-LACKS-ESSE-IN-RE",
+  "paraphrase": "Generic denial of the owner principle in the adopted sense: at some world something that has causal power, or that efficiently causes something, has no esse in re (is abstract). Any view on which an abstract object does causal work holds this at full strength.",
+  "definition_ids": [
+    "DEF-ABSTRACT-NO-ESSE-IN-RE",
+    "DEF-CONCRETE-ESSE-IN-RE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA"
+  ],
+  "note": "Analyst formulation of the strongest denial, not attributed. It is the contradictory of the owner principle at some world."
+}

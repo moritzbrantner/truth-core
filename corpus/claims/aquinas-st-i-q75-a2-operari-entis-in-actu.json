@@ -1,0 +1,15 @@
+{
+  "id": "AQUINAS-ST-I-Q75-A2-OPERARI-ENTIS-IN-ACTU",
+  "statement_id": "STMT-AQUINAS-OPERATION-ONLY-OF-BEING-IN-ACT",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.75 a.2 co. [31460]: Non enim est operari nisi entis in actu, unde eo modo aliquid operatur, quo est. Propter quod non dicimus quod calor calefacit, sed calidum",
+  "interpretation": "'Non enim est operari nisi entis in actu, unde eo modo aliquid operatur, quo est': operating belongs only to a being in act, and a thing operates in the way it is. The example 'non dicimus quod calor calefacit, sed calidum' treats a hot thing's heating something, i.e. causing another, as operating. Read here: whatever causes something is in act in some respect (the weakest reading of 'ens in actu'). Not read: that the agent is in act in the respect of being (that is ST I q.4 a.1 ad 3, a separate premise), the subsistence clause of the preceding sentence (AQUINAS-ST-I-Q75-A2-OPERATION-REQUIRES-SUBSISTENCE), or the 'eo modo ... quo est' correspondence of modes.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ACT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT"
+  ],
+  "attribution": "The passage states that operating, of which a hot thing's heating is the example, belongs only to a being in act, which is the premise."
+}

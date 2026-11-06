@@ -178,3 +178,33 @@ No root premise is discharged, no frozen Challenge changes, and no metaphysical
 truth is established by this intake. It adds an explicit open framework input and the required intended-interpretation
 contract;
 existing root-route premises are unchanged.
+
+## Adopted sense, floor approval and derivation (#1103, 2026-11-06)
+
+- **Adopted sense of concrete.** The owner fixed "concrete" as having esse in re
+  (`DEF-CONCRETE-ESSE-IN-RE`), with abstract as its contradictory
+  (`DEF-ABSTRACT-NO-ESSE-IN-RE`); see `docs/notes/concrete-abstract.md`.
+  Concreteness is therefore no longer a free label for intended
+  interpretations. It is not defined through causal power, so the principle
+  stays substantive.
+- **Floor item.** The owner approved the WEAK version as a floor item
+  ([decision](https://github.com/moritzbrantner/truth-core/issues/1103#issuecomment-6683616439)):
+  efficient causes (`Ontic.Causes`) and bearers of causal power are concrete.
+  The strong version, covering causes in every sense (formal, final, exemplar,
+  explanatory), is not approved. Four rivals are recorded at full strength,
+  each `alternative_to` the item:
+  - the generic denial `STMT-SOME-CAUSE-LACKS-ESSE-IN-RE`;
+  - productive Platonic Forms;
+  - Lewis's events as sets;
+  - a causal reading of Baker's cicadas.
+  This approval supersedes the "OPEN" status described above.
+- **Derivation.** `CAUSAL-POWER-CONCRETENESS-FROM-OPERARI` derives the item
+  from operari sequitur esse (ST I q.75 a.2 co.; q.25 a.1 co.) and
+  `STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING` (q.4 a.1 ad 3).
+  - It is not circular: causation and power are primitives, and concreteness
+    is defined from `InAct`/`esse`.
+  - It is not a transcription, but it is short: each clause composes one
+    reading with the act-to-being reading.
+  - All three premises are open. The act-to-being reading is a stated premise
+    on the cheapest root route. The derivation therefore does not establish
+    the item; the owner approval does.

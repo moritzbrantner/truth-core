@@ -1,0 +1,16 @@
+{
+  "id": "AQUINAS-ST-I-Q25-A1-ACTIVE-PRINCIPLE-IN-ACT",
+  "statement_id": "STMT-AQUINAS-ACTIVE-POWER-ONLY-IN-ACT",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.25 a.1 co. [29495]: unumquodque, secundum quod est actu et perfectum, secundum hoc est principium activum alicuius ... potentia activa est principium agendi in aliud",
+  "interpretation": "'Manifestum est enim quod unumquodque, secundum quod est actu et perfectum, secundum hoc est principium activum alicuius' and 'potentia activa est principium agendi in aliud': a thing is an active principle according as it is in act, and active power is the principle of acting on another. Read here: whatever has active power, the ability to act on (cause) another, is in act in some respect. Causal power in the owner's sense (ability to cause, possibly unexercised) is read as this active power. Not read: that being in act suffices for active power, any degree or measure of power, or the article's conclusion about God.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT"
+  ],
+  "attribution": "The passage states that each thing is an active principle, active power being the principle of acting on another, according as it is in act, which is the premise."
+}

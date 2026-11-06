@@ -1,0 +1,9 @@
+{
+  "id": "REL-MATHEMATICAL-FACTS-ARE-CAUSALLY-RELEVANT-ALTERNATIVE-TO-CAUSAL-POWER-CONCRETENESS",
+  "subject_kind": "statement",
+  "subject_id": "STMT-MATHEMATICAL-FACTS-ARE-CAUSALLY-RELEVANT",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS",
+  "note": "Causal reading of Baker's cicada case; the explanatory reading is compatible with the weak version."
+}

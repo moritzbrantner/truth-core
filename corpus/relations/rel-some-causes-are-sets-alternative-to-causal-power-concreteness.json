@@ -1,0 +1,9 @@
+{
+  "id": "REL-SOME-CAUSES-ARE-SETS-ALTERNATIVE-TO-CAUSAL-POWER-CONCRETENESS",
+  "subject_kind": "statement",
+  "subject_id": "STMT-SOME-CAUSES-ARE-SETS",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS",
+  "note": "Lewis's events-as-sets, reported by SEP §3.2: if events are sets and sets are abstract, abstract things cause."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "STMT-SOME-CAUSES-ARE-SETS",
+  "paraphrase": "Some causes are sets: ordinary physical events, the paradigm causes, are set-theoretic constructions, as on David Lewis's account an event is an ordered pair of a spacetime region and a set of such regions. With sets abstract (the anchor {2}), some abstract things cause.",
+  "definition_ids": [
+    "DEF-ABSTRACT-NO-ESSE-IN-RE",
+    "DEF-CONCRETE-ABSTRACT-ANCHORS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA"
+  ],
+  "note": "Lewis's account is reported in the pinned SEP 'Abstract Objects' §3.2 (claim SEP-ABSTRACT-OBJECTS-32-LEWIS-EVENTS-ARE-SETS); Lewis 1986b has no pinned witness. The rival needs the bridge that impure sets are abstract in the adopted sense; the SEP itself notes that these sets may exist where their members do."
+}
