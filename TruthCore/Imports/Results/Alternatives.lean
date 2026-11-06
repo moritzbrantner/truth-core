@@ -37,6 +37,12 @@ public import TruthCore.Results.Alternatives.NameApplicationTransfer.Models.Solu
 public import TruthCore.Results.Alternatives.NameApplicationTransfer.PureActNaming.Solution
 public import TruthCore.Results.Alternatives.NameApplicationTransfer.ReducedNaming.Solution
 public import TruthCore.Results.Alternatives.NameApplicationTransfer.Strength.Solution
+public import TruthCore.Results.Alternatives.NaturalReasonHorizon.Coverage.Solution
+public import TruthCore.Results.Alternatives.NaturalReasonHorizon.Mixed.Solution
+public import TruthCore.Results.Alternatives.NaturalReasonHorizon.Models.Solution
+public import TruthCore.Results.Alternatives.NaturalReasonHorizon.Private.Solution
+public import TruthCore.Results.Alternatives.NaturalReasonHorizon.Projection.Solution
+public import TruthCore.Results.Alternatives.NaturalReasonHorizon.Witness.Solution
 public import TruthCore.Results.Alternatives.NightActualizationCore.Solution
 public import TruthCore.Results.Alternatives.NightActualizationFork.Solution
 public import TruthCore.Results.Alternatives.OpiningMotionRivalCoverage.Controls.Solution

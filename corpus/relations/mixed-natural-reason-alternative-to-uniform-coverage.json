@@ -1,0 +1,9 @@
+{
+  "id": "REL-MIXED-NATURAL-REASON-ALTERNATIVE-TO-UNIFORM-COVERAGE",
+  "subject_kind": "statement",
+  "subject_id": "STMT-NATURAL-REASON-IS-MIXED",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-NATURAL-REASON-NAMED-UNIFORM-PROFILES-COVER",
+  "note": "Actual shared and nonshared natural-knowability move witnesses contradict both universal profiles, so mixed behavior opposes named uniform coverage. This is a structural standard-profile fork, not a list of all philosophical theories."
+}
