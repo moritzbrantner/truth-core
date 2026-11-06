@@ -65,6 +65,7 @@ import TruthCore.Results.Causality.GreatestDegreeRootRoute.Solution
 import TruthCore.Results.Causality.GrimReaperFiniteTests.Solution
 import TruthCore.Results.Causality.GrimReaperImpossible.Solution
 import TruthCore.Results.Causality.GroundingAllowsRegress.Solution
+import TruthCore.Results.Causality.GroundingIdentityProfile.Solution
 import TruthCore.Results.Causality.GroundingYieldsRegress.Solution
 import TruthCore.Results.Causality.HeadlessCausalAncestry.Solution
 import TruthCore.Results.Causality.IndexedSignalProvenance.Solution
