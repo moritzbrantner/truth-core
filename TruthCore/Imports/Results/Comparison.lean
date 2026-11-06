@@ -43,6 +43,8 @@ public import TruthCore.Results.Comparison.QuasiRealism.MinimalismCollapsesRobus
 public import TruthCore.Results.Comparison.QuasiRealism.SharedDataDoNotChooseOrder.Solution
 public import TruthCore.Results.Comparison.Teleonomy.BiologicalNonlivingScope.Solution
 public import TruthCore.Results.Comparison.Teleonomy.ChanceIntentionDichotomy.Solution
+public import TruthCore.Results.Comparison.Teleonomy.DirectorRivalBoundary.Controls.Solution
+public import TruthCore.Results.Comparison.Teleonomy.DirectorRivalBoundary.ExactRival.Solution
 public import TruthCore.Results.Comparison.Teleonomy.FeedbackCoverage.Solution
 public import TruthCore.Results.Comparison.Teleonomy.FragmentConsistent.Solution
 public import TruthCore.Results.Comparison.Teleonomy.GovernedMechanisms.Solution

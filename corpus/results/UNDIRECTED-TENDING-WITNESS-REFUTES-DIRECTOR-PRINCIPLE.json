@@ -1,0 +1,10 @@
+{
+  "id": "UNDIRECTED-TENDING-WITNESS-REFUTES-DIRECTOR-PRINCIPLE",
+  "argument_id": "UNDIRECTED-TENDING-WITNESS-REFUTES-DIRECTOR-PRINCIPLE",
+  "challenge_module": "TruthCore.Results.Comparison.Teleonomy.DirectorRivalBoundary.ExactRival.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.Teleonomy.DirectorRivalBoundary.ExactRival.Solution",
+  "theorem": "TruthCore.Results.Comparison.Teleonomy.DirectorRivalBoundary.ExactRival.exactRival",
+  "comparator_config": "results/UNDIRECTED-TENDING-WITNESS-REFUTES-DIRECTOR-PRINCIPLE/comparator.json",
+  "status": "solution-present",
+  "description": "Specialize the existing universal director principle at the explicit noncognitive tending witness and contradict its absence of a director. Same predicates and end are retained. This rejects no mechanism, source profile or intended reality interpretation."
+}

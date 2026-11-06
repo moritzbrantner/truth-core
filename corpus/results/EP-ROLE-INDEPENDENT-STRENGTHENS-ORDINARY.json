@@ -1,0 +1,11 @@
+{
+  "id": "EP-ROLE-INDEPENDENT-STRENGTHENS-ORDINARY",
+  "argument_id": "EP-ROLE-INDEPENDENT-STRENGTHENS-ORDINARY",
+  "challenge_module": "TruthCore.Results.Logic.EpistemicReasonDefinitions.IndependentStrength.Challenge",
+  "solution_module": "TruthCore.Results.Logic.EpistemicReasonDefinitions.IndependentStrength.Solution",
+  "theorem": "TruthCore.Results.Logic.EpistemicReasonDefinitions.IndependentStrength.independentStrengthensOrdinary",
+  "comparator_config": "results/EP-ROLE-INDEPENDENT-STRENGTHENS-ORDINARY/comparator.json",
+  "status": "solution-present",
+  "description": "Logical strength transcription: Forget the universal force conjunct of an existing preference-independent reason to retain its ordinary-role witness. This registers a strength order, not an argument that either existential is actually instantiated.",
+  "transcription": "instantiation"
+}

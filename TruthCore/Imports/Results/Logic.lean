@@ -12,6 +12,12 @@ public import TruthCore.Results.Logic.CorrectionCriterion.Solution
 public import TruthCore.Results.Logic.EpistemicAccuracy.Solution
 public import TruthCore.Results.Logic.EpistemicAccuracy.Statewise.Solution
 public import TruthCore.Results.Logic.EpistemicNihilismRetorsion.Solution
+public import TruthCore.Results.Logic.EpistemicReasonDefinitions.Boundary.Solution
+public import TruthCore.Results.Logic.EpistemicReasonDefinitions.DefinitionFork.Solution
+public import TruthCore.Results.Logic.EpistemicReasonDefinitions.IndependentFromThin.Solution
+public import TruthCore.Results.Logic.EpistemicReasonDefinitions.IndependentStrength.Solution
+public import TruthCore.Results.Logic.EpistemicReasonDefinitions.NamedElimination.Solution
+public import TruthCore.Results.Logic.EpistemicReasonDefinitions.OrdinaryFromThin.Solution
 public import TruthCore.Results.Logic.ExcludedMiddleIffDne.Solution
 public import TruthCore.Results.Logic.ExcludedMiddleIrrefutable.Solution
 public import TruthCore.Results.Logic.ExcludedMiddleNotDeniable.Solution
@@ -26,6 +32,8 @@ public import TruthCore.Results.Logic.KnowledgeAdmissibility.Solution
 public import TruthCore.Results.Logic.KnowledgeRetorsion.Solution
 public import TruthCore.Results.Logic.LimitAdmission.Solution
 public import TruthCore.Results.Logic.MaximumOrderSchema.Solution
+public import TruthCore.Results.Logic.MetaethicsTruthAptRivalBoundary.Controls.Solution
+public import TruthCore.Results.Logic.MetaethicsTruthAptRivalBoundary.ExactRival.Solution
 public import TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.BridgeOmission.Solution
 public import TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.Controls.Solution
 public import TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.Coverage.Solution

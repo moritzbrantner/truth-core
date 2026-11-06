@@ -1,0 +1,14 @@
+{
+  "id": "STMT-SELECTED-UNION-COMMUNICATES-SOUL-ACT-TO-BODY",
+  "paraphrase": "OPEN communication input: if the selected union holds, the soul communicates the selected act to the SAME bodily recipient in the SAME state. The identity of that act with the soul esse is a separate premise, and communication is not identified with canonical reception.",
+  "lean_declaration": "TruthCore.Causality.EsseReceptionDefinitionFork.UnitedCommunication",
+  "definition_ids": [
+    "DEF-UNITED-ESSE-RECEPTION-INTERPRETATION-PROFILE",
+    "DEF-ESSE-RECEIVED-IN",
+    "DEF-ESSENCE-THOMISTIC-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSE-RECEPTION",
+    "DISAMB-ESSENCE"
+  ]
+}

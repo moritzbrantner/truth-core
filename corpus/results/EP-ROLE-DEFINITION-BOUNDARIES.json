@@ -1,0 +1,10 @@
+{
+  "id": "EP-ROLE-DEFINITION-BOUNDARIES",
+  "argument_id": "EP-ROLE-DEFINITION-BOUNDARIES",
+  "challenge_module": "TruthCore.Results.Logic.EpistemicReasonDefinitions.Boundary.Challenge",
+  "solution_module": "TruthCore.Results.Logic.EpistemicReasonDefinitions.Boundary.Solution",
+  "theorem": "TruthCore.Results.Logic.EpistemicReasonDefinitions.Boundary.boundary",
+  "comparator_config": "results/EP-ROLE-DEFINITION-BOUNDARIES/comparator.json",
+  "status": "solution-present",
+  "description": "Finite structured controls: role favoring can be fallible and fail to produce belief; goal-relative force can exist at the actual preference without preference-independent force; bare production/reward need not yield an ordinary-role reason; all four calibrations can coexist; a genuine remaining profile and missing-presentation control expose the exact coverage/representation burdens. No actual normative instance is established."
+}

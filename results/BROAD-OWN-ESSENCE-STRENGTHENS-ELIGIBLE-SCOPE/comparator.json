@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.ScopeStrength.Challenge",
+  "solution_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.ScopeStrength.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.EsseReceptionDefinitions.ScopeStrength.scopeStrength"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

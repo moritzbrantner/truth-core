@@ -1,0 +1,21 @@
+{
+  "id": "UNITED-RECEPTION-DEFEATS-BROAD-OWN-ESSENCE",
+  "premise_statement_ids": [
+    "STMT-SELECTED-BODY-RECEIVES-SELECTED-SOUL-ESSE",
+    "STMT-SELECTED-BODILY-RECIPIENT-IS-NOT-SOUL-ESSENCE"
+  ],
+  "conclusion_statement_id": "STMT-ESSE-RECEIVED-IN-OWN-ESSENCE-FAILS",
+  "inference_ids": [
+    "INF-UNITED-RECEPTION-DEFEATS-BROAD-OWN-ESSENCE"
+  ],
+  "meaning": "A concrete canonical reception tuple with recipient distinct from that bearer essence contradicts the original universal own-essence principle. Conditional counterexample, not unconditional source or metaphysical refutation.",
+  "definition_ids": [
+    "DEF-UNITED-ESSE-RECEPTION-INTERPRETATION-PROFILE",
+    "DEF-ESSE-RECEIVED-IN",
+    "DEF-ESSENCE-THOMISTIC-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSE-RECEPTION",
+    "DISAMB-ESSENCE"
+  ]
+}

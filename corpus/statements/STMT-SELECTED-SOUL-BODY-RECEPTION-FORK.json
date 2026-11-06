@@ -1,0 +1,14 @@
+{
+  "id": "STMT-SELECTED-SOUL-BODY-RECEPTION-FORK",
+  "paraphrase": "For every supplied selected role/state profile, canonical reception holds at the selected tuple or it does not. Explicit excluded-middle coverage; source interpretation is not selected by the fork.",
+  "lean_declaration": "TruthCore.Causality.EsseReceptionDefinitionFork.SelectedFork",
+  "definition_ids": [
+    "DEF-UNITED-ESSE-RECEPTION-INTERPRETATION-PROFILE",
+    "DEF-ESSE-RECEIVED-IN",
+    "DEF-ESSENCE-THOMISTIC-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSE-RECEPTION",
+    "DISAMB-ESSENCE"
+  ]
+}

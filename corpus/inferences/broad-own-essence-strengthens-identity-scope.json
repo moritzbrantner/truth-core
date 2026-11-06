@@ -1,0 +1,11 @@
+{
+  "id": "INF-BROAD-OWN-ESSENCE-STRENGTHENS-IDENTITY-SCOPE",
+  "input_statement_ids": [
+    "STMT-ESSE-RECEIVED-IN-OWN-ESSENCE"
+  ],
+  "output_statement_id": "STMT-IDENTITY-BEARERS-RECEIVE-ESSE-ONLY-IN-OWN-ESSENCE",
+  "rule": "constructive-proof",
+  "meaning": "Exact sole-premise strength registration: the original broad own-essence law implies its restriction to esse=essence bearers; a nonempty identity-domain strictness control rejects the converse.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

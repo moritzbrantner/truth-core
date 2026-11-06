@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Comparison.Teleonomy.DirectorRivalBoundary.Controls.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.Teleonomy.DirectorRivalBoundary.Controls.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Comparison.Teleonomy.DirectorRivalBoundary.Controls.controls"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

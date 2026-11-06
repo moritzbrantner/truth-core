@@ -1,0 +1,13 @@
+{
+  "id": "INF-EP-ROLE-INDEPENDENT-FROM-THIN",
+  "input_statement_ids": [
+    "STMT-THERE-ARE-EPISTEMIC-REASONS",
+    "STMT-EPISTEMIC-REASONS-HAVE-CONSIDERATION-PRESENTATION",
+    "STMT-EPISTEMIC-REASON-PREFERENCE-INDEPENDENT-DEFINITION"
+  ],
+  "output_statement_id": "STMT-THERE-ARE-PREFERENCE-INDEPENDENT-EPISTEMIC-REASONS",
+  "rule": "constructive-proof",
+  "meaning": "Calibration transcription: thin F6 plus consideration presentation and the stronger preference-independent definition supplies an independent-force witness. The two additional premises remain open; F6 approval alone supplies neither.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
