@@ -1,0 +1,14 @@
+{
+  "id": "STMT-NATURAL-KNOWABILITY-MOVE-EXISTS",
+  "paraphrase": "Some move affirms natural knowability of God. No conciliar definition, practice endorsement, correctness or actual successful knowledge is included; this weak witness suffices for comparing uniform sharedness and nonsharedness.",
+  "lean_declaration": "TruthCore.Alternatives.NaturalReasonHorizon.NaturalKnowabilityMoveExists",
+  "definition_ids": [
+    "DEF-NATURAL-REASON-PROFILE-COMPARISON",
+    "DEF-NATURAL-REASON-SHARED",
+    "DEF-NATURAL-REASON-PRACTICE-INTERNAL",
+    "DEF-CONCILIAR-DEFINITION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NATURAL-REASON"
+  ]
+}

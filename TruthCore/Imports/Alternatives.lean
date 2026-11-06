@@ -11,6 +11,7 @@ public import TruthCore.Alternatives.Inertia
 public import TruthCore.Alternatives.Intentionality943
 public import TruthCore.Alternatives.McTaggart
 public import TruthCore.Alternatives.MindPhysicalism
+public import TruthCore.Alternatives.NaturalReasonHorizon
 public import TruthCore.Alternatives.NightActualizationFork
 public import TruthCore.Alternatives.NightCosmogony
 public import TruthCore.Alternatives.PhysicalCompleteness

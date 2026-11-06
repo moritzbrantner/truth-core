@@ -14,6 +14,12 @@ public import TruthCore.Results.Alternatives.McTaggartDefeatedByChange.Solution
 public import TruthCore.Results.Alternatives.McTaggartUnrealityOfTimeRefuted.Solution
 public import TruthCore.Results.Alternatives.MegarianAbolishesMotion.Solution
 public import TruthCore.Results.Alternatives.MegarianCapacityCore.Solution
+public import TruthCore.Results.Alternatives.NaturalReasonHorizon.Coverage.Solution
+public import TruthCore.Results.Alternatives.NaturalReasonHorizon.Mixed.Solution
+public import TruthCore.Results.Alternatives.NaturalReasonHorizon.Models.Solution
+public import TruthCore.Results.Alternatives.NaturalReasonHorizon.Private.Solution
+public import TruthCore.Results.Alternatives.NaturalReasonHorizon.Projection.Solution
+public import TruthCore.Results.Alternatives.NaturalReasonHorizon.Witness.Solution
 public import TruthCore.Results.Alternatives.NightActualizationCore.Solution
 public import TruthCore.Results.Alternatives.NightActualizationFork.Solution
 public import TruthCore.Results.Alternatives.PerSeCausalLoopImpossible.Solution

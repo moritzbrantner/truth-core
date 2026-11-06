@@ -1,0 +1,14 @@
+{
+  "id": "STMT-NATURAL-REASON-NEVER-SHARED",
+  "paraphrase": "Every move affirming natural knowability lacks the practice AnswersToSharedReason property. This is the explicit all-nonshared rival profile, not a historical or purely descriptive claim about the audience or users.",
+  "lean_declaration": "TruthCore.Alternatives.NaturalReasonHorizon.NaturalReasonNeverShared",
+  "definition_ids": [
+    "DEF-NATURAL-REASON-PROFILE-COMPARISON",
+    "DEF-NATURAL-REASON-SHARED",
+    "DEF-NATURAL-REASON-PRACTICE-INTERNAL",
+    "DEF-CONCILIAR-DEFINITION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NATURAL-REASON"
+  ]
+}

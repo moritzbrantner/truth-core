@@ -19,5 +19,8 @@
   ],
   "disambiguation_ids": [
     "DISAMB-NATURAL-REASON"
-  ]
+  ],
+  "strong_version_needed": {
+    "STMT-DEI-FILIUS-DEFINES-NATURAL-KNOWABILITY-OF-GOD": "The defined component is needed to apply DefinitionIsOwnStandardReading, then InternalGrammarReading; an arbitrary natural-knowability move need not be endorsed or correct."
+  }
 }

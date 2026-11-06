@@ -29,5 +29,8 @@
   "disambiguation_ids": [
     "DISAMB-NATURAL-REASON",
     "DISAMB-NAME-APPLICATION"
-  ]
+  ],
+  "strong_version_needed": {
+    "STMT-DEI-FILIUS-DEFINES-NATURAL-KNOWABILITY-OF-GOD": "The authority branch uses the Defined component to derive own-standard endorsement and correctness. The uniform case theorem therefore needs the stronger defined-move premise, not merely an arbitrary natural move."
+  }
 }

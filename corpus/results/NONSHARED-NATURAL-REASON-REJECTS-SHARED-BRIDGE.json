@@ -1,0 +1,10 @@
+{
+  "id": "NONSHARED-NATURAL-REASON-REJECTS-SHARED-BRIDGE",
+  "argument_id": "NONSHARED-NATURAL-REASON-REJECTS-SHARED-BRIDGE",
+  "challenge_module": "TruthCore.Results.Alternatives.NaturalReasonHorizon.Private.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.NaturalReasonHorizon.Private.Solution",
+  "theorem": "TruthCore.Results.Alternatives.NaturalReasonHorizon.Private.nonsharedRejectsShared",
+  "comparator_config": "results/NONSHARED-NATURAL-REASON-REJECTS-SHARED-BRIDGE/comparator.json",
+  "status": "solution-present",
+  "description": "Use the actual natural-knowability move: sharedness would follow by the old shared bridge and is denied by the all-nonshared premise. Both uniform readings can hold vacuously without such a witness; no descriptive horizon is refuted."
+}

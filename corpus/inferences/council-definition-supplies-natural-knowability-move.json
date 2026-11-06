@@ -1,0 +1,11 @@
+{
+  "id": "INF-COUNCIL-DEFINITION-SUPPLIES-NATURAL-KNOWABILITY-MOVE",
+  "input_statement_ids": [
+    "STMT-DEI-FILIUS-DEFINES-NATURAL-KNOWABILITY-OF-GOD"
+  ],
+  "output_statement_id": "STMT-NATURAL-KNOWABILITY-MOVE-EXISTS",
+  "rule": "constructive-proof",
+  "meaning": "Project the actual natural-knowability move from the existing conciliar-definition premise. Assembly transcription; the Defined property is not needed for this weaker witness.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
