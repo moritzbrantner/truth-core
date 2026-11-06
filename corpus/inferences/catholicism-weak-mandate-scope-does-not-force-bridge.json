@@ -1,0 +1,9 @@
+{
+  "id": "INF-CATHOLICISM-WEAK-MANDATE-SCOPE-DOES-NOT-FORCE-BRIDGE",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-CATHOLICISM-WEAK-MANDATE-SCOPE-DOES-NOT-FORCE-BRIDGE",
+  "rule": "constructive-model",
+  "meaning": "Reuse FoundingScope.twoSocietySig and twoSocietyAgency, restrict only divine teaching-founding to the Catholic society, verify all four weakened inputs and actual antecedents, and instantiate the universal bridge at the second founded visible society. No actual-world rival/refutation edge follows.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,10 @@
+{
+  "id": "OBJECTIVE-TRUTH-DEFINITION-CONTROLS",
+  "argument_id": "OBJECTIVE-TRUTH-DEFINITION-CONTROLS",
+  "challenge_module": "TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.Controls.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.Controls.Solution",
+  "theorem": "TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.Controls.controls",
+  "comparator_config": "results/OBJECTIVE-TRUTH-DEFINITION-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Checked finite truth tables retain all advertised false-stable, true-variable, remaining-extension and nontrivial-overlap properties in the exported type. No account is declared philosophically correct or source-attributed by these operational controls."
+}

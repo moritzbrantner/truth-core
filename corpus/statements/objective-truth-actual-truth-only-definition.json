@@ -1,0 +1,12 @@
+{
+  "id": "STMT-OBJECTIVE-TRUTH-ACTUAL-TRUTH-ONLY-DEFINITION",
+  "paraphrase": "Analyst competing definition proposition: the objective classifier coextends with actual truth, without requiring attitude-profile stability.",
+  "lean_declaration": "TruthCore.Logic.ObjectiveTruthDefinitionFork.ActualTruthOnlyDefinition",
+  "definition_ids": [
+    "DEF-OBJECTIVE-TRUTH-PROFILE-FRAME",
+    "DEF-OBJECTIVE-TRUTH-ACTUAL-ONLY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-OBJECTIVE-TRUTH-CALIBRATIONS"
+  ]
+}

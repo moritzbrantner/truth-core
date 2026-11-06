@@ -54,6 +54,12 @@ public import TruthCore.Results.Logic.MetaethicsTruthAptRivalBoundary.Controls.S
 public import TruthCore.Results.Logic.MetaethicsTruthAptRivalBoundary.ExactRival.Solution
 public import TruthCore.Results.Logic.NaturalTheologySemanticScope.Controls.Solution
 public import TruthCore.Results.Logic.NaturalTheologySemanticScope.Projection.Solution
+public import TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.BridgeOmission.Solution
+public import TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.Controls.Solution
+public import TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.Coverage.Solution
+public import TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.ExternalBridge.Solution
+public import TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.NamedElimination.Solution
+public import TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.ProfileToTruth.Solution
 public import TruthCore.Results.Logic.PerformedDenial.EmptyControl.Solution
 public import TruthCore.Results.Logic.PerformedDenial.NoAccurateDenial.Solution
 public import TruthCore.Results.Logic.PerformedDenial.StaticControl.Solution

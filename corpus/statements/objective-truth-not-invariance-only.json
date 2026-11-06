@@ -1,0 +1,12 @@
+{
+  "id": "STMT-OBJECTIVE-TRUTH-NOT-INVARIANCE-ONLY",
+  "paraphrase": "The current objective classifier is not coextensive with stable truth status alone in the supplied profile. An open branch-elimination input, not a proved rejection of a school.",
+  "lean_declaration": "TruthCore.Logic.ObjectiveTruthDefinitionFork.NotInvariantOnlyDefinition",
+  "definition_ids": [
+    "DEF-OBJECTIVE-TRUTH-PROFILE-FRAME",
+    "DEF-OBJECTIVE-TRUTH-INVARIANCE-ONLY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-OBJECTIVE-TRUTH-CALIBRATIONS"
+  ]
+}
