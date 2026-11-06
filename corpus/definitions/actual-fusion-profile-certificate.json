@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ACTUAL-FUSION-PROFILE-CERTIFICATE",
+  "term": "joint full-fusion modal actuality certificate",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Mereology.ActualFusionProfile.Certificate",
+  "definition": "Certificate conjoins the existing AtomicCertificate on Body with universal modal accessibility, actual population of every world, possible existence of every candidate, ActualPartsExistAt at every world, actual Sum2 closure for every nonempty all-actual family, absence of NecessaryAt for every candidate at every standpoint, absence of NecessaryBeing, a greatest actual object at each world, no object actual in all worlds, and a fixed-global-whole actuality bridge counterexample.",
+  "note": "Analyst formulation #1071, attribution deferred. The same model and candidate identity occur in every conjunct. Universal access supplies an S5 frame. Quantifier scope \u2200w\u2203u does not imply \u2203u\u2200w. Atomicity is inherited, not atomisticity. No actual causal availability, PSR, God identification or root premise is established."
+}

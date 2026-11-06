@@ -1,0 +1,19 @@
+{
+  "id": "MATERIAL-CONSTITUTION-SCOPE",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-MATERIAL-CONSTITUTION-SCOPE",
+  "inference_ids": [
+    "INF-MATERIAL-CONSTITUTION-SCOPE"
+  ],
+  "meaning": "In one stipulated two-time, one-token history, distinct statue/lump bearer labels share a nonempty initial material slice but have divergent later existence. Nonempty sets of time/token occurrences represent exactly the same existence and token membership at every represented time; their initial slices coincide, while their entire histories are distinct and overlap. They do not have all the same mereological parts. Extensionality holds for entire occurrence sets, not one time slice. For any existence and material predicates, initial nonempty constituent coincidence and divergent later existence exclude identity from slice coincidence. The certificate also composes the existing process-turnover boundary and transports the Theseus finite-chain identity theorem to any bearer predicate. These finite interpretations and conditional consequences do not establish physical or metaphysical possibility, identity principles, or temporal parthood of enduring bearers. One-object/sortal-relative rivals may reject divergent numerical persistence. Analyst reconstruction, attribution deferred. No root-premise change.",
+  "definition_ids": [
+    "DEF-MATERIAL-SLICE-COINCIDENCE",
+    "DEF-MATERIAL-TEMPORAL-WHOLE",
+    "DEF-MATERIAL-HISTORY-CORRESPONDENCE",
+    "DEF-PROCESS-TURNOVER-REPRESENTATION",
+    "DEF-THESEUS-OCCURRENCE-BEARER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MATERIAL-EXTENSION-TEMPORAL-SCOPE"
+  ]
+}

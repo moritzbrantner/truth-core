@@ -1,0 +1,9 @@
+{
+  "id": "INF-REFERENCE-ANCHOR-BOUNDARY",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-REFERENCE-ANCHOR-BOUNDARY",
+  "rule": "first-order-isomorphism-invariance-and-definite-description-analysis",
+  "meaning": "Compose Mathlib StrongHomClass.realize_sentence with inducedStructureEquiv for Boolean negation, transport all premise truth values, compute the name and fixed-anchor controls, and apply the existing Russell Description.checks uniqueness direction.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

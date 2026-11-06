@@ -24,6 +24,7 @@ import TruthCore.Results.Logic.PerformedDenial.EmptyControl.Solution
 import TruthCore.Results.Logic.PerformedDenial.NoAccurateDenial.Solution
 import TruthCore.Results.Logic.PerformedDenial.StaticControl.Solution
 import TruthCore.Results.Logic.QuantifierShiftInvalid.Solution
+import TruthCore.Results.Logic.ReferenceAnchor.Solution
 import TruthCore.Results.Logic.ReflectiveCoherence.Boundary.Solution
 import TruthCore.Results.Logic.ReflectiveCoherence.Limits.Solution
 import TruthCore.Results.Logic.ReflectiveCoherence.TruthDirected.Solution

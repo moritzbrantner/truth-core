@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Mereology.MaterialConstitutionScope.Challenge",
+  "solution_module": "TruthCore.Results.Mereology.MaterialConstitutionScope.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Mereology.MaterialConstitutionScope.certificate"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

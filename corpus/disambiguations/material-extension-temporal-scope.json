@@ -1,0 +1,10 @@
+{
+  "id": "DISAMB-MATERIAL-EXTENSION-TEMPORAL-SCOPE",
+  "term": "same material extension",
+  "sense_definition_ids": [
+    "DEF-MATERIAL-SLICE-COINCIDENCE",
+    "DEF-MATERIAL-TEMPORAL-WHOLE",
+    "DEF-MATERIAL-HISTORY-CORRESPONDENCE"
+  ],
+  "resolution": "Exact constituent coincidence is indexed by one time; global extensional equality compares entire time/token occurrence sets. A correspondence preserves all represented observations without proving ontological identity. Material tokens are not all mereological parts: self-parts distinguish the overlapping temporal wholes. Enduring numerical persistence is a separate framework commitment, disputed by one-object and sortal-relative rivals. No metaphysical possibility, causal relation, substantial unity or root conclusion is inferred."
+}

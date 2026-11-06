@@ -20,6 +20,7 @@ import TruthCore.Logic.LimitAdmission
 import TruthCore.Logic.MaximumOrder
 import TruthCore.Logic.PerformedDenial
 import TruthCore.Logic.QuantifierShift
+import TruthCore.Logic.ReferenceAnchor
 import TruthCore.Logic.ReflectiveCoherence
 import TruthCore.Logic.Regress
 import TruthCore.Logic.RegressDomains

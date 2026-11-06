@@ -15,3 +15,13 @@ A bounded search on 2026-10-28 located Patricia Curd's *A Presocratics Reader*, 
 No root-path premise is discharged or added. The result has no external premises because it quantifies its persistence and representation hypotheses internally and supplies its fixture explicitly. The general helper exposes those assumptions, while the certificate witnesses both surviving choices. Existing soul-unity independence is not reproved or strengthened.
 
 Focused shared-session development diagnostic: workspace HEAD `f2db33e8273b214f158d63e2e3a17094ba181735`, full composed source SHA256 `58004defb6a36bc197bc06a2a3ca829a68377774f64b6a85201f72dc1a9a5d2f`, empty diagnostics. Composition replaces only the new local import, preserving declaration bodies. Final delivered revision still requires CI build, binding, Comparator and NanoDa; interactive diagnostics are not those certificates.
+
+## Material coincidence comparison
+
+[Material constitution scope](material-constitution-scope.md) compares the same
+two-time material history as enduring bearers and as overlapping nonempty
+temporal occurrence wholes. It preserves existence and constituent observations
+at every represented time, while distinguishing slice coincidence from global
+extensionality and equality of all mereological parts. The new certificate
+composes the existing results; physical and persistence applicability remain
+OPEN, and no root premise is discharged.

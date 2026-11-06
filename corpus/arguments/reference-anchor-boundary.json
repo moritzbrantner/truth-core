@@ -1,0 +1,16 @@
+{
+  "id": "REFERENCE-ANCHOR-BOUNDARY",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-REFERENCE-ANCHOR-BOUNDARY",
+  "inference_ids": [
+    "INF-REFERENCE-ANCHOR-BOUNDARY"
+  ],
+  "meaning": "A concrete interpreted first-order counterexample to recovering literal reference from sentence truth alone, plus the explicitly conditional external-anchor recovery law. Root unchanged; actual applicability OPEN; structuralism survives.",
+  "definition_ids": [
+    "DEF-LITERAL-REFERENCE-ON-FIXED-CARRIER",
+    "DEF-REFERENCE-UP-TO-ISOMORPHISM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-LITERAL-AND-STRUCTURAL-REFERENCE"
+  ]
+}
