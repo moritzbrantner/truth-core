@@ -1,0 +1,27 @@
+{
+  "id": "THEOLOGICAL-DOMAIN-DEFINITION-FORK",
+  "argument_id": "THEOLOGICAL-DOMAIN-DEFINITION-FORK",
+  "challenge_module": "TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Coverage.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Coverage.Solution",
+  "theorem": "TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Coverage.domainFork",
+  "comparator_config": "results/THEOLOGICAL-DOMAIN-DEFINITION-FORK/comparator.json",
+  "status": "solution-present",
+  "description": "Logical coverage transcription under explicit excluded middle: one named domain calibration or a genuine remaining extension. Named philosophical exhaustion remains open.",
+  "transcription": "instantiation",
+  "case_split": {
+    "target_statement_id": "STMT-EMPIRICAL-PROOF-NAMED-DOMAIN-COVERAGE",
+    "cases": [
+      {
+        "label": "one named scope calibration",
+        "lean_declaration": "TruthCore.Logic.ScopedEmpiricalProofBarrier.NamedDomainCoverage",
+        "statement_id": "STMT-EMPIRICAL-PROOF-NAMED-DOMAIN-COVERAGE"
+      },
+      {
+        "label": "remaining extension on this table",
+        "lean_declaration": "TruthCore.Logic.ScopedEmpiricalProofBarrier.RemainingDomain",
+        "statement_id": "STMT-EMPIRICAL-PROOF-REMAINING-DOMAIN"
+      }
+    ],
+    "survival_result_id": "SCOPED-EMPIRICAL-PROOF-CONTROLS"
+  }
+}
