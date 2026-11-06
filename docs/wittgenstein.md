@@ -389,8 +389,12 @@ to bridge (b), with its gap:
   evil, and the gentiles have the natural law. q.94 a.4: the common principles
   of reason are equally known to all.
 
-Rom 1 and Augustine are also recorded as attacks on the theological-horizon
-reply: those Rom 1 speaks of are idolaters, and the Platonists are pagans.
+No attack on the theological-horizon reply is recorded from these texts. That
+those Rom 1 speaks of are idolaters, or that the Platonists are pagans, puts
+them outside Christianity, not outside every theological horizon (the
+Platonists sought the supreme God). Using them against the reply would need a
+further bridge: that their knowledge was independent of any practice-internal
+theological standard.
 
 **Bridge (b) is still not closed.** No text states it in the bridge's form.
 Several speak of practical reason (Rom 2, ST q.91, q.94), or of God's showing
