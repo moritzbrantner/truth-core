@@ -21,6 +21,14 @@ would otherwise share one aggregator.
 
 `TruthCore/Imports/` is reserved for generated aggregators; do not put
 hand-written modules there.
+
+An aggregator is itself a Lean module (`module` and `public import` lines) once
+every module of its area is one (owner decision on #986). The root is a module
+once every aggregator is one. Lake then rebuilds neither on a proof-only edit
+below them: a module importer depends only on the public interface it imports
+(docs/notes/lean-module-system.md). An area with an ordinary file keeps an
+ordinary aggregator, since a module cannot import an ordinary file. Challenges
+are not imported here, so they may stay ordinary files.
 """
 
 from __future__ import annotations
@@ -29,6 +37,8 @@ import argparse
 import difflib
 import sys
 from pathlib import Path
+
+from convert_to_module import is_module_text
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -74,16 +84,19 @@ def area_of(relative: Path, areas: tuple[str, ...] = AREAS) -> str:
     return "/".join(directories[:depth])
 
 
-def discover(root: Path, areas: tuple[str, ...] = AREAS) -> dict[str, list[str]]:
-    """Map each area to its sorted module names."""
+def discover(root: Path, areas: tuple[str, ...] = AREAS) -> dict[str, tuple[list[str], bool]]:
+    """Map each area to its sorted module names and whether every one is a Lean module."""
     base = root / "TruthCore"
     grouped: dict[str, list[str]] = {}
+    converted: dict[str, bool] = {}
     for path in base.rglob("*.lean"):
         relative = path.relative_to(base)
         if path.name == "Challenge.lean" or relative.parts[0] == AGGREGATOR_DIR:
             continue
-        grouped.setdefault(area_of(relative, areas), []).append(module_name(relative))
-    return {area: sorted(modules) for area, modules in grouped.items()}
+        area = area_of(relative, areas)
+        grouped.setdefault(area, []).append(module_name(relative))
+        converted[area] = converted.get(area, True) and is_module_text(path.read_text(encoding="utf-8"))
+    return {area: (sorted(modules), converted[area]) for area, modules in grouped.items()}
 
 
 def aggregator_path(area: str) -> str:
@@ -94,15 +107,21 @@ def aggregator_module(area: str) -> str:
     return module_name(Path(AGGREGATOR_DIR, area + ".lean"))
 
 
-def render(lines: list[str]) -> str:
+def render(lines: list[str], module: bool = False) -> str:
+    """An aggregator: ordinary `import`s, or a Lean module with `public import`s."""
+    if module:
+        return HEADER + "module\n\n" + "".join(f"public import {line}\n" for line in lines)
     return HEADER + "".join(f"import {line}\n" for line in lines)
 
 
 def expected_files(root: Path, areas: tuple[str, ...] = AREAS) -> dict[str, str]:
     """Repository-relative path -> expected content of every generated file."""
     grouped = discover(root, areas)
-    files = {aggregator_path(area): render(modules) for area, modules in grouped.items()}
-    files["TruthCore.lean"] = render(sorted(aggregator_module(area) for area in grouped))
+    files = {aggregator_path(area): render(modules, converted) for area, (modules, converted) in grouped.items()}
+    files["TruthCore.lean"] = render(
+        sorted(aggregator_module(area) for area in grouped),
+        bool(grouped) and all(converted for _, converted in grouped.values()),
+    )
     return files
 
 
