@@ -1,0 +1,32 @@
+{
+  "id": "ARRANGEMENT-SELECTION-FACTIVITY-TRILEMMA",
+  "argument_id": "ARRANGEMENT-SELECTION-FACTIVITY-TRILEMMA",
+  "challenge_module": "TruthCore.Results.Explanation.SelectionCoverageBoundary.Coverage.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.SelectionCoverageBoundary.Coverage.Solution",
+  "theorem": "TruthCore.Results.Explanation.SelectionCoverageBoundary.Coverage.coverage",
+  "comparator_config": "results/ARRANGEMENT-SELECTION-FACTIVITY-TRILEMMA/comparator.json",
+  "status": "solution-present",
+  "description": "Checked structural coverage complete selection OR truthful nonselection OR accepted false candidate. Negative cases may overlap; no historical theory roster is exhausted.",
+  "transcription": "instantiation",
+  "case_split": {
+    "target_statement_id": "STMT-COMPLETE-CHAIN-EXPLANATION-SELECTS-ARRANGEMENT",
+    "cases": [
+      {
+        "label": "complete entailing selection",
+        "statement_id": "STMT-COMPLETE-CHAIN-EXPLANATION-SELECTS-ARRANGEMENT",
+        "lean_declaration": "TruthCore.Explanation.OrderingCardinality.CompleteRequiresSelection"
+      },
+      {
+        "label": "accepted truthful nonselection",
+        "statement_id": "STMT-COMPLETE-CHAIN-EXPLANATION-ALLOWS-UNSELECTED",
+        "lean_declaration": "TruthCore.Explanation.OrderingCardinality.AcceptsUnselected"
+      },
+      {
+        "label": "accepted false candidate",
+        "statement_id": "STMT-ARRANGEMENT-EXPLANATION-JUDGMENT-ACCEPTS-FALSE-CANDIDATE",
+        "lean_declaration": "TruthCore.Explanation.SelectionCoverageBoundary.AcceptedFalse"
+      }
+    ],
+    "survival_result_id": "ARRANGEMENT-SELECTION-FACTIVITY-BOUNDARIES"
+  }
+}

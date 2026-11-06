@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ACCEPTED-EXPLANATION-TRUTHFULNESS-POLICY",
+  "term": "factivity of an accepted complete-explanation judgment",
+  "definition": "For the existing Arrangement arena and independently supplied adequate judgment, AcceptedAreTrue a adequate means every accepted candidate p holds at designated a. This is a substantive OPEN constraint on the judgment, not a definition of truth or actual explanatory adequacy. It is weaker than the existing demand that every accepted candidate select a uniquely. AcceptedFalse is its concrete countercase, while the existing truthful nonselection rival requires p a plus p at a distinct b. Generic judgments can be mistaken; the old explicit false-only control is reused rather than renamed an adequate false explanation. No causal direction, productive explanation, epistemic warrant or applicability to real histories follows.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.SelectionCoverageBoundary.AcceptedAreTrue",
+  "note": "Logic-first scope comparison; no new attribution. Existing mathematical arrangement labels are not automatically real worlds. No transitivity, sufficient causal role or actual empirical truth is introduced by an acceptance predicate. See docs/notes/selection-factivity-coverage.md."
+}

@@ -48,6 +48,13 @@ public import TruthCore.Results.Explanation.PSRScope.Solution
 public import TruthCore.Results.Explanation.PSRSelfApplication.Solution
 public import TruthCore.Results.Explanation.PSRStrength.Solution
 public import TruthCore.Results.Explanation.PathRelocation.Solution
+public import TruthCore.Results.Explanation.SelectionCoverageBoundary.Controls.Solution
+public import TruthCore.Results.Explanation.SelectionCoverageBoundary.Coverage.Solution
+public import TruthCore.Results.Explanation.SelectionCoverageBoundary.FalseFactivityFailure.Solution
+public import TruthCore.Results.Explanation.SelectionCoverageBoundary.FalseSelectionFailure.Solution
+public import TruthCore.Results.Explanation.SelectionCoverageBoundary.GuardedCoverage.Solution
+public import TruthCore.Results.Explanation.SelectionCoverageBoundary.RivalSelectionFailure.Solution
+public import TruthCore.Results.Explanation.SelectionCoverageBoundary.SelectionStrength.Solution
 public import TruthCore.Results.Explanation.StoppingPoints.Solution
 public import TruthCore.Results.Explanation.TargetCopyExpansion.Solution
 public import TruthCore.Results.Explanation.TruthmakerTheories.Restricted.Solution

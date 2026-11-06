@@ -1,0 +1,14 @@
+{
+  "id": "STMT-ACCEPTED-ARRANGEMENT-EXPLANATIONS-ARE-TRUE",
+  "paraphrase": "OPEN factivity policy: every candidate proposition accepted by the supplied complete-explanation judgment is true at the SAME designated labeled arrangement. This is separate from selecting one arrangement, actual explanatory adequacy, justification, causal production or real-world truth.",
+  "lean_declaration": "TruthCore.Explanation.SelectionCoverageBoundary.AcceptedAreTrue",
+  "definition_ids": [
+    "DEF-ACCEPTED-EXPLANATION-TRUTHFULNESS-POLICY",
+    "DEF-LABELED-CHAIN-ARRANGEMENT",
+    "DEF-ARRANGEMENT-ENTAILING-SELECTION",
+    "DEF-HISTORY-SELECTION-INFORMATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-LABELED-ORDER-EXPLANATION"
+  ]
+}

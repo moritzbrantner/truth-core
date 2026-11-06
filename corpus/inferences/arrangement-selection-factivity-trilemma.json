@@ -1,0 +1,11 @@
+{
+  "id": "INF-ARRANGEMENT-SELECTION-FACTIVITY-TRILEMMA",
+  "input_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "output_statement_id": "STMT-ARRANGEMENT-SELECTION-TRUTHFUL-NONSELECTION-FALSE-ACCEPTANCE-FORK",
+  "rule": "constructive-proof",
+  "meaning": "Checked structural coverage complete selection OR truthful nonselection OR accepted false candidate. Negative cases may overlap; no historical theory roster is exhausted.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

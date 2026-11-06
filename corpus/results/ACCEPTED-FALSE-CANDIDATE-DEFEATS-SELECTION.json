@@ -1,0 +1,10 @@
+{
+  "id": "ACCEPTED-FALSE-CANDIDATE-DEFEATS-SELECTION",
+  "argument_id": "ACCEPTED-FALSE-CANDIDATE-DEFEATS-SELECTION",
+  "challenge_module": "TruthCore.Results.Explanation.SelectionCoverageBoundary.FalseSelectionFailure.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.SelectionCoverageBoundary.FalseSelectionFailure.Solution",
+  "theorem": "TruthCore.Results.Explanation.SelectionCoverageBoundary.FalseSelectionFailure.falseSelectionFailure",
+  "comparator_config": "results/ACCEPTED-FALSE-CANDIDATE-DEFEATS-SELECTION/comparator.json",
+  "status": "solution-present",
+  "description": "An accepted false candidate contradicts the actual-truth conjunct of the old selection requirement, even when the truthful nonselection rival is absent."
+}
