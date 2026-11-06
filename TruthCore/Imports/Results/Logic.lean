@@ -12,6 +12,8 @@ public import TruthCore.Results.Logic.CorrectionCriterion.Solution
 public import TruthCore.Results.Logic.EpistemicAccuracy.Solution
 public import TruthCore.Results.Logic.EpistemicAccuracy.Statewise.Solution
 public import TruthCore.Results.Logic.EpistemicNihilismRetorsion.Solution
+public import TruthCore.Results.Logic.ExcludedMiddleAssertionBoundary.Controls.Solution
+public import TruthCore.Results.Logic.ExcludedMiddleAssertionBoundary.ExactPolicyRival.Solution
 public import TruthCore.Results.Logic.ExcludedMiddleIffDne.Solution
 public import TruthCore.Results.Logic.ExcludedMiddleIrrefutable.Solution
 public import TruthCore.Results.Logic.ExcludedMiddleNotDeniable.Solution

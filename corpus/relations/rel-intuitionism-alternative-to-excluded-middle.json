@@ -1,1 +1,9 @@
-{"id":"REL-INTUITIONISM-ALTERNATIVE-TO-EXCLUDED-MIDDLE","subject_kind":"statement","subject_id":"STMT-EXCLUDED-MIDDLE-WITHHELD-INTUITIONISM","predicate":"alternative_to","object_kind":"statement","object_id":"STMT-EXCLUDED-MIDDLE"}
+{
+  "id": "REL-INTUITIONISM-ALTERNATIVE-TO-EXCLUDED-MIDDLE",
+  "subject_kind": "statement",
+  "subject_id": "STMT-EXCLUDED-MIDDLE-WITHHELD-INTUITIONISM",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-EXCLUDED-MIDDLE",
+  "note": "Definition audit: this existing raw serious intuitionist rival is a proof/assertion-policy package, not logical negation of object-level EM. WITHHOLDING-IMPLIES-NOT-UNIVERSAL-ASSERTION now records its exact negative assertion-policy consequence. EXCLUDED-MIDDLE-ASSERTION-BOUNDARY-CONTROLS shows coexistence with explicit object-level EM in the marker subset, not a complete intuitionist semantics. Existing endpoint is retained pending coverage-authority migration, because deleting it leaves only an already-refuted weaker instance-denial and could manufacture an alternatives_refuted path to general EM. This note does not constrain that engine path; root coordination remains necessary."
+}

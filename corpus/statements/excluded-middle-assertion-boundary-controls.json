@@ -1,0 +1,13 @@
+{
+  "id": "STMT-EXCLUDED-MIDDLE-ASSERTION-BOUNDARY-CONTROLS",
+  "paraphrase": "Under explicit object-level excluded middle, a no-assertions marker structure satisfies the existing withholding package alongside object-level excluded middle; a mixed marker structure refutes full withholding while universal assertion still fails. These structures are not complete epistemic or intended intuitionist-logic models.",
+  "lean_declaration": "TruthCore.Logic.ExcludedMiddleAssertionBoundary.Controls",
+  "definition_ids": [
+    "DEF-EXCLUDED-MIDDLE-LOGICAL-HOLDING",
+    "DEF-EXCLUDED-MIDDLE-ASSERTION-POLICY",
+    "DEF-EXCLUDED-MIDDLE-WITHHOLDING-POLICY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXCLUDED-MIDDLE-HOLDING-AND-ASSERTION"
+  ]
+}

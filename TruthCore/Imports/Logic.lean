@@ -13,6 +13,7 @@ public import TruthCore.Logic.CorrectionCriterion
 public import TruthCore.Logic.EpistemicAccuracy
 public import TruthCore.Logic.EpistemicReasons
 public import TruthCore.Logic.ExcludedMiddle
+public import TruthCore.Logic.ExcludedMiddleAssertionBoundary
 public import TruthCore.Logic.FallibleCorrection
 public import TruthCore.Logic.FiniteValidationLogic
 public import TruthCore.Logic.FitchKnowability
