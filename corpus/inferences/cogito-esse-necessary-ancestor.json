@@ -1,0 +1,17 @@
+{
+  "id": "INF-COGITO-ESSE-NECESSARY-ANCESTOR",
+  "input_statement_ids": [
+    "STMT-COGITO-THOUGHT-OCCURS",
+    "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT",
+    "STMT-COGITO-BEARER-EXISTS-AT-WORLD",
+    "STMT-COGITO-THINKER-GROUNDING-ACCESSIBLE",
+    "STMT-COGITO-THINKER-ANCESTRY-GROUNDED",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-EXISTING-IN-ACT-AT"
+  ],
+  "output_statement_id": "STMT-COGITO-NECESSARY-CONCRETE-ANCESTOR",
+  "rule": "constructive-proof",
+  "meaning": "Compose the imported necessaryConcreteAncestor with the derived C bridge in the adopted esse profile. Occurrence, bearer existence, thinker-local accessibility, ancestry-grounding and excluded middle remain premises; necessity remains accessibility-relative. The SAME ontic and grounding relations are used throughout. No claim that any premise or actual necessary individual is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

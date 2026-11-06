@@ -1,0 +1,10 @@
+{
+  "id": "COGITO-ESSE-ANCESTRY-FORK",
+  "argument_id": "COGITO-ESSE-ANCESTRY-FORK",
+  "challenge_module": "TruthCore.Results.Logic.CogitoEsse.Challenge",
+  "solution_module": "TruthCore.Results.Logic.CogitoEsse.Solution",
+  "theorem": "TruthCore.Results.Logic.CogitoEsse.ancestryRootFork",
+  "comparator_config": "results/COGITO-ESSE-ANCESTRY-FORK/comparator.json",
+  "status": "solution-present",
+  "description": "Specialize the imported ancestryRootFork to the same ontic and grounding relations with concrete := HasEsseInRe InAct esse, deriving its C premise from E and ExistingInActAt. The thinker-local accessibility and explicit excluded middle premises are unchanged. The conclusion is the same conditional fork in this adopted profile, not an assertion that its necessary horn obtains."
+}

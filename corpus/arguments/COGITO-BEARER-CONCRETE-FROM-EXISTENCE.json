@@ -1,0 +1,29 @@
+{
+  "id": "COGITO-BEARER-CONCRETE-FROM-EXISTENCE",
+  "premise_statement_ids": [
+    "STMT-COGITO-BEARER-EXISTS-AT-WORLD",
+    "STMT-EXISTING-IN-ACT-AT"
+  ],
+  "conclusion_statement_id": "STMT-COGITO-BEARER-IS-CONCRETE",
+  "inference_ids": [
+    "INF-COGITO-BEARER-CONCRETE-FROM-EXISTENCE"
+  ],
+  "meaning": "In the adopted esse sense of concrete, E and the selected-world existence/esse contract entail C: the bearer exists at w, hence is in act of esse, which is HasEsseInRe. This is a conditional connection, not a new floor approval or an actual-occurrence witness. It says nothing about arbitrary concrete predicates in old frozen Challenges.",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-COGITO-ESSE-PROFILE",
+    "DEF-COGITO-INTELLECTUAL-EXERCISE-IN-ACT",
+    "DEF-COGITO-THINKING-AS-INTELLECTUAL-EXERCISE",
+    "DEF-CONCRETE-ESSE-IN-RE",
+    "DEF-ESSE",
+    "DEF-EXISTING-IN-ACT-AT",
+    "DEF-Q75-OPERATION-ATTRIBUTION",
+    "DEF-THOUGHT-BEARER",
+    "DEF-THOUGHT-OCCURRENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE"
+  ]
+}
