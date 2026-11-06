@@ -1,6 +1,6 @@
 {
   "id": "STMT-RELIGIOUS-SEMANTIC-MODELS",
-  "paraphrase": "Three two-sentence schema controls: local face-value status with an actual matched religious truth difference; the stronger invariant religious profile with a truth difference on an unrelated sentence; and invariance with local failure of the belief-assertion component. These are semantic assignments, not actual context-relative reality or a philosopher interpretation.",
+  "paraphrase": "Three coarse schema controls: local face-value status with a matched religious truth difference; the stronger uniform profile with some sentence truth difference and no matched religious truth difference; and matched invariance with local face-value failure. The second does not export nonreligious status of the varying sentence, and the third does not identify which local clause fails. RELIGIOUS-DETAILED-SEMANTIC-CONTROLS separately exports the stronger advertised distinctions.",
   "lean_declaration": "TruthCore.Alternatives.ReligiousLanguageSemantics.ReligiousSemanticModels",
   "definition_ids": [
     "DEF-RELIGIOUS-CONTENT-AND-DISCOURSE-TRUTH-PROFILE",

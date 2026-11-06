@@ -6,5 +6,5 @@
   "theorem": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.religiousSemanticModels",
   "comparator_config": "results/RELIGIOUS-SEMANTIC-PROFILE-CONTROLS/comparator.json",
   "status": "solution-present",
-  "description": "Local face-value status coexists with a matched religious truth difference. Uniformity on religious content coexists with a difference elsewhere. A separate belief-assertion failure defeats local status. No actual philosophy or relative reality is established."
+  "description": "Three coarse profile controls: local status with matched religious variation; uniform religious profile with some truth variation and no matched religious variation; and invariance with local failure. The certified target does not identify the second difference as nonreligious or the third failure as the belief clause. Stronger detailed controls separately export those properties; no actual philosophical identity or relative reality is claimed."
 }

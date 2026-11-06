@@ -243,7 +243,12 @@ extracted from the unbound reported late-Phillips thesis.
 The checked fork is local-plus-invariant, local-plus-actual-matched-difference,
 or failure of the local characterization. The two local profiles have their own
 explicit open menu-coverage proposition; local failure is the precise further
-option, with belief-role and descriptive-role countermodels. This is structural
+option, with coarser local-failure controls and a separate detailed model target. The
+detailed target explicitly exports matched religious inhabitance, nonreligious
+truth variation, isolated belief/descriptive failures with the other local
+clauses retained, and assigned-content truth/fact coherence. No such property
+is recovered merely from an existential witness hidden behind a weaker type.
+This is structural
 coverage on supplied sentences/content/discourses, not a census of historical
 religious-language accounts or a proof of actual context-relative reality.
 The four controls preserve the independent truth-variation and non-description

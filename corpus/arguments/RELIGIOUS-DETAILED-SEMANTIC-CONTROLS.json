@@ -1,0 +1,17 @@
+{
+  "id": "RELIGIOUS-DETAILED-SEMANTIC-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-RELIGIOUS-DETAILED-SEMANTIC-CONTROLS",
+  "inference_ids": [
+    "INF-RELIGIOUS-DETAILED-SEMANTIC-CONTROLS"
+  ],
+  "meaning": "Four nonempty schema controls explicitly export matched religious content and truth/fact dictionary coherence. They retain local status with matched religious variation, retain religious invariance with an actual nonreligious varying sentence, isolate an actual belief-assertion failure while retaining the other local clauses, and isolate an actual descriptive-role failure while retaining the other local clauses. These stronger properties are in the registered target itself, not hidden incidental properties of concrete witnesses.",
+  "definition_ids": [
+    "DEF-RELIGIOUS-CONTENT-AND-DISCOURSE-TRUTH-PROFILE",
+    "DEF-RELIGIOUS-LOCAL-FACE-VALUE",
+    "DEF-RELIGIOUS-CROSS-DISCOURSE-FACE-VALUE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RELIGIOUS-LOCAL-FACE-VALUE-AND-CROSS-DISCOURSE-UNIFORMITY"
+  ]
+}

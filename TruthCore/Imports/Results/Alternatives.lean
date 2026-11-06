@@ -28,6 +28,7 @@ public import TruthCore.Results.Alternatives.PotencyAnalysisPartition.Solution
 public import TruthCore.Results.Alternatives.ReligiousLanguageSemantics.Coverage.Solution
 public import TruthCore.Results.Alternatives.ReligiousLanguageSemantics.Description.Solution
 public import TruthCore.Results.Alternatives.ReligiousLanguageSemantics.DescriptionModel.Solution
+public import TruthCore.Results.Alternatives.ReligiousLanguageSemantics.DetailedModels.Solution
 public import TruthCore.Results.Alternatives.ReligiousLanguageSemantics.Difference.Solution
 public import TruthCore.Results.Alternatives.ReligiousLanguageSemantics.Local.Solution
 public import TruthCore.Results.Alternatives.ReligiousLanguageSemantics.Models.Solution
