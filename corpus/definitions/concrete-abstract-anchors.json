@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CONCRETE-ABSTRACT-ANCHORS",
+  "term": "paradigm anchors of the concrete/abstract classification",
+  "definition": "Anchors c names two candidates, reasoner and setOfTwo, with c.concrete reasoner and c.abstract setOfTwo. With disjointness this makes neither concrete nor abstract a constant predicate (Anchors.not_constant). The owner requires anchors of every intended interpretation; this declaration states the requirement, and an interface enforces it only where it takes Anchors as a field.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Ontology.ConcreteAbstract.Anchors",
+  "note": "Owner, #1103 (2026-11-06): 'everyone would identify himself or herself as a concrete being and the set containing the number 2 as an abstract concept'. These are fixed paradigm cases, not derived classifications; SEP 'Abstract Objects' §1 likewise lists numbers and classes as clear abstracta and human beings as clear concreta (navigation, no claim). The anchors exclude the all-True and all-False instantiations that made the distinction meaningless (#1103)."
+}

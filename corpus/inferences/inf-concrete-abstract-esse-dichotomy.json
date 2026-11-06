@@ -1,0 +1,11 @@
+{
+  "id": "INF-CONCRETE-ABSTRACT-ESSE-DICHOTOMY",
+  "input_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "output_statement_id": "STMT-ESSE-CONCRETE-ABSTRACT-DICHOTOMY",
+  "rule": "universal-instantiation",
+  "meaning": "For each candidate, instantiate excluded middle at 'x has esse in re' for exhaustiveness; disjointness is a ∧ ¬a → False, which needs no premise. A transcription: the premise is only instantiated.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

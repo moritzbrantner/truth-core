@@ -1,0 +1,7 @@
+{
+  "id": "DEF-ABSTRACT-ABSTRACTION-CRITERION",
+  "term": "abstract as the value of an abstraction function (rival criterion)",
+  "definition": "An object is abstract iff it is the value of an abstraction function: a generating function f with an equivalence relation R such that f(x) = f(y) iff R x y lies in f's nature (the Way of Abstraction, Hale/Wright and its metaphysical transposition via Fine's essence). It is a sibling sense, not the adopted one, and has no Lean declaration: it would need essence and abstraction-function vocabulary the corpus lacks.",
+  "basis": "stipulative",
+  "note": "SEP 'Abstract Objects' §6 (navigation). The SEP notes that this account says nothing about spatial location or causal relations, so it cannot carry the owner's causal principle. Blocker for encoding: an essence ('lies in the nature of') primitive and abstraction-function vocabulary."
+}

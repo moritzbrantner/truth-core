@@ -1,12 +1,18 @@
 {
   "id": "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS",
-  "paraphrase": "OPEN owner-proposed framework commitment: At the selected world w, (1) every candidate individual with causal power at w is concrete, and (2) every individual that causes anything at w is concrete. Concreteness and causal power are independently supplied predicates; power is a capacity that need not be exercised. The direct outgoing-causation clause is retained independently, not inferred through an assumed exercise-to-power interface. With a separately explicit abstract/concrete disjointness policy, these clauses exclude abstract powers and outgoing abstract causation. No materiality, spatial location, concrete-to-power converse, inability to be caused, existential coverage or necessity is included.",
+  "paraphrase": "Owner framework commitment: At the selected world w, (1) every candidate individual with causal power at w is concrete, and (2) every individual that causes anything at w is concrete. 'Concrete' has the adopted sense of #1103 (DEF-CONCRETE-ESSE-IN-RE: having esse in re), which is not defined through causal power; the Lean proposition takes the concreteness predicate as a parameter, and an intended instantiation supplies that sense. Power is a capacity that need not be exercised. The direct outgoing-causation clause is retained independently, not inferred through an assumed exercise-to-power interface. With abstract/concrete disjointness, these clauses exclude abstract powers and outgoing abstract causation. No materiality, spatial location, concrete-to-power converse, inability to be caused, existential coverage, or necessity is included.",
   "lean_declaration": "TruthCore.Causality.CausalPowerConcreteness.OwnerCommitmentAt",
   "definition_ids": [
-    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE"
+    "DEF-ABSTRACT-NO-ESSE-IN-RE",
+    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE",
+    "DEF-CONCRETE-ABSTRACT-ANCHORS",
+    "DEF-CONCRETE-ABSTRACT-CLASSIFICATION",
+    "DEF-CONCRETE-ABSTRACT-EXHAUSTIVE",
+    "DEF-CONCRETE-ESSE-IN-RE"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE",
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA"
   ],
-  "note": "Owner formulation, not a source claim, self-evident premise or established metaphysical truth. The Lean declaration defines the two-clause proposition to be assumed; it does not prove either clause. Disjointness is an explicit separate classification policy, not an assumed complement. See docs/notes/causal-power-concreteness.md. No argument/result or root closure is registered."
+  "note": "Owner formulation, not a source claim or established metaphysical truth. The Lean declaration defines the two-clause proposition; it does not prove either clause. The concreteness sense was fixed by the owner on #1103 (2026-11-06): https://github.com/moritzbrantner/truth-core/issues/1103#issuecomment-6683616439. The proposition does not use exhaustiveness; for the adopted sense exhaustiveness is separately derived from excluded middle (CONCRETE-ABSTRACT-ESSE-DICHOTOMY). See docs/notes/causal-power-concreteness.md and docs/notes/concrete-abstract.md. No argument/result or root closure is registered."
 }

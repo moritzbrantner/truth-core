@@ -1,0 +1,14 @@
+{
+  "id": "STMT-ESSE-CONCRETE-ABSTRACT-DICHOTOMY",
+  "paraphrase": "Under the esse criterion every candidate is concrete (has esse in re) or abstract (lacks esse in re), and none is both: the criterion draws an exact line with no borderline cases. It says nothing about which candidates have esse in re, and nothing about rival criteria of concreteness.",
+  "lean_declaration": "TruthCore.Ontology.ConcreteAbstract.EsseDichotomy",
+  "definition_ids": [
+    "DEF-ABSTRACT-NO-ESSE-IN-RE",
+    "DEF-CONCRETE-ABSTRACT-EXHAUSTIVE",
+    "DEF-CONCRETE-ESSE-IN-RE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA"
+  ],
+  "note": "Owner (#1103, 2026-11-06): 'We have these words in order to draw a line. The same way we have words like dead and alive, inside or outside.' Derived from STMT-EXCLUDED-MIDDLE by CONCRETE-ABSTRACT-ESSE-DICHOTOMY."
+}

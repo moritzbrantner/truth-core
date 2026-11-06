@@ -1,0 +1,15 @@
+{
+  "id": "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+  "term": "concrete and abstract",
+  "sense_definition_ids": [
+    "DEF-ABSTRACT-ABSTRACTION-CRITERION",
+    "DEF-ABSTRACT-FREGE-CRITERION",
+    "DEF-ABSTRACT-NO-ESSE-IN-RE",
+    "DEF-CAUSAL-CAPACITY-CONCRETE",
+    "DEF-CONCRETE-CAUSAL-CRITERION",
+    "DEF-CONCRETE-ESSE-IN-RE",
+    "DEF-CONCRETE-SPATIOTEMPORAL-CRITERION",
+    "DEF-NECESSARY-INDIVIDUAL-CONCRETE"
+  ],
+  "resolution": "The adopted sense (owner, #1103, 2026-11-06) is the esse criterion: concrete = having esse in re (DEF-CONCRETE-ESSE-IN-RE), abstract = its contradictory, having no esse in re (DEF-ABSTRACT-NO-ESSE-IN-RE). The owner excludes borderline cases, so this criterion draws an exact line: disjointness holds by non-contradiction and exhaustiveness by excluded middle (result CONCRETE-ABSTRACT-ESSE-DICHOTOMY). That exact dichotomy is a property of the esse criterion only. The causal, spatiotemporal, Fregean and abstraction criteria are rival senses that need not be exhaustive (SEP 'Abstract Objects' §§3–6 records items they leave unclassified or misclassify), and no statement passes from one of them to the adopted sense without an explicit bridge statement. The causal criterion in particular never defines concreteness. Had it done so, the capacity clause of the owner's causal principle would hold by definition (its activity clause would still need an exercise-to-power bridge); as it is, both clauses stay substantive. DEF-CAUSAL-CAPACITY-CONCRETE is a model-local capacity criterion of one finite test and does not fix the corpus sense. DEF-NECESSARY-INDIVIDUAL-CONCRETE uses a world-indexed supplied predicate, a different, world-varying sense; it is not the world-independent classification of DEF-CONCRETE-ABSTRACT-CLASSIFICATION. Paradigm anchors (DEF-CONCRETE-ABSTRACT-ANCHORS) fix that the reasoner is concrete and the set containing 2 is abstract under every intended interpretation."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CONCRETE-ABSTRACT-EXHAUSTIVE",
+  "term": "exhaustive concrete/abstract classification",
+  "definition": "Exhaustive c means ∀ x, c.concrete x ∨ c.abstract x: every candidate is concrete or abstract. An arbitrary Classification is not required to satisfy it, because the rival criteria need not be exhaustive. For the adopted esse sense it is derived from excluded middle (EsseDichotomy), not assumed.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Ontology.ConcreteAbstract.Exhaustive",
+  "note": "The owner excluded borderline cases for the adopted sense (#1103, 2026-11-06, https://github.com/moritzbrantner/truth-core/issues/1103#issuecomment-6683816810), so no separate strong-version premise is registered: the esse dichotomy is a derived result. For rival criteria the SEP 'Abstract Objects' §3.2 hard cases (Lewis's events as sets, epiphenomenal qualia) show why exhaustiveness is not forced on them."
+}
