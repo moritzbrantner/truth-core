@@ -1,0 +1,15 @@
+{
+  "id": "ABSENT-ONLY-UNIVERSE-CAUSERS-DEFEAT-ACTUALITY-POLICY",
+  "premise_statement_ids": [
+    "STMT-SPACETIME-WHOLE-HAS-ONLY-ABSENT-CANDIDATE-CAUSERS"
+  ],
+  "conclusion_statement_id": "STMT-SELECTED-WHOLE-CAUSER-ACTUALITY-FAILS",
+  "inference_ids": [
+    "INF-ABSENT-ONLY-UNIVERSE-CAUSERS-DEFEAT-ACTUALITY-POLICY"
+  ],
+  "meaning": "An actual candidate edge plus absence of every existing causer contradicts selected-whole-causer actuality. This excludes the remainder when that independently supplied intended policy holds.",
+  "definition_ids": [
+    "DEF-UNIVERSE-CAUSER-ACTUALITY-SCOPE",
+    "DEF-SPATIOTEMPORAL-FRAME"
+  ]
+}

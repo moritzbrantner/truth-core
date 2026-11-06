@@ -1,0 +1,11 @@
+{
+  "id": "INF-ABSENT-ONLY-UNIVERSE-CAUSERS-DEFEAT-ACTUALITY-POLICY",
+  "input_statement_ids": [
+    "STMT-SPACETIME-WHOLE-HAS-ONLY-ABSENT-CANDIDATE-CAUSERS"
+  ],
+  "output_statement_id": "STMT-SELECTED-WHOLE-CAUSER-ACTUALITY-FAILS",
+  "rule": "constructive-proof",
+  "meaning": "An actual candidate edge plus absence of every existing causer contradicts selected-whole-causer actuality. This excludes the remainder when that independently supplied intended policy holds.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
