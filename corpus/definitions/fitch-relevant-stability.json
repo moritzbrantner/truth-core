@@ -1,0 +1,8 @@
+{
+  "id": "DEF-FITCH-RELEVANT-STABILITY",
+  "term": "stability of relevant actual knowledge",
+  "definition": "KnowledgeStable c p is the explicit double-negation-elimination implication for Kp at the selected actual world. It is sufficient to upgrade DoubleNegatedKnowledge to TruthKnown, and does not assume unrestricted excluded middle or any actual knowledge witness. Constructive no-unknown truth and actual positive knowledge are distinguished.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.FitchKnowability.KnowledgeStable",
+  "note": "Analyst formulation for #1053; attribution deferred. Applicability to real knowledge and semantic antirealism remains open. See docs/notes/sep-fitch-knowability-gap-20261106.md."
+}

@@ -1,0 +1,21 @@
+{
+  "id": "FITCH-DOUBLE-NEGATED-KNOWLEDGE",
+  "premise_statement_ids": [
+    "STMT-FITCH-RELEVANT-LAWS",
+    "STMT-FITCH-MOORE-INSTANCE"
+  ],
+  "conclusion_statement_id": "STMT-FITCH-DOUBLE-NEGATED-KNOWLEDGE",
+  "inference_ids": [
+    "INF-FITCH-DOUBLE-NEGATED-KNOWLEDGE"
+  ],
+  "meaning": "Compose the checked Moore obstruction with the single Moore knowability instance. An actual truth plus negated knowledge would make the unknowable conjunction possibly known. The reductio yields double-negated knowledge constructively, not a positive knowledge witness.",
+  "definition_ids": [
+    "DEF-FITCH-WORLD-INDEXED-KNOWLEDGE",
+    "DEF-FITCH-ADMISSIBLE-CONTENTS",
+    "DEF-FITCH-RELEVANT-STABILITY",
+    "DEF-EPISTEMIC-ALTERNATIVES-KNOWLEDGE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FITCH-OPERATOR-SCOPE"
+  ]
+}

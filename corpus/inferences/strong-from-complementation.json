@@ -1,0 +1,11 @@
+{
+  "id": "INF-STRONG-FROM-COMPLEMENTATION",
+  "input_statement_ids": [
+    "STMT-MEREOLOGICAL-COMPLEMENTATION"
+  ],
+  "output_statement_id": "STMT-STRONG-SUPPLEMENTATION",
+  "rule": "typed-partial-order-exact-remainder-and-join",
+  "meaning": "Take the exact remainder of x minus y. Reflexive self-parthood shows it is a part of x disjoint from y, supplying the existing strong-supplementation witness. No sum-formation assumption is used.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

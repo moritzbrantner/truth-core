@@ -1,0 +1,10 @@
+{
+  "id": "FITCH-DOUBLE-NEGATED-KNOWLEDGE",
+  "argument_id": "FITCH-DOUBLE-NEGATED-KNOWLEDGE",
+  "challenge_module": "TruthCore.Results.Logic.FitchKnowability.Challenge",
+  "solution_module": "TruthCore.Results.Logic.FitchKnowability.Solution",
+  "theorem": "TruthCore.Results.Logic.FitchKnowability.doubleNegatedKnowledge",
+  "comparator_config": "results/FITCH-DOUBLE-NEGATED-KNOWLEDGE/comparator.json",
+  "status": "solution-present",
+  "description": "Compose the checked Moore obstruction with the single Moore knowability instance. An actual truth plus negated knowledge would make the unknowable conjunction possibly known. The reductio yields double-negated knowledge constructively, not a positive knowledge witness."
+}

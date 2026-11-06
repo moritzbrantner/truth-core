@@ -1,0 +1,14 @@
+{
+  "id": "STMT-FITCH-RESTRICTED-SURVIVOR",
+  "paraphrase": "The specified four-world model has epistemic S5 blocks {0,1},{2},{3}, modal S5 blocks {0,2},{1,3}, actuality0 and atom true at0,2. Factivity and full conjunct extraction hold. Its atom-invariant family contains the atom, constants and Boolean combinations; every member satisfies globally biconditional knowability, yet the atom is actually true and unknown and its Moore conjunction is inadmissible. Epistemic alternatives are not contained in modal alternatives. This is a formal rival, not actual human knowledge or a refutation of all antirealism.",
+  "lean_declaration": "TruthCore.Logic.FitchKnowability.RestrictedSurvivor",
+  "definition_ids": [
+    "DEF-FITCH-WORLD-INDEXED-KNOWLEDGE",
+    "DEF-FITCH-ADMISSIBLE-CONTENTS",
+    "DEF-FITCH-RELEVANT-STABILITY",
+    "DEF-EPISTEMIC-ALTERNATIVES-KNOWLEDGE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FITCH-OPERATOR-SCOPE"
+  ]
+}

@@ -319,3 +319,71 @@ the fix. No Challenge, theorem, vocabulary, corpus binding or proof input
 changed, so the successful binding/Comparator/NanoDa evidence above is reused.
 Final-head CI and current-head review remain required. This adds navigation
 metadata, not a philosophical source record or verification authority.
+
+## Exact remainders and Sum1 (#1054)
+
+Analyst formulations, attribution deferred. Navigation: SEP *Mereology*
+§3.3 P.6, §4.3 (52_1–3), §4.4. Existing common-part `Overlap`, Sum2 `Fusion`
+and Mathlib's `PartialOrder` stay fixed. Sum1 is Mathlib `IsLUB`, a **least**
+upper bound, rather than a merely minimal one. Formation ranges over all
+nonempty Lean Sets; this is an explicit second-order profile, not a historical
+claim that first-order schemas quantify over every subset.
+
+An exact remainder of y minus x comprises all and only those parts of y that
+do not overlap x, when y is not contained in x. Strong supplementation only
+requires one such disjoint part. `strongOfComplementation` obtains the weaker
+witness by applying the exact-remainder equivalence to the remainder itself.
+Neither principle is causal dependence, grounding, temporal removal or a claim
+that ordinary objects have every scattered remainder. The physical illustration
+of a glass minus its stem may leave separated base and bowl; an ontology
+restricted to connected objects can reject that remainder commitment. This is
+an OPEN applicability question, not something the order model resolves.
+
+`sumOneComparison` proves pointwise `IsLUB family u ↔ Fusion family u` for
+nonempty families under exact complementation. If a part p of a least upper
+bound overlaps no member, nonemptiness implies the whole is not part of p.
+Its exact remainder after subtracting p contains every selected member, so
+leastness makes the whole part of that remainder. Then p is disjoint from
+itself, contradicting reflexive common-part overlap. For the reverse, every
+part of a Sum2 fusion overlaps some family member and hence any upper bound.
+The proof imports #1052's `separationCharacterization`, after deriving strong
+supplementation, to infer containment in that bound. No stronger reading of
+Sum1 or Sum2 is built into a definition to make the proof go through.
+
+`unrestrictedTransfer` composes this proved comparison with the supplied
+all-nonempty Sum1 formation. It is a composition/transcription corollary for
+frontier reporting, not an independently defended premise or a separate novel
+bridge. The nonempty guard matters: on a singleton carrier complementation is
+vacuous and the empty set has a least upper bound, whereas its Sum2 condition
+is impossible. No empty-family comparison is advertised.
+
+The same **three-atoms-plus-top** order jointly satisfies strong supplementation
+and Sum1 formation for *every* nonempty Set. The join of atoms a,b is top, but
+top has a third part c disjoint from both. No Sum2 of that pair exists, and the
+exact remainder top minus a is missing: both b,c would be parts of it, forcing
+it to be top, which overlaps a. Thus strong supplementation plus all joins does
+not suffice for the no-extra-parts reading. This is a different interpretation
+from #1052's two-atoms/two-duplicate-wholes model. The second **two-incomparable-
+atoms** order has exact remainders (the difference of distinct atoms is the
+minuend itself), but its pair has no upper bound, hence neither Sum1 nor Sum2.
+Both models explicitly lack a null object. They witness only these mathematical
+profiles, not physical or metaphysical possibility, atomism in reality, or
+substantial unity. The finite-registry interface requires zero-axiom terms;
+these Mathlib certificates are not misregistered there.
+
+No new greatest-whole theorem with complementation as a premise is needed:
+on an inhabited carrier, Sum1 formation applied to the whole carrier already
+supplies a greatest member, without any complementation assumption. Adding C
+there would obscure the weaker sufficient bundle. The existing Sum2/Sum3 and
+overlap-extensional results are reusable after the proved conversion; no actual
+ontology, necessity, causal source, God identity or root closure follows.
+
+The initial frozen draft hash
+`678abe17798773528ee4154b6e1f4827fbb91fa0058d4f66d7e62c2fe71ef184`
+had an ambiguous unqualified `RivalCertificate`, because both old and new
+namespaces exported that name. Before any rival proof or certification, the
+old namespace open was restricted to `StrongSupplementation`. The corrected
+Challenge compiles and has hash
+`debab75ea8aef1f35ed55a0136c52d1c64c09bb55d271bb931e601557f742d51`.
+This name-resolution correction changes no intended theorem or premise. All
+accepted Solution work uses the corrected, unchanged Challenge.

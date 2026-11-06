@@ -1,0 +1,8 @@
+{
+  "id": "DEF-FITCH-ADMISSIBLE-CONTENTS",
+  "term": "admissible knowability contents",
+  "definition": "C is an explicit family of world-indexed predicates. RestrictedKnowability applies only at actuality and only to C; MooreAdmissible independently requires C to contain the Moore content. GlobalRestrictedEquivalence instead requires q(w) iff possible knowledge at every world. The survivor C contains all predicates invariant under equal values of its nonconstant atom, hence contains every Boolean combination of that atom. It excludes the Moore content; no epistemic syntax adequacy theorem is claimed.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.FitchKnowability.AtomInvariant",
+  "note": "Analyst formulation for #1053; attribution deferred. Applicability to real knowledge and semantic antirealism remains open. See docs/notes/sep-fitch-knowability-gap-20261106.md."
+}
