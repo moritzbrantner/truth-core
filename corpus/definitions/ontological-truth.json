@@ -10,5 +10,5 @@
     "AQUINAS-ST-I-Q2-A3-MOST-TRUE-MOST-BEING-A"
   ],
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MostTrueIsMostBeingReading",
-  "note": "The declaration’s verum is still an abstract respect: this definition records its intended source reading, not a mechanically enforced conformity predicate. Aquinas’s divine-exemplar account is recorded in its theological context; it is not used as an extra premise proving God’s existence. The comparative interpretation is separately stated in DEF-ONTOLOGICAL-TRUTH-COMPARISON."
+  "note": "The declaration’s verum is still an abstract respect: this definition records its intended source reading, not a mechanically enforced conformity predicate. Aquinas’s divine-exemplar account is recorded in its theological context; it is not used as an extra premise proving God’s existence. The comparative interpretation is separately stated in DEF-ONTOLOGICAL-TRUTH-COMPARISON. Typed parameter location: verum : Respect in MostTrueIsMostBeingReading, used with InAct : Being → Respect → Prop and MoreIn : Respect → Being → Being → Prop. The linked declaration constrains transfer from verum-maximality to esse-maximality; it is not a definition of conformity or of the primitive verum respect. The intended correspondence to the ontological reading remains OPEN."
 }

@@ -27,3 +27,5 @@ public import TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.
 public import TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Strength.Solution
 public import TruthCore.Results.Case.Catholicism.StageThree.FoundingScope.Solution
 public import TruthCore.Results.Case.Catholicism.StageThree.FoundingScopeStrength.Solution
+public import TruthCore.Results.Case.Catholicism.StageThree.FoundingWeakScope.BodyWitnesses.Solution
+public import TruthCore.Results.Case.Catholicism.StageThree.FoundingWeakScope.Solution

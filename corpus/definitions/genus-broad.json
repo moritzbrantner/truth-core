@@ -7,5 +7,6 @@
     "AQUINAS-ST-I-Q2-A3-MAXIMUM-CAUSES-GENUS-A",
     "AQUINAS-ST-I-Q3-A5-AD2-MEASURE-BY-APPROACH-A"
   ],
-  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MaximumInGenusCausesAllInGenusReading"
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MaximumInGenusCausesAllInGenusReading",
+  "note": "Typed parameter location: r : Respect quantified by MaximumInGenusCausesAllInGenusReading. The linked declaration is the open causal principle that uses this selected perfection, not a definition of a broad genus. The interpretation of an arbitrary respect as one of the intended perfections remains OPEN."
 }

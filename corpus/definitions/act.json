@@ -7,5 +7,6 @@
     "AQUINAS-ST-I-Q2-A3-MOVES-AS-IN-ACT-A",
     "AQUINAS-ST-I-Q2-A3-NOT-ACT-AND-POTENCY-A"
   ],
-  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel"
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel.InAct",
+  "note": "Lean locator: MotionModel.InAct is the field InAct : Being → Respect → Prop, not the whole MotionModel and not a proof of its metaphysical interpretation. The field is a primitive input; the linked premise readings constrain its use but do not define actual possession of a perfection. The match between an intended example and this primitive interpretation remains OPEN."
 }
