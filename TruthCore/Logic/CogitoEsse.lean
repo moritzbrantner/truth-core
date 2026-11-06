@@ -21,6 +21,9 @@ ontic existence and grounding relations. `ExistingInActAt` is the explicit,
 selected-world contract for reading that existence as existence in re. It is
 not an extra floor approval and is not proved for arbitrary `Ontic` assignments.
 The reverse implication, existence from esse, is not needed and is not asserted.
+This reparameterization does not certify the paradigm Anchors of a full intended
+interpretation; those remain independent semantic requirements. No model
+witness or nonconstant classification is advertised by this definition.
 
 The old concrete-bearer omission model permits an existing but nonconcrete
 bearer precisely because it has no such contract; it is not a countermodel to
