@@ -46,9 +46,18 @@ function Leaf({ leaf }: { leaf: NextLeaf }) {
   </li>;
 }
 function JointSettlements({ report }: { report: NextStepsReport }) {
+  const summary = report.joint_settlement_summary;
   return <section id="joint-settlements" className="my-10">
     <h2 className="font-serif text-2xl">Joint settlement across routes</h2>
     <p className="my-3 text-sm text-[var(--muted)]">A route is a conjunction. Its failure means at least one leaf fails. To combine routes by incompatible failures, every failure mode on each side needs a consequence theorem, and the incompatibility needs settled premises. A recorded rival is not automatically the negation of its leaf. Overlap ranks opportunities; it proves no joint settlement.</p>
+    {summary.pair_count ? <div className="my-4 rounded border border-[var(--line)] p-4">
+      <h3 className="font-serif text-xl">Shared obligations across reported routes</h3>
+      <p className="mt-2 text-sm">Among {summary.verified_route_count} reported verified routes ({summary.pair_count} pairs), the smallest pairwise overlap is {summary.minimum_pair_overlap} open premises. {summary.shared_by_all_reported_routes.length} open premises appear in every reported route. Combining these fixed route bundles cannot bypass those shared premises.</p>
+      <p className="mt-2 text-xs text-[var(--muted)]">{summary.scope}</p>
+      <details className="mt-3"><summary className="text-sm">Inspect all {summary.shared_by_all_reported_routes.length} shared obligations</summary>
+        <ul className="mt-2 space-y-1">{summary.shared_by_all_reported_routes.map((sid) => <li key={sid}><Link className="link-quiet break-all text-xs" href={`#leaf-${sid}`}>{sid}</Link></li>)}</ul>
+      </details>
+    </div> : null}
     {report.joint_settlement_schema_result_ids.length ? <p className="my-3 text-sm">Reusable logical schemas (no concrete route pair certified): {report.joint_settlement_schema_result_ids.map((id) => <Link className="link-quiet mr-2" key={id} href={`/results/${id}`}>{id}</Link>)}</p> : null}
     <ul className="space-y-3">{report.joint_settlements.map((pair) => <li key={`${pair.left_argument_id}:${pair.right_argument_id}`} className="rounded border border-[var(--line)] p-4"><details>
       <summary className="break-all text-sm">{pair.left_argument_id} + {pair.right_argument_id} · {pair.overlap_count} shared open leaves · {pair.certified ? "certified" : "unresolved"}</summary>

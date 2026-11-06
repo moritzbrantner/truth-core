@@ -67,6 +67,14 @@ failure modes. A route's failure is a disjunction: covering just one missing
 premise is insufficient. Recorded rival consequences retain their complete
 argument premises; a rival is not automatically the logical negation of the
 leaf. Pairwise overlap is a search aid, not an incompatibility certificate.
+The view also computes the intersection of open premises across every *reported
+verified* route, when at least two exist. A disjunction of those fixed
+conjunctive bundles still entails each common premise. This identifies shared
+obligations which cannot be bypassed by combining the displayed routes. It is
+not an exhaustive enumeration of every possible proof route, a claim that a
+premise is philosophically necessary, or a closure certificate. The CLI and UI
+use the same `joint_settlement_summary` projection; no new proof-status field
+or independent computation is introduced.
 Until exact failure-coverage, consequence, incompatibility and composition
 certificates exist, the pair remains unresolved. A result marked
 `joint_settlement_schema: true` is linked as a reusable logical schema, not a
