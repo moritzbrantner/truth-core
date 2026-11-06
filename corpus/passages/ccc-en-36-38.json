@@ -1,0 +1,31 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "CATECHISM-OF-THE-CATHOLIC-CHURCH-EN",
+    "source_url": "https://www.vatican.va/archive/ENG0015/__PB.HTM",
+    "retrieved_at": "2026-11-06T12:00:00Z",
+    "sha256": "sha256:051db85b003fc43c799fa0d28e34e9a99a640ca350753ffa7f4d363ca184f6ee",
+    "encoding": "iso-8859-1",
+    "language": "eng",
+    "license": "Copyright © Libreria Editrice Vaticana (notice on the page, checked 2026-11-06). Only hashes, locators and a short incipit are committed. Pinned as raw bytes of the whole page (the page has no unique selector anchor). Byte-stable over ten fetches with the source-evidence User-Agent on 2026-11-06; no Wayback fallback (web.archive.org unreachable from the pinning environment).",
+    "translation": {
+      "translator": "official English translation (United States Catholic Conference / Libreria Editrice Vaticana)",
+      "year": 1997,
+      "edition": "second edition, revised in accordance with the official Latin text"
+    }
+  },
+  "passages": [
+    {
+      "id": "CCC-EN-36-38",
+      "locator": "CCC 36-38 (Part One, sect. 1, ch. 1, III)",
+      "claim_locator_prefixes": [
+        "CCC 36",
+        "CCC 37",
+        "CCC 38"
+      ],
+      "raw_text": true,
+      "text_sha256": "sha256:051db85b003fc43c799fa0d28e34e9a99a640ca350753ffa7f4d363ca184f6ee",
+      "incipit": "<"
+    }
+  ]
+}

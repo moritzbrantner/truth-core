@@ -1,0 +1,10 @@
+{
+  "id": "CATECHISM-OF-THE-CATHOLIC-CHURCH-EN",
+  "kind": "primary_text",
+  "author": "Catholic Church (promulgated by John Paul II, 1992; Latin editio typica 1997)",
+  "work": "Catechism of the Catholic Church (official English translation, 2nd edition, on vatican.va)",
+  "citation_system": "paragraph number (e.g. CCC 36)",
+  "work_urn": "https://www.vatican.va/archive/ENG0015/_INDEX.HTM",
+  "catalog_url": "https://www.vatican.va/archive/ENG0015/_INDEX.HTM",
+  "notes": "Read in the English translation on vatican.va (#1010), because the Latin typical edition pages (archive/catechism_lt) are served in several byte variants and CI could not materialize them. Claims carry basis translation; upgrade to the Latin when a byte-stable Latin host is pinnable. The Catechism is addressed chiefly to bishops and, through them, to catechists and priests (CCC 12, read in the Latin, not pinned)."
+}
