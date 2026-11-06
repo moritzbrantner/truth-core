@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ABSTRACT-CONCRETE-DISJOINTNESS",
+  "term": "explicit abstract/concrete disjointness policy",
+  "definition": "AbstractConcreteDisjoint abstract concrete means \u2200 x, abstract x \u2192 \u00ac concrete x, for independently supplied classification predicates. It does not define either classification or assert that every candidate belongs to one of them.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.CausalPowerConcreteness.AbstractConcreteDisjoint",
+  "note": "Required classification policy for the intended P2-B/P3 wrapper, alongside its exercise-to-thin-power dictionary and owner power-to-concrete constraint. The generic predicate alone remains a proposition, not a theorem about arbitrary labels. It imposes neither exhaustiveness nor a ban on incoming abstract causation, and does not classify passive recipients as abstract. See docs/notes/causal-power-concreteness.md."
+}

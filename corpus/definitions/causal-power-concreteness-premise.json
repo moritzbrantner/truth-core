@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE",
+  "term": "independent causal-power concreteness constraint",
+  "definition": "OwnerCommitmentAt o concrete hasCausalPower w retains BOTH PowerRequiresConcreteAt (\u2200 x, hasCausalPower w x \u2192 concrete x) and CausersRequireConcreteAt (\u2200 x y, o.Causes w x y \u2192 concrete x). Concrete status is independent of the power predicate and Ontic.Causes. Power means ability to cause, including unexercised ability. It is not mathematical implication or generic explanatory relevance. Concrete status does not require materiality or spatial location; an immaterial causal agent is permitted. No cause-to-power implication is needed to state these independent commitments.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.CausalPowerConcreteness.OwnerCommitmentAt",
+  "note": "The constraint is an OPEN owner-proposed philosophical input, not a definition of concrete as powerful. No power-to-existence interface, concrete-to-power converse or causal/grounding coverage is assumed. The standalone proposition concerns the selected world; the intended wrapper explicitly requires the owner constraint at each represented world as a framework input, not an independently proved modal truth. The independent predicates may be instantiated only with their intended meanings; actual applicability remains open. docs/notes/causal-power-concreteness.md records examples, exclusions, rivals and remaining bridges. IntendedProfile now requires this power-to-concrete clause together with disjointness and exercise-to-thin-power interpretation evidence; under that dictionary the direct activity clause follows. These requirements do not constrain legacy generic Ontic automatically."
+}
