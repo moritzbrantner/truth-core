@@ -34,3 +34,4 @@ import TruthCore.Logic.TruthPilot
 import TruthCore.Logic.Verificationism
 import TruthCore.Logic.Verificationism.Model
 import TruthCore.Logic.Verificationism.NegationClosure
+import TruthCore.Logic.Verificationism.Proposal
