@@ -5,5 +5,6 @@
   "definition_ids": [
     "DEF-CONTACT-OR-CONTINUITY",
     "DEF-ONE-MADE-OF-ALL"
-  ]
+  ],
+  "note": "Scope audit: the original typed reading explicitly generalizes to every injective touching chain. The contact regress only needs STMT-LOCAL-TOUCHING-MOVED-MOVER-CHAIN-FORMS-ONE for chains of the same local moved-mover links. A checked sole-premise strength relation and populated strictness control distinguish these scopes. This preserves the existing source statement/claim and frozen proof, and does not attribute the weaker analyst sibling to Aristotle. See docs/notes/local-contact-composition.md."
 }

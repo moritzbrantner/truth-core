@@ -18,7 +18,7 @@
   "inference_ids": [
     "INF-OCCURRENCE-ESSE-SAME-WITNESS"
   ],
-  "meaning": "Compose the imported checks theorem while specializing concrete to HasEsseInRe of the q3 profile's own InAct and esse. The existing existence/esse premise now supplies C as well. Preserve all support-to-ground, source presence, typed cause/support and q3 dichotomy premises. The same ancestor remains the witness of necessity, root minimality, lack of existing support and represented essence\u2013esse identity. This is an explicit intended-profile specialization, not a proof of the generic conclusion for an unrelated concrete parameter.",
+  "meaning": "Compose the imported checks theorem while specializing concrete to HasEsseInRe of the q3 profile's own InAct and esse. The existing existence/esse premise now supplies C as well. Preserve all support-to-ground, source presence, typed cause/support and q3 dichotomy premises. The same ancestor remains the witness of necessity, root minimality, lack of existing support and represented essence–esse identity. This is an explicit intended-profile specialization, not a proof of the generic conclusion for an unrelated concrete parameter.",
   "definition_ids": [
     "DEF-ACT",
     "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
@@ -57,6 +57,7 @@
     "DISAMB-Q3A4-CAUSAL-VS-NONCAUSAL-REASON",
     "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
     "DISAMB-UNDERIVED-CAUSAL-SOURCE-INTERFACE",
-    "DISAMB-UNITING-CAUSE-ACTUALITY"
+    "DISAMB-UNITING-CAUSE-ACTUALITY",
+    "DISAMB-NECESSARY"
   ]
 }

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ACTUAL-ROOT",
+  "term": "actual concrete root of the selected grounding relation",
+  "definition": "ActualRoot m w x means ActualConcrete m w x ∧ ∀ y, ¬ ActualConcreteGround m w y x. The candidate x satisfies the supplied concrete predicate and exists at the selected world w; no y satisfying that same predicate and existing at w grounds x at w. Both guards use the same Profile m and carrier. Roothood alone supplies no contingency, necessity, uniqueness, well-foundedness, temporal priority or absence of every possible explanation.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.NecessaryRootFork.ActualRoot",
+  "note": "Shared predicate locator for #1111. DEF-BRUTE-ROOT-RELATIVE-GROUNDING supplies the narrow brute-root interpretation; DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY restricts attention to a thinker’s ancestors; DEF-NONNECESSARY-ROOT adds negated NecessaryAt. These are scope-qualified uses, not independently redefined root predicates. The selected grounding relation and its applicability remain explicit framework inputs. No new source attribution or absolute explanatory-completeness claim."
+}

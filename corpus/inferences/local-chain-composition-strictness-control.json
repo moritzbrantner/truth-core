@@ -1,0 +1,9 @@
+{
+  "id": "INF-LOCAL-CHAIN-COMPOSITION-STRICTNESS-CONTROL",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-LOCAL-CHAIN-COMPOSITION-POPULATED-STRICTNESS",
+  "rule": "constructive-proof",
+  "meaning": "A populated local-chain interpretation satisfies weak composition while a distinct injective touching chain lacks any whole, refuting the reverse scope implication. The actual local chain and its whole are exported rather than made vacuous. This interpretation does not satisfy all four regress premises and is not claimed physically possible.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

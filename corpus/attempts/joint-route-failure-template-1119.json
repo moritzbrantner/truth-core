@@ -3,14 +3,18 @@
   "statement_ids": [
     "STMT-CATHOLICISM-TRUE",
     "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE",
-    "STMT-ROOT-FROM-JOINT-FAILURE-INCOMPATIBILITY"
+    "STMT-ROOT-FROM-JOINT-FAILURE-INCOMPATIBILITY",
+    "STMT-NECESSARY-CLASSICAL-GOD-ROOT-CONTROL",
+    "STMT-CLASSICAL-GOD-REVELATION-BOUNDARY"
   ],
   "date": "2026-11-06",
   "kind": "derivation",
   "outcome": "succeeded",
-  "summary": "Encoded the owner-requested general logical rule for joint route settlement. Indexed route completion, existential failed premise and universal failure consequences make the coverage burden explicit. A Bool control rejects replacing universal failure coverage with a single sampled implication; the common-obligation theorem shows why cross-route composition cannot avoid a proposition required by every covered route. This is a logical template over opaque proposition families, not an instantiated Catholicism argument. Revelation recognizability remains shared and open. No philosophical consequence of a route failure or floor candidate is established by the template.",
+  "summary": "Encoded the owner-requested general logical rule for joint route settlement. Indexed route completion, existential failed premise and universal failure consequences make the coverage burden explicit. A Bool control rejects replacing universal failure coverage with a single sampled implication; the common-obligation theorem shows why cross-route composition cannot avoid a proposition required by every covered route. This is a logical template over opaque proposition families, not an instantiated Catholicism argument. Revelation recognizability remains shared and open. No philosophical consequence of a route failure or floor candidate is established by the template. Follow-up concrete boundary: the existing full25 positive fixture did not export its negative revelation/root evaluations. New CLASSICAL-GOD-REVELATION-BOUNDARY imports its entire Control unchanged and checks positive stage1/2 with false recognizable revelation and false phase1 root on the SAME signature. The root is refuted by false divine teaching-foundation, separately from revelation; no root-to-revelation implication is asserted. Current fixed root bundle pairs retain the common revelation input; shared failure therefore survives even with the positive God/attributes witness. Other root leaves/floors are not all checked by this fixture, and finite supplied respects/empty potency cannot certify every route's F3/F4 premises. Existing generic failure template and sampled/shared controls inspected; no exhaustive failure consequences with incompatible endpoints were supplied, so no concrete joint settlement is claimed. Exact roster, selected pair theorem locators and model boundaries are in docs/notes/joint-route-settlement.md.",
   "blocker": "A concrete joint settlement still needs consequences covering every failure mode of both chosen routes and an incompatibility established from settled premises under one shared semantic profile. The same open premise shared by all routes cannot be evaded by their disjunction.",
   "evidence": [
-    "ROOT-FROM-JOINT-FAILURE-INCOMPATIBILITY"
+    "ROOT-FROM-JOINT-FAILURE-INCOMPATIBILITY",
+    "CLASSICAL-GOD-REVELATION-BOUNDARY",
+    "NECESSARY-CLASSICAL-GOD-ROOT-CONTROL"
   ]
 }

@@ -7,7 +7,7 @@
   "inference_ids": [
     "INF-ACTUAL-COMMON-ROOT-UNIQUENESS"
   ],
-  "meaning": "Unpack n and its roothood/common coverage. For another actual root x, apply coverage to its actual concreteness. Identity is the required equality; a direct n\u2192x actual-ground edge contradicts x\u2019s existing roothood. Thus the SAME n witnesses existing UniqueActualRootAt, constructively, with no extra EM or C. The advertised local import/inference chain is common coverage\u2192actual unicity\u2192existing necessity upgrade; global semantic corpus cycles remain allowed and no global acyclicity claim is made.",
+  "meaning": "Unpack n and its roothood/common coverage. For another actual root x, apply coverage to its actual concreteness. Identity is the required equality; a direct n→x actual-ground edge contradicts x’s existing roothood. Thus the SAME n witnesses existing UniqueActualRootAt, constructively, with no extra EM or C. The advertised local import/inference chain is common coverage→actual unicity→existing necessity upgrade; global semantic corpus cycles remain allowed and no global acyclicity claim is made.",
   "definition_ids": [
     "DEF-ACTUAL-COMMON-ROOT",
     "DEF-UNIQUE-ACTUAL-ROOT",
@@ -52,6 +52,7 @@
     "DISAMB-IN-ACT",
     "DISAMB-ORDER-OF-BEING",
     "DISAMB-PER-SE",
-    "DISAMB-EXISTENCE-ESSE-SUPPORT"
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-MAXIME-ENS"
   ]
 }
