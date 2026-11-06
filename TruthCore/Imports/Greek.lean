@@ -66,6 +66,7 @@ public import TruthCore.Greek.Aristotle.Physics.BookVII.Chapter2
 public import TruthCore.Greek.Aristotle.Physics.BookVII.Chapter3
 public import TruthCore.Greek.Aristotle.Physics.BookVII.Chapter4
 public import TruthCore.Greek.Aristotle.Physics.BookVII.Chapter5
+public import TruthCore.Greek.Aristotle.Physics.LocalContactComposition
 public import TruthCore.Greek.Aristotle.Physics.Typed.Capacity
 public import TruthCore.Greek.Aristotle.Physics.Typed.CosmicChange
 public import TruthCore.Greek.Aristotle.Physics.Typed.Motion

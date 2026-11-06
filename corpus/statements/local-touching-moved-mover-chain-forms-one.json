@@ -1,0 +1,15 @@
+{
+  "id": "STMT-LOCAL-TOUCHING-MOVED-MOVER-CHAIN-FORMS-ONE",
+  "paraphrase": "Every injective touching chain whose adjacent pairs are the SAME selected local moved-mover links has some whole under the original ComposedOf relation. This is restricted composition scope, not a new definition of contact, a theory of mereological fusion or a claim that every touching chain has a whole.",
+  "lean_declaration": "TruthCore.Greek.Aristotle.Physics.LocalContactComposition.LocalTouchingChainFormsOne",
+  "definition_ids": [
+    "DEF-LOCAL-TOUCHING-CHAIN-COMPOSITION-SCOPE",
+    "DEF-CONTACT-OR-CONTINUITY",
+    "DEF-ONE-MADE-OF-ALL",
+    "DEF-LOCAL-BODILY-MOTION",
+    "DEF-PRIMARY-MOVER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION"
+  ]
+}

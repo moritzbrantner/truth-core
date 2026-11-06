@@ -1,0 +1,24 @@
+{
+  "id": "LOCAL-COMPOSITION-SUFFICES-FOR-EXISTING-CONTACT-REGRESS",
+  "premise_statement_ids": [
+    "STMT-PRIMARY-LOCAL-MOVER-TOUCHES",
+    "STMT-LOCAL-TOUCHING-MOVED-MOVER-CHAIN-FORMS-ONE",
+    "STMT-ONE-OF-INFINITE-LOCAL-CHAIN-TRAVERSES-INFINITE",
+    "STMT-NO-INFINITE-TRAVERSAL-IN-FINITE-TIME"
+  ],
+  "conclusion_statement_id": "STMT-NO-INFINITE-LOCAL-MOVED-MOVER-CHAIN",
+  "inference_ids": [
+    "INF-LOCAL-COMPOSITION-SUFFICES-FOR-EXISTING-CONTACT-REGRESS"
+  ],
+  "meaning": "The original contact-regress inference with composition restricted to its actual SAME local-link chains. Contact constructs touching links, local composition supplies a whole, and the unchanged traversal/impossibility premises contradict the hypothetical chain. The frozen global proof is preserved; its stronger theorem is not claimed to accept the weaker input. No source reading, metaphysical applicability or root premise is independently discharged.",
+  "definition_ids": [
+    "DEF-LOCAL-TOUCHING-CHAIN-COMPOSITION-SCOPE",
+    "DEF-CONTACT-OR-CONTINUITY",
+    "DEF-ONE-MADE-OF-ALL",
+    "DEF-LOCAL-BODILY-MOTION",
+    "DEF-PRIMARY-MOVER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION"
+  ]
+}

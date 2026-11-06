@@ -1,0 +1,11 @@
+{
+  "id": "TOUCHING-CHAIN-COMPOSITION-STRENGTHENS-LOCAL-SCOPE",
+  "argument_id": "TOUCHING-CHAIN-COMPOSITION-STRENGTHENS-LOCAL-SCOPE",
+  "challenge_module": "TruthCore.Results.Aristotle.Physics.LocalContactComposition.Strength.Challenge",
+  "solution_module": "TruthCore.Results.Aristotle.Physics.LocalContactComposition.Strength.Solution",
+  "theorem": "TruthCore.Results.Aristotle.Physics.LocalContactComposition.Strength.globalImpliesLocal",
+  "comparator_config": "results/TOUCHING-CHAIN-COMPOSITION-STRENGTHENS-LOCAL-SCOPE/comparator.json",
+  "status": "solution-present",
+  "description": "Sole-premise scope restriction of the old global composition reading; the populated control proves that the reverse implication fails. No old source attribution is changed.",
+  "transcription": "instantiation"
+}

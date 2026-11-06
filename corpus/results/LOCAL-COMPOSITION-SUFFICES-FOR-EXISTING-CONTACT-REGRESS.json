@@ -1,0 +1,10 @@
+{
+  "id": "LOCAL-COMPOSITION-SUFFICES-FOR-EXISTING-CONTACT-REGRESS",
+  "argument_id": "LOCAL-COMPOSITION-SUFFICES-FOR-EXISTING-CONTACT-REGRESS",
+  "challenge_module": "TruthCore.Results.Aristotle.Physics.LocalContactComposition.Regress.Challenge",
+  "solution_module": "TruthCore.Results.Aristotle.Physics.LocalContactComposition.Regress.Solution",
+  "theorem": "TruthCore.Results.Aristotle.Physics.LocalContactComposition.Regress.localCompositionRegress",
+  "comparator_config": "results/LOCAL-COMPOSITION-SUFFICES-FOR-EXISTING-CONTACT-REGRESS/comparator.json",
+  "status": "solution-present",
+  "description": "The original contact-regress inference with composition restricted to its actual SAME local-link chains. Contact constructs touching links, local composition supplies a whole, and the unchanged traversal/impossibility premises contradict the hypothetical chain. The frozen global proof is preserved; its stronger theorem is not claimed to accept the weaker input. No source reading, metaphysical applicability or root premise is independently discharged."
+}
