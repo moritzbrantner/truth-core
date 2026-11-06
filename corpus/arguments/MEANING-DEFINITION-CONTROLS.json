@@ -1,0 +1,21 @@
+{
+  "id": "MEANING-DEFINITION-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-MEANING-DEFINITION-CONTROLS",
+  "inference_ids": [
+    "INF-MEANING-DEFINITION-CONTROLS"
+  ],
+  "meaning": "The explicit analytic-only classifier in the existing two-coordinate language is a genuine remaining extension, nontrivial, and satisfies the weak one-way V3 principle. This is not a model of the joint rejection theorem's closure/demarcation premises.",
+  "definition_ids": [
+    "DEF-MEANING-CRITERION-CALIBRATION",
+    "DEF-MEANING-V1-DEFINITION",
+    "DEF-MEANING-V2-DEFINITION",
+    "DEF-MEANING-V3-DEFINITION",
+    "DEF-MEANING-ALL-IN-SCOPE",
+    "DEF-MEANING-NAMED-COVERAGE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-VERIFICATIONIST-MEANINGFUL",
+    "DISAMB-MEANING-DEFINITION-CALIBRATIONS"
+  ]
+}

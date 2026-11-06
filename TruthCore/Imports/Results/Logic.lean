@@ -32,6 +32,15 @@ public import TruthCore.Results.Logic.KnowledgeAdmissibility.Solution
 public import TruthCore.Results.Logic.KnowledgeRetorsion.Solution
 public import TruthCore.Results.Logic.LimitAdmission.Solution
 public import TruthCore.Results.Logic.MaximumOrderSchema.Solution
+public import TruthCore.Results.Logic.MeaningDefinitionFork.CalibrationToPrinciple.Solution
+public import TruthCore.Results.Logic.MeaningDefinitionFork.Controls.Solution
+public import TruthCore.Results.Logic.MeaningDefinitionFork.Coverage.Solution
+public import TruthCore.Results.Logic.MeaningDefinitionFork.NamedRejection.Solution
+public import TruthCore.Results.Logic.MeaningDefinitionFork.NamedRejectionBound.Solution
+public import TruthCore.Results.Logic.MeaningDefinitionFork.V2Rejection.Solution
+public import TruthCore.Results.Logic.MeaningDefinitionFork.V2RejectionBound.Solution
+public import TruthCore.Results.Logic.MeaningDefinitionFork.V3Rejection.Solution
+public import TruthCore.Results.Logic.MeaningDefinitionFork.V3RejectionBound.Solution
 public import TruthCore.Results.Logic.MetaethicsTruthAptRivalBoundary.Controls.Solution
 public import TruthCore.Results.Logic.MetaethicsTruthAptRivalBoundary.ExactRival.Solution
 public import TruthCore.Results.Logic.PerformedDenial.EmptyControl.Solution

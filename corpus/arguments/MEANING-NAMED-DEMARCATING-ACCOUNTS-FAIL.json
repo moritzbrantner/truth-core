@@ -1,0 +1,30 @@
+{
+  "id": "MEANING-NAMED-DEMARCATING-ACCOUNTS-FAIL",
+  "premise_statement_ids": [
+    "STMT-MEANING-NOT-V1-GLOBAL",
+    "STMT-MEANING-V2-EXCLUDED-TARGET",
+    "STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-STRONG",
+    "STMT-MEANING-CHURCH-OBSERVATION-SETTING",
+    "STMT-MEANING-EXCLUDED-NEGATION"
+  ],
+  "conclusion_statement_id": "STMT-MEANING-NAMED-DEMARCATING-ACCOUNTS-FAIL",
+  "inference_ids": [
+    "INF-MEANING-NAMED-DEMARCATING-ACCOUNTS-FAIL"
+  ],
+  "meaning": "Compose the checked V2/V3 calibration rejections, explicit not-V1 input and excluded negation to reject all four named global accounts. This yields the remainder without assuming named coverage; if coverage is additionally demanded, those inputs conflict. Joint philosophical applicability and a model of this entire bundle remain open.",
+  "definition_ids": [
+    "DEF-MEANING-CRITERION-CALIBRATION",
+    "DEF-MEANING-V1-DEFINITION",
+    "DEF-MEANING-V2-DEFINITION",
+    "DEF-MEANING-V3-DEFINITION",
+    "DEF-MEANING-ALL-IN-SCOPE",
+    "DEF-MEANING-NAMED-COVERAGE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-VERIFICATIONIST-MEANINGFUL",
+    "DISAMB-MEANING-DEFINITION-CALIBRATIONS"
+  ],
+  "strong_version_needed": {
+    "STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-STRONG": "The existing Ayer1946Closure proof applies closure at the arbitrary unnegated content y to obtain meaningful(neg y). Closure only for already-negated sentences does not supply that instance."
+  }
+}

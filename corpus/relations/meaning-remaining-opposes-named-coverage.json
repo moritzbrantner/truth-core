@@ -1,0 +1,9 @@
+{
+  "id": "REL-MEANING-REMAINING-OPPOSES-NAMED-COVERAGE",
+  "subject_kind": "statement",
+  "subject_id": "STMT-MEANING-REMAINING-DEFINITION",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-MEANING-NAMED-COVERAGE",
+  "note": "Under the same frame, predicate and scope, the remaining conjunction negates all named branches. It is not automatically a rival to a separate meaning/truth target; no philosophical admissibility or exhaustive named survey is claimed."
+}

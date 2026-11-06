@@ -1,0 +1,9 @@
+{
+  "id": "INF-MEANING-DEFINITION-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-MEANING-DEFINITION-CONTROLS",
+  "rule": "constructive-proof",
+  "meaning": "The explicit analytic-only classifier in the existing two-coordinate language is a genuine remaining extension, nontrivial, and satisfies the weak one-way V3 principle. This is not a model of the joint rejection theorem's closure/demarcation premises.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

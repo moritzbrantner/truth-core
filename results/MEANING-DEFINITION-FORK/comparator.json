@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.MeaningDefinitionFork.Coverage.Challenge",
+  "solution_module": "TruthCore.Results.Logic.MeaningDefinitionFork.Coverage.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.MeaningDefinitionFork.Coverage.definitionFork"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
