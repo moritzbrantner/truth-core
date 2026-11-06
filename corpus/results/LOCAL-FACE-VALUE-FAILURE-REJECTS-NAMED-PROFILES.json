@@ -1,0 +1,10 @@
+{
+  "id": "LOCAL-FACE-VALUE-FAILURE-REJECTS-NAMED-PROFILES",
+  "argument_id": "LOCAL-FACE-VALUE-FAILURE-REJECTS-NAMED-PROFILES",
+  "challenge_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.Remainder.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.Remainder.Solution",
+  "theorem": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.localFailureRejectsNamedProfiles",
+  "comparator_config": "results/LOCAL-FACE-VALUE-FAILURE-REJECTS-NAMED-PROFILES/comparator.json",
+  "status": "solution-present",
+  "description": "Both menu options contain local face-value status, so local failure rejects the exact comparison menu, not every religious-language account."
+}

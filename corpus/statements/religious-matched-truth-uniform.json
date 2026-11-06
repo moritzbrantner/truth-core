@@ -1,0 +1,13 @@
+{
+  "id": "STMT-RELIGIOUS-MATCHED-TRUTH-UNIFORM",
+  "paraphrase": "Open matched-content invariance: whenever a selected religious sentence is assigned the same apparent content in both supplied discourses, its truth application agrees across them. This is a separate cross-discourse bridge, not a consequence of propositional or assertoric status alone.",
+  "lean_declaration": "TruthCore.Alternatives.ReligiousLanguageSemantics.MatchedTruthUniform",
+  "definition_ids": [
+    "DEF-RELIGIOUS-CONTENT-AND-DISCOURSE-TRUTH-PROFILE",
+    "DEF-RELIGIOUS-LOCAL-FACE-VALUE",
+    "DEF-RELIGIOUS-CROSS-DISCOURSE-FACE-VALUE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RELIGIOUS-LOCAL-FACE-VALUE-AND-CROSS-DISCOURSE-UNIFORMITY"
+  ]
+}

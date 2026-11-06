@@ -1,0 +1,13 @@
+{
+  "id": "STMT-RELIGIOUS-LOCAL-FACE-VALUE-FAILS",
+  "paraphrase": "Exact failure of the supplied local content/assertion/fact/truth characterization. It is a precise further option outside the two local profiles, not a claim that every religious-language theory has been surveyed.",
+  "lean_declaration": "TruthCore.Alternatives.ReligiousLanguageSemantics.LocalFaceValueFails",
+  "definition_ids": [
+    "DEF-RELIGIOUS-CONTENT-AND-DISCOURSE-TRUTH-PROFILE",
+    "DEF-RELIGIOUS-LOCAL-FACE-VALUE",
+    "DEF-RELIGIOUS-CROSS-DISCOURSE-FACE-VALUE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RELIGIOUS-LOCAL-FACE-VALUE-AND-CROSS-DISCOURSE-UNIFORMITY"
+  ]
+}

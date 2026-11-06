@@ -1,0 +1,11 @@
+{
+  "id": "INF-CROSS-DISCOURSE-FACE-VALUE-SUPPLIES-UNIFORM",
+  "input_statement_ids": [
+    "STMT-RELIGIOUS-CROSS-DISCOURSE-FACE-VALUE"
+  ],
+  "output_statement_id": "STMT-RELIGIOUS-MATCHED-TRUTH-UNIFORM",
+  "rule": "constructive-proof",
+  "meaning": "Project matched-content invariance from the stronger analyst cross-discourse profile. This is an assembly transcription and sole-premise strength certificate.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

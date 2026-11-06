@@ -1,0 +1,11 @@
+{
+  "id": "CROSS-DISCOURSE-FACE-VALUE-SUPPLIES-LOCAL",
+  "argument_id": "CROSS-DISCOURSE-FACE-VALUE-SUPPLIES-LOCAL",
+  "challenge_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.Local.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.Local.Solution",
+  "theorem": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.crossDiscourseSuppliesLocal",
+  "comparator_config": "results/CROSS-DISCOURSE-FACE-VALUE-SUPPLIES-LOCAL/comparator.json",
+  "status": "solution-present",
+  "description": "Project local status from the stronger analyst cross-discourse profile. This is an assembly transcription and sole-premise strength certificate.",
+  "transcription": "assembly"
+}

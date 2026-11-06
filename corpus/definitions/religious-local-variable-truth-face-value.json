@@ -1,0 +1,8 @@
+{
+  "id": "DEF-RELIGIOUS-LOCAL-VARIABLE-TRUTH-FACE-VALUE",
+  "term": "local face-value status with matched religious truth variation",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Alternatives.ReligiousLanguageSemantics.LocalVariableTruthFaceValue",
+  "definition": "The analyst contextual sibling retains the local apparent-content, belief-assertion and descriptive-fact characterization but includes an actual selected religious sentence with the same apparent content assigned across two discourses and differing truth application. This is stronger than merely reporting differences somewhere in discourse.",
+  "note": "An analyst conditional configuration with attribution deferred; not identified with the raw later-Phillips source thesis or the full original face-value source statement. Its witness excludes the cross-discourse-invariant sibling while retaining local status."
+}

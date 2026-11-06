@@ -1,0 +1,11 @@
+{
+  "id": "CROSS-DISCOURSE-FACE-VALUE-SUPPLIES-UNIFORM",
+  "argument_id": "CROSS-DISCOURSE-FACE-VALUE-SUPPLIES-UNIFORM",
+  "challenge_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.Uniform.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.Uniform.Solution",
+  "theorem": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.crossDiscourseSuppliesUniform",
+  "comparator_config": "results/CROSS-DISCOURSE-FACE-VALUE-SUPPLIES-UNIFORM/comparator.json",
+  "status": "solution-present",
+  "description": "Project matched-content invariance from the stronger analyst cross-discourse profile. This is an assembly transcription and sole-premise strength certificate.",
+  "transcription": "assembly"
+}

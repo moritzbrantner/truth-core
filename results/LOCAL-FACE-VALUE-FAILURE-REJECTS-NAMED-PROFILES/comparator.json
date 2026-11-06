@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.Remainder.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.Remainder.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.localFailureRejectsNamedProfiles"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
