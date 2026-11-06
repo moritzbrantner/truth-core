@@ -1,0 +1,8 @@
+{
+  "id": "DEF-FINITE-PRODUCT-VALIDATION",
+  "term": "finite predeclared-pool zero-error validation",
+  "definition": "On a finite discrete measurable domain Ω, μ is an arbitrary normalized deployment probability measure; truth and each hypothesis map Ω to Bool. error μ truth h is μ of disagreement. passes truth h n is agreement at all n coordinates of a sample. sampling μ n is Mathlib Measure.pi of n copies of μ. falseAcceptance is existence of a pool member with error strictly above epsilon and no sample disagreements. The finite pool is fixed independently of validation data; sampling and deployment use the same μ. ENNReal thresholds are nonnegative by type and the advertised risk bound requires epsilon≤1. No candidate is assumed good, and a selection procedure may abstain if none passes.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.FiniteValidationLogic.falseAcceptance",
+  "note": "Analyst framework for #1066 under #931, attribution deferred. Actual independent deployment-aligned sampling and truthful labels remain OPEN applicability assumptions. The theorem controls repeated-sampling false acceptance, not posterior confidence about a fixed candidate given a pass, exact truth classification, or normative authority. See docs/notes/fallible-correction-931.md."
+}

@@ -316,3 +316,78 @@ The three result records are `ADAPTIVE-PREDICTION-DIAGONAL`,
 `ADAPTIVE-PREDICTION-LEARNER-ADAPTER` and `ADAPTIVE-PREDICTION-TWO-EXPERT`.
 Their definitions quantify the protocol inputs explicitly. Added/removed root
 premises: none. Actual feedback warrant and normative authority remain open.
+
+### Finite validation under explicit sampling (#1066)
+
+The next positive step changes the empirical interface rather than assuming a
+numerical expert-error budget. `FINITE-VALIDATION-SAMPLING` studies a finite
+input domain with an arbitrary genuine Mathlib probability measure μ, a supplied
+truthful Boolean labeling, and a finite hypothesis pool fixed independently of
+validation data. Validation draws are the actual product measure μ^n, with the
+same μ defining deployment error. Independence, truthful labeling and this
+sampling/deployment alignment remain **OPEN** application bridges. Examples
+include repeated independently drawn labeled cases from the intended deployment
+population; convenient examples, selectively reported successes, feedback from
+the predictor itself and a changing deployment population need not satisfy them.
+No author attribution is claimed.
+
+For a fixed hypothesis with actual error e, passing all n tests has probability
+(1−e)^n. Applying Mathlib's finite union bound gives
+
+`P(∃ h ∈ pool, error(h) > ε ∧ h passes) ≤ |pool| * (1−ε)^n`,
+
+for nonnegative ENNReal ε≤1. The exact statement includes n=0, where the bound
+can be uninformative, and the empty pool, whose false-acceptance event is empty.
+When the numerical bound is below a desired risk tolerance, a procedure that
+selects a passing member of this fixed pool, or abstains when none passes, has
+that simultaneous false-acceptance control inside the sampling model. For
+four predeclared candidates, ε=1/2 and ten tests give a bound 1/256. It need
+not identify a good member beforehand. No perfect expert, realizability, or even
+existence of a passing candidate is assumed. This is a substantive addition to
+the earlier weighted-majority guarantee: observed validation agreement now has
+a derived sampling relationship to actual distributional error, instead of
+receiving an assumed expert-error budget. It does not establish that budget
+with certainty or certify that the sampling model describes the actual world.
+
+Selection within the pool is allowed; selection outside it changes the claim.
+`FINITE-VALIDATION-SELECTION-CONTROLS` supplies four uniformly distributed points
+whose truthful labels are all Boolean false. A memorizer predicts false at its
+selected point and true at the other three. Its actual error is 3/4. If the selected point is the
+one observed validation example, the memorizer always passes. The probability
+of this posthoc bad-pass event is 1, exceeding the incorrect singleton bound 1/2
+at ε=1/2. The singleton was chosen from the same validation data, so the
+fixed-hypothesis theorem cannot be applied as though it had been fixed first.
+Including all four memorizers in the predeclared pool restores the applicable
+cardinality penalty, which here gives an uninformative bound 2. This control does
+not deny valid selection among members of a predeclared finite class.
+
+The frequentist joint bound also does **not** automatically say
+`P(error≤ε | passed) ≥ 1−δ`. In the same uniform model, fix one memorizer before
+sampling. Its error is deterministically 3/4, but its pass probability is
+(1/4)^n, strictly positive for every finite n. Its bad-pass event at ε=1/2 is
+exactly its pass event. Thus a rare pass can still be a pass by a bad candidate;
+conditioning on that pass does not by itself make this fixed bad candidate good.
+The checked artifact proves the event equality and positive probability, without
+introducing a prior on hypotheses or pretending to calculate a posterior. A
+small joint false-acceptance probability is useful procedural risk control; a
+posterior or accessible-warrant interpretation requires additional premises.
+
+The strongest rival remains that representative independent validation itself
+has not been warranted: adversarial sequences, distribution shift, systematic
+label corruption or unrestricted posthoc selection can break the application.
+The existing adaptive diagonal concerns unrestricted deterministic prediction
+against predictor-dependent streams, rather than this fixed iid sampling
+profile. The existing Hume finite-prefix alternatives remain compatible with
+finite probabilistic risk control: no finite sample guarantees every future
+case. The accuracy theorems likewise evaluate supplied probabilities and do not
+supply this sampling-to-reality bridge. Neither those results nor the new bound
+vindicate induction generally, establish categorical epistemic authority, or
+change F6 or any root-frontier premise. The positive philosophical payoff is a
+calibrated testing procedure *within stated assumptions*, with an explicit
+remaining burden to justify those assumptions in a concrete inquiry.
+
+The frozen Challenge and Solution use the same two advertised proposition
+heads, `SamplingCertificate` and `SelectionControls`; the sampling assumptions
+are universally scoped inside the former rather than hidden corpus premises.
+Only the new finite-validation vocabulary, results and records, this existing
+note, and generated import lists are changed. Source attribution is deferred.

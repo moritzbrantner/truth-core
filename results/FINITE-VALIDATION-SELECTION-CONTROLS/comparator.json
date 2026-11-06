@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.FiniteValidationLogic.Challenge",
+  "solution_module": "TruthCore.Results.Logic.FiniteValidationLogic.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.FiniteValidationLogic.selectionControls"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}
