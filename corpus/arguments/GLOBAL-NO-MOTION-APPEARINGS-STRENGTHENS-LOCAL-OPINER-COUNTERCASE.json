@@ -1,0 +1,21 @@
+{
+  "id": "GLOBAL-NO-MOTION-APPEARINGS-STRENGTHENS-LOCAL-OPINER-COUNTERCASE",
+  "premise_statement_ids": [
+    "STMT-CHANGE-UNREAL-BUT-APPEARS"
+  ],
+  "conclusion_statement_id": "STMT-OPINER-LACKS-ITS-OPINION-MOTION",
+  "inference_ids": [
+    "INF-GLOBAL-NO-MOTION-APPEARINGS-STRENGTHENS-LOCAL-OPINER-COUNTERCASE"
+  ],
+  "meaning": "Sole-premise weakening of the existing strong raw account: its actual opiner and universal lack of motion provide a local designated-respect countertuple. Mixed-motion control rejects the converse, preserving the full raw account.",
+  "definition_ids": [
+    "DEF-OPINING-MOTION-EXACT-COUNTERTUPLE",
+    "DEF-OPINING",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION",
+    "DISAMB-CHANGE-A-SERIES"
+  ]
+}

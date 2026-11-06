@@ -1,0 +1,15 @@
+{
+  "id": "STMT-DIVINE-FOUNDING-NAMED-READINGS-COVER",
+  "paraphrase": "Open coverage premise for one fixed signature, agency and direct-founding relation: the target predicate has the immediate-only or Jesus-envoy-inclusive extension on God candidates. This is not established by the logical coverage-with-remainder result and asserts no census of historical schools.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.FoundingDefinitions.NamedReadingCoverage",
+  "definition_ids": [
+    "DEF-PRINCIPAL-ACT-FOUNDING-READING",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+    "DEF-FOUNDED-BY-GOD-IMMEDIATELY",
+    "DEF-GOD-OF-CLASSICAL-THEISM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FOUNDED-BY-GOD",
+    "DISAMB-GOD"
+  ]
+}

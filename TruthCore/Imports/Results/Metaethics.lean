@@ -7,6 +7,8 @@ public import TruthCore.Results.Metaethics.EvilObjection.Coverage.Solution
 public import TruthCore.Results.Metaethics.EvilObjection.InternalChallenge.Solution
 public import TruthCore.Results.Metaethics.EvilObjection.NamedElimination.Solution
 public import TruthCore.Results.Metaethics.EvilObjection.UseFork.Solution
+public import TruthCore.Results.Metaethics.ExplanationRivalBoundary.Controls.Solution
+public import TruthCore.Results.Metaethics.ExplanationRivalBoundary.ExactRival.Solution
 public import TruthCore.Results.Metaethics.GoodnessCoverageStrength.Solution
 public import TruthCore.Results.Metaethics.GoodnessDueToUnrestricted.Solution
 public import TruthCore.Results.Metaethics.GoodnessFormEndBoundary.Solution
@@ -16,4 +18,6 @@ public import TruthCore.Results.Metaethics.GoodnessNamedElimination.Solution
 public import TruthCore.Results.Metaethics.GoodnessPropertyIdentity.Solution
 public import TruthCore.Results.Metaethics.GoodnessSemanticCoverage.Solution
 public import TruthCore.Results.Metaethics.GoodnessSemanticElimination.Solution
+public import TruthCore.Results.Metaethics.MeaningRivalBoundary.Controls.Solution
+public import TruthCore.Results.Metaethics.MeaningRivalBoundary.GuardedNegative.Solution
 public import TruthCore.Results.Metaethics.PlanStateEmbeddingControl.Solution

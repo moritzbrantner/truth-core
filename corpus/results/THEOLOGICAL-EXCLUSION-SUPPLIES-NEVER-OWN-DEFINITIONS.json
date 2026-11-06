@@ -1,0 +1,11 @@
+{
+  "id": "THEOLOGICAL-EXCLUSION-SUPPLIES-NEVER-OWN-DEFINITIONS",
+  "argument_id": "THEOLOGICAL-EXCLUSION-SUPPLIES-NEVER-OWN-DEFINITIONS",
+  "challenge_module": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Exclusion.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Exclusion.Solution",
+  "theorem": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Exclusion.theologyExclusionSuppliesNeverOwn",
+  "comparator_config": "results/THEOLOGICAL-EXCLUSION-SUPPLIES-NEVER-OWN-DEFINITIONS/comparator.json",
+  "status": "solution-present",
+  "description": "Apply the explicit exclusion to the theological content of each defined move. Single-application transcription of the open exclusion; the descriptive content premise alone does not supply it.",
+  "transcription": "single_application"
+}

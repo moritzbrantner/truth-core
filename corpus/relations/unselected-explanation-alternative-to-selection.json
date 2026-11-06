@@ -4,5 +4,6 @@
   "subject_id": "STMT-COMPLETE-CHAIN-EXPLANATION-ALLOWS-UNSELECTED",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-COMPLETE-CHAIN-EXPLANATION-SELECTS-ARRANGEMENT"
+  "object_id": "STMT-COMPLETE-CHAIN-EXPLANATION-SELECTS-ARRANGEMENT",
+  "note": "The full truthful nonselection rival genuinely contradicts the old selection requirement. However generic adequate can accept only false candidates, which violate selection without witnessing this rival. Explicit factivity and checked structural trilemma now expose the coverage scope; the exact negative is also registered. No raw rival is weakened, and no false explanation is deemed actually adequate. See docs/notes/selection-factivity-coverage.md."
 }

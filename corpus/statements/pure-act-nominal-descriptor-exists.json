@@ -1,0 +1,17 @@
+{
+  "id": "STMT-PURE-ACT-NOMINAL-DESCRIPTOR-EXISTS",
+  "paraphrase": "Some being satisfies every antecedent of the first-mover naming leaf: first unmoved mover, pure act, and the only first unmoved mover. Open witness premise; naming alone does not supply existence.",
+  "lean_declaration": "TruthCore.Alternatives.NameApplicationTransfer.PureActDescriptorExists",
+  "definition_ids": [
+    "DEF-PROPER-TO-PRACTICE-REFERENCE-CALIBRATION",
+    "DEF-NAME-REFERS-IN-PRACTICE",
+    "DEF-GOD-NOMINAL-Q13",
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-FIRST-UNMOVED-MOVER",
+    "DEF-PURE-ACT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NAME-APPLICATION",
+    "DISAMB-GOD"
+  ]
+}

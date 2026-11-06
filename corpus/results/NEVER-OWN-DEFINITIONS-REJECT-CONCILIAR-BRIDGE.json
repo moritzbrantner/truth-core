@@ -1,0 +1,10 @@
+{
+  "id": "NEVER-OWN-DEFINITIONS-REJECT-CONCILIAR-BRIDGE",
+  "argument_id": "NEVER-OWN-DEFINITIONS-REJECT-CONCILIAR-BRIDGE",
+  "challenge_module": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Private.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Private.Solution",
+  "theorem": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Private.neverOwnRejectsBridge",
+  "comparator_config": "results/NEVER-OWN-DEFINITIONS-REJECT-CONCILIAR-BRIDGE/comparator.json",
+  "status": "solution-present",
+  "description": "Use the actual Defined move: the old normative bridge endorses it, while the all-nonendorsed premise denies that endorsement. A nonempty definition witness is explicit; theology is not refuted."
+}

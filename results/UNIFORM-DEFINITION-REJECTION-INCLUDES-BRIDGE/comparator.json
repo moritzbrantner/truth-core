@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Projection.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Projection.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Projection.uniformRejectionIncludesBridge"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

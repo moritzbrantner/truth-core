@@ -1,0 +1,11 @@
+{
+  "id": "STMT-TLP-PROFILE-NO-MEANINGFUL-DIVINE",
+  "paraphrase": "No meaningful content is about God or the higher under one supplied semantic profile. Independent analyst sibling; no historical attribution or identity with the old untyped traditional-reading reconstruction.",
+  "lean_declaration": "TruthCore.Logic.NaturalTheologySemanticScope.NoMeaningfulDivine",
+  "definition_ids": [
+    "DEF-NATURAL-THEOLOGY-SEMANTIC-PROFILE",
+    "DEF-NATURAL-THEOLOGY-PROFILE-ARGUABILITY",
+    "DEF-TLP-PROFILE-NO-DIVINE-SENSE",
+    "DEF-NATURAL-THEOLOGY-CONSEQUENCE-WARRANT-BRIDGE"
+  ]
+}

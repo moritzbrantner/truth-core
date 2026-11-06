@@ -1,0 +1,19 @@
+{
+  "id": "WITHHOLDING-IMPLIES-NOT-UNIVERSAL-ASSERTION",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE-WITHHELD-INTUITIONISM"
+  ],
+  "conclusion_statement_id": "STMT-NOT-ALL-EXCLUDED-MIDDLE-INSTANCES-ASSERTED",
+  "inference_ids": [
+    "INF-WITHHOLDING-IMPLIES-NOT-UNIVERSAL-ASSERTION"
+  ],
+  "meaning": "Project the existing full withholding package's explicit stage/content witness to the exact negative assertion-policy proposition. It is not an inference to object-level denial or falsity of EM.",
+  "definition_ids": [
+    "DEF-EXCLUDED-MIDDLE-LOGICAL-HOLDING",
+    "DEF-EXCLUDED-MIDDLE-ASSERTION-POLICY",
+    "DEF-EXCLUDED-MIDDLE-WITHHOLDING-POLICY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXCLUDED-MIDDLE-HOLDING-AND-ASSERTION"
+  ]
+}

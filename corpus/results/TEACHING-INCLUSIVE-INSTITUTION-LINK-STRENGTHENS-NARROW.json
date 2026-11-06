@@ -1,0 +1,11 @@
+{
+  "id": "TEACHING-INCLUSIVE-INSTITUTION-LINK-STRENGTHENS-NARROW",
+  "argument_id": "TEACHING-INCLUSIVE-INSTITUTION-LINK-STRENGTHENS-NARROW",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Strength.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Strength.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Strength.teachingLinkSuppliesNarrowLink",
+  "comparator_config": "results/TEACHING-INCLUSIVE-INSTITUTION-LINK-STRENGTHENS-NARROW/comparator.json",
+  "status": "solution-present",
+  "description": "The literal fixed broader bridge applies to every old narrow governing power by left-disjunct injection. Its only premise is the stronger link; the nonempty mismatch model proves the reverse is invalid.",
+  "transcription": "assembly"
+}

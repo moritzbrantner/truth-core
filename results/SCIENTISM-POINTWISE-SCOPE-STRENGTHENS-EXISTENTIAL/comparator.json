@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.ScientismScopeBoundary.PointwiseToExistential.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ScientismScopeBoundary.PointwiseToExistential.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.ScientismScopeBoundary.PointwiseToExistential.pointwiseToExistential"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

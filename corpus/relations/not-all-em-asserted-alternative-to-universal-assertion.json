@@ -1,0 +1,9 @@
+{
+  "id": "REL-NOT-ALL-EM-ASSERTED-ALTERNATIVE-TO-UNIVERSAL-ASSERTION",
+  "subject_kind": "statement",
+  "subject_id": "STMT-NOT-ALL-EXCLUDED-MIDDLE-INSTANCES-ASSERTED",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-ALL-EXCLUDED-MIDDLE-INSTANCES-ASSERTED",
+  "note": "Exact logical negative of the same stage-indexed assertion target. Derived from full raw withholding via WITHHOLDING-IMPLIES-NOT-UNIVERSAL-ASSERTION; no logical holding-to-assertion bridge or full intended intuitionist-model claim follows."
+}

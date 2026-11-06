@@ -1,0 +1,13 @@
+{
+  "id": "STMT-ALL-EXCLUDED-MIDDLE-INSTANCES-ASSERTED",
+  "paraphrase": "Every stage asserts every excluded-middle instance. An independent comparison policy, neither a source fact nor an adopted norm.",
+  "lean_declaration": "TruthCore.Logic.ExcludedMiddleAssertionBoundary.AllInstancesAsserted",
+  "definition_ids": [
+    "DEF-EXCLUDED-MIDDLE-LOGICAL-HOLDING",
+    "DEF-EXCLUDED-MIDDLE-ASSERTION-POLICY",
+    "DEF-EXCLUDED-MIDDLE-WITHHOLDING-POLICY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXCLUDED-MIDDLE-HOLDING-AND-ASSERTION"
+  ]
+}

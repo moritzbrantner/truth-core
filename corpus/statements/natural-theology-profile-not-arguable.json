@@ -1,0 +1,11 @@
+{
+  "id": "STMT-NATURAL-THEOLOGY-PROFILE-NOT-ARGUABLE",
+  "paraphrase": "The exact meaningful-divine-arguability proposition fails under this same semantic/argument profile. A logical negative of the profile target, not a proof that all actual theological argument is impossible.",
+  "lean_declaration": "TruthCore.Logic.NaturalTheologySemanticScope.NotNaturalTheologyArguable",
+  "definition_ids": [
+    "DEF-NATURAL-THEOLOGY-SEMANTIC-PROFILE",
+    "DEF-NATURAL-THEOLOGY-PROFILE-ARGUABILITY",
+    "DEF-TLP-PROFILE-NO-DIVINE-SENSE",
+    "DEF-NATURAL-THEOLOGY-CONSEQUENCE-WARRANT-BRIDGE"
+  ]
+}

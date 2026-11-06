@@ -1,0 +1,25 @@
+{
+  "id": "PRACTICE-NO-REFERENCE-REJECTS-PURE-ACT-NAMING",
+  "premise_statement_ids": [
+    "STMT-PROPER-REFERENCE-PRESERVED",
+    "STMT-GOD-NAMES-NO-BEING-WF-P1",
+    "STMT-PURE-ACT-NOMINAL-DESCRIPTOR-EXISTS"
+  ],
+  "conclusion_statement_id": "STMT-PURE-ACT-NOMINAL-NAMING-FAILS",
+  "inference_ids": [
+    "INF-PRACTICE-NO-REFERENCE-REJECTS-PURE-ACT-NAMING"
+  ],
+  "meaning": "A unique pure-act first-mover witness would be proper by the naming leaf and a practice referent by transfer, contrary to no-reference. This negates the proper-profile leaf only under the supplied witness and transfer.",
+  "definition_ids": [
+    "DEF-PROPER-TO-PRACTICE-REFERENCE-CALIBRATION",
+    "DEF-NAME-REFERS-IN-PRACTICE",
+    "DEF-GOD-NOMINAL-Q13",
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-FIRST-UNMOVED-MOVER",
+    "DEF-PURE-ACT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NAME-APPLICATION",
+    "DISAMB-GOD"
+  ]
+}

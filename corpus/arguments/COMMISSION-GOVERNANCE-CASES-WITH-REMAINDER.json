@@ -1,0 +1,25 @@
+{
+  "id": "COMMISSION-GOVERNANCE-CASES-WITH-REMAINDER",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-COMMISSION-GOVERNANCE-CRITERION-CASES",
+  "inference_ids": [
+    "INF-COMMISSION-GOVERNANCE-CASES-WITH-REMAINDER"
+  ],
+  "meaning": "Two explicit EM instances check narrow, teaching-inclusive or neither calibration. Named-only coverage is not established, and no census beyond the existing nine-power profile is claimed.",
+  "definition_ids": [
+    "DEF-COMMISSION-GOVERNANCE-CALIBRATION",
+    "DEF-TEACHING-INCLUSIVE-GOVERNING-POWER",
+    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
+    "DEF-COMMISSION-REPORT-POWERS",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMMISSION-GOVERNANCE-CRITERIA",
+    "DISAMB-COMMISSION-REPORT-AND-EVENT",
+    "DISAMB-FOUNDED-BY-GOD",
+    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS"
+  ]
+}

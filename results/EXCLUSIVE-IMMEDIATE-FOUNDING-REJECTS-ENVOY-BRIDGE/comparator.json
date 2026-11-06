@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Exclusive.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Exclusive.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Exclusive.exclusiveImmediateRejectsEnvoy"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

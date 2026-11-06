@@ -1,0 +1,21 @@
+{
+  "id": "NAME-APPLICATION-TRANSFER-CASES",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-NAME-APPLICATION-TRANSFER-CASES-COVER",
+  "inference_ids": [
+    "INF-NAME-APPLICATION-TRANSFER-CASES"
+  ],
+  "meaning": "Explicit excluded middle yields preservation or a proper-instance/nonreference counterexample. The proof handles the quantified witness rather than merely renaming negated preservation. Structural profile coverage is not a census of named theories.",
+  "definition_ids": [
+    "DEF-PROPER-TO-PRACTICE-REFERENCE-CALIBRATION",
+    "DEF-NAME-REFERS-IN-PRACTICE",
+    "DEF-GOD-NOMINAL-Q13",
+    "DEF-GOD-OF-CLASSICAL-THEISM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NAME-APPLICATION",
+    "DISAMB-GOD"
+  ]
+}

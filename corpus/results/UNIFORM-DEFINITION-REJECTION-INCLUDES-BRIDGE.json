@@ -1,0 +1,11 @@
+{
+  "id": "UNIFORM-DEFINITION-REJECTION-INCLUDES-BRIDGE",
+  "argument_id": "UNIFORM-DEFINITION-REJECTION-INCLUDES-BRIDGE",
+  "challenge_module": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Projection.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Projection.Solution",
+  "theorem": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Projection.uniformRejectionIncludesBridge",
+  "comparator_config": "results/UNIFORM-DEFINITION-REJECTION-INCLUDES-BRIDGE/comparator.json",
+  "status": "solution-present",
+  "description": "Project the exact old-bridge rejection from rejection of both uniform profiles. Assembly transcription and sole-premise strength; this is the explicit graph connection from the mixed case.",
+  "transcription": "assembly"
+}

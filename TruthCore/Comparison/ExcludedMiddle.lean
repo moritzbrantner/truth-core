@@ -28,8 +28,9 @@ Each line names the proposition that answers the question, or *unexplained*.
   1011b26-27). Intuitionist: being proved at some stage,
   `STMT-TRUTH-IS-PROVABILITY-INTUITIONISM`, an open premise of this comparison,
   not a sourced commitment: the witness states only the primacy of proof
-  (`STMT-PROOF-NOT-TRUTH-CENTRAL-INTUITIONISM`) (recorded as an alternative to the
-  Aristotelian premise).
+  (`STMT-PROOF-NOT-TRUTH-CENTRAL-INTUITIONISM`) (a contrasting account, not a logical negation of the
+  Aristotelian predicate: TRUTH-ACCOUNT-COMPATIBILITY composes their exact
+  encoded commitments in one nontrivial signed-thought interpretation).
 * **Q-FIRST-MOVER** (the regress: is there a first unmoved mover?).
   Catholic: yes, via the prima via and the excluded-middle instance
   `STMT-FIRST-UNMOVED-MOVER-EXISTS-OR-NOT`. Intuitionist: the prima via result

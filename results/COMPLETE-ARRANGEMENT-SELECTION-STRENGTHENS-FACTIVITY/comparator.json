@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.SelectionCoverageBoundary.SelectionStrength.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.SelectionCoverageBoundary.SelectionStrength.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Explanation.SelectionCoverageBoundary.SelectionStrength.selectionStrength"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

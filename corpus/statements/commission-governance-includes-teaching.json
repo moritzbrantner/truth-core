@@ -1,0 +1,19 @@
+{
+  "id": "STMT-COMMISSION-GOVERNANCE-INCLUDES-TEACHING",
+  "paraphrase": "Open analyst calibration: the selected governing predicate holds exactly for the existing narrow table or the power to teach. This does not by itself establish an institutional act, actual power grant or the matching agency bridge.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.CommissionDefinitions.TeachingInclusiveGovernanceCriterion",
+  "definition_ids": [
+    "DEF-COMMISSION-GOVERNANCE-CALIBRATION",
+    "DEF-TEACHING-INCLUSIVE-GOVERNING-POWER",
+    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
+    "DEF-COMMISSION-REPORT-POWERS",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMMISSION-GOVERNANCE-CRITERIA",
+    "DISAMB-COMMISSION-REPORT-AND-EVENT",
+    "DISAMB-FOUNDED-BY-GOD",
+    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS"
+  ]
+}

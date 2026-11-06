@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Witness.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Witness.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Witness.reportsSupplyMatthew28"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "DIVINE-FOUNDING-DEFINITION-CASES",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-DIVINE-FOUNDING-READING-CASES-COVER",
+  "inference_ids": [
+    "INF-DIVINE-FOUNDING-DEFINITION-CASES"
+  ],
+  "meaning": "Logical case coverage with a precise remainder follows by two instances of excluded middle. It neither eliminates a case nor proves named-only coverage.",
+  "definition_ids": [
+    "DEF-PRINCIPAL-ACT-FOUNDING-READING",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+    "DEF-FOUNDED-BY-GOD-IMMEDIATELY",
+    "DEF-GOD-OF-CLASSICAL-THEISM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FOUNDED-BY-GOD",
+    "DISAMB-GOD"
+  ]
+}

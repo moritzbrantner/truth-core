@@ -1,0 +1,11 @@
+{
+  "id": "ENVOY-INCLUSIVE-DEFINITION-SUPPLIES-FOUNDING",
+  "argument_id": "ENVOY-INCLUSIVE-DEFINITION-SUPPLIES-FOUNDING",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Inclusive.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Inclusive.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Inclusive.inclusiveSuppliesEnvoy",
+  "comparator_config": "results/ENVOY-INCLUSIVE-DEFINITION-SUPPLIES-FOUNDING/comparator.json",
+  "status": "solution-present",
+  "description": "Definition-projection transcription: the envoy event is one disjunct in the explicitly assumed inclusive calibration. This conditional connection does not independently defend the definition or establish the old root premise.",
+  "transcription": "single_application"
+}

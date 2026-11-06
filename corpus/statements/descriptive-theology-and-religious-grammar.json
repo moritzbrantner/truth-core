@@ -1,0 +1,14 @@
+{
+  "id": "STMT-DESCRIPTIVE-THEOLOGY-AND-RELIGIOUS-GRAMMAR",
+  "paraphrase": "Modest analyst descriptive profile: defined moves are theological formulations and moves endorsed by the practice own standards belong to religious life. Content and practical role may overlap. This is not silently identified with the full older theology-not-grammar reconstruction.",
+  "lean_declaration": "TruthCore.Alternatives.ConciliarGrammarDefinitions.DescriptiveTheologyGrammar",
+  "definition_ids": [
+    "DEF-THEOLOGICAL-CONTENT-AND-RELIGIOUS-LIFE-ROLES",
+    "DEF-CONCILIAR-DEFINITION",
+    "DEF-PRACTICE-OWN-STANDARD",
+    "DEF-CORRECT-MOVE-IN-PRACTICE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THEOLOGICAL-FORMULATION-AND-NORMATIVE-GRAMMAR"
+  ]
+}

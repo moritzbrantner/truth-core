@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.ChurchDefinitions.Elimination.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.ChurchDefinitions.Elimination.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Case.Catholicism.StageThree.ChurchDefinitions.Elimination.namedEliminationSuppliesStageFive"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -1,0 +1,24 @@
+{
+  "id": "ATTEMPT-SEMANTIC-RIVAL-SCOPE",
+  "date": "2026-11-06",
+  "statement_ids": [
+    "STMT-TRUTH-IS-PROVABILITY-INTUITIONISM",
+    "STMT-THOUGHT-TRUE-OR-FALSE-BY-COMPOSITION",
+    "STMT-ANTIREALIST-ORDER-OF-EXPLANATION",
+    "STMT-REALIST-ORDER-OF-EXPLANATION",
+    "STMT-TLP-GOD-SENTENCES-NONSENSICAL",
+    "STMT-NATURAL-THEOLOGY-ARGUABLE",
+    "STMT-PLA-NONSENSE-READING",
+    "STMT-PLA-REDUCTIO-READING"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Broader alternative-edge audit found four consequential semantic-scope issues. Checked exact joint truth-as-provability/composition package with populated signed thoughts; removed false rival edge. Derived exact negative realist-order sibling from unchanged full anti-order plus existing OPEN asymmetry and moral witness; retained empty/populated compatibility and neither controls. Reclassified raw TLP/general arguability and PLA text-reading edges as interpretive attacks; new typed natural-theology profile separates meaningfulness, candidate/world-premise admission, consequence, independently OPEN warrant and finite-observation standards, with exact negative projection explicitly transcription and meaningful-but-unarguable populated control. Rejected treating opposite explanation directions as automatically incompatible, identifying finite profiles with historical accounts, conflating nonsense/falsity or logical consequence/warrant, and claiming named readings exhaustive. Actual-record synthetic-refutation regressions reproduce legacy false closure and verify corrected targets stay open; no actual raw rival refutation or floor change. Exact findings, proof boundaries and remaining profile/source/roster/criterion blockers persist in docs/notes/semantic-rival-scope.md.",
+  "evidence": [
+    "TRUTH-ACCOUNT-COMPATIBILITY",
+    "ANTIREALIST-ORDER-GUARDED-NOT-REALIST",
+    "EXPLANATORY-ORDER-RIVAL-CONTROLS",
+    "NO-DIVINE-SENSE-EXCLUDES-PROFILE-ARGUABILITY",
+    "NATURAL-THEOLOGY-SEMANTIC-SCOPE-CONTROLS"
+  ]
+}

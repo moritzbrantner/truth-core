@@ -1,0 +1,9 @@
+{
+  "id": "REL-EXACT-OPINER-NONMOTION-ALTERNATIVE-TO-OPINING-NORM",
+  "subject_kind": "statement",
+  "subject_id": "STMT-OPINER-LACKS-ITS-OPINION-MOTION",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-OPINION-IS-A-MOTION",
+  "note": "Exact matching-sense countertuple under the SAME designated respect; preserves the full stronger raw account separately. Refuting that stronger account alone does not exhaust denial of the universal norm."
+}

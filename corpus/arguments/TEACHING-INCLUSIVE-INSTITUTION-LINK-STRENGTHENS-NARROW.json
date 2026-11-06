@@ -1,0 +1,28 @@
+{
+  "id": "TEACHING-INCLUSIVE-INSTITUTION-LINK-STRENGTHENS-NARROW",
+  "premise_statement_ids": [
+    "STMT-CHURCH-TEACHING-INCLUSIVE-INSTITUTION-LINK"
+  ],
+  "conclusion_statement_id": "STMT-CHURCH-FOUNDED-IN-COMMISSIONED-APOSTLES",
+  "inference_ids": [
+    "INF-TEACHING-INCLUSIVE-INSTITUTION-LINK-STRENGTHENS-NARROW"
+  ],
+  "meaning": "The literal fixed broader bridge applies to every old narrow governing power by left-disjunct injection. Its only premise is the stronger link; the nonempty mismatch model proves the reverse is invalid.",
+  "definition_ids": [
+    "DEF-COMMISSION-GOVERNANCE-CALIBRATION",
+    "DEF-TEACHING-INCLUSIVE-GOVERNING-POWER",
+    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
+    "DEF-COMMISSION-REPORT-POWERS",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMMISSION-GOVERNANCE-CRITERIA",
+    "DISAMB-COMMISSION-REPORT-AND-EVENT",
+    "DISAMB-FOUNDED-BY-GOD",
+    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS"
+  ],
+  "strong_version_needed": {
+    "STMT-CHURCH-TEACHING-INCLUSIVE-INSTITUTION-LINK": "This certificate registers the literal broader institutional link as sole premise to the narrower original bridge."
+  }
+}

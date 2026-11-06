@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Witness.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Witness.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Witness.councilSuppliesDefinedMove"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

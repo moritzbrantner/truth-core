@@ -1,0 +1,9 @@
+{
+  "id": "REL-ADDITIONAL-GOVERNANCE-ALTERNATIVE-TO-NAMED-COVERAGE",
+  "subject_kind": "statement",
+  "subject_id": "STMT-COMMISSION-HAS-ADDITIONAL-GOVERNANCE-CRITERION",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-COMMISSION-NAMED-GOVERNANCE-CRITERIA-COVER",
+  "note": "A genuinely different selected criterion contradicts named coverage only. The controls give Other with opposite mandate-scope verdicts; it is not automatically a rival to the old institutional or mandate conclusion."
+}

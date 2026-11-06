@@ -1,0 +1,8 @@
+{
+  "id": "STMT-SCIENTISM-POINTWISE-NONEMPIRICAL-SCOPE",
+  "paraphrase": "Every nonempirical established claim lies in scope. This pointwise coverage is weaker than all-established coverage but stronger than the existential bridge; no universal scope is built in.",
+  "lean_declaration": "TruthCore.Logic.ScientismScopeBoundary.NonEmpiricalWitnessesInScope",
+  "definition_ids": [
+    "DEF-SCIENTISM-POINTWISE-COUNTEREXAMPLE-SCOPE"
+  ]
+}

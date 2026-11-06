@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Scope.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Scope.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Scope.theologyExclusionRejectsBridge"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

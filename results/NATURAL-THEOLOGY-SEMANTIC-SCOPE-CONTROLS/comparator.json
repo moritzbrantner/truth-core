@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.NaturalTheologySemanticScope.Controls.Challenge",
+  "solution_module": "TruthCore.Results.Logic.NaturalTheologySemanticScope.Controls.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.NaturalTheologySemanticScope.Controls.controls"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

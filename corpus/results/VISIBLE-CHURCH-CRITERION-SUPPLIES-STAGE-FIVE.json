@@ -1,0 +1,11 @@
+{
+  "id": "VISIBLE-CHURCH-CRITERION-SUPPLIES-STAGE-FIVE",
+  "argument_id": "VISIBLE-CHURCH-CRITERION-SUPPLIES-STAGE-FIVE",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.ChurchDefinitions.Visible.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.ChurchDefinitions.Visible.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.ChurchDefinitions.Visible.visibleCriterionSuppliesStageFive",
+  "comparator_config": "results/VISIBLE-CHURCH-CRITERION-SUPPLIES-STAGE-FIVE/comparator.json",
+  "status": "solution-present",
+  "description": "Definition-projection transcription: obtain the selected founded Church witness and preserve that same society through the visible calibration. This connects directly to the original stage-5 proposition, without supplying history or identity.",
+  "transcription": "assembly"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "COUNCIL-NATURAL-DEFINITION-SUPPLIES-DEFINED-WITNESS",
+  "argument_id": "COUNCIL-NATURAL-DEFINITION-SUPPLIES-DEFINED-WITNESS",
+  "challenge_module": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Witness.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Witness.Solution",
+  "theorem": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Witness.councilSuppliesDefinedMove",
+  "comparator_config": "results/COUNCIL-NATURAL-DEFINITION-SUPPLIES-DEFINED-WITNESS/comparator.json",
+  "status": "solution-present",
+  "description": "Project a weak actual Defined witness from the existing council-defined natural-knowability move. Assembly transcription; natural-knowability content is not needed for definition-status conflict.",
+  "transcription": "assembly"
+}

@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.ChurchDefinitions.Visible.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.ChurchDefinitions.Visible.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Case.Catholicism.StageThree.ChurchDefinitions.Visible.visibleCriterionSuppliesStageFive"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

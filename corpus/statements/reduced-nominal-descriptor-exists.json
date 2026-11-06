@@ -1,0 +1,20 @@
+{
+  "id": "STMT-REDUCED-NOMINAL-DESCRIPTOR-EXISTS",
+  "paraphrase": "Some being satisfies every antecedent of the reduced naming leaf: maximal in being, causes all being, and is the only maximum. Open witness premise; existence is not inferred from a description.",
+  "lean_declaration": "TruthCore.Alternatives.NameApplicationTransfer.ReducedDescriptorExists",
+  "definition_ids": [
+    "DEF-PROPER-TO-PRACTICE-REFERENCE-CALIBRATION",
+    "DEF-NAME-REFERS-IN-PRACTICE",
+    "DEF-GOD-NOMINAL-Q13",
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-GOD-AS-NAMED-IN-THE-SUMMA",
+    "DEF-MAXIME-ENS",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-NOMINAL-DEFINITION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NAME-APPLICATION",
+    "DISAMB-GOD",
+    "DISAMB-MAXIME-ENS"
+  ]
+}

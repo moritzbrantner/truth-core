@@ -1,0 +1,13 @@
+{
+  "id": "INF-PRACTICE-NO-REFERENCE-REJECTS-REDUCED-NAMING",
+  "input_statement_ids": [
+    "STMT-PROPER-REFERENCE-PRESERVED",
+    "STMT-GOD-NAMES-NO-BEING-WF-P1",
+    "STMT-REDUCED-NOMINAL-DESCRIPTOR-EXISTS"
+  ],
+  "output_statement_id": "STMT-REDUCED-NOMINAL-NAMING-FAILS",
+  "rule": "constructive-proof",
+  "meaning": "A reduced descriptor witness would be proper by the reduced naming leaf and a practice referent by transfer, contrary to no-reference. The witness and transfer are explicit prerequisites to this exact proper-profile negation.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

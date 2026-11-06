@@ -1,0 +1,10 @@
+{
+  "id": "FULL-DESCRIPTION-EXCLUDED-AFTER-REFERENCE-TRANSFER",
+  "argument_id": "FULL-DESCRIPTION-EXCLUDED-AFTER-REFERENCE-TRANSFER",
+  "challenge_module": "TruthCore.Results.Alternatives.NameApplicationTransfer.Description.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.NameApplicationTransfer.Description.Solution",
+  "theorem": "TruthCore.Results.Alternatives.NameApplicationTransfer.Description.properDescriptionExcluded",
+  "comparator_config": "results/FULL-DESCRIPTION-EXCLUDED-AFTER-REFERENCE-TRANSFER/comparator.json",
+  "status": "solution-present",
+  "description": "Translate only the proper naming leaf forward through the explicit transfer premise, then import the existing noBeingExcludesFullDescription theorem. The consequence excludes a full descriptor witness; without such a witness it is not a contradiction."
+}

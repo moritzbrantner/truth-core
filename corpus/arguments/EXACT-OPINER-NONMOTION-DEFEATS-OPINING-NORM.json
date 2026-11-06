@@ -1,0 +1,21 @@
+{
+  "id": "EXACT-OPINER-NONMOTION-DEFEATS-OPINING-NORM",
+  "premise_statement_ids": [
+    "STMT-OPINER-LACKS-ITS-OPINION-MOTION"
+  ],
+  "conclusion_statement_id": "STMT-OPINING-MOTION-NORM-FAILS",
+  "inference_ids": [
+    "INF-EXACT-OPINER-NONMOTION-DEFEATS-OPINING-NORM"
+  ],
+  "meaning": "An actual opiner lacking the SAME designated motion contradicts the old universal opining norm. No global-no-motion premise or historical-school identification is required.",
+  "definition_ids": [
+    "DEF-OPINING-MOTION-EXACT-COUNTERTUPLE",
+    "DEF-OPINING",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION",
+    "DISAMB-CHANGE-A-SERIES"
+  ]
+}

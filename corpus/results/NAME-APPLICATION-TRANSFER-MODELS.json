@@ -1,0 +1,10 @@
+{
+  "id": "NAME-APPLICATION-TRANSFER-MODELS",
+  "argument_id": "NAME-APPLICATION-TRANSFER-MODELS",
+  "challenge_module": "TruthCore.Results.Alternatives.NameApplicationTransfer.Models.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.NameApplicationTransfer.Models.Solution",
+  "theorem": "TruthCore.Results.Alternatives.NameApplicationTransfer.Models.transferModels",
+  "comparator_config": "results/NAME-APPLICATION-TRANSFER-MODELS/comparator.json",
+  "status": "solution-present",
+  "description": "Three explicit schema controls witness loss, inhabited agreement, and strictness of one-way preservation relative to coextension. No arbitrary predicate interpretation is claimed to establish classical theism or actual practice."
+}

@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Description.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Description.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Description.descriptionSuppliesTheology"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

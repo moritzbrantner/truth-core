@@ -1,0 +1,14 @@
+{
+  "id": "STMT-ARRANGEMENT-EXPLANATION-JUDGMENT-ACCEPTS-FALSE-CANDIDATE",
+  "paraphrase": "Some candidate accepted by the supplied judgment is false at the designated arrangement. Exact countercase to factivity and complete entailing selection. It is a possibly mistaken generic judgment, not an adequate explanation or a positive philosophical theory by stipulation.",
+  "lean_declaration": "TruthCore.Explanation.SelectionCoverageBoundary.AcceptedFalse",
+  "definition_ids": [
+    "DEF-ACCEPTED-EXPLANATION-TRUTHFULNESS-POLICY",
+    "DEF-LABELED-CHAIN-ARRANGEMENT",
+    "DEF-ARRANGEMENT-ENTAILING-SELECTION",
+    "DEF-HISTORY-SELECTION-INFORMATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-LABELED-ORDER-EXPLANATION"
+  ]
+}
