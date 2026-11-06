@@ -755,3 +755,47 @@ Their exact ID sets give intersection 45, baseline-only 11, current-only 37.
 `REL-MAXIME-ADDITIONAL-OPPOSES-COVERAGE` is current-only, introduced by the later
 maxime batch, and now appears in the additions table. This corrects the earlier
 mixed working roster; it changes no substantive disposition or formal artifact.
+
+### Further actual-use follow-through
+
+The ten precise physical-definition dispositions are now delivered in #1167
+(`0ff1fc65`), with the exact consumer table in
+[local contact composition](notes/local-contact-composition.md). That batch
+checks global-to-local touching-chain composition strength, derives the SAME
+old local-regress endpoint with the other three premises retained, and exports
+an actual relevant chain/whole plus an unrelated touching chain without a whole.
+Computed root126→126, route30 unchanged. The existing literal/per-se mover and
+physical/broad-scope distinctions remain explicit and open where appropriate.
+
+#1112's typed series distinction (#1163) and the later old-record metadata
+correction (#1168) are both delivered. The old source reading remains explicitly
+unformalized rather than advertised through an opaque conjunction; its typed
+analyst sibling does not prove the source's entire verbal thesis. Temporal and
+removal bridges remain OPEN. #1169 now provides a separate pending 20-consumer
+strength audit: eleven redundant uses with reduced siblings/subsets, five
+checked replacement failures, and four unresolved full-bundle weakenings. The
+latter are current-proof dependencies, not global necessity claims.
+
+All 124 Causality-namespace definition texts in the parent 355-use snapshot have
+now been read as discovery. This is **not** certification of all their consumer
+proofs. It has identified a further consequential asymmetry scope restriction:
+the maximum-based whole-roster, unique-root and classical-God-root consumers use
+reverse-edge exclusion only at their SAME maximal-in-esse candidate. The new
+[pointwise asymmetry batch](notes/maximal-grounding-asymmetry.md) encodes that
+weaker OPEN policy, retains actual/concrete guards, composes the exact old
+endpoints and exports a populated three-node interpretation with reciprocal
+nonmaximal dependents. It preserves the original global policy and source
+findings; rejection of the stronger policy does not imply the weaker one.
+The five checked result declarations and exact frontier comparison are reported
+in that batch's PR; it is pending delivery, not a new floor or root discharge.
+
+A separate stale scope note was found at `DEF-COUNT-TEMPORAL-THRESHOLD`: its
+cause-time weakening is no longer merely future work. The existing
+`CountCauseTimeNecessity.opportunityOfOld` derives it from the two old count
+inputs, and the registered five-input `COUNT-CAUSE-TIME-NECESSITY` retains its
+cause witness. The full module and exact result interface were read. This is
+already encoded; it does not justify a new duplicate fork or interpreting the
+case-count marker as ordinary individual causation. Its helper is not yet indexed by an argument/inference/result leading to the
+existing opportunity proposition. A distinct bounded child is registering that
+two-input connection and correcting the navigation note; it is not a sole-premise
+strength relation, a duplicate theory, or a philosophical discharge.

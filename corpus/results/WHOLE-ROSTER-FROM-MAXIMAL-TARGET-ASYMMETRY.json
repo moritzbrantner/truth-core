@@ -1,0 +1,10 @@
+{
+  "id": "WHOLE-ROSTER-FROM-MAXIMAL-TARGET-ASYMMETRY",
+  "argument_id": "WHOLE-ROSTER-FROM-MAXIMAL-TARGET-ASYMMETRY",
+  "challenge_module": "TruthCore.Results.Causality.MaximalGroundingAsymmetry.WholeRoster.Challenge",
+  "solution_module": "TruthCore.Results.Causality.MaximalGroundingAsymmetry.WholeRoster.Solution",
+  "theorem": "TruthCore.Results.Causality.MaximalGroundingAsymmetry.WholeRoster.wholeRoster",
+  "comparator_config": "results/WHOLE-ROSTER-FROM-MAXIMAL-TARGET-ASYMMETRY/comparator.json",
+  "status": "solution-present",
+  "description": "Derive the SAME actual maximum/root using the five unchanged population/E/F/I/H inputs and explicit EM; reverse-edge exclusion is used only with that maximum as target. Compose the existing wholeRosterOfRoot theorem into the EXACT WholeRosterNotTrapped endpoint. No well-foundedness, full-domain asymmetry, reciprocity ban among nonmaximal dependents, necessity or philosophical warrant is silently added."
+}

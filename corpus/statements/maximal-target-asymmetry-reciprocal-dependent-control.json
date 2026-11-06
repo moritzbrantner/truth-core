@@ -1,0 +1,12 @@
+{
+  "id": "STMT-MAXIMAL-TARGET-ASYMMETRY-RECIPROCAL-DEPENDENT-CONTROL",
+  "paraphrase": "One exact three-node, one-world interpretation exports actual population, existing-to-esse, direct esse-cause-to-ground, fixed-esse genus causality, fixed-esse grades-to-maximum and maximal-target asymmetry. The root is actual and maximal. Two distinct actual nonmaximal dependents ground each other, so global actual grounding asymmetry fails. EM is not proved by this constructive nonlogical control; it remains an explicit route premise. This is not the old full25 Control, a full attribute model or a claim of metaphysical possibility.",
+  "lean_declaration": "TruthCore.Causality.MaximalGroundingAsymmetry.PopulatedStrictness",
+  "definition_ids": [
+    "DEF-MAXIMAL-TARGET-GROUNDING-ASYMMETRY",
+    "DEF-ACTUAL-GROUNDING-ASYMMETRIC",
+    "DEF-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
+    "DEF-GRADES-TO-MAXIMUM-AT-BEING",
+    "DEF-MAXIMUM-IN-A-PERFECTION"
+  ]
+}

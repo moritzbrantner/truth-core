@@ -12,5 +12,6 @@
     "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
     "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
     "DISAMB-CONCRETE-ABSTRACT-CRITERIA"
-  ]
+  ],
+  "note": " Scope audit: the maximum-based whole-roster/root consumers only use reverse-edge exclusion at their SAME selected maximal-in-esse candidate. STMT-ACTUAL-GROUNDING-ASYMMETRIC-AT-MAXIMAL-TARGET is a separate weaker sufficient framework input, with sole-premise strength and a populated reciprocal-nonmaximal-dependent strictness control. This does not establish either policy, identify grounds with direct production, or change the original universal proposition/source readings. See docs/notes/maximal-grounding-asymmetry.md."
 }

@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-CLASSICAL-GOD-ROOT-FROM-MAXIMAL-TARGET-ASYMMETRY",
+  "argument_id": "NECESSARY-CLASSICAL-GOD-ROOT-FROM-MAXIMAL-TARGET-ASYMMETRY",
+  "challenge_module": "TruthCore.Results.Causality.MaximalGroundingAsymmetry.GodRoot.Challenge",
+  "solution_module": "TruthCore.Results.Causality.MaximalGroundingAsymmetry.GodRoot.Solution",
+  "theorem": "TruthCore.Results.Causality.MaximalGroundingAsymmetry.GodRoot.derive",
+  "comparator_config": "results/NECESSARY-CLASSICAL-GOD-ROOT-FROM-MAXIMAL-TARGET-ASYMMETRY/comparator.json",
+  "status": "solution-present",
+  "description": "Explicit25-input composition: replace ONLY global actual-grounding asymmetry by the weaker same-dictionary maximal-target policy, derive whole-roster nontrapping, then import the original25-input root theorem with all other24 inputs unchanged. The exact NecessaryClassicalGodRootAt endpoint and all infinity/eternity/naming/intellect/goodness/generic-potency/application boundaries remain. This is a conditional weaker sufficient configuration, not premise truth or Catholicism closure."
+}

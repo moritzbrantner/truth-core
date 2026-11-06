@@ -1,0 +1,10 @@
+{
+  "id": "REL-GLOBAL-GROUNDING-ASYMMETRY-STRENGTHENS-MAXIMAL-TARGET",
+  "subject_kind": "statement",
+  "subject_id": "STMT-ACTUAL-GROUNDING-ASYMMETRIC",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "STMT-ACTUAL-GROUNDING-ASYMMETRIC-AT-MAXIMAL-TARGET",
+  "verification_result_id": "ACTUAL-GROUNDING-ASYMMETRY-STRENGTHENS-MAXIMAL-TARGET",
+  "note": "Sole-premise checked restriction in the SAME selected-world/actual/concrete/maximal-esse dictionary; strict in the populated reciprocal-dependent control. Maximality is supplied independently, not defined as roothood."
+}

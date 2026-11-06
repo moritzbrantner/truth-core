@@ -1,0 +1,12 @@
+{
+  "id": "STMT-ACTUAL-GROUNDING-ASYMMETRIC-AT-MAXIMAL-TARGET",
+  "paraphrase": "For actual concreta a,b at the selected world, if b is maximal in the SAME supplied esse dictionary and grounds a b, then not grounds b a. Reciprocal grounding among nonmaximal dependents is left open. This weaker sufficient local policy is not adopted as true or as the definition of grounding.",
+  "lean_declaration": "TruthCore.Causality.MaximalGroundingAsymmetry.AtMaximalTarget",
+  "definition_ids": [
+    "DEF-MAXIMAL-TARGET-GROUNDING-ASYMMETRY",
+    "DEF-ACTUAL-GROUNDING-ASYMMETRIC",
+    "DEF-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
+    "DEF-GRADES-TO-MAXIMUM-AT-BEING",
+    "DEF-MAXIMUM-IN-A-PERFECTION"
+  ]
+}

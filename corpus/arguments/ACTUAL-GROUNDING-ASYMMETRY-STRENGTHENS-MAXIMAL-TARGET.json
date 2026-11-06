@@ -1,0 +1,21 @@
+{
+  "id": "ACTUAL-GROUNDING-ASYMMETRY-STRENGTHENS-MAXIMAL-TARGET",
+  "premise_statement_ids": [
+    "STMT-ACTUAL-GROUNDING-ASYMMETRIC"
+  ],
+  "conclusion_statement_id": "STMT-ACTUAL-GROUNDING-ASYMMETRIC-AT-MAXIMAL-TARGET",
+  "inference_ids": [
+    "INF-ACTUAL-GROUNDING-ASYMMETRY-STRENGTHENS-MAXIMAL-TARGET"
+  ],
+  "meaning": "Sole-premise same-dictionary scope restriction: full actual grounding asymmetry implies maximal-target asymmetry. A populated reciprocal-dependent control refutes the converse without assuming the old full25 attribute background.",
+  "definition_ids": [
+    "DEF-MAXIMAL-TARGET-GROUNDING-ASYMMETRY",
+    "DEF-ACTUAL-GROUNDING-ASYMMETRIC",
+    "DEF-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
+    "DEF-GRADES-TO-MAXIMUM-AT-BEING",
+    "DEF-MAXIMUM-IN-A-PERFECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING"
+  ]
+}

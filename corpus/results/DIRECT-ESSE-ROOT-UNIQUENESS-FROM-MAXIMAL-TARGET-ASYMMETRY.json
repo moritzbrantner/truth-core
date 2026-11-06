@@ -1,0 +1,10 @@
+{
+  "id": "DIRECT-ESSE-ROOT-UNIQUENESS-FROM-MAXIMAL-TARGET-ASYMMETRY",
+  "argument_id": "DIRECT-ESSE-ROOT-UNIQUENESS-FROM-MAXIMAL-TARGET-ASYMMETRY",
+  "challenge_module": "TruthCore.Results.Causality.MaximalGroundingAsymmetry.UniqueRoot.Challenge",
+  "solution_module": "TruthCore.Results.Causality.MaximalGroundingAsymmetry.UniqueRoot.Solution",
+  "theorem": "TruthCore.Results.Causality.MaximalGroundingAsymmetry.UniqueRoot.uniqueRoot",
+  "comparator_config": "results/DIRECT-ESSE-ROOT-UNIQUENESS-FROM-MAXIMAL-TARGET-ASYMMETRY/comparator.json",
+  "status": "solution-present",
+  "description": "Import the new weak-asymmetry whole-roster consequence and the existing fixed-esse uniqueRoot theorem at the SAME dictionaries. Replace only global asymmetry in the prior eight-input route; contingent dependence still supplies necessity. Endpoint uniqueness remains selected actual roots, not all necessary individuals or all-world roots."
+}

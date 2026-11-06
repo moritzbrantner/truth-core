@@ -1,0 +1,16 @@
+{
+  "id": "MAXIMAL-TARGET-ASYMMETRY-RECIPROCAL-DEPENDENT-STRICTNESS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-MAXIMAL-TARGET-ASYMMETRY-RECIPROCAL-DEPENDENT-CONTROL",
+  "inference_ids": [
+    "INF-MAXIMAL-TARGET-ASYMMETRY-RECIPROCAL-DEPENDENT-STRICTNESS"
+  ],
+  "meaning": "Populated constructive three-node scope control retains all five other nonlogical whole-roster interfaces and an actual maximal root while two distinct actual nonmaximal dependents ground each other. Maximal-target asymmetry holds, full asymmetry fails. It proves no EM, actual causal interpretation, full25 background, metaphysical possibility or explanatory adequacy.",
+  "definition_ids": [
+    "DEF-MAXIMAL-TARGET-GROUNDING-ASYMMETRY",
+    "DEF-ACTUAL-GROUNDING-ASYMMETRIC",
+    "DEF-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
+    "DEF-GRADES-TO-MAXIMUM-AT-BEING",
+    "DEF-MAXIMUM-IN-A-PERFECTION"
+  ]
+}
