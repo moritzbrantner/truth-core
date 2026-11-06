@@ -369,7 +369,7 @@ Exact reviewed Mereology disambiguations: `DISAMB-SUM1-AND-SUM2-FUSION`, `DISAMB
 At the ecabfd9d+modal-repair snapshot, a mechanical check found zero argument
 premises without a Lean declaration. This is an inventory result, not a semantic
 adequacy claim: an existing declaration can still use the wrong sense or scope.
-The 57-edge `alternative_to` snapshot is being reviewed at exact endpoints.
+The 57-entry mixed working `alternative_to` roster (56 baseline edges plus a later maxime-coverage edge) is being reviewed at exact endpoints.
 Removing only a target's own floor in actual-record copies leaves EM, causal
 concreteness, general change, movedness and thin epistemic reasons unestablished.
 The independently floored case noncontradiction still has an exact classical
@@ -481,7 +481,7 @@ Concrete remaining endpoint work includes accepted explanation truth versus
 truthful nonselection; exact general no-change versus the stronger McTaggart
 bundle; explicit WF/descending-chain coverage using the existing classical
 coincidence theorem; the untyped quantifier-shift-versus-plenitude textual
-interpretation edge; and final dispositions of all 57 baseline rival edges against
+interpretation edge; and final dispositions of all 56 baseline rival edges against
 the integrated delivery head. The authority lane is correcting two further
 OnlyMessage endpoints with actual mandate/founding witnesses and distinguishing
 local face-value language from cross-discourse semantic uniformity. Broader
@@ -493,10 +493,13 @@ the completed resolution-text sweep does not substitute for those tasks.
 
 ### Exact rival-edge dispositions and remaining use coverage
 
-This ledger revisits every **57 baseline** `alternative_to` record at
+This ledger revisits every **56 baseline** `alternative_to` record at
 85e1e24371136494f8ee937534155f751f0527ca. The integrated comparison snapshot is
 `c39cdc1c8b2b10abbb5efa658f5dff07220eed4f`. “Pending” identifies a published correction that is not in this
 snapshot; it is not an assertion that the old endpoint has already changed.
+The earlier temporary 57-entry roster mixed in the maxime-coverage edge added
+after the baseline. Exact Git JSON sets correct that count: 56 baseline, 45
+retained, 11 removed/changed, 37 added, 82 at the comparison snapshot.
 The table records consequential scope and proof boundaries, not merely shared
 words. Existing source accounts, approvals and frozen Challenges remain intact.
 
@@ -512,7 +515,6 @@ words. Existing source accounts, approvals and frozen Challenges remain intact.
 | `REL-KRIPKE-NO-FACT-ALTERNATIVE-TO-PU-GRASP-NOT-INTERPRETATION` | attacks | #1154 makes this interpretive attacks: no-fact report does not negate noninterpretive grasp by itself. |
 | `REL-OCCASIONALIST-MOVER-LINK-WITHOUT-CAUSE-ALTERNATIVE-TO-PER-SE-MOVER-LINK-IS-PER-SE-CAUSE-LINK` | alternative_to | Exact link/noncause envelope in the same per-se predicates; not a formalization of every occasionalist doctrine. |
 | `REL-GLOBAL-EPISTEMIC-NIHILISM-ALTERNATIVE-TO-THERE-ARE-EPISTEMIC-REASONS` | alternative_to | Exact ∀ no-reason versus ∃ reason in the same reason relation; F6 approval preserved. |
-| `REL-MAXIME-ADDITIONAL-OPPOSES-COVERAGE` | alternative_to | Actual additional scoped definition opposes named coverage only; existing certified maxime fork reused. |
 | `REL-WF-CUT-OFF-ALTERNATIVE-TO-REVELATION-RECOGNIZABLE` | alternative_to | #1136 distinguishes actual/possible recognition, admitted situations and capability/nonempty God guards. |
 | `REL-UNQUALIFIED-ALL-OPINIONS-TRUE-ALTERNATIVE-TO-ITS-FAILURE` | alternative_to | Exact doctrine versus its negation; self-application remains conditional on explicit scope/disquotation. |
 | `REL-ACTUALITY-WITHOUT-BEING-ALTERNATIVE-TO-ACTUALITY-ONLY-INSOFAR-AS-BEING` | alternative_to | Exact actual-without-esse countertuple under the same InAct/respect dictionary. |
@@ -561,7 +563,7 @@ words. Existing source accounts, approvals and frozen Challenges remain intact.
 | `REL-NATURAL-REASON-HORIZON-ALTERNATIVE-TO-NATURAL-REASON-SHARED` | alternative_to | #1142 pending: theological horizon can coexist with outsider use; actual exclusive insulation/witness required. |
 
 At that exact integrated snapshot there are **82** `alternative_to` records:
-46 retained baseline records and **36 additions**. Eleven baseline records were
+45 retained baseline records and **37 additions**. Eleven baseline records were
 removed or changed to attacks; this is not eleven refutations. The additions
 below were checked against their actual statement/paraphrase and declared
 profile. Exact complements and calibrated remainders serve different purposes.
@@ -569,6 +571,7 @@ A remainder opposing coverage does not automatically oppose an old conclusion.
 
 | Added rival statement | Exact target | Scope / consequence boundary |
 |---|---|---|
+| `STMT-MAXIME-ADDITIONAL-DEFINITION` | `STMT-MAXIME-NAMED-DEFINITIONS-COVER` | Actual scoped additional definition opposes the named-coverage hypothesis, not the maxime conclusion. This later edge is absent from the baseline; existing certified maxime fork reused. |
 | `STMT-ACCEPTED-ARRANGEMENT-EXPLANATION-FACTIVITY-FAILS` | `STMT-ACCEPTED-ARRANGEMENT-EXPLANATIONS-ARE-TRUE` | Exact matching-profile negation, preserving all stronger source/analyst accounts separately. Conditional proof is not independent warrant or an actual historical refutation. |
 | `STMT-ACTUAL-MOVED-NOT-POTENT-COUNTERTUPLE` | `STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY` | Exact unrefuted analyst countertuple. Existing stronger occasionalist candidate remains intact; refuting a full re-creation story would not eliminate every moved/not-potent tuple. Structural coverage is explicit in MOVED-POTENCY-EXACT-COUNTERCASE-FORK. |
 | `STMT-CHURCH-HAS-ADDITIONAL-CRITERION` | `STMT-CHURCH-NAMED-CRITERIA-COVER` | The selected extension matches none of the three named criteria. It contradicts named coverage, not the original stage-5 statement: separate controls witness it with either target verdict. |
@@ -745,3 +748,10 @@ Both are pending review/CI at this ledger revision. The latter exhibits a
 nonempty well-founded essential order and infinite history on the same members;
 old opaque source conjunction is preserved and temporal/removal bridges remain
 OPEN. Neither is counted as a merged repair or premise discharge here.
+
+The ledger counts were rechecked from `git archive <ref> corpus/relations` at
+both exact refs, parsing every JSON and filtering `predicate == alternative_to`.
+Their exact ID sets give intersection 45, baseline-only 11, current-only 37.
+`REL-MAXIME-ADDITIONAL-OPPOSES-COVERAGE` is current-only, introduced by the later
+maxime batch, and now appears in the additions table. This corrects the earlier
+mixed working roster; it changes no substantive disposition or formal artifact.
