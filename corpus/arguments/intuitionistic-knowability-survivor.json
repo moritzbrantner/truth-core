@@ -1,0 +1,16 @@
+{
+  "id": "INTUITIONISTIC-KNOWABILITY-SURVIVOR",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-INTUITIONISTIC-KNOWABILITY-SURVIVOR",
+  "inference_ids": [
+    "INF-INTUITIONISTIC-KNOWABILITY-SURVIVOR"
+  ],
+  "meaning": "Construct and verify one same three-world persistent-content model. Import the earlier epistemic frame certificate through its explicit three-world restriction; prove relational knowledge/possibility preserve the contents without adding worlds, check the individual algebraic epistemic laws, and witness full knowability and precise relevant stability/EM failure. This is a semantic-profile counterconfiguration, not a counterexample to old pointwise Lean Prop results, a refutation of the classical floor, a historical claim or root discharge.",
+  "definition_ids": [
+    "DEF-INTUITIONISTIC-PERSISTENT-CONTENTS",
+    "DEF-INTUITIONISTIC-KNOWABILITY-OPERATORS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-INTUITIONISTIC-FORCING-AND-NONFORCING"
+  ]
+}

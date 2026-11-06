@@ -12,7 +12,9 @@ import TruthCore.Results.Logic.ExcludedMiddleIffDne.Solution
 import TruthCore.Results.Logic.ExcludedMiddleIrrefutable.Solution
 import TruthCore.Results.Logic.ExcludedMiddleNotDeniable.Solution
 import TruthCore.Results.Logic.FallibleCorrection.Solution
+import TruthCore.Results.Logic.FiniteValidationLogic.Solution
 import TruthCore.Results.Logic.FitchKnowability.Solution
+import TruthCore.Results.Logic.IntuitionisticKnowability.Solution
 import TruthCore.Results.Logic.JustificationIntrospection.Solution
 import TruthCore.Results.Logic.KnowabilityCompatibility.Solution
 import TruthCore.Results.Logic.KnowledgeRetorsion.Solution

@@ -1,0 +1,10 @@
+{
+  "id": "FINITE-VALIDATION-SAMPLING",
+  "argument_id": "FINITE-VALIDATION-SAMPLING",
+  "challenge_module": "TruthCore.Results.Logic.FiniteValidationLogic.Challenge",
+  "solution_module": "TruthCore.Results.Logic.FiniteValidationLogic.Solution",
+  "theorem": "TruthCore.Results.Logic.FiniteValidationLogic.samplingCertificate",
+  "comparator_config": "results/FINITE-VALIDATION-SAMPLING/comparator.json",
+  "status": "solution-present",
+  "description": "For every finite discrete measurable domain, arbitrary probability measure μ, supplied truthful binary labeling, fixed binary hypothesis and sample size n, zero-error validation under the genuine independent product μ^n has probability (1−error)^n. For every finite pool fixed independently of validation data and every ENNReal epsilon≤1, the probability that some member has actual deployment error strictly above epsilon yet passes is at most |pool|*(1−epsilon)^n. n=0 and the empty pool are included; no good member or realizability is assumed and abstention is allowed. These are repeated-sampling conditional guarantees, not calibration of an actual environment, posterior confidence conditional on passing, categorical warrant or root closure."
+}
