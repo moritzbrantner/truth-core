@@ -3,6 +3,7 @@ import TruthCore.Mereology.ArrangementDynamics
 import TruthCore.Mereology.AtomlessFusionProfile
 import TruthCore.Mereology.FusionNoNecessaryParts
 import TruthCore.Mereology.GenusCauseBoundary
+import TruthCore.Mereology.MaterialConstitutionScope
 import TruthCore.Mereology.NecessaryPartFusionDecomposition
 import TruthCore.Mereology.ProcessTurnover
 import TruthCore.Mereology.SumOneComplementation

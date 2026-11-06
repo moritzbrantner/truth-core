@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MATERIAL-SLICE-COINCIDENCE",
+  "term": "time-indexed material constituent coincidence",
+  "definition": "Coincident c t x y requires the very same material tokens at time t and a nonempty token slice. It does not assert equal mass, shape, all mereological parts or bearer identity. SliceIdentity is the separately tested bridge from any such coincidence to ordinary numerical bearer equality. Divergent e t x y says x is absent and y present at the same time in one history, not different modal worlds.",
+  "basis": "stipulative",
+  "note": "Analyst reconstruction, attribution deferred (#1075). Physical, modal and persistence applicability remain OPEN. See docs/notes/material-constitution-scope.md.",
+  "lean_declaration": "TruthCore.Mereology.MaterialConstitutionScope.Coincident"
+}

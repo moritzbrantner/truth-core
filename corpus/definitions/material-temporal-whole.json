@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MATERIAL-TEMPORAL-WHOLE",
+  "term": "globally extensional temporal occurrence whole",
+  "definition": "Whole is a nonempty Mathlib set of Bool-time/Unit-token pairs, ordered by subset as global parthood. Slice membership at t is wholeMaterial; wholeExists is nonempty membership at t. Ordinary equality of Whole is global set extensionality, and common nonempty subset parthood is UniversalFusionBoundary.Overlap. A whole is a part of itself, so token coincidence cannot imply equality of all parts. Global extensionality concerns every represented time, not just the initial slice. No actual object is inferred to be a temporal whole.",
+  "basis": "stipulative",
+  "note": "Analyst reconstruction, attribution deferred (#1075). Physical, modal and persistence applicability remain OPEN. See docs/notes/material-constitution-scope.md.",
+  "lean_declaration": "TruthCore.Mereology.MaterialConstitutionScope.Whole"
+}
