@@ -1,0 +1,8 @@
+{
+  "id": "DEF-CONCRETE-SPATIOTEMPORAL-CRITERION",
+  "term": "concrete by spatiotemporal occupation (rival criterion)",
+  "definition": "SpatiotemporalCriterionConcrete occupies x := ∃ r, occupies x r, for a supplied occupation relation: concrete iff it occupies some region. It is a sibling sense, not the adopted one. The corpus has no shared location vocabulary, so the occupation relation is supplied.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Ontology.ConcreteAbstract.SpatiotemporalCriterionConcrete",
+  "note": "SEP 'Abstract Objects' §3.1 (navigation): the non-spatiality criterion, with chess, impure sets and the parts of space as hard cases. Rejected as the adopted sense because it classifies immaterial agents (God, angels, souls) as non-concrete; together with the owner's causal principle, God could then not cause."
+}

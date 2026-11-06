@@ -66,13 +66,13 @@ def UseCaseBridgeReading (C : CasedPractice Being) : Prop :=
 
 /-- Case-2 evidence (`STMT-ORDINARY-USE-AFFIRMS-NATURAL-KNOWABILITY`): some move of
 ordinary use affirms that God can be known by the natural light of reason
-(the catechesis ordinary believers receive; CCC 36 repeats Dei Filius, but no Catechism page could be pinned). -/
+(the catechesis ordinary believers receive; CCC 36 repeats Dei Filius, pinned in the official English translation). -/
 def OrdinaryUseAffirmsNaturalKnowabilityReading (C : CasedPractice Being) : Prop :=
   ∃ m, C.AffirmsNaturalKnowability m ∧ C.InOrdinaryUse m
 
 /-- Case-2 evidence (`STMT-ORDINARY-USE-CONFESSES-ONE-TRUE-GOD`): some move of
 ordinary use confesses, with the name `god`, that there is a being it names
-(the creed professed by believers, first article). -/
+(the creed professed by believers; CCC 185-189, 199-200). -/
 def OrdinaryUseConfessesGodReading (C : CasedPractice Being) (god : C.Name) : Prop :=
   ∃ m, C.ConfessesReferent m god ∧ C.InOrdinaryUse m
 

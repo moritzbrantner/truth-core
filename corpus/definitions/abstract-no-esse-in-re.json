@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ABSTRACT-NO-ESSE-IN-RE",
+  "term": "abstract: no esse in re (adopted sense)",
+  "definition": "EsseAbstract InAct esse x := ¬ InAct x esse: the contradictory of DEF-CONCRETE-ESSE-IN-RE. An abstract candidate has no esse in re; at most it has being in the intellect, as the number 2 or a universal does. There are no borderline cases. Disjointness from concrete follows by non-contradiction and exhaustiveness from excluded middle (EsseDichotomy, result CONCRETE-ABSTRACT-ESSE-DICHOTOMY).",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Ontology.ConcreteAbstract.EsseAbstract",
+  "note": "Owner's adopted sense (#1103, 2026-11-06): abstract things have no esse in re, at most esse in the mind. A later owner change on the same day excluded borderline cases: 'We have these words in order to draw a line. The same way we have words like dead and alive, inside or outside.' (https://github.com/moritzbrantner/truth-core/issues/1103#issuecomment-6683816810). 'At most in the intellect' is orientation from De ente c.2 (AQUINAS-DE-ENTE-C2-NATURE-DUPLEX-ESSE) and ST I q.85 a.1 ad 2 (AQUINAS-ST-I-Q85-A1-AD2-MATHEMATICALS-ABSTRACTED); it is not a further condition of the definition. The SEP mind-dependence objections (§3: impure sets, abstract artifacts) bear on the Fregean rival DEF-ABSTRACT-FREGE-CRITERION, not on this sense."
+}

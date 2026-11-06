@@ -9,11 +9,13 @@
   "date": "2026-11-06",
   "kind": "derivation",
   "outcome": "succeeded",
-  "summary": "Owner decision 2026-11-06: cover who fixes the grammar by cases. Partition from excluded middle (authorities / ordinary use / neither). Authority cell: composed from the two earlier defeats through the case bridge. Ordinary-use cell: the creed's first article (pinned Greek) supports, but does not state, that ordinary use confesses the one true God; the Catechism (CCC 12, 31-38, 185-202, read in the Latin typical edition) would support that ordinary use affirms natural knowability, but no Catechism page could be pinned: vatican.va serves byte variants of its catechism_lt pages (CI fetched different bytes for each page tried), so the ordinary-use knowability premise is bare. The neither cell is recorded as held by no source; it survives (certified model). No survey data is pinned: none found as a legitimately hosted, pinnable dataset with a scope matching 'ordinary Catholic use'.",
+  "summary": "Owner decision 2026-11-06: cover who fixes the grammar by cases. Partition from excluded middle (authorities / ordinary use / neither). Authority cell: composed from the two earlier defeats through the case bridge. Ordinary-use cell: the creed's first article (pinned Greek) supports, but does not state, that ordinary use confesses the one true God; the Catechism (CCC 12, 31-38, 185-202, read in the Latin typical edition) would support that ordinary use affirms natural knowability, but no Catechism page could be pinned: vatican.va serves byte variants of its catechism_lt pages (CI fetched different bytes for each page tried), so the ordinary-use knowability premise is bare. The neither cell is recorded as held by no source; it survives (certified model). No survey data is pinned: none found as a legitimately hosted, pinnable dataset with a scope matching 'ordinary Catholic use'. Superseded on 2026-11-06 by ATTEMPT-CATECHISM-STABLE-WITNESS-1010: the Catechism is now pinned in the official English translation, so the ordinary-use knowability premise is supported (CCC 36-38, 31-34) and the confession premise has Catechism support (CCC 185-189, 199-200) beside the creed; the Latin pinning failure above stays as history.",
   "evidence": [
     "FIDEISM-FAILS-IN-AUTHORITY-AND-USE-CASES",
     "FIDEISM-GRAMMAR-CASES-PARTITION",
-    "CREED-C381-ART-01"
+    "CREED-C381-ART-01",
+    "CCC-36-NATURAL-KNOWABILITY-TAUGHT",
+    "CCC-199-200-I-BELIEVE-IN-GOD"
   ],
-  "blocker": "Case 2 is weak: the knowability premise is bare (the Catechism could not be pinned) and the confession premise only supported by the creed text; both case bridges and the shared-reason reading are open."
+  "blocker": "Both ordinary-use evidence premises are supported, not stated (Catechism in translation, creed text); both case bridges and the shared-reason reading are open."
 }

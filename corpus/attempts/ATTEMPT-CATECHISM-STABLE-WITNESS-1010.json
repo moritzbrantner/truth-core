@@ -1,0 +1,18 @@
+{
+  "id": "ATTEMPT-CATECHISM-STABLE-WITNESS-1010",
+  "statement_ids": [
+    "STMT-ORDINARY-USE-AFFIRMS-NATURAL-KNOWABILITY",
+    "STMT-ORDINARY-USE-CONFESSES-ONE-TRUE-GOD"
+  ],
+  "date": "2026-11-06",
+  "kind": "source-search",
+  "outcome": "succeeded",
+  "summary": "Owner decision 2026-11-06: find a byte-stable Catechism witness. Tried: the Latin typical edition on vatican.va (archive/catechism_lt): several byte variants, CI fetched different bytes for every page (earlier PR #1101); Wayback: unreachable from the pinning environment (CDX and capture requests time out); USCCB flipbook: behind a bot-challenge page; parish hosts (scborromeo.org, catholicculture.org): stable but not official. Pinned: the official English translation on vatican.va (archive/ENG0015 __PA, __PB, __P14, __P16) as raw page bytes, byte-stable over ten fetches with the source-evidence User-Agent; claims carry basis translation. The ordinary-use knowability premise moves from bare to supported; the confession premise gains Catechism support beside the creed.",
+  "evidence": [
+    "CCC-36-NATURAL-KNOWABILITY-TAUGHT",
+    "CCC-31-WAYS-CONVERGING-ARGUMENTS",
+    "CCC-185-189-CREED-PROFESSED",
+    "CCC-199-200-I-BELIEVE-IN-GOD"
+  ],
+  "blocker": "CI stability of the English pages is checked only by this PR's runs. If a later verification reports byte drift, the witness check fails and must be repaired (re-pin after a fidelity re-read) or the affected claims and supports withdrawn; the frontier does not downgrade the premise by itself. A Latin witness remains the upgrade."
+}

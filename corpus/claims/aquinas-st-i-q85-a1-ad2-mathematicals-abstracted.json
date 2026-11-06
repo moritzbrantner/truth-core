@@ -1,0 +1,15 @@
+{
+  "id": "AQUINAS-ST-I-Q85-A1-AD2-MATHEMATICALS-ABSTRACTED",
+  "statement_id": "STMT-AQUINAS-MATHEMATICALS-ABSTRACTED-BY-INTELLECT-NOT-IN-RE",
+  "source_id": "AQUINAS-ST",
+  "locator": "I q.85 a.1 ad 2 [32018]: quantitates, ut numeri et dimensiones et figurae ... possunt considerari absque qualitatibus sensibilibus ... Plato ... omnia quae diximus abstrahi per intellectum, posuit abstracta esse secundum rem",
+  "interpretation": "ad 2: quantities such as numbers, dimensions and figures can be considered by the intellect without sensible qualities, i.e. abstracted from sensible matter, though not from common intelligible matter; Plato, not considering the two modes of abstraction, 'omnia quae diximus abstrahi per intellectum, posuit abstracta esse secundum rem'. ad 1 (same passage) adds that to abstract by simple consideration what is not abstract secundum rem involves no falsity, because 'alius sit modus intelligentis in intelligendo, quam modus rei in existendo'. Read here: what the intellect abstracts, numbers included, is not thereby abstract in reality, and Plato's contrary is rejected. Not read: whether quantity itself exists in re as an accident of substance (Aquinas holds it does), or any claim about sets.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-ABSTRACT-NO-ESSE-IN-RE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA"
+  ],
+  "attribution": "The passage states that numbers, dimensions and figures can be considered by the intellect apart from sensible qualities, and that Plato erred in positing that what the intellect abstracts is abstract in reality, which is the premise."
+}
