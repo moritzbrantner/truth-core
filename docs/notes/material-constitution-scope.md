@@ -27,11 +27,11 @@ reality. There are no modal worlds or modal possibility claims.
 | --- | --- | --- |
 | Enduring statue | {token} | empty (absent) |
 | Enduring lump | {token} | {token} |
-| Statue temporal whole | {(initial, token)} | initial/later slices as above |
-| Lump temporal whole | {(initial, token), (later, token)} | initial/later slices as above |
 
-The last two rows list the **entire** temporal occurrence sets. They are nonempty
-Mathlib sets, with subset as global parthood. The existing generic
+The corresponding **entire** temporal occurrence sets are
+`statue = {(initial, token)}` and
+`lump = {(initial, token), (later, token)}`. They are nonempty Mathlib sets,
+with subset as global parthood. The existing generic
 `UniversalFusionBoundary.Overlap` means having a common part; the singleton
 initial occurrence is such a nonempty part here. Its concrete `Body` carrier was
 not reused: Bool constituents without time would erase the distinction at issue.
