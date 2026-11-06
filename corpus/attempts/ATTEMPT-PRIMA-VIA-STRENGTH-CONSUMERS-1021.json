@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-06",
+  "statement_ids": [
+    "STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED",
+    "STMT-FIRST-UNMOVED-MOVER-CANNOT-BE-LACKING",
+    "STMT-SECOND-MOVERS-MOVE-AS-MOVED-IN-RELEVANT-RESPECT",
+    "STMT-RELATIVELY-UNMOVED-MOVER-CANNOT-BE-LACKING"
+  ],
+  "kind": "derivation",
+  "id": "ATTEMPT-PRIMA-VIA-STRENGTH-CONSUMERS-1021",
+  "outcome": "succeeded",
+  "summary": "Audit of the exact20 undeclared non-mandate consumers at5fcedc52:11 demonstrated redundancies,5 exact-interface weak-replacement failures and4 explicitly unresolved full-bundle searches. Certified reduced maximum/naming Stage1 and classical-witness/root compositions, and isolated the typed POE privation/deficiency/truth route. Reused existing Fourth-Way subset results where they already suffice. Negative controls retain exact scope: literal being-in-act absolute prima, VII.1 and VIII.5 regress transfer, generic Stage1, and director regress with its remaining bridges and EM. Source-derived interfaces and frozen Challenges stay unchanged; no metaphysical premise truth or global necessity is inferred. Exact20 dispositions, theorem reuse, countermodel boundaries and remaining searches are in docs/notes/prima-via-strength-consumers.md.",
+  "evidence": [
+    "PRIMA-VIA-WEAK-CONSUMER-BOUNDARIES",
+    "CATHOLICISM-STAGE1-FULL-DESCRIPTION-WITHOUT-MOTION",
+    "CATHOLICISM-Q11-WITNESS-WITHOUT-MOTION",
+    "CATHOLICISM-IDENTITY-WITNESS-WITHOUT-MOTION",
+    "CATHOLICISM-FROM-FULL-DESCRIPTION-WITHOUT-MOTION",
+    "CATHOLICISM-FROM-Q11-WITNESS-WITHOUT-MOTION",
+    "CATHOLICISM-FROM-IDENTITY-WITNESS-WITHOUT-MOTION",
+    "CATHOLICISM-QUARTA-VIA-CLASSICAL-WITNESS",
+    "CATHOLICISM-FROM-QUARTA-VIA-WITHOUT-TRUTH-BRIDGE",
+    "POE-EVIL-FROM-DUE-DEFICIENCY",
+    "POE-EVIL-PREMISE-FROM-DUE-DEFICIENCY"
+  ]
+}

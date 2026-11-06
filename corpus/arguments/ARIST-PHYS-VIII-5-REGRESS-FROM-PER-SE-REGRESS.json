@@ -23,5 +23,8 @@
     "DISAMB-MOVED-BY-SOMETHING",
     "DISAMB-PER-SE",
     "DISAMB-PER-SE-LINK"
-  ]
+  ],
+  "strong_version_needed": {
+    "STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED": "For this exact encoded interface, the successor-chain omission interpretation extends with relevance false, retaining III.3 and the per-se regress premise while the VIII.5 mover-moved-by-another relation is not well founded. Checked by PRIMA-VIA-WEAK-CONSUMER-BOUNDARIES. This scope does not extend to arbitrary added attribute/historical premises, nor establish the strong premise philosophically. See docs/notes/prima-via-strength-consumers.md."
+  }
 }

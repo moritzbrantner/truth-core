@@ -94,5 +94,8 @@
     "DISAMB-PER-SE",
     "DISAMB-ESSENCE",
     "DISAMB-CAUSAL-SERIES"
-  ]
+  ],
+  "strong_version_needed": {
+    "STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED": "Not globally needed for this endpoint. This frozen legacy interface is retained for comparison with its original proof path; CATHOLICISM-FROM-IDENTITY-WITNESS-WITHOUT-MOTION proves the same endpoint from a strict subset of its existing premises in the same dictionary. The new reduction does not establish those remaining premises. See docs/notes/prima-via-strength-consumers.md."
+  }
 }
