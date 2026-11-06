@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.ReferenceAnchor.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ReferenceAnchor.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.ReferenceAnchor.checks"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}
