@@ -2544,6 +2544,109 @@ def validate() -> dict[str, int]:
     }
 
 
+# Category predicates whose constant instantiation is flagged (#1103). Extend
+# the tuple when another category distinction gets shared vocabulary.
+CATEGORY_PREDICATES = ("concrete", "abstract")
+CATEGORY_CONSTANT_MARKER = "category-constant: intended"
+_CATEGORY_NAME = r"[A-Za-z_.]*(?:" + "|".join(CATEGORY_PREDICATES) + r")"
+# Binders: plain or typed, any names; the body is exactly the literal, followed
+# only by whitespace and then a delimiter or the end of a line or file.
+_CONSTANT_LAMBDA = (
+    r"fun(?:\s+(?:[A-Za-z_][\w']*|\([^()]*\)|\{[^{}]*\}))+\s*=>\s*(True|False)"
+    r"(?=[ \t]*(?:$|[,})\]⟩]|--))"
+)
+CATEGORY_CONSTANT_PATTERNS = (
+    # field or let binding: `concrete := fun _ => True`, `abstract := fun x y => False`
+    re.compile(r"\b(" + _CATEGORY_NAME + r")\s*:=\s*" + _CONSTANT_LAMBDA, re.IGNORECASE | re.MULTILINE),
+    # definition by a constant function: `def alternatingConcrete : ExistsAt Bool Bool := fun _ _ => True`
+    re.compile(
+        r"\bdef\s+(" + _CATEGORY_NAME + r")\b[^:=]*:[^=]*:=\s*" + _CONSTANT_LAMBDA,
+        re.IGNORECASE | re.MULTILINE,
+    ),
+    # constant definition: `def Concrete (_ : Being) : Prop := True`
+    re.compile(
+        r"\bdef\s+(" + _CATEGORY_NAME + r")\s*(?:\([^)]*\)\s*|\{[^}]*\}\s*)*:\s*Prop\s*:=\s*(True|False)"
+        r"(?=[ \t]*(?:$|--))",
+        re.IGNORECASE | re.MULTILINE,
+    ),
+)
+
+
+def _blank_lean_comments(text: str) -> str:
+    """Replace Lean comments (`--` line comments and nested `/- ... -/` block
+    comments, doc comments included) by spaces, keeping newlines so that offsets
+    and line numbers are unchanged. String literals are not special-cased."""
+    out = list(text)
+    i, depth, n = 0, 0, len(text)
+    while i < n:
+        if depth == 0 and text.startswith("--", i):
+            while i < n and text[i] != "\n":
+                out[i] = " "
+                i += 1
+            continue
+        if text.startswith("/-", i):
+            depth += 1
+            out[i] = out[i + 1] = " "
+            i += 2
+            continue
+        if depth > 0 and text.startswith("-/", i):
+            depth -= 1
+            out[i] = out[i + 1] = " "
+            i += 2
+            continue
+        if depth > 0 and text[i] != "\n":
+            out[i] = " "
+        i += 1
+    return "".join(out)
+
+
+def _category_marker_declares(lines: list[str], code_lines: list[str], first: int, last: int) -> bool:
+    """A declaration covers a site when the marker is on one of the site's own
+    lines, or in the contiguous run of comment-only lines directly above it. A
+    marker attached to another declaration's code line does not carry over."""
+    if any(CATEGORY_CONSTANT_MARKER in lines[k] for k in range(first, last + 1)):
+        return True
+    k = first - 1
+    while k >= 0 and lines[k].strip() and not code_lines[k].strip():
+        if CATEGORY_CONSTANT_MARKER in lines[k]:
+            return True
+        k -= 1
+    return False
+
+
+def trivial_category_warnings(root: Path = ROOT) -> list[str]:
+    """Constant category predicates in Lean sources (#1103).
+
+    A model that sets `concrete` or `abstract` to a constant (`True` or
+    `False` for every candidate) erases the distinction. Each such site needs a
+    `category-constant: intended (<reason>)` comment on its own line(s) or in
+    the comment lines directly above it, saying why the constant is the point of
+    the model or does no work in it; otherwise it is reported. Comments are not
+    scanned. Frozen Challenges are included: they are reported, never edited."""
+    warnings: list[str] = []
+    for path in sorted((root / "TruthCore").rglob("*.lean")):
+        text = path.read_text(encoding="utf-8")
+        code = _blank_lean_comments(text)
+        lines, code_lines = text.split("\n"), code.split("\n")
+        seen: set[int] = set()
+        for pattern in CATEGORY_CONSTANT_PATTERNS:
+            for match in pattern.finditer(code):
+                first = code.count("\n", 0, match.start())
+                last = code.count("\n", 0, match.end())
+                if first in seen:
+                    continue
+                seen.add(first)
+                if _category_marker_declares(lines, code_lines, first, last):
+                    continue
+                warnings.append(
+                    f"{path.relative_to(root)}:{first + 1}: category predicate {match.group(1)} is "
+                    f"constantly {match.group(2)}; declare '{CATEGORY_CONSTANT_MARKER} (<reason>)' "
+                    "if the constant is the model's point or does no work, otherwise use a "
+                    "non-degenerate classification (#1103)"
+                )
+    return sorted(warnings, key=lambda w: (w.split(":")[0], int(w.split(":")[1])))
+
+
 def supports_gap_warnings(relations: list[dict[str, Any]]) -> list[str]:
     """A `supports` relation makes its premise "supported", not "stated"
     (#987); its note records what the claim leaves unstated."""
@@ -2593,6 +2696,7 @@ def check_warnings() -> list[str]:
             f"for closure rule (c): {reason}"
         )
     warnings.extend(supports_gap_warnings(relations))
+    warnings.extend(trivial_category_warnings())
     warnings.extend(strength_use_warnings(arguments, strength_order(relations, results, arguments)))
     for entry in report["floor"]:
         if not entry["met"]:

@@ -168,7 +168,7 @@ def bruteOnly : Scenario Bool Bool where
     ExistsAt := fun w x => w = x
     Causes := fun _ _ _ => False
   }
-  concrete := fun _ => True
+  concrete := fun _ => True  -- category-constant: intended (all-concrete inventory: the model tests grounding/modal structure, not the concrete/abstract line; a concrete conclusion here is no evidence that anything is concrete)
   beginsContingency := fun _ => True
   causesContingencyTotality := fun _ _ => False
 
@@ -224,7 +224,7 @@ def mixed : Scenario Bool (Option Bool) where
     Causes := fun w c e =>
       w = false ∧ c = none ∧ e = some false
   }
-  concrete := fun _ => True
+  concrete := fun _ => True  -- category-constant: intended (all-concrete inventory: the model tests grounding/modal structure, not the concrete/abstract line; a concrete conclusion here is no evidence that anything is concrete)
   beginsContingency := fun _ => True
   causesContingencyTotality := fun w c =>
     w = false ∧ c = none

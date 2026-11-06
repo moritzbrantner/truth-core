@@ -27,7 +27,7 @@ def model : Profile Bool Node where
     frame := ⟨fun _ _ => True⟩
     ExistsAt w x := x = .left ∨ x = .right ∨ w = false
     Causes := fun _ _ _ => False }
-  concrete := fun _ => True
+  concrete := fun _ => True  -- category-constant: intended (all-concrete inventory: the model tests grounding/modal structure, not the concrete/abstract line; a concrete conclusion here is no evidence that anything is concrete)
   grounds w source downstream := w = false ∧
     ((source = .left ∧ downstream = .right) ∨
      (source = .right ∧ downstream = .left) ∨

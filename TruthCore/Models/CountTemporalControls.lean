@@ -36,7 +36,7 @@ def history : History Bool Being Bool where
     | some _ => w = true ∧ t = true
   now := true
 
-def Concrete (_ : Being) : Prop := True
+def Concrete (_ : Being) : Prop := True  -- category-constant: intended (all-concrete fixture: the necessary candidate none counts as concrete only by this stipulation; the controls test counting and time, not the concrete/abstract line)
 
 /-- A fixture marker restricted to realizable positive counts, not an
 ordinary individual-to-individual cause or universal causal principle. -/

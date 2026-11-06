@@ -85,7 +85,7 @@ theorem checks : Certificate := by
       (∀ w x, p.hasCausalPower w x ↔ x = .source) := by
     refine ⟨{
       underlying := profile
-      abstract := fun _ => False
+      abstract := fun _ => False  -- category-constant: intended (no abstract candidate; meets the #1094 contract but supplies no Anchors, so not an intended interpretation under #1103)
       hasCausalPower := fun _ x => x = .source
       disjoint := fun _ h => h.elim
       powerExists := fun _ _ h => Or.inl h
