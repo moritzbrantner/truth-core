@@ -1,0 +1,22 @@
+{
+  "id": "ATTEMPT-ADAPTIVE-CORRECTION-BOUNDARY-1058",
+  "date": "2026-11-06",
+  "statement_ids": [
+    "STMT-ADAPTIVE-PREDICTION-DIAGONAL",
+    "STMT-ADAPTIVE-PREDICTION-LEARNER-ADAPTER",
+    "STMT-ADAPTIVE-PREDICTION-TWO-EXPERT",
+    "STMT-FALLIBLE-CORRECTION-CERTIFICATE",
+    "STMT-HUME-INDUCTION-TESTS"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Related/dossiers and exact theorem/attempt search preceded this analyst formulation. Existing Hume finite-prefix counterhistories do not supply the same all-horizon adaptive adversary. Constructed a recursively coherent stream per total deterministic finite-history predictor and proved exact all-horizon mistakes. Proved the history-weight adapter equals the existing learner on the SAME advice/truthful-feedback stream, without duplicating voting or update. Applied the imported1047 certificate at horizon11 to exclude the ≤2-error hypothesis for either of two experts. Rejected swapped quantifiers, a fresh stream per horizon, arbitrary finite-pool generalization from this numerical instance, randomized-method claims, actual skepticism, semantic indeterminacy and meaninglessness. The methodological and philosophical limits persist in docs/notes/fallible-correction-931.md. No new source, passage or claim records. Frozen Challenge SHA2561ab6f969474d50ec4afbbd4e40adf4dc5cbebda882ce0bc81262911eb15d5c31 compiled before Solution; unchanged. Initial development fixed only negation/list precedence in vocabulary before freeze, an over-eager unfold in the wrong-step helper and deprecated if aliases in the unfrozen Solution. Primary theorem prints zero axioms; rational-learner adapter and comparison inherit the approved Mathlib trio. Focused Solution build warning-free; corpus, bundle, source-manifest and attribution checks pass with unchanged existing corpus warnings; exact binding3/0. Independent certification in progress. Convention sourceRevision625cb04ca568aebc8d45c90033e107a05e9bd2a0.",
+  "evidence": [
+    "ADAPTIVE-PREDICTION-DIAGONAL",
+    "ADAPTIVE-PREDICTION-LEARNER-ADAPTER",
+    "ADAPTIVE-PREDICTION-TWO-EXPERT",
+    "LOGIC-FALLIBLE-CORRECTION",
+    "HUME-INDUCTION-TESTS"
+  ],
+  "blocker": "No actual environment/rule-class restriction, good-expert calibration, normative authority or root premise is established. A broader arbitrary finite-pool lower bound is not proved by the two-expert numerical corollary. #931 remains open."
+}
