@@ -8,7 +8,9 @@ F5 a candidate). A classification is a research judgment about bearing, not a
 defeat: defeats and support count only by #999, #1007, D-I and D-L.
 
 Exegesis caution. Wittgenstein's texts are contested. Readings are recorded as
-readings, and a view developed by followers is not attributed to him.
+readings, and a view developed by followers is not attributed to him. The four
+modest use/practice positions below are separately labelled OPEN analyst
+formulations with attribution DEFERRED, not additional verified readings.
 
 ## Classification table
 
@@ -23,11 +25,148 @@ readings, and a view developed by followers is not attributed to him.
 | On Certainty: "there are physical objects" is nonsense | §§35-36 | rival to the statementhood of a candidate F2 phrased with "physical object" | candidate F2 ('something exists'), not approved | recorded |
 | PI: rule-following regress | §§198, 201-202; Kripke via `SEP-PRIVATE-LANGUAGE` §4 | neutral to the routes | none | `WITTGENSTEIN-INTERPRETATION-REGRESS` (regress plus three-way fork) |
 | PI: private-language argument | §§243, 258, 293, 304, 308; readings via `SEP-PRIVATE-LANGUAGE` §§1.1-1.2 | neutral to F5 as an occurrence premise; rival only to a private-introspection basis for it | candidate F5 (`STMT-COGITO-THOUGHT-OCCURS`) | recorded |
+| Meaning as use, modest analyst formulation | `STMT-USE-SENSITIVE-MEANING`; attribution DEFERRED | neutral to truth; methodological challenge to reference identification | three God-name leaves (role/reference dictionary), not a denial of them | OPEN; existing #1074 boundary reused, not a proof of this position |
+| Language games, modest analyst formulation | `STMT-ACTIVITY-SENSITIVE-LINGUISTIC-PRACTICES`; attribution DEFERRED | neutral to truth; no shared-evidence cut-off inferred | `STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE` unchanged; sharp WF-N remains separate rival | OPEN; practice-specific standards are not insulation |
+| Family resemblance, modest analyst formulation | `STMT-FAMILY-RESEMBLANCE-CLASSIFICATION`; independent feature vocabulary; attribution DEFERRED | neutral | none identified | OPEN; no universal anti-essentialism or new theorem |
+| Forms of life, modest analyst formulation | `STMT-PRACTICAL-BACKGROUND-OF-LINGUISTIC-COMPETENCE`; attribution DEFERRED | neutral to occurrence; conditional epistemic-basis challenge | candidate F5 occurrence unchanged; only verbal-interpretation-alone competence proposal challenged | OPEN; no truth-by-agreement or global insulation conclusion |
 | Tractatus, traditional reading | 4.003, 4.11, 6.42, 6.432, 6.522, 7 (German, `WITTGENSTEIN-TRACTATUS`); `SEP-WITTGENSTEIN` §2.4 | rival to the arguability of natural theology | `STMT-NATURAL-THEOLOGY-ARGUABLE` (presupposed by every route, stated by none; not a route leaf) | recorded as an unattributed reconstruction (`STMT-TLP-GOD-SENTENCES-NONSENSICAL`); not refuted |
 | Tractatus, resolute reading | `SEP-WITTGENSTEIN` §2.4 | neutral: the book points at no ineffable truths (a claim about the book) | none | recorded; the self-application (6.53-6.54) belongs to #1008 |
 | Lecture on Ethics | absolute value is no fact; wonder at existence is nonsense; religious terms are similes (`WITTGENSTEIN-LECTURE-ON-ETHICS`) | rival in spirit to realist God-talk as simile; an objection to the statementhood of "the world exists" is only an unattributed reconstruction (needs an imaginability-to-sense bridge) | candidate F2 (reconstruction only); off-route | recorded |
 | Lectures on religious belief (1938, student notes) | religious beliefs not hypotheses, `SEP-RELIGIOUS-LANGUAGE` §4.2 | rival in spirit to recognizability by signs; not attached to a leaf | none (the notes are not Wittgenstein's text; no claim attributes WF-N to him) | recorded as a reported reading |
 
+
+## Modest use/practice positions: analyst classification (#1090)
+
+The following four independently recorded propositions are **OPEN analyst
+formulations; attribution is DEFERRED**. They supply the missing logic-first
+comparison, not verified claims about Wittgenstein's wording or intentions.
+No source/claim/passage record, self-evidence marking, inference or Lean result
+is added. Their existential scope is deliberate: none says that every expression,
+concept or practice must have the described character. No historical coverage
+item is silently marked complete.
+
+### Use-sensitive meaning
+
+`STMT-USE-SENSITIVE-MEANING` says that at least some expressions cannot be
+adequately understood merely by identifying a named object: their rule-governed
+role in a specified practice is also needed to distinguish competent uses.
+This is a positive proposal about what understanding some expressions requires,
+not the universal claim that meaning is nothing but observed behavior or a
+finite list of inferential transitions. Rules concern competent use, not merely
+whatever most people happen to endorse. A familiar orientation is the different
+role of “check” in chess and banking; this illustration is not source evidence
+or a proof of the general philosophical proposal.
+
+**Case classification:** neutral to the truth of the three nominal-identification
+leaves (`STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE`,
+`STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS`,
+`STMT-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD`). It poses a **methodological challenge**
+to transferring a formal predicate or word into religious use without checking
+its role and intended reference. That challenge is not a truth rival asserting
+that the referent does not exist.
+
+The existing `REFERENCE-ANCHOR-BOUNDARY` (`#1074`) shows that agreement in all
+specified first-order sentence truth and finite-premise inference behavior
+need not fix a name's literal value on a fixed carrier. It neither quantifies
+all pragmatic facts of use nor proves this modest meaning thesis. Its common
+unique-anchor recovery remains conditional, and the structuralist who identifies
+permuted interpretations survives. The stronger nonreference rival is already
+`STMT-GOD-NAMES-NO-BEING-WF-P1`; it does not follow from the new position.
+
+### Language games without insulation
+
+`STMT-ACTIVITY-SENSITIVE-LINGUISTIC-PRACTICES` says that at least some linguistic
+activities have activity-specific rules for competent moves, whose purposes and
+rules are part of understanding their expressions. This permits a practice to
+answer empirical questions with evidence shared outside the activity; it does
+not claim that all actual practices do so. The independent issue is which moves
+are correct by a practice's rules, not whether every assertion made there is
+true or categorically binding.
+
+**Case classification:** neutral to
+`STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE`. Activity-specific rules alone neither
+exclude shared evidence for revelation nor supply its recognizability. The sharp
+cut-off statement `STMT-WF-RELIGION-CUT-OFF-FROM-SHARED-REASON` remains the distinct
+**truth rival** already mapped to that leaf. No implication from the modest
+position to that rival is registered.
+
+`Fideism.Practice` provides reusable move/correctness/own-standard distinctions,
+not a formal proof of the new existential position or a model of every language
+game. Its Catholic-practice consequence uses the conciliar-definition and
+shared-reason bridges explicitly; their applicability is still open. Existing
+`STMT-MINIMALISM-ALLOWS-EXTERNAL-EVIDENCE` records a reported contrasting account.
+It is not reattributed to Wittgenstein or merged with this analyst proposition.
+
+### Family resemblance under a specified feature vocabulary
+
+`STMT-FAMILY-RESEMBLANCE-CLASSIFICATION` proposes that at least one competent
+ordinary classification can be sustained by overlapping patterns of similarity
+among its instances without any single feature in a specified, independently
+chosen classification-feature vocabulary belonging to every instance. The
+feature vocabulary must be fixed separately from the category: “belongs to the
+category” is not an informative independent feature for this comparison.
+
+A stipulated illustration has three profiles with features {a,b}, {b,c}, {a,c}:
+pairs overlap, but none of the listed features occurs in all three. This only
+explains the proposal's shape. It does not establish that any actual concept is
+adequately analyzed that way. A rival may posit a further common feature or a
+disjunctive essence, dispute the feature vocabulary or deny the proposed
+classification's adequacy. No connected-set theorem would settle those issues.
+
+**Case classification:** neutral; **no root or floor target identified** for
+this modest existential thesis. It does not say that all concepts lack a common
+nature, that every definition fails, or that the case's uses of “being”, “cause”
+or “God” are incoherent. Nor does the absence of a strict genus by itself prove
+family resemblance or the analogy-of-being account. Those are different
+positions requiring their own arguments. No universal anti-essentialist rival
+is manufactured from this restricted proposal.
+
+### Forms of life as practical background
+
+`STMT-PRACTICAL-BACKGROUND-OF-LINGUISTIC-COMPETENCE` proposes that competent
+participation in at least some linguistic practices depends on learned practical
+capacities and shared regularities of action, for which possession of further
+verbal interpretations alone is insufficient. The proposal is about competence,
+not a definition of truth as agreement. “Shared” does not mean identical beliefs,
+unanimous endorsement or one homogeneous culture; it does not make every
+practice isolated or exclude a learner's acquiring the relevant capacities.
+
+**Case classification:** neutral to the occurrence premise
+`STMT-COGITO-THOUGHT-OCCURS` (candidate F5). It poses an **epistemic-basis
+challenge** only to the additional proposal that verbal interpretation by itself
+secures competent rule application. It neither denies thought nor establishes
+that private introspection, public agreement or every shared practice is
+infallible. No new direct rival to F5 is registered.
+
+The existing interpretation-regress theorem shows the conditional incompatibility
+of determination-only-through-interpretation, well-founded interpretation and
+some determined application; it does not establish that practical background
+exists or uniquely fixes meaning. `CorrectionCriterion.characterization` concerns
+exact data-relative classification under a supplied norm; it provides neither
+justification for that norm nor an account of forms of life. The already recorded
+`STMT-OC-JUSTIFICATION-ENDS-IN-ACTING` is a source reading about justification's
+practical endpoint, not an identification with this new existential competence
+position. Nielsen's global insulation charge likewise remains a separate report,
+not the consequence of practical dependence.
+
+### Evidence map, strongest survivors and remaining acceptance
+
+| Requirement | Existing logical evidence reused | What remains open |
+|---|---|---|
+| Use-sensitive meaning and reference | `TruthCore.Results.Logic.ReferenceAnchor.checks` | Actual use/reference dictionary and independent anchor applicability; structuralist rival survives. |
+| Practice-specific rules and shared criticism | `Fideism.Practice`; `TruthCore.Results.Alternatives.FideismCatholicPractice.fideismFailsAsDescription`; `WF-CONSISTENT` | Which practices and standards instantiate the modest thesis; Catholic bridge premises remain open; modest practice-sensitive realism survives. |
+| Determinate rule use and practical background | `TruthCore.Results.Wittgenstein.InterpretationRegress.interpretationRegress`/`regressFork`; `TruthCore.Results.Logic.CorrectionCriterion.characterization` | Competence, normative warrant and actual application are not produced by those theorems. |
+| Family resemblance | Precise analyst feature-vocabulary distinction; no new kernel result | Actual classification adequacy and strongest common-feature/disjunctive-essence rival; no route target identified. |
+| Elementary independence | Delivered [#1089](https://github.com/moritzbrantner/truth-core/pull/1089), merged `7543687cae8fa152b529c3f076fbed622cd0ffc1`; `ATOMISM-INDEPENDENCE-CERTIFICATE` | Its parity/reanalysis boundary covers the selected three-report fragment only, not the entire world; actual elementary analysis and historical attribution remain open. |
+
+The four analyst positions remain unproved and unestablished; the listed proofs
+do not certify them. Their substantive classification avoids both treating
+everything Wittgenstein-related as one rival and promoting a modest proposal
+into the sharp fideist or universal anti-essentialist commitment. No new root
+relation, formal argument, direct route premise or floor approval is introduced.
+Existing historical records remain intact. Parent #1010's original historical
+and full-scope acceptance remains unfinished, including distinct attribution of
+these topics and logical atomism. Intended root-premise delta: no change.
 
 ## Wittgensteinian fideism
 
