@@ -1,0 +1,11 @@
+{
+  "id": "POE-EVIL-PREMISE-FROM-DUE-DEFICIENCY",
+  "argument_id": "POE-EVIL-PREMISE-FROM-DUE-DEFICIENCY",
+  "challenge_module": "TruthCore.Results.Comparison.ProblemOfEvil.TruthFromDueDeficiency.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.ProblemOfEvil.TruthFromDueDeficiency.Solution",
+  "theorem": "TruthCore.Results.Comparison.ProblemOfEvil.TruthFromDueDeficiency.evilPremiseFromDueDeficiency",
+  "comparator_config": "results/POE-EVIL-PREMISE-FROM-DUE-DEFICIENCY/comparator.json",
+  "status": "solution-present",
+  "description": "A due good is absent in a supplied subject. The privation equivalence classifies that deficiency as evil and thus supplies an evil witness; no motion, God, goodness-coextension or per-evil production commitment is used. The explicit sentence-truth bridge then yields the advertised sentence; this final application is a reduced transcription, not independent warrant for the bridge or premise truth.",
+  "transcription": "single_application"
+}

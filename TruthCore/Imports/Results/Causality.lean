@@ -73,6 +73,7 @@ public import TruthCore.Results.Causality.ContingentTotalityCause.Solution
 public import TruthCore.Results.Causality.ConvergentZenoSchedule.Solution
 public import TruthCore.Results.Causality.CountCauseTimeNecessity.Solution
 public import TruthCore.Results.Causality.CountCauseTimeNecessityProjection.Solution
+public import TruthCore.Results.Causality.CountCauseTimeOpportunity.Solution
 public import TruthCore.Results.Causality.CountTemporalControls.Solution
 public import TruthCore.Results.Causality.CountTemporalNecessity.Solution
 public import TruthCore.Results.Causality.DefinitionDictionaryConnections.Solution
@@ -129,6 +130,11 @@ public import TruthCore.Results.Causality.InfiniteLocalTransmission.Solution
 public import TruthCore.Results.Causality.JointGroups.Solution
 public import TruthCore.Results.Causality.LocalFramePossibleExternalCause.Solution
 public import TruthCore.Results.Causality.LocalObservationSelectsSolution.Solution
+public import TruthCore.Results.Causality.MaximalGroundingAsymmetry.Control.Solution
+public import TruthCore.Results.Causality.MaximalGroundingAsymmetry.GodRoot.Solution
+public import TruthCore.Results.Causality.MaximalGroundingAsymmetry.Strength.Solution
+public import TruthCore.Results.Causality.MaximalGroundingAsymmetry.UniqueRoot.Solution
+public import TruthCore.Results.Causality.MaximalGroundingAsymmetry.WholeRoster.Solution
 public import TruthCore.Results.Causality.MaximumDefinitions.CalibrationsToBridge.Solution
 public import TruthCore.Results.Causality.MaximumDefinitions.CausalTransport.Solution
 public import TruthCore.Results.Causality.MaximumDefinitions.Controls.Solution

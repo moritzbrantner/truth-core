@@ -1,0 +1,10 @@
+{
+  "id": "NATURALISM-LAW-REPRESENTATION-CONTROLS",
+  "argument_id": "NATURALISM-LAW-REPRESENTATION-CONTROLS",
+  "challenge_module": "TruthCore.Results.Ontology.NaturalismLaws.Controls.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.NaturalismLaws.Controls.Solution",
+  "theorem": "TruthCore.Results.Ontology.NaturalismLaws.controls",
+  "comparator_config": "results/NATURALISM-LAW-REPRESENTATION-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Import the certified Hume regularity test for selected-rule versus incidental truth, then construct the three concrete bearer/law populations and location relations. All advertised instantiation, absence, support-failure and population facts are exported by Controls. No interpretation is rejected merely for differing on law-entity presence."
+}

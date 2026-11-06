@@ -1,0 +1,10 @@
+{
+  "id": "MAXIMAL-TARGET-ASYMMETRY-RECIPROCAL-DEPENDENT-STRICTNESS",
+  "argument_id": "MAXIMAL-TARGET-ASYMMETRY-RECIPROCAL-DEPENDENT-STRICTNESS",
+  "challenge_module": "TruthCore.Results.Causality.MaximalGroundingAsymmetry.Control.Challenge",
+  "solution_module": "TruthCore.Results.Causality.MaximalGroundingAsymmetry.Control.Solution",
+  "theorem": "TruthCore.Results.Causality.MaximalGroundingAsymmetry.Control.populatedStrictness",
+  "comparator_config": "results/MAXIMAL-TARGET-ASYMMETRY-RECIPROCAL-DEPENDENT-STRICTNESS/comparator.json",
+  "status": "solution-present",
+  "description": "Populated constructive three-node scope control retains all five other nonlogical whole-roster interfaces and an actual maximal root while two distinct actual nonmaximal dependents ground each other. Maximal-target asymmetry holds, full asymmetry fails. It proves no EM, actual causal interpretation, full25 background, metaphysical possibility or explanatory adequacy."
+}

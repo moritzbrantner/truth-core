@@ -1,0 +1,8 @@
+{
+  "id": "DEF-IMMANENT-LAW-LOCATION",
+  "term": "instance-derived location of law representatives",
+  "definition": "In the immanent location profile, a right-summand law representative occupies region r exactly when some existing bearer instantiates it and occupies r. Bearer location is supplied independently. This includes both instance-to-location and location-to-existing-instance support. The weaker forward bridge alone does not license the converse; the populated Controls export its failure. The chosen frame has empty unused related/partOf fields and a designated bearer whole; no geometry, powers, causality, physicality or completeness of this law ontology is claimed.",
+  "basis": "stipulative",
+  "note": "Logic-first analyst profile for #1109; attribution deferred. Actual metaphysical applicability and any identification with an author's theory remain open. See docs/showcase-naturalism.md \u00a74 and ATTEMPT-NATURALISM-LAW-REPRESENTATIONS-1109.",
+  "lean_declaration": "TruthCore.Ontology.NaturalismLaws.immanentAt"
+}

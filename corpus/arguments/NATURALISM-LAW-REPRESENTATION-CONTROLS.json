@@ -1,0 +1,21 @@
+{
+  "id": "NATURALISM-LAW-REPRESENTATION-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-NATURALISM-LAW-REPRESENTATION-CONTROLS",
+  "inference_ids": [
+    "INF-NATURALISM-LAW-REPRESENTATION-CONTROLS"
+  ],
+  "meaning": "Import the certified Hume regularity test for selected-rule versus incidental truth, then construct the three concrete bearer/law populations and location relations. All advertised instantiation, absence, support-failure and population facts are exported by Controls. No interpretation is rejected merely for differing on law-entity presence.",
+  "definition_ids": [
+    "DEF-NATURALISM-N1",
+    "DEF-SPATIOTEMPORAL-FRAME",
+    "DEF-SPATIOTEMPORAL-LOCATED",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-NATURALISM-LAW-REPRESENTATION",
+    "DEF-IMMANENT-LAW-LOCATION",
+    "DEF-REGULARITY-LAW-SELECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SPATIOTEMPORAL"
+  ]
+}

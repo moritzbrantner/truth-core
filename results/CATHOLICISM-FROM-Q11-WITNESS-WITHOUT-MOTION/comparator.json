@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StrengthConsumers.RootQ11.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StrengthConsumers.RootQ11.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Case.Catholicism.StrengthConsumers.RootQ11.catholicismQ11WithoutMotion"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -1,0 +1,10 @@
+{
+  "id": "PRIMA-VIA-WEAK-CONSUMER-BOUNDARIES",
+  "argument_id": "PRIMA-VIA-WEAK-CONSUMER-BOUNDARIES",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StrengthConsumers.Boundary.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StrengthConsumers.Boundary.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StrengthConsumers.Boundary.weakConsumerBoundaries",
+  "comparator_config": "results/PRIMA-VIA-WEAK-CONSUMER-BOUNDARIES/comparator.json",
+  "status": "solution-present",
+  "description": "Five typed boundaries in the original independent-potency dictionary: the weaker relevant-respect link fails to yield the absolute conclusion even with the being-in-act reduction; it fails to transfer well-founded per-se regress to the exact VII.1 and VIII.5 chains; the relative conclusion can coexist with all other generic Stage1 inputs and no God witness; and the director-regress interface with that weak link fails even retaining its through-director and unmoved-design bridges. The director test retains excluded middle explicitly. No claim covers additional Fourth-Way, later-attribute, problem-of-evil or historical premises."
+}

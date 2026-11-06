@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Comparison.ProblemOfEvil.TruthFromDueDeficiency.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.ProblemOfEvil.TruthFromDueDeficiency.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Comparison.ProblemOfEvil.TruthFromDueDeficiency.evilPremiseFromDueDeficiency"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

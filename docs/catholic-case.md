@@ -72,6 +72,53 @@ Each row is one file in [`decisions/`](decisions/) (`<date>-<NN>-<slug>.md`: fro
 - **Connected regress and logic inputs (2026-10-25):** `CATHOLICISM-FROM-EFFICIENT-REGRESS-WITH-CLASSICAL-ATTRIBUTES` additionally imports the existing efficient-cause regress transfer and excluded-middle instance before applying that connected root proof. Those proved intermediates are no longer independent root-theorem inputs; the same 37 philosophical premises remain open.
 - **Act and potency (#352, 2026-10-26):** the eight act/potency premises shared by the root routes are mutually independent (finite countermodels), and defining potency or being moved as the definition records describe them would make two of them analytic without discharging them. The prima via needs only that each moved thing has *some* mover in act. No root premise is closed; see [the act/potency note](act-potency-theory.md) for the remaining obligations.
 
+## Reading boundaries of the case vocabulary
+
+The following existing definitions are scoped roles, criteria or comparison
+families. Their current consumers do not inherit a stronger philosophical
+meaning merely from a shared word. The named interfaces retain the assumptions
+in their frozen Challenges; this table asserts no new premise or historical
+identity. The complete attribute/naming and historical-pilot dossiers remain
+[the attribute audit](notes/classical-attributes-migration.md),
+[the naming audit](notes/naming-first-mover-migration.md),
+[the transfer dossier](notes/causal-perfection-transfer.md),
+[the founding note](founding-authorization-source.md),
+[the practice/religious-language note](wittgenstein.md), and
+[the resurrection pilot](resurrection-pilot.md).
+
+| Definition | Exact use boundary | Actual consuming interface |
+|---|---|---|
+| `DEF-CATHOLIC-CHURCH-PROPOSAL-SUBJECT` | Role anchor, not an institutional identity proof: `Signature.catholicChurch` is a named society. Pontiff/college proposal modes belong to its interpretation; Christ-founded identity remains the separate stage6 premise. | `STMT-CATHOLIC-CHURCH-DEFINITIVELY-PROPOSES-CREED`, `CATHOLICISM-SKELETON`, `CATHOLICISM-MANDATE-SCOPE-FROM-CATHOLIC-CHURCH-FOUNDING` |
+| `DEF-CATHOLICISM-TRUE-PHASE-1` | Exactly God-founded Catholic teaching authority plus truth of the twelve encoded Creed articles. The scalar target is not the full dogma list, historical identification of the named society, or a claim that its premises are established. | `STMT-CATHOLICISM-TRUE`, `CATHOLICISM-SKELETON and the connected root compositions` |
+| `DEF-CLASSICAL-ATTRIBUTES-BUNDLE` | The nine predicates concern one being. `ClassicalAttributesSuffice` is an open one-way map to the primitive attributes field, not a converse eliminator; neither this bundle nor GodHasClassicalAttributes supplies God existence or divine veracity. | `STMT-CLASSICAL-ATTRIBUTES-SUFFICE`, `CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-ALL`, `CLASSICAL-GOD-ASSEMBLY` |
+| `DEF-CONCILIAR-DEFINITION` | Defined is a move-role predicate. The canonical premise supplies an actual defined-natural move; endorsement is the separate definition-to-own-standard bridge. Theological content does not by itself negate that endorsement. | `WF-FAILS-AS-DESCRIPTION-OF-CATHOLIC-PRACTICE`, `THEOLOGICAL-EXCLUSION-REJECTS-CONCILIAR-BRIDGE` |
+| `DEF-CONFESSES-REFERENT` | Confession is content of a move, not an actual referent. Actual practice reference requires correctness and the explicit grammar/reference bridge; proper nominal reference additionally requires the separately recorded transfer and descriptor witness. | `FIDEIST-REFERENCE-BUNDLE-FAILS-FOR-CATHOLIC-PRACTICE`, `PRACTICE-NO-REFERENCE-REJECTS-FULL-NAMING` |
+| `DEF-CORRECT-MOVE-IN-PRACTICE` | Correctness is practice-relative, not mere occurrence or external proposition truth. InternalGrammar is explicitly one-way OwnStandard-to-Correct; the original defeat rejects InternalGrammar AND CutOff, not CutOff alone. | `WF-FAILS-AS-DESCRIPTION-OF-CATHOLIC-PRACTICE`, `ACTUAL-INSULATION-REJECTS-CAPABILITY-WITH-EXPLICIT-COVERAGE` |
+| `DEF-DEFINITIVELY-PROPOSES-AS-REVEALED` | The proposal field has the specified mode interpretation but no constructor enforces it. Proposing a doctrine neither proves its containment in revelation nor its truth by definition; the God-founded-only-truth bridge is an independent open input. | `STMT-BRIDGE-GOD-FOUNDED-AUTHORITY-PROPOSES-ONLY-TRUTH`, `CATHOLICISM-SKELETON` |
+| `DEF-FOUNDING-LOCAL-INDEPENDENCE` | A local schema non-entailment test. Report/reading bridges and the pilot bundle do not include an agency law: AuthorityVindicated is not actual divine authorization by definition. The result is not a historically adequate counterworld or a refutation of the full root theory. | `CATHOLICISM-FOUNDING-LOCAL-INDEPENDENCE` |
+| `DEF-INDEPENDENT-ATTESTATION` | A vocabulary-family anchor for strand, literary independence and family attestation. Distinct strands do not imply independence, and independence does not imply historicity; actual given-or-promised powers require the separate family criterion. The weakest institutional component suffices for the message-rival target. | `STMT-JOHN-COMMISSION-INDEPENDENT-OF-MATTHEW`, `CATHOLICISM-MESSAGE-RIVAL-EXCLUDED-BY-ATTESTATION-WEAK-LINK` |
+| `DEF-ONE-GOD` | IsTheOneGod is uniqueness conditional on the supplied God predicate. It does not assert that this being is God or that any God exists. Selected-root uniqueness and uniqueness of all necessary individuals are different scopes. | `STMT-GOD-IS-ONE`, `CLASSICAL-GOD-ASSEMBLY`, `NECESSARY-CLASSICAL-GOD-ROOT-CONTROL` |
+| `DEF-PERFECTION-TRANSFER-MODEL-BACKGROUND` | A fixed four-role/two-respect test dictionary with specified causal tables and ranks, not physics, temporal concurrence or a modal interpretation. The secondary-only alternative retains the stated background while the restricted perfection-transfer law fails. | `CAUSAL-PERFECTION-TRANSFER-CONCURRENT-BACKGROUND`, `CAUSAL-PERFECTION-TRANSFER-SECONDARY-ONLY-RIVAL` |
+| `DEF-POPULATION-CLOSURE` | Subintersection and exact intersection are distinct already encoded policies. Neither supplies an accessible world or inhabitants. The finite-cover laws separately require accessibility, cover and contingency/de-dicto assumptions, and use explicit EM only for the de-re conclusion. Population equality is not world identity or metaphysical possibility. | `POPULATION-EXACT-IMPLIES-AMALGAMATION`, `POPULATION-CLOSURE-SEPARATION`, `FINITE-POPULATION-COVER-LAWS`, `FINITE-HITTING` |
+| `DEF-PRACTICE-OWN-STANDARD` | Endorsement is distinct from correctness, ordinary occurrence and content classification. Authority/use case bridges remain explicit; mixed actual defined-move endorsement is a real remainder outside the two uniform profiles. | `FIDEISM-FAILS-IN-AUTHORITY-AND-USE-CASES`, `CONCILIAR-DEFINITION-STATUS-COVERAGE` |
+| `DEF-REMOTE-FROM-ALL` | The adopted case meaning is outgoing noncomponenthood: forall x, not ComponentOf m x. It is not inward noncomposition, spatial distance, or genus transcendence by definition. A proper-genus exclusion is separately formalized with IsGod/InGenus; no identity or pre-naming transfer is supplied by that fact. All current remoteness interfaces retain the component criterion. | `STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE`, `AQUINAS-ST-I-Q2-A3-MAXIME-ENS-IS-GOD-VIA-FULL-DESCRIPTION`, `ROOT-INTELLECT-WILL` |
+| `DEF-RESIDUAL-PERFECTION-TRANSFER` | Exactly the omitted nonuniversal-source and self-effect cases of the legacy transfer. Reconstruction requires both the universal-source law and this remainder; exact decomposition quantifies explicit identity/universality decisions. Naming/goodness applications use the restricted law without silently asserting the remainder. | `CAUSAL-PERFECTION-TRANSFER-EQUIVALENCE (exactDelta)`, `CAUSAL-PERFECTION-TRANSFER-RECONSTRUCTION`, `CAUSAL-PERFECTION-TRANSFER-NAMING` |
+| `DEF-RESURRECTION-PILOT-ACCOUNT` | Each rival includes a positive proposed mechanism and denial, not denial counted as explanation. Mechanism labels are not causal adequacy proofs. Reported tomb tradition differs from actual emptiness; crucifixion differs from death so the swoon account is not excluded by E0 alone. | `RESURRECTION-SWOON-CONSISTENT`, `RESURRECTION-STOLENBODY-CONSISTENT`, `RESURRECTION-ANSWER-MAPS-CORRECT` |
+| `DEF-RESURRECTION-PILOT-COVERAGE` | Six named bundles and fifteen questions form an explicitly bounded answer map. E0-E5 are accepted common premises, auxiliary counts are named commitments rather than probabilities/merit, and unknown cells are not denials. No current theorem eliminates every historical theory or ranks a winner. | `RESURRECTION-ANSWER-MAPS-CORRECT and the six account consistency results` |
+| `DEF-SUPREMELY-GOOD` | The case criterion is GoodIn g esse AND causal transfer of every actual perfection of others; self-effects are excluded. It is not moral omniperfection, an endorsement of every desire, or an automatic veracity premise. The supplied GoodIn/InAct dictionaries and transfer hypotheses remain visible in its consuming theorems. | `STMT-GOD-IS-SUPREMELY-GOOD`, `CAUSAL-PERFECTION-TRANSFER-GOODNESS`, `CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-ALL` |
+| `DEF-UNIQUE-CLASSICAL-GOD-WITNESS` | Logical packaging of existence, God-predicate uniqueness and attributes of the SAME witness. It is not a new nominal definition, a naming converse, or uniqueness of every necessary individual. | `CLASSICAL-GOD-ASSEMBLY`, `NECESSARY-CLASSICAL-GOD-ROOT-PROJECTION` |
+
+The signature's named society and proposal predicate are role anchors, not
+constructors enforcing every institutional/source condition. The phase-1
+root is its stated conjunction, never the full Catholic dogma list by naming
+alone. Primitive attributes likewise do not supply an inverse of the nine-way
+sufficiency premise. The remoteness clarification changes no formula: current
+full-nominal/root consumers use component exclusion. A genus reading needs its
+own candidate/nominal applicability interface; the existing God-in-no-genus
+reading is not a silent replacement. Historical reports, mechanisms and
+bounded map availability remain distinct from historical truth, fulfilled
+causation and a census of possible theories.
+
 ## Working method
 
 - **One coordinator plus one worker for this repository**, working on a task branch from `origin/main` in the normal checkout. No git worktrees (owner rule since 2026-10-22). Each issue gets a fresh worker.

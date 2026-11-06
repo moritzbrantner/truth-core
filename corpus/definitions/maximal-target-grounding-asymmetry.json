@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MAXIMAL-TARGET-GROUNDING-ASYMMETRY",
+  "term": "actual grounding asymmetry restricted to maximal-in-esse targets",
+  "definition": "AtMaximalTarget requires reverse-edge exclusion only when the target b is maximal under the SAME supplied InAct/MoreIn/esse dictionary and both a,b are actual concreta at the SAME selected world. It is a scope restriction of ActualGroundingAsymmetric, not a new relation, definition of maximality, roothood or explanation. It leaves reciprocal links between nonmaximal actual dependents unconstrained.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.MaximalGroundingAsymmetry.AtMaximalTarget",
+  "note": "OPEN analyst framework input, not a source attribution or a law inferred from the word grounding. The actual consumer uses reverse-edge exclusion at its selected maximum. A populated three-node interpretation retains all five other nonlogical whole-roster inputs and an actual maximal root while nonmaximal dependents ground each other. This is not a full25 attribute interpretation or metaphysical possibility. Direct production, partial support/enabling and the selected grounds field remain independently interpreted; see docs/notes/maximal-grounding-asymmetry.md."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "POE-EVIL-FROM-DUE-DEFICIENCY",
+  "argument_id": "POE-EVIL-FROM-DUE-DEFICIENCY",
+  "challenge_module": "TruthCore.Results.Comparison.ProblemOfEvil.FromDueDeficiency.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.ProblemOfEvil.FromDueDeficiency.Solution",
+  "theorem": "TruthCore.Results.Comparison.ProblemOfEvil.FromDueDeficiency.evilFromDueDeficiency",
+  "comparator_config": "results/POE-EVIL-FROM-DUE-DEFICIENCY/comparator.json",
+  "status": "solution-present",
+  "description": "A due good is absent in a supplied subject. The privation equivalence classifies that deficiency as evil and thus supplies an evil witness; no motion, God, goodness-coextension or per-evil production commitment is used."
+}

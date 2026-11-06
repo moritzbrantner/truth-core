@@ -1,0 +1,18 @@
+{
+  "id": "INF-DIRECT-ESSE-ROOT-UNIQUENESS-FROM-MAXIMAL-TARGET-ASYMMETRY",
+  "input_statement_ids": [
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS",
+    "STMT-EXISTING-IN-ACT-AT",
+    "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
+    "STMT-GRADES-TO-MAXIMUM-AT-BEING",
+    "STMT-ACTUAL-GROUNDING-ASYMMETRIC-AT-MAXIMAL-TARGET"
+  ],
+  "output_statement_id": "STMT-UNIQUE-NECESSARY-ACTUAL-ROOT",
+  "rule": "constructive-proof",
+  "meaning": "Import the new weak-asymmetry whole-roster consequence and the existing fixed-esse uniqueRoot theorem at the SAME dictionaries. Replace only global asymmetry in the prior eight-input route; contingent dependence still supplies necessity. Endpoint uniqueness remains selected actual roots, not all necessary individuals or all-world roots.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

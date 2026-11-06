@@ -62,5 +62,8 @@
     "DISAMB-PER-SE",
     "DISAMB-EXISTENCE-ESSE-SUPPORT",
     "DISAMB-MAXIME-ENS"
-  ]
+  ],
+  "strong_version_needed": {
+    "STMT-ACTUAL-GROUNDING-ASYMMETRIC": "The frozen prior interface consumes global actual-grounding asymmetry and remains available as that existing configuration. This is not a global necessity claim: its new maximal-target-asymmetry sibling reaches the EXACT same target with only reverse-edge exclusion at maximal-in-esse targets, retaining all other inputs. Nonmaximal reciprocal dependents are not ruled out by that weaker policy."
+  }
 }

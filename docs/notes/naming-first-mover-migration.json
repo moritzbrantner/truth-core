@@ -109,12 +109,12 @@
       "path": "corpus/arguments/CATHOLICISM-FROM-EFFICIENT-REGRESS-WITH-CLASSICAL-ATTRIBUTES.json",
       "status": "inspected",
       "classification": "adopted_potency_scope",
-      "finding": "Import the existing subrelation/accessibility proof from efficient-cause regress to mover regress. Separately instantiate full EM at first-mover existence; this supplies the disjunction, not existence directly. Pass that disjunction and the unchanged complete applications to FromPrimaViaWithClassicalAttributes; same witness is preserved inside that imported proof. No philosophical premise discharge. F7 continuation: inspected the new DISAMB-POTENCY navigation link; the generic theorem, argument premises and conclusion are unchanged. The disambiguation explicitly retains independent potency for this generic configuration. #1111: added required DISAMB-MAXIME-ENS navigation for the existing generic-perfection/maxime-ens vocabulary union; argument premises, inference IDs and theorem remain unchanged.",
+      "finding": "Import the existing subrelation/accessibility proof from efficient-cause regress to mover regress. Separately instantiate full EM at first-mover existence; this supplies the disjunction, not existence directly. Pass that disjunction and the unchanged complete applications to FromPrimaViaWithClassicalAttributes; same witness is preserved inside that imported proof. No philosophical premise discharge. F7 continuation: inspected the new DISAMB-POTENCY navigation link; the generic theorem, argument premises and conclusion are unchanged. The disambiguation explicitly retains independent potency for this generic configuration. Strength-consumer audit (#1021): inspected the new strong_version_needed disposition. The original premise list, conclusion, Challenge and Solution are unchanged. Redundant for the conclusion; evidence and exact scope: CATHOLICISM-FROM-QUARTA-VIA-WITHOUT-TRUTH-BRIDGE and docs/notes/prima-via-strength-consumers.md. No global necessity or premise-truth claim is added. #1111: added required DISAMB-MAXIME-ENS navigation for the existing generic-perfection/maxime-ens vocabulary union; argument premises, inference IDs and theorem remain unchanged.",
       "before": {
         "sha256": "261137a14405d298ae6994fbbbc979f57269dedcdf5b53e846c90ca6bef12860",
         "lean_declaration": null
       },
-      "reviewed_sha256": "f9dbe8fd54d1cf991ee60d83135fdd9f3abfab73b731848ed44a85640bcf5865"
+      "reviewed_sha256": "78a83242283e8eb27258bde686c89073296c187468e8de9a4cec9fb44a47a49f"
     },
     {
       "kind": "arguments",
@@ -122,12 +122,12 @@
       "path": "corpus/arguments/CATHOLICISM-FROM-EFFICIENT-REGRESS-WITH-CLASSICAL-ATTRIBUTES-IDENTITY.json",
       "status": "inspected",
       "classification": "adopted_potency_scope",
-      "finding": "Separate sufficient interface under explicit DecidableEq σ.Being and DecidableEq Principle; neither instance is independently established. Retain all original nonlogical premises and the same conclusion. Naming is one-way and does not supply a maximum; identity relates supplied witnesses and supplies neither witness. No necessity, minimality, strict-strength or philosophical premise discharge is claimed. Retain FirstUnmovedMoverExistsOrNot explicitly; equality decisions do not select its existence branch. First Way and Fourth Way supply f and m; identify f = m, transport maximality to f, and name and attribute that same f. GodIsMaximalInBeing remains explicit for uniqueness of the original IsGod predicate. Reuse ClassicalAttributesIdentity only with those matching hypotheses. The historical end remains a structural transcription through the existing skeleton. Complete expression contract pins carrier identity instances separately from proposition hypotheses. Separate Challenge frozen; no existing Challenge changes. F7 continuation: inspected the new DISAMB-POTENCY navigation link; the generic theorem, argument premises and conclusion are unchanged. The disambiguation explicitly retains independent potency for this generic configuration. #1111: added required DISAMB-MAXIME-ENS navigation for the existing generic-perfection/maxime-ens vocabulary union; argument premises, inference IDs and theorem remain unchanged.",
+      "finding": "Separate sufficient interface under explicit DecidableEq σ.Being and DecidableEq Principle; neither instance is independently established. Retain all original nonlogical premises and the same conclusion. Naming is one-way and does not supply a maximum; identity relates supplied witnesses and supplies neither witness. No necessity, minimality, strict-strength or philosophical premise discharge is claimed. Retain FirstUnmovedMoverExistsOrNot explicitly; equality decisions do not select its existence branch. First Way and Fourth Way supply f and m; identify f = m, transport maximality to f, and name and attribute that same f. GodIsMaximalInBeing remains explicit for uniqueness of the original IsGod predicate. Reuse ClassicalAttributesIdentity only with those matching hypotheses. The historical end remains a structural transcription through the existing skeleton. Complete expression contract pins carrier identity instances separately from proposition hypotheses. Separate Challenge frozen; no existing Challenge changes. F7 continuation: inspected the new DISAMB-POTENCY navigation link; the generic theorem, argument premises and conclusion are unchanged. The disambiguation explicitly retains independent potency for this generic configuration. Strength-consumer audit (#1021): inspected the new strong_version_needed disposition. The original premise list, conclusion, Challenge and Solution are unchanged. Redundant for the conclusion; evidence and exact scope: CATHOLICISM-FROM-IDENTITY-WITNESS-WITHOUT-MOTION and docs/notes/prima-via-strength-consumers.md. No global necessity or premise-truth claim is added. #1111: added required DISAMB-MAXIME-ENS navigation for the existing generic-perfection/maxime-ens vocabulary union; argument premises, inference IDs and theorem remain unchanged.",
       "before": {
         "sha256": "absent (new record)",
         "lean_declaration": null
       },
-      "reviewed_sha256": "fa41529ddeeaa6d6bc50066a77c1659cb258eb9bbcf883c6f2142cb53ae99293"
+      "reviewed_sha256": "40306aafdadaa53e8d234bfc6d18724263414e2e58413fe64b72577bf65ca9f1"
     },
     {
       "kind": "arguments",
@@ -135,12 +135,12 @@
       "path": "corpus/arguments/CATHOLICISM-FROM-PRIMA-VIA-WITH-CLASSICAL-ATTRIBUTES.json",
       "status": "inspected",
       "classification": "adopted_potency_scope",
-      "finding": "Imported same-witness package supplies g, IsGod g, uniqueness of original IsGod and attributes of g. For every other IsGod, uniqueness gives other = g, transporting the field to that other. Apply original skeleton with the same g and universal field. Revelation, history, authority and all twelve Creed contents remain conditional; historical end remains structural transcription. F7 continuation: inspected the new DISAMB-POTENCY navigation link; the generic theorem, argument premises and conclusion are unchanged. The disambiguation explicitly retains independent potency for this generic configuration. #1111: added required DISAMB-MAXIME-ENS navigation for the existing generic-perfection/maxime-ens vocabulary union; argument premises, inference IDs and theorem remain unchanged.",
+      "finding": "Imported same-witness package supplies g, IsGod g, uniqueness of original IsGod and attributes of g. For every other IsGod, uniqueness gives other = g, transporting the field to that other. Apply original skeleton with the same g and universal field. Revelation, history, authority and all twelve Creed contents remain conditional; historical end remains structural transcription. F7 continuation: inspected the new DISAMB-POTENCY navigation link; the generic theorem, argument premises and conclusion are unchanged. The disambiguation explicitly retains independent potency for this generic configuration. Strength-consumer audit (#1021): inspected the new strong_version_needed disposition. The original premise list, conclusion, Challenge and Solution are unchanged. Redundant for the conclusion; evidence and exact scope: CATHOLICISM-FROM-QUARTA-VIA-WITHOUT-TRUTH-BRIDGE and docs/notes/prima-via-strength-consumers.md. No global necessity or premise-truth claim is added. #1111: added required DISAMB-MAXIME-ENS navigation for the existing generic-perfection/maxime-ens vocabulary union; argument premises, inference IDs and theorem remain unchanged.",
       "before": {
         "sha256": "2896aaffff3f5570bb9adcd21a247ca664501d993de171a7b335156d99228b0f",
         "lean_declaration": null
       },
-      "reviewed_sha256": "5cde91ac7ba1a5a040ef8048aeb0d59424f30f63746b1c5048d30657135004a7"
+      "reviewed_sha256": "50af7f4f3697747b5aa9b817b6ead70ff122df21568cf29bf59bce6f03873ee8"
     },
     {
       "kind": "arguments",
@@ -148,12 +148,12 @@
       "path": "corpus/arguments/CATHOLICISM-FROM-PRIMA-VIA-WITH-CLASSICAL-ATTRIBUTES-IDENTITY.json",
       "status": "inspected",
       "classification": "adopted_potency_scope",
-      "finding": "Separate sufficient interface under explicit DecidableEq σ.Being and DecidableEq Principle; neither instance is independently established. Retain all original nonlogical premises and the same conclusion. Naming is one-way and does not supply a maximum; identity relates supplied witnesses and supplies neither witness. No necessity, minimality, strict-strength or philosophical premise discharge is claimed. Retain FirstUnmovedMoverExistsOrNot explicitly; equality decisions do not select its existence branch. First Way and Fourth Way supply f and m; identify f = m, transport maximality to f, and name and attribute that same f. GodIsMaximalInBeing remains explicit for uniqueness of the original IsGod predicate. Reuse ClassicalAttributesIdentity only with those matching hypotheses. The historical end remains a structural transcription through the existing skeleton. Complete expression contract pins carrier identity instances separately from proposition hypotheses. Separate Challenge frozen; no existing Challenge changes. F7 continuation: inspected the new DISAMB-POTENCY navigation link; the generic theorem, argument premises and conclusion are unchanged. The disambiguation explicitly retains independent potency for this generic configuration. #1111: added required DISAMB-MAXIME-ENS navigation for the existing generic-perfection/maxime-ens vocabulary union; argument premises, inference IDs and theorem remain unchanged.",
+      "finding": "Separate sufficient interface under explicit DecidableEq σ.Being and DecidableEq Principle; neither instance is independently established. Retain all original nonlogical premises and the same conclusion. Naming is one-way and does not supply a maximum; identity relates supplied witnesses and supplies neither witness. No necessity, minimality, strict-strength or philosophical premise discharge is claimed. Retain FirstUnmovedMoverExistsOrNot explicitly; equality decisions do not select its existence branch. First Way and Fourth Way supply f and m; identify f = m, transport maximality to f, and name and attribute that same f. GodIsMaximalInBeing remains explicit for uniqueness of the original IsGod predicate. Reuse ClassicalAttributesIdentity only with those matching hypotheses. The historical end remains a structural transcription through the existing skeleton. Complete expression contract pins carrier identity instances separately from proposition hypotheses. Separate Challenge frozen; no existing Challenge changes. F7 continuation: inspected the new DISAMB-POTENCY navigation link; the generic theorem, argument premises and conclusion are unchanged. The disambiguation explicitly retains independent potency for this generic configuration. Strength-consumer audit (#1021): inspected the new strong_version_needed disposition. The original premise list, conclusion, Challenge and Solution are unchanged. Redundant for the conclusion; evidence and exact scope: CATHOLICISM-FROM-IDENTITY-WITNESS-WITHOUT-MOTION and docs/notes/prima-via-strength-consumers.md. No global necessity or premise-truth claim is added. #1111: added required DISAMB-MAXIME-ENS navigation for the existing generic-perfection/maxime-ens vocabulary union; argument premises, inference IDs and theorem remain unchanged.",
       "before": {
         "sha256": "absent (new record)",
         "lean_declaration": null
       },
-      "reviewed_sha256": "c0d605f917779567318694948f2c282e5c5a47a806b646d63d46a1650392f09c"
+      "reviewed_sha256": "bf3ef742d6645fb763290230f193fafa44e2bb479871907e27575aa239614451"
     },
     {
       "kind": "arguments",
@@ -161,12 +161,12 @@
       "path": "corpus/arguments/CATHOLICISM-STAGE1-VIA-FULL-DESCRIPTION.json",
       "status": "inspected",
       "classification": "bounded_inspection",
-      "finding": "First-Way double negation plus the separate existence disjunction supplies f; Fourth Way supplies m. Imported naming at m and identity f = m transport IsGod back to f. Conclusion forgets maximality and first-mover evidence; it must not be reused as though it retained them. #1111: added required DISAMB-MAXIME-ENS navigation for the existing generic-perfection/maxime-ens vocabulary union; argument premises, inference IDs and theorem remain unchanged.",
+      "finding": "First-Way double negation plus the separate existence disjunction supplies f; Fourth Way supplies m. Imported naming at m and identity f = m transport IsGod back to f. Conclusion forgets maximality and first-mover evidence; it must not be reused as though it retained them. Strength-consumer audit (#1021): inspected the new strong_version_needed disposition. The original premise list, conclusion, Challenge and Solution are unchanged. Redundant for the conclusion; evidence and exact scope: CATHOLICISM-STAGE1-FULL-DESCRIPTION-WITHOUT-MOTION and docs/notes/prima-via-strength-consumers.md. No global necessity or premise-truth claim is added. #1111: added required DISAMB-MAXIME-ENS navigation for the existing generic-perfection/maxime-ens vocabulary union; argument premises, inference IDs and theorem remain unchanged.",
       "before": {
         "sha256": "679fd14185f7a7dbfea0b9d7d18cacdec8017f12470d3abb942caea0946982e1",
         "lean_declaration": null
       },
-      "reviewed_sha256": "5211147ae08f17ccd41b04249fe162ac2d41af0ce9b2efe124204970063a08d5"
+      "reviewed_sha256": "c51a5cf0d84df3c4158030e093d59bb5b55eac77e334844b2412578461cacc2b"
     },
     {
       "kind": "arguments",
@@ -174,12 +174,12 @@
       "path": "corpus/arguments/CATHOLICISM-STAGES-ONE-TWO-SAME-WITNESS.json",
       "status": "inspected",
       "classification": "adopted_potency_scope",
-      "finding": "Reuse #730 audit of the unchanged consumer and its complete expression contract. First-Way f and Fourth-Way m are supplied separately, identity transports maximality to f, and naming, uniqueness and all attributes concern f. GodIsMaximalInBeing is retained for the original IsGod uniqueness. No strengthening to reuse the attribute interface. F7 continuation: inspected the new DISAMB-POTENCY navigation link; the generic theorem, argument premises and conclusion are unchanged. The disambiguation explicitly retains independent potency for this generic configuration. #1111: added required DISAMB-MAXIME-ENS navigation for the existing generic-perfection/maxime-ens vocabulary union; argument premises, inference IDs and theorem remain unchanged.",
+      "finding": "Reuse #730 audit of the unchanged consumer and its complete expression contract. First-Way f and Fourth-Way m are supplied separately, identity transports maximality to f, and naming, uniqueness and all attributes concern f. GodIsMaximalInBeing is retained for the original IsGod uniqueness. No strengthening to reuse the attribute interface. F7 continuation: inspected the new DISAMB-POTENCY navigation link; the generic theorem, argument premises and conclusion are unchanged. The disambiguation explicitly retains independent potency for this generic configuration. Strength-consumer audit (#1021): inspected the new strong_version_needed disposition. The original premise list, conclusion, Challenge and Solution are unchanged. Redundant for the conclusion; evidence and exact scope: CATHOLICISM-QUARTA-VIA-CLASSICAL-WITNESS and docs/notes/prima-via-strength-consumers.md. No global necessity or premise-truth claim is added. #1111: added required DISAMB-MAXIME-ENS navigation for the existing generic-perfection/maxime-ens vocabulary union; argument premises, inference IDs and theorem remain unchanged.",
       "before": {
         "sha256": "e01d0e55edc32c4c7bf7c5814ad9fe41f3a51bf5a12a67b7b46b1254b11a5c57",
         "lean_declaration": null
       },
-      "reviewed_sha256": "a16b3e4bd691cf955703de6468e4708a07e4a2928bbea6f4af81e06b6e5d822c"
+      "reviewed_sha256": "631e7a2d59b33fb2febeb19b707a954d242dda4ac90f042c25f7361c5496c2c2"
     },
     {
       "kind": "arguments",
@@ -187,12 +187,12 @@
       "path": "corpus/arguments/CATHOLICISM-STAGES-ONE-TWO-SAME-WITNESS-IDENTITY.json",
       "status": "inspected",
       "classification": "adopted_potency_scope",
-      "finding": "Separate sufficient interface under explicit DecidableEq σ.Being and DecidableEq Principle; neither instance is independently established. Retain all original nonlogical premises and the same conclusion. Naming is one-way and does not supply a maximum; identity relates supplied witnesses and supplies neither witness. No necessity, minimality, strict-strength or philosophical premise discharge is claimed. Retain FirstUnmovedMoverExistsOrNot explicitly; equality decisions do not select its existence branch. First Way and Fourth Way supply f and m; identify f = m, transport maximality to f, and name and attribute that same f. GodIsMaximalInBeing remains explicit for uniqueness of the original IsGod predicate. Reuse ClassicalAttributesIdentity only with those matching hypotheses. Complete expression contract pins carrier identity instances separately from proposition hypotheses. Separate Challenge frozen; no existing Challenge changes. F7 continuation: inspected the new DISAMB-POTENCY navigation link; the generic theorem, argument premises and conclusion are unchanged. The disambiguation explicitly retains independent potency for this generic configuration. #1111: added required DISAMB-MAXIME-ENS navigation for the existing generic-perfection/maxime-ens vocabulary union; argument premises, inference IDs and theorem remain unchanged.",
+      "finding": "Separate sufficient interface under explicit DecidableEq σ.Being and DecidableEq Principle; neither instance is independently established. Retain all original nonlogical premises and the same conclusion. Naming is one-way and does not supply a maximum; identity relates supplied witnesses and supplies neither witness. No necessity, minimality, strict-strength or philosophical premise discharge is claimed. Retain FirstUnmovedMoverExistsOrNot explicitly; equality decisions do not select its existence branch. First Way and Fourth Way supply f and m; identify f = m, transport maximality to f, and name and attribute that same f. GodIsMaximalInBeing remains explicit for uniqueness of the original IsGod predicate. Reuse ClassicalAttributesIdentity only with those matching hypotheses. Complete expression contract pins carrier identity instances separately from proposition hypotheses. Separate Challenge frozen; no existing Challenge changes. F7 continuation: inspected the new DISAMB-POTENCY navigation link; the generic theorem, argument premises and conclusion are unchanged. The disambiguation explicitly retains independent potency for this generic configuration. Strength-consumer audit (#1021): inspected the new strong_version_needed disposition. The original premise list, conclusion, Challenge and Solution are unchanged. Redundant for the conclusion; evidence and exact scope: CATHOLICISM-IDENTITY-WITNESS-WITHOUT-MOTION and docs/notes/prima-via-strength-consumers.md. No global necessity or premise-truth claim is added. #1111: added required DISAMB-MAXIME-ENS navigation for the existing generic-perfection/maxime-ens vocabulary union; argument premises, inference IDs and theorem remain unchanged.",
       "before": {
         "sha256": "absent (new record)",
         "lean_declaration": null
       },
-      "reviewed_sha256": "16466d9dac2ff5ed84d33b7a4105be7aca835d572c02a965f7f9debeeb78de86"
+      "reviewed_sha256": "9d71351eaef29d9d3905ba30b9a6747e28babbfaf59e8e48ad8c2892f69cf266"
     },
     {
       "kind": "results",
@@ -602,13 +602,13 @@
       "id": "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE",
       "path": "corpus/statements/god-names-the-fully-described-principle.json",
       "status": "unresolved",
-      "classification": "reused_unchanged_audit",
-      "finding": "Reuse unchanged prior audit disposition: Retained explicit open commitment: Open premise, the fuller nominal definition: the name 'God' applies, in its proper sense, to the only being that is maximal in being (above all), causes the being of every other being (principle of all), causes every perfection of every other being (cause of every perfection, et hoc dicimus Deum), and enters into the composition of nothing (remote from all, q.13 a.8 ad 2). It keeps every condition the sources give, so it is weaker than STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "classification": "scope_clarification",
+      "finding": "Retained exact open naming declaration, hypotheses and adopted component criterion. Paraphrase now qualifies source-condition retention by that explicit reading, rather than asserting all possible remoteness interpretations. Proper-genus exclusion remains a distinct interface; no meaning or premise truth is adopted.",
       "before": {
         "sha256": "b95b1348ce77a82fc8af3d2457b110f090493f02a6867ec7631a85f109fb6bdf",
         "lean_declaration": "TruthCore.Case.Catholicism.GodNamesTheFullyDescribedPrinciple"
       },
-      "reviewed_sha256": "b95b1348ce77a82fc8af3d2457b110f090493f02a6867ec7631a85f109fb6bdf"
+      "reviewed_sha256": "57645102d10eff76ab062bcb44b2754032effe613bd685e2114e1293e63d8597"
     },
     {
       "kind": "statements",
@@ -1694,13 +1694,13 @@
       "id": "DEF-REMOTE-FROM-ALL",
       "path": "corpus/definitions/remote-from-all.json",
       "status": "inspected",
-      "classification": "reused_unchanged_audit",
-      "finding": "Reuse unchanged prior audit disposition: Existing interpretation retained: `RemoteFromAll ComponentOf m`: m enters into the composition of nothing, as neither part, matter nor form of anything (`∀ x, ¬ ComponentOf m x`). This is the case's reading of the third condition in q.13 a.8 ad 2's description of what the name 'God' signifies, taken through q.3 a.8, the article that denies God any composition with other things. No new structural law, source attribution or independently established premise is introduced.",
+      "classification": "scope_clarification",
+      "finding": "Retained exact outgoing noncomponenthood formula and declaration; corrected stale claim that proper-genus exclusion was unformalized. Existing GodIsInNoGenusReading is separate and does not replace the naming criterion. No new spatial/part or genus equivalence, source attribution or established premise.",
       "before": {
         "sha256": "7cd4d46624a47a004ffa7b1e502c687543e9521fd95c70303f5fde0778b3c1f1",
         "lean_declaration": "TruthCore.Case.Catholicism.RemoteFromAll"
       },
-      "reviewed_sha256": "7cd4d46624a47a004ffa7b1e502c687543e9521fd95c70303f5fde0778b3c1f1"
+      "reviewed_sha256": "27c8679d55b71d79d02ec96115827135fabae68ff2862d9e8a834a5ab42e2a92"
     },
     {
       "kind": "definitions",

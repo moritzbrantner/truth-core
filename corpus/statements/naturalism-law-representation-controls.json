@@ -1,0 +1,17 @@
+{
+  "id": "STMT-NATURALISM-LAW-REPRESENTATION-CONTROLS",
+  "paraphrase": "Three separate explicit representations retain the existing finite BestSystemTest: an existing instantiated law under immanent occupant N1; description-only law content with existing located bearers and no existing law entities; and a located existing uninstantiated law under occupant N1 and instance-to-location while location-to-instance support explicitly fails. The last law is unlocated under the immanent criterion. These are scoped models, not full theories of Lewis, Armstrong, Tooley, powers or actual physics.",
+  "lean_declaration": "TruthCore.Ontology.NaturalismLaws.Controls",
+  "definition_ids": [
+    "DEF-NATURALISM-N1",
+    "DEF-SPATIOTEMPORAL-FRAME",
+    "DEF-SPATIOTEMPORAL-LOCATED",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-NATURALISM-LAW-REPRESENTATION",
+    "DEF-IMMANENT-LAW-LOCATION",
+    "DEF-REGULARITY-LAW-SELECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SPATIOTEMPORAL"
+  ]
+}

@@ -32,10 +32,12 @@ public import TruthCore.Results.Comparison.ProblemOfEvil.CatholicAbsentOperation
 public import TruthCore.Results.Comparison.ProblemOfEvil.CatholicConsistentWithEvil.Solution
 public import TruthCore.Results.Comparison.ProblemOfEvil.CatholicEntailsEvilPremise.Solution
 public import TruthCore.Results.Comparison.ProblemOfEvil.ExternalPremiseVsEmotivism.Solution
+public import TruthCore.Results.Comparison.ProblemOfEvil.FromDueDeficiency.Solution
 public import TruthCore.Results.Comparison.ProblemOfEvil.ObjectionOneDeniedByCatholic.Solution
 public import TruthCore.Results.Comparison.ProblemOfEvil.RoweApparentCompatibility.Solution
 public import TruthCore.Results.Comparison.ProblemOfEvil.RoweBalanceNeutralCore.Solution
 public import TruthCore.Results.Comparison.ProblemOfEvil.RoweDeductiveCore.Solution
+public import TruthCore.Results.Comparison.ProblemOfEvil.TruthFromDueDeficiency.Solution
 public import TruthCore.Results.Comparison.QuasiRealism.AntirealistOrderSustainsRobustTruthDeviation.Solution
 public import TruthCore.Results.Comparison.QuasiRealism.DeviatesOnRobustTruth.Solution
 public import TruthCore.Results.Comparison.QuasiRealism.MimicCollapses.Solution

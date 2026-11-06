@@ -1,0 +1,10 @@
+{
+  "id": "CATHOLICISM-IDENTITY-WITNESS-WITHOUT-MOTION",
+  "argument_id": "CATHOLICISM-IDENTITY-WITNESS-WITHOUT-MOTION",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StrengthConsumers.IdentityWitness.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StrengthConsumers.IdentityWitness.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StrengthConsumers.IdentityWitness.uniqueClassicalGodIdentityWithoutMotion",
+  "comparator_config": "results/CATHOLICISM-IDENTITY-WITNESS-WITHOUT-MOTION/comparator.json",
+  "status": "solution-present",
+  "description": "Analyst reduction of CATHOLICISM-STAGES-ONE-TWO-SAME-WITNESS-IDENTITY: the existing Fourth-Way theorem supplies a maximum and the existing full-description naming theorem names that maximum. Use it directly, without the First-Way motion, absolute-unmovedness, or created-agent-identification detour. The same endpoint is retained; no minimality, premise truth, or philosophical discharge is claimed. DecidableEq Being and Principle remain explicit sufficient interfaces, exactly as in the old equality-decision result. The historical/teaching-authority end of root compositions remains a structural map through the imported Skeleton result."
+}

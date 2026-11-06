@@ -1,0 +1,9 @@
+{
+  "id": "INF-NATURALISM-LAW-REPRESENTATION-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-NATURALISM-LAW-REPRESENTATION-CONTROLS",
+  "rule": "constructive-proof",
+  "meaning": "Import the certified Hume regularity test for selected-rule versus incidental truth, then construct the three concrete bearer/law populations and location relations. All advertised instantiation, absence, support-failure and population facts are exported by Controls. No interpretation is rejected merely for differing on law-entity presence.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,12 @@
+{
+  "id": "INF-POE-EVIL-FROM-DUE-DEFICIENCY",
+  "input_statement_ids": [
+    "STMT-EVIL-IS-PRIVATION-OF-DUE-GOOD",
+    "STMT-SOMETHING-FALLS-SHORT-OF-DUE-GOOD"
+  ],
+  "output_statement_id": "STMT-EVIL-IS-FOUND-IN-THINGS",
+  "rule": "constructive-proof",
+  "meaning": "A due good is absent in a supplied subject. The privation equivalence classifies that deficiency as evil and thus supplies an evil witness; no motion, God, goodness-coextension or per-evil production commitment is used.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

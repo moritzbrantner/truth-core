@@ -1,0 +1,11 @@
+{
+  "id": "INF-NATURALISM-IMMANENT-LAWS-INSTANTIATED",
+  "input_statement_ids": [
+    "STMT-NATURALISM-N1"
+  ],
+  "output_statement_id": "STMT-NATURALISM-IMMANENT-LAWS-INSTANTIATED",
+  "rule": "constructive-proof",
+  "meaning": "Unpack N1 at a represented law entity, then unpack its concrete instance-derived location to recover an existing bearer and its instantiation. A checked companion excludes existing uninstantiated law representatives. This is conditional on the selected representation/location profile, not an independent defense of immanent universals or the truth of N1.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

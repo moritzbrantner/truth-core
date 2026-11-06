@@ -1,0 +1,10 @@
+{
+  "challenge_module": "TruthCore.Results.Ontology.NaturalismLaws.Instantiation.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.NaturalismLaws.Instantiation.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Ontology.NaturalismLaws.Instantiation.instantiated",
+    "TruthCore.Results.Ontology.NaturalismLaws.Instantiation.excludesUninstantiated"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -1,0 +1,11 @@
+{
+  "id": "ACTUAL-GROUNDING-ASYMMETRY-STRENGTHENS-MAXIMAL-TARGET",
+  "argument_id": "ACTUAL-GROUNDING-ASYMMETRY-STRENGTHENS-MAXIMAL-TARGET",
+  "challenge_module": "TruthCore.Results.Causality.MaximalGroundingAsymmetry.Strength.Challenge",
+  "solution_module": "TruthCore.Results.Causality.MaximalGroundingAsymmetry.Strength.Solution",
+  "theorem": "TruthCore.Results.Causality.MaximalGroundingAsymmetry.Strength.globalImpliesMaximal",
+  "comparator_config": "results/ACTUAL-GROUNDING-ASYMMETRY-STRENGTHENS-MAXIMAL-TARGET/comparator.json",
+  "status": "solution-present",
+  "description": "Sole-premise same-dictionary scope restriction: full actual grounding asymmetry implies maximal-target asymmetry. A populated reciprocal-dependent control refutes the converse without assuming the old full25 attribute background.",
+  "transcription": "instantiation"
+}
