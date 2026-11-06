@@ -6,5 +6,6 @@
   "claim_ids": [
     "AQUINAS-ST-I-Q11-A3-GOD-THIS-GOD-NATURE-A"
   ],
-  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.ProperGodInstancesHaveCommonNatureReading"
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.ProperGodInstancesHaveCommonNatureReading",
+  "note": "This record explains vocabulary used by the explicit proposition STMT-Q11-PROPER-GOD-INSTANCES-HAVE-COMMON-NATURE. The linked ProperGodInstancesHaveCommonNatureReading is that OPEN universal constraint: its IsGod : Being → Prop, essenceOf : Being → Principle and deity : Principle are inputs, not a definition of God or a construction of a common nature. The intended shared-nature interpretation and acceptance remain OPEN."
 }

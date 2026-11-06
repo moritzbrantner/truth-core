@@ -8,5 +8,6 @@
     "AQUINAS-ST-I-Q3-A5-EVERY-GENUS-HAS-DIFFERENTIAE-A",
     "AQUINAS-ST-I-Q3-A5-IN-GENUS-AS-SPECIES-A"
   ],
-  "lean_declaration": "TruthCore.Greek.Aristotle.Metaphysics.BeingIsNotAGenusReading"
+  "lean_declaration": "TruthCore.Greek.Aristotle.Metaphysics.BeingIsNotAGenusReading",
+  "note": "Typed parameter location: IsGenus : Term → Prop in BeingIsNotAGenusReading. The linked declaration says ¬ IsGenus being for the supplied being : Term; it is a constraining premise, not a definition of the primitive IsGenus predicate. Applicability of the predicable/differentia gloss to supplied terms remains OPEN."
 }
