@@ -1,0 +1,8 @@
+{
+  "id": "DEF-GOODNESS-ASPECT-SCOPE-TRANSFER",
+  "term": "analyst transfer of moral/welfare fragments to aspect ascriptions",
+  "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.BoydAspectFragment",
+  "basis": "stipulative",
+  "definition": "BoydAspectFragment reuses ClusterGoodnessReading on Being×Perfection as the supplied ascription domain; the fixed fostering and sustaining predicates are nonempty. RailtonAspectFragment reuses WelfareReading for a fixed Unit agent and supplied aspect-interest criterion. These explicit substitutions are domain-transfer tests, not identities attributed to the authors.",
+  "note": "Boyd’s recorded positive-case sufficient condition occupies the coextensive, surplus and omission cells under identical actualities/forms/ends and the same nonempty fostering/sustaining criteria. The Railton welfare schema has a due-actuality-compatible instance and a surplus instance when objective interests use all actuality. No empirical claim about human goods or objective interests, and no identification of moral acts, personal welfare and ontological goodness, is thereby established. Actual scope-transfer and criterion-adequacy bridges remain OPEN. Form-sensitive feature classifications survive the coarse-data objection; no blanket naturalist defeat follows."
+}

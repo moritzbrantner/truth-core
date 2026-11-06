@@ -1,0 +1,8 @@
+{
+  "id": "DEF-FORM-END-DUE-PERFECTION",
+  "term": "perfection due to a form and end",
+  "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.Frame",
+  "basis": "stipulative",
+  "definition": "Frame supplies beings, perfections, forms, ends, feature data, form and end assignments, DueFor, actuality Has, goodness GoodIn, a substantial perfection, an ultimate perfection for each bearer, and independent GoodSimply. Due f x p means DueFor (form x) (endOf (form x)) p. DueActuality f x p means Due f x p ∧ Has x p.",
+  "note": "Analyst framework for the owner proposition in #1116. Due is an appropriateness standard, not a causal arrow, actual desire, current approval, or a proof of categorical moral reasons. The artifact controls use edge for cutter/cutting and mass for weight/balancing, with existence due to both. Extra mass can be actual without being due to the cutter/cutting standard; a knife lacking an edge can still exist. Structural properties such as transitivity do not apply to this typed incidence relation. Whether forms determine real ends, which perfections are due to natural kinds, and whether this supports real final causation remain OPEN interpretation/applicability bridges. No source attribution is made."
+}

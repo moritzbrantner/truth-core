@@ -1,0 +1,8 @@
+{
+  "id": "DEF-GOODNESS-DUE-ACTUALITY-PROPOSITION",
+  "term": "goodness as due actuality (proposed proposition)",
+  "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.DueActualityThesis",
+  "basis": "stipulative",
+  "definition": "DueActualityThesis f means ∀ x p, GoodIn x p ↔ (Due f x p ∧ Has x p). GoodIn is independent, so this is a proposition that can fail, not the adopted definition of goodness.",
+  "note": "Owner chose a proposition rather than adopting a definition, 2026-11-06, recorded in #1116. This is an extensional per-perfection reconstruction. It is not the unrestricted q.5 coextension of all actuality, property identity, an aggregate degree of goodness, good simpliciter, or a practical obligation. Those senses require their own explicit bridges."
+}
