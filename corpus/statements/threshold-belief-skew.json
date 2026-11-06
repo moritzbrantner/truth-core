@@ -1,0 +1,13 @@
+{
+  "id": "STMT-THRESHOLD-BELIEF-SKEW",
+  "paraphrase": "The declared Bool probability measure assigns true 19/20 and false 1/20. At threshold 9/10 the policy accepts the proper event {true}, is conjunction closed, and rejects the empty event, while the selected actual alternative false has positive probability and does not satisfy that accepted event. This is a consistent fallible policy model, not an independently warranted actual belief or an account of categorical normativity.",
+  "lean_declaration": "TruthCore.Logic.ThresholdBelief.SkewSurvivor",
+  "definition_ids": [
+    "DEF-THRESHOLD-FULL-BELIEF-POLICY",
+    "DEF-THRESHOLD-HEAVY-CORE",
+    "DEF-THRESHOLD-FINITE-PROBABILITY-MODELS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THRESHOLD-BELIEF-REASON-AND-TRUTH"
+  ]
+}

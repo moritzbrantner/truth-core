@@ -66,8 +66,8 @@ def SupportBoundary : Prop :=
   (∀ (Ω : Type) [Fintype Ω] [MeasurableSpace Ω] [MeasurableSingletonClass Ω]
     (μ : Measure Ω) [IsProbabilityMeasure μ], ConjunctionClosed μ 1)
 
-/-- A nontrivial coherent threshold profile: true has probability19/20 and
-false1/20. Actuality can be false without changing this supplied measure. -/
+/-- A nontrivial coherent threshold profile: true has probability 19/20 and
+false 1/20. Actuality can be false without changing this supplied measure. -/
 noncomputable def skew : Measure Bool :=
   (19/20 : ℝ≥0∞) • Measure.dirac true + (1/20 : ℝ≥0∞) • Measure.dirac false
 

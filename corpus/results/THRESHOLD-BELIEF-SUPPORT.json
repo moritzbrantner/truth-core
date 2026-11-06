@@ -1,0 +1,10 @@
+{
+  "id": "THRESHOLD-BELIEF-SUPPORT",
+  "argument_id": "THRESHOLD-BELIEF-SUPPORT",
+  "challenge_module": "TruthCore.Results.Logic.ThresholdBelief.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ThresholdBelief.Solution",
+  "theorem": "TruthCore.Results.Logic.ThresholdBelief.support",
+  "comparator_config": "results/THRESHOLD-BELIEF-SUPPORT/comparator.json",
+  "status": "solution-present",
+  "description": "For every normalized probability measure on a finite measurable space and every finite family of events, one is at most the probability of their intersection plus the sum of their individual error probabilities. No independence premise is used. Threshold one is binary and hence finite-conjunction closed. Probability one is not identified with logical necessity, and this result makes no arbitrary infinite-conjunction claim."
+}

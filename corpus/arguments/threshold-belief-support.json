@@ -1,0 +1,17 @@
+{
+  "id": "THRESHOLD-BELIEF-SUPPORT",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-THRESHOLD-BELIEF-SUPPORT",
+  "inference_ids": [
+    "INF-THRESHOLD-BELIEF-SUPPORT"
+  ],
+  "meaning": "For every normalized probability measure on a finite measurable space and every finite family of events, one is at most the probability of their intersection plus the sum of their individual error probabilities. No independence premise is used. Threshold one is binary and hence finite-conjunction closed. Probability one is not identified with logical necessity, and this result makes no arbitrary infinite-conjunction claim.",
+  "definition_ids": [
+    "DEF-THRESHOLD-FULL-BELIEF-POLICY",
+    "DEF-THRESHOLD-HEAVY-CORE",
+    "DEF-THRESHOLD-FINITE-PROBABILITY-MODELS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THRESHOLD-BELIEF-REASON-AND-TRUTH"
+  ]
+}

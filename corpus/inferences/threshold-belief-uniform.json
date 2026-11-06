@@ -1,0 +1,9 @@
+{
+  "id": "INF-THRESHOLD-BELIEF-UNIFORM",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-THRESHOLD-BELIEF-UNIFORM",
+  "rule": "finite-probability-threshold-uniform",
+  "meaning": "For the actual uniform measure on Fin N with N>0 and 0<t≤1, threshold beliefs are conjunction closed exactly when 1-1/N<t. For every fixed 0<t<1 there is N≥2 for which closure fails, every ticket-losing event is accepted, and their common intersection is empty. Changing the threshold with context or restricting licensed events is a distinct policy; the result does not refute pro tanto reasons.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

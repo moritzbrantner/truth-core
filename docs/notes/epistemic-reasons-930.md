@@ -254,3 +254,71 @@ verification belong to the linked PR/issue handoff.
 
 Issue #930 remains open: this delivers a positive defeasible argument and
 accuracy theorems, while the general authority challenge survives at bridge 2.
+
+
+## Threshold support is not automatically full belief (#1063)
+
+A pro tanto reason can favor an attitude without requiring full belief, and
+individually licensed attitudes need not all be jointly licensed. This is a
+substantive limit on a stronger policy one might add to the positive argument;
+it does not retract F6 or identify epistemic reasons with a numerical threshold.
+The present reconstruction is analyst work, with attribution deferred. Navigation:
+[SEP Formal Representations of Belief §4.2.2](https://plato.stanford.edu/entries/formal-belief/#LocThr)
+and [Epistemic Paradoxes §§3–4](https://plato.stanford.edu/entries/epistemic-paradoxes/).
+No new claim about what a historical author meant is registered.
+
+Let events be sets of sample states in a finite measurable space, with an actual
+Mathlib probability measure μ. A declared full-belief policy accepts A exactly
+when t≤μ(A), for 0<t≤1. This is a policy to investigate, not a claim that all such
+acceptances are actually warranted. Actual truth is membership of a selected
+state in A; the measure and the policy do not select that state.
+
+The structural result is stronger than one chosen lottery. Define
+C_t={x | 1-t<μ({x})}. This core is exactly the intersection of all accepted events.
+If x has mass at most1-t, its complement is accepted and excludes x. If x has
+larger mass, every event omitting it falls below threshold. Finiteness and
+conjunction closure then require acceptance of C_t itself. Conversely, an
+accepted core lies in every accepted intersection, and probability monotonicity
+preserves its support. Thus conjunction closure is equivalent to μ(C_t)≥t.
+Normalization also makes the universal event accepted; t>0 rejects the empty one.
+
+For the uniform measure on Fin N, N>0, closure holds exactly when1-1/N<t.
+Every fixed0<t<1 therefore fails at some finite N≥2: each ticket-losing event is
+accepted but their intersection is empty. At the boundary, weak threshold
+acceptance and the strict heavy-core inequality matter. In the uniform survivor
+above this boundary, only the universal event is accepted; no informative
+proper-event belief is thereby supplied. Binary closure is explicitly connected
+to finite intersections, including the empty conjunction.
+
+There is also a positive finite control. With two states of probabilities 0.95
+and 0.05 and threshold 0.9, the accepted events are the likely singleton and the
+universal event. The policy is conjunction closed and rejects contradiction,
+yet its proper accepted event is false if the positive-probability rare state
+is actual. This witnesses a coherent fallible policy, not actual epistemic
+warrant or a defense of its chosen threshold. It prevents a false inference
+from the uniform obstruction to the impossibility of every threshold profile.
+
+The finite support bound is1≤μ(⋂A_i)+Σ(1-μ(A_i)), with no independence premise.
+Support can degrade when propositions are conjoined; repeatedly preserving the
+original threshold is an additional requirement. Threshold one preserves finite
+conjunctions, but no probability-one-to-logical-necessity theorem or arbitrary
+infinite-conjunction closure is claimed.
+
+The shared constraint applies to any naturalist, realist, constitutive or
+theistic account that adopts the same threshold-to-full-belief and conjunction
+policies. It vindicates none of them. Serious alternatives reject unconditional
+agglomeration, change thresholds with context, restrict jointly licensed
+families, or separate full belief from graded support. A contradiction in a
+package forces rejection of at least one member, not a preferred member.
+The normative bridges, actual probability calibration and actual applicability
+remain OPEN. No root premise or common-ground floor is newly discharged.
+
+Claim/type self-sweep: all four results are mathematical conditional statements
+universally quantifying finite measurable probability profiles and numerical
+guards. The new propositions have no source-derived stating claims. Their
+conclusions use actual sets, normalized measures and intersections, not opaque
+Prop atoms. The general core theorem is composed into the uniform and skew
+comparisons; probability and truth remain distinct in the positive counterworld.
+The old accuracy/contrastive/induction results remain unchanged and are not
+reintroduced as assumptions. The root-frontier comparison is reported with the
+final verification evidence; no philosophical closure follows from this batch.
