@@ -1,0 +1,18 @@
+{
+  "id": "CHURCH-DEFINITION-INTERPRETATION-MODELS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-CHURCH-CRITERION-MODELS",
+  "inference_ids": [
+    "INF-CHURCH-DEFINITION-INTERPRETATION-MODELS"
+  ],
+  "meaning": "Six finite schema interpretations reuse DivineFounding.modelSig, with a four-society extension when needed. Joint-only survival has a nonempty shared body plus visible-only and spiritual-only additional bodies. The further criterion has witnesses with stage 5 both true and false, so it opposes named coverage only. No ecclesiology or actual Church history is established.",
+  "definition_ids": [
+    "DEF-CHURCH-CRITERION-CALIBRATION",
+    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY",
+    "DEF-CHURCH-SPIRITUAL-COMMUNITY",
+    "DEF-SKELETON-OPEN-PREDICATES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS"
+  ]
+}

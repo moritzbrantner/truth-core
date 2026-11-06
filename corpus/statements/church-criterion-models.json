@@ -1,0 +1,14 @@
+{
+  "id": "STMT-CHURCH-CRITERION-MODELS",
+  "paraphrase": "Six schema controls witness triple overlap, the spiritual criterion alone with stage 5 false, the visible criterion alone with stage 5 true, a nonempty joint-only Church extension, and further criteria with either stage-5 verdict. The controls establish no historical Church, metaphysical ecclesiology or stage-6 identity.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.ChurchDefinitions.ChurchCriterionModels",
+  "definition_ids": [
+    "DEF-CHURCH-CRITERION-CALIBRATION",
+    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY",
+    "DEF-CHURCH-SPIRITUAL-COMMUNITY",
+    "DEF-SKELETON-OPEN-PREDICATES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS"
+  ]
+}

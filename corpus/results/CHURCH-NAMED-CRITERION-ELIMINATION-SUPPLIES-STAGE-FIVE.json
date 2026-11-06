@@ -1,0 +1,10 @@
+{
+  "id": "CHURCH-NAMED-CRITERION-ELIMINATION-SUPPLIES-STAGE-FIVE",
+  "argument_id": "CHURCH-NAMED-CRITERION-ELIMINATION-SUPPLIES-STAGE-FIVE",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.ChurchDefinitions.Elimination.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.ChurchDefinitions.Elimination.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.ChurchDefinitions.Elimination.namedEliminationSuppliesStageFive",
+  "comparator_config": "results/CHURCH-NAMED-CRITERION-ELIMINATION-SUPPLIES-STAGE-FIVE/comparator.json",
+  "status": "solution-present",
+  "description": "Under open named coverage and an actual negation of the spiritual calibration, select visible or joint calibration and import its stage-5 theorem on the explicit historical witness. A model showing spiritual calibration alone insufficient does not establish its negation."
+}

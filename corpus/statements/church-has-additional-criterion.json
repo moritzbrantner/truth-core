@@ -1,0 +1,14 @@
+{
+  "id": "STMT-CHURCH-HAS-ADDITIONAL-CRITERION",
+  "paraphrase": "The selected Church predicate has an extension different from all three named criteria: it coextends with neither visible nor spiritual nor their conjunction. A precise remainder relative to this fixed profile, not a merely fresh label.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.ChurchDefinitions.AdditionalChurchCriterion",
+  "definition_ids": [
+    "DEF-CHURCH-CRITERION-CALIBRATION",
+    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY",
+    "DEF-CHURCH-SPIRITUAL-COMMUNITY",
+    "DEF-SKELETON-OPEN-PREDICATES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS"
+  ]
+}

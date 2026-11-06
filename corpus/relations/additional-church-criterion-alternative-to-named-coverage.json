@@ -1,0 +1,9 @@
+{
+  "id": "REL-ADDITIONAL-CHURCH-CRITERION-ALTERNATIVE-TO-NAMED-COVERAGE",
+  "subject_kind": "statement",
+  "subject_id": "STMT-CHURCH-HAS-ADDITIONAL-CRITERION",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-CHURCH-NAMED-CRITERIA-COVER",
+  "note": "The selected extension matches none of the three named criteria. It contradicts named coverage, not the original stage-5 statement: separate controls witness it with either target verdict."
+}
