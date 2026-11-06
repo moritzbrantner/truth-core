@@ -1455,13 +1455,13 @@
       "id": "DEF-PER-SE-ORDERED-SERIES",
       "path": "corpus/definitions/per-se-ordered-series.json",
       "status": "inspected",
-      "classification": "intentional_abstraction",
-      "finding": "Existing interpretation retained: A series in which each cause after the first causes only insofar as it is, here and now, moved by the one before it: the stone is moved by the stick, the stick by the hand. In Lean the link is `MovesAsMoved y x` (y moves x only insofar as y is itself moved) and 'no infinite regress' is well-foundedness of that relation (`NoInfinitePerSeMoverSeriesReading`). No new structural law, source attribution or independently established premise is introduced.",
+      "classification": "reviewed_semantic_note",
+      "finding": "Reviewed #1112 clarification: no first member is presupposed by an essential-series definition; here-and-now/removal is an OPEN interpretation of primitive links and accessibility a separate premise. Historical succession and essential dependence are distinct without an explicit edge dictionary. The new typed analyst sibling certifies only conditional exclusion and formal same-member compatibility, not metaphysical possibility. Existing source claims, frozen interfaces and every audited route premise remain unchanged; see docs/causal-regress-and-grim-reapers.md.",
       "before": {
         "sha256": "8c7ad57558c8de9d90019cfa7eaf6aa8a98be86d7d03da298cdb18f93420bdf9",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.NoInfinitePerSeMoverSeriesReading"
       },
-      "reviewed_sha256": "8c7ad57558c8de9d90019cfa7eaf6aa8a98be86d7d03da298cdb18f93420bdf9"
+      "reviewed_sha256": "5cbd86e2154a664a5037fe86b73ddff99e4d7dc3fa5d90eea686febba91bf3b9"
     },
     {
       "kind": "definitions",
@@ -1689,13 +1689,13 @@
       "id": "DISAMB-CAUSAL-SERIES",
       "path": "corpus/disambiguations/causal-series.json",
       "status": "inspected",
-      "classification": "intentional_abstraction",
-      "finding": "Existing resolution retained: The no-regress premise STMT-NO-INFINITE-PER-SE-MOVER-SERIES is stated only for per se links (`MovesAsMoved`); nothing on the root path says that a per accidens series must end. ST I q.46 a.2 ad 7 grants that a per accidens series (an infinite past of fathers or hammers) is not impossible (STMT-INFINITE-REGRESS-IMPOSSIBLE-ONLY-IN-PER-SE-SERIES), so an eternal world does not touch the prima via. The series is per se because of STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED, and it is read at one time (simul). The secunda via has its own per se link between efficient causes, `CausesAsCaused` (DEF-PER-SE-EFFICIENT-CAUSE-LINK), with its own no-regress premise STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES. It is not identified with `MovesAsMoved`: the only passage from one to the other is the explicit premise STMT-PER-SE-MOVER-LINK-IS-PER-SE-CAUSE-LINK (q.46 a.2 ad 7, the stone, stick and hand), from which AQUINAS-ST-I-Q46-A2-AD7-MOVER-REGRESS-FROM-CAUSE-REGRESS derives the mover regress premise.",
+      "classification": "reviewed_semantic_note",
+      "finding": "Reviewed #1112 clarification: no first member is presupposed by an essential-series definition; here-and-now/removal is an OPEN interpretation of primitive links and accessibility a separate premise. Historical succession and essential dependence are distinct without an explicit edge dictionary. The new typed analyst sibling certifies only conditional exclusion and formal same-member compatibility, not metaphysical possibility. Existing source claims, frozen interfaces and every audited route premise remain unchanged; see docs/causal-regress-and-grim-reapers.md.",
       "before": {
         "sha256": "e49c7b1303cbad80df9fdf569a5050be6943c34cd984f64022c52c99644e8cae",
         "lean_declaration": null
       },
-      "reviewed_sha256": "e49c7b1303cbad80df9fdf569a5050be6943c34cd984f64022c52c99644e8cae"
+      "reviewed_sha256": "597bfe3a60db507964990c3e3cfd36410bfc4c8ebc0f7bda53cab4b5de8a8803"
     },
     {
       "kind": "disambiguations",

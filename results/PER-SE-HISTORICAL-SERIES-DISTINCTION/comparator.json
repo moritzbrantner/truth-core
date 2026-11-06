@@ -1,0 +1,12 @@
+{
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.PerSeHistoricalSeries.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.PerSeHistoricalSeries.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Aquinas.SummaTheologiae.PerSeHistoricalSeries.distinction",
+    "TruthCore.Results.Aquinas.SummaTheologiae.PerSeHistoricalSeries.finiteDepthControl",
+    "TruthCore.Results.Aquinas.SummaTheologiae.PerSeHistoricalSeries.secundaViaNeedsPerSeOrder",
+    "TruthCore.Results.Aquinas.SummaTheologiae.PerSeHistoricalSeries.secundaViaNeedsNoRegress"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
