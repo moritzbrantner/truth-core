@@ -53,6 +53,17 @@ public import TruthCore.Results.Causality.DirectEsseRootUniqueness.Solution
 public import TruthCore.Results.Causality.DirectEsseRootUniquenessAtBeing.Solution
 public import TruthCore.Results.Causality.DirectEsseRootUniquenessFromAsymmetry.Solution
 public import TruthCore.Results.Causality.DirectEsseRootUniquenessScopeControls.Solution
+public import TruthCore.Results.Causality.EsseReceptionDefinitions.Controls.Solution
+public import TruthCore.Results.Causality.EsseReceptionDefinitions.Counteraccount.Solution
+public import TruthCore.Results.Causality.EsseReceptionDefinitions.IdentityScopeControl.Solution
+public import TruthCore.Results.Causality.EsseReceptionDefinitions.IdentityScopeStrength.Solution
+public import TruthCore.Results.Causality.EsseReceptionDefinitions.InfinityFromIdentityScope.Solution
+public import TruthCore.Results.Causality.EsseReceptionDefinitions.OwnEssenceFailure.Solution
+public import TruthCore.Results.Causality.EsseReceptionDefinitions.ReceptionTransfer.Solution
+public import TruthCore.Results.Causality.EsseReceptionDefinitions.RestrictedFailure.Solution
+public import TruthCore.Results.Causality.EsseReceptionDefinitions.ScopeStrength.Solution
+public import TruthCore.Results.Causality.EsseReceptionDefinitions.SelectedCoverage.Solution
+public import TruthCore.Results.Causality.EsseReceptionDefinitions.TransferCoverage.Solution
 public import TruthCore.Results.Causality.EssentialPowerUnderdetermined.Solution
 public import TruthCore.Results.Causality.ExistentialSelfActualization.Solution
 public import TruthCore.Results.Causality.ExternalCandidateNecessity.Solution

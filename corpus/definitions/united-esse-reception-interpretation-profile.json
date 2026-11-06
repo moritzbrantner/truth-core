@@ -1,0 +1,8 @@
+{
+  "id": "DEF-UNITED-ESSE-RECEPTION-INTERPRETATION-PROFILE",
+  "term": "united soul communication versus canonical reception",
+  "definition": "Analyst state-indexed interface using the existing EsseReceivedIn relation one state at a time. Being holds whole/soul roles; Principle holds esse, essence and bodily-recipient roles; soulOf/bodyOf are explicit maps and do not identify the whole with its soul or receiving body. Unites, Communicates and Received are independent relations. SelectedUnion, conditional communication, same-act identity, interpretation transfer, recipient inequality and scope eligibility are separate propositions. No causal dependence, receptive potency, self-reception ban, composition, parthood or identity of body/whole is inferred from these fields. Motivating example is the existing united-soul communication objection; reception of another form/quality or an external efficient cause is a counterexample to automatic same-act interpretation. Actual applicability and the shared source sense remain OPEN.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.EsseReceptionDefinitionFork.Frame",
+  "note": "Stipulated to encode the prior open interpretation fork conditionally instead of asking for a meaning decision before consequence work. Source attributions retain only their original communication/reception language. Actual source mapping, act identity and recipient/subject interpretation require explicit input; no new historical claim is made. Structural properties of Received are not assumed."
+}

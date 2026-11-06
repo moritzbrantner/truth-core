@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.InfinityFromIdentityScope.Challenge",
+  "solution_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.InfinityFromIdentityScope.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.EsseReceptionDefinitions.InfinityFromIdentityScope.infinityFromIdentityScope"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -1,0 +1,14 @@
+{
+  "id": "STMT-ELIGIBLE-BEARERS-RECEIVE-ESSE-ONLY-IN-OWN-ESSENCE",
+  "paraphrase": "A scope-restricted sibling of the original own-essence principle: every selected-state reception by an independently Eligible bearer has its own essence as recipient. No source criterion or arbitrary exclusion of souls is built into Eligible.",
+  "lean_declaration": "TruthCore.Causality.EsseReceptionDefinitionFork.RestrictedOwnEssence",
+  "definition_ids": [
+    "DEF-UNITED-ESSE-RECEPTION-INTERPRETATION-PROFILE",
+    "DEF-ESSE-RECEIVED-IN",
+    "DEF-ESSENCE-THOMISTIC-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSE-RECEPTION",
+    "DISAMB-ESSENCE"
+  ]
+}
