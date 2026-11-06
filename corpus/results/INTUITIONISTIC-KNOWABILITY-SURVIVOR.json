@@ -1,0 +1,10 @@
+{
+  "id": "INTUITIONISTIC-KNOWABILITY-SURVIVOR",
+  "argument_id": "INTUITIONISTIC-KNOWABILITY-SURVIVOR",
+  "challenge_module": "TruthCore.Results.Logic.IntuitionisticKnowability.Challenge",
+  "solution_module": "TruthCore.Results.Logic.IntuitionisticKnowability.Solution",
+  "theorem": "TruthCore.Results.Logic.IntuitionisticKnowability.survivor",
+  "comparator_config": "results/INTUITIONISTIC-KNOWABILITY-SURVIVOR/comparator.json",
+  "status": "solution-present",
+  "description": "Construct and verify one same three-world persistent-content model. Import the earlier epistemic frame certificate through its explicit three-world restriction; prove relational knowledge/possibility preserve the contents without adding worlds, check the individual algebraic epistemic laws, and witness full knowability and precise relevant stability/EM failure. This is a semantic-profile counterconfiguration, not a counterexample to old pointwise Lean Prop results, a refutation of the classical floor, a historical claim or root discharge."
+}

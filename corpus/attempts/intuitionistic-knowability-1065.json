@@ -1,0 +1,16 @@
+{
+  "id": "ATTEMPT-INTUITIONISTIC-KNOWABILITY-1065",
+  "statement_ids": [
+    "STMT-INTUITIONISTIC-KNOWABILITY-FORCING",
+    "STMT-INTUITIONISTIC-KNOWABILITY-SURVIVOR"
+  ],
+  "date": "2026-11-06",
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Issue1065 supplies a deliberately different logical semantic profile, not a counterexample to old Lean Prop theorems or the established excluded-middle floor. All persistent contents on information chain0≤1≤2 form the actual Mathlib Heyting algebra (UpperSet (Fin3)) dual. The future-implication/pseudocomplement bridge is proved using residual adjunction and principal upper sets. The earlier epistemic frame certificate is imported through an explicit first-three-world restriction, with universal modal R and E inclusion. Typed upper-closure knowledge/possibility constructors are proved exact to existing relational Knows/PossibleKnown, adding no world on persistent contents. The joint model checks factivity, top/conjunction, normal distribution, positive and stated Heyting negative introspection; full knowability over ALL persistent contents; intuitionistic Moore closure/unknowability and truth-to-double-negated knowledge. At middle1 with p={1,2}, p and double-negated Kp are forced, Kp and its intuitionistic negation are both unforced, and relevant object-language DNE/EM formulas are unforced. Rejected conflations: pointwise Fitch.Moore with future-world negation; non-forcing with forcing negation; ordinary equivalence frames with full IK/IS5-calculus soundness; information growth with physical time; philosophical F6 with knowability. Original Challenge d89a0bd265e18e8245b0ff4a3d247be3b082cae81e945ccea1dedeb1407a9c77 compiled and froze before Solution, unchanged. Focused Solution build warning-free, two exact bindings/zero mismatch and probes exactly propext/Classical.choice/Quot.sound. Initial missing Fin-order/Fintype imports and set-membership rewrites repaired without changing frozen targets. Metadata disambiguation scope corrected to avoid retroactively assigning new senses to old arguments. Both exact Comparator plus independent NanoDa result checks pass with the approved Mathlib trio. Computed root-frontier90→90 (30bare18supported42stated), cheapest31→31, no route changes. Final delivered-head CI/review remain required. Full interpretations, semantic delta and claim/type self-sweep persist in docs/notes/sep-fitch-knowability-gap-20261106.md. Convention sourceRevision625cb04ca568aebc8d45c90033e107a05e9bd2a0. No source/claim/passage/dependency/tooling change or root premise discharge.",
+  "evidence": [
+    "INTUITIONISTIC-KNOWABILITY-FORCING",
+    "INTUITIONISTIC-KNOWABILITY-SURVIVOR",
+    "FITCH-RESTRICTED-SURVIVOR"
+  ]
+}
