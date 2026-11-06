@@ -1,0 +1,11 @@
+{
+  "id": "INF-EXCLUSIVE-IMMEDIATE-FOUNDING-ENTAILS-DIRECT-CALIBRATION",
+  "input_statement_ids": [
+    "STMT-DIVINE-FOUNDING-IS-EXCLUSIVE-IMMEDIATE"
+  ],
+  "output_statement_id": "STMT-DIVINE-FOUNDING-IS-IMMEDIATE-ONLY",
+  "rule": "constructive-proof",
+  "meaning": "Strength-order comparison: the exclusive Jesus-scope reading includes the minimal direct calibration. Operational calibration and positive elimination use the weaker reading; the contradiction needs the extra exclusion.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

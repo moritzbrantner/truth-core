@@ -1,0 +1,11 @@
+{
+  "id": "INF-ENVOY-INCLUSIVE-DEFINITION-SUPPLIES-FOUNDING",
+  "input_statement_ids": [
+    "STMT-DIVINE-FOUNDING-IS-ENVOY-INCLUSIVE"
+  ],
+  "output_statement_id": "STMT-ENVOY-FOUNDING-IS-GODS-FOUNDING",
+  "rule": "constructive-proof",
+  "meaning": "Definition-projection transcription: the envoy event is one disjunct in the explicitly assumed inclusive calibration. This conditional connection does not independently defend the definition or establish the old root premise.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

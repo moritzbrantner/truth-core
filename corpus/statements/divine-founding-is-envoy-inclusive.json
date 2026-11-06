@@ -1,0 +1,15 @@
+{
+  "id": "STMT-DIVINE-FOUNDING-IS-ENVOY-INCLUSIVE",
+  "paraphrase": "Open definition proposition, restricted to God candidates: founded as a teaching authority coextends with direct principal founding or Jesus founding in the primitive FoundedInMandate relation together with a teaching commission. No claim that a mandate is actually held is added to that event's type; other envoys are not covered.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.FoundingDefinitions.EnvoyInclusiveReading",
+  "definition_ids": [
+    "DEF-PRINCIPAL-ACT-FOUNDING-READING",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+    "DEF-FOUNDED-BY-GOD-IMMEDIATELY",
+    "DEF-GOD-OF-CLASSICAL-THEISM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FOUNDED-BY-GOD",
+    "DISAMB-GOD"
+  ]
+}
