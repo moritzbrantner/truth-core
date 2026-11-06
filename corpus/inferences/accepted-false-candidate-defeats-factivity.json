@@ -1,0 +1,11 @@
+{
+  "id": "INF-ACCEPTED-FALSE-CANDIDATE-DEFEATS-FACTIVITY",
+  "input_statement_ids": [
+    "STMT-ARRANGEMENT-EXPLANATION-JUDGMENT-ACCEPTS-FALSE-CANDIDATE"
+  ],
+  "output_statement_id": "STMT-ACCEPTED-ARRANGEMENT-EXPLANATION-FACTIVITY-FAILS",
+  "rule": "constructive-proof",
+  "meaning": "An actual accepted false candidate contradicts the SAME accepted-candidate factivity policy. No source theory is refuted by assigning a mistaken generic judgment.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

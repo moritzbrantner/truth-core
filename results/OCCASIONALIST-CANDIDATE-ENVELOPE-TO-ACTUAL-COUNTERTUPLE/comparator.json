@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.RawCounterProjection.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.RawCounterProjection.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.RawCounterProjection.rawCounterProjection"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

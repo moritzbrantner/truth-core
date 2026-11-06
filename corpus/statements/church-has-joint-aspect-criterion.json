@@ -1,0 +1,14 @@
+{
+  "id": "STMT-CHURCH-HAS-JOINT-ASPECT-CRITERION",
+  "paraphrase": "Open analyst definition proposition: the selected Church predicate applies exactly when the same society satisfies both the existing visible-authoritative criterion and the selected spiritual-community criterion. The aspects are not two societies; no modern body or stage-6 identity is selected.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.ChurchDefinitions.JointAspectCriterion",
+  "definition_ids": [
+    "DEF-CHURCH-CRITERION-CALIBRATION",
+    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY",
+    "DEF-CHURCH-SPIRITUAL-COMMUNITY",
+    "DEF-SKELETON-OPEN-PREDICATES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS"
+  ]
+}

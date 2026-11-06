@@ -1,0 +1,11 @@
+{
+  "id": "NO-DIVINE-SENSE-EXCLUDES-PROFILE-ARGUABILITY",
+  "argument_id": "NO-DIVINE-SENSE-EXCLUDES-PROFILE-ARGUABILITY",
+  "challenge_module": "TruthCore.Results.Logic.NaturalTheologySemanticScope.Projection.Challenge",
+  "solution_module": "TruthCore.Results.Logic.NaturalTheologySemanticScope.Projection.Solution",
+  "theorem": "TruthCore.Results.Logic.NaturalTheologySemanticScope.Projection.projection",
+  "comparator_config": "results/NO-DIVINE-SENSE-EXCLUDES-PROFILE-ARGUABILITY/comparator.json",
+  "status": "solution-present",
+  "description": "Semantic projection transcription: no meaningful divine content excludes an arguable meaningful divine content under the SAME profile, regardless of its explicitly selected argument standard. This is not an inference from a Tractatus source passage or a proof of its strong meaning denial.",
+  "transcription": "instantiation"
+}

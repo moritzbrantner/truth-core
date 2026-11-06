@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.SelectionCoverageBoundary.RivalSelectionFailure.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.SelectionCoverageBoundary.RivalSelectionFailure.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Explanation.SelectionCoverageBoundary.RivalSelectionFailure.rivalSelectionFailure"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

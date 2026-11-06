@@ -1,0 +1,10 @@
+{
+  "id": "NARROW-GOVERNANCE-CALIBRATES-INSTITUTION-LINK",
+  "argument_id": "NARROW-GOVERNANCE-CALIBRATES-INSTITUTION-LINK",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Narrow.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Narrow.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Narrow.narrowCalibration",
+  "comparator_config": "results/NARROW-GOVERNANCE-CALIBRATES-INSTITUTION-LINK/comparator.json",
+  "status": "solution-present",
+  "description": "Transport governing-power premises in both directions through the explicit narrow calibration, preserving mandate/body/visibility and teaching. This checks exact equivalence with the original bridge, not a change to its fixed table."
+}

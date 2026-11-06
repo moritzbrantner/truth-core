@@ -1,0 +1,10 @@
+{
+  "id": "PRACTICE-NO-REFERENCE-REJECTS-FULL-NAMING",
+  "argument_id": "PRACTICE-NO-REFERENCE-REJECTS-FULL-NAMING",
+  "challenge_module": "TruthCore.Results.Alternatives.NameApplicationTransfer.FullNaming.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.NameApplicationTransfer.FullNaming.Solution",
+  "theorem": "TruthCore.Results.Alternatives.NameApplicationTransfer.FullNaming.noReferenceRejectsFullNaming",
+  "comparator_config": "results/PRACTICE-NO-REFERENCE-REJECTS-FULL-NAMING/comparator.json",
+  "status": "solution-present",
+  "description": "A full descriptor witness would be proper by the full naming leaf, then a practice referent by transfer, contrary to practice no-reference. Thus the exact proper-sense leaf is negated. Removing transfer or the witness leaves no such contradiction."
+}

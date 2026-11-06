@@ -1,0 +1,10 @@
+{
+  "id": "SCIENTISM-SCOPE-GUARDED-NONEMPIRICAL-NEGATIVE",
+  "argument_id": "SCIENTISM-SCOPE-GUARDED-NONEMPIRICAL-NEGATIVE",
+  "challenge_module": "TruthCore.Results.Logic.ScientismScopeBoundary.GuardedNegative.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ScientismScopeBoundary.GuardedNegative.Solution",
+  "theorem": "TruthCore.Results.Logic.ScientismScopeBoundary.GuardedNegative.guardedNegative",
+  "comparator_config": "results/SCIENTISM-SCOPE-GUARDED-NONEMPIRICAL-NEGATIVE/comparator.json",
+  "status": "solution-present",
+  "description": "The unchanged scoped norm and explicit existential witness-transfer coverage exclude nonempirical established claims. Generic scoped scientism alone does not."
+}

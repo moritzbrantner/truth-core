@@ -1,0 +1,10 @@
+{
+  "id": "REL-SHARED-GOD-REFERENCE-STRENGTHENS-PRESERVATION",
+  "subject_kind": "statement",
+  "subject_id": "STMT-GOD-NAME-SHARED-REFERENCE-EXTENSION",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "STMT-PROPER-REFERENCE-PRESERVED",
+  "verification_result_id": "GOD-NAME-COEXTENSION-PRESERVES-PROPER-REFERENCE",
+  "note": "Both directions of coextension imply the proper-to-practice direction. Conflict arguments retain only the weaker preservation premise; the Bool control witnesses strictness."
+}

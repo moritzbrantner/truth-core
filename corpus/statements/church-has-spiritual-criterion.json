@@ -1,0 +1,14 @@
+{
+  "id": "STMT-CHURCH-HAS-SPIRITUAL-CRITERION",
+  "paraphrase": "Open analyst definition proposition: on the selected society carrier, a body satisfies the selected Church predicate iff it satisfies the selected spiritual-community criterion. Spiritual does not mean invisible, and this does not alone determine visibility.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.ChurchDefinitions.SpiritualCriterion",
+  "definition_ids": [
+    "DEF-CHURCH-CRITERION-CALIBRATION",
+    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY",
+    "DEF-CHURCH-SPIRITUAL-COMMUNITY",
+    "DEF-SKELETON-OPEN-PREDICATES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS"
+  ]
+}

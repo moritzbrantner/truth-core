@@ -1,0 +1,11 @@
+{
+  "id": "INF-CHURCH-DEFINITION-CASES-WITH-REMAINDER",
+  "input_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "output_statement_id": "STMT-CHURCH-CRITERION-CASES-COVER",
+  "rule": "constructive-proof",
+  "meaning": "Three explicit EM instances check visible, spiritual, joint-aspect or neither-named-extension coverage. Named coverage is not proved and exclusivity is not claimed.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,32 @@
+{
+  "id": "UNIVERSE-CAUSAL-ACTUALITY-SCOPE-TRILEMMA",
+  "argument_id": "UNIVERSE-CAUSAL-ACTUALITY-SCOPE-TRILEMMA",
+  "challenge_module": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.Coverage.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.Coverage.Solution",
+  "theorem": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.Coverage.coverage",
+  "comparator_config": "results/UNIVERSE-CAUSAL-ACTUALITY-SCOPE-TRILEMMA/comparator.json",
+  "status": "solution-present",
+  "description": "Checked structural trilemma distinguishes existing-causer, no-edge, and only-absent-causer assignments without claiming philosophical theories exhaustive.",
+  "transcription": "instantiation",
+  "case_split": {
+    "target_statement_id": "STMT-UNIVERSE-HAS-EXISTING-CAUSE",
+    "cases": [
+      {
+        "label": "existing causer",
+        "statement_id": "STMT-UNIVERSE-HAS-EXISTING-CAUSE",
+        "lean_declaration": "TruthCore.Ontology.NaturalismConsequences.UniverseHasExistingCause"
+      },
+      {
+        "label": "no causal edge",
+        "statement_id": "STMT-UNIVERSE-UNCAUSED",
+        "lean_declaration": "TruthCore.Ontology.NaturalismConsequences.UniverseUncaused"
+      },
+      {
+        "label": "candidate edges but no existing causer",
+        "statement_id": "STMT-SPACETIME-WHOLE-HAS-ONLY-ABSENT-CANDIDATE-CAUSERS",
+        "lean_declaration": "TruthCore.Ontology.UniverseCauseScopeBoundary.OnlyAbsentCausers"
+      }
+    ],
+    "survival_result_id": "UNIVERSE-CAUSE-ACTUALITY-SCOPE-BOUNDARIES"
+  }
+}

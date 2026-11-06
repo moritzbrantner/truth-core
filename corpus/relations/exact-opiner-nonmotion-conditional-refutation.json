@@ -1,0 +1,9 @@
+{
+  "id": "REL-EXACT-OPINER-NONMOTION-CONDITIONAL-REFUTATION",
+  "subject_kind": "argument",
+  "subject_id": "EXACT-OPINER-NONMOTION-DEFEATS-OPINING-NORM",
+  "predicate": "refutes",
+  "object_kind": "statement",
+  "object_id": "STMT-OPINION-IS-A-MOTION",
+  "note": "Conditional contradiction only. The actual local countertuple remains OPEN, so no independent refutation or floor change is asserted."
+}

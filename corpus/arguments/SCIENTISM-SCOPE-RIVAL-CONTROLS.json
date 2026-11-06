@@ -1,0 +1,9 @@
+{
+  "id": "SCIENTISM-SCOPE-RIVAL-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-SCIENTISM-SCOPE-RIVAL-CONTROLS",
+  "inference_ids": [
+    "INF-SCIENTISM-SCOPE-RIVAL-CONTROLS"
+  ],
+  "meaning": "Populated outside-scope overlap and two strict coverage-strength controls."
+}

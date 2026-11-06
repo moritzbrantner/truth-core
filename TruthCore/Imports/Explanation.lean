@@ -40,6 +40,7 @@ public import TruthCore.Explanation.PSRLaterAxes
 public import TruthCore.Explanation.PSRSelfApplication
 public import TruthCore.Explanation.PSRStrength
 public import TruthCore.Explanation.PathRelocation
+public import TruthCore.Explanation.SelectionCoverageBoundary
 public import TruthCore.Explanation.StoppingPoints
 public import TruthCore.Explanation.TargetCopyExpansion
 public import TruthCore.Explanation.TruthmakerTheories

@@ -6,5 +6,6 @@
   "claim_ids": [
     "AQUINAS-ST-I-Q3-A3-GOD-SUPPOSITUM-NATURE-A"
   ],
-  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GodSuppositumIsNatureReading"
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GodSuppositumIsNatureReading",
+  "note": "This record explains vocabulary used by the explicit proposition STMT-Q11-GOD-SUPPOSITUM-IS-NATURE. The linked GodSuppositumIsNatureReading is that OPEN universal constraint over the independently supplied IsGod, suppositumOf and essenceOf parameters, not a definition making the equality hold. Its scope and acceptance are carried by the statement/argument records, not established by this glossary record."
 }

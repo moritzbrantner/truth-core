@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.Coverage.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.Coverage.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.Coverage.coverage"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

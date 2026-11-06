@@ -1,0 +1,11 @@
+{
+  "id": "UNIVERSE-EXISTING-CAUSE-FROM-CANDIDATE-CAUSE-AND-ACTUALITY",
+  "argument_id": "UNIVERSE-EXISTING-CAUSE-FROM-CANDIDATE-CAUSE-AND-ACTUALITY",
+  "challenge_module": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.ExistingCause.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.ExistingCause.Solution",
+  "theorem": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.ExistingCause.existingCause",
+  "comparator_config": "results/UNIVERSE-EXISTING-CAUSE-FROM-CANDIDATE-CAUSE-AND-ACTUALITY/comparator.json",
+  "status": "solution-present",
+  "description": "Explicit witness/actuality transport to the EXACT old UniverseHasExistingCause. A bare candidate edge does not smuggle in its causer actual existence.",
+  "transcription": "instantiation"
+}

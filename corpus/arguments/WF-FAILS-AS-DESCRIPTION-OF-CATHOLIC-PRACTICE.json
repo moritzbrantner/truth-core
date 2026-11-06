@@ -18,6 +18,10 @@
     "DEF-NATURAL-REASON-SHARED"
   ],
   "disambiguation_ids": [
-    "DISAMB-NATURAL-REASON"
-  ]
+    "DISAMB-NATURAL-REASON",
+    "DISAMB-THEOLOGICAL-FORMULATION-AND-NORMATIVE-GRAMMAR"
+  ],
+  "strong_version_needed": {
+    "STMT-DEI-FILIUS-DEFINES-NATURAL-KNOWABILITY-OF-GOD": "The Defined component is needed to obtain own-standard endorsement/correctness through the definition bridge; the natural-knowability content is needed by the shared-reason bridge in the cut-off argument/authority branch. Neither a merely Defined witness nor a merely natural-knowability witness suffices for that original interface."
+  }
 }

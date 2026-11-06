@@ -1,0 +1,28 @@
+{
+  "id": "COMMISSION-REPORT-BUNDLE-SUPPLIES-MATTHEW28",
+  "premise_statement_ids": [
+    "STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS"
+  ],
+  "conclusion_statement_id": "STMT-MATTHEW28-COMMISSION-GOES-BACK-TO-JESUS",
+  "inference_ids": [
+    "INF-COMMISSION-REPORT-BUNDLE-SUPPLIES-MATTHEW28"
+  ],
+  "meaning": "Project the weaker Matthew 28 historical commission from the existing report-to-event bundle. Assembly transcription; no actual event is derived from the literal textual report.",
+  "definition_ids": [
+    "DEF-COMMISSION-GOVERNANCE-CALIBRATION",
+    "DEF-TEACHING-INCLUSIVE-GOVERNING-POWER",
+    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
+    "DEF-COMMISSION-REPORT-POWERS",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMMISSION-GOVERNANCE-CRITERIA",
+    "DISAMB-COMMISSION-REPORT-AND-EVENT",
+    "DISAMB-FOUNDED-BY-GOD",
+    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS"
+  ],
+  "strong_version_needed": {
+    "STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS": "This certificate registers strong historical report-bundle to weak Matthew 28-only projection."
+  }
+}

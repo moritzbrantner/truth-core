@@ -1,0 +1,10 @@
+{
+  "id": "SCIENTISM-POINTWISE-SCOPE-STRENGTHENS-EXISTENTIAL",
+  "argument_id": "SCIENTISM-POINTWISE-SCOPE-STRENGTHENS-EXISTENTIAL",
+  "challenge_module": "TruthCore.Results.Logic.ScientismScopeBoundary.PointwiseToExistential.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ScientismScopeBoundary.PointwiseToExistential.Solution",
+  "theorem": "TruthCore.Results.Logic.ScientismScopeBoundary.PointwiseToExistential.pointwiseToExistential",
+  "comparator_config": "results/SCIENTISM-POINTWISE-SCOPE-STRENGTHENS-EXISTENTIAL/comparator.json",
+  "status": "solution-present",
+  "description": "Pointwise witness coverage implies existential witness-transfer coverage by preserving an existing witness."
+}

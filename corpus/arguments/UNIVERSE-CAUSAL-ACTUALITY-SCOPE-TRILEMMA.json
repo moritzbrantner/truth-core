@@ -1,0 +1,15 @@
+{
+  "id": "UNIVERSE-CAUSAL-ACTUALITY-SCOPE-TRILEMMA",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-UNIVERSE-EXISTING-CAUSE-NO-CAUSE-ABSENT-CAUSERS-TRILEMMA",
+  "inference_ids": [
+    "INF-UNIVERSE-CAUSAL-ACTUALITY-SCOPE-TRILEMMA"
+  ],
+  "meaning": "Checked structural trilemma distinguishes existing-causer, no-edge, and only-absent-causer assignments without claiming philosophical theories exhaustive.",
+  "definition_ids": [
+    "DEF-UNIVERSE-CAUSER-ACTUALITY-SCOPE",
+    "DEF-SPATIOTEMPORAL-FRAME"
+  ]
+}

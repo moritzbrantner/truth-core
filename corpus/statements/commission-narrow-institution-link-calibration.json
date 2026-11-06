@@ -1,0 +1,19 @@
+{
+  "id": "STMT-COMMISSION-NARROW-INSTITUTION-LINK-CALIBRATION",
+  "paraphrase": "The original fixed narrow institutional bridge holds iff the selected-criterion bridge holds on the same signature, agency and commissioning. This equivalence is conditional on the explicit narrow calibration, not an implicit identification of meanings.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.CommissionDefinitions.NarrowInstitutionCalibration",
+  "definition_ids": [
+    "DEF-COMMISSION-GOVERNANCE-CALIBRATION",
+    "DEF-TEACHING-INCLUSIVE-GOVERNING-POWER",
+    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
+    "DEF-COMMISSION-REPORT-POWERS",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMMISSION-GOVERNANCE-CRITERIA",
+    "DISAMB-COMMISSION-REPORT-AND-EVENT",
+    "DISAMB-FOUNDED-BY-GOD",
+    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS"
+  ]
+}

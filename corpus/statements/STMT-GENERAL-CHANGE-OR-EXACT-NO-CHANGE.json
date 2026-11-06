@@ -1,0 +1,11 @@
+{
+  "id": "STMT-GENERAL-CHANGE-OR-EXACT-NO-CHANGE",
+  "paraphrase": "Either some candidate changes in the supplied general Changes sense or no candidate does. Explicit-EM structural coverage, not a finite roster of historical denials.",
+  "lean_declaration": "TruthCore.Observation.ChangeRivalCoverage.ChangeFork",
+  "definition_ids": [
+    "DEF-CHANGE-GENERAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CHANGE-A-SERIES"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "ANTIREALIST-ORDER-GUARDED-NOT-REALIST",
+  "argument_id": "ANTIREALIST-ORDER-GUARDED-NOT-REALIST",
+  "challenge_module": "TruthCore.Results.Metaethics.ExplanationRivalBoundary.ExactRival.Challenge",
+  "solution_module": "TruthCore.Results.Metaethics.ExplanationRivalBoundary.ExactRival.Solution",
+  "theorem": "TruthCore.Results.Metaethics.ExplanationRivalBoundary.ExactRival.exactRival",
+  "comparator_config": "results/ANTIREALIST-ORDER-GUARDED-NOT-REALIST/comparator.json",
+  "status": "solution-present",
+  "description": "Full anti-order plus separately supplied asymmetry and the explicit moral witness contradict the realist universal at that same content. No opposite-direction incompatibility is silently defined in."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SCIENTISM-ESTABLISHED-SCOPE",
+  "term": "all established claims in scope",
+  "definition": "Every established claim is in the supplied scientism scope. Stronger than pointwise coverage of only nonempirical established claims; not built into ScopedScientism.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.ScientismScopeBoundary.AllEstablishedInScope",
+  "note": "Analyst scope boundary; attribution deferred. See docs/notes/scientism-meaning-rival-boundary.md."
+}

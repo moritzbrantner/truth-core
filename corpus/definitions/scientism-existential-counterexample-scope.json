@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SCIENTISM-EXISTENTIAL-COUNTEREXAMPLE-SCOPE",
+  "term": "some nonempirical witness in scope whenever any exists",
+  "definition": "If some established claim is not empirically established, there exists an established nonempirical claim in scope. The in-scope witness need not be the original witness. An explicit OPEN sufficient coverage bridge.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.ScientismScopeBoundary.SomeNonEmpiricalWitnessInScope",
+  "note": "Analyst scope boundary; attribution deferred. See docs/notes/scientism-meaning-rival-boundary.md."
+}

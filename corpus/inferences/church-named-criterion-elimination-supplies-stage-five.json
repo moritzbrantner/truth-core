@@ -1,0 +1,13 @@
+{
+  "id": "INF-CHURCH-NAMED-CRITERION-ELIMINATION-SUPPLIES-STAGE-FIVE",
+  "input_statement_ids": [
+    "STMT-CHURCH-NAMED-CRITERIA-COVER",
+    "STMT-CHURCH-SPIRITUAL-CRITERION-FAILS",
+    "STMT-CHRIST-FOUNDED-SELECTED-CHURCH"
+  ],
+  "output_statement_id": "STMT-CHRIST-FOUNDED-VISIBLE-CHURCH",
+  "rule": "constructive-proof",
+  "meaning": "Under open named coverage and an actual negation of the spiritual calibration, select visible or joint calibration and import its stage-5 theorem on the explicit historical witness. A model showing spiritual calibration alone insufficient does not establish its negation.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

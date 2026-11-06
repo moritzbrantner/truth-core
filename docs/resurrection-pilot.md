@@ -192,3 +192,33 @@ kind is needed. Tacitus uses TEI P4 milestone chapters and two named
 punctuation entities: materialization retains the full verified text and
 locally resolves only `dagger` and `mdash` to their Unicode characters. It
 fetches no external DTD; arbitrary undeclared entities still fail.
+
+
+## Definition-audit boundary (2026-11-06, base a5f2ef30)
+
+The exact existing report modules were re-read for the prior-proposition
+competing-definition audit. The four bounded extensions
+`Mark.ForgivenessAuthority`, `Mark.HighPriestAnswer`, `John.AbrahamSaying` and
+`Philippians.Christology` supply eleven typed report statements. At this pinned
+audit base none occurs as an argument premise, commitment or conclusion. Their
+reported title/speech/letter contents do not imply actual utterance, divine
+identity, intrinsic rather than delegated authority, personal preexistence or
+an ontology of form. The four existing disambiguations and linked passage notes
+already retain those rival readings. There is currently no inference using
+these eleven literal statements to rewire. Future christological consequence
+work must introduce independent reading and report-to-history premises; the
+literal reports are not an implicit decision between those theories.
+
+The six Resurrection.Theory constructors are an expressly bounded family of
+open bundles. Their consistency results witness only those bundles. The exact
+AnswerMapsCorrect type verifies available-cell projection and CountsTable;
+it does not compare historical truth, causal adequacy or superiority, and
+assumes no exhaustive census of resurrection explanations. The central stage-4
+bridge is the separately labelled conjunction transcription from actual
+JesusClaims and Rose on the same State.core Signature. It is not an inference
+from report tokens, model existence or answer counts to historical events.
+Thus the present definitions are already scope-explicit for their advertised
+consequences; no extra philosophical coverage premise is needed merely to count
+this finite enum. A future elimination of named theories would need explicit
+named-account coverage and an additional-relevant-account remainder rather
+than promoting this enum into an exhaustive history/worldview domain.

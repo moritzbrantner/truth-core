@@ -1,0 +1,19 @@
+{
+  "id": "EXCLUDED-MIDDLE-ASSERTION-BOUNDARY-CONTROLS",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-EXCLUDED-MIDDLE-ASSERTION-BOUNDARY-CONTROLS",
+  "inference_ids": [
+    "INF-EXCLUDED-MIDDLE-ASSERTION-BOUNDARY-CONTROLS"
+  ],
+  "meaning": "Construct exact marker controls, reusing the checked constructive irrefutability theorem. Object-level EM is retained explicitly as an input to the coexistence model. The markers are not a complete intuitionist or epistemic semantics.",
+  "definition_ids": [
+    "DEF-EXCLUDED-MIDDLE-LOGICAL-HOLDING",
+    "DEF-EXCLUDED-MIDDLE-ASSERTION-POLICY",
+    "DEF-EXCLUDED-MIDDLE-WITHHOLDING-POLICY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXCLUDED-MIDDLE-HOLDING-AND-ASSERTION"
+  ]
+}

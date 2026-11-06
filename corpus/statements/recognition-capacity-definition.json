@@ -1,0 +1,15 @@
+{
+  "id": "STMT-RECOGNITION-CAPACITY-DEFINITION",
+  "paraphrase": "Stronger open analyst calibration: on each God candidate, recognizable-revelation capability holds iff some admitted situation contains a correct recognition move. Coextension does not identify philosophical meanings; no capability or actual event is thereby asserted.",
+  "lean_declaration": "TruthCore.Alternatives.RevelationRecognition.RecognitionCapacityDefinition",
+  "definition_ids": [
+    "DEF-REVELATION-RECOGNITION-PROFILE",
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-WITTGENSTEINIAN-FIDEISM",
+    "DEF-NATURAL-REASON-SHARED"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REVELATION-CAPABILITY-AND-PRACTICE-UPTAKE",
+    "DISAMB-PRACTICE-SENSITIVITY-AND-FIDEIST-INSULATION"
+  ]
+}

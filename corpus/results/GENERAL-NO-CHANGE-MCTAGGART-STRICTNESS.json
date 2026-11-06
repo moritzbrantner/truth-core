@@ -1,0 +1,10 @@
+{
+  "id": "GENERAL-NO-CHANGE-MCTAGGART-STRICTNESS",
+  "argument_id": "GENERAL-NO-CHANGE-MCTAGGART-STRICTNESS",
+  "challenge_module": "TruthCore.Results.Observation.ChangeRivalCoverage.Controls.Challenge",
+  "solution_module": "TruthCore.Results.Observation.ChangeRivalCoverage.Controls.Solution",
+  "theorem": "TruthCore.Results.Observation.ChangeRivalCoverage.Controls.controls",
+  "comparator_config": "results/GENERAL-NO-CHANGE-MCTAGGART-STRICTNESS/comparator.json",
+  "status": "solution-present",
+  "description": "Populated finite strictness control: no general change need not include McTaggart1908 appearance commitments. Not actual ontology or an endorsement inside the modeled carrier."
+}

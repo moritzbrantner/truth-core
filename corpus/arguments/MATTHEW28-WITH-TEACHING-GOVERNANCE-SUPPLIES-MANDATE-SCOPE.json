@@ -1,0 +1,27 @@
+{
+  "id": "MATTHEW28-WITH-TEACHING-GOVERNANCE-SUPPLIES-MANDATE-SCOPE",
+  "premise_statement_ids": [
+    "STMT-MATTHEW28-COMMISSION-GOES-BACK-TO-JESUS",
+    "STMT-COMMISSION-GOVERNANCE-INCLUDES-TEACHING",
+    "STMT-CHURCH-INSTITUTION-LINK-FOR-SELECTED-GOVERNANCE"
+  ],
+  "conclusion_statement_id": "STMT-MANDATE-COVERS-JESUS-FOUNDING-OF-CATHOLIC-CHURCH",
+  "inference_ids": [
+    "INF-MATTHEW28-WITH-TEACHING-GOVERNANCE-SUPPLIES-MANDATE-SCOPE"
+  ],
+  "meaning": "Single-application transcription with explicit criterion: Matthew 28 gives teaching; the teaching-inclusive calibration makes that power governing; only the matching institutional bridge supplies founding-in-mandate and teaching commission for the old Catholic narrow scope. All three premises remain open.",
+  "definition_ids": [
+    "DEF-COMMISSION-GOVERNANCE-CALIBRATION",
+    "DEF-TEACHING-INCLUSIVE-GOVERNING-POWER",
+    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
+    "DEF-COMMISSION-REPORT-POWERS",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMMISSION-GOVERNANCE-CRITERIA",
+    "DISAMB-COMMISSION-REPORT-AND-EVENT",
+    "DISAMB-FOUNDED-BY-GOD",
+    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS"
+  ]
+}

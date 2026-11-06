@@ -1,0 +1,23 @@
+{
+  "id": "MOVED-WITHOUT-POTENCY-NEGATES-UNIVERSAL",
+  "premise_statement_ids": [
+    "STMT-ACTUAL-MOVED-NOT-POTENT-COUNTERTUPLE"
+  ],
+  "conclusion_statement_id": "STMT-MOVED-ONLY-AS-IN-POTENCY-FAILS",
+  "inference_ids": [
+    "INF-MOVED-WITHOUT-POTENCY-NEGATES-UNIVERSAL"
+  ],
+  "meaning": "An actual moved/not-potent tuple contradicts the exact old universal under the SAME MovedIn/InPotency dictionary, independent of a historical theory label.",
+  "definition_ids": [
+    "DEF-MEGARIAN-MOVED-POTENCY-INTERPRETATION-BOUNDARY",
+    "DEF-ACT",
+    "DEF-CAPACITY-TO-BE",
+    "DEF-POTENCY",
+    "DEF-MOTION-AS-REDUCTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION",
+    "DISAMB-POTENCY",
+    "DISAMB-IN-ACT"
+  ]
+}

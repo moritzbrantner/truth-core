@@ -25,6 +25,8 @@ public import TruthCore.Results.Logic.EpistemicReasonDefinitions.IndependentFrom
 public import TruthCore.Results.Logic.EpistemicReasonDefinitions.IndependentStrength.Solution
 public import TruthCore.Results.Logic.EpistemicReasonDefinitions.NamedElimination.Solution
 public import TruthCore.Results.Logic.EpistemicReasonDefinitions.OrdinaryFromThin.Solution
+public import TruthCore.Results.Logic.ExcludedMiddleAssertionBoundary.Controls.Solution
+public import TruthCore.Results.Logic.ExcludedMiddleAssertionBoundary.ExactPolicyRival.Solution
 public import TruthCore.Results.Logic.ExcludedMiddleIffDne.Solution
 public import TruthCore.Results.Logic.ExcludedMiddleIrrefutable.Solution
 public import TruthCore.Results.Logic.ExcludedMiddleNotDeniable.Solution
@@ -50,6 +52,14 @@ public import TruthCore.Results.Logic.MeaningDefinitionFork.V3Rejection.Solution
 public import TruthCore.Results.Logic.MeaningDefinitionFork.V3RejectionBound.Solution
 public import TruthCore.Results.Logic.MetaethicsTruthAptRivalBoundary.Controls.Solution
 public import TruthCore.Results.Logic.MetaethicsTruthAptRivalBoundary.ExactRival.Solution
+public import TruthCore.Results.Logic.NaturalTheologySemanticScope.Controls.Solution
+public import TruthCore.Results.Logic.NaturalTheologySemanticScope.Projection.Solution
+public import TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.BridgeOmission.Solution
+public import TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.Controls.Solution
+public import TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.Coverage.Solution
+public import TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.ExternalBridge.Solution
+public import TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.NamedElimination.Solution
+public import TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.ProfileToTruth.Solution
 public import TruthCore.Results.Logic.PerformedDenial.EmptyControl.Solution
 public import TruthCore.Results.Logic.PerformedDenial.NoAccurateDenial.Solution
 public import TruthCore.Results.Logic.PerformedDenial.StaticControl.Solution
@@ -66,6 +76,10 @@ public import TruthCore.Results.Logic.Relativism.SelfFalsifying.Solution
 public import TruthCore.Results.Logic.Scientism.StrongDilemma.Solution
 public import TruthCore.Results.Logic.Scientism.WeakConsistent.Solution
 public import TruthCore.Results.Logic.Scientism.WeakDemarcation.Solution
+public import TruthCore.Results.Logic.ScientismScopeBoundary.AllToPointwise.Solution
+public import TruthCore.Results.Logic.ScientismScopeBoundary.Controls.Solution
+public import TruthCore.Results.Logic.ScientismScopeBoundary.GuardedNegative.Solution
+public import TruthCore.Results.Logic.ScientismScopeBoundary.PointwiseToExistential.Solution
 public import TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Barrier.Solution
 public import TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Controls.Solution
 public import TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Coverage.Solution
@@ -80,10 +94,12 @@ public import TruthCore.Results.Logic.SoritesBoundary.Solution
 public import TruthCore.Results.Logic.StrengthCause.Solution
 public import TruthCore.Results.Logic.StrengthOrder.Solution
 public import TruthCore.Results.Logic.StrengthUnique.Solution
+public import TruthCore.Results.Logic.TemporalPastCoverage.Coverage.Solution
 public import TruthCore.Results.Logic.ThoughtChangeSubject.Solution
 public import TruthCore.Results.Logic.ThresholdBelief.Solution
 public import TruthCore.Results.Logic.TranscendentalPractice.AgencyDuty.Solution
 public import TruthCore.Results.Logic.TranscendentalPractice.InquiryAccess.Solution
+public import TruthCore.Results.Logic.TruthAccountCompatibility.Compatibility.Solution
 public import TruthCore.Results.Logic.TruthNontriviality.Controls.Solution
 public import TruthCore.Results.Logic.TruthNontriviality.Core.Solution
 public import TruthCore.Results.Logic.TruthNontriviality.PropositionalCollapse.Solution

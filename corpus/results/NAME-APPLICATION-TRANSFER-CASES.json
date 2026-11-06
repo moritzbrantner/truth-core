@@ -1,0 +1,26 @@
+{
+  "id": "NAME-APPLICATION-TRANSFER-CASES",
+  "argument_id": "NAME-APPLICATION-TRANSFER-CASES",
+  "challenge_module": "TruthCore.Results.Alternatives.NameApplicationTransfer.Coverage.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.NameApplicationTransfer.Coverage.Solution",
+  "theorem": "TruthCore.Results.Alternatives.NameApplicationTransfer.Coverage.transferCoverage",
+  "comparator_config": "results/NAME-APPLICATION-TRANSFER-CASES/comparator.json",
+  "status": "solution-present",
+  "description": "Explicit excluded middle yields preservation or a proper-instance/nonreference counterexample. The proof handles the quantified witness rather than merely renaming negated preservation. Structural profile coverage is not a census of named theories.",
+  "case_split": {
+    "target_statement_id": "STMT-PROPER-REFERENCE-PRESERVED",
+    "cases": [
+      {
+        "label": "proper application preserved",
+        "lean_declaration": "TruthCore.Alternatives.NameApplicationTransfer.ProperReferencePreserved",
+        "statement_id": "STMT-PROPER-REFERENCE-PRESERVED"
+      },
+      {
+        "label": "a proper referent lost in this practice",
+        "lean_declaration": "TruthCore.Alternatives.NameApplicationTransfer.ProperReferenceLost",
+        "statement_id": "STMT-PROPER-REFERENCE-LOST"
+      }
+    ],
+    "survival_result_id": "NAME-APPLICATION-TRANSFER-MODELS"
+  }
+}

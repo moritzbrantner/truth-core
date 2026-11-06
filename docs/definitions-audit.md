@@ -322,7 +322,7 @@ comparisons, not additive predictions for the combined repository.
   needs an explicit meaning/proof-standard mapping before denying natural
   theology's arguability; competing PLA text readings are interpretive objections,
   not exhaustive object-level denials. Five zero-axiom results and actual-record
-  closure regressions; root116→116, cheapest30 unchanged. Details and rejected
+  closure regressions; root 116→116, cheapest 30 unchanged. Details and rejected
   readings are durable in `docs/notes/semantic-rival-scope.md`.
 
 The authority lane delivered seven applicable clusters: founding (#1128), proper
@@ -389,9 +389,12 @@ no-well-foundedness versus an infinite descending chain needs actual coverage
 under its logic/choice policy; general change versus its stronger McTaggart
 bundle needs the exact no-change comparison; and modal single/plural and
 pointwise/collective possible-causer source boundaries remain to be fully
-disposed. The original sorted disambiguation sweep has reached 215 of 350
-baseline entries; the remaining 135, plus a fresh delivered-head addition check,
-are still open. A small truncated nature/limitation resolution must be reread.
+disposed. The sorted disambiguation-resolution sweep now covers all 350 baseline
+entries, including the reread nature/limitation entry. At semantic snapshot
+79909898 (base607ff3ae plus the universe scope batch), the five added current
+entries and nine changed baseline resolutions were also read. This completes
+resolution-text discovery for all 355 then-current disambiguations, not exact
+source/proof/use review of every statement in the repository.
 These are semantic tasks, not satisfied by namespace counts or the absence of
 unbound argument premises. No whole-repository completion is claimed.
 
@@ -411,3 +414,78 @@ interpretation, rejected readings and reproducible own-floor-removal check are
 persisted in `docs/notes/causal-concrete-rival-boundary.md`. Computed comparison
 against721bab8e: root116→116 (52bare/20supported/44stated), cheapest30 unchanged.
 This preserves owner approval and introduces no new floor or premise discharge.
+
+
+### Additional endpoint corrections and resolution coverage
+
+[PR1152](https://github.com/moritzbrantner/truth-core/pull/1152) is now integrated.
+Its coverage premise is explicitly **existential support**: if any selected
+causal countercase exists, some named productive case exists. It does not
+classify every witness. Review caught and corrected the original universal
+prose overclaim; exact definitions/proofs and elimination were unchanged. A
+remainder requires a selected countercase while no named productive case exists
+anywhere in that selected profile. A named case can coexist with unrelated
+capacity-only examples. This distinction must also govern future coverage prose.
+
+[PR1153](https://github.com/moritzbrantner/truth-core/pull/1153) exposes the
+Megarian guard and a precise moved/not-potent countertuple, with six zero-axiom
+results. The raw Megarian thesis becomes a guarded objection; actual movement
+and the SAME-sense weak moved-tuple potency interpretation yield the analyst
+countertuple. The original occasionalist candidate remains stronger in prose
+than its existing countertuple-only Lean envelope. A one-way envelope projection
+does not derive its divine re-creation story. Explicit-EM structural coverage
+and four extensions of old models preserve both missing-input coexistence
+cases. Computed root 116→116, cheapest 30 unchanged; clean targeted review at
+`7438cb17`. Existing source claims, models, Challenges and approvals are unchanged.
+
+[PR1154](https://github.com/moritzbrantner/truth-core/pull/1154) handles three
+remaining truth-lane edges. Generic ScopedScientism needs actual scope coverage
+before denying a nonempirically established witness. All-established-in-scope,
+pointwise nonempirical-witness coverage and sufficient existential coverage are
+separate strength levels; the route uses the existential form. Constancy of
+moral meaning coexists with occasion-based attitude meaning if expression is
+constant; actual free-standing attitude and embedded loss plus a moral witness
+are explicit before the old exact emotivist-meaning negation follows. Kripke's
+no-fact report and PU noninterpretive grasp are preserved as distinct source
+readings, with an interpretive attacks edge instead of automatic formal rivalry.
+Six checked results and actual-record closure regressions; root 116→116, route 30
+unchanged. The linked note preserves quantifiers and exact controls.
+
+The universe-causer scope batch reuses the existing full endpoint-actuality
+policy and weakens it to causers of the selected whole. The old no-edge rival is
+preserved; exact no-existing-cause is a separate, weaker complement. A checked
+existing-causer/no-edge/only-absent-causers trilemma exposes generic Ontic scope.
+The usual two-way fork explicitly requires selected-whole-causer actuality.
+The third generic assignment violates intended causal actuality and is not
+claimed to be actual or metaphysically possible. Eight zero-axiom results
+connect that scope choice to the EXACT old existing-cause target and export
+whole population/actuality in the controls. Seven earlier fusion/cover/atomistic
+records explain why a policy about a separately selected spacetime whole cannot
+replace their chosen source/sum/cover actuality inputs without a mapping. No
+claim that their full both-endpoint interfaces are minimal is made. See
+`docs/notes/universe-cause-scope-boundary.md`. Against base 607ff3ae the computed
+root frontier remains 116 (52 bare / 20 supported / 44 stated), route 30 unchanged.
+
+The 355-resolution discovery snapshot consists of the original 350 plus
+DISAMB-GOODNESS-UNRESTRICTED-DUE-AND-ULTIMATE, DISAMB-EVIL-OBJECTION-SEMANTICS,
+DISAMB-SCOPED-PROOF-STANDARD-AND-THEOLOGICAL-DOMAIN, DISAMB-POTENCY and
+DISAMB-MEANING-DEFINITION-CALIBRATIONS. Nine baseline resolutions changed and
+were reread: duration, in-act, causal-power-concreteness, uniting-cause,
+verificationist-meaningful, esse-reception, existence-esse-support, maxime-ens
+and epistemic-reason-existence-role-authority. Semantic snapshot 79909898 has
+3,313 statements, 1,344 definitions, 355 disambiguations, 1,133 arguments,
+1,131 results, 346 relations and 392 attempts. These are actual JSON-record counts at that
+snapshot, not a new claim of semantic completion or summed PR frontier effects.
+
+Concrete remaining endpoint work includes accepted explanation truth versus
+truthful nonselection; exact general no-change versus the stronger McTaggart
+bundle; explicit WF/descending-chain coverage using the existing classical
+coincidence theorem; the untyped quantifier-shift-versus-plenitude textual
+interpretation edge; and final dispositions of all 57 baseline rival edges against
+the integrated delivery head. The authority lane is correcting two further
+OnlyMessage endpoints with actual mandate/founding witnesses and distinguishing
+local face-value language from cross-discourse semantic uniformity. Broader
+source-only possible-causer plurality remains an explicitly separate reading,
+not a detected current typed quantifier exchange. Full source/argument use-level
+coverage and final integrated additions still need their precise dispositions;
+the completed resolution-text sweep does not substitute for those tasks.

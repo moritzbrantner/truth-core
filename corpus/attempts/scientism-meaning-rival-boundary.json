@@ -1,0 +1,23 @@
+{
+  "id": "ATTEMPT-SCIENTISM-MEANING-RIVAL-BOUNDARY",
+  "date": "2026-11-06",
+  "statement_ids": [
+    "STMT-STRONG-SCIENTISM",
+    "STMT-SOME-NON-EMPIRICAL-ESTABLISHED",
+    "STMT-EXPRESSIVIST-MORAL-MEANING-INVARIANT",
+    "STMT-EMOTIVIST-MEANING-IS-EXPRESSED-ATTITUDE",
+    "STMT-KRIPKE-NO-FACT-OF-MEANING",
+    "STMT-PU-SOME-GRASP-OF-RULE-NOT-INTERPRETATION"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Three remaining exact alternative-edge cases audited. Generic ScopedScientism needs explicit witness-transfer coverage to exclude nonempirical establishment; added all-established, pointwise failing-witness and existential transfer siblings with checked strength order, two strictness controls and populated outside-scope overlap. Invariant meaning coexists with occasion meaning under constant expression; derive existing exact occasion failure from invariant meaning plus unchanged free-attitude/actual antecedent-loss/moral-witness premises, retain populated controls. Kripke no-fact and PU noninterpretive-grasp raw readings concern different factual/practical scopes; existing exact regress theorem/fork does not identify them. Reclassified that raw edge attacks, preserving full source meanings/internal fork. Synthetic actual-record regression refutations reproduce three legacy false-closure paths and verify corrected targets remain open. Existing selfapplication results, source claims, frozen Challenges, floors and engine authority unchanged. Rejected silent universal scope, unguarded opposite-account incompatibility and raw/source-shadow identity. Detailed findings and remaining applicability/interpretation bridges in docs/notes/scientism-meaning-rival-boundary.md.",
+  "evidence": [
+    "SCIENTISM-ALL-SCOPE-STRENGTHENS-POINTWISE",
+    "SCIENTISM-POINTWISE-SCOPE-STRENGTHENS-EXISTENTIAL",
+    "SCIENTISM-SCOPE-GUARDED-NONEMPIRICAL-NEGATIVE",
+    "SCIENTISM-SCOPE-RIVAL-CONTROLS",
+    "INVARIANT-MEANING-WITH-ATTITUDE-LOSS-REFUTES-OCCASION",
+    "MEANING-RIVAL-BOUNDARY-CONTROLS"
+  ]
+}

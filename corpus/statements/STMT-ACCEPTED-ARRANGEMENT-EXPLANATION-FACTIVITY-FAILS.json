@@ -1,0 +1,14 @@
+{
+  "id": "STMT-ACCEPTED-ARRANGEMENT-EXPLANATION-FACTIVITY-FAILS",
+  "paraphrase": "Exact negation of the accepted-candidate truthfulness policy under the SAME arrangement and adequacy judgment.",
+  "lean_declaration": "TruthCore.Explanation.SelectionCoverageBoundary.FactivityFails",
+  "definition_ids": [
+    "DEF-ACCEPTED-EXPLANATION-TRUTHFULNESS-POLICY",
+    "DEF-LABELED-CHAIN-ARRANGEMENT",
+    "DEF-ARRANGEMENT-ENTAILING-SELECTION",
+    "DEF-HISTORY-SELECTION-INFORMATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-LABELED-ORDER-EXPLANATION"
+  ]
+}

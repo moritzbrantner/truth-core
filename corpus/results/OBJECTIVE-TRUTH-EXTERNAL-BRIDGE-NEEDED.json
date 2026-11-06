@@ -1,0 +1,10 @@
+{
+  "id": "OBJECTIVE-TRUTH-EXTERNAL-BRIDGE-NEEDED",
+  "argument_id": "OBJECTIVE-TRUTH-EXTERNAL-BRIDGE-NEEDED",
+  "challenge_module": "TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.BridgeOmission.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.BridgeOmission.Solution",
+  "theorem": "TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.BridgeOmission.bridgeOmission",
+  "comparator_config": "results/OBJECTIVE-TRUTH-EXTERNAL-BRIDGE-NEEDED/comparator.json",
+  "status": "solution-present",
+  "description": "Finite omission control for the exact old four-premise external result: choose the stably false content as moral/bad, and truth-aptness as actual truth. All four old hypotheses hold, while invariance-only classifies that false content as objective. The missing truth-component condition is explicitly false. No complete historical theory or alternative problem-of-evil argument is represented."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "MOVED-WITHOUT-POTENCY-NEGATES-UNIVERSAL",
+  "argument_id": "MOVED-WITHOUT-POTENCY-NEGATES-UNIVERSAL",
+  "challenge_module": "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.CountercaseFailure.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.CountercaseFailure.Solution",
+  "theorem": "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.CountercaseFailure.countercaseFailure",
+  "comparator_config": "results/MOVED-WITHOUT-POTENCY-NEGATES-UNIVERSAL/comparator.json",
+  "status": "solution-present",
+  "description": "An actual moved/not-potent tuple contradicts the exact old universal under the SAME MovedIn/InPotency dictionary, independent of a historical theory label."
+}

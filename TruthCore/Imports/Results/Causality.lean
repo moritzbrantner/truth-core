@@ -172,6 +172,7 @@ public import TruthCore.Results.Causality.ReflexiveActualFusionNecessaryBeing.So
 public import TruthCore.Results.Causality.RegressAccessibilityExcludesSeries.Solution
 public import TruthCore.Results.Causality.RegressAccessibilityUnboundedDepth.Solution
 public import TruthCore.Results.Causality.RegressReadingsCoincide.Solution
+public import TruthCore.Results.Causality.RegressRivalCoverage.Coverage.Solution
 public import TruthCore.Results.Causality.RootEssenceIdentity.Solution
 public import TruthCore.Results.Causality.RootIntellectWill.Solution
 public import TruthCore.Results.Causality.RootIntellectWillOmission.Solution

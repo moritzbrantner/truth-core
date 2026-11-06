@@ -261,12 +261,12 @@
       "path": "corpus/statements/excluded-middle.json",
       "status": "inspected",
       "classification": "preservation",
-      "finding": "Full ∀p, p ∨ ¬p retained in every old interface. The new identity result instead has explicit DecidableEq σ.Being and DecidableEq Principle parameters; its checked proof establishes sufficiency, not logical necessity or minimality. No root-route discharge.",
+      "finding": "Reviewed scope metadata correction: object-level ExcludedMiddle declaration and legacy floor basis/justification remain unchanged. The serious withholding position targets universal assertion; exact analyst global negation remains an unrefuted logical rival. Disagreement metadata includes that complement. Focused actual-record regression prevents floor-removal from turning instance-denial refutation into proof of global EM.",
       "before": {
         "sha256": "279edc03ac8141e2a580cefd9c9998f4dd260565e154c5856b4735abdda3eaa8",
         "lean_declaration": "TruthCore.Logic.ExcludedMiddle"
       },
-      "reviewed_sha256": "279edc03ac8141e2a580cefd9c9998f4dd260565e154c5856b4735abdda3eaa8"
+      "reviewed_sha256": "852c967c753f4095ad19e84aa864325d4fcadda8c079b4e26da54e62110d46a8"
     },
     {
       "kind": "statements",
@@ -1051,27 +1051,27 @@
       "kind": "definitions",
       "id": "DEF-ACT",
       "path": "corpus/definitions/act.json",
-      "status": "inspected",
-      "classification": "intentional_abstraction",
-      "finding": "Existing interpretation retained: `InAct x r`: x actually has the perfection r, as fire is actually hot. In Lean `InAct` is a parameter, not a definition: its content is fixed only by the premises that use it, above all that nothing is in act and in potency in the same respect at once. Whether a mover must have the perfection formally or may have it virtually is left open (DISAMB-IN-ACT). No new structural law, source attribution or independently established premise is introduced.",
+      "status": "repaired",
+      "classification": "reviewed_locator_clarification",
+      "finding": "Existing interpretation retained: `InAct x r`: x actually has the perfection r, as fire is actually hot. In Lean `InAct` is a parameter, not a definition: its content is fixed only by the premises that use it, above all that nothing is in act and in potency in the same respect at once. Whether a mover must have the perfection formally or may have it virtually is left open (DISAMB-IN-ACT). No new structural law, source attribution or independently established premise is introduced. Follow-up #1110: reviewed the exact Lean signature against this metadata-only locator/scope clarification. Exact field/predicate locator TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel.InAct. Primitive interpretation and open premise status remain explicit; no source attribution, theorem type, structural law or premise truth changes.",
       "before": {
         "sha256": "8c6234dd02f06f7293da6dbb41bbd3c8b79f2a064582cccc942674f6dbd9a76f",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel"
       },
-      "reviewed_sha256": "8c6234dd02f06f7293da6dbb41bbd3c8b79f2a064582cccc942674f6dbd9a76f"
+      "reviewed_sha256": "fa3233138862a58e5260bd6496bec804720aafafde1b87b88b7468593df4411a"
     },
     {
       "kind": "definitions",
       "id": "DEF-ALTOGETHER-IMMATERIAL",
       "path": "corpus/definitions/altogether-immaterial.json",
-      "status": "inspected",
-      "classification": "intentional_abstraction",
-      "finding": "Existing interpretation retained: x is altogether immaterial when it is neither composed of matter and form (`¬ ComposedOfMatterAndForm x`) nor a component of anything, as matter or as a form in matter (`∀ y, ¬ ComponentOf x y`, which is DEF-REMOTE-FROM-ALL). This is the grade of immateriality that ST I q.14 a.1 makes the reason of intellectual knowledge: the mode of knowledge follows the mode of immateriality, and what is in the highest degree immaterial is in the highest degree of knowledge. No new structural law, source attribution or independently established premise is introduced.",
+      "status": "repaired",
+      "classification": "reviewed_locator_clarification",
+      "finding": "Existing interpretation retained: x is altogether immaterial when it is neither composed of matter and form (`¬ ComposedOfMatterAndForm x`) nor a component of anything, as matter or as a form in matter (`∀ y, ¬ ComponentOf x y`, which is DEF-REMOTE-FROM-ALL). This is the grade of immateriality that ST I q.14 a.1 makes the reason of intellectual knowledge: the mode of knowledge follows the mode of immateriality, and what is in the highest degree immaterial is in the highest degree of knowledge. No new structural law, source attribution or independently established premise is introduced. Follow-up #1110: reviewed the exact Lean signature against this metadata-only locator/scope clarification. The retained locator is explicitly classified as a usage/constraining premise or vocabulary-container anchor; exact primitive parameter/field locations are recorded in the definition note. Primitive interpretation and open premise status remain explicit; no source attribution, theorem type, structural law or premise truth changes.",
       "before": {
         "sha256": "3685840ec24c7a2f4d3548c2a2c95369d8e142eda3430e08530b7b0db2834463",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.ImmaterialIsIntellectualReading"
       },
-      "reviewed_sha256": "3685840ec24c7a2f4d3548c2a2c95369d8e142eda3430e08530b7b0db2834463"
+      "reviewed_sha256": "11289238cf6e66fe124a54542a29800558bb9c2463caea4a5ac29d9029f54339"
     },
     {
       "kind": "definitions",
@@ -1090,14 +1090,14 @@
       "kind": "definitions",
       "id": "DEF-CAUSE-OF-PERFECTION",
       "path": "corpus/definitions/cause-of-perfection.json",
-      "status": "inspected",
-      "classification": "reviewed_semantic_note",
-      "finding": "Existing interpretation retained: `CausesIn c x r`: c is a cause of x's being r, as fire is a cause of the heat of hot things. It is not identified with moving (`MovesIn`): causing a perfection need not be a present reduction from potency to act. 'Cause of being' is the instance r = esse. No new structural law, source attribution or independently established premise is introduced. Follow-up review for PR #732: the added causal-transfer note distinguishes originating, sustaining, primary/secondary responsibility, enablement and possession, and leaves universal esse scope distinct from God or firstness in every order. The original causal definition, sense separation, source claim links and Lean binding are unchanged; no structural law or premise truth is added. Exact source/interpretation boundaries and open applicability burdens: docs/notes/causal-perfection-transfer.md.",
+      "status": "repaired",
+      "classification": "reviewed_locator_clarification",
+      "finding": "Existing interpretation retained: `CausesIn c x r`: c is a cause of x's being r, as fire is a cause of the heat of hot things. It is not identified with moving (`MovesIn`): causing a perfection need not be a present reduction from potency to act. 'Cause of being' is the instance r = esse. No new structural law, source attribution or independently established premise is introduced. Follow-up review for PR #732: the added causal-transfer note distinguishes originating, sustaining, primary/secondary responsibility, enablement and possession, and leaves universal esse scope distinct from God or firstness in every order. The original causal definition, sense separation, source claim links and Lean binding are unchanged; no structural law or premise truth is added. Exact source/interpretation boundaries and open applicability burdens: docs/notes/causal-perfection-transfer.md. Follow-up #1110: reviewed the exact Lean signature against this metadata-only locator/scope clarification. The retained locator is explicitly classified as a usage/constraining premise or vocabulary-container anchor; exact primitive parameter/field locations are recorded in the definition note. Primitive interpretation and open premise status remain explicit; no source attribution, theorem type, structural law or premise truth changes.",
       "before": {
         "sha256": "14ec77a96530074043a3ce9795f02ce35e8a8fb43516a3a15870e56d488090e3",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.CausesAllInGenus"
       },
-      "reviewed_sha256": "bdf413862d893118f5deb587c905f927b71bc620cce8141e6716d39018e70313"
+      "reviewed_sha256": "b751dcbc61b550e3a176589605c0f9423471cbb380990a7e764666774d59cf46"
     },
     {
       "kind": "definitions",
@@ -1142,14 +1142,14 @@
       "kind": "definitions",
       "id": "DEF-ESSENCE-THOMISTIC-NATURE",
       "path": "corpus/definitions/essence-thomistic-nature.json",
-      "status": "inspected",
-      "classification": "intentional_abstraction",
-      "finding": "Existing interpretation retained: Essence is what a thing is, its nature or quiddity, contrasted with its act of being (esse). The statement that God is his own esse identifies these in its theological context; the words essence and esse alone do not make that identity hold. This sense is not Scott’s modal essence of an individual or the 1970 Gödel variant’s different essence definition. No new structural law, source attribution or independently established premise is introduced.",
+      "status": "repaired",
+      "classification": "reviewed_locator_clarification",
+      "finding": "Existing interpretation retained: Essence is what a thing is, its nature or quiddity, contrasted with its act of being (esse). The statement that God is his own esse identifies these in its theological context; the words essence and esse alone do not make that identity hold. This sense is not Scott’s modal essence of an individual or the 1970 Gödel variant’s different essence definition. No new structural law, source attribution or independently established premise is introduced. Follow-up #1110: reviewed the exact Lean signature against this metadata-only locator/scope clarification. Exact field/predicate locator TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article4.Profile.essenceOf. Primitive interpretation and open premise status remain explicit; no source attribution, theorem type, structural law or premise truth changes.",
       "before": {
         "sha256": "256b634683a261c9c539d84335321cf0a87c13bc43e28fc3ace8842898a8fc86",
         "lean_declaration": null
       },
-      "reviewed_sha256": "256b634683a261c9c539d84335321cf0a87c13bc43e28fc3ace8842898a8fc86"
+      "reviewed_sha256": "5057dfeabc0d63d565c1eb73a4cc499ce4c828bf87d3cd9782cd6308dba76354"
     },
     {
       "kind": "definitions",
@@ -1194,14 +1194,14 @@
       "kind": "definitions",
       "id": "DEF-GENUS-BROAD",
       "path": "corpus/definitions/genus-broad.json",
-      "status": "inspected",
-      "classification": "intentional_abstraction",
-      "finding": "Existing interpretation retained: The index `r : Respect` of the quarta via's genus principle (`MaximumInGenusCausesAllInGenusReading`): a perfection such as heat, goodness or being, whose bearers are more and less such by approach to what is maximally such. It need not be a strict genus: heat in the example is a quality, not a genus of hot things, and being is not a strict genus. No new structural law, source attribution or independently established premise is introduced.",
+      "status": "repaired",
+      "classification": "reviewed_locator_clarification",
+      "finding": "Existing interpretation retained: The index `r : Respect` of the quarta via's genus principle (`MaximumInGenusCausesAllInGenusReading`): a perfection such as heat, goodness or being, whose bearers are more and less such by approach to what is maximally such. It need not be a strict genus: heat in the example is a quality, not a genus of hot things, and being is not a strict genus. No new structural law, source attribution or independently established premise is introduced. Follow-up #1110: reviewed the exact Lean signature against this metadata-only locator/scope clarification. The retained locator is explicitly classified as a usage/constraining premise or vocabulary-container anchor; exact primitive parameter/field locations are recorded in the definition note. Primitive interpretation and open premise status remain explicit; no source attribution, theorem type, structural law or premise truth changes.",
       "before": {
         "sha256": "bd95fa3866e6359b6f802a4db8fb789cd2fe5ecc1137bf8431ae4ae48dbc9e7f",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MaximumInGenusCausesAllInGenusReading"
       },
-      "reviewed_sha256": "bd95fa3866e6359b6f802a4db8fb789cd2fe5ecc1137bf8431ae4ae48dbc9e7f"
+      "reviewed_sha256": "338b3360f23b2bd46acb2185415c3031c7ba3f2f7dde28da099be299cc212115"
     },
     {
       "kind": "definitions",
@@ -1233,14 +1233,14 @@
       "kind": "definitions",
       "id": "DEF-GOD-OF-CLASSICAL-THEISM",
       "path": "corpus/definitions/god-of-classical-theism.json",
-      "status": "inspected",
-      "classification": "intentional_abstraction",
-      "finding": "Existing interpretation retained: The case signature's `IsGod g`: g is God in the sense of the God of classical theism, not merely what is called God. The stages after stage 1 and the root use this predicate. Its content is fixed only by the open premises that use it: STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES (simple, perfect, good, infinite, immutable, eternal, one, with intellect and will) and, on the older stage-1 routes, the identification premise STMT-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD. On the designated route it is also fixed by the fuller nominal premise STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE, which applies the proper name 'God' to `IsGod` directly (DISAMB-GOD). The individual attribute senses and their one-way mapping to the skeleton field are recorded in DEF-CLASSICAL-ATTRIBUTES-BUNDLE and linked from STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES. No new structural law, source attribution or independently established premise is introduced.",
+      "status": "repaired",
+      "classification": "reviewed_locator_clarification",
+      "finding": "Existing interpretation retained: The case signature's `IsGod g`: g is God in the sense of the God of classical theism, not merely what is called God. The stages after stage 1 and the root use this predicate. Its content is fixed only by the open premises that use it: STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES (simple, perfect, good, infinite, immutable, eternal, one, with intellect and will) and, on the older stage-1 routes, the identification premise STMT-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD. On the designated route it is also fixed by the fuller nominal premise STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE, which applies the proper name 'God' to `IsGod` directly (DISAMB-GOD). The individual attribute senses and their one-way mapping to the skeleton field are recorded in DEF-CLASSICAL-ATTRIBUTES-BUNDLE and linked from STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES. No new structural law, source attribution or independently established premise is introduced. Follow-up #1110: reviewed the exact Lean signature against this metadata-only locator/scope clarification. Exact field/predicate locator TruthCore.Case.Catholicism.Signature.IsGod. Primitive interpretation and open premise status remain explicit; no source attribution, theorem type, structural law or premise truth changes.",
       "before": {
         "sha256": "0db89c7e0f0c32183e391255225d564b1e855d0619058e3477ef4d18d6b2b43e",
         "lean_declaration": "TruthCore.Case.Catholicism.Signature"
       },
-      "reviewed_sha256": "0db89c7e0f0c32183e391255225d564b1e855d0619058e3477ef4d18d6b2b43e"
+      "reviewed_sha256": "e97f5e840cd41b6fcfb03b129e18a02647cf356493464fe230e6cf765fee60d1"
     },
     {
       "kind": "definitions",
@@ -1337,53 +1337,53 @@
       "kind": "definitions",
       "id": "DEF-MAXIME-ENS",
       "path": "corpus/definitions/maxime-ens.json",
-      "status": "inspected",
-      "classification": "intentional_abstraction",
-      "finding": "Existing interpretation retained: The maximum in being: `IsMaximumIn InAct MoreIn esse m`, that is, m has being and nothing is more a being than m. Reached in the quarta via from the maximally true (quae sunt maxime vera, sunt maxime entia). Uniqueness is not part of the definition; it is the derived statement STMT-AT-MOST-ONE-MAXIMUM-IN-BEING. No new structural law, source attribution or independently established premise is introduced.",
+      "status": "repaired",
+      "classification": "reviewed_locator_clarification",
+      "finding": "Existing interpretation retained: The maximum in being: `IsMaximumIn InAct MoreIn esse m`, that is, m has being and nothing is more a being than m. Reached in the quarta via from the maximally true (quae sunt maxime vera, sunt maxime entia). Uniqueness is not part of the definition; it is the derived statement STMT-AT-MOST-ONE-MAXIMUM-IN-BEING. No new structural law, source attribution or independently established premise is introduced. Follow-up #1110: reviewed the exact Lean signature against this metadata-only locator/scope clarification. Exact field/predicate locator TruthCore.Latin.Aquinas.SummaTheologiae.IsMaximalIn. Primitive interpretation and open premise status remain explicit; no source attribution, theorem type, structural law or premise truth changes.",
       "before": {
         "sha256": "234c126e4e7111fb3facbda59fb7a3b14fa51f502dd2fedac3b603e50523c907",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.IsMaximumIn"
       },
-      "reviewed_sha256": "234c126e4e7111fb3facbda59fb7a3b14fa51f502dd2fedac3b603e50523c907"
+      "reviewed_sha256": "9fa797455e69ff269e1a5ba5a91bf1a3ccf73a6002c8cf37a8d113af19ff35b9"
     },
     {
       "kind": "definitions",
       "id": "DEF-MAXIMUM-IN-A-PERFECTION",
       "path": "corpus/definitions/maximum-in-a-perfection.json",
-      "status": "inspected",
-      "classification": "intentional_abstraction",
-      "finding": "Existing interpretation retained: `IsMaximumIn InAct MoreIn r m`: m has the perfection r and nothing is more r than m. Maximal, not greatest: it does not say that m is more r than everything else, so it does not by itself give uniqueness. No new structural law, source attribution or independently established premise is introduced.",
+      "status": "repaired",
+      "classification": "reviewed_locator_clarification",
+      "finding": "Existing interpretation retained: `IsMaximumIn InAct MoreIn r m`: m has the perfection r and nothing is more r than m. Maximal, not greatest: it does not say that m is more r than everything else, so it does not by itself give uniqueness. No new structural law, source attribution or independently established premise is introduced. Follow-up #1110: reviewed the exact Lean signature against this metadata-only locator/scope clarification. Exact field/predicate locator TruthCore.Latin.Aquinas.SummaTheologiae.IsMaximalIn. Primitive interpretation and open premise status remain explicit; no source attribution, theorem type, structural law or premise truth changes.",
       "before": {
         "sha256": "91b4008b7bf95fac7aa469c0e1d442154d20848ff0ccc4d0850f1ec2ccb3f0c1",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.IsMaximumIn"
       },
-      "reviewed_sha256": "91b4008b7bf95fac7aa469c0e1d442154d20848ff0ccc4d0850f1ec2ccb3f0c1"
+      "reviewed_sha256": "25eff42451fa9bf6dbd03a5b8db927e73e81c60467d77e337ccc8568d94047e8"
     },
     {
       "kind": "definitions",
       "id": "DEF-MORE-IN",
       "path": "corpus/definitions/more-in.json",
-      "status": "inspected",
-      "classification": "intentional_abstraction",
-      "finding": "Existing interpretation retained: `MoreIn r x y`: x is more r than y (more good, more true, more noble, more hot). Only the comparative is primitive: nothing makes it a total order, a measure, or comparable across all things. No new structural law, source attribution or independently established premise is introduced.",
+      "status": "repaired",
+      "classification": "reviewed_locator_clarification",
+      "finding": "Existing interpretation retained: `MoreIn r x y`: x is more r than y (more good, more true, more noble, more hot). Only the comparative is primitive: nothing makes it a total order, a measure, or comparable across all things. No new structural law, source attribution or independently established premise is introduced. Follow-up #1110: reviewed the exact Lean signature against this metadata-only locator/scope clarification. The retained locator is explicitly classified as a usage/constraining premise or vocabulary-container anchor; exact primitive parameter/field locations are recorded in the definition note. Primitive interpretation and open premise status remain explicit; no source attribution, theorem type, structural law or premise truth changes.",
       "before": {
         "sha256": "ff39de51f1edda6ed56962b715fab2cccce0ecf415a576ccb80c42cc869d4f6a",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GradesFoundInThingsReading"
       },
-      "reviewed_sha256": "ff39de51f1edda6ed56962b715fab2cccce0ecf415a576ccb80c42cc869d4f6a"
+      "reviewed_sha256": "3ff3133f23905d001015bf94732ef664f3a9b8c8dd412cc14d8ee4593597e3dc"
     },
     {
       "kind": "definitions",
       "id": "DEF-MOTION-AS-REDUCTION",
       "path": "corpus/definitions/motion-as-reduction.json",
-      "status": "inspected",
-      "classification": "intentional_abstraction",
-      "finding": "Existing interpretation retained: To move is nothing other than to educe something from potency to act. `MovedIn x r`: x is being reduced from potency to act in respect r; `MovesIn y x r`: y so reduces x. Read at one time (simul): a present series of movers, not a history. Nothing restricts it to local motion or to bodies. Aristotle's definition of motion as the actuality of the potential as such, read for beings and respects (STMT-BEING-MOVED-IS-ACTUALIZATION-OF-POTENCY), would make STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY analytic if adopted as the Lean definition of `MovedIn`; it is no stronger than that premise (result ACT-POTENCY-DEFINITIONAL-ANALYSES-CONSERVATIVE), so `MovedIn` stays a parameter. No new structural law, source attribution or independently established premise is introduced.",
+      "status": "repaired",
+      "classification": "reviewed_locator_clarification",
+      "finding": "Existing interpretation retained: To move is nothing other than to educe something from potency to act. `MovedIn x r`: x is being reduced from potency to act in respect r; `MovesIn y x r`: y so reduces x. Read at one time (simul): a present series of movers, not a history. Nothing restricts it to local motion or to bodies. Aristotle's definition of motion as the actuality of the potential as such, read for beings and respects (STMT-BEING-MOVED-IS-ACTUALIZATION-OF-POTENCY), would make STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY analytic if adopted as the Lean definition of `MovedIn`; it is no stronger than that premise (result ACT-POTENCY-DEFINITIONAL-ANALYSES-CONSERVATIVE), so `MovedIn` stays a parameter. No new structural law, source attribution or independently established premise is introduced. Follow-up #1110: reviewed the exact Lean signature against this metadata-only locator/scope clarification. Exact field/predicate locator TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel.MovedIn. Primitive interpretation and open premise status remain explicit; no source attribution, theorem type, structural law or premise truth changes.",
       "before": {
         "sha256": "df7c8fa669493ad3e42b4f84dc14344f9e6d76b37aed42f6166ef8e5f636e8d7",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel"
       },
-      "reviewed_sha256": "df7c8fa669493ad3e42b4f84dc14344f9e6d76b37aed42f6166ef8e5f636e8d7"
+      "reviewed_sha256": "5428b3a8727fbfe12362600008965caa9c5706ce5095b8d5f8c66777dacbd5c2"
     },
     {
       "kind": "definitions",
@@ -1415,27 +1415,27 @@
       "kind": "definitions",
       "id": "DEF-ONTOLOGICAL-TRUTH",
       "path": "corpus/definitions/ontological-truth.json",
-      "status": "inspected",
-      "classification": "intentional_abstraction",
-      "finding": "Existing interpretation retained: Truth said of a thing is its conformity to the intellect on which it depends in being, rather than its being believed or observed. In ST I q.16 a.1, a true artifact realizes the form conceived by its maker, and a true natural thing realizes its proper nature according to the divine intellect’s exemplar (a true stone has the nature proper to a stone). This truth is secondary to truth in intellect. ST I q.16 a.3 relates a thing’s intelligibility to the being it has: truth adds a relation to intellect to the account of being. This is the ontological sense used to interpret the quarta via’s verum, not sentence truth, confidence, or frequency of endorsement. No new structural law, source attribution or independently established premise is introduced.",
+      "status": "repaired",
+      "classification": "reviewed_locator_clarification",
+      "finding": "Existing interpretation retained: Truth said of a thing is its conformity to the intellect on which it depends in being, rather than its being believed or observed. In ST I q.16 a.1, a true artifact realizes the form conceived by its maker, and a true natural thing realizes its proper nature according to the divine intellect’s exemplar (a true stone has the nature proper to a stone). This truth is secondary to truth in intellect. ST I q.16 a.3 relates a thing’s intelligibility to the being it has: truth adds a relation to intellect to the account of being. This is the ontological sense used to interpret the quarta via’s verum, not sentence truth, confidence, or frequency of endorsement. No new structural law, source attribution or independently established premise is introduced. Follow-up #1110: reviewed the exact Lean signature against this metadata-only locator/scope clarification. The retained locator is explicitly classified as a usage/constraining premise or vocabulary-container anchor; exact primitive parameter/field locations are recorded in the definition note. Primitive interpretation and open premise status remain explicit; no source attribution, theorem type, structural law or premise truth changes.",
       "before": {
         "sha256": "0466c5d73e90f7b8589b940dbb85f4f729ce4d5cba4c06a9f291f4a44b23ccb9",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MostTrueIsMostBeingReading"
       },
-      "reviewed_sha256": "0466c5d73e90f7b8589b940dbb85f4f729ce4d5cba4c06a9f291f4a44b23ccb9"
+      "reviewed_sha256": "a3082261afcbdd79ddb6e8a9242d9c861cba3770fac239e6c44004e677e28fdb"
     },
     {
       "kind": "definitions",
       "id": "DEF-ONTOLOGICAL-TRUTH-COMPARISON",
       "path": "corpus/definitions/ontological-truth-comparison.json",
-      "status": "inspected",
-      "classification": "intentional_abstraction",
-      "finding": "Existing interpretation retained: For this reading, x is more true than y in the relevant respect when x more fully realizes the intelligible nature or form under consideration: the comparison is of realization of that form, hence of intelligibility grounded in actuality. It is not a comparison of two sentences’ accuracy, how many observers agree, or an observer’s certainty. The relevant form and comparative must be supplied by an interpretation of the things compared; no numerical measure or total comparability of all kinds is stipulated. No new structural law, source attribution or independently established premise is introduced.",
+      "status": "repaired",
+      "classification": "reviewed_locator_clarification",
+      "finding": "Existing interpretation retained: For this reading, x is more true than y in the relevant respect when x more fully realizes the intelligible nature or form under consideration: the comparison is of realization of that form, hence of intelligibility grounded in actuality. It is not a comparison of two sentences’ accuracy, how many observers agree, or an observer’s certainty. The relevant form and comparative must be supplied by an interpretation of the things compared; no numerical measure or total comparability of all kinds is stipulated. No new structural law, source attribution or independently established premise is introduced. Follow-up #1110: reviewed the exact Lean signature against this metadata-only locator/scope clarification. The retained locator is explicitly classified as a usage/constraining premise or vocabulary-container anchor; exact primitive parameter/field locations are recorded in the definition note. Primitive interpretation and open premise status remain explicit; no source attribution, theorem type, structural law or premise truth changes.",
       "before": {
         "sha256": "13a9d4500f938084902eb0aec3520ff105c2e9b2d52af4297b0deb5ba4656edb",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GradesFoundInThingsReading"
       },
-      "reviewed_sha256": "13a9d4500f938084902eb0aec3520ff105c2e9b2d52af4297b0deb5ba4656edb"
+      "reviewed_sha256": "ed703dc596bbfb85ad56dbd9371bb25c857b11c6a7b78642b7179e3a0a4ddfca"
     },
     {
       "kind": "definitions",
@@ -1493,40 +1493,40 @@
       "kind": "definitions",
       "id": "DEF-Q11-COMMON-DIVINE-NATURE",
       "path": "corpus/definitions/q11-common-divine-nature.json",
-      "status": "inspected",
-      "classification": "intentional_abstraction",
-      "finding": "Existing interpretation retained: The existing essenceOf map is used in the Thomistic nature/quiddity sense. The Principle parameter deity represents the divine nature considered in q.11 a.3’s first proof. ProperGodInstancesHaveCommonNatureReading explicitly says that every original IsGod instance has essenceOf g = deity. This is a qualified shared-nature reading of the hypothetical plurality, not a definitional membership test for IsGod, a genus, or the conclusion of numerical uniqueness. Equality here is equality of represented nature values, not merely two beings falling under the same word or predicate. Mere univocal use of God does not establish this premise; accepting the shared-nature reading remains a substantive interpretive commitment. No new structural law, source attribution or independently established premise is introduced.",
+      "status": "repaired",
+      "classification": "reviewed_locator_clarification",
+      "finding": "Existing interpretation retained: The existing essenceOf map is used in the Thomistic nature/quiddity sense. The Principle parameter deity represents the divine nature considered in q.11 a.3’s first proof. ProperGodInstancesHaveCommonNatureReading explicitly says that every original IsGod instance has essenceOf g = deity. This is a qualified shared-nature reading of the hypothetical plurality, not a definitional membership test for IsGod, a genus, or the conclusion of numerical uniqueness. Equality here is equality of represented nature values, not merely two beings falling under the same word or predicate. Mere univocal use of God does not establish this premise; accepting the shared-nature reading remains a substantive interpretive commitment. No new structural law, source attribution or independently established premise is introduced. Follow-up #1110: reviewed the exact Lean signature against this metadata-only locator/scope clarification. The retained locator is explicitly classified as a usage/constraining premise or vocabulary-container anchor; exact primitive parameter/field locations are recorded in the definition note. Primitive interpretation and open premise status remain explicit; no source attribution, theorem type, structural law or premise truth changes.",
       "before": {
         "sha256": "11864aef1bed85257c88c184c6d104cbe5808b057bdda738a25d75442562b80e",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.ProperGodInstancesHaveCommonNatureReading"
       },
-      "reviewed_sha256": "11864aef1bed85257c88c184c6d104cbe5808b057bdda738a25d75442562b80e"
+      "reviewed_sha256": "6facf291235e4b34794670e07e762062f6e0f1403101c9ac6eef419beb7f737d"
     },
     {
       "kind": "definitions",
       "id": "DEF-Q11-GOD-SUPPOSITUM-NATURE",
       "path": "corpus/definitions/q11-god-suppositum-nature.json",
-      "status": "inspected",
-      "classification": "intentional_abstraction",
-      "finding": "Existing interpretation retained: For a being g satisfying the original IsGod predicate, suppositumOf g = essenceOf g in the existing Principle sort. This represents q.3 a.3’s absence of a real suppositum/nature distinction for God. It is an explicit universal open commitment, not a definition of IsGod or a theorem inferred from generic simplicity. It does not equate Lean objects in Being with objects in Principle. No new structural law, source attribution or independently established premise is introduced.",
+      "status": "repaired",
+      "classification": "reviewed_locator_clarification",
+      "finding": "Existing interpretation retained: For a being g satisfying the original IsGod predicate, suppositumOf g = essenceOf g in the existing Principle sort. This represents q.3 a.3’s absence of a real suppositum/nature distinction for God. It is an explicit universal open commitment, not a definition of IsGod or a theorem inferred from generic simplicity. It does not equate Lean objects in Being with objects in Principle. No new structural law, source attribution or independently established premise is introduced. Follow-up #1110: reviewed the exact Lean signature against this metadata-only locator/scope clarification. The retained locator is explicitly classified as a usage/constraining premise or vocabulary-container anchor; exact primitive parameter/field locations are recorded in the definition note. Primitive interpretation and open premise status remain explicit; no source attribution, theorem type, structural law or premise truth changes.",
       "before": {
         "sha256": "69ea8295a0b59bc361e79bd9eed9456478be5d413e5fdcd81c7ec28afa55756c",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GodSuppositumIsNatureReading"
       },
-      "reviewed_sha256": "69ea8295a0b59bc361e79bd9eed9456478be5d413e5fdcd81c7ec28afa55756c"
+      "reviewed_sha256": "fec89b688bcbbcaa059fa8f2f0f1bd421019eff13dcec4c445454c37842c292e"
     },
     {
       "kind": "definitions",
       "id": "DEF-Q11-INDIVIDUATING-BASIS",
       "path": "corpus/definitions/q11-individuating-basis.json",
-      "status": "inspected",
-      "classification": "intentional_abstraction",
-      "finding": "Existing interpretation retained: The Principle-valued representation suppositumOf x records that by which a singular being is this individual, in q.11 a.3 first proof. It is distinguished from the nature essenceOf x. Equality of represented bases entails identity of beings only under STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE; no injectivity, existence or God-uniqueness is built into the map. No new structural law, source attribution or independently established premise is introduced.",
+      "status": "repaired",
+      "classification": "reviewed_locator_clarification",
+      "finding": "Existing interpretation retained: The Principle-valued representation suppositumOf x records that by which a singular being is this individual, in q.11 a.3 first proof. It is distinguished from the nature essenceOf x. Equality of represented bases entails identity of beings only under STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE; no injectivity, existence or God-uniqueness is built into the map. No new structural law, source attribution or independently established premise is introduced. Follow-up #1110: reviewed the exact Lean signature against this metadata-only locator/scope clarification. The retained locator is explicitly classified as a usage/constraining premise or vocabulary-container anchor; exact primitive parameter/field locations are recorded in the definition note. Primitive interpretation and open premise status remain explicit; no source attribution, theorem type, structural law or premise truth changes.",
       "before": {
         "sha256": "797848dee2cb7c79bcbda3a8db645ee7ef78812351467dcbe30120f8a77734ce",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.IndividuatingBasisIsIncommunicableReading"
       },
-      "reviewed_sha256": "797848dee2cb7c79bcbda3a8db645ee7ef78812351467dcbe30120f8a77734ce"
+      "reviewed_sha256": "91575a7360f415477e373771a29e2178f13f35bd3abce10772b2b98e59069c39"
     },
     {
       "kind": "definitions",
@@ -1545,14 +1545,14 @@
       "kind": "definitions",
       "id": "DEF-RESPECT",
       "path": "corpus/definitions/respect.json",
-      "status": "inspected",
-      "classification": "intentional_abstraction",
-      "finding": "Existing interpretation retained: `Respect`: that with respect to which a thing is moved, in act or in potency, such as being hot. The quarta via reads a respect as a perfection (ST I q.4 a.1: a thing is called perfect insofar as it is in act). 'Moved in no respect' quantifies over all respects. No new structural law, source attribution or independently established premise is introduced.",
+      "status": "repaired",
+      "classification": "reviewed_locator_clarification",
+      "finding": "Existing interpretation retained: `Respect`: that with respect to which a thing is moved, in act or in potency, such as being hot. The quarta via reads a respect as a perfection (ST I q.4 a.1: a thing is called perfect insofar as it is in act). 'Moved in no respect' quantifies over all respects. No new structural law, source attribution or independently established premise is introduced. Follow-up #1110: reviewed the exact Lean signature against this metadata-only locator/scope clarification. Exact field/predicate locator TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel.Respect. Primitive interpretation and open premise status remain explicit; no source attribution, theorem type, structural law or premise truth changes.",
       "before": {
         "sha256": "2311bf6a4d5eae003aa035b80f4206ebda5655ba28555fb3cd15a26e2a094c4b",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel"
       },
-      "reviewed_sha256": "2311bf6a4d5eae003aa035b80f4206ebda5655ba28555fb3cd15a26e2a094c4b"
+      "reviewed_sha256": "a5b6b75e7b57e7b51ca066df7ce50b054095485a6c0f692a09ad6ffeb6cddf47"
     },
     {
       "kind": "definitions",
@@ -1597,14 +1597,14 @@
       "kind": "definitions",
       "id": "DEF-SKELETON-OPEN-PREDICATES",
       "path": "corpus/definitions/skeleton-open-predicates.json",
-      "status": "inspected",
-      "classification": "intentional_abstraction",
-      "finding": "Existing interpretation retained: The skeleton separately assumes that God can reveal recognizably through external signs (motives of credibility), that Jesus claimed to speak and act with divine authority and rose, that Christ founded a visible, enduring Church with an authority structure, and that each society he so founded is the Catholic Church. Society equality represents the latter historical-identity claim. These are the advertised meanings of distinct primitive fields/relations in Signature, not definitions that make any of them hold. Founding a society is distinct from founding it as a teaching authority, and Jesus’s stage predicate RoseFromTheDead is not identified with the separate uninterpreted Creed article. The phase-1 root fixes the teaching-authority role and twelve Creed articles. No event criteria, complete ecclesiology or evidence for those assumptions is supplied by the signature. No new structural law, source attribution or independently established premise is introduced.",
+      "status": "repaired",
+      "classification": "reviewed_locator_clarification",
+      "finding": "Existing interpretation retained: The skeleton separately assumes that God can reveal recognizably through external signs (motives of credibility), that Jesus claimed to speak and act with divine authority and rose, that Christ founded a visible, enduring Church with an authority structure, and that each society he so founded is the Catholic Church. Society equality represents the latter historical-identity claim. These are the advertised meanings of distinct primitive fields/relations in Signature, not definitions that make any of them hold. Founding a society is distinct from founding it as a teaching authority, and Jesus’s stage predicate RoseFromTheDead is not identified with the separate uninterpreted Creed article. The phase-1 root fixes the teaching-authority role and twelve Creed articles. No event criteria, complete ecclesiology or evidence for those assumptions is supplied by the signature. No new structural law, source attribution or independently established premise is introduced. Follow-up #1110: reviewed the exact Lean signature against this metadata-only locator/scope clarification. The retained locator is explicitly classified as a usage/constraining premise or vocabulary-container anchor; exact primitive parameter/field locations are recorded in the definition note. Primitive interpretation and open premise status remain explicit; no source attribution, theorem type, structural law or premise truth changes.",
       "before": {
         "sha256": "fed4609ae9efdac66f2953a5b1653c21a46c909cb24bac82f6c97f42e01a41ee",
         "lean_declaration": "TruthCore.Case.Catholicism.Signature"
       },
-      "reviewed_sha256": "fed4609ae9efdac66f2953a5b1653c21a46c909cb24bac82f6c97f42e01a41ee"
+      "reviewed_sha256": "7418b38b03d477f9fc071fb88208c8dcfde6f5275b2de0df6da02ee2bbb95d6e"
     },
     {
       "kind": "definitions",
@@ -1935,14 +1935,14 @@
       "kind": "disambiguations",
       "id": "DISAMB-TRUE",
       "path": "corpus/disambiguations/true.json",
-      "status": "inspected",
-      "classification": "intentional_abstraction",
-      "finding": "Existing resolution retained: The quarta via's 'true' is the truth of things (the respect `verum`), not the truth of sentences; no result links `verum` with `Holds`. The problem-of-evil results use truth of sentences. POE-EXTERNAL-PREMISE-VS-EMOTIVISM uses O'Connor's own notion (DEF-TRUTH-VALUE): moral statements are not the kind of sentence that can be true or false, so they are not true. That is the robust sense, and the result holds against his emotivism as he states it. It does not hold against an expressivist who grants moral sentences minimal truth: such a theorist rejects STMT-MORAL-STATEMENTS-LACK-TRUTH-VALUE in the minimal sense, and answering that rival is the open work of #182 and #185. 'Objectively true' (DEF-OBJECTIVE-TRUTH) is truth independent of attitudes; the result's conclusion denies truth simply, and it denies objective truth only under the further, unformalized bridge that what is objectively true is true (no Lean declaration states it). 'Catholicism is true' (DEF-CATHOLICISM-TRUE-PHASE-1) is the plain conjunction of its two conditions, not a further truth predicate. The objective-truth pilot uses DEF-LEAN-PROPOSITION-HOLDING for ∃ P : Prop, P and its logical counterpart: a proof in the encoded logic, not an identification with ontological, robust, minimal or attitude-independent truth. Its profile Interpretation is a stipulated external mapping, and a bridge preserving a logical sentence across profiles remains explicit and open.",
+      "status": "repaired",
+      "classification": "clarified_conditional_bridge",
+      "finding": "Reviewed additive truth-sense clarification: quarta-via verum remains distinct from sentence truth, and robust/minimal truth and the Lean-Prop pilot remain distinct. The formerly unformalized objective-implies-truth condition is now the explicit weak STMT-OBJECTIVE-TRUTH-HAS-TRUTH-COMPONENT, used only in the separately registered external-evil composition. New profile calibrations are analyst siblings, not attributed identities or an adopted root premise. Existing audited theorem types, arguments and source claims are unchanged; this row does not certify philosophical attitude independence or named-definition exhaustion.",
       "before": {
         "sha256": "03757e504426c6dea3171c5d42d965eddeceb3954fd1f6ad52305c396bf3a8e2",
         "lean_declaration": null
       },
-      "reviewed_sha256": "03757e504426c6dea3171c5d42d965eddeceb3954fd1f6ad52305c396bf3a8e2"
+      "reviewed_sha256": "aab9e48371e81d95d2613fb877dcee6b2cbc717e080f646b016af686c56d5b5d"
     },
     {
       "kind": "claims",

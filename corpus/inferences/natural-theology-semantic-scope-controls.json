@@ -1,0 +1,9 @@
+{
+  "id": "INF-NATURAL-THEOLOGY-SEMANTIC-SCOPE-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-NATURAL-THEOLOGY-SEMANTIC-SCOPE-CONTROLS",
+  "rule": "constructive-proof",
+  "meaning": "A populated structured candidate argument is formally valid but requires a world-premise not supplied and fails the independent warrant criterion. Meaningful divine content alone therefore does not entail profile arguability. The control is relative to this explicitly limited domain; it supplies no actual completeness or source/warrant bridge.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

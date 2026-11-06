@@ -1,0 +1,10 @@
+{
+  "id": "STMT-NOT-REALIST-EXPLANATORY-ORDER",
+  "paraphrase": "The universal realist explanatory-order reading fails under the shared moral and truth-to-talk predicates. Exact negative endpoint, not automatically the stronger raw anti-order account.",
+  "lean_declaration": "TruthCore.Metaethics.ExplanationRivalBoundary.NotRealistOrder",
+  "definition_ids": [
+    "DEF-EXPLANATORY-ORDER-NEGATIVE-SCOPE",
+    "DEF-ORDER-OF-EXPLANATION",
+    "DEF-MORAL-STATEMENT"
+  ]
+}

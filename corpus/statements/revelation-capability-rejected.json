@@ -1,0 +1,15 @@
+{
+  "id": "STMT-REVELATION-CAPABILITY-REJECTED",
+  "paraphrase": "Exact negation of STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE on the unchanged root Signature: it is not the case that every God candidate can reveal recognizably. This is not merely the rejection of internal grammar or of a current correct move.",
+  "lean_declaration": "TruthCore.Alternatives.RevelationRecognition.RevelationCapabilityRejected",
+  "definition_ids": [
+    "DEF-REVELATION-RECOGNITION-PROFILE",
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-WITTGENSTEINIAN-FIDEISM",
+    "DEF-NATURAL-REASON-SHARED"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REVELATION-CAPABILITY-AND-PRACTICE-UPTAKE",
+    "DISAMB-PRACTICE-SENSITIVITY-AND-FIDEIST-INSULATION"
+  ]
+}

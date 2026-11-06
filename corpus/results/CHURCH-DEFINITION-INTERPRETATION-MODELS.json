@@ -1,0 +1,10 @@
+{
+  "id": "CHURCH-DEFINITION-INTERPRETATION-MODELS",
+  "argument_id": "CHURCH-DEFINITION-INTERPRETATION-MODELS",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.ChurchDefinitions.Models.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.ChurchDefinitions.Models.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.ChurchDefinitions.Models.criterionModels",
+  "comparator_config": "results/CHURCH-DEFINITION-INTERPRETATION-MODELS/comparator.json",
+  "status": "solution-present",
+  "description": "Six finite schema interpretations reuse DivineFounding.modelSig, with a four-society extension when needed. Joint-only survival has a nonempty shared body plus visible-only and spiritual-only additional bodies. The further criterion has witnesses with stage 5 both true and false, so it opposes named coverage only. No ecclesiology or actual Church history is established."
+}

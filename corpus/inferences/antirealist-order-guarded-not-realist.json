@@ -1,0 +1,13 @@
+{
+  "id": "INF-ANTIREALIST-ORDER-GUARDED-NOT-REALIST",
+  "input_statement_ids": [
+    "STMT-ANTIREALIST-ORDER-OF-EXPLANATION",
+    "STMT-EXPLANATORY-ORDER-ASYMMETRIC",
+    "STMT-GEACH-MINOR-PREMISE-IS-MORAL"
+  ],
+  "output_statement_id": "STMT-NOT-REALIST-EXPLANATORY-ORDER",
+  "rule": "constructive-proof",
+  "meaning": "Full anti-order plus separately supplied asymmetry and the explicit moral witness contradict the realist universal at that same content. No opposite-direction incompatibility is silently defined in.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

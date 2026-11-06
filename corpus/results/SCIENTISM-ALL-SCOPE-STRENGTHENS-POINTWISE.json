@@ -1,0 +1,10 @@
+{
+  "id": "SCIENTISM-ALL-SCOPE-STRENGTHENS-POINTWISE",
+  "argument_id": "SCIENTISM-ALL-SCOPE-STRENGTHENS-POINTWISE",
+  "challenge_module": "TruthCore.Results.Logic.ScientismScopeBoundary.AllToPointwise.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ScientismScopeBoundary.AllToPointwise.Solution",
+  "theorem": "TruthCore.Results.Logic.ScientismScopeBoundary.AllToPointwise.allToPointwise",
+  "comparator_config": "results/SCIENTISM-ALL-SCOPE-STRENGTHENS-POINTWISE/comparator.json",
+  "status": "solution-present",
+  "description": "All established coverage implies pointwise nonempirical witness coverage."
+}

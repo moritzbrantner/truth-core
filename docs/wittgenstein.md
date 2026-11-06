@@ -411,6 +411,54 @@ every recorded rival refuted from established premises. That means refuting the
 two replies above, which today are met only by stated texts. Both bridges stay
 open, and that is the honest result.
 
+### Theological content and normative grammar (analyst reconstruction, 2026-11-06)
+
+The raw `STMT-COUNCIL-TEACHING-THEOLOGY-NOT-GRAMMAR` reply and its supporting
+source claims remain unchanged. A new modest typed profile distinguishes
+whether a defined move has theological content, whether a move plays a role in
+first-order religious life, and whether the practice's own standards endorse
+it. First-order life is a practical role, not a logical quantifier order. A
+doctrinal sentence can function as confession; these labels need not be
+disjoint. No actual institution or liturgical history is thereby established.
+
+`STMT-THEOLOGY-EXCLUDED-FROM-OWN-STANDARDS` states the substantive exclusion
+that a strong opponent reading needs. It is not supplied merely by theological
+content or by calling a formula second-order. The descriptive profile projects
+to the weaker theological-content premise; together with the explicit exclusion
+and an actual Defined witness it yields the exact negation of the unchanged
+`DefinitionIsOwnStandardReading`. The council-defined natural-knowability move
+supplies that weak Defined witness by a registered projection. Original
+cut-off arguments still need its natural content as well as Defined; new
+status-conflict arguments use only the weak witness.
+
+The existing theology-not-grammar alternative relation now uses that exact
+normative-bridge negation as its endpoint. Refuting a descriptive formulation
+alone therefore cannot automatically defend the bridge through a mismatched
+rival link. Mixed actual defined-status witnesses also reject the bridge and
+the opposite universal reading. EM checks all-endorsed, all-nonendorsed or mixed
+structural coverage; named uniform coverage remains open and actual mixed
+witnesses are a precise further profile. Empty definition domains permit the
+two universals to overlap, so nonemptiness is not implicit.
+
+Four controls retain positive ordinary religious-life endorsement. Descriptive
+theology can coexist with the bridge. A two-move model separates a defined,
+theological, nonendorsed move from an ordinary-life endorsed move; it also keeps
+the old council/natural-reason premises and the fideist pair. This extends the
+relevant scope beyond the older missing-bridge control, which did not encode
+roles and used no endorsed move. Other controls witness actual mixed status
+and empty-definition overlap. These are signature interpretations, not a
+refutation of theology, ordinary religious life or any whole worldview.
+
+The old bridge paraphrase now states its exact normative endorsement scope;
+it does not additionally decide theological or practical classification. The
+existing authority/use/neither grammar-fixer cases and their open bridges are
+unchanged. InOrdinaryUse concerns ordinary-practitioner uptake; identifying it
+with the present practical role or with normative endorsement would require a
+separate bridge. The raw reply's philosophical-distortion/fidelity claims also
+need a typed content/fidelity criterion before they could be identified with
+this modest profile. Neither identity nor independent normative warrant is
+assumed here.
+
 ### Who fixes the grammar: by cases (owner decision 2026-11-06)
 
 The deciding question for both escapes is who fixes a practice's grammar.
@@ -777,3 +825,115 @@ exist, religious discourse is meaningless, or the Catholic nominal-definition
 leaves are discharged. The experiment does not connect their shared reference
 relation yet. Root premises and #1010's existing conditional defeat remain
 unchanged; #1073 supplies one boundary, not completion of #1010.
+
+
+## Proper application and practice reference (definition audit, 2026-11-06)
+
+The nominal leaves' proper predicate and `NamingPractice.RefersTo` are separate.
+`STMT-PROPER-REFERENCE-PRESERVED` is the explicit open analyst proposition
+that every proper instance is referred to by the selected name in the selected
+practice, on the same carrier. Stronger coextension adds the reverse direction;
+`GOD-NAME-COEXTENSION-PRESERVES-PROPER-REFERENCE` registers that order.
+Consequence arguments use the weaker transfer. No new attribution is made to
+Phillips, Aquinas or a theory of reference.
+
+`NAME-APPLICATION-TRANSFER-CASES` checks that either transfer holds or some
+proper instance is not a practice referent, using the existing explicit EM
+premise. Its witness is a relevant failure in this fixed semantic profile.
+This is structural coverage of a transfer test, not exhaustion of named
+philosophical definitions. The prior name-swapping controls above still concern
+literal reference under extensional sentence/inference agreement; they neither
+supply nor refute the new transfer premise.
+
+`PROPER-GOD-EXISTENCE-REJECTS-PRACTICE-NO-REFERENCE` uses the existing actual
+God-existence witness and transfer to refute the practice-use no-being thesis.
+Both remain open inputs. The reverse confrontation needs a matching descriptor
+witness: a universal naming implication can be true when nothing fits its
+antecedent. The new full, reduced and pure-act descriptor-existence propositions
+spell out exactly the antecedents of their respective original naming leaves.
+Raw no-reference, transfer and that witness then negate the proper-profile
+naming leaf, as the three `PRACTICE-NO-REFERENCE-REJECTS-…-NAMING` results check.
+The full-description no-witness consequence also imports the earlier checked
+`noBeingExcludesFullDescription` theorem after an explicit one-way translation.
+It excludes a unique fully described instance, rather than inferring a global
+contradiction without one.
+
+The three existing `alternative_to` relation IDs keep the serious no-object
+rival but now point from these exact proper-profile negations. The raw practice
+thesis remains a full-strength premise of their deriving arguments, with its
+supporting source remark unchanged. This is consequential: a future refutation
+of raw practice no-reference cannot automatically count as refuting the
+proper-profile challenge and defending a nominal leaf. Notes alone could not
+have enforced those transfer/witness conditions in the premise engine.
+
+`NAME-APPLICATION-TRANSFER-MODELS` supplies three finite controls: an inhabited
+proper predicate with empty practice reference and lost transfer; inhabited
+shared reference with no-reference false; and one-way transfer with extra
+practice referents, violating coextension. These are schema interpretations,
+not independently constrained God models or claims about actual religious use.
+The strongest surviving rival rejects transfer or disputes that any nominal
+descriptor has an actual instance. Applicability and independent defense of
+those premises remain open; none of the eight results establishes the root.
+Existing attributed claims and frozen Challenges are unchanged.
+
+## Revelation capability versus actual practice (definition audit, 2026-11-06)
+
+The root's `RevealsRecognizably` says a God can make revelation recognizable.
+The original `CutOffReading` constrains correct moves in one practice. Its old
+rival relation mentioned a shared-recognition interpretation only in prose;
+that did not constrain the graph endpoint and did not turn a capability into an
+actual correct move. The original pair-defeat and its frozen Challenges remain
+unchanged: negating internal grammar together with cut-off is still not a
+refutation of cut-off itself.
+
+`RevelationRecognition.RecognitionProfile` now supplies candidate situations,
+their separate practices and recognition moves, an admitted subset, and a
+distinguished actual situation. Admissibility is an open analyst framework
+choice, not an exhaustive real-possibility domain or a new modal logic. A move
+judging a revelation divine, its correctness, and whether its correctness
+answers to outsider-shared reason are distinct predicates. A recognizable
+message need not actually be recognized; a correct private recognition need
+not answer to outsider-shared standards. These ordinary analogies fix the
+intended distinction without proving its divine applicability.
+
+The full capacity calibration is a biconditional with possible correct
+recognition in the admitted subset. Its forward direction is the weaker
+`STMT-RECOGNIZABLE-CAPACITY-REALIZED`, used in consequences. The more explicit
+route splits that into candidate-carrier realization and
+`STMT-ADMISSIBLE-RECOGNITION-COVERAGE`: a correct witness somewhere in the
+candidate carrier has an admitted witness for that same God candidate.
+`RECOGNITION-ADMISSIBILITY-COVERAGE-OR-OUTSIDE-WITNESS` checks coverage or a
+precise further situation: correct recognition exists only outside the admitted
+subset, with none admitted. Thus a missing relevant situation is an explicit
+proposition, not an untracked escape. Coverage beyond the selected candidate
+carrier is not asserted; relating that carrier to real modal possibilities
+would require a further semantic interpretation and adequacy argument.
+
+`STMT-RECOGNITION-ANSWERS-TO-SHARED-REASON` is separate. So is
+`STMT-ACTUAL-CUT-OFF-PERSISTS-TO-ADMISSIBLE`, which carries the actual sharp
+cut-off policy through admitted situations. Given these, candidate realization,
+admitted coverage, the raw actual cut-off thesis and an actual God witness,
+`ACTUAL-INSULATION-REJECTS-CAPABILITY-WITH-EXPLICIT-COVERAGE` composes the
+recognition witness and the contradiction in its own situation. The conclusion
+is exactly `¬ RevelationPossibleAndRecognizable σ` on the unchanged root
+Signature. The existing alternative relation now points from that negated-root
+sibling. Refuting the raw actual-practice thesis alone cannot automatically
+count as refuting this stronger capability challenge through that link.
+
+Insulation in every admitted situation implies actual cut-off only if the
+actual situation is admitted. That separate hypothesis is registered in the
+ordinary conditional theorem; no unconditional `strengthens` edge is claimed.
+Only full calibration → one-way realization is registered as a strength order.
+The persistence application is labelled a transcription of an open bridge;
+neither it nor the calibration independently warrants a philosophical input.
+
+`REVELATION-RECOGNITION-SCOPE-MODELS` checks six finite controls. The first has
+actual cut-off and capability together, with correct shared recognition in
+another admitted situation and persistence false. The next three show why
+realization, sharedness and an actual God witness cannot be dropped. Another
+separates one-way realization from full calibration. The last has correct
+recognition only outside the admitted subset, witnessing a substantive coverage
+gap. These reuse the original schema signature; they are not Christian
+histories, complete modal models or independent models of classical attributes.
+No source claim, author interpretation, real-world coverage or root premise is
+established by these conditional findings.

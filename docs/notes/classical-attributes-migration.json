@@ -129,12 +129,12 @@
       "path": "corpus/statements/excluded-middle.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
-      "finding": "Full ∀ p, p ∨ ¬p is an explicit retained hypothesis, not an implicit typeclass law. The proof uses equality instances. Usage does not show full excluded middle is logically necessary; a weaker identity-decidability migration is left to the next scope.",
+      "finding": "Reviewed scope metadata correction: object-level ExcludedMiddle declaration and legacy floor basis/justification remain unchanged. The serious withholding position targets universal assertion; exact analyst global negation remains an unrefuted logical rival. Disagreement metadata includes that complement. Focused actual-record regression prevents floor-removal from turning instance-denial refutation into proof of global EM.",
       "before": {
         "sha256": "279edc03ac8141e2a580cefd9c9998f4dd260565e154c5856b4735abdda3eaa8",
         "lean_declaration": "TruthCore.Logic.ExcludedMiddle"
       },
-      "reviewed_sha256": "279edc03ac8141e2a580cefd9c9998f4dd260565e154c5856b4735abdda3eaa8"
+      "reviewed_sha256": "852c967c753f4095ad19e84aa864325d4fcadda8c079b4e26da54e62110d46a8"
     },
     {
       "kind": "statements",
@@ -401,27 +401,27 @@
       "kind": "definitions",
       "id": "DEF-ACT",
       "path": "corpus/definitions/act.json",
-      "status": "inspected",
-      "classification": "intentional_abstraction",
-      "finding": "Inspected existing meaning and Lean binding where present. Retain this sense and its recorded source/stipulative limits; no equivalence with a merely similar relation is introduced. ",
+      "status": "repaired",
+      "classification": "reviewed_locator_clarification",
+      "finding": "Inspected existing meaning and Lean binding where present. Retain this sense and its recorded source/stipulative limits; no equivalence with a merely similar relation is introduced.  Follow-up #1110: reviewed the exact Lean signature against this metadata-only locator/scope clarification. Exact field/predicate locator TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel.InAct. Primitive interpretation and open premise status remain explicit; no source attribution, theorem type, structural law or premise truth changes.",
       "before": {
         "sha256": "8c6234dd02f06f7293da6dbb41bbd3c8b79f2a064582cccc942674f6dbd9a76f",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel"
       },
-      "reviewed_sha256": "8c6234dd02f06f7293da6dbb41bbd3c8b79f2a064582cccc942674f6dbd9a76f"
+      "reviewed_sha256": "fa3233138862a58e5260bd6496bec804720aafafde1b87b88b7468593df4411a"
     },
     {
       "kind": "definitions",
       "id": "DEF-CAUSE-OF-PERFECTION",
       "path": "corpus/definitions/cause-of-perfection.json",
-      "status": "inspected",
-      "classification": "reviewed_semantic_note",
-      "finding": "Inspected existing meaning and Lean binding where present. Retain this sense and its recorded source/stipulative limits; no equivalence with a merely similar relation is introduced.  Follow-up review for PR #732: the added causal-transfer note distinguishes originating, sustaining, primary/secondary responsibility, enablement and possession, and leaves universal esse scope distinct from God or firstness in every order. The original causal definition, sense separation, source claim links and Lean binding are unchanged; no structural law or premise truth is added. Exact source/interpretation boundaries and open applicability burdens: docs/notes/causal-perfection-transfer.md.",
+      "status": "repaired",
+      "classification": "reviewed_locator_clarification",
+      "finding": "Inspected existing meaning and Lean binding where present. Retain this sense and its recorded source/stipulative limits; no equivalence with a merely similar relation is introduced.  Follow-up review for PR #732: the added causal-transfer note distinguishes originating, sustaining, primary/secondary responsibility, enablement and possession, and leaves universal esse scope distinct from God or firstness in every order. The original causal definition, sense separation, source claim links and Lean binding are unchanged; no structural law or premise truth is added. Exact source/interpretation boundaries and open applicability burdens: docs/notes/causal-perfection-transfer.md. Follow-up #1110: reviewed the exact Lean signature against this metadata-only locator/scope clarification. The retained locator is explicitly classified as a usage/constraining premise or vocabulary-container anchor; exact primitive parameter/field locations are recorded in the definition note. Primitive interpretation and open premise status remain explicit; no source attribution, theorem type, structural law or premise truth changes.",
       "before": {
         "sha256": "14ec77a96530074043a3ce9795f02ce35e8a8fb43516a3a15870e56d488090e3",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.CausesAllInGenus"
       },
-      "reviewed_sha256": "bdf413862d893118f5deb587c905f927b71bc620cce8141e6716d39018e70313"
+      "reviewed_sha256": "b751dcbc61b550e3a176589605c0f9423471cbb380990a7e764666774d59cf46"
     },
     {
       "kind": "definitions",
@@ -454,14 +454,14 @@
       "kind": "definitions",
       "id": "DEF-ESSENCE-THOMISTIC-NATURE",
       "path": "corpus/definitions/essence-thomistic-nature.json",
-      "status": "inspected",
-      "classification": "intentional_abstraction",
-      "finding": "Inspected existing meaning and Lean binding where present. Retain this sense and its recorded source/stipulative limits; no equivalence with a merely similar relation is introduced. A terminological stipulation for the existing attribute records, checked against the materialized q.3 a.4 contrast of what a thing is with its esse. No new Lean essence predicate or identity proof is introduced; sourcing a general essence theory remains separate from this vocabulary link.",
+      "status": "repaired",
+      "classification": "reviewed_locator_clarification",
+      "finding": "Inspected existing meaning and Lean binding where present. Retain this sense and its recorded source/stipulative limits; no equivalence with a merely similar relation is introduced. A terminological stipulation for the existing attribute records, checked against the materialized q.3 a.4 contrast of what a thing is with its esse. No new Lean essence predicate or identity proof is introduced; sourcing a general essence theory remains separate from this vocabulary link. Follow-up #1110: reviewed the exact Lean signature against this metadata-only locator/scope clarification. Exact field/predicate locator TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article4.Profile.essenceOf. Primitive interpretation and open premise status remain explicit; no source attribution, theorem type, structural law or premise truth changes.",
       "before": {
         "sha256": "256b634683a261c9c539d84335321cf0a87c13bc43e28fc3ace8842898a8fc86",
         "lean_declaration": null
       },
-      "reviewed_sha256": "256b634683a261c9c539d84335321cf0a87c13bc43e28fc3ace8842898a8fc86"
+      "reviewed_sha256": "5057dfeabc0d63d565c1eb73a4cc499ce4c828bf87d3cd9782cd6308dba76354"
     },
     {
       "kind": "definitions",
@@ -480,27 +480,27 @@
       "kind": "definitions",
       "id": "DEF-GENUS-BROAD",
       "path": "corpus/definitions/genus-broad.json",
-      "status": "inspected",
-      "classification": "intentional_abstraction",
-      "finding": "Inspected existing meaning and Lean binding where present. Retain this sense and its recorded source/stipulative limits; no equivalence with a merely similar relation is introduced. ",
+      "status": "repaired",
+      "classification": "reviewed_locator_clarification",
+      "finding": "Inspected existing meaning and Lean binding where present. Retain this sense and its recorded source/stipulative limits; no equivalence with a merely similar relation is introduced.  Follow-up #1110: reviewed the exact Lean signature against this metadata-only locator/scope clarification. The retained locator is explicitly classified as a usage/constraining premise or vocabulary-container anchor; exact primitive parameter/field locations are recorded in the definition note. Primitive interpretation and open premise status remain explicit; no source attribution, theorem type, structural law or premise truth changes.",
       "before": {
         "sha256": "bd95fa3866e6359b6f802a4db8fb789cd2fe5ecc1137bf8431ae4ae48dbc9e7f",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MaximumInGenusCausesAllInGenusReading"
       },
-      "reviewed_sha256": "bd95fa3866e6359b6f802a4db8fb789cd2fe5ecc1137bf8431ae4ae48dbc9e7f"
+      "reviewed_sha256": "338b3360f23b2bd46acb2185415c3031c7ba3f2f7dde28da099be299cc212115"
     },
     {
       "kind": "definitions",
       "id": "DEF-GOD-OF-CLASSICAL-THEISM",
       "path": "corpus/definitions/god-of-classical-theism.json",
-      "status": "inspected",
-      "classification": "intentional_abstraction",
-      "finding": "Inspected existing meaning and Lean binding where present. Retain this sense and its recorded source/stipulative limits; no equivalence with a merely similar relation is introduced. Case vocabulary (TruthCore/Case/Catholicism/Root.lean), not a new proof that anything satisfies it. Dei Filius ch. 1 supplies the attribute list; the open bridge and its parameter mapping are explicit in DEF-CLASSICAL-ATTRIBUTES-BUNDLE. The linked sourced term definitions do not make the primitive IsGod or HasClassicalAttributes fields definitionally equivalent to their natural-language descriptions.",
+      "status": "repaired",
+      "classification": "reviewed_locator_clarification",
+      "finding": "Inspected existing meaning and Lean binding where present. Retain this sense and its recorded source/stipulative limits; no equivalence with a merely similar relation is introduced. Case vocabulary (TruthCore/Case/Catholicism/Root.lean), not a new proof that anything satisfies it. Dei Filius ch. 1 supplies the attribute list; the open bridge and its parameter mapping are explicit in DEF-CLASSICAL-ATTRIBUTES-BUNDLE. The linked sourced term definitions do not make the primitive IsGod or HasClassicalAttributes fields definitionally equivalent to their natural-language descriptions. Follow-up #1110: reviewed the exact Lean signature against this metadata-only locator/scope clarification. Exact field/predicate locator TruthCore.Case.Catholicism.Signature.IsGod. Primitive interpretation and open premise status remain explicit; no source attribution, theorem type, structural law or premise truth changes.",
       "before": {
         "sha256": "0db89c7e0f0c32183e391255225d564b1e855d0619058e3477ef4d18d6b2b43e",
         "lean_declaration": "TruthCore.Case.Catholicism.Signature"
       },
-      "reviewed_sha256": "0db89c7e0f0c32183e391255225d564b1e855d0619058e3477ef4d18d6b2b43e"
+      "reviewed_sha256": "e97f5e840cd41b6fcfb03b129e18a02647cf356493464fe230e6cf765fee60d1"
     },
     {
       "kind": "definitions",
@@ -598,40 +598,40 @@
       "kind": "definitions",
       "id": "DEF-MAXIME-ENS",
       "path": "corpus/definitions/maxime-ens.json",
-      "status": "inspected",
-      "classification": "intentional_abstraction",
-      "finding": "Uses exactly the same IsMaximumIn at esse. Uniqueness follows from genus and causal-ascent assumptions plus explicit logical choice, not from the name.",
+      "status": "repaired",
+      "classification": "reviewed_locator_clarification",
+      "finding": "Uses exactly the same IsMaximumIn at esse. Uniqueness follows from genus and causal-ascent assumptions plus explicit logical choice, not from the name. Follow-up #1110: reviewed the exact Lean signature against this metadata-only locator/scope clarification. Exact field/predicate locator TruthCore.Latin.Aquinas.SummaTheologiae.IsMaximalIn. Primitive interpretation and open premise status remain explicit; no source attribution, theorem type, structural law or premise truth changes.",
       "before": {
         "sha256": "234c126e4e7111fb3facbda59fb7a3b14fa51f502dd2fedac3b603e50523c907",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.IsMaximumIn"
       },
-      "reviewed_sha256": "234c126e4e7111fb3facbda59fb7a3b14fa51f502dd2fedac3b603e50523c907"
+      "reviewed_sha256": "9fa797455e69ff269e1a5ba5a91bf1a3ccf73a6002c8cf37a8d113af19ff35b9"
     },
     {
       "kind": "definitions",
       "id": "DEF-MAXIMUM-IN-A-PERFECTION",
       "path": "corpus/definitions/maximum-in-a-perfection.json",
-      "status": "inspected",
-      "classification": "intentional_abstraction",
-      "finding": "IsMaximumIn requires possession and no incoming MoreIn comparison. It is maximality, not greatness, totality or uniqueness. No order/typeclass laws enter this bundle.",
+      "status": "repaired",
+      "classification": "reviewed_locator_clarification",
+      "finding": "IsMaximumIn requires possession and no incoming MoreIn comparison. It is maximality, not greatness, totality or uniqueness. No order/typeclass laws enter this bundle. Follow-up #1110: reviewed the exact Lean signature against this metadata-only locator/scope clarification. Exact field/predicate locator TruthCore.Latin.Aquinas.SummaTheologiae.IsMaximalIn. Primitive interpretation and open premise status remain explicit; no source attribution, theorem type, structural law or premise truth changes.",
       "before": {
         "sha256": "91b4008b7bf95fac7aa469c0e1d442154d20848ff0ccc4d0850f1ec2ccb3f0c1",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.IsMaximumIn"
       },
-      "reviewed_sha256": "91b4008b7bf95fac7aa469c0e1d442154d20848ff0ccc4d0850f1ec2ccb3f0c1"
+      "reviewed_sha256": "25eff42451fa9bf6dbd03a5b8db927e73e81c60467d77e337ccc8568d94047e8"
     },
     {
       "kind": "definitions",
       "id": "DEF-MORE-IN",
       "path": "corpus/definitions/more-in.json",
-      "status": "unresolved",
-      "classification": "intentional_abstraction",
-      "finding": "Primitive comparison has no order laws. Mathlib linear-order strength evidence does not transfer to this predicate; no bridge is inferred from a related record.",
+      "status": "repaired",
+      "classification": "reviewed_locator_clarification",
+      "finding": "Primitive comparison has no order laws. Mathlib linear-order strength evidence does not transfer to this predicate; no bridge is inferred from a related record. Follow-up #1110: reviewed the exact Lean signature against this metadata-only locator/scope clarification. The retained locator is explicitly classified as a usage/constraining premise or vocabulary-container anchor; exact primitive parameter/field locations are recorded in the definition note. Primitive interpretation and open premise status remain explicit; no source attribution, theorem type, structural law or premise truth changes.",
       "before": {
         "sha256": "ff39de51f1edda6ed56962b715fab2cccce0ecf415a576ccb80c42cc869d4f6a",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GradesFoundInThingsReading"
       },
-      "reviewed_sha256": "ff39de51f1edda6ed56962b715fab2cccce0ecf415a576ccb80c42cc869d4f6a"
+      "reviewed_sha256": "3ff3133f23905d001015bf94732ef664f3a9b8c8dd412cc14d8ee4593597e3dc"
     },
     {
       "kind": "definitions",
@@ -663,14 +663,14 @@
       "kind": "definitions",
       "id": "DEF-RESPECT",
       "path": "corpus/definitions/respect.json",
-      "status": "inspected",
-      "classification": "intentional_abstraction",
-      "finding": "Inspected existing meaning and Lean binding where present. Retain this sense and its recorded source/stipulative limits; no equivalence with a merely similar relation is introduced. A modeling parameter of the prima via reconstruction (TruthCore/Latin/Aquinas/SummaTheologiae/PrimaPars/Question2/Article3.lean), kept abstract so that the formal results do not depend on what motus covers. The reading as perfection follows ST I q.4 a.1 (passage AQUINAS-ST-I-Q4-A1); no claim states it in this form yet.",
+      "status": "repaired",
+      "classification": "reviewed_locator_clarification",
+      "finding": "Inspected existing meaning and Lean binding where present. Retain this sense and its recorded source/stipulative limits; no equivalence with a merely similar relation is introduced. A modeling parameter of the prima via reconstruction (TruthCore/Latin/Aquinas/SummaTheologiae/PrimaPars/Question2/Article3.lean), kept abstract so that the formal results do not depend on what motus covers. The reading as perfection follows ST I q.4 a.1 (passage AQUINAS-ST-I-Q4-A1); no claim states it in this form yet. Follow-up #1110: reviewed the exact Lean signature against this metadata-only locator/scope clarification. Exact field/predicate locator TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel.Respect. Primitive interpretation and open premise status remain explicit; no source attribution, theorem type, structural law or premise truth changes.",
       "before": {
         "sha256": "2311bf6a4d5eae003aa035b80f4206ebda5655ba28555fb3cd15a26e2a094c4b",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel"
       },
-      "reviewed_sha256": "2311bf6a4d5eae003aa035b80f4206ebda5655ba28555fb3cd15a26e2a094c4b"
+      "reviewed_sha256": "a5b6b75e7b57e7b51ca066df7ce50b054095485a6c0f692a09ad6ffeb6cddf47"
     },
     {
       "kind": "definitions",

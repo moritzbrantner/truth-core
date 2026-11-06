@@ -1,0 +1,10 @@
+{
+  "id": "PROPER-GOD-EXISTENCE-REJECTS-PRACTICE-NO-REFERENCE",
+  "argument_id": "PROPER-GOD-EXISTENCE-REJECTS-PRACTICE-NO-REFERENCE",
+  "challenge_module": "TruthCore.Results.Alternatives.NameApplicationTransfer.Conflict.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.NameApplicationTransfer.Conflict.Solution",
+  "theorem": "TruthCore.Results.Alternatives.NameApplicationTransfer.Conflict.properExistenceRejectsNoBeing",
+  "comparator_config": "results/PROPER-GOD-EXISTENCE-REJECTS-PRACTICE-NO-REFERENCE/comparator.json",
+  "status": "solution-present",
+  "description": "Obtain an actual proper-God witness from the existing GodExists premise; transfer that very witness to practice reference, contradicting the raw practice no-reference thesis. Both existence and semantic transfer remain explicit and open."
+}

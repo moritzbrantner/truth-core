@@ -1,0 +1,23 @@
+{
+  "id": "DESCRIPTIVE-GRAMMAR-SUPPLIES-THEOLOGICAL-CONTENT",
+  "premise_statement_ids": [
+    "STMT-DESCRIPTIVE-THEOLOGY-AND-RELIGIOUS-GRAMMAR"
+  ],
+  "conclusion_statement_id": "STMT-CONCILIAR-DEFINITIONS-ARE-THEOLOGICAL",
+  "inference_ids": [
+    "INF-DESCRIPTIVE-GRAMMAR-SUPPLIES-THEOLOGICAL-CONTENT"
+  ],
+  "meaning": "Project the theological-content component of the modest descriptive profile. Assembly transcription/sole-premise strength; the normative exclusion is still separate.",
+  "definition_ids": [
+    "DEF-THEOLOGICAL-CONTENT-AND-RELIGIOUS-LIFE-ROLES",
+    "DEF-CONCILIAR-DEFINITION",
+    "DEF-PRACTICE-OWN-STANDARD",
+    "DEF-CORRECT-MOVE-IN-PRACTICE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THEOLOGICAL-FORMULATION-AND-NORMATIVE-GRAMMAR"
+  ],
+  "strong_version_needed": {
+    "STMT-DESCRIPTIVE-THEOLOGY-AND-RELIGIOUS-GRAMMAR": "This certificate registers the sole-premise strong-to-weak projection; consequence arguments use only the needed weak component."
+  }
+}

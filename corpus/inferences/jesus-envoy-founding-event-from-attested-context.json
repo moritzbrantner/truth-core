@@ -1,0 +1,18 @@
+{
+  "id": "INF-JESUS-ENVOY-FOUNDING-EVENT-FROM-ATTESTED-CONTEXT",
+  "input_statement_ids": [
+    "STMT-GOD-EXISTS",
+    "STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES",
+    "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE",
+    "STMT-JESUS-CLAIMED-DIVINE-AUTHORITY-AND-ROSE",
+    "STMT-CHRIST-FOUNDED-VISIBLE-CHURCH",
+    "STMT-RESURRECTION-CONFIRMS-JESUS-MANDATE",
+    "STMT-GOD-CONFIRMS-ONLY-TRUTH",
+    "STMT-MANDATE-COVERS-JESUS-FOUNDING-WITH-TEACHING"
+  ],
+  "output_statement_id": "STMT-JESUS-ENVOY-TEACHING-FOUNDING-EVENT-EXISTS",
+  "rule": "constructive-proof",
+  "meaning": "Compose the case\u2019s existing God and visible-society witnesses with attestation, veracity and scope: obtain a held mandate and then the commissioned founding event. This supplies the nonvacuity condition conditionally without inventing a new historical premise. It does not assume or derive the envoy-to-principal bridge.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

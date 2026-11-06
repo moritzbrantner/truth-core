@@ -1,0 +1,10 @@
+{
+  "id": "EXPLANATORY-ORDER-RIVAL-CONTROLS",
+  "argument_id": "EXPLANATORY-ORDER-RIVAL-CONTROLS",
+  "challenge_module": "TruthCore.Results.Metaethics.ExplanationRivalBoundary.Controls.Challenge",
+  "solution_module": "TruthCore.Results.Metaethics.ExplanationRivalBoundary.Controls.Solution",
+  "theorem": "TruthCore.Results.Metaethics.ExplanationRivalBoundary.Controls.controls",
+  "comparator_config": "results/EXPLANATORY-ORDER-RIVAL-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Exact populated-both, empty-both and populated-neither controls retain asymmetry status and moral witnesses. They block inferring preferred order merely by refuting a stronger raw account."
+}

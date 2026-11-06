@@ -13,3 +13,11 @@ public import TruthCore.Results.Ontology.Naturalism.RefutesN2.Solution
 public import TruthCore.Results.Ontology.Naturalism.RefutesN3.Solution
 public import TruthCore.Results.Ontology.Naturalism.RefutesN3i.Solution
 public import TruthCore.Results.Ontology.Naturalism.Survivor.Solution
+public import TruthCore.Results.Ontology.UniverseCauseScopeBoundary.AbsentFailure.Solution
+public import TruthCore.Results.Ontology.UniverseCauseScopeBoundary.AbsentProjection.Solution
+public import TruthCore.Results.Ontology.UniverseCauseScopeBoundary.ActualityStrength.Solution
+public import TruthCore.Results.Ontology.UniverseCauseScopeBoundary.Controls.Solution
+public import TruthCore.Results.Ontology.UniverseCauseScopeBoundary.Coverage.Solution
+public import TruthCore.Results.Ontology.UniverseCauseScopeBoundary.ExistingCause.Solution
+public import TruthCore.Results.Ontology.UniverseCauseScopeBoundary.GuardedCoverage.Solution
+public import TruthCore.Results.Ontology.UniverseCauseScopeBoundary.UncausedStrength.Solution

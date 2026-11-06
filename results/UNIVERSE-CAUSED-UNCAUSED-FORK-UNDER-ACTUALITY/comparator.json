@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.GuardedCoverage.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.GuardedCoverage.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.GuardedCoverage.guardedCoverage"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

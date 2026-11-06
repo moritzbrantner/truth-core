@@ -1,0 +1,11 @@
+{
+  "id": "RECOGNITION-REALIZATION-FROM-CANDIDATE-COVERAGE",
+  "argument_id": "RECOGNITION-REALIZATION-FROM-CANDIDATE-COVERAGE",
+  "challenge_module": "TruthCore.Results.Alternatives.RevelationRecognition.Realization.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.RevelationRecognition.Realization.Solution",
+  "theorem": "TruthCore.Results.Alternatives.RevelationRecognition.Realization.realizationFromCandidateCoverage",
+  "comparator_config": "results/RECOGNITION-REALIZATION-FROM-CANDIDATE-COVERAGE/comparator.json",
+  "status": "solution-present",
+  "description": "Assembly transcription: candidate recognition supplies a witness and the explicit admitted-subset coverage premise supplies an admitted witness. Both coverage of the selected carrier and its applicability stay open.",
+  "transcription": "assembly"
+}

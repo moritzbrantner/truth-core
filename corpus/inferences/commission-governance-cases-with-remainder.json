@@ -1,0 +1,11 @@
+{
+  "id": "INF-COMMISSION-GOVERNANCE-CASES-WITH-REMAINDER",
+  "input_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "output_statement_id": "STMT-COMMISSION-GOVERNANCE-CRITERION-CASES",
+  "rule": "constructive-proof",
+  "meaning": "Two explicit EM instances check narrow, teaching-inclusive or neither calibration. Named-only coverage is not established, and no census beyond the existing nine-power profile is claimed.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
