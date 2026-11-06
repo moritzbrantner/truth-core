@@ -303,3 +303,19 @@ modal/causal assumptions remain open. The existing modal decomposition theorem
 is untouched; its overlap-extensional premise is not independently discharged
 by conditional framework exploration. The successful attempt is recorded in
 `corpus/attempts/supplementation-fusion-1050.json`.
+
+
+PR #1052 explorer-only repair: CI run 42133243925 passed corpus/Lean but the
+all-statement source-location test rejected the new raw core binding `Nonempty`.
+The narrow source-index diagnostic identified only `STMT-INHABITED-CARRIER`;
+this was not a wrong declaration or a Lean parsing/type/proof failure. The
+installed pinned Lean4.35.0 source declares `class inductive Nonempty` at
+`src/Init/Prelude.lean:839`. The explorer's existing inspected-core location
+mechanism now links that exact release/path/line, alongside `WellFounded`;
+unknown toolchains still receive no guessed location. A focused regression and
+the original statement-resolution test both reproduced red before the fix;
+all 9 source/site-state tests, TypeScript checking and focused lint pass after
+the fix. No Challenge, theorem, vocabulary, corpus binding or proof input
+changed, so the successful binding/Comparator/NanoDa evidence above is reused.
+Final-head CI and current-head review remain required. This adds navigation
+metadata, not a philosophical source record or verification authority.
