@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Ontology.NaturalismContrasts.Exclusion.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.NaturalismContrasts.Exclusion.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Ontology.NaturalismContrasts.Exclusion.noExistingSimpleRemote"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

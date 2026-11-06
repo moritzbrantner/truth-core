@@ -1,0 +1,10 @@
+{
+  "id": "NATURALISM-MEREOLOGICAL-CONTRAST-CONTROLS",
+  "argument_id": "NATURALISM-MEREOLOGICAL-CONTRAST-CONTROLS",
+  "challenge_module": "TruthCore.Results.Ontology.NaturalismContrasts.Controls.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.NaturalismContrasts.Controls.Solution",
+  "theorem": "TruthCore.Results.Ontology.NaturalismContrasts.Controls.contrastControls",
+  "comparator_config": "results/NATURALISM-MEREOLOGICAL-CONTRAST-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Explicit populated controls export the satisfiable four-premise background and the matching missing-premise scenarios. One located existing self-part whole is simple and remote with no second existent. Component/dictionary omissions preserve all remaining hypotheses and a simple remote existent. The part-N1 omission additionally retains occupant N1. Another occupant-N1 profile has an absent unlocated whole with an existing located candidate. Controls are formal interface witnesses, not complete metaphysical worldviews, independent premise truth, cardinality claims or counted defeats."
+}

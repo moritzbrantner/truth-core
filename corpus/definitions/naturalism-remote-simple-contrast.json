@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NATURALISM-REMOTE-SIMPLE-CONTRAST",
+  "term": "existing simple remote being and distinct population",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Ontology.NaturalismContrasts.ExistingSimpleRemote",
+  "definition": "ExistingSimpleRemote o ComponentOf Composite w := \u2203 g, ExistsAt w g \u2227 Case.IsSimple Composite g \u2227 Case.RemoteFromAll ComponentOf g. TwoExist := \u2203 x y, ExistsAt w x \u2227 ExistsAt w y \u2227 x \u2260 y. RemoteSimplePopulationConstraint says the first excludes the second. NoExistingSimpleRemote negates the first. The negative proof is constructive and obtains no positive equality from double-negated identity. Scenario glues the existing Ontic/Frame/ComponentOf/Composite/world fields; PartBackground is exactly N1 in the part sense plus the two selected-world dictionary bridges and TwoExist.",
+  "note": "These are analyst comparison propositions, not a definition of God or a source claim. RemoteFromAll is exactly the case's exclusion from every composition and IsSimple exactly its \u00acComposite predicate. The naming leaf is one-way: conditions imply God; it cannot be contraposed from denial of some conditions to denial of the implication. The theorem excludes an existent with the specified necessary properties under its explicit inputs, without assuming that every use of God has those properties. The sole-existing-whole control retains existence, location, self-parthood, simplicity and remoteness in its exported type; it is not a complete physicalist or theistic theory. No unused causal or geometric model field supplies philosophical evidence."
+}

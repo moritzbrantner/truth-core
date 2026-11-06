@@ -1,0 +1,23 @@
+{
+  "id": "STMT-TWO-BEINGS-EXIST-AT",
+  "paraphrase": "At the selected world there are two numerically distinct existing candidate beings. It is not asserted as a new floor item.",
+  "lean_declaration": "TruthCore.Ontology.NaturalismContrasts.TwoExist",
+  "definition_ids": [
+    "DEF-NATURALISM-N1",
+    "DEF-SPATIOTEMPORAL-FRAME",
+    "DEF-PART-OF-SPACETIME",
+    "DEF-SPATIOTEMPORAL-LOCATED",
+    "DEF-COMPOSITION-COMPONENT",
+    "DEF-REMOTE-FROM-ALL",
+    "DEF-SIMPLE",
+    "DEF-EXISTING-SPACETIME-PART-COMPONENT-BRIDGE",
+    "DEF-EXISTING-SPACETIME-COMPONENT-COMPOSITE-BRIDGE",
+    "DEF-NATURALISM-REMOTE-SIMPLE-CONTRAST",
+    "DEF-SPACETIME-WHOLE-OCCUPATION-SCOPE",
+    "DEF-KANT-ONTOLOGICAL-MODEL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SPATIOTEMPORAL",
+    "DISAMB-SPACETIME-PART-AND-COMPOSITION"
+  ]
+}

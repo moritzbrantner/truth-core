@@ -18,8 +18,10 @@ complete worldview, in the format of `docs/showcase-verificationism.md`.
 
 The vocabulary is in `TruthCore/Ontology/Spatiotemporal.lean`,
 `TruthCore/Ontology/Naturalism.lean` and
-`TruthCore/Ontology/NaturalismConsequences.lean`. The results are in
-`TruthCore/Results/Ontology/Naturalism/`.
+`TruthCore/Ontology/NaturalismConsequences.lean`. The additional mereological
+contrasts are in `TruthCore/Ontology/NaturalismContrasts.lean`, with results in
+`TruthCore/Results/Ontology/NaturalismContrasts/`; the caused-universe results
+remain in `TruthCore/Results/Ontology/Naturalism/`.
 
 - **Axioms:** none. Every result is zero-axiom and constructive.
 
@@ -35,7 +37,9 @@ property with three senses, kept apart in `DISAMB-SPATIOTEMPORAL`:
 | part of spacetime | `PartOfSpacetime F x` | x is a part of the spacetime whole, improper parthood allowed |
 
 `SPATIOTEMPORAL-INDEPENDENT-OF-CONCRETE` (premise-free) is a four-candidate
-model, anchored with the reasoner concrete and the set of 2 abstract. In it,
+model, anchored with the reasoner concrete and the singleton-set candidate
+`{2}` abstract. That anchor is not the number `2` and licenses no universal
+claim about all numbers or all pure sets. In the model,
 every combination of concrete or abstract with spatiotemporal or not occurs,
 in each of the three senses. So no sense follows from concreteness or implies
 it.
@@ -49,7 +53,7 @@ applying its power (q.52 a.1). Neither is occupation, so this God is not
 
 | Worldview | concrete, spatiotemporal | concrete, not spatiotemporal | abstract, not spatiotemporal |
 |---|---|---|---|
-| Thomism | bodies, composite substances | God, angels, separated souls (`STMT-SOME-CONCRETE-BEING-NOT-SPATIOTEMPORAL`) | numbers and universals, with esse only in the intellect |
+| Thomist working profile | bodies, composite substances | God, angels, separated souls (`STMT-SOME-CONCRETE-BEING-NOT-SPATIOTEMPORAL`) | numbers/universals with esse only in the intellect on this working reading; historical orientation, attribution deferred, not derived from the `{2}` anchor |
 | N1 (Armstrong, as reported) | everything that exists | excluded | excluded from existence |
 | N2 | allowed | excluded | allowed |
 | N3, spatiotemporal instance (analyst's) | allowed | allowed only if it has no causal power | allowed |
@@ -189,7 +193,8 @@ The strong conclusion is recorded as its own statement,
 
 The survivor model jointly satisfies all of the following:
 
-- the anchors (the reasoner exists; the set of 2 does not);
+- the anchors (the reasoner exists; the designated singleton-set `{2}`
+  candidate does not exist in re);
 - the #1113 bridge;
 - N1 in all three senses, and N2, N3 and N3i;
 - the weak causal-concreteness floor item, the exercise-to-power reading, the
@@ -215,19 +220,92 @@ show that denying the bridge requires a loop.
 - the PSR records under `DISAMB-PSR-EXPLANATION-CAUSE`;
 - Oppy's epistemic objection `STMT-EMPIRICAL-KNOWLEDGE-NO-REASON-UNIVERSE-CAUSED`.
 
-## 4. The other consequences: status
+## 4. The other consequences: encoded contrasts and remaining work
 
-These are not yet encoded. They are the remaining work of #1109, recorded here
-so that nothing is lost.
+The part/simplicity/remoteness contrast and the whole-occupation scope are now
+encoded below. Laws, mathematics and the additional logic/epistemic interfaces
+remain work of #1109; they are not silently replaced by these narrower tests.
 
 | Consequence | Expected encoding | Expected status |
 |---|---|---|
-| Laws (Lewis regularity / Armstrong universals / powers) | A derived-location rule: an immanent universal or power is located where an instance or bearer is. Under N1 (occupant sense) every existing universal, including a law N(F,G), is instantiated (Armstrong's instantiation principle). Lewis laws are not entities, so they are no constraint. | No defeat. Tooley-style uninstantiated laws bite only with an open premise. |
-| Spacetime itself (self-application) | N1 + "the whole occupies no region" ⊢ the whole does not exist (relationalism forced). The survivor model already certifies the supersubstantivalist escape: the whole exists, is located and is an improper part of itself. | No defeat. |
+| Laws (Lewis regularity / Armstrong universals / powers) | Still unencoded: separate law-as-description from reified universals/powers and state the exact location criterion. N1 yields instantiation only with a located-universal→instance bridge or definition; an instance→location rule alone does not suffice. | No defeat. Instantiation and Tooley-style uninstantiated-law contrasts need their explicit semantic bridges. |
+| Spacetime itself (self-application) | `NATURALISM-WHOLE-OCCUPATION-BOUNDARY`: occupant N1 + "the selected whole occupies no region" ⊢ the selected whole does not exist there. This is a logical transcription/instantiation, not a complete relationalism theorem. The new controls retain both the located existing self-part whole and an unlocated absent whole with another existing located candidate. | No defeat. Located-whole and absent-whole profiles remain distinguished. |
 | Logic (F1, excluded middle) | F1 is premise-free in Lean, and excluded middle is about all propositions. Neither constrains the domain, so no consistent variant contradicts them. Murphy 2021 (pinned) offers the naturalist account of necessary truths without truthmakers ("knowledgemaker maximalism"). | No defeat; at most an explanatory burden (D-I). |
-| Mathematics (Quine/Putnam vs Field) | With location by members, every hereditarily pure set is unlocated (induction on membership), so N1 (occupant sense) ⊢ no pure set exists, against indispensability realism. Field's nominalism is the consistent escape. Under the owner's #1113 bridge and the anchor "{2} is abstract", the number does not exist in re for the Thomist either. | No defeat. Thomism and Field agree that numbers lack esse in re. |
+| Mathematics (Quine/Putnam vs Field) | Still unencoded: use an actual mathematical set/membership profile and a location→located-member support clause to investigate pure-set unlocation by well-founded induction. A merely positive member→set propagation rule is insufficient. Reification/existence and nominalist representation need separate explicit clauses. The #1113 bridge plus abstract anchor concern the designated `{2}` candidate only, not the number `2`, all numbers or all pure sets. | No defeat or new nominalism certificate in this batch. |
 | Epistemic reasons (F6) | Covered by the survivor model: F6 holds with spatiotemporal reasoners. The retorsion bites only if reasons are non-spatiotemporal normative facts, which is open. | No defeat. |
-| God | N1 (part sense) + "proper parts of spacetime are components" + a second existent ⊢ no existent is both remote from all (`Case.Catholicism.RemoteFromAll`, the God-naming leaf's clause) and simple. So under N1 the God of the naming leaf does not exist, unless God is the whole, which is not simple. | A rival to the existence of what the leaf describes, not to the naming leaf itself. Hence no `alternative_to` on the leaf and no cost change. |
+| God contrast | `NATURALISM-PART-REMOTE-SIMPLE-EXCLUSION`: N1 in the part sense + existing proper parts→components + existing proper components→whole composite + two distinct existents ⊢ no existing simple remote-from-all candidate, using the same `Case.RemoteFromAll`/`IsSimple` dictionary. | Conditional necessary-property exclusion, not negation of a naming implication or a counted defeat. No `alternative_to` on the naming leaf and no route change. |
+
+
+### 4.1 The part-naturalism contrast and its exact bridges
+
+The original expected argument left a dictionary step implicit. The Case API
+supplies `ComponentOf` and `Composite` separately. Its existing
+`CompositeHasComponentOtherThanItselfReading` says a composite has a component;
+it does not license the converse. The new weak, selected-world propositions are:
+
+- `STMT-EXISTING-SPACETIME-PROPER-PARTS-ARE-COMPONENTS`: an **existing** proper
+  part of this selected whole is a component of that same whole.
+- `STMT-EXISTING-SPACETIME-COMPONENTS-MAKE-WHOLE-COMPOSITE`: an **existing**
+  component distinct from this selected whole makes that same whole composite.
+- `STMT-TWO-BEINGS-EXIST-AT`: two numerically distinct candidates exist at the
+  selected world. This is an explicit premise, not a new floor item.
+
+`NATURALISM-REMOTE-SIMPLE-POPULATION` combines part N1 with the two dictionary
+bridges. If a simple remote being exists, there cannot be a distinct pair of
+existents. Remoteness excludes the candidate's being a proper part of the
+whole. If the whole were composite, candidate simplicity would exclude its
+identity with the whole, contradicting that remoteness. A distinct pair then
+contradicts the resulting absence of existing proper components. The proof is
+constructive: it does not replace double-negated identity by positive equality,
+assume excluded middle, or independently assert that the whole exists.
+
+`NATURALISM-PART-REMOTE-SIMPLE-EXCLUSION` composes that checked constraint with
+the distinct-pair premise. Its conclusion is exactly
+`NoExistingSimpleRemote`: absence of an existing candidate having those two
+specified properties under the shared dictionary. The full God-naming premise
+runs **from** a fuller description **to** God. Denying conditions in its
+antecedent does not refute that implication, nor supply a converse from every
+God predicate to the description. Applying the result to an actual God claim
+requires the intended same-dictionary characterization and population inputs.
+No reverse naming bridge or naturalist rival on the naming leaf is added.
+Only the stated N1 instances are tested here. N2 needs its own concreteness
+inputs, N3 its causal-power inputs, and N3i its interaction inputs; none is
+silently substituted, and physical is not identified with spatiotemporal.
+
+The occupant sibling `NATURALISM-OCCUPANT-REMOTE-SIMPLE-EXCLUSION` reuses
+`STMT-THESIS-CONTAINED-IN-SPACETIME` with `P = Located F`. Occupant N1 plus that
+explicit containment premise supplies part N1, after which the same checked
+exclusion applies. Without containment, occupation and part membership remain
+separate; the control below certifies that limit. It is not a physically
+faithful counterexample to a location→part criterion that has already been
+adopted.
+
+### 4.2 What the populated controls preserve
+
+`NATURALISM-MEREOLOGICAL-CONTRAST-CONTROLS` exports all the properties below;
+they are not incidental facts hidden in its implementation:
+
+| Control | Retained properties |
+| --- | --- |
+| Full background | Part N1, both dictionary bridges and a distinct pair jointly hold; no existing simple remote candidate does. The input bundle is satisfiable. |
+| No distinct pair | Both bridges and part N1 hold; an existing, located, self-part whole is simple and remote; occupant N1 also holds. Thus the whole is not declared nonsimple merely by being a whole. |
+| No component→composite bridge | Part N1, part→component and the distinct pair hold, with an existing simple remote candidate. The omitted dictionary condition is explicitly false. |
+| No part→component bridge | Part N1, component→composite and the distinct pair hold, with an existing simple remote candidate. The omitted condition is explicitly false. |
+| No part N1 | Both bridges, the distinct pair and an existing simple remote candidate hold; occupant N1 holds while part N1 is false. Occupation is not silently identified with parthood. |
+| Unlocated absent whole | Occupant N1 holds, the whole is unlocated and absent, and a different existing candidate is located. This is a scoped relationalist-style profile, not a complete theory of spacetime. |
+
+The component-without-composition control exposes the **formal API gap**; it is
+outside the intended reading of an intrinsic proper composition component, not
+a claim that a metaphysically faithful component dictionary has no composition.
+The other omissions likewise test exact hypotheses, not complete historical
+worldviews. The only-existing-whole profile does not claim compatibility with
+all causal, change or epistemic floor commitments; the earlier survivor remains
+the authority for its own, different joint floor profile.
+
+The one location region may stand for the whole spacetime region. Locating the
+whole there requires no external surrounding space and is distinct from
+presence by power. These controls add no source attribution, grounding/causal
+principle, geometry, or real-world possibility claim.
 
 ## 5. Status summary
 
@@ -240,6 +318,11 @@ so that nothing is lost.
 | `CAUSED-UNIVERSE-REFUTES-N1/N2/N3/N3-INTERACTION` | N1, N2, N3, N3i | conditional refutations, **not counted** |
 | `NATURALIST-UNCAUSED-UNIVERSE-SURVIVOR` | brute and regress escapes | premise-free joint model |
 | `CAUSAL-LOOP-REJECTS-BRIDGE` | loop escape | premise-free joint model |
+| `NATURALISM-REMOTE-SIMPLE-POPULATION` | part N1 and simple/remoteness dictionary | constructive conditional population constraint |
+| `NATURALISM-PART-REMOTE-SIMPLE-EXCLUSION` | existing simple remote candidate | conditional on part N1, both bridges and a distinct pair |
+| `NATURALISM-OCCUPANT-REMOTE-SIMPLE-EXCLUSION` | occupant-to-part transport | same exclusion, with explicit existing thesis containment |
+| `NATURALISM-WHOLE-OCCUPATION-BOUNDARY` | unlocated whole under occupant N1 | logical transcription/instantiation |
+| `NATURALISM-MEREOLOGICAL-CONTRAST-CONTROLS` | populated and omitted-input profiles | explicit scoped model controls |
 
 **What is defeated:** nothing counts.
 

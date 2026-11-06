@@ -1,0 +1,23 @@
+{
+  "id": "STMT-EXISTING-SPACETIME-PROPER-PARTS-ARE-COMPONENTS",
+  "paraphrase": "Open selected-world bridge: every existing proper part of the selected spacetime whole is a component of that same whole. This does not identify occupation, mere set membership and componenthood globally.",
+  "lean_declaration": "TruthCore.Ontology.NaturalismContrasts.ExistingProperPartsAreComponents",
+  "definition_ids": [
+    "DEF-NATURALISM-N1",
+    "DEF-SPATIOTEMPORAL-FRAME",
+    "DEF-PART-OF-SPACETIME",
+    "DEF-SPATIOTEMPORAL-LOCATED",
+    "DEF-COMPOSITION-COMPONENT",
+    "DEF-REMOTE-FROM-ALL",
+    "DEF-SIMPLE",
+    "DEF-EXISTING-SPACETIME-PART-COMPONENT-BRIDGE",
+    "DEF-EXISTING-SPACETIME-COMPONENT-COMPOSITE-BRIDGE",
+    "DEF-NATURALISM-REMOTE-SIMPLE-CONTRAST",
+    "DEF-SPACETIME-WHOLE-OCCUPATION-SCOPE",
+    "DEF-KANT-ONTOLOGICAL-MODEL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SPATIOTEMPORAL",
+    "DISAMB-SPACETIME-PART-AND-COMPOSITION"
+  ]
+}

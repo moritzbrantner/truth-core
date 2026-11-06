@@ -1,0 +1,13 @@
+{
+  "id": "INF-NATURALISM-REMOTE-SIMPLE-POPULATION",
+  "input_statement_ids": [
+    "STMT-NATURALISM-N1",
+    "STMT-EXISTING-SPACETIME-PROPER-PARTS-ARE-COMPONENTS",
+    "STMT-EXISTING-SPACETIME-COMPONENTS-MAKE-WHOLE-COMPOSITE"
+  ],
+  "output_statement_id": "STMT-REMOTE-SIMPLE-POPULATION-CONSTRAINT",
+  "rule": "constructive-proof",
+  "meaning": "Under part N1 and the two explicit selected-world dictionary bridges, an existing simple remote being excludes a numerically distinct pair of existents. Remoteness rules out its proper-part status; simplicity then transfers negatively to the whole, which cannot have an existing proper component. A proposed distinct pair yields incompatible double-negated identities with the same whole. No excluded middle, positive identity conclusion or actual whole-existence assertion is used.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

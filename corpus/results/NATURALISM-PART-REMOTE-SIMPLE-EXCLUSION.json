@@ -1,0 +1,10 @@
+{
+  "id": "NATURALISM-PART-REMOTE-SIMPLE-EXCLUSION",
+  "argument_id": "NATURALISM-PART-REMOTE-SIMPLE-EXCLUSION",
+  "challenge_module": "TruthCore.Results.Ontology.NaturalismContrasts.Exclusion.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.NaturalismContrasts.Exclusion.Solution",
+  "theorem": "TruthCore.Results.Ontology.NaturalismContrasts.Exclusion.noExistingSimpleRemote",
+  "comparator_config": "results/NATURALISM-PART-REMOTE-SIMPLE-EXCLUSION/comparator.json",
+  "status": "solution-present",
+  "description": "Compose the checked constructive population constraint with the explicit distinct-pair premise. The conclusion denies an existing candidate with the same Case simplicity/remoteness properties, not the truth of a God-naming implication or every interpretation of God. All worldview, dictionary and population premises remain open."
+}

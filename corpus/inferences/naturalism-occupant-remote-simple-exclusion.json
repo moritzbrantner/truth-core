@@ -1,0 +1,15 @@
+{
+  "id": "INF-NATURALISM-OCCUPANT-REMOTE-SIMPLE-EXCLUSION",
+  "input_statement_ids": [
+    "STMT-NATURALISM-N1",
+    "STMT-THESIS-CONTAINED-IN-SPACETIME",
+    "STMT-EXISTING-SPACETIME-PROPER-PARTS-ARE-COMPONENTS",
+    "STMT-EXISTING-SPACETIME-COMPONENTS-MAKE-WHOLE-COMPOSITE",
+    "STMT-TWO-BEINGS-EXIST-AT"
+  ],
+  "output_statement_id": "STMT-NO-EXISTING-SIMPLE-REMOTE-BEING",
+  "rule": "constructive-proof",
+  "meaning": "Compose the checked part-based exclusion with the existing thesis-containment bridge instantiated at Located F: occupant N1 makes every existing candidate located; containment makes it a part of the same selected spacetime whole. The two component/composite bridges and distinct population then exclude an existing simple remote candidate under the shared Case dictionary. Without containment, the exported controls show occupant N1 can survive failed part N1. No inference from physical to spatiotemporal or from a naming implication to God-characterization is added.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

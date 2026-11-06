@@ -1,0 +1,11 @@
+{
+  "id": "NATURALISM-WHOLE-OCCUPATION-BOUNDARY",
+  "argument_id": "NATURALISM-WHOLE-OCCUPATION-BOUNDARY",
+  "challenge_module": "TruthCore.Results.Ontology.NaturalismContrasts.WholeOccupation.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.NaturalismContrasts.WholeOccupation.Solution",
+  "theorem": "TruthCore.Results.Ontology.NaturalismContrasts.WholeOccupation.wholeOccupationBoundary",
+  "comparator_config": "results/NATURALISM-WHOLE-OCCUPATION-BOUNDARY/comparator.json",
+  "status": "solution-present",
+  "description": "Logical transcription/instantiation of occupant N1 at the selected whole: if the whole occupies no region it does not exist at that world. This scope consequence does not establish relationalism or refute the located-whole escape.",
+  "transcription": "instantiation"
+}

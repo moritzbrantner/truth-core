@@ -1,0 +1,8 @@
+{
+  "id": "DEF-EXISTING-SPACETIME-PART-COMPONENT-BRIDGE",
+  "term": "existing proper spacetime part as composition component",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Ontology.NaturalismContrasts.ExistingProperPartsAreComponents",
+  "definition": "ExistingProperPartsAreComponents o F ComponentOf w := \u2200 x, o.ExistsAt w x \u2192 PartOfSpacetime F x \u2192 x \u2260 F.whole \u2192 ComponentOf x F.whole. It concerns only existing proper parts of this selected whole at this selected world, reusing the same Being domain and component relation as Case.RemoteFromAll. No all-worlds or all-containers bridge is imposed.",
+  "note": "Analyst framework proposition, attribution deferred. An ordinary proper constituent such as an arm/body illustrates a part-to-composition mapping; belonging to a set, occupying a region, or being present by power does not itself supply it. Its metaphysical application to spacetime proper parts is OPEN: the Frame relation is unconstrained and may encode broader inclusion than intrinsic matter/form or quantitative composition. No new transitivity, asymmetry, well-foundedness or causal property is assumed. The absent-bridge control witnesses the formal API gap, not entitlement to call an incompatible component sense metaphysically correct. See docs/showcase-naturalism.md \u00a74."
+}
