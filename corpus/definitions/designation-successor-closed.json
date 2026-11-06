@@ -1,0 +1,8 @@
+{
+  "id": "DEF-DESIGNATION-SUCCESSOR-CLOSED",
+  "term": "successor-closed designation policy",
+  "definition": "Every successor of every admitted actuality choice is another admitted actuality choice, on one fixed frame and ontology. Admission is a semantic restriction, not existence of a world in reality. Empty admission is allowed.",
+  "basis": "stipulative",
+  "note": "Analyst formulation for issue #1049. Neither naming/context policy nor metaphysical applicability is defended. SEP Modal Logic §§10/16 is navigation only; attribution deferred. No new modal calculus or reality claim.",
+  "lean_declaration": "TruthCore.Modal.DesignatedValidity.SuccessorClosed"
+}

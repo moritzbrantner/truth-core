@@ -16,6 +16,8 @@ import TruthCore.Modal.DResearch.Laws
 import TruthCore.Modal.DResearch.Scopes
 import TruthCore.Modal.DResearch.Witnesses
 import TruthCore.Modal.DeonticFutureBoundary
+import TruthCore.Modal.DesignatedValidity
+import TruthCore.Modal.DesignatedValidityCertificate
 import TruthCore.Modal.Examples
 import TruthCore.Modal.ExistenceDegreeAttainment
 import TruthCore.Modal.ExistenceDegrees
