@@ -1,0 +1,34 @@
+{
+  "id": "NATURALISM-REMOTE-SIMPLE-POPULATION",
+  "premise_statement_ids": [
+    "STMT-NATURALISM-N1",
+    "STMT-EXISTING-SPACETIME-PROPER-PARTS-ARE-COMPONENTS",
+    "STMT-EXISTING-SPACETIME-COMPONENTS-MAKE-WHOLE-COMPOSITE"
+  ],
+  "conclusion_statement_id": "STMT-REMOTE-SIMPLE-POPULATION-CONSTRAINT",
+  "inference_ids": [
+    "INF-NATURALISM-REMOTE-SIMPLE-POPULATION"
+  ],
+  "meaning": "Under part N1 and the two explicit selected-world dictionary bridges, an existing simple remote being excludes a numerically distinct pair of existents. Remoteness rules out its proper-part status; simplicity then transfers negatively to the whole, which cannot have an existing proper component. A proposed distinct pair yields incompatible double-negated identities with the same whole. No excluded middle, positive identity conclusion or actual whole-existence assertion is used.",
+  "definition_ids": [
+    "DEF-NATURALISM-N1",
+    "DEF-SPATIOTEMPORAL-FRAME",
+    "DEF-PART-OF-SPACETIME",
+    "DEF-SPATIOTEMPORAL-LOCATED",
+    "DEF-COMPOSITION-COMPONENT",
+    "DEF-REMOTE-FROM-ALL",
+    "DEF-SIMPLE",
+    "DEF-EXISTING-SPACETIME-PART-COMPONENT-BRIDGE",
+    "DEF-EXISTING-SPACETIME-COMPONENT-COMPOSITE-BRIDGE",
+    "DEF-NATURALISM-REMOTE-SIMPLE-CONTRAST",
+    "DEF-SPACETIME-WHOLE-OCCUPATION-SCOPE",
+    "DEF-KANT-ONTOLOGICAL-MODEL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SPATIOTEMPORAL",
+    "DISAMB-SPACETIME-PART-AND-COMPOSITION"
+  ],
+  "strong_version_needed": {
+    "STMT-NATURALISM-N1": "This comparison tests N1 over every existing candidate. The conclusion ranges over the remote/simple candidate, both population witnesses, or the selected whole without a supplied concreteness predicate or an all-existents-concrete bridge. N2 would constrain only the concrete subset and would need an additional explicit classification bridge; that is a different configuration, not a replacement justified by this signature."
+  }
+}

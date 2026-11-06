@@ -1,0 +1,33 @@
+{
+  "id": "NATURALISM-WHOLE-OCCUPATION-BOUNDARY",
+  "premise_statement_ids": [
+    "STMT-NATURALISM-N1",
+    "STMT-SPACETIME-WHOLE-UNLOCATED"
+  ],
+  "conclusion_statement_id": "STMT-SPACETIME-WHOLE-ABSENT-AT",
+  "inference_ids": [
+    "INF-NATURALISM-WHOLE-OCCUPATION-BOUNDARY"
+  ],
+  "meaning": "Logical transcription/instantiation of occupant N1 at the selected whole: if the whole occupies no region it does not exist at that world. This scope consequence does not establish relationalism or refute the located-whole escape.",
+  "definition_ids": [
+    "DEF-NATURALISM-N1",
+    "DEF-SPATIOTEMPORAL-FRAME",
+    "DEF-PART-OF-SPACETIME",
+    "DEF-SPATIOTEMPORAL-LOCATED",
+    "DEF-COMPOSITION-COMPONENT",
+    "DEF-REMOTE-FROM-ALL",
+    "DEF-SIMPLE",
+    "DEF-EXISTING-SPACETIME-PART-COMPONENT-BRIDGE",
+    "DEF-EXISTING-SPACETIME-COMPONENT-COMPOSITE-BRIDGE",
+    "DEF-NATURALISM-REMOTE-SIMPLE-CONTRAST",
+    "DEF-SPACETIME-WHOLE-OCCUPATION-SCOPE",
+    "DEF-KANT-ONTOLOGICAL-MODEL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SPATIOTEMPORAL",
+    "DISAMB-SPACETIME-PART-AND-COMPOSITION"
+  ],
+  "strong_version_needed": {
+    "STMT-NATURALISM-N1": "This comparison tests N1 over every existing candidate. The conclusion ranges over the remote/simple candidate, both population witnesses, or the selected whole without a supplied concreteness predicate or an all-existents-concrete bridge. N2 would constrain only the concrete subset and would need an additional explicit classification bridge; that is a different configuration, not a replacement justified by this signature."
+  }
+}

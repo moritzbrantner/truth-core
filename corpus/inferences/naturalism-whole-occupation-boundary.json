@@ -1,0 +1,12 @@
+{
+  "id": "INF-NATURALISM-WHOLE-OCCUPATION-BOUNDARY",
+  "input_statement_ids": [
+    "STMT-NATURALISM-N1",
+    "STMT-SPACETIME-WHOLE-UNLOCATED"
+  ],
+  "output_statement_id": "STMT-SPACETIME-WHOLE-ABSENT-AT",
+  "rule": "constructive-proof",
+  "meaning": "Logical transcription/instantiation of occupant N1 at the selected whole: if the whole occupies no region it does not exist at that world. This scope consequence does not establish relationalism or refute the located-whole escape.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

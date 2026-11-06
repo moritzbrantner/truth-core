@@ -1,0 +1,27 @@
+{
+  "id": "ATTEMPT-NATURALISM-MEREOLOGICAL-CONTRASTS-1109",
+  "statement_ids": [
+    "STMT-NATURALISM-N1",
+    "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE",
+    "STMT-GOD-IS-SIMPLE",
+    "STMT-EXISTING-SPACETIME-PROPER-PARTS-ARE-COMPONENTS",
+    "STMT-EXISTING-SPACETIME-COMPONENTS-MAKE-WHOLE-COMPOSITE",
+    "STMT-NO-EXISTING-SIMPLE-REMOTE-BEING",
+    "STMT-SPACETIME-WHOLE-UNLOCATED"
+  ],
+  "date": "2026-11-06",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Logic-first continuation of #1109 showcase \u00a74, attribution deferred. Reused N1 and the existing Spatiotemporal.Frame, Case.RemoteFromAll and IsSimple dictionaries. Found the original expected prose omitted the component\u2192Composite bridge: existing composite-has-component readings supply no converse. Added only weak selected-world propositions about existing proper parts/components of the same selected whole. Constructively proved that N1 plus those two bridges makes an existing simple remote being incompatible with a distinct pair; composed with an explicit TwoExist input to exclude that specified existent, without positive equality, excluded middle or independent whole existence. Exported populated full-background and four omitted-input controls, including the sole-existing located self-part whole and occupant N1 surviving failed part N1, plus an occupant-N1/unlocated-absent-whole profile with another existing located candidate. An occupant sibling reuses the exact existing thesis-containment bridge to transport Located-N1 into the checked part-based exclusion; without that bridge the exported control retains occupant N1. The occupant whole self-application result is explicitly a logical transcription/instantiation. Rejected treating ComponentOf/Composite API parameters as definitionally connected, contraposing a one-way God-naming implication from absence of a described being, identifying location with proper parthood or power-presence, or claiming these narrow controls satisfy the earlier full F3/F4/F6 survivor profile. No refutes/alternative_to on a root naming leaf, floor or source claim is added. Remaining laws/math/logic work is explicit in docs/showcase-naturalism.md \u00a74. In particular instance\u2192location alone cannot give instantiated universals from N1, and positive member\u2192set location propagation alone cannot give pure-set unlocation; their converse/support and representation/foundation interfaces remain unencoded. Corrected the showcase's anchor scope: {2} is the singleton-set candidate, not the number 2; abstractness plus the existing-in-re/concrete bridge does not establish nonexistence of every number or pure set. Broader Thomist numerical ontology is retained only as working historical orientation, attribution deferred.",
+  "blocker": "The two composition bridges, part-N1 interpretation, actual distinct population and same-dictionary God-characterization applicability remain open. The component-without-composition control is only an API underconstraint test, outside the intended intrinsic-component dictionary. Required laws, mathematical nominalism/pure-set membership-location and additional logic/reason interfaces are not completed by this batch.",
+  "evidence": [
+    "NATURALISM-REMOTE-SIMPLE-POPULATION",
+    "NATURALISM-PART-REMOTE-SIMPLE-EXCLUSION",
+    "NATURALISM-OCCUPANT-REMOTE-SIMPLE-EXCLUSION",
+    "NATURALISM-WHOLE-OCCUPATION-BOUNDARY",
+    "NATURALISM-MEREOLOGICAL-CONTRAST-CONTROLS",
+    "NATURALISM-N1-ENTAILS-N2",
+    "NATURALIST-UNCAUSED-UNIVERSE-SURVIVOR",
+    "SPATIOTEMPORAL-INDEPENDENT-OF-CONCRETE"
+  ]
+}

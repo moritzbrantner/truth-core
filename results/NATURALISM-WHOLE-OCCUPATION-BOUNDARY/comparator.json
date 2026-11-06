@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Ontology.NaturalismContrasts.WholeOccupation.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.NaturalismContrasts.WholeOccupation.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Ontology.NaturalismContrasts.WholeOccupation.wholeOccupationBoundary"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

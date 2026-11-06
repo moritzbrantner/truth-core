@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SPACETIME-WHOLE-OCCUPATION-SCOPE",
+  "term": "whole occupation and existence scope",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Ontology.NaturalismContrasts.WholeUnlocated",
+  "definition": "WholeUnlocated F := \u00acSpatiotemporal.Located F F.whole. WholeAbsent o F w := \u00aco.ExistsAt w F.whole. Occupant ExistenceNaturalism plus WholeUnlocated implies WholeAbsent by instantiation at the same whole. This says neither that the whole is not a part of itself nor that it cannot stand in a spatiotemporal relation.",
+  "note": "Analyst scope comparison, attribution deferred. The located-whole control allows occupation of the global region, without implying an external container or presence merely by power. The unlocated-absent-whole control retains another existing located candidate. This is a relationalist-style escape at the selected interface, not a complete relationalism theory. No occupation\u2192proper-part, physical\u2192spatiotemporal or existing-cause\u2192all-edges bridge is introduced; U and the whole-to-part causal bridge remain open. Historical attribution would require the proponent's selected whole and occupation criterion; no complete theory is inferred from the scope consequence."
+}
