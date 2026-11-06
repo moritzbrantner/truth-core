@@ -62,6 +62,44 @@ function docCommentAbove(lines: string[], start: number) {
   return begin >= 0 ? lines.slice(begin, start) : [];
 }
 
+/** Locate directly declared fields of a `structure … where` (or class).
+ * These are source locations for the generated projections, not an elaborated
+ * inventory: inherited projections and anonymous instance fields are omitted.
+ */
+function structureFieldLocations(relativeFile: string, lines: string[], start: number, name: string): LeanLocation[] {
+  const block = blockFrom(lines, start);
+  const found: LeanLocation[] = [];
+  let body = false;
+  let fieldIndentation: number | undefined;
+  let inBlockComment = 0;
+  block.forEach((line, offset) => {
+    const opens = (line.match(/\/-/g) ?? []).length;
+    const closes = (line.match(/-\//g) ?? []).length;
+    const wasInComment = inBlockComment > 0;
+    inBlockComment = Math.max(0, inBlockComment + opens - closes);
+    if (wasInComment || opens > 0) return;
+    const header = line.trimStart();
+    if (!body) {
+      if (/\bwhere\b/.test(header)) body = true;
+      return;
+    }
+    if (!header || header.startsWith("--") || header.startsWith("@[")) return;
+    const indentation = line.length - header.length;
+    fieldIndentation ??= indentation;
+    if (indentation !== fieldIndentation) return;
+    const field = /^([^\s(:{[]+)\s*:(?!:)/.exec(header);
+    if (!field) return;
+    const index = start + offset;
+    found.push({
+      name: `${name}.${field[1]}`,
+      file: relativeFile,
+      line: index + 1,
+      snippet: [...docCommentAbove(lines, index), ...blockFrom(lines, index)].join("\n"),
+    });
+  });
+  return found;
+}
+
 export function indexLeanSource(relativeFile: string, text: string): LeanLocation[] {
   const lines = text.split("\n");
   const namespaces: string[] = [];
@@ -98,6 +136,9 @@ export function indexLeanSource(relativeFile: string, text: string): LeanLocatio
       line: index + 1,
       snippet: [...docCommentAbove(lines, index), ...blockFrom(lines, index)].join("\n"),
     });
+    if (/\b(?:structure|class)\s/.test(declaration[0])) {
+      found.push(...structureFieldLocations(relativeFile, lines, index, name));
+    }
   });
   return found;
 }
