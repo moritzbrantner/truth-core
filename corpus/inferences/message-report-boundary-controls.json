@@ -1,0 +1,9 @@
+{
+  "id": "INF-MESSAGE-REPORT-BOUNDARY-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-MESSAGE-REPORT-BOUNDARY-MODELS",
+  "rule": "constructive-proof",
+  "meaning": "Reuse the old schema signature/agency, fullCommissioning, and messageRival_compatible_with_mt28. Raw message-only and historical reports coexist without institutional transfer; the link-bearing rival may retain Matthew28. No historical thesis is refuted.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Grant.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Grant.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.historicalBundleGivesGoverning"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

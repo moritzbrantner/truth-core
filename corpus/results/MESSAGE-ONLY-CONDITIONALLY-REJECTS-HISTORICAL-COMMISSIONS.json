@@ -1,0 +1,10 @@
+{
+  "id": "MESSAGE-ONLY-CONDITIONALLY-REJECTS-HISTORICAL-COMMISSIONS",
+  "argument_id": "MESSAGE-ONLY-CONDITIONALLY-REJECTS-HISTORICAL-COMMISSIONS",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Composition.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Composition.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.messageOnlyRejectsHistoricalBundle",
+  "comparator_config": "results/MESSAGE-ONLY-CONDITIONALLY-REJECTS-HISTORICAL-COMMISSIONS/comparator.json",
+  "status": "solution-present",
+  "description": "Compose the nonvacuous rival/weak-link incompatibility and exact report-bundle rejection. Every scope and transfer input remains visible."
+}
