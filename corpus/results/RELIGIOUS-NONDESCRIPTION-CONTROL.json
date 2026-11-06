@@ -1,0 +1,10 @@
+{
+  "id": "RELIGIOUS-NONDESCRIPTION-CONTROL",
+  "argument_id": "RELIGIOUS-NONDESCRIPTION-CONTROL",
+  "challenge_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.DescriptionModel.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.DescriptionModel.Solution",
+  "theorem": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.nonDescriptiveModel",
+  "comparator_config": "results/RELIGIOUS-NONDESCRIPTION-CONTROL/comparator.json",
+  "status": "solution-present",
+  "description": "A nonempty semantic assignment retains matched truth invariance but lacks the selected religious fact-representation role, witnessing the serious independent descriptive objection."
+}

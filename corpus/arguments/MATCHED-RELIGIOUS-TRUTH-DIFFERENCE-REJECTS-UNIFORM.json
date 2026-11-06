@@ -1,0 +1,19 @@
+{
+  "id": "MATCHED-RELIGIOUS-TRUTH-DIFFERENCE-REJECTS-UNIFORM",
+  "premise_statement_ids": [
+    "STMT-RELIGIOUS-MATCHED-TRUTH-DIFFERENCE"
+  ],
+  "conclusion_statement_id": "STMT-RELIGIOUS-MATCHED-TRUTH-UNIFORM-REJECTED",
+  "inference_ids": [
+    "INF-MATCHED-RELIGIOUS-TRUTH-DIFFERENCE-REJECTS-UNIFORM"
+  ],
+  "meaning": "Instantiate invariance at the actual religious same-content witness and contradict its opposed truth applications. Local descriptive status is not refuted.",
+  "definition_ids": [
+    "DEF-RELIGIOUS-CONTENT-AND-DISCOURSE-TRUTH-PROFILE",
+    "DEF-RELIGIOUS-LOCAL-FACE-VALUE",
+    "DEF-RELIGIOUS-CROSS-DISCOURSE-FACE-VALUE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RELIGIOUS-LOCAL-FACE-VALUE-AND-CROSS-DISCOURSE-UNIFORMITY"
+  ]
+}

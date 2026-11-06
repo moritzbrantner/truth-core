@@ -1,0 +1,10 @@
+{
+  "id": "RELIGIOUS-SEMANTIC-PROFILE-CONTROLS",
+  "argument_id": "RELIGIOUS-SEMANTIC-PROFILE-CONTROLS",
+  "challenge_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.Models.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.Models.Solution",
+  "theorem": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.religiousSemanticModels",
+  "comparator_config": "results/RELIGIOUS-SEMANTIC-PROFILE-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Local face-value status coexists with a matched religious truth difference. Uniformity on religious content coexists with a difference elsewhere. A separate belief-assertion failure defeats local status. No actual philosophy or relative reality is established."
+}

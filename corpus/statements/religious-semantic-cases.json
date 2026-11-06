@@ -1,0 +1,13 @@
+{
+  "id": "STMT-RELIGIOUS-SEMANTIC-CASES",
+  "paraphrase": "The stronger local-plus-invariant profile, or local status with an actual matched religious truth-difference witness, or failure of the local characterization. Explicit excluded middle checks structural coverage. Philosophical applicability of each profile remains open.",
+  "lean_declaration": "TruthCore.Alternatives.ReligiousLanguageSemantics.ReligiousSemanticCases",
+  "definition_ids": [
+    "DEF-RELIGIOUS-CONTENT-AND-DISCOURSE-TRUTH-PROFILE",
+    "DEF-RELIGIOUS-LOCAL-FACE-VALUE",
+    "DEF-RELIGIOUS-CROSS-DISCOURSE-FACE-VALUE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RELIGIOUS-LOCAL-FACE-VALUE-AND-CROSS-DISCOURSE-UNIFORMITY"
+  ]
+}

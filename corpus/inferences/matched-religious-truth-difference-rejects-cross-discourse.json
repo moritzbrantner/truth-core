@@ -1,0 +1,11 @@
+{
+  "id": "INF-MATCHED-RELIGIOUS-TRUTH-DIFFERENCE-REJECTS-CROSS-DISCOURSE",
+  "input_statement_ids": [
+    "STMT-RELIGIOUS-MATCHED-TRUTH-DIFFERENCE"
+  ],
+  "output_statement_id": "STMT-RELIGIOUS-CROSS-DISCOURSE-FACE-VALUE-REJECTED",
+  "rule": "constructive-proof",
+  "meaning": "Compose exact invariance rejection and the strong-profile projection. This rejects only the stronger analyst profile, not the old unbound face-value/source thesis.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

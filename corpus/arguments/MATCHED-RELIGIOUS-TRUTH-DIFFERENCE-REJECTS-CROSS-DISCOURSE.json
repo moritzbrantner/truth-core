@@ -1,0 +1,19 @@
+{
+  "id": "MATCHED-RELIGIOUS-TRUTH-DIFFERENCE-REJECTS-CROSS-DISCOURSE",
+  "premise_statement_ids": [
+    "STMT-RELIGIOUS-MATCHED-TRUTH-DIFFERENCE"
+  ],
+  "conclusion_statement_id": "STMT-RELIGIOUS-CROSS-DISCOURSE-FACE-VALUE-REJECTED",
+  "inference_ids": [
+    "INF-MATCHED-RELIGIOUS-TRUTH-DIFFERENCE-REJECTS-CROSS-DISCOURSE"
+  ],
+  "meaning": "Compose exact invariance rejection and the strong-profile projection. This rejects only the stronger analyst profile, not the old unbound face-value/source thesis.",
+  "definition_ids": [
+    "DEF-RELIGIOUS-CONTENT-AND-DISCOURSE-TRUTH-PROFILE",
+    "DEF-RELIGIOUS-LOCAL-FACE-VALUE",
+    "DEF-RELIGIOUS-CROSS-DISCOURSE-FACE-VALUE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RELIGIOUS-LOCAL-FACE-VALUE-AND-CROSS-DISCOURSE-UNIFORMITY"
+  ]
+}

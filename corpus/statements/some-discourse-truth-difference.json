@@ -1,0 +1,13 @@
+{
+  "id": "STMT-SOME-DISCOURSE-TRUTH-DIFFERENCE",
+  "paraphrase": "At least one sentence has different truth application in the two supplied discourses, without requiring religious status or a matched-content religious comparison. This can coexist with matched religious invariance.",
+  "lean_declaration": "TruthCore.Alternatives.ReligiousLanguageSemantics.SomeDiscourseTruthDifference",
+  "definition_ids": [
+    "DEF-RELIGIOUS-CONTENT-AND-DISCOURSE-TRUTH-PROFILE",
+    "DEF-RELIGIOUS-LOCAL-FACE-VALUE",
+    "DEF-RELIGIOUS-CROSS-DISCOURSE-FACE-VALUE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RELIGIOUS-LOCAL-FACE-VALUE-AND-CROSS-DISCOURSE-UNIFORMITY"
+  ]
+}

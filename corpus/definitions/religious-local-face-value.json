@@ -1,0 +1,8 @@
+{
+  "id": "DEF-RELIGIOUS-LOCAL-FACE-VALUE",
+  "term": "local face-value status in a selected discourse",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Alternatives.ReligiousLanguageSemantics.LocalFaceValue",
+  "definition": "Selected religious sentences retain their apparent content, express belief assertions, represent the corresponding facts, and are true iff those facts hold under that discourse criterion. This local characterization does not itself impose uniform truth application across discourses.",
+  "note": "Analyst comparison criterion, attribution deferred. The original unbound face-value/source statement is not rebound or strengthened. See the independent statement with this criterion and the checked local/strong projections."
+}

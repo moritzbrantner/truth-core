@@ -1,0 +1,13 @@
+{
+  "id": "STMT-RELIGIOUS-SEMANTIC-MODELS",
+  "paraphrase": "Three two-sentence schema controls: local face-value status with an actual matched religious truth difference; the stronger invariant religious profile with a truth difference on an unrelated sentence; and invariance with local failure of the belief-assertion component. These are semantic assignments, not actual context-relative reality or a philosopher interpretation.",
+  "lean_declaration": "TruthCore.Alternatives.ReligiousLanguageSemantics.ReligiousSemanticModels",
+  "definition_ids": [
+    "DEF-RELIGIOUS-CONTENT-AND-DISCOURSE-TRUTH-PROFILE",
+    "DEF-RELIGIOUS-LOCAL-FACE-VALUE",
+    "DEF-RELIGIOUS-CROSS-DISCOURSE-FACE-VALUE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RELIGIOUS-LOCAL-FACE-VALUE-AND-CROSS-DISCOURSE-UNIFORMITY"
+  ]
+}

@@ -16,5 +16,6 @@ public import TruthCore.Alternatives.NightCosmogony
 public import TruthCore.Alternatives.PhysicalCompleteness
 public import TruthCore.Alternatives.PhysicalGround
 public import TruthCore.Alternatives.PotencyAnalysisPartition
+public import TruthCore.Alternatives.ReligiousLanguageSemantics
 public import TruthCore.Alternatives.RespectSwitch
 public import TruthCore.Alternatives.Retorsion

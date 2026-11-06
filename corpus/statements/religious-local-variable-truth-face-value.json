@@ -1,0 +1,13 @@
+{
+  "id": "STMT-RELIGIOUS-LOCAL-VARIABLE-TRUTH-FACE-VALUE",
+  "paraphrase": "Independent analyst sibling: selected religious sentences retain local propositional/assertoric/descriptive face-value status, but an actual same-content religious sentence has differing truth application across the two supplied discourses. This configuration rejects the stronger uniform sibling while retaining local face-value status. No source claim is relabelled as this configuration.",
+  "lean_declaration": "TruthCore.Alternatives.ReligiousLanguageSemantics.LocalVariableTruthFaceValue",
+  "definition_ids": [
+    "DEF-RELIGIOUS-CONTENT-AND-DISCOURSE-TRUTH-PROFILE",
+    "DEF-RELIGIOUS-LOCAL-FACE-VALUE",
+    "DEF-RELIGIOUS-CROSS-DISCOURSE-FACE-VALUE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RELIGIOUS-LOCAL-FACE-VALUE-AND-CROSS-DISCOURSE-UNIFORMITY"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "REL-CROSS-DISCOURSE-FACE-VALUE-STRENGTHENS-LOCAL",
+  "subject_kind": "statement",
+  "subject_id": "STMT-RELIGIOUS-CROSS-DISCOURSE-FACE-VALUE",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "STMT-RELIGIOUS-LOCAL-FACE-VALUE",
+  "verification_result_id": "CROSS-DISCOURSE-FACE-VALUE-SUPPLIES-LOCAL",
+  "note": "Sole-premise checked projection between new analyst profiles; no old source statement is relabelled or strengthened."
+}

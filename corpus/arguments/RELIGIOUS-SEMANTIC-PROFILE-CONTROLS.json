@@ -1,0 +1,17 @@
+{
+  "id": "RELIGIOUS-SEMANTIC-PROFILE-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-RELIGIOUS-SEMANTIC-MODELS",
+  "inference_ids": [
+    "INF-RELIGIOUS-SEMANTIC-PROFILE-CONTROLS"
+  ],
+  "meaning": "Local face-value status coexists with a matched religious truth difference. Uniformity on religious content coexists with a difference elsewhere. A separate belief-assertion failure defeats local status. No actual philosophy or relative reality is established.",
+  "definition_ids": [
+    "DEF-RELIGIOUS-CONTENT-AND-DISCOURSE-TRUTH-PROFILE",
+    "DEF-RELIGIOUS-LOCAL-FACE-VALUE",
+    "DEF-RELIGIOUS-CROSS-DISCOURSE-FACE-VALUE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RELIGIOUS-LOCAL-FACE-VALUE-AND-CROSS-DISCOURSE-UNIFORMITY"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "STMT-RELIGIOUS-NONDESCRIPTIVE-MODEL",
+  "paraphrase": "A nonempty schema interpretation retains matched religious truth invariance but fails local face-value status because an actual religious sentence does not represent its apparent-content fact. No historical author is attributed this assignment.",
+  "lean_declaration": "TruthCore.Alternatives.ReligiousLanguageSemantics.NonDescriptiveReligiousModel",
+  "definition_ids": [
+    "DEF-RELIGIOUS-CONTENT-AND-DISCOURSE-TRUTH-PROFILE",
+    "DEF-RELIGIOUS-LOCAL-FACE-VALUE",
+    "DEF-RELIGIOUS-CROSS-DISCOURSE-FACE-VALUE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RELIGIOUS-LOCAL-FACE-VALUE-AND-CROSS-DISCOURSE-UNIFORMITY"
+  ]
+}

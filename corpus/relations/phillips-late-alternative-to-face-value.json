@@ -2,8 +2,8 @@
   "id": "REL-PHILLIPS-LATE-ALTERNATIVE-TO-FACE-VALUE-THEORY",
   "subject_kind": "statement",
   "subject_id": "STMT-PHILLIPS-REALISM-CONCEPTS-RELIGION-INTERNAL",
-  "predicate": "alternative_to",
+  "predicate": "attacks",
   "object_kind": "statement",
   "object_id": "STMT-FACE-VALUE-THEORY-RELIGIOUS-LANGUAGE",
-  "note": "Minimalism grants (a*) and (b*) of the face value theory and rejects (c*): religious utterances do not represent facts in the way descriptive utterances in science or history do (SEP-RELIGIOUS-LANGUAGE §1, §4.1). Off the root routes: no route premise states the face value theory."
+  "note": "Guarded philosophical challenge, not automatic alternative closure: the raw reported later-Phillips thesis concerns discourse-internal concepts and differing truth extensions, whereas the raw face-value thesis includes propositional/assertoric/descriptive status. Those claims are not yet typed and no exact negation between them is established. The analyst ReligiousLanguageSemantics profile checks that local content/belief/fact representation can coexist with matched religious truth variation; a difference elsewhere may even coexist with matched religious invariance. An actual religious non-descriptive witness separately defeats local descriptive status, while a matched same-content truth-difference witness defeats a stronger cross-discourse-uniform profile. Neither witness is silently extracted from the raw internality source statement. Preserve the original strong minimalist challenge; source-fidelity/applicability of its descriptive-role denial remains a separate judgment. No root premise states either raw thesis."
 }

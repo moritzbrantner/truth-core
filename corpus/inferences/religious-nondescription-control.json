@@ -1,0 +1,9 @@
+{
+  "id": "INF-RELIGIOUS-NONDESCRIPTION-CONTROL",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-RELIGIOUS-NONDESCRIPTIVE-MODEL",
+  "rule": "constructive-proof",
+  "meaning": "A nonempty semantic assignment retains matched truth invariance but lacks the selected religious fact-representation role, witnessing the serious independent descriptive objection.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
