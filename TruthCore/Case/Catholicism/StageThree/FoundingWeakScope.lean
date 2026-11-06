@@ -39,4 +39,21 @@ def WeakScopeDoesNotForceBridge : Prop :=
     EnvoyFoundingIsPrincipalsFounding σ A ∧
     ¬ BridgeChristsChurchFoundedByGod σ ∧
     ¬ MandatedFoundingWithTeaching σ A ∧ ¬ ChristsChurchIsCatholicChurch σ
+/-- Stronger export for the same scope counterexample: the weak Catholic
+instance is actually triggered at the God witness, and a distinct other body
+is actually founded and visible. Divine teaching-founding fails at that very
+other body. No consumer must infer these fields from the hidden witness term. -/
+def ExplicitBodiesScopeCountermodel : Prop :=
+  ∃ σ : Signature, ∃ A : Agency σ, ∃ g : σ.Being, ∃ c : σ.Society,
+    GodExists σ.IsGod ∧ GodHasClassicalAttributes σ ∧
+    RevelationPossibleAndRecognizable σ ∧ JesusClaimedDivineAuthorityAndRose σ ∧
+    ChristFoundedVisibleChurch σ ∧ ResurrectionConfirmsMandate σ A ∧
+    GodConfirmsOnlyTruth σ A ∧ MandatedFoundingOfCatholicChurch σ A ∧
+    EnvoyFoundingIsPrincipalsFounding σ A ∧ σ.IsGod g ∧
+    A.HoldsMandate σ.jesus g ∧
+    σ.Founded σ.jesus σ.catholicChurch ∧ σ.VisibleWithAuthority σ.catholicChurch ∧
+    c ≠ σ.catholicChurch ∧ σ.Founded σ.jesus c ∧ σ.VisibleWithAuthority c ∧
+    ¬ σ.FoundedAsTeachingAuthority g c ∧
+    ¬ BridgeChristsChurchFoundedByGod σ ∧
+    ¬ MandatedFoundingWithTeaching σ A ∧ ¬ ChristsChurchIsCatholicChurch σ
 end TruthCore.Case.Catholicism.StageThree.FoundingWeakScope

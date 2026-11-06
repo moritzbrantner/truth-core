@@ -6,4 +6,5 @@ public import TruthCore.Results.Case.Catholicism.StageThree.Commissions.Solution
 public import TruthCore.Results.Case.Catholicism.StageThree.DivineFounding.Solution
 public import TruthCore.Results.Case.Catholicism.StageThree.FoundingScope.Solution
 public import TruthCore.Results.Case.Catholicism.StageThree.FoundingScopeStrength.Solution
+public import TruthCore.Results.Case.Catholicism.StageThree.FoundingWeakScope.BodyWitnesses.Solution
 public import TruthCore.Results.Case.Catholicism.StageThree.FoundingWeakScope.Solution

@@ -1,6 +1,6 @@
 {
   "id": "STMT-CATHOLICISM-WEAK-MANDATE-SCOPE-DOES-NOT-FORCE-BRIDGE",
-  "paraphrase": "A nonempty two-society schema model satisfies attestation, veracity, the Catholic-Church-only mandate scope (including teaching), and envoy transfer, with every antecedent of the old divine-founding bridge inhabited, while that universal bridge fails at the other society Jesus founded. Universal mandate scope and stage6 identity both fail. This shows that the weak scope cannot replace the strong scope in the existing four-input argument; it does not refute either scope as an actual historical proposition, and it does not challenge the existing weak-plus-stage6 derivation.",
+  "paraphrase": "A schema model has nonempty global God/founding antecedents, attestation, veracity, Catholic-only mandate scope including teaching, and envoy transfer, while the universal divine-founding bridge, universal scope and stage6 identity fail. This coarse target does not export that the founded body is Catholic or identify a distinct other body. Its concrete two-society construction has those properties; CATHOLIC-AND-DISTINCT-BODY-SCOPE-COUNTERMODEL separately certifies them explicitly. This is not an actual-world refutation or a challenge to the existing weak-plus-stage6 composition.",
   "lean_declaration": "TruthCore.Case.Catholicism.StageThree.FoundingWeakScope.WeakScopeDoesNotForceBridge",
   "definition_ids": [
     "DEF-SKELETON-OPEN-PREDICATES",
