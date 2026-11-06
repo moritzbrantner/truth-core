@@ -18,6 +18,8 @@ public import TruthCore.Results.Ontology.NaturalismContrasts.Exclusion.Solution
 public import TruthCore.Results.Ontology.NaturalismContrasts.Occupant.Solution
 public import TruthCore.Results.Ontology.NaturalismContrasts.Population.Solution
 public import TruthCore.Results.Ontology.NaturalismContrasts.WholeOccupation.Solution
+public import TruthCore.Results.Ontology.NaturalismLaws.Controls.Solution
+public import TruthCore.Results.Ontology.NaturalismLaws.Instantiation.Solution
 public import TruthCore.Results.Ontology.UniverseCauseScopeBoundary.AbsentFailure.Solution
 public import TruthCore.Results.Ontology.UniverseCauseScopeBoundary.AbsentProjection.Solution
 public import TruthCore.Results.Ontology.UniverseCauseScopeBoundary.ActualityStrength.Solution

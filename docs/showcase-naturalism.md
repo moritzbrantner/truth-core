@@ -223,12 +223,13 @@ show that denying the bridge requires a loop.
 ## 4. The other consequences: encoded contrasts and remaining work
 
 The part/simplicity/remoteness contrast and the whole-occupation scope are now
-encoded below. Laws, mathematics and the additional logic/epistemic interfaces
-remain work of #1109; they are not silently replaced by these narrower tests.
+encoded below. The law representation contrast is encoded in §4.3; mathematics
+and the additional logic/epistemic interfaces remain work of #1109. These
+requirements are not replaced by the narrower tests.
 
 | Consequence | Expected encoding | Expected status |
 |---|---|---|
-| Laws (Lewis regularity / Armstrong universals / powers) | Still unencoded: separate law-as-description from reified universals/powers and state the exact location criterion. N1 yields instantiation only with a located-universal→instance bridge or definition; an instance→location rule alone does not suffice. | No defeat. Instantiation and Tooley-style uninstantiated-law contrasts need their explicit semantic bridges. |
+| Laws (Lewis regularity / Armstrong universals / powers) | `NATURALISM-IMMANENT-LAWS-INSTANTIATED`: under the explicit instance-derived location profile, occupant N1 entails actual instances for existing law representatives. `NATURALISM-LAW-REPRESENTATION-CONTROLS` distinguishes description-only content and the weaker forward-only location rule (§4.3). | No defeat. These conditional representations are not complete Lewis/Armstrong/Tooley/powers theories; selection, actuality and physical applicability stay open. |
 | Spacetime itself (self-application) | `NATURALISM-WHOLE-OCCUPATION-BOUNDARY`: occupant N1 + "the selected whole occupies no region" ⊢ the selected whole does not exist there. This is a logical transcription/instantiation, not a complete relationalism theorem. The new controls retain both the located existing self-part whole and an unlocated absent whole with another existing located candidate. | No defeat. Located-whole and absent-whole profiles remain distinguished. |
 | Logic (F1, excluded middle) | F1 is premise-free in Lean, and excluded middle is about all propositions. Neither constrains the domain, so no consistent variant contradicts them. Murphy 2021 (pinned) offers the naturalist account of necessary truths without truthmakers ("knowledgemaker maximalism"). | No defeat; at most an explanatory burden (D-I). |
 | Mathematics (Quine/Putnam vs Field) | Still unencoded: use an actual mathematical set/membership profile and a location→located-member support clause to investigate pure-set unlocation by well-founded induction. A merely positive member→set propagation rule is insufficient. Reification/existence and nominalist representation need separate explicit clauses. The #1113 bridge plus abstract anchor concern the designated `{2}` candidate only, not the number `2`, all numbers or all pure sets. | No defeat or new nominalism certificate in this batch. |
@@ -307,6 +308,51 @@ whole there requires no external surrounding space and is distinct from
 presence by power. These controls add no source attribution, grounding/causal
 principle, geometry, or real-world possibility claim.
 
+### 4.3 Law content, law entities and the direction of location support
+
+`NaturalismLaws.Representation` separates bearers from candidate law entities
+in the disjoint domain `B ⊕ R`. A rule index in `R` is not thereby an existing
+entity. World-relative bearer presence, law-entity presence and bearer
+instantiation are separate supplied data. `ActualInstance m w l` requires an
+existing bearer instantiating the universal represented by `l`; this is not
+rule truth, law selection, a proof of the rule or a sentence mentioning it.
+Distinct rule indices have distinct representatives in this chosen profile.
+Aliased representations, universals with other instances and complete power
+ontologies would need additional interfaces; this domain is not exhaustive.
+
+The immanent criterion constructs the law representative's location at a
+region from an existing bearer instance occupying that region. It includes
+both instance→location and location→existing-instance support. The checked
+`NATURALISM-IMMANENT-LAWS-INSTANTIATED` unpacks occupant N1 at a law entity,
+then its concrete location witness, to recover an existing bearer instance.
+Its checked companion excludes an existing uninstantiated representative.
+It establishes that conditional consequence without defending the location
+criterion or asserting that any law entity actually exists. No physical or
+concrete classification, causal role or law-selection truth is supplied.
+
+`NATURALISM-LAW-REPRESENTATION-CONTROLS` reuses the certified
+`HUME-REGULARITY-TESTS` selected-pattern/incidental-truth test and exports
+three separate interpretations:
+
+| Representation | Exported facts |
+| --- | --- |
+| Instantiated law | Occupant N1 under immanent location, an existing selected-pattern law entity and an existing bearer instance; the incidental-rule entity is absent. |
+| Description only | The same selected-rule test, occupant N1, an existing located bearer, no existing law entities and no pattern instance. Rule content does not force reification or actual instantiation. |
+| Forward support only | Occupant N1, an existing located selected-pattern law entity and an existing located bearer, but no pattern instance. The instance→location rule holds while the converse support rule is explicitly false. Under the immanent criterion the pattern entity is unlocated instead. |
+
+The last row rejects the inference from the forward bridge alone. It does not
+refute a theory that independently adopts the stronger criterion. The first
+row witnesses a nonempty instantiated profile; the description-only row
+preserves a naturalist escape. The existing finite selected-system diagnostic
+does not compute a best system, establish its adequacy, or encode all actual
+law content. Historical identification with Lewis, Armstrong or Tooley remains
+deferred. Powers need a separate bearer/power-content interpretation; the
+mere word “instance” does not provide it. All these results are zero-axiom,
+with no new source claim, floor item, counted defeat or root-route closure.
+The substantive attempt and rejected readings are persisted in
+`ATTEMPT-NATURALISM-LAW-REPRESENTATIONS-1109`. The mathematical and additional
+logic/reason cells of #1109 remain active.
+
 ## 5. Status summary
 
 | Result | Target | Status |
@@ -323,6 +369,8 @@ principle, geometry, or real-world possibility claim.
 | `NATURALISM-OCCUPANT-REMOTE-SIMPLE-EXCLUSION` | occupant-to-part transport | same exclusion, with explicit existing thesis containment |
 | `NATURALISM-WHOLE-OCCUPATION-BOUNDARY` | unlocated whole under occupant N1 | logical transcription/instantiation |
 | `NATURALISM-MEREOLOGICAL-CONTRAST-CONTROLS` | populated and omitted-input profiles | explicit scoped model controls |
+| `NATURALISM-IMMANENT-LAWS-INSTANTIATED` | law entities under instance-derived occupation | conditional instantiation/exclusion |
+| `NATURALISM-LAW-REPRESENTATION-CONTROLS` | description-only and weaker-location escapes | premise-free scoped models |
 
 **What is defeated:** nothing counts.
 
