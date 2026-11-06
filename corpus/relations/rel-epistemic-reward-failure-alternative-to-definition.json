@@ -1,0 +1,9 @@
+{
+  "id": "REL-EPISTEMIC-REWARD-FAILURE-ALTERNATIVE-TO-DEFINITION",
+  "subject_kind": "statement",
+  "subject_id": "STMT-EPISTEMIC-REASON-BARE-REWARD-DEFINITION-FAILS",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-EPISTEMIC-REASON-BARE-REWARD-DEFINITION",
+  "note": "Exact profile-specific negation of this bare-reward calibration, leaving informative reward accounts open."
+}

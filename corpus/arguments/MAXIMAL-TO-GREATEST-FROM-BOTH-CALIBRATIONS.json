@@ -1,0 +1,20 @@
+{
+  "id": "MAXIMAL-TO-GREATEST-FROM-BOTH-CALIBRATIONS",
+  "premise_statement_ids": [
+    "STMT-MAXIME-MERELY-MAXIMAL-DEFINITION",
+    "STMT-MAXIME-GREATEST-DEGREE-DEFINITION"
+  ],
+  "conclusion_statement_id": "STMT-MAXIMAL-SELECTED-BEARERS-HAVE-GREATEST-DEGREE",
+  "inference_ids": [
+    "INF-MAXIMAL-TO-GREATEST-FROM-BOTH-CALIBRATIONS"
+  ],
+  "meaning": "Calibration transport transcription: two independently supplied calibrations of the SAME primitive superlative yield the one-way maximal-to-greatest interface. Coextension is not philosophical or source identity.",
+  "definition_ids": [
+    "DEF-MAXIMUM-CALIBRATION-PROFILE",
+    "DEF-MAXIMUM-IN-A-PERFECTION",
+    "DEF-GREATEST-DEGREE-IN-A-PERFECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MAXIME-ENS"
+  ]
+}

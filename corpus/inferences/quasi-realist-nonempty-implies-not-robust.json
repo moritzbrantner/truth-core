@@ -1,0 +1,12 @@
+{
+  "id": "INF-QUASI-REALIST-NONEMPTY-IMPLIES-NOT-ROBUST",
+  "input_statement_ids": [
+    "STMT-QUASI-REALIST-MINIMAL-TRUTH-APT",
+    "STMT-GEACH-MINOR-PREMISE-IS-MORAL"
+  ],
+  "output_statement_id": "STMT-NOT-REALIST-ROBUST-TRUTH-APT",
+  "rule": "constructive-proof",
+  "meaning": "Compose the existing checked robust-answer deviation with the unchanged full quasi-realist reading and explicit Geach moral witness. Universal robust aptness would then give both source answers, contradicting their checked deviation. No thin/minimal truth is silently robust.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "REL-MAXIME-ADDITIONAL-OPPOSES-COVERAGE",
+  "subject_kind": "statement",
+  "subject_id": "STMT-MAXIME-ADDITIONAL-DEFINITION",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-MAXIME-NAMED-DEFINITIONS-COVER",
+  "note": "Precise failure of all named calibration candidates, not a denial of greatest-degree causation or of the root thesis."
+}

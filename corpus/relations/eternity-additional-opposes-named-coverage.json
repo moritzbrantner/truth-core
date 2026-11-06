@@ -1,0 +1,9 @@
+{
+  "id": "REL-ETERNITY-ADDITIONAL-OPPOSES-NAMED-COVERAGE",
+  "subject_kind": "statement",
+  "subject_id": "STMT-PRIMITIVE-ETERNITY-ADDITIONAL-DEFINITION",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-PRIMITIVE-ETERNITY-NAMED-DEFINITIONS-COVER",
+  "note": "Both named calibration propositions fail; no rival to the primitive eternity conclusion is inferred from this remainder alone."
+}

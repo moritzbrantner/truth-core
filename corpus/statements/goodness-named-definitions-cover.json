@@ -1,0 +1,13 @@
+{
+  "id": "STMT-GOODNESS-NAMED-DEFINITIONS-COVER",
+  "paraphrase": "Open STRONG coverage premise: every admissible proposal is identical as a candidate object to a named due-actuality, feature-based or fixed-assessor approval proposal. The core elimination uses the weaker STMT-GOODNESS-SEMANTIC-NAMED-DEFINITIONS-COVER instead.",
+  "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.NamedCoverage",
+  "definition_ids": [
+    "DEF-FORM-END-DUE-PERFECTION",
+    "DEF-GOODNESS-DUE-ACTUALITY-PROPOSITION",
+    "DEF-GOODNESS-NAMED-DEFINITION-SPACE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOODNESS-UNRESTRICTED-DUE-AND-ULTIMATE"
+  ]
+}

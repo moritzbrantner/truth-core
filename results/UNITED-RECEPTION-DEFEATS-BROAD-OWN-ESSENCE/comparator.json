@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.OwnEssenceFailure.Challenge",
+  "solution_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.OwnEssenceFailure.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.EsseReceptionDefinitions.OwnEssenceFailure.ownEssenceFailure"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

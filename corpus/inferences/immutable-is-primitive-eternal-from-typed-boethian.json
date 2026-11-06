@@ -1,0 +1,14 @@
+{
+  "id": "INF-IMMUTABLE-IS-PRIMITIVE-ETERNAL-FROM-TYPED-BOETHIAN",
+  "input_statement_ids": [
+    "STMT-SUCCESSION-REQUIRES-POTENCY",
+    "STMT-LIFE-BOUNDARY-REQUIRES-POTENCY",
+    "STMT-PURE-ACT-LIVES",
+    "STMT-BOETHIAN-ETERNITY-SUFFICES-FOR-PRIMITIVE-ETERNITY"
+  ],
+  "output_statement_id": "STMT-IMMUTABLE-IS-ETERNAL",
+  "rule": "constructive-proof",
+  "meaning": "Compose the existing typed immutableIsBoethianEternal theorem with the explicit one-way recognition transfer to the EXACT all-beings ImmutableIsEternalReading root premise. Succession-to-subject-potency, boundary-to-subject-potency, and pure-act-has-life stay separately visible. No inference from immutable to alive is hidden in a definition.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

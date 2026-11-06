@@ -1,0 +1,11 @@
+{
+  "id": "EP-ROLE-ORDINARY-FROM-THIN",
+  "argument_id": "EP-ROLE-ORDINARY-FROM-THIN",
+  "challenge_module": "TruthCore.Results.Logic.EpistemicReasonDefinitions.OrdinaryFromThin.Challenge",
+  "solution_module": "TruthCore.Results.Logic.EpistemicReasonDefinitions.OrdinaryFromThin.Solution",
+  "theorem": "TruthCore.Results.Logic.EpistemicReasonDefinitions.OrdinaryFromThin.ordinaryFromThin",
+  "comparator_config": "results/EP-ROLE-ORDINARY-FROM-THIN/comparator.json",
+  "status": "solution-present",
+  "description": "Calibration transcription: thin F6 plus its explicit consideration presentation and ordinary-role definition yields an ordinary-role witness. No actual favorable bearing is proved from the name epistemic reason.",
+  "transcription": "instantiation"
+}

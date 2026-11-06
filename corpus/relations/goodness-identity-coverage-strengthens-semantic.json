@@ -1,0 +1,10 @@
+{
+  "id": "REL-GOODNESS-IDENTITY-COVERAGE-STRENGTHENS-SEMANTIC",
+  "subject_kind": "statement",
+  "subject_id": "STMT-GOODNESS-NAMED-DEFINITIONS-COVER",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "STMT-GOODNESS-SEMANTIC-NAMED-DEFINITIONS-COVER",
+  "verification_result_id": "GOODNESS-IDENTITY-COVERAGE-ENTAILS-SEMANTIC-COVERAGE",
+  "note": "The extensional owner proposition needs only weak semantic coverage, used by GOODNESS-FROM-NAMED-DEFINITION-ELIMINATION. The old frozen identity interface is preserved but is not silently imposed. Coextensive proposals with different identities do not refute weak coverage."
+}

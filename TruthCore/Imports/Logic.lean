@@ -11,6 +11,7 @@ public import TruthCore.Logic.Configuration
 public import TruthCore.Logic.ContrastiveWorldview
 public import TruthCore.Logic.CorrectionCriterion
 public import TruthCore.Logic.EpistemicAccuracy
+public import TruthCore.Logic.EpistemicReasonDefinitionFork
 public import TruthCore.Logic.EpistemicReasons
 public import TruthCore.Logic.ExcludedMiddle
 public import TruthCore.Logic.ExcludedMiddleAssertionBoundary
@@ -25,6 +26,8 @@ public import TruthCore.Logic.KnowledgeAdmissibility
 public import TruthCore.Logic.KnowledgeRetorsion
 public import TruthCore.Logic.LimitAdmission
 public import TruthCore.Logic.MaximumOrder
+public import TruthCore.Logic.MeaningDefinitionFork
+public import TruthCore.Logic.MetaethicsTruthAptRivalBoundary
 public import TruthCore.Logic.PerformedDenial
 public import TruthCore.Logic.PluralClosureBoundary
 public import TruthCore.Logic.QuantifierShift

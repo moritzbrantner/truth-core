@@ -1,0 +1,8 @@
+{
+  "id": "DEF-GOODNESS-NAMED-DEFINITION-SPACE",
+  "term": "admissible named goodness proposals and further relevant definitions",
+  "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.DefinitionSpace",
+  "basis": "stipulative",
+  "definition": "A DefinitionSpace supplies candidate identities, their aspect extensions, an admissibility predicate, three named proposals (due actuality, feature-based criterion, fixed-assessor approval criterion), and calibration of their meanings. NamedCoverage says every admissible candidate is one of these. AdditionalRelevantDefinition explicitly witnesses an admissible candidate outside them. CorrectAccount compares a proposal extension with the profile GoodIn relation; CorrectAccountExists requires at least one admissible correct proposal. Admissibility alone does not assert correctness.",
+  "note": "Analyst rival-definition formulations, not full historical worldviews. Candidate identity denotes a specified proposal, not mere token spelling; the applicability and adequacy of this representation remain OPEN. NamedCoverage and CorrectAccountExists are explicitly open scope/nonvacuity premises. Coverage of the three structural extension cells does not establish this named coverage. The further-definition model makes the omitted proposal an actual formal witness. The approval account is a subjectivist identity test, not a claim that expressivism identifies ontological goodness with approval."
+}

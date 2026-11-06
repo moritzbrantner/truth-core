@@ -1,0 +1,22 @@
+{
+  "id": "ATTEMPT-EPISTEMIC-REASON-DEFINITION-FORKS-AUDIT",
+  "statement_ids": [
+    "STMT-THERE-ARE-EPISTEMIC-REASONS",
+    "STMT-THERE-ARE-ORDINARY-ROLE-EPISTEMIC-REASONS",
+    "STMT-THERE-ARE-PREFERENCE-INDEPENDENT-EPISTEMIC-REASONS",
+    "STMT-EPISTEMIC-REASON-DEFINITION-CANDIDATES-COVER"
+  ],
+  "date": "2026-11-06",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "The prior note left two consequential analyst role propositions without Lean declarations because encoding would not establish actual instantiation. Owner clarified that conditional definition forks should be studied anyway. Encoded four candidate calibrations on one typed consideration/attitude/preference profile, explicit consideration presentation from thin F6, named coverage and a precise remaining profile. Checked controls show bare production/reward need not supply ordinary support, ordinary favoring need not have preference-independent force, coextensive functional accounts can survive, and thin F6 plus vacuous calibration needs a presentation bridge. Original F6 meaning/approval and source claims stay unchanged. Calibration transports and structural coverage are labelled transcriptions; finite controls establish conditional/model boundaries only.",
+  "blocker": "Actual normative instantiation, adequacy of the favoring/force interpretation, calibration selection and admissibility of the preference class remain open. No actual-world coverage of all epistemological theories is inferred from the named list.",
+  "evidence": [
+    "EP-ROLE-ORDINARY-FROM-THIN",
+    "EP-ROLE-INDEPENDENT-FROM-THIN",
+    "EP-ROLE-INDEPENDENT-STRENGTHENS-ORDINARY",
+    "EP-ROLE-DEFINITION-FORK",
+    "EP-ROLE-NAMED-DEFINITION-ELIMINATION",
+    "EP-ROLE-DEFINITION-BOUNDARIES"
+  ]
+}

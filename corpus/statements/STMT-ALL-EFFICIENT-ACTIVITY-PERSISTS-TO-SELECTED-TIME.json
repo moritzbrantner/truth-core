@@ -1,0 +1,11 @@
+{
+  "id": "STMT-ALL-EFFICIENT-ACTIVITY-PERSISTS-TO-SELECTED-TIME",
+  "paraphrase": "Strong open framework transfer: every efficient activity at an admitted time persists to the selected time in the SAME respect. Stronger than the uniter-restricted some-respect transfer; not inherent in efficient causation.",
+  "lean_declaration": "TruthCore.Causality.ComposerTemporalDefinitionFork.GlobalPersistence",
+  "definition_ids": [
+    "DEF-COMPOSER-TEMPORAL-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNITING-CAUSE"
+  ]
+}

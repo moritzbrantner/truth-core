@@ -1,0 +1,9 @@
+{
+  "id": "REL-UNITED-RECEPTION-DEFEATS-BROAD-OWN-ESSENCE-CONDITIONAL-REFUTATION",
+  "subject_kind": "argument",
+  "subject_id": "UNITED-RECEPTION-DEFEATS-BROAD-OWN-ESSENCE",
+  "predicate": "refutes",
+  "object_kind": "statement",
+  "object_id": "STMT-ESSE-RECEIVED-IN-OWN-ESSENCE",
+  "note": "Checked conditional contradiction only. The argument premises remain OPEN, so this does not independently refute or close the target."
+}

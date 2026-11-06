@@ -1,0 +1,11 @@
+{
+  "id": "BROAD-OWN-ESSENCE-STRENGTHENS-ELIGIBLE-SCOPE",
+  "argument_id": "BROAD-OWN-ESSENCE-STRENGTHENS-ELIGIBLE-SCOPE",
+  "challenge_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.ScopeStrength.Challenge",
+  "solution_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.ScopeStrength.Solution",
+  "theorem": "TruthCore.Results.Causality.EsseReceptionDefinitions.ScopeStrength.scopeStrength",
+  "comparator_config": "results/BROAD-OWN-ESSENCE-STRENGTHENS-ELIGIBLE-SCOPE/comparator.json",
+  "status": "solution-present",
+  "description": "Exact sole-premise scope strength: the original broad law implies the supplied eligible-bearer restriction. No source eligibility criterion is adopted.",
+  "transcription": "instantiation"
+}

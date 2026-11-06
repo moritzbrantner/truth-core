@@ -1,0 +1,20 @@
+{
+  "id": "BROAD-OWN-ESSENCE-STRENGTHENS-IDENTITY-SCOPE",
+  "premise_statement_ids": [
+    "STMT-ESSE-RECEIVED-IN-OWN-ESSENCE"
+  ],
+  "conclusion_statement_id": "STMT-IDENTITY-BEARERS-RECEIVE-ESSE-ONLY-IN-OWN-ESSENCE",
+  "inference_ids": [
+    "INF-BROAD-OWN-ESSENCE-STRENGTHENS-IDENTITY-SCOPE"
+  ],
+  "meaning": "Exact sole-premise strength registration: the original broad own-essence law implies its restriction to esse=essence bearers; a nonempty identity-domain strictness control rejects the converse.",
+  "definition_ids": [
+    "DEF-UNITED-ESSE-RECEPTION-INTERPRETATION-PROFILE",
+    "DEF-ESSE-RECEIVED-IN",
+    "DEF-ESSENCE-THOMISTIC-NATURE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSE-RECEPTION",
+    "DISAMB-ESSENCE"
+  ]
+}
