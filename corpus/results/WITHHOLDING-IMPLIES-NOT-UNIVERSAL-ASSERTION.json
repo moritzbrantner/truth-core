@@ -1,0 +1,11 @@
+{
+  "id": "WITHHOLDING-IMPLIES-NOT-UNIVERSAL-ASSERTION",
+  "argument_id": "WITHHOLDING-IMPLIES-NOT-UNIVERSAL-ASSERTION",
+  "challenge_module": "TruthCore.Results.Logic.ExcludedMiddleAssertionBoundary.ExactPolicyRival.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ExcludedMiddleAssertionBoundary.ExactPolicyRival.Solution",
+  "theorem": "TruthCore.Results.Logic.ExcludedMiddleAssertionBoundary.ExactPolicyRival.exactPolicyRival",
+  "comparator_config": "results/WITHHOLDING-IMPLIES-NOT-UNIVERSAL-ASSERTION/comparator.json",
+  "status": "solution-present",
+  "description": "Project the existing full withholding package's explicit stage/content witness to the exact negative assertion-policy proposition. It is not an inference to object-level denial or falsity of EM.",
+  "transcription": "instantiation"
+}

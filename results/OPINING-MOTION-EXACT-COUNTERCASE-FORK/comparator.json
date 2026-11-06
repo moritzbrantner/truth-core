@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Alternatives.OpiningMotionRivalCoverage.Coverage.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.OpiningMotionRivalCoverage.Coverage.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Alternatives.OpiningMotionRivalCoverage.Coverage.coverage"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

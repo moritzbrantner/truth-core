@@ -1,0 +1,11 @@
+{
+  "id": "INF-MIXED-DEFINITION-STATUS-REJECTS-UNIFORM-PROFILES",
+  "input_statement_ids": [
+    "STMT-CONCILIAR-DEFINITION-STATUS-MIXED"
+  ],
+  "output_statement_id": "STMT-CONCILIAR-UNIFORM-DEFINITION-STATUS-REJECTED",
+  "rule": "constructive-proof",
+  "meaning": "The nonendorsed defined witness defeats the old universal bridge; the endorsed defined witness defeats universal nonendorsement. This rejects two uniform profiles, not theology or a whole worldview.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

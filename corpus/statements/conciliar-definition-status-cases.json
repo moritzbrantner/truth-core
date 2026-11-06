@@ -1,0 +1,14 @@
+{
+  "id": "STMT-CONCILIAR-DEFINITION-STATUS-CASES",
+  "paraphrase": "Either every defined move is endorsed, every defined move lacks endorsement, or actual opposing defined-status witnesses exist. Explicit EM checks structural coverage; without an actual defined move the universal readings can overlap vacuously.",
+  "lean_declaration": "TruthCore.Alternatives.ConciliarGrammarDefinitions.DefinitionStatusCases",
+  "definition_ids": [
+    "DEF-THEOLOGICAL-CONTENT-AND-RELIGIOUS-LIFE-ROLES",
+    "DEF-CONCILIAR-DEFINITION",
+    "DEF-PRACTICE-OWN-STANDARD",
+    "DEF-CORRECT-MOVE-IN-PRACTICE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THEOLOGICAL-FORMULATION-AND-NORMATIVE-GRAMMAR"
+  ]
+}

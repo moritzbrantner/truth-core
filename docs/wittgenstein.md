@@ -411,6 +411,54 @@ every recorded rival refuted from established premises. That means refuting the
 two replies above, which today are met only by stated texts. Both bridges stay
 open, and that is the honest result.
 
+### Theological content and normative grammar (analyst reconstruction, 2026-11-06)
+
+The raw `STMT-COUNCIL-TEACHING-THEOLOGY-NOT-GRAMMAR` reply and its supporting
+source claims remain unchanged. A new modest typed profile distinguishes
+whether a defined move has theological content, whether a move plays a role in
+first-order religious life, and whether the practice's own standards endorse
+it. First-order life is a practical role, not a logical quantifier order. A
+doctrinal sentence can function as confession; these labels need not be
+disjoint. No actual institution or liturgical history is thereby established.
+
+`STMT-THEOLOGY-EXCLUDED-FROM-OWN-STANDARDS` states the substantive exclusion
+that a strong opponent reading needs. It is not supplied merely by theological
+content or by calling a formula second-order. The descriptive profile projects
+to the weaker theological-content premise; together with the explicit exclusion
+and an actual Defined witness it yields the exact negation of the unchanged
+`DefinitionIsOwnStandardReading`. The council-defined natural-knowability move
+supplies that weak Defined witness by a registered projection. Original
+cut-off arguments still need its natural content as well as Defined; new
+status-conflict arguments use only the weak witness.
+
+The existing theology-not-grammar alternative relation now uses that exact
+normative-bridge negation as its endpoint. Refuting a descriptive formulation
+alone therefore cannot automatically defend the bridge through a mismatched
+rival link. Mixed actual defined-status witnesses also reject the bridge and
+the opposite universal reading. EM checks all-endorsed, all-nonendorsed or mixed
+structural coverage; named uniform coverage remains open and actual mixed
+witnesses are a precise further profile. Empty definition domains permit the
+two universals to overlap, so nonemptiness is not implicit.
+
+Four controls retain positive ordinary religious-life endorsement. Descriptive
+theology can coexist with the bridge. A two-move model separates a defined,
+theological, nonendorsed move from an ordinary-life endorsed move; it also keeps
+the old council/natural-reason premises and the fideist pair. This extends the
+relevant scope beyond the older missing-bridge control, which did not encode
+roles and used no endorsed move. Other controls witness actual mixed status
+and empty-definition overlap. These are signature interpretations, not a
+refutation of theology, ordinary religious life or any whole worldview.
+
+The old bridge paraphrase now states its exact normative endorsement scope;
+it does not additionally decide theological or practical classification. The
+existing authority/use/neither grammar-fixer cases and their open bridges are
+unchanged. InOrdinaryUse concerns ordinary-practitioner uptake; identifying it
+with the present practical role or with normative endorsement would require a
+separate bridge. The raw reply's philosophical-distortion/fidelity claims also
+need a typed content/fidelity criterion before they could be identified with
+this modest profile. Neither identity nor independent normative warrant is
+assumed here.
+
 ### Who fixes the grammar: by cases (owner decision 2026-11-06)
 
 The deciding question for both escapes is who fixes a practice's grammar.
@@ -778,6 +826,55 @@ leaves are discharged. The experiment does not connect their shared reference
 relation yet. Root premises and #1010's existing conditional defeat remain
 unchanged; #1073 supplies one boundary, not completion of #1010.
 
+
+## Proper application and practice reference (definition audit, 2026-11-06)
+
+The nominal leaves' proper predicate and `NamingPractice.RefersTo` are separate.
+`STMT-PROPER-REFERENCE-PRESERVED` is the explicit open analyst proposition
+that every proper instance is referred to by the selected name in the selected
+practice, on the same carrier. Stronger coextension adds the reverse direction;
+`GOD-NAME-COEXTENSION-PRESERVES-PROPER-REFERENCE` registers that order.
+Consequence arguments use the weaker transfer. No new attribution is made to
+Phillips, Aquinas or a theory of reference.
+
+`NAME-APPLICATION-TRANSFER-CASES` checks that either transfer holds or some
+proper instance is not a practice referent, using the existing explicit EM
+premise. Its witness is a relevant failure in this fixed semantic profile.
+This is structural coverage of a transfer test, not exhaustion of named
+philosophical definitions. The prior name-swapping controls above still concern
+literal reference under extensional sentence/inference agreement; they neither
+supply nor refute the new transfer premise.
+
+`PROPER-GOD-EXISTENCE-REJECTS-PRACTICE-NO-REFERENCE` uses the existing actual
+God-existence witness and transfer to refute the practice-use no-being thesis.
+Both remain open inputs. The reverse confrontation needs a matching descriptor
+witness: a universal naming implication can be true when nothing fits its
+antecedent. The new full, reduced and pure-act descriptor-existence propositions
+spell out exactly the antecedents of their respective original naming leaves.
+Raw no-reference, transfer and that witness then negate the proper-profile
+naming leaf, as the three `PRACTICE-NO-REFERENCE-REJECTS-…-NAMING` results check.
+The full-description no-witness consequence also imports the earlier checked
+`noBeingExcludesFullDescription` theorem after an explicit one-way translation.
+It excludes a unique fully described instance, rather than inferring a global
+contradiction without one.
+
+The three existing `alternative_to` relation IDs keep the serious no-object
+rival but now point from these exact proper-profile negations. The raw practice
+thesis remains a full-strength premise of their deriving arguments, with its
+supporting source remark unchanged. This is consequential: a future refutation
+of raw practice no-reference cannot automatically count as refuting the
+proper-profile challenge and defending a nominal leaf. Notes alone could not
+have enforced those transfer/witness conditions in the premise engine.
+
+`NAME-APPLICATION-TRANSFER-MODELS` supplies three finite controls: an inhabited
+proper predicate with empty practice reference and lost transfer; inhabited
+shared reference with no-reference false; and one-way transfer with extra
+practice referents, violating coextension. These are schema interpretations,
+not independently constrained God models or claims about actual religious use.
+The strongest surviving rival rejects transfer or disputes that any nominal
+descriptor has an actual instance. Applicability and independent defense of
+those premises remain open; none of the eight results establishes the root.
+Existing attributed claims and frozen Challenges are unchanged.
 
 ## Revelation capability versus actual practice (definition audit, 2026-11-06)
 

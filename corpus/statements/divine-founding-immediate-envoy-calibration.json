@@ -1,0 +1,15 @@
+{
+  "id": "STMT-DIVINE-FOUNDING-IMMEDIATE-ENVOY-CALIBRATION",
+  "paraphrase": "In the supplied profile, the existing envoy-founding bridge is equivalent to each Jesus-envoy teaching event on a God candidate also satisfying the direct-founding relation. The argument separately assumes the immediate-only calibration.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.FoundingDefinitions.ImmediateEnvoyCalibration",
+  "definition_ids": [
+    "DEF-PRINCIPAL-ACT-FOUNDING-READING",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+    "DEF-FOUNDED-BY-GOD-IMMEDIATELY",
+    "DEF-GOD-OF-CLASSICAL-THEISM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FOUNDED-BY-GOD",
+    "DISAMB-GOD"
+  ]
+}

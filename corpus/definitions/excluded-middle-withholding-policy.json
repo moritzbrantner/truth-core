@@ -1,0 +1,8 @@
+{
+  "id": "DEF-EXCLUDED-MIDDLE-WITHHOLDING-POLICY",
+  "term": "existing excluded-middle withholding package",
+  "definition": "The unchanged existing formal package: assertions of p-or-not-p require a stage proof marker for p or not-p; some stage withholds an instance; all object-level instances are irrefutable. This encoded subset is not a complete semantics of intuitionism.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.ExcludedMiddleWithheld",
+  "note": "Analyst scope clarification of existing vocabulary; source claims untouched. See docs/notes/excluded-middle-assertion-boundary.md."
+}

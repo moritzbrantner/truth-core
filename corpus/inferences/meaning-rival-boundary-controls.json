@@ -1,0 +1,9 @@
+{
+  "id": "INF-MEANING-RIVAL-BOUNDARY-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-MEANING-RIVAL-BOUNDARY-CONTROLS",
+  "rule": "constructive-proof",
+  "meaning": "Populated constant-expression overlap and actual attitude-loss failure control, retaining the full bound properties.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

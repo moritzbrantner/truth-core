@@ -1,0 +1,28 @@
+{
+  "id": "PRACTICE-NO-REFERENCE-REJECTS-REDUCED-NAMING",
+  "premise_statement_ids": [
+    "STMT-PROPER-REFERENCE-PRESERVED",
+    "STMT-GOD-NAMES-NO-BEING-WF-P1",
+    "STMT-REDUCED-NOMINAL-DESCRIPTOR-EXISTS"
+  ],
+  "conclusion_statement_id": "STMT-REDUCED-NOMINAL-NAMING-FAILS",
+  "inference_ids": [
+    "INF-PRACTICE-NO-REFERENCE-REJECTS-REDUCED-NAMING"
+  ],
+  "meaning": "A reduced descriptor witness would be proper by the reduced naming leaf and a practice referent by transfer, contrary to no-reference. The witness and transfer are explicit prerequisites to this exact proper-profile negation.",
+  "definition_ids": [
+    "DEF-PROPER-TO-PRACTICE-REFERENCE-CALIBRATION",
+    "DEF-NAME-REFERS-IN-PRACTICE",
+    "DEF-GOD-NOMINAL-Q13",
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-GOD-AS-NAMED-IN-THE-SUMMA",
+    "DEF-MAXIME-ENS",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-NOMINAL-DEFINITION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NAME-APPLICATION",
+    "DISAMB-GOD",
+    "DISAMB-MAXIME-ENS"
+  ]
+}

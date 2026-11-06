@@ -4,5 +4,5 @@
   "definition": "Every established claim in scope is empirically established, with every claim to knowledge in scope (`ScopedScientism E scope`).",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Logic.Scientism.ScopedScientism",
-  "note": "Unattributed until a pinned or bibliographic witness for a defender exists (#378)."
+  "note": "Unattributed until a pinned or bibliographic witness for a defender exists (#378). Exact binding boundary: ScopedScientism itself quantifies only over the supplied scope; the intended universal strong case needs a separate coverage condition. All-established, pointwise nonempirical and sufficient existential witness-transfer coverage now have independent analyst siblings; see docs/notes/scientism-meaning-rival-boundary.md. No universal scope is inferred from the generic declaration."
 }

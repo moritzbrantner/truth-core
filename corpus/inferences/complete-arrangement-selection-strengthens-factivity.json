@@ -1,0 +1,11 @@
+{
+  "id": "INF-COMPLETE-ARRANGEMENT-SELECTION-STRENGTHENS-FACTIVITY",
+  "input_statement_ids": [
+    "STMT-COMPLETE-CHAIN-EXPLANATION-SELECTS-ARRANGEMENT"
+  ],
+  "output_statement_id": "STMT-ACCEPTED-ARRANGEMENT-EXPLANATIONS-ARE-TRUE",
+  "rule": "constructive-proof",
+  "meaning": "Sole-premise restriction from complete entailing selection to actual truth of every accepted candidate. True-only control witnesses strictness without independent adequacy.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.ExcludedMiddleAssertionBoundary.ExactPolicyRival.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ExcludedMiddleAssertionBoundary.ExactPolicyRival.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.ExcludedMiddleAssertionBoundary.ExactPolicyRival.exactPolicyRival"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

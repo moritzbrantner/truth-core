@@ -1,0 +1,11 @@
+{
+  "id": "TRUTHFUL-NONSELECTION-DEFEATS-EXACT-SELECTION-TARGET",
+  "argument_id": "TRUTHFUL-NONSELECTION-DEFEATS-EXACT-SELECTION-TARGET",
+  "challenge_module": "TruthCore.Results.Explanation.SelectionCoverageBoundary.RivalSelectionFailure.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.SelectionCoverageBoundary.RivalSelectionFailure.Solution",
+  "theorem": "TruthCore.Results.Explanation.SelectionCoverageBoundary.RivalSelectionFailure.rivalSelectionFailure",
+  "comparator_config": "results/TRUTHFUL-NONSELECTION-DEFEATS-EXACT-SELECTION-TARGET/comparator.json",
+  "status": "solution-present",
+  "description": "Compose the EXISTING truthful-rival checks theorem for exact negation of the SAME old selection target. Retains its actual-truth and distinct-arrangement witnesses; old rival stays full strength.",
+  "transcription": "assembly"
+}

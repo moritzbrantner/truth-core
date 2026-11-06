@@ -1,0 +1,11 @@
+{
+  "id": "EXCLUSIVE-IMMEDIATE-FOUNDING-ENTAILS-DIRECT-CALIBRATION",
+  "argument_id": "EXCLUSIVE-IMMEDIATE-FOUNDING-ENTAILS-DIRECT-CALIBRATION",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Strength.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Strength.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Strength.exclusiveImmediateWeakening",
+  "comparator_config": "results/EXCLUSIVE-IMMEDIATE-FOUNDING-ENTAILS-DIRECT-CALIBRATION/comparator.json",
+  "status": "solution-present",
+  "description": "Strength-order comparison: the exclusive Jesus-scope reading includes the minimal direct calibration. Operational calibration and positive elimination use the weaker reading; the contradiction needs the extra exclusion.",
+  "transcription": "assembly"
+}

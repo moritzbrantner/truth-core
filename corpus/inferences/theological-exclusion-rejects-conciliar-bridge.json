@@ -1,0 +1,13 @@
+{
+  "id": "INF-THEOLOGICAL-EXCLUSION-REJECTS-CONCILIAR-BRIDGE",
+  "input_statement_ids": [
+    "STMT-CONCILIAR-DEFINITIONS-ARE-THEOLOGICAL",
+    "STMT-THEOLOGY-EXCLUDED-FROM-OWN-STANDARDS",
+    "STMT-DEFINED-MOVE-EXISTS"
+  ],
+  "output_statement_id": "STMT-CONCILIAR-DEFINITION-BRIDGE-REJECTED",
+  "rule": "constructive-proof",
+  "meaning": "Compose the explicit theological-content/exclusion consequence with the actual-witness conflict. This is the exact normative bridge negation, requiring all three premises; no descriptive label or first-order-life fact alone supplies it.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

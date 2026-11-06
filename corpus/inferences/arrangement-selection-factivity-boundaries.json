@@ -1,0 +1,9 @@
+{
+  "id": "INF-ARRANGEMENT-SELECTION-FACTIVITY-BOUNDARIES",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-ARRANGEMENT-SELECTION-FACTIVITY-COVERAGE-CONTROLS",
+  "rule": "constructive-proof",
+  "meaning": "Reuse original truthful-rival controls and export exact false-only, true-only and nonempty selection-defined calibration properties for every selected arrangement. The positive calibration is explicitly analytic, not independent explanatory warrant.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

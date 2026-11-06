@@ -1,0 +1,10 @@
+{
+  "id": "INVARIANT-MEANING-WITH-ATTITUDE-LOSS-REFUTES-OCCASION",
+  "argument_id": "INVARIANT-MEANING-WITH-ATTITUDE-LOSS-REFUTES-OCCASION",
+  "challenge_module": "TruthCore.Results.Metaethics.MeaningRivalBoundary.GuardedNegative.Challenge",
+  "solution_module": "TruthCore.Results.Metaethics.MeaningRivalBoundary.GuardedNegative.Solution",
+  "theorem": "TruthCore.Results.Metaethics.MeaningRivalBoundary.GuardedNegative.guardedNegative",
+  "comparator_config": "results/INVARIANT-MEANING-WITH-ATTITUDE-LOSS-REFUTES-OCCASION/comparator.json",
+  "status": "solution-present",
+  "description": "Invariant meaning transfers a genuinely expressed attitude under the occasion thesis, contradicting the separately retained actual antecedent-loss premise at the moral witness. Reuses the exact existing failure predicate; no ValidMP premise needed."
+}

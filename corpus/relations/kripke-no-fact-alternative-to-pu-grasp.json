@@ -2,8 +2,8 @@
   "id": "REL-KRIPKE-NO-FACT-ALTERNATIVE-TO-PU-GRASP-NOT-INTERPRETATION",
   "subject_kind": "statement",
   "subject_id": "STMT-KRIPKE-NO-FACT-OF-MEANING",
-  "predicate": "alternative_to",
+  "predicate": "attacks",
   "object_kind": "statement",
   "object_id": "STMT-PU-SOME-GRASP-OF-RULE-NOT-INTERPRETATION",
-  "note": "Exegetical and philosophical rival: Kripke's sceptic takes the §201 paradox as a genuine sceptical problem with a sceptical solution, where §201 itself diagnoses a misunderstanding and points to a grasp that is not an interpretation (DISAMB-RULE-FOLLOWING-PARADOX). Off the root routes."
+  "note": "Exegetical/philosophical objection, not an exhaustive logical alternative. The full no-fact sceptical reconstruction concerns factual meaning determination and assertibility; noninterpretive grasp concerns practice/rule following and does not itself assert a fact determining a definite function. Existing interpretation-regress predicates supply an explicitly unattributed shadow of factual determination, not identities with either raw statement. No fact\u2192no noninterpretive grasp bridge or proof of incompatibility is supplied. Refuting a stronger raw reconstruction must not automatically defend the other text reading. Source strengths and internal/external scopes remain intact. See docs/notes/scientism-meaning-rival-boundary.md."
 }

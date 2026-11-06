@@ -1,0 +1,21 @@
+{
+  "id": "NEVER-OWN-DEFINITIONS-REJECT-CONCILIAR-BRIDGE",
+  "premise_statement_ids": [
+    "STMT-CONCILIAR-DEFINITIONS-NEVER-OWN-STANDARD",
+    "STMT-DEFINED-MOVE-EXISTS"
+  ],
+  "conclusion_statement_id": "STMT-CONCILIAR-DEFINITION-BRIDGE-REJECTED",
+  "inference_ids": [
+    "INF-NEVER-OWN-DEFINITIONS-REJECT-CONCILIAR-BRIDGE"
+  ],
+  "meaning": "Use the actual Defined move: the old normative bridge endorses it, while the all-nonendorsed premise denies that endorsement. A nonempty definition witness is explicit; theology is not refuted.",
+  "definition_ids": [
+    "DEF-THEOLOGICAL-CONTENT-AND-RELIGIOUS-LIFE-ROLES",
+    "DEF-CONCILIAR-DEFINITION",
+    "DEF-PRACTICE-OWN-STANDARD",
+    "DEF-CORRECT-MOVE-IN-PRACTICE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THEOLOGICAL-FORMULATION-AND-NORMATIVE-GRAMMAR"
+  ]
+}

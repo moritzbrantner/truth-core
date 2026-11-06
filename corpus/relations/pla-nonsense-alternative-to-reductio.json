@@ -2,8 +2,8 @@
   "id": "REL-PLA-NONSENSE-ALTERNATIVE-TO-REDUCTIO-READING",
   "subject_kind": "statement",
   "subject_id": "STMT-PLA-NONSENSE-READING",
-  "predicate": "alternative_to",
+  "predicate": "attacks",
   "object_kind": "statement",
   "object_id": "STMT-PLA-REDUCTIO-READING",
-  "note": "Rival readings of PU §§243-315 (SEP-PRIVATE-LANGUAGE §1.2, DISAMB-PLA-FALSE-OR-NONSENSE): a private language is false (reductio) or nonsense (Baker). Neither denies that sensations or thoughts occur (STMT-PU-SENSATION-NOT-SOMETHING-NOT-NOTHING, STMT-PU-MENTAL-PROCESSES-NOT-DENIED)."
+  "note": "Unverified interpretive objection between full-strength readings of the private-language TEXT, not an exhaustive disjunction of object-level verdicts or a proved negation of the reductio interpretation. A diagnosis of nonsense is not simply falsity; passage, object language, meaning criterion and argument strategy would need to be fixed to establish incompatibility. Other interpretations or mixed strategies are not ruled out. No inference to thought nonoccurrence and no source winner is asserted; the existing disambiguation preserves both readings. Reclassified attacks so hypothetical refutation of one raw reading cannot automatically defend the other through finite-alternative closure."
 }

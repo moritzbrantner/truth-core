@@ -1,1 +1,9 @@
-{"id": "REL-EXPRESSIVIST-MEANING-ALTERNATIVE-TO-EMOTIVIST-MEANING", "subject_kind": "statement", "subject_id": "STMT-EXPRESSIVIST-MORAL-MEANING-INVARIANT", "predicate": "alternative_to", "object_kind": "statement", "object_id": "STMT-EMOTIVIST-MEANING-IS-EXPRESSED-ATTITUDE"}
+{
+  "id": "REL-EXPRESSIVIST-MEANING-ALTERNATIVE-TO-EMOTIVIST-MEANING",
+  "subject_kind": "statement",
+  "subject_id": "STMT-EMOTIVIST-MEANING-FAILS",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-EMOTIVIST-MEANING-IS-EXPRESSED-ATTITUDE",
+  "note": "Exact existing occasion-meaning negation, not raw invariant meaning. INVARIANT-MEANING-WITH-ATTITUDE-LOSS-REFUTES-OCCASION retains full invariant meaning, existing free attitude expression, actual antecedent loss and the moral witness; without actual loss both accounts coexist with constant Expresses. No source meanings weakened or complete theories identified."
+}

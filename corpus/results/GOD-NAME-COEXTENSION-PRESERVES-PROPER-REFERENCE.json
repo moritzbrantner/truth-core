@@ -1,0 +1,11 @@
+{
+  "id": "GOD-NAME-COEXTENSION-PRESERVES-PROPER-REFERENCE",
+  "argument_id": "GOD-NAME-COEXTENSION-PRESERVES-PROPER-REFERENCE",
+  "challenge_module": "TruthCore.Results.Alternatives.NameApplicationTransfer.Strength.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.NameApplicationTransfer.Strength.Solution",
+  "theorem": "TruthCore.Results.Alternatives.NameApplicationTransfer.Strength.coextensionPreserves",
+  "comparator_config": "results/GOD-NAME-COEXTENSION-PRESERVES-PROPER-REFERENCE/comparator.json",
+  "status": "solution-present",
+  "description": "Project the proper-to-practice direction of each shared-extension equivalence. This registers the strong-to-weak comparison; no identity of meanings is inferred.",
+  "transcription": "assembly"
+}

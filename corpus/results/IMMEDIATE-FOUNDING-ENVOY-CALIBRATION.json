@@ -1,0 +1,10 @@
+{
+  "id": "IMMEDIATE-FOUNDING-ENVOY-CALIBRATION",
+  "argument_id": "IMMEDIATE-FOUNDING-ENVOY-CALIBRATION",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Immediate.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Immediate.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Immediate.immediateCalibration",
+  "comparator_config": "results/IMMEDIATE-FOUNDING-ENVOY-CALIBRATION/comparator.json",
+  "status": "solution-present",
+  "description": "Under direct-only calibration, the old envoy bridge holds exactly when every relevant commissioned Jesus event is also a direct founding. This is a conditional equivalence, not a claim that directness forces either compatibility or incompatibility."
+}

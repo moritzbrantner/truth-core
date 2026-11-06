@@ -1173,13 +1173,35 @@ class FrontierCorpusTest(unittest.TestCase):
         report = json.loads(self.run_frontier("--json", "--reaching-root"))
         self.assertTrue(report["root_known"])
         ids = {item["statement_id"] for item in report["items"]}
-        # #357: the founding bridge is derived from four typed premises, and
-        # its scope premise from its Catholic-Church instance and stage 6. That
-        # instance's derivation from the commission reports is a transcription
-        # with open premises, so it stays open beside them.
+        # #357 decomposes the founding bridge. The later named-criterion
+        # elimination also connects its Catholic-Church scope instance, but
+        # that connection does not establish the target or its open inputs.
         self.assertNotIn("STMT-BRIDGE-CHRISTS-CHURCH-FOUNDED-BY-GOD", ids)
         self.assertNotIn("STMT-MANDATE-COVERS-JESUS-FOUNDING-WITH-TEACHING", ids)
-        self.assertIn("STMT-MANDATE-COVERS-JESUS-FOUNDING-OF-CATHOLIC-CHURCH", ids)
+        target = "STMT-MANDATE-COVERS-JESUS-FOUNDING-OF-CATHOLIC-CHURCH"
+        proof_id = "COMMISSION-NAMED-CRITERION-ELIMINATION-SUPPLIES-SCOPE"
+        self.assertNotIn(target, ids)
+        self.assertIn(target, report["reaching_root_statements"])
+        self.assertEqual(report["closed_statements"][target], "proved")
+        self.assertNotIn(target, report["established_statements"])
+        arguments = {record["id"]: record for _, record in corpus.load_dir("arguments")}
+        results = {record["id"]: record for _, record in corpus.load_dir("results")}
+        self.assertEqual(results[proof_id]["argument_id"], proof_id)
+        self.assertEqual(results[proof_id]["status"], "solution-present")
+        self.assertEqual(results[proof_id]["theorem"],
+                         "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Elimination.namedEliminationSuppliesScope")
+        self.assertNotIn(proof_id, report["transcription_results"])
+        self.assertEqual(arguments[proof_id]["conclusion_statement_id"], target)
+        explicit_inputs = {
+            "STMT-COMMISSION-NAMED-GOVERNANCE-CRITERIA-COVER",
+            "STMT-COMMISSION-NARROW-GOVERNANCE-CRITERION-FAILS",
+            "STMT-MATTHEW28-COMMISSION-GOES-BACK-TO-JESUS",
+            "STMT-CHURCH-INSTITUTION-LINK-FOR-SELECTED-GOVERNANCE",
+        }
+        self.assertEqual(set(arguments[proof_id]["premise_statement_ids"]), explicit_inputs)
+        self.assertTrue(explicit_inputs <= ids)
+        self.assertTrue(explicit_inputs <= set(report["reaching_root_statements"]))
+        self.assertFalse(explicit_inputs & set(report["established_statements"]))
         self.assertIn("STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS", ids)
         self.assertIn("STMT-CHURCH-FOUNDED-IN-COMMISSIONED-APOSTLES", ids)
         # The designated root route (root_route, #143 2026-10-24) takes stage 1

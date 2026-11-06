@@ -1,0 +1,11 @@
+{
+  "id": "DESCRIPTIVE-GRAMMAR-SUPPLIES-THEOLOGICAL-CONTENT",
+  "argument_id": "DESCRIPTIVE-GRAMMAR-SUPPLIES-THEOLOGICAL-CONTENT",
+  "challenge_module": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Description.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Description.Solution",
+  "theorem": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Description.descriptionSuppliesTheology",
+  "comparator_config": "results/DESCRIPTIVE-GRAMMAR-SUPPLIES-THEOLOGICAL-CONTENT/comparator.json",
+  "status": "solution-present",
+  "description": "Project the theological-content component of the modest descriptive profile. Assembly transcription/sole-premise strength; the normative exclusion is still separate.",
+  "transcription": "assembly"
+}

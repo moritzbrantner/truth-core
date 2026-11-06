@@ -1,0 +1,9 @@
+{
+  "id": "REL-SPIRITUAL-CHURCH-CRITERION-FAILURE-ALTERNATIVE-TO-CALIBRATION",
+  "subject_kind": "statement",
+  "subject_id": "STMT-CHURCH-SPIRITUAL-CRITERION-FAILS",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-CHURCH-HAS-SPIRITUAL-CRITERION",
+  "note": "Exact negation of this fixed spiritual calibration; mere insufficiency for the visible stage target is not this negation."
+}

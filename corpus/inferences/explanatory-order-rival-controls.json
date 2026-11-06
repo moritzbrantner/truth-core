@@ -1,0 +1,9 @@
+{
+  "id": "INF-EXPLANATORY-ORDER-RIVAL-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-EXPLANATORY-ORDER-RIVAL-CONTROLS",
+  "rule": "constructive-proof",
+  "meaning": "Exact populated-both, empty-both and populated-neither controls retain asymmetry status and moral witnesses. They block inferring preferred order merely by refuting a stronger raw account.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

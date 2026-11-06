@@ -1,1 +1,9 @@
-{"id":"REL-EXCLUDED-MIDDLE-DENIAL-ALTERNATIVE-TO-EXCLUDED-MIDDLE","subject_kind":"statement","subject_id":"STMT-SOME-EXCLUDED-MIDDLE-INSTANCE-FAILS","predicate":"alternative_to","object_kind":"statement","object_id":"STMT-EXCLUDED-MIDDLE"}
+{
+  "id": "REL-EXCLUDED-MIDDLE-DENIAL-ALTERNATIVE-TO-EXCLUDED-MIDDLE",
+  "subject_kind": "statement",
+  "subject_id": "STMT-SOME-EXCLUDED-MIDDLE-INSTANCE-FAILS",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-EXCLUDED-MIDDLE",
+  "note": "This is explicit instance denial, ∃p,¬(p∨¬p), not the global negation ¬∀p,(p∨¬p). Its constructive refutation proves no instance deniable, not general EM. The separate exact global complement STMT-NOT-EXCLUDED-MIDDLE remains unrefuted; this finite opposition list is not an independent coverage proof."
+}

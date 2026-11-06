@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.ChurchDefinitions.Coverage.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.ChurchDefinitions.Coverage.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Case.Catholicism.StageThree.ChurchDefinitions.Coverage.criterionCoverage"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

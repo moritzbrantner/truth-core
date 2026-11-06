@@ -1,0 +1,11 @@
+{
+  "id": "MATTHEW28-WITH-TEACHING-GOVERNANCE-SUPPLIES-MANDATE-SCOPE",
+  "argument_id": "MATTHEW28-WITH-TEACHING-GOVERNANCE-SUPPLIES-MANDATE-SCOPE",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Scope.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Scope.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Scope.matthew28AndTeachingCriterionSupplyScope",
+  "comparator_config": "results/MATTHEW28-WITH-TEACHING-GOVERNANCE-SUPPLIES-MANDATE-SCOPE/comparator.json",
+  "status": "solution-present",
+  "description": "Single-application transcription with explicit criterion: Matthew 28 gives teaching; the teaching-inclusive calibration makes that power governing; only the matching institutional bridge supplies founding-in-mandate and teaching commission for the old Catholic narrow scope. All three premises remain open.",
+  "transcription": "single_application"
+}

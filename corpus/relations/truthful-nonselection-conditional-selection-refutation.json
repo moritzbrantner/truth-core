@@ -1,0 +1,9 @@
+{
+  "id": "REL-TRUTHFUL-NONSELECTION-CONDITIONAL-SELECTION-REFUTATION",
+  "subject_kind": "argument",
+  "subject_id": "TRUTHFUL-NONSELECTION-DEFEATS-EXACT-SELECTION-TARGET",
+  "predicate": "refutes",
+  "object_kind": "statement",
+  "object_id": "STMT-COMPLETE-CHAIN-EXPLANATION-SELECTS-ARRANGEMENT",
+  "note": "Checked matching-profile conditional contradiction only. The actual accepted-countercase premise remains OPEN; this is no independent metaphysical refutation or warrant for an explanatory judgment."
+}

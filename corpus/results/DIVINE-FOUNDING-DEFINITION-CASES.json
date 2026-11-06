@@ -1,0 +1,32 @@
+{
+  "id": "DIVINE-FOUNDING-DEFINITION-CASES",
+  "argument_id": "DIVINE-FOUNDING-DEFINITION-CASES",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Coverage.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Coverage.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Coverage.readingCoverage",
+  "comparator_config": "results/DIVINE-FOUNDING-DEFINITION-CASES/comparator.json",
+  "status": "solution-present",
+  "description": "Logical case coverage with a precise remainder follows by two instances of excluded middle. It neither eliminates a case nor proves named-only coverage.",
+  "transcription": "instantiation",
+  "case_split": {
+    "target_statement_id": "STMT-DIVINE-FOUNDING-IS-ENVOY-INCLUSIVE",
+    "cases": [
+      {
+        "label": "direct-only calibration",
+        "lean_declaration": "TruthCore.Case.Catholicism.StageThree.FoundingDefinitions.ImmediateOnlyReading",
+        "statement_id": "STMT-DIVINE-FOUNDING-IS-IMMEDIATE-ONLY"
+      },
+      {
+        "label": "Jesus-envoy-inclusive calibration",
+        "lean_declaration": "TruthCore.Case.Catholicism.StageThree.FoundingDefinitions.EnvoyInclusiveReading",
+        "statement_id": "STMT-DIVINE-FOUNDING-IS-ENVOY-INCLUSIVE"
+      },
+      {
+        "label": "neither named extension",
+        "lean_declaration": "TruthCore.Case.Catholicism.StageThree.FoundingDefinitions.AdditionalFoundingReading",
+        "statement_id": "STMT-DIVINE-FOUNDING-HAS-ADDITIONAL-READING"
+      }
+    ],
+    "survival_result_id": "DIVINE-FOUNDING-DEFINITION-MODELS"
+  }
+}

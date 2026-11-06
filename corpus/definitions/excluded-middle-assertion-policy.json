@@ -1,0 +1,8 @@
+{
+  "id": "DEF-EXCLUDED-MIDDLE-ASSERTION-POLICY",
+  "term": "universal assertion of excluded-middle instances",
+  "definition": "Every supplied stage asserts every instance p-or-not-p. The exact negative policy proposition denies this universal. No assertion norm, known proof, warrant, source attribution or bridge from logical holding is assumed.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.ExcludedMiddleAssertionBoundary.AllInstancesAsserted",
+  "note": "Analyst scope clarification of existing vocabulary; source claims untouched. See docs/notes/excluded-middle-assertion-boundary.md."
+}
