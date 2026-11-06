@@ -1,0 +1,14 @@
+{
+  "id": "STMT-CAUSAL-COUNTER-WITNESS-WORLD-IS-SELECTED",
+  "paraphrase": "OPEN world identification: the supplied counter-witness world is the selected world. Accessibility or mere possibility is not substituted for this equality.",
+  "lean_declaration": "TruthCore.Causality.CausalConcreteRivalBoundary.CounterWorldIsSelected",
+  "definition_ids": [
+    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE",
+    "DEF-CONCRETE-ESSE-IN-RE",
+    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ]
+}

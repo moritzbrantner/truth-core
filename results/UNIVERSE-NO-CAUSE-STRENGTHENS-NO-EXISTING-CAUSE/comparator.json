@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.UncausedStrength.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.UncausedStrength.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.UncausedStrength.uncausedStrength"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

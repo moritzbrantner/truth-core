@@ -1,0 +1,9 @@
+{
+  "id": "REL-WHOLE-CAUSER-ACTUALITY-EXACT-ALTERNATIVE",
+  "subject_kind": "statement",
+  "subject_id": "STMT-SELECTED-WHOLE-CAUSER-ACTUALITY-FAILS",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-SELECTED-WHOLE-CAUSERS-ACTUALLY-EXIST",
+  "note": "Exact matching-scope unrefuted negative, not a presumed complete list of historical accounts."
+}

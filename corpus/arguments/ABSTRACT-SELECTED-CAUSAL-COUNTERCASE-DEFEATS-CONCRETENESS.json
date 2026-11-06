@@ -1,0 +1,19 @@
+{
+  "id": "ABSTRACT-SELECTED-CAUSAL-COUNTERCASE-DEFEATS-CONCRETENESS",
+  "premise_statement_ids": [
+    "STMT-CAUSAL-CONCRETE-PREDICATE-MATCHES-ESSE",
+    "STMT-SELECTED-NO-ESSE-CAUSAL-COUNTERCASE"
+  ],
+  "conclusion_statement_id": "STMT-SELECTED-CAUSAL-CONCRETENESS-COMMITMENT-FAILS",
+  "inference_ids": [
+    "INF-ABSTRACT-SELECTED-CAUSAL-COUNTERCASE-DEFEATS-CONCRETENESS"
+  ],
+  "meaning": "A no-esse capacity or productive-causer witness contradicts the SAME original two-clause commitment only with the explicit concrete/esse calibration.",
+  "definition_ids": [
+    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ]
+}

@@ -44,5 +44,8 @@
     "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
     "DISAMB-EXISTENCE-ESSE-SUPPORT",
     "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"
-  ]
+  ],
+  "strong_version_needed": {
+    "STMT-CAUSES-HAVE-ACTUAL-ENDPOINTS-AT": "This assembles the old actual-cover theorem on concreteOntic with a cover witness under scoped NoNE. No mapped spacetime whole is given on that concrete carrier, so the new whole-specific policy cannot substitute for the old input without additional correspondence. No both-endpoint minimality claimed."
+  }
 }

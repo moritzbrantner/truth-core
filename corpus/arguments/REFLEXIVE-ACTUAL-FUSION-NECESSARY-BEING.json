@@ -28,5 +28,8 @@
   "disambiguation_ids": [
     "DISAMB-ACTUAL-FUSION-BARE-NE-AND-NECESSARY-CAUSE",
     "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY"
-  ]
+  ],
+  "strong_version_needed": {
+    "STMT-CAUSES-HAVE-ACTUAL-ENDPOINTS-AT": "The proof uses causer actuality at the supplied actual fusion sum, independently of its modal actualization step. No spacetime-whole identification is present, so the new whole-specific policy is insufficient as stated. Frozen interface retained; no minimality claim for both-endpoint scope."
+  }
 }

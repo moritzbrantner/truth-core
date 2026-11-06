@@ -1,0 +1,14 @@
+{
+  "id": "STMT-ACTUAL-MOVED-NOT-POTENT-COUNTERTUPLE",
+  "paraphrase": "Some actual moved tuple is not in potency in the SAME respect under the supplied MovedIn/InPotency dictionary. Exact analyst countertuple only: it does not assert divine re-creation, a full occasionalist ontology or an attributed source interpretation.",
+  "lean_declaration": "TruthCore.Alternatives.MegarianMovedPotencyBoundary.Countertuple",
+  "definition_ids": [
+    "DEF-MEGARIAN-MOVED-POTENCY-INTERPRETATION-BOUNDARY",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-POTENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION",
+    "DISAMB-POTENCY"
+  ]
+}

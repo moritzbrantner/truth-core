@@ -1,0 +1,14 @@
+{
+  "id": "STMT-SELECTED-MATHEMATICAL-RELEVANCE-WITNESS",
+  "paraphrase": "A supplied mathematical fact is relevant to an outcome. Relevance is independently supplied and may be explanatory rather than productive.",
+  "lean_declaration": "TruthCore.Causality.CausalConcreteRivalBoundary.MathRelevance",
+  "definition_ids": [
+    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE",
+    "DEF-CONCRETE-ESSE-IN-RE",
+    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ]
+}

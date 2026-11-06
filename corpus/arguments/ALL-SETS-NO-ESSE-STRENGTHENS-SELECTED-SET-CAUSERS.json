@@ -1,0 +1,18 @@
+{
+  "id": "ALL-SETS-NO-ESSE-STRENGTHENS-SELECTED-SET-CAUSERS",
+  "premise_statement_ids": [
+    "STMT-ALL-SUPPLIED-SETS-LACK-ESSE"
+  ],
+  "conclusion_statement_id": "STMT-SELECTED-SET-CAUSERS-LACK-ESSE",
+  "inference_ids": [
+    "INF-ALL-SETS-NO-ESSE-STRENGTHENS-SELECTED-SET-CAUSERS"
+  ],
+  "meaning": "Sole-premise restriction of the stronger classification to selected productive set-causers; weaker premise is used by the actual route.",
+  "definition_ids": [
+    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ]
+}

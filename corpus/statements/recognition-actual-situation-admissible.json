@@ -1,0 +1,15 @@
+{
+  "id": "STMT-RECOGNITION-ACTUAL-SITUATION-ADMISSIBLE",
+  "paraphrase": "The distinguished actual situation belongs to the selected admissible-situation domain. This is a separate profile assumption; actual cut-off is not implied by insulation of a domain that omits actuality.",
+  "lean_declaration": "TruthCore.Alternatives.RevelationRecognition.ActualAdmissible",
+  "definition_ids": [
+    "DEF-REVELATION-RECOGNITION-PROFILE",
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-WITTGENSTEINIAN-FIDEISM",
+    "DEF-NATURAL-REASON-SHARED"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REVELATION-CAPABILITY-AND-PRACTICE-UPTAKE",
+    "DISAMB-PRACTICE-SENSITIVITY-AND-FIDEIST-INSULATION"
+  ]
+}

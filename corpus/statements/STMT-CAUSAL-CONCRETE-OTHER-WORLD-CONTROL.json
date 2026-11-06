@@ -1,0 +1,14 @@
+{
+  "id": "STMT-CAUSAL-CONCRETE-OTHER-WORLD-CONTROL",
+  "paraphrase": "Exact anchored calibrated profile contains a no-esse productive cause at another world while the selected-world commitment holds and has no selected countercase. All candidates exist in both worlds; no absent endpoint trick is used.",
+  "lean_declaration": "TruthCore.Causality.CausalConcreteRivalBoundary.WorldControl",
+  "definition_ids": [
+    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE",
+    "DEF-CONCRETE-ESSE-IN-RE",
+    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+  ]
+}

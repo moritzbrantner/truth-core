@@ -1,0 +1,11 @@
+{
+  "id": "UNIVERSE-NO-CAUSE-STRENGTHENS-NO-EXISTING-CAUSE",
+  "argument_id": "UNIVERSE-NO-CAUSE-STRENGTHENS-NO-EXISTING-CAUSE",
+  "challenge_module": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.UncausedStrength.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.UncausedStrength.Solution",
+  "theorem": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.UncausedStrength.uncausedStrength",
+  "comparator_config": "results/UNIVERSE-NO-CAUSE-STRENGTHENS-NO-EXISTING-CAUSE/comparator.json",
+  "status": "solution-present",
+  "description": "Sole-premise scope order: no causal edge implies no existing causer. The absent-edge control rejects the converse on a generic signature while expressly violating the intended actuality policy.",
+  "transcription": "instantiation"
+}

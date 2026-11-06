@@ -1,0 +1,23 @@
+{
+  "id": "RECOGNITION-REALIZATION-FROM-CANDIDATE-COVERAGE",
+  "premise_statement_ids": [
+    "STMT-CANDIDATE-RECOGNITION-REALIZED",
+    "STMT-ADMISSIBLE-RECOGNITION-COVERAGE"
+  ],
+  "conclusion_statement_id": "STMT-RECOGNIZABLE-CAPACITY-REALIZED",
+  "inference_ids": [
+    "INF-RECOGNITION-REALIZATION-FROM-CANDIDATE-COVERAGE"
+  ],
+  "meaning": "Assembly transcription: candidate recognition supplies a witness and the explicit admitted-subset coverage premise supplies an admitted witness. Both coverage of the selected carrier and its applicability stay open.",
+  "definition_ids": [
+    "DEF-REVELATION-RECOGNITION-PROFILE",
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-WITTGENSTEINIAN-FIDEISM",
+    "DEF-NATURAL-REASON-SHARED",
+    "DEF-REVELATION-ACTUAL-PRACTICE-RECOGNITION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REVELATION-CAPABILITY-AND-PRACTICE-UPTAKE",
+    "DISAMB-PRACTICE-SENSITIVITY-AND-FIDEIST-INSULATION"
+  ]
+}

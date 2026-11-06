@@ -1,0 +1,9 @@
+{
+  "id": "REL-COLLECTIVE-POSSIBILITY-COUNTERCASE-CONDITIONAL-REFUTATION",
+  "subject_kind": "argument",
+  "subject_id": "COLLECTIVE-POSSIBILITY-FAILS-FROM-DECIDING-INPUTS",
+  "predicate": "refutes",
+  "object_kind": "statement",
+  "object_id": "STMT-ALL-CAN-NOT-BE-THEN-NOTHING-POSSIBLE",
+  "note": "Conditional counterexample only: both independent semantic inputs remain OPEN, so this is no independent refutation."
+}
