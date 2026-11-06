@@ -489,3 +489,259 @@ source-only possible-causer plurality remains an explicitly separate reading,
 not a detected current typed quantifier exchange. Full source/argument use-level
 coverage and final integrated additions still need their precise dispositions;
 the completed resolution-text sweep does not substitute for those tasks.
+
+
+### Exact rival-edge dispositions and remaining use coverage
+
+This ledger revisits every **57 baseline** `alternative_to` record at
+85e1e24371136494f8ee937534155f751f0527ca. The integrated comparison snapshot is
+`c39cdc1c8b2b10abbb5efa658f5dff07220eed4f`. “Pending” identifies a published correction that is not in this
+snapshot; it is not an assertion that the old endpoint has already changed.
+The table records consequential scope and proof boundaries, not merely shared
+words. Existing source accounts, approvals and frozen Challenges remain intact.
+
+| Baseline relation ID | Integrated relation | Disposition / exact remaining boundary |
+|---|---|---|
+| `REL-CHANGE-UNREAL-BUT-APPEARS-ALTERNATIVE-TO-SOMETHING-IS-MOVED-IN-THIS-WORLD` | alternative_to | Exact no-movement complement also exists (row 30); stronger appearance bundle is not the whole opposition. |
+| `REL-PERPETUAL-SUCCESSION-ALTERNATIVE-TO-COLLECTIVE-POSSIBILITY` | alternative_to | #1147 preserves full succession story and adds the exact collective negative; positive method is not a rival. |
+| `REL-COUNCIL-TEACHING-THEOLOGY-ALTERNATIVE-TO-CONCILIAR-DEFINITION-OWN-STANDARD` | alternative_to | #1150 requires an actual defined move and matching exclusion before the exact practice-standard negative. |
+| `REL-INTUITIONISM-ALTERNATIVE-TO-EXCLUDED-MIDDLE` | alternative_to | #1137 separates withholding/assertion policy from logical denial and retains unrefuted global ¬EM. |
+| `REL-TRUTH-IS-PROVABILITY-ALTERNATIVE-TO-THOUGHT-TRUE-BY-COMPOSITION` | removed | #1149 removes automatic rivalry: provability and composition-based truth classification can coexist. |
+| `REL-PHILLIPS-LATE-ALTERNATIVE-TO-FACE-VALUE-THEORY` | alternative_to | #1159 pending: distinguish local face-value semantics from cross-discourse uniformity; raw P2 alone is insufficient. |
+| `REL-CHANGE-WITHOUT-ANY-MOVER-ALTERNATIVE-TO-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER` | alternative_to | Exact moved-with-no-fitting-mover countertuple under the same motion and mover predicates. |
+| `REL-KRIPKE-NO-FACT-ALTERNATIVE-TO-PU-GRASP-NOT-INTERPRETATION` | attacks | #1154 makes this interpretive attacks: no-fact report does not negate noninterpretive grasp by itself. |
+| `REL-OCCASIONALIST-MOVER-LINK-WITHOUT-CAUSE-ALTERNATIVE-TO-PER-SE-MOVER-LINK-IS-PER-SE-CAUSE-LINK` | alternative_to | Exact link/noncause envelope in the same per-se predicates; not a formalization of every occasionalist doctrine. |
+| `REL-GLOBAL-EPISTEMIC-NIHILISM-ALTERNATIVE-TO-THERE-ARE-EPISTEMIC-REASONS` | alternative_to | Exact ∀ no-reason versus ∃ reason in the same reason relation; F6 approval preserved. |
+| `REL-MAXIME-ADDITIONAL-OPPOSES-COVERAGE` | alternative_to | Actual additional scoped definition opposes named coverage only; existing certified maxime fork reused. |
+| `REL-WF-CUT-OFF-ALTERNATIVE-TO-REVELATION-RECOGNIZABLE` | alternative_to | #1136 distinguishes actual/possible recognition, admitted situations and capability/nonempty God guards. |
+| `REL-UNQUALIFIED-ALL-OPINIONS-TRUE-ALTERNATIVE-TO-ITS-FAILURE` | alternative_to | Exact doctrine versus its negation; self-application remains conditional on explicit scope/disquotation. |
+| `REL-ACTUALITY-WITHOUT-BEING-ALTERNATIVE-TO-ACTUALITY-ONLY-INSOFAR-AS-BEING` | alternative_to | Exact actual-without-esse countertuple under the same InAct/respect dictionary. |
+| `REL-SOME-POTENCY-NOT-BEING-ACTUALIZED-ALTERNATIVE-TO-EVERY-POTENCY-IS-BEING-ACTUALIZED` | alternative_to | Exact inactive-potency countertuple; adopted/generic potency and Night admissibility remain distinct. |
+| `REL-TELEONOMY-ALTERNATIVE-TO-NON-COGNITIVE-TENDING-NEEDS-KNOWING-DIRECTOR` | alternative_to | #1139 requires actual unguided tending and an explanatory exclusion bridge; natural mechanism alone is compatible. |
+| `REL-MOVED-WITHOUT-POTENCY-ALTERNATIVE-TO-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY` | alternative_to | #1153 preserves full occasionalist candidate and projects only its envelope into an exact analyst countertuple. |
+| `REL-MEASURE-DOCTRINE-ALTERNATIVE-TO-ITS-FAILURE` | alternative_to | Exact qualified doctrine versus its negation; does not eliminate relativism without the scope concession. |
+| `REL-UNIVERSE-UNCAUSED-ALTERNATIVE-TO-UNIVERSE-CAUSED` | alternative_to | #1155 distinguishes no edge from no existing causer; selected causer actuality is separate. |
+| `REL-TLP-GOD-SENTENCES-ALTERNATIVE-TO-NATURAL-THEOLOGY-ARGUABLE` | attacks | #1149 makes raw source thesis an attacks edge; matched semantic/warrant bridges connect a typed negative. |
+| `REL-POTENCY-PRIOR-TO-ACT-ALTERNATIVE-TO-ACT-SIMPLY-PRIOR-TO-POTENCY` | alternative_to | Exact same-respect classical counterpattern to actual-prior witness; independent priority investigation remains open. |
+| `REL-PER-SE-CAUSAL-LOOP-ALTERNATIVE-TO-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES` | alternative_to | Loop is a stronger failure case; row 54 and #1156 supply classical descending-chain coverage. |
+| `REL-PHILLIPS-NO-OBJECT-ALTERNATIVE-TO-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD` | alternative_to | #1132 pending: actual proper-name witness and matching transfer connect the practice-internal reading to exact naming failure. |
+| `REL-SOME-MEANINGFUL-NEGATION-DOUBLE-NEGATION-NOT-MEANINGFUL-ALTERNATIVE-TO-CLOSURE-WEAK` | alternative_to | Exact failure of the weak meaningfulness closure, same content and negation dictionary. |
+| `REL-STRONG-SCIENTISM-ALTERNATIVE-TO-NON-EMPIRICAL-KNOWLEDGE` | alternative_to | #1154 requires relevant scope coverage; all, pointwise and existential sufficient forms are distinguished. |
+| `REL-UNSELECTED-EXPLANATION-ALTERNATIVE-TO-SELECTION` | alternative_to | #1157 adds accepted-false cases and factivity; truthful nonselection alone is not exhaustive. |
+| `REL-GLOBAL-NO-ABSOLUTE-TRUTH-ALTERNATIVE-TO-SOME-ABSOLUTE-TRUTH` | alternative_to | Exact ∀ no-absolute-truth versus ∃ absolute truth in one predicate; source-concession guards remain. |
+| `REL-CONCRETE-NOT-SPATIOTEMPORAL-ALTERNATIVE-TO-N2` | alternative_to | Exact selected concrete-outside-spacetime countertuple for N2, not every naturalism variant. |
+| `REL-CHANGE-UNREAL-BUT-APPEARS-ALTERNATIVE-TO-OPINION-IS-A-MOTION` | alternative_to | #1160 adds the exact local opiner countertuple; global no-motion-with-appearance is strictly stronger. |
+| `REL-PLATONIC-FORMS-ARE-EFFICIENT-CAUSES-ALTERNATIVE-TO-CAUSAL-POWER-CONCRETENESS` | attacks | #1152 replaces automatic rivalry by no-esse/productive/world guards; full Forms claim preserved. |
+| `REL-ELEATIC-NOTHING-IS-MOVED-ALTERNATIVE-TO-SOMETHING-IS-MOVED-IN-THIS-WORLD` | alternative_to | Exact same-signature no-movement complement, without attributing every historical Eleatic commitment. |
+| `REL-MATHEMATICAL-FACTS-ARE-CAUSALLY-RELEVANT-ALTERNATIVE-TO-CAUSAL-POWER-CONCRETENESS` | attacks | #1152 distinguishes explanatory relevance from productive causation and selected-world no-esse. |
+| `REL-SOME-CASE-PREDICATE-CONTRADICTION-ALTERNATIVE-TO-CASE-NON-CONTRADICTION` | alternative_to | Exact native-classical predicate contradiction; not a rejection of every paraconsistent logic. |
+| `REL-PAST-IS-FINITE-ALTERNATIVE-TO-PAST-IS-INFINITE` | alternative_to | #1156 proves the pointwise predecessor/no-predecessor fork under EM; not cardinal or physical finitude. |
+| `REL-ACT-AND-POTENCY-IN-SAME-RESPECT-ALTERNATIVE-TO-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT` | alternative_to | Exact same-respect act/potency countertuple; #1125 preserves adopted versus generic senses. |
+| `REL-EXCLUDED-MIDDLE-DENIAL-ALTERNATIVE-TO-EXCLUDED-MIDDLE` | alternative_to | #1137 distinguishes explicit denied instance from the global ¬∀EM complement; no intuitionist attribution. |
+| `REL-PLA-NONSENSE-ALTERNATIVE-TO-REDUCTIO-READING` | attacks | #1149 treats source interpretation as attacks, not automatic formal opposition/exhaustion. |
+| `REL-QUASI-REALIST-MINIMAL-TRUTH-ALTERNATIVE-TO-REALIST-ROBUST-TRUTH` | alternative_to | #1135 requires a shared moral witness and links exact negative; empty moral scope can overlap. |
+| `REL-PHILLIPS-NO-OBJECT-ALTERNATIVE-TO-UNIQUE-MAXIME-ENS` | alternative_to | #1132 pending: same proper-name transfer/witness boundary as row 22, for the maxime target. |
+| `REL-SOME-MEANINGFUL-NEGATION-NOT-MEANINGFUL-ALTERNATIVE-TO-CLOSURE-STRONG` | alternative_to | Exact failure of strong meaningfulness closure; approved strong/weak authority unchanged. |
+| `REL-TERTIA-VIA-STEP-QUANTIFIER-SHIFT-READING-ALTERNATIVE-TO-PLENITUDE-READING` | attacks | #1156 makes textual interpretation attacks; refuting a quantifier-shift reading does not license plenitude. |
+| `REL-QUANTIFIER-SHIFT-ALTERNATIVE-TO-COLLECTIVE-POSSIBILITY` | removed | #1147 removes a positive proposed proof method from opposition; original schema/refutation preserved. |
+| `REL-MCTAGGART-UNREALITY-OF-TIME-ALTERNATIVE-TO-SOMETHING-CHANGES` | alternative_to | #1156 adds exact general NoChange; stronger source bundle has two separately bound AND commitments. |
+| `REL-EXPRESSIVIST-MEANING-ALTERNATIVE-TO-EMOTIVIST-MEANING` | alternative_to | #1154 exposes constant-expression coexistence and actual free-standing/embedded-loss/moral-witness guards. |
+| `REL-PHILLIPS-NO-OBJECT-ALTERNATIVE-TO-FULLY-DESCRIBED-PRINCIPLE` | alternative_to | #1132 pending: same proper-name transfer/witness boundary as row 22, for the fully described target. |
+| `REL-JESUS-MANDATE-COVERS-ONLY-MESSAGE-ALTERNATIVE-TO-COMMISSION-REPORTS-GO-BACK-TO-JESUS` | alternative_to | #1158 pending: actual historical/commission witnesses and weak governing link are required; full raw claim preserved. |
+| `REL-MOVED-MOVER-MOVES-NOT-AS-MOVED-ALTERNATIVE-TO-SECOND-MOVERS-MOVE-ONLY-AS-MOVED` | alternative_to | Exact countertuple to the strong as-moved link; 17 actual strong-version consumers are separately reserved for audit. |
+| `REL-ANTIREALIST-ORDER-ALTERNATIVE-TO-REALIST-ORDER-OF-EXPLANATION` | alternative_to | #1149 requires matching direction, asymmetry and an actual moral witness; directions can otherwise coexist. |
+| `REL-SOME-CAUSE-LACKS-ESSE-IN-RE-ALTERNATIVE-TO-CAUSAL-POWER-CONCRETENESS` | attacks | #1152 exposes selected-world mapping; an other-world abstract cause alone does not defeat this owner commitment. |
+| `REL-INERTIAL-UNIFORM-MOTION-WITHOUT-MOVER-ALTERNATIVE-TO-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER` | alternative_to | Inertial subclass is stronger; row 6 already gives exact general countertuple; becoming/state bridges stay explicit. |
+| `REL-JESUS-MANDATE-COVERS-ONLY-MESSAGE-ALTERNATIVE-TO-MANDATE-SCOPE-OF-CATHOLIC-CHURCH` | alternative_to | #1158 pending: actual mandate/founding/visible witness is required; raw OnlyMessage can coexist vacuously. |
+| `REL-UNIVERSAL-DOUBT-ALTERNATIVE-TO-UNIVERSAL-DOUBT-FAILS` | alternative_to | Exact universal-doubt proposition versus its negation; hinge/OC bridges remain open. |
+| `REL-MEGARIAN-ABILITY-ONLY-WHEN-ACTING-ALTERNATIVE-TO-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY` | attacks | #1153 makes Megarian objection guarded by actual motion and weak SAME-sense moved-tuple analysis. |
+| `REL-SOME-CAUSES-ARE-SETS-ALTERNATIVE-TO-CAUSAL-POWER-CONCRETENESS` | attacks | #1152 requires productive/no-esse/world guards and removes unsupported universal impure-set source inference. |
+| `REL-INFINITE-PER-SE-CAUSE-SERIES-ALTERNATIVE-TO-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES` | alternative_to | #1156 reuses existing classical choice coincidence theorem; repeated members/loops allowed, applicability open. |
+| `REL-CAUSE-MOVES-WITHOUT-BEING-IN-ACT-ALTERNATIVE-TO-NOTHING-MOVES-EXCEPT-AS-IN-ACT` | alternative_to | Exact mover/not-in-act countertuple in the chosen formal/virtual dictionary; source emergence not inferred. |
+| `REL-NATURAL-REASON-HORIZON-ALTERNATIVE-TO-NATURAL-REASON-SHARED` | alternative_to | #1142 pending: theological horizon can coexist with outsider use; actual exclusive insulation/witness required. |
+
+At that exact integrated snapshot there are **82** `alternative_to` records:
+46 retained baseline records and **36 additions**. Eleven baseline records were
+removed or changed to attacks; this is not eleven refutations. The additions
+below were checked against their actual statement/paraphrase and declared
+profile. Exact complements and calibrated remainders serve different purposes.
+A remainder opposing coverage does not automatically oppose an old conclusion.
+
+| Added rival statement | Exact target | Scope / consequence boundary |
+|---|---|---|
+| `STMT-ACCEPTED-ARRANGEMENT-EXPLANATION-FACTIVITY-FAILS` | `STMT-ACCEPTED-ARRANGEMENT-EXPLANATIONS-ARE-TRUE` | Exact matching-profile negation, preserving all stronger source/analyst accounts separately. Conditional proof is not independent warrant or an actual historical refutation. |
+| `STMT-ACTUAL-MOVED-NOT-POTENT-COUNTERTUPLE` | `STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY` | Exact unrefuted analyst countertuple. Existing stronger occasionalist candidate remains intact; refuting a full re-creation story would not eliminate every moved/not-potent tuple. Structural coverage is explicit in MOVED-POTENCY-EXACT-COUNTERCASE-FORK. |
+| `STMT-CHURCH-HAS-ADDITIONAL-CRITERION` | `STMT-CHURCH-NAMED-CRITERIA-COVER` | The selected extension matches none of the three named criteria. It contradicts named coverage, not the original stage-5 statement: separate controls witness it with either target verdict. |
+| `STMT-EMPIRICAL-PROOF-ADDITIONAL-BARRIER` | `STMT-EMPIRICAL-PROOF-BARRIER-COVERAGE` | The scoped unprovable target without ObservationBarrier contradicts that barrier coverage. It need not contradict restricted unprovability; the law control witnesses both facts together. |
+| `STMT-DIVINE-FOUNDING-HAS-ADDITIONAL-READING` | `STMT-DIVINE-FOUNDING-NAMED-READINGS-COVER` | The precise remaining reading is the negation of both named extension calibrations, hence contradicts their disjunction. It is an alternative to named coverage, not automatically an alternative to the old envoy bridge: the finite remainder controls admit opposite bridge verdicts. |
+| `STMT-COMMISSION-HAS-ADDITIONAL-GOVERNANCE-CRITERION` | `STMT-COMMISSION-NAMED-GOVERNANCE-CRITERIA-COVER` | A genuinely different selected criterion contradicts named coverage only. The controls give Other with opposite mandate-scope verdicts; it is not automatically a rival to the old institutional or mandate conclusion. |
+| `STMT-COLLECTIVE-POSSIBILITY-FAILS` | `STMT-ALL-CAN-NOT-BE-THEN-NOTHING-POSSIBLE` | Exact unrefuted analyst complement of the same conditional. The existing perpetual-succession rival is preserved separately; refuting a positive proof method or a finite named roster cannot establish this premise. |
+| `STMT-UNITED-ESSE-COMMUNICATION-RECEPTION-TRANSFER-FAILS` | `STMT-UNITED-ESSE-COMMUNICATION-COUNTS-AS-RECEPTION` | Exact negative proposition, derived only under its registered explicit premises; no unconditional philosophical defeat is claimed. |
+| `STMT-COMPLETE-ARRANGEMENT-SELECTION-REQUIREMENT-FAILS` | `STMT-COMPLETE-CHAIN-EXPLANATION-SELECTS-ARRANGEMENT` | Exact matching-profile negation, preserving all stronger source/analyst accounts separately. Conditional proof is not independent warrant or an actual historical refutation. |
+| `STMT-EFFICIENT-ATTRIBUTION-ADDITIONAL-TEMPORAL-DEFINITION` | `STMT-EFFICIENT-ATTRIBUTION-NAMED-TEMPORAL-DEFINITIONS-COVER` | Both named calibrations fail; this opposes coverage, not the original independent composer attribution or the composite conclusion. |
+| `STMT-EPISTEMIC-REASON-BARE-PRODUCTION-DEFINITION-FAILS` | `STMT-EPISTEMIC-REASON-BARE-PRODUCTION-DEFINITION` | Exact profile-specific negation of this bare-production calibration, not a denial of naturalistic realization. |
+| `STMT-EPISTEMIC-REASON-ADDITIONAL-DEFINITION-REMAINS` | `STMT-EPISTEMIC-REASON-DEFINITION-CANDIDATES-COVER` | The remaining calibration conjunction negates the four-way named coverage proposition in the same fixed profile. It is not a blanket rival to ordinary support or independent authority. |
+| `STMT-EPISTEMIC-REASON-BARE-REWARD-DEFINITION-FAILS` | `STMT-EPISTEMIC-REASON-BARE-REWARD-DEFINITION` | Exact profile-specific negation of this bare-reward calibration, leaving informative reward accounts open. |
+| `STMT-PRIMITIVE-ETERNITY-ADDITIONAL-DEFINITION` | `STMT-PRIMITIVE-ETERNITY-NAMED-DEFINITIONS-COVER` | Both named calibration propositions fail; no rival to the primitive eternity conclusion is inferred from this remainder alone. |
+| `STMT-NOTHING-CHANGES-IN-GENERAL` | `STMT-SOMETHING-CHANGES` | Exact analyst complement in the SAME general-change signature, not attributed to a historical school. Existing McTaggart1908 rival and observation approval are preserved. Refuting that stronger bundle alone cannot exhaust opposition. |
+| `STMT-OPINER-LACKS-ITS-OPINION-MOTION` | `STMT-OPINION-IS-A-MOTION` | Exact matching-sense countertuple under the SAME designated respect; preserves the full stronger raw account separately. Refuting that stronger account alone does not exhaust denial of the universal norm. |
+| `STMT-GOODNESS-ADDITIONAL-RELEVANT-DEFINITION` | `STMT-GOODNESS-NAMED-DEFINITIONS-COVER` | Explicit analyst structural/scope rival under one fixed supplied profile. No counted refutation is registered; conditional/modelled failure is not independent philosophical defeat. |
+| `STMT-GOODNESS-ADDITIONAL-SEMANTIC-DEFINITION` | `STMT-GOODNESS-SEMANTIC-NAMED-DEFINITIONS-COVER` | An explicit admissible extension differs from every named account. No counted refutation is registered. The fixed mixed-artifact fourth proposal is such a formal witness; no actual-world exhaustion conclusion follows. |
+| `STMT-GOODNESS-OMITS-DUE-ACTUALITY` | `STMT-GOODNESS-DUE-TO-FORM-AND-END` | Explicit analyst structural/scope rival under one fixed supplied profile. No counted refutation is registered; conditional/modelled failure is not independent philosophical defeat. |
+| `STMT-GOODNESS-SURPLUS-BEYOND-DUE-ACTUALITY` | `STMT-GOODNESS-DUE-TO-FORM-AND-END` | Explicit analyst structural/scope rival under one fixed supplied profile. No counted refutation is registered; conditional/modelled failure is not independent philosophical defeat. |
+| `STMT-DIVINE-FOUNDING-IMMEDIATE-READING-FAILS` | `STMT-DIVINE-FOUNDING-IS-IMMEDIATE-ONLY` | Exact contextual negation of the direct-only calibration in one supplied signature/agency/direct relation. It does not refute immediate founding universally or identify the inclusive interpretation as exhaustive. |
+| `STMT-PROPER-REFERENCE-LOST` | `STMT-PROPER-REFERENCE-PRESERVED` | Actual counterexample to one-way preservation in the fixed profile; not another named reference theory. Explicit EM proves the structural coverage result. |
+| `STMT-MEANING-REMAINING-DEFINITION` | `STMT-MEANING-NAMED-COVERAGE` | Under the same frame, predicate and scope, the remaining conjunction negates all named branches. It is not automatically a rival to a separate meaning/truth target; no philosophical admissibility or exhaustive named survey is claimed. |
+| `STMT-CONCILIAR-DEFINITION-STATUS-MIXED` | `STMT-CONCILIAR-NAMED-DEFINITION-STATUS-COVERAGE` | Actual endorsed and nonendorsed defined witnesses exclude both uniform status profiles. This opposes named uniform coverage, not theology, authority, ordinary religious life or a whole worldview. |
+| `STMT-NAMED-PRODUCTIVE-CAUSAL-COVERAGE-FAILS` | `STMT-NAMED-PRODUCTIVE-CAUSAL-COUNTERACCOUNTS-COVER` | Exact selected-profile complement, unrefuted. Broad category or other-world accounts require their explicit interfaces; no finite named-theory roster is treated as exhaustive. |
+| `STMT-NOT-ALL-EXCLUDED-MIDDLE-INSTANCES-ASSERTED` | `STMT-ALL-EXCLUDED-MIDDLE-INSTANCES-ASSERTED` | Exact logical negative of the same stage-indexed assertion target. Derived from full raw withholding via WITHHOLDING-IMPLIES-NOT-UNIVERSAL-ASSERTION; no logical holding-to-assertion bridge or full intended intuitionist-model claim follows. |
+| `STMT-NOT-EXCLUDED-MIDDLE` | `STMT-EXCLUDED-MIDDLE` | Exact global complement in the same logic, unrefuted and analyst-only. The constructive refutation of ∃p¬(p∨¬p) does not refute this ¬∀p(p∨¬p) statement. No historical attribution or coverage proof is inferred. |
+| `STMT-OBJECTIVE-TRUTH-ADDITIONAL-DEFINITION` | `STMT-OBJECTIVE-TRUTH-NAMED-DEFINITIONS-COVER` | RemainingDefinition is exactly the conjunction of negations of the three calibrations in NamedCoverage, under the same frame/comparison class. This additional-extension branch opposes named coverage, not every target truth-component claim: the checked remaining classifier itself satisfies objective-implies-truth. No refutes relation or counted defeat is registered. |
+| `STMT-OUTSIDE-ADMISSIBLE-RECOGNITION` | `STMT-ADMISSIBLE-RECOGNITION-COVERAGE` | An actual relevant God/capability/correct-recognition witness exists outside the admitted subset and no admitted witness exists. It contradicts coverage in the fixed candidate carrier; it is not an asserted census of real possible situations. |
+| `STMT-NATURAL-THEOLOGY-PROFILE-NOT-ARGUABLE` | `STMT-NATURAL-THEOLOGY-PROFILE-ARGUABLE` | Exact logical negative on the same explicit profile. Strong no-divine-sense is only one sufficient input; refuting it does not establish arguability. The two old untyped source/question propositions remain independent; their profile-adequacy and argument/warrant bridges are OPEN. |
+| `STMT-EMPIRICAL-PROOF-REMAINING-DOMAIN` | `STMT-EMPIRICAL-PROOF-NAMED-DOMAIN-COVERAGE` | Same table/predicate; the remainder denies each named calibration. It is not a proof-status rival. |
+| `STMT-SELECTED-CAUSAL-CONCRETENESS-COMMITMENT-FAILS` | `STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS` | Exact selected-profile complement, unrefuted. Broad category or other-world accounts require their explicit interfaces; no finite named-theory roster is treated as exhaustive. |
+| `STMT-CHURCH-SPIRITUAL-CRITERION-FAILS` | `STMT-CHURCH-HAS-SPIRITUAL-CRITERION` | Exact negation of this fixed spiritual calibration; mere insufficiency for the visible stage target is not this negation. |
+| `STMT-ESSE-RECEIVED-IN-OWN-ESSENCE-FAILS` | `STMT-ESSE-RECEIVED-IN-OWN-ESSENCE` | Exact negative proposition, derived only under its registered explicit premises; no unconditional philosophical defeat is claimed. |
+| `STMT-SPACETIME-WHOLE-HAS-NO-EXISTING-CAUSE` | `STMT-UNIVERSE-HAS-EXISTING-CAUSE` | Exact matching-scope unrefuted negative, not a presumed complete list of historical accounts. |
+| `STMT-SELECTED-WHOLE-CAUSER-ACTUALITY-FAILS` | `STMT-SELECTED-WHOLE-CAUSERS-ACTUALLY-EXIST` | Exact matching-scope unrefuted negative, not a presumed complete list of historical accounts. |
+
+The finite-roster counterfactuals distinguish authority from coverage. At the
+earlier baseline, no statement was newly classified `alternatives_refuted`,
+but two independently floored patterns had every then-recorded rival refuted
+(CaseNonContradiction and SomethingChanges). This did not certify a census of
+philosophical theories. Removing only the target's own floor in actual-record
+copies leaves EM, causal concreteness, F3, moved-potency and F6 unestablished;
+the weak meaningfulness closure may still inherit the independently approved
+strong closure. Native-classical contradiction refutation is restricted to its
+fixed negation signature. No approval is revoked by these tests.
+
+A concrete finite-roster defect was reproduced in #1147: removing the unencoded
+perpetual-succession edge let a refuted **positive proof method** count as all
+opposition to collective possibility. The endpoint repair removes that category
+error and adds an unrefuted exact complement. #1137 likewise keeps global ¬EM
+distinct from a constructively refuted explicit denied instance. New conditional
+eliminations carry checked structural coverage or a separate OPEN named-coverage
+premise. They do not use a finite list of refuted named schools as philosophical
+exhaustion. Reproduction commands and actual-record boundaries remain in the
+[collective route](notes/collective-possibility-route-boundary.md),
+[causal concreteness](notes/causal-concrete-rival-boundary.md) and
+[change/regress/past](notes/causal-temporal-rival-coverage.md) research notes.
+
+#### Delivered definition-pointer dispositions (#1110)
+
+[PR1161](https://github.com/moritzbrantner/truth-core/pull/1161), merged as
+`5fcedc5299bf9acb9cdbb937531e4285b897f6b4`, resolves the 32 pointer/scope
+dispositions below. Thirty records receive a correction or qualification;
+potency and immutability had already been repaired. A pointer to a primitive
+field locates vocabulary; it does not supply a philosophical analysis.
+
+| Definition | Delivered disposition | Exact locator, where available |
+|---|---|---|
+| `DEF-ACT` | field/predicate/partial-carrier pointer corrected | `TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel.InAct` |
+| `DEF-ALTOGETHER-IMMATERIAL` | exact parameter/constraint or family/local-clause scope clarified | `TruthCore.Latin.Aquinas.SummaTheologiae.ImmaterialIsIntellectualReading` |
+| `DEF-BEING-AS-ENTITY` | field/predicate/partial-carrier pointer corrected | `TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel.Being` |
+| `DEF-BEING-AS-TRUTH-OF-A-PROPOSITION` | exact parameter/constraint or family/local-clause scope clarified | `TruthCore.Latin.Aquinas.SummaTheologiae.EvilIsAsPropositionalTruthReading` |
+| `DEF-BRUTE-ROOT-RELATIVE-GROUNDING` | field/predicate/partial-carrier pointer corrected | `TruthCore.Causality.NecessaryRootFork.ActualRoot` |
+| `DEF-CAUSE-OF-ORIGIN` | exact parameter/constraint or family/local-clause scope clarified | `TruthCore.Latin.Aquinas.SummaContraGentiles.WhatComesToBeAnewHasInnovatingCauseReading` |
+| `DEF-CAUSE-OF-PERFECTION` | exact parameter/constraint or family/local-clause scope clarified | `TruthCore.Latin.Aquinas.SummaTheologiae.CausesAllInGenus` |
+| `DEF-RESURRECTION-PILOT-HISTORY` | exact parameter/constraint or family/local-clause scope clarified | `TruthCore.History.Resurrection.State` |
+| `DEF-ESSENCE-THOMISTIC-NATURE` | field/predicate/partial-carrier pointer corrected | `TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article4.Profile.essenceOf` |
+| `DEF-FOUNDED-BY-GOD-THROUGH-ENVOY` | exact parameter/constraint or family/local-clause scope clarified | `TruthCore.Case.Catholicism.StageThree.DivineFounding.Agency` |
+| `DEF-GENUS-BROAD` | exact parameter/constraint or family/local-clause scope clarified | `TruthCore.Latin.Aquinas.SummaTheologiae.MaximumInGenusCausesAllInGenusReading` |
+| `DEF-GENUS-STRICT` | exact parameter/constraint or family/local-clause scope clarified | `TruthCore.Greek.Aristotle.Metaphysics.BeingIsNotAGenusReading` |
+| `DEF-GOD-OF-CLASSICAL-THEISM` | field/predicate/partial-carrier pointer corrected | `TruthCore.Case.Catholicism.Signature.IsGod` |
+| `DEF-GREATEST-BEING-STRICT` | exact parameter/constraint or family/local-clause scope clarified | `no single defining declaration` |
+| `DEF-HOML-ACTUALIST-NECESSITY` | field/predicate/partial-carrier pointer corrected | `TruthCore.Isabelle.AFP.GoedelGod.Box` |
+| `DEF-LEAN-PROPOSITION-HOLDING` | exact parameter/constraint or family/local-clause scope clarified | `TruthCore.Logic.TruthPilot.SomePropositionHolds` |
+| `DEF-MAXIME-ENS` | field/predicate/partial-carrier pointer corrected | `TruthCore.Latin.Aquinas.SummaTheologiae.IsMaximalIn` |
+| `DEF-MAXIMUM-IN-A-PERFECTION` | field/predicate/partial-carrier pointer corrected | `TruthCore.Latin.Aquinas.SummaTheologiae.IsMaximalIn` |
+| `DEF-MORE-IN` | exact parameter/constraint or family/local-clause scope clarified | `TruthCore.Latin.Aquinas.SummaTheologiae.GradesFoundInThingsReading` |
+| `DEF-MOTION-AS-REDUCTION` | field/predicate/partial-carrier pointer corrected | `TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel.MovedIn` |
+| `DEF-NECESSARY-INDIVIDUAL-DOMAIN` | field/predicate/partial-carrier pointer corrected | `TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1.ExistsAt` |
+| `DEF-ONTOLOGICAL-TRUTH-COMPARISON` | exact parameter/constraint or family/local-clause scope clarified | `TruthCore.Latin.Aquinas.SummaTheologiae.GradesFoundInThingsReading` |
+| `DEF-ONTOLOGICAL-TRUTH` | exact parameter/constraint or family/local-clause scope clarified | `TruthCore.Latin.Aquinas.SummaTheologiae.MostTrueIsMostBeingReading` |
+| `DEF-PARTICIPATION-GROUND` | field/predicate/partial-carrier pointer corrected | `TruthCore.Greek.Plato.ParticipationGrounding.Explanation.Grounds` |
+| `DEF-Q11-COMMON-DIVINE-NATURE` | exact parameter/constraint or family/local-clause scope clarified | `TruthCore.Latin.Aquinas.SummaTheologiae.ProperGodInstancesHaveCommonNatureReading` |
+| `DEF-Q11-GOD-SUPPOSITUM-NATURE` | exact parameter/constraint or family/local-clause scope clarified | `TruthCore.Latin.Aquinas.SummaTheologiae.GodSuppositumIsNatureReading` |
+| `DEF-Q11-INDIVIDUATING-BASIS` | exact parameter/constraint or family/local-clause scope clarified | `TruthCore.Latin.Aquinas.SummaTheologiae.IndividuatingBasisIsIncommunicableReading` |
+| `DEF-REGRESS-DOMAIN-ADAPTERS` | exact parameter/constraint or family/local-clause scope clarified | `no single defining declaration` |
+| `DEF-RESPECT` | field/predicate/partial-carrier pointer corrected | `TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel.Respect` |
+| `DEF-SKELETON-OPEN-PREDICATES` | exact parameter/constraint or family/local-clause scope clarified | `TruthCore.Case.Catholicism.Signature` |
+| `DEF-POTENCY` | already repaired on main: AdoptedPotency.InPotency | `no single defining declaration` |
+| `DEF-IMMUTABLE` | already repaired on main: IsImmutable with no-potency scope note | `no single defining declaration` |
+
+The necessary-individual-domain pointer is only the `ExistsAt` carrier locator,
+not the whole de-re quantifier analysis. Maximality remains distinct from
+greatestness and strict supremacy. Constraint/bundle locators for primitive
+truth, genus, nature and other open predicates are explicitly qualified; none
+is silently adopted as the predicate's meaning. No premise change or new floor
+results from this metadata work.
+
+#### Discovery completed; use-level investigation still active
+
+The completed 350 baseline plus five then-added disambiguation resolution reads
+do **not** exhaust definitions used by arguments. A subsequent actual-use scan
+at snapshot 308602fa plus the opining batch found 453 used definition records
+outside every disambiguation sense list: 355 parent-owned, 79 truth/meaning and
+19 authority/history. “Used” here means direct argument definition links or
+links on its premise/conclusion statements, not semantic dependence inferred
+from a keyword. Later additions are not retrospectively included in these counts.
+
+The truth worker's 79 full records and mapped consumers are persisted in
+`docs/notes/truth-definition-use-audit.md` and its per-ID JSON in pending #1162;
+84 selected exact result types were inspected, not every descendant proof.
+That pass found a consequential weaker goodness input. Its review caught a
+coextension issue: existence of a correct named support witness also implies
+semantic namedness of every admissible **correct** account in the same GoodIn
+dictionary. It is weaker than coverage of arbitrary admissible candidates,
+including wrong ones; the companion equivalence and corrected prose remain
+under required P1 rereview. No result or disposition from that pending revision
+is counted as integrated here. The authority 19-record use pass is active.
+
+The parent-owned 355 still require full record and actual consumer/type review
+where earlier cluster work has not already supplied it. The large remaining
+families are causal and explanatory interfaces, then the Greek/Latin source
+reconstructions and residual modal/ontology profiles. Existing complete
+Mereology, Science and Hiddenness cluster reads can be reused only for their
+precise inspected IDs. The fresh Greek/Latin/no-head definition-text read is
+discovery, not completed use-level certification.
+
+Distinct reserved investigations are not duplicated in this pass: #1111's seven
+same-dictionary overlaps; #1112's opaque per-se/per-accidens conjunction and
+first-member presupposition (typed sibling required); 17 second-mover and three
+absolute-first-mover strong-version consumers; the separate actual-priority
+investigation; and #1109's laws/spacetime/logic/math/God naturalism remainder.
+Their exact delivered records and proof boundaries must be incorporated when
+available. Current source-only plurality of possible causers is still a
+prospective source-candidate formalization, not a repaired current typed route.
+No whole-repository completion or exhaustive philosophical survey is claimed.
+
+The first bounded follow-through in the parent 355 reads the full typed physical
+motion vocabulary and the frozen result interfaces for VIII.4 literal mover,
+VIII.4 per-se mover, physical-to-broad scope, VII.1 contact regress and
+per-se-to-local regress. The existing five-way AND input with two nested OR
+divisions already distinguishes natural/forced, self/passive, and per-se/per-accidens
+movers. Its explicit literal-reading countermodel blocks silently promoting a
+remover to a per-se mover. The physical-to-broad reduction bridge is separately
+OPEN and its omission control blocks scope promotion. No new definition fork is
+needed for these already separated readings. VII.5 alteration/growth/threshold
+records and their sole consumer remain explicitly opaque transcriptions; they
+assert no measured dynamics or modal possibility. This is not a completed audit
+of every Physics statement.
+
+That read identified a useful weaker sufficient VII.1 composition premise:
+`TouchingChainFormsOneReading` currently ranges over every injective touching
+chain, whereas the contact regress needs it only for chains of the SAME local
+moved-mover links. The old reading explicitly calls its broader scope a
+generalization. A local-chain sibling, checked strength relation, exact-target
+route and populated strictness control are the next concrete implementation;
+the global source reading and frozen proof remain unchanged.
+
+The reserved overlap and series investigations have now published #1164
+(`d1d71036`, seven same-dictionary dispositions and one zero-axiom connection
+certificate) and #1163 (`22eb1dc3`, typed essential/history-series distinction).
+Both are pending review/CI at this ledger revision. The latter exhibits a
+nonempty well-founded essential order and infinite history on the same members;
+old opaque source conjunction is preserved and temporal/removal bridges remain
+OPEN. Neither is counted as a merged repair or premise discharge here.
