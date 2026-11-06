@@ -1,0 +1,9 @@
+{
+  "id": "INF-UNIVERSE-CAUSE-ACTUALITY-SCOPE-BOUNDARIES",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-UNIVERSE-CAUSE-ACTUALITY-SCOPE-CONTROLS",
+  "rule": "constructive-proof",
+  "meaning": "Exact absent/actual/no-edge controls preserve a populated whole and distinguish generic signature admissibility from the independently intended endpoint-actuality policy.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

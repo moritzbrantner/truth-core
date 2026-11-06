@@ -32,5 +32,8 @@
     "DISAMB-ACTUAL-COVER-NONPART-AND-FUSION-NONOVERLAP",
     "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY",
     "DISAMB-ACTUAL-FUSION-BARE-NE-AND-NECESSARY-CAUSE"
-  ]
+  ],
+  "strong_version_needed": {
+    "STMT-CAUSES-HAVE-ACTUAL-ENDPOINTS-AT": "The causer-actuality application is at a cover witness chosen from conditional actual coverage under scoped NoNE. The proof supplies no identity between that cover and a spacetime whole. The new whole-specific policy is insufficient as stated; frozen both-endpoint interface is retained without a minimality claim."
+  }
 }

@@ -1,0 +1,15 @@
+{
+  "id": "ABSENT-ONLY-UNIVERSE-CAUSERS-IMPLY-NO-EXISTING-CAUSE",
+  "premise_statement_ids": [
+    "STMT-SPACETIME-WHOLE-HAS-ONLY-ABSENT-CANDIDATE-CAUSERS"
+  ],
+  "conclusion_statement_id": "STMT-SPACETIME-WHOLE-HAS-NO-EXISTING-CAUSE",
+  "inference_ids": [
+    "INF-ABSENT-ONLY-UNIVERSE-CAUSERS-IMPLY-NO-EXISTING-CAUSE"
+  ],
+  "meaning": "Projection transcription connects the precise generic remainder to the exact old positive conclusion negation.",
+  "definition_ids": [
+    "DEF-UNIVERSE-CAUSER-ACTUALITY-SCOPE",
+    "DEF-SPATIOTEMPORAL-FRAME"
+  ]
+}
