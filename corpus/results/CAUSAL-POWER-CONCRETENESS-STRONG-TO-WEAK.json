@@ -1,0 +1,10 @@
+{
+  "id": "CAUSAL-POWER-CONCRETENESS-STRONG-TO-WEAK",
+  "argument_id": "CAUSAL-POWER-CONCRETENESS-STRONG-TO-WEAK",
+  "challenge_module": "TruthCore.Results.Causality.CausalPowerConcretenessStrongToWeak.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CausalPowerConcretenessStrongToWeak.Solution",
+  "theorem": "TruthCore.Results.Causality.CausalPowerConcretenessStrongToWeak.weakOfStrong",
+  "comparator_config": "results/CAUSAL-POWER-CONCRETENESS-STRONG-TO-WEAK/comparator.json",
+  "status": "solution-present",
+  "description": "Projects the weak, owner-approved causal-power concreteness principle out of the strong version. This records the strong-to-weak order only; the strong version is not approved and nothing here supports it."
+}

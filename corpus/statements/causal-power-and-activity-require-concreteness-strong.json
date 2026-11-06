@@ -1,0 +1,14 @@
+{
+  "id": "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS-STRONG",
+  "paraphrase": "Strong version, NOT approved: at the selected world, every bearer of causal power and every efficient cause is concrete (the weak, approved version), and in addition every cause in every other supplied causal sense (formal, final, exemplar, explanatory, …) is concrete, i.e. has esse in re.",
+  "lean_declaration": "TruthCore.Causality.CausalPowerConcretenessStrength.AllCausalSensesRequireConcreteAt",
+  "definition_ids": [
+    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE",
+    "DEF-CONCRETE-ESSE-IN-RE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE",
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA"
+  ],
+  "note": "Recorded so that the strength fork is in the corpus (#1017, review of #1106). The owner approved only the weak version (#1103, 2026-11-06). The strong version would conflict with exemplar causation on the Fourth Way route (STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS) and with Aristotelian formal and final causes, where the cause need not be a concrete individual."
+}
