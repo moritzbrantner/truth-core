@@ -1,0 +1,9 @@
+{
+  "id": "INF-SUPPLEMENTATION-FUSION-RIVAL",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-SUPPLEMENTATION-FUSION-RIVAL",
+  "rule": "typed-partial-order-supplementation-and-fusion",
+  "meaning": "Certify one fixed four-object partial order jointly, quantifying over every nonempty Set for Sum3. Two distinct composites share the same proper parts and are duplicate selected Sum2 fusions. Their missing common upper bound refutes existing unrestricted Sum2; strong supplementation, overlap extensionality, greatest entity and null object fail. This witnesses the stated mathematical rival only, not actual ontology or full classical extensional mereology.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

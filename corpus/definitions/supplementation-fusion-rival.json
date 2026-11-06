@@ -1,0 +1,8 @@
+{
+  "id": "DEF-SUPPLEMENTATION-FUSION-RIVAL",
+  "term": "four-object anti-extensional fusion rival",
+  "lean_declaration": "TruthCore.Mereology.SupplementationFusion.RivalCertificate",
+  "basis": "stipulative",
+  "definition": "The fixed four-object Mathlib partial order has a,b strictly below both incomparable u,v and no other strict comparisons. RivalCertificate jointly asserts weak supplementation, all-nonempty-Set Sum3 formation, failure of strong supplementation and overlap-extensional parthood, distinct duplicate Sum2 fusions u/v of {a,b} with identical proper parts, no common upper bound of {u,v}, failure of unrestricted Sum2, no greatest or null object, and Sum3 fusion u of {u,v} although v is not part of u. This is a mathematical interpretation, not a full classical extensional mereology or real material coincidence.",
+  "note": "Analyst formulation for #1050; attribution and metaphysical applicability deferred. Common-part overlap is unchanged: an admitted null object would overlap everything. The rival expressly excludes one. See docs/notes/universal-fusion-grounding.md."
+}

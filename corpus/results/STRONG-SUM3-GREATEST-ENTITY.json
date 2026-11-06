@@ -1,0 +1,10 @@
+{
+  "id": "STRONG-SUM3-GREATEST-ENTITY",
+  "argument_id": "STRONG-SUM3-GREATEST-ENTITY",
+  "challenge_module": "TruthCore.Results.Mereology.SupplementationFusion.Challenge",
+  "solution_module": "TruthCore.Results.Mereology.SupplementationFusion.Solution",
+  "theorem": "TruthCore.Results.Mereology.SupplementationFusion.overlapGreatest",
+  "comparator_config": "results/STRONG-SUM3-GREATEST-ENTITY/comparator.json",
+  "status": "solution-present",
+  "description": "Convert each nonempty Sum3 fusion to existing Sum2 using the comparison theorem, then apply TruthCore.Results.Mereology.UniversalFusionBoundary.checks first conjunct to the inhabited carrier. Strong supplementation and carrier inhabitation remain explicit; applying the old theorem to bare Sum3 would be invalid."
+}

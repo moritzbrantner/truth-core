@@ -4,6 +4,7 @@ import TruthCore.Mereology.FusionNoNecessaryParts
 import TruthCore.Mereology.GenusCauseBoundary
 import TruthCore.Mereology.NecessaryPartFusionDecomposition
 import TruthCore.Mereology.ProcessTurnover
+import TruthCore.Mereology.SupplementationFusion
 import TruthCore.Mereology.TheseusIdentity
 import TruthCore.Mereology.UniversalFusionBoundary
 import TruthCore.Mereology.Vitalism
