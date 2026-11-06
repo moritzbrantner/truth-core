@@ -1,0 +1,21 @@
+{
+  "id": "GREATEST-DEFINITION-FROM-MAXIME-COVERAGE",
+  "premise_statement_ids": [
+    "STMT-MAXIME-NAMED-DEFINITIONS-COVER",
+    "STMT-MAXIME-MERELY-MAXIMAL-DEFINITION-FAILS",
+    "STMT-MAXIME-STRICT-SUPREMACY-DEFINITION-FAILS"
+  ],
+  "conclusion_statement_id": "STMT-MAXIME-GREATEST-DEGREE-DEFINITION",
+  "inference_ids": [
+    "INF-GREATEST-DEFINITION-FROM-MAXIME-COVERAGE"
+  ],
+  "meaning": "Exact disjunct elimination requires named coverage and actual negations of merely-maximal and strict-supremacy calibrations. Inadequacy for an argument is not silently taken as falsity.",
+  "definition_ids": [
+    "DEF-MAXIMUM-CALIBRATION-PROFILE",
+    "DEF-MAXIMUM-IN-A-PERFECTION",
+    "DEF-GREATEST-DEGREE-IN-A-PERFECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MAXIME-ENS"
+  ]
+}

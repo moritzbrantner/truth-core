@@ -1,0 +1,11 @@
+{
+  "id": "MAXIMAL-BEING-CAUSES-FROM-GREATEST-DEGREE",
+  "argument_id": "MAXIMAL-BEING-CAUSES-FROM-GREATEST-DEGREE",
+  "challenge_module": "TruthCore.Results.Causality.MaximumDefinitions.CausalTransport.Challenge",
+  "solution_module": "TruthCore.Results.Causality.MaximumDefinitions.CausalTransport.Solution",
+  "theorem": "TruthCore.Results.Causality.MaximumDefinitions.CausalTransport.causalTransport",
+  "comparator_config": "results/MAXIMAL-BEING-CAUSES-FROM-GREATEST-DEGREE/comparator.json",
+  "status": "solution-present",
+  "description": "Explicit semantic transport transcription: source-shaped greatest-degree causal principle plus weak maximal-to-greatest interface yields the EXACT existing selected-esse all-merely-maximal causal premise. The selected respect instantiates esse without assuming every perfection is being.",
+  "transcription": "instantiation"
+}

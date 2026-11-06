@@ -1,0 +1,17 @@
+{
+  "id": "MAXIME-DEFINITION-BOUNDARIES",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-MAXIME-DEFINITION-CONTROLS",
+  "inference_ids": [
+    "INF-MAXIME-DEFINITION-BOUNDARIES"
+  ],
+  "meaning": "Finite incomparable/tied/remainder controls for the exact declared profiles. The incomparable model source greatest-degree causal principle is explicitly vacuous; it does not refute that conditional or establish a real causal ontology.",
+  "definition_ids": [
+    "DEF-MAXIMUM-CALIBRATION-PROFILE",
+    "DEF-MAXIMUM-IN-A-PERFECTION",
+    "DEF-GREATEST-DEGREE-IN-A-PERFECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MAXIME-ENS"
+  ]
+}

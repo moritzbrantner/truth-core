@@ -1,0 +1,11 @@
+{
+  "id": "GREATEST-DEFINITION-FROM-MAXIME-COVERAGE",
+  "argument_id": "GREATEST-DEFINITION-FROM-MAXIME-COVERAGE",
+  "challenge_module": "TruthCore.Results.Causality.MaximumDefinitions.NamedElimination.Challenge",
+  "solution_module": "TruthCore.Results.Causality.MaximumDefinitions.NamedElimination.Solution",
+  "theorem": "TruthCore.Results.Causality.MaximumDefinitions.NamedElimination.namedElimination",
+  "comparator_config": "results/GREATEST-DEFINITION-FROM-MAXIME-COVERAGE/comparator.json",
+  "status": "solution-present",
+  "description": "Exact disjunct elimination requires named coverage and actual negations of merely-maximal and strict-supremacy calibrations. Inadequacy for an argument is not silently taken as falsity.",
+  "transcription": "instantiation"
+}

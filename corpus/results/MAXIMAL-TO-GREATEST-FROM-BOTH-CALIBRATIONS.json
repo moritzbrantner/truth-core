@@ -1,0 +1,11 @@
+{
+  "id": "MAXIMAL-TO-GREATEST-FROM-BOTH-CALIBRATIONS",
+  "argument_id": "MAXIMAL-TO-GREATEST-FROM-BOTH-CALIBRATIONS",
+  "challenge_module": "TruthCore.Results.Causality.MaximumDefinitions.CalibrationsToBridge.Challenge",
+  "solution_module": "TruthCore.Results.Causality.MaximumDefinitions.CalibrationsToBridge.Solution",
+  "theorem": "TruthCore.Results.Causality.MaximumDefinitions.CalibrationsToBridge.calibrationsToBridge",
+  "comparator_config": "results/MAXIMAL-TO-GREATEST-FROM-BOTH-CALIBRATIONS/comparator.json",
+  "status": "solution-present",
+  "description": "Calibration transport transcription: two independently supplied calibrations of the SAME primitive superlative yield the one-way maximal-to-greatest interface. Coextension is not philosophical or source identity.",
+  "transcription": "instantiation"
+}

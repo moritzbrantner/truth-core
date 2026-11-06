@@ -1,0 +1,13 @@
+{
+  "id": "STMT-MAXIME-DEFINITION-CONTROLS",
+  "paraphrase": "Exact finite controls: two incomparable represented degrees satisfy strict comparative calibration and the merely-maximal calibration while greatest calibration and maximal-to-greatest fail; the greatest-degree causal principle holds vacuously and the old all-maximal causal principle fails. Two tied bearers satisfy local directedness, strict comparative calibration, maximal/greatest calibrations and both greatest instances, but not strict-supremacy calibration. A selective primitive superlative witnesses the precise remainder. Formal interpretations only.",
+  "lean_declaration": "TruthCore.Causality.MaximumDefinitionFork.Controls",
+  "definition_ids": [
+    "DEF-MAXIMUM-CALIBRATION-PROFILE",
+    "DEF-MAXIMUM-IN-A-PERFECTION",
+    "DEF-GREATEST-DEGREE-IN-A-PERFECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MAXIME-ENS"
+  ]
+}
