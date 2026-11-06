@@ -194,3 +194,75 @@ from knowledge of every truth. No further normativity premise is introduced. The
 humanly possible inquiry, actuality/time indexing and applicability to reality
 remain OPEN; their blockers are semantic/formalization choices rather than
 missing source acquisition.
+
+## Compatibility extension (#1059)
+
+The previously OPEN E-subset-R comparison is now a separate analyst cluster,
+`TruthCore.Logic.KnowabilityCompatibility`, preserving the earlier Challenge,
+source claims and exact meanings. The adapter `relationalContext E R actual`
+constructs the existing Context using the existing fixed-agent `Knows E`.
+`Included E R` explicitly says that an epistemic alternative at w is a modal
+alternative at that same w. It does not identify the two relations or impose
+commutation, temporal change or an actuality-indexed content interpretation.
+
+Three results in `TruthCore.Results.Logic.KnowabilityCompatibility.Solution`
+separate the bridges:
+
+- `admittedKnown`: under Euclidean R, E ⊆ R, and the **global biconditional**
+  for C, every true admitted content is known. Given p(w), forward knowability
+  provides R(w,v) and Kp(v). For any E(w,u), inclusion gives R(w,u), and the
+  Euclidean sibling property gives R(u,v). Reverse knowability at u gives
+  p(u), establishing Kp(w). Factivity, modal reflexivity, epistemic S5, C's
+  Boolean closure, Moore admissibility and classical stability are unnecessary
+  for this consequence. C is still restricted: this is not knowledge of all
+  predicates without an additional unrestricted-domain premise.
+- `forwardSurvivor`: retain the exact earlier four worlds, epistemic blocks,
+  atom and invariant-content family, but make R universal. All old forward
+  witnesses remain accessible. E ⊆ R and both frames satisfy S5; actual
+  ignorance and failure of Moore admissibility remain. The biconditional
+  fails, proved by composing `admittedKnown` with actual ignorance. Thus
+  epistemic/modal compatibility is not an obstacle to ordinary **forward**
+  restricted knowability. The reverse implication is a real strengthening.
+- `lineSurvivor`: take R to be the union of the previous E and R. This is the
+  reflexive symmetric line 2–0–1–3. Old modal edges retain the old equivalence;
+  on newly admitted epistemic edges, symmetry lets knowledge at the endpoint
+  yield truth at the start. E ⊆ R, the global biconditional and ignorance
+  coexist, but Euclideanness fails at successors 1 and2 of0. This is a genuine
+  weaker-frame rival, not a claim that metaphysical modality is non-Euclidean.
+
+Both model proofs import the earlier complete restricted-survivor certificate,
+reusing its factivity, conjunction extraction, Boolean closure, atom membership,
+actual ignorance and inadmissible Moore content. The earlier certificate itself
+already supplies the compatibility-omission control under S5. The three
+witnessed omissions do not establish a complete frame correspondence or global
+inclusion-minimality. In particular, the collapse theorem's proof uses the
+reverse schema at epistemic alternatives, not merely at actuality.
+
+Claim/type self-sweep: all knowledge operators remain fixed-agent relational
+boxes over the SAME content predicate, with no someone/sometime or common-knower
+quantifier exchange. No temporal interpretation, source attribution, F6-to-
+knowability bridge, actual cognitive competence, normative authority or root
+truth is added. Admitted contents are a semantic surrogate for an epistemic-free
+fragment, not a proved syntax or an independently warranted philosophical
+restriction. The strongest rival retains forward knowability, S5 and E ⊆ R
+while rejecting reverse knowability; a second retains the biconditional but
+rejects Euclidean R. Actual applicability of all three relations/schemas remains
+OPEN. The necessary-condition inference from accepting epistemic reasons still
+does not establish either knowability schema.
+
+The new Challenge compiled before Solution and is frozen at SHA256
+`aa93f7e522c1aae0406e69890a2ca53d8a25b93755a11b9778720af206bca0c8`.
+The direct proof terms depend on no axioms. Remaining verification/publication
+state is recorded by the result records and current issue handoff rather than
+asserted by this mathematical discussion.
+
+`positiveSurvivor` additionally supplies a joint nonvacuity control for the
+collapse assumptions: both E and R are the earlier `survivorModal`, on the same
+four worlds and C. The admitted atom has both true and false valuations.
+Atom invariance proves global biconditional knowability, and `admittedKnown`
+then yields admitted knowledge. This is neither an inconsistent background nor
+an empty family. Its separately frozen `Positive/Challenge.lean` has SHA256
+`61df2cc207280ea7b1896343521b737cad4a4d9a520ed0df3109e78e548b7a39`;
+the original Challenge is unchanged. The computed #143 frontier remains90
+open premises (30bare/18supported/42stated), cheapest route31, with no additions,
+removals or discharges.

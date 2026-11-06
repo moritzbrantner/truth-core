@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.Verificationism.ProposalSurvivor.Challenge",
+  "solution_module": "TruthCore.Results.Logic.Verificationism.ProposalSurvivor.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.Verificationism.ProposalSurvivor.certificate"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

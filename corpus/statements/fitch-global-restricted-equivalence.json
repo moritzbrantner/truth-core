@@ -1,0 +1,13 @@
+{
+  "id": "STMT-FITCH-GLOBAL-RESTRICTED-EQUIVALENCE",
+  "paraphrase": "For every admitted content at every world, truth is equivalent to possible knowledge of that same content. The reverse implication is additional to ordinary forward knowability.",
+  "lean_declaration": "TruthCore.Logic.FitchKnowability.GlobalRestrictedEquivalence",
+  "definition_ids": [
+    "DEF-FITCH-WORLD-INDEXED-KNOWLEDGE",
+    "DEF-FITCH-ADMISSIBLE-CONTENTS",
+    "DEF-KNOWABILITY-MODAL-COMPATIBILITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FITCH-OPERATOR-SCOPE"
+  ]
+}

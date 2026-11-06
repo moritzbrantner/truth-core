@@ -1,0 +1,10 @@
+{
+  "id": "VERIFICATIONISM-PROPOSAL-JOINT-SURVIVOR",
+  "argument_id": "VERIFICATIONISM-PROPOSAL-JOINT-SURVIVOR",
+  "challenge_module": "TruthCore.Results.Logic.Verificationism.ProposalSurvivor.Challenge",
+  "solution_module": "TruthCore.Results.Logic.Verificationism.ProposalSurvivor.Solution",
+  "theorem": "TruthCore.Results.Logic.Verificationism.ProposalSurvivor.certificate",
+  "comparator_config": "results/VERIFICATIONISM-PROPOSAL-JOINT-SURVIVOR/comparator.json",
+  "status": "solution-present",
+  "description": "A joint concrete V4-style proposal reconstruction over the reused two-coordinate language. Import exact factorization to prove expressive membership iff exact classification through the retained representation; prove Boolean closure and analytic inclusion. Empirical representation uniquely minimizes retained-channel cost for the first-coordinate task, but cannot classify the hidden-coordinate task, for which expanded representation is uniquely adequate. Included contingent content and a tautology coexist with exclusion of hidden content and its negation, none object-language evaluations, and opposite ambient truth at equal-data worlds under the same adopted empirical proposal. Compose the existing verdict-silent theorem. These are bounded model facts and counterexamples to extra bridges, not a defeat, a full historical Carnap model, or root-premise truth."
+}
