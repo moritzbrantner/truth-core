@@ -468,13 +468,13 @@
       "id": "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE",
       "path": "corpus/statements/god-names-the-fully-described-principle.json",
       "status": "unresolved",
-      "classification": "open_premise",
-      "finding": "Retained explicit open commitment: Open premise, the fuller nominal definition: the name 'God' applies, in its proper sense, to the only being that is maximal in being (above all), causes the being of every other being (principle of all), causes every perfection of every other being (cause of every perfection, et hoc dicimus Deum), and enters into the composition of nothing (remote from all, q.13 a.8 ad 2). It keeps every condition the sources give, so it is weaker than STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "classification": "scope_clarification",
+      "finding": "Retained exact open naming declaration, hypotheses and adopted component criterion. Paraphrase now qualifies source-condition retention by that explicit reading, rather than asserting all possible remoteness interpretations. Proper-genus exclusion remains a distinct interface; no meaning or premise truth is adopted.",
       "before": {
         "sha256": "b95b1348ce77a82fc8af3d2457b110f090493f02a6867ec7631a85f109fb6bdf",
         "lean_declaration": "TruthCore.Case.Catholicism.GodNamesTheFullyDescribedPrinciple"
       },
-      "reviewed_sha256": "b95b1348ce77a82fc8af3d2457b110f090493f02a6867ec7631a85f109fb6bdf"
+      "reviewed_sha256": "57645102d10eff76ab062bcb44b2754032effe613bd685e2114e1293e63d8597"
     },
     {
       "kind": "statements",
@@ -1533,13 +1533,13 @@
       "id": "DEF-REMOTE-FROM-ALL",
       "path": "corpus/definitions/remote-from-all.json",
       "status": "inspected",
-      "classification": "intentional_abstraction",
-      "finding": "Existing interpretation retained: `RemoteFromAll ComponentOf m`: m enters into the composition of nothing, as neither part, matter nor form of anything (`∀ x, ¬ ComponentOf m x`). This is the case's reading of the third condition in q.13 a.8 ad 2's description of what the name 'God' signifies, taken through q.3 a.8, the article that denies God any composition with other things. No new structural law, source attribution or independently established premise is introduced.",
+      "classification": "scope_clarification",
+      "finding": "Retained exact outgoing noncomponenthood formula and declaration; corrected stale claim that proper-genus exclusion was unformalized. Existing GodIsInNoGenusReading is separate and does not replace the naming criterion. No new spatial/part or genus equivalence, source attribution or established premise.",
       "before": {
         "sha256": "7cd4d46624a47a004ffa7b1e502c687543e9521fd95c70303f5fde0778b3c1f1",
         "lean_declaration": "TruthCore.Case.Catholicism.RemoteFromAll"
       },
-      "reviewed_sha256": "7cd4d46624a47a004ffa7b1e502c687543e9521fd95c70303f5fde0778b3c1f1"
+      "reviewed_sha256": "27c8679d55b71d79d02ec96115827135fabae68ff2862d9e8a834a5ab42e2a92"
     },
     {
       "kind": "definitions",
