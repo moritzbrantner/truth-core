@@ -16,7 +16,8 @@
     "DEF-CLASSICAL-ATTRIBUTES-BUNDLE",
     "DEF-UNIQUE-CLASSICAL-GOD-WITNESS"
   ],
-  "disambiguation_ids": ["DISAMB-POTENCY",
+  "disambiguation_ids": [
+    "DISAMB-POTENCY",
     "DISAMB-GOD",
     "DISAMB-IN-ACT",
     "DISAMB-INFINITY",
@@ -25,6 +26,7 @@
     "DISAMB-INTELLECT-AND-SENSE-COGNITION",
     "DISAMB-CAUSE",
     "DISAMB-PER-SE",
-    "DISAMB-ESSENCE"
+    "DISAMB-ESSENCE",
+    "DISAMB-MAXIME-ENS"
   ]
 }
