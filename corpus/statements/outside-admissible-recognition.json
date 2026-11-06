@@ -1,0 +1,15 @@
+{
+  "id": "STMT-OUTSIDE-ADMISSIBLE-RECOGNITION",
+  "paraphrase": "An additional relevant situation exists in the selected candidate carrier: some God candidate has the capability and correct recognition in a situation outside the admitted subset, while no admitted situation contains correct recognition of that candidate. It witnesses a substantive coverage failure, not merely a new identifier.",
+  "lean_declaration": "TruthCore.Alternatives.RevelationRecognition.OutsideAdmissibleRecognition",
+  "definition_ids": [
+    "DEF-REVELATION-RECOGNITION-PROFILE",
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-WITTGENSTEINIAN-FIDEISM",
+    "DEF-NATURAL-REASON-SHARED"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REVELATION-CAPABILITY-AND-PRACTICE-UPTAKE",
+    "DISAMB-PRACTICE-SENSITIVITY-AND-FIDEIST-INSULATION"
+  ]
+}
