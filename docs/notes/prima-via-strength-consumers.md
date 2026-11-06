@@ -138,3 +138,26 @@ retained and point to its disposition; they are not themselves proof evidence.
 Actual root-cost effects come only from `corpus.py frontier-diff`, not from
 counting warnings eliminated or new connections. The mandate use remains
 outside this batch.
+
+
+## Computed route comparison
+
+The authoritative frontier at main `4fda4384` plus this batch reports the
+following current-roster route costs (open transitive obligations, not premise
+field counts). The older routes remain available with their frozen interfaces.
+
+| Audited root family | Existing route | Reduced route |
+|---|---:|---:|
+| PrimaVia full description | 37 | 30 |
+| PrimaVia classical attributes with identity | 38 | 32 |
+| Efficient-regress classical attributes with identity | 39 | 32 |
+| PrimaVia Q11 uniqueness | 40 | 34 |
+| PrimaVia classical attributes | 38 | 31 (existing Fourth-Way subset) |
+| Efficient-regress classical attributes | 39 | 31 (existing Fourth-Way subset) |
+
+The adopted-potency Fourth-Way route already costs 30. Thus the new minimum
+also costs 30, and the union of open root premises remains 126. These are
+conditional configuration reductions; no premise is established or owner
+floor approved by this batch. Reproduce with
+`python3 scripts/corpus.py frontier-diff --base 4fda4384` and
+`python3 scripts/corpus.py frontier --routes --json`.
