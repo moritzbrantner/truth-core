@@ -1,0 +1,24 @@
+{
+  "id": "ATOMIC-COMPLETE-FUSION-MODEL",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-ATOMIC-COMPLETE-FUSION-MODEL",
+  "inference_ids": [
+    "INF-ATOMIC-COMPLETE-FUSION-MODEL"
+  ],
+  "meaning": "An order isomorphism identical on underlying sets transports the generic positive-powerset remainder and Sum1 construction to the EXISTING Body; its Sum2 witness is imported from UniversalFusionBoundary.checks. Singletons supply minimal parts. Two disjoint singleton bodies exclude a least object, and the powerset carrier is finite.",
+  "definition_ids": [
+    "DEF-UNIVERSAL-FUSION-DOMAIN",
+    "DEF-UNIVERSAL-FUSION-PROFILE",
+    "DEF-MEREOLOGICAL-COMPLEMENTATION",
+    "DEF-SUM1-LEAST-UPPER-BOUND",
+    "DEF-POSITIVE-BOOLEAN-MEREOLOGY",
+    "DEF-REGULAR-REAL-REGION-MEREOLOGY",
+    "DEF-ATOMIC-FUSION-CONTRAST",
+    "DEF-FINITE-NO-GUNK"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GUNK-FUSION-AND-PHYSICAL-COMPOSITION",
+    "DISAMB-SUM1-AND-SUM2-FUSION",
+    "DISAMB-EXACT-REMAINDER-AND-SUPPLEMENT"
+  ]
+}
