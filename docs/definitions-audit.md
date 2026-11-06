@@ -128,8 +128,11 @@ of missing formalizations.
 | No single declared Lean head |267| Review through their linked statements/arguments and existing notes; mixture of multi-predicate typed records, source glosses and real encoding gaps. |
 
 The baseline frontier had **zero** closures classified `alternatives_refuted`.
-This does not establish philosophical completeness of every rival list; it means
-there was no existing actual defended closure to repair at that baseline.
+Two statements nevertheless also satisfied the all-recorded-rivals-refuted
+pattern: `STMT-CASE-NON-CONTRADICTION` and `STMT-SOMETHING-CHANGES`. Both were
+independently owner-floored. No identified closure therefore depended solely
+on an unproved philosophical exhaustion of its recorded rival list. This
+does not establish philosophical completeness of those lists.
 Consequential latent coverage/transfer gaps are still recorded below before
 future refutations can be promoted across senses. The frontier engine itself
 is unchanged by this audit batch.
