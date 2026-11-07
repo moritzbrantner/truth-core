@@ -1,0 +1,50 @@
+target = "STMT-THINGS-MORE-AND-LESS-GOOD-TRUE-NOBLE"
+
+[[node]]
+id = "STMT-THINGS-MORE-AND-LESS-GOOD-TRUE-NOBLE"
+
+[[node]]
+id = "STMT-COGITO-THOUGHT-OCCURS"
+
+[[node]]
+id = "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT"
+
+[[node]]
+id = "STMT-AQUINAS-SCG-I28-MERELY-EXISTING-PARTICIPATION"
+
+[[node]]
+id = "STMT-SELF-UNDERSTANDING-HAS-HIGHEST-LIFE"
+
+[[node]]
+id = "NEW-THINKER-LIVES"
+new = true
+text = "Whatever bears an occurring thought lives: thinking is an operation from oneself (q.18 a.3)."
+
+[[node]]
+id = "NEW-SOMETHING-MERELY-EXISTS"
+new = true
+text = "Some actual thing exists without living (a stone), as sense shows."
+
+[[node]]
+id = "NEW-LIVING-MORE-NOBLE-THAN-MERELY-EXISTING"
+new = true
+text = "What lives is more noble than what merely exists (SCG I.28 [1], merely existing things participate being in a very imperfect mode)."
+
+[[node]]
+id = "NEW-ONE-GRADED-PAIR-SUFFICES"
+new = true
+text = "If one actual thing is more noble than another, grades are found in things."
+
+[[edge]]
+premises = ["STMT-AQUINAS-SCG-I28-MERELY-EXISTING-PARTICIPATION"]
+conclusion = "NEW-LIVING-MORE-NOBLE-THAN-MERELY-EXISTING"
+kind = "source"
+status = "mapped"
+note = "Encode SCG I.28 [1]/[4] as a supported sibling of the definition-linked statement."
+
+[[edge]]
+premises = ["STMT-COGITO-THOUGHT-OCCURS", "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT", "NEW-THINKER-LIVES", "NEW-SOMETHING-MERELY-EXISTS", "NEW-LIVING-MORE-NOBLE-THAN-MERELY-EXISTING", "NEW-ONE-GRADED-PAIR-SUFFICES"]
+conclusion = "STMT-THINGS-MORE-AND-LESS-GOOD-TRUE-NOBLE"
+kind = "derivation"
+status = "mapped"
+note = "Cogito supplies a living thinker; a stone merely exists; the living is more noble; one graded pair suffices. Gives the Fourth Way's empirical premise a retorsion-friendly witness."

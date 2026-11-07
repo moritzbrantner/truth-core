@@ -1,0 +1,37 @@
+target = "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE"
+
+[[node]]
+id = "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE"
+
+[[node]]
+id = "STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS"
+
+[[node]]
+id = "STMT-MAXIME-ENS-IS-WHAT-WE-CALL-GOD"
+
+[[node]]
+id = "STMT-DEI-FILIUS-ONE-TRUE-LIVING-GOD"
+
+[[node]]
+id = "NEW-FULL-DESCRIPTION-ENTAILS-REDUCED"
+new = true
+text = "Whatever satisfies the full nominal description of God is the only being maximal in being (the reduced description)."
+
+[[node]]
+id = "NEW-NAME-GOD-IMPOSED-FROM-OPERATION"
+new = true
+text = "The name God is imposed from the universal providence and causality attributed to its bearer (q.13 a.8), so it applies to whatever uniquely exercises them."
+
+[[edge]]
+premises = ["STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS", "NEW-FULL-DESCRIPTION-ENTAILS-REDUCED"]
+conclusion = "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE"
+kind = "derivation"
+status = "mapped"
+note = "Monotonicity of naming: the full description strengthens the reduced one, so reduced-description naming yields full-description naming."
+
+[[edge]]
+premises = ["STMT-MAXIME-ENS-IS-WHAT-WE-CALL-GOD", "NEW-NAME-GOD-IMPOSED-FROM-OPERATION"]
+conclusion = "STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS"
+kind = "source"
+status = "mapped"
+note = "Second support for the reduced naming leaf from the definition-linked naming sentence."

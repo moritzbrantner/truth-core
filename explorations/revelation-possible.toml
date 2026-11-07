@@ -1,0 +1,47 @@
+target = "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE"
+
+[[node]]
+id = "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE"
+
+[[node]]
+id = "STMT-SUBSISTENT-BEING-IS-INFINITE"
+
+[[node]]
+id = "STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES"
+
+[[node]]
+id = "STMT-GOD-IS-INFINITE"
+
+[[node]]
+id = "NEW-GOD-IS-OMNIPOTENT"
+new = true
+text = "Whatever is God can do whatever does not involve contradiction."
+
+[[node]]
+id = "NEW-REVELATION-INVOLVES-NO-CONTRADICTION"
+new = true
+text = "Revealing a truth and accompanying it with signs involves no contradiction."
+
+[[node]]
+id = "NEW-SOME-SIGNS-ONLY-GOD-CAN-GIVE"
+new = true
+text = "Some signs exceed every created power, so that whoever gives them is recognizable as God (miracles as motives of credibility)."
+
+[[node]]
+id = "NEW-INFINITE-ACT-HAS-INFINITE-POWER"
+new = true
+text = "Active power follows act; what is infinite in act has infinite active power (q.25 a.2)."
+
+[[edge]]
+premises = ["STMT-GOD-IS-INFINITE", "NEW-INFINITE-ACT-HAS-INFINITE-POWER"]
+conclusion = "NEW-GOD-IS-OMNIPOTENT"
+kind = "derivation"
+status = "mapped"
+note = "Omnipotence from infinity through power following act."
+
+[[edge]]
+premises = ["NEW-GOD-IS-OMNIPOTENT", "NEW-REVELATION-INVOLVES-NO-CONTRADICTION", "NEW-SOME-SIGNS-ONLY-GOD-CAN-GIVE"]
+conclusion = "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE"
+kind = "derivation"
+status = "mapped"
+note = "Possibility from omnipotence and noncontradiction; recognizability from signs exceeding created power."
