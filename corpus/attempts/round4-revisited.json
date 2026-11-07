@@ -1,0 +1,28 @@
+{
+  "id": "ATTEMPT-ROUND4-REVISITED",
+  "statement_ids": [
+    "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY",
+    "STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS",
+    "STMT-CAUSE-OF-NECESSARY-BEING-CAUSES-ITS-NECESSITY",
+    "STMT-IMMATERIAL-IS-INTELLECTUAL",
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-PER-SE-MOVER-LINK-IS-PER-SE-CAUSE-LINK"
+  ],
+  "date": "2026-11-07",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Batch certification of the derivation leads rejected earlier today (ATTEMPT-REJECTED-DERIVATION-LEADS-20261107) now that labelled open bare premises are allowed (maps explorations/round4-*.toml). (1) Act's simple priority over potency, idle potency included: through a typed ground relation (every potency has a ground; the ground is in act in the respect; the ground is simply prior), and through a fork on MovedIn (excluded middle listed): the moved case from the q.2 a.3 being-in-act reading, no self-motion in the same respect and the existing open mover-priority bridge, the idle case from a new open idle-potency premise. (2) Matter-form and esse-essence compositions through a component analysis: two distinct constituent principles suffice for composition; a matter-form composite has two; distinct esse and essence are both constituents. (3) A cause of a necessary being's being causes its necessity: through the respect in which necessity consists (esse), or through necessity as a perfection carried by the existing quarta via premise that the cause of being causes every perfection (contested reading of necessity); both necessity routes are declared single-application transcriptions (invariant 16): the last step applies a premise whose consequent is the target's, so they map the analysis without expanding the target. (4) The altogether immaterial has intellect through grades of immateriality on the primitive intellect power (no reception capacity is used; docs/immaterial-intellect-reception.md distinctions kept). (5) The Cogito populates the selected world with a concrete being through the causal criterion of concreteness: activity clause with the inner-word production premise, or capacity clause with the exerciser-power premise; concreteness is derived from the performed act, not assumed of bearers. (6) A per se mover link is a per se cause link from three existing open premises and no new one (the positive form of the occasionalist-rival refutation). Controls: 33 hand-written Unit/Bool omission models checked by decide without axioms (excluded middle excepted), one joint nonvacuity witness. All theorems axiom-free. Rejected edges: ATTEMPT-ROUND4-REVISITED-REJECTED-EDGES.",
+  "evidence": [
+    "ACT-SIMPLY-PRIOR-FROM-POTENCY-GROUND",
+    "ACT-SIMPLY-PRIOR-FROM-MOTION-FORK",
+    "COMPOSITIONS-FROM-DISTINCT-CONSTITUENTS",
+    "CAUSE-OF-NECESSARY-BEING-FROM-NECESSITY-OF-BEING",
+    "CAUSE-OF-NECESSARY-BEING-FROM-PERFECTION",
+    "IMMATERIAL-IS-INTELLECTUAL-FROM-GRADES",
+    "COGITO-INHABITED-CONCRETE-FROM-CAUSAL-ACTIVITY",
+    "COGITO-INHABITED-CONCRETE-FROM-CAUSAL-POWER",
+    "PER-SE-MOVER-LINK-FROM-EFFICIENT-CAUSING",
+    "ROUND4-REVISITED-CONTROLS"
+  ],
+  "blocker": "Every new premise is open. Supported (claim bears on it, gap noted): ground of a potency is in act (q.3 a.1, said only of reduction); every potency has a ground (SCG I.16 [3], translation); intellect follows the grade of immateriality (q.14 a.1, said of degrees of cognition). Bare analyst premises: ground of potency is simply prior; idle potency is posterior to act; two distinct constituents make a composite; a matter-form composite has two distinct constituents; distinct esse and essence are constituents; necessity consists in being; causing the necessity respect causes necessity; a necessary being is in act of necessity (contested); causing in the necessity respect causes necessity; something has intellect; the altogether immaterial is maximally immaterial; causers at w are concrete; causal power at w requires concreteness (the last two are the separate clauses of the existing owner commitment). STMT-CLASSICAL-ATTRIBUTES-SUFFICE remains underived."
+}

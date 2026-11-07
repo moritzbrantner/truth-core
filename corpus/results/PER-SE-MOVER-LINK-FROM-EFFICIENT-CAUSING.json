@@ -1,0 +1,10 @@
+{
+  "id": "PER-SE-MOVER-LINK-FROM-EFFICIENT-CAUSING",
+  "argument_id": "PER-SE-MOVER-LINK-FROM-EFFICIENT-CAUSING",
+  "challenge_module": "TruthCore.Results.Causality.Round4Revisited.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round4Revisited.Solution",
+  "theorem": "TruthCore.Results.Causality.Round4Revisited.perSeMoverLinkFromEfficientCausing",
+  "comparator_config": "results/PER-SE-MOVER-LINK-FROM-EFFICIENT-CAUSING/comparator.json",
+  "status": "solution-present",
+  "description": "Every per se mover link is a per se cause link, from three existing open premises and no new one: a per se mover link is a moving of x by a distinct y that is itself moved by some z; every moving in a respect is efficient causing in that respect (so y efficiently causes x and z efficiently causes y); and an efficient cause other than its effect that is itself efficiently caused causes only as caused (the Second Way reading). This is the positive form of the conditional refutation of the occasionalist rival in RIVAL-REFUTATIONS-ROUND2; it links MovesAsMoved to MovesIn and CausesAsCaused to EfficientlyCausesIn."
+}

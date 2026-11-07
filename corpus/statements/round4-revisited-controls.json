@@ -1,0 +1,23 @@
+{
+  "id": "STMT-ROUND4-REVISITED-CONTROLS",
+  "paraphrase": "Finite interpretations for the nine derivations of round 4 (revisited leads): for each premise other than excluded middle, a one- or two-element model in which the other premises hold and the conclusion fails, and one joint model per map in which every premise and conclusion holds with a nonvacuous instance (a potency grounded and moved by a distinct actual, simply prior being; a matter-form composite with distinct esse and essence; a necessary being caused in every respect; an intellectual being at the top grade; an occurring thought whose bearer exists, exercises intellect, causes, has power and is concrete; two beings moving and causing each other per se). Satisfiability and omission only; no model is claimed to describe reality.",
+  "lean_declaration": "TruthCore.Causality.Round4Revisited.Control.Certificate",
+  "definition_ids": [
+    "DEF-POTENCY-GROUND",
+    "DEF-CONSTITUENT-PRINCIPLE",
+    "DEF-NECESSITY-CONSISTS-IN",
+    "DEF-NECESSITY-AS-PERFECTION",
+    "DEF-GRADE-OF-IMMATERIALITY",
+    "DEF-ACT",
+    "DEF-POTENCY",
+    "DEF-SIMPLE-PRIORITY",
+    "DEF-HAS-INTELLECT",
+    "DEF-INHABITED-CONCRETE-WORLD",
+    "DEF-PER-SE-EFFICIENT-CAUSE-LINK"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT",
+    "DISAMB-MOTION",
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA"
+  ]
+}

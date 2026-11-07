@@ -1,0 +1,28 @@
+{
+  "id": "ACT-SIMPLY-PRIOR-FROM-MOTION-FORK",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-BEING-IN-ACT",
+    "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT",
+    "STMT-ACTUAL-MOVER-IS-SIMPLY-PRIOR",
+    "STMT-IDLE-POTENCY-POSTERIOR-TO-ACT"
+  ],
+  "conclusion_statement_id": "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY",
+  "inference_ids": [
+    "INF-ACT-SIMPLY-PRIOR-FROM-MOTION-FORK"
+  ],
+  "meaning": "Act's simple priority by cases on whether the potency is being actualized (excluded middle on MovedIn x r, listed). Moved case: some mover in act moves x (q.2 a.3 reading), it is not x (nothing moves itself in the same respect), so the existing open mover-priority bridge makes it simply prior. Idle case: the new OPEN idle-potency premise. Replaces the rejected premise 'every potency is being actualized' of STMT-ACT-PRIOR-FROM-MOTION-FACTS by the idle half only.",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-POTENCY",
+    "DEF-RESPECT",
+    "DEF-SELF-EVIDENT-MARKING",
+    "DEF-SIMPLE-PRIORITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT",
+    "DISAMB-MOTION",
+    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"
+  ]
+}

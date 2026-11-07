@@ -1,0 +1,23 @@
+{
+  "id": "IMMATERIAL-IS-INTELLECTUAL-FROM-GRADES",
+  "premise_statement_ids": [
+    "STMT-INTELLECT-FOLLOWS-GRADE-OF-IMMATERIALITY",
+    "STMT-SOME-BEING-HAS-INTELLECT",
+    "STMT-ALTOGETHER-IMMATERIAL-IS-MAXIMALLY-IMMATERIAL"
+  ],
+  "conclusion_statement_id": "STMT-IMMATERIAL-IS-INTELLECTUAL",
+  "inference_ids": [
+    "INF-IMMATERIAL-IS-INTELLECTUAL-FROM-GRADES"
+  ],
+  "meaning": "What is altogether immaterial has intellect, from three OPEN premises: intellect (the power, not an actual reception) is closed upward along grades of immateriality, something has intellect, and the altogether immaterial is at least as immaterial as every being. Unlike the q.14 calibration assemblies it does not pass through reception capacities; the abstract-object objection falls on the first premise.",
+  "definition_ids": [
+    "DEF-ALTOGETHER-IMMATERIAL",
+    "DEF-COMPOSITION-COMPONENT",
+    "DEF-GRADE-OF-IMMATERIALITY",
+    "DEF-HAS-INTELLECT",
+    "DEF-REMOTE-FROM-ALL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-Q14-RECEPTION-SENSES"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "REL-SCG-I16-ACT-PRIOR-SUPPORTS-POTENCY-HAS-GROUND",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-SCG-I-16-ACT-SIMPLY-PRIOR",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-POTENCY-HAS-GROUND",
+  "note": "SCG I.16 [3] (English translation) argues that potency does not raise itself to act but must be raised by something in act, hence 'whatever is in some way in potency has something prior to it'. The premise states only that every potency has some ground on which it depends; that every potency, idle or not, has such a ground is the analyst's generalization, and the text names no dependence relation."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "COGITO-INHABITED-CONCRETE-FROM-CAUSAL-POWER",
+  "argument_id": "COGITO-INHABITED-CONCRETE-FROM-CAUSAL-POWER",
+  "challenge_module": "TruthCore.Results.Causality.Round4Revisited.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round4Revisited.Solution",
+  "theorem": "TruthCore.Results.Causality.Round4Revisited.inhabitedFromPower",
+  "comparator_config": "results/COGITO-INHABITED-CONCRETE-FROM-CAUSAL-POWER/comparator.json",
+  "status": "solution-present",
+  "description": "As the activity route, with the capacity clause: the bearer who exercises intellect has causal power at w (OPEN), and whatever has causal power at w is concrete (OPEN capacity clause). Avoids the contested production of an inner word."
+}
