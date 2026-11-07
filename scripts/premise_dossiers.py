@@ -10,7 +10,7 @@ from typing import Any
 import re
 
 ATTEMPT_KINDS = {"derivation", "refutation", "reading", "countermodel", "source-search"}
-ATTEMPT_OUTCOMES = {"succeeded", "failed", "blocked", "superseded"}
+ATTEMPT_OUTCOMES = {"succeeded", "failed", "blocked", "superseded", "rejected"}
 PR_REFERENCE = re.compile(r"PR-[1-9][0-9]*\Z")
 
 
