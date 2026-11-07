@@ -1,0 +1,12 @@
+{
+  "id": "STMT-C381-TAUGHT-EACH-ARTICLE-AS-REVEALED",
+  "paraphrase": "OPEN (attribution deferred): the Council of Constantinople (381), in its creed, taught each of the twelve Creed articles (Greek 381 contents) as belonging to the revealed faith.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.Round3ChristChurch.C381TaughtEachArticleAsRevealed",
+  "definition_ids": [
+    "DEF-C381-TAUGHT-AS-REVEALED",
+    "DEF-CREED-GREEK-C381-CONTENT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CREED-CONTENT-AND-FORMULA"
+  ]
+}

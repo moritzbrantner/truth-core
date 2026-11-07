@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.selectedChurchFromAttestation"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "REL-Q25-A1-ACTIVE-SUPPORTS-ACTIVE-POWER-FOLLOWS-ACT",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q25-A1-ACTIVE-PRINCIPLE-IN-ACT",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-ACTIVE-POWER-FOLLOWS-ACT",
+  "note": "ST I q.25 a.1 co. states 'unumquodque, secundum quod est actu et perfectum, secundum hoc est principium activum alicuius'. Its 'secundum quod ... secundum hoc' bears on the sufficiency direction the premise needs (in act in a perfection, so able to act according to it), which the claim itself declines to attribute. The premise adds the task framework: a being can do a task if it is in act in every perfection the task requires; the article says nothing about tasks or about how perfections combine."
+}

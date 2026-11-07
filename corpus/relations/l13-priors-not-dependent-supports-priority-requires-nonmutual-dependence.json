@@ -1,0 +1,9 @@
+{
+  "id": "REL-L13-PRIORS-NOT-DEPENDENT-SUPPORTS-PRIORITY-REQUIRES-NONMUTUAL-DEPENDENCE",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-IN-METAPH-V-L13-PRIORS-NOT-DEPENDENT-A",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-PRIORITY-REQUIRES-NONMUTUAL-DEPENDENCE",
+  "note": "In V Metaph. lect. 13 n. 18 states that priors do not depend on posteriors as posteriors depend on priors: for a prior/posterior pair the posterior depends on the prior and not conversely. The premise adds that this holds for simple priority (DEF-SIMPLE-PRIORITY) and that 'depend' is the counterfactual dependence for being of DEF-DEPENDS-FOR-BEING; the passage speaks of priority in being generally and gives dependence no counterfactual analysis."
+}

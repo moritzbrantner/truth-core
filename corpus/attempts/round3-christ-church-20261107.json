@@ -1,0 +1,29 @@
+{
+  "id": "ATTEMPT-ROUND3-CHRIST-CHURCH-20261107",
+  "date": "2026-11-07",
+  "statement_ids": [
+    "STMT-PILOT-JESUS-CLAIMS",
+    "STMT-CHRISTS-CHURCH-IS-THE-CATHOLIC-CHURCH",
+    "STMT-RAISING-A-CLAIMANT-CONFIRMS-HIS-MANDATE",
+    "STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS",
+    "STMT-GOVERNING-GIFT-CONSTITUTES-FOUNDED-SOCIETY",
+    "STMT-CATHOLIC-CHURCH-PROPOSES-WHAT-C381-TAUGHT"
+  ],
+  "kind": "derivation",
+  "outcome": "rejected",
+  "summary": "Rejected edges of the round-3 Christ-and-Church exploration maps (explorations/jesus-claimed-divine-authority-and-rose.toml, resurrection-confirms-jesus-mandate.toml, commission-reports-go-back.toml, christ-founded-selected-church.toml, christs-church-is-catholic-church.toml, catholic-church-proposes-creed.toml). (1) Philippians 2.6 (STMT-REPORTED-PHIL-FORM-AND-EQUALITY) plus an 'early high Christology is explained only by Jesus' own claim' bridge -> Jesus claimed divine authority: rejected. The text presents Paul's (or a hymn's) Christology, not a saying of Jesus; the 'only' bridge would carry the whole conclusion (a transcription, invariant 16), and the corpus has no typed vocabulary for the explanatory adequacy of early belief. (2) Dei Filius 'the motives of credibility belong to the Catholic Church alone' (STMT-MOTIVES-OF-CREDIBILITY-BELONG-TO-CATHOLIC-CHURCH-ALONE) plus 'every Christ-founded society bears the motives' -> stage 6: rejected for this batch. The statement is untyped, the skeleton has no bearer-of-motives predicate over societies, and bearing the motives would still have to individuate one society; the claim already supports stage 6 through an existing relation. (3) Four source edges from untyped claim-level statements (Acts 2.22-36; Matthew 28.18-20 with John 21.15-17; Matthew 16.18-19; the CDF 1998 profession and the 2025 reception of the Greek 381 symbol) to typed premises: rejected as derivations because typing them would edit existing statements and a report is not by itself testimony, a principle or a reception rule. Each is recorded instead as a supports relation with a gap note (specs/round3-christ-church.toml). Certified edges of the same maps are listed in the maps and evidenced by the ROUND3-CHRIST-CHURCH-* results.",
+  "blocker": "(1) needs typed vocabulary for explanatory adequacy of early Christian belief (an inference-to-best-explanation profile) before the Philippians lead can be a derivation that could fail. (2) needs a typed predicate 'society bears the motives of credibility' and an individuation premise. (3) is blocked only by the rule against editing existing statements; a typed sibling of each report would let it enter as a premise.",
+  "evidence": [
+    "ROUND3-CHRIST-CHURCH-PILOT-CLAIMS-FROM-MARK-TRIAL",
+    "ROUND3-CHRIST-CHURCH-STAGE-FOUR-FROM-MARK-TRIAL",
+    "ROUND3-CHRIST-CHURCH-PILOT-CLAIMS-FROM-MARK-FORGIVENESS",
+    "ROUND3-CHRIST-CHURCH-RESURRECTION-CONFIRMS-MANDATE-FROM-RAISING",
+    "ROUND3-CHRIST-CHURCH-COMMISSION-REPORTS-FROM-TESTIMONY",
+    "ROUND3-CHRIST-CHURCH-ALL-COMMISSION-REPORTS-ENTAIL-TWO",
+    "ROUND3-CHRIST-CHURCH-SELECTED-CHURCH-FROM-COMMISSION-REPORTS",
+    "ROUND3-CHRIST-CHURCH-SELECTED-CHURCH-FROM-ATTESTATION",
+    "ROUND3-CHRIST-CHURCH-CHRISTS-CHURCH-CATHOLIC-FROM-UNIQUENESS",
+    "ROUND3-CHRIST-CHURCH-CREED-PROPOSED-FROM-C381",
+    "ROUND3-CHRIST-CHURCH-CONTROLS"
+  ]
+}

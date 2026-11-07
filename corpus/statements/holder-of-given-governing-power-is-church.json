@@ -1,0 +1,10 @@
+{
+  "id": "STMT-HOLDER-OF-GIVEN-GOVERNING-POWER-IS-CHURCH",
+  "paraphrase": "OPEN calibration premise (attribution deferred): a society that holds a governing power given in Jesus' commission is a Church in the selected sense. A sufficient condition, not a definition of the selected Church predicate.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.Round3ChristChurch.HolderOfGivenGoverningPowerIsChurch",
+  "definition_ids": [
+    "DEF-SOCIETY-HOLDS-COMMISSIONED-POWER",
+    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
+    "DEF-CHURCH-CRITERION-CALIBRATION"
+  ]
+}

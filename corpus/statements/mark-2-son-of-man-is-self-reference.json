@@ -1,0 +1,12 @@
+{
+  "id": "STMT-MARK-2-SON-OF-MAN-IS-SELF-REFERENCE",
+  "paraphrase": "OPEN reference bridge (attribution deferred): in asserting the authority of the Son of Man (Mark 2.10), Jesus used the title of himself. Only that saying is meant; no cross-passage identity of the title is asserted.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.Round3ChristChurch.Mark2SonOfManIsSelfReference",
+  "definition_ids": [
+    "DEF-JESUS-SPEECH-EVENT",
+    "DEF-MARK-FORGIVENESS-AUTHORITY-REPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MARK-FORGIVENESS-AUTHORITY"
+  ]
+}

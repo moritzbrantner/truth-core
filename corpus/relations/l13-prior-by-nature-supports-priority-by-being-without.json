@@ -1,0 +1,9 @@
+{
+  "id": "REL-L13-PRIOR-BY-NATURE-SUPPORTS-PRIORITY-BY-BEING-WITHOUT",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-IN-METAPH-V-L13-PRIOR-BY-NATURE-A",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-PRIORITY-BY-BEING-WITHOUT",
+  "note": "In V Metaph. lect. 13 n. 15 states the criterion: things are called prior by nature and substance (in the order of being) which can be without the others while the others cannot be without them. The premise adds two steps: it reads this 'prior in being' as the simple priority of DEF-SIMPLE-PRIORITY (Aquinas calls it natural priority and does not identify it with the act/potency priority of ST I q.3 a.1), and it turns a statement of how 'prior' is said into a universal sufficient condition over every pair of beings."
+}

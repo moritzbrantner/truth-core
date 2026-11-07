@@ -1,0 +1,19 @@
+{
+  "id": "DIRECTED-BEARERS-FROM-COMPARABLE-DEGREES",
+  "premise_statement_ids": [
+    "STMT-SELECTED-BEARER-DEGREES-COMPARABLE"
+  ],
+  "conclusion_statement_id": "STMT-SELECTED-PERFECTION-BEARERS-ARE-DEGREE-DIRECTED",
+  "inference_ids": [
+    "INF-DIRECTED-BEARERS-FROM-COMPARABLE-DEGREES"
+  ],
+  "meaning": "If any two bearers of the selected perfection have comparable represented degrees, the higher of any two bounds both, so the bearers are directed. Comparability is an OPEN analyst premise strictly stronger than directedness (the incomparable frame refutes it while a third bearer could still bound both).",
+  "definition_ids": [
+    "DEF-GREATEST-DEGREE-IN-A-PERFECTION",
+    "DEF-MAXIMUM-CALIBRATION-PROFILE",
+    "DEF-MAXIMUM-IN-A-PERFECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MAXIME-ENS"
+  ]
+}

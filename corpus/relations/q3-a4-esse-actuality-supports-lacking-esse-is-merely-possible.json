@@ -1,0 +1,9 @@
+{
+  "id": "REL-Q3-A4-ESSE-ACTUALITY-SUPPORTS-LACKING-ESSE-IS-MERELY-POSSIBLE",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q3-A4-ESSE-ACTUALITY-OF-EVERY-FORM-A",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-LACKING-ESSE-IS-MERELY-POSSIBLE",
+  "note": "ST I q.3 a.4 co. (second proof) states that esse is the actuality of every form or nature and infers that esse is related to an essence distinct from it 'sicut actus ad potentiam'. The premise states that whatever is not in act of esse is merely possible (in potency to being only). The passage speaks of the essence of a thing that has esse, not of what lacks esse altogether, and it does not consider abstracta, which a Platonist holds lack esse in re without being merely possible."
+}

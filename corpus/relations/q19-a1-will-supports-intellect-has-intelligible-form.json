@@ -1,0 +1,9 @@
+{
+  "id": "REL-Q19-A1-WILL-SUPPORTS-INTELLECT-HAS-INTELLIGIBLE-FORM",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q19-A1-WILL-FOLLOWS-INTELLECT",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-INTELLECT-HAS-INTELLIGIBLE-FORM",
+  "note": "ST I q.19 a.1 co. states that as a natural thing has being in act through its form, so the intellect actually understanding is in act through its intelligible form. The premise states it of whatever has intellect; the passage states it of intellect actually understanding (intelligens actu), and an intellect only in potency to understanding (the possible intellect before any species) is not covered."
+}

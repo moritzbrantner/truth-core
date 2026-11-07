@@ -1,0 +1,21 @@
+{
+  "id": "ROUND3-FOURTH-WAY-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-ROUND3-FOURTH-WAY-CONTROLS",
+  "inference_ids": [
+    "INF-ROUND3-FOURTH-WAY-CONTROLS"
+  ],
+  "meaning": "One omission model per premise of each of the twelve derivations (excluded middle excepted: it is logical and not provable without an axiom) and one joint nonvacuity witness: a two-being Boolean model in which true is God, the primary, greatest and maximal, and causes the perfection in false. Satisfiability and omission only.",
+  "definition_ids": [
+    "DEF-INTELLIGIBILITY-OF-THINGS",
+    "DEF-MAXIMUM-CALIBRATION-PROFILE",
+    "DEF-NO-INFINITE-ASCENT-IN-BEING",
+    "DEF-NULL-DEGREE",
+    "DEF-ORDER-BY-APPROACH-TO-A-PRIMARY",
+    "DEF-PER-RESPECT-DEGREE-FAMILY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-BEING-UNIVOCITY",
+    "DISAMB-MAXIME-ENS"
+  ]
+}

@@ -1,0 +1,37 @@
+target = "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS"
+
+[[node]]
+id = "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS"
+
+# NEW in round 3 (specs/round3-fourth-way.toml), OPEN.
+[[node]]
+id = "STMT-GREATEST-DEGREE-CAUSES-ALL-IN-EVERY-GENUS"
+
+# NEW in round 3 (specs/round3-fourth-way.toml), OPEN.
+[[node]]
+id = "STMT-DEGREE-EXCESS-AMONG-BEARERS-IS-MORE-IN"
+
+# NEW in round 3 (specs/round3-fourth-way.toml), OPEN.
+[[node]]
+id = "STMT-BEARER-DEGREES-DIRECTED-IN-EVERY-GENUS"
+
+[[node]]
+id = "STMT-EXCLUDED-MIDDLE"
+
+[[node]]
+id = "STMT-EXCEEDED-PERFECTION-IS-CAUSED"
+
+[[edge]]
+premises = ["STMT-GREATEST-DEGREE-CAUSES-ALL-IN-EVERY-GENUS", "STMT-DEGREE-EXCESS-AMONG-BEARERS-IS-MORE-IN", "STMT-BEARER-DEGREES-DIRECTED-IN-EVERY-GENUS", "STMT-EXCLUDED-MIDDLE"]
+conclusion = "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS"
+kind = "derivation"
+status = "certified"
+argument = "MAXIMUM-IN-GENUS-FROM-GREATEST-IN-EVERY-GENUS"
+note = "Maximal is greatest in every genus (directed degrees, excess is more-in, excluded middle), then the every-genus greatest-degree principle. Previously rejected only for needing per-respect wrappers and a bare interface (ATTEMPT-REJECTED-DERIVATION-LEADS-20261107); these are now explicit bare premises."
+
+[[edge]]
+premises = ["STMT-EXCEEDED-PERFECTION-IS-CAUSED"]
+conclusion = "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS"
+kind = "derivation"
+status = "rejected"
+note = "SCG II.15 gives some cause distinct from an exceeded bearer, not that the maximum is that cause; closing the gap needs a bridge 'the cause is the maximum', which states the conclusion. See ATTEMPT-ROUND3-FOURTH-WAY-REJECTED-EDGES."

@@ -1,0 +1,12 @@
+{
+  "id": "INF-AS-TO-BEING-SO-TO-TRUTH-FROM-INTELLIGIBILITY",
+  "input_statement_ids": [
+    "STMT-TRUTH-OF-THINGS-IS-INTELLIGIBILITY",
+    "STMT-INTELLIGIBILITY-PROPORTIONED-TO-BEING"
+  ],
+  "output_statement_id": "STMT-AS-TO-BEING-SO-TO-TRUTH",
+  "rule": "Transitivity of the biconditional, for having and for the comparative",
+  "meaning": "Truth said of things goes with intelligibility (q.16 a.1, a.3), and intelligibility goes with being (q.16 a.3: each thing is knowable insofar as it has being); so a thing has truth exactly when it has being, and is more true exactly when it is more a being: Metaphysics II.1's 'as to being, so to truth'. A two-step chain through the distinct respect of intelligibility; both premises are OPEN readings supported by q.16 claims.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

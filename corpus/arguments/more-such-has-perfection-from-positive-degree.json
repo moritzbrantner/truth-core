@@ -1,0 +1,23 @@
+{
+  "id": "MORE-SUCH-HAS-PERFECTION-FROM-POSITIVE-DEGREE",
+  "premise_statement_ids": [
+    "STMT-MORE-IN-EXCEEDS-REPRESENTED-DEGREE",
+    "STMT-NO-DEGREE-BELOW-NULL",
+    "STMT-ABOVE-NULL-DEGREE-HAS-THE-PERFECTION"
+  ],
+  "conclusion_statement_id": "STMT-MORE-SUCH-HAS-THE-PERFECTION",
+  "inference_ids": [
+    "INF-MORE-SUCH-HAS-PERFECTION-FROM-POSITIVE-DEGREE"
+  ],
+  "meaning": "What is hotter is hot, through degrees: if x is more r than y, x's degree of r is strictly above y's, which is at least the null degree, so x's degree is strictly above null, and whatever is strictly above the null degree of r has r. Three OPEN analyst premises about a per-respect degree family; the middle term is the degree, not the conclusion.",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-MORE-IN",
+    "DEF-NULL-DEGREE",
+    "DEF-PER-RESPECT-DEGREE-FAMILY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-BEING-UNIVOCITY",
+    "DISAMB-IN-ACT"
+  ]
+}

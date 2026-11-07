@@ -1,0 +1,9 @@
+{
+  "id": "REL-L13-PRIORS-NOT-DEPENDENT-SUPPORTS-INDEPENDENCE-ALLOWS-BEING-WITHOUT",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-IN-METAPH-V-L13-PRIORS-NOT-DEPENDENT-A",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-INDEPENDENCE-ALLOWS-BEING-WITHOUT",
+  "note": "In V Metaph. lect. 13 n. 18 infers ('unde') from priors' not depending on posteriors that every prior can in some way be without its posteriors. The premise takes the inference for every pair: whatever does not depend for its being on x can be without x. The passage applies it only to priors, keeps 'aliquo modo' (by generation or by corruption), and does not address the case the premise's own paraphrase flags, where x's not being is impossible."
+}

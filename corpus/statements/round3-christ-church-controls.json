@@ -1,0 +1,12 @@
+{
+  "id": "STMT-ROUND3-CHRIST-CHURCH-CONTROLS",
+  "paraphrase": "Controls of the round-3 Christ-and-Church batch: one finite model in which every premise and conclusion of the batch holds (a God, Jesus' claim and rising, the Catholic Church founded by Jesus, every Creed article proposed); and, for each premise of each of the nine route derivations, a finite model of the other premises in which the conclusion fails (22 models). Formal-schema models only.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.Round3ChristChurch.Control.Certificate",
+  "definition_ids": [
+    "DEF-JESUS-SPEECH-EVENT",
+    "DEF-RAISED-BY",
+    "DEF-COMMISSION-TESTIMONY",
+    "DEF-SOCIETY-HOLDS-COMMISSIONED-POWER",
+    "DEF-C381-TAUGHT-AS-REVEALED"
+  ]
+}

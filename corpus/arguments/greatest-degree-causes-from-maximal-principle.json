@@ -1,0 +1,29 @@
+{
+  "id": "GREATEST-DEGREE-CAUSES-FROM-MAXIMAL-PRINCIPLE",
+  "premise_statement_ids": [
+    "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
+    "STMT-MORE-SUCH-HAS-THE-PERFECTION",
+    "STMT-MORE-IN-MATCHES-STRICT-REPRESENTED-DEGREE"
+  ],
+  "conclusion_statement_id": "STMT-GREATEST-DEGREE-IN-GENUS-CAUSES-ALL-IN-GENUS",
+  "inference_ids": [
+    "INF-GREATEST-DEGREE-CAUSES-FROM-MAXIMAL-PRINCIPLE"
+  ],
+  "meaning": "In a calibration frame, a greatest-degree bearer is maximal: anything more such than it would have the perfection and, by calibration among bearers, a strictly higher degree than the greatest, which is impossible. The stronger analyst maximal-in-genus principle (OPEN) then makes it the cause of all others. Shows that the stronger analyst configuration entails the greatest-degree source reading under calibration and more-such-has; not a derivation of the source reading from weaker premises.",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-GENUS-BROAD",
+    "DEF-GREATEST-DEGREE-IN-A-PERFECTION",
+    "DEF-MAXIMUM-CALIBRATION-PROFILE",
+    "DEF-MAXIMUM-IN-A-PERFECTION",
+    "DEF-MORE-IN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-BEING-UNIVOCITY",
+    "DISAMB-CAUSE",
+    "DISAMB-GENUS",
+    "DISAMB-MAXIME-ENS",
+    "DISAMB-ORDER-OF-BEING"
+  ]
+}

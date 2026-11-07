@@ -1,0 +1,29 @@
+target = "STMT-MORE-IN-MATCHES-STRICT-REPRESENTED-DEGREE"
+
+[[node]]
+id = "STMT-MORE-IN-MATCHES-STRICT-REPRESENTED-DEGREE"
+
+[[node]]
+id = "STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY"
+
+# NEW in round 3 (specs/round3-fourth-way.toml), OPEN.
+[[node]]
+id = "STMT-DEGREE-AS-MUCH-AS-APPROACH"
+
+[[node]]
+id = "STMT-HOMOGENEOUS-BEING-SCALE"
+
+[[edge]]
+premises = ["STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY", "STMT-DEGREE-AS-MUCH-AS-APPROACH"]
+conclusion = "STMT-MORE-IN-MATCHES-STRICT-REPRESENTED-DEGREE"
+kind = "derivation"
+status = "certified"
+argument = "STRICT-CALIBRATION-FROM-APPROACH-MEASURE"
+note = "Transport the strict approach order to represented degrees along the q.3 a.5 ad 2 'as much as it approaches' match (NEW, supported)."
+
+[[edge]]
+premises = ["STMT-HOMOGENEOUS-BEING-SCALE"]
+conclusion = "STMT-MORE-IN-MATCHES-STRICT-REPRESENTED-DEGREE"
+kind = "derivation"
+status = "rejected"
+note = "The homogeneous scale orders beings by a preorder on the beings, not by the frame's value map; a bridge between them would have the form of STMT-DEGREE-AS-MUCH-AS-APPROACH, and the homogeneous scale is a stipulated contrast reading, not Aquinas's. See ATTEMPT-ROUND3-FOURTH-WAY-REJECTED-EDGES."

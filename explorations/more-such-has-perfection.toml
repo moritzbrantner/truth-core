@@ -1,0 +1,34 @@
+target = "STMT-MORE-SUCH-HAS-THE-PERFECTION"
+
+[[node]]
+id = "STMT-MORE-SUCH-HAS-THE-PERFECTION"
+
+# NEW in round 3 (specs/round3-fourth-way.toml), OPEN.
+[[node]]
+id = "STMT-MORE-IN-EXCEEDS-REPRESENTED-DEGREE"
+
+# NEW in round 3 (specs/round3-fourth-way.toml), OPEN.
+[[node]]
+id = "STMT-NO-DEGREE-BELOW-NULL"
+
+# NEW in round 3 (specs/round3-fourth-way.toml), OPEN.
+[[node]]
+id = "STMT-ABOVE-NULL-DEGREE-HAS-THE-PERFECTION"
+
+[[node]]
+id = "STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY"
+
+[[edge]]
+premises = ["STMT-MORE-IN-EXCEEDS-REPRESENTED-DEGREE", "STMT-NO-DEGREE-BELOW-NULL", "STMT-ABOVE-NULL-DEGREE-HAS-THE-PERFECTION"]
+conclusion = "STMT-MORE-SUCH-HAS-THE-PERFECTION"
+kind = "derivation"
+status = "certified"
+argument = "MORE-SUCH-HAS-PERFECTION-FROM-POSITIVE-DEGREE"
+note = "What is hotter is above the lesser's degree, which is at least null; above null is having the perfection."
+
+[[edge]]
+premises = ["STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY"]
+conclusion = "STMT-MORE-SUCH-HAS-THE-PERFECTION"
+kind = "derivation"
+status = "rejected"
+note = "The approach order constrains the comparative by nearness, not possession by the exceeding side: two beings, the primary has r, a non-primary x approaches more nearly than y but lacks r (not Lean-checked; the omission model approach.omit_hMore has the same shape). See ATTEMPT-ROUND3-FOURTH-WAY-REJECTED-EDGES."

@@ -1,0 +1,10 @@
+{
+  "id": "ROUND3-CHRIST-CHURCH-CONTROLS",
+  "argument_id": "ROUND3-CHRIST-CHURCH-CONTROLS",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.controls",
+  "comparator_config": "results/ROUND3-CHRIST-CHURCH-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Controls: a joint finite model of every premise and conclusion of the batch; and omission models for each premise of the nine route derivations (22 models)."
+}

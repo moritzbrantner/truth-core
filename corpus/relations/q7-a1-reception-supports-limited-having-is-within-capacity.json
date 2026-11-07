@@ -1,0 +1,9 @@
+{
+  "id": "REL-Q7-A1-RECEPTION-SUPPORTS-LIMITED-HAVING-IS-WITHIN-CAPACITY",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q7-A1-ESSE-LIMITED-ONLY-THROUGH-RECEPTION",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-LIMITED-HAVING-IS-WITHIN-CAPACITY",
+  "note": "ST I q.7 a.1 co. states that a form, by being received in matter, becomes determinately the form of this thing and its amplitude is contracted by the matter. The premise adds a measure reading: if y has r limited by z, the degree of y's r is at most z's capacity for r. The passage gives no degrees or capacities, and it speaks of form received in matter (and, by the claim's reading, of esse received), not of an arbitrary perfection limited by an arbitrary z."
+}

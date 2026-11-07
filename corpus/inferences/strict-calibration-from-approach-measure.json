@@ -1,0 +1,12 @@
+{
+  "id": "INF-STRICT-CALIBRATION-FROM-APPROACH-MEASURE",
+  "input_statement_ids": [
+    "STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY",
+    "STMT-DEGREE-AS-MUCH-AS-APPROACH"
+  ],
+  "output_statement_id": "STMT-MORE-IN-MATCHES-STRICT-REPRESENTED-DEGREE",
+  "rule": "Transport of strict order along an order-matching map (lt as le and not ge)",
+  "meaning": "In a calibration frame, if being more such is approaching the primary more nearly at the selected perfection, and the represented degrees are ordered exactly as the nearness to the primary (each thing has as much as it approaches), then among bearers being more such is having a strictly higher represented degree. The approach order is given at the frame's own MoreIn and selected perfection; the transport needs no totality.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

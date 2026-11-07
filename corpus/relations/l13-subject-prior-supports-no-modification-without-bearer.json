@@ -1,0 +1,9 @@
+{
+  "id": "REL-L13-SUBJECT-PRIOR-SUPPORTS-NO-MODIFICATION-WITHOUT-BEARER",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-IN-METAPH-V-L13-SUBJECT-PRIOR-TO-ACCIDENT-A",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-NO-MODIFICATION-WITHOUT-BEARER",
+  "note": "In V Metaph. lect. 13 n. 16 states that every sense of being is reduced to being that exists of itself as the subject of the other beings, so that substance is prior to accident. The premise adds that every modification (mode or accident) is borne by something: that needs the being-without criterion of n. 15 (the posterior cannot be without the prior) applied to accident and subject, which n. 16 does not state, and the identification of the premise's 'modification' with accident."
+}

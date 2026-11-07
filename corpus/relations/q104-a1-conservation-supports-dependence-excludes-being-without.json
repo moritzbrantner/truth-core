@@ -1,0 +1,9 @@
+{
+  "id": "REL-Q104-A1-CONSERVATION-SUPPORTS-DEPENDENCE-EXCLUDES-BEING-WITHOUT",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q104-A1-CONSERVATION-CONTINUES-ESSE",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-DEPENDENCE-EXCLUDES-BEING-WITHOUT",
+  "note": "ST I q.104 a.1 co. (English translation) describes per se preservation as the case where 'what is preserved depends on the preserver in such a way that it cannot exist without it'. It ties one kind of dependence (of being on a cause of being) to the impossibility of being without. The premise asserts it for every dependence for being in the counterfactual sense of DEF-DEPENDS-FOR-BEING; the article contrasts this with dependence of becoming only (the builder), which does not exclude the effect's being without the cause."
+}

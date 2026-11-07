@@ -1,0 +1,9 @@
+{
+  "id": "STMT-MT28-AND-JN21-REST-ON-TESTIMONY",
+  "paraphrase": "OPEN historical premise (attribution deferred): the commission reports of Matthew 28.18-20 and John 21.15-17 rest on the testimony of disciples present when the commission was given. Only the two reports needed are named.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.Round3ChristChurch.Mt28AndJn21RestOnTestimony",
+  "definition_ids": [
+    "DEF-COMMISSION-TESTIMONY",
+    "DEF-COMMISSION-REPORT-POWERS"
+  ]
+}

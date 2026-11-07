@@ -1,0 +1,10 @@
+{
+  "id": "ROUND3-CHRIST-CHURCH-COMMISSION-REPORTS-FROM-TESTIMONY",
+  "argument_id": "ROUND3-CHRIST-CHURCH-COMMISSION-REPORTS-FROM-TESTIMONY",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.commissionReportsFromTestimony",
+  "comparator_config": "results/ROUND3-CHRIST-CHURCH-COMMISSION-REPORTS-FROM-TESTIMONY/comparator.json",
+  "status": "solution-present",
+  "description": "Matthew 28.18-20 and John 21.15-17 rest on the testimony of those present, and such testimony is accurate; so both commissions go back to Jesus, and John 21's (shepherding) is one of the four governing reports. Two open premises; each is needed."
+}

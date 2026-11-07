@@ -1,0 +1,9 @@
+{
+  "id": "REL-Q75-A2-OPERARI-SUPPORTS-EVERY-OPERATION-HAS-AGENT",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q75-A2-OPERARI-ENTIS-IN-ACTU",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-EVERY-OPERATION-HAS-AGENT",
+  "note": "ST I q.75 a.2 co. states that operating belongs only to a being in act and that a thing operates in the way it is: operation is always some being's operating. The premise states that every operation has an agent whose operation it is; the passage presupposes an operating subject for each operation rather than stating it as a principle over operations as items."
+}

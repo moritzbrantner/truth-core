@@ -1,0 +1,12 @@
+{
+  "id": "STMT-DEGREE-EXCESS-AMONG-BEARERS-IS-MORE-IN",
+  "paraphrase": "OPEN analyst calibration (other direction, bearers only, every respect): if x and y both have r and x's represented degree of r is strictly higher than y's, x is more r than y.",
+  "lean_declaration": "TruthCore.Causality.Round3FourthWay.DegreeExcessAmongBearersIsMoreIn",
+  "definition_ids": [
+    "DEF-MORE-IN",
+    "DEF-PER-RESPECT-DEGREE-FAMILY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-BEING-UNIVOCITY"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "REL-Q16-A1-TRUTH-OF-THINGS-SUPPORTS-TRUTH-IS-INTELLIGIBILITY",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q16-A1-TRUTH-OF-THINGS-A",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-TRUTH-OF-THINGS-IS-INTELLIGIBILITY",
+  "note": "q.16 a.1 makes truth said of things a relation to the intellect on which the thing depends. The statement identifies having and comparing truth with having and comparing intelligibility; the passage gives no comparative of intelligibility (gap)."
+}
