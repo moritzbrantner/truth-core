@@ -1,0 +1,13 @@
+{
+  "id": "STMT-ABOVE-NULL-DEGREE-HAS-THE-PERFECTION",
+  "paraphrase": "OPEN analyst premise: whatever stands strictly above the null degree of a perfection r has r (what has some heat is hot).",
+  "lean_declaration": "TruthCore.Causality.Round3FourthWay.AboveNullDegreeHasThePerfection",
+  "definition_ids": [
+    "DEF-PER-RESPECT-DEGREE-FAMILY",
+    "DEF-NULL-DEGREE",
+    "DEF-ACT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT"
+  ]
+}

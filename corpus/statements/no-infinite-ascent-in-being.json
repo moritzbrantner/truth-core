@@ -1,0 +1,13 @@
+{
+  "id": "STMT-NO-INFINITE-ASCENT-IN-BEING",
+  "paraphrase": "OPEN analyst premise: there is no infinite ascent in being, that is, no sequence of beings each more a being than the one before (Lean WellFounded of 'is more in esse than'). Not a finite domain, a total order or a unique top.",
+  "lean_declaration": "TruthCore.Causality.Round3FourthWay.NoInfiniteAscentInBeing",
+  "definition_ids": [
+    "DEF-NO-INFINITE-ASCENT-IN-BEING",
+    "DEF-MORE-IN",
+    "DEF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-BEING-UNIVOCITY"
+  ]
+}

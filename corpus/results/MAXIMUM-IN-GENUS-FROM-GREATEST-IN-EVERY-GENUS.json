@@ -1,0 +1,10 @@
+{
+  "id": "MAXIMUM-IN-GENUS-FROM-GREATEST-IN-EVERY-GENUS",
+  "argument_id": "MAXIMUM-IN-GENUS-FROM-GREATEST-IN-EVERY-GENUS",
+  "challenge_module": "TruthCore.Results.Causality.Round3FourthWay.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round3FourthWay.Solution",
+  "theorem": "TruthCore.Results.Causality.Round3FourthWay.maximumInGenusFromGreatestEveryGenus",
+  "comparator_config": "results/MAXIMUM-IN-GENUS-FROM-GREATEST-IN-EVERY-GENUS/comparator.json",
+  "status": "solution-present",
+  "description": "In every perfection r, a maximal bearer m is at the greatest represented degree: for any bearer x, some bearer z bounds x and m; z is not strictly above m (it would then be more r than m, against maximality), so by excluded middle z is at most m and x is at most m. The greatest-degree genus principle at every perfection then makes m the cause of r in all other bearers. Answers ATTEMPT-REJECTED-DERIVATION-LEADS-20261107 for this target: the per-respect wrappers it named are now explicit OPEN premises (bare premises are allowed, owner direction 2026-11-07)."
+}

@@ -1,0 +1,43 @@
+target = "STMT-GRADES-TO-MAXIMUM-AT-BEING"
+
+[[node]]
+id = "STMT-GRADES-TO-MAXIMUM-AT-BEING"
+
+# NEW in round 3 (specs/round3-fourth-way.toml), OPEN.
+[[node]]
+id = "STMT-NO-INFINITE-ASCENT-IN-BEING"
+
+[[node]]
+id = "STMT-MORE-SUCH-HAS-THE-PERFECTION"
+
+[[node]]
+id = "STMT-EXCLUDED-MIDDLE"
+
+[[node]]
+id = "STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY"
+
+[[node]]
+id = "STMT-NOTHING-ELSE-REACHES-THE-PRIMARY"
+
+[[edge]]
+premises = ["STMT-NO-INFINITE-ASCENT-IN-BEING", "STMT-MORE-SUCH-HAS-THE-PERFECTION", "STMT-EXCLUDED-MIDDLE"]
+conclusion = "STMT-GRADES-TO-MAXIMUM-AT-BEING"
+kind = "derivation"
+status = "certified"
+argument = "GRADES-AT-BEING-FROM-NO-INFINITE-ASCENT"
+note = "Climb by 'more in being' from a bearer; the ascent bound (bare, NEW) stops the climb at a maximum. Omission of the bound: the natural numbers (Lean-checked)."
+
+[[edge]]
+premises = ["STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY", "STMT-NOTHING-ELSE-REACHES-THE-PRIMARY"]
+conclusion = "STMT-GRADES-TO-MAXIMUM-AT-BEING"
+kind = "derivation"
+status = "certified"
+argument = "GRADES-AT-BEING-FROM-APPROACH-PRIMACY"
+note = "The primary of the approach order is a maximum in being under strict primacy (existing lemma isMaximumIn_primary)."
+
+[[edge]]
+premises = ["STMT-MORE-SUCH-HAS-THE-PERFECTION", "STMT-EXCLUDED-MIDDLE"]
+conclusion = "STMT-GRADES-TO-MAXIMUM-AT-BEING"
+kind = "derivation"
+status = "rejected"
+note = "Without an ascent bound or a primary the conclusion fails: the natural-numbers model gradesAscent.omit_hWF satisfies more-such-has and refutes it. See ATTEMPT-ROUND3-FOURTH-WAY-REJECTED-EDGES."

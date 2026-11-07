@@ -1,0 +1,10 @@
+{
+  "id": "DIRECTED-BEARERS-FROM-GREATEST-BEARER",
+  "argument_id": "DIRECTED-BEARERS-FROM-GREATEST-BEARER",
+  "challenge_module": "TruthCore.Results.Causality.Round3FourthWay.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round3FourthWay.Solution",
+  "theorem": "TruthCore.Results.Causality.Round3FourthWay.directedFromGreatestBearer",
+  "comparator_config": "results/DIRECTED-BEARERS-FROM-GREATEST-BEARER/comparator.json",
+  "status": "solution-present",
+  "description": "If some bearer of the selected perfection is at its greatest represented degree, that bearer bounds every pair of bearers, so the bearers are directed. The existence of a greatest bearer is an OPEN analyst premise; directedness does not give it back on infinite carriers."
+}

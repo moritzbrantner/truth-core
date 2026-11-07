@@ -24,6 +24,16 @@ id = "STMT-SOMETHING-OTHER-THAN-GOD-EXISTS"
 [[node]]
 id = "STMT-EXCLUDED-MIDDLE"
 
+# NEW in round 3 (specs/round3-fourth-way.toml), OPEN.
+[[node]]
+id = "STMT-GOD-IS-THE-PRIMARY-OF-BEING"
+
+[[node]]
+id = "STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY"
+
+[[node]]
+id = "STMT-NOTHING-ELSE-REACHES-THE-PRIMARY"
+
 [[edge]]
 premises = ["STMT-MAXIME-ENS-IS-WHAT-WE-CALL-GOD"]
 conclusion = "STMT-GOD-CAUSES-BEING-OF-ALL-OTHERS"
@@ -37,3 +47,11 @@ conclusion = "STMT-GOD-IS-MAXIMAL-IN-BEING"
 kind = "derivation"
 status = "certified"
 note = "GOD-MAXIMAL-FROM-CAUSING. God causes another's being, so is more in being than it, so has being; nothing else exceeds God in being, by asymmetry."
+
+[[edge]]
+premises = ["STMT-GOD-IS-THE-PRIMARY-OF-BEING", "STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY", "STMT-NOTHING-ELSE-REACHES-THE-PRIMARY"]
+conclusion = "STMT-GOD-IS-MAXIMAL-IN-BEING"
+kind = "derivation"
+status = "certified"
+argument = "GOD-MAXIMAL-FROM-PRIMARY-OF-BEING"
+note = "Round 3. God is the primary of the order by approach (q.3 a.5 ad 2 reading, supported); with strict primacy the primary is maximal in being. Uses the q.3 a.5 ad 2 measure instead of STMT-BEING-MEASURED-BY-APPROACH-TO-GOD, which has no Lean binding and is left unchanged."
