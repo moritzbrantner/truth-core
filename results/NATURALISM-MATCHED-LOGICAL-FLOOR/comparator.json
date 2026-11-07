@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Ontology.NaturalismLogicalFloor.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.NaturalismLogicalFloor.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Ontology.NaturalismLogicalFloor.matchedFloor"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

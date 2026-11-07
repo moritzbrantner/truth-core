@@ -224,7 +224,7 @@ show that denying the bridge requires a loop.
 
 The part/simplicity/remoteness contrast and the whole-occupation scope are now
 encoded below. Law representation is encoded in §4.3 and represented pure sets
-in §4.4. Further logic/epistemic controls remain work of #1109. These
+in §4.4. A matched logic/thin-reason control is in §4.5; stronger epistemic and full-worldview questions remain open. These
 requirements are not replaced by the narrower tests.
 
 | Consequence | Expected encoding | Expected status |
@@ -351,7 +351,7 @@ mere word “instance” does not provide it. All these results are zero-axiom,
 with no new source claim, floor item, counted defeat or root-route closure.
 The substantive attempt and rejected readings are persisted in
 `ATTEMPT-NATURALISM-LAW-REPRESENTATIONS-1109`. The mathematical and additional
-logic/reason cells of #1109 remain active.
+logic/reason questions beyond the thin matched control remain active.
 
 ### 4.4 Pure-set representatives, foundation and object-level presence
 
@@ -389,8 +389,36 @@ are unchanged. The precise rejected inferences and remaining gaps are in
 
 All three results depend on `propext` and `Quot.sound` through the approved
 Mathlib quotient/foundation implementation. They are not zero-axiom results.
-Further matched F1/F6 controls were only investigated read-only and remain
-unfinished; no stronger normative meaning or new floor approval is inferred.
+The matched thin F1/F6 control is in §4.5; stronger normative meaning and
+reason-fact reification remain open, with no new floor approval.
+
+### 4.5 Logic and thin reasons on an actually populated matched model
+
+`NATURALISM-MATCHED-LOGICAL-FLOOR` reuses the exact public ontology, frame,
+causal-power and actuality fields of the old survivor. It explicitly exports
+all three N1 readings and part-based N2/N3/N3i, case non-contradiction, granted
+EM, and thin F6. The SAME agent bearing the displayed reason relation exists,
+is located, and is part of spacetime; every agent bearing that relation has
+those properties. Presence is checked from this particular ontology, not
+inferred from arbitrary parthood or candidate-type inhabitation.
+
+F1 composes the existing `LOGIC-NON-CONTRADICTION` theorem. EM remains an
+explicit argument and is not independently proved. The thin reason relation
+is exactly the earlier proof's anonymous relation, now named to expose the
+matched witness. It establishes neither ordinary epistemic-role normativity
+nor preference-independent authority; those have separate calibration inputs.
+Logical propositions and normative facts are not silently reified as further
+nonspatiotemporal ontology members. A claimed contradiction would require that
+additional representation/ontology bridge.
+
+Only the displayed same-model facts are certified; no unexported property of
+an arbitrary old existential witness, complete physical theory or real-world
+adequacy is claimed. The inherited candidate constructor `two` labels the
+old singleton anchor; it is not a proof about the number2 or every set. This
+is conditional compatibility inside the chosen logical signature, not a
+counted defeat of naturalism, a refutation of dialetheism, or a new floor
+approval. See `ATTEMPT-NATURALISM-MATCHED-LOGICAL-FLOOR-1109` for the exact
+rejected transfers and remaining gaps.
 
 ## 5. Status summary
 
@@ -413,6 +441,7 @@ unfinished; no stronger normative meaning or new floor approval is inferred.
 | `NATURALISM-PURE-SET-REPRESENTATIVES-UNLOCATED` | represented pure-set location | conditional Mathlib foundation result |
 | `NATURALISM-PURE-SET-REPRESENTATIVES-ABSENT` | occupant N1 and set support | conditional object-level exclusion |
 | `NATURALISM-SET-REPRESENTATION-CONTROLS` | nominalist-style and forward-only profiles | populated scoped controls, approved Mathlib axioms |
+| `NATURALISM-MATCHED-LOGICAL-FLOOR` | case F1, granted EM and actual located thin-F6 agents | conditional same-model compatibility |
 
 **What is defeated:** nothing counts.
 
