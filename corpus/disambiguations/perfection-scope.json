@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-PERFECTION-SCOPE",
+  "term": "having every perfection",
+  "sense_definition_ids": [
+    "DEF-UNIVERSALLY-PERFECT",
+    "DEF-UNRESTRICTED-PURE-PERFECTION"
+  ],
+  "resolution": "DEF-UNIVERSALLY-PERFECT concerns being in act in every respect in which anything is in act (formal-or-eminent reading, DISAMB-IN-ACT). DEF-UNRESTRICTED-PURE-PERFECTION concerns really having every pure determination of the supplied carrier. They coincide only in the reading where every respect is a real determination and every determination is pure (everyPerfectionIsAllPureCase). In particular, eminently containing a perfection is not the same as really having it as a determination; the thisness results use only the second sense. Ordinary immaterial simplicity satisfies neither: such a form lacks other forms' perfections (withoutUnrestrictedPerfection)."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "REAL-THISNESS-FIRST-MOVER-UNIQUENESS",
+  "argument_id": "REAL-THISNESS-FIRST-MOVER-UNIQUENESS",
+  "challenge_module": "TruthCore.Results.Causality.PureActThisness.Challenge",
+  "solution_module": "TruthCore.Results.Causality.PureActThisness.Solution",
+  "theorem": "TruthCore.Results.Causality.PureActThisness.uniqueFromRealThisness",
+  "comparator_config": "results/REAL-THISNESS-FIRST-MOVER-UNIQUENESS/comparator.json",
+  "status": "solution-present",
+  "description": "Each first mover's real thisness is, by strict pure actuality, a pure perfection; by unrestricted perfection every first mover has it; since no other being has it, every first mover is that one. Conditional on three OPEN, unattributed premises. No first mover is produced, and the premises are not defended here. The result does not exclude bare numerical distinctness, which real thisness denies only for first movers by supplying a real determination."
+}

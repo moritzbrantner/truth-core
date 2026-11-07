@@ -1,0 +1,9 @@
+{
+  "id": "INF-PURE-ACT-THISNESS-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-PURE-ACT-THISNESS-CONTROLS",
+  "rule": "Explicit finite interpretations reusing the part-free and single-mover carriers",
+  "meaning": "Finite interpretations. On the unchanged part-free model, unrestricted perfection and strict pure actuality hold with two barely distinct first movers, and real thisness, identity of real indiscernibles and at-most-one fail. Giving each root its own real thisness as a non-pure individuating principle keeps unrestricted perfection, real thisness and identity of real indiscernibles and fails strict pure actuality and at-most-one. Counting those thisnesses as pure perfections keeps strict pure actuality and fails unrestricted perfection and at-most-one. On the single-mover carrier, unrestricted perfection, strict pure actuality, real thisness and at-most-one hold while identity of real indiscernibles fails; with no determinations, at-most-one holds with an actual first mover and real thisness fails. All premises of both uniqueness theorems hold with an actual first mover. Satisfiability of encoded bundles, not metaphysical possibility.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

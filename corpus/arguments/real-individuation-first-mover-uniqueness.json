@@ -1,0 +1,27 @@
+{
+  "id": "REAL-INDIVIDUATION-FIRST-MOVER-UNIQUENESS",
+  "premise_statement_ids": [
+    "STMT-FIRST-MOVER-HAS-EVERY-PURE-DETERMINATION",
+    "STMT-FIRST-MOVER-DETERMINATIONS-ARE-PURE",
+    "STMT-REAL-DETERMINATIONS-INDIVIDUATE"
+  ],
+  "conclusion_statement_id": "STMT-AT-MOST-ONE-FIRST-UNMOVED-MOVER",
+  "inference_ids": [
+    "INF-REAL-INDIVIDUATION-FIRST-MOVER-UNIQUENESS"
+  ],
+  "meaning": "By the imported pureActPluralityIsBare, any two first movers have the same real determinations; identity of real indiscernibles then makes them one. Conditional on three OPEN, unattributed premises. The third ranges over all beings and so also denies bare numerical difference among things that are not first movers; it exceeds what uniqueness needs. No first mover is produced.",
+  "definition_ids": [
+    "DEF-FIRST-UNMOVED-MOVER",
+    "DEF-REAL-DETERMINATION",
+    "DEF-PURE-PERFECTION",
+    "DEF-UNRESTRICTED-PURE-PERFECTION",
+    "DEF-STRICT-PURE-ACTUALITY",
+    "DEF-REAL-INDISCERNIBILITY",
+    "DEF-IDENTITY-OF-REAL-INDISCERNIBLES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THISNESS-REAL-BARE",
+    "DISAMB-PURE-ACT-STRICTNESS",
+    "DISAMB-PERFECTION-SCOPE"
+  ]
+}

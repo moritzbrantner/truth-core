@@ -176,6 +176,7 @@ public import TruthCore.Results.Causality.PluralRootConfluence.Solution
 public import TruthCore.Results.Causality.PossibleCausalSourceNecessity.Solution
 public import TruthCore.Results.Causality.PossibleCauseBruteSurvival.Solution
 public import TruthCore.Results.Causality.PowerExistenceBoundary.Solution
+public import TruthCore.Results.Causality.PureActThisness.Solution
 public import TruthCore.Results.Causality.ReflexiveActualFusionNecessaryBeing.Solution
 public import TruthCore.Results.Causality.RegressAccessibilityExcludesSeries.Solution
 public import TruthCore.Results.Causality.RegressAccessibilityUnboundedDepth.Solution

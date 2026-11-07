@@ -1,0 +1,26 @@
+{
+  "id": "REAL-THISNESS-FIRST-MOVER-UNIQUENESS",
+  "premise_statement_ids": [
+    "STMT-FIRST-MOVER-HAS-EVERY-PURE-DETERMINATION",
+    "STMT-FIRST-MOVER-DETERMINATIONS-ARE-PURE",
+    "STMT-FIRST-MOVER-HAS-REAL-THISNESS"
+  ],
+  "conclusion_statement_id": "STMT-AT-MOST-ONE-FIRST-UNMOVED-MOVER",
+  "inference_ids": [
+    "INF-REAL-THISNESS-FIRST-MOVER-UNIQUENESS"
+  ],
+  "meaning": "Each first mover's real thisness is, by strict pure actuality, a pure perfection; by unrestricted perfection every first mover has it; since no other being has it, every first mover is that one. Conditional on three OPEN, unattributed premises. No first mover is produced, and the premises are not defended here. The result does not exclude bare numerical distinctness, which real thisness denies only for first movers by supplying a real determination.",
+  "definition_ids": [
+    "DEF-FIRST-UNMOVED-MOVER",
+    "DEF-REAL-DETERMINATION",
+    "DEF-PURE-PERFECTION",
+    "DEF-UNRESTRICTED-PURE-PERFECTION",
+    "DEF-STRICT-PURE-ACTUALITY",
+    "DEF-REAL-THISNESS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THISNESS-REAL-BARE",
+    "DISAMB-PURE-ACT-STRICTNESS",
+    "DISAMB-PERFECTION-SCOPE"
+  ]
+}
