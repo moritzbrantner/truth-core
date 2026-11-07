@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.PureActRoot.Challenge",
+  "solution_module": "TruthCore.Results.Causality.PureActRoot.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.PureActRoot.uniqueRootFromRealThisness"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

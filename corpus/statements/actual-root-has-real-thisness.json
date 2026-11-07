@@ -1,0 +1,16 @@
+{
+  "id": "STMT-ACTUAL-ROOT-HAS-REAL-THISNESS",
+  "paraphrase": "OPEN, unattributed: each actual concrete root of the selected grounding relation at w has a real determination that no other being has.",
+  "lean_declaration": "TruthCore.Causality.PureActRoot.ActualRootHasRealThisness",
+  "definition_ids": [
+    "DEF-ACTUAL-ROOT",
+    "DEF-REAL-DETERMINATION",
+    "DEF-PURE-PERFECTION",
+    "DEF-REAL-THISNESS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THISNESS-REAL-BARE",
+    "DISAMB-PURE-ACT-STRICTNESS",
+    "DISAMB-PERFECTION-SCOPE"
+  ]
+}

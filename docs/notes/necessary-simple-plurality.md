@@ -1670,3 +1670,74 @@ further finite model. It is a judgment that cannot yet be encoded.
 **Actual premise comparison:** `corpus.py frontier-diff`: no change. One new
 conditional route to `STMT-AT-MOST-ONE-FIRST-UNMOVED-MOVER` uses the weak version;
 no premise is discharged.
+
+### Pure-act premises at the necessary root (2026-11-07)
+
+**Question.** The pure-act uniqueness theorems above quantify over first unmoved
+movers. The whole-roster route reaches a different endpoint,
+`STMT-UNIQUE-NECESSARY-ACTUAL-ROOT`: one actual concrete root of the selected
+grounding relation, necessary at accessible worlds. Its only uniqueness proof so
+far (`NECESSARY-ROOT-UNIQUENESS`) runs through a maximum in being: grades with a
+maximum, the genus principle, the has-being bridge and the necessity-cause
+bridge. Can the pure-act premises do that work instead?
+
+**Encoding** (`TruthCore/Causality/PureActRoot.lean`). The three pure-act
+premises are restated for actual roots as new statements:
+- `STMT-ACTUAL-ROOT-HAS-EVERY-PURE-DETERMINATION`;
+- `STMT-ACTUAL-ROOT-DETERMINATIONS-ARE-PURE`;
+- `STMT-ACTUAL-ROOT-HAS-REAL-THISNESS`.
+
+They are not instances of the first-mover statements, because being an actual
+root (actually concrete and grounded by no actual concretum) is not the same as
+moving something while being moved in no respect.
+
+A re-indexing then makes the earlier proofs apply unchanged. It counts "moved" as
+"not an actual root" and "moves" as "is an actual root". Under it, first-mover
+status is exactly actual rootness (`firstIffRoot`), so `uniqueFromRealThisness`
+and `uniqueFromPureIndiscernibility` apply. The re-indexing asserts no motion or
+causation. It shows that the pure-act argument uses nothing about motion.
+
+**Results** (both zero-axiom).
+- `PURE-ACT-NECESSARY-ROOT-UNIQUENESS` derives `STMT-UNIQUE-NECESSARY-ACTUAL-ROOT`
+  from seven premises. Four are the whole-roster existence premises, which give
+  an actual necessary root through the existing `necessaryActualRoot`: population,
+  whole-roster nontrapping, contingent dependence and excluded middle. The other
+  three are unrestricted perfection, strict pure actuality and real thisness at
+  the actual roots.
+- `PURE-INDISCERNIBILITY-NECESSARY-ROOT-UNIQUENESS` derives the same endpoint
+  with the narrower bridge, identity of purely determined indiscernibles, in place
+  of real thisness. That bridge ranges over all beings, not only over roots.
+
+**Comparison with the maximum route.** Both routes reach the same endpoint and
+share the same four existence premises.
+- The maximum route adds five premises: the necessity-cause bridge, the genus
+  principle, has-being, cause-of-necessity and grades.
+- The pure-act route adds three premises instead.
+
+The two bundles are disjoint apart from the shared existence premises. A defender
+who rejects the Fourth Way's grades and genus principle therefore still has a
+uniqueness route to the necessary root. That route is only as strong as the
+pure-act premises at the root, and the bare-difference residue recorded above
+applies to it unchanged.
+
+**Controls** (`PURE-ACT-NECESSARY-ROOT-CONTROLS`) use finite one-world profiles.
+In each, excluded middle is a premise of the route and is not asserted.
+- **Two ungrounded candidates.** Both are actual necessary roots.
+  - With the same determinations, every premise except real thisness, or except
+    the narrower bridge, holds, and uniqueness fails. This is bare difference at
+    the necessary root.
+  - With non-pure thisnesses, strict pure actuality fails. With pure thisnesses,
+    unrestricted perfection fails. In both cases uniqueness fails.
+- **Empty carrier.** Every premise except population holds vacuously, and
+  uniqueness fails.
+- **One candidate grounding the other.** This is the positive witness: every
+  non-logical premise of both routes holds, together with the conclusion.
+
+**Remaining gaps.**
+- The routes do not connect the root premises to the first-mover premises. Doing
+  so needs a bridge saying that actual roots are first movers, or the converse,
+  and none is assumed here.
+- The routes do not exclude necessary beings that are not roots.
+- The routes do not identify the root with God.
+
+**Actual premise comparison:** see the `corpus.py frontier-diff` output in the PR.

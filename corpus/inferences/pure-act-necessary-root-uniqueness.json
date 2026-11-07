@@ -1,0 +1,17 @@
+{
+  "id": "INF-PURE-ACT-NECESSARY-ROOT-UNIQUENESS",
+  "input_statement_ids": [
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-WHOLE-ROSTER-NOT-TRAPPED",
+    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-ACTUAL-ROOT-HAS-EVERY-PURE-DETERMINATION",
+    "STMT-ACTUAL-ROOT-DETERMINATIONS-ARE-PURE",
+    "STMT-ACTUAL-ROOT-HAS-REAL-THISNESS"
+  ],
+  "output_statement_id": "STMT-UNIQUE-NECESSARY-ACTUAL-ROOT",
+  "rule": "Real thisness at the actual roots",
+  "meaning": "Population, whole-roster nontrapping, contingent dependence and excluded middle give an actual necessary root; unrestricted perfection, strict pure actuality and real thisness at the actual roots make it the only actual root. The whole-roster helper necessaryActualRoot supplies an actual root of the selected grounding relation at w that is necessary at accessible worlds. The pure-act theorem is applied through a re-indexing under which first-mover status is exactly actual rootness (firstIffRoot); the re-indexing asserts no motion or causation. Unlike NECESSARY-ROOT-UNIQUENESS, no maximum in being, grades, genus principle, has-being bridge or necessity-cause bridge is used. Necessary nonroots are not excluded, no God identification is made, and all premises stay OPEN.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
