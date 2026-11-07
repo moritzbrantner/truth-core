@@ -3,7 +3,7 @@
 This bounded audit examines the exact 78 IDs in the accompanying
 [per-record evidence](residual-definition-audit-a.json), selected from the
 residual cohort at `3fe6d92dc9b96d7693e5e52b4be4b549f40b39da`. The current
-inspection base is `e6d8fa5f92223faba91eb37f0fdc37cc86a04ffc`.
+inspection base is `7c89dd9abecb2e1da4cf89b4250e506a8c6e1539`.
 None of these 78 is one of the reserved Q14 reception definitions.
 
 “Residual” means absent from an argument's `definition_ids` and from those
