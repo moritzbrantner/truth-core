@@ -1,0 +1,12 @@
+{
+  "id": "INF-SECOND-MOVERS-RELEVANT-RESPECT-FROM-INSTRUMENT",
+  "input_statement_ids": [
+    "STMT-MOVED-MOVER-IS-INSTRUMENT",
+    "STMT-INSTRUMENT-MOVES-BY-PRINCIPAL-POWER"
+  ],
+  "output_statement_id": "STMT-SECOND-MOVERS-MOVE-AS-MOVED-IN-RELEVANT-RESPECT",
+  "rule": "universal chaining through the instrument predicate (not moving by own form)",
+  "meaning": "For all beings and respects: if every mover other than what it moves that is being moved in a respect relevant to that moving does not move it by its own form, and every mover that moves something not by its own form moves it only as moved, then every mover other than what it moves that is being moved in a relevant respect moves it only as moved (the relevant-respect per se reading). Both premises are open analyst formulations; neither is the conclusion, and omitting either has a finite countermodel.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

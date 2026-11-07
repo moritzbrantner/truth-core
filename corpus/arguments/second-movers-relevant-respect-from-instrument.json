@@ -1,0 +1,22 @@
+{
+  "id": "SECOND-MOVERS-RELEVANT-RESPECT-FROM-INSTRUMENT",
+  "premise_statement_ids": [
+    "STMT-MOVED-MOVER-IS-INSTRUMENT",
+    "STMT-INSTRUMENT-MOVES-BY-PRINCIPAL-POWER"
+  ],
+  "conclusion_statement_id": "STMT-SECOND-MOVERS-MOVE-AS-MOVED-IN-RELEVANT-RESPECT",
+  "inference_ids": [
+    "INF-SECOND-MOVERS-RELEVANT-RESPECT-FROM-INSTRUMENT"
+  ],
+  "meaning": "For all beings and respects: if every mover other than what it moves that is being moved in a respect relevant to that moving does not move it by its own form, and every mover that moves something not by its own form moves it only as moved, then every mover other than what it moves that is being moved in a relevant respect moves it only as moved (the relevant-respect per se reading). Both premises are open analyst formulations; neither is the conclusion, and omitting either has a finite countermodel.",
+  "definition_ids": [
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-MOVES-BY-OWN-FORM",
+    "DEF-PER-SE-LINK-RELEVANT-RESPECT",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION",
+    "DISAMB-PER-SE-LINK"
+  ]
+}

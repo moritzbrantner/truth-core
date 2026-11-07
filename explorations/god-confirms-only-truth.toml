@@ -1,0 +1,47 @@
+target = "STMT-GOD-CONFIRMS-ONLY-TRUTH"
+
+[[node]]
+id = "STMT-GOD-CONFIRMS-ONLY-TRUTH"
+
+[[node]]
+id = "STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES"
+
+[[node]]
+id = "STMT-GOD-HAS-INTELLECT"
+
+[[node]]
+id = "STMT-GOD-HAS-WILL"
+
+[[node]]
+id = "NEW-CONFIRMING-IS-ASSERTING"
+new = true
+text = "To confirm a proposition by a sign is to assert it."
+
+[[node]]
+id = "NEW-GOD-ASSERTS-ONLY-WHAT-HE-KNOWS"
+new = true
+text = "A God with the classical attributes asserts only what he knows to be true (no deception: goodness of will)."
+
+[[node]]
+id = "NEW-GOD-KNOWS-ONLY-TRUTHS"
+new = true
+text = "What a God with the classical attributes knows is true (no error: perfect intellect)."
+
+[[node]]
+id = "NEW-CLASSICAL-ATTRIBUTES-INCLUDE-PERFECT-INTELLECT-AND-GOOD-WILL"
+new = true
+text = "Whatever has the classical attributes has an intellect that knows only truths and a will that intends no deception."
+
+[[edge]]
+premises = ["NEW-CONFIRMING-IS-ASSERTING", "NEW-GOD-ASSERTS-ONLY-WHAT-HE-KNOWS", "NEW-GOD-KNOWS-ONLY-TRUTHS"]
+conclusion = "STMT-GOD-CONFIRMS-ONLY-TRUTH"
+kind = "derivation"
+status = "mapped"
+note = "Veracity split into sincerity and infallibility; each becomes a separately defensible node."
+
+[[edge]]
+premises = ["NEW-CLASSICAL-ATTRIBUTES-INCLUDE-PERFECT-INTELLECT-AND-GOOD-WILL"]
+conclusion = "NEW-GOD-ASSERTS-ONLY-WHAT-HE-KNOWS"
+kind = "bridge"
+status = "mapped"
+note = "Needs a typed account of HasClassicalAttributes beyond the primitive field."

@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.MotionMapsBatch1.Challenge",
+  "solution_module": "TruthCore.Results.Causality.MotionMapsBatch1.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.MotionMapsBatch1.createdAgentMovedFromNewActuality"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

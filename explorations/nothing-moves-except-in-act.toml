@@ -1,0 +1,38 @@
+target = "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT"
+
+[[node]]
+id = "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT"
+
+[[node]]
+id = "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH"
+
+[[node]]
+id = "STMT-MORE-SUCH-HAS-THE-PERFECTION"
+
+[[node]]
+id = "STMT-NATURAL-SELF-MOTION-HAS-A-MOVER"
+
+[[node]]
+id = "STMT-EXCLUDED-MIDDLE"
+
+[[node]]
+id = "NEW-MOVER-IS-EFFICIENT-CAUSE-OF-MOTION"
+new = true
+text = "Whatever moves another in a respect efficiently causes that other's being so in that respect."
+
+[[node]]
+id = "NEW-SELF-MOVER-MOVES-BY-A-PART-IN-ACT"
+new = true
+text = "A thing that moves itself does so by one part in act moving another part in potency (Physics VIII.4\u20135)."
+
+[[node]]
+id = "NEW-MOVING-IS-CAUSING-AS-MORE-SUCH"
+new = true
+text = "A distinct mover is more such in the respect it moves to than the moved (the heater is hotter)."
+
+[[edge]]
+premises = ["NEW-MOVER-IS-EFFICIENT-CAUSE-OF-MOTION", "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH", "STMT-MORE-SUCH-HAS-THE-PERFECTION", "NEW-SELF-MOVER-MOVES-BY-A-PART-IN-ACT", "STMT-EXCLUDED-MIDDLE"]
+conclusion = "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT"
+kind = "derivation"
+status = "mapped"
+note = "Distinct mover: causes, so more such, so has the perfection (in act). Self-mover: split into parts. The self-mover case was the reason for rejection in ATTEMPT-REJECTED-DERIVATION-LEADS; the part analysis is the proposed fix."

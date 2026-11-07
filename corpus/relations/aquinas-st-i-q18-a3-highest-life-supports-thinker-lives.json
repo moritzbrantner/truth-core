@@ -1,0 +1,9 @@
+{
+  "id": "REL-AQUINAS-ST-I-Q18-A3-HIGHEST-LIFE-SUPPORTS-THINKER-LIVES",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q18-A3-HIGHEST-LIFE",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-THINKER-LIVES",
+  "note": "The claim's reading of q.18 a.3 co. records that things live insofar as they act from themselves; the same pinned passage classes understanding as an action that remains in the agent and says that what understands itself is said to move itself. That bears on this premise. Gaps: the claim states the highest-life thesis about God, not the universal that every bearer of an occurring thought lives; the cogito's thought episode and bearer (DEF-THOUGHT-OCCURRENCE, DEF-THOUGHT-BEARER) are not Aquinas's vocabulary."
+}

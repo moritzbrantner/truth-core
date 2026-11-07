@@ -1,0 +1,38 @@
+target = "STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED"
+
+[[node]]
+id = "STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED"
+
+[[node]]
+id = "STMT-SECOND-MOVERS-MOVE-AS-MOVED-IN-RELEVANT-RESPECT"
+
+[[node]]
+id = "STMT-MOVING-IS-IN-THE-MOVED"
+
+[[node]]
+id = "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT"
+
+[[node]]
+id = "STMT-MOVED-MOVER-IS-INSTRUMENT"
+
+[[node]]
+id = "STMT-INSTRUMENT-MOVES-BY-PRINCIPAL-POWER"
+
+[[node]]
+id = "STMT-RELEVANT-RESPECT-COVERS-EVERY-MOVED-MOVER"
+
+[[edge]]
+premises = ["STMT-MOVED-MOVER-IS-INSTRUMENT", "STMT-INSTRUMENT-MOVES-BY-PRINCIPAL-POWER"]
+conclusion = "STMT-SECOND-MOVERS-MOVE-AS-MOVED-IN-RELEVANT-RESPECT"
+kind = "derivation"
+status = "certified"
+argument = "SECOND-MOVERS-RELEVANT-RESPECT-FROM-INSTRUMENT"
+note = "Instrument analysis gives the weak (relevant-respect) sibling. Both premises open; supported (with gaps) by SCG I.13 [15] and In Phys. VIII lect. 9; q.18 a.3 co.'s instrument sentence has no claim yet."
+
+[[edge]]
+premises = ["STMT-SECOND-MOVERS-MOVE-AS-MOVED-IN-RELEVANT-RESPECT", "STMT-RELEVANT-RESPECT-COVERS-EVERY-MOVED-MOVER"]
+conclusion = "STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED"
+kind = "derivation"
+status = "certified"
+argument = "SECOND-MOVERS-ONLY-AS-MOVED-FROM-RELEVANT-RESPECT"
+note = "Strong version from weak plus the scope bridge; the bridge is exactly the contested strengthening, now isolated (omission model: a mover moved only in an irrelevant respect)."

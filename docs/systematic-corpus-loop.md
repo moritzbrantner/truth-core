@@ -106,7 +106,7 @@ Use `python3 scripts/corpus.py frontier --routes` and `--reaching-root`. Report 
 
 - An open premise is **bare** (no source claim states or supports it), **supported** (only a `supports` relation backs it, its note recording the gap, or only a bibliographic citation without pinned bytes or a permanently unavailable witness states it) or **stated** (a claim on a pinned source states it); supported and stated premises are undefended (#987). First remove bare gaps, then close the recorded gaps of supported premises and independently defend stated ones.
 - A transcription (`opaque_atoms`, `single_application`, `assembly`, `instantiation`) does not close an open conclusion; it propagates closure only when **all** its premises are closed. An alleged refutation counts only when verified **and** all its premises are closed.
-- Replacing one open premise with narrower leaves ("relocation") counts as progress only when it adds **no bare premise** (every new leaf is supported or stated; `frontier-diff` lists bare premises added) **and** every new leaf is needed by an omission countermodel. Report supported leaves as supported, not as stated (#987).
+- Replacing one open premise with narrower leaves ("relocation") is legitimate exploration even when it adds bare premises; `frontier-diff` lists them for visibility and `thickness` reports the derivations gained (owner decision 2026-11-07, superseding the no-bare rule of #987). Report supported leaves as supported, not as stated.
 - Neither source attribution, a conditional theorem, a narrative, nor an unverified model proves a premise. Preserve exact semantics, assumptions, and surviving rivals; see [configuration elimination](configuration-elimination-loop.md).
 
 ## 1. Campaign: a meaningful source objective

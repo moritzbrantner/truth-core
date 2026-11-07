@@ -1,0 +1,57 @@
+target = "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH"
+
+[[node]]
+id = "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH"
+
+[[node]]
+id = "STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE"
+
+[[node]]
+id = "STMT-ESSE-LIMITED-ONLY-THROUGH-RECEPTION"
+
+[[node]]
+id = "STMT-MORE-SUCH-HAS-THE-PERFECTION"
+
+[[node]]
+id = "STMT-RECEIVED-ESSE-IS-LIMITED"
+
+[[node]]
+id = "NEW-CAUSE-GIVES-ONLY-WHAT-IT-HAS"
+new = true
+text = "Nothing gives what it does not have: whatever causes a perfection in another has that perfection, formally or eminently."
+
+[[node]]
+id = "NEW-RECEIVED-PERFECTION-IS-LIMITED-BY-RECIPIENT"
+new = true
+text = "A perfection had by reception from another is limited by the capacity of what receives it (generalizing q.7 a.1 from esse to any perfection)."
+
+[[node]]
+id = "NEW-CAUSE-HAS-PERFECTION-NOT-AS-RECEIVED-FROM-EFFECT"
+new = true
+text = "A cause does not have the perfection it causes by reception from its effect."
+
+[[node]]
+id = "NEW-UNLIMITED-POSSESSION-EXCEEDS-LIMITED"
+new = true
+text = "Whoever has a perfection without the limit that a recipient imposes on another's possession of it is more such than that other."
+
+[[edge]]
+premises = ["STMT-ESSE-LIMITED-ONLY-THROUGH-RECEPTION"]
+conclusion = "NEW-RECEIVED-PERFECTION-IS-LIMITED-BY-RECIPIENT"
+kind = "bridge"
+status = "mapped"
+note = "Generalizes the q.7 esse reading to every perfection; record the generalization as a bridge."
+
+[[edge]]
+premises = ["NEW-CAUSE-GIVES-ONLY-WHAT-IT-HAS", "NEW-RECEIVED-PERFECTION-IS-LIMITED-BY-RECIPIENT", "NEW-CAUSE-HAS-PERFECTION-NOT-AS-RECEIVED-FROM-EFFECT", "NEW-UNLIMITED-POSSESSION-EXCEEDS-LIMITED"]
+conclusion = "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH"
+kind = "derivation"
+status = "mapped"
+note = "Distinct cause has the perfection (gives only what it has), the effect has it received and so limited, the cause has it unlimited by that recipient, hence more such. Caution: PERFECTION-PREEXISTENCE-FROM-CAUSAL-TRANSFER derives preexistence from the target; do not close a cycle into one proof."
+
+[[edge]]
+premises = ["STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE"]
+conclusion = "NEW-CAUSE-GIVES-ONLY-WHAT-IT-HAS"
+kind = "derivation"
+status = "mapped"
+note = "Preexistence restricted to causes of being gives the cause-has-what-it-gives principle for perfections of caused beings; check scope."
