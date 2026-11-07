@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-BEING-IN-ACT-CONTROLS",
+  "argument_id": "NECESSARY-BEING-IN-ACT-CONTROLS",
+  "challenge_module": "TruthCore.Results.Causality.NecessaryBeingInAct.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessaryBeingInAct.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessaryBeingInAct.controls",
+  "comparator_config": "results/NECESSARY-BEING-IN-ACT-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "One-being, one-respect interpretations in which the being is necessary (absence is impossible). Without the bridge the being can fail to be in substance, incorruptibility yields nothing, and it is not in act; without 'incorruptibles are in act' it cannot fail and is still not in act; with both it is in act as to being."
+}

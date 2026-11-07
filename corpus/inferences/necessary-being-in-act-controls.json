@@ -1,0 +1,9 @@
+{
+  "id": "INF-NECESSARY-BEING-IN-ACT-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-NECESSARY-BEING-IN-ACT-CONTROLS",
+  "rule": "Explicit finite interpretations",
+  "meaning": "One-being, one-respect interpretations in which the being is necessary (absence is impossible). Without the bridge the being can fail to be in substance, incorruptibility yields nothing, and it is not in act; without 'incorruptibles are in act' it cannot fail and is still not in act; with both it is in act as to being.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

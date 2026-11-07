@@ -1,0 +1,13 @@
+{
+  "id": "STMT-CAN-FAIL-TO-BE-IS-POSSIBLY-NOT",
+  "paraphrase": "OPEN analyst bridge, attribution deferred: whatever can fail to be in substance (corruptible simply, In Metaph. IX lect. 9) possibly is not in the tertia via's sense. Only this direction is assumed; it identifies no further modal notion.",
+  "lean_declaration": "TruthCore.Causality.NecessaryBeingInAct.CanFailToBeIsPossiblyNot",
+  "definition_ids": [
+    "DEF-INCORRUPTIBLE-SIMPLY",
+    "DEF-NECESSARY-BEING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY",
+    "DISAMB-CORRUPTIBLE-SIMPLY-OR-IN-A-RESPECT"
+  ]
+}

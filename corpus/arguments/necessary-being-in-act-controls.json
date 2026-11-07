@@ -1,0 +1,20 @@
+{
+  "id": "NECESSARY-BEING-IN-ACT-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-NECESSARY-BEING-IN-ACT-CONTROLS",
+  "inference_ids": [
+    "INF-NECESSARY-BEING-IN-ACT-CONTROLS"
+  ],
+  "meaning": "One-being, one-respect interpretations in which the being is necessary (absence is impossible). Without the bridge the being can fail to be in substance, incorruptibility yields nothing, and it is not in act; without 'incorruptibles are in act' it cannot fail and is still not in act; with both it is in act as to being.",
+  "definition_ids": [
+    "DEF-NECESSARY-BEING",
+    "DEF-ESSE",
+    "DEF-INCORRUPTIBLE-SIMPLY",
+    "DEF-ACT",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY",
+    "DISAMB-CORRUPTIBLE-SIMPLY-OR-IN-A-RESPECT"
+  ]
+}
