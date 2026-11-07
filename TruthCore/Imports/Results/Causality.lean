@@ -150,6 +150,7 @@ public import TruthCore.Results.Causality.NecessarilyUnderived.PositiveLift.Solu
 public import TruthCore.Results.Causality.NecessarilyUnderived.PositiveUnion.Solution
 public import TruthCore.Results.Causality.NecessarilyUnderived.UnionFromActual.Solution
 public import TruthCore.Results.Causality.NecessaryBeingCountDescent.Solution
+public import TruthCore.Results.Causality.NecessaryBeingInAct.Solution
 public import TruthCore.Results.Causality.NecessaryClassicalGodCase.Solution
 public import TruthCore.Results.Causality.NecessaryClassicalGodRoot.Solution
 public import TruthCore.Results.Causality.NecessaryClassicalGodRootControl.Solution

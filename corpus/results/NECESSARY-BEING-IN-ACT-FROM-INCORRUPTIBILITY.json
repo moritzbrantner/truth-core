@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-BEING-IN-ACT-FROM-INCORRUPTIBILITY",
+  "argument_id": "NECESSARY-BEING-IN-ACT-FROM-INCORRUPTIBILITY",
+  "challenge_module": "TruthCore.Results.Causality.NecessaryBeingInAct.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessaryBeingInAct.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessaryBeingInAct.necessaryBeingInAct",
+  "comparator_config": "results/NECESSARY-BEING-IN-ACT-FROM-INCORRUPTIBILITY/comparator.json",
+  "status": "solution-present",
+  "description": "A necessary being cannot fail to be in substance, because whatever can fail to be in substance possibly is not (STMT-CAN-FAIL-TO-BE-IS-POSSIBLY-NOT), and it is not possible that a necessary being is not; so it is simply incorruptible, and the Metaphysics IX reading that incorruptibles as such are in act in substance (STMT-INCORRUPTIBLE-IS-IN-ACT-IN-SUBSTANCE, definition-linked, previously without argument consumer) gives it act as to being. Derives the open bridge STMT-NECESSARY-BEING-HAS-BEING, which reaches the root without a recorded derivation. Act is in the respect of being only, as the source restricts it. Both premises stay open."
+}

@@ -70,6 +70,7 @@ public import TruthCore.Causality.MaximumDefinitionFork
 public import TruthCore.Causality.ModalNecessaryBeingActuality
 public import TruthCore.Causality.NamedPotentialCauser
 public import TruthCore.Causality.NecessarilyUnderived
+public import TruthCore.Causality.NecessaryBeingInAct
 public import TruthCore.Causality.NecessaryBeingSurvey
 public import TruthCore.Causality.NecessaryClassicalGodRoot
 public import TruthCore.Causality.NecessaryClassicalGodRootControl
