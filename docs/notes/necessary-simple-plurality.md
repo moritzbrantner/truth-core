@@ -1614,3 +1614,59 @@ applicability bridge is still the `UNRECEIVED-ESSE-INDIVIDUATION-BRIDGE` obligat
 root-reaching premises before and after; cheapest route cost 30). Two new
 conditional routes to `STMT-AT-MOST-ONE-FIRST-UNMOVED-MOVER` are added with five
 new open statements. No premise is discharged and no root premise moves.
+
+### Narrower bridge: bare difference needs a non-pure principle (2026-11-07)
+
+Results: `PURE-INDISCERNIBILITY-FIRST-MOVER-UNIQUENESS`,
+`REAL-INDIVIDUATION-STRENGTHENS-PURE-INDISCERNIBILITY`, `PURE-INDISCERNIBILITY-CONTROLS`
+(`TruthCore.Causality.PureIndiscernibility`, zero-axiom). The bridge
+`PurelyDeterminedIndiscerniblesIdentical` says that two beings with the same real
+determinations, all of them pure, are one. Classically: distinct really
+indiscernible beings include one with a non-pure determination (a place, matter,
+a subject or a receiving principle).
+
+- **It suffices.** With unrestricted perfection and strict pure actuality it gives
+  at-most-one first mover. Each of the three premises is omitted in turn with the
+  other two retained and at-most-one failing.
+- **It is strictly weaker than identity of real indiscernibles.** That principle
+  entails it (registered `strengthens`). On a Black-style carrier, where every
+  non-first being has one shared non-pure "located" determination, the bridge,
+  the two pure-act premises and at-most-one hold with an actual first mover, while
+  identity of real indiscernibles fails. So the uniqueness route no longer has to
+  reject Adams's located counterexamples. The earlier strong-version route is
+  kept unchanged and marked with `strong_version_needed` as a comparison only.
+- **Its reach beyond first movers.** The bridge is vacuous at every being with a
+  non-pure determination. It still constrains purely determined beings that are
+  not first movers, including beings with no real determinations at all. Two
+  determination-free inert rows make it fail while the pure-act premises and
+  at-most-one hold. An interpretation must therefore say whether it admits such
+  beings. A being with no real determinations is not even given an act of being
+  in this interface.
+- **The renaming test.** If only first movers are purely determined
+  (`OnlyFirstMoversPurelyDetermined`), then under the two pure-act premises the
+  bridge is *equivalent* to at-most-one first mover. That background is
+  plausible. In the classical picture every non-first being has some received or
+  limited determination. So on its relevant domain the bridge says exactly what
+  uniqueness says. It is not uniqueness renamed as a *formula*: it ranges over all
+  beings and is not equivalent without that background. It can only *support*
+  uniqueness if it is defended as a general principle about numerical difference,
+  independently of the first-mover case.
+
+**Where the dialectic now stands.** The defender's general principle is that
+numerical multiplicity without any qualitative difference needs a non-pure frame:
+the spheres differ in place, two electrons in state or position, two angels in
+the limited natures that Aquinas makes their species. Every proposed case of bare
+difference seems to come with such a frame. The Adams rival can answer that the
+frame accompanies the difference without grounding it. Black's spheres are
+symmetric in their spatial relations, so place does not tell *which* is which. The
+discriminating question is therefore no longer about God. It is whether a
+frame of multiplicity is *required* for bare difference or merely *present* in
+the familiar cases. Under the background above, the only test cases where the
+two answers come apart are the unrestricted pure acts themselves. So no
+independent case can settle the question, and a defense has to come from a general
+account of what numerical difference is. That residue cannot be decided by a
+further finite model. It is a judgment that cannot yet be encoded.
+
+**Actual premise comparison:** `corpus.py frontier-diff`: no change. One new
+conditional route to `STMT-AT-MOST-ONE-FIRST-UNMOVED-MOVER` uses the weak version;
+no premise is discharged.

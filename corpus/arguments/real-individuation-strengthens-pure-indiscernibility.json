@@ -1,0 +1,20 @@
+{
+  "id": "REAL-INDIVIDUATION-STRENGTHENS-PURE-INDISCERNIBILITY",
+  "premise_statement_ids": [
+    "STMT-REAL-DETERMINATIONS-INDIVIDUATE"
+  ],
+  "conclusion_statement_id": "STMT-PURELY-DETERMINED-INDISCERNIBLES-IDENTICAL",
+  "inference_ids": [
+    "INF-REAL-INDIVIDUATION-STRENGTHENS-PURE-INDISCERNIBILITY"
+  ],
+  "meaning": "Identity of real indiscernibles over all beings entails its restriction to beings whose real determinations are all pure. Sole-premise strength registration; the converse fails on the Black-style carrier of PURE-INDISCERNIBILITY-CONTROLS.",
+  "definition_ids": [
+    "DEF-REAL-DETERMINATION",
+    "DEF-PURE-PERFECTION",
+    "DEF-IDENTITY-OF-REAL-INDISCERNIBLES",
+    "DEF-PURELY-DETERMINED-INDISCERNIBLES-IDENTICAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THISNESS-REAL-BARE"
+  ]
+}

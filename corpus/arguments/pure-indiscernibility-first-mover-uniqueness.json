@@ -1,0 +1,27 @@
+{
+  "id": "PURE-INDISCERNIBILITY-FIRST-MOVER-UNIQUENESS",
+  "premise_statement_ids": [
+    "STMT-FIRST-MOVER-HAS-EVERY-PURE-DETERMINATION",
+    "STMT-FIRST-MOVER-DETERMINATIONS-ARE-PURE",
+    "STMT-PURELY-DETERMINED-INDISCERNIBLES-IDENTICAL"
+  ],
+  "conclusion_statement_id": "STMT-AT-MOST-ONE-FIRST-UNMOVED-MOVER",
+  "inference_ids": [
+    "INF-PURE-INDISCERNIBILITY-FIRST-MOVER-UNIQUENESS"
+  ],
+  "meaning": "By the imported pureActPluralityIsBare, any two first movers have the same real determinations, and by strict pure actuality all of the first one's are pure; identity of purely determined indiscernibles then makes them one. Conditional on three OPEN, unattributed premises. The third is the weak version of identity of real indiscernibles: it allows bare difference among beings with a non-pure principle of multiplicity, such as Black-style spheres. It still constrains purely determined beings that are not first movers. If only first movers are purely determined, then given the other two premises it is equivalent to the conclusion. No first mover is produced.",
+  "definition_ids": [
+    "DEF-FIRST-UNMOVED-MOVER",
+    "DEF-REAL-DETERMINATION",
+    "DEF-PURE-PERFECTION",
+    "DEF-UNRESTRICTED-PURE-PERFECTION",
+    "DEF-STRICT-PURE-ACTUALITY",
+    "DEF-REAL-INDISCERNIBILITY",
+    "DEF-PURELY-DETERMINED-INDISCERNIBLES-IDENTICAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THISNESS-REAL-BARE",
+    "DISAMB-PURE-ACT-STRICTNESS",
+    "DISAMB-PERFECTION-SCOPE"
+  ]
+}

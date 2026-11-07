@@ -1,0 +1,10 @@
+{
+  "id": "REAL-INDIVIDUATION-STRENGTHENS-PURE-INDISCERNIBILITY",
+  "argument_id": "REAL-INDIVIDUATION-STRENGTHENS-PURE-INDISCERNIBILITY",
+  "challenge_module": "TruthCore.Results.Causality.PureIndiscernibility.Challenge",
+  "solution_module": "TruthCore.Results.Causality.PureIndiscernibility.Solution",
+  "theorem": "TruthCore.Results.Causality.PureIndiscernibility.pureIndiscernibilityOfReal",
+  "comparator_config": "results/REAL-INDIVIDUATION-STRENGTHENS-PURE-INDISCERNIBILITY/comparator.json",
+  "status": "solution-present",
+  "description": "Identity of real indiscernibles over all beings entails its restriction to beings whose real determinations are all pure. Sole-premise strength registration; the converse fails on the Black-style carrier of PURE-INDISCERNIBILITY-CONTROLS."
+}
