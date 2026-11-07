@@ -1,0 +1,32 @@
+target = "STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES"
+
+[[node]]
+id = "STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES"
+
+# New in round 2 (certified batch round2-perfection-primacy).
+[[node]]
+id = "STMT-OTHERS-THAN-PRIMARY-PARTICIPATE-ESSE"
+
+[[node]]
+id = "STMT-PARTICIPATED-HAS-OTHER-CAUSE"
+
+# New in round 2 (certified batch round2-perfection-primacy).
+[[node]]
+id = "STMT-CAUSED-IN-BEING-BY-ANOTHER-IS-CREATURE"
+
+[[node]]
+id = "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS"
+
+[[edge]]
+premises = ["STMT-OTHERS-THAN-PRIMARY-PARTICIPATE-ESSE", "STMT-PARTICIPATED-HAS-OTHER-CAUSE", "STMT-CAUSED-IN-BEING-BY-ANOTHER-IS-CREATURE"]
+conclusion = "STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES"
+kind = "derivation"
+status = "certified"
+note = "Certified as OTHERS-ARE-CREATURES-FROM-PARTICIPATION; reuses the q.44 a.1 ad 1 statement."
+
+[[edge]]
+premises = ["STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS", "STMT-CAUSED-IN-BEING-BY-ANOTHER-IS-CREATURE"]
+conclusion = "STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES"
+kind = "derivation"
+status = "rejected"
+note = "Circular in content and underpowered: QUARTA-VIA-ATTRIBUTION-GENUS-PRINCIPLE-AT-BEING uses the target to obtain that the primary causes all beings, and the genus principle needs p maximal in being and every other thing in act of esse as further premises."

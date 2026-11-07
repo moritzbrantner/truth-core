@@ -1,0 +1,33 @@
+target = "STMT-NONMUTUAL-DEPENDENCE-SUFFICES-FOR-PRIORITY"
+
+[[node]]
+id = "STMT-NONMUTUAL-DEPENDENCE-SUFFICES-FOR-PRIORITY"
+
+# New in round 2 (certified batch round2-perfection-primacy).
+[[node]]
+id = "STMT-DEPENDENCE-EXCLUDES-BEING-WITHOUT"
+
+# New in round 2 (certified batch round2-perfection-primacy).
+[[node]]
+id = "STMT-INDEPENDENCE-ALLOWS-BEING-WITHOUT"
+
+# New in round 2 (certified batch round2-perfection-primacy).
+[[node]]
+id = "STMT-PRIORITY-BY-BEING-WITHOUT"
+
+[[node]]
+id = "STMT-EFFICIENT-CAUSE-IS-PRIOR-TO-EFFECT"
+
+[[edge]]
+premises = ["STMT-DEPENDENCE-EXCLUDES-BEING-WITHOUT", "STMT-INDEPENDENCE-ALLOWS-BEING-WITHOUT", "STMT-PRIORITY-BY-BEING-WITHOUT"]
+conclusion = "STMT-NONMUTUAL-DEPENDENCE-SUFFICES-FOR-PRIORITY"
+kind = "derivation"
+status = "certified"
+note = "Certified as NONMUTUAL-DEPENDENCE-PRIORITY-FROM-BEING-WITHOUT (criterion of In V Metaph. lect. 13 n. 15, navigation only)."
+
+[[edge]]
+premises = ["STMT-EFFICIENT-CAUSE-IS-PRIOR-TO-EFFECT"]
+conclusion = "STMT-NONMUTUAL-DEPENDENCE-SUFFICES-FOR-PRIORITY"
+kind = "derivation"
+status = "rejected"
+note = "Scope: efficient priority concerns only efficiently caused pairs; nonmutual dependence need not come from efficient causing (the part-whole and genus-species pairs of lect. 13). It is also derived from the target (EFFICIENT-CAUSE-PRIOR-FROM-NONMUTUAL-DEPENDENCE)."

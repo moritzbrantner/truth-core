@@ -1,0 +1,9 @@
+{
+  "id": "STMT-GREATER-DEGREE-IS-MORE",
+  "paraphrase": "OPEN analyst premise (degree reading of 'more'): for every perfection r and beings c, x, if x has r in a strictly smaller degree than c, then c is more r than x.",
+  "lean_declaration": "TruthCore.Causality.Round2PerfectionPrimacy.GreaterDegreeIsMore",
+  "definition_ids": [
+    "DEF-MORE-IN",
+    "DEF-DEGREE-AND-CAPACITY"
+  ]
+}

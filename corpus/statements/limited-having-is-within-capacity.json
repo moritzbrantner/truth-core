@@ -1,0 +1,12 @@
+{
+  "id": "STMT-LIMITED-HAVING-IS-WITHIN-CAPACITY",
+  "paraphrase": "OPEN analyst premise (measure reading of DEF-PERFECTION-LIMITED-BY, one direction): for every y, perfection r and z, if y has r limited by z, then the degree in which y has r is at most z's capacity for r.",
+  "lean_declaration": "TruthCore.Causality.Round2PerfectionPrimacy.LimitedHavingIsWithinCapacity",
+  "definition_ids": [
+    "DEF-PERFECTION-LIMITED-BY",
+    "DEF-DEGREE-AND-CAPACITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSE-LIMITATION"
+  ]
+}

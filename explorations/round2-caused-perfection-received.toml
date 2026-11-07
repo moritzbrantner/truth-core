@@ -1,0 +1,29 @@
+target = "STMT-PERFECTION-CAUSED-IN-ANOTHER-IS-RECEIVED-IN-IT"
+
+[[node]]
+id = "STMT-PERFECTION-CAUSED-IN-ANOTHER-IS-RECEIVED-IN-IT"
+
+# New in round 2 (certified batch round2-perfection-primacy).
+[[node]]
+id = "STMT-CAUSED-BY-ANOTHER-IS-PARTICIPATED"
+
+# New in round 2 (certified batch round2-perfection-primacy).
+[[node]]
+id = "STMT-PARTICIPATED-PERFECTION-IS-RECEIVED-IN-PARTICIPANT"
+
+[[node]]
+id = "STMT-PARTICIPATED-HAS-OTHER-CAUSE"
+
+[[edge]]
+premises = ["STMT-CAUSED-BY-ANOTHER-IS-PARTICIPATED", "STMT-PARTICIPATED-PERFECTION-IS-RECEIVED-IN-PARTICIPANT"]
+conclusion = "STMT-PERFECTION-CAUSED-IN-ANOTHER-IS-RECEIVED-IN-IT"
+kind = "derivation"
+status = "certified"
+note = "Certified as CAUSED-PERFECTION-RECEIVED-FROM-PARTICIPATION."
+
+[[edge]]
+premises = ["STMT-PARTICIPATED-HAS-OTHER-CAUSE"]
+conclusion = "STMT-PERFECTION-CAUSED-IN-ANOTHER-IS-RECEIVED-IN-IT"
+kind = "bridge"
+status = "rejected"
+note = "Wrong direction and scope: q.44 a.1 ad 1 goes from participated esse to being caused; the target needs caused perfection to participated (and received) perfection, for every perfection. See ATTEMPT-ROUND2-PERFECTION-PRIMACY-REJECTED-EDGES."

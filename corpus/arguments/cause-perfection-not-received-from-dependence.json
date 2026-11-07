@@ -1,0 +1,24 @@
+{
+  "id": "CAUSE-PERFECTION-NOT-RECEIVED-FROM-DEPENDENCE",
+  "premise_statement_ids": [
+    "STMT-HAVER-DEPENDS-ON-RECIPIENT",
+    "STMT-PERFECTION-CAUSING-IN-ANOTHER-IS-EFFICIENT",
+    "STMT-EFFICIENT-CAUSE-NOT-DEPENDENT-ON-EFFECT"
+  ],
+  "conclusion_statement_id": "STMT-CAUSE-HAS-PERFECTION-NOT-AS-RECEIVED-IN-EFFECT",
+  "inference_ids": [
+    "INF-CAUSE-PERFECTION-NOT-RECEIVED-FROM-DEPENDENCE"
+  ],
+  "meaning": "Derives the batch 1 bridge that a distinct cause does not have the perfection it causes as received in its effect. If c's having r were received in x, c would depend for its being on x (OPEN: a haver depends on its recipient); but c's causing r in x is efficiently causing it (OPEN bridge), and an efficient cause does not depend on its effect (STMT-EFFICIENT-CAUSE-NOT-DEPENDENT-ON-EFFECT, derived in EFFICIENT-CAUSE-NOT-DEPENDENT-FROM-ASYMMETRY).",
+  "definition_ids": [
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-DEPENDS-FOR-BEING",
+    "DEF-EFFICIENT-CAUSING",
+    "DEF-PERFECTION-RECEIVED-IN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE",
+    "DISAMB-ESSE-RECEPTION",
+    "DISAMB-UNITING-CAUSE"
+  ]
+}

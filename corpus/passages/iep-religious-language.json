@@ -7,7 +7,7 @@
     "sha256": "sha256:740597e6887a8d1c58776248bbf4be4c7db75ac12e7e130c90a988bd22abf8c4",
     "encoding": "utf-8",
     "language": "eng",
-    "license": "© the author and the Internet Encyclopedia of Philosophy (notice on the site). No Wayback fallback is pinned yet; the snapshot is fragile to live-page drift. Only hashes, locators and a short incipit are committed."
+    "license": "© the author and the Internet Encyclopedia of Philosophy (notice on the site). A Wayback fallback (2026-10-08 capture, same passage text hash) is pinned for IEP-REL-LANG-2A after live-page drift on 2026-11-07. Only hashes, locators and a short incipit are committed."
   },
   "passages": [
     {
@@ -25,7 +25,9 @@
         }
       },
       "text_sha256": "sha256:f41652af322b629657d50a459597331873c3ba3a450e2b631da57375ff8ba25b",
-      "incipit": "a. Statements about God are Meaningless\nSome philosophers have argued that"
+      "incipit": "a. Statements about God are Meaningless\nSome philosophers have argued that",
+      "wayback_url": "https://web.archive.org/web/20261008051441id_/https://iep.utm.edu/rel-lang/",
+      "wayback_sha256": "sha256:4d6cd3fb2e81edd4fad775f16f208d75edac4bfdeeab377f6d330d77c6043a83"
     }
   ]
 }

@@ -1,0 +1,270 @@
+# Round 2 on perfection and primacy (explorations/round2-*.toml): deeper premises
+# for eight bare root-path bridges. Analyst formulations, attribution deferred:
+# every new statement is an OPEN premise.
+
+[batch]
+vocab = "TruthCore.Causality.Round2PerfectionPrimacy"
+results = "TruthCore.Results.Causality.Round2PerfectionPrimacy"
+
+# ---- Target 1: unlimited possession exceeds limited ----
+
+[[statement]]
+id = "STMT-LIMITED-HAVING-IS-WITHIN-CAPACITY"
+lean = "LimitedHavingIsWithinCapacity"
+paraphrase = "OPEN analyst premise (measure reading of DEF-PERFECTION-LIMITED-BY, one direction): for every y, perfection r and z, if y has r limited by z, then the degree in which y has r is at most z's capacity for r."
+definitions = ["DEF-PERFECTION-LIMITED-BY", "DEF-DEGREE-AND-CAPACITY"]
+disambiguations = ["DISAMB-ESSE-LIMITATION"]
+
+[[statement]]
+id = "STMT-UNLIMITED-HAVING-EXCEEDS-CAPACITY"
+lean = "UnlimitedHavingExceedsCapacity"
+paraphrase = "OPEN analyst premise (measure reading, other direction): for every y, perfection r and z, if y has r and y's having r is not limited by z, then y has r in a degree strictly beyond z's capacity for r. It presupposes that the degree of any haver of r is comparable with z's capacity for r; without comparability, 'not within z's capacity' would not give 'beyond it'."
+definitions = ["DEF-ACT", "DEF-PERFECTION-LIMITED-BY", "DEF-DEGREE-AND-CAPACITY"]
+disambiguations = ["DISAMB-IN-ACT", "DISAMB-ESSE-LIMITATION"]
+
+[[statement]]
+id = "STMT-GREATER-DEGREE-IS-MORE"
+lean = "GreaterDegreeIsMore"
+paraphrase = "OPEN analyst premise (degree reading of 'more'): for every perfection r and beings c, x, if x has r in a strictly smaller degree than c, then c is more r than x."
+definitions = ["DEF-MORE-IN", "DEF-DEGREE-AND-CAPACITY"]
+
+# ---- Target 2: a perfection caused in another is received in it ----
+
+[[statement]]
+id = "STMT-CAUSED-BY-ANOTHER-IS-PARTICIPATED"
+lean = "CausedByAnotherIsParticipated"
+paraphrase = "OPEN analyst premise: if c, distinct from x, causes x's being r, then x has r by participation (not through what x is). It is the converse direction of ST I q.44 a.1 ad 1 (STMT-PARTICIPATED-HAS-OTHER-CAUSE: what is by participation is caused by another), generalized from esse to every perfection; the converse is the analyst's."
+definitions = ["DEF-CAUSE-OF-PERFECTION", "DEF-PARTICIPATED-PERFECTION"]
+disambiguations = ["DISAMB-CAUSE", "DISAMB-THOMISTIC-ESSE-PARTICIPATION"]
+
+[[statement]]
+id = "STMT-PARTICIPATED-PERFECTION-IS-RECEIVED-IN-PARTICIPANT"
+lean = "ParticipatedIsReceivedInParticipant"
+paraphrase = "OPEN analyst premise: if x has r by participation, then x's having r is received in x (to participate is to take part, as a recipient takes what it receives)."
+definitions = ["DEF-PARTICIPATED-PERFECTION", "DEF-PERFECTION-RECEIVED-IN"]
+disambiguations = ["DISAMB-ESSE-RECEPTION", "DISAMB-THOMISTIC-ESSE-PARTICIPATION"]
+
+# ---- Target 3: the cause's perfection is not received in its effect ----
+
+[[statement]]
+id = "STMT-HAVER-DEPENDS-ON-RECIPIENT"
+lean = "HaverDependsOnRecipient"
+paraphrase = "OPEN analyst premise: for every y, perfection r and z, if y's having r is received in z, then y depends for its being on z. The receiving principle is intrinsic to what has the perfection, as matter to the composite; the step from depending for its being r to depending for its being is the analyst's."
+definitions = ["DEF-PERFECTION-RECEIVED-IN", "DEF-DEPENDS-FOR-BEING"]
+disambiguations = ["DISAMB-ESSE-RECEPTION"]
+
+[[statement]]
+id = "STMT-PERFECTION-CAUSING-IN-ANOTHER-IS-EFFICIENT"
+lean = "PerfectionCausingInAnotherIsEfficient"
+paraphrase = "OPEN analyst bridge: if c, distinct from x, causes x's being r (CausesIn), then c efficiently causes x in respect r (EfficientlyCausesIn). It relates two relations DISAMB-CAUSE keeps apart and does not identify them; it fails if perfection-causing includes exemplar or final causing that is not efficient."
+definitions = ["DEF-CAUSE-OF-PERFECTION", "DEF-EFFICIENT-CAUSING"]
+disambiguations = ["DISAMB-CAUSE"]
+
+# ---- Target 4: an efficient cause does not depend on its effect ----
+
+[[statement]]
+id = "STMT-DISTINCT-BEINGS-NOT-MUTUALLY-DEPENDENT"
+lean = "DistinctBeingsNotMutuallyDependent"
+paraphrase = "OPEN analyst premise: no two distinct things depend for their being on each other; if x is distinct from y and x depends for its being on y, then y does not depend for its being on x. Restricted to distinct things because DependsForBeing, read counterfactually, holds trivially of a thing and itself. Navigation only (no claim): Aquinas, In V Metaph. lect. 13 n. 18, 'priora non dependent a posterioribus, sicut e converso'."
+definitions = ["DEF-DEPENDS-FOR-BEING"]
+
+# ---- Target 5: nonmutual dependence suffices for priority ----
+
+[[statement]]
+id = "STMT-DEPENDENCE-EXCLUDES-BEING-WITHOUT"
+lean = "DependenceExcludesBeingWithout"
+paraphrase = "OPEN analyst premise: if x depends for its being on y, then x cannot be without y. It reads the counterfactual dependence of DEF-DEPENDS-FOR-BEING as excluding the real possibility of x's being while y is not."
+definitions = ["DEF-DEPENDS-FOR-BEING", "DEF-CAN-BE-WITHOUT"]
+
+[[statement]]
+id = "STMT-INDEPENDENCE-ALLOWS-BEING-WITHOUT"
+lean = "IndependenceAllowsBeingWithout"
+paraphrase = "OPEN analyst premise: if y does not depend for its being on x, then y can be without x. It fails when x's not being is itself impossible, since then y cannot be while x is not although y does not depend on x."
+definitions = ["DEF-DEPENDS-FOR-BEING", "DEF-CAN-BE-WITHOUT"]
+
+[[statement]]
+id = "STMT-PRIORITY-BY-BEING-WITHOUT"
+lean = "PriorityByBeingWithout"
+paraphrase = "OPEN analyst reading of the criterion of natural priority: if y can be without x and x cannot be without y, then y is simply prior to x. Navigation only (no claim): Aquinas, In V Metaph. lect. 13 n. 15, 'priora dicuntur, quae possunt esse sine aliis et illa non possunt esse sine eis', said of priority 'secundum naturam'; reading it for the simple priority of DEF-SIMPLE-PRIORITY is the analyst's."
+definitions = ["DEF-SIMPLE-PRIORITY", "DEF-CAN-BE-WITHOUT"]
+
+# ---- Target 6: everything other than the primary is a creature ----
+
+[[statement]]
+id = "STMT-OTHERS-THAN-PRIMARY-PARTICIPATE-ESSE"
+lean = "OthersThanPrimaryParticipateEsse"
+paraphrase = "OPEN reading of ST I q.44 a.1 co. for a primary p: everything other than p has its being by participation."
+definitions = ["DEF-PARTICIPATED-ESSE"]
+disambiguations = ["DISAMB-THOMISTIC-ESSE-PARTICIPATION"]
+
+[[statement]]
+id = "STMT-CAUSED-IN-BEING-BY-ANOTHER-IS-CREATURE"
+lean = "CausedInBeingByAnotherIsCreature"
+paraphrase = "OPEN analyst premise: whatever has its being caused by something distinct from it is a creature (DEF-CREATURE read as: ordered to a cause of its being). It counts a thing caused in being by a secondary cause as a creature too."
+definitions = ["DEF-CREATURE", "DEF-CAUSE-OF-PERFECTION", "DEF-ESSE"]
+disambiguations = ["DISAMB-CAUSE"]
+
+# ---- Target 7: nothing else reaches the primary ----
+
+[[statement]]
+id = "STMT-CREATURE-ESSE-IS-RECEIVED"
+lean = "CreatureEsseIsReceived"
+paraphrase = "OPEN analyst generalization of ST I q.7 a.2 co.: the esse of every creature is received in some principle. The passage says it of a subsistent created form, whose esse is 'receptum et contractum'; the generalization to every creature is the analyst's."
+definitions = ["DEF-CREATURE", "DEF-ESSE-RECEIVED-IN"]
+disambiguations = ["DISAMB-ESSE-RECEPTION"]
+
+[[statement]]
+id = "STMT-PRIMARY-ESSE-UNRECEIVED"
+lean = "PrimaryEsseUnreceived"
+paraphrase = "OPEN reading of ST I q.7 a.1 co. ('esse divinum non sit esse receptum in aliquo') for the primary p of the approach order: p's esse is received in no principle. The passage says it of God; that the primary of the approach order is the one whose esse is unreceived is the analyst's."
+definitions = ["DEF-ESSE-RECEIVED-IN", "DEF-ORDER-BY-APPROACH-TO-A-PRIMARY"]
+disambiguations = ["DISAMB-ESSE-RECEPTION"]
+
+[[statement]]
+id = "STMT-LIMITED-ESSE-APPROACHES-LESS"
+lean = "LimitedEsseApproachesLess"
+paraphrase = "OPEN analyst bridge: whatever has limited esse approaches the primary strictly less nearly than whatever has unlimited esse. It links the limitation of esse (q.7) to the order by approach (q.3 a.5 ad 2), which neither passage does."
+definitions = ["DEF-ESSE-LIMITED", "DEF-ORDER-BY-APPROACH-TO-A-PRIMARY"]
+disambiguations = ["DISAMB-ESSE-LIMITATION", "DISAMB-ORDER-OF-BEING"]
+
+# ---- Target 8: a universal cause of being transfers perfections ----
+
+[[statement]]
+id = "STMT-UNIVERSAL-CAUSE-OF-BEING-IS-TOTAL"
+lean = "UniversalCauseOfBeingIsTotal"
+paraphrase = "OPEN analyst premise: whatever causes the being of every other being is the total cause of the being of each other thing whose being it causes (it causes that thing's whole being, not only its coming to be in a presupposed subject)."
+definitions = ["DEF-UNIVERSAL-ESSE-CAUSE-SCOPE", "DEF-TOTAL-CAUSE-OF-BEING", "DEF-CAUSE-OF-PERFECTION", "DEF-ESSE"]
+disambiguations = ["DISAMB-CAUSE"]
+
+[[statement]]
+id = "STMT-TOTAL-CAUSE-CAUSES-MODES-OF-BEING"
+lean = "TotalCauseCausesModesOfBeing"
+paraphrase = "OPEN analyst premise: a total cause of a thing's being causes each of that thing's modes of being."
+definitions = ["DEF-TOTAL-CAUSE-OF-BEING", "DEF-MODE-OF-BEING", "DEF-CAUSE-OF-PERFECTION"]
+disambiguations = ["DISAMB-CAUSE"]
+
+[[statement]]
+id = "STMT-PERFECTIONS-ARE-MODES-OF-BEING"
+lean = "PerfectionsAreModesOfBeing"
+paraphrase = "OPEN Lean-bound reading of ST I q.4 a.2 co. (STMT-ALL-PERFECTIONS-PERTAIN-TO-PERFECTION-OF-BEING, which has no Lean declaration): every perfection a thing has in act is a mode of its being."
+definitions = ["DEF-ACT", "DEF-MODE-OF-BEING"]
+disambiguations = ["DISAMB-IN-ACT"]
+
+[[statement]]
+id = "STMT-ROUND2-PERFECTION-PRIMACY-CONTROLS"
+lean = "Control.Certificate"
+paraphrase = "Finite interpretations for the eight derivations of round 2 on perfection and primacy: for each premise, a model in which the other premises hold and the conclusion fails, and one joint model with nonempty causing, efficient-causing, reception, limitation, dependence, creature and esse-reception relations in which every premise and conclusion of the batch holds. Satisfiability and omission only; no model is claimed to describe reality."
+definitions = ["DEF-DEGREE-AND-CAPACITY", "DEF-PARTICIPATED-PERFECTION", "DEF-CAN-BE-WITHOUT", "DEF-TOTAL-CAUSE-OF-BEING", "DEF-MODE-OF-BEING", "DEF-DEPENDS-FOR-BEING", "DEF-CREATURE"]
+disambiguations = ["DISAMB-CAUSE", "DISAMB-ESSE-RECEPTION"]
+
+# ---- Arguments ----
+
+[[argument]]
+id = "UNLIMITED-POSSESSION-EXCEEDS-LIMITED-FROM-DEGREES"
+theorem = "unlimitedPossessionExceedsLimited"
+premises = ["STMT-LIMITED-HAVING-IS-WITHIN-CAPACITY", "STMT-UNLIMITED-HAVING-EXCEEDS-CAPACITY", "STMT-GREATER-DEGREE-IS-MORE"]
+conclusion = "STMT-UNLIMITED-POSSESSION-EXCEEDS-LIMITED"
+rule = "Universal instantiation, modus ponens, transitivity of a preorder"
+meaning = "Derives the batch 1 bridge that an unlimited possessor of r exceeds a limited one from three OPEN premises on a preorder of degrees: x, limited by x, has r within x's capacity; c, having r not limited by x, has it beyond x's capacity; so x's degree is strictly below c's (le then lt), and the greater degree is more. The degree preorder is a parameter; comparability of a haver's degree with a capacity is carried by the second premise."
+
+[[argument]]
+id = "CAUSED-PERFECTION-RECEIVED-FROM-PARTICIPATION"
+theorem = "causedPerfectionReceivedInEffect"
+premises = ["STMT-CAUSED-BY-ANOTHER-IS-PARTICIPATED", "STMT-PARTICIPATED-PERFECTION-IS-RECEIVED-IN-PARTICIPANT"]
+conclusion = "STMT-PERFECTION-CAUSED-IN-ANOTHER-IS-RECEIVED-IN-IT"
+rule = "Universal instantiation and hypothetical syllogism"
+meaning = "Derives the batch 1 bridge that a perfection caused in another is received in it from two OPEN premises: what x has from a distinct cause it has by participation, and a perfection had by participation is received in its participant. It does not use STMT-PARTICIPATED-HAS-OTHER-CAUSE, whose direction (participation to being caused) is the converse of the first premise."
+
+[[argument]]
+id = "CAUSE-PERFECTION-NOT-RECEIVED-FROM-DEPENDENCE"
+theorem = "causePerfectionNotReceivedInEffect"
+premises = ["STMT-HAVER-DEPENDS-ON-RECIPIENT", "STMT-PERFECTION-CAUSING-IN-ANOTHER-IS-EFFICIENT", "STMT-EFFICIENT-CAUSE-NOT-DEPENDENT-ON-EFFECT"]
+conclusion = "STMT-CAUSE-HAS-PERFECTION-NOT-AS-RECEIVED-IN-EFFECT"
+rule = "Reductio, universal instantiation and modus ponens"
+meaning = "Derives the batch 1 bridge that a distinct cause does not have the perfection it causes as received in its effect. If c's having r were received in x, c would depend for its being on x (OPEN: a haver depends on its recipient); but c's causing r in x is efficiently causing it (OPEN bridge), and an efficient cause does not depend on its effect (STMT-EFFICIENT-CAUSE-NOT-DEPENDENT-ON-EFFECT, derived in EFFICIENT-CAUSE-NOT-DEPENDENT-FROM-ASYMMETRY)."
+
+[[argument]]
+id = "EFFICIENT-CAUSE-NOT-DEPENDENT-FROM-ASYMMETRY"
+theorem = "efficientCauseNotDependent"
+premises = ["STMT-EFFECT-DEPENDS-FOR-BEING-ON-EFFICIENT-CAUSE", "STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF", "STMT-DISTINCT-BEINGS-NOT-MUTUALLY-DEPENDENT"]
+conclusion = "STMT-EFFICIENT-CAUSE-NOT-DEPENDENT-ON-EFFECT"
+rule = "Reductio, universal instantiation and modus ponens"
+meaning = "Derives the batch 1 bridge that an efficient cause does not depend for its being on its effect. An efficient cause c of x is distinct from x (the secunda via's no-self-causation, stated by the q.2 a.3 claim); x depends for its being on c (q.44 a.1 ad 2 read as dependence); distinct things do not depend on each other mutually (OPEN). Argument-level cycle: NO-SELF-EFFICIENT-CAUSATION-FROM-DEPENDENCE derives no-self-causation from this conclusion; here no-self-causation is used as the stated source premise."
+
+[[argument]]
+id = "NONMUTUAL-DEPENDENCE-PRIORITY-FROM-BEING-WITHOUT"
+theorem = "nonmutualDependenceSuffices"
+premises = ["STMT-DEPENDENCE-EXCLUDES-BEING-WITHOUT", "STMT-INDEPENDENCE-ALLOWS-BEING-WITHOUT", "STMT-PRIORITY-BY-BEING-WITHOUT"]
+conclusion = "STMT-NONMUTUAL-DEPENDENCE-SUFFICES-FOR-PRIORITY"
+rule = "Universal instantiation and modus ponens"
+meaning = "Derives the sufficiency of nonmutual dependence for simple priority from the dependence criterion of natural priority: if x depends on y and y not on x, then y can be without x (OPEN), x cannot be without y (OPEN), and what can be without another that cannot be without it is prior to it (OPEN reading of In V Metaph. lect. 13 n. 15)."
+
+[[argument]]
+id = "OTHERS-ARE-CREATURES-FROM-PARTICIPATION"
+theorem = "othersAreCreatures"
+premises = ["STMT-OTHERS-THAN-PRIMARY-PARTICIPATE-ESSE", "STMT-PARTICIPATED-HAS-OTHER-CAUSE", "STMT-CAUSED-IN-BEING-BY-ANOTHER-IS-CREATURE"]
+conclusion = "STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES"
+rule = "Universal instantiation, existential elimination and modus ponens"
+meaning = "Derives that everything other than the primary is a creature: each other thing has participated being (OPEN reading of q.44 a.1 co.), what has participated being has a distinct cause of its being (q.44 a.1 ad 1, STMT-PARTICIPATED-HAS-OTHER-CAUSE), and what has its being caused by another is a creature (OPEN reading of DEF-CREATURE)."
+
+[[argument]]
+id = "STRICT-PRIMACY-FROM-RECEPTION-LIMITS"
+theorem = "nothingElseReachesPrimary"
+premises = ["STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES", "STMT-CREATURE-ESSE-IS-RECEIVED", "STMT-RECEIVED-ESSE-IS-LIMITED", "STMT-ESSE-LIMITED-ONLY-THROUGH-RECEPTION", "STMT-PRIMARY-ESSE-UNRECEIVED", "STMT-LIMITED-ESSE-APPROACHES-LESS"]
+conclusion = "STMT-NOTHING-ELSE-REACHES-THE-PRIMARY"
+rule = "Universal instantiation, existential elimination, modus ponens and modus tollens"
+meaning = "Derives strict primacy (nothing other than the primary approaches it as nearly as it stands) from the q.7 reception account: another thing is a creature, so its esse is received (OPEN generalization of q.7 a.2), so limited (STMT-RECEIVED-ESSE-IS-LIMITED); the primary's esse is received in nothing (OPEN reading of q.7 a.1), so by the stated q.7 a.1 warrant that limited esse is received it is not limited; and limited esse approaches less nearly than unlimited (OPEN bridge). Degrees of approach lie in a parameter preorder."
+
+[[argument]]
+id = "UNIVERSAL-CAUSE-TRANSFERS-FROM-TOTAL-CAUSATION"
+theorem = "universalCauseTransfers"
+premises = ["STMT-UNIVERSAL-CAUSE-OF-BEING-IS-TOTAL", "STMT-TOTAL-CAUSE-CAUSES-MODES-OF-BEING", "STMT-PERFECTIONS-ARE-MODES-OF-BEING"]
+conclusion = "STMT-UNIVERSAL-CAUSE-TRANSFERS-PERFECTIONS"
+rule = "Universal instantiation and modus ponens"
+meaning = "Derives the open transfer principle restricted to universal causes of being: a cause of every other being's being is the total cause of the being of each thing whose being it causes (OPEN), every perfection a thing has is a mode of its being (OPEN reading of q.4 a.2), and a total cause of a thing's being causes each mode of it (OPEN). The particular existential supporter of the CausalPerfectionTransfer roles is not a universal cause, so the first premise does not apply to it."
+
+[[argument]]
+id = "ROUND2-PERFECTION-PRIMACY-CONTROLS"
+theorem = "controls"
+premises = []
+conclusion = "STMT-ROUND2-PERFECTION-PRIMACY-CONTROLS"
+rule = "Explicit finite interpretations"
+meaning = "Finite interpretations for the eight derivations of round 2 on perfection and primacy: for each premise, one model (from scripts/countermodel.py or, for the two degree-preorder derivations, written by hand; checked by decide) in which the other premises hold and the conclusion fails, and one joint model with nonempty relations in which every premise and conclusion of the batch holds. Satisfiability and omission only; no model is claimed to describe reality."
+
+# ---- Supports relations (claim bears on, does not state) ----
+
+[[relation]]
+id = "REL-Q44-A1-PARTICIPATED-SUPPORTS-OTHERS-PARTICIPATE-ESSE"
+subject_kind = "claim"
+subject_id = "AQUINAS-ST-I-Q44-A1-PARTICIPATED-ESSE-CAUSE"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-OTHERS-THAN-PRIMARY-PARTICIPATE-ESSE"
+note = "The claim reads q.44 a.1 co. and ad 1: the corpus argues from participated being to the first being whose esse belongs essentially, and DEF-PARTICIPATED-ESSE records that the article attributes such being to what is other than God. The claim's own reading is the step from participation to being caused. The premise says of the primary p of an arbitrary approach order that everything other than p has participated being; identifying p with the one whose esse is essential is the analyst's."
+
+[[relation]]
+id = "REL-Q7-A1-SUBSISTENT-SUPPORTS-PRIMARY-ESSE-UNRECEIVED"
+subject_kind = "claim"
+subject_id = "AQUINAS-ST-I-Q7-A1-SUBSISTENT-BEING-INFINITE"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-PRIMARY-ESSE-UNRECEIVED"
+note = "The claim's locator is q.7 a.1 co., 'cum igitur esse divinum non sit esse receptum in aliquo'. The sentence says it of God's esse, and the claim reads it as the general principle that subsistent being is infinite. The premise applies non-reception to the primary p of the approach order; that p is God, or is the subsistent being, is the analyst's."
+
+[[relation]]
+id = "REL-Q7-A1-UNLIMITED-SUPPORTS-CREATURE-ESSE-RECEIVED"
+subject_kind = "claim"
+subject_id = "AQUINAS-ST-I-Q7-A1-UNLIMITED-ESSE-INFINITE"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-CREATURE-ESSE-IS-RECEIVED"
+note = "The claim's interpretation records that q.7 a.2 co. denies infinity simpliciter to a subsistent created form because its esse is received and contracted to a determinate nature. That bears on the premise for subsistent created forms; that the esse of every creature is received in some principle is the analyst's generalization."
+
+[[relation]]
+id = "REL-Q4-A2-PERFECTIONS-PERTAIN-SUPPORTS-PERFECTIONS-ARE-MODES"
+subject_kind = "claim"
+subject_id = "AQUINAS-ST-I-Q4-A2-PERFECTIONS-PERTAIN-TO-BEING"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-PERFECTIONS-ARE-MODES-OF-BEING"
+note = "q.4 a.2 co. says the perfections of all things pertain to the perfection of being, since things are perfect insofar as they have being in some way. The premise reads 'pertain to the perfection of being' as 'is a mode of the thing's being' (DEF-MODE-OF-BEING) for every perfection a thing has in act. The claim is kept as prose and records that ad 3 distinguishes participation in being from participation in every mode; the premise does not settle that."

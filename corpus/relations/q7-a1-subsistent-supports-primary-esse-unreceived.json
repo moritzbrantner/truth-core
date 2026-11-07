@@ -1,0 +1,9 @@
+{
+  "id": "REL-Q7-A1-SUBSISTENT-SUPPORTS-PRIMARY-ESSE-UNRECEIVED",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q7-A1-SUBSISTENT-BEING-INFINITE",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-PRIMARY-ESSE-UNRECEIVED",
+  "note": "The claim's locator is q.7 a.1 co., 'cum igitur esse divinum non sit esse receptum in aliquo'. The sentence says it of God's esse, and the claim reads it as the general principle that subsistent being is infinite. The premise applies non-reception to the primary p of the approach order; that p is God, or is the subsistent being, is the analyst's."
+}

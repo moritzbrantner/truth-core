@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MODE-OF-BEING",
+  "term": "mode of a thing's being (ModeOfBeing x r)",
+  "definition": "ModeOfBeing x r: r is one of the ways in which x has being, so that x's having r belongs to x's perfection of being. Reading of ST I q.4 a.2 co., 'omnium autem perfectiones pertinent ad perfectionem essendi: secundum hoc enim aliqua perfecta sunt, quod aliquo modo esse habent' (claim AQUINAS-ST-I-Q4-A2-PERFECTIONS-PERTAIN-TO-BEING). Example: the wisdom of a wise man is a way he is. It does not say that whatever causes a thing's being causes each mode of it: that is the open premise STMT-TOTAL-CAUSE-CAUSES-MODES-OF-BEING.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.Round2PerfectionPrimacy.PerfectionsAreModesOfBeing",
+  "note": "Stipulative analyst notion, attribution deferred. The q.4 a.2 claim is kept as prose; ad 3 distinguishes participation in being from participation in every mode, which this notion does not settle."
+}

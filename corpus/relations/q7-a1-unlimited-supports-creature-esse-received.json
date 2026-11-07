@@ -1,0 +1,9 @@
+{
+  "id": "REL-Q7-A1-UNLIMITED-SUPPORTS-CREATURE-ESSE-RECEIVED",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q7-A1-UNLIMITED-ESSE-INFINITE",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-CREATURE-ESSE-IS-RECEIVED",
+  "note": "The claim's interpretation records that q.7 a.2 co. denies infinity simpliciter to a subsistent created form because its esse is received and contracted to a determinate nature. That bears on the premise for subsistent created forms; that the esse of every creature is received in some principle is the analyst's generalization."
+}

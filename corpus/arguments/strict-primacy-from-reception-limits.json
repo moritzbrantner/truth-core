@@ -1,0 +1,29 @@
+{
+  "id": "STRICT-PRIMACY-FROM-RECEPTION-LIMITS",
+  "premise_statement_ids": [
+    "STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES",
+    "STMT-CREATURE-ESSE-IS-RECEIVED",
+    "STMT-RECEIVED-ESSE-IS-LIMITED",
+    "STMT-ESSE-LIMITED-ONLY-THROUGH-RECEPTION",
+    "STMT-PRIMARY-ESSE-UNRECEIVED",
+    "STMT-LIMITED-ESSE-APPROACHES-LESS"
+  ],
+  "conclusion_statement_id": "STMT-NOTHING-ELSE-REACHES-THE-PRIMARY",
+  "inference_ids": [
+    "INF-STRICT-PRIMACY-FROM-RECEPTION-LIMITS"
+  ],
+  "meaning": "Derives strict primacy (nothing other than the primary approaches it as nearly as it stands) from the q.7 reception account: another thing is a creature, so its esse is received (OPEN generalization of q.7 a.2), so limited (STMT-RECEIVED-ESSE-IS-LIMITED); the primary's esse is received in nothing (OPEN reading of q.7 a.1), so by the stated q.7 a.1 warrant that limited esse is received it is not limited; and limited esse approaches less nearly than unlimited (OPEN bridge). Degrees of approach lie in a parameter preorder.",
+  "definition_ids": [
+    "DEF-CREATURE",
+    "DEF-ESSE",
+    "DEF-ESSE-LIMITED",
+    "DEF-ESSE-RECEIVED-IN",
+    "DEF-ORDER-BY-APPROACH-TO-A-PRIMARY",
+    "DEF-STRICT-PRIMACY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSE-LIMITATION",
+    "DISAMB-ESSE-RECEPTION",
+    "DISAMB-ORDER-OF-BEING"
+  ]
+}

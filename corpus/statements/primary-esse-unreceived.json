@@ -1,0 +1,12 @@
+{
+  "id": "STMT-PRIMARY-ESSE-UNRECEIVED",
+  "paraphrase": "OPEN reading of ST I q.7 a.1 co. ('esse divinum non sit esse receptum in aliquo') for the primary p of the approach order: p's esse is received in no principle. The passage says it of God; that the primary of the approach order is the one whose esse is unreceived is the analyst's.",
+  "lean_declaration": "TruthCore.Causality.Round2PerfectionPrimacy.PrimaryEsseUnreceived",
+  "definition_ids": [
+    "DEF-ESSE-RECEIVED-IN",
+    "DEF-ORDER-BY-APPROACH-TO-A-PRIMARY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSE-RECEPTION"
+  ]
+}
