@@ -1,0 +1,15 @@
+{
+  "id": "STMT-ACTUAL-CONTINGENT-DEPENDS-ON-ACTUAL-CONCRETUM",
+  "paraphrase": "OPEN analyst premise: every concrete individual that exists and is contingent at w depends for its being on some concrete individual that exists at w. It does not require the latter to be distinct or necessary.",
+  "lean_declaration": "TruthCore.Causality.Round2Grounding.ActualContingentDependsOnActualConcretum",
+  "definition_ids": [
+    "DEF-DEPENDS-FOR-BEING",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-CONCRETE-ESSE-IN-RE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA"
+  ]
+}

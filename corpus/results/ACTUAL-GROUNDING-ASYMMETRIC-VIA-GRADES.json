@@ -1,0 +1,10 @@
+{
+  "id": "ACTUAL-GROUNDING-ASYMMETRIC-VIA-GRADES",
+  "argument_id": "ACTUAL-GROUNDING-ASYMMETRIC-VIA-GRADES",
+  "challenge_module": "TruthCore.Results.Causality.Round2Grounding.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round2Grounding.Solution",
+  "theorem": "TruthCore.Results.Causality.Round2Grounding.asymmetricViaGrades",
+  "comparator_config": "results/ACTUAL-GROUNDING-ASYMMETRIC-VIA-GRADES/comparator.json",
+  "status": "solution-present",
+  "description": "Reciprocal grounding between actual concreta would make each more in esse than the other, which the asymmetry of MoreIn excludes."
+}

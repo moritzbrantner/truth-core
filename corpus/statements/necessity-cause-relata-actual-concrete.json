@@ -1,0 +1,14 @@
+{
+  "id": "STMT-NECESSITY-CAUSE-RELATA-ACTUAL-CONCRETE",
+  "paraphrase": "OPEN analyst premise: whenever c causes the necessity of x, both c and x are concrete and exist at the reading world w.",
+  "lean_declaration": "TruthCore.Causality.Round2Grounding.NecessityCauseRelataActualConcrete",
+  "definition_ids": [
+    "DEF-NECESSARY-PER-SE",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-CONCRETE-ESSE-IN-RE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+  ]
+}

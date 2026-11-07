@@ -1,0 +1,27 @@
+{
+  "id": "ACTUAL-GROUNDING-ASYMMETRIC-VIA-PRIORITY",
+  "premise_statement_ids": [
+    "STMT-ACTUAL-GROUNDING-IS-SIMPLE-PRIORITY",
+    "STMT-PRIORITY-REQUIRES-NONMUTUAL-DEPENDENCE"
+  ],
+  "conclusion_statement_id": "STMT-ACTUAL-GROUNDING-ASYMMETRIC",
+  "inference_ids": [
+    "INF-ACTUAL-GROUNDING-ASYMMETRIC-VIA-PRIORITY"
+  ],
+  "meaning": "If actual concreta a and b grounded each other, each would be simply prior to the other, so b would depend on a and a would not depend on b, while also a depends on b. No well-foundedness is used.",
+  "definition_ids": [
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-ACTUAL-GROUNDING-ASYMMETRIC",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-CONCRETE-ESSE-IN-RE",
+    "DEF-DEPENDS-FOR-BEING",
+    "DEF-SIMPLE-PRIORITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-CAUSE",
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME",
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING"
+  ]
+}

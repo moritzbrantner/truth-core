@@ -1,0 +1,11 @@
+{
+  "id": "INF-AT-MAXIMAL-TARGET-VIA-GRADES",
+  "input_statement_ids": [
+    "STMT-ACTUAL-GROUND-IS-MORE-IN-ESSE"
+  ],
+  "output_statement_id": "STMT-ACTUAL-GROUNDING-ASYMMETRIC-AT-MAXIMAL-TARGET",
+  "rule": "Reductio",
+  "meaning": "If an actual concretum a grounded an actual maximum b in esse, a would be more in esse than b, which maximality (nothing is more in esse than b) excludes. So no actual concretum grounds a maximum at all, which gives the local asymmetry policy without any asymmetry premise. The InAct part of maximality is unused.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

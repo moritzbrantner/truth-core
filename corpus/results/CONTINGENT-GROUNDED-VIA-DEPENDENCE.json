@@ -1,0 +1,10 @@
+{
+  "id": "CONTINGENT-GROUNDED-VIA-DEPENDENCE",
+  "argument_id": "CONTINGENT-GROUNDED-VIA-DEPENDENCE",
+  "challenge_module": "TruthCore.Results.Causality.Round2Grounding.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round2Grounding.Solution",
+  "theorem": "TruthCore.Results.Causality.Round2Grounding.contingentGroundedViaDependence",
+  "comparator_config": "results/CONTINGENT-GROUNDED-VIA-DEPENDENCE/comparator.json",
+  "status": "solution-present",
+  "description": "An actual contingent concretum depends for its being on some actual concretum, which by the dependence bridge grounds it."
+}

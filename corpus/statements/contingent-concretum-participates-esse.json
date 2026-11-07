@@ -1,0 +1,14 @@
+{
+  "id": "STMT-CONTINGENT-CONCRETUM-PARTICIPATES-ESSE",
+  "paraphrase": "OPEN analyst bridge: every concrete individual that exists at w and is contingent at w (absent at some accessible world) has esse by participation. It relates modal contingency to participated esse in one direction only.",
+  "lean_declaration": "TruthCore.Causality.Round2Grounding.ContingentConcretumParticipatesEsse",
+  "definition_ids": [
+    "DEF-PARTICIPATED-ESSE",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-CONCRETE-ESSE-IN-RE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "STMT-NECESSITY-CAUSE-CAUSES-ESSE",
+  "paraphrase": "OPEN analyst premise: whatever causes the necessity of a thing causes its esse. The converse direction of STMT-CAUSE-OF-NECESSARY-BEING-CAUSES-ITS-NECESSITY's shape; not an identification of the two relations.",
+  "lean_declaration": "TruthCore.Causality.Round2Grounding.NecessityCauseCausesEsse",
+  "definition_ids": [
+    "DEF-NECESSARY-PER-SE",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE"
+  ]
+}

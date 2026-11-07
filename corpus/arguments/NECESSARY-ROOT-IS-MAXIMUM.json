@@ -42,5 +42,8 @@
     "DISAMB-PER-SE",
     "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
     "DISAMB-MAXIME-ENS"
-  ]
+  ],
+  "strong_version_needed": {
+    "STMT-ACTUAL-GROUNDING-WF": "Well-foundedness, not mere asymmetry, is needed: the proof extracts an actual root (a minimal element) of the selected relation, which asymmetry does not supply (an infinite descending chain of actual concreta is asymmetric and rootless). Recorded when ACTUAL-GROUNDING-ASYMMETRIC-FROM-WF registered the strength order (round 2 grounding)."
+  }
 }

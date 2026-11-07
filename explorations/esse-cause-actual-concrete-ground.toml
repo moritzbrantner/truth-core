@@ -1,0 +1,67 @@
+target = "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND"
+
+[[node]]
+id = "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND"
+
+[[node]]
+id = "STMT-ESSE-CAUSES-EXIST-AT"
+# new in round 2 grounding (specs/round2-grounding.toml)
+
+[[node]]
+id = "STMT-ESSE-CAUSES-ARE-CONCRETE"
+# new in round 2 grounding (specs/round2-grounding.toml)
+
+[[node]]
+id = "STMT-ESSE-EFFECT-DEPENDS-ON-ITS-CAUSE"
+# new in round 2 grounding (specs/round2-grounding.toml)
+
+[[node]]
+id = "STMT-ACTUAL-DEPENDENCE-IS-GROUNDING"
+# new in round 2 grounding (specs/round2-grounding.toml)
+
+[[node]]
+id = "STMT-CC100-10-ACTUAL-CAUSE-EFFECT"
+
+[[node]]
+id = "STMT-KOONS-1996-COR1-ACTUAL-INVOLVEMENT-EXISTENCE"
+
+[[node]]
+id = "STMT-CC100-11-PLURAL-EXISTENCE-EXPLANATION"
+
+[[node]]
+id = "STMT-AQUINAS-ST-I-Q44-A1-EFFICIENT-CAUSE-COUNTERFACTUAL-DEPENDENCE"
+
+[[edge]]
+premises = ["STMT-ESSE-CAUSES-EXIST-AT", "STMT-ESSE-CAUSES-ARE-CONCRETE", "STMT-ESSE-EFFECT-DEPENDS-ON-ITS-CAUSE", "STMT-ACTUAL-DEPENDENCE-IS-GROUNDING"]
+conclusion = "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND"
+kind = "derivation"
+status = "certified"
+note = "Certified as ESSE-CAUSE-GROUND-VIA-DEPENDENCE."
+
+[[edge]]
+premises = ["STMT-ESSE-CAUSES-EXIST-AT", "STMT-ESSE-CAUSES-ARE-CONCRETE"]
+conclusion = "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND"
+kind = "bridge"
+status = "rejected"
+note = "With a third bridge 'every cause of esse grounds its effect' this splits the target into its three conjuncts: a decomposition, not a derivation."
+
+[[edge]]
+premises = ["STMT-CC100-10-ACTUAL-CAUSE-EFFECT", "STMT-KOONS-1996-COR1-ACTUAL-INVOLVEMENT-EXISTENCE"]
+conclusion = "STMT-ESSE-CAUSES-EXIST-AT"
+kind = "source"
+status = "rejected"
+note = "No Lean declarations; recorded as supports relations with gaps."
+
+[[edge]]
+premises = ["STMT-CC100-11-PLURAL-EXISTENCE-EXPLANATION"]
+conclusion = "STMT-ESSE-CAUSES-ARE-CONCRETE"
+kind = "source"
+status = "rejected"
+note = "Recorded as a supports relation: only the slide's gloss of concrete as causal capacity bears."
+
+[[edge]]
+premises = ["STMT-AQUINAS-ST-I-Q44-A1-EFFICIENT-CAUSE-COUNTERFACTUAL-DEPENDENCE"]
+conclusion = "STMT-ESSE-EFFECT-DEPENDS-ON-ITS-CAUSE"
+kind = "source"
+status = "rejected"
+note = "Recorded as a supports relation (efficient cause vs cause of esse)."

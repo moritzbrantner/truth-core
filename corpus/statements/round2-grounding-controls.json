@@ -1,0 +1,18 @@
+{
+  "id": "STMT-ROUND2-GROUNDING-CONTROLS",
+  "paraphrase": "Finite interpretations for the thirteen derivations of round 2 grounding: for each premise, a model in which the other premises hold and the conclusion fails, and one joint model (a contingent actual concretum grounded by a necessary one, every relation nonempty) in which every premise except restricted well-foundedness and every conclusion holds. Satisfiability and omission only; no model is claimed to describe reality.",
+  "lean_declaration": "TruthCore.Causality.Round2Grounding.Control.Certificate",
+  "definition_ids": [
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-DEPENDS-FOR-BEING",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-SIMPLE-PRIORITY",
+    "DEF-PARTICIPATED-ESSE",
+    "DEF-KANT-LOCAL-CAUSE",
+    "DEF-MORE-IN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-CAUSE"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "STMT-ACTUAL-GROUNDING-IS-SIMPLE-PRIORITY",
+  "paraphrase": "OPEN analyst bridge: whenever an actual concretum a grounds an actual concretum b at w, a is simply prior to b.",
+  "lean_declaration": "TruthCore.Causality.Round2Grounding.ActualGroundingIsSimplePriority",
+  "definition_ids": [
+    "DEF-SIMPLE-PRIORITY",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"
+  ]
+}

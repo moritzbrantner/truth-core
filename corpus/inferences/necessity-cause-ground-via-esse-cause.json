@@ -1,0 +1,13 @@
+{
+  "id": "INF-NECESSITY-CAUSE-GROUND-VIA-ESSE-CAUSE",
+  "input_statement_ids": [
+    "STMT-NECESSITY-CAUSE-CAUSES-ESSE",
+    "STMT-NECESSITY-CAUSE-RELATA-ACTUAL-CONCRETE",
+    "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND"
+  ],
+  "output_statement_id": "STMT-NECESSITY-CAUSES-ARE-ACTUAL-CONCRETE-GROUNDS",
+  "rule": "Universal instantiation and modus ponens",
+  "meaning": "A distinct cause c of x's necessity causes x's esse, x is an actual concretum, so by the esse-cause bridge c is an actual concrete ground of x. Only the effect's actuality is used from the relata premise.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

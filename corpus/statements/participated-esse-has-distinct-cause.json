@@ -1,0 +1,13 @@
+{
+  "id": "STMT-PARTICIPATED-ESSE-HAS-DISTINCT-CAUSE",
+  "paraphrase": "OPEN reading of ST I q.44 a.1 co. in the CausesIn vocabulary: whatever has esse by participation has its esse caused by something other than itself.",
+  "lean_declaration": "TruthCore.Causality.Round2Grounding.ParticipatedEsseHasDistinctCause",
+  "definition_ids": [
+    "DEF-PARTICIPATED-ESSE",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE"
+  ]
+}

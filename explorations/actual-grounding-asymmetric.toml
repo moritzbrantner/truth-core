@@ -1,0 +1,77 @@
+target = "STMT-ACTUAL-GROUNDING-ASYMMETRIC"
+
+[[node]]
+id = "STMT-ACTUAL-GROUNDING-ASYMMETRIC"
+
+[[node]]
+id = "STMT-ACTUAL-GROUNDING-WF"
+
+[[node]]
+id = "STMT-ACTUAL-GROUNDING-IS-SIMPLE-PRIORITY"
+# new in round 2 grounding (specs/round2-grounding.toml)
+
+[[node]]
+id = "STMT-PRIORITY-REQUIRES-NONMUTUAL-DEPENDENCE"
+
+[[node]]
+id = "STMT-ACTUAL-GROUNDING-IS-DEPENDENCE"
+# new in round 2 grounding (specs/round2-grounding.toml)
+
+[[node]]
+id = "STMT-DEPENDENCE-FOR-BEING-ASYMMETRIC"
+# new in round 2 grounding (specs/round2-grounding.toml)
+
+[[node]]
+id = "STMT-ACTUAL-GROUND-IS-MORE-IN-ESSE"
+# new in round 2 grounding (specs/round2-grounding.toml)
+
+[[node]]
+id = "STMT-MORE-IN-IS-ASYMMETRIC"
+
+[[node]]
+id = "STMT-CC100-4-NO-SELF-AND-OTHER-DEPENDENCE"
+
+[[node]]
+id = "STMT-CC100-10-CAUSE-EFFECT-NONOVERLAP"
+
+[[edge]]
+premises = ["STMT-ACTUAL-GROUNDING-WF"]
+conclusion = "STMT-ACTUAL-GROUNDING-ASYMMETRIC"
+kind = "derivation"
+status = "certified"
+note = "Certified as ACTUAL-GROUNDING-ASYMMETRIC-FROM-WF (reuses actualGroundingAsymmetricOfWF); registered as a strengthens relation."
+
+[[edge]]
+premises = ["STMT-ACTUAL-GROUNDING-IS-SIMPLE-PRIORITY", "STMT-PRIORITY-REQUIRES-NONMUTUAL-DEPENDENCE"]
+conclusion = "STMT-ACTUAL-GROUNDING-ASYMMETRIC"
+kind = "derivation"
+status = "certified"
+note = "Certified as ACTUAL-GROUNDING-ASYMMETRIC-VIA-PRIORITY."
+
+[[edge]]
+premises = ["STMT-ACTUAL-GROUNDING-IS-DEPENDENCE", "STMT-DEPENDENCE-FOR-BEING-ASYMMETRIC"]
+conclusion = "STMT-ACTUAL-GROUNDING-ASYMMETRIC"
+kind = "derivation"
+status = "certified"
+note = "Certified as ACTUAL-GROUNDING-ASYMMETRIC-VIA-DEPENDENCE."
+
+[[edge]]
+premises = ["STMT-ACTUAL-GROUND-IS-MORE-IN-ESSE", "STMT-MORE-IN-IS-ASYMMETRIC"]
+conclusion = "STMT-ACTUAL-GROUNDING-ASYMMETRIC"
+kind = "derivation"
+status = "certified"
+note = "Certified as ACTUAL-GROUNDING-ASYMMETRIC-VIA-GRADES."
+
+[[edge]]
+premises = ["STMT-CC100-4-NO-SELF-AND-OTHER-DEPENDENCE"]
+conclusion = "STMT-DEPENDENCE-FOR-BEING-ASYMMETRIC"
+kind = "source"
+status = "rejected"
+note = "Recorded as a supports relation: the slide gives irreflexivity only."
+
+[[edge]]
+premises = ["STMT-CC100-10-CAUSE-EFFECT-NONOVERLAP"]
+conclusion = "STMT-ACTUAL-GROUNDING-ASYMMETRIC"
+kind = "bridge"
+status = "rejected"
+note = "Nonoverlap of cause and effect excludes self-grounding only under a grounding-as-causation bridge, and gives no exclusion of two-cycles between distinct things."

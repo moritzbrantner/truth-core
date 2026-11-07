@@ -1,0 +1,8 @@
+{
+  "id": "STMT-DEPENDENCE-FOR-BEING-ASYMMETRIC",
+  "paraphrase": "OPEN analyst premise: if x depends for its being on y, y does not depend for its being on x (hence nothing depends on itself). Mutual counterfactual dependence would falsify it.",
+  "lean_declaration": "TruthCore.Causality.Round2Grounding.DependenceForBeingAsymmetric",
+  "definition_ids": [
+    "DEF-DEPENDS-FOR-BEING"
+  ]
+}

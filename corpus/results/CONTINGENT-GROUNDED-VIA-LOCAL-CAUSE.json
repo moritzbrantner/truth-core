@@ -1,0 +1,10 @@
+{
+  "id": "CONTINGENT-GROUNDED-VIA-LOCAL-CAUSE",
+  "argument_id": "CONTINGENT-GROUNDED-VIA-LOCAL-CAUSE",
+  "challenge_module": "TruthCore.Results.Causality.Round2Grounding.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round2Grounding.Solution",
+  "theorem": "TruthCore.Results.Causality.Round2Grounding.contingentGroundedViaLocalCause",
+  "comparator_config": "results/CONTINGENT-GROUNDED-VIA-LOCAL-CAUSE/comparator.json",
+  "status": "solution-present",
+  "description": "The Kantian local causal principle supplies an existing distinct cause of every existing contingent individual; the bridge makes an existing cause of an actual concretum a concrete ground of it. Uses the principle at the one reading world only."
+}

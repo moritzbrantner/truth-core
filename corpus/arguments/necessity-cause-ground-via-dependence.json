@@ -1,0 +1,29 @@
+{
+  "id": "NECESSITY-CAUSE-GROUND-VIA-DEPENDENCE",
+  "premise_statement_ids": [
+    "STMT-NECESSITATED-DEPENDS-ON-ITS-CAUSE",
+    "STMT-NECESSITY-CAUSE-RELATA-ACTUAL-CONCRETE",
+    "STMT-ACTUAL-DEPENDENCE-IS-GROUNDING"
+  ],
+  "conclusion_statement_id": "STMT-NECESSITY-CAUSES-ARE-ACTUAL-CONCRETE-GROUNDS",
+  "inference_ids": [
+    "INF-NECESSITY-CAUSE-GROUND-VIA-DEPENDENCE"
+  ],
+  "meaning": "A second route without causes of esse: what has its necessity caused by c depends for its being on c; both are actual concreta; dependence between actual concreta is grounding.",
+  "definition_ids": [
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-CONCRETE-ESSE-IN-RE",
+    "DEF-DEPENDS-FOR-BEING",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-NECESSARY-PER-SE",
+    "DEF-ROUTE-BRIDGE-MODAL-READING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-CAUSE",
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING"
+  ]
+}

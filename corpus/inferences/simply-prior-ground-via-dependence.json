@@ -1,0 +1,13 @@
+{
+  "id": "INF-SIMPLY-PRIOR-GROUND-VIA-DEPENDENCE",
+  "input_statement_ids": [
+    "STMT-PRIORITY-REQUIRES-NONMUTUAL-DEPENDENCE",
+    "STMT-SIMPLE-PRIORITY-RELATES-ACTUAL-CONCRETA",
+    "STMT-ACTUAL-DEPENDENCE-IS-GROUNDING"
+  ],
+  "output_statement_id": "STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND",
+  "rule": "Universal instantiation, conjunction elimination and modus ponens",
+  "meaning": "If y is simply prior to x, x depends for its being on y (necessary direction of the dependence analysis of priority, reused from causal maps batch 1); both are actual concreta; so y grounds x. The distinctness hypothesis of the target is not used.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

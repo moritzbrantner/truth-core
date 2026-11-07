@@ -1,0 +1,9 @@
+{
+  "id": "REL-Q44-A1-NECESSARY-CAUSED-SUPPORTS-NECESSITY-CAUSE-CAUSES-ESSE",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q44-A1-NECESSARY-EFFICIENT-CAUSE-COMPATIBLE",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-NECESSITY-CAUSE-CAUSES-ESSE",
+  "note": "Q.44 a.1 ad 2 says some necessary things have a cause of their necessity, and that being necessary does not exclude an efficient cause. It bears on the premise by treating a cause of necessity as an efficient cause of being; that every cause of necessity causes the thing's esse is the analyst's generalization."
+}

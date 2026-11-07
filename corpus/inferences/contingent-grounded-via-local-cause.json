@@ -1,0 +1,12 @@
+{
+  "id": "INF-CONTINGENT-GROUNDED-VIA-LOCAL-CAUSE",
+  "input_statement_ids": [
+    "STMT-LOCAL-CAUSAL-PRINCIPLE",
+    "STMT-EXISTING-CAUSE-OF-ACTUAL-CONCRETUM-IS-CONCRETE-GROUND"
+  ],
+  "output_statement_id": "STMT-EVERY-CONTINGENT-GROUNDED-AT",
+  "rule": "Universal instantiation, existential elimination and introduction",
+  "meaning": "The Kantian local causal principle supplies an existing distinct cause of every existing contingent individual; the bridge makes an existing cause of an actual concretum a concrete ground of it. Uses the principle at the one reading world only.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

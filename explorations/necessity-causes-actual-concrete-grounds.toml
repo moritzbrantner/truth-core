@@ -1,0 +1,57 @@
+target = "STMT-NECESSITY-CAUSES-ARE-ACTUAL-CONCRETE-GROUNDS"
+
+[[node]]
+id = "STMT-NECESSITY-CAUSES-ARE-ACTUAL-CONCRETE-GROUNDS"
+
+[[node]]
+id = "STMT-NECESSITY-CAUSE-CAUSES-ESSE"
+# new in round 2 grounding (specs/round2-grounding.toml)
+
+[[node]]
+id = "STMT-NECESSITY-CAUSE-RELATA-ACTUAL-CONCRETE"
+# new in round 2 grounding (specs/round2-grounding.toml)
+
+[[node]]
+id = "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND"
+
+[[node]]
+id = "STMT-NECESSITATED-DEPENDS-ON-ITS-CAUSE"
+# new in round 2 grounding (specs/round2-grounding.toml)
+
+[[node]]
+id = "STMT-ACTUAL-DEPENDENCE-IS-GROUNDING"
+# new in round 2 grounding (specs/round2-grounding.toml)
+
+[[node]]
+id = "STMT-AQUINAS-ST-I-Q44-A1-NECESSARY-EFFICIENT-CAUSE-COMPATIBLE"
+
+[[node]]
+id = "STMT-CC100-10-ACTUAL-CAUSE-EFFECT"
+
+[[edge]]
+premises = ["STMT-NECESSITY-CAUSE-CAUSES-ESSE", "STMT-NECESSITY-CAUSE-RELATA-ACTUAL-CONCRETE", "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND"]
+conclusion = "STMT-NECESSITY-CAUSES-ARE-ACTUAL-CONCRETE-GROUNDS"
+kind = "derivation"
+status = "certified"
+note = "Certified as NECESSITY-CAUSE-GROUND-VIA-ESSE-CAUSE."
+
+[[edge]]
+premises = ["STMT-NECESSITATED-DEPENDS-ON-ITS-CAUSE", "STMT-NECESSITY-CAUSE-RELATA-ACTUAL-CONCRETE", "STMT-ACTUAL-DEPENDENCE-IS-GROUNDING"]
+conclusion = "STMT-NECESSITY-CAUSES-ARE-ACTUAL-CONCRETE-GROUNDS"
+kind = "derivation"
+status = "certified"
+note = "Certified as NECESSITY-CAUSE-GROUND-VIA-DEPENDENCE."
+
+[[edge]]
+premises = ["STMT-AQUINAS-ST-I-Q44-A1-NECESSARY-EFFICIENT-CAUSE-COMPATIBLE"]
+conclusion = "STMT-NECESSITY-CAUSE-CAUSES-ESSE"
+kind = "source"
+status = "rejected"
+note = "Recorded as a supports relation with gap."
+
+[[edge]]
+premises = ["STMT-CC100-10-ACTUAL-CAUSE-EFFECT"]
+conclusion = "STMT-NECESSITY-CAUSE-RELATA-ACTUAL-CONCRETE"
+kind = "source"
+status = "rejected"
+note = "Recorded as a supports relation with gap (concreteness not stated)."

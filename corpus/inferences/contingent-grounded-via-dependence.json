@@ -1,0 +1,12 @@
+{
+  "id": "INF-CONTINGENT-GROUNDED-VIA-DEPENDENCE",
+  "input_statement_ids": [
+    "STMT-ACTUAL-CONTINGENT-DEPENDS-ON-ACTUAL-CONCRETUM",
+    "STMT-ACTUAL-DEPENDENCE-IS-GROUNDING"
+  ],
+  "output_statement_id": "STMT-EVERY-CONTINGENT-GROUNDED-AT",
+  "rule": "Universal instantiation, existential elimination and introduction",
+  "meaning": "An actual contingent concretum depends for its being on some actual concretum, which by the dependence bridge grounds it.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

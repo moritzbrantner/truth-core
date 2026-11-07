@@ -1,0 +1,25 @@
+target = "STMT-ACTUAL-GROUNDING-ASYMMETRIC-AT-MAXIMAL-TARGET"
+
+[[node]]
+id = "STMT-ACTUAL-GROUNDING-ASYMMETRIC-AT-MAXIMAL-TARGET"
+
+[[node]]
+id = "STMT-ACTUAL-GROUNDING-ASYMMETRIC"
+
+[[node]]
+id = "STMT-ACTUAL-GROUND-IS-MORE-IN-ESSE"
+# new in round 2 grounding (specs/round2-grounding.toml)
+
+[[edge]]
+premises = ["STMT-ACTUAL-GROUNDING-ASYMMETRIC"]
+conclusion = "STMT-ACTUAL-GROUNDING-ASYMMETRIC-AT-MAXIMAL-TARGET"
+kind = "derivation"
+status = "certified"
+note = "Already certified as ACTUAL-GROUNDING-ASYMMETRY-STRENGTHENS-MAXIMAL-TARGET."
+
+[[edge]]
+premises = ["STMT-ACTUAL-GROUND-IS-MORE-IN-ESSE"]
+conclusion = "STMT-ACTUAL-GROUNDING-ASYMMETRIC-AT-MAXIMAL-TARGET"
+kind = "derivation"
+status = "certified"
+note = "Certified as AT-MAXIMAL-TARGET-VIA-GRADES: proves more (nothing actual grounds a maximum in esse) without any asymmetry premise."
