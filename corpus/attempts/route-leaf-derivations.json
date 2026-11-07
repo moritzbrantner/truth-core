@@ -1,0 +1,18 @@
+{
+  "id": "ATTEMPT-ROUTE-LEAF-DERIVATIONS",
+  "date": "2026-11-07",
+  "statement_ids": [
+    "STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE",
+    "STMT-CAUSE-OF-BEING-CAUSES-EVERY-PERFECTION",
+    "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH",
+    "STMT-MORE-SUCH-HAS-THE-PERFECTION"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Survey of root-route leaves with no derivation, ranked by how many of the 26 routes use them, matched against definition-linked source statements that no argument consumed. First result: STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE (all 26 routes, no derivation) follows from two premises of the same routes (cause of being causes every perfection; cause of a quality is more such), excluded middle, and the stated Quarta Via premise that what is more such has the perfection. The route premise set is therefore not independent modulo that Quarta Via premise. Omission controls for each non-logical premise and a positive model. Rejected leads: STMT-CAUSE-OF-BEING-CAUSES-EVERY-PERFECTION already has a derivation and two supports relations; STMT-IMMUTABLE-IS-ETERNAL already has a typed Boethian derivation; deriving STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING from q.4 a.2 would restate the same type.",
+  "blocker": "The derivation leaves the stated premise in place as a leaf of every route (a stated premise stays one leaf), so route costs do not fall; a lower cost needs a reduced root-route argument without STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE, or establishment of the four inputs. One InAct parameter forces a single formal-or-eminent reading across all four premises (DISAMB-IN-ACT).",
+  "evidence": [
+    "PERFECTION-PREEXISTENCE-FROM-CAUSAL-TRANSFER",
+    "PERFECTION-PREEXISTENCE-CONTROLS"
+  ]
+}
