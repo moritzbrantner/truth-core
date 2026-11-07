@@ -1,0 +1,17 @@
+{
+  "id": "STMT-OWN-BEING-HAS-EVERY-PERFECTION-OF-BEING",
+  "paraphrase": "Whatever is its own being (subsistent esse, a primitive predicate, not a represented essence/esse equality) has every real determination that is a perfection of being. Encodes the 'lacks no excellence' part of SCG I.28 [2–3]; the 'has no defect' part is not encoded.",
+  "lean_declaration": "TruthCore.Causality.WholePowerPerfection.OwnBeingLacksNoPerfectionOfBeing",
+  "definition_ids": [
+    "DEF-SCG-I28-WHOLE-POWER-PARTICIPATION",
+    "DEF-ESSE",
+    "DEF-UNIVERSALLY-PERFECT",
+    "DEF-REAL-DETERMINATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PURE-ACT-STRICTNESS",
+    "DISAMB-PERFECTION-SCOPE",
+    "DISAMB-ESSENCE",
+    "DISAMB-ORDER-OF-BEING"
+  ]
+}

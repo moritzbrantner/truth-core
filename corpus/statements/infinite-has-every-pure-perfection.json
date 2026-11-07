@@ -1,0 +1,17 @@
+{
+  "id": "STMT-INFINITE-HAS-EVERY-PURE-PERFECTION",
+  "paraphrase": "OPEN, unattributed bridge: whatever is infinite, in the primitive sense of SubsistentBeingIsInfiniteReading and GodIsInfinite (infinity of perfection, DEF-INFINITE), has every pure perfection among its real determinations. Near-definitional under DEF-INFINITE, but Infinite has no definitional expansion in Lean, so it stays an explicit premise.",
+  "lean_declaration": "TruthCore.Causality.WholePowerPerfection.InfiniteHasEveryPurePerfection",
+  "definition_ids": [
+    "DEF-INFINITE",
+    "DEF-REAL-DETERMINATION",
+    "DEF-PURE-PERFECTION",
+    "DEF-UNRESTRICTED-PURE-PERFECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PURE-ACT-STRICTNESS",
+    "DISAMB-PERFECTION-SCOPE",
+    "DISAMB-ESSENCE",
+    "DISAMB-ORDER-OF-BEING"
+  ]
+}

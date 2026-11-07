@@ -1,0 +1,26 @@
+{
+  "id": "PURE-INDISCERNIBILITY-STRENGTHENS-PERFECT-BEINGS",
+  "premise_statement_ids": [
+    "STMT-PURELY-DETERMINED-INDISCERNIBLES-IDENTICAL"
+  ],
+  "conclusion_statement_id": "STMT-PERFECT-BEINGS-NOT-SEVERAL",
+  "inference_ids": [
+    "INF-PURE-INDISCERNIBILITY-STRENGTHENS-PERFECT-BEINGS"
+  ],
+  "meaning": "Two beings each with every pure perfection and only pure ones are purely determined and have the same real determinations, so identity of purely determined indiscernibles identifies them. Sole-premise entailment for the strength order.",
+  "definition_ids": [
+    "DEF-PURELY-DETERMINED-INDISCERNIBLES-IDENTICAL",
+    "DEF-SCG-I42-UNIQUENESS-CASES",
+    "DEF-REAL-DETERMINATION",
+    "DEF-PURE-PERFECTION",
+    "DEF-UNRESTRICTED-PURE-PERFECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PURE-ACT-STRICTNESS",
+    "DISAMB-PERFECTION-SCOPE",
+    "DISAMB-ESSENCE",
+    "DISAMB-ORDER-OF-BEING",
+    "DISAMB-SCG-I42-COMMON-NOTION-THISNESS",
+    "DISAMB-THISNESS-REAL-BARE"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "PERFECT-BEINGS-FIRST-MOVER-UNIQUENESS",
+  "argument_id": "PERFECT-BEINGS-FIRST-MOVER-UNIQUENESS",
+  "challenge_module": "TruthCore.Results.Causality.WholePowerPerfection.Challenge",
+  "solution_module": "TruthCore.Results.Causality.WholePowerPerfection.Solution",
+  "theorem": "TruthCore.Results.Causality.WholePowerPerfection.uniqueFromPerfectBeings",
+  "comparator_config": "results/PERFECT-BEINGS-FIRST-MOVER-UNIQUENESS/comparator.json",
+  "status": "solution-present",
+  "description": "Unrestricted perfection and strict pure actuality make every first mover a being with every pure perfection and only pure ones; SCG I.42 as encoded makes any two such beings one. The weakest identity bridge so far: strictly weaker than identity of purely determined indiscernibles (registered strengthens). Under the background that only first movers are perfect, it is equivalent in effect to at-most-one, so it supports uniqueness only as a general claim about perfect beings. Conditional on three OPEN premises."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "STMT-PURE-PERFECTIONS-PERTAIN-TO-BEING",
+  "paraphrase": "Every pure perfection is a perfection of being. Restricts ST I q.4 a.2's 'the perfections of all things pertain to the perfection of being' to pure perfections.",
+  "lean_declaration": "TruthCore.Causality.WholePowerPerfection.PurePerfectionsPertainToBeing",
+  "definition_ids": [
+    "DEF-UNIVERSALLY-PERFECT",
+    "DEF-ESSE",
+    "DEF-PURE-PERFECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PURE-ACT-STRICTNESS",
+    "DISAMB-PERFECTION-SCOPE",
+    "DISAMB-ESSENCE",
+    "DISAMB-ORDER-OF-BEING"
+  ]
+}

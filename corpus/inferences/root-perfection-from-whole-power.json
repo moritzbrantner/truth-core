@@ -1,0 +1,21 @@
+{
+  "id": "INF-ROOT-PERFECTION-FROM-WHOLE-POWER",
+  "input_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-EXISTING-IN-ACT-AT",
+    "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
+    "STMT-Q3A4-DISTINCT-ESSE-CAUSE-DICHOTOMY",
+    "STMT-Q3A4-ESSENTIAL-PRINCIPLES-NOT-DISTINCT-ESSE-CAUSE",
+    "STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND",
+    "STMT-COMPOSITE-POSTERIOR-TO-COMPONENTS",
+    "STMT-COMPOSITE-HAS-COMPONENT-OTHER-THAN-ITSELF",
+    "STMT-UNLIMITED-IS-OWN-BEING",
+    "STMT-OWN-BEING-HAS-EVERY-PERFECTION-OF-BEING",
+    "STMT-PURE-PERFECTIONS-PERTAIN-TO-BEING"
+  ],
+  "output_statement_id": "STMT-ACTUAL-ROOT-HAS-EVERY-PURE-DETERMINATION",
+  "rule": "Whole power of own being at the roots",
+  "meaning": "The eight inputs of ACTUAL-ROOTS-WITHOUT-LIMITING-PRINCIPLE make every actual root unlimited; the open bridge makes each its own being; SCG I.28 and q.4 a.2 (as encoded) then give it every pure perfection. Derives the former bare leaf STMT-ACTUAL-ROOT-HAS-EVERY-PURE-DETERMINATION. All eleven premises stay open.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

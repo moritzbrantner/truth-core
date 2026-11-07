@@ -1796,3 +1796,59 @@ derivations a node has.
   first-mover versions of `DEF-UNRESTRICTED-PURE-PERFECTION`, are still bare
   leaves. The natural next derivation is the same q.7 a.1 thought: unreceived esse
   is unlimited, so it has every pure perfection.
+
+### Unrestricted perfection and SCG I.42 from definition-linked source statements (2026-11-07)
+
+**Inputs.** Three source statements had entered the corpus through definition
+records, and no argument used them:
+- `STMT-AQUINAS-SCG-I28-OWN-BEING-WHOLE-POWER-PERFECTION`;
+- `STMT-ALL-PERFECTIONS-PERTAIN-TO-PERFECTION-OF-BEING` (ST I q.4 a.2);
+- `STMT-AQUINAS-SCG-I42-PERFECT-BEINGS-DIFFERENTIATION`.
+
+**Encoding** (`TruthCore/Causality/WholePowerPerfection.lean`).
+- Each source statement gets an encoded sibling, linked to its claim by a
+  `supports` relation whose note records the gap. The encodings are weaker than
+  the source text:
+  - I.28 keeps "lacks no excellence of being" and drops "has no defect".
+  - q.4 a.2 is restricted to pure perfections.
+  - I.42 ranges over all beings rather than gods.
+- `OwnBeing` (subsistent esse) is a primitive predicate. The I.28 claim warns that
+  own being is not a consequence of a represented essence/esse equality, so the
+  step from no limitation to own being is the open analyst bridge
+  `STMT-UNLIMITED-IS-OWN-BEING`.
+
+**Two routes to unrestricted perfection.** Each route derives both the first-mover
+version and the actual-root version of the former bare leaf.
+- **Whole power.** No limitation (from simplicity and firstness, or the per-root
+  rerun), then own being, then every perfection of being (I.28), then every pure
+  perfection (q.4 a.2).
+- **Infinity.** Esse equals essence (simplicity with EM, or the per-root
+  identity), then infinite by the existing q.7 reading
+  `STMT-SUBSISTENT-BEING-IS-INFINITE`, then every pure perfection by the open,
+  near-definitional bridge `STMT-INFINITE-HAS-EVERY-PURE-PERFECTION`.
+  - The q.7 reading is a premise of the designated root route, so this
+    derivation shares a premise with it.
+
+**SCG I.42 as the weakest identity bridge.**
+- `PERFECT-BEINGS-FIRST-MOVER-UNIQUENESS` derives at-most-one from unrestricted
+  perfection, strict pure actuality and I.42.
+- The narrower bridge (identity of purely determined indiscernibles) strictly
+  strengthens I.42. Two beings with no determinations satisfy I.42 vacuously and
+  break the narrower bridge.
+- Strength order: identity of real indiscernibles, then purely determined
+  indiscernibles, then perfect beings not several. The two earlier routes that use
+  the narrower bridge now record why they keep it (`strong_version_needed`).
+- I.42 is exactly the step that denies primitive thisness among perfect beings. It
+  is the source's own form of the bare-difference residue, now stated as an
+  explicit source-supported premise rather than an analyst stipulation.
+
+**Graph status.** Every premise of the first-mover pure-act uniqueness route is
+now derived or source-supported except four:
+- the two analyst bridges, limitation to purity and limitation to own being, or
+  infinity to perfection on the other route;
+- simplicity and firstness, which are shared with the Prima Via routes.
+
+`frontier-diff` reports no change, because the Prima Via route still expands
+at-most-one through the cheaper Q11 derivation, which uses
+`STMT-PLURAL-FIRST-MOVERS-WOULD-DIFFER-IN-ACT`. The pure-act route is an
+alternative that does not need that premise.

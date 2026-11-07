@@ -1,0 +1,10 @@
+{
+  "id": "PURE-INDISCERNIBILITY-STRENGTHENS-PERFECT-BEINGS",
+  "argument_id": "PURE-INDISCERNIBILITY-STRENGTHENS-PERFECT-BEINGS",
+  "challenge_module": "TruthCore.Results.Causality.WholePowerPerfection.Challenge",
+  "solution_module": "TruthCore.Results.Causality.WholePowerPerfection.Solution",
+  "theorem": "TruthCore.Results.Causality.WholePowerPerfection.perfectBeingsOfPureIndiscernibility",
+  "comparator_config": "results/PURE-INDISCERNIBILITY-STRENGTHENS-PERFECT-BEINGS/comparator.json",
+  "status": "solution-present",
+  "description": "Two beings each with every pure perfection and only pure ones are purely determined and have the same real determinations, so identity of purely determined indiscernibles identifies them. Sole-premise entailment for the strength order."
+}
