@@ -13,6 +13,14 @@ candidates (`new = true` with `text`); edges name premises, a conclusion, a kind
 `certified`, `rejected`). It reports unknown IDs, new nodes, and which edges are
 already certified by an existing argument with the same conclusion.
 
+Identity (owner decision 2026-11-07): ids are opaque uuids. A spec names
+records by handle: a uuid, or the legacy id (`STMT-…`) or label of an existing
+record. A handle that names no record makes a new one with a uuid4 id and the
+label `label = "..."` (default: the handle, which must then be a plain name
+with no id-like text); a rerun finds it again by that label. New files are
+`corpus/<kind>/<uuid>.json` and `results/<uuid>/comparator.json`. Existing
+specs and exploration maps keep their legacy handles, which resolve.
+
 `records` writes statements, inferences, arguments, results, comparator configs
 and relations named by the spec. Missing `definition_ids` / `disambiguation_ids`
 of an argument default to the union of those of its premises and conclusion
@@ -37,14 +45,16 @@ The spec format:
     disambiguations = []
 
     [[statement]]
-    id = "STMT-..."
+    id = "..."                   # handle: uuid, legacy id or label; new: any handle
+    label = "Act is PRIOR_1 to potency"   # required for a new record unless the handle is the label
     lean = "FooReading"          # relative to batch.vocab unless it starts with TruthCore.
     paraphrase = "..."
     definitions = ["DEF-..."]
     disambiguations = ["DISAMB-..."]
 
     [[argument]]
-    id = "FOO-FROM-BAR"
+    id = "..."
+    label = "Act is PRIOR_1 to potency, from the priority fork"
     theorem = "fooFromBar"       # in batch.results
     premises = ["STMT-..."]
     conclusion = "STMT-..."
@@ -52,7 +62,8 @@ The spec format:
     meaning = "..."              # also the result description
 
     [[relation]]
-    id = "REL-..."
+    id = "..."
+    label = "..."
     subject_kind = "argument"
     subject_id = "FOO-FROM-BAR"
     predicate = "refutes"
@@ -71,12 +82,12 @@ import sys
 import tomllib
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+from corpus_ids import Aliases, AmbiguousId, idlike_text, new_uuid  # noqa: E402
+
 ROOT = Path(__file__).resolve().parents[1]
 CORPUS = ROOT / "corpus"
-
-
-def slug(identifier: str) -> str:
-    return re.sub(r"^(STMT|REL|INF)-", "", identifier).lower()
 
 
 def load_ids(kind: str) -> dict[str, tuple[Path, dict]]:
@@ -105,85 +116,170 @@ def lean_name(batch: dict, name: str) -> str:
     return name if name.startswith("TruthCore.") else f"{batch['vocab']}.{name}"
 
 
+class Handles:
+    """Spec handles -> uuids (uuid identity, owner decision 2026-11-07).
+
+    A spec names records by handle: a uuid, the legacy id or label of an
+    existing record, or a new handle. A new record gets a uuid4 and the label
+    `label` (default: the handle), and a rerun finds it again by that label,
+    so `records --write` is idempotent without writing ids back into the spec.
+    Readable handles are never ids."""
+
+    def __init__(self) -> None:
+        self.aliases = Aliases.load(ROOT)
+        self.minted: dict[tuple[str, str], str] = {}
+
+    def existing(self, kind: str, *tokens: str | None) -> str | None:
+        for token in tokens:
+            if token:
+                try:
+                    found = self.aliases.resolve(token, (kind,))
+                except AmbiguousId as exc:
+                    raise SystemExit(str(exc)) from exc
+                if found:
+                    return found
+        return None
+
+    def get(self, kind: str, handle: str, label: str | None = None) -> str:
+        key = (kind, handle)
+        if key not in self.minted:
+            found = self.existing(kind, handle, label)
+            if found is None and idlike_text(label or handle):
+                raise SystemExit(f"new {kind} {handle!r} needs a label: a plain name with no id-like text "
+                                 "(set `label` in the spec)")
+            self.minted[key] = found or new_uuid()
+        return self.minted[key]
+
+    def ref(self, kind: str, handle: str) -> str:
+        """A reference: a handle of this spec, else an existing record."""
+        if (kind, handle) in self.minted:
+            return self.minted[(kind, handle)]
+        found = self.existing(kind, handle)
+        if found is None:
+            raise SystemExit(f"unknown {kind} {handle}")
+        return found
+
+
+def record_path(existing: dict[str, tuple[Path, dict]], directory: str, record_id: str) -> Path:
+    return existing.get(record_id, (CORPUS / directory / f"{record_id}.json",))[0]
+
+
+def identity(record_id: str, label: str, existing: dict[str, tuple[Path, dict]]) -> dict:
+    """id, label and (for a migrated record) legacy_id, as the record has them."""
+    old = existing.get(record_id, (None, {}))[1]
+    out = {"id": record_id, "label": old.get("label", label)}
+    if "legacy_id" in old:
+        out["legacy_id"] = old["legacy_id"]
+    return out
+
+
 def build_records(spec: dict, write: bool) -> list[str]:
     batch = spec["batch"]
     planned: list[str] = []
     existing = {kind: load_ids(kind) for kind in ("statements", "arguments", "inferences", "results", "relations")}
-    spec_statements = {s["id"]: s for s in spec.get("statement", [])}
+    handles = Handles()
+    for s in spec.get("statement", []):
+        handles.get("statement", s["id"], s.get("label"))
+    for a in spec.get("argument", []):
+        handles.get("argument", a["id"], a.get("label"))
+    spec_statements = {handles.ref("statement", s["id"]): s for s in spec.get("statement", [])}
+
+    def refs(kind: str, handles_: list[str]) -> list[str]:
+        return [handles.ref(kind, handle) for handle in handles_]
 
     for s in spec.get("statement", []):
-        record = {"id": s["id"], "paraphrase": s["paraphrase"]}
+        sid = handles.ref("statement", s["id"])
+        record = {**identity(sid, s.get("label") or s["id"], existing["statements"]), "paraphrase": s["paraphrase"]}
         if "lean" in s:
             record["lean_declaration"] = lean_name(batch, s["lean"])
         if s.get("definitions"):
-            record["definition_ids"] = s["definitions"]
+            record["definition_ids"] = refs("definition", s["definitions"])
         if s.get("disambiguations"):
-            record["disambiguation_ids"] = s["disambiguations"]
-        path = existing["statements"].get(s["id"], (CORPUS / "statements" / f"{slug(s['id'])}.json",))[0]
-        dump(path, record, write, planned)
+            record["disambiguation_ids"] = refs("disambiguation", s["disambiguations"])
+        dump(record_path(existing["statements"], "statements", sid), record, write, planned)
 
     def senses(statement_id: str, key: str) -> list[str]:
         if statement_id in spec_statements:
-            return spec_statements[statement_id].get(key, [])
+            kind = key[:-1]
+            return refs(kind, spec_statements[statement_id].get(key, []))
         if statement_id in existing["statements"]:
             return existing["statements"][statement_id][1].get(f"{key[:-1]}_ids", [])
         raise SystemExit(f"unknown statement {statement_id}")
 
     for a in spec.get("argument", []):
-        ids = a["premises"] + [a["conclusion"]]
-        definitions = a.get("definitions") or sorted(
-            {d for i in ids for d in senses(i, "definitions")} | set(batch.get("definitions", [])))
-        disambiguations = a.get("disambiguations") or sorted(
-            {d for i in ids for d in senses(i, "disambiguations")} | set(batch.get("disambiguations", [])))
-        name = slug(a["id"])
-        inference = {"id": f"INF-{a['id']}", "input_statement_ids": a["premises"],
-                     "output_statement_id": a["conclusion"], "rule": a["rule"], "meaning": a["meaning"],
-                     "assumption_statement_ids": [], "discharged_statement_ids": []}
-        argument = {"id": a["id"], "premise_statement_ids": a["premises"],
-                    "conclusion_statement_id": a["conclusion"], "inference_ids": [f"INF-{a['id']}"],
-                    "meaning": a["meaning"]}
+        aid = handles.ref("argument", a["id"])
+        label = existing["arguments"].get(aid, (None, {}))[1].get("label") or a.get("label") or a["id"]
+        premises = refs("statement", a["premises"])
+        conclusion = handles.ref("statement", a["conclusion"])
+        ids = premises + [conclusion]
+        # Sorted by legacy id, else uuid (corpus_ids.order_key), as before the migration.
+        definitions = (refs("definition", a["definitions"]) if a.get("definitions") else sorted(
+            {d for i in ids for d in senses(i, "definitions")} | set(refs("definition", batch.get("definitions", []))),
+            key=handles.aliases.legacy))
+        disambiguations = (refs("disambiguation", a["disambiguations"]) if a.get("disambiguations") else sorted(
+            {d for i in ids for d in senses(i, "disambiguations")}
+            | set(refs("disambiguation", batch.get("disambiguations", []))), key=handles.aliases.legacy))
+        old_argument = existing["arguments"].get(aid, (None, {}))[1]
+        iid = (old_argument.get("inference_ids") or [None])[0] or handles.get("inference", f"{label} (inference)",
+                                                                               f"{label} (inference)")
+        inference = {**identity(iid, f"{label} (inference)", existing["inferences"]),
+                     "input_statement_ids": premises, "output_statement_id": conclusion, "rule": a["rule"],
+                     "meaning": a["meaning"], "assumption_statement_ids": [], "discharged_statement_ids": []}
+        argument = {**identity(aid, label, existing["arguments"]), "premise_statement_ids": premises,
+                    "conclusion_statement_id": conclusion, "inference_ids": [iid], "meaning": a["meaning"]}
         if definitions:
             argument["definition_ids"] = definitions
         if disambiguations:
             argument["disambiguation_ids"] = disambiguations
-        for key in ("strong_version_needed", "commitment_statement_ids"):
-            if key in a:
-                argument[key] = a[key]
-        if a["id"] in existing["arguments"]:
-            argument = {**existing["arguments"][a["id"]][1], **{k: v for k, v in argument.items()
-                                                               if k not in ("disambiguation_ids",)}}
-        comparator = f"results/{a['id']}/comparator.json"
-        result = {"id": a["id"], "argument_id": a["id"], "challenge_module": f"{batch['results']}.Challenge",
+        if "strong_version_needed" in a:
+            argument["strong_version_needed"] = {handles.ref("statement", key): value
+                                                 for key, value in a["strong_version_needed"].items()}
+        if "commitment_statement_ids" in a:
+            argument["commitment_statement_ids"] = refs("statement", a["commitment_statement_ids"])
+        if aid in existing["arguments"]:
+            argument = {**old_argument, **{k: v for k, v in argument.items() if k not in ("disambiguation_ids",)}}
+        rid = handles.get("result", a["id"], label)
+        result_identity = identity(rid, label, existing["results"])
+        comparator = f"results/{result_identity.get('legacy_id', rid)}/comparator.json"
+        result = {**result_identity, "argument_id": aid, "challenge_module": f"{batch['results']}.Challenge",
                   "solution_module": f"{batch['results']}.Solution", "theorem": f"{batch['results']}.{a['theorem']}",
                   "comparator_config": comparator, "status": "solution-present", "description": a["meaning"]}
         if "transcription" in a:
             result["transcription"] = a["transcription"]
-        dump(existing["inferences"].get(inference["id"], (CORPUS / "inferences" / f"{name}.json",))[0],
-             inference, write, planned)
-        dump(existing["arguments"].get(a["id"], (CORPUS / "arguments" / f"{name}.json",))[0],
-             argument, write, planned)
-        dump(existing["results"].get(a["id"], (CORPUS / "results" / f"{a['id']}.json",))[0],
-             result, write, planned)
+        dump(record_path(existing["inferences"], "inferences", iid), inference, write, planned)
+        dump(record_path(existing["arguments"], "arguments", aid), argument, write, planned)
+        dump(record_path(existing["results"], "results", rid), result, write, planned)
         dump(ROOT / comparator, {"challenge_module": result["challenge_module"],
                                  "solution_module": result["solution_module"],
                                  "theorem_names": [result["theorem"]], "permitted_axioms": a.get("axioms", []),
                                  "enable_nanoda": True}, write, planned)
 
     for r in spec.get("relation", []):
-        record = {k: r[k] for k in ("id", "subject_kind", "subject_id", "predicate", "object_kind", "object_id")}
-        for key in ("verification_result_id", "strictness_result_id", "note"):
+        rel_id = handles.get("relation", r["id"], r.get("label"))
+        record = {**identity(rel_id, r.get("label") or r["id"], existing["relations"]),
+                  "subject_kind": r["subject_kind"], "subject_id": handles.ref(r["subject_kind"], r["subject_id"]),
+                  "predicate": r["predicate"], "object_kind": r["object_kind"],
+                  "object_id": handles.ref(r["object_kind"], r["object_id"])}
+        for key in ("verification_result_id", "strictness_result_id"):
             if key in r:
-                record[key] = r[key]
-        dump(existing["relations"].get(r["id"], (CORPUS / "relations" / f"{slug(r['id'])}.json",))[0],
-             record, write, planned)
+                record[key] = handles.ref("result", r[key])
+        if "note" in r:
+            record["note"] = r["note"]
+        dump(record_path(existing["relations"], "relations", rel_id), record, write, planned)
     return planned
 
 
-MISSING = re.compile(r"corpus error: (\S+): .*does not link (DISAMB-[A-Z0-9-]+)")
+MISSING = re.compile(r"corpus error: (\S+): .*does not link ([0-9a-f-]{36})")
 
 
 def fix_disambiguations(spec: dict) -> int:
-    ours = {f"corpus/arguments/{slug(a['id'])}.json" for a in spec.get("argument", [])}
+    handles = Handles()
+    ours = set()
+    for a in spec.get("argument", []):
+        found = handles.existing("argument", a["id"], a.get("label"))
+        if found:
+            path = load_ids("arguments")[found][0]
+            ours.add(str(path.relative_to(ROOT)))
     for _ in range(50):
         check = subprocess.run([sys.executable, str(ROOT / "scripts" / "corpus.py"), "check"],
                                cwd=ROOT, capture_output=True, text=True)
@@ -272,21 +368,29 @@ def challenge_text(solution: str, theorems: list[str]) -> str:
 
 def check_map(path: Path, mermaid: bool) -> int:
     data = tomllib.loads(path.read_text())
-    statements = load_ids("statements")
+    handles = Handles()
     arguments = [record for _, record in load_ids("arguments").values()]
     nodes = {n["id"]: n for n in data.get("node", [])}
+    resolved: dict[str, str] = {}
     problems = []
     for node_id, node in nodes.items():
+        found = handles.existing("statement", node_id)
         if node.get("new"):
             if not node.get("text"):
                 problems.append(f"new node {node_id} has no text")
-            if node_id in statements:
-                problems.append(f"new node {node_id} already exists as a statement")
-        elif node_id not in statements:
+            if found:
+                problems.append(f"new node {node_id} already exists as statement {handles.aliases.show(found)}")
+        elif found is None:
             problems.append(f"unknown statement {node_id} (mark it new = true with text)")
+        else:
+            resolved[node_id] = found
     concluded = {}
     for argument in arguments:
         concluded.setdefault(argument["conclusion_statement_id"], []).append(argument)
+
+    def show(node_id: str) -> str:
+        return handles.aliases.show(resolved[node_id]) if node_id in resolved else node_id
+
     lines = [f"exploration map {path.name}: target {data.get('target')}, "
              f"{len(nodes)} nodes ({sum(1 for n in nodes.values() if n.get('new'))} new), "
              f"{len(data.get('edge', []))} edges"]
@@ -294,10 +398,11 @@ def check_map(path: Path, mermaid: bool) -> int:
         for node_id in edge["premises"] + [edge["conclusion"]]:
             if node_id not in nodes:
                 problems.append(f"edge to {edge['conclusion']} uses undeclared node {node_id}")
-        certified = [a["id"] for a in concluded.get(edge["conclusion"], [])
-                     if set(a["premise_statement_ids"]) == set(edge["premises"])]
+        premises = {resolved.get(node_id, node_id) for node_id in edge["premises"]}
+        certified = [handles.aliases.show(a["id"]) for a in concluded.get(resolved.get(edge["conclusion"], ""), [])
+                     if set(a["premise_statement_ids"]) == premises]
         lines.append(f"  [{edge.get('kind', 'derivation')}/{edge.get('status', 'mapped')}] "
-                     f"{' + '.join(edge['premises'])} -> {edge['conclusion']}"
+                     f"{' + '.join(map(show, edge['premises']))} -> {show(edge['conclusion'])}"
                      + (f"  (certified by {', '.join(certified)})" if certified else ""))
     print("\n".join(lines))
     if mermaid:

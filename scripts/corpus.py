@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import contextlib
 import io
 import json
 import re
@@ -18,6 +19,8 @@ from attribution_check import AttributionError, validate_attribution
 from finite_models import validate_model, model_report, verify_models
 from configurations import validate_case, configuration_report, verify_case, verify_compositions
 from territory import format_territory, territory_report
+from corpus_ids import PROSE_LEGACY_RE, PROSE_UUID_RE, Aliases, AmbiguousId, is_uuid, legacy_uuid, order_key  # noqa: E402
+from identity_check import IdentityError, identity_warnings, validate_identity  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 CORPUS = ROOT / "corpus"
@@ -210,16 +213,16 @@ STRENGTHENS_PREDICATE = "strengthens"
 # through the designated arguments, so premises of other arguments for the same
 # conclusion do not reach the root through it.
 ROOT_ROUTE_PREDICATE = "root_route"
-DEFAULT_FRONTIER_ROOT = "STMT-CATHOLICISM-TRUE"
+DEFAULT_FRONTIER_ROOT = legacy_uuid("statement", "STMT-CATHOLICISM-TRUE")
 # Stage conclusions of the root skeleton (#156; CATHOLICISM-SKELETON, docs/catholic-case.md).
 # Views group statements by the stage conclusions that rest on them.
 STAGE_CONCLUSIONS = (
-    (1, "STMT-GOD-EXISTS"),
-    (2, "STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES"),
-    (3, "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE"),
-    (4, "STMT-JESUS-CLAIMED-DIVINE-AUTHORITY-AND-ROSE"),
-    (5, "STMT-CHRIST-FOUNDED-VISIBLE-CHURCH"),
-    (6, "STMT-CHRISTS-CHURCH-IS-THE-CATHOLIC-CHURCH"),
+    (1, legacy_uuid("statement", "STMT-GOD-EXISTS")),
+    (2, legacy_uuid("statement", "STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES")),
+    (3, legacy_uuid("statement", "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE")),
+    (4, legacy_uuid("statement", "STMT-JESUS-CLAIMED-DIVINE-AUTHORITY-AND-ROSE")),
+    (5, legacy_uuid("statement", "STMT-CHRIST-FOUNDED-VISIBLE-CHURCH")),
+    (6, legacy_uuid("statement", "STMT-CHRISTS-CHURCH-IS-THE-CATHOLIC-CHURCH")),
 )
 # Depth of an open premise (#143, 2026-10-24; three categories by owner
 # decision on #987, 2026-11-05): "stated" when a claim on a pinned source
@@ -255,7 +258,7 @@ FLOOR_BASES = {FLOOR_RETORSION, FLOOR_COMMON_GROUND, FLOOR_OBSERVATION}
 # The documented legacy default: a marking made before #500 without a basis.
 # Only the statements listed here may omit the basis; they close as recorded.
 FLOOR_LEGACY = "legacy"
-LEGACY_FLOOR_STATEMENTS = {"STMT-EXCLUDED-MIDDLE"}
+LEGACY_FLOOR_STATEMENTS = {legacy_uuid("statement", "STMT-EXCLUDED-MIDDLE")}
 # The floor is a last resort (#378, point 3: people disagree about what is
 # self-evident). Every marking except common_ground (whose recorded rivals'
 # agreement is its disagreement record) records the known disagreement:
@@ -711,7 +714,7 @@ def root_routes(
     choice is greedy: an exact minimum set cover over the whole graph is not
     attempted. Iteration runs to a fixpoint in which a statement's set only
     changes to a strictly smaller one, so it terminates and is deterministic
-    (proofs by argument ID). A sourced premise always stays a single leaf or
+    (proofs by argument order key: legacy id, else uuid). A sourced premise always stays a single leaf or
     becomes established, so adding a derivation under a sourced premise never
     raises a route's cost.
 
@@ -720,6 +723,15 @@ def root_routes(
     marked."""
     if root is None:
         return {"root": root, "cheapest_argument_id": None, "routes": []}
+
+    # Ties break by legacy id, else uuid (corpus_ids.order_key), so the uuid
+    # migration left every route choice as it was.
+    def argument_order(argument_id: str) -> str:
+        return order_key(argument_id, argument_by_id.get(argument_id))
+
+    def statement_order(statement_id: str) -> str:
+        return order_key(statement_id, statement_by_id.get(statement_id))
+
     results_by_argument: dict[str, list[str]] = {}
     for result in results:
         results_by_argument.setdefault(result["argument_id"], []).append(result["id"])
@@ -728,10 +740,13 @@ def root_routes(
         statement_ids.update(argument["premise_statement_ids"])
         statement_ids.add(argument["conclusion_statement_id"])
     proofs = sorted(
-        (argument_id, argument_by_id[argument_id])
-        for argument_id, result_ids in results_by_argument.items()
-        if argument_id in argument_by_id
-        and any(result_id not in transcription_results for result_id in result_ids)
+        (
+            (argument_id, argument_by_id[argument_id])
+            for argument_id, result_ids in results_by_argument.items()
+            if argument_id in argument_by_id
+            and any(result_id not in transcription_results for result_id in result_ids)
+        ),
+        key=lambda item: argument_order(item[0]),
     )
     expandable = {argument["conclusion_statement_id"] for _, argument in proofs}
     leaves: dict[str, frozenset[str] | None] = {}
@@ -782,15 +797,15 @@ def root_routes(
         # Seed only that core, then expand its dependents instead of giving each
         # proved intermediate an artificially cheap singleton fallback.
         core = min(
-            (reachable(statement_id) for statement_id in sorted(unresolved)),
-            key=lambda component: (len(component), tuple(sorted(component))),
+            (reachable(statement_id) for statement_id in sorted(unresolved, key=statement_order)),
+            key=lambda component: (len(component), tuple(sorted(map(statement_order, component)))),
         )
         for statement_id in core:
             leaves[statement_id] = frozenset({statement_id})
         propagate()
 
     entries: list[dict[str, Any]] = []
-    for argument_id in sorted(argument_by_id):
+    for argument_id in sorted(argument_by_id, key=argument_order):
         argument = argument_by_id[argument_id]
         if argument["conclusion_statement_id"] != root:
             continue
@@ -814,10 +829,10 @@ def root_routes(
             }
         )
     verified = [entry for entry in entries if entry["verified"]]
-    cheapest = min(verified, key=lambda entry: (entry["cost"], entry["argument_id"])) if verified else None
+    cheapest = min(verified, key=lambda entry: (entry["cost"], argument_order(entry["argument_id"]))) if verified else None
     if cheapest is not None:
         cheapest["cheapest"] = True
-    entries.sort(key=lambda entry: (not entry["verified"], entry["cost"], entry["argument_id"]))
+    entries.sort(key=lambda entry: (not entry["verified"], entry["cost"], argument_order(entry["argument_id"])))
     return {
         "root": root,
         "cheapest_argument_id": cheapest["argument_id"] if cheapest else None,
@@ -958,7 +973,11 @@ def frontier_report(
                 for argument_id in dependents.get(current, ()):
                     conclusion = argument_by_id[argument_id]["conclusion_statement_id"]
                     layer.append((argument_id, conclusion, current))
-            for argument_id, conclusion, current in sorted(layer):
+            for argument_id, conclusion, current in sorted(layer, key=lambda step: (
+                order_key(step[0], argument_by_id.get(step[0])),
+                order_key(step[1], statement_by_id.get(step[1])),
+                order_key(step[2], statement_by_id.get(step[2])),
+            )):
                 if argument_id not in visited_arguments:
                     visited_arguments.add(argument_id)
                     seen_arguments.append(argument_id)
@@ -971,7 +990,7 @@ def frontier_report(
                     parent[conclusion] = (argument_id, current)
                     seen_statements.append(conclusion)
                     next_frontier.append(conclusion)
-            frontier = sorted(next_frontier)
+            frontier = sorted(next_frontier, key=lambda sid: order_key(sid, statement_by_id.get(sid)))
         path: list[str] | None = None
         if root is not None and root in parent:
             path = [root]
@@ -2103,8 +2122,6 @@ def format_floor_bases(routes: dict[str, Any]) -> list[str]:
 # Statements, claims and arguments link the senses they use through
 # `definition_ids`, and an ambiguity they must be read against through
 # `disambiguation_ids`.
-DEFINITION_PREFIX = "DEF-"
-DISAMBIGUATION_PREFIX = "DISAMB-"
 DEFINITION_BASES = {"sourced", "stipulative"}
 
 
@@ -2127,8 +2144,6 @@ def validate_definition(
     all_lean: str,
 ) -> None:
     require(definition, ["id", "term", "definition", "basis"], path)
-    if not definition["id"].startswith(DEFINITION_PREFIX):
-        raise CorpusError(f"{path.relative_to(ROOT)}: definition id must start with {DEFINITION_PREFIX}")
     basis = definition["basis"]
     if basis not in DEFINITION_BASES:
         raise CorpusError(
@@ -2157,10 +2172,6 @@ def validate_disambiguation(
     definition_ids: set[str],
 ) -> None:
     require(disambiguation, ["id", "term", "resolution"], path)
-    if not disambiguation["id"].startswith(DISAMBIGUATION_PREFIX):
-        raise CorpusError(
-            f"{path.relative_to(ROOT)}: disambiguation id must start with {DISAMBIGUATION_PREFIX}"
-        )
     senses = require_string_list(disambiguation, "sense_definition_ids", path, allow_empty=False)
     if len(set(senses)) < 2:
         raise CorpusError(f"{path.relative_to(ROOT)}: a disambiguation needs at least two distinct senses")
@@ -2169,15 +2180,30 @@ def validate_disambiguation(
             raise CorpusError(f"{path.relative_to(ROOT)}: unknown sense definition id {sense}")
 
 
-PROSE_ID_RE = re.compile(r"\b(?:STMT|DEF|DISAMB)-[A-Z0-9]+(?:-[A-Z0-9]+)*\b")
+PROSE_ID_RE = PROSE_LEGACY_RE
 
 
 def validate_prose_ids(path: Path, record: dict[str, Any], fields: Iterable[str], known: set[str]) -> None:
-    """Statement, definition and disambiguation ids cited in prose must exist, so they can be found."""
+    """Statement, definition and disambiguation ids cited in prose must exist, so they can be found.
+
+    Prose may cite a record by uuid or by its legacy alias (`STMT-…`, `DEF-…`,
+    `DISAMB-…`); `known` holds both."""
     for field in fields:
-        for cited in PROSE_ID_RE.findall(str(record.get(field, ""))):
+        text = str(record.get(field, ""))
+        for cited in [*PROSE_ID_RE.findall(text), *PROSE_UUID_RE.findall(text)]:
             if cited not in known:
                 raise CorpusError(f"{path.relative_to(ROOT)}: {field} cites unknown id {cited}")
+
+
+def citable_ids(*indexes: dict[str, tuple[Path, dict[str, Any]]]) -> set[str]:
+    """Uuids and legacy aliases of the records in `indexes`."""
+    known: set[str] = set()
+    for index in indexes:
+        for record_id, (_, record) in index.items():
+            known.add(record_id)
+            if isinstance(record.get("legacy_id"), str):
+                known.add(record["legacy_id"])
+    return known
 
 
 def validate_term_links(
@@ -2252,7 +2278,8 @@ def validate_result_config(path: Path, result: dict[str, Any], argument_ids: Ite
     validate_result_transcription(path.relative_to(ROOT), result)
     challenge = module_path(result["challenge_module"])
     solution = module_path(result["solution_module"])
-    canonical = f"results/{result['id']}/comparator.json"
+    # Comparator configs of migrated results stay at their legacy directory.
+    canonical = f"results/{result.get('legacy_id') or result['id']}/comparator.json"
     if result["comparator_config"] != canonical:
         raise CorpusError(f"{path.relative_to(ROOT)}: Comparator path must match executable gate: {canonical}")
     config_path = ROOT / canonical
@@ -2315,6 +2342,10 @@ def validate() -> dict[str, int]:
     disambiguation_index = index_by_id(disambiguations, "disambiguation")
     attempt_index = index_by_id(attempts, "attempt")
     models = registered_models(statement_index)
+    try:
+        validate_identity(ROOT)
+    except IdentityError as exc:
+        raise CorpusError(str(exc)) from exc
     registered_configurations(
         {sid: record for sid, (_, record) in statement_index.items()},
         {rid: record for rid, (_, record) in result_index.items()},
@@ -2326,7 +2357,7 @@ def validate() -> dict[str, int]:
             validate_attempt(attempt, set(statement_index), set(result_index) | set(claim_index))
         except ValueError as exc:
             raise CorpusError(f"{path.relative_to(ROOT)}: {exc}") from exc
-        validate_prose_ids(path, attempt, ("summary", "blocker"), set(statement_index) | set(definition_index) | set(disambiguation_index))
+        validate_prose_ids(path, attempt, ("summary", "blocker"), citable_ids(statement_index, definition_index, disambiguation_index))
     definition_ids = set(definition_index)
     disambiguation_ids = set(disambiguation_index)
     used_definitions: set[str] = set()
@@ -2383,7 +2414,7 @@ def validate() -> dict[str, int]:
             raise CorpusError(f"{path.relative_to(ROOT)}: {exc}") from exc
         used_definitions.update(validate_term_links(path, statement, definition_ids, disambiguation_ids))
 
-    citable = set(statement_index) | definition_ids | disambiguation_ids
+    citable = citable_ids(statement_index, definition_index, disambiguation_index)
     for path, definition in definitions:
         validate_definition(path, definition, claim_ids, all_lean)
         validate_prose_ids(path, definition, ("definition", "note"), citable)
@@ -2742,6 +2773,7 @@ def check_warnings() -> list[str]:
             f"for closure rule (c): {reason}"
         )
     warnings.extend(supports_gap_warnings(relations))
+    warnings.extend(identity_warnings(ROOT))
     warnings.extend(trivial_category_warnings())
     warnings.extend(strength_use_warnings(arguments, strength_order(relations, results, arguments)))
     for entry in report["floor"]:
@@ -2902,13 +2934,9 @@ def revision_frontier(revision: str, root: str | None) -> dict[str, Any]:
     with tempfile.TemporaryDirectory(prefix="frontier-diff-") as directory:
         with tarfile.open(fileobj=io.BytesIO(archive)) as tar:
             tar.extractall(directory, filter="data")
-        command = [sys.executable, str(Path(directory) / "scripts" / "corpus.py"), "frontier", "--json"]
-        if root is not None:
-            command += ["--root", root]
-        completed = subprocess.run(command, cwd=directory, capture_output=True, text=True)
+        completed, report = revision_frontier_json(Path(directory), root)
     if completed.returncode != 0:
         raise CorpusError(f"frontier at {revision} failed: {completed.stderr.strip()}")
-    report = json.loads(completed.stdout)
     all_item_depths = {item["statement_id"]: item_depth(item) for item in report["items"]}
     return {**restrict_to_root(report), "all_item_depths": all_item_depths}
 
@@ -2963,15 +2991,78 @@ def revision_thickness(revision: str, root: str | None) -> dict[str, Any]:
     with tempfile.TemporaryDirectory(prefix="thickness-") as directory:
         with tarfile.open(fileobj=io.BytesIO(archive)) as tar:
             tar.extractall(directory, filter="data")
-        command = [sys.executable, str(Path(directory) / "scripts" / "corpus.py"), "frontier", "--json"]
-        if root is not None:
-            command += ["--root", root]
-        completed = subprocess.run(command, cwd=directory, capture_output=True, text=True)
+        completed, report = revision_frontier_json(Path(directory), root)
         if completed.returncode != 0:
             raise CorpusError(f"frontier at {revision} failed: {completed.stderr.strip()}")
+        if not uses_uuid_identity(Path(directory)):
+            from migrate_uuid import Migration
+            Migration(Path(directory)).run(write=True)
+
         def records(kind: str) -> list[dict[str, Any]]:
             return [json.loads(path.read_text()) for path in sorted((Path(directory) / "corpus" / kind).glob("*.json"))]
-        return thickness_report(json.loads(completed.stdout), records("arguments"), records("results"))
+        return thickness_report(report, records("arguments"), records("results"))
+
+
+def uses_uuid_identity(tree: Path) -> bool:
+    """Whether the corpus at `tree` was migrated to uuid ids (owner decision 2026-11-07)."""
+    for path in (tree / "corpus" / "statements").glob("*.json"):
+        return is_uuid(json.loads(path.read_text(encoding="utf-8")).get("id"))
+    return True
+
+
+def revision_frontier_json(tree: Path, root: str | None) -> tuple[Any, dict[str, Any] | None]:
+    """`frontier --json` by the corpus.py of an extracted revision.
+
+    A revision from before the uuid migration knows only legacy ids: it is
+    asked for the root's legacy id, and its report is converted to uuids by
+    the deterministic migration mapping, so a delta across the migration
+    shows only real changes."""
+    import subprocess
+
+    legacy = not uses_uuid_identity(tree)
+    command = [sys.executable, str(tree / "scripts" / "corpus.py"), "frontier", "--json"]
+    if root is not None:
+        command += ["--root", corpus_aliases().legacy(root) if legacy else root]
+    completed = subprocess.run(command, cwd=tree, capture_output=True, text=True)
+    if completed.returncode != 0:
+        return completed, None
+    report = json.loads(completed.stdout)
+    if legacy:
+        report = legacy_report_to_uuid(report, tree)
+    return completed, report
+
+
+def legacy_report_to_uuid(report: Any, tree: Path) -> Any:
+    """Map the legacy ids of a pre-migration report to their uuids.
+
+    Only arguments and results share legacy ids; a key naming results picks
+    the result, any other key the argument."""
+    from migrate_uuid import Migration
+
+    migration = Migration(tree)
+    migration.load()
+    table = migration.legacy
+
+    def convert(value: str, key: str) -> str:
+        kinds = table.get(value)
+        if not kinds:
+            return value
+        if len(kinds) == 1:
+            return next(iter(kinds.values()))
+        prefer = ("result", "argument") if "result" in key else ("argument", "result")
+        return next((kinds[kind] for kind in prefer if kind in kinds), next(iter(kinds.values())))
+
+    def walk(node: Any, key: str) -> Any:
+        if isinstance(node, dict):
+            return {(convert(k, key) if isinstance(k, str) else k): walk(v, k if isinstance(k, str) else key)
+                    for k, v in node.items()}
+        if isinstance(node, list):
+            return [walk(item, key) for item in node]
+        if isinstance(node, str):
+            return convert(node, key)
+        return node
+
+    return walk(report, "")
 
 
 def thickness_delta(base: dict[str, Any], head: dict[str, Any]) -> dict[str, Any]:
@@ -3076,7 +3167,8 @@ def thickness_queue(
                 shared = definitions & set(statements[other].get("definition_ids", []))
                 if other != statement_id and shared:
                     candidates.append({"statement_id": other, "shared_definition_ids": sorted(shared)})
-            candidates.sort(key=lambda item: (-len(item["shared_definition_ids"]), item["statement_id"]))
+            candidates.sort(key=lambda item: (-len(item["shared_definition_ids"]),
+                                              order_key(item["statement_id"], statements.get(item["statement_id"]))))
         attempts = sorted(
             attempts_by_statement.get(statement_id, []),
             key=lambda item: (item["outcome"] != "rejected", item["id"]),
@@ -3577,6 +3669,9 @@ def command_issues(args: argparse.Namespace) -> int:
     return 0
 
 
+ID_LIST_COMMANDS: set[Any] = set()
+
+
 def command_ids(directory: str):
     def command(_: argparse.Namespace) -> int:
         validate()
@@ -3584,6 +3679,7 @@ def command_ids(directory: str):
             print(record["id"])
         return 0
 
+    ID_LIST_COMMANDS.add(command)
     return command
 
 
@@ -3658,9 +3754,9 @@ def is_corpus_constant(name: str | None) -> bool:
 # type it stands for; any other undeclared binding fails bind-check, and so
 # does a pin that no result uses any more.
 PINNED_UNDECLARED_BINDINGS: dict[tuple[str, str, str], str] = {
-    ("PLATO-TIM-28A-28C-COSMOS-CAUSE-A", "conclusion", "STMT-COSMOS-HAS-CAUSE"):
+    (legacy_uuid("result", "PLATO-TIM-28A-28C-COSMOS-CAUSE-A"), "conclusion", legacy_uuid("statement", "STMT-COSMOS-HAS-CAUSE")):
         "∃ cause, Causes cause cosmos",
-    ("PLATO-TIM-28A-28C-COSMOS-CAUSE-B", "conclusion", "STMT-COSMOS-HAS-DISTINCT-CAUSE"):
+    (legacy_uuid("result", "PLATO-TIM-28A-28C-COSMOS-CAUSE-B"), "conclusion", legacy_uuid("statement", "STMT-COSMOS-HAS-DISTINCT-CAUSE")):
         "∃ cause, cause ≠ cosmos ∧ Causes cause cosmos",
 }
 
@@ -4818,10 +4914,87 @@ def main() -> int:
     return main_with(None)
 
 
+_ALIASES: Aliases | None = None
+
+
+def corpus_aliases() -> Aliases:
+    """uuid / legacy id / label lookup over the working tree (loaded once)."""
+    global _ALIASES
+    if _ALIASES is None:
+        _ALIASES = Aliases.load(ROOT)
+    return _ALIASES
+
+
+# Command-line arguments that name corpus records, and the kinds tried in order.
+ID_ARGUMENTS: dict[str, tuple[str, ...]] = {
+    "root": ("statement",),
+    "statement_id": ("statement",),
+    "seed": ("statement",),
+    "premise": ("statement",),
+    "check": ("statement",),
+    "case": ("configuration",),
+    "argument": ("argument",),
+    "anchor": ("result",),
+    "target": ("argument", "result", "statement"),
+    "for_id": ("result", "statement", "configuration", "attempt", "argument"),
+    "result": ("result",),
+}
+
+
+def resolve_id(token: str, kinds: tuple[str, ...]) -> str:
+    """The uuid a command-line token names: a uuid, a legacy id or a label.
+
+    Kinds are tried in order; an unknown token is returned unchanged so the
+    command reports it."""
+    aliases = corpus_aliases()
+    for kind in kinds:
+        try:
+            found = aliases.resolve(token, (kind,))
+        except AmbiguousId as exc:
+            raise CorpusError(str(exc)) from exc
+        if found is not None:
+            return found
+    return token
+
+
+def resolve_arguments(args: argparse.Namespace) -> None:
+    for name, kinds in ID_ARGUMENTS.items():
+        value = getattr(args, name, None)
+        if isinstance(value, str) and value:
+            setattr(args, name, resolve_id(value, kinds))
+        elif isinstance(value, list) and all(isinstance(item, str) for item in value):
+            setattr(args, name, [resolve_id(item, kinds) for item in value])
+
+
+def humanize(text: str) -> str:
+    """Text output names records as `label [uuid8]` instead of bare uuids."""
+    aliases = corpus_aliases()
+    # A uuid that is a command argument ("materialize <uuid>") stays copyable.
+    return re.sub(r"(?<!materialize )" + PROSE_UUID_RE.pattern, lambda match: aliases.show(match.group(0)), text)
+
+
+MACHINE_OUTPUT_FLAGS = ("json", "all", "output", "build_input", "check_input")
+
+
+def machine_output(args: argparse.Namespace) -> bool:
+    if args.func is command_check or args.func in ID_LIST_COMMANDS:
+        return True
+    return any(getattr(args, flag, None) for flag in MACHINE_OUTPUT_FLAGS)
+
+
 def main_with(argv: list[str] | None) -> int:
     args = parser().parse_args(argv)
     try:
-        return args.func(args)
+        resolve_arguments(args)
+        if machine_output(args):
+            return args.func(args)
+        buffer = io.StringIO()
+        try:
+            with contextlib.redirect_stdout(buffer):
+                code = args.func(args)
+        finally:
+            sys.stdout.write(humanize(buffer.getvalue()))
+        return code
     except CorpusError as exc:
         print(f"corpus error: {exc}", file=sys.stderr)
         return 2

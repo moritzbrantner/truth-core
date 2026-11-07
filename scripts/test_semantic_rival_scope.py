@@ -7,6 +7,7 @@ import unittest
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import corpus
+from corpus_ids import legacy_uuid  # noqa: E402
 ROOT = Path(__file__).resolve().parent.parent
 
 
@@ -47,25 +48,25 @@ class SemanticRivalScopeTest(unittest.TestCase):
 
     def test_truth_accounts_are_not_logical_rivals(self):
         self.assertFalse((ROOT / "corpus/relations/rel-truth-is-provability-alternative-to-thought-true-by-composition.json").exists())
-        self.check_counterfactual("STMT-TRUTH-IS-PROVABILITY-INTUITIONISM",
-                                  "STMT-THOUGHT-TRUE-OR-FALSE-BY-COMPOSITION")
+        self.check_counterfactual(legacy_uuid("statement", "STMT-TRUTH-IS-PROVABILITY-INTUITIONISM"),
+                                  legacy_uuid("statement", "STMT-THOUGHT-TRUE-OR-FALSE-BY-COMPOSITION"))
 
     def test_tlp_objection_is_not_exhaustive_negative_arguability(self):
-        self.check_counterfactual("STMT-TLP-GOD-SENTENCES-NONSENSICAL",
-            "STMT-NATURAL-THEOLOGY-ARGUABLE",
-            "REL-TLP-GOD-SENTENCES-ALTERNATIVE-TO-NATURAL-THEOLOGY-ARGUABLE")
+        self.check_counterfactual(legacy_uuid("statement", "STMT-TLP-GOD-SENTENCES-NONSENSICAL"),
+            legacy_uuid("statement", "STMT-NATURAL-THEOLOGY-ARGUABLE"),
+            legacy_uuid("relation", "REL-TLP-GOD-SENTENCES-ALTERNATIVE-TO-NATURAL-THEOLOGY-ARGUABLE"))
 
     def test_pla_readings_are_interpretive_objections(self):
-        self.check_counterfactual("STMT-PLA-NONSENSE-READING", "STMT-PLA-REDUCTIO-READING",
-            "REL-PLA-NONSENSE-ALTERNATIVE-TO-REDUCTIO-READING")
+        self.check_counterfactual(legacy_uuid("statement", "STMT-PLA-NONSENSE-READING"), legacy_uuid("statement", "STMT-PLA-REDUCTIO-READING"),
+            legacy_uuid("relation", "REL-PLA-NONSENSE-ALTERNATIVE-TO-REDUCTIO-READING"))
 
     def test_explanation_rival_is_exact_guarded_negative(self):
-        relation = record("relations", "REL-ANTIREALIST-ORDER-ALTERNATIVE-TO-REALIST-ORDER-OF-EXPLANATION")
-        self.assertEqual(relation["subject_id"], "STMT-NOT-REALIST-EXPLANATORY-ORDER")
-        argument = record("arguments", "ANTIREALIST-ORDER-GUARDED-NOT-REALIST")
+        relation = record("relations", legacy_uuid("relation", "REL-ANTIREALIST-ORDER-ALTERNATIVE-TO-REALIST-ORDER-OF-EXPLANATION"))
+        self.assertEqual(relation["subject_id"], legacy_uuid("statement", "STMT-NOT-REALIST-EXPLANATORY-ORDER"))
+        argument = record("arguments", legacy_uuid("argument", "ANTIREALIST-ORDER-GUARDED-NOT-REALIST"))
         self.assertEqual(set(argument["premise_statement_ids"]), {
-            "STMT-ANTIREALIST-ORDER-OF-EXPLANATION", "STMT-EXPLANATORY-ORDER-ASYMMETRIC",
-            "STMT-GEACH-MINOR-PREMISE-IS-MORAL"})
+            legacy_uuid("statement", "STMT-ANTIREALIST-ORDER-OF-EXPLANATION"), legacy_uuid("statement", "STMT-EXPLANATORY-ORDER-ASYMMETRIC"),
+            legacy_uuid("statement", "STMT-GEACH-MINOR-PREMISE-IS-MORAL")})
 
 
 if __name__ == "__main__":

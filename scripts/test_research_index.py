@@ -5,6 +5,7 @@ import tempfile
 import unittest
 
 from research_index import build, connect, duplicates, lookup, record, bundle, compare, parity, related, cached_related
+from corpus_ids import legacy_uuid  # noqa: E402
 
 
 class ResearchIndexTests(unittest.TestCase):
@@ -98,9 +99,9 @@ class ResearchIndexTests(unittest.TestCase):
 
     def test_related_marks_conflicts_without_pairwise_negation(self):
         self.put('statements', {'id': 'T', 'paraphrase': 'another commitment'})
-        self.put('statements', {'id': 'STMT-CONFIGURATION-FALSE', 'paraphrase': 'logical falsity'})
+        self.put('statements', {'id': legacy_uuid('statement', 'STMT-CONFIGURATION-FALSE'), 'paraphrase': 'logical falsity'})
         self.put('arguments', {'id': 'CORE', 'premise_statement_ids': ['S', 'T', 'U'],
-                               'conclusion_statement_id': 'STMT-CONFIGURATION-FALSE'})
+                               'conclusion_statement_id': legacy_uuid('statement', 'STMT-CONFIGURATION-FALSE')})
         db = self.open()
         match = next(item for item in related(db, 'S')['matches'] if item['statement_id'] == 'T')
         reason = next(item for item in match['reasons'] if item.get('argument_id') == 'CORE')

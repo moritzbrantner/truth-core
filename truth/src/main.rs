@@ -1,13 +1,19 @@
 use serde_json::{Value, json};
 use std::{collections::BTreeMap, env, ffi::OsString, path::PathBuf, process::ExitCode};
-use truth::{Corpus, bridges, check, thickness};
+use truth::{
+    Corpus, bridges, check,
+    identity::{Aliases, Unresolved},
+    thickness,
+};
 
 const HELP: &str = "Usage: truth [--root PATH] [--json] status
        truth [--root PATH] [--json] check
        truth [--root PATH] [--json] inspect ID
-       truth [--root PATH] [--json] thickness [--queue] [--frontier-root STATEMENT-ID]
+       truth [--root PATH] [--json] thickness [--queue] [--frontier-root STATEMENT]
        truth [--root PATH] [--json] bridges --constants FILE (--queue-file FILE | --target ID)...
-             [--targets N] [--top K] [--pool M]";
+             [--targets N] [--top K] [--pool M]
+
+An ID, STATEMENT or --target may be a uuid, a legacy id (STMT-...) or a label.";
 
 fn usage(message: impl Into<String>) -> (u8, Value) {
     (2, json!({"code":"usage", "message": message.into()}))
@@ -35,6 +41,33 @@ fn input_error(path: &str, message: String) -> (u8, Value) {
     )
 }
 
+/// The uuid `token` names (uuid, legacy id, label, case-insensitive label),
+/// `None` when it names no record; naming several records is an error.
+fn resolve(
+    aliases: &Aliases,
+    token: &str,
+    kinds: Option<&[&str]>,
+) -> Result<Option<String>, (u8, Value)> {
+    match aliases.resolve(token, kinds) {
+        Ok(id) => Ok(Some(id)),
+        Err(Unresolved::Unknown) => Ok(None),
+        Err(Unresolved::Ambiguous(candidates)) => Err((
+            3,
+            json!({"code": "unknown_id", "id": token,
+                   "message": format!("{token:?} names several records: {}; pass a uuid",
+                                      aliases.describe(&candidates)),
+                   "candidates": candidates.iter()
+                       .map(|(kind, id)| json!({"kind": kind, "id": id, "label": aliases.label(id)}))
+                       .collect::<Vec<_>>()}),
+        )),
+    }
+}
+
+/// A statement token as its uuid; an unknown token stays as given.
+fn resolve_statement(aliases: &Aliases, token: String) -> Result<String, (u8, Value)> {
+    Ok(resolve(aliases, &token, Some(&["statements"]))?.unwrap_or(token))
+}
+
 #[derive(Default)]
 struct BridgeArgs {
     constants: Option<String>,
@@ -51,7 +84,7 @@ fn number(value: Option<&str>, flag: &str) -> Result<usize, (u8, Value)> {
         .ok_or_else(|| usage(format!("{flag} requires a positive integer")))
 }
 
-fn run_bridges(corpus: &Corpus, args: BridgeArgs) -> Result<Value, (u8, Value)> {
+fn run_bridges(corpus: &Corpus, aliases: &Aliases, args: BridgeArgs) -> Result<Value, (u8, Value)> {
     let path = args
         .constants
         .ok_or_else(|| usage("bridges requires --constants FILE"))?;
@@ -66,8 +99,53 @@ fn run_bridges(corpus: &Corpus, args: BridgeArgs) -> Result<Value, (u8, Value)> 
     if targets.is_empty() {
         return Err(usage("bridges requires --queue-file FILE or --target ID"));
     }
-    bridges::report(corpus, &constants, &targets, args.options)
-        .map_err(|message| (3, json!({"code":"unknown_id", "message":message})))
+    let targets = targets
+        .into_iter()
+        .map(|target| resolve_statement(aliases, target))
+        .collect::<Result<Vec<_>, _>>()?;
+    let mut report = bridges::report(corpus, &constants, &targets, args.options)
+        .map_err(|message| (3, json!({"code":"unknown_id", "message":message})))?;
+    for target in report["targets"].as_array_mut().into_iter().flatten() {
+        let label = target["statement_id"]
+            .as_str()
+            .and_then(|id| aliases.label(id));
+        target["label"] = json!(label);
+    }
+    Ok(report)
+}
+
+/// `bridges` text: ids as `label [uuid8]`.
+fn bridges_text(output: &Value, aliases: &Aliases) -> String {
+    let mut lines = vec![format!(
+        "Bridge candidates ({}); advisory ranking only, not a proof",
+        output["input_identity"]
+    )];
+    for target in output["targets"].as_array().into_iter().flatten() {
+        lines.push(format!(
+            "\n{}",
+            aliases.show(target["statement_id"].as_str().unwrap_or_default())
+        ));
+        if let Some(reason) = target["skipped"].as_str() {
+            lines.push(format!("  skipped: {reason}"));
+        }
+        for arity in ["singles", "pairs", "triples"] {
+            for candidate in target[arity].as_array().into_iter().flatten() {
+                let ids: Vec<_> = candidate["statement_ids"]
+                    .as_array()
+                    .into_iter()
+                    .flatten()
+                    .filter_map(Value::as_str)
+                    .map(|id| aliases.show(id))
+                    .collect();
+                lines.push(format!(
+                    "  {arity:8} {:.3}  {}",
+                    candidate["score"].as_f64().unwrap_or(0.0),
+                    ids.join(" + ")
+                ));
+            }
+        }
+    }
+    lines.join("\n")
 }
 
 /// `thickness` output: JSON as `scripts/corpus.py thickness --json` prints it
@@ -233,9 +311,11 @@ fn run(args: &[OsString]) -> Result<(Value, Option<String>), (u8, Value)> {
             json!({"code":error.code, "path":error.path, "message":error.message}),
         )
     })?;
+    let aliases = corpus.aliases();
     if thickness {
+        let frontier_root = resolve_statement(&aliases, frontier_root)?;
         let (output, text) = thickness_command(&root, &corpus, &frontier_root, queue);
-        return Ok((output, Some(text)));
+        return Ok((output, Some(aliases.humanize(&text))));
     }
     let mut output = json!({
         "schema_version": 1,
@@ -243,24 +323,41 @@ fn run(args: &[OsString]) -> Result<(Value, Option<String>), (u8, Value)> {
         "input_identity": corpus.input_identity(),
     });
     if bridges {
-        let report = run_bridges(&corpus, bridge)?;
+        let report = run_bridges(&corpus, &aliases, bridge)?;
         for (key, value) in report.as_object().into_iter().flatten() {
             output[key] = value.clone();
         }
-    } else if let Some(id) = id {
-        let matches: Vec<_> = corpus
-            .inspect(id)
+        let text = aliases.humanize(&bridges_text(&output, &aliases));
+        return Ok((output, Some(text)));
+    } else if let Some(token) = id {
+        let resolved = resolve(&aliases, token, None)?;
+        let matches: Vec<_> = resolved
+            .iter()
+            .flat_map(|id| corpus.inspect(id))
             .map(|(kind, record)| json!({"kind":kind, "path":record.path, "record":record.fields}))
             .collect();
-        if matches.is_empty() {
+        let Some(id) = resolved.filter(|_| !matches.is_empty()) else {
             return Err((
                 3,
-                json!({"code":"unknown_id", "message":format!("unknown ID {id}"),
-                "id":id, "input_identity":corpus.input_identity()}),
+                json!({"code":"unknown_id", "message":format!("unknown ID {token}"),
+                "id":token, "input_identity":corpus.input_identity()}),
+            ));
+        };
+        let mut lines = vec![format!(
+            "{} ({})",
+            aliases.show(&id),
+            corpus.input_identity()
+        )];
+        for record in &matches {
+            lines.push(format!(
+                "{} · {}\n{:#}",
+                record["kind"], record["path"], record["record"]
             ));
         }
         output["id"] = json!(id);
+        output["label"] = json!(aliases.label(&id));
         output["matches"] = json!(matches);
+        return Ok((output, Some(aliases.humanize(&lines.join("\n")))));
     } else {
         output["counts"] = json!(corpus.counts().collect::<BTreeMap<_, _>>());
     }
@@ -287,44 +384,10 @@ fn main() -> ExitCode {
                 } else {
                     println!("{text}");
                 }
-            } else if let Some(targets) = output["targets"].as_array() {
-                println!(
-                    "Bridge candidates ({}); advisory ranking only, not a proof",
-                    output["input_identity"]
-                );
-                for target in targets {
-                    println!("\n{}", target["statement_id"].as_str().unwrap_or_default());
-                    if let Some(reason) = target["skipped"].as_str() {
-                        println!("  skipped: {reason}");
-                    }
-                    for arity in ["singles", "pairs", "triples"] {
-                        for candidate in target[arity].as_array().into_iter().flatten() {
-                            let ids: Vec<_> = candidate["statement_ids"]
-                                .as_array()
-                                .into_iter()
-                                .flatten()
-                                .filter_map(Value::as_str)
-                                .collect();
-                            println!(
-                                "  {arity:8} {:.3}  {}",
-                                candidate["score"].as_f64().unwrap_or(0.0),
-                                ids.join(" + ")
-                            );
-                        }
-                    }
-                }
             } else if let Some(counts) = output["counts"].as_object() {
                 println!("Corpus structure ({})", output["input_identity"]);
                 for (kind, count) in counts {
                     println!("{kind:16} {count}");
-                }
-            } else if let Some(matches) = output["matches"].as_array() {
-                println!("{} ({})", output["id"], output["input_identity"]);
-                for record in matches {
-                    println!(
-                        "{} · {}\n{:#}",
-                        record["kind"], record["path"], record["record"]
-                    );
                 }
             }
             ExitCode::SUCCESS

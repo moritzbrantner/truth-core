@@ -7,7 +7,7 @@
 //! Messages are Python's, except where Python formats a parser exception
 //! (invalid JSON) or a value that is not a string, list or scalar.
 
-use crate::{Record, thickness};
+use crate::{Record, identity, thickness};
 use fancy_regex::Regex;
 use serde_json::{Map, Value};
 use std::{
@@ -28,7 +28,8 @@ type Res<T> = Result<T, String>;
 const ENTITY_KINDS: &[&str] = &["argument", "claim", "inference", "source", "statement"];
 const MATHLIB_PERMITTED_AXIOMS: &[&str] = &["propext", "Classical.choice", "Quot.sound"];
 const FLOOR_BASES: &[&str] = &["common_ground", "observation", "retorsion"];
-const LEGACY_FLOOR_STATEMENTS: &[&str] = &["STMT-EXCLUDED-MIDDLE"];
+/// `legacy_uuid("statement", "STMT-EXCLUDED-MIDDLE")`.
+const LEGACY_FLOOR_STATEMENTS: &[&str] = &["ee4ab504-c8fe-59bc-bc96-7cbeefed6410"];
 const DISAGREEMENT_NONE: &str = "none recorded";
 const TRANSCRIPTION_KINDS: &[&str] = &[
     "assembly",
@@ -285,16 +286,6 @@ fn lean_term(text: &str) -> bool {
             is_ident(segment)
                 || (!segment.is_empty() && segment.chars().all(|c| c.is_ascii_digit()))
         })
-}
-
-/// `PREFIX[A-Z0-9-]+` as a full match.
-fn upper_id(text: &str, prefix: &str) -> bool {
-    text.strip_prefix(prefix).is_some_and(|rest| {
-        !rest.is_empty()
-            && rest
-                .chars()
-                .all(|c| c.is_ascii_uppercase() || c.is_ascii_digit() || c == '-')
-    })
 }
 
 /// Python `re` `$` also matches before one final newline.
@@ -638,7 +629,12 @@ impl Checker<'_> {
         validate_result_transcription(path, result)?;
         let challenge = module_path(self.root, text(result, "challenge_module"));
         let solution = module_path(self.root, text(result, "solution_module"));
-        let canonical = format!("results/{}/comparator.json", py_str(result.get("id")));
+        // Comparator configs of migrated results stay at their legacy directory.
+        let directory = match get(result, "legacy_id") {
+            Some(legacy) if truthy(Some(legacy)) => legacy,
+            _ => result.get("id").unwrap_or(&Value::Null),
+        };
+        let canonical = format!("results/{}/comparator.json", py_str(Some(directory)));
         if string(result, "comparator_config") != Some(canonical.as_str()) {
             return Err(format!(
                 "{path}: Comparator path must match executable gate: {canonical}"
@@ -720,8 +716,8 @@ fn validate_result_transcription(label: &str, result: &Obj) -> Res<()> {
 // Record rules
 
 fn validate_model(model: &Obj, statements: &HashMap<&str, &Obj>, root: &Path) -> Res<()> {
-    if !string(model, "id").is_some_and(|id| upper_id(id, "MODEL-")) {
-        return Err("model id must be MODEL-…".into());
+    if !string(model, "id").is_some_and(identity::is_uuid) {
+        return Err("model id must be a uuid".into());
     }
     for key in ["description", "vocabulary", "lean_declaration"] {
         if !string(model, key).is_some_and(|value| !value.is_empty()) {
@@ -847,6 +843,8 @@ struct CaseContext<'a> {
 fn validate_case(case: &Obj, cx: &CaseContext) -> Res<()> {
     const ALLOWED: &[&str] = &[
         "id",
+        "label",
+        "legacy_id",
         "description",
         "seed_statement_id",
         "semantics",
@@ -858,8 +856,8 @@ fn validate_case(case: &Obj, cx: &CaseContext) -> Res<()> {
     if case.keys().any(|key| !ALLOWED.contains(&key.as_str())) {
         return Err("unknown configuration fields (derived statuses may not be stored)".into());
     }
-    if !string(case, "id").is_some_and(|id| upper_id(id, "CONFIG-")) {
-        return Err("configuration case needs a CONFIG- identifier".into());
+    if !string(case, "id").is_some_and(identity::is_uuid) {
+        return Err("configuration case needs a uuid identifier".into());
     }
     if !string(case, "seed_statement_id").is_some_and(|sid| cx.statements.contains_key(sid)) {
         return Err("unknown configuration seed".into());
@@ -1210,8 +1208,8 @@ fn validate_attempt(
     statements: &HashSet<&str>,
     evidence: &HashSet<&str>,
 ) -> Res<()> {
-    if !string(attempt, "id").is_some_and(|id| upper_id(id, "ATTEMPT-")) {
-        return Err("id must be an ATTEMPT- identifier".into());
+    if !string(attempt, "id").is_some_and(identity::is_uuid) {
+        return Err("id must be a uuid".into());
     }
     let ids = attempt.get("statement_ids").and_then(Value::as_array);
     if !ids.is_some_and(|ids| {
@@ -1279,7 +1277,9 @@ fn validate_prose_ids(path: &str, record: &Obj, fields: &[&str], known: &HashSet
             None => String::new(),
             value => py_str(value),
         };
-        for cited in prose_ids(&prose) {
+        let mut cited_ids = prose_ids(&prose);
+        cited_ids.extend(identity::prose_uuids(&prose));
+        for cited in cited_ids {
             if !known.contains(cited) {
                 return Err(format!("{path}: {field} cites unknown id {cited}"));
             }
@@ -2229,6 +2229,8 @@ fn validate(
             .map_err(|error| format!("{}: {error}", model.path))?;
     }
 
+    identity::validate(root)?;
+
     // registered_configurations
     let configurations = load("configurations")?;
     index_by_id(&configurations, "configuration")?;
@@ -2294,11 +2296,13 @@ fn validate(
     let definition_ids: HashSet<&str> = definition_index.keys().map(String::as_str).collect();
     let disambiguation_ids: HashSet<&str> =
         disambiguation_index.keys().map(String::as_str).collect();
-    let citable: HashSet<&str> = statement_ids
-        .iter()
-        .chain(&definition_ids)
-        .chain(&disambiguation_ids)
-        .copied()
+    // Prose may cite a record by uuid or by its legacy alias (`citable_ids`).
+    let citable: HashSet<&str> = [&statements, &definitions, &disambiguations]
+        .into_iter()
+        .flat_map(|records| records.iter())
+        .flat_map(|record| {
+            std::iter::once(text(&record.fields, "id")).chain(string(&record.fields, "legacy_id"))
+        })
         .collect();
     let evidence: HashSet<&str> = result_ids.union(&claim_ids).copied().collect();
     for attempt in &attempts {
@@ -2376,9 +2380,6 @@ fn validate(
     for definition in &definitions {
         let (path, fields) = (definition.path.as_str(), &definition.fields);
         require(fields, &["id", "term", "definition", "basis"], path)?;
-        if !text(fields, "id").starts_with("DEF-") {
-            return Err(format!("{path}: definition id must start with DEF-"));
-        }
         let basis = string(fields, "basis").filter(|b| matches!(*b, "sourced" | "stipulative"));
         let Some(basis) = basis else {
             return Err(format!("{path}: basis must be one of sourced, stipulative"));
@@ -2403,9 +2404,6 @@ fn validate(
     for disambiguation in &disambiguations {
         let (path, fields) = (disambiguation.path.as_str(), &disambiguation.fields);
         require(fields, &["id", "term", "resolution"], path)?;
-        if !text(fields, "id").starts_with("DISAMB-") {
-            return Err(format!("{path}: disambiguation id must start with DISAMB-"));
-        }
         let senses = require_string_list(fields, "sense_definition_ids", path, false)?;
         if senses.iter().collect::<HashSet<_>>().len() < 2 {
             return Err(format!(
@@ -3112,6 +3110,8 @@ fn check_warnings(root: &Path, loaded: &Loaded, files: &[(Vec<String>, PathBuf)]
             ));
         }
     }
+
+    warnings.extend(identity::warnings(root));
 
     let mut categories = trivial_category_warnings(files);
     categories.sort_by(|a, b| (&a.0, a.1).cmp(&(&b.0, b.1)));

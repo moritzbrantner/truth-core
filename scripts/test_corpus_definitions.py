@@ -41,10 +41,9 @@ class DefinitionTest(unittest.TestCase):
         with self.assertRaises(corpus.CorpusError):
             corpus.validate_definition(DEFINITION_PATH, definition(basis="stipulative"), set(), LEAN)
 
-    def test_rejects_unknown_basis_prefix_and_lean_declaration(self) -> None:
+    def test_rejects_unknown_basis_and_lean_declaration(self) -> None:
         bad = (
             definition(basis="obvious", note="n"),
-            definition(id="X", basis="stipulative", note="n"),
             definition(basis="stipulative", note="n", lean_declaration="A.Missing"),
         )
         for record in bad:

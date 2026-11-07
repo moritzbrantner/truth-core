@@ -13,6 +13,7 @@ import tempfile
 from pathlib import Path
 
 from finite_models import NAME, TERM, verify_models
+from corpus_ids import is_uuid  # noqa: E402
 
 IDENTIFIER = re.compile(r'[A-Za-z_][A-Za-z_0-9]*\Z')
 # Deliberately a small term language, not arbitrary Lean source in JSON.
@@ -27,11 +28,11 @@ DATA_STRUCTURES = {
 
 
 def validate_case(case, statements, results, arguments, models, root):
-    allowed = {'id', 'description', 'seed_statement_id', 'semantics', 'configurations', 'incompatibility_result_ids', 'implication_result_ids', 'model_bindings'}
+    allowed = {'id', 'label', 'legacy_id', 'description', 'seed_statement_id', 'semantics', 'configurations', 'incompatibility_result_ids', 'implication_result_ids', 'model_bindings'}
     if set(case) - allowed:
         raise ValueError('unknown configuration fields (derived statuses may not be stored)')
-    if not isinstance(case.get('id'), str) or not re.fullmatch(r'CONFIG-[A-Z0-9-]+', case['id']):
-        raise ValueError('configuration case needs a CONFIG- identifier')
+    if not is_uuid(case.get('id')):
+        raise ValueError('configuration case needs a uuid identifier')
     if not isinstance(case.get('seed_statement_id'), str) or case['seed_statement_id'] not in statements:
         raise ValueError('unknown configuration seed')
     profile = case.get('semantics')

@@ -23,6 +23,8 @@ and truthful source-claim boundaries remain in force.
 
 See AGENTS.md, "Connect every library to the case".
 
+Identity: corpus ids are opaque uuids. Never mint a readable id; give each new record a plain, sense-tagged `label` (`python3 scripts/new_id.py` mints ids, `argument_batch.py` does it for specs). Commands accept a uuid, legacy id (`STMT-…`) or label.
+
 Inventory before formalization: for an existing target argument run `python3 scripts/corpus.py context <ARGUMENT-OR-RESULT-ID>`, then inspect each touched premise's `python3 scripts/corpus.py dossier <STMT-ID>`, then exact existing definitions, theorem types and recorded attempts. Prefer a concrete rival model or a consequential bridge test over another general-purpose distinction. Coordinate a genuinely new shared definition with its designated owner; submit independent proof edits directly yourself.
 
 For Lean development use the coordinator's existing local service and preview identity. Do not start a service/session or repeat preparation. From your canonical clone, submit full source content:

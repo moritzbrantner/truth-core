@@ -12,6 +12,7 @@ import unittest
 from unittest.mock import patch
 
 from configurations import check_generated_axioms, generated_names, composition_source, certificate_source, configuration_report, implication_closure, validate_case, verify_case
+from corpus_ids import legacy_uuid  # noqa: E402
 
 
 class ConfigurationTests(unittest.TestCase):
@@ -31,7 +32,7 @@ class ConfigurationTests(unittest.TestCase):
         self.models = {mid: {'id': mid, 'vocabulary': 'V', 'lean_declaration': 'Fixture.model', 'bindings': {'W': 'Bool', 'I': 'Bool', 'F': 'Fixture.frame', 'present': 'Fixture.present', 'w': 'Bool.false'}, 'modules': ['Fixture'],
                             'evaluations': [{'statement_id': sid, 'arguments': ['W'], 'value': 'satisfies'} for sid in ids]}
                        for mid, ids in [('MP', ['P']), ('MQ', ['Q'])]}
-        self.case = {'id': 'CONFIG-TEST', 'seed_statement_id': 'P',
+        self.case = {'id': '7f1b8d1e-0c4a-4d7e-9a51-2f3c6b8e9d10', 'seed_statement_id': 'P',
                      'semantics': {'id': 'test', 'logic': 'constructive', 'frame': 'arbitrary', 'domain': 'fixed', 'identity': 'literal', 'vocabulary': 'V', 'permitted_axioms': [],
                                    'modules': ['Fixture'], 'parameter_order': ['W', 'I', 'F', 'present', 'w'], 'parameters': [{'name': 'W', 'type': 'Type'}, {'name': 'I', 'type': 'Type'}, {'name': 'F', 'type': 'TruthCore.Modal.Frame W'}, {'name': 'present', 'type': 'I → W → Prop'}, {'name': 'w', 'type': 'W'}], 'applications': {sid: ['W'] for sid in self.statements}},
                      'configurations': [{'id': 'core', 'statement_ids': ['P', 'Q']}, {'id': 'superset', 'statement_ids': ['P', 'Q', 'R']},
@@ -277,10 +278,11 @@ class PersistentConfigurationRatchetTests(unittest.TestCase):
         return configuration_report(case, self.results, self.arguments, self.models, verified=True, selection=selection)
 
     def test_committed_ratchet_status_fixture_and_composed_core_provenance(self):
-        fixture = json.loads((self.corpus.ROOT / 'scripts/testdata/configuration-ratchet.json').read_text())
+        fixture = {legacy_uuid('configuration', key): value for key, value in
+                   json.loads((self.corpus.ROOT / 'scripts/testdata/configuration-ratchet.json').read_text()).items()}
         actual = {cid: {entry['id']: entry['status'] for entry in self.report(self.cases[cid])['configurations']} for cid in fixture}
         self.assertEqual(actual, fixture)
-        case = self.cases['CONFIG-NECESSARY-INDIVIDUAL']
+        case = self.cases[legacy_uuid('configuration', 'CONFIG-NECESSARY-INDIVIDUAL')]
         report = self.report(case)
         composed = next(entry for entry in report['configurations'] if entry['id'] == 'composed-incompatible')
         core = composed['incompatible_cores'][0]
@@ -292,7 +294,7 @@ class PersistentConfigurationRatchetTests(unittest.TestCase):
         self.assertIn('@' + self.results[core['result_id']]['theorem'], source)
 
     def test_result_substitution_and_comparator_gate_disagreement_are_rejected(self):
-        rid = 'NECESSARY-INDIVIDUAL-RE-TO-DICTO'
+        rid = legacy_uuid('result', 'NECESSARY-INDIVIDUAL-RE-TO-DICTO')
         result = self.results[rid]
         for replacement in [dict(theorem='sorryAx'), dict(comparator_config='results/OTHER/comparator.json'),
                             dict(solution_module='TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.Quantifiers'),
@@ -302,7 +304,7 @@ class PersistentConfigurationRatchetTests(unittest.TestCase):
                 self.corpus.registered_configurations(self.statements, replaced, self.arguments, self.models)
 
     def test_original_theorem_binding_rejects_erased_de_re_hypothesis(self):
-        rid = 'NECESSARY-INDIVIDUAL-RE-TO-DICTO'
+        rid = legacy_uuid('result', 'NECESSARY-INDIVIDUAL-RE-TO-DICTO')
         result = self.results[rid]
         argument = {**self.arguments[result['argument_id']], 'premise_statement_ids': []}
         ni = 'TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.'
@@ -313,7 +315,7 @@ class PersistentConfigurationRatchetTests(unittest.TestCase):
         binding = self.corpus.bind_result(result, argument, index, described)
         self.assertEqual(binding['status'], 'mismatch')
         self.assertTrue(any(problem['kind'] == 'extra-hypothesis' for problem in binding['problems']))
-        case = copy.deepcopy(self.cases['CONFIG-NECESSARY-INDIVIDUAL'])
+        case = copy.deepcopy(self.cases[legacy_uuid('configuration', 'CONFIG-NECESSARY-INDIVIDUAL')])
         case['incompatibility_result_ids'] = []
         case['implication_result_ids'] = [rid]
         original_loader = self.corpus.load_dir
@@ -336,7 +338,7 @@ class PersistentConfigurationRatchetTests(unittest.TestCase):
 
 
     def test_multi_case_verification_binds_the_exact_unique_union_and_fails_closed(self):
-        cases = [self.cases['CONFIG-NECESSARY-INDIVIDUAL'], self.cases['CONFIG-NIGHT-ACTUALIZATION']]
+        cases = [self.cases[legacy_uuid('configuration', 'CONFIG-NECESSARY-INDIVIDUAL')], self.cases[legacy_uuid('configuration', 'CONFIG-NIGHT-ACTUALIZATION')]]
         selected = sorted({rid for case in cases for key in ('incompatibility_result_ids', 'implication_result_ids') for rid in case.get(key, [])})
         context = dict(statements=self.statements, results=self.results, arguments=self.arguments, models=self.models,
                        cases=[cases[0], copy.deepcopy(cases[0]), cases[1]])
@@ -363,9 +365,10 @@ class PersistentConfigurationRatchetTests(unittest.TestCase):
             self.corpus.collect_configuration_reports(args, context)
 
     def test_all_sixteen_positive_starter_subsets_match_independent_reference(self):
-        case = self.cases['CONFIG-NECESSARY-INDIVIDUAL']
+        case = self.cases[legacy_uuid('configuration', 'CONFIG-NECESSARY-INDIVIDUAL')]
         prefix = 'STMT-NECESSARY-INDIVIDUAL-'
-        re_, dicto, contingency, joint = [prefix + suffix for suffix in ['DE-RE', 'DE-DICTO', 'INDIVIDUAL-CONTINGENCY', 'JOINT-ABSENCE']]
+        re_, dicto, contingency, joint = [legacy_uuid('statement', prefix + suffix)
+                                          for suffix in ['DE-RE', 'DE-DICTO', 'INDIVIDUAL-CONTINGENCY', 'JOINT-ABSENCE']]
         atoms = [re_, dicto, contingency, joint]
         # Exhaustion is only a small test oracle over syntactic input selections;
         # the production classifier composes cores and never enumerates 2^n.
@@ -379,11 +382,11 @@ class PersistentConfigurationRatchetTests(unittest.TestCase):
                 self.assertFalse(entry['core_composition']['truncated'])
 
     def test_nat_profile_cannot_borrow_bool_satisfiability_or_minimality(self):
-        case = self.cases['CONFIG-NECESSARY-INDIVIDUAL-NAT-WORLDS']
+        case = self.cases[legacy_uuid('configuration', 'CONFIG-NECESSARY-INDIVIDUAL-NAT-WORLDS')]
         report = self.report(case)
         self.assertEqual(len(report['inapplicable_models']), 3)
         self.assertEqual(report['configurations'][0]['status'], 'unresolved')
-        selection = {'id': 'core', 'statement_ids': ['STMT-NECESSARY-INDIVIDUAL-DE-DICTO', 'STMT-NECESSARY-INDIVIDUAL-JOINT-ABSENCE']}
+        selection = {'id': 'core', 'statement_ids': [legacy_uuid('statement', 'STMT-NECESSARY-INDIVIDUAL-DE-DICTO'), legacy_uuid('statement', 'STMT-NECESSARY-INDIVIDUAL-JOINT-ABSENCE')]}
         core = self.report(case, selection)['configurations'][0]['incompatible_cores'][0]
         self.assertIn('minimal among supplied incompatibility certificates', core['minimality'])
         self.assertTrue(all(not item['model_ids'] for item in core['removal_evidence']))

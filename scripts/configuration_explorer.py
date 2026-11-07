@@ -13,6 +13,16 @@ import tempfile
 
 from configurations import configuration_report, model_profile_mismatches, verify_compositions
 
+_ALIASES = None
+
+
+def _legacy_order(record_id: str) -> str:
+    global _ALIASES
+    if _ALIASES is None:
+        from corpus_ids import Aliases
+        _ALIASES = Aliases.load(Path(__file__).resolve().parents[1])
+    return _ALIASES.legacy(record_id)
+
 SCHEMA_VERSION = 1
 # Bound exhaustive transport generation to at most 2,048 syntactic selections.
 # The modal-grounding case needs eleven dimensions, retaining the equivalent
@@ -68,7 +78,8 @@ def bounded_family(case, classify):
     The browser only follows edges. It does not implement consistency, implication
     closure or a new proof-status engine. Counts concern syntactic selections.
     """
-    dimensions = sorted(case['semantics']['applications'])
+    # Ordered by legacy id, else uuid (corpus_ids.order_key): the decision-tree order is unchanged by the migration.
+    dimensions = sorted(case['semantics']['applications'], key=_legacy_order)
     if len(dimensions) > MAX_DIMENSIONS:
         raise ValueError(f'{case["id"]}: explorer supports at most {MAX_DIMENSIONS} assumption dimensions')
     nodes = []

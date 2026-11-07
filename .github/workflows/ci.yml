@@ -58,6 +58,14 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y poppler-utils zstd
       - name: Validate corpus metadata and source bindings
         run: python3 scripts/corpus.py check
+      # Label clean-up ratchet (#1233): the list of mechanical or compromised labels
+      # may only shrink; passing entries are reported for removal.
+      - name: Check that the label clean-up list only shrinks
+        if: github.event_name == 'pull_request'
+        run: |
+          if git rev-parse --verify HEAD^1 >/dev/null 2>&1; then
+            python3 scripts/label_cleanup.py check --base HEAD^1
+          fi
       - name: Check bounded migration coverage and review freshness
         run: python3 scripts/bundle_audit.py
       - name: Bind argument records to result theorem types

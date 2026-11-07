@@ -76,6 +76,13 @@ EXPLORER_INPUT_PATTERNS = (
     "bun.lock",
     "turbo.json",
     "scripts/corpus.py",
+    # Identity (uuid ids, labels, the label clean-up list) read by corpus.py.
+    "scripts/corpus_ids.py",
+    "scripts/identity_check.py",
+    "scripts/label_cleanup.py",
+    "scripts/migrate_uuid.py",
+    "scripts/uuid_labels.py",
+    "docs/notes/label-cleanup.json",
     "scripts/next_steps.py",
     "scripts/bundle_audit.py",
     "scripts/expression_contracts.py",

@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 """Compare the Rust CLI with the existing Python corpus readers: the
-structural view (`status`, `inspect`), `thickness [--queue]` and `check`."""
+structural view (`status`, `inspect`), `thickness [--queue]` and `check`.
+
+Fixtures are written with readable ids and then converted to uuid identity by
+`migrate_uuid.Migration`, exactly as the corpus was; tests look records up by
+`corpus_ids.legacy_uuid(kind, legacy id)`."""
 import argparse
 import json
 import shutil
@@ -12,6 +16,19 @@ from pathlib import Path
 
 import corpus
 import source_evidence
+from corpus_ids import DIR_OF_KIND, KIND_DIRS, legacy_uuid
+from migrate_uuid import Migration
+
+
+def U(kind, legacy):
+    """The uuid a fixture record of `kind` (singular) with readable id `legacy` gets."""
+    return legacy_uuid(kind, legacy)
+
+
+def migrate(root):
+    """Convert a fixture tree written with readable ids to uuid identity."""
+    (root / "docs" / "notes").mkdir(parents=True, exist_ok=True)
+    Migration(root).run(write=True)
 
 
 class TruthParity(unittest.TestCase):
@@ -37,15 +54,32 @@ class TruthParity(unittest.TestCase):
                 records.setdefault(record["id"], []).append({
                     "kind": kind, "path": path.relative_to(corpus.ROOT).as_posix(), "record": record,
                 })
-        # Cover every kind and a shared ID across kinds with bounded CLI invocations.
+        # Ids are uuids, unique across kinds.
+        self.assertFalse([key for key, entries in records.items() if len(entries) > 1])
+        # Cover every kind with bounded CLI invocations.
         ids = {next(key for key, entries in records.items()
                     if any(entry["kind"] == kind for entry in entries))
                for kind, count in status["counts"].items() if count}
-        ids.add(next(key for key, entries in records.items() if len(entries) > 1))
         for key in sorted(ids):
             result = self.invoke("inspect", key)
             self.assertEqual(result["matches"], records[key])
             self.assertEqual(result["input_identity"], status["input_identity"])
+        # A legacy id or a label names the same record as its uuid.
+        statement = records[corpus.DEFAULT_FRONTIER_ROOT][0]["record"]
+        for token in (statement["legacy_id"], statement["label"], statement["label"].upper()):
+            result = self.invoke("inspect", token)
+            self.assertEqual((result["id"], result["matches"]),
+                             (corpus.DEFAULT_FRONTIER_ROOT, records[corpus.DEFAULT_FRONTIER_ROOT]))
+        # A legacy id shared by an argument and its result names two records.
+        legacy = {}
+        for key, entries in records.items():
+            alias = entries[0]["record"].get("legacy_id")
+            if alias:
+                legacy.setdefault(alias, set()).add(key)
+        shared = next(alias for alias, keys in sorted(legacy.items()) if len(keys) > 1)
+        error = self.invoke("inspect", shared, code=3)["error"]
+        self.assertEqual(error["code"], "unknown_id")
+        self.assertEqual({candidate["id"] for candidate in error["candidates"]}, legacy[shared])
 
     def test_errors_and_input_changes(self):
         with tempfile.TemporaryDirectory() as temporary:
@@ -54,7 +88,7 @@ class TruthParity(unittest.TestCase):
             directory.mkdir(parents=True)
             path = directory / "a.json"
             args = ("--root", str(root))
-            record = {"id": "STMT-FIXTURE", "paraphrase": "One"}
+            record = {"id": U("statement", "STMT-FIXTURE"), "label": "fixture", "paraphrase": "One"}
             path.write_text(json.dumps(record))
             first = self.invoke(*args, "status")["input_identity"]
             path.write_text(json.dumps({**record, "paraphrase": "Two"}))
@@ -73,7 +107,7 @@ class TruthParity(unittest.TestCase):
             duplicate.unlink()
             for value, error_code in [
                 ("{", "invalid_json_object"), ("[]", "invalid_json_object"),
-                ('{"id": 1}', "invalid_field"), ('{"id": "STMT-FIXTURE"}', "invalid_field"),
+                ('{"id": 1}', "invalid_field"), (json.dumps({"id": record["id"]}), "invalid_field"),
             ]:
                 path.write_text(value)
                 self.assertEqual(self.invoke(*args, "status", code=1)["error"]["code"], error_code)
@@ -84,7 +118,8 @@ class TruthParity(unittest.TestCase):
             directory = root / "corpus" / "statements"
             directory.mkdir(parents=True)
             foreign = Path(outside) / "foreign.json"
-            foreign.write_text(json.dumps({"id": "STMT-FOREIGN", "paraphrase": "Not in corpus"}))
+            foreign.write_text(json.dumps({"id": U("statement", "STMT-FOREIGN"), "label": "foreign",
+                                           "paraphrase": "Not in corpus"}))
             link = directory / "linked.json"
             link.symlink_to(foreign)
             result = self.invoke("--root", str(root), "status", code=1)
@@ -111,14 +146,19 @@ class TruthParity(unittest.TestCase):
             for sid, decl in [("STMT-T", "N.T"), ("STMT-A", "N.A")]:
                 (root / "corpus" / "statements" / f"{sid}.json").write_text(
                     json.dumps({"id": sid, "paraphrase": sid, "lean_declaration": decl}))
+            migrate(root)
             constants = root / "constants.json"
             constants.write_text(json.dumps([
                 {"declaration": "N.T", "constants": ["N.P", "N.T"]},
                 {"declaration": "N.A", "constants": ["N.A", "N.P"]},
             ]))
             args = ("--root", str(root), "bridges", "--constants", str(constants))
-            report = self.invoke(*args, "--target", "STMT-T")
-            self.assertEqual(report["targets"][0]["singles"][0]["statement_ids"], ["STMT-A"])
+            # A target may be named by legacy id or uuid.
+            for target in ("STMT-T", U("statement", "STMT-T")):
+                report = self.invoke(*args, "--target", target)
+                self.assertEqual(report["targets"][0]["statement_id"], U("statement", "STMT-T"))
+                self.assertEqual(report["targets"][0]["singles"][0]["statement_ids"],
+                                 [U("statement", "STMT-A")])
             self.assertIn("NOT a proof", report["mode"])
             self.assertEqual(self.invoke(*args, code=2)["error"]["code"], "usage")
             self.assertEqual(self.invoke(*args, "--target", "STMT-X", code=3)["error"]["code"],
@@ -133,7 +173,7 @@ class TruthParity(unittest.TestCase):
             root = Path(os.fsdecode(os.fsencode(temporary) + b"/root-\xff"))
             (root / "corpus" / "statements").mkdir(parents=True)
             (root / "corpus" / "statements" / "a.json").write_text(
-                json.dumps({"id": "STMT-FIXTURE", "paraphrase": "One"})
+                json.dumps({"id": U("statement", "STMT-FIXTURE"), "label": "fixture", "paraphrase": "One"})
             )
             result = subprocess.run(
                 [self.binary, "--json", "--root", os.fsencode(str(root)), "status"],
@@ -196,6 +236,7 @@ def thickness_fixture(root):
                           "claim_ids": ["CLAIM-U"]})
     for attempt_id, outcome, statements in [("ATT-2", "inconclusive", ["W"]), ("ATT-1", "rejected", ["W"])]:
         write("attempts", {"id": attempt_id, "outcome": outcome, "statement_ids": statements})
+    migrate(root)
 
 
 def python_thickness(root, queue):
@@ -210,10 +251,11 @@ def python_thickness(root, queue):
     finally:
         corpus.ROOT = saved
     frontier = corpus.frontier_report(records["statements"], records["arguments"], records["results"],
-                                      records["relations"], root="ROOT", transcription=flags, claims=records["claims"])
+                                      records["relations"], root=U("statement", "ROOT"), transcription=flags,
+                                      claims=records["claims"])
     report = corpus.thickness_report(frontier, records["arguments"], records["results"])
     if queue:
-        return {"root": "ROOT", "queue": corpus.thickness_queue(frontier, report, records)}
+        return {"root": U("statement", "ROOT"), "queue": corpus.thickness_queue(frontier, report, records)}
     return {"report": report, "delta": None}
 
 
@@ -236,8 +278,10 @@ class TruthThicknessParity(unittest.TestCase):
         queue = corpus.thickness_queue(frontier, report, records)
         root = report["root"]
         for flags, expected, text in (
-            ([], {"report": report, "delta": None}, corpus.format_thickness(report, None)),
-            (["--queue"], {"root": root, "queue": queue}, corpus.format_thickness_queue(root, queue)),
+            # Text output as the Python CLI prints it: uuids humanized to `label [uuid8]`.
+            ([], {"report": report, "delta": None}, corpus.humanize(corpus.format_thickness(report, None))),
+            (["--queue"], {"root": root, "queue": queue},
+             corpus.humanize(corpus.format_thickness_queue(root, queue))),
         ):
             actual = json.loads(self.run_truth("--json", "thickness", *flags))
             self.assertTrue(actual.pop("input_identity").startswith("fnv1a64:"))
@@ -253,10 +297,15 @@ class TruthThicknessParity(unittest.TestCase):
                                                    "thickness", *flags))
                 actual.pop("input_identity")
                 self.assertEqual(actual, python_thickness(root, queue), flags)
+            # The frontier root may be named by uuid as well as by legacy id.
+            actual = json.loads(self.run_truth("--json", "--root", str(root), "--frontier-root",
+                                               U("statement", "ROOT"), "thickness"))
+            actual.pop("input_identity")
+            self.assertEqual(actual, python_thickness(root, False))
             report = python_thickness(root, False)["report"]
             # The heuristic transcription (RES-B-H) derives nothing; B is queued.
-            self.assertEqual(report["derivations"]["B"], [])
-            self.assertEqual(report["derivations"]["A"], ["ARG-A"])
+            self.assertEqual(report["derivations"][U("statement", "B")], [])
+            self.assertEqual(report["derivations"][U("statement", "A")], [U("argument", "ARG-A")])
 
     def test_usage(self):
         result = subprocess.run([self.binary, "--json", "--queue", "status"], cwd=corpus.ROOT,
@@ -363,7 +412,9 @@ def check_records():
 
 
 def by_id(records, kind, rid):
-    return next(record for record in records[kind] if record.get("id") == rid)
+    """The fixture record of directory `kind` whose readable id was `rid`."""
+    uid = U(KIND_DIRS[kind], rid)
+    return next(record for record in records[kind] if record.get("id") == uid)
 
 
 def mutate(kind, rid, **changes):
@@ -378,7 +429,12 @@ def mutate(kind, rid, **changes):
 
 
 def add(kind, record):
-    return lambda records: records[kind].append(record)
+    return lambda records: records[kind].append(dict(record))
+
+
+def new(kind, legacy, label, **fields):
+    """A migrated-looking record of directory `kind` (uuid id, legacy_id and label)."""
+    return {"id": U(KIND_DIRS[kind], legacy), "label": label, "legacy_id": legacy, **fields}
 
 
 def comparator(change):
@@ -387,44 +443,66 @@ def comparator(change):
     return apply
 
 
+def allowlisted(kind, rid):
+    """Flag a record `untagged-sense` in docs/notes/label-cleanup.json."""
+    def apply(records):
+        records["_cleanup"].append({"kind": KIND_DIRS[kind], "id": U(KIND_DIRS[kind], rid),
+                                    "legacy_id": rid, "label": "x", "flags": ["untagged-sense"]})
+    return apply
+
+
+def both(*changes):
+    def apply(records):
+        for change in changes:
+            change(records)
+    return apply
+
+
+GHOST = "00000000-0000-4000-8000-000000000000"
+
 # One deliberately broken corpus per rule; both implementations must report
-# the same first error.
+# the same first error. Mutations run on the migrated (uuid) fixture.
 CHECK_FAILURES = {
-    "duplicate id": add("statements", {"id": "STMT-A", "paraphrase": "again"}),
-    "unknown claim statement reference": mutate("claims", "CLAIM-A", statement_id="STMT-NOPE"),
-    "unknown inference reference": mutate("arguments", "ARG-AB", inference_ids=["INF-NOPE"]),
-    "argument not grounded": mutate("arguments", "ARG-BC", inference_ids=["INF-AB"]),
+    "duplicate id": add("statements", {"id": U("statement", "STMT-A"), "label": "again", "paraphrase": "again"}),
+    "unknown claim statement reference": mutate("claims", "CLAIM-A", statement_id=GHOST),
+    "unknown inference reference": mutate("arguments", "ARG-AB", inference_ids=[GHOST]),
+    "argument not grounded": mutate("arguments", "ARG-BC", inference_ids=[U("inference", "INF-AB")]),
     "missing disambiguation link for two senses": mutate("arguments", "ARG-BC", disambiguation_ids=None),
     "empty disambiguation_ids": mutate("statements", "STMT-C", disambiguation_ids=[]),
-    "unknown definition link": mutate("statements", "STMT-C", definition_ids=["DEF-NOPE"]),
-    "disambiguation with one sense": mutate("disambiguations", "DISAMB-T", sense_definition_ids=["DEF-X", "DEF-X"]),
-    "unused definition": add("definitions", {"id": "DEF-Z", "term": "z", "definition": "z", "basis": "stipulative",
-                                             "note": "n"}),
+    "unknown definition link": mutate("statements", "STMT-C", definition_ids=[GHOST]),
+    "disambiguation with one sense": mutate("disambiguations", "DISAMB-T",
+                                            sense_definition_ids=[U("definition", "DEF-X")] * 2),
+    "unused definition": add("definitions", new("definitions", "DEF-Z", "zed", term="z", definition="z",
+                                                basis="stipulative", note="n")),
     "stipulative definition without note": mutate("definitions", "DEF-Y", note=None),
-    "prose cites unknown id": mutate("disambiguations", "DISAMB-T", resolution="see STMT-GHOST"),
-    "bad strengthens registration": mutate("relations", "REL-STR", verification_result_id="RES-BC"),
+    "prose cites unknown legacy id": mutate("disambiguations", "DISAMB-T", resolution="see STMT-GHOST"),
+    "prose cites unknown uuid": mutate("disambiguations", "DISAMB-T", resolution=f"see {GHOST}"),
+    "bad strengthens registration": mutate("relations", "REL-STR", verification_result_id=U("result", "RES-BC")),
     "strengthens without note": mutate("relations", "REL-STR", note=" "),
-    "duplicate strength registration": add("relations", {"id": "REL-STR-DUP", "subject_kind": "statement",
-                                                         "subject_id": "STMT-A", "predicate": "strengthens",
-                                                         "object_kind": "statement", "object_id": "STMT-B",
-                                                         "verification_result_id": "RES-AB", "note": "n"}),
+    "duplicate strength registration": add("relations", new(
+        "relations", "REL-STR-DUP", "duplicate strength", subject_kind="statement",
+        subject_id=U("statement", "STMT-A"), predicate="strengthens", object_kind="statement",
+        object_id=U("statement", "STMT-B"), verification_result_id=U("result", "RES-AB"), note="n")),
     "strong_version_needed names a non-premise": mutate("arguments", "ARG-BC",
-                                                        strong_version_needed={"STMT-A": "why"}),
+                                                        strong_version_needed={U("statement", "STMT-A"): "why"}),
     "unknown attempt outcome": mutate("attempts", "ATTEMPT-ONE", outcome="maybe"),
     "attempt date not ISO": mutate("attempts", "ATTEMPT-ONE", date="2026-02-30"),
     "attempt evidence unknown": mutate("attempts", "ATTEMPT-ONE", evidence=["PR-0"]),
+    "attempt id not a uuid": mutate("attempts", "ATTEMPT-ONE", id="ATTEMPT-ONE"),
     "blocked attempt without blocker": mutate("attempts", "ATTEMPT-ONE", outcome="blocked"),
-    "self_evident without basis": mutate("statements", "STMT-E", self_evident={"justification_ids": ["CLAIM-A"]}),
+    "self_evident without basis": mutate("statements", "STMT-E",
+                                         self_evident={"justification_ids": [U("claim", "CLAIM-A")]}),
     "self_evident unknown rival": mutate("statements", "STMT-E", self_evident={
-        "justification_ids": ["CLAIM-A"], "basis": "observation",
-        "disagreement": {"rival_statement_ids": ["STMT-NOPE"]}}),
+        "justification_ids": [U("claim", "CLAIM-A")], "basis": "observation",
+        "disagreement": {"rival_statement_ids": [GHOST]}}),
     "owner approval with a bad URL": mutate("statements", "STMT-E", self_evident={
-        "justification_ids": ["CLAIM-A"], "basis": "observation", "disagreement": "none recorded",
+        "justification_ids": [U("claim", "CLAIM-A")], "basis": "observation", "disagreement": "none recorded",
         "owner_approval": {"decision": "https://example.org", "date": "2026-11-05"}}),
-    "relation kind mismatch": mutate("relations", "REL-SUP", subject_kind="statement", subject_id="STMT-A"),
-    "root_route to another conclusion": add("relations", {"id": "REL-ROUTE", "subject_kind": "argument",
-                                                          "subject_id": "ARG-AB", "predicate": "root_route",
-                                                          "object_kind": "statement", "object_id": "STMT-C"}),
+    "relation kind mismatch": mutate("relations", "REL-SUP", subject_kind="statement",
+                                     subject_id=U("statement", "STMT-A")),
+    "root_route to another conclusion": add("relations", new(
+        "relations", "REL-ROUTE", "route", subject_kind="argument", subject_id=U("argument", "ARG-AB"),
+        predicate="root_route", object_kind="statement", object_id=U("statement", "STMT-C"))),
     "candidate priority not an integer": mutate("candidates", "CAND-1", priority="1"),
     "claim status": mutate("claims", "CLAIM-A", status="accepted"),
     "claim attribution shape": mutate("claims", "CLAIM-A", attribution="The passage says so."),
@@ -438,40 +516,64 @@ CHECK_FAILURES = {
     "transcription label without field": mutate("results", "RES-BC", description="Transcription of BC."),
     "unknown transcription kind": mutate("results", "RES-BC", transcription="echo"),
     "comparator path": mutate("results", "RES-BC", comparator_config="elsewhere.json"),
+    "comparator path of a new result is its uuid": mutate("results", "RES-BC", legacy_id=None),
     "case_split without target": mutate("results", "RES-BC", case_split={"cases": []}),
     "NanoDa disabled": comparator(lambda config: config.update(enable_nanoda=False)),
     "axioms permitted without Mathlib": comparator(
         lambda config: config.update(permitted_axioms=["propext", "Classical.choice", "Quot.sound"])),
     "theorem not in Comparator config": comparator(lambda config: config.update(theorem_names=[])),
-    "bad model id": mutate("models", "MODEL-FIX", id="MODEL-fix"),
+    "bad model id": mutate("models", "MODEL-FIX", id="MODEL-FIX"),
     "model evaluation of unknown statement": mutate("models", "MODEL-FIX", evaluations=[
-        {"statement_id": "STMT-NOPE", "value": "satisfies", "theorem": "T.e", "arguments": []}]),
-    "configuration unknown seed": mutate("configurations", "CONFIG-FIX", seed_statement_id="STMT-NOPE"),
+        {"statement_id": GHOST, "value": "satisfies", "theorem": "T.e", "arguments": []}]),
+    "configuration id not a uuid": mutate("configurations", "CONFIG-FIX", id="CONFIG-FIX"),
+    "configuration unknown seed": mutate("configurations", "CONFIG-FIX", seed_statement_id=GHOST),
     "configuration omits a model": mutate("configurations", "CONFIG-FIX", model_bindings=[]),
-    "strength comparison without evidence": add("relations", {
-        "id": "REL-CMP", "subject_kind": "statement", "subject_id": "STMT-A", "predicate": "strength_comparison",
-        "object_kind": "statement", "object_id": "STMT-B", "delta_statement_id": "STMT-C",
-        "background_statement_ids": [], "statement_parameter_indices": {"stronger": [], "weaker": [], "delta": []},
-        "comparison_spec": "s", "note": "n", "evidence_result_ids": {}}),
-    "candidate/result id collision": add("candidates", {"id": "RES-AB", "source_id": "SRC", "locator": "2",
+    "strength comparison without evidence": add("relations", new(
+        "relations", "REL-CMP", "comparison", subject_kind="statement", subject_id=U("statement", "STMT-A"),
+        predicate="strength_comparison", object_kind="statement", object_id=U("statement", "STMT-B"),
+        delta_statement_id=U("statement", "STMT-C"), background_statement_ids=[],
+        statement_parameter_indices={"stronger": [], "weaker": [], "delta": []},
+        comparison_spec="s", note="n", evidence_result_ids={})),
+    "candidate/result id collision": add("candidates", {"id": U("result", "RES-AB"), "label": "collision",
+                                                        "source_id": U("source", "SRC"), "locator": "2",
                                                         "priority": 1, "goal": "g", "reason": "r",
                                                         "status": "candidate"}),
+    # Identity rules (scripts/identity_check.py).
+    "statement id not a uuid": mutate("statements", "STMT-D", id="STMT-D"),
+    "passage id not a uuid": lambda records: records["passages"][0]["passages"][0].update(id="P-1"),
+    "legacy_id mismatch": mutate("statements", "STMT-D", legacy_id="STMT-OTHER"),
+    "legacy_id empty": mutate("statements", "STMT-D", legacy_id=""),
+    "missing label": mutate("statements", "STMT-D", label=None),
+    "blank label": mutate("statements", "STMT-D", label="  "),
+    "label too long": mutate("statements", "STMT-D", label="é" * 101),
+    "label with surrounding whitespace": mutate("statements", "STMT-D", label=" d "),
+    "id-like label": mutate("statements", "STMT-D", label="d after STMT-A and 0123abcd-ffff"),
+    "duplicate label within a kind": mutate("statements", "STMT-D", label="a"),
+    "several identity errors": both(mutate("statements", "STMT-D", label="a"),
+                                    mutate("claims", "CLAIM-A", label=None)),
+    "untagged linked sense": mutate("statements", "STMT-B", label="the t of b"),
+}
+
+# Rules that leave the corpus valid: both report the same warnings.
+CHECK_WARNINGS = {
+    "allowlisted untagged sense": both(mutate("statements", "STMT-B", label="the t of b"),
+                                       allowlisted("statements", "STMT-B")),
+    "same label in two kinds": mutate("claims", "CLAIM-A", label="A"),
 }
 
 
 def write_check_fixture(root, change=None):
-    """Write the fixture checkout, with a copy of `scripts/*.py` so the
-    unmodified Python validator runs against it."""
+    """Write the fixture checkout with readable ids, convert it to uuid
+    identity, apply `change` to the migrated records, and copy `scripts/*.py`
+    so the unmodified Python validator runs against it."""
     records = check_records()
     configs = {result["id"]: {"challenge_module": result["challenge_module"],
                               "solution_module": result["solution_module"],
                               "theorem_names": [result["theorem"]], "permitted_axioms": [],
                               "enable_nanoda": True} for result in records["results"]}
-    if change is not None:
-        if change.__code__.co_argcount == 2:
-            change(records, configs)
-        else:
-            change(records)
+    if change is not None and change.__code__.co_argcount == 2:
+        change(None, configs)
+        change = None
     for kind, items in records.items():
         directory = root / "corpus" / kind
         directory.mkdir(parents=True, exist_ok=True)
@@ -484,6 +586,18 @@ def write_check_fixture(root, change=None):
     for path, text in CHECK_LEAN.items():
         (root / path).parent.mkdir(parents=True, exist_ok=True)
         (root / path).write_text(text)
+    migrate(root)
+    if change is not None:
+        files = {kind: sorted((root / "corpus" / kind).glob("*.json")) for kind in records}
+        migrated = {kind: [json.loads(path.read_text()) for path in paths] for kind, paths in files.items()}
+        cleanup = root / "docs" / "notes" / "label-cleanup.json"
+        migrated["_cleanup"] = json.loads(cleanup.read_text()) if cleanup.is_file() else []
+        change(migrated)
+        cleanup.write_text(json.dumps(migrated.pop("_cleanup")))
+        for kind, items in migrated.items():
+            for index, record in enumerate(items):
+                path = files[kind][index] if index < len(files[kind]) else root / "corpus" / kind / f"{index:02d}-new.json"
+                path.write_text(json.dumps(record, indent=2))
     (root / "scripts").mkdir(exist_ok=True)
     for script in (corpus.ROOT / "scripts").glob("*.py"):
         shutil.copy(script, root / "scripts" / script.name)
@@ -540,6 +654,17 @@ class TruthCheckParity(unittest.TestCase):
                              "self_evident basis observation is not met"):
                 self.assertIn(expected, warnings)
             self.assertNotIn("markAbstract", warnings)
+
+    def test_fixture_identity_warnings(self):
+        for name, change in CHECK_WARNINGS.items():
+            with self.subTest(name), tempfile.TemporaryDirectory() as temporary:
+                root = Path(temporary)
+                write_check_fixture(root, change)
+                self.assertTrue(self.assert_same(root).startswith("corpus ok: "), name)
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            write_check_fixture(root, CHECK_WARNINGS["allowlisted untagged sense"])
+            self.assertIn("allowlisted in docs/notes/label-cleanup.json", python_check(root).stderr)
 
     def test_fixture_failures(self):
         for name, change in CHECK_FAILURES.items():

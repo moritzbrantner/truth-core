@@ -6,6 +6,7 @@ from pathlib import Path
 import re
 import subprocess
 import tempfile
+from corpus_ids import is_uuid  # noqa: E402
 
 TERM = re.compile(r"[A-Za-z_][A-Za-z_0-9]*(?:\.(?:[A-Za-z_][A-Za-z_0-9]*|[0-9]+))*")
 NAME = re.compile(r"[A-Za-z_][A-Za-z_0-9]*(?:\.[A-Za-z_][A-Za-z_0-9]*)*")
@@ -14,8 +15,8 @@ NAME = re.compile(r"[A-Za-z_][A-Za-z_0-9]*(?:\.[A-Za-z_][A-Za-z_0-9]*)*")
 def validate_model(model, statements, root):
     def name(value):
         return isinstance(value, str) and NAME.fullmatch(value)
-    if not isinstance(model.get('id'), str) or not re.fullmatch(r'MODEL-[A-Z0-9-]+', model['id']):
-        raise ValueError('model id must be MODEL-…')
+    if not is_uuid(model.get('id')):
+        raise ValueError('model id must be a uuid')
     for key in ('description', 'vocabulary', 'lean_declaration'):
         if not isinstance(model.get(key), str) or not model[key]:
             raise ValueError(f'missing {key}')

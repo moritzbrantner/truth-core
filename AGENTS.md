@@ -434,34 +434,13 @@ TruthCore.Greek.Plato.Timaeus
 TruthCore.Greek.Aristotle.Physics
 ```
 
-Claim IDs are stable provenance/interpretation IDs:
+Corpus ids are opaque UUIDs (owner decision 2026-11-07): "we just cannot afford any ambiguity anymore". A readable id puts words, and therefore senses, into identity.
 
-```text
-PLATO-TIM-28A-CAUSE-A
-PLATO-TIM-28A-CAUSE-B
-```
-
-Statement IDs are stable proposition IDs and should not encode an assertion that two source readings are identical:
-
-```text
-STMT-CAUSE-PRINCIPLE-BROAD
-STMT-COSMOS-HAS-CAUSE
-```
-
-Passage IDs identify reproducible source evidence ranges, not interpretations:
-
-```text
-PLATO-TIM-28
-ARIST-PHYS-I-4
-```
-
-Argument IDs identify a composed derivation. Result IDs identify a verifier record and may intentionally match the argument ID in the seed corpus:
-
-```text
-PLATO-TIM-28A-28C-COSMOS-CAUSE-A
-```
-
-Do not renumber existing IDs merely because new earlier material is added.
+- **Never mint a readable id.** A new record gets a uuid4 (`python3 scripts/new_id.py`); `argument_batch.py` mints them for spec records.
+- **Use labels for humans.** Every record has a `label`, unique within its kind, at most 100 characters, with no id-like text, naming the thing plainly (a statement by its proposition, an argument or result by its conclusion and route). A term with a linked disambiguated sense carries its sense tag: "Act is PRIOR_1 to potency".
+- **Legacy readable ids are aliases.** Migrated records keep the old id as `legacy_id` (for example `STMT-CATHOLICISM-TRUE`, `PLATO-TIM-28A-CAUSE-A`); tools and prose may use it, and it resolves to exactly one uuid per kind. Tools accept a uuid, legacy id or label and print `label [uuid8]`.
+- **IDs are permanent UUIDs; legacy aliases never change.** Labels may be improved at any time; docs/notes/label-cleanup.md lists the mechanical labels to fix, and that list may only shrink (#1233).
+- An in-flight branch with readable-id records converts by merging `origin/main` and running `python3 scripts/migrate_uuid.py --write` (docs/notes/uuid-migration.md).
 
 <!-- BEGIN:turborepo-agent-rules -->
 
