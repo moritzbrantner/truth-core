@@ -1,0 +1,13 @@
+{
+  "id": "STMT-LACKING-ESSE-IS-MERELY-POSSIBLE",
+  "paraphrase": "OPEN analyst premise: whatever is not in act of esse is merely possible (in potency to being only). A Platonist about abstracta denies it: a number lacks esse in re without being merely possible.",
+  "lean_declaration": "TruthCore.Causality.Round2ExistenceAct.LackingEsseIsMerelyPossible",
+  "definition_ids": [
+    "DEF-MERELY-POSSIBLE-CANDIDATE",
+    "DEF-ACT",
+    "DEF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT"
+  ]
+}

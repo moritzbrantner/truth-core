@@ -1,0 +1,10 @@
+{
+  "id": "INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-OPERATING",
+  "argument_id": "INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-OPERATING",
+  "challenge_module": "TruthCore.Results.Causality.Round2ExistenceAct.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round2ExistenceAct.Solution",
+  "theorem": "TruthCore.Results.Causality.Round2ExistenceAct.intellectualExerciseRequiresActFromOperating",
+  "comparator_config": "results/INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-OPERATING/comparator.json",
+  "status": "solution-present",
+  "description": "Every attributed intellectual exercise requires its bearer to be in act in some respect, from two OPEN premises: whoever exercises intellect operates, and whatever operates is in act in some respect (the generic, not only transient, operari sequitur esse)."
+}

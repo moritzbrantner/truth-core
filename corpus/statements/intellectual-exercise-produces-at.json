@@ -1,0 +1,9 @@
+{
+  "id": "STMT-INTELLECTUAL-EXERCISE-PRODUCES-AT",
+  "paraphrase": "OPEN and contested analyst premise: whoever is attributed an intellectual exercise causes something at the selected world (the inner word or concept). Aquinas calls understanding an immanent action, which this premise treats as also a causing of another.",
+  "lean_declaration": "TruthCore.Causality.Round2ExistenceAct.IntellectualExerciseProducesAt",
+  "definition_ids": [
+    "DEF-Q75-OPERATION-ATTRIBUTION",
+    "DEF-KANT-ONTOLOGICAL-MODEL"
+  ]
+}

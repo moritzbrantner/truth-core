@@ -1,0 +1,12 @@
+{
+  "id": "INF-INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-ACTIVE-POWER",
+  "input_statement_ids": [
+    "STMT-INTELLECTUAL-EXERCISER-HAS-POWER",
+    "STMT-AQUINAS-ACTIVE-POWER-ONLY-IN-ACT"
+  ],
+  "output_statement_id": "STMT-INTELLECTUAL-EXERCISE-REQUIRES-ACT",
+  "rule": "Universal instantiation, modus ponens",
+  "meaning": "From the OPEN premise that whoever exercises intellect has active power at w and the q.25 a.1 reading that whatever has active power at w is in act in some respect.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

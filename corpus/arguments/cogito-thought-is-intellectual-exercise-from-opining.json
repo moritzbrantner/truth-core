@@ -1,0 +1,25 @@
+{
+  "id": "COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE-FROM-OPINING",
+  "premise_statement_ids": [
+    "STMT-COGITO-BORNE-THOUGHT-IS-OPINING",
+    "STMT-OPINING-BORNE-CONTENT-IS-INTELLECTUAL-EXERCISE"
+  ],
+  "conclusion_statement_id": "STMT-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE",
+  "inference_ids": [
+    "INF-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE-FROM-OPINING"
+  ],
+  "meaning": "Reuses the motion fork's open bridge (whoever bears an occurring thought opines its content) with the OPEN premise that a bearer opining the content of its episode exercises intellect in it. Joins the Cogito motion fork to the operation route.",
+  "definition_ids": [
+    "DEF-BORNE-THOUGHT-AS-OPINING",
+    "DEF-COGITO-THINKING-AS-INTELLECTUAL-EXERCISE",
+    "DEF-OPINING",
+    "DEF-Q75-OPERATION-ATTRIBUTION",
+    "DEF-THOUGHT-BEARER",
+    "DEF-THOUGHT-OCCURRENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT",
+    "DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE",
+    "DISAMB-THOUGHT-VS-OPINING"
+  ]
+}

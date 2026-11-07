@@ -1,0 +1,53 @@
+# Exploration map: every bearer of an occurring thought exists at the selected world.
+target = "STMT-COGITO-BEARER-EXISTS-AT-WORLD"
+
+[[node]]
+id = "STMT-COGITO-BEARER-EXISTS-AT-WORLD"
+
+[[node]]
+id = "STMT-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE"
+
+[[node]]
+id = "STMT-INTELLECTUAL-EXERCISE-REQUIRES-ACT"
+
+[[node]]
+id = "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING"
+
+[[node]]
+id = "STMT-COGITO-BEARER-IS-CONCRETE"
+
+[[node]]
+id = "STMT-ACT-OF-ESSE-SUFFICES-FOR-EXISTENCE-AT"
+new = true
+text = "Converse of the esse contract: whatever is in act of esse exists at the selected world."
+
+[[node]]
+id = "STMT-OCCURRING-THOUGHT-OCCURS-AT-WORLD"
+new = true
+text = "Every occurring thought episode occurs at the selected world."
+
+[[node]]
+id = "STMT-BEARER-EXISTS-WHERE-EPISODE-OCCURS"
+new = true
+text = "At any world, whoever bears an episode occurring there exists there."
+
+[[edge]]
+premises = ["STMT-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE", "STMT-INTELLECTUAL-EXERCISE-REQUIRES-ACT", "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING", "STMT-ACT-OF-ESSE-SUFFICES-FOR-EXISTENCE-AT"]
+conclusion = "STMT-COGITO-BEARER-EXISTS-AT-WORLD"
+kind = "derivation"
+status = "certified"
+note = "Certified as COGITO-BEARER-EXISTS-FROM-OPERATION-AND-ESSE: thought is intellectual exercise, exercise requires act, act only insofar as esse, esse suffices for existence at the selected world (OPEN converse of the esse contract)."
+
+[[edge]]
+premises = ["STMT-OCCURRING-THOUGHT-OCCURS-AT-WORLD", "STMT-BEARER-EXISTS-WHERE-EPISODE-OCCURS"]
+conclusion = "STMT-COGITO-BEARER-EXISTS-AT-WORLD"
+kind = "derivation"
+status = "certified"
+note = "Certified as COGITO-BEARER-EXISTS-FROM-WORLD-INDEXED-OCCURRENCE."
+
+[[edge]]
+premises = ["STMT-COGITO-BEARER-IS-CONCRETE"]
+conclusion = "STMT-COGITO-BEARER-EXISTS-AT-WORLD"
+kind = "derivation"
+status = "rejected"
+note = "Rejected: the concreteness predicate is world-independent, so it cannot give existence at a selected world (NonexistentBearerControl in CogitoConcrete has a concrete nonexistent bearer)."

@@ -1,0 +1,23 @@
+{
+  "id": "INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-ACTIVE-POWER",
+  "premise_statement_ids": [
+    "STMT-INTELLECTUAL-EXERCISER-HAS-POWER",
+    "STMT-AQUINAS-ACTIVE-POWER-ONLY-IN-ACT"
+  ],
+  "conclusion_statement_id": "STMT-INTELLECTUAL-EXERCISE-REQUIRES-ACT",
+  "inference_ids": [
+    "INF-INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-ACTIVE-POWER"
+  ],
+  "meaning": "From the OPEN premise that whoever exercises intellect has active power at w and the q.25 a.1 reading that whatever has active power at w is in act in some respect.",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE",
+    "DEF-COGITO-INTELLECTUAL-EXERCISE-IN-ACT",
+    "DEF-POWER-CAPACITY-READING",
+    "DEF-Q75-OPERATION-ATTRIBUTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT",
+    "DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE"
+  ]
+}

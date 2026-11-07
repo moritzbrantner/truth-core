@@ -1,0 +1,9 @@
+{
+  "id": "STMT-OCCURRING-THOUGHT-IS-INTELLECTIVE",
+  "paraphrase": "OPEN analyst premise: every occurring thought episode is intellective (an act of understanding or judging, not a mere sensation or feeling). False on Descartes's broad reading of cogitatio, which counts sensing as thinking.",
+  "lean_declaration": "TruthCore.Causality.Round2ExistenceAct.OccurringThoughtIsIntellective",
+  "definition_ids": [
+    "DEF-INTELLECTIVE-EPISODE",
+    "DEF-THOUGHT-OCCURRENCE"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "STMT-ACT-OF-ESSE-SUFFICES-FOR-EXISTENCE-AT",
+  "paraphrase": "OPEN converse of STMT-EXISTING-IN-ACT-AT: whatever is in act of esse exists at the selected world. InAct is not world-indexed, so this reads esse relative to the selected world; the esse-profile specialization (TruthCore.Logic.CogitoEsse) does not assert it.",
+  "lean_declaration": "TruthCore.Causality.Round2ExistenceAct.ActOfEsseSufficesForExistenceAt",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-ESSE",
+    "DEF-KANT-ONTOLOGICAL-MODEL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-IN-ACT"
+  ]
+}
