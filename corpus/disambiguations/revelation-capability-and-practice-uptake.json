@@ -11,7 +11,8 @@
     {
       "id": "30a5ce57-c9e0-448d-b2b0-449cd7cbe3c5",
       "label": "RECOGNIZABLE_REVELATION_1",
-      "definition_id": "DEF-REVELATION-RECOGNITION-PROFILE"
+      "definition_id": "DEF-REVELATION-RECOGNITION-PROFILE",
+      "lean_declaration": "TruthCore.Alternatives.RevelationRecognition.RecognitionProfile"
     },
     {
       "id": "030fd6db-ddfd-4995-8801-68c3d1c34705",

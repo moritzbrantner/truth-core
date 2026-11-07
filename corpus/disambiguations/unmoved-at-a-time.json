@@ -12,12 +12,14 @@
     {
       "id": "3c1586e5-459a-421a-9b26-c8cba28439b9",
       "label": "UNMOVED_1",
-      "definition_id": "DEF-TIME-SLICED-FIRST-MOVER"
+      "definition_id": "DEF-TIME-SLICED-FIRST-MOVER",
+      "lean_declaration": "TruthCore.Causality.TemporalPrimaVia.SliceRouteOutcome"
     },
     {
       "id": "3c453d71-a966-4147-a18f-a3d7085258f8",
       "label": "UNMOVED_2",
-      "definition_id": "DEF-FIRST-UNMOVED-MOVER"
+      "definition_id": "DEF-FIRST-UNMOVED-MOVER",
+      "lean_declaration": "TruthCore.Case.Catholicism.IsFirstUnmovedMover"
     },
     {
       "id": "540c7894-ecbe-4cea-bbc9-ade8fca537ad",

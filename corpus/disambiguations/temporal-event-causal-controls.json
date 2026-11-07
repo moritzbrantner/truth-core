@@ -11,12 +11,14 @@
     {
       "id": "c8e41394-5e1f-4eeb-bc9f-2258418ac574",
       "label": "FIRST_INSTANT_FIRST_EVENT_BOUNDED_DURATION_1",
-      "definition_id": "DEF-TEMPORAL-EVENT-CAUSAL-CONTROLS"
+      "definition_id": "DEF-TEMPORAL-EVENT-CAUSAL-CONTROLS",
+      "lean_declaration": "TruthCore.Causality.TemporalEventControls.Controls"
     },
     {
       "id": "f3b2cb10-83da-486f-87d7-13792868ce04",
       "label": "FIRST_INSTANT_FIRST_EVENT_BOUNDED_DURATION_2",
-      "definition_id": "DEF-TEMPORAL-EVENT-EMPTY-CAUSATION"
+      "definition_id": "DEF-TEMPORAL-EVENT-EMPTY-CAUSATION",
+      "lean_declaration": "TruthCore.Causality.TemporalEventControls.independentCauses"
     }
   ]
 }

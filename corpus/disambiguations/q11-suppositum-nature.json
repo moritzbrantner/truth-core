@@ -11,12 +11,14 @@
     {
       "id": "6db84f4f-65fb-4837-8a2f-0887875b818e",
       "label": "SUPPOSITUM_VERSUS_NATURE_IN_Q11_1",
-      "definition_id": "DEF-Q11-INDIVIDUATING-BASIS"
+      "definition_id": "DEF-Q11-INDIVIDUATING-BASIS",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.IndividuatingBasisIsIncommunicableReading"
     },
     {
       "id": "4bba06d2-6fd6-4501-ac7d-f739e6845537",
       "label": "SUPPOSITUM_VERSUS_NATURE_IN_Q11_2",
-      "definition_id": "DEF-ESSENCE-THOMISTIC-NATURE"
+      "definition_id": "DEF-ESSENCE-THOMISTIC-NATURE",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article4.Profile.essenceOf"
     }
   ]
 }

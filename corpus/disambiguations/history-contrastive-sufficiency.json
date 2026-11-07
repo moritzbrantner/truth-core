@@ -11,12 +11,14 @@
     {
       "id": "15e63963-c7bd-4618-ad09-3370455ea5a9",
       "label": "LOCAL_COVERAGE_CONTRASTIVE_DISCRIMINATION_OBTAINING_1",
-      "definition_id": "DEF-HISTORY-CONTRASTIVE-CONTROL"
+      "definition_id": "DEF-HISTORY-CONTRASTIVE-CONTROL",
+      "lean_declaration": "TruthCore.Modal.HistoryContrastive.Discriminates"
     },
     {
       "id": "940a6e2b-18ca-42d9-9153-f7c69697cd2e",
       "label": "LOCAL_COVERAGE_CONTRASTIVE_DISCRIMINATION_OBTAINING_2",
-      "definition_id": "DEF-TEMPORAL-HISTORY-NOW-SLICE"
+      "definition_id": "DEF-TEMPORAL-HISTORY-NOW-SLICE",
+      "lean_declaration": "TruthCore.Modal.TemporalHistory.CoherentAtNow"
     }
   ]
 }

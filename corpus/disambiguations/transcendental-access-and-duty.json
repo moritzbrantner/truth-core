@@ -12,12 +12,14 @@
     {
       "id": "5f947bd9-9674-4f01-8253-b51f2ff951cb",
       "label": "TRUTH_DIRECTED_NORM_VERSUS_ABILITY_1",
-      "definition_id": "DEF-TRUTH-DIRECTED-EPISTEMIC-BRIDGE"
+      "definition_id": "DEF-TRUTH-DIRECTED-EPISTEMIC-BRIDGE",
+      "lean_declaration": "TruthCore.Logic.ReflectiveCoherence.TruthDirected"
     },
     {
       "id": "1d0d7dd9-c67f-44f4-b84c-5a2d46413f3a",
       "label": "TRUTH_DIRECTED_NORM_VERSUS_ABILITY_2",
-      "definition_id": "DEF-DATA-RELATIVE-CORRECTION-CRITERION"
+      "definition_id": "DEF-DATA-RELATIVE-CORRECTION-CRITERION",
+      "lean_declaration": "TruthCore.Logic.CorrectionCriterion.AdmitsCriterion"
     },
     {
       "id": "6cc46b8b-a2fc-4f90-8e66-8109bf5fee6e",

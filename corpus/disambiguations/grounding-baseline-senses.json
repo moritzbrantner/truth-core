@@ -13,22 +13,26 @@
     {
       "id": "6b996383-26b7-4fdb-9cfa-b309d780a550",
       "label": "GROUNDING_COMPLETE_GROUNDS_REASON_PROJECTION_1",
-      "definition_id": "DEF-GROUNDING-MODAL-REDUCT"
+      "definition_id": "DEF-GROUNDING-MODAL-REDUCT",
+      "lean_declaration": "TruthCore.Explanation.GroundingBaseline.Extension"
     },
     {
       "id": "c79a5fde-7ba3-4c29-bb52-3ef1e2b4c2af",
       "label": "GROUNDING_COMPLETE_GROUNDS_REASON_PROJECTION_2",
-      "definition_id": "DEF-ADMITTED-FULL-GROUND-SETS"
+      "definition_id": "DEF-ADMITTED-FULL-GROUND-SETS",
+      "lean_declaration": "TruthCore.Explanation.GroundingBaseline.FullGround"
     },
     {
       "id": "892710b6-cd65-420c-bdbe-9dd7fd2e9247",
       "label": "GROUNDING_COMPLETE_GROUNDS_REASON_PROJECTION_3",
-      "definition_id": "DEF-PSR-STRENGTH-REASON"
+      "definition_id": "DEF-PSR-STRENGTH-REASON",
+      "lean_declaration": "TruthCore.Explanation.PSRStrength.Explained"
     },
     {
       "id": "2eac9cda-119c-4c48-a1a1-a0994d2947fd",
       "label": "GROUNDING_COMPLETE_GROUNDS_REASON_PROJECTION_4",
-      "definition_id": "DEF-GROUND-ENABLING-RULES"
+      "definition_id": "DEF-GROUND-ENABLING-RULES",
+      "lean_declaration": "TruthCore.Explanation.GroundingBaseline.SatisfiesRules"
     }
   ]
 }

@@ -13,7 +13,8 @@
     {
       "id": "8bedbe60-0949-47e6-abf9-271068ee7e57",
       "label": "LIMIT_OF_A_SUPERTASK_SEQUENCE_2",
-      "definition_id": "DEF-SUPERTASK-STABLE-LIMIT"
+      "definition_id": "DEF-SUPERTASK-STABLE-LIMIT",
+      "lean_declaration": "TruthCore.Causality.StableAtLimit"
     }
   ]
 }

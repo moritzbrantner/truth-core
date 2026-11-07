@@ -11,12 +11,14 @@
     {
       "id": "d5bbd5b7-b663-4857-a9bb-32f938f14d2e",
       "label": "LAW_CONSISTENCY_CONDITIONAL_UNIQUENESS_REPRESENTED_REALIZATION_1",
-      "definition_id": "DEF-LAW-ACTUALITY-743"
+      "definition_id": "DEF-LAW-ACTUALITY-743",
+      "lean_declaration": "TruthCore.Explanation.LawActuality.UsesRecord"
     },
     {
       "id": "aebd36ba-65ae-40f1-9d78-8e620606c398",
       "label": "LAW_CONSISTENCY_CONDITIONAL_UNIQUENESS_REPRESENTED_REALIZATION_2",
-      "definition_id": "DEF-ULTIMATE-EXPLANATION-PROFILE"
+      "definition_id": "DEF-ULTIMATE-EXPLANATION-PROFILE",
+      "lean_declaration": "TruthCore.Epistemology.UltimateExplanation.Profile"
     }
   ]
 }

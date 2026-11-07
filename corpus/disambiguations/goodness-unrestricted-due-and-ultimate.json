@@ -13,22 +13,26 @@
     {
       "id": "5670245c-5b23-4be5-bab9-bc08107f690e",
       "label": "GOODNESS_AS_UNRESTRICTED_ACTUALITY_DUE_ACTUALITY_1",
-      "definition_id": "DEF-GOOD-AS-BEING-IN-ACT"
+      "definition_id": "DEF-GOOD-AS-BEING-IN-ACT",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GoodnessIsActualityReading"
     },
     {
       "id": "0aa809c3-e542-472c-8d9a-cefc68580951",
       "label": "GOODNESS_AS_UNRESTRICTED_ACTUALITY_DUE_ACTUALITY_2",
-      "definition_id": "DEF-GOODNESS-DUE-ACTUALITY-PROPOSITION"
+      "definition_id": "DEF-GOODNESS-DUE-ACTUALITY-PROPOSITION",
+      "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.DueActualityThesis"
     },
     {
       "id": "37e132e6-351f-4ac5-857d-7f98953b9e22",
       "label": "GOODNESS_AS_UNRESTRICTED_ACTUALITY_DUE_ACTUALITY_3",
-      "definition_id": "DEF-GOOD-SIMPLICITER-ULTIMATE-PERFECTION"
+      "definition_id": "DEF-GOOD-SIMPLICITER-ULTIMATE-PERFECTION",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.UltimateDuePerfectionRequiredReading"
     },
     {
       "id": "4fc933fb-2ac0-40e8-b84d-ec17433e4e09",
       "label": "GOODNESS_AS_UNRESTRICTED_ACTUALITY_DUE_ACTUALITY_4",
-      "definition_id": "DEF-GOODNESS-ASPECT-SCOPE-TRANSFER"
+      "definition_id": "DEF-GOODNESS-ASPECT-SCOPE-TRANSFER",
+      "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.BoydAspectFragment"
     }
   ]
 }

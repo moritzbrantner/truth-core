@@ -8,7 +8,8 @@
     {
       "id": "612273f5-e0c9-4494-9d97-7d0535ced15f",
       "label": "CAUSE_AND_EXTERNAL_CAUSE_1",
-      "definition_id": "DEF-CAUSE-OF-ORIGIN"
+      "definition_id": "DEF-CAUSE-OF-ORIGIN",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaContraGentiles.WhatComesToBeAnewHasInnovatingCauseReading"
     },
     {
       "id": "1e8459d7-9ff9-4a50-99f7-77379c72379f",

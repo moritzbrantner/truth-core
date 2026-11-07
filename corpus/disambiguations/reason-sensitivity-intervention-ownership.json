@@ -12,17 +12,20 @@
     {
       "id": "22056bab-388a-4be5-b38e-274455853dad",
       "label": "REASON_RESPONSIVE_CONTROL_1",
-      "definition_id": "DEF-REASON-RESPONSE-ACQUISITION"
+      "definition_id": "DEF-REASON-RESPONSE-ACQUISITION",
+      "lean_declaration": "TruthCore.Modal.ReasonResponseHistory.Acquisition"
     },
     {
       "id": "fca9f6be-5348-49c1-93bc-d185e7424fad",
       "label": "REASON_RESPONSIVE_CONTROL_2",
-      "definition_id": "DEF-REASON-RESPONSE-INTERVENTION"
+      "definition_id": "DEF-REASON-RESPONSE-INTERVENTION",
+      "lean_declaration": "TruthCore.Modal.ReasonResponseHistory.ReviewInfluence"
     },
     {
       "id": "e5d3423f-6b32-4b52-9a2d-78f7fe87a464",
       "label": "REASON_RESPONSIVE_CONTROL_3",
-      "definition_id": "DEF-REASON-RESPONSE-PRESENT-DATA"
+      "definition_id": "DEF-REASON-RESPONSE-PRESENT-DATA",
+      "lean_declaration": "TruthCore.Modal.ReasonResponseHistory.observe"
     }
   ]
 }

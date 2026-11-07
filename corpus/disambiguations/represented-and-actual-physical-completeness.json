@@ -11,7 +11,8 @@
     {
       "id": "b62ce6e4-c28b-49f0-9f22-42a7b8a76525",
       "label": "COMPLETE_PHYSICAL_INFORMATION_1",
-      "definition_id": "DEF-COMPLETE-REPRESENTED-PHYSICAL-KNOWLEDGE"
+      "definition_id": "DEF-COMPLETE-REPRESENTED-PHYSICAL-KNOWLEDGE",
+      "lean_declaration": "TruthCore.Logic.KnowledgeAdmissibility.AllPhysicalKnown"
     },
     {
       "id": "e326eba2-1578-41ad-84c2-4fc3830d67f1",

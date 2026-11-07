@@ -11,12 +11,14 @@
     {
       "id": "a8ab70da-a07c-4dbd-9689-843553aa0cd6",
       "label": "EMPTY_WORLD_ROOTED_HISTORY_NECESSITY_1",
-      "definition_id": "DEF-NECESSARY-INDIVIDUAL-SHARED-ROOT"
+      "definition_id": "DEF-NECESSARY-INDIVIDUAL-SHARED-ROOT",
+      "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.SharedRootOnPopulated"
     },
     {
       "id": "29838d88-f2cd-4ec2-a538-5b7a2be9ae4c",
       "label": "EMPTY_WORLD_ROOTED_HISTORY_NECESSITY_2",
-      "definition_id": "DEF-NECESSARY-INDIVIDUAL-ROOTED-CAUSE"
+      "definition_id": "DEF-NECESSARY-INDIVIDUAL-ROOTED-CAUSE",
+      "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.rootedEmptyCauses"
     }
   ]
 }

@@ -13,7 +13,8 @@
     {
       "id": "2a9bf3ee-4e4c-4d8d-a0b2-7113e2402e71",
       "label": "RELATIONSHIP_1",
-      "definition_id": "DEF-HIDDENNESS-CONSCIOUS-ACCESS"
+      "definition_id": "DEF-HIDDENNESS-CONSCIOUS-ACCESS",
+      "lean_declaration": "TruthCore.Hiddenness.Sig.Available"
     },
     {
       "id": "5e3c16d4-dd53-4261-ac53-de1abfdbeef0",

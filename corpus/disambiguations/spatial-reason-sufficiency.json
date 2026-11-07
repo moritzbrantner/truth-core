@@ -22,7 +22,8 @@
     {
       "id": "de34f50c-d597-4ed4-81ff-30f07785988f",
       "label": "SUFFICIENT_REASON_FOR_INDIFFERENT_SPATIAL_ALTERNATIVES_3",
-      "definition_id": "DEF-SPATIAL-COVARIANT-SELECTION"
+      "definition_id": "DEF-SPATIAL-COVARIANT-SELECTION",
+      "lean_declaration": "TruthCore.Space.TranslationBoundary.Covariant"
     }
   ]
 }

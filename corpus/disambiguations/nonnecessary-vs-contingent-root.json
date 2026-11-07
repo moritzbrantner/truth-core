@@ -11,12 +11,14 @@
     {
       "id": "cf6a8bb9-2a70-4e90-86bd-06f69106da2f",
       "label": "NONNECESSARY_VERSUS_CONTINGENT_ROOT_1",
-      "definition_id": "DEF-NONNECESSARY-ROOT"
+      "definition_id": "DEF-NONNECESSARY-ROOT",
+      "lean_declaration": "TruthCore.Causality.NecessaryRootFork.NonnecessaryRootAt"
     },
     {
       "id": "9f9108e2-3cc3-45dd-be1d-d8fdaaced708",
       "label": "NONNECESSARY_VERSUS_CONTINGENT_ROOT_2",
-      "definition_id": "DEF-KANT-MODAL-CONTINGENCY"
+      "definition_id": "DEF-KANT-MODAL-CONTINGENCY",
+      "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.ContingentAt"
     }
   ]
 }

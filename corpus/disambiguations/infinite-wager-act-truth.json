@@ -11,12 +11,14 @@
     {
       "id": "04db4f71-9824-45d2-b887-389d15bdfa34",
       "label": "EXPECTED_UTILITY_RATIONAL_ACTION_BELIEF_1",
-      "definition_id": "DEF-INFINITE-WAGER-MIXTURE"
+      "definition_id": "DEF-INFINITE-WAGER-MIXTURE",
+      "lean_declaration": "TruthCore.Decision.InfiniteWager.value"
     },
     {
       "id": "7a1c93bb-be03-4bcb-b572-a5c18da9317e",
       "label": "EXPECTED_UTILITY_RATIONAL_ACTION_BELIEF_2",
-      "definition_id": "DEF-INFINITE-WAGER-ACTION-WEIGHT"
+      "definition_id": "DEF-INFINITE-WAGER-ACTION-WEIGHT",
+      "lean_declaration": "TruthCore.Decision.InfiniteWager.value"
     }
   ]
 }

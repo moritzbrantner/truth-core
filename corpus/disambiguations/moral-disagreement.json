@@ -11,12 +11,14 @@
     {
       "id": "252d22b8-b681-4e4f-9d76-cc314e6960d5",
       "label": "MORAL_DISAGREEMENT_AND_CONTRADICTION_1",
-      "definition_id": "DEF-DISAGREEMENT-IN-ATTITUDE"
+      "definition_id": "DEF-DISAGREEMENT-IN-ATTITUDE",
+      "lean_declaration": "TruthCore.English.VanRoojen.MoralDisagreementInvolvesAttitudeClashReading"
     },
     {
       "id": "13c1ac85-c9db-4e26-afbf-6857e511a8e4",
       "label": "MORAL_DISAGREEMENT_AND_CONTRADICTION_2",
-      "definition_id": "DEF-GENUINE-MORAL-CONTRADICTION"
+      "definition_id": "DEF-GENUINE-MORAL-CONTRADICTION",
+      "lean_declaration": "TruthCore.Metaethics.GenuinelyContradict"
     }
   ]
 }

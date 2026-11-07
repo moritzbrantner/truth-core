@@ -18,47 +18,56 @@
     {
       "id": "72842b4e-bcba-4115-a23a-db897c723ff6",
       "label": "CAUSE_REGULARITY_COUNTERFACTUAL_AND_EXPLANATION_1",
-      "definition_id": "DEF-REGULARITY-OBSERVATION"
+      "definition_id": "DEF-REGULARITY-OBSERVATION",
+      "lean_declaration": "TruthCore.Modern.Hume.Regularity.Conjunction"
     },
     {
       "id": "f04353c6-c54f-4e2d-a154-4442523e2f4f",
       "label": "CAUSE_REGULARITY_COUNTERFACTUAL_AND_EXPLANATION_2",
-      "definition_id": "DEF-REGULARITY-INTERVENTION"
+      "definition_id": "DEF-REGULARITY-INTERVENTION",
+      "lean_declaration": "TruthCore.Modern.Hume.Regularity.Changes"
     },
     {
       "id": "c7a9aa91-4c06-4961-8332-663ef0d165f3",
       "label": "CAUSE_REGULARITY_COUNTERFACTUAL_AND_EXPLANATION_3",
-      "definition_id": "DEF-REGULARITY-SUCCESSION"
+      "definition_id": "DEF-REGULARITY-SUCCESSION",
+      "lean_declaration": "TruthCore.Modern.Hume.Regularity.RegularCause"
     },
     {
       "id": "449fe780-0139-45cf-b157-3901d00e2600",
       "label": "CAUSE_REGULARITY_COUNTERFACTUAL_AND_EXPLANATION_4",
-      "definition_id": "DEF-REGULARITY-MENTAL-TRANSITION"
+      "definition_id": "DEF-REGULARITY-MENTAL-TRANSITION",
+      "lean_declaration": "TruthCore.Modern.Hume.Regularity.MentalCause"
     },
     {
       "id": "01149e31-de13-400b-9056-2c52c1300a54",
       "label": "CAUSE_REGULARITY_COUNTERFACTUAL_AND_EXPLANATION_5",
-      "definition_id": "DEF-REGULARITY-LAW-SELECTION"
+      "definition_id": "DEF-REGULARITY-LAW-SELECTION",
+      "lean_declaration": "TruthCore.Modern.Hume.Regularity.BestSystemReading"
     },
     {
       "id": "83c7407a-fd00-49bf-ac03-494563913de3",
       "label": "CAUSE_REGULARITY_COUNTERFACTUAL_AND_EXPLANATION_6",
-      "definition_id": "DEF-REGULARITY-SAMPLE"
+      "definition_id": "DEF-REGULARITY-SAMPLE",
+      "lean_declaration": "TruthCore.Modern.Hume.Regularity.sample"
     },
     {
       "id": "19d76efc-867f-404d-974e-bc40a8e4f100",
       "label": "CAUSE_REGULARITY_COUNTERFACTUAL_AND_EXPLANATION_7",
-      "definition_id": "DEF-REGULARITY-PREDICTION"
+      "definition_id": "DEF-REGULARITY-PREDICTION",
+      "lean_declaration": "TruthCore.Modern.Hume.Regularity.PredictionTest"
     },
     {
       "id": "edc44c88-ed0d-4cdc-93a8-bb6f593e6751",
       "label": "CAUSE_REGULARITY_COUNTERFACTUAL_AND_EXPLANATION_8",
-      "definition_id": "DEF-REGULARITY-SCOPE"
+      "definition_id": "DEF-REGULARITY-SCOPE",
+      "lean_declaration": "TruthCore.Modern.Hume.Regularity.LocalCausality"
     },
     {
       "id": "25b33962-693a-45ee-b366-26bbe5fb2fbe",
       "label": "CAUSE_REGULARITY_COUNTERFACTUAL_AND_EXPLANATION_9",
-      "definition_id": "DEF-REGULARITY-GROUND"
+      "definition_id": "DEF-REGULARITY-GROUND",
+      "lean_declaration": "TruthCore.Modern.Hume.Regularity.GroundedTotality"
     }
   ]
 }

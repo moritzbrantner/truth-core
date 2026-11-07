@@ -11,12 +11,14 @@
     {
       "id": "f84d0883-69e1-4afe-bab1-e4ea20e6a850",
       "label": "REMAINDER_1",
-      "definition_id": "DEF-MEREOLOGICAL-COMPLEMENTATION"
+      "definition_id": "DEF-MEREOLOGICAL-COMPLEMENTATION",
+      "lean_declaration": "TruthCore.Mereology.SumOneComplementation.Complementation"
     },
     {
       "id": "9a4ea629-3fdf-4f84-9f39-d4ceb7e57564",
       "label": "REMAINDER_2",
-      "definition_id": "DEF-MEREOLOGICAL-SUPPLEMENTATION"
+      "definition_id": "DEF-MEREOLOGICAL-SUPPLEMENTATION",
+      "lean_declaration": "TruthCore.Mereology.SupplementationFusion.StrongSupplementation"
     }
   ]
 }

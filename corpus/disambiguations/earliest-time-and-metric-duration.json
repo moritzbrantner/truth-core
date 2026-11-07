@@ -11,12 +11,14 @@
     {
       "id": "02358eb6-ce79-444c-a4f4-b33f4ceda715",
       "label": "FINITE_PAST_AS_FIRST_TIME_1",
-      "definition_id": "DEF-TEMPORAL-EXISTENCE-BEGINNING"
+      "definition_id": "DEF-TEMPORAL-EXISTENCE-BEGINNING",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaContraGentiles.ComesToBeAnew"
     },
     {
       "id": "3f872ec2-52fd-4787-86fa-63439b4e53c3",
       "label": "FINITE_PAST_AS_FIRST_TIME_2",
-      "definition_id": "DEF-BOUNDED-METRIC-PAST-CONTROL"
+      "definition_id": "DEF-BOUNDED-METRIC-PAST-CONTROL",
+      "lean_declaration": "TruthCore.Modal.BoundedMetricPast.BoundedMetricPastControl"
     }
   ]
 }

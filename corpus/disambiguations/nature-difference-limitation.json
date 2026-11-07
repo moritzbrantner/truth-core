@@ -12,17 +12,20 @@
     {
       "id": "da5308ed-f918-49bd-af1e-976df00ba54a",
       "label": "DIFFERENCE_OF_NATURE_DIFFERENCE_IN_ACT_1",
-      "definition_id": "DEF-HAS-LIMITING-PRINCIPLE"
+      "definition_id": "DEF-HAS-LIMITING-PRINCIPLE",
+      "lean_declaration": "TruthCore.Causality.RootMultiplication.HasLimitingPrinciple"
     },
     {
       "id": "fef6e369-ea07-4917-8972-12dbc349275e",
       "label": "DIFFERENCE_OF_NATURE_DIFFERENCE_IN_ACT_2",
-      "definition_id": "DEF-UNLIMITED-BEINGS-SHARE-NATURE"
+      "definition_id": "DEF-UNLIMITED-BEINGS-SHARE-NATURE",
+      "lean_declaration": "TruthCore.Causality.RootMultiplication.UnlimitedBeingsShareNature"
     },
     {
       "id": "7543e103-667f-4d45-990f-ac4b8bb2607c",
       "label": "DIFFERENCE_OF_NATURE_DIFFERENCE_IN_ACT_3",
-      "definition_id": "DEF-FIRST-MOVER-ACT-DETERMINES-NATURE"
+      "definition_id": "DEF-FIRST-MOVER-ACT-DETERMINES-NATURE",
+      "lean_declaration": "TruthCore.Causality.RootMultiplication.FirstMoverActDeterminesNature"
     }
   ]
 }

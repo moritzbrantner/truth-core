@@ -11,12 +11,14 @@
     {
       "id": "4bdeb5fc-260b-42df-86af-3da72bc078f9",
       "label": "PARTICIPATION_1",
-      "definition_id": "DEF-PLATONIC-PARTICIPATION"
+      "definition_id": "DEF-PLATONIC-PARTICIPATION",
+      "lean_declaration": "TruthCore.Greek.Plato.Forms.Vocabulary"
     },
     {
       "id": "8e51932b-f4a6-4b76-9666-8d625a1858de",
       "label": "PARTICIPATION_2",
-      "definition_id": "DEF-PLATONIC-EXEMPLAR"
+      "definition_id": "DEF-PLATONIC-EXEMPLAR",
+      "lean_declaration": "TruthCore.Greek.Plato.Forms.Vocabulary"
     }
   ]
 }

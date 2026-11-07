@@ -14,27 +14,32 @@
     {
       "id": "4c55c776-978b-4286-9cc7-70902d723aa1",
       "label": "CLOSURE_1",
-      "definition_id": "DEF-EXPLANATORY-CLOSURE"
+      "definition_id": "DEF-EXPLANATORY-CLOSURE",
+      "lean_declaration": "TruthCore.Explanation.ExplanatoryClosure.Closed"
     },
     {
       "id": "3b0cb064-0bec-4d2b-969c-e4b737a646f4",
       "label": "CLOSURE_2",
-      "definition_id": "DEF-EXPLANATORY-FULL-SUPPLY"
+      "definition_id": "DEF-EXPLANATORY-FULL-SUPPLY",
+      "lean_declaration": "TruthCore.Explanation.ExplanatoryClosure.FullSupply"
     },
     {
       "id": "9ceaa566-bc86-4cf7-956f-3d7d2e979f30",
       "label": "CLOSURE_3",
-      "definition_id": "DEF-EXPLANATORY-REASON-CLOSED"
+      "definition_id": "DEF-EXPLANATORY-REASON-CLOSED",
+      "lean_declaration": "TruthCore.Explanation.ExplanatoryAdequacy.ReasonClosed"
     },
     {
       "id": "21f53c4d-9026-4201-a29f-c88a54ebe50f",
       "label": "CLOSURE_4",
-      "definition_id": "DEF-PSR-CONTINGENT-SCOPE"
+      "definition_id": "DEF-PSR-CONTINGENT-SCOPE",
+      "lean_declaration": "TruthCore.Explanation.ExistencePSR.ContingentPSR"
     },
     {
       "id": "067cd129-e1d1-4c8c-bd4c-aaef9aa6038f",
       "label": "CLOSURE_5",
-      "definition_id": "DEF-JOINT-SCENARIO-SUFFICIENCY"
+      "definition_id": "DEF-JOINT-SCENARIO-SUFFICIENCY",
+      "lean_declaration": "TruthCore.Causality.JointGroups.Exercise.suffices"
     }
   ]
 }

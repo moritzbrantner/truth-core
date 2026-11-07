@@ -11,12 +11,14 @@
     {
       "id": "d405150b-0c57-4367-b968-a2af139a3417",
       "label": "FORM_EQUALITY_EXALTATION_AND_ATTRIBUTION_1",
-      "definition_id": "DEF-PHIL-CHRISTOLOGY-REPORT"
+      "definition_id": "DEF-PHIL-CHRISTOLOGY-REPORT",
+      "lean_declaration": "TruthCore.Greek.NewTestament.Philippians.Christology.Letter"
     },
     {
       "id": "86a03110-102f-42c0-9da7-8995c6f668cf",
       "label": "FORM_EQUALITY_EXALTATION_AND_ATTRIBUTION_2",
-      "definition_id": "DEF-SKELETON-OPEN-PREDICATES"
+      "definition_id": "DEF-SKELETON-OPEN-PREDICATES",
+      "lean_declaration": "TruthCore.Case.Catholicism.Signature"
     }
   ]
 }

@@ -11,12 +11,14 @@
     {
       "id": "9388f01b-4918-4472-97c3-93e1b897c38c",
       "label": "ONE_STEP_ACCESSIBILITY_EDGE_FINITE_PATH_1",
-      "definition_id": "DEF-MODAL-GRAPH-ONE-STEP-ADAPTER"
+      "definition_id": "DEF-MODAL-GRAPH-ONE-STEP-ADAPTER",
+      "lean_declaration": "TruthCore.Modal.Frame.toQuiver"
     },
     {
       "id": "a743d896-ff15-430d-9ec6-dbbf98ef6328",
       "label": "ONE_STEP_ACCESSIBILITY_EDGE_FINITE_PATH_2",
-      "definition_id": "DEF-MODAL-GRAPH-PATH-CLOSURE"
+      "definition_id": "DEF-MODAL-GRAPH-PATH-CLOSURE",
+      "lean_declaration": "TruthCore.Modal.GraphBridgeCertificate"
     }
   ]
 }

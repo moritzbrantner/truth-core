@@ -11,12 +11,14 @@
     {
       "id": "88ded334-2fc0-41c7-b15a-9278ad2c592c",
       "label": "POINTLESS_GRATUITOUS_1",
-      "definition_id": "DEF-ROWE-GRATUITOUS-SUFFERING"
+      "definition_id": "DEF-ROWE-GRATUITOUS-SUFFERING",
+      "lean_declaration": "TruthCore.English.Rowe.GratuitousSufferingReading"
     },
     {
       "id": "b29e35c1-75e3-4f6d-8a89-bfb39ce99c94",
       "label": "POINTLESS_GRATUITOUS_2",
-      "definition_id": "DEF-ROWE-APPARENT-POINTLESSNESS"
+      "definition_id": "DEF-ROWE-APPARENT-POINTLESSNESS",
+      "lean_declaration": "TruthCore.English.Rowe.ApparentlyPointlessSuffering"
     }
   ]
 }

@@ -11,12 +11,14 @@
     {
       "id": "07593d19-53af-4a21-aa03-f2d057576a2f",
       "label": "INTELLECT_NOT_ITSELF_A_BODY_1",
-      "definition_id": "DEF-Q75-INTELLECT-NOT-BODY"
+      "definition_id": "DEF-Q75-INTELLECT-NOT-BODY",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.HumanIntellect.IntellectIsNotBody"
     },
     {
       "id": "a45bb817-2a5a-42db-bb06-59f1942ec2fb",
       "label": "INTELLECT_NOT_ITSELF_A_BODY_2",
-      "definition_id": "DEF-Q75-INTELLECT-NONORGAN-OPERATION"
+      "definition_id": "DEF-Q75-INTELLECT-NONORGAN-OPERATION",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.HumanIntellect.IntellectUsesNoBodilyOrgan"
     }
   ]
 }

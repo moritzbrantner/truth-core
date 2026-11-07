@@ -20,7 +20,7 @@ and truthful source-claim boundaries remain in force.
 - Name the root-route node your work serves.
 - In the PR, show the connection in `frontier-diff`, or give an explicit connection plan with its blocker.
 - For a load-bearing ambiguous term, first add the COVERAGE premise ("these are all the relevant senses") and the EXCLUSIVITY premise ("exactly one applies"). Then make a typed sense enum, a result per sense (or a countermodel), and a joint theorem by cases. Only then attack rival definitions.
-- Track senses by label (owner direction, 2026-11-07): each disambiguated term has senses TERM_n (PRIOR_1, PRIOR_2) with uuid identities. Use one sense per term in each argument; an argument that works in two senses becomes two arguments (`for_each_sense` in the batch spec), and a premise relating two senses is listed in `sense_bridges`. `corpus.py context` and `dossier` show the labels; `corpus.py check` rejects unbridged mixing in new arguments.
+- Track senses by label (owner direction, 2026-11-07): each disambiguated term has senses TERM_n (PRIOR_1, PRIOR_2) with uuid identities. Each sense is its own Lean type (`lean_declaration` on the sense), so equivocation is a type error; give a new sense its own declaration, never reuse another sense's. Use one sense per term in each argument; an argument that works in two senses becomes two arguments (`for_each_sense` in the batch spec), and a premise relating two senses is listed in `sense_bridges`. `corpus.py context` and `dossier` show the labels; `corpus.py check` rejects unbridged mixing in new arguments.
 
 See AGENTS.md, "Connect every library to the case".
 

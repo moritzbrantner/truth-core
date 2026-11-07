@@ -11,12 +11,14 @@
     {
       "id": "b1f3d35e-87ba-4c83-ab6e-bd465f855f46",
       "label": "CONTINGENCY_1",
-      "definition_id": "DEF-KANT-MODAL-CONTINGENCY"
+      "definition_id": "DEF-KANT-MODAL-CONTINGENCY",
+      "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.ContingentAt"
     },
     {
       "id": "4859aa6e-ed73-401f-8574-79a43bdae625",
       "label": "CONTINGENCY_2",
-      "definition_id": "DEF-KANT-EMPIRICAL-CONTINGENCY"
+      "definition_id": "DEF-KANT-EMPIRICAL-CONTINGENCY",
+      "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.ChangeDoesNotGiveModalContingency"
     }
   ]
 }

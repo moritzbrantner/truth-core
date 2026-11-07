@@ -12,17 +12,20 @@
     {
       "id": "0d602085-aea3-467e-8a39-7f0397320e53",
       "label": "SELECTED_NECESSARY_PARTS_FUSION_VERSUS_ACTUAL_1",
-      "definition_id": "DEF-OVERLAP-EXTENSIONAL-PARTHOOD"
+      "definition_id": "DEF-OVERLAP-EXTENSIONAL-PARTHOOD",
+      "lean_declaration": "TruthCore.Mereology.NecessaryPartFusionDecomposition.OverlapExtensionalParthood"
     },
     {
       "id": "293b6201-a9b6-44e0-bf2b-93f79e7c0e1e",
       "label": "SELECTED_NECESSARY_PARTS_FUSION_VERSUS_ACTUAL_2",
-      "definition_id": "DEF-SELECTED-NECESSARY-PARTS-FUSION"
+      "definition_id": "DEF-SELECTED-NECESSARY-PARTS-FUSION",
+      "lean_declaration": "TruthCore.Mereology.NecessaryPartFusionDecomposition.SelectedNecessaryPartsFusionAt"
     },
     {
       "id": "28b10486-8a0b-45cd-8ff5-9e0ae4fa779b",
       "label": "SELECTED_NECESSARY_PARTS_FUSION_VERSUS_ACTUAL_3",
-      "definition_id": "DEF-NECESSARY-PART-FUSION-DECOMPOSITION"
+      "definition_id": "DEF-NECESSARY-PART-FUSION-DECOMPOSITION",
+      "lean_declaration": "TruthCore.Mereology.NecessaryPartFusionDecomposition.HasNoNecessaryPartsPartAt"
     }
   ]
 }

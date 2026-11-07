@@ -12,7 +12,8 @@
     {
       "id": "4fecf28a-746e-4d8b-bd42-6a8722507293",
       "label": "PRIOR_1",
-      "definition_id": "DEF-SIMPLE-PRIORITY"
+      "definition_id": "DEF-SIMPLE-PRIORITY",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.ActSimplyPriorToPotencyReading"
     },
     {
       "id": "4d165ba0-7511-4a04-9795-d1f0b7490588",
@@ -22,7 +23,8 @@
     {
       "id": "66a09f6e-13e1-40a0-b18b-9fb2d222d63f",
       "label": "PRIOR_3",
-      "definition_id": "DEF-PRIORITY-IN-SUBSTANCE"
+      "definition_id": "DEF-PRIORITY-IN-SUBSTANCE",
+      "lean_declaration": "TruthCore.Latin.Aquinas.InMetaphysicam.IncorruptiblePriorInSubstanceReading"
     }
   ]
 }

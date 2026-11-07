@@ -11,12 +11,14 @@
     {
       "id": "51972fa1-b662-41d9-a00c-b308de52ec20",
       "label": "FUTURE_FORCING_NEGATION_VERSUS_POINTWISE_NEGATION_1",
-      "definition_id": "DEF-INTUITIONISTIC-PERSISTENT-CONTENTS"
+      "definition_id": "DEF-INTUITIONISTIC-PERSISTENT-CONTENTS",
+      "lean_declaration": "TruthCore.Logic.IntuitionisticKnowability.Content"
     },
     {
       "id": "bff8dba9-72ba-4eb1-bcc9-9ecc6bbfa2a5",
       "label": "FUTURE_FORCING_NEGATION_VERSUS_POINTWISE_NEGATION_2",
-      "definition_id": "DEF-INTUITIONISTIC-KNOWABILITY-OPERATORS"
+      "definition_id": "DEF-INTUITIONISTIC-KNOWABILITY-OPERATORS",
+      "lean_declaration": "TruthCore.Logic.IntuitionisticKnowability.OperatorsExact"
     }
   ]
 }

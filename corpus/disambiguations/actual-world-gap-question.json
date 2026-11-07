@@ -12,17 +12,20 @@
     {
       "id": "c8d6d5f3-1252-447c-9aea-9141a641d143",
       "label": "WHY_THIS_COMPLETE_HISTORY_DIAGONAL_RIGID_1",
-      "definition_id": "DEF-ACTUAL-WORLD-GAP-TOTAL"
+      "definition_id": "DEF-ACTUAL-WORLD-GAP-TOTAL",
+      "lean_declaration": "TruthCore.Explanation.ActualWorldGap.Case"
     },
     {
       "id": "7f14b209-bdeb-4ac2-b89c-00b6f1f42c7c",
       "label": "WHY_THIS_COMPLETE_HISTORY_DIAGONAL_RIGID_2",
-      "definition_id": "DEF-ACTUAL-WORLD-GAP-LOCAL-RECORD"
+      "definition_id": "DEF-ACTUAL-WORLD-GAP-LOCAL-RECORD",
+      "lean_declaration": "TruthCore.Explanation.ActualWorldGap.LocalRecord"
     },
     {
       "id": "3befafe8-2878-426c-84c3-88825f80ec88",
       "label": "WHY_THIS_COMPLETE_HISTORY_DIAGONAL_RIGID_3",
-      "definition_id": "DEF-ACTUAL-WORLD-GAP-CONTRASTIVE-CLOSURE"
+      "definition_id": "DEF-ACTUAL-WORLD-GAP-CONTRASTIVE-CLOSURE",
+      "lean_declaration": "TruthCore.Explanation.ActualWorldGap.ContrastiveClosure"
     }
   ]
 }

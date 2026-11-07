@@ -12,17 +12,20 @@
     {
       "id": "0bf54475-dd78-4abd-ba55-242be43f5eed",
       "label": "EXPLANATION_1",
-      "definition_id": "DEF-PLATONIC-EXPLANATION"
+      "definition_id": "DEF-PLATONIC-EXPLANATION",
+      "lean_declaration": "TruthCore.Greek.Plato.Forms.Vocabulary"
     },
     {
       "id": "332145e8-d5e4-46e2-bc05-f359fa5d9393",
       "label": "EXPLANATION_2",
-      "definition_id": "DEF-PARM-GROUND"
+      "definition_id": "DEF-PARM-GROUND",
+      "lean_declaration": "TruthCore.Greek.Plato.Parmenides.ParticipationChallenges.Explanation"
     },
     {
       "id": "a3d10d72-9679-4c67-9bd1-3b258b4acce3",
       "label": "EXPLANATION_3",
-      "definition_id": "DEF-PARM-CHANGE-PRODUCTION"
+      "definition_id": "DEF-PARM-CHANGE-PRODUCTION",
+      "lean_declaration": "TruthCore.Greek.Plato.Parmenides.ParticipationChallenges.Explanation"
     }
   ]
 }

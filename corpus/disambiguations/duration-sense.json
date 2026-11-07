@@ -14,7 +14,8 @@
     {
       "id": "d1e3190f-07dc-4a66-b638-38dde2cc2de2",
       "label": "ETERNITY_AND_STABLE_DURATION_1",
-      "definition_id": "DEF-ETERNAL"
+      "definition_id": "DEF-ETERNAL",
+      "lean_declaration": "TruthCore.Case.Catholicism.GodIsEternal"
     },
     {
       "id": "50d821ea-9270-43b2-b217-3b7605d9c918",
@@ -34,7 +35,8 @@
     {
       "id": "9403826d-be0d-484a-95f1-047132f8da24",
       "label": "ETERNITY_AND_STABLE_DURATION_5",
-      "definition_id": "DEF-ETERNITY-CALIBRATION-PROFILE"
+      "definition_id": "DEF-ETERNITY-CALIBRATION-PROFILE",
+      "lean_declaration": "TruthCore.Causality.EternityDefinitionFork.Frame"
     }
   ]
 }

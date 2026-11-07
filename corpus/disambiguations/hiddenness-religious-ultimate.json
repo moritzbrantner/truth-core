@@ -11,7 +11,8 @@
     {
       "id": "6a87119d-a4bc-4c38-b566-3f3257234b97",
       "label": "RELIGIOUS_ULTIMATE_1",
-      "definition_id": "DEF-HIDDENNESS-GOD"
+      "definition_id": "DEF-HIDDENNESS-GOD",
+      "lean_declaration": "TruthCore.Hiddenness.Sig.God"
     },
     {
       "id": "d53aecf1-ae39-4d44-b10a-353555218771",

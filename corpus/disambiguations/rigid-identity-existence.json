@@ -11,12 +11,14 @@
     {
       "id": "b9b9cf15-9d1c-49b2-8d9e-3dbda961818c",
       "label": "RIGID_IDENTITY_VERSUS_STRICT_SENTENCE_CO_1",
-      "definition_id": "DEF-PARTIAL-RIGID-DESIGNATION"
+      "definition_id": "DEF-PARTIAL-RIGID-DESIGNATION",
+      "lean_declaration": "TruthCore.Modal.RigidDesignation.RigidAt"
     },
     {
       "id": "57edef51-3da9-4478-82ec-7f4ac35fd0c9",
       "label": "RIGID_IDENTITY_VERSUS_STRICT_SENTENCE_CO_2",
-      "definition_id": "DEF-STRICT-NAME-COREFERENCE"
+      "definition_id": "DEF-STRICT-NAME-COREFERENCE",
+      "lean_declaration": "TruthCore.Modal.RigidDesignation.CoRef"
     }
   ]
 }

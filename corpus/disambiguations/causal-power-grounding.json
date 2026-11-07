@@ -12,17 +12,20 @@
     {
       "id": "122d6742-2263-4d7a-8b65-c43e51bb0d01",
       "label": "ESSENTIAL_CAUSAL_DEPENDENCE_LOCAL_TRANSMISSION_1",
-      "definition_id": "DEF-LOCAL-TRANSMISSION"
+      "definition_id": "DEF-LOCAL-TRANSMISSION",
+      "lean_declaration": "TruthCore.Causality.LocalTransmission"
     },
     {
       "id": "8ff6a7e6-ae90-48d7-ace2-55fad378ddb4",
       "label": "ESSENTIAL_CAUSAL_DEPENDENCE_LOCAL_TRANSMISSION_2",
-      "definition_id": "DEF-ESSENTIAL-POWER-TRANSMISSION-RULE"
+      "definition_id": "DEF-ESSENTIAL-POWER-TRANSMISSION-RULE",
+      "lean_declaration": "TruthCore.Causality.PowerTransmissionRule"
     },
     {
       "id": "6c54750f-3b56-46c1-bf25-62fbab2379af",
       "label": "ESSENTIAL_CAUSAL_DEPENDENCE_LOCAL_TRANSMISSION_3",
-      "definition_id": "DEF-FINITELY-GROUNDED-CAUSAL-POWER"
+      "definition_id": "DEF-FINITELY-GROUNDED-CAUSAL-POWER",
+      "lean_declaration": "TruthCore.Causality.FinitelyGroundedPower"
     }
   ]
 }

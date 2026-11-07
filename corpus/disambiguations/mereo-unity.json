@@ -11,12 +11,14 @@
     {
       "id": "f894692d-2a21-4383-956d-586d7f350f52",
       "label": "UNITY_1",
-      "definition_id": "DEF-MEREO-STRUCTURAL-UNITY"
+      "definition_id": "DEF-MEREO-STRUCTURAL-UNITY",
+      "lean_declaration": "TruthCore.Mereology.Vitalism.Scenario.Integrated"
     },
     {
       "id": "203065c0-7124-4b39-87f7-15a1a4cc8ed3",
       "label": "UNITY_2",
-      "definition_id": "DEF-MEREO-SUBSTANTIAL-UNITY"
+      "definition_id": "DEF-MEREO-SUBSTANTIAL-UNITY",
+      "lean_declaration": "TruthCore.Mereology.Vitalism.Scenario.SubstantialUnity"
     }
   ]
 }

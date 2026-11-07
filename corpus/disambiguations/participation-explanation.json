@@ -14,27 +14,32 @@
     {
       "id": "fad4325f-3ec1-45f8-bf3c-e6d4bea9fed6",
       "label": "EXPLANATION_4",
-      "definition_id": "DEF-PARTICIPATION-COEXTENSION"
+      "definition_id": "DEF-PARTICIPATION-COEXTENSION",
+      "lean_declaration": "TruthCore.Greek.Plato.ParticipationGrounding.Coextension"
     },
     {
       "id": "e09134d3-ffad-402a-87dd-3c73335801f2",
       "label": "EXPLANATION_5",
-      "definition_id": "DEF-PARTICIPATION-GROUND"
+      "definition_id": "DEF-PARTICIPATION-GROUND",
+      "lean_declaration": "TruthCore.Greek.Plato.ParticipationGrounding.Explanation.Grounds"
     },
     {
       "id": "15c5782d-6847-49d1-acd8-1d60b9654256",
       "label": "EXPLANATION_6",
-      "definition_id": "DEF-PARTICIPATION-FORMATION"
+      "definition_id": "DEF-PARTICIPATION-FORMATION",
+      "lean_declaration": "TruthCore.Greek.Plato.ParticipationGrounding.Explanation"
     },
     {
       "id": "01de0237-68b0-42ea-a215-52bbcd6126a2",
       "label": "EXPLANATION_7",
-      "definition_id": "DEF-PARTICIPATION-IDENTIFICATION"
+      "definition_id": "DEF-PARTICIPATION-IDENTIFICATION",
+      "lean_declaration": "TruthCore.Greek.Plato.ParticipationGrounding.Explanation"
     },
     {
       "id": "0bf54475-dd78-4abd-ba55-242be43f5eed",
       "label": "EXPLANATION_1",
-      "definition_id": "DEF-PLATONIC-EXPLANATION"
+      "definition_id": "DEF-PLATONIC-EXPLANATION",
+      "lean_declaration": "TruthCore.Greek.Plato.Forms.Vocabulary"
     }
   ]
 }

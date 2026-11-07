@@ -11,12 +11,14 @@
     {
       "id": "46a3116c-4cd4-4257-a7c9-5bfcb718066a",
       "label": "SCOPE_OF_NO_ABSOLUTE_TRUTH_1",
-      "definition_id": "DEF-NO-ABSOLUTE-TRUTH-SCOPED"
+      "definition_id": "DEF-NO-ABSOLUTE-TRUTH-SCOPED",
+      "lean_declaration": "TruthCore.Logic.Relativism.NoAbsoluteTruth"
     },
     {
       "id": "716e4450-6c80-4f6e-9af5-8ff65d8bb98f",
       "label": "SCOPE_OF_NO_ABSOLUTE_TRUTH_2",
-      "definition_id": "DEF-LOCAL-NO-ABSOLUTE-TRUTH"
+      "definition_id": "DEF-LOCAL-NO-ABSOLUTE-TRUTH",
+      "lean_declaration": "TruthCore.Logic.Relativism.LocalNoAbsoluteTruth"
     }
   ]
 }

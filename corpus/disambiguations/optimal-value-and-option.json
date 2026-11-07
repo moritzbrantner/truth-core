@@ -12,17 +12,20 @@
     {
       "id": "aeebe800-c7f2-47a4-b08e-d0a8fd7d0e6f",
       "label": "BEST_OPTION_BEST_QUALITY_AND_PERFECT_1",
-      "definition_id": "DEF-OPTIMAL-CREATION-CANDIDATE"
+      "definition_id": "DEF-OPTIMAL-CREATION-CANDIDATE",
+      "lean_declaration": "TruthCore.Modal.OptimalCreationChoice.Optimal"
     },
     {
       "id": "0c62addf-ec81-4260-94c8-8e24ddc113a0",
       "label": "BEST_OPTION_BEST_QUALITY_AND_PERFECT_2",
-      "definition_id": "DEF-OPTIMAL-CREATION-OUTPUTS"
+      "definition_id": "DEF-OPTIMAL-CREATION-OUTPUTS",
+      "lean_declaration": "TruthCore.Modal.OptimalCreationChoice.OptimalOutputs"
     },
     {
       "id": "e683893b-90c5-4706-bd2f-3815c1f17bda",
       "label": "BEST_OPTION_BEST_QUALITY_AND_PERFECT_3",
-      "definition_id": "DEF-STRICTLY-IMPROVABLE-CANDIDATES"
+      "definition_id": "DEF-STRICTLY-IMPROVABLE-CANDIDATES",
+      "lean_declaration": "TruthCore.Modal.OptimalCreationChoice.StrictlyImprovable"
     }
   ]
 }

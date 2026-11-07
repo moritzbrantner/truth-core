@@ -11,12 +11,14 @@
     {
       "id": "b8d32dc5-fec0-48e6-9bc7-7a6cebb617c1",
       "label": "GLOBAL_PARTHOOD_ACTUAL_FUSION_AND_FIXED_1",
-      "definition_id": "DEF-PRINCIPAL-IDEAL-ACTUALITY"
+      "definition_id": "DEF-PRINCIPAL-IDEAL-ACTUALITY",
+      "lean_declaration": "TruthCore.Mereology.ActualFusionProfile.model"
     },
     {
       "id": "8378f06c-79c1-4448-81b8-81fc25429475",
       "label": "GLOBAL_PARTHOOD_ACTUAL_FUSION_AND_FIXED_2",
-      "definition_id": "DEF-ACTUAL-FUSION-PROFILE-CERTIFICATE"
+      "definition_id": "DEF-ACTUAL-FUSION-PROFILE-CERTIFICATE",
+      "lean_declaration": "TruthCore.Mereology.ActualFusionProfile.Certificate"
     }
   ]
 }

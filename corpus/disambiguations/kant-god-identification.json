@@ -17,12 +17,14 @@
     {
       "id": "12c445d8-cfbe-4672-b0a0-2b5c20edb05f",
       "label": "GOD_IN_THE_COMPARISON_2",
-      "definition_id": "DEF-KANT-REALITY-PROFILE"
+      "definition_id": "DEF-KANT-REALITY-PROFILE",
+      "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.MostReal"
     },
     {
       "id": "90b6dde4-a809-4da2-8f33-1292d6f21234",
       "label": "GOD_IN_THE_COMPARISON_3",
-      "definition_id": "DEF-GOD-OF-CLASSICAL-THEISM"
+      "definition_id": "DEF-GOD-OF-CLASSICAL-THEISM",
+      "lean_declaration": "TruthCore.Case.Catholicism.Signature.IsGod"
     }
   ]
 }

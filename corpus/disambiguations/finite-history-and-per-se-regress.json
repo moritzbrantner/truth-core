@@ -14,22 +14,26 @@
     {
       "id": "1b5ca488-1abc-46b5-86ff-9f1834df9c68",
       "label": "FINITE_CAUSAL_HISTORY_AND_PER_SE_1",
-      "definition_id": "DEF-FINITE-DISTINCT-CAUSAL-ANCESTRY"
+      "definition_id": "DEF-FINITE-DISTINCT-CAUSAL-ANCESTRY",
+      "lean_declaration": "TruthCore.Case.Catholicism.StageOne.CausalFinitism.FiniteDistinctAncestry"
     },
     {
       "id": "9c9c60c3-ecc9-4c40-a915-e23cd1b800cf",
       "label": "FINITE_CAUSAL_HISTORY_AND_PER_SE_2",
-      "definition_id": "DEF-CAUSAL-HISTORY-NO-LOOPS"
+      "definition_id": "DEF-CAUSAL-HISTORY-NO-LOOPS",
+      "lean_declaration": "TruthCore.Case.Catholicism.StageOne.CausalFinitism.NoCausalLoops"
     },
     {
       "id": "6c4dd4e0-8db8-4ec5-99ab-a382585d7089",
       "label": "FINITE_CAUSAL_HISTORY_AND_PER_SE_3",
-      "definition_id": "DEF-PER-SE-FINITE-HISTORY-INCLUSION"
+      "definition_id": "DEF-PER-SE-FINITE-HISTORY-INCLUSION",
+      "lean_declaration": "TruthCore.Case.Catholicism.StageOne.CausalFinitism.PerSeLinksIncluded"
     },
     {
       "id": "d49461c3-3e79-474a-9072-2118bf9c2913",
       "label": "FINITE_CAUSAL_HISTORY_AND_PER_SE_4",
-      "definition_id": "DEF-PER-SE-EFFICIENT-CAUSE-LINK"
+      "definition_id": "DEF-PER-SE-EFFICIENT-CAUSE-LINK",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.SecondEfficientCausesCauseOnlyAsCausedReading"
     },
     {
       "id": "88e9acfb-e29c-4546-a4e5-1ad482502293",

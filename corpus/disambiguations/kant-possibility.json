@@ -22,7 +22,8 @@
     {
       "id": "665e207b-38aa-4968-88b0-1a11dd54a10c",
       "label": "POSSIBILITY_3",
-      "definition_id": "DEF-KANT-MODAL-CONTINGENCY"
+      "definition_id": "DEF-KANT-MODAL-CONTINGENCY",
+      "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.ContingentAt"
     }
   ]
 }

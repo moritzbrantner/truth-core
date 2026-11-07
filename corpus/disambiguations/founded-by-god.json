@@ -12,7 +12,8 @@
     {
       "id": "3414b215-106a-483f-8346-c9ac88c64a8c",
       "label": "FOUNDED_BY_GOD_THROUGH_AN_ENVOY_1",
-      "definition_id": "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY"
+      "definition_id": "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+      "lean_declaration": "TruthCore.Case.Catholicism.StageThree.DivineFounding.Agency"
     },
     {
       "id": "a980f3a0-5d3e-4c9d-8072-bf1a293b7311",
@@ -22,7 +23,8 @@
     {
       "id": "b31e945d-2c5a-46c3-9a7f-e6157ba02428",
       "label": "FOUNDED_BY_GOD_THROUGH_AN_ENVOY_3",
-      "definition_id": "DEF-PRINCIPAL-ACT-FOUNDING-READING"
+      "definition_id": "DEF-PRINCIPAL-ACT-FOUNDING-READING",
+      "lean_declaration": "TruthCore.Case.Catholicism.StageThree.FoundingDefinitions.ImmediateOnlyReading"
     }
   ]
 }

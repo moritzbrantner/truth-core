@@ -35,12 +35,14 @@
     {
       "id": "4e89f821-fa3b-4100-a9a4-26a16e097ced",
       "label": "REASON_EXPLANATION_WARRANT_AND_REGRESS_5",
-      "definition_id": "DEF-LOCAL-TRANSMISSION"
+      "definition_id": "DEF-LOCAL-TRANSMISSION",
+      "lean_declaration": "TruthCore.Causality.LocalTransmission"
     },
     {
       "id": "718813b4-7490-4f85-9ce1-bbb0ae234b19",
       "label": "REASON_EXPLANATION_WARRANT_AND_REGRESS_6",
-      "definition_id": "DEF-ALL-PREMISE-GENERATED-WARRANT"
+      "definition_id": "DEF-ALL-PREMISE-GENERATED-WARRANT",
+      "lean_declaration": "TruthCore.Logic.RegressDomains.GeneratedWarrant"
     }
   ]
 }

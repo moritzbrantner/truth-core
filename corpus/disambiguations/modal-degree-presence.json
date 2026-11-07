@@ -11,12 +11,14 @@
     {
       "id": "82267c8d-fd50-40ec-a2d7-33681573d26d",
       "label": "DEGREE_OF_EXISTENCE_WORLD_RELATIVE_PRESENCE_1",
-      "definition_id": "DEF-MODAL-EXISTENCE-DEGREE"
+      "definition_id": "DEF-MODAL-EXISTENCE-DEGREE",
+      "lean_declaration": "TruthCore.Modal.ExistenceDegrees.WeakCauseDegreeBound"
     },
     {
       "id": "9cb1dfa5-0d02-4519-9e9a-1cbf20fbaaa7",
       "label": "DEGREE_OF_EXISTENCE_WORLD_RELATIVE_PRESENCE_2",
-      "definition_id": "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+      "definition_id": "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+      "lean_declaration": "TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1.ExistsAt"
     }
   ]
 }

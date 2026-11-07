@@ -11,12 +11,14 @@
     {
       "id": "20e1734d-c81d-4c02-b733-bcdcff0ea88c",
       "label": "GOOD_IN_BEING_AND_GOOD_1",
-      "definition_id": "DEF-GOOD-AS-BEING-IN-ACT"
+      "definition_id": "DEF-GOOD-AS-BEING-IN-ACT",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GoodnessIsActualityReading"
     },
     {
       "id": "d4059baf-00b6-4392-ae12-08af7c36aa54",
       "label": "GOOD_IN_BEING_AND_GOOD_2",
-      "definition_id": "DEF-NATURAL-LAW-FIRST-PRECEPT"
+      "definition_id": "DEF-NATURAL-LAW-FIRST-PRECEPT",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.FirstPreceptOfNaturalLawReading"
     }
   ]
 }

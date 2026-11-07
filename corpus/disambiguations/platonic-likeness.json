@@ -11,12 +11,14 @@
     {
       "id": "cdc260b5-d12c-43ae-846e-a8ee9f08cf30",
       "label": "LIKENESS_1",
-      "definition_id": "DEF-PLATONIC-LIKENESS"
+      "definition_id": "DEF-PLATONIC-LIKENESS",
+      "lean_declaration": "TruthCore.Greek.Plato.Forms.Vocabulary"
     },
     {
       "id": "968b42bb-95f4-4818-999b-a691daeaefac",
       "label": "LIKENESS_2",
-      "definition_id": "DEF-PLATONIC-IMITATION"
+      "definition_id": "DEF-PLATONIC-IMITATION",
+      "lean_declaration": "TruthCore.Greek.Plato.Forms.Vocabulary"
     }
   ]
 }

@@ -11,12 +11,14 @@
     {
       "id": "f68611f6-b870-4211-87e3-6bc207175263",
       "label": "STRONG_VERSUS_WEAK_ACCESSIBILITY_CONNECTIVITY_1",
-      "definition_id": "DEF-ACCESSIBILITY-COMPONENTS"
+      "definition_id": "DEF-ACCESSIBILITY-COMPONENTS",
+      "lean_declaration": "TruthCore.Modal.AccessibilityComponents.Certificate"
     },
     {
       "id": "d467130c-c38c-4aed-b58c-fdd80433e87d",
       "label": "STRONG_VERSUS_WEAK_ACCESSIBILITY_CONNECTIVITY_2",
-      "definition_id": "DEF-WEAK-ACCESSIBILITY-COMPONENTS"
+      "definition_id": "DEF-WEAK-ACCESSIBILITY-COMPONENTS",
+      "lean_declaration": "TruthCore.Modal.AccessibilityComponents.oneWay"
     }
   ]
 }

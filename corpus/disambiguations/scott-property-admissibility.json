@@ -11,12 +11,14 @@
     {
       "id": "8b6264fb-e673-4fd9-ba4a-f3986cf9bad4",
       "label": "ADMISSIBLE_ESSENCE_PROPERTY_1",
-      "definition_id": "DEF-BOOLEAN-GENERATED-PROPERTY"
+      "definition_id": "DEF-BOOLEAN-GENERATED-PROPERTY",
+      "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.BooleanGeneratedProperty"
     },
     {
       "id": "4f67f24a-33f1-4ae2-ac7c-586cb2af62de",
       "label": "ADMISSIBLE_ESSENCE_PROPERTY_2",
-      "definition_id": "DEF-WORLD-INVARIANT-PROPERTY"
+      "definition_id": "DEF-WORLD-INVARIANT-PROPERTY",
+      "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.WorldInvariantProperty"
     }
   ]
 }

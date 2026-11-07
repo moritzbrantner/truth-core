@@ -11,12 +11,14 @@
     {
       "id": "8c189ca5-e9b8-4b8d-b9fc-8f50e59302ff",
       "label": "ATTESTATION_OF_A_SINGLE_POWER_1",
-      "definition_id": "DEF-COMMISSION-REPORT-POWERS"
+      "definition_id": "DEF-COMMISSION-REPORT-POWERS",
+      "lean_declaration": "TruthCore.Case.Catholicism.StageThree.Commissions.CommissionReport.powers"
     },
     {
       "id": "3179f53e-0a37-4990-bcc5-9c0963b3e612",
       "label": "ATTESTATION_OF_A_SINGLE_POWER_2",
-      "definition_id": "DEF-HEAVEN-RATIFIED-POWER"
+      "definition_id": "DEF-HEAVEN-RATIFIED-POWER",
+      "lean_declaration": "TruthCore.Case.Catholicism.StageThree.CommissionAttestation.HeavenRatified"
     }
   ]
 }

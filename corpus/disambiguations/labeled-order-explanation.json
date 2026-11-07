@@ -12,17 +12,20 @@
     {
       "id": "ad7297f8-2182-4d86-bfd4-11eb4714c914",
       "label": "LABELED_ORDER_IMMEDIATE_LINKS_SELECTION_1",
-      "definition_id": "DEF-LABELED-CHAIN-ARRANGEMENT"
+      "definition_id": "DEF-LABELED-CHAIN-ARRANGEMENT",
+      "lean_declaration": "TruthCore.Explanation.OrderingCardinality.Arrangement"
     },
     {
       "id": "881f0d2a-a460-4082-8a61-8fda18bf0115",
       "label": "LABELED_ORDER_IMMEDIATE_LINKS_SELECTION_2",
-      "definition_id": "DEF-ARRANGEMENT-ENTAILING-SELECTION"
+      "definition_id": "DEF-ARRANGEMENT-ENTAILING-SELECTION",
+      "lean_declaration": "TruthCore.Explanation.OrderingCardinality.Selects"
     },
     {
       "id": "2f006e0f-df60-4f24-948f-6a613df0a449",
       "label": "LABELED_ORDER_IMMEDIATE_LINKS_SELECTION_3",
-      "definition_id": "DEF-HISTORY-SELECTION-INFORMATION"
+      "definition_id": "DEF-HISTORY-SELECTION-INFORMATION",
+      "lean_declaration": "TruthCore.Explanation.HistorySelection.Determines"
     }
   ]
 }

@@ -11,7 +11,8 @@
     {
       "id": "966435ff-a777-4ecf-96dc-ee89d3803559",
       "label": "THE_NAME_GOD_APPLIES_1",
-      "definition_id": "DEF-NAME-REFERS-IN-PRACTICE"
+      "definition_id": "DEF-NAME-REFERS-IN-PRACTICE",
+      "lean_declaration": "TruthCore.Alternatives.FideismReference.NamingPractice.RefersTo"
     },
     {
       "id": "e238e6fa-0dfd-4c67-9a16-4635351b957a",

@@ -12,17 +12,20 @@
     {
       "id": "8c440da6-a1cb-45ba-b29d-7da3cc744f81",
       "label": "ANALYST_NONLIMITING_CONCRETE_EXISTENCE_VERSUS_SOURCE_1",
-      "definition_id": "DEF-NONLIMITING-CONCRETE-CONFIGURATION"
+      "definition_id": "DEF-NONLIMITING-CONCRETE-CONFIGURATION",
+      "lean_declaration": "TruthCore.Causality.NonlimitingConcreteExistence.ConcreteExistence"
     },
     {
       "id": "96447488-3a4b-4bf4-a25b-6aff7ea9cfe2",
       "label": "ANALYST_NONLIMITING_CONCRETE_EXISTENCE_VERSUS_SOURCE_2",
-      "definition_id": "DEF-NONLIMITING-CONCRETE-CONTROL"
+      "definition_id": "DEF-NONLIMITING-CONCRETE-CONTROL",
+      "lean_declaration": "TruthCore.Causality.NonlimitingConcreteExistence.controlProfile"
     },
     {
       "id": "9ed0fd39-8630-4546-82c7-1526396a3c34",
       "label": "ANALYST_NONLIMITING_CONCRETE_EXISTENCE_VERSUS_SOURCE_3",
-      "definition_id": "DEF-LIMITATION-POSSIBILITY-CONFIGURATION"
+      "definition_id": "DEF-LIMITATION-POSSIBILITY-CONFIGURATION",
+      "lean_declaration": "TruthCore.Modal.LimitationPossibility.BackwardClosedAt"
     }
   ]
 }

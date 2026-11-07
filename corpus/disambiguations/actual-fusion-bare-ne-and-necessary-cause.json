@@ -12,7 +12,8 @@
     {
       "id": "c851427f-2953-45c7-993a-aa9a58f7a665",
       "label": "ACTUAL_FUSION_BARE_NECESSARY_EXISTENCE_1",
-      "definition_id": "DEF-ACTUAL-NO-NECESSARY-PARTS-FUSION"
+      "definition_id": "DEF-ACTUAL-NO-NECESSARY-PARTS-FUSION",
+      "lean_declaration": "TruthCore.Causality.ActualFusionNecessaryBeing.ActualFusionAt"
     },
     {
       "id": "728b4876-f418-46fa-8d0c-57aa3ea29454",
@@ -22,7 +23,8 @@
     {
       "id": "95a3d30d-c4fc-43e8-ab4a-66a0cfd1a172",
       "label": "ACTUAL_FUSION_BARE_NECESSARY_EXISTENCE_3",
-      "definition_id": "DEF-NO-NECESSARY-PARTS-AT"
+      "definition_id": "DEF-NO-NECESSARY-PARTS-AT",
+      "lean_declaration": "TruthCore.Mereology.FusionNoNecessaryParts.NoNecessaryPartsAt"
     }
   ]
 }

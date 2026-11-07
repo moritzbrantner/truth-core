@@ -11,12 +11,14 @@
     {
       "id": "bd1665c0-6728-429d-95af-1719cd407f82",
       "label": "CONDITIONAL_NECESSITY_POSSIBILITY_BURDENS_AND_SCOPE_1",
-      "definition_id": "DEF-NECESSARY-IF-EXISTENT-PROFILE"
+      "definition_id": "DEF-NECESSARY-IF-EXISTENT-PROFILE",
+      "lean_declaration": "TruthCore.Modal.NecessaryIfExistent.NecessaryIf"
     },
     {
       "id": "b6a11d9e-4289-4f3f-b2ba-509e9d0cc9fc",
       "label": "CONDITIONAL_NECESSITY_POSSIBILITY_BURDENS_AND_SCOPE_2",
-      "definition_id": "DEF-NECESSARY-IF-ACTUAL-CONDITIONAL"
+      "definition_id": "DEF-NECESSARY-IF-ACTUAL-CONDITIONAL",
+      "lean_declaration": "TruthCore.Modal.NecessaryIfExistent.ActualConditional"
     }
   ]
 }

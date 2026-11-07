@@ -11,12 +11,14 @@
     {
       "id": "60123b0c-705d-4dce-a8f2-088f03b7aaf4",
       "label": "SHARED_GROUP_RECORD_FOR_FACT_GROUNDS_1",
-      "definition_id": "DEF-MIXED-FACT-GROUND-RECORDS"
+      "definition_id": "DEF-MIXED-FACT-GROUND-RECORDS",
+      "lean_declaration": "TruthCore.Explanation.ExistenceIngredient.AutonomousFullGround"
     },
     {
       "id": "47326a15-d7db-499f-a337-700c291bcfe7",
       "label": "SHARED_GROUP_RECORD_FOR_FACT_GROUNDS_2",
-      "definition_id": "DEF-JOINT-CAUSAL-GROUPS"
+      "definition_id": "DEF-JOINT-CAUSAL-GROUPS",
+      "lean_declaration": "TruthCore.Causality.JointGroups.Groups"
     }
   ]
 }

@@ -12,7 +12,8 @@
     {
       "id": "18ce0602-caf2-47ed-8d3e-67e9d778c087",
       "label": "MODAL_ENTAILMENT_VERSUS_INDEPENDENTLY_ADEQUATE_EXISTENCE_1",
-      "definition_id": "DEF-TARGET-COPY-ENTAILING-EXPANSION"
+      "definition_id": "DEF-TARGET-COPY-ENTAILING-EXPANSION",
+      "lean_declaration": "TruthCore.Explanation.TargetCopyExpansion.Certificate"
     },
     {
       "id": "7159fe76-b2c7-4412-8ac0-8d158987e99b",

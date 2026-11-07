@@ -16,7 +16,8 @@
     {
       "id": "1182b9ee-137e-4d53-8a97-ed4f4eb2f77a",
       "label": "INNOCENCE_IN_THE_HARD_CASE_2",
-      "definition_id": "DEF-HARD-CASE-INNOCENCE-NONTHREAT"
+      "definition_id": "DEF-HARD-CASE-INNOCENCE-NONTHREAT",
+      "lean_declaration": "TruthCore.Ethics.HardCaseTyped.Facts.innocent"
     }
   ]
 }

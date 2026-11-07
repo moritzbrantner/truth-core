@@ -12,17 +12,20 @@
     {
       "id": "e1d450e1-1c75-48e7-a6b4-60255b4cae7b",
       "label": "SPATIOTEMPORAL_1",
-      "definition_id": "DEF-PART-OF-SPACETIME"
+      "definition_id": "DEF-PART-OF-SPACETIME",
+      "lean_declaration": "TruthCore.Ontology.Spatiotemporal.PartOfSpacetime"
     },
     {
       "id": "ae03bf93-e554-4f40-a32b-12b55f87cf54",
       "label": "SPATIOTEMPORAL_2",
-      "definition_id": "DEF-SPATIOTEMPORAL-LOCATED"
+      "definition_id": "DEF-SPATIOTEMPORAL-LOCATED",
+      "lean_declaration": "TruthCore.Ontology.Spatiotemporal.Located"
     },
     {
       "id": "3a765060-b999-476c-9f51-f23e08d91252",
       "label": "SPATIOTEMPORAL_3",
-      "definition_id": "DEF-SPATIOTEMPORAL-RELATED"
+      "definition_id": "DEF-SPATIOTEMPORAL-RELATED",
+      "lean_declaration": "TruthCore.Ontology.Spatiotemporal.Related"
     }
   ]
 }

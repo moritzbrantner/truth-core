@@ -13,22 +13,26 @@
     {
       "id": "3ced40d0-923d-4054-b23b-f41747da4c47",
       "label": "SELECTION_OF_A_COMPLETE_HISTORY_1",
-      "definition_id": "DEF-HISTORY-SELECTION-INFORMATION"
+      "definition_id": "DEF-HISTORY-SELECTION-INFORMATION",
+      "lean_declaration": "TruthCore.Explanation.HistorySelection.Determines"
     },
     {
       "id": "ebfc7f75-6a07-48f8-81a0-32b554e20264",
       "label": "SELECTION_OF_A_COMPLETE_HISTORY_2",
-      "definition_id": "DEF-HISTORY-CONTRASTIVE-CONTROL"
+      "definition_id": "DEF-HISTORY-CONTRASTIVE-CONTROL",
+      "lean_declaration": "TruthCore.Modal.HistoryContrastive.Discriminates"
     },
     {
       "id": "36b52d1d-2641-4e43-a198-92136fc87724",
       "label": "SELECTION_OF_A_COMPLETE_HISTORY_3",
-      "definition_id": "DEF-UNIQUE-FEEDBACK-STATE"
+      "definition_id": "DEF-UNIQUE-FEEDBACK-STATE",
+      "lean_declaration": "TruthCore.Causality.UniqueFeedback.Controls"
     },
     {
       "id": "1c98bd74-ddab-437a-8f0e-5e4b751a1081",
       "label": "SELECTION_OF_A_COMPLETE_HISTORY_4",
-      "definition_id": "DEF-HISTORY-SELECTION-CONTROLS"
+      "definition_id": "DEF-HISTORY-SELECTION-CONTROLS",
+      "lean_declaration": "TruthCore.Explanation.HistorySelection.GlobalLaw"
     }
   ]
 }

@@ -11,12 +11,14 @@
     {
       "id": "fa2a7689-2b80-4595-9cfc-32fc69111526",
       "label": "SCIENTISM_1",
-      "definition_id": "DEF-STRONG-SCIENTISM"
+      "definition_id": "DEF-STRONG-SCIENTISM",
+      "lean_declaration": "TruthCore.Logic.Scientism.ScopedScientism"
     },
     {
       "id": "cddb3d25-1047-479d-a152-323cd7af3b55",
       "label": "SCIENTISM_2",
-      "definition_id": "DEF-WEAK-SCIENTISM-RESTRICTED"
+      "definition_id": "DEF-WEAK-SCIENTISM-RESTRICTED",
+      "lean_declaration": "TruthCore.Logic.Scientism.WeakScientism"
     }
   ]
 }

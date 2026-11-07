@@ -12,7 +12,8 @@
     {
       "id": "82f9f21d-b563-48b4-ad96-5384d148ca12",
       "label": "HAVING_WILL_OR_APPETITE_VERSUS_EXERCISING_1",
-      "definition_id": "DEF-HAS-WILL"
+      "definition_id": "DEF-HAS-WILL",
+      "lean_declaration": "TruthCore.Case.Catholicism.GodHasWill"
     },
     {
       "id": "183bff99-a67d-46f9-ae43-a68cba27119c",

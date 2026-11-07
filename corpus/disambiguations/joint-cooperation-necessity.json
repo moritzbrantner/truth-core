@@ -11,12 +11,14 @@
     {
       "id": "2b028456-f33a-42a6-a3a8-518aa289b45c",
       "label": "NECESSARY_1",
-      "definition_id": "DEF-JOINT-COOPERATION-BRANCHES"
+      "definition_id": "DEF-JOINT-COOPERATION-BRANCHES",
+      "lean_declaration": "TruthCore.Explanation.JointCooperation.BruteCoincidence"
     },
     {
       "id": "7af298fb-a2c4-4239-919b-7685f2e1f67a",
       "label": "NECESSARY_2",
-      "definition_id": "DEF-KANT-MODAL-NECESSITY"
+      "definition_id": "DEF-KANT-MODAL-NECESSITY",
+      "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.NecessaryAt"
     }
   ]
 }

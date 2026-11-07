@@ -11,12 +11,14 @@
     {
       "id": "da83f250-7e89-4860-b3ff-278e48eb341b",
       "label": "EXPLAINS_1",
-      "definition_id": "DEF-PSR-STRENGTH-REASON"
+      "definition_id": "DEF-PSR-STRENGTH-REASON",
+      "lean_declaration": "TruthCore.Explanation.PSRStrength.Explained"
     },
     {
       "id": "4d7377dc-1a49-495f-9832-551f64a1e462",
       "label": "EXPLAINS_2",
-      "definition_id": "DEF-REASON-STRICTLY-SUFFICES"
+      "definition_id": "DEF-REASON-STRICTLY-SUFFICES",
+      "lean_declaration": "TruthCore.Modal.SimplicityCollapse.Necessitates"
     }
   ]
 }

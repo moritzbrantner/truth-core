@@ -11,12 +11,14 @@
     {
       "id": "a5079d48-1558-4bc9-a02b-60d82096232d",
       "label": "COLLAPSE_OF_TRUTH_1",
-      "definition_id": "DEF-GLOBAL-PROPOSITIONAL-COLLAPSE"
+      "definition_id": "DEF-GLOBAL-PROPOSITIONAL-COLLAPSE",
+      "lean_declaration": "TruthCore.Logic.TruthNontriviality.GlobalPropositionalCollapse"
     },
     {
       "id": "3bae89b3-b0c4-4e3e-af8c-433d403f1613",
       "label": "COLLAPSE_OF_TRUTH_2",
-      "definition_id": "DEF-TRUTH-PREDICATE-COLLAPSE"
+      "definition_id": "DEF-TRUTH-PREDICATE-COLLAPSE",
+      "lean_declaration": "TruthCore.Logic.TruthNontriviality.Collapse"
     }
   ]
 }

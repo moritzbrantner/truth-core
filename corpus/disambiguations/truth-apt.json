@@ -12,17 +12,20 @@
     {
       "id": "8c7dda6e-2c1a-4304-8c30-088b9c8893c9",
       "label": "TRUTH_APT_1",
-      "definition_id": "DEF-TRUTH-VALUE"
+      "definition_id": "DEF-TRUTH-VALUE",
+      "lean_declaration": "TruthCore.English.OConnor.LackingTruthValueExcludesTruthReading"
     },
     {
       "id": "1e12bcc0-f021-4f7d-ac62-4c0584230eaa",
       "label": "TRUTH_APT_2",
-      "definition_id": "DEF-THOUGHT-TRUE-OR-FALSE"
+      "definition_id": "DEF-THOUGHT-TRUE-OR-FALSE",
+      "lean_declaration": "TruthCore.Greek.Aristotle.Metaphysics.TruthAptThoughtAffirmsOrDeniesReading"
     },
     {
       "id": "05fc5fff-e2ed-4c3c-8876-5cff5e5cf38c",
       "label": "TRUTH_APT_3",
-      "definition_id": "DEF-MINIMAL-TRUTH-APTNESS"
+      "definition_id": "DEF-MINIMAL-TRUTH-APTNESS",
+      "lean_declaration": "TruthCore.English.VanRoojen.MinimalConstraintsSufficeForTruthAptnessReading"
     }
   ]
 }

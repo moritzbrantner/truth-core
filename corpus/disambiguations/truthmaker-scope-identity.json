@@ -15,22 +15,26 @@
     {
       "id": "4abf4dd3-e3c4-4522-9d0b-d714c9f3ad48",
       "label": "TRUTHMAKER_COVERAGE_UNIFORMITY_AND_NECESSITY_1",
-      "definition_id": "DEF-TRUTHMAKER-SCOPE-PROFILES"
+      "definition_id": "DEF-TRUTHMAKER-SCOPE-PROFILES",
+      "lean_declaration": "TruthCore.Explanation.TruthmakerTheories.Maximalist"
     },
     {
       "id": "1c2491a7-8218-4e6e-bfdf-1c0774f1793e",
       "label": "TRUTHMAKER_COVERAGE_UNIFORMITY_AND_NECESSITY_2",
-      "definition_id": "DEF-TRUTHMAKER-UNIFORMITY"
+      "definition_id": "DEF-TRUTHMAKER-UNIFORMITY",
+      "lean_declaration": "TruthCore.Explanation.TruthmakerTheories.UniformMaker"
     },
     {
       "id": "f5a860f0-7dbd-4f33-9042-cb6d2ef686b2",
       "label": "TRUTHMAKER_COVERAGE_UNIFORMITY_AND_NECESSITY_3",
-      "definition_id": "DEF-NEGATIVE-TRUTHMAKER-DOMAIN"
+      "definition_id": "DEF-NEGATIVE-TRUTHMAKER-DOMAIN",
+      "lean_declaration": "TruthCore.Explanation.TruthmakerTheories.EmptyFact"
     },
     {
       "id": "ea07caae-24e6-4a12-9e6d-6075dbbb05a3",
       "label": "TRUTHMAKER_COVERAGE_UNIFORMITY_AND_NECESSITY_4",
-      "definition_id": "DEF-CONCRETE-EMPTY-TRUTHMAKER"
+      "definition_id": "DEF-CONCRETE-EMPTY-TRUTHMAKER",
+      "lean_declaration": "TruthCore.Explanation.TruthmakerTheories.ConcreteEmptyFact"
     },
     {
       "id": "f108e88f-241f-436f-b855-6667101c6101",

@@ -29,12 +29,14 @@
     {
       "id": "a3671f1a-3b7f-465d-a278-c00aaf298274",
       "label": "UNITY_FORM_AND_CAUSE_4",
-      "definition_id": "DEF-CAUSE-OF-PERFECTION"
+      "definition_id": "DEF-CAUSE-OF-PERFECTION",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.CausesAllInGenus"
     },
     {
       "id": "bfcc91f9-19b0-4080-a7ae-eb9997ad8b5b",
       "label": "UNITY_FORM_AND_CAUSE_5",
-      "definition_id": "DEF-MEREO-SUBSTANTIAL-UNITY"
+      "definition_id": "DEF-MEREO-SUBSTANTIAL-UNITY",
+      "lean_declaration": "TruthCore.Mereology.Vitalism.Scenario.SubstantialUnity"
     }
   ]
 }

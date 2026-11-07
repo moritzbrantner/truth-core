@@ -11,12 +11,14 @@
     {
       "id": "c531a39a-c2ad-4d5f-883a-0d8f5b94b48e",
       "label": "PERSONAL_CHOICE_IMPERSONAL_GROUND_1",
-      "definition_id": "DEF-EXPLANATORY-CHOICE-MARKS"
+      "definition_id": "DEF-EXPLANATORY-CHOICE-MARKS",
+      "lean_declaration": "TruthCore.Explanation.ExplanatorySymmetry.Marks"
     },
     {
       "id": "6ff93759-fa9d-4883-9393-7a5240114f2f",
       "label": "PERSONAL_CHOICE_IMPERSONAL_GROUND_2",
-      "definition_id": "DEF-EXPLANATORY-SYMMETRY-MODELS"
+      "definition_id": "DEF-EXPLANATORY-SYMMETRY-MODELS",
+      "lean_declaration": "TruthCore.Explanation.ExplanatorySymmetry.oneWay"
     }
   ]
 }

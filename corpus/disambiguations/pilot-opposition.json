@@ -11,12 +11,14 @@
     {
       "id": "cc094783-6e92-4e7f-bd9d-4c6f2ff6fd5d",
       "label": "OPPOSED_OR_CONTRADICTORY_OPINIONS_1",
-      "definition_id": "DEF-PILOT-OPINION-OPPOSITION"
+      "definition_id": "DEF-PILOT-OPINION-OPPOSITION",
+      "lean_declaration": "TruthCore.Logic.TruthPilot.OpposedOpinions"
     },
     {
       "id": "1deac036-6f6b-48c6-9a6b-4644b596601f",
       "label": "OPPOSED_OR_CONTRADICTORY_OPINIONS_2",
-      "definition_id": "DEF-PILOT-OPINION-NEGATION"
+      "definition_id": "DEF-PILOT-OPINION-NEGATION",
+      "lean_declaration": "TruthCore.Logic.TruthPilot.NegationRespected"
     }
   ]
 }

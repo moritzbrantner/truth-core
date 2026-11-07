@@ -11,12 +11,14 @@
     {
       "id": "8afd07c5-d7be-4138-83c4-62c59317dc1a",
       "label": "EXISTENTIAL_SUPPORT_SOURCE_VERSUS_ACTUAL_CAUSAL_1",
-      "definition_id": "DEF-UNDERIVED-COMMON-ACTUAL-SOURCE"
+      "definition_id": "DEF-UNDERIVED-COMMON-ACTUAL-SOURCE",
+      "lean_declaration": "TruthCore.Causality.UnderivedCommonSource.ActualCauseSupportsEsse"
     },
     {
       "id": "b5a882ce-e70c-46e1-8e90-9843bcdacf6f",
       "label": "EXISTENTIAL_SUPPORT_SOURCE_VERSUS_ACTUAL_CAUSAL_2",
-      "definition_id": "DEF-WORLD-ACTUAL-CAUSAL-GRAPH"
+      "definition_id": "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
+      "lean_declaration": "TruthCore.Causality.WorldSourceRegress.actualGraph"
     }
   ]
 }

@@ -13,22 +13,26 @@
     {
       "id": "95ee3e69-89f7-479d-9822-e908a24ac847",
       "label": "GROUND_OF_A_NECESSARY_EXISTENTIAL_DISJUNCTION_1",
-      "definition_id": "DEF-LOCAL-GROUND"
+      "definition_id": "DEF-LOCAL-GROUND",
+      "lean_declaration": "TruthCore.Explanation.DisjunctionGround.LocallyGrounded"
     },
     {
       "id": "806d38d8-3e93-4a9d-a8ec-8be78ab802c2",
       "label": "GROUND_OF_A_NECESSARY_EXISTENTIAL_DISJUNCTION_2",
-      "definition_id": "DEF-UNIFORM-GROUND"
+      "definition_id": "DEF-UNIFORM-GROUND",
+      "lean_declaration": "TruthCore.Explanation.DisjunctionGround.UniformGround"
     },
     {
       "id": "09ec8162-eee5-4e79-9819-93ae4dbde78e",
       "label": "GROUND_OF_A_NECESSARY_EXISTENTIAL_DISJUNCTION_3",
-      "definition_id": "DEF-INSTANCE-GROUNDING"
+      "definition_id": "DEF-INSTANCE-GROUNDING",
+      "lean_declaration": "TruthCore.Explanation.DisjunctionGround.InstanceGrounding"
     },
     {
       "id": "29b0683b-fb77-44d3-ada0-5d2ed1f57466",
       "label": "GROUND_OF_A_NECESSARY_EXISTENTIAL_DISJUNCTION_4",
-      "definition_id": "DEF-PSR-EXTERNAL-CAUSE"
+      "definition_id": "DEF-PSR-EXTERNAL-CAUSE",
+      "lean_declaration": "TruthCore.Explanation.ExistencePSR.EveryExistentExternallyCaused"
     }
   ]
 }

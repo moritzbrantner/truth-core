@@ -16,37 +16,44 @@
     {
       "id": "2918a92c-5805-45a7-9c96-16c9905e5fc9",
       "label": "MEANINGFUL_INDEPENDENT_PREDICATE_ONE_WAY_CONDITION_1",
-      "definition_id": "DEF-VERIFICATION-PRINCIPLE"
+      "definition_id": "DEF-VERIFICATION-PRINCIPLE",
+      "lean_declaration": "TruthCore.Logic.Verificationism.VerificationPrinciple"
     },
     {
       "id": "a3732aa8-c069-4f12-8f94-35ce912500cf",
       "label": "MEANINGFUL_INDEPENDENT_PREDICATE_ONE_WAY_CONDITION_2",
-      "definition_id": "DEF-MEANING-CRITERION-CALIBRATION"
+      "definition_id": "DEF-MEANING-CRITERION-CALIBRATION",
+      "lean_declaration": "TruthCore.Logic.MeaningDefinitionFork.Calibration"
     },
     {
       "id": "4073775a-3ac1-4a68-8919-e251bd0184ff",
       "label": "MEANINGFUL_INDEPENDENT_PREDICATE_ONE_WAY_CONDITION_3",
-      "definition_id": "DEF-MEANING-V1-DEFINITION"
+      "definition_id": "DEF-MEANING-V1-DEFINITION",
+      "lean_declaration": "TruthCore.Logic.MeaningDefinitionFork.V1Definition"
     },
     {
       "id": "b16d1a3f-9558-49bb-a1f1-e06b91d9a2ae",
       "label": "MEANINGFUL_INDEPENDENT_PREDICATE_ONE_WAY_CONDITION_4",
-      "definition_id": "DEF-MEANING-V2-DEFINITION"
+      "definition_id": "DEF-MEANING-V2-DEFINITION",
+      "lean_declaration": "TruthCore.Logic.MeaningDefinitionFork.V2Definition"
     },
     {
       "id": "feea5b8d-8919-41ba-8d35-ddca844341fc",
       "label": "MEANINGFUL_INDEPENDENT_PREDICATE_ONE_WAY_CONDITION_5",
-      "definition_id": "DEF-MEANING-V3-DEFINITION"
+      "definition_id": "DEF-MEANING-V3-DEFINITION",
+      "lean_declaration": "TruthCore.Logic.MeaningDefinitionFork.V3Definition"
     },
     {
       "id": "007460ec-53b7-4bbc-90db-e3a4d63f52f8",
       "label": "MEANINGFUL_INDEPENDENT_PREDICATE_ONE_WAY_CONDITION_6",
-      "definition_id": "DEF-MEANING-ALL-IN-SCOPE"
+      "definition_id": "DEF-MEANING-ALL-IN-SCOPE",
+      "lean_declaration": "TruthCore.Logic.MeaningDefinitionFork.AllInScopeMeaningful"
     },
     {
       "id": "e18fd5e1-c637-4b0b-9061-fe2c8383b42e",
       "label": "MEANINGFUL_INDEPENDENT_PREDICATE_ONE_WAY_CONDITION_7",
-      "definition_id": "DEF-MEANING-NAMED-COVERAGE"
+      "definition_id": "DEF-MEANING-NAMED-COVERAGE",
+      "lean_declaration": "TruthCore.Logic.MeaningDefinitionFork.NamedCoverage"
     }
   ]
 }

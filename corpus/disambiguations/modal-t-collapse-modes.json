@@ -13,22 +13,26 @@
     {
       "id": "53ef4152-5313-4440-bd7f-94fe783aec79",
       "label": "T_FRAME_COLLAPSE_CONFIGURATIONS_1",
-      "definition_id": "DEF-MODAL-T-REFLEXIVITY"
+      "definition_id": "DEF-MODAL-T-REFLEXIVITY",
+      "lean_declaration": "TruthCore.Modal.Reflexive"
     },
     {
       "id": "f2d2c63b-9de7-40b3-9a59-e50fc3d2ab83",
       "label": "T_FRAME_COLLAPSE_CONFIGURATIONS_2",
-      "definition_id": "DEF-MODAL-T-BRANCHING"
+      "definition_id": "DEF-MODAL-T-BRANCHING",
+      "lean_declaration": "TruthCore.Modal.TResearch.branchingLanguage"
     },
     {
       "id": "36baf7e1-759c-4fd3-9dd8-cf61cafaf0c4",
       "label": "T_FRAME_COLLAPSE_CONFIGURATIONS_3",
-      "definition_id": "DEF-MODAL-T-CHAIN"
+      "definition_id": "DEF-MODAL-T-CHAIN",
+      "lean_declaration": "TruthCore.Modal.TResearch.chain"
     },
     {
       "id": "9788c9c4-a58a-477a-ba82-28a9e8d999f3",
       "label": "T_FRAME_COLLAPSE_CONFIGURATIONS_4",
-      "definition_id": "DEF-MODAL-T-DUPLICATES"
+      "definition_id": "DEF-MODAL-T-DUPLICATES",
+      "lean_declaration": "TruthCore.Modal.ResearchFinite.duplicates"
     }
   ]
 }

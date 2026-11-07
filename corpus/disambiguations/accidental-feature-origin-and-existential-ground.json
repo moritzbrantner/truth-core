@@ -11,7 +11,8 @@
     {
       "id": "7adaebe6-00e4-43c8-9167-5989aa4b2622",
       "label": "REPEATABLE_FEATURE_ORIGIN_VERSUS_INDIVIDUAL_ACCIDENT_1",
-      "definition_id": "DEF-ACCIDENTAL-FEATURE-ORIGIN-ROLES"
+      "definition_id": "DEF-ACCIDENTAL-FEATURE-ORIGIN-ROLES",
+      "lean_declaration": "TruthCore.Causality.AccidentalFeatureOrigin.RoleSchema"
     },
     {
       "id": "ca42d8bc-9678-4ac6-a41d-d6e5e977fe62",

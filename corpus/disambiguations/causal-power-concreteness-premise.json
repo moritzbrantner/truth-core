@@ -16,37 +16,44 @@
     {
       "id": "0620e15a-c4d0-476d-98af-bb536c0781b3",
       "label": "POWER_IMPLIES_CONCRETE_VERSUS_A_CAPACITY_1",
-      "definition_id": "DEF-ABSTRACT-CONCRETE-DISJOINTNESS"
+      "definition_id": "DEF-ABSTRACT-CONCRETE-DISJOINTNESS",
+      "lean_declaration": "TruthCore.Causality.CausalPowerConcreteness.AbstractConcreteDisjoint"
     },
     {
       "id": "191e03a4-4ee5-4a1e-8b0d-9811fc0d01fa",
       "label": "POWER_IMPLIES_CONCRETE_VERSUS_A_CAPACITY_2",
-      "definition_id": "DEF-CAUSAL-CAPACITY-CONCRETE"
+      "definition_id": "DEF-CAUSAL-CAPACITY-CONCRETE",
+      "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.ConcreteAt"
     },
     {
       "id": "108b642a-f7ce-4f4c-8fa1-77f5e345a51b",
       "label": "POWER_IMPLIES_CONCRETE_VERSUS_A_CAPACITY_3",
-      "definition_id": "DEF-CAUSAL-EXISTENTIAL-INTENDED-PROFILE"
+      "definition_id": "DEF-CAUSAL-EXISTENTIAL-INTENDED-PROFILE",
+      "lean_declaration": "TruthCore.Causality.CausalPowerConcreteness.IntendedProfile"
     },
     {
       "id": "e8024d6d-5fe3-45d2-97cc-a56410adf39f",
       "label": "POWER_IMPLIES_CONCRETE_VERSUS_A_CAPACITY_4",
-      "definition_id": "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE"
+      "definition_id": "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE",
+      "lean_declaration": "TruthCore.Causality.CausalPowerConcreteness.OwnerCommitmentAt"
     },
     {
       "id": "0c4608cf-6970-4e0d-a09d-3247c6af1d06",
       "label": "POWER_IMPLIES_CONCRETE_VERSUS_A_CAPACITY_5",
-      "definition_id": "DEF-ESSE-INTENDED-PROFILE"
+      "definition_id": "DEF-ESSE-INTENDED-PROFILE",
+      "lean_declaration": "TruthCore.Causality.CausalPowerConcreteness.EsseIntendedProfile"
     },
     {
       "id": "3e63f8ab-d759-4123-8549-cd87e622741c",
       "label": "POWER_IMPLIES_CONCRETE_VERSUS_A_CAPACITY_6",
-      "definition_id": "DEF-PRESENT-ESSE-SUPPORT"
+      "definition_id": "DEF-PRESENT-ESSE-SUPPORT",
+      "lean_declaration": "TruthCore.Causality.NecessarilyUnderived.PresentEsseSupport"
     },
     {
       "id": "9b211722-eea4-4c93-811f-8dd5075fefba",
       "label": "POWER_IMPLIES_CONCRETE_VERSUS_A_CAPACITY_7",
-      "definition_id": "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE"
+      "definition_id": "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE",
+      "lean_declaration": "TruthCore.Causality.CausalConcreteRivalBoundary.Frame"
     }
   ]
 }

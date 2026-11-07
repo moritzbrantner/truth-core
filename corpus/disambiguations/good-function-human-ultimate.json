@@ -13,22 +13,26 @@
     {
       "id": "79642805-cdda-4b3d-997f-05ad6a0a2fed",
       "label": "GOOD_QUA_ROLE_HUMAN_GOOD_GOOD_1",
-      "definition_id": "DEF-FUNCTIONAL-EXCELLENCE-QUA-ROLE"
+      "definition_id": "DEF-FUNCTIONAL-EXCELLENCE-QUA-ROLE",
+      "lean_declaration": "TruthCore.Greek.Aristotle.NicomacheanEthics.FunctionExcellenceReading"
     },
     {
       "id": "03995aa9-b631-44e3-9306-d8535fe08dfd",
       "label": "GOOD_QUA_ROLE_HUMAN_GOOD_GOOD_2",
-      "definition_id": "DEF-HUMAN-GOOD-AS-EXCELLENT-ACTIVITY"
+      "definition_id": "DEF-HUMAN-GOOD-AS-EXCELLENT-ACTIVITY",
+      "lean_declaration": "TruthCore.Greek.Aristotle.NicomacheanEthics.HumanGoodActivityReading"
     },
     {
       "id": "4fabcc7e-1867-44e4-9115-b505fe5608a9",
       "label": "GOOD_QUA_ROLE_HUMAN_GOOD_GOOD_3",
-      "definition_id": "DEF-GOOD-SIMPLICITER-ULTIMATE-PERFECTION"
+      "definition_id": "DEF-GOOD-SIMPLICITER-ULTIMATE-PERFECTION",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.UltimateDuePerfectionRequiredReading"
     },
     {
       "id": "2b68f62d-1b60-4022-b70d-765e9fe0200d",
       "label": "GOOD_QUA_ROLE_HUMAN_GOOD_GOOD_4",
-      "definition_id": "DEF-GOOD-AS-BEING-IN-ACT"
+      "definition_id": "DEF-GOOD-AS-BEING-IN-ACT",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GoodnessIsActualityReading"
     }
   ]
 }

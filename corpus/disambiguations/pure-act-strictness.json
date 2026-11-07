@@ -11,12 +11,14 @@
     {
       "id": "69cfb611-0f8a-4e90-966c-f2d4d2d4639a",
       "label": "PURE_ACT_1",
-      "definition_id": "DEF-PURE-ACT"
+      "definition_id": "DEF-PURE-ACT",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PureAct"
     },
     {
       "id": "7161be95-18c4-4f95-b331-96c347bb6382",
       "label": "PURE_ACT_2",
-      "definition_id": "DEF-STRICT-PURE-ACTUALITY"
+      "definition_id": "DEF-STRICT-PURE-ACTUALITY",
+      "lean_declaration": "TruthCore.Causality.PureActThisness.FirstMoverDeterminationsArePure"
     }
   ]
 }

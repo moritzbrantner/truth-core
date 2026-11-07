@@ -12,17 +12,20 @@
     {
       "id": "b934926c-9274-40e5-9228-20bdb4aaf230",
       "label": "INSTRUMENT_MOVED_MOVER_AND_SECONDARY_CAUSE_1",
-      "definition_id": "DEF-BORROWED-POWER-PROFILE"
+      "definition_id": "DEF-BORROWED-POWER-PROFILE",
+      "lean_declaration": "TruthCore.Explanation.BorrowedExercise.Borrowed"
     },
     {
       "id": "8f4c72f7-ef54-46a6-89d7-038a8b6ee85c",
       "label": "INSTRUMENT_MOVED_MOVER_AND_SECONDARY_CAUSE_2",
-      "definition_id": "DEF-LENDING-DESCENT"
+      "definition_id": "DEF-LENDING-DESCENT",
+      "lean_declaration": "TruthCore.Explanation.BorrowedExercise.Descent"
     },
     {
       "id": "b5bbc0f5-d7a4-4139-8b53-351bb8e43a7d",
       "label": "INSTRUMENT_MOVED_MOVER_AND_SECONDARY_CAUSE_3",
-      "definition_id": "DEF-DERIVATIVE-JOINT-SUPPLY"
+      "definition_id": "DEF-DERIVATIVE-JOINT-SUPPLY",
+      "lean_declaration": "TruthCore.Causality.DerivativeJointPower.Supply"
     }
   ]
 }

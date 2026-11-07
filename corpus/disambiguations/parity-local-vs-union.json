@@ -11,12 +11,14 @@
     {
       "id": "a9c1e0a3-c017-490f-a7d7-5bdf3d2c63e1",
       "label": "WORLD_LOCAL_TERMINATION_VERSUS_UNION_ACYCLICITY_1",
-      "definition_id": "DEF-PARITY-UNION-REGRESS"
+      "definition_id": "DEF-PARITY-UNION-REGRESS",
+      "lean_declaration": "TruthCore.Causality.ParityUnionRegress.Certificate"
     },
     {
       "id": "110ff9a2-881b-465b-8505-5f2f9a252359",
       "label": "WORLD_LOCAL_TERMINATION_VERSUS_UNION_ACYCLICITY_2",
-      "definition_id": "DEF-PARITY-LOCAL-SUPPORT"
+      "definition_id": "DEF-PARITY-LOCAL-SUPPORT",
+      "lean_declaration": "TruthCore.Causality.ParityUnionRegress.support"
     }
   ]
 }

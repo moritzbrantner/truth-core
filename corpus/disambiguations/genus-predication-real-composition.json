@@ -11,7 +11,8 @@
     {
       "id": "d3ff0099-5389-42c9-9320-8744ffa31570",
       "label": "GENUS_AND_DIFFERENTIA_AS_PREDICABLES_1",
-      "definition_id": "DEF-GENUS-CAUSE-FINITE-CONTROL"
+      "definition_id": "DEF-GENUS-CAUSE-FINITE-CONTROL",
+      "lean_declaration": "TruthCore.Mereology.GenusCauseBoundary.Boundary"
     },
     {
       "id": "d01fa6c3-65ff-4cab-8d7d-93e74db74d00",

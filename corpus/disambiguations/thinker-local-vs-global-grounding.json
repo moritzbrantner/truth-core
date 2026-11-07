@@ -12,17 +12,20 @@
     {
       "id": "9232f675-db0a-474c-9f00-d8e5aba69ef7",
       "label": "WELL_FOUNDEDNESS_AND_ANTI_BRUTE_ROOT_1",
-      "definition_id": "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY"
+      "definition_id": "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+      "lean_declaration": "TruthCore.Causality.CogitoNecessaryConcrete.GroundAncestor"
     },
     {
       "id": "556515c9-1fcc-4ea0-b85d-2a4cad7eff79",
       "label": "WELL_FOUNDEDNESS_AND_ANTI_BRUTE_ROOT_2",
-      "definition_id": "DEF-BRUTE-ROOT-RELATIVE-GROUNDING"
+      "definition_id": "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+      "lean_declaration": "TruthCore.Causality.NecessaryRootFork.ActualRoot"
     },
     {
       "id": "1e18ccd2-b582-4d6e-9c55-324d19151ce8",
       "label": "WELL_FOUNDEDNESS_AND_ANTI_BRUTE_ROOT_3",
-      "definition_id": "DEF-SELECTED-ANCESTRY-CONE"
+      "definition_id": "DEF-SELECTED-ANCESTRY-CONE",
+      "lean_declaration": "TruthCore.Causality.SelectedAncestry.Cone"
     }
   ]
 }

@@ -11,12 +11,14 @@
     {
       "id": "cff251e1-5dee-4f7b-8b2a-a55ecbcd9e99",
       "label": "UNRESTRICTED_ADAPTIVE_PREDICTION_FAILURE_1",
-      "definition_id": "DEF-ADAPTIVE-TRUTHFUL-PREDICTION"
+      "definition_id": "DEF-ADAPTIVE-TRUTHFUL-PREDICTION",
+      "lean_declaration": "TruthCore.Logic.AdaptivePrediction.Predictor"
     },
     {
       "id": "1049e650-7b51-4be5-8785-1083906d5dee",
       "label": "UNRESTRICTED_ADAPTIVE_PREDICTION_FAILURE_2",
-      "definition_id": "DEF-FALLIBLE-WEIGHTED-CORRECTION"
+      "definition_id": "DEF-FALLIBLE-WEIGHTED-CORRECTION",
+      "lean_declaration": "TruthCore.Logic.FallibleCorrection.weights"
     }
   ]
 }

@@ -12,7 +12,8 @@
     {
       "id": "480fe727-a08e-4cee-84c3-b623efc4c2cb",
       "label": "REASON_FOR_ACTION_1",
-      "definition_id": "DEF-DESCRIPTIVE-PLAN-BOUNDARY"
+      "definition_id": "DEF-DESCRIPTIVE-PLAN-BOUNDARY",
+      "lean_declaration": "TruthCore.Metaethics.DescriptivePlanBoundary.Boundary"
     },
     {
       "id": "0be9605a-c525-448d-9223-f95d95f12a46",

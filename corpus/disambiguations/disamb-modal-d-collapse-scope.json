@@ -14,27 +14,32 @@
     {
       "id": "d3e28f8c-1544-448c-96f2-55b1ca83f6f2",
       "label": "ACTUAL_POSSIBLE_AND_NECESSARY_COLLAPSE_1",
-      "definition_id": "DEF-MODAL-FIXTURE-MC"
+      "definition_id": "DEF-MODAL-FIXTURE-MC",
+      "lean_declaration": "TruthCore.Modal.ResearchFixture.MC"
     },
     {
       "id": "472267bc-4e5e-4648-9902-76b8f6e6f3b1",
       "label": "ACTUAL_POSSIBLE_AND_NECESSARY_COLLAPSE_2",
-      "definition_id": "DEF-MODAL-D-OPERATORS"
+      "definition_id": "DEF-MODAL-D-OPERATORS",
+      "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.Dia"
     },
     {
       "id": "c85b83b9-485f-483f-814a-8ea8cee09289",
       "label": "ACTUAL_POSSIBLE_AND_NECESSARY_COLLAPSE_3",
-      "definition_id": "DEF-MODAL-D-CYCLE"
+      "definition_id": "DEF-MODAL-D-CYCLE",
+      "lean_declaration": "TruthCore.Modal.DResearch.cycle"
     },
     {
       "id": "7d2b60de-13c4-4695-8730-e7925af51901",
       "label": "ACTUAL_POSSIBLE_AND_NECESSARY_COLLAPSE_4",
-      "definition_id": "DEF-MODAL-D-POCKET"
+      "definition_id": "DEF-MODAL-D-POCKET",
+      "lean_declaration": "TruthCore.Modal.DResearch.pocket"
     },
     {
       "id": "54151fa5-1e9d-4910-b934-e3627ce8cd5b",
       "label": "ACTUAL_POSSIBLE_AND_NECESSARY_COLLAPSE_5",
-      "definition_id": "DEF-MODAL-D-FORK"
+      "definition_id": "DEF-MODAL-D-FORK",
+      "lean_declaration": "TruthCore.Modal.DResearch.fork"
     }
   ]
 }

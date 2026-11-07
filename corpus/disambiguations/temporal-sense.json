@@ -14,7 +14,8 @@
     {
       "id": "6fc5a2eb-990b-4af2-97ab-65a78bc43c94",
       "label": "TEMPORAL_OUT_OF_TIME_1",
-      "definition_id": "DEF-SUCCESSIVELY-TEMPORAL"
+      "definition_id": "DEF-SUCCESSIVELY-TEMPORAL",
+      "lean_declaration": "TruthCore.Ontology.NaturalismConsequences.SuccessivelyTemporal"
     },
     {
       "id": "710c8525-d026-48f8-8186-e8e0145d502f",
@@ -29,12 +30,14 @@
     {
       "id": "209c3714-ff45-43c4-aaba-9f5e58e9947f",
       "label": "TEMPORAL_OUT_OF_TIME_4",
-      "definition_id": "DEF-BOETHIAN-ETERNAL"
+      "definition_id": "DEF-BOETHIAN-ETERNAL",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.BoethianEternal"
     },
     {
       "id": "fe8758c8-ce6f-40c3-ad49-e6fc4dc70f23",
       "label": "TEMPORAL_OUT_OF_TIME_5",
-      "definition_id": "DEF-TEMPORAL-HISTORY-EVERLASTING"
+      "definition_id": "DEF-TEMPORAL-HISTORY-EVERLASTING",
+      "lean_declaration": "TruthCore.Modal.TemporalHistory.EverlastingAt"
     }
   ]
 }

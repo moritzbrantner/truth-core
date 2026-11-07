@@ -11,12 +11,14 @@
     {
       "id": "3693fa6d-4158-41cb-9ae1-e99c0ab821a6",
       "label": "ESSENTIAL_POWER_VERSUS_ACTUAL_EXERCISE_1",
-      "definition_id": "DEF-BEARER-CAPACITY-EXERCISE"
+      "definition_id": "DEF-BEARER-CAPACITY-EXERCISE",
+      "lean_declaration": "TruthCore.Modal.BearerExercise.responseOntic"
     },
     {
       "id": "3c0186f7-bfd6-4efa-9b7c-e3adf6b7d3f7",
       "label": "ESSENTIAL_POWER_VERSUS_ACTUAL_EXERCISE_2",
-      "definition_id": "DEF-INTERVENTION-RESPONSE-CAPACITY"
+      "definition_id": "DEF-INTERVENTION-RESPONSE-CAPACITY",
+      "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.CausalPowers.Capacity"
     }
   ]
 }

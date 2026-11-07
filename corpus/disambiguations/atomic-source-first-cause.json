@@ -11,7 +11,8 @@
     {
       "id": "63535b3a-18c9-45f8-aba9-b03cd9dc5704",
       "label": "UNCAUSED_SOURCE_VERSUS_FULL_FIRST_CAUSE_1",
-      "definition_id": "DEF-ATOMIC-CAUSAL-SOURCE"
+      "definition_id": "DEF-ATOMIC-CAUSAL-SOURCE",
+      "lean_declaration": "TruthCore.Causality.AtomisticCausalSource.SourceExists"
     },
     {
       "id": "fc4a4ee9-a3b2-4814-b4f8-984320cc5626",

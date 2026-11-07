@@ -11,12 +11,14 @@
     {
       "id": "6c6247bc-aed5-4b0c-bb0d-1b125c1c7804",
       "label": "PERFECT_1",
-      "definition_id": "DEF-PERFECT-IN-A-PERFECTION"
+      "definition_id": "DEF-PERFECT-IN-A-PERFECTION",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PerfectInsofarAsInActReading"
     },
     {
       "id": "1e621539-7273-4879-b63d-6997bce9e995",
       "label": "PERFECT_2",
-      "definition_id": "DEF-UNIVERSALLY-PERFECT"
+      "definition_id": "DEF-UNIVERSALLY-PERFECT",
+      "lean_declaration": "TruthCore.Case.Catholicism.IsPerfect"
     }
   ]
 }

@@ -12,17 +12,20 @@
     {
       "id": "f6f584b6-4f39-4a3b-af18-6624529f8952",
       "label": "NECESSITY_AND_KNOWLEDGE_1",
-      "definition_id": "DEF-KANT-MODAL-NECESSITY"
+      "definition_id": "DEF-KANT-MODAL-NECESSITY",
+      "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.NecessaryAt"
     },
     {
       "id": "a5b945ac-ff90-4a3c-9361-e5f3700c3d9c",
       "label": "NECESSITY_AND_KNOWLEDGE_2",
-      "definition_id": "DEF-KANT-EPISTEMIC-WITHHOLDING"
+      "definition_id": "DEF-KANT-EPISTEMIC-WITHHOLDING",
+      "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.KnowsNecessary"
     },
     {
       "id": "b37215ce-e7e6-468e-b4af-ea974342403f",
       "label": "NECESSITY_AND_KNOWLEDGE_3",
-      "definition_id": "DEF-KANT-ONTIC-DENIAL"
+      "definition_id": "DEF-KANT-ONTIC-DENIAL",
+      "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.NecessaryBeing"
     }
   ]
 }

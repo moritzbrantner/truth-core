@@ -11,12 +11,14 @@
     {
       "id": "bdf60904-9e67-475a-be29-f50e6e847c09",
       "label": "REASON_OR_CAUSE_OF_EXISTENCE_1",
-      "definition_id": "DEF-PSR-REASON"
+      "definition_id": "DEF-PSR-REASON",
+      "lean_declaration": "TruthCore.Explanation.ExistencePSR.Reason"
     },
     {
       "id": "0d9d4b38-c687-49ee-9de3-47237170dd29",
       "label": "REASON_OR_CAUSE_OF_EXISTENCE_2",
-      "definition_id": "DEF-PSR-EXTERNAL-CAUSE"
+      "definition_id": "DEF-PSR-EXTERNAL-CAUSE",
+      "lean_declaration": "TruthCore.Explanation.ExistencePSR.EveryExistentExternallyCaused"
     }
   ]
 }

@@ -12,17 +12,20 @@
     {
       "id": "09f2e35d-ccaa-493d-ac62-8a62ddb92cff",
       "label": "REPORTED_MESSIANIC_EXALTATION_DIVINE_AUTHORITY_1",
-      "definition_id": "DEF-MARK-HIGH-PRIEST-EXCHANGE"
+      "definition_id": "DEF-MARK-HIGH-PRIEST-EXCHANGE",
+      "lean_declaration": "TruthCore.Greek.NewTestament.Mark.HighPriestAnswer.Narrative"
     },
     {
       "id": "8c6e4232-0b63-4863-baaf-29d13904c0db",
       "label": "REPORTED_MESSIANIC_EXALTATION_DIVINE_AUTHORITY_2",
-      "definition_id": "DEF-MARK-FORGIVENESS-AUTHORITY-REPORT"
+      "definition_id": "DEF-MARK-FORGIVENESS-AUTHORITY-REPORT",
+      "lean_declaration": "TruthCore.Greek.NewTestament.Mark.ForgivenessAuthority.Narrative"
     },
     {
       "id": "9388f40f-5020-43a2-929f-f42042534fad",
       "label": "REPORTED_MESSIANIC_EXALTATION_DIVINE_AUTHORITY_3",
-      "definition_id": "DEF-SKELETON-OPEN-PREDICATES"
+      "definition_id": "DEF-SKELETON-OPEN-PREDICATES",
+      "lean_declaration": "TruthCore.Case.Catholicism.Signature"
     }
   ]
 }

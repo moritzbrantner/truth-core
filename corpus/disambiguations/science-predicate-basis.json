@@ -11,12 +11,14 @@
     {
       "id": "6269db29-3797-4907-9cfb-535bffae4f67",
       "label": "TIME_DEPENDENCE_CODING_AND_INDUCTIVE_RELEVANCE_1",
-      "definition_id": "DEF-SCIENCE-PREDICATE-RECODING"
+      "definition_id": "DEF-SCIENCE-PREDICATE-RECODING",
+      "lean_declaration": "TruthCore.Science.PredicateRecoding.PhaseIndependent"
     },
     {
       "id": "23da60b6-dca5-4a29-b883-a8abd093ba8c",
       "label": "TIME_DEPENDENCE_CODING_AND_INDUCTIVE_RELEVANCE_2",
-      "definition_id": "DEF-SCIENCE-PREDICATE-TRANSPORT"
+      "definition_id": "DEF-SCIENCE-PREDICATE-TRANSPORT",
+      "lean_declaration": "TruthCore.Science.PredicateRecoding.transported"
     }
   ]
 }

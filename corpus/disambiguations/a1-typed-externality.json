@@ -12,12 +12,14 @@
     {
       "id": "bc6d9978-c430-4390-b37f-84946c6f3589",
       "label": "EXTERNAL_WHOLE_CAUSE_VERSUS_OUTSIDE_CONTINGENTS_1",
-      "definition_id": "DEF-A1-EXTERNAL-WHOLE-CAUSE"
+      "definition_id": "DEF-A1-EXTERNAL-WHOLE-CAUSE",
+      "lean_declaration": "TruthCore.Causality.ContingentTotalityCause.ExternalWholeCause"
     },
     {
       "id": "07445be5-a20f-4c15-bc9e-acdfa4cc7ae5",
       "label": "EXTERNAL_WHOLE_CAUSE_VERSUS_OUTSIDE_CONTINGENTS_2",
-      "definition_id": "DEF-CONTINGENCY-TOTALITY-EXTERNAL-CANDIDATE"
+      "definition_id": "DEF-CONTINGENCY-TOTALITY-EXTERNAL-CANDIDATE",
+      "lean_declaration": "TruthCore.Causality.PossibleCauseOfContingency.ExternalCandidateAt"
     },
     {
       "id": "c965da23-32fe-49e2-b53e-0a168dff6dfa",

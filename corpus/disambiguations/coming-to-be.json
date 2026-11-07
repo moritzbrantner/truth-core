@@ -11,12 +11,14 @@
     {
       "id": "d36a5b25-bcf3-4a7e-8535-c11229c4d4da",
       "label": "COMING_TO_BE_AND_ITS_CAUSE_1",
-      "definition_id": "DEF-CAUSE-OF-ORIGIN"
+      "definition_id": "DEF-CAUSE-OF-ORIGIN",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaContraGentiles.WhatComesToBeAnewHasInnovatingCauseReading"
     },
     {
       "id": "afa2482c-8cac-4fe3-8d6b-6d3bc14017cd",
       "label": "COMING_TO_BE_AND_ITS_CAUSE_2",
-      "definition_id": "DEF-PLATONIC-GENERATION-CAUSE"
+      "definition_id": "DEF-PLATONIC-GENERATION-CAUSE",
+      "lean_declaration": "TruthCore.Greek.Plato.Timaeus.CausePrinciple"
     }
   ]
 }

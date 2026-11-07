@@ -11,12 +11,14 @@
     {
       "id": "90265b1b-4b2e-4620-afd0-76c23cbd0942",
       "label": "THOUGHT_EPISODE_VERSUS_OPINING_1",
-      "definition_id": "DEF-THOUGHT-OCCURRENCE"
+      "definition_id": "DEF-THOUGHT-OCCURRENCE",
+      "lean_declaration": "TruthCore.Logic.CogitoSubject.ThoughtOccurs"
     },
     {
       "id": "b9a4069f-7ba8-481c-8268-45842431fabb",
       "label": "THOUGHT_EPISODE_VERSUS_OPINING_2",
-      "definition_id": "DEF-OPINING"
+      "definition_id": "DEF-OPINING",
+      "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.OpiningIsBeingMovedReading"
     }
   ]
 }

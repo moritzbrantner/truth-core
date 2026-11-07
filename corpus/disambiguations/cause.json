@@ -13,12 +13,14 @@
     {
       "id": "bdc6001c-9699-4126-9e35-6fbd1da78100",
       "label": "CAUSE_1",
-      "definition_id": "DEF-MOTION-AS-REDUCTION"
+      "definition_id": "DEF-MOTION-AS-REDUCTION",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel.MovedIn"
     },
     {
       "id": "572f19f2-8833-4133-8bea-b8b5fa4ac24f",
       "label": "CAUSE_2",
-      "definition_id": "DEF-CAUSE-OF-PERFECTION"
+      "definition_id": "DEF-CAUSE-OF-PERFECTION",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.CausesAllInGenus"
     },
     {
       "id": "d9202ef9-39e8-401e-aadd-ba82b72f6711",
@@ -28,7 +30,8 @@
     {
       "id": "b0be8b9d-7959-4e5d-b488-4983b8dee9c9",
       "label": "CAUSE_4",
-      "definition_id": "DEF-CAUSE-OF-ORIGIN"
+      "definition_id": "DEF-CAUSE-OF-ORIGIN",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaContraGentiles.WhatComesToBeAnewHasInnovatingCauseReading"
     }
   ]
 }

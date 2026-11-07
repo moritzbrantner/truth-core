@@ -14,27 +14,32 @@
     {
       "id": "b4e1e138-6299-4a54-b8cc-fc2da6835542",
       "label": "PROPOSITION_SCOPE_AND_WORLD_IDENTITY_1",
-      "definition_id": "DEF-MODAL-FIXTURE-DOMAIN"
+      "definition_id": "DEF-MODAL-FIXTURE-DOMAIN",
+      "lean_declaration": "TruthCore.Modal.ResearchFixture.Domain"
     },
     {
       "id": "d5fa82cf-11ac-481f-814a-ffa0c16f6022",
       "label": "PROPOSITION_SCOPE_AND_WORLD_IDENTITY_2",
-      "definition_id": "DEF-MODAL-FIXTURE-MC"
+      "definition_id": "DEF-MODAL-FIXTURE-MC",
+      "lean_declaration": "TruthCore.Modal.ResearchFixture.MC"
     },
     {
       "id": "ea10c740-7e41-4def-8ea4-189629b3e36b",
       "label": "PROPOSITION_SCOPE_AND_WORLD_IDENTITY_3",
-      "definition_id": "DEF-MODAL-FIXTURE-IDENTITY"
+      "definition_id": "DEF-MODAL-FIXTURE-IDENTITY",
+      "lean_declaration": "TruthCore.Modal.ResearchFixture.IdentityAdmissible"
     },
     {
       "id": "62ec462a-fa9b-42af-86b8-8d9612c9f96c",
       "label": "PROPOSITION_SCOPE_AND_WORLD_IDENTITY_4",
-      "definition_id": "DEF-MODAL-FIXTURE-AGREEMENT"
+      "definition_id": "DEF-MODAL-FIXTURE-AGREEMENT",
+      "lean_declaration": "TruthCore.Modal.ResearchFixture.Agree"
     },
     {
       "id": "d069899b-254a-4bfd-927c-c6c320d827b2",
       "label": "PROPOSITION_SCOPE_AND_WORLD_IDENTITY_5",
-      "definition_id": "DEF-MODAL-FIXTURE-EXTENSIONALITY"
+      "definition_id": "DEF-MODAL-FIXTURE-EXTENSIONALITY",
+      "lean_declaration": "TruthCore.Modal.ResearchFixture.PropositionalExtensionality"
     }
   ]
 }

@@ -11,12 +11,14 @@
     {
       "id": "51725ff5-1061-4750-adf1-a7f69922b511",
       "label": "THE_SERIES_CANNOT_GO_1",
-      "definition_id": "DEF-NO-INFINITE-DESCENDING-PER-SE-SERIES"
+      "definition_id": "DEF-NO-INFINITE-DESCENDING-PER-SE-SERIES",
+      "lean_declaration": "TruthCore.Causality.NoInfiniteDescendingPerSeSeries"
     },
     {
       "id": "6195ade1-ae5c-4df3-8217-a61887ece26b",
       "label": "THE_SERIES_CANNOT_GO_2",
-      "definition_id": "DEF-REGRESS-ACCESSIBILITY-READING"
+      "definition_id": "DEF-REGRESS-ACCESSIBILITY-READING",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.NoInfinitePerSeEfficientCauseSeriesReading"
     }
   ]
 }

@@ -14,27 +14,32 @@
     {
       "id": "cf07e1f3-30fa-4787-bfe5-937274ea2e15",
       "label": "SAME_BEING_ACROSS_WORLDS_1",
-      "definition_id": "DEF-COUNTERPART-NECESSITY"
+      "definition_id": "DEF-COUNTERPART-NECESSITY",
+      "lean_declaration": "TruthCore.Modal.CounterpartNecessity.CounterpartNecessaryAt"
     },
     {
       "id": "75feaf0e-8618-489b-aed5-a9f4046ec6de",
       "label": "SAME_BEING_ACROSS_WORLDS_2",
-      "definition_id": "DEF-COUNTERPART-TOTAL"
+      "definition_id": "DEF-COUNTERPART-TOTAL",
+      "lean_declaration": "TruthCore.Modal.CounterpartNecessity.Total"
     },
     {
       "id": "ed848288-8e67-4e18-91af-f26ac02ef0f0",
       "label": "SAME_BEING_ACROSS_WORLDS_3",
-      "definition_id": "DEF-COUNTERPART-UNIQUE"
+      "definition_id": "DEF-COUNTERPART-UNIQUE",
+      "lean_declaration": "TruthCore.Modal.CounterpartNecessity.Unique"
     },
     {
       "id": "fdbc7ae7-1b02-4472-91ff-cc3c1f8010c2",
       "label": "SAME_BEING_ACROSS_WORLDS_4",
-      "definition_id": "DEF-COUNTERPART-INJECTIVE"
+      "definition_id": "DEF-COUNTERPART-INJECTIVE",
+      "lean_declaration": "TruthCore.Modal.CounterpartNecessity.Injective"
     },
     {
       "id": "70acfd54-f4d1-42d3-a63a-95dc865f62a6",
       "label": "SAME_BEING_ACROSS_WORLDS_5",
-      "definition_id": "DEF-COUNTERPART-IDENTITY-BRIDGE"
+      "definition_id": "DEF-COUNTERPART-IDENTITY-BRIDGE",
+      "lean_declaration": "TruthCore.Modal.CounterpartNecessity.IdentityBridge"
     }
   ]
 }

@@ -24,17 +24,20 @@
     {
       "id": "32b3d298-8cbe-47b5-896c-2e3f3d37bba1",
       "label": "CAUSAL_CAPACITY_VERSUS_ACTUAL_EXERCISE_3",
-      "definition_id": "DEF-UNBORROWED-POWER-IN-A-RESPECT"
+      "definition_id": "DEF-UNBORROWED-POWER-IN-A-RESPECT",
+      "lean_declaration": "TruthCore.Causality.PowerExistenceBoundary.UnborrowedPowerAt"
     },
     {
       "id": "9f059bde-8e9a-46a9-9193-c1f5429f8677",
       "label": "CAUSAL_CAPACITY_VERSUS_ACTUAL_EXERCISE_4",
-      "definition_id": "DEF-FINITELY-GROUNDED-CAUSAL-POWER"
+      "definition_id": "DEF-FINITELY-GROUNDED-CAUSAL-POWER",
+      "lean_declaration": "TruthCore.Causality.FinitelyGroundedPower"
     },
     {
       "id": "c81a951e-6a95-4cb1-9335-b5fdc810c82a",
       "label": "CAUSAL_CAPACITY_VERSUS_ACTUAL_EXERCISE_5",
-      "definition_id": "DEF-PURE-ACT"
+      "definition_id": "DEF-PURE-ACT",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PureAct"
     }
   ]
 }

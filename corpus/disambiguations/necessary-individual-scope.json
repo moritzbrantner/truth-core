@@ -13,22 +13,26 @@
     {
       "id": "43d88672-a700-41d6-b11a-931bf8f468ae",
       "label": "NECESSITY_OF_ONE_INDIVIDUAL_VERSUS_NECESSARY_1",
-      "definition_id": "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS"
+      "definition_id": "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+      "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.DeDicto"
     },
     {
       "id": "35907d54-de9e-4edb-84df-5d3214c8a3c5",
       "label": "NECESSITY_OF_ONE_INDIVIDUAL_VERSUS_NECESSARY_2",
-      "definition_id": "DEF-NECESSARY-EXISTENCE-SCOTT"
+      "definition_id": "DEF-NECESSARY-EXISTENCE-SCOTT",
+      "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.NecessaryExistence"
     },
     {
       "id": "2bbc3efc-46cc-4215-b1fa-f98077e2b38c",
       "label": "NECESSITY_OF_ONE_INDIVIDUAL_VERSUS_NECESSARY_3",
-      "definition_id": "DEF-NECESSARY-BEING"
+      "definition_id": "DEF-NECESSARY-BEING",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.IsNecessary"
     },
     {
       "id": "aa98bacb-a677-44db-846c-b1c6572a2519",
       "label": "NECESSITY_OF_ONE_INDIVIDUAL_VERSUS_NECESSARY_4",
-      "definition_id": "DEF-ROUTE-BRIDGE-MODAL-READING"
+      "definition_id": "DEF-ROUTE-BRIDGE-MODAL-READING",
+      "lean_declaration": "TruthCore.Causality.NecessaryConcreteRouteBridge.modalPossible"
     }
   ]
 }

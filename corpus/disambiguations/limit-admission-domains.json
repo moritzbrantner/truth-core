@@ -13,22 +13,26 @@
     {
       "id": "45154891-6d04-44d1-9de4-c924c6845dbe",
       "label": "LIMIT_ADMISSION_1",
-      "definition_id": "DEF-LIMIT-ADMISSION-CLOSED"
+      "definition_id": "DEF-LIMIT-ADMISSION-CLOSED",
+      "lean_declaration": "TruthCore.Logic.LimitAdmission.ClosedAdmission"
     },
     {
       "id": "c3cb06aa-e7bb-4dd4-b129-830172b6ccee",
       "label": "LIMIT_ADMISSION_2",
-      "definition_id": "DEF-LIMIT-ADMISSION-PROFILE"
+      "definition_id": "DEF-LIMIT-ADMISSION-PROFILE",
+      "lean_declaration": "TruthCore.Logic.LimitAdmission.tailWorlds"
     },
     {
       "id": "79114d59-b840-48d2-9038-15f61569595a",
       "label": "LIMIT_ADMISSION_3",
-      "definition_id": "DEF-LIMIT-ADMISSION-EVENT"
+      "definition_id": "DEF-LIMIT-ADMISSION-EVENT",
+      "lean_declaration": "TruthCore.Logic.LimitAdmission.eventTimes"
     },
     {
       "id": "57b73576-c59d-4236-be12-99b62b71db4a",
       "label": "LIMIT_ADMISSION_4",
-      "definition_id": "DEF-LIMIT-ADMISSION-TERMINAL"
+      "definition_id": "DEF-LIMIT-ADMISSION-TERMINAL",
+      "lean_declaration": "TruthCore.Logic.LimitAdmission.TerminalOutcome"
     }
   ]
 }

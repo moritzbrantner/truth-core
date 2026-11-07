@@ -16,7 +16,8 @@
     {
       "id": "6dcd5a8a-7e51-4a36-96c8-3df3ce7b4267",
       "label": "REALITY_IDENTITY_2",
-      "definition_id": "DEF-KANT-REALITY-IDENTITY"
+      "definition_id": "DEF-KANT-REALITY-IDENTITY",
+      "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.MostRealUnique"
     }
   ]
 }

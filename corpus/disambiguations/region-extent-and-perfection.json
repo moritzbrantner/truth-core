@@ -11,12 +11,14 @@
     {
       "id": "6a140e38-3371-41be-96ed-f163634fbce7",
       "label": "INFINITE_REGION_EXTENT_VERSUS_UNRESTRICTED_PERFECTION_1",
-      "definition_id": "DEF-MATHEMATICAL-INFINITE-GREATEST-WHOLE"
+      "definition_id": "DEF-MATHEMATICAL-INFINITE-GREATEST-WHOLE",
+      "lean_declaration": "TruthCore.Models.InfiniteGreatestWhole.whole"
     },
     {
       "id": "ca2c6642-0870-4444-b078-2014e562de38",
       "label": "INFINITE_REGION_EXTENT_VERSUS_UNRESTRICTED_PERFECTION_2",
-      "definition_id": "DEF-INFINITE"
+      "definition_id": "DEF-INFINITE",
+      "lean_declaration": "TruthCore.Case.Catholicism.GodIsInfinite"
     }
   ]
 }

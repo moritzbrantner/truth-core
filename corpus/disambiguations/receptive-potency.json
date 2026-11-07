@@ -11,12 +11,14 @@
     {
       "id": "17cf01ce-4f7b-47ff-9749-caa554403ad9",
       "label": "RECEPTIVE_POTENCY_VERSUS_UNACTUALIZED_POTENCY_1",
-      "definition_id": "DEF-RECEPTIVE-POTENCY"
+      "definition_id": "DEF-RECEPTIVE-POTENCY",
+      "lean_declaration": "TruthCore.Latin.Aquinas.DeEnte.ReceiverInPotencyToReceivedEsseReading"
     },
     {
       "id": "100c7549-827f-44aa-ad45-e2aa099b0456",
       "label": "RECEPTIVE_POTENCY_VERSUS_UNACTUALIZED_POTENCY_2",
-      "definition_id": "DEF-POTENCY"
+      "definition_id": "DEF-POTENCY",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.AdoptedPotency.InPotency"
     }
   ]
 }

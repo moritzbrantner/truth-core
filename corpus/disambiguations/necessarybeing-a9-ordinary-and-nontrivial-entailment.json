@@ -34,7 +34,8 @@
     {
       "id": "4c007b4e-d221-4eeb-a99a-299ebe304743",
       "label": "A9_ORDINARY_INCLUSION_NONTRIVIAL_ENTAILMENT_NEGATIVE_5",
-      "definition_id": "DEF-KANT-MODAL-CONTINGENCY"
+      "definition_id": "DEF-KANT-MODAL-CONTINGENCY",
+      "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.ContingentAt"
     }
   ]
 }

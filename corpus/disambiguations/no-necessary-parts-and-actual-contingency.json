@@ -13,22 +13,26 @@
     {
       "id": "50aed763-e509-408b-b274-de3056b72174",
       "label": "NO_NECESSARY_PARTS_ORDINARY_CONTINGENCY_SELECTED_1",
-      "definition_id": "DEF-NO-NECESSARY-PARTS-AT"
+      "definition_id": "DEF-NO-NECESSARY-PARTS-AT",
+      "lean_declaration": "TruthCore.Mereology.FusionNoNecessaryParts.NoNecessaryPartsAt"
     },
     {
       "id": "42fa7368-f177-49f4-81b0-b3f7faa68f86",
       "label": "NO_NECESSARY_PARTS_ORDINARY_CONTINGENCY_SELECTED_2",
-      "definition_id": "DEF-MODAL-PARTHOOD-NECESSITY-DOWNWARD"
+      "definition_id": "DEF-MODAL-PARTHOOD-NECESSITY-DOWNWARD",
+      "lean_declaration": "TruthCore.Mereology.FusionNoNecessaryParts.NecessityDownwardAlongParthoodAt"
     },
     {
       "id": "b4ffd228-af72-4f53-9f37-bfad5960dff8",
       "label": "NO_NECESSARY_PARTS_ORDINARY_CONTINGENCY_SELECTED_3",
-      "definition_id": "DEF-UNIVERSAL-FUSION-PROFILE"
+      "definition_id": "DEF-UNIVERSAL-FUSION-PROFILE",
+      "lean_declaration": "TruthCore.Mereology.UniversalFusionBoundary.Fusion"
     },
     {
       "id": "85bbb43c-0bb3-454c-8a46-11d1de4808c8",
       "label": "NO_NECESSARY_PARTS_ORDINARY_CONTINGENCY_SELECTED_4",
-      "definition_id": "DEF-KANT-MODAL-CONTINGENCY"
+      "definition_id": "DEF-KANT-MODAL-CONTINGENCY",
+      "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.ContingentAt"
     }
   ]
 }

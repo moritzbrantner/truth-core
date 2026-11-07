@@ -11,12 +11,14 @@
     {
       "id": "1733356e-85e0-4f0a-aca9-336b644afb06",
       "label": "PRIMITIVE_THISNESS_1",
-      "definition_id": "DEF-REAL-THISNESS"
+      "definition_id": "DEF-REAL-THISNESS",
+      "lean_declaration": "TruthCore.Causality.PureActThisness.FirstMoverHasRealThisness"
     },
     {
       "id": "c5a7ebfa-8e2b-4faa-bd67-df31835b0d11",
       "label": "PRIMITIVE_THISNESS_2",
-      "definition_id": "DEF-BARE-NUMERICAL-DISTINCTNESS"
+      "definition_id": "DEF-BARE-NUMERICAL-DISTINCTNESS",
+      "lean_declaration": "TruthCore.Causality.PureActThisness.BarelyDistinctFirstMovers"
     }
   ]
 }

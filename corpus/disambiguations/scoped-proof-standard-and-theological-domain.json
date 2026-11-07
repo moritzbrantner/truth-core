@@ -19,52 +19,62 @@
     {
       "id": "12db5a97-3c7e-4aaf-b637-276879fd5823",
       "label": "PROVABLE_AND_THEOLOGICAL_PROOF_STANDARD_1",
-      "definition_id": "DEF-SCOPED-PROOF-INQUIRIES"
+      "definition_id": "DEF-SCOPED-PROOF-INQUIRIES",
+      "lean_declaration": "TruthCore.Logic.ScopedEmpiricalProofBarrier.Inquiries"
     },
     {
       "id": "b8c060fc-5634-48e9-afa2-6880dd5cf4a4",
       "label": "PROVABLE_AND_THEOLOGICAL_PROOF_STANDARD_2",
-      "definition_id": "DEF-THEOLOGICAL-SUBJECT-DEFINITION"
+      "definition_id": "DEF-THEOLOGICAL-SUBJECT-DEFINITION",
+      "lean_declaration": "TruthCore.Logic.ScopedEmpiricalProofBarrier.SubjectDefinition"
     },
     {
       "id": "b436c92a-3067-4ca3-9574-3db15ef2d5e8",
       "label": "PROVABLE_AND_THEOLOGICAL_PROOF_STANDARD_3",
-      "definition_id": "DEF-THEOLOGICAL-PREMISE-DEFINITION"
+      "definition_id": "DEF-THEOLOGICAL-PREMISE-DEFINITION",
+      "lean_declaration": "TruthCore.Logic.ScopedEmpiricalProofBarrier.PremiseDefinition"
     },
     {
       "id": "ead08b61-ec6d-4598-93dc-8031aa8ab233",
       "label": "PROVABLE_AND_THEOLOGICAL_PROOF_STANDARD_4",
-      "definition_id": "DEF-THEOLOGICAL-METHOD-DEFINITION"
+      "definition_id": "DEF-THEOLOGICAL-METHOD-DEFINITION",
+      "lean_declaration": "TruthCore.Logic.ScopedEmpiricalProofBarrier.MethodDefinition"
     },
     {
       "id": "4ddbf1e6-4e5b-450e-8742-99443b8bf56f",
       "label": "PROVABLE_AND_THEOLOGICAL_PROOF_STANDARD_5",
-      "definition_id": "DEF-PROOF-DOMAIN-COVERAGE"
+      "definition_id": "DEF-PROOF-DOMAIN-COVERAGE",
+      "lean_declaration": "TruthCore.Logic.ScopedEmpiricalProofBarrier.NamedDomainCoverage"
     },
     {
       "id": "92307f4d-c58e-40b0-ba07-4861350afa74",
       "label": "PROVABLE_AND_THEOLOGICAL_PROOF_STANDARD_6",
-      "definition_id": "DEF-EMPIRICAL-OBSERVATION-BARRIER"
+      "definition_id": "DEF-EMPIRICAL-OBSERVATION-BARRIER",
+      "lean_declaration": "TruthCore.Logic.ScopedEmpiricalProofBarrier.ObservationBarrier"
     },
     {
       "id": "83be6788-2904-4370-8b32-9d9ba984a938",
       "label": "PROVABLE_AND_THEOLOGICAL_PROOF_STANDARD_7",
-      "definition_id": "DEF-SCOPED-EMPIRICAL-PROOF-DENIAL"
+      "definition_id": "DEF-SCOPED-EMPIRICAL-PROOF-DENIAL",
+      "lean_declaration": "TruthCore.Logic.ScopedEmpiricalProofBarrier.RestrictedNoEmpiricalProof"
     },
     {
       "id": "b8102f24-e2fe-432c-9ee6-83028530a194",
       "label": "PROVABLE_AND_THEOLOGICAL_PROOF_STANDARD_8",
-      "definition_id": "DEF-EMPIRICAL-BARRIER-COVERAGE"
+      "definition_id": "DEF-EMPIRICAL-BARRIER-COVERAGE",
+      "lean_declaration": "TruthCore.Logic.ScopedEmpiricalProofBarrier.BarrierExplainsAll"
     },
     {
       "id": "fdbacc96-8309-436d-8bcc-81a2481ce598",
       "label": "PROVABLE_AND_THEOLOGICAL_PROOF_STANDARD_9",
-      "definition_id": "DEF-EMPIRICAL-BEGINNING-QUESTION-CONTROL"
+      "definition_id": "DEF-EMPIRICAL-BEGINNING-QUESTION-CONTROL",
+      "lean_declaration": "TruthCore.Logic.ScopedEmpiricalProofBarrier.Control.pastOrder"
     },
     {
       "id": "89b47647-aac2-4859-a579-426ddc4307e8",
       "label": "PROVABLE_AND_THEOLOGICAL_PROOF_STANDARD_10",
-      "definition_id": "DEF-CONCLUSIVE-VERIFIABILITY"
+      "definition_id": "DEF-CONCLUSIVE-VERIFIABILITY",
+      "lean_declaration": "TruthCore.Logic.Verificationism.ConclusivelyVerifiable"
     }
   ]
 }

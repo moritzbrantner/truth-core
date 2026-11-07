@@ -12,17 +12,20 @@
     {
       "id": "d6ab1820-e5dd-4b15-9ed4-1c79766c63a6",
       "label": "EXISTENCE_1",
-      "definition_id": "DEF-RUSSELL-QUANTIFIER-EXISTENCE"
+      "definition_id": "DEF-RUSSELL-QUANTIFIER-EXISTENCE",
+      "lean_declaration": "TruthCore.Modern.Russell.Existence.ExistsPred"
     },
     {
       "id": "aeb3d4f5-6d72-4e2f-a5f3-d2a1bd688a55",
       "label": "EXISTENCE_2",
-      "definition_id": "DEF-RUSSELL-DESCRIPTION"
+      "definition_id": "DEF-RUSSELL-DESCRIPTION",
+      "lean_declaration": "TruthCore.Modern.Russell.Existence.DescriptionExists"
     },
     {
       "id": "365c52b4-157a-473c-bcb9-511d6468feaf",
       "label": "EXISTENCE_3",
-      "definition_id": "DEF-RUSSELL-ACTUAL-DOMAIN"
+      "definition_id": "DEF-RUSSELL-ACTUAL-DOMAIN",
+      "lean_declaration": "TruthCore.Modern.Russell.Existence.ActualAt"
     }
   ]
 }

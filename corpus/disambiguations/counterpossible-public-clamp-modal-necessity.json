@@ -13,22 +13,26 @@
     {
       "id": "fda8a8e5-6fed-4cd6-85c7-19959e6b18b8",
       "label": "IF_THE_NORMALLY_NECESSARY_PUBLIC_CONTRIBUTOR_1",
-      "definition_id": "DEF-COUNTERPOSSIBLE-NORMAL-REPAIR-DOMAINS"
+      "definition_id": "DEF-COUNTERPOSSIBLE-NORMAL-REPAIR-DOMAINS",
+      "lean_declaration": "TruthCore.Modal.CounterpossibleConservativity.State"
     },
     {
       "id": "9db3312e-8a7b-42e0-9f11-264f06f472d3",
       "label": "IF_THE_NORMALLY_NECESSARY_PUBLIC_CONTRIBUTOR_2",
-      "definition_id": "DEF-COUNTERPOSSIBLE-NORMAL-FIRST-SELECTION"
+      "definition_id": "DEF-COUNTERPOSSIBLE-NORMAL-FIRST-SELECTION",
+      "lean_declaration": "TruthCore.Modal.CounterpossibleConservativity.Selected"
     },
     {
       "id": "180f5692-b0e0-4df3-aa11-4e1def551309",
       "label": "IF_THE_NORMALLY_NECESSARY_PUBLIC_CONTRIBUTOR_3",
-      "definition_id": "DEF-COUNTERPOSSIBLE-PUBLIC-ATOM-INTERPRETATION"
+      "definition_id": "DEF-COUNTERPOSSIBLE-PUBLIC-ATOM-INTERPRETATION",
+      "lean_declaration": "TruthCore.Modal.CounterpossibleConservativity.sourceAbsent"
     },
     {
       "id": "fdd71f42-d1a1-46a7-b81d-2e2f262a230c",
       "label": "IF_THE_NORMALLY_NECESSARY_PUBLIC_CONTRIBUTOR_4",
-      "definition_id": "DEF-EXPLANATORY-ENABLES"
+      "definition_id": "DEF-EXPLANATORY-ENABLES",
+      "lean_declaration": "TruthCore.Explanation.ExplanatorySymmetry.EnablesNonvacuously"
     }
   ]
 }

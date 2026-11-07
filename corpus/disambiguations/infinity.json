@@ -11,7 +11,8 @@
     {
       "id": "66a54759-c1be-410c-a521-fa9682f0e25f",
       "label": "INFINITE_1",
-      "definition_id": "DEF-INFINITE"
+      "definition_id": "DEF-INFINITE",
+      "lean_declaration": "TruthCore.Case.Catholicism.GodIsInfinite"
     },
     {
       "id": "e8da1c78-203c-415a-bacc-631fadfef6d6",

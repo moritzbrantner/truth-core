@@ -12,12 +12,14 @@
     {
       "id": "96bd303c-54a8-486a-a50e-b982f1224bd1",
       "label": "VALIDATION_RELIABILITY_AND_EPISTEMIC_WARRANT_1",
-      "definition_id": "DEF-FINITE-PRODUCT-VALIDATION"
+      "definition_id": "DEF-FINITE-PRODUCT-VALIDATION",
+      "lean_declaration": "TruthCore.Logic.FiniteValidationLogic.falseAcceptance"
     },
     {
       "id": "68b34f7e-ba5d-4115-bc9d-5eddd7b1978e",
       "label": "VALIDATION_RELIABILITY_AND_EPISTEMIC_WARRANT_2",
-      "definition_id": "DEF-FALLIBLE-WEIGHTED-CORRECTION"
+      "definition_id": "DEF-FALLIBLE-WEIGHTED-CORRECTION",
+      "lean_declaration": "TruthCore.Logic.FallibleCorrection.weights"
     },
     {
       "id": "84259cc4-e9a7-4079-8fea-abf099da765a",

@@ -13,22 +13,26 @@
     {
       "id": "875fec90-d2e9-41eb-a14c-09688b1f4497",
       "label": "ACTUAL_POSSIBLE_AND_NECESSARY_COLLAPSE_VERSUS_POSSIBILITY_1",
-      "definition_id": "DEF-MODAL-FIXTURE-MC"
+      "definition_id": "DEF-MODAL-FIXTURE-MC",
+      "lean_declaration": "TruthCore.Modal.ResearchFixture.MC"
     },
     {
       "id": "18ba9899-961d-4723-902b-487786d50e61",
       "label": "ACTUAL_POSSIBLE_AND_NECESSARY_COLLAPSE_VERSUS_POSSIBILITY_2",
-      "definition_id": "DEF-MODAL-K-ACTUALITY"
+      "definition_id": "DEF-MODAL-K-ACTUALITY",
+      "lean_declaration": "TruthCore.Modal.KResearch.PossibilityActuality"
     },
     {
       "id": "275028c1-4b48-4662-971e-a03b13ddd97a",
       "label": "ACTUAL_POSSIBLE_AND_NECESSARY_COLLAPSE_VERSUS_POSSIBILITY_3",
-      "definition_id": "DEF-HUME-TEST-CONTINGENCY"
+      "definition_id": "DEF-HUME-TEST-CONTINGENCY",
+      "lean_declaration": "TruthCore.Modern.Hume.Conceivability.Contingent"
     },
     {
       "id": "bc5fb83b-46c5-4237-a967-dd4584e4a776",
       "label": "ACTUAL_POSSIBLE_AND_NECESSARY_COLLAPSE_VERSUS_POSSIBILITY_4",
-      "definition_id": "DEF-MODAL-K-FORK"
+      "definition_id": "DEF-MODAL-K-FORK",
+      "lean_declaration": "TruthCore.Modal.KResearch.fork"
     }
   ]
 }

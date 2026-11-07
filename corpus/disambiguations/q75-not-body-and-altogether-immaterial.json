@@ -11,12 +11,14 @@
     {
       "id": "70b2a728-9bfe-4b3c-a897-9b89831a0ebb",
       "label": "INCORPOREAL_VERSUS_ALTOGETHER_IMMATERIAL_1",
-      "definition_id": "DEF-Q75-INTELLECT-NOT-BODY"
+      "definition_id": "DEF-Q75-INTELLECT-NOT-BODY",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.HumanIntellect.IntellectIsNotBody"
     },
     {
       "id": "85a8d332-614c-4686-ae7c-7c8babca8325",
       "label": "INCORPOREAL_VERSUS_ALTOGETHER_IMMATERIAL_2",
-      "definition_id": "DEF-ALTOGETHER-IMMATERIAL"
+      "definition_id": "DEF-ALTOGETHER-IMMATERIAL",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.ImmaterialIsIntellectualReading"
     }
   ]
 }

@@ -15,7 +15,8 @@
     {
       "id": "9bea9a43-3a87-4d62-86de-e5873aea62f8",
       "label": "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST_1",
-      "definition_id": "DEF-MAXIME-ENS"
+      "definition_id": "DEF-MAXIME-ENS",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.IsMaximalIn"
     },
     {
       "id": "ac4c2702-e178-4c52-bd6d-e33685875cdf",
@@ -30,17 +31,20 @@
     {
       "id": "517baa9d-7981-4e2a-bdae-045467cb29fc",
       "label": "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST_4",
-      "definition_id": "DEF-GREATEST-DEGREE-IN-A-PERFECTION"
+      "definition_id": "DEF-GREATEST-DEGREE-IN-A-PERFECTION",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GreatestDegreeBearer"
     },
     {
       "id": "230f0729-018b-48e4-a148-3fe610dc2995",
       "label": "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST_5",
-      "definition_id": "DEF-MAXIMUM-CALIBRATION-PROFILE"
+      "definition_id": "DEF-MAXIMUM-CALIBRATION-PROFILE",
+      "lean_declaration": "TruthCore.Causality.MaximumDefinitionFork.Frame"
     },
     {
       "id": "a833bcdb-8e99-4079-8cb6-fc1295eb690f",
       "label": "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST_6",
-      "definition_id": "DEF-MAXIMUM-IN-A-PERFECTION"
+      "definition_id": "DEF-MAXIMUM-IN-A-PERFECTION",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.IsMaximalIn"
     }
   ]
 }

@@ -11,12 +11,14 @@
     {
       "id": "19120dc5-dfcb-4486-9664-9f5d7ae96bc0",
       "label": "ORDINARY_ACTUAL_CAUSATION_VERSUS_A_DIRECT_1",
-      "definition_id": "DEF-UNDERIVED-COMMON-ACTUAL-SOURCE"
+      "definition_id": "DEF-UNDERIVED-COMMON-ACTUAL-SOURCE",
+      "lean_declaration": "TruthCore.Causality.UnderivedCommonSource.ActualCauseSupportsEsse"
     },
     {
       "id": "614ea46e-6856-4c87-8cba-3cbd2e6f2d52",
       "label": "ORDINARY_ACTUAL_CAUSATION_VERSUS_A_DIRECT_2",
-      "definition_id": "DEF-ACTUAL-ESSE-CAUSES-SUPPORT-AT"
+      "definition_id": "DEF-ACTUAL-ESSE-CAUSES-SUPPORT-AT",
+      "lean_declaration": "TruthCore.Causality.ExistenceActuality.ActualEsseCausesSupportAt"
     }
   ]
 }

@@ -29,12 +29,14 @@
     {
       "id": "99f944c6-ac62-4042-81c1-de139304fcd0",
       "label": "EXPERIMENTAL_SUCCESS_AUXILIARY_TRUST_CERTAINTY_JUDGMENT_4",
-      "definition_id": "DEF-CONSTANT-ADDITIVE-CALIBRATION"
+      "definition_id": "DEF-CONSTANT-ADDITIVE-CALIBRATION",
+      "lean_declaration": "TruthCore.Science.MeasurementCalibration.SameReadings"
     },
     {
       "id": "75e45056-ef71-4d50-94d8-f39a0de0e6c5",
       "label": "EXPERIMENTAL_SUCCESS_AUXILIARY_TRUST_CERTAINTY_JUDGMENT_5",
-      "definition_id": "DEF-INPUT-DEPENDENT-CALIBRATION"
+      "definition_id": "DEF-INPUT-DEPENDENT-CALIBRATION",
+      "lean_declaration": "TruthCore.Science.MeasurementCalibration.SameVariableReadings"
     }
   ]
 }

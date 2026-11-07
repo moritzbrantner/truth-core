@@ -13,7 +13,8 @@
     {
       "id": "f1c4350a-c288-4450-89a9-4d22f181e6a6",
       "label": "TRUE_3",
-      "definition_id": "DEF-ONTOLOGICAL-TRUTH"
+      "definition_id": "DEF-ONTOLOGICAL-TRUTH",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MostTrueIsMostBeingReading"
     },
     {
       "id": "7e487b70-340c-454b-b10e-89d73a7da594",
@@ -28,7 +29,8 @@
     {
       "id": "d4796380-f260-46ab-a09b-554748dd685f",
       "label": "TRUE_6",
-      "definition_id": "DEF-LEAN-PROPOSITION-HOLDING"
+      "definition_id": "DEF-LEAN-PROPOSITION-HOLDING",
+      "lean_declaration": "TruthCore.Logic.TruthPilot.SomePropositionHolds"
     }
   ]
 }

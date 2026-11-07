@@ -29,12 +29,14 @@
     {
       "id": "3b86831d-295c-4728-8501-49f81d8cfccb",
       "label": "JUSTIFICATIONAL_STATUS_REFLECTIVE_ACCESS_RELIABLE_PROCESS_4",
-      "definition_id": "DEF-KNOWLEDGE-JUSTIFICATION-NORM"
+      "definition_id": "DEF-KNOWLEDGE-JUSTIFICATION-NORM",
+      "lean_declaration": "TruthCore.Logic.JustificationIntrospection.KnowledgeRequiresJustification"
     },
     {
       "id": "9d5a437e-9962-4678-a58c-47862d4d8d60",
       "label": "JUSTIFICATIONAL_STATUS_REFLECTIVE_ACCESS_RELIABLE_PROCESS_5",
-      "definition_id": "DEF-ALL-PREMISE-GENERATED-WARRANT"
+      "definition_id": "DEF-ALL-PREMISE-GENERATED-WARRANT",
+      "lean_declaration": "TruthCore.Logic.RegressDomains.GeneratedWarrant"
     }
   ]
 }

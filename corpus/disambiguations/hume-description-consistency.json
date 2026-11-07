@@ -12,17 +12,20 @@
     {
       "id": "120d7857-47d6-42a9-8c0d-7ef5b450d957",
       "label": "DESCRIBED_IMAGINABLE_CONSISTENT_POSSIBLE_1",
-      "definition_id": "DEF-HUME-VERBAL-DESCRIPTION"
+      "definition_id": "DEF-HUME-VERBAL-DESCRIPTION",
+      "lean_declaration": "TruthCore.Modern.Hume.SelfApplication.Verbal"
     },
     {
       "id": "7ed0a58f-e0b8-4c85-892b-0b2ad07f3a65",
       "label": "DESCRIBED_IMAGINABLE_CONSISTENT_POSSIBLE_2",
-      "definition_id": "DEF-HUME-MODEL-SATISFIABILITY"
+      "definition_id": "DEF-HUME-MODEL-SATISFIABILITY",
+      "lean_declaration": "TruthCore.Modern.Hume.SelfApplication.SatisfiableConception"
     },
     {
       "id": "4b1874a1-38f8-490b-b32e-1cd578e4227d",
       "label": "DESCRIBED_IMAGINABLE_CONSISTENT_POSSIBLE_3",
-      "definition_id": "DEF-HUME-MODAL-CONCEPTION"
+      "definition_id": "DEF-HUME-MODAL-CONCEPTION",
+      "lean_declaration": "TruthCore.Modern.Hume.SelfApplication.ModalConception"
     }
   ]
 }

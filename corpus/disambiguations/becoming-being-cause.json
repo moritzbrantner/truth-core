@@ -22,7 +22,8 @@
     {
       "id": "39f64183-5038-4348-ad9f-5b64674f65f8",
       "label": "CAUSING_AN_EFFECT_3",
-      "definition_id": "DEF-CAUSE-OF-PERFECTION"
+      "definition_id": "DEF-CAUSE-OF-PERFECTION",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.CausesAllInGenus"
     }
   ]
 }

@@ -11,7 +11,8 @@
     {
       "id": "2ba29183-e9d7-4b34-9815-6e8e24c16692",
       "label": "IN_POTENCY_MUTABLE_1",
-      "definition_id": "DEF-POTENCY"
+      "definition_id": "DEF-POTENCY",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.AdoptedPotency.InPotency"
     },
     {
       "id": "105b1f4a-6d9c-4e4e-8c30-2c109c2f755f",

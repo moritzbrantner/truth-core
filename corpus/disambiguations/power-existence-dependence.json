@@ -13,17 +13,20 @@
     {
       "id": "9099ce01-3d79-4b1f-b291-84cc5c28c928",
       "label": "UNDERIVED_POWER_VERSUS_UNDERIVED_EXISTENCE_1",
-      "definition_id": "DEF-UNBORROWED-POWER-IN-A-RESPECT"
+      "definition_id": "DEF-UNBORROWED-POWER-IN-A-RESPECT",
+      "lean_declaration": "TruthCore.Causality.PowerExistenceBoundary.UnborrowedPowerAt"
     },
     {
       "id": "2ca16603-b14f-484a-b9cf-a0b1b4c61450",
       "label": "UNDERIVED_POWER_VERSUS_UNDERIVED_EXISTENCE_2",
-      "definition_id": "DEF-FINITELY-GROUNDED-CAUSAL-POWER"
+      "definition_id": "DEF-FINITELY-GROUNDED-CAUSAL-POWER",
+      "lean_declaration": "TruthCore.Causality.FinitelyGroundedPower"
     },
     {
       "id": "4325c64c-dc8e-4cc4-97d5-5f3420cea76a",
       "label": "UNDERIVED_POWER_VERSUS_UNDERIVED_EXISTENCE_3",
-      "definition_id": "DEF-EXISTENTIAL-SUPPORT-MODEL"
+      "definition_id": "DEF-EXISTENTIAL-SUPPORT-MODEL",
+      "lean_declaration": "TruthCore.Causality.PowerExistenceBoundary.ExternallySupportedAt"
     },
     {
       "id": "0a95cca4-2a58-4bbc-93de-b8a05560801e",

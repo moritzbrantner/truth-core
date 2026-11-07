@@ -11,7 +11,8 @@
     {
       "id": "b05511a8-97ca-4eb2-88b1-dc302920fe77",
       "label": "NICENE_CONSTANTINOPOLITAN_CREED_1",
-      "definition_id": "DEF-CREED-GREEK-C381-CONTENT"
+      "definition_id": "DEF-CREED-GREEK-C381-CONTENT",
+      "lean_declaration": "TruthCore.Case.Catholicism.CreedArticleList"
     },
     {
       "id": "f2b80011-6dee-40bd-bcf2-ad33e1b4d479",

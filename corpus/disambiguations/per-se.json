@@ -13,12 +13,14 @@
     {
       "id": "df046130-853b-41ae-b3fb-afc126d06c0d",
       "label": "PER_SE_1",
-      "definition_id": "DEF-PER-SE-ORDERED-SERIES"
+      "definition_id": "DEF-PER-SE-ORDERED-SERIES",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.NoInfinitePerSeMoverSeriesReading"
     },
     {
       "id": "110c4d86-2460-4eb0-9d99-79442908d368",
       "label": "PER_SE_2",
-      "definition_id": "DEF-NECESSARY-PER-SE"
+      "definition_id": "DEF-NECESSARY-PER-SE",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.IsNecessaryPerSe"
     },
     {
       "id": "466d3a02-acfc-456c-b1cb-5d7ebf54d2ca",

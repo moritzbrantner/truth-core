@@ -11,12 +11,14 @@
     {
       "id": "d10848f7-38c8-4657-b9da-3f7a4427f8df",
       "label": "TRUE_1",
-      "definition_id": "DEF-ABSOLUTE-TRUTH"
+      "definition_id": "DEF-ABSOLUTE-TRUTH",
+      "lean_declaration": "TruthCore.Logic.SelfApplication.TruthSemantics"
     },
     {
       "id": "f64c7590-b520-445d-be90-dc043c77dcb5",
       "label": "TRUE_2",
-      "definition_id": "DEF-RELATIVE-TRUTH"
+      "definition_id": "DEF-RELATIVE-TRUTH",
+      "lean_declaration": "TruthCore.Logic.SelfApplication.TruthSemantics.trueIn"
     }
   ]
 }

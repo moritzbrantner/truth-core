@@ -16,7 +16,8 @@
     {
       "id": "4fbdf118-eaea-408b-9a08-c7f31a686db4",
       "label": "NAMES_2",
-      "definition_id": "DEF-RUSSELL-CONTEXTUAL-NAME"
+      "definition_id": "DEF-RUSSELL-CONTEXTUAL-NAME",
+      "lean_declaration": "TruthCore.Modern.Russell.Existence.StrictNameAt"
     }
   ]
 }

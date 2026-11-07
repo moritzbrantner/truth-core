@@ -64,18 +64,18 @@ class DisambiguationTest(unittest.TestCase):
                   "term_label": "X", "senses": [
                       {"id": "11111111-1111-4111-8111-111111111111", "label": "X_1", "definition_id": "DEF-A"},
                       {"id": "22222222-2222-4222-8222-222222222222", "label": "X_2", "definition_id": "DEF-B"}]}
-        corpus.validate_disambiguation(DISAMBIGUATION_PATH, record, {"DEF-A", "DEF-B"})
+        corpus.validate_disambiguation(DISAMBIGUATION_PATH, record, {"DEF-A", "DEF-B"}, "")
         with self.assertRaises(corpus.CorpusError):
             corpus.validate_disambiguation(DISAMBIGUATION_PATH, {**record, "senses": record["senses"][:1]},
-                                           {"DEF-A", "DEF-B"})
+                                           {"DEF-A", "DEF-B"}, "")
         for senses in (["DEF-A"], ["DEF-A", "DEF-A"], ["DEF-A", "DEF-UNKNOWN"]):
             with self.subTest(senses=senses), self.assertRaises(corpus.CorpusError):
                 corpus.validate_disambiguation(
-                    DISAMBIGUATION_PATH, {**record, "sense_definition_ids": senses}, {"DEF-A", "DEF-B"}
+                    DISAMBIGUATION_PATH, {**record, "sense_definition_ids": senses}, {"DEF-A", "DEF-B"}, ""
                 )
         with self.assertRaises(corpus.CorpusError):
             corpus.validate_disambiguation(
-                DISAMBIGUATION_PATH, {**record, "resolution": ""}, {"DEF-A", "DEF-B"}
+                DISAMBIGUATION_PATH, {**record, "resolution": ""}, {"DEF-A", "DEF-B"}, ""
             )
 
 

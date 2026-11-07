@@ -12,17 +12,20 @@
     {
       "id": "29ec1940-e6f1-45db-9271-e13c58610be9",
       "label": "REGRESS_GENERATING_RULE_1",
-      "definition_id": "DEF-THIRD-MAN-FORMATION"
+      "definition_id": "DEF-THIRD-MAN-FORMATION",
+      "lean_declaration": "TruthCore.Greek.Plato.ThirdMan.Formation"
     },
     {
       "id": "5219d8f6-8bb5-4c8d-9d31-2aa707c5425b",
       "label": "REGRESS_GENERATING_RULE_2",
-      "definition_id": "DEF-THIRD-MAN-LIKENESS-FORMATION"
+      "definition_id": "DEF-THIRD-MAN-LIKENESS-FORMATION",
+      "lean_declaration": "TruthCore.Greek.Plato.ThirdMan.LikenessFormation"
     },
     {
       "id": "d93b8c98-f1f9-464a-bbc4-b2d0b61fb6ad",
       "label": "REGRESS_GENERATING_RULE_3",
-      "definition_id": "DEF-THIRD-MAN-MUTUAL-LIKENESS"
+      "definition_id": "DEF-THIRD-MAN-MUTUAL-LIKENESS",
+      "lean_declaration": "TruthCore.Greek.Plato.ThirdMan.MutuallyLike"
     }
   ]
 }

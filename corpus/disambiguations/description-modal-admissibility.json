@@ -11,12 +11,14 @@
     {
       "id": "73b80cc9-cd11-4506-8c9e-04245b044be9",
       "label": "POSSIBLE_DESCRIPTION_VERSUS_GENUINELY_POSSIBLE_STATE_1",
-      "definition_id": "DEF-TWO-RELATION-EPISTEMIC-PROFILE"
+      "definition_id": "DEF-TWO-RELATION-EPISTEMIC-PROFILE",
+      "lean_declaration": "TruthCore.Modal.PossibilityTransfer.epistemic"
     },
     {
       "id": "4c18b779-5edc-4d4d-a45f-e1e506acc918",
       "label": "POSSIBLE_DESCRIPTION_VERSUS_GENUINELY_POSSIBLE_STATE_2",
-      "definition_id": "DEF-TWO-RELATION-METAPHYSICAL-PROFILE"
+      "definition_id": "DEF-TWO-RELATION-METAPHYSICAL-PROFILE",
+      "lean_declaration": "TruthCore.Modal.PossibilityTransfer.metaphysical"
     }
   ]
 }

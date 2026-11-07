@@ -12,7 +12,8 @@
     {
       "id": "b77c1c5a-7956-47ac-84d2-b3d748abf918",
       "label": "CRITERION_OF_CORRECTNESS_1",
-      "definition_id": "DEF-DATA-RELATIVE-CORRECTION-CRITERION"
+      "definition_id": "DEF-DATA-RELATIVE-CORRECTION-CRITERION",
+      "lean_declaration": "TruthCore.Logic.CorrectionCriterion.AdmitsCriterion"
     },
     {
       "id": "54088d79-c78a-452c-bfda-718e662a698d",

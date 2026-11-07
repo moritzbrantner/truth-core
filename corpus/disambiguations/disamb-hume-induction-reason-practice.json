@@ -14,27 +14,32 @@
     {
       "id": "805de0fe-9d8a-467d-a690-982908964f68",
       "label": "REASON_CUSTOM_PRACTICAL_RELIANCE_AND_EPISTEMIC_1",
-      "definition_id": "DEF-HUME-INDUCTION-FOUNDATION"
+      "definition_id": "DEF-HUME-INDUCTION-FOUNDATION",
+      "lean_declaration": "TruthCore.Modern.Hume.Induction.NoDemonstration"
     },
     {
       "id": "e6c76460-8f88-409b-92e0-e586d853e961",
       "label": "REASON_CUSTOM_PRACTICAL_RELIANCE_AND_EPISTEMIC_2",
-      "definition_id": "DEF-HUME-INDUCTION-CUSTOM"
+      "definition_id": "DEF-HUME-INDUCTION-CUSTOM",
+      "lean_declaration": "TruthCore.Modern.Hume.Induction.CustomAccount"
     },
     {
       "id": "df9a670d-551a-4a82-943d-653b3e704e3f",
       "label": "REASON_CUSTOM_PRACTICAL_RELIANCE_AND_EPISTEMIC_3",
-      "definition_id": "DEF-HUME-INDUCTION-ENTITLEMENT"
+      "definition_id": "DEF-HUME-INDUCTION-ENTITLEMENT",
+      "lean_declaration": "TruthCore.Modern.Hume.Induction.Verdict"
     },
     {
       "id": "9283a35e-9a23-4494-a64a-5273f33de21d",
       "label": "REASON_CUSTOM_PRACTICAL_RELIANCE_AND_EPISTEMIC_4",
-      "definition_id": "DEF-HUME-INDUCTION-PRACTICE"
+      "definition_id": "DEF-HUME-INDUCTION-PRACTICE",
+      "lean_declaration": "TruthCore.Modern.Hume.Induction.Assessment"
     },
     {
       "id": "f3deaa52-5c12-4e49-8abc-5770d64f53d0",
       "label": "REASON_CUSTOM_PRACTICAL_RELIANCE_AND_EPISTEMIC_5",
-      "definition_id": "DEF-HUME-INDUCTION-PERSISTENCE"
+      "definition_id": "DEF-HUME-INDUCTION-PERSISTENCE",
+      "lean_declaration": "TruthCore.Modern.Hume.Induction.ConditionalPersistence"
     }
   ]
 }

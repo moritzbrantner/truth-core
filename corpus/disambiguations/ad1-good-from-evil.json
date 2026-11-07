@@ -12,17 +12,20 @@
     {
       "id": "2106970b-6903-410d-a7af-4d75fd5542a1",
       "label": "BRINGING_GOOD_FROM_EVIL_DISTRIBUTIVE_COLLECTIVE_1",
-      "definition_id": "DEF-AD1-COLLECTIVE-ACTUAL-GOOD"
+      "definition_id": "DEF-AD1-COLLECTIVE-ACTUAL-GOOD",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GodDrawsGoodFromPermittedEvilsCollectivelyReading"
     },
     {
       "id": "5ace9d50-da65-43b0-ab4b-639ccca6223e",
       "label": "BRINGING_GOOD_FROM_EVIL_DISTRIBUTIVE_COLLECTIVE_2",
-      "definition_id": "DEF-AD1-COLLECTIVE-CAPABILITY"
+      "definition_id": "DEF-AD1-COLLECTIVE-CAPABILITY",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GodCanDrawGoodFromPermittedEvilsCollectivelyReading"
     },
     {
       "id": "2df2a4b0-4722-4254-9e7c-ecc498bcf10b",
       "label": "BRINGING_GOOD_FROM_EVIL_DISTRIBUTIVE_COLLECTIVE_3",
-      "definition_id": "DEF-AD1-DISTRIBUTIVE-ACTUAL-GOOD"
+      "definition_id": "DEF-AD1-DISTRIBUTIVE-ACTUAL-GOOD",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GodDrawsGoodFromEveryEvilReading"
     }
   ]
 }

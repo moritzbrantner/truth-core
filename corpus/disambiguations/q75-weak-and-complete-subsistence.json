@@ -11,12 +11,14 @@
     {
       "id": "70eb2848-608c-4527-8540-ec204171fba6",
       "label": "SUBSISTENCE_NON_INHERENCE_VERSUS_COMPLETENESS_1",
-      "definition_id": "DEF-Q75-WEAK-SUBSISTENCE"
+      "definition_id": "DEF-Q75-WEAK-SUBSISTENCE",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.HumanIntellect.SubsistsInWeakSense"
     },
     {
       "id": "efb1f117-8d02-49c1-8d4f-855dee1e0bd2",
       "label": "SUBSISTENCE_NON_INHERENCE_VERSUS_COMPLETENESS_2",
-      "definition_id": "DEF-Q75-COMPLETE-SUBSISTENCE"
+      "definition_id": "DEF-Q75-COMPLETE-SUBSISTENCE",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.HumanIntellect.SubsistsAsComplete"
     }
   ]
 }

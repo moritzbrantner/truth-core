@@ -12,17 +12,20 @@
     {
       "id": "807312ab-af8e-4af7-bb5c-b0dc16db8bda",
       "label": "COMPONENT_CUT_AND_FOUNDATION_VERSUS_JOINT_1",
-      "definition_id": "DEF-SCC-CONDENSATION"
+      "definition_id": "DEF-SCC-CONDENSATION",
+      "lean_declaration": "TruthCore.Explanation.CondensationSufficiency.condensed"
     },
     {
       "id": "817c3c95-d3fd-48ea-b257-6b2da4bd036b",
       "label": "COMPONENT_CUT_AND_FOUNDATION_VERSUS_JOINT_2",
-      "definition_id": "DEF-COMPONENT-ESCAPE"
+      "definition_id": "DEF-COMPONENT-ESCAPE",
+      "lean_declaration": "TruthCore.Explanation.CondensationSufficiency.ComponentEscape"
     },
     {
       "id": "4b523539-f088-4faa-bde4-916b5aac778d",
       "label": "COMPONENT_CUT_AND_FOUNDATION_VERSUS_JOINT_3",
-      "definition_id": "DEF-DERIVATIVE-JOINT-SUPPLY"
+      "definition_id": "DEF-DERIVATIVE-JOINT-SUPPLY",
+      "lean_declaration": "TruthCore.Causality.DerivativeJointPower.Supply"
     }
   ]
 }

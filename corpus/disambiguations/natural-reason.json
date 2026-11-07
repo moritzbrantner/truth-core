@@ -11,7 +11,8 @@
     {
       "id": "361468f9-1677-44f5-aecf-592a4baeec92",
       "label": "NATURAL_LIGHT_OF_HUMAN_REASON_1",
-      "definition_id": "DEF-NATURAL-REASON-SHARED"
+      "definition_id": "DEF-NATURAL-REASON-SHARED",
+      "lean_declaration": "TruthCore.Alternatives.Fideism.Practice.AnswersToSharedReason"
     },
     {
       "id": "439a2e92-f3f6-4a58-bba6-28de095ee818",

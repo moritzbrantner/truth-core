@@ -11,7 +11,8 @@
     {
       "id": "38074911-d62e-44e1-b71c-66b5882f0ff3",
       "label": "MOTION_1",
-      "definition_id": "DEF-MOTION-AS-REDUCTION"
+      "definition_id": "DEF-MOTION-AS-REDUCTION",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel.MovedIn"
     },
     {
       "id": "2ddf9d53-00b1-4c63-9197-ee632aba310d",

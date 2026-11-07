@@ -11,12 +11,14 @@
     {
       "id": "274eb0cc-66dc-423b-a929-44390cbdc211",
       "label": "NECESSARY_SIMPLE_CANDIDATES_VERSUS_ONE_DIVINE_1",
-      "definition_id": "DEF-NECESSARY-SIMPLE-JOINT-CONTROL"
+      "definition_id": "DEF-NECESSARY-SIMPLE-JOINT-CONTROL",
+      "lean_declaration": "TruthCore.Causality.NecessarySimplePlurality.JointControl"
     },
     {
       "id": "b001c54f-d617-4c24-a99c-fe1b7d2687fe",
       "label": "NECESSARY_SIMPLE_CANDIDATES_VERSUS_ONE_DIVINE_2",
-      "definition_id": "DEF-SIMPLE"
+      "definition_id": "DEF-SIMPLE",
+      "lean_declaration": "TruthCore.Case.Catholicism.IsSimple"
     }
   ]
 }

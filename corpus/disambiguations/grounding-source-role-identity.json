@@ -11,12 +11,14 @@
     {
       "id": "071d892a-8476-410c-9f5d-5e93b38a9e41",
       "label": "SAME_INDIVIDUAL_ACROSS_WORLD_LOCAL_GROUNDING_1",
-      "definition_id": "DEF-GROUNDING-IDENTITY-COMMON-SOURCE"
+      "definition_id": "DEF-GROUNDING-IDENTITY-COMMON-SOURCE",
+      "lean_declaration": "TruthCore.Causality.GroundingIdentityProfile.rigid"
     },
     {
       "id": "66e8d874-2355-46e7-8d36-18b8e5dcc986",
       "label": "SAME_INDIVIDUAL_ACROSS_WORLD_LOCAL_GROUNDING_2",
-      "definition_id": "DEF-GROUNDING-IDENTITY-GUARDED-CORRESPONDENCE"
+      "definition_id": "DEF-GROUNDING-IDENTITY-GUARDED-CORRESPONDENCE",
+      "lean_declaration": "TruthCore.Causality.GroundingIdentityProfile.counterparts"
     }
   ]
 }

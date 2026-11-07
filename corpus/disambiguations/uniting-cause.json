@@ -13,22 +13,26 @@
     {
       "id": "a7854292-a7cb-403d-b926-f61af1bb435b",
       "label": "UNITING_CAUSE_VERSUS_EFFICIENT_CAUSE_1",
-      "definition_id": "DEF-UNITING-CAUSE"
+      "definition_id": "DEF-UNITING-CAUSE",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7Uniting.DiverseUnitedOnlyThroughUnitingCauseReading"
     },
     {
       "id": "018d4f0a-2276-42a7-b20d-b0fe6c9c3714",
       "label": "UNITING_CAUSE_VERSUS_EFFICIENT_CAUSE_2",
-      "definition_id": "DEF-EFFICIENT-CAUSING"
+      "definition_id": "DEF-EFFICIENT-CAUSING",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.OrderOfEfficientCausesFoundReading"
     },
     {
       "id": "2478812d-d2cd-4182-8ad0-d27a4bdb9ff2",
       "label": "UNITING_CAUSE_VERSUS_EFFICIENT_CAUSE_3",
-      "definition_id": "DEF-CAUSE-OF-PERFECTION"
+      "definition_id": "DEF-CAUSE-OF-PERFECTION",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.CausesAllInGenus"
     },
     {
       "id": "b0629638-0fe1-4da3-af9f-bc28446e53eb",
       "label": "UNITING_CAUSE_VERSUS_EFFICIENT_CAUSE_4",
-      "definition_id": "DEF-COMPOSER-TEMPORAL-PROFILE"
+      "definition_id": "DEF-COMPOSER-TEMPORAL-PROFILE",
+      "lean_declaration": "TruthCore.Causality.ComposerTemporalDefinitionFork.Frame"
     }
   ]
 }

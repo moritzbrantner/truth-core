@@ -11,12 +11,14 @@
     {
       "id": "348db9f2-fda3-4737-a147-3085543d1695",
       "label": "FUSION_1",
-      "definition_id": "DEF-UNIVERSAL-FUSION-PROFILE"
+      "definition_id": "DEF-UNIVERSAL-FUSION-PROFILE",
+      "lean_declaration": "TruthCore.Mereology.UniversalFusionBoundary.Fusion"
     },
     {
       "id": "42ce4c85-3483-4733-af60-b64315b7c15d",
       "label": "FUSION_2",
-      "definition_id": "DEF-OVERLAP-FUSION"
+      "definition_id": "DEF-OVERLAP-FUSION",
+      "lean_declaration": "TruthCore.Mereology.SupplementationFusion.OverlapFusion"
     }
   ]
 }

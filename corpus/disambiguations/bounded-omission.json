@@ -11,12 +11,14 @@
     {
       "id": "6e69f197-622d-49dd-9d66-ab70dfcb80f8",
       "label": "BOUNDED_OMISSION_VERSUS_WHOLE_ROSTER_ABSENCE_1",
-      "definition_id": "DEF-BOUNDED-OMISSION"
+      "definition_id": "DEF-BOUNDED-OMISSION",
+      "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.BoundedOmission.UpTo"
     },
     {
       "id": "fbefe4d8-b8f6-4d19-9d5a-59ed0c64525f",
       "label": "BOUNDED_OMISSION_VERSUS_WHOLE_ROSTER_ABSENCE_2",
-      "definition_id": "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS"
+      "definition_id": "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+      "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.DeDicto"
     }
   ]
 }

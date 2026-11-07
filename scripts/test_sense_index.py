@@ -79,6 +79,54 @@ class SenseLabelsTest(unittest.TestCase):
                          "PRIOR_1, CAUSE_2")
 
 
+class SenseBindTest(unittest.TestCase):
+    CONSTANTS = {"PRIOR": {S1: "N.PriorSimply", S2: "N.PriorInTime", S3: None}}
+    STATEMENTS = {"STMT-BRIDGE": {"lean_declaration": "N.TimeIsSimple"}}
+
+    def described(self, hypothesis_senses, result_senses, head="N.ActPrior"):
+        return {"theorem": "N.t",
+                "binders": [{"name": "h", "prop": True, "head": head, "senses": hypothesis_senses},
+                            {"name": "x", "prop": False, "head": None}],
+                "result": {"prop": True, "head": "N.Concl", "senses": result_senses}}
+
+    def problems(self, described, argument=None):
+        argument = argument or {"term_senses": {"PRIOR": S1}}
+        return corpus.sense_bind_problems({"id": "R"}, argument, described, self.STATEMENTS, self.CONSTANTS)
+
+    def test_declared_sense_only(self) -> None:
+        self.assertEqual(self.problems(self.described(["N.PriorSimply"], [])), [])
+
+    def test_other_sense_is_reported(self) -> None:
+        kinds = [p["kind"] for p in self.problems(self.described(["N.PriorSimply"], ["N.PriorInTime"]))]
+        self.assertEqual(kinds, ["other-sense-mentioned"])
+
+    def test_declared_sense_must_occur(self) -> None:
+        kinds = [p["kind"] for p in self.problems(self.described([], []))]
+        self.assertEqual(kinds, ["declared-sense-not-mentioned"])
+
+    def test_bridge_premise_is_exempt(self) -> None:
+        argument = {"term_senses": {"PRIOR": S1},
+                    "sense_bridges": [{"term": "PRIOR", "from": S2, "to": S1, "statement_id": "STMT-BRIDGE"}]}
+        described = self.described(["N.PriorInTime", "N.PriorSimply"], [], head="N.TimeIsSimple")
+        self.assertEqual(self.problems(described, argument), [])
+
+    def test_sense_without_declaration_and_missing_description(self) -> None:
+        kinds = [p["kind"] for p in self.problems(self.described([], []), {"term_senses": {"PRIOR": S3}})]
+        self.assertEqual(kinds, ["sense-without-lean-declaration"])
+        described = self.described([], [])
+        del described["result"]["senses"]
+        self.assertEqual([p["kind"] for p in self.problems(described)], ["sense-description-missing"])
+
+
+class RatchetTest(unittest.TestCase):
+    def test_flat_entries(self) -> None:
+        data = {"arguments": {"A": {"PRIOR": [S1, S2]}}, "senses_without_lean_declaration": [S3]}
+        self.assertEqual(sense_index.allowlist_entries(data), {("A", "PRIOR", S1), ("A", "PRIOR", S2), (S3,)})
+        grown = {"arguments": {"A": {"PRIOR": [S1, S2, S3]}}, "senses_without_lean_declaration": [S3]}
+        self.assertEqual(sense_index.allowlist_entries(grown) - sense_index.allowlist_entries(data),
+                         {("A", "PRIOR", S3)})
+
+
 class ForEachSenseTest(unittest.TestCase):
     TABLE = {"PRIOR": {"PRIOR_1": S1, S1: S1, "PRIOR_3": S3, S3: S3}}
 

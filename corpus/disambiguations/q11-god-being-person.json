@@ -11,7 +11,8 @@
     {
       "id": "7bb68f33-d18e-423c-bea0-4d70d6eac536",
       "label": "GOD_AS_DIVINE_BEING_VERSUS_DIVINE_1",
-      "definition_id": "DEF-GOD-OF-CLASSICAL-THEISM"
+      "definition_id": "DEF-GOD-OF-CLASSICAL-THEISM",
+      "lean_declaration": "TruthCore.Case.Catholicism.Signature.IsGod"
     },
     {
       "id": "60e6fca1-fb3d-4f73-89f2-f3f8fd84913e",

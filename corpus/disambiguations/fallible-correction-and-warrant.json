@@ -11,7 +11,8 @@
     {
       "id": "e9f64f2f-f0d5-440a-8ec1-8c20788eea5b",
       "label": "FALLIBLE_CORRECTION_1",
-      "definition_id": "DEF-FALLIBLE-WEIGHTED-CORRECTION"
+      "definition_id": "DEF-FALLIBLE-WEIGHTED-CORRECTION",
+      "lean_declaration": "TruthCore.Logic.FallibleCorrection.weights"
     },
     {
       "id": "85382a42-8542-4873-98b7-e6a66cfefc9d",

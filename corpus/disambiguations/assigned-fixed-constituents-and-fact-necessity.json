@@ -11,12 +11,14 @@
     {
       "id": "13ddc161-080c-47db-8fd9-11c68050fcf0",
       "label": "ASSIGNED_FIXED_CONSTITUENTS_WORLDWISE_BEARERS_1",
-      "definition_id": "DEF-ACCOUNT-CONSTITUENTS-NONEMPTY"
+      "definition_id": "DEF-ACCOUNT-CONSTITUENTS-NONEMPTY",
+      "lean_declaration": "TruthCore.Explanation.FixedConstituentNecessaryBeing.AccountConstituentsNonempty"
     },
     {
       "id": "84255f51-e241-4f1e-a4dd-e42db2a2397a",
       "label": "ASSIGNED_FIXED_CONSTITUENTS_WORLDWISE_BEARERS_2",
-      "definition_id": "DEF-ACCOUNT-CONSTITUENTS-REALIZED"
+      "definition_id": "DEF-ACCOUNT-CONSTITUENTS-REALIZED",
+      "lean_declaration": "TruthCore.Explanation.FixedConstituentNecessaryBeing.AccountConstituentsRealized"
     }
   ]
 }

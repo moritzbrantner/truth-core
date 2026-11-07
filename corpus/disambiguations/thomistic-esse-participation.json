@@ -16,7 +16,8 @@
     {
       "id": "4bdeb5fc-260b-42df-86af-3da72bc078f9",
       "label": "PARTICIPATION_1",
-      "definition_id": "DEF-PLATONIC-PARTICIPATION"
+      "definition_id": "DEF-PLATONIC-PARTICIPATION",
+      "lean_declaration": "TruthCore.Greek.Plato.Forms.Vocabulary"
     }
   ]
 }

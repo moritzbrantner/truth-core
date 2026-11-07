@@ -449,7 +449,8 @@ def check_records():
         ],
         "disambiguations": [{"id": "DISAMB-T", "term": "t", "resolution": "DEF-X here, DEF-Y there",
                              "sense_definition_ids": ["DEF-X", "DEF-Y"], "term_label": "T",
-                             "senses": [{"id": SENSE_X, "label": "T_1", "definition_id": "DEF-X"},
+                             "senses": [{"id": SENSE_X, "label": "T_1", "definition_id": "DEF-X",
+                                         "lean_declaration": "TruthCore.Fix.fixB"},
                                         {"id": SENSE_Y, "label": "T_2", "definition_id": "DEF-Y"}]}],
         "inferences": [
             {"id": f"INF-{a}{b}", "input_statement_ids": [f"STMT-{a}"], "assumption_statement_ids": [],
@@ -495,7 +496,8 @@ def check_records():
                             "configurations": [{"id": "base", "statement_ids": ["STMT-A"]}],
                             "incompatibility_result_ids": [],
                             "model_bindings": [{"model_id": "MODEL-FIX", "parameters": {"W": "W"}}]}],
-        "sense_allowlist": {"ARG-BC-OLD": {"T": [SENSE_X, SENSE_Y]}},
+        "sense_allowlist": {"arguments": {"ARG-BC-OLD": {"T": [SENSE_X, SENSE_Y]}},
+                            "senses_without_lean_declaration": [SENSE_Y]},
     }
 
 
@@ -633,9 +635,14 @@ CHECK_FAILURES = {
     "term_senses names no sense of the term": mutate("arguments", "ARG-BC", term_senses={"T": "T_2"}),
     "term_senses names an unused sense": mutate("arguments", "ARG-AB", term_senses={"T": SENSE_Y}),
     "two senses without a bridge": mutate("arguments", "ARG-BC", sense_bridges=None),
-    "allowlist does not cover the senses": lambda records: records["sense_allowlist"].update(
+    "allowlist does not cover the senses": lambda records: records["sense_allowlist"]["arguments"].update(
         {"ARG-BC-OLD": {"T": [SENSE_X]}}),
-    "malformed allowlist": lambda records: records.update(sense_allowlist={"ARG-BC-OLD": ["T"]}),
+    "malformed allowlist": lambda records: records.update(sense_allowlist={"ARG-BC-OLD": {"T": [SENSE_X]}}),
+    "sense without a Lean declaration": lambda records: records["sense_allowlist"].update(
+        senses_without_lean_declaration=[]),
+    "two senses with one Lean declaration": sense(1, lean_declaration="TruthCore.Fix.fixB"),
+    "sense Lean declaration not found": sense(0, lean_declaration="TruthCore.Fix.nowhere"),
+    "sense with an unknown field": sense(0, note="n"),
     "candidate/result id collision": add("candidates", {"id": "RES-AB", "source_id": "SRC", "locator": "2",
                                                         "priority": 1, "goal": "g", "reason": "r",
                                                         "status": "candidate"}),
@@ -724,7 +731,8 @@ class TruthCheckParity(unittest.TestCase):
             for expected in ("does not count for closure rule (c)", "supports relation has no note",
                              "without strong_version_needed", "category predicate markConcrete",
                              "self_evident basis observation is not met",
-                             "1 pre-existing argument(s) use several senses of one term"):
+                             "1 pre-existing argument(s) use several senses of one term",
+                             "1 pre-existing sense(s) have no distinct Lean declaration"):
                 self.assertIn(expected, warnings)
             self.assertNotIn("markAbstract", warnings)
 

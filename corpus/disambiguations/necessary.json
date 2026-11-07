@@ -19,12 +19,14 @@
     {
       "id": "e0c9b653-4077-4942-95fc-574e857a8439",
       "label": "NECESSARY_3",
-      "definition_id": "DEF-NECESSARY-BEING"
+      "definition_id": "DEF-NECESSARY-BEING",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.IsNecessary"
     },
     {
       "id": "7db71fb6-3f3b-49fc-9152-d214b3032ff8",
       "label": "NECESSARY_4",
-      "definition_id": "DEF-NECESSARY-PER-SE"
+      "definition_id": "DEF-NECESSARY-PER-SE",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.IsNecessaryPerSe"
     },
     {
       "id": "95ee3c18-0e10-40f7-a7e9-7b4b5435f7fc",
@@ -34,37 +36,44 @@
     {
       "id": "4588e556-835c-4ffa-9845-bb5baa276079",
       "label": "NECESSARY_6",
-      "definition_id": "DEF-NECESSARY-EXISTENCE-SCOTT"
+      "definition_id": "DEF-NECESSARY-EXISTENCE-SCOTT",
+      "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.NecessaryExistence"
     },
     {
       "id": "79ab29b7-2923-40aa-b0f6-28a83ae80ba0",
       "label": "NECESSARY_7",
-      "definition_id": "DEF-FILTERED-NECESSARY-EXISTENCE"
+      "definition_id": "DEF-FILTERED-NECESSARY-EXISTENCE",
+      "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.FilteredNecessaryExistence"
     },
     {
       "id": "d38b63c6-0435-4bd7-a179-531a7de093bc",
       "label": "NECESSARY_8",
-      "definition_id": "DEF-QML-KB-NECESSITY"
+      "definition_id": "DEF-QML-KB-NECESSITY",
+      "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.Box"
     },
     {
       "id": "7cacb3b7-0ee4-48d7-afd0-48c7168352d5",
       "label": "NECESSARY_9",
-      "definition_id": "DEF-NECESSARY-EXISTENCE-GOEDEL-1970"
+      "definition_id": "DEF-NECESSARY-EXISTENCE-GOEDEL-1970",
+      "lean_declaration": "TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1.NecessaryExistence"
     },
     {
       "id": "5e7b0672-23d6-433a-9cf9-f615f1ce57a4",
       "label": "NECESSARY_10",
-      "definition_id": "DEF-HOML-ACTUALIST-NECESSITY"
+      "definition_id": "DEF-HOML-ACTUALIST-NECESSITY",
+      "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.Box"
     },
     {
       "id": "8c881fa6-2b9f-44be-a32a-c8ef29c13643",
       "label": "NECESSARY_11",
-      "definition_id": "DEF-MODAL-FIXTURE-FRAME"
+      "definition_id": "DEF-MODAL-FIXTURE-FRAME",
+      "lean_declaration": "TruthCore.Modal.Frame"
     },
     {
       "id": "7af298fb-a2c4-4239-919b-7685f2e1f67a",
       "label": "NECESSARY_2",
-      "definition_id": "DEF-KANT-MODAL-NECESSITY"
+      "definition_id": "DEF-KANT-MODAL-NECESSITY",
+      "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.NecessaryAt"
     }
   ]
 }

@@ -12,12 +12,14 @@
     {
       "id": "8f6eeb2d-b057-4de0-8f23-36d8a0507a66",
       "label": "JOINT_CAUSE_VERSUS_MEMBERSHIP_EDGE_EXERCISE_1",
-      "definition_id": "DEF-JOINT-CAUSAL-GROUPS"
+      "definition_id": "DEF-JOINT-CAUSAL-GROUPS",
+      "lean_declaration": "TruthCore.Causality.JointGroups.Groups"
     },
     {
       "id": "f2eb0c64-2e04-44bc-b740-9e6e26ab3d6c",
       "label": "JOINT_CAUSE_VERSUS_MEMBERSHIP_EDGE_EXERCISE_2",
-      "definition_id": "DEF-JOINT-SCENARIO-SUFFICIENCY"
+      "definition_id": "DEF-JOINT-SCENARIO-SUFFICIENCY",
+      "lean_declaration": "TruthCore.Causality.JointGroups.Exercise.suffices"
     }
   ]
 }

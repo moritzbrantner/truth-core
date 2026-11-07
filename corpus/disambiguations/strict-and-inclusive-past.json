@@ -22,7 +22,8 @@
     {
       "id": "b62281f1-a257-4c8d-bdac-1837fbc308c8",
       "label": "STRICT_PAST_INCLUSIVE_PAST_AND_MODAL_3",
-      "definition_id": "DEF-TEMPORAL-EXISTENCE-BEGINNING"
+      "definition_id": "DEF-TEMPORAL-EXISTENCE-BEGINNING",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaContraGentiles.ComesToBeAnew"
     }
   ]
 }

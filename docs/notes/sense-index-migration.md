@@ -22,6 +22,12 @@ of a compound disambiguation whose `term` names several related words (for examp
 rival senses of one word, and splitting the record into one disambiguation per word
 may clear the entry without splitting the argument.
 
+Senses are distinct Lean types: each sense names its own `lean_declaration`. Of the
+1082 senses, 279 have no distinct Lean declaration (none, or
+the same constant as another sense of the record); they are allowlisted in the same file
+and are not finished senses. The allowlists may only shrink (#1233):
+`python3 scripts/sense_index.py ratchet --base <merge-base>` fails on any added entry.
+
 | Argument | Term | Senses |
 | --- | --- | --- |
 | `ABSTRACT-SELECTED-CAUSAL-COUNTERCASE-DEFEATS-CONCRETENESS` | POWER_IMPLIES_CONCRETE_VERSUS_A_CAPACITY | POWER_IMPLIES_CONCRETE_VERSUS_A_CAPACITY_4, POWER_IMPLIES_CONCRETE_VERSUS_A_CAPACITY_7 |

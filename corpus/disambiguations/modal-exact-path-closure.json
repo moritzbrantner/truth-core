@@ -11,12 +11,14 @@
     {
       "id": "31d49046-6462-400e-ab25-53b0a28a1163",
       "label": "EXACT_PATH_LENGTH_VERSUS_ARBITRARY_FINITE_1",
-      "definition_id": "DEF-MODAL-GRAPH-PATH-CLOSURE"
+      "definition_id": "DEF-MODAL-GRAPH-PATH-CLOSURE",
+      "lean_declaration": "TruthCore.Modal.GraphBridgeCertificate"
     },
     {
       "id": "be0563ce-7fa6-4b32-a37c-c8a0bce739bf",
       "label": "EXACT_PATH_LENGTH_VERSUS_ARBITRARY_FINITE_2",
-      "definition_id": "DEF-MODAL-EXACT-LENGTH-PATH"
+      "definition_id": "DEF-MODAL-EXACT-LENGTH-PATH",
+      "lean_declaration": "TruthCore.Modal.ExactPath"
     }
   ]
 }

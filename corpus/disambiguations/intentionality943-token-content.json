@@ -11,12 +11,14 @@
     {
       "id": "8fa2bcff-f9bb-48b8-82cc-66749ed365b7",
       "label": "MENTAL_REPRESENTATION_1",
-      "definition_id": "DEF-MIND-OCCURRENCE-FRAME"
+      "definition_id": "DEF-MIND-OCCURRENCE-FRAME",
+      "lean_declaration": "TruthCore.Alternatives.MindPhysicalism.Frame"
     },
     {
       "id": "d45bbed7-f502-46d8-a2c1-de0b8f546182",
       "label": "MENTAL_REPRESENTATION_2",
-      "definition_id": "DEF-INTENTIONALITY943-CONTENT"
+      "definition_id": "DEF-INTENTIONALITY943-CONTENT",
+      "lean_declaration": "TruthCore.Alternatives.Intentionality943.Semantics"
     }
   ]
 }

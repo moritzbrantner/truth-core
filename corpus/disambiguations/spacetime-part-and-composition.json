@@ -11,12 +11,14 @@
     {
       "id": "3db0b897-e962-4ac5-ab70-8453738e49e9",
       "label": "PART_OF_SPACETIME_AND_COMPOSITION_COMPONENT_1",
-      "definition_id": "DEF-PART-OF-SPACETIME"
+      "definition_id": "DEF-PART-OF-SPACETIME",
+      "lean_declaration": "TruthCore.Ontology.Spatiotemporal.PartOfSpacetime"
     },
     {
       "id": "9e162733-067c-4369-adbc-89f2922e77e8",
       "label": "PART_OF_SPACETIME_AND_COMPOSITION_COMPONENT_2",
-      "definition_id": "DEF-COMPOSITION-COMPONENT"
+      "definition_id": "DEF-COMPOSITION-COMPONENT",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.CompositeHasComponentOtherThanItselfReading"
     }
   ]
 }

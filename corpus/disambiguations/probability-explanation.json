@@ -12,17 +12,20 @@
     {
       "id": "1b6a38e8-0c22-4d42-a2bf-9c6361b843b0",
       "label": "PROBABILISTIC_EXPLANATION_AND_SELECTION_1",
-      "definition_id": "DEF-PSR-EVENT-CHANCE"
+      "definition_id": "DEF-PSR-EVENT-CHANCE",
+      "lean_declaration": "TruthCore.Explanation.PSRLaterAxes.chance"
     },
     {
       "id": "4b66ca88-e0c9-428d-a98a-f9fc4bcd9439",
       "label": "PROBABILISTIC_EXPLANATION_AND_SELECTION_2",
-      "definition_id": "DEF-PSR-CONDITIONAL-CHANCE"
+      "definition_id": "DEF-PSR-CONDITIONAL-CHANCE",
+      "lean_declaration": "TruthCore.Explanation.PSRLaterAxes.Raises"
     },
     {
       "id": "c50d3568-ad78-4541-b0ca-48786334404f",
       "label": "PROBABILISTIC_EXPLANATION_AND_SELECTION_3",
-      "definition_id": "DEF-PSR-CHANCE-RANKING"
+      "definition_id": "DEF-PSR-CHANCE-RANKING",
+      "lean_declaration": "TruthCore.Explanation.PSRLaterAxes.chanceFrame"
     }
   ]
 }

@@ -13,7 +13,8 @@
     {
       "id": "9c1bf33e-89ef-4900-b5b4-c6a5628c13c4",
       "label": "AN_ENDLESS_TASK_ENDS_2",
-      "definition_id": "DEF-SUPERTASK-LIMIT-ENDPOINT"
+      "definition_id": "DEF-SUPERTASK-LIMIT-ENDPOINT",
+      "lean_declaration": "TruthCore.Causality.SupertaskPrecedes"
     }
   ]
 }

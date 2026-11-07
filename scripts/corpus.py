@@ -2155,6 +2155,7 @@ def validate_disambiguation(
     path: Path,
     disambiguation: dict[str, Any],
     definition_ids: set[str],
+    all_lean: str,
 ) -> None:
     require(disambiguation, ["id", "term", "resolution"], path)
     if not (disambiguation["id"].startswith(DISAMBIGUATION_PREFIX) or is_uuid4(disambiguation["id"])):
@@ -2167,7 +2168,7 @@ def validate_disambiguation(
     for sense in senses:
         if sense not in definition_ids:
             raise CorpusError(f"{path.relative_to(ROOT)}: unknown sense definition id {sense}")
-    validate_disambiguation_senses(path, disambiguation)
+    validate_disambiguation_senses(path, disambiguation, all_lean)
 
 
 PROSE_ID_RE = re.compile(r"\b(?:STMT|DEF|DISAMB)-[A-Z0-9]+(?:-[A-Z0-9]+)*\b")
@@ -2249,21 +2250,27 @@ def is_uuid4(value: Any) -> bool:
     return isinstance(value, str) and UUID4_RE.fullmatch(value) is not None
 
 
-def validate_disambiguation_senses(path: Path, disambiguation: dict[str, Any]) -> None:
+def validate_disambiguation_senses(path: Path, disambiguation: dict[str, Any], all_lean: str) -> None:
     where = path.relative_to(ROOT)
     term_label = disambiguation.get("term_label")
     if not isinstance(term_label, str) or not TERM_LABEL_RE.fullmatch(term_label):
         raise CorpusError(f"{where}: term_label must be an upper snake case term such as PRIOR")
     senses = disambiguation.get("senses")
     if not isinstance(senses, list) or any(
-        not isinstance(sense, dict) or set(sense) != {"id", "label", "definition_id"} for sense in senses
+        not isinstance(sense, dict)
+        or not {"id", "label", "definition_id"} <= set(sense) <= {"id", "label", "definition_id", "lean_declaration"}
+        for sense in senses
     ):
-        raise CorpusError(f"{where}: senses must be a list of {{id, label, definition_id}} objects")
+        raise CorpusError(
+            f"{where}: senses must be a list of {{id, label, definition_id[, lean_declaration]}} objects"
+        )
     for sense in senses:
         if not is_uuid4(sense["id"]):
             raise CorpusError(f"{where}: sense id {sense['id']!r} must be a lowercase uuid4")
         if not isinstance(sense["label"], str) or not SENSE_LABEL_RE.fullmatch(sense["label"]):
             raise CorpusError(f"{where}: sense label {sense['label']!r} must look like TERM_1")
+        if "lean_declaration" in sense:
+            lean_tail_exists(path, sense["lean_declaration"], all_lean)
     if [sense["definition_id"] for sense in senses] != disambiguation["sense_definition_ids"]:
         raise CorpusError(f"{where}: senses must list sense_definition_ids in the same order")
     for field in ("id", "label"):
@@ -2348,21 +2355,67 @@ def bridged(term: str, used: set[str], bridges: list[dict[str, Any]]) -> bool:
     return used <= seen
 
 
-def load_sense_allowlist(root: Path | None = None) -> dict[str, dict[str, list[str]]]:
+def load_sense_allowlist(root: Path | None = None) -> dict[str, Any]:
+    """The legacy allowlists (#1233): arguments that mixed senses, and senses
+    without a distinct Lean declaration, when the rules were introduced."""
     path = (root or ROOT) / SENSE_ALLOWLIST
     if not path.exists():
-        return {}
+        return {"arguments": {}, "senses_without_lean_declaration": []}
     try:
         data = json.loads(path.read_text(encoding="utf-8"))
     except ValueError:
         data = None
-    if not isinstance(data, dict) or any(
-        not isinstance(terms, dict)
-        or any(not isinstance(ids, list) or not all(isinstance(i, str) for i in ids) for ids in terms.values())
-        for terms in data.values()
+    arguments = data.get("arguments") if isinstance(data, dict) else None
+    senses = data.get("senses_without_lean_declaration") if isinstance(data, dict) else None
+    if (
+        not isinstance(data, dict)
+        or set(data) != {"arguments", "senses_without_lean_declaration"}
+        or not isinstance(arguments, dict)
+        or any(
+            not isinstance(terms, dict)
+            or any(not isinstance(ids, list) or not all(isinstance(i, str) for i in ids) for ids in terms.values())
+            for terms in arguments.values()
+        )
+        or not isinstance(senses, list)
+        or not all(isinstance(sense, str) for sense in senses)
     ):
-        raise CorpusError(f"{SENSE_ALLOWLIST}: must map argument ids to {{term: [sense ids]}}")
+        raise CorpusError(
+            f"{SENSE_ALLOWLIST}: must be {{arguments: {{argument: {{term: [sense ids]}}}}, "
+            "senses_without_lean_declaration: [sense ids]}"
+        )
     return data
+
+
+def senses_without_distinct_declaration(
+    disambiguations: list[tuple[Path, dict[str, Any]]],
+) -> list[dict[str, Any]]:
+    """Senses that are not their own Lean type: no `lean_declaration`, or the
+    same declaration as another sense of the same disambiguation."""
+    missing = []
+    for path, disambiguation in disambiguations:
+        declared = Counter(sense.get("lean_declaration") for sense in disambiguation["senses"])
+        for sense in disambiguation["senses"]:
+            declaration = sense.get("lean_declaration")
+            if declaration is None or declared[declaration] > 1:
+                missing.append({"path": path, "disambiguation_id": disambiguation["id"], "id": sense["id"],
+                                "label": sense["label"], "lean_declaration": declaration})
+    return missing
+
+
+def validate_sense_declarations(
+    disambiguations: list[tuple[Path, dict[str, Any]]],
+    allowlist: dict[str, Any],
+) -> None:
+    """Each sense is a distinct Lean type, unless allowlisted as legacy."""
+    legacy = set(allowlist["senses_without_lean_declaration"])
+    for entry in senses_without_distinct_declaration(disambiguations):
+        if entry["id"] not in legacy:
+            reason = ("has no lean_declaration" if entry["lean_declaration"] is None
+                      else f"shares {entry['lean_declaration']} with another sense")
+            raise CorpusError(
+                f"{entry['path'].relative_to(ROOT)}: sense {entry['label']} {reason}; each sense must be "
+                "its own Lean type"
+            )
 
 
 def sense_mixing(
@@ -2391,7 +2444,7 @@ def validate_argument_sense_fields(
     argument: dict[str, Any],
     statement_index: dict[str, tuple[Path, dict[str, Any]]],
     senses: tuple[dict[str, dict[str, Any]], dict[str, list[dict[str, Any]]]],
-    allowlist: dict[str, dict[str, list[str]]],
+    allowlist: dict[str, Any],
 ) -> None:
     """One sense per disambiguated term per argument, unless bridged (no equivocation)."""
     where = path.relative_to(ROOT)
@@ -2426,7 +2479,7 @@ def validate_argument_sense_fields(
         senses_used = used[term]
         if len(senses_used) < 2 or bridged(term, senses_used, bridges):
             continue
-        if senses_used <= set(allowlist.get(argument["id"], {}).get(term, [])):
+        if senses_used <= set(allowlist["arguments"].get(argument["id"], {}).get(term, [])):
             continue
         labels = ", ".join(sorted(by_id[s]["label"] for s in senses_used))
         raise CorpusError(
@@ -2443,13 +2496,20 @@ def sense_mixing_warnings(
     """Pre-existing arguments that mix senses (allowlisted): one summary warning."""
     mixing = sense_mixing(arguments, statement_index, disambiguations)
     count = len({entry["argument_id"] for entry in mixing})
-    if not count:
-        return []
-    return [
-        f"{count} pre-existing argument(s) use several senses of one term without a sense bridge "
-        f"({len(mixing)} term use(s), allowlisted in {SENSE_ALLOWLIST.as_posix()}; "
-        "see docs/notes/sense-index-migration.md)"
-    ]
+    warnings = []
+    if count:
+        warnings.append(
+            f"{count} pre-existing argument(s) use several senses of one term without a sense bridge "
+            f"({len(mixing)} term use(s), allowlisted in {SENSE_ALLOWLIST.as_posix()}; "
+            "see docs/notes/sense-index-migration.md)"
+        )
+    undeclared = len({entry["id"] for entry in senses_without_distinct_declaration(disambiguations)})
+    if undeclared:
+        warnings.append(
+            f"{undeclared} pre-existing sense(s) have no distinct Lean declaration, so they are not finished "
+            f"senses (allowlisted in {SENSE_ALLOWLIST.as_posix()}; see docs/notes/sense-index-migration.md)"
+        )
+    return warnings
 
 
 def validate_result_config(path: Path, result: dict[str, Any], argument_ids: Iterable[str]) -> dict[str, Any]:
@@ -2610,11 +2670,12 @@ def validate() -> dict[str, int]:
         validate_definition(path, definition, claim_ids, all_lean)
         validate_prose_ids(path, definition, ("definition", "note"), citable)
     for path, disambiguation in disambiguations:
-        validate_disambiguation(path, disambiguation, definition_ids)
+        validate_disambiguation(path, disambiguation, definition_ids, all_lean)
         validate_prose_ids(path, disambiguation, ("resolution",), citable)
         used_definitions.update(disambiguation["sense_definition_ids"])
     senses = sense_index(disambiguations)
     sense_allowlist = load_sense_allowlist()
+    validate_sense_declarations(disambiguations, sense_allowlist)
 
     for path, claim in claims:
         require(
@@ -3827,14 +3888,26 @@ BIND_TOOL = ROOT / "scripts" / "BindTypes.lean"
 THEORY_BUNDLE_PREFIXES = ["TruthCore.Comparison."]
 
 
-def bind_tool_input(results: list[tuple[Path, dict[str, Any]]]) -> dict[str, list[str]]:
-    """The modules to import and the theorems to describe, in result-id order."""
+def bind_tool_input(results: list[tuple[Path, dict[str, Any]]], senses: bool = False) -> dict[str, list[str]]:
+    """The modules to import and the theorems to describe, in result-id order.
+
+    With `senses`, also every sense's Lean constant and the theorems of results
+    whose argument declares `term_senses` (see `sense_bind_problems`); the tool
+    then appends one `sense_aliases` element to its output."""
     ordered = sorted((record for _, record in results), key=lambda record: record["id"])
     out = {
         "modules": sorted({record["solution_module"] for record in ordered}),
         "theorems": [record["theorem"] for record in ordered],
         "bundle_prefixes": THEORY_BUNDLE_PREFIXES,
     }
+    if senses:
+        arguments = {record["id"]: record for _, record in load_dir("arguments")}
+        out["sense_constants"] = sorted({
+            sense["lean_declaration"] for _, record in load_dir("disambiguations")
+            for sense in record.get("senses", []) if sense.get("lean_declaration")
+        })
+        out["sense_theorems"] = [record["theorem"] for record in ordered
+                                 if arguments.get(record.get("argument_id"), {}).get("term_senses")]
     from expression_contracts import selected_theorems
     selected = selected_theorems(ordered)
     if selected:
@@ -4499,9 +4572,10 @@ def command_bind_check(args: argparse.Namespace) -> int:
         described_list = json.loads(Path(args.lean_json).read_text(encoding="utf-8"))
     else:
         described_list = run_bind_tool(bind_tool_input(
-            selected + [(ROOT, binding) for binding, _ in schema_bindings]
+            selected + [(ROOT, binding) for binding, _ in schema_bindings], senses=True
         ))
     report = bind_report(described_list, schema_bindings, scope)
+    add_sense_bind_problems(report, described_list)
     # Registered model checks are global; a scoped run leaves them to the full gate.
     if not args.lean_json and scope is None:
         try:
@@ -4520,6 +4594,8 @@ def command_bind_check(args: argparse.Namespace) -> int:
                     )
             for problem in entry["problems"]:
                 print(f"mismatch: {entry['id']}: {json.dumps(problem, ensure_ascii=False, sort_keys=True)}")
+        for problem in report["sense_aliases"]:
+            print(f"sense alias: {json.dumps(problem, ensure_ascii=False, sort_keys=True)}")
         summary = report["summary"]
         print(
             f"bind-check: {summary['bound']} bound, {summary['pinned']} pinned, "
@@ -4527,7 +4603,101 @@ def command_bind_check(args: argparse.Namespace) -> int:
         )
         for key in report["stale_pins"]:
             print(f"stale pin: {key} is not used by any result; remove it from PINNED_UNDECLARED_BINDINGS")
-    return 1 if report["summary"]["mismatch"] or report["stale_pins"] else 0
+    return 1 if report["summary"]["mismatch"] or report["stale_pins"] or report["sense_aliases"] else 0
+
+
+# Sense binding (owner direction 2026-11-07): each sense of a disambiguated term
+# is its own Lean constant (`senses[].lean_declaration`), so equivocation is a
+# type error rather than a record mismatch. For a result whose argument declares
+# `term_senses`, the heuristic is constant occurrence: BindTypes reports, for
+# every hypothesis and the result type, the sense constants reached from the
+# elaborated type (the type's constants and the values of TruthCore definitions
+# it uses, unfolded transitively, stopping at sense constants and at library
+# constants). The declared sense's constant must occur in some premise or the
+# conclusion, and no hypothesis or result may reach another sense constant of
+# the same term, except a hypothesis bound to a premise listed in
+# `sense_bridges` for that term. Separately, two senses of one disambiguation
+# whose constants are aliases (a definition whose eta-reduced value is the other
+# constant) are an error. The heuristic can miss equivocation hidden behind an
+# opaque or axiomatized constant, and it reports a sense reached only through
+# an unrelated definition; a finding is reviewed, not proved.
+def sense_bind_problems(
+    result: dict[str, Any],
+    argument: dict[str, Any],
+    described: dict[str, Any],
+    statements: dict[str, dict[str, Any]],
+    term_constants: dict[str, dict[str, str | None]],
+) -> list[dict[str, Any]]:
+    problems: list[dict[str, Any]] = []
+    if "error" in described:
+        return problems
+    items = [(binder["name"], binder) for binder in described.get("binders", []) if binder.get("prop")]
+    items.append(("result", described.get("result", {})))
+    if any("senses" not in item for _, item in items):
+        return [{"kind": "sense-description-missing", "detail": "rerun scripts/BindTypes.lean with sense_theorems"}]
+    for term, sense_id in sorted(argument.get("term_senses", {}).items()):
+        constants = term_constants.get(term, {})
+        declared = constants.get(sense_id)
+        if declared is None:
+            problems.append({"kind": "sense-without-lean-declaration", "term": term, "sense_id": sense_id})
+            continue
+        others = {constant for sid, constant in constants.items() if sid != sense_id and constant and constant != declared}
+        bridge_heads = {
+            statements.get(bridge["statement_id"], {}).get("lean_declaration")
+            for bridge in argument.get("sense_bridges", []) if bridge.get("term") == term
+        } - {None}
+        if not any(declared in item["senses"] for _, item in items):
+            problems.append({"kind": "declared-sense-not-mentioned", "term": term, "constant": declared})
+        for name, item in items:
+            if name != "result" and item.get("head") in bridge_heads:
+                continue
+            wrong = sorted(others & set(item["senses"]))
+            if wrong:
+                problems.append({"kind": "other-sense-mentioned", "term": term, "where": name,
+                                 "declared": declared, "constants": wrong})
+    return problems
+
+
+def add_sense_bind_problems(report: dict[str, Any], described_list: list[dict[str, Any]]) -> None:
+    """Fold sense-binding problems into a bind report (see `sense_bind_problems`)."""
+    statements = {record["id"]: record for _, record in load_dir("statements")}
+    arguments = {record["id"]: record for _, record in load_dir("arguments")}
+    results = {record["id"]: record for _, record in load_dir("results")}
+    disambiguations = [record for _, record in load_dir("disambiguations")]
+    term_constants: dict[str, dict[str, str | None]] = {}
+    for record in disambiguations:
+        for sense in record.get("senses", []):
+            term_constants.setdefault(record["term_label"], {})[sense["id"]] = sense.get("lean_declaration")
+    by_theorem = {entry.get("theorem"): entry for entry in described_list if "theorem" in entry}
+    for entry in report.get("results", []):
+        result = results.get(entry["id"])
+        if entry.get("kind") == "schema-registration" or result is None:
+            continue
+        argument = arguments[result["argument_id"]]
+        if not argument.get("term_senses"):
+            continue
+        problems = sense_bind_problems(result, argument, by_theorem.get(result["theorem"], {}), statements,
+                                       term_constants)
+        if problems:
+            entry["problems"].extend(problems)
+            entry["status"] = "mismatch"
+    if "results" in report:
+        summary = Counter(entry["status"] for entry in report["results"])
+        report["summary"] = {status: summary.get(status, 0) for status in ("bound", "pinned", "mismatch")}
+    aliases = next((entry["sense_aliases"] for entry in described_list if "sense_aliases" in entry), {})
+    report["sense_aliases"] = []
+    legacy = set(load_sense_allowlist()["senses_without_lean_declaration"])
+    for record in disambiguations:
+        canonical: dict[str, str] = {}
+        for sense in record.get("senses", []):
+            constant = sense.get("lean_declaration")
+            if constant not in aliases or sense["id"] in legacy:
+                continue
+            target = aliases[constant]
+            if target in canonical and canonical[target] != constant:
+                report["sense_aliases"].append({"disambiguation_id": record["id"], "constants": sorted(
+                    [canonical[target], constant]), "canonical": target})
+            canonical.setdefault(target, constant)
 
 
 # --- Lean proof-term theorem reuse (#959): review only; no generated authority ----

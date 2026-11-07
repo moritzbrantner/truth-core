@@ -18,47 +18,56 @@
     {
       "id": "63f80f01-d2f5-4f2f-954a-994f0c82028e",
       "label": "VALIDITY_ACTUALITY_AND_NECESSITATION_1",
-      "definition_id": "DEF-DIAGONAL-VALID"
+      "definition_id": "DEF-DIAGONAL-VALID",
+      "lean_declaration": "TruthCore.Modal.DesignatedValidity.DiagonalValid"
     },
     {
       "id": "3115b3aa-ef39-4d47-bca2-5d195a01277a",
       "label": "VALIDITY_ACTUALITY_AND_NECESSITATION_2",
-      "definition_id": "DEF-NECESSITATED-VALID"
+      "definition_id": "DEF-NECESSITATED-VALID",
+      "lean_declaration": "TruthCore.Modal.DesignatedValidity.NecessitatedValid"
     },
     {
       "id": "b109bc2d-db84-4284-9fe0-fecb4b4bb862",
       "label": "VALIDITY_ACTUALITY_AND_NECESSITATION_3",
-      "definition_id": "DEF-DESIGNATION-SUCCESSOR-CLOSED"
+      "definition_id": "DEF-DESIGNATION-SUCCESSOR-CLOSED",
+      "lean_declaration": "TruthCore.Modal.DesignatedValidity.SuccessorClosed"
     },
     {
       "id": "7355e3ef-5245-4fad-8898-d0a75b29a7bf",
       "label": "VALIDITY_ACTUALITY_AND_NECESSITATION_4",
-      "definition_id": "DEF-INDEPENDENT-NECESSITATION-RULE"
+      "definition_id": "DEF-INDEPENDENT-NECESSITATION-RULE",
+      "lean_declaration": "TruthCore.Modal.DesignatedValidity.IndependentRule"
     },
     {
       "id": "228f14dd-e8f8-4654-bff3-8cb46e100185",
       "label": "VALIDITY_ACTUALITY_AND_NECESSITATION_5",
-      "definition_id": "DEF-DESIGNATION-CONTENT-TRANSPORT"
+      "definition_id": "DEF-DESIGNATION-CONTENT-TRANSPORT",
+      "lean_declaration": "TruthCore.Modal.DesignatedValidity.ContentTransport"
     },
     {
       "id": "f315e5b4-2184-4998-8b60-12b43de37414",
       "label": "VALIDITY_ACTUALITY_AND_NECESSITATION_6",
-      "definition_id": "DEF-UNRESTRICTED-INDEXED-NECESSITATION"
+      "definition_id": "DEF-UNRESTRICTED-INDEXED-NECESSITATION",
+      "lean_declaration": "TruthCore.Modal.DesignatedValidity.UnrestrictedRule"
     },
     {
       "id": "ebe7a80c-6e34-4ae0-b183-759c23b24304",
       "label": "VALIDITY_ACTUALITY_AND_NECESSITATION_7",
-      "definition_id": "DEF-DESIGNATION-IDENTITY-SUCCESSORS"
+      "definition_id": "DEF-DESIGNATION-IDENTITY-SUCCESSORS",
+      "lean_declaration": "TruthCore.Modal.DesignatedValidity.IdentitySuccessors"
     },
     {
       "id": "333afb59-0de1-46bd-8792-878af2f9b386",
       "label": "VALIDITY_ACTUALITY_AND_NECESSITATION_8",
-      "definition_id": "DEF-ACTUALITY-AGREEMENT"
+      "definition_id": "DEF-ACTUALITY-AGREEMENT",
+      "lean_declaration": "TruthCore.Modal.DesignatedValidity.Agreement"
     },
     {
       "id": "50e42b57-82ed-4e14-9bfa-e796fe298394",
       "label": "VALIDITY_ACTUALITY_AND_NECESSITATION_9",
-      "definition_id": "DEF-AGREEMENT-NECESSITATION-RULE"
+      "definition_id": "DEF-AGREEMENT-NECESSITATION-RULE",
+      "lean_declaration": "TruthCore.Modal.DesignatedValidity.AgreementRule"
     }
   ]
 }

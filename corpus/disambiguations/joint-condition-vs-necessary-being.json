@@ -11,12 +11,14 @@
     {
       "id": "b065ce19-0bba-4b56-a0dd-c4f5ef906d8a",
       "label": "CONTINGENT_JOINT_CONDITION_VERSUS_NECESSITY_1",
-      "definition_id": "DEF-JOINT-MODAL-CONDITION"
+      "definition_id": "DEF-JOINT-MODAL-CONDITION",
+      "lean_declaration": "TruthCore.Explanation.JointCondition.JointTrue"
     },
     {
       "id": "3528a971-1554-43f8-bdd3-80299b3f39db",
       "label": "CONTINGENT_JOINT_CONDITION_VERSUS_NECESSITY_2",
-      "definition_id": "DEF-KANT-MODAL-NECESSITY"
+      "definition_id": "DEF-KANT-MODAL-NECESSITY",
+      "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.NecessaryAt"
     }
   ]
 }

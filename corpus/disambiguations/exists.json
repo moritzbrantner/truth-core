@@ -11,12 +11,14 @@
     {
       "id": "9e7d0f8f-3e30-4b1b-9b99-d67058ec2776",
       "label": "EXISTS_1",
-      "definition_id": "DEF-HOML-ACTUALIST-NECESSITY"
+      "definition_id": "DEF-HOML-ACTUALIST-NECESSITY",
+      "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.Box"
     },
     {
       "id": "53510e13-b268-4079-b2d5-61127fb8ae8c",
       "label": "EXISTS_2",
-      "definition_id": "DEF-QML-KB-NECESSITY"
+      "definition_id": "DEF-QML-KB-NECESSITY",
+      "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.Box"
     }
   ]
 }

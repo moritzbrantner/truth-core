@@ -11,12 +11,14 @@
     {
       "id": "cd705a54-7b7c-4b75-8f2d-134621bc5a2c",
       "label": "IS_F_1",
-      "definition_id": "DEF-PLATONIC-PREDICATION"
+      "definition_id": "DEF-PLATONIC-PREDICATION",
+      "lean_declaration": "TruthCore.Greek.Plato.Forms.Vocabulary"
     },
     {
       "id": "287a69f8-0706-466d-aab1-328b0809f1bc",
       "label": "IS_F_2",
-      "definition_id": "DEF-PLATONIC-ESSENTIAL"
+      "definition_id": "DEF-PLATONIC-ESSENTIAL",
+      "lean_declaration": "TruthCore.Greek.Plato.Forms.Vocabulary"
     }
   ]
 }

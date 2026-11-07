@@ -11,12 +11,14 @@
     {
       "id": "a8f6e7b9-3737-418f-907a-59588f3a0238",
       "label": "FORGIVENESS_AUTHORITY_AS_REPORTED_OR_HISTORICALLY_1",
-      "definition_id": "DEF-MARK-FORGIVENESS-AUTHORITY-REPORT"
+      "definition_id": "DEF-MARK-FORGIVENESS-AUTHORITY-REPORT",
+      "lean_declaration": "TruthCore.Greek.NewTestament.Mark.ForgivenessAuthority.Narrative"
     },
     {
       "id": "76403496-9210-4f0a-8151-d499b162b566",
       "label": "FORGIVENESS_AUTHORITY_AS_REPORTED_OR_HISTORICALLY_2",
-      "definition_id": "DEF-SKELETON-OPEN-PREDICATES"
+      "definition_id": "DEF-SKELETON-OPEN-PREDICATES",
+      "lean_declaration": "TruthCore.Case.Catholicism.Signature"
     }
   ]
 }

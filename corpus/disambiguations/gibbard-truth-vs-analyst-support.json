@@ -16,7 +16,8 @@
     {
       "id": "023fb6c7-ebd9-4d20-8273-1828a8bf760e",
       "label": "CONDITIONAL_TRUTH_AND_SUPPORT_2",
-      "definition_id": "DEF-PLAN-STATE-SUPPORT"
+      "definition_id": "DEF-PLAN-STATE-SUPPORT",
+      "lean_declaration": "TruthCore.Metaethics.PlanStateEmbedding.support"
     }
   ]
 }

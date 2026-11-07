@@ -11,12 +11,14 @@
     {
       "id": "c3f612b4-59f3-4ba6-b669-d349fda71669",
       "label": "COMPLETE_EXISTENCE_PRODUCTION_VERSUS_EXISTENTIAL_GROUNDING_1",
-      "definition_id": "DEF-COMPLETE-OBJECT-CAUSATION"
+      "definition_id": "DEF-COMPLETE-OBJECT-CAUSATION",
+      "lean_declaration": "TruthCore.Logic.Regress.Graph.edge"
     },
     {
       "id": "72999c5d-5dcb-4941-b82a-bc4f592dfc2f",
       "label": "COMPLETE_EXISTENCE_PRODUCTION_VERSUS_EXISTENTIAL_GROUNDING_2",
-      "definition_id": "DEF-BRUTE-ROOT-RELATIVE-GROUNDING"
+      "definition_id": "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+      "lean_declaration": "TruthCore.Causality.NecessaryRootFork.ActualRoot"
     }
   ]
 }

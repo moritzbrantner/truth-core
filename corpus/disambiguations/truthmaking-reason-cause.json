@@ -11,12 +11,14 @@
     {
       "id": "77a0a412-219d-400e-9f85-3d6a22e0a035",
       "label": "TRUTHMAKING_EXPLANATION_AND_PRODUCTION_1",
-      "definition_id": "DEF-BEARER-TRUTHMAKING"
+      "definition_id": "DEF-BEARER-TRUTHMAKING",
+      "lean_declaration": "TruthCore.Explanation.TruthmakerTheories.Sound"
     },
     {
       "id": "7081115d-05bb-40f0-9f4d-7acd5b131834",
       "label": "TRUTHMAKING_EXPLANATION_AND_PRODUCTION_2",
-      "definition_id": "DEF-PSR-STRENGTH-REASON"
+      "definition_id": "DEF-PSR-STRENGTH-REASON",
+      "lean_declaration": "TruthCore.Explanation.PSRStrength.Explained"
     }
   ]
 }

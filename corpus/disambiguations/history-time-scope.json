@@ -12,17 +12,20 @@
     {
       "id": "bce884b8-80f5-417d-ae29-941e87c0f1c0",
       "label": "HISTORY_EXISTENCE_SHARED_TIME_PRESENCE_1",
-      "definition_id": "DEF-HISTORY-TIME-WORLDWISE"
+      "definition_id": "DEF-HISTORY-TIME-WORLDWISE",
+      "lean_declaration": "TruthCore.Models.HistoryTimeScope.Worldwise"
     },
     {
       "id": "043890f5-9f95-4251-b660-d7c29b77355f",
       "label": "HISTORY_EXISTENCE_SHARED_TIME_PRESENCE_2",
-      "definition_id": "DEF-HISTORY-TIME-COMMON"
+      "definition_id": "DEF-HISTORY-TIME-COMMON",
+      "lean_declaration": "TruthCore.Models.HistoryTimeScope.Common"
     },
     {
       "id": "80f2ca20-5ac4-40be-b988-1a0f50b52fea",
       "label": "HISTORY_EXISTENCE_SHARED_TIME_PRESENCE_3",
-      "definition_id": "DEF-HISTORY-TIME-ALL-TIMES"
+      "definition_id": "DEF-HISTORY-TIME-ALL-TIMES",
+      "lean_declaration": "TruthCore.Models.HistoryTimeScope.AllTime"
     }
   ]
 }

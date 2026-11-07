@@ -11,12 +11,14 @@
     {
       "id": "fbd70e35-1f99-4366-90bc-f9610b14d64e",
       "label": "THEOLOGY_VERSUS_GRAMMAR_OF_A_RELIGIOUS_1",
-      "definition_id": "DEF-THEOLOGICAL-CONTENT-AND-RELIGIOUS-LIFE-ROLES"
+      "definition_id": "DEF-THEOLOGICAL-CONTENT-AND-RELIGIOUS-LIFE-ROLES",
+      "lean_declaration": "TruthCore.Alternatives.ConciliarGrammarDefinitions.RoleProfile"
     },
     {
       "id": "c3f6a8e0-8691-4be7-b082-2e90c709c733",
       "label": "THEOLOGY_VERSUS_GRAMMAR_OF_A_RELIGIOUS_2",
-      "definition_id": "DEF-PRACTICE-OWN-STANDARD"
+      "definition_id": "DEF-PRACTICE-OWN-STANDARD",
+      "lean_declaration": "TruthCore.Alternatives.Fideism.Practice.OwnStandard"
     }
   ]
 }

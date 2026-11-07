@@ -11,12 +11,14 @@
     {
       "id": "9a5615ab-f1de-48bb-abf2-382498a9a8e5",
       "label": "TOLERANCE_CLASSIFICATION_AND_BOUNDARY_1",
-      "definition_id": "DEF-SORITES-TRUTH-PRESERVING-TOLERANCE"
+      "definition_id": "DEF-SORITES-TRUTH-PRESERVING-TOLERANCE",
+      "lean_declaration": "TruthCore.Logic.SoritesBoundary.Tolerance"
     },
     {
       "id": "b70f3577-7f18-4007-ad75-aa13ca3ceae9",
       "label": "TOLERANCE_CLASSIFICATION_AND_BOUNDARY_2",
-      "definition_id": "DEF-SORITES-PARTIAL-NONOPPOSITION"
+      "definition_id": "DEF-SORITES-PARTIAL-NONOPPOSITION",
+      "lean_declaration": "TruthCore.Logic.SoritesBoundary.NonOpposed"
     }
   ]
 }

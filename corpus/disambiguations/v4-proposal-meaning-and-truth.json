@@ -13,22 +13,26 @@
     {
       "id": "c7cacb04-f369-4bf5-8ba1-4873a8740338",
       "label": "RELATIVE_EXPRESSIVE_MEMBERSHIP_PRAGMATIC_ADOPTION_1",
-      "definition_id": "DEF-V4-PROPOSAL-SUBLANGUAGE"
+      "definition_id": "DEF-V4-PROPOSAL-SUBLANGUAGE",
+      "lean_declaration": "TruthCore.Logic.Verificationism.Proposal.Admitted"
     },
     {
       "id": "971b9085-9144-437b-bf4a-d60c8633e192",
       "label": "RELATIVE_EXPRESSIVE_MEMBERSHIP_PRAGMATIC_ADOPTION_2",
-      "definition_id": "DEF-V4-PRAGMATIC-ADEQUACY"
+      "definition_id": "DEF-V4-PRAGMATIC-ADEQUACY",
+      "lean_declaration": "TruthCore.Logic.Verificationism.Proposal.Adopted"
     },
     {
       "id": "ceacea5e-a32e-4dbf-8be8-b13095fcabff",
       "label": "RELATIVE_EXPRESSIVE_MEMBERSHIP_PRAGMATIC_ADOPTION_3",
-      "definition_id": "DEF-V4-PARTIAL-EVALUATION"
+      "definition_id": "DEF-V4-PARTIAL-EVALUATION",
+      "lean_declaration": "TruthCore.Logic.Verificationism.Proposal.evaluate"
     },
     {
       "id": "b7b5512c-3723-44b6-8c68-63f756b8dd88",
       "label": "RELATIVE_EXPRESSIVE_MEMBERSHIP_PRAGMATIC_ADOPTION_4",
-      "definition_id": "DEF-TRUTH-CONDITIONAL-LANGUAGE"
+      "definition_id": "DEF-TRUTH-CONDITIONAL-LANGUAGE",
+      "lean_declaration": "TruthCore.Logic.Verificationism.Language"
     }
   ]
 }

@@ -11,12 +11,14 @@
     {
       "id": "6d997274-160d-4284-8028-93c3feb3bfa0",
       "label": "REASON_1",
-      "definition_id": "DEF-PSR-STRENGTH-REASON"
+      "definition_id": "DEF-PSR-STRENGTH-REASON",
+      "lean_declaration": "TruthCore.Explanation.PSRStrength.Explained"
     },
     {
       "id": "1a543dec-ae77-4433-929b-da90ae767e99",
       "label": "REASON_2",
-      "definition_id": "DEF-EPISTEMIC-SUPPORT"
+      "definition_id": "DEF-EPISTEMIC-SUPPORT",
+      "lean_declaration": "TruthCore.Explanation.PSRSelfApplication.Supported"
     }
   ]
 }

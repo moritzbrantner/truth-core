@@ -13,22 +13,26 @@
     {
       "id": "4a484c8b-c410-47df-9ec0-ab727337427b",
       "label": "EXISTENCE_OF_EPISTEMIC_REASONS_THIN_ENCODING_1",
-      "definition_id": "DEF-EPISTEMIC-REASON-DEFINITION-PROFILE"
+      "definition_id": "DEF-EPISTEMIC-REASON-DEFINITION-PROFILE",
+      "lean_declaration": "TruthCore.Logic.EpistemicReasonDefinitionFork.Frame"
     },
     {
       "id": "eac235f4-b126-4e9d-92ea-90718277ce71",
       "label": "EXISTENCE_OF_EPISTEMIC_REASONS_THIN_ENCODING_2",
-      "definition_id": "DEF-EPISTEMIC-REASON-ORDINARY-ROLE"
+      "definition_id": "DEF-EPISTEMIC-REASON-ORDINARY-ROLE",
+      "lean_declaration": "TruthCore.Logic.EpistemicReasonDefinitionFork.EpistemicRole"
     },
     {
       "id": "9da6e2cc-c5cf-44c2-aae9-dd3e92ab5b44",
       "label": "EXISTENCE_OF_EPISTEMIC_REASONS_THIN_ENCODING_3",
-      "definition_id": "DEF-EPISTEMIC-REASON-PREFERENCE-INDEPENDENT-ROLE"
+      "definition_id": "DEF-EPISTEMIC-REASON-PREFERENCE-INDEPENDENT-ROLE",
+      "lean_declaration": "TruthCore.Logic.EpistemicReasonDefinitionFork.IndependentInstance"
     },
     {
       "id": "b15c4790-031f-413e-935e-5d9e6a0acbfe",
       "label": "EXISTENCE_OF_EPISTEMIC_REASONS_THIN_ENCODING_4",
-      "definition_id": "DEF-EPISTEMIC-REASON-THIN-EXISTENCE"
+      "definition_id": "DEF-EPISTEMIC-REASON-THIN-EXISTENCE",
+      "lean_declaration": "TruthCore.Logic.EpistemicReasons.ThereAreEpistemicReasons"
     }
   ]
 }

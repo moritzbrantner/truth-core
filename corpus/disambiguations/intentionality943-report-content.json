@@ -11,12 +11,14 @@
     {
       "id": "6bc2fd4e-810e-4938-9d53-de539bd2abab",
       "label": "WHAT_A_JUDGMENT_REPORTS_1",
-      "definition_id": "DEF-INTENTIONALITY943-CONTENT"
+      "definition_id": "DEF-INTENTIONALITY943-CONTENT",
+      "lean_declaration": "TruthCore.Alternatives.Intentionality943.Semantics"
     },
     {
       "id": "a47e132e-825e-4fe8-864c-73a34b06b421",
       "label": "WHAT_A_JUDGMENT_REPORTS_2",
-      "definition_id": "DEF-INTENTIONALITY943-AFFECTION-REPORT"
+      "definition_id": "DEF-INTENTIONALITY943-AFFECTION-REPORT",
+      "lean_declaration": "TruthCore.Alternatives.Intentionality943.AffectionReportCorrect"
     }
   ]
 }

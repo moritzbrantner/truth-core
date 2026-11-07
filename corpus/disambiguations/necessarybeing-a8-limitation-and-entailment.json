@@ -23,12 +23,14 @@
     {
       "id": "8ec23954-ae44-40e1-903c-b26617db9b78",
       "label": "A8_DEFICIENCY_LIMITATION_VERSUS_ROOT_STRUCTURAL_3",
-      "definition_id": "DEF-HAS-LIMITING-PRINCIPLE"
+      "definition_id": "DEF-HAS-LIMITING-PRINCIPLE",
+      "lean_declaration": "TruthCore.Causality.RootMultiplication.HasLimitingPrinciple"
     },
     {
       "id": "dc76ad7d-c914-48de-9c67-8e5f41f6c309",
       "label": "A8_DEFICIENCY_LIMITATION_VERSUS_ROOT_STRUCTURAL_4",
-      "definition_id": "DEF-POSITIVE-PROPERTY-SCOTT"
+      "definition_id": "DEF-POSITIVE-PROPERTY-SCOTT",
+      "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.Positivity"
     }
   ]
 }

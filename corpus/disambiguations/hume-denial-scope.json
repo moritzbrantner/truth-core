@@ -16,7 +16,8 @@
     {
       "id": "82ca4884-7e7c-4809-8178-69f144bba9e2",
       "label": "CONCEIVING_DENIAL_OF_THE_BRIDGE_CONCEIVING_2",
-      "definition_id": "DEF-HUME-NECESSARY-DENIAL"
+      "definition_id": "DEF-HUME-NECESSARY-DENIAL",
+      "lean_declaration": "TruthCore.Modern.Hume.SelfApplication.NecessaryDenial"
     }
   ]
 }

@@ -11,12 +11,14 @@
     {
       "id": "0afb1b2c-e6df-40e8-b689-69bbadd35ab1",
       "label": "MAN_HUMAN_1",
-      "definition_id": "DEF-PLATONIC-HUMAN-INDIVIDUAL"
+      "definition_id": "DEF-PLATONIC-HUMAN-INDIVIDUAL",
+      "lean_declaration": "TruthCore.Greek.Plato.Forms.Vocabulary"
     },
     {
       "id": "b2e636e7-2a07-4f03-a05d-5df0af9ba2b5",
       "label": "MAN_HUMAN_2",
-      "definition_id": "DEF-PLATONIC-HUMAN-NATURE"
+      "definition_id": "DEF-PLATONIC-HUMAN-NATURE",
+      "lean_declaration": "TruthCore.Greek.Plato.Forms.HumanFormAdmitted"
     }
   ]
 }

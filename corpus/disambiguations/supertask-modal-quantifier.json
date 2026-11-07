@@ -8,12 +8,14 @@
     {
       "id": "ce089817-5bec-4fb8-b30d-c2e3f3f419f2",
       "label": "POSSIBILITY_OF_EVERY_FINITE_PREFIX_1",
-      "definition_id": "DEF-SUPERTASK-FINITE-PREFIX-CAPACITY"
+      "definition_id": "DEF-SUPERTASK-FINITE-PREFIX-CAPACITY",
+      "lean_declaration": "TruthCore.Causality.PrefixFitsFiniteWorld"
     },
     {
       "id": "d579180e-34cb-4a7b-a34e-c32c314d31e9",
       "label": "POSSIBILITY_OF_EVERY_FINITE_PREFIX_2",
-      "definition_id": "DEF-SUPERTASK-UNIFORM-CAPACITY"
+      "definition_id": "DEF-SUPERTASK-UNIFORM-CAPACITY",
+      "lean_declaration": "TruthCore.Causality.FinitePrefixesFitSeparatelyNotUniformly"
     }
   ]
 }

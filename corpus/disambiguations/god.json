@@ -20,27 +20,32 @@
     {
       "id": "b11d7317-49bb-4c03-b1aa-fefada6943ff",
       "label": "GOD_2",
-      "definition_id": "DEF-GOD-AS-NAMED-IN-THE-SUMMA"
+      "definition_id": "DEF-GOD-AS-NAMED-IN-THE-SUMMA",
+      "lean_declaration": "TruthCore.Case.Catholicism.GodNamesTheUniqueMaximeEns"
     },
     {
       "id": "b7754ffd-e139-42d1-bf84-77579fa650cf",
       "label": "GOD_3",
-      "definition_id": "DEF-GOD-WHAT-ALL-UNDERSTAND"
+      "definition_id": "DEF-GOD-WHAT-ALL-UNDERSTAND",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.FirstUnmovedMoverIsWhatAllUnderstandAsGodReading"
     },
     {
       "id": "52c2ebac-0a71-4dd4-8a21-804c1dd0847a",
       "label": "GOD_4",
-      "definition_id": "DEF-GOD-OF-CLASSICAL-THEISM"
+      "definition_id": "DEF-GOD-OF-CLASSICAL-THEISM",
+      "lean_declaration": "TruthCore.Case.Catholicism.Signature.IsGod"
     },
     {
       "id": "8b693f2e-3650-4ab7-979d-aa20e33ae4a9",
       "label": "GOD_5",
-      "definition_id": "DEF-GOD-LIKE-SCOTT"
+      "definition_id": "DEF-GOD-LIKE-SCOTT",
+      "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.GodLike"
     },
     {
       "id": "23ba07b3-82af-452e-81ac-3601ed373c5a",
       "label": "GOD_6",
-      "definition_id": "DEF-GOD-LIKE-GOEDEL-1970"
+      "definition_id": "DEF-GOD-LIKE-GOEDEL-1970",
+      "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.GodLike"
     }
   ]
 }

@@ -12,17 +12,20 @@
     {
       "id": "5480228f-5d79-4426-b9f7-8ecdae374e46",
       "label": "MORE_AND_LESS_IN_BEING_1",
-      "definition_id": "DEF-HOMOGENEOUS-SCALE"
+      "definition_id": "DEF-HOMOGENEOUS-SCALE",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.HomogeneousScaleReading"
     },
     {
       "id": "6d2fd079-910c-480b-b178-a20d607211e3",
       "label": "MORE_AND_LESS_IN_BEING_2",
-      "definition_id": "DEF-ORDER-BY-APPROACH-TO-A-PRIMARY"
+      "definition_id": "DEF-ORDER-BY-APPROACH-TO-A-PRIMARY",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.ApproachToPrimaryReading"
     },
     {
       "id": "919ce0ce-4774-48d7-aeb8-464cb1468460",
       "label": "MORE_AND_LESS_IN_BEING_3",
-      "definition_id": "DEF-GREATEST-DEGREE-IN-A-PERFECTION"
+      "definition_id": "DEF-GREATEST-DEGREE-IN-A-PERFECTION",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GreatestDegreeBearer"
     }
   ]
 }

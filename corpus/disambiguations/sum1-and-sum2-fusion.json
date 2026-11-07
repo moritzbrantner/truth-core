@@ -11,12 +11,14 @@
     {
       "id": "cf3dcfe7-01e1-4c8f-8106-d8b4bb6c4e99",
       "label": "SUM_AND_FUSION_1",
-      "definition_id": "DEF-SUM1-LEAST-UPPER-BOUND"
+      "definition_id": "DEF-SUM1-LEAST-UPPER-BOUND",
+      "lean_declaration": "TruthCore.Mereology.SumOneComplementation.UnrestrictedSumOne"
     },
     {
       "id": "443a4d2e-4beb-4880-a2c3-100a8f7beb1b",
       "label": "SUM_AND_FUSION_2",
-      "definition_id": "DEF-UNIVERSAL-FUSION-PROFILE"
+      "definition_id": "DEF-UNIVERSAL-FUSION-PROFILE",
+      "lean_declaration": "TruthCore.Mereology.UniversalFusionBoundary.Fusion"
     }
   ]
 }

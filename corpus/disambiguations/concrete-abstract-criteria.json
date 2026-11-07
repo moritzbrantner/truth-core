@@ -22,37 +22,44 @@
     {
       "id": "551eb285-4455-407f-99a6-d79fac2d73b5",
       "label": "CONCRETE_AND_ABSTRACT_2",
-      "definition_id": "DEF-ABSTRACT-FREGE-CRITERION"
+      "definition_id": "DEF-ABSTRACT-FREGE-CRITERION",
+      "lean_declaration": "TruthCore.Ontology.ConcreteAbstract.FregeCriterionAbstract"
     },
     {
       "id": "bdf2c710-a092-4943-8732-c23f0b8d1fae",
       "label": "CONCRETE_AND_ABSTRACT_3",
-      "definition_id": "DEF-ABSTRACT-NO-ESSE-IN-RE"
+      "definition_id": "DEF-ABSTRACT-NO-ESSE-IN-RE",
+      "lean_declaration": "TruthCore.Ontology.ConcreteAbstract.EsseAbstract"
     },
     {
       "id": "5bf41f29-77ae-4b34-b48d-90d92af076e1",
       "label": "CONCRETE_AND_ABSTRACT_4",
-      "definition_id": "DEF-CAUSAL-CAPACITY-CONCRETE"
+      "definition_id": "DEF-CAUSAL-CAPACITY-CONCRETE",
+      "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.ConcreteAt"
     },
     {
       "id": "c0fdbd00-6e0b-44e5-8a53-faa55a21a032",
       "label": "CONCRETE_AND_ABSTRACT_5",
-      "definition_id": "DEF-CONCRETE-CAUSAL-CRITERION"
+      "definition_id": "DEF-CONCRETE-CAUSAL-CRITERION",
+      "lean_declaration": "TruthCore.Ontology.ConcreteAbstract.CausalCriterionConcrete"
     },
     {
       "id": "b1175e6c-0519-4c19-98ae-b053616ec750",
       "label": "CONCRETE_AND_ABSTRACT_6",
-      "definition_id": "DEF-CONCRETE-ESSE-IN-RE"
+      "definition_id": "DEF-CONCRETE-ESSE-IN-RE",
+      "lean_declaration": "TruthCore.Ontology.ConcreteAbstract.HasEsseInRe"
     },
     {
       "id": "4434d063-533a-40db-aac3-35dd6f33a08d",
       "label": "CONCRETE_AND_ABSTRACT_7",
-      "definition_id": "DEF-CONCRETE-SPATIOTEMPORAL-CRITERION"
+      "definition_id": "DEF-CONCRETE-SPATIOTEMPORAL-CRITERION",
+      "lean_declaration": "TruthCore.Ontology.ConcreteAbstract.SpatiotemporalCriterionConcrete"
     },
     {
       "id": "cf4e8ce6-69e1-443d-b5af-9185182da878",
       "label": "CONCRETE_AND_ABSTRACT_8",
-      "definition_id": "DEF-NECESSARY-INDIVIDUAL-CONCRETE"
+      "definition_id": "DEF-NECESSARY-INDIVIDUAL-CONCRETE",
+      "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.ConcreteAt"
     }
   ]
 }

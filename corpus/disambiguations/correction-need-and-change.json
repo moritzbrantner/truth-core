@@ -11,7 +11,8 @@
     {
       "id": "bcc708a9-54fe-471c-98c4-9dbd6fbb7c4e",
       "label": "CORRECTION_1",
-      "definition_id": "DEF-CORRECTION-NEEDED"
+      "definition_id": "DEF-CORRECTION-NEEDED",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.CorruptedNaturalLawNeedsCorrectionReading"
     },
     {
       "id": "d0952c27-807f-40c5-ad99-30d3be00076f",

@@ -12,17 +12,20 @@
     {
       "id": "252a760d-b2da-421d-bff1-eebadf5cb219",
       "label": "CONSISTENCY_UNIQUE_FEEDBACK_SOLUTION_AND_SUFFICIENT_1",
-      "definition_id": "DEF-UNIQUE-FEEDBACK-STATE"
+      "definition_id": "DEF-UNIQUE-FEEDBACK-STATE",
+      "lean_declaration": "TruthCore.Causality.UniqueFeedback.Controls"
     },
     {
       "id": "e545e3b9-e532-4851-bd37-4db23a5f84b9",
       "label": "CONSISTENCY_UNIQUE_FEEDBACK_SOLUTION_AND_SUFFICIENT_2",
-      "definition_id": "DEF-LOCAL-TRANSMISSION"
+      "definition_id": "DEF-LOCAL-TRANSMISSION",
+      "lean_declaration": "TruthCore.Causality.LocalTransmission"
     },
     {
       "id": "6a8ed102-aea4-4c08-8d5b-253dcf45f250",
       "label": "CONSISTENCY_UNIQUE_FEEDBACK_SOLUTION_AND_SUFFICIENT_3",
-      "definition_id": "DEF-ESSENTIAL-POWER-TRANSMISSION-RULE"
+      "definition_id": "DEF-ESSENTIAL-POWER-TRANSMISSION-RULE",
+      "lean_declaration": "TruthCore.Causality.PowerTransmissionRule"
     }
   ]
 }

@@ -22,7 +22,8 @@
     {
       "id": "99212ba7-986e-4527-9c3c-d25841abc716",
       "label": "FORM_3",
-      "definition_id": "DEF-PLATONIC-FORM"
+      "definition_id": "DEF-PLATONIC-FORM",
+      "lean_declaration": "TruthCore.Greek.Plato.Forms.Vocabulary"
     }
   ]
 }

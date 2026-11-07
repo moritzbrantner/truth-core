@@ -11,12 +11,14 @@
     {
       "id": "fda982db-797b-490c-8a8a-7fca5336e35f",
       "label": "HAVING_EVERY_PERFECTION_1",
-      "definition_id": "DEF-UNIVERSALLY-PERFECT"
+      "definition_id": "DEF-UNIVERSALLY-PERFECT",
+      "lean_declaration": "TruthCore.Case.Catholicism.IsPerfect"
     },
     {
       "id": "dc48d025-b11b-4c22-b88b-1306749bc86d",
       "label": "HAVING_EVERY_PERFECTION_2",
-      "definition_id": "DEF-UNRESTRICTED-PURE-PERFECTION"
+      "definition_id": "DEF-UNRESTRICTED-PURE-PERFECTION",
+      "lean_declaration": "TruthCore.Causality.PureActThisness.FirstMoverHasEveryPureDetermination"
     }
   ]
 }

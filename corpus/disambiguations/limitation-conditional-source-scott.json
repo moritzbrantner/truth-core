@@ -15,12 +15,14 @@
     {
       "id": "04e42a8f-40c5-44aa-b52f-b69f5952490f",
       "label": "ANALYST_NONLIMITATION_POSSIBILITY_VERSUS_SOURCE_A8_1",
-      "definition_id": "DEF-LIMITATION-POSSIBILITY-CONFIGURATION"
+      "definition_id": "DEF-LIMITATION-POSSIBILITY-CONFIGURATION",
+      "lean_declaration": "TruthCore.Modal.LimitationPossibility.BackwardClosedAt"
     },
     {
       "id": "fd74e765-c75e-4d53-bab7-a2a60b246db6",
       "label": "ANALYST_NONLIMITATION_POSSIBILITY_VERSUS_SOURCE_A8_2",
-      "definition_id": "DEF-LIMITATION-POSSIBILITY-CONTROL"
+      "definition_id": "DEF-LIMITATION-POSSIBILITY-CONTROL",
+      "lean_declaration": "TruthCore.Modal.LimitationPossibility.JointControl"
     },
     {
       "id": "a9032f6f-ac6e-434c-94ee-357ee7aa859e",
@@ -35,12 +37,14 @@
     {
       "id": "e41f8b5f-66f3-48dc-a7b7-f0fcb3211f35",
       "label": "ANALYST_NONLIMITATION_POSSIBILITY_VERSUS_SOURCE_A8_5",
-      "definition_id": "DEF-POSITIVE-PROPERTY-SCOTT"
+      "definition_id": "DEF-POSITIVE-PROPERTY-SCOTT",
+      "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.Positivity"
     },
     {
       "id": "9158b0a9-d0a0-4718-a527-f02fd44be41c",
       "label": "ANALYST_NONLIMITATION_POSSIBILITY_VERSUS_SOURCE_A8_6",
-      "definition_id": "DEF-HAS-LIMITING-PRINCIPLE"
+      "definition_id": "DEF-HAS-LIMITING-PRINCIPLE",
+      "lean_declaration": "TruthCore.Causality.RootMultiplication.HasLimitingPrinciple"
     }
   ]
 }

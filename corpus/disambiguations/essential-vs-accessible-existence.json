@@ -16,7 +16,8 @@
     {
       "id": "ad7f6100-3301-437a-9384-616a4fdcb8b7",
       "label": "NECESSARY_EXISTENCE_BY_OWN_NATURE_2",
-      "definition_id": "DEF-KANT-MODAL-NECESSITY"
+      "definition_id": "DEF-KANT-MODAL-NECESSITY",
+      "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.NecessaryAt"
     }
   ]
 }

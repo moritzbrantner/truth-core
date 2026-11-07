@@ -12,17 +12,20 @@
     {
       "id": "2bba28ee-ea32-4fd0-b582-7500ea114b2f",
       "label": "DE_RE_NECESSARY_EXISTENCE_ABSENT_EXISTENTIAL_1",
-      "definition_id": "DEF-KANT-MODAL-NECESSITY"
+      "definition_id": "DEF-KANT-MODAL-NECESSITY",
+      "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.NecessaryAt"
     },
     {
       "id": "6d0fde78-c9fd-40b9-9802-1d096b77f375",
       "label": "DE_RE_NECESSARY_EXISTENCE_ABSENT_EXISTENTIAL_2",
-      "definition_id": "DEF-NECESSARILY-UNDERIVED"
+      "definition_id": "DEF-NECESSARILY-UNDERIVED",
+      "lean_declaration": "TruthCore.Causality.NecessarilyUnderived.NecessarilyUnderived"
     },
     {
       "id": "6beb6afd-0f62-490e-a313-5e7934d8f477",
       "label": "DE_RE_NECESSARY_EXISTENCE_ABSENT_EXISTENTIAL_3",
-      "definition_id": "DEF-NONREFUTABLE-NECESSARILY-UNDERIVED"
+      "definition_id": "DEF-NONREFUTABLE-NECESSARILY-UNDERIVED",
+      "lean_declaration": "TruthCore.Causality.NecessarilyUnderived.NonRefutableNecessarilyUnderived"
     }
   ]
 }

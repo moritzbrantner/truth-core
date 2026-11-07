@@ -11,12 +11,14 @@
     {
       "id": "a260db9d-3520-4586-be50-c4162ec83625",
       "label": "INSTRUMENTAL_SUCCESS_VERSUS_CATEGORICAL_MORAL_REQUIREMENT_1",
-      "definition_id": "DEF-TRANSCENDENTAL-GOAL-REALIZATION"
+      "definition_id": "DEF-TRANSCENDENTAL-GOAL-REALIZATION",
+      "lean_declaration": "TruthCore.Logic.TranscendentalPractice.Realizes"
     },
     {
       "id": "f79289e1-c79f-4ca1-b702-4f4945ca8506",
       "label": "INSTRUMENTAL_SUCCESS_VERSUS_CATEGORICAL_MORAL_REQUIREMENT_2",
-      "definition_id": "DEF-TRANSCENDENTAL-CATEGORICAL-DUTY"
+      "definition_id": "DEF-TRANSCENDENTAL-CATEGORICAL-DUTY",
+      "lean_declaration": "TruthCore.Logic.TranscendentalPractice.GoalPractice.categoricalOught"
     }
   ]
 }

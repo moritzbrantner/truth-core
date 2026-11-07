@@ -14,27 +14,32 @@
     {
       "id": "e4bdefd6-1886-464a-beef-cb63cd6d8cf8",
       "label": "SAME_ACT_DETERMINISTIC_RESPONSE_AND_NECESSARY_1",
-      "definition_id": "DEF-SELECTED-EFFECT-OUTPUT-PROFILE"
+      "definition_id": "DEF-SELECTED-EFFECT-OUTPUT-PROFILE",
+      "lean_declaration": "TruthCore.Modal.SelectedEffectBridge.OutputProfile"
     },
     {
       "id": "38164f24-cbfb-49ce-a7a0-ebd6042ab2a0",
       "label": "SAME_ACT_DETERMINISTIC_RESPONSE_AND_NECESSARY_2",
-      "definition_id": "DEF-SELECTED-EFFECT-LOCAL-DETERMINISM"
+      "definition_id": "DEF-SELECTED-EFFECT-LOCAL-DETERMINISM",
+      "lean_declaration": "TruthCore.Modal.SelectedEffectBridge.LocallyDeterministic"
     },
     {
       "id": "c24717be-74ef-4136-8db2-a3c98336b9c6",
       "label": "SAME_ACT_DETERMINISTIC_RESPONSE_AND_NECESSARY_3",
-      "definition_id": "DEF-SELECTED-EFFECT-SAME-ACT"
+      "definition_id": "DEF-SELECTED-EFFECT-SAME-ACT",
+      "lean_declaration": "TruthCore.Modal.SelectedEffectBridge.SameActEverywhere"
     },
     {
       "id": "49b50782-3926-4d99-92ff-24d820b34862",
       "label": "SAME_ACT_DETERMINISTIC_RESPONSE_AND_NECESSARY_4",
-      "definition_id": "DEF-SELECTED-EFFECT-STABLE-OUTPUT"
+      "definition_id": "DEF-SELECTED-EFFECT-STABLE-OUTPUT",
+      "lean_declaration": "TruthCore.Modal.SelectedEffectBridge.StableActOutput"
     },
     {
       "id": "b43392d6-04f5-4ab5-9780-74c4e4a7b08b",
       "label": "SAME_ACT_DETERMINISTIC_RESPONSE_AND_NECESSARY_5",
-      "definition_id": "DEF-SELECTED-EFFECT-REALIZED-OUTPUT"
+      "definition_id": "DEF-SELECTED-EFFECT-REALIZED-OUTPUT",
+      "lean_declaration": "TruthCore.Modal.SelectedEffectBridge.RealizedOutputs"
     }
   ]
 }

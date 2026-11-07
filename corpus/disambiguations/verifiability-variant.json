@@ -12,17 +12,20 @@
     {
       "id": "e7c48fdd-7dcc-430c-b5b9-a5029ed330ee",
       "label": "VERIFIABLE_1",
-      "definition_id": "DEF-CONCLUSIVE-VERIFIABILITY"
+      "definition_id": "DEF-CONCLUSIVE-VERIFIABILITY",
+      "lean_declaration": "TruthCore.Logic.Verificationism.ConclusivelyVerifiable"
     },
     {
       "id": "ac63b1c9-62fc-41e7-80a2-867e8cf21776",
       "label": "VERIFIABLE_2",
-      "definition_id": "DEF-AYER-1936-WEAK-VERIFIABILITY"
+      "definition_id": "DEF-AYER-1936-WEAK-VERIFIABILITY",
+      "lean_declaration": "TruthCore.Logic.Verificationism.WeaklyVerifiable1936"
     },
     {
       "id": "2bcc56f1-b4c3-4e34-b9ec-f8c2daaab9f3",
       "label": "VERIFIABLE_3",
-      "definition_id": "DEF-AYER-1946-VERIFIABILITY"
+      "definition_id": "DEF-AYER-1946-VERIFIABILITY",
+      "lean_declaration": "TruthCore.Logic.Verificationism.EmpiricallyVerifiable"
     }
   ]
 }

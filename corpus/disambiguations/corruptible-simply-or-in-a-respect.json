@@ -11,12 +11,14 @@
     {
       "id": "285c2ffe-17ad-487e-a511-33a67215bcb7",
       "label": "CORRUPTIBLE_INCORRUPTIBLE_1",
-      "definition_id": "DEF-INCORRUPTIBLE-SIMPLY"
+      "definition_id": "DEF-INCORRUPTIBLE-SIMPLY",
+      "lean_declaration": "TruthCore.Latin.Aquinas.InMetaphysicam.IncorruptibleSimply"
     },
     {
       "id": "555839f7-a88e-438c-b820-99b2c3785dc6",
       "label": "CORRUPTIBLE_INCORRUPTIBLE_2",
-      "definition_id": "DEF-CAN-FAIL-TO-BE"
+      "definition_id": "DEF-CAN-FAIL-TO-BE",
+      "lean_declaration": "TruthCore.Latin.Aquinas.InMetaphysicam.PotencyIsOfContradictionReading"
     }
   ]
 }

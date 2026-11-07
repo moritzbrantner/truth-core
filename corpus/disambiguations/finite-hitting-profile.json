@@ -12,17 +12,20 @@
     {
       "id": "72a92ca5-ea42-4071-9156-79cc1392b52b",
       "label": "FINITE_ALTERNATIVES_VERSUS_FINITE_ROSTER_1",
-      "definition_id": "DEF-FINITE-HITTING-PROFILE"
+      "definition_id": "DEF-FINITE-HITTING-PROFILE",
+      "lean_declaration": "TruthCore.Modal.FiniteHitting.Hitting"
     },
     {
       "id": "b17b36f9-8235-40d3-b4ec-6427da4766ea",
       "label": "FINITE_ALTERNATIVES_VERSUS_FINITE_ROSTER_2",
-      "definition_id": "DEF-FINITE-POPULATION-COVER"
+      "definition_id": "DEF-FINITE-POPULATION-COVER",
+      "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.FinitePopulationCover"
     },
     {
       "id": "be314ca8-20f1-4489-b151-653ef016e03d",
       "label": "FINITE_ALTERNATIVES_VERSUS_FINITE_ROSTER_3",
-      "definition_id": "DEF-LIMIT-ADMISSION-PROFILE"
+      "definition_id": "DEF-LIMIT-ADMISSION-PROFILE",
+      "lean_declaration": "TruthCore.Logic.LimitAdmission.tailWorlds"
     }
   ]
 }

@@ -11,7 +11,8 @@
     {
       "id": "24327bc0-f60f-43a3-ae6d-4092f3d3a918",
       "label": "SAID_OF_PREDICATED_1",
-      "definition_id": "DEF-SAID-OF-ESSENTIALLY"
+      "definition_id": "DEF-SAID-OF-ESSENTIALLY",
+      "lean_declaration": "TruthCore.Greek.Aristotle.Metaphysics.GenusNotSaidOfOwnDifferentiaeReading"
     },
     {
       "id": "4c2d9b96-8594-472d-8e5d-e41a47df21d4",

@@ -11,12 +11,14 @@
     {
       "id": "59346ca2-af7a-4c83-b06f-64b7438833ed",
       "label": "BODILY_INVOLVEMENT_IN_AN_INTELLECTUAL_EXERCISE_1",
-      "definition_id": "DEF-MIND-PHYSICAL-BASIS"
+      "definition_id": "DEF-MIND-PHYSICAL-BASIS",
+      "lean_declaration": "TruthCore.Alternatives.MindPhysicalism.PhysicallyBased"
     },
     {
       "id": "ea47ee46-0c82-4aac-b9b7-081a32705a06",
       "label": "BODILY_INVOLVEMENT_IN_AN_INTELLECTUAL_EXERCISE_2",
-      "definition_id": "DEF-Q75-OPERATION-ATTRIBUTION"
+      "definition_id": "DEF-Q75-OPERATION-ATTRIBUTION",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.HumanIntellect.OperationAttribution"
     }
   ]
 }

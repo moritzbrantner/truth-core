@@ -11,7 +11,8 @@
     {
       "id": "9e428f41-c648-4377-91e9-c558593fdce8",
       "label": "CHURCH_VISIBLE_SOCIETY_AND_SPIRITUAL_COMMUNITY_1",
-      "definition_id": "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY"
+      "definition_id": "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY",
+      "lean_declaration": "TruthCore.Case.Catholicism.Signature.VisibleWithAuthority"
     },
     {
       "id": "2a4a2460-811c-4244-8fe4-8ba72ee2ea43",

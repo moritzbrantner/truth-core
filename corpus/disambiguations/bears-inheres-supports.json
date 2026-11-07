@@ -11,12 +11,14 @@
     {
       "id": "7ec0a9d6-1a23-4457-8073-101c6d541d16",
       "label": "HAS_OR_DEPENDS_ON_BEARING_BEING_1",
-      "definition_id": "DEF-PRESENT-ESSE-SUPPORT"
+      "definition_id": "DEF-PRESENT-ESSE-SUPPORT",
+      "lean_declaration": "TruthCore.Causality.NecessarilyUnderived.PresentEsseSupport"
     },
     {
       "id": "ec0a1eda-4d75-4ffe-b023-209cbeb1a767",
       "label": "HAS_OR_DEPENDS_ON_BEARING_BEING_2",
-      "definition_id": "DEF-CATEGORIES-SUBJECT-RELATIONS"
+      "definition_id": "DEF-CATEGORIES-SUBJECT-RELATIONS",
+      "lean_declaration": "TruthCore.Greek.Aristotle.Categories.PrimarySubstanceBySubjectRelationsReading"
     }
   ]
 }

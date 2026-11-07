@@ -11,12 +11,14 @@
     {
       "id": "aa87729a-5426-497c-bb16-7b5291fe618f",
       "label": "CLOSURE_UNDER_SEVERAL_LOGICS_1",
-      "definition_id": "DEF-SHARED-BELIEF-POOL-CLOSURE"
+      "definition_id": "DEF-SHARED-BELIEF-POOL-CLOSURE",
+      "lean_declaration": "TruthCore.Logic.PluralClosureBoundary.Closed"
     },
     {
       "id": "744b404a-b6ba-4d9d-adef-bd85f28dc206",
       "label": "CLOSURE_UNDER_SEVERAL_LOGICS_2",
-      "definition_id": "DEF-INDEXED-BELIEF-POOL-CLOSURE"
+      "definition_id": "DEF-INDEXED-BELIEF-POOL-CLOSURE",
+      "lean_declaration": "TruthCore.Logic.PluralClosureBoundary.SurvivorControls"
     }
   ]
 }

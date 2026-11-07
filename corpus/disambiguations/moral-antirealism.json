@@ -13,7 +13,8 @@
     {
       "id": "2beb8dd8-1ca7-4a1b-90b8-6786947ad978",
       "label": "EMOTIVISM_EXPRESSIVISM_SUBJECTIVISM_1",
-      "definition_id": "DEF-EMOTIVISM"
+      "definition_id": "DEF-EMOTIVISM",
+      "lean_declaration": "TruthCore.English.OConnor.MoralStatementsLackTruthValueReading"
     },
     {
       "id": "347a3da7-30f4-421e-87c7-6a7e63d52e8f",
@@ -28,7 +29,8 @@
     {
       "id": "8a844cfe-fc45-48e8-91b3-b59d1c2749b6",
       "label": "EMOTIVISM_EXPRESSIVISM_SUBJECTIVISM_4",
-      "definition_id": "DEF-EMOTIVISM-OCCASION"
+      "definition_id": "DEF-EMOTIVISM-OCCASION",
+      "lean_declaration": "TruthCore.English.VanRoojen.EmotivistMeaningIsExpressedAttitudeReading"
     }
   ]
 }

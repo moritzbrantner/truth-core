@@ -2424,12 +2424,13 @@ fn validate(
                 return Err(format!("{path}: unknown sense definition id {sense}"));
             }
         }
-        validate_disambiguation_senses(path, fields)?;
+        validate_disambiguation_senses(path, fields, &lean)?;
         validate_prose_ids(path, fields, &["resolution"], &citable)?;
         used_definitions.extend(senses);
     }
     let senses_index = sense_index(&disambiguations)?;
     let sense_allowlist = load_sense_allowlist(root)?;
+    validate_sense_declarations(&disambiguations, &sense_allowlist)?;
 
     for claim in &claims {
         let (path, fields) = (claim.path.as_str(), &claim.fields);
@@ -3443,7 +3444,7 @@ fn has_exact_keys(value: &Value, keys: &[&str]) -> bool {
     })
 }
 
-fn validate_disambiguation_senses(path: &str, fields: &Obj) -> Res<()> {
+fn validate_disambiguation_senses(path: &str, fields: &Obj, lean: &LeanText) -> Res<()> {
     if !string(fields, "term_label").is_some_and(term_label) {
         return Err(format!(
             "{path}: term_label must be an upper snake case term such as PRIOR"
@@ -3451,12 +3452,13 @@ fn validate_disambiguation_senses(path: &str, fields: &Obj) -> Res<()> {
     }
     let senses = fields.get("senses").and_then(Value::as_array);
     let Some(senses) = senses.filter(|senses| {
-        senses
-            .iter()
-            .all(|sense| has_exact_keys(sense, &["id", "label", "definition_id"]))
+        senses.iter().all(|sense| {
+            has_exact_keys(sense, &["id", "label", "definition_id"])
+                || has_exact_keys(sense, &["id", "label", "definition_id", "lean_declaration"])
+        })
     }) else {
         return Err(format!(
-            "{path}: senses must be a list of {{id, label, definition_id}} objects"
+            "{path}: senses must be a list of {{id, label, definition_id[, lean_declaration]}} objects"
         ));
     };
     for sense in senses {
@@ -3473,6 +3475,9 @@ fn validate_disambiguation_senses(path: &str, fields: &Obj) -> Res<()> {
                 "{path}: sense label {} must look like TERM_1",
                 py_repr(label)
             ));
+        }
+        if let Some(declaration) = sense.get("lean_declaration") {
+            lean_tail_exists(path, Some(declaration), lean)?;
         }
     }
     let listed: Vec<&Value> = senses
@@ -3628,21 +3633,42 @@ fn bridged(term: &str, used: &BTreeSet<String>, bridges: &[Value]) -> bool {
     used.iter().all(|sense| seen.contains(sense.as_str()))
 }
 
-type Allowlist = HashMap<String, HashMap<String, HashSet<String>>>;
+/// Python `load_sense_allowlist`: the legacy allowlists (#1233).
+#[derive(Default)]
+struct Allowlist {
+    arguments: HashMap<String, HashMap<String, HashSet<String>>>,
+    senses: HashSet<String>,
+}
 
 fn load_sense_allowlist(root: &Path) -> Res<Allowlist> {
     let path = root.join(SENSE_ALLOWLIST);
     if !path.exists() {
-        return Ok(Allowlist::new());
+        return Ok(Allowlist::default());
     }
-    let error = || format!("{SENSE_ALLOWLIST}: must map argument ids to {{term: [sense ids]}}");
+    let error = || {
+        format!(
+            "{SENSE_ALLOWLIST}: must be {{arguments: {{argument: {{term: [sense ids]}}}}, senses_without_lean_declaration: [sense ids]}}"
+        )
+    };
     let data: Value = std::fs::read_to_string(&path)
         .ok()
         .and_then(|text| serde_json::from_str(&text).ok())
         .ok_or_else(error)?;
-    let mut allowlist = Allowlist::new();
-    for (argument, terms) in data.as_object().ok_or_else(error)? {
-        let entry = allowlist.entry(argument.clone()).or_default();
+    let object = data
+        .as_object()
+        .filter(|_| has_exact_keys(&data, &["arguments", "senses_without_lean_declaration"]))
+        .ok_or_else(error)?;
+    let mut allowlist = Allowlist::default();
+    for sense in object["senses_without_lean_declaration"]
+        .as_array()
+        .ok_or_else(error)?
+    {
+        allowlist
+            .senses
+            .insert(sense.as_str().ok_or_else(error)?.to_owned());
+    }
+    for (argument, terms) in object["arguments"].as_object().ok_or_else(error)? {
+        let entry = allowlist.arguments.entry(argument.clone()).or_default();
         for (term, ids) in terms.as_object().ok_or_else(error)? {
             let ids = ids.as_array().ok_or_else(error)?;
             let ids: Option<HashSet<String>> = ids
@@ -3738,7 +3764,7 @@ fn validate_argument_sense_fields(
             ));
         }
     }
-    let allowed = allowlist.get(text(argument, "id"));
+    let allowed = allowlist.arguments.get(text(argument, "id"));
     for (term, senses) in &used {
         if senses.len() < 2 || bridged(term, senses, bridges) {
             continue;
@@ -3752,6 +3778,53 @@ fn validate_argument_sense_fields(
         return Err(format!(
             "{path}: uses senses {} of {term} without a sense bridge; record one argument per sense, or list the premise relating them in sense_bridges",
             sense_labels(index, senses)
+        ));
+    }
+    Ok(())
+}
+
+/// Python `senses_without_distinct_declaration`: (path, sense) for every
+/// sense without a `lean_declaration` or sharing one within its record.
+fn senses_without_distinct_declaration(disambiguations: &[Record]) -> Vec<(&str, &Obj)> {
+    let mut missing = Vec::new();
+    for disambiguation in disambiguations {
+        let senses: Vec<&Obj> = disambiguation
+            .fields
+            .get("senses")
+            .and_then(Value::as_array)
+            .into_iter()
+            .flatten()
+            .filter_map(Value::as_object)
+            .collect();
+        let mut declared: HashMap<Option<&str>, usize> = HashMap::new();
+        for sense in &senses {
+            *declared
+                .entry(string(sense, "lean_declaration"))
+                .or_default() += 1;
+        }
+        for sense in senses {
+            let declaration = string(sense, "lean_declaration");
+            if declaration.is_none() || declared[&declaration] > 1 {
+                missing.push((disambiguation.path.as_str(), sense));
+            }
+        }
+    }
+    missing
+}
+
+/// Python `validate_sense_declarations`.
+fn validate_sense_declarations(disambiguations: &[Record], allowlist: &Allowlist) -> Res<()> {
+    for (path, sense) in senses_without_distinct_declaration(disambiguations) {
+        if allowlist.senses.contains(text(sense, "id")) {
+            continue;
+        }
+        let reason = match string(sense, "lean_declaration") {
+            None => "has no lean_declaration".to_owned(),
+            Some(declaration) => format!("shares {declaration} with another sense"),
+        };
+        return Err(format!(
+            "{path}: sense {} {reason}; each sense must be its own Lean type",
+            text(sense, "label")
         ));
     }
     Ok(())
@@ -3778,13 +3851,24 @@ fn sense_mixing_warnings(loaded: &Loaded) -> Vec<String> {
             }
         }
     }
-    if arguments.is_empty() {
-        return Vec::new();
+    let mut warnings = Vec::new();
+    if !arguments.is_empty() {
+        warnings.push(format!(
+            "{} pre-existing argument(s) use several senses of one term without a sense bridge ({uses} term use(s), allowlisted in {SENSE_ALLOWLIST}; see docs/notes/sense-index-migration.md)",
+            arguments.len()
+        ));
     }
-    vec![format!(
-        "{} pre-existing argument(s) use several senses of one term without a sense bridge ({uses} term use(s), allowlisted in {SENSE_ALLOWLIST}; see docs/notes/sense-index-migration.md)",
-        arguments.len()
-    )]
+    let undeclared: HashSet<&str> = senses_without_distinct_declaration(&loaded.disambiguations)
+        .into_iter()
+        .map(|(_, sense)| text(sense, "id"))
+        .collect();
+    if !undeclared.is_empty() {
+        warnings.push(format!(
+            "{} pre-existing sense(s) have no distinct Lean declaration, so they are not finished senses (allowlisted in {SENSE_ALLOWLIST}; see docs/notes/sense-index-migration.md)",
+            undeclared.len()
+        ));
+    }
+    warnings
 }
 
 #[cfg(test)]

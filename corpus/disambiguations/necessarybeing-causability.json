@@ -8,12 +8,14 @@
     {
       "id": "b1403624-2b41-4794-a287-febcf6883d39",
       "label": "CAUSABILITY_AND_CAUSE_1",
-      "definition_id": "DEF-CAUSE-OF-ORIGIN"
+      "definition_id": "DEF-CAUSE-OF-ORIGIN",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaContraGentiles.WhatComesToBeAnewHasInnovatingCauseReading"
     },
     {
       "id": "ab699e7e-d554-4f8b-8cf6-a9bd030f8828",
       "label": "CAUSABILITY_AND_CAUSE_2",
-      "definition_id": "DEF-NB-COUNT-CAUSABILITY"
+      "definition_id": "DEF-NB-COUNT-CAUSABILITY",
+      "lean_declaration": "TruthCore.Causality.NecessaryBeingSurvey.FiveCausable"
     }
   ]
 }

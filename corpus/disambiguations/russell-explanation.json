@@ -12,17 +12,20 @@
     {
       "id": "5fe4342f-0eef-4566-bba1-643ab418b10b",
       "label": "EXPLANATION_8",
-      "definition_id": "DEF-RUSSELL-LOGICAL-ANALYSIS"
+      "definition_id": "DEF-RUSSELL-LOGICAL-ANALYSIS",
+      "lean_declaration": "TruthCore.Modern.Russell.Existence.DescriptionLaw"
     },
     {
       "id": "8946a082-1304-4cac-9260-977fcd5574c2",
       "label": "EXPLANATION_9",
-      "definition_id": "DEF-RUSSELL-GROUNDING"
+      "definition_id": "DEF-RUSSELL-GROUNDING",
+      "lean_declaration": "TruthCore.Modern.Russell.Existence.Grounding"
     },
     {
       "id": "9f2b4866-db70-453e-9d67-9759132a900f",
       "label": "EXPLANATION_10",
-      "definition_id": "DEF-RUSSELL-EXHAUSTIVENESS"
+      "definition_id": "DEF-RUSSELL-EXHAUSTIVENESS",
+      "lean_declaration": "TruthCore.Modern.Russell.Existence.GroundingDetermined"
     }
   ]
 }

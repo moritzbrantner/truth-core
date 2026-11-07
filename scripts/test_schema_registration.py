@@ -92,6 +92,8 @@ class SchemaRegistrationTest(unittest.TestCase):
             "results": [(self.path, result)],
             "relations": [(self.path, self.relation)],
             "statements": [(self.path, {"id": name}) for name in ("INSTANCE", "SCHEMA")],
+            "arguments": [],
+            "disambiguations": [],
         }
         read_text = Path.read_text
 

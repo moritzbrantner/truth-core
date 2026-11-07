@@ -13,12 +13,14 @@
     {
       "id": "f3352928-e907-48e3-a81c-384374189263",
       "label": "ACCURACY_CERTIFICATION_AND_EPISTEMIC_ENTITLEMENT_1",
-      "definition_id": "DEF-INSTRUMENT-OFFSET-ACCURACY"
+      "definition_id": "DEF-INSTRUMENT-OFFSET-ACCURACY",
+      "lean_declaration": "TruthCore.Science.ReadingSelfCertification.Accurate"
     },
     {
       "id": "4b6cc5ba-961a-4491-8ad7-bc7e785b42c8",
       "label": "ACCURACY_CERTIFICATION_AND_EPISTEMIC_ENTITLEMENT_2",
-      "definition_id": "DEF-DATA-RELATIVE-CORRECTION-CRITERION"
+      "definition_id": "DEF-DATA-RELATIVE-CORRECTION-CRITERION",
+      "lean_declaration": "TruthCore.Logic.CorrectionCriterion.AdmitsCriterion"
     },
     {
       "id": "c0bc8cb4-7e7d-4df7-9ef0-7b3637402bc2",

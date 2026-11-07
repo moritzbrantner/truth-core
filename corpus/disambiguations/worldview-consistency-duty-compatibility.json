@@ -11,12 +11,14 @@
     {
       "id": "b43f847b-6cc6-41e6-a7ff-1f1f88d4f86a",
       "label": "WORLDVIEW_CONSISTENCY_1",
-      "definition_id": "DEF-WORLDVIEW-SEMANTIC-CONSISTENCY"
+      "definition_id": "DEF-WORLDVIEW-SEMANTIC-CONSISTENCY",
+      "lean_declaration": "TruthCore.Logic.ReflectiveCoherence.Consistent"
     },
     {
       "id": "ecc8e307-3dc9-444d-a351-00ca3d15185a",
       "label": "WORLDVIEW_CONSISTENCY_2",
-      "definition_id": "DEF-WORLDVIEW-DUTY-COMPATIBILITY"
+      "definition_id": "DEF-WORLDVIEW-DUTY-COMPATIBILITY",
+      "lean_declaration": "TruthCore.Logic.ReflectiveCoherence.Compatible"
     }
   ]
 }

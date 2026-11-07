@@ -11,12 +11,14 @@
     {
       "id": "ef7f807d-8c8b-43c0-834a-b4c3238043d8",
       "label": "NO_ORGAN_VERSUS_OPERATION_1",
-      "definition_id": "DEF-Q75-INTELLECT-NONORGAN-OPERATION"
+      "definition_id": "DEF-Q75-INTELLECT-NONORGAN-OPERATION",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.HumanIntellect.IntellectUsesNoBodilyOrgan"
     },
     {
       "id": "b139c2c6-d50c-4e9a-830a-3a7bdf536cb5",
       "label": "NO_ORGAN_VERSUS_OPERATION_2",
-      "definition_id": "DEF-Q75-OPERATION-ATTRIBUTION"
+      "definition_id": "DEF-Q75-OPERATION-ATTRIBUTION",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.HumanIntellect.OperationAttribution"
     }
   ]
 }

@@ -12,7 +12,8 @@
     {
       "id": "47818f8b-9a67-4344-8639-b0bba875bc3c",
       "label": "NONRESISTANCE_1",
-      "definition_id": "DEF-HIDDENNESS-RESISTANCE"
+      "definition_id": "DEF-HIDDENNESS-RESISTANCE",
+      "lean_declaration": "TruthCore.Hiddenness.Sig.Resists"
     },
     {
       "id": "b7193fb4-8ab9-4891-81c7-ffbcb74f7c12",

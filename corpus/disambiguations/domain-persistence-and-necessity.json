@@ -15,32 +15,38 @@
     {
       "id": "b1cde11c-18c6-49eb-8c3b-b548e7a1ad71",
       "label": "VARYING_DOMAINS_RIGID_IDENTITY_AND_NECESSITY_1",
-      "definition_id": "DEF-ACTUALIST-ALL"
+      "definition_id": "DEF-ACTUALIST-ALL",
+      "lean_declaration": "TruthCore.Modal.ActualistDomains.ActualistAll"
     },
     {
       "id": "c3abc588-ba1b-4989-9547-a75d7a5544b5",
       "label": "VARYING_DOMAINS_RIGID_IDENTITY_AND_NECESSITY_2",
-      "definition_id": "DEF-INCREASING-EXISTENCE-DOMAINS"
+      "definition_id": "DEF-INCREASING-EXISTENCE-DOMAINS",
+      "lean_declaration": "TruthCore.Modal.ActualistDomains.IncreasingDomains"
     },
     {
       "id": "e4b5037f-3d96-4581-bef4-21b30c82f97b",
       "label": "VARYING_DOMAINS_RIGID_IDENTITY_AND_NECESSITY_3",
-      "definition_id": "DEF-DECREASING-EXISTENCE-DOMAINS"
+      "definition_id": "DEF-DECREASING-EXISTENCE-DOMAINS",
+      "lean_declaration": "TruthCore.Modal.ActualistDomains.DecreasingDomains"
     },
     {
       "id": "55fb979a-cad9-4079-ad0b-19181c3eafa7",
       "label": "VARYING_DOMAINS_RIGID_IDENTITY_AND_NECESSITY_4",
-      "definition_id": "DEF-BOX-ALL-TO-ALL-BOX"
+      "definition_id": "DEF-BOX-ALL-TO-ALL-BOX",
+      "lean_declaration": "TruthCore.Modal.ActualistDomains.BoxAllToAllBox"
     },
     {
       "id": "cec523f8-6fc0-443f-ab99-e68a6f4f3b6f",
       "label": "VARYING_DOMAINS_RIGID_IDENTITY_AND_NECESSITY_5",
-      "definition_id": "DEF-ALL-BOX-TO-BOX-ALL"
+      "definition_id": "DEF-ALL-BOX-TO-BOX-ALL",
+      "lean_declaration": "TruthCore.Modal.ActualistDomains.AllBoxToBoxAll"
     },
     {
       "id": "d4000d87-8fb2-4b63-a22a-2a4c8ff54a47",
       "label": "VARYING_DOMAINS_RIGID_IDENTITY_AND_NECESSITY_6",
-      "definition_id": "DEF-KANT-MODAL-NECESSITY"
+      "definition_id": "DEF-KANT-MODAL-NECESSITY",
+      "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.NecessaryAt"
     }
   ]
 }

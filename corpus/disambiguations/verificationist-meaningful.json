@@ -12,17 +12,20 @@
     {
       "id": "1505de7d-a322-430b-992d-31dd1846429e",
       "label": "MEANINGFUL_1",
-      "definition_id": "DEF-LITERAL-MEANINGFULNESS-1946"
+      "definition_id": "DEF-LITERAL-MEANINGFULNESS-1946",
+      "lean_declaration": "TruthCore.Logic.Verificationism.LiterallyMeaningful1946"
     },
     {
       "id": "08620e59-62e1-4053-8dac-80ef6de99b19",
       "label": "MEANINGFUL_2",
-      "definition_id": "DEF-VERIFICATION-PRINCIPLE"
+      "definition_id": "DEF-VERIFICATION-PRINCIPLE",
+      "lean_declaration": "TruthCore.Logic.Verificationism.VerificationPrinciple"
     },
     {
       "id": "b0980176-195b-4d0d-9730-7843c8094381",
       "label": "MEANINGFUL_3",
-      "definition_id": "DEF-TRUTH-CONDITIONAL-LANGUAGE"
+      "definition_id": "DEF-TRUTH-CONDITIONAL-LANGUAGE",
+      "lean_declaration": "TruthCore.Logic.Verificationism.Language"
     }
   ]
 }

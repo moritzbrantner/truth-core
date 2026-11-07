@@ -12,17 +12,20 @@
     {
       "id": "baf6f205-effc-4a79-9053-c962a2d6c37e",
       "label": "SELECTING_AN_OUTCOME_1",
-      "definition_id": "DEF-EXPLANATORY-NET-SELECTION"
+      "definition_id": "DEF-EXPLANATORY-NET-SELECTION",
+      "lean_declaration": "TruthCore.Explanation.ExplanatorySymmetry.NetSelects"
     },
     {
       "id": "11024560-c296-4b99-9c62-8ed69b61ffba",
       "label": "SELECTING_AN_OUTCOME_2",
-      "definition_id": "DEF-EXPLANATORY-CONTRAST"
+      "definition_id": "DEF-EXPLANATORY-CONTRAST",
+      "lean_declaration": "TruthCore.Explanation.ExplanatoryAdequacy.ContrastRelevant"
     },
     {
       "id": "6041e2f7-3840-48d9-ab74-467eba966d12",
       "label": "SELECTING_AN_OUTCOME_3",
-      "definition_id": "DEF-EXPLANATORY-ENABLES"
+      "definition_id": "DEF-EXPLANATORY-ENABLES",
+      "lean_declaration": "TruthCore.Explanation.ExplanatorySymmetry.EnablesNonvacuously"
     }
   ]
 }

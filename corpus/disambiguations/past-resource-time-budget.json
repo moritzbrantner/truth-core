@@ -13,22 +13,26 @@
     {
       "id": "bb5407ec-1ea1-421f-83d0-69233673c706",
       "label": "BOUNDED_RESOURCE_INCREASE_FINITE_DURATION_1",
-      "definition_id": "DEF-PAST-RESOURCE-STOCK"
+      "definition_id": "DEF-PAST-RESOURCE-STOCK",
+      "lean_declaration": "TruthCore.Causality.BoundedPastResource.PastLowerBound"
     },
     {
       "id": "c4eedb41-38b3-4a38-ada8-84aa4e1a4468",
       "label": "BOUNDED_RESOURCE_INCREASE_FINITE_DURATION_2",
-      "definition_id": "DEF-PAST-RESOURCE-LOWER-BOUND"
+      "definition_id": "DEF-PAST-RESOURCE-LOWER-BOUND",
+      "lean_declaration": "TruthCore.Causality.BoundedPastResource.PastLowerBound"
     },
     {
       "id": "67f033e7-d8b2-4357-8bc1-db61fab15308",
       "label": "BOUNDED_RESOURCE_INCREASE_FINITE_DURATION_3",
-      "definition_id": "DEF-PAST-RESOURCE-UNIFORM-GROWTH"
+      "definition_id": "DEF-PAST-RESOURCE-UNIFORM-GROWTH",
+      "lean_declaration": "TruthCore.Causality.BoundedPastResource.UniformPastGrowth"
     },
     {
       "id": "77b211f3-269c-44cc-8400-e8049678e0f0",
       "label": "BOUNDED_RESOURCE_INCREASE_FINITE_DURATION_4",
-      "definition_id": "DEF-SUPERTASK-UNIT-COST"
+      "definition_id": "DEF-SUPERTASK-UNIT-COST",
+      "lean_declaration": "TruthCore.Causality.UnitCostPartialSum"
     }
   ]
 }

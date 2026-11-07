@@ -11,12 +11,14 @@
     {
       "id": "3c3e66ee-e333-40e5-b148-6ba855fee758",
       "label": "POSITIVE_1",
-      "definition_id": "DEF-POSITIVE-PROPERTY-GOEDEL-1970"
+      "definition_id": "DEF-POSITIVE-PROPERTY-GOEDEL-1970",
+      "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.Positivity"
     },
     {
       "id": "3c2a30be-d9e1-48ed-97c2-66c01a54a1d4",
       "label": "POSITIVE_2",
-      "definition_id": "DEF-POSITIVE-PROPERTY-SCOTT"
+      "definition_id": "DEF-POSITIVE-PROPERTY-SCOTT",
+      "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.Positivity"
     }
   ]
 }

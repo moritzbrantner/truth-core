@@ -11,12 +11,14 @@
     {
       "id": "c3b8c867-f4e7-4187-97ce-d01925313f4a",
       "label": "SAME_PROCESS_SAME_STAGE_AND_SAME_1",
-      "definition_id": "DEF-PROCESS-TURNOVER-REPRESENTATION"
+      "definition_id": "DEF-PROCESS-TURNOVER-REPRESENTATION",
+      "lean_declaration": "TruthCore.Mereology.ProcessTurnover.PreservesContinuity"
     },
     {
       "id": "a1ea0c67-41ad-45ba-b767-db0dd3c27220",
       "label": "SAME_PROCESS_SAME_STAGE_AND_SAME_2",
-      "definition_id": "DEF-MEREO-OPERATIONAL-LIFE-PROFILE"
+      "definition_id": "DEF-MEREO-OPERATIONAL-LIFE-PROFILE",
+      "lean_declaration": "TruthCore.Mereology.Vitalism.TurnoverProfile"
     }
   ]
 }

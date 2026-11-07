@@ -12,17 +12,20 @@
     {
       "id": "05964008-11d4-4837-ad39-79bf84ff0097",
       "label": "SAME_SHIP_1",
-      "definition_id": "DEF-THESEUS-OCCURRENCE-BEARER"
+      "definition_id": "DEF-THESEUS-OCCURRENCE-BEARER",
+      "lean_declaration": "TruthCore.Mereology.TheseusIdentity.Stage"
     },
     {
       "id": "c1498e46-c1e9-4711-87b0-cfd370dfd954",
       "label": "SAME_SHIP_2",
-      "definition_id": "DEF-THESEUS-COMPONENT-INVENTORY"
+      "definition_id": "DEF-THESEUS-COMPONENT-INVENTORY",
+      "lean_declaration": "TruthCore.Mereology.TheseusIdentity.contents"
     },
     {
       "id": "d79e06bd-cb01-4284-8010-beebe54cb25c",
       "label": "SAME_SHIP_3",
-      "definition_id": "DEF-THESEUS-IDENTITY-PRINCIPLES"
+      "definition_id": "DEF-THESEUS-IDENTITY-PRINCIPLES",
+      "lean_declaration": "TruthCore.Mereology.TheseusIdentity.Gradual"
     }
   ]
 }

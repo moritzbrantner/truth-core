@@ -11,12 +11,14 @@
     {
       "id": "2b9cebcb-b016-42fe-ba5a-0d02088e812d",
       "label": "BEING_1",
-      "definition_id": "DEF-BEING-AS-ENTITY"
+      "definition_id": "DEF-BEING-AS-ENTITY",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel.Being"
     },
     {
       "id": "b721119e-9288-4bf9-b3ac-881c7ef9c099",
       "label": "BEING_2",
-      "definition_id": "DEF-BEING-AS-TRUTH-OF-A-PROPOSITION"
+      "definition_id": "DEF-BEING-AS-TRUTH-OF-A-PROPOSITION",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.EvilIsAsPropositionalTruthReading"
     }
   ]
 }

@@ -14,27 +14,32 @@
     {
       "id": "ed3b010e-0eee-425b-9126-ab300235179c",
       "label": "SIMPLE_PRIORITY_OF_BEINGS_VERSUS_MIXED_1",
-      "definition_id": "DEF-SIMPLE-PRIORITY"
+      "definition_id": "DEF-SIMPLE-PRIORITY",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.ActSimplyPriorToPotencyReading"
     },
     {
       "id": "3aeb2ef5-b688-46a3-b4d1-435ec5089c9d",
       "label": "SIMPLE_PRIORITY_OF_BEINGS_VERSUS_MIXED_2",
-      "definition_id": "DEF-EXISTENTIAL-BEARER-PRIOR"
+      "definition_id": "DEF-EXISTENTIAL-BEARER-PRIOR",
+      "lean_declaration": "TruthCore.Causality.ExistentialSelfActualization.BearerPrior"
     },
     {
       "id": "4621236e-f022-4e33-8f6b-e730b9590970",
       "label": "SIMPLE_PRIORITY_OF_BEINGS_VERSUS_MIXED_3",
-      "definition_id": "DEF-EXISTENTIAL-PRODUCT-PRIOR"
+      "definition_id": "DEF-EXISTENTIAL-PRODUCT-PRIOR",
+      "lean_declaration": "TruthCore.Causality.ExistentialSelfActualization.ProductPrior"
     },
     {
       "id": "019d320f-6bbb-4a7b-8456-032aae3f514a",
       "label": "SIMPLE_PRIORITY_OF_BEINGS_VERSUS_MIXED_4",
-      "definition_id": "DEF-MIXED-EXISTENTIAL-PRIORITY-IRREFLEXIVE"
+      "definition_id": "DEF-MIXED-EXISTENTIAL-PRIORITY-IRREFLEXIVE",
+      "lean_declaration": "TruthCore.Causality.ExistentialSelfActualization.IrreflexivePriority"
     },
     {
       "id": "a5256ddc-b359-48d2-a626-c58364c7330d",
       "label": "SIMPLE_PRIORITY_OF_BEINGS_VERSUS_MIXED_5",
-      "definition_id": "DEF-MIXED-EXISTENTIAL-PRIORITY-TRANSITIVE"
+      "definition_id": "DEF-MIXED-EXISTENTIAL-PRIORITY-TRANSITIVE",
+      "lean_declaration": "TruthCore.Causality.ExistentialSelfActualization.TransitivePriority"
     }
   ]
 }

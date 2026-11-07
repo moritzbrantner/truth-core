@@ -11,12 +11,14 @@
     {
       "id": "534024c4-de2b-4989-90ac-09f6fc0e3221",
       "label": "GOVERNING_POWER_IN_A_COMMISSION_1",
-      "definition_id": "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER"
+      "definition_id": "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
+      "lean_declaration": "TruthCore.Case.Catholicism.StageThree.Commissions.Power.Governing"
     },
     {
       "id": "7401b994-07bf-4037-ac10-d6001b4c9a7d",
       "label": "GOVERNING_POWER_IN_A_COMMISSION_2",
-      "definition_id": "DEF-TEACHING-INCLUSIVE-GOVERNING-POWER"
+      "definition_id": "DEF-TEACHING-INCLUSIVE-GOVERNING-POWER",
+      "lean_declaration": "TruthCore.Case.Catholicism.StageThree.CommissionDefinitions.TeachingInclusiveGovernanceCriterion"
     }
   ]
 }

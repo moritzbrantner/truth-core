@@ -13,22 +13,26 @@
     {
       "id": "044f58e3-4079-4f62-a1a4-e373a08f351f",
       "label": "CAN_DUTY_RETENTION_ACTION_IDENTITY_1",
-      "definition_id": "DEF-RETAINED-DUTY-CASE"
+      "definition_id": "DEF-RETAINED-DUTY-CASE",
+      "lean_declaration": "TruthCore.Modal.RetainedDuty.Case"
     },
     {
       "id": "2be33b2d-11f1-43cd-821c-da4c7c1984f4",
       "label": "CAN_DUTY_RETENTION_ACTION_IDENTITY_2",
-      "definition_id": "DEF-RETAINED-DUTY-POLICIES"
+      "definition_id": "DEF-RETAINED-DUTY-POLICIES",
+      "lean_declaration": "TruthCore.Modal.RetainedDuty.PresentOIC"
     },
     {
       "id": "64cdd725-2242-46a6-b2a3-bd7ea76c9e95",
       "label": "CAN_DUTY_RETENTION_ACTION_IDENTITY_3",
-      "definition_id": "DEF-DEONTIC-IDEAL-FUTURE-BOUNDARY"
+      "definition_id": "DEF-DEONTIC-IDEAL-FUTURE-BOUNDARY",
+      "lean_declaration": "TruthCore.Modal.DeonticFutureBoundary.Ought"
     },
     {
       "id": "4329b5d1-f343-4fb8-8c37-90d0bd02808f",
       "label": "CAN_DUTY_RETENTION_ACTION_IDENTITY_4",
-      "definition_id": "DEF-RETAINED-DUTY-BRANCHING-ABILITY"
+      "definition_id": "DEF-RETAINED-DUTY-BRANCHING-ABILITY",
+      "lean_declaration": "TruthCore.Modal.RetainedDuty.Plan"
     }
   ]
 }

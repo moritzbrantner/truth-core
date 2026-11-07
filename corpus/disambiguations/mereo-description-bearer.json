@@ -11,12 +11,14 @@
     {
       "id": "e4379a8d-434d-4ed9-a9a0-0ad5af30fdc6",
       "label": "SYSTEM_OR_WHOLE_AS_A_DESCRIPTION_1",
-      "definition_id": "DEF-MEREO-INTERVENTION-DYNAMICS"
+      "definition_id": "DEF-MEREO-INTERVENTION-DYNAMICS",
+      "lean_declaration": "TruthCore.Mereology.ArrangementDynamics.Realizes"
     },
     {
       "id": "22850433-bad0-40e2-8bda-d0c0657a6cd8",
       "label": "SYSTEM_OR_WHOLE_AS_A_DESCRIPTION_2",
-      "definition_id": "DEF-MEREO-SUBSTANTIAL-UNITY"
+      "definition_id": "DEF-MEREO-SUBSTANTIAL-UNITY",
+      "lean_declaration": "TruthCore.Mereology.Vitalism.Scenario.SubstantialUnity"
     }
   ]
 }

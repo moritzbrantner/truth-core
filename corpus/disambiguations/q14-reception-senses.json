@@ -18,7 +18,8 @@
     {
       "id": "03a03dc8-08e5-49a3-8442-0d4369961a69",
       "label": "COGNITIVE_RECEPTION_AND_KNOWING_1",
-      "definition_id": "DEF-Q14-FORM-CAPACITY"
+      "definition_id": "DEF-Q14-FORM-CAPACITY",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.FormReception.ForeignFormCapacity"
     },
     {
       "id": "85c5d9a0-6121-4a46-82ba-ebcec9838816",
@@ -33,32 +34,38 @@
     {
       "id": "639e9344-f69b-40d8-a2cd-5a661e553188",
       "label": "COGNITIVE_RECEPTION_AND_KNOWING_4",
-      "definition_id": "DEF-HAS-INTELLECT"
+      "definition_id": "DEF-HAS-INTELLECT",
+      "lean_declaration": "TruthCore.Case.Catholicism.GodHasIntellect"
     },
     {
       "id": "581e54ff-47b5-4cb0-9b5f-2f1d80e6bd04",
       "label": "COGNITIVE_RECEPTION_AND_KNOWING_5",
-      "definition_id": "DEF-Q14-CAPACITY-CALIBRATION"
+      "definition_id": "DEF-Q14-CAPACITY-CALIBRATION",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.Q14ReceptionFork.CapacityCalibration"
     },
     {
       "id": "62cdf586-5ec6-4e53-8e35-fca66f9ff1ac",
       "label": "COGNITIVE_RECEPTION_AND_KNOWING_6",
-      "definition_id": "DEF-Q14-WITHOUT-MATTER-CALIBRATION"
+      "definition_id": "DEF-Q14-WITHOUT-MATTER-CALIBRATION",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.Q14ReceptionFork.WithoutMatterCalibration"
     },
     {
       "id": "7fb7eaf7-54ad-45f7-82df-ae74b344477c",
       "label": "COGNITIVE_RECEPTION_AND_KNOWING_7",
-      "definition_id": "DEF-Q14-CHANGE-PROXY-CALIBRATION"
+      "definition_id": "DEF-Q14-CHANGE-PROXY-CALIBRATION",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.Q14ReceptionFork.ChangeProxyCalibration"
     },
     {
       "id": "e8e67842-64b7-4ecd-8a3c-b9de572953b6",
       "label": "COGNITIVE_RECEPTION_AND_KNOWING_8",
-      "definition_id": "DEF-Q14-FOREIGN-FORM-CHANGE-PROXY"
+      "definition_id": "DEF-Q14-FOREIGN-FORM-CHANGE-PROXY",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.Q14ReceptionFork.ForeignFormChange"
     },
     {
       "id": "33fd5a8f-a87e-4276-b0eb-c8a1c4c04b5b",
       "label": "COGNITIVE_RECEPTION_AND_KNOWING_9",
-      "definition_id": "DEF-Q14-RECEPTION-DEFINITION-MENU"
+      "definition_id": "DEF-Q14-RECEPTION-DEFINITION-MENU",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.Q14ReceptionFork.NamedMenu"
     }
   ]
 }

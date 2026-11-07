@@ -11,12 +11,14 @@
     {
       "id": "fb9729f7-e449-460b-9b48-303adce16f5d",
       "label": "CAN_FAIL_TO_BE_CAN_BE_1",
-      "definition_id": "DEF-CAN-FAIL-TO-BE"
+      "definition_id": "DEF-CAN-FAIL-TO-BE",
+      "lean_declaration": "TruthCore.Latin.Aquinas.InMetaphysicam.PotencyIsOfContradictionReading"
     },
     {
       "id": "cb483749-4f6d-4ec0-9ce9-f21b5ee65cc8",
       "label": "CAN_FAIL_TO_BE_CAN_BE_2",
-      "definition_id": "DEF-CAN-BE-OTHERWISE"
+      "definition_id": "DEF-CAN-BE-OTHERWISE",
+      "lean_declaration": "TruthCore.Latin.Aquinas.InMetaphysicam.SomeUnmovedMoverCannotBeOtherwiseReading"
     }
   ]
 }

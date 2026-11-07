@@ -12,17 +12,20 @@
     {
       "id": "9986df22-72b8-43a4-8305-0f77af9aaa78",
       "label": "AVERAGE_WELFARE_TOTAL_WELFARE_AND_MORALLY_1",
-      "definition_id": "DEF-FINITE-POPULATION-PROFILE"
+      "definition_id": "DEF-FINITE-POPULATION-PROFILE",
+      "lean_declaration": "TruthCore.Ethics.PopulationAggregation.Profile"
     },
     {
       "id": "78216428-d4a5-45ef-9048-64c2994a2037",
       "label": "AVERAGE_WELFARE_TOTAL_WELFARE_AND_MORALLY_2",
-      "definition_id": "DEF-POPULATION-TOTAL-RANKING"
+      "definition_id": "DEF-POPULATION-TOTAL-RANKING",
+      "lean_declaration": "TruthCore.Ethics.PopulationAggregation.TotalRanking"
     },
     {
       "id": "b2551c60-f07e-4938-a928-0d26ba5e371a",
       "label": "AVERAGE_WELFARE_TOTAL_WELFARE_AND_MORALLY_3",
-      "definition_id": "DEF-POPULATION-AVERAGE-RANKING"
+      "definition_id": "DEF-POPULATION-AVERAGE-RANKING",
+      "lean_declaration": "TruthCore.Ethics.PopulationAggregation.AverageRanking"
     }
   ]
 }

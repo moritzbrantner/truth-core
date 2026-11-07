@@ -11,12 +11,14 @@
     {
       "id": "2f42c0e7-46ae-4e2b-9ac4-95dcb865da61",
       "label": "WELL_FOUNDEDNESS_OF_THE_SELECTED_RELATION_1",
-      "definition_id": "DEF-ACTUAL-GROUNDING-WF"
+      "definition_id": "DEF-ACTUAL-GROUNDING-WF",
+      "lean_declaration": "TruthCore.Causality.NecessaryRootFork.ActualGroundingWF"
     },
     {
       "id": "f4609d52-a878-4d09-9af3-083b1945770c",
       "label": "WELL_FOUNDEDNESS_OF_THE_SELECTED_RELATION_2",
-      "definition_id": "DEF-BRUTE-ROOT-RELATIVE-GROUNDING"
+      "definition_id": "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+      "lean_declaration": "TruthCore.Causality.NecessaryRootFork.ActualRoot"
     }
   ]
 }

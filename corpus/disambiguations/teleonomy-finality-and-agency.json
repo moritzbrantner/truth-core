@@ -12,17 +12,20 @@
     {
       "id": "b9266283-cf2b-4631-9635-ad7407624781",
       "label": "END_DIRECTEDNESS_1",
-      "definition_id": "DEF-TELEONOMY-SELECTION-FILTER"
+      "definition_id": "DEF-TELEONOMY-SELECTION-FILTER",
+      "lean_declaration": "TruthCore.Teleonomy.retained"
     },
     {
       "id": "861bc8c4-d0fb-4684-828a-941b17ef9f10",
       "label": "END_DIRECTEDNESS_2",
-      "definition_id": "DEF-TELEONOMY-LOCAL-COUPLING"
+      "definition_id": "DEF-TELEONOMY-LOCAL-COUPLING",
+      "lean_declaration": "TruthCore.Teleonomy.couple"
     },
     {
       "id": "f67d7e69-7abc-4c07-8dc0-17883588da92",
       "label": "END_DIRECTEDNESS_3",
-      "definition_id": "DEF-INTENTIO-AS-TENDING"
+      "definition_id": "DEF-INTENTIO-AS-TENDING",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.RegularBestByChanceOrByIntentionReading"
     }
   ]
 }

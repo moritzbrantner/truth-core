@@ -11,12 +11,14 @@
     {
       "id": "88cb7648-ef29-45a9-a6ca-846bc82b7f70",
       "label": "ACTUAL_COVER_NONPARTHOOD_VERSUS_EXACT_FUSION_1",
-      "definition_id": "DEF-ACTUAL-NO-NECESSARY-PARTS-COVER"
+      "definition_id": "DEF-ACTUAL-NO-NECESSARY-PARTS-COVER",
+      "lean_declaration": "TruthCore.Causality.ActualCoverNecessaryBeing.ActualCoverAt"
     },
     {
       "id": "7e1e9395-a4dc-4383-b112-27e4e482b663",
       "label": "ACTUAL_COVER_NONPARTHOOD_VERSUS_EXACT_FUSION_2",
-      "definition_id": "DEF-CAUSE-NOT-PART-OF-EFFECT"
+      "definition_id": "DEF-CAUSE-NOT-PART-OF-EFFECT",
+      "lean_declaration": "TruthCore.Causality.ActualCoverNecessaryBeing.CauseNotPartOfEffectAt"
     }
   ]
 }

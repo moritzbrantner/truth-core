@@ -28,7 +28,8 @@
     {
       "id": "2544cd5a-86f2-4b40-ad42-85c514047ab6",
       "label": "DEMONSTRATION_IMMEDIATE_KNOWLEDGE_INFERENTIAL_WARRANT_4",
-      "definition_id": "DEF-ALL-PREMISE-GENERATED-WARRANT"
+      "definition_id": "DEF-ALL-PREMISE-GENERATED-WARRANT",
+      "lean_declaration": "TruthCore.Logic.RegressDomains.GeneratedWarrant"
     }
   ]
 }

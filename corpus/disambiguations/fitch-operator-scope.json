@@ -12,12 +12,14 @@
     {
       "id": "1fa6b11a-f8f9-4cdd-875c-547104444c07",
       "label": "FIXED_AGENT_WORLD_INDEXED_K_1",
-      "definition_id": "DEF-FITCH-WORLD-INDEXED-KNOWLEDGE"
+      "definition_id": "DEF-FITCH-WORLD-INDEXED-KNOWLEDGE",
+      "lean_declaration": "TruthCore.Logic.FitchKnowability.Context"
     },
     {
       "id": "aa38a847-0254-4eca-bc67-be2bd8808dd1",
       "label": "FIXED_AGENT_WORLD_INDEXED_K_2",
-      "definition_id": "DEF-EPISTEMIC-ALTERNATIVES-KNOWLEDGE"
+      "definition_id": "DEF-EPISTEMIC-ALTERNATIVES-KNOWLEDGE",
+      "lean_declaration": "TruthCore.Logic.JustificationIntrospection.Knows"
     },
     {
       "id": "d186f0ff-352e-4a43-b651-dc49f097469d",

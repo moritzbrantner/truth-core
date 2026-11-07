@@ -12,17 +12,20 @@
     {
       "id": "fc4b10ed-0ae5-4f4c-b681-e2dec7ca4ed2",
       "label": "CONSTITUTIVE_AGREEMENT_NATURE_IDENTITY_AND_FIRST_1",
-      "definition_id": "DEF-CONSTITUTIVE-CONTENT-COMPLETENESS"
+      "definition_id": "DEF-CONSTITUTIVE-CONTENT-COMPLETENESS",
+      "lean_declaration": "TruthCore.Causality.ConstitutiveNatureUniqueness.ConstitutiveContentComplete"
     },
     {
       "id": "f8cda9f4-9b53-42f9-8e80-9bb45f5aff39",
       "label": "CONSTITUTIVE_AGREEMENT_NATURE_IDENTITY_AND_FIRST_2",
-      "definition_id": "DEF-FIRST-MOVER-CONTENT-ACT-ALIGNMENT"
+      "definition_id": "DEF-FIRST-MOVER-CONTENT-ACT-ALIGNMENT",
+      "lean_declaration": "TruthCore.Causality.ConstitutiveNatureUniqueness.FirstMoverContentAgreesWithAct"
     },
     {
       "id": "3b4d9b34-a6e8-4135-8353-e654cd426745",
       "label": "CONSTITUTIVE_AGREEMENT_NATURE_IDENTITY_AND_FIRST_3",
-      "definition_id": "DEF-FIRST-MOVER-SUPPOSITUM-NATURE-ADAPTER"
+      "definition_id": "DEF-FIRST-MOVER-SUPPOSITUM-NATURE-ADAPTER",
+      "lean_declaration": "TruthCore.Causality.ConstitutiveNatureUniqueness.FirstMoverSuppositumIsNature"
     }
   ]
 }

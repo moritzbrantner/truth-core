@@ -11,12 +11,14 @@
     {
       "id": "02d04f69-9a09-4f40-b982-23e798e8791c",
       "label": "I_AM_SPEECH_FORM_CONTEXTUAL_INTERPRETATION_1",
-      "definition_id": "DEF-JOHN-ABRAHAM-SPEECH-REPORT"
+      "definition_id": "DEF-JOHN-ABRAHAM-SPEECH-REPORT",
+      "lean_declaration": "TruthCore.Greek.NewTestament.John.AbrahamSaying.Narrative"
     },
     {
       "id": "a89f3a63-4f36-48d0-a111-7ac231b985f5",
       "label": "I_AM_SPEECH_FORM_CONTEXTUAL_INTERPRETATION_2",
-      "definition_id": "DEF-SKELETON-OPEN-PREDICATES"
+      "definition_id": "DEF-SKELETON-OPEN-PREDICATES",
+      "lean_declaration": "TruthCore.Case.Catholicism.Signature"
     }
   ]
 }

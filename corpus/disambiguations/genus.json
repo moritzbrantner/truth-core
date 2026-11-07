@@ -12,17 +12,20 @@
     {
       "id": "55dfd470-9791-4a8a-810e-e24333a6f719",
       "label": "GENUS_1",
-      "definition_id": "DEF-GENUS-STRICT"
+      "definition_id": "DEF-GENUS-STRICT",
+      "lean_declaration": "TruthCore.Greek.Aristotle.Metaphysics.BeingIsNotAGenusReading"
     },
     {
       "id": "fe68a21f-b444-4e79-aa4d-0bdd6dae1da5",
       "label": "GENUS_2",
-      "definition_id": "DEF-GENUS-BROAD"
+      "definition_id": "DEF-GENUS-BROAD",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MaximumInGenusCausesAllInGenusReading"
     },
     {
       "id": "6854684f-23ef-4267-a51d-b22f57c49ebd",
       "label": "GENUS_3",
-      "definition_id": "DEF-GREATEST-DEGREE-IN-A-PERFECTION"
+      "definition_id": "DEF-GREATEST-DEGREE-IN-A-PERFECTION",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GreatestDegreeBearer"
     }
   ]
 }

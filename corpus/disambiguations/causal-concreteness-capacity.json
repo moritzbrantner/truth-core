@@ -12,17 +12,20 @@
     {
       "id": "434e5d67-183d-47cd-9b4e-16e5245b0951",
       "label": "CAUSAL_POWER_AND_CONCRETENESS_1",
-      "definition_id": "DEF-INTERVENTION-RESPONSE-CAPACITY"
+      "definition_id": "DEF-INTERVENTION-RESPONSE-CAPACITY",
+      "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.CausalPowers.Capacity"
     },
     {
       "id": "62e5c1a8-e14b-4c2d-bf9a-ae255ec0eb2c",
       "label": "CAUSAL_POWER_AND_CONCRETENESS_2",
-      "definition_id": "DEF-CAUSAL-CAPACITY-CONCRETE"
+      "definition_id": "DEF-CAUSAL-CAPACITY-CONCRETE",
+      "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.ConcreteAt"
     },
     {
       "id": "0b3b0f28-dd89-4775-a309-dfa47375308e",
       "label": "CAUSAL_POWER_AND_CONCRETENESS_3",
-      "definition_id": "DEF-NECESSARY-INDIVIDUAL-CONCRETE"
+      "definition_id": "DEF-NECESSARY-INDIVIDUAL-CONCRETE",
+      "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.ConcreteAt"
     }
   ]
 }

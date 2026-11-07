@@ -12,17 +12,20 @@
     {
       "id": "8ea914b9-567f-4714-802f-f3ad639b890f",
       "label": "ATEMPORAL_CAUSE_IN_ESSE_1",
-      "definition_id": "DEF-CAUSE-OF-PERFECTION"
+      "definition_id": "DEF-CAUSE-OF-PERFECTION",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.CausesAllInGenus"
     },
     {
       "id": "00e564e2-7170-44b7-a88d-076378ad675b",
       "label": "ATEMPORAL_CAUSE_IN_ESSE_2",
-      "definition_id": "DEF-WORLD-ACTUAL-CAUSAL-GRAPH"
+      "definition_id": "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
+      "lean_declaration": "TruthCore.Causality.WorldSourceRegress.actualGraph"
     },
     {
       "id": "02217238-2075-4f8f-bff9-eaf03d2ec2eb",
       "label": "ATEMPORAL_CAUSE_IN_ESSE_3",
-      "definition_id": "DEF-UNITING-CAUSE-ACTUALITY-INTERFACES"
+      "definition_id": "DEF-UNITING-CAUSE-ACTUALITY-INTERFACES",
+      "lean_declaration": "TruthCore.Causality.UnderivedNonComposite.UnitingCausesPresent"
     }
   ]
 }

@@ -11,7 +11,8 @@
     {
       "id": "1870ca99-32a7-459f-b6b8-9360179ef711",
       "label": "IMMUTABLE_UNCHANGING_1",
-      "definition_id": "DEF-IMMUTABLE"
+      "definition_id": "DEF-IMMUTABLE",
+      "lean_declaration": "TruthCore.Case.Catholicism.IsImmutable"
     },
     {
       "id": "4570aa0a-5285-4dcb-8af4-c971f75ba6e0",

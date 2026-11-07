@@ -16,7 +16,8 @@
     {
       "id": "9e3d8f48-29e8-44f9-940c-f0d832d15065",
       "label": "HISTORICAL_RAPE_AND_STIPULATED_NONCONSENSUAL_ACT_2",
-      "definition_id": "DEF-HARD-CASE-NONCONSENT"
+      "definition_id": "DEF-HARD-CASE-NONCONSENT",
+      "lean_declaration": "TruthCore.Ethics.HardCaseTyped.Facts.nonconsensual"
     }
   ]
 }

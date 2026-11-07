@@ -12,17 +12,20 @@
     {
       "id": "4ee6f7e6-5a75-47a4-8453-493a0f7497ce",
       "label": "LOVE_ACCESS_1",
-      "definition_id": "DEF-HIDDENNESS-PERFECT-LOVE"
+      "definition_id": "DEF-HIDDENNESS-PERFECT-LOVE",
+      "lean_declaration": "TruthCore.Hiddenness.Sig.PerfectLove"
     },
     {
       "id": "d95b695e-f02f-4234-977a-1755a8f4a4e3",
       "label": "LOVE_ACCESS_2",
-      "definition_id": "DEF-HIDDENNESS-CONSCIOUS-ACCESS"
+      "definition_id": "DEF-HIDDENNESS-CONSCIOUS-ACCESS",
+      "lean_declaration": "TruthCore.Hiddenness.Sig.Available"
     },
     {
       "id": "16fa5f8f-65b2-4541-a96f-02a612930def",
       "label": "LOVE_ACCESS_3",
-      "definition_id": "DEF-HIDDENNESS-SUFFICIENT-REASON"
+      "definition_id": "DEF-HIDDENNESS-SUFFICIENT-REASON",
+      "lean_declaration": "TruthCore.Hiddenness.Sig.GoodReason"
     }
   ]
 }

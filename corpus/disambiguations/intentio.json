@@ -11,7 +11,8 @@
     {
       "id": "ac498a13-cf02-4891-b3aa-140b3a8aff59",
       "label": "INTENTION_1",
-      "definition_id": "DEF-INTENTIO-AS-TENDING"
+      "definition_id": "DEF-INTENTIO-AS-TENDING",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.RegularBestByChanceOrByIntentionReading"
     },
     {
       "id": "5f313ab5-6bcb-4b3b-b41d-345da24b1beb",

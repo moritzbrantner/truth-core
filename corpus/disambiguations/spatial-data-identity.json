@@ -12,7 +12,8 @@
     {
       "id": "906690bd-736d-4cf3-bb0f-3d0c3ed138f2",
       "label": "SAME_RELATIVE_ORDER_SAME_COORDINATE_CONFIGURATION_1",
-      "definition_id": "DEF-SPATIAL-TRANSLATION-PROFILE"
+      "definition_id": "DEF-SPATIAL-TRANSLATION-PROFILE",
+      "lean_declaration": "TruthCore.Space.TranslationBoundary.Certificate"
     },
     {
       "id": "ae73c5a2-458b-416c-ae16-716ea0fd75e7",

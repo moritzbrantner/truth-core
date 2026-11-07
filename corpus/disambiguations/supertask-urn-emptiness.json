@@ -8,12 +8,14 @@
     {
       "id": "af51f697-a13b-4feb-ae9c-3ba31f5c65f3",
       "label": "EMPTY_URN_AT_AN_INFINITE_LIMIT_1",
-      "definition_id": "DEF-SUPERTASK-URN-POINTWISE-ABSENCE"
+      "definition_id": "DEF-SUPERTASK-URN-POINTWISE-ABSENCE",
+      "lean_declaration": "TruthCore.Causality.UrnResident"
     },
     {
       "id": "e9ab3ac4-1da8-4a4b-92f4-0500ce5d41df",
       "label": "EMPTY_URN_AT_AN_INFINITE_LIMIT_2",
-      "definition_id": "DEF-SUPERTASK-URN-UNIFORM-EMPTINESS"
+      "definition_id": "DEF-SUPERTASK-URN-UNIFORM-EMPTINESS",
+      "lean_declaration": "TruthCore.Causality.UrnPointwiseAbsenceNotUniformEmptiness"
     }
   ]
 }

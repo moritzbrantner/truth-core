@@ -16,22 +16,26 @@
     {
       "id": "d288a353-f728-422f-bace-c46ff279b6ff",
       "label": "ONTIC_GROUNDING_LOCAL_LAW_SATISFACTION_PREDICTIVE_1",
-      "definition_id": "DEF-REGULARITY-GROUND"
+      "definition_id": "DEF-REGULARITY-GROUND",
+      "lean_declaration": "TruthCore.Modern.Hume.Regularity.GroundedTotality"
     },
     {
       "id": "ab06c7cc-eb4a-4fb3-ac8c-41ea0a03d21a",
       "label": "ONTIC_GROUNDING_LOCAL_LAW_SATISFACTION_PREDICTIVE_2",
-      "definition_id": "DEF-ULTIMATE-EXPLANATION-PROFILE"
+      "definition_id": "DEF-ULTIMATE-EXPLANATION-PROFILE",
+      "lean_declaration": "TruthCore.Epistemology.UltimateExplanation.Profile"
     },
     {
       "id": "9ed19a52-a92a-47f0-be23-81346c1c1952",
       "label": "ONTIC_GROUNDING_LOCAL_LAW_SATISFACTION_PREDICTIVE_3",
-      "definition_id": "DEF-ULTIMATE-EXPLANATION-EVIDENCE"
+      "definition_id": "DEF-ULTIMATE-EXPLANATION-EVIDENCE",
+      "lean_declaration": "TruthCore.Epistemology.UltimateExplanation.Cell"
     },
     {
       "id": "2f0b1aa0-43b0-4288-aafd-60d118eb0494",
       "label": "ONTIC_GROUNDING_LOCAL_LAW_SATISFACTION_PREDICTIVE_4",
-      "definition_id": "DEF-ULTIMATE-EXPLANATION-DECISION"
+      "definition_id": "DEF-ULTIMATE-EXPLANATION-DECISION",
+      "lean_declaration": "TruthCore.Epistemology.UltimateExplanation.Optimal"
     },
     {
       "id": "b5384019-09d6-4545-acda-3109f785f95e",
@@ -41,12 +45,14 @@
     {
       "id": "9369a581-2103-43dd-be77-c08ecf6c0347",
       "label": "ONTIC_GROUNDING_LOCAL_LAW_SATISFACTION_PREDICTIVE_6",
-      "definition_id": "DEF-HUME-INDUCTION-PRACTICE"
+      "definition_id": "DEF-HUME-INDUCTION-PRACTICE",
+      "lean_declaration": "TruthCore.Modern.Hume.Induction.Assessment"
     },
     {
       "id": "d86b9f98-d6a3-4f56-926a-855b2fe3dec9",
       "label": "ONTIC_GROUNDING_LOCAL_LAW_SATISFACTION_PREDICTIVE_7",
-      "definition_id": "DEF-HISTORY-SELECTION-INFORMATION"
+      "definition_id": "DEF-HISTORY-SELECTION-INFORMATION",
+      "lean_declaration": "TruthCore.Explanation.HistorySelection.Determines"
     }
   ]
 }

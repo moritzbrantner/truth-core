@@ -22,7 +22,8 @@
     {
       "id": "8f7e8abb-8e84-43de-a5d9-87503e6f635e",
       "label": "PASSIVE_SOUL_APPETITE_VERSUS_DIVINE_WILLING_3",
-      "definition_id": "DEF-HAS-WILL"
+      "definition_id": "DEF-HAS-WILL",
+      "lean_declaration": "TruthCore.Case.Catholicism.GodHasWill"
     }
   ]
 }

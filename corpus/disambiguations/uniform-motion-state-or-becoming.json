@@ -11,12 +11,14 @@
     {
       "id": "7757d53a-1556-4521-824c-9bc654da18a8",
       "label": "UNIFORM_MOTION_STATE_OR_BECOMING_1",
-      "definition_id": "DEF-UNIFORM-MOTION-AS-BECOMING"
+      "definition_id": "DEF-UNIFORM-MOTION-AS-BECOMING",
+      "lean_declaration": "TruthCore.Alternatives.Inertia.UniformPerseveranceIsBeingMovedReading"
     },
     {
       "id": "f62f682a-604c-43f5-92ad-4c84af5c70b8",
       "label": "UNIFORM_MOTION_STATE_OR_BECOMING_2",
-      "definition_id": "DEF-UNIFORM-MOTION-AS-STATE"
+      "definition_id": "DEF-UNIFORM-MOTION-AS-STATE",
+      "lean_declaration": "TruthCore.Alternatives.Inertia.UniformPerseveranceIsNotBeingMovedReading"
     }
   ]
 }

@@ -11,12 +11,14 @@
     {
       "id": "5e937f08-16b4-42f5-948c-7d3fc96c781b",
       "label": "LOGICAL_NEUTRALITY_VERSUS_PHYSICAL_BASIS_1",
-      "definition_id": "DEF-SCIENCE-INDUCTION-SELECTION"
+      "definition_id": "DEF-SCIENCE-INDUCTION-SELECTION",
+      "lean_declaration": "TruthCore.Science.InductionSelection.Neutral"
     },
     {
       "id": "49a4338a-da5a-4571-a2dd-af3cc14f525d",
       "label": "LOGICAL_NEUTRALITY_VERSUS_PHYSICAL_BASIS_2",
-      "definition_id": "DEF-SCIENCE-INDUCTION-OUTCOME-BASIS"
+      "definition_id": "DEF-SCIENCE-INDUCTION-OUTCOME-BASIS",
+      "lean_declaration": "TruthCore.Science.InductionSelection.Uniform"
     }
   ]
 }

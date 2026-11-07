@@ -11,12 +11,14 @@
     {
       "id": "c64e8ed0-f532-425f-b7f7-12c61121108b",
       "label": "ONE_1",
-      "definition_id": "DEF-PROCLUS-ONE-ITSELF"
+      "definition_id": "DEF-PROCLUS-ONE-ITSELF",
+      "lean_declaration": "TruthCore.Greek.Proclus.ElementsTheology.ParticipantUnityContrast"
     },
     {
       "id": "be4c35db-3501-4f70-a4d2-7742bf89682b",
       "label": "ONE_2",
-      "definition_id": "DEF-PROCLUS-RECEIVED-UNITY"
+      "definition_id": "DEF-PROCLUS-RECEIVED-UNITY",
+      "lean_declaration": "TruthCore.Greek.Proclus.ElementsTheology.ParticipantUnityContrast"
     }
   ]
 }

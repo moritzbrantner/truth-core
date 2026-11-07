@@ -11,7 +11,8 @@
     {
       "id": "dd54c7f7-b6eb-43bf-9f9f-fec4190ddcaf",
       "label": "REFERENCE_IDENTITY_1",
-      "definition_id": "DEF-LITERAL-REFERENCE-ON-FIXED-CARRIER"
+      "definition_id": "DEF-LITERAL-REFERENCE-ON-FIXED-CARRIER",
+      "lean_declaration": "TruthCore.Logic.ReferenceAnchor.referent"
     },
     {
       "id": "e36d657d-6df4-4f90-9f2a-86c9ecf1f44c",

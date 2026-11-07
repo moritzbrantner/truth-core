@@ -26,6 +26,17 @@ item. For the result type, a theory definition is unfolded one step, leading
 `∃` binders are opened, the body is split on `∧`, and each conjunct that is a
 theory definition is unfolded one step and split again: this lists the
 commitments of a consistency claim such as `∃ s, Background s ∧ Catholic s`.
+
+Sense constants (owner direction 2026-11-07, docs/corpus-model.md "Sense-indexed
+terms"). The input may list `sense_constants`, the Lean declarations of every
+disambiguation sense, and `sense_theorems`. For each binder and the result of a
+listed theorem, `senses` names the sense constants the type reaches: constants
+occurring in the elaborated type, and in the values of project (`TruthCore.`)
+definitions it uses, unfolded transitively. A sense constant is reported and
+not unfolded further; library constants are boundaries. When `sense_constants`
+is given, one extra array element `{"sense_aliases": {name: canonical}}` maps
+each sense constant present in the environment to the constant it is an alias
+of (a definition whose eta-reduced value is a bare constant, followed through).
 -/
 import Lean
 
@@ -187,7 +198,42 @@ def resultBundle (prefixes : Array String) (ty : Expr) : MetaM (Option Json) := 
     describeConjuncts out
   return some items
 
-def describeTheorem (prefixes : Array String) (contracts : Array String) (thm : Name) : MetaM Json := do
+/-- Sense constants reached from `e` (see the module docstring). -/
+def senseConstants (senses : NameSet) (e : Expr) : MetaM (Array Name) := do
+  let env ← getEnv
+  let mut pending := e.getUsedConstants
+  let mut visited : NameSet := {}
+  let mut found : Array Name := #[]
+  while !pending.isEmpty do
+    let n := pending.back!
+    pending := pending.pop
+    if visited.contains n then continue
+    visited := visited.insert n
+    if senses.contains n then
+      found := found.push n
+      continue
+    if !("TruthCore.".isPrefixOf n.toString) then continue
+    if let some (.defnInfo d) := env.find? n then
+      pending := pending ++ d.value.getUsedConstants
+  return found.qsort (fun a b => a.toString < b.toString)
+
+def sensesJson (senses : NameSet) (e : Expr) : MetaM Json := do
+  return toJson ((← senseConstants senses e).map Name.toString)
+
+/-- The constant `n` is an alias of: a definition whose eta-reduced value is a
+bare constant is followed (at most `fuel` steps). -/
+def aliasOf (env : Environment) : Nat → Name → Name
+  | 0, n => n
+  | fuel + 1, n =>
+    match env.find? n with
+    | some (.defnInfo d) =>
+      match d.value.eta.consumeMData with
+      | .const m _ => aliasOf env fuel m
+      | _ => n
+    | _ => n
+
+def describeTheorem (prefixes : Array String) (contracts : Array String) (senses : NameSet)
+    (senseTheorems : Array String) (thm : Name) : MetaM Json := do
   let some info := (← getEnv).find? thm
     | return Json.mkObj [("theorem", Json.str thm.toString), ("error", Json.str "unknown constant")]
   forallTelescope info.type fun xs body => do
@@ -198,8 +244,12 @@ def describeTheorem (prefixes : Array String) (contracts : Array String) (thm : 
       if ← isProp decl.type then
         if let some b ← hypothesisBundle prefixes decl.type then
           d := d.mergeObj (Json.mkObj [("bundle", b)])
+      if senseTheorems.contains thm.toString then
+        d := d.mergeObj (Json.mkObj [("senses", ← sensesJson senses decl.type)])
       binders := binders.push (d.mergeObj (Json.mkObj [("name", Json.str decl.userName.eraseMacroScopes.toString)]))
     let mut result ← describeType body
+    if senseTheorems.contains thm.toString then
+      result := result.mergeObj (Json.mkObj [("senses", ← sensesJson senses body)])
     if let some b ← resultBundle prefixes body then
       result := result.mergeObj (Json.mkObj [("bundle", b)])
     let mut out := Json.mkObj [
@@ -219,12 +269,21 @@ unsafe def main (args : List String) : IO UInt32 := do
   let theorems ← IO.ofExcept (input.getObjValAs? (Array String) "theorems")
   let prefixes := (input.getObjValAs? (Array String) "bundle_prefixes").toOption.getD #[]
   let contracts := (input.getObjValAs? (Array String) "contract_theorems").toOption.getD #[]
+  let senseNames := ((input.getObjValAs? (Array String) "sense_constants").toOption.getD #[]).map String.toName
+  let senseTheorems := (input.getObjValAs? (Array String) "sense_theorems").toOption.getD #[]
+  let senses : NameSet := senseNames.foldl (fun s n => s.insert n) {}
   initSearchPath (← findSysroot)
   enableInitializersExecution
   let env ← importModules (modules.map fun m => { module := m.toName }) {}
     (trustLevel := 1024) (loadExts := true)
   let ctx : Core.Context := { fileName := "<bind-types>", fileMap := default, maxHeartbeats := 0 }
   let state : Core.State := { env }
-  let (out, _) ← (MetaM.run' (theorems.mapM fun t => describeTheorem prefixes contracts t.toName)).toIO ctx state
+  let (out, _) ← (MetaM.run' (theorems.mapM fun t =>
+    describeTheorem prefixes contracts senses senseTheorems t.toName)).toIO ctx state
+  let mut out := out
+  if !senseNames.isEmpty then
+    let aliases := senseNames.toList.filterMap fun n =>
+      if env.contains n then some (n.toString, Json.str (aliasOf env 32 n).toString) else none
+    out := out.push (Json.mkObj [("sense_aliases", Json.mkObj aliases)])
   IO.println (Json.arr out).compress
   return 0

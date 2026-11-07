@@ -19,12 +19,14 @@
     {
       "id": "f3e9675f-34d1-4b3e-a000-da6120fc1e24",
       "label": "FIRST_PRINCIPLE_ENTITLEMENT_AND_PRESUPPOSITION_2",
-      "definition_id": "DEF-PRESUPPOSITION-LINK"
+      "definition_id": "DEF-PRESUPPOSITION-LINK",
+      "lean_declaration": "TruthCore.Alternatives.Retorsion.PresuppositionLink"
     },
     {
       "id": "b0c4b26f-0cf8-41dc-b19b-ec95916c210e",
       "label": "FIRST_PRINCIPLE_ENTITLEMENT_AND_PRESUPPOSITION_3",
-      "definition_id": "DEF-SELF-APPLICATION-NORM"
+      "definition_id": "DEF-SELF-APPLICATION-NORM",
+      "lean_declaration": "TruthCore.Logic.SelfApplication.Norm.Holds"
     },
     {
       "id": "1ec83131-0eca-4896-9a47-e6906fc006d8",

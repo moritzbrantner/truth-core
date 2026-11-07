@@ -28,7 +28,8 @@
     {
       "id": "77ca43e4-77cb-4f50-b541-5edb8123e760",
       "label": "AVAILABLE_REASONS_ENHANCED_JUSTIFICATION_GENERATED_WARRANT_4",
-      "definition_id": "DEF-ALL-PREMISE-GENERATED-WARRANT"
+      "definition_id": "DEF-ALL-PREMISE-GENERATED-WARRANT",
+      "lean_declaration": "TruthCore.Logic.RegressDomains.GeneratedWarrant"
     }
   ]
 }

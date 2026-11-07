@@ -12,17 +12,20 @@
     {
       "id": "ad2744a5-d917-4007-9276-c9651cca17f3",
       "label": "CHANGE_1",
-      "definition_id": "DEF-A-SERIES-CHANGE"
+      "definition_id": "DEF-A-SERIES-CHANGE",
+      "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.NoASeriesChangeButAppearsReading"
     },
     {
       "id": "1579ad0f-dd12-4e9e-9899-66b9df93c128",
       "label": "CHANGE_2",
-      "definition_id": "DEF-CHANGE-GENERAL"
+      "definition_id": "DEF-CHANGE-GENERAL",
+      "lean_declaration": "TruthCore.Alternatives.McTaggart.AllChangeIsASeriesChangeReading"
     },
     {
       "id": "b4c531fe-429a-4302-9747-7c46ef7bcd26",
       "label": "CHANGE_3",
-      "definition_id": "DEF-MOTION-AS-REDUCTION"
+      "definition_id": "DEF-MOTION-AS-REDUCTION",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel.MovedIn"
     }
   ]
 }

@@ -12,17 +12,20 @@
     {
       "id": "1c99ce91-24fc-4896-b1cc-ec13e1797d40",
       "label": "A_THOUGHT_OCCURS_VERSUS_SOMETHING_CONCRETE_1",
-      "definition_id": "DEF-THOUGHT-OCCURRENCE"
+      "definition_id": "DEF-THOUGHT-OCCURRENCE",
+      "lean_declaration": "TruthCore.Logic.CogitoSubject.ThoughtOccurs"
     },
     {
       "id": "16318101-d4c4-4ea8-a28e-406fc06ca152",
       "label": "A_THOUGHT_OCCURS_VERSUS_SOMETHING_CONCRETE_2",
-      "definition_id": "DEF-INHABITED-CONCRETE-WORLD"
+      "definition_id": "DEF-INHABITED-CONCRETE-WORLD",
+      "lean_declaration": "TruthCore.Logic.CogitoConcrete.InhabitedConcreteAt"
     },
     {
       "id": "02584ae6-3fb7-497f-8d42-644e1b943fc0",
       "label": "A_THOUGHT_OCCURS_VERSUS_SOMETHING_CONCRETE_3",
-      "definition_id": "DEF-EVENT-ROUTE-EMBEDDING"
+      "definition_id": "DEF-EVENT-ROUTE-EMBEDDING",
+      "lean_declaration": "TruthCore.Logic.CogitoConcrete.OccurringEpisodeIsActualConcrete"
     }
   ]
 }

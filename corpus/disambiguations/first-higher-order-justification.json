@@ -12,17 +12,20 @@
     {
       "id": "b7d4d581-778a-4e10-8cef-1d38f69a657c",
       "label": "KNOWLEDGE_JUSTIFICATION_KNOWLEDGE_OF_JUSTIFICATION_1",
-      "definition_id": "DEF-EPISTEMIC-ALTERNATIVES-KNOWLEDGE"
+      "definition_id": "DEF-EPISTEMIC-ALTERNATIVES-KNOWLEDGE",
+      "lean_declaration": "TruthCore.Logic.JustificationIntrospection.Knows"
     },
     {
       "id": "c0b2b422-5083-4d9a-b8b5-d2ad7fe40fb2",
       "label": "KNOWLEDGE_JUSTIFICATION_KNOWLEDGE_OF_JUSTIFICATION_2",
-      "definition_id": "DEF-KNOWLEDGE-JUSTIFICATION-NORM"
+      "definition_id": "DEF-KNOWLEDGE-JUSTIFICATION-NORM",
+      "lean_declaration": "TruthCore.Logic.JustificationIntrospection.KnowledgeRequiresJustification"
     },
     {
       "id": "4def29f3-4c48-49ba-9b6f-e8d2fc236599",
       "label": "KNOWLEDGE_JUSTIFICATION_KNOWLEDGE_OF_JUSTIFICATION_3",
-      "definition_id": "DEF-FACTIVE-KNOWLEDGE"
+      "definition_id": "DEF-FACTIVE-KNOWLEDGE",
+      "lean_declaration": "TruthCore.Logic.KnowledgeRetorsion.FactiveKnowledge"
     }
   ]
 }

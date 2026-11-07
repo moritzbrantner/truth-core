@@ -16,7 +16,8 @@
     {
       "id": "7213e492-94fc-440d-97c6-335a3a644151",
       "label": "CAUSE_OF_A_MOTION_PRIOR_LAWFUL_2",
-      "definition_id": "DEF-MOTION-AS-REDUCTION"
+      "definition_id": "DEF-MOTION-AS-REDUCTION",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel.MovedIn"
     }
   ]
 }

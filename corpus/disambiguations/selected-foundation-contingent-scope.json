@@ -11,12 +11,14 @@
     {
       "id": "959c30ea-70e8-47ba-931b-2054a080ea7e",
       "label": "FULL_ANCESTRY_FOUNDATION_VERSUS_CONTINGENT_ONLY_1",
-      "definition_id": "DEF-SELECTED-CONE-WELL-FOUNDED"
+      "definition_id": "DEF-SELECTED-CONE-WELL-FOUNDED",
+      "lean_declaration": "TruthCore.Causality.SelectedAncestry.ConeWellFounded"
     },
     {
       "id": "4343c0d2-6b10-45ee-a6ac-f77d94540cdf",
       "label": "FULL_ANCESTRY_FOUNDATION_VERSUS_CONTINGENT_ONLY_2",
-      "definition_id": "DEF-CONTINGENT-CONE-FOUNDED"
+      "definition_id": "DEF-CONTINGENT-CONE-FOUNDED",
+      "lean_declaration": "TruthCore.Causality.ContingentAncestry.ContingentConeFounded"
     }
   ]
 }

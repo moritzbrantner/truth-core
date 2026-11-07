@@ -11,12 +11,14 @@
     {
       "id": "4b73f4ee-df28-44f4-8090-233dcddaa5d7",
       "label": "SIGNED_EXPECTATION_PRACTICAL_LOTTERY_BELIEF_1",
-      "definition_id": "DEF-INFINITE-WAGER-MIXTURE"
+      "definition_id": "DEF-INFINITE-WAGER-MIXTURE",
+      "lean_declaration": "TruthCore.Decision.InfiniteWager.value"
     },
     {
       "id": "bc5039ef-1281-444e-b52d-6e049bc135e0",
       "label": "SIGNED_EXPECTATION_PRACTICAL_LOTTERY_BELIEF_2",
-      "definition_id": "DEF-SIGNED-WAGER"
+      "definition_id": "DEF-SIGNED-WAGER",
+      "lean_declaration": "TruthCore.Decision.SignedWager.expectation"
     }
   ]
 }

@@ -11,12 +11,14 @@
     {
       "id": "3d73c85d-3146-4fa8-87cf-701d53510d52",
       "label": "COMMISSION_REPORTED_COMMISSION_VERSUS_JESUS_COMMISSIONING_1",
-      "definition_id": "DEF-COMMISSION-REPORT-POWERS"
+      "definition_id": "DEF-COMMISSION-REPORT-POWERS",
+      "lean_declaration": "TruthCore.Case.Catholicism.StageThree.Commissions.CommissionReport.powers"
     },
     {
       "id": "809d39ab-92f2-4c0c-8725-fe138c49eff8",
       "label": "COMMISSION_REPORTED_COMMISSION_VERSUS_JESUS_COMMISSIONING_2",
-      "definition_id": "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER"
+      "definition_id": "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
+      "lean_declaration": "TruthCore.Case.Catholicism.StageThree.Commissions.Power.Governing"
     }
   ]
 }

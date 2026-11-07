@@ -11,12 +11,14 @@
     {
       "id": "f5321de4-6205-47fd-853f-5bd229776be7",
       "label": "SEPARATION_4",
-      "definition_id": "DEF-PLATONIC-NONIDENTITY"
+      "definition_id": "DEF-PLATONIC-NONIDENTITY",
+      "lean_declaration": "TruthCore.Greek.Plato.Forms.Nonidentity"
     },
     {
       "id": "079c28e7-8577-47ba-8265-2c56763a6794",
       "label": "SEPARATION_5",
-      "definition_id": "DEF-THIRD-MAN-PARTICIPANT-NONIDENTITY"
+      "definition_id": "DEF-THIRD-MAN-PARTICIPANT-NONIDENTITY",
+      "lean_declaration": "TruthCore.Greek.Plato.ThirdMan.ParticipantNonidentity"
     }
   ]
 }

@@ -12,17 +12,20 @@
     {
       "id": "556efc2a-db75-4596-bea8-ff56a13e20a7",
       "label": "TERMINAL_CLUSTER_FULL_COLLAPSE_AND_LANGUAGE_1",
-      "definition_id": "DEF-MODAL-S4-CLUSTER"
+      "definition_id": "DEF-MODAL-S4-CLUSTER",
+      "lean_declaration": "TruthCore.Modal.S4Research.SameCluster"
     },
     {
       "id": "07bf86c6-92ee-401f-82b9-3b4df412f2ef",
       "label": "TERMINAL_CLUSTER_FULL_COLLAPSE_AND_LANGUAGE_2",
-      "definition_id": "DEF-MODAL-S4-LANGUAGE"
+      "definition_id": "DEF-MODAL-S4-LANGUAGE",
+      "lean_declaration": "TruthCore.Modal.S4Research.language"
     },
     {
       "id": "97f82498-4f90-4bd5-8361-7316601ede00",
       "label": "TERMINAL_CLUSTER_FULL_COLLAPSE_AND_LANGUAGE_3",
-      "definition_id": "DEF-MODAL-S4-POCKETS"
+      "definition_id": "DEF-MODAL-S4-POCKETS",
+      "lean_declaration": "TruthCore.Modal.S4Research.pockets"
     }
   ]
 }

@@ -11,7 +11,8 @@
     {
       "id": "818690bc-94b8-476b-a10c-10df5b3647bc",
       "label": "COGNITION_INTELLECT_1",
-      "definition_id": "DEF-HAS-INTELLECT"
+      "definition_id": "DEF-HAS-INTELLECT",
+      "lean_declaration": "TruthCore.Case.Catholicism.GodHasIntellect"
     },
     {
       "id": "5b0a205b-1608-44d1-b184-58fa5d881f2a",

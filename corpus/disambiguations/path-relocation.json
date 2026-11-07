@@ -13,22 +13,26 @@
     {
       "id": "cda4e197-53b9-4fb8-9bc9-37f715f7cafe",
       "label": "TRANSITION_PATH_LAW_AND_DATE_1",
-      "definition_id": "DEF-PATH-RELOCATION-PROFILE"
+      "definition_id": "DEF-PATH-RELOCATION-PROFILE",
+      "lean_declaration": "TruthCore.Explanation.PathRelocation.pathHistory"
     },
     {
       "id": "6d748088-922f-4912-a910-62587b579d40",
       "label": "TRANSITION_PATH_LAW_AND_DATE_2",
-      "definition_id": "DEF-PATH-RELOCATION-LAW"
+      "definition_id": "DEF-PATH-RELOCATION-LAW",
+      "lean_declaration": "TruthCore.Explanation.PathRelocation.Follows"
     },
     {
       "id": "a2a6ad71-e26a-4d9c-abbe-be3d03cf6598",
       "label": "TRANSITION_PATH_LAW_AND_DATE_3",
-      "definition_id": "DEF-PATH-RELOCATION-DATING"
+      "definition_id": "DEF-PATH-RELOCATION-DATING",
+      "lean_declaration": "TruthCore.Explanation.PathRelocation.SameUpToDating"
     },
     {
       "id": "2caeecfb-b242-4dea-8e9f-5af21db3fd2e",
       "label": "TRANSITION_PATH_LAW_AND_DATE_4",
-      "definition_id": "DEF-HISTORY-SELECTION-INFORMATION"
+      "definition_id": "DEF-HISTORY-SELECTION-INFORMATION",
+      "lean_declaration": "TruthCore.Explanation.HistorySelection.Determines"
     }
   ]
 }

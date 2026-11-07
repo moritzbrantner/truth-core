@@ -11,12 +11,14 @@
     {
       "id": "10a18663-b109-4aa0-958d-079d40ba17b5",
       "label": "KNOWLEDGE_1",
-      "definition_id": "DEF-PARM-KNOWLEDGE"
+      "definition_id": "DEF-PARM-KNOWLEDGE",
+      "lean_declaration": "TruthCore.Greek.Plato.Parmenides.ParticipationChallenges.Cognition"
     },
     {
       "id": "31bd6096-dc36-4528-b7d2-48ec8fff53ed",
       "label": "KNOWLEDGE_2",
-      "definition_id": "DEF-PARM-DIRECT-COGNITION"
+      "definition_id": "DEF-PARM-DIRECT-COGNITION",
+      "lean_declaration": "TruthCore.Greek.Plato.Parmenides.ParticipationChallenges.Cognition"
     }
   ]
 }

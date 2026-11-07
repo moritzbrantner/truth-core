@@ -11,12 +11,14 @@
     {
       "id": "cbbac0e8-36c9-41a2-8367-e94080d28d68",
       "label": "INTRINSIC_PRODUCTIVE_CONTRIBUTION_VERSUS_SOURCE_BACKED_1",
-      "definition_id": "DEF-DERIVATIVE-JOINT-SUPPLY"
+      "definition_id": "DEF-DERIVATIVE-JOINT-SUPPLY",
+      "lean_declaration": "TruthCore.Causality.DerivativeJointPower.Supply"
     },
     {
       "id": "449eb783-1b3c-4f82-b11f-1c8114a005b9",
       "label": "INTRINSIC_PRODUCTIVE_CONTRIBUTION_VERSUS_SOURCE_BACKED_2",
-      "definition_id": "DEF-ACTUAL-CONCRETE-EXISTENTIAL-SUPPLY"
+      "definition_id": "DEF-ACTUAL-CONCRETE-EXISTENTIAL-SUPPLY",
+      "lean_declaration": "TruthCore.Causality.ConcreteExistentialSupply.ActualConcreteSupply"
     }
   ]
 }

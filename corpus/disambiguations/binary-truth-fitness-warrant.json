@@ -11,12 +11,14 @@
     {
       "id": "b6f0bb02-14e0-4874-a019-04960e386493",
       "label": "TRUTH_SUCCESSFUL_RESPONSE_FITNESS_RELIABILITY_1",
-      "definition_id": "DEF-BINARY-BELIEF-POLARITY-RESPONSE"
+      "definition_id": "DEF-BINARY-BELIEF-POLARITY-RESPONSE",
+      "lean_declaration": "TruthCore.Epistemology.FitnessTruthBoundary.act"
     },
     {
       "id": "8be8326e-20e7-4881-b5ce-a156282a5c12",
       "label": "TRUTH_SUCCESSFUL_RESPONSE_FITNESS_RELIABILITY_2",
-      "definition_id": "DEF-BINARY-TRUTH-BEHAVIOR-BOUNDARY"
+      "definition_id": "DEF-BINARY-TRUTH-BEHAVIOR-BOUNDARY",
+      "lean_declaration": "TruthCore.Epistemology.FitnessTruthBoundary.Truthful"
     }
   ]
 }

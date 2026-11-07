@@ -11,7 +11,8 @@
     {
       "id": "25006a4a-4d3b-44b4-b937-7b86b5d3dc69",
       "label": "ETERNAL_1",
-      "definition_id": "DEF-ETERNAL"
+      "definition_id": "DEF-ETERNAL",
+      "lean_declaration": "TruthCore.Case.Catholicism.GodIsEternal"
     },
     {
       "id": "acd3635a-c1e1-4aa8-b639-652ba03d9e6b",

@@ -15,7 +15,8 @@
     {
       "id": "fbdb3a8d-2c5a-468c-bc08-f190815d3ae9",
       "label": "CONCEIVABILITY_POSSIBILITY_DEMONSTRABILITY_1",
-      "definition_id": "DEF-HUME-TEST-CONCEPTION"
+      "definition_id": "DEF-HUME-TEST-CONCEPTION",
+      "lean_declaration": "TruthCore.Modern.Hume.Conceivability.Conception"
     },
     {
       "id": "cb47b533-9667-4126-af5b-f29d35461c8e",
@@ -25,12 +26,14 @@
     {
       "id": "df1fa28f-5458-42e2-9fd8-c46cde3c0b55",
       "label": "CONCEIVABILITY_POSSIBILITY_DEMONSTRABILITY_3",
-      "definition_id": "DEF-HUME-TEST-LOGICAL-CONSISTENCY"
+      "definition_id": "DEF-HUME-TEST-LOGICAL-CONSISTENCY",
+      "lean_declaration": "TruthCore.Modern.Hume.Conceivability.NarrowWithholding"
     },
     {
       "id": "84d66a6b-ae07-43e2-a72f-fbbbd00da68c",
       "label": "CONCEIVABILITY_POSSIBILITY_DEMONSTRABILITY_4",
-      "definition_id": "DEF-HUME-TEST-METAPHYSICAL-POSSIBILITY"
+      "definition_id": "DEF-HUME-TEST-METAPHYSICAL-POSSIBILITY",
+      "lean_declaration": "TruthCore.Modern.Hume.Conceivability.StrongBridge"
     },
     {
       "id": "17e5feb7-9116-4b99-9684-569dc33f0f75",
@@ -40,7 +43,8 @@
     {
       "id": "d75986e8-8681-4158-adfd-b1280724c1cd",
       "label": "CONCEIVABILITY_POSSIBILITY_DEMONSTRABILITY_6",
-      "definition_id": "DEF-HUME-TEST-DEMONSTRABILITY"
+      "definition_id": "DEF-HUME-TEST-DEMONSTRABILITY",
+      "lean_declaration": "TruthCore.Modern.Hume.Conceivability.NarrowWithholding"
     }
   ]
 }

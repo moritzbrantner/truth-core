@@ -13,22 +13,26 @@
     {
       "id": "403be9c5-ddd4-42a0-a3fb-1a7130701b03",
       "label": "RELATIVE_OR_DISPUTED_TRUTH_1",
-      "definition_id": "DEF-PILOT-RELATIVISM-GLOBAL"
+      "definition_id": "DEF-PILOT-RELATIVISM-GLOBAL",
+      "lean_declaration": "TruthCore.Logic.TruthPilot.GlobalProfileVariation"
     },
     {
       "id": "84d5f286-9782-45f6-9d5b-6c32416a2885",
       "label": "RELATIVE_OR_DISPUTED_TRUTH_2",
-      "definition_id": "DEF-PILOT-RELATIVISM-LOCAL"
+      "definition_id": "DEF-PILOT-RELATIVISM-LOCAL",
+      "lean_declaration": "TruthCore.Logic.TruthPilot.LocalProfileVariation"
     },
     {
       "id": "cee2f69c-4554-4eb9-9dfd-e7e1c3a30c51",
       "label": "RELATIVE_OR_DISPUTED_TRUTH_3",
-      "definition_id": "DEF-PILOT-EPISTEMIC-LIMITATION"
+      "definition_id": "DEF-PILOT-EPISTEMIC-LIMITATION",
+      "lean_declaration": "TruthCore.Logic.TruthPilot.LimitedKnowledge"
     },
     {
       "id": "9d4f29f0-2f0a-483b-9677-755c0fab56c2",
       "label": "RELATIVE_OR_DISPUTED_TRUTH_4",
-      "definition_id": "DEF-ALL-OPINIONS-TRUE-UNINDEXED"
+      "definition_id": "DEF-ALL-OPINIONS-TRUE-UNINDEXED",
+      "lean_declaration": "TruthCore.Logic.TruthPilot.AllOpinionsTrue"
     }
   ]
 }

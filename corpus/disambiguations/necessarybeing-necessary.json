@@ -8,7 +8,8 @@
     {
       "id": "cf19700b-027f-4180-9bf5-d70f10623a2f",
       "label": "NECESSARY_BEING_1",
-      "definition_id": "DEF-NECESSARY-BEING"
+      "definition_id": "DEF-NECESSARY-BEING",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.IsNecessary"
     },
     {
       "id": "4af8490b-24ff-46aa-95c7-490e56e986f0",

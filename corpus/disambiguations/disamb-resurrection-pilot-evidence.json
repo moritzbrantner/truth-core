@@ -11,12 +11,14 @@
     {
       "id": "0641b21b-6d45-44f0-950b-8c436cee5013",
       "label": "EVIDENCE_IN_THE_RESURRECTION_PILOT_1",
-      "definition_id": "DEF-RESURRECTION-PILOT-REPORT"
+      "definition_id": "DEF-RESURRECTION-PILOT-REPORT",
+      "lean_declaration": "TruthCore.History.Resurrection.Reported"
     },
     {
       "id": "a429055c-3b18-4c0a-a16f-f6d10488515d",
       "label": "EVIDENCE_IN_THE_RESURRECTION_PILOT_2",
-      "definition_id": "DEF-RESURRECTION-PILOT-HISTORY"
+      "definition_id": "DEF-RESURRECTION-PILOT-HISTORY",
+      "lean_declaration": "TruthCore.History.Resurrection.State"
     }
   ]
 }

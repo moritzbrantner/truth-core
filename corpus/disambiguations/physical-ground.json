@@ -11,7 +11,8 @@
     {
       "id": "bbdf556f-b422-4f7f-87b1-61820855a906",
       "label": "PHYSICAL_OF_A_GROUND_1",
-      "definition_id": "DEF-PHYSICAL-BEARERS-COMPOSITE"
+      "definition_id": "DEF-PHYSICAL-BEARERS-COMPOSITE",
+      "lean_declaration": "TruthCore.Alternatives.PhysicalGround.PhysicalBearersComposite"
     },
     {
       "id": "5f123c56-8878-49d4-9e76-41e9a41cb4a2",

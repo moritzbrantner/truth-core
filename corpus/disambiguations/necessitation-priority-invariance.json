@@ -12,12 +12,14 @@
     {
       "id": "7d8c05e8-1638-4476-b0bf-4ac705f71be7",
       "label": "NECESSITATION_RELATION_PERSISTENCE_AND_COMMON_PRIORITY_1",
-      "definition_id": "DEF-COMMON-PRIORITY-RANK"
+      "definition_id": "DEF-COMMON-PRIORITY-RANK",
+      "lean_declaration": "TruthCore.Causality.CommonPriority.CommonRank"
     },
     {
       "id": "464c3a2e-755f-45c0-a744-753e9fef6c30",
       "label": "NECESSITATION_RELATION_PERSISTENCE_AND_COMMON_PRIORITY_2",
-      "definition_id": "DEF-EXISTENCE-FACT-NECESSITATION"
+      "definition_id": "DEF-EXISTENCE-FACT-NECESSITATION",
+      "lean_declaration": "TruthCore.Causality.CommonPriority.TruthNecessitation"
     },
     {
       "id": "6ebc15df-99f0-44ac-b137-ce8687b78548",
