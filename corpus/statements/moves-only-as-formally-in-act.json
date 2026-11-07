@@ -1,0 +1,12 @@
+{
+  "id": "STMT-MOVES-ONLY-AS-FORMALLY-IN-ACT",
+  "paraphrase": "IN-ACT_1, formal reading (attribution deferred): whatever moves something in a respect is formally in act in that respect, as fire that is hot makes the wood hot.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.MovesOnlyAsFormallyInAct",
+  "definition_ids": [
+    "DEF-IN-ACT-FORMALLY",
+    "DEF-MOTION-AS-REDUCTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT"
+  ]
+}

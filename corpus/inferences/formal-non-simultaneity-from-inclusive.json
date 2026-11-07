@@ -1,0 +1,11 @@
+{
+  "id": "INF-FORMAL-NON-SIMULTANEITY-FROM-INCLUSIVE",
+  "input_statement_ids": [
+    "STMT-NOTHING-IN-ACT-FORMALLY-OR-VIRTUALLY-AND-IN-POTENCY"
+  ],
+  "output_statement_id": "STMT-NOTHING-FORMALLY-IN-ACT-AND-IN-POTENCY",
+  "rule": "Disjunction introduction under negation",
+  "meaning": "Explicit sense bridge IN-ACT_3 → IN-ACT_1 (strength order): inclusive non-simultaneity implies formal non-simultaneity. The order runs opposite to the mover premise, so neither uniform reading is weaker in both premises.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

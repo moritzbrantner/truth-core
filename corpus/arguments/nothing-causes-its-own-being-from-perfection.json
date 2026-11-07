@@ -1,0 +1,19 @@
+{
+  "id": "NOTHING-CAUSES-ITS-OWN-BEING-FROM-PERFECTION",
+  "premise_statement_ids": [
+    "STMT-NOTHING-CAUSES-ITS-OWN-PERFECTION"
+  ],
+  "conclusion_statement_id": "STMT-NOTHING-CAUSES-ITS-OWN-BEING",
+  "inference_ids": [
+    "INF-NOTHING-CAUSES-ITS-OWN-BEING-FROM-PERFECTION"
+  ],
+  "meaning": "Strength order within UNITING-CAUSE_3 / BECOMING-BEING-CAUSE_3: nothing causes a perfection in itself implies nothing causes its own being (r = esse). The strong version is conditionally refuted (SELF-PERFECTING-SUBJECT-REFUTES-NO-SELF-PERFECTION); the weak version survives that refutation.",
+  "definition_ids": [
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE",
+    "DISAMB-UNITING-CAUSE"
+  ]
+}

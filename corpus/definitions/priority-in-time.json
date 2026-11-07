@@ -5,5 +5,7 @@
   "basis": "sourced",
   "claim_ids": [
     "AQUINAS-ST-I-Q3-A1-ACT-SIMPLY-PRIOR-A"
-  ]
+  ],
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.PriorityFrame.PriorInTime",
+  "note": "Lean: a primitive parameter of the sense-fork frame (its own declaration, distinct from the other senses of its disambiguation); it carries no definitional body."
 }

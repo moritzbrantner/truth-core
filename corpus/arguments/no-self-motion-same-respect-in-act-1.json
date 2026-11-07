@@ -1,0 +1,26 @@
+{
+  "id": "NO-SELF-MOTION-SAME-RESPECT-IN-ACT-1",
+  "premise_statement_ids": [
+    "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
+    "STMT-MOVES-ONLY-AS-FORMALLY-IN-ACT",
+    "STMT-NOTHING-FORMALLY-IN-ACT-AND-IN-POTENCY"
+  ],
+  "conclusion_statement_id": "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT",
+  "inference_ids": [
+    "INF-NO-SELF-MOTION-SAME-RESPECT-IN-ACT-1"
+  ],
+  "meaning": "Per-sense argument, IN-ACT_1 (formal act): both act premises read formally give no self-motion in the same respect. The formal mover premise faces causes that produce what they do not formally have.",
+  "definition_ids": [
+    "DEF-IN-ACT-FORMALLY",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-POTENCY",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT",
+    "DISAMB-MOTION"
+  ],
+  "strong_version_needed": {
+    "STMT-MOVES-ONLY-AS-FORMALLY-IN-ACT": "Each per-sense argument keeps both act premises in its one sense (IN-ACT_1). The weak IN-ACT_3 mover premise with IN-ACT_1 non-simultaneity is the mixed reading, which the TERM-SENSE-FORKS-2-CONTROLS model refutes."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "STMT-IN-ACT-SENSE-UNIQUE",
+  "paraphrase": "OPEN frontier premise (exclusivity, attribution deferred): the route's reading of 'in act' in the prima via step selects at most one sense, so both uses take the same one. Not a disjointness claim; formal act implies formal-or-virtual act.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.InActSenseUnique",
+  "definition_ids": [
+    "DEF-ROUTE-SENSE-SELECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT"
+  ]
+}

@@ -2007,12 +2007,12 @@
       "path": "corpus/disambiguations/in-act.json",
       "status": "inspected",
       "classification": "adopted_potency_scope",
-      "finding": "Reviewed the added adopted-potency clarification: formal/virtual act remain distinct choices, and each adopted result uses exactly one supplied act predicate everywhere. No virtual reading is attributed to IX.6; generic proof interfaces remain unchanged.",
+      "finding": "Reviewed the added adopted-potency clarification: formal/virtual act remain distinct choices, and each adopted result uses exactly one supplied act predicate everywhere. No virtual reading is attributed to IX.6; generic proof interfaces remain unchanged. Follow-up review (term sense forks, batch 2): the appended sense-fork pointer adds formal/virtual act parameters only in TruthCore.Causality.TermSenseForks2; the audited results still use the one InAct parameter at every use, so no step here changes sense. Sense-indexed relabelling: the third sense DEF-IN-ACT-FORMALLY-OR-VIRTUALLY is appended and the per-sense arguments are named; the audited results still use one InAct parameter.",
       "before": {
         "sha256": "d611f0ba3737ca2630ca3cbee8a618e86eb5385773ea453b31b36fc017435cac",
         "lean_declaration": null
       },
-      "reviewed_sha256": "9410922badd636cf4af03e355327b5dc3a43827ea0e98930ef4598469d53f4ee"
+      "reviewed_sha256": "a99e2031fca519ee02d1a2108a4af8618879d4e33a5bfef6fce7096864b86626"
     },
     {
       "kind": "disambiguations",
