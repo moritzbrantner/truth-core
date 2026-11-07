@@ -1,0 +1,8 @@
+{
+  "id": "DEF-OPERATION-OF",
+  "term": "operation of a thing (OperationOf o x)",
+  "definition": "OperationOf o x: o is an operation (operatio) of x, transient (heating another) or immanent (understanding), whether or not x operates from itself. Wider than Operates x of SelfOperationLife (operating from itself, not as moved by another), which the open dichotomy STMT-OPERATION-FROM-SELF-OR-AS-MOVED relates to it. Example: the heating of a fire. Non-example: a stone's merely being where it is. In Lean a parameter O -> B -> Prop.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.Round5Worklist.BeingInActHasOperation",
+  "note": "Stipulative analyst notion, attribution deferred (round 5 worklist, specs/round5-worklist.toml). Sourcing it would need a typed reading of the cited articles; until then it is constrained only by the open premises that use it."
+}

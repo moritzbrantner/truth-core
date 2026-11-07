@@ -1,0 +1,27 @@
+{
+  "id": "PURE-ACT-OPERATES-FROM-BEING-IN-ACT",
+  "premise_statement_ids": [
+    "STMT-ACT-OR-POTENCY-IN-BEING",
+    "STMT-BEING-IN-ACT-HAS-OPERATION",
+    "STMT-OPERATION-FROM-SELF-OR-AS-MOVED",
+    "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY"
+  ],
+  "conclusion_statement_id": "STMT-PURE-ACT-OPERATES",
+  "inference_ids": [
+    "INF-PURE-ACT-OPERATES-FROM-BEING-IN-ACT"
+  ],
+  "meaning": "Whatever is in potency in no respect operates from itself. A pure act is not in potency in its being, so by the OPEN act/potency division it is in act in being; by the OPEN premise that operation follows being in act it has an operation; by the OPEN dichotomy the operation is from itself or the thing is being moved in some respect; and the second case is excluded by the existing stated q.2 a.3 reading (nothing is moved except as in potency) since a pure act has no potency.",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-ESSE",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-OPERATION-OF",
+    "DEF-POTENCY",
+    "DEF-PURE-ACT",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT",
+    "DISAMB-MOTION"
+  ]
+}

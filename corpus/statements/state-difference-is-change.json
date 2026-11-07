@@ -1,0 +1,9 @@
+{
+  "id": "STMT-STATE-DIFFERENCE-IS-CHANGE",
+  "paraphrase": "OPEN analyst premise: a difference of a thing's life-state between an earlier and a later time is a change of it in some respect between them.",
+  "lean_declaration": "TruthCore.Causality.Round5Worklist.StateDifferenceIsChange",
+  "definition_ids": [
+    "DEF-CHANGE-BETWEEN-TIMES",
+    "DEF-LIFE-PRESENT-AT"
+  ]
+}

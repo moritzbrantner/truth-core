@@ -1,0 +1,12 @@
+{
+  "id": "STMT-OPERATION-FROM-SELF-OR-AS-MOVED",
+  "paraphrase": "OPEN analyst dichotomy, read from ST I q.18 a.3 co. (things operate either from themselves or as moved by others): whatever has an operation either operates from itself or is being moved in some respect.",
+  "lean_declaration": "TruthCore.Causality.Round5Worklist.OperationFromSelfOrAsMoved",
+  "definition_ids": [
+    "DEF-OPERATION-OF",
+    "DEF-MOTION-AS-REDUCTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION"
+  ]
+}
