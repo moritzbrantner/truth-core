@@ -1741,3 +1741,58 @@ In each, excluded middle is a premise of the route and is not asserted.
 - The routes do not identify the root with God.
 
 **Actual premise comparison:** see the `corpus.py frontier-diff` output in the PR.
+
+### Deriving strict pure actuality from no limitation (2026-11-07)
+
+**Reachability correction.** `STMT-UNIQUE-NECESSARY-ACTUAL-ROOT` has no argument
+path to `STMT-CATHOLICISM-TRUE`. Its consumers, `UNIQUE-ROOT-PERFECTION` and
+`NECESSARY-CONCRETE-FROM-UNIQUE-ROOT`, lead nowhere toward the root. The
+necessary-root branch joins the root only through `NECESSARY-CLASSICAL-GOD-CASE`,
+which has its own maximum-based uniqueness. The previous subsection therefore
+widened a branch that is off the root path. By contrast,
+`STMT-AT-MOST-ONE-FIRST-UNMOVED-MOVER` is a premise of the Prima Via root routes.
+
+**Encoding** (`TruthCore/Causality/RootPurity.lean`).
+- `ACTUAL-ROOTS-WITHOUT-LIMITING-PRINCIPLE`: every actual root has none of the
+  three represented limiting principles, which are composition, esse other than
+  essence, and a distinct simply-prior being.
+  - This reruns the witnessed-root argument of `ROOT-WITHOUT-LIMITING-PRINCIPLE`
+    for each root, through the existing per-root `identityOfActualRoot`.
+  - It drops the population, whole-roster and dependence inputs, which only
+    produced the witness.
+- `STMT-UNLIMITED-DETERMINATIONS-ARE-PURE` is a new open bridge over all beings.
+  It says that a being without a represented limiting principle has only pure
+  real determinations. Equivalently, impurity comes only from composition,
+  received esse or dependence on something prior. Its restriction to roots would
+  merely restate the conclusion, so it can support that conclusion only in its
+  general form. The controls show that it reaches unlimited non-roots.
+- `ROOT-PURITY-FROM-NO-LIMITATION` derives the former bare leaf
+  `STMT-ACTUAL-ROOT-DETERMINATIONS-ARE-PURE`. Its inputs are the eight
+  limiting-principle inputs plus the bridge.
+- `FIRST-MOVER-PURITY-FROM-NO-LIMITATION` derives the former bare leaf
+  `STMT-FIRST-MOVER-DETERMINATIONS-ARE-PURE`. Its inputs are
+  `STMT-FIRST-UNMOVED-MOVER-IS-SIMPLE` and `STMT-FIRST-UNMOVED-MOVER-IS-FIRST-BEING`,
+  both already on the Prima Via routes, plus the same bridge.
+
+**Effect on the graph.**
+- One bridge now feeds strict pure actuality in both the first-mover branch and
+  the necessary-root branch.
+- On the first-mover side, the pure-act uniqueness route
+  (`REAL-THISNESS-FIRST-MOVER-UNIQUENESS` and the narrower-bridge variant) now
+  rests on simplicity and firstness, which the root routes already use, rather
+  than on a stipulated strict pure actuality.
+
+**What the frontier metric sees.** `frontier-diff` reports no change. It follows
+the cheapest derivation of each route node, and these additions are alternatives
+under nodes it already reaches more cheaply, so their gain is invisible to it.
+That is a limitation of the metric for measuring how many independent
+derivations a node has.
+
+**Remaining gaps.**
+- The bridge is undefended. The classical support is the thesis that act is
+  limited only by a receiving potency (ST I q.7 a.1). That attribution is
+  deferred; nothing here is attributed.
+- Unrestricted perfection at the roots and for first movers, the root and
+  first-mover versions of `DEF-UNRESTRICTED-PURE-PERFECTION`, are still bare
+  leaves. The natural next derivation is the same q.7 a.1 thought: unreceived esse
+  is unlimited, so it has every pure perfection.

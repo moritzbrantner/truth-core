@@ -195,6 +195,7 @@ public import TruthCore.Results.Causality.RootMultiplication.Solution
 public import TruthCore.Results.Causality.RootNonlimitationFromCompositionKinds.Solution
 public import TruthCore.Results.Causality.RootPositiveIntellectWill.Solution
 public import TruthCore.Results.Causality.RootPositiveIntellectWillControl.Solution
+public import TruthCore.Results.Causality.RootPurity.Solution
 public import TruthCore.Results.Causality.RootWithoutLimitingPrinciple.Solution
 public import TruthCore.Results.Causality.SameRespectActualization.Solution
 public import TruthCore.Results.Causality.ScenarioNecessaryWitness.Solution

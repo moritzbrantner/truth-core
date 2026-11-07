@@ -1,0 +1,18 @@
+{
+  "id": "INF-ACTUAL-ROOTS-WITHOUT-LIMITING-PRINCIPLE",
+  "input_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-EXISTING-IN-ACT-AT",
+    "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
+    "STMT-Q3A4-DISTINCT-ESSE-CAUSE-DICHOTOMY",
+    "STMT-Q3A4-ESSENTIAL-PRINCIPLES-NOT-DISTINCT-ESSE-CAUSE",
+    "STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND",
+    "STMT-COMPOSITE-POSTERIOR-TO-COMPONENTS",
+    "STMT-COMPOSITE-HAS-COMPONENT-OTHER-THAN-ITSELF"
+  ],
+  "output_statement_id": "STMT-ACTUAL-ROOTS-WITHOUT-LIMITING-PRINCIPLE",
+  "rule": "Per-root limiting-principle elimination",
+  "meaning": "For an arbitrary actual root: the existing identityOfActualRoot step (q3 a4 dichotomy, no self-causation of distinct esse, esse causes are actual concrete grounds, existing beings are in act) gives represented esse equal to essence; the simply-prior bridge and excluded middle make the root first, so no distinct being is prior to it; component priority and a distinct component in every composite then exclude composition. This generalizes the witnessed-root argument of ROOT-WITHOUT-LIMITING-PRINCIPLE to every actual root and drops its population, whole-roster and dependence inputs, which served only to produce the witness. No existence, necessity or uniqueness of a root is asserted. All eight inputs stay open.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

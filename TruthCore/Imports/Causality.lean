@@ -99,6 +99,7 @@ public import TruthCore.Causality.RootIntellectWillPureActPlurality
 public import TruthCore.Causality.RootMultiplication
 public import TruthCore.Causality.RootPositiveIntellectWill
 public import TruthCore.Causality.RootPositiveIntellectWillControl
+public import TruthCore.Causality.RootPurity
 public import TruthCore.Causality.RootWithoutLimitingPrinciple
 public import TruthCore.Causality.ScopedActualCausality
 public import TruthCore.Causality.SelectedAncestry

@@ -1,0 +1,10 @@
+{
+  "id": "FIRST-MOVER-PURITY-FROM-NO-LIMITATION",
+  "argument_id": "FIRST-MOVER-PURITY-FROM-NO-LIMITATION",
+  "challenge_module": "TruthCore.Results.Causality.RootPurity.Challenge",
+  "solution_module": "TruthCore.Results.Causality.RootPurity.Solution",
+  "theorem": "TruthCore.Results.Causality.RootPurity.firstMoverPurityFromNoLimitation",
+  "comparator_config": "results/FIRST-MOVER-PURITY-FROM-NO-LIMITATION/comparator.json",
+  "status": "solution-present",
+  "description": "For each first unmoved mover, the existing simplicity reading excludes composition and esse other than essence, and the first-mover-is-first-being bridge excludes a distinct simply-prior being; so the first mover has none of the three represented limiting principles, and the open bridge STMT-UNLIMITED-DETERMINATIONS-ARE-PURE makes every real determination of it a pure perfection. This derives the former bare leaf STMT-FIRST-MOVER-DETERMINATIONS-ARE-PURE from two statements already on the Prima Via routes and the same bridge that yields strict pure actuality at the actual roots (ROOT-PURITY-FROM-NO-LIMITATION). The simplicity reading's body and matter-form clauses are not used. All three premises stay open; the bridge is not defended here."
+}
