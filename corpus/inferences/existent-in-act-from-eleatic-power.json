@@ -1,0 +1,12 @@
+{
+  "id": "INF-EXISTENT-IN-ACT-FROM-ELEATIC-POWER",
+  "input_statement_ids": [
+    "STMT-EVERY-EXISTENT-HAS-CAUSAL-POWER",
+    "STMT-AQUINAS-ACTIVE-POWER-ONLY-IN-ACT"
+  ],
+  "output_statement_id": "STMT-EXISTENT-IS-IN-ACT-IN-SOME-RESPECT",
+  "rule": "Universal instantiation, modus ponens",
+  "meaning": "The intermediate step of the Eleatic route: from the OPEN Eleatic principle and the q.25 a.1 reading, every existent at w is in act in some respect (no respect named).",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

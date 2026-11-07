@@ -1,0 +1,9 @@
+{
+  "id": "REL-Q4-A1-AD3-ACTUALITY-SUPPORTS-EXISTENT-IN-ACT",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q4-A1-AD3-ACTUALITY-AS-BEING-A",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-EXISTENT-IS-IN-ACT-IN-SOME-RESPECT",
+  "note": "Q.4 a.1 ad 3 calls esse 'actualitas omnium rerum'; the claim formalizes only the direction from act to esse. The premise uses the other direction, from existence at the selected world to act in some respect; reading the Ontic existence assignment as esse in re is the analyst's."
+}

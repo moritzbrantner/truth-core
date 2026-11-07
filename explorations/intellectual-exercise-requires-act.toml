@@ -1,0 +1,77 @@
+# Exploration map: every intellectual exercise requires its bearer to be in act.
+target = "STMT-INTELLECTUAL-EXERCISE-REQUIRES-ACT"
+
+[[node]]
+id = "STMT-INTELLECTUAL-EXERCISE-REQUIRES-ACT"
+
+[[node]]
+id = "STMT-AQUINAS-OPERATION-ONLY-OF-BEING-IN-ACT"
+
+[[node]]
+id = "STMT-AQUINAS-ACTIVE-POWER-ONLY-IN-ACT"
+
+[[node]]
+id = "STMT-EXISTING-IN-ACT-AT"
+
+[[node]]
+id = "STMT-HUMAN-INTELLECT-PER-SE-OPERATION"
+
+[[node]]
+id = "STMT-INTELLECTUAL-EXERCISE-IS-OPERATING"
+new = true
+text = "Whoever is attributed an intellectual exercise operates."
+
+[[node]]
+id = "STMT-OPERATING-ONLY-OF-BEING-IN-ACT"
+new = true
+text = "Generic operari sequitur esse: whatever operates is in act in some respect."
+
+[[node]]
+id = "STMT-INTELLECTUAL-EXERCISER-HAS-POWER"
+new = true
+text = "Whoever is attributed an intellectual exercise has (intellectual) active power at the selected world."
+
+[[node]]
+id = "STMT-INTELLECTUAL-EXERCISE-PRODUCES-AT"
+new = true
+text = "Whoever exercises intellect causes something at the selected world (the inner word / concept)."
+
+[[node]]
+id = "STMT-INTELLECTUAL-EXERCISER-EXISTS-AT"
+new = true
+text = "Whoever is attributed an intellectual exercise exists at the selected world."
+
+[[edge]]
+premises = ["STMT-INTELLECTUAL-EXERCISE-IS-OPERATING", "STMT-OPERATING-ONLY-OF-BEING-IN-ACT"]
+conclusion = "STMT-INTELLECTUAL-EXERCISE-REQUIRES-ACT"
+kind = "derivation"
+status = "certified"
+note = "Certified as INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-OPERATING."
+
+[[edge]]
+premises = ["STMT-INTELLECTUAL-EXERCISER-HAS-POWER", "STMT-AQUINAS-ACTIVE-POWER-ONLY-IN-ACT"]
+conclusion = "STMT-INTELLECTUAL-EXERCISE-REQUIRES-ACT"
+kind = "derivation"
+status = "certified"
+note = "Certified as INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-ACTIVE-POWER (q.25 a.1 reading)."
+
+[[edge]]
+premises = ["STMT-INTELLECTUAL-EXERCISE-PRODUCES-AT", "STMT-AQUINAS-OPERATION-ONLY-OF-BEING-IN-ACT"]
+conclusion = "STMT-INTELLECTUAL-EXERCISE-REQUIRES-ACT"
+kind = "derivation"
+status = "certified"
+note = "Certified as INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-PRODUCTION. The production premise is contested: Aquinas calls understanding an immanent action, not a transient causing of another."
+
+[[edge]]
+premises = ["STMT-INTELLECTUAL-EXERCISER-EXISTS-AT", "STMT-EXISTING-IN-ACT-AT"]
+conclusion = "STMT-INTELLECTUAL-EXERCISE-REQUIRES-ACT"
+kind = "derivation"
+status = "certified"
+note = "Certified as INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-EXISTENCE: composes with the esse contract (the respect is esse)."
+
+[[edge]]
+premises = ["STMT-HUMAN-INTELLECT-PER-SE-OPERATION"]
+conclusion = "STMT-INTELLECTUAL-EXERCISE-REQUIRES-ACT"
+kind = "derivation"
+status = "rejected"
+note = "Rejected: an existential about one designated principle's body-free exercise says nothing about act; omission is immediate (no InAct at all)."

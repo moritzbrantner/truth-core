@@ -1,0 +1,13 @@
+{
+  "id": "INF-EXISTING-IN-ACT-AT-FROM-MERE-POSSIBILITY",
+  "input_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-LACKING-ESSE-IS-MERELY-POSSIBLE",
+    "STMT-MERELY-POSSIBLE-DOES-NOT-EXIST-AT"
+  ],
+  "output_statement_id": "STMT-EXISTING-IN-ACT-AT",
+  "rule": "Proof by cases (excluded middle), modus tollens",
+  "meaning": "Derives the esse contract classically: for an existent x at w, either x is in act of esse, or it is not, in which case it is merely possible (OPEN) and so does not exist at w (OPEN), contradicting its existence. Excluded middle on InAct x esse is used and is listed as a premise.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
