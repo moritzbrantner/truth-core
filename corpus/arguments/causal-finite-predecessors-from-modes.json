@@ -1,0 +1,20 @@
+{
+  "id": "CAUSAL-FINITE-PREDECESSORS-FROM-MODES",
+  "premise_statement_ids": [
+    "STMT-FOUR-CAUSES-EXHAUSTIVE",
+    "STMT-FINITELY-MANY-CAUSES-PER-MODE"
+  ],
+  "conclusion_statement_id": "STMT-CAUSAL-FINITE-IMMEDIATE-PREDECESSORS",
+  "inference_ids": [
+    "INF-CAUSAL-FINITE-PREDECESSORS-FROM-MODES"
+  ],
+  "meaning": "Every node has finitely many direct causal predecessors, from the existing stated reading of Physics II.3 (every cause of an effect is a cause in at least one of the four modes) and the OPEN premise that each effect has finitely many causes in each mode: the direct causes lie in the union of four finite sets. Uses Mathlib finiteness; permits propext, Classical.choice and Quot.sound.",
+  "definition_ids": [
+    "DEF-ARISTOTELIAN-CAUSE-MODES",
+    "DEF-CAUSAL-FINITE-IMMEDIATE-PREDECESSORS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE",
+    "DISAMB-FINITE-HISTORY-AND-PER-SE-REGRESS"
+  ]
+}

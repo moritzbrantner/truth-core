@@ -1,0 +1,9 @@
+{
+  "id": "STMT-INTELLECT-UNDERSTANDS-SOMETHING",
+  "paraphrase": "OPEN and contested analyst premise: whatever has intellect actually understands something. A human intellect before any act of understanding (q.79 a.2, the possible intellect as a tabula rasa) falsifies it; whoever holds that some intellect is purely potential denies it.",
+  "lean_declaration": "TruthCore.Causality.Round5Worklist.IntellectUnderstandsSomething",
+  "definition_ids": [
+    "DEF-HAS-INTELLECT",
+    "DEF-UNDERSTANDS"
+  ]
+}

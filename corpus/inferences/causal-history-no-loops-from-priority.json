@@ -1,0 +1,14 @@
+{
+  "id": "INF-CAUSAL-HISTORY-NO-LOOPS-FROM-PRIORITY",
+  "input_statement_ids": [
+    "STMT-HISTORY-EDGES-ARE-EFFICIENT-CAUSINGS",
+    "STMT-EFFICIENT-CAUSE-IS-PRIOR-TO-EFFECT",
+    "STMT-SIMPLE-PRIORITY-IS-TRANSITIVE",
+    "STMT-NOTHING-PRIOR-TO-ITSELF"
+  ],
+  "output_statement_id": "STMT-CAUSAL-HISTORY-HAS-NO-LOOPS",
+  "rule": "Induction on transitive closure, universal instantiation, existential elimination, reductio",
+  "meaning": "No nonempty causal path returns to its start, from one new OPEN bridge (every edge of the studied causal relation is an efficient causing in some respect) and three existing statements of the secunda via cluster: efficient causes are simply prior to their effects, simple priority is transitive, nothing is prior to itself. By induction on the path every causal path is a simple priority, so a loop would make something prior to itself. The existing three are relation-generic; the bridge is what ties the finite-history relation to efficient causation.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

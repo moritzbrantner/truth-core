@@ -1,0 +1,9 @@
+{
+  "id": "STMT-EVERY-OPERATION-HAS-AN-END",
+  "paraphrase": "OPEN analyst finality principle (omne agens agit propter finem), read for operations through forms: every such operation is directed to some end, consciously or not.",
+  "lean_declaration": "TruthCore.Causality.Round5Worklist.EveryOperationHasAnEnd",
+  "definition_ids": [
+    "DEF-OPERATION-THROUGH-FORM-FOR-END",
+    "DEF-INTENTIO-AS-TENDING"
+  ]
+}

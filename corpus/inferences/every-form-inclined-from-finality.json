@@ -1,0 +1,13 @@
+{
+  "id": "INF-EVERY-FORM-INCLINED-FROM-FINALITY",
+  "input_statement_ids": [
+    "STMT-FORM-IS-PRINCIPLE-OF-OPERATION",
+    "STMT-EVERY-OPERATION-HAS-AN-END",
+    "STMT-END-DIRECTED-OPERATION-IS-INCLINATION"
+  ],
+  "output_statement_id": "STMT-EVERY-FORM-HAS-INCLINATION",
+  "rule": "Existential elimination (twice), universal instantiation, modus ponens",
+  "meaning": "Some inclination follows every form a thing has, through operation and end as middle terms: each form is the principle of some operation (OPEN), every such operation is directed to an end (OPEN finality principle), and operating through a form toward an end is an inclination following the form (OPEN recognition). The last premise needs both witnesses supplied by the first two.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

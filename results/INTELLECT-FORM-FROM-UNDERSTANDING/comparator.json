@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.Round5Worklist.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round5Worklist.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.Round5Worklist.intellectFormFromUnderstanding"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

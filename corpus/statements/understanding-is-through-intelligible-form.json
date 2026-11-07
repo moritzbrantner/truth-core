@@ -1,0 +1,8 @@
+{
+  "id": "STMT-UNDERSTANDING-IS-THROUGH-INTELLIGIBLE-FORM",
+  "paraphrase": "OPEN analyst reading of ST I q.14 a.2 and q.85 a.2: whatever actually understands something is in act through some intelligible form.",
+  "lean_declaration": "TruthCore.Causality.Round5Worklist.UnderstandingIsThroughIntelligibleForm",
+  "definition_ids": [
+    "DEF-UNDERSTANDS"
+  ]
+}

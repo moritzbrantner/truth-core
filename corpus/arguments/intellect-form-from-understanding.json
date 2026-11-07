@@ -1,0 +1,21 @@
+{
+  "id": "INTELLECT-FORM-FROM-UNDERSTANDING",
+  "premise_statement_ids": [
+    "STMT-INTELLECT-UNDERSTANDS-SOMETHING",
+    "STMT-UNDERSTANDING-IS-THROUGH-INTELLIGIBLE-FORM"
+  ],
+  "conclusion_statement_id": "STMT-INTELLECT-HAS-INTELLIGIBLE-FORM",
+  "inference_ids": [
+    "INF-INTELLECT-FORM-FROM-UNDERSTANDING"
+  ],
+  "meaning": "Whatever has intellect is in act through some intelligible form, through actual understanding as the middle term: whatever has intellect understands something (OPEN and contested: the human possible intellect before learning is a counterexample), and whatever understands something is in act through an intelligible form (OPEN q.14 a.2 / q.85 a.2 reading). The contested point of the target (power versus act of intellect) is isolated in the first premise.",
+  "definition_ids": [
+    "DEF-HAS-INTELLECT",
+    "DEF-UNDERSTANDS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-APPETITE-POWER-AND-EXERCISE",
+    "DISAMB-CREATURE-PASSIVE-APPETITE-AND-DIVINE-WILL",
+    "DISAMB-NATURAL-AND-COGNITIVE-APPETITE"
+  ]
+}
