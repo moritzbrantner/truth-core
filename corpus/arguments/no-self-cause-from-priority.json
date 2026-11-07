@@ -1,0 +1,19 @@
+{
+  "id": "NO-SELF-CAUSE-FROM-PRIORITY",
+  "premise_statement_ids": [
+    "STMT-EFFICIENT-CAUSE-IS-PRIOR-TO-EFFECT",
+    "STMT-NOTHING-PRIOR-TO-ITSELF"
+  ],
+  "conclusion_statement_id": "STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF",
+  "inference_ids": [
+    "INF-NO-SELF-CAUSE-FROM-PRIORITY"
+  ],
+  "meaning": "ST I q.2 a.3, second way: a self-cause would be prior to itself (STMT-EFFICIENT-CAUSE-IS-PRIOR-TO-EFFECT), and nothing is prior to itself (STMT-NOTHING-PRIOR-TO-ITSELF). The Secunda Via result proves this step only internally; recorded here as its own derivation of STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF, which reaches the root (through NO-COMPONENT-FIRST-FROM-POTENCY-OR-PARTICIPATION and the uniting-cause derivation) with no recorded derivation. Priority is the same relation in both premises (priority by nature, DISAMB-PRIORITY-SIMPLE-OR-IN-TIME). Both premises stay open.",
+  "definition_ids": [
+    "DEF-SIMPLE-PRIORITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE",
+    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"
+  ]
+}

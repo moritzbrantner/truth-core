@@ -1,0 +1,12 @@
+{
+  "id": "STMT-SELF-CAUSATION-PRIORITY-CONTROLS",
+  "paraphrase": "One-being interpretations: a being that causes itself with no priority fails cause priority; with universal priority it is prior to itself; with no causation both premises and the conclusion hold.",
+  "lean_declaration": "TruthCore.Causality.SelfCausationPriority.Control.Certificate",
+  "definition_ids": [
+    "DEF-SIMPLE-PRIORITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE",
+    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"
+  ]
+}

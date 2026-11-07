@@ -1,0 +1,10 @@
+{
+  "id": "SELF-CAUSATION-PRIORITY-CONTROLS",
+  "argument_id": "SELF-CAUSATION-PRIORITY-CONTROLS",
+  "challenge_module": "TruthCore.Results.Causality.SelfCausationPriority.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SelfCausationPriority.Solution",
+  "theorem": "TruthCore.Results.Causality.SelfCausationPriority.controls",
+  "comparator_config": "results/SELF-CAUSATION-PRIORITY-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "One-being interpretations: a being that causes itself with no priority fails cause priority; with universal priority it is prior to itself; with no causation both premises and the conclusion hold."
+}
