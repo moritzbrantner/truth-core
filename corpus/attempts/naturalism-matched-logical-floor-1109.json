@@ -1,0 +1,21 @@
+{
+  "id": "ATTEMPT-NATURALISM-MATCHED-LOGICAL-FLOOR-1109",
+  "date": "2026-11-07",
+  "statement_ids": [
+    "STMT-NATURALISM-MATCHED-LOGICAL-FLOOR",
+    "STMT-NATURALISM-N1",
+    "STMT-CASE-NON-CONTRADICTION",
+    "STMT-THERE-ARE-EPISTEMIC-REASONS",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Inspected survivor context and F1/F6 dossiers. Reused exact public Cand/ontic/frame/inAct/power and part_ne_two from the existing survivor Solution; its anonymous reason relation has no public name, so the exact literal relation is exposed in a new comparison module. Reused LOGIC-NON-CONTRADICTION and N1-entails-N2. The displayed tuple certifies only its explicit same-dictionary properties, not an arbitrary witness extracted from the older existential package. The reasoner is actually present, located and a part; arbitrary partOf was NOT used to infer presence. EM is retained as a given argument; no Classical.choice axiom or claimed independent EM proof. The candidate named two is not silently identified with number2. Frozen Challenge committed1f39714c before Solution. Focused build, exact1-result binding and zero-axiom Comparator/NanoDa pass. Shared preview7c89dd9a accepted full content3e3841e9811bee3ea46107376512772e38d6b316598043490d8b69f4174aa3e3. New Challenge header was normalized to ordinary imports per AGENTS after discovering the packaging mistake; its exact advertised theorem signature is byte-identical to the original frozen statement and Solution proof is unchanged. Affected Challenge verification passed again with Comparator and NanoDa after packaging normalization; final CI remains required. Computed frontier-diff against 7c89dd9a: 128 open (67 bare, 18 supported, 43 stated) unchanged; cheapest route cost30 unchanged, no route delta. Claim/type self-sweep completed: only displayed fixed dictionaries and thin relational existence are claimed; no source attribution, floor approval, normative authority or reification added.",
+  "blocker": "Actual-world adequacy, stronger ordinary/preference-independent epistemic force and reification of reasons/logic remain OPEN. This does not refute naturalism or establish a full naturalist theory; a purported incompatibility needs additional semantic/representation premises.",
+  "evidence": [
+    "NATURALISM-MATCHED-LOGICAL-FLOOR",
+    "NATURALIST-UNCAUSED-UNIVERSE-SURVIVOR",
+    "LOGIC-NON-CONTRADICTION",
+    "NATURALISM-N1-ENTAILS-N2"
+  ]
+}

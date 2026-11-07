@@ -1,8 +1,5 @@
-module
+import TruthCore.Ontology.NaturalismLogicalFloor
 
-public import TruthCore.Ontology.NaturalismLogicalFloor
-
-@[expose] public section
 namespace TruthCore.Results.Ontology.NaturalismLogicalFloor
 open TruthCore.Ontology.NaturalismLogicalFloor
 /-- Same public survivor dictionaries, granted EM, actual located thin-F6 agent.

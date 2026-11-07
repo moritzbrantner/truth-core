@@ -1,0 +1,10 @@
+{
+  "id": "NATURALISM-MATCHED-LOGICAL-FLOOR",
+  "argument_id": "NATURALISM-MATCHED-LOGICAL-FLOOR",
+  "challenge_module": "TruthCore.Results.Ontology.NaturalismLogicalFloor.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.NaturalismLogicalFloor.Solution",
+  "theorem": "TruthCore.Results.Ontology.NaturalismLogicalFloor.matchedFloor",
+  "comparator_config": "results/NATURALISM-MATCHED-LOGICAL-FLOOR/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional model compatibility on the exact old public survivor ontology/frame: all three N1 spatiotemporal readings and part-based N2/N3/N3i coexist with case non-contradiction, explicitly granted global excluded middle, thin F6 and a SAME actually existing located part-agent. Every agent in the displayed literal thin relation is existing/located/part. No stronger normative authority, nonspatial reason-fact, full floor profile or actual-world adequacy is established. The inherited constructor two is a candidate label for the singleton anchor, not the mathematical number 2."
+}
