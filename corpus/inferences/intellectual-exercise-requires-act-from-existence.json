@@ -1,0 +1,12 @@
+{
+  "id": "INF-INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-EXISTENCE",
+  "input_statement_ids": [
+    "STMT-INTELLECTUAL-EXERCISER-EXISTS-AT",
+    "STMT-EXISTING-IN-ACT-AT"
+  ],
+  "output_statement_id": "STMT-INTELLECTUAL-EXERCISE-REQUIRES-ACT",
+  "rule": "Universal instantiation, modus ponens, existential introduction",
+  "meaning": "Composes with the esse contract: whoever exercises intellect exists at w (OPEN), and every existent at w is in act of esse, so the exerciser is in act in some respect, namely esse.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

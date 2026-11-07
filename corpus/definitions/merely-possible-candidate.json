@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MERELY-POSSIBLE-CANDIDATE",
+  "term": "merely possible candidate (MerelyPossible x)",
+  "definition": "MerelyPossible x: the candidate x is in potency to being only, a possible that is not actual (a house not yet built, a merely possible person). It is not the same as abstract (DEF-ABSTRACT-NO-ESSE-IN-RE, which has no esse in re but may have being in the intellect) and not the same as contingent existence (which is actual). Non-example: an existing contingent stone. Structural properties: none built in; the predicate is unconstrained except by STMT-LACKING-ESSE-IS-MERELY-POSSIBLE and STMT-MERELY-POSSIBLE-DOES-NOT-EXIST-AT. In Lean a parameter B -> Prop.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.Round2ExistenceAct.LackingEsseIsMerelyPossible",
+  "note": "Stipulative analyst notion, attribution deferred. Rival: a Platonist about abstracta classes a number as lacking esse in re without being merely possible, which rejects STMT-LACKING-ESSE-IS-MERELY-POSSIBLE; a Meinongian lets nonexistent objects have properties without being merely possible."
+}

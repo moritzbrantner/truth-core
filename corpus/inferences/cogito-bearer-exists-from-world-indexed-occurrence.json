@@ -1,0 +1,12 @@
+{
+  "id": "INF-COGITO-BEARER-EXISTS-FROM-WORLD-INDEXED-OCCURRENCE",
+  "input_statement_ids": [
+    "STMT-OCCURRING-THOUGHT-OCCURS-AT-WORLD",
+    "STMT-BEARER-EXISTS-WHERE-EPISODE-OCCURS"
+  ],
+  "output_statement_id": "STMT-COGITO-BEARER-EXISTS-AT-WORLD",
+  "rule": "Universal instantiation, modus ponens",
+  "meaning": "Every bearer of an occurring thought exists at w, from two OPEN premises: every occurring episode occurs at w, and at any world whoever bears an episode occurring there exists there.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

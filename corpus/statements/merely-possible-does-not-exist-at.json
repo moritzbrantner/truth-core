@@ -1,0 +1,9 @@
+{
+  "id": "STMT-MERELY-POSSIBLE-DOES-NOT-EXIST-AT",
+  "paraphrase": "OPEN analyst premise: nothing merely possible exists at the selected world.",
+  "lean_declaration": "TruthCore.Causality.Round2ExistenceAct.MerelyPossibleNotExistentAt",
+  "definition_ids": [
+    "DEF-MERELY-POSSIBLE-CANDIDATE",
+    "DEF-KANT-ONTOLOGICAL-MODEL"
+  ]
+}

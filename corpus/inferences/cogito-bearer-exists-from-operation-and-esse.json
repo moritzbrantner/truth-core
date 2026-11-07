@@ -1,0 +1,14 @@
+{
+  "id": "INF-COGITO-BEARER-EXISTS-FROM-OPERATION-AND-ESSE",
+  "input_statement_ids": [
+    "STMT-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE",
+    "STMT-INTELLECTUAL-EXERCISE-REQUIRES-ACT",
+    "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING",
+    "STMT-ACT-OF-ESSE-SUFFICES-FOR-EXISTENCE-AT"
+  ],
+  "output_statement_id": "STMT-COGITO-BEARER-EXISTS-AT-WORLD",
+  "rule": "Universal instantiation, existential elimination, modus ponens",
+  "meaning": "Every bearer of an occurring thought exists at the selected world w: the bearer exercises intellect in it, intellectual exercise requires act in some respect, act in some respect implies act of esse (q.4 a.1 ad 3 reading), and act of esse suffices for existence at w (OPEN converse of the esse contract). The last premise carries the world-indexing; without it the bearer may be in act of esse and fail to exist at w.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

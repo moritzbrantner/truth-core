@@ -1,0 +1,54 @@
+# Exploration map: the bearer principle.
+target = "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT"
+
+[[node]]
+id = "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT"
+
+[[node]]
+id = "STMT-COGITO-THOUGHT-OCCURS"
+
+[[node]]
+id = "STMT-OCCURRING-THOUGHT-IS-MODIFICATION"
+new = true
+text = "Every occurring thought episode is a modification (mode or accident), not a self-standing thing."
+
+[[node]]
+id = "STMT-NO-MODIFICATION-WITHOUT-BEARER"
+new = true
+text = "Every modification is borne by something (nothingness has no properties)."
+
+[[node]]
+id = "STMT-OCCURRING-THOUGHT-IS-OPERATION"
+new = true
+text = "Every occurring thought episode is an operation (an activity, not a mere event)."
+
+[[node]]
+id = "STMT-EVERY-OPERATION-HAS-AGENT"
+new = true
+text = "Every operation has an agent whose operation it is."
+
+[[node]]
+id = "STMT-AGENT-OF-EPISODE-BEARS-IT"
+new = true
+text = "The agent of an episode bears it."
+
+[[edge]]
+premises = ["STMT-OCCURRING-THOUGHT-IS-MODIFICATION", "STMT-NO-MODIFICATION-WITHOUT-BEARER"]
+conclusion = "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT"
+kind = "derivation"
+status = "certified"
+note = "Certified as EVERY-THOUGHT-HAS-SUBJECT-FROM-MODIFICATION. Rival: bundle theory / Lichtenberg's 'it thinks', which denies that episodes are modifications of anything."
+
+[[edge]]
+premises = ["STMT-OCCURRING-THOUGHT-IS-OPERATION", "STMT-EVERY-OPERATION-HAS-AGENT", "STMT-AGENT-OF-EPISODE-BEARS-IT"]
+conclusion = "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT"
+kind = "derivation"
+status = "certified"
+note = "Certified as EVERY-THOUGHT-HAS-SUBJECT-FROM-AGENCY. Rival: an event ontology of thinking without agents."
+
+[[edge]]
+premises = ["STMT-COGITO-THOUGHT-OCCURS"]
+conclusion = "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT"
+kind = "derivation"
+status = "rejected"
+note = "Rejected: occurrence alone gives no bearer (SubjectlessControl in CogitoSubject)."

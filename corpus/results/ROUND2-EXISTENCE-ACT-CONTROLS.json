@@ -1,0 +1,10 @@
+{
+  "id": "ROUND2-EXISTENCE-ACT-CONTROLS",
+  "argument_id": "ROUND2-EXISTENCE-ACT-CONTROLS",
+  "challenge_module": "TruthCore.Results.Causality.Round2ExistenceAct.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round2ExistenceAct.Solution",
+  "theorem": "TruthCore.Results.Causality.Round2ExistenceAct.controls",
+  "comparator_config": "results/ROUND2-EXISTENCE-ACT-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Finite interpretations for the fourteen derivations of round 2: for each premise other than excluded middle, a hand-written Unit (or two-respect Bool) model, checked by decide without axioms, in which the other premises hold and the conclusion fails; and one joint model in which a thought occurs and its bearer exists, exercises intellect, opines, causes and is in act of esse, with every premise and conclusion of the batch holding. Satisfiability and omission only; no model is claimed to describe reality."
+}

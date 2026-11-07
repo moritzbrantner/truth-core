@@ -1,0 +1,17 @@
+{
+  "id": "EVERY-THOUGHT-HAS-SUBJECT-FROM-MODIFICATION",
+  "premise_statement_ids": [
+    "STMT-OCCURRING-THOUGHT-IS-MODIFICATION",
+    "STMT-NO-MODIFICATION-WITHOUT-BEARER"
+  ],
+  "conclusion_statement_id": "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT",
+  "inference_ids": [
+    "INF-EVERY-THOUGHT-HAS-SUBJECT-FROM-MODIFICATION"
+  ],
+  "meaning": "The bearer principle from two OPEN premises: every occurring thought is a modification, and no modification is without a bearer. Bundle theories reject the first; nothing here makes the bearer unique, substantial or enduring.",
+  "definition_ids": [
+    "DEF-EPISODE-MODIFICATION",
+    "DEF-THOUGHT-BEARER",
+    "DEF-THOUGHT-OCCURRENCE"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "STMT-INTELLECTUAL-EXERCISE-IS-OPERATING",
+  "paraphrase": "OPEN analyst premise: whoever is attributed an intellectual exercise operates (exercises an activity, here an immanent one).",
+  "lean_declaration": "TruthCore.Causality.Round2ExistenceAct.IntellectualExerciseIsOperating",
+  "definition_ids": [
+    "DEF-OPERATING-AGENT",
+    "DEF-Q75-OPERATION-ATTRIBUTION"
+  ]
+}

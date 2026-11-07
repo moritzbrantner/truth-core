@@ -1,0 +1,10 @@
+{
+  "id": "COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE-FROM-OPINING",
+  "argument_id": "COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE-FROM-OPINING",
+  "challenge_module": "TruthCore.Results.Causality.Round2ExistenceAct.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round2ExistenceAct.Solution",
+  "theorem": "TruthCore.Results.Causality.Round2ExistenceAct.thoughtIsExerciseFromOpining",
+  "comparator_config": "results/COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE-FROM-OPINING/comparator.json",
+  "status": "solution-present",
+  "description": "Reuses the motion fork's open bridge (whoever bears an occurring thought opines its content) with the OPEN premise that a bearer opining the content of its episode exercises intellect in it. Joins the Cogito motion fork to the operation route."
+}

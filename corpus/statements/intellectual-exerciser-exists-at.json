@@ -1,0 +1,12 @@
+{
+  "id": "STMT-INTELLECTUAL-EXERCISER-EXISTS-AT",
+  "paraphrase": "OPEN analyst premise: whoever is attributed an intellectual exercise exists at the selected world.",
+  "lean_declaration": "TruthCore.Causality.Round2ExistenceAct.IntellectualExerciserExistsAt",
+  "definition_ids": [
+    "DEF-Q75-OPERATION-ATTRIBUTION",
+    "DEF-KANT-ONTOLOGICAL-MODEL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE"
+  ]
+}

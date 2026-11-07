@@ -1,0 +1,19 @@
+{
+  "id": "ATTEMPT-ROUND2-EXISTENCE-ACT-REJECTED-EDGES",
+  "statement_ids": [
+    "STMT-EXISTING-IN-ACT-AT",
+    "STMT-INTELLECTUAL-EXERCISE-REQUIRES-ACT",
+    "STMT-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE",
+    "STMT-COGITO-BEARER-EXISTS-AT-WORLD",
+    "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT"
+  ],
+  "date": "2026-11-07",
+  "kind": "derivation",
+  "outcome": "rejected",
+  "summary": "Map edges examined and rejected in round 2 (existence and act). (1) STMT-COGITO-BEARER-IS-CONCRETE -> STMT-EXISTING-IN-ACT-AT: the premise covers only bearers of occurring thoughts, not every existent; and under the esse profile EveryExistentConcreteAt (profile ...) unfolds to ExistingInActAt, so the profile route is a transcription (invariant 16). (2) STMT-ALL-PERFECTIONS-PERTAIN-TO-PERFECTION-OF-BEING -> STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING: the q.4 a.2 statement has no Lean declaration, so no derivation can bind it; its content is already carried by the reused q.4 a.1 ad 3 reading. (3) STMT-HUMAN-INTELLECT-PER-SE-OPERATION -> STMT-INTELLECTUAL-EXERCISE-REQUIRES-ACT and -> STMT-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE: an existential about one designated principle's body-free exercise says nothing about act and does not cover every bearer of every occurring episode. (4) STMT-COGITO-BEARER-IS-CONCRETE -> STMT-COGITO-BEARER-EXISTS-AT-WORLD: the concreteness predicate is world-independent; NonexistentBearerControl in TruthCore.Logic.CogitoConcrete has a concrete bearer that does not exist at the world. (5) STMT-COGITO-THOUGHT-OCCURS -> STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT: occurrence alone gives no bearer (SubjectlessControl in TruthCore.Logic.CogitoSubject). Rejection records that the leads were examined; it neither refutes nor establishes any target.",
+  "evidence": [
+    "COGITO-SUBJECTLESS-CONTROL",
+    "COGITO-CONCRETE-OMISSION-CONTROLS",
+    "AQUINAS-ST-I-Q4-A1-AD3-ACTUALITY-AS-BEING-A"
+  ]
+}

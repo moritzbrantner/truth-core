@@ -1,0 +1,23 @@
+{
+  "id": "STMT-ROUND2-EXISTENCE-ACT-CONTROLS",
+  "paraphrase": "Finite interpretations for the fourteen derivations of round 2 (existence and act): for each premise other than excluded middle, a one-element (or two-respect) model in which the other premises hold and the conclusion fails, and one joint model in which a thought occurs, its bearer exists, exercises intellect, opines, causes and is in act of esse, and every premise and conclusion of the batch holds. Satisfiability and omission only; no model is claimed to describe reality.",
+  "lean_declaration": "TruthCore.Causality.Round2ExistenceAct.Control.Certificate",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-ESSE",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-Q75-OPERATION-ATTRIBUTION",
+    "DEF-THOUGHT-OCCURRENCE",
+    "DEF-THOUGHT-BEARER",
+    "DEF-MERELY-POSSIBLE-CANDIDATE",
+    "DEF-OPERATING-AGENT",
+    "DEF-INTELLECTIVE-EPISODE",
+    "DEF-EPISODE-OCCURS-AT",
+    "DEF-EPISODE-MODIFICATION",
+    "DEF-EPISODE-AGENT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT",
+    "DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE"
+  ]
+}
