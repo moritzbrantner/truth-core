@@ -1,0 +1,9 @@
+{
+  "id": "STMT-OCCURRING-THOUGHT-IS-OPERATION",
+  "paraphrase": "OPEN analyst premise: every occurring thought episode is an operation (an activity someone does, not a mere happening).",
+  "lean_declaration": "TruthCore.Causality.Round2ExistenceAct.OccurringThoughtIsOperation",
+  "definition_ids": [
+    "DEF-OPERATING-AGENT",
+    "DEF-THOUGHT-OCCURRENCE"
+  ]
+}

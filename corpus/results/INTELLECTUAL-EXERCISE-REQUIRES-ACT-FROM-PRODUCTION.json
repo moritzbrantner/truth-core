@@ -1,0 +1,10 @@
+{
+  "id": "INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-PRODUCTION",
+  "argument_id": "INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-PRODUCTION",
+  "challenge_module": "TruthCore.Results.Causality.Round2ExistenceAct.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round2ExistenceAct.Solution",
+  "theorem": "TruthCore.Results.Causality.Round2ExistenceAct.intellectualExerciseRequiresActFromProduction",
+  "comparator_config": "results/INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-PRODUCTION/comparator.json",
+  "status": "solution-present",
+  "description": "From the OPEN and contested premise that whoever exercises intellect causes something at w (the inner word) and the q.75 a.2 reading that whatever causes something at w is in act in some respect. Reuses the pinned reading exactly as it is stated (of causing another); whoever holds understanding to be purely immanent rejects the production premise."
+}

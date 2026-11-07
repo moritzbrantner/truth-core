@@ -1,0 +1,12 @@
+{
+  "id": "STMT-EXISTENT-IS-IN-ACT-IN-SOME-RESPECT",
+  "paraphrase": "OPEN analyst premise: at the selected world every existent is in act in some respect (to be is to be actual in some way). It does not say in which respect, and does not say esse.",
+  "lean_declaration": "TruthCore.Causality.Round2ExistenceAct.ExistentInActInSomeRespectAt",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-KANT-ONTOLOGICAL-MODEL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT"
+  ]
+}

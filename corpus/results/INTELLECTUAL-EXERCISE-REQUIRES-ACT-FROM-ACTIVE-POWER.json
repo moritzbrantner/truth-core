@@ -1,0 +1,10 @@
+{
+  "id": "INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-ACTIVE-POWER",
+  "argument_id": "INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-ACTIVE-POWER",
+  "challenge_module": "TruthCore.Results.Causality.Round2ExistenceAct.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round2ExistenceAct.Solution",
+  "theorem": "TruthCore.Results.Causality.Round2ExistenceAct.intellectualExerciseRequiresActFromActivePower",
+  "comparator_config": "results/INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-ACTIVE-POWER/comparator.json",
+  "status": "solution-present",
+  "description": "From the OPEN premise that whoever exercises intellect has active power at w and the q.25 a.1 reading that whatever has active power at w is in act in some respect."
+}

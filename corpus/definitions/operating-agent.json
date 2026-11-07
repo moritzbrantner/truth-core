@@ -1,0 +1,8 @@
+{
+  "id": "DEF-OPERATING-AGENT",
+  "term": "operating (Operates b)",
+  "definition": "Operates b: b exercises some activity (operatio), transient (heating another) or immanent (understanding, willing). Wider than causing another (Ontic.Causes), which is only the transient case. Example: a knower understanding. Non-example: a stone merely resting. In Lean a parameter B -> Prop.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.Round2ExistenceAct.OperatingOnlyOfBeingInAct",
+  "note": "Stipulative analyst notion, attribution deferred. ST I q.75 a.2 co. ('non enim est operari nisi entis in actu') is the source use; its pinned claim is read only of causing another, so the generic version is an open analyst extension."
+}

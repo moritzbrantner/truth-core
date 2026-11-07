@@ -1,0 +1,26 @@
+{
+  "id": "INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-EXISTENCE",
+  "premise_statement_ids": [
+    "STMT-INTELLECTUAL-EXERCISER-EXISTS-AT",
+    "STMT-EXISTING-IN-ACT-AT"
+  ],
+  "conclusion_statement_id": "STMT-INTELLECTUAL-EXERCISE-REQUIRES-ACT",
+  "inference_ids": [
+    "INF-INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-EXISTENCE"
+  ],
+  "meaning": "Composes with the esse contract: whoever exercises intellect exists at w (OPEN), and every existent at w is in act of esse, so the exerciser is in act in some respect, namely esse.",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-COGITO-ESSE-PROFILE",
+    "DEF-COGITO-INTELLECTUAL-EXERCISE-IN-ACT",
+    "DEF-ESSE",
+    "DEF-EXISTING-IN-ACT-AT",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-Q75-OPERATION-ATTRIBUTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-EXISTENCE-ESSE-SUPPORT",
+    "DISAMB-IN-ACT",
+    "DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE"
+  ]
+}

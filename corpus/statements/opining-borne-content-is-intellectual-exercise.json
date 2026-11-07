@@ -1,0 +1,10 @@
+{
+  "id": "STMT-OPINING-BORNE-CONTENT-IS-INTELLECTUAL-EXERCISE",
+  "paraphrase": "OPEN analyst premise: whoever bears an episode and opines its content exercises intellect in that episode (judging is an act of intellect). DEF-OPINING includes phantasia, so whoever places imagination in sense contests it.",
+  "lean_declaration": "TruthCore.Causality.Round2ExistenceAct.OpiningBorneContentIsIntellectualExercise",
+  "definition_ids": [
+    "DEF-OPINING",
+    "DEF-THOUGHT-BEARER",
+    "DEF-Q75-OPERATION-ATTRIBUTION"
+  ]
+}

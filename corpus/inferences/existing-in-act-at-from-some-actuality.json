@@ -1,0 +1,12 @@
+{
+  "id": "INF-EXISTING-IN-ACT-AT-FROM-SOME-ACTUALITY",
+  "input_statement_ids": [
+    "STMT-EXISTENT-IS-IN-ACT-IN-SOME-RESPECT",
+    "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING"
+  ],
+  "output_statement_id": "STMT-EXISTING-IN-ACT-AT",
+  "rule": "Universal instantiation, existential elimination, modus ponens",
+  "meaning": "Derives the selected-world esse contract (every existent at w is in act of esse) from the OPEN premise that every existent at w is in act in some respect and the q.4 a.1 ad 3 reading that whatever is in act in some respect is in act of esse. Only the one-way contract follows; existence from esse is not derived.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

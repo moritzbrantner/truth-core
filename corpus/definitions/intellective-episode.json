@@ -1,0 +1,8 @@
+{
+  "id": "DEF-INTELLECTIVE-EPISODE",
+  "term": "intellective episode (Intellective e)",
+  "definition": "Intellective e: the episode e is an act of understanding or judging (an exercise of intellect), as opposed to a mere sensation, feeling or image. Example: judging that 2+2=4. Non-example on the narrow reading: feeling a pain. Descartes's broad cogitatio includes sensing as thinking, so on that reading not every occurring thought is intellective. In Lean a parameter Episode -> Prop.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.Round2ExistenceAct.OccurringThoughtIsIntellective",
+  "note": "Stipulative analyst notion, attribution deferred; the fork between broad and narrow cogitatio is carried by the open premise STMT-OCCURRING-THOUGHT-IS-INTELLECTIVE rather than a disambiguation."
+}

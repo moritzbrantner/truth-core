@@ -1,0 +1,9 @@
+{
+  "id": "REL-Q75-A2-OPERARI-SUPPORTS-OPERATING-ONLY-OF-BEING-IN-ACT",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q75-A2-OPERARI-ENTIS-IN-ACTU",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-OPERATING-ONLY-OF-BEING-IN-ACT",
+  "note": "Q.75 a.2 co. says 'non enim est operari nisi entis in actu'; the claim reads it only of causing another (its example: the hot thing heats). The premise states it of operating as such, including immanent operation such as understanding; that extension is the analyst's."
+}

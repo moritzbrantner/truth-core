@@ -1,0 +1,12 @@
+{
+  "id": "STMT-OPERATING-ONLY-OF-BEING-IN-ACT",
+  "paraphrase": "OPEN generic operari sequitur esse: whatever operates, transiently or immanently, is in act in some respect. The pinned q.75 a.2 reading STMT-AQUINAS-OPERATION-ONLY-OF-BEING-IN-ACT is stated only of causing another; this is the analyst's extension to operating as such.",
+  "lean_declaration": "TruthCore.Causality.Round2ExistenceAct.OperatingOnlyOfBeingInAct",
+  "definition_ids": [
+    "DEF-OPERATING-AGENT",
+    "DEF-ACT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT"
+  ]
+}
