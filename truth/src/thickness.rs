@@ -10,7 +10,9 @@
 //! `established`/`refuted` (floor bases, defended statements, verified steps,
 //! strength propagation) that decides whether a refutation counts, source
 //! depths, the route-aware upward walk (`premise_dependents`) and the
-//! reaching-root walk honoring `root_route` relations.
+//! reaching-root walk honoring `root_route` relations (a routed statement is
+//! entered through its designated arguments or any verified non-transcription
+//! one, owner decision 2026-11-07).
 
 use crate::{Corpus, transcription};
 use serde_json::{Map, Value, json};
@@ -409,8 +411,20 @@ pub fn frontier_inputs(
         })
         .collect();
 
+    // Verified non-transcription arguments: a routed conclusion is also
+    // entered through any of them (owner decision 2026-11-07, superseding
+    // the designated-only walk of 2026-10-24).
+    let sound: HashSet<&str> = results
+        .iter()
+        .filter(|result| {
+            argument_by_id.contains_key(text(result, "argument_id"))
+                && !transcription_results.contains_key(text(result, "id"))
+        })
+        .map(|result| text(result, "argument_id"))
+        .collect();
     // The route-aware upward walk: a routed conclusion is entered only through
-    // its designated arguments; every argument met on the way counts.
+    // its designated arguments or a verified non-transcription one; every
+    // argument met on the way counts.
     let premise_dependent_arguments = dependents
         .keys()
         .map(|premise| {
@@ -424,7 +438,8 @@ pub fn frontier_inputs(
                             text(argument_by_id[argument_id], "conclusion_statement_id");
                         let blocked = routes
                             .get(conclusion)
-                            .is_some_and(|designated| !designated.contains(argument_id));
+                            .is_some_and(|designated| !designated.contains(argument_id))
+                            && !sound.contains(argument_id);
                         (!blocked).then_some(conclusion)
                     })
                     .collect::<Vec<_>>()
@@ -451,9 +466,10 @@ pub fn frontier_inputs(
                 .into_iter()
                 .flatten()
                 .filter(|argument_id| {
-                    routes
-                        .get(conclusion)
-                        .is_none_or(|designated| designated.contains(*argument_id))
+                    sound.contains(*argument_id)
+                        || routes
+                            .get(conclusion)
+                            .is_none_or(|designated| designated.contains(*argument_id))
                 })
                 .flat_map(|argument_id| list(argument_by_id[argument_id], "premise_statement_ids"))
                 .collect::<Vec<_>>()
@@ -997,7 +1013,8 @@ mod tests {
                 ]),
                 results: records(vec![
                     json!({"id": "RES-ROOT", "argument_id": "ARG-ROOT"}),
-                    json!({"id": "RES-ROOT-UNROUTED", "argument_id": "ARG-ROOT-UNROUTED"}),
+                    json!({"id": "RES-ROOT-UNROUTED", "argument_id": "ARG-ROOT-UNROUTED",
+                           "transcription": "assembly"}),
                     json!({"id": "RES-A", "argument_id": "ARG-A"}),
                     json!({"id": "RES-A-T", "argument_id": "ARG-A-TRANSCRIBED",
                            "transcription": "single_application"}),
@@ -1062,8 +1079,8 @@ mod tests {
         let fixture = Fixture::new();
         let records = fixture.records();
         let frontier = frontier_inputs("ROOT", &records, declared(&records));
-        // E enters only through the undesignated route; S only through the
-        // strength registration, which is set aside.
+        // E enters only through an undesignated transcription route; S only
+        // through the strength registration, which is set aside.
         let reached: Vec<&str> = frontier.reaching_root.iter().map(String::as_str).collect();
         assert_eq!(reached, ["A", "B", "C", "D", "ROOT", "W"]);
         assert_eq!(frontier.statement_depths["D"], "stated");
@@ -1078,6 +1095,20 @@ mod tests {
     }
 
     #[test]
+    fn verified_undesignated_route_reaches_the_root() {
+        // Owner decision 2026-11-07: a verified non-transcription argument
+        // opens a routed conclusion beside its designated route.
+        let mut fixture = Fixture::new();
+        for result in &mut fixture.results {
+            result.remove("transcription");
+        }
+        let records = fixture.records();
+        let frontier = frontier_inputs("ROOT", &records, declared(&records));
+        assert!(frontier.reaching_root.contains("E"));
+        assert!(frontier.reaching_root.contains("D"));
+    }
+
+    #[test]
     fn report_counts_non_transcription_derivations_and_queues_the_rest() {
         let fixture = Fixture::new();
         let records = fixture.records();
@@ -1088,7 +1119,8 @@ mod tests {
         // The strength registration is still a verified derivation of W here,
         // as in Python, which counts over all records.
         assert_eq!(report["derivations"]["W"], json!(["ARG-STRENGTH"]));
-        assert_eq!(report["derivation_count"], 4);
+        // ROOT counts ARG-ROOT only: ARG-ROOT-UNROUTED is a transcription.
+        assert_eq!(report["derivation_count"], 3);
         let queue = thickness_queue(&frontier, &report, &records);
         let order: Vec<&str> = queue
             .iter()

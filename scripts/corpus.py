@@ -206,9 +206,11 @@ SCHEMA_INSTANCE_PREDICATE = "instance_of_schema"
 # (a) or (d) and is not walked (see `strength_order`).
 STRENGTHENS_PREDICATE = "strengthens"
 # Designated route (argument → statement; owner decision on #143, 2026-10-24):
-# when a statement has root_route relations, `frontier` walks up into it only
-# through the designated arguments, so premises of other arguments for the same
-# conclusion do not reach the root through it.
+# the headline route for reporting and comparisons (`frontier --routes` marks
+# it, `frontier-diff` reports it). Since the owner decision of 2026-11-07
+# ("reach the root via any verified route") a routed statement is also entered
+# through every verified non-transcription argument concluding it; only an
+# unverified or transcription argument for a routed statement is not walked.
 ROOT_ROUTE_PREDICATE = "root_route"
 DEFAULT_FRONTIER_ROOT = "STMT-CATHOLICISM-TRUE"
 # Stage conclusions of the root skeleton (#156; CATHOLICISM-SKELETON, docs/catholic-case.md).
@@ -909,6 +911,14 @@ def frontier_report(
         for result in results
         if result["argument_id"] in argument_by_id and result["id"] not in transcription_results
     }
+    # Verified non-transcription arguments: the reaching-root walk enters a
+    # routed conclusion through any of them, not only its designated route
+    # (owner decision 2026-11-07, superseding the 2026-10-24 walk rule).
+    sound_arguments = {
+        result["argument_id"]
+        for result in results
+        if result["argument_id"] in argument_by_id and result["id"] not in transcription_results
+    }
     transcription_only_conclusions = {
         argument_by_id[result["argument_id"]]["conclusion_statement_id"]
         for result in results
@@ -962,9 +972,9 @@ def frontier_report(
                 if argument_id not in visited_arguments:
                     visited_arguments.add(argument_id)
                     seen_arguments.append(argument_id)
-                # root_route: a routed conclusion is entered only through its
-                # designated arguments.
-                if conclusion in routes and argument_id not in routes[conclusion]:
+                # root_route: a routed conclusion is entered through its
+                # designated arguments or any verified non-transcription one.
+                if conclusion in routes and argument_id not in routes[conclusion] and argument_id not in sound_arguments:
                     continue
                 if conclusion not in visited_statements:
                     visited_statements.add(conclusion)
@@ -1357,7 +1367,8 @@ def frontier_report(
             item["floor_unmet"] = {"basis": entry["basis"], "reasons": entry["reasons"]}
     # Every statement whose `upward` walk reaches the root: the inverse walk from
     # the root through argument conclusions to their premises, entering a routed
-    # conclusion only through its designated arguments (root_route).
+    # conclusion through its designated arguments (root_route) or any verified
+    # non-transcription argument (owner decision 2026-11-07).
     reaching_root: set[str] = set()
     if root is not None and root in statement_by_id:
         concluding: dict[str, list[str]] = {}
@@ -1368,7 +1379,7 @@ def frontier_report(
         while pending:
             conclusion = pending.pop()
             for argument_id in concluding.get(conclusion, ()):
-                if conclusion in routes and argument_id not in routes[conclusion]:
+                if conclusion in routes and argument_id not in routes[conclusion] and argument_id not in sound_arguments:
                     continue
                 for premise in argument_by_id[argument_id]["premise_statement_ids"]:
                     if premise not in reaching_root:

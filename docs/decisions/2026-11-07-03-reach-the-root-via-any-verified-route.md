@@ -1,0 +1,5 @@
+---
+date: 2026-11-07
+where: owner direction in session; supersedes the reaching-root walk rule of #143 (2026-10-24)
+---
+**Reach the root via any verified route.** A statement reaches the root when any chain of arguments leads from it to the root. A routed statement (one with `root_route` relations) is entered through its designated arguments and also through every verified, non-transcription argument that concludes it. Before this decision, a routed statement was entered only through its designated arguments. An unverified or transcription argument for a routed statement still does not open the walk. The designated route stays the headline for reporting and comparisons: `frontier --routes` marks it `[designated]`, and `frontier-diff` reports it. The change applies to every reaching-root computation: `reaching_root_statements`, `path_to_root`, `frontier --reaching-root`, `thickness`, `truth thickness` and `truth orphans`. Closure, route costs and established statements are unchanged. `frontier-diff` against a base from before this decision shows the definitional change: the base runs its own `corpus.py`.

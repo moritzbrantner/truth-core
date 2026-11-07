@@ -265,7 +265,7 @@ fn run(args: &[OsString]) -> Result<(Value, Option<String>), (u8, Value)> {
     }
     if orphan_report {
         let (mut output, text) = if senses {
-            let report = orphans::sense_report(&corpus, &frontier_root);
+            let report = orphans::sense_report(&root, &corpus, &frontier_root);
             let text = orphans::format_senses(&report);
             (report, text)
         } else {

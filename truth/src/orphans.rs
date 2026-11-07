@@ -646,9 +646,10 @@ const EXCLUSIVITY_SUFFIXES: &[&str] = &["-SENSE-UNIQUE", "-SENSES-EXCLUSIVE"];
 /// accepted as a heuristic fallback. A disambiguation is on a root path when
 /// a statement reaching the root, or an argument concluding one, links it
 /// or one of its sense definitions.
-pub fn sense_report(corpus: &Corpus, root: &str) -> Value {
+pub fn sense_report(checkout: &Path, corpus: &Corpus, root: &str) -> Value {
     let records = Records::from_corpus(corpus);
-    let frontier = thickness::frontier_inputs(root, &records, BTreeMap::new());
+    let kinds = thickness::transcription_kinds(checkout, &records.results);
+    let frontier = thickness::frontier_inputs(root, &records, kinds);
     let reaching = &frontier.reaching_root;
     let statements: HashMap<&str, &Record> = records
         .statements
@@ -1149,7 +1150,7 @@ mod tests {
             );
         }
         disambiguation(json!({}));
-        let unforked = sense_report(&Corpus::load(root).unwrap(), "ROOT");
+        let unforked = sense_report(root, &Corpus::load(root).unwrap(), "ROOT");
         assert_eq!(unforked["unforked_count"], 1);
         assert_eq!(
             unforked["disambiguations"][0]["missing"],
@@ -1176,12 +1177,12 @@ mod tests {
                     "status": "solution-present"})
             .to_string(),
         );
-        let forked = sense_report(&Corpus::load(root).unwrap(), "ROOT");
+        let forked = sense_report(root, &Corpus::load(root).unwrap(), "ROOT");
         assert_eq!(forked["unforked_count"], 0);
         assert_eq!(forked["forked_disambiguation_ids"], json!(["DISAMB-T"]));
         // Declared fields win: a named result that is not the fork leaves it open.
         disambiguation(json!({"fork_result_ids": ["MODAL-A"]}));
-        let declared = sense_report(&Corpus::load(root).unwrap(), "ROOT");
+        let declared = sense_report(root, &Corpus::load(root).unwrap(), "ROOT");
         assert_eq!(declared["unforked_count"], 1);
         assert!(format_senses(&declared).contains("DISAMB-T (t): 2 senses; missing joint_theorem"));
     }
