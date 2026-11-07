@@ -45,6 +45,7 @@ public import TruthCore.Results.Causality.CommonPriority.Solution
 public import TruthCore.Results.Causality.CompleteCauseContributorCover.Solution
 public import TruthCore.Results.Causality.CompleteCauseSourceUniqueness.Solution
 public import TruthCore.Results.Causality.CompleteCauseUnderivedSource.Solution
+public import TruthCore.Results.Causality.ComponentFirstness.Solution
 public import TruthCore.Results.Causality.ComposerTemporalDefinitions.Boundaries.Bound.Solution
 public import TruthCore.Results.Causality.ComposerTemporalDefinitions.Boundaries.Solution
 public import TruthCore.Results.Causality.ComposerTemporalDefinitions.Calibration.Solution

@@ -1,0 +1,10 @@
+{
+  "id": "COMPONENT-FIRSTNESS-CONTROLS",
+  "argument_id": "COMPONENT-FIRSTNESS-CONTROLS",
+  "challenge_module": "TruthCore.Results.Causality.ComponentFirstness.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ComponentFirstness.Solution",
+  "theorem": "TruthCore.Results.Causality.ComponentFirstness.controls",
+  "comparator_config": "results/COMPONENT-FIRSTNESS-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Finite interpretations with one component (false of true). Omitting in turn the potential-or-participated disjunction, act priority, the same-respect exclusion, the participation cause, or efficient priority, with the other four holding, makes the component first in being. A positive model satisfies all five with the conclusion. Satisfiability of encoded bundles, not metaphysical possibility."
+}

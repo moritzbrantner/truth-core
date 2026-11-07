@@ -1,0 +1,23 @@
+{
+  "id": "STMT-COMPONENT-FIRSTNESS-CONTROLS",
+  "paraphrase": "Finite interpretations with one component (false of true). Omitting in turn the potential-or-participated disjunction, act priority, the same-respect exclusion, the participation cause, or efficient priority, with the other four holding, makes the component first in being. A positive model satisfies all five with the conclusion. Satisfiability of encoded bundles, not metaphysical possibility.",
+  "lean_declaration": "TruthCore.Causality.ComponentFirstness.Control.Certificate",
+  "definition_ids": [
+    "DEF-FIRST-BEING",
+    "DEF-SIMPLE-PRIORITY",
+    "DEF-SIMPLE",
+    "DEF-ESSE",
+    "DEF-ACT",
+    "DEF-POTENCY",
+    "DEF-RESPECT",
+    "DEF-PARTICIPATED-ESSE",
+    "DEF-EXTERNAL-CAUSE-OF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT",
+    "DISAMB-POTENCY",
+    "DISAMB-THOMISTIC-ESSE-PARTICIPATION",
+    "DISAMB-BEING",
+    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"
+  ]
+}

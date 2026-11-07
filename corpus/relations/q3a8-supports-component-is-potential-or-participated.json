@@ -1,0 +1,9 @@
+{
+  "id": "REL-Q3A8-SUPPORTS-COMPONENT-IS-POTENTIAL-OR-PARTICIPATED",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q3-A8-NO-COMPONENT-FIRST-IN-BEING",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-COMPONENT-IS-POTENTIAL-OR-PARTICIPATED",
+  "note": "The third reason of q.3 a.8 excludes matter because it is in potency and a form that is part of a composite because it is participated. It names these two kinds of component; it does not state that every component is one of them. The encoded statement reads the two kinds as exhaustive, and reads 'participated form' as having its being by participation (DEF-PARTICIPATED-ESSE)."
+}

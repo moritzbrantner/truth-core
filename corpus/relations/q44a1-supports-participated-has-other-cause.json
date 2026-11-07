@@ -1,0 +1,9 @@
+{
+  "id": "REL-Q44A1-SUPPORTS-PARTICIPATED-HAS-OTHER-CAUSE",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q44-A1-PARTICIPATED-ESSE-CAUSE",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-PARTICIPATED-HAS-OTHER-CAUSE",
+  "note": "q.44 a.1 ad 1 says being by participation entails being caused by another. The encoded statement keeps that clause, reads 'caused' as having a distinct cause of its being, and omits the clause that being caused is not part of the notion of being simply. It does not identify participated esse with Platonic participation."
+}

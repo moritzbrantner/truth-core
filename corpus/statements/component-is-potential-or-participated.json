@@ -1,0 +1,14 @@
+{
+  "id": "STMT-COMPONENT-IS-POTENTIAL-OR-PARTICIPATED",
+  "paraphrase": "Every component of anything is in potency in some respect or has its being by participation. Reads the two kinds of component considered in ST I q.3 a.8's third reason (matter, which is in potency; a form that is part of a composite, which is participated) as exhaustive.",
+  "lean_declaration": "TruthCore.Causality.ComponentFirstness.ComponentIsPotentialOrParticipated",
+  "definition_ids": [
+    "DEF-POTENCY",
+    "DEF-PARTICIPATED-ESSE",
+    "DEF-SIMPLE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-POTENCY",
+    "DISAMB-THOMISTIC-ESSE-PARTICIPATION"
+  ]
+}
