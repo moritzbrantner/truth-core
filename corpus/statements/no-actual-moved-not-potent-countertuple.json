@@ -1,0 +1,14 @@
+{
+  "id": "STMT-NO-ACTUAL-MOVED-NOT-POTENT-COUNTERTUPLE",
+  "paraphrase": "Negation of the exact countertuple STMT-ACTUAL-MOVED-NOT-POTENT-COUNTERTUPLE on the same MovedIn and InPotency: nothing is moved in a respect without being in potency in that same respect.",
+  "lean_declaration": "TruthCore.Causality.RivalRefutationsRound2.NoMovedNotPotentCountertuple",
+  "definition_ids": [
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-POTENCY",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION",
+    "DISAMB-POTENCY"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "REL-PER-SE-CAUSAL-LOOP-IMPOSSIBLE-REFUTES",
+  "subject_kind": "argument",
+  "subject_id": "PER-SE-CAUSAL-LOOP-IMPOSSIBLE",
+  "predicate": "refutes",
+  "object_kind": "statement",
+  "object_id": "STMT-PER-SE-CAUSAL-LOOP",
+  "note": "Existing checked conditional refutation, recorded as a refutes relation (round 2 of the rival refutations). Its premises are open, so it does not count for closure until they are established (#391, #999)."
+}

@@ -6,5 +6,5 @@
   "theorem": "TruthCore.Results.Alternatives.EleaticRestSelfRefuting.eleaticThesisFalse",
   "comparator_config": "results/ELEATIC-THESIS-SELF-REFUTING/comparator.json",
   "status": "solution-present",
-  "description": "Derived, not a transcription: the conclusion is not the consequent of any premise, and the countermodels in the Comparator config show that each premise is needed. A refutation given its open premises; no refutes relation is recorded until they are closed (#391), and it closes no premise."
+  "description": "Derived, not a transcription: the conclusion is not the consequent of any premise, and the countermodels in the Comparator config show that each premise is needed. A refutation given its open premises; its refutes relation does not count until they are established (#391, #999), and it closes no premise."
 }

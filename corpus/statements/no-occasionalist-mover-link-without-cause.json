@@ -1,0 +1,12 @@
+{
+  "id": "STMT-NO-OCCASIONALIST-MOVER-LINK-WITHOUT-CAUSE",
+  "paraphrase": "Negation of the occasionalist rival STMT-OCCASIONALIST-MOVER-LINK-WITHOUT-CAUSE on the same MovesAsMoved and CausesAsCaused: there are no y and x such that y moves x as moved and y does not cause x as caused.",
+  "lean_declaration": "TruthCore.Causality.RivalRefutationsRound2.NoMoverLinkWithoutCauseLink",
+  "definition_ids": [
+    "DEF-PER-SE-ORDERED-SERIES",
+    "DEF-PER-SE-EFFICIENT-CAUSE-LINK"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSAL-SERIES"
+  ]
+}

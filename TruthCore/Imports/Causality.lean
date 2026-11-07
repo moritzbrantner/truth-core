@@ -97,6 +97,7 @@ public import TruthCore.Causality.PureActThisness
 public import TruthCore.Causality.PureIndiscernibility
 public import TruthCore.Causality.RegressReadings
 public import TruthCore.Causality.RegressRivalCoverage
+public import TruthCore.Causality.RivalRefutationsRound2
 public import TruthCore.Causality.RootEssenceIdentity
 public import TruthCore.Causality.RootIntellectWill
 public import TruthCore.Causality.RootIntellectWillOmission

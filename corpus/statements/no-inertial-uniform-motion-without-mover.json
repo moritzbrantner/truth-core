@@ -1,0 +1,14 @@
+{
+  "id": "STMT-NO-INERTIAL-UNIFORM-MOTION-WITHOUT-MOVER",
+  "paraphrase": "Negation of the inertial rival STMT-INERTIAL-UNIFORM-MOTION-WITHOUT-MOVER on the same MovedIn, MovesIn and UniformLocalMotion: nothing is being moved in a respect of uniform rectilinear motion while nothing moves it in that respect.",
+  "lean_declaration": "TruthCore.Causality.RivalRefutationsRound2.NoUniformMotionWithoutMover",
+  "definition_ids": [
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-RESPECT",
+    "DEF-UNIFORM-LOCAL-MOTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION",
+    "DISAMB-UNIFORM-MOTION-STATE-OR-BECOMING"
+  ]
+}

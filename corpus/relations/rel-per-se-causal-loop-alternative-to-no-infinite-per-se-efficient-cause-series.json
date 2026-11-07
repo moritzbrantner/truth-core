@@ -5,5 +5,5 @@
   "predicate": "alternative_to",
   "object_kind": "statement",
   "object_id": "STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES",
-  "note": "Class: countermodel/inconsistency. Refuted given open premises STMT-MIDDLE-CAUSE-EFFICIENTLY-CAUSES-ITS-EFFECT, STMT-EFFICIENT-CAUSE-IS-PRIOR-TO-EFFECT, STMT-NOTHING-PRIOR-TO-ITSELF and STMT-SIMPLE-PRIORITY-IS-TRANSITIVE (unsourced) by PER-SE-CAUSAL-LOOP-IMPOSSIBLE, from the Second Way's own priority premises. No refutes relation is recorded while that premise is open (#391: rule (c) does not yet check the premises of a refuting argument). Witness waiting (Thompson 2016, candidate THOMPSON-METAPHYSICAL-INTERDEPENDENCE, #378); the temporal bootstrap loops of #311 are per accidens and not this rival."
+  "note": "Class: countermodel/inconsistency. Refuted given open premises STMT-MIDDLE-CAUSE-EFFICIENTLY-CAUSES-ITS-EFFECT, STMT-EFFICIENT-CAUSE-IS-PRIOR-TO-EFFECT, STMT-NOTHING-PRIOR-TO-ITSELF and STMT-SIMPLE-PRIORITY-IS-TRANSITIVE (unsourced) by PER-SE-CAUSAL-LOOP-IMPOSSIBLE, from the Second Way's own priority premises. Its refutes relation REL-PER-SE-CAUSAL-LOOP-IMPOSSIBLE-REFUTES does not count while those premises are open (#391, #999). Witness waiting (Thompson 2016, candidate THOMPSON-METAPHYSICAL-INTERDEPENDENCE, #378); the temporal bootstrap loops of #311 are per accidens and not this rival."
 }

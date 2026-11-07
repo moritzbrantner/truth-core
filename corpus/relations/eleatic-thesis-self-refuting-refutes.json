@@ -1,0 +1,9 @@
+{
+  "id": "REL-ELEATIC-THESIS-SELF-REFUTING-REFUTES",
+  "subject_kind": "argument",
+  "subject_id": "ELEATIC-THESIS-SELF-REFUTING",
+  "predicate": "refutes",
+  "object_kind": "statement",
+  "object_id": "STMT-ELEATIC-NOTHING-IS-MOVED",
+  "note": "Existing checked conditional refutation, recorded as a refutes relation (round 2 of the rival refutations). Its premises are open, so it does not count for closure until they are established (#391, #999)."
+}
