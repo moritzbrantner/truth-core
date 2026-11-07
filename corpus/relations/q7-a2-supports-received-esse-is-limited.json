@@ -1,9 +1,0 @@
-{
-  "id": "REL-Q7-A2-SUPPORTS-RECEIVED-ESSE-IS-LIMITED",
-  "subject_kind": "claim",
-  "subject_id": "AQUINAS-ST-I-Q7-A1-UNLIMITED-ESSE-INFINITE",
-  "predicate": "supports",
-  "object_kind": "statement",
-  "object_id": "STMT-RECEIVED-ESSE-IS-LIMITED",
-  "note": "The claim's interpretation cites q.7 a.2 co., which says the esse of a subsistent created form is 'receptum et contractum ad determinatam naturam' and hence not infinite simpliciter. The passage says this of created subsistent forms only; that every received esse is limited is the analyst's generalization."
-}

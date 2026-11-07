@@ -71,7 +71,7 @@ theorem ownBeingOfUnlimitedEsse {B P : Type} (EsseLimited OwnBeing : B → Prop)
   fun x hx => hUnreceived x (fun r hr => hx (hContracted x r hr))
 
 /-- Whatever is infinite has every pure perfection: its esse is not limited
-(infinite means not finite), so not received (q.7 a.2), so it is its own being
+(premise: the infinite is not finite, q.7 a.1 read conversely), so not received (q.7 a.2), so it is its own being
 (q.7 a.1), which lacks no perfection of being (SCG I.28), and every pure
 perfection is one (q.4 a.2). -/
 theorem infiniteHasEveryPurePerfection {B P D : Type}

@@ -15,8 +15,9 @@ ST I q.7 a.1 co. explains limitation by reception: a form "per hoc quod
 recipitur in materia, fit forma determinate huius rei", matter contracts its
 amplitude, and since esse is "maxime formale omnium", God, whose esse "non sit
 esse receptum in aliquo, sed ipse sit suum esse subsistens", is infinite. Ad 3
-pairs "per se subsistens" with "non receptum in aliquo", as an unreceived
-whiteness would be subsistent whiteness. Q.7 a.2 co. says the esse of a
+joins "per se subsistens" and "non receptum in aliquo" in God's esse, and says a
+subsistent whiteness, by not being in another, would differ from all whiteness
+in a subject; it never infers subsistence from non-reception. Q.7 a.2 co. says the esse of a
 subsistent created form, which "non est suum esse", is "receptum et contractum".
 Q.4 a.1 ad 3 says esse "non comparatur ad alia sicut recipiens ad receptum".
 
@@ -29,7 +30,7 @@ created essence to its esse, a subject to its accidents). It is not
 `EsseReceivedIn` (reception of x's esse in a given principle; nothing here says a
 being with received esse is a `Recipient`) and not the legacy `InPotency x r`
 (able to have a respect without having it). Examples: a piece of wood (its matter
-receives its form, it receives accidental shapes, q.7 a.2 co.); counterexample:
+receives its form, it is in potency to further shapes, q.7 a.2 co.); counterexample:
 subsistent esse as q.4 a.1 ad 3 describes it.
 
 The derivations replace no source claim and edit no existing statement. -/
@@ -42,8 +43,8 @@ variable {B P D : Type}
 
 /-- q.7 a.1 co. with ad 3, read as a general conditional: whatever has an esse
 received in no principle is its own subsistent being. The source asserts both
-halves of God and, in ad 3, of a hypothetical subsistent whiteness; the general
-conditional is the analyst's reading. It is only as strong as the reception
+halves of God, and ad 3 joins them in God's esse; the general conditional, from
+non-reception to subsistence, is the analyst's reading. It is only as strong as the reception
 relation is complete: if an interpretation records no reception at all, every
 being is its own being. -/
 def UnreceivedEsseIsOwnBeing (EsseReceivedIn : B → P → Prop) (OwnBeing : B → Prop) : Prop :=
@@ -57,8 +58,10 @@ def OwnBeingIsNoRecipient (OwnBeing Recipient : B → Prop) : Prop :=
 
 /-- q.7 a.1 co., generalized from form and esse to every real determination: a
 being in which nothing is received has only pure determinations. A form is
-determined and contracted only by the matter that receives it, and an
-undetermined form "habet rationem perfecti". The generalization, and the claim
+determined and contracted by the matter that receives it, and "infinitum
+secundum quod se tenet ex parte formae non determinatae per materiam, habet
+rationem perfecti". That reception is the only source of limitation, the
+generalization, and the claim
 that individuating principles, potencies and privations (the other non-pure
 determinations of DEF-PURE-PERFECTION) occur only in recipients, are the
 analyst's. -/

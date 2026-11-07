@@ -1,6 +1,6 @@
 {
   "id": "STMT-RECEPTION-LIMITATION-CONTROLS",
-  "paraphrase": "Finite one-being interpretations: for each of the four derivations of RECEPTION-LIMITATION, one model per premise in which the other premises hold and the conclusion fails, and one model in which all premises and the conclusion hold. Satisfiability and omission only; no model is claimed to describe reality.",
+  "paraphrase": "Finite one-being interpretations: for each of the four derivations UNLIMITED-IS-OWN-BEING-FROM-RECEPTION, UNLIMITED-DETERMINATIONS-PURE-FROM-RECEPTION, INFINITE-PERFECTION-FROM-RECEPTION and UNLIMITED-ESSE-INFINITE-FROM-OWN-BEING, one model per premise in which the other premises hold and the conclusion fails, and one model in which all premises and the conclusion hold. Satisfiability and omission only; no model is claimed to describe reality.",
   "lean_declaration": "TruthCore.Causality.ReceptionLimitation.Control.Certificate",
   "definition_ids": [
     "DEF-RECIPIENT",

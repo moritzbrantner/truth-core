@@ -1,6 +1,6 @@
 {
   "id": "STMT-UNRECEIVED-ESSE-IS-OWN-BEING",
-  "paraphrase": "OPEN analyst reading of ST I q.7 a.1 co. with ad 3: for every being x, if the esse of x is received in no principle, then x is its own subsistent being (the primitive own-being predicate of SCG I.28). The passage asserts of God both that his esse is not received in anything and that he is his own subsistent esse, and ad 3 pairs 'per se subsistens' with 'non receptum in aliquo' (as an unreceived whiteness would be subsistent whiteness); the general conditional is the analyst's. It is only as strong as the reception relation is complete.",
+  "paraphrase": "OPEN analyst reading of ST I q.7 a.1 co. with ad 3: for every being x, if the esse of x is received in no principle, then x is its own subsistent being (the primitive own-being predicate of SCG I.28). The passage asserts of God both that his esse is not received in anything and that he is his own subsistent esse, and ad 3 joins 'per se subsistens' and 'non receptum in aliquo' in God's esse (a subsistent whiteness, by not being in another, would differ from all whiteness in a subject); the passage never infers subsistence from non-reception, so the general conditional is the analyst's. It is only as strong as the reception relation is complete.",
   "lean_declaration": "TruthCore.Causality.ReceptionLimitation.UnreceivedEsseIsOwnBeing",
   "definition_ids": [
     "DEF-ESSE-RECEIVED-IN",
