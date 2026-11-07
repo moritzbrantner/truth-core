@@ -1,0 +1,9 @@
+{
+  "id": "REL-L13-PRIORS-NOT-DEPENDENT-SUPPORTS-DISTINCT-BEINGS-NOT-MUTUALLY-DEPENDENT",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-IN-METAPH-V-L13-PRIORS-NOT-DEPENDENT-A",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-DISTINCT-BEINGS-NOT-MUTUALLY-DEPENDENT",
+  "note": "In V Metaph. lect. 13 n. 18 states that dependence between a prior and its posterior is one-way (priora non dependent a posterioribus, sicut e converso). The premise generalizes this to every pair of distinct beings one of which depends for its being on the other. That needs the unstated step that whatever x depends on is prior to x; without it, the passage leaves open mutual dependence between things not ordered as prior and posterior (for example correlatives, or Lewisian counterfactual dependence)."
+}

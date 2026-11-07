@@ -1,0 +1,9 @@
+{
+  "id": "REL-Q25-A1-ACTIVE-SUPPORTS-EVERY-EXISTENT-HAS-CAUSAL-POWER",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q25-A1-ACTIVE-PRINCIPLE-IN-ACT",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-EVERY-EXISTENT-HAS-CAUSAL-POWER",
+  "note": "ST I q.25 a.1 co. states that each thing is an active principle, active power being the principle of acting on another, according as it is in act. The premise (every existent has causal power) needs two steps the passage does not state: that being in act suffices for active power (the claim attributes only the converse), and that every existent is in act in some respect (ST I q.4 a.1 ad 3 and q.3 a.4 bear on that). Platonists about inert abstracta and epiphenomenalists deny the conclusion."
+}

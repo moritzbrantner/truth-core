@@ -1,0 +1,9 @@
+{
+  "id": "REL-SCG-II-80-UNITED-SOUL-ATTACKS-HAVER-DEPENDS-ON-RECIPIENT",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-SCG-II-80-UNITED-SOUL-ESSE-RECEIVED-BY-BODY",
+  "predicate": "attacks",
+  "object_kind": "statement",
+  "object_id": "STMT-HAVER-DEPENDS-ON-RECIPIENT",
+  "note": "SCG II.80 n.13 states that the united human soul's esse, though 'absolutum a corpore non dependens', has the body as the subject receiving it. Read with y = the soul, r = esse and z = the body, this is a source counterinstance to the premise that whatever has a perfection received in z depends for its being on z. It bites only if the premise's 'received in' covers the body's receiving the soul's esse and its dependence is the dependence the passage denies; the premise's own gloss (the receiving principle is intrinsic, as matter to the composite) may be read to exclude it. Not a refutation: a recorded objection, from Aquinas himself, that a source search for supports met instead."
+}

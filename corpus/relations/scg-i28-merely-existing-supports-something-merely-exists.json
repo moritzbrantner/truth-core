@@ -1,0 +1,9 @@
+{
+  "id": "REL-SCG-I28-MERELY-EXISTING-SUPPORTS-SOMETHING-MERELY-EXISTS",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-SCG-I28-MERELY-EXISTING-PARTICIPATION",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-SOMETHING-MERELY-EXISTS",
+  "note": "SCG I.28 [1] and [4] (Pegis English) compare 'things that exist and live' with 'things that merely exist' and say the latter participate in being in a particular and most imperfect mode. The premise states that some actual thing does not live. The chapter presupposes, without asserting or giving an example, that there are things that merely exist; the premise remains an empirical one (a stone)."
+}
