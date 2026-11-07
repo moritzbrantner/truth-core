@@ -1,0 +1,14 @@
+{
+  "id": "STMT-PARTICIPATED-HAS-OTHER-CAUSE",
+  "paraphrase": "Whatever has its being by participation has a cause of its being other than itself. Encodes the first clause of ST I q.44 a.1 ad 1 (being by participation entails being caused by another); the second clause, that being caused is not part of being simply, is not encoded.",
+  "lean_declaration": "TruthCore.Causality.ComponentFirstness.ParticipatedHasOtherCause",
+  "definition_ids": [
+    "DEF-PARTICIPATED-ESSE",
+    "DEF-ESSE",
+    "DEF-EXTERNAL-CAUSE-OF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THOMISTIC-ESSE-PARTICIPATION",
+    "DISAMB-BEING"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "INF-COMPONENT-FIRSTNESS-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-COMPONENT-FIRSTNESS-CONTROLS",
+  "rule": "Explicit finite interpretations",
+  "meaning": "Finite interpretations with one component (false of true). Omitting in turn the potential-or-participated disjunction, act priority, the same-respect exclusion, the participation cause, or efficient priority, with the other four holding, makes the component first in being. A positive model satisfies all five with the conclusion. Satisfiability of encoded bundles, not metaphysical possibility.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

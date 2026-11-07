@@ -1,0 +1,18 @@
+{
+  "id": "ATTEMPT-NO-COMPONENT-FIRST-DERIVATION",
+  "date": "2026-11-07",
+  "statement_ids": [
+    "STMT-NO-COMPONENT-IS-FIRST-BEING",
+    "STMT-COMPONENT-IS-POTENTIAL-OR-PARTICIPATED",
+    "STMT-PARTICIPATED-HAS-OTHER-CAUSE",
+    "STMT-PARTICIPATED-ESSE-REQUIRES-OTHER-CAUSE"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "#356 asked to derive STMT-NO-COMPONENT-IS-FIRST-BEING. The route premises alone do not suffice: component priority runs from component to composite, and the uniting cause is prior only to the composite, so a first being that is a component contradicts nothing there. ST I q.3 a.8's own third reason supplies the structure: each component is in potency or participated; potency is posterior to act (route premise, with the route's same-respect exclusion), and the participated has another cause (the definition-linked q.44 a.1 statement, encoded as a supported sibling), which as efficient cause is prior (existing Secunda Via reading). Five omission controls and a positive model.",
+  "blocker": "The exhaustiveness of 'potential or participated' over all components is an analyst reading of q.3 a.8 (supported, not stated). The uniting-cause route suggested in #356 does not yield the conclusion without a further premise that the uniting cause is prior to each component.",
+  "evidence": [
+    "NO-COMPONENT-FIRST-FROM-POTENCY-OR-PARTICIPATION",
+    "COMPONENT-FIRSTNESS-CONTROLS"
+  ]
+}

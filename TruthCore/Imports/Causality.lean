@@ -24,6 +24,7 @@ public import TruthCore.Causality.ClassicalGodRevelationBoundary
 public import TruthCore.Causality.CogitoNecessaryConcrete
 public import TruthCore.Causality.CommonPriority
 public import TruthCore.Causality.CompleteCauseContributorCover
+public import TruthCore.Causality.ComponentFirstness
 public import TruthCore.Causality.ComposerTemporalDefinitionFork
 public import TruthCore.Causality.ConcreteExistentialSupply
 public import TruthCore.Causality.ConstitutiveConfiguration
