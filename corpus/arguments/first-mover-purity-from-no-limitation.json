@@ -1,0 +1,29 @@
+{
+  "id": "FIRST-MOVER-PURITY-FROM-NO-LIMITATION",
+  "premise_statement_ids": [
+    "STMT-FIRST-UNMOVED-MOVER-IS-SIMPLE",
+    "STMT-FIRST-UNMOVED-MOVER-IS-FIRST-BEING",
+    "STMT-UNLIMITED-DETERMINATIONS-ARE-PURE"
+  ],
+  "conclusion_statement_id": "STMT-FIRST-MOVER-DETERMINATIONS-ARE-PURE",
+  "inference_ids": [
+    "INF-FIRST-MOVER-PURITY-FROM-NO-LIMITATION"
+  ],
+  "meaning": "For each first unmoved mover, the existing simplicity reading excludes composition and esse other than essence, and the first-mover-is-first-being bridge excludes a distinct simply-prior being; so the first mover has none of the three represented limiting principles, and the open bridge STMT-UNLIMITED-DETERMINATIONS-ARE-PURE makes every real determination of it a pure perfection. This derives the former bare leaf STMT-FIRST-MOVER-DETERMINATIONS-ARE-PURE from two statements already on the Prima Via routes and the same bridge that yields strict pure actuality at the actual roots (ROOT-PURITY-FROM-NO-LIMITATION). The simplicity reading's body and matter-form clauses are not used. All three premises stay open; the bridge is not defended here.",
+  "definition_ids": [
+    "DEF-FIRST-UNMOVED-MOVER",
+    "DEF-SIMPLE",
+    "DEF-ESSE",
+    "DEF-FIRST-BEING",
+    "DEF-SIMPLE-PRIORITY",
+    "DEF-HAS-LIMITING-PRINCIPLE",
+    "DEF-REAL-DETERMINATION",
+    "DEF-PURE-PERFECTION",
+    "DEF-STRICT-PURE-ACTUALITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PURE-ACT-STRICTNESS",
+    "DISAMB-NATURE-DIFFERENCE-LIMITATION",
+    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"
+  ]
+}
