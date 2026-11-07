@@ -1,0 +1,15 @@
+{
+  "id": "STMT-BEING-MOVED-IS-ACTUALIZATION-OF-UNACTUALIZED-CAPACITY",
+  "paraphrase": "OPEN analyst premise: being moved in r is the actualization, qua potential, of an unactualized capacity for r: ∀ x r, MovedIn x r ↔ (CanBe x r ∧ ¬ InAct x r) ∧ ActualizedQuaPotential x r. The buildable, able to be a house and not yet one, being built. It replaces Physics III.1's 'the potential' by 'an unactualized capacity'.",
+  "lean_declaration": "TruthCore.Causality.Round3CogitoBase.BeingMovedIsActualizationOfUnactualizedCapacity",
+  "definition_ids": [
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-CAPACITY-TO-BE",
+    "DEF-ACT",
+    "DEF-ACTUALIZATION-QUA-POTENTIAL",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION"
+  ]
+}

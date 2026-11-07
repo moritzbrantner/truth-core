@@ -1,0 +1,22 @@
+{
+  "id": "COGITO-BORNE-THOUGHT-IS-OPINING-FROM-ASSENT",
+  "premise_statement_ids": [
+    "STMT-COGITO-OCCURRING-THOUGHT-IS-ASSENTING",
+    "STMT-ASSENTING-BEARER-OPINES-CONTENT"
+  ],
+  "conclusion_statement_id": "STMT-COGITO-BORNE-THOUGHT-IS-OPINING",
+  "inference_ids": [
+    "INF-COGITO-BORNE-THOUGHT-IS-OPINING-FROM-ASSENT"
+  ],
+  "meaning": "Every occurring thought episode is assenting (OPEN), and the bearer of an assenting episode opines its content (OPEN); hence whoever bears an occurring thought opines its content. A chain through the distinct middle term Assenting (#1214). The first premise is the load-bearing and contested one: a borne willing or doubt without assent falsifies it (NonAssentingThought).",
+  "definition_ids": [
+    "DEF-ASSENTING-EPISODE",
+    "DEF-BORNE-THOUGHT-AS-OPINING",
+    "DEF-OPINING",
+    "DEF-THOUGHT-BEARER",
+    "DEF-THOUGHT-OCCURRENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THOUGHT-VS-OPINING"
+  ]
+}

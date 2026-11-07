@@ -1,0 +1,30 @@
+# Round 3 map: excluded middle.
+target = "STMT-EXCLUDED-MIDDLE"
+
+[[node]]
+id = "STMT-EXCLUDED-MIDDLE"
+
+[[node]]
+id = "NEW-DOUBLE-NEGATION-ELIMINATION"
+new = true
+text = "Double-negation elimination: for every proposition p, if not-not-p then p (Lean TruthCore.Logic.DoubleNegationElimination; no statement record)."
+
+[[node]]
+id = "STMT-EXCLUDED-MIDDLE-NOT-DENIABLE"
+
+[[node]]
+id = "STMT-EXCLUDED-MIDDLE-IFF-DOUBLE-NEGATION-ELIMINATION"
+
+[[edge]]
+premises = ["NEW-DOUBLE-NEGATION-ELIMINATION"]
+conclusion = "STMT-EXCLUDED-MIDDLE"
+kind = "derivation"
+status = "rejected"
+note = "Equivalent premise; deriving an established floor premise from an equivalent open one de-establishes it in route expansion. The proof (DNE applied to the constructive ¬¬(p ∨ ¬p)) is valid but was withdrawn (ATTEMPT-ROUND3-COGITO-BASE-REJECTED-EDGES)."
+
+[[edge]]
+premises = ["STMT-EXCLUDED-MIDDLE-NOT-DENIABLE"]
+conclusion = "STMT-EXCLUDED-MIDDLE"
+kind = "derivation"
+status = "rejected"
+note = "Irrefutability does not give excluded middle constructively (independence is meta-theoretic); the retorsion excludes denial, not withholding (ATTEMPT-ROUND3-COGITO-BASE-REJECTED-EDGES)."

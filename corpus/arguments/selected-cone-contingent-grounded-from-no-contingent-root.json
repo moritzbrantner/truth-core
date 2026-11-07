@@ -1,0 +1,33 @@
+{
+  "id": "SELECTED-CONE-CONTINGENT-GROUNDED-FROM-NO-CONTINGENT-ROOT",
+  "premise_statement_ids": [
+    "STMT-SELECTED-NO-CONTINGENT-ROOT-ANCESTOR",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-SELECTED-CONE-CONTINGENT-GROUNDED",
+  "inference_ids": [
+    "INF-SELECTED-CONE-CONTINGENT-GROUNDED-FROM-NO-CONTINGENT-ROOT"
+  ],
+  "meaning": "If the selected cone has no contingent root ancestor (OPEN), then every contingent cone member has an actual concrete ground: by excluded middle it has one or has none, and if none it would be a contingent root ancestor. The cone-local analogue of everyContingentGrounded_iff_noContingentRoot; a relocation to the denial of a brute contingent foundation in the cone, not a defence of it.",
+  "definition_ids": [
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-ACTUAL-GROUNDING-WF",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-CONCRETE-ESSE-IN-RE",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-SELECTED-ANCESTRY-CONE",
+    "DEF-SELECTED-CONE-CONTINGENT-GROUNDED",
+    "DEF-SELECTED-CONE-WELL-FOUNDED",
+    "DEF-SELECTED-NECESSARY-ROOT-ANCESTOR",
+    "DEF-SELF-EVIDENT-MARKING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING"
+  ]
+}

@@ -1,0 +1,30 @@
+# Round 3 map: potency is unactualized capacity (Metaphysics IX.6 reading).
+target = "STMT-POTENCY-IS-UNACTUALIZED-CAPACITY"
+
+[[node]]
+id = "STMT-POTENCY-IS-UNACTUALIZED-CAPACITY"
+
+# New this round (bare + supported, OPEN).
+[[node]]
+id = "STMT-POTENCY-IS-CAPACITY-UNDER-PRIVATION"
+
+# New this round (supported, OPEN).
+[[node]]
+id = "STMT-PRIVATION-IS-LACK-OF-ACT-IN-CAPABLE"
+
+[[node]]
+id = "STMT-QUALIFIED-GENERATION-FROM-PRIVATION"
+
+[[edge]]
+premises = ["STMT-POTENCY-IS-CAPACITY-UNDER-PRIVATION", "STMT-PRIVATION-IS-LACK-OF-ACT-IN-CAPABLE"]
+conclusion = "STMT-POTENCY-IS-UNACTUALIZED-CAPACITY"
+kind = "derivation"
+status = "certified"
+note = "Certified as POTENCY-IS-UNACTUALIZED-CAPACITY-FROM-PRIVATION (biconditional chain through privation)."
+
+[[edge]]
+premises = ["STMT-QUALIFIED-GENERATION-FROM-PRIVATION"]
+conclusion = "STMT-POTENCY-IS-CAPACITY-UNDER-PRIVATION"
+kind = "source"
+status = "rejected"
+note = "Not a derivation: the Physics I.8 claim bears on but does not state the identification; recorded as REL-PHYS-191B-PRIVATION-SUPPORTS-POTENCY-UNDER-PRIVATION with its gap."

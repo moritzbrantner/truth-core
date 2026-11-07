@@ -1,0 +1,29 @@
+# Round 3 map: being moved is the actualization of a potency (Physics III.1 reading).
+target = "STMT-BEING-MOVED-IS-ACTUALIZATION-OF-POTENCY"
+
+[[node]]
+id = "STMT-BEING-MOVED-IS-ACTUALIZATION-OF-POTENCY"
+
+# New this round (supported, OPEN).
+[[node]]
+id = "STMT-BEING-MOVED-IS-ACTUALIZATION-OF-UNACTUALIZED-CAPACITY"
+
+[[node]]
+id = "STMT-POTENCY-IS-UNACTUALIZED-CAPACITY"
+
+[[node]]
+id = "STMT-MOTION-INCOMPLETE-ACTUALITY"
+
+[[edge]]
+premises = ["STMT-BEING-MOVED-IS-ACTUALIZATION-OF-UNACTUALIZED-CAPACITY", "STMT-POTENCY-IS-UNACTUALIZED-CAPACITY"]
+conclusion = "STMT-BEING-MOVED-IS-ACTUALIZATION-OF-POTENCY"
+kind = "derivation"
+status = "certified"
+note = "Certified as BEING-MOVED-FROM-UNACTUALIZED-CAPACITY (biconditional chain through unactualized capacity); composes with POTENCY-IS-UNACTUALIZED-CAPACITY-FROM-PRIVATION."
+
+[[edge]]
+premises = ["STMT-MOTION-INCOMPLETE-ACTUALITY"]
+conclusion = "STMT-BEING-MOVED-IS-ACTUALIZATION-OF-POTENCY"
+kind = "derivation"
+status = "mapped"
+note = "Open lead: III.2's incomplete-actuality reading is over occurrences, not beings in respects; it needs an occurrence-to-moved-being bridge and an analysis of incompleteness as surviving potency."

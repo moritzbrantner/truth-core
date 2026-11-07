@@ -1,0 +1,11 @@
+{
+  "id": "STMT-ROUND3-COGITO-BASE-CONTROLS",
+  "paraphrase": "Finite interpretations for the round 3 Cogito/existence-base batch: omission models for every load-bearing premise other than excluded middle (which holds in every classical model and is not provable without an axiom), and joint nonvacuity witnesses for the Cogito, grounding and act/potency vocabularies. Satisfiability and omission only.",
+  "lean_declaration": "TruthCore.Causality.Round3CogitoBase.Control.Certificate",
+  "definition_ids": [
+    "DEF-PERFORMED-DOUBT-OF-THOUGHT",
+    "DEF-ASSENTING-EPISODE",
+    "DEF-PRIVATION-IN-CAPABLE-SUBJECT",
+    "DEF-ACTUAL-GROUNDING-FINITE-RANK"
+  ]
+}

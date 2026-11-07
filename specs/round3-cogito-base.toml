@@ -1,0 +1,228 @@
+# Round 3: Cogito/existence base and Aristotelian analyses (explorations/cogito-*.toml,
+# explorations/selected-*.toml, explorations/actual-concrete-borrowing-escape.toml,
+# explorations/potency-is-unactualized-capacity.toml,
+# explorations/being-moved-is-actualization-of-potency.toml, explorations/excluded-middle.toml (rejected edge only)).
+# Analyst formulations, attribution deferred: every new statement is an OPEN premise.
+
+[batch]
+vocab = "TruthCore.Causality.Round3CogitoBase"
+results = "TruthCore.Results.Causality.Round3CogitoBase"
+
+# ---- Cogito by retorsion ----
+
+[[statement]]
+id = "STMT-COGITO-DOUBT-IS-PERFORMED"
+lean = "DoubtIsPerformed"
+paraphrase = "OPEN premise: some doubt (or denial) whether any thought episode occurs is actually performed: ∃ a, Performed a ∧ DoubtsThought a. It is the inquirer's own present act, not a general principle; an unperformed doubt does not satisfy it."
+definitions = ["DEF-PERFORMED-DOUBT-OF-THOUGHT"]
+
+[[statement]]
+id = "STMT-COGITO-PERFORMED-DOUBT-IS-THOUGHT"
+lean = "PerformedDoubtIsThought"
+paraphrase = "OPEN analyst bridge (doubting is a mode of thinking): every performed doubt whether thought occurs is realized by some occurring thought episode: ∀ a, Performed a → DoubtsThought a → ∃ e, Occurs e ∧ Realizes a e. A behaviourist who counts a doubt as a disposition with no occurring episode rejects it."
+definitions = ["DEF-PERFORMED-DOUBT-OF-THOUGHT", "DEF-THOUGHT-OCCURRENCE"]
+
+[[statement]]
+id = "STMT-COGITO-PERFORMED-DOUBT-OF-THOUGHT-SELF-REFUTING"
+lean = "PerformedDoubtOfThoughtSelfRefuting"
+paraphrase = "Retorsion: whoever actually performs a doubt or denial that any thought occurs makes the doubted content false: ∀ a, Performed a → DoubtsThought a → ¬ NoEpisodeOccurs Occurs. It says nothing about an unperformed doubt and does not assert that any doubt is performed."
+definitions = ["DEF-PERFORMED-DOUBT-OF-THOUGHT", "DEF-THOUGHT-OCCURRENCE"]
+
+# ---- Opining ----
+
+[[statement]]
+id = "STMT-COGITO-OCCURRING-THOUGHT-IS-ASSENTING"
+lean = "OccurringThoughtIsAssenting"
+paraphrase = "OPEN premise: every occurring thought episode is an assenting episode (it takes its content to be so): ∀ e, Occurs e → Assenting e. False on a broad cogitatio that counts willing or doubting as thinking; its omission model is a borne willing."
+definitions = ["DEF-ASSENTING-EPISODE", "DEF-THOUGHT-OCCURRENCE"]
+
+[[statement]]
+id = "STMT-ASSENTING-BEARER-OPINES-CONTENT"
+lean = "AssentingBearerOpinesContent"
+paraphrase = "OPEN premise: the bearer of an assenting episode opines that episode's content: ∀ b e, Bears b e → Assenting e → Opines b (content e)."
+definitions = ["DEF-ASSENTING-EPISODE", "DEF-THOUGHT-BEARER", "DEF-OPINING", "DEF-BORNE-THOUGHT-AS-OPINING"]
+disambiguations = ["DISAMB-THOUGHT-VS-OPINING"]
+
+# ---- Selected bearer ----
+
+[[statement]]
+id = "STMT-SELECTED-BEARS-OCCURRING-THOUGHT"
+lean = "SelectedBearsOccurringThought"
+paraphrase = "OPEN premise: the selected being bears some occurring thought episode: ∃ e, Occurs e ∧ Bears selected e. It selects the thinker as the being whose grounding cone is examined; nothing about substance, persistence or necessity of the bearer."
+definitions = ["DEF-THOUGHT-OCCURRENCE", "DEF-THOUGHT-BEARER", "DEF-SELECTED-ANCESTRY-CONE"]
+
+# ---- Grounding ----
+
+[[statement]]
+id = "STMT-ACTUAL-GROUNDING-FINITE-RANK"
+lean = "ActualGroundingFiniteRank"
+paraphrase = "OPEN analyst framework premise: actual concrete grounding at w descends along a natural-number rank: ∃ rank : B → ℕ, whenever an actual concretum y grounds an actual concretum x, rank y < rank x. Every actual concretum sits at a finite grounding level. Strictly stronger than STMT-ACTUAL-GROUNDING-WF: a transfinite grounding hierarchy is well-founded with no Nat rank."
+definitions = ["DEF-ACTUAL-GROUNDING-FINITE-RANK", "DEF-ACTUAL-GROUNDING-WF", "DEF-CONCRETE-ESSE-IN-RE"]
+
+[[statement]]
+id = "STMT-SELECTED-NO-CONTINGENT-ROOT-ANCESTOR"
+lean = "NoContingentRootAncestor"
+paraphrase = "OPEN premise: the selected being's complete actual grounding cone has no contingent root ancestor, i.e. no actual concrete ground-ancestor that is contingent at w and has no actual concrete ground: ¬ ContingentRootAncestor m w selected. With excluded middle it is the cone-local denial of a brute contingent foundation."
+definitions = ["DEF-SELECTED-ANCESTRY-CONE", "DEF-SELECTED-CONE-CONTINGENT-GROUNDED", "DEF-KANT-MODAL-CONTINGENCY", "DEF-CONCRETE-ESSE-IN-RE"]
+
+# ---- Act and potency ----
+
+[[statement]]
+id = "STMT-POTENCY-IS-CAPACITY-UNDER-PRIVATION"
+lean = "PotencyIsCapacityUnderPrivation"
+paraphrase = "OPEN analyst premise: to be in potency to r is to be capable of r and deprived of r: ∀ x r, InPotency x r ↔ CanBe x r ∧ Deprived x r. The subject-privation pair of Physics I.7-8 applied to capacities; the identification is the analyst's."
+definitions = ["DEF-POTENCY", "DEF-CAPACITY-TO-BE", "DEF-PRIVATION-IN-CAPABLE-SUBJECT", "DEF-RESPECT"]
+
+[[statement]]
+id = "STMT-PRIVATION-IS-LACK-OF-ACT-IN-CAPABLE"
+lean = "PrivationIsLackOfActInCapable"
+paraphrase = "OPEN analyst premise: in a subject capable of r, privation of r is exactly the lack of r in act: ∀ x r, CanBe x r → (Deprived x r ↔ ¬ InAct x r). It says nothing about incapable subjects (a mere negation is no privation)."
+definitions = ["DEF-PRIVATION-IN-CAPABLE-SUBJECT", "DEF-CAPACITY-TO-BE", "DEF-ACT", "DEF-RESPECT"]
+
+[[statement]]
+id = "STMT-BEING-MOVED-IS-ACTUALIZATION-OF-UNACTUALIZED-CAPACITY"
+lean = "BeingMovedIsActualizationOfUnactualizedCapacity"
+paraphrase = "OPEN analyst premise: being moved in r is the actualization, qua potential, of an unactualized capacity for r: ∀ x r, MovedIn x r ↔ (CanBe x r ∧ ¬ InAct x r) ∧ ActualizedQuaPotential x r. The buildable, able to be a house and not yet one, being built. It replaces Physics III.1's 'the potential' by 'an unactualized capacity'."
+definitions = ["DEF-MOTION-AS-REDUCTION", "DEF-CAPACITY-TO-BE", "DEF-ACT", "DEF-ACTUALIZATION-QUA-POTENTIAL", "DEF-RESPECT"]
+disambiguations = ["DISAMB-MOTION"]
+
+# ---- Controls ----
+
+[[statement]]
+id = "STMT-ROUND3-COGITO-BASE-CONTROLS"
+lean = "Control.Certificate"
+paraphrase = "Finite interpretations for the round 3 Cogito/existence-base batch: omission models for every load-bearing premise other than excluded middle (which holds in every classical model and is not provable without an axiom), and joint nonvacuity witnesses for the Cogito, grounding and act/potency vocabularies. Satisfiability and omission only."
+definitions = ["DEF-PERFORMED-DOUBT-OF-THOUGHT", "DEF-ASSENTING-EPISODE", "DEF-PRIVATION-IN-CAPABLE-SUBJECT", "DEF-ACTUAL-GROUNDING-FINITE-RANK"]
+
+# ---- Arguments ----
+
+[[argument]]
+id = "COGITO-THOUGHT-OCCURS-FROM-PERFORMED-DOUBT"
+theorem = "thoughtOccursFromPerformedDoubt"
+premises = ["STMT-COGITO-DOUBT-IS-PERFORMED", "STMT-COGITO-PERFORMED-DOUBT-IS-THOUGHT"]
+conclusion = "STMT-COGITO-THOUGHT-OCCURS"
+rule = "Existential instantiation and modus ponens (Darii)"
+meaning = "Cogito by retorsion: some doubt whether thought occurs is performed (OPEN), and every performed doubt of that kind is realized by an occurring thought episode (OPEN); hence some thought episode occurs. The middle term is the performed doubting act, a separate carrier from thought episodes. Both premises stay open; the conclusion is relocated to the inquirer's own performed act and the doubting-is-thinking bridge. Nothing about a bearer, substance or concreteness follows."
+
+[[argument]]
+id = "COGITO-PERFORMED-DOUBT-SELF-REFUTING"
+theorem = "performedDoubtSelfRefuting"
+premises = ["STMT-COGITO-PERFORMED-DOUBT-IS-THOUGHT"]
+conclusion = "STMT-COGITO-PERFORMED-DOUBT-OF-THOUGHT-SELF-REFUTING"
+rule = "Reductio"
+meaning = "The retorsion step: if every performed doubt whether thought occurs is realized by an occurring thought (OPEN), then performing such a doubt falsifies its content 'no thought episode occurs'. It does not assert that any doubt is performed; an unperformed doubt can be true (EmptyEpisodeControl)."
+
+[[argument]]
+id = "COGITO-BORNE-THOUGHT-IS-OPINING-FROM-ASSENT"
+theorem = "borneThoughtIsOpiningFromAssent"
+premises = ["STMT-COGITO-OCCURRING-THOUGHT-IS-ASSENTING", "STMT-ASSENTING-BEARER-OPINES-CONTENT"]
+conclusion = "STMT-COGITO-BORNE-THOUGHT-IS-OPINING"
+rule = "Universal instantiation and modus ponens (Barbara)"
+meaning = "Every occurring thought episode is assenting (OPEN), and the bearer of an assenting episode opines its content (OPEN); hence whoever bears an occurring thought opines its content. A chain through the distinct middle term Assenting (#1214). The first premise is the load-bearing and contested one: a borne willing or doubt without assent falsifies it (NonAssentingThought)."
+
+[[argument]]
+id = "SELECTED-ACTUAL-CONCRETE-FROM-BORNE-THOUGHT"
+theorem = "selectedActualConcreteFromBorneThought"
+premises = ["STMT-SELECTED-BEARS-OCCURRING-THOUGHT", "STMT-COGITO-BEARER-IS-CONCRETE", "STMT-COGITO-BEARER-EXISTS-AT-WORLD"]
+conclusion = "STMT-SELECTED-ACTUAL-CONCRETE"
+rule = "Existential instantiation and universal instantiation (Darii, twice)"
+meaning = "The selected being bears an occurring thought episode (OPEN); every bearer of an occurring thought is concrete (OPEN) and exists at w (OPEN); hence the selected being is an actual concretum at w. Middle term: the occurring episode it bears. Concreteness and existence at w come from the two bearer bridges, which stay open."
+
+[[argument]]
+id = "ACTUAL-GROUNDING-WF-FROM-FINITE-RANK"
+theorem = "actualGroundingWFFromFiniteRank"
+premises = ["STMT-ACTUAL-GROUNDING-FINITE-RANK"]
+conclusion = "STMT-ACTUAL-GROUNDING-WF"
+rule = "Inverse image of a well-founded relation (subrelation of the rank order on ℕ)"
+meaning = "A natural-number rank decreasing along actual concrete grounding (OPEN) makes actual grounding well-founded: each grounding edge lies in the inverse image of < on ℕ. No excluded middle. This is a second, non-circular route to STMT-ACTUAL-GROUNDING-WF besides ACTUAL-GROUNDING-WF-FROM-BORROWING-CUT, from a strictly stronger premise."
+
+[[argument]]
+id = "BORROWING-ESCAPE-FROM-FINITE-RANK"
+theorem = "borrowingEscapeFromFiniteRank"
+premises = ["STMT-ACTUAL-GROUNDING-FINITE-RANK", "STMT-EXCLUDED-MIDDLE"]
+conclusion = "STMT-ACTUAL-CONCRETE-BORROWING-ESCAPE"
+strong_version_needed = { "STMT-ACTUAL-GROUNDING-FINITE-RANK" = "The weak version STMT-ACTUAL-GROUNDING-WF with excluded middle also gives the cut, but STMT-ACTUAL-GROUNDING-WF is so far derived only from the cut itself (ACTUAL-GROUNDING-WF-FROM-BORROWING-CUT); using it would close a two-cycle and only restate the recorded equivalence. The strong rank version is used to give a non-circular route (ATTEMPT-ROUND3-COGITO-BASE-REJECTED-EDGES)." }
+rule = "Composition with the cut/well-foundedness equivalence"
+meaning = "The finite rank (OPEN) gives well-founded actual grounding (ACTUAL-GROUNDING-WF-FROM-FINITE-RANK), and with excluded middle the proved equivalence borrowingEscapeWFEquivalence turns that into the no-self-contained-borrowing cut: every nonempty set of actual concreta contains a source or the effect of a record whose contributors all lie outside it. It does not use STMT-ACTUAL-GROUNDING-WF as a premise, so it adds no cycle with ACTUAL-GROUNDING-WF-FROM-BORROWING-CUT."
+
+[[argument]]
+id = "SELECTED-CONE-WF-FROM-GLOBAL-WF"
+theorem = "selectedConeWFFromGlobalWF"
+premises = ["STMT-ACTUAL-GROUNDING-WF"]
+conclusion = "STMT-SELECTED-CONE-WELL-FOUNDED"
+rule = "Restriction of a well-founded relation to a subtype"
+meaning = "Strength order: well-founded grounding on all actual concreta restricts to well-founded grounding on the selected cone, whose members are actual concreta (scopeComparison). The strong, global version is the only premise and stays open."
+
+[[argument]]
+id = "SELECTED-CONE-CONTINGENT-GROUNDED-FROM-NO-CONTINGENT-ROOT"
+theorem = "coneContingentGroundedFromNoContingentRoot"
+premises = ["STMT-SELECTED-NO-CONTINGENT-ROOT-ANCESTOR", "STMT-EXCLUDED-MIDDLE"]
+conclusion = "STMT-SELECTED-CONE-CONTINGENT-GROUNDED"
+rule = "Proof by cases (excluded middle) and reductio"
+meaning = "If the selected cone has no contingent root ancestor (OPEN), then every contingent cone member has an actual concrete ground: by excluded middle it has one or has none, and if none it would be a contingent root ancestor. The cone-local analogue of everyContingentGrounded_iff_noContingentRoot; a relocation to the denial of a brute contingent foundation in the cone, not a defence of it."
+
+[[argument]]
+id = "POTENCY-IS-UNACTUALIZED-CAPACITY-FROM-PRIVATION"
+theorem = "potencyIsUnactualizedCapacityFromPrivation"
+premises = ["STMT-POTENCY-IS-CAPACITY-UNDER-PRIVATION", "STMT-PRIVATION-IS-LACK-OF-ACT-IN-CAPABLE"]
+conclusion = "STMT-POTENCY-IS-UNACTUALIZED-CAPACITY"
+rule = "Biconditional chaining through a middle term"
+meaning = "Potency is capacity under privation (OPEN), and in a capable subject privation is lack of the act (OPEN); hence potency is unactualized capacity, the Metaphysics IX.6 reading. Middle term: privation. It routes the act/potency analysis through the Physics I subject-privation analysis; both premises stay open."
+
+[[argument]]
+id = "BEING-MOVED-FROM-UNACTUALIZED-CAPACITY"
+theorem = "beingMovedFromUnactualizedCapacity"
+premises = ["STMT-BEING-MOVED-IS-ACTUALIZATION-OF-UNACTUALIZED-CAPACITY", "STMT-POTENCY-IS-UNACTUALIZED-CAPACITY"]
+conclusion = "STMT-BEING-MOVED-IS-ACTUALIZATION-OF-POTENCY"
+strong_version_needed = { "STMT-POTENCY-IS-UNACTUALIZED-CAPACITY" = "Both directions of the potency analysis are used at every being and respect: unactualized capacity to potency for the forward direction of the conclusion, and potency to unactualized capacity for the converse, including at tuples that are not moved. The weak version STMT-MOVED-TUPLE-POTENCY-HAS-UNACTUALIZED-CAPACITY gives only the second direction, only at moved tuples." }
+rule = "Biconditional chaining through a middle term"
+meaning = "Being moved is the actualization of an unactualized capacity (OPEN), and potency is unactualized capacity (Metaphysics IX.6 reading, stated); hence being moved is the actualization of a potency, the Physics III.1 reading. Middle term: unactualized capacity. Composes with POTENCY-IS-UNACTUALIZED-CAPACITY-FROM-PRIVATION."
+
+[[argument]]
+id = "ROUND3-COGITO-BASE-CONTROLS"
+theorem = "controls"
+premises = []
+conclusion = "STMT-ROUND3-COGITO-BASE-CONTROLS"
+rule = "Explicit finite interpretations"
+meaning = "Finite interpretations for the round 3 batch, all proved without axioms: an omission model for every premise of the ten derivations other than excluded middle (a performed doubt with no occurring thought; no performed doubt; a borne willing; an assent without opining; a selected candidate that bears nothing, is abstract, or is absent; a self-grounding concretum with no rank, no well-founded grounding or cone and no borrowing cut; a contingent root cone; a capable deprived non-potent subject; a privation with the act; motion without capacity; an unactualized capacity not counted as potency), and joint witnesses with a performed doubt, a real grounding edge from a necessary root to a contingent selected being, and a potent subject being moved."
+
+# ---- Strength order ----
+
+[[relation]]
+id = "REL-ACTUAL-GROUNDING-FINITE-RANK-STRENGTHENS-WF"
+subject_kind = "statement"
+subject_id = "STMT-ACTUAL-GROUNDING-FINITE-RANK"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "STMT-ACTUAL-GROUNDING-WF"
+verification_result_id = "ACTUAL-GROUNDING-WF-FROM-FINITE-RANK"
+note = "A Nat rank decreasing along actual grounding gives well-founded actual grounding (ACTUAL-GROUNDING-WF-FROM-FINITE-RANK). Strictness: an omega+1 hierarchy (a top concretum grounded by every finite level) is well-founded with no Nat rank (no finite control in this batch)."
+
+# ---- Supports relations (claim bears on, does not state) ----
+
+[[relation]]
+id = "REL-PHYS-191B-PRIVATION-SUPPORTS-POTENCY-UNDER-PRIVATION"
+subject_kind = "claim"
+subject_id = "ARIST-PHYS-191B-QUALIFIED-PRIVATION-A"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-POTENCY-IS-CAPACITY-UNDER-PRIVATION"
+note = "Physics I.8, 191b13-17 lets generation come incidentally from privation, non-being in its own respect, in a subject. It bears on the premise by pairing subject and privation as the starting point of change; that being in potency to r is exactly being capable of r and deprived of it is the analyst's identification, not stated in the passage."
+
+[[relation]]
+id = "REL-MET-1048A-KNOWER-SUPPORTS-PRIVATION-IS-LACK-OF-ACT"
+subject_kind = "claim"
+subject_id = "ARIST-MET-1048A-POTENCY-AS-UNACTUALIZED-CAPACITY-A"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-PRIVATION-IS-LACK-OF-ACT-IN-CAPABLE"
+note = "Metaphysics IX.6, 1048a30-35: the knower who is not contemplating, if able to contemplate, is a knower potentially. It bears on the premise through a capable subject lacking the act; the passage does not use privation, and that privation in a capable subject is exactly the lack of the act is the analyst's."
+
+[[relation]]
+id = "REL-PHYS-201A-MOVED-SUPPORTS-MOVED-AS-UNACTUALIZED-CAPACITY"
+subject_kind = "claim"
+subject_id = "ARIST-PHYS-201A-MOVED-AS-POTENCY-ACTUALIZED-C"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-BEING-MOVED-IS-ACTUALIZATION-OF-UNACTUALIZED-CAPACITY"
+note = "Physics III.1, 201a10-11 says motion is the actuality of the potential as such. The premise replaces 'the potential' by 'an unactualized capacity' (able to be r and not r in act), which is the Metaphysics IX.6 reading of potency, not something 201a10-11 states."

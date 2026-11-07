@@ -118,6 +118,7 @@ public import TruthCore.Causality.RootWithoutLimitingPrinciple
 public import TruthCore.Causality.Round2ExistenceAct
 public import TruthCore.Causality.Round2Grounding
 public import TruthCore.Causality.Round2PerfectionPrimacy
+public import TruthCore.Causality.Round3CogitoBase
 public import TruthCore.Causality.Round3FourthWay
 public import TruthCore.Causality.Round4Revisited
 public import TruthCore.Causality.ScopedActualCausality

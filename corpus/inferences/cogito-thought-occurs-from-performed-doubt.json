@@ -1,0 +1,12 @@
+{
+  "id": "INF-COGITO-THOUGHT-OCCURS-FROM-PERFORMED-DOUBT",
+  "input_statement_ids": [
+    "STMT-COGITO-DOUBT-IS-PERFORMED",
+    "STMT-COGITO-PERFORMED-DOUBT-IS-THOUGHT"
+  ],
+  "output_statement_id": "STMT-COGITO-THOUGHT-OCCURS",
+  "rule": "Existential instantiation and modus ponens (Darii)",
+  "meaning": "Cogito by retorsion: some doubt whether thought occurs is performed (OPEN), and every performed doubt of that kind is realized by an occurring thought episode (OPEN); hence some thought episode occurs. The middle term is the performed doubting act, a separate carrier from thought episodes. Both premises stay open; the conclusion is relocated to the inquirer's own performed act and the doubting-is-thinking bridge. Nothing about a bearer, substance or concreteness follows.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

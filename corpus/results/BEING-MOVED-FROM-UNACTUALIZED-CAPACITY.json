@@ -1,0 +1,10 @@
+{
+  "id": "BEING-MOVED-FROM-UNACTUALIZED-CAPACITY",
+  "argument_id": "BEING-MOVED-FROM-UNACTUALIZED-CAPACITY",
+  "challenge_module": "TruthCore.Results.Causality.Round3CogitoBase.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round3CogitoBase.Solution",
+  "theorem": "TruthCore.Results.Causality.Round3CogitoBase.beingMovedFromUnactualizedCapacity",
+  "comparator_config": "results/BEING-MOVED-FROM-UNACTUALIZED-CAPACITY/comparator.json",
+  "status": "solution-present",
+  "description": "Being moved is the actualization of an unactualized capacity (OPEN), and potency is unactualized capacity (Metaphysics IX.6 reading, stated); hence being moved is the actualization of a potency, the Physics III.1 reading. Middle term: unactualized capacity. Composes with POTENCY-IS-UNACTUALIZED-CAPACITY-FROM-PRIVATION."
+}

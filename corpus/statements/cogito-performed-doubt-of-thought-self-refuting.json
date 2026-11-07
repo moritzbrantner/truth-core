@@ -1,0 +1,9 @@
+{
+  "id": "STMT-COGITO-PERFORMED-DOUBT-OF-THOUGHT-SELF-REFUTING",
+  "paraphrase": "Retorsion: whoever actually performs a doubt or denial that any thought occurs makes the doubted content false: ∀ a, Performed a → DoubtsThought a → ¬ NoEpisodeOccurs Occurs. It says nothing about an unperformed doubt and does not assert that any doubt is performed.",
+  "lean_declaration": "TruthCore.Causality.Round3CogitoBase.PerformedDoubtOfThoughtSelfRefuting",
+  "definition_ids": [
+    "DEF-PERFORMED-DOUBT-OF-THOUGHT",
+    "DEF-THOUGHT-OCCURRENCE"
+  ]
+}

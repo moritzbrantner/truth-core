@@ -1,0 +1,15 @@
+{
+  "id": "COGITO-PERFORMED-DOUBT-SELF-REFUTING",
+  "premise_statement_ids": [
+    "STMT-COGITO-PERFORMED-DOUBT-IS-THOUGHT"
+  ],
+  "conclusion_statement_id": "STMT-COGITO-PERFORMED-DOUBT-OF-THOUGHT-SELF-REFUTING",
+  "inference_ids": [
+    "INF-COGITO-PERFORMED-DOUBT-SELF-REFUTING"
+  ],
+  "meaning": "The retorsion step: if every performed doubt whether thought occurs is realized by an occurring thought (OPEN), then performing such a doubt falsifies its content 'no thought episode occurs'. It does not assert that any doubt is performed; an unperformed doubt can be true (EmptyEpisodeControl).",
+  "definition_ids": [
+    "DEF-PERFORMED-DOUBT-OF-THOUGHT",
+    "DEF-THOUGHT-OCCURRENCE"
+  ]
+}

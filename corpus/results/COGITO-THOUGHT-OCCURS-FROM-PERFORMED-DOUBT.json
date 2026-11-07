@@ -1,0 +1,10 @@
+{
+  "id": "COGITO-THOUGHT-OCCURS-FROM-PERFORMED-DOUBT",
+  "argument_id": "COGITO-THOUGHT-OCCURS-FROM-PERFORMED-DOUBT",
+  "challenge_module": "TruthCore.Results.Causality.Round3CogitoBase.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round3CogitoBase.Solution",
+  "theorem": "TruthCore.Results.Causality.Round3CogitoBase.thoughtOccursFromPerformedDoubt",
+  "comparator_config": "results/COGITO-THOUGHT-OCCURS-FROM-PERFORMED-DOUBT/comparator.json",
+  "status": "solution-present",
+  "description": "Cogito by retorsion: some doubt whether thought occurs is performed (OPEN), and every performed doubt of that kind is realized by an occurring thought episode (OPEN); hence some thought episode occurs. The middle term is the performed doubting act, a separate carrier from thought episodes. Both premises stay open; the conclusion is relocated to the inquirer's own performed act and the doubting-is-thinking bridge. Nothing about a bearer, substance or concreteness follows."
+}
