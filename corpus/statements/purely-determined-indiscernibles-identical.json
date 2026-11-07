@@ -1,0 +1,13 @@
+{
+  "id": "STMT-PURELY-DETERMINED-INDISCERNIBLES-IDENTICAL",
+  "paraphrase": "OPEN, unattributed: any two beings, first movers or not, that have the same real determinations, all of them pure perfections, are one and the same being.",
+  "lean_declaration": "TruthCore.Causality.PureIndiscernibility.PurelyDeterminedIndiscerniblesIdentical",
+  "definition_ids": [
+    "DEF-REAL-DETERMINATION",
+    "DEF-PURE-PERFECTION",
+    "DEF-PURELY-DETERMINED-INDISCERNIBLES-IDENTICAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THISNESS-REAL-BARE"
+  ]
+}

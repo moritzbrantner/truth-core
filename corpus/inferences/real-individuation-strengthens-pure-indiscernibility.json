@@ -1,0 +1,11 @@
+{
+  "id": "INF-REAL-INDIVIDUATION-STRENGTHENS-PURE-INDISCERNIBILITY",
+  "input_statement_ids": [
+    "STMT-REAL-DETERMINATIONS-INDIVIDUATE"
+  ],
+  "output_statement_id": "STMT-PURELY-DETERMINED-INDISCERNIBLES-IDENTICAL",
+  "rule": "Restriction of the antecedent",
+  "meaning": "Identity of real indiscernibles over all beings entails its restriction to beings whose real determinations are all pure. Sole-premise strength registration; the converse fails on the Black-style carrier of PURE-INDISCERNIBILITY-CONTROLS.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

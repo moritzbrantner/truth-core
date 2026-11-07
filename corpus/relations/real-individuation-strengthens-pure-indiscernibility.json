@@ -1,0 +1,11 @@
+{
+  "id": "REL-REAL-INDIVIDUATION-STRENGTHENS-PURE-INDISCERNIBILITY",
+  "subject_kind": "statement",
+  "subject_id": "STMT-REAL-DETERMINATIONS-INDIVIDUATE",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "STMT-PURELY-DETERMINED-INDISCERNIBLES-IDENTICAL",
+  "verification_result_id": "REAL-INDIVIDUATION-STRENGTHENS-PURE-INDISCERNIBILITY",
+  "strictness_result_id": "PURE-INDISCERNIBILITY-CONTROLS",
+  "note": "Sole-premise restriction to purely determined beings; strict on the Black-style carrier. The uniqueness route PURE-INDISCERNIBILITY-FIRST-MOVER-UNIQUENESS uses the weak version."
+}

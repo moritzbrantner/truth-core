@@ -23,5 +23,8 @@
     "DISAMB-THISNESS-REAL-BARE",
     "DISAMB-PURE-ACT-STRICTNESS",
     "DISAMB-PERFECTION-SCOPE"
-  ]
+  ],
+  "strong_version_needed": {
+    "STMT-REAL-DETERMINATIONS-INDIVIDUATE": "Not needed for uniqueness: PURE-INDISCERNIBILITY-FIRST-MOVER-UNIQUENESS proves the same conclusion from the weak version. This merged route is kept unchanged as the comparison that exhibits the Black's-spheres cost of the strong version."
+  }
 }
