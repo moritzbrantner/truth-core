@@ -1,0 +1,54 @@
+target = "STMT-GREATEST-DEGREE-IN-GENUS-CAUSES-ALL-IN-GENUS"
+
+[[node]]
+id = "STMT-GREATEST-DEGREE-IN-GENUS-CAUSES-ALL-IN-GENUS"
+
+[[node]]
+id = "STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY"
+
+[[node]]
+id = "STMT-NOTHING-ELSE-REACHES-THE-PRIMARY"
+
+[[node]]
+id = "STMT-CREATURES-ORDERED-TO-PRIMARY-AS-CAUSE"
+
+[[node]]
+id = "STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES"
+
+[[node]]
+id = "STMT-EXCLUDED-MIDDLE"
+
+[[node]]
+id = "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS"
+
+[[node]]
+id = "STMT-MORE-SUCH-HAS-THE-PERFECTION"
+
+[[node]]
+id = "STMT-MORE-IN-MATCHES-STRICT-REPRESENTED-DEGREE"
+
+[[node]]
+id = "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH"
+
+[[edge]]
+premises = ["STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY", "STMT-NOTHING-ELSE-REACHES-THE-PRIMARY", "STMT-CREATURES-ORDERED-TO-PRIMARY-AS-CAUSE", "STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES", "STMT-EXCLUDED-MIDDLE"]
+conclusion = "STMT-GREATEST-DEGREE-IN-GENUS-CAUSES-ALL-IN-GENUS"
+kind = "derivation"
+status = "certified"
+argument = "GREATEST-DEGREE-CAUSES-FROM-ORDERED-PRIMARY"
+note = "A greatest-degree bearer is the primary (strict primacy; the primary is a bearer), and the primary causes the perfection in all creatures (q.13 a.5), which are all the others."
+
+[[edge]]
+premises = ["STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS", "STMT-MORE-SUCH-HAS-THE-PERFECTION", "STMT-MORE-IN-MATCHES-STRICT-REPRESENTED-DEGREE"]
+conclusion = "STMT-GREATEST-DEGREE-IN-GENUS-CAUSES-ALL-IN-GENUS"
+kind = "derivation"
+status = "certified"
+argument = "GREATEST-DEGREE-CAUSES-FROM-MAXIMAL-PRINCIPLE"
+note = "Greatest is maximal under calibration and more-such-has; then the stronger analyst maximal principle applies. Relates the two configurations; not a weakening."
+
+[[edge]]
+premises = ["STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH"]
+conclusion = "STMT-GREATEST-DEGREE-IN-GENUS-CAUSES-ALL-IN-GENUS"
+kind = "derivation"
+status = "rejected"
+note = "Wrong direction: Metaphysics II.1 goes from being the cause to being more such, not from being most such to being the cause. See ATTEMPT-ROUND3-FOURTH-WAY-REJECTED-EDGES."

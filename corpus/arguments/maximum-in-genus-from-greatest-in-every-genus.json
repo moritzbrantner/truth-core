@@ -1,0 +1,31 @@
+{
+  "id": "MAXIMUM-IN-GENUS-FROM-GREATEST-IN-EVERY-GENUS",
+  "premise_statement_ids": [
+    "STMT-GREATEST-DEGREE-CAUSES-ALL-IN-EVERY-GENUS",
+    "STMT-DEGREE-EXCESS-AMONG-BEARERS-IS-MORE-IN",
+    "STMT-BEARER-DEGREES-DIRECTED-IN-EVERY-GENUS",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
+  "inference_ids": [
+    "INF-MAXIMUM-IN-GENUS-FROM-GREATEST-IN-EVERY-GENUS"
+  ],
+  "meaning": "In every perfection r, a maximal bearer m is at the greatest represented degree: for any bearer x, some bearer z bounds x and m; z is not strictly above m (it would then be more r than m, against maximality), so by excluded middle z is at most m and x is at most m. The greatest-degree genus principle at every perfection then makes m the cause of r in all other bearers. Answers ATTEMPT-REJECTED-DERIVATION-LEADS-20261107 for this target: the per-respect wrappers it named are now explicit OPEN premises (bare premises are allowed, owner direction 2026-11-07).",
+  "definition_ids": [
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-GENUS-BROAD",
+    "DEF-GREATEST-DEGREE-IN-A-PERFECTION",
+    "DEF-MAXIMUM-CALIBRATION-PROFILE",
+    "DEF-MAXIMUM-IN-A-PERFECTION",
+    "DEF-MORE-IN",
+    "DEF-PER-RESPECT-DEGREE-FAMILY",
+    "DEF-SELF-EVIDENT-MARKING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-BEING-UNIVOCITY",
+    "DISAMB-CAUSE",
+    "DISAMB-GENUS",
+    "DISAMB-MAXIME-ENS",
+    "DISAMB-ORDER-OF-BEING"
+  ]
+}

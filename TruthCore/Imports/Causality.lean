@@ -115,6 +115,7 @@ public import TruthCore.Causality.RootPositiveIntellectWill
 public import TruthCore.Causality.RootPositiveIntellectWillControl
 public import TruthCore.Causality.RootPurity
 public import TruthCore.Causality.RootWithoutLimitingPrinciple
+public import TruthCore.Causality.Round3FourthWay
 public import TruthCore.Causality.ScopedActualCausality
 public import TruthCore.Causality.SelectedAncestry
 public import TruthCore.Causality.SelfCausationPriority

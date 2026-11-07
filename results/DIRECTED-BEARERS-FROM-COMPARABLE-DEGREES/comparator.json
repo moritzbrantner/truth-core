@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.Round3FourthWay.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round3FourthWay.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.Round3FourthWay.directedFromComparableDegrees"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

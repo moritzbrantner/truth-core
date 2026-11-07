@@ -1,0 +1,12 @@
+{
+  "id": "STMT-NO-DEGREE-BELOW-NULL",
+  "paraphrase": "OPEN analyst premise: no represented degree of any perfection lies below the null degree (lacking the perfection altogether).",
+  "lean_declaration": "TruthCore.Causality.Round3FourthWay.NoDegreeBelowNull",
+  "definition_ids": [
+    "DEF-PER-RESPECT-DEGREE-FAMILY",
+    "DEF-NULL-DEGREE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-BEING-UNIVOCITY"
+  ]
+}

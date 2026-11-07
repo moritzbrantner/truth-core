@@ -1,0 +1,8 @@
+{
+  "id": "DEF-NO-INFINITE-ASCENT-IN-BEING",
+  "term": "no infinite ascent in being",
+  "definition": "NoInfiniteAscentInBeing MoreIn esse: the relation 'y is more a being than x' is well-founded in Lean's sense (WellFounded), so there is no sequence x0, x1, x2, ... in which each is more a being than the one before. It is a bound on ascending chains, not a finite domain, not a total order and not uniqueness of a top: a finite partial order of incomparable beings satisfies it, and so does any order with several maximal elements. Counterexample: the natural numbers ordered by size, each more than the one before, has an infinite ascent. Not to be confused with well-foundedness of causal regress (no infinite descent of causes, DEF-CAUSAL-WELL-FOUNDED-PREDECESSORS).",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.Round3FourthWay.NoInfiniteAscentInBeing",
+  "note": "Stipulative analyst premise, attribution deferred. Aquinas' quarta via asserts a maximum, not an ascent bound; whether grades of being are bounded above is the contested point the bound makes explicit."
+}

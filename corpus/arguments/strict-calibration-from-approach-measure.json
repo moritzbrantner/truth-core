@@ -1,0 +1,25 @@
+{
+  "id": "STRICT-CALIBRATION-FROM-APPROACH-MEASURE",
+  "premise_statement_ids": [
+    "STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY",
+    "STMT-DEGREE-AS-MUCH-AS-APPROACH"
+  ],
+  "conclusion_statement_id": "STMT-MORE-IN-MATCHES-STRICT-REPRESENTED-DEGREE",
+  "inference_ids": [
+    "INF-STRICT-CALIBRATION-FROM-APPROACH-MEASURE"
+  ],
+  "meaning": "In a calibration frame, if being more such is approaching the primary more nearly at the selected perfection, and the represented degrees are ordered exactly as the nearness to the primary (each thing has as much as it approaches), then among bearers being more such is having a strictly higher represented degree. The approach order is given at the frame's own MoreIn and selected perfection; the transport needs no totality.",
+  "definition_ids": [
+    "DEF-BEING-ANALOGICAL",
+    "DEF-GREATEST-DEGREE-IN-A-PERFECTION",
+    "DEF-MAXIMUM-CALIBRATION-PROFILE",
+    "DEF-MAXIMUM-IN-A-PERFECTION",
+    "DEF-MORE-IN",
+    "DEF-ORDER-BY-APPROACH-TO-A-PRIMARY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-BEING-UNIVOCITY",
+    "DISAMB-MAXIME-ENS",
+    "DISAMB-ORDER-OF-BEING"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "REL-Q3-A5-AD2-MEASURE-SUPPORTS-DEGREE-AS-MUCH-AS-APPROACH",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q3-A5-AD2-MEASURE-BY-APPROACH-A",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-DEGREE-AS-MUCH-AS-APPROACH",
+  "note": "tantum habet de esse, quantum ei appropinquat: as much of being as it approaches. The statement encodes this as an order match between a represented degree and nearness; the passage denies that God is a proportioned (homogeneous) measure, so representing being by a Preorder-valued degree is the analyst's (gap)."
+}

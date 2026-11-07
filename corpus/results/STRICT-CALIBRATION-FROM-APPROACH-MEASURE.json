@@ -1,0 +1,10 @@
+{
+  "id": "STRICT-CALIBRATION-FROM-APPROACH-MEASURE",
+  "argument_id": "STRICT-CALIBRATION-FROM-APPROACH-MEASURE",
+  "challenge_module": "TruthCore.Results.Causality.Round3FourthWay.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round3FourthWay.Solution",
+  "theorem": "TruthCore.Results.Causality.Round3FourthWay.strictCalibrationFromApproachMeasure",
+  "comparator_config": "results/STRICT-CALIBRATION-FROM-APPROACH-MEASURE/comparator.json",
+  "status": "solution-present",
+  "description": "In a calibration frame, if being more such is approaching the primary more nearly at the selected perfection, and the represented degrees are ordered exactly as the nearness to the primary (each thing has as much as it approaches), then among bearers being more such is having a strictly higher represented degree. The approach order is given at the frame's own MoreIn and selected perfection; the transport needs no totality."
+}

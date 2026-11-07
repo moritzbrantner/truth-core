@@ -1,0 +1,33 @@
+{
+  "id": "GREATEST-DEGREE-CAUSES-FROM-ORDERED-PRIMARY",
+  "premise_statement_ids": [
+    "STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY",
+    "STMT-NOTHING-ELSE-REACHES-THE-PRIMARY",
+    "STMT-CREATURES-ORDERED-TO-PRIMARY-AS-CAUSE",
+    "STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-GREATEST-DEGREE-IN-GENUS-CAUSES-ALL-IN-GENUS",
+  "inference_ids": [
+    "INF-GREATEST-DEGREE-CAUSES-FROM-ORDERED-PRIMARY"
+  ],
+  "meaning": "With degrees read as approach to a primary: a greatest-degree bearer is the primary, since anything else falls strictly short of the primary (strict primacy), while the primary is itself a bearer (first conjunct of the approach reading; only that conjunct is used) and so at most at the greatest degree. The primary causes the perfection in every creature having it (q.13 a.5, ordo ad causam), and everything else is a creature (open premise). So every greatest-degree bearer causes the perfection in all other bearers.",
+  "definition_ids": [
+    "DEF-BEING-ANALOGICAL",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-CREATURE",
+    "DEF-GENUS-BROAD",
+    "DEF-GREATEST-DEGREE-IN-A-PERFECTION",
+    "DEF-MORE-IN",
+    "DEF-ORDER-BY-APPROACH-TO-A-PRIMARY",
+    "DEF-SELF-EVIDENT-MARKING",
+    "DEF-STRICT-PRIMACY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-BEING-UNIVOCITY",
+    "DISAMB-CAUSE",
+    "DISAMB-GENUS",
+    "DISAMB-MAXIME-ENS",
+    "DISAMB-ORDER-OF-BEING"
+  ]
+}
