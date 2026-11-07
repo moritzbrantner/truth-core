@@ -6,6 +6,7 @@ From the repository root with Rust stable (edition 2024) and Python 3:
 cargo build --locked -p truth
 target/debug/truth status
 target/debug/truth inspect STMT-CATHOLICISM-TRUE --json
+target/debug/truth bridges --constants constants.json --target STMT-EXISTING-IN-ACT-AT
 target/debug/truth thickness --queue --json
 cargo fmt --all --check
 cargo clippy --locked -p truth --all-targets -- -D warnings
@@ -61,3 +62,12 @@ Not ported: `--base` (it runs the base revision's own `corpus.py` on a
 command runs first (Rust performs only the structural load), and the rest of
 the frontier report (closure reasons, route costs, items, next steps).
 `scripts/corpus.py frontier` and `frontier-diff` remain the closure authority.
+
+## `bridges`
+
+`bridges` ranks advisory bridge candidates for underived statements by the
+Lean constants their declarations share, from a `scripts/StatementConstants.lean`
+export (`--constants`) and either `--target ID` or a
+`truth thickness --queue --json` or `corpus.py thickness --queue --json` file (`--queue-file`, first `--targets N`,
+default 10). It is a search heuristic, not a proof or equivalence judgment;
+see `docs/bridge-candidates.md` for the pipeline and the optional Lean trial.

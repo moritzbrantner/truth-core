@@ -103,6 +103,28 @@ class TruthParity(unittest.TestCase):
             result = self.invoke("--root", str(root), "status", code=1)
             self.assertEqual((result["error"]["code"], result["error"]["path"]), ("invalid_path", "corpus"))
 
+    def test_bridges_contract(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            (root / "corpus" / "statements").mkdir(parents=True)
+            for sid, decl in [("STMT-T", "N.T"), ("STMT-A", "N.A")]:
+                (root / "corpus" / "statements" / f"{sid}.json").write_text(
+                    json.dumps({"id": sid, "paraphrase": sid, "lean_declaration": decl}))
+            constants = root / "constants.json"
+            constants.write_text(json.dumps([
+                {"declaration": "N.T", "constants": ["N.P", "N.T"]},
+                {"declaration": "N.A", "constants": ["N.A", "N.P"]},
+            ]))
+            args = ("--root", str(root), "bridges", "--constants", str(constants))
+            report = self.invoke(*args, "--target", "STMT-T")
+            self.assertEqual(report["targets"][0]["singles"][0]["statement_ids"], ["STMT-A"])
+            self.assertIn("NOT a proof", report["mode"])
+            self.assertEqual(self.invoke(*args, code=2)["error"]["code"], "usage")
+            self.assertEqual(self.invoke(*args, "--target", "STMT-X", code=3)["error"]["code"],
+                             "unknown_id")
+            self.assertEqual(self.invoke("--root", str(root), "status", "--top", "2", code=2)
+                             ["error"]["code"], "usage")
+
     def test_non_utf8_root_path_is_accepted(self):
         import os
 
