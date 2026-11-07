@@ -1,0 +1,9 @@
+{
+  "id": "REL-Q4A2-SUPPORTS-PURE-PERFECTIONS-PERTAIN-TO-BEING",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q4-A2-PERFECTIONS-PERTAIN-TO-BEING",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-PURE-PERFECTIONS-PERTAIN-TO-BEING",
+  "note": "ST I q.4 a.2 says the perfections of all things pertain to the perfection of being. The encoded statement restricts this to pure perfections, a weaker reading. It does not supply ad 3's distinction between participation in being and in every mode, or any causal transfer."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "INF-PURE-INDISCERNIBILITY-STRENGTHENS-PERFECT-BEINGS",
+  "input_statement_ids": [
+    "STMT-PURELY-DETERMINED-INDISCERNIBLES-IDENTICAL"
+  ],
+  "output_statement_id": "STMT-PERFECT-BEINGS-NOT-SEVERAL",
+  "rule": "Fully perfect beings are purely determined indiscernibles",
+  "meaning": "Two beings each with every pure perfection and only pure ones are purely determined and have the same real determinations, so identity of purely determined indiscernibles identifies them. Sole-premise entailment for the strength order.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

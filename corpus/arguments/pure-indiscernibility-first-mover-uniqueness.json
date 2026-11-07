@@ -23,5 +23,8 @@
     "DISAMB-THISNESS-REAL-BARE",
     "DISAMB-PURE-ACT-STRICTNESS",
     "DISAMB-PERFECTION-SCOPE"
-  ]
+  ],
+  "strong_version_needed": {
+    "STMT-PURELY-DETERMINED-INDISCERNIBLES-IDENTICAL": "Not needed for first-mover uniqueness: PERFECT-BEINGS-FIRST-MOVER-UNIQUENESS proves at-most-one from the weaker SCG I.42 version. Kept unchanged as the comparison exhibiting the reach of the narrower bridge to purely determined non-first beings."
+  }
 }

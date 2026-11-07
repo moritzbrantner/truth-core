@@ -1,0 +1,31 @@
+{
+  "id": "FIRST-MOVER-PERFECTION-FROM-INFINITY",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-FIRST-UNMOVED-MOVER-IS-SIMPLE",
+    "STMT-SUBSISTENT-BEING-IS-INFINITE",
+    "STMT-INFINITE-HAS-EVERY-PURE-PERFECTION"
+  ],
+  "conclusion_statement_id": "STMT-FIRST-MOVER-HAS-EVERY-PURE-DETERMINATION",
+  "inference_ids": [
+    "INF-FIRST-MOVER-PERFECTION-FROM-INFINITY"
+  ],
+  "meaning": "Simplicity says a first mover's esse is not other than its essence; excluded middle gives equality; the existing q.7 reading STMT-SUBSISTENT-BEING-IS-INFINITE, a premise of the designated root route, makes it infinite; the open near-definitional bridge STMT-INFINITE-HAS-EVERY-PURE-PERFECTION gives it every pure perfection. A second derivation of STMT-FIRST-MOVER-HAS-EVERY-PURE-DETERMINATION that shares a premise with the designated root route. All four premises stay open.",
+  "definition_ids": [
+    "DEF-FIRST-UNMOVED-MOVER",
+    "DEF-SIMPLE",
+    "DEF-ESSE",
+    "DEF-INFINITE",
+    "DEF-REAL-DETERMINATION",
+    "DEF-PURE-PERFECTION",
+    "DEF-UNRESTRICTED-PURE-PERFECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PURE-ACT-STRICTNESS",
+    "DISAMB-PERFECTION-SCOPE",
+    "DISAMB-ESSENCE",
+    "DISAMB-ORDER-OF-BEING",
+    "DISAMB-SCG-I42-COMMON-NOTION-THISNESS",
+    "DISAMB-THISNESS-REAL-BARE"
+  ]
+}

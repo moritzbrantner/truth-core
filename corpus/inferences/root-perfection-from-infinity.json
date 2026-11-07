@@ -1,0 +1,17 @@
+{
+  "id": "INF-ROOT-PERFECTION-FROM-INFINITY",
+  "input_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-EXISTING-IN-ACT-AT",
+    "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
+    "STMT-Q3A4-DISTINCT-ESSE-CAUSE-DICHOTOMY",
+    "STMT-Q3A4-ESSENTIAL-PRINCIPLES-NOT-DISTINCT-ESSE-CAUSE",
+    "STMT-SUBSISTENT-BEING-IS-INFINITE",
+    "STMT-INFINITE-HAS-EVERY-PURE-PERFECTION"
+  ],
+  "output_statement_id": "STMT-ACTUAL-ROOT-HAS-EVERY-PURE-DETERMINATION",
+  "rule": "Infinity of perfection at the roots",
+  "meaning": "The existing per-root essence/esse identity (identityOfActualRoot) makes each actual root's represented esse equal to its essence; the q.7 reading makes it infinite; the open bridge gives it every pure perfection. A second derivation of STMT-ACTUAL-ROOT-HAS-EVERY-PURE-DETERMINATION. All seven premises stay open.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

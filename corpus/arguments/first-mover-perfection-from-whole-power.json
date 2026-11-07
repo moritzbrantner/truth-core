@@ -1,0 +1,36 @@
+{
+  "id": "FIRST-MOVER-PERFECTION-FROM-WHOLE-POWER",
+  "premise_statement_ids": [
+    "STMT-FIRST-UNMOVED-MOVER-IS-SIMPLE",
+    "STMT-FIRST-UNMOVED-MOVER-IS-FIRST-BEING",
+    "STMT-UNLIMITED-IS-OWN-BEING",
+    "STMT-OWN-BEING-HAS-EVERY-PERFECTION-OF-BEING",
+    "STMT-PURE-PERFECTIONS-PERTAIN-TO-BEING"
+  ],
+  "conclusion_statement_id": "STMT-FIRST-MOVER-HAS-EVERY-PURE-DETERMINATION",
+  "inference_ids": [
+    "INF-FIRST-MOVER-PERFECTION-FROM-WHOLE-POWER"
+  ],
+  "meaning": "For each first unmoved mover, the existing simplicity reading excludes composition and esse other than essence and the first-being bridge excludes a distinct simply-prior being, so it has no represented limiting principle. The open bridge STMT-UNLIMITED-IS-OWN-BEING makes it its own being; SCG I.28 (as encoded) gives it every perfection of being; q.4 a.2 (restricted to pure perfections) makes every pure perfection such a perfection. This derives the former bare leaf STMT-FIRST-MOVER-HAS-EVERY-PURE-DETERMINATION. All five premises stay open; the two source-supported ones are weaker encodings of their passages.",
+  "definition_ids": [
+    "DEF-FIRST-UNMOVED-MOVER",
+    "DEF-SIMPLE",
+    "DEF-ESSE",
+    "DEF-FIRST-BEING",
+    "DEF-SIMPLE-PRIORITY",
+    "DEF-HAS-LIMITING-PRINCIPLE",
+    "DEF-REAL-DETERMINATION",
+    "DEF-PURE-PERFECTION",
+    "DEF-UNRESTRICTED-PURE-PERFECTION",
+    "DEF-SCG-I28-WHOLE-POWER-PARTICIPATION",
+    "DEF-UNIVERSALLY-PERFECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PURE-ACT-STRICTNESS",
+    "DISAMB-PERFECTION-SCOPE",
+    "DISAMB-ESSENCE",
+    "DISAMB-ORDER-OF-BEING",
+    "DISAMB-SCG-I42-COMMON-NOTION-THISNESS",
+    "DISAMB-THISNESS-REAL-BARE"
+  ]
+}

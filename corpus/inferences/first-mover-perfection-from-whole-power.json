@@ -1,0 +1,15 @@
+{
+  "id": "INF-FIRST-MOVER-PERFECTION-FROM-WHOLE-POWER",
+  "input_statement_ids": [
+    "STMT-FIRST-UNMOVED-MOVER-IS-SIMPLE",
+    "STMT-FIRST-UNMOVED-MOVER-IS-FIRST-BEING",
+    "STMT-UNLIMITED-IS-OWN-BEING",
+    "STMT-OWN-BEING-HAS-EVERY-PERFECTION-OF-BEING",
+    "STMT-PURE-PERFECTIONS-PERTAIN-TO-BEING"
+  ],
+  "output_statement_id": "STMT-FIRST-MOVER-HAS-EVERY-PURE-DETERMINATION",
+  "rule": "Whole power of own being",
+  "meaning": "For each first unmoved mover, the existing simplicity reading excludes composition and esse other than essence and the first-being bridge excludes a distinct simply-prior being, so it has no represented limiting principle. The open bridge STMT-UNLIMITED-IS-OWN-BEING makes it its own being; SCG I.28 (as encoded) gives it every perfection of being; q.4 a.2 (restricted to pure perfections) makes every pure perfection such a perfection. This derives the former bare leaf STMT-FIRST-MOVER-HAS-EVERY-PURE-DETERMINATION. All five premises stay open; the two source-supported ones are weaker encodings of their passages.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
