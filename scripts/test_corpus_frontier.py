@@ -1476,3 +1476,37 @@ class FrontierDiffTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class ThicknessTest(unittest.TestCase):
+    def test_counts_only_verified_non_transcription_derivations(self) -> None:
+        frontier = {
+            "root": "STMT-ROOT",
+            "reaching_root_statements": ["STMT-A", "STMT-B"],
+            "transcription_results": {"R-T": {"kind": "single_application", "declared": True}},
+        }
+        arguments = [
+            argument("A1", ["STMT-X"], "STMT-A"),
+            argument("A2", ["STMT-Y"], "STMT-A"),
+            argument("A3", ["STMT-Z"], "STMT-B"),
+            argument("A4", ["STMT-W"], "STMT-B"),
+        ]
+        results = [
+            {"id": "R1", "argument_id": "A1"},
+            {"id": "R2", "argument_id": "A2"},
+            {"id": "R-T", "argument_id": "A3"},
+        ]
+        report = corpus.thickness_report(frontier, arguments, results)
+        self.assertEqual(report["derivations"], {"STMT-A": ["A1", "A2"], "STMT-B": []})
+        self.assertEqual(report["derived_statement_count"], 1)
+        self.assertEqual(report["multiply_derived_statement_count"], 1)
+        self.assertEqual(report["derivation_count"], 2)
+
+    def test_delta_lists_added_and_removed_derivations(self) -> None:
+        base = {"statement_count": 1, "derived_statement_count": 1, "multiply_derived_statement_count": 0,
+                "derivation_count": 1, "derivations": {"STMT-A": ["A1"]}}
+        head = {"statement_count": 2, "derived_statement_count": 1, "multiply_derived_statement_count": 1,
+                "derivation_count": 2, "derivations": {"STMT-A": ["A2", "A3"], "STMT-B": []}}
+        delta = corpus.thickness_delta(base, head)
+        self.assertEqual(delta["changed"], {"STMT-A": {"added": ["A2", "A3"], "removed": ["A1"]}})
+        self.assertEqual(delta["summary"]["derivation_count"], [1, 2])
