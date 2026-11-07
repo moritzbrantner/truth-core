@@ -1,0 +1,12 @@
+{
+  "id": "STMT-SUCCESSION-IS-BEING-MOVED",
+  "paraphrase": "OPEN analyst bridge: a living thing whose life-state differs between two times at which it lives is being moved in some respect, in the Physics III.1 sense of motion. Covers succession within one living subject only, not beginning or ceasing to live.",
+  "lean_declaration": "TruthCore.Causality.SuccessionPotency.SuccessionIsBeingMoved",
+  "definition_ids": [
+    "DEF-LIFE-PRESENT-AT",
+    "DEF-MOTION-AS-REDUCTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION"
+  ]
+}

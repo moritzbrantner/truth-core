@@ -1,0 +1,9 @@
+{
+  "id": "REL-Q9A1-SUPPORTS-SUCCESSION-IS-BEING-MOVED",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q9-A1-SUCCESSION-REQUIRES-POTENCY",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-SUCCESSION-IS-BEING-MOVED",
+  "note": "The q.9 a.1 claim reads a life-state differing between two times as a change of some kind (quocumque modo mutatur). The encoded bridge adds that such a change within one living subject is a being moved in the Physics III.1 sense, as alteration is; the claim does not state this, and it does not extend to generation or corruption, which Physics V counts as changes but not motions."
+}
