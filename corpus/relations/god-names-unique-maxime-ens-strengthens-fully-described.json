@@ -1,0 +1,10 @@
+{
+  "id": "REL-GOD-NAMES-UNIQUE-MAXIME-ENS-STRENGTHENS-FULLY-DESCRIBED",
+  "subject_kind": "statement",
+  "subject_id": "STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE",
+  "verification_result_id": "NAMING-VERACITY-REDUCED-NAMING-ENTAILS-FULL",
+  "note": "The reduced naming leaf asserts that fewer conditions already suffice for the name to apply, so it entails the fuller leaf, which keeps every source condition. Both statement paraphrases already say so; this registers the order."
+}

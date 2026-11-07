@@ -1,0 +1,14 @@
+{
+  "id": "STMT-UNIVERSAL-CAUSE-OF-BEING-IS-MAXIMAL",
+  "paraphrase": "OPEN analyst bridge (attribution deferred): whatever causes the being of every other being is maximal in being: it has being, and nothing is more a being than it. The converse direction of the quarta via's principle that the maximum in a genus causes all in it; not stated by the source.",
+  "lean_declaration": "TruthCore.Causality.NamingVeracityBatch1.UniversalCauseOfBeingIsMaximal",
+  "definition_ids": [
+    "DEF-MAXIME-ENS",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MAXIME-ENS",
+    "DISAMB-CAUSE"
+  ]
+}

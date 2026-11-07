@@ -13,35 +13,53 @@ id = "STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES"
 id = "STMT-GOD-IS-INFINITE"
 
 [[node]]
-id = "NEW-GOD-IS-OMNIPOTENT"
-new = true
-text = "Whatever is God can do whatever does not involve contradiction."
+id = "STMT-GOD-IS-OMNIPOTENT"
 
 [[node]]
-id = "NEW-REVELATION-INVOLVES-NO-CONTRADICTION"
-new = true
-text = "Revealing a truth and accompanying it with signs involves no contradiction."
+id = "STMT-REVELATION-INVOLVES-NO-CONTRADICTION"
 
 [[node]]
-id = "NEW-SOME-SIGNS-ONLY-GOD-CAN-GIVE"
-new = true
-text = "Some signs exceed every created power, so that whoever gives them is recognizable as God (miracles as motives of credibility)."
+id = "STMT-SOME-SIGNS-ONLY-GOD-CAN-GIVE"
 
 [[node]]
-id = "NEW-INFINITE-ACT-HAS-INFINITE-POWER"
-new = true
-text = "Active power follows act; what is infinite in act has infinite active power (q.25 a.2)."
+id = "STMT-INFINITE-ACT-HAS-INFINITE-POWER"
+
+[[node]]
+id = "STMT-INFINITE-IS-UNLIMITED-ACT"
+
+[[node]]
+id = "STMT-ACTIVE-POWER-FOLLOWS-ACT"
+
+[[node]]
+id = "STMT-CONSISTENT-TASK-REQUIRES-ONLY-POSSIBLE-PERFECTIONS"
+
+[[node]]
+id = "STMT-RECOGNIZABLE-REVELATION-ANALYSIS"
 
 [[edge]]
-premises = ["STMT-GOD-IS-INFINITE", "NEW-INFINITE-ACT-HAS-INFINITE-POWER"]
-conclusion = "NEW-GOD-IS-OMNIPOTENT"
+premises = ["STMT-INFINITE-IS-UNLIMITED-ACT", "STMT-ACTIVE-POWER-FOLLOWS-ACT", "STMT-CONSISTENT-TASK-REQUIRES-ONLY-POSSIBLE-PERFECTIONS"]
+conclusion = "STMT-INFINITE-ACT-HAS-INFINITE-POWER"
 kind = "derivation"
-status = "mapped"
-note = "Omnipotence from infinity through power following act."
+status = "certified"
+note = "NAMING-VERACITY-INFINITE-POWER-FROM-ACT: added so that infinite power is derived (power follows act), not assumed."
 
 [[edge]]
-premises = ["NEW-GOD-IS-OMNIPOTENT", "NEW-REVELATION-INVOLVES-NO-CONTRADICTION", "NEW-SOME-SIGNS-ONLY-GOD-CAN-GIVE"]
+premises = ["STMT-GOD-IS-INFINITE", "STMT-INFINITE-ACT-HAS-INFINITE-POWER"]
+conclusion = "STMT-GOD-IS-OMNIPOTENT"
+kind = "derivation"
+status = "certified"
+note = "NAMING-VERACITY-GOD-OMNIPOTENT-FROM-INFINITE: syllogism through the stage-2 node GodIsInfinite."
+
+[[edge]]
+premises = ["STMT-GOD-IS-OMNIPOTENT", "STMT-REVELATION-INVOLVES-NO-CONTRADICTION", "STMT-SOME-SIGNS-ONLY-GOD-CAN-GIVE"]
 conclusion = "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE"
 kind = "derivation"
-status = "mapped"
-note = "Possibility from omnipotence and noncontradiction; recognizability from signs exceeding created power."
+status = "rejected"
+note = "Rejected as mapped: the target's RevealsRecognizably is a primitive Signature field, so no premise set without a bridge to that field can entail it. Replaced by the edge below with STMT-RECOGNIZABLE-REVELATION-ANALYSIS."
+
+[[edge]]
+premises = ["STMT-GOD-IS-OMNIPOTENT", "STMT-REVELATION-INVOLVES-NO-CONTRADICTION", "STMT-SOME-SIGNS-ONLY-GOD-CAN-GIVE", "STMT-RECOGNIZABLE-REVELATION-ANALYSIS"]
+conclusion = "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE"
+kind = "derivation"
+status = "certified"
+note = "NAMING-VERACITY-REVELATION-FROM-OMNIPOTENCE: possibility from omnipotence and noncontradiction, recognizability from exclusive signs through the open analysis of the primitive field. Each premise needed (omission models in NAMING-VERACITY-BATCH1-CONTROLS)."

@@ -1,0 +1,12 @@
+{
+  "id": "INF-NAMING-VERACITY-REDUCED-NAMING-FROM-OPERATION",
+  "input_statement_ids": [
+    "STMT-NAME-GOD-IMPOSED-FROM-OPERATION",
+    "STMT-UNIVERSAL-CAUSE-OF-BEING-IS-MAXIMAL"
+  ],
+  "output_statement_id": "STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS",
+  "rule": "Uniqueness transfer from maxima to causes",
+  "meaning": "If the name 'God' applies to the only universal cause of being, and every universal cause of being is maximal in being, then it applies to the only maximum in being that causes the being of all others: any second universal cause would be a second maximum, against uniqueness. The maximality antecedent of the reduced leaf is not used. Two open analyst bridges.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

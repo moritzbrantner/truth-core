@@ -1,0 +1,14 @@
+{
+  "id": "NAMING-VERACITY-BATCH1-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-NAMING-VERACITY-BATCH1-CONTROLS",
+  "inference_ids": [
+    "INF-NAMING-VERACITY-BATCH1-CONTROLS"
+  ],
+  "meaning": "Controls: a joint finite model of every premise and conclusion of the batch with a God that has the classical attributes; and omission models for each premise of the veracity, authority, revelation and operation-naming steps (11 models).",
+  "definition_ids": [
+    "DEF-ACTIVE-POWER-TASK-VOCABULARY",
+    "DEF-DIVINE-ASSISTANCE",
+    "DEF-VERACITY-ASSERTION-VOCABULARY"
+  ]
+}

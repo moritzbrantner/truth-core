@@ -1,0 +1,20 @@
+{
+  "id": "NAMING-VERACITY-DEFINITIVE-PROPOSAL-CONFIRMED",
+  "premise_statement_ids": [
+    "STMT-FOUNDER-GUARANTEES-FOUNDED-AUTHORITY",
+    "STMT-ASSISTED-DEFINITIVE-PROPOSAL-IS-CONFIRMED"
+  ],
+  "conclusion_statement_id": "STMT-DEFINITIVE-PROPOSAL-IS-GOD-CONFIRMED",
+  "inference_ids": [
+    "INF-NAMING-VERACITY-DEFINITIVE-PROPOSAL-CONFIRMED"
+  ],
+  "meaning": "A God with the classical attributes who founds a teaching authority assists it, and what an assisted society definitively proposes as revealed the assisting God confirms; so what a God-founded teaching authority definitively proposes, its founder confirms. Two open premises.",
+  "definition_ids": [
+    "DEF-DIVINE-ASSISTANCE",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+    "DEF-GOD-OF-CLASSICAL-THEISM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FOUNDED-BY-GOD"
+  ]
+}

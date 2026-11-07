@@ -1,0 +1,10 @@
+{
+  "id": "NAMING-VERACITY-INFINITE-POWER-FROM-ACT",
+  "argument_id": "NAMING-VERACITY-INFINITE-POWER-FROM-ACT",
+  "challenge_module": "TruthCore.Results.Causality.NamingVeracityBatch1.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NamingVeracityBatch1.Solution",
+  "theorem": "TruthCore.Results.Causality.NamingVeracityBatch1.infinitePowerFromAct",
+  "comparator_config": "results/NAMING-VERACITY-INFINITE-POWER-FROM-ACT/comparator.json",
+  "status": "solution-present",
+  "description": "A consistent task requires only possible perfections; what is infinite is in act in every possible perfection; and a being can do a task when it is in act in every perfection the task requires. So what is infinite can do every consistent task. Three open premises."
+}

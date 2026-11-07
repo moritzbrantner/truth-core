@@ -1,0 +1,10 @@
+{
+  "id": "STMT-NAMING-VERACITY-BATCH1-CONTROLS",
+  "paraphrase": "Controls of the naming/veracity/revelation/authority batch: one finite model in which every premise and conclusion of the batch holds, with a God that has the classical attributes, founds the Church and causes the being of the other being; and, for each premise of the four target-reaching steps (veracity, authority, revelation, operation naming), a finite model of the other premises in which the conclusion fails. Formal-schema models only.",
+  "lean_declaration": "TruthCore.Causality.NamingVeracityBatch1.Control.Certificate",
+  "definition_ids": [
+    "DEF-VERACITY-ASSERTION-VOCABULARY",
+    "DEF-DIVINE-ASSISTANCE",
+    "DEF-ACTIVE-POWER-TASK-VOCABULARY"
+  ]
+}

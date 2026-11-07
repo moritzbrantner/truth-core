@@ -1,0 +1,10 @@
+{
+  "id": "NAMING-VERACITY-REDUCED-NAMING-FROM-OPERATION",
+  "argument_id": "NAMING-VERACITY-REDUCED-NAMING-FROM-OPERATION",
+  "challenge_module": "TruthCore.Results.Causality.NamingVeracityBatch1.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NamingVeracityBatch1.Solution",
+  "theorem": "TruthCore.Results.Causality.NamingVeracityBatch1.reducedNamingFromOperation",
+  "comparator_config": "results/NAMING-VERACITY-REDUCED-NAMING-FROM-OPERATION/comparator.json",
+  "status": "solution-present",
+  "description": "If the name 'God' applies to the only universal cause of being, and every universal cause of being is maximal in being, then it applies to the only maximum in being that causes the being of all others: any second universal cause would be a second maximum, against uniqueness. The maximality antecedent of the reduced leaf is not used. Two open analyst bridges."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "NAMING-VERACITY-GOD-OMNIPOTENT-FROM-INFINITE",
+  "argument_id": "NAMING-VERACITY-GOD-OMNIPOTENT-FROM-INFINITE",
+  "challenge_module": "TruthCore.Results.Causality.NamingVeracityBatch1.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NamingVeracityBatch1.Solution",
+  "theorem": "TruthCore.Results.Causality.NamingVeracityBatch1.godOmnipotentFromInfinite",
+  "comparator_config": "results/NAMING-VERACITY-GOD-OMNIPOTENT-FROM-INFINITE/comparator.json",
+  "status": "solution-present",
+  "description": "Whatever is God is infinite (stage-2 attribute), and what is infinite can do every consistent task; so whatever is God can do every consistent task. Reuses the stage-2 node GodIsInfinite with its primitive Infinite predicate."
+}

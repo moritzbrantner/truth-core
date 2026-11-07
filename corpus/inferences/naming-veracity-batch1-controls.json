@@ -1,0 +1,9 @@
+{
+  "id": "INF-NAMING-VERACITY-BATCH1-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-NAMING-VERACITY-BATCH1-CONTROLS",
+  "rule": "Explicit finite interpretations",
+  "meaning": "Controls: a joint finite model of every premise and conclusion of the batch with a God that has the classical attributes; and omission models for each premise of the veracity, authority, revelation and operation-naming steps (11 models).",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,20 @@
+{
+  "id": "ATTEMPT-NAMING-VERACITY-BATCH1",
+  "statement_ids": [
+    "STMT-GOD-CONFIRMS-ONLY-TRUTH",
+    "STMT-BRIDGE-GOD-FOUNDED-AUTHORITY-PROPOSES-ONLY-TRUTH",
+    "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE",
+    "STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS"
+  ],
+  "date": "2026-11-07",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Batch certification of four exploration maps: veracity split into confirming-is-asserting, sincerity and infallibility (Knows not factive by definition); the authority truth bridge from definitive-proposal confirmation (via assistance) plus veracity; revelation possible and recognizable from omnipotence (derived from GodIsInfinite through power-follows-act), noncontradiction, exclusive signs and an open analysis of the primitive RevealsRecognizably; reduced naming from operation naming and maximality of a universal cause of being. Controls: one joint finite witness of all premises and conclusions with a God that has the classical attributes, plus 11 omission models covering every premise of the four target-reaching steps. All new premises remain OPEN analyst formulations; no source attribution, no premise discharge.",
+  "evidence": [
+    "NAMING-VERACITY-GOD-CONFIRMS-ONLY-TRUTH",
+    "NAMING-VERACITY-AUTHORITY-PROPOSES-ONLY-TRUTH",
+    "NAMING-VERACITY-REVELATION-FROM-OMNIPOTENCE",
+    "NAMING-VERACITY-BATCH1-CONTROLS"
+  ],
+  "blocker": "Every new premise is open. Linking ClassicalAttributesIncludePerfectIntellectAndGoodWill to GodHasIntellect/GodHasWill, and RecognizableRevelationAnalysis to a typed account of signs, needs further vocabulary."
+}

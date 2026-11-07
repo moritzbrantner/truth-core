@@ -72,6 +72,7 @@ public import TruthCore.Causality.MaximumDefinitionFork
 public import TruthCore.Causality.MeinongianActuality
 public import TruthCore.Causality.ModalNecessaryBeingActuality
 public import TruthCore.Causality.NamedPotentialCauser
+public import TruthCore.Causality.NamingVeracityBatch1
 public import TruthCore.Causality.NecessarilyUnderived
 public import TruthCore.Causality.NecessaryBeingInAct
 public import TruthCore.Causality.NecessaryBeingSurvey

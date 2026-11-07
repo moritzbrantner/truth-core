@@ -1,0 +1,9 @@
+{
+  "id": "STMT-INFINITE-ACT-HAS-INFINITE-POWER",
+  "paraphrase": "What is infinite can do every task that involves no contradiction (after ST I q.25 a.2). Derived in NAMING-VERACITY-INFINITE-POWER-FROM-ACT.",
+  "lean_declaration": "TruthCore.Causality.NamingVeracityBatch1.InfiniteActHasInfinitePower",
+  "definition_ids": [
+    "DEF-INFINITE",
+    "DEF-ACTIVE-POWER-TASK-VOCABULARY"
+  ]
+}

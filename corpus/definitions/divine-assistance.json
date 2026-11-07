@@ -1,0 +1,8 @@
+{
+  "id": "DEF-DIVINE-ASSISTANCE",
+  "term": "assistance of a founded teaching authority (Assistance.Assists)",
+  "definition": "Assists g c: g stands behind the definitive teaching of the society c, so that what c definitively proposes as revealed g confirms (the latter is the open premise STMT-ASSISTED-DEFINITIVE-PROPOSAL-IS-CONFIRMED, not part of the definition). Assists is an uninterpreted parameter of the Assistance structure over the skeleton Signature.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.NamingVeracityBatch1.Assistance",
+  "note": "Stipulative analyst vocabulary (attribution deferred). The intended reading is the promised assistance of Mt 28.20 and Jn 14.26 (lane B sources, not pinned for this node); a sourced definition would need those passages or Pastor aeternus ch. 4."
+}

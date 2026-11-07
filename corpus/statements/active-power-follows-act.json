@@ -1,0 +1,8 @@
+{
+  "id": "STMT-ACTIVE-POWER-FOLLOWS-ACT",
+  "paraphrase": "OPEN (attribution deferred): a being can do a task if it is in act in every perfection the task requires (active power follows act, after ST I q.25 a.1).",
+  "lean_declaration": "TruthCore.Causality.NamingVeracityBatch1.ActivePowerFollowsAct",
+  "definition_ids": [
+    "DEF-ACTIVE-POWER-TASK-VOCABULARY"
+  ]
+}

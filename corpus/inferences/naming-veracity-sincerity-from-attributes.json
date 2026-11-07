@@ -1,0 +1,11 @@
+{
+  "id": "INF-NAMING-VERACITY-SINCERITY-FROM-ATTRIBUTES",
+  "input_statement_ids": [
+    "STMT-CLASSICAL-ATTRIBUTES-INCLUDE-PERFECT-INTELLECT-AND-GOOD-WILL"
+  ],
+  "output_statement_id": "STMT-GOD-ASSERTS-ONLY-WHAT-HE-KNOWS",
+  "rule": "Composition of sincerity and assent-only-to-knowledge",
+  "meaning": "A God with the classical attributes asserts only what he believes (good will) and believes only what he holds as known (perfect intellect), so asserts only what he holds as known. One open analyst bridge supplying two attribute consequences.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

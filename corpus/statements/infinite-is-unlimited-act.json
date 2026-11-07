@@ -1,0 +1,9 @@
+{
+  "id": "STMT-INFINITE-IS-UNLIMITED-ACT",
+  "paraphrase": "OPEN (attribution deferred): what is infinite (the primitive Infinite predicate of GodIsInfinite) is in act in every possible perfection.",
+  "lean_declaration": "TruthCore.Causality.NamingVeracityBatch1.InfiniteIsUnlimitedAct",
+  "definition_ids": [
+    "DEF-INFINITE",
+    "DEF-ACTIVE-POWER-TASK-VOCABULARY"
+  ]
+}
