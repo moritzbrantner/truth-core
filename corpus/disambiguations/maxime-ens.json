@@ -9,5 +9,38 @@
     "DEF-MAXIMUM-CALIBRATION-PROFILE",
     "DEF-MAXIMUM-IN-A-PERFECTION"
   ],
-  "resolution": "The case uses the weakest sense: maximal in being, nothing being more a being (`IsMaximumIn InAct MoreIn esse`). It does not assume a strict maximum that exceeds every other being, and it does not use Anselm's conceptual description. Uniqueness is derived (AQUINAS-ST-I-Q2-A3-AT-MOST-ONE-MAXIME-ENS), not built in. A reviewer who reads 'maxime ens' as 'the greatest possible being' is reading a stronger sense than any premise asserts. Source-attribution correction2026-11-01: AQUINAS-ST-I-Q2-A3-MAXIMUM-CAUSES-GENUS-A now supports STMT-GREATEST-DEGREE-IN-GENUS-CAUSES-ALL-IN-GENUS, using DEF-GREATEST-DEGREE-IN-A-PERFECTION. It does not support the old unrestricted maximality principle I or its fixed-esse instance Iesse. Greatest represented degree allows ties without strict supremacy or uniqueness. The weak maximal abstraction can preserve a weaker existential consequence of greatestness under an appropriate order interpretation (as with H); putting it in an implication antecedent instead strengthens the causal conditional. No old definition, proof premise or formal consequence changes, and no totality or source-to-old-I bridge is supplied. MaximumDefinitionFork registers exact conditional bridges: selected-perfection active-pair strict degree calibration plus local directedness and explicit excluded middle imply maximal-to-greatest, which with the unchanged greatest-degree causal principle yields the exact old selected-esse causal premise. This does not make the old stronger conditional directly sourced. Primitive superlative calibrations distinguish merely maximal, greatest with ties and strict supremacy; named coverage remains OPEN with a selective-tie remainder. Finite incomparable controls block automatic source-to-old-I transfer; tied controls block uniqueness. No global homogeneous being scale is assumed. General-perfection scope: DEF-MAXIMUM-IN-A-PERFECTION quantifies at a supplied respect r; maxime ens specializes r to esse. Reuse the same distinction for general maximality and GreatestDegreeBearer, holding the active domain and selected respect fixed. MoreIn need not represent an order or a degree comparison; the #1141 calibration/directedness bridges and finite countermodels are essential, not implicit in the words maximum or greatest."
+  "resolution": "The case uses the weakest sense: maximal in being, nothing being more a being (`IsMaximumIn InAct MoreIn esse`). It does not assume a strict maximum that exceeds every other being, and it does not use Anselm's conceptual description. Uniqueness is derived (AQUINAS-ST-I-Q2-A3-AT-MOST-ONE-MAXIME-ENS), not built in. A reviewer who reads 'maxime ens' as 'the greatest possible being' is reading a stronger sense than any premise asserts. Source-attribution correction2026-11-01: AQUINAS-ST-I-Q2-A3-MAXIMUM-CAUSES-GENUS-A now supports STMT-GREATEST-DEGREE-IN-GENUS-CAUSES-ALL-IN-GENUS, using DEF-GREATEST-DEGREE-IN-A-PERFECTION. It does not support the old unrestricted maximality principle I or its fixed-esse instance Iesse. Greatest represented degree allows ties without strict supremacy or uniqueness. The weak maximal abstraction can preserve a weaker existential consequence of greatestness under an appropriate order interpretation (as with H); putting it in an implication antecedent instead strengthens the causal conditional. No old definition, proof premise or formal consequence changes, and no totality or source-to-old-I bridge is supplied. MaximumDefinitionFork registers exact conditional bridges: selected-perfection active-pair strict degree calibration plus local directedness and explicit excluded middle imply maximal-to-greatest, which with the unchanged greatest-degree causal principle yields the exact old selected-esse causal premise. This does not make the old stronger conditional directly sourced. Primitive superlative calibrations distinguish merely maximal, greatest with ties and strict supremacy; named coverage remains OPEN with a selective-tie remainder. Finite incomparable controls block automatic source-to-old-I transfer; tied controls block uniqueness. No global homogeneous being scale is assumed. General-perfection scope: DEF-MAXIMUM-IN-A-PERFECTION quantifies at a supplied respect r; maxime ens specializes r to esse. Reuse the same distinction for general maximality and GreatestDegreeBearer, holding the active domain and selected respect fixed. MoreIn need not represent an order or a degree comparison; the #1141 calibration/directedness bridges and finite countermodels are essential, not implicit in the words maximum or greatest.",
+  "term_label": "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST",
+  "senses": [
+    {
+      "id": "9bea9a43-3a87-4d62-86de-e5873aea62f8",
+      "label": "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST_1",
+      "definition_id": "DEF-MAXIME-ENS"
+    },
+    {
+      "id": "ac4c2702-e178-4c52-bd6d-e33685875cdf",
+      "label": "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST_2",
+      "definition_id": "DEF-GREATEST-BEING-STRICT"
+    },
+    {
+      "id": "db9c6264-7835-450c-8875-668a024d414a",
+      "label": "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST_3",
+      "definition_id": "DEF-GREATEST-CONCEIVABLE-BEING"
+    },
+    {
+      "id": "517baa9d-7981-4e2a-bdae-045467cb29fc",
+      "label": "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST_4",
+      "definition_id": "DEF-GREATEST-DEGREE-IN-A-PERFECTION"
+    },
+    {
+      "id": "230f0729-018b-48e4-a148-3fe610dc2995",
+      "label": "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST_5",
+      "definition_id": "DEF-MAXIMUM-CALIBRATION-PROFILE"
+    },
+    {
+      "id": "a833bcdb-8e99-4079-8cb6-fc1295eb690f",
+      "label": "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST_6",
+      "definition_id": "DEF-MAXIMUM-IN-A-PERFECTION"
+    }
+  ]
 }

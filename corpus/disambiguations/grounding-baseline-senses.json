@@ -7,5 +7,28 @@
     "DEF-PSR-STRENGTH-REASON",
     "DEF-GROUND-ENABLING-RULES"
   ],
-  "resolution": "Existential candidate grounding in A, fact-set ground candidates in C, fact-to-fact admitted reasons, efficient causation in Ontic and potential ground/enabler rule links in D remain different interpretations. reasonView is an explicit structural adapter into the existing forced lemma, not an assertion that R is genuine explanatory sufficiency. Only the entire full member set carries JointNecessitation; enablers outside it invalidate an advertised completeness/sufficiency reading. WF is independently stipulated, not hidden in a word. A necessary fact is not a necessary being, and a selected contingent terminus need not be the original target."
+  "resolution": "Existential candidate grounding in A, fact-set ground candidates in C, fact-to-fact admitted reasons, efficient causation in Ontic and potential ground/enabler rule links in D remain different interpretations. reasonView is an explicit structural adapter into the existing forced lemma, not an assertion that R is genuine explanatory sufficiency. Only the entire full member set carries JointNecessitation; enablers outside it invalidate an advertised completeness/sufficiency reading. WF is independently stipulated, not hidden in a word. A necessary fact is not a necessary being, and a selected contingent terminus need not be the original target.",
+  "term_label": "GROUNDING_COMPLETE_GROUNDS_REASON_PROJECTION",
+  "senses": [
+    {
+      "id": "6b996383-26b7-4fdb-9cfa-b309d780a550",
+      "label": "GROUNDING_COMPLETE_GROUNDS_REASON_PROJECTION_1",
+      "definition_id": "DEF-GROUNDING-MODAL-REDUCT"
+    },
+    {
+      "id": "c79a5fde-7ba3-4c29-bb52-3ef1e2b4c2af",
+      "label": "GROUNDING_COMPLETE_GROUNDS_REASON_PROJECTION_2",
+      "definition_id": "DEF-ADMITTED-FULL-GROUND-SETS"
+    },
+    {
+      "id": "892710b6-cd65-420c-bdbe-9dd7fd2e9247",
+      "label": "GROUNDING_COMPLETE_GROUNDS_REASON_PROJECTION_3",
+      "definition_id": "DEF-PSR-STRENGTH-REASON"
+    },
+    {
+      "id": "2eac9cda-119c-4c48-a1a1-a0994d2947fd",
+      "label": "GROUNDING_COMPLETE_GROUNDS_REASON_PROJECTION_4",
+      "definition_id": "DEF-GROUND-ENABLING-RULES"
+    }
+  ]
 }

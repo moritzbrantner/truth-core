@@ -2127,8 +2127,8 @@ def validate_definition(
     all_lean: str,
 ) -> None:
     require(definition, ["id", "term", "definition", "basis"], path)
-    if not definition["id"].startswith(DEFINITION_PREFIX):
-        raise CorpusError(f"{path.relative_to(ROOT)}: definition id must start with {DEFINITION_PREFIX}")
+    if not (definition["id"].startswith(DEFINITION_PREFIX) or is_uuid4(definition["id"])):
+        raise CorpusError(f"{path.relative_to(ROOT)}: definition id must start with {DEFINITION_PREFIX} or be a uuid4")
     basis = definition["basis"]
     if basis not in DEFINITION_BASES:
         raise CorpusError(
@@ -2157,9 +2157,9 @@ def validate_disambiguation(
     definition_ids: set[str],
 ) -> None:
     require(disambiguation, ["id", "term", "resolution"], path)
-    if not disambiguation["id"].startswith(DISAMBIGUATION_PREFIX):
+    if not (disambiguation["id"].startswith(DISAMBIGUATION_PREFIX) or is_uuid4(disambiguation["id"])):
         raise CorpusError(
-            f"{path.relative_to(ROOT)}: disambiguation id must start with {DISAMBIGUATION_PREFIX}"
+            f"{path.relative_to(ROOT)}: disambiguation id must start with {DISAMBIGUATION_PREFIX} or be a uuid4"
         )
     senses = require_string_list(disambiguation, "sense_definition_ids", path, allow_empty=False)
     if len(set(senses)) < 2:
@@ -2167,6 +2167,7 @@ def validate_disambiguation(
     for sense in senses:
         if sense not in definition_ids:
             raise CorpusError(f"{path.relative_to(ROOT)}: unknown sense definition id {sense}")
+    validate_disambiguation_senses(path, disambiguation)
 
 
 PROSE_ID_RE = re.compile(r"\b(?:STMT|DEF|DISAMB)-[A-Z0-9]+(?:-[A-Z0-9]+)*\b")
@@ -2228,6 +2229,227 @@ def validate_argument_senses(
                 f"{path.relative_to(ROOT)}: uses senses {', '.join(sorted(used))} of "
                 f"'{disambiguation['term']}' but does not link {disambiguation['id']}"
             )
+
+
+# Sense-indexed terms (owner direction 2026-11-07). Every disambiguation names
+# its term with a `term_label` (upper snake case, e.g. PRIOR) and gives each
+# sense an opaque identity: `senses: [{id: <uuid4>, label: "PRIOR_1",
+# definition_id}]`. The uuid is the identity; the TERM_n label is display only.
+# Within one argument every disambiguated term resolves to exactly one sense,
+# unless a premise listed in `sense_bridges` relates the senses it uses. An
+# argument valid in several senses is recorded once per sense.
+UUID4_RE = re.compile(r"[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}")
+TERM_LABEL_RE = re.compile(r"[A-Z][A-Z0-9_]*")
+SENSE_LABEL_RE = re.compile(r"[A-Z][A-Z0-9_]*_[1-9][0-9]*")
+SENSE_ALLOWLIST = Path("corpus") / "sense-index-allowlist.json"
+
+
+def is_uuid4(value: Any) -> bool:
+    """Opaque record identity (owner direction 2026-11-07): a lowercase uuid4."""
+    return isinstance(value, str) and UUID4_RE.fullmatch(value) is not None
+
+
+def validate_disambiguation_senses(path: Path, disambiguation: dict[str, Any]) -> None:
+    where = path.relative_to(ROOT)
+    term_label = disambiguation.get("term_label")
+    if not isinstance(term_label, str) or not TERM_LABEL_RE.fullmatch(term_label):
+        raise CorpusError(f"{where}: term_label must be an upper snake case term such as PRIOR")
+    senses = disambiguation.get("senses")
+    if not isinstance(senses, list) or any(
+        not isinstance(sense, dict) or set(sense) != {"id", "label", "definition_id"} for sense in senses
+    ):
+        raise CorpusError(f"{where}: senses must be a list of {{id, label, definition_id}} objects")
+    for sense in senses:
+        if not is_uuid4(sense["id"]):
+            raise CorpusError(f"{where}: sense id {sense['id']!r} must be a lowercase uuid4")
+        if not isinstance(sense["label"], str) or not SENSE_LABEL_RE.fullmatch(sense["label"]):
+            raise CorpusError(f"{where}: sense label {sense['label']!r} must look like TERM_1")
+    if [sense["definition_id"] for sense in senses] != disambiguation["sense_definition_ids"]:
+        raise CorpusError(f"{where}: senses must list sense_definition_ids in the same order")
+    for field in ("id", "label"):
+        values = [sense[field] for sense in senses]
+        if len(set(values)) != len(values):
+            raise CorpusError(f"{where}: sense {field}s must be distinct")
+
+
+def sense_index(
+    disambiguations: list[tuple[Path, dict[str, Any]]],
+) -> tuple[dict[str, dict[str, Any]], dict[str, list[dict[str, Any]]]]:
+    """Senses by uuid, and the senses each definition carries.
+
+    One sense uuid names one (term_label, definition, label) wherever it is
+    listed; a definition listed twice under one term label keeps one uuid.
+    """
+    by_id: dict[str, dict[str, Any]] = {}
+    by_definition: dict[str, list[dict[str, Any]]] = {}
+    term_definition: dict[tuple[str, str], str] = {}
+    for path, disambiguation in disambiguations:
+        for sense in disambiguation["senses"]:
+            entry = {"id": sense["id"], "label": sense["label"], "definition_id": sense["definition_id"],
+                     "term": disambiguation["term_label"]}
+            known = by_id.get(sense["id"])
+            if known is not None and known != entry:
+                raise CorpusError(
+                    f"{path.relative_to(ROOT)}: sense {sense['id']} is already {known['label']} "
+                    f"({known['definition_id']}) of {known['term']}"
+                )
+            key = (entry["term"], entry["definition_id"])
+            if term_definition.setdefault(key, sense["id"]) != sense["id"]:
+                raise CorpusError(
+                    f"{path.relative_to(ROOT)}: {entry['definition_id']} already has sense "
+                    f"{term_definition[key]} under {entry['term']}"
+                )
+            if known is None:
+                by_id[sense["id"]] = entry
+                by_definition.setdefault(entry["definition_id"], []).append(entry)
+    labels: dict[tuple[str, str], str] = {}
+    for entry in by_id.values():
+        if labels.setdefault((entry["term"], entry["label"]), entry["id"]) != entry["id"]:
+            raise CorpusError(f"corpus/disambiguations: sense label {entry['label']} names two senses")
+    return by_id, by_definition
+
+
+def argument_term_senses(
+    argument: dict[str, Any],
+    statement_index: dict[str, tuple[Path, dict[str, Any]]],
+    by_definition: dict[str, list[dict[str, Any]]],
+) -> dict[str, set[str]]:
+    """The sense uuids each disambiguated term takes in an argument, derived
+    from the definition_ids of the argument and of its conclusion, premise and
+    commitment statements."""
+    definitions = list(argument.get("definition_ids", []))
+    for statement_id in (
+        argument["conclusion_statement_id"],
+        *argument.get("premise_statement_ids", []),
+        *argument.get("commitment_statement_ids", []),
+    ):
+        definitions.extend(statement_index[statement_id][1].get("definition_ids", []))
+    used: dict[str, set[str]] = {}
+    for definition_id in definitions:
+        for sense in by_definition.get(definition_id, []):
+            used.setdefault(sense["term"], set()).add(sense["id"])
+    return used
+
+
+def bridged(term: str, used: set[str], bridges: list[dict[str, Any]]) -> bool:
+    """Whether the declared bridges for `term` connect every sense it uses."""
+    edges: dict[str, set[str]] = {}
+    for bridge in bridges:
+        if bridge["term"] == term:
+            edges.setdefault(bridge["from"], set()).add(bridge["to"])
+            edges.setdefault(bridge["to"], set()).add(bridge["from"])
+    start = min(used)
+    seen, frontier = {start}, [start]
+    while frontier:
+        for neighbour in edges.get(frontier.pop(), ()):
+            if neighbour not in seen:
+                seen.add(neighbour)
+                frontier.append(neighbour)
+    return used <= seen
+
+
+def load_sense_allowlist(root: Path | None = None) -> dict[str, dict[str, list[str]]]:
+    path = (root or ROOT) / SENSE_ALLOWLIST
+    if not path.exists():
+        return {}
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except ValueError:
+        data = None
+    if not isinstance(data, dict) or any(
+        not isinstance(terms, dict)
+        or any(not isinstance(ids, list) or not all(isinstance(i, str) for i in ids) for ids in terms.values())
+        for terms in data.values()
+    ):
+        raise CorpusError(f"{SENSE_ALLOWLIST}: must map argument ids to {{term: [sense ids]}}")
+    return data
+
+
+def sense_mixing(
+    arguments: list[tuple[Path, dict[str, Any]]],
+    statement_index: dict[str, tuple[Path, dict[str, Any]]],
+    disambiguations: list[tuple[Path, dict[str, Any]]],
+) -> list[dict[str, Any]]:
+    """Arguments whose terms take several senses without connecting bridges."""
+    by_id, by_definition = sense_index(disambiguations)
+    mixing = []
+    for path, argument in arguments:
+        used = argument_term_senses(argument, statement_index, by_definition)
+        for term in sorted(used):
+            senses = used[term]
+            if len(senses) > 1 and not bridged(term, senses, argument.get("sense_bridges", [])):
+                mixing.append({
+                    "path": path, "argument_id": argument["id"], "term": term,
+                    "sense_ids": sorted(senses),
+                    "labels": sorted(by_id[sense]["label"] for sense in senses),
+                })
+    return mixing
+
+
+def validate_argument_sense_fields(
+    path: Path,
+    argument: dict[str, Any],
+    statement_index: dict[str, tuple[Path, dict[str, Any]]],
+    senses: tuple[dict[str, dict[str, Any]], dict[str, list[dict[str, Any]]]],
+    allowlist: dict[str, dict[str, list[str]]],
+) -> None:
+    """One sense per disambiguated term per argument, unless bridged (no equivocation)."""
+    where = path.relative_to(ROOT)
+    by_id, by_definition = senses
+    premises = set(argument.get("premise_statement_ids", []))
+    bridges = argument.get("sense_bridges", [])
+    if not isinstance(bridges, list):
+        raise CorpusError(f"{where}: sense_bridges must be a list")
+    for bridge in bridges:
+        if not isinstance(bridge, dict) or set(bridge) != {"term", "from", "to", "statement_id"}:
+            raise CorpusError(f"{where}: a sense bridge is {{term, from, to, statement_id}}")
+        for end in ("from", "to"):
+            sense = by_id.get(bridge[end])
+            if sense is None or sense["term"] != bridge["term"]:
+                raise CorpusError(f"{where}: sense bridge {end} {bridge[end]!r} is not a sense of {bridge['term']!r}")
+        if bridge["from"] == bridge["to"]:
+            raise CorpusError(f"{where}: a sense bridge relates two different senses")
+        if bridge["statement_id"] not in premises:
+            raise CorpusError(f"{where}: sense bridge statement {bridge['statement_id']} must be a premise")
+    used = argument_term_senses(argument, statement_index, by_definition)
+    declared = argument.get("term_senses", {})
+    if not isinstance(declared, dict):
+        raise CorpusError(f"{where}: term_senses must map terms to sense ids")
+    for term, sense_id in declared.items():
+        sense = by_id.get(sense_id) if isinstance(sense_id, str) else None
+        if sense is None or sense["term"] != term:
+            raise CorpusError(f"{where}: term_senses {term} names {sense_id!r}, which is not a sense of {term}")
+        if term in used and sense_id not in used[term]:
+            labels = ", ".join(sorted(by_id[s]["label"] for s in used[term]))
+            raise CorpusError(f"{where}: term_senses gives {sense['label']} for {term}, but its statements use {labels}")
+    for term in sorted(used):
+        senses_used = used[term]
+        if len(senses_used) < 2 or bridged(term, senses_used, bridges):
+            continue
+        if senses_used <= set(allowlist.get(argument["id"], {}).get(term, [])):
+            continue
+        labels = ", ".join(sorted(by_id[s]["label"] for s in senses_used))
+        raise CorpusError(
+            f"{where}: uses senses {labels} of {term} without a sense bridge; record one argument per "
+            "sense, or list the premise relating them in sense_bridges"
+        )
+
+
+def sense_mixing_warnings(
+    arguments: list[tuple[Path, dict[str, Any]]],
+    statement_index: dict[str, tuple[Path, dict[str, Any]]],
+    disambiguations: list[tuple[Path, dict[str, Any]]],
+) -> list[str]:
+    """Pre-existing arguments that mix senses (allowlisted): one summary warning."""
+    mixing = sense_mixing(arguments, statement_index, disambiguations)
+    count = len({entry["argument_id"] for entry in mixing})
+    if not count:
+        return []
+    return [
+        f"{count} pre-existing argument(s) use several senses of one term without a sense bridge "
+        f"({len(mixing)} term use(s), allowlisted in {SENSE_ALLOWLIST.as_posix()}; "
+        "see docs/notes/sense-index-migration.md)"
+    ]
 
 
 def validate_result_config(path: Path, result: dict[str, Any], argument_ids: Iterable[str]) -> dict[str, Any]:
@@ -2391,6 +2613,8 @@ def validate() -> dict[str, int]:
         validate_disambiguation(path, disambiguation, definition_ids)
         validate_prose_ids(path, disambiguation, ("resolution",), citable)
         used_definitions.update(disambiguation["sense_definition_ids"])
+    senses = sense_index(disambiguations)
+    sense_allowlist = load_sense_allowlist()
 
     for path, claim in claims:
         require(
@@ -2477,6 +2701,7 @@ def validate() -> dict[str, int]:
         validate_argument_derivation(path, argument, inference_index)
         used_definitions.update(validate_term_links(path, argument, definition_ids, disambiguation_ids))
         validate_argument_senses(path, argument, statement_index, disambiguations)
+        validate_argument_sense_fields(path, argument, statement_index, senses, sense_allowlist)
 
     entity_indexes = {
         "source": source_index,
@@ -2750,6 +2975,9 @@ def check_warnings() -> list[str]:
                 f"{entry['statement_id']}: self_evident basis {entry['basis']} is not met, so the marking "
                 f"closes nothing: {'; '.join(entry['reasons'])}"
             )
+    warnings.extend(sense_mixing_warnings(
+        load_dir("arguments"), index_by_id(load_dir("statements"), "statement"), load_dir("disambiguations")
+    ))
     return warnings
 
 

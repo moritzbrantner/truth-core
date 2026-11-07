@@ -5,5 +5,18 @@
     "DEF-Q75-NATURAL-BODILY-CONSTITUTION",
     "DEF-Q75-REPRESENTED-NATURE"
   ],
-  "resolution": "BodilyDeterminacy concerns HasNaturally, whereas UniversalBodilyCognition concerns CanUnderstand. No inference identifies these relations. NaturalBodilyInterference explicitly asserts the disputed restriction linking constitutive bodily nature to cognitive range. Its source attribution does not independently defend it against a representationalist reply; see docs/human-intellect-incorporeal.md."
+  "resolution": "BodilyDeterminacy concerns HasNaturally, whereas UniversalBodilyCognition concerns CanUnderstand. No inference identifies these relations. NaturalBodilyInterference explicitly asserts the disputed restriction linking constitutive bodily nature to cognitive range. Its source attribution does not independently defend it against a representationalist reply; see docs/human-intellect-incorporeal.md.",
+  "term_label": "NATURE_IN_THE_KNOWER_CONSTITUTION",
+  "senses": [
+    {
+      "id": "4c231c69-2291-43dc-a0af-b9518aa4d96f",
+      "label": "NATURE_IN_THE_KNOWER_CONSTITUTION_1",
+      "definition_id": "DEF-Q75-NATURAL-BODILY-CONSTITUTION"
+    },
+    {
+      "id": "4d9bf808-b9b7-4f77-bcfe-dc79d92301f0",
+      "label": "NATURE_IN_THE_KNOWER_CONSTITUTION_2",
+      "definition_id": "DEF-Q75-REPRESENTED-NATURE"
+    }
+  ]
 }

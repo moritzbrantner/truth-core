@@ -6,5 +6,18 @@
     "DEF-WARRANTED-CORRECTION-STANDARD"
   ],
   "resolution": "This result uses only exact extensional classification relative to an explicit data projection. It distinguishes that stipulated property from Wittgenstein\u2019s grammatical discussion of an independent criterion (PI I.258/I.265), a computable checking procedure, epistemic warrant, normative authority and social consensus. Neither public agreement nor a private seeming is identified with correctness. An unavailable criterion may exist extensionally; a criterion\u2019s existence does not justify reliance on it.",
-  "note": "The equivalence does not formalize or decide the private-language argument."
+  "note": "The equivalence does not formalize or decide the private-language argument.",
+  "term_label": "CRITERION_OF_CORRECTNESS",
+  "senses": [
+    {
+      "id": "b77c1c5a-7956-47ac-84d2-b3d748abf918",
+      "label": "CRITERION_OF_CORRECTNESS_1",
+      "definition_id": "DEF-DATA-RELATIVE-CORRECTION-CRITERION"
+    },
+    {
+      "id": "54088d79-c78a-452c-bfda-718e662a698d",
+      "label": "CRITERION_OF_CORRECTNESS_2",
+      "definition_id": "DEF-WARRANTED-CORRECTION-STANDARD"
+    }
+  ]
 }

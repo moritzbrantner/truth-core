@@ -7,5 +7,23 @@
     "DEF-WARRANTED-CORRECTION-STANDARD"
   ],
   "resolution": "Zero offset is a property of a supplied signal/bias profile. A uniformly sound certificate guarantees that property across the model class; an exact criterion additionally classifies it in both directions. Neither is identified with actual epistemic entitlement, which may be fallible or externalist and need not include internal perfect recognition. Only functions of the same complete readings are considered; reasons carrying genuinely independent information are outside this obstruction. Supplied true signal anchors can distinguish the profiles, but their acquisition and warrant are not proved.",
-  "note": "No result here refutes all infinitism, all externalism or any actual causal regress. Restricting allowable signal functions can remove compensating alternatives; the unrestricted profile is essential."
+  "note": "No result here refutes all infinitism, all externalism or any actual causal regress. Restricting allowable signal functions can remove compensating alternatives; the unrestricted profile is essential.",
+  "term_label": "ACCURACY_CERTIFICATION_AND_EPISTEMIC_ENTITLEMENT",
+  "senses": [
+    {
+      "id": "f3352928-e907-48e3-a81c-384374189263",
+      "label": "ACCURACY_CERTIFICATION_AND_EPISTEMIC_ENTITLEMENT_1",
+      "definition_id": "DEF-INSTRUMENT-OFFSET-ACCURACY"
+    },
+    {
+      "id": "4b6cc5ba-961a-4491-8ad7-bc7e785b42c8",
+      "label": "ACCURACY_CERTIFICATION_AND_EPISTEMIC_ENTITLEMENT_2",
+      "definition_id": "DEF-DATA-RELATIVE-CORRECTION-CRITERION"
+    },
+    {
+      "id": "c0bc8cb4-7e7d-4df7-9ef0-7b3637402bc2",
+      "label": "ACCURACY_CERTIFICATION_AND_EPISTEMIC_ENTITLEMENT_3",
+      "definition_id": "DEF-WARRANTED-CORRECTION-STANDARD"
+    }
+  ]
 }

@@ -5,5 +5,18 @@
     "DEF-DEONTIC-IDEAL-FUTURE-BOUNDARY",
     "DEF-DEONTIC-AVAILABLE-CONTINUATION"
   ],
-  "resolution": "Ought here is explicitly stipulated ideal-successor semantics, not actual moral authority. Can is existential fulfillment relative to its named relation; broad can be read as a merely logical possibility relation, or as an alternative available-future relation in a separate control, without identifying the interpretations. blocked supplies the feasible relation in the first control and the selected actual-continuation relation in the second. No empirical agency or temporal accessibility is certified. The false designated continuation fails goal. Possible future fulfillment never implies selected actual fulfillment or present ability. Can is not permission; permission is not defined. Borrowed-car return and replacement/reparation are not identified, and inability caused culpably is not equated with absence of blame."
+  "resolution": "Ought here is explicitly stipulated ideal-successor semantics, not actual moral authority. Can is existential fulfillment relative to its named relation; broad can be read as a merely logical possibility relation, or as an alternative available-future relation in a separate control, without identifying the interpretations. blocked supplies the feasible relation in the first control and the selected actual-continuation relation in the second. No empirical agency or temporal accessibility is certified. The false designated continuation fails goal. Possible future fulfillment never implies selected actual fulfillment or present ability. Can is not permission; permission is not defined. Borrowed-car return and replacement/reparation are not identified, and inability caused culpably is not equated with absence of blame.",
+  "term_label": "OUGHT_CAN_POSSIBLE_FUTURE_ACTUAL_FULFILLMENT",
+  "senses": [
+    {
+      "id": "7deedd6a-4d39-49be-8c05-598b33e0fca9",
+      "label": "OUGHT_CAN_POSSIBLE_FUTURE_ACTUAL_FULFILLMENT_1",
+      "definition_id": "DEF-DEONTIC-IDEAL-FUTURE-BOUNDARY"
+    },
+    {
+      "id": "902cb150-9797-47d9-9658-26cb0ecf8e3b",
+      "label": "OUGHT_CAN_POSSIBLE_FUTURE_ACTUAL_FULFILLMENT_2",
+      "definition_id": "DEF-DEONTIC-AVAILABLE-CONTINUATION"
+    }
+  ]
 }

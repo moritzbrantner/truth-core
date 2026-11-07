@@ -5,5 +5,18 @@
     "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY",
     "DEF-CHURCH-SPIRITUAL-COMMUNITY"
   ],
-  "resolution": "The stage-5 proposition uses DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY for its visibility, continuance and authority condition. Lumen gentium §8 simultaneously names DEF-CHURCH-SPIRITUAL-COMMUNITY and rejects their separation into two realities. This reading neither replaces the visible condition with invisible communion alone nor reduces the Church to an external organization. It asserts no identity with a particular modern society and does not settle the separate historical-identity claim in stage 6. The independent analyst propositions STMT-CHURCH-HAS-VISIBLE-CRITERION, STMT-CHURCH-HAS-SPIRITUAL-CRITERION and STMT-CHURCH-HAS-JOINT-ASPECT-CRITERION now calibrate a selected Church extension on the same society carrier; no universal biconditional is attributed to the council. Spiritual does not mean invisible and a visible criterion does not exclude spirituality. Named coverage is open; a further extension is explicit and admits either stage-5 verdict. A selected founding witness plus visible/joint calibration reaches the unchanged stage-5 type. Spiritual calibration alone is insufficient, which is not its refutation; eliminating it requires its actual negation. No membership set, local/universal identity or stage-6 conclusion is supplied."
+  "resolution": "The stage-5 proposition uses DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY for its visibility, continuance and authority condition. Lumen gentium §8 simultaneously names DEF-CHURCH-SPIRITUAL-COMMUNITY and rejects their separation into two realities. This reading neither replaces the visible condition with invisible communion alone nor reduces the Church to an external organization. It asserts no identity with a particular modern society and does not settle the separate historical-identity claim in stage 6. The independent analyst propositions STMT-CHURCH-HAS-VISIBLE-CRITERION, STMT-CHURCH-HAS-SPIRITUAL-CRITERION and STMT-CHURCH-HAS-JOINT-ASPECT-CRITERION now calibrate a selected Church extension on the same society carrier; no universal biconditional is attributed to the council. Spiritual does not mean invisible and a visible criterion does not exclude spirituality. Named coverage is open; a further extension is explicit and admits either stage-5 verdict. A selected founding witness plus visible/joint calibration reaches the unchanged stage-5 type. Spiritual calibration alone is insufficient, which is not its refutation; eliminating it requires its actual negation. No membership set, local/universal identity or stage-6 conclusion is supplied.",
+  "term_label": "CHURCH_VISIBLE_SOCIETY_AND_SPIRITUAL_COMMUNITY",
+  "senses": [
+    {
+      "id": "9e428f41-c648-4377-91e9-c558593fdce8",
+      "label": "CHURCH_VISIBLE_SOCIETY_AND_SPIRITUAL_COMMUNITY_1",
+      "definition_id": "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY"
+    },
+    {
+      "id": "2a4a2460-811c-4244-8fe4-8ba72ee2ea43",
+      "label": "CHURCH_VISIBLE_SOCIETY_AND_SPIRITUAL_COMMUNITY_2",
+      "definition_id": "DEF-CHURCH-SPIRITUAL-COMMUNITY"
+    }
+  ]
 }

@@ -5,5 +5,18 @@
     "DEF-ACCIDENTAL-FEATURE-ORIGIN-ROLES",
     "DEF-ACCIDENTAL-FEATURE-ORIGIN-POLICIES"
   ],
-  "resolution": "Feature means a repeatable qualitative kind: two candidates can have the same kind without sharing one numerical accident token. The source distinction among essential, accidental and specifying additions is not equated with the eminent InAct dictionary. EssenceProduces is on the provided Principle sort, not ordinary bearer self-causation c=x; ExternalFeatureCause is a separate role and implies neither actual existence nor numerical distinction nor grounds. Five selected heads prove only the supplied-role witness. Full I42[9] source identity, source soundness, all-cases coverage and proper-being dependence remain separate OPEN obligations."
+  "resolution": "Feature means a repeatable qualitative kind: two candidates can have the same kind without sharing one numerical accident token. The source distinction among essential, accidental and specifying additions is not equated with the eminent InAct dictionary. EssenceProduces is on the provided Principle sort, not ordinary bearer self-causation c=x; ExternalFeatureCause is a separate role and implies neither actual existence nor numerical distinction nor grounds. Five selected heads prove only the supplied-role witness. Full I42[9] source identity, source soundness, all-cases coverage and proper-being dependence remain separate OPEN obligations.",
+  "term_label": "REPEATABLE_FEATURE_ORIGIN_VERSUS_INDIVIDUAL_ACCIDENT",
+  "senses": [
+    {
+      "id": "7adaebe6-00e4-43c8-9167-5989aa4b2622",
+      "label": "REPEATABLE_FEATURE_ORIGIN_VERSUS_INDIVIDUAL_ACCIDENT_1",
+      "definition_id": "DEF-ACCIDENTAL-FEATURE-ORIGIN-ROLES"
+    },
+    {
+      "id": "ca42d8bc-9678-4ac6-a41d-d6e5e977fe62",
+      "label": "REPEATABLE_FEATURE_ORIGIN_VERSUS_INDIVIDUAL_ACCIDENT_2",
+      "definition_id": "DEF-ACCIDENTAL-FEATURE-ORIGIN-POLICIES"
+    }
+  ]
 }

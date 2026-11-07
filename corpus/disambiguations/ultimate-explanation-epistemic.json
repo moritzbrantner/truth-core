@@ -10,5 +10,43 @@
     "DEF-HUME-INDUCTION-PRACTICE",
     "DEF-HISTORY-SELECTION-INFORMATION"
   ],
-  "resolution": "GroundedTotality is existence of a supplied explanatory-ground relation, weaker than independent ultimate adequacy. Follows describes conditional local dynamics; it does not certify real mechanism/explanation. Accurate is error-free prediction over a stipulated law-and-prefix cell, not epistemic entitlement. Optimal and Safe are payoff relations, not definitions of rationality. Sourcehood and complete-history selection do not automatically provide law knowledge, justified inductive generalization or access to a ground. Goldman proposes historical process warrant with qualifications, not perfect prediction. Humean practical reliance is not a blanket entitlement denial. The ontic-to-epistemic and performance-to-normativity bridges remain OPEN."
+  "resolution": "GroundedTotality is existence of a supplied explanatory-ground relation, weaker than independent ultimate adequacy. Follows describes conditional local dynamics; it does not certify real mechanism/explanation. Accurate is error-free prediction over a stipulated law-and-prefix cell, not epistemic entitlement. Optimal and Safe are payoff relations, not definitions of rationality. Sourcehood and complete-history selection do not automatically provide law knowledge, justified inductive generalization or access to a ground. Goldman proposes historical process warrant with qualifications, not perfect prediction. Humean practical reliance is not a blanket entitlement denial. The ontic-to-epistemic and performance-to-normativity bridges remain OPEN.",
+  "term_label": "ONTIC_GROUNDING_LOCAL_LAW_SATISFACTION_PREDICTIVE",
+  "senses": [
+    {
+      "id": "d288a353-f728-422f-bace-c46ff279b6ff",
+      "label": "ONTIC_GROUNDING_LOCAL_LAW_SATISFACTION_PREDICTIVE_1",
+      "definition_id": "DEF-REGULARITY-GROUND"
+    },
+    {
+      "id": "ab06c7cc-eb4a-4fb3-ac8c-41ea0a03d21a",
+      "label": "ONTIC_GROUNDING_LOCAL_LAW_SATISFACTION_PREDICTIVE_2",
+      "definition_id": "DEF-ULTIMATE-EXPLANATION-PROFILE"
+    },
+    {
+      "id": "9ed19a52-a92a-47f0-be23-81346c1c1952",
+      "label": "ONTIC_GROUNDING_LOCAL_LAW_SATISFACTION_PREDICTIVE_3",
+      "definition_id": "DEF-ULTIMATE-EXPLANATION-EVIDENCE"
+    },
+    {
+      "id": "2f0b1aa0-43b0-4288-aafd-60d118eb0494",
+      "label": "ONTIC_GROUNDING_LOCAL_LAW_SATISFACTION_PREDICTIVE_4",
+      "definition_id": "DEF-ULTIMATE-EXPLANATION-DECISION"
+    },
+    {
+      "id": "b5384019-09d6-4545-acda-3109f785f95e",
+      "label": "ONTIC_GROUNDING_LOCAL_LAW_SATISFACTION_PREDICTIVE_5",
+      "definition_id": "DEF-GOLDMAN-HISTORICAL-RELIABILISM"
+    },
+    {
+      "id": "9369a581-2103-43dd-be77-c08ecf6c0347",
+      "label": "ONTIC_GROUNDING_LOCAL_LAW_SATISFACTION_PREDICTIVE_6",
+      "definition_id": "DEF-HUME-INDUCTION-PRACTICE"
+    },
+    {
+      "id": "d86b9f98-d6a3-4f56-926a-855b2fe3dec9",
+      "label": "ONTIC_GROUNDING_LOCAL_LAW_SATISFACTION_PREDICTIVE_7",
+      "definition_id": "DEF-HISTORY-SELECTION-INFORMATION"
+    }
+  ]
 }

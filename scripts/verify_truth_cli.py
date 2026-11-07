@@ -267,6 +267,9 @@ class TruthThicknessParity(unittest.TestCase):
 # --- `truth check` against `corpus.py check` --------------------------------
 
 REVISION = "0" * 40
+SENSE_X = "11111111-1111-4111-8111-111111111111"
+SENSE_Y = "22222222-2222-4222-9222-222222222222"
+SENSE_Z = "33333333-3333-4333-a333-333333333333"
 CHECK_LEAN = {
     "TruthCore/Fix/Challenge.lean": "theorem fixAB (h : fixA) : fixB := sorry\n",
     "TruthCore/Fix/Solution.lean": (
@@ -318,7 +321,9 @@ def check_records():
             {"id": "DEF-Y", "term": "t", "definition": "second sense", "basis": "stipulative", "note": "why"},
         ],
         "disambiguations": [{"id": "DISAMB-T", "term": "t", "resolution": "DEF-X here, DEF-Y there",
-                             "sense_definition_ids": ["DEF-X", "DEF-Y"]}],
+                             "sense_definition_ids": ["DEF-X", "DEF-Y"], "term_label": "T",
+                             "senses": [{"id": SENSE_X, "label": "T_1", "definition_id": "DEF-X"},
+                                        {"id": SENSE_Y, "label": "T_2", "definition_id": "DEF-Y"}]}],
         "inferences": [
             {"id": f"INF-{a}{b}", "input_statement_ids": [f"STMT-{a}"], "assumption_statement_ids": [],
              "discharged_statement_ids": [], "output_statement_id": f"STMT-{b}", "rule": "mp", "meaning": "m"}
@@ -328,6 +333,10 @@ def check_records():
             {"id": "ARG-AB", "premise_statement_ids": ["STMT-A"], "inference_ids": ["INF-AB"],
              "conclusion_statement_id": "STMT-B", "meaning": "m"},
             {"id": "ARG-BC", "premise_statement_ids": ["STMT-B"], "inference_ids": ["INF-BC"],
+             "conclusion_statement_id": "STMT-C", "meaning": "m", "disambiguation_ids": ["DISAMB-T"],
+             "term_senses": {"T": SENSE_Y},
+             "sense_bridges": [{"term": "T", "from": SENSE_X, "to": SENSE_Y, "statement_id": "STMT-B"}]},
+            {"id": "ARG-BC-OLD", "premise_statement_ids": ["STMT-B"], "inference_ids": ["INF-BC"],
              "conclusion_statement_id": "STMT-C", "meaning": "m", "disambiguation_ids": ["DISAMB-T"]},
             {"id": "ARG-AD", "premise_statement_ids": ["STMT-A"], "inference_ids": ["INF-AD"],
              "conclusion_statement_id": "STMT-D", "meaning": "m"},
@@ -359,6 +368,7 @@ def check_records():
                             "configurations": [{"id": "base", "statement_ids": ["STMT-A"]}],
                             "incompatibility_result_ids": [],
                             "model_bindings": [{"model_id": "MODEL-FIX", "parameters": {"W": "W"}}]}],
+        "sense_allowlist": {"ARG-BC-OLD": {"T": [SENSE_X, SENSE_Y]}},
     }
 
 
@@ -379,6 +389,23 @@ def mutate(kind, rid, **changes):
 
 def add(kind, record):
     return lambda records: records[kind].append(record)
+
+
+def bridge(**changes):
+    def apply(records):
+        by_id(records, "arguments", "ARG-BC")["sense_bridges"][0].update(changes)
+    return apply
+
+
+def sense(index, **changes):
+    def apply(records):
+        by_id(records, "disambiguations", "DISAMB-T")["senses"][index].update(changes)
+    return apply
+
+
+def second_disambiguation(senses):
+    return add("disambiguations", {"id": "DISAMB-U", "term": "t again", "resolution": "r", "term_label": "T",
+                                   "sense_definition_ids": [s["definition_id"] for s in senses], "senses": senses})
 
 
 def comparator(change):
@@ -453,6 +480,35 @@ CHECK_FAILURES = {
         "object_kind": "statement", "object_id": "STMT-B", "delta_statement_id": "STMT-C",
         "background_statement_ids": [], "statement_parameter_indices": {"stronger": [], "weaker": [], "delta": []},
         "comparison_spec": "s", "note": "n", "evidence_result_ids": {}}),
+    "disambiguation without term_label": mutate("disambiguations", "DISAMB-T", term_label=None),
+    "senses not sense objects": mutate("disambiguations", "DISAMB-T", senses=[{"id": SENSE_X}]),
+    "sense id not a uuid4": sense(0, id="T-1"),
+    "sense label not TERM_n": sense(0, label="T_0"),
+    "senses out of order": mutate("disambiguations", "DISAMB-T", sense_definition_ids=["DEF-Y", "DEF-X"]),
+    "duplicate sense labels": sense(1, label="T_1"),
+    "sense uuid reused for another definition": second_disambiguation([
+        {"id": SENSE_X, "label": "T_1", "definition_id": "DEF-Y"},
+        {"id": SENSE_Z, "label": "T_3", "definition_id": "DEF-X"}]),
+    "definition given two senses under one term": second_disambiguation([
+        {"id": SENSE_Z, "label": "T_3", "definition_id": "DEF-X"},
+        {"id": SENSE_Y, "label": "T_2", "definition_id": "DEF-Y"}]),
+    "sense label naming two senses": lambda records: (
+        add("definitions", {"id": "DEF-W", "term": "t", "definition": "third sense", "basis": "stipulative",
+                            "note": "n"})(records),
+        second_disambiguation([{"id": SENSE_Y, "label": "T_2", "definition_id": "DEF-Y"},
+                               {"id": SENSE_Z, "label": "T_1", "definition_id": "DEF-W"}])(records)),
+    "sense_bridges not a list": mutate("arguments", "ARG-BC", sense_bridges={"T": SENSE_X}),
+    "sense bridge shape": bridge(note="extra"),
+    "sense bridge end not a sense of its term": bridge(to=SENSE_Z),
+    "sense bridge relating one sense": bridge(to=SENSE_X),
+    "sense bridge statement not a premise": bridge(statement_id="STMT-C"),
+    "term_senses not a map": mutate("arguments", "ARG-BC", term_senses=[SENSE_Y]),
+    "term_senses names no sense of the term": mutate("arguments", "ARG-BC", term_senses={"T": "T_2"}),
+    "term_senses names an unused sense": mutate("arguments", "ARG-AB", term_senses={"T": SENSE_Y}),
+    "two senses without a bridge": mutate("arguments", "ARG-BC", sense_bridges=None),
+    "allowlist does not cover the senses": lambda records: records["sense_allowlist"].update(
+        {"ARG-BC-OLD": {"T": [SENSE_X]}}),
+    "malformed allowlist": lambda records: records.update(sense_allowlist={"ARG-BC-OLD": ["T"]}),
     "candidate/result id collision": add("candidates", {"id": "RES-AB", "source_id": "SRC", "locator": "2",
                                                         "priority": 1, "goal": "g", "reason": "r",
                                                         "status": "candidate"}),
@@ -472,6 +528,9 @@ def write_check_fixture(root, change=None):
             change(records, configs)
         else:
             change(records)
+    allowlist = records.pop("sense_allowlist")
+    (root / "corpus").mkdir(parents=True, exist_ok=True)
+    (root / "corpus" / "sense-index-allowlist.json").write_text(json.dumps(allowlist))
     for kind, items in records.items():
         directory = root / "corpus" / kind
         directory.mkdir(parents=True, exist_ok=True)
@@ -537,9 +596,17 @@ class TruthCheckParity(unittest.TestCase):
             warnings = python_check(root).stderr
             for expected in ("does not count for closure rule (c)", "supports relation has no note",
                              "without strong_version_needed", "category predicate markConcrete",
-                             "self_evident basis observation is not met"):
+                             "self_evident basis observation is not met",
+                             "1 pre-existing argument(s) use several senses of one term"):
                 self.assertIn(expected, warnings)
             self.assertNotIn("markAbstract", warnings)
+
+    def test_uuid_identities_are_accepted(self):
+        uuid = "44444444-4444-4444-8444-444444444444"
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            write_check_fixture(root, mutate("attempts", "ATTEMPT-ONE", id=uuid))
+            self.assertTrue(self.assert_same(root).startswith("corpus ok: "))
 
     def test_fixture_failures(self):
         for name, change in CHECK_FAILURES.items():

@@ -6,5 +6,23 @@
     "DEF-NATURAL-LAW-MORAL-EVIL",
     "DEF-CULPA-AS-VOLUNTARY-OPERATION-DEFECT"
   ],
-  "resolution": "q.48 evil is the privation of a due good and includes non-moral evil. q.94 naturally evil is a practical evaluation contrary to natural law. Data keeps NaturallyEvil and Evil as different predicates on different carriers; no theorem identifies them, and evilPremise need not satisfy Moral. In q.48 a.5 culpa is the voluntary-operation species, classified only with voluntary control and a due operation absent or disordered. This does not identify all privative evil with culpa, the q.94 predicate with culpa, or a culpa occurrence with a truth-apt sentence in the O'Connor signature."
+  "resolution": "q.48 evil is the privation of a due good and includes non-moral evil. q.94 naturally evil is a practical evaluation contrary to natural law. Data keeps NaturallyEvil and Evil as different predicates on different carriers; no theorem identifies them, and evilPremise need not satisfy Moral. In q.48 a.5 culpa is the voluntary-operation species, classified only with voluntary control and a due operation absent or disordered. This does not identify all privative evil with culpa, the q.94 predicate with culpa, or a culpa occurrence with a truth-apt sentence in the O'Connor signature.",
+  "term_label": "EVIL",
+  "senses": [
+    {
+      "id": "8ae88c57-e580-494c-b6ea-3d1a15b2ea4d",
+      "label": "EVIL_1",
+      "definition_id": "DEF-EVIL-AS-PRIVATION"
+    },
+    {
+      "id": "54d64970-6aad-410a-a892-0d3b6c96a242",
+      "label": "EVIL_2",
+      "definition_id": "DEF-NATURAL-LAW-MORAL-EVIL"
+    },
+    {
+      "id": "a58fa4b5-1603-4fb0-bafb-ef86770f2104",
+      "label": "EVIL_3",
+      "definition_id": "DEF-CULPA-AS-VOLUNTARY-OPERATION-DEFECT"
+    }
+  ]
 }

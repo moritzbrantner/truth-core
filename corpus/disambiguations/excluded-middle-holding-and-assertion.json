@@ -6,5 +6,23 @@
     "DEF-EXCLUDED-MIDDLE-ASSERTION-POLICY",
     "DEF-EXCLUDED-MIDDLE-WITHHOLDING-POLICY"
   ],
-  "resolution": "Object-level holding ∀p,p∨¬p does not say an agent/stage asserts or knows every instance. The existing withholding package is derived from its explicit proof/assertion comparison inputs and is preserved; it is not object-level negation of EM. New policy-negative consequence has the exact universal assertion target. Controls compare the encoded marker subset only, not a full intended intuitionist logic or a historical classical interpretation. Separately, SomeExcludedMiddleInstanceFails is ∃p,¬(p∨¬p), not ¬∀p,(p∨¬p); its constructive refutation does not establish general EM. The serious withholding rival now targets universal assertion; exact global STMT-NOT-EXCLUDED-MIDDLE remains an unrefuted logical alternative to object EM. Existing floor basis/justification remain, with disagreement metadata updated; no source/proof bridge, generic Other or new floor approval is invented."
+  "resolution": "Object-level holding ∀p,p∨¬p does not say an agent/stage asserts or knows every instance. The existing withholding package is derived from its explicit proof/assertion comparison inputs and is preserved; it is not object-level negation of EM. New policy-negative consequence has the exact universal assertion target. Controls compare the encoded marker subset only, not a full intended intuitionist logic or a historical classical interpretation. Separately, SomeExcludedMiddleInstanceFails is ∃p,¬(p∨¬p), not ¬∀p,(p∨¬p); its constructive refutation does not establish general EM. The serious withholding rival now targets universal assertion; exact global STMT-NOT-EXCLUDED-MIDDLE remains an unrefuted logical alternative to object EM. Existing floor basis/justification remain, with disagreement metadata updated; no source/proof bridge, generic Other or new floor approval is invented.",
+  "term_label": "EXCLUDED_MIDDLE_LOGICAL_HOLDING_ASSERTION_POLICY",
+  "senses": [
+    {
+      "id": "358b99c6-c7e0-487f-a6ac-735260c4e662",
+      "label": "EXCLUDED_MIDDLE_LOGICAL_HOLDING_ASSERTION_POLICY_1",
+      "definition_id": "DEF-EXCLUDED-MIDDLE-LOGICAL-HOLDING"
+    },
+    {
+      "id": "da716fed-b136-477c-8196-d44a768977e2",
+      "label": "EXCLUDED_MIDDLE_LOGICAL_HOLDING_ASSERTION_POLICY_2",
+      "definition_id": "DEF-EXCLUDED-MIDDLE-ASSERTION-POLICY"
+    },
+    {
+      "id": "62475b70-18f0-4e66-a802-b7e280cbc1b2",
+      "label": "EXCLUDED_MIDDLE_LOGICAL_HOLDING_ASSERTION_POLICY_3",
+      "definition_id": "DEF-EXCLUDED-MIDDLE-WITHHOLDING-POLICY"
+    }
+  ]
 }

@@ -5,5 +5,18 @@
     "DEF-MODAL-EXISTENCE-DEGREE",
     "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
   ],
-  "resolution": "ExistenceDegrees uses intensity as an ordered degree parameter and m.ExistsAt as a separate world-relative presence predicate over a fixed roster. NecessaryAt is relative to worlds accessible from the chosen standpoint and need not imply base-world presence without a reflexivity/presence premise. Neither presence nor necessity alone fixes intensity; the degree-invariance clause is an additional open, source-shaped conditional. The source11 claim binds only ActualNecessaryDegreeInvariant, whose antecedent includes actual presence and necessity, not the stronger bare analyst predicate. Same degree means mutual\u2264, allowing different tied labels; no source-supported equality of labels, strictness or uniqueness is inferred. The graded-intensity profile is not silently identified with Thomistic InAct x esse, the earlier homogeneous MoreIn scale, or a count of worlds. All global conclusions retain their root-accessible domain and existent-pair guards."
+  "resolution": "ExistenceDegrees uses intensity as an ordered degree parameter and m.ExistsAt as a separate world-relative presence predicate over a fixed roster. NecessaryAt is relative to worlds accessible from the chosen standpoint and need not imply base-world presence without a reflexivity/presence premise. Neither presence nor necessity alone fixes intensity; the degree-invariance clause is an additional open, source-shaped conditional. The source11 claim binds only ActualNecessaryDegreeInvariant, whose antecedent includes actual presence and necessity, not the stronger bare analyst predicate. Same degree means mutual\u2264, allowing different tied labels; no source-supported equality of labels, strictness or uniqueness is inferred. The graded-intensity profile is not silently identified with Thomistic InAct x esse, the earlier homogeneous MoreIn scale, or a count of worlds. All global conclusions retain their root-accessible domain and existent-pair guards.",
+  "term_label": "DEGREE_OF_EXISTENCE_WORLD_RELATIVE_PRESENCE",
+  "senses": [
+    {
+      "id": "82267c8d-fd50-40ec-a2d7-33681573d26d",
+      "label": "DEGREE_OF_EXISTENCE_WORLD_RELATIVE_PRESENCE_1",
+      "definition_id": "DEF-MODAL-EXISTENCE-DEGREE"
+    },
+    {
+      "id": "9cb1dfa5-0d02-4519-9e9a-1cbf20fbaaa7",
+      "label": "DEGREE_OF_EXISTENCE_WORLD_RELATIVE_PRESENCE_2",
+      "definition_id": "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+    }
+  ]
 }

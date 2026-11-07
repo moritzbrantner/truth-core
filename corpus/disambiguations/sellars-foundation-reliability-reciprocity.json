@@ -7,5 +7,28 @@
     "DEF-SELLARS-TEMPORAL-EVIDENCE",
     "DEF-SELLARS-RECIPROCAL-DEPENDENCE"
   ],
-  "resolution": "Noninferential observation is not epistemic autonomy; causal reliability is not by itself recognized authority; now knowing an earlier fact is not having known it then. Sellars preserves observational asymmetry while proposing another dimension of reciprocal dependence, not a same-relation circular proof. This bounded chapter therefore supplies a positive holistic/reliability-sensitive reply rather than a pure consistency-based coherentism. It does not refute every foundationalism, justify every coherent system, require infinite psychological traversal, or transfer an epistemic reply to actual causal power. The scope of and entitlement to reliability knowledge, memory and cross-dimensional support remain open."
+  "resolution": "Noninferential observation is not epistemic autonomy; causal reliability is not by itself recognized authority; now knowing an earlier fact is not having known it then. Sellars preserves observational asymmetry while proposing another dimension of reciprocal dependence, not a same-relation circular proof. This bounded chapter therefore supplies a positive holistic/reliability-sensitive reply rather than a pure consistency-based coherentism. It does not refute every foundationalism, justify every coherent system, require infinite psychological traversal, or transfer an epistemic reply to actual causal power. The scope of and entitlement to reliability knowledge, memory and cross-dimensional support remain open.",
+  "term_label": "FOUNDATION_NONINFERENTIAL_KNOWLEDGE_RELIABILITY_TEMPORAL_PRIORITY",
+  "senses": [
+    {
+      "id": "908e5cd4-ef68-4054-8513-6163d7251306",
+      "label": "FOUNDATION_NONINFERENTIAL_KNOWLEDGE_RELIABILITY_TEMPORAL_PRIORITY_1",
+      "definition_id": "DEF-SELLARS-NONINFERENTIAL-OBSERVATION"
+    },
+    {
+      "id": "e10bdc34-b603-43b8-837c-9dced44b611b",
+      "label": "FOUNDATION_NONINFERENTIAL_KNOWLEDGE_RELIABILITY_TEMPORAL_PRIORITY_2",
+      "definition_id": "DEF-SELLARS-RECOGNIZED-REPORT-AUTHORITY"
+    },
+    {
+      "id": "47aae8b3-2c88-4a61-a47b-cfd55db3a807",
+      "label": "FOUNDATION_NONINFERENTIAL_KNOWLEDGE_RELIABILITY_TEMPORAL_PRIORITY_3",
+      "definition_id": "DEF-SELLARS-TEMPORAL-EVIDENCE"
+    },
+    {
+      "id": "cb672437-01d3-443b-92e7-d102f98db64c",
+      "label": "FOUNDATION_NONINFERENTIAL_KNOWLEDGE_RELIABILITY_TEMPORAL_PRIORITY_4",
+      "definition_id": "DEF-SELLARS-RECIPROCAL-DEPENDENCE"
+    }
+  ]
 }

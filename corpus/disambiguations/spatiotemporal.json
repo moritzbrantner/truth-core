@@ -6,5 +6,23 @@
     "DEF-SPATIOTEMPORAL-LOCATED",
     "DEF-SPATIOTEMPORAL-RELATED"
   ],
-  "resolution": "Three senses are kept apart and none is defined from another: occupying a region (DEF-SPATIOTEMPORAL-LOCATED, the occupant sense), standing in spatiotemporal relations (DEF-SPATIOTEMPORAL-RELATED) and being a part of the spacetime whole (DEF-PART-OF-SPACETIME). Every naturalist thesis takes its sense as the parameter P, so a statement never passes from one sense to another without an explicit bridge statement. Spatiotemporality is a property separate from concreteness (DISAMB-CONCRETE-ABSTRACT-CRITERIA): the spatiotemporal concreteness criterion is a rival sense of concrete, not this property, and SPATIOTEMPORAL-INDEPENDENT-OF-CONCRETE certifies that each sense is independent of the adopted esse sense. Occupation is dimensive: God's presence everywhere by power, presence and essence (ST I q.8 a.3) and an angel's definitive presence by applying its power (q.52 a.1) are not occupation, so a Thomist God present everywhere is not thereby Located. That is the analyst's reading choice, recorded here, not a source claim."
+  "resolution": "Three senses are kept apart and none is defined from another: occupying a region (DEF-SPATIOTEMPORAL-LOCATED, the occupant sense), standing in spatiotemporal relations (DEF-SPATIOTEMPORAL-RELATED) and being a part of the spacetime whole (DEF-PART-OF-SPACETIME). Every naturalist thesis takes its sense as the parameter P, so a statement never passes from one sense to another without an explicit bridge statement. Spatiotemporality is a property separate from concreteness (DISAMB-CONCRETE-ABSTRACT-CRITERIA): the spatiotemporal concreteness criterion is a rival sense of concrete, not this property, and SPATIOTEMPORAL-INDEPENDENT-OF-CONCRETE certifies that each sense is independent of the adopted esse sense. Occupation is dimensive: God's presence everywhere by power, presence and essence (ST I q.8 a.3) and an angel's definitive presence by applying its power (q.52 a.1) are not occupation, so a Thomist God present everywhere is not thereby Located. That is the analyst's reading choice, recorded here, not a source claim.",
+  "term_label": "SPATIOTEMPORAL",
+  "senses": [
+    {
+      "id": "e1d450e1-1c75-48e7-a6b4-60255b4cae7b",
+      "label": "SPATIOTEMPORAL_1",
+      "definition_id": "DEF-PART-OF-SPACETIME"
+    },
+    {
+      "id": "ae03bf93-e554-4f40-a32b-12b55f87cf54",
+      "label": "SPATIOTEMPORAL_2",
+      "definition_id": "DEF-SPATIOTEMPORAL-LOCATED"
+    },
+    {
+      "id": "3a765060-b999-476c-9f51-f23e08d91252",
+      "label": "SPATIOTEMPORAL_3",
+      "definition_id": "DEF-SPATIOTEMPORAL-RELATED"
+    }
+  ]
 }

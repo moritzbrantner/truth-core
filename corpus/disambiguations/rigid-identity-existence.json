@@ -5,5 +5,18 @@
     "DEF-PARTIAL-RIGID-DESIGNATION",
     "DEF-STRICT-NAME-COREFERENCE"
   ],
-  "resolution": "RigidAt constrains which bearer a name can denote along M edges and ties denotation to existence; CoRef requires a shared denotation at a description. The theorem therefore distinguishes conditional identity wherever the bearer exists from Box of strict CoRef, which additionally requires NecessaryAt. It never infers necessary existence from rigid naming. E-only descriptions may vary reference; absence of E-necessity is modeled admission uncertainty, not proven ignorance, conceivability or an a posteriori discovery. No historical interpretation is asserted."
+  "resolution": "RigidAt constrains which bearer a name can denote along M edges and ties denotation to existence; CoRef requires a shared denotation at a description. The theorem therefore distinguishes conditional identity wherever the bearer exists from Box of strict CoRef, which additionally requires NecessaryAt. It never infers necessary existence from rigid naming. E-only descriptions may vary reference; absence of E-necessity is modeled admission uncertainty, not proven ignorance, conceivability or an a posteriori discovery. No historical interpretation is asserted.",
+  "term_label": "RIGID_IDENTITY_VERSUS_STRICT_SENTENCE_CO",
+  "senses": [
+    {
+      "id": "b9b9cf15-9d1c-49b2-8d9e-3dbda961818c",
+      "label": "RIGID_IDENTITY_VERSUS_STRICT_SENTENCE_CO_1",
+      "definition_id": "DEF-PARTIAL-RIGID-DESIGNATION"
+    },
+    {
+      "id": "57edef51-3da9-4478-82ec-7f4ac35fd0c9",
+      "label": "RIGID_IDENTITY_VERSUS_STRICT_SENTENCE_CO_2",
+      "definition_id": "DEF-STRICT-NAME-COREFERENCE"
+    }
+  ]
 }

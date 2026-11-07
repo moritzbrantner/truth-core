@@ -7,5 +7,28 @@
     "DEF-SEXTUS-BARE-HYPOTHESIS",
     "DEF-ALL-PREMISE-GENERATED-WARRANT"
   ],
-  "resolution": "The Five Modes are presented at PHI164 as five procedures of suspension (dispute, regress, relativity, hypothesis and reciprocity). The selected text does not present a checked exclusive three-branch theorem and does not name HansAlbert. Later Agrippa/Münchhausen-trilemma language is an investigation label here, not an attribution of later doctrine. A proof’s renewed demand for epistemic support differs from a cause’s actual activity and from infinite temporal history. No established starting point is read epistemically, not as a demand for a chronologically first event. The repository’s inductively GeneratedWarrant is one stipulated foundationalist account, not the meaning of all possible justification or a norm Sextus has here independently vindicated. Bare concession differs from independently defended noninferential warrant; reciprocal establishing differs from every holistic coherence criterion. Suspension is not a positive impossibility or knowledge claim."
+  "resolution": "The Five Modes are presented at PHI164 as five procedures of suspension (dispute, regress, relativity, hypothesis and reciprocity). The selected text does not present a checked exclusive three-branch theorem and does not name HansAlbert. Later Agrippa/Münchhausen-trilemma language is an investigation label here, not an attribution of later doctrine. A proof’s renewed demand for epistemic support differs from a cause’s actual activity and from infinite temporal history. No established starting point is read epistemically, not as a demand for a chronologically first event. The repository’s inductively GeneratedWarrant is one stipulated foundationalist account, not the meaning of all possible justification or a norm Sextus has here independently vindicated. Bare concession differs from independently defended noninferential warrant; reciprocal establishing differs from every holistic coherence criterion. Suspension is not a positive impossibility or knowledge claim.",
+  "term_label": "EPISTEMIC_ESTABLISHMENT_SKEPTICAL_SUSPENSION_INFINITE_REGRESS",
+  "senses": [
+    {
+      "id": "908af1f3-c95b-4700-864a-3b0c1719648b",
+      "label": "EPISTEMIC_ESTABLISHMENT_SKEPTICAL_SUSPENSION_INFINITE_REGRESS_1",
+      "definition_id": "DEF-SEXTUS-ESTABLISHING-PROOF"
+    },
+    {
+      "id": "7cd07a09-9739-4fc1-a639-59cfd326eb45",
+      "label": "EPISTEMIC_ESTABLISHMENT_SKEPTICAL_SUSPENSION_INFINITE_REGRESS_2",
+      "definition_id": "DEF-SEXTUS-SUSPENSION"
+    },
+    {
+      "id": "14ab6e9c-2731-4fdc-9be9-3dc11766dd70",
+      "label": "EPISTEMIC_ESTABLISHMENT_SKEPTICAL_SUSPENSION_INFINITE_REGRESS_3",
+      "definition_id": "DEF-SEXTUS-BARE-HYPOTHESIS"
+    },
+    {
+      "id": "169782f5-c2a9-44ff-8aa7-9e09016e9a5c",
+      "label": "EPISTEMIC_ESTABLISHMENT_SKEPTICAL_SUSPENSION_INFINITE_REGRESS_4",
+      "definition_id": "DEF-ALL-PREMISE-GENERATED-WARRANT"
+    }
+  ]
 }

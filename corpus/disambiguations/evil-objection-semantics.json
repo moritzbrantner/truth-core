@@ -7,5 +7,28 @@
     "DEF-INTERNAL-PERMISSION-CHALLENGE",
     "DEF-AFFECTIVE-BADNESS-ANALYSIS"
   ],
-  "resolution": "The critic's own selected moral evil utterance, expression of disapproval, non-moral suffering report and report of a target-internal logical conflict are distinct roles. Strict truthlessness blocks the own-true-premise use only when all four recorded semantic/classification bridges hold. An affective account by itself does not entail truthlessness. The internal challenge uses target Rowe standards, whose actual gratuitous-suffering and permission commitments remain separate. Catholic privation of due good, voluntary culpa, suffering, stance-independent wrongness and an attitude are not silently identified. RemainingUse is the exact negation of all three named diagnostic conditions. NamedUseCoverage must be supplied or proved separately; retaining Other gives a proved coverage theorem with explicit excluded middle, without exhaustiveness of all philosophical schools. The explicit models establish these formal boundaries, not that any actual thinker endorses the configurations."
+  "resolution": "The critic's own selected moral evil utterance, expression of disapproval, non-moral suffering report and report of a target-internal logical conflict are distinct roles. Strict truthlessness blocks the own-true-premise use only when all four recorded semantic/classification bridges hold. An affective account by itself does not entail truthlessness. The internal challenge uses target Rowe standards, whose actual gratuitous-suffering and permission commitments remain separate. Catholic privation of due good, voluntary culpa, suffering, stance-independent wrongness and an attitude are not silently identified. RemainingUse is the exact negation of all three named diagnostic conditions. NamedUseCoverage must be supplied or proved separately; retaining Other gives a proved coverage theorem with explicit excluded middle, without exhaustiveness of all philosophical schools. The explicit models establish these formal boundaries, not that any actual thinker endorses the configurations.",
+  "term_label": "EVIL_DISAPPROVAL_AND_INTERNAL_OBJECTION",
+  "senses": [
+    {
+      "id": "999ebfb8-fb72-4285-a224-e1f5e693dea8",
+      "label": "EVIL_DISAPPROVAL_AND_INTERNAL_OBJECTION_1",
+      "definition_id": "DEF-EVIL-OBJECTION-CRITIC"
+    },
+    {
+      "id": "3fde327f-3702-4b47-8040-cf3bb19aae4c",
+      "label": "EVIL_DISAPPROVAL_AND_INTERNAL_OBJECTION_2",
+      "definition_id": "DEF-EVIL-OBJECTION-USES"
+    },
+    {
+      "id": "80a028e3-2e26-42d2-9cd3-1bca8f7089e1",
+      "label": "EVIL_DISAPPROVAL_AND_INTERNAL_OBJECTION_3",
+      "definition_id": "DEF-INTERNAL-PERMISSION-CHALLENGE"
+    },
+    {
+      "id": "bb7184d9-36f8-4bc9-9e83-e5435a74c37c",
+      "label": "EVIL_DISAPPROVAL_AND_INTERNAL_OBJECTION_4",
+      "definition_id": "DEF-AFFECTIVE-BADNESS-ANALYSIS"
+    }
+  ]
 }

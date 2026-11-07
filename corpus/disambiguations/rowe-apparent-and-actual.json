@@ -5,5 +5,18 @@
     "DEF-ROWE-GRATUITOUS-SUFFERING",
     "DEF-ROWE-APPARENT-POINTLESSNESS"
   ],
-  "resolution": "GratuitousSufferingReading concerns actual absence of unavoidable costs. ApparentlyPointlessSuffering concerns costs unrecognized by a finite investigator. Neither absence of recognition nor a single fawn case is treated as proof of actual absence. Rowe’s inductive argument appeals to additional total evidence and remains an explicit unresolved warrant question."
+  "resolution": "GratuitousSufferingReading concerns actual absence of unavoidable costs. ApparentlyPointlessSuffering concerns costs unrecognized by a finite investigator. Neither absence of recognition nor a single fawn case is treated as proof of actual absence. Rowe’s inductive argument appeals to additional total evidence and remains an explicit unresolved warrant question.",
+  "term_label": "POINTLESS_GRATUITOUS",
+  "senses": [
+    {
+      "id": "88ded334-2fc0-41c7-b15a-9278ad2c592c",
+      "label": "POINTLESS_GRATUITOUS_1",
+      "definition_id": "DEF-ROWE-GRATUITOUS-SUFFERING"
+    },
+    {
+      "id": "b29e35c1-75e3-4f6d-8a89-bfb39ce99c94",
+      "label": "POINTLESS_GRATUITOUS_2",
+      "definition_id": "DEF-ROWE-APPARENT-POINTLESSNESS"
+    }
+  ]
 }

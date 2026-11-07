@@ -5,5 +5,18 @@
     "DEF-NATURAL-APPETITE-FORM-INCLINATION",
     "DEF-COGNITION-RELATIVE-APPETITE"
   ],
-  "resolution": "Use natural appetite for inclination following a thing's own form and cognition-relative appetite for the soul's power concerning apprehended good. The latter is not inferred merely from noncognitive directedness, and the Fifth-Way TendsTo parameter is not identified with intellectual appetite."
+  "resolution": "Use natural appetite for inclination following a thing's own form and cognition-relative appetite for the soul's power concerning apprehended good. The latter is not inferred merely from noncognitive directedness, and the Fifth-Way TendsTo parameter is not identified with intellectual appetite.",
+  "term_label": "APPETITE_AS_NATURAL_INCLINATION_VERSUS_APPETITE",
+  "senses": [
+    {
+      "id": "bcd3dfa7-925d-4901-af6b-18d55d08b560",
+      "label": "APPETITE_AS_NATURAL_INCLINATION_VERSUS_APPETITE_1",
+      "definition_id": "DEF-NATURAL-APPETITE-FORM-INCLINATION"
+    },
+    {
+      "id": "564e875a-6317-4c7d-a5b2-8f84b4e2f35b",
+      "label": "APPETITE_AS_NATURAL_INCLINATION_VERSUS_APPETITE_2",
+      "definition_id": "DEF-COGNITION-RELATIVE-APPETITE"
+    }
+  ]
 }

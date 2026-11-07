@@ -7,5 +7,28 @@
     "DEF-THIRD-MAN-ITERATION",
     "DEF-THIRD-MAN-SCOPED-FORMATION"
   ],
-  "resolution": "The foundation ranges over particulars; Formation ranges over eligible homogeneous pluralities. InitialScope admits the first pair; Iteration separately admits lists containing newly introduced Forms. The scoped reply rejects that extension while retaining ordinary self-predication. No domain switch is automatic."
+  "resolution": "The foundation ranges over particulars; Formation ranges over eligible homogeneous pluralities. InitialScope admits the first pair; Iteration separately admits lists containing newly introduced Forms. The scoped reply rejects that extension while retaining ordinary self-predication. No domain switch is automatic.",
+  "term_label": "ONE_OVER_MANY",
+  "senses": [
+    {
+      "id": "62ac268b-aa31-4b74-9144-8151dcadab4d",
+      "label": "ONE_OVER_MANY_1",
+      "definition_id": "DEF-THIRD-MAN-FORMATION"
+    },
+    {
+      "id": "0a73e684-7b09-482a-8c4f-2114b7656830",
+      "label": "ONE_OVER_MANY_2",
+      "definition_id": "DEF-THIRD-MAN-INITIAL-SCOPE"
+    },
+    {
+      "id": "c6338d87-4645-4f25-8070-2b1f308371bf",
+      "label": "ONE_OVER_MANY_3",
+      "definition_id": "DEF-THIRD-MAN-ITERATION"
+    },
+    {
+      "id": "5de9c1ab-5db4-428f-9aea-4b2dc53a6d99",
+      "label": "ONE_OVER_MANY_4",
+      "definition_id": "DEF-THIRD-MAN-SCOPED-FORMATION"
+    }
+  ]
 }

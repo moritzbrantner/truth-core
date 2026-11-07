@@ -5,5 +5,18 @@
     "DEF-GOOD-AS-BEING-IN-ACT",
     "DEF-NATURAL-LAW-FIRST-PRECEPT"
   ],
-  "resolution": "GoodIn on beings/perfections is actuality in the q.5 reading; GoodAct on acts is the practical-good predicate in q.94’s first precept. CatholicNaturalLaw conjoins these commitments but contains no identification or derivation of the latter predicate from the former."
+  "resolution": "GoodIn on beings/perfections is actuality in the q.5 reading; GoodAct on acts is the practical-good predicate in q.94’s first precept. CatholicNaturalLaw conjoins these commitments but contains no identification or derivation of the latter predicate from the former.",
+  "term_label": "GOOD_IN_BEING_AND_GOOD",
+  "senses": [
+    {
+      "id": "20e1734d-c81d-4c02-b733-bcdcff0ea88c",
+      "label": "GOOD_IN_BEING_AND_GOOD_1",
+      "definition_id": "DEF-GOOD-AS-BEING-IN-ACT"
+    },
+    {
+      "id": "d4059baf-00b6-4392-ae12-08af7c36aa54",
+      "label": "GOOD_IN_BEING_AND_GOOD_2",
+      "definition_id": "DEF-NATURAL-LAW-FIRST-PRECEPT"
+    }
+  ]
 }

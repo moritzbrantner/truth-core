@@ -13,7 +13,7 @@
 - **Result** — mechanical verification metadata connecting an argument to its Challenge/Solution theorem and Comparator configuration.
 - **Relation** — optional additive metadata such as equivalence, contradiction, translation, strength, or attack. Relations never collapse entity identity.
 - **Definition** (`corpus/definitions/`, `DEF-…`) — one sense of a term (#204): `term`, `definition`, and a `basis`. A `sourced` definition lists the `claim_ids` whose pinned passages give it. A `stipulative` one carries a `note` saying why it is stipulated and what would source it, and may still cite claims for context. An optional `lean_declaration` names the declaration or parameter that carries the sense. A definition is not a statement: it asserts nothing, and a nominal definition whose sufficiency an argument needs (such as `STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS`) stays an open premise.
-- **Disambiguation** (`corpus/disambiguations/`, `DISAMB-…`) — two or more senses of one term (`sense_definition_ids`) and a `resolution` saying which sense each use takes and why no argument passes from one sense to another. Some senses are recorded only for contrast (for example a strict greatest being next to *maxime ens*); those are stipulative and say so.
+- **Disambiguation** (`corpus/disambiguations/`, `DISAMB-…`) — two or more senses of one term (`sense_definition_ids`) and a `resolution` saying which sense each use takes and why no argument passes from one sense to another. Each sense also has a uuid identity and a `TERM_n` label (see Sense-indexed terms). Some senses are recorded only for contrast (for example a strict greatest being next to *maxime ens*); those are stipulative and say so.
 
 Statements, claims and arguments link the senses they use with `definition_ids`, and an ambiguity they must be read against with `disambiguation_ids`; an ambiguity is also reached through any linked definition that is one of its senses. `corpus.py check` rejects unknown links, a sourced definition without known claims, a stipulative one without a note, a disambiguation with fewer than two known senses, a definition that nothing links and no disambiguation lists, an argument whose conclusion, premises or commitments use two senses of one disambiguation without the argument linking it (mixing senses may be legitimate, but the argument must point to the resolution), and any `STMT-`, `DEF-` or `DISAMB-` id cited in definition or disambiguation prose that does not exist. Whether a term should be linked at all is a review judgment (AGENTS.md, Review guidelines).
 
@@ -36,6 +36,26 @@ This separation prevents either provenance or proof status from becoming part of
 The canonical corpus is not a DAG. Statements can participate in arguments in either direction, and future semantic relations may be cyclic. A proof or explanation UI may derive an acyclic projection for one chosen derivation, but that projection is a view rather than the ontology.
 
 Inference is never encoded as a bare statement-to-statement edge. For example, modus tollens is represented as two statement inputs (`P → Q` and `¬Q`) consumed by an explicit inference application that outputs `¬P`.
+
+## Sense-indexed terms
+
+Owner direction (2026-11-07): an argument's words may have several meanings, and the corpus tracks which meaning each argument uses. Every disambiguation names its term with a `term_label` (upper snake case: `PRIOR`) and gives each sense an entry in `senses`:
+
+```json
+"term_label": "PRIOR",
+"senses": [
+  {"id": "<uuid4>", "label": "PRIOR_1", "definition_id": "DEF-SIMPLE-PRIORITY"},
+  {"id": "<uuid4>", "label": "PRIOR_2", "definition_id": "DEF-PRIORITY-IN-TIME"}
+]
+```
+
+- **Identity is the uuid.** A sense's `id` is an opaque uuid4; references (`term_senses`, `sense_bridges`, the allowlist) use it. The `TERM_n` label is for display and for tagging plain-language record labels ("Act is PRIOR_1 to potency"). Labels are stable: never renumber; a new sense is appended with the next index. `senses` lists the `sense_definition_ids` in the same order (kept for existing readers). A definition listed under one term label in several records keeps one uuid and label there. Compound records whose `term` names several words ("potency and mutability") received a shortened term label of at most six words (`scripts/sense_index.py`); splitting such a record into one disambiguation per word is the better long-term fix.
+- **One sense per term per argument.** The senses an argument uses are derived from the `definition_ids` of the argument and of its conclusion, premise and commitment statements. Within one argument every disambiguated term resolves to exactly one sense. `corpus.py check` (and `truth check`) rejects an argument whose statements use, say, PRIOR_1 and PRIOR_2 unless it declares an **equivocation bridge**: `sense_bridges: [{"term": "PRIOR", "from": <uuid>, "to": <uuid>, "statement_id": "STMT-…"}]`, where the statement is one of the argument's premises and its content relates the two senses ("what is PRIOR_3 is PRIOR_1"). The bridges for a term must connect every sense it uses.
+- **`term_senses`.** An argument may record `term_senses: {"PRIOR": <uuid>}`; `argument_batch.py` writes it from the spec field `senses = {PRIOR = "PRIOR_1"}`. A declared sense must be a sense of that term and, when the argument's statements use the term, one of the senses they use.
+- **Works with both senses: two arguments.** An argument valid in several senses is recorded once per sense, each with its own sense-specific statements, Lean theorem, `term_senses` and result. In a batch spec, `for_each_sense = {term = "PRIOR", senses = ["PRIOR_1", "PRIOR_3"]}` with one `[argument.cases.<SENSE>]` table per sense generates the per-sense arguments and results, each with a fresh uuid4 id and a `label` ("… [PRIOR_1]"); later runs reuse the ids by label and `term_senses`. All per-sense theorems may live in one Solution, whose generated Challenge freezes them together. A joint fork theorem over a sense enum (coverage and exclusivity premises, AGENTS.md "Connect every library to the case", item 4) remains an optional summary over the per-sense arguments; the per-sense arguments are primary.
+- **Pre-existing mixing.** Arguments that already mixed senses when the rule was introduced are listed with their sense uuids in `corpus/sense-index-allowlist.json` and reported as one warning; an argument that uses a sense not allowlisted for it is an error. `docs/notes/sense-index-migration.md` lists them (`python3 scripts/sense_index.py report --write`; regenerate the allowlist with `allowlist --write` after clearing entries).
+- **Display and naming.** `corpus.py dossier` and `context` show sense labels next to statements, definitions and arguments. `scripts/sense_labels.py` (`record_sense_labels`) returns any record's term → sense-label map, for naming and label checks.
+- **Opaque ids for new records.** Validators that required a readable prefix (`DEF-`, `DISAMB-`, `MODEL-`, `ATTEMPT-`, `CONFIG-`, `scaffold_result.py --id`) also accept a lowercase uuid4, in Python and in `truth check`.
 
 ## Identity and equivalence
 

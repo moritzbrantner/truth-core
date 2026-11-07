@@ -5,5 +5,18 @@
     "DEF-CAPACITY-TO-BE",
     "DEF-MODAL-CAPACITY-BRIDGE"
   ],
-  "resolution": "CanBe keeps its IX.6 sense in the potency reading. ModalCapacity is a separate open premise connecting it to accessible actuality, and the fork in RootExposure keeps its failure as an option. On the denial, a respect can be true at an alternative without the being's having any ability to be so at the actual world, so immutability is not a modal claim about alternatives. No result says which is right."
+  "resolution": "CanBe keeps its IX.6 sense in the potency reading. ModalCapacity is a separate open premise connecting it to accessible actuality, and the fork in RootExposure keeps its failure as an option. On the denial, a respect can be true at an alternative without the being's having any ability to be so at the actual world, so immutability is not a modal claim about alternatives. No result says which is right.",
+  "term_label": "ABLE_TO_BE",
+  "senses": [
+    {
+      "id": "fed2fec8-1b73-49e6-8813-c434e81bebb0",
+      "label": "ABLE_TO_BE_1",
+      "definition_id": "DEF-CAPACITY-TO-BE"
+    },
+    {
+      "id": "01e7789f-e454-4fce-8dc2-6cc6db1bcfcd",
+      "label": "ABLE_TO_BE_2",
+      "definition_id": "DEF-MODAL-CAPACITY-BRIDGE"
+    }
+  ]
 }

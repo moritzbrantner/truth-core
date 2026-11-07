@@ -7,5 +7,28 @@
     "DEF-CAUSE-OF-PERFECTION",
     "DEF-COMPOSER-TEMPORAL-PROFILE"
   ],
-  "resolution": "COMPOSITE-UNITING-CAUSE-FROM-UNION keeps the three relations as separate parameters. Unites (DEF-UNITING-CAUSE) is the third proof's causa adunans. STMT-UNITING-CAUSE-IS-EFFICIENT passes from it only to efficient causing in SOME respect, which is all that STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF needs to exclude the composite as its own uniter. STMT-UNITING-CAUSE-CAUSES-COMPOSITE-BEING passes separately from uniting to CausesIn c x esse, the relation of the conclusion. No premise passes from efficient causing to CausesIn or back, so the argument never treats an efficient cause as a cause of being, or a cause of being as efficient, except through the two stated premises about the same uniter. Controls 3 and 4 of COMPOSITE-UNITING-CAUSE-CONTROLS show that neither passage follows from the other. The new temporal fork keeps the original temporally unspecified composer attribution independent. Selected-time and existential-admitted-time calibrations are explicit propositions, with overlap and a precise remainder. Historical production reaches the original current efficient-composer bridge only with explicit uniter persistence. A separate checked route reaches the SAME distinct-uniter conclusion using all-time no-self instead, without persistence. Selected-time no-self alone is insufficient, as the nonvacuous past-self model shows. No existing source claim selects either calibration."
+  "resolution": "COMPOSITE-UNITING-CAUSE-FROM-UNION keeps the three relations as separate parameters. Unites (DEF-UNITING-CAUSE) is the third proof's causa adunans. STMT-UNITING-CAUSE-IS-EFFICIENT passes from it only to efficient causing in SOME respect, which is all that STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF needs to exclude the composite as its own uniter. STMT-UNITING-CAUSE-CAUSES-COMPOSITE-BEING passes separately from uniting to CausesIn c x esse, the relation of the conclusion. No premise passes from efficient causing to CausesIn or back, so the argument never treats an efficient cause as a cause of being, or a cause of being as efficient, except through the two stated premises about the same uniter. Controls 3 and 4 of COMPOSITE-UNITING-CAUSE-CONTROLS show that neither passage follows from the other. The new temporal fork keeps the original temporally unspecified composer attribution independent. Selected-time and existential-admitted-time calibrations are explicit propositions, with overlap and a precise remainder. Historical production reaches the original current efficient-composer bridge only with explicit uniter persistence. A separate checked route reaches the SAME distinct-uniter conclusion using all-time no-self instead, without persistence. Selected-time no-self alone is insufficient, as the nonvacuous past-self model shows. No existing source claim selects either calibration.",
+  "term_label": "UNITING_CAUSE_VERSUS_EFFICIENT_CAUSE",
+  "senses": [
+    {
+      "id": "a7854292-a7cb-403d-b926-f61af1bb435b",
+      "label": "UNITING_CAUSE_VERSUS_EFFICIENT_CAUSE_1",
+      "definition_id": "DEF-UNITING-CAUSE"
+    },
+    {
+      "id": "018d4f0a-2276-42a7-b20d-b0fe6c9c3714",
+      "label": "UNITING_CAUSE_VERSUS_EFFICIENT_CAUSE_2",
+      "definition_id": "DEF-EFFICIENT-CAUSING"
+    },
+    {
+      "id": "2478812d-d2cd-4182-8ad0-d27a4bdb9ff2",
+      "label": "UNITING_CAUSE_VERSUS_EFFICIENT_CAUSE_3",
+      "definition_id": "DEF-CAUSE-OF-PERFECTION"
+    },
+    {
+      "id": "b0629638-0fe1-4da3-af9f-bc28446e53eb",
+      "label": "UNITING_CAUSE_VERSUS_EFFICIENT_CAUSE_4",
+      "definition_id": "DEF-COMPOSER-TEMPORAL-PROFILE"
+    }
+  ]
 }

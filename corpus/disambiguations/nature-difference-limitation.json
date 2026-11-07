@@ -6,5 +6,23 @@
     "DEF-UNLIMITED-BEINGS-SHARE-NATURE",
     "DEF-FIRST-MOVER-ACT-DETERMINES-NATURE"
   ],
-  "resolution": "Three things are kept apart. A difference in act is opposite truth values of the supplied InAct at one respect. A difference of nature is inequality of represented essence values, and may hold where act profiles coincide. A limiting principle is composition, esse other than essence, or another being prior. No step treats a difference of nature as a limiting principle or as a difference in act: those are the two open conditions UnlimitedBeingsShareNature and FirstMoverActDeterminesNature, each stated as a premise or as a side of an equivalence. Numerical identity comes only through Q11 individuation and the first-mover adapter."
+  "resolution": "Three things are kept apart. A difference in act is opposite truth values of the supplied InAct at one respect. A difference of nature is inequality of represented essence values, and may hold where act profiles coincide. A limiting principle is composition, esse other than essence, or another being prior. No step treats a difference of nature as a limiting principle or as a difference in act: those are the two open conditions UnlimitedBeingsShareNature and FirstMoverActDeterminesNature, each stated as a premise or as a side of an equivalence. Numerical identity comes only through Q11 individuation and the first-mover adapter.",
+  "term_label": "DIFFERENCE_OF_NATURE_DIFFERENCE_IN_ACT",
+  "senses": [
+    {
+      "id": "da5308ed-f918-49bd-af1e-976df00ba54a",
+      "label": "DIFFERENCE_OF_NATURE_DIFFERENCE_IN_ACT_1",
+      "definition_id": "DEF-HAS-LIMITING-PRINCIPLE"
+    },
+    {
+      "id": "fef6e369-ea07-4917-8972-12dbc349275e",
+      "label": "DIFFERENCE_OF_NATURE_DIFFERENCE_IN_ACT_2",
+      "definition_id": "DEF-UNLIMITED-BEINGS-SHARE-NATURE"
+    },
+    {
+      "id": "7543e103-667f-4d45-990f-ac4b8bb2607c",
+      "label": "DIFFERENCE_OF_NATURE_DIFFERENCE_IN_ACT_3",
+      "definition_id": "DEF-FIRST-MOVER-ACT-DETERMINES-NATURE"
+    }
+  ]
 }

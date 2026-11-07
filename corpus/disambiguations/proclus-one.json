@@ -5,5 +5,18 @@
     "DEF-PROCLUS-ONE-ITSELF",
     "DEF-PROCLUS-RECEIVED-UNITY"
   ],
-  "resolution": "In the bounded proposition-2 reading, one predicated of a participant means received unity, Exemplifies x unity; not one means nonidentity with the designated One, x ≠ one. These are different propositions, not P and not-P. This projection does not settle the fuller of-itself/through-participation distinction. Reusing the shared participation interface supplies no identity of the Proclean One with a Platonic Form and imports no Platonic nonidentity axiom. Neither sense asserts an essential-quality inventory; that rejected strengthening is recorded in docs/proclus-unity.md."
+  "resolution": "In the bounded proposition-2 reading, one predicated of a participant means received unity, Exemplifies x unity; not one means nonidentity with the designated One, x ≠ one. These are different propositions, not P and not-P. This projection does not settle the fuller of-itself/through-participation distinction. Reusing the shared participation interface supplies no identity of the Proclean One with a Platonic Form and imports no Platonic nonidentity axiom. Neither sense asserts an essential-quality inventory; that rejected strengthening is recorded in docs/proclus-unity.md.",
+  "term_label": "ONE",
+  "senses": [
+    {
+      "id": "c64e8ed0-f532-425f-b7f7-12c61121108b",
+      "label": "ONE_1",
+      "definition_id": "DEF-PROCLUS-ONE-ITSELF"
+    },
+    {
+      "id": "be4c35db-3501-4f70-a4d2-7742bf89682b",
+      "label": "ONE_2",
+      "definition_id": "DEF-PROCLUS-RECEIVED-UNITY"
+    }
+  ]
 }

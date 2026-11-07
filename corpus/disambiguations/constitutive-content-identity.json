@@ -6,5 +6,23 @@
     "DEF-FIRST-MOVER-CONTENT-ACT-ALIGNMENT",
     "DEF-FIRST-MOVER-SUPPOSITUM-NATURE-ADAPTER"
   ],
-  "resolution": "Content is a supplied proposed constitutive account, not a label or an automatically exhaustive inventory. Completeness converts agreement to equality of represented nature values. A separate, OPEN SAME-InAct alignment converts every-perfection to that agreement. Q11 incommunicable individuation plus an explicit first-mover suppositum/nature adapter then converts common nature to numerical identity. No step treats formal essence difference as absent eminent perfection, or source claims about proper God instances as unrestricted claims about every first mover. The two unchanged-ontology controls isolate those gaps; their content rows are assignment data, not new source-attributed perfections."
+  "resolution": "Content is a supplied proposed constitutive account, not a label or an automatically exhaustive inventory. Completeness converts agreement to equality of represented nature values. A separate, OPEN SAME-InAct alignment converts every-perfection to that agreement. Q11 incommunicable individuation plus an explicit first-mover suppositum/nature adapter then converts common nature to numerical identity. No step treats formal essence difference as absent eminent perfection, or source claims about proper God instances as unrestricted claims about every first mover. The two unchanged-ontology controls isolate those gaps; their content rows are assignment data, not new source-attributed perfections.",
+  "term_label": "CONSTITUTIVE_AGREEMENT_NATURE_IDENTITY_AND_FIRST",
+  "senses": [
+    {
+      "id": "fc4b10ed-0ae5-4f4c-b681-e2dec7ca4ed2",
+      "label": "CONSTITUTIVE_AGREEMENT_NATURE_IDENTITY_AND_FIRST_1",
+      "definition_id": "DEF-CONSTITUTIVE-CONTENT-COMPLETENESS"
+    },
+    {
+      "id": "f8cda9f4-9b53-42f9-8e80-9bb45f5aff39",
+      "label": "CONSTITUTIVE_AGREEMENT_NATURE_IDENTITY_AND_FIRST_2",
+      "definition_id": "DEF-FIRST-MOVER-CONTENT-ACT-ALIGNMENT"
+    },
+    {
+      "id": "3b4d9b34-a6e8-4135-8353-e654cd426745",
+      "label": "CONSTITUTIVE_AGREEMENT_NATURE_IDENTITY_AND_FIRST_3",
+      "definition_id": "DEF-FIRST-MOVER-SUPPOSITUM-NATURE-ADAPTER"
+    }
+  ]
 }

@@ -7,5 +7,28 @@
     "DEF-Q3A4-EXTERNAL-ESSE-CAUSE-MODEL",
     "DEF-NB-SURVEY-EXTERNAL-CAUSE"
   ],
-  "resolution": "The new model separates numerical distinction from nonparthood. The q3 model of external esse-cause requires a distinct actual cause, not a cause outside all parts. The necessary-being survey uses a stronger outside-thing-and-parts condition. Neither is silently identified with a generic candidate relation here. A universal material fusion excludes material nonpart candidates within its covered domain, not distinct internal causes or nonmaterial causes in a larger domain. No direct q3 or survey-premise refutation is inferred."
+  "resolution": "The new model separates numerical distinction from nonparthood. The q3 model of external esse-cause requires a distinct actual cause, not a cause outside all parts. The necessary-being survey uses a stronger outside-thing-and-parts condition. Neither is silently identified with a generic candidate relation here. A universal material fusion excludes material nonpart candidates within its covered domain, not distinct internal causes or nonmaterial causes in a larger domain. No direct q3 or survey-premise refutation is inferred.",
+  "term_label": "EXTERNAL_CAUSE_OF_A_COMPOSITE",
+  "senses": [
+    {
+      "id": "5cf7b85c-86c8-43d5-be23-12ec7bd5ae7e",
+      "label": "EXTERNAL_CAUSE_OF_A_COMPOSITE_1",
+      "definition_id": "DEF-FUSION-DISTINCT-CAUSE"
+    },
+    {
+      "id": "495b7748-57b9-49de-9bd4-f9c6b8c97932",
+      "label": "EXTERNAL_CAUSE_OF_A_COMPOSITE_2",
+      "definition_id": "DEF-FUSION-OUTSIDE-CAUSE"
+    },
+    {
+      "id": "a007ec7d-429d-40e6-b3d4-0c565339644d",
+      "label": "EXTERNAL_CAUSE_OF_A_COMPOSITE_3",
+      "definition_id": "DEF-Q3A4-EXTERNAL-ESSE-CAUSE-MODEL"
+    },
+    {
+      "id": "6c5e7c17-7167-48d7-8e47-9851e58c1ed4",
+      "label": "EXTERNAL_CAUSE_OF_A_COMPOSITE_4",
+      "definition_id": "DEF-NB-SURVEY-EXTERNAL-CAUSE"
+    }
+  ]
 }

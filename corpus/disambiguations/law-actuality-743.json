@@ -5,5 +5,18 @@
     "DEF-LAW-ACTUALITY-743",
     "DEF-ULTIMATE-EXPLANATION-PROFILE"
   ],
-  "resolution": "Follows witnesses consistency of a supplied rule; uniqueness quantifies over traces satisfying THAT rule, not rival laws. realized supplies exact state presence inside a mathematical interpretation. Neither Type inhabitation nor that represented population establishes actual concrete existence or governing efficacy. UsesRecord/Identifies concern exact uniform law identification from a finite prefix, not epistemic entitlement. A warranted restriction to one law or extra evidence may remove the counterexample; the theorem does not make the synthetic rival metaphysically possible. Unexplained stable laws need not yield inaccurate predictions; necessary impersonal nature, dispositional essences and best-system selection remain positive proposals with distinct actuality/access obligations."
+  "resolution": "Follows witnesses consistency of a supplied rule; uniqueness quantifies over traces satisfying THAT rule, not rival laws. realized supplies exact state presence inside a mathematical interpretation. Neither Type inhabitation nor that represented population establishes actual concrete existence or governing efficacy. UsesRecord/Identifies concern exact uniform law identification from a finite prefix, not epistemic entitlement. A warranted restriction to one law or extra evidence may remove the counterexample; the theorem does not make the synthetic rival metaphysically possible. Unexplained stable laws need not yield inaccurate predictions; necessary impersonal nature, dispositional essences and best-system selection remain positive proposals with distinct actuality/access obligations.",
+  "term_label": "LAW_CONSISTENCY_CONDITIONAL_UNIQUENESS_REPRESENTED_REALIZATION",
+  "senses": [
+    {
+      "id": "d5bbd5b7-b663-4857-a9bb-32f938f14d2e",
+      "label": "LAW_CONSISTENCY_CONDITIONAL_UNIQUENESS_REPRESENTED_REALIZATION_1",
+      "definition_id": "DEF-LAW-ACTUALITY-743"
+    },
+    {
+      "id": "aebd36ba-65ae-40f1-9d78-8e620606c398",
+      "label": "LAW_CONSISTENCY_CONDITIONAL_UNIQUENESS_REPRESENTED_REALIZATION_2",
+      "definition_id": "DEF-ULTIMATE-EXPLANATION-PROFILE"
+    }
+  ]
 }

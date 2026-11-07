@@ -5,5 +5,18 @@
     "DEF-ADAPTIVE-TRUTHFUL-PREDICTION",
     "DEF-FALLIBLE-WEIGHTED-CORRECTION"
   ],
-  "resolution": "For every total deterministic predictor there is one predictor-dependent stream with failure on every truthful prefix, uniformly over all horizons. This is not one stream defeating all predictors, failure of randomized methods in expectation, actual unreliability, impossibility of justified fallible inference, semantic indeterminacy or meaninglessness. A restricted method class/environment can retain positive guarantees. The two-expert numerical comparison is confined to the exact imported learner, truthful feedback, pool size two, expert-error budget two and horizon eleven; arbitrary finite-pool bounds are not inferred from that instance."
+  "resolution": "For every total deterministic predictor there is one predictor-dependent stream with failure on every truthful prefix, uniformly over all horizons. This is not one stream defeating all predictors, failure of randomized methods in expectation, actual unreliability, impossibility of justified fallible inference, semantic indeterminacy or meaninglessness. A restricted method class/environment can retain positive guarantees. The two-expert numerical comparison is confined to the exact imported learner, truthful feedback, pool size two, expert-error budget two and horizon eleven; arbitrary finite-pool bounds are not inferred from that instance.",
+  "term_label": "UNRESTRICTED_ADAPTIVE_PREDICTION_FAILURE",
+  "senses": [
+    {
+      "id": "cff251e1-5dee-4f7b-8b2a-a55ecbcd9e99",
+      "label": "UNRESTRICTED_ADAPTIVE_PREDICTION_FAILURE_1",
+      "definition_id": "DEF-ADAPTIVE-TRUTHFUL-PREDICTION"
+    },
+    {
+      "id": "1049e650-7b51-4be5-8785-1083906d5dee",
+      "label": "UNRESTRICTED_ADAPTIVE_PREDICTION_FAILURE_2",
+      "definition_id": "DEF-FALLIBLE-WEIGHTED-CORRECTION"
+    }
+  ]
 }

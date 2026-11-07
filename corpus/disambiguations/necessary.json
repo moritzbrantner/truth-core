@@ -13,5 +13,58 @@
     "DEF-MODAL-FIXTURE-FRAME",
     "DEF-KANT-MODAL-NECESSITY"
   ],
-  "resolution": "In the tertia via 'necessary' is said of beings: a being that cannot not-be. A necessary being may have its necessity from another (the dichotomy STMT-NECESSARY-HAS-CAUSE-OF-NECESSITY-OR-NOT leaves both cases open), so 'necessary per se' is a further condition, and the tertia via's conclusion and its convergence with the maxime ens (STMT-NECESSARY-PER-SE-IS-MAXIME-ENS) are about necessary per se beings. Logical necessity of a proposition is not used: excluded middle (STMT-EXCLUDED-MIDDLE) is a logical principle, not a claim that any being exists necessarily. Scott's variant (#134) uses two further senses. 'Necessarily' there is the Kripke box of the QML KB embedding (DEF-QML-KB-NECESSITY), said of propositions relative to an accessibility relation. 'Necessary existence' (DEF-NECESSARY-EXISTENCE-SCOTT) is a property of individuals defined from essences and that box. Neither is the tertia via's necessary being, and no statement relates them to it. Gödel's 1970 variant (#135) has the same Kripke box over its own embedding (DEF-HOML-ACTUALIST-NECESSITY, the shared Lean `Box`) and its own 'necessary existence' (DEF-NECESSARY-EXISTENCE-GOEDEL-1970), defined from the 1970 essence and the actualist quantifier. It is not Scott's necessary existence: the two are separate Lean declarations, and no statement relates either to the tertia via's necessary being. `FilteredNecessaryExistence` (DEF-FILTERED-NECESSARY-EXISTENCE) is a stipulated diagnostic variant, using the same property filter for both essence quantifiers; its model-theoretic outcomes must not be attributed to Scott or equated with a Thomistic necessary being. The arbitrary-frame fixture (DEF-MODAL-FIXTURE-FRAME) shares the raw Box operator with the KB embedding; KB symmetry and quantifier policies are separate framework premises. Kant’s stipulated de re NecessaryAt is that Box applied to the existence of one fixed object under the same frame (DefinitionDictionaryConnections.connections), while NecessaryBeing also requires an actual witness. This dictionary equality does not identify source concepts, change existential scope, or connect either with Thomistic necessary being."
+  "resolution": "In the tertia via 'necessary' is said of beings: a being that cannot not-be. A necessary being may have its necessity from another (the dichotomy STMT-NECESSARY-HAS-CAUSE-OF-NECESSITY-OR-NOT leaves both cases open), so 'necessary per se' is a further condition, and the tertia via's conclusion and its convergence with the maxime ens (STMT-NECESSARY-PER-SE-IS-MAXIME-ENS) are about necessary per se beings. Logical necessity of a proposition is not used: excluded middle (STMT-EXCLUDED-MIDDLE) is a logical principle, not a claim that any being exists necessarily. Scott's variant (#134) uses two further senses. 'Necessarily' there is the Kripke box of the QML KB embedding (DEF-QML-KB-NECESSITY), said of propositions relative to an accessibility relation. 'Necessary existence' (DEF-NECESSARY-EXISTENCE-SCOTT) is a property of individuals defined from essences and that box. Neither is the tertia via's necessary being, and no statement relates them to it. Gödel's 1970 variant (#135) has the same Kripke box over its own embedding (DEF-HOML-ACTUALIST-NECESSITY, the shared Lean `Box`) and its own 'necessary existence' (DEF-NECESSARY-EXISTENCE-GOEDEL-1970), defined from the 1970 essence and the actualist quantifier. It is not Scott's necessary existence: the two are separate Lean declarations, and no statement relates either to the tertia via's necessary being. `FilteredNecessaryExistence` (DEF-FILTERED-NECESSARY-EXISTENCE) is a stipulated diagnostic variant, using the same property filter for both essence quantifiers; its model-theoretic outcomes must not be attributed to Scott or equated with a Thomistic necessary being. The arbitrary-frame fixture (DEF-MODAL-FIXTURE-FRAME) shares the raw Box operator with the KB embedding; KB symmetry and quantifier policies are separate framework premises. Kant’s stipulated de re NecessaryAt is that Box applied to the existence of one fixed object under the same frame (DefinitionDictionaryConnections.connections), while NecessaryBeing also requires an actual witness. This dictionary equality does not identify source concepts, change existential scope, or connect either with Thomistic necessary being.",
+  "term_label": "NECESSARY",
+  "senses": [
+    {
+      "id": "e0c9b653-4077-4942-95fc-574e857a8439",
+      "label": "NECESSARY_3",
+      "definition_id": "DEF-NECESSARY-BEING"
+    },
+    {
+      "id": "7db71fb6-3f3b-49fc-9152-d214b3032ff8",
+      "label": "NECESSARY_4",
+      "definition_id": "DEF-NECESSARY-PER-SE"
+    },
+    {
+      "id": "95ee3c18-0e10-40f7-a7e9-7b4b5435f7fc",
+      "label": "NECESSARY_5",
+      "definition_id": "DEF-LOGICAL-NECESSITY"
+    },
+    {
+      "id": "4588e556-835c-4ffa-9845-bb5baa276079",
+      "label": "NECESSARY_6",
+      "definition_id": "DEF-NECESSARY-EXISTENCE-SCOTT"
+    },
+    {
+      "id": "79ab29b7-2923-40aa-b0f6-28a83ae80ba0",
+      "label": "NECESSARY_7",
+      "definition_id": "DEF-FILTERED-NECESSARY-EXISTENCE"
+    },
+    {
+      "id": "d38b63c6-0435-4bd7-a179-531a7de093bc",
+      "label": "NECESSARY_8",
+      "definition_id": "DEF-QML-KB-NECESSITY"
+    },
+    {
+      "id": "7cacb3b7-0ee4-48d7-afd0-48c7168352d5",
+      "label": "NECESSARY_9",
+      "definition_id": "DEF-NECESSARY-EXISTENCE-GOEDEL-1970"
+    },
+    {
+      "id": "5e7b0672-23d6-433a-9cf9-f615f1ce57a4",
+      "label": "NECESSARY_10",
+      "definition_id": "DEF-HOML-ACTUALIST-NECESSITY"
+    },
+    {
+      "id": "8c881fa6-2b9f-44be-a32a-c8ef29c13643",
+      "label": "NECESSARY_11",
+      "definition_id": "DEF-MODAL-FIXTURE-FRAME"
+    },
+    {
+      "id": "7af298fb-a2c4-4239-919b-7685f2e1f67a",
+      "label": "NECESSARY_2",
+      "definition_id": "DEF-KANT-MODAL-NECESSITY"
+    }
+  ]
 }

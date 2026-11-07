@@ -6,5 +6,23 @@
     "DEF-HISTORY-TIME-COMMON",
     "DEF-HISTORY-TIME-ALL-TIMES"
   ],
-  "resolution": "HistoryTimeScope.Worldwise existentially quantifies time separately within each world; Common selects one index from a shared T; AllTime quantifies every supplied world and time. All three concern only IsAt. Ontic.ExistsAt remains independent: neither now-slice coherence nor existential-history coherence is imposed. In #594 controls CoherentAtNow explicitly relates Ontic existence to a designated slice; those conclusions cannot silently be read as the Worldwise scope here. Uniform is within-world propagation of presence, not changelessness, causal conservation or atemporal existence. The #353 sourced eternity investigation supplies no license to identify any of these scopes with simultaneously-all-of-life existence. DEF-HISTORY-TIME-SCOPE is their vocabulary overview, not a competing sense. The existing HISTORY-TIME-SCOPE-CONTROLS result supplies the implications, AllTime ↔ (Worldwise ∧ Uniform), and diagonal/synchronized separation witnesses under one shared History dictionary."
+  "resolution": "HistoryTimeScope.Worldwise existentially quantifies time separately within each world; Common selects one index from a shared T; AllTime quantifies every supplied world and time. All three concern only IsAt. Ontic.ExistsAt remains independent: neither now-slice coherence nor existential-history coherence is imposed. In #594 controls CoherentAtNow explicitly relates Ontic existence to a designated slice; those conclusions cannot silently be read as the Worldwise scope here. Uniform is within-world propagation of presence, not changelessness, causal conservation or atemporal existence. The #353 sourced eternity investigation supplies no license to identify any of these scopes with simultaneously-all-of-life existence. DEF-HISTORY-TIME-SCOPE is their vocabulary overview, not a competing sense. The existing HISTORY-TIME-SCOPE-CONTROLS result supplies the implications, AllTime ↔ (Worldwise ∧ Uniform), and diagonal/synchronized separation witnesses under one shared History dictionary.",
+  "term_label": "HISTORY_EXISTENCE_SHARED_TIME_PRESENCE",
+  "senses": [
+    {
+      "id": "bce884b8-80f5-417d-ae29-941e87c0f1c0",
+      "label": "HISTORY_EXISTENCE_SHARED_TIME_PRESENCE_1",
+      "definition_id": "DEF-HISTORY-TIME-WORLDWISE"
+    },
+    {
+      "id": "043890f5-9f95-4251-b660-d7c29b77355f",
+      "label": "HISTORY_EXISTENCE_SHARED_TIME_PRESENCE_2",
+      "definition_id": "DEF-HISTORY-TIME-COMMON"
+    },
+    {
+      "id": "80f2ca20-5ac4-40be-b988-1a0f50b52fea",
+      "label": "HISTORY_EXISTENCE_SHARED_TIME_PRESENCE_3",
+      "definition_id": "DEF-HISTORY-TIME-ALL-TIMES"
+    }
+  ]
 }

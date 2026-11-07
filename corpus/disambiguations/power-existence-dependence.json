@@ -7,5 +7,28 @@
     "DEF-EXISTENTIAL-SUPPORT-MODEL",
     "DEF-EXTERNAL-CAUSE-OF-ESSE"
   ],
-  "resolution": "The finite causal power derivation ends at a bearer with intrinsic power in one respect; Boundary additionally requires a distinct actual source-to-effect edge and denies intrinsic power at the effect. Neither condition establishes that the bearer receives no existence from another. The model represents that second question independently through supportsEsse, whose truth is not a power-transmission edge. The original source concept of an external cause of esse is separately defined from that analyst relation. Capacity versus exercise and modal existence versus act-of-being each receive a separate disambiguation. Showing that support of a being's esse would necessarily supply its power in the same respect, or that every composition entails excluded existential dependence, remains a philosophically open bridge (issue #319)."
+  "resolution": "The finite causal power derivation ends at a bearer with intrinsic power in one respect; Boundary additionally requires a distinct actual source-to-effect edge and denies intrinsic power at the effect. Neither condition establishes that the bearer receives no existence from another. The model represents that second question independently through supportsEsse, whose truth is not a power-transmission edge. The original source concept of an external cause of esse is separately defined from that analyst relation. Capacity versus exercise and modal existence versus act-of-being each receive a separate disambiguation. Showing that support of a being's esse would necessarily supply its power in the same respect, or that every composition entails excluded existential dependence, remains a philosophically open bridge (issue #319).",
+  "term_label": "UNDERIVED_POWER_VERSUS_UNDERIVED_EXISTENCE",
+  "senses": [
+    {
+      "id": "9099ce01-3d79-4b1f-b291-84cc5c28c928",
+      "label": "UNDERIVED_POWER_VERSUS_UNDERIVED_EXISTENCE_1",
+      "definition_id": "DEF-UNBORROWED-POWER-IN-A-RESPECT"
+    },
+    {
+      "id": "2ca16603-b14f-484a-b9cf-a0b1b4c61450",
+      "label": "UNDERIVED_POWER_VERSUS_UNDERIVED_EXISTENCE_2",
+      "definition_id": "DEF-FINITELY-GROUNDED-CAUSAL-POWER"
+    },
+    {
+      "id": "4325c64c-dc8e-4cc4-97d5-5f3420cea76a",
+      "label": "UNDERIVED_POWER_VERSUS_UNDERIVED_EXISTENCE_3",
+      "definition_id": "DEF-EXISTENTIAL-SUPPORT-MODEL"
+    },
+    {
+      "id": "0a95cca4-2a58-4bbc-93de-b8a05560801e",
+      "label": "UNDERIVED_POWER_VERSUS_UNDERIVED_EXISTENCE_4",
+      "definition_id": "DEF-EXTERNAL-CAUSE-OF-ESSE"
+    }
+  ]
 }

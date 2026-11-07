@@ -6,5 +6,23 @@
     "DEF-PARM-GROUND",
     "DEF-PARM-CHANGE-PRODUCTION"
   ],
-  "resolution": "Explains is quality-indexed being-F explanation. ExplanationGrounds openly projects it onto directed Ground. ProducesChange is efficient origination, never inferred from Ground or explanatory predication. The grounding model tests only asymmetry and non-inherence; Aristotle’s further demand for an efficient source of change remains unanswered."
+  "resolution": "Explains is quality-indexed being-F explanation. ExplanationGrounds openly projects it onto directed Ground. ProducesChange is efficient origination, never inferred from Ground or explanatory predication. The grounding model tests only asymmetry and non-inherence; Aristotle’s further demand for an efficient source of change remains unanswered.",
+  "term_label": "EXPLANATION",
+  "senses": [
+    {
+      "id": "0bf54475-dd78-4abd-ba55-242be43f5eed",
+      "label": "EXPLANATION_1",
+      "definition_id": "DEF-PLATONIC-EXPLANATION"
+    },
+    {
+      "id": "332145e8-d5e4-46e2-bc05-f359fa5d9393",
+      "label": "EXPLANATION_2",
+      "definition_id": "DEF-PARM-GROUND"
+    },
+    {
+      "id": "a3d10d72-9679-4c67-9bd1-3b258b4acce3",
+      "label": "EXPLANATION_3",
+      "definition_id": "DEF-PARM-CHANGE-PRODUCTION"
+    }
+  ]
 }

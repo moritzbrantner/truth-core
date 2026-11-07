@@ -5,5 +5,18 @@
     "DEF-UNDERIVED-COMMON-ACTUAL-SOURCE",
     "DEF-WORLD-ACTUAL-CAUSAL-GRAPH"
   ],
-  "resolution": "R remains the explicit support relation used by #495 and NamedNecessarilyUnderived. Graph.Source refers instead to no incoming ordinary m.Causes edge from another node of Actual m w, INCLUDING self-edges as incoming. ActualCauseSupportsEsse is the explicitly open one-way relation between actual-endpoint causal edges and R at this w; no automatic causal/esse/explanatory identification is made. Graph connectivity and confluence are inside one fixed world, not modal accessibility. Named actuality guards population directly. Necessity is only from the original base; no frame/reflexivity or accessibility assumption is silently inserted. Equality applies to actual causal sources at this selected world, not all beings or all possible-world sources. No same-witness identity is assumed. The primary support-graph results instead apply confluence and connectivity to actualSupportGraph m R w itself. Their unique source conclusion is for R only, and needs no causal mapping. The separate ordinary-causal corollaries add ActualCauseSupportsEsse and apply connectivity/confluence to actualGraph m w; those are distinct premise vectors."
+  "resolution": "R remains the explicit support relation used by #495 and NamedNecessarilyUnderived. Graph.Source refers instead to no incoming ordinary m.Causes edge from another node of Actual m w, INCLUDING self-edges as incoming. ActualCauseSupportsEsse is the explicitly open one-way relation between actual-endpoint causal edges and R at this w; no automatic causal/esse/explanatory identification is made. Graph connectivity and confluence are inside one fixed world, not modal accessibility. Named actuality guards population directly. Necessity is only from the original base; no frame/reflexivity or accessibility assumption is silently inserted. Equality applies to actual causal sources at this selected world, not all beings or all possible-world sources. No same-witness identity is assumed. The primary support-graph results instead apply confluence and connectivity to actualSupportGraph m R w itself. Their unique source conclusion is for R only, and needs no causal mapping. The separate ordinary-causal corollaries add ActualCauseSupportsEsse and apply connectivity/confluence to actualGraph m w; those are distinct premise vectors.",
+  "term_label": "EXISTENTIAL_SUPPORT_SOURCE_VERSUS_ACTUAL_CAUSAL",
+  "senses": [
+    {
+      "id": "8afd07c5-d7be-4138-83c4-62c59317dc1a",
+      "label": "EXISTENTIAL_SUPPORT_SOURCE_VERSUS_ACTUAL_CAUSAL_1",
+      "definition_id": "DEF-UNDERIVED-COMMON-ACTUAL-SOURCE"
+    },
+    {
+      "id": "b5a882ce-e70c-46e1-8e90-9843bcdacf6f",
+      "label": "EXISTENTIAL_SUPPORT_SOURCE_VERSUS_ACTUAL_CAUSAL_2",
+      "definition_id": "DEF-WORLD-ACTUAL-CAUSAL-GRAPH"
+    }
+  ]
 }

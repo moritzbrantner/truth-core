@@ -5,5 +5,18 @@
     "DEF-GENUS-CAUSE-FINITE-CONTROL",
     "DEF-GENUS-DIFFERENTIA-SOURCE-PRINCIPLES"
   ],
-  "resolution": "The finite control instantiates existing strict-genus predication clauses and in-genus classification, not q3a5 first/third proof’s further account of real principles, potency/act or esse/essence. q3a7 enumerates genus/differentia composition among real simplicity exclusions, but current Article7 inclusion only encodes matter/form and essence/esse cases. No taxonomic term is silently made a material component, and generic common nature is not substituted for each complete essence. The controls expose the missing realization and causal-exhaustiveness bridges; they do not refute the source after adding those commitments."
+  "resolution": "The finite control instantiates existing strict-genus predication clauses and in-genus classification, not q3a5 first/third proof’s further account of real principles, potency/act or esse/essence. q3a7 enumerates genus/differentia composition among real simplicity exclusions, but current Article7 inclusion only encodes matter/form and essence/esse cases. No taxonomic term is silently made a material component, and generic common nature is not substituted for each complete essence. The controls expose the missing realization and causal-exhaustiveness bridges; they do not refute the source after adding those commitments.",
+  "term_label": "GENUS_AND_DIFFERENTIA_AS_PREDICABLES",
+  "senses": [
+    {
+      "id": "d3ff0099-5389-42c9-9320-8744ffa31570",
+      "label": "GENUS_AND_DIFFERENTIA_AS_PREDICABLES_1",
+      "definition_id": "DEF-GENUS-CAUSE-FINITE-CONTROL"
+    },
+    {
+      "id": "d01fa6c3-65ff-4cab-8d7d-93e74db74d00",
+      "label": "GENUS_AND_DIFFERENTIA_AS_PREDICABLES_2",
+      "definition_id": "DEF-GENUS-DIFFERENTIA-SOURCE-PRINCIPLES"
+    }
+  ]
 }

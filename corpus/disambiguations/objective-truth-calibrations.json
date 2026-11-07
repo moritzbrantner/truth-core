@@ -7,5 +7,28 @@
     "DEF-OBJECTIVE-TRUTH-INVARIANCE-ONLY",
     "DEF-OBJECTIVE-TRUTH-ACTUAL-ONLY"
   ],
-  "resolution": "The legacy source claims quantify an independently supplied ObjectiveTruth predicate and retain their original types and attitude-independence gloss. They do not identify it with any new calibration. The new analyst actual-stable account includes truth; invariance-only does not, and actual-only omits stability. These are extensional operational accounts in one supplied profile, not property identity, robust/minimal truth, a census of historical schools, or a proof of genuine causal independence from attitudes. Their extensions can overlap, so exclusivity is not assumed. Only the weaker truth-component bridge is used to extend POE-EXTERNAL-PREMISE-VS-EMOTIVISM. No natural-evil or internal-critique refutation follows. Named coverage is an open proposition; the structural fork retains a genuine remaining-extension branch."
+  "resolution": "The legacy source claims quantify an independently supplied ObjectiveTruth predicate and retain their original types and attitude-independence gloss. They do not identify it with any new calibration. The new analyst actual-stable account includes truth; invariance-only does not, and actual-only omits stability. These are extensional operational accounts in one supplied profile, not property identity, robust/minimal truth, a census of historical schools, or a proof of genuine causal independence from attitudes. Their extensions can overlap, so exclusivity is not assumed. Only the weaker truth-component bridge is used to extend POE-EXTERNAL-PREMISE-VS-EMOTIVISM. No natural-evil or internal-critique refutation follows. Named coverage is an open proposition; the structural fork retains a genuine remaining-extension branch.",
+  "term_label": "OBJECTIVE_TRUTH_LEGACY_PARAMETER_ACTUAL_STABLE",
+  "senses": [
+    {
+      "id": "ab69cb6b-c812-4c20-ae66-dcb1f26e7c90",
+      "label": "OBJECTIVE_TRUTH_LEGACY_PARAMETER_ACTUAL_STABLE_1",
+      "definition_id": "DEF-OBJECTIVE-TRUTH"
+    },
+    {
+      "id": "c9febbff-8294-4da4-9610-e97d1ec3ee47",
+      "label": "OBJECTIVE_TRUTH_LEGACY_PARAMETER_ACTUAL_STABLE_2",
+      "definition_id": "DEF-OBJECTIVE-TRUTH-ACTUAL-STABLE"
+    },
+    {
+      "id": "75214072-0a6a-4ede-a3a0-f4202d20f34d",
+      "label": "OBJECTIVE_TRUTH_LEGACY_PARAMETER_ACTUAL_STABLE_3",
+      "definition_id": "DEF-OBJECTIVE-TRUTH-INVARIANCE-ONLY"
+    },
+    {
+      "id": "ea282b88-aaf1-462c-a543-1785b6e17b4b",
+      "label": "OBJECTIVE_TRUTH_LEGACY_PARAMETER_ACTUAL_STABLE_4",
+      "definition_id": "DEF-OBJECTIVE-TRUTH-ACTUAL-ONLY"
+    }
+  ]
 }

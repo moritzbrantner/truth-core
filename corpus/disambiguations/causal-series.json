@@ -6,5 +6,23 @@
     "DEF-PER-ACCIDENS-ORDERED-SERIES",
     "DEF-PER-SE-EFFICIENT-CAUSE-LINK"
   ],
-  "resolution": "The no-regress premise STMT-NO-INFINITE-PER-SE-MOVER-SERIES is stated only for per se links (`MovesAsMoved`); nothing on the root path says that a per accidens series must end. ST I q.46 a.2 ad 7 grants that a per accidens series (an infinite past of fathers or hammers) is not impossible (STMT-INFINITE-REGRESS-IMPOSSIBLE-ONLY-IN-PER-SE-SERIES), so an eternal world does not touch the prima via. The series is per se because of STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED, and it is read at one time (simul). The secunda via has its own per se link between efficient causes, `CausesAsCaused` (DEF-PER-SE-EFFICIENT-CAUSE-LINK), with its own no-regress premise STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES. It is not identified with `MovesAsMoved`: the only passage from one to the other is the explicit premise STMT-PER-SE-MOVER-LINK-IS-PER-SE-CAUSE-LINK (q.46 a.2 ad 7, the stone, stick and hand), from which AQUINAS-ST-I-Q46-A2-AD7-MOVER-REGRESS-FROM-CAUSE-REGRESS derives the mover regress premise. The here-and-now/removal descriptions of both primitive link relations are intended OPEN readings, not consequences of their types. The typed analyst sibling STMT-PER-SE-HISTORICAL-SERIES-DISTINCTION preserves the old source transcription: it proves exclusion under an explicit historical-to-essential edge dictionary and formal compatibility without that dictionary, with nonempty essential dependence on the same historical members. This does not establish a possible infinite past, all per-accidens series, or the well-foundedness premise. See docs/causal-regress-and-grim-reapers.md."
+  "resolution": "The no-regress premise STMT-NO-INFINITE-PER-SE-MOVER-SERIES is stated only for per se links (`MovesAsMoved`); nothing on the root path says that a per accidens series must end. ST I q.46 a.2 ad 7 grants that a per accidens series (an infinite past of fathers or hammers) is not impossible (STMT-INFINITE-REGRESS-IMPOSSIBLE-ONLY-IN-PER-SE-SERIES), so an eternal world does not touch the prima via. The series is per se because of STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED, and it is read at one time (simul). The secunda via has its own per se link between efficient causes, `CausesAsCaused` (DEF-PER-SE-EFFICIENT-CAUSE-LINK), with its own no-regress premise STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES. It is not identified with `MovesAsMoved`: the only passage from one to the other is the explicit premise STMT-PER-SE-MOVER-LINK-IS-PER-SE-CAUSE-LINK (q.46 a.2 ad 7, the stone, stick and hand), from which AQUINAS-ST-I-Q46-A2-AD7-MOVER-REGRESS-FROM-CAUSE-REGRESS derives the mover regress premise. The here-and-now/removal descriptions of both primitive link relations are intended OPEN readings, not consequences of their types. The typed analyst sibling STMT-PER-SE-HISTORICAL-SERIES-DISTINCTION preserves the old source transcription: it proves exclusion under an explicit historical-to-essential edge dictionary and formal compatibility without that dictionary, with nonempty essential dependence on the same historical members. This does not establish a possible infinite past, all per-accidens series, or the well-foundedness premise. See docs/causal-regress-and-grim-reapers.md.",
+  "term_label": "SERIES_OF_CAUSES",
+  "senses": [
+    {
+      "id": "1f94774f-4c51-4448-bcf7-898a40648a95",
+      "label": "SERIES_OF_CAUSES_1",
+      "definition_id": "DEF-PER-SE-ORDERED-SERIES"
+    },
+    {
+      "id": "ec59040a-e849-4b6f-b370-1dcba48bc686",
+      "label": "SERIES_OF_CAUSES_2",
+      "definition_id": "DEF-PER-ACCIDENS-ORDERED-SERIES"
+    },
+    {
+      "id": "be30bf4e-59fd-43b8-8c85-905ec7c86387",
+      "label": "SERIES_OF_CAUSES_3",
+      "definition_id": "DEF-PER-SE-EFFICIENT-CAUSE-LINK"
+    }
+  ]
 }

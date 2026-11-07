@@ -7,5 +7,28 @@
     "DEF-GOOD-SIMPLICITER-ULTIMATE-PERFECTION",
     "DEF-GOODNESS-ASPECT-SCOPE-TRANSFER"
   ],
-  "resolution": "The existing route leaf STMT-GOODNESS-IS-ACTUALITY uses unrestricted per-perfection GoodIn↔Has. STMT-GOODNESS-DUE-TO-FORM-AND-END is the owner’s proposed restricted GoodIn↔Due∧Has, kept open. Given the latter, unrestricted coextension holds exactly when every actual perfection is due; no such bridge is silently supplied. GoodSimply remains independent and only the existing ultimate-perfection exclusion is reused. The naturalist comparisons explicitly instantiate their existing schemas on aspect ascriptions as analyst transfer tests, not historical identifications. PropertyPresentation separately distinguishes extensional agreement from property identity; Moore’s intensional claims are not refuted by extensional controls."
+  "resolution": "The existing route leaf STMT-GOODNESS-IS-ACTUALITY uses unrestricted per-perfection GoodIn↔Has. STMT-GOODNESS-DUE-TO-FORM-AND-END is the owner’s proposed restricted GoodIn↔Due∧Has, kept open. Given the latter, unrestricted coextension holds exactly when every actual perfection is due; no such bridge is silently supplied. GoodSimply remains independent and only the existing ultimate-perfection exclusion is reused. The naturalist comparisons explicitly instantiate their existing schemas on aspect ascriptions as analyst transfer tests, not historical identifications. PropertyPresentation separately distinguishes extensional agreement from property identity; Moore’s intensional claims are not refuted by extensional controls.",
+  "term_label": "GOODNESS_AS_UNRESTRICTED_ACTUALITY_DUE_ACTUALITY",
+  "senses": [
+    {
+      "id": "5670245c-5b23-4be5-bab9-bc08107f690e",
+      "label": "GOODNESS_AS_UNRESTRICTED_ACTUALITY_DUE_ACTUALITY_1",
+      "definition_id": "DEF-GOOD-AS-BEING-IN-ACT"
+    },
+    {
+      "id": "0aa809c3-e542-472c-8d9a-cefc68580951",
+      "label": "GOODNESS_AS_UNRESTRICTED_ACTUALITY_DUE_ACTUALITY_2",
+      "definition_id": "DEF-GOODNESS-DUE-ACTUALITY-PROPOSITION"
+    },
+    {
+      "id": "37e132e6-351f-4ac5-857d-7f98953b9e22",
+      "label": "GOODNESS_AS_UNRESTRICTED_ACTUALITY_DUE_ACTUALITY_3",
+      "definition_id": "DEF-GOOD-SIMPLICITER-ULTIMATE-PERFECTION"
+    },
+    {
+      "id": "4fc933fb-2ac0-40e8-b84d-ec17433e4e09",
+      "label": "GOODNESS_AS_UNRESTRICTED_ACTUALITY_DUE_ACTUALITY_4",
+      "definition_id": "DEF-GOODNESS-ASPECT-SCOPE-TRANSFER"
+    }
+  ]
 }

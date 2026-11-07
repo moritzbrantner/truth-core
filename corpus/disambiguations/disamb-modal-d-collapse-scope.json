@@ -8,5 +8,33 @@
     "DEF-MODAL-D-POCKET",
     "DEF-MODAL-D-FORK"
   ],
-  "resolution": "Actual MC, Dia MC and Box MC use the same explicitly supplied root, frame and proposition domain but are different propositions. The fork has Dia MC and Box MC without actual MC; this persists for its fixed language. In pocket, changing only the domain changes Box MC from false under all predicates to true under fixed-language denotations, because the closed two-cycle is language-indistinguishable. The separate Bool cycle has language-relative MC without full MC or world extensionality. Extensionality of world labels is an explicit conditional assumption; Lean propext is neither assumed nor used. Mathematical successor worlds are not silently identified with metaphysical possibilities; no Humean bridge or philosophical conclusion follows from these witnesses."
+  "resolution": "Actual MC, Dia MC and Box MC use the same explicitly supplied root, frame and proposition domain but are different propositions. The fork has Dia MC and Box MC without actual MC; this persists for its fixed language. In pocket, changing only the domain changes Box MC from false under all predicates to true under fixed-language denotations, because the closed two-cycle is language-indistinguishable. The separate Bool cycle has language-relative MC without full MC or world extensionality. Extensionality of world labels is an explicit conditional assumption; Lean propext is neither assumed nor used. Mathematical successor worlds are not silently identified with metaphysical possibilities; no Humean bridge or philosophical conclusion follows from these witnesses.",
+  "term_label": "ACTUAL_POSSIBLE_AND_NECESSARY_COLLAPSE",
+  "senses": [
+    {
+      "id": "d3e28f8c-1544-448c-96f2-55b1ca83f6f2",
+      "label": "ACTUAL_POSSIBLE_AND_NECESSARY_COLLAPSE_1",
+      "definition_id": "DEF-MODAL-FIXTURE-MC"
+    },
+    {
+      "id": "472267bc-4e5e-4648-9902-76b8f6e6f3b1",
+      "label": "ACTUAL_POSSIBLE_AND_NECESSARY_COLLAPSE_2",
+      "definition_id": "DEF-MODAL-D-OPERATORS"
+    },
+    {
+      "id": "c85b83b9-485f-483f-814a-8ea8cee09289",
+      "label": "ACTUAL_POSSIBLE_AND_NECESSARY_COLLAPSE_3",
+      "definition_id": "DEF-MODAL-D-CYCLE"
+    },
+    {
+      "id": "7d2b60de-13c4-4695-8730-e7925af51901",
+      "label": "ACTUAL_POSSIBLE_AND_NECESSARY_COLLAPSE_4",
+      "definition_id": "DEF-MODAL-D-POCKET"
+    },
+    {
+      "id": "54151fa5-1e9d-4910-b934-e3627ce8cd5b",
+      "label": "ACTUAL_POSSIBLE_AND_NECESSARY_COLLAPSE_5",
+      "definition_id": "DEF-MODAL-D-FORK"
+    }
+  ]
 }

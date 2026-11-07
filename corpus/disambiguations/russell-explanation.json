@@ -6,5 +6,23 @@
     "DEF-RUSSELL-GROUNDING",
     "DEF-RUSSELL-EXHAUSTIVENESS"
   ],
-  "resolution": "A truth-conditional analysis is distinct from a grounding edge and from the extra assertion that truth conditions determine all admissible explanatory expansions. V p.72 explicitly leaves the analysis of general facts incomplete; no inference from A1 to A2 is attributed to Russell."
+  "resolution": "A truth-conditional analysis is distinct from a grounding edge and from the extra assertion that truth conditions determine all admissible explanatory expansions. V p.72 explicitly leaves the analysis of general facts incomplete; no inference from A1 to A2 is attributed to Russell.",
+  "term_label": "EXPLANATION",
+  "senses": [
+    {
+      "id": "5fe4342f-0eef-4566-bba1-643ab418b10b",
+      "label": "EXPLANATION_8",
+      "definition_id": "DEF-RUSSELL-LOGICAL-ANALYSIS"
+    },
+    {
+      "id": "8946a082-1304-4cac-9260-977fcd5574c2",
+      "label": "EXPLANATION_9",
+      "definition_id": "DEF-RUSSELL-GROUNDING"
+    },
+    {
+      "id": "9f2b4866-db70-453e-9d67-9759132a900f",
+      "label": "EXPLANATION_10",
+      "definition_id": "DEF-RUSSELL-EXHAUSTIVENESS"
+    }
+  ]
 }

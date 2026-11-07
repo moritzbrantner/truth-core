@@ -5,5 +5,18 @@
     "DEF-POTENCY",
     "DEF-MUTABILITY-IN-ANOTHER"
   ],
-  "resolution": "Existing InPotency/PureAct quantifies potency in a subject. Q.9 a.2 separately allows mutability through the creator's power in another. Neither absence of intrinsic potency nor present state constancy identifies or excludes that external dependence channel."
+  "resolution": "Existing InPotency/PureAct quantifies potency in a subject. Q.9 a.2 separately allows mutability through the creator's power in another. Neither absence of intrinsic potency nor present state constancy identifies or excludes that external dependence channel.",
+  "term_label": "POTENCY_AND_MUTABILITY",
+  "senses": [
+    {
+      "id": "3076b427-fa70-494e-8501-2c8e4628ce8e",
+      "label": "POTENCY_AND_MUTABILITY_1",
+      "definition_id": "DEF-POTENCY"
+    },
+    {
+      "id": "1c7d6a4b-fd1b-4134-acf7-20131842b778",
+      "label": "POTENCY_AND_MUTABILITY_2",
+      "definition_id": "DEF-MUTABILITY-IN-ANOTHER"
+    }
+  ]
 }

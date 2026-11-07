@@ -8,5 +8,33 @@
     "DEF-DELLA-ROCCA-EXPLICABILITY-ARGUMENT",
     "DEF-SELF-EVIDENT-MARKING"
   ],
-  "resolution": "The Aristotle reading concerns determinate signification and an elenctic dialectical method; it is not the occurrence-only PresuppositionLink of the generic performed-denial schema. That schema explicitly assumes its performance-to-episode link and never supplies a semantic or epistemic-to-ontic identity. Norm.Holds expresses a supplied scope/standard policy; an opponent violates it only when the relevant same-sense commitments have been stated. Della Rocca’s explicability argument rejects a proposed state for inexplicability and seeks a principled restriction; its reported dialectical support is not automatically a performative contradiction in every PSR denial. Project self-evident marking is a separate argued closure convention, not a synonym for undemonstrated or intrinsically intelligible. No new such marking is made here."
+  "resolution": "The Aristotle reading concerns determinate signification and an elenctic dialectical method; it is not the occurrence-only PresuppositionLink of the generic performed-denial schema. That schema explicitly assumes its performance-to-episode link and never supplies a semantic or epistemic-to-ontic identity. Norm.Holds expresses a supplied scope/standard policy; an opponent violates it only when the relevant same-sense commitments have been stated. Della Rocca’s explicability argument rejects a proposed state for inexplicability and seeks a principled restriction; its reported dialectical support is not automatically a performative contradiction in every PSR denial. Project self-evident marking is a separate argued closure convention, not a synonym for undemonstrated or intrinsically intelligible. No new such marking is made here.",
+  "term_label": "FIRST_PRINCIPLE_ENTITLEMENT_AND_PRESUPPOSITION",
+  "senses": [
+    {
+      "id": "a7dd532d-6e60-45a3-b12b-6184c43f12f2",
+      "label": "FIRST_PRINCIPLE_ENTITLEMENT_AND_PRESUPPOSITION_1",
+      "definition_id": "DEF-ELENCTIC-FIRST-PRINCIPLE-DEFENSE"
+    },
+    {
+      "id": "f3e9675f-34d1-4b3e-a000-da6120fc1e24",
+      "label": "FIRST_PRINCIPLE_ENTITLEMENT_AND_PRESUPPOSITION_2",
+      "definition_id": "DEF-PRESUPPOSITION-LINK"
+    },
+    {
+      "id": "b0c4b26f-0cf8-41dc-b19b-ec95916c210e",
+      "label": "FIRST_PRINCIPLE_ENTITLEMENT_AND_PRESUPPOSITION_3",
+      "definition_id": "DEF-SELF-APPLICATION-NORM"
+    },
+    {
+      "id": "1ec83131-0eca-4896-9a47-e6906fc006d8",
+      "label": "FIRST_PRINCIPLE_ENTITLEMENT_AND_PRESUPPOSITION_4",
+      "definition_id": "DEF-DELLA-ROCCA-EXPLICABILITY-ARGUMENT"
+    },
+    {
+      "id": "45ffd8df-20ee-48ae-a634-a46d79b1675b",
+      "label": "FIRST_PRINCIPLE_ENTITLEMENT_AND_PRESUPPOSITION_5",
+      "definition_id": "DEF-SELF-EVIDENT-MARKING"
+    }
+  ]
 }

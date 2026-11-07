@@ -7,5 +7,28 @@
     "DEF-MORAL-SUBJECTIVISM",
     "DEF-EMOTIVISM-OCCASION"
   ],
-  "resolution": "These are different theories, and each result names the one it is about. POE-EXTERNAL-PREMISE-VS-EMOTIVISM is about O'Connor's 2023 emotivism (no truth value). STMT-NO-OBJECTIVE-MORAL-TRUTHS and STMT-EVIL-PREMISE-NOT-OBJECTIVE come from his 2016 subjectivism, which does not deny truth value, only objectivity. Expressivism in general, including quasi-realism with minimal truth, is not yet refuted or formalized (#182-#185). A result about one of these must not be cited as a result about another. The occasion-based meaning hypothesis tested by Frege–Geach is a separate reading from O’Connor’s denial of truth value; refuting it does not refute all expressivism."
+  "resolution": "These are different theories, and each result names the one it is about. POE-EXTERNAL-PREMISE-VS-EMOTIVISM is about O'Connor's 2023 emotivism (no truth value). STMT-NO-OBJECTIVE-MORAL-TRUTHS and STMT-EVIL-PREMISE-NOT-OBJECTIVE come from his 2016 subjectivism, which does not deny truth value, only objectivity. Expressivism in general, including quasi-realism with minimal truth, is not yet refuted or formalized (#182-#185). A result about one of these must not be cited as a result about another. The occasion-based meaning hypothesis tested by Frege–Geach is a separate reading from O’Connor’s denial of truth value; refuting it does not refute all expressivism.",
+  "term_label": "EMOTIVISM_EXPRESSIVISM_SUBJECTIVISM",
+  "senses": [
+    {
+      "id": "2beb8dd8-1ca7-4a1b-90b8-6786947ad978",
+      "label": "EMOTIVISM_EXPRESSIVISM_SUBJECTIVISM_1",
+      "definition_id": "DEF-EMOTIVISM"
+    },
+    {
+      "id": "347a3da7-30f4-421e-87c7-6a7e63d52e8f",
+      "label": "EMOTIVISM_EXPRESSIVISM_SUBJECTIVISM_2",
+      "definition_id": "DEF-EXPRESSIVISM"
+    },
+    {
+      "id": "a754e852-4c16-4d6c-914b-36fdfa39b65c",
+      "label": "EMOTIVISM_EXPRESSIVISM_SUBJECTIVISM_3",
+      "definition_id": "DEF-MORAL-SUBJECTIVISM"
+    },
+    {
+      "id": "8a844cfe-fc45-48e8-91b3-b59d1c2749b6",
+      "label": "EMOTIVISM_EXPRESSIVISM_SUBJECTIVISM_4",
+      "definition_id": "DEF-EMOTIVISM-OCCASION"
+    }
+  ]
 }

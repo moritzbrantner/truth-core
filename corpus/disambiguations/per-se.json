@@ -7,5 +7,28 @@
     "DEF-SELF-EVIDENT-MARKING",
     "DEF-NATURAL-LAW-PER-SE-NOTA"
   ],
-  "resolution": "Three different uses share the words 'per se': a per se ordered series (prima via, `MovesAsMoved`), being necessary per se (tertia via, `IsNecessaryPerSe`: no cause of necessity from elsewhere), and being self-evident (per se notum; in this corpus the `self_evident` marking). Each is its own predicate or record field and no inference moves between them: the convergence result TERTIA-VIA-NECESSARY-PER-SE-IS-MAXIME-ENS uses only `IsNecessaryPerSe`, and the self-evidence of STMT-EXCLUDED-MIDDLE rests on Aristotle's elenctic defence, not on per se ordering. The natural-law per-se-nota reading is Aquinas’s predicate-in-the-subject account of self-evidence. A claim proposing this account is not already a corpus self_evident marking."
+  "resolution": "Three different uses share the words 'per se': a per se ordered series (prima via, `MovesAsMoved`), being necessary per se (tertia via, `IsNecessaryPerSe`: no cause of necessity from elsewhere), and being self-evident (per se notum; in this corpus the `self_evident` marking). Each is its own predicate or record field and no inference moves between them: the convergence result TERTIA-VIA-NECESSARY-PER-SE-IS-MAXIME-ENS uses only `IsNecessaryPerSe`, and the self-evidence of STMT-EXCLUDED-MIDDLE rests on Aristotle's elenctic defence, not on per se ordering. The natural-law per-se-nota reading is Aquinas’s predicate-in-the-subject account of self-evidence. A claim proposing this account is not already a corpus self_evident marking.",
+  "term_label": "PER_SE",
+  "senses": [
+    {
+      "id": "df046130-853b-41ae-b3fb-afc126d06c0d",
+      "label": "PER_SE_1",
+      "definition_id": "DEF-PER-SE-ORDERED-SERIES"
+    },
+    {
+      "id": "110c4d86-2460-4eb0-9d99-79442908d368",
+      "label": "PER_SE_2",
+      "definition_id": "DEF-NECESSARY-PER-SE"
+    },
+    {
+      "id": "466d3a02-acfc-456c-b1cb-5d7ebf54d2ca",
+      "label": "PER_SE_3",
+      "definition_id": "DEF-SELF-EVIDENT-MARKING"
+    },
+    {
+      "id": "165425e5-fcc8-4b47-a1d1-5ece276c2463",
+      "label": "PER_SE_4",
+      "definition_id": "DEF-NATURAL-LAW-PER-SE-NOTA"
+    }
+  ]
 }

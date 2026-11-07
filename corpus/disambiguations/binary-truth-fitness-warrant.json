@@ -5,5 +5,18 @@
     "DEF-BINARY-BELIEF-POLARITY-RESPONSE",
     "DEF-BINARY-TRUTH-BEHAVIOR-BOUNDARY"
   ],
-  "resolution": "Truthful concerns represented binary values; Successful concerns actions matching independently supplied targets. Target alignment with actual survival is open. The same target bit serves both roles in this deliberately small environment; this favorable coupling still does not force truthful representation. Direct polarity is the exact bridge within this response rule under success, not an empirical fact about agents. Equal behavioral scores do not give equal probabilities, low reliability probability, a defeater, absence of warrant, or naturalism self-defeat. The controls have only one represented binary content per input; all-false means every such bit, not all human beliefs or all logical truths."
+  "resolution": "Truthful concerns represented binary values; Successful concerns actions matching independently supplied targets. Target alignment with actual survival is open. The same target bit serves both roles in this deliberately small environment; this favorable coupling still does not force truthful representation. Direct polarity is the exact bridge within this response rule under success, not an empirical fact about agents. Equal behavioral scores do not give equal probabilities, low reliability probability, a defeater, absence of warrant, or naturalism self-defeat. The controls have only one represented binary content per input; all-false means every such bit, not all human beliefs or all logical truths.",
+  "term_label": "TRUTH_SUCCESSFUL_RESPONSE_FITNESS_RELIABILITY",
+  "senses": [
+    {
+      "id": "b6f0bb02-14e0-4874-a019-04960e386493",
+      "label": "TRUTH_SUCCESSFUL_RESPONSE_FITNESS_RELIABILITY_1",
+      "definition_id": "DEF-BINARY-BELIEF-POLARITY-RESPONSE"
+    },
+    {
+      "id": "8be8326e-20e7-4881-b5ce-a156282a5c12",
+      "label": "TRUTH_SUCCESSFUL_RESPONSE_FITNESS_RELIABILITY_2",
+      "definition_id": "DEF-BINARY-TRUTH-BEHAVIOR-BOUNDARY"
+    }
+  ]
 }

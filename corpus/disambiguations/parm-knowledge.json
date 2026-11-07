@@ -5,5 +5,18 @@
     "DEF-PARM-KNOWLEDGE",
     "DEF-PARM-DIRECT-COGNITION"
   ],
-  "resolution": "Direct concerns the presentation; Knows concerns its represented object. MediatedTransfer is an independent epistemic warrant, not a transfer of predicates from a picture to its subject. Phaedo 74 provides recollection as an alternative to isolated realms, not a proof that any representation yields knowledge. The divine reverse horn concerns the encoded mode only."
+  "resolution": "Direct concerns the presentation; Knows concerns its represented object. MediatedTransfer is an independent epistemic warrant, not a transfer of predicates from a picture to its subject. Phaedo 74 provides recollection as an alternative to isolated realms, not a proof that any representation yields knowledge. The divine reverse horn concerns the encoded mode only.",
+  "term_label": "KNOWLEDGE",
+  "senses": [
+    {
+      "id": "10a18663-b109-4aa0-958d-079d40ba17b5",
+      "label": "KNOWLEDGE_1",
+      "definition_id": "DEF-PARM-KNOWLEDGE"
+    },
+    {
+      "id": "31bd6096-dc36-4528-b7d2-48ec8fff53ed",
+      "label": "KNOWLEDGE_2",
+      "definition_id": "DEF-PARM-DIRECT-COGNITION"
+    }
+  ]
 }

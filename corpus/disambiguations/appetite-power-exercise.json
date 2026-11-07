@@ -6,5 +6,23 @@
     "DEF-COGNITION-RELATIVE-APPETITE",
     "DEF-ACT-OF-WILL"
   ],
-  "resolution": "The old HasWill predicate and q.80 appetitive-power reading concern having a power/nature, while seeking, loving, delighting and communicating are described acts. No current act follows from a primitive power label alone. Seeking absent good is not required for willing; no dormant or passive state is attributed to God by this contrast."
+  "resolution": "The old HasWill predicate and q.80 appetitive-power reading concern having a power/nature, while seeking, loving, delighting and communicating are described acts. No current act follows from a primitive power label alone. Seeking absent good is not required for willing; no dormant or passive state is attributed to God by this contrast.",
+  "term_label": "HAVING_WILL_OR_APPETITE_VERSUS_EXERCISING",
+  "senses": [
+    {
+      "id": "82f9f21d-b563-48b4-ad96-5384d148ca12",
+      "label": "HAVING_WILL_OR_APPETITE_VERSUS_EXERCISING_1",
+      "definition_id": "DEF-HAS-WILL"
+    },
+    {
+      "id": "183bff99-a67d-46f9-ae43-a68cba27119c",
+      "label": "HAVING_WILL_OR_APPETITE_VERSUS_EXERCISING_2",
+      "definition_id": "DEF-COGNITION-RELATIVE-APPETITE"
+    },
+    {
+      "id": "9931b112-52ba-466c-945a-c5cd7f73a8f3",
+      "label": "HAVING_WILL_OR_APPETITE_VERSUS_EXERCISING_3",
+      "definition_id": "DEF-ACT-OF-WILL"
+    }
+  ]
 }

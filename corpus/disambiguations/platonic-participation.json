@@ -5,5 +5,18 @@
     "DEF-PLATONIC-PARTICIPATION",
     "DEF-PLATONIC-EXEMPLAR"
   ],
-  "resolution": "Participates is thin attribution. ExemplarParticipation adds ModelFor and Imitates as separate relations. ExplanatoryParticipation adds Explains. Neither addition is a definition or consequence of bare participation; Phaedo 100d leaves its manner undetermined."
+  "resolution": "Participates is thin attribution. ExemplarParticipation adds ModelFor and Imitates as separate relations. ExplanatoryParticipation adds Explains. Neither addition is a definition or consequence of bare participation; Phaedo 100d leaves its manner undetermined.",
+  "term_label": "PARTICIPATION",
+  "senses": [
+    {
+      "id": "4bdeb5fc-260b-42df-86af-3da72bc078f9",
+      "label": "PARTICIPATION_1",
+      "definition_id": "DEF-PLATONIC-PARTICIPATION"
+    },
+    {
+      "id": "8e51932b-f4a6-4b76-9666-8d625a1858de",
+      "label": "PARTICIPATION_2",
+      "definition_id": "DEF-PLATONIC-EXEMPLAR"
+    }
+  ]
 }

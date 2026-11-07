@@ -5,5 +5,18 @@
     "DEF-JOHN-ABRAHAM-SPEECH-REPORT",
     "DEF-SKELETON-OPEN-PREDICATES"
   ],
-  "resolution": "The John statements are textual attributions and narrated actions; the signature divine-authority predicate concerns an actual claim and is not defined by an occurrence of I am. Ordinary self-identification at 9.9 and the before-Abraham contrast at 8.58 are contextually distinct uses. Personal preexistence, divine-name echo, ideal priority in God’s purpose, delegated agency and divine identity are not synonyms. The note docs/john-abraham-saying.md preserves their positive accounts and different obligations. Neither an ordinary-use control nor hostile stones settles the contextual reading of 8.58. No equation with the Creed, God predicate, historical utterance or actual divine authority is supplied."
+  "resolution": "The John statements are textual attributions and narrated actions; the signature divine-authority predicate concerns an actual claim and is not defined by an occurrence of I am. Ordinary self-identification at 9.9 and the before-Abraham contrast at 8.58 are contextually distinct uses. Personal preexistence, divine-name echo, ideal priority in God’s purpose, delegated agency and divine identity are not synonyms. The note docs/john-abraham-saying.md preserves their positive accounts and different obligations. Neither an ordinary-use control nor hostile stones settles the contextual reading of 8.58. No equation with the Creed, God predicate, historical utterance or actual divine authority is supplied.",
+  "term_label": "I_AM_SPEECH_FORM_CONTEXTUAL_INTERPRETATION",
+  "senses": [
+    {
+      "id": "02d04f69-9a09-4f40-b982-23e798e8791c",
+      "label": "I_AM_SPEECH_FORM_CONTEXTUAL_INTERPRETATION_1",
+      "definition_id": "DEF-JOHN-ABRAHAM-SPEECH-REPORT"
+    },
+    {
+      "id": "a89f3a63-4f36-48d0-a111-7ac231b985f5",
+      "label": "I_AM_SPEECH_FORM_CONTEXTUAL_INTERPRETATION_2",
+      "definition_id": "DEF-SKELETON-OPEN-PREDICATES"
+    }
+  ]
 }

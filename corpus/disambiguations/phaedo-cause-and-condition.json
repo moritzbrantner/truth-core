@@ -5,5 +5,18 @@
     "DEF-PHAEDO-ENABLING-CONDITION",
     "DEF-PHAEDO-BEST-EXPLANATORY-AIM"
   ],
-  "resolution": "The bodily prerequisites of the action example, explanation through the choice of what is best, the safe answer for being F, and a cause of coming-to-be have different explanatory roles. Socrates grants the first while withholding its sufficiency for the second; the second-voyage discussion then proposes Forms for the third. No equivalence between these roles is inferred. In particular the example does not establish that every physical explanation is inadequate, that a Phaedo Form is an efficient producer, or that it is the separate maker of the Timaeus."
+  "resolution": "The bodily prerequisites of the action example, explanation through the choice of what is best, the safe answer for being F, and a cause of coming-to-be have different explanatory roles. Socrates grants the first while withholding its sufficiency for the second; the second-voyage discussion then proposes Forms for the third. No equivalence between these roles is inferred. In particular the example does not establish that every physical explanation is inadequate, that a Phaedo Form is an efficient producer, or that it is the separate maker of the Timaeus.",
+  "term_label": "CAUSE_AND_INDISPENSABLE_CONDITION_IN_PHAEDO",
+  "senses": [
+    {
+      "id": "72188f77-87f6-4374-9d01-f968dd66e0dd",
+      "label": "CAUSE_AND_INDISPENSABLE_CONDITION_IN_PHAEDO_1",
+      "definition_id": "DEF-PHAEDO-ENABLING-CONDITION"
+    },
+    {
+      "id": "c3d7da84-4faf-4669-9f38-ee13766d100f",
+      "label": "CAUSE_AND_INDISPENSABLE_CONDITION_IN_PHAEDO_2",
+      "definition_id": "DEF-PHAEDO-BEST-EXPLANATORY-AIM"
+    }
+  ]
 }

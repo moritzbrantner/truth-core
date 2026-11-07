@@ -6,5 +6,23 @@
     "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
     "DEF-UNITING-CAUSE-ACTUALITY-INTERFACES"
   ],
-  "resolution": "The q.3 CausesIn c x esse reading does not by its type supply world-indexed existence of c or a world-local Ontic.Causes edge. The two open interfaces state these separately. Sourcehood only excludes incoming edges from actual nodes; an absent candidate therefore cannot contradict sourcehood. Composite is the existing q.3 predicate, not the proper-part proxy in PowerExistenceBoundary. Neither interface is attributed to Aquinas, and no cause of becoming, temporal first cause, intrinsic reason, God identification or maximality is inferred."
+  "resolution": "The q.3 CausesIn c x esse reading does not by its type supply world-indexed existence of c or a world-local Ontic.Causes edge. The two open interfaces state these separately. Sourcehood only excludes incoming edges from actual nodes; an absent candidate therefore cannot contradict sourcehood. Composite is the existing q.3 predicate, not the proper-part proxy in PowerExistenceBoundary. Neither interface is attributed to Aquinas, and no cause of becoming, temporal first cause, intrinsic reason, God identification or maximality is inferred.",
+  "term_label": "ATEMPORAL_CAUSE_IN_ESSE",
+  "senses": [
+    {
+      "id": "8ea914b9-567f-4714-802f-f3ad639b890f",
+      "label": "ATEMPORAL_CAUSE_IN_ESSE_1",
+      "definition_id": "DEF-CAUSE-OF-PERFECTION"
+    },
+    {
+      "id": "00e564e2-7170-44b7-a88d-076378ad675b",
+      "label": "ATEMPORAL_CAUSE_IN_ESSE_2",
+      "definition_id": "DEF-WORLD-ACTUAL-CAUSAL-GRAPH"
+    },
+    {
+      "id": "02217238-2075-4f8f-bff9-eaf03d2ec2eb",
+      "label": "ATEMPORAL_CAUSE_IN_ESSE_3",
+      "definition_id": "DEF-UNITING-CAUSE-ACTUALITY-INTERFACES"
+    }
+  ]
 }

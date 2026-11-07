@@ -5,5 +5,18 @@
     "DEF-PRESENT-ESSE-SUPPORT",
     "DEF-CATEGORIES-SUBJECT-RELATIONS"
   ],
-  "resolution": "Bears s e relates a subject to a thought episode (DEF-THOUGHT-BEARER). PresentEsseSupport relates an existing direct supporter to what it supports at one world (DEF-PRESENT-ESSE-SUPPORT). In and SaidOf are the supplied Categories relations (DEF-CATEGORIES-SUBJECT-RELATIONS); no In or SaidOf edge need be a support edge. The #562 argument passes from a bearer into support ancestry only by starting the ancestry at that bearer; it never infers a bearer of a bearer, and NonSubstanceBranchModel has an occurring episode with an existing bearer and no existing supporter. It passes from In or SaidOf to support only through the explicit open premises STMT-IN-SUBJECT-IS-EXISTENT-SUPPORT and STMT-SAID-OF-SUBJECT-IS-EXISTENT-SUPPORT. Explanation is a further relation that no record here uses."
+  "resolution": "Bears s e relates a subject to a thought episode (DEF-THOUGHT-BEARER). PresentEsseSupport relates an existing direct supporter to what it supports at one world (DEF-PRESENT-ESSE-SUPPORT). In and SaidOf are the supplied Categories relations (DEF-CATEGORIES-SUBJECT-RELATIONS); no In or SaidOf edge need be a support edge. The #562 argument passes from a bearer into support ancestry only by starting the ancestry at that bearer; it never infers a bearer of a bearer, and NonSubstanceBranchModel has an occurring episode with an existing bearer and no existing supporter. It passes from In or SaidOf to support only through the explicit open premises STMT-IN-SUBJECT-IS-EXISTENT-SUPPORT and STMT-SAID-OF-SUBJECT-IS-EXISTENT-SUPPORT. Explanation is a further relation that no record here uses.",
+  "term_label": "HAS_OR_DEPENDS_ON_BEARING_BEING",
+  "senses": [
+    {
+      "id": "7ec0a9d6-1a23-4457-8073-101c6d541d16",
+      "label": "HAS_OR_DEPENDS_ON_BEARING_BEING_1",
+      "definition_id": "DEF-PRESENT-ESSE-SUPPORT"
+    },
+    {
+      "id": "ec0a1eda-4d75-4ffe-b023-209cbeb1a767",
+      "label": "HAS_OR_DEPENDS_ON_BEARING_BEING_2",
+      "definition_id": "DEF-CATEGORIES-SUBJECT-RELATIONS"
+    }
+  ]
 }

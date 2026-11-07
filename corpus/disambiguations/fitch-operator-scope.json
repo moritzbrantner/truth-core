@@ -6,5 +6,23 @@
     "DEF-EPISTEMIC-ALTERNATIVES-KNOWLEDGE",
     "DEF-CC100-124-KNOWABILITY-KNOWER"
   ],
-  "resolution": "The generic Context may interpret K in different ways only when its laws are supplied. The survivor uses the existing fixed-agent relational Knows. The CC100-124 possible-someone and contextual/literal actual-someone readings are not identified with that box. Distributed some-agent/sometime K inherits factivity and left-conjunct extraction from each witness when truth refers to the same content/world; it never yields a common agent/time across propositions. No F6 epistemic-reason premise supplies knowability. Modal R and epistemic E remain distinct; the survivor has E not contained in R."
+  "resolution": "The generic Context may interpret K in different ways only when its laws are supplied. The survivor uses the existing fixed-agent relational Knows. The CC100-124 possible-someone and contextual/literal actual-someone readings are not identified with that box. Distributed some-agent/sometime K inherits factivity and left-conjunct extraction from each witness when truth refers to the same content/world; it never yields a common agent/time across propositions. No F6 epistemic-reason premise supplies knowability. Modal R and epistemic E remain distinct; the survivor has E not contained in R.",
+  "term_label": "FIXED_AGENT_WORLD_INDEXED_K",
+  "senses": [
+    {
+      "id": "1fa6b11a-f8f9-4cdd-875c-547104444c07",
+      "label": "FIXED_AGENT_WORLD_INDEXED_K_1",
+      "definition_id": "DEF-FITCH-WORLD-INDEXED-KNOWLEDGE"
+    },
+    {
+      "id": "aa38a847-0254-4eca-bc67-be2bd8808dd1",
+      "label": "FIXED_AGENT_WORLD_INDEXED_K_2",
+      "definition_id": "DEF-EPISTEMIC-ALTERNATIVES-KNOWLEDGE"
+    },
+    {
+      "id": "d186f0ff-352e-4a43-b651-dc49f097469d",
+      "label": "FIXED_AGENT_WORLD_INDEXED_K_3",
+      "definition_id": "DEF-CC100-124-KNOWABILITY-KNOWER"
+    }
+  ]
 }

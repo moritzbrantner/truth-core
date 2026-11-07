@@ -7,5 +7,28 @@
     "DEF-UNIQUE-FEEDBACK-STATE",
     "DEF-HISTORY-SELECTION-CONTROLS"
   ],
-  "resolution": "Local causal coverage answers a memberwise predecessor question. Whole-vector determination and entailing discrimination answer a supplied history-contrast question. The universal theorem concerns all evidence-only candidate propositions, not all adequate explanations. Adequate nonnecessitating accounts can retain a positively supported rival; relative support or causal relevance need not be encoded by token truth alone. Neither entailing success, a new actuality marker nor a unique global mathematical solution explains why its premise, law or reason obtains. GlobalLaw gives uniqueness without an initial time or value while leaving its constraint actuality unproved. rooted and chains have identical presence histories and are evaluated under the same selection demand; sourcehood gives no exemption. SameHistory compares supplied presence, not every qualitative fact, a new aggregate being or all reality. Metaphysical possibility, actuality and epistemic induction require independent bridges. No unmerged result is imported."
+  "resolution": "Local causal coverage answers a memberwise predecessor question. Whole-vector determination and entailing discrimination answer a supplied history-contrast question. The universal theorem concerns all evidence-only candidate propositions, not all adequate explanations. Adequate nonnecessitating accounts can retain a positively supported rival; relative support or causal relevance need not be encoded by token truth alone. Neither entailing success, a new actuality marker nor a unique global mathematical solution explains why its premise, law or reason obtains. GlobalLaw gives uniqueness without an initial time or value while leaving its constraint actuality unproved. rooted and chains have identical presence histories and are evaluated under the same selection demand; sourcehood gives no exemption. SameHistory compares supplied presence, not every qualitative fact, a new aggregate being or all reality. Metaphysical possibility, actuality and epistemic induction require independent bridges. No unmerged result is imported.",
+  "term_label": "SELECTION_OF_A_COMPLETE_HISTORY",
+  "senses": [
+    {
+      "id": "3ced40d0-923d-4054-b23b-f41747da4c47",
+      "label": "SELECTION_OF_A_COMPLETE_HISTORY_1",
+      "definition_id": "DEF-HISTORY-SELECTION-INFORMATION"
+    },
+    {
+      "id": "ebfc7f75-6a07-48f8-81a0-32b554e20264",
+      "label": "SELECTION_OF_A_COMPLETE_HISTORY_2",
+      "definition_id": "DEF-HISTORY-CONTRASTIVE-CONTROL"
+    },
+    {
+      "id": "36b52d1d-2641-4e43-a198-92136fc87724",
+      "label": "SELECTION_OF_A_COMPLETE_HISTORY_3",
+      "definition_id": "DEF-UNIQUE-FEEDBACK-STATE"
+    },
+    {
+      "id": "1c98bd74-ddab-437a-8f0e-5e4b751a1081",
+      "label": "SELECTION_OF_A_COMPLETE_HISTORY_4",
+      "definition_id": "DEF-HISTORY-SELECTION-CONTROLS"
+    }
+  ]
 }

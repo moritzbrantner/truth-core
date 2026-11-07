@@ -5,5 +5,18 @@
     "DEF-THEOLOGICAL-CONTENT-AND-RELIGIOUS-LIFE-ROLES",
     "DEF-PRACTICE-OWN-STANDARD"
   ],
-  "resolution": "The raw STMT-COUNCIL-TEACHING-THEOLOGY-NOT-GRAMMAR remains an unattributed mixed reconstruction. New analyst siblings distinguish theological content, a practical role in religious life and normative own-standard endorsement. Descriptive theology can coexist with the original definition-to-own-standard bridge; actual opposition requires an explicit exclusion plus a Defined witness, or actual mixed defined-status witnesses. The alternative relation now uses the exact bridge negation, so merely refuting the descriptive formulation cannot defend the normative bridge. Existing authority/use/neither grammar-fixer cases and their open bridges are unchanged; no theological label selects a case or establishes a source interpretation. Existing Catholic-practice, reference and grammar-case arguments retain normative OwnStandard endorsement and do not classify a move as nonnormative merely because it is theological."
+  "resolution": "The raw STMT-COUNCIL-TEACHING-THEOLOGY-NOT-GRAMMAR remains an unattributed mixed reconstruction. New analyst siblings distinguish theological content, a practical role in religious life and normative own-standard endorsement. Descriptive theology can coexist with the original definition-to-own-standard bridge; actual opposition requires an explicit exclusion plus a Defined witness, or actual mixed defined-status witnesses. The alternative relation now uses the exact bridge negation, so merely refuting the descriptive formulation cannot defend the normative bridge. Existing authority/use/neither grammar-fixer cases and their open bridges are unchanged; no theological label selects a case or establishes a source interpretation. Existing Catholic-practice, reference and grammar-case arguments retain normative OwnStandard endorsement and do not classify a move as nonnormative merely because it is theological.",
+  "term_label": "THEOLOGY_VERSUS_GRAMMAR_OF_A_RELIGIOUS",
+  "senses": [
+    {
+      "id": "fbd70e35-1f99-4366-90bc-f9610b14d64e",
+      "label": "THEOLOGY_VERSUS_GRAMMAR_OF_A_RELIGIOUS_1",
+      "definition_id": "DEF-THEOLOGICAL-CONTENT-AND-RELIGIOUS-LIFE-ROLES"
+    },
+    {
+      "id": "c3f6a8e0-8691-4be7-b082-2e90c709c733",
+      "label": "THEOLOGY_VERSUS_GRAMMAR_OF_A_RELIGIOUS_2",
+      "definition_id": "DEF-PRACTICE-OWN-STANDARD"
+    }
+  ]
 }

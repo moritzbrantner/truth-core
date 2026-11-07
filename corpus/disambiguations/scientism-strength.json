@@ -5,5 +5,18 @@
     "DEF-STRONG-SCIENTISM",
     "DEF-WEAK-SCIENTISM-RESTRICTED"
   ],
-  "resolution": "Strong scientism has every claim to knowledge in scope, so its own formulation is in scope (STMT-SCIENTISM-IN-OWN-SCOPE) and the dilemma STMT-STRONG-SCIENTISM-DILEMMA applies. Weak scientism restricts the norm to a demarcated domain; whether its own formulation is inside that domain decides between the returning dilemma and the concession of non-empirical knowledge (STMT-WEAK-SCIENTISM-DEMARCATION-OUTCOME). No result infers anything about the weak thesis from the strong dilemma or conversely; STMT-WEAK-SCIENTISM-CONSISTENT shows the weak thesis survives. The comparative reading (most reliable source) is a third sense, not modeled. Exact-scope audit: STMT-STRONG-SCIENTISM is bound to generic ScopedScientism, so universal/all-established coverage is not built into its formal type. Explicit all-established, pointwise nonempirical and existential witness-transfer siblings now distinguish that scope; the exact nonempirical-negative alternative consumes the last bridge. The original strong/weak selfapplication results and their explicit own-scope premises are unchanged."
+  "resolution": "Strong scientism has every claim to knowledge in scope, so its own formulation is in scope (STMT-SCIENTISM-IN-OWN-SCOPE) and the dilemma STMT-STRONG-SCIENTISM-DILEMMA applies. Weak scientism restricts the norm to a demarcated domain; whether its own formulation is inside that domain decides between the returning dilemma and the concession of non-empirical knowledge (STMT-WEAK-SCIENTISM-DEMARCATION-OUTCOME). No result infers anything about the weak thesis from the strong dilemma or conversely; STMT-WEAK-SCIENTISM-CONSISTENT shows the weak thesis survives. The comparative reading (most reliable source) is a third sense, not modeled. Exact-scope audit: STMT-STRONG-SCIENTISM is bound to generic ScopedScientism, so universal/all-established coverage is not built into its formal type. Explicit all-established, pointwise nonempirical and existential witness-transfer siblings now distinguish that scope; the exact nonempirical-negative alternative consumes the last bridge. The original strong/weak selfapplication results and their explicit own-scope premises are unchanged.",
+  "term_label": "SCIENTISM",
+  "senses": [
+    {
+      "id": "fa2a7689-2b80-4595-9cfc-32fc69111526",
+      "label": "SCIENTISM_1",
+      "definition_id": "DEF-STRONG-SCIENTISM"
+    },
+    {
+      "id": "cddb3d25-1047-479d-a152-323cd7af3b55",
+      "label": "SCIENTISM_2",
+      "definition_id": "DEF-WEAK-SCIENTISM-RESTRICTED"
+    }
+  ]
 }

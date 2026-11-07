@@ -5,5 +5,18 @@
     "DEF-UNIVERSALLY-PERFECT",
     "DEF-UNRESTRICTED-PURE-PERFECTION"
   ],
-  "resolution": "DEF-UNIVERSALLY-PERFECT concerns being in act in every respect in which anything is in act (formal-or-eminent reading, DISAMB-IN-ACT). DEF-UNRESTRICTED-PURE-PERFECTION concerns really having every pure determination of the supplied carrier. They coincide only in the reading where every respect is a real determination and every determination is pure (everyPerfectionIsAllPureCase). In particular, eminently containing a perfection is not the same as really having it as a determination; the thisness results use only the second sense. Ordinary immaterial simplicity satisfies neither: such a form lacks other forms' perfections (withoutUnrestrictedPerfection)."
+  "resolution": "DEF-UNIVERSALLY-PERFECT concerns being in act in every respect in which anything is in act (formal-or-eminent reading, DISAMB-IN-ACT). DEF-UNRESTRICTED-PURE-PERFECTION concerns really having every pure determination of the supplied carrier. They coincide only in the reading where every respect is a real determination and every determination is pure (everyPerfectionIsAllPureCase). In particular, eminently containing a perfection is not the same as really having it as a determination; the thisness results use only the second sense. Ordinary immaterial simplicity satisfies neither: such a form lacks other forms' perfections (withoutUnrestrictedPerfection).",
+  "term_label": "HAVING_EVERY_PERFECTION",
+  "senses": [
+    {
+      "id": "fda982db-797b-490c-8a8a-7fca5336e35f",
+      "label": "HAVING_EVERY_PERFECTION_1",
+      "definition_id": "DEF-UNIVERSALLY-PERFECT"
+    },
+    {
+      "id": "dc48d025-b11b-4c22-b88b-1306749bc86d",
+      "label": "HAVING_EVERY_PERFECTION_2",
+      "definition_id": "DEF-UNRESTRICTED-PURE-PERFECTION"
+    }
+  ]
 }

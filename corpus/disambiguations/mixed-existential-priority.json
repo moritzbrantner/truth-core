@@ -8,5 +8,33 @@
     "DEF-MIXED-EXISTENTIAL-PRIORITY-IRREFLEXIVE",
     "DEF-MIXED-EXISTENTIAL-PRIORITY-TRANSITIVE"
   ],
-  "resolution": "The old causal-loop result uses the sourced simple-priority vocabulary on beings. The existential-self-production result uses a separate supplied Prior on Sum B E, where inl labels bearer/product existence tokens and inr labels acts. Reusing the same logical irreflexivity/transitivity templates does not source or establish them on that mixed domain. Its two productive interfaces and both structural laws are separately named unattributed open premises. Neither relation is temporal precedence by definition; no source fidelity or actual bearer-presence claim transfers merely by notation."
+  "resolution": "The old causal-loop result uses the sourced simple-priority vocabulary on beings. The existential-self-production result uses a separate supplied Prior on Sum B E, where inl labels bearer/product existence tokens and inr labels acts. Reusing the same logical irreflexivity/transitivity templates does not source or establish them on that mixed domain. Its two productive interfaces and both structural laws are separately named unattributed open premises. Neither relation is temporal precedence by definition; no source fidelity or actual bearer-presence claim transfers merely by notation.",
+  "term_label": "SIMPLE_PRIORITY_OF_BEINGS_VERSUS_MIXED",
+  "senses": [
+    {
+      "id": "ed3b010e-0eee-425b-9126-ab300235179c",
+      "label": "SIMPLE_PRIORITY_OF_BEINGS_VERSUS_MIXED_1",
+      "definition_id": "DEF-SIMPLE-PRIORITY"
+    },
+    {
+      "id": "3aeb2ef5-b688-46a3-b4d1-435ec5089c9d",
+      "label": "SIMPLE_PRIORITY_OF_BEINGS_VERSUS_MIXED_2",
+      "definition_id": "DEF-EXISTENTIAL-BEARER-PRIOR"
+    },
+    {
+      "id": "4621236e-f022-4e33-8f6b-e730b9590970",
+      "label": "SIMPLE_PRIORITY_OF_BEINGS_VERSUS_MIXED_3",
+      "definition_id": "DEF-EXISTENTIAL-PRODUCT-PRIOR"
+    },
+    {
+      "id": "019d320f-6bbb-4a7b-8456-032aae3f514a",
+      "label": "SIMPLE_PRIORITY_OF_BEINGS_VERSUS_MIXED_4",
+      "definition_id": "DEF-MIXED-EXISTENTIAL-PRIORITY-IRREFLEXIVE"
+    },
+    {
+      "id": "a5256ddc-b359-48d2-a626-c58364c7330d",
+      "label": "SIMPLE_PRIORITY_OF_BEINGS_VERSUS_MIXED_5",
+      "definition_id": "DEF-MIXED-EXISTENTIAL-PRIORITY-TRANSITIVE"
+    }
+  ]
 }

@@ -6,5 +6,23 @@
     "DEF-CLARKE-VOLITIONAL-SUFFICIENT-REASON",
     "DEF-SPATIAL-COVARIANT-SELECTION"
   ],
-  "resolution": "Leibniz demands a contrastive explanation of the selected placement; Clarke allows intrinsic volition without an external difference. Both profess sufficient reason. The analyst covariance norm is a third, explicitly added condition, not either source’s unqualified PSR. The no-selector theorem therefore does not refute Clarke or prove relationalism from PSR alone."
+  "resolution": "Leibniz demands a contrastive explanation of the selected placement; Clarke allows intrinsic volition without an external difference. Both profess sufficient reason. The analyst covariance norm is a third, explicitly added condition, not either source’s unqualified PSR. The no-selector theorem therefore does not refute Clarke or prove relationalism from PSR alone.",
+  "term_label": "SUFFICIENT_REASON_FOR_INDIFFERENT_SPATIAL_ALTERNATIVES",
+  "senses": [
+    {
+      "id": "ce52cb80-088a-4672-8723-ac8a897fcb17",
+      "label": "SUFFICIENT_REASON_FOR_INDIFFERENT_SPATIAL_ALTERNATIVES_1",
+      "definition_id": "DEF-LEIBNIZ-SPATIAL-CONTRASTIVE-REASON"
+    },
+    {
+      "id": "a3a474ba-f63d-4b32-a947-68cb06c3d852",
+      "label": "SUFFICIENT_REASON_FOR_INDIFFERENT_SPATIAL_ALTERNATIVES_2",
+      "definition_id": "DEF-CLARKE-VOLITIONAL-SUFFICIENT-REASON"
+    },
+    {
+      "id": "de34f50c-d597-4ed4-81ff-30f07785988f",
+      "label": "SUFFICIENT_REASON_FOR_INDIFFERENT_SPATIAL_ALTERNATIVES_3",
+      "definition_id": "DEF-SPATIAL-COVARIANT-SELECTION"
+    }
+  ]
 }

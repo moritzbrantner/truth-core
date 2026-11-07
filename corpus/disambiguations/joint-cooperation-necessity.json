@@ -5,5 +5,18 @@
     "DEF-JOINT-COOPERATION-BRANCHES",
     "DEF-KANT-MODAL-NECESSITY"
   ],
-  "resolution": "NecessaryIn is occurrence at every allowed scenario of one Exercise. NecessaryAt is existence at every accessible world of an Ontic. Neither entails the other without ScenariosAreWorlds or WorldsAreScenarios, each stated explicitly. The #735 plural fixture has contributors necessary at the designated world of both overlays and failing at some allowed scenario, so its scenarios are not worlds of those overlays. Every passage from one sense to the other in this certificate goes through a stated bridge. ExplanatoryClosure's ModalCost likewise passes between the senses only under both stated bridges; its stops named NecessaryIn are scenario necessity."
+  "resolution": "NecessaryIn is occurrence at every allowed scenario of one Exercise. NecessaryAt is existence at every accessible world of an Ontic. Neither entails the other without ScenariosAreWorlds or WorldsAreScenarios, each stated explicitly. The #735 plural fixture has contributors necessary at the designated world of both overlays and failing at some allowed scenario, so its scenarios are not worlds of those overlays. Every passage from one sense to the other in this certificate goes through a stated bridge. ExplanatoryClosure's ModalCost likewise passes between the senses only under both stated bridges; its stops named NecessaryIn are scenario necessity.",
+  "term_label": "NECESSARY",
+  "senses": [
+    {
+      "id": "2b028456-f33a-42a6-a3a8-518aa289b45c",
+      "label": "NECESSARY_1",
+      "definition_id": "DEF-JOINT-COOPERATION-BRANCHES"
+    },
+    {
+      "id": "7af298fb-a2c4-4239-919b-7685f2e1f67a",
+      "label": "NECESSARY_2",
+      "definition_id": "DEF-KANT-MODAL-NECESSITY"
+    }
+  ]
 }

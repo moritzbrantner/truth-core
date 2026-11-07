@@ -5,5 +5,18 @@
     "DEF-INTENTIO-AS-TENDING",
     "DEF-INTENTION-AS-CONSCIOUS-PURPOSE"
   ],
-  "resolution": "The quinta via's dichotomy 'by chance or by intention' (STMT-REGULAR-BEST-BY-CHANCE-OR-BY-INTENTION) uses the broad sense, tending to an end; read as conscious purpose it would assume the knower the argument concludes to. The knower enters only through the separate premise STMT-NON-COGNITIVE-TENDING-NEEDS-KNOWING-DIRECTOR, so the argument does not equivocate between the two senses."
+  "resolution": "The quinta via's dichotomy 'by chance or by intention' (STMT-REGULAR-BEST-BY-CHANCE-OR-BY-INTENTION) uses the broad sense, tending to an end; read as conscious purpose it would assume the knower the argument concludes to. The knower enters only through the separate premise STMT-NON-COGNITIVE-TENDING-NEEDS-KNOWING-DIRECTOR, so the argument does not equivocate between the two senses.",
+  "term_label": "INTENTION",
+  "senses": [
+    {
+      "id": "ac498a13-cf02-4891-b3aa-140b3a8aff59",
+      "label": "INTENTION_1",
+      "definition_id": "DEF-INTENTIO-AS-TENDING"
+    },
+    {
+      "id": "5f313ab5-6bcb-4b3b-b41d-345da24b1beb",
+      "label": "INTENTION_2",
+      "definition_id": "DEF-INTENTION-AS-CONSCIOUS-PURPOSE"
+    }
+  ]
 }

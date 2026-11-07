@@ -7,5 +7,28 @@
     "DEF-INFINITIST-NORMATIVE-CONSTRAINTS",
     "DEF-ALL-PREMISE-GENERATED-WARRANT"
   ],
-  "resolution": "Klein–Turri availability is not actual infinite traversal. A reason not yet reason-enhanced need not be wholly unjustified. Their scoped enhancement/reflective-knowledge arguments do not address every epistemic status and assume non-skepticism in the stated context. GeneratedWarrant remains the separately stipulated all-premise inductive standard; its emptiness is not a refutation of every infinitist or holistic norm. A reason-support edge is neither actual warrant nor an actual causal/explanatory relation; no temporal, ontological or causal conclusion transfers without an independently defended mapping and norm."
+  "resolution": "Klein–Turri availability is not actual infinite traversal. A reason not yet reason-enhanced need not be wholly unjustified. Their scoped enhancement/reflective-knowledge arguments do not address every epistemic status and assume non-skepticism in the stated context. GeneratedWarrant remains the separately stipulated all-premise inductive standard; its emptiness is not a refutation of every infinitist or holistic norm. A reason-support edge is neither actual warrant nor an actual causal/explanatory relation; no temporal, ontological or causal conclusion transfers without an independently defended mapping and norm.",
+  "term_label": "AVAILABLE_REASONS_ENHANCED_JUSTIFICATION_GENERATED_WARRANT",
+  "senses": [
+    {
+      "id": "e9250f31-eadf-4c88-92e1-20464a01e985",
+      "label": "AVAILABLE_REASONS_ENHANCED_JUSTIFICATION_GENERATED_WARRANT_1",
+      "definition_id": "DEF-REASON-ENHANCED-JUSTIFICATION"
+    },
+    {
+      "id": "3dc5d4f6-0183-480f-bf0e-d36f45aa541e",
+      "label": "AVAILABLE_REASONS_ENHANCED_JUSTIFICATION_GENERATED_WARRANT_2",
+      "definition_id": "DEF-INFINITIST-REASON-AVAILABILITY"
+    },
+    {
+      "id": "2d245034-232c-426c-8366-6efeddac7e84",
+      "label": "AVAILABLE_REASONS_ENHANCED_JUSTIFICATION_GENERATED_WARRANT_3",
+      "definition_id": "DEF-INFINITIST-NORMATIVE-CONSTRAINTS"
+    },
+    {
+      "id": "77ca43e4-77cb-4f50-b541-5edb8123e760",
+      "label": "AVAILABLE_REASONS_ENHANCED_JUSTIFICATION_GENERATED_WARRANT_4",
+      "definition_id": "DEF-ALL-PREMISE-GENERATED-WARRANT"
+    }
+  ]
 }

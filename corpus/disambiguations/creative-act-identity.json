@@ -7,5 +7,28 @@
     "DEF-DECREE-RESPECT-FIELD",
     "DEF-SIMPLE"
   ],
-  "resolution": "The act may be a rigid token performed across worlds, what a world-relative description denotes, or a respect in which the bearer is in act. The Core reads act necessity and strict efficacy of one token, and a two-token model shows that the inconsistency needs their identity. A description is rigid only by the separate RigidAt condition. RootExposure reads a decree as a field respect only in its decree clauses, and oneRespect is the branch where no decree is one. DEF-SIMPLE says only that God is in no way composite: no certificate here passes from it to any of these senses."
+  "resolution": "The act may be a rigid token performed across worlds, what a world-relative description denotes, or a respect in which the bearer is in act. The Core reads act necessity and strict efficacy of one token, and a two-token model shows that the inconsistency needs their identity. A description is rigid only by the separate RigidAt condition. RootExposure reads a decree as a field respect only in its decree clauses, and oneRespect is the branch where no decree is one. DEF-SIMPLE says only that God is in no way composite: no certificate here passes from it to any of these senses.",
+  "term_label": "THE_CREATIVE_ACT",
+  "senses": [
+    {
+      "id": "90b6ff6a-7fc1-4bfc-8e04-866a3f13fbe8",
+      "label": "THE_CREATIVE_ACT_1",
+      "definition_id": "DEF-RIGID-ACT-STRICT-EFFICACY"
+    },
+    {
+      "id": "2c80c646-b43f-48d4-a7dc-1f9cc130996d",
+      "label": "THE_CREATIVE_ACT_2",
+      "definition_id": "DEF-CREATIVE-ACT-DESCRIPTION"
+    },
+    {
+      "id": "8e48e88c-8519-43ba-b478-623b165a8ca7",
+      "label": "THE_CREATIVE_ACT_3",
+      "definition_id": "DEF-DECREE-RESPECT-FIELD"
+    },
+    {
+      "id": "149841aa-f5f8-4b54-b583-8046f12e7c0e",
+      "label": "THE_CREATIVE_ACT_4",
+      "definition_id": "DEF-SIMPLE"
+    }
+  ]
 }

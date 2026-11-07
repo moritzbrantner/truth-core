@@ -5,5 +5,18 @@
     "DEF-TWO-RELATION-EPISTEMIC-PROFILE",
     "DEF-TWO-RELATION-METAPHYSICAL-PROFILE"
   ],
-  "resolution": "The shared Frame carrier is interpreted here as candidate descriptions. E-admissibility and M-admissibility differ and do not identify all conceivable descriptions with genuine metaphysical worlds. Satisfiability of P on that carrier is an explicit witness, not a syntactic consistency theorem, a logical completeness theorem or evidence that P is really metaphysically possible. The epistemic and metaphysical labels name stipulated profiles only. Failure to find a proof is neither a relation nor a predicate in this model. Logical, conceptual and nomological possibility are not identified with either profile. Full predicate quantification is explicit; a restricted language does not inherit the necessity direction without adequate separating predicates."
+  "resolution": "The shared Frame carrier is interpreted here as candidate descriptions. E-admissibility and M-admissibility differ and do not identify all conceivable descriptions with genuine metaphysical worlds. Satisfiability of P on that carrier is an explicit witness, not a syntactic consistency theorem, a logical completeness theorem or evidence that P is really metaphysically possible. The epistemic and metaphysical labels name stipulated profiles only. Failure to find a proof is neither a relation nor a predicate in this model. Logical, conceptual and nomological possibility are not identified with either profile. Full predicate quantification is explicit; a restricted language does not inherit the necessity direction without adequate separating predicates.",
+  "term_label": "POSSIBLE_DESCRIPTION_VERSUS_GENUINELY_POSSIBLE_STATE",
+  "senses": [
+    {
+      "id": "73b80cc9-cd11-4506-8c9e-04245b044be9",
+      "label": "POSSIBLE_DESCRIPTION_VERSUS_GENUINELY_POSSIBLE_STATE_1",
+      "definition_id": "DEF-TWO-RELATION-EPISTEMIC-PROFILE"
+    },
+    {
+      "id": "4c18b779-5edc-4d4d-a45f-e1e506acc918",
+      "label": "POSSIBLE_DESCRIPTION_VERSUS_GENUINELY_POSSIBLE_STATE_2",
+      "definition_id": "DEF-TWO-RELATION-METAPHYSICAL-PROFILE"
+    }
+  ]
 }

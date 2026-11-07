@@ -5,5 +5,18 @@
     "DEF-PARITY-UNION-REGRESS",
     "DEF-PARITY-LOCAL-SUPPORT"
   ],
-  "resolution": "Each direct edge is world-indexed. Local support has depth at most one. The unlabeled union admits arbitrarily long predecessor descent by alternating edge labels, without a same-world two-step causal chain. No finite cycle does not mean well-founded on Nat. Finite worlds plus uniformly bounded local depth therefore cannot replace union well-foundedness. Union WF remains an independent conditional premise; this control neither refutes its metaphysical truth nor establishes a common cross-world ranking."
+  "resolution": "Each direct edge is world-indexed. Local support has depth at most one. The unlabeled union admits arbitrarily long predecessor descent by alternating edge labels, without a same-world two-step causal chain. No finite cycle does not mean well-founded on Nat. Finite worlds plus uniformly bounded local depth therefore cannot replace union well-foundedness. Union WF remains an independent conditional premise; this control neither refutes its metaphysical truth nor establishes a common cross-world ranking.",
+  "term_label": "WORLD_LOCAL_TERMINATION_VERSUS_UNION_ACYCLICITY",
+  "senses": [
+    {
+      "id": "a9c1e0a3-c017-490f-a7d7-5bdf3d2c63e1",
+      "label": "WORLD_LOCAL_TERMINATION_VERSUS_UNION_ACYCLICITY_1",
+      "definition_id": "DEF-PARITY-UNION-REGRESS"
+    },
+    {
+      "id": "110ff9a2-881b-465b-8505-5f2f9a252359",
+      "label": "WORLD_LOCAL_TERMINATION_VERSUS_UNION_ACYCLICITY_2",
+      "definition_id": "DEF-PARITY-LOCAL-SUPPORT"
+    }
+  ]
 }

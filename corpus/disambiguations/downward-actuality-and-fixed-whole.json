@@ -5,5 +5,18 @@
     "DEF-PRINCIPAL-IDEAL-ACTUALITY",
     "DEF-ACTUAL-FUSION-PROFILE-CERTIFICATE"
   ],
-  "resolution": "ActualPartsExistAt is downward: an actual whole has actual parts. Actual-family fusion requires all selected members actual; leastness places their fusion below the world object. Neither says that one actual part actualizes the fixed global whole. Greatestness in the candidate roster differs from actuality, and \u2200world\u2203greatest-actual-whole differs from \u2203whole\u2200world-actual. NecessaryAt retains the same literal individual across accessible worlds; there is no counterpart or temporal identity substitution. The empty cause relation is not a claim of satisfying causal availability. Existing actual-fusion necessity theorems keep their additional causal inputs."
+  "resolution": "ActualPartsExistAt is downward: an actual whole has actual parts. Actual-family fusion requires all selected members actual; leastness places their fusion below the world object. Neither says that one actual part actualizes the fixed global whole. Greatestness in the candidate roster differs from actuality, and \u2200world\u2203greatest-actual-whole differs from \u2203whole\u2200world-actual. NecessaryAt retains the same literal individual across accessible worlds; there is no counterpart or temporal identity substitution. The empty cause relation is not a claim of satisfying causal availability. Existing actual-fusion necessity theorems keep their additional causal inputs.",
+  "term_label": "GLOBAL_PARTHOOD_ACTUAL_FUSION_AND_FIXED",
+  "senses": [
+    {
+      "id": "b8d32dc5-fec0-48e6-9bc7-7a6cebb617c1",
+      "label": "GLOBAL_PARTHOOD_ACTUAL_FUSION_AND_FIXED_1",
+      "definition_id": "DEF-PRINCIPAL-IDEAL-ACTUALITY"
+    },
+    {
+      "id": "8378f06c-79c1-4448-81b8-81fc25429475",
+      "label": "GLOBAL_PARTHOOD_ACTUAL_FUSION_AND_FIXED_2",
+      "definition_id": "DEF-ACTUAL-FUSION-PROFILE-CERTIFICATE"
+    }
+  ]
 }

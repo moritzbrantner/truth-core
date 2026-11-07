@@ -7,5 +7,28 @@
     "DEF-NECESSARY-BEING",
     "DEF-ROUTE-BRIDGE-MODAL-READING"
   ],
-  "resolution": "The new quantifier diagnostics use the shared Kripke Box and Dia on an explicit existence or concrete-presence extension. DeDicto allows changing witnesses; DeRe fixes a literal roster member. Neither is Scott necessary existence, a property defined through essences. The Third Way uses cannot-not-be with primitive Possible over time predicates. collective_iff substitutes Kripke Dia for that primitive only to compare the exact collective-possibility formula; it does not identify temporal plenitude with metaphysical accessibility, derive Box from negated Dia intuitionistically, or transfer any source attribution. Concreteness and existence remain distinct as DEF-NECESSARY-INDIVIDUAL-CONCRETE specifies. The #487 route bridge (DEF-ROUTE-BRIDGE-MODAL-READING) instantiates Possible at accessible worlds as an explicit reading of that parameter in its own results (NECESSARY-ROOT-IS-MAXIMUM, MAXIMUM-FIRST-FROM-NECESSARY-ROOT): it fills the Time slot with worlds and likewise does not identify temporal plenitude with accessibility, establish that the Third Way's Possible is this one, or transfer a source attribution. On that reading world-indexed de re necessity at w gives IsNecessary with no excluded middle."
+  "resolution": "The new quantifier diagnostics use the shared Kripke Box and Dia on an explicit existence or concrete-presence extension. DeDicto allows changing witnesses; DeRe fixes a literal roster member. Neither is Scott necessary existence, a property defined through essences. The Third Way uses cannot-not-be with primitive Possible over time predicates. collective_iff substitutes Kripke Dia for that primitive only to compare the exact collective-possibility formula; it does not identify temporal plenitude with metaphysical accessibility, derive Box from negated Dia intuitionistically, or transfer any source attribution. Concreteness and existence remain distinct as DEF-NECESSARY-INDIVIDUAL-CONCRETE specifies. The #487 route bridge (DEF-ROUTE-BRIDGE-MODAL-READING) instantiates Possible at accessible worlds as an explicit reading of that parameter in its own results (NECESSARY-ROOT-IS-MAXIMUM, MAXIMUM-FIRST-FROM-NECESSARY-ROOT): it fills the Time slot with worlds and likewise does not identify temporal plenitude with accessibility, establish that the Third Way's Possible is this one, or transfer a source attribution. On that reading world-indexed de re necessity at w gives IsNecessary with no excluded middle.",
+  "term_label": "NECESSITY_OF_ONE_INDIVIDUAL_VERSUS_NECESSARY",
+  "senses": [
+    {
+      "id": "43d88672-a700-41d6-b11a-931bf8f468ae",
+      "label": "NECESSITY_OF_ONE_INDIVIDUAL_VERSUS_NECESSARY_1",
+      "definition_id": "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS"
+    },
+    {
+      "id": "35907d54-de9e-4edb-84df-5d3214c8a3c5",
+      "label": "NECESSITY_OF_ONE_INDIVIDUAL_VERSUS_NECESSARY_2",
+      "definition_id": "DEF-NECESSARY-EXISTENCE-SCOTT"
+    },
+    {
+      "id": "2bbc3efc-46cc-4215-b1fa-f98077e2b38c",
+      "label": "NECESSITY_OF_ONE_INDIVIDUAL_VERSUS_NECESSARY_3",
+      "definition_id": "DEF-NECESSARY-BEING"
+    },
+    {
+      "id": "aa98bacb-a677-44db-846c-b1c6572a2519",
+      "label": "NECESSITY_OF_ONE_INDIVIDUAL_VERSUS_NECESSARY_4",
+      "definition_id": "DEF-ROUTE-BRIDGE-MODAL-READING"
+    }
+  ]
 }

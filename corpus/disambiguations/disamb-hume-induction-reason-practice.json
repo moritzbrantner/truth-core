@@ -8,5 +8,33 @@
     "DEF-HUME-INDUCTION-PRACTICE",
     "DEF-HUME-INDUCTION-PERSISTENCE"
   ],
-  "resolution": "Source denial of reasoning as origin/foundation is not identified with denial of every entitlement. Psychological custom and practical reliance remain possible when the reasoning-based foundation is unsettled. Persistence is conditional on stable nature, not metaphysical necessity. The strong entitlement-denying reconstruction and the critic normative bridge are explicit, unattributed additional assumptions."
+  "resolution": "Source denial of reasoning as origin/foundation is not identified with denial of every entitlement. Psychological custom and practical reliance remain possible when the reasoning-based foundation is unsettled. Persistence is conditional on stable nature, not metaphysical necessity. The strong entitlement-denying reconstruction and the critic normative bridge are explicit, unattributed additional assumptions.",
+  "term_label": "REASON_CUSTOM_PRACTICAL_RELIANCE_AND_EPISTEMIC",
+  "senses": [
+    {
+      "id": "805de0fe-9d8a-467d-a690-982908964f68",
+      "label": "REASON_CUSTOM_PRACTICAL_RELIANCE_AND_EPISTEMIC_1",
+      "definition_id": "DEF-HUME-INDUCTION-FOUNDATION"
+    },
+    {
+      "id": "e6c76460-8f88-409b-92e0-e586d853e961",
+      "label": "REASON_CUSTOM_PRACTICAL_RELIANCE_AND_EPISTEMIC_2",
+      "definition_id": "DEF-HUME-INDUCTION-CUSTOM"
+    },
+    {
+      "id": "df9a670d-551a-4a82-943d-653b3e704e3f",
+      "label": "REASON_CUSTOM_PRACTICAL_RELIANCE_AND_EPISTEMIC_3",
+      "definition_id": "DEF-HUME-INDUCTION-ENTITLEMENT"
+    },
+    {
+      "id": "9283a35e-9a23-4494-a64a-5273f33de21d",
+      "label": "REASON_CUSTOM_PRACTICAL_RELIANCE_AND_EPISTEMIC_4",
+      "definition_id": "DEF-HUME-INDUCTION-PRACTICE"
+    },
+    {
+      "id": "f3deaa52-5c12-4e49-8abc-5770d64f53d0",
+      "label": "REASON_CUSTOM_PRACTICAL_RELIANCE_AND_EPISTEMIC_5",
+      "definition_id": "DEF-HUME-INDUCTION-PERSISTENCE"
+    }
+  ]
 }

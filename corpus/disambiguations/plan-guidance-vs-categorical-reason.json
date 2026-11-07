@@ -6,5 +6,18 @@
     "DEF-CATEGORICAL-NORMATIVE-WARRANT-BOUNDARY"
   ],
   "resolution": "Conditional plan guidance here means preservation of ideal acceptance from an accepted factual atom together with an accepted factual-to-forbidden conditional. It is not a categorical normative reason, attitude-independent warrant, motivational force, or empirical capacity to persuade. FactualFreedom only states that satisfiable syntactically factual theories leave an all-permitting point; it does not entail that noncognitivists lack all reasons, that cognitivists require this semantics, or that factual and normative vocabulary cannot coincide under a defended naturalistic analysis.",
-  "note": "The provisional Carneades caption objection at 03:54\u201304:49 motivates asking which sense is intended. No source claim attributes this distinction or a specific formal semantics to the channel. The strongest expressivist reply may supply structured practical commitments; the strongest cognitivist reply may demand categorical warrant and semantic/psychological explanation. Both obligations remain open."
+  "note": "The provisional Carneades caption objection at 03:54\u201304:49 motivates asking which sense is intended. No source claim attributes this distinction or a specific formal semantics to the channel. The strongest expressivist reply may supply structured practical commitments; the strongest cognitivist reply may demand categorical warrant and semantic/psychological explanation. Both obligations remain open.",
+  "term_label": "REASON_FOR_ACTION",
+  "senses": [
+    {
+      "id": "480fe727-a08e-4cee-84c3-b623efc4c2cb",
+      "label": "REASON_FOR_ACTION_1",
+      "definition_id": "DEF-DESCRIPTIVE-PLAN-BOUNDARY"
+    },
+    {
+      "id": "0be9605a-c525-448d-9223-f95d95f12a46",
+      "label": "REASON_FOR_ACTION_2",
+      "definition_id": "DEF-CATEGORICAL-NORMATIVE-WARRANT-BOUNDARY"
+    }
+  ]
 }

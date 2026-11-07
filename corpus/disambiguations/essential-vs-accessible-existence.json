@@ -5,5 +5,18 @@
     "DEF-NECESSARY-EXISTENCE-RELATIVE-OWN-NATURE",
     "DEF-KANT-MODAL-NECESSITY"
   ],
-  "resolution": "The sourced essential-existence statement distinguishes the explanation by an existent’s own nature from explanation by other natures. NecessaryAt only quantifies existence over accessible worlds. Neither a proof of that modal predicate nor a constant truth distribution by itself establishes own-nature explanation. No source fidelity or formal equivalence is inferred between these meanings; essential facts and instantiated concrete bearers remain distinct."
+  "resolution": "The sourced essential-existence statement distinguishes the explanation by an existent’s own nature from explanation by other natures. NecessaryAt only quantifies existence over accessible worlds. Neither a proof of that modal predicate nor a constant truth distribution by itself establishes own-nature explanation. No source fidelity or formal equivalence is inferred between these meanings; essential facts and instantiated concrete bearers remain distinct.",
+  "term_label": "NECESSARY_EXISTENCE_BY_OWN_NATURE",
+  "senses": [
+    {
+      "id": "0b0098ee-4dba-41dd-a87a-c384fcd66f40",
+      "label": "NECESSARY_EXISTENCE_BY_OWN_NATURE_1",
+      "definition_id": "DEF-NECESSARY-EXISTENCE-RELATIVE-OWN-NATURE"
+    },
+    {
+      "id": "ad7f6100-3301-437a-9384-616a4fdcb8b7",
+      "label": "NECESSARY_EXISTENCE_BY_OWN_NATURE_2",
+      "definition_id": "DEF-KANT-MODAL-NECESSITY"
+    }
+  ]
 }

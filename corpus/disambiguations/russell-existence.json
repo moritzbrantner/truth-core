@@ -6,5 +6,23 @@
     "DEF-RUSSELL-DESCRIPTION",
     "DEF-RUSSELL-ACTUAL-DOMAIN"
   ],
-  "resolution": "V’s nonempty function, VI’s unique description and the modern ActualAt predicate have different types and truth conditions. The alternative individual predicate does not refute Russell inside his strict semantic restriction; quantifier truth is never silently read as a ground."
+  "resolution": "V’s nonempty function, VI’s unique description and the modern ActualAt predicate have different types and truth conditions. The alternative individual predicate does not refute Russell inside his strict semantic restriction; quantifier truth is never silently read as a ground.",
+  "term_label": "EXISTENCE",
+  "senses": [
+    {
+      "id": "d6ab1820-e5dd-4b15-9ed4-1c79766c63a6",
+      "label": "EXISTENCE_1",
+      "definition_id": "DEF-RUSSELL-QUANTIFIER-EXISTENCE"
+    },
+    {
+      "id": "aeb3d4f5-6d72-4e2f-a5f3-d2a1bd688a55",
+      "label": "EXISTENCE_2",
+      "definition_id": "DEF-RUSSELL-DESCRIPTION"
+    },
+    {
+      "id": "365c52b4-157a-473c-bcb9-511d6468feaf",
+      "label": "EXISTENCE_3",
+      "definition_id": "DEF-RUSSELL-ACTUAL-DOMAIN"
+    }
+  ]
 }

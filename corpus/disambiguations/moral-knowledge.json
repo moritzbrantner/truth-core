@@ -5,5 +5,18 @@
     "DEF-MORAL-KNOWLEDGE-REPRESENTATIONAL",
     "DEF-JUSTIFIED-MORAL-ATTITUDE-DEFLATIONARY-TRUE"
   ],
-  "resolution": "Two notions, not two analyses of one. DEF-MORAL-KNOWLEDGE-REPRESENTATIONAL is the epistemology entry's working sense of moral knowledge: it entails (roughly) justified true moral belief, a putative representation of moral reality (STMT-MORAL-KNOWLEDGE-ENTAILS-JUSTIFIED-TRUE-BELIEF); it is the entry's assumption, not a reported realist thesis. DEF-JUSTIFIED-MORAL-ATTITUDE-DEFLATIONARY-TRUE is a justified moral attitude that an expressivist may call 'true' deflationarily (STMT-EXPRESSIVIST-MORAL-JUSTIFICATION-WITHOUT-REPRESENTATION); the source does not call it knowledge. No step passes from one to the other: the incompatibility of representational knowledge with non-cognitivism does not show that an expressivist cannot have justified 'true' attitudes, and having such attitudes is not shown to be knowledge in either sense. The deviation map's Q-MORAL-EPISTEMOLOGY row is therefore a candidate deviation, conditional on two unsourced attributions: that realism's answer is the representational sense, and that quasi-realism adopts the expressivist option."
+  "resolution": "Two notions, not two analyses of one. DEF-MORAL-KNOWLEDGE-REPRESENTATIONAL is the epistemology entry's working sense of moral knowledge: it entails (roughly) justified true moral belief, a putative representation of moral reality (STMT-MORAL-KNOWLEDGE-ENTAILS-JUSTIFIED-TRUE-BELIEF); it is the entry's assumption, not a reported realist thesis. DEF-JUSTIFIED-MORAL-ATTITUDE-DEFLATIONARY-TRUE is a justified moral attitude that an expressivist may call 'true' deflationarily (STMT-EXPRESSIVIST-MORAL-JUSTIFICATION-WITHOUT-REPRESENTATION); the source does not call it knowledge. No step passes from one to the other: the incompatibility of representational knowledge with non-cognitivism does not show that an expressivist cannot have justified 'true' attitudes, and having such attitudes is not shown to be knowledge in either sense. The deviation map's Q-MORAL-EPISTEMOLOGY row is therefore a candidate deviation, conditional on two unsourced attributions: that realism's answer is the representational sense, and that quasi-realism adopts the expressivist option.",
+  "term_label": "MORAL_KNOWLEDGE_VS_JUSTIFIED_TRUE_MORAL",
+  "senses": [
+    {
+      "id": "36a9fe47-4dd0-45b6-b15e-656125c5f4ea",
+      "label": "MORAL_KNOWLEDGE_VS_JUSTIFIED_TRUE_MORAL_1",
+      "definition_id": "DEF-MORAL-KNOWLEDGE-REPRESENTATIONAL"
+    },
+    {
+      "id": "aaa97e03-8678-4f3a-b837-47c5bd34cf26",
+      "label": "MORAL_KNOWLEDGE_VS_JUSTIFIED_TRUE_MORAL_2",
+      "definition_id": "DEF-JUSTIFIED-MORAL-ATTITUDE-DEFLATIONARY-TRUE"
+    }
+  ]
 }

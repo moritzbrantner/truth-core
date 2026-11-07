@@ -5,5 +5,18 @@
     "DEF-ESSE-LIMITED",
     "DEF-HAS-LIMITING-PRINCIPLE"
   ],
-  "resolution": "EsseLimited (DEF-ESSE-LIMITED) is limitation of a thing's esse in formal perfection, the q.7 notion. HasLimitingPrinciple (DEF-HAS-LIMITING-PRINCIPLE) is the analyst's three-disjunct proxy of composition, esse other than essence, or a prior being. No result identifies them or derives one from the other; SUBSISTENT-INFINITY-FROM-RECEPTION uses only EsseLimited. Neither is quantitative finitude (DISAMB-INFINITY)."
+  "resolution": "EsseLimited (DEF-ESSE-LIMITED) is limitation of a thing's esse in formal perfection, the q.7 notion. HasLimitingPrinciple (DEF-HAS-LIMITING-PRINCIPLE) is the analyst's three-disjunct proxy of composition, esse other than essence, or a prior being. No result identifies them or derives one from the other; SUBSISTENT-INFINITY-FROM-RECEPTION uses only EsseLimited. Neither is quantitative finitude (DISAMB-INFINITY).",
+  "term_label": "LIMITATION_OF_ESSE_VERSUS_REPRESENTED_LIMITING",
+  "senses": [
+    {
+      "id": "c493c38f-c882-49aa-aa17-5250f1aef731",
+      "label": "LIMITATION_OF_ESSE_VERSUS_REPRESENTED_LIMITING_1",
+      "definition_id": "DEF-ESSE-LIMITED"
+    },
+    {
+      "id": "63d5a403-c0e6-410a-8340-0b74a5640930",
+      "label": "LIMITATION_OF_ESSE_VERSUS_REPRESENTED_LIMITING_2",
+      "definition_id": "DEF-HAS-LIMITING-PRINCIPLE"
+    }
+  ]
 }

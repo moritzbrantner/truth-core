@@ -6,5 +6,23 @@
     "DEF-OPTIMAL-CREATION-OUTPUTS",
     "DEF-STRICTLY-IMPROVABLE-CANDIDATES"
   ],
-  "resolution": "PartialOrder antisymmetry identifies equal greatest quality values; it does not identify the candidates mapped to them. Candidate uniqueness is a separate quantified hypothesis. Fixed feasible options are not simultaneously existent creations. Totality concerns positive selected effects and excludes the no-creation rival within this formal scope. Perfect manner of making is not identified with maximizing the quality of the product. Monadology \u00a7\u00a753\u201355 supplies a best-creation rationale, not the formal uniqueness/totality package; ST I q25a6 reply3 supports a better-other-universe reply, not universal strict improvability of every admissible option. See the materialized source readings in docs/notes/optimal-creation-choice.md."
+  "resolution": "PartialOrder antisymmetry identifies equal greatest quality values; it does not identify the candidates mapped to them. Candidate uniqueness is a separate quantified hypothesis. Fixed feasible options are not simultaneously existent creations. Totality concerns positive selected effects and excludes the no-creation rival within this formal scope. Perfect manner of making is not identified with maximizing the quality of the product. Monadology \u00a7\u00a753\u201355 supplies a best-creation rationale, not the formal uniqueness/totality package; ST I q25a6 reply3 supports a better-other-universe reply, not universal strict improvability of every admissible option. See the materialized source readings in docs/notes/optimal-creation-choice.md.",
+  "term_label": "BEST_OPTION_BEST_QUALITY_AND_PERFECT",
+  "senses": [
+    {
+      "id": "aeebe800-c7f2-47a4-b08e-d0a8fd7d0e6f",
+      "label": "BEST_OPTION_BEST_QUALITY_AND_PERFECT_1",
+      "definition_id": "DEF-OPTIMAL-CREATION-CANDIDATE"
+    },
+    {
+      "id": "0c62addf-ec81-4260-94c8-8e24ddc113a0",
+      "label": "BEST_OPTION_BEST_QUALITY_AND_PERFECT_2",
+      "definition_id": "DEF-OPTIMAL-CREATION-OUTPUTS"
+    },
+    {
+      "id": "e683893b-90c5-4706-bd2f-3815c1f17bda",
+      "label": "BEST_OPTION_BEST_QUALITY_AND_PERFECT_3",
+      "definition_id": "DEF-STRICTLY-IMPROVABLE-CANDIDATES"
+    }
+  ]
 }

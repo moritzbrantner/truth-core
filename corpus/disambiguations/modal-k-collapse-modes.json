@@ -7,5 +7,28 @@
     "DEF-HUME-TEST-CONTINGENCY",
     "DEF-MODAL-K-FORK"
   ],
-  "resolution": "Actual collapse is MC F D w; possible collapse is Dia F (MC F D) w; necessary collapse is Box F (MC F D) w. Their root and domain remain explicit. PossibilityActuality quantifies over admissible P and is not the definition of MC; their full-domain equivalence is proved. The fork witnesses compare all-predicate and fixed-language domains separately; ExtensionalCountermodels proves that both fork languages satisfy world extensionality, while duplicate-label language collapse does not. Contingency is independently witnessed by sink and branch at the common root, not inferred from collapse. No mathematical truth is transferred to metaphysical possibility, real-world contingency, Hume attribution or a cosmological conclusion."
+  "resolution": "Actual collapse is MC F D w; possible collapse is Dia F (MC F D) w; necessary collapse is Box F (MC F D) w. Their root and domain remain explicit. PossibilityActuality quantifies over admissible P and is not the definition of MC; their full-domain equivalence is proved. The fork witnesses compare all-predicate and fixed-language domains separately; ExtensionalCountermodels proves that both fork languages satisfy world extensionality, while duplicate-label language collapse does not. Contingency is independently witnessed by sink and branch at the common root, not inferred from collapse. No mathematical truth is transferred to metaphysical possibility, real-world contingency, Hume attribution or a cosmological conclusion.",
+  "term_label": "ACTUAL_POSSIBLE_AND_NECESSARY_COLLAPSE_VERSUS_POSSIBILITY",
+  "senses": [
+    {
+      "id": "875fec90-d2e9-41eb-a14c-09688b1f4497",
+      "label": "ACTUAL_POSSIBLE_AND_NECESSARY_COLLAPSE_VERSUS_POSSIBILITY_1",
+      "definition_id": "DEF-MODAL-FIXTURE-MC"
+    },
+    {
+      "id": "18ba9899-961d-4723-902b-487786d50e61",
+      "label": "ACTUAL_POSSIBLE_AND_NECESSARY_COLLAPSE_VERSUS_POSSIBILITY_2",
+      "definition_id": "DEF-MODAL-K-ACTUALITY"
+    },
+    {
+      "id": "275028c1-4b48-4662-971e-a03b13ddd97a",
+      "label": "ACTUAL_POSSIBLE_AND_NECESSARY_COLLAPSE_VERSUS_POSSIBILITY_3",
+      "definition_id": "DEF-HUME-TEST-CONTINGENCY"
+    },
+    {
+      "id": "bc5fb83b-46c5-4237-a967-dd4584e4a776",
+      "label": "ACTUAL_POSSIBLE_AND_NECESSARY_COLLAPSE_VERSUS_POSSIBILITY_4",
+      "definition_id": "DEF-MODAL-K-FORK"
+    }
+  ]
 }

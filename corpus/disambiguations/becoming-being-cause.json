@@ -6,5 +6,23 @@
     "DEF-EXTERNAL-CAUSE-OF-ESSE",
     "DEF-CAUSE-OF-PERFECTION"
   ],
-  "resolution": "Q.104 distinguishes causing an effect to come-to-be from directly causing its being as such. The existing CausesIn c x esse vocabulary says c causes x's being, but translating the source's direct conservation into that relation requires an explicit scoped interpretation. No identity with a builder's completed production, conservation as corruption-prevention, withdrawal power, or arbitrary modal power is assumed."
+  "resolution": "Q.104 distinguishes causing an effect to come-to-be from directly causing its being as such. The existing CausesIn c x esse vocabulary says c causes x's being, but translating the source's direct conservation into that relation requires an explicit scoped interpretation. No identity with a builder's completed production, conservation as corruption-prevention, withdrawal power, or arbitrary modal power is assumed.",
+  "term_label": "CAUSING_AN_EFFECT",
+  "senses": [
+    {
+      "id": "1aa9c5d4-e3d6-4817-a778-192a026e67a3",
+      "label": "CAUSING_AN_EFFECT_1",
+      "definition_id": "DEF-CAUSE-OF-BECOMING"
+    },
+    {
+      "id": "0d3718b1-217b-4a2b-b544-cdf27127db4b",
+      "label": "CAUSING_AN_EFFECT_2",
+      "definition_id": "DEF-EXTERNAL-CAUSE-OF-ESSE"
+    },
+    {
+      "id": "39f64183-5038-4348-ad9f-5b64674f65f8",
+      "label": "CAUSING_AN_EFFECT_3",
+      "definition_id": "DEF-CAUSE-OF-PERFECTION"
+    }
+  ]
 }

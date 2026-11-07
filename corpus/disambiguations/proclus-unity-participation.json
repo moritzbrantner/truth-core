@@ -5,5 +5,18 @@
     "DEF-PLATONIC-PARTICIPATION",
     "DEF-PROCLUS-UNITY-PARTICIPATION"
   ],
-  "resolution": "The shared relation field is not a claim of historical or philosophical identity. In the Platonic readings its second argument is a Form under their separate premises; in the bounded Proclus reading its second argument is the designated One and no FormOf commitment is made. Neither reading builds nonidentity or an efficient productive mechanism into the bare relation. Source and theory commitments must be supplied separately; no theorem transfers them here."
+  "resolution": "The shared relation field is not a claim of historical or philosophical identity. In the Platonic readings its second argument is a Form under their separate premises; in the bounded Proclus reading its second argument is the designated One and no FormOf commitment is made. Neither reading builds nonidentity or an efficient productive mechanism into the bare relation. Source and theory commitments must be supplied separately; no theorem transfers them here.",
+  "term_label": "PARTICIPATION",
+  "senses": [
+    {
+      "id": "4bdeb5fc-260b-42df-86af-3da72bc078f9",
+      "label": "PARTICIPATION_1",
+      "definition_id": "DEF-PLATONIC-PARTICIPATION"
+    },
+    {
+      "id": "0c708368-8911-4ecb-9508-2625d4a06d8e",
+      "label": "PARTICIPATION_3",
+      "definition_id": "DEF-PROCLUS-UNITY-PARTICIPATION"
+    }
+  ]
 }

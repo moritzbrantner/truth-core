@@ -6,5 +6,23 @@
     "DEF-DATA-RELATIVE-CORRECTION-CRITERION",
     "DEF-WARRANTED-CORRECTION-STANDARD"
   ],
-  "resolution": "TruthDirected requires selected worldviews to be true at a specified actual world; it does not give an agent an evidence-dependent way of selecting them. AdmitsCriterion requires only an extensional evidence classifier of a stipulated truth predicate and does not prescribe which worldview ought to be adopted. The warranted correction standard is stronger still: neither model supplies a usable, justified method. No inference from a norm to epistemic access, or from access to normative obligation, is silently made."
+  "resolution": "TruthDirected requires selected worldviews to be true at a specified actual world; it does not give an agent an evidence-dependent way of selecting them. AdmitsCriterion requires only an extensional evidence classifier of a stipulated truth predicate and does not prescribe which worldview ought to be adopted. The warranted correction standard is stronger still: neither model supplies a usable, justified method. No inference from a norm to epistemic access, or from access to normative obligation, is silently made.",
+  "term_label": "TRUTH_DIRECTED_NORM_VERSUS_ABILITY",
+  "senses": [
+    {
+      "id": "5f947bd9-9674-4f01-8253-b51f2ff951cb",
+      "label": "TRUTH_DIRECTED_NORM_VERSUS_ABILITY_1",
+      "definition_id": "DEF-TRUTH-DIRECTED-EPISTEMIC-BRIDGE"
+    },
+    {
+      "id": "1d0d7dd9-c67f-44f4-b84c-5a2d46413f3a",
+      "label": "TRUTH_DIRECTED_NORM_VERSUS_ABILITY_2",
+      "definition_id": "DEF-DATA-RELATIVE-CORRECTION-CRITERION"
+    },
+    {
+      "id": "6cc46b8b-a2fc-4f90-8e66-8109bf5fee6e",
+      "label": "TRUTH_DIRECTED_NORM_VERSUS_ABILITY_3",
+      "definition_id": "DEF-WARRANTED-CORRECTION-STANDARD"
+    }
+  ]
 }

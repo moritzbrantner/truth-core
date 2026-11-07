@@ -7,5 +7,28 @@
     "DEF-UNITED-ESSE-RECEPTION-INTERPRETATION-PROFILE",
     "DEF-RECIPIENT"
   ],
-  "resolution": "De ente c.3 joins two things in 'recipit aliquid ab alio': an origin from another (an external efficient cause of esse, DEF-Q3A4-EXTERNAL-ESSE-CAUSE-MODEL) and reception in a principle that stands as potency to the received act (DEF-ESSE-RECEIVED-IN). SUBSISTENT-INFINITY-FROM-RECEPTION uses only reception in a principle; no step infers reception from having an external cause or the converse. Reception of esse is also not reception of a form in matter: q.7 a.2 lets a subsistent created form be unreceived in matter while its esse is received. A third case is left open: a subsisting form communicating its esse to matter (ST I q.76 a.1 ad 5, 'esse in quo ipsa subsistit, communicat materiae corporali'; SCG II.80 n.13, the body as 'subiectum ipsum recipiens' of the united soul's esse). This record does not decide whether that communication is EsseReceivedIn. If it is, the body receives the soul's esse without being its essence, and STMT-ESSE-RECEIVED-IN-OWN-ESSENCE is attacked (REL-UNITED-SOUL-ESSE-RECEIVED-BY-BODY-ATTACKS-ESSE-RECEIVED-IN-OWN-ESSENCE). If it is not, the premise is unaffected, but only because of that distinction, which no source read here states. EsseReceptionDefinitionFork now encodes this open choice without adopting a source reading: actual union, communication, same-act identity, canonical-reception transfer, recipient distinction and eligibility are separate propositions. Checked structural forks retain both reception and nonreception, and a precise countertuple to the universal transfer. The same-sense branch yields exact conditional negation of the broad own-essence law. A weaker law restricted to esse=essence bearers suffices for the EXACT old infinity conclusion by importing the old proof on that subtype. A separate profile keeps a nonidentity reception counterexample and an identity candidate while that weaker law survives. No whole-human essence is substituted for soul essence. Recipient x (DEF-RECIPIENT: some act is received in x) is a further, distinct predicate: UNLIMITED-DETERMINATIONS-PURE-FROM-RECEPTION uses EsseReceivedIn only to reach own being and Recipient only after own being, and no step infers either from the other."
+  "resolution": "De ente c.3 joins two things in 'recipit aliquid ab alio': an origin from another (an external efficient cause of esse, DEF-Q3A4-EXTERNAL-ESSE-CAUSE-MODEL) and reception in a principle that stands as potency to the received act (DEF-ESSE-RECEIVED-IN). SUBSISTENT-INFINITY-FROM-RECEPTION uses only reception in a principle; no step infers reception from having an external cause or the converse. Reception of esse is also not reception of a form in matter: q.7 a.2 lets a subsistent created form be unreceived in matter while its esse is received. A third case is left open: a subsisting form communicating its esse to matter (ST I q.76 a.1 ad 5, 'esse in quo ipsa subsistit, communicat materiae corporali'; SCG II.80 n.13, the body as 'subiectum ipsum recipiens' of the united soul's esse). This record does not decide whether that communication is EsseReceivedIn. If it is, the body receives the soul's esse without being its essence, and STMT-ESSE-RECEIVED-IN-OWN-ESSENCE is attacked (REL-UNITED-SOUL-ESSE-RECEIVED-BY-BODY-ATTACKS-ESSE-RECEIVED-IN-OWN-ESSENCE). If it is not, the premise is unaffected, but only because of that distinction, which no source read here states. EsseReceptionDefinitionFork now encodes this open choice without adopting a source reading: actual union, communication, same-act identity, canonical-reception transfer, recipient distinction and eligibility are separate propositions. Checked structural forks retain both reception and nonreception, and a precise countertuple to the universal transfer. The same-sense branch yields exact conditional negation of the broad own-essence law. A weaker law restricted to esse=essence bearers suffices for the EXACT old infinity conclusion by importing the old proof on that subtype. A separate profile keeps a nonidentity reception counterexample and an identity candidate while that weaker law survives. No whole-human essence is substituted for soul essence. Recipient x (DEF-RECIPIENT: some act is received in x) is a further, distinct predicate: UNLIMITED-DETERMINATIONS-PURE-FROM-RECEPTION uses EsseReceivedIn only to reach own being and Recipient only after own being, and no step infers either from the other.",
+  "term_label": "RECEPTION_OF_ESSE_VERSUS_EXTERNAL_CAUSE",
+  "senses": [
+    {
+      "id": "d2775c6d-664f-42b5-b583-a3580bc8daf7",
+      "label": "RECEPTION_OF_ESSE_VERSUS_EXTERNAL_CAUSE_1",
+      "definition_id": "DEF-ESSE-RECEIVED-IN"
+    },
+    {
+      "id": "5cc38752-88e4-4b26-a09b-c065e6ee745c",
+      "label": "RECEPTION_OF_ESSE_VERSUS_EXTERNAL_CAUSE_2",
+      "definition_id": "DEF-Q3A4-EXTERNAL-ESSE-CAUSE-MODEL"
+    },
+    {
+      "id": "dc9f0fbf-65d2-4448-be7e-0dc5a30be896",
+      "label": "RECEPTION_OF_ESSE_VERSUS_EXTERNAL_CAUSE_3",
+      "definition_id": "DEF-UNITED-ESSE-RECEPTION-INTERPRETATION-PROFILE"
+    },
+    {
+      "id": "7b7327fe-55b8-4fc4-8637-a9008a0f28f2",
+      "label": "RECEPTION_OF_ESSE_VERSUS_EXTERNAL_CAUSE_4",
+      "definition_id": "DEF-RECIPIENT"
+    }
+  ]
 }

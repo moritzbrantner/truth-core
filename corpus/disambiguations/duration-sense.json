@@ -8,5 +8,33 @@
     "DEF-AEVUM",
     "DEF-ETERNITY-CALIBRATION-PROFILE"
   ],
-  "resolution": "Proper eternity is not mere endless time or internally stable aevum. Q.10 a.3 permits extended and participated uses; a.4 preserves succession even for endless time; a.5 admits adjunct change in aevum despite its internal tota-simul character. These source distinctions do not redefine primitive Eternal or import an Aristotelian everlasting sense into it. EternityDefinitionFork now exposes operational Boethian versus endless-life calibration of the independent primitive Eternal, explicit named coverage/Other and the weaker one-way recognition actually used to compose the existing typed theorem into ImmutableIsEternalReading. That root statement quantifies all beings, not only God. The three existing typed inputs remain visible, including the open pure-act-lives and boundary-requires-subject-potency premises. Controls separate succession, recognition and calibration; the partial Boethian perfect-possession omission is retained."
+  "resolution": "Proper eternity is not mere endless time or internally stable aevum. Q.10 a.3 permits extended and participated uses; a.4 preserves succession even for endless time; a.5 admits adjunct change in aevum despite its internal tota-simul character. These source distinctions do not redefine primitive Eternal or import an Aristotelian everlasting sense into it. EternityDefinitionFork now exposes operational Boethian versus endless-life calibration of the independent primitive Eternal, explicit named coverage/Other and the weaker one-way recognition actually used to compose the existing typed theorem into ImmutableIsEternalReading. That root statement quantifies all beings, not only God. The three existing typed inputs remain visible, including the open pure-act-lives and boundary-requires-subject-potency premises. Controls separate succession, recognition and calibration; the partial Boethian perfect-possession omission is retained.",
+  "term_label": "ETERNITY_AND_STABLE_DURATION",
+  "senses": [
+    {
+      "id": "d1e3190f-07dc-4a66-b638-38dde2cc2de2",
+      "label": "ETERNITY_AND_STABLE_DURATION_1",
+      "definition_id": "DEF-ETERNAL"
+    },
+    {
+      "id": "50d821ea-9270-43b2-b217-3b7605d9c918",
+      "label": "ETERNITY_AND_STABLE_DURATION_2",
+      "definition_id": "DEF-PARTICIPATED-ETERNITY"
+    },
+    {
+      "id": "a013f45a-1f6f-450c-8c77-9459f5a6da6b",
+      "label": "ETERNITY_AND_STABLE_DURATION_3",
+      "definition_id": "DEF-TEMPORAL-SUCCESSION-Q10"
+    },
+    {
+      "id": "2bb6357f-12a6-4562-ab28-946c4ff5f780",
+      "label": "ETERNITY_AND_STABLE_DURATION_4",
+      "definition_id": "DEF-AEVUM"
+    },
+    {
+      "id": "9403826d-be0d-484a-95f1-047132f8da24",
+      "label": "ETERNITY_AND_STABLE_DURATION_5",
+      "definition_id": "DEF-ETERNITY-CALIBRATION-PROFILE"
+    }
+  ]
 }
