@@ -91,6 +91,11 @@ pub struct FrontierInputs {
     pub premise_dependent_arguments: HashMap<String, usize>,
     /// `(refuting argument, refuted statement)` -> counted, last relation by ID wins.
     pub counted_refutations: HashMap<(String, String), bool>,
+    /// The least fixpoint's established and refuted statements.
+    pub established: HashSet<String>,
+    pub refuted: HashSet<String>,
+    /// Arguments backing a strength registration, set aside before closure.
+    pub registration_arguments: HashSet<String>,
 }
 
 /// Records by kind in file order, as Python `load_dir` lists them.
@@ -467,6 +472,9 @@ pub fn frontier_inputs(
         statement_depths,
         premise_dependent_arguments,
         counted_refutations,
+        established: established.iter().map(|id| (*id).to_owned()).collect(),
+        refuted: refuted.iter().map(|id| (*id).to_owned()).collect(),
+        registration_arguments: registration.iter().map(|id| (*id).to_owned()).collect(),
     }
 }
 
