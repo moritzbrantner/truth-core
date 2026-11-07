@@ -1,0 +1,9 @@
+{
+  "id": "INF-PERFECTION-PREEXISTENCE-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-PERFECTION-PREEXISTENCE-CONTROLS",
+  "rule": "Explicit finite interpretations",
+  "meaning": "Finite interpretations with two beings and two respects (esse and one further perfection); excluded middle is not asserted. Omitting in turn the cause-of-being transfer, the cause-of-quality comparison, or 'more such has the perfection', with the other two holding, a cause of the being of a thing lacks that thing's further perfection. All three hold together with preexistence in a positive model with a nonvacuous cause.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

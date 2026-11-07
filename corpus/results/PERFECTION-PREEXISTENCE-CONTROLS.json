@@ -1,0 +1,10 @@
+{
+  "id": "PERFECTION-PREEXISTENCE-CONTROLS",
+  "argument_id": "PERFECTION-PREEXISTENCE-CONTROLS",
+  "challenge_module": "TruthCore.Results.Causality.PerfectionPreexistence.Challenge",
+  "solution_module": "TruthCore.Results.Causality.PerfectionPreexistence.Solution",
+  "theorem": "TruthCore.Results.Causality.PerfectionPreexistence.controls",
+  "comparator_config": "results/PERFECTION-PREEXISTENCE-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Finite interpretations with two beings and two respects (esse and one further perfection); excluded middle is not asserted. Omitting in turn the cause-of-being transfer, the cause-of-quality comparison, or 'more such has the perfection', with the other two holding, a cause of the being of a thing lacks that thing's further perfection. All three hold together with preexistence in a positive model with a nonvacuous cause."
+}
