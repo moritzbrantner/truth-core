@@ -1,0 +1,9 @@
+{
+  "id": "REL-NO-MOVED-WITHOUT-POTENCY-FROM-ANALYSIS-REFUTES",
+  "subject_kind": "argument",
+  "subject_id": "NO-MOVED-WITHOUT-POTENCY-FROM-ANALYSIS",
+  "predicate": "refutes",
+  "object_kind": "statement",
+  "object_id": "STMT-MOVED-WITHOUT-POTENCY",
+  "note": "Checked conditional contradiction on the same predicates. Its premise, an Aristotelian analysis, is open, so it does not count for closure; it records that the rival must reject that analysis."
+}

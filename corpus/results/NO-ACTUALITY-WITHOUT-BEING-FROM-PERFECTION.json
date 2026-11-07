@@ -1,0 +1,10 @@
+{
+  "id": "NO-ACTUALITY-WITHOUT-BEING-FROM-PERFECTION",
+  "argument_id": "NO-ACTUALITY-WITHOUT-BEING-FROM-PERFECTION",
+  "challenge_module": "TruthCore.Results.Causality.MeinongianActuality.Challenge",
+  "solution_module": "TruthCore.Results.Causality.MeinongianActuality.Solution",
+  "theorem": "TruthCore.Results.Causality.MeinongianActuality.noActualityWithoutBeing",
+  "comparator_config": "results/NO-ACTUALITY-WITHOUT-BEING-FROM-PERFECTION/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional refutation of the Meinongian rival STMT-ACTUALITY-WITHOUT-BEING: whatever is in act in a respect is perfect in it (q.5 a.1, STMT-PERFECT-INSOFAR-AS-IN-ACT), and whatever is perfect in some respect has being (q.4 a.2, STMT-PERFECT-ONLY-INSOFAR-AS-BEING), so nothing is in act without being. A Meinongian must therefore deny one of the two: that being golden in act is being perfect in that respect, or that being perfect requires being. Both premises stay open, so the refutation does not count for closure until they are established."
+}

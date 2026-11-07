@@ -1,0 +1,10 @@
+{
+  "id": "MEINONGIAN-ACTUALITY-CONTROLS",
+  "argument_id": "MEINONGIAN-ACTUALITY-CONTROLS",
+  "challenge_module": "TruthCore.Results.Causality.MeinongianActuality.Challenge",
+  "solution_module": "TruthCore.Results.Causality.MeinongianActuality.Solution",
+  "theorem": "TruthCore.Results.Causality.MeinongianActuality.controls",
+  "comparator_config": "results/MEINONGIAN-ACTUALITY-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "The golden mountain model: one being in act in a further respect but not in being. With q.5 a.1 and without q.4 a.2, or with q.4 a.2 and without q.5 a.1, the Meinongian rival holds; each refutation premise is needed."
+}
