@@ -216,6 +216,7 @@ def challenge_text(solution: str, theorems: list[str]) -> str:
         else:
             body.append(line)
     out, i, kept = [], 0, set()
+    namespaces: list[str] = []
     while i < len(body):
         line = body[i]
         if line.startswith("/-!"):
@@ -253,7 +254,11 @@ def challenge_text(solution: str, theorems: list[str]) -> str:
                     break
             i = j
             continue
-        if line.startswith(("section", "end ", "variable")) and not line.startswith("end TruthCore"):
+        if line.startswith("namespace "):
+            namespaces.append(line.split()[1])
+        elif line.startswith("end ") and namespaces and line.split()[1] == namespaces[-1]:
+            namespaces.pop()
+        elif line.startswith(("section", "end ", "variable")):
             i += 1
             continue
         out.append(line)
