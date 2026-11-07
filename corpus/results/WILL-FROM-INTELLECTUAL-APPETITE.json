@@ -1,0 +1,10 @@
+{
+  "id": "WILL-FROM-INTELLECTUAL-APPETITE",
+  "argument_id": "WILL-FROM-INTELLECTUAL-APPETITE",
+  "challenge_module": "TruthCore.Results.Causality.Round5Worklist.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round5Worklist.Solution",
+  "theorem": "TruthCore.Results.Causality.Round5Worklist.willFromIntellectualAppetite",
+  "comparator_config": "results/WILL-FROM-INTELLECTUAL-APPETITE/comparator.json",
+  "status": "solution-present",
+  "description": "Whatever has an inclination following an intelligible form has will, through an appetitive principle following intellect as the middle term: such an inclination belongs to an appetitive principle that follows intellectual apprehension (OPEN q.80 a.1-2 reading), and whatever has such a principle has will (OPEN q.80 a.2 / q.82 reading). It splits the near-definitional recognition step into the appetite classification and the identification of intellectual appetite with will."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "STMT-BEING-IN-ACT-HAS-OPERATION",
+  "paraphrase": "OPEN analyst premise (operation follows being): whatever is in act in its being has some operation, transient or immanent. A wholly inert actual being falsifies it.",
+  "lean_declaration": "TruthCore.Causality.Round5Worklist.BeingInActHasOperation",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-ESSE",
+    "DEF-OPERATION-OF"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT"
+  ]
+}

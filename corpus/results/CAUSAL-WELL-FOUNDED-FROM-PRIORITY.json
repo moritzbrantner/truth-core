@@ -1,0 +1,10 @@
+{
+  "id": "CAUSAL-WELL-FOUNDED-FROM-PRIORITY",
+  "argument_id": "CAUSAL-WELL-FOUNDED-FROM-PRIORITY",
+  "challenge_module": "TruthCore.Results.Causality.Round5Worklist.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round5Worklist.Solution",
+  "theorem": "TruthCore.Results.Causality.Round5Worklist.wellFoundedFromPriority",
+  "comparator_config": "results/CAUSAL-WELL-FOUNDED-FROM-PRIORITY/comparator.json",
+  "status": "solution-present",
+  "description": "The causal predecessor relation is well-founded, from the OPEN edge bridge, the existing statement that efficient causes are simply prior to their effects, and the OPEN and contested premise that simple priority is well-founded: the causal relation is contained in simple priority, and a subrelation of a well-founded relation is well-founded. The contested regress question is relocated to the priority order, not answered."
+}

@@ -1,0 +1,34 @@
+{
+  "id": "ATTEMPT-ROUND5-WORKLIST",
+  "statement_ids": [
+    "STMT-CAUSAL-HISTORY-HAS-NO-LOOPS",
+    "STMT-CAUSAL-WELL-FOUNDED-PREDECESSORS",
+    "STMT-CAUSAL-FINITE-IMMEDIATE-PREDECESSORS",
+    "STMT-SIMPLY-PRIOR-IS-CAUSE-OF-BEING",
+    "STMT-PURE-ACT-OPERATES",
+    "STMT-SELF-OPERATING-UNMOVED-LIVES",
+    "STMT-IMMUTABLE-HAS-NO-LIFE-BOUNDARY",
+    "STMT-SUCCESSION-IS-BEING-MOVED",
+    "STMT-EVERY-FORM-HAS-INCLINATION",
+    "STMT-INTELLECT-HAS-INTELLIGIBLE-FORM",
+    "STMT-INTELLIGIBLE-INCLINATION-IS-WILL"
+  ],
+  "date": "2026-11-07",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Batch certification of three exploration maps chosen from the derivation worklist (corpus.py thickness --queue) outside the clusters of rounds 2-4 (explorations/round5-causal-history-priority.toml, round5-life-operation-change.toml, round5-will-intelligible-form.toml): eleven derivations in TruthCore/Results/Causality/Round5Worklist, ten zero-axiom and one (finite predecessors) using Mathlib finiteness. No causal loops follows by induction on paths from an OPEN bridge (history edges are efficient causings) and three existing secunda via statements (efficient cause prior, priority transitive, nothing prior to itself); well-founded predecessors from the bridge, efficient-cause priority and an OPEN well-founded priority (Subrelation.wf), which relocates the regress question rather than answering it; finitely many immediate predecessors from the stated Physics II.3 four-mode classification and an OPEN finiteness per mode. Simply prior is cause of being composes the existing dependence reading of priority with an OPEN dependence-is-causation premise (the grounding-is-not-causation rival falls on it). Pure act operates follows from an act/potency division in being, operation following being in act, and a self-or-moved dichotomy, the moved case excluded by q.2 a.3; self-operating unmoved lives through a timed self-operation (the unmoved clause is idle); no life boundary for a pure act through a typed change relation (ChangesBetween) and q.9 a.1 read for potency in the subject; succession is motion through the same change relation and Physics V.1 (change of a subject present at both ends). The three q.19 a.1 premises follow through operation and end, actual understanding, and an appetitive principle following intellect. Controls: 28 hand-written omission models (Unit, Bool, Fin 2; the natural numbers for the two finiteness omissions) and one joint witness per map. Rejected edges: ATTEMPT-ROUND5-WORKLIST-REJECTED-EDGES.",
+  "evidence": [
+    "CAUSAL-HISTORY-NO-LOOPS-FROM-PRIORITY",
+    "CAUSAL-WELL-FOUNDED-FROM-PRIORITY",
+    "CAUSAL-FINITE-PREDECESSORS-FROM-MODES",
+    "SIMPLY-PRIOR-CAUSES-BEING-FROM-DEPENDENCE",
+    "PURE-ACT-OPERATES-FROM-BEING-IN-ACT",
+    "SELF-OPERATING-LIVES-FROM-PRESENT-OPERATION",
+    "NO-LIFE-BOUNDARY-FROM-CHANGE",
+    "SUCCESSION-IS-MOTION-FROM-CHANGE",
+    "EVERY-FORM-INCLINED-FROM-FINALITY",
+    "INTELLECT-FORM-FROM-UNDERSTANDING",
+    "WILL-FROM-INTELLECTUAL-APPETITE",
+    "ROUND5-WORKLIST-CONTROLS"
+  ]
+}

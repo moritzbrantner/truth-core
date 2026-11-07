@@ -1,0 +1,24 @@
+{
+  "id": "EVERY-FORM-INCLINED-FROM-FINALITY",
+  "premise_statement_ids": [
+    "STMT-FORM-IS-PRINCIPLE-OF-OPERATION",
+    "STMT-EVERY-OPERATION-HAS-AN-END",
+    "STMT-END-DIRECTED-OPERATION-IS-INCLINATION"
+  ],
+  "conclusion_statement_id": "STMT-EVERY-FORM-HAS-INCLINATION",
+  "inference_ids": [
+    "INF-EVERY-FORM-INCLINED-FROM-FINALITY"
+  ],
+  "meaning": "Some inclination follows every form a thing has, through operation and end as middle terms: each form is the principle of some operation (OPEN), every such operation is directed to an end (OPEN finality principle), and operating through a form toward an end is an inclination following the form (OPEN recognition). The last premise needs both witnesses supplied by the first two.",
+  "definition_ids": [
+    "DEF-COGNITION-RELATIVE-APPETITE",
+    "DEF-INTENTIO-AS-TENDING",
+    "DEF-NATURAL-APPETITE-FORM-INCLINATION",
+    "DEF-OPERATION-THROUGH-FORM-FOR-END"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-APPETITE-POWER-AND-EXERCISE",
+    "DISAMB-CREATURE-PASSIVE-APPETITE-AND-DIVINE-WILL",
+    "DISAMB-NATURAL-AND-COGNITIVE-APPETITE"
+  ]
+}
