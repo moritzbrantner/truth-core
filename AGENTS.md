@@ -235,6 +235,8 @@ See `docs/corpus-model.md` and `docs/source-evidence.md` for the entity and veri
 
 For a group of related open propositions, follow [the configuration elimination loop](docs/configuration-elimination-loop.md): reuse certified results and finite models, seek minimal verified contradictory premise sets, compose proven implications, persist attempts and countermodels, and compare exact root-frontier premises before/after. Configuration labels are relative to their explicit formal semantics; absence of a model or proof is unresolved, not an impossibility claim. This supplements the source campaign loop below and does not change the frontier closure rules (#477).
 
+Find omission countermodels with `python3 scripts/countermodel.py THEOREM [--omit HYP] [--all] [--size K]` instead of writing them by hand. It proposes finite models and has Lean check a `decide` certificate; "unresolved" is not proof that a premise is needed ([countermodels](docs/countermodels.md)).
+
 ## Argument-first investigation
 
 Frontier-led work is **constraint discovery and elimination within an end-to-end case**. Start from related existing commitments under one explicit semantic profile. Compose checked implications, seek incompatible bundles and substantive exhaustive forks, and witness surviving branches before opening another premise investigation. Recursive premise defense is a targeted fallback when it can discriminate surviving branches, not the default engine. Keep the strongest rivals and the original question visible; recompose every finding into that case.
