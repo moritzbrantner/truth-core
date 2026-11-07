@@ -1,0 +1,11 @@
+{
+  "id": "INF-Q14-RECEPTION-DEFINITION-FORK",
+  "input_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "output_statement_id": "STMT-Q14-CALIBRATION-FORK",
+  "rule": "constructive-proof",
+  "meaning": "Logical transcription of finite case analysis on three typed calibration propositions with explicit excluded middle. It proves neither named coverage nor philosophical completeness; controls separately witness overlap and remainder.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

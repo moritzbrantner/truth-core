@@ -1,0 +1,10 @@
+{
+  "id": "Q14-WITHOUT-MATTER-CAPACITY-STRENGTHENS-FOREIGN-CAPACITY",
+  "argument_id": "Q14-WITHOUT-MATTER-CAPACITY-STRENGTHENS-FOREIGN-CAPACITY",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.Strength.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.Strength.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.foreignCapacityOfWithoutMatter",
+  "comparator_config": "results/Q14-WITHOUT-MATTER-CAPACITY-STRENGTHENS-FOREIGN-CAPACITY/comparator.json",
+  "status": "solution-present",
+  "description": "A without-matter foreign-form witness is also a witness of unspecified-mode foreign-form aptitude. The material-only control demonstrates failure of the reverse; the scoped coextension calibrations are NOT thereby ordered."
+}

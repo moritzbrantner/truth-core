@@ -1,0 +1,10 @@
+{
+  "id": "Q14-RECEPTION-FORK-CONTROLS",
+  "argument_id": "Q14-RECEPTION-FORK-CONTROLS",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.Controls.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.Controls.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.controls",
+  "comparator_config": "results/Q14-RECEPTION-FORK-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Exact typed omission/control certificate. Reuses all three old FormReception omission theorems; NEW profiles explicitly export the advertised capacities/calibrations/events/nonempty remainder and full positive assembly backgrounds. Separate interpretations, not one joint worldview or actual metaphysical possibility."
+}

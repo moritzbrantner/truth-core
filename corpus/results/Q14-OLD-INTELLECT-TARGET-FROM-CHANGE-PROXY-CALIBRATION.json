@@ -1,0 +1,11 @@
+{
+  "id": "Q14-OLD-INTELLECT-TARGET-FROM-CHANGE-PROXY-CALIBRATION",
+  "argument_id": "Q14-OLD-INTELLECT-TARGET-FROM-CHANGE-PROXY-CALIBRATION",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.FromChangeProxy.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.FromChangeProxy.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.oldTargetOfChangeProxy",
+  "comparator_config": "results/Q14-OLD-INTELLECT-TARGET-FROM-CHANGE-PROXY-CALIBRATION/comparator.json",
+  "status": "solution-present",
+  "description": "Transcription/assembly to the EXACT old target under scope coverage, independent actual state-change-PROXY availability and its OPEN intellect calibration. This branch explicitly pays for an occurring change, unlike aptitude branches. No passive divine acquisition or full causal theory is asserted.",
+  "transcription": "assembly"
+}

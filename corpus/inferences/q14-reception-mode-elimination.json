@@ -1,0 +1,12 @@
+{
+  "id": "INF-Q14-RECEPTION-MODE-ELIMINATION",
+  "input_statement_ids": [
+    "STMT-Q14-FOREIGN-FORM-CAPACITY-AT",
+    "STMT-Q14-NO-MATERIAL-RECEPTION-AT"
+  ],
+  "output_statement_id": "STMT-Q14-WITHOUT-MATTER-CAPACITY-AT",
+  "rule": "constructive-proof",
+  "meaning": "Reuses the exact existing FormReception.availableFormWithoutMatter case analysis. Positive aptitude plus exclusion of material mode yields without-matter aptitude at the SAME receiver; no intellect, actual event or old structural bridge is inferred.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
