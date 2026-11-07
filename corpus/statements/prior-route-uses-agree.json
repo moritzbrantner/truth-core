@@ -1,0 +1,11 @@
+{
+  "id": "STMT-PRIOR-ROUTE-USES-AGREE",
+  "paraphrase": "Every use of 'prior' on the route stands for one and the same relation: the route does not equivocate on 'prior'.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.PriorRouteUsesAgree",
+  "definition_ids": [
+    "DEF-ROUTE-SENSE-SELECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"
+  ]
+}

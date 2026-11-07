@@ -1,0 +1,13 @@
+{
+  "id": "STMT-NECESSARY-SENSE-FORK-CONTROLS",
+  "paraphrase": "Formal controls: (1) on any frame, box-existence gives actual existence under KT, necessary necessity under S4, E -> box-diamond-E under KTB, and possibly-necessary -> necessary under S5 (Kripke axiom theorems); (2) on a reflexive non-transitive chain box-existence holds and necessary necessity fails; on a non-reflexive step frame possibilist box-existence holds while the individual is absent at w; on a universal two-world frame de dicto 'necessarily something exists' holds while no individual is de re box-existent; (3) a box-existent individual that cannot not-be is not necessary per se when another causes its necessity; (4) a one-point model in which every sense's node and side condition hold and exactly one sense is intended. No model is claimed to describe reality.",
+  "lean_declaration": "TruthCore.Causality.NecessarySenseFork.Control.Controls",
+  "definition_ids": [
+    "DEF-NECESSARY-IN-SENSE",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-NECESSARY-PER-SE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY"
+  ]
+}

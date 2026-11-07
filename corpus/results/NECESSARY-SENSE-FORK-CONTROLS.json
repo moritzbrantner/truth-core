@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-SENSE-FORK-CONTROLS",
+  "argument_id": "NECESSARY-SENSE-FORK-CONTROLS",
+  "challenge_module": "TruthCore.Results.Causality.NecessarySenseFork.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessarySenseFork.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessarySenseFork.controls",
+  "comparator_config": "results/NECESSARY-SENSE-FORK-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Frame laws via axiomT_valid, axiom4_valid, axiomB_valid and the Euclidean condition; separation countermodels for T vs S4, actualist vs possibilist and de dicto vs de re; a per se separation; and the batch's nonvacuity model. Formal only; no model describes reality."
+}

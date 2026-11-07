@@ -1,0 +1,26 @@
+{
+  "id": "CAUSAL-CONCRETENESS-COMMITMENT-STRENGTHENS-POWER",
+  "premise_statement_ids": [
+    "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS"
+  ],
+  "conclusion_statement_id": "STMT-CAUSAL-POWER-REQUIRES-CONCRETENESS-AT",
+  "inference_ids": [
+    "INF-CAUSAL-CONCRETENESS-COMMITMENT-STRENGTHENS-POWER"
+  ],
+  "meaning": "Strength registration (not modal): the first conjunct of the common-ground commitment OwnerCommitmentAt is PowerRequiresConcreteAt, the capacity half used by the alternative Cogito population step.",
+  "definition_ids": [
+    "DEF-ABSTRACT-NO-ESSE-IN-RE",
+    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE",
+    "DEF-CONCRETE-ABSTRACT-ANCHORS",
+    "DEF-CONCRETE-ABSTRACT-CLASSIFICATION",
+    "DEF-CONCRETE-ABSTRACT-EXHAUSTIVE",
+    "DEF-CONCRETE-CAUSAL-CRITERION",
+    "DEF-CONCRETE-ESSE-IN-RE",
+    "DEF-POWER-CAPACITY-READING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE",
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-NECESSARY"
+  ]
+}

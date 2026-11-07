@@ -54,6 +54,12 @@
         "66a09f6e-13e1-40a0-b18b-9fb2d222d63f"
       ]
     },
+    "ACT-SIMPLY-PRIOR-FROM-SUBSTANCE-PRIORITY": {
+      "PRIOR": [
+        "4fecf28a-746e-4d8b-bd42-6a8722507293",
+        "66a09f6e-13e1-40a0-b18b-9fb2d222d63f"
+      ]
+    },
     "ACTUAL-COMMON-ROOT": {
       "INTRINSIC_PRODUCTIVE_CONTRIBUTION_VERSUS_SOURCE_BACKED": [
         "449eb783-1b3c-4f82-b11f-1c8114a005b9",
@@ -483,6 +489,12 @@
       "POWER_IMPLIES_CONCRETE_VERSUS_A_CAPACITY": [
         "9b211722-eea4-4c93-811f-8dd5075fefba",
         "e8024d6d-5fe3-45d2-97cc-a56410adf39f"
+      ]
+    },
+    "ALL-TIME-NO-SELF-STRENGTHENS-CURRENT-NO-SELF": {
+      "UNITING_CAUSE_VERSUS_EFFICIENT_CAUSE": [
+        "018d4f0a-2276-42a7-b20d-b0fe6c9c3714",
+        "b0629638-0fe1-4da3-af9f-bc28446e53eb"
       ]
     },
     "ANTIREALIST-ORDER-SUSTAINS-ROBUST-TRUTH-DEVIATION": {
@@ -1865,6 +1877,20 @@
         "e8024d6d-5fe3-45d2-97cc-a56410adf39f"
       ]
     },
+    "CAUSAL-CONCRETENESS-COMMITMENT-STRENGTHENS-CAUSERS": {
+      "CONCRETE_AND_ABSTRACT": [
+        "b1175e6c-0519-4c19-98ae-b053616ec750",
+        "bdf2c710-a092-4943-8732-c23f0b8d1fae",
+        "c0fdbd00-6e0b-44e5-8a53-faa55a21a032"
+      ]
+    },
+    "CAUSAL-CONCRETENESS-COMMITMENT-STRENGTHENS-POWER": {
+      "CONCRETE_AND_ABSTRACT": [
+        "b1175e6c-0519-4c19-98ae-b053616ec750",
+        "bdf2c710-a092-4943-8732-c23f0b8d1fae",
+        "c0fdbd00-6e0b-44e5-8a53-faa55a21a032"
+      ]
+    },
     "CAUSAL-CONCRETENESS-FROM-EXPLICIT-COVERAGE-AND-ELIMINATION": {
       "CONCRETE_AND_ABSTRACT": [
         "b1175e6c-0519-4c19-98ae-b053616ec750",
@@ -1948,6 +1974,28 @@
       ]
     },
     "CAUSE-PERFECTION-NOT-RECEIVED-FROM-DEPENDENCE": {
+      "UNITING_CAUSE_VERSUS_EFFICIENT_CAUSE": [
+        "018d4f0a-2276-42a7-b20d-b0fe6c9c3714",
+        "2478812d-d2cd-4182-8ad0-d27a4bdb9ff2"
+      ]
+    },
+    "CAUSE-ROUTE-USES-AGREE-FROM-UNIQUE-SENSE": {
+      "CAUSE": [
+        "572f19f2-8833-4133-8bea-b8b5fa4ac24f",
+        "b0be8b9d-7959-4e5d-b488-4983b8dee9c9",
+        "bdc6001c-9699-4126-9e35-6fbd1da78100"
+      ],
+      "UNITING_CAUSE_VERSUS_EFFICIENT_CAUSE": [
+        "018d4f0a-2276-42a7-b20d-b0fe6c9c3714",
+        "2478812d-d2cd-4182-8ad0-d27a4bdb9ff2"
+      ]
+    },
+    "CAUSE-SENSE-FORK-NO-SELF-EFFICIENT-CAUSE": {
+      "CAUSE": [
+        "572f19f2-8833-4133-8bea-b8b5fa4ac24f",
+        "b0be8b9d-7959-4e5d-b488-4983b8dee9c9",
+        "bdc6001c-9699-4126-9e35-6fbd1da78100"
+      ],
       "UNITING_CAUSE_VERSUS_EFFICIENT_CAUSE": [
         "018d4f0a-2276-42a7-b20d-b0fe6c9c3714",
         "2478812d-d2cd-4182-8ad0-d27a4bdb9ff2"
@@ -6197,6 +6245,147 @@
         "57356a7a-ed0a-478f-abfc-2d47dd631135"
       ]
     },
+    "NECESSARY-ROOT-ACTUALIST-K": {
+      "GOD": [
+        "295c9096-50b8-4ccd-960e-f833730a0774",
+        "52c2ebac-0a71-4dd4-8a21-804c1dd0847a"
+      ],
+      "INTRINSIC_PRODUCTIVE_CONTRIBUTION_VERSUS_SOURCE_BACKED": [
+        "449eb783-1b3c-4f82-b11f-1c8114a005b9",
+        "cbbac0e8-36c9-41a2-8367-e94080d28d68"
+      ],
+      "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST": [
+        "9bea9a43-3a87-4d62-86de-e5873aea62f8",
+        "a833bcdb-8e99-4079-8cb6-fc1295eb690f"
+      ],
+      "NECESSARY": [
+        "7af298fb-a2c4-4239-919b-7685f2e1f67a",
+        "8c881fa6-2b9f-44be-a32a-c8ef29c13643"
+      ],
+      "NECESSITY_OF_ONE_INDIVIDUAL_VERSUS_NECESSARY": [
+        "43d88672-a700-41d6-b11a-931bf8f468ae",
+        "aa98bacb-a677-44db-846c-b1c6572a2519"
+      ],
+      "NONNECESSARY_VERSUS_CONTINGENT_ROOT": [
+        "9f9108e2-3cc3-45dd-be1d-d8fdaaced708",
+        "cf6a8bb9-2a70-4e90-86bd-06f69106da2f"
+      ],
+      "POTENCY_CAPACITY_AND_POWER_ACROSS_ADOPTED": [
+        "5252f7f4-95a7-42f3-a420-23770702a0f4",
+        "d0b17a2e-febf-45e8-9b9e-11a75b2ccbc6"
+      ],
+      "WELL_FOUNDEDNESS_AND_ANTI_BRUTE_ROOT": [
+        "556515c9-1fcc-4ea0-b85d-2a4cad7eff79",
+        "9232f675-db0a-474c-9f00-d8e5aba69ef7"
+      ]
+    },
+    "NECESSARY-ROOT-ACTUALIST-K-STRENGTHENS-BOX-K": {
+      "NECESSARY": [
+        "7af298fb-a2c4-4239-919b-7685f2e1f67a",
+        "8c881fa6-2b9f-44be-a32a-c8ef29c13643"
+      ]
+    },
+    "NECESSARY-ROOT-BOX-B-FROM-FRAME": {
+      "NECESSARY": [
+        "7af298fb-a2c4-4239-919b-7685f2e1f67a",
+        "8c881fa6-2b9f-44be-a32a-c8ef29c13643"
+      ]
+    },
+    "NECESSARY-ROOT-BOX-B-STRENGTHENS-BOX-T": {
+      "NECESSARY": [
+        "7af298fb-a2c4-4239-919b-7685f2e1f67a",
+        "8c881fa6-2b9f-44be-a32a-c8ef29c13643"
+      ]
+    },
+    "NECESSARY-ROOT-BOX-K": {
+      "GOD": [
+        "295c9096-50b8-4ccd-960e-f833730a0774",
+        "52c2ebac-0a71-4dd4-8a21-804c1dd0847a"
+      ],
+      "INTRINSIC_PRODUCTIVE_CONTRIBUTION_VERSUS_SOURCE_BACKED": [
+        "449eb783-1b3c-4f82-b11f-1c8114a005b9",
+        "cbbac0e8-36c9-41a2-8367-e94080d28d68"
+      ],
+      "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST": [
+        "9bea9a43-3a87-4d62-86de-e5873aea62f8",
+        "a833bcdb-8e99-4079-8cb6-fc1295eb690f"
+      ],
+      "NECESSARY": [
+        "7af298fb-a2c4-4239-919b-7685f2e1f67a",
+        "8c881fa6-2b9f-44be-a32a-c8ef29c13643"
+      ],
+      "NECESSITY_OF_ONE_INDIVIDUAL_VERSUS_NECESSARY": [
+        "43d88672-a700-41d6-b11a-931bf8f468ae",
+        "aa98bacb-a677-44db-846c-b1c6572a2519"
+      ],
+      "NONNECESSARY_VERSUS_CONTINGENT_ROOT": [
+        "9f9108e2-3cc3-45dd-be1d-d8fdaaced708",
+        "cf6a8bb9-2a70-4e90-86bd-06f69106da2f"
+      ],
+      "POTENCY_CAPACITY_AND_POWER_ACROSS_ADOPTED": [
+        "5252f7f4-95a7-42f3-a420-23770702a0f4",
+        "d0b17a2e-febf-45e8-9b9e-11a75b2ccbc6"
+      ],
+      "WELL_FOUNDEDNESS_AND_ANTI_BRUTE_ROOT": [
+        "556515c9-1fcc-4ea0-b85d-2a4cad7eff79",
+        "9232f675-db0a-474c-9f00-d8e5aba69ef7"
+      ]
+    },
+    "NECESSARY-ROOT-BOX-K-STRENGTHENS-DE-DICTO-K": {
+      "NECESSARY": [
+        "7af298fb-a2c4-4239-919b-7685f2e1f67a",
+        "8c881fa6-2b9f-44be-a32a-c8ef29c13643"
+      ]
+    },
+    "NECESSARY-ROOT-BOX-K-STRENGTHENS-TERTIA-VIA": {
+      "NECESSARY": [
+        "7af298fb-a2c4-4239-919b-7685f2e1f67a",
+        "8c881fa6-2b9f-44be-a32a-c8ef29c13643",
+        "e0c9b653-4077-4942-95fc-574e857a8439"
+      ]
+    },
+    "NECESSARY-ROOT-BOX-S4-FROM-FRAME": {
+      "NECESSARY": [
+        "7af298fb-a2c4-4239-919b-7685f2e1f67a",
+        "8c881fa6-2b9f-44be-a32a-c8ef29c13643"
+      ]
+    },
+    "NECESSARY-ROOT-BOX-S4-STRENGTHENS-BOX-T": {
+      "NECESSARY": [
+        "7af298fb-a2c4-4239-919b-7685f2e1f67a",
+        "8c881fa6-2b9f-44be-a32a-c8ef29c13643"
+      ]
+    },
+    "NECESSARY-ROOT-BOX-S5-FROM-FRAME": {
+      "NECESSARY": [
+        "7af298fb-a2c4-4239-919b-7685f2e1f67a",
+        "8c881fa6-2b9f-44be-a32a-c8ef29c13643"
+      ]
+    },
+    "NECESSARY-ROOT-BOX-S5-STRENGTHENS-BOX-B": {
+      "NECESSARY": [
+        "7af298fb-a2c4-4239-919b-7685f2e1f67a",
+        "8c881fa6-2b9f-44be-a32a-c8ef29c13643"
+      ]
+    },
+    "NECESSARY-ROOT-BOX-S5-STRENGTHENS-BOX-S4": {
+      "NECESSARY": [
+        "7af298fb-a2c4-4239-919b-7685f2e1f67a",
+        "8c881fa6-2b9f-44be-a32a-c8ef29c13643"
+      ]
+    },
+    "NECESSARY-ROOT-BOX-T-FROM-FRAME": {
+      "NECESSARY": [
+        "7af298fb-a2c4-4239-919b-7685f2e1f67a",
+        "8c881fa6-2b9f-44be-a32a-c8ef29c13643"
+      ]
+    },
+    "NECESSARY-ROOT-BOX-T-STRENGTHENS-ACTUALIST-K": {
+      "NECESSARY": [
+        "7af298fb-a2c4-4239-919b-7685f2e1f67a",
+        "8c881fa6-2b9f-44be-a32a-c8ef29c13643"
+      ]
+    },
     "NECESSARY-ROOT-CONTROLS": {
       "NECESSARY": [
         "7af298fb-a2c4-4239-919b-7685f2e1f67a",
@@ -6357,6 +6546,24 @@
         "f4609d52-a878-4d09-9af3-083b1945770c"
       ]
     },
+    "NECESSARY-ROOT-PER-SE-FROM-GROUNDING": {
+      "NECESSARY": [
+        "7db71fb6-3f3b-49fc-9152-d214b3032ff8",
+        "8c881fa6-2b9f-44be-a32a-c8ef29c13643",
+        "e0c9b653-4077-4942-95fc-574e857a8439"
+      ],
+      "WELL_FOUNDEDNESS_AND_ANTI_BRUTE_ROOT": [
+        "556515c9-1fcc-4ea0-b85d-2a4cad7eff79",
+        "9232f675-db0a-474c-9f00-d8e5aba69ef7"
+      ]
+    },
+    "NECESSARY-ROOT-PER-SE-STRENGTHENS-TERTIA-VIA": {
+      "NECESSARY": [
+        "7db71fb6-3f3b-49fc-9152-d214b3032ff8",
+        "8c881fa6-2b9f-44be-a32a-c8ef29c13643",
+        "e0c9b653-4077-4942-95fc-574e857a8439"
+      ]
+    },
     "NECESSARY-ROOT-TRILEMMA": {
       "NECESSARY": [
         "7af298fb-a2c4-4239-919b-7685f2e1f67a",
@@ -6429,6 +6636,46 @@
       "WELL_FOUNDEDNESS_OF_THE_SELECTED_RELATION": [
         "2f42c0e7-46ae-4e2b-9ac4-95dcb865da61",
         "f4609d52-a878-4d09-9af3-083b1945770c"
+      ]
+    },
+    "NECESSARY-SENSE-FORK": {
+      "GOD": [
+        "295c9096-50b8-4ccd-960e-f833730a0774",
+        "52c2ebac-0a71-4dd4-8a21-804c1dd0847a"
+      ],
+      "INTRINSIC_PRODUCTIVE_CONTRIBUTION_VERSUS_SOURCE_BACKED": [
+        "449eb783-1b3c-4f82-b11f-1c8114a005b9",
+        "cbbac0e8-36c9-41a2-8367-e94080d28d68"
+      ],
+      "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST": [
+        "9bea9a43-3a87-4d62-86de-e5873aea62f8",
+        "a833bcdb-8e99-4079-8cb6-fc1295eb690f"
+      ],
+      "NECESSARY": [
+        "7af298fb-a2c4-4239-919b-7685f2e1f67a",
+        "8c881fa6-2b9f-44be-a32a-c8ef29c13643"
+      ],
+      "NECESSITY_OF_ONE_INDIVIDUAL_VERSUS_NECESSARY": [
+        "43d88672-a700-41d6-b11a-931bf8f468ae",
+        "aa98bacb-a677-44db-846c-b1c6572a2519"
+      ],
+      "NONNECESSARY_VERSUS_CONTINGENT_ROOT": [
+        "9f9108e2-3cc3-45dd-be1d-d8fdaaced708",
+        "cf6a8bb9-2a70-4e90-86bd-06f69106da2f"
+      ],
+      "POTENCY_CAPACITY_AND_POWER_ACROSS_ADOPTED": [
+        "5252f7f4-95a7-42f3-a420-23770702a0f4",
+        "d0b17a2e-febf-45e8-9b9e-11a75b2ccbc6"
+      ],
+      "WELL_FOUNDEDNESS_AND_ANTI_BRUTE_ROOT": [
+        "556515c9-1fcc-4ea0-b85d-2a4cad7eff79",
+        "9232f675-db0a-474c-9f00-d8e5aba69ef7"
+      ]
+    },
+    "NECESSARY-SENSE-FORK-CONTROLS": {
+      "NECESSARY": [
+        "7db71fb6-3f3b-49fc-9152-d214b3032ff8",
+        "8c881fa6-2b9f-44be-a32a-c8ef29c13643"
       ]
     },
     "NECESSARY-SIMPLE-PLURALITY-JOINT-CONTROL": {
@@ -6675,6 +6922,12 @@
       "SERIES_OF_CAUSES": [
         "1f94774f-4c51-4448-bcf7-898a40648a95",
         "be30bf4e-59fd-43b8-8c85-905ec7c86387"
+      ]
+    },
+    "NO-SELF-EFFICIENT-CAUSE-FROM-NO-SELF-MOVER": {
+      "MOTION": [
+        "2ddf9d53-00b1-4c63-9197-ee632aba310d",
+        "38074911-d62e-44e1-b71c-66b5882f0ff3"
       ]
     },
     "NONLIMITING-CONCRETE-EXISTENCE": {
@@ -7485,6 +7738,20 @@
       "THE_NAME_GOD_APPLIES": [
         "966435ff-a777-4ecf-96dc-ee89d3803559",
         "e238e6fa-0dfd-4c67-9a16-4635351b957a"
+      ]
+    },
+    "PRIOR-ROUTE-USES-AGREE-FROM-UNIQUE-SENSE": {
+      "PRIOR": [
+        "4d165ba0-7511-4a04-9795-d1f0b7490588",
+        "4fecf28a-746e-4d8b-bd42-6a8722507293",
+        "66a09f6e-13e1-40a0-b18b-9fb2d222d63f"
+      ]
+    },
+    "PRIOR-SENSE-FORK-ACT-SIMPLY-PRIOR": {
+      "PRIOR": [
+        "4d165ba0-7511-4a04-9795-d1f0b7490588",
+        "4fecf28a-746e-4d8b-bd42-6a8722507293",
+        "66a09f6e-13e1-40a0-b18b-9fb2d222d63f"
       ]
     },
     "PROCESS-TURNOVER-BOUNDARY": {
@@ -8637,6 +8904,12 @@
       "NAMES": [
         "4fbdf118-eaea-408b-9a08-c7f31a686db4",
         "c62f0864-17d3-4c26-817a-f043e4a20ede"
+      ]
+    },
+    "SAME-RESPECT-NO-SELF-MOTION-FROM-NO-SELF-MOVER": {
+      "MOTION": [
+        "2ddf9d53-00b1-4c63-9197-ee632aba310d",
+        "38074911-d62e-44e1-b71c-66b5882f0ff3"
       ]
     },
     "SCENARIO-NECESSARY-CONCRETE-TO-NECESSARY-BEARER": {

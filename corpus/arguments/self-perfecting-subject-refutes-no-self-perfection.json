@@ -1,0 +1,17 @@
+{
+  "id": "SELF-PERFECTING-SUBJECT-REFUTES-NO-SELF-PERFECTION",
+  "premise_statement_ids": [
+    "STMT-SOME-SUBJECT-CAUSES-ITS-OWN-PERFECTION"
+  ],
+  "conclusion_statement_id": "STMT-OWN-PERFECTION-NOT-ALWAYS-EXTERNAL",
+  "inference_ids": [
+    "INF-SELF-PERFECTING-SUBJECT-REFUTES-NO-SELF-PERFECTION"
+  ],
+  "meaning": "Per-sense result for the perfection branch of 'cause': a subject that causes a perfection in itself falsifies 'nothing causes a perfection in itself'.",
+  "definition_ids": [
+    "DEF-CAUSE-OF-PERFECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE"
+  ]
+}

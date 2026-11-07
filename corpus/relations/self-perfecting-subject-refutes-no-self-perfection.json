@@ -1,0 +1,9 @@
+{
+  "id": "REL-SELF-PERFECTING-SUBJECT-REFUTES-NO-SELF-PERFECTION",
+  "subject_kind": "argument",
+  "subject_id": "SELF-PERFECTING-SUBJECT-REFUTES-NO-SELF-PERFECTION",
+  "predicate": "refutes",
+  "object_kind": "statement",
+  "object_id": "STMT-NOTHING-CAUSES-ITS-OWN-PERFECTION",
+  "note": "Conditional refutation of the perfection branch of 'cause' under the OPEN premise STMT-SOME-SUBJECT-CAUSES-ITS-OWN-PERFECTION."
+}

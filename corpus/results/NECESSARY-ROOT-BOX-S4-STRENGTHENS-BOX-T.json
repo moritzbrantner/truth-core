@@ -1,0 +1,11 @@
+{
+  "id": "NECESSARY-ROOT-BOX-S4-STRENGTHENS-BOX-T",
+  "argument_id": "NECESSARY-ROOT-BOX-S4-STRENGTHENS-BOX-T",
+  "challenge_module": "TruthCore.Results.Causality.NecessarySenseFork.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessarySenseFork.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessarySenseFork.boxS4ToBoxT",
+  "comparator_config": "results/NECESSARY-ROOT-BOX-S4-STRENGTHENS-BOX-T/comparator.json",
+  "status": "solution-present",
+  "description": "Strength registration: the S4 node implies the T node.",
+  "transcription": "assembly"
+}

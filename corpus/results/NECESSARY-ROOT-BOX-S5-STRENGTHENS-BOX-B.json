@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-ROOT-BOX-S5-STRENGTHENS-BOX-B",
+  "argument_id": "NECESSARY-ROOT-BOX-S5-STRENGTHENS-BOX-B",
+  "challenge_module": "TruthCore.Results.Causality.NecessarySenseFork.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessarySenseFork.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessarySenseFork.boxS5ToBoxB",
+  "comparator_config": "results/NECESSARY-ROOT-BOX-S5-STRENGTHENS-BOX-B/comparator.json",
+  "status": "solution-present",
+  "description": "Strength registration: the S5 node implies the KTB node, applying the existing Cube theorem s5_implies_ktb."
+}

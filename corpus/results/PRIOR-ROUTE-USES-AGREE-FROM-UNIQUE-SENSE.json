@@ -1,0 +1,10 @@
+{
+  "id": "PRIOR-ROUTE-USES-AGREE-FROM-UNIQUE-SENSE",
+  "argument_id": "PRIOR-ROUTE-USES-AGREE-FROM-UNIQUE-SENSE",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks.priorRouteUsesAgree",
+  "comparator_config": "results/PRIOR-ROUTE-USES-AGREE-FROM-UNIQUE-SENSE/comparator.json",
+  "status": "solution-present",
+  "description": "Coverage and exclusivity block equivocation on 'prior': each use is the relation of a selected sense, and only one sense is selected, so all uses stand for one relation. The controls give a model in which coverage holds, exclusivity fails and two uses differ."
+}

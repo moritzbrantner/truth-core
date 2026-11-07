@@ -1,0 +1,20 @@
+{
+  "id": "NECESSARY-ROOT-BOX-K-STRENGTHENS-TERTIA-VIA",
+  "premise_statement_ids": [
+    "STMT-NECESSARY-ROOT-BOX-K"
+  ],
+  "conclusion_statement_id": "STMT-NECESSARY-ROOT-TERTIA-VIA",
+  "inference_ids": [
+    "INF-NECESSARY-ROOT-BOX-K-STRENGTHENS-TERTIA-VIA"
+  ],
+  "meaning": "Strength registration: box-existence of n implies the tertia via's 'n cannot not-be' with possibility read as the frame's diamond. The converse holds only classically (excluded middle); it is not registered.",
+  "definition_ids": [
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-NECESSARY-BEING",
+    "DEF-NECESSARY-IN-SENSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY"
+  ]
+}

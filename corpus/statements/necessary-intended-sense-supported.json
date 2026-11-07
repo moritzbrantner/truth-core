@@ -1,0 +1,12 @@
+{
+  "id": "STMT-NECESSARY-INTENDED-SENSE-SUPPORTED",
+  "paraphrase": "OPEN premise, attribution deferred: the side condition of the intended sense holds: the frame condition for a T, S4, KTB or S5 reading; for the per se reading, that causes of necessity are actual concreta, that the necessitated depends on its cause, and that dependence between actual concreta is grounding; nothing for the K, actualist K, de dicto K and tertia via readings.",
+  "lean_declaration": "TruthCore.Causality.NecessarySenseFork.IntendedSenseSupported",
+  "definition_ids": [
+    "DEF-NECESSARY-IN-SENSE",
+    "DEF-MODAL-FIXTURE-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY"
+  ]
+}

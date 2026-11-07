@@ -1,0 +1,18 @@
+{
+  "id": "INF-NECESSARY-CLASSICAL-GOD-CASE-SENSE-FORK",
+  "input_statement_ids": [
+    "STMT-NECESSARY-ROOT-ON-INTENDED-READING",
+    "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE",
+    "STMT-JESUS-CLAIMED-DIVINE-AUTHORITY-AND-ROSE",
+    "STMT-CHRIST-FOUNDED-VISIBLE-CHURCH",
+    "STMT-CHRISTS-CHURCH-IS-THE-CATHOLIC-CHURCH",
+    "STMT-BRIDGE-CHRISTS-CHURCH-FOUNDED-BY-GOD",
+    "STMT-BRIDGE-GOD-FOUNDED-AUTHORITY-PROPOSES-ONLY-TRUTH",
+    "STMT-CATHOLIC-CHURCH-DEFINITIVELY-PROPOSES-CREED"
+  ],
+  "output_statement_id": "STMT-CATHOLICISM-TRUE",
+  "rule": "Existential and conjunction elimination, identity substitution, theorem application (Skeleton.catholicismSkeleton)",
+  "meaning": "Root route with the sense of 'necessary' as a parameter of the necessary root: the root necessary in the one intended sense, with the seven stage 3-6 premises, gives Catholicism (phase 1) through the unchanged skeleton. Only the root facts (God, the one God, classical attributes) are consumed in this step; the necessity sense is carried by the premise node, so the conclusion follows on whichever enumerated reading is intended.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

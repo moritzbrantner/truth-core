@@ -1,0 +1,10 @@
+{
+  "id": "ACT-NOT-PRIOR-IN-TIME-FROM-TEMPORALLY-FIRST-POTENCY",
+  "argument_id": "ACT-NOT-PRIOR-IN-TIME-FROM-TEMPORALLY-FIRST-POTENCY",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks.actNotPriorInTime",
+  "comparator_config": "results/ACT-NOT-PRIOR-IN-TIME-FROM-TEMPORALLY-FIRST-POTENCY/comparator.json",
+  "status": "solution-present",
+  "description": "Per-sense result for the temporal branch of 'prior': if some temporally first being is in potency, act is not prior to potency in time, since nothing in act is before that being."
+}
