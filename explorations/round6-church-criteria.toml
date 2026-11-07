@@ -1,0 +1,96 @@
+# Round 6 worklist: the Church-criterion definition fork (stage 3).
+# Analyst formulations, attribution deferred.
+target = "STMT-CHRIST-FOUNDED-VISIBLE-CHURCH"
+
+[[node]]
+id = "STMT-CHRIST-FOUNDED-VISIBLE-CHURCH"
+
+[[node]]
+id = "STMT-CHRIST-FOUNDED-SELECTED-CHURCH"
+
+[[node]]
+id = "STMT-CHURCH-NAMED-CRITERIA-COVER"
+
+[[node]]
+id = "STMT-CHURCH-SPIRITUAL-CRITERION-FAILS"
+
+[[node]]
+id = "STMT-CHURCH-HAS-JOINT-ASPECT-CRITERION"
+
+[[node]]
+id = "STMT-CHURCH-HAS-VISIBLE-CRITERION"
+
+[[node]]
+id = "STMT-EXCLUDED-MIDDLE"
+
+[[node]]
+id = "STMT-SELECTED-CHURCH-IS-VISIBLE"
+new = true
+text = "Every society satisfying the selected Church predicate is visible with an authority structure."
+
+[[node]]
+id = "STMT-SELECTED-CHURCH-IS-SPIRITUAL"
+new = true
+text = "Every society satisfying the selected Church predicate is a spiritual community."
+
+[[node]]
+id = "STMT-VISIBLE-SPIRITUAL-SOCIETY-IS-CHURCH"
+new = true
+text = "A society that is both visible with authority and a spiritual community satisfies the selected Church predicate."
+
+[[node]]
+id = "STMT-VISIBLE-SOCIETY-IS-SPIRITUAL"
+new = true
+text = "Every visible society with authority in the profile scope is a spiritual community."
+
+[[node]]
+id = "STMT-SOME-SPIRITUAL-COMMUNITY-NOT-VISIBLE"
+new = true
+text = "Some spiritual community in the profile scope is not visible with an authority structure."
+
+[[edge]]
+premises = ["STMT-CHURCH-NAMED-CRITERIA-COVER", "STMT-CHURCH-SPIRITUAL-CRITERION-FAILS", "STMT-CHRIST-FOUNDED-SELECTED-CHURCH"]
+conclusion = "STMT-CHRIST-FOUNDED-VISIBLE-CHURCH"
+kind = "derivation"
+status = "certified"
+argument = "CHURCH-NAMED-CRITERION-ELIMINATION-SUPPLIES-STAGE-FIVE"
+note = "Existing consumer: named coverage with the spiritual case eliminated."
+
+[[edge]]
+premises = ["STMT-SELECTED-CHURCH-IS-VISIBLE", "STMT-SELECTED-CHURCH-IS-SPIRITUAL", "STMT-VISIBLE-SPIRITUAL-SOCIETY-IS-CHURCH"]
+conclusion = "STMT-CHURCH-HAS-JOINT-ASPECT-CRITERION"
+kind = "derivation"
+status = "certified"
+argument = "CHURCH-JOINT-CRITERION-FROM-ASPECT-INCLUSIONS"
+note = "Each direction of the iff from separate inclusions."
+
+[[edge]]
+premises = ["STMT-SELECTED-CHURCH-IS-VISIBLE", "STMT-VISIBLE-SPIRITUAL-SOCIETY-IS-CHURCH", "STMT-VISIBLE-SOCIETY-IS-SPIRITUAL"]
+conclusion = "STMT-CHURCH-HAS-VISIBLE-CRITERION"
+kind = "derivation"
+status = "certified"
+argument = "CHURCH-VISIBLE-CRITERION-FROM-ASPECT-INCLUSIONS"
+note = "Spiritual community as middle term; the Church-is-spiritual inclusion is not needed."
+
+[[edge]]
+premises = ["STMT-SELECTED-CHURCH-IS-VISIBLE", "STMT-SOME-SPIRITUAL-COMMUNITY-NOT-VISIBLE"]
+conclusion = "STMT-CHURCH-SPIRITUAL-CRITERION-FAILS"
+kind = "derivation"
+status = "certified"
+argument = "CHURCH-SPIRITUAL-CRITERION-FAILS-FROM-INVISIBLE-COMMUNION"
+note = "An invisible spiritual community would be the Church under the spiritual calibration."
+
+[[edge]]
+premises = ["STMT-SELECTED-CHURCH-IS-VISIBLE", "STMT-SELECTED-CHURCH-IS-SPIRITUAL", "STMT-VISIBLE-SPIRITUAL-SOCIETY-IS-CHURCH"]
+conclusion = "STMT-CHURCH-NAMED-CRITERIA-COVER"
+kind = "derivation"
+status = "certified"
+argument = "CHURCH-NAMED-COVERAGE-FROM-ASPECT-INCLUSIONS"
+note = "Through the joint case."
+
+[[edge]]
+premises = ["STMT-SELECTED-CHURCH-IS-VISIBLE", "STMT-VISIBLE-SPIRITUAL-SOCIETY-IS-CHURCH", "STMT-EXCLUDED-MIDDLE"]
+conclusion = "STMT-CHURCH-NAMED-CRITERIA-COVER"
+kind = "derivation"
+status = "rejected"
+note = "Coverage without the Church-is-spiritual inclusion: excluded middle on 'every visible society is spiritual' gives the visible case only in its positive branch; the negative branch needs the Church-is-spiritual inclusion for the joint case. A three-society model (visible {a}, spiritual {a,b,c}, Church {a,b} is the shape of the omission control) shows the gap."

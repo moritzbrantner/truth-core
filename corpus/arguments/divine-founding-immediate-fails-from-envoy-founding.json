@@ -1,0 +1,22 @@
+{
+  "id": "DIVINE-FOUNDING-IMMEDIATE-FAILS-FROM-ENVOY-FOUNDING",
+  "premise_statement_ids": [
+    "STMT-GOD-FOUNDED-SOME-JESUS-ENVOY-SOCIETY",
+    "STMT-DIVINE-DIRECT-FOUNDING-EXCLUDES-JESUS-ENVOY"
+  ],
+  "conclusion_statement_id": "STMT-DIVINE-FOUNDING-IMMEDIATE-READING-FAILS",
+  "inference_ids": [
+    "INF-DIVINE-FOUNDING-IMMEDIATE-FAILS-FROM-ENVOY-FOUNDING"
+  ],
+  "meaning": "The immediate-only reading of divine founding is false for this signature, agency and direct relation: under it the God-founded Jesus-envoy society of the OPEN witness premise would be founded directly, which the OPEN and contested exclusion forbids for an envoy event. It does not use the envoy bridge STMT-ENVOY-FOUNDING-IS-GODS-FOUNDING, which the existing elimination derives from this conclusion.",
+  "definition_ids": [
+    "DEF-FOUNDED-BY-GOD-IMMEDIATELY",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-PRINCIPAL-ACT-FOUNDING-READING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FOUNDED-BY-GOD",
+    "DISAMB-GOD"
+  ]
+}

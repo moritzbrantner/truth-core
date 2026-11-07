@@ -1,0 +1,13 @@
+{
+  "id": "STMT-SELECTED-GOVERNING-INCLUDES-TEACHING",
+  "paraphrase": "OPEN analyst premise, attribution deferred: the selected governing predicate on the nine-power carrier includes the power to teach. It says nothing about the other eight powers. The fixed table Power.Governing does not classify teaching as governing; whoever reads teaching as conveying content only denies this premise.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.Round6DefinitionForks.SelectedGoverningIncludesTeaching",
+  "definition_ids": [
+    "DEF-COMMISSION-GOVERNANCE-CALIBRATION",
+    "DEF-TEACHING-INCLUSIVE-GOVERNING-POWER",
+    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMMISSION-GOVERNANCE-CRITERIA"
+  ]
+}

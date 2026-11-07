@@ -1,0 +1,97 @@
+# Round 6 worklist: the governing-criterion definition fork (stage 3).
+# Analyst formulations, attribution deferred.
+target = "STMT-MANDATE-COVERS-JESUS-FOUNDING-OF-CATHOLIC-CHURCH"
+
+[[node]]
+id = "STMT-MANDATE-COVERS-JESUS-FOUNDING-OF-CATHOLIC-CHURCH"
+
+[[node]]
+id = "STMT-COMMISSION-NAMED-GOVERNANCE-CRITERIA-COVER"
+
+[[node]]
+id = "STMT-COMMISSION-NARROW-GOVERNANCE-CRITERION-FAILS"
+
+[[node]]
+id = "STMT-MATTHEW28-COMMISSION-GOES-BACK-TO-JESUS"
+
+[[node]]
+id = "STMT-CHURCH-INSTITUTION-LINK-FOR-SELECTED-GOVERNANCE"
+
+[[node]]
+id = "STMT-COMMISSION-GOVERNANCE-INCLUDES-TEACHING"
+
+[[node]]
+id = "STMT-CHURCH-FOUNDED-IN-COMMISSIONED-APOSTLES"
+
+[[node]]
+id = "STMT-EXCLUDED-MIDDLE"
+
+[[node]]
+id = "STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS"
+
+[[node]]
+id = "STMT-SELECTED-GOVERNING-INCLUDES-TEACHING"
+new = true
+text = "The selected governing predicate includes the power to teach."
+
+[[node]]
+id = "STMT-TABLE-GOVERNING-IS-SELECTED"
+new = true
+text = "Every power the fixed table classifies as governing satisfies the selected governing predicate."
+
+[[node]]
+id = "STMT-SELECTED-GOVERNING-WITHIN-TABLE-OR-TEACHING"
+new = true
+text = "Every selected governing power is table-governing or the power to teach."
+
+[[node]]
+id = "STMT-TEACHING-GRANT-FOUNDS-IN-MANDATE"
+new = true
+text = "Given Jesus' mandate from g and his founding of the Catholic Church as visible, giving the power to teach founds that Church in the mandate."
+
+[[edge]]
+premises = ["STMT-COMMISSION-NAMED-GOVERNANCE-CRITERIA-COVER", "STMT-COMMISSION-NARROW-GOVERNANCE-CRITERION-FAILS", "STMT-MATTHEW28-COMMISSION-GOES-BACK-TO-JESUS", "STMT-CHURCH-INSTITUTION-LINK-FOR-SELECTED-GOVERNANCE"]
+conclusion = "STMT-MANDATE-COVERS-JESUS-FOUNDING-OF-CATHOLIC-CHURCH"
+kind = "derivation"
+status = "certified"
+argument = "COMMISSION-NAMED-CRITERION-ELIMINATION-SUPPLIES-SCOPE"
+note = "Existing consumer."
+
+[[edge]]
+premises = ["STMT-SELECTED-GOVERNING-INCLUDES-TEACHING"]
+conclusion = "STMT-COMMISSION-NARROW-GOVERNANCE-CRITERION-FAILS"
+kind = "derivation"
+status = "certified"
+argument = "COMMISSION-NARROW-CRITERION-FAILS-FROM-TEACHING"
+note = "The fixed table does not classify teaching as governing."
+
+[[edge]]
+premises = ["STMT-SELECTED-GOVERNING-INCLUDES-TEACHING", "STMT-TABLE-GOVERNING-IS-SELECTED", "STMT-SELECTED-GOVERNING-WITHIN-TABLE-OR-TEACHING"]
+conclusion = "STMT-COMMISSION-GOVERNANCE-INCLUDES-TEACHING"
+kind = "derivation"
+status = "certified"
+argument = "COMMISSION-TEACHING-INCLUSIVE-FROM-BOUNDS"
+note = "Both inclusions of the teaching-inclusive extension."
+
+[[edge]]
+premises = ["STMT-EXCLUDED-MIDDLE", "STMT-TABLE-GOVERNING-IS-SELECTED", "STMT-SELECTED-GOVERNING-WITHIN-TABLE-OR-TEACHING"]
+conclusion = "STMT-COMMISSION-NAMED-GOVERNANCE-CRITERIA-COVER"
+kind = "derivation"
+status = "certified"
+argument = "COMMISSION-NAMED-COVERAGE-FROM-BOUNDS"
+note = "Excluded middle on whether teaching is governing; the teaching premise is not needed."
+
+[[edge]]
+premises = ["STMT-CHURCH-FOUNDED-IN-COMMISSIONED-APOSTLES", "STMT-SELECTED-GOVERNING-WITHIN-TABLE-OR-TEACHING", "STMT-TEACHING-GRANT-FOUNDS-IN-MANDATE"]
+conclusion = "STMT-CHURCH-INSTITUTION-LINK-FOR-SELECTED-GOVERNANCE"
+kind = "derivation"
+status = "certified"
+argument = "CHURCH-INSTITUTION-LINK-FROM-TEACHING-GRANT"
+note = "Case split on the selected power: table power (old link) or teaching (new bridge)."
+
+[[edge]]
+premises = ["STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS"]
+conclusion = "STMT-MATTHEW28-COMMISSION-GOES-BACK-TO-JESUS"
+kind = "derivation"
+status = "rejected"
+note = "Already recorded (COMMISSION-REPORT-BUNDLE-SUPPLIES-MATTHEW28) as a projection of the stronger open report bundle: a transcription that relocates rather than derives (invariant 16). No non-transcription route found this round; the per-power historical premises would only re-transcribe it."

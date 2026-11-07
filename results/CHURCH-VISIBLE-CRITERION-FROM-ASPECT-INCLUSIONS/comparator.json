@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.churchVisibleFromAspects"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

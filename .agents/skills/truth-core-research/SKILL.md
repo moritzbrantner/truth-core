@@ -15,6 +15,14 @@ Preserve available source leads in existing notes or attempts, marked deferred.
 Only resume attribution work when the owner explicitly selects it. Proof gates
 and truthful source-claim boundaries remain in force.
 
+**Connect to the case first (owner direction, 2026-11-07).** Never build or extend a library, framework or vocabulary that no root route uses. Before choosing work:
+- Run `python3 scripts/corpus.py frontier --routes` and list the verified result families that do not reach `STMT-CATHOLICISM-TRUE` (`truth orphans`). A large disconnected family, such as the modal library that the necessary-being routes ignored, is the first thing to connect.
+- Name the root-route node your work serves.
+- In the PR, show the connection in `frontier-diff`, or give an explicit connection plan with its blocker.
+- For a load-bearing ambiguous term, first add the COVERAGE premise ("these are all the relevant senses") and the EXCLUSIVITY premise ("exactly one applies"). Then make a typed sense enum, a result per sense (or a countermodel), and a joint theorem by cases. Only then attack rival definitions.
+
+See AGENTS.md, "Connect every library to the case".
+
 Inventory before formalization: for an existing target argument run `python3 scripts/corpus.py context <ARGUMENT-OR-RESULT-ID>`, then inspect each touched premise's `python3 scripts/corpus.py dossier <STMT-ID>`, then exact existing definitions, theorem types and recorded attempts. Prefer a concrete rival model or a consequential bridge test over another general-purpose distinction. Coordinate a genuinely new shared definition with its designated owner; submit independent proof edits directly yourself.
 
 For Lean development use the coordinator's existing local service and preview identity. Do not start a service/session or repeat preparation. From your canonical clone, submit full source content:

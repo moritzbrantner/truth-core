@@ -1,0 +1,10 @@
+{
+  "id": "CHURCH-SPIRITUAL-CRITERION-FAILS-FROM-INVISIBLE-COMMUNION",
+  "argument_id": "CHURCH-SPIRITUAL-CRITERION-FAILS-FROM-INVISIBLE-COMMUNION",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.spiritualFailsFromInvisibleCommunion",
+  "comparator_config": "results/CHURCH-SPIRITUAL-CRITERION-FAILS-FROM-INVISIBLE-COMMUNION/comparator.json",
+  "status": "solution-present",
+  "description": "The spiritual calibration (Church iff spiritual community) is false: under it the invisible spiritual community given by the OPEN witness premise would be the Church, and the Church is visible (OPEN). Actual negation of the calibration, not mere insufficiency; it does not deny that the Church is a spiritual community."
+}

@@ -11,6 +11,9 @@ target/debug/truth bridges --constants constants.json --target STMT-EXISTING-IN-
 target/debug/truth thickness --queue --json
 target/debug/truth frontier --reaching-root --routes
 target/debug/truth --json frontier-diff --base HEAD^1
+target/debug/truth related STMT-GOD-EXISTS
+target/debug/truth dossier STMT-GOD-EXISTS
+target/debug/truth context ARGUMENT-ID --json
 cargo fmt --all --check
 cargo clippy --locked -p truth --all-targets -- -D warnings
 cargo test --locked -p truth
@@ -163,6 +166,59 @@ produce a Rust report). The Python commands, CI's premise-delta step and the
 Explorer build still call `corpus.py`; switching them is a later consumer
 slice. Lean and Comparator keep proof authority: a "verified" argument is one
 with a result record.
+
+## `related`, `dossier`, `context`
+
+These port `scripts/corpus.py related`, `dossier` and `context` (research
+navigation, #954 slice 3). The logic lives in library modules with
+serde-serializable result structs (`truth::related`, `truth::dossier`,
+`truth::context`); `main.rs` only selects output. Text output is
+byte-identical to Python's; `--json` prints the Python JSON object plus
+`input_identity` (`dossier --all` prints exactly the Python object, keyed by
+statement ID). Navigation only: nothing here closes a statement, changes a
+route cost or certifies anything.
+
+- `truth related STATEMENT-ID [--limit N]` (default 10; 1 to 200 shown) ranks
+  over the loaded corpus in memory. Python ranks over its disposable SQLite
+  projection `.cache/research-index.sqlite`; Rust needs and writes no cache.
+  The paraphrase-overlap score sums word weights in sorted word order, so
+  candidates whose scores differ only in the last floating-point bit may
+  order differently from Python (none in the sampled corpus).
+- `truth dossier (STATEMENT-ID | --all) [--frontier-json FILE] [--limit N]`
+  (default 8, 0 = all).
+- `truth context TARGET [--frontier-json FILE] [--limit N] [--related N]`
+  (defaults 6 and 8; `--related 0` skips the ranking). TARGET is an argument
+  ID, a result ID or a statement concluded by exactly one argument. The frozen
+  Lean statement and companion theorems are read from each result's Challenge
+  module, imports from the Solution modules and permitted axioms from the
+  Comparator config, as Python does.
+
+`dossier` and `context` consume the frontier report. Without
+`--frontier-json` they compute it in-process with the Rust `frontier` (the
+port of `corpus.py frontier`, below) on the same checkout and root
+(`--frontier-root`, default `STMT-CATHOLICISM-TRUE`). With `--frontier-json
+FILE` they read a saved `python3 scripts/corpus.py frontier --json [--root
+STATEMENT-ID]` report instead (Rust cannot check that it is current), and
+`--frontier-root` only checks that report's root. Either way Rust reads only
+the fields these views consume (`truth::dossier::FrontierView`).
+
+Errors: an unknown ID exits 3 (`unknown_id`); a non-statement `related`
+target or an ambiguous `context` target exits 2;
+an unreadable or non-frontier report or an unknown frontier root exits 1.
+Python prints the same messages with exit code 2.
+
+Not ported (use Python): `dossier --issues-from` (offline issue snapshot),
+`context --proof-use`/`--proof-use-json` (Lean proof-term inspection), the
+full `validate()` that `dossier --all` runs first, `research_index.py`'s other
+subcommands (`build`, `search`, `show`, `duplicates`, `summary`, `parity`,
+`export`, `bundle`, `compare`) and the Explorer's `dossier --all` consumer.
+`scripts/verify_truth_cli.py` checks parity on a sample of 30+ statements
+(closed, stated, supported, bare, off-frontier and floor-marked), all 3,760
+`dossier --all` entries, 15 `context` targets (12 argument IDs, which here
+coincide with their result IDs, and 3 uniquely concluded statements) with
+several `--limit` values, and the error cases, from a saved Python report;
+and, for a subset plus `dossier --all`, that the in-process frontier gives the
+same output.
 
 ## `bridges`
 

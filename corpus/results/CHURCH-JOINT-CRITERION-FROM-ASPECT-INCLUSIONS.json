@@ -1,0 +1,10 @@
+{
+  "id": "CHURCH-JOINT-CRITERION-FROM-ASPECT-INCLUSIONS",
+  "argument_id": "CHURCH-JOINT-CRITERION-FROM-ASPECT-INCLUSIONS",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.churchJointFromAspects",
+  "comparator_config": "results/CHURCH-JOINT-CRITERION-FROM-ASPECT-INCLUSIONS/comparator.json",
+  "status": "solution-present",
+  "description": "The selected Church coextends with the joint criterion (visible with authority and spiritual community), from three OPEN inclusions: the Church is visible, the Church is spiritual, and what is visible and spiritual is the Church. The forward direction uses the first two, the backward direction the third; no premise states the biconditional."
+}

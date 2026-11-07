@@ -1199,8 +1199,15 @@ class FrontierCorpusTest(unittest.TestCase):
             "STMT-CHURCH-INSTITUTION-LINK-FOR-SELECTED-GOVERNANCE",
         }
         self.assertEqual(set(arguments[proof_id]["premise_statement_ids"]), explicit_inputs)
-        self.assertTrue(explicit_inputs <= ids)
+        self.assertIn("STMT-MATTHEW28-COMMISSION-GOES-BACK-TO-JESUS", ids)
         self.assertTrue(explicit_inputs <= set(report["reaching_root_statements"]))
+        # Round 6 derives three of the four inputs from open inclusions of the
+        # selected governing predicate; they are proved, not established, and
+        # the new inclusions stay open.
+        for derived in explicit_inputs - {"STMT-MATTHEW28-COMMISSION-GOES-BACK-TO-JESUS"}:
+            self.assertEqual(report["closed_statements"].get(derived), "proved")
+        self.assertIn("STMT-SELECTED-GOVERNING-WITHIN-TABLE-OR-TEACHING", ids)
+        self.assertIn("STMT-TEACHING-GRANT-FOUNDS-IN-MANDATE", ids)
         self.assertFalse(explicit_inputs & set(report["established_statements"]))
         # Round 3 (#1216) derives the commission-reports premise from two open
         # inputs; it is proved, not established, and its inputs stay open.
