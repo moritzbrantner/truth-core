@@ -1,0 +1,14 @@
+{
+  "id": "STMT-OWN-BEING-IS-INFINITE",
+  "paraphrase": "OPEN analyst reading of ST I q.7 a.1 co.: whatever is its own subsistent being (the primitive own-being predicate) is infinite (the primitive Infinite, infinity of perfection). The passage infers God's infinity from his being his own subsistent esse, not received in anything; STMT-SUBSISTENT-BEING-IS-INFINITE reads the same sentence with a represented essence/esse equality in place of own being, and no record identifies the two antecedents.",
+  "lean_declaration": "TruthCore.Causality.ReceptionLimitation.OwnBeingIsInfinite",
+  "definition_ids": [
+    "DEF-SCG-I28-WHOLE-POWER-PARTICIPATION",
+    "DEF-INFINITE",
+    "DEF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-INFINITY",
+    "DISAMB-ESSENCE"
+  ]
+}

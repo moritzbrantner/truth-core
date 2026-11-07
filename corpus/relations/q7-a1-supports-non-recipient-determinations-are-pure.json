@@ -1,0 +1,9 @@
+{
+  "id": "REL-Q7-A1-SUPPORTS-NON-RECIPIENT-DETERMINATIONS-ARE-PURE",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q7-A1-ESSE-LIMITED-ONLY-THROUGH-RECEPTION",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-NON-RECIPIENT-DETERMINATIONS-ARE-PURE",
+  "note": "Q.7 a.1 co. says a form is limited by matter 'per hoc quod recipitur in materia' and that 'infinitum secundum quod se tenet ex parte formae non determinatae per materiam, habet rationem perfecti'; the claim states the resulting warrant for esse only. The statement extends it to every real determination of a being in which nothing is received, and adds that individuating principles, potencies and privations occur only in recipients; neither extension is in the passage."
+}

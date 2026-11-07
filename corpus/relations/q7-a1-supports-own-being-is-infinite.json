@@ -1,0 +1,9 @@
+{
+  "id": "REL-Q7-A1-SUPPORTS-OWN-BEING-IS-INFINITE",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q7-A1-SUBSISTENT-BEING-INFINITE",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-OWN-BEING-IS-INFINITE",
+  "note": "Q.7 a.1 co. infers 'ipse Deus sit infinitus' from 'ipse sit suum esse subsistens', with esse as 'maxime formale omnium'. The claim states the general principle with a represented essence/esse equality as antecedent; the statement states it with the primitive own-being predicate. The passage applies it to God only."
+}

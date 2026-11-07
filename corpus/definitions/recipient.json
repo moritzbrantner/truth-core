@@ -1,0 +1,8 @@
+{
+  "id": "DEF-RECIPIENT",
+  "term": "recipient (Recipient x)",
+  "definition": "Recipient x: some act is received in x, so that x contains a principle standing to an act as receiving potency to received act, as matter to form, a created essence to its esse, or a subject to its accidents (ST I q.7 a.1-2). Examples: a piece of wood, whose matter receives its form and which is in potency to further shapes (q.7 a.2 co.). Counterexample, as q.4 a.1 ad 3 describes it: subsistent esse, which is related to other things as received to recipient, not as recipient. It is not EsseReceivedIn (reception of the esse of x in a given principle, DEF-ESSE-RECEIVED-IN); no record says that a being with received esse is a Recipient or the converse. It is not InPotency (able to have a respect without having it, DEF-POTENCY): a recipient may actually have the act it receives. The predicate is a parameter Recipient : B → Prop.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.ReceptionLimitation.NonRecipientDeterminationsArePure",
+  "note": "Stipulative analyst notion, attribution deferred; it names the receiving side of q.7 a.1's form/matter limitation in general. Its content is fixed only by STMT-OWN-BEING-IS-NO-RECIPIENT and STMT-NON-RECIPIENT-DETERMINATIONS-ARE-PURE. A sourced definition would need a passage stating what it is to receive an act in general (for example De ente c.3 'omne quod recipit aliquid ab alio est in potentia respectu illius', read beyond esse)."
+}
