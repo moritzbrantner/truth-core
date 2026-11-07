@@ -1,0 +1,37 @@
+target = "STMT-EFFICIENT-CAUSE-IS-PRIOR-TO-EFFECT"
+
+[[node]]
+id = "STMT-EFFICIENT-CAUSE-IS-PRIOR-TO-EFFECT"
+
+[[node]]
+id = "STMT-AQUINAS-ST-I-Q44-A1-EFFICIENT-CAUSE-COUNTERFACTUAL-DEPENDENCE"
+
+[[node]]
+id = "STMT-SIMPLY-PRIOR-IS-CAUSE-OF-BEING"
+
+[[node]]
+id = "STMT-NOTHING-PRIOR-TO-ITSELF"
+
+[[node]]
+id = "NEW-PRIORITY-BY-NATURE-IS-NONMUTUAL-DEPENDENCE"
+new = true
+text = "y is simply prior to x exactly when x depends on y for being and y does not so depend on x."
+
+[[node]]
+id = "NEW-CAUSE-NOT-DEPENDENT-ON-EFFECT-AS-SUCH"
+new = true
+text = "An efficient cause does not depend for its being on what it efficiently causes."
+
+[[edge]]
+premises = ["STMT-AQUINAS-ST-I-Q44-A1-EFFICIENT-CAUSE-COUNTERFACTUAL-DEPENDENCE", "NEW-PRIORITY-BY-NATURE-IS-NONMUTUAL-DEPENDENCE", "NEW-CAUSE-NOT-DEPENDENT-ON-EFFECT-AS-SUCH"]
+conclusion = "STMT-EFFICIENT-CAUSE-IS-PRIOR-TO-EFFECT"
+kind = "derivation"
+status = "mapped"
+note = "q.44 a.1 (definition-linked, unused): the effect would not be without its efficient cause, i.e. depends on it; with nonmutuality and the dependence analysis of priority, the cause is prior."
+
+[[edge]]
+premises = ["NEW-PRIORITY-BY-NATURE-IS-NONMUTUAL-DEPENDENCE"]
+conclusion = "STMT-NOTHING-PRIOR-TO-ITSELF"
+kind = "derivation"
+status = "mapped"
+note = "Irreflexivity is immediate: x prior to x would require x to depend on x and not depend on x."

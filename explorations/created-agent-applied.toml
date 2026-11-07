@@ -1,0 +1,45 @@
+target = "STMT-EVERY-CREATED-AGENT-ACTS-AS-APPLIED-TO-ACT-BY-GOD"
+
+[[node]]
+id = "STMT-EVERY-CREATED-AGENT-ACTS-AS-APPLIED-TO-ACT-BY-GOD"
+
+[[node]]
+id = "STMT-DIVINE-ESSE-CONSERVATION-CONTINUES-GIVING-ESSE"
+
+[[node]]
+id = "STMT-CREATURE-MUTABILITY-THROUGH-CREATOR-POWER"
+
+[[node]]
+id = "STMT-BEING-MOVED-IS-ACTUALIZATION-OF-POTENCY"
+
+[[node]]
+id = "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER"
+
+[[node]]
+id = "NEW-CREATURE-ACTING-IS-NEW-ACTUALITY"
+new = true
+text = "Whenever a creature moves something, its acting is an actuality it did not have before, so it passes in some respect from potency to act."
+
+[[node]]
+id = "NEW-PASSAGE-TO-ACT-IS-BEING-MOVED"
+new = true
+text = "Whatever passes in some respect from potency to act is being moved in that respect."
+
+[[node]]
+id = "NEW-CONSERVATION-INCLUDES-OPERATION"
+new = true
+text = "God's conservation of a creature's being extends to its operation, which follows its being (operari sequitur esse)."
+
+[[edge]]
+premises = ["NEW-CREATURE-ACTING-IS-NEW-ACTUALITY", "NEW-PASSAGE-TO-ACT-IS-BEING-MOVED"]
+conclusion = "STMT-EVERY-CREATED-AGENT-ACTS-AS-APPLIED-TO-ACT-BY-GOD"
+kind = "derivation"
+status = "mapped"
+note = "Moving is a new actuality for a creature, hence a being moved; this gives 'itself moved in some respect' without yet naming God as mover."
+
+[[edge]]
+premises = ["STMT-DIVINE-ESSE-CONSERVATION-CONTINUES-GIVING-ESSE", "NEW-CONSERVATION-INCLUDES-OPERATION"]
+conclusion = "NEW-CREATURE-ACTING-IS-NEW-ACTUALITY"
+kind = "bridge"
+status = "mapped"
+note = "Definition-linked q.104 conservation statement used for the God-as-applier reading."
