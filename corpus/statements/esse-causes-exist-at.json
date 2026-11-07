@@ -1,0 +1,14 @@
+{
+  "id": "STMT-ESSE-CAUSES-EXIST-AT",
+  "paraphrase": "OPEN analyst premise: at the reading world w, whatever causes the esse of an actual concretum exists at w. Only causes of esse of things that are concrete and exist at w are constrained; no temporal reading of 'exists at w' is implied.",
+  "lean_declaration": "TruthCore.Causality.Round2Grounding.EsseCausesExistAt",
+  "definition_ids": [
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-ESSE",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-KANT-ONTOLOGICAL-MODEL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE"
+  ]
+}

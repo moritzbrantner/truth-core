@@ -1,0 +1,9 @@
+{
+  "id": "REL-Q44-A1-PARTICIPATED-SUPPORTS-PARTICIPATED-ESSE-HAS-DISTINCT-CAUSE",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q44-A1-PARTICIPATED-ESSE-CAUSE",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-PARTICIPATED-ESSE-HAS-DISTINCT-CAUSE",
+  "note": "Q.44 a.1 co. says a being that has esse by participation is caused by another. The premise reads 'caused by another' as: some distinct c causes its esse in the CausesIn vocabulary. The passage's 'another' is the cause of its being, so the gap is the vocabulary choice, not the scope."
+}

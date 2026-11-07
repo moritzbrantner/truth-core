@@ -1,0 +1,13 @@
+{
+  "id": "STMT-ESSE-EFFECT-DEPENDS-ON-ITS-CAUSE",
+  "paraphrase": "OPEN analyst premise: if c, distinct from x, causes x's esse, then x depends for its being on c (DependsForBeing x c, the q.44 a.1 ad 2 counterfactual dependence). Said of causes of esse, not of every efficient cause.",
+  "lean_declaration": "TruthCore.Causality.Round2Grounding.EsseEffectDependsOnItsCause",
+  "definition_ids": [
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-ESSE",
+    "DEF-DEPENDS-FOR-BEING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE"
+  ]
+}

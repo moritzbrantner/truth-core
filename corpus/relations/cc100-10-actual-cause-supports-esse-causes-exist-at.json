@@ -1,0 +1,9 @@
+{
+  "id": "REL-CC100-10-ACTUAL-CAUSE-SUPPORTS-ESSE-CAUSES-EXIST-AT",
+  "subject_kind": "claim",
+  "subject_id": "CC100-10-ACTUAL-CAUSE-EFFECT",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-ESSE-CAUSES-EXIST-AT",
+  "note": "The slide says only actually existing things can be causes or effects. The premise restricts this to causes of the esse of actual concreta and reads 'actually existing' as world-relative ExistsAt at the reading world; the restriction to esse and the world-relative reading are the analyst's."
+}

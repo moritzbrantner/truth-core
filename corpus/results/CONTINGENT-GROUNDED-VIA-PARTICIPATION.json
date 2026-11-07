@@ -1,0 +1,10 @@
+{
+  "id": "CONTINGENT-GROUNDED-VIA-PARTICIPATION",
+  "argument_id": "CONTINGENT-GROUNDED-VIA-PARTICIPATION",
+  "challenge_module": "TruthCore.Results.Causality.Round2Grounding.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round2Grounding.Solution",
+  "theorem": "TruthCore.Results.Causality.Round2Grounding.contingentGroundedViaParticipation",
+  "comparator_config": "results/CONTINGENT-GROUNDED-VIA-PARTICIPATION/comparator.json",
+  "status": "solution-present",
+  "description": "An actual contingent concretum has esse by participation, so a distinct cause of its esse (q.44 a.1 co. reading), which by the esse-cause bridge is an actual concrete ground. The ground is distinct, which is more than the target requires."
+}

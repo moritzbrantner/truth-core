@@ -1,0 +1,13 @@
+{
+  "id": "INF-CONTINGENT-GROUNDED-VIA-PARTICIPATION",
+  "input_statement_ids": [
+    "STMT-CONTINGENT-CONCRETUM-PARTICIPATES-ESSE",
+    "STMT-PARTICIPATED-ESSE-HAS-DISTINCT-CAUSE",
+    "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND"
+  ],
+  "output_statement_id": "STMT-EVERY-CONTINGENT-GROUNDED-AT",
+  "rule": "Universal instantiation, existential elimination and introduction",
+  "meaning": "An actual contingent concretum has esse by participation, so a distinct cause of its esse (q.44 a.1 co. reading), which by the esse-cause bridge is an actual concrete ground. The ground is distinct, which is more than the target requires.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

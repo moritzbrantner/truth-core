@@ -1,0 +1,25 @@
+{
+  "id": "ACTUAL-GROUNDING-ASYMMETRIC-VIA-DEPENDENCE",
+  "premise_statement_ids": [
+    "STMT-ACTUAL-GROUNDING-IS-DEPENDENCE",
+    "STMT-DEPENDENCE-FOR-BEING-ASYMMETRIC"
+  ],
+  "conclusion_statement_id": "STMT-ACTUAL-GROUNDING-ASYMMETRIC",
+  "inference_ids": [
+    "INF-ACTUAL-GROUNDING-ASYMMETRIC-VIA-DEPENDENCE"
+  ],
+  "meaning": "Reciprocal grounding between actual concreta would give mutual dependence for being, which asymmetric dependence excludes.",
+  "definition_ids": [
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-ACTUAL-GROUNDING-ASYMMETRIC",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-CONCRETE-ESSE-IN-RE",
+    "DEF-DEPENDS-FOR-BEING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING"
+  ]
+}

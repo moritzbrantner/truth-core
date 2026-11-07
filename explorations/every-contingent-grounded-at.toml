@@ -1,0 +1,97 @@
+target = "STMT-EVERY-CONTINGENT-GROUNDED-AT"
+
+[[node]]
+id = "STMT-EVERY-CONTINGENT-GROUNDED-AT"
+
+[[node]]
+id = "STMT-CONTINGENT-CONCRETUM-PARTICIPATES-ESSE"
+# new in round 2 grounding (specs/round2-grounding.toml)
+
+[[node]]
+id = "STMT-PARTICIPATED-ESSE-HAS-DISTINCT-CAUSE"
+# new in round 2 grounding (specs/round2-grounding.toml)
+
+[[node]]
+id = "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND"
+
+[[node]]
+id = "STMT-PARTICIPATED-ESSE-REQUIRES-OTHER-CAUSE"
+
+[[node]]
+id = "STMT-LOCAL-CAUSAL-PRINCIPLE"
+
+[[node]]
+id = "STMT-EXISTING-CAUSE-OF-ACTUAL-CONCRETUM-IS-CONCRETE-GROUND"
+# new in round 2 grounding (specs/round2-grounding.toml)
+
+[[node]]
+id = "STMT-ACTUAL-CONTINGENT-DEPENDS-ON-ACTUAL-CONCRETUM"
+# new in round 2 grounding (specs/round2-grounding.toml)
+
+[[node]]
+id = "STMT-ACTUAL-DEPENDENCE-IS-GROUNDING"
+# new in round 2 grounding (specs/round2-grounding.toml)
+
+[[node]]
+id = "STMT-CC100-4-DEPENDENT-DOMAIN"
+
+[[node]]
+id = "STMT-CC100-4-NO-SELF-AND-OTHER-DEPENDENCE"
+
+[[node]]
+id = "STMT-FACT-REQUIRES-SUFFICIENT-REASON"
+
+[[node]]
+id = "STMT-LEIBNIZ-SERIES-SUFFICIENT-REASON"
+
+[[node]]
+id = "STMT-CC100-11-PLURAL-EXISTENCE-EXPLANATION"
+
+[[edge]]
+premises = ["STMT-CONTINGENT-CONCRETUM-PARTICIPATES-ESSE", "STMT-PARTICIPATED-ESSE-HAS-DISTINCT-CAUSE", "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND"]
+conclusion = "STMT-EVERY-CONTINGENT-GROUNDED-AT"
+kind = "derivation"
+status = "certified"
+note = "Certified as CONTINGENT-GROUNDED-VIA-PARTICIPATION; composes the esse-cause bridge."
+
+[[edge]]
+premises = ["STMT-LOCAL-CAUSAL-PRINCIPLE", "STMT-EXISTING-CAUSE-OF-ACTUAL-CONCRETUM-IS-CONCRETE-GROUND"]
+conclusion = "STMT-EVERY-CONTINGENT-GROUNDED-AT"
+kind = "derivation"
+status = "certified"
+note = "Certified as CONTINGENT-GROUNDED-VIA-LOCAL-CAUSE; reuses the Kantian local causal principle."
+
+[[edge]]
+premises = ["STMT-ACTUAL-CONTINGENT-DEPENDS-ON-ACTUAL-CONCRETUM", "STMT-ACTUAL-DEPENDENCE-IS-GROUNDING"]
+conclusion = "STMT-EVERY-CONTINGENT-GROUNDED-AT"
+kind = "derivation"
+status = "certified"
+note = "Certified as CONTINGENT-GROUNDED-VIA-DEPENDENCE."
+
+[[edge]]
+premises = ["STMT-PARTICIPATED-ESSE-REQUIRES-OTHER-CAUSE"]
+conclusion = "STMT-PARTICIPATED-ESSE-HAS-DISTINCT-CAUSE"
+kind = "source"
+status = "rejected"
+note = "Not a derivation (the q.44 statement has no Lean declaration); recorded as supports relation REL-Q44-A1-PARTICIPATED-SUPPORTS-PARTICIPATED-ESSE-HAS-DISTINCT-CAUSE."
+
+[[edge]]
+premises = ["STMT-CC100-4-DEPENDENT-DOMAIN"]
+conclusion = "STMT-ACTUAL-CONTINGENT-DEPENDS-ON-ACTUAL-CONCRETUM"
+kind = "source"
+status = "rejected"
+note = "No Lean declaration; recorded as a supports relation with gap (dependent vs contingent, actual concreteness of the depended-on)."
+
+[[edge]]
+premises = ["STMT-FACT-REQUIRES-SUFFICIENT-REASON", "STMT-CC100-11-PLURAL-EXISTENCE-EXPLANATION"]
+conclusion = "STMT-EVERY-CONTINGENT-GROUNDED-AT"
+kind = "bridge"
+status = "rejected"
+note = "PSR route rejected: the only bridge available (a sufficient reason for an actual concretum's existence is an actual concrete ground of it) would carry the whole conclusion, so the result would be a transcription. Needs a typed reason vocabulary (reasons as facts vs. beings) first."
+
+[[edge]]
+premises = ["STMT-LEIBNIZ-SERIES-SUFFICIENT-REASON"]
+conclusion = "STMT-EVERY-CONTINGENT-GROUNDED-AT"
+kind = "bridge"
+status = "rejected"
+note = "Leibniz's series reason is about the series as a whole, not each member; it bears on a totality premise, not on member-wise grounding."

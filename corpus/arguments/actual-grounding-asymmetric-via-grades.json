@@ -1,0 +1,26 @@
+{
+  "id": "ACTUAL-GROUNDING-ASYMMETRIC-VIA-GRADES",
+  "premise_statement_ids": [
+    "STMT-ACTUAL-GROUND-IS-MORE-IN-ESSE",
+    "STMT-MORE-IN-IS-ASYMMETRIC"
+  ],
+  "conclusion_statement_id": "STMT-ACTUAL-GROUNDING-ASYMMETRIC",
+  "inference_ids": [
+    "INF-ACTUAL-GROUNDING-ASYMMETRIC-VIA-GRADES"
+  ],
+  "meaning": "Reciprocal grounding between actual concreta would make each more in esse than the other, which the asymmetry of MoreIn excludes.",
+  "definition_ids": [
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-ACTUAL-GROUNDING-ASYMMETRIC",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-CONCRETE-ESSE-IN-RE",
+    "DEF-ESSE",
+    "DEF-MORE-IN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-BEING-UNIVOCITY",
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING"
+  ]
+}

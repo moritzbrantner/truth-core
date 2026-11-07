@@ -1,0 +1,9 @@
+{
+  "id": "REL-Q44-A1-COUNTERFACTUAL-SUPPORTS-ESSE-EFFECT-DEPENDS",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q44-A1-EFFICIENT-CAUSE-COUNTERFACTUAL-DEPENDENCE",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-ESSE-EFFECT-DEPENDS-ON-ITS-CAUSE",
+  "note": "Q.44 a.1 ad 2 says an agent cause is required because the effect would not be if the cause were not. The premise applies this to causes of esse (CausesIn c x esse) rather than agent causes, and states it as a universal dependence premise; both are the analyst's."
+}

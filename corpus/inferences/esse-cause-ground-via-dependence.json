@@ -1,0 +1,14 @@
+{
+  "id": "INF-ESSE-CAUSE-GROUND-VIA-DEPENDENCE",
+  "input_statement_ids": [
+    "STMT-ESSE-CAUSES-EXIST-AT",
+    "STMT-ESSE-CAUSES-ARE-CONCRETE",
+    "STMT-ESSE-EFFECT-DEPENDS-ON-ITS-CAUSE",
+    "STMT-ACTUAL-DEPENDENCE-IS-GROUNDING"
+  ],
+  "output_statement_id": "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
+  "rule": "Universal instantiation, conjunction introduction and modus ponens",
+  "meaning": "Derives the esse-cause bridge: a cause c, distinct from an actual concretum x, of x's esse is concrete (causal-capacity premise) and exists at w (only actual things cause esse), so it is an actual concretum; x depends for its being on c (q.44 a.1 ad 2 read for causes of esse); and dependence between actual concreta is grounding. Four OPEN premises; the dependence bridge carries only one direction.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

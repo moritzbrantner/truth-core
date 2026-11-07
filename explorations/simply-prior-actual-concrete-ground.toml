@@ -1,0 +1,45 @@
+target = "STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND"
+
+[[node]]
+id = "STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND"
+
+[[node]]
+id = "STMT-PRIORITY-REQUIRES-NONMUTUAL-DEPENDENCE"
+
+[[node]]
+id = "STMT-SIMPLE-PRIORITY-RELATES-ACTUAL-CONCRETA"
+# new in round 2 grounding (specs/round2-grounding.toml)
+
+[[node]]
+id = "STMT-ACTUAL-DEPENDENCE-IS-GROUNDING"
+# new in round 2 grounding (specs/round2-grounding.toml)
+
+[[node]]
+id = "STMT-SIMPLY-PRIOR-IS-CAUSE-OF-BEING"
+
+[[node]]
+id = "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND"
+
+[[node]]
+id = "STMT-CC100-10-ACTUAL-CAUSE-EFFECT"
+
+[[edge]]
+premises = ["STMT-PRIORITY-REQUIRES-NONMUTUAL-DEPENDENCE", "STMT-SIMPLE-PRIORITY-RELATES-ACTUAL-CONCRETA", "STMT-ACTUAL-DEPENDENCE-IS-GROUNDING"]
+conclusion = "STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND"
+kind = "derivation"
+status = "certified"
+note = "Certified as SIMPLY-PRIOR-GROUND-VIA-DEPENDENCE."
+
+[[edge]]
+premises = ["STMT-SIMPLY-PRIOR-IS-CAUSE-OF-BEING", "STMT-SIMPLE-PRIORITY-RELATES-ACTUAL-CONCRETA", "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND"]
+conclusion = "STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND"
+kind = "derivation"
+status = "certified"
+note = "Certified as SIMPLY-PRIOR-GROUND-VIA-ESSE-CAUSE; only the posterior relatum's actuality is used."
+
+[[edge]]
+premises = ["STMT-CC100-10-ACTUAL-CAUSE-EFFECT"]
+conclusion = "STMT-SIMPLE-PRIORITY-RELATES-ACTUAL-CONCRETA"
+kind = "source"
+status = "rejected"
+note = "Not recorded as support: the slide is about causes and effects; priority is a different relation (DISAMB-PRIORITY-SIMPLE-OR-IN-TIME), and reading it as causation would need STMT-SIMPLY-PRIOR-IS-CAUSE-OF-BEING plus concreteness."

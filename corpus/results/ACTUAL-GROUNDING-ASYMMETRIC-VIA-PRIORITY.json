@@ -1,0 +1,10 @@
+{
+  "id": "ACTUAL-GROUNDING-ASYMMETRIC-VIA-PRIORITY",
+  "argument_id": "ACTUAL-GROUNDING-ASYMMETRIC-VIA-PRIORITY",
+  "challenge_module": "TruthCore.Results.Causality.Round2Grounding.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round2Grounding.Solution",
+  "theorem": "TruthCore.Results.Causality.Round2Grounding.asymmetricViaPriority",
+  "comparator_config": "results/ACTUAL-GROUNDING-ASYMMETRIC-VIA-PRIORITY/comparator.json",
+  "status": "solution-present",
+  "description": "If actual concreta a and b grounded each other, each would be simply prior to the other, so b would depend on a and a would not depend on b, while also a depends on b. No well-foundedness is used."
+}

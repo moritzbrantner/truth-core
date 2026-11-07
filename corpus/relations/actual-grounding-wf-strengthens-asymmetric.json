@@ -1,0 +1,10 @@
+{
+  "id": "REL-ACTUAL-GROUNDING-WF-STRENGTHENS-ASYMMETRIC",
+  "subject_kind": "statement",
+  "subject_id": "STMT-ACTUAL-GROUNDING-WF",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "STMT-ACTUAL-GROUNDING-ASYMMETRIC",
+  "verification_result_id": "ACTUAL-GROUNDING-ASYMMETRIC-FROM-WF",
+  "note": "Restricted well-foundedness excludes reciprocal grounding between actual concreta (ACTUAL-GROUNDING-ASYMMETRIC-FROM-WF). Strictness: an infinite descending chain of actual concreta with no two-cycle is asymmetric but not well-founded (no finite control in this batch)."
+}

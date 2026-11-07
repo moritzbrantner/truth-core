@@ -1,0 +1,12 @@
+{
+  "id": "INF-ACTUAL-GROUNDING-ASYMMETRIC-VIA-GRADES",
+  "input_statement_ids": [
+    "STMT-ACTUAL-GROUND-IS-MORE-IN-ESSE",
+    "STMT-MORE-IN-IS-ASYMMETRIC"
+  ],
+  "output_statement_id": "STMT-ACTUAL-GROUNDING-ASYMMETRIC",
+  "rule": "Reductio",
+  "meaning": "Reciprocal grounding between actual concreta would make each more in esse than the other, which the asymmetry of MoreIn excludes.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

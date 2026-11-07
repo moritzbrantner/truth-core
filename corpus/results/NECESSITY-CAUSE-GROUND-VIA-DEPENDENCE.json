@@ -1,0 +1,10 @@
+{
+  "id": "NECESSITY-CAUSE-GROUND-VIA-DEPENDENCE",
+  "argument_id": "NECESSITY-CAUSE-GROUND-VIA-DEPENDENCE",
+  "challenge_module": "TruthCore.Results.Causality.Round2Grounding.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round2Grounding.Solution",
+  "theorem": "TruthCore.Results.Causality.Round2Grounding.necessityCauseGroundViaDependence",
+  "comparator_config": "results/NECESSITY-CAUSE-GROUND-VIA-DEPENDENCE/comparator.json",
+  "status": "solution-present",
+  "description": "A second route without causes of esse: what has its necessity caused by c depends for its being on c; both are actual concreta; dependence between actual concreta is grounding."
+}

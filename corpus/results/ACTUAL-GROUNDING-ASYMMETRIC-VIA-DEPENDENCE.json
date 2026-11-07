@@ -1,0 +1,10 @@
+{
+  "id": "ACTUAL-GROUNDING-ASYMMETRIC-VIA-DEPENDENCE",
+  "argument_id": "ACTUAL-GROUNDING-ASYMMETRIC-VIA-DEPENDENCE",
+  "challenge_module": "TruthCore.Results.Causality.Round2Grounding.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round2Grounding.Solution",
+  "theorem": "TruthCore.Results.Causality.Round2Grounding.asymmetricViaDependence",
+  "comparator_config": "results/ACTUAL-GROUNDING-ASYMMETRIC-VIA-DEPENDENCE/comparator.json",
+  "status": "solution-present",
+  "description": "Reciprocal grounding between actual concreta would give mutual dependence for being, which asymmetric dependence excludes."
+}

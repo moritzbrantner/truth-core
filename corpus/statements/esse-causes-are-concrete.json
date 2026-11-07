@@ -1,0 +1,14 @@
+{
+  "id": "STMT-ESSE-CAUSES-ARE-CONCRETE",
+  "paraphrase": "OPEN analyst premise: whatever causes the esse of anything is concrete (concreteness read as causal capacity). An abstract cause of esse would falsify it.",
+  "lean_declaration": "TruthCore.Causality.Round2Grounding.EsseCausesAreConcrete",
+  "definition_ids": [
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-ESSE",
+    "DEF-CONCRETE-ESSE-IN-RE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-CAUSE"
+  ]
+}

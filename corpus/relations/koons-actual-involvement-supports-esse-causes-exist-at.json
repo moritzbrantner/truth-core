@@ -1,0 +1,9 @@
+{
+  "id": "REL-KOONS-ACTUAL-INVOLVEMENT-SUPPORTS-ESSE-CAUSES-EXIST-AT",
+  "subject_kind": "claim",
+  "subject_id": "KOONS-1996-COR1-ACTUAL-INVOLVEMENT-EXISTENCE",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-ESSE-CAUSES-EXIST-AT",
+  "note": "Koons says a being involved in an actual fact actually exists. The premise needs that c's causing x's esse is an actual fact in which c is involved; that reading of causing as a fact is the analyst's."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "STMT-NECESSITATED-DEPENDS-ON-ITS-CAUSE",
+  "paraphrase": "OPEN analyst premise: whatever has its necessity caused by c depends for its being on c.",
+  "lean_declaration": "TruthCore.Causality.Round2Grounding.NecessitatedDependsOnItsCause",
+  "definition_ids": [
+    "DEF-NECESSARY-PER-SE",
+    "DEF-DEPENDS-FOR-BEING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE"
+  ]
+}
