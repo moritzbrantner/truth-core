@@ -1,0 +1,28 @@
+{
+  "id": "COMMISSION-NAMED-COVERAGE-FROM-BOUNDS",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-TABLE-GOVERNING-IS-SELECTED",
+    "STMT-SELECTED-GOVERNING-WITHIN-TABLE-OR-TEACHING"
+  ],
+  "conclusion_statement_id": "STMT-COMMISSION-NAMED-GOVERNANCE-CRITERIA-COVER",
+  "inference_ids": [
+    "INF-COMMISSION-NAMED-COVERAGE-FROM-BOUNDS"
+  ],
+  "meaning": "Named governance coverage (narrow or teaching-inclusive criterion) without deciding whether teaching is governing: by the self-evident excluded middle, teaching is selected (then the teaching-inclusive criterion holds) or not (then, since every selected power is table-governing or teaching, the narrow criterion holds). Only the two OPEN bounding inclusions are needed.",
+  "definition_ids": [
+    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY",
+    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
+    "DEF-COMMISSION-GOVERNANCE-CALIBRATION",
+    "DEF-COMMISSION-REPORT-POWERS",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+    "DEF-SELF-EVIDENT-MARKING",
+    "DEF-TEACHING-INCLUSIVE-GOVERNING-POWER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS",
+    "DISAMB-COMMISSION-GOVERNANCE-CRITERIA",
+    "DISAMB-COMMISSION-REPORT-AND-EVENT",
+    "DISAMB-FOUNDED-BY-GOD"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "INF-CHURCH-VISIBLE-CRITERION-FROM-ASPECT-INCLUSIONS",
+  "input_statement_ids": [
+    "STMT-SELECTED-CHURCH-IS-VISIBLE",
+    "STMT-VISIBLE-SPIRITUAL-SOCIETY-IS-CHURCH",
+    "STMT-VISIBLE-SOCIETY-IS-SPIRITUAL"
+  ],
+  "output_statement_id": "STMT-CHURCH-HAS-VISIBLE-CRITERION",
+  "rule": "Universal generalization, biconditional introduction, hypothetical syllogism",
+  "meaning": "The selected Church coextends with the visible criterion, through the spiritual-community predicate as middle term: the Church is visible (OPEN); a visible society in the scope is spiritual (OPEN and contested, restricted scope) and hence, being visible and spiritual, the Church (OPEN). The Church-is-spiritual inclusion is not needed. With STMT-CHURCH-HAS-JOINT-ASPECT-CRITERION it shows the visible and joint calibrations coincide under these premises.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

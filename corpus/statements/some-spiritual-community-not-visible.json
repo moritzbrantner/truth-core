@@ -1,0 +1,13 @@
+{
+  "id": "STMT-SOME-SPIRITUAL-COMMUNITY-NOT-VISIBLE",
+  "paraphrase": "OPEN analyst witness premise, attribution deferred: some society in the profile scope satisfies the spiritual-community predicate and is not visible with an authority structure (for instance a communion of grace without the visible hierarchical constitution). It does not by itself say that this community is not the Church.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.Round6DefinitionForks.SomeSpiritualCommunityNotVisible",
+  "definition_ids": [
+    "DEF-CHURCH-CRITERION-CALIBRATION",
+    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY",
+    "DEF-CHURCH-SPIRITUAL-COMMUNITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS"
+  ]
+}

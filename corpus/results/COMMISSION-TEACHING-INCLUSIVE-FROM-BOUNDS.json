@@ -1,0 +1,10 @@
+{
+  "id": "COMMISSION-TEACHING-INCLUSIVE-FROM-BOUNDS",
+  "argument_id": "COMMISSION-TEACHING-INCLUSIVE-FROM-BOUNDS",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.teachingInclusiveFromBounds",
+  "comparator_config": "results/COMMISSION-TEACHING-INCLUSIVE-FROM-BOUNDS/comparator.json",
+  "status": "solution-present",
+  "description": "The selected governing predicate is the teaching-inclusive criterion (governing in the table or teaching), from three OPEN inclusions: teaching is selected, every table-governing power is selected, and every selected power is table-governing or teaching."
+}

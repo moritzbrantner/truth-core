@@ -1,0 +1,13 @@
+{
+  "id": "INF-CHURCH-INSTITUTION-LINK-FROM-TEACHING-GRANT",
+  "input_statement_ids": [
+    "STMT-CHURCH-FOUNDED-IN-COMMISSIONED-APOSTLES",
+    "STMT-SELECTED-GOVERNING-WITHIN-TABLE-OR-TEACHING",
+    "STMT-TEACHING-GRANT-FOUNDS-IN-MANDATE"
+  ],
+  "output_statement_id": "STMT-CHURCH-INSTITUTION-LINK-FOR-SELECTED-GOVERNANCE",
+  "rule": "Universal generalization, conjunction elimination, proof by cases",
+  "meaning": "The criterion-matched institutional link for the selected governing predicate, from the existing old link (STMT-CHURCH-FOUNDED-IN-COMMISSIONED-APOSTLES, for table-governing powers and the teaching commission), the OPEN bound that every selected power is table-governing or teaching, and the OPEN bridge that giving the power to teach founds the Church in the mandate. A selected power given is split into the table case (old link) and the teaching case (new bridge).",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

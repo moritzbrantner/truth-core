@@ -1,0 +1,194 @@
+# Round 6: stage-3 definition forks. Maps: explorations/round6-church-criteria.toml,
+# round6-governance-criteria.toml, round6-founding-attestation.toml.
+# Analyst formulations, attribution deferred: every new statement is an OPEN premise.
+
+[batch]
+vocab = "TruthCore.Case.Catholicism.StageThree.Round6DefinitionForks"
+results = "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks"
+
+# ---- Map 1: Church criteria ----
+
+[[statement]]
+id = "STMT-SELECTED-CHURCH-IS-VISIBLE"
+lean = "SelectedChurchIsVisible"
+paraphrase = "OPEN analyst premise, attribution deferred: every society satisfying the selected Church predicate is a visible society with an authority structure (VisibleWithAuthority). One direction of STMT-CHURCH-HAS-VISIBLE-CRITERION only: it does not say that every visible authoritative society is the Church. A purely invisible church of the elect falsifies it."
+definitions = ["DEF-CHURCH-CRITERION-CALIBRATION", "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY"]
+disambiguations = ["DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS"]
+
+[[statement]]
+id = "STMT-SELECTED-CHURCH-IS-SPIRITUAL"
+lean = "SelectedChurchIsSpiritual"
+paraphrase = "OPEN analyst premise, attribution deferred: every society satisfying the selected Church predicate satisfies the selected spiritual-community predicate. One direction of STMT-CHURCH-HAS-SPIRITUAL-CRITERION only. A merely juridical church without inward communion falsifies it."
+definitions = ["DEF-CHURCH-CRITERION-CALIBRATION", "DEF-CHURCH-SPIRITUAL-COMMUNITY"]
+disambiguations = ["DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS"]
+
+[[statement]]
+id = "STMT-VISIBLE-SPIRITUAL-SOCIETY-IS-CHURCH"
+lean = "VisibleSpiritualSocietyIsChurch"
+paraphrase = "OPEN analyst premise, attribution deferred: a society in the profile scope that is both visible with an authority structure and a spiritual community satisfies the selected Church predicate. Two rival visible bodies that both have spiritual communion falsify it unless the profile counts both as the Church."
+definitions = ["DEF-CHURCH-CRITERION-CALIBRATION", "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY", "DEF-CHURCH-SPIRITUAL-COMMUNITY"]
+disambiguations = ["DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS"]
+
+[[statement]]
+id = "STMT-VISIBLE-SOCIETY-IS-SPIRITUAL"
+lean = "VisibleSocietyIsSpiritual"
+paraphrase = "OPEN and contested analyst premise, attribution deferred: every visible society with an authority structure in the fixed profile scope is a spiritual community. It does not say that every spiritual community is visible. A visible authoritative society in the scope without spiritual communion falsifies it; over all real societies (states, firms) it is false, so it holds only at the restricted Society scope of the existing Church-criterion module."
+definitions = ["DEF-CHURCH-CRITERION-CALIBRATION", "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY", "DEF-CHURCH-SPIRITUAL-COMMUNITY"]
+disambiguations = ["DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS"]
+
+[[statement]]
+id = "STMT-SOME-SPIRITUAL-COMMUNITY-NOT-VISIBLE"
+lean = "SomeSpiritualCommunityNotVisible"
+paraphrase = "OPEN analyst witness premise, attribution deferred: some society in the profile scope satisfies the spiritual-community predicate and is not visible with an authority structure (for instance a communion of grace without the visible hierarchical constitution). It does not by itself say that this community is not the Church."
+definitions = ["DEF-CHURCH-CRITERION-CALIBRATION", "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY", "DEF-CHURCH-SPIRITUAL-COMMUNITY"]
+disambiguations = ["DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS"]
+
+# ---- Map 2: governing criteria ----
+
+[[statement]]
+id = "STMT-SELECTED-GOVERNING-INCLUDES-TEACHING"
+lean = "SelectedGoverningIncludesTeaching"
+paraphrase = "OPEN analyst premise, attribution deferred: the selected governing predicate on the nine-power carrier includes the power to teach. It says nothing about the other eight powers. The fixed table Power.Governing does not classify teaching as governing; whoever reads teaching as conveying content only denies this premise."
+definitions = ["DEF-COMMISSION-GOVERNANCE-CALIBRATION", "DEF-TEACHING-INCLUSIVE-GOVERNING-POWER", "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER"]
+disambiguations = ["DISAMB-COMMISSION-GOVERNANCE-CRITERIA"]
+
+[[statement]]
+id = "STMT-TABLE-GOVERNING-IS-SELECTED"
+lean = "TableGoverningIsSelected"
+paraphrase = "OPEN analyst premise, attribution deferred: every power the fixed table classifies as governing (keys, binding and loosing, judging as church, forgiving and retaining, shepherding) satisfies the selected governing predicate."
+definitions = ["DEF-COMMISSION-GOVERNANCE-CALIBRATION", "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER"]
+disambiguations = ["DISAMB-COMMISSION-GOVERNANCE-CRITERIA"]
+
+[[statement]]
+id = "STMT-SELECTED-GOVERNING-WITHIN-TABLE-OR-TEACHING"
+lean = "SelectedGoverningWithinTableOrTeaching"
+paraphrase = "OPEN analyst premise, attribution deferred: every power satisfying the selected governing predicate is governing in the fixed table or is the power to teach. A criterion that also counts baptizing, preaching or making disciples as governing falsifies it."
+definitions = ["DEF-COMMISSION-GOVERNANCE-CALIBRATION", "DEF-TEACHING-INCLUSIVE-GOVERNING-POWER", "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER"]
+disambiguations = ["DISAMB-COMMISSION-GOVERNANCE-CRITERIA"]
+
+[[statement]]
+id = "STMT-TEACHING-GRANT-FOUNDS-IN-MANDATE"
+lean = "TeachingGrantFoundsInMandate"
+paraphrase = "OPEN analyst bridge, attribution deferred: for any being g, if Jesus holds a mandate from g and founded the Catholic Church as a visible society with an authority structure, then his giving or promising the power to teach (Gave .teach) founds the Catholic Church in the exercise of that mandate (FoundedInMandate). It is the teaching instance of the first clause of STMT-CHURCH-INSTITUTION-LINK-FOR-SELECTED-GOVERNANCE and does not assert that Jesus holds a mandate, founded the Church or gave the power. The message rival, which reads teaching as conveying content only, denies it."
+definitions = ["DEF-COMMISSION-EVENT-AND-GOVERNING-POWER", "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY", "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY"]
+disambiguations = ["DISAMB-COMMISSION-REPORT-AND-EVENT", "DISAMB-FOUNDED-BY-GOD"]
+
+# ---- Map 3: founding reading and attestation ----
+
+[[statement]]
+id = "STMT-GOD-FOUNDED-SOME-JESUS-ENVOY-SOCIETY"
+lean = "GodFoundedSomeJesusEnvoySociety"
+paraphrase = "OPEN analyst witness premise, attribution deferred: for some God candidate g and society c, Jesus founded c in the FoundedInMandate relation to g and commissioned c to teach (the existing EnvoyTeachingEvent), and g founded c as a teaching authority. It does not say that every such event is a founding by God (that is STMT-ENVOY-FOUNDING-IS-GODS-FOUNDING) and it does not say whether g's founding was direct."
+definitions = ["DEF-PRINCIPAL-ACT-FOUNDING-READING", "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY", "DEF-GOD-OF-CLASSICAL-THEISM"]
+disambiguations = ["DISAMB-FOUNDED-BY-GOD", "DISAMB-GOD"]
+
+[[statement]]
+id = "STMT-DIVINE-DIRECT-FOUNDING-EXCLUDES-JESUS-ENVOY"
+lean = "TruthCore.Case.Catholicism.StageThree.FoundingDefinitions.DirectExcludesJesusEnvoy"
+paraphrase = "OPEN and contested analyst premise, attribution deferred: for every God candidate g and society c, a Jesus-envoy teaching event of g and c is not a direct founding of c by g (the supplied principal-own-act relation). It is the exclusion conjunct of STMT-DIVINE-FOUNDING-IS-EXCLUSIVE-IMMEDIATE taken alone. Whoever identifies Jesus' founding act with God's own act (so that an envoy event is also direct) denies it; it is not derived from any identity or distinctness of Jesus and God, which the signature does not encode."
+definitions = ["DEF-PRINCIPAL-ACT-FOUNDING-READING", "DEF-FOUNDED-BY-GOD-IMMEDIATELY", "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY", "DEF-GOD-OF-CLASSICAL-THEISM"]
+disambiguations = ["DISAMB-FOUNDED-BY-GOD", "DISAMB-GOD"]
+
+[[statement]]
+id = "STMT-JOHANNINE-SAYINGS-INDEPENDENT-OF-MATTHEAN"
+lean = "JohannineSayingsIndependentOfMatthean"
+paraphrase = "OPEN historical premise, attribution deferred: for any two commission reports, if the first belongs to the Johannine strand and the second to the Matthean strand (the fixed table strandOf), then the first's commission saying is literarily independent of the second's (Tradition.Independent). Whoever holds that John knew and used Matthew denies it. It is strictly more general than STMT-JOHN-COMMISSION-INDEPENDENT-OF-MATTHEW."
+definitions = ["DEF-INDEPENDENT-ATTESTATION"]
+disambiguations = ["DISAMB-ATTESTATION-OF-POWER-AND-FAMILY"]
+
+[[statement]]
+id = "STMT-ROUND6-DEFINITION-FORKS-CONTROLS"
+lean = "Control.Certificate"
+paraphrase = "Finite interpretations for the ten derivations of round 6 (stage-3 definition forks): for each premise except excluded middle, a model (societies Three or Unit, beings Bool, the nine-power carrier) in which the other premises hold and the conclusion fails, and one joint model per map in which every premise and conclusion holds with populated antecedents (a selected Church beside an invisible spiritual community; a teaching-inclusive governing predicate with a held mandate; a God-founded envoy society and independent strands). Satisfiability and omission only; no model is claimed to describe Church history or reality."
+definitions = ["DEF-CHURCH-CRITERION-CALIBRATION", "DEF-COMMISSION-GOVERNANCE-CALIBRATION", "DEF-PRINCIPAL-ACT-FOUNDING-READING", "DEF-INDEPENDENT-ATTESTATION"]
+disambiguations = ["DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS", "DISAMB-COMMISSION-GOVERNANCE-CRITERIA", "DISAMB-FOUNDED-BY-GOD"]
+
+# ---- Arguments ----
+
+[[argument]]
+id = "CHURCH-JOINT-CRITERION-FROM-ASPECT-INCLUSIONS"
+theorem = "churchJointFromAspects"
+premises = ["STMT-SELECTED-CHURCH-IS-VISIBLE", "STMT-SELECTED-CHURCH-IS-SPIRITUAL", "STMT-VISIBLE-SPIRITUAL-SOCIETY-IS-CHURCH"]
+conclusion = "STMT-CHURCH-HAS-JOINT-ASPECT-CRITERION"
+rule = "Universal generalization, biconditional introduction, conjunction introduction and elimination"
+meaning = "The selected Church coextends with the joint criterion (visible with authority and spiritual community), from three OPEN inclusions: the Church is visible, the Church is spiritual, and what is visible and spiritual is the Church. The forward direction uses the first two, the backward direction the third; no premise states the biconditional."
+
+[[argument]]
+id = "CHURCH-VISIBLE-CRITERION-FROM-ASPECT-INCLUSIONS"
+theorem = "churchVisibleFromAspects"
+premises = ["STMT-SELECTED-CHURCH-IS-VISIBLE", "STMT-VISIBLE-SPIRITUAL-SOCIETY-IS-CHURCH", "STMT-VISIBLE-SOCIETY-IS-SPIRITUAL"]
+conclusion = "STMT-CHURCH-HAS-VISIBLE-CRITERION"
+rule = "Universal generalization, biconditional introduction, hypothetical syllogism"
+meaning = "The selected Church coextends with the visible criterion, through the spiritual-community predicate as middle term: the Church is visible (OPEN); a visible society in the scope is spiritual (OPEN and contested, restricted scope) and hence, being visible and spiritual, the Church (OPEN). The Church-is-spiritual inclusion is not needed. With STMT-CHURCH-HAS-JOINT-ASPECT-CRITERION it shows the visible and joint calibrations coincide under these premises."
+
+[[argument]]
+id = "CHURCH-SPIRITUAL-CRITERION-FAILS-FROM-INVISIBLE-COMMUNION"
+theorem = "spiritualFailsFromInvisibleCommunion"
+premises = ["STMT-SELECTED-CHURCH-IS-VISIBLE", "STMT-SOME-SPIRITUAL-COMMUNITY-NOT-VISIBLE"]
+conclusion = "STMT-CHURCH-SPIRITUAL-CRITERION-FAILS"
+rule = "Existential elimination, biconditional elimination, reductio"
+meaning = "The spiritual calibration (Church iff spiritual community) is false: under it the invisible spiritual community given by the OPEN witness premise would be the Church, and the Church is visible (OPEN). Actual negation of the calibration, not mere insufficiency; it does not deny that the Church is a spiritual community."
+
+[[argument]]
+id = "CHURCH-NAMED-COVERAGE-FROM-ASPECT-INCLUSIONS"
+theorem = "namedChurchCoverageFromAspects"
+premises = ["STMT-SELECTED-CHURCH-IS-VISIBLE", "STMT-SELECTED-CHURCH-IS-SPIRITUAL", "STMT-VISIBLE-SPIRITUAL-SOCIETY-IS-CHURCH"]
+conclusion = "STMT-CHURCH-NAMED-CRITERIA-COVER"
+rule = "Composition with CHURCH-JOINT-CRITERION-FROM-ASPECT-INCLUSIONS, disjunction introduction"
+meaning = "Named coverage of the Church fork (visible, spiritual or joint criterion) holds through its joint case, from the same three OPEN inclusions. It replaces the open coverage premise by inclusions that can each be tested; it does not show that the named criteria exhaust ecclesiologies."
+
+[[argument]]
+id = "COMMISSION-NARROW-CRITERION-FAILS-FROM-TEACHING"
+theorem = "narrowFailsFromTeaching"
+premises = ["STMT-SELECTED-GOVERNING-INCLUDES-TEACHING"]
+conclusion = "STMT-COMMISSION-NARROW-GOVERNANCE-CRITERION-FAILS"
+rule = "Universal instantiation, biconditional elimination, computation on the fixed table, reductio"
+meaning = "The narrow calibration (selected governing iff governing in the fixed table) is false, from the OPEN premise that the selected governing predicate includes teaching: under the narrow calibration teaching would be governing in the table, where Power.Governing .teach = false. The fixed table, not a premise, supplies the contradiction."
+
+[[argument]]
+id = "COMMISSION-TEACHING-INCLUSIVE-FROM-BOUNDS"
+theorem = "teachingInclusiveFromBounds"
+premises = ["STMT-SELECTED-GOVERNING-INCLUDES-TEACHING", "STMT-TABLE-GOVERNING-IS-SELECTED", "STMT-SELECTED-GOVERNING-WITHIN-TABLE-OR-TEACHING"]
+conclusion = "STMT-COMMISSION-GOVERNANCE-INCLUDES-TEACHING"
+rule = "Universal generalization, biconditional introduction, proof by cases"
+meaning = "The selected governing predicate is the teaching-inclusive criterion (governing in the table or teaching), from three OPEN inclusions: teaching is selected, every table-governing power is selected, and every selected power is table-governing or teaching."
+
+[[argument]]
+id = "COMMISSION-NAMED-COVERAGE-FROM-BOUNDS"
+theorem = "namedGovernanceCoverageFromBounds"
+premises = ["STMT-EXCLUDED-MIDDLE", "STMT-TABLE-GOVERNING-IS-SELECTED", "STMT-SELECTED-GOVERNING-WITHIN-TABLE-OR-TEACHING"]
+conclusion = "STMT-COMMISSION-NAMED-GOVERNANCE-CRITERIA-COVER"
+rule = "Excluded middle, proof by cases, composition with COMMISSION-TEACHING-INCLUSIVE-FROM-BOUNDS"
+meaning = "Named governance coverage (narrow or teaching-inclusive criterion) without deciding whether teaching is governing: by the self-evident excluded middle, teaching is selected (then the teaching-inclusive criterion holds) or not (then, since every selected power is table-governing or teaching, the narrow criterion holds). Only the two OPEN bounding inclusions are needed."
+
+[[argument]]
+id = "CHURCH-INSTITUTION-LINK-FROM-TEACHING-GRANT"
+theorem = "institutionLinkFromTeachingGrant"
+premises = ["STMT-CHURCH-FOUNDED-IN-COMMISSIONED-APOSTLES", "STMT-SELECTED-GOVERNING-WITHIN-TABLE-OR-TEACHING", "STMT-TEACHING-GRANT-FOUNDS-IN-MANDATE"]
+conclusion = "STMT-CHURCH-INSTITUTION-LINK-FOR-SELECTED-GOVERNANCE"
+rule = "Universal generalization, conjunction elimination, proof by cases"
+meaning = "The criterion-matched institutional link for the selected governing predicate, from the existing old link (STMT-CHURCH-FOUNDED-IN-COMMISSIONED-APOSTLES, for table-governing powers and the teaching commission), the OPEN bound that every selected power is table-governing or teaching, and the OPEN bridge that giving the power to teach founds the Church in the mandate. A selected power given is split into the table case (old link) and the teaching case (new bridge)."
+
+[[argument]]
+id = "DIVINE-FOUNDING-IMMEDIATE-FAILS-FROM-ENVOY-FOUNDING"
+theorem = "immediateFailsFromEnvoyFounding"
+premises = ["STMT-GOD-FOUNDED-SOME-JESUS-ENVOY-SOCIETY", "STMT-DIVINE-DIRECT-FOUNDING-EXCLUDES-JESUS-ENVOY"]
+conclusion = "STMT-DIVINE-FOUNDING-IMMEDIATE-READING-FAILS"
+rule = "Existential elimination, biconditional elimination, reductio"
+meaning = "The immediate-only reading of divine founding is false for this signature, agency and direct relation: under it the God-founded Jesus-envoy society of the OPEN witness premise would be founded directly, which the OPEN and contested exclusion forbids for an envoy event. It does not use the envoy bridge STMT-ENVOY-FOUNDING-IS-GODS-FOUNDING, which the existing elimination derives from this conclusion."
+
+[[argument]]
+id = "JOHN-COMMISSION-INDEPENDENT-FROM-STRANDS"
+theorem = "johnIndependentFromStrands"
+premises = ["STMT-JOHANNINE-SAYINGS-INDEPENDENT-OF-MATTHEAN"]
+conclusion = "STMT-JOHN-COMMISSION-INDEPENDENT-OF-MATTHEW"
+rule = "Universal instantiation with the fixed strand table, disjunction introduction"
+meaning = "John 20's commission saying is independent of Matthew 18's, from the OPEN historical premise that Johannine commission sayings are independent of Matthean ones: the fixed table strandOf puts John 20 in the Johannine and Matthew 18 in the Matthean strand. The premise is strictly more general than the conclusion; the derivation relocates the historical question to the strands rather than answering it."
+
+[[argument]]
+id = "ROUND6-DEFINITION-FORKS-CONTROLS"
+theorem = "controls"
+premises = []
+conclusion = "STMT-ROUND6-DEFINITION-FORKS-CONTROLS"
+rule = "Explicit finite interpretations"
+meaning = "Finite interpretations for the ten derivations of round 6: for each premise except excluded middle, a hand-written model (societies Three or Unit, beings Bool, the nine-power carrier) in which the other premises hold and the conclusion fails (23 omission models, checked by decide or short proofs), and one joint nonvacuity witness per map in which every premise and conclusion holds with populated antecedents. Satisfiability and omission only; no model is claimed to describe Church history or reality."
