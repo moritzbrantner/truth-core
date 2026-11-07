@@ -1233,11 +1233,18 @@ class FrontierCorpusTest(unittest.TestCase):
         # refines the argument without establishing its metaphysical premises.
         self.assertNotIn("STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES", depths)
         self.assertNotIn("STMT-FINITE-DISTINCT-CAUSAL-ANCESTRY", depths)
+        # Round 5 derives the three causal-history hypotheses from further
+        # open bridges, so they are no longer leaves; their inputs stay open.
         for premise in (
             "STMT-CAUSAL-FINITE-IMMEDIATE-PREDECESSORS",
             "STMT-CAUSAL-WELL-FOUNDED-PREDECESSORS",
             "STMT-CAUSAL-HISTORY-HAS-NO-LOOPS",
+        ):
+            self.assertNotIn(premise, depths)
+        for premise in (
             "STMT-PER-SE-LINKS-IN-FINITE-HISTORY-RELATION",
+            "STMT-HISTORY-EDGES-ARE-EFFICIENT-CAUSINGS",
+            "STMT-FINITELY-MANY-CAUSES-PER-MODE",
         ):
             self.assertEqual(depths[premise], "bare")
         claims = {record["id"]: record for _, record in corpus.load_dir("claims")}

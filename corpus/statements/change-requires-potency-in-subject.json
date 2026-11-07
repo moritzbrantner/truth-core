@@ -1,0 +1,13 @@
+{
+  "id": "STMT-CHANGE-REQUIRES-POTENCY-IN-SUBJECT",
+  "paraphrase": "OPEN analyst reading of ST I q.9 a.1 ('omne quod quocumque modo mutatur, est aliquo modo in potentia') for potency in the subject: whatever changes in a respect between two times is in potency in that respect. The potency-in-another reading of q.9 a.2 would not give it.",
+  "lean_declaration": "TruthCore.Causality.Round5Worklist.ChangeRequiresPotencyInSubject",
+  "definition_ids": [
+    "DEF-CHANGE-BETWEEN-TIMES",
+    "DEF-POTENCY",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER"
+  ]
+}

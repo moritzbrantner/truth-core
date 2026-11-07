@@ -1,0 +1,252 @@
+# Round 5: worklist clusters. Maps: explorations/round5-causal-history-priority.toml,
+# round5-life-operation-change.toml, round5-will-intelligible-form.toml.
+# Analyst formulations, attribution deferred: every new statement is an OPEN premise.
+
+[batch]
+vocab = "TruthCore.Causality.Round5Worklist"
+results = "TruthCore.Results.Causality.Round5Worklist"
+
+# ---- Map 1: causal history and priority ----
+
+[[statement]]
+id = "STMT-HISTORY-EDGES-ARE-EFFICIENT-CAUSINGS"
+lean = "HistoryEdgesAreEfficientCausings"
+paraphrase = "OPEN analyst bridge: every edge of the causal relation whose history is studied (cause y x: y is a direct upstream cause of x) is an efficient causing of x by y in some respect. Converse direction of STMT-PER-SE-LINKS-IN-FINITE-HISTORY-RELATION. A history relation that also records material or final dependence, or bare temporal succession, falsifies it."
+definitions = ["DEF-CAUSAL-HISTORY-NO-LOOPS", "DEF-RESPECT"]
+disambiguations = ["DISAMB-FINITE-HISTORY-AND-PER-SE-REGRESS", "DISAMB-CAUSE"]
+
+[[statement]]
+id = "STMT-SIMPLE-PRIORITY-WELL-FOUNDED"
+lean = "SimplePriorityWellFounded"
+paraphrase = "OPEN and contested analyst premise: simple priority (by nature, not in time) is well-founded: there is no infinite descending chain of beings each simply prior to the one before. It does not bound the length of finite chains. Whoever admits an infinite essentially ordered series denies it."
+definitions = ["DEF-SIMPLE-PRIORITY"]
+disambiguations = ["DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"]
+
+[[statement]]
+id = "STMT-FINITELY-MANY-CAUSES-PER-MODE"
+lean = "FinitelyManyCausesPerMode"
+paraphrase = "OPEN and contested analyst premise: for each effect and each of Aristotle's four modes of cause (material, formal, source of change, final), the effect has only finitely many causes in that mode. An effect with infinitely many material parts or infinitely many concurring agents falsifies it."
+definitions = ["DEF-ARISTOTELIAN-CAUSE-MODES", "DEF-CAUSAL-FINITE-IMMEDIATE-PREDECESSORS"]
+disambiguations = ["DISAMB-CAUSE"]
+
+[[statement]]
+id = "STMT-DEPENDENCE-FOR-BEING-IS-CAUSED-BEING"
+lean = "DependenceForBeingIsCausedBeing"
+paraphrase = "OPEN and contested analyst premise: whatever a thing depends on for its being is a cause of its being (causes it in the respect esse). Views that separate non-causal dependence for being (a set on its members, a fact on its ground) from causation deny it."
+definitions = ["DEF-DEPENDS-FOR-BEING", "DEF-CAUSE-OF-PERFECTION", "DEF-ESSE"]
+disambiguations = ["DISAMB-CAUSE"]
+
+# ---- Map 2: life, operation and change ----
+
+[[statement]]
+id = "STMT-ACT-OR-POTENCY-IN-BEING"
+lean = "ActOrPotencyInBeing"
+paraphrase = "OPEN analyst division: each being is in act or in potency in the respect of its being (esse). Silent on other respects; it does not exclude being both."
+definitions = ["DEF-ACT", "DEF-POTENCY", "DEF-ESSE"]
+disambiguations = ["DISAMB-IN-ACT"]
+
+[[statement]]
+id = "STMT-BEING-IN-ACT-HAS-OPERATION"
+lean = "BeingInActHasOperation"
+paraphrase = "OPEN analyst premise (operation follows being): whatever is in act in its being has some operation, transient or immanent. A wholly inert actual being falsifies it."
+definitions = ["DEF-ACT", "DEF-ESSE", "DEF-OPERATION-OF"]
+disambiguations = ["DISAMB-IN-ACT"]
+
+[[statement]]
+id = "STMT-OPERATION-FROM-SELF-OR-AS-MOVED"
+lean = "OperationFromSelfOrAsMoved"
+paraphrase = "OPEN analyst dichotomy, read from ST I q.18 a.3 co. (things operate either from themselves or as moved by others): whatever has an operation either operates from itself or is being moved in some respect."
+definitions = ["DEF-OPERATION-OF", "DEF-MOTION-AS-REDUCTION"]
+disambiguations = ["DISAMB-MOTION"]
+
+[[statement]]
+id = "STMT-SELF-OPERATION-PRESENT-AT-SOME-TIME"
+lean = "SelfOperationPresentAtSomeTime"
+paraphrase = "OPEN analyst premise: whatever operates from itself does so at some time of the duration frame (for what is not in time, read with q.10 a.2 ad 4: eternity includes all times)."
+definitions = ["DEF-OPERATES-FROM-ITSELF-AT", "DEF-LIFE-PRESENT-AT"]
+
+[[statement]]
+id = "STMT-OPERATING-FROM-ITSELF-IS-LIVING"
+lean = "OperatingFromItselfIsLiving"
+paraphrase = "OPEN analyst reading of ST I q.18 a.2 (to live is the being of what operates from itself): whatever operates from itself at a time lives at that time. It does not require being unmoved in other respects."
+definitions = ["DEF-OPERATES-FROM-ITSELF-AT", "DEF-LIFE-PRESENT-AT"]
+
+[[statement]]
+id = "STMT-CHANGE-REQUIRES-POTENCY-IN-SUBJECT"
+lean = "ChangeRequiresPotencyInSubject"
+paraphrase = "OPEN analyst reading of ST I q.9 a.1 ('omne quod quocumque modo mutatur, est aliquo modo in potentia') for potency in the subject: whatever changes in a respect between two times is in potency in that respect. The potency-in-another reading of q.9 a.2 would not give it."
+definitions = ["DEF-CHANGE-BETWEEN-TIMES", "DEF-POTENCY", "DEF-RESPECT"]
+disambiguations = ["DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER"]
+
+[[statement]]
+id = "STMT-LIFE-BOUNDARY-IS-CHANGE"
+lean = "LifeBoundaryIsChange"
+paraphrase = "OPEN analyst premise: beginning or ceasing to live between an earlier and a later time is a change of the living thing in some respect between them. Whoever denies that generation or creation is a change of the thing generated denies it."
+definitions = ["DEF-CHANGE-BETWEEN-TIMES", "DEF-LIFE-PRESENT-AT"]
+
+[[statement]]
+id = "STMT-STATE-DIFFERENCE-IS-CHANGE"
+lean = "StateDifferenceIsChange"
+paraphrase = "OPEN analyst premise: a difference of a thing's life-state between an earlier and a later time is a change of it in some respect between them."
+definitions = ["DEF-CHANGE-BETWEEN-TIMES", "DEF-LIFE-PRESENT-AT"]
+
+[[statement]]
+id = "STMT-CHANGE-OF-PERSISTING-SUBJECT-IS-MOTION"
+lean = "ChangeOfPersistingSubjectIsMotion"
+paraphrase = "OPEN analyst reading of Physics V.1: a change in a respect of a subject that is present (lives) at both ends is a being moved in that respect, not generation or corruption. MovedIn is untimed, as in STMT-SUCCESSION-IS-BEING-MOVED."
+definitions = ["DEF-CHANGE-BETWEEN-TIMES", "DEF-LIFE-PRESENT-AT", "DEF-MOTION-AS-REDUCTION"]
+disambiguations = ["DISAMB-MOTION"]
+
+# ---- Map 3: will from intelligible form ----
+
+[[statement]]
+id = "STMT-FORM-IS-PRINCIPLE-OF-OPERATION"
+lean = "FormIsPrincipleOfOperation"
+paraphrase = "OPEN analyst premise (forma est principium operationis): every form, natural or intelligible, through which a thing is in act is the principle of some operation of that thing through the form."
+definitions = ["DEF-OPERATION-THROUGH-FORM-FOR-END"]
+
+[[statement]]
+id = "STMT-EVERY-OPERATION-HAS-AN-END"
+lean = "EveryOperationHasAnEnd"
+paraphrase = "OPEN analyst finality principle (omne agens agit propter finem), read for operations through forms: every such operation is directed to some end, consciously or not."
+definitions = ["DEF-OPERATION-THROUGH-FORM-FOR-END", "DEF-INTENTIO-AS-TENDING"]
+
+[[statement]]
+id = "STMT-END-DIRECTED-OPERATION-IS-INCLINATION"
+lean = "EndDirectedOperationIsInclination"
+paraphrase = "OPEN analyst recognition premise: a thing operating through a form toward an end has an inclination following that form (orientation at the level of nature or power; no current exercise asserted)."
+definitions = ["DEF-OPERATION-THROUGH-FORM-FOR-END", "DEF-NATURAL-APPETITE-FORM-INCLINATION"]
+disambiguations = ["DISAMB-NATURAL-AND-COGNITIVE-APPETITE", "DISAMB-APPETITE-POWER-AND-EXERCISE"]
+
+[[statement]]
+id = "STMT-INTELLECT-UNDERSTANDS-SOMETHING"
+lean = "IntellectUnderstandsSomething"
+paraphrase = "OPEN and contested analyst premise: whatever has intellect actually understands something. A human intellect before any act of understanding (q.79 a.2, the possible intellect as a tabula rasa) falsifies it; whoever holds that some intellect is purely potential denies it."
+definitions = ["DEF-HAS-INTELLECT", "DEF-UNDERSTANDS"]
+
+[[statement]]
+id = "STMT-UNDERSTANDING-IS-THROUGH-INTELLIGIBLE-FORM"
+lean = "UnderstandingIsThroughIntelligibleForm"
+paraphrase = "OPEN analyst reading of ST I q.14 a.2 and q.85 a.2: whatever actually understands something is in act through some intelligible form."
+definitions = ["DEF-UNDERSTANDS"]
+
+[[statement]]
+id = "STMT-INTELLIGIBLE-INCLINATION-IS-INTELLECTUAL-APPETITE"
+lean = "IntelligibleInclinationIsIntellectualAppetite"
+paraphrase = "OPEN analyst reading of ST I q.80 a.1-2: an inclination following an intelligible form belongs to some appetitive principle of the thing that follows intellectual apprehension. 'Principle' asserts no power really distinct from the essence."
+definitions = ["DEF-APPETITIVE-POWER-FOLLOWING-INTELLECT", "DEF-COGNITION-RELATIVE-APPETITE"]
+disambiguations = ["DISAMB-NATURAL-AND-COGNITIVE-APPETITE", "DISAMB-CREATURE-PASSIVE-APPETITE-AND-DIVINE-WILL"]
+
+[[statement]]
+id = "STMT-INTELLECTUAL-APPETITE-IS-WILL"
+lean = "IntellectualAppetiteIsWill"
+paraphrase = "OPEN analyst reading of ST I q.80 a.2 and q.82 under DEF-HAS-WILL: whatever has an appetitive principle following intellect has will."
+definitions = ["DEF-APPETITIVE-POWER-FOLLOWING-INTELLECT", "DEF-HAS-WILL"]
+disambiguations = ["DISAMB-CREATURE-PASSIVE-APPETITE-AND-DIVINE-WILL"]
+
+[[statement]]
+id = "STMT-ROUND5-WORKLIST-CONTROLS"
+lean = "Control.Certificate"
+paraphrase = "Finite interpretations for the eleven derivations of round 5 (worklist clusters): for each premise, a model on Unit, Bool or Fin 2 (on the natural numbers for the two finiteness derivations) in which the other premises hold and the conclusion fails, and one joint model per map in which every premise and conclusion holds with populated antecedents (an efficient cause simply prior to its effect, depended on by it and causing its being; a pure act with an operation from itself living at every time beside a moved being whose life-state changes; one intellectual being with an intelligible form, an operation for an end, an inclination, an intellectual appetite and will). Satisfiability and omission only; no model is claimed to describe reality."
+definitions = ["DEF-SIMPLE-PRIORITY", "DEF-CHANGE-BETWEEN-TIMES", "DEF-OPERATION-OF", "DEF-OPERATES-FROM-ITSELF-AT", "DEF-OPERATION-THROUGH-FORM-FOR-END", "DEF-UNDERSTANDS", "DEF-APPETITIVE-POWER-FOLLOWING-INTELLECT", "DEF-LIFE-PRESENT-AT"]
+disambiguations = ["DISAMB-CAUSE", "DISAMB-MOTION"]
+
+# ---- Arguments ----
+
+[[argument]]
+id = "CAUSAL-HISTORY-NO-LOOPS-FROM-PRIORITY"
+theorem = "noLoopsFromPriority"
+premises = ["STMT-HISTORY-EDGES-ARE-EFFICIENT-CAUSINGS", "STMT-EFFICIENT-CAUSE-IS-PRIOR-TO-EFFECT", "STMT-SIMPLE-PRIORITY-IS-TRANSITIVE", "STMT-NOTHING-PRIOR-TO-ITSELF"]
+conclusion = "STMT-CAUSAL-HISTORY-HAS-NO-LOOPS"
+rule = "Induction on transitive closure, universal instantiation, existential elimination, reductio"
+meaning = "No nonempty causal path returns to its start, from one new OPEN bridge (every edge of the studied causal relation is an efficient causing in some respect) and three existing statements of the secunda via cluster: efficient causes are simply prior to their effects, simple priority is transitive, nothing is prior to itself. By induction on the path every causal path is a simple priority, so a loop would make something prior to itself. The existing three are relation-generic; the bridge is what ties the finite-history relation to efficient causation."
+
+[[argument]]
+id = "CAUSAL-WELL-FOUNDED-FROM-PRIORITY"
+theorem = "wellFoundedFromPriority"
+premises = ["STMT-HISTORY-EDGES-ARE-EFFICIENT-CAUSINGS", "STMT-EFFICIENT-CAUSE-IS-PRIOR-TO-EFFECT", "STMT-SIMPLE-PRIORITY-WELL-FOUNDED"]
+conclusion = "STMT-CAUSAL-WELL-FOUNDED-PREDECESSORS"
+rule = "Subrelation of a well-founded relation (Subrelation.wf)"
+meaning = "The causal predecessor relation is well-founded, from the OPEN edge bridge, the existing statement that efficient causes are simply prior to their effects, and the OPEN and contested premise that simple priority is well-founded: the causal relation is contained in simple priority, and a subrelation of a well-founded relation is well-founded. The contested regress question is relocated to the priority order, not answered."
+
+[[argument]]
+id = "CAUSAL-FINITE-PREDECESSORS-FROM-MODES"
+theorem = "finitePredecessorsFromModes"
+premises = ["STMT-FOUR-CAUSES-EXHAUSTIVE", "STMT-FINITELY-MANY-CAUSES-PER-MODE"]
+conclusion = "STMT-CAUSAL-FINITE-IMMEDIATE-PREDECESSORS"
+rule = "Subset of a finite union of finite sets (Mathlib Set.Finite.union, Set.Finite.subset)"
+meaning = "Every node has finitely many direct causal predecessors, from the existing stated reading of Physics II.3 (every cause of an effect is a cause in at least one of the four modes) and the OPEN premise that each effect has finitely many causes in each mode: the direct causes lie in the union of four finite sets. Uses Mathlib finiteness; permits propext, Classical.choice and Quot.sound."
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+
+[[argument]]
+id = "SIMPLY-PRIOR-CAUSES-BEING-FROM-DEPENDENCE"
+theorem = "simplyPriorCausesBeing"
+premises = ["STMT-PRIORITY-REQUIRES-NONMUTUAL-DEPENDENCE", "STMT-DEPENDENCE-FOR-BEING-IS-CAUSED-BEING"]
+conclusion = "STMT-SIMPLY-PRIOR-IS-CAUSE-OF-BEING"
+rule = "Universal instantiation, conjunction elimination, modus ponens"
+meaning = "What is simply prior to a thing is a cause of its being, as a two-step composition through dependence for being (a middle term distinct from both priority and causation): by the existing OPEN premise, whatever is simply prior to x is something x depends on for its being (only this half of its conjunction is used); by the new OPEN and contested premise, what a thing depends on for its being causes its being. No premise states the conclusion. The grounding-is-not-causation rival falls on the second premise."
+
+[[argument]]
+id = "PURE-ACT-OPERATES-FROM-BEING-IN-ACT"
+theorem = "pureActOperatesFromBeing"
+premises = ["STMT-ACT-OR-POTENCY-IN-BEING", "STMT-BEING-IN-ACT-HAS-OPERATION", "STMT-OPERATION-FROM-SELF-OR-AS-MOVED", "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY"]
+conclusion = "STMT-PURE-ACT-OPERATES"
+rule = "Disjunctive syllogism, existential elimination, proof by cases, reductio"
+meaning = "Whatever is in potency in no respect operates from itself. A pure act is not in potency in its being, so by the OPEN act/potency division it is in act in being; by the OPEN premise that operation follows being in act it has an operation; by the OPEN dichotomy the operation is from itself or the thing is being moved in some respect; and the second case is excluded by the existing stated q.2 a.3 reading (nothing is moved except as in potency) since a pure act has no potency."
+
+[[argument]]
+id = "SELF-OPERATING-LIVES-FROM-PRESENT-OPERATION"
+theorem = "selfOperatingUnmovedLivesFromOperation"
+premises = ["STMT-SELF-OPERATION-PRESENT-AT-SOME-TIME", "STMT-OPERATING-FROM-ITSELF-IS-LIVING"]
+conclusion = "STMT-SELF-OPERATING-UNMOVED-LIVES"
+rule = "Existential elimination, universal instantiation, existential introduction"
+meaning = "Whatever operates from itself and is moved in no respect lives at some time, through the timed predicate OperatesFromItselfAt: the self-operation is present at some time (OPEN), and operating from itself at a time is living at it (OPEN q.18 a.2 reading). The unmoved clause of the conclusion is not used: under these two premises every self-operating thing lives, which is a strictly stronger conclusion."
+
+[[argument]]
+id = "NO-LIFE-BOUNDARY-FROM-CHANGE"
+theorem = "noLifeBoundaryFromChange"
+premises = ["STMT-LIFE-BOUNDARY-IS-CHANGE", "STMT-CHANGE-REQUIRES-POTENCY-IN-SUBJECT"]
+conclusion = "STMT-IMMUTABLE-HAS-NO-LIFE-BOUNDARY"
+rule = "Existential elimination, universal instantiation, reductio"
+meaning = "Whatever is in potency in no respect has a life that neither begins nor ends: a life boundary between two times is a change in some respect between them (OPEN; denied by whoever holds that generation or creation is no change of the thing), and whatever changes in a respect is in potency in it (OPEN q.9 a.1 reading for potency in the subject); a pure act has no potency. The q.9 a.2 potency-in-another reading (DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER) now sits in the second premise."
+
+[[argument]]
+id = "SUCCESSION-IS-MOTION-FROM-CHANGE"
+theorem = "successionMotionFromChange"
+premises = ["STMT-STATE-DIFFERENCE-IS-CHANGE", "STMT-CHANGE-OF-PERSISTING-SUBJECT-IS-MOTION"]
+conclusion = "STMT-SUCCESSION-IS-BEING-MOVED"
+rule = "Existential elimination, universal instantiation, existential introduction"
+meaning = "A living thing whose life-state differs between two times at which it lives is being moved in some respect: the state difference is a change in some respect between the two times (OPEN), and a change of a subject that lives at both ends is a motion in that respect, not generation or corruption (OPEN Physics V.1 reading). Both 'lives at' conjuncts of the succession are used, which is why beginning or ceasing to live is not covered."
+
+[[argument]]
+id = "EVERY-FORM-INCLINED-FROM-FINALITY"
+theorem = "everyFormInclinedFromFinality"
+premises = ["STMT-FORM-IS-PRINCIPLE-OF-OPERATION", "STMT-EVERY-OPERATION-HAS-AN-END", "STMT-END-DIRECTED-OPERATION-IS-INCLINATION"]
+conclusion = "STMT-EVERY-FORM-HAS-INCLINATION"
+rule = "Existential elimination (twice), universal instantiation, modus ponens"
+meaning = "Some inclination follows every form a thing has, through operation and end as middle terms: each form is the principle of some operation (OPEN), every such operation is directed to an end (OPEN finality principle), and operating through a form toward an end is an inclination following the form (OPEN recognition). The last premise needs both witnesses supplied by the first two."
+
+[[argument]]
+id = "INTELLECT-FORM-FROM-UNDERSTANDING"
+theorem = "intellectFormFromUnderstanding"
+premises = ["STMT-INTELLECT-UNDERSTANDS-SOMETHING", "STMT-UNDERSTANDING-IS-THROUGH-INTELLIGIBLE-FORM"]
+conclusion = "STMT-INTELLECT-HAS-INTELLIGIBLE-FORM"
+rule = "Existential elimination, universal instantiation"
+meaning = "Whatever has intellect is in act through some intelligible form, through actual understanding as the middle term: whatever has intellect understands something (OPEN and contested: the human possible intellect before learning is a counterexample), and whatever understands something is in act through an intelligible form (OPEN q.14 a.2 / q.85 a.2 reading). The contested point of the target (power versus act of intellect) is isolated in the first premise."
+
+[[argument]]
+id = "WILL-FROM-INTELLECTUAL-APPETITE"
+theorem = "willFromIntellectualAppetite"
+premises = ["STMT-INTELLIGIBLE-INCLINATION-IS-INTELLECTUAL-APPETITE", "STMT-INTELLECTUAL-APPETITE-IS-WILL"]
+conclusion = "STMT-INTELLIGIBLE-INCLINATION-IS-WILL"
+rule = "Existential elimination, universal instantiation, modus ponens"
+meaning = "Whatever has an inclination following an intelligible form has will, through an appetitive principle following intellect as the middle term: such an inclination belongs to an appetitive principle that follows intellectual apprehension (OPEN q.80 a.1-2 reading), and whatever has such a principle has will (OPEN q.80 a.2 / q.82 reading). It splits the near-definitional recognition step into the appetite classification and the identification of intellectual appetite with will."
+
+[[argument]]
+id = "ROUND5-WORKLIST-CONTROLS"
+theorem = "controls"
+premises = []
+conclusion = "STMT-ROUND5-WORKLIST-CONTROLS"
+rule = "Explicit finite interpretations"
+meaning = "Finite interpretations for the eleven derivations of round 5: for each premise, a hand-written model (Unit, Bool or Fin 2; the natural numbers for the two finiteness omissions) in which the other premises hold and the conclusion fails (28 omission models, checked by decide or short proofs), and one joint nonvacuity witness per map in which every premise and conclusion holds with populated antecedents. Satisfiability and omission only; no model is claimed to describe reality."
+axioms = ["propext", "Classical.choice", "Quot.sound"]
