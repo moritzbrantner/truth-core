@@ -8,6 +8,7 @@
 //! ([`FrontierView`]); the related ranking from [`crate::related`]. Navigation
 //! only: nothing is stored or certified.
 
+use crate::senses::{SenseLabels, format_labels};
 use crate::{
     Corpus,
     dossier::{FrontierView, configuration_statements},
@@ -276,6 +277,7 @@ pub struct StatementEntry {
     pub established: bool,
     pub reaches_root: bool,
     pub concluded_by: Vec<ConcludedBy>,
+    pub senses: BTreeMap<String, Vec<String>>,
 }
 
 #[derive(Debug, Clone, Serialize)]
@@ -417,6 +419,7 @@ pub struct Term {
 pub struct ContextPack {
     pub argument_id: String,
     pub meaning: Value,
+    pub senses: BTreeMap<String, Vec<String>>,
     pub root: Option<String>,
     pub conclusion: StatementEntry,
     pub premises: Vec<StatementEntry>,
@@ -555,6 +558,7 @@ pub fn context_pack(
         root,
         imports: RefCell::new(HashMap::new()),
     };
+    let sense_labels = SenseLabels::new(corpus);
     let statements: HashMap<&str, &Record> = corpus
         .records("statements")
         .into_iter()
@@ -630,6 +634,7 @@ pub fn context_pack(
             established: report.established_statements.contains(sid),
             reaches_root: report.reaching_root_statements.contains(sid),
             concluded_by: concluded_by(sid),
+            senses: record.map_or_else(BTreeMap::new, |r| sense_labels.labels(r)),
         }
     };
 
@@ -1087,6 +1092,7 @@ pub fn context_pack(
     ContextPack {
         argument_id: argument_id.to_owned(),
         meaning: get(argument, "meaning"),
+        senses: sense_labels.labels(argument),
         root: report.root.clone(),
         conclusion: statement_entry(conclusion),
         premises: premises.iter().map(|sid| statement_entry(sid)).collect(),
@@ -1169,6 +1175,15 @@ fn overflowing(items: &[String]) -> String {
 }
 
 /// Python `format_context`: compact text; `--json` keeps every entry.
+/// Python `_senses`.
+fn entry_senses(entry: &StatementEntry) -> String {
+    if entry.senses.is_empty() {
+        String::new()
+    } else {
+        format!(" [senses {}]", format_labels(&entry.senses))
+    }
+}
+
 pub fn format_context(pack: &ContextPack, limit: i64) -> String {
     let mut lines: Vec<String> = Vec::new();
     fn capped<T>(
@@ -1278,6 +1293,20 @@ pub fn format_context(pack: &ContextPack, limit: i64) -> String {
         "  {}",
         pyfmt::short(pack.meaning.as_str(), WIDTH * 2)
     ));
+    if !pack.senses.is_empty() {
+        let mixed: Vec<&str> = pack
+            .senses
+            .iter()
+            .filter(|(_, labels)| labels.len() > 1)
+            .map(|(term, _)| term.as_str())
+            .collect();
+        let mixed = if mixed.is_empty() {
+            String::new()
+        } else {
+            format!(" (several senses of {})", mixed.join(", "))
+        };
+        lines.push(format!("  Senses: {}{mixed}", format_labels(&pack.senses)));
+    }
     let c = &pack.conclusion;
     lines.push(format!(
         "\nConclusion {}: {}; reaches {root}: {}",
@@ -1286,9 +1315,10 @@ pub fn format_context(pack: &ContextPack, limit: i64) -> String {
         c.reaches_root
     ));
     lines.push(format!(
-        "  {} [Lean {}]",
+        "  {} [Lean {}]{}",
         pyfmt::short(c.paraphrase.as_str(), WIDTH),
-        pyfmt::text(&c.lean_declaration)
+        pyfmt::text(&c.lean_declaration),
+        entry_senses(c)
     ));
     lines.push(format!("  {}", routes_of(c)));
     for (label, entries, commitments) in [
@@ -1314,9 +1344,10 @@ pub fn format_context(pack: &ContextPack, limit: i64) -> String {
                 routes_of(entry)
             ));
             lines.push(format!(
-                "    {} [Lean {}]",
+                "    {} [Lean {}]{}",
                 pyfmt::short(entry.paraphrase.as_str(), WIDTH),
-                pyfmt::text(&entry.lean_declaration)
+                pyfmt::text(&entry.lean_declaration),
+                entry_senses(entry)
             ));
         }
     }

@@ -6,6 +6,7 @@ pub mod dossier;
 mod kernels;
 pub mod pyfmt;
 pub mod related;
+pub mod senses;
 pub mod thickness;
 mod transcription;
 
