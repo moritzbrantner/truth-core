@@ -1,0 +1,14 @@
+{
+  "id": "STMT-NON-RECIPIENT-DETERMINATIONS-ARE-PURE",
+  "paraphrase": "OPEN analyst generalization of ST I q.7 a.1 co.: every real determination of a being that is no recipient is a pure perfection. The passage says a form is determined and has its amplitude contracted by the matter that receives it (that reception is the only source of limitation is the analyst's; q.7 a.2 contracts a subsistent created form's esse without matter), and that an undetermined form has the character of the perfect; extending this from form and esse to every real determination, and holding that the other non-pure determinations of DEF-PURE-PERFECTION (individuating principles, potencies, privations) occur only in recipients, is the analyst's.",
+  "lean_declaration": "TruthCore.Causality.ReceptionLimitation.NonRecipientDeterminationsArePure",
+  "definition_ids": [
+    "DEF-RECIPIENT",
+    "DEF-REAL-DETERMINATION",
+    "DEF-PURE-PERFECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PURE-ACT-STRICTNESS",
+    "DISAMB-RECEPTIVE-POTENCY"
+  ]
+}
