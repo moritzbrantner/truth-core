@@ -13,30 +13,26 @@ id = "STMT-MOVING-IS-IN-THE-MOVED"
 id = "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT"
 
 [[node]]
-id = "NEW-MOVED-MOVER-IS-INSTRUMENT"
-new = true
-text = "A mover that is itself being moved in the respect relevant to its moving moves as an instrument of what moves it."
+id = "STMT-MOVED-MOVER-IS-INSTRUMENT"
 
 [[node]]
-id = "NEW-INSTRUMENT-MOVES-BY-PRINCIPAL-POWER"
-new = true
-text = "An instrument does not act by the power of its own form but by the power of the principal agent, so it moves only insofar as it is moved (q.18 a.3 co.)."
+id = "STMT-INSTRUMENT-MOVES-BY-PRINCIPAL-POWER"
 
 [[node]]
-id = "NEW-RELEVANT-RESPECT-COVERS-EVERY-MOVED-MOVER"
-new = true
-text = "Every mover distinct from what it moves that is being moved in some respect is moved in a respect relevant to its moving."
+id = "STMT-RELEVANT-RESPECT-COVERS-EVERY-MOVED-MOVER"
 
 [[edge]]
-premises = ["NEW-MOVED-MOVER-IS-INSTRUMENT", "NEW-INSTRUMENT-MOVES-BY-PRINCIPAL-POWER"]
+premises = ["STMT-MOVED-MOVER-IS-INSTRUMENT", "STMT-INSTRUMENT-MOVES-BY-PRINCIPAL-POWER"]
 conclusion = "STMT-SECOND-MOVERS-MOVE-AS-MOVED-IN-RELEVANT-RESPECT"
 kind = "derivation"
-status = "mapped"
-note = "Instrument analysis gives the weak (relevant-respect) sibling from q.18 a.3's account of instruments."
+status = "certified"
+argument = "SECOND-MOVERS-RELEVANT-RESPECT-FROM-INSTRUMENT"
+note = "Instrument analysis gives the weak (relevant-respect) sibling. Both premises open; supported (with gaps) by SCG I.13 [15] and In Phys. VIII lect. 9; q.18 a.3 co.'s instrument sentence has no claim yet."
 
 [[edge]]
-premises = ["STMT-SECOND-MOVERS-MOVE-AS-MOVED-IN-RELEVANT-RESPECT", "NEW-RELEVANT-RESPECT-COVERS-EVERY-MOVED-MOVER"]
+premises = ["STMT-SECOND-MOVERS-MOVE-AS-MOVED-IN-RELEVANT-RESPECT", "STMT-RELEVANT-RESPECT-COVERS-EVERY-MOVED-MOVER"]
 conclusion = "STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED"
 kind = "derivation"
-status = "mapped"
-note = "Strong version from weak plus the scope bridge; the bridge is exactly the contested strengthening, now isolated."
+status = "certified"
+argument = "SECOND-MOVERS-ONLY-AS-MOVED-FROM-RELEVANT-RESPECT"
+note = "Strong version from weak plus the scope bridge; the bridge is exactly the contested strengthening, now isolated (omission model: a mover moved only in an irrelevant respect)."

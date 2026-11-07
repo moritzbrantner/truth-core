@@ -1,0 +1,16 @@
+{
+  "id": "STMT-CREATURE-ACTING-IS-NEW-ACTUALITY",
+  "paraphrase": "Whenever an agent other than God whose being God causes moves something, there is some respect in which that agent is in potency and that potency, as such, is being actualized. Analyst formulation, open.",
+  "lean_declaration": "TruthCore.Causality.MotionMapsBatch1.CreatureActingIsNewActuality",
+  "definition_ids": [
+    "DEF-POTENCY",
+    "DEF-ACTUALIZATION-QUA-POTENTIAL",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-GOD-AS-NAMED-IN-THE-SUMMA",
+    "DEF-MOTION-AS-REDUCTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOD",
+    "DISAMB-CAUSE"
+  ]
+}

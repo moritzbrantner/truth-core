@@ -1,0 +1,10 @@
+{
+  "id": "GRADES-FROM-COGITO-LIVING-THINKER",
+  "argument_id": "GRADES-FROM-COGITO-LIVING-THINKER",
+  "challenge_module": "TruthCore.Results.Causality.MotionMapsBatch1.Challenge",
+  "solution_module": "TruthCore.Results.Causality.MotionMapsBatch1.Solution",
+  "theorem": "TruthCore.Results.Causality.MotionMapsBatch1.gradesFromCogito",
+  "comparator_config": "results/GRADES-FROM-COGITO-LIVING-THINKER/comparator.json",
+  "status": "solution-present",
+  "description": "If some thought occurs, every occurring thought has a bearer, every bearer of an occurring thought lives, some actual thing does not live, whatever lives is more noble than any non-living actual thing, and a grade of nobility is also a grade of goodness and truth, then some thing is more good, some more true and some more noble than another (the quarta via's grades premise). Every premise is open; the thinker witnesses only the comparison, not any maximum. Omitting any premise has a finite countermodel; one joint model with a thinker and a stone satisfies all premises."
+}

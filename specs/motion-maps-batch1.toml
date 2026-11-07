@@ -1,0 +1,192 @@
+# Batch 1 of the motion exploration maps (explorations/second-movers-as-moved.toml,
+# created-agent-applied.toml, grades-found-in-things.toml). Analyst formulations,
+# attribution deferred; every new statement is an OPEN premise.
+
+[batch]
+vocab = "TruthCore.Causality.MotionMapsBatch1"
+results = "TruthCore.Results.Causality.MotionMapsBatch1"
+
+# --- Map 1: second movers -----------------------------------------------------
+
+[[statement]]
+id = "STMT-MOVED-MOVER-IS-INSTRUMENT"
+lean = "MovedMoverIsInstrument"
+paraphrase = "A mover other than what it moves that is being moved in a respect relevant to its moving of that thing does not move it by the power of its own form: it moves it as an instrument. Analyst formulation, open; restricted to the relevant respect, so weaker than STMT-WHATEVER-MOVES-AND-IS-MOVED-MOVES-AS-INSTRUMENT."
+definitions = ["DEF-MOVES-BY-OWN-FORM", "DEF-PER-SE-LINK-RELEVANT-RESPECT", "DEF-MOTION-AS-REDUCTION", "DEF-RESPECT"]
+disambiguations = ["DISAMB-PER-SE-LINK", "DISAMB-MOTION"]
+
+[[statement]]
+id = "STMT-INSTRUMENT-MOVES-BY-PRINCIPAL-POWER"
+lean = "InstrumentMovesByPrincipalPower"
+paraphrase = "A mover that moves something not by the power of its own form moves it only insofar as it is moved: it is a per se link of the mover series. Analyst formulation, open; motivated by ST I q.18 a.3 co. (the instrument acts not by the power of its own form but by that of the principal agent)."
+definitions = ["DEF-MOVES-BY-OWN-FORM", "DEF-PER-SE-LINK-RELEVANT-RESPECT"]
+disambiguations = ["DISAMB-PER-SE-LINK"]
+
+[[statement]]
+id = "STMT-RELEVANT-RESPECT-COVERS-EVERY-MOVED-MOVER"
+lean = "RelevantRespectCoversEveryMovedMover"
+paraphrase = "Every mover other than what it moves that is being moved in some respect is being moved in some respect relevant to that moving. Analyst formulation, open: exactly the scope strengthening from the relevant-respect to the strong per se reading."
+definitions = ["DEF-PER-SE-LINK-RELEVANT-RESPECT", "DEF-MOTION-AS-REDUCTION", "DEF-RESPECT"]
+disambiguations = ["DISAMB-PER-SE-LINK", "DISAMB-MOTION"]
+
+[[argument]]
+id = "SECOND-MOVERS-RELEVANT-RESPECT-FROM-INSTRUMENT"
+theorem = "relevantRespectFromInstrument"
+premises = ["STMT-MOVED-MOVER-IS-INSTRUMENT", "STMT-INSTRUMENT-MOVES-BY-PRINCIPAL-POWER"]
+conclusion = "STMT-SECOND-MOVERS-MOVE-AS-MOVED-IN-RELEVANT-RESPECT"
+rule = "universal chaining through the instrument predicate (not moving by own form)"
+meaning = "For all beings and respects: if every mover other than what it moves that is being moved in a respect relevant to that moving does not move it by its own form, and every mover that moves something not by its own form moves it only as moved, then every mover other than what it moves that is being moved in a relevant respect moves it only as moved (the relevant-respect per se reading). Both premises are open analyst formulations; neither is the conclusion, and omitting either has a finite countermodel."
+
+[[argument]]
+id = "SECOND-MOVERS-ONLY-AS-MOVED-FROM-RELEVANT-RESPECT"
+theorem = "onlyAsMovedFromRelevantRespect"
+premises = ["STMT-SECOND-MOVERS-MOVE-AS-MOVED-IN-RELEVANT-RESPECT", "STMT-RELEVANT-RESPECT-COVERS-EVERY-MOVED-MOVER"]
+conclusion = "STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED"
+rule = "instantiate the scope bridge's relevant respect into the relevant-respect reading"
+meaning = "The relevant-respect per se reading together with the scope bridge (a mover other than what it moves that is moved in some respect is moved in a relevant respect) gives the strong reading: a mover other than what it moves that is moved in some respect moves it only as moved. Isolates the contested strengthening in one open premise; without it, a mover moved only in an irrelevant respect is a finite countermodel."
+
+# --- Map 2: created agents ----------------------------------------------------
+
+[[statement]]
+id = "STMT-CREATURE-ACTING-IS-NEW-ACTUALITY"
+lean = "CreatureActingIsNewActuality"
+paraphrase = "Whenever an agent other than God whose being God causes moves something, there is some respect in which that agent is in potency and that potency, as such, is being actualized. Analyst formulation, open."
+definitions = ["DEF-POTENCY", "DEF-ACTUALIZATION-QUA-POTENTIAL", "DEF-CAUSE-OF-PERFECTION", "DEF-GOD-AS-NAMED-IN-THE-SUMMA", "DEF-MOTION-AS-REDUCTION"]
+disambiguations = ["DISAMB-GOD", "DISAMB-CAUSE"]
+
+[[statement]]
+id = "STMT-CREATURE-IN-POTENCY-TO-ITS-OPERATION"
+lean = "CreatureInPotencyToItsOperation"
+paraphrase = "Whenever an agent other than God whose being God causes moves something, that moving is an operation of the agent in some respect of its own in which it is in potency (a creature is not its own operation). Analyst formulation, open."
+definitions = ["DEF-OPERATION-RESPECT", "DEF-POTENCY", "DEF-CAUSE-OF-PERFECTION", "DEF-GOD-AS-NAMED-IN-THE-SUMMA", "DEF-MOTION-AS-REDUCTION"]
+disambiguations = ["DISAMB-GOD", "DISAMB-CAUSE"]
+
+[[statement]]
+id = "STMT-ACTING-ACTUALIZES-OPERATION-POTENCY"
+lean = "ActingActualizesOperationPotency"
+paraphrase = "Whenever something moves another and that moving is its operation in a respect of its own, its potency in that respect is, as such, being actualized. Analyst formulation, open; contested by the Physics III.3 location of motion in the moved."
+definitions = ["DEF-OPERATION-RESPECT", "DEF-ACTUALIZATION-QUA-POTENTIAL", "DEF-MOTION-AS-REDUCTION"]
+disambiguations = ["DISAMB-MOTION"]
+
+[[argument]]
+id = "CREATED-AGENT-MOVED-FROM-NEW-ACTUALITY"
+theorem = "createdAgentMovedFromNewActuality"
+premises = ["STMT-CREATURE-ACTING-IS-NEW-ACTUALITY", "STMT-BEING-MOVED-IS-ACTUALIZATION-OF-POTENCY"]
+conclusion = "STMT-EVERY-CREATED-AGENT-ACTS-AS-APPLIED-TO-ACT-BY-GOD"
+rule = "right-to-left direction of the Physics III.1 biconditional applied to the new-actuality witness"
+meaning = "If whenever an agent other than God whose being God causes moves something it has a potency that is being actualized as such, and (Physics III.1) a being is being moved in a respect exactly when it is in potency in it and that potency is actualized as such, then every such agent that moves something is itself being moved in some respect (the formalized part of the q.105 a.5 reading). That its mover is God, and God's applying its powers, are not formalized here either. The map's NEW-PASSAGE-TO-ACT-IS-BEING-MOVED node is replaced by the existing Physics III.1 statement."
+
+[[argument]]
+id = "CREATURE-NEW-ACTUALITY-FROM-OPERATION-POTENCY"
+theorem = "newActualityFromOperationPotency"
+premises = ["STMT-CREATURE-IN-POTENCY-TO-ITS-OPERATION", "STMT-ACTING-ACTUALIZES-OPERATION-POTENCY"]
+conclusion = "STMT-CREATURE-ACTING-IS-NEW-ACTUALITY"
+rule = "universal chaining through the operation respect"
+meaning = "If every created agent's moving is an operation in a respect in which the agent is in potency, and every agent's operation actualizes its potency in that respect as such, then whenever an agent other than God whose being God causes moves something, it has a potency being actualized as such. Both premises are open analyst formulations; omitting the second leaves the Aristotelian alternative (the agent in potency to its operation, motion only in the moved) as a finite countermodel."
+
+# --- Map 3: grades found in things -------------------------------------------
+
+[[statement]]
+id = "STMT-THINKER-LIVES"
+lean = "ThinkerLives"
+paraphrase = "Whatever bears an occurring thought lives: thinking is an operation that remains in the agent, and to live is to operate from oneself. Analyst formulation, open."
+definitions = ["DEF-THOUGHT-OCCURRENCE", "DEF-THOUGHT-BEARER", "DEF-LIVING"]
+
+[[statement]]
+id = "STMT-SOMETHING-MERELY-EXISTS"
+lean = "SomethingMerelyExists"
+paraphrase = "Some actual thing does not live (a stone). Analyst formulation, open empirical premise."
+definitions = ["DEF-MERELY-EXISTING", "DEF-LIVING"]
+
+[[statement]]
+id = "STMT-LIVING-MORE-NOBLE-THAN-MERELY-EXISTING"
+lean = "LivingMoreNobleThanMerelyExisting"
+paraphrase = "Whatever lives is more noble than any actual thing that does not live. Analyst formulation, open; SCG I.28 [1] and [4] bear on it without stating the universal comparison."
+definitions = ["DEF-MORE-IN", "DEF-LIVING", "DEF-MERELY-EXISTING"]
+
+[[statement]]
+id = "STMT-ONE-GRADED-PAIR-SUFFICES"
+lean = "NobilityGradeConvertible"
+paraphrase = "If one thing is more noble than another, it is also more good and more true than it, so one graded pair in nobility gives grades of goodness, truth and nobility. Analyst formulation, open: the convertibility of the transcendentals read for the comparative."
+definitions = ["DEF-MORE-IN", "DEF-ONTOLOGICAL-TRUTH"]
+disambiguations = ["DISAMB-TRUE"]
+
+[[argument]]
+id = "GRADES-FROM-COGITO-LIVING-THINKER"
+theorem = "gradesFromCogito"
+premises = ["STMT-COGITO-THOUGHT-OCCURS", "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT", "STMT-THINKER-LIVES", "STMT-SOMETHING-MERELY-EXISTS", "STMT-LIVING-MORE-NOBLE-THAN-MERELY-EXISTING", "STMT-ONE-GRADED-PAIR-SUFFICES"]
+conclusion = "STMT-THINGS-MORE-AND-LESS-GOOD-TRUE-NOBLE"
+rule = "existential instantiation of the thought and its bearer, then of the non-living actual thing; universal instantiation of the comparison and convertibility"
+meaning = "If some thought occurs, every occurring thought has a bearer, every bearer of an occurring thought lives, some actual thing does not live, whatever lives is more noble than any non-living actual thing, and a grade of nobility is also a grade of goodness and truth, then some thing is more good, some more true and some more noble than another (the quarta via's grades premise). Every premise is open; the thinker witnesses only the comparison, not any maximum. Omitting any premise has a finite countermodel; one joint model with a thinker and a stone satisfies all premises."
+
+# --- Controls -----------------------------------------------------------------
+
+[[statement]]
+id = "STMT-MOTION-MAPS-BATCH1-CONTROLS"
+lean = "Control.Certificate"
+paraphrase = "Finite controls for motion maps batch 1: a thinker-and-stone model satisfies every premise and the conclusion of the grades argument; for each premise of the five derivations there is a finite model in which the other premises hold and the conclusion fails."
+definitions = ["DEF-MOVES-BY-OWN-FORM", "DEF-OPERATION-RESPECT", "DEF-LIVING", "DEF-MERELY-EXISTING", "DEF-MORE-IN"]
+
+[[argument]]
+id = "MOTION-MAPS-BATCH1-CONTROLS"
+theorem = "controls"
+premises = []
+conclusion = "STMT-MOTION-MAPS-BATCH1-CONTROLS"
+rule = "finite model checking"
+meaning = "Nonvacuity: one thought borne by a living thinker and a non-living actual stone, the thinker more noble, good and true; all six grades premises and the conclusion hold. Omission models: a stick moved in a relevant respect that moves by its own form (instrument premise), or by no form but is no per se link (principal-power premise); a stick moved only in an irrelevant respect (scope bridge) or with no per se links (weak reading); a creature that moves with no potency actualized (new actuality), with its potency actualized but nothing counted as moved (Physics III.1), with no operation in potency (operation potency), or in potency to its operation without its actualization (acting premise); no thought, a bearerless thought, a lifeless thinker, no merely existing thing, no nobility comparison, and nobility without goodness or truth (grades premises). Finite interpretations only."
+
+# --- Source support (bears on, does not state) ---------------------------------
+
+[[relation]]
+id = "REL-AQUINAS-SCG-I-13-MOVED-MOVERS-INSTRUMENTS-SUPPORTS-MOVED-MOVER-IS-INSTRUMENT"
+subject_kind = "claim"
+subject_id = "AQUINAS-SCG-I-13-MOVED-MOVERS-INSTRUMENTS"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-MOVED-MOVER-IS-INSTRUMENT"
+note = "SCG I.13 [15] counts every mover of the series as an instrumental cause because it is a moved mover. That bears on this premise, which restricts the antecedent to a mover moved in a respect relevant to its moving. Gaps: the text states no respect restriction (it is stronger, and is not attributed this restricted form); 'instrumental cause' is typed here as not moving by the power of one's own form (DEF-MOVES-BY-OWN-FORM), which the sentence does not define; English-translation basis."
+
+[[relation]]
+id = "REL-AQUINAS-IN-PHYS-VIII-L9-MOVES-AND-MOVED-INSTRUMENT-SUPPORTS-MOVED-MOVER-IS-INSTRUMENT"
+subject_kind = "claim"
+subject_id = "AQUINAS-IN-PHYS-VIII-L9-MOVES-AND-MOVED-INSTRUMENT"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-MOVED-MOVER-IS-INSTRUMENT"
+note = "In Phys. VIII lect. 9 n. 1044: whatever moves and is moved has the character of an instrument. Bears on this premise as SCG I.13 [15] does, with the same gaps (no respect restriction; instrument not typed by own form), and Aquinas presents the surrounding argument as probable, not demonstrative."
+
+[[relation]]
+id = "REL-AQUINAS-SCG-I-13-INSTRUMENT-NEEDS-PRINCIPAL-SUPPORTS-INSTRUMENT-MOVES-BY-PRINCIPAL-POWER"
+subject_kind = "claim"
+subject_id = "AQUINAS-SCG-I-13-INSTRUMENT-NEEDS-PRINCIPAL"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-INSTRUMENT-MOVES-BY-PRINCIPAL-POWER"
+note = "SCG I.13 [15]: an instrumental mover cannot move unless there is a principal mover. That bears on this premise without stating it: the premise says that a mover that does not move by its own form moves only as moved (a per se link), not that a principal mover exists. The closer sentence, ST I q.18 a.3 co. (instrumentum, quod non agit ex virtute suae formae, sed ex virtute principalis agentis), was read in the pinned AQUINAS-ST-I-Q18-A3 passage but has no claim record; a claim on it would source DEF-MOVES-BY-OWN-FORM."
+
+[[relation]]
+id = "REL-AQUINAS-IN-PHYS-VIII-L9-INSTRUMENT-NEEDS-PRINCIPAL-SUPPORTS-INSTRUMENT-MOVES-BY-PRINCIPAL-POWER"
+subject_kind = "claim"
+subject_id = "AQUINAS-IN-PHYS-VIII-L9-INSTRUMENT-NEEDS-PRINCIPAL"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-INSTRUMENT-MOVES-BY-PRINCIPAL-POWER"
+note = "In Phys. VIII lect. 9 n. 1041: what a mover uses as an instrument cannot cause motion without a principal mover moving it, as a stick without the hand. Closer than SCG I.13 [15] (the instrument is moved by the principal), but it speaks of what is used as an instrument, not of every mover that does not move by its own form, and does not type the per se link."
+
+[[relation]]
+id = "REL-AQUINAS-ST-I-Q18-A3-HIGHEST-LIFE-SUPPORTS-THINKER-LIVES"
+subject_kind = "claim"
+subject_id = "AQUINAS-ST-I-Q18-A3-HIGHEST-LIFE"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-THINKER-LIVES"
+note = "The claim's reading of q.18 a.3 co. records that things live insofar as they act from themselves; the same pinned passage classes understanding as an action that remains in the agent and says that what understands itself is said to move itself. That bears on this premise. Gaps: the claim states the highest-life thesis about God, not the universal that every bearer of an occurring thought lives; the cogito's thought episode and bearer (DEF-THOUGHT-OCCURRENCE, DEF-THOUGHT-BEARER) are not Aquinas's vocabulary."
+
+[[relation]]
+id = "REL-AQUINAS-SCG-I28-MERELY-EXISTING-PARTICIPATION-SUPPORTS-LIVING-MORE-NOBLE"
+subject_kind = "claim"
+subject_id = "AQUINAS-SCG-I28-MERELY-EXISTING-PARTICIPATION"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-LIVING-MORE-NOBLE-THAN-MERELY-EXISTING"
+note = "SCG I.28 [4], read against [1]'s comparison of living with merely existing things: merely existing things participate being in a particular and very imperfect mode. That bears on this premise. Gaps: [1] speaks of more perfect (excellence), not 'more noble' as the quarta via's respect; the claim's statement is the participation thesis, not the comparison; the universal over every living thing and every non-living actual thing is not stated; Pegis English basis."

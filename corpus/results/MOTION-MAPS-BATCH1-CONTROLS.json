@@ -1,0 +1,10 @@
+{
+  "id": "MOTION-MAPS-BATCH1-CONTROLS",
+  "argument_id": "MOTION-MAPS-BATCH1-CONTROLS",
+  "challenge_module": "TruthCore.Results.Causality.MotionMapsBatch1.Challenge",
+  "solution_module": "TruthCore.Results.Causality.MotionMapsBatch1.Solution",
+  "theorem": "TruthCore.Results.Causality.MotionMapsBatch1.controls",
+  "comparator_config": "results/MOTION-MAPS-BATCH1-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Nonvacuity: one thought borne by a living thinker and a non-living actual stone, the thinker more noble, good and true; all six grades premises and the conclusion hold. Omission models: a stick moved in a relevant respect that moves by its own form (instrument premise), or by no form but is no per se link (principal-power premise); a stick moved only in an irrelevant respect (scope bridge) or with no per se links (weak reading); a creature that moves with no potency actualized (new actuality), with its potency actualized but nothing counted as moved (Physics III.1), with no operation in potency (operation potency), or in potency to its operation without its actualization (acting premise); no thought, a bearerless thought, a lifeless thinker, no merely existing thing, no nobility comparison, and nobility without goodness or truth (grades premises). Finite interpretations only."
+}
