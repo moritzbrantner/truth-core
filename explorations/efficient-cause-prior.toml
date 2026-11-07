@@ -1,0 +1,69 @@
+target = "STMT-EFFICIENT-CAUSE-IS-PRIOR-TO-EFFECT"
+
+[[node]]
+id = "STMT-EFFICIENT-CAUSE-IS-PRIOR-TO-EFFECT"
+
+[[node]]
+id = "STMT-AQUINAS-ST-I-Q44-A1-EFFICIENT-CAUSE-COUNTERFACTUAL-DEPENDENCE"
+
+[[node]]
+id = "STMT-SIMPLY-PRIOR-IS-CAUSE-OF-BEING"
+
+[[node]]
+id = "STMT-NOTHING-PRIOR-TO-ITSELF"
+
+[[node]]
+id = "STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF"
+
+# Lean-bound dependence reading of the q.44 a.1 statement (which has no Lean declaration).
+[[node]]
+id = "STMT-EFFECT-DEPENDS-FOR-BEING-ON-EFFICIENT-CAUSE"
+
+# Former NEW-PRIORITY-BY-NATURE-IS-NONMUTUAL-DEPENDENCE, split into its two directions.
+[[node]]
+id = "STMT-NONMUTUAL-DEPENDENCE-SUFFICES-FOR-PRIORITY"
+
+[[node]]
+id = "STMT-PRIORITY-REQUIRES-NONMUTUAL-DEPENDENCE"
+
+# Former NEW-CAUSE-NOT-DEPENDENT-ON-EFFECT-AS-SUCH.
+[[node]]
+id = "STMT-EFFICIENT-CAUSE-NOT-DEPENDENT-ON-EFFECT"
+
+[[node]]
+id = "STMT-NO-MUTUAL-EFFICIENT-CAUSATION"
+
+[[edge]]
+premises = ["STMT-AQUINAS-ST-I-Q44-A1-EFFICIENT-CAUSE-COUNTERFACTUAL-DEPENDENCE"]
+conclusion = "STMT-EFFECT-DEPENDS-FOR-BEING-ON-EFFICIENT-CAUSE"
+kind = "source"
+status = "rejected"
+note = "Not a derivation: the q.44 statement has no Lean declaration. Recorded instead as the supports relation REL-Q44-A1-COUNTERFACTUAL-SUPPORTS-EFFECT-DEPENDS-ON-EFFICIENT-CAUSE with its gap."
+
+[[edge]]
+premises = ["STMT-EFFECT-DEPENDS-FOR-BEING-ON-EFFICIENT-CAUSE", "STMT-EFFICIENT-CAUSE-NOT-DEPENDENT-ON-EFFECT", "STMT-NONMUTUAL-DEPENDENCE-SUFFICES-FOR-PRIORITY"]
+conclusion = "STMT-EFFICIENT-CAUSE-IS-PRIOR-TO-EFFECT"
+kind = "derivation"
+status = "certified"
+note = "Certified as EFFICIENT-CAUSE-PRIOR-FROM-NONMUTUAL-DEPENDENCE; uses only the sufficient direction of the dependence analysis of priority."
+
+[[edge]]
+premises = ["STMT-PRIORITY-REQUIRES-NONMUTUAL-DEPENDENCE"]
+conclusion = "STMT-NOTHING-PRIOR-TO-ITSELF"
+kind = "derivation"
+status = "certified"
+note = "Certified as NOTHING-PRIOR-TO-ITSELF-FROM-NONMUTUAL-DEPENDENCE; uses only the necessary direction."
+
+[[edge]]
+premises = ["STMT-EFFECT-DEPENDS-FOR-BEING-ON-EFFICIENT-CAUSE", "STMT-EFFICIENT-CAUSE-NOT-DEPENDENT-ON-EFFECT"]
+conclusion = "STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF"
+kind = "derivation"
+status = "certified"
+note = "Certified as NO-SELF-EFFICIENT-CAUSATION-FROM-DEPENDENCE: a second route that bypasses priority."
+
+[[edge]]
+premises = ["STMT-EFFECT-DEPENDS-FOR-BEING-ON-EFFICIENT-CAUSE", "STMT-EFFICIENT-CAUSE-NOT-DEPENDENT-ON-EFFECT"]
+conclusion = "STMT-NO-MUTUAL-EFFICIENT-CAUSATION"
+kind = "derivation"
+status = "certified"
+note = "Certified as NO-MUTUAL-EFFICIENT-CAUSATION-FROM-DEPENDENCE."

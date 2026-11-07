@@ -1,0 +1,8 @@
+{
+  "id": "DEF-DEPENDS-FOR-BEING",
+  "term": "dependence for being (DependsForBeing x y)",
+  "definition": "DependsForBeing x y: x would not be if y were not, in the sense ST I q.44 a.1 ad 2 gives to an effect's relation to its agent cause ('effectus ... non esset, si causa non esset'), including where the antecedent cannot be realized. It is not temporal succession, not material implication from the nonexistence of y, and not necessitation of x by y (DEF-Q44-CAUSED-NECESSITY-DEPENDENCE). Example: the light in the air depends on the shining sun. Non-example: the sun does not depend for its being on the lit air. Structural properties (irreflexivity, asymmetry) are not built in; nothing here says dependence is transitive. In Lean a parameter B → B → Prop.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.CausalMapsBatch1.EffectDependsOnEfficientCause",
+  "note": "Stipulative analyst notion, attribution deferred. Its relation to simple priority is the pair of open premises STMT-NONMUTUAL-DEPENDENCE-SUFFICES-FOR-PRIORITY and STMT-PRIORITY-REQUIRES-NONMUTUAL-DEPENDENCE; its relation to efficient causing is STMT-EFFECT-DEPENDS-FOR-BEING-ON-EFFICIENT-CAUSE and STMT-EFFICIENT-CAUSE-NOT-DEPENDENT-ON-EFFECT. Rival accounts it must be tested against: counterfactual dependence in Lewis's sense (which allows mutual dependence) and grounding-based dependence."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "STMT-MOVER-CAUSES-WHAT-IT-MOVES-TO",
+  "paraphrase": "OPEN analyst bridge: whatever moves a thing in a respect causes that thing's being so in that respect (CausesIn, the perfection-causing relation; moving is reduction from potency to act). It relates two relations DISAMB-CAUSE keeps apart and does not identify them.",
+  "lean_declaration": "TruthCore.Causality.CausalMapsBatch1.MoverCausesWhatItMovesTo",
+  "definition_ids": [
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE",
+    "DISAMB-MOTION"
+  ]
+}

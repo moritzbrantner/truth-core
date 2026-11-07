@@ -1,0 +1,20 @@
+{
+  "id": "NO-SELF-EFFICIENT-CAUSATION-FROM-DEPENDENCE",
+  "premise_statement_ids": [
+    "STMT-EFFECT-DEPENDS-FOR-BEING-ON-EFFICIENT-CAUSE",
+    "STMT-EFFICIENT-CAUSE-NOT-DEPENDENT-ON-EFFECT"
+  ],
+  "conclusion_statement_id": "STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF",
+  "inference_ids": [
+    "INF-NO-SELF-EFFICIENT-CAUSATION-FROM-DEPENDENCE"
+  ],
+  "meaning": "A second route to 'nothing is its own efficient cause' that bypasses priority: a self-cause would depend for its being on itself (as effect) and not depend on itself (as cause).",
+  "definition_ids": [
+    "DEF-DEPENDS-FOR-BEING",
+    "DEF-EFFICIENT-CAUSING",
+    "DEF-Q44-CAUSED-NECESSITY-DEPENDENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE"
+  ]
+}

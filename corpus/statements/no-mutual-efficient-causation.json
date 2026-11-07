@@ -1,0 +1,11 @@
+{
+  "id": "STMT-NO-MUTUAL-EFFICIENT-CAUSATION",
+  "paraphrase": "No two things efficiently cause each other, in any respects: if c efficiently causes x in some respect, x efficiently causes c in no respect.",
+  "lean_declaration": "TruthCore.Causality.CausalMapsBatch1.NoMutualEfficientCausation",
+  "definition_ids": [
+    "DEF-EFFICIENT-CAUSING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE"
+  ]
+}

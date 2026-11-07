@@ -1,0 +1,34 @@
+target = "STMT-BRIDGE-GOD-FOUNDED-AUTHORITY-PROPOSES-ONLY-TRUTH"
+
+[[node]]
+id = "STMT-BRIDGE-GOD-FOUNDED-AUTHORITY-PROPOSES-ONLY-TRUTH"
+
+[[node]]
+id = "STMT-GOD-CONFIRMS-ONLY-TRUTH"
+
+[[node]]
+id = "STMT-MANDATE-COVERS-JESUS-FOUNDING-WITH-TEACHING"
+
+[[node]]
+id = "NEW-DEFINITIVE-PROPOSAL-IS-GOD-CONFIRMED"
+new = true
+text = "What a teaching authority founded by God definitively proposes as revealed, God confirms (by the founding commission's promised assistance)."
+
+[[node]]
+id = "NEW-FOUNDER-GUARANTEES-FOUNDED-AUTHORITY"
+new = true
+text = "A God who founds a teaching authority to transmit revelation preserves it from definitive error in that task."
+
+[[edge]]
+premises = ["NEW-FOUNDER-GUARANTEES-FOUNDED-AUTHORITY"]
+conclusion = "NEW-DEFINITIVE-PROPOSAL-IS-GOD-CONFIRMED"
+kind = "bridge"
+status = "mapped"
+note = "Providence/assistance premise; sources: Mt 28.20, Jn 14.26 (lane B)."
+
+[[edge]]
+premises = ["NEW-DEFINITIVE-PROPOSAL-IS-GOD-CONFIRMED", "STMT-GOD-CONFIRMS-ONLY-TRUTH"]
+conclusion = "STMT-BRIDGE-GOD-FOUNDED-AUTHORITY-PROPOSES-ONLY-TRUTH"
+kind = "derivation"
+status = "mapped"
+note = "Veracity applied to definitive proposals; reuses the veracity node, so this bridge thickens through STMT-GOD-CONFIRMS-ONLY-TRUTH."

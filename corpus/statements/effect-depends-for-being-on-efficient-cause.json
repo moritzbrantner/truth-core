@@ -1,0 +1,13 @@
+{
+  "id": "STMT-EFFECT-DEPENDS-FOR-BEING-ON-EFFICIENT-CAUSE",
+  "paraphrase": "OPEN reading of ST I q.44 a.1 ad 2 as dependence: whatever c efficiently causes in any respect depends for its being on c (it would not be if c were not).",
+  "lean_declaration": "TruthCore.Causality.CausalMapsBatch1.EffectDependsOnEfficientCause",
+  "definition_ids": [
+    "DEF-EFFICIENT-CAUSING",
+    "DEF-DEPENDS-FOR-BEING",
+    "DEF-Q44-CAUSED-NECESSITY-DEPENDENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE"
+  ]
+}

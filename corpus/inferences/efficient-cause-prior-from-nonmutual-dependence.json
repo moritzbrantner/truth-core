@@ -1,0 +1,13 @@
+{
+  "id": "INF-EFFICIENT-CAUSE-PRIOR-FROM-NONMUTUAL-DEPENDENCE",
+  "input_statement_ids": [
+    "STMT-EFFECT-DEPENDS-FOR-BEING-ON-EFFICIENT-CAUSE",
+    "STMT-EFFICIENT-CAUSE-NOT-DEPENDENT-ON-EFFECT",
+    "STMT-NONMUTUAL-DEPENDENCE-SUFFICES-FOR-PRIORITY"
+  ],
+  "output_statement_id": "STMT-EFFICIENT-CAUSE-IS-PRIOR-TO-EFFECT",
+  "rule": "Universal instantiation and modus ponens",
+  "meaning": "Derives the secunda via premise that an efficient cause is simply prior to its effect from three OPEN premises: the effect depends for its being on its efficient cause (q.44 a.1 ad 2 read as dependence), the cause does not depend on its effect, and nonmutual dependence suffices for simple priority.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

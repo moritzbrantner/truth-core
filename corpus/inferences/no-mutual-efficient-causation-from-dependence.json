@@ -1,0 +1,12 @@
+{
+  "id": "INF-NO-MUTUAL-EFFICIENT-CAUSATION-FROM-DEPENDENCE",
+  "input_statement_ids": [
+    "STMT-EFFECT-DEPENDS-FOR-BEING-ON-EFFICIENT-CAUSE",
+    "STMT-EFFICIENT-CAUSE-NOT-DEPENDENT-ON-EFFECT"
+  ],
+  "output_statement_id": "STMT-NO-MUTUAL-EFFICIENT-CAUSATION",
+  "rule": "Reductio",
+  "meaning": "If c efficiently causes x and x efficiently caused c, then c would depend for its being on x (as x's effect) and not depend on x (as x's cause). Hence no two things efficiently cause each other in any respects.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

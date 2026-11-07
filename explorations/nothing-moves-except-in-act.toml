@@ -1,0 +1,41 @@
+target = "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT"
+
+[[node]]
+id = "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT"
+
+[[node]]
+id = "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH"
+
+[[node]]
+id = "STMT-MORE-SUCH-HAS-THE-PERFECTION"
+
+[[node]]
+id = "STMT-NATURAL-SELF-MOTION-HAS-A-MOVER"
+
+[[node]]
+id = "STMT-EXCLUDED-MIDDLE"
+
+# Former NEW-MOVER-IS-EFFICIENT-CAUSE-OF-MOTION: stated over CausesIn (the relation
+# of the Metaphysics II.1 premise), not EfficientlyCausesIn.
+[[node]]
+id = "STMT-MOVER-CAUSES-WHAT-IT-MOVES-TO"
+
+# Former NEW-SELF-MOVER-MOVES-BY-A-PART-IN-ACT, split into the part analysis and
+# the part-to-whole step.
+[[node]]
+id = "STMT-SELF-MOVER-MOVES-BY-A-DISTINCT-PART"
+
+[[node]]
+id = "STMT-WHOLE-IN-ACT-THROUGH-ITS-PART"
+
+[[node]]
+id = "NEW-MOVING-IS-CAUSING-AS-MORE-SUCH"
+new = true
+text = "A distinct mover is more such in the respect it moves to than the moved (the heater is hotter)."
+
+[[edge]]
+premises = ["STMT-EXCLUDED-MIDDLE", "STMT-MOVER-CAUSES-WHAT-IT-MOVES-TO", "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH", "STMT-MORE-SUCH-HAS-THE-PERFECTION", "STMT-SELF-MOVER-MOVES-BY-A-DISTINCT-PART", "STMT-WHOLE-IN-ACT-THROUGH-ITS-PART"]
+conclusion = "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT"
+kind = "derivation"
+status = "certified"
+note = "Certified as MOVES-ONLY-AS-IN-ACT-FROM-CAUSAL-EXCESS. The self-mover case that rejected the lead in ATTEMPT-REJECTED-DERIVATION-LEADS-20261107 is handled by a distinct moving part plus the part-to-whole premise. Does not use STMT-NO-MOVER-MOVES-ITSELF-IN-ITS-RESPECT (derived from the target). NEW-MOVING-IS-CAUSING-AS-MORE-SUCH is not needed: it is the composite of the first two premises."

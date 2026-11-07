@@ -1,0 +1,9 @@
+{
+  "id": "REL-Q4-A2-PERFECTION-IN-CAUSE-SUPPORTS-CAUSE-HAS-WHAT-IT-GIVES",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q4-A2-PERFECTION-IN-CAUSE-A",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-CAUSE-HAS-WHAT-IT-GIVES",
+  "note": "Q.4 a.2 co. says whatever perfection is in the effect is in the effective cause; the claim reads 'effect' as a thing whose being the cause causes. The premise says it of every cause of any perfection in any thing. The extension beyond causes of being is the analyst's; its scoped version STMT-CAUSE-OF-BEING-HAS-WHAT-IT-GIVES is derived in CAUSE-OF-BEING-HAS-WHAT-IT-GIVES-FROM-PREEXISTENCE."
+}
