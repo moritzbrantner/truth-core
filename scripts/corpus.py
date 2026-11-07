@@ -2989,6 +2989,164 @@ def thickness_delta(base: dict[str, Any], head: dict[str, Any]) -> dict[str, Any
     return {"summary": summary, "changed": changed}
 
 
+QUEUE_CANDIDATE_LIMIT = 5
+QUEUE_TEXT_ATTEMPT_LIMIT = 5
+
+
+def thickness_queue(
+    frontier: dict[str, Any],
+    report: dict[str, Any],
+    records: dict[str, list[dict[str, Any]]],
+) -> list[dict[str, Any]]:
+    """Derivation worklist (presentation only): every statement reaching the root
+    with no verified non-transcription derivation in `report` (a `thickness_report`),
+    with what is already known about it, so workers do not re-check covered ground.
+
+    `records` maps "statements", "arguments", "results", "relations", "attempts",
+    "definitions" and "claims" to their record lists. A statement is "examined"
+    when an attempt with outcome "rejected" names it. Entries are sorted
+    unexamined first, then by the number of arguments depending on the statement
+    (frontier `premise_dependents`), descending."""
+    transcriptions = frontier.get("transcription_results", {})
+    depths = frontier.get("statement_depths", {})
+    dependents = frontier.get("premise_dependents", {})
+    counted_refutations: dict[tuple[str, str], bool] = {
+        (entry["argument_id"], entry["statement_id"]): bool(entry.get("counted"))
+        for entry in frontier.get("refutations", [])
+    }
+    statements = {record["id"]: record for record in records.get("statements", [])}
+    results_by_argument: dict[str, list[str]] = {}
+    for result in records.get("results", []):
+        results_by_argument.setdefault(result["argument_id"], []).append(result["id"])
+    concluding: dict[str, list[str]] = {}
+    used: set[str] = set()
+    for argument in records.get("arguments", []):
+        concluding.setdefault(argument["conclusion_statement_id"], []).append(argument["id"])
+        used.add(argument["conclusion_statement_id"])
+        used.update(argument.get("premise_statement_ids", []))
+        used.update(argument.get("commitment_statement_ids", []))
+    supports: dict[str, list[dict[str, str]]] = {}
+    rivals: dict[str, list[str]] = {}
+    refuters: dict[str, list[str]] = {}
+    for relation in records.get("relations", []):
+        predicate = relation.get("predicate")
+        if predicate == "supports":
+            supports.setdefault(relation["object_id"], []).append(
+                {"kind": relation["subject_kind"], "id": relation["subject_id"], "relation_id": relation["id"]}
+            )
+        elif predicate == ALTERNATIVE_PREDICATE:
+            rivals.setdefault(relation["object_id"], []).append(relation["subject_id"])
+        elif predicate == "refutes":
+            refuters.setdefault(relation["object_id"], []).append(relation["subject_id"])
+    attempts_by_statement: dict[str, list[dict[str, str]]] = {}
+    for attempt in records.get("attempts", []):
+        for statement_id in attempt.get("statement_ids", []):
+            attempts_by_statement.setdefault(statement_id, []).append(
+                {"id": attempt["id"], "outcome": attempt["outcome"]}
+            )
+    claim_statement = {claim["id"]: claim.get("statement_id") for claim in records.get("claims", [])}
+    defined_statements = {
+        claim_statement[claim_id]
+        for definition in records.get("definitions", [])
+        for claim_id in definition.get("claim_ids", [])
+        if claim_statement.get(claim_id)
+    }
+    unused_defined = sorted(
+        statement_id for statement_id in defined_statements if statement_id not in used and statement_id in statements
+    )
+
+    def argument_status(argument_id: str) -> str:
+        result_ids = results_by_argument.get(argument_id, [])
+        if not result_ids:
+            return "no result"
+        verified = [result_id for result_id in result_ids if result_id not in transcriptions]
+        if verified:
+            return "verified"
+        return f"transcription ({transcriptions[result_ids[0]].get('kind', 'unknown')})"
+
+    entries = []
+    for statement_id, derivations in report["derivations"].items():
+        if derivations:
+            continue
+        statement = statements.get(statement_id, {})
+        definitions = set(statement.get("definition_ids", []))
+        candidates = []
+        if definitions:
+            for other in unused_defined:
+                shared = definitions & set(statements[other].get("definition_ids", []))
+                if other != statement_id and shared:
+                    candidates.append({"statement_id": other, "shared_definition_ids": sorted(shared)})
+            candidates.sort(key=lambda item: (-len(item["shared_definition_ids"]), item["statement_id"]))
+        attempts = sorted(
+            attempts_by_statement.get(statement_id, []),
+            key=lambda item: (item["outcome"] != "rejected", item["id"]),
+        )
+        entries.append({
+            "statement_id": statement_id,
+            "depth": depths.get(statement_id),
+            "lean_declaration": statement.get("lean_declaration"),
+            "argument_dependents": len(dependents.get(statement_id, {}).get("arguments", [])),
+            "examined": any(attempt["outcome"] == "rejected" for attempt in attempts),
+            "arguments": [
+                {"argument_id": argument_id, "status": argument_status(argument_id)}
+                for argument_id in sorted(concluding.get(statement_id, []))
+            ],
+            "supports": sorted(supports.get(statement_id, []), key=lambda item: item["relation_id"]),
+            "rivals": [
+                {
+                    "statement_id": rival,
+                    "refutations": [
+                        {"argument_id": argument_id, "counted": counted_refutations.get((argument_id, rival), False)}
+                        for argument_id in sorted(refuters.get(rival, []))
+                    ],
+                }
+                for rival in sorted(set(rivals.get(statement_id, [])))
+            ],
+            "attempts": attempts,
+            "definition_linked_unused": candidates[:QUEUE_CANDIDATE_LIMIT],
+        })
+    entries.sort(key=lambda entry: (entry["examined"], -entry["argument_dependents"], entry["statement_id"]))
+    return entries
+
+
+def format_thickness_queue(root: str | None, queue: list[dict[str, Any]]) -> str:
+    examined = sum(1 for entry in queue if entry["examined"])
+    lines = [
+        f"derivation worklist for {root} (presentation only; closes nothing)",
+        f"statements reaching the root without a verified non-transcription derivation: {len(queue)}"
+        f" ({examined} examined: a rejected-outcome attempt names them)",
+    ]
+    for entry in queue:
+        mark = "examined" if entry["examined"] else "unexamined"
+        lines.append(
+            f"{entry['statement_id']} [{entry['depth']}; {entry['argument_dependents']} dependent arguments; {mark}]"
+        )
+        lines.append(f"  lean: {entry['lean_declaration'] or '-'}")
+        for argument in entry["arguments"]:
+            lines.append(f"  argument {argument['argument_id']}: {argument['status']}")
+        for support in entry["supports"]:
+            lines.append(f"  supported by {support['kind']} {support['id']}")
+        for rival in entry["rivals"]:
+            if rival["refutations"]:
+                refutations = ", ".join(
+                    f"{item['argument_id']} ({'counted' if item['counted'] else 'not counted'})"
+                    for item in rival["refutations"]
+                )
+            else:
+                refutations = "no refutes relation"
+            lines.append(f"  rival {rival['statement_id']}: {refutations}")
+        shown = entry["attempts"][:QUEUE_TEXT_ATTEMPT_LIMIT]
+        for attempt in shown:
+            lines.append(f"  attempt {attempt['id']}: {attempt['outcome']}")
+        if len(entry["attempts"]) > len(shown):
+            lines.append(f"  (+{len(entry['attempts']) - len(shown)} more attempts; --json lists all)")
+        for candidate in entry["definition_linked_unused"]:
+            lines.append(
+                f"  unused definition-linked {candidate['statement_id']} via {', '.join(candidate['shared_definition_ids'])}"
+            )
+    return "\n".join(lines)
+
+
 def format_thickness(report: dict[str, Any], delta: dict[str, Any] | None) -> str:
     lines = [
         f"derivational thickness for {report['root']} (presentation only; closes nothing)",
@@ -3018,6 +3176,19 @@ def command_thickness(args: argparse.Namespace) -> int:
         [record for _, record in load_dir("arguments")],
         [record for _, record in load_dir("results")],
     )
+    if args.queue:
+        if args.base:
+            raise CorpusError("thickness --queue does not take --base")
+        records = {
+            kind: [record for _, record in load_dir(kind)]
+            for kind in ("statements", "arguments", "results", "relations", "attempts", "definitions", "claims")
+        }
+        queue = thickness_queue(frontier, head, records)
+        if args.json:
+            print(json.dumps({"root": head["root"], "queue": queue}, indent=2, ensure_ascii=False))
+        else:
+            print(format_thickness_queue(head["root"], queue))
+        return 0
     delta = thickness_delta(revision_thickness(args.base, args.root), head) if args.base else None
     if args.json:
         print(json.dumps({"report": head, "delta": delta}, indent=2, ensure_ascii=False))
@@ -4494,6 +4665,11 @@ def parser() -> argparse.ArgumentParser:
     )
     thickness.add_argument("--root", default=DEFAULT_FRONTIER_ROOT)
     thickness.add_argument("--base", help="also report the change from this revision")
+    thickness.add_argument(
+        "--queue",
+        action="store_true",
+        help="list statements reaching the root without a verified non-transcription derivation (worklist)",
+    )
     thickness.add_argument("--json", action="store_true")
     thickness.set_defaults(func=command_thickness)
     territory = sub.add_parser(

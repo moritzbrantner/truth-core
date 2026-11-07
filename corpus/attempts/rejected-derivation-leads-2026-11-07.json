@@ -1,0 +1,21 @@
+{
+  "id": "ATTEMPT-REJECTED-DERIVATION-LEADS-20261107",
+  "statement_ids": [
+    "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY",
+    "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
+    "STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS",
+    "STMT-GOD-CONFIRMS-ONLY-TRUTH",
+    "STMT-CAUSE-OF-NECESSARY-BEING-CAUSES-ITS-NECESSITY",
+    "STMT-PER-SE-MOVER-LINK-IS-PER-SE-CAUSE-LINK",
+    "STMT-CREATURES-ORDERED-TO-PRIMARY-AS-CAUSE",
+    "STMT-CHRIST-FOUNDED-SELECTED-CHURCH",
+    "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
+    "STMT-IMMATERIAL-IS-INTELLECTUAL",
+    "STMT-CHANGE-WITHOUT-ANY-MOVER"
+  ],
+  "date": "2026-11-07",
+  "kind": "derivation",
+  "outcome": "rejected",
+  "summary": "Derivation leads examined and rejected before a proof attempt; each would be a relocation or a transcription, not a derivation. STMT-ACT-SIMPLY-PRIOR-TO-POTENCY: its routes need the strong version, while the Prima Via premises give only the moved-potency instance. STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS: a derivation needs per-respect wrappers and a bare maximal-to-greatest interface, so it relocates the premise and adds a bare one. STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS: Composite is a primitive with no link to its components, so any derivation is relocation only. STMT-GOD-CONFIRMS-ONLY-TRUTH and STMT-CAUSE-OF-NECESSARY-BEING-CAUSES-ITS-NECESSITY: both are stated over primitive fields, so nothing constrains them to be derived. STMT-PER-SE-MOVER-LINK-IS-PER-SE-CAUSE-LINK: MovesAsMoved and CausesAsCaused are free parameters, so the link cannot be derived without a new bridge. STMT-CREATURES-ORDERED-TO-PRIMARY-AS-CAUSE: composing with ST I q.6 a.2 would be an instantiation transcription. STMT-CHRIST-FOUNDED-SELECTED-CHURCH: Matthew 16 is a promise, not a founding; a derivation needs lane-B historical premises. STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT: the available route needs the self-mover case, which no premise supplies. STMT-IMMATERIAL-IS-INTELLECTUAL: the q.14 routes are already recorded as assemblies over open calibrations (docs/immaterial-intellect-reception.md). STMT-CHANGE-WITHOUT-ANY-MOVER: its refutation is available only through the declared transcription ARIST-PHYS-VIII-4-SCOPE-BRIDGE-TO-PRIMA-VIA, which closes nothing while its premises are open. Rejection records that the lead was examined; it neither refutes nor establishes any target.",
+  "evidence": ["ARIST-PHYS-VIII-4-SCOPE-BRIDGE-TO-PRIMA-VIA"]
+}

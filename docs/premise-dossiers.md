@@ -49,8 +49,11 @@ the original merged evidence and preserve its limitations.
   are rejected. One attempt may concern several precisely named targets.
 - `date` is a calendar date in `YYYY-MM-DD` form.
 - `kind` is `derivation`, `refutation`, `reading`, `countermodel`, or `source-search`.
-- `outcome` is `succeeded`, `failed`, `blocked`, or `superseded`. It describes the
-  attempt, never the truth status of its targets. A successful omission model, for
+- `outcome` is `succeeded`, `failed`, `blocked`, `superseded`, or `rejected`. It
+  describes the attempt, never the truth status of its targets. `rejected` records
+  a lead examined and dropped before a proof attempt (for example because the
+  derivation would only relocate the premise or be a transcription); the summary
+  gives each target's reason. `thickness --queue` marks its targets examined. A successful omission model, for
   example, can leave every philosophical premise open.
 - `summary` records the finding, rejected interpretation or failed inference and
   its limits. `blocker` is required for blocked attempts, optional otherwise.

@@ -1474,10 +1474,6 @@ class FrontierDiffTest(unittest.TestCase):
         self.assertEqual([change["base_cost"] for change in delta["route_changes"]], [None])
 
 
-if __name__ == "__main__":
-    unittest.main()
-
-
 class ThicknessTest(unittest.TestCase):
     def test_counts_only_verified_non_transcription_derivations(self) -> None:
         frontier = {
@@ -1510,3 +1506,111 @@ class ThicknessTest(unittest.TestCase):
         delta = corpus.thickness_delta(base, head)
         self.assertEqual(delta["changed"], {"STMT-A": {"added": ["A2", "A3"], "removed": ["A1"]}})
         self.assertEqual(delta["summary"]["derivation_count"], [1, 2])
+
+
+class ThicknessQueueTest(unittest.TestCase):
+    def setUp(self) -> None:
+        self.frontier = {
+            "root": "STMT-ROOT",
+            "reaching_root_statements": ["STMT-A", "STMT-B", "STMT-C", "STMT-D"],
+            "transcription_results": {"R-T": {"kind": "instantiation", "declared": True}},
+            "statement_depths": {"STMT-A": "stated", "STMT-B": "bare", "STMT-C": "bare", "STMT-D": "bare"},
+            "premise_dependents": {
+                "STMT-B": {"arguments": ["X1"], "statements": []},
+                "STMT-C": {"arguments": ["X1", "X2"], "statements": []},
+                "STMT-D": {"arguments": ["X1", "X2", "X3"], "statements": []},
+            },
+            "refutations": [{"argument_id": "REF", "statement_id": "STMT-RIVAL", "counted": True}],
+        }
+        self.records = {
+            "statements": [
+                {"id": "STMT-A"},
+                {"id": "STMT-B", "lean_declaration": "TruthCore.B", "definition_ids": ["DEF-T", "DEF-U"]},
+                {"id": "STMT-C"},
+                {"id": "STMT-D"},
+                {"id": "STMT-RIVAL"},
+                {"id": "STMT-OTHER-RIVAL"},
+                {"id": "STMT-UNUSED", "definition_ids": ["DEF-T"]},
+                {"id": "STMT-UNUSED-BOTH", "definition_ids": ["DEF-T", "DEF-U"]},
+                {"id": "STMT-USED", "definition_ids": ["DEF-T"]},
+            ],
+            "arguments": [
+                argument("A1", ["STMT-X"], "STMT-A"),
+                argument("B1", ["STMT-USED"], "STMT-B"),
+                argument("B2", ["STMT-Y"], "STMT-B"),
+                argument("REF", ["STMT-Z"], "STMT-NOT-RIVAL"),
+            ],
+            "results": [{"id": "R1", "argument_id": "A1"}, {"id": "R-T", "argument_id": "B1"}],
+            "relations": [
+                {"id": "REL-S", "predicate": "supports", "subject_kind": "claim", "subject_id": "C-B",
+                 "object_kind": "statement", "object_id": "STMT-B"},
+                {"id": "REL-ALT", "predicate": "alternative_to", "subject_kind": "statement", "subject_id": "STMT-RIVAL",
+                 "object_kind": "statement", "object_id": "STMT-B"},
+                {"id": "REL-ALT2", "predicate": "alternative_to", "subject_kind": "statement",
+                 "subject_id": "STMT-OTHER-RIVAL", "object_kind": "statement", "object_id": "STMT-B"},
+                {"id": "REL-REF", "predicate": "refutes", "subject_kind": "argument", "subject_id": "REF",
+                 "object_kind": "statement", "object_id": "STMT-RIVAL"},
+            ],
+            "attempts": [
+                {"id": "ATTEMPT-OK", "statement_ids": ["STMT-B"], "outcome": "succeeded"},
+                {"id": "ATTEMPT-NO", "statement_ids": ["STMT-D"], "outcome": "rejected"},
+            ],
+            "definitions": [{"id": "DEF-T", "claim_ids": ["CL-1", "CL-2", "CL-3"]}],
+            "claims": [
+                {"id": "CL-1", "statement_id": "STMT-UNUSED"},
+                {"id": "CL-2", "statement_id": "STMT-USED"},
+                {"id": "CL-3", "statement_id": "STMT-UNUSED-BOTH"},
+            ],
+        }
+
+    def queue(self) -> list[dict[str, object]]:
+        report = corpus.thickness_report(self.frontier, self.records["arguments"], self.records["results"])
+        return corpus.thickness_queue(self.frontier, report, self.records)
+
+    def test_lists_underived_statements_unexamined_first_then_by_dependents(self) -> None:
+        queue = self.queue()
+        self.assertEqual([entry["statement_id"] for entry in queue], ["STMT-C", "STMT-B", "STMT-D"])
+        self.assertEqual([entry["examined"] for entry in queue], [False, False, True])
+        self.assertEqual(queue[2]["attempts"], [{"id": "ATTEMPT-NO", "outcome": "rejected"}])
+
+    def test_entry_reports_arguments_relations_attempts_and_candidates(self) -> None:
+        entry = next(entry for entry in self.queue() if entry["statement_id"] == "STMT-B")
+        self.assertEqual(entry["depth"], "bare")
+        self.assertEqual(entry["lean_declaration"], "TruthCore.B")
+        self.assertEqual(entry["argument_dependents"], 1)
+        self.assertEqual(
+            entry["arguments"],
+            [{"argument_id": "B1", "status": "transcription (instantiation)"},
+             {"argument_id": "B2", "status": "no result"}],
+        )
+        self.assertEqual(entry["supports"], [{"kind": "claim", "id": "C-B", "relation_id": "REL-S"}])
+        self.assertEqual(
+            entry["rivals"],
+            [{"statement_id": "STMT-OTHER-RIVAL", "refutations": []},
+             {"statement_id": "STMT-RIVAL", "refutations": [{"argument_id": "REF", "counted": True}]}],
+        )
+        self.assertEqual(entry["attempts"], [{"id": "ATTEMPT-OK", "outcome": "succeeded"}])
+        self.assertEqual(
+            entry["definition_linked_unused"],
+            [{"statement_id": "STMT-UNUSED-BOTH", "shared_definition_ids": ["DEF-T", "DEF-U"]},
+             {"statement_id": "STMT-UNUSED", "shared_definition_ids": ["DEF-T"]}],
+        )
+        text = corpus.format_thickness_queue("STMT-ROOT", self.queue())
+        self.assertIn("rival STMT-RIVAL: REF (counted)", text)
+        self.assertIn("rival STMT-OTHER-RIVAL: no refutes relation", text)
+
+
+class RejectedAttemptOutcomeTest(unittest.TestCase):
+    def test_rejected_outcome_validates(self) -> None:
+        from premise_dossiers import validate_attempt
+
+        validate_attempt(
+            {"id": "ATTEMPT-X", "statement_ids": ["STMT-A"], "date": "2026-11-07", "kind": "derivation",
+             "outcome": "rejected", "summary": "Relocation only.", "evidence": []},
+            {"STMT-A"},
+            set(),
+        )
+
+
+if __name__ == "__main__":
+    unittest.main()
