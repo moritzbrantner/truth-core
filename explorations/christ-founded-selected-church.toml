@@ -1,0 +1,56 @@
+target = "STMT-CHRIST-FOUNDED-SELECTED-CHURCH"
+
+[[node]]
+id = "STMT-CHRIST-FOUNDED-SELECTED-CHURCH"
+
+[[node]]
+id = "STMT-CHRIST-FOUNDED-VISIBLE-CHURCH"
+
+[[node]]
+id = "STMT-CHURCH-HAS-VISIBLE-CRITERION"
+
+[[node]]
+id = "STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS"
+
+[[node]]
+id = "STMT-JOHN-COMMISSION-INDEPENDENT-OF-MATTHEW"
+
+[[node]]
+id = "STMT-HEAVEN-RATIFIED-ATTESTATION-CRITERION"
+
+[[node]]
+id = "STMT-GOVERNING-GIFT-CONSTITUTES-FOUNDED-SOCIETY"
+
+[[node]]
+id = "STMT-HOLDER-OF-GIVEN-GOVERNING-POWER-IS-CHURCH"
+
+[[node]]
+id = "STMT-REPORTED-MATT-16-CHURCH-ON-ROCK-KEYS-BINDING"
+
+[[edge]]
+premises = ["STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS", "STMT-GOVERNING-GIFT-CONSTITUTES-FOUNDED-SOCIETY", "STMT-HOLDER-OF-GIVEN-GOVERNING-POWER-IS-CHURCH"]
+conclusion = "STMT-CHRIST-FOUNDED-SELECTED-CHURCH"
+kind = "derivation"
+status = "certified"
+note = "ROUND3-CHRIST-CHURCH-SELECTED-CHURCH-FROM-COMMISSION-REPORTS: case analysis over the four governing reports; middle term HoldsPower."
+
+[[edge]]
+premises = ["STMT-JOHN-COMMISSION-INDEPENDENT-OF-MATTHEW", "STMT-HEAVEN-RATIFIED-ATTESTATION-CRITERION", "STMT-GOVERNING-GIFT-CONSTITUTES-FOUNDED-SOCIETY", "STMT-HOLDER-OF-GIVEN-GOVERNING-POWER-IS-CHURCH"]
+conclusion = "STMT-CHRIST-FOUNDED-SELECTED-CHURCH"
+kind = "derivation"
+status = "certified"
+note = "ROUND3-CHRIST-CHURCH-SELECTED-CHURCH-FROM-ATTESTATION: reuses CommissionAttestation.attestation_gives_governing; needs no whole report to go back to Jesus."
+
+[[edge]]
+premises = ["STMT-CHURCH-HAS-VISIBLE-CRITERION", "STMT-CHRIST-FOUNDED-SELECTED-CHURCH"]
+conclusion = "STMT-CHRIST-FOUNDED-VISIBLE-CHURCH"
+kind = "derivation"
+status = "certified"
+note = "Existing VISIBLE-CHURCH-CRITERION-SUPPLIES-STAGE-FIVE: the selected Church now has two derivations, so stage 5 is reached through them."
+
+[[edge]]
+premises = ["STMT-REPORTED-MATT-16-CHURCH-ON-ROCK-KEYS-BINDING"]
+conclusion = "STMT-GOVERNING-GIFT-CONSTITUTES-FOUNDED-SOCIETY"
+kind = "source"
+status = "rejected"
+note = "Rejected as a derivation: the Matthew 16 statement is untyped and a promise to one disciple; recorded as a supports relation (REL-MATT-16-SUPPORTS-GOVERNING-GIFT-CONSTITUTES-FOUNDED-SOCIETY) with a gap note."

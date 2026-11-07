@@ -1,0 +1,12 @@
+{
+  "id": "STMT-MARK-TRIAL-SAYINGS-GO-BACK-TO-JESUS",
+  "paraphrase": "OPEN report-to-event bridge (attribution deferred): whatever Mark's narrative of the hearing before the high priest attributes to Jesus, Jesus himself said. A historicity premise about one scene; it does not classify what was said.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.Round3ChristChurch.MarkTrialSayingsGoBackToJesus",
+  "definition_ids": [
+    "DEF-JESUS-SPEECH-EVENT",
+    "DEF-MARK-HIGH-PRIEST-EXCHANGE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MARK-HIGH-PRIEST-EXCHANGE"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "STMT-TESTIMONY-OF-THOSE-PRESENT-IS-ACCURATE",
+  "paraphrase": "OPEN reliability premise (attribution deferred): a commission report that rests on the testimony of those present goes back to Jesus: he gave (or promised) each power it names. Its rival is the form-critical view that commission sayings are community formations.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.Round3ChristChurch.TestimonyOfThosePresentIsAccurate",
+  "definition_ids": [
+    "DEF-COMMISSION-TESTIMONY",
+    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
+    "DEF-COMMISSION-REPORT-POWERS"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "ROUND3-CHRIST-CHURCH-PILOT-CLAIMS-FROM-MARK-FORGIVENESS",
+  "premise_statement_ids": [
+    "STMT-REPORTED-FORGIVENESS-AUTHORITY",
+    "STMT-MARK-2-SAYING-GOES-BACK-TO-JESUS",
+    "STMT-MARK-2-SON-OF-MAN-IS-SELF-REFERENCE",
+    "STMT-SELF-ASCRIBED-FORGIVENESS-AUTHORITY-IS-DIVINE-AUTHORITY-CLAIM"
+  ],
+  "conclusion_statement_id": "STMT-PILOT-JESUS-CLAIMS",
+  "inference_ids": [
+    "INF-ROUND3-CHRIST-CHURCH-PILOT-CLAIMS-FROM-MARK-FORGIVENESS"
+  ],
+  "meaning": "A second route to Jesus' claim: Mark 2.10 attributes to Jesus the Son of Man's authority to forgive sins on earth; by open bridges, Jesus himself made the assertion, used the title of himself, and so claimed divine authority. Each of the four premises is needed (omission models in ROUND3-CHRIST-CHURCH-CONTROLS). The syntactic single-application heuristic flags this proof (its last step applies the interpretation bridge); by logical shape (#1214) it is a chain through the distinct middle term Speech.assertedAuthority, which only the report-to-event bridge supplies, so no premise states the conclusion. Not rewritten to evade the heuristic.",
+  "definition_ids": [
+    "DEF-JESUS-SPEECH-EVENT",
+    "DEF-MARK-FORGIVENESS-AUTHORITY-REPORT",
+    "DEF-SKELETON-OPEN-PREDICATES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MARK-FORGIVENESS-AUTHORITY",
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE",
+    "DISAMB-MARK-HIGH-PRIEST-EXCHANGE"
+  ]
+}

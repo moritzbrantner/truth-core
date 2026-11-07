@@ -1,0 +1,9 @@
+{
+  "id": "REL-Q19-A1-WILL-SUPPORTS-INTELLIGIBLE-INCLINATION-IS-WILL",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q19-A1-WILL-FOLLOWS-INTELLECT",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-INTELLIGIBLE-INCLINATION-IS-WILL",
+  "note": "ST I q.19 a.1 co. states that an intellectual nature has toward the good apprehended through an intelligible form the habitude of seeking it when absent and resting in it when had, and that 'utrumque pertinet ad voluntatem'. The premise states that whatever has an inclination following an intelligible form has will; the gap is the identification of the article's 'habitudo ad bonum apprehensum per formam intelligibilem' with the primitive inclination of the formalization, and the step from 'belongs to will' to 'its bearer has will'."
+}

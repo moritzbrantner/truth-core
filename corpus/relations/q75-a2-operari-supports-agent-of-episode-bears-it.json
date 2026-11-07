@@ -1,0 +1,9 @@
+{
+  "id": "REL-Q75-A2-OPERARI-SUPPORTS-AGENT-OF-EPISODE-BEARS-IT",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q75-A2-OPERARI-ENTIS-IN-ACTU",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-AGENT-OF-EPISODE-BEARS-IT",
+  "note": "ST I q.75 a.2 co.: 'eo modo aliquid operatur, quo est. Propter quod non dicimus quod calor calefacit, sed calidum.' The operation is ascribed to the subsisting thing that has the operative form, not to the form. The premise says the agent of an episode bears it; the passage locates the agent in the bearer of the form by which it operates and does not state that the operation itself inheres in the agent (the same issue for transient action is ST I q.25 a.1's 'agendi in aliud')."
+}

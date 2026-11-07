@@ -1,0 +1,13 @@
+{
+  "id": "INF-ROUND3-CHRIST-CHURCH-SELECTED-CHURCH-FROM-COMMISSION-REPORTS",
+  "input_statement_ids": [
+    "STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS",
+    "STMT-GOVERNING-GIFT-CONSTITUTES-FOUNDED-SOCIETY",
+    "STMT-HOLDER-OF-GIVEN-GOVERNING-POWER-IS-CHURCH"
+  ],
+  "output_statement_id": "STMT-CHRIST-FOUNDED-SELECTED-CHURCH",
+  "rule": "Founding through a governing commission",
+  "meaning": "One of the four governing reports goes back to Jesus, and each names a governing power (keys, judging as church, forgiving and retaining, shepherding), so Jesus gave a governing power; a governing gift constitutes a society Jesus founded that holds it; and such a holder is a Church in the selected sense. So Jesus founded a selected Church. Content-sensitive: it uses which powers the reports name. Each of the three premises is needed.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

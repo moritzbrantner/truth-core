@@ -1,0 +1,27 @@
+target = "STMT-RESURRECTION-CONFIRMS-JESUS-MANDATE"
+
+[[node]]
+id = "STMT-RESURRECTION-CONFIRMS-JESUS-MANDATE"
+
+[[node]]
+id = "STMT-JESUS-RAISED-BY-GOD-IF-ROSE"
+
+[[node]]
+id = "STMT-RAISING-A-CLAIMANT-CONFIRMS-HIS-MANDATE"
+
+[[node]]
+id = "STMT-REPORTED-ACTS-2-RESURRECTION-MAKES-KNOWN-LORD-AND-CHRIST"
+
+[[edge]]
+premises = ["STMT-JESUS-RAISED-BY-GOD-IF-ROSE", "STMT-RAISING-A-CLAIMANT-CONFIRMS-HIS-MANDATE"]
+conclusion = "STMT-RESURRECTION-CONFIRMS-JESUS-MANDATE"
+kind = "derivation"
+status = "certified"
+note = "ROUND3-CHRIST-CHURCH-RESURRECTION-CONFIRMS-MANDATE-FROM-RAISING: middle term RaisedBy (the resurrection as an agent's act). Both premises supported (not stated) by the Acts 2.22-36 claim."
+
+[[edge]]
+premises = ["STMT-REPORTED-ACTS-2-RESURRECTION-MAKES-KNOWN-LORD-AND-CHRIST"]
+conclusion = "STMT-RAISING-A-CLAIMANT-CONFIRMS-HIS-MANDATE"
+kind = "source"
+status = "rejected"
+note = "Rejected as a derivation: the Acts 2 statement is untyped (no lean_declaration) and reports a proclamation; typing it would edit an existing statement. Recorded instead as a supports relation (REL-ACTS-2-SUPPORTS-RAISING-A-CLAIMANT-CONFIRMS-MANDATE)."

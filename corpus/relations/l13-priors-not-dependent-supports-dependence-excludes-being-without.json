@@ -1,0 +1,9 @@
+{
+  "id": "REL-L13-PRIORS-NOT-DEPENDENT-SUPPORTS-DEPENDENCE-EXCLUDES-BEING-WITHOUT",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-IN-METAPH-V-L13-PRIORS-NOT-DEPENDENT-A",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-DEPENDENCE-EXCLUDES-BEING-WITHOUT",
+  "note": "In V Metaph. lect. 13 n. 18 states that priors can be without posteriors 'et non e converso': the posterior, which depends on the prior, cannot be without it. The premise states this for every x that depends for its being on y, with dependence in the counterfactual sense of DEF-DEPENDS-FOR-BEING; the passage speaks only of posteriors in the order of being and gives no analysis of dependence."
+}

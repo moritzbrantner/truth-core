@@ -1,0 +1,20 @@
+{
+  "id": "ROUND3-CHRIST-CHURCH-CHRISTS-CHURCH-CATHOLIC-FROM-UNIQUENESS",
+  "premise_statement_ids": [
+    "STMT-JESUS-FOUNDED-AT-MOST-ONE-VISIBLE-CHURCH",
+    "STMT-CATHOLIC-CHURCH-IS-JESUS-FOUNDED-VISIBLE-SOCIETY"
+  ],
+  "conclusion_statement_id": "STMT-CHRISTS-CHURCH-IS-THE-CATHOLIC-CHURCH",
+  "inference_ids": [
+    "INF-ROUND3-CHRIST-CHURCH-CHRISTS-CHURCH-CATHOLIC-FROM-UNIQUENESS"
+  ],
+  "meaning": "Jesus founded at most one visible society with authority, and the Catholic Church is one he founded; so every visible society with authority he founded is the Catholic Church. Two open premises; each is needed (branch-theory and rupture models in ROUND3-CHRIST-CHURCH-CONTROLS).",
+  "definition_ids": [
+    "DEF-CATHOLIC-CHURCH-PROPOSAL-SUBJECT",
+    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY",
+    "DEF-SKELETON-OPEN-PREDICATES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS"
+  ]
+}

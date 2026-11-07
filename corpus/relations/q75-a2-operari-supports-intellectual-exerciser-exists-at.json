@@ -1,0 +1,9 @@
+{
+  "id": "REL-Q75-A2-OPERARI-SUPPORTS-INTELLECTUAL-EXERCISER-EXISTS-AT",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q75-A2-OPERARI-ENTIS-IN-ACTU",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-INTELLECTUAL-EXERCISER-EXISTS-AT",
+  "note": "ST I q.75 a.2 co. states 'non enim est operari nisi entis in actu, unde eo modo aliquid operatur, quo est'. The premise (whoever is attributed an intellectual exercise exists at the selected world) adds that an intellectual exercise is an operation (the same article says the intellectual principle 'habet operationem per se'), that being in act is existing, and the indexing to the selected world, which the passage lacks."
+}

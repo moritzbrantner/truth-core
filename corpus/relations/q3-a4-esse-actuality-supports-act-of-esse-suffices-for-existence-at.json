@@ -1,0 +1,9 @@
+{
+  "id": "REL-Q3-A4-ESSE-ACTUALITY-SUPPORTS-ACT-OF-ESSE-SUFFICES-FOR-EXISTENCE-AT",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q3-A4-ESSE-ACTUALITY-OF-EVERY-FORM-A",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-ACT-OF-ESSE-SUFFICES-FOR-EXISTENCE-AT",
+  "note": "ST I q.3 a.4 co. (second proof) states 'esse est actualitas omnis formae vel naturae: non enim bonitas vel humanitas significatur in actu, nisi prout significamus eam esse', and ad 2 that esse in the first sense 'significat actum essendi'. Being in act of esse is thus being. The premise adds the world index: whatever is in act of esse exists at the selected world, which the passage, having no worlds, does not state."
+}

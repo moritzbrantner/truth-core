@@ -1,0 +1,12 @@
+{
+  "id": "AQUINAS-IN-METAPH-V-L13-SUBJECT-PRIOR-TO-ACCIDENT-A",
+  "statement_id": "STMT-AQUINAS-SUBJECT-PRIOR-TO-ACCIDENT",
+  "source_id": "AQUINAS-IN-METAPH",
+  "locator": "V, lect. 13 n. 16",
+  "interpretation": "'Quia enim ens multipliciter dicitur, et non univoce, oportet, quod omnes significationes entis reducantur ad unam primam, secundum quam dicitur ens, quod est subiectum aliorum entium per se existens. Et propter hoc primum subiectum dicitur esse prius: unde substantia prius est accidente.' Read as stated: other beings are called beings by reference to a first being that exists of itself as their subject, and substance is therefore prior to accident. Not read: the explicit thesis that no accident can be without a subject (Aquinas reaches that only by combining n. 16 with the being-without criterion of nn. 15 and 18), or any claim about properties of nothing.",
+  "status": "formalized",
+  "disambiguation_ids": [
+    "DISAMB-BEING-UNIVOCITY"
+  ],
+  "attribution": "The passage states that every sense of being is reduced to being that exists of itself as subject of the other beings, so that substance, the first subject, is prior to accident, which is the premise."
+}

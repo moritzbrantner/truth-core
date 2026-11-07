@@ -1,0 +1,12 @@
+{
+  "id": "STMT-MARK-2-SAYING-GOES-BACK-TO-JESUS",
+  "paraphrase": "OPEN report-to-event bridge (attribution deferred): whatever authority assertion the Mark 2 narrative attributes to Jesus, Jesus himself made.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.Round3ChristChurch.Mark2SayingGoesBackToJesus",
+  "definition_ids": [
+    "DEF-JESUS-SPEECH-EVENT",
+    "DEF-MARK-FORGIVENESS-AUTHORITY-REPORT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MARK-FORGIVENESS-AUTHORITY"
+  ]
+}

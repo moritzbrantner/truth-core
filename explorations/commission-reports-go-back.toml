@@ -1,0 +1,50 @@
+target = "STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS"
+
+[[node]]
+id = "STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS"
+
+[[node]]
+id = "STMT-ALL-COMMISSION-REPORTS-GO-BACK-TO-JESUS"
+
+[[node]]
+id = "STMT-MT28-AND-JN21-REST-ON-TESTIMONY"
+
+[[node]]
+id = "STMT-TESTIMONY-OF-THOSE-PRESENT-IS-ACCURATE"
+
+[[node]]
+id = "STMT-REPORTED-MATT-COMMISSION-GROUNDED-IN-GIVEN-AUTHORITY"
+
+[[node]]
+id = "STMT-REPORTED-JOHN-21-PETER-SHEPHERD"
+
+[[node]]
+id = "STMT-HISTORICAL-COMMISSION-BUNDLE-REJECTED"
+
+[[edge]]
+premises = ["STMT-MT28-AND-JN21-REST-ON-TESTIMONY", "STMT-TESTIMONY-OF-THOSE-PRESENT-IS-ACCURATE"]
+conclusion = "STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS"
+kind = "derivation"
+status = "certified"
+note = "ROUND3-CHRIST-CHURCH-COMMISSION-REPORTS-FROM-TESTIMONY: middle term RestsOnTestimonyOfThosePresent; content-sensitive (John 21's shepherding is governing). Rival (form criticism) denies the reliability premise."
+
+[[edge]]
+premises = ["STMT-ALL-COMMISSION-REPORTS-GO-BACK-TO-JESUS"]
+conclusion = "STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS"
+kind = "derivation"
+status = "certified"
+note = "ROUND3-CHRIST-CHURCH-ALL-COMMISSION-REPORTS-ENTAIL-TWO: strength registration backing REL-ALL-COMMISSION-REPORTS-STRENGTHENS-COMMISSION-REPORTS; the strong version is supported by Dei Verbum 19."
+
+[[edge]]
+premises = ["STMT-REPORTED-MATT-COMMISSION-GROUNDED-IN-GIVEN-AUTHORITY", "STMT-REPORTED-JOHN-21-PETER-SHEPHERD", "STMT-TESTIMONY-OF-THOSE-PRESENT-IS-ACCURATE"]
+conclusion = "STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS"
+kind = "source"
+status = "rejected"
+note = "Rejected as mapped: the two report statements are untyped (no lean_declaration), and a report alone is not testimony of those present; the typed testimony node replaces them."
+
+[[edge]]
+premises = ["STMT-HISTORICAL-COMMISSION-BUNDLE-REJECTED"]
+conclusion = "STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS"
+kind = "rival"
+status = "mapped"
+note = "Existing rival; this batch adds no refutation of it."
