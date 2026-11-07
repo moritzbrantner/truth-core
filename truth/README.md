@@ -6,6 +6,7 @@ From the repository root with Rust stable (edition 2024) and Python 3:
 cargo build --locked -p truth
 target/debug/truth status
 target/debug/truth inspect STMT-CATHOLICISM-TRUE --json
+target/debug/truth bridges --constants constants.json --target STMT-EXISTING-IN-ACT-AT
 cargo fmt --all --check
 cargo clippy --locked -p truth --all-targets -- -D warnings
 cargo test --locked -p truth
@@ -34,3 +35,10 @@ including cross-record links, semantic constraints, and evidence bindings.
 Python also continues to own search, research context, agent service, and
 the existing CI and Explorer consumers. Lean and the existing verifier
 retain proof authority. Neither Rust command writes a database or cache.
+
+`bridges` ranks advisory bridge candidates for underived statements by the
+Lean constants their declarations share, from a `scripts/StatementConstants.lean`
+export (`--constants`) and either `--target ID` or a
+`corpus.py thickness --queue --json` file (`--queue`, first `--targets N`,
+default 10). It is a search heuristic, not a proof or equivalence judgment;
+see `docs/bridge-candidates.md` for the pipeline and the optional Lean trial.
