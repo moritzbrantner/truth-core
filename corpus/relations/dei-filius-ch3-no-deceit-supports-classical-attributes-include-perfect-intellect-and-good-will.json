@@ -1,0 +1,9 @@
+{
+  "id": "REL-DEI-FILIUS-CH3-NO-DECEIT-SUPPORTS-CLASSICAL-ATTRIBUTES-INCLUDE-PERFECT-INTELLECT-AND-GOOD-WILL",
+  "subject_kind": "claim",
+  "subject_id": "VATICAN-I-DEI-FILIUS-CH3-GOD-CANNOT-DECEIVE",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-CLASSICAL-ATTRIBUTES-INCLUDE-PERFECT-INTELLECT-AND-GOOD-WILL",
+  "note": "Dei Filius ch. 3 para. 1 states that God revealing 'nec falli nec fallere potest'. The premise splits this into two consequences of the classical attributes: God asserts only what he believes (cannot deceive) and believes only what he holds as known (cannot be deceived). The council asserts the two inabilities of God as revealer; it does not derive them from intellect and will or phrase them as conditions on asserting and believing."
+}

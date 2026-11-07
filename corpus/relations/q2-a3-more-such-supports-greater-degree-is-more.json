@@ -1,0 +1,9 @@
+{
+  "id": "REL-Q2-A3-MORE-SUCH-SUPPORTS-GREATER-DEGREE-IS-MORE",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q2-A3-MORE-SUCH-HAS-PERFECTION-A",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-GREATER-DEGREE-IS-MORE",
+  "note": "ST I q.2 a.3 co. (quarta via) states 'magis et minus dicuntur de diversis secundum quod appropinquant diversimode ad aliquid quod maxime est', as the hotter is what approaches nearer to the hottest. The premise reads 'more' by degree: if x has r in a strictly smaller degree than c, then c is more r than x. The passage grounds 'more' in nearer approach to a maximum, not in a degree measure; identifying greater approach with greater degree is the analyst's (DISAMB-ORDER-OF-BEING)."
+}

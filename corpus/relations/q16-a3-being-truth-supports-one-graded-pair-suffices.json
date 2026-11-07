@@ -1,0 +1,9 @@
+{
+  "id": "REL-Q16-A3-BEING-TRUTH-SUPPORTS-ONE-GRADED-PAIR-SUFFICES",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q16-A3-BEING-AND-INTELLIGIBILITY-A",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-ONE-GRADED-PAIR-SUFFICES",
+  "note": "ST I q.16 a.3 co. states that each thing is knowable in so far as it has being and that 'sicut bonum convertitur cum ente, ita et verum'. The premise reads convertibility for the comparative: whatever is more noble than another is also more good and more true than it. The passage states convertibility of the terms with being and a proportion of knowability to being; it does not mention nobility or state that the comparatives coincide."
+}

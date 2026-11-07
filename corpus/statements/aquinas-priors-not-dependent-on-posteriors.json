@@ -1,0 +1,10 @@
+{
+  "id": "STMT-AQUINAS-PRIORS-NOT-DEPENDENT-ON-POSTERIORS",
+  "paraphrase": "Things prior in being do not depend on what is posterior to them as the posterior depend on them; hence whatever is prior can in some way be without what is posterior to it, and not conversely (Aquinas, In V Metaph. lect. 13 n. 18, reducing every mode of priority to priority by being-without). It concerns pairs already ordered as prior and posterior; it says nothing of pairs not so ordered, and 'depend' is not given the counterfactual sense of DEF-DEPENDS-FOR-BEING.",
+  "definition_ids": [
+    "DEF-CAN-BE-WITHOUT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"
+  ]
+}

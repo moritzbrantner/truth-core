@@ -1,0 +1,9 @@
+{
+  "id": "REL-Q75-A2-PER-SE-OP-SUPPORTS-OCCURRING-THOUGHT-IS-OPERATION",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q75-A2-PER-SE-OPERATION",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-OCCURRING-THOUGHT-IS-OPERATION",
+  "note": "ST I q.75 a.2 co. treats understanding as an operation that the intellectual principle has per se. The premise states that every occurring thought episode is an operation. The passage covers only intellectual thought (understanding); thought in Descartes' broad sense includes sensing and imagining, which this article does not address, and bundle or event ontologies of the mind deny that episodes are someone's doings."
+}

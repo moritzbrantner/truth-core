@@ -1,0 +1,15 @@
+{
+  "id": "AQUINAS-IN-METAPH-V-L13-PRIORS-NOT-DEPENDENT-A",
+  "statement_id": "STMT-AQUINAS-PRIORS-NOT-DEPENDENT-ON-POSTERIORS",
+  "source_id": "AQUINAS-IN-METAPH",
+  "locator": "V, lect. 13 n. 18",
+  "interpretation": "'Constat enim, quod priora non dependent a posterioribus, sicut e converso. Unde omnia priora aliquo modo possunt esse sine posterioribus, et non e converso.' Aquinas concludes that every mode of priority reduces to priority by being-without, giving as reason that priors do not depend on posteriors as posteriors depend on priors. Read: for prior/posterior pairs, dependence runs one way (posterior on prior), and from the prior's not depending Aquinas infers ('unde') that it can in some way be without the posterior while the posterior cannot be without it. 'Aliquo modo' is kept: the being-without may be by generation or by corruption (the examples of whole and part). Not read: a claim about pairs not already ordered as prior and posterior, or the counterfactual dependence of DEF-DEPENDS-FOR-BEING.",
+  "status": "formalized",
+  "definition_ids": [
+    "DEF-CAN-BE-WITHOUT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"
+  ],
+  "attribution": "The passage states that priors do not depend on posteriors as posteriors depend on them, and hence that every prior can in some way be without its posteriors and not conversely, which is the premise."
+}
