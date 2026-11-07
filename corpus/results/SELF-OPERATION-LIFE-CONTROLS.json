@@ -1,0 +1,10 @@
+{
+  "id": "SELF-OPERATION-LIFE-CONTROLS",
+  "argument_id": "SELF-OPERATION-LIFE-CONTROLS",
+  "challenge_module": "TruthCore.Results.Causality.SelfOperationLife.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SelfOperationLife.Solution",
+  "theorem": "TruthCore.Results.Causality.SelfOperationLife.controls",
+  "comparator_config": "results/SELF-OPERATION-LIFE-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "One being in potency in no respect. Omitting the operation bridge, the q.18 life premise, or the potency premise (the being is moved without potency) leaves it without life; with all three it lives."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "REL-Q18-A3-SUPPORTS-PURE-ACT-OPERATES",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q18-A3-HIGHEST-LIFE",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-PURE-ACT-OPERATES",
+  "note": "The claim gives God the highest life because his nature is his own understanding; ad 2 adds that God is his own esse, understanding and living. The encoded bridge generalizes from God to whatever is in potency in no respect and keeps only that such a thing has some immanent operation; the step from pure act to understanding is not stated in the article."
+}

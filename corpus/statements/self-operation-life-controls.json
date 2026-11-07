@@ -1,0 +1,15 @@
+{
+  "id": "STMT-SELF-OPERATION-LIFE-CONTROLS",
+  "paraphrase": "One being in potency in no respect. Omitting the operation bridge, the q.18 life premise, or the potency premise (the being is moved without potency) leaves it without life; with all three it lives.",
+  "lean_declaration": "TruthCore.Causality.SelfOperationLife.Control.Certificate",
+  "definition_ids": [
+    "DEF-PURE-ACT",
+    "DEF-LIFE-PRESENT-AT",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-POTENCY",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION"
+  ]
+}

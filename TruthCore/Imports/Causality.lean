@@ -109,6 +109,7 @@ public import TruthCore.Causality.RootWithoutLimitingPrinciple
 public import TruthCore.Causality.ScopedActualCausality
 public import TruthCore.Causality.SelectedAncestry
 public import TruthCore.Causality.SelfCausationPriority
+public import TruthCore.Causality.SelfOperationLife
 public import TruthCore.Causality.SourceForest
 public import TruthCore.Causality.SourceWitness
 public import TruthCore.Causality.StrictPriorityPureAct

@@ -1,0 +1,12 @@
+{
+  "id": "STMT-SELF-OPERATING-UNMOVED-LIVES",
+  "paraphrase": "Whatever operates from itself and is moved in no respect lives at some time of the duration frame. Encodes ST I q.18 a.3 co. ('vivere dicuntur aliqua secundum quod operantur ex seipsis, et non quasi ab aliis mota'); 'not as moved by others' is strengthened in the antecedent to 'moved in no respect', which makes the statement weaker than the source sentence.",
+  "lean_declaration": "TruthCore.Causality.SelfOperationLife.SelfOperatingUnmovedLives",
+  "definition_ids": [
+    "DEF-LIFE-PRESENT-AT",
+    "DEF-MOTION-AS-REDUCTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION"
+  ]
+}

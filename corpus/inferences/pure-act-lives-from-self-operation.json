@@ -1,0 +1,13 @@
+{
+  "id": "INF-PURE-ACT-LIVES-FROM-SELF-OPERATION",
+  "input_statement_ids": [
+    "STMT-PURE-ACT-OPERATES",
+    "STMT-SELF-OPERATING-UNMOVED-LIVES",
+    "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY"
+  ],
+  "output_statement_id": "STMT-PURE-ACT-LIVES",
+  "rule": "Life as self-operation without being moved",
+  "meaning": "A pure act operates from itself (STMT-PURE-ACT-OPERATES); being in potency in no respect, it is moved in no respect, since whatever is moved in a respect is in potency in it (STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY, a Prima Via premise); and whatever operates from itself and is moved in no respect lives (STMT-SELF-OPERATING-UNMOVED-LIVES, q.18 a.3). Derives STMT-PURE-ACT-LIVES, an open premise of the eternity route that reaches the root without a derivation, and connects it to the Prima Via's potency premise. Operation is immanent operation, not motion (DISAMB-MOTION). All three premises stay open.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
