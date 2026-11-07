@@ -218,6 +218,14 @@ def challenge_text(solution: str, theorems: list[str]) -> str:
     out, i, kept = [], 0, set()
     while i < len(body):
         line = body[i]
+        if line.startswith("/-!"):
+            # module docstring: copy verbatim up to its closing -/
+            j = i
+            while j < len(body) and "-/" not in body[j][3 if j == i else 0:]:
+                j += 1
+            out.extend(body[i:j + 1])
+            i = j + 1
+            continue
         m = DECL.match(line)
         if m:
             j = i + 1

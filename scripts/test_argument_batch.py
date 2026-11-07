@@ -17,6 +17,10 @@ public import TruthCore.Foo
 
 @[expose] public section
 
+/-! A module docstring
+that spans lines and mentions
+end of things, section headings and theorem names. -/
+
 namespace TruthCore.Results.Bar
 open TruthCore.Foo
 
@@ -42,6 +46,7 @@ class ChallengeTextTest(unittest.TestCase):
         self.assertNotIn("helper", text)
         self.assertIn("open TruthCore.Foo", text)
         self.assertIn("end TruthCore.Results.Bar", text)
+        self.assertIn("end of things, section headings and theorem names. -/", text)
 
     def test_missing_theorem_is_an_error(self) -> None:
         with self.assertRaises(SystemExit):
