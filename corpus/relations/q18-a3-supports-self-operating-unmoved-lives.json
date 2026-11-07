@@ -1,0 +1,9 @@
+{
+  "id": "REL-Q18-A3-SUPPORTS-SELF-OPERATING-UNMOVED-LIVES",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q18-A3-HIGHEST-LIFE",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-SELF-OPERATING-UNMOVED-LIVES",
+  "note": "The claim's sentence (Illud igitur cuius sua natura est ipsum eius intelligere ...) concludes an argument whose opening in the same respondeo is that things are said to live insofar as they operate from themselves and not as moved by others. The encoded statement takes that opening as a sufficient condition, strengthens its antecedent to 'moved in no respect', and adds the frame reading 'lives at some time'. The claim itself records only the highest-life sentence."
+}
