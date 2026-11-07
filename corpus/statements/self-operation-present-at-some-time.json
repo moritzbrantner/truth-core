@@ -1,0 +1,9 @@
+{
+  "id": "STMT-SELF-OPERATION-PRESENT-AT-SOME-TIME",
+  "paraphrase": "OPEN analyst premise: whatever operates from itself does so at some time of the duration frame (for what is not in time, read with q.10 a.2 ad 4: eternity includes all times).",
+  "lean_declaration": "TruthCore.Causality.Round5Worklist.SelfOperationPresentAtSomeTime",
+  "definition_ids": [
+    "DEF-OPERATES-FROM-ITSELF-AT",
+    "DEF-LIFE-PRESENT-AT"
+  ]
+}

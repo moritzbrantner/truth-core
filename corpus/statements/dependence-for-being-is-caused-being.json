@@ -1,0 +1,13 @@
+{
+  "id": "STMT-DEPENDENCE-FOR-BEING-IS-CAUSED-BEING",
+  "paraphrase": "OPEN and contested analyst premise: whatever a thing depends on for its being is a cause of its being (causes it in the respect esse). Views that separate non-causal dependence for being (a set on its members, a fact on its ground) from causation deny it.",
+  "lean_declaration": "TruthCore.Causality.Round5Worklist.DependenceForBeingIsCausedBeing",
+  "definition_ids": [
+    "DEF-DEPENDS-FOR-BEING",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE"
+  ]
+}

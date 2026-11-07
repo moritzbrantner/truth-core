@@ -1,0 +1,13 @@
+{
+  "id": "STMT-HISTORY-EDGES-ARE-EFFICIENT-CAUSINGS",
+  "paraphrase": "OPEN analyst bridge: every edge of the causal relation whose history is studied (cause y x: y is a direct upstream cause of x) is an efficient causing of x by y in some respect. Converse direction of STMT-PER-SE-LINKS-IN-FINITE-HISTORY-RELATION. A history relation that also records material or final dependence, or bare temporal succession, falsifies it.",
+  "lean_declaration": "TruthCore.Causality.Round5Worklist.HistoryEdgesAreEfficientCausings",
+  "definition_ids": [
+    "DEF-CAUSAL-HISTORY-NO-LOOPS",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FINITE-HISTORY-AND-PER-SE-REGRESS",
+    "DISAMB-CAUSE"
+  ]
+}

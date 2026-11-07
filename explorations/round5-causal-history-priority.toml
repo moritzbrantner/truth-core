@@ -1,0 +1,136 @@
+# Round 5 worklist: the structural conditions of the finite-causal-history route
+# and the cause-of-being reading of simple priority.
+# Analyst formulations, attribution deferred.
+target = "STMT-FINITE-DISTINCT-CAUSAL-ANCESTRY"
+
+[[node]]
+id = "STMT-FINITE-DISTINCT-CAUSAL-ANCESTRY"
+
+[[node]]
+id = "STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES"
+
+[[node]]
+id = "STMT-CAUSAL-HISTORY-HAS-NO-LOOPS"
+
+[[node]]
+id = "STMT-CAUSAL-WELL-FOUNDED-PREDECESSORS"
+
+[[node]]
+id = "STMT-CAUSAL-FINITE-IMMEDIATE-PREDECESSORS"
+
+[[node]]
+id = "STMT-PER-SE-LINKS-IN-FINITE-HISTORY-RELATION"
+
+[[node]]
+id = "STMT-HISTORY-EDGES-ARE-EFFICIENT-CAUSINGS"
+
+[[node]]
+id = "STMT-EFFICIENT-CAUSE-IS-PRIOR-TO-EFFECT"
+
+[[node]]
+id = "STMT-SIMPLE-PRIORITY-IS-TRANSITIVE"
+
+[[node]]
+id = "STMT-NOTHING-PRIOR-TO-ITSELF"
+
+[[node]]
+id = "STMT-SIMPLE-PRIORITY-WELL-FOUNDED"
+
+[[node]]
+id = "STMT-FOUR-CAUSES-EXHAUSTIVE"
+
+[[node]]
+id = "STMT-FINITELY-MANY-CAUSES-PER-MODE"
+
+[[node]]
+id = "STMT-SIMPLY-PRIOR-IS-CAUSE-OF-BEING"
+
+[[node]]
+id = "STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND"
+
+[[node]]
+id = "STMT-PRIORITY-REQUIRES-NONMUTUAL-DEPENDENCE"
+
+[[node]]
+id = "STMT-DEPENDENCE-FOR-BEING-IS-CAUSED-BEING"
+
+[[node]]
+id = "STMT-SIMPLE-PRIORITY-RELATES-ACTUAL-CONCRETA"
+
+[[node]]
+id = "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND"
+
+[[node]]
+id = "NEW-AT-MOST-ONE-CAUSE-PER-MODE"
+new = true
+text = "Each effect has at most one direct cause in each of the four modes."
+
+[[edge]]
+premises = ["STMT-CAUSAL-FINITE-IMMEDIATE-PREDECESSORS", "STMT-CAUSAL-WELL-FOUNDED-PREDECESSORS"]
+conclusion = "STMT-FINITE-DISTINCT-CAUSAL-ANCESTRY"
+kind = "derivation"
+status = "certified"
+argument = "CAUSAL-FINITE-BRANCHING-TO-FINITE-ANCESTRY"
+note = "Existing consumer of the two new derivations below."
+
+[[edge]]
+premises = ["STMT-FINITE-DISTINCT-CAUSAL-ANCESTRY", "STMT-CAUSAL-HISTORY-HAS-NO-LOOPS", "STMT-PER-SE-LINKS-IN-FINITE-HISTORY-RELATION"]
+conclusion = "STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES"
+kind = "derivation"
+status = "certified"
+argument = "FINITE-ANCESTRY-NO-LOOPS-PER-SE-NO-REGRESS"
+note = "Existing consumer of the no-loops derivation."
+
+[[edge]]
+premises = ["STMT-HISTORY-EDGES-ARE-EFFICIENT-CAUSINGS", "STMT-EFFICIENT-CAUSE-IS-PRIOR-TO-EFFECT", "STMT-SIMPLE-PRIORITY-IS-TRANSITIVE", "STMT-NOTHING-PRIOR-TO-ITSELF"]
+conclusion = "STMT-CAUSAL-HISTORY-HAS-NO-LOOPS"
+kind = "derivation"
+status = "certified"
+argument = "CAUSAL-HISTORY-NO-LOOPS-FROM-PRIORITY"
+note = "Induction on the path: every causal path is a simple priority. One new OPEN bridge (history edges are efficient causings) and three existing secunda via statements."
+
+[[edge]]
+premises = ["STMT-HISTORY-EDGES-ARE-EFFICIENT-CAUSINGS", "STMT-EFFICIENT-CAUSE-IS-PRIOR-TO-EFFECT", "STMT-SIMPLE-PRIORITY-WELL-FOUNDED"]
+conclusion = "STMT-CAUSAL-WELL-FOUNDED-PREDECESSORS"
+kind = "derivation"
+status = "certified"
+argument = "CAUSAL-WELL-FOUNDED-FROM-PRIORITY"
+note = "Subrelation of a well-founded relation. Relocates the regress question to the OPEN, contested well-foundedness of simple priority."
+
+[[edge]]
+premises = ["STMT-FOUR-CAUSES-EXHAUSTIVE", "STMT-FINITELY-MANY-CAUSES-PER-MODE"]
+conclusion = "STMT-CAUSAL-FINITE-IMMEDIATE-PREDECESSORS"
+kind = "derivation"
+status = "certified"
+argument = "CAUSAL-FINITE-PREDECESSORS-FROM-MODES"
+note = "Subset of a union of four finite sets (Mathlib). Reuses the stated Physics II.3 classification."
+
+[[edge]]
+premises = ["NEW-AT-MOST-ONE-CAUSE-PER-MODE", "STMT-FOUR-CAUSES-EXHAUSTIVE"]
+conclusion = "STMT-CAUSAL-FINITE-IMMEDIATE-PREDECESSORS"
+kind = "derivation"
+status = "rejected"
+note = "Rejected for a strictly stronger premise than needed (at most one cause per mode excludes concurring agents); finitely many per mode suffices (ATTEMPT-ROUND5-WORKLIST-REJECTED-LEADS)."
+
+[[edge]]
+premises = ["STMT-FINITE-DISTINCT-CAUSAL-ANCESTRY", "STMT-CAUSAL-HISTORY-HAS-NO-LOOPS", "STMT-CAUSAL-FINITE-IMMEDIATE-PREDECESSORS"]
+conclusion = "STMT-CAUSAL-WELL-FOUNDED-PREDECESSORS"
+kind = "derivation"
+status = "rejected"
+note = "Valid (wellFounded_iff_finiteAncestry_and_noLoops) but circular for closure: finite ancestry is itself derived from well-foundedness (ATTEMPT-ROUND5-WORKLIST-REJECTED-LEADS)."
+
+[[edge]]
+premises = ["STMT-PRIORITY-REQUIRES-NONMUTUAL-DEPENDENCE", "STMT-DEPENDENCE-FOR-BEING-IS-CAUSED-BEING"]
+conclusion = "STMT-SIMPLY-PRIOR-IS-CAUSE-OF-BEING"
+kind = "derivation"
+status = "certified"
+argument = "SIMPLY-PRIOR-CAUSES-BEING-FROM-DEPENDENCE"
+note = "Two-step composition through dependence for being; the grounding-is-not-causation rival falls on the new OPEN premise."
+
+[[edge]]
+premises = ["STMT-SIMPLY-PRIOR-IS-CAUSE-OF-BEING", "STMT-SIMPLE-PRIORITY-RELATES-ACTUAL-CONCRETA", "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND"]
+conclusion = "STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND"
+kind = "derivation"
+status = "certified"
+argument = "SIMPLY-PRIOR-GROUND-VIA-ESSE-CAUSE"
+note = "Existing consumer."

@@ -61,6 +61,11 @@ pub struct FrontierInputs {
     pub premise_dependent_arguments: HashMap<String, usize>,
     /// `(refuting argument, refuted statement)` -> counted, last relation by ID wins.
     pub counted_refutations: HashMap<(String, String), bool>,
+    /// The least fixpoint's established and refuted statements.
+    pub established: HashSet<String>,
+    pub refuted: HashSet<String>,
+    /// Arguments backing a strength registration, set aside before closure.
+    pub registration_arguments: HashSet<String>,
 }
 
 /// Records by kind in file order, as Python `load_dir` lists them.
@@ -167,7 +172,63 @@ pub fn frontier_inputs(root: &str, records: &Records, flags: &[Flag]) -> Frontie
         statement_depths,
         premise_dependent_arguments,
         counted_refutations,
+        established: strings(&report["established_statements"])
+            .into_iter()
+            .collect(),
+        refuted: strings(&report["refuted_statements"]).into_iter().collect(),
+        registration_arguments: report["strength_order"]
+            .as_array()
+            .into_iter()
+            .flatten()
+            .filter_map(|entry| entry["argument_id"].as_str())
+            .map(str::to_owned)
+            .collect(),
     }
+}
+
+/// Transcription kinds of `results` alone (Python `transcription_kinds`):
+/// the Lean-text single-application and assembly heuristics, overridden by a
+/// declared `transcription` field. The other heuristics only warn.
+pub fn transcription_kinds(
+    checkout: &std::path::Path,
+    results: &[&Record],
+) -> BTreeMap<String, TranscriptionKind> {
+    let mut kinds = BTreeMap::new();
+    for result in results {
+        let Some(analysis) = crate::transcription::analyze_result(
+            checkout,
+            text(result, "solution_module"),
+            text(result, "theorem"),
+        ) else {
+            continue;
+        };
+        let kind = if analysis.single_application_of.is_some() {
+            "single_application"
+        } else if analysis.assembly_of.is_some_and(|found| !found.is_empty()) {
+            "assembly"
+        } else {
+            continue;
+        };
+        kinds.insert(
+            text(result, "id").to_owned(),
+            TranscriptionKind {
+                kind: kind.into(),
+                declared: false,
+            },
+        );
+    }
+    for result in results {
+        if let Some(declared) = result.get("transcription").filter(|v| truthy(Some(v))) {
+            kinds.insert(
+                text(result, "id").to_owned(),
+                TranscriptionKind {
+                    kind: declared.as_str().unwrap_or_default().to_owned(),
+                    declared: true,
+                },
+            );
+        }
+    }
+    kinds
 }
 
 /// Python `thickness_report`: verified non-transcription derivations of every

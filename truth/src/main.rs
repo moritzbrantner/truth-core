@@ -1,8 +1,9 @@
 use serde_json::{Value, json};
 use std::{collections::BTreeMap, env, ffi::OsString, path::PathBuf, process::ExitCode};
-use truth::{Corpus, bridges, frontier, thickness};
+use truth::{Corpus, bridges, check, frontier, thickness};
 
 const HELP: &str = "Usage: truth [--root PATH] [--json] status
+       truth [--root PATH] [--json] check
        truth [--root PATH] [--json] inspect ID
        truth [--root PATH] [--json] thickness [--queue] [--frontier-root STATEMENT-ID]
        truth [--root PATH] [--json] frontier [--reaching-root] [--routes] [--frontier-root STATEMENT-ID]
@@ -172,6 +173,48 @@ fn frontier_diff_output(
     Ok((delta, text))
 }
 
+/// The partial-port notice `check` prints on stderr before its result.
+fn check_notice() -> String {
+    format!(
+        "notice: truth check is a partial port of `python3 scripts/corpus.py check`, which stays the corpus gate; \
+         still Python-only: {}",
+        check::PYTHON_ONLY.join("; ")
+    )
+}
+
+/// `check`: Python's `corpus ok: …` line and warnings, or its first error.
+fn check_command(root: &std::path::Path) -> Result<(Value, Option<String>), (u8, Value)> {
+    match check::check(root) {
+        Ok(outcome) => {
+            let summary = outcome.summary();
+            let mut text = vec![check_notice()];
+            text.extend(
+                outcome
+                    .warnings
+                    .iter()
+                    .map(|warning| format!("warning: {warning}")),
+            );
+            Ok((
+                json!({
+                    "schema_version": 1,
+                    "ok": true,
+                    "complete": false,
+                    "python_only": check::PYTHON_ONLY,
+                    "counts": outcome.counts.iter().map(|(k, v)| (k.to_string(), json!(v))).collect::<serde_json::Map<_, _>>(),
+                    "warnings": outcome.warnings,
+                    "summary": summary,
+                }),
+                Some(format!("\u{0}{}\u{0}{summary}", text.join("\n"))),
+            ))
+        }
+        Err(message) => Err((
+            1,
+            json!({"code": "corpus_error", "message": message, "complete": false,
+                   "python_only": check::PYTHON_ONLY}),
+        )),
+    }
+}
+
 /// Arguments stay OS-native so a non-UTF-8 `--root` path works; every other
 /// argument must be UTF-8 text and is otherwise a usage error.
 fn run(args: &[OsString]) -> Result<(Value, Option<String>), (u8, Value)> {
@@ -256,6 +299,12 @@ fn run(args: &[OsString]) -> Result<(Value, Option<String>), (u8, Value)> {
             }
             value => positional.push(value),
         }
+    }
+    if matches!(positional.as_slice(), ["check"]) {
+        if bridge_flags || queue || frontier_root != thickness::DEFAULT_ROOT {
+            return Err(usage("check takes no options besides --root and --json"));
+        }
+        return check_command(&root);
     }
     let thickness = matches!(positional.as_slice(), ["thickness"]);
     let command = positional.first().copied().unwrap_or_default();
@@ -346,7 +395,14 @@ fn main() -> ExitCode {
             if machine {
                 println!("{output}");
             } else if let Some(text) = text {
-                println!("{text}");
+                // `check` text: stderr part, then the stdout summary.
+                if let Some(rest) = text.strip_prefix('\u{0}') {
+                    let (stderr, stdout) = rest.split_once('\u{0}').unwrap_or((rest, ""));
+                    eprintln!("{stderr}");
+                    println!("{stdout}");
+                } else {
+                    println!("{text}");
+                }
             } else if let Some(targets) = output["targets"].as_array() {
                 println!(
                     "Bridge candidates ({}); advisory ranking only, not a proof",
@@ -392,6 +448,12 @@ fn main() -> ExitCode {
         Err((code, error)) => {
             if machine {
                 eprintln!("{}", json!({"schema_version":1,"error":error}));
+            } else if error["code"] == "corpus_error" {
+                eprintln!("{}", check_notice());
+                eprintln!(
+                    "corpus error: {}",
+                    error["message"].as_str().unwrap_or_default()
+                );
             } else if let Some(path) = error["path"].as_str() {
                 eprintln!(
                     "truth: {path}: {}",

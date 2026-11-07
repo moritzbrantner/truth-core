@@ -1,0 +1,78 @@
+# Round 5 worklist: the three premises of the q.19 a.1 will argument.
+# Analyst formulations, attribution deferred.
+target = "STMT-WILL-FOLLOWS-INTELLECT"
+
+[[node]]
+id = "STMT-WILL-FOLLOWS-INTELLECT"
+
+[[node]]
+id = "STMT-EVERY-FORM-HAS-INCLINATION"
+
+[[node]]
+id = "STMT-INTELLECT-HAS-INTELLIGIBLE-FORM"
+
+[[node]]
+id = "STMT-INTELLIGIBLE-INCLINATION-IS-WILL"
+
+[[node]]
+id = "STMT-FORM-IS-PRINCIPLE-OF-OPERATION"
+
+[[node]]
+id = "STMT-EVERY-OPERATION-HAS-AN-END"
+
+[[node]]
+id = "STMT-END-DIRECTED-OPERATION-IS-INCLINATION"
+
+[[node]]
+id = "STMT-INTELLECT-UNDERSTANDS-SOMETHING"
+
+[[node]]
+id = "STMT-UNDERSTANDING-IS-THROUGH-INTELLIGIBLE-FORM"
+
+[[node]]
+id = "STMT-INTELLIGIBLE-INCLINATION-IS-INTELLECTUAL-APPETITE"
+
+[[node]]
+id = "STMT-INTELLECTUAL-APPETITE-IS-WILL"
+
+[[node]]
+id = "STMT-IMMATERIAL-IS-INTELLECTUAL"
+
+[[edge]]
+premises = ["STMT-INTELLECT-HAS-INTELLIGIBLE-FORM", "STMT-EVERY-FORM-HAS-INCLINATION", "STMT-INTELLIGIBLE-INCLINATION-IS-WILL"]
+conclusion = "STMT-WILL-FOLLOWS-INTELLECT"
+kind = "derivation"
+status = "certified"
+argument = "WILL-FROM-INTELLECTUAL-INCLINATION"
+note = "Existing consumer of the three new derivations below."
+
+[[edge]]
+premises = ["STMT-FORM-IS-PRINCIPLE-OF-OPERATION", "STMT-EVERY-OPERATION-HAS-AN-END", "STMT-END-DIRECTED-OPERATION-IS-INCLINATION"]
+conclusion = "STMT-EVERY-FORM-HAS-INCLINATION"
+kind = "derivation"
+status = "certified"
+argument = "EVERY-FORM-INCLINED-FROM-FINALITY"
+note = "Operation and end as middle terms; the finality principle is open."
+
+[[edge]]
+premises = ["STMT-INTELLECT-UNDERSTANDS-SOMETHING", "STMT-UNDERSTANDING-IS-THROUGH-INTELLIGIBLE-FORM"]
+conclusion = "STMT-INTELLECT-HAS-INTELLIGIBLE-FORM"
+kind = "derivation"
+status = "certified"
+argument = "INTELLECT-FORM-FROM-UNDERSTANDING"
+note = "Actual understanding as the middle term; the tabula-rasa objection falls on the first premise."
+
+[[edge]]
+premises = ["STMT-INTELLIGIBLE-INCLINATION-IS-INTELLECTUAL-APPETITE", "STMT-INTELLECTUAL-APPETITE-IS-WILL"]
+conclusion = "STMT-INTELLIGIBLE-INCLINATION-IS-WILL"
+kind = "derivation"
+status = "certified"
+argument = "WILL-FROM-INTELLECTUAL-APPETITE"
+note = "Appetite classification (q.80) and identification of intellectual appetite with will."
+
+[[edge]]
+premises = ["STMT-IMMATERIAL-IS-INTELLECTUAL"]
+conclusion = "STMT-INTELLECT-HAS-INTELLIGIBLE-FORM"
+kind = "derivation"
+status = "rejected"
+note = "Rejected: immateriality gives intellect, not an actual intelligible form; the power/act gap would need the same understands-something premise (ATTEMPT-ROUND5-WORKLIST-REJECTED-LEADS)."

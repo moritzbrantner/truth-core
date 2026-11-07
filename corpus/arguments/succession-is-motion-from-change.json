@@ -1,0 +1,20 @@
+{
+  "id": "SUCCESSION-IS-MOTION-FROM-CHANGE",
+  "premise_statement_ids": [
+    "STMT-STATE-DIFFERENCE-IS-CHANGE",
+    "STMT-CHANGE-OF-PERSISTING-SUBJECT-IS-MOTION"
+  ],
+  "conclusion_statement_id": "STMT-SUCCESSION-IS-BEING-MOVED",
+  "inference_ids": [
+    "INF-SUCCESSION-IS-MOTION-FROM-CHANGE"
+  ],
+  "meaning": "A living thing whose life-state differs between two times at which it lives is being moved in some respect: the state difference is a change in some respect between the two times (OPEN), and a change of a subject that lives at both ends is a motion in that respect, not generation or corruption (OPEN Physics V.1 reading). Both 'lives at' conjuncts of the succession are used, which is why beginning or ceasing to live is not covered.",
+  "definition_ids": [
+    "DEF-CHANGE-BETWEEN-TIMES",
+    "DEF-LIFE-PRESENT-AT",
+    "DEF-MOTION-AS-REDUCTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION"
+  ]
+}

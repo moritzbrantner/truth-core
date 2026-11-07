@@ -1,0 +1,9 @@
+{
+  "id": "INF-ROUND5-WORKLIST-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-ROUND5-WORKLIST-CONTROLS",
+  "rule": "Explicit finite interpretations",
+  "meaning": "Finite interpretations for the eleven derivations of round 5: for each premise, a hand-written model (Unit, Bool or Fin 2; the natural numbers for the two finiteness omissions) in which the other premises hold and the conclusion fails (28 omission models, checked by decide or short proofs), and one joint nonvacuity witness per map in which every premise and conclusion holds with populated antecedents. Satisfiability and omission only; no model is claimed to describe reality.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

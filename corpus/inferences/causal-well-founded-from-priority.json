@@ -1,0 +1,13 @@
+{
+  "id": "INF-CAUSAL-WELL-FOUNDED-FROM-PRIORITY",
+  "input_statement_ids": [
+    "STMT-HISTORY-EDGES-ARE-EFFICIENT-CAUSINGS",
+    "STMT-EFFICIENT-CAUSE-IS-PRIOR-TO-EFFECT",
+    "STMT-SIMPLE-PRIORITY-WELL-FOUNDED"
+  ],
+  "output_statement_id": "STMT-CAUSAL-WELL-FOUNDED-PREDECESSORS",
+  "rule": "Subrelation of a well-founded relation (Subrelation.wf)",
+  "meaning": "The causal predecessor relation is well-founded, from the OPEN edge bridge, the existing statement that efficient causes are simply prior to their effects, and the OPEN and contested premise that simple priority is well-founded: the causal relation is contained in simple priority, and a subrelation of a well-founded relation is well-founded. The contested regress question is relocated to the priority order, not answered.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
