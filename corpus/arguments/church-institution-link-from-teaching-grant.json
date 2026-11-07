@@ -1,0 +1,29 @@
+{
+  "id": "CHURCH-INSTITUTION-LINK-FROM-TEACHING-GRANT",
+  "premise_statement_ids": [
+    "STMT-CHURCH-FOUNDED-IN-COMMISSIONED-APOSTLES",
+    "STMT-SELECTED-GOVERNING-WITHIN-TABLE-OR-TEACHING",
+    "STMT-TEACHING-GRANT-FOUNDS-IN-MANDATE"
+  ],
+  "conclusion_statement_id": "STMT-CHURCH-INSTITUTION-LINK-FOR-SELECTED-GOVERNANCE",
+  "inference_ids": [
+    "INF-CHURCH-INSTITUTION-LINK-FROM-TEACHING-GRANT"
+  ],
+  "meaning": "The criterion-matched institutional link for the selected governing predicate, from the existing old link (STMT-CHURCH-FOUNDED-IN-COMMISSIONED-APOSTLES, for table-governing powers and the teaching commission), the OPEN bound that every selected power is table-governing or teaching, and the OPEN bridge that giving the power to teach founds the Church in the mandate. A selected power given is split into the table case (old link) and the teaching case (new bridge).",
+  "definition_ids": [
+    "DEF-CATHOLIC-CHURCH-PROPOSAL-SUBJECT",
+    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY",
+    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
+    "DEF-COMMISSION-GOVERNANCE-CALIBRATION",
+    "DEF-COMMISSION-REPORT-POWERS",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+    "DEF-SKELETON-OPEN-PREDICATES",
+    "DEF-TEACHING-INCLUSIVE-GOVERNING-POWER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS",
+    "DISAMB-COMMISSION-GOVERNANCE-CRITERIA",
+    "DISAMB-COMMISSION-REPORT-AND-EVENT",
+    "DISAMB-FOUNDED-BY-GOD"
+  ]
+}

@@ -1,0 +1,84 @@
+# Round 6 worklist: divine-founding reading fork and John's independence (stage 3).
+# Analyst formulations, attribution deferred.
+target = "STMT-ENVOY-FOUNDING-IS-GODS-FOUNDING"
+
+[[node]]
+id = "STMT-ENVOY-FOUNDING-IS-GODS-FOUNDING"
+
+[[node]]
+id = "STMT-DIVINE-FOUNDING-NAMED-READINGS-COVER"
+
+[[node]]
+id = "STMT-DIVINE-FOUNDING-IMMEDIATE-READING-FAILS"
+
+[[node]]
+id = "STMT-DIVINE-FOUNDING-IS-ENVOY-INCLUSIVE"
+
+[[node]]
+id = "STMT-JOHN-COMMISSION-INDEPENDENT-OF-MATTHEW"
+
+[[node]]
+id = "STMT-HEAVEN-RATIFIED-ATTESTATION-CRITERION"
+
+[[node]]
+id = "STMT-JESUS-ENVOY-TEACHING-FOUNDING-EVENT-EXISTS"
+
+[[node]]
+id = "STMT-GOD-FOUNDED-SOME-JESUS-ENVOY-SOCIETY"
+new = true
+text = "Some God candidate founded as a teaching authority a society that Jesus founded in the mandate relation to it and commissioned to teach."
+
+[[node]]
+id = "STMT-DIVINE-DIRECT-FOUNDING-EXCLUDES-JESUS-ENVOY"
+new = true
+text = "No direct founding by a God candidate is also a Jesus-envoy teaching event (existing Lean DirectExcludesJesusEnvoy)."
+
+[[node]]
+id = "STMT-JOHANNINE-SAYINGS-INDEPENDENT-OF-MATTHEAN"
+new = true
+text = "Every Johannine commission saying is independent of every Matthean one."
+
+[[edge]]
+premises = ["STMT-DIVINE-FOUNDING-NAMED-READINGS-COVER", "STMT-DIVINE-FOUNDING-IMMEDIATE-READING-FAILS"]
+conclusion = "STMT-ENVOY-FOUNDING-IS-GODS-FOUNDING"
+kind = "derivation"
+status = "certified"
+argument = "FOUNDING-BRIDGE-FROM-NAMED-READING-ELIMINATION"
+note = "Existing consumer."
+
+[[edge]]
+premises = ["STMT-GOD-FOUNDED-SOME-JESUS-ENVOY-SOCIETY", "STMT-DIVINE-DIRECT-FOUNDING-EXCLUDES-JESUS-ENVOY"]
+conclusion = "STMT-DIVINE-FOUNDING-IMMEDIATE-READING-FAILS"
+kind = "derivation"
+status = "certified"
+argument = "DIVINE-FOUNDING-IMMEDIATE-FAILS-FROM-ENVOY-FOUNDING"
+note = "Does not use the envoy bridge, so it is not circular with the elimination above."
+
+[[edge]]
+premises = ["STMT-ENVOY-FOUNDING-IS-GODS-FOUNDING", "STMT-JESUS-ENVOY-TEACHING-FOUNDING-EVENT-EXISTS", "STMT-DIVINE-DIRECT-FOUNDING-EXCLUDES-JESUS-ENVOY"]
+conclusion = "STMT-DIVINE-FOUNDING-IMMEDIATE-READING-FAILS"
+kind = "derivation"
+status = "rejected"
+note = "Valid, but uses the envoy bridge, which the existing elimination derives from this very conclusion: circular for closure."
+
+[[edge]]
+premises = ["STMT-ENVOY-FOUNDING-IS-GODS-FOUNDING"]
+conclusion = "STMT-DIVINE-FOUNDING-IS-ENVOY-INCLUSIVE"
+kind = "derivation"
+status = "rejected"
+note = "The envoy-inclusive reading needs the envoy bridge as its envoy-to-founding half; the existing Inclusive result derives the bridge from the reading, so any such derivation (and of named coverage through it) is circular for closure."
+
+[[edge]]
+premises = ["STMT-JOHANNINE-SAYINGS-INDEPENDENT-OF-MATTHEAN"]
+conclusion = "STMT-JOHN-COMMISSION-INDEPENDENT-OF-MATTHEW"
+kind = "derivation"
+status = "certified"
+argument = "JOHN-COMMISSION-INDEPENDENT-FROM-STRANDS"
+note = "Universal instantiation through the fixed strand table."
+
+[[edge]]
+premises = ["STMT-JOHN-COMMISSION-INDEPENDENT-OF-MATTHEW"]
+conclusion = "STMT-HEAVEN-RATIFIED-ATTESTATION-CRITERION"
+kind = "derivation"
+status = "rejected"
+note = "Deriving the family criterion from a general multiple-attestation criterion over governing families is a single instantiation of a strictly stronger open premise (strength order, not a derivation); no non-transcription route found."

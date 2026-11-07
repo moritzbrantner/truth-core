@@ -1,0 +1,18 @@
+{
+  "id": "ATTEMPT-ROUND6-DEFINITION-FORKS-REJECTED-EDGES",
+  "statement_ids": [
+    "STMT-CHURCH-NAMED-CRITERIA-COVER",
+    "STMT-DIVINE-FOUNDING-IMMEDIATE-READING-FAILS",
+    "STMT-DIVINE-FOUNDING-IS-ENVOY-INCLUSIVE",
+    "STMT-DIVINE-FOUNDING-NAMED-READINGS-COVER",
+    "STMT-MATTHEW28-COMMISSION-GOES-BACK-TO-JESUS",
+    "STMT-HEAVEN-RATIFIED-ATTESTATION-CRITERION"
+  ],
+  "date": "2026-11-07",
+  "kind": "derivation",
+  "outcome": "rejected",
+  "summary": "Map edges examined and rejected in the round-6 definition-fork batch. (1) Named Church coverage without the Church-is-spiritual inclusion, by excluded middle on 'every visible society is spiritual': the negative branch needs that inclusion for the joint case; a three-society model (visible {a}, spiritual {a,b,c}, Church {a,b}) is the shape of the gap. (2) Immediate-only reading fails from the envoy bridge STMT-ENVOY-FOUNDING-IS-GODS-FOUNDING, the envoy-event witness and the exclusion: valid, but the existing elimination FOUNDING-BRIDGE-FROM-NAMED-READING-ELIMINATION derives the bridge from this conclusion, so the route is circular for closure; replaced by a God-founded envoy witness. (3) Envoy-inclusive reading and named reading coverage: any derivation needs the envoy bridge as the envoy-to-founding half, and the existing Inclusive result derives the bridge from the reading; circular for closure, no non-circular route found. (4) Matthew 28 goes back to Jesus: already a projection of the stronger open report bundle (COMMISSION-REPORT-BUNDLE-SUPPLIES-MATTHEW28); per-power historical premises would only re-transcribe it. (5) Heaven-ratified attestation criterion from a general multiple-attestation criterion over governing families: a single instantiation of a strictly stronger premise (strength order), not a derivation. Rejection records that a lead was examined; it neither refutes nor establishes any target.",
+  "evidence": [
+    "ROUND6-DEFINITION-FORKS-CONTROLS"
+  ]
+}

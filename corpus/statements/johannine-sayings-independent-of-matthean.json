@@ -1,0 +1,11 @@
+{
+  "id": "STMT-JOHANNINE-SAYINGS-INDEPENDENT-OF-MATTHEAN",
+  "paraphrase": "OPEN historical premise, attribution deferred: for any two commission reports, if the first belongs to the Johannine strand and the second to the Matthean strand (the fixed table strandOf), then the first's commission saying is literarily independent of the second's (Tradition.Independent). Whoever holds that John knew and used Matthew denies it. It is strictly more general than STMT-JOHN-COMMISSION-INDEPENDENT-OF-MATTHEW.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.Round6DefinitionForks.JohannineSayingsIndependentOfMatthean",
+  "definition_ids": [
+    "DEF-INDEPENDENT-ATTESTATION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ATTESTATION-OF-POWER-AND-FAMILY"
+  ]
+}

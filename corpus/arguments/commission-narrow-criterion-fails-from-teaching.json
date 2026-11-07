@@ -1,0 +1,25 @@
+{
+  "id": "COMMISSION-NARROW-CRITERION-FAILS-FROM-TEACHING",
+  "premise_statement_ids": [
+    "STMT-SELECTED-GOVERNING-INCLUDES-TEACHING"
+  ],
+  "conclusion_statement_id": "STMT-COMMISSION-NARROW-GOVERNANCE-CRITERION-FAILS",
+  "inference_ids": [
+    "INF-COMMISSION-NARROW-CRITERION-FAILS-FROM-TEACHING"
+  ],
+  "meaning": "The narrow calibration (selected governing iff governing in the fixed table) is false, from the OPEN premise that the selected governing predicate includes teaching: under the narrow calibration teaching would be governing in the table, where Power.Governing .teach = false. The fixed table, not a premise, supplies the contradiction.",
+  "definition_ids": [
+    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY",
+    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
+    "DEF-COMMISSION-GOVERNANCE-CALIBRATION",
+    "DEF-COMMISSION-REPORT-POWERS",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+    "DEF-TEACHING-INCLUSIVE-GOVERNING-POWER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS",
+    "DISAMB-COMMISSION-GOVERNANCE-CRITERIA",
+    "DISAMB-COMMISSION-REPORT-AND-EVENT",
+    "DISAMB-FOUNDED-BY-GOD"
+  ]
+}

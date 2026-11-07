@@ -1,0 +1,13 @@
+{
+  "id": "INF-COMMISSION-TEACHING-INCLUSIVE-FROM-BOUNDS",
+  "input_statement_ids": [
+    "STMT-SELECTED-GOVERNING-INCLUDES-TEACHING",
+    "STMT-TABLE-GOVERNING-IS-SELECTED",
+    "STMT-SELECTED-GOVERNING-WITHIN-TABLE-OR-TEACHING"
+  ],
+  "output_statement_id": "STMT-COMMISSION-GOVERNANCE-INCLUDES-TEACHING",
+  "rule": "Universal generalization, biconditional introduction, proof by cases",
+  "meaning": "The selected governing predicate is the teaching-inclusive criterion (governing in the table or teaching), from three OPEN inclusions: teaching is selected, every table-governing power is selected, and every selected power is table-governing or teaching.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

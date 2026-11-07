@@ -1,0 +1,10 @@
+{
+  "id": "CHURCH-VISIBLE-CRITERION-FROM-ASPECT-INCLUSIONS",
+  "argument_id": "CHURCH-VISIBLE-CRITERION-FROM-ASPECT-INCLUSIONS",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.churchVisibleFromAspects",
+  "comparator_config": "results/CHURCH-VISIBLE-CRITERION-FROM-ASPECT-INCLUSIONS/comparator.json",
+  "status": "solution-present",
+  "description": "The selected Church coextends with the visible criterion, through the spiritual-community predicate as middle term: the Church is visible (OPEN); a visible society in the scope is spiritual (OPEN and contested, restricted scope) and hence, being visible and spiritual, the Church (OPEN). The Church-is-spiritual inclusion is not needed. With STMT-CHURCH-HAS-JOINT-ASPECT-CRITERION it shows the visible and joint calibrations coincide under these premises."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "INF-JOHN-COMMISSION-INDEPENDENT-FROM-STRANDS",
+  "input_statement_ids": [
+    "STMT-JOHANNINE-SAYINGS-INDEPENDENT-OF-MATTHEAN"
+  ],
+  "output_statement_id": "STMT-JOHN-COMMISSION-INDEPENDENT-OF-MATTHEW",
+  "rule": "Universal instantiation with the fixed strand table, disjunction introduction",
+  "meaning": "John 20's commission saying is independent of Matthew 18's, from the OPEN historical premise that Johannine commission sayings are independent of Matthean ones: the fixed table strandOf puts John 20 in the Johannine and Matthew 18 in the Matthean strand. The premise is strictly more general than the conclusion; the derivation relocates the historical question to the strands rather than answering it.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
