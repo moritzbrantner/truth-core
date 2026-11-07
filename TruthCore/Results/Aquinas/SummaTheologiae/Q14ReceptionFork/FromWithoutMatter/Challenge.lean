@@ -1,8 +1,5 @@
-module
+import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question14.ReceptionDefinitionFork
 
-public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question14.ReceptionDefinitionFork
-
-@[expose] public section
 namespace TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Latin.Aquinas.SummaTheologiae.FormReception

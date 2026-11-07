@@ -142,6 +142,11 @@ extensions, explicitly witnessing the remaining branch rather than selecting
 a preferred winner. These are API interpretations, not actual immaterial beings,
 metaphysical possibilities or defeats of complete worldviews.
 
+The new Challenges were frozen before Solutions in `9ce52e79`. Their later
+ordinary-file header normalization is packaging compliance only: theorem text,
+types and namespaces were preserved byte-for-byte, and Solution inputs stayed
+unchanged. The affected Challenge comparisons were rerun.
+
 ## Remaining gap and premise comparison
 
 The source expressly asserts the graded immateriality argument, but neither
