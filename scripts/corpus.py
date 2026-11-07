@@ -1374,6 +1374,51 @@ def frontier_report(
                     if premise not in reaching_root:
                         reaching_root.add(premise)
                         pending.append(premise)
+
+    # A verified derivation is an additional *conditional* way to support a
+    # premise, not a reason to discard the option of assuming it directly.
+    # Count distinct premise bundles, not duplicate result records or proofs
+    # with the same obligations. Unlike route cost this measure cannot worsen
+    # merely because an extra derivation was registered.
+    support_bundles: dict[str, dict[tuple[str, ...], dict[str, set[str]]]] = {}
+    for result in results:
+        if result["id"] in transcription_results:
+            continue
+        argument = argument_by_id.get(result["argument_id"])
+        if argument is None:
+            continue
+        conclusion = argument["conclusion_statement_id"]
+        if conclusion not in reaching_root or conclusion not in dependents:
+            continue
+        premises = tuple(sorted(set(argument["premise_statement_ids"])))
+        if conclusion in premises:  # A circular restatement is not an alternative support bundle.
+            continue
+        support_bundles.setdefault(conclusion, {}).setdefault(premises, {}).setdefault(
+            argument["id"], set()
+        ).add(result["id"])
+    premise_ids = sorted((reaching_root & dependents.keys()) - {root})
+    unestablished_premises = [sid for sid in premise_ids if sid not in established]
+    support_options = {
+        "unestablished_premise_count": len(unestablished_premises),
+        "with_verified_alternative_count": sum(bool(support_bundles.get(sid)) for sid in unestablished_premises),
+        "verified_alternative_bundle_count": sum(len(support_bundles.get(sid, {})) for sid in premise_ids),
+        "items": [
+            {
+                "statement_id": sid,
+                "direct_assumption_available": sid not in established,
+                "established": sid in established,
+                "verified_alternative_bundles": [
+                    {
+                        "premise_statement_ids": list(premises),
+                        "argument_ids": sorted(verified_results),
+                        "result_ids": sorted({rid for ids in verified_results.values() for rid in ids}),
+                    }
+                    for premises, verified_results in sorted(support_bundles.get(sid, {}).items())
+                ],
+            }
+            for sid in premise_ids
+        ],
+    }
     closures: list[dict[str, Any]] = []
     for statement_id in sorted(closed_via_transcription):
         _, _, path = upward(statement_id)
@@ -1413,6 +1458,7 @@ def frontier_report(
         "floor": floor_report,
         "established_statements": sorted(established),
         "reaching_root_statements": sorted(reaching_root),
+        "support_options": support_options,
         "alternatives_recorded": bool(alternatives),
         "open_premise_count": len(items),
         "depth_counts": depth_counts(items),
@@ -1914,6 +1960,15 @@ def format_frontier(report: dict[str, Any]) -> str:
         f"frontier: {report['open_premise_count']} open premises: "
         f"{format_depth_counts(counts)}; root {root_note}"
     )
+    options = report.get("support_options")
+    if options:
+        lines.append(
+            "conditional premise support (root-reaching): "
+            f"{options['with_verified_alternative_count']} of {options['unestablished_premise_count']} "
+            "unestablished premises have verified alternatives; "
+            f"{options['verified_alternative_bundle_count']} distinct bundles "
+            "(not established by verification alone)"
+        )
     if not report["alternatives_recorded"]:
         lines.append("alternatives: no alternatives recorded")
     for item in report["items"]:
@@ -3012,6 +3067,22 @@ def frontier_delta(base: dict[str, Any], head: dict[str, Any]) -> dict[str, Any]
         entry = next((e for e in report["routes"]["routes"] if e["argument_id"] == argument_id), None)
         return {"argument_id": argument_id, "cost": entry["cost"] if entry else None}
 
+    def support_signatures(report: dict[str, Any]) -> set[tuple[str, tuple[str, ...]]]:
+        return {
+            (item["statement_id"], tuple(bundle["premise_statement_ids"]))
+            for item in report["support_options"]["items"]
+            for bundle in item["verified_alternative_bundles"]
+        }
+
+    support_comparable = "support_options" in base and "support_options" in head
+    base_support = support_signatures(base) if support_comparable else set()
+    head_support = support_signatures(head) if support_comparable else set()
+    def describe_bundles(entries: set[tuple[str, tuple[str, ...]]]) -> list[dict[str, Any]]:
+        return [
+            {"statement_id": sid, "premise_statement_ids": list(premises)}
+            for sid, premises in sorted(entries)
+        ]
+
     delta = {
         "root": head["root"],
         "base_counts": {"open": len(base["items"]), **depth_counts(base["items"])},
@@ -3028,9 +3099,16 @@ def frontier_delta(base: dict[str, Any], head: dict[str, Any]) -> dict[str, Any]
         "base_cheapest_route": cheapest(base),
         "head_cheapest_route": cheapest(head),
         "route_changes": route_changes,
+        # Older revisions may lack this projection. Do not invent a zero base.
+        "support_bundle_comparison_available": support_comparable,
+        "base_support_bundle_count": len(base_support) if support_comparable else None,
+        "head_support_bundle_count": len(head_support) if support_comparable else None,
+        "new_support_bundles": describe_bundles(head_support - base_support),
+        "removed_support_bundles": describe_bundles(base_support - head_support),
     }
     delta["changed"] = bool(
         added or removed or moved or route_changes
+        or delta["new_support_bundles"] or delta["removed_support_bundles"]
         or delta["base_cheapest_route"] != delta["head_cheapest_route"]
     )
     return delta
@@ -3046,14 +3124,26 @@ def format_frontier_delta(delta: dict[str, Any]) -> str:
     lines = [
         f"premise delta for {delta['root']}: {delta['base']} -> {delta['head']}",
         f"open premises reaching the root: {counts(delta['base_counts'])} -> {counts(delta['head_counts'])}",
-        f"cheapest route: {route(delta['base_cheapest_route'])} -> {route(delta['head_cheapest_route'])}",
+        f"expanded-route diagnostic (lowest cost): {route(delta['base_cheapest_route'])} -> {route(delta['head_cheapest_route'])}",
     ]
+    if delta.get("support_bundle_comparison_available"):
+        lines.append(
+            "distinct verified support alternatives: "
+            f"{delta['base_support_bundle_count']} -> {delta['head_support_bundle_count']}"
+        )
+        lines.append(f"verified support alternatives added: {len(delta['new_support_bundles'])}")
+        for entry in delta["new_support_bundles"]:
+            lines.append(f"  {entry['statement_id']} <- {', '.join(entry['premise_statement_ids']) or '(no premises)'}")
+        if delta["removed_support_bundles"]:
+            lines.append(f"verified support alternatives removed: {len(delta['removed_support_bundles'])}")
+            for entry in delta["removed_support_bundles"]:
+                lines.append(f"  {entry['statement_id']} <- {', '.join(entry['premise_statement_ids']) or '(no premises)'}")
     if not delta["changed"]:
         lines.append("no change")
         return "\n".join(lines)
     bare_added = delta["bare_added"]
     if bare_added:
-        lines.append(f"bare premises added: {len(bare_added)} (a relocation that adds a bare premise is not progress)")
+        lines.append(f"bare premises added: {len(bare_added)} (new obligations; evaluate separately from support progress)")
         lines.extend(f"  {statement_id}" for statement_id in bare_added)
     else:
         lines.append("bare premises added: none")
