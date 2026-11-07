@@ -1,0 +1,14 @@
+{
+  "id": "STMT-OWN-BEING-IS-NO-RECIPIENT",
+  "paraphrase": "OPEN analyst reading of ST I q.4 a.1 ad 3: whatever is its own subsistent being is no recipient; nothing is received in it as act in receiving potency. The passage says esse is related to other things not as recipient to received but as received to recipient; reading this of a being that is its own esse is the analyst's step.",
+  "lean_declaration": "TruthCore.Causality.ReceptionLimitation.OwnBeingIsNoRecipient",
+  "definition_ids": [
+    "DEF-SCG-I28-WHOLE-POWER-PARTICIPATION",
+    "DEF-RECIPIENT",
+    "DEF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-RECEPTIVE-POTENCY",
+    "DISAMB-ESSE-RECEPTION"
+  ]
+}

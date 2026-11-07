@@ -1,0 +1,13 @@
+{
+  "id": "INF-UNLIMITED-ESSE-INFINITE-FROM-OWN-BEING",
+  "input_statement_ids": [
+    "STMT-RECEIVED-ESSE-IS-LIMITED",
+    "STMT-UNRECEIVED-ESSE-IS-OWN-BEING",
+    "STMT-OWN-BEING-IS-INFINITE"
+  ],
+  "output_statement_id": "STMT-UNLIMITED-ESSE-IS-INFINITE",
+  "rule": "Unlimited esse is unreceived, so own being, so infinite",
+  "meaning": "A being whose esse is not limited has its esse received in nothing, since received esse is limited (STMT-RECEIVED-ESSE-IS-LIMITED, q.7 a.2); so it is its own being (STMT-UNRECEIVED-ESSE-IS-OWN-BEING, q.7 a.1 with ad 3); and what is its own being is infinite (STMT-OWN-BEING-IS-INFINITE, q.7 a.1). A second derivation, following the order of the q.7 a.1 sentence, of the stated leaf STMT-UNLIMITED-ESSE-IS-INFINITE; it leaves that leaf's stating claim unchanged. All three premises stay open and are supported, not stated.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

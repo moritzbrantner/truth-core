@@ -1,0 +1,35 @@
+{
+  "id": "INFINITE-PERFECTION-FROM-RECEPTION",
+  "premise_statement_ids": [
+    "STMT-INFINITE-ESSE-IS-UNLIMITED",
+    "STMT-RECEIVED-ESSE-IS-LIMITED",
+    "STMT-UNRECEIVED-ESSE-IS-OWN-BEING",
+    "STMT-OWN-BEING-HAS-EVERY-PERFECTION-OF-BEING",
+    "STMT-PURE-PERFECTIONS-PERTAIN-TO-BEING"
+  ],
+  "conclusion_statement_id": "STMT-INFINITE-HAS-EVERY-PURE-PERFECTION",
+  "inference_ids": [
+    "INF-INFINITE-PERFECTION-FROM-RECEPTION"
+  ],
+  "meaning": "Whatever is infinite has unlimited esse (STMT-INFINITE-ESSE-IS-UNLIMITED, q.7 a.1 'infinitum ... ex eo quod non est finitum'); its esse is then received in nothing, since received esse is limited (STMT-RECEIVED-ESSE-IS-LIMITED, q.7 a.2); so it is its own being (STMT-UNRECEIVED-ESSE-IS-OWN-BEING, q.7 a.1); what is its own being has every perfection of being (STMT-OWN-BEING-HAS-EVERY-PERFECTION-OF-BEING, SCG I.28 as encoded); and every pure perfection is a perfection of being (STMT-PURE-PERFECTIONS-PERTAIN-TO-BEING, q.4 a.2 as encoded). Derives the former bare bridge STMT-INFINITE-HAS-EVERY-PURE-PERFECTION. All five premises stay open.",
+  "definition_ids": [
+    "DEF-INFINITE",
+    "DEF-ESSE-LIMITED",
+    "DEF-ESSE-RECEIVED-IN",
+    "DEF-SCG-I28-WHOLE-POWER-PARTICIPATION",
+    "DEF-UNIVERSALLY-PERFECT",
+    "DEF-REAL-DETERMINATION",
+    "DEF-PURE-PERFECTION",
+    "DEF-UNRESTRICTED-PURE-PERFECTION",
+    "DEF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-INFINITY",
+    "DISAMB-ESSE-LIMITATION",
+    "DISAMB-ESSE-RECEPTION",
+    "DISAMB-PURE-ACT-STRICTNESS",
+    "DISAMB-PERFECTION-SCOPE",
+    "DISAMB-ESSENCE",
+    "DISAMB-ORDER-OF-BEING"
+  ]
+}

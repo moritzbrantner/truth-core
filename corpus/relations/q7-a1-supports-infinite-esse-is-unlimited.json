@@ -1,0 +1,9 @@
+{
+  "id": "REL-Q7-A1-SUPPORTS-INFINITE-ESSE-IS-UNLIMITED",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q7-A1-UNLIMITED-ESSE-INFINITE",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-INFINITE-ESSE-IS-UNLIMITED",
+  "note": "Q.7 a.1 co. says 'infinitum dicitur aliquid ex eo quod non est finitum', which reads as a definition, so both directions are natural. The claim formalizes only unlimited esse as sufficient for infinity. The converse direction, with 'finite' read as limitation of esse rather than of matter or quantity, and Infinite restricted to infinity simpliciter (q.7 a.2), is the analyst's."
+}
