@@ -1,0 +1,9 @@
+{
+  "id": "INF-ROUND3-CHRIST-CHURCH-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-ROUND3-CHRIST-CHURCH-CONTROLS",
+  "rule": "Explicit finite interpretations",
+  "meaning": "Controls: a joint finite model of every premise and conclusion of the batch; and omission models for each premise of the nine route derivations (22 models).",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

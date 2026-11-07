@@ -1,0 +1,32 @@
+target = "STMT-CHRISTS-CHURCH-IS-THE-CATHOLIC-CHURCH"
+
+[[node]]
+id = "STMT-CHRISTS-CHURCH-IS-THE-CATHOLIC-CHURCH"
+
+[[node]]
+id = "STMT-JESUS-FOUNDED-AT-MOST-ONE-VISIBLE-CHURCH"
+
+[[node]]
+id = "STMT-CATHOLIC-CHURCH-IS-JESUS-FOUNDED-VISIBLE-SOCIETY"
+
+[[node]]
+id = "STMT-MOTIVES-OF-CREDIBILITY-BELONG-TO-CATHOLIC-CHURCH-ALONE"
+
+[[node]]
+id = "NEW-ONLY-CHRISTS-CHURCH-BEARS-THE-MOTIVES"
+new = true
+text = "Every visible society with authority that Christ founded bears the motives of credibility."
+
+[[edge]]
+premises = ["STMT-JESUS-FOUNDED-AT-MOST-ONE-VISIBLE-CHURCH", "STMT-CATHOLIC-CHURCH-IS-JESUS-FOUNDED-VISIBLE-SOCIETY"]
+conclusion = "STMT-CHRISTS-CHURCH-IS-THE-CATHOLIC-CHURCH"
+kind = "derivation"
+status = "certified"
+note = "ROUND3-CHRIST-CHURCH-CHRISTS-CHURCH-CATHOLIC-FROM-UNIQUENESS: uniqueness plus one instance. Rivals: branch theory (denies uniqueness), rupture/refounding (denies the Catholic instance); both are omission models."
+
+[[edge]]
+premises = ["STMT-MOTIVES-OF-CREDIBILITY-BELONG-TO-CATHOLIC-CHURCH-ALONE", "NEW-ONLY-CHRISTS-CHURCH-BEARS-THE-MOTIVES"]
+conclusion = "STMT-CHRISTS-CHURCH-IS-THE-CATHOLIC-CHURCH"
+kind = "derivation"
+status = "rejected"
+note = "Rejected for this batch (attempt ATTEMPT-ROUND3-CHRIST-CHURCH-20261107): the Dei Filius statement is untyped; 'belong to the Catholic Church alone' needs a typed bearer-of-motives predicate over societies that the skeleton lacks, and identity would still need the motives to individuate one society. The claim already supports the target through an existing relation."

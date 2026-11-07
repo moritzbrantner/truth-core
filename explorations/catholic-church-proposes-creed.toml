@@ -1,0 +1,30 @@
+target = "STMT-CATHOLIC-CHURCH-DEFINITIVELY-PROPOSES-CREED"
+
+[[node]]
+id = "STMT-CATHOLIC-CHURCH-DEFINITIVELY-PROPOSES-CREED"
+
+[[node]]
+id = "STMT-C381-TAUGHT-EACH-ARTICLE-AS-REVEALED"
+
+[[node]]
+id = "STMT-CATHOLIC-CHURCH-PROPOSES-WHAT-C381-TAUGHT"
+
+[[node]]
+id = "STMT-CATHOLIC-PROFESSION-CREED-REVEALED-PROPOSAL"
+
+[[node]]
+id = "STMT-CATHOLIC-RECEPTION-OF-GREEK-C381-SYMBOL"
+
+[[edge]]
+premises = ["STMT-C381-TAUGHT-EACH-ARTICLE-AS-REVEALED", "STMT-CATHOLIC-CHURCH-PROPOSES-WHAT-C381-TAUGHT"]
+conclusion = "STMT-CATHOLIC-CHURCH-DEFINITIVELY-PROPOSES-CREED"
+kind = "derivation"
+status = "certified"
+note = "ROUND3-CHRIST-CHURCH-CREED-PROPOSED-FROM-C381: middle term TaughtAsRevealed (the council's teaching act), joined to the Church's proposal by reception."
+
+[[edge]]
+premises = ["STMT-CATHOLIC-PROFESSION-CREED-REVEALED-PROPOSAL", "STMT-CATHOLIC-RECEPTION-OF-GREEK-C381-SYMBOL"]
+conclusion = "STMT-CATHOLIC-CHURCH-PROPOSES-WHAT-C381-TAUGHT"
+kind = "source"
+status = "rejected"
+note = "Rejected as a derivation: both statements are untyped claim-level statements; their claims support the reception premise through relations with gap notes instead (the profession formula differs from the Greek 381 contents, DISAMB-CREED-CONTENT-AND-FORMULA)."

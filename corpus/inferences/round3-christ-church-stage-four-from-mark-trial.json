@@ -1,0 +1,15 @@
+{
+  "id": "INF-ROUND3-CHRIST-CHURCH-STAGE-FOUR-FROM-MARK-TRIAL",
+  "input_statement_ids": [
+    "STMT-REPORTED-MARK-AFFIRMATIVE-ANSWER",
+    "STMT-REPORTED-MARK-SON-OF-MAN-PREDICTION",
+    "STMT-MARK-TRIAL-SAYINGS-GO-BACK-TO-JESUS",
+    "STMT-TRIAL-SELF-ASCRIPTION-IS-DIVINE-AUTHORITY-CLAIM",
+    "STMT-PILOT-ROSE"
+  ],
+  "output_statement_id": "STMT-JESUS-CLAIMED-DIVINE-AUTHORITY-AND-ROSE",
+  "rule": "Report to event to interpretation, with the rising",
+  "meaning": "Stage 4 through the Mark 14 route: the claim conjunct is derived from the two Mark 14 reports through the historicity and interpretation bridges; the rising conjunct is the pilot's open premise STMT-PILOT-ROSE. Each of the five premises is needed (omission models in ROUND3-CHRIST-CHURCH-CONTROLS).",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

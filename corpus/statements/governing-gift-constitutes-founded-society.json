@@ -1,0 +1,10 @@
+{
+  "id": "STMT-GOVERNING-GIFT-CONSTITUTES-FOUNDED-SOCIETY",
+  "paraphrase": "OPEN (attribution deferred): if Jesus gave (or promised) a governing power, there is a society that he founded and that holds that power. Its rival is the purely personal or charismatic reading of the commissions (powers given to individuals, no society founded).",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.Round3ChristChurch.GoverningGiftConstitutesFoundedSociety",
+  "definition_ids": [
+    "DEF-SOCIETY-HOLDS-COMMISSIONED-POWER",
+    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
+    "DEF-SKELETON-OPEN-PREDICATES"
+  ]
+}

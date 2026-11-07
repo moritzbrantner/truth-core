@@ -1,0 +1,13 @@
+{
+  "id": "STMT-CATHOLIC-CHURCH-PROPOSES-WHAT-C381-TAUGHT",
+  "paraphrase": "OPEN (attribution deferred): whatever the Council of Constantinople (381) taught in its creed as revealed, the Catholic Church definitively proposes as divinely revealed (it receives the council as ecumenical and its creed as normative).",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.Round3ChristChurch.CatholicChurchProposesWhatC381Taught",
+  "definition_ids": [
+    "DEF-C381-TAUGHT-AS-REVEALED",
+    "DEF-DEFINITIVELY-PROPOSES-AS-REVEALED",
+    "DEF-CATHOLIC-CHURCH-PROPOSAL-SUBJECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CREED-CONTENT-AND-FORMULA"
+  ]
+}

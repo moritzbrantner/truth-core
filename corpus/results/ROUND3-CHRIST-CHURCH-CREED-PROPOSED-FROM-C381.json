@@ -1,0 +1,10 @@
+{
+  "id": "ROUND3-CHRIST-CHURCH-CREED-PROPOSED-FROM-C381",
+  "argument_id": "ROUND3-CHRIST-CHURCH-CREED-PROPOSED-FROM-C381",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.creedProposedFromC381",
+  "comparator_config": "results/ROUND3-CHRIST-CHURCH-CREED-PROPOSED-FROM-C381/comparator.json",
+  "status": "solution-present",
+  "description": "The Council of Constantinople (381) taught each Creed article as revealed, and the Catholic Church definitively proposes whatever that council taught as revealed; so it definitively proposes each article. Two open premises; each is needed."
+}

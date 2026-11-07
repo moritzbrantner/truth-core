@@ -1,0 +1,22 @@
+{
+  "id": "ROUND3-CHRIST-CHURCH-CREED-PROPOSED-FROM-C381",
+  "premise_statement_ids": [
+    "STMT-C381-TAUGHT-EACH-ARTICLE-AS-REVEALED",
+    "STMT-CATHOLIC-CHURCH-PROPOSES-WHAT-C381-TAUGHT"
+  ],
+  "conclusion_statement_id": "STMT-CATHOLIC-CHURCH-DEFINITIVELY-PROPOSES-CREED",
+  "inference_ids": [
+    "INF-ROUND3-CHRIST-CHURCH-CREED-PROPOSED-FROM-C381"
+  ],
+  "meaning": "The Council of Constantinople (381) taught each Creed article as revealed, and the Catholic Church definitively proposes whatever that council taught as revealed; so it definitively proposes each article. Two open premises; each is needed.",
+  "definition_ids": [
+    "DEF-C381-TAUGHT-AS-REVEALED",
+    "DEF-CATHOLIC-CHURCH-PROPOSAL-SUBJECT",
+    "DEF-CATHOLICISM-TRUE-PHASE-1",
+    "DEF-CREED-GREEK-C381-CONTENT",
+    "DEF-DEFINITIVELY-PROPOSES-AS-REVEALED"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CREED-CONTENT-AND-FORMULA"
+  ]
+}
