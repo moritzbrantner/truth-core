@@ -17,7 +17,7 @@ open TruthCore.Results.Causality.ConcreteExistentialSupply (borrowingEscapeWFEqu
 open TruthCore.Results.Causality.SelectedAncestry (scopeComparison)
 open TruthCore.Logic.CogitoSubject (ThoughtOccurs)
 open TruthCore.Logic.CogitoConcrete (EveryBearerIsConcrete EveryBearerExistsAt BorneThoughtIsOpining)
-open TruthCore.Logic (ExcludedMiddle DoubleNegationElimination)
+open TruthCore.Logic (ExcludedMiddle)
 open TruthCore.Greek.Aristotle.Metaphysics (PotencyIsUnactualizedCapacityReading)
 open TruthCore.Greek.Aristotle.Physics (BeingMovedIsActualizationOfPotencyReading)
 
@@ -145,15 +145,6 @@ theorem beingMovedFromUnactualizedCapacity {Being Respect : Type}
     exact ⟨(hPot x r).2 hcap, ha⟩
   · rintro ⟨hp, ha⟩
     exact (hMoved x r).2 ⟨(hPot x r).1 hp, ha⟩
-
-/-- Excluded middle from double-negation elimination: each instance of
-excluded middle is constructively irrefutable, and double-negation
-elimination removes the double negation. Constructive, no axiom. -/
-theorem excludedMiddleFromDoubleNegationElimination
-    (hDNE : DoubleNegationElimination) : ExcludedMiddle := by
-  intro p
-  have hIrrefutable : ¬ ¬ (p ∨ ¬ p) := fun h => h (Or.inr fun hp => h (Or.inl hp))
-  exact hDNE _ hIrrefutable
 
 /-! ## Controls -/
 

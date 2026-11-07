@@ -1,7 +1,7 @@
 # Round 3: Cogito/existence base and Aristotelian analyses (explorations/cogito-*.toml,
 # explorations/selected-*.toml, explorations/actual-concrete-borrowing-escape.toml,
 # explorations/potency-is-unactualized-capacity.toml,
-# explorations/being-moved-is-actualization-of-potency.toml, explorations/excluded-middle.toml).
+# explorations/being-moved-is-actualization-of-potency.toml, explorations/excluded-middle.toml (rejected edge only)).
 # Analyst formulations, attribution deferred: every new statement is an OPEN premise.
 
 [batch]
@@ -86,20 +86,12 @@ paraphrase = "OPEN analyst premise: being moved in r is the actualization, qua p
 definitions = ["DEF-MOTION-AS-REDUCTION", "DEF-CAPACITY-TO-BE", "DEF-ACT", "DEF-ACTUALIZATION-QUA-POTENTIAL", "DEF-RESPECT"]
 disambiguations = ["DISAMB-MOTION"]
 
-# ---- Excluded middle ----
-
-[[statement]]
-id = "STMT-DOUBLE-NEGATION-ELIMINATION"
-lean = "TruthCore.Logic.DoubleNegationElimination"
-paraphrase = "Double-negation elimination: for every proposition p, if not-not-p then p. Equivalent to excluded middle (STMT-EXCLUDED-MIDDLE-IFF-DOUBLE-NEGATION-ELIMINATION); not constructively provable. An OPEN logical floor, not marked self-evident."
-definitions = ["DEF-SELF-EVIDENT-MARKING"]
-
 # ---- Controls ----
 
 [[statement]]
 id = "STMT-ROUND3-COGITO-BASE-CONTROLS"
 lean = "Control.Certificate"
-paraphrase = "Finite interpretations for the round 3 Cogito/existence-base batch: omission models for every load-bearing premise other than excluded middle and double-negation elimination (which hold in every classical model and are not provable without an axiom), and joint nonvacuity witnesses for the Cogito, grounding and act/potency vocabularies. Satisfiability and omission only."
+paraphrase = "Finite interpretations for the round 3 Cogito/existence-base batch: omission models for every load-bearing premise other than excluded middle (which holds in every classical model and is not provable without an axiom), and joint nonvacuity witnesses for the Cogito, grounding and act/potency vocabularies. Satisfiability and omission only."
 definitions = ["DEF-PERFORMED-DOUBT-OF-THOUGHT", "DEF-ASSENTING-EPISODE", "DEF-PRIVATION-IN-CAPABLE-SUBJECT", "DEF-ACTUAL-GROUNDING-FINITE-RANK"]
 
 # ---- Arguments ----
@@ -187,20 +179,12 @@ rule = "Biconditional chaining through a middle term"
 meaning = "Being moved is the actualization of an unactualized capacity (OPEN), and potency is unactualized capacity (Metaphysics IX.6 reading, stated); hence being moved is the actualization of a potency, the Physics III.1 reading. Middle term: unactualized capacity. Composes with POTENCY-IS-UNACTUALIZED-CAPACITY-FROM-PRIVATION."
 
 [[argument]]
-id = "EXCLUDED-MIDDLE-FROM-DOUBLE-NEGATION-ELIMINATION"
-theorem = "excludedMiddleFromDoubleNegationElimination"
-premises = ["STMT-DOUBLE-NEGATION-ELIMINATION"]
-conclusion = "STMT-EXCLUDED-MIDDLE"
-rule = "Double-negation elimination applied to the constructively irrefutable instance"
-meaning = "Each instance p ∨ ¬p is constructively irrefutable (¬¬(p ∨ ¬p) needs no axiom); double-negation elimination removes the double negation. A relocation to an equivalent logical floor (STMT-EXCLUDED-MIDDLE-IFF-DOUBLE-NEGATION-ELIMINATION), not a derivation from a weaker one: constructive logic proves only the irrefutability of excluded middle (STMT-EXCLUDED-MIDDLE-NOT-DENIABLE), not excluded middle itself."
-
-[[argument]]
 id = "ROUND3-COGITO-BASE-CONTROLS"
 theorem = "controls"
 premises = []
 conclusion = "STMT-ROUND3-COGITO-BASE-CONTROLS"
 rule = "Explicit finite interpretations"
-meaning = "Finite interpretations for the round 3 batch, all proved without axioms: an omission model for every premise of the eleven derivations other than excluded middle and double-negation elimination (a performed doubt with no occurring thought; no performed doubt; a borne willing; an assent without opining; a selected candidate that bears nothing, is abstract, or is absent; a self-grounding concretum with no rank, no well-founded grounding or cone and no borrowing cut; a contingent root cone; a capable deprived non-potent subject; a privation with the act; motion without capacity; an unactualized capacity not counted as potency), and joint witnesses with a performed doubt, a real grounding edge from a necessary root to a contingent selected being, and a potent subject being moved."
+meaning = "Finite interpretations for the round 3 batch, all proved without axioms: an omission model for every premise of the ten derivations other than excluded middle (a performed doubt with no occurring thought; no performed doubt; a borne willing; an assent without opining; a selected candidate that bears nothing, is abstract, or is absent; a self-grounding concretum with no rank, no well-founded grounding or cone and no borrowing cut; a contingent root cone; a capable deprived non-potent subject; a privation with the act; motion without capacity; an unactualized capacity not counted as potency), and joint witnesses with a performed doubt, a real grounding edge from a necessary root to a contingent selected being, and a potent subject being moved."
 
 # ---- Strength order ----
 

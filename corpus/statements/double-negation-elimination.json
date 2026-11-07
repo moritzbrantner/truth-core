@@ -1,8 +1,0 @@
-{
-  "id": "STMT-DOUBLE-NEGATION-ELIMINATION",
-  "paraphrase": "Double-negation elimination: for every proposition p, if not-not-p then p. Equivalent to excluded middle (STMT-EXCLUDED-MIDDLE-IFF-DOUBLE-NEGATION-ELIMINATION); not constructively provable. An OPEN logical floor, not marked self-evident.",
-  "lean_declaration": "TruthCore.Logic.DoubleNegationElimination",
-  "definition_ids": [
-    "DEF-SELF-EVIDENT-MARKING"
-  ]
-}
