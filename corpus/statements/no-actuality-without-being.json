@@ -1,0 +1,13 @@
+{
+  "id": "STMT-NO-ACTUALITY-WITHOUT-BEING",
+  "paraphrase": "Nothing is in act in some respect without having being: the negation of the Meinongian rival STMT-ACTUALITY-WITHOUT-BEING on the same InAct and esse.",
+  "lean_declaration": "TruthCore.Causality.MeinongianActuality.NoActualityWithoutBeing",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-BEING",
+    "DISAMB-IN-ACT"
+  ]
+}
