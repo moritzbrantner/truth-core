@@ -1,0 +1,22 @@
+{
+  "id": "ATTEMPT-ROUND2-PERFECTION-PRIMACY-REJECTED-EDGES",
+  "statement_ids": [
+    "STMT-PERFECTION-CAUSED-IN-ANOTHER-IS-RECEIVED-IN-IT",
+    "STMT-EFFICIENT-CAUSE-NOT-DEPENDENT-ON-EFFECT",
+    "STMT-NONMUTUAL-DEPENDENCE-SUFFICES-FOR-PRIORITY",
+    "STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES",
+    "STMT-NOTHING-ELSE-REACHES-THE-PRIMARY",
+    "STMT-UNIVERSAL-CAUSE-TRANSFERS-PERFECTIONS"
+  ],
+  "date": "2026-11-07",
+  "kind": "derivation",
+  "outcome": "rejected",
+  "summary": "Map edges examined and rejected in round 2 on perfection and primacy. (1) STMT-PARTICIPATED-HAS-OTHER-CAUSE -> STMT-PERFECTION-CAUSED-IN-ANOTHER-IS-RECEIVED-IN-IT: wrong direction (participation to being caused, not caused to participated) and esse-only. (2) Effect depends on its cause + transitivity + irreflexivity of dependence -> efficient cause not dependent on effect: valid, but irreflexivity contradicts the counterfactual sense of DEF-DEPENDS-FOR-BEING, under which a thing trivially depends on itself; replaced by asymmetry among distinct beings. (3) STMT-EFFICIENT-CAUSE-IS-PRIOR-TO-EFFECT -> nonmutual dependence suffices for priority: efficient priority covers only efficiently caused pairs, and is itself derived from the target. (4) STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS -> others than the primary are creatures: circular in content with QUARTA-VIA-ATTRIBUTION-GENUS-PRINCIPLE-AT-BEING, and needs maximality of p and every other thing's being in act of esse. (5) STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY -> strict primacy: the tantum-quantum biconditional allows ties with the primary (existing omission countermodels of QUARTA-VIA-ATTRIBUTION-UNIQUE-MAXIMUM). (6) STMT-ALL-PERFECTIONS-PERTAIN-TO-PERFECTION-OF-BEING -> STMT-PERFECTIONS-ARE-MODES-OF-BEING: no Lean declaration; recorded as a supports relation. (7) Perfections are modes of being alone -> universal cause transfers perfections: the non-concurrent profile of the CausalPerfectionTransfer roles has a universal existential source that does not cause the producer's skill; the total-cause step carries the derivation. Rejection records that the leads were examined; it neither refutes nor establishes any target.",
+  "evidence": [
+    "STRICT-PRIMACY-FROM-RECEPTION-LIMITS",
+    "EFFICIENT-CAUSE-NOT-DEPENDENT-FROM-ASYMMETRY",
+    "UNIVERSAL-CAUSE-TRANSFERS-FROM-TOTAL-CAUSATION",
+    "AQUINAS-ST-I-Q44-A1-PARTICIPATED-ESSE-CAUSE",
+    "AQUINAS-ST-I-Q4-A2-PERFECTIONS-PERTAIN-TO-BEING"
+  ]
+}

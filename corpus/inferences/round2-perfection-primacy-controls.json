@@ -1,0 +1,9 @@
+{
+  "id": "INF-ROUND2-PERFECTION-PRIMACY-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-ROUND2-PERFECTION-PRIMACY-CONTROLS",
+  "rule": "Explicit finite interpretations",
+  "meaning": "Finite interpretations for the eight derivations of round 2 on perfection and primacy: for each premise, one model (from scripts/countermodel.py or, for the two degree-preorder derivations, written by hand; checked by decide) in which the other premises hold and the conclusion fails, and one joint model with nonempty relations in which every premise and conclusion of the batch holds. Satisfiability and omission only; no model is claimed to describe reality.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

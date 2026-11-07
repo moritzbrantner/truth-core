@@ -1,0 +1,14 @@
+{
+  "id": "STMT-UNIVERSAL-CAUSE-OF-BEING-IS-TOTAL",
+  "paraphrase": "OPEN analyst premise: whatever causes the being of every other being is the total cause of the being of each other thing whose being it causes (it causes that thing's whole being, not only its coming to be in a presupposed subject).",
+  "lean_declaration": "TruthCore.Causality.Round2PerfectionPrimacy.UniversalCauseOfBeingIsTotal",
+  "definition_ids": [
+    "DEF-UNIVERSAL-ESSE-CAUSE-SCOPE",
+    "DEF-TOTAL-CAUSE-OF-BEING",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE"
+  ]
+}

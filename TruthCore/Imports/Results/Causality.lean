@@ -212,6 +212,7 @@ public import TruthCore.Results.Causality.RootPositiveIntellectWillControl.Solut
 public import TruthCore.Results.Causality.RootPurity.Solution
 public import TruthCore.Results.Causality.RootWithoutLimitingPrinciple.Solution
 public import TruthCore.Results.Causality.Round2ExistenceAct.Solution
+public import TruthCore.Results.Causality.Round2PerfectionPrimacy.Solution
 public import TruthCore.Results.Causality.SameRespectActualization.Solution
 public import TruthCore.Results.Causality.ScenarioNecessaryWitness.Solution
 public import TruthCore.Results.Causality.ScopedActualCausality.Solution

@@ -1,0 +1,22 @@
+target = "STMT-CAUSE-HAS-PERFECTION-NOT-AS-RECEIVED-IN-EFFECT"
+
+[[node]]
+id = "STMT-CAUSE-HAS-PERFECTION-NOT-AS-RECEIVED-IN-EFFECT"
+
+# New in round 2 (certified batch round2-perfection-primacy).
+[[node]]
+id = "STMT-HAVER-DEPENDS-ON-RECIPIENT"
+
+# New in round 2 (certified batch round2-perfection-primacy).
+[[node]]
+id = "STMT-PERFECTION-CAUSING-IN-ANOTHER-IS-EFFICIENT"
+
+[[node]]
+id = "STMT-EFFICIENT-CAUSE-NOT-DEPENDENT-ON-EFFECT"
+
+[[edge]]
+premises = ["STMT-HAVER-DEPENDS-ON-RECIPIENT", "STMT-PERFECTION-CAUSING-IN-ANOTHER-IS-EFFICIENT", "STMT-EFFICIENT-CAUSE-NOT-DEPENDENT-ON-EFFECT"]
+conclusion = "STMT-CAUSE-HAS-PERFECTION-NOT-AS-RECEIVED-IN-EFFECT"
+kind = "derivation"
+status = "certified"
+note = "Certified as CAUSE-PERFECTION-NOT-RECEIVED-FROM-DEPENDENCE; reuses target 4."

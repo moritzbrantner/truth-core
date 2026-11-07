@@ -1,0 +1,9 @@
+{
+  "id": "STMT-INDEPENDENCE-ALLOWS-BEING-WITHOUT",
+  "paraphrase": "OPEN analyst premise: if y does not depend for its being on x, then y can be without x. It fails when x's not being is itself impossible, since then y cannot be while x is not although y does not depend on x.",
+  "lean_declaration": "TruthCore.Causality.Round2PerfectionPrimacy.IndependenceAllowsBeingWithout",
+  "definition_ids": [
+    "DEF-DEPENDS-FOR-BEING",
+    "DEF-CAN-BE-WITHOUT"
+  ]
+}

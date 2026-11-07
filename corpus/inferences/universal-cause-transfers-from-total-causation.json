@@ -1,0 +1,13 @@
+{
+  "id": "INF-UNIVERSAL-CAUSE-TRANSFERS-FROM-TOTAL-CAUSATION",
+  "input_statement_ids": [
+    "STMT-UNIVERSAL-CAUSE-OF-BEING-IS-TOTAL",
+    "STMT-TOTAL-CAUSE-CAUSES-MODES-OF-BEING",
+    "STMT-PERFECTIONS-ARE-MODES-OF-BEING"
+  ],
+  "output_statement_id": "STMT-UNIVERSAL-CAUSE-TRANSFERS-PERFECTIONS",
+  "rule": "Universal instantiation and modus ponens",
+  "meaning": "Derives the open transfer principle restricted to universal causes of being: a cause of every other being's being is the total cause of the being of each thing whose being it causes (OPEN), every perfection a thing has is a mode of its being (OPEN reading of q.4 a.2), and a total cause of a thing's being causes each mode of it (OPEN). The particular existential supporter of the CausalPerfectionTransfer roles is not a universal cause, so the first premise does not apply to it.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

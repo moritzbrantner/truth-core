@@ -1,0 +1,9 @@
+{
+  "id": "REL-Q44-A1-PARTICIPATED-SUPPORTS-OTHERS-PARTICIPATE-ESSE",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q44-A1-PARTICIPATED-ESSE-CAUSE",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-OTHERS-THAN-PRIMARY-PARTICIPATE-ESSE",
+  "note": "The claim reads q.44 a.1 co. and ad 1: the corpus argues from participated being to the first being whose esse belongs essentially, and DEF-PARTICIPATED-ESSE records that the article attributes such being to what is other than God. The claim's own reading is the step from participation to being caused. The premise says of the primary p of an arbitrary approach order that everything other than p has participated being; identifying p with the one whose esse is essential is the analyst's."
+}

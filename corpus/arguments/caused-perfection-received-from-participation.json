@@ -1,0 +1,22 @@
+{
+  "id": "CAUSED-PERFECTION-RECEIVED-FROM-PARTICIPATION",
+  "premise_statement_ids": [
+    "STMT-CAUSED-BY-ANOTHER-IS-PARTICIPATED",
+    "STMT-PARTICIPATED-PERFECTION-IS-RECEIVED-IN-PARTICIPANT"
+  ],
+  "conclusion_statement_id": "STMT-PERFECTION-CAUSED-IN-ANOTHER-IS-RECEIVED-IN-IT",
+  "inference_ids": [
+    "INF-CAUSED-PERFECTION-RECEIVED-FROM-PARTICIPATION"
+  ],
+  "meaning": "Derives the batch 1 bridge that a perfection caused in another is received in it from two OPEN premises: what x has from a distinct cause it has by participation, and a perfection had by participation is received in its participant. It does not use STMT-PARTICIPATED-HAS-OTHER-CAUSE, whose direction (participation to being caused) is the converse of the first premise.",
+  "definition_ids": [
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-PARTICIPATED-PERFECTION",
+    "DEF-PERFECTION-RECEIVED-IN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE",
+    "DISAMB-ESSE-RECEPTION",
+    "DISAMB-THOMISTIC-ESSE-PARTICIPATION"
+  ]
+}
