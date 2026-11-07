@@ -1,0 +1,27 @@
+{
+  "id": "COMMISSION-TEACHING-INCLUSIVE-FROM-BOUNDS",
+  "premise_statement_ids": [
+    "STMT-SELECTED-GOVERNING-INCLUDES-TEACHING",
+    "STMT-TABLE-GOVERNING-IS-SELECTED",
+    "STMT-SELECTED-GOVERNING-WITHIN-TABLE-OR-TEACHING"
+  ],
+  "conclusion_statement_id": "STMT-COMMISSION-GOVERNANCE-INCLUDES-TEACHING",
+  "inference_ids": [
+    "INF-COMMISSION-TEACHING-INCLUSIVE-FROM-BOUNDS"
+  ],
+  "meaning": "The selected governing predicate is the teaching-inclusive criterion (governing in the table or teaching), from three OPEN inclusions: teaching is selected, every table-governing power is selected, and every selected power is table-governing or teaching.",
+  "definition_ids": [
+    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY",
+    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
+    "DEF-COMMISSION-GOVERNANCE-CALIBRATION",
+    "DEF-COMMISSION-REPORT-POWERS",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+    "DEF-TEACHING-INCLUSIVE-GOVERNING-POWER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS",
+    "DISAMB-COMMISSION-GOVERNANCE-CRITERIA",
+    "DISAMB-COMMISSION-REPORT-AND-EVENT",
+    "DISAMB-FOUNDED-BY-GOD"
+  ]
+}

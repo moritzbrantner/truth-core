@@ -1,0 +1,14 @@
+{
+  "id": "STMT-GOD-FOUNDED-SOME-JESUS-ENVOY-SOCIETY",
+  "paraphrase": "OPEN analyst witness premise, attribution deferred: for some God candidate g and society c, Jesus founded c in the FoundedInMandate relation to g and commissioned c to teach (the existing EnvoyTeachingEvent), and g founded c as a teaching authority. It does not say that every such event is a founding by God (that is STMT-ENVOY-FOUNDING-IS-GODS-FOUNDING) and it does not say whether g's founding was direct.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.Round6DefinitionForks.GodFoundedSomeJesusEnvoySociety",
+  "definition_ids": [
+    "DEF-PRINCIPAL-ACT-FOUNDING-READING",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+    "DEF-GOD-OF-CLASSICAL-THEISM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FOUNDED-BY-GOD",
+    "DISAMB-GOD"
+  ]
+}

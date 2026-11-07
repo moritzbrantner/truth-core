@@ -1,0 +1,14 @@
+{
+  "id": "STMT-TEACHING-GRANT-FOUNDS-IN-MANDATE",
+  "paraphrase": "OPEN analyst bridge, attribution deferred: for any being g, if Jesus holds a mandate from g and founded the Catholic Church as a visible society with an authority structure, then his giving or promising the power to teach (Gave .teach) founds the Catholic Church in the exercise of that mandate (FoundedInMandate). It is the teaching instance of the first clause of STMT-CHURCH-INSTITUTION-LINK-FOR-SELECTED-GOVERNANCE and does not assert that Jesus holds a mandate, founded the Church or gave the power. The message rival, which reads teaching as conveying content only, denies it.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.Round6DefinitionForks.TeachingGrantFoundsInMandate",
+  "definition_ids": [
+    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMMISSION-REPORT-AND-EVENT",
+    "DISAMB-FOUNDED-BY-GOD"
+  ]
+}
