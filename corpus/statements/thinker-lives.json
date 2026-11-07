@@ -1,0 +1,10 @@
+{
+  "id": "STMT-THINKER-LIVES",
+  "paraphrase": "Whatever bears an occurring thought lives: thinking is an operation that remains in the agent, and to live is to operate from oneself. Analyst formulation, open.",
+  "lean_declaration": "TruthCore.Causality.MotionMapsBatch1.ThinkerLives",
+  "definition_ids": [
+    "DEF-THOUGHT-OCCURRENCE",
+    "DEF-THOUGHT-BEARER",
+    "DEF-LIVING"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "STMT-SOMETHING-MERELY-EXISTS",
+  "paraphrase": "Some actual thing does not live (a stone). Analyst formulation, open empirical premise.",
+  "lean_declaration": "TruthCore.Causality.MotionMapsBatch1.SomethingMerelyExists",
+  "definition_ids": [
+    "DEF-MERELY-EXISTING",
+    "DEF-LIVING"
+  ]
+}

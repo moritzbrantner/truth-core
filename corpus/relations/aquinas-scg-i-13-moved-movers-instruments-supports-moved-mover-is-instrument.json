@@ -1,0 +1,9 @@
+{
+  "id": "REL-AQUINAS-SCG-I-13-MOVED-MOVERS-INSTRUMENTS-SUPPORTS-MOVED-MOVER-IS-INSTRUMENT",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-SCG-I-13-MOVED-MOVERS-INSTRUMENTS",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-MOVED-MOVER-IS-INSTRUMENT",
+  "note": "SCG I.13 [15] counts every mover of the series as an instrumental cause because it is a moved mover. That bears on this premise, which restricts the antecedent to a mover moved in a respect relevant to its moving. Gaps: the text states no respect restriction (it is stronger, and is not attributed this restricted form); 'instrumental cause' is typed here as not moving by the power of one's own form (DEF-MOVES-BY-OWN-FORM), which the sentence does not define; English-translation basis."
+}

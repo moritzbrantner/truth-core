@@ -1,0 +1,10 @@
+{
+  "id": "STMT-LIVING-MORE-NOBLE-THAN-MERELY-EXISTING",
+  "paraphrase": "Whatever lives is more noble than any actual thing that does not live. Analyst formulation, open; SCG I.28 [1] and [4] bear on it without stating the universal comparison.",
+  "lean_declaration": "TruthCore.Causality.MotionMapsBatch1.LivingMoreNobleThanMerelyExisting",
+  "definition_ids": [
+    "DEF-MORE-IN",
+    "DEF-LIVING",
+    "DEF-MERELY-EXISTING"
+  ]
+}

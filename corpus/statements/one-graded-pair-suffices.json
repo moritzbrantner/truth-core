@@ -1,0 +1,12 @@
+{
+  "id": "STMT-ONE-GRADED-PAIR-SUFFICES",
+  "paraphrase": "If one thing is more noble than another, it is also more good and more true than it, so one graded pair in nobility gives grades of goodness, truth and nobility. Analyst formulation, open: the convertibility of the transcendentals read for the comparative.",
+  "lean_declaration": "TruthCore.Causality.MotionMapsBatch1.NobilityGradeConvertible",
+  "definition_ids": [
+    "DEF-MORE-IN",
+    "DEF-ONTOLOGICAL-TRUTH"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUE"
+  ]
+}
