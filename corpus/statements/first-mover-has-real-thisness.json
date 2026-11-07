@@ -1,0 +1,14 @@
+{
+  "id": "STMT-FIRST-MOVER-HAS-REAL-THISNESS",
+  "paraphrase": "OPEN, unattributed: each first mover moved by none has a real determination that no other being has.",
+  "lean_declaration": "TruthCore.Causality.PureActThisness.FirstMoverHasRealThisness",
+  "definition_ids": [
+    "DEF-FIRST-UNMOVED-MOVER",
+    "DEF-REAL-DETERMINATION",
+    "DEF-PURE-PERFECTION",
+    "DEF-REAL-THISNESS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THISNESS-REAL-BARE"
+  ]
+}

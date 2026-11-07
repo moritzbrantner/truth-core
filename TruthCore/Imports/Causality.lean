@@ -86,6 +86,7 @@ public import TruthCore.Causality.PluralRootConfluence
 public import TruthCore.Causality.PossibleCausalSourceNecessity
 public import TruthCore.Causality.PossibleCauseOfContingency
 public import TruthCore.Causality.PowerExistenceBoundary
+public import TruthCore.Causality.PureActThisness
 public import TruthCore.Causality.RegressReadings
 public import TruthCore.Causality.RegressRivalCoverage
 public import TruthCore.Causality.RootEssenceIdentity

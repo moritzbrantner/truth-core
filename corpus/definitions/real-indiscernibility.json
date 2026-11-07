@@ -1,0 +1,8 @@
+{
+  "id": "DEF-REAL-INDISCERNIBILITY",
+  "term": "first movers really indiscernible",
+  "definition": "Any two first movers have exactly the same real determinations: for first movers f and g and every d, Has f d iff Has g d.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.PureActThisness.FirstMoversReallyIndiscernible",
+  "note": "Not numerical identity. It is the conclusion of pureActPluralityIsBare and is compatible with two distinct first movers (bare plurality)."
+}

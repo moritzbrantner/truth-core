@@ -1,0 +1,12 @@
+{
+  "id": "INF-PURE-ACT-PLURALITY-IS-BARE",
+  "input_statement_ids": [
+    "STMT-FIRST-MOVER-HAS-EVERY-PURE-DETERMINATION",
+    "STMT-FIRST-MOVER-DETERMINATIONS-ARE-PURE"
+  ],
+  "output_statement_id": "STMT-FIRST-MOVERS-REALLY-INDISCERNIBLE",
+  "rule": "Strict pure actuality and unrestricted perfection",
+  "meaning": "If every real determination of a first mover is a pure perfection and every first mover has every pure perfection, then whatever real determination one first mover has, every first mover has. So two first movers can differ neither by a perfection nor by a non-pure individuating, receiving or limiting principle: any plurality of them is bare. Constructive; no first mover is produced and no numerical identity is concluded.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

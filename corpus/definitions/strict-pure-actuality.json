@@ -1,0 +1,8 @@
+{
+  "id": "DEF-STRICT-PURE-ACTUALITY",
+  "term": "strict pure actuality",
+  "definition": "Every real determination of a first mover is a pure perfection: for every first mover f and every d with Has f d, Pure d.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.PureActThisness.FirstMoverDeterminationsArePure",
+  "note": "Open, unattributed. It is stronger than PureAct (no potency in any motion respect), than having no parts and than esse not other than essence: it also excludes a real individuating principle that is not itself a pure actuality. The rival it denies holds that a thisness can be a real positive entity without being a perfection."
+}

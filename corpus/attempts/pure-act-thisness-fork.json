@@ -1,0 +1,25 @@
+{
+  "id": "ATTEMPT-PURE-ACT-THISNESS-FORK",
+  "date": "2026-11-07",
+  "statement_ids": [
+    "STMT-FIRST-MOVER-HAS-EVERY-PURE-DETERMINATION",
+    "STMT-FIRST-MOVER-DETERMINATIONS-ARE-PURE",
+    "STMT-FIRST-MOVERS-REALLY-INDISCERNIBLE",
+    "STMT-FIRST-MOVER-HAS-REAL-THISNESS",
+    "STMT-REAL-DETERMINATIONS-INDIVIDUATE",
+    "STMT-AT-MOST-ONE-FIRST-UNMOVED-MOVER",
+    "STMT-UNLIMITED-BEINGS-SHARE-NATURE"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "#320 priority: can primitive thisness distinguish two unrestricted pure acts? Related/context lookup reused PartFreePlurality, RootMultiplication (#697 fork) and the Joint single-mover carrier. Their represented essence map cannot ask whether a thisness is something in the being, so a typed real-determination interface (Has, Pure) was added. Unrestricted perfection plus strict pure actuality constructively leave only bare plurality (pureActPluralityIsBare); a real thisness is then a pure perfection and is shared (thisnessIsPure, uniqueFromRealThisness); identity of real indiscernibles excludes bare plurality (uniqueFromRealIndividuation). Controls: the unchanged part-free model is the bare rival; non-pure thisness (Scotist-shaped) fails only strict purity; thisness counted pure fails only unrestricted perfection (ordinary immaterial simplicity); identity of real indiscernibles exceeds uniqueness; real thisness is not an equivalent of uniqueness; positive witness. Both uniqueness bundles are inclusion-minimal in this profile. Rejected: letting Has contain identity predicates (trivializes individuation); reading the existing formal-or-eminent every-perfection as real possession of every determination; deriving strict purity from absence of potency. All four results zero-axiom and Comparator/NanoDa accepted locally. frontier-diff: no change.",
+  "blocker": "Bare numerical difference survives. It is excluded only by identity of real indiscernibles over all beings, a Black's-spheres commitment the Adams rival denies. The discriminating next step is a narrower bridge: really indiscernible distinct beings have some non-pure principle of multiplicity. Check its reach beyond first movers before offering it, so that it is not uniqueness renamed. Strict pure actuality and unrestricted perfection over real determinations are open and are not yet connected to the necessary-root results (UNRECEIVED-ESSE-INDIVIDUATION-BRIDGE).",
+  "evidence": [
+    "PURE-ACT-PLURALITY-IS-BARE",
+    "REAL-THISNESS-FIRST-MOVER-UNIQUENESS",
+    "REAL-INDIVIDUATION-FIRST-MOVER-UNIQUENESS",
+    "PURE-ACT-THISNESS-CONTROLS",
+    "ROOT-MULTIPLICATION-CONTROLS",
+    "PART-FREE-PLURALITY-JOINT-CONTROL"
+  ]
+}

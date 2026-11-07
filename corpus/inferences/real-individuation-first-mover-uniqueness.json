@@ -1,0 +1,13 @@
+{
+  "id": "INF-REAL-INDIVIDUATION-FIRST-MOVER-UNIQUENESS",
+  "input_statement_ids": [
+    "STMT-FIRST-MOVER-HAS-EVERY-PURE-DETERMINATION",
+    "STMT-FIRST-MOVER-DETERMINATIONS-ARE-PURE",
+    "STMT-REAL-DETERMINATIONS-INDIVIDUATE"
+  ],
+  "output_statement_id": "STMT-AT-MOST-ONE-FIRST-UNMOVED-MOVER",
+  "rule": "Bare plurality excluded by identity of real indiscernibles",
+  "meaning": "By the imported pureActPluralityIsBare, any two first movers have the same real determinations; identity of real indiscernibles then makes them one. Conditional on three OPEN, unattributed premises. The third ranges over all beings and so also denies bare numerical difference among things that are not first movers; it exceeds what uniqueness needs. No first mover is produced.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

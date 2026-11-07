@@ -1,0 +1,7 @@
+{
+  "id": "DEF-REAL-DETERMINATION",
+  "term": "real determination (Has x d)",
+  "definition": "Has x d: d is a real determination of x, an intrinsic constituent or a real relation of x. A mere description true of x, such as 'is identical with x' or an extrinsic denomination, is not a real determination unless an interpretation makes it one. The carrier D of determinations is a parameter.",
+  "basis": "stipulative",
+  "note": "Stipulative analyst notion (#320), attribution deferred. Lean represents it only as a parameter Has : B → D → Prop with no declaration of its own, so nothing in Lean enforces the restriction to real determinations: an interpretation that lets Has contain identity predicates trivializes RealDeterminationsIndividuate. Whether a given respect is a real determination is a judgment that cannot be encoded."
+}

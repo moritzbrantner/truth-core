@@ -1,0 +1,7 @@
+{
+  "id": "DEF-PURE-PERFECTION",
+  "term": "pure perfection (Pure d)",
+  "definition": "Pure d: the determination d is an actuality that involves no potency, limitation or reception. Determinations that are not pure are limiting, receiving or individuating principles, potencies or privations. The predicate is a parameter Pure : D → Prop.",
+  "basis": "stipulative",
+  "note": "Stipulative analyst notion (#320), attribution deferred; compare the perfectiones simpliciter of the scholastic tradition (navigation only). Lean has no declaration for it: which determinations are pure is supplied by each interpretation. It is not the existing InAct relation, which says that a being is in act in a respect; everyPerfectionIsAllPureCase relates the two."
+}

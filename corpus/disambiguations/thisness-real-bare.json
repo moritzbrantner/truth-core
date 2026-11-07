@@ -1,0 +1,9 @@
+{
+  "id": "DISAMB-THISNESS-REAL-BARE",
+  "term": "primitive thisness",
+  "sense_definition_ids": [
+    "DEF-REAL-THISNESS",
+    "DEF-BARE-NUMERICAL-DISTINCTNESS"
+  ],
+  "resolution": "A primitive thisness is read in two senses. As a real determination (DEF-REAL-THISNESS) it is something its bearer has and nothing else has; under strict pure actuality it is then a pure perfection, so unrestricted perfection gives it to every first mover (uniqueFromRealThisness). As bare numerical distinctness (DEF-BARE-NUMERICAL-DISTINCTNESS) it is no determination at all; the pure-act premises leave it standing, and only identity of real indiscernibles excludes it. A third sense, the logical predicate 'is identical with x', is excluded from both: it is not a real determination, and allowing it would make any distinctness its own ground. No argument passes from one sense to another: uniqueFromRealThisness uses only the first, and the bare rival in the controls is stated only in the second."
+}

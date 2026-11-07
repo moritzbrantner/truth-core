@@ -1,0 +1,8 @@
+{
+  "id": "DEF-UNRESTRICTED-PURE-PERFECTION",
+  "term": "unrestricted perfection over real determinations",
+  "definition": "Every first mover really has every pure perfection: for every first mover f and every d with Pure d, Has f d.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.PureActThisness.FirstMoverHasEveryPureDetermination",
+  "note": "Open, unattributed. The existing FirstUnmovedMoverHasEveryPerfection is its instance where every respect is a real determination and every determination is pure (everyPerfectionIsAllPureCase). A form that is simple but limited, such as a pure immaterial form lacking other forms' perfections, does not satisfy it."
+}

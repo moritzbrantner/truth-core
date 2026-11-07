@@ -1,0 +1,10 @@
+{
+  "id": "REAL-INDIVIDUATION-FIRST-MOVER-UNIQUENESS",
+  "argument_id": "REAL-INDIVIDUATION-FIRST-MOVER-UNIQUENESS",
+  "challenge_module": "TruthCore.Results.Causality.PureActThisness.Challenge",
+  "solution_module": "TruthCore.Results.Causality.PureActThisness.Solution",
+  "theorem": "TruthCore.Results.Causality.PureActThisness.uniqueFromRealIndividuation",
+  "comparator_config": "results/REAL-INDIVIDUATION-FIRST-MOVER-UNIQUENESS/comparator.json",
+  "status": "solution-present",
+  "description": "By the imported pureActPluralityIsBare, any two first movers have the same real determinations; identity of real indiscernibles then makes them one. Conditional on three OPEN, unattributed premises. The third ranges over all beings and so also denies bare numerical difference among things that are not first movers; it exceeds what uniqueness needs. No first mover is produced."
+}

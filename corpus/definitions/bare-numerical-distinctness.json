@@ -1,0 +1,8 @@
+{
+  "id": "DEF-BARE-NUMERICAL-DISTINCTNESS",
+  "term": "bare numerical distinctness of first movers",
+  "definition": "There are two distinct first movers with exactly the same real determinations: their numerical difference is primitive and grounded in no real determination.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.PureActThisness.BarelyDistinctFirstMovers",
+  "note": "The surviving rival of the pure-act thisness fork, witnessed on the unchanged part-free model. A finite model of it shows only that the encoded premises do not exclude it, not that it is metaphysically possible."
+}
