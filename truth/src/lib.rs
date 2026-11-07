@@ -1,5 +1,6 @@
 //! Read-only structural view of the canonical corpus.
 pub mod bridges;
+pub mod frontier;
 mod kernels;
 pub mod thickness;
 mod transcription;

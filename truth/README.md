@@ -8,6 +8,8 @@ target/debug/truth status
 target/debug/truth inspect STMT-CATHOLICISM-TRUE --json
 target/debug/truth bridges --constants constants.json --target STMT-EXISTING-IN-ACT-AT
 target/debug/truth thickness --queue --json
+target/debug/truth frontier --reaching-root --routes
+target/debug/truth --json frontier-diff --base HEAD^1
 cargo fmt --all --check
 cargo clippy --locked -p truth --all-targets -- -D warnings
 cargo test --locked -p truth
@@ -47,21 +49,63 @@ retain proof authority. Neither Rust command writes a database or cache.
 `scripts/verify_truth_cli.py` checks both on the real corpus and on a fixture
 corpus. Presentation only: it closes nothing and changes no route cost.
 
-Rust computes every input itself: the strength order and the set-aside of its
-registration arguments, transcription kinds (declared ones and the Lean-text
-single-application and assembly heuristics read from each result's Solution
-module), the least fixpoint of established and refuted statements that decides
-whether a refutation counts (floor bases, defended statements, verified steps,
-strength propagation), source depths, the route-aware upward walk and the
-reaching-root walk honoring `root_route` relations. No Python runs.
-`input_identity` covers the corpus records only, not the Solution modules the
-transcription heuristics read.
+Its inputs (transcription kinds, reaching-root statements, source depths,
+upward walks, counted refutations) come from the Rust `frontier` below, so the
+two commands share one closure computation. No Python runs. `input_identity`
+covers the corpus records only, not the Lean files the transcription
+heuristics read.
 
 Not ported: `--base` (it runs the base revision's own `corpus.py` on a
-`git archive` extract; use Python), the full `validate()` that the Python
-command runs first (Rust performs only the structural load), and the rest of
-the frontier report (closure reasons, route costs, items, next steps).
-`scripts/corpus.py frontier` and `frontier-diff` remain the closure authority.
+`git archive` extract; use Python) and the full `validate()` that the Python
+command runs first (Rust performs only the structural load).
+
+## `frontier` and `frontier-diff`
+
+`truth frontier [--reaching-root] [--routes] [--frontier-root STATEMENT-ID]`
+ports `python3 scripts/corpus.py frontier [--reaching-root] [--routes]
+[--root STATEMENT-ID]`. Its text output is byte-identical to Python's; its
+`--json` output is the Python JSON object plus `input_identity`, including
+`next_steps` (the next-work projection with its what-if probes), which, as in
+Python, is computed only for `--json` without `--routes`. Rust computes the
+whole report itself: the strength order and the set-aside of its registration
+arguments; every transcription heuristic (declared kinds, single application,
+assembly, opaque Prop atoms, goal as premise consequent after one unfolding of
+a `TruthCore/` definition, short proofs); closure rules (a)-(d) with floor
+bases, defended statements and strength propagation in one least fixpoint;
+closure reasons; per-route open-premise costs; source depths; open items with
+their route-aware walks; statement statuses and stages; and the next-step
+probes, which rerun the same fixpoint with one leaf established.
+
+`truth frontier-diff --base REV [--head REV] [--frontier-root STATEMENT-ID]`
+ports `corpus.py frontier-diff`: the delta between the reaching-root frontier
+of the base revision and of the head revision or working tree. Python runs
+each revision's own `corpus.py` on a `git archive` extract, so a change of the
+frontier rules between revisions shows in the delta. Rust computes a revision
+with its own engine only when that revision's `scripts/corpus.py` is
+byte-identical (same Git blob) to the checkout's, the rules this port is
+verified against; otherwise it runs that revision's Python, exactly as
+`corpus.py frontier-diff` does. The working tree is always computed in Rust.
+The JSON adds `engines` (`rust` or `python` for base and head) and
+`input_identity`; the text output is byte-identical to Python's. It needs
+`git` and `tar`, and `python3` for the fallback.
+
+Measured on the real corpus (release build, best of three, one machine,
+2026-11-07): `frontier` 10.5 s in Python vs 0.7 s, `frontier --json` (with
+next steps) 10.1 s vs 1.3 s, `frontier --reaching-root --routes` 5.3 s vs
+0.35 s, `frontier-diff --base HEAD~1` 17.7 s vs 1.8 s (both revisions in Rust).
+Python's figures include its full `validate()`.
+
+`scripts/verify_truth_cli.py` checks every form on the real corpus (JSON
+equal after dropping `input_identity`/`engines`, text byte-identical; the
+diff against `HEAD`) and on a fixture covering every floor basis, an
+owner-approved and a stale marking, counted and uncounted refutations,
+transcription closure, the warning heuristics, witnesses, a case split and an
+unknown root. Not ported: the full `validate()` that Python runs first (Rust
+performs only the structural load, so a corpus that Python rejects can still
+produce a Rust report). The Python commands, CI's premise-delta step and the
+Explorer build still call `corpus.py`; switching them is a later consumer
+slice. Lean and Comparator keep proof authority: a "verified" argument is one
+with a result record.
 
 ## `bridges`
 
