@@ -1,0 +1,9 @@
+{
+  "id": "REL-PERFECTION-REFUTES-ACTUALITY-WITHOUT-BEING",
+  "subject_kind": "argument",
+  "subject_id": "NO-ACTUALITY-WITHOUT-BEING-FROM-PERFECTION",
+  "predicate": "refutes",
+  "object_kind": "statement",
+  "object_id": "STMT-ACTUALITY-WITHOUT-BEING",
+  "note": "Checked conditional contradiction on the same InAct and esse. Its two premises (q.5 a.1, and q.4 a.2 as encoded) are open, so it does not count for closure; it records which premise a Meinongian must deny."
+}
