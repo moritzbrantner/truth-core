@@ -1,0 +1,12 @@
+{
+  "id": "STMT-SELECTED-CHURCH-IS-SPIRITUAL",
+  "paraphrase": "OPEN analyst premise, attribution deferred: every society satisfying the selected Church predicate satisfies the selected spiritual-community predicate. One direction of STMT-CHURCH-HAS-SPIRITUAL-CRITERION only. A merely juridical church without inward communion falsifies it.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.Round6DefinitionForks.SelectedChurchIsSpiritual",
+  "definition_ids": [
+    "DEF-CHURCH-CRITERION-CALIBRATION",
+    "DEF-CHURCH-SPIRITUAL-COMMUNITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS"
+  ]
+}

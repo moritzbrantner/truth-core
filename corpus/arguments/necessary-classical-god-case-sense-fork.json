@@ -1,0 +1,39 @@
+{
+  "id": "NECESSARY-CLASSICAL-GOD-CASE-SENSE-FORK",
+  "premise_statement_ids": [
+    "STMT-NECESSARY-ROOT-ON-INTENDED-READING",
+    "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE",
+    "STMT-JESUS-CLAIMED-DIVINE-AUTHORITY-AND-ROSE",
+    "STMT-CHRIST-FOUNDED-VISIBLE-CHURCH",
+    "STMT-CHRISTS-CHURCH-IS-THE-CATHOLIC-CHURCH",
+    "STMT-BRIDGE-CHRISTS-CHURCH-FOUNDED-BY-GOD",
+    "STMT-BRIDGE-GOD-FOUNDED-AUTHORITY-PROPOSES-ONLY-TRUTH",
+    "STMT-CATHOLIC-CHURCH-DEFINITIVELY-PROPOSES-CREED"
+  ],
+  "conclusion_statement_id": "STMT-CATHOLICISM-TRUE",
+  "inference_ids": [
+    "INF-NECESSARY-CLASSICAL-GOD-CASE-SENSE-FORK"
+  ],
+  "meaning": "Root route with the sense of 'necessary' as a parameter of the necessary root: the root necessary in the one intended sense, with the seven stage 3-6 premises, gives Catholicism (phase 1) through the unchanged skeleton. Only the root facts (God, the one God, classical attributes) are consumed in this step; the necessity sense is carried by the premise node, so the conclusion follows on whichever enumerated reading is intended.",
+  "definition_ids": [
+    "DEF-CATHOLIC-CHURCH-PROPOSAL-SUBJECT",
+    "DEF-CATHOLICISM-TRUE-PHASE-1",
+    "DEF-CHURCH-CRITERION-CALIBRATION",
+    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY",
+    "DEF-CREED-GREEK-C381-CONTENT",
+    "DEF-DEFINITIVELY-PROPOSES-AS-REVEALED",
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-NECESSARY-IN-SENSE",
+    "DEF-REVELATION-RECOGNITION-PROFILE",
+    "DEF-SKELETON-OPEN-PREDICATES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS",
+    "DISAMB-CREED-CONTENT-AND-FORMULA",
+    "DISAMB-FOUNDED-BY-GOD",
+    "DISAMB-NECESSARY",
+    "DISAMB-RESURRECTION-PILOT-EVIDENCE",
+    "DISAMB-REVELATION-CAPABILITY-AND-PRACTICE-UPTAKE",
+    "DISAMB-TRUE"
+  ]
+}

@@ -9,6 +9,11 @@ target/debug/truth check
 target/debug/truth inspect STMT-CATHOLICISM-TRUE --json
 target/debug/truth bridges --constants constants.json --target STMT-EXISTING-IN-ACT-AT
 target/debug/truth thickness --queue --json
+target/debug/truth frontier --reaching-root --routes
+target/debug/truth --json frontier-diff --base HEAD^1
+target/debug/truth related STMT-GOD-EXISTS
+target/debug/truth dossier STMT-GOD-EXISTS
+target/debug/truth context ARGUMENT-ID --json
 target/debug/truth orphans
 target/debug/truth orphans --senses --json
 cargo fmt --all --check
@@ -106,21 +111,116 @@ Python 6.3–16.5 s on the same loaded machine (best of three: 0.9 s vs 6.3 s).
 `scripts/verify_truth_cli.py` checks both on the real corpus and on a fixture
 corpus. Presentation only: it closes nothing and changes no route cost.
 
-Rust computes every input itself: the strength order and the set-aside of its
-registration arguments, transcription kinds (declared ones and the Lean-text
-single-application and assembly heuristics read from each result's Solution
-module), the least fixpoint of established and refuted statements that decides
-whether a refutation counts (floor bases, defended statements, verified steps,
-strength propagation), source depths, the route-aware upward walk and the
-reaching-root walk honoring `root_route` relations. No Python runs.
-`input_identity` covers the corpus records only, not the Solution modules the
-transcription heuristics read.
+Its inputs (transcription kinds, reaching-root statements, source depths,
+upward walks, counted refutations) come from the Rust `frontier` below, so the
+two commands share one closure computation. No Python runs. `input_identity`
+covers the corpus records only, not the Lean files the transcription
+heuristics read.
 
 Not ported: `--base` (it runs the base revision's own `corpus.py` on a
-`git archive` extract; use Python), the full `validate()` that the Python
-command runs first (Rust performs only the structural load), and the rest of
-the frontier report (closure reasons, route costs, items, next steps).
-`scripts/corpus.py frontier` and `frontier-diff` remain the closure authority.
+`git archive` extract; use Python) and the full `validate()` that the Python
+command runs first (Rust performs only the structural load).
+
+## `frontier` and `frontier-diff`
+
+`truth frontier [--reaching-root] [--routes] [--frontier-root STATEMENT-ID]`
+ports `python3 scripts/corpus.py frontier [--reaching-root] [--routes]
+[--root STATEMENT-ID]`. Its text output is byte-identical to Python's; its
+`--json` output is the Python JSON object plus `input_identity`, including
+`next_steps` (the next-work projection with its what-if probes), which, as in
+Python, is computed only for `--json` without `--routes`. Rust computes the
+whole report itself: the strength order and the set-aside of its registration
+arguments; every transcription heuristic (declared kinds, single application,
+assembly, opaque Prop atoms, goal as premise consequent after one unfolding of
+a `TruthCore/` definition, short proofs); closure rules (a)-(d) with floor
+bases, defended statements and strength propagation in one least fixpoint;
+closure reasons; per-route open-premise costs; source depths; open items with
+their route-aware walks; statement statuses and stages; and the next-step
+probes, which rerun the same fixpoint with one leaf established.
+
+`truth frontier-diff --base REV [--head REV] [--frontier-root STATEMENT-ID]`
+ports `corpus.py frontier-diff`: the delta between the reaching-root frontier
+of the base revision and of the head revision or working tree. Python runs
+each revision's own `corpus.py` on a `git archive` extract, so a change of the
+frontier rules between revisions shows in the delta. Rust computes a revision
+with its own engine only when that revision's `scripts/corpus.py` is
+byte-identical (same Git blob) to the checkout's, the rules this port is
+verified against; otherwise it runs that revision's Python, exactly as
+`corpus.py frontier-diff` does. The working tree is always computed in Rust.
+The JSON adds `engines` (`rust` or `python` for base and head) and
+`input_identity`; the text output is byte-identical to Python's. It needs
+`git` and `tar`, and `python3` for the fallback.
+
+Measured on the real corpus (release build, best of three, one machine,
+2026-11-07): `frontier` 10.5 s in Python vs 0.7 s, `frontier --json` (with
+next steps) 10.1 s vs 1.3 s, `frontier --reaching-root --routes` 5.3 s vs
+0.35 s, `frontier-diff --base HEAD~1` 17.7 s vs 1.8 s (both revisions in Rust).
+Python's figures include its full `validate()`.
+
+`scripts/verify_truth_cli.py` checks every form on the real corpus (JSON
+equal after dropping `input_identity`/`engines`, text byte-identical; the
+diff against `HEAD`) and on a fixture covering every floor basis, an
+owner-approved and a stale marking, counted and uncounted refutations,
+transcription closure, the warning heuristics, witnesses, a case split and an
+unknown root. Not ported: the full `validate()` that Python runs first (Rust
+performs only the structural load, so a corpus that Python rejects can still
+produce a Rust report). The Python commands, CI's premise-delta step and the
+Explorer build still call `corpus.py`; switching them is a later consumer
+slice. Lean and Comparator keep proof authority: a "verified" argument is one
+with a result record.
+
+## `related`, `dossier`, `context`
+
+These port `scripts/corpus.py related`, `dossier` and `context` (research
+navigation, #954 slice 3). The logic lives in library modules with
+serde-serializable result structs (`truth::related`, `truth::dossier`,
+`truth::context`); `main.rs` only selects output. Text output is
+byte-identical to Python's; `--json` prints the Python JSON object plus
+`input_identity` (`dossier --all` prints exactly the Python object, keyed by
+statement ID). Navigation only: nothing here closes a statement, changes a
+route cost or certifies anything.
+
+- `truth related STATEMENT-ID [--limit N]` (default 10; 1 to 200 shown) ranks
+  over the loaded corpus in memory. Python ranks over its disposable SQLite
+  projection `.cache/research-index.sqlite`; Rust needs and writes no cache.
+  The paraphrase-overlap score sums word weights in sorted word order, so
+  candidates whose scores differ only in the last floating-point bit may
+  order differently from Python (none in the sampled corpus).
+- `truth dossier (STATEMENT-ID | --all) [--frontier-json FILE] [--limit N]`
+  (default 8, 0 = all).
+- `truth context TARGET [--frontier-json FILE] [--limit N] [--related N]`
+  (defaults 6 and 8; `--related 0` skips the ranking). TARGET is an argument
+  ID, a result ID or a statement concluded by exactly one argument. The frozen
+  Lean statement and companion theorems are read from each result's Challenge
+  module, imports from the Solution modules and permitted axioms from the
+  Comparator config, as Python does.
+
+`dossier` and `context` consume the frontier report. Without
+`--frontier-json` they compute it in-process with the Rust `frontier` (the
+port of `corpus.py frontier`, below) on the same checkout and root
+(`--frontier-root`, default `STMT-CATHOLICISM-TRUE`). With `--frontier-json
+FILE` they read a saved `python3 scripts/corpus.py frontier --json [--root
+STATEMENT-ID]` report instead (Rust cannot check that it is current), and
+`--frontier-root` only checks that report's root. Either way Rust reads only
+the fields these views consume (`truth::dossier::FrontierView`).
+
+Errors: an unknown ID exits 3 (`unknown_id`); a non-statement `related`
+target or an ambiguous `context` target exits 2;
+an unreadable or non-frontier report or an unknown frontier root exits 1.
+Python prints the same messages with exit code 2.
+
+Not ported (use Python): `dossier --issues-from` (offline issue snapshot),
+`context --proof-use`/`--proof-use-json` (Lean proof-term inspection), the
+full `validate()` that `dossier --all` runs first, `research_index.py`'s other
+subcommands (`build`, `search`, `show`, `duplicates`, `summary`, `parity`,
+`export`, `bundle`, `compare`) and the Explorer's `dossier --all` consumer.
+`scripts/verify_truth_cli.py` checks parity on a sample of 30+ statements
+(closed, stated, supported, bare, off-frontier and floor-marked), all 3,760
+`dossier --all` entries, 15 `context` targets (12 argument IDs, which here
+coincide with their result IDs, and 3 uniquely concluded statements) with
+several `--limit` values, and the error cases, from a saved Python report;
+and, for a subset plus `dossier --all`, that the in-process frontier gives the
+same output.
 
 ## `orphans`
 

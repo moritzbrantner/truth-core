@@ -87,6 +87,7 @@ public import TruthCore.Causality.NecessaryFirstAttributes
 public import TruthCore.Causality.NecessaryFirstBeing
 public import TruthCore.Causality.NecessaryRootFork
 public import TruthCore.Causality.NecessaryRootUniqueness
+public import TruthCore.Causality.NecessarySenseFork
 public import TruthCore.Causality.NecessarySimplePlurality
 public import TruthCore.Causality.NonlimitingConcreteExistence
 public import TruthCore.Causality.OccurrenceUnderivedEssence
@@ -134,6 +135,7 @@ public import TruthCore.Causality.Supertasks
 public import TruthCore.Causality.TemporalActualization
 public import TruthCore.Causality.TemporalEventControls
 public import TruthCore.Causality.TemporalPrimaVia
+public import TruthCore.Causality.TermSenseForks
 public import TruthCore.Causality.UnderivedCommonSource
 public import TruthCore.Causality.UnderivedEssenceEsse
 public import TruthCore.Causality.UnderivedNonComposite

@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-ROOT-BOX-K-STRENGTHENS-TERTIA-VIA",
+  "argument_id": "NECESSARY-ROOT-BOX-K-STRENGTHENS-TERTIA-VIA",
+  "challenge_module": "TruthCore.Results.Causality.NecessarySenseFork.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessarySenseFork.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessarySenseFork.boxKToTertiaVia",
+  "comparator_config": "results/NECESSARY-ROOT-BOX-K-STRENGTHENS-TERTIA-VIA/comparator.json",
+  "status": "solution-present",
+  "description": "Strength registration: box-existence of n implies the tertia via's 'n cannot not-be' with possibility read as the frame's diamond. The converse holds only classically (excluded middle); it is not registered."
+}

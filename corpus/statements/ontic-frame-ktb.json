@@ -1,0 +1,11 @@
+{
+  "id": "STMT-ONTIC-FRAME-KTB",
+  "paraphrase": "OPEN frame premise, attribution deferred: the accessibility relation of the route's modal frame (worlds = complete possible histories) is reflexive and symmetric, i.e. the frame validates KTB.",
+  "lean_declaration": "TruthCore.Causality.NecessarySenseFork.OnticFrameKTB",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-FRAME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY"
+  ]
+}

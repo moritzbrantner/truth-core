@@ -1,0 +1,11 @@
+{
+  "id": "STMT-NOTHING-ORIGINATES-ITSELF",
+  "paraphrase": "OPEN analyst premise (attribution deferred): nothing is the originating cause (cause of coming to be) of itself.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.NothingOriginatesItself",
+  "definition_ids": [
+    "DEF-CAUSE-OF-ORIGIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "COMMISSION-NAMED-COVERAGE-FROM-BOUNDS",
+  "argument_id": "COMMISSION-NAMED-COVERAGE-FROM-BOUNDS",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.namedGovernanceCoverageFromBounds",
+  "comparator_config": "results/COMMISSION-NAMED-COVERAGE-FROM-BOUNDS/comparator.json",
+  "status": "solution-present",
+  "description": "Named governance coverage (narrow or teaching-inclusive criterion) without deciding whether teaching is governing: by the self-evident excluded middle, teaching is selected (then the teaching-inclusive criterion holds) or not (then, since every selected power is table-governing or teaching, the narrow criterion holds). Only the two OPEN bounding inclusions are needed."
+}

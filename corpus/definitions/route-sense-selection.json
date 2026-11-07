@@ -1,0 +1,8 @@
+{
+  "id": "DEF-ROUTE-SENSE-SELECTION",
+  "term": "route sense selection, coverage and exclusivity of a term's senses",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.SensesCover",
+  "basis": "stipulative",
+  "definition": "For a term with an enum S of senses and a sense-indexed relation interp : S → Rel, a route's reading is a predicate Select : S → Prop saying which constructor the route intends. Coverage (SensesCover interp Select use) says that every use u of the term on the route is read in some selected sense σ and that the use's relation is exactly interp σ. Exclusivity (SenseUnique Select) says at most one constructor is selected. Selection is a reading choice, not an extension test: two senses may have equal or overlapping extensions in a model while only one is selected. Coverage with exclusivity makes all uses of the term on the route stand for one relation (usesAgree_of_cover_unique).",
+  "note": "Stipulative analyst vocabulary for the sense forks of docs/notes/load-bearing-terms.md, attribution deferred. It would be sourced only by a text that states which sense its argument intends; it is a framework device for disjunctive syllogism over a term's senses. Coverage is attackable by proposing a further sense; strength order among senses is recorded separately by strengthens relations."
+}

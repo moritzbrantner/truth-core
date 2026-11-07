@@ -1,0 +1,14 @@
+{
+  "id": "INF-NECESSARY-ROOT-PER-SE-FROM-GROUNDING",
+  "input_statement_ids": [
+    "STMT-NECESSARY-ROOT-TERTIA-VIA",
+    "STMT-NECESSITY-CAUSE-RELATA-ACTUAL-CONCRETE",
+    "STMT-NECESSITATED-DEPENDS-ON-ITS-CAUSE",
+    "STMT-ACTUAL-DEPENDENCE-IS-GROUNDING"
+  ],
+  "output_statement_id": "STMT-NECESSARY-ROOT-PER-SE",
+  "rule": "Box-diamond duality, universal instantiation, modus ponens, reductio",
+  "meaning": "The per se branch: the root n cannot not-be (the tertia via node, the weakest sense that suffices); if some c caused n's necessity, then c and n are actual concreta (OPEN), n depends on c (OPEN), and so c grounds n (OPEN), i.e. c is an actual concrete ground of n, which an actual root lacks. Without these premises the branch fails (controls: a box-existent individual whose necessity another causes).",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

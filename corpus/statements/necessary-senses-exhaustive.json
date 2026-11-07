@@ -1,0 +1,11 @@
+{
+  "id": "STMT-NECESSARY-SENSES-EXHAUSTIVE",
+  "paraphrase": "OPEN coverage premise, attribution deferred: the route's intended reading of 'necessary being' is one of the enumerated senses (box-existence in K, actualist K, de dicto K, T, S4, KTB, S5; tertia via 'cannot not-be'; necessary per se). Exhaustiveness of the finite enum is free; that it lists every defensible reading is not provable in Lean and is attacked by proposing a further sense (logical necessity and Scott/Goedel essence-based necessary existence are recorded as left out).",
+  "lean_declaration": "TruthCore.Causality.NecessarySenseFork.NecessarySensesExhaustive",
+  "definition_ids": [
+    "DEF-NECESSARY-IN-SENSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY"
+  ]
+}

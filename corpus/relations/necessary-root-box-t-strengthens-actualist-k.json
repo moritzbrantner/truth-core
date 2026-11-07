@@ -1,0 +1,10 @@
+{
+  "id": "REL-NECESSARY-ROOT-BOX-T-STRENGTHENS-ACTUALIST-K",
+  "subject_kind": "statement",
+  "subject_id": "STMT-NECESSARY-ROOT-BOX-T",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "STMT-NECESSARY-ROOT-ACTUALIST-K",
+  "verification_result_id": "NECESSARY-ROOT-BOX-T-STRENGTHENS-ACTUALIST-K",
+  "note": "Strength registration: in frame class KT, box-existence of n yields n's actual existence at w by the T axiom theorem, so the T node implies the actualist K node."
+}

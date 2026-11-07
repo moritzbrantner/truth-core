@@ -1,0 +1,22 @@
+{
+  "id": "CHURCH-JOINT-CRITERION-FROM-ASPECT-INCLUSIONS",
+  "premise_statement_ids": [
+    "STMT-SELECTED-CHURCH-IS-VISIBLE",
+    "STMT-SELECTED-CHURCH-IS-SPIRITUAL",
+    "STMT-VISIBLE-SPIRITUAL-SOCIETY-IS-CHURCH"
+  ],
+  "conclusion_statement_id": "STMT-CHURCH-HAS-JOINT-ASPECT-CRITERION",
+  "inference_ids": [
+    "INF-CHURCH-JOINT-CRITERION-FROM-ASPECT-INCLUSIONS"
+  ],
+  "meaning": "The selected Church coextends with the joint criterion (visible with authority and spiritual community), from three OPEN inclusions: the Church is visible, the Church is spiritual, and what is visible and spiritual is the Church. The forward direction uses the first two, the backward direction the third; no premise states the biconditional.",
+  "definition_ids": [
+    "DEF-CHURCH-CRITERION-CALIBRATION",
+    "DEF-CHURCH-SPIRITUAL-COMMUNITY",
+    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY",
+    "DEF-SKELETON-OPEN-PREDICATES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS"
+  ]
+}

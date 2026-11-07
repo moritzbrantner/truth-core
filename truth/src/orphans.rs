@@ -194,8 +194,8 @@ struct Contact {
 /// and the transcription heuristics.
 pub fn report(checkout: &Path, corpus: &Corpus, root: &str, by: GroupBy) -> Value {
     let records = Records::from_corpus(corpus);
-    let kinds = thickness::transcription_kinds(checkout, &records.results);
-    let frontier = thickness::frontier_inputs(root, &records, kinds);
+    let flags = crate::frontier::transcription_flags(checkout, &records);
+    let frontier = thickness::frontier_inputs(root, &records, &flags);
     build(checkout, &records, &frontier, by)
 }
 
@@ -648,8 +648,8 @@ const EXCLUSIVITY_SUFFIXES: &[&str] = &["-SENSE-UNIQUE", "-SENSES-EXCLUSIVE"];
 /// or one of its sense definitions.
 pub fn sense_report(checkout: &Path, corpus: &Corpus, root: &str) -> Value {
     let records = Records::from_corpus(corpus);
-    let kinds = thickness::transcription_kinds(checkout, &records.results);
-    let frontier = thickness::frontier_inputs(root, &records, kinds);
+    let flags = crate::frontier::transcription_flags(checkout, &records);
+    let frontier = thickness::frontier_inputs(root, &records, &flags);
     let reaching = &frontier.reaching_root;
     let statements: HashMap<&str, &Record> = records
         .statements

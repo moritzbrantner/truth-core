@@ -1,0 +1,11 @@
+{
+  "id": "STMT-NECESSARY-ROOT-ON-INTENDED-READING",
+  "paraphrase": "Fork node: the intended reading of 'necessary' selects exactly one enumerated sense s, and there is an actual root n (concrete, existing at w, with no actual concrete ground) that is God, the one God (every God is n), and has the classical attributes that is necessary in sense s.",
+  "lean_declaration": "TruthCore.Causality.NecessarySenseFork.NecessaryRootOnIntendedReading",
+  "definition_ids": [
+    "DEF-NECESSARY-IN-SENSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "STMT-NECESSARY-ROOT-TERTIA-VIA",
+  "paraphrase": "Necessary-being node, tertia via reading: there is an actual root n (concrete, existing at w, with no actual concrete ground) that is God, the one God (every God is n), and has the classical attributes, and n cannot not-be (IsNecessary of ST I q.2 a.3), with the primitive possibility read as the frame's diamond at w: no world accessible from w lacks n.",
+  "lean_declaration": "TruthCore.Causality.NecessarySenseFork.NecessaryRootTertiaVia",
+  "definition_ids": [
+    "DEF-NECESSARY-BEING",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-NECESSARY-IN-SENSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY"
+  ]
+}

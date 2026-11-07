@@ -1,0 +1,21 @@
+{
+  "id": "ACT-SIMPLY-PRIOR-FROM-SUBSTANCE-PRIORITY",
+  "premise_statement_ids": [
+    "STMT-ACT-PRIOR-TO-POTENCY-IN-SUBSTANCE",
+    "STMT-PRIOR-IN-SUBSTANCE-IS-SIMPLE"
+  ],
+  "conclusion_statement_id": "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY",
+  "inference_ids": [
+    "INF-ACT-SIMPLY-PRIOR-FROM-SUBSTANCE-PRIORITY"
+  ],
+  "meaning": "Per-sense result for the substance branch of 'prior': act's priority in substance over every potency, with the open bridge from priority in substance to simple priority, gives act's simple priority over potency.",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-POTENCY",
+    "DEF-PRIORITY-IN-SUBSTANCE",
+    "DEF-SIMPLE-PRIORITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"
+  ]
+}

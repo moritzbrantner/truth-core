@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-ROOT-BOX-S5-STRENGTHENS-BOX-S4",
+  "argument_id": "NECESSARY-ROOT-BOX-S5-STRENGTHENS-BOX-S4",
+  "challenge_module": "TruthCore.Results.Causality.NecessarySenseFork.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessarySenseFork.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessarySenseFork.boxS5ToBoxS4",
+  "comparator_config": "results/NECESSARY-ROOT-BOX-S5-STRENGTHENS-BOX-S4/comparator.json",
+  "status": "solution-present",
+  "description": "Strength registration: the S5 node implies the S4 node, applying the existing Cube theorem s5_implies_s4."
+}

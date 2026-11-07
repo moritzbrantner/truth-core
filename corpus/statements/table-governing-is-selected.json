@@ -1,0 +1,12 @@
+{
+  "id": "STMT-TABLE-GOVERNING-IS-SELECTED",
+  "paraphrase": "OPEN analyst premise, attribution deferred: every power the fixed table classifies as governing (keys, binding and loosing, judging as church, forgiving and retaining, shepherding) satisfies the selected governing predicate.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.Round6DefinitionForks.TableGoverningIsSelected",
+  "definition_ids": [
+    "DEF-COMMISSION-GOVERNANCE-CALIBRATION",
+    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-COMMISSION-GOVERNANCE-CRITERIA"
+  ]
+}
