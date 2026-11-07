@@ -1,0 +1,13 @@
+{
+  "id": "STMT-INTELLECT-HAS-INTELLIGIBLE-FORM",
+  "paraphrase": "OPEN, analyst formulation from ST I q.19 a.1 with q.14 a.1, attribution deferred: whatever has intellect is in act through some intelligible form.",
+  "lean_declaration": "TruthCore.Causality.IntellectualInclination.IntellectHasIntelligibleForm",
+  "definition_ids": [
+    "DEF-HAS-INTELLECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-APPETITE-POWER-AND-EXERCISE",
+    "DISAMB-CREATURE-PASSIVE-APPETITE-AND-DIVINE-WILL",
+    "DISAMB-NATURAL-AND-COGNITIVE-APPETITE"
+  ]
+}

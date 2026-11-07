@@ -1,0 +1,18 @@
+{
+  "id": "ATTEMPT-WILL-FROM-INTELLECTUAL-INCLINATION",
+  "date": "2026-11-07",
+  "statement_ids": [
+    "STMT-WILL-FOLLOWS-INTELLECT",
+    "STMT-EVERY-FORM-HAS-INCLINATION",
+    "STMT-INTELLECT-HAS-INTELLIGIBLE-FORM",
+    "STMT-INTELLIGIBLE-INCLINATION-IS-WILL"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "#355: typed the q.19 a.1 argument with forms and inclinations so that STMT-WILL-FOLLOWS-INTELLECT is derived from three separable premises. Respects docs/intellectual-appetite-source.md: inclination is power-level (no exercise, no passivity), natural inclination yields no will (control), and HasWill is not redefined (recognition step C is an explicit premise). Omission controls for each premise and a positive model.",
+  "blocker": "The recognition step is near-definitional under DEF-HAS-WILL but still a premise; the analogy premise (an inclination follows every form) and the intelligible-form premise are unattributed analyst formulations of q.19 a.1 pending claims on the pinned witness. STMT-IMMATERIAL-IS-INTELLECTUAL (the other #355 target) is not addressed.",
+  "evidence": [
+    "WILL-FROM-INTELLECTUAL-INCLINATION",
+    "INTELLECTUAL-INCLINATION-CONTROLS"
+  ]
+}

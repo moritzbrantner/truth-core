@@ -1,0 +1,24 @@
+{
+  "id": "WILL-FROM-INTELLECTUAL-INCLINATION",
+  "premise_statement_ids": [
+    "STMT-INTELLECT-HAS-INTELLIGIBLE-FORM",
+    "STMT-EVERY-FORM-HAS-INCLINATION",
+    "STMT-INTELLIGIBLE-INCLINATION-IS-WILL"
+  ],
+  "conclusion_statement_id": "STMT-WILL-FOLLOWS-INTELLECT",
+  "inference_ids": [
+    "INF-WILL-FROM-INTELLECTUAL-INCLINATION"
+  ],
+  "meaning": "ST I q.19 a.1's argument, typed with forms: whatever has intellect is in act through an intelligible form (STMT-INTELLECT-HAS-INTELLIGIBLE-FORM); an inclination follows every form (STMT-EVERY-FORM-HAS-INCLINATION); an inclination following an intelligible form is will (STMT-INTELLIGIBLE-INCLINATION-IS-WILL). Derives STMT-WILL-FOLLOWS-INTELLECT, an underived leaf of 18 root routes. Discharges obligations A and B of the AQUINAS-INTELLECTUAL-APPETITE-TO-WILL candidate as explicit typed premises (form-relative orientation at the level of power, no exercise or passivity) and states C as an explicit recognition bridge; it does not identify natural with cognitive appetite, since a being with only a natural form has its inclination and no will in the controls. All three premises stay open.",
+  "definition_ids": [
+    "DEF-HAS-WILL",
+    "DEF-HAS-INTELLECT",
+    "DEF-NATURAL-APPETITE-FORM-INCLINATION",
+    "DEF-COGNITION-RELATIVE-APPETITE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-APPETITE-POWER-AND-EXERCISE",
+    "DISAMB-CREATURE-PASSIVE-APPETITE-AND-DIVINE-WILL",
+    "DISAMB-NATURAL-AND-COGNITIVE-APPETITE"
+  ]
+}

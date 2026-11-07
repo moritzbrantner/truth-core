@@ -1,0 +1,16 @@
+{
+  "id": "STMT-INTELLECTUAL-INCLINATION-CONTROLS",
+  "paraphrase": "Finite interpretations with one intellectual being and one intelligible and one natural form. Omitting the inclination premise, the intelligible-form premise (the being has only a natural form, whose inclination follows without will), or the recognition step makes will fail with the other two holding; all three hold together with will.",
+  "lean_declaration": "TruthCore.Causality.IntellectualInclination.Control.Certificate",
+  "definition_ids": [
+    "DEF-HAS-WILL",
+    "DEF-HAS-INTELLECT",
+    "DEF-NATURAL-APPETITE-FORM-INCLINATION",
+    "DEF-COGNITION-RELATIVE-APPETITE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-APPETITE-POWER-AND-EXERCISE",
+    "DISAMB-CREATURE-PASSIVE-APPETITE-AND-DIVINE-WILL",
+    "DISAMB-NATURAL-AND-COGNITIVE-APPETITE"
+  ]
+}
