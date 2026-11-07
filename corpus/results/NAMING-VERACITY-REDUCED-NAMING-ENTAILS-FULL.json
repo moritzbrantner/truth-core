@@ -1,0 +1,10 @@
+{
+  "id": "NAMING-VERACITY-REDUCED-NAMING-ENTAILS-FULL",
+  "argument_id": "NAMING-VERACITY-REDUCED-NAMING-ENTAILS-FULL",
+  "challenge_module": "TruthCore.Results.Causality.NamingVeracityBatch1.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NamingVeracityBatch1.Solution",
+  "theorem": "TruthCore.Results.Causality.NamingVeracityBatch1.reducedNamingEntailsFull",
+  "comparator_config": "results/NAMING-VERACITY-REDUCED-NAMING-ENTAILS-FULL/comparator.json",
+  "status": "solution-present",
+  "description": "Strength registration (not a route step): the reduced naming leaf entails the fuller one, because the fuller description adds antecedents (cause of every perfection; remote from all). Backs the strengthens relation from the reduced to the fuller leaf."
+}

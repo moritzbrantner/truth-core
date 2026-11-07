@@ -1,0 +1,18 @@
+{
+  "id": "NAMING-VERACITY-GOD-CONFIRMS-ONLY-TRUTH",
+  "premise_statement_ids": [
+    "STMT-CONFIRMING-IS-ASSERTING",
+    "STMT-GOD-ASSERTS-ONLY-WHAT-HE-KNOWS",
+    "STMT-GOD-KNOWS-ONLY-TRUTHS"
+  ],
+  "conclusion_statement_id": "STMT-GOD-CONFIRMS-ONLY-TRUTH",
+  "inference_ids": [
+    "INF-NAMING-VERACITY-GOD-CONFIRMS-ONLY-TRUTH"
+  ],
+  "meaning": "Divine veracity split in two: what a God with the classical attributes confirms by a sign he asserts; what he asserts he holds as known (he does not deceive); what he holds as known is true (he is not deceived). So whatever he confirms is true. Three open premises; each is needed (omission models in NAMING-VERACITY-BATCH1-CONTROLS).",
+  "definition_ids": [
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-VERACITY-ASSERTION-VOCABULARY"
+  ]
+}

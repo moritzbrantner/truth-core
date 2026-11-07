@@ -1,0 +1,9 @@
+{
+  "id": "STMT-CONFIRMING-IS-ASSERTING",
+  "paraphrase": "OPEN analyst bridge (attribution deferred): whoever confirms a proposition by a sign asserts it; a confirming sign is testimonial and carries the confirmer's word. Stated for every being, not only God.",
+  "lean_declaration": "TruthCore.Causality.NamingVeracityBatch1.ConfirmingIsAsserting",
+  "definition_ids": [
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+    "DEF-VERACITY-ASSERTION-VOCABULARY"
+  ]
+}

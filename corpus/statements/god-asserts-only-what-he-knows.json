@@ -1,0 +1,9 @@
+{
+  "id": "STMT-GOD-ASSERTS-ONLY-WHAT-HE-KNOWS",
+  "paraphrase": "OPEN (attribution deferred): whatever is God and has the classical attributes asserts only what he holds as known (sincerity: he does not deceive).",
+  "lean_declaration": "TruthCore.Causality.NamingVeracityBatch1.GodAssertsOnlyWhatHeKnows",
+  "definition_ids": [
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-VERACITY-ASSERTION-VOCABULARY"
+  ]
+}

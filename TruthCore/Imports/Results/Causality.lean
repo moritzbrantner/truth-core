@@ -150,6 +150,7 @@ public import TruthCore.Results.Causality.MaximumDefinitions.NamedElimination.So
 public import TruthCore.Results.Causality.MeinongianActuality.Solution
 public import TruthCore.Results.Causality.ModalNecessaryBeingActuality.Solution
 public import TruthCore.Results.Causality.MotionMapsBatch1.Solution
+public import TruthCore.Results.Causality.NamingVeracityBatch1.Solution
 public import TruthCore.Results.Causality.NecessarilyUnderived.LiftFromBridges.Solution
 public import TruthCore.Results.Causality.NecessarilyUnderived.NonRefutationLift.Solution
 public import TruthCore.Results.Causality.NecessarilyUnderived.PositiveLift.Solution

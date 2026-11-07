@@ -1,0 +1,12 @@
+{
+  "id": "STMT-FOUNDER-GUARANTEES-FOUNDED-AUTHORITY",
+  "paraphrase": "OPEN (attribution deferred): a God with the classical attributes who founds a society as a teaching authority assists it.",
+  "lean_declaration": "TruthCore.Causality.NamingVeracityBatch1.FounderGuaranteesFoundedAuthority",
+  "definition_ids": [
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-DIVINE-ASSISTANCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FOUNDED-BY-GOD"
+  ]
+}

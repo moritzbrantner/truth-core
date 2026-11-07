@@ -13,35 +13,27 @@ id = "STMT-GOD-HAS-INTELLECT"
 id = "STMT-GOD-HAS-WILL"
 
 [[node]]
-id = "NEW-CONFIRMING-IS-ASSERTING"
-new = true
-text = "To confirm a proposition by a sign is to assert it."
+id = "STMT-CONFIRMING-IS-ASSERTING"
 
 [[node]]
-id = "NEW-GOD-ASSERTS-ONLY-WHAT-HE-KNOWS"
-new = true
-text = "A God with the classical attributes asserts only what he knows to be true (no deception: goodness of will)."
+id = "STMT-GOD-ASSERTS-ONLY-WHAT-HE-KNOWS"
 
 [[node]]
-id = "NEW-GOD-KNOWS-ONLY-TRUTHS"
-new = true
-text = "What a God with the classical attributes knows is true (no error: perfect intellect)."
+id = "STMT-GOD-KNOWS-ONLY-TRUTHS"
 
 [[node]]
-id = "NEW-CLASSICAL-ATTRIBUTES-INCLUDE-PERFECT-INTELLECT-AND-GOOD-WILL"
-new = true
-text = "Whatever has the classical attributes has an intellect that knows only truths and a will that intends no deception."
+id = "STMT-CLASSICAL-ATTRIBUTES-INCLUDE-PERFECT-INTELLECT-AND-GOOD-WILL"
 
 [[edge]]
-premises = ["NEW-CONFIRMING-IS-ASSERTING", "NEW-GOD-ASSERTS-ONLY-WHAT-HE-KNOWS", "NEW-GOD-KNOWS-ONLY-TRUTHS"]
+premises = ["STMT-CONFIRMING-IS-ASSERTING", "STMT-GOD-ASSERTS-ONLY-WHAT-HE-KNOWS", "STMT-GOD-KNOWS-ONLY-TRUTHS"]
 conclusion = "STMT-GOD-CONFIRMS-ONLY-TRUTH"
 kind = "derivation"
-status = "mapped"
-note = "Veracity split into sincerity and infallibility; each becomes a separately defensible node."
+status = "certified"
+note = "NAMING-VERACITY-GOD-CONFIRMS-ONLY-TRUTH: veracity split into sincerity and infallibility; Knows is not factive by definition. Each premise needed (omission models in NAMING-VERACITY-BATCH1-CONTROLS). Dei Filius ch. 3 supports the two halves (supports relations)."
 
 [[edge]]
-premises = ["NEW-CLASSICAL-ATTRIBUTES-INCLUDE-PERFECT-INTELLECT-AND-GOOD-WILL"]
-conclusion = "NEW-GOD-ASSERTS-ONLY-WHAT-HE-KNOWS"
-kind = "bridge"
-status = "mapped"
-note = "Needs a typed account of HasClassicalAttributes beyond the primitive field."
+premises = ["STMT-CLASSICAL-ATTRIBUTES-INCLUDE-PERFECT-INTELLECT-AND-GOOD-WILL"]
+conclusion = "STMT-GOD-ASSERTS-ONLY-WHAT-HE-KNOWS"
+kind = "derivation"
+status = "certified"
+note = "NAMING-VERACITY-SINCERITY-FROM-ATTRIBUTES: asserts only what he believes (good will) and believes only what he knows (perfect intellect). The primitive HasClassicalAttributes field is not unfolded; the bridge supplies the two consequences. Open: linking them to STMT-GOD-HAS-INTELLECT / STMT-GOD-HAS-WILL needs a typed account of what a perfect intellect and good will exclude."

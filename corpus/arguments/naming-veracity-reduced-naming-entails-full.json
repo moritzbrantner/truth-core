@@ -1,0 +1,24 @@
+{
+  "id": "NAMING-VERACITY-REDUCED-NAMING-ENTAILS-FULL",
+  "premise_statement_ids": [
+    "STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS"
+  ],
+  "conclusion_statement_id": "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE",
+  "inference_ids": [
+    "INF-NAMING-VERACITY-REDUCED-NAMING-ENTAILS-FULL"
+  ],
+  "meaning": "Strength registration (not a route step): the reduced naming leaf entails the fuller one, because the fuller description adds antecedents (cause of every perfection; remote from all). Backs the strengthens relation from the reduced to the fuller leaf.",
+  "definition_ids": [
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-GOD-AS-NAMED-IN-THE-SUMMA",
+    "DEF-GOD-NOMINAL-Q13",
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-MAXIME-ENS",
+    "DEF-NOMINAL-DEFINITION",
+    "DEF-REMOTE-FROM-ALL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOD",
+    "DISAMB-MAXIME-ENS"
+  ]
+}

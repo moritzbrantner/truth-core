@@ -1,0 +1,22 @@
+{
+  "id": "NAMING-VERACITY-REVELATION-FROM-OMNIPOTENCE",
+  "premise_statement_ids": [
+    "STMT-GOD-IS-OMNIPOTENT",
+    "STMT-REVELATION-INVOLVES-NO-CONTRADICTION",
+    "STMT-SOME-SIGNS-ONLY-GOD-CAN-GIVE",
+    "STMT-RECOGNIZABLE-REVELATION-ANALYSIS"
+  ],
+  "conclusion_statement_id": "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE",
+  "inference_ids": [
+    "INF-NAMING-VERACITY-REVELATION-FROM-OMNIPOTENCE"
+  ],
+  "meaning": "Revealing with signs involves no contradiction, so an omnipotent God can do it; only God can give those signs; and, by the open analysis of the primitive RevealsRecognizably, a being that can reveal with signs only God can give reveals recognizably. So every God reveals recognizably. Four open premises; each is needed (omission models in NAMING-VERACITY-BATCH1-CONTROLS).",
+  "definition_ids": [
+    "DEF-ACTIVE-POWER-TASK-VOCABULARY",
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-REVELATION-RECOGNITION-PROFILE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-REVELATION-CAPABILITY-AND-PRACTICE-UPTAKE"
+  ]
+}

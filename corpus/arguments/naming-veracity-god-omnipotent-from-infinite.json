@@ -1,0 +1,22 @@
+{
+  "id": "NAMING-VERACITY-GOD-OMNIPOTENT-FROM-INFINITE",
+  "premise_statement_ids": [
+    "STMT-GOD-IS-INFINITE",
+    "STMT-INFINITE-ACT-HAS-INFINITE-POWER"
+  ],
+  "conclusion_statement_id": "STMT-GOD-IS-OMNIPOTENT",
+  "inference_ids": [
+    "INF-NAMING-VERACITY-GOD-OMNIPOTENT-FROM-INFINITE"
+  ],
+  "meaning": "Whatever is God is infinite (stage-2 attribute), and what is infinite can do every consistent task; so whatever is God can do every consistent task. Reuses the stage-2 node GodIsInfinite with its primitive Infinite predicate.",
+  "definition_ids": [
+    "DEF-ACTIVE-POWER-TASK-VOCABULARY",
+    "DEF-ESSE",
+    "DEF-ESSENCE-THOMISTIC-NATURE",
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-INFINITE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSENCE"
+  ]
+}

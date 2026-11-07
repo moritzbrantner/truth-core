@@ -1,0 +1,20 @@
+{
+  "id": "NAMING-VERACITY-AUTHORITY-PROPOSES-ONLY-TRUTH",
+  "premise_statement_ids": [
+    "STMT-DEFINITIVE-PROPOSAL-IS-GOD-CONFIRMED",
+    "STMT-GOD-CONFIRMS-ONLY-TRUTH"
+  ],
+  "conclusion_statement_id": "STMT-BRIDGE-GOD-FOUNDED-AUTHORITY-PROPOSES-ONLY-TRUTH",
+  "inference_ids": [
+    "INF-NAMING-VERACITY-AUTHORITY-PROPOSES-ONLY-TRUTH"
+  ],
+  "meaning": "What a teaching authority founded by a God with the classical attributes definitively proposes as revealed, that God confirms, and what he confirms is true; so the authority definitively proposes only truths. Decomposes the stage-3 truth bridge into the confirmation link and the veracity premise; each is needed (omission models in NAMING-VERACITY-BATCH1-CONTROLS).",
+  "definition_ids": [
+    "DEF-DEFINITIVELY-PROPOSES-AS-REVEALED",
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+    "DEF-GOD-OF-CLASSICAL-THEISM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-FOUNDED-BY-GOD"
+  ]
+}

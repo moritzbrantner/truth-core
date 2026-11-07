@@ -10,25 +10,31 @@ id = "STMT-GOD-CONFIRMS-ONLY-TRUTH"
 id = "STMT-MANDATE-COVERS-JESUS-FOUNDING-WITH-TEACHING"
 
 [[node]]
-id = "NEW-DEFINITIVE-PROPOSAL-IS-GOD-CONFIRMED"
-new = true
-text = "What a teaching authority founded by God definitively proposes as revealed, God confirms (by the founding commission's promised assistance)."
+id = "STMT-DEFINITIVE-PROPOSAL-IS-GOD-CONFIRMED"
 
 [[node]]
-id = "NEW-FOUNDER-GUARANTEES-FOUNDED-AUTHORITY"
-new = true
-text = "A God who founds a teaching authority to transmit revelation preserves it from definitive error in that task."
+id = "STMT-FOUNDER-GUARANTEES-FOUNDED-AUTHORITY"
+
+[[node]]
+id = "STMT-ASSISTED-DEFINITIVE-PROPOSAL-IS-CONFIRMED"
 
 [[edge]]
-premises = ["NEW-FOUNDER-GUARANTEES-FOUNDED-AUTHORITY"]
-conclusion = "NEW-DEFINITIVE-PROPOSAL-IS-GOD-CONFIRMED"
+premises = ["STMT-FOUNDER-GUARANTEES-FOUNDED-AUTHORITY"]
+conclusion = "STMT-DEFINITIVE-PROPOSAL-IS-GOD-CONFIRMED"
 kind = "bridge"
-status = "mapped"
-note = "Providence/assistance premise; sources: Mt 28.20, Jn 14.26 (lane B)."
+status = "rejected"
+note = "Rejected as mapped: a single-premise bridge whose consequent is the conclusion would be a transcription. Replaced by the two-premise derivation below through assistance."
 
 [[edge]]
-premises = ["NEW-DEFINITIVE-PROPOSAL-IS-GOD-CONFIRMED", "STMT-GOD-CONFIRMS-ONLY-TRUTH"]
+premises = ["STMT-FOUNDER-GUARANTEES-FOUNDED-AUTHORITY", "STMT-ASSISTED-DEFINITIVE-PROPOSAL-IS-CONFIRMED"]
+conclusion = "STMT-DEFINITIVE-PROPOSAL-IS-GOD-CONFIRMED"
+kind = "derivation"
+status = "certified"
+note = "NAMING-VERACITY-DEFINITIVE-PROPOSAL-CONFIRMED: founding entails assistance; assistance makes definitive proposals confirmed. Sources for assistance (Mt 28.20, Jn 14.26) are lane B and deferred."
+
+[[edge]]
+premises = ["STMT-DEFINITIVE-PROPOSAL-IS-GOD-CONFIRMED", "STMT-GOD-CONFIRMS-ONLY-TRUTH"]
 conclusion = "STMT-BRIDGE-GOD-FOUNDED-AUTHORITY-PROPOSES-ONLY-TRUTH"
 kind = "derivation"
-status = "mapped"
-note = "Veracity applied to definitive proposals; reuses the veracity node, so this bridge thickens through STMT-GOD-CONFIRMS-ONLY-TRUTH."
+status = "certified"
+note = "NAMING-VERACITY-AUTHORITY-PROPOSES-ONLY-TRUTH: veracity applied to definitive proposals; the bridge now thickens through STMT-GOD-CONFIRMS-ONLY-TRUTH. Each premise needed (omission models in NAMING-VERACITY-BATCH1-CONTROLS)."
