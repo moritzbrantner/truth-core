@@ -1,0 +1,8 @@
+{
+  "id": "DEF-MERELY-EXISTING",
+  "term": "actual thing; merely existing (esse tantum)",
+  "definition": "`Actual z`: z is an actual thing. z merely exists when `Actual z ∧ ¬ Lives z` (SCG I.28 [1]: things that merely are, contrasted with living things). Example: a stone. This does not decide whether merely existing things are substances or aggregates.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.MotionMapsBatch1.SomethingMerelyExists",
+  "note": "Analyst vocabulary, attribution deferred. AQUINAS-SCG-I28-MERELY-EXISTING-PARTICIPATION keeps the restricted subject 'things that merely exist'; this definition types that subject, not the claim's participation thesis."
+}

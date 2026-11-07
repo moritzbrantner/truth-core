@@ -1,0 +1,27 @@
+{
+  "id": "STMT-RIVAL-REFUTATIONS-ROUND2-CONTROLS",
+  "paraphrase": "Omission controls for the three refutations of RIVAL-REFUTATIONS-ROUND2: for each premise of each refutation, a finite interpretation (one or two beings, one respect) keeps the other premises, fails that premise and satisfies the rival; and each refutation's premises hold together in a model with a nonempty per se link, a moved thing, or a uniformly moved body that has a mover. Logical models only, not metaphysical possibility claims.",
+  "lean_declaration": "TruthCore.Causality.RivalRefutationsRound2.Control.Certificate",
+  "definition_ids": [
+    "DEF-PER-SE-ORDERED-SERIES",
+    "DEF-PER-SE-EFFICIENT-CAUSE-LINK",
+    "DEF-EFFICIENT-CAUSING",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-POTENCY",
+    "DEF-CAPACITY-TO-BE",
+    "DEF-ACT",
+    "DEF-UNIFORM-LOCAL-MOTION",
+    "DEF-NEWTONIAN-PERSEVERANCE",
+    "DEF-UNIFORM-MOTION-AS-STATE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION",
+    "DISAMB-UNIFORM-MOTION-STATE-OR-BECOMING",
+    "DISAMB-IN-ACT",
+    "DISAMB-PERSEVERANCE-SOURCE-AND-MOVER",
+    "DISAMB-CAUSE",
+    "DISAMB-CAUSAL-SERIES",
+    "DISAMB-POTENCY",
+    "DISAMB-PER-SE-LINK"
+  ]
+}

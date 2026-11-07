@@ -1,0 +1,10 @@
+{
+  "id": "SECOND-MOVERS-ONLY-AS-MOVED-FROM-RELEVANT-RESPECT",
+  "argument_id": "SECOND-MOVERS-ONLY-AS-MOVED-FROM-RELEVANT-RESPECT",
+  "challenge_module": "TruthCore.Results.Causality.MotionMapsBatch1.Challenge",
+  "solution_module": "TruthCore.Results.Causality.MotionMapsBatch1.Solution",
+  "theorem": "TruthCore.Results.Causality.MotionMapsBatch1.onlyAsMovedFromRelevantRespect",
+  "comparator_config": "results/SECOND-MOVERS-ONLY-AS-MOVED-FROM-RELEVANT-RESPECT/comparator.json",
+  "status": "solution-present",
+  "description": "The relevant-respect per se reading together with the scope bridge (a mover other than what it moves that is moved in some respect is moved in a relevant respect) gives the strong reading: a mover other than what it moves that is moved in some respect moves it only as moved. Isolates the contested strengthening in one open premise; without it, a mover moved only in an irrelevant respect is a finite countermodel."
+}

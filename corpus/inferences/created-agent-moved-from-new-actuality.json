@@ -1,0 +1,12 @@
+{
+  "id": "INF-CREATED-AGENT-MOVED-FROM-NEW-ACTUALITY",
+  "input_statement_ids": [
+    "STMT-CREATURE-ACTING-IS-NEW-ACTUALITY",
+    "STMT-BEING-MOVED-IS-ACTUALIZATION-OF-POTENCY"
+  ],
+  "output_statement_id": "STMT-EVERY-CREATED-AGENT-ACTS-AS-APPLIED-TO-ACT-BY-GOD",
+  "rule": "right-to-left direction of the Physics III.1 biconditional applied to the new-actuality witness",
+  "meaning": "If whenever an agent other than God whose being God causes moves something it has a potency that is being actualized as such, and (Physics III.1) a being is being moved in a respect exactly when it is in potency in it and that potency is actualized as such, then every such agent that moves something is itself being moved in some respect (the formalized part of the q.105 a.5 reading). That its mover is God, and God's applying its powers, are not formalized here either. The map's NEW-PASSAGE-TO-ACT-IS-BEING-MOVED node is replaced by the existing Physics III.1 statement.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

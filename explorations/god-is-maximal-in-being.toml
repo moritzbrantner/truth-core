@@ -1,0 +1,39 @@
+target = "STMT-GOD-IS-MAXIMAL-IN-BEING"
+
+[[node]]
+id = "STMT-GOD-IS-MAXIMAL-IN-BEING"
+
+[[node]]
+id = "STMT-MAXIME-ENS-IS-WHAT-WE-CALL-GOD"
+
+[[node]]
+id = "STMT-GOD-CAUSES-BEING-OF-ALL-OTHERS"
+
+[[node]]
+id = "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH"
+
+[[node]]
+id = "STMT-MORE-SUCH-HAS-THE-PERFECTION"
+
+[[node]]
+id = "STMT-MORE-IN-IS-ASYMMETRIC"
+
+[[node]]
+id = "STMT-SOMETHING-OTHER-THAN-GOD-EXISTS"
+
+[[node]]
+id = "STMT-EXCLUDED-MIDDLE"
+
+[[edge]]
+premises = ["STMT-MAXIME-ENS-IS-WHAT-WE-CALL-GOD"]
+conclusion = "STMT-GOD-CAUSES-BEING-OF-ALL-OTHERS"
+kind = "source"
+status = "certified"
+note = "REL-DICIMUS-DEUM-SUPPORTS-GOD-CAUSES-BEING-OF-ALL-OTHERS. Converse reading of the naming sentence; supports relation with a gap note, not a derivation."
+
+[[edge]]
+premises = ["STMT-GOD-CAUSES-BEING-OF-ALL-OTHERS", "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH", "STMT-MORE-SUCH-HAS-THE-PERFECTION", "STMT-MORE-IN-IS-ASYMMETRIC", "STMT-SOMETHING-OTHER-THAN-GOD-EXISTS", "STMT-EXCLUDED-MIDDLE"]
+conclusion = "STMT-GOD-IS-MAXIMAL-IN-BEING"
+kind = "derivation"
+status = "certified"
+note = "GOD-MAXIMAL-FROM-CAUSING. God causes another's being, so is more in being than it, so has being; nothing else exceeds God in being, by asymmetry."

@@ -1,0 +1,9 @@
+{
+  "id": "REL-NO-INERTIAL-UNIFORM-MOTION-WITHOUT-MOVER-FROM-STATE-READING-REFUTES",
+  "subject_kind": "argument",
+  "subject_id": "NO-INERTIAL-UNIFORM-MOTION-WITHOUT-MOVER-FROM-STATE-READING",
+  "predicate": "refutes",
+  "object_kind": "statement",
+  "object_id": "STMT-INERTIAL-UNIFORM-MOTION-WITHOUT-MOVER",
+  "note": "Checked conditional contradiction on the same predicates. Its premises are open, so it does not count for closure; it records which deeper premises the rival must reject."
+}

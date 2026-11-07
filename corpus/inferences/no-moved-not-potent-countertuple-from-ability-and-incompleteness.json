@@ -1,0 +1,13 @@
+{
+  "id": "INF-NO-MOVED-NOT-POTENT-COUNTERTUPLE-FROM-ABILITY-AND-INCOMPLETENESS",
+  "input_statement_ids": [
+    "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-ABLE-TO-BE-R",
+    "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-NOT-YET-R",
+    "STMT-POTENCY-IS-UNACTUALIZED-CAPACITY"
+  ],
+  "output_statement_id": "STMT-NO-ACTUAL-MOVED-NOT-POTENT-COUNTERTUPLE",
+  "rule": "Rival excluded by deeper premises",
+  "meaning": "Conditional refutation of the exact countertuple STMT-ACTUAL-MOVED-NOT-POTENT-COUNTERTUPLE. What is being moved toward r is able to be r (Metaphysics IX.3, STMT-WHAT-IS-BEING-MOVED-TO-R-IS-ABLE-TO-BE-R) and is not yet actually r (Physics III.2, STMT-WHAT-IS-BEING-MOVED-TO-R-IS-NOT-YET-R); by the right-to-left direction of Metaphysics IX.6's analysis (STMT-POTENCY-IS-UNACTUALIZED-CAPACITY) it is then in potency to r. The countertuple must reject one of these three Aristotelian analyses; this route does not use the Physics III.1 analysis. Each premise is needed (STMT-RIVAL-REFUTATIONS-ROUND2-CONTROLS). Sense-relative: InAct, InPotency and CanBe must be read in one sense across the three premises (DISAMB-IN-ACT, DISAMB-POTENCY). The premises are open, so the refutation does not count for closure.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

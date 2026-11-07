@@ -1,0 +1,56 @@
+[batch]
+vocab = "TruthCore.Causality.GodMaximalCausal"
+results = "TruthCore.Results.Causality.GodMaximalCausal"
+
+[[statement]]
+id = "STMT-GOD-CAUSES-BEING-OF-ALL-OTHERS"
+lean = "GodCausesBeingOfAllOthers"
+paraphrase = "Whatever is God causes the being of every other being. Causal converse of ST I q.2 a.3's naming sentence (what is the cause of being and of every perfection to all beings, this we call God), read for being only."
+definitions = ["DEF-GOD-OF-CLASSICAL-THEISM", "DEF-CAUSE-OF-PERFECTION", "DEF-ESSE"]
+disambiguations = ["DISAMB-CAUSE"]
+
+[[statement]]
+id = "STMT-MORE-IN-IS-ASYMMETRIC"
+lean = "MoreInIsAsymmetric"
+paraphrase = "OPEN bridge: if one thing is more such than another in a perfection, the other is not more such than it in that perfection."
+definitions = ["DEF-MORE-IN"]
+disambiguations = ["DISAMB-BEING-UNIVOCITY"]
+
+[[statement]]
+id = "STMT-SOMETHING-OTHER-THAN-GOD-EXISTS"
+lean = "SomethingOtherThanGodExists"
+paraphrase = "OPEN bridge: for whatever is God, there is some being other than it."
+definitions = ["DEF-GOD-OF-CLASSICAL-THEISM"]
+disambiguations = ["DISAMB-CAUSE"]
+
+[[statement]]
+id = "STMT-GOD-MAXIMAL-CAUSAL-CONTROLS"
+lean = "Control.Certificate"
+paraphrase = "Positive witness: with a God that causes the being of one other being and exceeds it in being, all six premises of GOD-MAXIMAL-FROM-CAUSING and its conclusion hold."
+definitions = ["DEF-MORE-IN", "DEF-GOD-OF-CLASSICAL-THEISM"]
+disambiguations = ["DISAMB-CAUSE"]
+
+[[argument]]
+id = "GOD-MAXIMAL-FROM-CAUSING"
+theorem = "godMaximalFromCausing"
+premises = ["STMT-EXCLUDED-MIDDLE", "STMT-GOD-CAUSES-BEING-OF-ALL-OTHERS", "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH", "STMT-MORE-SUCH-HAS-THE-PERFECTION", "STMT-MORE-IN-IS-ASYMMETRIC", "STMT-SOMETHING-OTHER-THAN-GOD-EXISTS"]
+conclusion = "STMT-GOD-IS-MAXIMAL-IN-BEING"
+rule = "Causing all others' being exceeds them in being"
+meaning = "God causes the being of something other than itself, so (cause of a quality is more such) God is more in being than it, so (more such has the perfection) God has being; anything more in being than God is either God itself, excluded by asymmetry, or another being, which God exceeds, again excluded by asymmetry. An alternative derivation of STMT-GOD-IS-MAXIMAL-IN-BEING (used by 23 routes) through the causal converse of the q.2 a.3 naming sentence instead of the bare maximality converse. Two open bridges (asymmetry; something other than God exists). Controls: positive witness only (owner decision 2026-11-07)."
+
+[[argument]]
+id = "GOD-MAXIMAL-CAUSAL-CONTROLS"
+theorem = "controls"
+premises = []
+conclusion = "STMT-GOD-MAXIMAL-CAUSAL-CONTROLS"
+rule = "Explicit finite interpretation"
+meaning = "Positive witness: a God that causes the being of one other being and exceeds it in being satisfies all six premises and the conclusion."
+
+[[relation]]
+id = "REL-DICIMUS-DEUM-SUPPORTS-GOD-CAUSES-BEING-OF-ALL-OTHERS"
+subject_kind = "claim"
+subject_id = "AQUINAS-ST-I-Q2-A3-QUARTA-VIA-DICIMUS-DEUM-A"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-GOD-CAUSES-BEING-OF-ALL-OTHERS"
+note = "The quarta via names God what is the cause of being, goodness and every perfection to all beings. The encoded statement reads the naming conversely (whatever is God is such a cause), restricts it to being, and to beings other than God; the source gives the forward naming, not the converse."

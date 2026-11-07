@@ -52,6 +52,7 @@ public import TruthCore.Causality.ExistentialSelfActualization
 public import TruthCore.Causality.FiniteBranching
 public import TruthCore.Causality.FiniteNecessaryUnion
 public import TruthCore.Causality.FiniteRestriction
+public import TruthCore.Causality.GodMaximalCausal
 public import TruthCore.Causality.GreatestDegreeRootRoute
 public import TruthCore.Causality.GrimReaper
 public import TruthCore.Causality.GrimReaperFiniteTests
@@ -71,6 +72,7 @@ public import TruthCore.Causality.MaximalGroundingAsymmetry
 public import TruthCore.Causality.MaximumDefinitionFork
 public import TruthCore.Causality.MeinongianActuality
 public import TruthCore.Causality.ModalNecessaryBeingActuality
+public import TruthCore.Causality.MotionMapsBatch1
 public import TruthCore.Causality.NamedPotentialCauser
 public import TruthCore.Causality.NamingVeracityBatch1
 public import TruthCore.Causality.NecessarilyUnderived
@@ -101,6 +103,7 @@ public import TruthCore.Causality.PureIndiscernibility
 public import TruthCore.Causality.ReceptionLimitation
 public import TruthCore.Causality.RegressReadings
 public import TruthCore.Causality.RegressRivalCoverage
+public import TruthCore.Causality.RivalRefutationsRound2
 public import TruthCore.Causality.RootEssenceIdentity
 public import TruthCore.Causality.RootIntellectWill
 public import TruthCore.Causality.RootIntellectWillOmission

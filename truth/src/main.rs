@@ -1,15 +1,46 @@
 use serde_json::{Value, json};
 use std::{collections::BTreeMap, env, ffi::OsString, path::PathBuf, process::ExitCode};
-use truth::Corpus;
+use truth::{Corpus, thickness};
 
-const HELP: &str =
-    "Usage: truth [--root PATH] [--json] status\n       truth [--root PATH] [--json] inspect ID";
+const HELP: &str = "Usage: truth [--root PATH] [--json] status
+       truth [--root PATH] [--json] inspect ID
+       truth [--root PATH] [--json] thickness [--queue] [--frontier-root STATEMENT-ID]";
+
+/// `thickness` output: JSON as `scripts/corpus.py thickness --json` prints it
+/// (plus `input_identity`), and the same text as the Python command.
+fn thickness_command(
+    root: &std::path::Path,
+    corpus: &Corpus,
+    frontier_root: &str,
+    queue: bool,
+) -> (Value, String) {
+    let records = thickness::Records::from_corpus(corpus);
+    let kinds = thickness::transcription_kinds(root, &records.results);
+    let frontier = thickness::frontier_inputs(frontier_root, &records, kinds);
+    let report = thickness::thickness_report(&frontier, &records);
+    if queue {
+        let queue = thickness::thickness_queue(&frontier, &report, &records);
+        let text = thickness::format_thickness_queue(frontier_root, &queue);
+        (
+            json!({"root": frontier_root, "queue": queue, "input_identity": corpus.input_identity()}),
+            text,
+        )
+    } else {
+        let text = thickness::format_thickness(&report);
+        (
+            json!({"report": report, "delta": null, "input_identity": corpus.input_identity()}),
+            text,
+        )
+    }
+}
 
 /// Arguments stay OS-native so a non-UTF-8 `--root` path works; every other
 /// argument must be UTF-8 text and is otherwise a usage error.
-fn run(args: &[OsString]) -> Result<Value, (u8, Value)> {
+fn run(args: &[OsString]) -> Result<(Value, Option<String>), (u8, Value)> {
     let mut root = PathBuf::from(".");
     let mut positional = Vec::new();
+    let mut queue = false;
+    let mut frontier_root = thickness::DEFAULT_ROOT.to_owned();
     let mut args = args.iter();
     while let Some(arg) = args.next() {
         let arg = arg.to_str().ok_or_else(|| {
@@ -20,6 +51,20 @@ fn run(args: &[OsString]) -> Result<Value, (u8, Value)> {
         })?;
         match arg {
             "--json" => {}
+            "--queue" => queue = true,
+            "--frontier-root" => {
+                frontier_root = args
+                    .next()
+                    .and_then(|value| value.to_str())
+                    .filter(|value| !value.is_empty())
+                    .ok_or_else(|| {
+                        (
+                            2,
+                            json!({"code":"usage", "message": "--frontier-root requires a statement ID"}),
+                        )
+                    })?
+                    .to_owned();
+            }
             "--root" => {
                 root = args.next().map(PathBuf::from).ok_or_else(|| {
                     (
@@ -37,17 +82,28 @@ fn run(args: &[OsString]) -> Result<Value, (u8, Value)> {
             value => positional.push(value),
         }
     }
+    let thickness = matches!(positional.as_slice(), ["thickness"]);
     let id = match positional.as_slice() {
-        ["status"] => None,
+        ["status"] | ["thickness"] => None,
         ["inspect", id] if !id.is_empty() => Some(*id),
         _ => return Err((2, json!({"code":"usage", "message":HELP}))),
     };
+    if !thickness && (queue || frontier_root != thickness::DEFAULT_ROOT) {
+        return Err((
+            2,
+            json!({"code":"usage", "message":"--queue and --frontier-root apply only to thickness"}),
+        ));
+    }
     let corpus = Corpus::load(&root).map_err(|error| {
         (
             1,
             json!({"code":error.code, "path":error.path, "message":error.message}),
         )
     })?;
+    if thickness {
+        let (output, text) = thickness_command(&root, &corpus, &frontier_root, queue);
+        return Ok((output, Some(text)));
+    }
     let mut output = json!({
         "schema_version": 1,
         "validation": "structural",
@@ -70,7 +126,7 @@ fn run(args: &[OsString]) -> Result<Value, (u8, Value)> {
     } else {
         output["counts"] = json!(corpus.counts().collect::<BTreeMap<_, _>>());
     }
-    Ok(output)
+    Ok((output, None))
 }
 
 fn main() -> ExitCode {
@@ -81,9 +137,11 @@ fn main() -> ExitCode {
     }
     let machine = args.iter().any(|arg| arg == "--json");
     match run(&args) {
-        Ok(output) => {
+        Ok((output, text)) => {
             if machine {
                 println!("{output}");
+            } else if let Some(text) = text {
+                println!("{text}");
             } else if let Some(counts) = output["counts"].as_object() {
                 println!("Corpus structure ({})", output["input_identity"]);
                 for (kind, count) in counts {

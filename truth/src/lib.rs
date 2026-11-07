@@ -1,4 +1,7 @@
 //! Read-only structural view of the canonical corpus.
+pub mod thickness;
+mod transcription;
+
 use serde_json::{Map, Value};
 use std::{collections::BTreeMap, fs, path::Path};
 
@@ -157,6 +160,17 @@ impl Corpus {
         self.records
             .iter()
             .map(|(&kind, records)| (kind, records.len()))
+    }
+
+    /// The records of one kind in file order (Python `load_dir` order).
+    pub fn records(&self, kind: &str) -> Vec<&Map<String, Value>> {
+        let mut records: Vec<&Record> = self
+            .records
+            .get(kind)
+            .map(|records| records.values().collect())
+            .unwrap_or_default();
+        records.sort_by(|a, b| a.path.cmp(&b.path));
+        records.into_iter().map(|record| &record.fields).collect()
     }
 
     /// IDs are unique within a kind. A lookup returns all exact matches.

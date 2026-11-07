@@ -1,0 +1,9 @@
+{
+  "id": "REL-DICIMUS-DEUM-SUPPORTS-GOD-CAUSES-BEING-OF-ALL-OTHERS",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q2-A3-QUARTA-VIA-DICIMUS-DEUM-A",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-GOD-CAUSES-BEING-OF-ALL-OTHERS",
+  "note": "The quarta via names God what is the cause of being, goodness and every perfection to all beings. The encoded statement reads the naming conversely (whatever is God is such a cause), restricts it to being, and to beings other than God; the source gives the forward naming, not the converse."
+}

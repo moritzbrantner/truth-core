@@ -1,0 +1,24 @@
+{
+  "id": "ATTEMPT-MOTION-MAPS-BATCH1-20261107",
+  "date": "2026-11-07",
+  "statement_ids": [
+    "STMT-SECOND-MOVERS-MOVE-AS-MOVED-IN-RELEVANT-RESPECT",
+    "STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED",
+    "STMT-EVERY-CREATED-AGENT-ACTS-AS-APPLIED-TO-ACT-BY-GOD",
+    "STMT-CREATURE-ACTING-IS-NEW-ACTUALITY",
+    "STMT-DIVINE-ESSE-CONSERVATION-CONTINUES-GIVING-ESSE",
+    "STMT-THINGS-MORE-AND-LESS-GOOD-TRUE-NOBLE"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Batch certification of three exploration maps (explorations/second-movers-as-moved.toml, created-agent-applied.toml, grades-found-in-things.toml) in TruthCore/Results/Causality/MotionMapsBatch1, spec specs/motion-maps-batch1.toml. Certified: instrument analysis -> relevant-respect per se reading; relevant-respect reading + scope bridge -> strong reading; new actuality + Physics III.1 -> q.105 a.5 reading; operation potency + acting actualizes it -> new actuality; cogito + living thinker + stone + nobility + convertibility -> grades found in things. Controls: one thinker-and-stone nonvacuity model and an omission model for every premise of the five derivations. Rejected leads: (1) the map edge NEW-CREATURE-ACTING-IS-NEW-ACTUALITY + NEW-PASSAGE-TO-ACT-IS-BEING-MOVED was certified with the existing STMT-BEING-MOVED-IS-ACTUALIZATION-OF-POTENCY in place of the new passage node, which is its right-to-left half, so no new statement was made for it. (2) The bridge STMT-DIVINE-ESSE-CONSERVATION-CONTINUES-GIVING-ESSE + NEW-CONSERVATION-INCLUDES-OPERATION -> new actuality was rejected: continued giving of esse, even extended to operation (operari sequitur esse), makes the creature's operation depend on God but does not make its acting a passage of the creature from potency to act; that needs the creature to be in potency to its operation, which the certified operation-potency route states as its own open premise. The conservation statement also has no Lean reading. (3) The map's 'one graded pair suffices' node, read literally (a nobility pair -> grades of good, true and noble), would be a transcription; it is formalized instead as convertibility of the comparative (more noble -> more good and more true), under the same id.",
+  "blocker": "All new premises are open analyst formulations. The decisive contested ones are STMT-RELEVANT-RESPECT-COVERS-EVERY-MOVED-MOVER (the strong per se scope) and STMT-ACTING-ACTUALIZES-OPERATION-POTENCY, against which Physics III.3 (motion is in the moved) is the strongest rival; its omission model is the Aristotelian agent in potency to its operation without being moved.",
+  "evidence": [
+    "SECOND-MOVERS-RELEVANT-RESPECT-FROM-INSTRUMENT",
+    "SECOND-MOVERS-ONLY-AS-MOVED-FROM-RELEVANT-RESPECT",
+    "CREATED-AGENT-MOVED-FROM-NEW-ACTUALITY",
+    "CREATURE-NEW-ACTUALITY-FROM-OPERATION-POTENCY",
+    "GRADES-FROM-COGITO-LIVING-THINKER",
+    "MOTION-MAPS-BATCH1-CONTROLS"
+  ]
+}

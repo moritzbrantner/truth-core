@@ -16,35 +16,29 @@ id = "STMT-AQUINAS-SCG-I28-MERELY-EXISTING-PARTICIPATION"
 id = "STMT-SELF-UNDERSTANDING-HAS-HIGHEST-LIFE"
 
 [[node]]
-id = "NEW-THINKER-LIVES"
-new = true
-text = "Whatever bears an occurring thought lives: thinking is an operation from oneself (q.18 a.3)."
+id = "STMT-THINKER-LIVES"
 
 [[node]]
-id = "NEW-SOMETHING-MERELY-EXISTS"
-new = true
-text = "Some actual thing exists without living (a stone), as sense shows."
+id = "STMT-SOMETHING-MERELY-EXISTS"
 
 [[node]]
-id = "NEW-LIVING-MORE-NOBLE-THAN-MERELY-EXISTING"
-new = true
-text = "What lives is more noble than what merely exists (SCG I.28 [1], merely existing things participate being in a very imperfect mode)."
+id = "STMT-LIVING-MORE-NOBLE-THAN-MERELY-EXISTING"
 
 [[node]]
-id = "NEW-ONE-GRADED-PAIR-SUFFICES"
-new = true
-text = "If one actual thing is more noble than another, grades are found in things."
+id = "STMT-ONE-GRADED-PAIR-SUFFICES"
 
 [[edge]]
 premises = ["STMT-AQUINAS-SCG-I28-MERELY-EXISTING-PARTICIPATION"]
-conclusion = "NEW-LIVING-MORE-NOBLE-THAN-MERELY-EXISTING"
+conclusion = "STMT-LIVING-MORE-NOBLE-THAN-MERELY-EXISTING"
 kind = "source"
-status = "mapped"
-note = "Encode SCG I.28 [1]/[4] as a supported sibling of the definition-linked statement."
+status = "certified"
+relation = "REL-AQUINAS-SCG-I28-MERELY-EXISTING-PARTICIPATION-SUPPORTS-LIVING-MORE-NOBLE"
+note = "Recorded as a supports relation from claim AQUINAS-SCG-I28-MERELY-EXISTING-PARTICIPATION with a gap note (more perfect vs more noble; universal comparison not stated). Not an inference; the premise stays open."
 
 [[edge]]
-premises = ["STMT-COGITO-THOUGHT-OCCURS", "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT", "NEW-THINKER-LIVES", "NEW-SOMETHING-MERELY-EXISTS", "NEW-LIVING-MORE-NOBLE-THAN-MERELY-EXISTING", "NEW-ONE-GRADED-PAIR-SUFFICES"]
+premises = ["STMT-COGITO-THOUGHT-OCCURS", "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT", "STMT-THINKER-LIVES", "STMT-SOMETHING-MERELY-EXISTS", "STMT-LIVING-MORE-NOBLE-THAN-MERELY-EXISTING", "STMT-ONE-GRADED-PAIR-SUFFICES"]
 conclusion = "STMT-THINGS-MORE-AND-LESS-GOOD-TRUE-NOBLE"
 kind = "derivation"
-status = "mapped"
-note = "Cogito supplies a living thinker; a stone merely exists; the living is more noble; one graded pair suffices. Gives the Fourth Way's empirical premise a retorsion-friendly witness."
+status = "certified"
+argument = "GRADES-FROM-COGITO-LIVING-THINKER"
+note = "Cogito supplies a living thinker; a stone merely exists; the living is more noble; nobility grades convert to goodness and truth grades (STMT-ONE-GRADED-PAIR-SUFFICES is formalized as that convertibility, not as a transcription of the conclusion). Nonvacuity witness: thinker and stone."

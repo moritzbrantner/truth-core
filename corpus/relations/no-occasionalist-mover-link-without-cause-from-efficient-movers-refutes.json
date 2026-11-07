@@ -1,0 +1,9 @@
+{
+  "id": "REL-NO-OCCASIONALIST-MOVER-LINK-WITHOUT-CAUSE-FROM-EFFICIENT-MOVERS-REFUTES",
+  "subject_kind": "argument",
+  "subject_id": "NO-OCCASIONALIST-MOVER-LINK-WITHOUT-CAUSE-FROM-EFFICIENT-MOVERS",
+  "predicate": "refutes",
+  "object_kind": "statement",
+  "object_id": "STMT-OCCASIONALIST-MOVER-LINK-WITHOUT-CAUSE",
+  "note": "Checked conditional contradiction on the same predicates. Its premises are open, so it does not count for closure; it records which deeper premises the rival must reject."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "STMT-MOTION-MAPS-BATCH1-CONTROLS",
+  "paraphrase": "Finite controls for motion maps batch 1: a thinker-and-stone model satisfies every premise and the conclusion of the grades argument; for each premise of the five derivations there is a finite model in which the other premises hold and the conclusion fails.",
+  "lean_declaration": "TruthCore.Causality.MotionMapsBatch1.Control.Certificate",
+  "definition_ids": [
+    "DEF-MOVES-BY-OWN-FORM",
+    "DEF-OPERATION-RESPECT",
+    "DEF-LIVING",
+    "DEF-MERELY-EXISTING",
+    "DEF-MORE-IN"
+  ]
+}

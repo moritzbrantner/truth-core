@@ -1,0 +1,16 @@
+{
+  "id": "INF-GRADES-FROM-COGITO-LIVING-THINKER",
+  "input_statement_ids": [
+    "STMT-COGITO-THOUGHT-OCCURS",
+    "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT",
+    "STMT-THINKER-LIVES",
+    "STMT-SOMETHING-MERELY-EXISTS",
+    "STMT-LIVING-MORE-NOBLE-THAN-MERELY-EXISTING",
+    "STMT-ONE-GRADED-PAIR-SUFFICES"
+  ],
+  "output_statement_id": "STMT-THINGS-MORE-AND-LESS-GOOD-TRUE-NOBLE",
+  "rule": "existential instantiation of the thought and its bearer, then of the non-living actual thing; universal instantiation of the comparison and convertibility",
+  "meaning": "If some thought occurs, every occurring thought has a bearer, every bearer of an occurring thought lives, some actual thing does not live, whatever lives is more noble than any non-living actual thing, and a grade of nobility is also a grade of goodness and truth, then some thing is more good, some more true and some more noble than another (the quarta via's grades premise). Every premise is open; the thinker witnesses only the comparison, not any maximum. Omitting any premise has a finite countermodel; one joint model with a thinker and a stone satisfies all premises.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
