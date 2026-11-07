@@ -1,10 +1,11 @@
 use serde_json::{Value, json};
 use std::{collections::BTreeMap, env, ffi::OsString, path::PathBuf, process::ExitCode};
-use truth::{Corpus, bridges, thickness};
+use truth::{Corpus, bridges, orphans, thickness};
 
 const HELP: &str = "Usage: truth [--root PATH] [--json] status
        truth [--root PATH] [--json] inspect ID
        truth [--root PATH] [--json] thickness [--queue] [--frontier-root STATEMENT-ID]
+       truth [--root PATH] [--json] orphans [--frontier-root STATEMENT-ID] [--by module|family] [--senses]
        truth [--root PATH] [--json] bridges --constants FILE (--queue-file FILE | --target ID)...
              [--targets N] [--top K] [--pool M]";
 
@@ -105,6 +106,8 @@ fn run(args: &[OsString]) -> Result<(Value, Option<String>), (u8, Value)> {
     let mut bridge = BridgeArgs::default();
     let mut bridge_flags = false;
     let mut queue = false;
+    let mut senses = false;
+    let mut group_by: Option<orphans::GroupBy> = None;
     let mut frontier_root = thickness::DEFAULT_ROOT.to_owned();
     let mut args = args.iter();
     while let Some(arg) = args.next() {
@@ -117,6 +120,15 @@ fn run(args: &[OsString]) -> Result<(Value, Option<String>), (u8, Value)> {
         match arg {
             "--json" => {}
             "--queue" => queue = true,
+            "--senses" => senses = true,
+            "--by" => {
+                group_by = Some(
+                    args.next()
+                        .and_then(|value| value.to_str())
+                        .and_then(orphans::GroupBy::parse)
+                        .ok_or_else(|| usage("--by requires module or family"))?,
+                );
+            }
             "--frontier-root" => {
                 frontier_root = args
                     .next()
@@ -166,17 +178,26 @@ fn run(args: &[OsString]) -> Result<(Value, Option<String>), (u8, Value)> {
         }
     }
     let thickness = matches!(positional.as_slice(), ["thickness"]);
+    let orphan_report = matches!(positional.as_slice(), ["orphans"]);
     let (id, bridges) = match positional.as_slice() {
-        ["status"] | ["thickness"] if !bridge_flags => (None, false),
+        ["status"] | ["thickness"] | ["orphans"] if !bridge_flags => (None, false),
         ["inspect", id] if !id.is_empty() && !bridge_flags => (Some(*id), false),
         ["bridges"] => (None, true),
         _ => return Err(usage(HELP)),
     };
-    if !thickness && (queue || frontier_root != thickness::DEFAULT_ROOT) {
-        return Err((
-            2,
-            json!({"code":"usage", "message":"--queue and --frontier-root apply only to thickness"}),
+    if !thickness && queue {
+        return Err(usage("--queue applies only to thickness"));
+    }
+    if !thickness && !orphan_report && frontier_root != thickness::DEFAULT_ROOT {
+        return Err(usage(
+            "--frontier-root applies only to thickness and orphans",
         ));
+    }
+    if !orphan_report && (senses || group_by.is_some()) {
+        return Err(usage("--by and --senses apply only to orphans"));
+    }
+    if senses && group_by.is_some() {
+        return Err(usage("--senses and --by are alternatives"));
     }
     let corpus = Corpus::load(&root).map_err(|error| {
         (
@@ -186,6 +207,21 @@ fn run(args: &[OsString]) -> Result<(Value, Option<String>), (u8, Value)> {
     })?;
     if thickness {
         let (output, text) = thickness_command(&root, &corpus, &frontier_root, queue);
+        return Ok((output, Some(text)));
+    }
+    if orphan_report {
+        let (mut output, text) = if senses {
+            let report = orphans::sense_report(&corpus, &frontier_root);
+            let text = orphans::format_senses(&report);
+            (report, text)
+        } else {
+            let by = group_by.unwrap_or(orphans::GroupBy::Module);
+            let report = orphans::report(&root, &corpus, &frontier_root, by);
+            let text = orphans::format(&report);
+            (report, text)
+        };
+        output["schema_version"] = json!(1);
+        output["input_identity"] = json!(corpus.input_identity());
         return Ok((output, Some(text)));
     }
     let mut output = json!({

@@ -257,6 +257,27 @@ class TruthThicknessParity(unittest.TestCase):
             self.assertEqual(report["derivations"]["B"], [])
             self.assertEqual(report["derivations"]["A"], ["ARG-A"])
 
+    def test_orphans_real_corpus(self):
+        # Disconnected = verified results whose argument conclusion is not among
+        # the Python frontier's statements reaching the root.
+        frontier = corpus.current_frontier(corpus.DEFAULT_FRONTIER_ROOT, False, next_steps=False)
+        reaching = set(frontier["reaching_root_statements"])
+        arguments = {record["id"]: record for _, record in corpus.load_dir("arguments")}
+        expected = sorted(
+            result["id"] for _, result in corpus.load_dir("results")
+            if result.get("status") in ("solution-present", "verified")
+            and result["argument_id"] in arguments
+            and arguments[result["argument_id"]]["conclusion_statement_id"] not in reaching
+        )
+        report = json.loads(self.run_truth("--json", "orphans"))
+        actual = sorted(entry["result_id"] for group in report["groups"] for entry in group["results"])
+        self.assertEqual(actual, expected)
+        modal = next(group for group in report["groups"] if group["group"] == "TruthCore.Modal")
+        self.assertGreaterEqual(modal["result_count"], 40)
+        self.assertIn("Disconnected verified work", self.run_truth("orphans"))
+        senses = json.loads(self.run_truth("--json", "orphans", "--senses"))
+        self.assertEqual(senses["unforked_count"], len(senses["disambiguations"]))
+
     def test_usage(self):
         result = subprocess.run([self.binary, "--json", "--queue", "status"], cwd=corpus.ROOT,
                                 capture_output=True, text=True, check=False)

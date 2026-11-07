@@ -2169,6 +2169,59 @@ def validate_disambiguation(
             raise CorpusError(f"{path.relative_to(ROOT)}: unknown sense definition id {sense}")
 
 
+SENSE_FORK_FIELDS = ("coverage_statement_id", "exclusivity_statement_id", "fork_result_ids")
+
+
+def validate_sense_fork(
+    path: Path,
+    disambiguation: dict[str, Any],
+    statement_index: dict[str, tuple[Path, dict[str, Any]]],
+    result_index: dict[str, tuple[Path, dict[str, Any]]],
+    argument_index: dict[str, tuple[Path, dict[str, Any]]],
+) -> None:
+    """Optional certified sense fork of a disambiguation (docs/corpus-model.md).
+
+    `coverage_statement_id` states that the listed senses are all the relevant
+    ones; `exclusivity_statement_id` that exactly one applies to the use;
+    `fork_result_ids` are verified joint theorems by cases over the sense enum.
+    Each named statement links the disambiguation, and each fork result's
+    argument links it and takes the coverage statement as a premise.
+    """
+    relative = path.relative_to(ROOT)
+    disambiguation_id = disambiguation["id"]
+    for field in ("coverage_statement_id", "exclusivity_statement_id"):
+        if field not in disambiguation:
+            continue
+        statement_id = disambiguation[field]
+        if not isinstance(statement_id, str) or statement_id not in statement_index:
+            raise CorpusError(f"{relative}: {field} must name a known statement")
+        if disambiguation_id not in statement_index[statement_id][1].get("disambiguation_ids", []):
+            raise CorpusError(f"{relative}: {field} {statement_id} must link {disambiguation_id} in disambiguation_ids")
+    if (
+        "coverage_statement_id" in disambiguation
+        and disambiguation.get("exclusivity_statement_id") == disambiguation["coverage_statement_id"]
+    ):
+        raise CorpusError(f"{relative}: coverage and exclusivity must be distinct statements")
+    if "fork_result_ids" not in disambiguation:
+        return
+    fork_results = require_string_list(disambiguation, "fork_result_ids", path, allow_empty=False)
+    coverage = disambiguation.get("coverage_statement_id")
+    if coverage is None:
+        raise CorpusError(f"{relative}: fork_result_ids needs coverage_statement_id as the explicit coverage premise")
+    for result_id in fork_results:
+        if result_id not in result_index:
+            raise CorpusError(f"{relative}: unknown fork result id {result_id}")
+        result = result_index[result_id][1]
+        argument = argument_index.get(result.get("argument_id", ""), (None, {}))[1]
+        linked = disambiguation_id in argument.get("disambiguation_ids", []) or disambiguation_id in result.get(
+            "disambiguation_ids", []
+        )
+        if not linked:
+            raise CorpusError(f"{relative}: fork result {result_id} must link {disambiguation_id}")
+        if coverage not in argument.get("premise_statement_ids", []):
+            raise CorpusError(f"{relative}: fork result {result_id} must take {coverage} as a premise")
+
+
 PROSE_ID_RE = re.compile(r"\b(?:STMT|DEF|DISAMB)-[A-Z0-9]+(?:-[A-Z0-9]+)*\b")
 
 
@@ -2389,6 +2442,7 @@ def validate() -> dict[str, int]:
         validate_prose_ids(path, definition, ("definition", "note"), citable)
     for path, disambiguation in disambiguations:
         validate_disambiguation(path, disambiguation, definition_ids)
+        validate_sense_fork(path, disambiguation, statement_index, result_index, argument_index)
         validate_prose_ids(path, disambiguation, ("resolution",), citable)
         used_definitions.update(disambiguation["sense_definition_ids"])
 
