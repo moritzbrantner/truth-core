@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-SENSE-FORK",
+  "argument_id": "NECESSARY-SENSE-FORK",
+  "challenge_module": "TruthCore.Results.Causality.NecessarySenseFork.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessarySenseFork.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessarySenseFork.forkOnIntendedReading",
+  "comparator_config": "results/NECESSARY-SENSE-FORK/comparator.json",
+  "status": "solution-present",
+  "description": "Joint fork theorem: from the 25 route inputs, the OPEN coverage premise (the intended reading is an enumerated sense), the OPEN exclusivity premise (it selects exactly one) and the OPEN side condition of the intended sense, the root is necessary in the one intended sense. Proof by cases on the sense (nodeInSense): K, actualist K, de dicto K and tertia via need no side condition; T, S4, KTB and S5 need their frame condition; per se needs the three grounding premises. No branch is refuted outright; each conditional branch fails without its side condition (controls)."
+}

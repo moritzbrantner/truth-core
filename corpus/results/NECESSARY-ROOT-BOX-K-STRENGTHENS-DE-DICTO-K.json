@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-ROOT-BOX-K-STRENGTHENS-DE-DICTO-K",
+  "argument_id": "NECESSARY-ROOT-BOX-K-STRENGTHENS-DE-DICTO-K",
+  "challenge_module": "TruthCore.Results.Causality.NecessarySenseFork.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessarySenseFork.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessarySenseFork.boxKToDeDictoK",
+  "comparator_config": "results/NECESSARY-ROOT-BOX-K-STRENGTHENS-DE-DICTO-K/comparator.json",
+  "status": "solution-present",
+  "description": "Strength registration: de re box-existence of n implies de dicto 'necessarily something exists' (n witnesses at each accessible world). The converse fails (controls, universal two-world frame)."
+}

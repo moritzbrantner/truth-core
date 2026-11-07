@@ -1,0 +1,13 @@
+{
+  "id": "STMT-NECESSARY-ROOT-BOX-T",
+  "paraphrase": "Necessary-being node, possibilist box reading in frame class KT: there is an actual root n (concrete, existing at w, with no actual concrete ground) that is God, the one God (every God is n), and has the classical attributes, the route's modal frame is reflexive (logic KT), and n exists at every world accessible from w.",
+  "lean_declaration": "TruthCore.Causality.NecessarySenseFork.NecessaryRootBoxT",
+  "definition_ids": [
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-NECESSARY-IN-SENSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY"
+  ]
+}

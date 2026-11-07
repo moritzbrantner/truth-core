@@ -1,0 +1,13 @@
+{
+  "id": "STMT-NECESSARY-ROOT-PER-SE",
+  "paraphrase": "Necessary-being node, per se reading: there is an actual root n (concrete, existing at w, with no actual concrete ground) that is God, the one God (every God is n), and has the classical attributes, n cannot not-be (possibility read as the frame's diamond at w), and nothing other than n causes the necessity of n (IsNecessaryPerSe for the supplied relation 'c causes the necessity of x').",
+  "lean_declaration": "TruthCore.Causality.NecessarySenseFork.NecessaryRootPerSe",
+  "definition_ids": [
+    "DEF-NECESSARY-PER-SE",
+    "DEF-NECESSARY-BEING",
+    "DEF-NECESSARY-IN-SENSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY"
+  ]
+}

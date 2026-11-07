@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-ROOT-PER-SE-FROM-GROUNDING",
+  "argument_id": "NECESSARY-ROOT-PER-SE-FROM-GROUNDING",
+  "challenge_module": "TruthCore.Results.Causality.NecessarySenseFork.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessarySenseFork.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessarySenseFork.perSeFromGrounding",
+  "comparator_config": "results/NECESSARY-ROOT-PER-SE-FROM-GROUNDING/comparator.json",
+  "status": "solution-present",
+  "description": "The per se branch: the root n cannot not-be (the tertia via node, the weakest sense that suffices); if some c caused n's necessity, then c and n are actual concreta (OPEN), n depends on c (OPEN), and so c grounds n (OPEN), i.e. c is an actual concrete ground of n, which an actual root lacks. Without these premises the branch fails (controls: a box-existent individual whose necessity another causes)."
+}

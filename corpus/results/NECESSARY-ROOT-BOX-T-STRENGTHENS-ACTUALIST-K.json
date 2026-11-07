@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-ROOT-BOX-T-STRENGTHENS-ACTUALIST-K",
+  "argument_id": "NECESSARY-ROOT-BOX-T-STRENGTHENS-ACTUALIST-K",
+  "challenge_module": "TruthCore.Results.Causality.NecessarySenseFork.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessarySenseFork.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessarySenseFork.boxTToActualistK",
+  "comparator_config": "results/NECESSARY-ROOT-BOX-T-STRENGTHENS-ACTUALIST-K/comparator.json",
+  "status": "solution-present",
+  "description": "Strength registration: in frame class KT, box-existence of n yields n's actual existence at w by the T axiom theorem, so the T node implies the actualist K node."
+}

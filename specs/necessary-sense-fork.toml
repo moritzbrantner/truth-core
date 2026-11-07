@@ -1,0 +1,417 @@
+# Sense fork over "necessary" for the necessary-classical-God route
+# (owner direction 2026-11-07). Map: explorations/necessary-sense-fork.toml.
+# Analyst formulations, attribution deferred; every new non-control statement
+# except the derived nodes is an OPEN premise.
+
+[batch]
+vocab = "TruthCore.Causality.NecessarySenseFork"
+results = "TruthCore.Results.Causality.NecessarySenseFork"
+disambiguations = ["DISAMB-NECESSARY"]
+
+[[statement]]
+id = "STMT-NECESSARY-ROOT-ACTUALIST-K"
+lean = "NecessaryRootActualistK"
+paraphrase = "Necessary-being node, actualist K reading: there is an actual root n (concrete, existing at w, with no actual concrete ground) that is God, the one God (every God is n), and has the classical attributes, and n exists at w and at every world accessible from w (Kripke box of 'n exists' at w, frame class K: no frame condition). The box is the route's own NecessaryAt, definitionally."
+definitions = ["DEF-KANT-MODAL-NECESSITY", "DEF-MODAL-FIXTURE-FRAME", "DEF-NECESSARY-IN-SENSE"]
+disambiguations = ["DISAMB-NECESSARY"]
+
+[[statement]]
+id = "STMT-NECESSARY-ROOT-BOX-K"
+lean = "NecessaryRootBoxK"
+paraphrase = "Necessary-being node, possibilist K reading: there is an actual root n (concrete, existing at w, with no actual concrete ground) that is God, the one God (every God is n), and has the classical attributes, and n exists at every world accessible from w (Kripke box of the atom 'n exists' at w, frame class K). Actual existence of n is not part of the necessity clause."
+definitions = ["DEF-KANT-MODAL-NECESSITY", "DEF-MODAL-FIXTURE-FRAME", "DEF-NECESSARY-IN-SENSE"]
+disambiguations = ["DISAMB-NECESSARY"]
+
+[[statement]]
+id = "STMT-NECESSARY-ROOT-DE-DICTO-K"
+lean = "NecessaryRootDeDictoK"
+paraphrase = "Necessary-being node, de dicto K reading: there is an actual root n (concrete, existing at w, with no actual concrete ground) that is God, the one God (every God is n), and has the classical attributes, and at every world accessible from w something exists (box of 'there is an existent', actualist inner quantifier). Necessity is attached to the proposition, not to n."
+definitions = ["DEF-KANT-MODAL-NECESSITY", "DEF-MODAL-FIXTURE-FRAME", "DEF-NECESSARY-IN-SENSE"]
+disambiguations = ["DISAMB-NECESSARY"]
+
+[[statement]]
+id = "STMT-NECESSARY-ROOT-BOX-T"
+lean = "NecessaryRootBoxT"
+paraphrase = "Necessary-being node, possibilist box reading in frame class KT: there is an actual root n (concrete, existing at w, with no actual concrete ground) that is God, the one God (every God is n), and has the classical attributes, the route's modal frame is reflexive (logic KT), and n exists at every world accessible from w."
+definitions = ["DEF-KANT-MODAL-NECESSITY", "DEF-MODAL-FIXTURE-FRAME", "DEF-NECESSARY-IN-SENSE"]
+disambiguations = ["DISAMB-NECESSARY"]
+
+[[statement]]
+id = "STMT-NECESSARY-ROOT-BOX-S4"
+lean = "NecessaryRootBoxS4"
+paraphrase = "Necessary-being node, possibilist box reading in frame class S4: there is an actual root n (concrete, existing at w, with no actual concrete ground) that is God, the one God (every God is n), and has the classical attributes, the route's modal frame is reflexive and transitive (logic S4), and n exists at every world accessible from w."
+definitions = ["DEF-KANT-MODAL-NECESSITY", "DEF-MODAL-FIXTURE-FRAME", "DEF-NECESSARY-IN-SENSE"]
+disambiguations = ["DISAMB-NECESSARY"]
+
+[[statement]]
+id = "STMT-NECESSARY-ROOT-BOX-B"
+lean = "NecessaryRootBoxB"
+paraphrase = "Necessary-being node, possibilist box reading in frame class KTB: there is an actual root n (concrete, existing at w, with no actual concrete ground) that is God, the one God (every God is n), and has the classical attributes, the route's modal frame is reflexive and symmetric (logic KTB, 'B'), and n exists at every world accessible from w."
+definitions = ["DEF-KANT-MODAL-NECESSITY", "DEF-MODAL-FIXTURE-FRAME", "DEF-NECESSARY-IN-SENSE"]
+disambiguations = ["DISAMB-NECESSARY"]
+
+[[statement]]
+id = "STMT-NECESSARY-ROOT-BOX-S5"
+lean = "NecessaryRootBoxS5"
+paraphrase = "Necessary-being node, possibilist box reading in frame class S5: there is an actual root n (concrete, existing at w, with no actual concrete ground) that is God, the one God (every God is n), and has the classical attributes, the route's modal frame is reflexive and Euclidean (logic S5), and n exists at every world accessible from w."
+definitions = ["DEF-KANT-MODAL-NECESSITY", "DEF-MODAL-FIXTURE-FRAME", "DEF-NECESSARY-IN-SENSE"]
+disambiguations = ["DISAMB-NECESSARY"]
+
+[[statement]]
+id = "STMT-NECESSARY-ROOT-TERTIA-VIA"
+lean = "NecessaryRootTertiaVia"
+paraphrase = "Necessary-being node, tertia via reading: there is an actual root n (concrete, existing at w, with no actual concrete ground) that is God, the one God (every God is n), and has the classical attributes, and n cannot not-be (IsNecessary of ST I q.2 a.3), with the primitive possibility read as the frame's diamond at w: no world accessible from w lacks n."
+definitions = ["DEF-NECESSARY-BEING", "DEF-MODAL-FIXTURE-FRAME", "DEF-NECESSARY-IN-SENSE"]
+disambiguations = ["DISAMB-NECESSARY"]
+
+[[statement]]
+id = "STMT-NECESSARY-ROOT-PER-SE"
+lean = "NecessaryRootPerSe"
+paraphrase = "Necessary-being node, per se reading: there is an actual root n (concrete, existing at w, with no actual concrete ground) that is God, the one God (every God is n), and has the classical attributes, n cannot not-be (possibility read as the frame's diamond at w), and nothing other than n causes the necessity of n (IsNecessaryPerSe for the supplied relation 'c causes the necessity of x')."
+definitions = ["DEF-NECESSARY-PER-SE", "DEF-NECESSARY-BEING", "DEF-NECESSARY-IN-SENSE"]
+disambiguations = ["DISAMB-NECESSARY"]
+
+[[statement]]
+id = "STMT-ONTIC-FRAME-KT"
+lean = "OnticFrameKT"
+paraphrase = "OPEN frame premise, attribution deferred: the accessibility relation of the route's modal frame (worlds = complete possible histories) is reflexive, i.e. the frame validates KT."
+definitions = ["DEF-MODAL-FIXTURE-FRAME"]
+disambiguations = ["DISAMB-NECESSARY"]
+
+[[statement]]
+id = "STMT-ONTIC-FRAME-S4"
+lean = "OnticFrameS4"
+paraphrase = "OPEN frame premise, attribution deferred: the accessibility relation of the route's modal frame (worlds = complete possible histories) is reflexive and transitive, i.e. the frame validates S4."
+definitions = ["DEF-MODAL-FIXTURE-FRAME"]
+disambiguations = ["DISAMB-NECESSARY"]
+
+[[statement]]
+id = "STMT-ONTIC-FRAME-KTB"
+lean = "OnticFrameKTB"
+paraphrase = "OPEN frame premise, attribution deferred: the accessibility relation of the route's modal frame (worlds = complete possible histories) is reflexive and symmetric, i.e. the frame validates KTB."
+definitions = ["DEF-MODAL-FIXTURE-FRAME"]
+disambiguations = ["DISAMB-NECESSARY"]
+
+[[statement]]
+id = "STMT-ONTIC-FRAME-S5"
+lean = "OnticFrameS5"
+paraphrase = "OPEN frame premise, attribution deferred: the accessibility relation of the route's modal frame (worlds = complete possible histories) is reflexive and Euclidean (hence an equivalence), i.e. the frame validates S5."
+definitions = ["DEF-MODAL-FIXTURE-FRAME"]
+disambiguations = ["DISAMB-NECESSARY"]
+
+[[statement]]
+id = "STMT-NECESSARY-SENSES-EXHAUSTIVE"
+lean = "NecessarySensesExhaustive"
+paraphrase = "OPEN coverage premise, attribution deferred: the route's intended reading of 'necessary being' is one of the enumerated senses (box-existence in K, actualist K, de dicto K, T, S4, KTB, S5; tertia via 'cannot not-be'; necessary per se). Exhaustiveness of the finite enum is free; that it lists every defensible reading is not provable in Lean and is attacked by proposing a further sense (logical necessity and Scott/Goedel essence-based necessary existence are recorded as left out)."
+definitions = ["DEF-NECESSARY-IN-SENSE"]
+disambiguations = ["DISAMB-NECESSARY"]
+
+[[statement]]
+id = "STMT-NECESSARY-SENSE-UNIQUE"
+lean = "NecessarySenseUnique"
+paraphrase = "OPEN exclusivity premise, attribution deferred: the route's intended reading selects exactly one enumerated sense. A constraint on the choice of reading, not a claim that the senses' extensions are disjoint (they are strength-ordered: S5 box-existence implies S4 implies T)."
+definitions = ["DEF-NECESSARY-IN-SENSE"]
+disambiguations = ["DISAMB-NECESSARY"]
+
+[[statement]]
+id = "STMT-NECESSARY-INTENDED-SENSE-SUPPORTED"
+lean = "IntendedSenseSupported"
+paraphrase = "OPEN premise, attribution deferred: the side condition of the intended sense holds: the frame condition for a T, S4, KTB or S5 reading; for the per se reading, that causes of necessity are actual concreta, that the necessitated depends on its cause, and that dependence between actual concreta is grounding; nothing for the K, actualist K, de dicto K and tertia via readings."
+definitions = ["DEF-NECESSARY-IN-SENSE", "DEF-MODAL-FIXTURE-FRAME"]
+disambiguations = ["DISAMB-NECESSARY"]
+
+[[statement]]
+id = "STMT-NECESSARY-ROOT-ON-INTENDED-READING"
+lean = "NecessaryRootOnIntendedReading"
+paraphrase = "Fork node: the intended reading of 'necessary' selects exactly one enumerated sense s, and there is an actual root n (concrete, existing at w, with no actual concrete ground) that is God, the one God (every God is n), and has the classical attributes that is necessary in sense s."
+definitions = ["DEF-NECESSARY-IN-SENSE"]
+disambiguations = ["DISAMB-NECESSARY"]
+
+[[statement]]
+id = "STMT-NECESSARY-SENSE-FORK-CONTROLS"
+lean = "Control.Controls"
+paraphrase = "Formal controls: (1) on any frame, box-existence gives actual existence under KT, necessary necessity under S4, E -> box-diamond-E under KTB, and possibly-necessary -> necessary under S5 (Kripke axiom theorems); (2) on a reflexive non-transitive chain box-existence holds and necessary necessity fails; on a non-reflexive step frame possibilist box-existence holds while the individual is absent at w; on a universal two-world frame de dicto 'necessarily something exists' holds while no individual is de re box-existent; (3) a box-existent individual that cannot not-be is not necessary per se when another causes its necessity; (4) a one-point model in which every sense's node and side condition hold and exactly one sense is intended. No model is claimed to describe reality."
+definitions = ["DEF-NECESSARY-IN-SENSE", "DEF-MODAL-FIXTURE-FRAME", "DEF-NECESSARY-PER-SE"]
+disambiguations = ["DISAMB-NECESSARY"]
+
+[[argument]]
+id = "NECESSARY-ROOT-ACTUALIST-K"
+theorem = "rootActualistK"
+premises = ["STMT-COGITO-INHABITED-CONCRETE-WORLD", "STMT-WHOLE-ROSTER-NOT-TRAPPED", "STMT-EVERY-CONTINGENT-GROUNDED-AT", "STMT-EXCLUDED-MIDDLE", "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS", "STMT-EXISTING-IN-ACT-AT", "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND", "STMT-GRADES-TO-MAXIMUM-AT-BEING", "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING", "STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE", "STMT-GOODNESS-IS-ACTUALITY", "STMT-UNIVERSAL-CAUSE-TRANSFERS-PERFECTIONS", "STMT-COMPOSITE-HAS-A-UNITING-CAUSE", "STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS", "STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND", "STMT-NO-COMPONENT-IS-FIRST-BEING", "STMT-IMMATERIAL-IS-INTELLECTUAL", "STMT-WILL-FOLLOWS-INTELLECT", "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY", "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT", "STMT-SUBSISTENT-BEING-IS-INFINITE", "STMT-IMMUTABLE-IS-ETERNAL", "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE", "STMT-GOD-IS-MAXIMAL-IN-BEING", "STMT-CLASSICAL-ATTRIBUTES-SUFFICE"]
+conclusion = "STMT-NECESSARY-ROOT-ACTUALIST-K"
+rule = "Theorem application (NecessaryClassicalGodRoot.derive), existential and conjunction elimination, definitional identity of NecessaryAt with the Kripke box"
+meaning = "Imports the 25-input NecessaryClassicalGodRoot theorem once and unpacks its witness n. Its PerfectRootAt clause gives the actual root and NecessaryAt m.ontic w n, which is literally Holds frame V w (box (atom n)) for the existence valuation (necessaryAt_iff_boxExistsAt, Iff.rfl): no bridge premise identifies the route's necessity with the Kripke box. No frame condition is used, so the node holds in the weakest normal modal logic K."
+
+[[argument]]
+id = "NECESSARY-ROOT-BOX-K"
+theorem = "rootBoxK"
+premises = ["STMT-COGITO-INHABITED-CONCRETE-WORLD", "STMT-WHOLE-ROSTER-NOT-TRAPPED", "STMT-EVERY-CONTINGENT-GROUNDED-AT", "STMT-EXCLUDED-MIDDLE", "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS", "STMT-EXISTING-IN-ACT-AT", "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND", "STMT-GRADES-TO-MAXIMUM-AT-BEING", "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING", "STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE", "STMT-GOODNESS-IS-ACTUALITY", "STMT-UNIVERSAL-CAUSE-TRANSFERS-PERFECTIONS", "STMT-COMPOSITE-HAS-A-UNITING-CAUSE", "STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS", "STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND", "STMT-NO-COMPONENT-IS-FIRST-BEING", "STMT-IMMATERIAL-IS-INTELLECTUAL", "STMT-WILL-FOLLOWS-INTELLECT", "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY", "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT", "STMT-SUBSISTENT-BEING-IS-INFINITE", "STMT-IMMUTABLE-IS-ETERNAL", "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE", "STMT-GOD-IS-MAXIMAL-IN-BEING", "STMT-CLASSICAL-ATTRIBUTES-SUFFICE"]
+conclusion = "STMT-NECESSARY-ROOT-BOX-K"
+rule = "Theorem application, conjunction elimination"
+meaning = "The possibilist K node from the same 25 inputs: the actualist node with its actual-existence clause dropped. This is the weakest de re box reading and the premise of the frame-class and per se branches."
+
+[[argument]]
+id = "NECESSARY-ROOT-ACTUALIST-K-STRENGTHENS-BOX-K"
+theorem = "actualistKToBoxK"
+premises = ["STMT-NECESSARY-ROOT-ACTUALIST-K"]
+conclusion = "STMT-NECESSARY-ROOT-BOX-K"
+rule = "Conjunction elimination"
+meaning = "Strength registration: the actualist K node implies the possibilist K node (drop the actual-existence clause)."
+
+[[argument]]
+id = "NECESSARY-ROOT-BOX-K-STRENGTHENS-DE-DICTO-K"
+theorem = "boxKToDeDictoK"
+premises = ["STMT-NECESSARY-ROOT-BOX-K"]
+conclusion = "STMT-NECESSARY-ROOT-DE-DICTO-K"
+rule = "Existential introduction under the box"
+meaning = "Strength registration: de re box-existence of n implies de dicto 'necessarily something exists' (n witnesses at each accessible world). The converse fails (controls, universal two-world frame)."
+
+[[argument]]
+id = "NECESSARY-ROOT-BOX-K-STRENGTHENS-TERTIA-VIA"
+theorem = "boxKToTertiaVia"
+premises = ["STMT-NECESSARY-ROOT-BOX-K"]
+conclusion = "STMT-NECESSARY-ROOT-TERTIA-VIA"
+rule = "Box-diamond duality (K), negation introduction"
+meaning = "Strength registration: box-existence of n implies the tertia via's 'n cannot not-be' with possibility read as the frame's diamond. The converse holds only classically (excluded middle); it is not registered."
+
+[[argument]]
+id = "NECESSARY-ROOT-PER-SE-STRENGTHENS-TERTIA-VIA"
+theorem = "perSeToTertiaVia"
+premises = ["STMT-NECESSARY-ROOT-PER-SE"]
+conclusion = "STMT-NECESSARY-ROOT-TERTIA-VIA"
+rule = "Conjunction elimination"
+meaning = "Strength registration: necessary per se implies necessary (tertia via, DEF-NECESSARY-PER-SE)."
+
+[[argument]]
+id = "NECESSARY-ROOT-BOX-T-STRENGTHENS-ACTUALIST-K"
+theorem = "boxTToActualistK"
+premises = ["STMT-NECESSARY-ROOT-BOX-T"]
+conclusion = "STMT-NECESSARY-ROOT-ACTUALIST-K"
+rule = "Axiom T (axiomT_valid) on the reflexive frame"
+meaning = "Strength registration: in frame class KT, box-existence of n yields n's actual existence at w by the T axiom theorem, so the T node implies the actualist K node."
+
+[[argument]]
+id = "NECESSARY-ROOT-BOX-S4-STRENGTHENS-BOX-T"
+theorem = "boxS4ToBoxT"
+premises = ["STMT-NECESSARY-ROOT-BOX-S4"]
+conclusion = "STMT-NECESSARY-ROOT-BOX-T"
+rule = "Conjunction elimination (S4 frames are reflexive)"
+meaning = "Strength registration: the S4 node implies the T node."
+
+[[argument]]
+id = "NECESSARY-ROOT-BOX-B-STRENGTHENS-BOX-T"
+theorem = "boxBToBoxT"
+premises = ["STMT-NECESSARY-ROOT-BOX-B"]
+conclusion = "STMT-NECESSARY-ROOT-BOX-T"
+rule = "Conjunction elimination (KTB frames are reflexive)"
+meaning = "Strength registration: the KTB node implies the T node."
+
+[[argument]]
+id = "NECESSARY-ROOT-BOX-S5-STRENGTHENS-BOX-S4"
+theorem = "boxS5ToBoxS4"
+premises = ["STMT-NECESSARY-ROOT-BOX-S5"]
+conclusion = "STMT-NECESSARY-ROOT-BOX-S4"
+rule = "Frame inclusion s5_implies_s4 (reflexive Euclidean frames are transitive)"
+meaning = "Strength registration: the S5 node implies the S4 node, applying the existing Cube theorem s5_implies_s4."
+
+[[argument]]
+id = "NECESSARY-ROOT-BOX-S5-STRENGTHENS-BOX-B"
+theorem = "boxS5ToBoxB"
+premises = ["STMT-NECESSARY-ROOT-BOX-S5"]
+conclusion = "STMT-NECESSARY-ROOT-BOX-B"
+rule = "Frame inclusion s5_implies_ktb"
+meaning = "Strength registration: the S5 node implies the KTB node, applying the existing Cube theorem s5_implies_ktb."
+
+[[argument]]
+id = "NECESSARY-ROOT-BOX-T-FROM-FRAME"
+theorem = "boxTFromFrame"
+premises = ["STMT-NECESSARY-ROOT-BOX-K", "STMT-ONTIC-FRAME-KT"]
+conclusion = "STMT-NECESSARY-ROOT-BOX-T"
+rule = "Conjunction introduction"
+meaning = "The T branch of the sense fork: the route's K node plus the OPEN premise of reflexivity on the route's frame. Without that premise the branch fails (controls: non-reflexive and non-transitive frames). Frame-class consequences (actual existence, necessary necessity, E -> box-diamond-E, possibly necessary -> necessary) are the Kripke axiom theorems in the controls."
+strong_version_needed = { "STMT-NECESSARY-ROOT-BOX-K" = "The frame-class readings are box-existence of the same individual n. The de dicto node does not name n, and the tertia via node gives the box only with excluded middle, so neither weak version yields the frame-class node." }
+
+[[argument]]
+id = "NECESSARY-ROOT-BOX-S4-FROM-FRAME"
+theorem = "boxS4FromFrame"
+premises = ["STMT-NECESSARY-ROOT-BOX-K", "STMT-ONTIC-FRAME-S4"]
+conclusion = "STMT-NECESSARY-ROOT-BOX-S4"
+rule = "Conjunction introduction"
+meaning = "The S4 branch of the sense fork: the route's K node plus the OPEN premise of the S4 frame condition on the route's frame. Without that premise the branch fails (controls: non-reflexive and non-transitive frames). Frame-class consequences (actual existence, necessary necessity, E -> box-diamond-E, possibly necessary -> necessary) are the Kripke axiom theorems in the controls."
+strong_version_needed = { "STMT-NECESSARY-ROOT-BOX-K" = "The frame-class readings are box-existence of the same individual n. The de dicto node does not name n, and the tertia via node gives the box only with excluded middle, so neither weak version yields the frame-class node." }
+
+[[argument]]
+id = "NECESSARY-ROOT-BOX-B-FROM-FRAME"
+theorem = "boxBFromFrame"
+premises = ["STMT-NECESSARY-ROOT-BOX-K", "STMT-ONTIC-FRAME-KTB"]
+conclusion = "STMT-NECESSARY-ROOT-BOX-B"
+rule = "Conjunction introduction"
+meaning = "The B branch of the sense fork: the route's K node plus the OPEN premise of the KTB frame condition on the route's frame. Without that premise the branch fails (controls: non-reflexive and non-transitive frames). Frame-class consequences (actual existence, necessary necessity, E -> box-diamond-E, possibly necessary -> necessary) are the Kripke axiom theorems in the controls."
+strong_version_needed = { "STMT-NECESSARY-ROOT-BOX-K" = "The frame-class readings are box-existence of the same individual n. The de dicto node does not name n, and the tertia via node gives the box only with excluded middle, so neither weak version yields the frame-class node." }
+
+[[argument]]
+id = "NECESSARY-ROOT-BOX-S5-FROM-FRAME"
+theorem = "boxS5FromFrame"
+premises = ["STMT-NECESSARY-ROOT-BOX-K", "STMT-ONTIC-FRAME-S5"]
+conclusion = "STMT-NECESSARY-ROOT-BOX-S5"
+rule = "Conjunction introduction"
+meaning = "The S5 branch of the sense fork: the route's K node plus the OPEN premise of the S5 frame condition on the route's frame. Without that premise the branch fails (controls: non-reflexive and non-transitive frames). Frame-class consequences (actual existence, necessary necessity, E -> box-diamond-E, possibly necessary -> necessary) are the Kripke axiom theorems in the controls."
+strong_version_needed = { "STMT-NECESSARY-ROOT-BOX-K" = "The frame-class readings are box-existence of the same individual n. The de dicto node does not name n, and the tertia via node gives the box only with excluded middle, so neither weak version yields the frame-class node." }
+
+[[argument]]
+id = "NECESSARY-ROOT-PER-SE-FROM-GROUNDING"
+theorem = "perSeFromGrounding"
+premises = ["STMT-NECESSARY-ROOT-TERTIA-VIA", "STMT-NECESSITY-CAUSE-RELATA-ACTUAL-CONCRETE", "STMT-NECESSITATED-DEPENDS-ON-ITS-CAUSE", "STMT-ACTUAL-DEPENDENCE-IS-GROUNDING"]
+conclusion = "STMT-NECESSARY-ROOT-PER-SE"
+rule = "Box-diamond duality, universal instantiation, modus ponens, reductio"
+meaning = "The per se branch: the root n cannot not-be (the tertia via node, the weakest sense that suffices); if some c caused n's necessity, then c and n are actual concreta (OPEN), n depends on c (OPEN), and so c grounds n (OPEN), i.e. c is an actual concrete ground of n, which an actual root lacks. Without these premises the branch fails (controls: a box-existent individual whose necessity another causes)."
+
+[[argument]]
+id = "NECESSARY-SENSE-FORK"
+theorem = "forkOnIntendedReading"
+premises = ["STMT-COGITO-INHABITED-CONCRETE-WORLD", "STMT-WHOLE-ROSTER-NOT-TRAPPED", "STMT-EVERY-CONTINGENT-GROUNDED-AT", "STMT-EXCLUDED-MIDDLE", "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS", "STMT-EXISTING-IN-ACT-AT", "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND", "STMT-GRADES-TO-MAXIMUM-AT-BEING", "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING", "STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE", "STMT-GOODNESS-IS-ACTUALITY", "STMT-UNIVERSAL-CAUSE-TRANSFERS-PERFECTIONS", "STMT-COMPOSITE-HAS-A-UNITING-CAUSE", "STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS", "STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND", "STMT-NO-COMPONENT-IS-FIRST-BEING", "STMT-IMMATERIAL-IS-INTELLECTUAL", "STMT-WILL-FOLLOWS-INTELLECT", "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY", "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT", "STMT-SUBSISTENT-BEING-IS-INFINITE", "STMT-IMMUTABLE-IS-ETERNAL", "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE", "STMT-GOD-IS-MAXIMAL-IN-BEING", "STMT-CLASSICAL-ATTRIBUTES-SUFFICE", "STMT-NECESSARY-SENSES-EXHAUSTIVE", "STMT-NECESSARY-SENSE-UNIQUE", "STMT-NECESSARY-INTENDED-SENSE-SUPPORTED"]
+conclusion = "STMT-NECESSARY-ROOT-ON-INTENDED-READING"
+rule = "Theorem application, case analysis over the finite sense enum (disjunctive syllogism), per-branch theorems"
+meaning = "Joint fork theorem: from the 25 route inputs, the OPEN coverage premise (the intended reading is an enumerated sense), the OPEN exclusivity premise (it selects exactly one) and the OPEN side condition of the intended sense, the root is necessary in the one intended sense. Proof by cases on the sense (nodeInSense): K, actualist K, de dicto K and tertia via need no side condition; T, S4, KTB and S5 need their frame condition; per se needs the three grounding premises. No branch is refuted outright; each conditional branch fails without its side condition (controls)."
+
+[[argument]]
+id = "NECESSARY-CLASSICAL-GOD-CASE-SENSE-FORK"
+theorem = "catholicismFromIntendedReading"
+premises = ["STMT-NECESSARY-ROOT-ON-INTENDED-READING", "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE", "STMT-JESUS-CLAIMED-DIVINE-AUTHORITY-AND-ROSE", "STMT-CHRIST-FOUNDED-VISIBLE-CHURCH", "STMT-CHRISTS-CHURCH-IS-THE-CATHOLIC-CHURCH", "STMT-BRIDGE-CHRISTS-CHURCH-FOUNDED-BY-GOD", "STMT-BRIDGE-GOD-FOUNDED-AUTHORITY-PROPOSES-ONLY-TRUTH", "STMT-CATHOLIC-CHURCH-DEFINITIVELY-PROPOSES-CREED"]
+conclusion = "STMT-CATHOLICISM-TRUE"
+rule = "Existential and conjunction elimination, identity substitution, theorem application (Skeleton.catholicismSkeleton)"
+meaning = "Root route with the sense of 'necessary' as a parameter of the necessary root: the root necessary in the one intended sense, with the seven stage 3-6 premises, gives Catholicism (phase 1) through the unchanged skeleton. Only the root facts (God, the one God, classical attributes) are consumed in this step; the necessity sense is carried by the premise node, so the conclusion follows on whichever enumerated reading is intended."
+
+[[argument]]
+id = "NECESSARY-SENSE-FORK-CONTROLS"
+theorem = "controls"
+premises = []
+conclusion = "STMT-NECESSARY-SENSE-FORK-CONTROLS"
+rule = "Kripke axiom theorems and explicit finite interpretations"
+meaning = "Frame laws via axiomT_valid, axiom4_valid, axiomB_valid and the Euclidean condition; separation countermodels for T vs S4, actualist vs possibilist and de dicto vs de re; a per se separation; and the batch's nonvacuity model. Formal only; no model describes reality."
+
+[[argument]]
+id = "CAUSAL-CONCRETENESS-COMMITMENT-STRENGTHENS-CAUSERS"
+theorem = "ownerCommitmentToCausers"
+premises = ["STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS"]
+conclusion = "STMT-CAUSERS-REQUIRE-CONCRETENESS-AT"
+rule = "Conjunction elimination"
+meaning = "Strength registration (not modal): the common-ground commitment OwnerCommitmentAt is the conjunction of the capacity clause and the activity clause; its second conjunct is CausersRequireConcreteAt, the activity half used by the Cogito population step of the necessary-being route."
+
+[[argument]]
+id = "CAUSAL-CONCRETENESS-COMMITMENT-STRENGTHENS-POWER"
+theorem = "ownerCommitmentToPower"
+premises = ["STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS"]
+conclusion = "STMT-CAUSAL-POWER-REQUIRES-CONCRETENESS-AT"
+rule = "Conjunction elimination"
+meaning = "Strength registration (not modal): the first conjunct of the common-ground commitment OwnerCommitmentAt is PowerRequiresConcreteAt, the capacity half used by the alternative Cogito population step."
+
+[[relation]]
+id = "REL-CAUSAL-CONCRETENESS-COMMITMENT-STRENGTHENS-CAUSERS"
+subject_kind = "statement"
+subject_id = "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "STMT-CAUSERS-REQUIRE-CONCRETENESS-AT"
+verification_result_id = "CAUSAL-CONCRETENESS-COMMITMENT-STRENGTHENS-CAUSERS"
+note = "The activity half of the owner's two-clause concreteness commitment; the commitment is a met common-ground floor item, so the half is established via strength."
+
+[[relation]]
+id = "REL-CAUSAL-CONCRETENESS-COMMITMENT-STRENGTHENS-POWER"
+subject_kind = "statement"
+subject_id = "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "STMT-CAUSAL-POWER-REQUIRES-CONCRETENESS-AT"
+verification_result_id = "CAUSAL-CONCRETENESS-COMMITMENT-STRENGTHENS-POWER"
+note = "The capacity half of the owner's two-clause concreteness commitment; established via strength from the met common-ground floor item."
+
+[[relation]]
+id = "REL-NECESSARY-ROOT-ACTUALIST-K-STRENGTHENS-BOX-K"
+subject_kind = "statement"
+subject_id = "STMT-NECESSARY-ROOT-ACTUALIST-K"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "STMT-NECESSARY-ROOT-BOX-K"
+verification_result_id = "NECESSARY-ROOT-ACTUALIST-K-STRENGTHENS-BOX-K"
+note = "Strength registration: the actualist K node implies the possibilist K node (drop the actual-existence clause)."
+
+[[relation]]
+id = "REL-NECESSARY-ROOT-BOX-K-STRENGTHENS-DE-DICTO-K"
+subject_kind = "statement"
+subject_id = "STMT-NECESSARY-ROOT-BOX-K"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "STMT-NECESSARY-ROOT-DE-DICTO-K"
+verification_result_id = "NECESSARY-ROOT-BOX-K-STRENGTHENS-DE-DICTO-K"
+note = "Strength registration: de re box-existence of n implies de dicto 'necessarily something exists' (n witnesses at each accessible world). The converse fails (controls, universal two-world frame)."
+
+[[relation]]
+id = "REL-NECESSARY-ROOT-BOX-K-STRENGTHENS-TERTIA-VIA"
+subject_kind = "statement"
+subject_id = "STMT-NECESSARY-ROOT-BOX-K"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "STMT-NECESSARY-ROOT-TERTIA-VIA"
+verification_result_id = "NECESSARY-ROOT-BOX-K-STRENGTHENS-TERTIA-VIA"
+note = "Strength registration: box-existence of n implies the tertia via's 'n cannot not-be' with possibility read as the frame's diamond. The converse holds only classically (excluded middle); it is not registered."
+
+[[relation]]
+id = "REL-NECESSARY-ROOT-PER-SE-STRENGTHENS-TERTIA-VIA"
+subject_kind = "statement"
+subject_id = "STMT-NECESSARY-ROOT-PER-SE"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "STMT-NECESSARY-ROOT-TERTIA-VIA"
+verification_result_id = "NECESSARY-ROOT-PER-SE-STRENGTHENS-TERTIA-VIA"
+note = "Strength registration: necessary per se implies necessary (tertia via, DEF-NECESSARY-PER-SE)."
+
+[[relation]]
+id = "REL-NECESSARY-ROOT-BOX-T-STRENGTHENS-ACTUALIST-K"
+subject_kind = "statement"
+subject_id = "STMT-NECESSARY-ROOT-BOX-T"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "STMT-NECESSARY-ROOT-ACTUALIST-K"
+verification_result_id = "NECESSARY-ROOT-BOX-T-STRENGTHENS-ACTUALIST-K"
+note = "Strength registration: in frame class KT, box-existence of n yields n's actual existence at w by the T axiom theorem, so the T node implies the actualist K node."
+
+[[relation]]
+id = "REL-NECESSARY-ROOT-BOX-S4-STRENGTHENS-BOX-T"
+subject_kind = "statement"
+subject_id = "STMT-NECESSARY-ROOT-BOX-S4"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "STMT-NECESSARY-ROOT-BOX-T"
+verification_result_id = "NECESSARY-ROOT-BOX-S4-STRENGTHENS-BOX-T"
+note = "Strength registration: the S4 node implies the T node."
+
+[[relation]]
+id = "REL-NECESSARY-ROOT-BOX-B-STRENGTHENS-BOX-T"
+subject_kind = "statement"
+subject_id = "STMT-NECESSARY-ROOT-BOX-B"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "STMT-NECESSARY-ROOT-BOX-T"
+verification_result_id = "NECESSARY-ROOT-BOX-B-STRENGTHENS-BOX-T"
+note = "Strength registration: the KTB node implies the T node."
+
+[[relation]]
+id = "REL-NECESSARY-ROOT-BOX-S5-STRENGTHENS-BOX-S4"
+subject_kind = "statement"
+subject_id = "STMT-NECESSARY-ROOT-BOX-S5"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "STMT-NECESSARY-ROOT-BOX-S4"
+verification_result_id = "NECESSARY-ROOT-BOX-S5-STRENGTHENS-BOX-S4"
+note = "Strength registration: the S5 node implies the S4 node, applying the existing Cube theorem s5_implies_s4."
+
+[[relation]]
+id = "REL-NECESSARY-ROOT-BOX-S5-STRENGTHENS-BOX-B"
+subject_kind = "statement"
+subject_id = "STMT-NECESSARY-ROOT-BOX-S5"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "STMT-NECESSARY-ROOT-BOX-B"
+verification_result_id = "NECESSARY-ROOT-BOX-S5-STRENGTHENS-BOX-B"
+note = "Strength registration: the S5 node implies the KTB node, applying the existing Cube theorem s5_implies_ktb."

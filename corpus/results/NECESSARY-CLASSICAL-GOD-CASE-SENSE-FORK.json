@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-CLASSICAL-GOD-CASE-SENSE-FORK",
+  "argument_id": "NECESSARY-CLASSICAL-GOD-CASE-SENSE-FORK",
+  "challenge_module": "TruthCore.Results.Causality.NecessarySenseFork.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessarySenseFork.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessarySenseFork.catholicismFromIntendedReading",
+  "comparator_config": "results/NECESSARY-CLASSICAL-GOD-CASE-SENSE-FORK/comparator.json",
+  "status": "solution-present",
+  "description": "Root route with the sense of 'necessary' as a parameter of the necessary root: the root necessary in the one intended sense, with the seven stage 3-6 premises, gives Catholicism (phase 1) through the unchanged skeleton. Only the root facts (God, the one God, classical attributes) are consumed in this step; the necessity sense is carried by the premise node, so the conclusion follows on whichever enumerated reading is intended."
+}

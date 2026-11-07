@@ -1,0 +1,10 @@
+{
+  "id": "REL-CAUSAL-CONCRETENESS-COMMITMENT-STRENGTHENS-POWER",
+  "subject_kind": "statement",
+  "subject_id": "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "STMT-CAUSAL-POWER-REQUIRES-CONCRETENESS-AT",
+  "verification_result_id": "CAUSAL-CONCRETENESS-COMMITMENT-STRENGTHENS-POWER",
+  "note": "The capacity half of the owner's two-clause concreteness commitment; established via strength from the met common-ground floor item."
+}
