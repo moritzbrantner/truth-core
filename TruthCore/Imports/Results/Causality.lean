@@ -119,6 +119,7 @@ public import TruthCore.Results.Causality.FiniteNecessaryUnion.LocalWitness.Solu
 public import TruthCore.Results.Causality.FiniteNecessaryUnion.SourceBridge.Solution
 public import TruthCore.Results.Causality.FiniteReapersConsistent.Solution
 public import TruthCore.Results.Causality.FiniteRestriction.Solution
+public import TruthCore.Results.Causality.GodMaximalCausal.Solution
 public import TruthCore.Results.Causality.GreatestDegreeRootRoute.Solution
 public import TruthCore.Results.Causality.GrimReaperFiniteTests.Solution
 public import TruthCore.Results.Causality.GrimReaperImpossible.Solution
@@ -193,6 +194,7 @@ public import TruthCore.Results.Causality.RegressAccessibilityExcludesSeries.Sol
 public import TruthCore.Results.Causality.RegressAccessibilityUnboundedDepth.Solution
 public import TruthCore.Results.Causality.RegressReadingsCoincide.Solution
 public import TruthCore.Results.Causality.RegressRivalCoverage.Coverage.Solution
+public import TruthCore.Results.Causality.RivalRefutationsRound2.Solution
 public import TruthCore.Results.Causality.RootEssenceIdentity.Solution
 public import TruthCore.Results.Causality.RootIntellectWill.Solution
 public import TruthCore.Results.Causality.RootIntellectWillOmission.Solution

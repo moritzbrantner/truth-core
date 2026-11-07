@@ -1,0 +1,10 @@
+{
+  "id": "RIVAL-REFUTATIONS-ROUND2-CONTROLS",
+  "argument_id": "RIVAL-REFUTATIONS-ROUND2-CONTROLS",
+  "challenge_module": "TruthCore.Results.Causality.RivalRefutationsRound2.Challenge",
+  "solution_module": "TruthCore.Results.Causality.RivalRefutationsRound2.Solution",
+  "theorem": "TruthCore.Results.Causality.RivalRefutationsRound2.controls",
+  "comparator_config": "results/RIVAL-REFUTATIONS-ROUND2-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Omission controls for the three refutations of round 2: dropping any one premise of a refutation leaves a finite interpretation of the remaining premises in which the rival holds, and each refutation's premises hold together nonvacuously. Logical models only."
+}

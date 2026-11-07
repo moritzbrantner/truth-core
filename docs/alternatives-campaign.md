@@ -6,7 +6,7 @@ Classes, as in the issue: **self-application** (the rival undermines itself), **
 
 ## Policy for `refutes` relations
 
-`corpus.py frontier` counts a `refutes` relation only when its argument has a verified result and is premise-free or all its premises are closed (#391/#411). Conditional refutations resting on open premises do not close a defended premise. This campaign records them in the `alternative_to` note and here as "refuted given open premises …", without a `refutes` relation. All three refutations of this batch have open premises, so this batch records no `refutes` relation.
+`corpus.py frontier` counts a `refutes` relation only when its argument has a verified result and is premise-free or all its premises are closed (#391/#411). Conditional refutations resting on open premises do not close a defended premise. This campaign first recorded them only in the `alternative_to` note and here as "refuted given open premises …". Conditional refutations now also carry a `refutes` relation, which `frontier --json` lists with `counted: false` and its unestablished premises until those are established (#999); the relation records which premises the rival must reject and closes nothing.
 
 Two further rules apply to conditional refutations here. The refuting argument must not use the premise it defends. And where the strongest form of a rival denies a premise of the refutation, that form is recorded as its own alternative and counted as unrefuted. Example: Aristotle's retorsion refutes the bare Eleatic thesis given "opinion is a motion"; the McTaggart-style rival grants appearances and denies that an appearance of change is a change, so it is a separate alternative, although it formally entails the Eleatic one.
 
@@ -47,7 +47,7 @@ Three conditional refutations, each with Challenge/Solution, a Comparator config
 - `MEGARIAN-THESIS-ABOLISHES-MOTION` (inconsistency): *Metaphysics* IX.3, 1046b29-1047a17. Something is moved; what is moved toward r is able to be r (1047a11-14) and not yet r (*Physics* III.2, 201b31-33); so something is able without acting. Refutes `STMT-MEGARIAN-ABILITY-ONLY-WHEN-ACTING` given those open premises, without using the premise it rivals.
 - `PER-SE-CAUSAL-LOOP-IMPOSSIBLE` (inconsistency): the Second Way's *sic esset prius seipso*, extended to finite loops by induction on the chain. Refutes `STMT-PER-SE-CAUSAL-LOOP` given open premises, one of which, `STMT-SIMPLE-PRIORITY-IS-TRANSITIVE`, is not yet sourced.
 
-No `refutes` relation is recorded for them (#391). Even with them, no premise would close: every premise in the batch keeps at least one rival that is unrefuted even conditionally.
+`ELEATIC-THESIS-SELF-REFUTING` and `PER-SE-CAUSAL-LOOP-IMPOSSIBLE` now carry non-counting `refutes` relations (rival refutations round 2); `MEGARIAN-THESIS-ABOLISHES-MOTION` does not, since its rival is recorded by an `attacks` relation, not as an `alternative_to`. Even with them, no premise would close: every premise in the batch keeps at least one rival that is unrefuted even conditionally.
 
 <!-- BEGIN GENERATED: docs/alternatives/premises table "premise=Premise" "rival=Strongest rival(s) recorded" "class=Class" "status=Status" filter:phase=batch-1 -->
 | Premise | Strongest rival(s) recorded | Class | Status |

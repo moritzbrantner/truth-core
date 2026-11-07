@@ -115,8 +115,10 @@ def build_records(spec: dict, write: bool) -> list[str]:
         record = {"id": s["id"], "paraphrase": s["paraphrase"]}
         if "lean" in s:
             record["lean_declaration"] = lean_name(batch, s["lean"])
-        record["definition_ids"] = s.get("definitions", [])
-        record["disambiguation_ids"] = s.get("disambiguations", [])
+        if s.get("definitions"):
+            record["definition_ids"] = s["definitions"]
+        if s.get("disambiguations"):
+            record["disambiguation_ids"] = s["disambiguations"]
         path = existing["statements"].get(s["id"], (CORPUS / "statements" / f"{slug(s['id'])}.json",))[0]
         dump(path, record, write, planned)
 
@@ -139,8 +141,11 @@ def build_records(spec: dict, write: bool) -> list[str]:
                      "assumption_statement_ids": [], "discharged_statement_ids": []}
         argument = {"id": a["id"], "premise_statement_ids": a["premises"],
                     "conclusion_statement_id": a["conclusion"], "inference_ids": [f"INF-{a['id']}"],
-                    "meaning": a["meaning"], "definition_ids": definitions,
-                    "disambiguation_ids": disambiguations}
+                    "meaning": a["meaning"]}
+        if definitions:
+            argument["definition_ids"] = definitions
+        if disambiguations:
+            argument["disambiguation_ids"] = disambiguations
         for key in ("strong_version_needed", "commitment_statement_ids"):
             if key in a:
                 argument[key] = a[key]
@@ -211,8 +216,17 @@ def challenge_text(solution: str, theorems: list[str]) -> str:
         else:
             body.append(line)
     out, i, kept = [], 0, set()
+    namespaces: list[str] = []
     while i < len(body):
         line = body[i]
+        if line.startswith("/-!"):
+            # module docstring: copy verbatim up to its closing -/
+            j = i
+            while j < len(body) and "-/" not in body[j][3 if j == i else 0:]:
+                j += 1
+            out.extend(body[i:j + 1])
+            i = j + 1
+            continue
         m = DECL.match(line)
         if m:
             j = i + 1
@@ -240,7 +254,11 @@ def challenge_text(solution: str, theorems: list[str]) -> str:
                     break
             i = j
             continue
-        if line.startswith(("section", "end ", "variable")) and not line.startswith("end TruthCore"):
+        if line.startswith("namespace "):
+            namespaces.append(line.split()[1])
+        elif line.startswith("end ") and namespaces and line.split()[1] == namespaces[-1]:
+            namespaces.pop()
+        elif line.startswith(("section", "end ", "variable")):
             i += 1
             continue
         out.append(line)
@@ -318,7 +336,7 @@ def main() -> int:
         if args.write and args.fix:
             return fix_disambiguations(spec)
         return 0
-    solution = Path(args.solution)
+    solution = Path(args.solution).resolve()
     text = challenge_text(solution.read_text(), args.theorems)
     target = solution.with_name("Challenge.lean")
     if args.write:
