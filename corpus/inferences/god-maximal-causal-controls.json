@@ -1,0 +1,9 @@
+{
+  "id": "INF-GOD-MAXIMAL-CAUSAL-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-GOD-MAXIMAL-CAUSAL-CONTROLS",
+  "rule": "Explicit finite interpretation",
+  "meaning": "Positive witness: a God that causes the being of one other being and exceeds it in being satisfies all six premises and the conclusion.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

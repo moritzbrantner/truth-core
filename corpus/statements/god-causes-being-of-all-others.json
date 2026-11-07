@@ -1,0 +1,13 @@
+{
+  "id": "STMT-GOD-CAUSES-BEING-OF-ALL-OTHERS",
+  "paraphrase": "Whatever is God causes the being of every other being. Causal converse of ST I q.2 a.3's naming sentence (what is the cause of being and of every perfection to all beings, this we call God), read for being only.",
+  "lean_declaration": "TruthCore.Causality.GodMaximalCausal.GodCausesBeingOfAllOthers",
+  "definition_ids": [
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "GOD-MAXIMAL-CAUSAL-CONTROLS",
+  "argument_id": "GOD-MAXIMAL-CAUSAL-CONTROLS",
+  "challenge_module": "TruthCore.Results.Causality.GodMaximalCausal.Challenge",
+  "solution_module": "TruthCore.Results.Causality.GodMaximalCausal.Solution",
+  "theorem": "TruthCore.Results.Causality.GodMaximalCausal.controls",
+  "comparator_config": "results/GOD-MAXIMAL-CAUSAL-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Positive witness: a God that causes the being of one other being and exceeds it in being satisfies all six premises and the conclusion."
+}

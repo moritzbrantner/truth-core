@@ -52,6 +52,7 @@ public import TruthCore.Causality.ExistentialSelfActualization
 public import TruthCore.Causality.FiniteBranching
 public import TruthCore.Causality.FiniteNecessaryUnion
 public import TruthCore.Causality.FiniteRestriction
+public import TruthCore.Causality.GodMaximalCausal
 public import TruthCore.Causality.GreatestDegreeRootRoute
 public import TruthCore.Causality.GrimReaper
 public import TruthCore.Causality.GrimReaperFiniteTests

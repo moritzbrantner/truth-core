@@ -318,7 +318,7 @@ def main() -> int:
         if args.write and args.fix:
             return fix_disambiguations(spec)
         return 0
-    solution = Path(args.solution)
+    solution = Path(args.solution).resolve()
     text = challenge_text(solution.read_text(), args.theorems)
     target = solution.with_name("Challenge.lean")
     if args.write:
