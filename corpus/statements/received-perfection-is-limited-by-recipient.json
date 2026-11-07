@@ -1,0 +1,13 @@
+{
+  "id": "STMT-RECEIVED-PERFECTION-IS-LIMITED-BY-RECIPIENT",
+  "paraphrase": "OPEN analyst generalization of ST I q.7 a.1-2: for every y, perfection r and z, if y's having r is received in z, then y has r only to the measure of z's capacity. The passage says it of form received in matter and of the esse of a subsistent created form; the extension to every perfection is the analyst's (esse instance: STMT-RECEIVED-ESSE-IS-LIMITED).",
+  "lean_declaration": "TruthCore.Causality.CausalMapsBatch1.ReceivedPerfectionIsLimitedByRecipient",
+  "definition_ids": [
+    "DEF-PERFECTION-RECEIVED-IN",
+    "DEF-PERFECTION-LIMITED-BY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSE-RECEPTION",
+    "DISAMB-ESSE-LIMITATION"
+  ]
+}

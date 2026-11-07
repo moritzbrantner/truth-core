@@ -18,6 +18,7 @@ public import TruthCore.Causality.BruteFoundationDoubling
 public import TruthCore.Causality.BruteFoundationExplanations
 public import TruthCore.Causality.BruteFoundationRoutes
 public import TruthCore.Causality.CausalConcreteRivalBoundary
+public import TruthCore.Causality.CausalMapsBatch1
 public import TruthCore.Causality.CausalPowerConcreteness
 public import TruthCore.Causality.CausalPowerConcretenessStrength
 public import TruthCore.Causality.ChainInstantiation

@@ -1,0 +1,13 @@
+{
+  "id": "STMT-UNLIMITED-POSSESSION-EXCEEDS-LIMITED",
+  "paraphrase": "OPEN analyst premise: if c has r, x has r limited by x's own capacity, and c's having r is not limited by x, then c is more r than x.",
+  "lean_declaration": "TruthCore.Causality.CausalMapsBatch1.UnlimitedPossessionExceedsLimited",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-PERFECTION-LIMITED-BY",
+    "DEF-MORE-IN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT"
+  ]
+}

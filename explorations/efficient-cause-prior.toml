@@ -13,25 +13,57 @@ id = "STMT-SIMPLY-PRIOR-IS-CAUSE-OF-BEING"
 id = "STMT-NOTHING-PRIOR-TO-ITSELF"
 
 [[node]]
-id = "NEW-PRIORITY-BY-NATURE-IS-NONMUTUAL-DEPENDENCE"
-new = true
-text = "y is simply prior to x exactly when x depends on y for being and y does not so depend on x."
+id = "STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF"
+
+# Lean-bound dependence reading of the q.44 a.1 statement (which has no Lean declaration).
+[[node]]
+id = "STMT-EFFECT-DEPENDS-FOR-BEING-ON-EFFICIENT-CAUSE"
+
+# Former NEW-PRIORITY-BY-NATURE-IS-NONMUTUAL-DEPENDENCE, split into its two directions.
+[[node]]
+id = "STMT-NONMUTUAL-DEPENDENCE-SUFFICES-FOR-PRIORITY"
 
 [[node]]
-id = "NEW-CAUSE-NOT-DEPENDENT-ON-EFFECT-AS-SUCH"
-new = true
-text = "An efficient cause does not depend for its being on what it efficiently causes."
+id = "STMT-PRIORITY-REQUIRES-NONMUTUAL-DEPENDENCE"
+
+# Former NEW-CAUSE-NOT-DEPENDENT-ON-EFFECT-AS-SUCH.
+[[node]]
+id = "STMT-EFFICIENT-CAUSE-NOT-DEPENDENT-ON-EFFECT"
+
+[[node]]
+id = "STMT-NO-MUTUAL-EFFICIENT-CAUSATION"
 
 [[edge]]
-premises = ["STMT-AQUINAS-ST-I-Q44-A1-EFFICIENT-CAUSE-COUNTERFACTUAL-DEPENDENCE", "NEW-PRIORITY-BY-NATURE-IS-NONMUTUAL-DEPENDENCE", "NEW-CAUSE-NOT-DEPENDENT-ON-EFFECT-AS-SUCH"]
+premises = ["STMT-AQUINAS-ST-I-Q44-A1-EFFICIENT-CAUSE-COUNTERFACTUAL-DEPENDENCE"]
+conclusion = "STMT-EFFECT-DEPENDS-FOR-BEING-ON-EFFICIENT-CAUSE"
+kind = "source"
+status = "rejected"
+note = "Not a derivation: the q.44 statement has no Lean declaration. Recorded instead as the supports relation REL-Q44-A1-COUNTERFACTUAL-SUPPORTS-EFFECT-DEPENDS-ON-EFFICIENT-CAUSE with its gap."
+
+[[edge]]
+premises = ["STMT-EFFECT-DEPENDS-FOR-BEING-ON-EFFICIENT-CAUSE", "STMT-EFFICIENT-CAUSE-NOT-DEPENDENT-ON-EFFECT", "STMT-NONMUTUAL-DEPENDENCE-SUFFICES-FOR-PRIORITY"]
 conclusion = "STMT-EFFICIENT-CAUSE-IS-PRIOR-TO-EFFECT"
 kind = "derivation"
-status = "mapped"
-note = "q.44 a.1 (definition-linked, unused): the effect would not be without its efficient cause, i.e. depends on it; with nonmutuality and the dependence analysis of priority, the cause is prior."
+status = "certified"
+note = "Certified as EFFICIENT-CAUSE-PRIOR-FROM-NONMUTUAL-DEPENDENCE; uses only the sufficient direction of the dependence analysis of priority."
 
 [[edge]]
-premises = ["NEW-PRIORITY-BY-NATURE-IS-NONMUTUAL-DEPENDENCE"]
+premises = ["STMT-PRIORITY-REQUIRES-NONMUTUAL-DEPENDENCE"]
 conclusion = "STMT-NOTHING-PRIOR-TO-ITSELF"
 kind = "derivation"
-status = "mapped"
-note = "Irreflexivity is immediate: x prior to x would require x to depend on x and not depend on x."
+status = "certified"
+note = "Certified as NOTHING-PRIOR-TO-ITSELF-FROM-NONMUTUAL-DEPENDENCE; uses only the necessary direction."
+
+[[edge]]
+premises = ["STMT-EFFECT-DEPENDS-FOR-BEING-ON-EFFICIENT-CAUSE", "STMT-EFFICIENT-CAUSE-NOT-DEPENDENT-ON-EFFECT"]
+conclusion = "STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF"
+kind = "derivation"
+status = "certified"
+note = "Certified as NO-SELF-EFFICIENT-CAUSATION-FROM-DEPENDENCE: a second route that bypasses priority."
+
+[[edge]]
+premises = ["STMT-EFFECT-DEPENDS-FOR-BEING-ON-EFFICIENT-CAUSE", "STMT-EFFICIENT-CAUSE-NOT-DEPENDENT-ON-EFFECT"]
+conclusion = "STMT-NO-MUTUAL-EFFICIENT-CAUSATION"
+kind = "derivation"
+status = "certified"
+note = "Certified as NO-MUTUAL-EFFICIENT-CAUSATION-FROM-DEPENDENCE."

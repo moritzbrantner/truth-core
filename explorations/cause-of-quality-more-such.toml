@@ -15,43 +15,58 @@ id = "STMT-MORE-SUCH-HAS-THE-PERFECTION"
 [[node]]
 id = "STMT-RECEIVED-ESSE-IS-LIMITED"
 
+# Former NEW-CAUSE-GIVES-ONLY-WHAT-IT-HAS (batch 1).
 [[node]]
-id = "NEW-CAUSE-GIVES-ONLY-WHAT-IT-HAS"
-new = true
-text = "Nothing gives what it does not have: whatever causes a perfection in another has that perfection, formally or eminently."
+id = "STMT-CAUSE-HAS-WHAT-IT-GIVES"
 
 [[node]]
-id = "NEW-RECEIVED-PERFECTION-IS-LIMITED-BY-RECIPIENT"
-new = true
-text = "A perfection had by reception from another is limited by the capacity of what receives it (generalizing q.7 a.1 from esse to any perfection)."
+id = "STMT-CAUSED-PERFECTION-IS-HAD-BY-EFFECT"
 
 [[node]]
-id = "NEW-CAUSE-HAS-PERFECTION-NOT-AS-RECEIVED-FROM-EFFECT"
-new = true
-text = "A cause does not have the perfection it causes by reception from its effect."
+id = "STMT-CAUSE-OF-BEING-HAS-WHAT-IT-GIVES"
 
 [[node]]
-id = "NEW-UNLIMITED-POSSESSION-EXCEEDS-LIMITED"
-new = true
-text = "Whoever has a perfection without the limit that a recipient imposes on another's possession of it is more such than that other."
+id = "STMT-PERFECTION-CAUSED-IN-ANOTHER-IS-RECEIVED-IN-IT"
+
+# Former NEW-RECEIVED-PERFECTION-IS-LIMITED-BY-RECIPIENT.
+[[node]]
+id = "STMT-RECEIVED-PERFECTION-IS-LIMITED-BY-RECIPIENT"
+
+[[node]]
+id = "STMT-PERFECTION-LIMITED-ONLY-THROUGH-RECEPTION"
+
+# Former NEW-CAUSE-HAS-PERFECTION-NOT-AS-RECEIVED-FROM-EFFECT.
+[[node]]
+id = "STMT-CAUSE-HAS-PERFECTION-NOT-AS-RECEIVED-IN-EFFECT"
+
+# Former NEW-UNLIMITED-POSSESSION-EXCEEDS-LIMITED.
+[[node]]
+id = "STMT-UNLIMITED-POSSESSION-EXCEEDS-LIMITED"
 
 [[edge]]
 premises = ["STMT-ESSE-LIMITED-ONLY-THROUGH-RECEPTION"]
-conclusion = "NEW-RECEIVED-PERFECTION-IS-LIMITED-BY-RECIPIENT"
+conclusion = "STMT-RECEIVED-PERFECTION-IS-LIMITED-BY-RECIPIENT"
 kind = "bridge"
-status = "mapped"
-note = "Generalizes the q.7 esse reading to every perfection; record the generalization as a bridge."
+status = "rejected"
+note = "Not derivable: a generalization from the esse instance to every perfection does not follow from the instance, and the direction is the converse (limited -> received, not received -> limited). Kept instead as two open statements, each with a supports relation: STMT-RECEIVED-PERFECTION-IS-LIMITED-BY-RECIPIENT (from the q.7 a.1/a.2 claim) and STMT-PERFECTION-LIMITED-ONLY-THROUGH-RECEPTION (from the q.7 a.1 only-through-reception claim, which restricts the warrant to esse). See ATTEMPT-CAUSAL-MAPS-BATCH1-REJECTED-EDGES."
 
 [[edge]]
-premises = ["NEW-CAUSE-GIVES-ONLY-WHAT-IT-HAS", "NEW-RECEIVED-PERFECTION-IS-LIMITED-BY-RECIPIENT", "NEW-CAUSE-HAS-PERFECTION-NOT-AS-RECEIVED-FROM-EFFECT", "NEW-UNLIMITED-POSSESSION-EXCEEDS-LIMITED"]
+premises = ["STMT-CAUSE-HAS-WHAT-IT-GIVES", "STMT-PERFECTION-CAUSED-IN-ANOTHER-IS-RECEIVED-IN-IT", "STMT-RECEIVED-PERFECTION-IS-LIMITED-BY-RECIPIENT", "STMT-PERFECTION-LIMITED-ONLY-THROUGH-RECEPTION", "STMT-CAUSE-HAS-PERFECTION-NOT-AS-RECEIVED-IN-EFFECT", "STMT-UNLIMITED-POSSESSION-EXCEEDS-LIMITED"]
 conclusion = "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH"
 kind = "derivation"
-status = "mapped"
-note = "Distinct cause has the perfection (gives only what it has), the effect has it received and so limited, the cause has it unlimited by that recipient, hence more such. Caution: PERFECTION-PREEXISTENCE-FROM-CAUSAL-TRANSFER derives preexistence from the target; do not close a cycle into one proof."
+status = "certified"
+note = "Certified as CAUSE-OF-QUALITY-MORE-SUCH-FROM-RECEPTION-LIMITS. The map's 'unlimited by that recipient' step needed both directions of the reception/limitation link, relativized to the limiter, and the effect's reception of what is caused in it as a sixth premise. Does not use STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE, so no cycle with PERFECTION-PREEXISTENCE-FROM-CAUSAL-TRANSFER."
 
 [[edge]]
 premises = ["STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE"]
-conclusion = "NEW-CAUSE-GIVES-ONLY-WHAT-IT-HAS"
+conclusion = "STMT-CAUSE-HAS-WHAT-IT-GIVES"
 kind = "derivation"
-status = "mapped"
-note = "Preexistence restricted to causes of being gives the cause-has-what-it-gives principle for perfections of caused beings; check scope."
+status = "rejected"
+note = "Scope: q.4 a.2 constrains only causes of a thing's being; the unrestricted principle would need every cause of a perfection to be a cause of being (the heater is not). The scoped version is certified in the next edge; the unrestricted one stays an open premise supported by the q.4 a.2 claim."
+
+[[edge]]
+premises = ["STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE", "STMT-CAUSED-PERFECTION-IS-HAD-BY-EFFECT"]
+conclusion = "STMT-CAUSE-OF-BEING-HAS-WHAT-IT-GIVES"
+kind = "derivation"
+status = "certified"
+note = "Certified as CAUSE-OF-BEING-HAS-WHAT-IT-GIVES-FROM-PREEXISTENCE (the weak, cause-of-being version)."

@@ -1,0 +1,12 @@
+{
+  "id": "STMT-PRIORITY-REQUIRES-NONMUTUAL-DEPENDENCE",
+  "paraphrase": "OPEN analyst premise (the other direction): if y is simply prior to x, then x depends for its being on y and y does not so depend on x.",
+  "lean_declaration": "TruthCore.Causality.CausalMapsBatch1.PriorityRequiresNonmutualDependence",
+  "definition_ids": [
+    "DEF-SIMPLE-PRIORITY",
+    "DEF-DEPENDS-FOR-BEING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE"
+  ]
+}

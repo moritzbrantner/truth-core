@@ -1,0 +1,12 @@
+{
+  "id": "STMT-CAUSE-HAS-PERFECTION-NOT-AS-RECEIVED-IN-EFFECT",
+  "paraphrase": "OPEN analyst premise: if c, distinct from x, causes x's being r, then c's having r is not received in x. The fire's heat is not received in the wood it heats.",
+  "lean_declaration": "TruthCore.Causality.CausalMapsBatch1.CauseHasPerfectionNotAsReceivedInEffect",
+  "definition_ids": [
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-PERFECTION-RECEIVED-IN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE"
+  ]
+}

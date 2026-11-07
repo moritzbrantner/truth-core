@@ -35,6 +35,7 @@ public import TruthCore.Results.Causality.CausalConcreteRivals.SetScopeStrength.
 public import TruthCore.Results.Causality.CausalConcreteRivals.StructuralCoverage.Solution
 public import TruthCore.Results.Causality.CausalConcreteRivals.WorldTransfer.Solution
 public import TruthCore.Results.Causality.CausalHarvest.Solution
+public import TruthCore.Results.Causality.CausalMapsBatch1.Solution
 public import TruthCore.Results.Causality.CausalPowerConcretenessStrongToWeak.Solution
 public import TruthCore.Results.Causality.ChainInstantiation.Solution
 public import TruthCore.Results.Causality.ClassicalGodAssembly.Solution

@@ -1,0 +1,13 @@
+{
+  "id": "STMT-PERFECTION-LIMITED-ONLY-THROUGH-RECEPTION",
+  "paraphrase": "OPEN analyst generalization of ST I q.7 a.1 co.: for every y, perfection r and z, if y has r limited by z, then y's having r is received in z. The source reading (STMT-ESSE-LIMITED-ONLY-THROUGH-RECEPTION) is restricted to esse, and its claim records why Aquinas restricts it; extending it to every perfection is a contested analyst bridge.",
+  "lean_declaration": "TruthCore.Causality.CausalMapsBatch1.PerfectionLimitedOnlyThroughReception",
+  "definition_ids": [
+    "DEF-PERFECTION-RECEIVED-IN",
+    "DEF-PERFECTION-LIMITED-BY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSE-RECEPTION",
+    "DISAMB-ESSE-LIMITATION"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "STMT-EFFICIENT-CAUSE-NOT-DEPENDENT-ON-EFFECT",
+  "paraphrase": "OPEN analyst premise: an efficient cause does not depend for its being on what it efficiently causes.",
+  "lean_declaration": "TruthCore.Causality.CausalMapsBatch1.EfficientCauseNotDependentOnEffect",
+  "definition_ids": [
+    "DEF-EFFICIENT-CAUSING",
+    "DEF-DEPENDS-FOR-BEING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE"
+  ]
+}

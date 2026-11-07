@@ -1,0 +1,14 @@
+{
+  "id": "STMT-SELF-MOVER-MOVES-BY-A-DISTINCT-PART",
+  "paraphrase": "OPEN analyst reading of Physics VIII.4-5: whatever moves itself in a respect does so by a part, distinct from the whole, that moves the whole in that respect.",
+  "lean_declaration": "TruthCore.Causality.CausalMapsBatch1.SelfMoverMovesByADistinctPart",
+  "definition_ids": [
+    "DEF-SELF-MOTION-ARISTOTLE",
+    "DEF-MOVER-PART",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-SELF-MOTION",
+    "DISAMB-MOTION"
+  ]
+}

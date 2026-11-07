@@ -1,0 +1,10 @@
+{
+  "id": "CAUSAL-MAPS-BATCH1-CONTROLS",
+  "argument_id": "CAUSAL-MAPS-BATCH1-CONTROLS",
+  "challenge_module": "TruthCore.Results.Causality.CausalMapsBatch1.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CausalMapsBatch1.Solution",
+  "theorem": "TruthCore.Results.Causality.CausalMapsBatch1.controls",
+  "comparator_config": "results/CAUSAL-MAPS-BATCH1-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Finite interpretations for the seven derivations of causal maps batch 1: for each premise other than excluded middle, one model (from scripts/countermodel.py, checked by decide) in which the other premises hold and the conclusion fails, and one joint model with nonempty causing, moving, self-moving and efficient-causing relations in which every premise and conclusion of the batch holds. Satisfiability and omission only; no model is claimed to describe reality."
+}

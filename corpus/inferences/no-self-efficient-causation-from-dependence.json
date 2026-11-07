@@ -1,0 +1,12 @@
+{
+  "id": "INF-NO-SELF-EFFICIENT-CAUSATION-FROM-DEPENDENCE",
+  "input_statement_ids": [
+    "STMT-EFFECT-DEPENDS-FOR-BEING-ON-EFFICIENT-CAUSE",
+    "STMT-EFFICIENT-CAUSE-NOT-DEPENDENT-ON-EFFECT"
+  ],
+  "output_statement_id": "STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF",
+  "rule": "Reductio",
+  "meaning": "A second route to 'nothing is its own efficient cause' that bypasses priority: a self-cause would depend for its being on itself (as effect) and not depend on itself (as cause).",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

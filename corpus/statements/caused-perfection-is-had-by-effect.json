@@ -1,0 +1,12 @@
+{
+  "id": "STMT-CAUSED-PERFECTION-IS-HAD-BY-EFFECT",
+  "paraphrase": "OPEN analyst premise: a caused perfection is had by its effect. If c causes x's being r, then x is r in act.",
+  "lean_declaration": "TruthCore.Causality.CausalMapsBatch1.CausedPerfectionIsHad",
+  "definition_ids": [
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-ACT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT"
+  ]
+}

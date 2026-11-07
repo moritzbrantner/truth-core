@@ -1,0 +1,13 @@
+{
+  "id": "STMT-CAUSE-OF-BEING-HAS-WHAT-IT-GIVES",
+  "paraphrase": "Weak, cause-of-being version of STMT-CAUSE-HAS-WHAT-IT-GIVES: whatever causes a thing's being (esse) has every perfection it causes in that thing.",
+  "lean_declaration": "TruthCore.Causality.CausalMapsBatch1.CauseOfBeingHasWhatItGives",
+  "definition_ids": [
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-ACT",
+    "DEF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT"
+  ]
+}
