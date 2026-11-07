@@ -1,0 +1,10 @@
+{
+  "id": "ROUND3-CHRIST-CHURCH-ALL-COMMISSION-REPORTS-ENTAIL-TWO",
+  "argument_id": "ROUND3-CHRIST-CHURCH-ALL-COMMISSION-REPORTS-ENTAIL-TWO",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.allCommissionReportsEntailTwo",
+  "comparator_config": "results/ROUND3-CHRIST-CHURCH-ALL-COMMISSION-REPORTS-ENTAIL-TWO/comparator.json",
+  "status": "solution-present",
+  "description": "Strength registration (not a route step): if all five reported commissions go back to Jesus, then Matthew 28's does and so does at least one governing one (Matthew 16's). Backs the strengthens relation from the all-reports statement to the two-report premise."
+}

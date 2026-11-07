@@ -1,0 +1,9 @@
+{
+  "id": "STMT-JESUS-FOUNDED-AT-MOST-ONE-VISIBLE-CHURCH",
+  "paraphrase": "OPEN (attribution deferred): any two visible societies with an authority structure that Jesus founded are the same society (identity through time, as in stage 6). Its rival is a plurality of Christ-founded visible bodies (branch theory).",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.Round3ChristChurch.JesusFoundedAtMostOneVisibleChurch",
+  "definition_ids": [
+    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY",
+    "DEF-SKELETON-OPEN-PREDICATES"
+  ]
+}

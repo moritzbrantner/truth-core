@@ -1,0 +1,10 @@
+{
+  "id": "ROUND3-CHRIST-CHURCH-RESURRECTION-CONFIRMS-MANDATE-FROM-RAISING",
+  "argument_id": "ROUND3-CHRIST-CHURCH-RESURRECTION-CONFIRMS-MANDATE-FROM-RAISING",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.resurrectionConfirmsMandateFromRaising",
+  "comparator_config": "results/ROUND3-CHRIST-CHURCH-RESURRECTION-CONFIRMS-MANDATE-FROM-RAISING/comparator.json",
+  "status": "solution-present",
+  "description": "If Jesus rose, a God with the classical attributes raised him; a God who raises one who claimed divine authority confirms that he holds a mandate from him. So, for any such God that reveals recognizably, if Jesus claimed divine authority and rose, that God confirms Jesus' mandate. The recognizability antecedent of the target is not used. Two open premises; each is needed."
+}

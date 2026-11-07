@@ -1,0 +1,16 @@
+{
+  "id": "ROUND3-CHRIST-CHURCH-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-ROUND3-CHRIST-CHURCH-CONTROLS",
+  "inference_ids": [
+    "INF-ROUND3-CHRIST-CHURCH-CONTROLS"
+  ],
+  "meaning": "Controls: a joint finite model of every premise and conclusion of the batch; and omission models for each premise of the nine route derivations (22 models).",
+  "definition_ids": [
+    "DEF-C381-TAUGHT-AS-REVEALED",
+    "DEF-COMMISSION-TESTIMONY",
+    "DEF-JESUS-SPEECH-EVENT",
+    "DEF-RAISED-BY",
+    "DEF-SOCIETY-HOLDS-COMMISSIONED-POWER"
+  ]
+}

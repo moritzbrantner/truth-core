@@ -1,0 +1,77 @@
+target = "STMT-JESUS-CLAIMED-DIVINE-AUTHORITY-AND-ROSE"
+
+[[node]]
+id = "STMT-JESUS-CLAIMED-DIVINE-AUTHORITY-AND-ROSE"
+
+[[node]]
+id = "STMT-PILOT-JESUS-CLAIMS"
+
+[[node]]
+id = "STMT-PILOT-ROSE"
+
+[[node]]
+id = "STMT-REPORTED-MARK-AFFIRMATIVE-ANSWER"
+
+[[node]]
+id = "STMT-REPORTED-MARK-SON-OF-MAN-PREDICTION"
+
+[[node]]
+id = "STMT-REPORTED-FORGIVENESS-AUTHORITY"
+
+[[node]]
+id = "STMT-REPORTED-PHIL-FORM-AND-EQUALITY"
+
+[[node]]
+id = "STMT-MARK-TRIAL-SAYINGS-GO-BACK-TO-JESUS"
+
+[[node]]
+id = "STMT-TRIAL-SELF-ASCRIPTION-IS-DIVINE-AUTHORITY-CLAIM"
+
+[[node]]
+id = "STMT-MARK-2-SAYING-GOES-BACK-TO-JESUS"
+
+[[node]]
+id = "STMT-MARK-2-SON-OF-MAN-IS-SELF-REFERENCE"
+
+[[node]]
+id = "STMT-SELF-ASCRIBED-FORGIVENESS-AUTHORITY-IS-DIVINE-AUTHORITY-CLAIM"
+
+[[node]]
+id = "NEW-EARLY-HIGH-CHRISTOLOGY-EXPLAINED-ONLY-BY-JESUS-CLAIM"
+new = true
+text = "The early worship of Jesus as equal with God (Philippians 2.6) is best explained only if Jesus himself claimed divine authority."
+
+[[edge]]
+premises = ["STMT-REPORTED-MARK-AFFIRMATIVE-ANSWER", "STMT-REPORTED-MARK-SON-OF-MAN-PREDICTION", "STMT-MARK-TRIAL-SAYINGS-GO-BACK-TO-JESUS", "STMT-TRIAL-SELF-ASCRIPTION-IS-DIVINE-AUTHORITY-CLAIM"]
+conclusion = "STMT-PILOT-JESUS-CLAIMS"
+kind = "derivation"
+status = "certified"
+note = "ROUND3-CHRIST-CHURCH-PILOT-CLAIMS-FROM-MARK-TRIAL: report -> event (open historicity bridge) -> interpretation (open; rival: delegated messianic reading). Omission models in ROUND3-CHRIST-CHURCH-CONTROLS."
+
+[[edge]]
+premises = ["STMT-REPORTED-FORGIVENESS-AUTHORITY", "STMT-MARK-2-SAYING-GOES-BACK-TO-JESUS", "STMT-MARK-2-SON-OF-MAN-IS-SELF-REFERENCE", "STMT-SELF-ASCRIBED-FORGIVENESS-AUTHORITY-IS-DIVINE-AUTHORITY-CLAIM"]
+conclusion = "STMT-PILOT-JESUS-CLAIMS"
+kind = "derivation"
+status = "certified"
+note = "ROUND3-CHRIST-CHURCH-PILOT-CLAIMS-FROM-MARK-FORGIVENESS: second route through Mark 2.10 (rival: delegated-agency reading)."
+
+[[edge]]
+premises = ["STMT-REPORTED-MARK-AFFIRMATIVE-ANSWER", "STMT-REPORTED-MARK-SON-OF-MAN-PREDICTION", "STMT-MARK-TRIAL-SAYINGS-GO-BACK-TO-JESUS", "STMT-TRIAL-SELF-ASCRIPTION-IS-DIVINE-AUTHORITY-CLAIM", "STMT-PILOT-ROSE"]
+conclusion = "STMT-JESUS-CLAIMED-DIVINE-AUTHORITY-AND-ROSE"
+kind = "derivation"
+status = "certified"
+note = "ROUND3-CHRIST-CHURCH-STAGE-FOUR-FROM-MARK-TRIAL: stage 4 with the claim conjunct derived, not assembled; the rising stays the pilot's open premise."
+
+[[edge]]
+premises = ["STMT-PILOT-JESUS-CLAIMS", "STMT-PILOT-ROSE"]
+conclusion = "STMT-JESUS-CLAIMED-DIVINE-AUTHORITY-AND-ROSE"
+kind = "derivation"
+status = "certified"
+note = "Existing BRIDGE-STAGE-FOUR-FROM-RESURRECTION-PILOT (transcription: assembly of the two conjuncts)."
+
+[[edge]]
+premises = ["STMT-REPORTED-PHIL-FORM-AND-EQUALITY", "NEW-EARLY-HIGH-CHRISTOLOGY-EXPLAINED-ONLY-BY-JESUS-CLAIM"]
+conclusion = "STMT-PILOT-JESUS-CLAIMS"
+kind = "derivation"
+status = "rejected"
+note = "Rejected (attempt ATTEMPT-ROUND3-CHRIST-CHURCH-20261107): Philippians 2.6 presents Paul's (or a hymn's) Christology, not a saying of Jesus; the bridge is an inference to the best explanation whose 'only' clause would carry the whole conclusion (a transcription), and the corpus has no typed vocabulary for explanatory adequacy of early belief. Kept as an unencoded lead."

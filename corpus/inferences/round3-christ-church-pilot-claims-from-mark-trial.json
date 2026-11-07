@@ -1,0 +1,14 @@
+{
+  "id": "INF-ROUND3-CHRIST-CHURCH-PILOT-CLAIMS-FROM-MARK-TRIAL",
+  "input_statement_ids": [
+    "STMT-REPORTED-MARK-AFFIRMATIVE-ANSWER",
+    "STMT-REPORTED-MARK-SON-OF-MAN-PREDICTION",
+    "STMT-MARK-TRIAL-SAYINGS-GO-BACK-TO-JESUS",
+    "STMT-TRIAL-SELF-ASCRIPTION-IS-DIVINE-AUTHORITY-CLAIM"
+  ],
+  "output_statement_id": "STMT-PILOT-JESUS-CLAIMS",
+  "rule": "Report to event to interpretation",
+  "meaning": "Mark 14 attributes to Jesus the self-ascription as Son of the Blessed and the prediction of the Son of Man's session at the right of Power; by the open historicity bridge, Jesus himself said both; by the open interpretation bridge, saying both is claiming divine authority. So Jesus claimed divine authority. Two textual premises and two open bridges; each is needed (omission models in ROUND3-CHRIST-CHURCH-CONTROLS). The syntactic single-application heuristic flags this proof (its last step applies the interpretation bridge); by logical shape (#1214) it is a chain through the distinct middle term Speech.trialSaid, which only the report-to-event bridge supplies, so no premise states the conclusion. Not rewritten to evade the heuristic.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

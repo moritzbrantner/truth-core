@@ -1,0 +1,10 @@
+{
+  "id": "ROUND3-CHRIST-CHURCH-STAGE-FOUR-FROM-MARK-TRIAL",
+  "argument_id": "ROUND3-CHRIST-CHURCH-STAGE-FOUR-FROM-MARK-TRIAL",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.stageFourFromMarkTrial",
+  "comparator_config": "results/ROUND3-CHRIST-CHURCH-STAGE-FOUR-FROM-MARK-TRIAL/comparator.json",
+  "status": "solution-present",
+  "description": "Stage 4 through the Mark 14 route: the claim conjunct is derived from the two Mark 14 reports through the historicity and interpretation bridges; the rising conjunct is the pilot's open premise STMT-PILOT-ROSE. Each of the five premises is needed (omission models in ROUND3-CHRIST-CHURCH-CONTROLS)."
+}

@@ -41,3 +41,4 @@ public import TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundar
 public import TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Scope.Solution
 public import TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.ScopeModels.Solution
 public import TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.StrengthModels.Solution
+public import TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.Solution

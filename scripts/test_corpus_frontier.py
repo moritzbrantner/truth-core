@@ -1202,7 +1202,14 @@ class FrontierCorpusTest(unittest.TestCase):
         self.assertTrue(explicit_inputs <= ids)
         self.assertTrue(explicit_inputs <= set(report["reaching_root_statements"]))
         self.assertFalse(explicit_inputs & set(report["established_statements"]))
-        self.assertIn("STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS", ids)
+        # Round 3 (#1216) derives the commission-reports premise from two open
+        # inputs; it is proved, not established, and its inputs stay open.
+        commission = "STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS"
+        self.assertIn(commission, report["reaching_root_statements"])
+        self.assertEqual(report["closed_statements"].get(commission), "proved")
+        self.assertNotIn(commission, report["established_statements"])
+        self.assertIn("STMT-MT28-AND-JN21-REST-ON-TESTIMONY", ids)
+        self.assertIn("STMT-TESTIMONY-OF-THOSE-PRESENT-IS-ACCURATE", ids)
         self.assertIn("STMT-CHURCH-FOUNDED-IN-COMMISSIONED-APOSTLES", ids)
         # The designated root route (root_route, #143 2026-10-24) takes stage 1
         # through the fuller nominal definition, so the bare identification
@@ -1217,7 +1224,7 @@ class FrontierCorpusTest(unittest.TestCase):
         counts = report["depth_counts"]
         self.assertEqual(counts["bare"] + counts["supported"] + counts["stated"], report["open_premise_count"])
         depths = {item["statement_id"]: item["depth"] for item in report["items"]}
-        self.assertIn(depths["STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS"], ("supported", "stated"))
+        self.assertIn(depths["STMT-MT28-AND-JN21-REST-ON-TESTIMONY"], ("supported", "stated", "bare"))
         # #145: the prima via's regress premise is derived from the secunda via's.
         self.assertNotIn("STMT-NO-INFINITE-PER-SE-MOVER-SERIES", depths)
         # #367: the finite-ancestry route expanded efficient-cause regress

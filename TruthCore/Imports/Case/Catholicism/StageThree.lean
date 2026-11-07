@@ -10,3 +10,4 @@ public import TruthCore.Case.Catholicism.StageThree.FoundingDefinitions
 public import TruthCore.Case.Catholicism.StageThree.FoundingScope
 public import TruthCore.Case.Catholicism.StageThree.FoundingWeakScope
 public import TruthCore.Case.Catholicism.StageThree.MessageReportBoundary
+public import TruthCore.Case.Catholicism.StageThree.Round3ChristChurch

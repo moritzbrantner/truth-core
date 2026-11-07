@@ -1,0 +1,13 @@
+{
+  "id": "STMT-TRIAL-SELF-ASCRIPTION-IS-DIVINE-AUTHORITY-CLAIM",
+  "paraphrase": "OPEN interpretation bridge (attribution deferred): if Jesus himself affirmed that he is the Son of the Blessed and predicted that his hearers would see the Son of Man seated at the right of Power, he thereby claimed divine authority (the skeleton predicate). It takes the two sayings together and reads the Son of Man of the prediction as Jesus himself. Its rival, the delegated messianic reading, denies it.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.Round3ChristChurch.TrialSelfAscriptionIsDivineAuthorityClaim",
+  "definition_ids": [
+    "DEF-JESUS-SPEECH-EVENT",
+    "DEF-MARK-HIGH-PRIEST-EXCHANGE",
+    "DEF-SKELETON-OPEN-PREDICATES"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MARK-HIGH-PRIEST-EXCHANGE"
+  ]
+}
