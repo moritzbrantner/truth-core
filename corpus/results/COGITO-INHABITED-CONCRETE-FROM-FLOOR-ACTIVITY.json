@@ -1,0 +1,10 @@
+{
+  "id": "COGITO-INHABITED-CONCRETE-FROM-FLOOR-ACTIVITY",
+  "argument_id": "COGITO-INHABITED-CONCRETE-FROM-FLOOR-ACTIVITY",
+  "challenge_module": "TruthCore.Results.Causality.RootWiring.Challenge",
+  "solution_module": "TruthCore.Results.Causality.RootWiring.Solution",
+  "theorem": "TruthCore.Results.Causality.RootWiring.inhabitedFromFloorActivity",
+  "comparator_config": "results/COGITO-INHABITED-CONCRETE-FROM-FLOOR-ACTIVITY/comparator.json",
+  "status": "solution-present",
+  "description": "Some concrete candidate exists at w, by the existing Round 4 activity derivation (inhabitedFromProduction, imported and applied), with the owner-approved floor commitment STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS (capacity and activity clauses at the same w, on the same Causes and concrete) supplying the activity clause that the old argument took as the bare premise STMT-CAUSERS-REQUIRE-CONCRETENESS-AT. The other five premises are unchanged and remain OPEN; the contested production of an inner word (STMT-INTELLECTUAL-EXERCISE-PRODUCES-AT) is still required. It does not establish the floor commitment, which rests on its owner approval, and it says nothing about what concreteness is beyond the supplied predicate."
+}
