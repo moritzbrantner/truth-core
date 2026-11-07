@@ -1,0 +1,317 @@
+[batch]
+vocab = "TruthCore.Case.Catholicism.StageThree.Round3ChristChurch"
+results = "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch"
+
+# ---- Stage 4: Jesus' claim ----
+
+[[statement]]
+id = "STMT-MARK-TRIAL-SAYINGS-GO-BACK-TO-JESUS"
+lean = "MarkTrialSayingsGoBackToJesus"
+paraphrase = "OPEN report-to-event bridge (attribution deferred): whatever Mark's narrative of the hearing before the high priest attributes to Jesus, Jesus himself said. A historicity premise about one scene; it does not classify what was said."
+definitions = ["DEF-JESUS-SPEECH-EVENT", "DEF-MARK-HIGH-PRIEST-EXCHANGE"]
+disambiguations = ["DISAMB-MARK-HIGH-PRIEST-EXCHANGE"]
+
+[[statement]]
+id = "STMT-TRIAL-SELF-ASCRIPTION-IS-DIVINE-AUTHORITY-CLAIM"
+lean = "TrialSelfAscriptionIsDivineAuthorityClaim"
+paraphrase = "OPEN interpretation bridge (attribution deferred): if Jesus himself affirmed that he is the Son of the Blessed and predicted that his hearers would see the Son of Man seated at the right of Power, he thereby claimed divine authority (the skeleton predicate). It takes the two sayings together and reads the Son of Man of the prediction as Jesus himself. Its rival, the delegated messianic reading, denies it."
+definitions = ["DEF-JESUS-SPEECH-EVENT", "DEF-MARK-HIGH-PRIEST-EXCHANGE", "DEF-SKELETON-OPEN-PREDICATES"]
+disambiguations = ["DISAMB-MARK-HIGH-PRIEST-EXCHANGE"]
+
+[[statement]]
+id = "STMT-MARK-2-SAYING-GOES-BACK-TO-JESUS"
+lean = "Mark2SayingGoesBackToJesus"
+paraphrase = "OPEN report-to-event bridge (attribution deferred): whatever authority assertion the Mark 2 narrative attributes to Jesus, Jesus himself made."
+definitions = ["DEF-JESUS-SPEECH-EVENT", "DEF-MARK-FORGIVENESS-AUTHORITY-REPORT"]
+disambiguations = ["DISAMB-MARK-FORGIVENESS-AUTHORITY"]
+
+[[statement]]
+id = "STMT-MARK-2-SON-OF-MAN-IS-SELF-REFERENCE"
+lean = "Mark2SonOfManIsSelfReference"
+paraphrase = "OPEN reference bridge (attribution deferred): in asserting the authority of the Son of Man (Mark 2.10), Jesus used the title of himself. Only that saying is meant; no cross-passage identity of the title is asserted."
+definitions = ["DEF-JESUS-SPEECH-EVENT", "DEF-MARK-FORGIVENESS-AUTHORITY-REPORT"]
+disambiguations = ["DISAMB-MARK-FORGIVENESS-AUTHORITY"]
+
+[[statement]]
+id = "STMT-SELF-ASCRIBED-FORGIVENESS-AUTHORITY-IS-DIVINE-AUTHORITY-CLAIM"
+lean = "SelfAscribedForgivenessAuthorityIsDivineAuthorityClaim"
+paraphrase = "OPEN interpretation bridge (attribution deferred): if Jesus asserted, of a title he used of himself, authority to forgive sins on earth, he claimed divine authority. Its rival, the delegated-agency reading of Mark 2.10, takes the assertion as a claim to authority given to a human agent, not divine authority."
+definitions = ["DEF-JESUS-SPEECH-EVENT", "DEF-MARK-FORGIVENESS-AUTHORITY-REPORT", "DEF-SKELETON-OPEN-PREDICATES"]
+disambiguations = ["DISAMB-MARK-FORGIVENESS-AUTHORITY"]
+
+# ---- Attestation ----
+
+[[statement]]
+id = "STMT-JESUS-RAISED-BY-GOD-IF-ROSE"
+lean = "JesusRaisedByGodIfRose"
+paraphrase = "OPEN (attribution deferred): if Jesus rose from the dead, every God with the classical attributes raised him (a resurrection exceeds created power and, given a God, is his act). Its rival grants the rising but denies divine agency."
+definitions = ["DEF-RAISED-BY", "DEF-GOD-OF-CLASSICAL-THEISM", "DEF-SKELETON-OPEN-PREDICATES"]
+disambiguations = []
+
+[[statement]]
+id = "STMT-RAISING-A-CLAIMANT-CONFIRMS-HIS-MANDATE"
+lean = "RaisingAClaimantConfirmsHisMandate"
+paraphrase = "OPEN (attribution deferred): if a God raised Jesus and Jesus had claimed divine authority, that God, by raising him, confirms (as a testimonial sign) that Jesus holds a mandate from him. The step from the claim to the mandate is part of this premise."
+definitions = ["DEF-RAISED-BY", "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY", "DEF-SKELETON-OPEN-PREDICATES"]
+disambiguations = []
+
+# ---- Commission reports ----
+
+[[statement]]
+id = "STMT-MT28-AND-JN21-REST-ON-TESTIMONY"
+lean = "Mt28AndJn21RestOnTestimony"
+paraphrase = "OPEN historical premise (attribution deferred): the commission reports of Matthew 28.18-20 and John 21.15-17 rest on the testimony of disciples present when the commission was given. Only the two reports needed are named."
+definitions = ["DEF-COMMISSION-TESTIMONY", "DEF-COMMISSION-REPORT-POWERS"]
+disambiguations = []
+
+[[statement]]
+id = "STMT-TESTIMONY-OF-THOSE-PRESENT-IS-ACCURATE"
+lean = "TestimonyOfThosePresentIsAccurate"
+paraphrase = "OPEN reliability premise (attribution deferred): a commission report that rests on the testimony of those present goes back to Jesus: he gave (or promised) each power it names. Its rival is the form-critical view that commission sayings are community formations."
+definitions = ["DEF-COMMISSION-TESTIMONY", "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER", "DEF-COMMISSION-REPORT-POWERS"]
+disambiguations = []
+
+[[statement]]
+id = "STMT-ALL-COMMISSION-REPORTS-GO-BACK-TO-JESUS"
+lean = "TruthCore.Case.Catholicism.StageThree.Commissions.AllCommissionReportsGoBackToJesus"
+paraphrase = "Every one of the five reported commissions (Matthew 16.18-19, 18.17-18, 28.18-20; John 20.21-23, 21.15-17) goes back to Jesus: he gave (or promised) each power each report names. The strong version of STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS; not a premise of any route."
+definitions = ["DEF-COMMISSION-EVENT-AND-GOVERNING-POWER", "DEF-COMMISSION-REPORT-POWERS"]
+disambiguations = []
+
+# ---- Stage 5 ----
+
+[[statement]]
+id = "STMT-GOVERNING-GIFT-CONSTITUTES-FOUNDED-SOCIETY"
+lean = "GoverningGiftConstitutesFoundedSociety"
+paraphrase = "OPEN (attribution deferred): if Jesus gave (or promised) a governing power, there is a society that he founded and that holds that power. Its rival is the purely personal or charismatic reading of the commissions (powers given to individuals, no society founded)."
+definitions = ["DEF-SOCIETY-HOLDS-COMMISSIONED-POWER", "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER", "DEF-SKELETON-OPEN-PREDICATES"]
+disambiguations = []
+
+[[statement]]
+id = "STMT-HOLDER-OF-GIVEN-GOVERNING-POWER-IS-CHURCH"
+lean = "HolderOfGivenGoverningPowerIsChurch"
+paraphrase = "OPEN calibration premise (attribution deferred): a society that holds a governing power given in Jesus' commission is a Church in the selected sense. A sufficient condition, not a definition of the selected Church predicate."
+definitions = ["DEF-SOCIETY-HOLDS-COMMISSIONED-POWER", "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER", "DEF-CHURCH-CRITERION-CALIBRATION"]
+disambiguations = []
+
+# ---- Stage 6 ----
+
+[[statement]]
+id = "STMT-JESUS-FOUNDED-AT-MOST-ONE-VISIBLE-CHURCH"
+lean = "JesusFoundedAtMostOneVisibleChurch"
+paraphrase = "OPEN (attribution deferred): any two visible societies with an authority structure that Jesus founded are the same society (identity through time, as in stage 6). Its rival is a plurality of Christ-founded visible bodies (branch theory)."
+definitions = ["DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY", "DEF-SKELETON-OPEN-PREDICATES"]
+disambiguations = []
+
+[[statement]]
+id = "STMT-CATHOLIC-CHURCH-IS-JESUS-FOUNDED-VISIBLE-SOCIETY"
+lean = "CatholicChurchIsJesusFoundedVisibleSociety"
+paraphrase = "OPEN (attribution deferred): the Catholic Church is a visible society with an authority structure that Jesus founded (continuity of the society with the one Jesus founded). Its rivals deny the continuity (rupture or refounding)."
+definitions = ["DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY", "DEF-SKELETON-OPEN-PREDICATES", "DEF-CATHOLIC-CHURCH-PROPOSAL-SUBJECT"]
+disambiguations = []
+
+# ---- Creed ----
+
+[[statement]]
+id = "STMT-C381-TAUGHT-EACH-ARTICLE-AS-REVEALED"
+lean = "C381TaughtEachArticleAsRevealed"
+paraphrase = "OPEN (attribution deferred): the Council of Constantinople (381), in its creed, taught each of the twelve Creed articles (Greek 381 contents) as belonging to the revealed faith."
+definitions = ["DEF-C381-TAUGHT-AS-REVEALED", "DEF-CREED-GREEK-C381-CONTENT"]
+disambiguations = ["DISAMB-CREED-CONTENT-AND-FORMULA"]
+
+[[statement]]
+id = "STMT-CATHOLIC-CHURCH-PROPOSES-WHAT-C381-TAUGHT"
+lean = "CatholicChurchProposesWhatC381Taught"
+paraphrase = "OPEN (attribution deferred): whatever the Council of Constantinople (381) taught in its creed as revealed, the Catholic Church definitively proposes as divinely revealed (it receives the council as ecumenical and its creed as normative)."
+definitions = ["DEF-C381-TAUGHT-AS-REVEALED", "DEF-DEFINITIVELY-PROPOSES-AS-REVEALED", "DEF-CATHOLIC-CHURCH-PROPOSAL-SUBJECT"]
+disambiguations = ["DISAMB-CREED-CONTENT-AND-FORMULA"]
+
+[[statement]]
+id = "STMT-ROUND3-CHRIST-CHURCH-CONTROLS"
+lean = "Control.Certificate"
+paraphrase = "Controls of the round-3 Christ-and-Church batch: one finite model in which every premise and conclusion of the batch holds (a God, Jesus' claim and rising, the Catholic Church founded by Jesus, every Creed article proposed); and, for each premise of each of the nine route derivations, a finite model of the other premises in which the conclusion fails (22 models). Formal-schema models only."
+definitions = ["DEF-JESUS-SPEECH-EVENT", "DEF-RAISED-BY", "DEF-COMMISSION-TESTIMONY", "DEF-SOCIETY-HOLDS-COMMISSIONED-POWER", "DEF-C381-TAUGHT-AS-REVEALED"]
+disambiguations = []
+
+# ---- Arguments ----
+
+[[argument]]
+id = "ROUND3-CHRIST-CHURCH-PILOT-CLAIMS-FROM-MARK-TRIAL"
+theorem = "pilotClaimsFromMarkTrial"
+premises = ["STMT-REPORTED-MARK-AFFIRMATIVE-ANSWER", "STMT-REPORTED-MARK-SON-OF-MAN-PREDICTION", "STMT-MARK-TRIAL-SAYINGS-GO-BACK-TO-JESUS", "STMT-TRIAL-SELF-ASCRIPTION-IS-DIVINE-AUTHORITY-CLAIM"]
+conclusion = "STMT-PILOT-JESUS-CLAIMS"
+rule = "Report to event to interpretation"
+meaning = "Mark 14 attributes to Jesus the self-ascription as Son of the Blessed and the prediction of the Son of Man's session at the right of Power; by the open historicity bridge, Jesus himself said both; by the open interpretation bridge, saying both is claiming divine authority. So Jesus claimed divine authority. Two textual premises and two open bridges; each is needed (omission models in ROUND3-CHRIST-CHURCH-CONTROLS). The syntactic single-application heuristic flags this proof (its last step applies the interpretation bridge); by logical shape (#1214) it is a chain through the distinct middle term Speech.trialSaid, which only the report-to-event bridge supplies, so no premise states the conclusion. Not rewritten to evade the heuristic."
+
+[[argument]]
+id = "ROUND3-CHRIST-CHURCH-STAGE-FOUR-FROM-MARK-TRIAL"
+theorem = "stageFourFromMarkTrial"
+premises = ["STMT-REPORTED-MARK-AFFIRMATIVE-ANSWER", "STMT-REPORTED-MARK-SON-OF-MAN-PREDICTION", "STMT-MARK-TRIAL-SAYINGS-GO-BACK-TO-JESUS", "STMT-TRIAL-SELF-ASCRIPTION-IS-DIVINE-AUTHORITY-CLAIM", "STMT-PILOT-ROSE"]
+conclusion = "STMT-JESUS-CLAIMED-DIVINE-AUTHORITY-AND-ROSE"
+rule = "Report to event to interpretation, with the rising"
+meaning = "Stage 4 through the Mark 14 route: the claim conjunct is derived from the two Mark 14 reports through the historicity and interpretation bridges; the rising conjunct is the pilot's open premise STMT-PILOT-ROSE. Each of the five premises is needed (omission models in ROUND3-CHRIST-CHURCH-CONTROLS)."
+
+[[argument]]
+id = "ROUND3-CHRIST-CHURCH-PILOT-CLAIMS-FROM-MARK-FORGIVENESS"
+theorem = "pilotClaimsFromMarkForgiveness"
+premises = ["STMT-REPORTED-FORGIVENESS-AUTHORITY", "STMT-MARK-2-SAYING-GOES-BACK-TO-JESUS", "STMT-MARK-2-SON-OF-MAN-IS-SELF-REFERENCE", "STMT-SELF-ASCRIBED-FORGIVENESS-AUTHORITY-IS-DIVINE-AUTHORITY-CLAIM"]
+conclusion = "STMT-PILOT-JESUS-CLAIMS"
+rule = "Report to event to interpretation"
+meaning = "A second route to Jesus' claim: Mark 2.10 attributes to Jesus the Son of Man's authority to forgive sins on earth; by open bridges, Jesus himself made the assertion, used the title of himself, and so claimed divine authority. Each of the four premises is needed (omission models in ROUND3-CHRIST-CHURCH-CONTROLS). The syntactic single-application heuristic flags this proof (its last step applies the interpretation bridge); by logical shape (#1214) it is a chain through the distinct middle term Speech.assertedAuthority, which only the report-to-event bridge supplies, so no premise states the conclusion. Not rewritten to evade the heuristic."
+
+[[argument]]
+id = "ROUND3-CHRIST-CHURCH-RESURRECTION-CONFIRMS-MANDATE-FROM-RAISING"
+theorem = "resurrectionConfirmsMandateFromRaising"
+premises = ["STMT-JESUS-RAISED-BY-GOD-IF-ROSE", "STMT-RAISING-A-CLAIMANT-CONFIRMS-HIS-MANDATE"]
+conclusion = "STMT-RESURRECTION-CONFIRMS-JESUS-MANDATE"
+rule = "Attestation through the agent of the raising"
+meaning = "If Jesus rose, a God with the classical attributes raised him; a God who raises one who claimed divine authority confirms that he holds a mandate from him. So, for any such God that reveals recognizably, if Jesus claimed divine authority and rose, that God confirms Jesus' mandate. The recognizability antecedent of the target is not used. Two open premises; each is needed."
+
+[[argument]]
+id = "ROUND3-CHRIST-CHURCH-COMMISSION-REPORTS-FROM-TESTIMONY"
+theorem = "commissionReportsFromTestimony"
+premises = ["STMT-MT28-AND-JN21-REST-ON-TESTIMONY", "STMT-TESTIMONY-OF-THOSE-PRESENT-IS-ACCURATE"]
+conclusion = "STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS"
+rule = "Reliability of testimony of those present"
+meaning = "Matthew 28.18-20 and John 21.15-17 rest on the testimony of those present, and such testimony is accurate; so both commissions go back to Jesus, and John 21's (shepherding) is one of the four governing reports. Two open premises; each is needed."
+
+[[argument]]
+id = "ROUND3-CHRIST-CHURCH-ALL-COMMISSION-REPORTS-ENTAIL-TWO"
+theorem = "allCommissionReportsEntailTwo"
+premises = ["STMT-ALL-COMMISSION-REPORTS-GO-BACK-TO-JESUS"]
+conclusion = "STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS"
+rule = "Instantiation of the strong version"
+meaning = "Strength registration (not a route step): if all five reported commissions go back to Jesus, then Matthew 28's does and so does at least one governing one (Matthew 16's). Backs the strengthens relation from the all-reports statement to the two-report premise."
+
+[[argument]]
+id = "ROUND3-CHRIST-CHURCH-SELECTED-CHURCH-FROM-COMMISSION-REPORTS"
+theorem = "selectedChurchFromCommissionReports"
+premises = ["STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS", "STMT-GOVERNING-GIFT-CONSTITUTES-FOUNDED-SOCIETY", "STMT-HOLDER-OF-GIVEN-GOVERNING-POWER-IS-CHURCH"]
+conclusion = "STMT-CHRIST-FOUNDED-SELECTED-CHURCH"
+rule = "Founding through a governing commission"
+meaning = "One of the four governing reports goes back to Jesus, and each names a governing power (keys, judging as church, forgiving and retaining, shepherding), so Jesus gave a governing power; a governing gift constitutes a society Jesus founded that holds it; and such a holder is a Church in the selected sense. So Jesus founded a selected Church. Content-sensitive: it uses which powers the reports name. Each of the three premises is needed."
+
+[[argument]]
+id = "ROUND3-CHRIST-CHURCH-SELECTED-CHURCH-FROM-ATTESTATION"
+theorem = "selectedChurchFromAttestation"
+premises = ["STMT-JOHN-COMMISSION-INDEPENDENT-OF-MATTHEW", "STMT-HEAVEN-RATIFIED-ATTESTATION-CRITERION", "STMT-GOVERNING-GIFT-CONSTITUTES-FOUNDED-SOCIETY", "STMT-HOLDER-OF-GIVEN-GOVERNING-POWER-IS-CHURCH"]
+conclusion = "STMT-CHRIST-FOUNDED-SELECTED-CHURCH"
+rule = "Founding through a multiply attested governing power"
+meaning = "A route that needs no whole report to go back to Jesus: John 20's commission is independent of Matthew 18's or 16's, and by the attestation criterion Jesus gave some heaven-ratified power, which is governing; the founding and Church-calibration premises then give a selected Church founded by Jesus. Each of the four premises is needed."
+
+[[argument]]
+id = "ROUND3-CHRIST-CHURCH-CHRISTS-CHURCH-CATHOLIC-FROM-UNIQUENESS"
+theorem = "christsChurchIsCatholicFromUniqueness"
+premises = ["STMT-JESUS-FOUNDED-AT-MOST-ONE-VISIBLE-CHURCH", "STMT-CATHOLIC-CHURCH-IS-JESUS-FOUNDED-VISIBLE-SOCIETY"]
+conclusion = "STMT-CHRISTS-CHURCH-IS-THE-CATHOLIC-CHURCH"
+rule = "Uniqueness plus one instance"
+meaning = "Jesus founded at most one visible society with authority, and the Catholic Church is one he founded; so every visible society with authority he founded is the Catholic Church. Two open premises; each is needed (branch-theory and rupture models in ROUND3-CHRIST-CHURCH-CONTROLS)."
+
+[[argument]]
+id = "ROUND3-CHRIST-CHURCH-CREED-PROPOSED-FROM-C381"
+theorem = "creedProposedFromC381"
+premises = ["STMT-C381-TAUGHT-EACH-ARTICLE-AS-REVEALED", "STMT-CATHOLIC-CHURCH-PROPOSES-WHAT-C381-TAUGHT"]
+conclusion = "STMT-CATHOLIC-CHURCH-DEFINITIVELY-PROPOSES-CREED"
+rule = "Reception of a conciliar creed"
+meaning = "The Council of Constantinople (381) taught each Creed article as revealed, and the Catholic Church definitively proposes whatever that council taught as revealed; so it definitively proposes each article. Two open premises; each is needed."
+
+[[argument]]
+id = "ROUND3-CHRIST-CHURCH-CONTROLS"
+theorem = "controls"
+premises = []
+conclusion = "STMT-ROUND3-CHRIST-CHURCH-CONTROLS"
+rule = "Explicit finite interpretations"
+meaning = "Controls: a joint finite model of every premise and conclusion of the batch; and omission models for each premise of the nine route derivations (22 models)."
+
+# ---- Relations ----
+
+[[relation]]
+id = "REL-ALL-COMMISSION-REPORTS-STRENGTHENS-COMMISSION-REPORTS"
+subject_kind = "statement"
+subject_id = "STMT-ALL-COMMISSION-REPORTS-GO-BACK-TO-JESUS"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS"
+verification_result_id = "ROUND3-CHRIST-CHURCH-ALL-COMMISSION-REPORTS-ENTAIL-TWO"
+note = "Every report going back entails Matthew 28's and one governing report's going back. Registers the order already stated in Commissions.all_reports_imply_commission_reports."
+
+[[relation]]
+id = "REL-DV-19-SUPPORTS-ALL-COMMISSION-REPORTS-GO-BACK"
+subject_kind = "claim"
+subject_id = "VATICAN-II-DV-19-GOSPELS-HAND-ON-WHAT-JESUS-DID-AND-TAUGHT"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-ALL-COMMISSION-REPORTS-GO-BACK-TO-JESUS"
+note = "Dei Verbum 19 asserts that the four Gospels faithfully hand on what Jesus really did and taught. Reading this as: every power named in each of the five commission reports was given (or promised) by Jesus, is the analyst's; the council speaks of the Gospels generally and of their substance, not of each named power."
+
+[[relation]]
+id = "REL-ACTS-2-SUPPORTS-JESUS-RAISED-BY-GOD-IF-ROSE"
+subject_kind = "claim"
+subject_id = "NT-ACTS-2-22-36-RESURRECTION-MAKES-KNOWN-LORD-AND-CHRIST"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-JESUS-RAISED-BY-GOD-IF-ROSE"
+note = "Acts reports Peter proclaiming that God raised Jesus. The conditional form (if Jesus rose, every God with the classical attributes raised him) and the exclusion of other agents are the analyst's; Acts reports a proclamation, not this principle."
+
+[[relation]]
+id = "REL-ACTS-2-SUPPORTS-RAISING-A-CLAIMANT-CONFIRMS-MANDATE"
+subject_kind = "claim"
+subject_id = "NT-ACTS-2-22-36-RESURRECTION-MAKES-KNOWN-LORD-AND-CHRIST"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-RAISING-A-CLAIMANT-CONFIRMS-HIS-MANDATE"
+note = "Acts reports Peter saying that the man God attested by signs and raised, God made Lord and Christ, so that all Israel should know it. Reading the raising as God's testimonial confirmation that Jesus holds a mandate from him, and conditioning it on Jesus' claim to divine authority, is the analyst's; Acts does not mention Jesus' own claim here."
+
+[[relation]]
+id = "REL-MATT-16-SUPPORTS-JESUS-FOUNDED-AT-MOST-ONE-VISIBLE-CHURCH"
+subject_kind = "claim"
+subject_id = "NT-MATT-16-18-19-CHURCH-ON-ROCK-KEYS-BINDING"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-JESUS-FOUNDED-AT-MOST-ONE-VISIBLE-CHURCH"
+note = "Matthew reports Jesus speaking of 'my ekklesia' in the singular. That Jesus founded at most one visible society with authority, and that societies are identified through time, are the analyst's; the report is a promise ('I will build') and says nothing about other societies."
+
+[[relation]]
+id = "REL-MATT-16-SUPPORTS-GOVERNING-GIFT-CONSTITUTES-FOUNDED-SOCIETY"
+subject_kind = "claim"
+subject_id = "NT-MATT-16-18-19-CHURCH-ON-ROCK-KEYS-BINDING"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-GOVERNING-GIFT-CONSTITUTES-FOUNDED-SOCIETY"
+note = "In Matthew 16.18-19 the promise of the keys and of binding and loosing is joined to the promise to build 'my ekklesia'. The general principle that any governing gift constitutes a society Jesus founded that holds the power is the analyst's."
+
+[[relation]]
+id = "REL-DEI-FILIUS-INSTITUTED-SUPPORTS-CATHOLIC-CHURCH-JESUS-FOUNDED"
+subject_kind = "claim"
+subject_id = "VATICAN-I-DEI-FILIUS-CH3-CHURCH-GOD-FOUNDED-TEACHER"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-CATHOLIC-CHURCH-IS-JESUS-FOUNDED-VISIBLE-SOCIETY"
+note = "Dei Filius ch. 3 says God instituted the Church through his only-begotten Son, as guardian and teacher of the revealed word. Reading 'through the Son' as Jesus' founding act, and the instituted Church as the Catholic Church as a visible society with authority, is the analyst's reading of the encoded statement."
+
+[[relation]]
+id = "REL-CDF-1998-SUPPORTS-CATHOLIC-CHURCH-PROPOSES-WHAT-C381-TAUGHT"
+subject_kind = "claim"
+subject_id = "CDF-1998-CREED-PROPOSED-AS-REVEALED"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-CATHOLIC-CHURCH-PROPOSES-WHAT-C381-TAUGHT"
+note = "The CDF commentary classifies the Creed articles of the Catholic profession as teaching proposed as formally revealed. The profession formula is not the Greek 381 text (DISAMB-CREED-CONTENT-AND-FORMULA), and the general rule that the Church definitively proposes whatever the 381 council taught as revealed is the analyst's."
+
+[[relation]]
+id = "REL-C381-RECEPTION-SUPPORTS-CATHOLIC-CHURCH-PROPOSES-WHAT-C381-TAUGHT"
+subject_kind = "claim"
+subject_id = "DPCU-WCC-2025-GREEK-C381-RECEPTION"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-CATHOLIC-CHURCH-PROPOSES-WHAT-C381-TAUGHT"
+note = "The 2025 statement acknowledges the Greek Symbol of 381 as an ecumenical, normative and irrevocable expression of the common faith. That this normativity is definitive proposal as divinely revealed of everything the council taught is the analyst's step."
+
+[[relation]]
+id = "REL-CREED-C381-ART-01-SUPPORTS-C381-TAUGHT-EACH-ARTICLE"
+subject_kind = "claim"
+subject_id = "CREED-C381-ART-01"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-C381-TAUGHT-EACH-ARTICLE-AS-REVEALED"
+note = "Article 1 opens with 'we believe' (Pisteuomen), which governs the whole creed. That the council thereby taught each article as revealed, rather than professed it, is the analyst's reading; only article 1's claim is cited."

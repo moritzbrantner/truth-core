@@ -1,0 +1,18 @@
+{
+  "id": "ROUND3-CHRIST-CHURCH-RESURRECTION-CONFIRMS-MANDATE-FROM-RAISING",
+  "premise_statement_ids": [
+    "STMT-JESUS-RAISED-BY-GOD-IF-ROSE",
+    "STMT-RAISING-A-CLAIMANT-CONFIRMS-HIS-MANDATE"
+  ],
+  "conclusion_statement_id": "STMT-RESURRECTION-CONFIRMS-JESUS-MANDATE",
+  "inference_ids": [
+    "INF-ROUND3-CHRIST-CHURCH-RESURRECTION-CONFIRMS-MANDATE-FROM-RAISING"
+  ],
+  "meaning": "If Jesus rose, a God with the classical attributes raised him; a God who raises one who claimed divine authority confirms that he holds a mandate from him. So, for any such God that reveals recognizably, if Jesus claimed divine authority and rose, that God confirms Jesus' mandate. The recognizability antecedent of the target is not used. Two open premises; each is needed.",
+  "definition_ids": [
+    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-RAISED-BY",
+    "DEF-SKELETON-OPEN-PREDICATES"
+  ]
+}

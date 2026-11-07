@@ -1,0 +1,10 @@
+{
+  "id": "ROUND3-CHRIST-CHURCH-CHRISTS-CHURCH-CATHOLIC-FROM-UNIQUENESS",
+  "argument_id": "ROUND3-CHRIST-CHURCH-CHRISTS-CHURCH-CATHOLIC-FROM-UNIQUENESS",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.christsChurchIsCatholicFromUniqueness",
+  "comparator_config": "results/ROUND3-CHRIST-CHURCH-CHRISTS-CHURCH-CATHOLIC-FROM-UNIQUENESS/comparator.json",
+  "status": "solution-present",
+  "description": "Jesus founded at most one visible society with authority, and the Catholic Church is one he founded; so every visible society with authority he founded is the Catholic Church. Two open premises; each is needed (branch-theory and rupture models in ROUND3-CHRIST-CHURCH-CONTROLS)."
+}
