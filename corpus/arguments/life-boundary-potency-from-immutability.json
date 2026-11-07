@@ -1,0 +1,20 @@
+{
+  "id": "LIFE-BOUNDARY-POTENCY-FROM-IMMUTABILITY",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-IMMUTABLE-HAS-NO-LIFE-BOUNDARY"
+  ],
+  "conclusion_statement_id": "STMT-LIFE-BOUNDARY-REQUIRES-POTENCY",
+  "inference_ids": [
+    "INF-LIFE-BOUNDARY-POTENCY-FROM-IMMUTABILITY"
+  ],
+  "meaning": "Contrapositive of ST I q.10 a.1 under excluded middle: whatever is in potency in no respect has no beginning or end of life (STMT-IMMUTABLE-HAS-NO-LIFE-BOUNDARY, supported by the q.10 a.1 claim), so whatever begins or ceases to live is in potency in some respect. Derives STMT-LIFE-BOUNDARY-REQUIRES-POTENCY, which reaches the root without a derivation. This is a logical rearrangement: the gap the target carried (potency in the subject versus in another) now sits in the reading of 'omnino immutabile'. Both premises stay open.",
+  "definition_ids": [
+    "DEF-LIFE-PRESENT-AT",
+    "DEF-POTENCY",
+    "DEF-PURE-ACT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "STMT-IMMUTABLE-HAS-NO-LIFE-BOUNDARY",
+  "paraphrase": "Whatever is in potency in no respect has a life that neither begins nor ends in the duration frame. Encodes ST I q.10 a.1 ('omnino immutabile ... nec principium nec finem habere potest') reading 'altogether immutable' as 'in potency in no respect' (potency in the subject); that reading is stronger than the source, whose 'omnino immutabile' also excludes q.9 a.2's mutability through a power in another.",
+  "lean_declaration": "TruthCore.Causality.LifeBoundaryPotency.ImmutableHasNoLifeBoundary",
+  "definition_ids": [
+    "DEF-LIFE-PRESENT-AT",
+    "DEF-POTENCY",
+    "DEF-PURE-ACT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER"
+  ]
+}

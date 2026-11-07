@@ -62,6 +62,7 @@ public import TruthCore.Causality.IndexedSignalProvenance
 public import TruthCore.Causality.IndexedSignalReaper
 public import TruthCore.Causality.IntellectualInclination
 public import TruthCore.Causality.JointGroups
+public import TruthCore.Causality.LifeBoundaryPotency
 public import TruthCore.Causality.LocalFramePossibleExternalCause
 public import TruthCore.Causality.LocalTransmission
 public import TruthCore.Causality.MathlibBridges

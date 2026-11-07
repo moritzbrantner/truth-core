@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.LifeBoundaryPotency.Challenge",
+  "solution_module": "TruthCore.Results.Causality.LifeBoundaryPotency.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.LifeBoundaryPotency.controls"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

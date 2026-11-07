@@ -1,0 +1,9 @@
+{
+  "id": "INF-LIFE-BOUNDARY-POTENCY-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-LIFE-BOUNDARY-POTENCY-CONTROLS",
+  "rule": "Explicit finite interpretations",
+  "meaning": "One being with no potency whose life begins: without the q.10 a.1 premise the conclusion fails; in a model where no life begins or ends both hold.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
