@@ -1,0 +1,12 @@
+{
+  "id": "INF-SELF-OPERATING-LIVES-FROM-PRESENT-OPERATION",
+  "input_statement_ids": [
+    "STMT-SELF-OPERATION-PRESENT-AT-SOME-TIME",
+    "STMT-OPERATING-FROM-ITSELF-IS-LIVING"
+  ],
+  "output_statement_id": "STMT-SELF-OPERATING-UNMOVED-LIVES",
+  "rule": "Existential elimination, universal instantiation, existential introduction",
+  "meaning": "Whatever operates from itself and is moved in no respect lives at some time, through the timed predicate OperatesFromItselfAt: the self-operation is present at some time (OPEN), and operating from itself at a time is living at it (OPEN q.18 a.2 reading). The unmoved clause of the conclusion is not used: under these two premises every self-operating thing lives, which is a strictly stronger conclusion.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

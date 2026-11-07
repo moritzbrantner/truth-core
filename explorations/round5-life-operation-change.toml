@@ -1,0 +1,128 @@
+# Round 5 worklist: life, operation and change (ST I q.9, q.10, q.18).
+# Analyst formulations, attribution deferred.
+target = "STMT-PURE-ACT-LIVES"
+
+[[node]]
+id = "STMT-PURE-ACT-LIVES"
+
+[[node]]
+id = "STMT-PURE-ACT-OPERATES"
+
+[[node]]
+id = "STMT-SELF-OPERATING-UNMOVED-LIVES"
+
+[[node]]
+id = "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY"
+
+[[node]]
+id = "STMT-ACT-OR-POTENCY-IN-BEING"
+
+[[node]]
+id = "STMT-BEING-IN-ACT-HAS-OPERATION"
+
+[[node]]
+id = "STMT-OPERATION-FROM-SELF-OR-AS-MOVED"
+
+[[node]]
+id = "STMT-SELF-OPERATION-PRESENT-AT-SOME-TIME"
+
+[[node]]
+id = "STMT-OPERATING-FROM-ITSELF-IS-LIVING"
+
+[[node]]
+id = "STMT-IMMUTABLE-HAS-NO-LIFE-BOUNDARY"
+
+[[node]]
+id = "STMT-LIFE-BOUNDARY-REQUIRES-POTENCY"
+
+[[node]]
+id = "STMT-LIFE-BOUNDARY-IS-CHANGE"
+
+[[node]]
+id = "STMT-CHANGE-REQUIRES-POTENCY-IN-SUBJECT"
+
+[[node]]
+id = "STMT-SUCCESSION-IS-BEING-MOVED"
+
+[[node]]
+id = "STMT-SUCCESSION-REQUIRES-POTENCY"
+
+[[node]]
+id = "STMT-STATE-DIFFERENCE-IS-CHANGE"
+
+[[node]]
+id = "STMT-CHANGE-OF-PERSISTING-SUBJECT-IS-MOTION"
+
+[[node]]
+id = "STMT-BEING-MOVED-IS-ACTUALIZATION-OF-POTENCY"
+
+[[node]]
+id = "STMT-EXCLUDED-MIDDLE"
+
+[[node]]
+id = "NEW-IN-ACT-AND-UNMOVED-OPERATES"
+new = true
+text = "Whatever is in act in some respect and moved in no respect operates from itself."
+
+[[edge]]
+premises = ["STMT-PURE-ACT-OPERATES", "STMT-SELF-OPERATING-UNMOVED-LIVES", "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY"]
+conclusion = "STMT-PURE-ACT-LIVES"
+kind = "derivation"
+status = "certified"
+argument = "PURE-ACT-LIVES-FROM-SELF-OPERATION"
+note = "Existing consumer of the two new derivations below."
+
+[[edge]]
+premises = ["STMT-ACT-OR-POTENCY-IN-BEING", "STMT-BEING-IN-ACT-HAS-OPERATION", "STMT-OPERATION-FROM-SELF-OR-AS-MOVED", "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY"]
+conclusion = "STMT-PURE-ACT-OPERATES"
+kind = "derivation"
+status = "certified"
+argument = "PURE-ACT-OPERATES-FROM-BEING-IN-ACT"
+note = "Division in being, operation follows being in act, and the self-or-moved dichotomy; the moved case is excluded by q.2 a.3."
+
+[[edge]]
+premises = ["NEW-IN-ACT-AND-UNMOVED-OPERATES", "STMT-ACT-OR-POTENCY-IN-BEING", "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY"]
+conclusion = "STMT-PURE-ACT-OPERATES"
+kind = "derivation"
+status = "rejected"
+note = "Rejected: the premise makes a stone at rest (in act in being, moved in no respect at present) operate from itself (ATTEMPT-ROUND5-WORKLIST-REJECTED-LEADS)."
+
+[[edge]]
+premises = ["STMT-SELF-OPERATION-PRESENT-AT-SOME-TIME", "STMT-OPERATING-FROM-ITSELF-IS-LIVING"]
+conclusion = "STMT-SELF-OPERATING-UNMOVED-LIVES"
+kind = "derivation"
+status = "certified"
+argument = "SELF-OPERATING-LIVES-FROM-PRESENT-OPERATION"
+note = "Through the timed self-operation predicate; the unmoved clause is idle."
+
+[[edge]]
+premises = ["STMT-LIFE-BOUNDARY-IS-CHANGE", "STMT-CHANGE-REQUIRES-POTENCY-IN-SUBJECT"]
+conclusion = "STMT-IMMUTABLE-HAS-NO-LIFE-BOUNDARY"
+kind = "derivation"
+status = "certified"
+argument = "NO-LIFE-BOUNDARY-FROM-CHANGE"
+note = "A life boundary is a change, and change needs potency in the subject."
+
+[[edge]]
+premises = ["STMT-EXCLUDED-MIDDLE", "STMT-IMMUTABLE-HAS-NO-LIFE-BOUNDARY"]
+conclusion = "STMT-LIFE-BOUNDARY-REQUIRES-POTENCY"
+kind = "derivation"
+status = "certified"
+argument = "LIFE-BOUNDARY-POTENCY-FROM-IMMUTABILITY"
+note = "Existing consumer."
+
+[[edge]]
+premises = ["STMT-STATE-DIFFERENCE-IS-CHANGE", "STMT-CHANGE-OF-PERSISTING-SUBJECT-IS-MOTION"]
+conclusion = "STMT-SUCCESSION-IS-BEING-MOVED"
+kind = "derivation"
+status = "certified"
+argument = "SUCCESSION-IS-MOTION-FROM-CHANGE"
+note = "State difference is change; change of a subject living at both ends is motion (Physics V.1)."
+
+[[edge]]
+premises = ["STMT-SUCCESSION-IS-BEING-MOVED", "STMT-BEING-MOVED-IS-ACTUALIZATION-OF-POTENCY"]
+conclusion = "STMT-SUCCESSION-REQUIRES-POTENCY"
+kind = "derivation"
+status = "certified"
+argument = "SUCCESSION-REQUIRES-POTENCY-FROM-MOTION"
+note = "Existing consumer."
