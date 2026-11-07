@@ -1,0 +1,1258 @@
+{
+  "snapshot": "3fe6d92dc9b96d7693e5e52b4be4b549f40b39da",
+  "review_base": "7c89dd9abecb2e1da4cf89b4250e506a8c6e1539",
+  "group": "first round-robin residual group, 78 exact IDs",
+  "criterion": "At the snapshot, not named by argument definition_ids or those arguments' premise/conclusion statement definition_ids. This does NOT mean no standalone statement reference or Lean use.",
+  "scope": "Current per-record meaning/type/navigation audit only. Existing source fidelity and proof evidence reused, not independently recertified. No metaphysical premise or complete worldview is established.",
+  "checklist": [
+    "category/interpretation scope",
+    "typed versus unbound status",
+    "prose versus linked Lean body",
+    "identity/container/parameter distinctions",
+    "circularity and scope of claims",
+    "strength and consequential competing meanings"
+  ],
+  "entries": [
+    {
+      "definition_id": "DEF-ABSTRACT-ABSTRACTION-CRITERION",
+      "path": "corpus/definitions/abstract-abstraction-criterion.json",
+      "record_sha256": "797a0be98c8086e3ea74fa148f6a20b5de38a7e925e5ff8201ed491d30848308",
+      "direct_statement_ids": [],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Essence-based abstraction remains an unbound rival criterion; no spatial or causal exclusion follows from its wording.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-ACT-OF-WILL",
+      "path": "corpus/definitions/act-of-will.json",
+      "record_sha256": "c96419cca62a9c7589ec443fb1e3ec496398e3f7c239ea13b63f34fad89b2517",
+      "direct_statement_ids": [
+        "STMT-WILL-CAN-COMMUNICATE-POSSESSED-GOOD",
+        "STMT-WILL-INCLUDES-LOVE-OF-POSSESSED-GOOD"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Actual acts of seeking, enjoyment or communication are not identified with mere possession of will.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-AD1-COLLECTIVE-ACTUAL-GOOD",
+      "path": "corpus/definitions/ad1-collective-actual-good.json",
+      "record_sha256": "1e6da1be7736fca2266830b7bf7786e9029c09b121218fdbe49165fc919c0ea0",
+      "direct_statement_ids": [
+        "STMT-GOD-DRAWS-GOOD-FROM-PERMITTED-EVILS-COLLECTIVELY"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GodDrawsGoodFromPermittedEvilsCollectivelyReading",
+      "statement_lean_declarations": {
+        "STMT-GOD-DRAWS-GOOD-FROM-PERMITTED-EVILS-COLLECTIVELY": "TruthCore.Latin.Aquinas.SummaTheologiae.GodDrawsGoodFromPermittedEvilsCollectivelyReading"
+      },
+      "disposition": "clarified locator role",
+      "boundary": "Clarify that the locator constrains primitive collective-production parameters conditionally; it defines neither relation nor an actual outcome.",
+      "inspection_scope": "Definition prose and its direct corpus references; linked typed declaration bodies inspected where supplied. This is not renewed source attribution or verification of all proof descendants."
+    },
+    {
+      "definition_id": "DEF-AEVUM",
+      "path": "corpus/definitions/aevum.json",
+      "record_sha256": "5a46d9abd537a5ba778e71750019356a0d3b91fa347200d3077478bfaa75835f",
+      "direct_statement_ids": [
+        "STMT-AEVUM-INTERNAL-STABILITY-COMPATIBLE-WITH-ADJUNCT-CHANGE"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Adjunct change and substantial duration distinguish aevum from proper eternity; no formal time ontology is selected.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-ANSELMIAN-PER-SE",
+      "path": "corpus/definitions/anselm-per-se.json",
+      "record_sha256": "52ca46550d5cda7722631614d5b379bb35e4799bbfd1bcdda787a7742976299c",
+      "direct_statement_ids": [
+        "STMT-EVERY-EXISTENT-PER-ALIQUOD",
+        "STMT-PLURAL-SELF-EXISTENTS-COMMON-PRINCIPLE",
+        "STMT-SINGLE-HIGHEST-NATURE",
+        "STMT-SUPREME-PER-SE-NOT-SELF-PRODUCTION"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Self-existence is not efficient self-production or a world-relative NecessaryAt identity.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-AQUINAS-INNOCENCE-Q64",
+      "path": "corpus/definitions/aquinas-innocence-q64.json",
+      "record_sha256": "042eab2b68c2789bc9b4eebeac55ea48d37efa3225eb7051870cf95816977616",
+      "direct_statement_ids": [
+        "STMT-AQUINAS-INNOCENT-KILLING-QUALIFICATION"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "The glossary supplies no exact innocence extension; the divine-command qualification is retained.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-ARISTOTLE-ANPOST-PRIORITY",
+      "path": "corpus/definitions/aristotle-anpost-priority.json",
+      "record_sha256": "87d01e9cf9b31584dd6f97b110ee284cce99ba72b5a3c6b9a42bfe4fe17b56bd",
+      "direct_statement_ids": [
+        "STMT-ARISTOTLE-ANPOST-CIRCULAR-SELF-RETURN",
+        "STMT-ARISTOTLE-ANPOST-DEMONSTRATIVE-PREMISES",
+        "STMT-ARISTOTLE-ANPOST-IMMEDIATE-KNOWLEDGE",
+        "STMT-ARISTOTLE-ANPOST-REGRESS-CONDITIONAL-KNOWLEDGE",
+        "STMT-ARISTOTLE-ANPOST-SAME-RESPECT-PRIORITY",
+        "STMT-ARISTOTLE-ANPOST-SHARED-DEMONSTRATIVISM"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Demonstrative and perceptual priority stay distinct; same-respect circularity does not prohibit every mutual support relation.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-ARISTOTLE-PROXIMATE-MATTER-FORM",
+      "path": "corpus/definitions/aristotle-proximate-matter-form.json",
+      "record_sha256": "5b1d0a739d90f63a4f7b276f402b3095efb3026f9b8ae970849d824fdcba6494",
+      "direct_statement_ids": [
+        "STMT-HYLOMORPHIC-UNITY-NO-EXTRA-TIE-MOVER-QUALIFIED",
+        "STMT-NONHEAP-WHOLE-HAS-UNITY-EXPLANANDUM",
+        "STMT-PROXIMATE-MATTER-FORM-UNITY-REPLY",
+        "STMT-SEPARATE-PREDICATE-FORMS-LEAVE-UNITY-QUESTION"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Potential/actual unity is not numerical identity of every material and formal entity.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-CAUSE-OF-BECOMING",
+      "path": "corpus/definitions/cause-of-becoming.json",
+      "record_sha256": "260c81e71a1486612bdbe73e495611fc6e6423d2f15350a337aa6882c885653a",
+      "direct_statement_ids": [
+        "STMT-BECOMING-CAUSE-NEED-NOT-SUSTAIN-BEING"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Coming-to-be and continuing esse are distinct causal roles without a blanket claim of causal independence.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-CC100-10-SIMPLIFIED-SCOPE",
+      "path": "corpus/definitions/cc100-10-simplified-scope.json",
+      "record_sha256": "419bb71dd699e824b8f9ffcb4a6d56015e89bc0a2531f1aedb6053684db3d8f1",
+      "direct_statement_ids": [
+        "STMT-CC100-10-CONTINGENT-POPULATION",
+        "STMT-CC100-10-SIMPLIFIED-NONCONTINGENT-CAUSE"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Noncontingency is not automatically necessity/concreteness; simplification does not discharge nonoverlap or adequate-explanation bridges.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-CC100-116-REASON-PERSONAL-EXPLANATION",
+      "path": "corpus/definitions/cc100-116-reason-personal-explanation.json",
+      "record_sha256": "15b4969bb33c7f88dbfe0bf058195acf2ec0ce678045b7e7b636e0aa73af77f8",
+      "direct_statement_ids": [
+        "STMT-CC100-116-CONDITIONAL-PERSONAL-REASON-EXPLANATION",
+        "STMT-CC100-116-CONDITIONAL-THEISTIC-BEST-EXPLANATION",
+        "STMT-CC100-116-PERSONAL-EXPLANATION-RESTRICTION",
+        "STMT-CC100-116-REASON-INTENTIONALITY-MENTAL-CAUSATION",
+        "STMT-CC100-116-THEISTIC-BEST-EXPLANATION-BRIDGE"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Explanation admissibility, availability, personal explanation and theistic best explanation require distinct bridges.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-CC100-119120-PROPER-FUNCTION-DESIGN",
+      "path": "corpus/definitions/cc100-119120-proper-function-design.json",
+      "record_sha256": "a5de9335f460a5212e3a3eef893d17064c95ce316699d4968cd3653245fa5849",
+      "direct_statement_ids": [
+        "STMT-CC100-119-CONDITIONAL-DESIGNED-FACULTIES",
+        "STMT-CC100-119-CONDITIONAL-PROBABLE-GOD",
+        "STMT-CC100-119-DESIGN-PROBABLE-GOD",
+        "STMT-CC100-119-KNOWLEDGE-PROPER-FUNCTION",
+        "STMT-CC100-119-PROPER-FUNCTION-DESIGN",
+        "STMT-CC100-120-CONDITIONAL-DESIGNED-FACULTIES",
+        "STMT-CC100-120-PROBABILITY-PROPER-FUNCTION-ACCOUNT"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Proper functioning, possessing a proper function and design remain separate; probability is not actuality.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-CC100-123-QUALITY-STATE-CONSTITUTION",
+      "path": "corpus/definitions/cc100-123-quality-state-constitution.json",
+      "record_sha256": "e6c0cbf76e6f7ab5c8f4725d12429e26d8856b1a9362f34f35c9d52c929e2deb",
+      "direct_statement_ids": [
+        "STMT-CC100-123-CONDITIONAL-CONSCIOUS-QUALITY",
+        "STMT-CC100-123-CONDITIONAL-PROBABLE-GOD",
+        "STMT-CC100-123-CONSCIOUS-STATE-QUALITY-RESTRICTION",
+        "STMT-CC100-123-GOD-MIND-BEST-CONSTITUTION",
+        "STMT-CC100-123-INTRINSIC-QUALITY-COVERAGE"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Bearer, quality, conscious state and partial divine constitution are not silently identical.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-CC100-124-TRUTH-RESTRICTED-SCOPE",
+      "path": "corpus/definitions/cc100-124-truth-restricted-scope.json",
+      "record_sha256": "43495ba17a995ca6ec9f37a6814a6c3217722e127e5107b2a66ff92321871cec",
+      "direct_statement_ids": [
+        "STMT-CC100-124-CONTEXTUAL-COMMON-KNOWER-BRIDGE",
+        "STMT-CC100-124-CONTEXTUAL-TRUTH-KNOWLEDGE"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Per-truth knowers do not supply one common knower; the restricted interpretation stays explicit.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-CC100-6-UNIVERSE-EXPLANATION-GOD",
+      "path": "corpus/definitions/cc100-6-universe-explanation-god.json",
+      "record_sha256": "1d6c9c6f9ef492e8355f17226ea067f216ac335e94f6ce3d038b945032fbb64b",
+      "direct_statement_ids": [
+        "STMT-CC100-6-CONDITIONAL-GOD-EXISTENCE",
+        "STMT-CC100-6-EXISTENCE-EXPLANATION",
+        "STMT-CC100-6-EXPLANATION-GOD-BRIDGE"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "A source label for explanation supplies no causal, modal or classical-attribute dictionary by itself.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-CC100-84-DE-RE-CAPABILITY",
+      "path": "corpus/definitions/cc100-84-de-re-capability.json",
+      "record_sha256": "c802a0dfb03162d2a16dec865fa5d940bbff8b277a2e5a62f8268dfbd937fb23",
+      "direct_statement_ids": [
+        "STMT-CC100-84-DE-RE-MIND-RESTRICTION"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "One candidate's all-world capability is not varying worldwise existential availability.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-CC100-85-TEMPORAL-SUSTAINING-EXPLANATION",
+      "path": "corpus/definitions/cc100-85-temporal-sustaining-explanation.json",
+      "record_sha256": "3117a8947620c45a27354e826e2c8268eb620ba99309b12645880b7f9ba9c48c",
+      "direct_statement_ids": [
+        "STMT-CC100-85-CONDITIONAL-SUSTAINER-ATTRIBUTES",
+        "STMT-CC100-85-CONTINGENTS-COMPOSITE-TEMPORAL",
+        "STMT-CC100-85-NO-CONTINGENT-TEMPORAL-SUSTAINER",
+        "STMT-CC100-85-NO-INTRINSIC-TEMPORAL-UNIFIER"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Diachronic sustenance is not automatically a uniting esse cause, actuality or uniqueness.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-CC100-9-POSSIBLE-EXPLANATION-BELIEF",
+      "path": "corpus/definitions/cc100-9-possible-explanation-belief.json",
+      "record_sha256": "b29105c6a2badba926d2f94e0a3229fec8bb124af47e0abb7ae993be9e790f01",
+      "direct_statement_ids": [
+        "STMT-CC100-9-NECESSARY-BEING-EXPLANATION-CASE",
+        "STMT-CC100-9-POSSIBLE-EXPLANATION-BELIEF-RULE",
+        "STMT-CC100-9-REASONABLE-NECESSARY-BEING-BELIEF"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Possible explanatory proposals and reasonable belief are not actual explanatory bearers or truth.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-CLARKE-VOLITIONAL-SUFFICIENT-REASON",
+      "path": "corpus/definitions/clarke-volitional-sufficient-reason.json",
+      "record_sha256": "deb09911e4671b0168ff253fbd294df4635f5a58bbe26d9f0328e4fa6c3db97d",
+      "direct_statement_ids": [
+        "STMT-VOLITION-MAY-SUFFICE-WITHOUT-EXTERNAL-SPATIAL-DIFFERENCE"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Agent volition under indifferent alternatives is a restricted sufficiency proposal, not denial of all reasons.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-COMPLETED-COGNITIVE-CORRECTION",
+      "path": "corpus/definitions/completed-cognitive-correction.json",
+      "record_sha256": "e3b09e0e641d3ec986c0e29a09cd25d6679191a858e7aebe59eb07ef3220ad85",
+      "direct_statement_ids": [
+        "STMT-GENUINE-MORAL-CORRECTION-REPLACES-AN-UNTRUE-BELIEF"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Need for correction does not establish temporal accomplishment; the stronger sense remains unformalized here.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-COSMIC-GENERATION-DESTRUCTION-OCCURRENCE",
+      "path": "corpus/definitions/cosmic-generation-destruction-occurrence.json",
+      "record_sha256": "620f24bd12be6344c7461bb9f9441ca50450caf5e39f7c4c5d8973429579c63b",
+      "direct_statement_ids": [
+        "STMT-COSMIC-GENERATION-DESTRUCTION-REQUIRES-MOTION"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {
+        "STMT-COSMIC-GENERATION-DESTRUCTION-REQUIRES-MOTION": "TruthCore.Greek.Aristotle.Physics.Typed.CosmicGenerationDestructionRequiresMotionReading"
+      },
+      "disposition": "retained typed scope",
+      "boundary": "The typed event/motion witness asserts accompaniment, not date, priority, causal direction or an event/motion identity.",
+      "inspection_scope": "Definition prose and its direct corpus references; linked typed declaration bodies inspected where supplied. This is not renewed source attribution or verification of all proof descendants."
+    },
+    {
+      "definition_id": "DEF-DASGUPTA-GROUND",
+      "path": "corpus/definitions/dasgupta-ground.json",
+      "record_sha256": "401ec655758dd3a27d26becd92dbac6b70822a9efa987b9edd957c896b6b6c44",
+      "direct_statement_ids": [
+        "STMT-GROUND-OF-CONJUNCTION-NEED-NOT-GROUND-CONJUNCTS"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Constitutive fact-grounding and efficient causation remain different; source transitivity is not an imported actual-grounding theorem.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-DIVINE-WILL-ACT",
+      "path": "corpus/definitions/divine-will-act.json",
+      "record_sha256": "5044862e836d35a0e88a4bcee8f809e41fd06dcee1ba320f47d689e22c6145fe",
+      "direct_statement_ids": [
+        "STMT-DIVINE-WILL-NOT-MOVED-BY-ANOTHER"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Divine willing is not the passive creaturely appetitive power or externally moved information acquisition.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-ENOCH-THIRD-FACTOR-ACCESS",
+      "path": "corpus/definitions/enoch-third-factor-access.json",
+      "record_sha256": "a19c7fc7cb352148cc07f0217236b53f68dbeb8d93cec0e447b8a09c581b96a9",
+      "direct_statement_ids": [
+        "STMT-ENOCH-THIRD-FACTOR-ACCESS-REPLY"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "The causal and normative links stay distinct; qualified survival value does not prove full counterfactual reliability.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-FAMILY-RESEMBLANCE-CLASSIFICATION",
+      "path": "corpus/definitions/family-resemblance-classification.json",
+      "record_sha256": "913fbb73366eb70b65f1f15b84486c7836b68a73432c767e6c32efd17d491594",
+      "direct_statement_ids": [
+        "STMT-FAMILY-RESEMBLANCE-CLASSIFICATION"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Independently selected features and an open adequacy claim are not universal anti-essentialism or denial of a membership predicate.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-FUNCTIONAL-EXCELLENCE-QUA-ROLE",
+      "path": "corpus/definitions/function-excellence.json",
+      "record_sha256": "c9e5210900545afb0546f26c65e48b89c5c28bde4dec93811ded0dc6557aa592",
+      "direct_statement_ids": [
+        "STMT-FUNCTION-EXCELLENCE-NECESSARY"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": "TruthCore.Greek.Aristotle.NicomacheanEthics.FunctionExcellenceReading",
+      "statement_lean_declarations": {
+        "STMT-FUNCTION-EXCELLENCE-NECESSARY": "TruthCore.Greek.Aristotle.NicomacheanEthics.FunctionExcellenceReading"
+      },
+      "disposition": "retained typed scope",
+      "boundary": "The typed reading is only a necessary condition on exercises qua a supplied role, not categorical moral worth or constant skill performance.",
+      "inspection_scope": "Definition prose and its direct corpus references; linked typed declaration bodies inspected where supplied. This is not renewed source attribution or verification of all proof descendants."
+    },
+    {
+      "definition_id": "DEF-GIBBARD-PERMISSION-ATTITUDE",
+      "path": "corpus/definitions/gibbard-permission-attitude.json",
+      "record_sha256": "72ba6cffc87b00ea3715fd358bebd155d193ebc38cc9a3d774031927ae05a9bd",
+      "direct_statement_ids": [
+        "STMT-GIBBARD-PERMISSION-NOT-PICKING"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Historical permission attitudes are not automatically the analyst Boolean permission predicate.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-GOLDMAN-HISTORICAL-RELIABILISM",
+      "path": "corpus/definitions/goldman-historical-reliabilism.json",
+      "record_sha256": "5a966dbdab74ebea1f14518bcbd8728b02b0983ca627fa494861fa55e471d932",
+      "direct_statement_ids": [
+        "STMT-GOLDMAN-AVAILABLE-PROCESS-REVISION",
+        "STMT-GOLDMAN-FALLIBLE-JUSTIFICATION",
+        "STMT-GOLDMAN-MEMORY-WITHOUT-RECONSTRUCTED-EVIDENCE",
+        "STMT-GOLDMAN-METARELIABILITY-NOT-AUTOMATIC-REMEDY",
+        "STMT-GOLDMAN-RECURSIVE-HISTORICAL-ACCOUNT",
+        "STMT-GOLDMAN-STATUS-WITHOUT-ACCESS",
+        "STMT-ULTIMATE-GROUND-EPISTEMIC-NECESSITY"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Ancestry-based justification is not mere causal ancestry or an established universal warrant criterion.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-GROUNDING-NECESSITATION-SOURCE-SENSES",
+      "path": "corpus/definitions/grounding-necessitation-source-senses.json",
+      "record_sha256": "c38c132ddd7ca1cff6cde1ba86ddbab706fe249a53b432345b954f8627119b5f",
+      "direct_statement_ids": [
+        "STMT-BLOCKER-BLOCKER-OBJECTION-TO-GROUNDING-INTERNALITY",
+        "STMT-FULL-GROUNDS-NECESSITATE-TARGET-TRUTH",
+        "STMT-GROUNDING-ENTAILMENT-AND-INTERNALITY-INDEPENDENT",
+        "STMT-GROUNDING-SUPERVENES-ON-WHOLE-FACT-BASE",
+        "STMT-NECESSARY-TARGET-ENTAILMENT-DOES-NOT-DISTINGUISH-FULLNESS",
+        "STMT-SIGNIFICANCE-ESSENCE-ROUTE-TO-NECESSITATION",
+        "STMT-WHAT-GROUNDING-REAL-DEFINITION-NECESSITATES",
+        "STMT-WHY-GROUNDING-CONTRASTIVE-DIFFERENCE-MAKING"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Different source necessitation and grounding readings remain distinct from existential support and well-founded rank.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-HIDDENNESS-REASONABLE-NONBELIEF",
+      "path": "corpus/definitions/hiddenness-reasonable-nonbelief.json",
+      "record_sha256": "d1d56967aaae13c8313be62c41649e325deda7ad2a25f1d61f78ff7eca6b861e",
+      "direct_statement_ids": [],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Evidential rationality and causal nonresistance are not interchangeable global blamelessness claims.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-HIDDENNESS-UNCONSCIOUS-RELATIONSHIP",
+      "path": "corpus/definitions/hiddenness-unconscious-relationship.json",
+      "record_sha256": "235375716705c1549fbf7f49baf531af09a8ee9d6b5bd3b9e9b8be295e6ddab6",
+      "direct_statement_ids": [
+        "STMT-HIDDENNESS-MEDIATED-COMMUNION-POSSIBLE"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "An unconscious relation proposal does not satisfy a deliberately conscious relationship predicate.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-HINGE-NON-PROPOSITIONAL-CERTAINTY",
+      "path": "corpus/definitions/hinge-non-propositional-certainty.json",
+      "record_sha256": "7ea288d83ba7c6d92b3469cec5d934120973a4c902aa712882ae2344776c176c",
+      "direct_statement_ids": [
+        "STMT-HINGES-NON-PROPOSITIONAL-READING"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "The reported non-propositional view is not quietly substituted for propositional certainty or a logical floor.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-HUME-CAUSE-EXCLUSION",
+      "path": "corpus/definitions/hume-cause-exclusion.json",
+      "record_sha256": "cd568e1adb070e93d7158daf80eef9c8e5190a66195d407ad89fa54897f535cd",
+      "direct_statement_ids": [
+        "STMT-HUME-I-3-3-EXCLUSION"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Excluding productive principles does not assert an uncaused actual object or make nothing into a cause.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-HUME-TEST-BEGINNING",
+      "path": "corpus/definitions/def-hume-test-beginning.json",
+      "record_sha256": "8a5bfe45e8f122ddd1097890f64a784347429dde85273f62f3e203b70b414077",
+      "direct_statement_ids": [
+        "STMT-HUME-I-3-3-EXCLUSION",
+        "STMT-HUME-I-3-3-IMAGINATION",
+        "STMT-HUME-I-3-3-INTUITIVE",
+        "STMT-HUME-I-3-3-TIME-PLACE",
+        "STMT-HUME-NARROW-IDEAS-WITHHOLDING"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": "TruthCore.Modern.Hume.Conceivability.NarrowWithholding",
+      "statement_lean_declarations": {
+        "STMT-HUME-NARROW-IDEAS-WITHHOLDING": "TruthCore.Modern.Hume.Conceivability.NarrowWithholding"
+      },
+      "disposition": "clarified locator role",
+      "boundary": "Clarify the linked negated-refutation schema, which does not encode the described temporal beginning.",
+      "inspection_scope": "Definition prose and its direct corpus references; linked typed declaration bodies inspected where supplied. This is not renewed source attribution or verification of all proof descendants."
+    },
+    {
+      "definition_id": "DEF-INFINITIST-REASON-AVAILABILITY",
+      "path": "corpus/definitions/infinitist-reason-availability.json",
+      "record_sha256": "ec75eae5190aeeb9723526104af11fd9d2b3ff25d531ecb01e871099f8a64ab2",
+      "direct_statement_ids": [
+        "STMT-KLEIN-TURRI-AVAILABLE-REASONS",
+        "STMT-KLEIN-TURRI-INFINITIST-NECESSARY-CONDITIONS",
+        "STMT-KLEIN-TURRI-OPPOSED-CHAINS-CHALLENGE",
+        "STMT-KLEIN-TURRI-PROOF-OF-CONCEPT-BURDEN",
+        "STMT-KLEIN-TURRI-REASON-ENHANCEMENT",
+        "STMT-KLEIN-TURRI-RESTRICTED-STATUS",
+        "STMT-KLEIN-TURRI-TRANSFER-ONLY-OBJECTION"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Available reasons and actual production are distinct; availability's feasibility and epistemic adequacy remain open.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-JUSTIFIED-MORAL-ATTITUDE-DEFLATIONARY-TRUE",
+      "path": "corpus/definitions/justified-moral-attitude-deflationary-true.json",
+      "record_sha256": "db8bb45861009ad4adaf165c3cdc83ca834eec7da2f0347d1aaf0fd984073d06",
+      "direct_statement_ids": [
+        "STMT-EXPRESSIVIST-MORAL-JUSTIFICATION-WITHOUT-REPRESENTATION"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Justification and deflationary truth do not alone supply representational accuracy or moral knowledge.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-KANT-LOGICAL-POSSIBILITY",
+      "path": "corpus/definitions/kant-logical-possibility.json",
+      "record_sha256": "ab4106d555eedfaa061f621a13ee5973fe8bd861b5846f052c63b115c098d91a",
+      "direct_statement_ids": [
+        "STMT-KANT-LOGICAL-NOT-REAL-POSSIBILITY"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Noncontradiction is not objectively warranted possibility of an object or of its nonexistence.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-KANT-REALITY-INDISCERNIBILITY",
+      "path": "corpus/definitions/kant-reality-indiscernibility.json",
+      "record_sha256": "0476344817b5547f299700e76948d3829d4494300cab6e73c7ba886938f9809d",
+      "direct_statement_ids": [
+        "STMT-KANT-COSMOLOGICAL-ONTOLOGICAL-DEPENDENCE",
+        "STMT-KANT-MOST-REAL-NONDIFFERENCE-REPORTED"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Qualitative nondifference supplies neither numerical identity nor the selected necessity predicate without a bridge.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-KOONS-1996-FACT-BEING-INVOLVEMENT",
+      "path": "corpus/definitions/koons-1996-fact-being-involvement.json",
+      "record_sha256": "9904e8dd5cc317e978625b3f768528f7cb526b7917d6ceab695e4b1e52659713",
+      "direct_statement_ids": [
+        "STMT-KOONS-1996-COR1-ACTUAL-INVOLVEMENT-EXISTENCE",
+        "STMT-KOONS-1996-COR1-CONDITIONAL-COSMOS-CAUSE-BEING",
+        "STMT-KOONS-1996-COR1-CONDITIONAL-NECESSARY-FACT-BEING",
+        "STMT-KOONS-1996-COR1-FACT-BEING-PROPERTY-INVOLVEMENT",
+        "STMT-KOONS-1996-COR1-FIXED-FACT-MODAL-DOMAIN"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Actual fact involvement and bearer existence require their own link; a modal arena is not the source ontology by identity.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-LEIBNIZ-FACT-REASON-DEMAND",
+      "path": "corpus/definitions/leibniz-fact-reason-demand.json",
+      "record_sha256": "b9af5b35c72f8e229bd96a6245ef1ac3a1f5d678ea06aec05099b6632fc65623",
+      "direct_statement_ids": [
+        "STMT-CONTINGENT-DETAIL-RENEWS-SERIES-REASON-DEMAND",
+        "STMT-FACT-REQUIRES-SUFFICIENT-REASON",
+        "STMT-SUFFICIENT-REASON-NOT-LIMITED-TO-KNOWN-REASONS"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Why-this-rather-than-otherwise explanation is not a reason token, causal edge or generated-warrant construction.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-LEIBNIZ-SPATIAL-CONTRASTIVE-REASON",
+      "path": "corpus/definitions/leibniz-spatial-contrastive-reason.json",
+      "record_sha256": "227e1e33b3e21922a59107088d41381f1e685464ea894d3a53097b02cd788608",
+      "direct_statement_ids": [
+        "STMT-UNIFORM-SPACE-CONTRASTIVE-REASON-CHALLENGE"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Geometric relational invariance does not establish the philosophical adequacy norm for a contrastive reason.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-MARK-HIGH-PRIEST-EXCHANGE",
+      "path": "corpus/definitions/mark-high-priest-exchange.json",
+      "record_sha256": "5da39a29ea379451b692926a9214081a1be85334624ea5fbb8d3bcfc9f94cfe7",
+      "direct_statement_ids": [
+        "STMT-REPORTED-MARK-AFFIRMATIVE-ANSWER",
+        "STMT-REPORTED-MARK-BLASPHEMY-REACTION",
+        "STMT-REPORTED-MARK-SON-OF-MAN-PREDICTION"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": "TruthCore.Greek.NewTestament.Mark.HighPriestAnswer.Narrative",
+      "statement_lean_declarations": {
+        "STMT-REPORTED-MARK-AFFIRMATIVE-ANSWER": "TruthCore.Greek.NewTestament.Mark.HighPriestAnswer.ReportedAffirmativeAnswer",
+        "STMT-REPORTED-MARK-BLASPHEMY-REACTION": "TruthCore.Greek.NewTestament.Mark.HighPriestAnswer.ReportedBlasphemyReaction",
+        "STMT-REPORTED-MARK-SON-OF-MAN-PREDICTION": "TruthCore.Greek.NewTestament.Mark.HighPriestAnswer.ReportedSonOfManPrediction"
+      },
+      "disposition": "retained typed scope",
+      "boundary": "The typed narrative preserves report/title/prediction content without historical truth transport, spatial relations or divine identity.",
+      "inspection_scope": "Definition prose and its direct corpus references; linked typed declaration bodies inspected where supplied. This is not renewed source attribution or verification of all proof descendants."
+    },
+    {
+      "definition_id": "DEF-MEGARIAN-ACTUALIST-CAPACITY",
+      "path": "corpus/definitions/megarian-actualist-capacity.json",
+      "record_sha256": "3fa15fb26672c59a14e6cfdd9ff4eaab81eb0d1e286bff44b600b68c18088cf8",
+      "direct_statement_ids": [],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.MegarianAbilityOnlyWhenActingReading",
+      "statement_lean_declarations": {},
+      "disposition": "retained typed scope",
+      "boundary": "Only capacity-to-act is encoded; no converse or unconditional refutation follows from adopted potency alone.",
+      "inspection_scope": "Definition prose and its direct corpus references; linked typed declaration bodies inspected where supplied. This is not renewed source attribution or verification of all proof descendants."
+    },
+    {
+      "definition_id": "DEF-MORAL-ACCESS-CORRELATION",
+      "path": "corpus/definitions/moral-access-correlation.json",
+      "record_sha256": "186ca6bb14a7d1678840afde228c6667149580c8e27f88329de0cae1c60e7c04",
+      "direct_statement_ids": [
+        "STMT-ENOCH-MORAL-ACCESS-CORRELATION-CHALLENGE",
+        "STMT-ENOCH-THIRD-FACTOR-ACCESS-REPLY",
+        "STMT-STREET-DARWINIAN-ACCESS-CHALLENGE"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Reliable normative access is not truth-aptness, adaptive success or error-freedom; the explanatory norm remains contestable.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-MUTABILITY-IN-ANOTHER",
+      "path": "corpus/definitions/mutability-in-another.json",
+      "record_sha256": "b71984d5bcf7ab067026c0f2a3f77e45cbd47c5badde1d220e3e50a43cfa8915",
+      "direct_statement_ids": [
+        "STMT-AEVUM-INTERNAL-STABILITY-COMPATIBLE-WITH-ADJUNCT-CHANGE",
+        "STMT-CREATURE-MUTABILITY-THROUGH-CREATOR-POWER"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Dependence on a creator's esse-giving power is not potency intrinsic to the creature.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-NATURAL-LAW-PER-SE-NOTA",
+      "path": "corpus/definitions/natural-law-per-se-nota.json",
+      "record_sha256": "c933be364fb4b472d9f878334778e9b47f297c338cded9b90c445ce5ee9f0e8f",
+      "direct_statement_ids": [
+        "STMT-NATURAL-LAW-PRECEPTS-PER-SE-NOTA",
+        "STMT-PER-SE-NOTUM-PREDICATE-IN-SUBJECT"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "A source account of self-evidence does not confer corpus self_evident status or close a premise.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-NATURALIST-REDUCTION-BASIS",
+      "path": "corpus/definitions/naturalist-reduction-basis.json",
+      "record_sha256": "0ea1f6c759290c108875916de339c155f13f7c13b4015d03022dcdd5d4ca919d",
+      "direct_statement_ids": [
+        "STMT-BOYD-NATURAL-SEMANTIC-REPLY",
+        "STMT-NATURALIST-APPRAISER-INDEPENDENCE",
+        "STMT-NATURALIST-IDENTITY-ADEQUACY-OPEN",
+        "STMT-RAILTON-IMPARTIAL-RIGHTNESS",
+        "STMT-RAILTON-OPEN-QUESTION-REPLY",
+        "STMT-RAILTON-REDUCTION-TRUTHMAKER",
+        "STMT-RAILTON-WELFARE"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {
+        "STMT-RAILTON-IMPARTIAL-RIGHTNESS": "TruthCore.English.Railton.RightnessReading",
+        "STMT-RAILTON-WELFARE": "TruthCore.English.Railton.WelfareReading"
+      },
+      "disposition": "retained typed scope",
+      "boundary": "Railton's typed interest/rightness identifications do not identify Boyd's cluster account with them or establish physical reduction.",
+      "inspection_scope": "Definition prose and its direct corpus references; linked typed declaration bodies inspected where supplied. This is not renewed source attribution or verification of all proof descendants."
+    },
+    {
+      "definition_id": "DEF-NB-A2-ALT-IMPOSSIBILITY-REPORT",
+      "path": "corpus/definitions/necessarybeing-a2-alt-impossibility-report.json",
+      "record_sha256": "ec75366d524a2c201f9287762047ea08c63beb0f8dcf226f6cf84aab3c988aa8",
+      "direct_statement_ids": [
+        "STMT-NB-A2-ALT-POSSIBLE-IMPOSSIBILITY"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Question, affirmative conditional report and modal duality argument remain separate; actual impossibility is not actual concrete existence.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-NB-A2-ENTIRE-CHAIN-AND-HEAD",
+      "path": "corpus/definitions/necessarybeing-a2-entire-chain-and-head.json",
+      "record_sha256": "dbf89c9dbdcfca1016e26ac111af92e8a3e81ae34fe89b99ae71464dffa1ff40",
+      "direct_statement_ids": [
+        "STMT-NB-A10-POSSIBLE-FIRST-CONTINGENT",
+        "STMT-NB-A10-PRIMA-FACIE-NECESSARY-BEING-CONCLUSION",
+        "STMT-NB-A10-SELECTED-CASE-DEFAULT-APPLICATION",
+        "STMT-NB-A2-ENTIRE-MEMBER-CLOSURE",
+        "STMT-NB-A2-POSSIBLE-HEAD-AND-UNCAUSED",
+        "STMT-NB-A2-REPORTED-COVERAGE-DENIAL",
+        "STMT-NB-A2-REVISED-CONTINGENTS-CAUSED"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "No-first-member and infinite cardinality differ; source head and graph source are not identical without extra causal-role input.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-NB-A3-FIRST-CONTINGENT-TRANSITION",
+      "path": "corpus/definitions/necessarybeing-a3-first-contingent-transition.json",
+      "record_sha256": "08636f6b19470c1c8822f9a52d83d588d0c67949726a87f801309e4c0db3ed6c",
+      "direct_statement_ids": [
+        "STMT-NB-A3-NONRIGID-FIRST-TRANSITION",
+        "STMT-NB-A3-POSSIBLE-CONTINGENT-BEGINNING",
+        "STMT-NB-A3-POSSIBLE-EVENT-CAUSABILITY",
+        "STMT-NB-A3-POSSIBLE-NECESSARY-CAUSE",
+        "STMT-NB-A3-PRIOR-CAUSE-EXCLUSION",
+        "STMT-NB-A3-REVISED-POSSIBLE-BEGINNING",
+        "STMT-NB-A3-REVISED-POSSIBLE-NECESSARY-CAUSE",
+        "STMT-NB-A4-POSSIBLE-CAUSED-FIRST-CONTINGENCY",
+        "STMT-NB-A4-PRIOR-CAUSE-EXCLUSION-UNDER-SUPPOSITION",
+        "STMT-NB-A4-REDUCTIO-POSSIBLE-NECESSARY-BEING"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "No contingent beings before a transition does not rigidly designate individual nonexistence across worlds.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-NB-A5-OBTAINING-CONTINGENT-SITUATION",
+      "path": "corpus/definitions/necessarybeing-a5-obtaining-contingent-situation.json",
+      "record_sha256": "ffd98a4222a06b312a7eeb89c7b9e1627c0f2c4e2e10f3c6e75fa57d772229bc",
+      "direct_statement_ids": [
+        "STMT-NB-A5-HISTORY-CONTINGENCY-AND-CAUSABILITY",
+        "STMT-NB-A5-HISTORY-PRIOR-CAUSE-EXCLUSION",
+        "STMT-NB-A5-NEGATED-NECESSARY-UNCAUSABILITY",
+        "STMT-NB-A5-POSSIBLE-NONEMPTY-CAUSAL-COVERAGE",
+        "STMT-NB-A5-REDUCTIO-POSSIBLE-NECESSARY-BEING",
+        "STMT-NB-A5-REVISED-HISTORY-REDUCTIO",
+        "STMT-NB-A5-REVISED-SHORT-UNCAUSABILITY-REPORT",
+        "STMT-NB-A5-RIGID-EVER-HISTORY"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "A situation obtaining and a bearer existing differ; partial explanatory availability is not actual complete causation.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-NB-A8-MODAL-PROPERTY-ENTAILMENT",
+      "path": "corpus/definitions/necessarybeing-a8-modal-property-entailment.json",
+      "record_sha256": "e2948c2296461845be97e9e4ea5a46073ca448576c5500e63287b8bf6791cf77",
+      "direct_statement_ids": [
+        "STMT-NB-A8-LIMITING-PROPERTY-DEFINITION",
+        "STMT-NB-A8-MAIN-LIMITATION-REDUCTIO",
+        "STMT-NB-A8-POSSIBLE-NONEXISTENCE-LIMITING",
+        "STMT-NB-A8-POWERFUL-NECESSARY-BEING-NONLIMITING",
+        "STMT-NB-A8-VACUOUS-LIMITATION-REDUCTIO",
+        "STMT-NB-A9-MAIN-NONTRIVIAL-REDUCTIO",
+        "STMT-NB-A9-NECESSARY-CONCRETE-NOT-NONTRIVIALLY-CONTINGENT",
+        "STMT-NB-A9-NONTRIVIAL-ENTAILMENT-CRITERION",
+        "STMT-NB-A9-ORDINARY-TO-NONTRIVIAL-TRANSFER",
+        "STMT-NB-A9-REVISED-NONTRIVIAL-REDUCTIO"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Ordinary necessarily universal inclusion permits vacuity and is not relevant or nontrivial explanation.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-NB-SURVEY-EXTERNAL-CAUSE",
+      "path": "corpus/definitions/necessarybeing-external-cause.json",
+      "record_sha256": "69249bc4cad5edb101b150674345f54dea71b40893d2d380057fb28eaf5ca145",
+      "direct_statement_ids": [
+        "STMT-NB-A1-CONTINGENTS-EXTERNALLY-CAUSED"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Externality excludes identity and parthood but establishes no cause witness or universal causal law.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-NB-SURVEY-POSSIBLE-IMPOSSIBILITY-INPUT",
+      "path": "corpus/definitions/necessarybeing-possible-impossibility-input.json",
+      "record_sha256": "b86d4af488b75f80f9638d00e4f2ad6a34700d05eb27af0ede6f6fc43f5878bd",
+      "direct_statement_ids": [
+        "STMT-POSSIBLE-IMPOSSIBILITY-INPUT"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "The reported question alone supplies neither modal invariance nor an affirmative answer.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-NECESSARY-IF-ACTUAL-CONDITIONAL",
+      "path": "corpus/definitions/necessary-if-actual-conditional.json",
+      "record_sha256": "60ac03ac460b6267807e098c50e15b0eafbabc7932d01a56ff3f72ed37f881c5",
+      "direct_statement_ids": [],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": "TruthCore.Modal.NecessaryIfExistent.ActualConditional",
+      "statement_lean_declarations": {},
+      "disposition": "retained typed scope",
+      "boundary": "ActualConditional is only G w\u2192Box G w; boxed/global scope is not silently imported.",
+      "inspection_scope": "Definition prose and its direct corpus references; linked typed declaration bodies inspected where supplied. This is not renewed source attribution or verification of all proof descendants."
+    },
+    {
+      "definition_id": "DEF-OPPY-CAUSAL-MODAL-COMPARISON",
+      "path": "corpus/definitions/oppy-causal-modal-comparison.json",
+      "record_sha256": "dc03f6cfcf5f2929ab4d45aa5337476331430adec0d1738283c86652aa528171",
+      "direct_statement_ids": [
+        "STMT-OPPY-2020-NATURAL-CAUSAL-REALITY",
+        "STMT-OPPY-2020-NECESSITY-COMPARATIVE-COST",
+        "STMT-OPPY-2020-SHARED-LAWS-INITIAL-HISTORY"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Shared histories/laws and an ontological-necessity proposal supply no rigid necessary individual or classical attributes automatically.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-PARTICULAR-SUBSTANTIAL-FORM",
+      "path": "corpus/definitions/particular-substantial-form.json",
+      "record_sha256": "8933f0cbca0518ddca524d5068a8cfad82305801ebf3deeb1f8db93b0193c284",
+      "direct_statement_ids": [
+        "STMT-PARTICULAR-FORMS-WITHOUT-COMMON-NATURE",
+        "STMT-SPECIFIC-AGREEMENT-WITHOUT-COMMON-CONSTITUENT"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "A particular substantial form is not a mental sign, numerically shared humanity or a separate Platonic exemplar by definition.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-PER-SE-ESSE-CONSERVATION",
+      "path": "corpus/definitions/per-se-esse-conservation.json",
+      "record_sha256": "c3ccac9befeffedbb535e5dd64dc7d444019b24964897347ac49a8e2eaa0c587",
+      "direct_statement_ids": [
+        "STMT-BECOMING-CAUSE-NEED-NOT-SUSTAIN-BEING",
+        "STMT-DIVINE-ESSE-CONSERVATION-CONTINUES-GIVING-ESSE"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Source conservation is not automatically any nonexistence counterfactual or a new production at every time.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-PHAEDO-HYPOTHETICAL-START",
+      "path": "corpus/definitions/phaedo-hypothetical-start.json",
+      "record_sha256": "cb3c6434d4f8c50105eca3218967bb44813b431084c73e88f7388af2d5dcc188",
+      "direct_statement_ids": [
+        "STMT-PLATONIC-PHAEDO-100B-FORMS-HYPOTHESIS"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Conditional hypothesis adoption is neither proof of the hypothesis nor evidence of disbelief.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-PILOT-OPINION-OPPOSITION",
+      "path": "corpus/definitions/pilot-opinion-opposition.json",
+      "record_sha256": "30d8f3f668952af03de7f3f2428b7661e487175efece7d94999d457aa55bb8b4",
+      "direct_statement_ids": [
+        "STMT-PILOT-OPPOSED-OPINIONS"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": "TruthCore.Logic.TruthPilot.OpposedOpinions",
+      "statement_lean_declarations": {
+        "STMT-PILOT-OPPOSED-OPINIONS": "TruthCore.Logic.TruthPilot.OpposedOpinions"
+      },
+      "disposition": "retained typed scope",
+      "boundary": "OpposedOpinions permits arbitrary supplied opposition; logical negation and truth incompatibility require separate bridges.",
+      "inspection_scope": "Definition prose and its direct corpus references; linked typed declaration bodies inspected where supplied. This is not renewed source attribution or verification of all proof descendants."
+    },
+    {
+      "definition_id": "DEF-PLOTINIAN-CONSTITUTIVE-NEED",
+      "path": "corpus/definitions/plotinian-constitutive-need.json",
+      "record_sha256": "503f4b1f2996f5a87e7d5871c7a024c3926274daf427fb1c05831efe28711dde",
+      "direct_statement_ids": [
+        "STMT-PLOTINIAN-COMPOSITE-NEED",
+        "STMT-PLOTINIAN-DERIVATIVE-SCOPE"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Constitution from simples is not a distinct efficient cause of continued esse or temporal production.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-PLOTINIAN-SIMPLICITY",
+      "path": "corpus/definitions/plotinian-simplicity.json",
+      "record_sha256": "8bede6ae73fd779ecf499364588a6e2a55112e1e271a9643325e198cf202bd2f",
+      "direct_statement_ids": [
+        "STMT-PLOTINIAN-BODY-NOT-FIRST",
+        "STMT-PLOTINIAN-COMPOSITE-NEED",
+        "STMT-PLOTINIAN-FIRST-SELF-STANDING",
+        "STMT-PLOTINIAN-FIRST-UNIQUE",
+        "STMT-PLOTINIAN-INTELLECT-NOT-FIRST"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "The intended composition exclusion is stronger than material atomism or merely being numerically one.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-PRIORITY-IN-TIME",
+      "path": "corpus/definitions/priority-in-time.json",
+      "record_sha256": "b5b17f689cb1f52ddf998aedfeff4f873e899f2ef70487934fd0664b5e97c43f",
+      "direct_statement_ids": [],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "The local potency-before-act source contrast remains unbound and distinct from simple/substantial priority.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-PROCLUS-UNITY-PARTICIPATION",
+      "path": "corpus/definitions/proclus-unity-participation.json",
+      "record_sha256": "6943d5d26a5b6423872c81f66cd1d1e78acad0c7b266fc1e7b795f4812633595",
+      "direct_statement_ids": [
+        "STMT-PARTICIPANT-RECEIVED-UNITY-NOT-ONE-ITSELF"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": "TruthCore.Greek.Plato.Forms.Vocabulary.Participates",
+      "statement_lean_declarations": {
+        "STMT-PARTICIPANT-RECEIVED-UNITY-NOT-ONE-ITSELF": "TruthCore.Greek.Proclus.ElementsTheology.ParticipantUnityContrast"
+      },
+      "disposition": "clarified locator role",
+      "boundary": "Point to the same shared Participates field; retain the Proclus argument interpretation and received-unity/nonidentity constraint separately.",
+      "inspection_scope": "Definition prose and its direct corpus references; linked typed declaration bodies inspected where supplied. This is not renewed source attribution or verification of all proof descendants."
+    },
+    {
+      "definition_id": "DEF-Q11-DIVINE-PERSON-OUTSIDE-DOMAIN",
+      "path": "corpus/definitions/q11-divine-person-outside-domain.json",
+      "record_sha256": "d5136c2fbaca39166c4d33c4eb564982a8155cf04d383289410373768d89a9b1",
+      "direct_statement_ids": [],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "The Being-domain Q11 statement is not a formalization of Trinitarian persons or a person-count proof.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-REASON-ENHANCED-JUSTIFICATION",
+      "path": "corpus/definitions/reason-enhanced-justification.json",
+      "record_sha256": "cf1b720b6cb026639b456db062e5d2529dd04ae9714e2de7ac2d302138d5ec7a",
+      "direct_statement_ids": [
+        "STMT-KLEIN-TURRI-AVAILABLE-REASONS",
+        "STMT-KLEIN-TURRI-INFINITIST-NECESSARY-CONDITIONS",
+        "STMT-KLEIN-TURRI-OPPOSED-CHAINS-CHALLENGE",
+        "STMT-KLEIN-TURRI-PROOF-OF-CONCEPT-BURDEN",
+        "STMT-KLEIN-TURRI-REASON-ENHANCEMENT",
+        "STMT-KLEIN-TURRI-RESTRICTED-STATUS",
+        "STMT-KLEIN-TURRI-TRANSFER-ONLY-OBJECTION"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "A reason's enhancement and its own adequacy, basing, complete justification and knowledge are distinct.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-SAID-OF-TRULY",
+      "path": "corpus/definitions/said-of-truly.json",
+      "record_sha256": "d1a81c701ee88172db6cea10cce4d70817d597e8a6a2a7c0191f43b0b6fa0f6c",
+      "direct_statement_ids": [],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Broad accidental/denominative predication remains a contrast sense, not formal per-se predication.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-SCG-I42-ECONOMY-MOVERS-ORDER",
+      "path": "corpus/definitions/scg-i42-economy-movers-order.json",
+      "record_sha256": "08824f14f4b04a9b71d48ed3bc6f539693e5d05709fc04b461e297a19557b4b2",
+      "direct_statement_ids": [
+        "STMT-AQUINAS-SCG-I42-ALTERNATING-MOVERS-IRREGULAR",
+        "STMT-AQUINAS-SCG-I42-CONDITIONAL-ONE-FIRST-MOTION-MOVER",
+        "STMT-AQUINAS-SCG-I42-CONDITIONAL-ONE-WORLD-GOVERNOR",
+        "STMT-AQUINAS-SCG-I42-ECONOMY-ONE-PRINCIPLE",
+        "STMT-AQUINAS-SCG-I42-JOINT-MOVERS-IMPERFECT",
+        "STMT-AQUINAS-SCG-I42-ORDER-ACCIDENTAL-OR-ONE-SOURCE",
+        "STMT-AQUINAS-SCG-I42-SPIRITUAL-FIRST-MOTION-END"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Explanatory economy, independent or partial movers and numerical uniqueness require different premises.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-SCHAFFER-BASIC-OBJECT",
+      "path": "corpus/definitions/schaffer-basic-object.json",
+      "record_sha256": "b9a7ac73670428f2da0cdf0ceb590574d51860dd62c93dcc575852512b55a252",
+      "direct_statement_ids": [
+        "STMT-SCHAFFER-BASIC-COMPOSITE-WHOLE",
+        "STMT-SCHAFFER-DERIVATIVE-ORDER-OPEN",
+        "STMT-SCHAFFER-PRIORITY-FOUNDATIONALISM",
+        "STMT-SCHAFFER-TILING-JUSTIFICATION"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Basicness is relative concrete independence, not absence of every efficient cause or complete explanation.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-SCHAFFER-TILING",
+      "path": "corpus/definitions/schaffer-tiling.json",
+      "record_sha256": "ee9b694545aec68d576dd660685421fa2050b8a410264d6af8b9751025d901b3",
+      "direct_statement_ids": [
+        "STMT-SCHAFFER-TILING-JUSTIFICATION"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Fusion/no-overlap tiling is stronger than no inter-basic parthood; its proposed justifications are not definitions of parthood.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-SCIENCE-THEORY-LADEN-TEST",
+      "path": "corpus/definitions/science-theory-laden-test.json",
+      "record_sha256": "5d7290b591cd3ecad6c34f7fa0309831f36712bfc1e566e606d6e7dc08e7c2d8",
+      "direct_statement_ids": [
+        "STMT-EXPERIMENT-APPLICATION-VERSUS-TEST",
+        "STMT-PHYSICAL-EXPERIMENT-THEORETICAL-INTERPRETATION",
+        "STMT-SCIENTIFIC-REVISION-DEFEASIBLE-JUDGMENT",
+        "STMT-TEST-FAILURE-THEORETICAL-BUNDLE"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "A failed forecast challenges an ensemble; assigning fault to one member needs an additional confidence judgment.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-SELLARS-RECOGNIZED-REPORT-AUTHORITY",
+      "path": "corpus/definitions/sellars-recognized-report-authority.json",
+      "record_sha256": "40c484181aa3d17bbbb10efd075b312d447dca44ec6d2e25388250802253ae97",
+      "direct_statement_ids": [
+        "STMT-SELLARS-PRESENT-MEMORY-NOT-PAST-KNOWING",
+        "STMT-SELLARS-RECOGNIZED-REPORT-RELIABILITY"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Reliable indication and recognized reliability are distinct and are not declared jointly sufficient for all knowledge.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-SEXTUS-ESTABLISHING-PROOF",
+      "path": "corpus/definitions/sextus-establishing-proof.json",
+      "record_sha256": "d77f4e2956658b44ca1b69736be1f1eee0e924a4a5a0d5d5369ee3bb60a94de6",
+      "direct_statement_ids": [
+        "STMT-SEXTUS-BARE-HYPOTHESIS-NO-PRIVILEGE",
+        "STMT-SEXTUS-DISPUTED-CRITERION-DEMAND",
+        "STMT-SEXTUS-RECIPROCAL-SUPPORT-SUSPENSION",
+        "STMT-SEXTUS-REGRESS-UNSETTLED-PROOF"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Disputed epistemic establishment is not efficient causation, a graph edge or mere material implication.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-SOUL-PASSIVE-APPETITIVE-POWER",
+      "path": "corpus/definitions/soul-passive-appetitive-power.json",
+      "record_sha256": "2826521b6c556d98d929bcc089cebbfbc5181f78048a4aec3f8661273717c7ec",
+      "direct_statement_ids": [
+        "STMT-SOUL-INTELLECTUAL-AND-SENSITIVE-APPETITES-DISTINCT"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Creaturely passive appetite is not the universal HasWill predicate or unrealized divine potency.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-TEMPORAL-SUCCESSION-Q10",
+      "path": "corpus/definitions/temporal-succession-q10.json",
+      "record_sha256": "55a2ae1f1f4e77eeb7481f7a16dabd330a9ac58191ea997a96e5aff9f52e8b51",
+      "direct_statement_ids": [
+        "STMT-ENDLESS-TIME-STILL-DIFFERS-FROM-ETERNITY"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Successive duration, even unlimited, is not proper eternity; no time ontology is selected.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-TRUTHMAKER-SOURCE-DOCTRINE",
+      "path": "corpus/definitions/truthmaker-source-doctrine.json",
+      "record_sha256": "d874ac0d5e1071e7f24bd9acab99cf363460f43dc3f5f8ada6c0fa69d9174a75",
+      "direct_statement_ids": [
+        "STMT-EVERY-TRUTH-HAS-A-TRUTHMAKER",
+        "STMT-NEGATIVE-EXISTENTIAL-TRUTHS-LACK-TRUTHMAKERS",
+        "STMT-ONLY-MERE-EXISTENCE-TRUTHS-MUST-HAVE-TRUTHMAKERS",
+        "STMT-TRUTHMAKING-GUARDED-NECESSITATION"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Source truthmaker entities are not automatically formal-world reasons or an existence-label explanation.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    },
+    {
+      "definition_id": "DEF-TWO-RELATION-METAPHYSICAL-PROFILE",
+      "path": "corpus/definitions/two-relation-metaphysical-profile.json",
+      "record_sha256": "37b33e70777bd7c3dbfaf63c29a8195cc54a1cbc9a141d7bc0282c751218beea",
+      "direct_statement_ids": [],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": "TruthCore.Modal.PossibilityTransfer.metaphysical",
+      "statement_lean_declarations": {},
+      "disposition": "retained typed scope",
+      "boundary": "The exact identity-accessibility Bool profile is stipulated, not real metaphysical possibility or proof search.",
+      "inspection_scope": "Definition prose and its direct corpus references; linked typed declaration bodies inspected where supplied. This is not renewed source attribution or verification of all proof descendants."
+    },
+    {
+      "definition_id": "DEF-UNIVERSAL-MENTAL-SIGN",
+      "path": "corpus/definitions/universal-mental-sign.json",
+      "record_sha256": "be1fbaf2d10c700ee1e0b1cbfad2977cd87b708099edf7224b42e3acee2ecb35",
+      "direct_statement_ids": [
+        "STMT-COMMON-NAME-UNIVOCITY-THROUGH-ONE-CONCEPT",
+        "STMT-MENTAL-UNIVERSAL-NOT-EXTRAMENTAL-SUBSTANCE",
+        "STMT-NATURAL-AND-CONVENTIONAL-UNIVERSAL-SIGNS",
+        "STMT-UNIVERSAL-EXPRESSES-NOT-CONSTITUTES-NATURE",
+        "STMT-UNIVERSAL-SIGN-NUMERICALLY-SINGULAR"
+      ],
+      "argument_consumer_ids": [],
+      "definition_lean_declaration": null,
+      "statement_lean_declarations": {},
+      "disposition": "retained unbound glossary scope",
+      "boundary": "Natural semantic aptitude for many is not actual many-instance existence, acquisition or reliable cognition.",
+      "inspection_scope": "Definition prose and its direct corpus references. No definition-side or directly linked statement Lean declaration is supplied; other Lean analogues are not ruled out."
+    }
+  ]
+}
