@@ -1,0 +1,10 @@
+{
+  "id": "CAUSE-SENSE-FORK-NO-SELF-EFFICIENT-CAUSE",
+  "argument_id": "CAUSE-SENSE-FORK-NO-SELF-EFFICIENT-CAUSE",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks.noSelfEfficientCauseBySenseFork",
+  "comparator_config": "results/CAUSE-SENSE-FORK-NO-SELF-EFFICIENT-CAUSE/comparator.json",
+  "status": "solution-present",
+  "description": "Joint sense fork for 'cause'. Coverage reads the route's 'cause' in 'nothing causes itself' as moving, efficient causing, causing a perfection or cause of origin. Efficient branch: direct. Moving branch: a self-efficient cause would move itself (open bridge), which the route premise excludes. Origin branch: it would originate itself (open bridge), likewise excluded. Perfection branch: impossible, since some subject causes its own perfection. Hence nothing is its own efficient cause, under the five OPEN premises."
+}

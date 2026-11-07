@@ -1,0 +1,167 @@
+# Sense forks for the load-bearing root-path terms "prior" and "cause"
+# (docs/notes/load-bearing-terms.md). Analyst formulations, attribution deferred.
+# Coverage and exclusivity of each term's senses are explicit OPEN frontier premises.
+target = "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY"
+
+[[node]]
+id = "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY"
+
+[[node]]
+id = "STMT-PRIOR-SENSES-EXHAUSTIVE"
+
+[[node]]
+id = "STMT-PRIOR-SENSE-UNIQUE"
+
+[[node]]
+id = "STMT-PRIOR-ROUTE-USES-AGREE"
+
+[[node]]
+id = "STMT-ACT-PRIOR-TO-POTENCY-IN-ROUTE-SENSE"
+
+[[node]]
+id = "STMT-ACT-PRIOR-TO-POTENCY-IN-TIME"
+
+[[node]]
+id = "STMT-ACT-NOT-PRIOR-TO-POTENCY-IN-TIME"
+
+[[node]]
+id = "STMT-ACT-PRIOR-TO-POTENCY-IN-SUBSTANCE"
+
+[[node]]
+id = "STMT-PRIOR-IN-SUBSTANCE-IS-SIMPLE"
+
+[[node]]
+id = "STMT-TEMPORALLY-FIRST-BEING-IN-POTENCY"
+
+[[node]]
+id = "STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF"
+
+[[node]]
+id = "STMT-CAUSE-SENSES-EXHAUSTIVE"
+
+[[node]]
+id = "STMT-CAUSE-SENSE-UNIQUE"
+
+[[node]]
+id = "STMT-CAUSE-ROUTE-USES-AGREE"
+
+[[node]]
+id = "STMT-NOTHING-CAUSES-ITSELF-IN-ROUTE-SENSE"
+
+[[node]]
+id = "STMT-NOTHING-CAUSES-ITS-OWN-PERFECTION"
+
+[[node]]
+id = "STMT-SOME-SUBJECT-CAUSES-ITS-OWN-PERFECTION"
+
+[[node]]
+id = "STMT-OWN-PERFECTION-NOT-ALWAYS-EXTERNAL"
+
+[[node]]
+id = "STMT-SELF-EFFICIENT-CAUSATION-IS-SELF-MOVING"
+
+[[node]]
+id = "STMT-SELF-EFFICIENT-CAUSATION-IS-SELF-ORIGINATION"
+
+[[node]]
+id = "STMT-NOTHING-ORIGINATES-ITSELF"
+
+[[node]]
+id = "STMT-NO-MOVER-MOVES-ITSELF-IN-ITS-RESPECT"
+
+[[node]]
+id = "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT"
+
+[[edge]]
+premises = ["STMT-PRIOR-SENSES-EXHAUSTIVE", "STMT-ACT-PRIOR-TO-POTENCY-IN-ROUTE-SENSE", "STMT-PRIOR-IN-SUBSTANCE-IS-SIMPLE", "STMT-TEMPORALLY-FIRST-BEING-IN-POTENCY"]
+conclusion = "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY"
+kind = "derivation"
+status = "certified"
+argument = "PRIOR-SENSE-FORK-ACT-SIMPLY-PRIOR"
+note = "Joint fork by cases over PrioritySense: simple direct, substance via bridge, time refuted."
+
+[[edge]]
+premises = ["STMT-TEMPORALLY-FIRST-BEING-IN-POTENCY"]
+conclusion = "STMT-ACT-NOT-PRIOR-TO-POTENCY-IN-TIME"
+kind = "derivation"
+status = "certified"
+argument = "ACT-NOT-PRIOR-IN-TIME-FROM-TEMPORALLY-FIRST-POTENCY"
+note = "Temporal branch refuted (refutes STMT-ACT-PRIOR-TO-POTENCY-IN-TIME)."
+
+[[edge]]
+premises = ["STMT-ACT-PRIOR-TO-POTENCY-IN-SUBSTANCE", "STMT-PRIOR-IN-SUBSTANCE-IS-SIMPLE"]
+conclusion = "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY"
+kind = "derivation"
+status = "certified"
+argument = "ACT-SIMPLY-PRIOR-FROM-SUBSTANCE-PRIORITY"
+note = "Substance branch."
+
+[[edge]]
+premises = ["STMT-PRIOR-SENSES-EXHAUSTIVE", "STMT-PRIOR-SENSE-UNIQUE"]
+conclusion = "STMT-PRIOR-ROUTE-USES-AGREE"
+kind = "derivation"
+status = "certified"
+argument = "PRIOR-ROUTE-USES-AGREE-FROM-UNIQUE-SENSE"
+note = "Exclusivity blocks equivocation; the controls separate it from coverage."
+
+[[edge]]
+premises = ["STMT-ACT-PRIOR-TO-POTENCY-IN-TIME"]
+conclusion = "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY"
+kind = "derivation"
+status = "rejected"
+note = "No bridge from priority in time to simple priority: Aquinas (ST I q.3 a.1) grants potency prior in time within one changing thing while act is simply prior, so the senses come apart in his own account."
+
+[[edge]]
+premises = ["STMT-CAUSE-SENSES-EXHAUSTIVE", "STMT-NOTHING-CAUSES-ITSELF-IN-ROUTE-SENSE", "STMT-SOME-SUBJECT-CAUSES-ITS-OWN-PERFECTION", "STMT-SELF-EFFICIENT-CAUSATION-IS-SELF-MOVING", "STMT-SELF-EFFICIENT-CAUSATION-IS-SELF-ORIGINATION"]
+conclusion = "STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF"
+kind = "derivation"
+status = "certified"
+argument = "CAUSE-SENSE-FORK-NO-SELF-EFFICIENT-CAUSE"
+note = "Joint fork by cases over CauseSense: efficient direct, moving and origin via bridges, perfection refuted."
+
+[[edge]]
+premises = ["STMT-SOME-SUBJECT-CAUSES-ITS-OWN-PERFECTION"]
+conclusion = "STMT-OWN-PERFECTION-NOT-ALWAYS-EXTERNAL"
+kind = "derivation"
+status = "certified"
+argument = "SELF-PERFECTING-SUBJECT-REFUTES-NO-SELF-PERFECTION"
+note = "Perfection branch refuted (refutes STMT-NOTHING-CAUSES-ITS-OWN-PERFECTION)."
+
+[[edge]]
+premises = ["STMT-NO-MOVER-MOVES-ITSELF-IN-ITS-RESPECT", "STMT-SELF-EFFICIENT-CAUSATION-IS-SELF-MOVING"]
+conclusion = "STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF"
+kind = "derivation"
+status = "certified"
+argument = "NO-SELF-EFFICIENT-CAUSE-FROM-NO-SELF-MOVER"
+note = "Moving branch."
+
+[[edge]]
+premises = ["STMT-NOTHING-ORIGINATES-ITSELF", "STMT-SELF-EFFICIENT-CAUSATION-IS-SELF-ORIGINATION"]
+conclusion = "STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF"
+kind = "derivation"
+status = "certified"
+argument = "NO-SELF-EFFICIENT-CAUSE-FROM-NO-SELF-ORIGIN"
+note = "Origin branch."
+
+[[edge]]
+premises = ["STMT-NO-MOVER-MOVES-ITSELF-IN-ITS-RESPECT"]
+conclusion = "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT"
+kind = "derivation"
+status = "certified"
+argument = "SAME-RESPECT-NO-SELF-MOTION-FROM-NO-SELF-MOVER"
+note = "Strength order within the moving sense (strengthens relation)."
+
+[[edge]]
+premises = ["STMT-CAUSE-SENSES-EXHAUSTIVE", "STMT-CAUSE-SENSE-UNIQUE"]
+conclusion = "STMT-CAUSE-ROUTE-USES-AGREE"
+kind = "derivation"
+status = "certified"
+argument = "CAUSE-ROUTE-USES-AGREE-FROM-UNIQUE-SENSE"
+note = "Exclusivity blocks equivocation on 'cause'."
+
+[[edge]]
+premises = ["STMT-NOTHING-CAUSES-ITS-OWN-PERFECTION"]
+conclusion = "STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF"
+kind = "derivation"
+status = "rejected"
+note = "Would need efficient causing in r to be causing the perfection r (plausible bridge), but the premise is itself refuted under the self-perfecting-subject premise, so the branch is closed by refutation instead."

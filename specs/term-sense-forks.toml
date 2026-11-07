@@ -1,0 +1,272 @@
+# Sense forks for the load-bearing root-path terms "prior" and "cause"
+# (docs/notes/load-bearing-terms.md; explorations/term-sense-forks.toml).
+# Analyst formulations, attribution deferred: every new statement is an OPEN premise.
+# Coverage and exclusivity of each term's senses are explicit frontier premises.
+
+[batch]
+vocab = "TruthCore.Causality.TermSenseForks"
+results = "TruthCore.Results.Causality.TermSenseForks"
+
+# ---- "prior" ----
+
+[[statement]]
+id = "STMT-PRIOR-SENSES-EXHAUSTIVE"
+lean = "PriorSensesExhaustive"
+paraphrase = "OPEN frontier premise (coverage, attribution deferred): every use of 'prior' on the route to act's priority over potency is read in one of three senses, simple priority, priority in time, or priority in substance, selected by the route's reading, and the use's relation is exactly the relation of that sense. A rival who proposes a further sense of 'prior' denies this premise."
+definitions = ["DEF-ROUTE-SENSE-SELECTION", "DEF-SIMPLE-PRIORITY", "DEF-PRIORITY-IN-TIME", "DEF-PRIORITY-IN-SUBSTANCE"]
+disambiguations = ["DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"]
+
+[[statement]]
+id = "STMT-PRIOR-SENSE-UNIQUE"
+lean = "PriorSenseUnique"
+paraphrase = "OPEN frontier premise (exclusivity, attribution deferred): the route's reading of 'prior' selects at most one of the three senses. It is a constraint on the reading choice, not a claim that the extensions of the senses are disjoint; with coverage it gives exactly one selected sense."
+definitions = ["DEF-ROUTE-SENSE-SELECTION"]
+disambiguations = ["DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"]
+
+[[statement]]
+id = "STMT-PRIOR-ROUTE-USES-AGREE"
+lean = "PriorRouteUsesAgree"
+paraphrase = "Every use of 'prior' on the route stands for one and the same relation: the route does not equivocate on 'prior'."
+definitions = ["DEF-ROUTE-SENSE-SELECTION"]
+disambiguations = ["DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"]
+
+[[statement]]
+id = "STMT-ACT-PRIOR-TO-POTENCY-IN-ROUTE-SENSE"
+lean = "ActPriorInRouteSense"
+paraphrase = "OPEN analyst premise (attribution deferred): act is prior to potency in the route's sense of 'prior': whatever is in potency in a respect is posterior, in that sense, to some being in act in that respect. Read with simple priority it is STMT-ACT-SIMPLY-PRIOR-TO-POTENCY."
+definitions = ["DEF-ACT", "DEF-POTENCY", "DEF-ROUTE-SENSE-SELECTION"]
+disambiguations = ["DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"]
+
+[[statement]]
+id = "STMT-ACT-PRIOR-TO-POTENCY-IN-TIME"
+lean = "ActPriorInTime"
+paraphrase = "Rival temporal reading (attribution deferred): whatever is in potency in a respect has some being in act in that respect that is before it in time."
+definitions = ["DEF-ACT", "DEF-POTENCY", "DEF-PRIORITY-IN-TIME"]
+disambiguations = ["DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"]
+
+[[statement]]
+id = "STMT-ACT-NOT-PRIOR-TO-POTENCY-IN-TIME"
+lean = "ActNotPriorInTime"
+paraphrase = "The temporal branch fails: it is not the case that whatever is in potency in a respect has some being in act in that respect before it in time."
+definitions = ["DEF-ACT", "DEF-POTENCY", "DEF-PRIORITY-IN-TIME"]
+disambiguations = ["DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"]
+
+[[statement]]
+id = "STMT-ACT-PRIOR-TO-POTENCY-IN-SUBSTANCE"
+lean = "ActPriorInSubstance"
+paraphrase = "OPEN analyst premise (attribution deferred): whatever is in potency in any respect has some being in act in that respect that is prior to it in substance and perfection. Wider than the esse-restricted yield of ActPriorFromIncorruptibleFacts."
+definitions = ["DEF-ACT", "DEF-POTENCY", "DEF-PRIORITY-IN-SUBSTANCE"]
+disambiguations = ["DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"]
+
+[[statement]]
+id = "STMT-PRIOR-IN-SUBSTANCE-IS-SIMPLE"
+lean = "TruthCore.Latin.Aquinas.SummaTheologiae.PriorInSubstanceIsSimpleReading"
+paraphrase = "OPEN analyst bridge (unattributed; #352): whatever is prior to x in substance and perfection is simply prior to x. No source read identifies the two relations."
+definitions = ["DEF-SIMPLE-PRIORITY", "DEF-PRIORITY-IN-SUBSTANCE"]
+disambiguations = ["DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"]
+
+[[statement]]
+id = "STMT-TEMPORALLY-FIRST-BEING-IN-POTENCY"
+lean = "TemporallyFirstBeingInPotency"
+paraphrase = "OPEN analyst premise (attribution deferred): some being before which nothing is in time is in potency in some respect, as in the Night or chaos cosmogonies of Metaphysics XII.6 1071b26-28 or any world whose first being is changeable. Aristotle's Theta.8 claim that act is prior in time in species, though not in number, is a rival to it."
+definitions = ["DEF-POTENCY", "DEF-PRIORITY-IN-TIME"]
+disambiguations = ["DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"]
+
+# ---- "cause" ----
+
+[[statement]]
+id = "STMT-CAUSE-SENSES-EXHAUSTIVE"
+lean = "CauseSensesExhaustive"
+paraphrase = "OPEN frontier premise (coverage, attribution deferred): every use of 'cause' on the route to 'nothing is its own efficient cause' is read in one of four senses, moving, efficient causing, causing a perfection, or cause of origin, selected by the route's reading, and the use's relation is exactly the relation of that sense. Grounding (Ontic.Causes) and Aristotle's formal, material and final causes are not covered; a rival who reads the route with one of them denies this premise."
+definitions = ["DEF-ROUTE-SENSE-SELECTION", "DEF-MOTION-AS-REDUCTION", "DEF-EFFICIENT-CAUSING", "DEF-CAUSE-OF-PERFECTION", "DEF-CAUSE-OF-ORIGIN"]
+disambiguations = ["DISAMB-CAUSE"]
+
+[[statement]]
+id = "STMT-CAUSE-SENSE-UNIQUE"
+lean = "CauseSenseUnique"
+paraphrase = "OPEN frontier premise (exclusivity, attribution deferred): the route's reading of 'cause' selects at most one of the four senses. It constrains the reading choice; it does not claim that moving, efficient causing, causing a perfection and originating have disjoint extensions."
+definitions = ["DEF-ROUTE-SENSE-SELECTION"]
+disambiguations = ["DISAMB-CAUSE"]
+
+[[statement]]
+id = "STMT-CAUSE-ROUTE-USES-AGREE"
+lean = "CauseRouteUsesAgree"
+paraphrase = "Every use of 'cause' on the route stands for one and the same relation: the route does not equivocate on 'cause'."
+definitions = ["DEF-ROUTE-SENSE-SELECTION"]
+disambiguations = ["DISAMB-CAUSE"]
+
+[[statement]]
+id = "STMT-NOTHING-CAUSES-ITSELF-IN-ROUTE-SENSE"
+lean = "NothingCausesItselfInRouteSense"
+paraphrase = "OPEN analyst premise (attribution deferred): nothing causes itself in any respect, 'cause' in the route's sense."
+definitions = ["DEF-ROUTE-SENSE-SELECTION"]
+disambiguations = ["DISAMB-CAUSE"]
+
+[[statement]]
+id = "STMT-NOTHING-CAUSES-ITS-OWN-PERFECTION"
+lean = "NothingCausesItsOwnPerfection"
+paraphrase = "Rival perfection reading (attribution deferred): nothing causes a perfection in itself; every caused perfection of a thing is caused by something else."
+definitions = ["DEF-CAUSE-OF-PERFECTION"]
+disambiguations = ["DISAMB-CAUSE"]
+
+[[statement]]
+id = "STMT-SOME-SUBJECT-CAUSES-ITS-OWN-PERFECTION"
+lean = "SomeSubjectCausesItsOwnPerfection"
+paraphrase = "OPEN analyst premise (attribution deferred): some subject causes a perfection in itself, as a subject causes its proper accidents from its own essential principles (navigation: ST I q.3 a.4, q.77 a.6)."
+definitions = ["DEF-CAUSE-OF-PERFECTION"]
+disambiguations = ["DISAMB-CAUSE"]
+
+[[statement]]
+id = "STMT-OWN-PERFECTION-NOT-ALWAYS-EXTERNAL"
+lean = "OwnPerfectionNotAlwaysExternal"
+paraphrase = "The perfection branch fails: it is not the case that nothing causes a perfection in itself."
+definitions = ["DEF-CAUSE-OF-PERFECTION"]
+disambiguations = ["DISAMB-CAUSE"]
+
+[[statement]]
+id = "STMT-SELF-EFFICIENT-CAUSATION-IS-SELF-MOVING"
+lean = "SelfEfficientCausationIsSelfMoving"
+paraphrase = "OPEN analyst bridge (attribution deferred): whatever efficiently caused itself in a respect would move itself in that respect (efficient causing as source of motion)."
+definitions = ["DEF-EFFICIENT-CAUSING", "DEF-MOTION-AS-REDUCTION"]
+disambiguations = ["DISAMB-CAUSE"]
+
+[[statement]]
+id = "STMT-NOTHING-ORIGINATES-ITSELF"
+lean = "NothingOriginatesItself"
+paraphrase = "OPEN analyst premise (attribution deferred): nothing is the originating cause (cause of coming to be) of itself."
+definitions = ["DEF-CAUSE-OF-ORIGIN"]
+disambiguations = ["DISAMB-CAUSE"]
+
+[[statement]]
+id = "STMT-SELF-EFFICIENT-CAUSATION-IS-SELF-ORIGINATION"
+lean = "SelfEfficientCausationIsSelfOrigination"
+paraphrase = "OPEN analyst bridge (attribution deferred): whatever efficiently caused itself in some respect would be a cause of its own coming to be."
+definitions = ["DEF-EFFICIENT-CAUSING", "DEF-CAUSE-OF-ORIGIN"]
+disambiguations = ["DISAMB-CAUSE"]
+
+[[statement]]
+id = "STMT-TERM-SENSE-FORKS-CONTROLS"
+lean = "TermSenseForkControls"
+paraphrase = "Finite interpretations for the two sense forks: for each premise of the joint theorems a model in which the other premises hold and the conclusion fails; a joint nonvacuity witness per fork; and per term a model in which coverage holds, exclusivity fails and two uses of the term stand for different relations. Satisfiability and omission only; no model describes reality."
+definitions = ["DEF-ROUTE-SENSE-SELECTION", "DEF-SIMPLE-PRIORITY", "DEF-EFFICIENT-CAUSING"]
+disambiguations = ["DISAMB-PRIORITY-SIMPLE-OR-IN-TIME", "DISAMB-CAUSE"]
+
+# ---- Arguments ----
+
+[[argument]]
+id = "PRIOR-SENSE-FORK-ACT-SIMPLY-PRIOR"
+theorem = "actSimplyPriorBySenseFork"
+premises = ["STMT-PRIOR-SENSES-EXHAUSTIVE", "STMT-ACT-PRIOR-TO-POTENCY-IN-ROUTE-SENSE", "STMT-PRIOR-IN-SUBSTANCE-IS-SIMPLE", "STMT-TEMPORALLY-FIRST-BEING-IN-POTENCY"]
+conclusion = "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY"
+rule = "Proof by cases over the sense enum (disjunctive syllogism), modus ponens"
+meaning = "Joint sense fork for 'prior'. Coverage reads the route's 'prior' in one of simple priority, priority in time or priority in substance. Simple branch: the route premise is act's simple priority. Substance branch: the open bridge from priority in substance to simple priority gives it. Temporal branch: impossible, since a temporally first being in potency has nothing before it in act. Hence act is simply prior to potency, under the four OPEN premises. Exclusivity is not used here; it is used by PRIOR-ROUTE-USES-AGREE-FROM-UNIQUE-SENSE."
+
+[[argument]]
+id = "ACT-NOT-PRIOR-IN-TIME-FROM-TEMPORALLY-FIRST-POTENCY"
+theorem = "actNotPriorInTime"
+premises = ["STMT-TEMPORALLY-FIRST-BEING-IN-POTENCY"]
+conclusion = "STMT-ACT-NOT-PRIOR-TO-POTENCY-IN-TIME"
+rule = "Reductio"
+meaning = "Per-sense result for the temporal branch of 'prior': if some temporally first being is in potency, act is not prior to potency in time, since nothing in act is before that being."
+
+[[argument]]
+id = "ACT-SIMPLY-PRIOR-FROM-SUBSTANCE-PRIORITY"
+theorem = "actSimplyPriorFromSubstance"
+premises = ["STMT-ACT-PRIOR-TO-POTENCY-IN-SUBSTANCE", "STMT-PRIOR-IN-SUBSTANCE-IS-SIMPLE"]
+conclusion = "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY"
+rule = "Universal instantiation and modus ponens"
+meaning = "Per-sense result for the substance branch of 'prior': act's priority in substance over every potency, with the open bridge from priority in substance to simple priority, gives act's simple priority over potency."
+
+[[argument]]
+id = "PRIOR-ROUTE-USES-AGREE-FROM-UNIQUE-SENSE"
+theorem = "priorRouteUsesAgree"
+premises = ["STMT-PRIOR-SENSES-EXHAUSTIVE", "STMT-PRIOR-SENSE-UNIQUE"]
+conclusion = "STMT-PRIOR-ROUTE-USES-AGREE"
+rule = "Existential elimination, uniqueness, transitivity of equality"
+meaning = "Coverage and exclusivity block equivocation on 'prior': each use is the relation of a selected sense, and only one sense is selected, so all uses stand for one relation. The controls give a model in which coverage holds, exclusivity fails and two uses differ."
+
+[[argument]]
+id = "CAUSE-SENSE-FORK-NO-SELF-EFFICIENT-CAUSE"
+theorem = "noSelfEfficientCauseBySenseFork"
+premises = ["STMT-CAUSE-SENSES-EXHAUSTIVE", "STMT-NOTHING-CAUSES-ITSELF-IN-ROUTE-SENSE", "STMT-SOME-SUBJECT-CAUSES-ITS-OWN-PERFECTION", "STMT-SELF-EFFICIENT-CAUSATION-IS-SELF-MOVING", "STMT-SELF-EFFICIENT-CAUSATION-IS-SELF-ORIGINATION"]
+conclusion = "STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF"
+rule = "Proof by cases over the sense enum (disjunctive syllogism), modus ponens"
+meaning = "Joint sense fork for 'cause'. Coverage reads the route's 'cause' in 'nothing causes itself' as moving, efficient causing, causing a perfection or cause of origin. Efficient branch: direct. Moving branch: a self-efficient cause would move itself (open bridge), which the route premise excludes. Origin branch: it would originate itself (open bridge), likewise excluded. Perfection branch: impossible, since some subject causes its own perfection. Hence nothing is its own efficient cause, under the five OPEN premises."
+
+[[argument]]
+id = "SELF-PERFECTING-SUBJECT-REFUTES-NO-SELF-PERFECTION"
+theorem = "ownPerfectionNotAlwaysExternal"
+premises = ["STMT-SOME-SUBJECT-CAUSES-ITS-OWN-PERFECTION"]
+conclusion = "STMT-OWN-PERFECTION-NOT-ALWAYS-EXTERNAL"
+rule = "Reductio"
+meaning = "Per-sense result for the perfection branch of 'cause': a subject that causes a perfection in itself falsifies 'nothing causes a perfection in itself'."
+
+[[argument]]
+id = "NO-SELF-EFFICIENT-CAUSE-FROM-NO-SELF-MOVER"
+theorem = "noSelfEfficientCauseFromNoSelfMover"
+premises = ["STMT-NO-MOVER-MOVES-ITSELF-IN-ITS-RESPECT", "STMT-SELF-EFFICIENT-CAUSATION-IS-SELF-MOVING"]
+conclusion = "STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF"
+rule = "Universal instantiation and modus tollens"
+meaning = "Per-sense result for the moving branch of 'cause': Aristotle's reading that whatever moves something is other than it, with the open bridge that a self-efficient cause would move itself, gives that nothing is its own efficient cause."
+
+[[argument]]
+id = "NO-SELF-EFFICIENT-CAUSE-FROM-NO-SELF-ORIGIN"
+theorem = "noSelfEfficientCauseFromOrigin"
+premises = ["STMT-NOTHING-ORIGINATES-ITSELF", "STMT-SELF-EFFICIENT-CAUSATION-IS-SELF-ORIGINATION"]
+conclusion = "STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF"
+rule = "Universal instantiation and modus tollens"
+meaning = "Per-sense result for the origin branch of 'cause': no self-origination, with the open bridge that a self-efficient cause would originate itself, gives that nothing is its own efficient cause."
+
+[[argument]]
+id = "SAME-RESPECT-NO-SELF-MOTION-FROM-NO-SELF-MOVER"
+theorem = "noSelfMovingSameRespectFromNoSelfMover"
+premises = ["STMT-NO-MOVER-MOVES-ITSELF-IN-ITS-RESPECT"]
+conclusion = "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT"
+rule = "Universal instantiation"
+meaning = "Strength order within the moving sense of 'cause': Aristotle's unrestricted reading (whatever moves something is other than it) implies the prima via's reading that nothing being moved in a respect moves itself in that respect."
+
+[[argument]]
+id = "CAUSE-ROUTE-USES-AGREE-FROM-UNIQUE-SENSE"
+theorem = "causeRouteUsesAgree"
+premises = ["STMT-CAUSE-SENSES-EXHAUSTIVE", "STMT-CAUSE-SENSE-UNIQUE"]
+conclusion = "STMT-CAUSE-ROUTE-USES-AGREE"
+rule = "Existential elimination, uniqueness, transitivity of equality"
+meaning = "Coverage and exclusivity block equivocation on 'cause': each use is the relation of a selected sense, and only one sense is selected, so all uses stand for one relation. The controls give a model in which coverage holds, exclusivity fails and two uses differ."
+
+[[argument]]
+id = "TERM-SENSE-FORKS-CONTROLS"
+theorem = "controls"
+premises = []
+conclusion = "STMT-TERM-SENSE-FORKS-CONTROLS"
+rule = "Explicit finite interpretations"
+meaning = "Finite interpretations for the two sense forks: an omission model for every premise of PRIOR-SENSE-FORK-ACT-SIMPLY-PRIOR and CAUSE-SENSE-FORK-NO-SELF-EFFICIENT-CAUSE (in each the route reads the term in the branch the omitted premise closes), a nonvacuity witness per fork, and per term a model of coverage without exclusivity in which two uses differ. Satisfiability and omission only; no model describes reality."
+
+# ---- Relations ----
+
+[[relation]]
+id = "REL-TEMPORALLY-FIRST-POTENCY-REFUTES-ACT-PRIOR-IN-TIME"
+subject_kind = "argument"
+subject_id = "ACT-NOT-PRIOR-IN-TIME-FROM-TEMPORALLY-FIRST-POTENCY"
+predicate = "refutes"
+object_kind = "statement"
+object_id = "STMT-ACT-PRIOR-TO-POTENCY-IN-TIME"
+note = "Conditional refutation of the temporal branch of 'prior' under the OPEN premise STMT-TEMPORALLY-FIRST-BEING-IN-POTENCY. Aristotle's priority of act in time in species is a rival to that premise; no historical position is refuted by this formalization."
+
+[[relation]]
+id = "REL-SELF-PERFECTING-SUBJECT-REFUTES-NO-SELF-PERFECTION"
+subject_kind = "argument"
+subject_id = "SELF-PERFECTING-SUBJECT-REFUTES-NO-SELF-PERFECTION"
+predicate = "refutes"
+object_kind = "statement"
+object_id = "STMT-NOTHING-CAUSES-ITS-OWN-PERFECTION"
+note = "Conditional refutation of the perfection branch of 'cause' under the OPEN premise STMT-SOME-SUBJECT-CAUSES-ITS-OWN-PERFECTION."
+
+[[relation]]
+id = "REL-NO-SELF-MOVER-STRENGTHENS-SAME-RESPECT-NO-SELF-MOTION"
+subject_kind = "statement"
+subject_id = "STMT-NO-MOVER-MOVES-ITSELF-IN-ITS-RESPECT"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT"
+verification_result_id = "SAME-RESPECT-NO-SELF-MOTION-FROM-NO-SELF-MOVER"
+note = "Strength order within the moving sense of 'cause'. No strictness control in this batch; a self-mover that moves itself in a respect in which it is not being moved separates them."

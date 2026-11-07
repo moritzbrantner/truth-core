@@ -1,0 +1,13 @@
+{
+  "id": "STMT-ACT-PRIOR-TO-POTENCY-IN-TIME",
+  "paraphrase": "Rival temporal reading (attribution deferred): whatever is in potency in a respect has some being in act in that respect that is before it in time.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.ActPriorInTime",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-POTENCY",
+    "DEF-PRIORITY-IN-TIME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"
+  ]
+}

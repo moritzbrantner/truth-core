@@ -1,0 +1,11 @@
+{
+  "id": "STMT-NOTHING-CAUSES-ITSELF-IN-ROUTE-SENSE",
+  "paraphrase": "OPEN analyst premise (attribution deferred): nothing causes itself in any respect, 'cause' in the route's sense.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.NothingCausesItselfInRouteSense",
+  "definition_ids": [
+    "DEF-ROUTE-SENSE-SELECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE"
+  ]
+}

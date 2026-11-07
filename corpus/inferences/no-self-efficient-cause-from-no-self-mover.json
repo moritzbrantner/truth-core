@@ -1,0 +1,12 @@
+{
+  "id": "INF-NO-SELF-EFFICIENT-CAUSE-FROM-NO-SELF-MOVER",
+  "input_statement_ids": [
+    "STMT-NO-MOVER-MOVES-ITSELF-IN-ITS-RESPECT",
+    "STMT-SELF-EFFICIENT-CAUSATION-IS-SELF-MOVING"
+  ],
+  "output_statement_id": "STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF",
+  "rule": "Universal instantiation and modus tollens",
+  "meaning": "Per-sense result for the moving branch of 'cause': Aristotle's reading that whatever moves something is other than it, with the open bridge that a self-efficient cause would move itself, gives that nothing is its own efficient cause.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

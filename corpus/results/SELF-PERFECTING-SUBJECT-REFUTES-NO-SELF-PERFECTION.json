@@ -1,0 +1,10 @@
+{
+  "id": "SELF-PERFECTING-SUBJECT-REFUTES-NO-SELF-PERFECTION",
+  "argument_id": "SELF-PERFECTING-SUBJECT-REFUTES-NO-SELF-PERFECTION",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks.ownPerfectionNotAlwaysExternal",
+  "comparator_config": "results/SELF-PERFECTING-SUBJECT-REFUTES-NO-SELF-PERFECTION/comparator.json",
+  "status": "solution-present",
+  "description": "Per-sense result for the perfection branch of 'cause': a subject that causes a perfection in itself falsifies 'nothing causes a perfection in itself'."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "NO-SELF-EFFICIENT-CAUSE-FROM-NO-SELF-ORIGIN",
+  "premise_statement_ids": [
+    "STMT-NOTHING-ORIGINATES-ITSELF",
+    "STMT-SELF-EFFICIENT-CAUSATION-IS-SELF-ORIGINATION"
+  ],
+  "conclusion_statement_id": "STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF",
+  "inference_ids": [
+    "INF-NO-SELF-EFFICIENT-CAUSE-FROM-NO-SELF-ORIGIN"
+  ],
+  "meaning": "Per-sense result for the origin branch of 'cause': no self-origination, with the open bridge that a self-efficient cause would originate itself, gives that nothing is its own efficient cause.",
+  "definition_ids": [
+    "DEF-CAUSE-OF-ORIGIN",
+    "DEF-EFFICIENT-CAUSING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE"
+  ]
+}

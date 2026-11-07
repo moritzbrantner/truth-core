@@ -1,0 +1,15 @@
+{
+  "id": "STMT-CAUSE-SENSES-EXHAUSTIVE",
+  "paraphrase": "OPEN frontier premise (coverage, attribution deferred): every use of 'cause' on the route to 'nothing is its own efficient cause' is read in one of four senses, moving, efficient causing, causing a perfection, or cause of origin, selected by the route's reading, and the use's relation is exactly the relation of that sense. Grounding (Ontic.Causes) and Aristotle's formal, material and final causes are not covered; a rival who reads the route with one of them denies this premise.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.CauseSensesExhaustive",
+  "definition_ids": [
+    "DEF-ROUTE-SENSE-SELECTION",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-EFFICIENT-CAUSING",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-CAUSE-OF-ORIGIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE"
+  ]
+}

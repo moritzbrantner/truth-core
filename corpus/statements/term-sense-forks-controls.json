@@ -1,0 +1,14 @@
+{
+  "id": "STMT-TERM-SENSE-FORKS-CONTROLS",
+  "paraphrase": "Finite interpretations for the two sense forks: for each premise of the joint theorems a model in which the other premises hold and the conclusion fails; a joint nonvacuity witness per fork; and per term a model in which coverage holds, exclusivity fails and two uses of the term stand for different relations. Satisfiability and omission only; no model describes reality.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.TermSenseForkControls",
+  "definition_ids": [
+    "DEF-ROUTE-SENSE-SELECTION",
+    "DEF-SIMPLE-PRIORITY",
+    "DEF-EFFICIENT-CAUSING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME",
+    "DISAMB-CAUSE"
+  ]
+}

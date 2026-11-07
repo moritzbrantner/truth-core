@@ -1,0 +1,10 @@
+{
+  "id": "NO-SELF-EFFICIENT-CAUSE-FROM-NO-SELF-MOVER",
+  "argument_id": "NO-SELF-EFFICIENT-CAUSE-FROM-NO-SELF-MOVER",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks.noSelfEfficientCauseFromNoSelfMover",
+  "comparator_config": "results/NO-SELF-EFFICIENT-CAUSE-FROM-NO-SELF-MOVER/comparator.json",
+  "status": "solution-present",
+  "description": "Per-sense result for the moving branch of 'cause': Aristotle's reading that whatever moves something is other than it, with the open bridge that a self-efficient cause would move itself, gives that nothing is its own efficient cause."
+}

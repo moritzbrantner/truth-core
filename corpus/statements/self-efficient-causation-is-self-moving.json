@@ -1,0 +1,12 @@
+{
+  "id": "STMT-SELF-EFFICIENT-CAUSATION-IS-SELF-MOVING",
+  "paraphrase": "OPEN analyst bridge (attribution deferred): whatever efficiently caused itself in a respect would move itself in that respect (efficient causing as source of motion).",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.SelfEfficientCausationIsSelfMoving",
+  "definition_ids": [
+    "DEF-EFFICIENT-CAUSING",
+    "DEF-MOTION-AS-REDUCTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE"
+  ]
+}
