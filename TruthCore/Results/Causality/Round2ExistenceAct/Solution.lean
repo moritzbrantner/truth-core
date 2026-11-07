@@ -62,7 +62,8 @@ theorem existentInActFromEleaticPower {W B R : Type} (m : Ontic W B)
     (hAct : ActivePowerOnlyInsofarAsInActReading hasCausalPower InAct w) :
     ExistentInActInSomeRespectAt m InAct w := by
   intro x hx
-  exact hAct x (hPow x hx)
+  have hp : hasCausalPower w x := hPow x hx
+  exact hAct x hp
 
 /-! ## Map 2: intellectual exercise requires act -/
 
@@ -73,7 +74,8 @@ theorem intellectualExerciseRequiresActFromOperating {B Episode R : Type}
     (hOnly : OperatingOnlyOfBeingInAct Operates InAct) :
     IntellectualExerciseRequiresAct a InAct := by
   intro b e h
-  exact hOnly b (hOp b e h)
+  have hb : Operates b := hOp b e h
+  exact hOnly b hb
 
 /-- The exerciser has active power; power only insofar as in act. -/
 theorem intellectualExerciseRequiresActFromActivePower {W B Episode R : Type}
@@ -83,7 +85,8 @@ theorem intellectualExerciseRequiresActFromActivePower {W B Episode R : Type}
     (hAct : ActivePowerOnlyInsofarAsInActReading hasCausalPower InAct w) :
     IntellectualExerciseRequiresAct a InAct := by
   intro b e h
-  exact hAct b (hPow b e h)
+  have hp : hasCausalPower w b := hPow b e h
+  exact hAct b hp
 
 /-- The exerciser causes something (the inner word); causing only of a being
 in act (q.75 a.2 reading). -/
@@ -104,7 +107,8 @@ theorem intellectualExerciseRequiresActFromExistence {W B Episode R : Type}
     (hEsse : ExistingInActAt m InAct esse w) :
     IntellectualExerciseRequiresAct a InAct := by
   intro b e h
-  exact ⟨esse, hEsse b (hEx b e h)⟩
+  have hb : m.ExistsAt w b := hEx b e h
+  exact ⟨esse, hEsse b hb⟩
 
 /-! ## Map 3: occurring thought is intellectual exercise -/
 
@@ -117,7 +121,8 @@ theorem thoughtIsExerciseFromIntellective {B Episode : Type}
     (hBear : BearingIntellectiveEpisodeIsExercise Bears Intellective a) :
     BorneThoughtExercisesIntellect Occurs Bears a := by
   intro b e ho hb
-  exact hBear b e (hInt e ho) hb
+  have hi : Intellective e := hInt e ho
+  exact hBear b e hi hb
 
 /-- The bearer opines the borne thought's content; a bearer opining the content
 of its episode exercises intellect in it. -/
@@ -129,7 +134,8 @@ theorem thoughtIsExerciseFromOpining {B Episode : Type}
     (hJudge : OpiningBorneContentIsIntellectualExercise Bears Opines content a) :
     BorneThoughtExercisesIntellect Occurs Bears a := by
   intro b e ho hb
-  exact hJudge b e hb (hOpin b e ho hb)
+  have hop : Opines b (content e) := hOpin b e ho hb
+  exact hJudge b e hb hop
 
 /-! ## Map 4: the bearer exists at the selected world -/
 
@@ -155,7 +161,8 @@ theorem bearerExistsFromWorldIndexedOccurrence {W B Episode : Type}
     (hWhere : BearerExistsWhereEpisodeOccurs m OccursAt Bears) :
     EveryBearerExistsAt m Occurs Bears w := by
   intro b e ho hb
-  exact hWhere w b e (hAt e ho) hb
+  have hw : OccursAt w e := hAt e ho
+  exact hWhere w b e hw hb
 
 /-! ## Map 5: the bearer principle -/
 
@@ -167,7 +174,8 @@ theorem everyThoughtHasSubjectFromModification {S Episode : Type}
     (hNo : NoModificationWithoutBearer Modification Bears) :
     EveryThoughtHasSubject Occurs Bears := by
   intro e ho
-  exact hNo e (hMod e ho)
+  have hm : Modification e := hMod e ho
+  exact hNo e hm
 
 /-- Every occurring thought is an operation; every operation has an agent; the
 agent of an episode bears it. -/
