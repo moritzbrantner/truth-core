@@ -2913,6 +2913,119 @@ def revision_frontier(revision: str, root: str | None) -> dict[str, Any]:
     return {**restrict_to_root(report), "all_item_depths": all_item_depths}
 
 
+def thickness_report(
+    frontier: dict[str, Any],
+    arguments: list[dict[str, Any]],
+    results: list[dict[str, Any]],
+) -> dict[str, Any]:
+    """Derivational thickness of the root's dependency graph (presentation only).
+
+    For every statement from which the root is reached (`reaching_root_statements`
+    of a full frontier report), count its verified non-transcription derivations:
+    arguments concluding it whose result exists and is not a transcription. The
+    frontier's route costs follow only the cheapest derivation of each node, and a
+    stated premise stays one leaf however many proofs it has, so alternative
+    derivations are invisible there. This report counts them. It closes nothing
+    and changes no route cost."""
+    transcribed = set(frontier.get("transcription_results", {}))
+    verified = {result["argument_id"] for result in results if result["id"] not in transcribed}
+    derivations: dict[str, list[str]] = {}
+    for argument in arguments:
+        if argument["id"] in verified:
+            derivations.setdefault(argument["conclusion_statement_id"], []).append(argument["id"])
+    statements = sorted(frontier.get("reaching_root_statements", []))
+    per_statement = {statement_id: sorted(derivations.get(statement_id, [])) for statement_id in statements}
+    counts = [len(ids) for ids in per_statement.values()]
+    return {
+        "root": frontier.get("root"),
+        "statement_count": len(statements),
+        "derived_statement_count": sum(1 for count in counts if count >= 1),
+        "multiply_derived_statement_count": sum(1 for count in counts if count >= 2),
+        "derivation_count": sum(counts),
+        "derivations": per_statement,
+    }
+
+
+def revision_thickness(revision: str, root: str | None) -> dict[str, Any]:
+    """`thickness_report` at a Git revision, from that revision's own full
+    frontier report and records on a `git archive` extract."""
+    import subprocess
+    import tarfile
+    import tempfile
+
+    try:
+        archive = subprocess.run(
+            ["git", "-C", str(ROOT), "archive", "--format=tar", revision],
+            check=True, capture_output=True,
+        ).stdout
+    except subprocess.CalledProcessError as error:
+        raise CorpusError(f"cannot archive revision {revision}: {error.stderr.decode().strip()}") from error
+    with tempfile.TemporaryDirectory(prefix="thickness-") as directory:
+        with tarfile.open(fileobj=io.BytesIO(archive)) as tar:
+            tar.extractall(directory, filter="data")
+        command = [sys.executable, str(Path(directory) / "scripts" / "corpus.py"), "frontier", "--json"]
+        if root is not None:
+            command += ["--root", root]
+        completed = subprocess.run(command, cwd=directory, capture_output=True, text=True)
+        if completed.returncode != 0:
+            raise CorpusError(f"frontier at {revision} failed: {completed.stderr.strip()}")
+        def records(kind: str) -> list[dict[str, Any]]:
+            return [json.loads(path.read_text()) for path in sorted((Path(directory) / "corpus" / kind).glob("*.json"))]
+        return thickness_report(json.loads(completed.stdout), records("arguments"), records("results"))
+
+
+def thickness_delta(base: dict[str, Any], head: dict[str, Any]) -> dict[str, Any]:
+    """Statements reaching the root whose derivation set changed, base to head."""
+    changed = {}
+    for statement_id in sorted(set(base["derivations"]) | set(head["derivations"])):
+        before = set(base["derivations"].get(statement_id, []))
+        after = set(head["derivations"].get(statement_id, []))
+        if before != after:
+            changed[statement_id] = {"added": sorted(after - before), "removed": sorted(before - after)}
+    summary = {
+        key: [base[key], head[key]]
+        for key in ("statement_count", "derived_statement_count", "multiply_derived_statement_count", "derivation_count")
+    }
+    return {"summary": summary, "changed": changed}
+
+
+def format_thickness(report: dict[str, Any], delta: dict[str, Any] | None) -> str:
+    lines = [
+        f"derivational thickness for {report['root']} (presentation only; closes nothing)",
+        f"statements reaching the root: {report['statement_count']}",
+        f"  with a verified non-transcription derivation: {report['derived_statement_count']}",
+        f"  with two or more: {report['multiply_derived_statement_count']}",
+        f"derivations in total: {report['derivation_count']}",
+    ]
+    if delta is not None:
+        lines.append("change from base:")
+        for key, (before, after) in delta["summary"].items():
+            lines.append(f"  {key}: {before} -> {after}")
+        for statement_id, change in delta["changed"].items():
+            parts = [f"+{a}" for a in change["added"]] + [f"-{r}" for r in change["removed"]]
+            lines.append(f"  {statement_id}: {' '.join(parts)}")
+    else:
+        for statement_id, ids in report["derivations"].items():
+            lines.append(f"  {len(ids):2d}  {statement_id}")
+    return "\n".join(lines)
+
+
+def command_thickness(args: argparse.Namespace) -> int:
+    validate()
+    frontier = current_frontier(args.root, False, next_steps=False)
+    head = thickness_report(
+        frontier,
+        [record for _, record in load_dir("arguments")],
+        [record for _, record in load_dir("results")],
+    )
+    delta = thickness_delta(revision_thickness(args.base, args.root), head) if args.base else None
+    if args.json:
+        print(json.dumps({"report": head, "delta": delta}, indent=2, ensure_ascii=False))
+    else:
+        print(format_thickness(head, delta))
+    return 0
+
+
 def frontier_status(report: dict[str, Any], statement_id: str) -> str:
     """bare, supported, stated, closed, or absent from the reaching-root frontier."""
     for item in report["items"]:
@@ -4375,6 +4488,14 @@ def parser() -> argparse.ArgumentParser:
     frontier_diff.add_argument("--root", default=DEFAULT_FRONTIER_ROOT)
     frontier_diff.add_argument("--json", action="store_true", help="print the delta as JSON")
     frontier_diff.set_defaults(func=command_frontier_diff)
+    thickness = sub.add_parser(
+        "thickness",
+        help="count verified derivations of every statement reaching the root; presentation only",
+    )
+    thickness.add_argument("--root", default=DEFAULT_FRONTIER_ROOT)
+    thickness.add_argument("--base", help="also report the change from this revision")
+    thickness.add_argument("--json", action="store_true")
+    thickness.set_defaults(func=command_thickness)
     territory = sub.add_parser(
         "territory",
         help="emergent positions and territory matrix from certified cores, models and claims (no hand-authored worldviews)",
