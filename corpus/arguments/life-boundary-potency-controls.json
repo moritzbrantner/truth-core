@@ -1,0 +1,17 @@
+{
+  "id": "LIFE-BOUNDARY-POTENCY-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-LIFE-BOUNDARY-POTENCY-CONTROLS",
+  "inference_ids": [
+    "INF-LIFE-BOUNDARY-POTENCY-CONTROLS"
+  ],
+  "meaning": "One being with no potency whose life begins: without the q.10 a.1 premise the conclusion fails; in a model where no life begins or ends both hold.",
+  "definition_ids": [
+    "DEF-LIFE-PRESENT-AT",
+    "DEF-POTENCY",
+    "DEF-PURE-ACT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER"
+  ]
+}

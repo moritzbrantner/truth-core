@@ -1,0 +1,13 @@
+{
+  "id": "STMT-LIFE-BOUNDARY-POTENCY-CONTROLS",
+  "paraphrase": "One being with no potency whose life begins: without the q.10 a.1 premise the conclusion fails; in a model where no life begins or ends both hold.",
+  "lean_declaration": "TruthCore.Causality.LifeBoundaryPotency.Control.Certificate",
+  "definition_ids": [
+    "DEF-LIFE-PRESENT-AT",
+    "DEF-POTENCY",
+    "DEF-PURE-ACT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "REL-Q10A1-SUPPORTS-IMMUTABLE-HAS-NO-LIFE-BOUNDARY",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q10-A1-IMMUTABLE-NO-BEGINNING-END",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-IMMUTABLE-HAS-NO-LIFE-BOUNDARY",
+  "note": "q.10 a.1 says what is altogether immutable can have neither beginning nor end. The encoded statement reads 'altogether immutable' as 'in potency in no respect', i.e. without potency in the subject; q.9 a.2 also counts mutability through a power in another, which this reading drops, so the encoding applies to more beings than the source sentence does. It is restricted to the beginning and end of life in the duration frame."
+}
