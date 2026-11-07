@@ -1,0 +1,9 @@
+{
+  "id": "STMT-DEPENDENCE-EXCLUDES-BEING-WITHOUT",
+  "paraphrase": "OPEN analyst premise: if x depends for its being on y, then x cannot be without y. It reads the counterfactual dependence of DEF-DEPENDS-FOR-BEING as excluding the real possibility of x's being while y is not.",
+  "lean_declaration": "TruthCore.Causality.Round2PerfectionPrimacy.DependenceExcludesBeingWithout",
+  "definition_ids": [
+    "DEF-DEPENDS-FOR-BEING",
+    "DEF-CAN-BE-WITHOUT"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "INF-CAUSED-PERFECTION-RECEIVED-FROM-PARTICIPATION",
+  "input_statement_ids": [
+    "STMT-CAUSED-BY-ANOTHER-IS-PARTICIPATED",
+    "STMT-PARTICIPATED-PERFECTION-IS-RECEIVED-IN-PARTICIPANT"
+  ],
+  "output_statement_id": "STMT-PERFECTION-CAUSED-IN-ANOTHER-IS-RECEIVED-IN-IT",
+  "rule": "Universal instantiation and hypothetical syllogism",
+  "meaning": "Derives the batch 1 bridge that a perfection caused in another is received in it from two OPEN premises: what x has from a distinct cause it has by participation, and a perfection had by participation is received in its participant. It does not use STMT-PARTICIPATED-HAS-OTHER-CAUSE, whose direction (participation to being caused) is the converse of the first premise.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

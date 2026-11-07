@@ -1,0 +1,9 @@
+{
+  "id": "STMT-PRIORITY-BY-BEING-WITHOUT",
+  "paraphrase": "OPEN analyst reading of the criterion of natural priority: if y can be without x and x cannot be without y, then y is simply prior to x. Navigation only (no claim): Aquinas, In V Metaph. lect. 13 n. 15, 'priora dicuntur, quae possunt esse sine aliis et illa non possunt esse sine eis', said of priority 'secundum naturam'; reading it for the simple priority of DEF-SIMPLE-PRIORITY is the analyst's.",
+  "lean_declaration": "TruthCore.Causality.Round2PerfectionPrimacy.PriorityByBeingWithout",
+  "definition_ids": [
+    "DEF-SIMPLE-PRIORITY",
+    "DEF-CAN-BE-WITHOUT"
+  ]
+}

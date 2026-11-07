@@ -1,0 +1,13 @@
+{
+  "id": "STMT-LIMITED-ESSE-APPROACHES-LESS",
+  "paraphrase": "OPEN analyst bridge: whatever has limited esse approaches the primary strictly less nearly than whatever has unlimited esse. It links the limitation of esse (q.7) to the order by approach (q.3 a.5 ad 2), which neither passage does.",
+  "lean_declaration": "TruthCore.Causality.Round2PerfectionPrimacy.LimitedEsseApproachesLess",
+  "definition_ids": [
+    "DEF-ESSE-LIMITED",
+    "DEF-ORDER-BY-APPROACH-TO-A-PRIMARY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSE-LIMITATION",
+    "DISAMB-ORDER-OF-BEING"
+  ]
+}

@@ -1,0 +1,23 @@
+target = "STMT-UNLIMITED-POSSESSION-EXCEEDS-LIMITED"
+
+[[node]]
+id = "STMT-UNLIMITED-POSSESSION-EXCEEDS-LIMITED"
+
+# New in round 2 (certified batch round2-perfection-primacy).
+[[node]]
+id = "STMT-LIMITED-HAVING-IS-WITHIN-CAPACITY"
+
+# New in round 2 (certified batch round2-perfection-primacy).
+[[node]]
+id = "STMT-UNLIMITED-HAVING-EXCEEDS-CAPACITY"
+
+# New in round 2 (certified batch round2-perfection-primacy).
+[[node]]
+id = "STMT-GREATER-DEGREE-IS-MORE"
+
+[[edge]]
+premises = ["STMT-LIMITED-HAVING-IS-WITHIN-CAPACITY", "STMT-UNLIMITED-HAVING-EXCEEDS-CAPACITY", "STMT-GREATER-DEGREE-IS-MORE"]
+conclusion = "STMT-UNLIMITED-POSSESSION-EXCEEDS-LIMITED"
+kind = "derivation"
+status = "certified"
+note = "Certified as UNLIMITED-POSSESSION-EXCEEDS-LIMITED-FROM-DEGREES: a measure reading of limitation (both directions, the second carrying comparability) and a degree reading of 'more', on a parameter preorder of degrees."
