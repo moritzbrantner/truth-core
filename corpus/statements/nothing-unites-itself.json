@@ -1,0 +1,11 @@
+{
+  "id": "STMT-NOTHING-UNITES-ITSELF",
+  "paraphrase": "UNITING-CAUSE_1. OPEN analyst premise (attribution deferred): nothing unites components into itself. Brute composition and composition as identity reject it.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.NothingUnitesItself",
+  "definition_ids": [
+    "DEF-UNITING-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNITING-CAUSE"
+  ]
+}

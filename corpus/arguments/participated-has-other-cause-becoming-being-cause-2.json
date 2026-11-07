@@ -1,0 +1,21 @@
+{
+  "id": "PARTICIPATED-HAS-OTHER-CAUSE-BECOMING-BEING-CAUSE-2",
+  "premise_statement_ids": [
+    "STMT-PARTICIPATED-HAS-EXTERNAL-ESSE-CAUSE"
+  ],
+  "conclusion_statement_id": "STMT-PARTICIPATED-HAS-OTHER-CAUSE",
+  "inference_ids": [
+    "INF-PARTICIPATED-HAS-OTHER-CAUSE-BECOMING-BEING-CAUSE-2"
+  ],
+  "meaning": "Explicit sense bridge BECOMING-BEING-CAUSE_2 → BECOMING-BEING-CAUSE_3 (strength order): an actually existing external efficient cause of a thing's esse is another being that causes its being (CausesIn c x esse), so the participated has another cause of its being, the root-path statement. With PARTICIPATED-EXTERNAL-ESSE-CAUSE-BECOMING-BEING-CAUSE-2 it gives a route to STMT-PARTICIPATED-HAS-OTHER-CAUSE through sense 2. Sense 1 (cause of becoming) gives no such route: the controls model it with no cause of being.",
+  "definition_ids": [
+    "DEF-ESSE",
+    "DEF-EXTERNAL-CAUSE-OF-ESSE",
+    "DEF-PARTICIPATED-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-BECOMING-BEING-CAUSE",
+    "DISAMB-BEING",
+    "DISAMB-THOMISTIC-ESSE-PARTICIPATION"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "INF-NO-SELF-MOTION-SAME-RESPECT-IN-ACT-3",
+  "input_statement_ids": [
+    "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
+    "STMT-MOVES-ONLY-AS-IN-ACT-FORMALLY-OR-VIRTUALLY",
+    "STMT-NOTHING-IN-ACT-FORMALLY-OR-VIRTUALLY-AND-IN-POTENCY"
+  ],
+  "output_statement_id": "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT",
+  "rule": "Reductio",
+  "meaning": "Per-sense argument, IN-ACT_3 (formal-or-virtual act): both act premises read inclusively give no self-motion in the same respect. The inclusive non-simultaneity premise is the stronger one: it must exclude virtual act together with formal potency.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

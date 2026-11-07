@@ -1,0 +1,10 @@
+{
+  "id": "COMPOSITE-HAS-UNITING-CAUSE-UNITING-CAUSE-3",
+  "argument_id": "COMPOSITE-HAS-UNITING-CAUSE-UNITING-CAUSE-3",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks2.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks2.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks2.compositeUnitingCauseFromOwnBeing",
+  "comparator_config": "results/COMPOSITE-HAS-UNITING-CAUSE-UNITING-CAUSE-3/comparator.json",
+  "status": "solution-present",
+  "description": "Per-sense argument, UNITING-CAUSE_3 (causing being): the uniter causes the composite's being, and nothing causes its own being, so the uniter is distinct from the composite. This route drops STMT-UNITING-CAUSE-IS-EFFICIENT and STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF, using the open premise STMT-NOTHING-CAUSES-ITS-OWN-BEING instead."
+}

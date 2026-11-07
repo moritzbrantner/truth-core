@@ -1,0 +1,26 @@
+{
+  "id": "ATTEMPT-CAUSALITY-ROOT-WIRING-20261107",
+  "date": "2026-11-07",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "statement_ids": [
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING",
+    "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
+    "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
+    "STMT-PER-SE-MOVER-LINK-IS-PER-SE-CAUSE-LINK",
+    "STMT-COGITO-THOUGHT-OCCURS"
+  ],
+  "summary": "Root wiring of disconnected Causality results (map explorations/causality-root-wiring.toml, spec specs/causality-root-wiring.toml). Eight derivations make verified conclusions that no designated-route argument consumed into premises of arguments concluding designated-route statements: the owner-approved floor STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS replaces its open halves in the two Round 4 Cogito derivations (composing inhabitedFromProduction and inhabitedFromPower), and five rival-refutation conclusions plus the Cogito retorsion yield the principles their rivals denied (excluded middle where needed; the Scotist case is constructive). Nine previously disconnected results now reach the root; the two NECESSARY-CLASSICAL-GOD-CASE route costs drop by one (STMT-CAUSERS-REQUIRE-CONCRETENESS-AT leaves them). Stated route premises stay single leaves: no route premise other than that one is established.",
+  "evidence": [
+    "COGITO-INHABITED-CONCRETE-FROM-FLOOR-ACTIVITY",
+    "COGITO-INHABITED-CONCRETE-FROM-FLOOR-POWER",
+    "ACTUALITY-ONLY-INSOFAR-AS-BEING-FROM-MEINONGIAN-REFUTATION",
+    "NOT-ACT-AND-POTENCY-FROM-SCOTIST-REFUTATION",
+    "MOVED-ONLY-AS-IN-POTENCY-FROM-ASHARITE-REFUTATION",
+    "MOVED-ONLY-AS-IN-POTENCY-FROM-COUNTERTUPLE-REFUTATION",
+    "PER-SE-MOVER-LINK-FROM-OCCASIONALIST-REFUTATION",
+    "COGITO-THOUGHT-OCCURS-FROM-RETORSION",
+    "ROOT-WIRING-CONTROLS"
+  ]
+}

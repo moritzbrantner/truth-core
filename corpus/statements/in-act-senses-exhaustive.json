@@ -1,0 +1,15 @@
+{
+  "id": "STMT-IN-ACT-SENSES-EXHAUSTIVE",
+  "paraphrase": "OPEN frontier premise (coverage, attribution deferred): each of the two uses of 'in act' in the prima via step (the mover is in act; nothing is in act and in potency in the same respect) is read as formal act (IN-ACT_1), virtual act (IN-ACT_2) or formal-or-virtual act (IN-ACT_3), selected by the route's reading, and the use's predicate is exactly that sense's predicate.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.InActSensesExhaustive",
+  "definition_ids": [
+    "DEF-ROUTE-SENSE-SELECTION",
+    "DEF-IN-ACT-FORMALLY",
+    "DEF-IN-ACT-VIRTUALLY",
+    "DEF-IN-ACT-FORMALLY-OR-VIRTUALLY",
+    "DEF-ACT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT"
+  ]
+}

@@ -1,0 +1,192 @@
+# Causality root wiring: disconnected Causality conclusions composed into
+# premises of the designated root route (spec specs/causality-root-wiring.toml).
+# No new proposition; rejected edges record why other contacts were not wired.
+target = "STMT-CATHOLICISM-TRUE"
+
+[[node]]
+id = "STMT-COGITO-THOUGHT-OCCURS"
+
+[[node]]
+id = "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT"
+
+[[node]]
+id = "STMT-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE"
+
+[[node]]
+id = "STMT-INTELLECTUAL-EXERCISE-PRODUCES-AT"
+
+[[node]]
+id = "STMT-COGITO-BEARER-EXISTS-AT-WORLD"
+
+[[node]]
+id = "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS"
+
+[[node]]
+id = "STMT-COGITO-INHABITED-CONCRETE-WORLD"
+
+[[node]]
+id = "STMT-INTELLECTUAL-EXERCISER-HAS-POWER"
+
+[[node]]
+id = "STMT-EXCLUDED-MIDDLE"
+
+[[node]]
+id = "STMT-NO-ACTUALITY-WITHOUT-BEING"
+
+[[node]]
+id = "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING"
+
+[[node]]
+id = "STMT-NO-ACT-AND-POTENCY-IN-SAME-RESPECT"
+
+[[node]]
+id = "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT"
+
+[[node]]
+id = "STMT-NO-MOVED-WITHOUT-POTENCY"
+
+[[node]]
+id = "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY"
+
+[[node]]
+id = "STMT-NO-ACTUAL-MOVED-NOT-POTENT-COUNTERTUPLE"
+
+[[node]]
+id = "STMT-NO-OCCASIONALIST-MOVER-LINK-WITHOUT-CAUSE"
+
+[[node]]
+id = "STMT-PER-SE-MOVER-LINK-IS-PER-SE-CAUSE-LINK"
+
+[[node]]
+id = "STMT-COGITO-DOUBT-IS-PERFORMED"
+
+[[node]]
+id = "STMT-COGITO-PERFORMED-DOUBT-OF-THOUGHT-SELF-REFUTING"
+
+[[node]]
+id = "STMT-GROUNDING-WITH-UNIQUE-CAUSE-YIELDS-REGRESS-READING"
+
+[[node]]
+id = "STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES"
+
+[[node]]
+id = "STMT-REGRESS-READINGS-COINCIDE-CLASSICALLY"
+
+[[node]]
+id = "STMT-CAUSE-OF-BEING-HAS-WHAT-IT-GIVES"
+
+[[node]]
+id = "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH"
+
+[[node]]
+id = "STMT-WHATEVER-IS-MOVED-IS-MOVED-BY-ANOTHER"
+
+[[node]]
+id = "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER"
+
+[[node]]
+id = "STMT-NO-INERTIAL-UNIFORM-MOTION-WITHOUT-MOVER"
+
+[[node]]
+id = "STMT-NECESSARY-CLASSICAL-GOD-ROOT"
+
+[[node]]
+id = "STMT-CATHOLICISM-TRUE"
+
+[[edge]]
+premises = ["STMT-COGITO-THOUGHT-OCCURS", "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT", "STMT-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE", "STMT-INTELLECTUAL-EXERCISE-PRODUCES-AT", "STMT-COGITO-BEARER-EXISTS-AT-WORLD", "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS"]
+conclusion = "STMT-COGITO-INHABITED-CONCRETE-WORLD"
+kind = "derivation"
+status = "certified"
+note = "COGITO-INHABITED-CONCRETE-FROM-FLOOR-ACTIVITY: Composition with COGITO-INHABITED-CONCRETE-FROM-CAUSAL-ACTIVITY (inhabitedFromProduction) and conjunction elimination"
+
+[[edge]]
+premises = ["STMT-COGITO-THOUGHT-OCCURS", "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT", "STMT-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE", "STMT-INTELLECTUAL-EXERCISER-HAS-POWER", "STMT-COGITO-BEARER-EXISTS-AT-WORLD", "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS"]
+conclusion = "STMT-COGITO-INHABITED-CONCRETE-WORLD"
+kind = "derivation"
+status = "certified"
+note = "COGITO-INHABITED-CONCRETE-FROM-FLOOR-POWER: Composition with COGITO-INHABITED-CONCRETE-FROM-CAUSAL-POWER (inhabitedFromPower) and conjunction elimination"
+
+[[edge]]
+premises = ["STMT-EXCLUDED-MIDDLE", "STMT-NO-ACTUALITY-WITHOUT-BEING"]
+conclusion = "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING"
+kind = "derivation"
+status = "certified"
+note = "ACTUALITY-ONLY-INSOFAR-AS-BEING-FROM-MEINONGIAN-REFUTATION: Excluded middle on InAct x esse, reductio against the negated existential"
+
+[[edge]]
+premises = ["STMT-NO-ACT-AND-POTENCY-IN-SAME-RESPECT"]
+conclusion = "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT"
+kind = "derivation"
+status = "certified"
+note = "NOT-ACT-AND-POTENCY-FROM-SCOTIST-REFUTATION: Constructive quantifier duality (not exists to for all not)"
+
+[[edge]]
+premises = ["STMT-EXCLUDED-MIDDLE", "STMT-NO-MOVED-WITHOUT-POTENCY"]
+conclusion = "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY"
+kind = "derivation"
+status = "certified"
+note = "MOVED-ONLY-AS-IN-POTENCY-FROM-ASHARITE-REFUTATION: Excluded middle on InPotency x r, reductio against the negated existential"
+
+[[edge]]
+premises = ["STMT-EXCLUDED-MIDDLE", "STMT-NO-ACTUAL-MOVED-NOT-POTENT-COUNTERTUPLE"]
+conclusion = "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY"
+kind = "derivation"
+status = "certified"
+note = "MOVED-ONLY-AS-IN-POTENCY-FROM-COUNTERTUPLE-REFUTATION: Excluded middle on InPotency x r, reductio against the negated existential"
+
+[[edge]]
+premises = ["STMT-EXCLUDED-MIDDLE", "STMT-NO-OCCASIONALIST-MOVER-LINK-WITHOUT-CAUSE"]
+conclusion = "STMT-PER-SE-MOVER-LINK-IS-PER-SE-CAUSE-LINK"
+kind = "derivation"
+status = "certified"
+note = "PER-SE-MOVER-LINK-FROM-OCCASIONALIST-REFUTATION: Excluded middle on CausesAsCaused y x, reductio against the negated existential"
+
+[[edge]]
+premises = ["STMT-EXCLUDED-MIDDLE", "STMT-COGITO-DOUBT-IS-PERFORMED", "STMT-COGITO-PERFORMED-DOUBT-OF-THOUGHT-SELF-REFUTING"]
+conclusion = "STMT-COGITO-THOUGHT-OCCURS"
+kind = "derivation"
+status = "certified"
+note = "COGITO-THOUGHT-OCCURS-FROM-RETORSION: Existential elimination, universal instantiation, excluded middle"
+
+[[edge]]
+premises = ["STMT-GROUNDING-WITH-UNIQUE-CAUSE-YIELDS-REGRESS-READING"]
+conclusion = "STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES"
+kind = "bridge"
+status = "rejected"
+note = "Rejected for this batch: needs three new OPEN antecedents (every per se power finitely grounded, sources receive no link, at most one immediate per se cause) and the step is modus ponens on the proved conditional, a single application (invariant 16). Keep as a candidate route; it would not lower the cost of the stated route premise."
+
+[[edge]]
+premises = ["STMT-REGRESS-READINGS-COINCIDE-CLASSICALLY"]
+conclusion = "STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES"
+kind = "bridge"
+status = "rejected"
+note = "Rejected for this batch: needs a new literal-reading statement (no infinite descending per se series) and the step is the mpr of a proved equivalence, a single application (invariant 16)."
+
+[[edge]]
+premises = ["STMT-CAUSE-OF-BEING-HAS-WHAT-IT-GIVES"]
+conclusion = "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH"
+kind = "bridge"
+status = "rejected"
+note = "Rejected: the weak cause-of-being version does not suffice; CauseOfQualityInAnotherIsMoreSuchReading quantifies over every cause of a quality, not only causes of esse. Would need a bridge that every cause of a quality causes the effect's being (stronger and contested)."
+
+[[edge]]
+premises = ["STMT-WHATEVER-IS-MOVED-IS-MOVED-BY-ANOTHER"]
+conclusion = "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER"
+kind = "bridge"
+status = "rejected"
+note = "Rejected: a plain weakening (drop y /= x) of a statement derived from the target itself; it belongs in a strengthens registration, which the root walk sets aside, not in a route step."
+
+[[edge]]
+premises = ["STMT-NO-INERTIAL-UNIFORM-MOTION-WITHOUT-MOVER"]
+conclusion = "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER"
+kind = "bridge"
+status = "rejected"
+note = "Rejected: the rival is restricted to uniform rectilinear motion, so its negation yields only the restricted principle, not the route premise."
+
+[[edge]]
+premises = ["STMT-NECESSARY-CLASSICAL-GOD-ROOT"]
+conclusion = "STMT-CATHOLICISM-TRUE"
+kind = "bridge"
+status = "rejected"
+note = "Not attempted: the necessary-root family (about 96 disconnected Causality results) reaches only NECESSARY-CLASSICAL-GOD-CASE, which is not the designated root_route; connecting it needs a designation decision or a route consuming its conclusions, owned by the necessary-being worker."

@@ -1,0 +1,14 @@
+{
+  "id": "INF-COMPOSITE-HAS-UNITING-CAUSE-UNITING-CAUSE-3",
+  "input_statement_ids": [
+    "STMT-COMPOSITE-HAS-TWO-DISTINCT-COMPONENTS",
+    "STMT-DIVERSE-COMPONENTS-UNITED-ONLY-BY-A-CAUSE",
+    "STMT-UNITING-CAUSE-CAUSES-COMPOSITE-BEING",
+    "STMT-NOTHING-CAUSES-ITS-OWN-BEING"
+  ],
+  "output_statement_id": "STMT-COMPOSITE-HAS-A-UNITING-CAUSE",
+  "rule": "Universal instantiation, existential elimination and modus tollens",
+  "meaning": "Per-sense argument, UNITING-CAUSE_3 (causing being): the uniter causes the composite's being, and nothing causes its own being, so the uniter is distinct from the composite. This route drops STMT-UNITING-CAUSE-IS-EFFICIENT and STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF, using the open premise STMT-NOTHING-CAUSES-ITS-OWN-BEING instead.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

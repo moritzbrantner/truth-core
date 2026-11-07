@@ -1,0 +1,10 @@
+{
+  "id": "NO-SELF-MOTION-SAME-RESPECT-IN-ACT-3",
+  "argument_id": "NO-SELF-MOTION-SAME-RESPECT-IN-ACT-3",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks2.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks2.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks2.noSelfMotionFormallyOrVirtually",
+  "comparator_config": "results/NO-SELF-MOTION-SAME-RESPECT-IN-ACT-3/comparator.json",
+  "status": "solution-present",
+  "description": "Per-sense argument, IN-ACT_3 (formal-or-virtual act): both act premises read inclusively give no self-motion in the same respect. The inclusive non-simultaneity premise is the stronger one: it must exclude virtual act together with formal potency."
+}

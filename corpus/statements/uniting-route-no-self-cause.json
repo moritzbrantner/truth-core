@@ -1,0 +1,11 @@
+{
+  "id": "STMT-UNITING-ROUTE-NO-SELF-CAUSE",
+  "paraphrase": "OPEN analyst premise (attribution deferred): nothing causes itself, 'causes' in the route's reading of its second use in the uniting-cause step. Read as efficient causing it follows from STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.NothingCausesItselfInRouteUse",
+  "definition_ids": [
+    "DEF-ROUTE-SENSE-SELECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-UNITING-CAUSE"
+  ]
+}
