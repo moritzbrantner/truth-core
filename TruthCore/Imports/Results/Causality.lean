@@ -144,6 +144,7 @@ public import TruthCore.Results.Causality.MaximumDefinitions.Controls.Solution
 public import TruthCore.Results.Causality.MaximumDefinitions.Coverage.Solution
 public import TruthCore.Results.Causality.MaximumDefinitions.DirectedBridge.Solution
 public import TruthCore.Results.Causality.MaximumDefinitions.NamedElimination.Solution
+public import TruthCore.Results.Causality.MeinongianActuality.Solution
 public import TruthCore.Results.Causality.ModalNecessaryBeingActuality.Solution
 public import TruthCore.Results.Causality.NecessarilyUnderived.LiftFromBridges.Solution
 public import TruthCore.Results.Causality.NecessarilyUnderived.NonRefutationLift.Solution

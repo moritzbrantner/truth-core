@@ -1,0 +1,12 @@
+{
+  "id": "INF-NO-ACTUALITY-WITHOUT-BEING-FROM-PERFECTION",
+  "input_statement_ids": [
+    "STMT-PERFECT-INSOFAR-AS-IN-ACT",
+    "STMT-PERFECT-ONLY-INSOFAR-AS-BEING"
+  ],
+  "output_statement_id": "STMT-NO-ACTUALITY-WITHOUT-BEING",
+  "rule": "In act, so perfect, so having being",
+  "meaning": "Conditional refutation of the Meinongian rival STMT-ACTUALITY-WITHOUT-BEING: whatever is in act in a respect is perfect in it (q.5 a.1, STMT-PERFECT-INSOFAR-AS-IN-ACT), and whatever is perfect in some respect has being (q.4 a.2, STMT-PERFECT-ONLY-INSOFAR-AS-BEING), so nothing is in act without being. A Meinongian must therefore deny one of the two: that being golden in act is being perfect in that respect, or that being perfect requires being. Both premises stay open, so the refutation does not count for closure until they are established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
