@@ -1,5 +1,6 @@
 //! Read-only structural view of the canonical corpus.
 pub mod bridges;
+pub mod check;
 pub mod context;
 pub mod dossier;
 mod kernels;
