@@ -1,0 +1,10 @@
+{
+  "id": "NAMING-VERACITY-SINCERITY-FROM-ATTRIBUTES",
+  "argument_id": "NAMING-VERACITY-SINCERITY-FROM-ATTRIBUTES",
+  "challenge_module": "TruthCore.Results.Causality.NamingVeracityBatch1.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NamingVeracityBatch1.Solution",
+  "theorem": "TruthCore.Results.Causality.NamingVeracityBatch1.godAssertsOnlyWhatHeKnowsFromAttributes",
+  "comparator_config": "results/NAMING-VERACITY-SINCERITY-FROM-ATTRIBUTES/comparator.json",
+  "status": "solution-present",
+  "description": "A God with the classical attributes asserts only what he believes (good will) and believes only what he holds as known (perfect intellect), so asserts only what he holds as known. One open analyst bridge supplying two attribute consequences."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "NAMING-VERACITY-GOD-CONFIRMS-ONLY-TRUTH",
+  "argument_id": "NAMING-VERACITY-GOD-CONFIRMS-ONLY-TRUTH",
+  "challenge_module": "TruthCore.Results.Causality.NamingVeracityBatch1.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NamingVeracityBatch1.Solution",
+  "theorem": "TruthCore.Results.Causality.NamingVeracityBatch1.godConfirmsOnlyTruthFromVeracity",
+  "comparator_config": "results/NAMING-VERACITY-GOD-CONFIRMS-ONLY-TRUTH/comparator.json",
+  "status": "solution-present",
+  "description": "Divine veracity split in two: what a God with the classical attributes confirms by a sign he asserts; what he asserts he holds as known (he does not deceive); what he holds as known is true (he is not deceived). So whatever he confirms is true. Three open premises; each is needed (omission models in NAMING-VERACITY-BATCH1-CONTROLS)."
+}

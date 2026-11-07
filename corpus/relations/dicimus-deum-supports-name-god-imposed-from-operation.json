@@ -1,0 +1,9 @@
+{
+  "id": "REL-DICIMUS-DEUM-SUPPORTS-NAME-GOD-IMPOSED-FROM-OPERATION",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q2-A3-QUARTA-VIA-DICIMUS-DEUM-A",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-NAME-GOD-IMPOSED-FROM-OPERATION",
+  "note": "The quarta via calls God what is the cause of being, goodness and every perfection to all beings. The encoded statement keeps only causation of the being of all others, adds the uniqueness condition, and states it as the condition under which the name applies; the source names the cause of all perfections, not only of being, and gives no uniqueness clause."
+}

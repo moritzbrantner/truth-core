@@ -1,0 +1,267 @@
+[batch]
+vocab = "TruthCore.Causality.NamingVeracityBatch1"
+results = "TruthCore.Results.Causality.NamingVeracityBatch1"
+
+# ---- Naming ----
+
+[[statement]]
+id = "STMT-NAME-GOD-IMPOSED-FROM-OPERATION"
+lean = "NameGodImposedFromOperation"
+paraphrase = "OPEN analyst bridge (attribution deferred): the name 'God' applies to whatever is the only being that causes the being of every other being. Read from the idea that the name is imposed from the universal causality attributed to its bearer (ST I q.13 a.8); providence is not encoded, and uniqueness is a definite-description condition of application."
+definitions = ["DEF-GOD-NOMINAL-Q13", "DEF-NOMINAL-DEFINITION", "DEF-CAUSE-OF-PERFECTION", "DEF-ESSE"]
+disambiguations = ["DISAMB-GOD", "DISAMB-CAUSE"]
+
+[[statement]]
+id = "STMT-UNIVERSAL-CAUSE-OF-BEING-IS-MAXIMAL"
+lean = "UniversalCauseOfBeingIsMaximal"
+paraphrase = "OPEN analyst bridge (attribution deferred): whatever causes the being of every other being is maximal in being: it has being, and nothing is more a being than it. The converse direction of the quarta via's principle that the maximum in a genus causes all in it; not stated by the source."
+definitions = ["DEF-MAXIME-ENS", "DEF-CAUSE-OF-PERFECTION", "DEF-ESSE"]
+disambiguations = ["DISAMB-MAXIME-ENS", "DISAMB-CAUSE"]
+
+# ---- Veracity ----
+
+[[statement]]
+id = "STMT-CONFIRMING-IS-ASSERTING"
+lean = "ConfirmingIsAsserting"
+paraphrase = "OPEN analyst bridge (attribution deferred): whoever confirms a proposition by a sign asserts it; a confirming sign is testimonial and carries the confirmer's word. Stated for every being, not only God."
+definitions = ["DEF-FOUNDED-BY-GOD-THROUGH-ENVOY", "DEF-VERACITY-ASSERTION-VOCABULARY"]
+disambiguations = []
+
+[[statement]]
+id = "STMT-GOD-ASSERTS-ONLY-WHAT-HE-KNOWS"
+lean = "GodAssertsOnlyWhatHeKnows"
+paraphrase = "OPEN (attribution deferred): whatever is God and has the classical attributes asserts only what he holds as known (sincerity: he does not deceive)."
+definitions = ["DEF-GOD-OF-CLASSICAL-THEISM", "DEF-VERACITY-ASSERTION-VOCABULARY"]
+disambiguations = []
+
+[[statement]]
+id = "STMT-GOD-KNOWS-ONLY-TRUTHS"
+lean = "GodKnowsOnlyTruths"
+paraphrase = "OPEN (attribution deferred): whatever is God and has the classical attributes holds as known only what is true (infallibility: he is not deceived). Knowing is not factive by definition in this vocabulary, so this is a substantive premise about God."
+definitions = ["DEF-GOD-OF-CLASSICAL-THEISM", "DEF-VERACITY-ASSERTION-VOCABULARY"]
+disambiguations = []
+
+[[statement]]
+id = "STMT-CLASSICAL-ATTRIBUTES-INCLUDE-PERFECT-INTELLECT-AND-GOOD-WILL"
+lean = "ClassicalAttributesIncludePerfectIntellectAndGoodWill"
+paraphrase = "OPEN analyst bridge (attribution deferred): whatever is God and has the classical attributes asserts only what he believes (a good will intends no deception) and believes only what he holds as known (a perfect intellect holds no mere opinion). The primitive HasClassicalAttributes field is not unfolded; this premise supplies the two consequences."
+definitions = ["DEF-GOD-OF-CLASSICAL-THEISM", "DEF-VERACITY-ASSERTION-VOCABULARY", "DEF-HAS-INTELLECT", "DEF-HAS-WILL"]
+disambiguations = []
+
+# ---- Authority ----
+
+[[statement]]
+id = "STMT-FOUNDER-GUARANTEES-FOUNDED-AUTHORITY"
+lean = "FounderGuaranteesFoundedAuthority"
+paraphrase = "OPEN (attribution deferred): a God with the classical attributes who founds a society as a teaching authority assists it."
+definitions = ["DEF-GOD-OF-CLASSICAL-THEISM", "DEF-DIVINE-ASSISTANCE"]
+disambiguations = ["DISAMB-FOUNDED-BY-GOD"]
+
+[[statement]]
+id = "STMT-ASSISTED-DEFINITIVE-PROPOSAL-IS-CONFIRMED"
+lean = "AssistedDefinitiveProposalIsConfirmed"
+paraphrase = "OPEN (attribution deferred): whatever a society assisted by g definitively proposes as divinely revealed, g confirms."
+definitions = ["DEF-DIVINE-ASSISTANCE", "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY"]
+disambiguations = []
+
+[[statement]]
+id = "STMT-DEFINITIVE-PROPOSAL-IS-GOD-CONFIRMED"
+lean = "DefinitiveProposalIsGodConfirmed"
+paraphrase = "Whatever a teaching authority founded by a God with the classical attributes definitively proposes as divinely revealed, that God confirms. Derived in NAMING-VERACITY-DEFINITIVE-PROPOSAL-CONFIRMED from assistance."
+definitions = ["DEF-GOD-OF-CLASSICAL-THEISM", "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY"]
+disambiguations = ["DISAMB-FOUNDED-BY-GOD"]
+
+# ---- Revelation ----
+
+[[statement]]
+id = "STMT-INFINITE-IS-UNLIMITED-ACT"
+lean = "InfiniteIsUnlimitedAct"
+paraphrase = "OPEN (attribution deferred): what is infinite (the primitive Infinite predicate of GodIsInfinite) is in act in every possible perfection."
+definitions = ["DEF-INFINITE", "DEF-ACTIVE-POWER-TASK-VOCABULARY"]
+disambiguations = []
+
+[[statement]]
+id = "STMT-ACTIVE-POWER-FOLLOWS-ACT"
+lean = "ActivePowerFollowsAct"
+paraphrase = "OPEN (attribution deferred): a being can do a task if it is in act in every perfection the task requires (active power follows act, after ST I q.25 a.1)."
+definitions = ["DEF-ACTIVE-POWER-TASK-VOCABULARY"]
+disambiguations = []
+
+[[statement]]
+id = "STMT-CONSISTENT-TASK-REQUIRES-ONLY-POSSIBLE-PERFECTIONS"
+lean = "ConsistentTaskRequiresOnlyPossiblePerfections"
+paraphrase = "OPEN (attribution deferred): a task whose doing involves no contradiction requires only perfections something could have."
+definitions = ["DEF-ACTIVE-POWER-TASK-VOCABULARY"]
+disambiguations = []
+
+[[statement]]
+id = "STMT-INFINITE-ACT-HAS-INFINITE-POWER"
+lean = "InfiniteActHasInfinitePower"
+paraphrase = "What is infinite can do every task that involves no contradiction (after ST I q.25 a.2). Derived in NAMING-VERACITY-INFINITE-POWER-FROM-ACT."
+definitions = ["DEF-INFINITE", "DEF-ACTIVE-POWER-TASK-VOCABULARY"]
+disambiguations = []
+
+[[statement]]
+id = "STMT-GOD-IS-OMNIPOTENT"
+lean = "GodIsOmnipotent"
+paraphrase = "Whatever is God can do every task that involves no contradiction (after ST I q.25 a.3). Not identified with STMT-GOD-SUPREMELY-GOOD-AND-OMNIPOTENT, which conjoins goodness and uses another vocabulary."
+definitions = ["DEF-GOD-OF-CLASSICAL-THEISM", "DEF-ACTIVE-POWER-TASK-VOCABULARY"]
+disambiguations = []
+
+[[statement]]
+id = "STMT-REVELATION-INVOLVES-NO-CONTRADICTION"
+lean = "RevelationInvolvesNoContradiction"
+paraphrase = "OPEN (attribution deferred): revealing a truth and accompanying it with signs involves no contradiction."
+definitions = ["DEF-ACTIVE-POWER-TASK-VOCABULARY"]
+disambiguations = []
+
+[[statement]]
+id = "STMT-SOME-SIGNS-ONLY-GOD-CAN-GIVE"
+lean = "SomeSignsOnlyGodCanGive"
+paraphrase = "OPEN (attribution deferred): only God can reveal with the signs in question (they exceed every created power): whoever can do the revealing-with-signs task is God."
+definitions = ["DEF-GOD-OF-CLASSICAL-THEISM", "DEF-ACTIVE-POWER-TASK-VOCABULARY"]
+disambiguations = []
+
+[[statement]]
+id = "STMT-RECOGNIZABLE-REVELATION-ANALYSIS"
+lean = "RecognizableRevelationAnalysis"
+paraphrase = "OPEN analyst bridge (attribution deferred): a sufficient condition for the skeleton's primitive RevealsRecognizably: a being reveals recognizably if it can reveal with signs that only God can give. Not a definition of the field."
+definitions = ["DEF-GOD-OF-CLASSICAL-THEISM", "DEF-ACTIVE-POWER-TASK-VOCABULARY"]
+disambiguations = []
+
+[[statement]]
+id = "STMT-NAMING-VERACITY-BATCH1-CONTROLS"
+lean = "Control.Certificate"
+paraphrase = "Controls of the naming/veracity/revelation/authority batch: one finite model in which every premise and conclusion of the batch holds, with a God that has the classical attributes, founds the Church and causes the being of the other being; and, for each premise of the four target-reaching steps (veracity, authority, revelation, operation naming), a finite model of the other premises in which the conclusion fails. Formal-schema models only."
+definitions = ["DEF-VERACITY-ASSERTION-VOCABULARY", "DEF-DIVINE-ASSISTANCE", "DEF-ACTIVE-POWER-TASK-VOCABULARY"]
+disambiguations = []
+
+# ---- Arguments ----
+
+[[argument]]
+id = "NAMING-VERACITY-REDUCED-NAMING-ENTAILS-FULL"
+theorem = "reducedNamingEntailsFull"
+premises = ["STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS"]
+conclusion = "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE"
+rule = "Antecedent strengthening"
+meaning = "Strength registration (not a route step): the reduced naming leaf entails the fuller one, because the fuller description adds antecedents (cause of every perfection; remote from all). Backs the strengthens relation from the reduced to the fuller leaf."
+
+[[argument]]
+id = "NAMING-VERACITY-REDUCED-NAMING-FROM-OPERATION"
+theorem = "reducedNamingFromOperation"
+premises = ["STMT-NAME-GOD-IMPOSED-FROM-OPERATION", "STMT-UNIVERSAL-CAUSE-OF-BEING-IS-MAXIMAL"]
+conclusion = "STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS"
+rule = "Uniqueness transfer from maxima to causes"
+meaning = "If the name 'God' applies to the only universal cause of being, and every universal cause of being is maximal in being, then it applies to the only maximum in being that causes the being of all others: any second universal cause would be a second maximum, against uniqueness. The maximality antecedent of the reduced leaf is not used. Two open analyst bridges."
+
+[[argument]]
+id = "NAMING-VERACITY-GOD-CONFIRMS-ONLY-TRUTH"
+theorem = "godConfirmsOnlyTruthFromVeracity"
+premises = ["STMT-CONFIRMING-IS-ASSERTING", "STMT-GOD-ASSERTS-ONLY-WHAT-HE-KNOWS", "STMT-GOD-KNOWS-ONLY-TRUTHS"]
+conclusion = "STMT-GOD-CONFIRMS-ONLY-TRUTH"
+rule = "Veracity as sincerity plus infallibility"
+meaning = "Divine veracity split in two: what a God with the classical attributes confirms by a sign he asserts; what he asserts he holds as known (he does not deceive); what he holds as known is true (he is not deceived). So whatever he confirms is true. Three open premises; each is needed (omission models in NAMING-VERACITY-BATCH1-CONTROLS)."
+
+[[argument]]
+id = "NAMING-VERACITY-SINCERITY-FROM-ATTRIBUTES"
+theorem = "godAssertsOnlyWhatHeKnowsFromAttributes"
+premises = ["STMT-CLASSICAL-ATTRIBUTES-INCLUDE-PERFECT-INTELLECT-AND-GOOD-WILL"]
+conclusion = "STMT-GOD-ASSERTS-ONLY-WHAT-HE-KNOWS"
+rule = "Composition of sincerity and assent-only-to-knowledge"
+meaning = "A God with the classical attributes asserts only what he believes (good will) and believes only what he holds as known (perfect intellect), so asserts only what he holds as known. One open analyst bridge supplying two attribute consequences."
+
+[[argument]]
+id = "NAMING-VERACITY-DEFINITIVE-PROPOSAL-CONFIRMED"
+theorem = "definitiveProposalConfirmedFromAssistance"
+premises = ["STMT-FOUNDER-GUARANTEES-FOUNDED-AUTHORITY", "STMT-ASSISTED-DEFINITIVE-PROPOSAL-IS-CONFIRMED"]
+conclusion = "STMT-DEFINITIVE-PROPOSAL-IS-GOD-CONFIRMED"
+rule = "Assistance links founding to confirmation"
+meaning = "A God with the classical attributes who founds a teaching authority assists it, and what an assisted society definitively proposes as revealed the assisting God confirms; so what a God-founded teaching authority definitively proposes, its founder confirms. Two open premises."
+
+[[argument]]
+id = "NAMING-VERACITY-AUTHORITY-PROPOSES-ONLY-TRUTH"
+theorem = "authorityProposesOnlyTruth"
+premises = ["STMT-DEFINITIVE-PROPOSAL-IS-GOD-CONFIRMED", "STMT-GOD-CONFIRMS-ONLY-TRUTH"]
+conclusion = "STMT-BRIDGE-GOD-FOUNDED-AUTHORITY-PROPOSES-ONLY-TRUTH"
+rule = "Veracity applied to definitive proposals"
+meaning = "What a teaching authority founded by a God with the classical attributes definitively proposes as revealed, that God confirms, and what he confirms is true; so the authority definitively proposes only truths. Decomposes the stage-3 truth bridge into the confirmation link and the veracity premise; each is needed (omission models in NAMING-VERACITY-BATCH1-CONTROLS)."
+
+[[argument]]
+id = "NAMING-VERACITY-INFINITE-POWER-FROM-ACT"
+theorem = "infinitePowerFromAct"
+premises = ["STMT-INFINITE-IS-UNLIMITED-ACT", "STMT-ACTIVE-POWER-FOLLOWS-ACT", "STMT-CONSISTENT-TASK-REQUIRES-ONLY-POSSIBLE-PERFECTIONS"]
+conclusion = "STMT-INFINITE-ACT-HAS-INFINITE-POWER"
+rule = "Power follows act"
+meaning = "A consistent task requires only possible perfections; what is infinite is in act in every possible perfection; and a being can do a task when it is in act in every perfection the task requires. So what is infinite can do every consistent task. Three open premises."
+
+[[argument]]
+id = "NAMING-VERACITY-GOD-OMNIPOTENT-FROM-INFINITE"
+theorem = "godOmnipotentFromInfinite"
+premises = ["STMT-GOD-IS-INFINITE", "STMT-INFINITE-ACT-HAS-INFINITE-POWER"]
+conclusion = "STMT-GOD-IS-OMNIPOTENT"
+rule = "Syllogism through infinity"
+meaning = "Whatever is God is infinite (stage-2 attribute), and what is infinite can do every consistent task; so whatever is God can do every consistent task. Reuses the stage-2 node GodIsInfinite with its primitive Infinite predicate."
+
+[[argument]]
+id = "NAMING-VERACITY-REVELATION-FROM-OMNIPOTENCE"
+theorem = "revelationFromOmnipotence"
+premises = ["STMT-GOD-IS-OMNIPOTENT", "STMT-REVELATION-INVOLVES-NO-CONTRADICTION", "STMT-SOME-SIGNS-ONLY-GOD-CAN-GIVE", "STMT-RECOGNIZABLE-REVELATION-ANALYSIS"]
+conclusion = "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE"
+rule = "Possibility from omnipotence, recognizability from exclusive signs"
+meaning = "Revealing with signs involves no contradiction, so an omnipotent God can do it; only God can give those signs; and, by the open analysis of the primitive RevealsRecognizably, a being that can reveal with signs only God can give reveals recognizably. So every God reveals recognizably. Four open premises; each is needed (omission models in NAMING-VERACITY-BATCH1-CONTROLS)."
+
+[[argument]]
+id = "NAMING-VERACITY-BATCH1-CONTROLS"
+theorem = "controls"
+premises = []
+conclusion = "STMT-NAMING-VERACITY-BATCH1-CONTROLS"
+rule = "Explicit finite interpretations"
+meaning = "Controls: a joint finite model of every premise and conclusion of the batch with a God that has the classical attributes; and omission models for each premise of the veracity, authority, revelation and operation-naming steps (11 models)."
+
+# ---- Relations ----
+
+[[relation]]
+id = "REL-GOD-NAMES-UNIQUE-MAXIME-ENS-STRENGTHENS-FULLY-DESCRIBED"
+subject_kind = "statement"
+subject_id = "STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE"
+verification_result_id = "NAMING-VERACITY-REDUCED-NAMING-ENTAILS-FULL"
+note = "The reduced naming leaf asserts that fewer conditions already suffice for the name to apply, so it entails the fuller leaf, which keeps every source condition. Both statement paraphrases already say so; this registers the order."
+
+[[relation]]
+id = "REL-DEI-FILIUS-CANNOT-DECEIVE-SUPPORTS-GOD-ASSERTS-ONLY-WHAT-HE-KNOWS"
+subject_kind = "claim"
+subject_id = "VATICAN-I-DEI-FILIUS-CH3-GOD-CANNOT-DECEIVE"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-GOD-ASSERTS-ONLY-WHAT-HE-KNOWS"
+note = "Dei Filius ch. 3 para. 1: God revealing cannot deceive (nec fallere). Reading 'not deceiving' as asserting only what one holds as known, and extending it from revealing to all asserting by a God with the classical attributes, is the analyst's; the council does not state it in these terms."
+
+[[relation]]
+id = "REL-DEI-FILIUS-CANNOT-BE-DECEIVED-SUPPORTS-GOD-KNOWS-ONLY-TRUTHS"
+subject_kind = "claim"
+subject_id = "VATICAN-I-DEI-FILIUS-CH3-GOD-CANNOT-DECEIVE"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-GOD-KNOWS-ONLY-TRUTHS"
+note = "Dei Filius ch. 3 para. 1: God revealing cannot be deceived (nec falli). Reading 'not deceived' as holding as known only truths is the analyst's; the council does not state it in these terms."
+
+[[relation]]
+id = "REL-DEI-FILIUS-SIGNS-SUPPORTS-SOME-SIGNS-ONLY-GOD-CAN-GIVE"
+subject_kind = "claim"
+subject_id = "VATICAN-I-DEI-FILIUS-CH3-SIGNS-OF-REVELATION"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-SOME-SIGNS-ONLY-GOD-CAN-GIVE"
+note = "Dei Filius ch. 3 para. 2: miracles and prophecies clearly show God's omnipotence and infinite knowledge and are most certain signs of revelation. That only God can give these signs (they exceed every created power) is the analyst's reading of 'clearly show omnipotence'; the council does not state exclusivity in these words."
+
+[[relation]]
+id = "REL-DICIMUS-DEUM-SUPPORTS-NAME-GOD-IMPOSED-FROM-OPERATION"
+subject_kind = "claim"
+subject_id = "AQUINAS-ST-I-Q2-A3-QUARTA-VIA-DICIMUS-DEUM-A"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-NAME-GOD-IMPOSED-FROM-OPERATION"
+note = "The quarta via calls God what is the cause of being, goodness and every perfection to all beings. The encoded statement keeps only causation of the being of all others, adds the uniqueness condition, and states it as the condition under which the name applies; the source names the cause of all perfections, not only of being, and gives no uniqueness clause."

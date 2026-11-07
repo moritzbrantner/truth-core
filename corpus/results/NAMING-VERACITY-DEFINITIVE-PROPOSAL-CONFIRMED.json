@@ -1,0 +1,10 @@
+{
+  "id": "NAMING-VERACITY-DEFINITIVE-PROPOSAL-CONFIRMED",
+  "argument_id": "NAMING-VERACITY-DEFINITIVE-PROPOSAL-CONFIRMED",
+  "challenge_module": "TruthCore.Results.Causality.NamingVeracityBatch1.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NamingVeracityBatch1.Solution",
+  "theorem": "TruthCore.Results.Causality.NamingVeracityBatch1.definitiveProposalConfirmedFromAssistance",
+  "comparator_config": "results/NAMING-VERACITY-DEFINITIVE-PROPOSAL-CONFIRMED/comparator.json",
+  "status": "solution-present",
+  "description": "A God with the classical attributes who founds a teaching authority assists it, and what an assisted society definitively proposes as revealed the assisting God confirms; so what a God-founded teaching authority definitively proposes, its founder confirms. Two open premises."
+}

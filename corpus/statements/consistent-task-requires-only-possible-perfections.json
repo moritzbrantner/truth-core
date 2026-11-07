@@ -1,0 +1,8 @@
+{
+  "id": "STMT-CONSISTENT-TASK-REQUIRES-ONLY-POSSIBLE-PERFECTIONS",
+  "paraphrase": "OPEN (attribution deferred): a task whose doing involves no contradiction requires only perfections something could have.",
+  "lean_declaration": "TruthCore.Causality.NamingVeracityBatch1.ConsistentTaskRequiresOnlyPossiblePerfections",
+  "definition_ids": [
+    "DEF-ACTIVE-POWER-TASK-VOCABULARY"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "NAMING-VERACITY-INFINITE-POWER-FROM-ACT",
+  "premise_statement_ids": [
+    "STMT-INFINITE-IS-UNLIMITED-ACT",
+    "STMT-ACTIVE-POWER-FOLLOWS-ACT",
+    "STMT-CONSISTENT-TASK-REQUIRES-ONLY-POSSIBLE-PERFECTIONS"
+  ],
+  "conclusion_statement_id": "STMT-INFINITE-ACT-HAS-INFINITE-POWER",
+  "inference_ids": [
+    "INF-NAMING-VERACITY-INFINITE-POWER-FROM-ACT"
+  ],
+  "meaning": "A consistent task requires only possible perfections; what is infinite is in act in every possible perfection; and a being can do a task when it is in act in every perfection the task requires. So what is infinite can do every consistent task. Three open premises.",
+  "definition_ids": [
+    "DEF-ACTIVE-POWER-TASK-VOCABULARY",
+    "DEF-INFINITE"
+  ]
+}

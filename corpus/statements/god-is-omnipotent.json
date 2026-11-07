@@ -1,0 +1,9 @@
+{
+  "id": "STMT-GOD-IS-OMNIPOTENT",
+  "paraphrase": "Whatever is God can do every task that involves no contradiction (after ST I q.25 a.3). Not identified with STMT-GOD-SUPREMELY-GOOD-AND-OMNIPOTENT, which conjoins goodness and uses another vocabulary.",
+  "lean_declaration": "TruthCore.Causality.NamingVeracityBatch1.GodIsOmnipotent",
+  "definition_ids": [
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-ACTIVE-POWER-TASK-VOCABULARY"
+  ]
+}
