@@ -1,0 +1,20 @@
+{
+  "id": "NO-MOVED-WITHOUT-POTENCY-FROM-ANALYSIS",
+  "premise_statement_ids": [
+    "STMT-BEING-MOVED-IS-ACTUALIZATION-OF-POTENCY"
+  ],
+  "conclusion_statement_id": "STMT-NO-MOVED-WITHOUT-POTENCY",
+  "inference_ids": [
+    "INF-NO-MOVED-WITHOUT-POTENCY-FROM-ANALYSIS"
+  ],
+  "meaning": "Conditional refutation of the Ash'arite occasionalist rival: by Physics III.1's analysis (STMT-BEING-MOVED-IS-ACTUALIZATION-OF-POTENCY), whatever is being moved in a respect is in potency in it, so nothing is moved without potency. The occasionalist, for whom capacity exists only together with its act, must reject that analysis of motion, not only the Prima Via premise derived from it. The analysis stays open, so the refutation does not count for closure.",
+  "definition_ids": [
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-POTENCY",
+    "DEF-RESPECT",
+    "DEF-ACTUALIZATION-QUA-POTENTIAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION"
+  ]
+}
