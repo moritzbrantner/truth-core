@@ -1,0 +1,14 @@
+{
+  "id": "STMT-EVERY-FORM-HAS-INCLINATION",
+  "paraphrase": "OPEN, analyst formulation of the analogy premise of ST I q.19 a.1, attribution deferred: whatever is in act through a form, natural or intelligible, has some inclination following that form. Inclination is orientation at the level of nature or power, covering seeking an absent good and resting in a possessed one; no current exercise or passivity is asserted.",
+  "lean_declaration": "TruthCore.Causality.IntellectualInclination.EveryFormHasInclination",
+  "definition_ids": [
+    "DEF-NATURAL-APPETITE-FORM-INCLINATION",
+    "DEF-COGNITION-RELATIVE-APPETITE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-APPETITE-POWER-AND-EXERCISE",
+    "DISAMB-CREATURE-PASSIVE-APPETITE-AND-DIVINE-WILL",
+    "DISAMB-NATURAL-AND-COGNITIVE-APPETITE"
+  ]
+}

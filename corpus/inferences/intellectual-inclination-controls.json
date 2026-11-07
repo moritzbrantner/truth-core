@@ -1,0 +1,9 @@
+{
+  "id": "INF-INTELLECTUAL-INCLINATION-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-INTELLECTUAL-INCLINATION-CONTROLS",
+  "rule": "Explicit finite interpretations",
+  "meaning": "Finite interpretations with one intellectual being and one intelligible and one natural form. Omitting the inclination premise, the intelligible-form premise (the being has only a natural form, whose inclination follows without will), or the recognition step makes will fail with the other two holding; all three hold together with will.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
