@@ -1,0 +1,10 @@
+{
+  "id": "INTELLECT-FORM-FROM-UNDERSTANDING",
+  "argument_id": "INTELLECT-FORM-FROM-UNDERSTANDING",
+  "challenge_module": "TruthCore.Results.Causality.Round5Worklist.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round5Worklist.Solution",
+  "theorem": "TruthCore.Results.Causality.Round5Worklist.intellectFormFromUnderstanding",
+  "comparator_config": "results/INTELLECT-FORM-FROM-UNDERSTANDING/comparator.json",
+  "status": "solution-present",
+  "description": "Whatever has intellect is in act through some intelligible form, through actual understanding as the middle term: whatever has intellect understands something (OPEN and contested: the human possible intellect before learning is a counterexample), and whatever understands something is in act through an intelligible form (OPEN q.14 a.2 / q.85 a.2 reading). The contested point of the target (power versus act of intellect) is isolated in the first premise."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "STMT-ROUND5-WORKLIST-CONTROLS",
+  "paraphrase": "Finite interpretations for the eleven derivations of round 5 (worklist clusters): for each premise, a model on Unit, Bool or Fin 2 (on the natural numbers for the two finiteness derivations) in which the other premises hold and the conclusion fails, and one joint model per map in which every premise and conclusion holds with populated antecedents (an efficient cause simply prior to its effect, depended on by it and causing its being; a pure act with an operation from itself living at every time beside a moved being whose life-state changes; one intellectual being with an intelligible form, an operation for an end, an inclination, an intellectual appetite and will). Satisfiability and omission only; no model is claimed to describe reality.",
+  "lean_declaration": "TruthCore.Causality.Round5Worklist.Control.Certificate",
+  "definition_ids": [
+    "DEF-SIMPLE-PRIORITY",
+    "DEF-CHANGE-BETWEEN-TIMES",
+    "DEF-OPERATION-OF",
+    "DEF-OPERATES-FROM-ITSELF-AT",
+    "DEF-OPERATION-THROUGH-FORM-FOR-END",
+    "DEF-UNDERSTANDS",
+    "DEF-APPETITIVE-POWER-FOLLOWING-INTELLECT",
+    "DEF-LIFE-PRESENT-AT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE",
+    "DISAMB-MOTION"
+  ]
+}

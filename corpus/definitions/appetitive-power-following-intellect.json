@@ -1,0 +1,8 @@
+{
+  "id": "DEF-APPETITIVE-POWER-FOLLOWING-INTELLECT",
+  "term": "appetitive principle following intellect (AppetitivePowerOf p x, FollowsIntellect p)",
+  "definition": "AppetitivePowerOf p x: p is an appetitive principle of x (a power in creatures; in God no really distinct power is asserted, DISAMB-CREATURE-PASSIVE-APPETITE-AND-DIVINE-WILL). FollowsIntellect p: p follows intellectual, not sensitive, apprehension (q.80 a.2). The pair is the intellectual species of DEF-COGNITION-RELATIVE-APPETITE; the open premise STMT-INTELLECTUAL-APPETITE-IS-WILL identifies it with will (DEF-HAS-WILL). In Lean parameters P -> B -> Prop and P -> Prop.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.Round5Worklist.IntellectualAppetiteIsWill",
+  "note": "Stipulative analyst notion, attribution deferred (round 5 worklist, specs/round5-worklist.toml). Sourcing it would need a typed reading of the cited articles; until then it is constrained only by the open premises that use it."
+}

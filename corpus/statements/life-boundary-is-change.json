@@ -1,0 +1,9 @@
+{
+  "id": "STMT-LIFE-BOUNDARY-IS-CHANGE",
+  "paraphrase": "OPEN analyst premise: beginning or ceasing to live between an earlier and a later time is a change of the living thing in some respect between them. Whoever denies that generation or creation is a change of the thing generated denies it.",
+  "lean_declaration": "TruthCore.Causality.Round5Worklist.LifeBoundaryIsChange",
+  "definition_ids": [
+    "DEF-CHANGE-BETWEEN-TIMES",
+    "DEF-LIFE-PRESENT-AT"
+  ]
+}

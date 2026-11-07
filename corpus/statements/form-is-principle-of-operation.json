@@ -1,0 +1,8 @@
+{
+  "id": "STMT-FORM-IS-PRINCIPLE-OF-OPERATION",
+  "paraphrase": "OPEN analyst premise (forma est principium operationis): every form, natural or intelligible, through which a thing is in act is the principle of some operation of that thing through the form.",
+  "lean_declaration": "TruthCore.Causality.Round5Worklist.FormIsPrincipleOfOperation",
+  "definition_ids": [
+    "DEF-OPERATION-THROUGH-FORM-FOR-END"
+  ]
+}

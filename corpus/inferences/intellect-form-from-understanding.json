@@ -1,0 +1,12 @@
+{
+  "id": "INF-INTELLECT-FORM-FROM-UNDERSTANDING",
+  "input_statement_ids": [
+    "STMT-INTELLECT-UNDERSTANDS-SOMETHING",
+    "STMT-UNDERSTANDING-IS-THROUGH-INTELLIGIBLE-FORM"
+  ],
+  "output_statement_id": "STMT-INTELLECT-HAS-INTELLIGIBLE-FORM",
+  "rule": "Existential elimination, universal instantiation",
+  "meaning": "Whatever has intellect is in act through some intelligible form, through actual understanding as the middle term: whatever has intellect understands something (OPEN and contested: the human possible intellect before learning is a counterexample), and whatever understands something is in act through an intelligible form (OPEN q.14 a.2 / q.85 a.2 reading). The contested point of the target (power versus act of intellect) is isolated in the first premise.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

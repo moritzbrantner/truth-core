@@ -1,0 +1,13 @@
+{
+  "id": "STMT-ACT-OR-POTENCY-IN-BEING",
+  "paraphrase": "OPEN analyst division: each being is in act or in potency in the respect of its being (esse). Silent on other respects; it does not exclude being both.",
+  "lean_declaration": "TruthCore.Causality.Round5Worklist.ActOrPotencyInBeing",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-POTENCY",
+    "DEF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "INF-SIMPLY-PRIOR-CAUSES-BEING-FROM-DEPENDENCE",
+  "input_statement_ids": [
+    "STMT-PRIORITY-REQUIRES-NONMUTUAL-DEPENDENCE",
+    "STMT-DEPENDENCE-FOR-BEING-IS-CAUSED-BEING"
+  ],
+  "output_statement_id": "STMT-SIMPLY-PRIOR-IS-CAUSE-OF-BEING",
+  "rule": "Universal instantiation, conjunction elimination, modus ponens",
+  "meaning": "What is simply prior to a thing is a cause of its being, as a two-step composition through dependence for being (a middle term distinct from both priority and causation): by the existing OPEN premise, whatever is simply prior to x is something x depends on for its being (only this half of its conjunction is used); by the new OPEN and contested premise, what a thing depends on for its being causes its being. No premise states the conclusion. The grounding-is-not-causation rival falls on the second premise.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
