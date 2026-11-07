@@ -1,0 +1,13 @@
+{
+  "id": "INF-COMPOSITIONS-FROM-DISTINCT-CONSTITUENTS",
+  "input_statement_ids": [
+    "STMT-TWO-DISTINCT-CONSTITUENTS-MAKE-COMPOSITE",
+    "STMT-MATTER-FORM-COMPOSITE-HAS-DISTINCT-CONSTITUENTS",
+    "STMT-DISTINCT-ESSE-ESSENCE-ARE-CONSTITUENTS"
+  ],
+  "output_statement_id": "STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS",
+  "rule": "Universal instantiation, existential elimination, modus ponens",
+  "meaning": "Matter-form composites and things whose esse differs from their essence are composite, from an OPEN component analysis (two distinct constituent principles suffice for composition) and two OPEN analyses: a matter-form composite has two distinct constituents, and distinct esse and essence are both constituents. The distinctness of esse from essence is used as the distinctness of the two constituents.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

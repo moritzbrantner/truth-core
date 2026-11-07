@@ -1,0 +1,34 @@
+{
+  "id": "ACTUAL-GROUNDING-WF-FROM-FINITE-RANK",
+  "premise_statement_ids": [
+    "STMT-ACTUAL-GROUNDING-FINITE-RANK"
+  ],
+  "conclusion_statement_id": "STMT-ACTUAL-GROUNDING-WF",
+  "inference_ids": [
+    "INF-ACTUAL-GROUNDING-WF-FROM-FINITE-RANK"
+  ],
+  "meaning": "A natural-number rank decreasing along actual concrete grounding (OPEN) makes actual grounding well-founded: each grounding edge lies in the inverse image of < on ℕ. No excluded middle. This is a second, non-circular route to STMT-ACTUAL-GROUNDING-WF besides ACTUAL-GROUNDING-WF-FROM-BORROWING-CUT, from a strictly stronger premise.",
+  "definition_ids": [
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-ACTUAL-GROUNDING-FINITE-RANK",
+    "DEF-ACTUAL-GROUNDING-WF",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-CONCRETE-ESSE-IN-RE",
+    "DEF-INHABITED-CONCRETE-WORLD",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-NONNECESSARY-ROOT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-NONNECESSARY-VS-CONTINGENT-ROOT",
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
+    "DISAMB-NECESSARY"
+  ]
+}

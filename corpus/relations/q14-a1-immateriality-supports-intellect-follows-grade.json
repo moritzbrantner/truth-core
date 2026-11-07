@@ -1,0 +1,9 @@
+{
+  "id": "REL-Q14-A1-IMMATERIALITY-SUPPORTS-INTELLECT-FOLLOWS-GRADE",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q14-A1-IMMATERIALITY-REASON-OF-KNOWLEDGE",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-INTELLECT-FOLLOWS-GRADE-OF-IMMATERIALITY",
+  "note": "Q.14 a.1 co. says the mode of knowledge follows the mode of immateriality and that intellect is more separated from matter than sense. The premise reads this as upward closure of the primitive intellect power along an unordered grade relation; the text speaks of degrees of cognition, not of closure of a fixed power, and does not address abstract objects."
+}

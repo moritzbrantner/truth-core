@@ -214,7 +214,9 @@ public import TruthCore.Results.Causality.RootWithoutLimitingPrinciple.Solution
 public import TruthCore.Results.Causality.Round2ExistenceAct.Solution
 public import TruthCore.Results.Causality.Round2Grounding.Solution
 public import TruthCore.Results.Causality.Round2PerfectionPrimacy.Solution
+public import TruthCore.Results.Causality.Round3CogitoBase.Solution
 public import TruthCore.Results.Causality.Round3FourthWay.Solution
+public import TruthCore.Results.Causality.Round4Revisited.Solution
 public import TruthCore.Results.Causality.SameRespectActualization.Solution
 public import TruthCore.Results.Causality.ScenarioNecessaryWitness.Solution
 public import TruthCore.Results.Causality.ScopedActualCausality.Solution

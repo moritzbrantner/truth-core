@@ -1,0 +1,12 @@
+{
+  "id": "INF-SELECTED-CONE-CONTINGENT-GROUNDED-FROM-NO-CONTINGENT-ROOT",
+  "input_statement_ids": [
+    "STMT-SELECTED-NO-CONTINGENT-ROOT-ANCESTOR",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "output_statement_id": "STMT-SELECTED-CONE-CONTINGENT-GROUNDED",
+  "rule": "Proof by cases (excluded middle) and reductio",
+  "meaning": "If the selected cone has no contingent root ancestor (OPEN), then every contingent cone member has an actual concrete ground: by excluded middle it has one or has none, and if none it would be a contingent root ancestor. The cone-local analogue of everyContingentGrounded_iff_noContingentRoot; a relocation to the denial of a brute contingent foundation in the cone, not a defence of it.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

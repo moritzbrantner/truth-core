@@ -1,0 +1,27 @@
+{
+  "id": "ROUND4-REVISITED-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-ROUND4-REVISITED-CONTROLS",
+  "inference_ids": [
+    "INF-ROUND4-REVISITED-CONTROLS"
+  ],
+  "meaning": "Finite interpretations for the nine derivations of round 4: for each premise other than excluded middle, a hand-written Unit or Bool model, checked by decide without axioms, in which the other premises hold and the conclusion fails (33 omission models); and one joint nonvacuity witness in which every premise and conclusion of the batch holds with populated antecedents. Satisfiability and omission only; no model is claimed to describe reality.",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-CONSTITUENT-PRINCIPLE",
+    "DEF-GRADE-OF-IMMATERIALITY",
+    "DEF-HAS-INTELLECT",
+    "DEF-INHABITED-CONCRETE-WORLD",
+    "DEF-NECESSITY-AS-PERFECTION",
+    "DEF-NECESSITY-CONSISTS-IN",
+    "DEF-PER-SE-EFFICIENT-CAUSE-LINK",
+    "DEF-POTENCY",
+    "DEF-POTENCY-GROUND",
+    "DEF-SIMPLE-PRIORITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-IN-ACT",
+    "DISAMB-MOTION"
+  ]
+}

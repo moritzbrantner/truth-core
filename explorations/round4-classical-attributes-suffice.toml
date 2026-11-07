@@ -1,0 +1,31 @@
+# Round 4 revisited: the classical attributes suffice. All edges rejected (see ATTEMPT-ROUND4-REVISITED-REJECTED-EDGES).
+target = "STMT-CLASSICAL-ATTRIBUTES-SUFFICE"
+
+[[node]]
+id = "STMT-CLASSICAL-ATTRIBUTES-SUFFICE"
+
+[[node]]
+id = "STMT-GOD-EXISTS"
+
+[[node]]
+id = "STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES"
+
+[[node]]
+id = "STMT-NINE-ATTRIBUTES-IDENTIFY-GOD"
+new = true
+text = "Whatever has the nine Dei Filius attributes is God (IsGod)."
+
+[[edge]]
+premises = ["STMT-GOD-EXISTS", "STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES"]
+conclusion = "STMT-CLASSICAL-ATTRIBUTES-SUFFICE"
+kind = "derivation"
+status = "rejected"
+note = "Valid with One := IsTheOneGod IsGod (the bundle's own 'one'): a one-God candidate is the existing God. But STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES is the stage-2 conclusion derived FROM this bridge (CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES*), so the route is circular on the root path."
+
+[[edge]]
+premises = ["STMT-NINE-ATTRIBUTES-IDENTIFY-GOD", "STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES"]
+conclusion = "STMT-CLASSICAL-ATTRIBUTES-SUFFICE"
+kind = "derivation"
+status = "rejected"
+note = "Same circularity through the stage-2 conclusion, plus a new identification bridge. HasClassicalAttributes is a primitive Signature field with no component analysis; any non-circular route needs an owner decision to analyse that field (cross-cutting signature change)."
+

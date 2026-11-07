@@ -1,0 +1,34 @@
+# Round 4 revisited: matter-form and esse-essence compositions through a component analysis.
+# Analyst formulations, attribution deferred.
+target = "STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS"
+
+[[node]]
+id = "STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS"
+
+[[node]]
+id = "STMT-COMPOSITE-HAS-COMPONENT-OTHER-THAN-ITSELF"
+
+[[node]]
+id = "STMT-TWO-DISTINCT-CONSTITUENTS-MAKE-COMPOSITE"
+
+[[node]]
+id = "STMT-MATTER-FORM-COMPOSITE-HAS-DISTINCT-CONSTITUENTS"
+
+[[node]]
+id = "STMT-DISTINCT-ESSE-ESSENCE-ARE-CONSTITUENTS"
+
+[[edge]]
+premises = ["STMT-TWO-DISTINCT-CONSTITUENTS-MAKE-COMPOSITE", "STMT-MATTER-FORM-COMPOSITE-HAS-DISTINCT-CONSTITUENTS", "STMT-DISTINCT-ESSE-ESSENCE-ARE-CONSTITUENTS"]
+conclusion = "STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS"
+kind = "derivation"
+status = "certified"
+argument = "COMPOSITIONS-FROM-DISTINCT-CONSTITUENTS"
+note = "Component analysis over the Principle sort; the esse/essence distinctness is the constituents' distinctness. Three OPEN premises."
+
+[[edge]]
+premises = ["STMT-COMPOSITE-HAS-COMPONENT-OTHER-THAN-ITSELF"]
+conclusion = "STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS"
+kind = "derivation"
+status = "rejected"
+note = "The fifth proof gives only a necessary condition of composition (composite -> proper component), the wrong direction; and its ComponentOf ranges over beings, not over the Principle sort of esse and essence."
+

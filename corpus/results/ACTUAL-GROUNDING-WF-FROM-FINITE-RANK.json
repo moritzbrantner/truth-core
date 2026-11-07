@@ -1,0 +1,10 @@
+{
+  "id": "ACTUAL-GROUNDING-WF-FROM-FINITE-RANK",
+  "argument_id": "ACTUAL-GROUNDING-WF-FROM-FINITE-RANK",
+  "challenge_module": "TruthCore.Results.Causality.Round3CogitoBase.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round3CogitoBase.Solution",
+  "theorem": "TruthCore.Results.Causality.Round3CogitoBase.actualGroundingWFFromFiniteRank",
+  "comparator_config": "results/ACTUAL-GROUNDING-WF-FROM-FINITE-RANK/comparator.json",
+  "status": "solution-present",
+  "description": "A natural-number rank decreasing along actual concrete grounding (OPEN) makes actual grounding well-founded: each grounding edge lies in the inverse image of < on ℕ. No excluded middle. This is a second, non-circular route to STMT-ACTUAL-GROUNDING-WF besides ACTUAL-GROUNDING-WF-FROM-BORROWING-CUT, from a strictly stronger premise."
+}

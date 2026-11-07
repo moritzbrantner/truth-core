@@ -1,0 +1,16 @@
+{
+  "id": "INF-COGITO-INHABITED-CONCRETE-FROM-CAUSAL-POWER",
+  "input_statement_ids": [
+    "STMT-COGITO-THOUGHT-OCCURS",
+    "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT",
+    "STMT-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE",
+    "STMT-INTELLECTUAL-EXERCISER-HAS-POWER",
+    "STMT-COGITO-BEARER-EXISTS-AT-WORLD",
+    "STMT-CAUSAL-POWER-REQUIRES-CONCRETENESS-AT"
+  ],
+  "output_statement_id": "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+  "rule": "Existential elimination, universal instantiation, modus ponens, existential introduction",
+  "meaning": "As the activity route, with the capacity clause: the bearer who exercises intellect has causal power at w (OPEN), and whatever has causal power at w is concrete (OPEN capacity clause). Avoids the contested production of an inner word.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

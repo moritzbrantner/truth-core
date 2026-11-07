@@ -1,0 +1,12 @@
+{
+  "id": "INF-BEING-MOVED-FROM-UNACTUALIZED-CAPACITY",
+  "input_statement_ids": [
+    "STMT-BEING-MOVED-IS-ACTUALIZATION-OF-UNACTUALIZED-CAPACITY",
+    "STMT-POTENCY-IS-UNACTUALIZED-CAPACITY"
+  ],
+  "output_statement_id": "STMT-BEING-MOVED-IS-ACTUALIZATION-OF-POTENCY",
+  "rule": "Biconditional chaining through a middle term",
+  "meaning": "Being moved is the actualization of an unactualized capacity (OPEN), and potency is unactualized capacity (Metaphysics IX.6 reading, stated); hence being moved is the actualization of a potency, the Physics III.1 reading. Middle term: unactualized capacity. Composes with POTENCY-IS-UNACTUALIZED-CAPACITY-FROM-PRIVATION.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

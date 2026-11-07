@@ -1,0 +1,10 @@
+{
+  "id": "COGITO-INHABITED-CONCRETE-FROM-CAUSAL-ACTIVITY",
+  "argument_id": "COGITO-INHABITED-CONCRETE-FROM-CAUSAL-ACTIVITY",
+  "challenge_module": "TruthCore.Results.Causality.Round4Revisited.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round4Revisited.Solution",
+  "theorem": "TruthCore.Results.Causality.Round4Revisited.inhabitedFromProduction",
+  "comparator_config": "results/COGITO-INHABITED-CONCRETE-FROM-CAUSAL-ACTIVITY/comparator.json",
+  "status": "solution-present",
+  "description": "Some concrete candidate exists at w: an occurring thought has a bearer, who exercises intellect in it and therefore causes something at w (OPEN and contested: the inner word); whatever causes at w is concrete (OPEN activity clause of the causal criterion); and the bearer exists at w. Concreteness is derived from a performed act through a typed criterion, not assumed of bearers (no STMT-COGITO-BEARER-IS-CONCRETE)."
+}

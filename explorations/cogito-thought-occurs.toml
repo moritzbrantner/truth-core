@@ -1,0 +1,51 @@
+# Round 3 map: some thought episode occurs (retorsion route).
+target = "STMT-COGITO-THOUGHT-OCCURS"
+
+[[node]]
+id = "STMT-COGITO-THOUGHT-OCCURS"
+
+# New this round (bare, OPEN): the inquirer's own performed doubt.
+[[node]]
+id = "STMT-COGITO-DOUBT-IS-PERFORMED"
+
+# New this round (bare, OPEN): doubting is a mode of thinking.
+[[node]]
+id = "STMT-COGITO-PERFORMED-DOUBT-IS-THOUGHT"
+
+# New this round: the retorsion conclusion.
+[[node]]
+id = "STMT-COGITO-PERFORMED-DOUBT-OF-THOUGHT-SELF-REFUTING"
+
+[[node]]
+id = "STMT-COGITO-SOME-THINKING-SUBJECT"
+
+[[node]]
+id = "STMT-NO-ACCURATE-PERFORMED-EPISODE-DENIAL"
+
+[[edge]]
+premises = ["STMT-COGITO-DOUBT-IS-PERFORMED", "STMT-COGITO-PERFORMED-DOUBT-IS-THOUGHT"]
+conclusion = "STMT-COGITO-THOUGHT-OCCURS"
+kind = "derivation"
+status = "certified"
+note = "Certified as COGITO-THOUGHT-OCCURS-FROM-PERFORMED-DOUBT (Darii through the performed doubting act)."
+
+[[edge]]
+premises = ["STMT-COGITO-PERFORMED-DOUBT-IS-THOUGHT"]
+conclusion = "STMT-COGITO-PERFORMED-DOUBT-OF-THOUGHT-SELF-REFUTING"
+kind = "derivation"
+status = "certified"
+note = "Certified as COGITO-PERFORMED-DOUBT-SELF-REFUTING: a performed doubt of thought falsifies its content; no performance is assumed."
+
+[[edge]]
+premises = ["STMT-COGITO-SOME-THINKING-SUBJECT"]
+conclusion = "STMT-COGITO-THOUGHT-OCCURS"
+kind = "derivation"
+status = "rejected"
+note = "Projection of the existential, and SOME-THINKING-SUBJECT is itself derived from THOUGHT-OCCURS (ATTEMPT-ROUND3-COGITO-BASE-REJECTED-EDGES)."
+
+[[edge]]
+premises = ["STMT-NO-ACCURATE-PERFORMED-EPISODE-DENIAL"]
+conclusion = "STMT-COGITO-THOUGHT-OCCURS"
+kind = "rival"
+status = "mapped"
+note = "Boundary: the accurate-denial retorsion excludes only a performed true denial; an unperformed denial can be true (EmptyEpisodeControl), so a performance premise such as STMT-COGITO-DOUBT-IS-PERFORMED is required."

@@ -1,0 +1,10 @@
+{
+  "id": "STMT-NECESSITY-CONSISTS-IN-BEING",
+  "paraphrase": "OPEN analyst premise: the necessity of every necessary being (tertia via sense: not possible not to be) consists in the respect of being (esse): its necessity is the necessity of its being.",
+  "lean_declaration": "TruthCore.Causality.Round4Revisited.NecessityConsistsInBeing",
+  "definition_ids": [
+    "DEF-NECESSARY-BEING",
+    "DEF-NECESSITY-CONSISTS-IN",
+    "DEF-ESSE"
+  ]
+}

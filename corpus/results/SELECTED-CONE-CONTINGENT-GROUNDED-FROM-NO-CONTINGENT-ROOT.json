@@ -1,0 +1,10 @@
+{
+  "id": "SELECTED-CONE-CONTINGENT-GROUNDED-FROM-NO-CONTINGENT-ROOT",
+  "argument_id": "SELECTED-CONE-CONTINGENT-GROUNDED-FROM-NO-CONTINGENT-ROOT",
+  "challenge_module": "TruthCore.Results.Causality.Round3CogitoBase.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round3CogitoBase.Solution",
+  "theorem": "TruthCore.Results.Causality.Round3CogitoBase.coneContingentGroundedFromNoContingentRoot",
+  "comparator_config": "results/SELECTED-CONE-CONTINGENT-GROUNDED-FROM-NO-CONTINGENT-ROOT/comparator.json",
+  "status": "solution-present",
+  "description": "If the selected cone has no contingent root ancestor (OPEN), then every contingent cone member has an actual concrete ground: by excluded middle it has one or has none, and if none it would be a contingent root ancestor. The cone-local analogue of everyContingentGrounded_iff_noContingentRoot; a relocation to the denial of a brute contingent foundation in the cone, not a defence of it."
+}

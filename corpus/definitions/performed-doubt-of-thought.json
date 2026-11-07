@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PERFORMED-DOUBT-OF-THOUGHT",
+  "term": "performed doubt of thought occurrence (Performed a, DoubtsThought a)",
+  "definition": "DoubtsThought a: the act a is a doubting, questioning or denying of whether any thought episode occurs. Performed a: a is actually carried out, not merely possible, described or entertained. Example: the reader's present questioning whether anything is thought. Non-example: a sentence 'no thought occurs' printed in a book nobody reads (unperformed). Acts and thought episodes are separate carriers; an act is linked to the episodes that realize it by an explicit relation Realizes a e, so that a performed act yields an occurring episode only through the open premise STMT-COGITO-PERFORMED-DOUBT-IS-THOUGHT. In Lean parameters Act -> Prop and Act -> Episode -> Prop.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.Round3CogitoBase.DoubtIsPerformed",
+  "note": "Stipulative analyst notion for the retorsion route to STMT-COGITO-THOUGHT-OCCURS, attribution deferred (Descartes, Meditation II, 'a thing that doubts' would be the natural source; no claim is made here). Compare DEF-ACCURATE-PERFORMED-DENIAL, which concerns the truth of a performed denial of all episodes, not its realization by a thought."
+}
