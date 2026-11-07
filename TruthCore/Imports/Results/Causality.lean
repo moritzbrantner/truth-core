@@ -10,6 +10,7 @@ public import TruthCore.Results.Causality.ActualFusionNecessaryBeingFromPopulati
 public import TruthCore.Results.Causality.ActualRootNecessityUpgrade.Solution
 public import TruthCore.Results.Causality.ActualRootUniqueness.Solution
 public import TruthCore.Results.Causality.ActualUnderivedEssenceEsse.Solution
+public import TruthCore.Results.Causality.AristotelianRivalRefutations.Solution
 public import TruthCore.Results.Causality.AtomisticCausalSource.Solution
 public import TruthCore.Results.Causality.AtomisticNecessaryBeing.Solution
 public import TruthCore.Results.Causality.AtomisticNecessaryConstituent.Solution

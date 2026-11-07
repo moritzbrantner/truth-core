@@ -1,0 +1,13 @@
+{
+  "id": "STMT-NO-ACT-AND-POTENCY-IN-SAME-RESPECT",
+  "paraphrase": "Negation of the Scotist rival STMT-ACT-AND-POTENCY-IN-SAME-RESPECT on the same InAct and InPotency: nothing is in act and in potency in one respect.",
+  "lean_declaration": "TruthCore.Causality.AristotelianRivalRefutations.NoActAndPotencyInSameRespect",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-POTENCY",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT"
+  ]
+}
