@@ -62,10 +62,21 @@ class ChallengeTextTest(unittest.TestCase):
             argument_batch.challenge_text(SOLUTION, ["absent"])
 
 
-class SlugTest(unittest.TestCase):
-    def test_slug_drops_prefix(self) -> None:
-        self.assertEqual(argument_batch.slug("STMT-FOO-BAR"), "foo-bar")
-        self.assertEqual(argument_batch.slug("FOO-FROM-BAR"), "foo-from-bar")
+class HandlesTest(unittest.TestCase):
+    """Spec handles resolve to uuids; new records get uuid4 ids and plain labels."""
+
+    def test_legacy_handle_resolves_and_new_records_need_a_plain_label(self) -> None:
+        from corpus_ids import is_uuid, legacy_uuid
+
+        handles = argument_batch.Handles()
+        self.assertEqual(handles.get("statement", "STMT-EXCLUDED-MIDDLE"),
+                         legacy_uuid("statement", "STMT-EXCLUDED-MIDDLE"))
+        minted = handles.get("statement", "brand new handle", "A brand new proposition for the test")
+        self.assertTrue(is_uuid(minted))
+        self.assertNotEqual(minted, legacy_uuid("statement", "brand new handle"))
+        self.assertEqual(handles.ref("statement", "brand new handle"), minted)
+        with self.assertRaises(SystemExit):
+            handles.get("statement", "STMT-NOT-A-RECORD-YET")
 
 
 if __name__ == "__main__":
