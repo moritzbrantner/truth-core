@@ -1,0 +1,33 @@
+target = "STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY"
+
+[[node]]
+id = "STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY"
+
+# NEW in round 3 (specs/round3-fourth-way.toml), OPEN.
+[[node]]
+id = "STMT-MORE-IN-MATCHES-DEGREE-EVERYWHERE"
+
+# NEW in round 3 (specs/round3-fourth-way.toml), OPEN.
+[[node]]
+id = "STMT-DEGREE-AS-MUCH-AS-APPROACH"
+
+[[node]]
+id = "STMT-NOTHING-ELSE-REACHES-THE-PRIMARY"
+
+[[node]]
+id = "STMT-MORE-SUCH-HAS-THE-PERFECTION"
+
+# NEW in round 3 (specs/round3-fourth-way.toml), OPEN.
+[[node]]
+id = "STMT-GRADES-FOUND-IN-BEING"
+
+[[node]]
+id = "STMT-EXCLUDED-MIDDLE"
+
+[[edge]]
+premises = ["STMT-MORE-IN-MATCHES-DEGREE-EVERYWHERE", "STMT-DEGREE-AS-MUCH-AS-APPROACH", "STMT-NOTHING-ELSE-REACHES-THE-PRIMARY", "STMT-MORE-SUCH-HAS-THE-PERFECTION", "STMT-GRADES-FOUND-IN-BEING", "STMT-EXCLUDED-MIDDLE"]
+conclusion = "STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY"
+kind = "derivation"
+status = "certified"
+argument = "APPROACH-TO-PRIMARY-FROM-DEGREE-MEASURE"
+note = "Global calibration transported along the approach match gives the biconditional; grades, strict primacy and more-such-has give that the primary has being."

@@ -1,0 +1,10 @@
+{
+  "id": "ROUND3-FOURTH-WAY-CONTROLS",
+  "argument_id": "ROUND3-FOURTH-WAY-CONTROLS",
+  "challenge_module": "TruthCore.Results.Causality.Round3FourthWay.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round3FourthWay.Solution",
+  "theorem": "TruthCore.Results.Causality.Round3FourthWay.controls",
+  "comparator_config": "results/ROUND3-FOURTH-WAY-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "One omission model per premise of each of the twelve derivations (excluded middle excepted: it is logical and not provable without an axiom) and one joint nonvacuity witness: a two-being Boolean model in which true is God, the primary, greatest and maximal, and causes the perfection in false. Satisfiability and omission only."
+}

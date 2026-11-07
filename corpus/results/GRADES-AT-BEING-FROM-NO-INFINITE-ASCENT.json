@@ -1,0 +1,10 @@
+{
+  "id": "GRADES-AT-BEING-FROM-NO-INFINITE-ASCENT",
+  "argument_id": "GRADES-AT-BEING-FROM-NO-INFINITE-ASCENT",
+  "challenge_module": "TruthCore.Results.Causality.Round3FourthWay.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round3FourthWay.Solution",
+  "theorem": "TruthCore.Results.Causality.Round3FourthWay.gradesAtBeingFromNoInfiniteAscent",
+  "comparator_config": "results/GRADES-AT-BEING-FROM-NO-INFINITE-ASCENT/comparator.json",
+  "status": "solution-present",
+  "description": "If something is more a being than something, it has being (more such has the perfection). From any bearer of being climb by 'more in being': each step reaches a bearer, and by the OPEN ascent bound the climb ends at a bearer that nothing exceeds in being, a maximum in being. Excluded middle decides at each bearer whether anything exceeds it. The maximum need not be unique, greatest, or a cause."
+}

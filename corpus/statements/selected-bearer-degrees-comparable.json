@@ -1,0 +1,12 @@
+{
+  "id": "STMT-SELECTED-BEARER-DEGREES-COMPARABLE",
+  "paraphrase": "OPEN analyst premise: any two bearers of the selected perfection have comparable represented degrees (totality on bearers only; ties allowed).",
+  "lean_declaration": "TruthCore.Causality.Round3FourthWay.BearerDegreesComparable",
+  "definition_ids": [
+    "DEF-MAXIMUM-CALIBRATION-PROFILE",
+    "DEF-GREATEST-DEGREE-IN-A-PERFECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MAXIME-ENS"
+  ]
+}

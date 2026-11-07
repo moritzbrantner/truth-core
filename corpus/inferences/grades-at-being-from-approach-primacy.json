@@ -1,0 +1,12 @@
+{
+  "id": "INF-GRADES-AT-BEING-FROM-APPROACH-PRIMACY",
+  "input_statement_ids": [
+    "STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY",
+    "STMT-NOTHING-ELSE-REACHES-THE-PRIMARY"
+  ],
+  "output_statement_id": "STMT-GRADES-TO-MAXIMUM-AT-BEING",
+  "rule": "Order by approach: the primary is maximal (ApproachToPrimaryReading.isMaximumIn_primary)",
+  "meaning": "On the order of being by approach to a primary (ST I q.3 a.5 ad 2) with strict primacy (an open premise), the primary has being and nothing is more a being than it: anything that were would approach more nearly than the primary, while everything else approaches less nearly. So there is a maximum in being, whether or not grades are found.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

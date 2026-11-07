@@ -1,0 +1,30 @@
+target = "STMT-AS-TO-BEING-SO-TO-TRUTH"
+
+[[node]]
+id = "STMT-AS-TO-BEING-SO-TO-TRUTH"
+
+# NEW in round 3 (specs/round3-fourth-way.toml), OPEN.
+[[node]]
+id = "STMT-TRUTH-OF-THINGS-IS-INTELLIGIBILITY"
+
+# NEW in round 3 (specs/round3-fourth-way.toml), OPEN.
+[[node]]
+id = "STMT-INTELLIGIBILITY-PROPORTIONED-TO-BEING"
+
+[[node]]
+id = "STMT-MOST-TRUE-IS-MOST-BEING"
+
+[[edge]]
+premises = ["STMT-TRUTH-OF-THINGS-IS-INTELLIGIBILITY", "STMT-INTELLIGIBILITY-PROPORTIONED-TO-BEING"]
+conclusion = "STMT-AS-TO-BEING-SO-TO-TRUTH"
+kind = "derivation"
+status = "certified"
+argument = "AS-TO-BEING-SO-TO-TRUTH-FROM-INTELLIGIBILITY"
+note = "Truth goes with intelligibility (q.16 a.1, a.3) and intelligibility with being (q.16 a.3); chain the biconditionals."
+
+[[edge]]
+premises = ["STMT-MOST-TRUE-IS-MOST-BEING"]
+conclusion = "STMT-AS-TO-BEING-SO-TO-TRUTH"
+kind = "derivation"
+status = "rejected"
+note = "Transfers only maximality from truth to being; it constrains neither having nor the comparative, and the quarta via derives it from the Metaphysics II.1 correspondence, not conversely. See ATTEMPT-ROUND3-FOURTH-WAY-REJECTED-EDGES."

@@ -1,0 +1,9 @@
+{
+  "id": "REL-Q2-A3-MAXIMUM-CAUSES-GENUS-SUPPORTS-GREATEST-CAUSES-IN-EVERY-GENUS",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q2-A3-MAXIMUM-CAUSES-GENUS-A",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-GREATEST-DEGREE-CAUSES-ALL-IN-EVERY-GENUS",
+  "note": "maxime tale in aliquo genere ... est causa omnium quae sunt illius generis is said of any genus. The statement quantifies over every perfection with a per-respect degree family deg; that family, and reading each genus as a perfection with its own degree scale, are the analyst's (gap)."
+}

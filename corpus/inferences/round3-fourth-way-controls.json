@@ -1,0 +1,9 @@
+{
+  "id": "INF-ROUND3-FOURTH-WAY-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-ROUND3-FOURTH-WAY-CONTROLS",
+  "rule": "Explicit finite and infinite interpretations",
+  "meaning": "One omission model per premise of each of the twelve derivations (excluded middle excepted: it is logical and not provable without an axiom) and one joint nonvacuity witness: a two-being Boolean model in which true is God, the primary, greatest and maximal, and causes the perfection in false. Satisfiability and omission only.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,8 @@
+{
+  "id": "DEF-PER-RESPECT-DEGREE-FAMILY",
+  "term": "represented degree of a being in each perfection (deg r x)",
+  "definition": "deg : R → B → D assigns to each being x and each perfection r a represented degree deg r x in a Mathlib Preorder D. It extends the single selected-respect value map of the calibration frame (DEF-MAXIMUM-CALIBRATION-PROFILE) to every respect, so that statements quantifying over all perfections can mention degrees. Nothing makes D total, makes deg injective, or identifies degrees across respects; the degree of a non-bearer is constrained only by the premises that mention it. Example: degrees of heat of a fire and of warmed wood. Not to be confused with MoreIn (DEF-MORE-IN), the primitive comparative, which is related to deg only by the explicit open calibration premises (STMT-MORE-IN-EXCEEDS-REPRESENTED-DEGREE, STMT-DEGREE-EXCESS-AMONG-BEARERS-IS-MORE-IN, STMT-MORE-IN-MATCHES-DEGREE-EVERYWHERE).",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.Round3FourthWay.MoreInExceedsDegree",
+  "note": "Stipulative analyst notion, attribution deferred. Whether analogical being admits a represented degree at all is OPEN (DISAMB-BEING-UNIVOCITY); a source for a per-perfection degree scale would need a passage that grades every perfection, which is not supplied."
+}

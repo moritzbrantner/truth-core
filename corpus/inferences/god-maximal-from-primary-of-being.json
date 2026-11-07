@@ -1,0 +1,13 @@
+{
+  "id": "INF-GOD-MAXIMAL-FROM-PRIMARY-OF-BEING",
+  "input_statement_ids": [
+    "STMT-GOD-IS-THE-PRIMARY-OF-BEING",
+    "STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY",
+    "STMT-NOTHING-ELSE-REACHES-THE-PRIMARY"
+  ],
+  "output_statement_id": "STMT-GOD-IS-MAXIMAL-IN-BEING",
+  "rule": "Substitution of identicals, then the primary is maximal",
+  "meaning": "A second derivation of STMT-GOD-IS-MAXIMAL-IN-BEING (after GOD-MAXIMAL-FROM-CAUSING), through the measure of q.3 a.5 ad 2 rather than causing: whatever is God is the primary of the order of being by approach (OPEN reading, supported by the q.3 a.5 ad 2 claim), and on that order with strict primacy the primary is maximal in being.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,16 @@
+{
+  "id": "STMT-GREATEST-DEGREE-CAUSES-ALL-IN-EVERY-GENUS",
+  "paraphrase": "OPEN every-respect version of STMT-GREATEST-DEGREE-IN-GENUS-CAUSES-ALL-IN-GENUS: for every perfection r, with r's represented degrees deg r, a bearer at the greatest degree of r causes r in every other bearer of r.",
+  "lean_declaration": "TruthCore.Causality.Round3FourthWay.GreatestDegreeCausesAllInEveryGenus",
+  "definition_ids": [
+    "DEF-GREATEST-DEGREE-IN-A-PERFECTION",
+    "DEF-PER-RESPECT-DEGREE-FAMILY",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-GENUS-BROAD"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE",
+    "DISAMB-GENUS",
+    "DISAMB-MAXIME-ENS"
+  ]
+}

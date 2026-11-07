@@ -1,0 +1,13 @@
+{
+  "id": "STMT-TRUTH-OF-THINGS-IS-INTELLIGIBILITY",
+  "paraphrase": "OPEN reading of ST I q.16 a.1 and a.3: truth said of things is intelligibility; a thing has truth exactly when it is intelligible, and one thing is more true than another exactly when it is more intelligible.",
+  "lean_declaration": "TruthCore.Causality.Round3FourthWay.TruthOfThingsIsIntelligibility",
+  "definition_ids": [
+    "DEF-ONTOLOGICAL-TRUTH",
+    "DEF-ONTOLOGICAL-TRUTH-COMPARISON",
+    "DEF-INTELLIGIBILITY-OF-THINGS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-TRUE"
+  ]
+}
