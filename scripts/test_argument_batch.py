@@ -17,9 +17,18 @@ public import TruthCore.Foo
 
 @[expose] public section
 
+/-! A module docstring
+that spans lines and mentions
+end of things, section headings and theorem names. -/
+
 namespace TruthCore.Results.Bar
 open TruthCore.Foo
 
+namespace Control
+def witness : Prop := True
+end Control
+
+section Helpers
 /-- Helper, omitted from the Challenge. -/
 theorem helper : True := trivial
 
@@ -27,6 +36,7 @@ theorem helper : True := trivial
 theorem main (p : Prop) (hp : p) :
     p ∧ True :=
   ⟨hp, helper⟩
+end Helpers
 
 end TruthCore.Results.Bar
 """
@@ -42,6 +52,10 @@ class ChallengeTextTest(unittest.TestCase):
         self.assertNotIn("helper", text)
         self.assertIn("open TruthCore.Foo", text)
         self.assertIn("end TruthCore.Results.Bar", text)
+        self.assertIn("namespace Control", text)
+        self.assertIn("end Control", text)
+        self.assertNotIn("end Helpers", text)
+        self.assertIn("end of things, section headings and theorem names. -/", text)
 
     def test_missing_theorem_is_an_error(self) -> None:
         with self.assertRaises(SystemExit):
