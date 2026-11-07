@@ -1,0 +1,16 @@
+{
+  "id": "INF-UNLIMITED-DETERMINATIONS-PURE-FROM-RECEPTION",
+  "input_statement_ids": [
+    "STMT-IDENTITY-BEARERS-RECEIVE-ESSE-ONLY-IN-OWN-ESSENCE",
+    "STMT-RECEIVER-IN-POTENCY-TO-RECEIVED-ESSE",
+    "STMT-NOTHING-IN-RECEPTIVE-POTENCY-TO-ITSELF",
+    "STMT-UNRECEIVED-ESSE-IS-OWN-BEING",
+    "STMT-OWN-BEING-IS-NO-RECIPIENT",
+    "STMT-NON-RECIPIENT-DETERMINATIONS-ARE-PURE"
+  ],
+  "output_statement_id": "STMT-UNLIMITED-DETERMINATIONS-ARE-PURE",
+  "rule": "Own being receives nothing, so its determinations are pure",
+  "meaning": "A being with no represented limiting principle is its own being by UNLIMITED-IS-OWN-BEING-FROM-RECEPTION (same four premises); what is its own being is no recipient (STMT-OWN-BEING-IS-NO-RECIPIENT, q.4 a.1 ad 3); and a being that is no recipient has only pure determinations (STMT-NON-RECIPIENT-DETERMINATIONS-ARE-PURE, q.7 a.1 generalized). Derives the former bare bridge STMT-UNLIMITED-DETERMINATIONS-ARE-PURE for an arbitrary carrier of determinations. All six premises stay open; the two new ones are supported, not stated.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

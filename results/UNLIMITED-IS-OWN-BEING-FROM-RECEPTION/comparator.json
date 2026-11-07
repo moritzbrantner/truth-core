@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.ReceptionLimitation.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ReceptionLimitation.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.ReceptionLimitation.unlimitedIsOwnBeing"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

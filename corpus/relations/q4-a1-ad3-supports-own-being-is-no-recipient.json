@@ -1,0 +1,9 @@
+{
+  "id": "REL-Q4-A1-AD3-SUPPORTS-OWN-BEING-IS-NO-RECIPIENT",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q4-A1-AD3-ACTUALITY-AS-BEING-A",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-OWN-BEING-IS-NO-RECIPIENT",
+  "note": "Q.4 a.1 ad 3 says esse 'non comparatur ad alia sicut recipiens ad receptum: sed magis sicut receptum ad recipiens'. The claim formalizes only that nothing has actuality except insofar as it is. The step from esse as such to a being that is its own esse, and from 'not related as recipient' to 'no act is received in it', is not stated."
+}
