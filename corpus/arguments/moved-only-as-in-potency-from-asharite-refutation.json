@@ -1,0 +1,21 @@
+{
+  "id": "MOVED-ONLY-AS-IN-POTENCY-FROM-ASHARITE-REFUTATION",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-NO-MOVED-WITHOUT-POTENCY"
+  ],
+  "conclusion_statement_id": "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
+  "inference_ids": [
+    "INF-MOVED-ONLY-AS-IN-POTENCY-FROM-ASHARITE-REFUTATION"
+  ],
+  "meaning": "Whatever is moved in a respect is in potency in that respect, from the conclusion of NO-MOVED-WITHOUT-POTENCY-FROM-ANALYSIS (the Ash'arite rival fails on the same MovedIn and InPotency) and excluded middle. The refutation's premise (STMT-BEING-MOVED-IS-ACTUALIZATION-OF-POTENCY) stays OPEN; the route premise is not established.",
+  "definition_ids": [
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-POTENCY",
+    "DEF-RESPECT",
+    "DEF-SELF-EVIDENT-MARKING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION"
+  ]
+}
