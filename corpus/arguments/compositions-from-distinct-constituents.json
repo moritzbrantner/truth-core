@@ -1,0 +1,22 @@
+{
+  "id": "COMPOSITIONS-FROM-DISTINCT-CONSTITUENTS",
+  "premise_statement_ids": [
+    "STMT-TWO-DISTINCT-CONSTITUENTS-MAKE-COMPOSITE",
+    "STMT-MATTER-FORM-COMPOSITE-HAS-DISTINCT-CONSTITUENTS",
+    "STMT-DISTINCT-ESSE-ESSENCE-ARE-CONSTITUENTS"
+  ],
+  "conclusion_statement_id": "STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS",
+  "inference_ids": [
+    "INF-COMPOSITIONS-FROM-DISTINCT-CONSTITUENTS"
+  ],
+  "meaning": "Matter-form composites and things whose esse differs from their essence are composite, from an OPEN component analysis (two distinct constituent principles suffice for composition) and two OPEN analyses: a matter-form composite has two distinct constituents, and distinct esse and essence are both constituents. The distinctness of esse from essence is used as the distinctness of the two constituents.",
+  "definition_ids": [
+    "DEF-CONSTITUENT-PRINCIPLE",
+    "DEF-ESSE",
+    "DEF-ESSENCE-THOMISTIC-NATURE",
+    "DEF-SIMPLE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSENCE"
+  ]
+}

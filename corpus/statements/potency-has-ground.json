@@ -1,0 +1,10 @@
+{
+  "id": "STMT-POTENCY-HAS-GROUND",
+  "paraphrase": "OPEN analyst premise: every potency has a ground: whatever is in potency in a respect has some being on which that potency depends, whether or not the potency is now being actualized (idle potency included). A brute, free-floating possibility falsifies it.",
+  "lean_declaration": "TruthCore.Causality.Round4Revisited.PotencyHasGround",
+  "definition_ids": [
+    "DEF-POTENCY",
+    "DEF-POTENCY-GROUND",
+    "DEF-RESPECT"
+  ]
+}

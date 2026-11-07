@@ -1,0 +1,34 @@
+# Round 4 revisited: the immaterial is intellectual through grades of immateriality (power, not reception;
+# docs/immaterial-intellect-reception.md). Analyst formulations, attribution deferred.
+target = "STMT-IMMATERIAL-IS-INTELLECTUAL"
+
+[[node]]
+id = "STMT-IMMATERIAL-IS-INTELLECTUAL"
+
+[[node]]
+id = "STMT-Q14-COGNITIVE-FORM-APTITUDE"
+
+[[node]]
+id = "STMT-INTELLECT-FOLLOWS-GRADE-OF-IMMATERIALITY"
+
+[[node]]
+id = "STMT-SOME-BEING-HAS-INTELLECT"
+
+[[node]]
+id = "STMT-ALTOGETHER-IMMATERIAL-IS-MAXIMALLY-IMMATERIAL"
+
+[[edge]]
+premises = ["STMT-INTELLECT-FOLLOWS-GRADE-OF-IMMATERIALITY", "STMT-SOME-BEING-HAS-INTELLECT", "STMT-ALTOGETHER-IMMATERIAL-IS-MAXIMALLY-IMMATERIAL"]
+conclusion = "STMT-IMMATERIAL-IS-INTELLECTUAL"
+kind = "derivation"
+status = "certified"
+argument = "IMMATERIAL-IS-INTELLECTUAL-FROM-GRADES"
+note = "Grade route on the primitive intellect power; no reception capacity or actual reception is used. Three OPEN premises; q.14 a.1 supports the first with a gap. The abstract-object objection falls on the first premise."
+
+[[edge]]
+premises = ["STMT-Q14-COGNITIVE-FORM-APTITUDE"]
+conclusion = "STMT-IMMATERIAL-IS-INTELLECTUAL"
+kind = "derivation"
+status = "rejected"
+note = "Aptitude for another's form follows from cognitive nature, not conversely; using it would turn a capacity reading into an intellect sufficiency claim the source does not make (docs/immaterial-intellect-reception.md)."
+

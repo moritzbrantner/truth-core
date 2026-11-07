@@ -1,0 +1,13 @@
+{
+  "id": "STMT-CAUSERS-REQUIRE-CONCRETENESS-AT",
+  "paraphrase": "OPEN activity clause alone (the weaker half of STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS): at the selected world, whatever causes something is concrete. It does not infer capacity from exercise and does not define concreteness; under the adopted esse sense it says every cause at w has esse in re.",
+  "lean_declaration": "TruthCore.Causality.CausalPowerConcreteness.CausersRequireConcreteAt",
+  "definition_ids": [
+    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE",
+    "DEF-CONCRETE-CAUSAL-CRITERION",
+    "DEF-KANT-ONTOLOGICAL-MODEL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA"
+  ]
+}

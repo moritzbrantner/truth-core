@@ -1,0 +1,8 @@
+{
+  "id": "STMT-SOME-BEING-HAS-INTELLECT",
+  "paraphrase": "OPEN analyst premise: something has intellect (for example a human being). Existence of an intellectual power only, not of any immaterial being.",
+  "lean_declaration": "TruthCore.Causality.Round4Revisited.SomeBeingHasIntellect",
+  "definition_ids": [
+    "DEF-HAS-INTELLECT"
+  ]
+}

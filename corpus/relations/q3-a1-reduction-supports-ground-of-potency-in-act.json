@@ -1,0 +1,9 @@
+{
+  "id": "REL-Q3-A1-REDUCTION-SUPPORTS-GROUND-OF-POTENCY-IN-ACT",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q3-A1-REDUCED-ONLY-BY-BEING-IN-ACT-A",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-GROUND-OF-POTENCY-IS-IN-ACT",
+  "note": "Q.3 a.1 co. says 'quod est in potentia, non reducitur in actum nisi per ens actu': what reduces a potency to act is in act. The premise says it of whatever grounds a potency, including a potency never reduced; that extension to grounding and to idle potency is the analyst's."
+}

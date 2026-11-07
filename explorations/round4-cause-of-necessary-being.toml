@@ -1,0 +1,38 @@
+# Round 4 revisited: a cause of a necessary being causes its necessity.
+# Analyst formulations, attribution deferred.
+target = "STMT-CAUSE-OF-NECESSARY-BEING-CAUSES-ITS-NECESSITY"
+
+[[node]]
+id = "STMT-CAUSE-OF-NECESSARY-BEING-CAUSES-ITS-NECESSITY"
+
+[[node]]
+id = "STMT-CAUSE-OF-BEING-CAUSES-EVERY-PERFECTION"
+
+[[node]]
+id = "STMT-NECESSITY-CONSISTS-IN-BEING"
+
+[[node]]
+id = "STMT-CAUSING-NECESSITY-RESPECT-CAUSES-NECESSITY"
+
+[[node]]
+id = "STMT-NECESSARY-BEING-IN-ACT-OF-NECESSITY"
+
+[[node]]
+id = "STMT-CAUSING-IN-NECESSITY-CAUSES-NECESSITY"
+
+[[edge]]
+premises = ["STMT-NECESSITY-CONSISTS-IN-BEING", "STMT-CAUSING-NECESSITY-RESPECT-CAUSES-NECESSITY"]
+conclusion = "STMT-CAUSE-OF-NECESSARY-BEING-CAUSES-ITS-NECESSITY"
+kind = "derivation"
+status = "certified"
+argument = "CAUSE-OF-NECESSARY-BEING-FROM-NECESSITY-OF-BEING"
+note = "Declared transcription (single application): records the analysis but does not expand the target. Analyses 'its necessity is the necessity of its being' through a typed respect relation. Two OPEN premises."
+
+[[edge]]
+premises = ["STMT-CAUSE-OF-BEING-CAUSES-EVERY-PERFECTION", "STMT-NECESSARY-BEING-IN-ACT-OF-NECESSITY", "STMT-CAUSING-IN-NECESSITY-CAUSES-NECESSITY"]
+conclusion = "STMT-CAUSE-OF-NECESSARY-BEING-CAUSES-ITS-NECESSITY"
+kind = "derivation"
+status = "certified"
+argument = "CAUSE-OF-NECESSARY-BEING-FROM-PERFECTION"
+note = "Declared transcription (single application): records the route but does not expand the target. Perfection route through the existing open quarta via premise; the necessity-as-perfection premise is contested (necessity may be a mode)."
+

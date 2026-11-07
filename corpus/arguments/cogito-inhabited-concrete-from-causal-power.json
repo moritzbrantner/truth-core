@@ -1,0 +1,33 @@
+{
+  "id": "COGITO-INHABITED-CONCRETE-FROM-CAUSAL-POWER",
+  "premise_statement_ids": [
+    "STMT-COGITO-THOUGHT-OCCURS",
+    "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT",
+    "STMT-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE",
+    "STMT-INTELLECTUAL-EXERCISER-HAS-POWER",
+    "STMT-COGITO-BEARER-EXISTS-AT-WORLD",
+    "STMT-CAUSAL-POWER-REQUIRES-CONCRETENESS-AT"
+  ],
+  "conclusion_statement_id": "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+  "inference_ids": [
+    "INF-COGITO-INHABITED-CONCRETE-FROM-CAUSAL-POWER"
+  ],
+  "meaning": "As the activity route, with the capacity clause: the bearer who exercises intellect has causal power at w (OPEN), and whatever has causal power at w is concrete (OPEN capacity clause). Avoids the contested production of an inner word.",
+  "definition_ids": [
+    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE",
+    "DEF-COGITO-THINKING-AS-INTELLECTUAL-EXERCISE",
+    "DEF-CONCRETE-CAUSAL-CRITERION",
+    "DEF-CONCRETE-ESSE-IN-RE",
+    "DEF-INHABITED-CONCRETE-WORLD",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-POWER-CAPACITY-READING",
+    "DEF-Q75-OPERATION-ATTRIBUTION",
+    "DEF-THOUGHT-BEARER",
+    "DEF-THOUGHT-OCCURRENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-IN-ACT",
+    "DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE"
+  ]
+}

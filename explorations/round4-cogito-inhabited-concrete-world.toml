@@ -1,0 +1,57 @@
+# Round 4 revisited: the Cogito populates the world with a concrete being through the causal criterion.
+# Analyst formulations, attribution deferred.
+target = "STMT-COGITO-INHABITED-CONCRETE-WORLD"
+
+[[node]]
+id = "STMT-COGITO-INHABITED-CONCRETE-WORLD"
+
+[[node]]
+id = "STMT-COGITO-THOUGHT-OCCURS"
+
+[[node]]
+id = "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT"
+
+[[node]]
+id = "STMT-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE"
+
+[[node]]
+id = "STMT-INTELLECTUAL-EXERCISE-PRODUCES-AT"
+
+[[node]]
+id = "STMT-INTELLECTUAL-EXERCISER-HAS-POWER"
+
+[[node]]
+id = "STMT-COGITO-BEARER-EXISTS-AT-WORLD"
+
+[[node]]
+id = "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS"
+
+[[node]]
+id = "STMT-CAUSERS-REQUIRE-CONCRETENESS-AT"
+
+[[node]]
+id = "STMT-CAUSAL-POWER-REQUIRES-CONCRETENESS-AT"
+
+[[edge]]
+premises = ["STMT-COGITO-THOUGHT-OCCURS", "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT", "STMT-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE", "STMT-INTELLECTUAL-EXERCISE-PRODUCES-AT", "STMT-COGITO-BEARER-EXISTS-AT-WORLD", "STMT-CAUSERS-REQUIRE-CONCRETENESS-AT"]
+conclusion = "STMT-COGITO-INHABITED-CONCRETE-WORLD"
+kind = "derivation"
+status = "certified"
+argument = "COGITO-INHABITED-CONCRETE-FROM-CAUSAL-ACTIVITY"
+note = "Activity route: the performed act (an intellectual exercise producing an inner word) meets the causal criterion. Only the new activity clause is new."
+
+[[edge]]
+premises = ["STMT-COGITO-THOUGHT-OCCURS", "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT", "STMT-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE", "STMT-INTELLECTUAL-EXERCISER-HAS-POWER", "STMT-COGITO-BEARER-EXISTS-AT-WORLD", "STMT-CAUSAL-POWER-REQUIRES-CONCRETENESS-AT"]
+conclusion = "STMT-COGITO-INHABITED-CONCRETE-WORLD"
+kind = "derivation"
+status = "certified"
+argument = "COGITO-INHABITED-CONCRETE-FROM-CAUSAL-POWER"
+note = "Capacity route: the exerciser has causal power, which meets the capacity clause; avoids the contested inner-word production."
+
+[[edge]]
+premises = ["STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS"]
+conclusion = "STMT-CAUSERS-REQUIRE-CONCRETENESS-AT"
+kind = "derivation"
+status = "mapped"
+note = "The owner commitment is the conjunction of both clauses; a strengthens relation would need its own verified projection result. Not certified in this batch; the arguments use the weaker clauses."
+

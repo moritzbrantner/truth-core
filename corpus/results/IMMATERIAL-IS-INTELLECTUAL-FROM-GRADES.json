@@ -1,0 +1,10 @@
+{
+  "id": "IMMATERIAL-IS-INTELLECTUAL-FROM-GRADES",
+  "argument_id": "IMMATERIAL-IS-INTELLECTUAL-FROM-GRADES",
+  "challenge_module": "TruthCore.Results.Causality.Round4Revisited.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round4Revisited.Solution",
+  "theorem": "TruthCore.Results.Causality.Round4Revisited.immaterialIntellectualFromGrades",
+  "comparator_config": "results/IMMATERIAL-IS-INTELLECTUAL-FROM-GRADES/comparator.json",
+  "status": "solution-present",
+  "description": "What is altogether immaterial has intellect, from three OPEN premises: intellect (the power, not an actual reception) is closed upward along grades of immateriality, something has intellect, and the altogether immaterial is at least as immaterial as every being. Unlike the q.14 calibration assemblies it does not pass through reception capacities; the abstract-object objection falls on the first premise."
+}

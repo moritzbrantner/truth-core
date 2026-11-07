@@ -1,0 +1,23 @@
+# Round 4 revisited: a per se mover link is a per se cause link. Analyst formulations, attribution deferred.
+target = "STMT-PER-SE-MOVER-LINK-IS-PER-SE-CAUSE-LINK"
+
+[[node]]
+id = "STMT-PER-SE-MOVER-LINK-IS-PER-SE-CAUSE-LINK"
+
+[[node]]
+id = "STMT-PER-SE-MOVER-LINK-IS-MOVING-BY-MOVED-MOVER"
+
+[[node]]
+id = "STMT-MOVER-IS-EFFICIENT-CAUSE"
+
+[[node]]
+id = "STMT-SECOND-EFFICIENT-CAUSES-CAUSE-ONLY-AS-CAUSED"
+
+[[edge]]
+premises = ["STMT-PER-SE-MOVER-LINK-IS-MOVING-BY-MOVED-MOVER", "STMT-MOVER-IS-EFFICIENT-CAUSE", "STMT-SECOND-EFFICIENT-CAUSES-CAUSE-ONLY-AS-CAUSED"]
+conclusion = "STMT-PER-SE-MOVER-LINK-IS-PER-SE-CAUSE-LINK"
+kind = "derivation"
+status = "certified"
+argument = "PER-SE-MOVER-LINK-FROM-EFFICIENT-CAUSING"
+note = "Analyses MovesAsMoved through MovesIn and CausesAsCaused through EfficientlyCausesIn using three existing open premises; no new premise. Positive form of the occasionalist-rival refutation."
+

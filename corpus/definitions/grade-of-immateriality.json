@@ -1,0 +1,8 @@
+{
+  "id": "DEF-GRADE-OF-IMMATERIALITY",
+  "term": "at least as immaterial as (AtLeastAsImmaterial x y)",
+  "definition": "AtLeastAsImmaterial x y: x is at least as far removed from matter as y (q.14 a.1: the intellect 'magis separatus est a materia' than sense). No order axioms are assumed (not even reflexivity or transitivity). It is a grade of separation from matter, not cognitive capacity and not actual reception of forms (DISAMB-Q14-RECEPTION-SENSES): the open premise STMT-INTELLECT-FOLLOWS-GRADE-OF-IMMATERIALITY is what links it to HasIntellect. Example: an angel is at least as immaterial as a human. Counterexample risk: if abstract objects are ranked at the top grade, the linking premise gives them intellect. In Lean a parameter B -> B -> Prop.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.Round4Revisited.IntellectFollowsGradeOfImmateriality",
+  "note": "Stipulative analyst notion, attribution deferred (round 4 revisited, specs/round4-revisited.toml)."
+}

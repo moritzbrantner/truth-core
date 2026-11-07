@@ -1,0 +1,32 @@
+{
+  "id": "COGITO-INHABITED-CONCRETE-FROM-CAUSAL-ACTIVITY",
+  "premise_statement_ids": [
+    "STMT-COGITO-THOUGHT-OCCURS",
+    "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT",
+    "STMT-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE",
+    "STMT-INTELLECTUAL-EXERCISE-PRODUCES-AT",
+    "STMT-COGITO-BEARER-EXISTS-AT-WORLD",
+    "STMT-CAUSERS-REQUIRE-CONCRETENESS-AT"
+  ],
+  "conclusion_statement_id": "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+  "inference_ids": [
+    "INF-COGITO-INHABITED-CONCRETE-FROM-CAUSAL-ACTIVITY"
+  ],
+  "meaning": "Some concrete candidate exists at w: an occurring thought has a bearer, who exercises intellect in it and therefore causes something at w (OPEN and contested: the inner word); whatever causes at w is concrete (OPEN activity clause of the causal criterion); and the bearer exists at w. Concreteness is derived from a performed act through a typed criterion, not assumed of bearers (no STMT-COGITO-BEARER-IS-CONCRETE).",
+  "definition_ids": [
+    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE",
+    "DEF-COGITO-THINKING-AS-INTELLECTUAL-EXERCISE",
+    "DEF-CONCRETE-CAUSAL-CRITERION",
+    "DEF-CONCRETE-ESSE-IN-RE",
+    "DEF-INHABITED-CONCRETE-WORLD",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-Q75-OPERATION-ATTRIBUTION",
+    "DEF-THOUGHT-BEARER",
+    "DEF-THOUGHT-OCCURRENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-IN-ACT",
+    "DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "ATTEMPT-ROUND4-REVISITED-REJECTED-EDGES",
+  "statement_ids": [
+    "STMT-CLASSICAL-ATTRIBUTES-SUFFICE",
+    "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY",
+    "STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS",
+    "STMT-IMMATERIAL-IS-INTELLECTUAL"
+  ],
+  "date": "2026-11-07",
+  "kind": "derivation",
+  "outcome": "rejected",
+  "summary": "Map edges examined and rejected in round 4 (revisited leads). (1) STMT-GOD-EXISTS + STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES -> STMT-CLASSICAL-ATTRIBUTES-SUFFICE: valid when One is the bundle's own IsTheOneGod IsGod (DEF-CLASSICAL-ATTRIBUTES-BUNDLE), since a one-God candidate equals the existing God; but STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES is the stage-2 conclusion derived from this very bridge (CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES and its variants), so the route is circular on the root path. (2) A new 'the nine attributes identify God' bridge + STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES: the same circularity. Any route through a sub-bundle sufficiency premise is a weakening from a stronger bridge, not a derivation. HasClassicalAttributes is a primitive Signature field with no component analysis; a non-circular derivation needs an owner decision to analyse it (cross-cutting signature change). (3) STMT-ACT-PRIOR-FROM-MOTION-FACTS -> STMT-ACT-SIMPLY-PRIOR-TO-POTENCY: needs 'every potency is being actualized', which contradicts any idle potency; replaced by the idle-potency premise in ACT-SIMPLY-PRIOR-FROM-MOTION-FORK. (4) STMT-COMPOSITE-HAS-COMPONENT-OTHER-THAN-ITSELF -> STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS: the fifth proof is the necessary-condition direction, and its ComponentOf ranges over beings, not over the Principle sort of esse and essence. (5) STMT-Q14-COGNITIVE-FORM-APTITUDE -> STMT-IMMATERIAL-IS-INTELLECTUAL: aptitude for another's form follows from cognitive nature, not conversely. Rejection records that the leads were examined; it neither refutes nor establishes any target.",
+  "evidence": [
+    "CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES",
+    "ACT-SIMPLY-PRIOR-FROM-MOTION-FORK"
+  ]
+}
