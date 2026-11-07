@@ -1,0 +1,12 @@
+{
+  "id": "STMT-PERFECTION-CAUSING-IN-ANOTHER-IS-EFFICIENT",
+  "paraphrase": "OPEN analyst bridge: if c, distinct from x, causes x's being r (CausesIn), then c efficiently causes x in respect r (EfficientlyCausesIn). It relates two relations DISAMB-CAUSE keeps apart and does not identify them; it fails if perfection-causing includes exemplar or final causing that is not efficient.",
+  "lean_declaration": "TruthCore.Causality.Round2PerfectionPrimacy.PerfectionCausingInAnotherIsEfficient",
+  "definition_ids": [
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-EFFICIENT-CAUSING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE"
+  ]
+}

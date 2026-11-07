@@ -1,0 +1,12 @@
+{
+  "id": "STMT-HAVER-DEPENDS-ON-RECIPIENT",
+  "paraphrase": "OPEN analyst premise: for every y, perfection r and z, if y's having r is received in z, then y depends for its being on z. The receiving principle is intrinsic to what has the perfection, as matter to the composite; the step from depending for its being r to depending for its being is the analyst's.",
+  "lean_declaration": "TruthCore.Causality.Round2PerfectionPrimacy.HaverDependsOnRecipient",
+  "definition_ids": [
+    "DEF-PERFECTION-RECEIVED-IN",
+    "DEF-DEPENDS-FOR-BEING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ESSE-RECEPTION"
+  ]
+}

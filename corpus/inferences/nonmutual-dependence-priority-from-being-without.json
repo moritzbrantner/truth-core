@@ -1,0 +1,13 @@
+{
+  "id": "INF-NONMUTUAL-DEPENDENCE-PRIORITY-FROM-BEING-WITHOUT",
+  "input_statement_ids": [
+    "STMT-DEPENDENCE-EXCLUDES-BEING-WITHOUT",
+    "STMT-INDEPENDENCE-ALLOWS-BEING-WITHOUT",
+    "STMT-PRIORITY-BY-BEING-WITHOUT"
+  ],
+  "output_statement_id": "STMT-NONMUTUAL-DEPENDENCE-SUFFICES-FOR-PRIORITY",
+  "rule": "Universal instantiation and modus ponens",
+  "meaning": "Derives the sufficiency of nonmutual dependence for simple priority from the dependence criterion of natural priority: if x depends on y and y not on x, then y can be without x (OPEN), x cannot be without y (OPEN), and what can be without another that cannot be without it is prior to it (OPEN reading of In V Metaph. lect. 13 n. 15).",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

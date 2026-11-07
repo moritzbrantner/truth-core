@@ -1,0 +1,40 @@
+target = "STMT-UNIVERSAL-CAUSE-TRANSFERS-PERFECTIONS"
+
+[[node]]
+id = "STMT-UNIVERSAL-CAUSE-TRANSFERS-PERFECTIONS"
+
+# New in round 2 (certified batch round2-perfection-primacy).
+[[node]]
+id = "STMT-UNIVERSAL-CAUSE-OF-BEING-IS-TOTAL"
+
+# New in round 2 (certified batch round2-perfection-primacy).
+[[node]]
+id = "STMT-TOTAL-CAUSE-CAUSES-MODES-OF-BEING"
+
+# New in round 2 (certified batch round2-perfection-primacy).
+[[node]]
+id = "STMT-PERFECTIONS-ARE-MODES-OF-BEING"
+
+[[node]]
+id = "STMT-ALL-PERFECTIONS-PERTAIN-TO-PERFECTION-OF-BEING"
+
+[[edge]]
+premises = ["STMT-UNIVERSAL-CAUSE-OF-BEING-IS-TOTAL", "STMT-TOTAL-CAUSE-CAUSES-MODES-OF-BEING", "STMT-PERFECTIONS-ARE-MODES-OF-BEING"]
+conclusion = "STMT-UNIVERSAL-CAUSE-TRANSFERS-PERFECTIONS"
+kind = "derivation"
+status = "certified"
+note = "Certified as UNIVERSAL-CAUSE-TRANSFERS-FROM-TOTAL-CAUSATION."
+
+[[edge]]
+premises = ["STMT-ALL-PERFECTIONS-PERTAIN-TO-PERFECTION-OF-BEING"]
+conclusion = "STMT-PERFECTIONS-ARE-MODES-OF-BEING"
+kind = "source"
+status = "rejected"
+note = "Not a derivation: the q.4 a.2 statement has no Lean declaration. Recorded instead as the supports relation REL-Q4-A2-PERFECTIONS-PERTAIN-SUPPORTS-PERFECTIONS-ARE-MODES."
+
+[[edge]]
+premises = ["STMT-PERFECTIONS-ARE-MODES-OF-BEING"]
+conclusion = "STMT-UNIVERSAL-CAUSE-TRANSFERS-PERFECTIONS"
+kind = "derivation"
+status = "rejected"
+note = "Universality plus 'perfections are modes of being' does not give transfer: the non-concurrent profile of the CausalPerfectionTransfer roles has a universal existential source that does not cause the producer's skill. The total-cause step is what carries it."

@@ -1,0 +1,13 @@
+{
+  "id": "STMT-TOTAL-CAUSE-CAUSES-MODES-OF-BEING",
+  "paraphrase": "OPEN analyst premise: a total cause of a thing's being causes each of that thing's modes of being.",
+  "lean_declaration": "TruthCore.Causality.Round2PerfectionPrimacy.TotalCauseCausesModesOfBeing",
+  "definition_ids": [
+    "DEF-TOTAL-CAUSE-OF-BEING",
+    "DEF-MODE-OF-BEING",
+    "DEF-CAUSE-OF-PERFECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE"
+  ]
+}
