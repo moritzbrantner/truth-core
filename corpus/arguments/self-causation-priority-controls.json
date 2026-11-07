@@ -1,0 +1,16 @@
+{
+  "id": "SELF-CAUSATION-PRIORITY-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-SELF-CAUSATION-PRIORITY-CONTROLS",
+  "inference_ids": [
+    "INF-SELF-CAUSATION-PRIORITY-CONTROLS"
+  ],
+  "meaning": "One-being interpretations: a being that causes itself with no priority fails cause priority; with universal priority it is prior to itself; with no causation both premises and the conclusion hold.",
+  "definition_ids": [
+    "DEF-SIMPLE-PRIORITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE",
+    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"
+  ]
+}
