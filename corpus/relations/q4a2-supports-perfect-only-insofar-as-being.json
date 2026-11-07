@@ -1,0 +1,9 @@
+{
+  "id": "REL-Q4A2-SUPPORTS-PERFECT-ONLY-INSOFAR-AS-BEING",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q4-A2-PERFECTIONS-PERTAIN-TO-BEING",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-PERFECT-ONLY-INSOFAR-AS-BEING",
+  "note": "q.4 a.2 co. gives as the reason why all perfections pertain to the perfection of being that things are perfect insofar as they have being in some way. The encoded statement keeps that clause per respect and reads 'having being in some way' as being in act in the respect of being; it omits the main clause about the perfection of being and any claim about subsistent esse."
+}

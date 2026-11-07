@@ -1,0 +1,23 @@
+{
+  "id": "ACTUALITY-ONLY-INSOFAR-AS-BEING-FROM-PERFECTION",
+  "premise_statement_ids": [
+    "STMT-PERFECT-INSOFAR-AS-IN-ACT",
+    "STMT-PERFECT-ONLY-INSOFAR-AS-BEING"
+  ],
+  "conclusion_statement_id": "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING",
+  "inference_ids": [
+    "INF-ACTUALITY-ONLY-INSOFAR-AS-BEING-FROM-PERFECTION"
+  ],
+  "meaning": "Whatever is in act in a respect is perfect in it (q.5 a.1, STMT-PERFECT-INSOFAR-AS-IN-ACT), and whatever is perfect in some respect has being (q.4 a.2, STMT-PERFECT-ONLY-INSOFAR-AS-BEING, encoded from the definition-linked q.4 a.2 statement). Derives STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING (q.4 a.1 ad 3), an underived leaf of every root route. Act and perfection are read per respect with one InAct parameter (DISAMB-IN-ACT). Both premises stay open.",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-ESSE",
+    "DEF-PERFECT-IN-A-PERFECTION",
+    "DEF-UNIVERSALLY-PERFECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-BEING",
+    "DISAMB-IN-ACT",
+    "DISAMB-PERFECT-IN-A-RESPECT-OR-UNIVERSALLY"
+  ]
+}
