@@ -1,0 +1,104 @@
+# Exploration map: sense fork over "necessary" on the necessary-classical-God route.
+# Analyst formulations, attribution deferred.
+target = "STMT-NECESSARY-ROOT-ON-INTENDED-READING"
+
+[[node]]
+id = "STMT-NECESSARY-CLASSICAL-GOD-ROOT"
+
+[[node]]
+id = "STMT-NECESSARY-ROOT-ACTUALIST-K"
+
+[[node]]
+id = "STMT-NECESSARY-ROOT-BOX-K"
+
+[[node]]
+id = "STMT-NECESSARY-ROOT-DE-DICTO-K"
+
+[[node]]
+id = "STMT-NECESSARY-ROOT-TERTIA-VIA"
+
+[[node]]
+id = "STMT-NECESSARY-ROOT-PER-SE"
+
+[[node]]
+id = "STMT-NECESSARY-ROOT-BOX-T"
+
+[[node]]
+id = "STMT-NECESSARY-ROOT-BOX-S4"
+
+[[node]]
+id = "STMT-NECESSARY-ROOT-BOX-B"
+
+[[node]]
+id = "STMT-NECESSARY-ROOT-BOX-S5"
+
+[[node]]
+id = "STMT-ONTIC-FRAME-KT"
+
+[[node]]
+id = "STMT-ONTIC-FRAME-S4"
+
+[[node]]
+id = "STMT-ONTIC-FRAME-KTB"
+
+[[node]]
+id = "STMT-ONTIC-FRAME-S5"
+
+[[node]]
+id = "STMT-NECESSITY-CAUSE-RELATA-ACTUAL-CONCRETE"
+
+[[node]]
+id = "STMT-NECESSITATED-DEPENDS-ON-ITS-CAUSE"
+
+[[node]]
+id = "STMT-ACTUAL-DEPENDENCE-IS-GROUNDING"
+
+[[node]]
+id = "STMT-NECESSARY-SENSES-EXHAUSTIVE"
+
+[[node]]
+id = "STMT-NECESSARY-SENSE-UNIQUE"
+
+[[node]]
+id = "STMT-NECESSARY-INTENDED-SENSE-SUPPORTED"
+
+[[node]]
+id = "STMT-NECESSARY-ROOT-ON-INTENDED-READING"
+
+[[node]]
+id = "STMT-CATHOLICISM-TRUE"
+
+[[edge]]
+premises = ["STMT-NECESSARY-CLASSICAL-GOD-ROOT"]
+conclusion = "STMT-NECESSARY-ROOT-ACTUALIST-K"
+kind = "derivation"
+status = "certified"
+note = "Certified as NECESSARY-ROOT-ACTUALIST-K from the 25 inputs of the root theorem (imported once)."
+
+[[edge]]
+premises = ["STMT-NECESSARY-ROOT-BOX-K", "STMT-ONTIC-FRAME-S5"]
+conclusion = "STMT-NECESSARY-ROOT-BOX-S5"
+kind = "bridge"
+status = "certified"
+note = "Frame-class branch; likewise KT, S4, KTB. Fails without the frame premise (controls)."
+
+[[edge]]
+premises = ["STMT-NECESSARY-ROOT-TERTIA-VIA", "STMT-NECESSITY-CAUSE-RELATA-ACTUAL-CONCRETE", "STMT-NECESSITATED-DEPENDS-ON-ITS-CAUSE", "STMT-ACTUAL-DEPENDENCE-IS-GROUNDING"]
+conclusion = "STMT-NECESSARY-ROOT-PER-SE"
+kind = "derivation"
+status = "certified"
+note = "Per se branch: a cause of the root's necessity would be an actual concrete ground."
+
+[[edge]]
+premises = ["STMT-NECESSARY-CLASSICAL-GOD-ROOT", "STMT-NECESSARY-SENSES-EXHAUSTIVE", "STMT-NECESSARY-SENSE-UNIQUE", "STMT-NECESSARY-INTENDED-SENSE-SUPPORTED"]
+conclusion = "STMT-NECESSARY-ROOT-ON-INTENDED-READING"
+kind = "derivation"
+status = "certified"
+note = "Joint fork theorem NECESSARY-SENSE-FORK (its corpus premises are the 25 route inputs plus the three fork premises)."
+
+[[edge]]
+premises = ["STMT-NECESSARY-ROOT-ON-INTENDED-READING"]
+conclusion = "STMT-CATHOLICISM-TRUE"
+kind = "derivation"
+status = "certified"
+note = "NECESSARY-CLASSICAL-GOD-CASE-SENSE-FORK with the seven stage 3-6 premises."

@@ -1,0 +1,10 @@
+{
+  "id": "REL-NECESSARY-ROOT-BOX-S5-STRENGTHENS-BOX-B",
+  "subject_kind": "statement",
+  "subject_id": "STMT-NECESSARY-ROOT-BOX-S5",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "STMT-NECESSARY-ROOT-BOX-B",
+  "verification_result_id": "NECESSARY-ROOT-BOX-S5-STRENGTHENS-BOX-B",
+  "note": "Strength registration: the S5 node implies the KTB node, applying the existing Cube theorem s5_implies_ktb."
+}

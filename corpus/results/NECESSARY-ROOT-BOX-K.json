@@ -1,0 +1,10 @@
+{
+  "id": "NECESSARY-ROOT-BOX-K",
+  "argument_id": "NECESSARY-ROOT-BOX-K",
+  "challenge_module": "TruthCore.Results.Causality.NecessarySenseFork.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessarySenseFork.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessarySenseFork.rootBoxK",
+  "comparator_config": "results/NECESSARY-ROOT-BOX-K/comparator.json",
+  "status": "solution-present",
+  "description": "The possibilist K node from the same 25 inputs: the actualist node with its actual-existence clause dropped. This is the weakest de re box reading and the premise of the frame-class and per se branches."
+}

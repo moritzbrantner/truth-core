@@ -1,0 +1,9 @@
+{
+  "id": "INF-NECESSARY-SENSE-FORK-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-NECESSARY-SENSE-FORK-CONTROLS",
+  "rule": "Kripke axiom theorems and explicit finite interpretations",
+  "meaning": "Frame laws via axiomT_valid, axiom4_valid, axiomB_valid and the Euclidean condition; separation countermodels for T vs S4, actualist vs possibilist and de dicto vs de re; a per se separation; and the batch's nonvacuity model. Formal only; no model describes reality.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

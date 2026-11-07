@@ -1,0 +1,11 @@
+{
+  "id": "INF-CAUSAL-CONCRETENESS-COMMITMENT-STRENGTHENS-CAUSERS",
+  "input_statement_ids": [
+    "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS"
+  ],
+  "output_statement_id": "STMT-CAUSERS-REQUIRE-CONCRETENESS-AT",
+  "rule": "Conjunction elimination",
+  "meaning": "Strength registration (not modal): the common-ground commitment OwnerCommitmentAt is the conjunction of the capacity clause and the activity clause; its second conjunct is CausersRequireConcreteAt, the activity half used by the Cogito population step of the necessary-being route.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

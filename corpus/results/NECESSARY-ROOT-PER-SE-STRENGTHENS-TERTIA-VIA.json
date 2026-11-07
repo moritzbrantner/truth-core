@@ -1,0 +1,11 @@
+{
+  "id": "NECESSARY-ROOT-PER-SE-STRENGTHENS-TERTIA-VIA",
+  "argument_id": "NECESSARY-ROOT-PER-SE-STRENGTHENS-TERTIA-VIA",
+  "challenge_module": "TruthCore.Results.Causality.NecessarySenseFork.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessarySenseFork.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessarySenseFork.perSeToTertiaVia",
+  "comparator_config": "results/NECESSARY-ROOT-PER-SE-STRENGTHENS-TERTIA-VIA/comparator.json",
+  "status": "solution-present",
+  "description": "Strength registration: necessary per se implies necessary (tertia via, DEF-NECESSARY-PER-SE).",
+  "transcription": "assembly"
+}

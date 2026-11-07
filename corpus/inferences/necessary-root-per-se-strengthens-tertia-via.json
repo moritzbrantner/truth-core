@@ -1,0 +1,11 @@
+{
+  "id": "INF-NECESSARY-ROOT-PER-SE-STRENGTHENS-TERTIA-VIA",
+  "input_statement_ids": [
+    "STMT-NECESSARY-ROOT-PER-SE"
+  ],
+  "output_statement_id": "STMT-NECESSARY-ROOT-TERTIA-VIA",
+  "rule": "Conjunction elimination",
+  "meaning": "Strength registration: necessary per se implies necessary (tertia via, DEF-NECESSARY-PER-SE).",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

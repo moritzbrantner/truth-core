@@ -1,0 +1,11 @@
+{
+  "id": "INF-CAUSAL-CONCRETENESS-COMMITMENT-STRENGTHENS-POWER",
+  "input_statement_ids": [
+    "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS"
+  ],
+  "output_statement_id": "STMT-CAUSAL-POWER-REQUIRES-CONCRETENESS-AT",
+  "rule": "Conjunction elimination",
+  "meaning": "Strength registration (not modal): the first conjunct of the common-ground commitment OwnerCommitmentAt is PowerRequiresConcreteAt, the capacity half used by the alternative Cogito population step.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
