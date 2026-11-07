@@ -1,0 +1,23 @@
+{
+  "id": "CAUSE-ROUTE-USES-AGREE-FROM-UNIQUE-SENSE",
+  "premise_statement_ids": [
+    "STMT-CAUSE-SENSES-EXHAUSTIVE",
+    "STMT-CAUSE-SENSE-UNIQUE"
+  ],
+  "conclusion_statement_id": "STMT-CAUSE-ROUTE-USES-AGREE",
+  "inference_ids": [
+    "INF-CAUSE-ROUTE-USES-AGREE-FROM-UNIQUE-SENSE"
+  ],
+  "meaning": "Coverage and exclusivity block equivocation on 'cause': each use is the relation of a selected sense, and only one sense is selected, so all uses stand for one relation. The controls give a model in which coverage holds, exclusivity fails and two uses differ.",
+  "definition_ids": [
+    "DEF-CAUSE-OF-ORIGIN",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-EFFICIENT-CAUSING",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-ROUTE-SENSE-SELECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE",
+    "DISAMB-UNITING-CAUSE"
+  ]
+}

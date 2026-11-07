@@ -1,0 +1,12 @@
+{
+  "id": "STMT-TEMPORALLY-FIRST-BEING-IN-POTENCY",
+  "paraphrase": "OPEN analyst premise (attribution deferred): some being before which nothing is in time is in potency in some respect, as in the Night or chaos cosmogonies of Metaphysics XII.6 1071b26-28 or any world whose first being is changeable. Aristotle's Theta.8 claim that act is prior in time in species, though not in number, is a rival to it.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.TemporallyFirstBeingInPotency",
+  "definition_ids": [
+    "DEF-POTENCY",
+    "DEF-PRIORITY-IN-TIME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "STMT-ACT-NOT-PRIOR-TO-POTENCY-IN-TIME",
+  "paraphrase": "The temporal branch fails: it is not the case that whatever is in potency in a respect has some being in act in that respect before it in time.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.ActNotPriorInTime",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-POTENCY",
+    "DEF-PRIORITY-IN-TIME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "INF-SAME-RESPECT-NO-SELF-MOTION-FROM-NO-SELF-MOVER",
+  "input_statement_ids": [
+    "STMT-NO-MOVER-MOVES-ITSELF-IN-ITS-RESPECT"
+  ],
+  "output_statement_id": "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT",
+  "rule": "Universal instantiation",
+  "meaning": "Strength order within the moving sense of 'cause': Aristotle's unrestricted reading (whatever moves something is other than it) implies the prima via's reading that nothing being moved in a respect moves itself in that respect.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

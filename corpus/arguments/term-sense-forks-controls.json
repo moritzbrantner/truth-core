@@ -1,0 +1,18 @@
+{
+  "id": "TERM-SENSE-FORKS-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-TERM-SENSE-FORKS-CONTROLS",
+  "inference_ids": [
+    "INF-TERM-SENSE-FORKS-CONTROLS"
+  ],
+  "meaning": "Finite interpretations for the two sense forks: an omission model for every premise of PRIOR-SENSE-FORK-ACT-SIMPLY-PRIOR and CAUSE-SENSE-FORK-NO-SELF-EFFICIENT-CAUSE (in each the route reads the term in the branch the omitted premise closes), a nonvacuity witness per fork, and per term a model of coverage without exclusivity in which two uses differ. Satisfiability and omission only; no model describes reality.",
+  "definition_ids": [
+    "DEF-EFFICIENT-CAUSING",
+    "DEF-ROUTE-SENSE-SELECTION",
+    "DEF-SIMPLE-PRIORITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE",
+    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"
+  ]
+}

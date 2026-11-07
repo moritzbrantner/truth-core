@@ -1,0 +1,14 @@
+{
+  "id": "STMT-PRIOR-SENSES-EXHAUSTIVE",
+  "paraphrase": "OPEN frontier premise (coverage, attribution deferred): every use of 'prior' on the route to act's priority over potency is read in one of three senses, simple priority, priority in time, or priority in substance, selected by the route's reading, and the use's relation is exactly the relation of that sense. A rival who proposes a further sense of 'prior' denies this premise.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.PriorSensesExhaustive",
+  "definition_ids": [
+    "DEF-ROUTE-SENSE-SELECTION",
+    "DEF-SIMPLE-PRIORITY",
+    "DEF-PRIORITY-IN-TIME",
+    "DEF-PRIORITY-IN-SUBSTANCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"
+  ]
+}

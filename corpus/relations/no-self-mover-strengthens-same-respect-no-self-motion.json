@@ -1,0 +1,10 @@
+{
+  "id": "REL-NO-SELF-MOVER-STRENGTHENS-SAME-RESPECT-NO-SELF-MOTION",
+  "subject_kind": "statement",
+  "subject_id": "STMT-NO-MOVER-MOVES-ITSELF-IN-ITS-RESPECT",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT",
+  "verification_result_id": "SAME-RESPECT-NO-SELF-MOTION-FROM-NO-SELF-MOVER",
+  "note": "Strength order within the moving sense of 'cause'. No strictness control in this batch; a self-mover that moves itself in a respect in which it is not being moved separates them."
+}

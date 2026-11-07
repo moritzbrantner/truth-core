@@ -1,0 +1,11 @@
+{
+  "id": "STMT-OWN-PERFECTION-NOT-ALWAYS-EXTERNAL",
+  "paraphrase": "The perfection branch fails: it is not the case that nothing causes a perfection in itself.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.OwnPerfectionNotAlwaysExternal",
+  "definition_ids": [
+    "DEF-CAUSE-OF-PERFECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE"
+  ]
+}
