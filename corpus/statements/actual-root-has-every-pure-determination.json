@@ -1,0 +1,16 @@
+{
+  "id": "STMT-ACTUAL-ROOT-HAS-EVERY-PURE-DETERMINATION",
+  "paraphrase": "OPEN, unattributed: every actual concrete root of the selected grounding relation at w really has every pure perfection. Being an actual root is not being a first unmoved mover; this is a separate statement from STMT-FIRST-MOVER-HAS-EVERY-PURE-DETERMINATION.",
+  "lean_declaration": "TruthCore.Causality.PureActRoot.ActualRootHasEveryPureDetermination",
+  "definition_ids": [
+    "DEF-ACTUAL-ROOT",
+    "DEF-REAL-DETERMINATION",
+    "DEF-PURE-PERFECTION",
+    "DEF-UNRESTRICTED-PURE-PERFECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THISNESS-REAL-BARE",
+    "DISAMB-PURE-ACT-STRICTNESS",
+    "DISAMB-PERFECTION-SCOPE"
+  ]
+}
