@@ -19,10 +19,10 @@ flock /tmp/moenarch/truth-core-heavy.lock python3 scripts/worker_env.py -- \
   lake env lean --run scripts/StatementConstants.lean TruthCore /tmp/decls.txt > /tmp/constants.json
 
 # 2. Targets and ranking (Rust, under a second).
-python3 scripts/corpus.py thickness --queue --json > /tmp/queue.json
 cargo build --locked -p truth
+target/debug/truth thickness --queue --json > /tmp/queue.json   # or: python3 scripts/corpus.py thickness --queue --json
 target/debug/truth --json bridges --constants /tmp/constants.json \
-  --queue /tmp/queue.json --targets 30 --top 3 > /tmp/bridges.json
+  --queue-file /tmp/queue.json --targets 30 --top 3 > /tmp/bridges.json
 target/debug/truth bridges --constants /tmp/constants.json --target STMT-EXISTING-IN-ACT-AT
 
 # 3. Optional Lean trial (one Lean process; ~80 s and ~3 GB for 86 trials).
@@ -82,6 +82,6 @@ Two controls run on the same instantiation: the target with no premises and
 - Binder matching by name misses premises stated over differently named
   vocabulary, and quantifying unmatched binders can make a premise trivially
   strong; read `generalized` before taking a closure seriously.
-- The target queue comes from `corpus.py thickness --queue`; Rust does not
-  yet compute it.
+- `bridges` reads the queue from a file rather than calling the thickness
+  module in-process.
 - No `exact?` or library search: it is costly with Mathlib imported.

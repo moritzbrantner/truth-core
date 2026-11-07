@@ -94,7 +94,7 @@ impl<'a> Index<'a> {
         let mut ids: BTreeMap<&str, u32> = BTreeMap::new();
         let mut names = Vec::new();
         let mut statements = BTreeMap::new();
-        for (id, record) in corpus.records("statements") {
+        for (id, record) in corpus.records_by_id("statements") {
             let Some(declaration) = record
                 .fields
                 .get("lean_declaration")
@@ -126,7 +126,7 @@ impl<'a> Index<'a> {
         }
         let mut forward: BTreeMap<&str, BTreeSet<&str>> = BTreeMap::new();
         let mut backward: BTreeMap<&str, BTreeSet<&str>> = BTreeMap::new();
-        for (_, argument) in corpus.records("arguments") {
+        for (_, argument) in corpus.records_by_id("arguments") {
             let Some(conclusion) = argument
                 .fields
                 .get("conclusion_statement_id")
@@ -145,7 +145,7 @@ impl<'a> Index<'a> {
             }
         }
         let mut rivals: BTreeMap<&str, BTreeSet<&str>> = BTreeMap::new();
-        for (_, relation) in corpus.records("relations") {
+        for (_, relation) in corpus.records_by_id("relations") {
             let field = |name| relation.fields.get(name).and_then(Value::as_str);
             if matches!(field("predicate"), Some("alternative_to" | "attacks"))
                 && field("subject_kind") == Some("statement")
@@ -234,7 +234,10 @@ pub fn report(
     options: Options,
 ) -> Result<Value, String> {
     let index = Index::new(corpus, constants);
-    let known: BTreeSet<&str> = corpus.records("statements").map(|(id, _)| id).collect();
+    let known: BTreeSet<&str> = corpus
+        .records_by_id("statements")
+        .map(|(id, _)| id)
+        .collect();
     let mut rows = Vec::new();
     for target in targets {
         let target = known

@@ -1,0 +1,16 @@
+{
+  "id": "GOD-MAXIMAL-CAUSAL-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-GOD-MAXIMAL-CAUSAL-CONTROLS",
+  "inference_ids": [
+    "INF-GOD-MAXIMAL-CAUSAL-CONTROLS"
+  ],
+  "meaning": "Positive witness: a God that causes the being of one other being and exceeds it in being satisfies all six premises and the conclusion.",
+  "definition_ids": [
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-MORE-IN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE"
+  ]
+}

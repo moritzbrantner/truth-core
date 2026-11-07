@@ -1,0 +1,10 @@
+{
+  "id": "GOD-MAXIMAL-FROM-CAUSING",
+  "argument_id": "GOD-MAXIMAL-FROM-CAUSING",
+  "challenge_module": "TruthCore.Results.Causality.GodMaximalCausal.Challenge",
+  "solution_module": "TruthCore.Results.Causality.GodMaximalCausal.Solution",
+  "theorem": "TruthCore.Results.Causality.GodMaximalCausal.godMaximalFromCausing",
+  "comparator_config": "results/GOD-MAXIMAL-FROM-CAUSING/comparator.json",
+  "status": "solution-present",
+  "description": "God causes the being of something other than itself, so (cause of a quality is more such) God is more in being than it, so (more such has the perfection) God has being; anything more in being than God is either God itself, excluded by asymmetry, or another being, which God exceeds, again excluded by asymmetry. An alternative derivation of STMT-GOD-IS-MAXIMAL-IN-BEING (used by 23 routes) through the causal converse of the q.2 a.3 naming sentence instead of the bare maximality converse. Two open bridges (asymmetry; something other than God exists). Controls: positive witness only (owner decision 2026-11-07)."
+}

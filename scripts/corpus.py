@@ -229,7 +229,7 @@ STAGE_CONCLUSIONS = (
 # unavailable witness (bytes no longer re-verifiable; owner decisions
 # 2026-11-05); otherwise "bare". Such a premise becomes stated once a
 # (new) witness is pinned. Supported and stated premises are both
-# undefended. A relocation counts as progress only if it adds no bare premise.
+# undefended. Bare premises added are listed for visibility (owner decision 2026-11-07).
 FRONTIER_BARE = "bare"
 FRONTIER_SUPPORTED = "supported"
 FRONTIER_STATED = "stated"
@@ -3215,7 +3215,8 @@ def frontier_delta(base: dict[str, Any], head: dict[str, Any]) -> dict[str, Any]
     supported, stated and closed; and per-route open-premise costs and their
     depth counts. `bare_added` lists every premise that is bare at the head
     and was not bare at the base (added bare, or moved to bare): a relocation
-    counts as progress only if it adds no bare premise (#987). A report from a
+    is listed for visibility (owner decision 2026-11-07 dropped the #987
+    no-bare progress rule). A report from a
     revision older than the route costs (#391) has no routes; one older than
     #987 has no per-route depth counts, which are then derived from its
     `proved_unestablished_statement_ids` and the depths of its open premises
@@ -3337,7 +3338,7 @@ def format_frontier_delta(delta: dict[str, Any]) -> str:
         return "\n".join(lines)
     bare_added = delta["bare_added"]
     if bare_added:
-        lines.append(f"bare premises added: {len(bare_added)} (a relocation that adds a bare premise is not progress)")
+        lines.append(f"bare premises added: {len(bare_added)} (listed for visibility; not a regression, owner decision 2026-11-07)")
         lines.extend(f"  {statement_id}" for statement_id in bare_added)
     else:
         lines.append("bare premises added: none")

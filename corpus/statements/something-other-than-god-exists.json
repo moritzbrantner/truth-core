@@ -1,0 +1,11 @@
+{
+  "id": "STMT-SOMETHING-OTHER-THAN-GOD-EXISTS",
+  "paraphrase": "OPEN bridge: for whatever is God, there is some being other than it.",
+  "lean_declaration": "TruthCore.Causality.GodMaximalCausal.SomethingOtherThanGodExists",
+  "definition_ids": [
+    "DEF-GOD-OF-CLASSICAL-THEISM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE"
+  ]
+}

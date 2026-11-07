@@ -1,0 +1,11 @@
+{
+  "id": "STMT-MORE-IN-IS-ASYMMETRIC",
+  "paraphrase": "OPEN bridge: if one thing is more such than another in a perfection, the other is not more such than it in that perfection.",
+  "lean_declaration": "TruthCore.Causality.GodMaximalCausal.MoreInIsAsymmetric",
+  "definition_ids": [
+    "DEF-MORE-IN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-BEING-UNIVOCITY"
+  ]
+}
