@@ -1,0 +1,20 @@
+{
+  "id": "PERFECTION-OF-BEING-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-PERFECTION-OF-BEING-CONTROLS",
+  "inference_ids": [
+    "INF-PERFECTION-OF-BEING-CONTROLS"
+  ],
+  "meaning": "One being, two respects (esse and one perfection), in act in the perfection only. Without the q.5 a.1 biconditional it is in act without being perfect; without the q.4 a.2 clause it is perfect without having being; in both cases it lacks being. With everything in act both premises and the conclusion hold.",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-ESSE",
+    "DEF-PERFECT-IN-A-PERFECTION",
+    "DEF-UNIVERSALLY-PERFECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-BEING",
+    "DISAMB-IN-ACT",
+    "DISAMB-PERFECT-IN-A-RESPECT-OR-UNIVERSALLY"
+  ]
+}

@@ -174,6 +174,7 @@ public import TruthCore.Results.Causality.ParityUnionRegress.Solution
 public import TruthCore.Results.Causality.PartFreePlurality.Solution
 public import TruthCore.Results.Causality.PastResourceControls.Solution
 public import TruthCore.Results.Causality.PerfectRootPositiveIntellectWill.Solution
+public import TruthCore.Results.Causality.PerfectionOfBeing.Solution
 public import TruthCore.Results.Causality.PerfectionPreexistence.Solution
 public import TruthCore.Results.Causality.PluralRootConfluence.Solution
 public import TruthCore.Results.Causality.PossibleCausalSourceNecessity.Solution

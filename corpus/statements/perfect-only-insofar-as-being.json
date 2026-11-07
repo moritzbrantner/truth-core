@@ -1,0 +1,15 @@
+{
+  "id": "STMT-PERFECT-ONLY-INSOFAR-AS-BEING",
+  "paraphrase": "Whatever is perfect in some respect is in act as to being: things are perfect insofar as they have being in some way. Encodes the second clause of ST I q.4 a.2 co. ('secundum hoc enim aliqua perfecta sunt, quod aliquo modo esse habent'), per respect; 'in some way' is read as being in act in the respect of being.",
+  "lean_declaration": "TruthCore.Causality.PerfectionOfBeing.PerfectOnlyInsofarAsBeing",
+  "definition_ids": [
+    "DEF-PERFECT-IN-A-PERFECTION",
+    "DEF-ESSE",
+    "DEF-ACT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-BEING",
+    "DISAMB-IN-ACT",
+    "DISAMB-PERFECT-IN-A-RESPECT-OR-UNIVERSALLY"
+  ]
+}

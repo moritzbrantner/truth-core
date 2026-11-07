@@ -1,0 +1,10 @@
+{
+  "id": "PERFECTION-OF-BEING-CONTROLS",
+  "argument_id": "PERFECTION-OF-BEING-CONTROLS",
+  "challenge_module": "TruthCore.Results.Causality.PerfectionOfBeing.Challenge",
+  "solution_module": "TruthCore.Results.Causality.PerfectionOfBeing.Solution",
+  "theorem": "TruthCore.Results.Causality.PerfectionOfBeing.controls",
+  "comparator_config": "results/PERFECTION-OF-BEING-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "One being, two respects (esse and one perfection), in act in the perfection only. Without the q.5 a.1 biconditional it is in act without being perfect; without the q.4 a.2 clause it is perfect without having being; in both cases it lacks being. With everything in act both premises and the conclusion hold."
+}
