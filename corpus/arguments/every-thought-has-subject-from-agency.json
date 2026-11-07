@@ -1,0 +1,19 @@
+{
+  "id": "EVERY-THOUGHT-HAS-SUBJECT-FROM-AGENCY",
+  "premise_statement_ids": [
+    "STMT-OCCURRING-THOUGHT-IS-OPERATION",
+    "STMT-EVERY-OPERATION-HAS-AGENT",
+    "STMT-AGENT-OF-EPISODE-BEARS-IT"
+  ],
+  "conclusion_statement_id": "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT",
+  "inference_ids": [
+    "INF-EVERY-THOUGHT-HAS-SUBJECT-FROM-AGENCY"
+  ],
+  "meaning": "The bearer principle from three OPEN premises: every occurring thought is an operation, every operation has an agent, and the agent of an episode bears it. An event ontology of thinking without agents rejects the first.",
+  "definition_ids": [
+    "DEF-EPISODE-AGENT",
+    "DEF-OPERATING-AGENT",
+    "DEF-THOUGHT-BEARER",
+    "DEF-THOUGHT-OCCURRENCE"
+  ]
+}

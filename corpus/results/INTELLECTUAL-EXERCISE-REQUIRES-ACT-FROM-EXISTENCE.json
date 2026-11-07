@@ -1,0 +1,10 @@
+{
+  "id": "INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-EXISTENCE",
+  "argument_id": "INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-EXISTENCE",
+  "challenge_module": "TruthCore.Results.Causality.Round2ExistenceAct.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round2ExistenceAct.Solution",
+  "theorem": "TruthCore.Results.Causality.Round2ExistenceAct.intellectualExerciseRequiresActFromExistence",
+  "comparator_config": "results/INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-EXISTENCE/comparator.json",
+  "status": "solution-present",
+  "description": "Composes with the esse contract: whoever exercises intellect exists at w (OPEN), and every existent at w is in act of esse, so the exerciser is in act in some respect, namely esse."
+}

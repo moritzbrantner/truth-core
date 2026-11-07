@@ -1,0 +1,10 @@
+{
+  "id": "COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE-FROM-INTELLECTIVE-EPISODE",
+  "argument_id": "COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE-FROM-INTELLECTIVE-EPISODE",
+  "challenge_module": "TruthCore.Results.Causality.Round2ExistenceAct.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round2ExistenceAct.Solution",
+  "theorem": "TruthCore.Results.Causality.Round2ExistenceAct.thoughtIsExerciseFromIntellective",
+  "comparator_config": "results/COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE-FROM-INTELLECTIVE-EPISODE/comparator.json",
+  "status": "solution-present",
+  "description": "Every bearer of an occurring thought is attributed it as an intellectual exercise, from two OPEN premises: every occurring thought is intellective, and bearing an intellective episode is exercising intellect in it. The first fails on Descartes's broad cogitatio, which includes sensing."
+}

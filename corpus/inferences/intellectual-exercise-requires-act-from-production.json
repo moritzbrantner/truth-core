@@ -1,0 +1,12 @@
+{
+  "id": "INF-INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-PRODUCTION",
+  "input_statement_ids": [
+    "STMT-INTELLECTUAL-EXERCISE-PRODUCES-AT",
+    "STMT-AQUINAS-OPERATION-ONLY-OF-BEING-IN-ACT"
+  ],
+  "output_statement_id": "STMT-INTELLECTUAL-EXERCISE-REQUIRES-ACT",
+  "rule": "Universal instantiation, existential elimination, modus ponens",
+  "meaning": "From the OPEN and contested premise that whoever exercises intellect causes something at w (the inner word) and the q.75 a.2 reading that whatever causes something at w is in act in some respect. Reuses the pinned reading exactly as it is stated (of causing another); whoever holds understanding to be purely immanent rejects the production premise.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

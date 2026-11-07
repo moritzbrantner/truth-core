@@ -1,0 +1,9 @@
+{
+  "id": "STMT-AGENT-OF-EPISODE-BEARS-IT",
+  "paraphrase": "OPEN analyst premise: the agent of an episode bears it.",
+  "lean_declaration": "TruthCore.Causality.Round2ExistenceAct.AgentOfEpisodeBearsIt",
+  "definition_ids": [
+    "DEF-EPISODE-AGENT",
+    "DEF-THOUGHT-BEARER"
+  ]
+}
