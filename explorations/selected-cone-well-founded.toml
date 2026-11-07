@@ -1,0 +1,25 @@
+# Round 3 map: well-founded grounding on the selected cone.
+target = "STMT-SELECTED-CONE-WELL-FOUNDED"
+
+[[node]]
+id = "STMT-SELECTED-CONE-WELL-FOUNDED"
+
+[[node]]
+id = "STMT-ACTUAL-GROUNDING-WF"
+
+[[node]]
+id = "STMT-ACTUAL-GROUNDING-FINITE-RANK"
+
+[[edge]]
+premises = ["STMT-ACTUAL-GROUNDING-WF"]
+conclusion = "STMT-SELECTED-CONE-WELL-FOUNDED"
+kind = "derivation"
+status = "certified"
+note = "Certified as SELECTED-CONE-WF-FROM-GLOBAL-WF (restriction to the cone subtype, scopeComparison). A strengthens relation was not registered: it would flag six existing arguments that use the global version (#1017), a separate review."
+
+[[edge]]
+premises = ["STMT-ACTUAL-GROUNDING-FINITE-RANK"]
+conclusion = "STMT-ACTUAL-GROUNDING-WF"
+kind = "derivation"
+status = "certified"
+note = "Certified as ACTUAL-GROUNDING-WF-FROM-FINITE-RANK, so the cone version now has a non-circular chain from the rank premise."

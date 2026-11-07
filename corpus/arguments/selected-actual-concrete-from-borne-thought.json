@@ -1,0 +1,30 @@
+{
+  "id": "SELECTED-ACTUAL-CONCRETE-FROM-BORNE-THOUGHT",
+  "premise_statement_ids": [
+    "STMT-SELECTED-BEARS-OCCURRING-THOUGHT",
+    "STMT-COGITO-BEARER-IS-CONCRETE",
+    "STMT-COGITO-BEARER-EXISTS-AT-WORLD"
+  ],
+  "conclusion_statement_id": "STMT-SELECTED-ACTUAL-CONCRETE",
+  "inference_ids": [
+    "INF-SELECTED-ACTUAL-CONCRETE-FROM-BORNE-THOUGHT"
+  ],
+  "meaning": "The selected being bears an occurring thought episode (OPEN); every bearer of an occurring thought is concrete (OPEN) and exists at w (OPEN); hence the selected being is an actual concretum at w. Middle term: the occurring episode it bears. Concreteness and existence at w come from the two bearer bridges, which stay open.",
+  "definition_ids": [
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-ACTUAL-GROUNDING-WF",
+    "DEF-COGITO-ESSE-PROFILE",
+    "DEF-CONCRETE-ESSE-IN-RE",
+    "DEF-INHABITED-CONCRETE-WORLD",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-SELECTED-ANCESTRY-CONE",
+    "DEF-THOUGHT-BEARER",
+    "DEF-THOUGHT-OCCURRENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE",
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING"
+  ]
+}

@@ -1,0 +1,29 @@
+# Round 3 map: excluded middle.
+target = "STMT-EXCLUDED-MIDDLE"
+
+[[node]]
+id = "STMT-EXCLUDED-MIDDLE"
+
+# New statement record this round for the existing Lean definition (bare, OPEN).
+[[node]]
+id = "STMT-DOUBLE-NEGATION-ELIMINATION"
+
+[[node]]
+id = "STMT-EXCLUDED-MIDDLE-NOT-DENIABLE"
+
+[[node]]
+id = "STMT-EXCLUDED-MIDDLE-IFF-DOUBLE-NEGATION-ELIMINATION"
+
+[[edge]]
+premises = ["STMT-DOUBLE-NEGATION-ELIMINATION"]
+conclusion = "STMT-EXCLUDED-MIDDLE"
+kind = "derivation"
+status = "certified"
+note = "Certified as EXCLUDED-MIDDLE-FROM-DOUBLE-NEGATION-ELIMINATION: an equivalent relocation, through the constructive irrefutability of each instance."
+
+[[edge]]
+premises = ["STMT-EXCLUDED-MIDDLE-NOT-DENIABLE"]
+conclusion = "STMT-EXCLUDED-MIDDLE"
+kind = "derivation"
+status = "rejected"
+note = "Irrefutability does not give excluded middle constructively (independence is meta-theoretic); the retorsion excludes denial, not withholding (ATTEMPT-ROUND3-COGITO-BASE-REJECTED-EDGES)."

@@ -1,0 +1,10 @@
+{
+  "id": "REL-ACTUAL-GROUNDING-FINITE-RANK-STRENGTHENS-WF",
+  "subject_kind": "statement",
+  "subject_id": "STMT-ACTUAL-GROUNDING-FINITE-RANK",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "STMT-ACTUAL-GROUNDING-WF",
+  "verification_result_id": "ACTUAL-GROUNDING-WF-FROM-FINITE-RANK",
+  "note": "A Nat rank decreasing along actual grounding gives well-founded actual grounding (ACTUAL-GROUNDING-WF-FROM-FINITE-RANK). Strictness: an omega+1 hierarchy (a top concretum grounded by every finite level) is well-founded with no Nat rank (no finite control in this batch)."
+}

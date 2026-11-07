@@ -1,0 +1,11 @@
+{
+  "id": "INF-EXCLUDED-MIDDLE-FROM-DOUBLE-NEGATION-ELIMINATION",
+  "input_statement_ids": [
+    "STMT-DOUBLE-NEGATION-ELIMINATION"
+  ],
+  "output_statement_id": "STMT-EXCLUDED-MIDDLE",
+  "rule": "Double-negation elimination applied to the constructively irrefutable instance",
+  "meaning": "Each instance p ∨ ¬p is constructively irrefutable (¬¬(p ∨ ¬p) needs no axiom); double-negation elimination removes the double negation. A relocation to an equivalent logical floor (STMT-EXCLUDED-MIDDLE-IFF-DOUBLE-NEGATION-ELIMINATION), not a derivation from a weaker one: constructive logic proves only the irrefutability of excluded middle (STMT-EXCLUDED-MIDDLE-NOT-DENIABLE), not excluded middle itself.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

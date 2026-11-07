@@ -1,0 +1,10 @@
+{
+  "id": "STMT-ACTUAL-GROUNDING-FINITE-RANK",
+  "paraphrase": "OPEN analyst framework premise: actual concrete grounding at w descends along a natural-number rank: ∃ rank : B → ℕ, whenever an actual concretum y grounds an actual concretum x, rank y < rank x. Every actual concretum sits at a finite grounding level. Strictly stronger than STMT-ACTUAL-GROUNDING-WF: a transfinite grounding hierarchy is well-founded with no Nat rank.",
+  "lean_declaration": "TruthCore.Causality.Round3CogitoBase.ActualGroundingFiniteRank",
+  "definition_ids": [
+    "DEF-ACTUAL-GROUNDING-FINITE-RANK",
+    "DEF-ACTUAL-GROUNDING-WF",
+    "DEF-CONCRETE-ESSE-IN-RE"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "ROUND3-COGITO-BASE-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-ROUND3-COGITO-BASE-CONTROLS",
+  "inference_ids": [
+    "INF-ROUND3-COGITO-BASE-CONTROLS"
+  ],
+  "meaning": "Finite interpretations for the round 3 batch, all proved without axioms: an omission model for every premise of the eleven derivations other than excluded middle and double-negation elimination (a performed doubt with no occurring thought; no performed doubt; a borne willing; an assent without opining; a selected candidate that bears nothing, is abstract, or is absent; a self-grounding concretum with no rank, no well-founded grounding or cone and no borrowing cut; a contingent root cone; a capable deprived non-potent subject; a privation with the act; motion without capacity; an unactualized capacity not counted as potency), and joint witnesses with a performed doubt, a real grounding edge from a necessary root to a contingent selected being, and a potent subject being moved.",
+  "definition_ids": [
+    "DEF-ACTUAL-GROUNDING-FINITE-RANK",
+    "DEF-ASSENTING-EPISODE",
+    "DEF-PERFORMED-DOUBT-OF-THOUGHT",
+    "DEF-PRIVATION-IN-CAPABLE-SUBJECT"
+  ]
+}

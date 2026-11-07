@@ -1,0 +1,10 @@
+{
+  "id": "SELECTED-CONE-WF-FROM-GLOBAL-WF",
+  "argument_id": "SELECTED-CONE-WF-FROM-GLOBAL-WF",
+  "challenge_module": "TruthCore.Results.Causality.Round3CogitoBase.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round3CogitoBase.Solution",
+  "theorem": "TruthCore.Results.Causality.Round3CogitoBase.selectedConeWFFromGlobalWF",
+  "comparator_config": "results/SELECTED-CONE-WF-FROM-GLOBAL-WF/comparator.json",
+  "status": "solution-present",
+  "description": "Strength order: well-founded grounding on all actual concreta restricts to well-founded grounding on the selected cone, whose members are actual concreta (scopeComparison). The strong, global version is the only premise and stays open."
+}

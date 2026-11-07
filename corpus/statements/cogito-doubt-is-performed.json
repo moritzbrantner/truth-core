@@ -1,0 +1,8 @@
+{
+  "id": "STMT-COGITO-DOUBT-IS-PERFORMED",
+  "paraphrase": "OPEN premise: some doubt (or denial) whether any thought episode occurs is actually performed: ∃ a, Performed a ∧ DoubtsThought a. It is the inquirer's own present act, not a general principle; an unperformed doubt does not satisfy it.",
+  "lean_declaration": "TruthCore.Causality.Round3CogitoBase.DoubtIsPerformed",
+  "definition_ids": [
+    "DEF-PERFORMED-DOUBT-OF-THOUGHT"
+  ]
+}

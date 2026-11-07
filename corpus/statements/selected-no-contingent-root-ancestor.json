@@ -1,0 +1,11 @@
+{
+  "id": "STMT-SELECTED-NO-CONTINGENT-ROOT-ANCESTOR",
+  "paraphrase": "OPEN premise: the selected being's complete actual grounding cone has no contingent root ancestor, i.e. no actual concrete ground-ancestor that is contingent at w and has no actual concrete ground: ¬ ContingentRootAncestor m w selected. With excluded middle it is the cone-local denial of a brute contingent foundation.",
+  "lean_declaration": "TruthCore.Causality.Round3CogitoBase.NoContingentRootAncestor",
+  "definition_ids": [
+    "DEF-SELECTED-ANCESTRY-CONE",
+    "DEF-SELECTED-CONE-CONTINGENT-GROUNDED",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-CONCRETE-ESSE-IN-RE"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "POTENCY-IS-UNACTUALIZED-CAPACITY-FROM-PRIVATION",
+  "argument_id": "POTENCY-IS-UNACTUALIZED-CAPACITY-FROM-PRIVATION",
+  "challenge_module": "TruthCore.Results.Causality.Round3CogitoBase.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round3CogitoBase.Solution",
+  "theorem": "TruthCore.Results.Causality.Round3CogitoBase.potencyIsUnactualizedCapacityFromPrivation",
+  "comparator_config": "results/POTENCY-IS-UNACTUALIZED-CAPACITY-FROM-PRIVATION/comparator.json",
+  "status": "solution-present",
+  "description": "Potency is capacity under privation (OPEN), and in a capable subject privation is lack of the act (OPEN); hence potency is unactualized capacity, the Metaphysics IX.6 reading. Middle term: privation. It routes the act/potency analysis through the Physics I subject-privation analysis; both premises stay open."
+}

@@ -1,0 +1,48 @@
+{
+  "id": "BORROWING-ESCAPE-FROM-FINITE-RANK",
+  "premise_statement_ids": [
+    "STMT-ACTUAL-GROUNDING-FINITE-RANK",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-ACTUAL-CONCRETE-BORROWING-ESCAPE",
+  "inference_ids": [
+    "INF-BORROWING-ESCAPE-FROM-FINITE-RANK"
+  ],
+  "meaning": "The finite rank (OPEN) gives well-founded actual grounding (ACTUAL-GROUNDING-WF-FROM-FINITE-RANK), and with excluded middle the proved equivalence borrowingEscapeWFEquivalence turns that into the no-self-contained-borrowing cut: every nonempty set of actual concreta contains a source or the effect of a record whose contributors all lie outside it. It does not use STMT-ACTUAL-GROUNDING-WF as a premise, so it adds no cycle with ACTUAL-GROUNDING-WF-FROM-BORROWING-CUT.",
+  "definition_ids": [
+    "DEF-ACTUAL-CONCRETE-BORROWING-ESCAPE",
+    "DEF-ACTUAL-CONCRETE-EXISTENTIAL-SUPPLY",
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-ACTUAL-GROUNDING-FINITE-RANK",
+    "DEF-ACTUAL-GROUNDING-WF",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-CONCRETE-ESSE-IN-RE",
+    "DEF-DERIVATIVE-JOINT-SUPPLY",
+    "DEF-INHABITED-CONCRETE-WORLD",
+    "DEF-JOINT-CAUSAL-GROUPS",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-NONNECESSARY-ROOT",
+    "DEF-REGRESS-SCHEMA-GRAPH",
+    "DEF-SELF-EVIDENT-MARKING"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-CAUSAL-POWER-GROUNDING",
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-EXISTENTIAL-SOURCE-SUPPLY-APPLICATION",
+    "DISAMB-JOINT-SUPPLY-POWER-OCCURRENCE",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-NONNECESSARY-VS-CONTINGENT-ROOT",
+    "DISAMB-REGRESS-DOMAINS",
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
+    "DISAMB-NECESSARY"
+  ],
+  "strong_version_needed": {
+    "STMT-ACTUAL-GROUNDING-FINITE-RANK": "The weak version STMT-ACTUAL-GROUNDING-WF with excluded middle also gives the cut, but STMT-ACTUAL-GROUNDING-WF is so far derived only from the cut itself (ACTUAL-GROUNDING-WF-FROM-BORROWING-CUT); using it would close a two-cycle and only restate the recorded equivalence. The strong rank version is used to give a non-circular route (ATTEMPT-ROUND3-COGITO-BASE-REJECTED-EDGES)."
+  }
+}

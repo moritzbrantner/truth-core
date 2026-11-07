@@ -1,0 +1,33 @@
+{
+  "id": "ATTEMPT-ROUND3-COGITO-BASE",
+  "statement_ids": [
+    "STMT-COGITO-THOUGHT-OCCURS",
+    "STMT-COGITO-BORNE-THOUGHT-IS-OPINING",
+    "STMT-SELECTED-ACTUAL-CONCRETE",
+    "STMT-ACTUAL-GROUNDING-WF",
+    "STMT-ACTUAL-CONCRETE-BORROWING-ESCAPE",
+    "STMT-SELECTED-CONE-WELL-FOUNDED",
+    "STMT-SELECTED-CONE-CONTINGENT-GROUNDED",
+    "STMT-POTENCY-IS-UNACTUALIZED-CAPACITY",
+    "STMT-BEING-MOVED-IS-ACTUALIZATION-OF-POTENCY",
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "date": "2026-11-07",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Round 3 batch over the Cogito/existence base and the Aristotelian analyses (explorations/cogito-thought-occurs.toml and siblings): eleven zero-axiom derivations in TruthCore/Results/Causality/Round3CogitoBase/Solution.lean, each from OPEN analyst premises. Thought occurrence by retorsion from a performed doubt and the doubting-is-thinking bridge, plus the retorsion itself (a performed doubt of thought falsifies its content); borne thought as opining through assent; the selected being as an actual concretum from the thought it bears; a natural-number grounding rank giving well-founded actual grounding (a non-circular second route) and, with excluded middle, the borrowing cut; cone well-foundedness from global well-foundedness (strength order); cone contingent grounding from the absence of a contingent root ancestor; potency as unactualized capacity through privation; being moved as actualization of potency through unactualized capacity; excluded middle from double-negation elimination (an equivalent relocation). Controls: omission models for every load-bearing premise except excluded middle and double-negation elimination, and three joint nonvacuity witnesses. No premise is established; the targets are relocated to the new open premises. STMT-COGITO-INHABITED-CONCRETE-WORLD gets no new derivation (see ATTEMPT-ROUND3-COGITO-BASE-REJECTED-EDGES).",
+  "evidence": [
+    "COGITO-THOUGHT-OCCURS-FROM-PERFORMED-DOUBT",
+    "COGITO-PERFORMED-DOUBT-SELF-REFUTING",
+    "COGITO-BORNE-THOUGHT-IS-OPINING-FROM-ASSENT",
+    "SELECTED-ACTUAL-CONCRETE-FROM-BORNE-THOUGHT",
+    "ACTUAL-GROUNDING-WF-FROM-FINITE-RANK",
+    "BORROWING-ESCAPE-FROM-FINITE-RANK",
+    "SELECTED-CONE-WF-FROM-GLOBAL-WF",
+    "SELECTED-CONE-CONTINGENT-GROUNDED-FROM-NO-CONTINGENT-ROOT",
+    "POTENCY-IS-UNACTUALIZED-CAPACITY-FROM-PRIVATION",
+    "BEING-MOVED-FROM-UNACTUALIZED-CAPACITY",
+    "EXCLUDED-MIDDLE-FROM-DOUBLE-NEGATION-ELIMINATION",
+    "ROUND3-COGITO-BASE-CONTROLS"
+  ]
+}
