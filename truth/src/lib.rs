@@ -1,7 +1,11 @@
 //! Read-only structural view of the canonical corpus.
 pub mod bridges;
 pub mod check;
+pub mod context;
+pub mod dossier;
 mod kernels;
+pub mod pyfmt;
+pub mod related;
 pub mod thickness;
 mod transcription;
 
@@ -174,6 +178,22 @@ impl Corpus {
             .unwrap_or_default();
         records.sort_by(|a, b| a.path.cmp(&b.path));
         records.into_iter().map(|record| &record.fields).collect()
+    }
+
+    /// The records of one kind with their paths, in file order.
+    pub fn entries(&self, kind: &str) -> Vec<&Record> {
+        let mut records: Vec<&Record> = self
+            .records
+            .get(kind)
+            .map(|records| records.values().collect())
+            .unwrap_or_default();
+        records.sort_by(|a, b| a.path.cmp(&b.path));
+        records
+    }
+
+    /// One record of one kind by ID.
+    pub fn get(&self, kind: &str, id: &str) -> Option<&Record> {
+        self.records.get(kind).and_then(|records| records.get(id))
     }
 
     /// Records of one kind in ID order (empty for an unknown kind).

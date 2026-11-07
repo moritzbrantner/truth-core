@@ -1,13 +1,19 @@
 use serde_json::{Value, json};
 use std::{collections::BTreeMap, env, ffi::OsString, path::PathBuf, process::ExitCode};
-use truth::{Corpus, bridges, check, thickness};
+use truth::{Corpus, bridges, check, context, dossier, related, thickness};
 
 const HELP: &str = "Usage: truth [--root PATH] [--json] status
        truth [--root PATH] [--json] check
        truth [--root PATH] [--json] inspect ID
        truth [--root PATH] [--json] thickness [--queue] [--frontier-root STATEMENT-ID]
        truth [--root PATH] [--json] bridges --constants FILE (--queue-file FILE | --target ID)...
-             [--targets N] [--top K] [--pool M]";
+             [--targets N] [--top K] [--pool M]
+       truth [--root PATH] [--json] related STATEMENT-ID [--limit N]
+       truth [--root PATH] [--json] dossier (STATEMENT-ID | --all) --frontier-json FILE [--limit N]
+       truth [--root PATH] [--json] context TARGET --frontier-json FILE [--limit N] [--related N]
+
+dossier and context read the frontier report from FILE, written by
+`python3 scripts/corpus.py frontier --json [--root STATEMENT-ID]` on the same checkout.";
 
 fn usage(message: impl Into<String>) -> (u8, Value) {
     (2, json!({"code":"usage", "message": message.into()}))
@@ -98,6 +104,146 @@ fn thickness_command(
     }
 }
 
+#[derive(Default)]
+struct ResearchArgs {
+    flags: bool,
+    all: bool,
+    limit: Option<i64>,
+    related: Option<i64>,
+    frontier: Option<String>,
+}
+
+fn integer(value: Option<&str>, flag: &str) -> Result<i64, (u8, Value)> {
+    value
+        .and_then(|value| value.parse().ok())
+        .ok_or_else(|| usage(format!("{flag} requires an integer")))
+}
+
+fn unknown(message: &str) -> (u8, Value) {
+    (3, json!({"code":"unknown_id", "message":message}))
+}
+
+fn invalid_target(message: &str) -> (u8, Value) {
+    (2, json!({"code":"invalid_target", "message":message}))
+}
+
+fn with_identity(value: impl serde::Serialize, corpus: &Corpus) -> Value {
+    let mut value = serde_json::to_value(value).unwrap_or(Value::Null);
+    if let Some(object) = value.as_object_mut() {
+        object.insert("input_identity".into(), json!(corpus.input_identity()));
+    }
+    value
+}
+
+fn frontier_view(
+    args: &ResearchArgs,
+    frontier_root: &str,
+) -> Result<dossier::FrontierView, (u8, Value)> {
+    let path = args.frontier.as_deref().ok_or_else(|| {
+        usage("dossier and context require --frontier-json FILE (corpus.py frontier --json)")
+    })?;
+    let view = dossier::FrontierView::from_report(&read_json(path)?)
+        .map_err(|error| input_error(path, error))?;
+    if frontier_root != thickness::DEFAULT_ROOT && view.root.as_deref() != Some(frontier_root) {
+        return Err(usage(format!(
+            "--frontier-root {frontier_root} differs from the report root {}",
+            view.root.as_deref().unwrap_or("None")
+        )));
+    }
+    if !view.root_known {
+        return Err(input_error(
+            path,
+            format!(
+                "unknown root statement: {}",
+                view.root.as_deref().unwrap_or("None")
+            ),
+        ));
+    }
+    Ok(view)
+}
+
+/// `related`, `dossier` and `context`: JSON as the Python commands print it
+/// (plus `input_identity`, except `dossier --all`) and byte-identical text.
+fn research_command(
+    root: &std::path::Path,
+    corpus: &Corpus,
+    command: &str,
+    target: Option<&str>,
+    args: &ResearchArgs,
+    frontier_root: &str,
+) -> Result<(Value, Option<String>), (u8, Value)> {
+    match command {
+        "related" => {
+            let target = target.ok_or_else(|| usage(HELP))?;
+            let report =
+                related::related(corpus, target, args.limit.unwrap_or(related::DEFAULT_LIMIT))
+                    .map_err(|error| match error {
+                        related::LookupError::Unknown(message) => unknown(&message),
+                        related::LookupError::Invalid(message) => invalid_target(&message),
+                    })?;
+            let text = related::format_related(&report);
+            Ok((with_identity(&report, corpus), Some(text)))
+        }
+        "dossier" => {
+            let index = dossier::DossierIndex::new(corpus);
+            if let Some(id) = target
+                && corpus.get("statements", id).is_none()
+            {
+                return Err(unknown(&format!("unknown statement: {id}")));
+            }
+            let view = frontier_view(args, frontier_root)?;
+            if args.all {
+                let all: serde_json::Map<String, Value> = index
+                    .statement_ids()
+                    .into_iter()
+                    .filter_map(|id| index.dossier(id, &view).map(|d| (id.to_owned(), json!(d))))
+                    .collect();
+                let text = Value::Object(all.clone()).to_string();
+                return Ok((Value::Object(all), Some(text)));
+            }
+            let id = target.ok_or_else(|| usage(HELP))?;
+            let found = index
+                .dossier(id, &view)
+                .ok_or_else(|| unknown(&format!("unknown statement: {id}")))?;
+            let limit = args
+                .limit
+                .unwrap_or(dossier::DEFAULT_LIMIT)
+                .try_into()
+                .ok()
+                .filter(|limit: &usize| *limit > 0);
+            let text = dossier::format_dossier(&found, &index, limit);
+            Ok((with_identity(&found, corpus), Some(text)))
+        }
+        _ => {
+            let target = target.ok_or_else(|| usage(HELP))?;
+            let argument =
+                context::resolve_target(corpus, target).map_err(|error| match error {
+                    context::TargetError::Unknown(message) => unknown(&message),
+                    context::TargetError::Ambiguous(message) => invalid_target(&message),
+                })?;
+            let view = frontier_view(args, frontier_root)?;
+            let count = args.related.unwrap_or(context::DEFAULT_RELATED);
+            let mut matches = Vec::new();
+            if count != 0 {
+                let conclusion = corpus
+                    .get("arguments", &argument)
+                    .and_then(|record| record.fields.get("conclusion_statement_id"))
+                    .and_then(Value::as_str)
+                    .unwrap_or_default();
+                match related::related(corpus, conclusion, count) {
+                    Ok(report) => matches = report.matches,
+                    Err(error) => {
+                        eprintln!("context: related ranking unavailable: {}", error.message())
+                    }
+                }
+            }
+            let pack = context::context_pack(root, corpus, &view, &argument, &matches);
+            let text = context::format_context(&pack, args.limit.unwrap_or(context::DEFAULT_LIMIT));
+            Ok((with_identity(&pack, corpus), Some(text)))
+        }
+    }
+}
+
 /// The partial-port notice `check` prints on stderr before its result.
 fn check_notice() -> String {
     format!(
@@ -149,6 +295,7 @@ fn run(args: &[OsString]) -> Result<(Value, Option<String>), (u8, Value)> {
     let mut bridge_flags = false;
     let mut queue = false;
     let mut frontier_root = thickness::DEFAULT_ROOT.to_owned();
+    let mut research = ResearchArgs::default();
     let mut args = args.iter();
     while let Some(arg) = args.next() {
         let arg = arg.to_str().ok_or_else(|| {
@@ -181,6 +328,25 @@ fn run(args: &[OsString]) -> Result<(Value, Option<String>), (u8, Value)> {
                     )
                 })?;
             }
+            "--all" => {
+                research.flags = true;
+                research.all = true;
+            }
+            "--limit" | "--related" | "--frontier-json" => {
+                research.flags = true;
+                let value = args.next().and_then(|value| value.to_str());
+                match arg {
+                    "--limit" => research.limit = Some(integer(value, arg)?),
+                    "--related" => research.related = Some(integer(value, arg)?),
+                    _ => {
+                        research.frontier = Some(
+                            value
+                                .ok_or_else(|| usage(format!("{arg} requires a UTF-8 path")))?
+                                .to_owned(),
+                        )
+                    }
+                }
+            }
             "--constants" | "--queue-file" | "--target" | "--targets" | "--top" | "--pool" => {
                 bridge_flags = true;
                 let value = args
@@ -209,10 +375,47 @@ fn run(args: &[OsString]) -> Result<(Value, Option<String>), (u8, Value)> {
         }
     }
     if matches!(positional.as_slice(), ["check"]) {
-        if bridge_flags || queue || frontier_root != thickness::DEFAULT_ROOT {
+        if bridge_flags || research.flags || queue || frontier_root != thickness::DEFAULT_ROOT {
             return Err(usage("check takes no options besides --root and --json"));
         }
         return check_command(&root);
+    }
+    let research_target = match positional.as_slice() {
+        [command @ ("related" | "dossier" | "context"), rest @ ..] if !bridge_flags => {
+            let target = match rest {
+                [] if *command == "dossier" && research.all => None,
+                [id] if !id.is_empty() && !research.all => Some(*id),
+                _ => return Err(usage(HELP)),
+            };
+            let applies = match *command {
+                "related" => {
+                    research.frontier.is_none()
+                        && research.related.is_none()
+                        && frontier_root == thickness::DEFAULT_ROOT
+                }
+                "dossier" => research.related.is_none(),
+                _ => true,
+            };
+            if !applies || queue {
+                return Err(usage(format!("an option does not apply to {command}")));
+            }
+            Some((*command, target))
+        }
+        _ => None,
+    };
+    if research_target.is_none() && research.flags {
+        return Err(usage(
+            "--all, --limit, --related and --frontier-json apply only to related, dossier and context",
+        ));
+    }
+    if let Some((command, target)) = research_target {
+        let corpus = Corpus::load(&root).map_err(|error| {
+            (
+                1,
+                json!({"code":error.code, "path":error.path, "message":error.message}),
+            )
+        })?;
+        return research_command(&root, &corpus, command, target, &research, &frontier_root);
     }
     let thickness = matches!(positional.as_slice(), ["thickness"]);
     let (id, bridges) = match positional.as_slice() {
