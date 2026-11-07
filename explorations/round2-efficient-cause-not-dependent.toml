@@ -1,0 +1,38 @@
+target = "STMT-EFFICIENT-CAUSE-NOT-DEPENDENT-ON-EFFECT"
+
+[[node]]
+id = "STMT-EFFICIENT-CAUSE-NOT-DEPENDENT-ON-EFFECT"
+
+[[node]]
+id = "STMT-EFFECT-DEPENDS-FOR-BEING-ON-EFFICIENT-CAUSE"
+
+[[node]]
+id = "STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF"
+
+# New in round 2 (certified batch round2-perfection-primacy).
+[[node]]
+id = "STMT-DISTINCT-BEINGS-NOT-MUTUALLY-DEPENDENT"
+
+[[node]]
+id = "NEW-DEPENDENCE-TRANSITIVE"
+new = true
+text = "Dependence for being is transitive."
+
+[[node]]
+id = "NEW-NOTHING-DEPENDS-ON-ITSELF"
+new = true
+text = "Nothing depends for its being on itself."
+
+[[edge]]
+premises = ["STMT-EFFECT-DEPENDS-FOR-BEING-ON-EFFICIENT-CAUSE", "STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF", "STMT-DISTINCT-BEINGS-NOT-MUTUALLY-DEPENDENT"]
+conclusion = "STMT-EFFICIENT-CAUSE-NOT-DEPENDENT-ON-EFFECT"
+kind = "derivation"
+status = "certified"
+note = "Certified as EFFICIENT-CAUSE-NOT-DEPENDENT-FROM-ASYMMETRY. Uses the stated q.2 a.3 no-self-causation premise; argument-level cycle with NO-SELF-EFFICIENT-CAUSATION-FROM-DEPENDENCE noted in the meaning."
+
+[[edge]]
+premises = ["STMT-EFFECT-DEPENDS-FOR-BEING-ON-EFFICIENT-CAUSE", "NEW-DEPENDENCE-TRANSITIVE", "NEW-NOTHING-DEPENDS-ON-ITSELF"]
+conclusion = "STMT-EFFICIENT-CAUSE-NOT-DEPENDENT-ON-EFFECT"
+kind = "derivation"
+status = "rejected"
+note = "Valid but unusable: DEF-DEPENDS-FOR-BEING is counterfactual ('x would not be if y were not'), which holds trivially of x and itself, so irreflexivity contradicts the defined sense. Replaced by asymmetry among distinct beings."

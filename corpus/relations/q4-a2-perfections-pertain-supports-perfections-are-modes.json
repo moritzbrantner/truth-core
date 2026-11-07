@@ -1,0 +1,9 @@
+{
+  "id": "REL-Q4-A2-PERFECTIONS-PERTAIN-SUPPORTS-PERFECTIONS-ARE-MODES",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q4-A2-PERFECTIONS-PERTAIN-TO-BEING",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-PERFECTIONS-ARE-MODES-OF-BEING",
+  "note": "q.4 a.2 co. says the perfections of all things pertain to the perfection of being, since things are perfect insofar as they have being in some way. The premise reads 'pertain to the perfection of being' as 'is a mode of the thing's being' (DEF-MODE-OF-BEING) for every perfection a thing has in act. The claim is kept as prose and records that ad 3 distinguishes participation in being from participation in every mode; the premise does not settle that."
+}

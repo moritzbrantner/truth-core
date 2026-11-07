@@ -1,0 +1,10 @@
+{
+  "id": "CAUSE-PERFECTION-NOT-RECEIVED-FROM-DEPENDENCE",
+  "argument_id": "CAUSE-PERFECTION-NOT-RECEIVED-FROM-DEPENDENCE",
+  "challenge_module": "TruthCore.Results.Causality.Round2PerfectionPrimacy.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round2PerfectionPrimacy.Solution",
+  "theorem": "TruthCore.Results.Causality.Round2PerfectionPrimacy.causePerfectionNotReceivedInEffect",
+  "comparator_config": "results/CAUSE-PERFECTION-NOT-RECEIVED-FROM-DEPENDENCE/comparator.json",
+  "status": "solution-present",
+  "description": "Derives the batch 1 bridge that a distinct cause does not have the perfection it causes as received in its effect. If c's having r were received in x, c would depend for its being on x (OPEN: a haver depends on its recipient); but c's causing r in x is efficiently causing it (OPEN bridge), and an efficient cause does not depend on its effect (STMT-EFFICIENT-CAUSE-NOT-DEPENDENT-ON-EFFECT, derived in EFFICIENT-CAUSE-NOT-DEPENDENT-FROM-ASYMMETRY)."
+}
