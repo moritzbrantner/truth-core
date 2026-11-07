@@ -68,6 +68,7 @@ public import TruthCore.Causality.LocalTransmission
 public import TruthCore.Causality.MathlibBridges
 public import TruthCore.Causality.MaximalGroundingAsymmetry
 public import TruthCore.Causality.MaximumDefinitionFork
+public import TruthCore.Causality.MeinongianActuality
 public import TruthCore.Causality.ModalNecessaryBeingActuality
 public import TruthCore.Causality.NamedPotentialCauser
 public import TruthCore.Causality.NecessarilyUnderived
