@@ -10,7 +10,7 @@
   "inference_ids": [
     "INF-PER-SE-CAUSAL-LOOP-IMPOSSIBLE"
   ],
-  "meaning": "The Second Way's 'sic esset prius seipso', extended from self-causation to finite loops of per se causes. Refutes STMT-PER-SE-CAUSAL-LOOP given its open premises. No refutes relation is recorded until its premises are closed (#391). The transitivity premise STMT-SIMPLE-PRIORITY-IS-TRANSITIVE is also not yet sourced. It does not refute STMT-INFINITE-PER-SE-CAUSE-SERIES, so STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES stays open. The Comparator config also verifies needsTransitivity, needsNothingPriorToItself, needsCausePriorToEffect and needsMiddleCause: each premise is needed.",
+  "meaning": "The Second Way's 'sic esset prius seipso', extended from self-causation to finite loops of per se causes. Refutes STMT-PER-SE-CAUSAL-LOOP given its open premises. Its refutes relation REL-PER-SE-CAUSAL-LOOP-IMPOSSIBLE-REFUTES does not count until its premises are established (#391, #999). The transitivity premise STMT-SIMPLE-PRIORITY-IS-TRANSITIVE is also not yet sourced. It does not refute STMT-INFINITE-PER-SE-CAUSE-SERIES, so STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES stays open. The Comparator config also verifies needsTransitivity, needsNothingPriorToItself, needsCausePriorToEffect and needsMiddleCause: each premise is needed.",
   "definition_ids": [
     "DEF-PER-SE-EFFICIENT-CAUSE-LINK",
     "DEF-SIMPLE-PRIORITY",

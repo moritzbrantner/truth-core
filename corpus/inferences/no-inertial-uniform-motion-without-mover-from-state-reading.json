@@ -1,0 +1,12 @@
+{
+  "id": "INF-NO-INERTIAL-UNIFORM-MOTION-WITHOUT-MOVER-FROM-STATE-READING",
+  "input_statement_ids": [
+    "STMT-UNIFORM-PERSEVERANCE-IS-NOT-BEING-MOVED",
+    "STMT-MOVERLESS-UNIFORM-MOTION-IS-PERSEVERANCE"
+  ],
+  "output_statement_id": "STMT-NO-INERTIAL-UNIFORM-MOTION-WITHOUT-MOVER",
+  "rule": "Rival excluded by deeper premises",
+  "meaning": "Conditional refutation of the inertial rival STMT-INERTIAL-UNIFORM-MOTION-WITHOUT-MOVER. A body moved uniformly in a straight line with nothing moving it perseveres in that motion (STMT-MOVERLESS-UNIFORM-MOTION-IS-PERSEVERANCE), and on the state reading a body persevering in uniform rectilinear motion is not thereby being moved in that respect (STMT-UNIFORM-PERSEVERANCE-IS-NOT-BEING-MOVED); so no such body is being moved, against the rival. The rival therefore needs the becoming reading of DISAMB-UNIFORM-MOTION-STATE-OR-BECOMING, or must deny that a moverless uniformly moving body perseveres. Each premise is needed (STMT-RIVAL-REFUTATIONS-ROUND2-CONTROLS). It does not decide between the state and becoming readings, and both premises are open, so the refutation does not count for closure.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

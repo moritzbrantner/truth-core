@@ -1,0 +1,14 @@
+{
+  "id": "STMT-PER-SE-MOVER-LINK-IS-MOVING-BY-MOVED-MOVER",
+  "paraphrase": "Open analysis, analyst formulation (attribution deferred): whenever y moves x as moved (a per se link of a mover series), y is distinct from x, moves x in some respect, and is itself moved by something in some respect. It is the converse direction of STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED, which gives only a sufficient condition for a per se link; it states a necessary condition and is neutral between the two senses of DISAMB-PER-SE-LINK.",
+  "lean_declaration": "TruthCore.Causality.RivalRefutationsRound2.PerSeMoverLinkIsMovingByMovedMoverReading",
+  "definition_ids": [
+    "DEF-PER-SE-ORDERED-SERIES",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PER-SE-LINK",
+    "DISAMB-MOTION"
+  ]
+}
