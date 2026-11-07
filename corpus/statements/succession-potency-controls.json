@@ -1,0 +1,16 @@
+{
+  "id": "STMT-SUCCESSION-POTENCY-CONTROLS",
+  "paraphrase": "One being living at two ordered times with different life-states. Without the bridge it is not moved and has no potency; without Physics III.1 it is moved without potency; with both it is in potency.",
+  "lean_declaration": "TruthCore.Causality.SuccessionPotency.Control.Certificate",
+  "definition_ids": [
+    "DEF-POTENCY",
+    "DEF-LIFE-PRESENT-AT",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-ACTUALIZATION-QUA-POTENTIAL",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER",
+    "DISAMB-MOTION"
+  ]
+}

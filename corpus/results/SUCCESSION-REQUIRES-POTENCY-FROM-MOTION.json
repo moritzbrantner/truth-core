@@ -1,0 +1,10 @@
+{
+  "id": "SUCCESSION-REQUIRES-POTENCY-FROM-MOTION",
+  "argument_id": "SUCCESSION-REQUIRES-POTENCY-FROM-MOTION",
+  "challenge_module": "TruthCore.Results.Causality.SuccessionPotency.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SuccessionPotency.Solution",
+  "theorem": "TruthCore.Results.Causality.SuccessionPotency.successionRequiresPotency",
+  "comparator_config": "results/SUCCESSION-REQUIRES-POTENCY-FROM-MOTION/comparator.json",
+  "status": "solution-present",
+  "description": "A life whose state differs between two times at which it lives is being moved in some respect (STMT-SUCCESSION-IS-BEING-MOVED, supported by the q.9 a.1 claim), and whatever is being moved in a respect is in potency in it (left-to-right half of Physics III.1, STMT-BEING-MOVED-IS-ACTUALIZATION-OF-POTENCY). Derives STMT-SUCCESSION-REQUIRES-POTENCY, which reaches the root with no recorded derivation. Potency is potency in the subject, the sense Physics III.1 uses and DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER selects for q.9 a.1. Both premises stay open."
+}

@@ -1,0 +1,20 @@
+{
+  "id": "SUCCESSION-POTENCY-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-SUCCESSION-POTENCY-CONTROLS",
+  "inference_ids": [
+    "INF-SUCCESSION-POTENCY-CONTROLS"
+  ],
+  "meaning": "One being living at two ordered times with different life-states. Without the bridge it is not moved and has no potency; without Physics III.1 it is moved without potency; with both it is in potency.",
+  "definition_ids": [
+    "DEF-POTENCY",
+    "DEF-LIFE-PRESENT-AT",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-ACTUALIZATION-QUA-POTENTIAL",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER",
+    "DISAMB-MOTION"
+  ]
+}
