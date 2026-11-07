@@ -8,6 +8,7 @@ public import TruthCore.Causality.ActualCoverStrictness
 public import TruthCore.Causality.ActualFusionNecessaryBeing
 public import TruthCore.Causality.ActualRootUniqueness
 public import TruthCore.Causality.ActualUnderivedEssenceEsse
+public import TruthCore.Causality.AristotelianRivalRefutations
 public import TruthCore.Causality.AtomisticCausalSource
 public import TruthCore.Causality.AtomisticUniversalCausePriority
 public import TruthCore.Causality.BearerRegress
@@ -68,6 +69,7 @@ public import TruthCore.Causality.LocalTransmission
 public import TruthCore.Causality.MathlibBridges
 public import TruthCore.Causality.MaximalGroundingAsymmetry
 public import TruthCore.Causality.MaximumDefinitionFork
+public import TruthCore.Causality.MeinongianActuality
 public import TruthCore.Causality.ModalNecessaryBeingActuality
 public import TruthCore.Causality.NamedPotentialCauser
 public import TruthCore.Causality.NecessarilyUnderived

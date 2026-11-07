@@ -1,0 +1,17 @@
+{
+  "id": "STMT-ARISTOTELIAN-RIVAL-REFUTATIONS-CONTROLS",
+  "paraphrase": "Without the Metaphysics IX.6 analysis the Scotist rival is satisfiable, and without the Physics III.1 analysis the Ash'arite rival is; both analyses are satisfiable together.",
+  "lean_declaration": "TruthCore.Causality.AristotelianRivalRefutations.Control.Certificate",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-POTENCY",
+    "DEF-RESPECT",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-CAPACITY-TO-BE",
+    "DEF-ACTUALIZATION-QUA-POTENTIAL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT",
+    "DISAMB-MOTION"
+  ]
+}

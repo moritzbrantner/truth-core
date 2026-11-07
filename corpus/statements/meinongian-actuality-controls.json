@@ -1,0 +1,15 @@
+{
+  "id": "STMT-MEINONGIAN-ACTUALITY-CONTROLS",
+  "paraphrase": "The golden mountain model: one being in act in a further respect but not in being. With q.5 a.1 and without q.4 a.2, or with q.4 a.2 and without q.5 a.1, the Meinongian rival holds; each refutation premise is needed.",
+  "lean_declaration": "TruthCore.Causality.MeinongianActuality.Control.Certificate",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-ESSE",
+    "DEF-PERFECT-IN-A-PERFECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-BEING",
+    "DISAMB-IN-ACT",
+    "DISAMB-PERFECT-IN-A-RESPECT-OR-UNIVERSALLY"
+  ]
+}
