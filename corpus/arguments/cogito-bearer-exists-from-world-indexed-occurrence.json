@@ -1,0 +1,21 @@
+{
+  "id": "COGITO-BEARER-EXISTS-FROM-WORLD-INDEXED-OCCURRENCE",
+  "premise_statement_ids": [
+    "STMT-OCCURRING-THOUGHT-OCCURS-AT-WORLD",
+    "STMT-BEARER-EXISTS-WHERE-EPISODE-OCCURS"
+  ],
+  "conclusion_statement_id": "STMT-COGITO-BEARER-EXISTS-AT-WORLD",
+  "inference_ids": [
+    "INF-COGITO-BEARER-EXISTS-FROM-WORLD-INDEXED-OCCURRENCE"
+  ],
+  "meaning": "Every bearer of an occurring thought exists at w, from two OPEN premises: every occurring episode occurs at w, and at any world whoever bears an episode occurring there exists there.",
+  "definition_ids": [
+    "DEF-EPISODE-OCCURS-AT",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-THOUGHT-BEARER",
+    "DEF-THOUGHT-OCCURRENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE"
+  ]
+}

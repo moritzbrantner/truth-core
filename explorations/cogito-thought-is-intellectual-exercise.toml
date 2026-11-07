@@ -1,0 +1,47 @@
+# Exploration map: every bearer of an occurring thought exercises intellect in it.
+target = "STMT-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE"
+
+[[node]]
+id = "STMT-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE"
+
+[[node]]
+id = "STMT-COGITO-BORNE-THOUGHT-IS-OPINING"
+
+[[node]]
+id = "STMT-HUMAN-INTELLECT-PER-SE-OPERATION"
+
+[[node]]
+id = "STMT-OCCURRING-THOUGHT-IS-INTELLECTIVE"
+new = true
+text = "Every occurring thought episode is intellective (an act of understanding or judging, not a mere sensation or feeling)."
+
+[[node]]
+id = "STMT-BEARING-INTELLECTIVE-EPISODE-IS-EXERCISE"
+new = true
+text = "Whoever bears an intellective episode is attributed it as an intellectual exercise."
+
+[[node]]
+id = "STMT-OPINING-BORNE-CONTENT-IS-INTELLECTUAL-EXERCISE"
+new = true
+text = "Whoever bears an episode and opines its content exercises intellect in it (judging is an act of intellect)."
+
+[[edge]]
+premises = ["STMT-OCCURRING-THOUGHT-IS-INTELLECTIVE", "STMT-BEARING-INTELLECTIVE-EPISODE-IS-EXERCISE"]
+conclusion = "STMT-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE"
+kind = "derivation"
+status = "certified"
+note = "Certified as COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE-FROM-INTELLECTIVE-EPISODE. The intellective premise is rejected by an empiricist who counts sensory episodes as thoughts (Descartes's broad cogitatio)."
+
+[[edge]]
+premises = ["STMT-COGITO-BORNE-THOUGHT-IS-OPINING", "STMT-OPINING-BORNE-CONTENT-IS-INTELLECTUAL-EXERCISE"]
+conclusion = "STMT-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE"
+kind = "derivation"
+status = "certified"
+note = "Certified as COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE-FROM-OPINING: reuses the motion fork's opining bridge. Opining includes phantasia (DEF-OPINING), so the second premise is contested by anyone who places imagination in sense."
+
+[[edge]]
+premises = ["STMT-HUMAN-INTELLECT-PER-SE-OPERATION"]
+conclusion = "STMT-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE"
+kind = "derivation"
+status = "rejected"
+note = "Rejected: an existential about one principle does not cover every bearer of every occurring episode."

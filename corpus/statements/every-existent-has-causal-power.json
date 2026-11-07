@@ -1,0 +1,9 @@
+{
+  "id": "STMT-EVERY-EXISTENT-HAS-CAUSAL-POWER",
+  "paraphrase": "OPEN Eleatic principle at the selected world: every existent has causal power (a capacity, not a present exercise). Rejected by Platonists about causally inert abstracta and by epiphenomenalists.",
+  "lean_declaration": "TruthCore.Causality.Round2ExistenceAct.EveryExistentHasCausalPowerAt",
+  "definition_ids": [
+    "DEF-POWER-CAPACITY-READING",
+    "DEF-KANT-ONTOLOGICAL-MODEL"
+  ]
+}

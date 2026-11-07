@@ -1,0 +1,12 @@
+{
+  "id": "INF-EVERY-THOUGHT-HAS-SUBJECT-FROM-MODIFICATION",
+  "input_statement_ids": [
+    "STMT-OCCURRING-THOUGHT-IS-MODIFICATION",
+    "STMT-NO-MODIFICATION-WITHOUT-BEARER"
+  ],
+  "output_statement_id": "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT",
+  "rule": "Universal instantiation, modus ponens",
+  "meaning": "The bearer principle from two OPEN premises: every occurring thought is a modification, and no modification is without a bearer. Bundle theories reject the first; nothing here makes the bearer unique, substantial or enduring.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

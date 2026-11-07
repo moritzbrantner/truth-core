@@ -1,0 +1,13 @@
+{
+  "id": "INF-EVERY-THOUGHT-HAS-SUBJECT-FROM-AGENCY",
+  "input_statement_ids": [
+    "STMT-OCCURRING-THOUGHT-IS-OPERATION",
+    "STMT-EVERY-OPERATION-HAS-AGENT",
+    "STMT-AGENT-OF-EPISODE-BEARS-IT"
+  ],
+  "output_statement_id": "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT",
+  "rule": "Universal instantiation, existential elimination, modus ponens",
+  "meaning": "The bearer principle from three OPEN premises: every occurring thought is an operation, every operation has an agent, and the agent of an episode bears it. An event ontology of thinking without agents rejects the first.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

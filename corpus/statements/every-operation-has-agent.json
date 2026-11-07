@@ -1,0 +1,9 @@
+{
+  "id": "STMT-EVERY-OPERATION-HAS-AGENT",
+  "paraphrase": "OPEN analyst premise: every operation has an agent whose operation it is.",
+  "lean_declaration": "TruthCore.Causality.Round2ExistenceAct.EveryOperationHasAgent",
+  "definition_ids": [
+    "DEF-EPISODE-AGENT",
+    "DEF-OPERATING-AGENT"
+  ]
+}

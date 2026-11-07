@@ -1,0 +1,294 @@
+# Round 2: existence, act and the Cogito bearer. Maps: explorations/existing-in-act-at.toml,
+# intellectual-exercise-requires-act.toml, cogito-thought-is-intellectual-exercise.toml,
+# cogito-bearer-exists-at-world.toml, cogito-every-thought-has-subject.toml.
+# Analyst formulations, attribution deferred: every new statement is an OPEN premise.
+
+[batch]
+vocab = "TruthCore.Causality.Round2ExistenceAct"
+results = "TruthCore.Results.Causality.Round2ExistenceAct"
+
+# ---- Map 1: the esse contract ----
+
+[[statement]]
+id = "STMT-EXISTENT-IS-IN-ACT-IN-SOME-RESPECT"
+lean = "ExistentInActInSomeRespectAt"
+paraphrase = "OPEN analyst premise: at the selected world every existent is in act in some respect (to be is to be actual in some way). It does not say in which respect, and does not say esse."
+definitions = ["DEF-ACT", "DEF-KANT-ONTOLOGICAL-MODEL"]
+disambiguations = ["DISAMB-IN-ACT"]
+
+[[statement]]
+id = "STMT-EVERY-EXISTENT-HAS-CAUSAL-POWER"
+lean = "EveryExistentHasCausalPowerAt"
+paraphrase = "OPEN Eleatic principle at the selected world: every existent has causal power (a capacity, not a present exercise). Rejected by Platonists about causally inert abstracta and by epiphenomenalists."
+definitions = ["DEF-POWER-CAPACITY-READING", "DEF-KANT-ONTOLOGICAL-MODEL"]
+
+[[statement]]
+id = "STMT-LACKING-ESSE-IS-MERELY-POSSIBLE"
+lean = "LackingEsseIsMerelyPossible"
+paraphrase = "OPEN analyst premise: whatever is not in act of esse is merely possible (in potency to being only). A Platonist about abstracta denies it: a number lacks esse in re without being merely possible."
+definitions = ["DEF-MERELY-POSSIBLE-CANDIDATE", "DEF-ACT", "DEF-ESSE"]
+disambiguations = ["DISAMB-IN-ACT"]
+
+[[statement]]
+id = "STMT-MERELY-POSSIBLE-DOES-NOT-EXIST-AT"
+lean = "MerelyPossibleNotExistentAt"
+paraphrase = "OPEN analyst premise: nothing merely possible exists at the selected world."
+definitions = ["DEF-MERELY-POSSIBLE-CANDIDATE", "DEF-KANT-ONTOLOGICAL-MODEL"]
+
+# ---- Map 2: intellectual exercise requires act ----
+
+[[statement]]
+id = "STMT-INTELLECTUAL-EXERCISE-IS-OPERATING"
+lean = "IntellectualExerciseIsOperating"
+paraphrase = "OPEN analyst premise: whoever is attributed an intellectual exercise operates (exercises an activity, here an immanent one)."
+definitions = ["DEF-OPERATING-AGENT", "DEF-Q75-OPERATION-ATTRIBUTION"]
+
+[[statement]]
+id = "STMT-OPERATING-ONLY-OF-BEING-IN-ACT"
+lean = "OperatingOnlyOfBeingInAct"
+paraphrase = "OPEN generic operari sequitur esse: whatever operates, transiently or immanently, is in act in some respect. The pinned q.75 a.2 reading STMT-AQUINAS-OPERATION-ONLY-OF-BEING-IN-ACT is stated only of causing another; this is the analyst's extension to operating as such."
+definitions = ["DEF-OPERATING-AGENT", "DEF-ACT"]
+disambiguations = ["DISAMB-IN-ACT"]
+
+[[statement]]
+id = "STMT-INTELLECTUAL-EXERCISER-HAS-POWER"
+lean = "IntellectualExerciserHasPowerAt"
+paraphrase = "OPEN analyst premise: whoever is attributed an intellectual exercise has causal (active) power at the selected world."
+definitions = ["DEF-Q75-OPERATION-ATTRIBUTION", "DEF-POWER-CAPACITY-READING"]
+
+[[statement]]
+id = "STMT-INTELLECTUAL-EXERCISE-PRODUCES-AT"
+lean = "IntellectualExerciseProducesAt"
+paraphrase = "OPEN and contested analyst premise: whoever is attributed an intellectual exercise causes something at the selected world (the inner word or concept). Aquinas calls understanding an immanent action, which this premise treats as also a causing of another."
+definitions = ["DEF-Q75-OPERATION-ATTRIBUTION", "DEF-KANT-ONTOLOGICAL-MODEL"]
+
+[[statement]]
+id = "STMT-INTELLECTUAL-EXERCISER-EXISTS-AT"
+lean = "IntellectualExerciserExistsAt"
+paraphrase = "OPEN analyst premise: whoever is attributed an intellectual exercise exists at the selected world."
+definitions = ["DEF-Q75-OPERATION-ATTRIBUTION", "DEF-KANT-ONTOLOGICAL-MODEL"]
+disambiguations = ["DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE"]
+
+# ---- Map 3: occurring thought is intellectual exercise ----
+
+[[statement]]
+id = "STMT-OCCURRING-THOUGHT-IS-INTELLECTIVE"
+lean = "OccurringThoughtIsIntellective"
+paraphrase = "OPEN analyst premise: every occurring thought episode is intellective (an act of understanding or judging, not a mere sensation or feeling). False on Descartes's broad reading of cogitatio, which counts sensing as thinking."
+definitions = ["DEF-INTELLECTIVE-EPISODE", "DEF-THOUGHT-OCCURRENCE"]
+
+[[statement]]
+id = "STMT-BEARING-INTELLECTIVE-EPISODE-IS-EXERCISE"
+lean = "BearingIntellectiveEpisodeIsExercise"
+paraphrase = "OPEN analyst premise: whoever bears an intellective episode is attributed it as an intellectual exercise."
+definitions = ["DEF-INTELLECTIVE-EPISODE", "DEF-THOUGHT-BEARER", "DEF-Q75-OPERATION-ATTRIBUTION"]
+
+[[statement]]
+id = "STMT-OPINING-BORNE-CONTENT-IS-INTELLECTUAL-EXERCISE"
+lean = "OpiningBorneContentIsIntellectualExercise"
+paraphrase = "OPEN analyst premise: whoever bears an episode and opines its content exercises intellect in that episode (judging is an act of intellect). DEF-OPINING includes phantasia, so whoever places imagination in sense contests it."
+definitions = ["DEF-OPINING", "DEF-THOUGHT-BEARER", "DEF-Q75-OPERATION-ATTRIBUTION"]
+
+# ---- Map 4: the bearer exists at the selected world ----
+
+[[statement]]
+id = "STMT-ACT-OF-ESSE-SUFFICES-FOR-EXISTENCE-AT"
+lean = "ActOfEsseSufficesForExistenceAt"
+paraphrase = "OPEN converse of STMT-EXISTING-IN-ACT-AT: whatever is in act of esse exists at the selected world. InAct is not world-indexed, so this reads esse relative to the selected world; the esse-profile specialization (TruthCore.Logic.CogitoEsse) does not assert it."
+definitions = ["DEF-ACT", "DEF-ESSE", "DEF-KANT-ONTOLOGICAL-MODEL"]
+disambiguations = ["DISAMB-EXISTENCE-ESSE-SUPPORT", "DISAMB-IN-ACT"]
+
+[[statement]]
+id = "STMT-OCCURRING-THOUGHT-OCCURS-AT-WORLD"
+lean = "OccurringThoughtOccursAt"
+paraphrase = "OPEN analyst premise: every occurring thought episode occurs at the selected world (the world-indexing step the unindexed Occurs lacks)."
+definitions = ["DEF-EPISODE-OCCURS-AT", "DEF-THOUGHT-OCCURRENCE"]
+disambiguations = ["DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE"]
+
+[[statement]]
+id = "STMT-BEARER-EXISTS-WHERE-EPISODE-OCCURS"
+lean = "BearerExistsWhereEpisodeOccurs"
+paraphrase = "OPEN analyst premise: at any world, whoever bears an episode that occurs at that world exists at that world."
+definitions = ["DEF-EPISODE-OCCURS-AT", "DEF-THOUGHT-BEARER", "DEF-KANT-ONTOLOGICAL-MODEL"]
+disambiguations = ["DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE"]
+
+# ---- Map 5: the bearer principle ----
+
+[[statement]]
+id = "STMT-OCCURRING-THOUGHT-IS-MODIFICATION"
+lean = "OccurringThoughtIsModification"
+paraphrase = "OPEN analyst premise: every occurring thought episode is a modification (a mode or accident), not a self-standing thing. Denied by bundle and event ontologies of the mind."
+definitions = ["DEF-EPISODE-MODIFICATION", "DEF-THOUGHT-OCCURRENCE"]
+
+[[statement]]
+id = "STMT-NO-MODIFICATION-WITHOUT-BEARER"
+lean = "NoModificationWithoutBearer"
+paraphrase = "OPEN analyst premise: every modification is borne by something (nothingness has no properties)."
+definitions = ["DEF-EPISODE-MODIFICATION", "DEF-THOUGHT-BEARER"]
+
+[[statement]]
+id = "STMT-OCCURRING-THOUGHT-IS-OPERATION"
+lean = "OccurringThoughtIsOperation"
+paraphrase = "OPEN analyst premise: every occurring thought episode is an operation (an activity someone does, not a mere happening)."
+definitions = ["DEF-OPERATING-AGENT", "DEF-THOUGHT-OCCURRENCE"]
+
+[[statement]]
+id = "STMT-EVERY-OPERATION-HAS-AGENT"
+lean = "EveryOperationHasAgent"
+paraphrase = "OPEN analyst premise: every operation has an agent whose operation it is."
+definitions = ["DEF-EPISODE-AGENT", "DEF-OPERATING-AGENT"]
+
+[[statement]]
+id = "STMT-AGENT-OF-EPISODE-BEARS-IT"
+lean = "AgentOfEpisodeBearsIt"
+paraphrase = "OPEN analyst premise: the agent of an episode bears it."
+definitions = ["DEF-EPISODE-AGENT", "DEF-THOUGHT-BEARER"]
+
+[[statement]]
+id = "STMT-ROUND2-EXISTENCE-ACT-CONTROLS"
+lean = "Control.Certificate"
+paraphrase = "Finite interpretations for the fourteen derivations of round 2 (existence and act): for each premise other than excluded middle, a one-element (or two-respect) model in which the other premises hold and the conclusion fails, and one joint model in which a thought occurs, its bearer exists, exercises intellect, opines, causes and is in act of esse, and every premise and conclusion of the batch holds. Satisfiability and omission only; no model is claimed to describe reality."
+definitions = ["DEF-ACT", "DEF-ESSE", "DEF-KANT-ONTOLOGICAL-MODEL", "DEF-Q75-OPERATION-ATTRIBUTION", "DEF-THOUGHT-OCCURRENCE", "DEF-THOUGHT-BEARER", "DEF-MERELY-POSSIBLE-CANDIDATE", "DEF-OPERATING-AGENT", "DEF-INTELLECTIVE-EPISODE", "DEF-EPISODE-OCCURS-AT", "DEF-EPISODE-MODIFICATION", "DEF-EPISODE-AGENT"]
+disambiguations = ["DISAMB-IN-ACT", "DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE"]
+
+# ---- Arguments ----
+
+[[argument]]
+id = "EXISTING-IN-ACT-AT-FROM-SOME-ACTUALITY"
+theorem = "existingInActAtFromSomeAct"
+premises = ["STMT-EXISTENT-IS-IN-ACT-IN-SOME-RESPECT", "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING"]
+conclusion = "STMT-EXISTING-IN-ACT-AT"
+rule = "Universal instantiation, existential elimination, modus ponens"
+meaning = "Derives the selected-world esse contract (every existent at w is in act of esse) from the OPEN premise that every existent at w is in act in some respect and the q.4 a.1 ad 3 reading that whatever is in act in some respect is in act of esse. Only the one-way contract follows; existence from esse is not derived."
+
+[[argument]]
+id = "EXISTING-IN-ACT-AT-FROM-ELEATIC-POWER"
+theorem = "existingInActAtFromEleaticPower"
+premises = ["STMT-EVERY-EXISTENT-HAS-CAUSAL-POWER", "STMT-AQUINAS-ACTIVE-POWER-ONLY-IN-ACT", "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING"]
+conclusion = "STMT-EXISTING-IN-ACT-AT"
+rule = "Universal instantiation, existential elimination, modus ponens"
+meaning = "Derives the esse contract through the OPEN Eleatic principle (every existent at w has causal power), the q.25 a.1 reading (whatever has active power is in act in some respect) and the q.4 a.1 ad 3 reading (act in some respect implies act of esse). A Platonist about causally inert abstracta rejects the Eleatic premise, not the derivation."
+
+[[argument]]
+id = "EXISTING-IN-ACT-AT-FROM-MERE-POSSIBILITY"
+theorem = "existingInActAtFromMerePossibility"
+premises = ["STMT-EXCLUDED-MIDDLE", "STMT-LACKING-ESSE-IS-MERELY-POSSIBLE", "STMT-MERELY-POSSIBLE-DOES-NOT-EXIST-AT"]
+conclusion = "STMT-EXISTING-IN-ACT-AT"
+rule = "Proof by cases (excluded middle), modus tollens"
+meaning = "Derives the esse contract classically: for an existent x at w, either x is in act of esse, or it is not, in which case it is merely possible (OPEN) and so does not exist at w (OPEN), contradicting its existence. Excluded middle on InAct x esse is used and is listed as a premise."
+
+[[argument]]
+id = "EXISTENT-IN-ACT-FROM-ELEATIC-POWER"
+theorem = "existentInActFromEleaticPower"
+premises = ["STMT-EVERY-EXISTENT-HAS-CAUSAL-POWER", "STMT-AQUINAS-ACTIVE-POWER-ONLY-IN-ACT"]
+conclusion = "STMT-EXISTENT-IS-IN-ACT-IN-SOME-RESPECT"
+rule = "Universal instantiation, modus ponens"
+meaning = "The intermediate step of the Eleatic route: from the OPEN Eleatic principle and the q.25 a.1 reading, every existent at w is in act in some respect (no respect named)."
+
+[[argument]]
+id = "INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-OPERATING"
+theorem = "intellectualExerciseRequiresActFromOperating"
+premises = ["STMT-INTELLECTUAL-EXERCISE-IS-OPERATING", "STMT-OPERATING-ONLY-OF-BEING-IN-ACT"]
+conclusion = "STMT-INTELLECTUAL-EXERCISE-REQUIRES-ACT"
+rule = "Universal instantiation, modus ponens"
+meaning = "Every attributed intellectual exercise requires its bearer to be in act in some respect, from two OPEN premises: whoever exercises intellect operates, and whatever operates is in act in some respect (the generic, not only transient, operari sequitur esse)."
+
+[[argument]]
+id = "INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-ACTIVE-POWER"
+theorem = "intellectualExerciseRequiresActFromActivePower"
+premises = ["STMT-INTELLECTUAL-EXERCISER-HAS-POWER", "STMT-AQUINAS-ACTIVE-POWER-ONLY-IN-ACT"]
+conclusion = "STMT-INTELLECTUAL-EXERCISE-REQUIRES-ACT"
+rule = "Universal instantiation, modus ponens"
+meaning = "From the OPEN premise that whoever exercises intellect has active power at w and the q.25 a.1 reading that whatever has active power at w is in act in some respect."
+
+[[argument]]
+id = "INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-PRODUCTION"
+theorem = "intellectualExerciseRequiresActFromProduction"
+premises = ["STMT-INTELLECTUAL-EXERCISE-PRODUCES-AT", "STMT-AQUINAS-OPERATION-ONLY-OF-BEING-IN-ACT"]
+conclusion = "STMT-INTELLECTUAL-EXERCISE-REQUIRES-ACT"
+rule = "Universal instantiation, existential elimination, modus ponens"
+meaning = "From the OPEN and contested premise that whoever exercises intellect causes something at w (the inner word) and the q.75 a.2 reading that whatever causes something at w is in act in some respect. Reuses the pinned reading exactly as it is stated (of causing another); whoever holds understanding to be purely immanent rejects the production premise."
+
+[[argument]]
+id = "INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-EXISTENCE"
+theorem = "intellectualExerciseRequiresActFromExistence"
+premises = ["STMT-INTELLECTUAL-EXERCISER-EXISTS-AT", "STMT-EXISTING-IN-ACT-AT"]
+conclusion = "STMT-INTELLECTUAL-EXERCISE-REQUIRES-ACT"
+rule = "Universal instantiation, modus ponens, existential introduction"
+meaning = "Composes with the esse contract: whoever exercises intellect exists at w (OPEN), and every existent at w is in act of esse, so the exerciser is in act in some respect, namely esse."
+
+[[argument]]
+id = "COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE-FROM-INTELLECTIVE-EPISODE"
+theorem = "thoughtIsExerciseFromIntellective"
+premises = ["STMT-OCCURRING-THOUGHT-IS-INTELLECTIVE", "STMT-BEARING-INTELLECTIVE-EPISODE-IS-EXERCISE"]
+conclusion = "STMT-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE"
+rule = "Universal instantiation, modus ponens"
+meaning = "Every bearer of an occurring thought is attributed it as an intellectual exercise, from two OPEN premises: every occurring thought is intellective, and bearing an intellective episode is exercising intellect in it. The first fails on Descartes's broad cogitatio, which includes sensing."
+
+[[argument]]
+id = "COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE-FROM-OPINING"
+theorem = "thoughtIsExerciseFromOpining"
+premises = ["STMT-COGITO-BORNE-THOUGHT-IS-OPINING", "STMT-OPINING-BORNE-CONTENT-IS-INTELLECTUAL-EXERCISE"]
+conclusion = "STMT-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE"
+rule = "Universal instantiation, modus ponens"
+meaning = "Reuses the motion fork's open bridge (whoever bears an occurring thought opines its content) with the OPEN premise that a bearer opining the content of its episode exercises intellect in it. Joins the Cogito motion fork to the operation route."
+
+[[argument]]
+id = "COGITO-BEARER-EXISTS-FROM-OPERATION-AND-ESSE"
+theorem = "bearerExistsFromOperationAndEsse"
+premises = ["STMT-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE", "STMT-INTELLECTUAL-EXERCISE-REQUIRES-ACT", "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING", "STMT-ACT-OF-ESSE-SUFFICES-FOR-EXISTENCE-AT"]
+conclusion = "STMT-COGITO-BEARER-EXISTS-AT-WORLD"
+rule = "Universal instantiation, existential elimination, modus ponens"
+meaning = "Every bearer of an occurring thought exists at the selected world w: the bearer exercises intellect in it, intellectual exercise requires act in some respect, act in some respect implies act of esse (q.4 a.1 ad 3 reading), and act of esse suffices for existence at w (OPEN converse of the esse contract). The last premise carries the world-indexing; without it the bearer may be in act of esse and fail to exist at w."
+
+[[argument]]
+id = "COGITO-BEARER-EXISTS-FROM-WORLD-INDEXED-OCCURRENCE"
+theorem = "bearerExistsFromWorldIndexedOccurrence"
+premises = ["STMT-OCCURRING-THOUGHT-OCCURS-AT-WORLD", "STMT-BEARER-EXISTS-WHERE-EPISODE-OCCURS"]
+conclusion = "STMT-COGITO-BEARER-EXISTS-AT-WORLD"
+rule = "Universal instantiation, modus ponens"
+meaning = "Every bearer of an occurring thought exists at w, from two OPEN premises: every occurring episode occurs at w, and at any world whoever bears an episode occurring there exists there."
+
+[[argument]]
+id = "EVERY-THOUGHT-HAS-SUBJECT-FROM-MODIFICATION"
+theorem = "everyThoughtHasSubjectFromModification"
+premises = ["STMT-OCCURRING-THOUGHT-IS-MODIFICATION", "STMT-NO-MODIFICATION-WITHOUT-BEARER"]
+conclusion = "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT"
+rule = "Universal instantiation, modus ponens"
+meaning = "The bearer principle from two OPEN premises: every occurring thought is a modification, and no modification is without a bearer. Bundle theories reject the first; nothing here makes the bearer unique, substantial or enduring."
+
+[[argument]]
+id = "EVERY-THOUGHT-HAS-SUBJECT-FROM-AGENCY"
+theorem = "everyThoughtHasSubjectFromAgency"
+premises = ["STMT-OCCURRING-THOUGHT-IS-OPERATION", "STMT-EVERY-OPERATION-HAS-AGENT", "STMT-AGENT-OF-EPISODE-BEARS-IT"]
+conclusion = "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT"
+rule = "Universal instantiation, existential elimination, modus ponens"
+meaning = "The bearer principle from three OPEN premises: every occurring thought is an operation, every operation has an agent, and the agent of an episode bears it. An event ontology of thinking without agents rejects the first."
+
+[[argument]]
+id = "ROUND2-EXISTENCE-ACT-CONTROLS"
+theorem = "controls"
+premises = []
+conclusion = "STMT-ROUND2-EXISTENCE-ACT-CONTROLS"
+rule = "Explicit finite interpretations"
+meaning = "Finite interpretations for the fourteen derivations of round 2: for each premise other than excluded middle, a hand-written Unit (or two-respect Bool) model, checked by decide without axioms, in which the other premises hold and the conclusion fails; and one joint model in which a thought occurs and its bearer exists, exercises intellect, opines, causes and is in act of esse, with every premise and conclusion of the batch holding. Satisfiability and omission only; no model is claimed to describe reality."
+
+# ---- Supports relations (claim bears on, does not state) ----
+
+[[relation]]
+id = "REL-Q75-A2-OPERARI-SUPPORTS-OPERATING-ONLY-OF-BEING-IN-ACT"
+subject_kind = "claim"
+subject_id = "AQUINAS-ST-I-Q75-A2-OPERARI-ENTIS-IN-ACTU"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-OPERATING-ONLY-OF-BEING-IN-ACT"
+note = "Q.75 a.2 co. says 'non enim est operari nisi entis in actu'; the claim reads it only of causing another (its example: the hot thing heats). The premise states it of operating as such, including immanent operation such as understanding; that extension is the analyst's."
+
+[[relation]]
+id = "REL-Q4-A1-AD3-ACTUALITY-SUPPORTS-EXISTENT-IN-ACT"
+subject_kind = "claim"
+subject_id = "AQUINAS-ST-I-Q4-A1-AD3-ACTUALITY-AS-BEING-A"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-EXISTENT-IS-IN-ACT-IN-SOME-RESPECT"
+note = "Q.4 a.1 ad 3 calls esse 'actualitas omnium rerum'; the claim formalizes only the direction from act to esse. The premise uses the other direction, from existence at the selected world to act in some respect; reading the Ontic existence assignment as esse in re is the analyst's."

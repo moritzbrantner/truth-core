@@ -1,0 +1,9 @@
+{
+  "id": "STMT-NO-MODIFICATION-WITHOUT-BEARER",
+  "paraphrase": "OPEN analyst premise: every modification is borne by something (nothingness has no properties).",
+  "lean_declaration": "TruthCore.Causality.Round2ExistenceAct.NoModificationWithoutBearer",
+  "definition_ids": [
+    "DEF-EPISODE-MODIFICATION",
+    "DEF-THOUGHT-BEARER"
+  ]
+}

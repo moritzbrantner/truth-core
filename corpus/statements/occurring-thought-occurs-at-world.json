@@ -1,0 +1,12 @@
+{
+  "id": "STMT-OCCURRING-THOUGHT-OCCURS-AT-WORLD",
+  "paraphrase": "OPEN analyst premise: every occurring thought episode occurs at the selected world (the world-indexing step the unindexed Occurs lacks).",
+  "lean_declaration": "TruthCore.Causality.Round2ExistenceAct.OccurringThoughtOccursAt",
+  "definition_ids": [
+    "DEF-EPISODE-OCCURS-AT",
+    "DEF-THOUGHT-OCCURRENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE"
+  ]
+}

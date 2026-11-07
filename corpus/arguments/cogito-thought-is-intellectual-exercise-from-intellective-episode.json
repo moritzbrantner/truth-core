@@ -1,0 +1,23 @@
+{
+  "id": "COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE-FROM-INTELLECTIVE-EPISODE",
+  "premise_statement_ids": [
+    "STMT-OCCURRING-THOUGHT-IS-INTELLECTIVE",
+    "STMT-BEARING-INTELLECTIVE-EPISODE-IS-EXERCISE"
+  ],
+  "conclusion_statement_id": "STMT-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE",
+  "inference_ids": [
+    "INF-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE-FROM-INTELLECTIVE-EPISODE"
+  ],
+  "meaning": "Every bearer of an occurring thought is attributed it as an intellectual exercise, from two OPEN premises: every occurring thought is intellective, and bearing an intellective episode is exercising intellect in it. The first fails on Descartes's broad cogitatio, which includes sensing.",
+  "definition_ids": [
+    "DEF-COGITO-THINKING-AS-INTELLECTUAL-EXERCISE",
+    "DEF-INTELLECTIVE-EPISODE",
+    "DEF-Q75-OPERATION-ATTRIBUTION",
+    "DEF-THOUGHT-BEARER",
+    "DEF-THOUGHT-OCCURRENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT",
+    "DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE"
+  ]
+}
