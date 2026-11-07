@@ -1,0 +1,61 @@
+# Round 3 map: some concrete candidate exists at the selected world.
+target = "STMT-COGITO-INHABITED-CONCRETE-WORLD"
+
+[[node]]
+id = "STMT-COGITO-INHABITED-CONCRETE-WORLD"
+
+[[node]]
+id = "STMT-COGITO-THOUGHT-OCCURS"
+
+[[node]]
+id = "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT"
+
+[[node]]
+id = "STMT-COGITO-BEARER-IS-CONCRETE"
+
+[[node]]
+id = "STMT-COGITO-BEARER-EXISTS-AT-WORLD"
+
+[[node]]
+id = "STMT-SELECTED-ACTUAL-CONCRETE"
+
+[[node]]
+id = "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD"
+
+[[node]]
+id = "NEW-WHATEVER-IS-MOVED-IS-ACTUAL-CONCRETE-AT-W0"
+new = true
+text = "Whatever is moved in some respect is a concrete candidate existing at the selected world."
+
+[[node]]
+id = "NEW-CONCRETENESS-CRITERION-FOR-ACTS"
+new = true
+text = "A typed criterion of concreteness (causal efficacy or spatiotemporal location) that a performed act or occurring episode can satisfy, so that concreteness of the thinker is derived rather than bridged."
+
+[[edge]]
+premises = ["STMT-COGITO-THOUGHT-OCCURS", "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT", "STMT-COGITO-BEARER-IS-CONCRETE", "STMT-COGITO-BEARER-EXISTS-AT-WORLD"]
+conclusion = "STMT-COGITO-INHABITED-CONCRETE-WORLD"
+kind = "derivation"
+status = "certified"
+note = "Existing COGITO-INHABITED-CONCRETE-WORLD, declared an instantiation transcription by its author. THOUGHT-OCCURS now has a derivation (COGITO-THOUGHT-OCCURS-FROM-PERFORMED-DOUBT)."
+
+[[edge]]
+premises = ["STMT-SELECTED-ACTUAL-CONCRETE"]
+conclusion = "STMT-COGITO-INHABITED-CONCRETE-WORLD"
+kind = "derivation"
+status = "rejected"
+note = "Existential introduction only (assembly); see ATTEMPT-ROUND3-COGITO-BASE-REJECTED-EDGES."
+
+[[edge]]
+premises = ["STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD", "NEW-WHATEVER-IS-MOVED-IS-ACTUAL-CONCRETE-AT-W0"]
+conclusion = "STMT-COGITO-INHABITED-CONCRETE-WORLD"
+kind = "bridge"
+status = "rejected"
+note = "The bridge's consequent is the conclusion at the moved witness: a transcription."
+
+[[edge]]
+premises = ["STMT-COGITO-THOUGHT-OCCURS", "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT", "NEW-CONCRETENESS-CRITERION-FOR-ACTS", "STMT-COGITO-BEARER-EXISTS-AT-WORLD"]
+conclusion = "STMT-COGITO-INHABITED-CONCRETE-WORLD"
+kind = "derivation"
+status = "mapped"
+note = "Open lead: needs vocabulary in which concreteness is a typed criterion (blocker recorded in ATTEMPT-ROUND3-COGITO-BASE-REJECTED-EDGES)."

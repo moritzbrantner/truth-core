@@ -1,0 +1,10 @@
+{
+  "id": "COGITO-PERFORMED-DOUBT-SELF-REFUTING",
+  "argument_id": "COGITO-PERFORMED-DOUBT-SELF-REFUTING",
+  "challenge_module": "TruthCore.Results.Causality.Round3CogitoBase.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round3CogitoBase.Solution",
+  "theorem": "TruthCore.Results.Causality.Round3CogitoBase.performedDoubtSelfRefuting",
+  "comparator_config": "results/COGITO-PERFORMED-DOUBT-SELF-REFUTING/comparator.json",
+  "status": "solution-present",
+  "description": "The retorsion step: if every performed doubt whether thought occurs is realized by an occurring thought (OPEN), then performing such a doubt falsifies its content 'no thought episode occurs'. It does not assert that any doubt is performed; an unperformed doubt can be true (EmptyEpisodeControl)."
+}

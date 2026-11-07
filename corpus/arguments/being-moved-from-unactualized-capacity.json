@@ -1,0 +1,27 @@
+{
+  "id": "BEING-MOVED-FROM-UNACTUALIZED-CAPACITY",
+  "premise_statement_ids": [
+    "STMT-BEING-MOVED-IS-ACTUALIZATION-OF-UNACTUALIZED-CAPACITY",
+    "STMT-POTENCY-IS-UNACTUALIZED-CAPACITY"
+  ],
+  "conclusion_statement_id": "STMT-BEING-MOVED-IS-ACTUALIZATION-OF-POTENCY",
+  "inference_ids": [
+    "INF-BEING-MOVED-FROM-UNACTUALIZED-CAPACITY"
+  ],
+  "meaning": "Being moved is the actualization of an unactualized capacity (OPEN), and potency is unactualized capacity (Metaphysics IX.6 reading, stated); hence being moved is the actualization of a potency, the Physics III.1 reading. Middle term: unactualized capacity. Composes with POTENCY-IS-UNACTUALIZED-CAPACITY-FROM-PRIVATION.",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-ACTUALIZATION-QUA-POTENTIAL",
+    "DEF-CAPACITY-TO-BE",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-POTENCY",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MOTION",
+    "DISAMB-POTENCY"
+  ],
+  "strong_version_needed": {
+    "STMT-POTENCY-IS-UNACTUALIZED-CAPACITY": "Both directions of the potency analysis are used at every being and respect: unactualized capacity to potency for the forward direction of the conclusion, and potency to unactualized capacity for the converse, including at tuples that are not moved. The weak version STMT-MOVED-TUPLE-POTENCY-HAS-UNACTUALIZED-CAPACITY gives only the second direction, only at moved tuples."
+  }
+}

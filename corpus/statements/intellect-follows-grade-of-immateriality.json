@@ -1,0 +1,12 @@
+{
+  "id": "STMT-INTELLECT-FOLLOWS-GRADE-OF-IMMATERIALITY",
+  "paraphrase": "OPEN analyst reading of 'the mode of knowledge follows the mode of immateriality': having intellect (the primitive power HasIntellect, not an actual reception of forms) is closed upward along grades of immateriality: whatever is at least as immaterial as something with intellect has intellect. If abstract objects rank at least as high as an intellectual being, it gives them intellect; whoever denies that rejects this premise.",
+  "lean_declaration": "TruthCore.Causality.Round4Revisited.IntellectFollowsGradeOfImmateriality",
+  "definition_ids": [
+    "DEF-HAS-INTELLECT",
+    "DEF-GRADE-OF-IMMATERIALITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-Q14-RECEPTION-SENSES"
+  ]
+}

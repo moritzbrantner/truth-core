@@ -1,0 +1,22 @@
+# Round 3 map: the selected being is an actual concretum.
+target = "STMT-SELECTED-ACTUAL-CONCRETE"
+
+[[node]]
+id = "STMT-SELECTED-ACTUAL-CONCRETE"
+
+# New this round (bare, OPEN).
+[[node]]
+id = "STMT-SELECTED-BEARS-OCCURRING-THOUGHT"
+
+[[node]]
+id = "STMT-COGITO-BEARER-IS-CONCRETE"
+
+[[node]]
+id = "STMT-COGITO-BEARER-EXISTS-AT-WORLD"
+
+[[edge]]
+premises = ["STMT-SELECTED-BEARS-OCCURRING-THOUGHT", "STMT-COGITO-BEARER-IS-CONCRETE", "STMT-COGITO-BEARER-EXISTS-AT-WORLD"]
+conclusion = "STMT-SELECTED-ACTUAL-CONCRETE"
+kind = "derivation"
+status = "certified"
+note = "Certified as SELECTED-ACTUAL-CONCRETE-FROM-BORNE-THOUGHT (Darii twice through the borne episode)."

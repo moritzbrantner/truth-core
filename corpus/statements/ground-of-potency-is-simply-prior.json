@@ -1,0 +1,12 @@
+{
+  "id": "STMT-GROUND-OF-POTENCY-IS-SIMPLY-PRIOR",
+  "paraphrase": "OPEN analyst premise: whatever grounds a thing's potency is simply prior to that thing (simple, not temporal, priority).",
+  "lean_declaration": "TruthCore.Causality.Round4Revisited.GroundOfPotencyIsSimplyPrior",
+  "definition_ids": [
+    "DEF-POTENCY-GROUND",
+    "DEF-SIMPLE-PRIORITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"
+  ]
+}

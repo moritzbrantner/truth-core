@@ -1,0 +1,11 @@
+{
+  "id": "INF-SELECTED-CONE-WF-FROM-GLOBAL-WF",
+  "input_statement_ids": [
+    "STMT-ACTUAL-GROUNDING-WF"
+  ],
+  "output_statement_id": "STMT-SELECTED-CONE-WELL-FOUNDED",
+  "rule": "Restriction of a well-founded relation to a subtype",
+  "meaning": "Strength order: well-founded grounding on all actual concreta restricts to well-founded grounding on the selected cone, whose members are actual concreta (scopeComparison). The strong, global version is the only premise and stays open.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

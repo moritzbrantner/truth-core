@@ -1,0 +1,9 @@
+{
+  "id": "REL-PHYS-191B-PRIVATION-SUPPORTS-POTENCY-UNDER-PRIVATION",
+  "subject_kind": "claim",
+  "subject_id": "ARIST-PHYS-191B-QUALIFIED-PRIVATION-A",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-POTENCY-IS-CAPACITY-UNDER-PRIVATION",
+  "note": "Physics I.8, 191b13-17 lets generation come incidentally from privation, non-being in its own respect, in a subject. It bears on the premise by pairing subject and privation as the starting point of change; that being in potency to r is exactly being capable of r and deprived of it is the analyst's identification, not stated in the passage."
+}

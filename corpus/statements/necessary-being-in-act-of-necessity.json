@@ -1,0 +1,13 @@
+{
+  "id": "STMT-NECESSARY-BEING-IN-ACT-OF-NECESSITY",
+  "paraphrase": "OPEN and contested analyst premise: every necessary being is in act in a respect nec, its necessity, read as a perfection it actually has. Whoever takes necessity to be a mode of being rather than a perfection denies it.",
+  "lean_declaration": "TruthCore.Causality.Round4Revisited.NecessaryBeingInActOfNecessity",
+  "definition_ids": [
+    "DEF-NECESSARY-BEING",
+    "DEF-NECESSITY-AS-PERFECTION",
+    "DEF-ACT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT"
+  ]
+}

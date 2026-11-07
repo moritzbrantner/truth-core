@@ -1,0 +1,37 @@
+{
+  "id": "SELECTED-CONE-WF-FROM-GLOBAL-WF",
+  "premise_statement_ids": [
+    "STMT-ACTUAL-GROUNDING-WF"
+  ],
+  "conclusion_statement_id": "STMT-SELECTED-CONE-WELL-FOUNDED",
+  "inference_ids": [
+    "INF-SELECTED-CONE-WF-FROM-GLOBAL-WF"
+  ],
+  "meaning": "Strength order: well-founded grounding on all actual concreta restricts to well-founded grounding on the selected cone, whose members are actual concreta (scopeComparison). The strong, global version is the only premise and stays open.",
+  "definition_ids": [
+    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
+    "DEF-ACTUAL-GROUNDING-WF",
+    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+    "DEF-CONCRETE-ESSE-IN-RE",
+    "DEF-INHABITED-CONCRETE-WORLD",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
+    "DEF-NONNECESSARY-ROOT",
+    "DEF-SELECTED-ANCESTRY-CONE",
+    "DEF-SELECTED-CONE-CONTINGENT-GROUNDED",
+    "DEF-SELECTED-CONE-WELL-FOUNDED",
+    "DEF-SELECTED-NECESSARY-ROOT-ANCESTOR"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
+    "DISAMB-NONNECESSARY-VS-CONTINGENT-ROOT",
+    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
+    "DISAMB-NECESSARY"
+  ]
+}

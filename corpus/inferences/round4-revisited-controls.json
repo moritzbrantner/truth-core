@@ -1,0 +1,9 @@
+{
+  "id": "INF-ROUND4-REVISITED-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-ROUND4-REVISITED-CONTROLS",
+  "rule": "Explicit finite interpretations",
+  "meaning": "Finite interpretations for the nine derivations of round 4: for each premise other than excluded middle, a hand-written Unit or Bool model, checked by decide without axioms, in which the other premises hold and the conclusion fails (33 omission models); and one joint nonvacuity witness in which every premise and conclusion of the batch holds with populated antecedents. Satisfiability and omission only; no model is claimed to describe reality.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

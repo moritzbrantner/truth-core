@@ -1,0 +1,12 @@
+{
+  "id": "INF-POTENCY-IS-UNACTUALIZED-CAPACITY-FROM-PRIVATION",
+  "input_statement_ids": [
+    "STMT-POTENCY-IS-CAPACITY-UNDER-PRIVATION",
+    "STMT-PRIVATION-IS-LACK-OF-ACT-IN-CAPABLE"
+  ],
+  "output_statement_id": "STMT-POTENCY-IS-UNACTUALIZED-CAPACITY",
+  "rule": "Biconditional chaining through a middle term",
+  "meaning": "Potency is capacity under privation (OPEN), and in a capable subject privation is lack of the act (OPEN); hence potency is unactualized capacity, the Metaphysics IX.6 reading. Middle term: privation. It routes the act/potency analysis through the Physics I subject-privation analysis; both premises stay open.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

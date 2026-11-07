@@ -1,0 +1,11 @@
+{
+  "id": "CAUSE-OF-NECESSARY-BEING-FROM-PERFECTION",
+  "argument_id": "CAUSE-OF-NECESSARY-BEING-FROM-PERFECTION",
+  "challenge_module": "TruthCore.Results.Causality.Round4Revisited.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round4Revisited.Solution",
+  "theorem": "TruthCore.Results.Causality.Round4Revisited.necessityFromPerfection",
+  "comparator_config": "results/CAUSE-OF-NECESSARY-BEING-FROM-PERFECTION/comparator.json",
+  "status": "solution-present",
+  "description": "Transcription (single application): the proof applies the causing-in-necessity premise, whose consequent is the conclusion's, after the other two premises supply its antecedent, so under invariant 16 it does not expand the target. Through the existing open premise that the cause of a thing's being causes each perfection it is in act of, with two OPEN premises: a necessary being is in act of its necessity read as a perfection (contested: necessity may be a mode, not a perfection), and causing a thing in that respect causes its necessity.",
+  "transcription": "single_application"
+}

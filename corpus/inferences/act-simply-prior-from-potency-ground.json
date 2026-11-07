@@ -1,0 +1,13 @@
+{
+  "id": "INF-ACT-SIMPLY-PRIOR-FROM-POTENCY-GROUND",
+  "input_statement_ids": [
+    "STMT-POTENCY-HAS-GROUND",
+    "STMT-GROUND-OF-POTENCY-IS-IN-ACT",
+    "STMT-GROUND-OF-POTENCY-IS-SIMPLY-PRIOR"
+  ],
+  "output_statement_id": "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY",
+  "rule": "Universal instantiation, existential elimination, conjunction introduction",
+  "meaning": "Act's simple priority over every potency, idle potency included, from three OPEN premises: every potency has a ground, the ground of a potency in a respect is in act in that respect, and the ground of a thing's potency is simply prior to it. The q.3 a.1 reason (reduction only by a being in act) bears on the second premise only for potencies being reduced.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

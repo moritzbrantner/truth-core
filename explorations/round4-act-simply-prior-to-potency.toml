@@ -1,0 +1,57 @@
+# Round 4 revisited: act simply prior to potency, idle potency included.
+# Analyst formulations, attribution deferred.
+target = "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY"
+
+[[node]]
+id = "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY"
+
+[[node]]
+id = "STMT-EXCLUDED-MIDDLE"
+
+[[node]]
+id = "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-BEING-IN-ACT"
+
+[[node]]
+id = "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT"
+
+[[node]]
+id = "STMT-ACTUAL-MOVER-IS-SIMPLY-PRIOR"
+
+[[node]]
+id = "STMT-ACT-PRIOR-FROM-MOTION-FACTS"
+
+[[node]]
+id = "STMT-POTENCY-HAS-GROUND"
+
+[[node]]
+id = "STMT-GROUND-OF-POTENCY-IS-IN-ACT"
+
+[[node]]
+id = "STMT-GROUND-OF-POTENCY-IS-SIMPLY-PRIOR"
+
+[[node]]
+id = "STMT-IDLE-POTENCY-POSTERIOR-TO-ACT"
+
+[[edge]]
+premises = ["STMT-POTENCY-HAS-GROUND", "STMT-GROUND-OF-POTENCY-IS-IN-ACT", "STMT-GROUND-OF-POTENCY-IS-SIMPLY-PRIOR"]
+conclusion = "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY"
+kind = "derivation"
+status = "certified"
+argument = "ACT-SIMPLY-PRIOR-FROM-POTENCY-GROUND"
+note = "Ground route: covers idle potency through a dependence relation distinct from moving. Three OPEN premises; q.3 a.1 and SCG I.16 support two of them with gaps."
+
+[[edge]]
+premises = ["STMT-EXCLUDED-MIDDLE", "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-BEING-IN-ACT", "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT", "STMT-ACTUAL-MOVER-IS-SIMPLY-PRIOR", "STMT-IDLE-POTENCY-POSTERIOR-TO-ACT"]
+conclusion = "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY"
+kind = "derivation"
+status = "certified"
+argument = "ACT-SIMPLY-PRIOR-FROM-MOTION-FORK"
+note = "Motion fork: the moved case from existing prima via readings and the open mover-priority bridge; the idle case from the new OPEN idle-potency premise."
+
+[[edge]]
+premises = ["STMT-ACT-PRIOR-FROM-MOTION-FACTS"]
+conclusion = "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY"
+kind = "derivation"
+status = "rejected"
+note = "The formal fact's route needs 'every potency is being actualized', which contradicts any idle potency; the idle-potency premise replaces it in the motion fork."
+

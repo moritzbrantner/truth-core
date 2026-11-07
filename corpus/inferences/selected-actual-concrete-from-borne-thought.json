@@ -1,0 +1,13 @@
+{
+  "id": "INF-SELECTED-ACTUAL-CONCRETE-FROM-BORNE-THOUGHT",
+  "input_statement_ids": [
+    "STMT-SELECTED-BEARS-OCCURRING-THOUGHT",
+    "STMT-COGITO-BEARER-IS-CONCRETE",
+    "STMT-COGITO-BEARER-EXISTS-AT-WORLD"
+  ],
+  "output_statement_id": "STMT-SELECTED-ACTUAL-CONCRETE",
+  "rule": "Existential instantiation and universal instantiation (Darii, twice)",
+  "meaning": "The selected being bears an occurring thought episode (OPEN); every bearer of an occurring thought is concrete (OPEN) and exists at w (OPEN); hence the selected being is an actual concretum at w. Middle term: the occurring episode it bears. Concreteness and existence at w come from the two bearer bridges, which stay open.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

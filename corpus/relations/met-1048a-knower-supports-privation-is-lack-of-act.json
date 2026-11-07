@@ -1,0 +1,9 @@
+{
+  "id": "REL-MET-1048A-KNOWER-SUPPORTS-PRIVATION-IS-LACK-OF-ACT",
+  "subject_kind": "claim",
+  "subject_id": "ARIST-MET-1048A-POTENCY-AS-UNACTUALIZED-CAPACITY-A",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-PRIVATION-IS-LACK-OF-ACT-IN-CAPABLE",
+  "note": "Metaphysics IX.6, 1048a30-35: the knower who is not contemplating, if able to contemplate, is a knower potentially. It bears on the premise through a capable subject lacking the act; the passage does not use privation, and that privation in a capable subject is exactly the lack of the act is the analyst's."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "STMT-TWO-DISTINCT-CONSTITUENTS-MAKE-COMPOSITE",
+  "paraphrase": "OPEN component analysis of composition, sufficiency direction only: whatever has two distinct constituent principles is composite. It does not say that every composite has two constituents.",
+  "lean_declaration": "TruthCore.Causality.Round4Revisited.TwoDistinctConstituentsMakeComposite",
+  "definition_ids": [
+    "DEF-CONSTITUENT-PRINCIPLE",
+    "DEF-SIMPLE"
+  ]
+}

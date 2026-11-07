@@ -1,0 +1,13 @@
+{
+  "id": "INF-CAUSE-OF-NECESSARY-BEING-FROM-PERFECTION",
+  "input_statement_ids": [
+    "STMT-CAUSE-OF-BEING-CAUSES-EVERY-PERFECTION",
+    "STMT-NECESSARY-BEING-IN-ACT-OF-NECESSITY",
+    "STMT-CAUSING-IN-NECESSITY-CAUSES-NECESSITY"
+  ],
+  "output_statement_id": "STMT-CAUSE-OF-NECESSARY-BEING-CAUSES-ITS-NECESSITY",
+  "rule": "Universal instantiation, modus ponens",
+  "meaning": "Transcription (single application): the proof applies the causing-in-necessity premise, whose consequent is the conclusion's, after the other two premises supply its antecedent, so under invariant 16 it does not expand the target. Through the existing open premise that the cause of a thing's being causes each perfection it is in act of, with two OPEN premises: a necessary being is in act of its necessity read as a perfection (contested: necessity may be a mode, not a perfection), and causing a thing in that respect causes its necessity.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

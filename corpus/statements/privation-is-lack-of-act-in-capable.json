@@ -1,0 +1,11 @@
+{
+  "id": "STMT-PRIVATION-IS-LACK-OF-ACT-IN-CAPABLE",
+  "paraphrase": "OPEN analyst premise: in a subject capable of r, privation of r is exactly the lack of r in act: ∀ x r, CanBe x r → (Deprived x r ↔ ¬ InAct x r). It says nothing about incapable subjects (a mere negation is no privation).",
+  "lean_declaration": "TruthCore.Causality.Round3CogitoBase.PrivationIsLackOfActInCapable",
+  "definition_ids": [
+    "DEF-PRIVATION-IN-CAPABLE-SUBJECT",
+    "DEF-CAPACITY-TO-BE",
+    "DEF-ACT",
+    "DEF-RESPECT"
+  ]
+}

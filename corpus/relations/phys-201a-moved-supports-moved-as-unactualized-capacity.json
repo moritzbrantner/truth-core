@@ -1,0 +1,9 @@
+{
+  "id": "REL-PHYS-201A-MOVED-SUPPORTS-MOVED-AS-UNACTUALIZED-CAPACITY",
+  "subject_kind": "claim",
+  "subject_id": "ARIST-PHYS-201A-MOVED-AS-POTENCY-ACTUALIZED-C",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-BEING-MOVED-IS-ACTUALIZATION-OF-UNACTUALIZED-CAPACITY",
+  "note": "Physics III.1, 201a10-11 says motion is the actuality of the potential as such. The premise replaces 'the potential' by 'an unactualized capacity' (able to be r and not r in act), which is the Metaphysics IX.6 reading of potency, not something 201a10-11 states."
+}

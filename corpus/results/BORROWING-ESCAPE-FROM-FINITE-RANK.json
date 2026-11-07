@@ -1,0 +1,10 @@
+{
+  "id": "BORROWING-ESCAPE-FROM-FINITE-RANK",
+  "argument_id": "BORROWING-ESCAPE-FROM-FINITE-RANK",
+  "challenge_module": "TruthCore.Results.Causality.Round3CogitoBase.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round3CogitoBase.Solution",
+  "theorem": "TruthCore.Results.Causality.Round3CogitoBase.borrowingEscapeFromFiniteRank",
+  "comparator_config": "results/BORROWING-ESCAPE-FROM-FINITE-RANK/comparator.json",
+  "status": "solution-present",
+  "description": "The finite rank (OPEN) gives well-founded actual grounding (ACTUAL-GROUNDING-WF-FROM-FINITE-RANK), and with excluded middle the proved equivalence borrowingEscapeWFEquivalence turns that into the no-self-contained-borrowing cut: every nonempty set of actual concreta contains a source or the effect of a record whose contributors all lie outside it. It does not use STMT-ACTUAL-GROUNDING-WF as a premise, so it adds no cycle with ACTUAL-GROUNDING-WF-FROM-BORROWING-CUT."
+}

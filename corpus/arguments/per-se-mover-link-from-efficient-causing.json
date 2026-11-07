@@ -1,0 +1,27 @@
+{
+  "id": "PER-SE-MOVER-LINK-FROM-EFFICIENT-CAUSING",
+  "premise_statement_ids": [
+    "STMT-PER-SE-MOVER-LINK-IS-MOVING-BY-MOVED-MOVER",
+    "STMT-MOVER-IS-EFFICIENT-CAUSE",
+    "STMT-SECOND-EFFICIENT-CAUSES-CAUSE-ONLY-AS-CAUSED"
+  ],
+  "conclusion_statement_id": "STMT-PER-SE-MOVER-LINK-IS-PER-SE-CAUSE-LINK",
+  "inference_ids": [
+    "INF-PER-SE-MOVER-LINK-FROM-EFFICIENT-CAUSING"
+  ],
+  "meaning": "Every per se mover link is a per se cause link, from three existing open premises and no new one: a per se mover link is a moving of x by a distinct y that is itself moved by some z; every moving in a respect is efficient causing in that respect (so y efficiently causes x and z efficiently causes y); and an efficient cause other than its effect that is itself efficiently caused causes only as caused (the Second Way reading). This is the positive form of the conditional refutation of the occasionalist rival in RIVAL-REFUTATIONS-ROUND2; it links MovesAsMoved to MovesIn and CausesAsCaused to EfficientlyCausesIn.",
+  "definition_ids": [
+    "DEF-ARISTOTELIAN-CAUSE-MODES",
+    "DEF-EFFICIENT-CAUSING",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-PER-SE-EFFICIENT-CAUSE-LINK",
+    "DEF-PER-SE-ORDERED-SERIES",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSAL-SERIES",
+    "DISAMB-CAUSE",
+    "DISAMB-MOTION",
+    "DISAMB-PER-SE-LINK"
+  ]
+}
