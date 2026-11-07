@@ -1,0 +1,27 @@
+{
+  "id": "Q14-RECEPTION-DEFINITION-FORK",
+  "argument_id": "Q14-RECEPTION-DEFINITION-FORK",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.Fork.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.Fork.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.definitionFork",
+  "comparator_config": "results/Q14-RECEPTION-DEFINITION-FORK/comparator.json",
+  "status": "solution-present",
+  "description": "Logical transcription of finite case analysis on three typed calibration propositions with explicit excluded middle. It proves neither named coverage nor philosophical completeness; controls separately witness overlap and remainder.",
+  "transcription": "assembly",
+  "case_split": {
+    "target_statement_id": "STMT-Q14-NAMED-CALIBRATION-MENU",
+    "cases": [
+      {
+        "label": "Some named scoped calibration",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.Q14ReceptionFork.NamedMenu",
+        "statement_id": "STMT-Q14-NAMED-CALIBRATION-MENU"
+      },
+      {
+        "label": "All three scoped calibrations fail",
+        "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.Q14ReceptionFork.Remaining",
+        "statement_id": "STMT-Q14-CALIBRATION-REMAINDER"
+      }
+    ],
+    "survival_result_id": "Q14-RECEPTION-FORK-CONTROLS"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "STMT-Q14-STRUCTURAL-SCOPE-COVERED",
+  "paraphrase": "OPEN: every receiver neither matter-form composite nor a component of anything belongs to the SAME admitted comparison scope. This prevents discarding the old target cases.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.Q14ReceptionFork.StructuralScopeCovered",
+  "definition_ids": [
+    "DEF-ALTOGETHER-IMMATERIAL",
+    "DEF-REMOTE-FROM-ALL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-Q14-RECEPTION-SENSES"
+  ]
+}

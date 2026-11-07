@@ -1,0 +1,11 @@
+{
+  "id": "INF-Q14-WITHOUT-MATTER-CAPACITY-STRENGTHENS-FOREIGN-CAPACITY",
+  "input_statement_ids": [
+    "STMT-Q14-WITHOUT-MATTER-CAPACITY-AT"
+  ],
+  "output_statement_id": "STMT-Q14-FOREIGN-FORM-CAPACITY-AT",
+  "rule": "constructive-proof",
+  "meaning": "A without-matter foreign-form witness is also a witness of unspecified-mode foreign-form aptitude. The material-only control demonstrates failure of the reverse; the scoped coextension calibrations are NOT thereby ordered.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

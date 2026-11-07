@@ -1,0 +1,11 @@
+{
+  "id": "Q14-STATE-CHANGE-PROXY-FROM-NAMED-ELIMINATION",
+  "argument_id": "Q14-STATE-CHANGE-PROXY-FROM-NAMED-ELIMINATION",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.Elimination.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.Elimination.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.changeProxyOfElimination",
+  "comparator_config": "results/Q14-STATE-CHANGE-PROXY-FROM-NAMED-ELIMINATION/comparator.json",
+  "status": "solution-present",
+  "description": "Logical transcription: an explicitly assumed local named menu and failure of its two capacity calibrations leave the state-change-PROXY calibration. This is not a proof that the proxy is an adequate intellect account or a refutation of complete theories.",
+  "transcription": "assembly"
+}

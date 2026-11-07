@@ -1,0 +1,24 @@
+{
+  "id": "Q14-RECEPTION-DEFINITION-FORK",
+  "premise_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE"
+  ],
+  "conclusion_statement_id": "STMT-Q14-CALIBRATION-FORK",
+  "inference_ids": [
+    "INF-Q14-RECEPTION-DEFINITION-FORK"
+  ],
+  "meaning": "Logical transcription of finite case analysis on three typed calibration propositions with explicit excluded middle. It proves neither named coverage nor philosophical completeness; controls separately witness overlap and remainder.",
+  "definition_ids": [
+    "DEF-Q14-FORM-CAPACITY",
+    "DEF-HAS-INTELLECT",
+    "DEF-Q14-CAPACITY-CALIBRATION",
+    "DEF-Q14-WITHOUT-MATTER-CALIBRATION",
+    "DEF-Q14-CHANGE-PROXY-CALIBRATION",
+    "DEF-Q14-FOREIGN-FORM-CHANGE-PROXY",
+    "DEF-Q14-RECEPTION-DEFINITION-MENU"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-Q14-RECEPTION-SENSES",
+    "DISAMB-INTELLECT-AND-SENSE-COGNITION"
+  ]
+}

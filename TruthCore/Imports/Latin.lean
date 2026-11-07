@@ -23,6 +23,7 @@ public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question105.Arti
 public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question11.Article3
 public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question11.Article3Nature
 public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question14.Article1
+public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question14.ReceptionDefinitionFork
 public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3
 public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3Evil
 public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3Interpretation

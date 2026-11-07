@@ -1,0 +1,9 @@
+{
+  "id": "INF-Q14-RECEPTION-FORK-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-Q14-RECEPTION-FORK-CONTROLS",
+  "rule": "constructive-proof",
+  "meaning": "Exact typed omission/control certificate. Reuses all three old FormReception omission theorems; NEW profiles explicitly export the advertised capacities/calibrations/events/nonempty remainder and full positive assembly backgrounds. Separate interpretations, not one joint worldview or actual metaphysical possibility.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

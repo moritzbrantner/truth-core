@@ -1,0 +1,13 @@
+{
+  "id": "INF-Q14-STATE-CHANGE-PROXY-FROM-NAMED-ELIMINATION",
+  "input_statement_ids": [
+    "STMT-Q14-NAMED-CALIBRATION-MENU",
+    "STMT-Q14-CAPACITY-CALIBRATION-FAILS",
+    "STMT-Q14-WITHOUT-MATTER-CALIBRATION-FAILS"
+  ],
+  "output_statement_id": "STMT-Q14-CHANGE-PROXY-CALIBRATION",
+  "rule": "constructive-proof",
+  "meaning": "Logical transcription: an explicitly assumed local named menu and failure of its two capacity calibrations leave the state-change-PROXY calibration. This is not a proof that the proxy is an adequate intellect account or a refutation of complete theories.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

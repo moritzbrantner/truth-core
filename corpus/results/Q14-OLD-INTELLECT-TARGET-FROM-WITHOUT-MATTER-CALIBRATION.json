@@ -1,0 +1,11 @@
+{
+  "id": "Q14-OLD-INTELLECT-TARGET-FROM-WITHOUT-MATTER-CALIBRATION",
+  "argument_id": "Q14-OLD-INTELLECT-TARGET-FROM-WITHOUT-MATTER-CALIBRATION",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.FromWithoutMatter.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.FromWithoutMatter.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.oldTargetOfWithoutMatter",
+  "comparator_config": "results/Q14-OLD-INTELLECT-TARGET-FROM-WITHOUT-MATTER-CALIBRATION/comparator.json",
+  "status": "solution-present",
+  "description": "Transcription/assembly to the EXACT old target: scope coverage, independent positive aptitude and no-material-mode bridges, followed by an OPEN without-matter-to-intellect calibration. Reuses the old mode-elimination theorem; the sensory grade gap is not discharged.",
+  "transcription": "assembly"
+}

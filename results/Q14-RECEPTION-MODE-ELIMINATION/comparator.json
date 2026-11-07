@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.Mode.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.Mode.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.modeElimination"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

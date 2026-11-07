@@ -46,8 +46,8 @@ capacities remain separate predicates.
 
 The last consequence is constructive case analysis on the reception mode.
 It needs positive aptitude independently of excluding material reception.
-It proves neither cognitive nature nor intellectual grade. It is an internal
-interface lemma, not a new advertised corpus argument or a Comparator result.
+It proves neither cognitive nature nor intellectual grade. It was originally an internal interface lemma. The conditional comparison
+below now registers it through the exact two-input mode-elimination result.
 No claim of mechanically verified philosophical consequence is made for the
 old target.
 
@@ -91,6 +91,62 @@ Rejected shortcuts:
   `DISAMB-Q14-RECEPTION-SENSES` keeps this sense, sense cognition and intellect
   apart. The existing primitive `HasIntellect` is unchanged.
 
+## Scoped analyst proposals and conditional connections
+
+The resumed logic-first batch reuses the original model and all four existing
+lemmas without changing their source readings. The existing `Intellectual`
+predicate is not redefined. Three OPEN calibration propositions compare it,
+on one explicitly admitted scope, with foreign-form capacity, without-matter
+capacity and an occurring foreign-form **state-change proxy**.
+
+The proxy requires an occurring event, its same receiver and a foreign form,
+and unequal before/after states. It supplies no input-causes-change theory,
+capacity, semantic understanding or actual external source object. In
+particular, a failed proxy calibration does not refute a serious acquisition,
+functional or computational account. The broader original information-
+acquisition comparison remains unformalized in that respect.
+
+`NamedMenu` says at least one of these three calibrations holds. It is an OPEN
+coverage assumption, not a census of adequate theories. `Remaining` explicitly
+says all three fail on the same dictionary and scope. The structural coverage
+result uses excluded middle as an explicit input; it establishes neither
+branch. Named elimination is labelled logical transcription. The proposal
+calibrations can overlap; no exclusivity of the three proposals is claimed.
+
+The old target has three separate **transcription/assembly** routes. They use
+the same `m.Intellectual` predicate and preserve the old structural antecedent:
+
+| Branch | Independent OPEN inputs |
+| --- | --- |
+| Foreign-form capacity | Every structurally free receiver is in scope; structural freedom supplies positive capacity; the scoped capacity/intellect calibration. |
+| Without-matter capacity | Scope coverage; positive capacity; structural freedom excludes material reception; the scoped without-matter/intellect calibration. The old mode case analysis is imported. |
+| State-change proxy | Scope coverage; structural freedom supplies an actual occurring proxy change; the scoped proxy/intellect calibration. No event is manufactured from aptitude. |
+
+These are conditional maps, not independent warrant for any intellectual
+identification. A scope cannot silently discard old structurally free receivers.
+No source is attributed any new calibration, coverage or availability claim.
+The pointwise without-matter capacity really entails unspecified-mode capacity;
+the **calibrations**, which compare their entire extensions to intellect, do not
+inherit a strength ordering merely from that pointwise implication.
+
+The checked control statement exports separate interpretations, not a joint
+worldview. It retains all three old omission controls exactly. A material-only
+receiver distinguishes the pointwise strengths. A dormant primitive-intellect
+assignment has positive without-matter capacity and both capacity calibrations
+but no actual proxy event; it exports the full positive scope/availability/mode
+background and exact old target. Another profile separately supplies an actual
+proxy and its full positive assembly background. An event in the empty-capacity
+profile does not manufacture capacity. Finally, a nonempty admitted profile
+with a positive primitive-intellect assignment lies outside all three proposed
+extensions, explicitly witnessing the remaining branch rather than selecting
+a preferred winner. These are API interpretations, not actual immaterial beings,
+metaphysical possibilities or defeats of complete worldviews.
+
+The new Challenges were frozen before Solutions in `9ce52e79`. Their later
+ordinary-file header normalization is packaging compliance only: theorem text,
+types and namespaces were preserved byte-for-byte, and Solution inputs stayed
+unchanged. The affected Challenge comparisons were rerun.
+
 ## Remaining gap and premise comparison
 
 The source expressly asserts the graded immateriality argument, but neither
@@ -104,10 +160,14 @@ meaning is a cross-cutting decision to coordinate before altering signatures.
 The future q.14 a.2, a.4–5 and a.8 range in the candidate is a research pointer,
 not a claim to have read or verified those articles in this batch.
 
-Intended and actual root-path open-premise change: **none**. No premises were
-retained/added/removed in any existing argument. The target remains sourced
-but undefended, no relocation or discharge is claimed, and the two new source
-statements lie outside all root routes. The branch baseline's frontier reports
-46 open premises (4 bare, 42 sourced-undefended), with route costs
-28/29/33/35/36/36/37/38. The issue's historical 37-premise count is not used as
-the current baseline. The new records and generated import add no root path.
+The original source-reading batch had no root-path premise change. The resumed
+batch adds three conditional assembly routes to the existing target. Against
+`7c89dd9abecb2e1da4cf89b4250e506a8c6e1539`, the computed `frontier-diff` reports
+128 → 138 open premises, 67 → 77 bare, with supported/stated counts unchanged
+at 18/43. It adds the ten explicit OPEN menu, calibration/failure, scope and
+structural availability/mode/event premises; removes and relocates none. The
+cheapest root route stays at cost 30 and reports no route-cost changes. These
+are new conditional connections, not discharges. Existing arguments and old
+Lean interfaces retain their premises; no source statement is independently
+established. The PR carries the complete machine-computed delta against its
+final merge base.

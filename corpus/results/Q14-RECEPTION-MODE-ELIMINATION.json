@@ -1,0 +1,10 @@
+{
+  "id": "Q14-RECEPTION-MODE-ELIMINATION",
+  "argument_id": "Q14-RECEPTION-MODE-ELIMINATION",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.Mode.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.Mode.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.modeElimination",
+  "comparator_config": "results/Q14-RECEPTION-MODE-ELIMINATION/comparator.json",
+  "status": "solution-present",
+  "description": "Reuses the exact existing FormReception.availableFormWithoutMatter case analysis. Positive aptitude plus exclusion of material mode yields without-matter aptitude at the SAME receiver; no intellect, actual event or old structural bridge is inferred."
+}

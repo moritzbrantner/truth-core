@@ -1,0 +1,11 @@
+{
+  "id": "Q14-OLD-INTELLECT-TARGET-FROM-CAPACITY-CALIBRATION",
+  "argument_id": "Q14-OLD-INTELLECT-TARGET-FROM-CAPACITY-CALIBRATION",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.FromCapacity.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.FromCapacity.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.oldTargetOfCapacity",
+  "comparator_config": "results/Q14-OLD-INTELLECT-TARGET-FROM-CAPACITY-CALIBRATION/comparator.json",
+  "status": "solution-present",
+  "description": "Transcription/assembly to the EXACT old target: scope coverage, positive structural-to-capacity availability and an OPEN capacity-to-intellect coextension calibration. No mode/acquisition premise is needed for this branch; the calibration is not independently established.",
+  "transcription": "assembly"
+}

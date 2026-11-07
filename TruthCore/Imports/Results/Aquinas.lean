@@ -49,6 +49,14 @@ public import TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaModels
 public import TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaRelative.Solution
 public import TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaStrength.AbsoluteReading.Solution
 public import TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaStrength.PerSeLink.Solution
+public import TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.Controls.Solution
+public import TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.Elimination.Solution
+public import TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.Fork.Solution
+public import TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.FromCapacity.Solution
+public import TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.FromChangeProxy.Solution
+public import TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.FromWithoutMatter.Solution
+public import TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.Mode.Solution
+public import TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.Strength.Solution
 public import TruthCore.Results.Aquinas.SummaTheologiae.QuartaVia.Solution
 public import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaAttributionCauseMoreSuch.Solution
 public import TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaAttributionGenusAtBeing.Solution
