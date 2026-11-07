@@ -1,0 +1,245 @@
+# Batch 1 of the causal exploration maps (explorations/cause-of-quality-more-such.toml,
+# explorations/efficient-cause-prior.toml, explorations/nothing-moves-except-in-act.toml).
+# Analyst formulations, attribution deferred: every new statement is an OPEN premise.
+
+[batch]
+vocab = "TruthCore.Causality.CausalMapsBatch1"
+results = "TruthCore.Results.Causality.CausalMapsBatch1"
+
+# ---- Map 1: the cause of a quality in another is more such ----
+
+[[statement]]
+id = "STMT-CAUSE-HAS-WHAT-IT-GIVES"
+lean = "CauseHasWhatItGives"
+paraphrase = "OPEN analyst generalization: nothing gives what it does not have. Whatever causes a perfection r in a thing has r (in act, formally or eminently: the abstract InAct). ST I q.4 a.2 co. says this of the effective cause of a thing's being (STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE); extending it to every cause of any perfection is the analyst's."
+definitions = ["DEF-CAUSE-OF-PERFECTION", "DEF-ACT"]
+disambiguations = ["DISAMB-IN-ACT", "DISAMB-CAUSE"]
+
+[[statement]]
+id = "STMT-CAUSED-PERFECTION-IS-HAD-BY-EFFECT"
+lean = "CausedPerfectionIsHad"
+paraphrase = "OPEN analyst premise: a caused perfection is had by its effect. If c causes x's being r, then x is r in act."
+definitions = ["DEF-CAUSE-OF-PERFECTION", "DEF-ACT"]
+disambiguations = ["DISAMB-IN-ACT"]
+
+[[statement]]
+id = "STMT-CAUSE-OF-BEING-HAS-WHAT-IT-GIVES"
+lean = "CauseOfBeingHasWhatItGives"
+paraphrase = "Weak, cause-of-being version of STMT-CAUSE-HAS-WHAT-IT-GIVES: whatever causes a thing's being (esse) has every perfection it causes in that thing."
+definitions = ["DEF-CAUSE-OF-PERFECTION", "DEF-ACT", "DEF-ESSE"]
+disambiguations = ["DISAMB-IN-ACT"]
+
+[[statement]]
+id = "STMT-PERFECTION-CAUSED-IN-ANOTHER-IS-RECEIVED-IN-IT"
+lean = "CausedPerfectionIsReceivedInEffect"
+paraphrase = "OPEN analyst premise: a perfection caused in another is received in that other. If c, distinct from x, causes x's being r, then x's having r is received in x (as heat in the heated wood)."
+definitions = ["DEF-CAUSE-OF-PERFECTION", "DEF-PERFECTION-RECEIVED-IN"]
+disambiguations = ["DISAMB-CAUSE"]
+
+[[statement]]
+id = "STMT-RECEIVED-PERFECTION-IS-LIMITED-BY-RECIPIENT"
+lean = "ReceivedPerfectionIsLimitedByRecipient"
+paraphrase = "OPEN analyst generalization of ST I q.7 a.1-2: for every y, perfection r and z, if y's having r is received in z, then y has r only to the measure of z's capacity. The passage says it of form received in matter and of the esse of a subsistent created form; the extension to every perfection is the analyst's (esse instance: STMT-RECEIVED-ESSE-IS-LIMITED)."
+definitions = ["DEF-PERFECTION-RECEIVED-IN", "DEF-PERFECTION-LIMITED-BY"]
+disambiguations = ["DISAMB-ESSE-RECEPTION", "DISAMB-ESSE-LIMITATION"]
+
+[[statement]]
+id = "STMT-PERFECTION-LIMITED-ONLY-THROUGH-RECEPTION"
+lean = "PerfectionLimitedOnlyThroughReception"
+paraphrase = "OPEN analyst generalization of ST I q.7 a.1 co.: for every y, perfection r and z, if y has r limited by z, then y's having r is received in z. The source reading (STMT-ESSE-LIMITED-ONLY-THROUGH-RECEPTION) is restricted to esse, and its claim records why Aquinas restricts it; extending it to every perfection is a contested analyst bridge."
+definitions = ["DEF-PERFECTION-RECEIVED-IN", "DEF-PERFECTION-LIMITED-BY"]
+disambiguations = ["DISAMB-ESSE-RECEPTION", "DISAMB-ESSE-LIMITATION"]
+
+[[statement]]
+id = "STMT-CAUSE-HAS-PERFECTION-NOT-AS-RECEIVED-IN-EFFECT"
+lean = "CauseHasPerfectionNotAsReceivedInEffect"
+paraphrase = "OPEN analyst premise: if c, distinct from x, causes x's being r, then c's having r is not received in x. The fire's heat is not received in the wood it heats."
+definitions = ["DEF-CAUSE-OF-PERFECTION", "DEF-PERFECTION-RECEIVED-IN"]
+disambiguations = ["DISAMB-CAUSE"]
+
+[[statement]]
+id = "STMT-UNLIMITED-POSSESSION-EXCEEDS-LIMITED"
+lean = "UnlimitedPossessionExceedsLimited"
+paraphrase = "OPEN analyst premise: if c has r, x has r limited by x's own capacity, and c's having r is not limited by x, then c is more r than x."
+definitions = ["DEF-ACT", "DEF-PERFECTION-LIMITED-BY", "DEF-MORE-IN"]
+disambiguations = ["DISAMB-IN-ACT"]
+
+# ---- Map 2: the efficient cause is prior to its effect ----
+
+[[statement]]
+id = "STMT-EFFECT-DEPENDS-FOR-BEING-ON-EFFICIENT-CAUSE"
+lean = "EffectDependsOnEfficientCause"
+paraphrase = "OPEN reading of ST I q.44 a.1 ad 2 as dependence: whatever c efficiently causes in any respect depends for its being on c (it would not be if c were not)."
+definitions = ["DEF-EFFICIENT-CAUSING", "DEF-DEPENDS-FOR-BEING", "DEF-Q44-CAUSED-NECESSITY-DEPENDENCE"]
+disambiguations = ["DISAMB-CAUSE"]
+
+[[statement]]
+id = "STMT-EFFICIENT-CAUSE-NOT-DEPENDENT-ON-EFFECT"
+lean = "EfficientCauseNotDependentOnEffect"
+paraphrase = "OPEN analyst premise: an efficient cause does not depend for its being on what it efficiently causes."
+definitions = ["DEF-EFFICIENT-CAUSING", "DEF-DEPENDS-FOR-BEING"]
+disambiguations = ["DISAMB-CAUSE"]
+
+[[statement]]
+id = "STMT-NONMUTUAL-DEPENDENCE-SUFFICES-FOR-PRIORITY"
+lean = "NonmutualDependenceSufficesForPriority"
+paraphrase = "OPEN analyst premise (one direction of priority by nature as nonmutual dependence): if x depends for its being on y and y does not so depend on x, then y is simply prior to x."
+definitions = ["DEF-SIMPLE-PRIORITY", "DEF-DEPENDS-FOR-BEING"]
+disambiguations = ["DISAMB-CAUSE"]
+
+[[statement]]
+id = "STMT-PRIORITY-REQUIRES-NONMUTUAL-DEPENDENCE"
+lean = "PriorityRequiresNonmutualDependence"
+paraphrase = "OPEN analyst premise (the other direction): if y is simply prior to x, then x depends for its being on y and y does not so depend on x."
+definitions = ["DEF-SIMPLE-PRIORITY", "DEF-DEPENDS-FOR-BEING"]
+disambiguations = ["DISAMB-CAUSE"]
+
+[[statement]]
+id = "STMT-NO-MUTUAL-EFFICIENT-CAUSATION"
+lean = "NoMutualEfficientCausation"
+paraphrase = "No two things efficiently cause each other, in any respects: if c efficiently causes x in some respect, x efficiently causes c in no respect."
+definitions = ["DEF-EFFICIENT-CAUSING"]
+disambiguations = ["DISAMB-CAUSE"]
+
+# ---- Map 3: nothing moves except as in act ----
+
+[[statement]]
+id = "STMT-MOVER-CAUSES-WHAT-IT-MOVES-TO"
+lean = "MoverCausesWhatItMovesTo"
+paraphrase = "OPEN analyst bridge: whatever moves a thing in a respect causes that thing's being so in that respect (CausesIn, the perfection-causing relation; moving is reduction from potency to act). It relates two relations DISAMB-CAUSE keeps apart and does not identify them."
+definitions = ["DEF-MOTION-AS-REDUCTION", "DEF-CAUSE-OF-PERFECTION", "DEF-RESPECT"]
+disambiguations = ["DISAMB-CAUSE", "DISAMB-MOTION"]
+
+[[statement]]
+id = "STMT-SELF-MOVER-MOVES-BY-A-DISTINCT-PART"
+lean = "SelfMoverMovesByADistinctPart"
+paraphrase = "OPEN analyst reading of Physics VIII.4-5: whatever moves itself in a respect does so by a part, distinct from the whole, that moves the whole in that respect."
+definitions = ["DEF-SELF-MOTION-ARISTOTLE", "DEF-MOVER-PART", "DEF-RESPECT"]
+disambiguations = ["DISAMB-SELF-MOTION", "DISAMB-MOTION"]
+
+[[statement]]
+id = "STMT-WHOLE-IN-ACT-THROUGH-ITS-PART"
+lean = "WholeInActThroughItsPart"
+paraphrase = "OPEN analyst premise: a whole is in act in a respect in which one of its parts is in act (an animal whose heart is hot is, in that part, actually hot). Contestable: on a strict reading a whole is so only if it is so throughout."
+definitions = ["DEF-MOVER-PART", "DEF-ACT"]
+disambiguations = ["DISAMB-IN-ACT"]
+
+[[statement]]
+id = "STMT-CAUSAL-MAPS-BATCH1-CONTROLS"
+lean = "Control.Certificate"
+paraphrase = "Finite interpretations for the seven derivations of causal maps batch 1: for each premise other than excluded middle, a model in which the other premises hold and the conclusion fails, and one joint model with nonempty causing, moving, self-moving and efficient-causing relations in which every premise and conclusion of the batch holds. Satisfiability and omission only; no model is claimed to describe reality."
+definitions = ["DEF-CAUSE-OF-PERFECTION", "DEF-PERFECTION-RECEIVED-IN", "DEF-PERFECTION-LIMITED-BY", "DEF-DEPENDS-FOR-BEING", "DEF-MOVER-PART", "DEF-EFFICIENT-CAUSING", "DEF-SIMPLE-PRIORITY"]
+disambiguations = ["DISAMB-CAUSE", "DISAMB-ESSE-RECEPTION"]
+
+# ---- Arguments ----
+
+[[argument]]
+id = "CAUSE-OF-QUALITY-MORE-SUCH-FROM-RECEPTION-LIMITS"
+theorem = "causeOfQualityMoreSuch"
+premises = ["STMT-CAUSE-HAS-WHAT-IT-GIVES", "STMT-PERFECTION-CAUSED-IN-ANOTHER-IS-RECEIVED-IN-IT", "STMT-RECEIVED-PERFECTION-IS-LIMITED-BY-RECIPIENT", "STMT-PERFECTION-LIMITED-ONLY-THROUGH-RECEPTION", "STMT-CAUSE-HAS-PERFECTION-NOT-AS-RECEIVED-IN-EFFECT", "STMT-UNLIMITED-POSSESSION-EXCEEDS-LIMITED"]
+conclusion = "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH"
+rule = "Universal instantiation, modus ponens and modus tollens"
+meaning = "Derives the Metaphysics II.1 / Posterior Analytics I.2 premise that a distinct cause of a quality is more such, from six OPEN analyst premises: the cause has what it gives; a perfection caused in another is received in it; reception limits by the recipient; limitation by z is only through reception in z; the cause's perfection is not received in its effect; and an unlimited possessor exceeds a limited one. A distinct cause c of r in x has r; x has r received in x, so limited by x; c's r is not received in x, so not limited by x; hence c is more r than x. It does not use STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE, so it does not close a cycle with PERFECTION-PREEXISTENCE-FROM-CAUSAL-TRANSFER."
+
+[[argument]]
+id = "CAUSE-OF-BEING-HAS-WHAT-IT-GIVES-FROM-PREEXISTENCE"
+theorem = "causeOfBeingHasWhatItGives"
+premises = ["STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE", "STMT-CAUSED-PERFECTION-IS-HAD-BY-EFFECT"]
+conclusion = "STMT-CAUSE-OF-BEING-HAS-WHAT-IT-GIVES"
+rule = "Universal instantiation and modus ponens"
+meaning = "From ST I q.4 a.2 (the perfections of a thing whose being a cause causes are in that cause) and the OPEN premise that a caused perfection is had by its effect, a cause of a thing's being has every perfection it causes in that thing. Only this weak, cause-of-being version follows: the map's edge to the unrestricted STMT-CAUSE-HAS-WHAT-IT-GIVES would need every cause of a perfection to be a cause of being, which the heater refutes."
+
+[[argument]]
+id = "EFFICIENT-CAUSE-PRIOR-FROM-NONMUTUAL-DEPENDENCE"
+theorem = "efficientCausePrior"
+premises = ["STMT-EFFECT-DEPENDS-FOR-BEING-ON-EFFICIENT-CAUSE", "STMT-EFFICIENT-CAUSE-NOT-DEPENDENT-ON-EFFECT", "STMT-NONMUTUAL-DEPENDENCE-SUFFICES-FOR-PRIORITY"]
+conclusion = "STMT-EFFICIENT-CAUSE-IS-PRIOR-TO-EFFECT"
+rule = "Universal instantiation and modus ponens"
+meaning = "Derives the secunda via premise that an efficient cause is simply prior to its effect from three OPEN premises: the effect depends for its being on its efficient cause (q.44 a.1 ad 2 read as dependence), the cause does not depend on its effect, and nonmutual dependence suffices for simple priority."
+
+[[argument]]
+id = "NOTHING-PRIOR-TO-ITSELF-FROM-NONMUTUAL-DEPENDENCE"
+theorem = "nothingPriorToItself"
+premises = ["STMT-PRIORITY-REQUIRES-NONMUTUAL-DEPENDENCE"]
+conclusion = "STMT-NOTHING-PRIOR-TO-ITSELF"
+rule = "Reductio"
+meaning = "If simple priority requires nonmutual dependence, nothing is simply prior to itself: x prior to x would make x both depend and not depend on x. Uses only the necessary direction of the dependence analysis of priority, not the sufficient one."
+
+[[argument]]
+id = "NO-SELF-EFFICIENT-CAUSATION-FROM-DEPENDENCE"
+theorem = "nothingEfficientCauseOfItself"
+premises = ["STMT-EFFECT-DEPENDS-FOR-BEING-ON-EFFICIENT-CAUSE", "STMT-EFFICIENT-CAUSE-NOT-DEPENDENT-ON-EFFECT"]
+conclusion = "STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF"
+rule = "Reductio"
+meaning = "A second route to 'nothing is its own efficient cause' that bypasses priority: a self-cause would depend for its being on itself (as effect) and not depend on itself (as cause)."
+
+[[argument]]
+id = "NO-MUTUAL-EFFICIENT-CAUSATION-FROM-DEPENDENCE"
+theorem = "noMutualEfficientCausation"
+premises = ["STMT-EFFECT-DEPENDS-FOR-BEING-ON-EFFICIENT-CAUSE", "STMT-EFFICIENT-CAUSE-NOT-DEPENDENT-ON-EFFECT"]
+conclusion = "STMT-NO-MUTUAL-EFFICIENT-CAUSATION"
+rule = "Reductio"
+meaning = "If c efficiently causes x and x efficiently caused c, then c would depend for its being on x (as x's effect) and not depend on x (as x's cause). Hence no two things efficiently cause each other in any respects."
+
+[[argument]]
+id = "MOVES-ONLY-AS-IN-ACT-FROM-CAUSAL-EXCESS"
+theorem = "nothingMovesExceptInAct"
+premises = ["STMT-EXCLUDED-MIDDLE", "STMT-MOVER-CAUSES-WHAT-IT-MOVES-TO", "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH", "STMT-MORE-SUCH-HAS-THE-PERFECTION", "STMT-SELF-MOVER-MOVES-BY-A-DISTINCT-PART", "STMT-WHOLE-IN-ACT-THROUGH-ITS-PART"]
+conclusion = "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT"
+rule = "Proof by cases (excluded middle on identity), modus ponens"
+meaning = "Derives the prima via premise that a thing moves only insofar as it is in act. Case split on whether the mover y is the moved x. If distinct: y causes x's being r (OPEN bridge), so y is more r than x (Metaphysics II.1), so y has r in act (quarta via). If y = x: y moves itself by a distinct part p (OPEN reading of Physics VIII.4-5); by the distinct case p is in act in r, and the whole is in act through its part (OPEN). It does not use STMT-NO-MOVER-MOVES-ITSELF-IN-ITS-RESPECT, which is derived from the conclusion. This answers the self-mover gap that rejected the lead in ATTEMPT-REJECTED-DERIVATION-LEADS-20261107."
+
+[[argument]]
+id = "CAUSAL-MAPS-BATCH1-CONTROLS"
+theorem = "controls"
+premises = []
+conclusion = "STMT-CAUSAL-MAPS-BATCH1-CONTROLS"
+rule = "Explicit finite interpretations"
+meaning = "Finite interpretations for the seven derivations of causal maps batch 1: for each premise other than excluded middle, one model (from scripts/countermodel.py, checked by decide) in which the other premises hold and the conclusion fails, and one joint model with nonempty causing, moving, self-moving and efficient-causing relations in which every premise and conclusion of the batch holds. Satisfiability and omission only; no model is claimed to describe reality."
+
+# ---- Supports relations (claim bears on, does not state) ----
+
+[[relation]]
+id = "REL-Q4-A2-PERFECTION-IN-CAUSE-SUPPORTS-CAUSE-HAS-WHAT-IT-GIVES"
+subject_kind = "claim"
+subject_id = "AQUINAS-ST-I-Q4-A2-PERFECTION-IN-CAUSE-A"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-CAUSE-HAS-WHAT-IT-GIVES"
+note = "Q.4 a.2 co. says whatever perfection is in the effect is in the effective cause; the claim reads 'effect' as a thing whose being the cause causes. The premise says it of every cause of any perfection in any thing. The extension beyond causes of being is the analyst's; its scoped version STMT-CAUSE-OF-BEING-HAS-WHAT-IT-GIVES is derived in CAUSE-OF-BEING-HAS-WHAT-IT-GIVES-FROM-PREEXISTENCE."
+
+[[relation]]
+id = "REL-Q7-A1-UNLIMITED-ESSE-SUPPORTS-RECEIVED-PERFECTION-LIMITED"
+subject_kind = "claim"
+subject_id = "AQUINAS-ST-I-Q7-A1-UNLIMITED-ESSE-INFINITE"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-RECEIVED-PERFECTION-IS-LIMITED-BY-RECIPIENT"
+note = "The claim's passage (q.7 a.1 co., with q.7 a.2 co. in its interpretation) says a form received in matter is determined to this thing and that a subsistent created form's esse is 'receptum et contractum'. It bears on the premise for form and esse; that every received perfection is limited, and limited to the measure of the recipient z, is the analyst's generalization."
+
+[[relation]]
+id = "REL-Q7-A1-ESSE-LIMITED-ONLY-SUPPORTS-PERFECTION-LIMITED-ONLY"
+subject_kind = "claim"
+subject_id = "AQUINAS-ST-I-Q7-A1-ESSE-LIMITED-ONLY-THROUGH-RECEPTION"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-PERFECTION-LIMITED-ONLY-THROUGH-RECEPTION"
+note = "The claim states the limitation-only-through-reception warrant for esse alone, and its interpretation records why it is restricted to esse (q.7 a.2 co. lets a subsistent created form be unlimited with respect to matter). The premise extends it to every perfection and relativizes it to the limiter z; that extension is the analyst's and is in tension with the restriction the claim records."
+
+[[relation]]
+id = "REL-Q44-A1-COUNTERFACTUAL-SUPPORTS-EFFECT-DEPENDS-ON-EFFICIENT-CAUSE"
+subject_kind = "claim"
+subject_id = "AQUINAS-ST-I-Q44-A1-EFFICIENT-CAUSE-COUNTERFACTUAL-DEPENDENCE"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-EFFECT-DEPENDS-FOR-BEING-ON-EFFICIENT-CAUSE"
+note = "Q.44 a.1 ad 2 says an agent cause is required because the effect would not be if the cause were not. The premise reads this as a primitive dependence relation (DEF-DEPENDS-FOR-BEING) indexed to whatever is efficiently caused in any respect, using the secunda via's EfficientlyCausesIn; the passage gives a reason for requiring an agent cause and does not itself state the universal dependence premise in this vocabulary."
+
+[[relation]]
+id = "REL-PHYS-255B-SELF-MOTION-SUPPORTS-SELF-MOVER-BY-DISTINCT-PART"
+subject_kind = "claim"
+subject_id = "ARIST-PHYS-255B-SELF-MOTION-HAS-MOVER-A"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-SELF-MOVER-MOVES-BY-A-DISTINCT-PART"
+note = "Physics VIII.4 says a self-moved animal is moved by something, the question being how to distinguish mover and moved in it; the claim reads the mover as the moving part but leaves open which being it is and does not assert that it is other than the whole. That the mover is a part distinct from the whole is the analyst's reading of VIII.5 (257b-258a), which is not pinned."

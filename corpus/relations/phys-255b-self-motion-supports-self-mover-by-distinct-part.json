@@ -1,0 +1,9 @@
+{
+  "id": "REL-PHYS-255B-SELF-MOTION-SUPPORTS-SELF-MOVER-BY-DISTINCT-PART",
+  "subject_kind": "claim",
+  "subject_id": "ARIST-PHYS-255B-SELF-MOTION-HAS-MOVER-A",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-SELF-MOVER-MOVES-BY-A-DISTINCT-PART",
+  "note": "Physics VIII.4 says a self-moved animal is moved by something, the question being how to distinguish mover and moved in it; the claim reads the mover as the moving part but leaves open which being it is and does not assert that it is other than the whole. That the mover is a part distinct from the whole is the analyst's reading of VIII.5 (257b-258a), which is not pinned."
+}

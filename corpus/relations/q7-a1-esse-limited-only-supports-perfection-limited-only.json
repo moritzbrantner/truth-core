@@ -1,0 +1,9 @@
+{
+  "id": "REL-Q7-A1-ESSE-LIMITED-ONLY-SUPPORTS-PERFECTION-LIMITED-ONLY",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q7-A1-ESSE-LIMITED-ONLY-THROUGH-RECEPTION",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-PERFECTION-LIMITED-ONLY-THROUGH-RECEPTION",
+  "note": "The claim states the limitation-only-through-reception warrant for esse alone, and its interpretation records why it is restricted to esse (q.7 a.2 co. lets a subsistent created form be unlimited with respect to matter). The premise extends it to every perfection and relativizes it to the limiter z; that extension is the analyst's and is in tension with the restriction the claim records."
+}

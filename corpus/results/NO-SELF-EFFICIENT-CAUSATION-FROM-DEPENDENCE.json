@@ -1,0 +1,10 @@
+{
+  "id": "NO-SELF-EFFICIENT-CAUSATION-FROM-DEPENDENCE",
+  "argument_id": "NO-SELF-EFFICIENT-CAUSATION-FROM-DEPENDENCE",
+  "challenge_module": "TruthCore.Results.Causality.CausalMapsBatch1.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CausalMapsBatch1.Solution",
+  "theorem": "TruthCore.Results.Causality.CausalMapsBatch1.nothingEfficientCauseOfItself",
+  "comparator_config": "results/NO-SELF-EFFICIENT-CAUSATION-FROM-DEPENDENCE/comparator.json",
+  "status": "solution-present",
+  "description": "A second route to 'nothing is its own efficient cause' that bypasses priority: a self-cause would depend for its being on itself (as effect) and not depend on itself (as cause)."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "REL-Q44-A1-COUNTERFACTUAL-SUPPORTS-EFFECT-DEPENDS-ON-EFFICIENT-CAUSE",
+  "subject_kind": "claim",
+  "subject_id": "AQUINAS-ST-I-Q44-A1-EFFICIENT-CAUSE-COUNTERFACTUAL-DEPENDENCE",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "STMT-EFFECT-DEPENDS-FOR-BEING-ON-EFFICIENT-CAUSE",
+  "note": "Q.44 a.1 ad 2 says an agent cause is required because the effect would not be if the cause were not. The premise reads this as a primitive dependence relation (DEF-DEPENDS-FOR-BEING) indexed to whatever is efficiently caused in any respect, using the secunda via's EfficientlyCausesIn; the passage gives a reason for requiring an agent cause and does not itself state the universal dependence premise in this vocabulary."
+}
