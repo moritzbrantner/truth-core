@@ -1,0 +1,45 @@
+target = "STMT-GOD-IS-MAXIMAL-IN-BEING"
+
+[[node]]
+id = "STMT-GOD-IS-MAXIMAL-IN-BEING"
+
+[[node]]
+id = "STMT-MAXIME-ENS-IS-WHAT-WE-CALL-GOD"
+
+[[node]]
+id = "STMT-GOD-CAUSES-BEING-OF-ALL-OTHERS"
+new = true
+text = "Whatever is God causes the being of every other being (causal converse of q.2 a.3's naming sentence)."
+
+[[node]]
+id = "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH"
+
+[[node]]
+id = "STMT-MORE-SUCH-HAS-THE-PERFECTION"
+
+[[node]]
+id = "STMT-MORE-IN-IS-ASYMMETRIC"
+new = true
+text = "If x is more r than y, then y is not more r than x."
+
+[[node]]
+id = "STMT-SOMETHING-OTHER-THAN-GOD-EXISTS"
+new = true
+text = "For whatever is God, something other than it exists."
+
+[[node]]
+id = "STMT-EXCLUDED-MIDDLE"
+
+[[edge]]
+premises = ["STMT-MAXIME-ENS-IS-WHAT-WE-CALL-GOD"]
+conclusion = "STMT-GOD-CAUSES-BEING-OF-ALL-OTHERS"
+kind = "source"
+status = "mapped"
+note = "Converse reading of the naming sentence; supports relation with a gap note, not a derivation."
+
+[[edge]]
+premises = ["STMT-GOD-CAUSES-BEING-OF-ALL-OTHERS", "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH", "STMT-MORE-SUCH-HAS-THE-PERFECTION", "STMT-MORE-IN-IS-ASYMMETRIC", "STMT-SOMETHING-OTHER-THAN-GOD-EXISTS", "STMT-EXCLUDED-MIDDLE"]
+conclusion = "STMT-GOD-IS-MAXIMAL-IN-BEING"
+kind = "derivation"
+status = "mapped"
+note = "God causes another's being, so is more in being than it, so has being; nothing else exceeds God in being, by asymmetry."

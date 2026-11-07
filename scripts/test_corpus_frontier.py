@@ -1401,7 +1401,7 @@ class FrontierDiffTest(unittest.TestCase):
             "    + OPEN-A\n    - MID",
             text,
         )
-        self.assertIn("bare premises added: 1 (a relocation that adds a bare premise is not progress)\n  NEW", text)
+        self.assertIn("bare premises added: 1 (listed for visibility; not a regression, owner decision 2026-11-07)\n  NEW", text)
         reverse = corpus.frontier_delta(head, base)
         self.assertEqual(reverse["removed"], {"bare": ["NEW"]})
         self.assertEqual(reverse["moved"], {"closed -> bare": ["MID"], "stated -> bare": ["OPEN-B"]})
