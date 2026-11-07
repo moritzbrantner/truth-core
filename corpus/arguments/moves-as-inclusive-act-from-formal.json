@@ -1,0 +1,19 @@
+{
+  "id": "MOVES-AS-INCLUSIVE-ACT-FROM-FORMAL",
+  "premise_statement_ids": [
+    "STMT-MOVES-ONLY-AS-FORMALLY-IN-ACT"
+  ],
+  "conclusion_statement_id": "STMT-MOVES-ONLY-AS-IN-ACT-FORMALLY-OR-VIRTUALLY",
+  "inference_ids": [
+    "INF-MOVES-AS-INCLUSIVE-ACT-FROM-FORMAL"
+  ],
+  "meaning": "Explicit sense bridge IN-ACT_1 → IN-ACT_3 (strength order): the formal mover premise implies the inclusive one.",
+  "definition_ids": [
+    "DEF-IN-ACT-FORMALLY",
+    "DEF-IN-ACT-FORMALLY-OR-VIRTUALLY",
+    "DEF-MOTION-AS-REDUCTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT"
+  ]
+}

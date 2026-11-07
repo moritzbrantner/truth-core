@@ -1,0 +1,25 @@
+{
+  "id": "COMPOSITE-HAS-UNITING-CAUSE-UNITING-CAUSE-1",
+  "premise_statement_ids": [
+    "STMT-COMPOSITE-HAS-TWO-DISTINCT-COMPONENTS",
+    "STMT-DIVERSE-COMPONENTS-UNITED-ONLY-BY-A-CAUSE",
+    "STMT-UNITING-CAUSE-CAUSES-COMPOSITE-BEING",
+    "STMT-NOTHING-UNITES-ITSELF"
+  ],
+  "conclusion_statement_id": "STMT-COMPOSITE-HAS-A-UNITING-CAUSE",
+  "inference_ids": [
+    "INF-COMPOSITE-HAS-UNITING-CAUSE-UNITING-CAUSE-1"
+  ],
+  "meaning": "Per-sense argument, UNITING-CAUSE_1 (uniting): if nothing unites components into itself, the uniter is distinct from the composite, and it causes the composite's being.",
+  "definition_ids": [
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-COMPOSITION-COMPONENT",
+    "DEF-ESSE",
+    "DEF-SIMPLE",
+    "DEF-UNITING-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE",
+    "DISAMB-UNITING-CAUSE"
+  ]
+}

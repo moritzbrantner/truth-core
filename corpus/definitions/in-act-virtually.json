@@ -6,5 +6,7 @@
   "claim_ids": [
     "AQUINAS-ST-I-Q4-A2-PERFECTION-IN-CAUSE-A",
     "AQUINAS-ST-I-Q2-A3-MOVES-AS-IN-ACT-A"
-  ]
+  ],
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.ActFrame.InActVirtually",
+  "note": "Lean: a primitive parameter of the sense-fork frame (its own declaration, distinct from the other senses of its disambiguation); it carries no definitional body."
 }
