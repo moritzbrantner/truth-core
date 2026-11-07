@@ -1,0 +1,320 @@
+# Sense forks, batch 3: "maxime ens" (DISAMB-MAXIME-ENS) and "potency" (DISAMB-POTENCY).
+# Owner rules (#1233 B): each sense its own Lean declaration, one argument per sense,
+# coverage and exclusivity as explicit OPEN premises, per-sense arguments conclude root-route nodes.
+# (docs/notes/load-bearing-terms.md; explorations/term-sense-forks-3-maxime-ens.toml,
+# explorations/term-sense-forks-3-potency.toml). Analyst formulations, attribution deferred.
+
+[batch]
+vocab = "TruthCore.Causality.TermSenseForks"
+results = "TruthCore.Results.Causality.TermSenseForks3"
+
+# ---- "maxime ens" ----
+
+[[statement]]
+id = "STMT-MAXIME-SENSES-EXHAUSTIVE"
+lean = "MaximeSensesExhaustive"
+paraphrase = "OPEN frontier premise (coverage, attribution deferred): each of the two uses of the superlative in the quarta via's last step (something is maxime ens; what is maxime in being causes being in all others) is read in one of three senses, merely maximal in being (MAXIME_1, IsMaximalIn at esse), greatest represented degree of being (MAXIME_2, GreatestDegreeBearer at esse) or more a being than every other thing (MAXIME_3, StrictlyGreatestIn at esse), selected by the route's reading, and the use's predicate is exactly that sense's predicate. Anselm's greatest conceivable being is not listed: a rival who reads the quarta via that way denies this premise."
+definitions = ["DEF-ROUTE-SENSE-SELECTION", "DEF-MAXIME-ENS", "DEF-GREATEST-DEGREE-IN-A-PERFECTION", "DEF-GREATEST-BEING-STRICT", "DEF-ESSE"]
+disambiguations = ["DISAMB-MAXIME-ENS"]
+
+[[statement]]
+id = "STMT-MAXIME-SENSE-UNIQUE"
+lean = "MaximeSenseUnique"
+paraphrase = "OPEN frontier premise (exclusivity, attribution deferred): the route's reading of the superlative in the quarta via's last step selects at most one of the three senses, so both uses take the same one. A constraint on the reading choice, not a claim that maximal, greatest-degree and strictly greatest beings are different beings."
+definitions = ["DEF-ROUTE-SENSE-SELECTION"]
+disambiguations = ["DISAMB-MAXIME-ENS"]
+
+[[statement]]
+id = "STMT-SOME-MAXIME-IN-ROUTE-SENSE"
+lean = "SomeMaximeInRouteSense"
+paraphrase = "OPEN analyst premise (attribution deferred): something is maxime ens, the superlative in the route's reading of its existence use."
+definitions = ["DEF-ROUTE-SENSE-SELECTION", "DEF-MAXIME-ENS"]
+disambiguations = ["DISAMB-MAXIME-ENS"]
+
+[[statement]]
+id = "STMT-ROUTE-MAXIME-CAUSES-ALL-BEINGS"
+lean = "RouteMaximeCausesAllBeings"
+paraphrase = "OPEN analyst premise (attribution deferred): whatever is maxime ens, the superlative in the route's reading of its causal use, causes being (CausesIn at esse) in every other thing that has being."
+definitions = ["DEF-ROUTE-SENSE-SELECTION", "DEF-CAUSE-OF-PERFECTION", "DEF-ESSE"]
+disambiguations = ["DISAMB-MAXIME-ENS"]
+
+[[statement]]
+id = "STMT-SOME-BEING-MAXIMAL-IN-BEING"
+lean = "SomeBeingMaximalInBeing"
+paraphrase = "MAXIME_1 (attribution deferred): some being is MAXIMAL in being: it has being and nothing is more a being than it. It does not say that this being exceeds every other being."
+definitions = ["DEF-MAXIME-ENS", "DEF-MORE-IN", "DEF-ESSE"]
+disambiguations = ["DISAMB-MAXIME-ENS"]
+
+[[statement]]
+id = "STMT-SOME-BEING-GREATEST-IN-BEING"
+lean = "SomeBeingGreatestInBeing"
+paraphrase = "MAXIME_2 (attribution deferred): some being has the GREATEST represented degree of being: it has being and no being's represented degree is above its own. Ties with other bearers are allowed."
+definitions = ["DEF-GREATEST-DEGREE-IN-A-PERFECTION", "DEF-ESSE"]
+disambiguations = ["DISAMB-MAXIME-ENS"]
+
+[[statement]]
+id = "STMT-SOME-BEING-STRICTLY-GREATEST-IN-BEING"
+lean = "SomeBeingStrictlyGreatestInBeing"
+paraphrase = "MAXIME_3 (attribution deferred): some being is STRICTLY greatest in being: it has being and is more a being than every other thing."
+definitions = ["DEF-GREATEST-BEING-STRICT", "DEF-MORE-IN", "DEF-ESSE"]
+disambiguations = ["DISAMB-MAXIME-ENS"]
+
+[[statement]]
+id = "STMT-STRICTLY-GREATEST-IN-BEING-CAUSES-ALL"
+lean = "StrictlyGreatestInBeingCausesAllBeings"
+paraphrase = "MAXIME_3 (attribution deferred): whatever is STRICTLY greatest in being causes being in every other thing that has being. The strict-sense counterpart of STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS."
+definitions = ["DEF-GREATEST-BEING-STRICT", "DEF-CAUSE-OF-PERFECTION", "DEF-ESSE"]
+disambiguations = ["DISAMB-MAXIME-ENS"]
+
+[[statement]]
+id = "STMT-GREATEST-IN-BEING-IS-MAXIMAL"
+lean = "GreatestInBeingIsMaximal"
+paraphrase = "OPEN sense bridge MAXIME_2 to MAXIME_1 (attribution deferred): whatever has the GREATEST represented degree of being is MAXIMAL in being, nothing being more a being than it."
+definitions = ["DEF-GREATEST-DEGREE-IN-A-PERFECTION", "DEF-MAXIME-ENS", "DEF-ESSE"]
+disambiguations = ["DISAMB-MAXIME-ENS"]
+
+[[statement]]
+id = "STMT-STRICTLY-GREATEST-IN-BEING-IS-MAXIMAL"
+lean = "StrictlyGreatestInBeingIsMaximal"
+paraphrase = "OPEN sense bridge MAXIME_3 to MAXIME_1 (attribution deferred): whatever is STRICTLY greatest in being is MAXIMAL in being, nothing being more a being than it."
+definitions = ["DEF-GREATEST-BEING-STRICT", "DEF-MAXIME-ENS", "DEF-ESSE"]
+disambiguations = ["DISAMB-MAXIME-ENS"]
+
+[[statement]]
+id = "STMT-MORE-IN-BEING-TRACKS-DEGREE"
+lean = "MoreInBeingTracksDegree"
+paraphrase = "OPEN analyst premise (attribution deferred): whatever is more a being than m has being and a strictly higher represented degree of being than m. One direction of the strict degree calibration (STMT-MORE-IN-MATCHES-STRICT-REPRESENTED-DEGREE), at esse only and with the comparison's left relatum required to have being."
+definitions = ["DEF-MORE-IN", "DEF-MAXIMUM-CALIBRATION-PROFILE", "DEF-ESSE"]
+disambiguations = ["DISAMB-MAXIME-ENS"]
+
+[[statement]]
+id = "STMT-MAXIMAL-IN-BEING-IS-STRICTLY-GREATEST"
+lean = "MaximalInBeingIsStrictlyGreatest"
+paraphrase = "OPEN sense bridge MAXIME_1 to MAXIME_3 (attribution deferred): whatever is MAXIMAL in being is STRICTLY greatest in being, more a being than every other thing. What the STRICT reading of the causal principle needs to reach the MAXIMAL root statement STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS."
+definitions = ["DEF-MAXIME-ENS", "DEF-GREATEST-BEING-STRICT", "DEF-ESSE"]
+disambiguations = ["DISAMB-MAXIME-ENS"]
+
+[[statement]]
+id = "STMT-MORE-IN-BEING-CONNECTED"
+lean = "MoreInBeingConnected"
+paraphrase = "OPEN analyst premise (attribution deferred): any two distinct things are comparable in being: one is more a being than the other. It ranges over all things, not only over beings having esse; a homogeneous total scale of being, which analogical being denies."
+definitions = ["DEF-MORE-IN", "DEF-ESSE"]
+disambiguations = ["DISAMB-MAXIME-ENS", "DISAMB-BEING-UNIVOCITY"]
+
+# ---- "potency" ----
+
+[[statement]]
+id = "STMT-POTENCY-SENSES-EXHAUSTIVE"
+lean = "PotencySensesExhaustive"
+paraphrase = "OPEN frontier premise (coverage, attribution deferred): each of the two uses of 'in potency' in the prima via step (what is moved is in potency; nothing is in act and in potency in the same respect) is read as ADOPTED potency (POTENCY_1, capacity without the act), INDEPENDENT potency (POTENCY_2, the primitive InPotency relation) or bare CAPACITY (POTENCY_3, whether or not exercised), selected by the route's reading, and the use's predicate is exactly that sense's predicate."
+definitions = ["DEF-ROUTE-SENSE-SELECTION", "DEF-POTENCY", "DEF-INDEPENDENT-POTENCY", "DEF-CAPACITY-TO-BE"]
+disambiguations = ["DISAMB-POTENCY"]
+
+[[statement]]
+id = "STMT-POTENCY-SENSE-UNIQUE"
+lean = "PotencySenseUnique"
+paraphrase = "OPEN frontier premise (exclusivity, attribution deferred): the route's reading of 'in potency' in the prima via step selects at most one sense, so both uses take the same one. Not a disjointness claim: adopted potency implies capacity."
+definitions = ["DEF-ROUTE-SENSE-SELECTION"]
+disambiguations = ["DISAMB-POTENCY"]
+
+[[statement]]
+id = "STMT-MOVED-ONLY-AS-IN-ADOPTED-POTENCY"
+lean = "MovedOnlyAsInAdoptedPotency"
+paraphrase = "POTENCY_1, ADOPTED reading (attribution deferred): whatever is moved in a respect has the capacity for it and is not actually in act in that respect."
+definitions = ["DEF-POTENCY", "DEF-CAPACITY-TO-BE", "DEF-MOTION-AS-REDUCTION", "DEF-RESPECT"]
+disambiguations = ["DISAMB-POTENCY"]
+
+[[statement]]
+id = "STMT-MOVED-ONLY-AS-CAPABLE"
+lean = "MovedOnlyAsCapable"
+paraphrase = "POTENCY_3, CAPACITY reading (attribution deferred): whatever is moved in a respect has the capacity for it, exercised or not."
+definitions = ["DEF-CAPACITY-TO-BE", "DEF-MOTION-AS-REDUCTION", "DEF-RESPECT"]
+disambiguations = ["DISAMB-POTENCY"]
+
+[[statement]]
+id = "STMT-NOTHING-ACTUAL-AND-CAPABLE"
+lean = "NothingActualAndCapable"
+paraphrase = "POTENCY_3, CAPACITY reading (attribution deferred): nothing is in act in a respect while having the capacity for it. Refuted under STMT-SOME-CAPACITY-EXERCISED."
+definitions = ["DEF-CAPACITY-TO-BE", "DEF-ACT", "DEF-RESPECT"]
+disambiguations = ["DISAMB-POTENCY"]
+
+[[statement]]
+id = "STMT-CAPACITY-NON-SIMULTANEITY-FAILS"
+lean = "CapacityNonSimultaneityFails"
+paraphrase = "Not everything in act in a respect lacks the capacity for it: the CAPACITY reading of non-simultaneity (STMT-NOTHING-ACTUAL-AND-CAPABLE) is false."
+definitions = ["DEF-CAPACITY-TO-BE", "DEF-ACT"]
+disambiguations = ["DISAMB-POTENCY"]
+
+[[statement]]
+id = "STMT-SOME-CAPACITY-EXERCISED"
+lean = "SomeCapacityExercised"
+paraphrase = "OPEN analyst premise (attribution deferred): some capacity is retained while exercised: something is in act in a respect and has the capacity for it, as the builder who is building keeps the capacity to build (navigation: Metaphysics IX.3 against the Megarians)."
+definitions = ["DEF-CAPACITY-TO-BE", "DEF-ACT"]
+disambiguations = ["DISAMB-POTENCY"]
+
+[[statement]]
+id = "STMT-SOMETHING-HAS-A-CAPACITY"
+lean = "SomethingHasACapacity"
+paraphrase = "OPEN analyst premise (attribution deferred): something has a capacity for some respect."
+definitions = ["DEF-CAPACITY-TO-BE"]
+disambiguations = ["DISAMB-POTENCY"]
+
+[[statement]]
+id = "STMT-TERM-SENSE-FORKS-3-CONTROLS"
+lean = "TermSenseForks3Controls"
+paraphrase = "Finite interpretations for the maxime-ens and potency forks: per term, a model in which coverage holds, exclusivity fails, the two uses are read in different senses, every other premise of the joint theorem holds and its conclusion fails; per term, the same with coverage failing instead; a nonvacuity witness per joint theorem; for MAXIME_2 and MAXIME_3, a model of the existence-layer branch without its sense bridge in which the conclusion fails; a tied-maxima model in which the STRICT causal principle holds vacuously and STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS fails; a model with asymmetric more-in and two tied maximal beings, so that a MAXIMAL being exists and no STRICTLY greatest one does; and omission models for both premises of the ADOPTED potency branch. Satisfiability and omission only; no model describes reality."
+definitions = ["DEF-ROUTE-SENSE-SELECTION", "DEF-MAXIME-ENS", "DEF-GREATEST-DEGREE-IN-A-PERFECTION", "DEF-GREATEST-BEING-STRICT", "DEF-POTENCY", "DEF-CAPACITY-TO-BE"]
+disambiguations = ["DISAMB-MAXIME-ENS", "DISAMB-POTENCY"]
+
+# ---- Arguments: maxime ens ----
+
+[[argument]]
+id = "MAXIME-ENS-CAUSES-ALL-AS-MAXIMAL"
+theorem = "maximeEnsCausesAllMaximal"
+premises = ["STMT-SOME-BEING-MAXIMAL-IN-BEING", "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS"]
+conclusion = "STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL"
+rule = "Existential elimination and modus ponens"
+meaning = "MAXIME_1 branch of the quarta via's last step: some being is MAXIMAL in being, and whatever is MAXIMAL in being causes being in every other being; so some MAXIMAL being causes being in every other being."
+
+[[argument]]
+id = "MAXIME-ENS-CAUSES-ALL-AS-GREATEST-DEGREE"
+theorem = "maximeEnsCausesAllGreatestDegree"
+premises = ["STMT-SOME-BEING-GREATEST-IN-BEING", "STMT-GREATEST-DEGREE-IN-GENUS-CAUSES-ALL-IN-GENUS", "STMT-GREATEST-IN-BEING-IS-MAXIMAL"]
+conclusion = "STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL"
+rule = "Existential elimination, universal instantiation at esse, modus ponens"
+meaning = "MAXIME_2 branch: some being has the GREATEST degree of being; a GREATEST-degree bearer of a perfection causes it in every other bearer (instantiated at esse); and the explicit sense bridge says a GREATEST-degree bearer of being is MAXIMAL in being. So some MAXIMAL being causes being in every other being. The control model without the bridge has a GREATEST bearer that something exceeds."
+
+[[argument]]
+id = "MAXIME-ENS-CAUSES-ALL-AS-STRICTLY-GREATEST"
+theorem = "maximeEnsCausesAllStrict"
+premises = ["STMT-SOME-BEING-STRICTLY-GREATEST-IN-BEING", "STMT-STRICTLY-GREATEST-IN-BEING-CAUSES-ALL", "STMT-STRICTLY-GREATEST-IN-BEING-IS-MAXIMAL"]
+conclusion = "STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL"
+rule = "Existential elimination and modus ponens"
+meaning = "MAXIME_3 branch: some being is STRICTLY greatest in being; such a being causes being in every other being; and the explicit sense bridge says a STRICTLY greatest being is MAXIMAL in being. So some MAXIMAL being causes being in every other being. Its existence premise is stronger than MAXIME_1's: the tied control has a MAXIMAL being and no STRICTLY greatest one."
+
+[[argument]]
+id = "GREATEST-IN-BEING-MAXIMAL-FROM-DEGREE-TRACKING"
+theorem = "greatestInBeingIsMaximal"
+premises = ["STMT-MORE-IN-BEING-TRACKS-DEGREE"]
+conclusion = "STMT-GREATEST-IN-BEING-IS-MAXIMAL"
+rule = "Reductio through the preorder: a strictly higher degree contradicts being at most the greatest degree"
+meaning = "Derives the MAXIME_2 to MAXIME_1 sense bridge: if whatever is more a being than m has being and a strictly higher represented degree, nothing is more a being than a GREATEST-degree bearer, since its degree would be both above and at most the greatest."
+
+[[argument]]
+id = "STRICTLY-GREATEST-MAXIMAL-FROM-ASYMMETRY"
+theorem = "strictlyGreatestInBeingIsMaximal"
+premises = ["STMT-MORE-IN-IS-ASYMMETRIC"]
+conclusion = "STMT-STRICTLY-GREATEST-IN-BEING-IS-MAXIMAL"
+rule = "Asymmetry: self-comparison excluded, so the witness is distinct; then asymmetry again"
+meaning = "Derives the MAXIME_3 to MAXIME_1 sense bridge: if being more such is asymmetric, nothing is more a being than a STRICTLY greatest being m. For y other than m, m is more a being than y, so y is not more a being than m; and m is not more a being than itself, since asymmetry excludes self-comparison."
+
+[[argument]]
+id = "MAXIME-SENSE-FORK-CAUSES-BEING-OF-ALL"
+theorem = "maximeEnsCausesAllBySenseFork"
+premises = ["STMT-MAXIME-SENSES-EXHAUSTIVE", "STMT-MAXIME-SENSE-UNIQUE", "STMT-SOME-MAXIME-IN-ROUTE-SENSE", "STMT-ROUTE-MAXIME-CAUSES-ALL-BEINGS", "STMT-GREATEST-IN-BEING-IS-MAXIMAL", "STMT-STRICTLY-GREATEST-IN-BEING-IS-MAXIMAL"]
+conclusion = "STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL"
+rule = "Uses agree from coverage and exclusivity; proof by cases over the sense enum; sense bridges"
+meaning = "Optional summary over MAXIME_1-3. Coverage reads both uses of the superlative (existence, causal) in selected senses; exclusivity makes them one sense, so the witness of the existence use falls under the causal use and causes being in every other being; whichever sense it is, the witness is MAXIMAL in being, directly or through a sense bridge. The controls give a model of coverage without exclusivity (existence MAXIMAL, causal GREATEST-degree, incomparable degrees) in which the conclusion fails."
+
+[[argument]]
+id = "MAXIMUM-IN-BEING-CAUSES-ALL-AS-MAXIMAL"
+theorem = "maximumInBeingCausesAllMaximal"
+premises = ["STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS"]
+conclusion = "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS"
+rule = "Universal instantiation at esse"
+meaning = "MAXIME_1 branch of the causal principle at the root-route node: the principle that what is MAXIMAL in a genus causes all in that genus, instantiated at being, gives that whatever is MAXIMAL in being causes being in every other being."
+
+[[argument]]
+id = "MAXIMUM-IN-BEING-CAUSES-ALL-AS-STRICTLY-GREATEST"
+theorem = "maximumInBeingCausesAllStrict"
+premises = ["STMT-STRICTLY-GREATEST-IN-BEING-CAUSES-ALL", "STMT-MAXIMAL-IN-BEING-IS-STRICTLY-GREATEST"]
+conclusion = "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS"
+rule = "Modus ponens through the sense bridge"
+meaning = "MAXIME_3 branch of the causal principle at the root-route node: what is STRICTLY greatest in being causes being in every other being, and the explicit sense bridge says what is MAXIMAL in being is STRICTLY greatest; so whatever is MAXIMAL in being causes being in every other being. The control with tied maxima satisfies the STRICT principle vacuously and falsifies the conclusion, so the bridge is needed. The MAXIME_2 branch at this node is the existing MAXIMAL-BEING-CAUSES-FROM-GREATEST-DEGREE."
+
+[[argument]]
+id = "MAXIMAL-IN-BEING-STRICT-FROM-CONNECTEDNESS"
+theorem = "maximalInBeingIsStrictlyGreatest"
+premises = ["STMT-MORE-IN-BEING-CONNECTED"]
+conclusion = "STMT-MAXIMAL-IN-BEING-IS-STRICTLY-GREATEST"
+rule = "Disjunction elimination"
+meaning = "Derives the MAXIME_1 to MAXIME_3 sense bridge: if any two distinct things are comparable in being, then for a MAXIMAL being m and any other x, x is not more a being than m, so m is more a being than x."
+
+# ---- Arguments: potency ----
+
+[[argument]]
+id = "NO-SELF-MOTION-FROM-ADOPTED-POTENCY"
+theorem = "noSelfMotionAdoptedPotency"
+premises = ["STMT-MOVED-ONLY-AS-IN-ADOPTED-POTENCY", "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT"]
+conclusion = "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT"
+rule = "Modus tollens"
+meaning = "POTENCY_1 (ADOPTED) branch of the prima via step: what is moved in a respect is not in act in it (adopted potency), and what moves in a respect is in act in it; so nothing moves itself in the respect in which it is moved. No non-simultaneity premise is needed: the ADOPTED definition contains it. The controls show each of the two premises is needed."
+
+[[argument]]
+id = "NO-SELF-MOTION-FROM-CAPACITY"
+theorem = "noSelfMotionCapacity"
+premises = ["STMT-MOVED-ONLY-AS-CAPABLE", "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT", "STMT-NOTHING-ACTUAL-AND-CAPABLE"]
+conclusion = "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT"
+rule = "Modus tollens"
+meaning = "POTENCY_3 (CAPACITY) branch: what is moved has the CAPACITY, a mover is in act, and nothing in act has the CAPACITY for that act; so nothing moves itself in the same respect. The branch is valid, but its non-simultaneity premise is refuted under STMT-SOME-CAPACITY-EXERCISED (CAPACITY-NON-SIMULTANEITY-FAILS-FROM-EXERCISE)."
+
+[[argument]]
+id = "CAPACITY-NON-SIMULTANEITY-FAILS-FROM-EXERCISE"
+theorem = "capacityNonSimultaneityFails"
+premises = ["STMT-SOME-CAPACITY-EXERCISED"]
+conclusion = "STMT-CAPACITY-NON-SIMULTANEITY-FAILS"
+rule = "Reductio"
+meaning = "Per-sense failure of the CAPACITY branch: a CAPACITY retained while exercised falsifies 'nothing in act has the CAPACITY for that act'."
+
+[[argument]]
+id = "CAPACITY-EXERCISED-FROM-MEGARIAN-THESIS"
+theorem = "capacityExercisedFromMegarian"
+premises = ["STMT-MEGARIAN-ABILITY-ONLY-WHEN-ACTING", "STMT-SOMETHING-HAS-A-CAPACITY"]
+conclusion = "STMT-SOME-CAPACITY-EXERCISED"
+rule = "Existential elimination and modus ponens"
+meaning = "The Megarian thesis (whatever can be r is r), with some CAPACITY, gives a CAPACITY in exercise. So the CAPACITY branch fails both for Aristotle's builder who keeps the capacity while building and for the Megarian rival: the two disagree about capacity but not about this branch."
+
+[[argument]]
+id = "MOVED-AS-CAPABLE-FROM-ADOPTED-POTENCY"
+theorem = "movedOnlyAsCapableFromAdopted"
+premises = ["STMT-MOVED-ONLY-AS-IN-ADOPTED-POTENCY"]
+conclusion = "STMT-MOVED-ONLY-AS-CAPABLE"
+rule = "Conjunction elimination"
+meaning = "Strength order between the ADOPTED and CAPACITY readings of the moved use: being moved only as in ADOPTED potency implies being moved only as CAPABLE."
+
+[[argument]]
+id = "POTENCY-SENSE-FORK-NO-SELF-MOTION"
+theorem = "noSelfMotionByPotencySenseFork"
+premises = ["STMT-POTENCY-SENSES-EXHAUSTIVE", "STMT-POTENCY-SENSE-UNIQUE", "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY", "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT", "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT"]
+conclusion = "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT"
+rule = "Uses agree from coverage and exclusivity; modus tollens"
+meaning = "Optional summary over POTENCY_1-3. Coverage reads both uses of 'in potency' (what is moved is in potency; nothing is in act and in potency) in selected senses among ADOPTED, INDEPENDENT and CAPACITY; exclusivity makes them one sense. Whichever it is, a self-mover in a respect in which it is moved would be in potency there in that one sense and in act there, which non-simultaneity excludes. The controls give the mixed reading (moved use CAPACITY, non-simultaneity ADOPTED) with self-motion."
+
+[[argument]]
+id = "TERM-SENSE-FORKS-3-CONTROLS"
+theorem = "termSenseForks3Controls"
+premises = []
+conclusion = "STMT-TERM-SENSE-FORKS-3-CONTROLS"
+rule = "Explicit finite interpretations"
+meaning = "Finite interpretations for the maxime-ens and potency forks: coverage without exclusivity and coverage failing, each with the joint conclusion failing; a nonvacuity witness per joint theorem; bridge omission models for MAXIME_2 and MAXIME_3 (existence layer) and for the STRICT causal principle at the root node; tied maxima separating MAXIME_1 from MAXIME_3 existence; omission models for both ADOPTED potency premises. Satisfiability and omission only; no model describes reality."
+
+# ---- Relations ----
+
+[[relation]]
+id = "REL-SOME-CAPACITY-EXERCISED-REFUTES-CAPACITY-NON-SIMULTANEITY"
+subject_kind = "argument"
+subject_id = "CAPACITY-NON-SIMULTANEITY-FAILS-FROM-EXERCISE"
+predicate = "refutes"
+object_kind = "statement"
+object_id = "STMT-NOTHING-ACTUAL-AND-CAPABLE"
+note = "Conditional refutation of the CAPACITY branch of 'in potency' under the OPEN premise STMT-SOME-CAPACITY-EXERCISED, which both Aristotle's builder and the Megarian thesis (with some capacity) supply."
+
+[[relation]]
+id = "REL-ADOPTED-MOVED-STRENGTHENS-CAPABLE-MOVED"
+subject_kind = "statement"
+subject_id = "STMT-MOVED-ONLY-AS-IN-ADOPTED-POTENCY"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "STMT-MOVED-ONLY-AS-CAPABLE"
+verification_result_id = "MOVED-AS-CAPABLE-FROM-ADOPTED-POTENCY"
+note = "Strength order between POTENCY_1 and POTENCY_3 in the moved use. No strictness control; a moved thing that is capable and already in act separates them."

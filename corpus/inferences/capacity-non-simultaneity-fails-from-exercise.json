@@ -1,0 +1,11 @@
+{
+  "id": "INF-CAPACITY-NON-SIMULTANEITY-FAILS-FROM-EXERCISE",
+  "input_statement_ids": [
+    "STMT-SOME-CAPACITY-EXERCISED"
+  ],
+  "output_statement_id": "STMT-CAPACITY-NON-SIMULTANEITY-FAILS",
+  "rule": "Reductio",
+  "meaning": "Per-sense failure of the CAPACITY branch: a CAPACITY retained while exercised falsifies 'nothing in act has the CAPACITY for that act'.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

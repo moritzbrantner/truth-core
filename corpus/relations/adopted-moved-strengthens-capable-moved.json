@@ -1,0 +1,10 @@
+{
+  "id": "REL-ADOPTED-MOVED-STRENGTHENS-CAPABLE-MOVED",
+  "subject_kind": "statement",
+  "subject_id": "STMT-MOVED-ONLY-AS-IN-ADOPTED-POTENCY",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "STMT-MOVED-ONLY-AS-CAPABLE",
+  "verification_result_id": "MOVED-AS-CAPABLE-FROM-ADOPTED-POTENCY",
+  "note": "Strength order between POTENCY_1 and POTENCY_3 in the moved use. No strictness control; a moved thing that is capable and already in act separates them."
+}

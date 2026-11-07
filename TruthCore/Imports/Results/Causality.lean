@@ -246,6 +246,7 @@ public import TruthCore.Results.Causality.TemporalEventControls.Solution
 public import TruthCore.Results.Causality.TemporalPrimaVia.Controls.Solution
 public import TruthCore.Results.Causality.TemporalPrimaVia.Route.Solution
 public import TruthCore.Results.Causality.TermSenseForks.Solution
+public import TruthCore.Results.Causality.TermSenseForks3.Solution
 public import TruthCore.Results.Causality.UnderivedCommonSource.Solution
 public import TruthCore.Results.Causality.UnderivedEssenceEsse.Solution
 public import TruthCore.Results.Causality.UnderivedNonComposite.Solution

@@ -1,0 +1,14 @@
+{
+  "id": "STMT-SOME-BEING-MAXIMAL-IN-BEING",
+  "label": "Some being is MAXIME_1 (maximal) in being",
+  "paraphrase": "MAXIME_1 (attribution deferred): some being is MAXIMAL in being: it has being and nothing is more a being than it. It does not say that this being exceeds every other being.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.SomeBeingMaximalInBeing",
+  "definition_ids": [
+    "DEF-MAXIME-ENS",
+    "DEF-MORE-IN",
+    "DEF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MAXIME-ENS"
+  ]
+}

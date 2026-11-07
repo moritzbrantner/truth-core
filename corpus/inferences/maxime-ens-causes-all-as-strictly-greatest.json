@@ -1,0 +1,13 @@
+{
+  "id": "INF-MAXIME-ENS-CAUSES-ALL-AS-STRICTLY-GREATEST",
+  "input_statement_ids": [
+    "STMT-SOME-BEING-STRICTLY-GREATEST-IN-BEING",
+    "STMT-STRICTLY-GREATEST-IN-BEING-CAUSES-ALL",
+    "STMT-STRICTLY-GREATEST-IN-BEING-IS-MAXIMAL"
+  ],
+  "output_statement_id": "STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL",
+  "rule": "Existential elimination and modus ponens",
+  "meaning": "MAXIME_3 branch: some being is STRICTLY greatest in being; such a being causes being in every other being; and the explicit sense bridge says a STRICTLY greatest being is MAXIMAL in being. So some MAXIMAL being causes being in every other being. Its existence premise is stronger than MAXIME_1's: the tied control has a MAXIMAL being and no STRICTLY greatest one.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

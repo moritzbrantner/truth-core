@@ -1,0 +1,11 @@
+{
+  "id": "STRICTLY-GREATEST-MAXIMAL-FROM-ASYMMETRY",
+  "label": "Asymmetric more-in makes a MAXIME_3 being MAXIME_1",
+  "argument_id": "STRICTLY-GREATEST-MAXIMAL-FROM-ASYMMETRY",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks3.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks3.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks3.strictlyGreatestInBeingIsMaximal",
+  "comparator_config": "results/STRICTLY-GREATEST-MAXIMAL-FROM-ASYMMETRY/comparator.json",
+  "status": "solution-present",
+  "description": "Derives the MAXIME_3 to MAXIME_1 sense bridge: if being more such is asymmetric, nothing is more a being than a STRICTLY greatest being m. For y other than m, m is more a being than y, so y is not more a being than m; and m is not more a being than itself, since asymmetry excludes self-comparison."
+}

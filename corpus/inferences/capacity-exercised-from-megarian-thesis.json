@@ -1,0 +1,12 @@
+{
+  "id": "INF-CAPACITY-EXERCISED-FROM-MEGARIAN-THESIS",
+  "input_statement_ids": [
+    "STMT-MEGARIAN-ABILITY-ONLY-WHEN-ACTING",
+    "STMT-SOMETHING-HAS-A-CAPACITY"
+  ],
+  "output_statement_id": "STMT-SOME-CAPACITY-EXERCISED",
+  "rule": "Existential elimination and modus ponens",
+  "meaning": "The Megarian thesis (whatever can be r is r), with some CAPACITY, gives a CAPACITY in exercise. So the CAPACITY branch fails both for Aristotle's builder who keeps the capacity while building and for the Megarian rival: the two disagree about capacity but not about this branch.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

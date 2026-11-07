@@ -1,0 +1,14 @@
+{
+  "id": "STMT-MAXIMAL-IN-BEING-IS-STRICTLY-GREATEST",
+  "label": "A MAXIME_1 (maximal) being is MAXIME_3 (strictly greatest) in being",
+  "paraphrase": "OPEN sense bridge MAXIME_1 to MAXIME_3 (attribution deferred): whatever is MAXIMAL in being is STRICTLY greatest in being, more a being than every other thing. What the STRICT reading of the causal principle needs to reach the MAXIMAL root statement STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.MaximalInBeingIsStrictlyGreatest",
+  "definition_ids": [
+    "DEF-MAXIME-ENS",
+    "DEF-GREATEST-BEING-STRICT",
+    "DEF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MAXIME-ENS"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "STMT-CAPACITY-NON-SIMULTANEITY-FAILS",
+  "label": "Some actual thing has the POTENCY_3 capacity for its act",
+  "paraphrase": "Not everything in act in a respect lacks the capacity for it: the CAPACITY reading of non-simultaneity (STMT-NOTHING-ACTUAL-AND-CAPABLE) is false.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.CapacityNonSimultaneityFails",
+  "definition_ids": [
+    "DEF-CAPACITY-TO-BE",
+    "DEF-ACT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-POTENCY"
+  ]
+}
