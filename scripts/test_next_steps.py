@@ -51,6 +51,48 @@ class NextStepsTest(unittest.TestCase):
         self.assertEqual(pair["left_failure_statement_ids"], ["A", "B"])
         self.assertIn("A", view["failure_modes"])
         self.assertEqual(view["failure_modes"]["A"]["recorded_rivals"], [])
+        self.assertEqual(view["joint_settlement_summary"], {
+            "verified_route_count": 2,
+            "pair_count": 1,
+            "minimum_pair_overlap": 1,
+            "shared_by_all_reported_routes": ["A"],
+            "scope": "Intersection of the reported verified root bundles only; not an exhaustive set of possible routes or a proof of necessary premises.",
+        })
+
+    def test_joint_common_obligations_require_every_reported_verified_route(self):
+        statements = [statement(sid) for sid in ["ROOT", "A", "B", "C", "D"]]
+        arguments = [argument("LEFT", ["A", "B"], "ROOT"),
+                     argument("RIGHT", ["A", "C"], "ROOT"),
+                     argument("UNVERIFIED", ["D"], "ROOT")]
+        results = [{"id": aid, "argument_id": aid} for aid in ["LEFT", "RIGHT"]]
+        view = corpus.frontier_report(statements, arguments, results, [], root="ROOT", _include_next_steps=True)["next_steps"]
+        summary = view["joint_settlement_summary"]
+        self.assertEqual(summary["verified_route_count"], 2)
+        self.assertEqual(summary["shared_by_all_reported_routes"], ["A"])
+        self.assertEqual(summary["minimum_pair_overlap"], 1)
+        self.assertFalse(view["joint_settlements"][0]["certified"])
+
+    def test_joint_summary_does_not_infer_common_leaves_without_route_pairs(self):
+        statements = [statement(sid) for sid in ["ROOT", "A"]]
+        arguments = [argument("ONLY", ["A"], "ROOT")]
+        results = [{"id": "ONLY", "argument_id": "ONLY"}]
+        view = corpus.frontier_report(statements, arguments, results, [], root="ROOT", _include_next_steps=True)["next_steps"]
+        self.assertEqual(view["joint_settlement_summary"]["verified_route_count"], 1)
+        self.assertEqual(view["joint_settlement_summary"]["pair_count"], 0)
+        self.assertIsNone(view["joint_settlement_summary"]["minimum_pair_overlap"])
+        self.assertEqual(view["joint_settlement_summary"]["shared_by_all_reported_routes"], [])
+
+    def test_pairwise_overlap_does_not_imply_one_global_common_obligation(self):
+        statements = [statement(sid) for sid in ["ROOT", "A", "B", "C"]]
+        arguments = [argument("AB", ["A", "B"], "ROOT"),
+                     argument("AC", ["A", "C"], "ROOT"),
+                     argument("BC", ["B", "C"], "ROOT")]
+        results = [{"id": aid, "argument_id": aid} for aid in ["AB", "AC", "BC"]]
+        view = corpus.frontier_report(statements, arguments, results, [], root="ROOT", _include_next_steps=True)["next_steps"]
+        summary = view["joint_settlement_summary"]
+        self.assertEqual(summary["pair_count"], 3)
+        self.assertEqual(summary["minimum_pair_overlap"], 1)
+        self.assertEqual(summary["shared_by_all_reported_routes"], [])
 
     def test_empty_rivals_are_not_a_defense(self):
         leaves = self.report()["next_steps"]["leaves"]

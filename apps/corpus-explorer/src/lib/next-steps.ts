@@ -32,6 +32,8 @@ export type NextPair = {
 export type NextStepsReport = {
   root: NextStatement | null; root_known: boolean; settlement_rules: Record<string, string>; impact_scope: string;
   routes: NextRoute[]; cheapest_argument_id: string | null; leaves: NextLeaf[]; joint_settlements: NextPair[];
+  joint_settlement_summary: {verified_route_count: number; pair_count: number; minimum_pair_overlap: number | null;
+    shared_by_all_reported_routes: string[]; scope: string};
   owner_decisions: {statement_id: string; paraphrase: string; impact: NextLeaf["impact"]; actions: NextLeaf["definition_decisions"]}[];
   joint_settlement_schema_result_ids: string[];
   failure_modes: Record<string, {statement_id: string; failure: string; recorded_rivals: NextRival[]; negation_consequence_coverage: string}>;

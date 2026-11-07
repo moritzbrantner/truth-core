@@ -105,8 +105,9 @@ def next_steps_report(report: dict, statements: list[dict], arguments: list[dict
                  "negation_consequence_coverage": "unresolved: no certificate covering this failure mode registered"}
                 for sid in route["open_premise_statement_ids"]]
 
+    verified_routes = [r for r in routes if r["verified"]]
     pairs = []
-    for left, right in combinations([r for r in routes if r["verified"]], 2):
+    for left, right in combinations(verified_routes, 2):
         overlap = sorted(set(left["open_premise_statement_ids"]) & set(right["open_premise_statement_ids"]))
         pairs.append({"left_argument_id": left["argument_id"], "right_argument_id": right["argument_id"],
                       "shared_statement_ids": overlap, "overlap_count": len(overlap),
@@ -117,6 +118,18 @@ def next_steps_report(report: dict, statements: list[dict], arguments: list[dict
                                     "Establish incompatibility of the two consequences, with all its premises settled.",
                                     "Compose both route implications with the joint-failure certificate." ]})
     pairs.sort(key=lambda pair: (pair["overlap_count"], pair["left_argument_id"], pair["right_argument_id"]))
+    # A disjunction of fixed conjunctive bundles still entails each conjunct
+    # shared by every bundle. This is only a property of frontier's *reported*
+    # sufficient bundles, not a search over all possible root derivations.
+    joint_summary = {
+        "verified_route_count": len(verified_routes),
+        "pair_count": len(pairs),
+        "minimum_pair_overlap": pairs[0]["overlap_count"] if pairs else None,
+        "shared_by_all_reported_routes": sorted(set.intersection(*(
+            set(route["open_premise_statement_ids"]) for route in verified_routes
+        ))) if len(verified_routes) > 1 else [],
+        "scope": "Intersection of the reported verified root bundles only; not an exhaustive set of possible routes or a proof of necessary premises.",
+    }
 
     partitions = []
     for result in results:
@@ -151,7 +164,8 @@ def next_steps_report(report: dict, statements: list[dict], arguments: list[dict
             "root_known": report["root_known"], "settlement_rules": SETTLEMENT_RULES,
             "impact_scope": "Counterfactual: establish this leaf alone, propagate the frontier's existing rules, and recompute all verified route costs. No actual approval, proof, or settlement is added.",
             "routes": routes, "cheapest_argument_id": report["routes"]["cheapest_argument_id"],
-            "leaves": leaf_rows, "joint_settlements": pairs, "partitions": partitions,
+            "leaves": leaf_rows, "joint_settlements": pairs,
+            "joint_settlement_summary": joint_summary, "partitions": partitions,
             "joint_settlement_schema_result_ids": [r["id"] for r in results if r.get("joint_settlement_schema") is True],
             "failure_modes": {mode["statement_id"]: mode for route in routes for mode in failures(route)},
             "floor_register": floor,
@@ -188,6 +202,10 @@ def format_next_steps(report: dict) -> str:
         for cell in partition["cases"]:
             lines.append(f"    {cell['label']}: {'refuted' if cell['refuted'] else 'undefeated'} ({cell['lean_declaration']})")
     lines.append(f"Joint settlement: {len(report['joint_settlements'])} unresolved route pairs; see JSON for all failure modes.")
+    joint = report["joint_settlement_summary"]
+    lines.append(f"Shared by all {joint['verified_route_count']} reported verified routes: "
+                 f"{len(joint['shared_by_all_reported_routes'])} open obligations (not exhaustive route necessity).")
+    lines.extend(f"  {sid}" for sid in joint["shared_by_all_reported_routes"])
     lines.append(report["impact_scope"])
     return "\n".join(lines)
 
