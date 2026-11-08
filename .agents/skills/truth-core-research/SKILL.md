@@ -26,6 +26,31 @@ See AGENTS.md, "Connect every library to the case".
 
 Identity: corpus ids are opaque uuids. Never mint a readable id; give each new record a plain, sense-tagged `label` (`python3 scripts/new_id.py` mints ids, `argument_batch.py` does it for specs). Commands accept a uuid, legacy id (`STMT-…`) or label.
 
+When reconciling an older research branch, compare its records with current main
+before replaying commits or restoring a stash. Preserve newer definitions,
+disambiguations, module declarations and verified findings. A commit absent from
+main's history does not mean its result is absent from the corpus.
+
+For sense and identity work, follow the schema actually present in the selected
+checkout. The structure changes are tracked in #1233, with sense indexing in
+#1235, opaque record identity in #1240, and recursive formal meaning in #1242.
+Once available, use the existing identity resolver and batch generator: reuse
+migrated UUIDs and their legacy aliases, give new records UUIDs and human labels,
+and preserve sense UUIDs independently of display labels. Do not recreate an
+existing result under a fresh identity or treat a label as its meaning.
+
+For each load-bearing word, inspect the definition body and its consequential
+terms recursively, reusing existing vocabulary. Distinguish explicit primitives
+and their open interpretation obligations from completed definitions. Distinct
+names or Lean constants alone do not establish distinct meanings. Keep contested
+bridges as explicit propositions rather than hiding them in definitions.
+Where the sense schema is available, declare the argument's selected senses,
+use separate arguments for separate readings, and register an actual premise or
+conclusion bridge when moving between them. Check that bound hypotheses and the
+conclusion instantiate the intended sense, including predicate parameters.
+Legacy allowlisting records unfinished work; it is not evidence of successful
+sense binding. Keep the existing frozen Challenges and certification boundaries.
+
 Inventory before formalization: for an existing target argument run `python3 scripts/corpus.py context <ARGUMENT-OR-RESULT-ID>`, then inspect each touched premise's `python3 scripts/corpus.py dossier <STMT-ID>`, then exact existing definitions, theorem types and recorded attempts. Prefer a concrete rival model or a consequential bridge test over another general-purpose distinction. Coordinate a genuinely new shared definition with its designated owner; submit independent proof edits directly yourself.
 
 For Lean development use the coordinator's existing local service and preview identity. Do not start a service/session or repeat preparation. From your canonical clone, submit full source content:

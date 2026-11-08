@@ -174,6 +174,85 @@ unresolved bridges; conditional consequence does not establish premise truth.
 
 ## Current delivery and parallel work
 
+
+### Structure reconciliation (2026-11-08)
+
+Reconciliation baseline: main `6849d366137611882c1b96e351ef8733d3a901af`;
+preserved research branch
+`research/lean-existential-self-actualization-20261031` at
+`a2d97ecf1429e86b3e12f15b91b735f85e27822e`. Both are on origin.
+This section supersedes the delivery next-step text below for the already
+integrated unique-root batch; the historical verification observations remain.
+
+All 863 result paths and 865 argument paths on that research branch exist on
+this main. This is a path-preservation audit, not a claim that every old record
+is unchanged or newly verified. In particular, the three branch-added result
+records ATOMIC-SOURCE-TO-GRAPH-SOURCE-WITNESS,
+UNIQUE-COMPLETE-CAUSE-TO-UNIQUE-PREDECESSOR and
+SOURCE-FUNCTIONALITY-WELL-FOUNDED are byte-identical to main.
+Do not replay the long branch wholesale.
+
+The newest stash is redundant with newer main for UNIQUE-ROOT-PERFECTION:
+main retains the frozen Challenge and uses the public-module Solution, adds
+DISAMB-MAXIME-ENS to the argument, and retains the updated certification findings
+in the attempt. The logic-first policy and skill text from that stash are also
+already present. Keep the stash as recovery history; do not pop it over main.
+The three older stashes contain the deferred DependentNecessary control and
+NecessaryUltimateSource edits. They remain unintegrated research, not certified
+new results or evidence that their old priority should be restored.
+
+The old branch also retains material absent from main: eight A6/A7 statement
+paths, two definition paths, one disambiguation path, twenty claim paths and
+26 passage paths. The exact files are recoverable from the preserved branch
+under `corpus/` with `necessarybeing-a6`, `necessarybeing-a7`, and the A1/home/
+instructions/context passage names. Preserve these source-reading leads there;
+source acquisition and attribution remain deferred. Do not copy their old
+identities or overwrite the newer necessary-individual-domain definition,
+which now distinguishes a primitive carrier from its consuming DeRe formula.
+A future selected logic task must reuse current vocabulary and encode any
+missing consequence as an explicitly stipulated formulation.
+
+Current structure work, inspected at these heads:
+
+| PR | Head | Consequence for this research |
+| --- | --- | --- |
+| [#1235](https://github.com/moritzbrantner/truth-core/pull/1235) | `b968783b4b0c46e74251983c22e1f0d230971e8b` | Sense UUIDs, TERM_n labels, one sense per argument or explicit bridges, Lean occurrence checks, shrinking legacy exceptions. |
+| [#1240](https://github.com/moritzbrantner/truth-core/pull/1240) | `11267c56874544ceb57fe65d6a43a643abd294a0` | Record UUIDs and labels; keep migrated identities, legacy aliases and Lean declaration names. Its stale modal-batch PR body was corrected during reconciliation; see `docs/notes/uuid-migration.md`. |
+| [#1242](https://github.com/moritzbrantner/truth-core/pull/1242) | `41fe0988441ad1d83449e0c59fe8952fff39d68c` | Recursively define consequential vocabulary; distinct constants and labels are insufficient. Explicit primitives retain open semantic obligations. |
+| [#1241](https://github.com/moritzbrantner/truth-core/pull/1241) | `a3f0b359b186da39afdb97525e816a2b4ea06669` | Adds an open actual-contingent node and modal rival refutations; it does not independently establish contingency or the necessary-root premises. |
+
+These PRs were open, not drafts, when inspected. #1235 and #1240 reported merge
+conflicts; this reconciliation does not merge or certify their combined tree.
+#1240's migration already rewrites the sense allowlist's argument keys and leaves
+sense UUIDs intact; preserve that behavior when updating it against #1235.
+The two migrations must be tested together on fresh main before adoption.
+
+UNIQUE-ROOT-PERFECTION already has argument UUID
+`8e61d00e-e335-5e0f-9d98-f28b506cf200` in #1240. Reuse it. In #1235 its legacy
+argument is allowlisted for seven mixed-term groups: intrinsic productive
+contribution/source-backed supply, maximality, NECESSARY, individual necessity,
+nonnecessary/contingent root, PER_SE, and well-foundedness/anti-brute root.
+This does not refute the existing theorem, but its broad definition links are
+not a completed account of the senses its bound type uses.
+
+**Next concrete step:** after the structure branches are reconciled with main,
+audit this argument's eight hypothesis types and conclusion against those seven
+groups. Remove only links that genuinely do not describe that use; select the
+actual sense and declare `term_senses`; register a bridge only where the stated
+premise or conclusion proves it. Split genuinely different readings into sibling
+arguments. Refine bare sense definitions where they currently name consuming
+statement formulas. Then run the sense ratchet and scoped binding on the actual
+combined revision, plus the required final proof gates for changed proof inputs.
+Do not clear the allowlist merely by selecting a convenient label. #1235's PR
+reports that no argument yet declares `term_senses`, so its opt-in Lean check
+alone does not certify the legacy corpus. #1242 records further semantic work
+for PRIOR_1/2/3; those definitions are not supplied by this reconciliation.
+
+No proof, corpus record, assumption or root closure changes in this update.
+Existing proof evidence is retained; integrated sense/type coverage remains open.
+Shared conventions sourceRevision:
+`625cb04ca568aebc8d45c90033e107a05e9bd2a0`.
+
 ### Unique necessary actual root to perfection (2026-11-05)
 
 The `agent/unique-root-perfection` batch (verified implementation
