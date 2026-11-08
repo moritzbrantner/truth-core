@@ -1,0 +1,10 @@
+{
+  "id": "a230a843-f99b-4543-aa2b-0c294b01ee1a",
+  "label": "Actual hiddenness scope controls (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "f9f47289-306f-41f9-a419-47670f2c0a37",
+  "rule": "Universal instantiation, existential elimination and negation introduction; reuse existing omission models",
+  "meaning": "Analyst actual-world scope fork. Only the listed actual-world norms, empirical witness and (for the route target) identification are used. Controls reuse the existing checked four-premise omission witnesses and add remote-world and identification controls. No philosophical premise is discharged.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

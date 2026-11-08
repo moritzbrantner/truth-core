@@ -1,0 +1,11 @@
+{
+  "id": "44730559-2a07-40fd-88af-522af1c8d982",
+  "label": "Actual hiddenness scope controls",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "f9f47289-306f-41f9-a419-47670f2c0a37",
+  "inference_ids": [
+    "a230a843-f99b-4543-aa2b-0c294b01ee1a"
+  ],
+  "meaning": "Analyst actual-world scope fork. Only the listed actual-world norms, empirical witness and (for the route target) identification are used. Controls reuse the existing checked four-premise omission witnesses and add remote-world and identification controls. No philosophical premise is discharged.",
+  "sense_mixing_control": true
+}

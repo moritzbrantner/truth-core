@@ -1,0 +1,24 @@
+{
+  "id": "0a722d94-3332-420b-b07a-95cc9e842230",
+  "label": "Global-to-actual love projection",
+  "premise_statement_ids": [
+    "0edc0b38-46b0-567a-9f72-64e16b30c77b"
+  ],
+  "conclusion_statement_id": "5e5aa271-d500-41c7-a470-32969b00a5af",
+  "inference_ids": [
+    "e3241a3d-6057-4d11-a473-b67a787f2e2f"
+  ],
+  "meaning": "Analyst actual-world scope fork. The global premise specializes at s.actual; strictness is witnessed by the control.",
+  "definition_ids": [
+    "5fc52e92-0783-5a76-bd99-dca53df00800",
+    "9fefb6b4-9493-52c3-868c-ad00fcda8151",
+    "4b2943ad-3bc5-5492-94bc-f21e9f1a12ab"
+  ],
+  "disambiguation_ids": [
+    "93eabf90-e39b-5546-8a01-6c4b66d700d0",
+    "fa0875d8-68c8-5520-ae18-58bb8a5808e8",
+    "14bdf48f-9ea1-5329-9489-9674bea6132a",
+    "a4359a96-a726-5755-8359-a02b64f42f15",
+    "6848dc39-2ccb-5e86-a5e6-decd165a9725"
+  ]
+}

@@ -68,3 +68,73 @@ Schellenberg's examples of doubting contemporary inquirers and pre-monotheistic 
 The four-premise conclusion is accepted as a formal consequence: the proof instantiates the actual person and time and derives incompatible access facts. Its force depends on the four open premises, not the model author's agreement. The two-time constructions are accepted as interpretations of the encoded constraints only. They establish neither real-world premise truth nor modal possibility.
 
 Definitions and disambiguations are linked from the new statements and arguments: God/personal ultimate, perfect love, capacity, causal resistance, belief, conscious access, acceptance, sufficient reason, concept possession, reflective doubt, model scope, and encoded-theory consistency. The contrast records separately cover reasonable nonbelief, seeking, salvation, implicit relationship, and mediated presence. Source claims preserve those contrasts and do not use a translation for the Latin conciliar witness. No source claim attributes the universal sufficient-reason or exhaustive developmental account to an author.
+
+
+## Actual-world scope and route identification (2026-11-08)
+
+Target: `STMT-GOD-EXISTS`, the stage-one node on the Catholicism routes, through
+the existing [identification candidate](bridges/candidates/02-hiddenness-god-exists.md).
+Reuse: `TruthCore.Hiddenness.Sig`, the four original statements, and the exact
+checked `TruthCore.Results.Hiddenness.PremisesIndependent.premisesIndependent`
+and `TruthCore.Results.Hiddenness.NontheisticConsistent.nontheisticConsistent`.
+Missing step: the universal-world premises are stronger than their actual-world
+use, and the personal-ultimate predicate is not automatically the stage-one
+`IsGod`. Premise comparison: replace the first three global norms by three
+strictly weaker actual-world norms, retain the empirical nonresistant-nonbelief
+premise, and add the openly stipulated identification only for the route target.
+No premise is independently defended or discharged.
+
+The strongest criticism retains nonresistance as a causal condition, immediate
+conscious access at each time of capacity, and the distinction between belief
+and freely accepting a relationship. It now needs these norms at the actual
+world only. The strongest reply challenges immediate availability while retaining
+love and the occurrence of nonbelief; possible reasons or eventual development
+alone still do not establish a sufficient reason for each actual gap. The new
+batch neither resolves that empirical/moral disagreement nor removes the
+qualified-reply and nontheistic models described above.
+
+`TruthCore/Hiddenness/ActualRoot.lean` and its separately frozen Challenge define
+three actual-world norms, the explicit `RouteIdentification IsGod s`, and the
+negation of `GodExists IsGod` on that same predicate. The proof builds the
+contradiction from the capable nonresister's missing belief and the access
+required by the actual norm. For the stage-one target, a bearer of `IsGod`
+supplies the hiddenness existence proposition only through the displayed
+identification premise. Its omission model keeps all four actual-world premises
+and an inhabited route predicate while denying that identification. Thus this
+is a conditional challenge to GOD_4 under an explicit bridge, not a refutation
+of bare necessary existence, an impersonal ground, or every possible deity.
+
+The controls import the old four omission witnesses instead of reconstructing
+them. They add a nonvacuous model, three remote-world strictness models, and the
+identification omission. A remote failure of a global norm is not used as an
+empirical example; all carriers and predicate extensions are explicit. The
+actual-world norms remain open analyst formulations with attribution deferred.
+Three `strengthens` relations are backed by sole-premise checked projections.
+The old global Challenges remain unchanged.
+
+Five legacy statement definition inventories were narrowed to the predicates
+actually occurring in their declarations: the original nonbelief/negation and
+norm statements had all imported sufficient-reason, voluntary-acceptance,
+concept-development and reflective-doubt definitions indiscriminately. No
+statement, source claim or frozen theorem meaning changes. The actual openness
+norm explicitly bridges LOVE_ACCESS_1 (perfect love) to LOVE_ACCESS_2 (conscious
+access); belief remains BELIEF_RESPONSE_1. This avoids inheriting unrelated
+senses rather than adding legacy exceptions.
+
+Claim/type self-sweep: three projection theorems each have the global norm as
+sole premise. `noGod` has exactly three local norms plus the existing empirical
+witness. `noRouteGod` adds exactly the selected-predicate identification.
+`controls` is premise-free and witnesses finite interpretations only. Its
+route-omission example interprets `IsGod` as true on Unit but does not satisfy
+all theological attributes or a complete Catholicism route. No such wider
+consistency claim is made. All six results build, bind (6 bound, 0 mismatch) and pass Comparator and
+NanoDa with zero permitted axioms. Corpus/bundle/attribution and sense checks
+pass. Nine obsolete sense-allowlist entries were removed without reordering
+the remaining inventory. Delivered-head CI is still required before merge;
+the source files themselves are not verification evidence.
+
+Remaining decisive work: defend or reject the actual openness norm and empirical
+nonresistance; compare the identification with each intended God conception;
+retain the qualified norm's positive sufficient-reason obligation. A failed
+proof search would settle none of these. Next family: teleology scope rather
+than another hiddenness deduction on the same assumptions.

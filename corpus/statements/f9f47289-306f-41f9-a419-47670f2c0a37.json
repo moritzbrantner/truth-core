@@ -1,0 +1,6 @@
+{
+  "id": "f9f47289-306f-41f9-a419-47670f2c0a37",
+  "label": "Actual hiddenness strictness and premise-omission models",
+  "paraphrase": "Finite logical models show nonvacuity, strictness of all three global-to-actual weakenings, each of the four carrying premises needed, and failure of route nonexistence if identification is omitted. No actual divine reason, person or premise truth is witnessed.",
+  "lean_declaration": "TruthCore.Hiddenness.ActualRoot.Controls"
+}

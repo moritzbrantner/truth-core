@@ -1,0 +1,41 @@
+{
+  "id": "c4e41a1e-7170-4f55-85f0-16e4d6320845",
+  "label": "Actual hiddenness excludes GOD_4 through explicit identification",
+  "premise_statement_ids": [
+    "5e5aa271-d500-41c7-a470-32969b00a5af",
+    "7361a77f-a6fe-4a8a-b6f4-400a0d7c3750",
+    "3b38aa55-ee4f-4dfb-aa9b-f5ab8d0f7121",
+    "62d4c4c4-9834-5acb-ba7b-260e040c7009",
+    "c08f6a70-b75c-47de-b1af-e3aad89da98f"
+  ],
+  "conclusion_statement_id": "33674e8e-5882-44b8-8d28-b71573027d83",
+  "inference_ids": [
+    "468f640b-73b2-47a0-8020-39371dffed2c"
+  ],
+  "meaning": "Analyst actual-world scope fork. Only the listed actual-world norms, empirical witness and (for the route target) identification are used. Controls reuse the existing checked four-premise omission witnesses and add remote-world and identification controls. No philosophical premise is discharged.",
+  "definition_ids": [
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "608e0f97-3dbb-5bfd-9688-acecfb2f1fdf",
+    "61e1abc6-d388-559b-88e1-0a65073c88e1",
+    "e83e512d-ae8d-5e80-a697-8fc1d672b7d3",
+    "5fc52e92-0783-5a76-bd99-dca53df00800",
+    "9fefb6b4-9493-52c3-868c-ad00fcda8151",
+    "4b2943ad-3bc5-5492-94bc-f21e9f1a12ab",
+    "31d85ba8-5fb1-5fb8-bdfb-cedca7e8854e"
+  ],
+  "disambiguation_ids": [
+    "93eabf90-e39b-5546-8a01-6c4b66d700d0",
+    "fa0875d8-68c8-5520-ae18-58bb8a5808e8",
+    "14bdf48f-9ea1-5329-9489-9674bea6132a",
+    "a4359a96-a726-5755-8359-a02b64f42f15",
+    "6848dc39-2ccb-5e86-a5e6-decd165a9725"
+  ],
+  "sense_bridges": [
+    {
+      "term": "LOVE_ACCESS",
+      "from": "4ee6f7e6-5a75-47a4-8453-493a0f7497ce",
+      "to": "d95b695e-f02f-4234-977a-1755a8f4a4e3",
+      "statement_id": "7361a77f-a6fe-4a8a-b6f4-400a0d7c3750"
+    }
+  ]
+}

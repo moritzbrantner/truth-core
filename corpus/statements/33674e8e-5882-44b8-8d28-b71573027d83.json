@@ -1,0 +1,9 @@
+{
+  "id": "33674e8e-5882-44b8-8d28-b71573027d83",
+  "label": "No GOD_4 bearer exists",
+  "paraphrase": "Negation of the existing stage-one GodExists on the same selected IsGod predicate. The conditional argument retains an explicit identification premise; no absence is established without its assumptions.",
+  "lean_declaration": "TruthCore.Hiddenness.ActualRoot.NoRouteGod",
+  "definition_ids": [
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807"
+  ]
+}

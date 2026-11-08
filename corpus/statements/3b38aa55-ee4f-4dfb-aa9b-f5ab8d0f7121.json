@@ -1,0 +1,11 @@
+{
+  "id": "3b38aa55-ee4f-4dfb-aa9b-f5ab8d0f7121",
+  "label": "Actual conscious access requires BELIEF_RESPONSE_1",
+  "paraphrase": "At the actual world only, lack of belief excludes conscious reciprocal access; belief is not voluntary acceptance.",
+  "lean_declaration": "TruthCore.Hiddenness.ActualRoot.ActualAccessNeedsBelief",
+  "definition_ids": [
+    "608e0f97-3dbb-5bfd-9688-acecfb2f1fdf",
+    "e83e512d-ae8d-5e80-a697-8fc1d672b7d3",
+    "9fefb6b4-9493-52c3-868c-ad00fcda8151"
+  ]
+}
