@@ -1,22 +1,23 @@
 {
-  "id": "CONTINGENT-NODE-INHABITS",
+  "id": "32c7d630-cc81-5cb0-9261-9181a213a9ae",
   "label": "A CONTINGENT_1 actual concrete being populates the route's world (Cogito node)",
+  "legacy_id": "CONTINGENT-NODE-INHABITS",
   "premise_statement_ids": [
-    "STMT-SOME-ACTUAL-CONTINGENT"
+    "c94b5446-e7e7-5b36-9bed-288959725526"
   ],
-  "conclusion_statement_id": "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+  "conclusion_statement_id": "56f68b40-9737-59a0-8cac-5610980a1547",
   "inference_ids": [
-    "INF-CONTINGENT-NODE-INHABITS"
+    "304c4faf-43ab-5d8c-9059-9eeeceef29bc"
   ],
   "meaning": "Assembly (a weakening, not a substantive derivation): the contingency node's witness is concrete and exists at w, so the route's population node holds. It puts the node on the root path as an alternative derivation of STMT-COGITO-INHABITED-CONCRETE-WORLD; as an assembly it closes that node only if the contingency node is closed (invariant 16 fixpoint). It is deliberately not registered as a strengthens relation: a registration's backing argument is set aside by the reaching-root walk, so the node would stay off the root path. The converse fails (CONTINGENT-NODE-CONTROLS: on the one-world frame the world is inhabited and no being is contingent).",
   "definition_ids": [
-    "DEF-CONCRETE-ESSE-IN-RE",
-    "DEF-INHABITED-CONCRETE-WORLD",
-    "DEF-KANT-MODAL-CONTINGENCY",
-    "DEF-KANT-ONTOLOGICAL-MODEL"
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "1b8baf77-84fa-5513-a138-7fa14840dd87",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109"
   ],
   "disambiguation_ids": [
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
-    "DISAMB-KANT-CONTINGENCY"
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "35fa7162-6cb3-52e1-ac5b-66afc318c74f"
   ]
 }

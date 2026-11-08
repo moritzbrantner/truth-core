@@ -1,10 +1,12 @@
 {
-  "id": "INF-NO-COLLAPSE-K",
+  "id": "a38bb797-ece4-548b-9d6b-1095c7f1ce47",
+  "label": "The route's world is not modally collapsed (some truth there is not…, by Theorem application…",
+  "legacy_id": "INF-NO-COLLAPSE-K",
   "input_statement_ids": [
-    "STMT-MODAL-K-LAWS",
-    "STMT-SOME-ACTUAL-CONTINGENT"
+    "0d0b6e3c-6207-5284-bf0b-7dce386ba347",
+    "c94b5446-e7e7-5b36-9bed-288959725526"
   ],
-  "output_statement_id": "STMT-ROUTE-NOT-COLLAPSED",
+  "output_statement_id": "185ce448-0297-51f9-95f6-e272dba93156",
   "rule": "Theorem application (first K law: full collapse at w iff every accessible world is w), identity substitution, negation introduction",
   "meaning": "Frame class K (no frame condition). By the verified K collapse law (MODAL-K-LAWS), full collapse at w on the route's frame holds exactly when every world accessible from w is w. The node gives an accessible world lacking its witness; under collapse that world is w, where the witness exists. So the route's world is not collapsed. Without the node collapse holds (one-world frame).",
   "assumption_statement_ids": [],

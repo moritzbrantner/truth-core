@@ -1,7 +1,8 @@
 {
-  "id": "NO-POSS-COLLAPSE-S5",
+  "id": "f9d317dc-d660-5cbd-a4c3-2efb20a70428",
   "label": "S5 sense: a CONTINGENT_1 actual being excludes possible collapse, by the T and 5 schemas and S5 law",
-  "argument_id": "NO-POSS-COLLAPSE-S5",
+  "legacy_id": "NO-POSS-COLLAPSE-S5",
+  "argument_id": "3afa8ec7-acb3-5414-af52-bdbad5caa26a",
   "challenge_module": "TruthCore.Results.Causality.ContingentBeingNode.Challenge",
   "solution_module": "TruthCore.Results.Causality.ContingentBeingNode.Solution",
   "theorem": "TruthCore.Results.Causality.ContingentBeingNode.notPossiblyCollapsedS5",

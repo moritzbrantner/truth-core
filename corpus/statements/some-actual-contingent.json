@@ -1,16 +1,17 @@
 {
-  "id": "STMT-SOME-ACTUAL-CONTINGENT",
+  "id": "c94b5446-e7e7-5b36-9bed-288959725526",
   "label": "Some actual concrete being is CONTINGENT_1 (exists at w, absent at some accessible world)",
+  "legacy_id": "STMT-SOME-ACTUAL-CONTINGENT",
   "paraphrase": "OPEN premise, analyst formulation, attribution deferred: on the route's profile, some concrete individual exists at the selected world w and is absent at some world accessible from w (CONTINGENT_1, ContingentAt: accessible non-existence, not empirical change, CONTINGENT_2). It does not say which being is contingent, that the Cogito bearer is, that it is caused, or that every being other than the root is contingent. It implies STMT-COGITO-INHABITED-CONCRETE-WORLD and excludes concrete necessitarianism (STMT-ALL-ACTUAL-CONCRETE-NECESSARY) on the same frame; the converse of that exclusion needs excluded middle.",
   "lean_declaration": "TruthCore.Causality.ContingentBeingNode.SomeActualContingentAt",
   "definition_ids": [
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-CONTINGENCY",
-    "DEF-INHABITED-CONCRETE-WORLD",
-    "DEF-CONCRETE-ESSE-IN-RE"
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "1b8baf77-84fa-5513-a138-7fa14840dd87",
+    "008cb21a-256c-5a90-822c-acd4591d699a"
   ],
   "disambiguation_ids": [
-    "DISAMB-KANT-CONTINGENCY",
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA"
+    "35fa7162-6cb3-52e1-ac5b-66afc318c74f",
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
   ]
 }

@@ -1,7 +1,8 @@
 {
-  "id": "CONTINGENT-NODE-INHABITS",
+  "id": "207805c8-fc0b-53e9-bcc5-611e0b9bbe5f",
   "label": "A CONTINGENT_1 actual concrete being populates the route's world (Cogito node)",
-  "argument_id": "CONTINGENT-NODE-INHABITS",
+  "legacy_id": "CONTINGENT-NODE-INHABITS",
+  "argument_id": "32c7d630-cc81-5cb0-9261-9181a213a9ae",
   "challenge_module": "TruthCore.Results.Causality.ContingentBeingNode.Challenge",
   "solution_module": "TruthCore.Results.Causality.ContingentBeingNode.Solution",
   "theorem": "TruthCore.Results.Causality.ContingentBeingNode.inhabits",

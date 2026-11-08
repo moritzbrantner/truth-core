@@ -1,7 +1,8 @@
 {
-  "id": "NO-NEC-COLLAPSE-T",
+  "id": "278b1ba0-6ed5-5a8a-b533-a1d15f7fd916",
   "label": "KT sense: a CONTINGENT_1 actual being excludes necessary collapse, by the T schema and T law",
-  "argument_id": "NO-NEC-COLLAPSE-T",
+  "legacy_id": "NO-NEC-COLLAPSE-T",
+  "argument_id": "eb868f3a-66d2-53ee-bd4b-47f7e7a33ac4",
   "challenge_module": "TruthCore.Results.Causality.ContingentBeingNode.Challenge",
   "solution_module": "TruthCore.Results.Causality.ContingentBeingNode.Solution",
   "theorem": "TruthCore.Results.Causality.ContingentBeingNode.notNecessarilyCollapsedT",

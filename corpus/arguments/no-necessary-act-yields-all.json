@@ -1,30 +1,31 @@
 {
-  "id": "NO-NECESSARY-ACT-YIELDS-ALL",
+  "id": "bbbbdfc6-e8a7-593c-b4a7-5b151b219668",
   "label": "A CONTINGENT_1 actual being excludes an act at every accessible world strictly yielding all",
+  "legacy_id": "NO-NECESSARY-ACT-YIELDS-ALL",
   "premise_statement_ids": [
-    "STMT-SIMPLICITY-COLLAPSE-CORE",
-    "STMT-SOME-ACTUAL-CONTINGENT"
+    "069506dc-ddac-5ff3-a7e8-3a44be023e43",
+    "c94b5446-e7e7-5b36-9bed-288959725526"
   ],
-  "conclusion_statement_id": "STMT-NO-NECESSARY-ACT-YIELDS-ALL",
+  "conclusion_statement_id": "602246df-ec76-55f5-b9af-b285d02ab96f",
   "inference_ids": [
-    "INF-NO-NECESSARY-ACT-YIELDS-ALL"
+    "3d3593c6-fde7-53a3-997e-fd1d378488de"
   ],
   "meaning": "By the first clause of the verified simplicity-collapse core (SIMPLICITY-COLLAPSE-CORE), an act token performed at every world accessible from w and strictly efficacious for x leaves x not contingent at w. If one token strictly yielded every actual concrete being, it would strictly yield the node's witness, which is contingent. So a necessary sufficient cause of all actual concreta is excluded on the route; the route's root may still be necessary if its act is not both performed at every accessible world and strictly efficacious for each creature (#462, #555). Without the node the rival holds (one-world frame).",
   "definition_ids": [
-    "DEF-CONCRETE-ESSE-IN-RE",
-    "DEF-CREATIVE-ACT-DESCRIPTION",
-    "DEF-INHABITED-CONCRETE-WORLD",
-    "DEF-KANT-MODAL-CONTINGENCY",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-RIGID-ACT-STRICT-EFFICACY",
-    "DEF-SELECTED-EFFECT-OUTPUT-PROFILE",
-    "DEF-SELECTED-EFFECT-STABLE-OUTPUT"
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "4e8282b7-d0aa-5936-9096-eee699480d2a",
+    "1b8baf77-84fa-5513-a138-7fa14840dd87",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "01b44013-2db5-546c-a22e-06104e8e724c",
+    "e36a3cf1-be2c-51a0-bb55-f388c115e11d",
+    "c033d373-f381-504b-9674-c13fc9a96034"
   ],
   "disambiguation_ids": [
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
-    "DISAMB-CREATIVE-ACT-IDENTITY",
-    "DISAMB-KANT-CONTINGENCY",
-    "DISAMB-SELECTED-EFFECT-ACT-AND-CONDITIONS"
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "441c08cd-8b78-5ff6-82cf-18efad3d88f7",
+    "35fa7162-6cb3-52e1-ac5b-66afc318c74f",
+    "303c2298-fd1b-55f3-9754-398816a78514"
   ]
 }

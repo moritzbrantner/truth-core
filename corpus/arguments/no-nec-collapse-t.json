@@ -1,43 +1,44 @@
 {
-  "id": "NO-NEC-COLLAPSE-T",
+  "id": "eb868f3a-66d2-53ee-bd4b-47f7e7a33ac4",
   "label": "KT sense: a CONTINGENT_1 actual being excludes necessary collapse, by the T schema and T law",
+  "legacy_id": "NO-NEC-COLLAPSE-T",
   "premise_statement_ids": [
-    "STMT-MODAL-STANDARD-CORRESPONDENCE-CERTIFICATE",
-    "STMT-MODAL-K-LAWS",
-    "STMT-MODAL-T-LAWS",
-    "STMT-ONTIC-T-SCHEMA",
-    "STMT-SOME-ACTUAL-CONTINGENT"
+    "8239eddf-aadf-5ad7-9243-e7698c7e8d27",
+    "0d0b6e3c-6207-5284-bf0b-7dce386ba347",
+    "e2de4fb7-a47d-5670-90bf-d48c0e52f75f",
+    "cb456382-efd6-554b-8ee4-c8fc193f876a",
+    "c94b5446-e7e7-5b36-9bed-288959725526"
   ],
-  "conclusion_statement_id": "STMT-ROUTE-NOT-NEC-COLLAPSED",
+  "conclusion_statement_id": "5089057e-c590-5e04-b3e5-150c472a1266",
   "inference_ids": [
-    "INF-NO-NEC-COLLAPSE-T"
+    "341e2e26-ce71-592d-b089-3174315c1fe9"
   ],
   "meaning": "KT reading of NECESSARY_2. The OPEN T schema gives reflexivity of the route's frame by the T correspondence (MODAL-STANDARD-CORRESPONDENCE-CERTIFICATE); by the verified T law (MODAL-T-LAWS) necessary collapse at w then gives actual collapse at w, which NO-COLLAPSE-K excludes. Without the T schema the rival and the node hold together (step frame); without the node the rival holds (one-world frame).",
   "definition_ids": [
-    "DEF-CONCRETE-ESSE-IN-RE",
-    "DEF-HUME-TEST-CONTINGENCY",
-    "DEF-INHABITED-CONCRETE-WORLD",
-    "DEF-KANT-MODAL-CONTINGENCY",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-MODAL-FIXTURE-AGREEMENT",
-    "DEF-MODAL-FIXTURE-DOMAIN",
-    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
-    "DEF-MODAL-FIXTURE-FINITE",
-    "DEF-MODAL-FIXTURE-FRAME",
-    "DEF-MODAL-FIXTURE-IDENTITY",
-    "DEF-MODAL-FIXTURE-MC",
-    "DEF-MODAL-K-ACTUALITY",
-    "DEF-MODAL-K-FORK",
-    "DEF-MODAL-STANDARD-T-D-CORRESPONDENCE",
-    "DEF-MODAL-T-REFLEXIVITY"
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "09d51a0b-d02f-5fb4-97db-3b6a4aa3a138",
+    "1b8baf77-84fa-5513-a138-7fa14840dd87",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "a3baafe5-b951-5752-ab70-25f03144e8f5",
+    "a315ea74-8cb6-57a6-ab40-17265bbe1ce7",
+    "6d8a58a6-97f4-57f7-824f-c1c2c5d08d6c",
+    "f57a0812-732f-5680-9711-9ab440869861",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "d24cc01a-d6c5-5a1d-bdde-989511bbd1b7",
+    "f9a77a01-4dcf-5a1d-9bf7-a45a466ce504",
+    "2a081357-c3f9-5ca0-a4b6-604f47258175",
+    "5e61ee7e-61d1-580b-89a9-f812e01b15ea",
+    "92b3450c-ba41-5363-b27b-ef0e943dd7c2",
+    "b6ddbdde-8055-5632-b934-ccd5eb79bbeb"
   ],
   "disambiguation_ids": [
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
-    "DISAMB-KANT-CONTINGENCY",
-    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
-    "DISAMB-MODAL-K-COLLAPSE-MODES",
-    "DISAMB-MODAL-T-COLLAPSE-MODES",
-    "DISAMB-NECESSARY"
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "35fa7162-6cb3-52e1-ac5b-66afc318c74f",
+    "70eab05f-3fde-575b-9de1-6692e7b71974",
+    "2d935e8e-a7d0-50db-999d-a5271406a372",
+    "bded9270-4ca2-5eae-8ffd-ba7d5b1a5128",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
   ]
 }

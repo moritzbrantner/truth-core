@@ -1,10 +1,12 @@
 {
-  "id": "INF-NO-NECESSARY-ACT-YIELDS-ALL",
+  "id": "3d3593c6-fde7-53a3-997e-fd1d378488de",
+  "label": "No act done at every accessible world strictly yields every actual…, by Theorem application…",
+  "legacy_id": "INF-NO-NECESSARY-ACT-YIELDS-ALL",
   "input_statement_ids": [
-    "STMT-SIMPLICITY-COLLAPSE-CORE",
-    "STMT-SOME-ACTUAL-CONTINGENT"
+    "069506dc-ddac-5ff3-a7e8-3a44be023e43",
+    "c94b5446-e7e7-5b36-9bed-288959725526"
   ],
-  "output_statement_id": "STMT-NO-NECESSARY-ACT-YIELDS-ALL",
+  "output_statement_id": "602246df-ec76-55f5-b9af-b285d02ab96f",
   "rule": "Theorem application (first clause of the simplicity-collapse core), existential elimination, negation introduction",
   "meaning": "By the first clause of the verified simplicity-collapse core (SIMPLICITY-COLLAPSE-CORE), an act token performed at every world accessible from w and strictly efficacious for x leaves x not contingent at w. If one token strictly yielded every actual concrete being, it would strictly yield the node's witness, which is contingent. So a necessary sufficient cause of all actual concreta is excluded on the route; the route's root may still be necessary if its act is not both performed at every accessible world and strictly efficacious for each creature (#462, #555). Without the node the rival holds (one-world frame).",
   "assumption_statement_ids": [],

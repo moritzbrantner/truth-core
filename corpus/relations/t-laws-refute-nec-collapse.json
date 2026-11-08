@@ -1,10 +1,11 @@
 {
-  "id": "REL-T-LAWS-REFUTE-NEC-COLLAPSE",
+  "id": "9fe49a48-3481-5b7b-8bc1-5890881caf68",
   "label": "T law, T schema and a CONTINGENT_1 actual being refute necessary modal collapse",
+  "legacy_id": "REL-T-LAWS-REFUTE-NEC-COLLAPSE",
   "subject_kind": "argument",
-  "subject_id": "NO-NEC-COLLAPSE-T",
+  "subject_id": "eb868f3a-66d2-53ee-bd4b-47f7e7a33ac4",
   "predicate": "refutes",
   "object_kind": "statement",
-  "object_id": "STMT-ROUTE-NEC-COLLAPSED",
+  "object_id": "fd15cfda-9086-58f1-b66a-2969b3eae3b5",
   "note": "Backed by the verified MODAL-T-LAWS, MODAL-K-LAWS and the T correspondence. Does not count: STMT-ONTIC-T-SCHEMA and STMT-SOME-ACTUAL-CONTINGENT are OPEN."
 }

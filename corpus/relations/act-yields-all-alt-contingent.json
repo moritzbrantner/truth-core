@@ -1,10 +1,11 @@
 {
-  "id": "REL-ACT-YIELDS-ALL-ALT-CONTINGENT",
+  "id": "3bb58128-8013-5893-aa0f-a6934b8aca7e",
   "label": "A necessary sufficient cause of all is a rival of the CONTINGENT_1 node",
+  "legacy_id": "REL-ACT-YIELDS-ALL-ALT-CONTINGENT",
   "subject_kind": "statement",
-  "subject_id": "STMT-NECESSARY-ACT-YIELDS-ALL",
+  "subject_id": "320c5d85-6ce8-5fab-aff1-33b775becb89",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-SOME-ACTUAL-CONTINGENT",
+  "object_id": "c94b5446-e7e7-5b36-9bed-288959725526",
   "note": "Incompatible given the verified simplicity-collapse core (NO-NECESSARY-ACT-YIELDS-ALL)."
 }

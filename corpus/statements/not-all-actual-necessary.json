@@ -1,13 +1,14 @@
 {
-  "id": "STMT-NOT-ALL-ACTUAL-NECESSARY",
+  "id": "9aeab54e-372d-5cb0-9993-3f61dfd92584",
   "label": "Not every actual concrete being is NECESSARY_2",
+  "legacy_id": "STMT-NOT-ALL-ACTUAL-NECESSARY",
   "paraphrase": "Negation of STMT-ALL-ACTUAL-CONCRETE-NECESSARY: it is not the case that every concrete individual existing at w exists at every world accessible from w. It does not exhibit the being or the world (that needs excluded middle).",
   "lean_declaration": "TruthCore.Causality.ContingentBeingNode.NotEveryActualConcreteNecessaryAt",
   "definition_ids": [
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-NECESSITY"
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1"
   ],
   "disambiguation_ids": [
-    "DISAMB-NECESSARY"
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
   ]
 }

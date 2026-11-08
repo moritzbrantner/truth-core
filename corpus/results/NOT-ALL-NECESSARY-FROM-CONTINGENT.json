@@ -1,7 +1,8 @@
 {
-  "id": "NOT-ALL-NECESSARY-FROM-CONTINGENT",
+  "id": "672ba45d-8e16-5b58-986b-f0522e640915",
   "label": "A CONTINGENT_1 actual concrete being refutes concrete necessitarianism (NECESSARY_2)",
-  "argument_id": "NOT-ALL-NECESSARY-FROM-CONTINGENT",
+  "legacy_id": "NOT-ALL-NECESSARY-FROM-CONTINGENT",
+  "argument_id": "e1d0d14b-1d3f-5e06-8968-e33b9a1dba8c",
   "challenge_module": "TruthCore.Results.Causality.ContingentBeingNode.Challenge",
   "solution_module": "TruthCore.Results.Causality.ContingentBeingNode.Solution",
   "theorem": "TruthCore.Results.Causality.ContingentBeingNode.notEveryNecessary",

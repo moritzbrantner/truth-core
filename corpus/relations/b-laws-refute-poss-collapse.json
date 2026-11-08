@@ -1,10 +1,11 @@
 {
-  "id": "REL-B-LAWS-REFUTE-POSS-COLLAPSE",
+  "id": "4432279f-8895-50f3-bf26-6cc6a8cd4ebc",
   "label": "B law, B schema and a CONTINGENT_1 actual being refute possible modal collapse",
+  "legacy_id": "REL-B-LAWS-REFUTE-POSS-COLLAPSE",
   "subject_kind": "argument",
-  "subject_id": "NO-POSS-COLLAPSE-KTB",
+  "subject_id": "f054d090-5a08-5a16-ac01-e630085bef1a",
   "predicate": "refutes",
   "object_kind": "statement",
-  "object_id": "STMT-ROUTE-POSS-COLLAPSED",
+  "object_id": "6358fce9-4fa9-5fdf-8948-c4563c5ce7d1",
   "note": "Backed by the verified MODAL-B-LAWS, MODAL-K-LAWS and the B correspondence. Does not count: STMT-ONTIC-B-SCHEMA and STMT-SOME-ACTUAL-CONTINGENT are OPEN."
 }
