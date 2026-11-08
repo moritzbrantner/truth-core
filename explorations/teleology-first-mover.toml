@@ -1,0 +1,47 @@
+target = "STMT-THERE-IS-A-FIRST-UNMOVED-MOVER"
+
+[[node]]
+id = "efda546f-c3e5-5a68-990b-73f96258f75c"
+
+[[node]]
+id = "658814de-ffeb-5824-afdd-2797e5cdad42"
+
+[[node]]
+id = "070cef3e-cabc-56a5-9f78-af671d9ad194"
+
+[[node]]
+id = "b43528e2-7188-56e9-941c-0d0cea7c03fb"
+
+[[node]]
+id = "564ce19b-c9df-5031-b20e-3cb1baee124f"
+
+[[node]]
+id = "11914511-b067-55d3-b8cc-094311021d08"
+
+[[node]]
+id = "ee9e3056-7bc5-5c35-9fe3-bf8550f8c136"
+
+[[node]]
+id = "c27dce66-864a-5a73-af62-0eeb4016514f"
+
+[[node]]
+id = "STMT-THERE-IS-A-FIRST-UNMOVED-MOVER"
+
+[[node]]
+id = "f43962a3-1a34-593b-8856-a97336e8ce18"
+
+[[node]]
+id = "d73de942-be11-48e8-9cc7-f15406ffac4b"
+
+[[edge]]
+premises = ["efda546f-c3e5-5a68-990b-73f96258f75c", "658814de-ffeb-5824-afdd-2797e5cdad42", "070cef3e-cabc-56a5-9f78-af671d9ad194", "b43528e2-7188-56e9-941c-0d0cea7c03fb", "564ce19b-c9df-5031-b20e-3cb1baee124f", "11914511-b067-55d3-b8cc-094311021d08", "ee9e3056-7bc5-5c35-9fe3-bf8550f8c136"]
+conclusion = "STMT-THERE-IS-A-FIRST-UNMOVED-MOVER"
+kind = "derivation"
+status = "certified"
+
+[[edge]]
+premises = ["f43962a3-1a34-593b-8856-a97336e8ce18"]
+conclusion = "STMT-THERE-IS-A-FIRST-UNMOVED-MOVER"
+kind = "bridge"
+status = "certified"
+

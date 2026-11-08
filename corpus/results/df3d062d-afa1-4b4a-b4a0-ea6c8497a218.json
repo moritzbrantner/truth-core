@@ -1,0 +1,12 @@
+{
+  "id": "df3d062d-afa1-4b4a-b4a0-ea6c8497a218",
+  "label": "A common governor projects to a first UNMOVED_2 mover",
+  "argument_id": "a9aefdc5-5784-486c-9ba9-e298b8eba641",
+  "challenge_module": "TruthCore.Results.Causality.TeleologyFirstMover.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TeleologyFirstMover.Solution",
+  "theorem": "TruthCore.Results.Causality.TeleologyFirstMover.governorProjects",
+  "comparator_config": "results/df3d062d-afa1-4b4a-b4a0-ea6c8497a218/comparator.json",
+  "status": "solution-present",
+  "description": "Assembly: project the existing first-mover witness from OneIntelligentFirstMoverGovernsNature, connecting the checked Fifth Way conclusion to a root-route node. It supplies neither uniqueness nor classical attributes; no premise is independently defended.",
+  "transcription": "assembly"
+}
