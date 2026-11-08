@@ -1,0 +1,11 @@
+{
+  "id": "c240b31b-4e1b-4eeb-820c-fed2fb25e9a8",
+  "label": "Unique root derivation composed into the Fourth Way",
+  "argument_id": "4487819b-3a4f-4da9-8638-379a9f971325",
+  "challenge_module": "TruthCore.Results.Causality.UniqueRootQuarta.Challenge",
+  "solution_module": "TruthCore.Results.Causality.UniqueRootQuarta.Solution",
+  "theorem": "TruthCore.Results.Causality.UniqueRootQuarta.fromUniqueRoot",
+  "comparator_config": "results/c240b31b-4e1b-4eeb-820c-fed2fb25e9a8/comparator.json",
+  "status": "solution-present",
+  "description": "Apply the existing UniqueRootPerfection.derive theorem to its original eight hypotheses, then the selected-package connection. Retains all eight explicit policies, including the at-being genus policy; no new assumption, naming or modal transport. This is a conditional composition, not premise defense. Existing controls for the original package are reused; this batch tests the final two-premise connection separately."
+}

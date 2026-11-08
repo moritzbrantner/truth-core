@@ -1,0 +1,11 @@
+{
+  "id": "e34557ac-d366-49ba-a5a9-2af8426f681c",
+  "label": "Selected root to Fourth Way finite controls",
+  "argument_id": "19c9ef76-73b1-474d-b93b-b95dd404f000",
+  "challenge_module": "TruthCore.Results.Causality.UniqueRootQuarta.Challenge",
+  "solution_module": "TruthCore.Results.Causality.UniqueRootQuarta.Solution",
+  "theorem": "TruthCore.Results.Causality.UniqueRootQuarta.controls",
+  "comparator_config": "results/e34557ac-d366-49ba-a5a9-2af8426f681c/comparator.json",
+  "status": "solution-present",
+  "description": "Positive nonvacuity and omission countermodels for both carrying premises of the selected-root to Fourth Way connection. The positive case has a distinct actual target and causal edge. Omitting genus retains perfection with no causal edges; omitting the root package retains genus with no actuality. These controls test the encoded consequence only."
+}

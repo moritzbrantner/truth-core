@@ -1,0 +1,19 @@
+{
+  "id": "ec1fdcae-8a45-4211-959f-2cabc4f61714",
+  "label": "Unique root derivation composed into the Fourth Way (inference)",
+  "input_statement_ids": [
+    "91b085c4-f1c7-5ada-9848-8e7dc753313a",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "da09703b-0b1e-5dca-9dd7-6c0c8d1610d7",
+    "0436de86-6579-53f2-9ff5-2111ba44ebae",
+    "cb1cdea9-eb6c-578c-8008-84e0d4107fd3",
+    "e4e6b0cd-f61a-5605-a302-573c67cf063a",
+    "7067553d-cad9-5d79-b6b2-912e35051530",
+    "64498e7e-7f10-54a0-9ec0-c65e6076de1f"
+  ],
+  "output_statement_id": "0881e859-c4c3-53ff-9bec-b61294e12d51",
+  "rule": "Composition with UniqueRootPerfection.derive and selected-package connection",
+  "meaning": "Apply the existing UniqueRootPerfection.derive theorem to its original eight hypotheses, then the selected-package connection. Retains all eight explicit policies, including the at-being genus policy; no new assumption, naming or modal transport. This is a conditional composition, not premise defense. Existing controls for the original package are reused; this batch tests the final two-premise connection separately.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

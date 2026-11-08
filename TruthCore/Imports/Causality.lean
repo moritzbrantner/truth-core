@@ -146,6 +146,7 @@ public import TruthCore.Causality.UnderivedEssenceEsse
 public import TruthCore.Causality.UnderivedNonComposite
 public import TruthCore.Causality.UnderivedRootRoute
 public import TruthCore.Causality.UniqueFeedback
+public import TruthCore.Causality.UniqueRootQuartaControl
 public import TruthCore.Causality.WholePowerPerfection
 public import TruthCore.Causality.WholeRosterFoundation
 public import TruthCore.Causality.WorldSourceRegress

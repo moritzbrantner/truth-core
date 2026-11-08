@@ -290,6 +290,69 @@ current-head review remain the delivery gates.
 Shared conventions sourceRevision:
 `625cb04ca568aebc8d45c90033e107a05e9bd2a0`.
 
+### Current root connection after #1244 (2026-11-08)
+
+Branch `research/unique-root-quarta-connection`, based on main
+`44aa6abb72ad5fb674b391c0ea484888f16b2946`; the delivery commit is the commit
+containing this section. This supersedes the earlier claim that no connection
+can yet be registered: an openly conditional structural connection is available.
+
+Target: `STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL` on the cheapest existing root
+route, `CATHOLICISM-FROM-MAXIME-ENS-CAUSING-ALL` (`fa24c576`). Reuse:
+`UNIQUE-ROOT-PERFECTION` / `UniqueRootPerfection.derive` and its exact existing
+`NecessaryPerfectRootAt`, `MaximumInBeingCausesAllBeingsReading` and
+`MaximeEnsCausesBeingOfAllReading` vocabulary. Missing step: project the maximum
+in esse from the package and instantiate the at-being genus policy for it.
+Premise comparison: consume the existing package and existing genus policy;
+add no premise, naming converse, totality, world transport or sense bridge.
+This connects results; it does not independently defend either input.
+
+The new result `fb0a20d6-b236-4cef-841c-737f795d976c` performs that step.
+The full root DAG is `explorations/unique-root-quarta.toml`, with the exact
+16-premise existing downstream route retained. The stronger alternative
+`NecessaryClassicalGodRoot.derive` reconstructs a necessary root from population,
+whole-roster and contingent-dependence policies before deriving attributes;
+it is unnecessary for this contact and would obscure the selected package's
+actual contribution. No full-genus policy is inferred from the at-being policy.
+
+The exact remaining identification boundary is the existing
+`GodNamesTheFullyDescribedPrinciple` premise: identifying the causal maximum
+with `σ.IsGod` still requires the fuller description and its nominal policy.
+The existing downstream causal-perfection, first-being, classical-attribute,
+revelation, resurrection, Church identity and teaching-truth premises remain
+explicit and OPEN. Neither necessity nor perfection supplies that identification.
+A direct perfection-to-causality inference fails in the omission control.
+No competing worldview is thereby refuted or Catholicism established.
+
+Verification: focused Solution build, scoped binding (three results, zero
+mismatches), zero-permitted-axiom Comparator and NanoDa passed for the connection
+and controls. A composed consumer directly applies `UniqueRootPerfection.derive`
+to all eight original inputs before this bridge, addressing the independent
+review finding about theorem reuse. The finite positive control has two existing candidates and a
+nonempty causal edge; omitting genus preserves the unique necessary perfect
+root with no causal edges; omitting the package permits empty actuality and
+vacuous genus. These are consequence tests, not real metaphysical accounts.
+Claim/type self-sweep: same profile, world, esse and dictionaries; no attribution,
+new meaning or hidden hypothesis. Necessity, uniqueness and perfection are
+surplus to the maximum projection. No added or changed stating claims.
+
+The required map/fix commands exposed stray undefined-variable expressions in
+`argument_batch.py`; two unused lines were removed and command smoke regressions
+added (six focused tests pass). No service was configured for this task; CLI
+verification reused the existing warm build and verifier setup. The prior
+service experiment is retained below and was not repeated.
+
+Computed frontier comparison: open premises reaching the root 353 → 374
+(217 → 232 bare, 96 supported unchanged, 40 → 46 stated); cheapest route
+cost 28 → 28. These are newly connected existing obligations, not newly
+asserted premises or discharged obligations.
+
+Current delivery evidence: computed premise delta and thickness are included in
+the PR; delivered-head CI and independent review govern merge. Next research
+step: examine the existing full-description naming boundary and its actual
+attribute prerequisites, keeping revelation/history separate. Shared policy
+sourceRevision `625cb04ca568aebc8d45c90033e107a05e9bd2a0`.
+
 ### Unique necessary actual root to perfection (2026-11-05)
 
 The `agent/unique-root-perfection` batch (verified implementation

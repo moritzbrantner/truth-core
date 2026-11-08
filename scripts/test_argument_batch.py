@@ -113,5 +113,18 @@ class SenseForkGenerationTest(unittest.TestCase):
                 self.assertEqual(argument_batch.build_records(spec, False), [])
 
 
+class CommandSmokeTests(unittest.TestCase):
+    def test_empty_map(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "map.toml"
+            path.write_text('target = "test"\n')
+            self.assertEqual(argument_batch.check_map(path, False), 0)
+
+    def test_fix_without_arguments(self):
+        from subprocess import CompletedProcess
+        with patch.object(argument_batch.subprocess, "run", return_value=CompletedProcess([], 0, "", "")):
+            self.assertEqual(argument_batch.fix_disambiguations({}), 0)
+
+
 if __name__ == "__main__":
     unittest.main()

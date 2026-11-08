@@ -359,7 +359,6 @@ MISSING = re.compile(r"corpus error: (\S+): .*does not link ([0-9a-f-]{36})")
 
 def fix_disambiguations(spec: dict) -> int:
     handles = Handles()
-    expanded = expand_sense_forks(spec, existing["arguments"])
     ours = set()
     for a in spec.get("argument", []):
         found = handles.existing("argument", a["id"], a.get("label"))
@@ -455,7 +454,6 @@ def challenge_text(solution: str, theorems: list[str]) -> str:
 def check_map(path: Path, mermaid: bool) -> int:
     data = tomllib.loads(path.read_text())
     handles = Handles()
-    expanded = expand_sense_forks(spec, existing["arguments"])
     arguments = [record for _, record in load_ids("arguments").values()]
     nodes = {n["id"]: n for n in data.get("node", [])}
     resolved: dict[str, str] = {}
