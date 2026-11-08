@@ -1846,12 +1846,12 @@
       "path": "corpus/disambiguations/maxime-ens.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
-      "finding": "Source-scope re-review for PR905: Merely maximal (nothing above), greatest represented degree (all bearer degrees below or equivalent) and strict primacy remain distinct. Greatest degree permits tied bearers; no uniqueness or strict supremacy enters the new source reading. The old maximality theorem interfaces remain unchanged; weakening an antecedent strengthens a causal conditional. Earlier recorded disposition (historical context, not the current source attribution): Existing resolution retained: The case uses the weakest sense: maximal in being, nothing being more a being (`IsMaximumIn InAct MoreIn esse`). It does not assume a strict maximum that exceeds every other being, and it does not use Anselm's conceptual description. Uniqueness is derived (AQUINAS-ST-I-Q2-A3-AT-MOST-ONE-MAXIME-ENS), not built in. A reviewer who reads 'maxime ens' as 'the greatest possible being' is reading a stronger sense than any premise asserts. Definition-fork re-review: the new paragraph preserves every original meaning and source boundary; only separate conditional interfaces are registered. The old selected-esse maximal causal premise follows from greatest-degree causation only with explicit maximal-to-greatest transfer, itself derived under supplied active-pair degree calibration, local directedness and excluded middle. Neither source attribution nor old theorem inputs gain those assumptions silently. #1111: the existing maximal/greatest distinction now explicitly includes the generic selected-perfection IsMaximumIn sense and its esse specialization; #1141 bridges/countermodels and open source-to-old-I boundary retained. No proof premise changed.",
+      "finding": "Source-scope re-review for PR905: Merely maximal (nothing above), greatest represented degree (all bearer degrees below or equivalent) and strict primacy remain distinct. Greatest degree permits tied bearers; no uniqueness or strict supremacy enters the new source reading. The old maximality theorem interfaces remain unchanged; weakening an antecedent strengthens a causal conditional. Earlier recorded disposition (historical context, not the current source attribution): Existing resolution retained: The case uses the weakest sense: maximal in being, nothing being more a being (`IsMaximumIn InAct MoreIn esse`). It does not assume a strict maximum that exceeds every other being, and it does not use Anselm's conceptual description. Uniqueness is derived (AQUINAS-ST-I-Q2-A3-AT-MOST-ONE-MAXIME-ENS), not built in. A reviewer who reads 'maxime ens' as 'the greatest possible being' is reading a stronger sense than any premise asserts. Definition-fork re-review: the new paragraph preserves every original meaning and source boundary; only separate conditional interfaces are registered. The old selected-esse maximal causal premise follows from greatest-degree causation only with explicit maximal-to-greatest transfer, itself derived under supplied active-pair degree calibration, local directedness and excluded middle. Neither source attribution nor old theorem inputs gain those assumptions silently. #1111: the existing maximal/greatest distinction now explicitly includes the generic selected-perfection IsMaximumIn sense and its esse specialization; #1141 bridges/countermodels and open source-to-old-I boundary retained. No proof premise changed. Follow-up review (term sense forks, batch 3): the appended sense-fork pointer names MAXIME_1-3 and their declarations (StrictlyGreatestIn is new, only in TruthCore.Causality.TermSenseForks3); the audited results still use the one merely-maximal IsMaximalIn at esse, so no step here changes sense.",
       "before": {
         "sha256": "09f962384fd21f5a330426b296b4167a159e3fc4a30dd53f9d3bd9ab5ea0e713",
         "lean_declaration": null
       },
-      "reviewed_sha256": "a57c1d359c05d489996e4188a39cb6ea41d2e6141ba54bf6b1a21d33730e43dd"
+      "reviewed_sha256": "2db34ac808b0a460e90b0524c69d4427ea4b67ad4bad8604aaa76e3861394295"
     },
     {
       "kind": "disambiguations",
@@ -1885,12 +1885,12 @@
       "path": "corpus/disambiguations/per-se.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
-      "finding": "Existing resolution retained: Three different uses share the words 'per se': a per se ordered series (prima via, `MovesAsMoved`), being necessary per se (tertia via, `IsNecessaryPerSe`: no cause of necessity from elsewhere), and being self-evident (per se notum; in this corpus the `self_evident` marking). Each is its own predicate or record field and no inference moves between them: the convergence result TERTIA-VIA-NECESSARY-PER-SE-IS-MAXIME-ENS uses only `IsNecessaryPerSe`, and the self-evidence of STMT-EXCLUDED-MIDDLE rests on Aristotle's elenctic defence, not on per se ordering. The natural-law per-se-nota reading is Aquinas’s predicate-in-the-subject account of self-evidence. A claim proposing this account is not already a corpus self_evident marking.",
+      "finding": "Existing resolution retained: Three different uses share the words 'per se': a per se ordered series (prima via, `MovesAsMoved`), being necessary per se (tertia via, `IsNecessaryPerSe`: no cause of necessity from elsewhere), and being self-evident (per se notum; in this corpus the `self_evident` marking). Each is its own predicate or record field and no inference moves between them: the convergence result TERTIA-VIA-NECESSARY-PER-SE-IS-MAXIME-ENS uses only `IsNecessaryPerSe`, and the self-evidence of STMT-EXCLUDED-MIDDLE rests on Aristotle's elenctic defence, not on per se ordering. The natural-law per-se-nota reading is Aquinas’s predicate-in-the-subject account of self-evidence. A claim proposing this account is not already a corpus self_evident marking. Follow-up review (term sense forks, batch 3): appended why the term is not forked (homonyms with different Lean types or no Lean declaration); the resolution's sense separation is unchanged.",
       "before": {
         "sha256": "2a688fb68fe917ecd122430ab25ef91041ae7cf28878b9bfc9d08f08e3b9b115",
         "lean_declaration": null
       },
-      "reviewed_sha256": "2a688fb68fe917ecd122430ab25ef91041ae7cf28878b9bfc9d08f08e3b9b115"
+      "reviewed_sha256": "cec048a52dad42dedf5d63595a832f2fe64cbb400c3ed7d6b595ca56392548ec"
     },
     {
       "kind": "disambiguations",
@@ -1976,12 +1976,12 @@
       "path": "corpus/disambiguations/potency.json",
       "status": "inspected",
       "classification": "adopted_potency_scope",
-      "finding": "Inspected the adopted/independent potency distinction. Generic frozen theorem interfaces keep their independent predicate; the adopted definition is used only by explicit sibling specializations. No rival is declared refuted, no source attribution is added, and no premise truth is inferred from a definition.",
+      "finding": "Inspected the adopted/independent potency distinction. Generic frozen theorem interfaces keep their independent predicate; the adopted definition is used only by explicit sibling specializations. No rival is declared refuted, no source attribution is added, and no premise truth is inferred from a definition. Follow-up review (term sense forks, batch 3): the appended sense-fork pointer names POTENCY_1-3 and their per-sense arguments in TruthCore.Results.Causality.TermSenseForks3; the audited results still use exactly one supplied potency predicate everywhere, so no step here changes sense.",
       "before": {
         "sha256": "76c589c5cfd15ed8c5e30f534a8061c497b54c621ace403f3a9b49686ebf5a58",
         "lean_declaration": null
       },
-      "reviewed_sha256": "76c589c5cfd15ed8c5e30f534a8061c497b54c621ace403f3a9b49686ebf5a58"
+      "reviewed_sha256": "29f121520aa836e0cc3d0b3ccab887e2b7fb918894f6a3129402c18be1bbd167"
     }
   ],
   "limits": [

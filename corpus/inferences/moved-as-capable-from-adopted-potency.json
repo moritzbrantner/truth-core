@@ -1,0 +1,11 @@
+{
+  "id": "INF-MOVED-AS-CAPABLE-FROM-ADOPTED-POTENCY",
+  "input_statement_ids": [
+    "STMT-MOVED-ONLY-AS-IN-ADOPTED-POTENCY"
+  ],
+  "output_statement_id": "STMT-MOVED-ONLY-AS-CAPABLE",
+  "rule": "Conjunction elimination",
+  "meaning": "Strength order between the ADOPTED and CAPACITY readings of the moved use: being moved only as in ADOPTED potency implies being moved only as CAPABLE.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

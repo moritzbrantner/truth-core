@@ -1,0 +1,11 @@
+{
+  "id": "MAXIME-SENSE-FORK-CAUSES-BEING-OF-ALL",
+  "label": "Whichever single sense maxime takes, a MAXIME_1 being causes being in all others",
+  "argument_id": "MAXIME-SENSE-FORK-CAUSES-BEING-OF-ALL",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks3.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks3.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks3.maximeEnsCausesAllBySenseFork",
+  "comparator_config": "results/MAXIME-SENSE-FORK-CAUSES-BEING-OF-ALL/comparator.json",
+  "status": "solution-present",
+  "description": "Optional summary over MAXIME_1-3. Coverage reads both uses of the superlative (existence, causal) in selected senses; exclusivity makes them one sense, so the witness of the existence use falls under the causal use and causes being in every other being; whichever sense it is, the witness is MAXIMAL in being, directly or through a sense bridge. The controls give a model of coverage without exclusivity (existence MAXIMAL, causal GREATEST-degree, incomparable degrees) in which the conclusion fails."
+}

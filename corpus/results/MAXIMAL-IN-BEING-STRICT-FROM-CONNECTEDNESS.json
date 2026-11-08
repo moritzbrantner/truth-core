@@ -1,0 +1,11 @@
+{
+  "id": "MAXIMAL-IN-BEING-STRICT-FROM-CONNECTEDNESS",
+  "label": "Comparability in being makes a MAXIME_1 being MAXIME_3",
+  "argument_id": "MAXIMAL-IN-BEING-STRICT-FROM-CONNECTEDNESS",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks3.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks3.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks3.maximalInBeingIsStrictlyGreatest",
+  "comparator_config": "results/MAXIMAL-IN-BEING-STRICT-FROM-CONNECTEDNESS/comparator.json",
+  "status": "solution-present",
+  "description": "Derives the MAXIME_1 to MAXIME_3 sense bridge: if any two distinct things are comparable in being, then for a MAXIMAL being m and any other x, x is not more a being than m, so m is more a being than x."
+}

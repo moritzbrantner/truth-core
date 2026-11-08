@@ -1,0 +1,28 @@
+{
+  "id": "MAXIME-SENSE-FORK-CAUSES-BEING-OF-ALL",
+  "label": "Whichever single sense maxime takes, a MAXIME_1 being causes being in all others",
+  "premise_statement_ids": [
+    "STMT-MAXIME-SENSES-EXHAUSTIVE",
+    "STMT-MAXIME-SENSE-UNIQUE",
+    "STMT-SOME-MAXIME-IN-ROUTE-SENSE",
+    "STMT-ROUTE-MAXIME-CAUSES-ALL-BEINGS",
+    "STMT-GREATEST-IN-BEING-IS-MAXIMAL",
+    "STMT-STRICTLY-GREATEST-IN-BEING-IS-MAXIMAL"
+  ],
+  "conclusion_statement_id": "STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL",
+  "inference_ids": [
+    "INF-MAXIME-SENSE-FORK-CAUSES-BEING-OF-ALL"
+  ],
+  "meaning": "Optional summary over MAXIME_1-3. Coverage reads both uses of the superlative (existence, causal) in selected senses; exclusivity makes them one sense, so the witness of the existence use falls under the causal use and causes being in every other being; whichever sense it is, the witness is MAXIMAL in being, directly or through a sense bridge. The controls give a model of coverage without exclusivity (existence MAXIMAL, causal GREATEST-degree, incomparable degrees) in which the conclusion fails.",
+  "definition_ids": [
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-ESSE",
+    "DEF-GREATEST-BEING-STRICT",
+    "DEF-GREATEST-DEGREE-IN-A-PERFECTION",
+    "DEF-MAXIME-ENS",
+    "DEF-ROUTE-SENSE-SELECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MAXIME-ENS"
+  ]
+}

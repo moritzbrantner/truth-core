@@ -1,0 +1,11 @@
+{
+  "id": "CAPACITY-NON-SIMULTANEITY-FAILS-FROM-EXERCISE",
+  "label": "An exercised POTENCY_3 capacity refutes capacity non-simultaneity",
+  "argument_id": "CAPACITY-NON-SIMULTANEITY-FAILS-FROM-EXERCISE",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks3.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks3.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks3.capacityNonSimultaneityFails",
+  "comparator_config": "results/CAPACITY-NON-SIMULTANEITY-FAILS-FROM-EXERCISE/comparator.json",
+  "status": "solution-present",
+  "description": "Per-sense failure of the CAPACITY branch: a CAPACITY retained while exercised falsifies 'nothing in act has the CAPACITY for that act'."
+}

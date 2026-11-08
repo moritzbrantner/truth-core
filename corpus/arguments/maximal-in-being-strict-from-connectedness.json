@@ -1,0 +1,22 @@
+{
+  "id": "MAXIMAL-IN-BEING-STRICT-FROM-CONNECTEDNESS",
+  "label": "Comparability in being makes a MAXIME_1 being MAXIME_3",
+  "premise_statement_ids": [
+    "STMT-MORE-IN-BEING-CONNECTED"
+  ],
+  "conclusion_statement_id": "STMT-MAXIMAL-IN-BEING-IS-STRICTLY-GREATEST",
+  "inference_ids": [
+    "INF-MAXIMAL-IN-BEING-STRICT-FROM-CONNECTEDNESS"
+  ],
+  "meaning": "Derives the MAXIME_1 to MAXIME_3 sense bridge: if any two distinct things are comparable in being, then for a MAXIMAL being m and any other x, x is not more a being than m, so m is more a being than x.",
+  "definition_ids": [
+    "DEF-ESSE",
+    "DEF-GREATEST-BEING-STRICT",
+    "DEF-MAXIME-ENS",
+    "DEF-MORE-IN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-BEING-UNIVOCITY",
+    "DISAMB-MAXIME-ENS"
+  ]
+}
