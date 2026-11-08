@@ -1,0 +1,12 @@
+{
+  "id": "c8451a5e-83ae-4952-bcb0-5d2c6ea2596c",
+  "label": "The finite mover fork supplies a per-se mover",
+  "paraphrase": "Each of the three typed mover readings supplies a per-se mover in some respect, conditional on explicit conversion for the accidental branch. The by-another reading is respect-free, so this does not establish a same-respect mover.",
+  "lean_declaration": "TruthCore.Causality.MotionMoverFork.MoverForkSound",
+  "definition_ids": [
+    "39577c15-a681-40f5-82a5-b5b9bfd7ff6e",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "7b016011-d896-532f-b6fb-2bd7c2a54bbb",
+    "94b121aa-dea5-5740-9287-91fb8b4fcfd4"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "39577c15-a681-40f5-82a5-b5b9bfd7ff6e",
+  "label": "Typed motion and mover fork selection",
+  "term": "finite motion/mover interpretation and residual scope",
+  "definition": "BroadMotion wraps the existing primitive broad MovedIn; PhysicalMotion additionally requires the supplied physical-respect classification. SomeMover contains a same-respect per-se witness; AnotherMover additionally requires distinctness; AnotherMoverAnyRespect wraps the existing some-respect distinct-mover reading. AccidentalMover contains only a witness of the separate primitive per-accidens relation. MotionMeaning and MoverMeaning select these typed interpretations by finite constructors. Selection coverage says that a constructor is selected; exclusivity says at most one is selected, not that extensions are disjoint. MotionCoverage separately covers moved instances by physical or residual respects. ResidualHasMover asserts mover coverage of the residual class.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.MotionMoverFork.MoverMeaning",
+  "note": "Analyst formulation, attribution deferred. Existing moved, per-se and per-accidens relations remain primitives with open applicability obligations. Physical means the supplied physical classification (place, quality or quantity in the existing Physics reading); residual marks the explicitly supplied remaining class for this route. Examples: a physical heating and a stipulated nonphysical intellectual reduction; the latter is a framework example, not an empirical proof. Inertial state is not automatically reduction. A singleton self-link tests distinctness, not animal part structure. No asymmetry, transitivity, irreflexivity or well-foundedness is imposed. AccidentalHasPerSeMover is an open conversion premise, not a definition of accidental moving. Coverage and exclusivity are separately explicit; only coverage is required for the weakest root theorem."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "d758b09d-9f7c-4641-bc9b-3916fa3f37d4",
+  "label": "Residual motion has a same-respect mover",
+  "paraphrase": "OPEN residual premise: every broad moved instance in a residual respect has a per-se mover in that same respect.",
+  "lean_declaration": "TruthCore.Causality.MotionMoverFork.ResidualHasMover",
+  "definition_ids": [
+    "39577c15-a681-40f5-82a5-b5b9bfd7ff6e"
+  ]
+}

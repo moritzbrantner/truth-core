@@ -1,0 +1,9 @@
+{
+  "id": "10749aec-cb49-4c43-8d48-aea2a30ff80a",
+  "label": "The mover use selects a covered reading",
+  "paraphrase": "OPEN selection coverage: some one of the three finite mover constructors is selected for the route use.",
+  "lean_declaration": "TruthCore.Causality.MotionMoverFork.MoverCoverage",
+  "definition_ids": [
+    "39577c15-a681-40f5-82a5-b5b9bfd7ff6e"
+  ]
+}

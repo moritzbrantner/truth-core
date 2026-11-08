@@ -1,0 +1,11 @@
+{
+  "id": "5db223fc-5fee-4023-90eb-247fbf074ab2",
+  "label": "Motion and mover fork finite controls",
+  "argument_id": "a0fdb786-6fa2-46d7-9c7c-b4ef67d4434e",
+  "challenge_module": "TruthCore.Results.Causality.MotionMoverFork.Challenge",
+  "solution_module": "TruthCore.Results.Causality.MotionMoverFork.Solution",
+  "theorem": "TruthCore.Results.Causality.MotionMoverFork.controls",
+  "comparator_config": "results/5db223fc-5fee-4023-90eb-247fbf074ab2/comparator.json",
+  "status": "solution-present",
+  "description": "Concrete finite controls and nonvacuity only, not real-world applicability or premise truth."
+}

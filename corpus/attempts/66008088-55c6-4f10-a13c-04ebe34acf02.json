@@ -1,0 +1,15 @@
+{
+  "id": "66008088-55c6-4f10-a13c-04ebe34acf02",
+  "label": "Broad mover coverage through physical and residual cases",
+  "date": "2026-11-08",
+  "statement_ids": [
+    "4a952b96-be5f-5493-8277-985248151d01"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Conditional derivation of broad same-respect mover coverage by physical/residual cases, with both new scope premises OPEN. The finite batch has a joint nonvacuity model and an omission countermodel for each root premise. The mover fork keeps Physics VIII.5 respect-free: some mover in some respect does not supply root-route alignment. Self-link and accidental-only controls separate distinctness and per-se conversion. See docs/notes/motion-mover-fork.md. A successful conditional attempt does not establish its target as true.",
+  "evidence": [
+    "511d9114-661a-4160-9279-d519ff6039bb",
+    "PR-1253"
+  ]
+}

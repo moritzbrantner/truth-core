@@ -1,0 +1,11 @@
+{
+  "id": "ef6a96c7-f2ae-435d-b9dc-6831dc29c65d",
+  "label": "Distinct mover supplies respect-free mover coverage",
+  "argument_id": "d6861e2d-b8e0-4fac-a712-21ee75584736",
+  "challenge_module": "TruthCore.Results.Causality.MotionMoverFork.Challenge",
+  "solution_module": "TruthCore.Results.Causality.MotionMoverFork.Solution",
+  "theorem": "TruthCore.Results.Causality.MotionMoverFork.anotherAnyGivesSomethingAny",
+  "comparator_config": "results/ef6a96c7-f2ae-435d-b9dc-6831dc29c65d/comparator.json",
+  "status": "solution-present",
+  "description": "Drop distinctness from the existing respect-free MovedByAnother witness; retain the witnessed respect, without aligning it with any separately observed motion."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "cc549a02-abeb-491e-85ad-bf5d5b01d4a4",
+  "label": "MOTION_2 restricts MOTION_1 reduction",
+  "argument_id": "077e99bd-fcfd-4021-bd2f-d3e991e4710a",
+  "challenge_module": "TruthCore.Results.Causality.MotionMoverFork.Challenge",
+  "solution_module": "TruthCore.Results.Causality.MotionMoverFork.Solution",
+  "theorem": "TruthCore.Results.Causality.MotionMoverFork.physicalGivesBroad",
+  "comparator_config": "results/cc549a02-abeb-491e-85ad-bf5d5b01d4a4/comparator.json",
+  "status": "solution-present",
+  "description": "Projection of the physical witness retains its broad moved witness; this does not identify arbitrary physical states with reductions."
+}

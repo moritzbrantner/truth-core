@@ -1,0 +1,14 @@
+{
+  "id": "a0fdb786-6fa2-46d7-9c7c-b4ef67d4434e",
+  "label": "Motion and mover fork finite controls",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "fe2bdb05-1ac0-4ae2-951f-b18b67393e01",
+  "inference_ids": [
+    "a18e4325-b313-49c2-8f59-be3ae1ebd190"
+  ],
+  "meaning": "Concrete finite controls and nonvacuity only, not real-world applicability or premise truth.",
+  "definition_ids": [
+    "39577c15-a681-40f5-82a5-b5b9bfd7ff6e"
+  ],
+  "sense_mixing_control": true
+}

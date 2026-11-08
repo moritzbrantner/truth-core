@@ -1,0 +1,10 @@
+{
+  "id": "9027ee3a-3e8c-4998-aa9f-26656a8fdc4d",
+  "label": "Distinct mover supplies respect-free mover coverage (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "592cbe8e-1023-4a66-b6f7-eea3f040c9bc",
+  "rule": "existential witness projection",
+  "meaning": "Drop distinctness from the existing respect-free MovedByAnother witness; retain the witnessed respect, without aligning it with any separately observed motion.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

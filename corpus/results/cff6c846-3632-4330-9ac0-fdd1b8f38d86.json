@@ -1,0 +1,11 @@
+{
+  "id": "cff6c846-3632-4330-9ac0-fdd1b8f38d86",
+  "label": "MOTION_1 and MOTION_2 mover coverage from physical and residual coverage",
+  "argument_id": "e228e56c-62e3-42d9-ba3b-38f1e8e8ee6b",
+  "challenge_module": "TruthCore.Results.Causality.MotionMoverFork.Challenge",
+  "solution_module": "TruthCore.Results.Causality.MotionMoverFork.Solution",
+  "theorem": "TruthCore.Results.Causality.MotionMoverFork.motionFork",
+  "comparator_config": "results/cff6c846-3632-4330-9ac0-fdd1b8f38d86/comparator.json",
+  "status": "solution-present",
+  "description": "Cases on typed motion readings: the physical branch uses physical coverage; the broad branch uses the scoped root derivation with its explicit residual and coverage premises."
+}

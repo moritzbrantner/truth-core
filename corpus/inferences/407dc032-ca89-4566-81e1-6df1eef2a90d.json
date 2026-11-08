@@ -1,0 +1,12 @@
+{
+  "id": "407dc032-ca89-4566-81e1-6df1eef2a90d",
+  "label": "The mover fork under accidental conversion (inference)",
+  "input_statement_ids": [
+    "22a09acd-44f6-4cc6-98d4-90dd773cfff6"
+  ],
+  "output_statement_id": "c8451a5e-83ae-4952-bcb0-5d2c6ea2596c",
+  "rule": "typed witness elimination and case analysis",
+  "meaning": "Cases on the three typed mover meanings; the accidental branch retains the explicit open conversion premise.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

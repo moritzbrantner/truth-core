@@ -1,0 +1,30 @@
+{
+  "id": "077e99bd-fcfd-4021-bd2f-d3e991e4710a",
+  "label": "MOTION_2 restricts MOTION_1 reduction",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "f3690999-7bd0-47fb-a84d-b2db0f86e9b5",
+  "inference_ids": [
+    "65dc12d8-2ad6-4493-87d0-df309771ffc6"
+  ],
+  "meaning": "Projection of the physical witness retains its broad moved witness; this does not identify arbitrary physical states with reductions.",
+  "definition_ids": [
+    "39577c15-a681-40f5-82a5-b5b9bfd7ff6e",
+    "ab0d1d6b-b777-51cc-ae11-c033081830e8",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43"
+  ],
+  "term_senses": {
+    "MOTION": "38074911-d62e-44e1-b71c-66b5882f0ff3"
+  },
+  "sense_bridges": [
+    {
+      "term": "MOTION",
+      "from": "2ddf9d53-00b1-4c63-9197-ee632aba310d",
+      "to": "38074911-d62e-44e1-b71c-66b5882f0ff3",
+      "statement_id": "f3690999-7bd0-47fb-a84d-b2db0f86e9b5",
+      "role": "conclusion"
+    }
+  ],
+  "disambiguation_ids": [
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
+  ]
+}

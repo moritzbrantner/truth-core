@@ -1,0 +1,11 @@
+{
+  "id": "511d9114-661a-4160-9279-d519ff6039bb",
+  "label": "Broad MOTION_1 mover route from physical and residual coverage",
+  "argument_id": "2999429c-1119-4e13-9a05-0528aab277e3",
+  "challenge_module": "TruthCore.Results.Causality.MotionMoverFork.Challenge",
+  "solution_module": "TruthCore.Results.Causality.MotionMoverFork.Solution",
+  "theorem": "TruthCore.Results.Causality.MotionMoverFork.broadFromPhysicalAndResidual",
+  "comparator_config": "results/511d9114-661a-4160-9279-d519ff6039bb/comparator.json",
+  "status": "solution-present",
+  "description": "Cases on instance coverage: physical moved instances use existing physical mover coverage; residual instances use the explicit residual premise. Does not discharge either premise or assert all reduction is physical."
+}

@@ -1,0 +1,17 @@
+target = "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER"
+[[node]]
+id = "STMT-EVERY-PHYSICAL-MOTION-HAS-A-PER-SE-MOVER"
+[[node]]
+id = "Physical or residual motion covers the broad mover route"
+text = "Every broad moved instance is physical or in the explicitly supplied residual class."
+[[node]]
+id = "Residual motion has a same-respect mover"
+text = "Moved instances in the residual class have same-respect movers."
+[[node]]
+id = "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER"
+[[edge]]
+premises = ["STMT-EVERY-PHYSICAL-MOTION-HAS-A-PER-SE-MOVER", "Physical or residual motion covers the broad mover route", "Residual motion has a same-respect mover"]
+conclusion = "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER"
+kind = "derivation"
+status = "certified"
+note = "Replace universal physical scope by explicit coverage and residual mover coverage; neither new premise is discharged."

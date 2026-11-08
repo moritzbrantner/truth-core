@@ -1,0 +1,9 @@
+{
+  "id": "b561520c-8dee-491f-873b-bf9d648be71b",
+  "label": "The motion use selects at most one reading",
+  "paraphrase": "OPEN selection exclusivity: any two selected motion constructors are equal; physical and broad extensions need not be disjoint.",
+  "lean_declaration": "TruthCore.Causality.MotionMoverFork.MotionReadingExclusive",
+  "definition_ids": [
+    "39577c15-a681-40f5-82a5-b5b9bfd7ff6e"
+  ]
+}

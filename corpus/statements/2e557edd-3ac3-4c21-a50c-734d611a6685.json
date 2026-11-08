@@ -1,0 +1,9 @@
+{
+  "id": "2e557edd-3ac3-4c21-a50c-734d611a6685",
+  "label": "The motion use selects a covered reading",
+  "paraphrase": "OPEN selection coverage: some one of the two finite motion constructors is selected for the route use.",
+  "lean_declaration": "TruthCore.Causality.MotionMoverFork.MotionReadingCoverage",
+  "definition_ids": [
+    "39577c15-a681-40f5-82a5-b5b9bfd7ff6e"
+  ]
+}
