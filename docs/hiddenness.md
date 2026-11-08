@@ -129,7 +129,7 @@ route-omission example interprets `IsGod` as true on Unit but does not satisfy
 all theological attributes or a complete Catholicism route. No such wider
 consistency claim is made. All six results build, bind (6 bound, 0 mismatch) and pass Comparator and
 NanoDa with zero permitted axioms. Corpus/bundle/attribution and sense checks
-pass. Nine obsolete sense-allowlist entries were removed without reordering
+pass. Seven obsolete argument-sense allowlist entries were removed without reordering
 the remaining inventory. Delivered-head CI is still required before merge;
 the source files themselves are not verification evidence.
 
@@ -138,3 +138,9 @@ nonresistance; compare the identification with each intended God conception;
 retain the qualified norm's positive sufficient-reason obligation. A failed
 proof search would settle none of these. Next family: teleology scope rather
 than another hiddenness deduction on the same assumptions.
+
+CI caught a cleanup error: static declaration-name checks had also removed two
+pre-existing maximum-sense exceptions whose distinct names elaborate to the
+same constant. Those two baseline exceptions are retained; no new exception
+was introduced. Seven argument-sense entries are removed by the actual
+hiddenness definition-inventory changes. The proof bindings had zero mismatches.
