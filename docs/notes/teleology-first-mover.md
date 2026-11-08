@@ -127,3 +127,10 @@ seven-step reconstruction, not global logical minimality among all conceivable
 arguments. Cognition and intelligence remain in the inherited director/reduction
 outputs; they are not independently established. Applicability and source fidelity
 remain open; no philosophical truth discharge is claimed.
+
+The computed target diagnostic counts the new conjunction as one bare premise,
+so its route cost is one. That is a recording unit containing seven explicit
+constraints, not seven truth burdens discharged. The Catholicism-root frontier
+is unchanged. The substantive weakening rests on `weaken` and the strict scope
+model, independently of the diagnostic count. The first-mover target gains one
+bare local-bundle commitment; it is not an established premise.
