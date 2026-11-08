@@ -1,0 +1,26 @@
+[batch]
+vocab = "TruthCore.Causality.ExistenceSenseRoute"
+results = "TruthCore.Results.Causality.ExistenceSenseRoute"
+
+[[statement]]
+id = "Root existence guard and empty-extension control"
+lean = "Controls"
+paraphrase = "The existing one-point root model satisfies both the box K and actualist K root nodes. A separate one-candidate Ontic with no accessibility edges and empty existence extension satisfies some candidate's box-existence while no candidate actually exists. These are logical fixtures only, not metaphysical possibility claims."
+definitions = ["DEF-NECESSARY-IN-SENSE", "DEF-KANT-MODAL-NECESSITY"]
+
+[[argument]]
+id = "Root box K already entails actualist K"
+theorem = "boxKToActualistK"
+sense_bridges = [{term = "NECESSARY", from = "NECESSARY_2", to = "NECESSARY_11", statement_id = "STMT-NECESSARY-ROOT-ACTUALIST-K", role = "conclusion"}]
+premises = ["STMT-NECESSARY-ROOT-BOX-K"]
+conclusion = "STMT-NECESSARY-ROOT-ACTUALIST-K"
+rule = "Existential elimination, projection of actual existence from ActualRoot, conjunction introduction"
+meaning = "Unpack the box-K root witness n. RootFacts includes ActualRoot, whose ActualConcrete conjunct supplies ExistsAt w n. Pair this with the same box-existence proof to obtain the actualist-K node. No reflexivity, coverage or existence-to-esse premise is added; the existing RootFacts guard already carries actuality. This closes no independent premise and proves no act-in-esse calibration."
+
+[[argument]]
+id = "Root existence guard controls"
+theorem = "controls"
+premises = []
+conclusion = "Root existence guard and empty-extension control"
+rule = "Existing nonvacuity witness and explicit empty-extension counterinterpretation"
+meaning = "The positive root fixture is reused from NecessarySenseFork.nonvacuity. In the negative fixture Unit has a candidate and box-existence holds vacuously, yet ExistsAt is empty. Thus domain inhabitation or bare box-existence cannot replace the actual-root guard. This is a non-entailment model, not a refutation of actual existence."

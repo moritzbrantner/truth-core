@@ -1,0 +1,10 @@
+{
+  "id": "732bcf0e-e1bb-4e63-a0d7-af66b315275e",
+  "label": "Root existence guard controls (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "9e4aed6c-96fa-4cdf-842a-beb01e555e69",
+  "rule": "Existing nonvacuity witness and explicit empty-extension counterinterpretation",
+  "meaning": "The positive root fixture is reused from NecessarySenseFork.nonvacuity. In the negative fixture Unit has a candidate and box-existence holds vacuously, yet ExistsAt is empty. Thus domain inhabitation or bare box-existence cannot replace the actual-root guard. This is a non-entailment model, not a refutation of actual existence.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

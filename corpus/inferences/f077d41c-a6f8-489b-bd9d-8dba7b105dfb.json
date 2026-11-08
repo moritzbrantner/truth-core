@@ -1,0 +1,12 @@
+{
+  "id": "f077d41c-a6f8-489b-bd9d-8dba7b105dfb",
+  "label": "Root box K already entails actualist K (inference)",
+  "input_statement_ids": [
+    "cdf897a8-5490-561a-b9d2-507486a3f192"
+  ],
+  "output_statement_id": "7f24ce4d-9d93-56dc-9bd6-2dd947c224e5",
+  "rule": "Existential elimination, projection of actual existence from ActualRoot, conjunction introduction",
+  "meaning": "Unpack the box-K root witness n. RootFacts includes ActualRoot, whose ActualConcrete conjunct supplies ExistsAt w n. Pair this with the same box-existence proof to obtain the actualist-K node. No reflexivity, coverage or existence-to-esse premise is added; the existing RootFacts guard already carries actuality. This closes no independent premise and proves no act-in-esse calibration.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

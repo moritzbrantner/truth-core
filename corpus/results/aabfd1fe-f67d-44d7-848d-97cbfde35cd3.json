@@ -1,0 +1,11 @@
+{
+  "id": "aabfd1fe-f67d-44d7-848d-97cbfde35cd3",
+  "label": "Root box K already entails actualist K",
+  "argument_id": "b7946610-9304-4b67-8639-50c94009d6de",
+  "challenge_module": "TruthCore.Results.Causality.ExistenceSenseRoute.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ExistenceSenseRoute.Solution",
+  "theorem": "TruthCore.Results.Causality.ExistenceSenseRoute.boxKToActualistK",
+  "comparator_config": "results/aabfd1fe-f67d-44d7-848d-97cbfde35cd3/comparator.json",
+  "status": "solution-present",
+  "description": "Unpack the box-K root witness n. RootFacts includes ActualRoot, whose ActualConcrete conjunct supplies ExistsAt w n. Pair this with the same box-existence proof to obtain the actualist-K node. No reflexivity, coverage or existence-to-esse premise is added; the existing RootFacts guard already carries actuality. This closes no independent premise and proves no act-in-esse calibration."
+}
