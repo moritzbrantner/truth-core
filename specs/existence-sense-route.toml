@@ -11,7 +11,8 @@ definitions = ["DEF-NECESSARY-IN-SENSE", "DEF-KANT-MODAL-NECESSITY"]
 [[argument]]
 id = "Root box K already entails actualist K"
 theorem = "boxKToActualistK"
-sense_bridges = [{term = "NECESSARY", from = "NECESSARY_2", to = "NECESSARY_11", statement_id = "STMT-NECESSARY-ROOT-ACTUALIST-K", role = "conclusion"}]
+definitions = ["DEF-KANT-MODAL-NECESSITY", "DEF-NECESSARY-IN-SENSE", "5bd704bb-4915-4657-9801-022247312147"]
+sense_bridges = [{term = "NECESSARY", from = "NECESSARY_2", to = "NECESSARY_12", statement_id = "STMT-NECESSARY-ROOT-ACTUALIST-K", role = "conclusion"}]
 premises = ["STMT-NECESSARY-ROOT-BOX-K"]
 conclusion = "STMT-NECESSARY-ROOT-ACTUALIST-K"
 rule = "Existential elimination, projection of actual existence from ActualRoot, conjunction introduction"
