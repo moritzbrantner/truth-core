@@ -1,0 +1,9 @@
+{
+  "id": "a1b2e330-388f-4120-bc5c-969642317792",
+  "label": "Actual concrete grounding edge at the selected world",
+  "term": "actual concrete grounding edge",
+  "definition": "ActualConcreteGround m w y x means m.concrete y ∧ m.ontic.ExistsAt w y ∧ m.grounds w y x. The source y must be concrete and present at w. This predicate alone does not guard the target x; uses of ActualRoot and the esse-cause interface guard their targets separately. It asserts one selected edge, not a chain, ancestry, accessibility, well-foundedness or an explanation of all reality.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.CogitoNecessaryConcrete.ActualConcreteGround",
+  "note": "Reuses the existing Profile and Ontic vocabulary (DEF-KANT-ONTOLOGICAL-MODEL) and the edge component described inside DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY; that record points to GroundAncestor and cannot stand for a single edge in type binding. Profile.concrete and Profile.grounds are primitive supplied predicates. Their intended interpretation, examples and distinguishing constraints are OPEN: no productivity, sufficiency, asymmetry, transitivity or identity with Ontic.Causes is assumed. A present concrete y with a supplied grounds edge is a formal example; an absent or nonconcrete y is a counterexample even if grounds holds. Whether such an edge represents a cause, enabler or other dependence in reality remains an explicit application obligation. Ancestry adds reflexive-transitive closure; roothood excludes incoming edges. This metadata audit introduces no Lean relation or additional premise."
+}

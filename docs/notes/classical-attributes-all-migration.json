@@ -259,14 +259,14 @@
       "kind": "statements",
       "id": "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
       "path": "corpus/statements/excluded-middle.json",
-      "status": "inspected",
+      "status": "repaired",
       "classification": "preservation",
-      "finding": "Reviewed scope metadata correction: object-level ExcludedMiddle declaration and legacy floor basis/justification remain unchanged. The serious withholding position targets universal assertion; exact analyst global negation remains an unrefuted logical rival. Disagreement metadata includes that complement. Focused actual-record regression prevents floor-removal from turning instance-denial refutation into proof of global EM.",
+      "finding": "Reviewed scope metadata correction: object-level ExcludedMiddle declaration and legacy floor basis/justification remain unchanged. The serious withholding position targets universal assertion; exact analyst global negation remains an unrefuted logical rival. Disagreement metadata includes that complement. Focused actual-record regression prevents floor-removal from turning instance-denial refutation into proof of global EM. 2026-11-08 type audit: excluded-middle statement links the existing p ∨ ¬p definition instead of administrative self-evident marking; its proposition, binding and self_evident status are unchanged.",
       "before": {
         "sha256": "279edc03ac8141e2a580cefd9c9998f4dd260565e154c5856b4735abdda3eaa8",
         "lean_declaration": "TruthCore.Logic.ExcludedMiddle"
       },
-      "reviewed_sha256": "ca481b03be5c5e5d6e5431cf285814bf707527be6b8ac668242892129d6f3f63"
+      "reviewed_sha256": "2c5e512b6bf360c3c5c2842af7966ff43dd14a438d707b8c560b38272696ab79"
     },
     {
       "kind": "statements",
@@ -1339,12 +1339,12 @@
       "path": "corpus/definitions/maxime-ens.json",
       "status": "repaired",
       "classification": "reviewed_locator_clarification",
-      "finding": "Existing interpretation retained: The maximum in being: `IsMaximumIn InAct MoreIn esse m`, that is, m has being and nothing is more a being than m. Reached in the quarta via from the maximally true (quae sunt maxime vera, sunt maxime entia). Uniqueness is not part of the definition; it is the derived statement STMT-AT-MOST-ONE-MAXIMUM-IN-BEING. No new structural law, source attribution or independently established premise is introduced. Follow-up #1110: reviewed the exact Lean signature against this metadata-only locator/scope clarification. Exact field/predicate locator TruthCore.Latin.Aquinas.SummaTheologiae.IsMaximalIn. Primitive interpretation and open premise status remain explicit; no source attribution, theorem type, structural law or premise truth changes.",
+      "finding": "Existing interpretation retained: The maximum in being: `IsMaximumIn InAct MoreIn esse m`, that is, m has being and nothing is more a being than m. Reached in the quarta via from the maximally true (quae sunt maxime vera, sunt maxime entia). Uniqueness is not part of the definition; it is the derived statement STMT-AT-MOST-ONE-MAXIMUM-IN-BEING. No new structural law, source attribution or independently established premise is introduced. Follow-up #1110: reviewed the exact Lean signature against this metadata-only locator/scope clarification. Exact field/predicate locator TruthCore.Latin.Aquinas.SummaTheologiae.IsMaximalIn. Primitive interpretation and open premise status remain explicit; no source attribution, theorem type, structural law or premise truth changes. 2026-11-08 type audit: MAXIME_ENS points directly to the IsMaximumIn body occurring in the frozen types, rather than its IsMaximalIn alias. Both spellings express InAct m r ∧ ∀ y, ¬ MoreIn r y m; no greatestness or new type distinction is claimed. The generic sixth sense remains an alias and an unfinished legacy distinction.",
       "before": {
         "sha256": "234c126e4e7111fb3facbda59fb7a3b14fa51f502dd2fedac3b603e50523c907",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.IsMaximumIn"
       },
-      "reviewed_sha256": "db6bb3006d072625ed98c2552fc83c48b0ff8961f58523aa190d6b22bbb8445e"
+      "reviewed_sha256": "99c3dca09484d8823e897d272ee4fa83bbc9329e44e26062c1ee7172274411a3"
     },
     {
       "kind": "definitions",
@@ -1844,14 +1844,14 @@
       "kind": "disambiguations",
       "id": "4f1d0cf6-88ba-59e3-814d-01450c2bf282",
       "path": "corpus/disambiguations/maxime-ens.json",
-      "status": "inspected",
+      "status": "repaired",
       "classification": "intentional_abstraction",
-      "finding": "Source-scope re-review for PR905: Merely maximal (nothing above), greatest represented degree (all bearer degrees below or equivalent) and strict primacy remain distinct. Greatest degree permits tied bearers; no uniqueness or strict supremacy enters the new source reading. The old maximality theorem interfaces remain unchanged; weakening an antecedent strengthens a causal conditional. Earlier recorded disposition (historical context, not the current source attribution): Existing resolution retained: The case uses the weakest sense: maximal in being, nothing being more a being (`IsMaximumIn InAct MoreIn esse`). It does not assume a strict maximum that exceeds every other being, and it does not use Anselm's conceptual description. Uniqueness is derived (AQUINAS-ST-I-Q2-A3-AT-MOST-ONE-MAXIME-ENS), not built in. A reviewer who reads 'maxime ens' as 'the greatest possible being' is reading a stronger sense than any premise asserts. Definition-fork re-review: the new paragraph preserves every original meaning and source boundary; only separate conditional interfaces are registered. The old selected-esse maximal causal premise follows from greatest-degree causation only with explicit maximal-to-greatest transfer, itself derived under supplied active-pair degree calibration, local directedness and excluded middle. Neither source attribution nor old theorem inputs gain those assumptions silently. #1111: the existing maximal/greatest distinction now explicitly includes the generic selected-perfection IsMaximumIn sense and its esse specialization; #1141 bridges/countermodels and open source-to-old-I boundary retained. No proof premise changed. Follow-up review (term sense forks, batch 3): the appended sense-fork pointer names MAXIME_1-3 and their declarations (StrictlyGreatestIn is new, only in TruthCore.Causality.TermSenseForks3); the audited results still use the one merely-maximal IsMaximalIn at esse, so no step here changes sense.",
+      "finding": "Source-scope re-review for PR905: Merely maximal (nothing above), greatest represented degree (all bearer degrees below or equivalent) and strict primacy remain distinct. Greatest degree permits tied bearers; no uniqueness or strict supremacy enters the new source reading. The old maximality theorem interfaces remain unchanged; weakening an antecedent strengthens a causal conditional. Earlier recorded disposition (historical context, not the current source attribution): Existing resolution retained: The case uses the weakest sense: maximal in being, nothing being more a being (`IsMaximumIn InAct MoreIn esse`). It does not assume a strict maximum that exceeds every other being, and it does not use Anselm's conceptual description. Uniqueness is derived (AQUINAS-ST-I-Q2-A3-AT-MOST-ONE-MAXIME-ENS), not built in. A reviewer who reads 'maxime ens' as 'the greatest possible being' is reading a stronger sense than any premise asserts. Definition-fork re-review: the new paragraph preserves every original meaning and source boundary; only separate conditional interfaces are registered. The old selected-esse maximal causal premise follows from greatest-degree causation only with explicit maximal-to-greatest transfer, itself derived under supplied active-pair degree calibration, local directedness and excluded middle. Neither source attribution nor old theorem inputs gain those assumptions silently. #1111: the existing maximal/greatest distinction now explicitly includes the generic selected-perfection IsMaximumIn sense and its esse specialization; #1141 bridges/countermodels and open source-to-old-I boundary retained. No proof premise changed. Follow-up review (term sense forks, batch 3): the appended sense-fork pointer names MAXIME_1-3 and their declarations (StrictlyGreatestIn is new, only in TruthCore.Causality.TermSenseForks3); the audited results still use the one merely-maximal IsMaximalIn at esse, so no step here changes sense. 2026-11-08 type audit: MAXIME_ENS points directly to the IsMaximumIn body occurring in the frozen types, rather than its IsMaximalIn alias. Both spellings express InAct m r ∧ ∀ y, ¬ MoreIn r y m; no greatestness or new type distinction is claimed. The generic sixth sense remains an alias and an unfinished legacy distinction.",
       "before": {
         "sha256": "09f962384fd21f5a330426b296b4167a159e3fc4a30dd53f9d3bd9ab5ea0e713",
         "lean_declaration": null
       },
-      "reviewed_sha256": "dc408d3e1e0d93fae9cd1c1b34d5d733c8153501eaec7c877062a1523e9052c1"
+      "reviewed_sha256": "82d39457391283c81fc8c368aafd80fc4d49a289aa5e5dbb9808632116c92e9d"
     },
     {
       "kind": "disambiguations",
@@ -1982,6 +1982,19 @@
         "lean_declaration": null
       },
       "reviewed_sha256": "b47d0b88b1e65077392fd43728ba8858394955230ae3823c5dfd47b6eed3d0c1"
+    },
+    {
+      "kind": "definitions",
+      "id": "d8e2ed12-8089-5202-ae51-e807cf611c76",
+      "path": "corpus/definitions/excluded-middle-logical-holding.json",
+      "status": "inspected",
+      "classification": "bounded_inspection",
+      "finding": "Existing logical meaning of excluded middle: every proposition p has p ∨ ¬p, with locator TruthCore.Logic.ExcludedMiddle. Replaces the administrative marking link in the shared premise. No axiom, proof, premise truth or source attribution changes.",
+      "before": {
+        "sha256": "1daf00789d907d5cd73307519ed7f9e0ac2b42669b77422c5286d26638de5697",
+        "lean_declaration": "TruthCore.Logic.ExcludedMiddle"
+      },
+      "reviewed_sha256": "1daf00789d907d5cd73307519ed7f9e0ac2b42669b77422c5286d26638de5697"
     }
   ],
   "limits": [

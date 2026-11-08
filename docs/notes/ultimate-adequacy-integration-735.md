@@ -235,21 +235,58 @@ nonnecessary/contingent root, PER_SE, and well-foundedness/anti-brute root.
 This does not refute the existing theorem, but its broad definition links are
 not a completed account of the senses its bound type uses.
 
-**Next concrete step:** after the structure branches are reconciled with main,
-audit this argument's eight hypothesis types and conclusion against those seven
-groups. Remove only links that genuinely do not describe that use; select the
-actual sense and declare `term_senses`; register a bridge only where the stated
-premise or conclusion proves it. Split genuinely different readings into sibling
-arguments. Refine bare sense definitions where they currently name consuming
-statement formulas. Then run the sense ratchet and scoped binding on the actual
-combined revision, plus the required final proof gates for changed proof inputs.
-Do not clear the allowlist merely by selecting a convenient label. #1235's PR
-reports that no argument yet declares `term_senses`, so its opt-in Lean check
-alone does not certify the legacy corpus. #1242 records further semantic work
-for PRIOR_1/2/3; those definitions are not supplied by this reconciliation.
+**Audit completed, 2026-11-08**, on `research/unique-root-sense-audit`, based on
+main `92f0f6e668ff47dce0134a54b718688c90703ea5`. The structure PRs above are now
+merged. All eight hypothesis types and the conclusion were compared with the
+actual definitions; the earlier proof and countermodel evidence is reused.
 
-No proof, corpus record, assumption or root closure changes in this update.
-Existing proof evidence is retained; integrated sense/type coverage remains open.
+| Flagged group | Actual type and disposition |
+| --- | --- |
+| Productive contribution / source-backed supply | Neither Supply predicate occurs. Remove inherited links; no identification or bridge is asserted. |
+| Maximality | `IsMaximumIn InAct MoreIn esse n` is merely maximal: in act at esse, with no strictly-more candidate. No totality, strict greatestness or uniqueness follows from this definition. Select sense 1 and locate its actual body; the generic sense 6 uses an alias of that same body and remains legacy debt, not a new distinct type. |
+| NECESSARY | `NecessaryAt m.ontic w n` keeps the same individual across accessible worlds. Select sense 2. No necessity-per-se or special modal-frame law occurs. Actual presence comes separately from roothood. |
+| Individual necessity / exemplification | Neither DeDicto nor modalPossible occurs. Remove inherited links. The explicit NecessaryAt quantifier is the reading actually consumed. |
+| Nonnecessary / contingent root | Neither predicate occurs. The supplied necessary root is retained; no contingency premise is added or established. |
+| PER_SE | No IsNecessaryPerSe occurs. EM links the existing logical definition `∀ p, p ∨ ¬p`, rather than the administrative self-evident marking; its established status is unchanged. |
+| Well-foundedness / anti-brute root | Select the actual-root sense 2: actual/concrete at w, with no incoming guarded grounding edge. No ancestry, Acc or WellFounded occurs. The separate esse-cause interface needs one edge, so a definition now locates ActualConcreteGround directly instead of GroundAncestor. |
+
+The three remaining senses are declared in `term_senses` and checked against the
+real Lean telescope: eight hypotheses and one conclusion, one bound result,
+zero mismatches. Both maximality aliases retain their legacy exceptions, because
+two spellings do not give distinct types. The check is constant-occurrence
+binding, not proof of philosophical meaning. No artificial bridge or mixing
+control was introduced to clear warnings.
+
+The two grade-producing arguments now link the same at-being maximality as their
+shared conclusion. Shared statement link corrections remove other inherited
+mixing entries mechanically; those consumers have not thereby received an
+independent philosophical audit. The ratchet shrinks from 915/1974 to 914/1928
+arguments/term uses. The 268 unfinished declaration exceptions are retained.
+Reviewed migration manifests include the corrected logical EM definition and
+explain the maximality locator correction; hashes follow those explicit reviews.
+
+Recursive meaning is bounded explicitly: roothood uses present concrete guards
+and the supplied grounding edge; necessity uses accessibility and existence;
+maximality uses the supplied esse/InAct/MoreIn; perfection transfers that same
+InAct for every candidate and respect. Profile concrete/grounds, the respect
+carrier, esse value and actuality/comparison dictionaries remain primitive
+inputs with OPEN semantic applicability. ExistingInActAt is only one-way.
+The distinct-agent cause-to-ground interface remains an explicit OPEN premise.
+The conclusion contains no GoodIn or CausesIn dictionary, moral goodness,
+omniscience or God naming; its definition now says so. No source claim or
+source reading was changed. Claim/type self-sweep found no added premise,
+identity transport, world transport or hidden order law. The Challenge hash
+remains `3ad42e2c61b1d3000750d395b06818869390badd97e9a8ec8725017bf5f3768c`.
+
+**Remaining philosophical work, outside this audit:** this result does not yet
+reach `STMT-CATHOLICISM-TRUE`. A connection needs an explicit bridge from this
+selected-root/perfection package to the root-route God's identifying/attribute
+requirements. The current type supplies neither that identification nor
+explanatory adequacy; there is no justified bridge to register as proved. No
+premise is discharged by the metadata changes. Use the computed frontier delta
+in the PR, not a hand-reconstructed claim of root progress. Final CI and the
+current-head review remain the delivery gates.
+
 Shared conventions sourceRevision:
 `625cb04ca568aebc8d45c90033e107a05e9bd2a0`.
 
