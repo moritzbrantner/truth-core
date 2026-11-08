@@ -258,17 +258,20 @@ def impact_plan(root: Path, changed: Iterable[str] | None, *, main: bool = False
 def select(root: Path, changed: Iterable[str]) -> tuple[str, list[str]]:
     """Return ("full" | "subset", result IDs) for a set of changed repository paths."""
     changed = sorted(set(changed))
-    results = load_results(root)
+    records = [(path, json.loads(path.read_text(encoding="utf-8")))
+               for path in sorted((root / "corpus/results").glob("*.json"))]
     if needs_full_run(changed):
-        return "full", sorted(results)
+        return "full", sorted(record["id"] for _, record in records)
     changed_modules = {module for module in map(changed_module, changed) if module}
     changed_set = set(changed)
     graph = ImportGraph(root)
     selected = []
-    for result_id, config in results.items():
-        own = {f"corpus/results/{result_id}.json"}
-        record_changed = bool(own & changed_set) or any(
-            path.startswith(f"results/{result_id}/") for path in changed
+    for record_path, record in records:
+        result_id = record["id"]
+        config_path = Path(record["comparator_config"])
+        config = json.loads((root / config_path).read_text(encoding="utf-8"))
+        record_changed = record_path.relative_to(root).as_posix() in changed_set or any(
+            path.startswith(config_path.parent.as_posix() + "/") for path in changed
         )
         module_changed = any(graph.closure(module) & changed_modules for module in result_modules(config))
         if record_changed or module_changed:

@@ -144,6 +144,18 @@ class SenseBindRolesTest(SenseBindTest):
 
 
 class RatchetTest(unittest.TestCase):
+    def test_identity_migration_is_not_an_added_exception(self):
+        from corpus_ids import Aliases, legacy_uuid
+        argument = legacy_uuid("argument", "A")
+        aliases = Aliases([("argument", {"id": argument, "legacy_id": "A", "label": "A consequence"})])
+        base = {"arguments": {"A": {"PRIOR": [S1]}}}
+        migrated = {"arguments": {argument: {"PRIOR": [S1]}}}
+        self.assertEqual(sense_index.allowlist_entries(base, aliases),
+                         sense_index.allowlist_entries(migrated, aliases))
+        grown = {"arguments": {argument: {"PRIOR": [S1, S2]}}}
+        self.assertEqual(sense_index.allowlist_entries(grown, aliases)
+                         - sense_index.allowlist_entries(base, aliases), {(argument, "PRIOR", S2)})
+
     def test_flat_entries(self) -> None:
         data = {"arguments": {"A": {"PRIOR": [S1, S2]}}, "senses_without_lean_declaration": [S3]}
         self.assertEqual(sense_index.allowlist_entries(data), {("A", "PRIOR", S1), ("A", "PRIOR", S2), (S3,)})
