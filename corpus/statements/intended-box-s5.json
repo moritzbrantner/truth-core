@@ -1,0 +1,12 @@
+{
+  "id": "STMT-INTENDED-BOX-S5",
+  "label": "The route's 'necessary being' is read as NECESSARY_2 in frame class S5, and only so",
+  "paraphrase": "OPEN reading premise, attribution deferred: the route's intended reading of 'necessary being' is exactly box-existence in frame class S5 (sense boxS5 of the fork), and no other enumerated sense.",
+  "lean_declaration": "TruthCore.Causality.ModalSenseSupport.IntendedIsBoxS5",
+  "definition_ids": [
+    "DEF-NECESSARY-IN-SENSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY"
+  ]
+}

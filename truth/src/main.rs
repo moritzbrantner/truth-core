@@ -1,6 +1,6 @@
 use serde_json::{Value, json};
 use std::{collections::BTreeMap, env, ffi::OsString, path::PathBuf, process::ExitCode};
-use truth::{Corpus, bridges, check, context, dossier, frontier, related, thickness};
+use truth::{Corpus, bridges, check, context, dossier, frontier, orphans, related, thickness};
 
 const HELP: &str = "Usage: truth [--root PATH] [--json] status
        truth [--root PATH] [--json] check
@@ -8,6 +8,7 @@ const HELP: &str = "Usage: truth [--root PATH] [--json] status
        truth [--root PATH] [--json] thickness [--queue] [--frontier-root STATEMENT-ID]
        truth [--root PATH] [--json] frontier [--reaching-root] [--routes] [--frontier-root STATEMENT-ID]
        truth [--root PATH] [--json] frontier-diff --base REV [--head REV] [--frontier-root STATEMENT-ID]
+       truth [--root PATH] [--json] orphans [--frontier-root STATEMENT-ID] [--by module|family] [--senses]
        truth [--root PATH] [--json] bridges --constants FILE (--queue-file FILE | --target ID)...
              [--targets N] [--top K] [--pool M]
        truth [--root PATH] [--json] related STATEMENT-ID [--limit N]
@@ -385,6 +386,8 @@ fn run(args: &[OsString]) -> Result<(Value, Option<String>), (u8, Value)> {
     let mut bridge = BridgeArgs::default();
     let mut bridge_flags = false;
     let mut queue = false;
+    let mut senses = false;
+    let mut group_by: Option<orphans::GroupBy> = None;
     let mut frontier_root = thickness::DEFAULT_ROOT.to_owned();
     let mut frontier = FrontierArgs::default();
     let mut research = ResearchArgs::default();
@@ -399,6 +402,15 @@ fn run(args: &[OsString]) -> Result<(Value, Option<String>), (u8, Value)> {
         match arg {
             "--json" => {}
             "--queue" => queue = true,
+            "--senses" => senses = true,
+            "--by" => {
+                group_by = Some(
+                    args.next()
+                        .and_then(|value| value.to_str())
+                        .and_then(orphans::GroupBy::parse)
+                        .ok_or_else(|| usage("--by requires module or family"))?,
+                );
+            }
             "--reaching-root" => frontier.reaching_root = true,
             "--routes" => frontier.routes = true,
             "--base" | "--head" => {
@@ -482,7 +494,13 @@ fn run(args: &[OsString]) -> Result<(Value, Option<String>), (u8, Value)> {
         }
     }
     if matches!(positional.as_slice(), ["check"]) {
-        if bridge_flags || research.flags || queue || frontier_root != thickness::DEFAULT_ROOT {
+        if bridge_flags
+            || research.flags
+            || queue
+            || senses
+            || group_by.is_some()
+            || frontier_root != thickness::DEFAULT_ROOT
+        {
             return Err(usage("check takes no options besides --root and --json"));
         }
         return check_command(&root);
@@ -507,7 +525,7 @@ fn run(args: &[OsString]) -> Result<(Value, Option<String>), (u8, Value)> {
                 || frontier.routes
                 || frontier.base.is_some()
                 || frontier.head.is_some();
-            if !applies || queue || frontier_flags {
+            if !applies || queue || frontier_flags || senses || group_by.is_some() {
                 return Err(usage(format!("an option does not apply to {command}")));
             }
             Some((*command, target))
@@ -529,10 +547,13 @@ fn run(args: &[OsString]) -> Result<(Value, Option<String>), (u8, Value)> {
         return research_command(&root, &corpus, command, target, &research, &frontier_root);
     }
     let thickness = matches!(positional.as_slice(), ["thickness"]);
+    let orphan_report = matches!(positional.as_slice(), ["orphans"]);
     let command = positional.first().copied().unwrap_or_default();
     let frontier_command = matches!(positional.as_slice(), ["frontier"] | ["frontier-diff"]);
     let (id, bridges) = match positional.as_slice() {
-        ["status"] | ["thickness"] | ["frontier"] | ["frontier-diff"] if !bridge_flags => {
+        ["status"] | ["thickness"] | ["frontier"] | ["frontier-diff"] | ["orphans"]
+            if !bridge_flags =>
+        {
             (None, false)
         }
         ["inspect", id] if !id.is_empty() && !bridge_flags => (Some(*id), false),
@@ -542,10 +563,17 @@ fn run(args: &[OsString]) -> Result<(Value, Option<String>), (u8, Value)> {
     if !thickness && queue {
         return Err(usage("--queue applies only to thickness"));
     }
-    if !thickness && !frontier_command && frontier_root != thickness::DEFAULT_ROOT {
+    if !thickness && !frontier_command && !orphan_report && frontier_root != thickness::DEFAULT_ROOT
+    {
         return Err(usage(
-            "--frontier-root applies only to thickness, frontier, frontier-diff, dossier and context",
+            "--frontier-root applies only to thickness, frontier, frontier-diff, orphans, dossier and context",
         ));
+    }
+    if !orphan_report && (senses || group_by.is_some()) {
+        return Err(usage("--by and --senses apply only to orphans"));
+    }
+    if senses && group_by.is_some() {
+        return Err(usage("--senses and --by are alternatives"));
     }
     if command != "frontier" && (frontier.reaching_root || frontier.routes) {
         return Err(usage("--reaching-root and --routes apply only to frontier"));
@@ -564,6 +592,21 @@ fn run(args: &[OsString]) -> Result<(Value, Option<String>), (u8, Value)> {
     })?;
     if thickness {
         let (output, text) = thickness_command(&root, &corpus, &frontier_root, queue);
+        return Ok((output, Some(text)));
+    }
+    if orphan_report {
+        let (mut output, text) = if senses {
+            let report = orphans::sense_report(&root, &corpus, &frontier_root);
+            let text = orphans::format_senses(&report);
+            (report, text)
+        } else {
+            let by = group_by.unwrap_or(orphans::GroupBy::Module);
+            let report = orphans::report(&root, &corpus, &frontier_root, by);
+            let text = orphans::format(&report);
+            (report, text)
+        };
+        output["schema_version"] = json!(1);
+        output["input_identity"] = json!(corpus.input_identity());
         return Ok((output, Some(text)));
     }
     if command == "frontier" {

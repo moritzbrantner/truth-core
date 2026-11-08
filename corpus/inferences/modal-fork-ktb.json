@@ -1,0 +1,16 @@
+{
+  "id": "INF-MODAL-FORK-KTB",
+  "input_statement_ids": [
+    "STMT-MODAL-STANDARD-CORRESPONDENCE-CERTIFICATE",
+    "STMT-MODAL-HIJK-CONVERGENCE-CERTIFICATE",
+    "STMT-NECESSARY-ROOT-BOX-K",
+    "STMT-ONTIC-T-SCHEMA",
+    "STMT-ONTIC-B-SCHEMA",
+    "STMT-INTENDED-BOX-B"
+  ],
+  "output_statement_id": "STMT-NECESSARY-ROOT-ON-INTENDED-READING",
+  "rule": "Theorem application (T correspondence; B correspondence of the convergence certificate), conjunction and existential introduction",
+  "meaning": "KTB branch of the 'necessary' sense fork with its frame condition derived: the K node, the OPEN T and B schemas and the OPEN reading premise (box-existence in KTB, and only that) give the fork node. Reflexivity from the T correspondence, symmetry from the B correspondence of the ConvergenceCertificate. Without the B schema the branch fails on the two-world order false <= true (controls).",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

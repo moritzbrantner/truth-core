@@ -1,11 +1,11 @@
 {
   "id": "GOD-NAMES-DESCRIBED-FROM-USAGE",
+  "label": "GOD_3: usage naming and a GOD_3-to-GOD_4 bridge give the naming premise",
   "argument_id": "GOD-NAMES-DESCRIBED-FROM-USAGE",
   "challenge_module": "TruthCore.Results.Causality.TermSenseForks4.Challenge",
   "solution_module": "TruthCore.Results.Causality.TermSenseForks4.Solution",
   "theorem": "TruthCore.Results.Causality.TermSenseForks4.godNamesDescribedFromUsage",
   "comparator_config": "results/GOD-NAMES-DESCRIBED-FROM-USAGE/comparator.json",
   "status": "solution-present",
-  "description": "GOD_3 (USAGE) branch of the naming use: whatever meets the full description is called God, and (explicit sense bridge) whatever is called God is the God of classical theism. So the fully described principle is the God of classical theism. The controls give a model with usage naming and no classical God (bridge omitted) and one with the bridge and no usage (naming premise omitted).",
-  "label": "GOD_3: usage naming and a GOD_3-to-GOD_4 bridge give the naming premise"
+  "description": "GOD_3 (USAGE) branch of the naming use: whatever meets the full description is called God, and (explicit sense bridge) whatever is called God is the God of classical theism. So the fully described principle is the God of classical theism. The controls give a model with usage naming and no classical God (bridge omitted) and one with the bridge and no usage (naming premise omitted)."
 }

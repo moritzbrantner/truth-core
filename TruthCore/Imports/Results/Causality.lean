@@ -149,6 +149,7 @@ public import TruthCore.Results.Causality.MaximumDefinitions.DirectedBridge.Solu
 public import TruthCore.Results.Causality.MaximumDefinitions.NamedElimination.Solution
 public import TruthCore.Results.Causality.MeinongianActuality.Solution
 public import TruthCore.Results.Causality.ModalNecessaryBeingActuality.Solution
+public import TruthCore.Results.Causality.ModalSenseSupport.Solution
 public import TruthCore.Results.Causality.MotionMapsBatch1.Solution
 public import TruthCore.Results.Causality.NamingVeracityBatch1.Solution
 public import TruthCore.Results.Causality.NecessarilyUnderived.LiftFromBridges.Solution

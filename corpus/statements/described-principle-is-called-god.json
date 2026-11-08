@@ -1,7 +1,7 @@
 {
   "id": "STMT-DESCRIBED-PRINCIPLE-IS-CALLED-GOD",
-  "paraphrase": "GOD_3 reading of the naming premise, OPEN analyst premise (attribution deferred): whatever meets the full nominal description is called 'God' by the speech community ('et hoc dicimus Deum', extended from the quarta via's maximal being to the fuller profile). Usage only: it says how the name is applied, not what its bearer is.",
   "label": "GOD_3: whatever meets the full description is called God in usage",
+  "paraphrase": "GOD_3 reading of the naming premise, OPEN analyst premise (attribution deferred): whatever meets the full nominal description is called 'God' by the speech community ('et hoc dicimus Deum', extended from the quarta via's maximal being to the fuller profile). Usage only: it says how the name is applied, not what its bearer is.",
   "lean_declaration": "TruthCore.Causality.TermSenseForks.DescribedPrincipleIsCalledGod",
   "definition_ids": [
     "DEF-GOD-WHAT-ALL-UNDERSTAND",

@@ -1,0 +1,16 @@
+{
+  "id": "INF-MODAL-FORK-S5",
+  "input_statement_ids": [
+    "STMT-MODAL-STANDARD-CORRESPONDENCE-CERTIFICATE",
+    "STMT-MODAL-HIJK-CONVERGENCE-CERTIFICATE",
+    "STMT-NECESSARY-ROOT-BOX-K",
+    "STMT-ONTIC-T-SCHEMA",
+    "STMT-ONTIC-5-SCHEMA",
+    "STMT-INTENDED-BOX-S5"
+  ],
+  "output_statement_id": "STMT-NECESSARY-ROOT-ON-INTENDED-READING",
+  "rule": "Theorem application (T correspondence; 5 correspondence of the convergence certificate), conjunction and existential introduction",
+  "meaning": "S5 branch of the 'necessary' sense fork with its frame condition derived: the K node, the OPEN T and 5 schemas and the OPEN reading premise (box-existence in S5, and only that) give the fork node. Reflexivity from the T correspondence, Euclideanness from the 5 correspondence of the ConvergenceCertificate. Without the 5 schema the branch fails on the two-world order false <= true (controls).",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,5 +1,6 @@
 {
   "id": "NOMINAL-BRIDGE-FROM-GOD-NAMES",
+  "label": "Converse: the GOD_4 naming premise gives the GOD_1-to-GOD_4 bridge (transcription)",
   "argument_id": "NOMINAL-BRIDGE-FROM-GOD-NAMES",
   "challenge_module": "TruthCore.Results.Causality.TermSenseForks4.Challenge",
   "solution_module": "TruthCore.Results.Causality.TermSenseForks4.Solution",
@@ -7,6 +8,5 @@
   "comparator_config": "results/NOMINAL-BRIDGE-FROM-GOD-NAMES/comparator.json",
   "status": "solution-present",
   "description": "Transcription (single application): the converse of GOD-NAMES-DESCRIBED-FROM-NOMINAL. The GOD_4 naming premise gives the GOD_1 to GOD_4 bridge, so the two statements are equivalent.",
-  "transcription": "single_application",
-  "label": "Converse: the GOD_4 naming premise gives the GOD_1-to-GOD_4 bridge (transcription)"
+  "transcription": "single_application"
 }

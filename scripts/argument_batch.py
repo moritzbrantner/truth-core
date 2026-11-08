@@ -38,7 +38,6 @@ The spec format:
 
     [[statement]]
     id = "STMT-..."
-    label = "..."                # optional plain label (<= 100 chars), also on arguments and relations
     lean = "FooReading"          # relative to batch.vocab unless it starts with TruthCore.
     paraphrase = "..."
     definitions = ["DEF-..."]
@@ -113,9 +112,7 @@ def build_records(spec: dict, write: bool) -> list[str]:
     spec_statements = {s["id"]: s for s in spec.get("statement", [])}
 
     for s in spec.get("statement", []):
-        record = {"id": s["id"], "paraphrase": s["paraphrase"]}
-        if "label" in s:
-            record["label"] = s["label"]
+        record = {"id": s["id"], **({"label": s["label"]} if "label" in s else {}), "paraphrase": s["paraphrase"]}
         if "lean" in s:
             record["lean_declaration"] = lean_name(batch, s["lean"])
         if s.get("definitions"):
@@ -144,27 +141,26 @@ def build_records(spec: dict, write: bool) -> list[str]:
                      "assumption_statement_ids": [], "discharged_statement_ids": []}
         if "label" in a:
             inference["label"] = a["label"]
-        argument = {"id": a["id"], "premise_statement_ids": a["premises"],
+        labelled = {"label": a["label"]} if "label" in a else {}
+        argument = {"id": a["id"], **labelled, "premise_statement_ids": a["premises"],
                     "conclusion_statement_id": a["conclusion"], "inference_ids": [f"INF-{a['id']}"],
                     "meaning": a["meaning"]}
         if definitions:
             argument["definition_ids"] = definitions
         if disambiguations:
             argument["disambiguation_ids"] = disambiguations
-        for key in ("label", "strong_version_needed", "commitment_statement_ids"):
+        for key in ("strong_version_needed", "commitment_statement_ids"):
             if key in a:
                 argument[key] = a[key]
         if a["id"] in existing["arguments"]:
             argument = {**existing["arguments"][a["id"]][1], **{k: v for k, v in argument.items()
                                                                if k not in ("disambiguation_ids",)}}
         comparator = f"results/{a['id']}/comparator.json"
-        result = {"id": a["id"], "argument_id": a["id"], "challenge_module": f"{batch['results']}.Challenge",
+        result = {"id": a["id"], **labelled, "argument_id": a["id"], "challenge_module": f"{batch['results']}.Challenge",
                   "solution_module": f"{batch['results']}.Solution", "theorem": f"{batch['results']}.{a['theorem']}",
                   "comparator_config": comparator, "status": "solution-present", "description": a["meaning"]}
         if "transcription" in a:
             result["transcription"] = a["transcription"]
-        if "label" in a:
-            result["label"] = a["label"]
         dump(existing["inferences"].get(inference["id"], (CORPUS / "inferences" / f"{name}.json",))[0],
              inference, write, planned)
         dump(existing["arguments"].get(a["id"], (CORPUS / "arguments" / f"{name}.json",))[0],
@@ -177,8 +173,9 @@ def build_records(spec: dict, write: bool) -> list[str]:
                                  "enable_nanoda": True}, write, planned)
 
     for r in spec.get("relation", []):
-        record = {k: r[k] for k in ("id", "subject_kind", "subject_id", "predicate", "object_kind", "object_id")}
-        for key in ("label", "verification_result_id", "strictness_result_id", "note"):
+        record = {k: r[k] for k in ("id", "label", "subject_kind", "subject_id", "predicate", "object_kind", "object_id")
+                  if k in r}
+        for key in ("verification_result_id", "strictness_result_id", "note"):
             if key in r:
                 record[key] = r[key]
         dump(existing["relations"].get(r["id"], (CORPUS / "relations" / f"{slug(r['id'])}.json",))[0],

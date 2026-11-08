@@ -1,0 +1,14 @@
+{
+  "id": "STMT-ONTIC-B-SCHEMA",
+  "label": "B schema: whatever is true is NECESSARY_2-ly possible on the route's frame",
+  "paraphrase": "OPEN modal principle, attribution deferred: the B schema 'p implies necessarily possibly p' (convergence formula 0 0 1 1) is valid on the route's modal frame, for every proposition and world. By the B correspondence it is equivalent to symmetry of the frame.",
+  "lean_declaration": "TruthCore.Causality.ModalSenseSupport.OnticBSchemaValid",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-HIJK-CONVERGENCE",
+    "DEF-KANT-MODAL-NECESSITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY"
+  ]
+}

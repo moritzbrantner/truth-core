@@ -1,0 +1,107 @@
+# Exploration map: the modal library's correspondence theorems supply the
+# frame conditions of the frame-class senses of "necessary" (#1233).
+# Analyst formulations, attribution deferred. Triage: docs/notes/modal-results-triage.md.
+target = "STMT-NECESSARY-ROOT-ON-INTENDED-READING"
+
+[[node]]
+id = "STMT-NECESSARY-ROOT-ON-INTENDED-READING"
+
+[[node]]
+id = "STMT-NECESSARY-ROOT-BOX-K"
+
+[[node]]
+id = "STMT-MODAL-STANDARD-CORRESPONDENCE-CERTIFICATE"
+
+[[node]]
+id = "STMT-MODAL-HIJK-CONVERGENCE-CERTIFICATE"
+
+[[node]]
+id = "STMT-ONTIC-T-SCHEMA"
+
+[[node]]
+id = "STMT-ONTIC-4-SCHEMA"
+
+[[node]]
+id = "STMT-ONTIC-B-SCHEMA"
+
+[[node]]
+id = "STMT-ONTIC-5-SCHEMA"
+
+[[node]]
+id = "STMT-INTENDED-BOX-T"
+
+[[node]]
+id = "STMT-INTENDED-BOX-S4"
+
+[[node]]
+id = "STMT-INTENDED-BOX-B"
+
+[[node]]
+id = "STMT-INTENDED-BOX-S5"
+
+[[node]]
+id = "STMT-MODAL-DITHEISM"
+
+[[node]]
+id = "STMT-NECESSARY-ACT-STRICT-CONTINGENT"
+
+[[node]]
+id = "STMT-NO-DISTINCT-NECESSARY-POTENTIAL-CAUSERS"
+
+[[node]]
+id = "STMT-SIMPLICITY-COLLAPSE-CORE"
+
+[[node]]
+id = "STMT-GOD-IS-MAXIMAL-IN-BEING"
+
+[[node]]
+id = "STMT-MODAL-DEGREE-NECESSARY-GLOBAL-MAXIMUM"
+
+[[edge]]
+premises = ["STMT-MODAL-STANDARD-CORRESPONDENCE-CERTIFICATE", "STMT-NECESSARY-ROOT-BOX-K", "STMT-ONTIC-T-SCHEMA", "STMT-INTENDED-BOX-T"]
+conclusion = "STMT-NECESSARY-ROOT-ON-INTENDED-READING"
+kind = "derivation"
+status = "certified"
+note = "MODAL-FORK-T: reflexivity from the T correspondence."
+
+[[edge]]
+premises = ["STMT-MODAL-STANDARD-CORRESPONDENCE-CERTIFICATE", "STMT-MODAL-HIJK-CONVERGENCE-CERTIFICATE", "STMT-NECESSARY-ROOT-BOX-K", "STMT-ONTIC-T-SCHEMA", "STMT-ONTIC-4-SCHEMA", "STMT-INTENDED-BOX-S4"]
+conclusion = "STMT-NECESSARY-ROOT-ON-INTENDED-READING"
+kind = "derivation"
+status = "certified"
+note = "MODAL-FORK-S4: transitivity from the 4 correspondence."
+
+[[edge]]
+premises = ["STMT-MODAL-STANDARD-CORRESPONDENCE-CERTIFICATE", "STMT-MODAL-HIJK-CONVERGENCE-CERTIFICATE", "STMT-NECESSARY-ROOT-BOX-K", "STMT-ONTIC-T-SCHEMA", "STMT-ONTIC-B-SCHEMA", "STMT-INTENDED-BOX-B"]
+conclusion = "STMT-NECESSARY-ROOT-ON-INTENDED-READING"
+kind = "derivation"
+status = "certified"
+note = "MODAL-FORK-KTB: symmetry from the B correspondence."
+
+[[edge]]
+premises = ["STMT-MODAL-STANDARD-CORRESPONDENCE-CERTIFICATE", "STMT-MODAL-HIJK-CONVERGENCE-CERTIFICATE", "STMT-NECESSARY-ROOT-BOX-K", "STMT-ONTIC-T-SCHEMA", "STMT-ONTIC-5-SCHEMA", "STMT-INTENDED-BOX-S5"]
+conclusion = "STMT-NECESSARY-ROOT-ON-INTENDED-READING"
+kind = "derivation"
+status = "certified"
+note = "MODAL-FORK-S5: Euclideanness from the 5 correspondence."
+
+[[edge]]
+premises = ["STMT-NO-DISTINCT-NECESSARY-POTENTIAL-CAUSERS"]
+conclusion = "STMT-MODAL-DITHEISM"
+kind = "rival"
+status = "certified"
+note = "Refuted by NECESSARY-POTENTIAL-CAUSERS-NOT-DISTINCT (open premises; does not count)."
+
+[[edge]]
+premises = ["STMT-SIMPLICITY-COLLAPSE-CORE"]
+conclusion = "STMT-NECESSARY-ACT-STRICT-CONTINGENT"
+kind = "rival"
+status = "certified"
+note = "Refuted by SIMPLICITY-COLLAPSE-CORE (no premises); a constraint on the route's account of creation."
+
+[[edge]]
+premises = ["STMT-MODAL-DEGREE-NECESSARY-GLOBAL-MAXIMUM"]
+conclusion = "STMT-GOD-IS-MAXIMAL-IN-BEING"
+kind = "bridge"
+status = "mapped"
+note = "Deferred: needs a bridge from world-indexed Preorder degrees to the route's MoreIn at esse and from the selected n to God."

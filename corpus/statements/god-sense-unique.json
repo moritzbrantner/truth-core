@@ -1,7 +1,7 @@
 {
   "id": "STMT-GOD-SENSE-UNIQUE",
-  "paraphrase": "OPEN frontier premise (exclusivity, attribution deferred): the route's reading of 'God' selects at most one sense, so the naming use and the attribute use take the same one. A constraint on the reading, not a claim that the senses pick out different beings.",
   "label": "The designated root route reads 'God' in one GOD sense only",
+  "paraphrase": "OPEN frontier premise (exclusivity, attribution deferred): the route's reading of 'God' selects at most one sense, so the naming use and the attribute use take the same one. A constraint on the reading, not a claim that the senses pick out different beings.",
   "lean_declaration": "TruthCore.Causality.TermSenseForks.GodSenseUnique",
   "definition_ids": [
     "DEF-ROUTE-SENSE-SELECTION"

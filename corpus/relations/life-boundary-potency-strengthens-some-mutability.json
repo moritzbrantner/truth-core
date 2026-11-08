@@ -1,11 +1,11 @@
 {
   "id": "REL-LIFE-BOUNDARY-POTENCY-STRENGTHENS-SOME-MUTABILITY",
+  "label": "MUTABLE_1 boundary statement strengthens the MUTABLE_3 one",
   "subject_kind": "statement",
   "subject_id": "STMT-LIFE-BOUNDARY-REQUIRES-POTENCY",
   "predicate": "strengthens",
   "object_kind": "statement",
   "object_id": "STMT-LIFE-BOUNDARY-REQUIRES-SOME-MUTABILITY",
-  "label": "MUTABLE_1 boundary statement strengthens the MUTABLE_3 one",
   "verification_result_id": "LIFE-BOUNDARY-SOME-MUTABILITY-FROM-SUBJECT",
   "note": "Strength order between MUTABLE_1 and MUTABLE_3 in the boundary use. No strictness control; a being in another's power with no potency in itself that begins to live separates them (the bridge-omission control)."
 }
