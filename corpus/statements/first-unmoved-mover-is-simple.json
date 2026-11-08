@@ -1,1 +1,12 @@
-{"id": "78246da5-0b37-5b37-b821-1e8bdb41606c", "label": "Every first mover moved by none is not a body, not composed of matter and form, has no esse…", "legacy_id": "STMT-FIRST-UNMOVED-MOVER-IS-SIMPLE", "paraphrase": "Every first mover moved by none is not a body, not composed of matter and form, has no esse distinct from its essence, and is not composite in any way.", "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.FirstUnmovedMoverIsSimpleReading", "definition_ids": ["5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72", "cfadc1f4-dd30-5f4f-a336-a0b9c1b1182d", "85f7f569-ab4d-514b-aa2c-cf75171ad105"]}
+{
+  "id": "78246da5-0b37-5b37-b821-1e8bdb41606c",
+  "label": "Every first unmoved mover lacks body, matter-form composition and essence-esse distinction",
+  "legacy_id": "STMT-FIRST-UNMOVED-MOVER-IS-SIMPLE",
+  "paraphrase": "Every first mover moved by none is not a body, not composed of matter and form, has no esse distinct from its essence, and is not composite in any way.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.FirstUnmovedMoverIsSimpleReading",
+  "definition_ids": [
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "cfadc1f4-dd30-5f4f-a336-a0b9c1b1182d",
+    "85f7f569-ab4d-514b-aa2c-cf75171ad105"
+  ]
+}

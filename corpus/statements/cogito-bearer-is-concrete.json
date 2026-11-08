@@ -1,6 +1,6 @@
 {
   "id": "a7040bf1-b15a-5ffb-b096-6b60411a066e",
-  "label": "Every bearer of an occurring thought episode is CONCRETE_6 under the supplied world-independent…",
+  "label": "Every bearer of an occurring thought is CONCRETE_AND_ABSTRACT_6",
   "legacy_id": "STMT-COGITO-BEARER-IS-CONCRETE",
   "paraphrase": "Every bearer of an occurring thought episode is concrete under the supplied world-independent concreteness predicate. Neither occurrence nor bearing alone makes a bearer concrete. In the adopted esse-profile specialization, the predicate is HasEsseInRe and the bridge follows conditionally from bearer existence plus ExistingInActAt; the generic arbitrary-predicate interface is not thereby asserted for every legacy model.",
   "lean_declaration": "TruthCore.Logic.CogitoConcrete.EveryBearerIsConcrete",

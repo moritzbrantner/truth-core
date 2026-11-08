@@ -1,6 +1,6 @@
 {
   "id": "6b13095f-588e-5ef5-af79-9f1170a4e141",
-  "label": "Every physical MOTION_2 of a thing in a respect is either by nature or by force and contrary to…",
+  "label": "Every physical MOTION_2 is natural or forced contrary to nature",
   "legacy_id": "STMT-EVERY-MOTION-NATURAL-OR-FORCED",
   "paraphrase": "Every physical motion (in place, quality or quantity) of a thing in a respect is either by nature or by force and contrary to nature.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.Typed.EveryMotionNaturalOrForcedReading",

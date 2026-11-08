@@ -1,6 +1,6 @@
 {
   "id": "be1289df-3c43-5595-99b5-1fb8d38164be",
-  "label": "For every being x: if the esse of x is not limited, then x satisfies the primitive INFINITE_1…",
+  "label": "Unlimited esse suffices for infinity of perfection",
   "legacy_id": "STMT-UNLIMITED-ESSE-IS-INFINITE",
   "paraphrase": "For every being x: if the esse of x is not limited, then x satisfies the primitive Infinite predicate (infinity of perfection, DEF-INFINITE). A sufficient condition only; it does not define Infinite.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.InfinityReception.UnlimitedEsseIsInfiniteReading",

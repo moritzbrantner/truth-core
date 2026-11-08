@@ -1,6 +1,6 @@
 {
   "id": "bed94ec2-ebd9-59e0-8c68-2d5eee6009e3",
-  "label": "Fork node: the intended reading of 'necessary' selects exactly one enumerated sense s, and there…",
+  "label": "One intended necessity sense selects an actual root that is the unique classical God",
   "legacy_id": "STMT-NECESSARY-ROOT-ON-INTENDED-READING",
   "paraphrase": "Fork node: the intended reading of 'necessary' selects exactly one enumerated sense s, and there is an actual root n (concrete, existing at w, with no actual concrete ground) that is God, the one God (every God is n), and has the classical attributes that is necessary in sense s.",
   "lean_declaration": "TruthCore.Causality.NecessarySenseFork.NecessaryRootOnIntendedReading",

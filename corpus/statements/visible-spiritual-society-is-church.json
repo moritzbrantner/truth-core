@@ -1,6 +1,6 @@
 {
   "id": "1c083654-1ed5-5e25-873c-1dc5bd48c992",
-  "label": "A society in the profile scope that is both visible with an authority structure and a spiritual…",
+  "label": "Visible authoritative spiritual societies in scope satisfy the Church criterion",
   "legacy_id": "STMT-VISIBLE-SPIRITUAL-SOCIETY-IS-CHURCH",
   "paraphrase": "OPEN analyst premise, attribution deferred: a society in the profile scope that is both visible with an authority structure and a spiritual community satisfies the selected Church predicate. Two rival visible bodies that both have spiritual communion falsify it unless the profile counts both as the Church.",
   "lean_declaration": "TruthCore.Case.Catholicism.StageThree.Round6DefinitionForks.VisibleSpiritualSocietyIsChurch",

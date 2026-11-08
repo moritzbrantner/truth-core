@@ -1,6 +1,6 @@
 {
   "id": "db54a1a6-7e59-5378-939d-fa38be38db9e",
-  "label": "If an actual uniting tuple has efficient activity at some admitted time, that same uniter…",
+  "label": "An actual uniter's efficient activity at some time implies its efficient causing now",
   "legacy_id": "STMT-UNITER-EFFICIENT-ACTIVITY-PERSISTS-TO-SELECTED-TIME",
   "paraphrase": "Open framework transfer: if an actual uniting tuple has efficient activity at some admitted time, that same uniter currently efficiently causes that same composite in some respect. This restricted transfer need not preserve the earlier respect and concerns only actual uniters.",
   "lean_declaration": "TruthCore.Causality.ComposerTemporalDefinitionFork.UniterPersistence",

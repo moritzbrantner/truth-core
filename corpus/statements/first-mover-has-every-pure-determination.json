@@ -1,6 +1,6 @@
 {
   "id": "17498c0a-499c-52f0-8d74-e990c9f72569",
-  "label": "Every first mover moved by none really has every pure perfection among the supplied real…",
+  "label": "Every first unmoved mover has every pure real perfection",
   "legacy_id": "STMT-FIRST-MOVER-HAS-EVERY-PURE-DETERMINATION",
   "paraphrase": "OPEN, unattributed: every first mover moved by none really has every pure perfection among the supplied real determinations.",
   "lean_declaration": "TruthCore.Causality.PureActThisness.FirstMoverHasEveryPureDetermination",

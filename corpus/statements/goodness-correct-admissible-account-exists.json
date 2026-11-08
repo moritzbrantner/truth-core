@@ -1,6 +1,6 @@
 {
   "id": "40420659-5692-5b9c-ab26-36941f0a1a97",
-  "label": "At least one admissible definition proposal in the supplied class correctly describes the…",
+  "label": "Some admissible account correctly describes the supplied goodness relation",
   "legacy_id": "STMT-GOODNESS-CORRECT-ADMISSIBLE-ACCOUNT-EXISTS",
   "paraphrase": "Open scope/nonvacuity premise: at least one admissible definition proposal in the supplied class correctly describes the profile’s goodness relation. Admissibility alone does not imply correctness.",
   "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.CorrectAccountExists",

@@ -1,6 +1,6 @@
 {
   "id": "f42c2f3d-5ae7-5377-a9c5-54c31cc038e4",
-  "label": "Every receiver neither matter-form composite nor a component of anything belongs to the SAME…",
+  "label": "Receivers neither matter-form composites nor components lie in the admitted scope",
   "legacy_id": "STMT-Q14-STRUCTURAL-SCOPE-COVERED",
   "paraphrase": "OPEN: every receiver neither matter-form composite nor a component of anything belongs to the SAME admitted comparison scope. This prevents discarding the old target cases.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.Q14ReceptionFork.StructuralScopeCovered",

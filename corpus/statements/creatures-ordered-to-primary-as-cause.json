@@ -1,6 +1,6 @@
 {
   "id": "30a8373c-5188-581b-b746-e319d71311e4",
-  "label": "Every creature that has a perfection said of it and of the primary has it by its order to the…",
+  "label": "A creature's perfection shared with the primary is caused by that primary",
   "legacy_id": "STMT-CREATURES-ORDERED-TO-PRIMARY-AS-CAUSE",
   "paraphrase": "Every creature that has a perfection said of it and of the primary has it by its order to the primary as to its cause: the primary causes that perfection in it.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.OrderedToPrimaryAsCauseReading",

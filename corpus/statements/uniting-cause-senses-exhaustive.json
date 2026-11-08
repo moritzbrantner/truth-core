@@ -1,6 +1,6 @@
 {
   "id": "6af2aed7-d9bd-54f1-a4c2-4e981b22d099",
-  "label": "Each of the two uses of 'causes' in the uniting-cause step of ST I q.3 a.7 is read in one of three…",
+  "label": "Both uniting-step uses of cause select among three specified relations",
   "legacy_id": "STMT-UNITING-CAUSE-SENSES-EXHAUSTIVE",
   "paraphrase": "OPEN frontier premise (coverage, attribution deferred): each of the two uses of 'causes' in the uniting-cause step of ST I q.3 a.7 (the uniter causes the composite; nothing causes itself) is read in one of three senses, uniting components into it (UNITING-CAUSE_1), efficient causing in some respect (UNITING-CAUSE_2), or causing the composite's being, CausesIn c x esse (UNITING-CAUSE_3), selected by the route's reading, and the use's relation is exactly that sense's relation. UNITING-CAUSE_4, the temporal composer profile, is a calibration of sense 2 with its own fork; a further sense (for example grounding) denies coverage.",
   "lean_declaration": "TruthCore.Causality.TermSenseForks.UnitingCauseSensesExhaustive",

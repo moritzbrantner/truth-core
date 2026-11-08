@@ -1,6 +1,6 @@
 {
   "id": "4133bd12-ac64-59e0-b708-2d2c72e1c3de",
-  "label": "Explicit open analyst calibration: efficient-cause attribution holds exactly when efficient…",
+  "label": "Efficient-cause attribution is equivalent to activity at some admitted time in the same respect",
   "legacy_id": "STMT-EFFICIENT-ATTRIBUTION-TEMPORAL-DEFINITION",
   "paraphrase": "Explicit open analyst calibration: efficient-cause attribution holds exactly when efficient activity holds at some time in the admitted time domain, for the SAME beings and respect. This is a temporal production reading, not an identification of all time-neutral or atemporal causation with historical production.",
   "lean_declaration": "TruthCore.Causality.ComposerTemporalDefinitionFork.TemporalDefinition",

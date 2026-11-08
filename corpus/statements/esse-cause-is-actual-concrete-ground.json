@@ -1,6 +1,6 @@
 {
   "id": "cb1cdea9-eb6c-578c-8008-84e0d4107fd3",
-  "label": "At the selected world w, for any c and x, if x is actual and CONCRETE_6, c is distinct from x, and…",
+  "label": "An actual concretum's distinct esse cause is its actual CONCRETE_AND_ABSTRACT_6 ground",
   "legacy_id": "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
   "paraphrase": "At the selected world w, for any c and x, if x is actual and concrete, c is distinct from x, and c causes the supplied esse actuality of x, then c is concrete, exists at w and grounds x under the selected relation.",
   "lean_declaration": "TruthCore.Causality.NecessaryConcreteRouteBridge.EsseCauseIsActualConcreteGround",

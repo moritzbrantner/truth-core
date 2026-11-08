@@ -1,6 +1,6 @@
 {
   "id": "95fb2244-dd53-5e3a-9658-4a317078fc9b",
-  "label": "At selected w the supplied classifier L marks the SAME Profile Ontic’s possible-absence property…",
+  "label": "Possible absence is limiting under the selected world's classifier",
   "legacy_id": "STMT-POSSIBLE-ABSENCE-IS-LIMITING-AT",
   "lean_declaration": "TruthCore.Causality.NonlimitingConcreteExistence.KnownAbsenceLimitingAt",
   "paraphrase": "At selected w the supplied classifier L marks the SAME Profile Ontic’s possible-absence property limiting. Possible absence is accessible failure of existence, without an actuality guard. An OPEN specialized judgment, not an alias of a broad source sentence or an established deficiency truth.",

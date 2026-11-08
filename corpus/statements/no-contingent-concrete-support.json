@@ -1,6 +1,6 @@
 {
   "id": "dd41c165-129a-59d3-84ce-bd13c0944901",
-  "label": "Every existing concrete candidate that supports a necessary concrete candidate at any admitted…",
+  "label": "Existing concrete supporters of necessary concreta at any world are actually necessary",
   "legacy_id": "STMT-NO-CONTINGENT-CONCRETE-SUPPORT",
   "lean_declaration": "TruthCore.Causality.NecessaryConcreteUnderived.NoContingentConcreteSupport",
   "paraphrase": "Every existing concrete candidate that supports a necessary concrete candidate at any admitted world is itself necessary from the selected actual world. This is the existing no-contingent-ground condition instantiated on the concrete subtype, not a restriction on non-concrete reasons or generic efficient causes.",

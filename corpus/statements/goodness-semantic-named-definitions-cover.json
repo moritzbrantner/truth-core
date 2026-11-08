@@ -1,6 +1,6 @@
 {
   "id": "be5a4cc5-1bac-549c-af6d-992ca07193a1",
-  "label": "Every admissible definition proposal in the supplied class has the extension of the named…",
+  "label": "Every admissible goodness proposal coextends with a named account",
   "legacy_id": "STMT-GOODNESS-SEMANTIC-NAMED-DEFINITIONS-COVER",
   "paraphrase": "Open weak coverage premise: every admissible definition proposal in the supplied class has the extension of the named due-actuality, feature-based or fixed-assessor approval proposal. Renamed or intensionally different but coextensive proposals are already covered.",
   "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.SemanticNamedCoverage",

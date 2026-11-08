@@ -1,6 +1,6 @@
 {
   "id": "5c898d24-d1f7-5087-b09e-3287a723e787",
-  "label": "If the entire actual CONCRETE_6 roster at w is nonempty, that entire roster is not a borrowing Trap…",
+  "label": "The nonempty whole actual CONCRETE_AND_ABSTRACT_6 roster is not a borrowing trap",
   "legacy_id": "STMT-WHOLE-ROSTER-NOT-TRAPPED",
   "lean_declaration": "TruthCore.Causality.WholeRosterFoundation.WholeRosterNotTrapped",
   "paraphrase": "If the entire actual concrete roster at w is nonempty, that entire roster is not a borrowing Trap under the recorded selected grounding graph, with intrinsic interpreted as graph sourcehood. Only Set.univ is tested: no condition on proper subsets, all-branch well-foundedness or finite chain lengths is imposed. This graph-source interpretation and its application to real existential explanation remain open, and are not automatically identified with the owner’s verbal explanatory commitment.",
