@@ -46,7 +46,8 @@ test("next-work view shares frontier routes, costs, leaves, floor and DAG naviga
   await support.getByText(/^Inspect .* premises with verified alternatives$/).click();
   expect(await support.innerText()).toContain("Direct assumption remains available");
   for (const item of report.support_options.items.filter((item) => item.verified_alternative_bundles.length)) {
-    const entry = support.getByRole("link", { name: item.statement_id, exact: true }).locator("..");
+    const entry = support.locator(":scope > details > ul > li > a")
+      .and(support.getByRole("link", { name: item.statement_id, exact: true })).locator("..");
     expect(await entry.innerText()).toContain(item.established ? "Established in the corpus" : "Direct assumption remains available");
     for (const bundle of item.verified_alternative_bundles) {
       for (const id of [...bundle.premise_statement_ids, ...bundle.result_ids]) {
