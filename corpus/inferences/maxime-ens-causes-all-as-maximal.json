@@ -1,0 +1,12 @@
+{
+  "id": "INF-MAXIME-ENS-CAUSES-ALL-AS-MAXIMAL",
+  "input_statement_ids": [
+    "STMT-SOME-BEING-MAXIMAL-IN-BEING",
+    "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS"
+  ],
+  "output_statement_id": "STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL",
+  "rule": "Existential elimination and modus ponens",
+  "meaning": "MAXIME_1 branch of the quarta via's last step: some being is MAXIMAL in being, and whatever is MAXIMAL in being causes being in every other being; so some MAXIMAL being causes being in every other being.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

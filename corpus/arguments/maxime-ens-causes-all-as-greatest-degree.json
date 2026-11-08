@@ -1,0 +1,41 @@
+{
+  "id": "MAXIME-ENS-CAUSES-ALL-AS-GREATEST-DEGREE",
+  "label": "Via MAXIME_2 (greatest degree), a MAXIME_1 being causes being in all others",
+  "premise_statement_ids": [
+    "STMT-SOME-BEING-GREATEST-IN-BEING",
+    "STMT-GREATEST-DEGREE-IN-GENUS-CAUSES-ALL-IN-GENUS",
+    "STMT-GREATEST-IN-BEING-IS-MAXIMAL"
+  ],
+  "conclusion_statement_id": "STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL",
+  "inference_ids": [
+    "INF-MAXIME-ENS-CAUSES-ALL-AS-GREATEST-DEGREE"
+  ],
+  "meaning": "MAXIME_2 branch: some being has the GREATEST degree of being; a GREATEST-degree bearer of a perfection causes it in every other bearer (instantiated at esse); and the explicit sense bridge says a GREATEST-degree bearer of being is MAXIMAL in being. So some MAXIMAL being causes being in every other being. The control model without the bridge has a GREATEST bearer that something exceeds.",
+  "definition_ids": [
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-ESSE",
+    "DEF-GENUS-BROAD",
+    "DEF-GREATEST-DEGREE-IN-A-PERFECTION",
+    "DEF-MAXIME-ENS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE",
+    "DISAMB-GENUS",
+    "DISAMB-MAXIME-ENS",
+    "DISAMB-ORDER-OF-BEING"
+  ],
+  "sense_bridges": [
+    {
+      "term": "GENUS",
+      "from": "fe68a21f-b444-4e79-aa4d-0bdd6dae1da5",
+      "to": "6854684f-23ef-4267-a51d-b22f57c49ebd",
+      "statement_id": "STMT-GREATEST-DEGREE-IN-GENUS-CAUSES-ALL-IN-GENUS"
+    },
+    {
+      "term": "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST",
+      "from": "9bea9a43-3a87-4d62-86de-e5873aea62f8",
+      "to": "517baa9d-7981-4e2a-bdae-045467cb29fc",
+      "statement_id": "STMT-GREATEST-IN-BEING-IS-MAXIMAL"
+    }
+  ]
+}

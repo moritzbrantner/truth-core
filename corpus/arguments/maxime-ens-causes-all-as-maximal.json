@@ -1,0 +1,23 @@
+{
+  "id": "MAXIME-ENS-CAUSES-ALL-AS-MAXIMAL",
+  "label": "A MAXIME_1 (maximal) being causes being in all others",
+  "premise_statement_ids": [
+    "STMT-SOME-BEING-MAXIMAL-IN-BEING",
+    "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS"
+  ],
+  "conclusion_statement_id": "STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL",
+  "inference_ids": [
+    "INF-MAXIME-ENS-CAUSES-ALL-AS-MAXIMAL"
+  ],
+  "meaning": "MAXIME_1 branch of the quarta via's last step: some being is MAXIMAL in being, and whatever is MAXIMAL in being causes being in every other being; so some MAXIMAL being causes being in every other being.",
+  "definition_ids": [
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-ESSE",
+    "DEF-MAXIME-ENS",
+    "DEF-MORE-IN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE",
+    "DISAMB-MAXIME-ENS"
+  ]
+}

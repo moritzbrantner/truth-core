@@ -1,0 +1,9 @@
+{
+  "id": "REL-SOME-CAPACITY-EXERCISED-REFUTES-CAPACITY-NON-SIMULTANEITY",
+  "subject_kind": "argument",
+  "subject_id": "CAPACITY-NON-SIMULTANEITY-FAILS-FROM-EXERCISE",
+  "predicate": "refutes",
+  "object_kind": "statement",
+  "object_id": "STMT-NOTHING-ACTUAL-AND-CAPABLE",
+  "note": "Conditional refutation of the CAPACITY branch of 'in potency' under the OPEN premise STMT-SOME-CAPACITY-EXERCISED, which both Aristotle's builder and the Megarian thesis (with some capacity) supply."
+}

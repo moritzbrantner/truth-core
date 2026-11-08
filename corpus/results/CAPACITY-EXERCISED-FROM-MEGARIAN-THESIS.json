@@ -1,0 +1,11 @@
+{
+  "id": "CAPACITY-EXERCISED-FROM-MEGARIAN-THESIS",
+  "label": "The Megarian thesis gives an exercised POTENCY_3 capacity",
+  "argument_id": "CAPACITY-EXERCISED-FROM-MEGARIAN-THESIS",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks3.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks3.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks3.capacityExercisedFromMegarian",
+  "comparator_config": "results/CAPACITY-EXERCISED-FROM-MEGARIAN-THESIS/comparator.json",
+  "status": "solution-present",
+  "description": "The Megarian thesis (whatever can be r is r), with some CAPACITY, gives a CAPACITY in exercise. So the CAPACITY branch fails both for Aristotle's builder who keeps the capacity while building and for the Megarian rival: the two disagree about capacity but not about this branch."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "STMT-MOVED-ONLY-AS-CAPABLE",
+  "label": "Whatever is moved has the POTENCY_3 capacity for it",
+  "paraphrase": "POTENCY_3, CAPACITY reading (attribution deferred): whatever is moved in a respect has the capacity for it, exercised or not.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.MovedOnlyAsCapable",
+  "definition_ids": [
+    "DEF-CAPACITY-TO-BE",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-POTENCY"
+  ]
+}

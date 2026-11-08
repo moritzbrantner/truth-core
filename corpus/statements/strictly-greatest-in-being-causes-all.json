@@ -1,0 +1,14 @@
+{
+  "id": "STMT-STRICTLY-GREATEST-IN-BEING-CAUSES-ALL",
+  "label": "A MAXIME_3 (strictly greatest) being causes being in all others",
+  "paraphrase": "MAXIME_3 (attribution deferred): whatever is STRICTLY greatest in being causes being in every other thing that has being. The strict-sense counterpart of STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.StrictlyGreatestInBeingCausesAllBeings",
+  "definition_ids": [
+    "DEF-GREATEST-BEING-STRICT",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MAXIME-ENS"
+  ]
+}

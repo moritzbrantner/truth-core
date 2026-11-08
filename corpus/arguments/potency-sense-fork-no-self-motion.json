@@ -1,0 +1,50 @@
+{
+  "id": "POTENCY-SENSE-FORK-NO-SELF-MOTION",
+  "label": "Whichever single sense potency takes, nothing moves itself in the same respect",
+  "premise_statement_ids": [
+    "STMT-POTENCY-SENSES-EXHAUSTIVE",
+    "STMT-POTENCY-SENSE-UNIQUE",
+    "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
+    "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
+    "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT"
+  ],
+  "conclusion_statement_id": "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT",
+  "inference_ids": [
+    "INF-POTENCY-SENSE-FORK-NO-SELF-MOTION"
+  ],
+  "meaning": "Optional summary over POTENCY_1-3. Coverage reads both uses of 'in potency' (what is moved is in potency; nothing is in act and in potency) in selected senses among ADOPTED, INDEPENDENT and CAPACITY; exclusivity makes them one sense. Whichever it is, a self-mover in a respect in which it is moved would be in potency there in that one sense and in act there, which non-simultaneity excludes. The controls give the mixed reading (moved use CAPACITY, non-simultaneity ADOPTED) with self-motion.",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-CAPACITY-TO-BE",
+    "DEF-INDEPENDENT-POTENCY",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-POTENCY",
+    "DEF-RESPECT",
+    "DEF-ROUTE-SENSE-SELECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT",
+    "DISAMB-MOTION",
+    "DISAMB-POTENCY"
+  ],
+  "sense_bridges": [
+    {
+      "term": "POTENCY_CAPACITY_AND_POWER_ACROSS_ADOPTED",
+      "from": "5252f7f4-95a7-42f3-a420-23770702a0f4",
+      "to": "d0b17a2e-febf-45e8-9b9e-11a75b2ccbc6",
+      "statement_id": "STMT-POTENCY-SENSES-EXHAUSTIVE"
+    },
+    {
+      "term": "POTENCY_CAPACITY_AND_POWER_ACROSS_ADOPTED",
+      "from": "5252f7f4-95a7-42f3-a420-23770702a0f4",
+      "to": "02e3f1d0-4ba1-498f-b34d-40bdd348d8c4",
+      "statement_id": "STMT-POTENCY-SENSES-EXHAUSTIVE"
+    },
+    {
+      "term": "POTENCY_CAPACITY_AND_POWER_ACROSS_ADOPTED",
+      "from": "5252f7f4-95a7-42f3-a420-23770702a0f4",
+      "to": "d0b17a2e-febf-45e8-9b9e-11a75b2ccbc6",
+      "statement_id": "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT"
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+# Sense fork batch 3, "maxime-ens" (docs/notes/load-bearing-terms.md, specs/term-sense-forks-3.toml).
+# One argument per sense; joint coverage/exclusivity theorem as optional summary. Analyst formulations, attribution deferred.
+target = "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS"
+# Root-route node: STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS (premise of the direct-esse and whole-roster root arguments).
+# Existence layer: STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL (quarta via conclusion; no root argument consumes it yet).
+
+[[node]]
+id = "STMT-GREATEST-DEGREE-IN-GENUS-CAUSES-ALL-IN-GENUS"
+
+[[node]]
+id = "STMT-GREATEST-IN-BEING-IS-MAXIMAL"
+
+[[node]]
+id = "STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL"
+
+[[node]]
+id = "STMT-MAXIME-NAMED-DEFINITIONS-COVER"
+
+[[node]]
+id = "STMT-MAXIME-SENSE-UNIQUE"
+
+[[node]]
+id = "STMT-MAXIME-SENSES-EXHAUSTIVE"
+
+[[node]]
+id = "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS"
+
+[[node]]
+id = "STMT-MORE-IN-BEING-TRACKS-DEGREE"
+
+[[node]]
+id = "STMT-MORE-IN-IS-ASYMMETRIC"
+
+[[node]]
+id = "STMT-ROUTE-MAXIME-CAUSES-ALL-BEINGS"
+
+[[node]]
+id = "STMT-SOME-BEING-GREATEST-IN-BEING"
+
+[[node]]
+id = "STMT-SOME-BEING-MAXIMAL-IN-BEING"
+
+[[node]]
+id = "STMT-SOME-BEING-STRICTLY-GREATEST-IN-BEING"
+
+[[node]]
+id = "STMT-SOME-MAXIME-IN-ROUTE-SENSE"
+
+[[node]]
+id = "STMT-STRICTLY-GREATEST-IN-BEING-CAUSES-ALL"
+
+[[node]]
+id = "STMT-STRICTLY-GREATEST-IN-BEING-IS-MAXIMAL"
+
+[[node]]
+id = "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS"
+
+[[node]]
+id = "STMT-MAXIMAL-IN-BEING-IS-STRICTLY-GREATEST"
+
+[[node]]
+id = "STMT-MORE-IN-BEING-CONNECTED"
+
+[[node]]
+id = "STMT-MAXIMAL-SELECTED-BEARERS-HAVE-GREATEST-DEGREE"
+
+[[edge]]
+premises = ["STMT-SOME-BEING-MAXIMAL-IN-BEING", "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS"]
+conclusion = "STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL"
+kind = "derivation"
+status = "certified"
+argument = "MAXIME-ENS-CAUSES-ALL-AS-MAXIMAL"
+note = "Existential elimination and modus ponens."
+
+[[edge]]
+premises = ["STMT-SOME-BEING-GREATEST-IN-BEING", "STMT-GREATEST-DEGREE-IN-GENUS-CAUSES-ALL-IN-GENUS", "STMT-GREATEST-IN-BEING-IS-MAXIMAL"]
+conclusion = "STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL"
+kind = "derivation"
+status = "certified"
+argument = "MAXIME-ENS-CAUSES-ALL-AS-GREATEST-DEGREE"
+note = "Existential elimination, universal instantiation at esse, modus ponens."
+
+[[edge]]
+premises = ["STMT-SOME-BEING-STRICTLY-GREATEST-IN-BEING", "STMT-STRICTLY-GREATEST-IN-BEING-CAUSES-ALL", "STMT-STRICTLY-GREATEST-IN-BEING-IS-MAXIMAL"]
+conclusion = "STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL"
+kind = "derivation"
+status = "certified"
+argument = "MAXIME-ENS-CAUSES-ALL-AS-STRICTLY-GREATEST"
+note = "Existential elimination and modus ponens."
+
+[[edge]]
+premises = ["STMT-MORE-IN-BEING-TRACKS-DEGREE"]
+conclusion = "STMT-GREATEST-IN-BEING-IS-MAXIMAL"
+kind = "derivation"
+status = "certified"
+argument = "GREATEST-IN-BEING-MAXIMAL-FROM-DEGREE-TRACKING"
+note = "Reductio through the preorder: a strictly higher degree contradicts being at most the greatest degree."
+
+[[edge]]
+premises = ["STMT-MORE-IN-IS-ASYMMETRIC"]
+conclusion = "STMT-STRICTLY-GREATEST-IN-BEING-IS-MAXIMAL"
+kind = "derivation"
+status = "certified"
+argument = "STRICTLY-GREATEST-MAXIMAL-FROM-ASYMMETRY"
+note = "Case split on identity, asymmetry."
+
+[[edge]]
+premises = ["STMT-MAXIME-SENSES-EXHAUSTIVE", "STMT-MAXIME-SENSE-UNIQUE", "STMT-SOME-MAXIME-IN-ROUTE-SENSE", "STMT-ROUTE-MAXIME-CAUSES-ALL-BEINGS", "STMT-GREATEST-IN-BEING-IS-MAXIMAL", "STMT-STRICTLY-GREATEST-IN-BEING-IS-MAXIMAL"]
+conclusion = "STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL"
+kind = "derivation"
+status = "certified"
+argument = "MAXIME-SENSE-FORK-CAUSES-BEING-OF-ALL"
+note = "Uses agree from coverage and exclusivity; proof by cases over the sense enum; sense bridges."
+
+[[edge]]
+premises = ["STMT-SOME-MAXIME-IN-ROUTE-SENSE"]
+conclusion = "STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL"
+kind = "rival"
+status = "rejected"
+note = "Rejected lead: a fourth constructor for Anselm's greatest conceivable being (DEF-GREATEST-CONCEIVABLE-BEING). It is a conceptual, modal description with no Lean declaration and no root statement; a rival who reads the quarta via so denies coverage. Needs: modal-conceptual vocabulary and a root use."
+
+[[edge]]
+premises = ["STMT-MAXIME-NAMED-DEFINITIONS-COVER"]
+conclusion = "STMT-MAXIME-SENSES-EXHAUSTIVE"
+kind = "bridge"
+status = "rejected"
+note = "Rejected lead: reusing MaximumDefinitionFork's NamedCoverage as the coverage premise. It quantifies over a primitive Maxime predicate in a Frame whose type is DEF-MAXIMUM-CALIBRATION-PROFILE's declaration, so every per-sense theorem would mention the calibration frame; the fork uses explicit parameters instead."
+
+[[edge]]
+premises = ["STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS"]
+conclusion = "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS"
+kind = "derivation"
+status = "certified"
+argument = "MAXIMUM-IN-BEING-CAUSES-ALL-AS-MAXIMAL"
+note = "MAXIME_1 causal principle at the root-route node: universal instantiation at esse."
+
+[[edge]]
+premises = ["STMT-MAXIMAL-SELECTED-BEARERS-HAVE-GREATEST-DEGREE", "STMT-GREATEST-DEGREE-IN-GENUS-CAUSES-ALL-IN-GENUS"]
+conclusion = "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS"
+kind = "derivation"
+status = "certified"
+argument = "MAXIMAL-BEING-CAUSES-FROM-GREATEST-DEGREE"
+note = "MAXIME_2 causal principle at the root-route node (existing, #1141), with its maximal-to-greatest bridge."
+
+[[edge]]
+premises = ["STMT-STRICTLY-GREATEST-IN-BEING-CAUSES-ALL", "STMT-MAXIMAL-IN-BEING-IS-STRICTLY-GREATEST"]
+conclusion = "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS"
+kind = "derivation"
+status = "certified"
+argument = "MAXIMUM-IN-BEING-CAUSES-ALL-AS-STRICTLY-GREATEST"
+note = "MAXIME_3 causal principle at the root-route node, through the maximal-to-strict bridge."
+
+[[edge]]
+premises = ["STMT-MORE-IN-BEING-CONNECTED"]
+conclusion = "STMT-MAXIMAL-IN-BEING-IS-STRICTLY-GREATEST"
+kind = "derivation"
+status = "certified"
+argument = "MAXIMAL-IN-BEING-STRICT-FROM-CONNECTEDNESS"
+note = "Disjunction elimination."

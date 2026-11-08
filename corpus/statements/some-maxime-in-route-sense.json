@@ -1,0 +1,13 @@
+{
+  "id": "STMT-SOME-MAXIME-IN-ROUTE-SENSE",
+  "label": "Something is maxime ens in the route's reading of the existence use",
+  "paraphrase": "OPEN analyst premise (attribution deferred): something is maxime ens, the superlative in the route's reading of its existence use.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.SomeMaximeInRouteSense",
+  "definition_ids": [
+    "DEF-ROUTE-SENSE-SELECTION",
+    "DEF-MAXIME-ENS"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MAXIME-ENS"
+  ]
+}

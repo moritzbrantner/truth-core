@@ -1,0 +1,11 @@
+{
+  "id": "MAXIME-ENS-CAUSES-ALL-AS-GREATEST-DEGREE",
+  "label": "Via MAXIME_2 (greatest degree), a MAXIME_1 being causes being in all others",
+  "argument_id": "MAXIME-ENS-CAUSES-ALL-AS-GREATEST-DEGREE",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks3.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks3.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks3.maximeEnsCausesAllGreatestDegree",
+  "comparator_config": "results/MAXIME-ENS-CAUSES-ALL-AS-GREATEST-DEGREE/comparator.json",
+  "status": "solution-present",
+  "description": "MAXIME_2 branch: some being has the GREATEST degree of being; a GREATEST-degree bearer of a perfection causes it in every other bearer (instantiated at esse); and the explicit sense bridge says a GREATEST-degree bearer of being is MAXIMAL in being. So some MAXIMAL being causes being in every other being. The control model without the bridge has a GREATEST bearer that something exceeds."
+}

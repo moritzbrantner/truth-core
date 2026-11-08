@@ -3788,6 +3788,13 @@
         "919ce0ce-4774-48d7-aeb8-464cb1468460"
       ]
     },
+    "GREATEST-IN-BEING-MAXIMAL-FROM-DEGREE-TRACKING": {
+      "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST": [
+        "230f0729-018b-48e4-a148-3fe610dc2995",
+        "517baa9d-7981-4e2a-bdae-045467cb29fc",
+        "9bea9a43-3a87-4d62-86de-e5873aea62f8"
+      ]
+    },
     "GROUNDING-IDENTITY-PROFILE": {
       "SAME_BEING_ACROSS_WORLDS": [
         "70acfd54-f4d1-42d3-a63a-95dc865f62a6",
@@ -4484,6 +4491,12 @@
         "a833bcdb-8e99-4079-8cb6-fc1295eb690f"
       ]
     },
+    "MAXIMAL-IN-BEING-STRICT-FROM-CONNECTEDNESS": {
+      "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST": [
+        "9bea9a43-3a87-4d62-86de-e5873aea62f8",
+        "ac4c2702-e178-4c52-bd6d-e33685875cdf"
+      ]
+    },
     "MAXIMAL-TO-GREATEST-FROM-BOTH-CALIBRATIONS": {
       "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST": [
         "230f0729-018b-48e4-a148-3fe610dc2995",
@@ -4543,6 +4556,12 @@
       "WELL_FOUNDEDNESS_OF_THE_SELECTED_RELATION": [
         "2f42c0e7-46ae-4e2b-9ac4-95dcb865da61",
         "f4609d52-a878-4d09-9af3-083b1945770c"
+      ]
+    },
+    "MAXIMUM-IN-BEING-CAUSES-ALL-AS-MAXIMAL": {
+      "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST": [
+        "9bea9a43-3a87-4d62-86de-e5873aea62f8",
+        "a833bcdb-8e99-4079-8cb6-fc1295eb690f"
       ]
     },
     "MAXIMUM-IN-GENUS-FROM-GREATEST-IN-EVERY-GENUS": {
@@ -9401,6 +9420,12 @@
         "9232f675-db0a-474c-9f00-d8e5aba69ef7"
       ]
     },
+    "STRICTLY-GREATEST-MAXIMAL-FROM-ASYMMETRY": {
+      "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST": [
+        "9bea9a43-3a87-4d62-86de-e5873aea62f8",
+        "ac4c2702-e178-4c52-bd6d-e33685875cdf"
+      ]
+    },
     "STRONG-FROM-COMPLEMENTATION": {
       "REMAINDER": [
         "9a4ea629-3fdf-4f84-9f39-d4ceb7e57564",
@@ -9612,6 +9637,17 @@
       "IN_ACT": [
         "11162ab5-08ee-44a2-aa1c-c6ffd1c76fd4",
         "7b3e570e-7557-402d-95ac-f33ebcefa0ca"
+      ]
+    },
+    "TERM-SENSE-FORKS-3-CONTROLS": {
+      "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST": [
+        "517baa9d-7981-4e2a-bdae-045467cb29fc",
+        "9bea9a43-3a87-4d62-86de-e5873aea62f8",
+        "ac4c2702-e178-4c52-bd6d-e33685875cdf"
+      ],
+      "POTENCY_CAPACITY_AND_POWER_ACROSS_ADOPTED": [
+        "02e3f1d0-4ba1-498f-b34d-40bdd348d8c4",
+        "5252f7f4-95a7-42f3-a420-23770702a0f4"
       ]
     },
     "TERTIA-VIA-NECESSARY-PER-SE-IS-MAXIME-ENS": {
@@ -10608,7 +10644,6 @@
     "a9b41047-dac9-4cc9-8023-e83d9f96961b",
     "aaa97e03-8678-4f3a-b837-47c5bd34cf26",
     "aabe3dc1-86d6-45bb-b978-8491b653a28d",
-    "ac4c2702-e178-4c52-bd6d-e33685875cdf",
     "acd3635a-c1e1-4aa8-b639-652ba03d9e6b",
     "ad09fc9f-6653-4097-bc40-1599750ea082",
     "ad5d2e41-ff3e-4e38-9afd-b4415a189a7e",

@@ -1,0 +1,11 @@
+{
+  "id": "NO-SELF-MOTION-FROM-CAPACITY",
+  "label": "With POTENCY_3 (capacity), nothing moves itself in the same respect",
+  "argument_id": "NO-SELF-MOTION-FROM-CAPACITY",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks3.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks3.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks3.noSelfMotionCapacity",
+  "comparator_config": "results/NO-SELF-MOTION-FROM-CAPACITY/comparator.json",
+  "status": "solution-present",
+  "description": "POTENCY_3 (CAPACITY) branch: what is moved has the CAPACITY, a mover is in act, and nothing in act has the CAPACITY for that act; so nothing moves itself in the same respect. The branch is valid, but its non-simultaneity premise is refuted under STMT-SOME-CAPACITY-EXERCISED (CAPACITY-NON-SIMULTANEITY-FAILS-FROM-EXERCISE)."
+}

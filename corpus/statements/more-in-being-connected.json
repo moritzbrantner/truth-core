@@ -1,0 +1,14 @@
+{
+  "id": "STMT-MORE-IN-BEING-CONNECTED",
+  "label": "Any two distinct things are comparable in being",
+  "paraphrase": "OPEN analyst premise (attribution deferred): any two distinct things are comparable in being: one is more a being than the other. It ranges over all things, not only over beings having esse; a homogeneous total scale of being, which analogical being denies.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.MoreInBeingConnected",
+  "definition_ids": [
+    "DEF-MORE-IN",
+    "DEF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MAXIME-ENS",
+    "DISAMB-BEING-UNIVOCITY"
+  ]
+}

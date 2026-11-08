@@ -1,0 +1,14 @@
+{
+  "id": "STMT-ROUTE-MAXIME-CAUSES-ALL-BEINGS",
+  "label": "What is maxime ens in the route's causal reading causes being in all others",
+  "paraphrase": "OPEN analyst premise (attribution deferred): whatever is maxime ens, the superlative in the route's reading of its causal use, causes being (CausesIn at esse) in every other thing that has being.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.RouteMaximeCausesAllBeings",
+  "definition_ids": [
+    "DEF-ROUTE-SENSE-SELECTION",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MAXIME-ENS"
+  ]
+}
