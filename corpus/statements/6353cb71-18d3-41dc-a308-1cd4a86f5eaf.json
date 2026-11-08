@@ -1,0 +1,9 @@
+{
+  "id": "6353cb71-18d3-41dc-a308-1cd4a86f5eaf",
+  "label": "Conceptual existence boundary omission interpretations",
+  "paraphrase": "Four explicit finite interpretations: joint satisfaction and conclusion; empty exemplification and existence with transfer omitted; nonexistent fully characterized exemplar with anchor omitted; actual fully characterized exemplar with actuality-to-existence omitted. Each omission retains the other two premises.",
+  "lean_declaration": "TruthCore.Causality.ConceptualExistenceBoundary.Controls",
+  "definition_ids": [
+    "f59d02bf-fd2f-46b6-94f2-09eb29cf970c"
+  ]
+}

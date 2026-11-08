@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.ConceptualExistenceBoundary.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ConceptualExistenceBoundary.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.ConceptualExistenceBoundary.existingExemplar"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
