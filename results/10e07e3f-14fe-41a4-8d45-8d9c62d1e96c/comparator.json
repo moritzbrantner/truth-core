@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.WitnessLocalTeleology.Challenge",
+  "solution_module": "TruthCore.Results.Causality.WitnessLocalTeleology.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.WitnessLocalTeleology.firstMover"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

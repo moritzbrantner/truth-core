@@ -1,0 +1,12 @@
+{
+  "id": "68b7f665-6d4b-4b35-b366-e6fe04b30115",
+  "label": "Seven inherited Fifth Way premises assemble universal bundle",
+  "argument_id": "b2e10b72-692b-44e8-bcb1-136ea128be82",
+  "challenge_module": "TruthCore.Results.Causality.WitnessLocalTeleology.Challenge",
+  "solution_module": "TruthCore.Results.Causality.WitnessLocalTeleology.Solution",
+  "theorem": "TruthCore.Results.Causality.WitnessLocalTeleology.pack",
+  "comparator_config": "results/68b7f665-6d4b-4b35-b366-e6fe04b30115/comparator.json",
+  "status": "solution-present",
+  "description": "Assembly of the exact existing seven-premise conjunction; no new consequence or philosophical discharge.",
+  "transcription": "assembly"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "72b3405c-e2e8-4dae-89cf-76053e1771ed",
+  "label": "Universal Fifth Way bundle weakens to witness-local scope",
+  "premise_statement_ids": [
+    "b5f01676-0b48-454c-80ee-ade579adb43d"
+  ],
+  "conclusion_statement_id": "65c409cc-eb7f-4d66-8e2d-60c8e5138ed6",
+  "inference_ids": [
+    "9d60eedc-622d-4473-857b-1a24f5b1c32f"
+  ],
+  "meaning": "Select one observed natural body/end and restrict every inherited premise to it. No universal fact follows back from the local constraints.",
+  "definition_ids": [
+    "6d97c59e-6d33-49bd-ba1c-1f15f3b9c21e"
+  ]
+}
