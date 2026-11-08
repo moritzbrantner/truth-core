@@ -1,0 +1,10 @@
+{
+  "id": "6a3570d2-041e-4894-8d31-249ad976c927",
+  "label": "Finite observer calibration gives design evidence direction",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "94808f80-2c73-4757-b95e-61808b5bcde5",
+  "inference_ids": [
+    "72bd4db4-0fb9-4e22-8051-96ca8b402c20"
+  ],
+  "meaning": "Derives an internal universally quantified conditional from explicit normalized weights and two likelihood calibration bounds. The calibration and sampling interpretation remain open; this theorem does not assert their actuality."
+}

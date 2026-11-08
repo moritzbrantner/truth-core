@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Science.FineTuningSelection.Challenge",
+  "solution_module": "TruthCore.Results.Science.FineTuningSelection.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Science.FineTuningSelection.direction"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

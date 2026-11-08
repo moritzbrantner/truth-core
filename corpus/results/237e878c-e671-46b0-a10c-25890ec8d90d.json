@@ -1,0 +1,11 @@
+{
+  "id": "237e878c-e671-46b0-a10c-25890ec8d90d",
+  "label": "Finite observer and designer omission models",
+  "argument_id": "0d75464b-f3db-4f7c-96ae-2eb65311e2e7",
+  "challenge_module": "TruthCore.Results.Science.FineTuningSelection.Challenge",
+  "solution_module": "TruthCore.Results.Science.FineTuningSelection.Solution",
+  "theorem": "TruthCore.Results.Science.FineTuningSelection.controls",
+  "comparator_config": "results/237e878c-e671-46b0-a10c-25890ec8d90d/comparator.json",
+  "status": "solution-present",
+  "description": "Nonvacuity and genuine opposite-direction models omit separately natural observer calibration and designer likelihood calibration. No empirical estimate, theological identification, or unconditional design conclusion."
+}
