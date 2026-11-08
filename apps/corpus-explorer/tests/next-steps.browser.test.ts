@@ -45,15 +45,24 @@ test("next-work view shares frontier routes, costs, leaves, floor and DAG naviga
   expect(await support.innerText()).toContain(`${report.progress.verified_alternative_bundle_count} distinct verified premise bundles`);
   await support.getByText(/^Inspect .* premises with verified alternatives$/).click();
   expect(await support.innerText()).toContain("Direct assumption remains available");
-  for (const item of report.support_options.items.filter((item) => item.verified_alternative_bundles.length)) {
-    const entry = support.locator(":scope > details > ul > li > a")
-      .and(support.getByRole("link", { name: item.statement_id, exact: true })).locator("..");
-    expect(await entry.innerText()).toContain(item.established ? "Established in the corpus" : "Direct assumption remains available");
+  // Read support once; repeated accessible-name queries rescan the full corpus DOM.
+  const supportEntries = await support.locator(":scope > details > ul > li").evaluateAll((entries) => entries.map((entry) => ({
+    statementId: entry.querySelector(":scope > a")?.textContent,
+    text: entry instanceof HTMLElement ? entry.innerText : entry.textContent ?? "",
+    links: Array.from(entry.querySelectorAll("a"), (link) => link.textContent),
+  })));
+  const supportedItems = report.support_options.items.filter((item) => item.verified_alternative_bundles.length);
+  expect(supportEntries.length).toBe(supportedItems.length);
+  for (const item of supportedItems) {
+    const matches = supportEntries.filter((entry) => entry.statementId === item.statement_id);
+    expect(matches.length).toBe(1);
+    const entry = matches[0];
+    expect(entry.text).toContain(item.established ? "Established in the corpus" : "Direct assumption remains available");
     for (const bundle of item.verified_alternative_bundles) {
       for (const id of [...bundle.premise_statement_ids, ...bundle.result_ids]) {
-        expect(await entry.getByRole("link", { name: id, exact: true }).count()).toBeGreaterThan(0);
+        expect(entry.links).toContain(id);
       }
-      for (const id of bundle.argument_ids) expect(await entry.innerText()).toContain(id);
+      for (const id of bundle.argument_ids) expect(entry.text).toContain(id);
     }
   }
   const routes = page.getByRole("heading", { name: "Expanded-route cost (diagnostic)", exact: true }).locator("..").getByRole("row");
