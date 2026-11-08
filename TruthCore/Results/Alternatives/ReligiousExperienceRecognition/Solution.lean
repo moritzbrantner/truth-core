@@ -24,8 +24,45 @@ theorem root (σ : Signature) (R : RecognitionProfile σ) (E : Experience σ R)
   rw [eq] at hr
   exact ⟨E.situation e, ha, E.move e, hr, hm⟩
 theorem controls : Controls := by
-  simp [Controls, Occurrence, Calibrated, Identified, CoversGods, CapacityBridge,
-    RecognizedGod, Permission, WarrantedToken, Veridical, PossibleCorrectRecognition,
-    RevelationPossibleAndRecognizable, mixedExperience, modelExperience, modelProfile,
-    modelSignature, TruthCore.Case.Catholicism.StageThree.DivineFounding.modelSig]
+  refine ⟨?_, ?_, ?_, ?_, ?_, ?_⟩
+  · refine ⟨⟨true, ⟨rfl, rfl⟩, (fun h => h)⟩, ?_, ?_, ?_, ?_⟩
+    · intro e _ _; rfl
+    · intro e _; exact ⟨rfl, trivial, rfl, rfl⟩
+    · intro g hg; exact ⟨true, ⟨rfl, rfl⟩, (fun h => h), hg.symm⟩
+    · intro g _ _; rfl
+  · refine ⟨?_, ?_, ?_, ?_⟩
+    · intro e ho _; cases ho.1
+    · intro e hv; cases hv
+    · intro g _ hr
+      obtain ⟨s, _, m, _, hm⟩ := hr
+      cases hm
+    · intro h
+      obtain ⟨g, _, s, _, m, _, hm⟩ := h
+      cases hm
+  · refine ⟨⟨true, ⟨rfl, rfl⟩, (fun h => h)⟩, ?_, ?_, ⟨true, trivial⟩, ?_⟩
+    · intro e hv; cases hv
+    · intro e _ _; trivial
+    · intro h
+      obtain ⟨g, _, s, _, m, _, hm⟩ := h
+      cases hm
+  · refine ⟨⟨true, ⟨rfl, rfl⟩, (fun h => h)⟩, ?_, ?_⟩
+    · intro e _ _; rfl
+    · intro h
+      obtain ⟨g, _, s, _, m, _, hm⟩ := h
+      cases hm
+  · refine ⟨?_, ?_, ?_, ?_⟩
+    · intro e _ _; rfl
+    · intro e _; exact ⟨rfl, trivial, rfl, rfl⟩
+    · intro g hg; exact ⟨true, ⟨rfl, rfl⟩, (fun h => h), hg.symm⟩
+    · intro h; cases h true rfl
+  · refine ⟨trivial, trivial, ?_, rfl, ?_, ?_⟩
+    · intro h; cases h
+    · intro e _ hd
+      cases e
+      · exact False.elim (hd rfl)
+      · rfl
+    · intro e hv
+      cases e
+      · cases hv
+      · exact ⟨rfl, trivial, rfl, rfl⟩
 end TruthCore.Results.Alternatives.ReligiousExperienceRecognition
