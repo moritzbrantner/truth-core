@@ -867,6 +867,40 @@ def transcription_kinds(
     return dict(sorted(kinds.items()))
 
 
+def refutation_support(arguments, results, relations, root_path):
+    """Return conditionally connected support statements and arguments.
+
+    Root closure and directed root reachability remain unchanged. Open
+    assumptions are allowed here; only verified recorded refutations of
+    statement alternatives to root-path nodes seed support.
+    """
+    by_id = {a["id"]: a for a in arguments}
+    verified = {r["argument_id"] for r in results
+                if r.get("status") in {"solution-present", "verified"}}
+    rivals = {r["subject_id"] for r in relations
+              if r["predicate"] == "alternative_to"
+              and r["subject_kind"] == "statement" and r["object_kind"] == "statement"
+              and r["object_id"] in root_path}
+    connected = {r["subject_id"] for r in relations
+                 if r["predicate"] == "refutes" and r["subject_kind"] == "argument"
+                 and r["object_kind"] == "statement" and r["object_id"] in rivals
+                 and r["subject_id"] in verified and r["subject_id"] in by_id}
+    statements = set()
+    pending = list(connected)
+    while pending:
+        argument = by_id[pending.pop()]
+        for premise in argument["premise_statement_ids"] + argument.get("commitment_statement_ids", []):
+            if premise in statements:
+                continue
+            statements.add(premise)
+            for candidate in arguments:
+                if (candidate["conclusion_statement_id"] == premise
+                        and candidate["id"] in verified and candidate["id"] not in connected):
+                    connected.add(candidate["id"])
+                    pending.append(candidate["id"])
+    return statements, connected
+
+
 def frontier_report(
     statements: list[dict[str, Any]],
     arguments: list[dict[str, Any]],
