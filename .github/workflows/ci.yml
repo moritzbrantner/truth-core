@@ -103,6 +103,9 @@ jobs:
               echo '```'
             } | tee -a "$GITHUB_STEP_SUMMARY"
           fi
+      - name: Report the orphan-count delta
+        if: always() && github.event_name == 'pull_request'
+        run: python3 scripts/orphan_summary.py --base HEAD^1 | tee -a "$GITHUB_STEP_SUMMARY"
       # Attribution self-check (#989, owner decision 2026-11-05): on a PR, every new or
       # changed stating claim (or claim whose statement text or passage changed) must
       # record "The passage states X, which is the premise." against freshly
