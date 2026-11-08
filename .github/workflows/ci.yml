@@ -85,6 +85,8 @@ jobs:
         if: needs.comparator-plan.outputs.lean == 'true'
         run: python3 scripts/corpus.py unused-premises --strict
       - name: Test corpus tooling and media-span and web-snapshot evidence offline
+        env:
+          TRUTH_CORE_LEAN_TESTS: ${{ needs.comparator-plan.outputs.lean }}
         run: python3 -m unittest discover -s scripts -p 'test_*.py'
       # On a PR, HEAD is the merge commit and HEAD^1 the base: the computed premise delta
       # (#948) goes to the job summary, where the PR body links it instead of hand-writing it.

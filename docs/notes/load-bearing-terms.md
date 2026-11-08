@@ -159,6 +159,18 @@ changing thing while act is simply prior). The temporal premise has a serious
 rival: Aristotle's priority of act in time in species (Θ.8), which is why the
 refutation is conditional.
 
+**Remaining definition work (owner clarification, 2026-11-08).** The fork's
+distinct `PriorSimply`, `PriorInTime` and `PriorInSubstance` relations are not
+yet a full formal account of what `PRIOR_1`, `PRIOR_2` and `PRIOR_3` mean.
+`DEF-SIMPLE-PRIORITY` and `DEF-PRIORITY-IN-SUBSTANCE` identify Lean premises
+that constrain primitive relations; `DEF-PRIORITY-IN-TIME` identifies a primitive
+field without a definitional body. Refine their semantics using further typed
+definitions where possible; explicitly record irreducible primitives and open
+interpretive properties where not. Follow recursively needed term definitions
+and disambiguations, test bridges and countermodels between these readings, and
+retain the conditional status of existing fork results. See
+[`docs/corpus-model.md`](../corpus-model.md#definition-dependencies-and-formal-meaning).
+
 ### "cause" (DISAMB-CAUSE)
 
 | Branch | Result | Status |
