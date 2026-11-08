@@ -1,0 +1,11 @@
+{
+  "id": "27ceb248-3b12-5e77-9c05-30a5b077917f",
+  "label": "No act done at every accessible world strictly yields a contingent effect",
+  "legacy_id": "REL-SIMPLICITY-CORE-REFUTES-STRICT-CONTINGENT",
+  "subject_kind": "argument",
+  "subject_id": "8bd1f7cb-33af-561a-b21f-28f216556e1f",
+  "predicate": "refutes",
+  "object_kind": "statement",
+  "object_id": "f8d9387a-3e8d-5476-9efd-c3ecd77a700b",
+  "note": "Unconditional (in the frame semantics): SIMPLICITY-COLLAPSE-CORE has no premises and its first clause excludes STMT-NECESSARY-ACT-STRICT-CONTINGENT (MODAL-FORK-CONTROLS, RivalNegations). It constrains the root route's account of creation (#462, #555): a necessary root whose act is performed at every accessible world cannot create contingently by a strictly efficacious act. It is not a rival of a root premise, so no alternative_to is recorded."
+}

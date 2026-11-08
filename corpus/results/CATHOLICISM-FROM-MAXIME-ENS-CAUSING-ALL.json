@@ -1,0 +1,12 @@
+{
+  "id": "b6fee89e-aff7-5d23-8658-3fa11a5ddf5c",
+  "label": "Catholicism from the quarta via's conclusion (MAXIME_1), the full naming and stages 2-6",
+  "legacy_id": "CATHOLICISM-FROM-MAXIME-ENS-CAUSING-ALL",
+  "argument_id": "fa24c576-a166-5d0e-8ead-27a287fc390d",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks4.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks4.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks4.catholicismFromMaximeEnsCausingAll",
+  "comparator_config": "results/CATHOLICISM-FROM-MAXIME-ENS-CAUSING-ALL/comparator.json",
+  "status": "solution-present",
+  "description": "The root route CATHOLICISM-FROM-FULL-DESCRIPTION-WITHOUT-MOTION with its four quarta via premises (grades found in things, grades by approach to a maximum, most true is most being, the maximum in a genus causes all in it) replaced by their conclusion STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL, read in the MAXIME_1 sense (DISAMB-MAXIME-ENS). It connects the quarta via's own conclusion, and so the batch 3 per-sense layer MAXIME-ENS-CAUSES-ALL-AS-MAXIMAL, -AS-GREATEST-DEGREE and -AS-STRICTLY-GREATEST and the summary MAXIME-SENSE-FORK-CAUSES-BEING-OF-ALL, to the root. Conditional on all its premises; it establishes none of them."
+}

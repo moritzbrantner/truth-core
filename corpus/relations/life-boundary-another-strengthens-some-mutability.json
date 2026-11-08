@@ -1,0 +1,12 @@
+{
+  "id": "58e1b895-fda3-5c46-9eb3-978fca966668",
+  "label": "MUTABLE_2 boundary statement strengthens the MUTABLE_3 one",
+  "legacy_id": "REL-LIFE-BOUNDARY-ANOTHER-STRENGTHENS-SOME-MUTABILITY",
+  "subject_kind": "statement",
+  "subject_id": "473f3a7f-0730-5bdc-a7e2-772c8372ffd7",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "fa2619ca-90b6-565a-99ea-5d11a89ef4be",
+  "verification_result_id": "d8df0a99-a86f-5442-ab9b-1eb55358236c",
+  "note": "Strength order between MUTABLE_2 and MUTABLE_3 in the boundary use."
+}

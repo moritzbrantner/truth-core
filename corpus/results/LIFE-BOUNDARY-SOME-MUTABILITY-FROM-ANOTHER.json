@@ -1,0 +1,12 @@
+{
+  "id": "d8df0a99-a86f-5442-ab9b-1eb55358236c",
+  "label": "Strength order: the MUTABLE_2 boundary statement implies the MUTABLE_3 one",
+  "legacy_id": "LIFE-BOUNDARY-SOME-MUTABILITY-FROM-ANOTHER",
+  "argument_id": "c6356524-2894-58c2-a1b6-c5aa1350395e",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks4.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks4.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks4.lifeBoundarySomeMutabilityFromAnother",
+  "comparator_config": "results/LIFE-BOUNDARY-SOME-MUTABILITY-FROM-ANOTHER/comparator.json",
+  "status": "solution-present",
+  "description": "Strength order between MUTABLE_2 and MUTABLE_3 in the boundary use: if whatever begins or ceases to live is in another's power, it is mutable in some way."
+}

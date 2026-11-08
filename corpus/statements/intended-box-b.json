@@ -1,0 +1,13 @@
+{
+  "id": "1c0a4898-0c89-5b37-b4c8-ba80d4bd0a41",
+  "label": "The route's 'necessary being' is read as NECESSARY_2 in frame class KTB, and only so",
+  "legacy_id": "STMT-INTENDED-BOX-B",
+  "paraphrase": "OPEN reading premise, attribution deferred: the route's intended reading of 'necessary being' is exactly box-existence in frame class KTB (sense boxB of the fork), and no other enumerated sense.",
+  "lean_declaration": "TruthCore.Causality.ModalSenseSupport.IntendedIsBoxB",
+  "definition_ids": [
+    "f830795a-b5d8-5f9f-800d-2f3d1f443a0a"
+  ],
+  "disambiguation_ids": [
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
+  ]
+}

@@ -14,6 +14,8 @@ target/debug/truth --json frontier-diff --base HEAD^1
 target/debug/truth related STMT-GOD-EXISTS
 target/debug/truth dossier STMT-GOD-EXISTS
 target/debug/truth context ARGUMENT-ID --json
+target/debug/truth orphans
+target/debug/truth orphans --senses --json
 cargo fmt --all --check
 cargo clippy --locked -p truth --all-targets -- -D warnings
 cargo test --locked -p truth
@@ -219,6 +221,54 @@ coincide with their result IDs, and 3 uniquely concluded statements) with
 several `--limit` values, and the error cases, from a saved Python report;
 and, for a subset plus `dossier --all`, that the in-process frontier gives the
 same output.
+
+## `orphans`
+
+`truth orphans [--frontier-root STATEMENT-ID] [--by module|family]` lists
+verified results (status `solution-present` or `verified`) whose argument
+conclusion does not reach the frontier root (default
+`STMT-CATHOLICISM-TRUE`). `thickness --queue` ranks only statements that
+already reach the root, so such work is otherwise invisible to round
+selection. Reaching the root is the same route-aware walk as `thickness`;
+`scripts/verify_truth_cli.py` checks the disconnected set against Python's
+`reaching_root_statements`.
+
+Results are grouped by Lean module area (`--by module`, the default: the
+first namespace component below `TruthCore`, after `Results`, so
+`TruthCore.Results.Modal.K.Solution` is `TruthCore.Modal`) or by family
+(`--by family`: weakly connected components of the statements the
+disconnected arguments join; a hub statement shared by more than eight of
+them, such as `STMT-CONFIGURATION-FALSE`, joins nothing). Each group reports its result count, the
+non-transcription and transcription counts (declared kinds and the Lean-text
+heuristics), how many of its arguments touch the root path anyway (a root-path
+premise, or a relation on a root-path statement or its rival), its conclusion
+statements, and up to five nearest root-path contacts, ranked by tier:
+
+0. Lean import reuse: a root-path result's Solution imports a group Solution,
+   or a group Solution imports a root-path result's Solution.
+1. Shared vocabulary module: a root-path statement's `lean_declaration` lives
+   in a module a group Solution imports or a group conclusion is declared in
+   (modules imported by more than 5% of results are ignored as too common).
+2. Shared `definition_ids`/`disambiguation_ids` with a group conclusion.
+3. Paraphrase overlap of two or more words, weighted as in
+   `corpus.py related`.
+
+Contacts are discovery leads, not equivalences or entailments. Text output
+lists eight conclusions per group; `--json` lists every result and conclusion.
+
+`truth orphans --senses` lists root-path disambiguations (linked, directly or
+through a sense definition, from a statement reaching the root or an argument
+concluding one) without a certified sense fork. A fork needs a coverage
+statement, an exclusivity statement and a verified joint theorem by cases that
+takes the coverage statement as a premise (`docs/corpus-model.md`, "Sense
+forks"). Each part is read from the disambiguation's `coverage_statement_id`,
+`exclusivity_statement_id` and `fork_result_ids`; without a field, the
+heuristic fallback accepts a statement linking the disambiguation whose ID ends
+in `-SENSES-EXHAUSTIVE` (coverage) or `-SENSE-UNIQUE`/`-SENSES-EXCLUSIVE`
+(exclusivity), and a verified result whose argument links the disambiguation
+and takes that coverage premise. Entries are ordered by the number of
+root-path links and name the missing parts. Neither report closes anything or
+writes records.
 
 ## `bridges`
 

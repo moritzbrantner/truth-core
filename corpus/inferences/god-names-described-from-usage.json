@@ -1,0 +1,14 @@
+{
+  "id": "227aeadd-0c34-5236-9719-8fda7c4bb97a",
+  "label": "GOD_3: usage naming and a GOD_3-to-GOD_4 bridge give the naming premise",
+  "legacy_id": "INF-GOD-NAMES-DESCRIBED-FROM-USAGE",
+  "input_statement_ids": [
+    "49542121-caa6-576e-aa84-3a1546397388",
+    "6d85b363-58ec-5a8a-9e20-58a93d188ea5"
+  ],
+  "output_statement_id": "1ec205ed-b2a6-5384-bb5f-2565a9d325bf",
+  "rule": "Hypothetical syllogism through the sense bridge",
+  "meaning": "GOD_3 (USAGE) branch of the naming use: whatever meets the full description is called God, and (explicit sense bridge) whatever is called God is the God of classical theism. So the fully described principle is the God of classical theism. The controls give a model with usage naming and no classical God (bridge omitted) and one with the bridge and no usage (naming premise omitted).",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

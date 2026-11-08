@@ -1,0 +1,72 @@
+# Sense fork batch 4, "mutable / in potency in some way" (docs/notes/load-bearing-terms.md, specs/term-sense-forks-4.toml).
+# One argument per sense; the joint coverage/exclusivity theorem is an optional summary. Analyst formulations, attribution deferred.
+# MUTABLE_1 at the target is the existing LIFE-BOUNDARY-POTENCY-FROM-IMMUTABILITY.
+target = "STMT-LIFE-BOUNDARY-REQUIRES-POTENCY"
+
+[[node]]
+id = "STMT-LIFE-BOUNDARY-REQUIRES-POTENCY"
+
+[[node]]
+id = "STMT-LIFE-BOUNDARY-REQUIRES-POWER-IN-ANOTHER"
+
+[[node]]
+id = "STMT-LIFE-BOUNDARY-REQUIRES-SOME-MUTABILITY"
+
+[[node]]
+id = "STMT-MUTABILITY-SENSE-UNIQUE"
+
+[[node]]
+id = "STMT-MUTABILITY-SENSES-EXHAUSTIVE"
+
+[[node]]
+id = "STMT-ROUTE-BOUNDARY-IS-MUTABILITY"
+
+[[node]]
+id = "STMT-ROUTE-IMMUTABLE-HAS-UNCHANGING-LIFE"
+
+[[node]]
+id = "STMT-ROUTE-SUCCESSION-IS-MUTABILITY"
+
+[[node]]
+id = "STMT-SUBJECT-OF-ANOTHERS-POWER-HAS-POTENCY"
+
+[[edge]]
+premises = ["STMT-LIFE-BOUNDARY-REQUIRES-POWER-IN-ANOTHER", "STMT-SUBJECT-OF-ANOTHERS-POWER-HAS-POTENCY"]
+conclusion = "STMT-LIFE-BOUNDARY-REQUIRES-POTENCY"
+kind = "derivation"
+status = "certified"
+argument = "LIFE-BOUNDARY-POTENCY-THROUGH-ANOTHER"
+note = "Hypothetical syllogism through the sense bridge."
+
+[[edge]]
+premises = ["STMT-LIFE-BOUNDARY-REQUIRES-SOME-MUTABILITY", "STMT-SUBJECT-OF-ANOTHERS-POWER-HAS-POTENCY"]
+conclusion = "STMT-LIFE-BOUNDARY-REQUIRES-POTENCY"
+kind = "derivation"
+status = "certified"
+argument = "LIFE-BOUNDARY-POTENCY-FROM-SOME-MUTABILITY"
+note = "Disjunction elimination; the second case through the sense bridge."
+
+[[edge]]
+premises = ["STMT-LIFE-BOUNDARY-REQUIRES-POTENCY"]
+conclusion = "STMT-LIFE-BOUNDARY-REQUIRES-SOME-MUTABILITY"
+kind = "bridge"
+status = "certified"
+argument = "LIFE-BOUNDARY-SOME-MUTABILITY-FROM-SUBJECT"
+note = "Disjunction introduction (left)."
+
+[[edge]]
+premises = ["STMT-LIFE-BOUNDARY-REQUIRES-POWER-IN-ANOTHER"]
+conclusion = "STMT-LIFE-BOUNDARY-REQUIRES-SOME-MUTABILITY"
+kind = "bridge"
+status = "certified"
+argument = "LIFE-BOUNDARY-SOME-MUTABILITY-FROM-ANOTHER"
+note = "Disjunction introduction (right)."
+
+[[edge]]
+premises = ["STMT-MUTABILITY-SENSES-EXHAUSTIVE", "STMT-MUTABILITY-SENSE-UNIQUE", "STMT-ROUTE-SUCCESSION-IS-MUTABILITY", "STMT-ROUTE-BOUNDARY-IS-MUTABILITY"]
+conclusion = "STMT-ROUTE-IMMUTABLE-HAS-UNCHANGING-LIFE"
+kind = "derivation"
+status = "certified"
+argument = "MUTABILITY-SENSE-FORK-UNCHANGING-LIFE"
+note = "Uses agree from coverage and exclusivity; modus tollens on each use."
+

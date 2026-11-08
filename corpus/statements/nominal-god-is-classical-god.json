@@ -1,0 +1,18 @@
+{
+  "id": "96eef8e2-1b96-5fac-9c00-333126427287",
+  "label": "Sense bridge GOD_1 to GOD_4: what meets the full description is the God of classical theism",
+  "legacy_id": "STMT-NOMINAL-GOD-IS-CLASSICAL-GOD",
+  "paraphrase": "OPEN sense bridge GOD_1 to GOD_4 (attribution deferred): whatever meets the full nominal description (the only being maximal in being, causing the being and every perfection of every other being, entering into the composition of nothing) is the God of classical theism (IsGod). Proved equivalent to STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.NominalGodIsClassicalGod",
+  "definition_ids": [
+    "18945900-2de0-5040-bdab-26268f257684",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "a2a8de58-42e0-5481-b7fb-848ae8602036",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "53b02c11-a28b-57c2-8d2e-7e013893db7e"
+  ],
+  "disambiguation_ids": [
+    "205a39c3-915d-5fe4-8076-a9ff91329e08",
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
+  ]
+}

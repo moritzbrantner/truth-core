@@ -1,0 +1,13 @@
+{
+  "id": "3de2ab0e-ebd5-5f19-a0da-030362a1b719",
+  "label": "GOD_1 to root: the GOD_1-to-GOD_4 bridge gives the naming premise (transcription)",
+  "legacy_id": "GOD-NAMES-DESCRIBED-FROM-NOMINAL",
+  "argument_id": "b7e2768a-ae2c-56f9-8089-acca1e1b44d0",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks4.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks4.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks4.godNamesDescribedFromNominal",
+  "comparator_config": "results/GOD-NAMES-DESCRIBED-FROM-NOMINAL/comparator.json",
+  "status": "solution-present",
+  "description": "Transcription (single application): GOD_1 branch to the root premise. The naming premise in the NOMINAL sense is analytic, so all the content of the GOD_4 premise sits in the sense bridge: whatever meets the full nominal description is the God of classical theism. With NOMINAL-BRIDGE-FROM-GOD-NAMES the two are equivalent; the nominal reading adds no warrant.",
+  "transcription": "single_application"
+}

@@ -641,7 +641,8 @@ mod tests {
                 ]),
                 results: records(vec![
                     json!({"id": "RES-ROOT", "argument_id": "ARG-ROOT"}),
-                    json!({"id": "RES-ROOT-UNROUTED", "argument_id": "ARG-ROOT-UNROUTED"}),
+                    json!({"id": "RES-ROOT-UNROUTED", "argument_id": "ARG-ROOT-UNROUTED",
+                           "transcription": "assembly"}),
                     json!({"id": "RES-A", "argument_id": "ARG-A"}),
                     json!({"id": "RES-A-T", "argument_id": "ARG-A-TRANSCRIBED",
                            "transcription": "single_application"}),
@@ -691,8 +692,8 @@ mod tests {
         let fixture = Fixture::new();
         let records = fixture.records();
         let frontier = frontier_inputs("ROOT", &records, &[]);
-        // E enters only through the undesignated route; S only through the
-        // strength registration, which is set aside.
+        // E enters only through an undesignated transcription route; S only
+        // through the strength registration, which is set aside.
         let reached: Vec<&str> = frontier.reaching_root.iter().map(String::as_str).collect();
         assert_eq!(reached, ["A", "B", "C", "D", "ROOT", "W"]);
         assert_eq!(frontier.statement_depths["D"], "stated");
@@ -707,6 +708,20 @@ mod tests {
     }
 
     #[test]
+    fn verified_undesignated_route_reaches_the_root() {
+        // Owner decision 2026-11-07: a verified non-transcription argument
+        // opens a routed conclusion beside its designated route.
+        let mut fixture = Fixture::new();
+        for result in &mut fixture.results {
+            result.remove("transcription");
+        }
+        let records = fixture.records();
+        let frontier = frontier_inputs("ROOT", &records, &[]);
+        assert!(frontier.reaching_root.contains("E"));
+        assert!(frontier.reaching_root.contains("D"));
+    }
+
+    #[test]
     fn report_counts_non_transcription_derivations_and_queues_the_rest() {
         let fixture = Fixture::new();
         let records = fixture.records();
@@ -717,7 +732,8 @@ mod tests {
         // The strength registration is still a verified derivation of W here,
         // as in Python, which counts over all records.
         assert_eq!(report["derivations"]["W"], json!(["ARG-STRENGTH"]));
-        assert_eq!(report["derivation_count"], 4);
+        // ROOT counts ARG-ROOT only: ARG-ROOT-UNROUTED is a transcription.
+        assert_eq!(report["derivation_count"], 3);
         let queue = thickness_queue(&frontier, &report, &records);
         let order: Vec<&str> = queue
             .iter()

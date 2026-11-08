@@ -1566,6 +1566,15 @@
  },
  {
   "kind": "argument",
+  "id": "5dc3bc1b-77b5-59b0-a49c-a6fc1849d4d7",
+  "legacy_id": "TERM-SENSE-FORKS-4-CONTROLS",
+  "label": "Controls for the MUTABLE and GOD sense forks",
+  "flags": [
+   "untagged-sense"
+  ]
+ },
+ {
+  "kind": "argument",
   "id": "669ca076-c9b7-54da-9e8b-c012bd37edec",
   "legacy_id": "NECESSARY-UNDERIVED-NONREFUTATION-LIFT",
   "label": "Denying the existence of one rigid de re…, from At least one individual exists at the… and 2 more",
@@ -3433,6 +3442,33 @@
  },
  {
   "kind": "argument",
+  "id": "8a29551f-afa7-5336-a699-fa534a0d0143",
+  "legacy_id": "GOD-SENSE-FORK-DESCRIBED-PRINCIPLE-ATTRIBUTES",
+  "label": "GOD fork summary: the fully described principle has the classical attributes",
+  "flags": [
+   "untagged-sense"
+  ]
+ },
+ {
+  "kind": "argument",
+  "id": "f2e58263-179e-5322-bb66-42151ce77c21",
+  "legacy_id": "NOMINAL-GOD-MAXIMALITY-IS-ANALYTIC",
+  "label": "GOD_1: 'God is maximal in being' read nominally is analytic",
+  "flags": [
+   "untagged-sense"
+  ]
+ },
+ {
+  "kind": "argument",
+  "id": "5b3b935c-9c64-5936-b74c-2392f33a6d19",
+  "legacy_id": "GOD-NAMES-DESCRIBED-FROM-SUMMA",
+  "label": "GOD_2: the reduced naming for the Summa's God and a GOD_2-to-GOD_4 bridge give the naming premise",
+  "flags": [
+   "untagged-sense"
+  ]
+ },
+ {
+  "kind": "argument",
   "id": "ed7c588a-15f5-57e3-9955-8295371ffa70",
   "legacy_id": "CATHOLICISM-STAGE1-FROM-PRIMA-VIA",
   "label": "GOD_4 exists: there is something that is GOD_4, in the sense of the GOD_4 of…, from prima via",
@@ -4246,6 +4282,24 @@
   "flags": [
    "from-legacy-id",
    "truncated"
+  ]
+ },
+ {
+  "kind": "argument",
+  "id": "aa026502-1ae3-5293-8465-a6703e4a4c37",
+  "legacy_id": "LIFE-BOUNDARY-POTENCY-THROUGH-ANOTHER",
+  "label": "MUTABLE_2: a life boundary requires potency, through another's power and a sense bridge",
+  "flags": [
+   "untagged-sense"
+  ]
+ },
+ {
+  "kind": "argument",
+  "id": "158efe69-7391-5227-9f0b-6523d0360375",
+  "legacy_id": "LIFE-BOUNDARY-POTENCY-FROM-SOME-MUTABILITY",
+  "label": "MUTABLE_3: a life boundary requires potency, from mutability in some way and a sense bridge",
+  "flags": [
+   "untagged-sense"
   ]
  },
  {
@@ -6361,6 +6415,15 @@
   "flags": [
    "from-legacy-id",
    "truncated"
+  ]
+ },
+ {
+  "kind": "argument",
+  "id": "678ff65f-14b7-5e62-8880-0d9ed2205063",
+  "legacy_id": "GOD-EXISTS-FROM-MAXIME-ENS-CAUSING-ALL",
+  "label": "Stage 1 from the quarta via's conclusion: a MAXIME_1 being causing all being is God",
+  "flags": [
+   "untagged-sense"
   ]
  },
  {
@@ -12221,6 +12284,15 @@
   "id": "e696bf0f-490b-549b-82f4-50c8bcd70631",
   "legacy_id": "ATTEMPT-NECESSARYBEING-SURVEY-FIRST-PASS",
   "label": "Traversed public NecessaryBeing.com routes A1–A10 and A1c2",
+  "flags": [
+   "ids-replaced"
+  ]
+ },
+ {
+  "kind": "attempt",
+  "id": "7dd18cb4-03c6-502a-9809-5c2f6f2ab18f",
+  "legacy_id": "ATTEMPT-MODAL-RESULTS-TO-ROOT",
+  "label": "Triage of all 84 disconnected TruthCore.Modal results",
   "flags": [
    "ids-replaced"
   ]
@@ -46280,6 +46352,15 @@
  },
  {
   "kind": "inference",
+  "id": "a835a3fd-81a7-54db-a875-34c9bcf3c3c3",
+  "legacy_id": "INF-MODAL-FORK-CONTROLS",
+  "label": "Finite models for the modal-principle branches of the NECESSARY_2…, by Correspondence certificates…",
+  "flags": [
+   "truncated"
+  ]
+ },
+ {
+  "kind": "inference",
   "id": "806054f9-24d6-5758-8bf7-59ba547dce88",
   "legacy_id": "INF-RECEPTION-LIMITATION-CONTROLS",
   "label": "Finite one-being interpretations: for each of the four derivations unlimited…, by Explicit finite…",
@@ -47513,6 +47594,45 @@
   "legacy_id": "INF-NECESSARY-SENSE-FORK",
   "label": "Fork node: the intended reading of 'necessary' selects exactly one…, by Theorem application, case…",
   "flags": [
+   "truncated"
+  ]
+ },
+ {
+  "kind": "inference",
+  "id": "1b93b5c8-4d30-57bc-af73-57875deec064",
+  "legacy_id": "INF-MODAL-FORK-KTB",
+  "label": "Fork node: the intended reading of 'necessary' selects exactly one…, by Theorem application…",
+  "flags": [
+   "truncated"
+  ]
+ },
+ {
+  "kind": "inference",
+  "id": "a2238c6d-a833-5dc8-8f70-143dcad794c6",
+  "legacy_id": "INF-MODAL-FORK-S4",
+  "label": "Fork node: the intended reading of 'necessary' selects exactly one…, by Theorem application… (2)",
+  "flags": [
+   "duplicate",
+   "truncated"
+  ]
+ },
+ {
+  "kind": "inference",
+  "id": "c1ba89b5-c92f-5181-a18f-30dbd18d731c",
+  "legacy_id": "INF-MODAL-FORK-T",
+  "label": "Fork node: the intended reading of 'necessary' selects exactly one…, by Theorem application… (3)",
+  "flags": [
+   "duplicate",
+   "truncated"
+  ]
+ },
+ {
+  "kind": "inference",
+  "id": "ea7ea220-c121-55b4-9596-f4b3fbe30060",
+  "legacy_id": "INF-MODAL-FORK-S5",
+  "label": "Fork node: the intended reading of 'necessary' selects exactly one…, by Theorem application… (4)",
+  "flags": [
+   "duplicate",
    "truncated"
   ]
  },
@@ -66789,6 +66909,24 @@
  },
  {
   "kind": "statement",
+  "id": "2541318c-0e5a-5e1a-a732-a9ec1768690e",
+  "legacy_id": "STMT-GOD-SENSES-EXHAUSTIVE",
+  "label": "Each use of 'God' on the designated root route is GOD_1, GOD_2, GOD_3 or GOD_4",
+  "flags": [
+   "untagged-sense"
+  ]
+ },
+ {
+  "kind": "statement",
+  "id": "d6b23648-ef99-5a03-9562-f9a958a38a13",
+  "legacy_id": "STMT-MUTABILITY-SENSES-EXHAUSTIVE",
+  "label": "Each use of 'in potency in some respect' in the eternity step is MUTABLE_1, MUTABLE_2 or MUTABLE_3",
+  "flags": [
+   "untagged-sense"
+  ]
+ },
+ {
+  "kind": "statement",
   "id": "f87f9a1a-a517-5237-9212-032008895f04",
   "legacy_id": "STMT-ANCIENTS-MOSTLY-INVESTIGATE-MATTER",
   "label": "Earlier investigators make physics appear chiefly concerned with matter, although Empedocles and…",
@@ -68806,6 +68944,15 @@
   "label": "Finite interpretations: the unchanged part-free model keeps its joint and #715 certificates, fails…",
   "flags": [
    "truncated"
+  ]
+ },
+ {
+  "kind": "statement",
+  "id": "47530784-68d6-5168-b446-ee902c3f4f07",
+  "legacy_id": "STMT-TERM-SENSE-FORKS-4-CONTROLS",
+  "label": "Finite models for the MUTABLE and GOD sense forks (mixed readings, omissions, nonvacuity)",
+  "flags": [
+   "untagged-sense"
   ]
  },
  {
@@ -70957,6 +71104,33 @@
   "label": "G holds at every world accessible from the named standpoint; this is neither frame-global truth…",
   "flags": [
    "truncated"
+  ]
+ },
+ {
+  "kind": "statement",
+  "id": "c25557cb-2ec4-5694-a336-199fb633b571",
+  "legacy_id": "STMT-NOMINAL-GOD-IS-MAXIMAL-IN-BEING",
+  "label": "GOD_1: whatever is God in what the name signifies is maximal in being (analytic)",
+  "flags": [
+   "untagged-sense"
+  ]
+ },
+ {
+  "kind": "statement",
+  "id": "21043f97-fcc6-5f0f-94f9-c4786bdb8cd3",
+  "legacy_id": "STMT-NOMINAL-GOD-NAMES-DESCRIBED-PRINCIPLE",
+  "label": "GOD_1: whatever meets the full description is God in what the name signifies (analytic)",
+  "flags": [
+   "untagged-sense"
+  ]
+ },
+ {
+  "kind": "statement",
+  "id": "49542121-caa6-576e-aa84-3a1546397388",
+  "legacy_id": "STMT-DESCRIBED-PRINCIPLE-IS-CALLED-GOD",
+  "label": "GOD_3: whatever meets the full description is called God in usage",
+  "flags": [
+   "untagged-sense"
   ]
  },
  {
@@ -78463,6 +78637,42 @@
  },
  {
   "kind": "statement",
+  "id": "96eef8e2-1b96-5fac-9c00-333126427287",
+  "legacy_id": "STMT-NOMINAL-GOD-IS-CLASSICAL-GOD",
+  "label": "Sense bridge GOD_1 to GOD_4: what meets the full description is the God of classical theism",
+  "flags": [
+   "untagged-sense"
+  ]
+ },
+ {
+  "kind": "statement",
+  "id": "e165f4aa-e872-5e2f-8211-52d40df114cc",
+  "legacy_id": "STMT-SUMMA-GOD-IS-CLASSICAL-GOD",
+  "label": "Sense bridge GOD_2 to GOD_4: what the Summa's stage-1 routes call God is the classical God",
+  "flags": [
+   "untagged-sense"
+  ]
+ },
+ {
+  "kind": "statement",
+  "id": "6d85b363-58ec-5a8a-9e20-58a93d188ea5",
+  "legacy_id": "STMT-CALLED-GOD-IS-CLASSICAL-GOD",
+  "label": "Sense bridge GOD_3 to GOD_4: whatever is called God is the God of classical theism",
+  "flags": [
+   "untagged-sense"
+  ]
+ },
+ {
+  "kind": "statement",
+  "id": "138a151b-285a-5181-829b-5464968164ac",
+  "legacy_id": "STMT-SUBJECT-OF-ANOTHERS-POWER-HAS-POTENCY",
+  "label": "Sense bridge MUTABLE_2 to MUTABLE_1: what another can change is in potency in itself",
+  "flags": [
+   "untagged-sense"
+  ]
+ },
+ {
+  "kind": "statement",
   "id": "b7b7a936-e0e1-5541-a8d0-5b4edb9c8127",
   "legacy_id": "STMT-Q14-SENSE-WITHOUT-MATTER",
   "label": "Sense has aptitude to receive species without matter; this does not by itself assert intellectual…",
@@ -80870,6 +81080,15 @@
   "label": "The four-event raw ground-rule graph is well-founded and cycle-free; both all-on and all-off…",
   "flags": [
    "truncated"
+  ]
+ },
+ {
+  "kind": "statement",
+  "id": "9506655b-7aef-5946-8af0-1871c639c7a3",
+  "legacy_id": "STMT-ROUTE-NAMES-DESCRIBED-PRINCIPLE",
+  "label": "The fully described principle is God in the route's reading of the naming use",
+  "flags": [
+   "untagged-sense"
   ]
  },
  {

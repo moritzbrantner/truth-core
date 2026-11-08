@@ -1,0 +1,15 @@
+{
+  "id": "6f474aba-fda0-57fa-8330-6246de589f63",
+  "label": "5 schema: whatever is possible is NECESSARY_2-ly possible on the route's frame",
+  "legacy_id": "STMT-ONTIC-5-SCHEMA",
+  "paraphrase": "OPEN modal principle, attribution deferred: the 5 schema 'possibly p implies necessarily possibly p' (convergence formula 1 0 1 1) is valid on the route's modal frame, for every proposition and world. By the 5 correspondence it is equivalent to the frame being Euclidean.",
+  "lean_declaration": "TruthCore.Causality.ModalSenseSupport.Ontic5SchemaValid",
+  "definition_ids": [
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "36e7c64a-de89-5871-915e-e06117844a9c",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1"
+  ],
+  "disambiguation_ids": [
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
+  ]
+}

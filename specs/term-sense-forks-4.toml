@@ -1,0 +1,343 @@
+# Sense forks, batch 4: "mutable / in potency in some way" (DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER,
+# with its duplicate DISAMB-MUTABILITY-CHANNEL) and "God" (DISAMB-GOD).
+# Owner rules (#1233 B): each sense its own Lean declaration, one argument per sense,
+# coverage and exclusivity as explicit OPEN premises, per-sense arguments conclude root-route nodes.
+# (docs/notes/load-bearing-terms.md; explorations/term-sense-forks-4-*.toml). Analyst formulations,
+# attribution deferred.
+
+[batch]
+vocab = "TruthCore.Causality.TermSenseForks"
+results = "TruthCore.Results.Causality.TermSenseForks4"
+
+# ---- "mutable" ----
+
+[[statement]]
+id = "STMT-MUTABILITY-SENSES-EXHAUSTIVE"
+label = "Each use of 'in potency in some respect' in the eternity step is MUTABLE_1, MUTABLE_2 or MUTABLE_3"
+lean = "MutabilitySensesExhaustive"
+paraphrase = "OPEN frontier premise (coverage, attribution deferred): each of the two uses of 'in potency in some respect' in the root argument IMMUTABLE-IS-PRIMITIVE-ETERNAL-FROM-TYPED-BOETHIAN (what has succession in its life is in potency; what begins or ceases to live is in potency) is read as mutable in itself (MUTABLE_1, MutableInSubject: in potency in some respect), mutable through another (MUTABLE_2, MutableThroughAnother: some other being has power to change it) or mutable in some way (MUTABLE_3, MutableInSomeWay: either), selected by the route's reading, and the use's predicate is exactly that sense's predicate."
+definitions = ["DEF-ROUTE-SENSE-SELECTION", "DEF-POTENCY", "DEF-MUTABLE-THROUGH-ANOTHER", "DEF-MUTABLE-IN-SOME-WAY"]
+disambiguations = ["DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER"]
+
+[[statement]]
+id = "STMT-MUTABILITY-SENSE-UNIQUE"
+label = "The eternity step reads 'in potency in some respect' in one MUTABLE sense only"
+lean = "MutabilitySenseUnique"
+paraphrase = "OPEN frontier premise (exclusivity, attribution deferred): the route's reading of 'in potency in some respect' in the eternity step selects at most one sense, so both uses take the same one. Not a disjointness claim: MUTABLE_1 and MUTABLE_2 each imply MUTABLE_3."
+definitions = ["DEF-ROUTE-SENSE-SELECTION"]
+disambiguations = ["DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER"]
+
+[[statement]]
+id = "STMT-LIFE-BOUNDARY-REQUIRES-POWER-IN-ANOTHER"
+label = "Whatever begins or ceases to live is MUTABLE_2: another being has power over it"
+lean = "LifeBoundaryRequiresPowerInAnother"
+paraphrase = "MUTABLE_2, OPEN analyst premise (attribution deferred): whatever begins or ceases to live, between an earlier and a later time of the duration frame, is mutable through another: some other being has the power to change it in some respect (navigation: ST I q.9 a.2, creatures depend on the creator giving esse). It says nothing about potency in the thing itself."
+definitions = ["DEF-MUTABLE-THROUGH-ANOTHER", "DEF-LIFE-PRESENT-AT"]
+disambiguations = ["DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER"]
+
+[[statement]]
+id = "STMT-LIFE-BOUNDARY-REQUIRES-SOME-MUTABILITY"
+label = "Whatever begins or ceases to live is MUTABLE_3: mutable in itself or through another"
+lean = "LifeBoundaryRequiresSomeMutability"
+paraphrase = "MUTABLE_3, OPEN analyst premise (attribution deferred): whatever begins or ceases to live is mutable in some way, in potency in itself in some respect or in another being's power. The contrapositive of q.10 a.1 ('what is altogether immutable can have neither beginning nor end') with 'altogether immutable' read as immutable through both of q.9 a.2's channels; the weakest of the three boundary readings."
+definitions = ["DEF-MUTABLE-IN-SOME-WAY", "DEF-LIFE-PRESENT-AT"]
+disambiguations = ["DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER"]
+
+[[statement]]
+id = "STMT-SUBJECT-OF-ANOTHERS-POWER-HAS-POTENCY"
+label = "Sense bridge MUTABLE_2 to MUTABLE_1: what another can change is in potency in itself"
+lean = "SubjectOfAnothersPowerHasPotency"
+paraphrase = "OPEN sense bridge MUTABLE_2 to MUTABLE_1 (attribution deferred): whatever some other being has power to change is in potency in itself in some respect. Q.9 a.2 keeps the two channels apart; a dependent being with no potency in itself (an emanated pure intelligence) would deny this bridge."
+definitions = ["DEF-POTENCY", "DEF-MUTABLE-THROUGH-ANOTHER"]
+disambiguations = ["DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER"]
+
+[[statement]]
+id = "STMT-ROUTE-SUCCESSION-IS-MUTABILITY"
+label = "Whatever has succession in its life is mutable in the route's reading of that use"
+lean = "RouteSuccessionIsMutability"
+paraphrase = "OPEN analyst premise (attribution deferred): whatever has succession in its life (its life-state differs between two times at which it lives) is mutable in the route's reading of the succession use."
+definitions = ["DEF-ROUTE-SENSE-SELECTION", "DEF-LIFE-PRESENT-AT"]
+disambiguations = ["DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER"]
+
+[[statement]]
+id = "STMT-ROUTE-BOUNDARY-IS-MUTABILITY"
+label = "Whatever begins or ceases to live is mutable in the route's reading of that use"
+lean = "RouteBoundaryIsMutability"
+paraphrase = "OPEN analyst premise (attribution deferred): whatever begins or ceases to live is mutable in the route's reading of the boundary use."
+definitions = ["DEF-ROUTE-SENSE-SELECTION", "DEF-LIFE-PRESENT-AT"]
+disambiguations = ["DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER"]
+
+[[statement]]
+id = "STMT-ROUTE-IMMUTABLE-HAS-UNCHANGING-LIFE"
+label = "Immutable in the route's succession-use reading: no beginning, end or succession of life"
+lean = "RouteImmutableHasUnchangingLife"
+paraphrase = "Whatever is not mutable in the route's reading of the succession use has a life that is interminable (neither begins nor ends) and tota simul (without succession). It does not say that it lives."
+definitions = ["DEF-ROUTE-SENSE-SELECTION", "DEF-BOETHIAN-ETERNAL", "DEF-LIFE-PRESENT-AT"]
+disambiguations = ["DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER"]
+
+# ---- "God" ----
+
+[[statement]]
+id = "STMT-GOD-SENSES-EXHAUSTIVE"
+label = "Each use of 'God' on the designated root route is GOD_1, GOD_2, GOD_3 or GOD_4"
+lean = "GodSensesExhaustive"
+paraphrase = "OPEN frontier premise (coverage, attribution deferred): each of the two uses of 'God' on the designated root route (the fully described principle is God; whatever is God has the classical attributes) is read as what the name signifies (GOD_1, NominalGod: the full q.13 a.8 ad 2 description with the quarta via's cause of every perfection), the Summa's God parameter of the older stage-1 routes (GOD_2), what is called God in usage (GOD_3, CalledGod) or the God of classical theism (GOD_4, Signature.IsGod), selected by the route's reading, and the use's predicate is exactly that sense's predicate. Scott's and Goedel's GodLike are not listed: they are world-indexed predicates over a positivity constant, and a rival who reads the route's God that way denies this premise."
+definitions = ["DEF-ROUTE-SENSE-SELECTION", "DEF-GOD-NOMINAL-Q13", "DEF-GOD-AS-NAMED-IN-THE-SUMMA", "DEF-GOD-WHAT-ALL-UNDERSTAND", "DEF-GOD-OF-CLASSICAL-THEISM"]
+disambiguations = ["DISAMB-GOD"]
+
+[[statement]]
+id = "STMT-GOD-SENSE-UNIQUE"
+label = "The designated root route reads 'God' in one GOD sense only"
+lean = "GodSenseUnique"
+paraphrase = "OPEN frontier premise (exclusivity, attribution deferred): the route's reading of 'God' selects at most one sense, so the naming use and the attribute use take the same one. A constraint on the reading, not a claim that the senses pick out different beings."
+definitions = ["DEF-ROUTE-SENSE-SELECTION"]
+disambiguations = ["DISAMB-GOD"]
+
+[[statement]]
+id = "STMT-ROUTE-NAMES-DESCRIBED-PRINCIPLE"
+label = "The fully described principle is God in the route's reading of the naming use"
+lean = "RouteNamesDescribedPrinciple"
+paraphrase = "OPEN analyst premise (attribution deferred): whatever meets the full nominal description (the only being maximal in being, causing the being and every perfection of every other being, entering into the composition of nothing) is God in the route's reading of the naming use."
+definitions = ["DEF-ROUTE-SENSE-SELECTION", "DEF-GOD-NOMINAL-Q13", "DEF-MAXIME-ENS", "DEF-CAUSE-OF-PERFECTION", "DEF-REMOTE-FROM-ALL"]
+disambiguations = ["DISAMB-GOD", "DISAMB-MAXIME-ENS"]
+
+[[statement]]
+id = "STMT-ROUTE-GOD-HAS-CLASSICAL-ATTRIBUTES"
+label = "Whatever is God in the route's reading of the attribute use has the classical attributes"
+lean = "RouteGodHasClassicalAttributes"
+paraphrase = "OPEN analyst premise (attribution deferred): whatever is God in the route's reading of the attribute use satisfies the signature's HasClassicalAttributes field."
+definitions = ["DEF-ROUTE-SENSE-SELECTION", "DEF-CLASSICAL-ATTRIBUTES-BUNDLE"]
+disambiguations = ["DISAMB-GOD"]
+
+[[statement]]
+id = "STMT-DESCRIBED-PRINCIPLE-HAS-CLASSICAL-ATTRIBUTES"
+label = "The fully described principle (GOD_1 description) has the classical attributes"
+lean = "DescribedPrincipleHasClassicalAttributes"
+paraphrase = "Whatever meets the full nominal description (the only being maximal in being, causing the being and every perfection of every other being, entering into the composition of nothing) satisfies the signature's HasClassicalAttributes field. It does not say that anything meets the description."
+definitions = ["DEF-GOD-NOMINAL-Q13", "DEF-CLASSICAL-ATTRIBUTES-BUNDLE", "DEF-MAXIME-ENS", "DEF-CAUSE-OF-PERFECTION", "DEF-REMOTE-FROM-ALL"]
+disambiguations = ["DISAMB-GOD", "DISAMB-MAXIME-ENS"]
+
+[[statement]]
+id = "STMT-NOMINAL-GOD-NAMES-DESCRIBED-PRINCIPLE"
+label = "GOD_1: whatever meets the full description is God in what the name signifies (analytic)"
+lean = "NominalGodNamesDescribedPrinciple"
+paraphrase = "GOD_1 reading of the naming premise (attribution deferred): whatever is the only being maximal in being, causes the being and every perfection of every other being and enters into the composition of nothing meets everything the name 'God' signifies under the adopted fuller profile. Analytic in this reading; a distinct statement from STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE, which reads God as GOD_4."
+definitions = ["DEF-GOD-NOMINAL-Q13", "DEF-NOMINAL-DEFINITION", "DEF-MAXIME-ENS", "DEF-CAUSE-OF-PERFECTION", "DEF-REMOTE-FROM-ALL"]
+disambiguations = ["DISAMB-GOD", "DISAMB-MAXIME-ENS"]
+
+[[statement]]
+id = "STMT-NOMINAL-GOD-IS-MAXIMAL-IN-BEING"
+label = "GOD_1: whatever is God in what the name signifies is maximal in being (analytic)"
+lean = "NominalGodIsMaximalInBeing"
+paraphrase = "GOD_1 reading of the converse premise (attribution deferred): whatever meets the full nominal description is maximal in being. Analytic in this reading; a distinct statement from STMT-GOD-IS-MAXIMAL-IN-BEING, which reads God as GOD_4."
+definitions = ["DEF-GOD-NOMINAL-Q13", "DEF-MAXIME-ENS", "DEF-ESSE"]
+disambiguations = ["DISAMB-GOD", "DISAMB-MAXIME-ENS"]
+
+[[statement]]
+id = "STMT-NOMINAL-GOD-IS-CLASSICAL-GOD"
+label = "Sense bridge GOD_1 to GOD_4: what meets the full description is the God of classical theism"
+lean = "NominalGodIsClassicalGod"
+paraphrase = "OPEN sense bridge GOD_1 to GOD_4 (attribution deferred): whatever meets the full nominal description (the only being maximal in being, causing the being and every perfection of every other being, entering into the composition of nothing) is the God of classical theism (IsGod). Proved equivalent to STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE."
+definitions = ["DEF-GOD-NOMINAL-Q13", "DEF-GOD-OF-CLASSICAL-THEISM", "DEF-MAXIME-ENS", "DEF-CAUSE-OF-PERFECTION", "DEF-REMOTE-FROM-ALL"]
+disambiguations = ["DISAMB-GOD", "DISAMB-MAXIME-ENS"]
+
+[[statement]]
+id = "STMT-SUMMA-GOD-IS-CLASSICAL-GOD"
+label = "Sense bridge GOD_2 to GOD_4: what the Summa's stage-1 routes call God is the classical God"
+lean = "SummaGodIsClassicalGod"
+paraphrase = "OPEN sense bridge GOD_2 to GOD_4 (attribution deferred): whatever falls under the Summa's God parameter of the older stage-1 maxime ens routes is the God of classical theism (IsGod)."
+definitions = ["DEF-GOD-AS-NAMED-IN-THE-SUMMA", "DEF-GOD-OF-CLASSICAL-THEISM"]
+disambiguations = ["DISAMB-GOD"]
+
+[[statement]]
+id = "STMT-DESCRIBED-PRINCIPLE-IS-CALLED-GOD"
+label = "GOD_3: whatever meets the full description is called God in usage"
+lean = "DescribedPrincipleIsCalledGod"
+paraphrase = "GOD_3 reading of the naming premise, OPEN analyst premise (attribution deferred): whatever meets the full nominal description is called 'God' by the speech community ('et hoc dicimus Deum', extended from the quarta via's maximal being to the fuller profile). Usage only: it says how the name is applied, not what its bearer is."
+definitions = ["DEF-GOD-WHAT-ALL-UNDERSTAND", "DEF-MAXIME-ENS", "DEF-CAUSE-OF-PERFECTION", "DEF-REMOTE-FROM-ALL"]
+disambiguations = ["DISAMB-GOD", "DISAMB-MAXIME-ENS"]
+
+[[statement]]
+id = "STMT-CALLED-GOD-IS-CLASSICAL-GOD"
+label = "Sense bridge GOD_3 to GOD_4: whatever is called God is the God of classical theism"
+lean = "CalledGodIsClassicalGod"
+paraphrase = "OPEN sense bridge GOD_3 to GOD_4 (attribution deferred): whatever the speech community calls 'God' is the God of classical theism (IsGod). The 'but is it God?' objection to the five ways denies it."
+definitions = ["DEF-GOD-WHAT-ALL-UNDERSTAND", "DEF-GOD-OF-CLASSICAL-THEISM"]
+disambiguations = ["DISAMB-GOD"]
+
+[[statement]]
+id = "STMT-TERM-SENSE-FORKS-4-CONTROLS"
+label = "Finite models for the MUTABLE and GOD sense forks (mixed readings, omissions, nonvacuity)"
+lean = "TermSenseForks4Controls"
+paraphrase = "Finite interpretations for the mutability and God forks: per term, a model in which coverage holds, exclusivity fails, the two uses are read in different senses (succession MUTABLE_1 and boundary MUTABLE_2; naming GOD_1 and attributes GOD_4), every other premise of the joint theorem holds and its conclusion fails; a nonvacuity witness per joint theorem; a model in which both the MUTABLE_2 and MUTABLE_3 boundary statements hold, the sense bridge fails and STMT-LIFE-BOUNDARY-REQUIRES-POTENCY fails; a model in which the bridge holds without a boundary premise and the root node fails; a model in which the GOD_1 naming (analytic), the GOD_2 reduced naming and the GOD_3 usage naming hold, something meets the full description, and STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE fails; a model in which the GOD_3 bridge holds without the usage premise and the root premise fails; and a model in which every premise of GOD-EXISTS-FROM-MAXIME-ENS-CAUSING-ALL except the quarta via conclusion and excluded middle holds and nothing is God. Satisfiability and omission only; no model describes reality."
+definitions = ["DEF-ROUTE-SENSE-SELECTION", "DEF-POTENCY", "DEF-MUTABLE-THROUGH-ANOTHER", "DEF-MUTABLE-IN-SOME-WAY", "DEF-GOD-NOMINAL-Q13", "DEF-GOD-AS-NAMED-IN-THE-SUMMA", "DEF-GOD-WHAT-ALL-UNDERSTAND", "DEF-GOD-OF-CLASSICAL-THEISM"]
+disambiguations = ["DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER", "DISAMB-GOD"]
+
+# ---- Arguments: "mutable" ----
+
+[[argument]]
+id = "LIFE-BOUNDARY-POTENCY-THROUGH-ANOTHER"
+label = "MUTABLE_2: a life boundary requires potency, through another's power and a sense bridge"
+theorem = "lifeBoundaryPotencyThroughAnother"
+premises = ["STMT-LIFE-BOUNDARY-REQUIRES-POWER-IN-ANOTHER", "STMT-SUBJECT-OF-ANOTHERS-POWER-HAS-POTENCY"]
+conclusion = "STMT-LIFE-BOUNDARY-REQUIRES-POTENCY"
+strong_version_needed = { "STMT-LIFE-BOUNDARY-REQUIRES-POWER-IN-ANOTHER" = "This is the MUTABLE_2 branch of the fork and keeps its own boundary reading by design; the weaker MUTABLE_3 reading also suffices with the same bridge (LIFE-BOUNDARY-POTENCY-FROM-SOME-MUTABILITY)." }
+rule = "Hypothetical syllogism through the sense bridge"
+meaning = "MUTABLE_2 (THROUGH_ANOTHER) branch of the boundary use: whatever begins or ceases to live is in another being's power, and (explicit sense bridge) whatever is in another's power is in potency in itself; so whatever begins or ceases to live is in potency in itself in some respect, the root-route node. The controls give a model in which the MUTABLE_2 premise holds, the bridge fails and the node fails."
+
+[[argument]]
+id = "LIFE-BOUNDARY-POTENCY-FROM-SOME-MUTABILITY"
+label = "MUTABLE_3: a life boundary requires potency, from mutability in some way and a sense bridge"
+theorem = "lifeBoundaryPotencyFromSomeMutability"
+premises = ["STMT-LIFE-BOUNDARY-REQUIRES-SOME-MUTABILITY", "STMT-SUBJECT-OF-ANOTHERS-POWER-HAS-POTENCY"]
+conclusion = "STMT-LIFE-BOUNDARY-REQUIRES-POTENCY"
+rule = "Disjunction elimination; the second case through the sense bridge"
+meaning = "MUTABLE_3 (IN_SOME_WAY) branch of the boundary use, the reading closest to q.10 a.1: whatever begins or ceases to live is mutable in itself or through another. In the first case it is in potency in itself; in the second the explicit sense bridge gives potency in itself. So whatever begins or ceases to live is in potency in itself in some respect. The same omission model shows the bridge is needed."
+
+[[argument]]
+id = "LIFE-BOUNDARY-SOME-MUTABILITY-FROM-SUBJECT"
+label = "Strength order: the MUTABLE_1 boundary statement implies the MUTABLE_3 one"
+theorem = "lifeBoundarySomeMutabilityFromSubject"
+premises = ["STMT-LIFE-BOUNDARY-REQUIRES-POTENCY"]
+conclusion = "STMT-LIFE-BOUNDARY-REQUIRES-SOME-MUTABILITY"
+rule = "Disjunction introduction (left)"
+meaning = "Strength order between MUTABLE_1 and MUTABLE_3 in the boundary use: if whatever begins or ceases to live is in potency in itself, it is mutable in some way."
+
+[[argument]]
+id = "LIFE-BOUNDARY-SOME-MUTABILITY-FROM-ANOTHER"
+label = "Strength order: the MUTABLE_2 boundary statement implies the MUTABLE_3 one"
+theorem = "lifeBoundarySomeMutabilityFromAnother"
+premises = ["STMT-LIFE-BOUNDARY-REQUIRES-POWER-IN-ANOTHER"]
+conclusion = "STMT-LIFE-BOUNDARY-REQUIRES-SOME-MUTABILITY"
+rule = "Disjunction introduction (right)"
+meaning = "Strength order between MUTABLE_2 and MUTABLE_3 in the boundary use: if whatever begins or ceases to live is in another's power, it is mutable in some way."
+
+[[argument]]
+id = "MUTABILITY-SENSE-FORK-UNCHANGING-LIFE"
+label = "MUTABLE fork summary: immutable in one sense means no beginning, end or succession of life"
+theorem = "unchangingLifeByMutabilitySenseFork"
+premises = ["STMT-MUTABILITY-SENSES-EXHAUSTIVE", "STMT-MUTABILITY-SENSE-UNIQUE", "STMT-ROUTE-SUCCESSION-IS-MUTABILITY", "STMT-ROUTE-BOUNDARY-IS-MUTABILITY"]
+conclusion = "STMT-ROUTE-IMMUTABLE-HAS-UNCHANGING-LIFE"
+rule = "Uses agree from coverage and exclusivity; modus tollens on each use"
+meaning = "Optional summary over MUTABLE_1-3. Coverage reads both uses of 'in potency in some respect' in the eternity step (succession, boundary) in selected senses; exclusivity makes them one sense. So whatever is not mutable in that one sense has neither succession nor a beginning or end of life. The controls give the mixed reading (succession MUTABLE_1, boundary MUTABLE_2): a being with no potency in itself, in another's power, begins to live, and the conclusion fails."
+
+# ---- Arguments: "God" ----
+
+[[argument]]
+id = "NOMINAL-GOD-NAMING-IS-ANALYTIC"
+label = "GOD_1: the naming premise read nominally is analytic"
+theorem = "nominalGodNamesDescribedPrinciple"
+premises = []
+conclusion = "STMT-NOMINAL-GOD-NAMES-DESCRIBED-PRINCIPLE"
+rule = "Conjunction introduction"
+meaning = "GOD_1 (NOMINAL) branch of the naming use: read as what the name signifies, 'the fully described principle is God' needs no premise. Recorded as its own statement so that it cannot be taken for the GOD_4 root premise STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE, whose Lean declaration is generic in the God predicate."
+
+[[argument]]
+id = "NOMINAL-GOD-MAXIMALITY-IS-ANALYTIC"
+label = "GOD_1: 'God is maximal in being' read nominally is analytic"
+theorem = "nominalGodIsMaximalInBeing"
+premises = []
+conclusion = "STMT-NOMINAL-GOD-IS-MAXIMAL-IN-BEING"
+rule = "Conjunction elimination"
+meaning = "GOD_1 (NOMINAL) branch of the converse premise: read as what the name signifies, whatever is God is maximal in being, with no premise. Recorded as its own statement, distinct from the GOD_4 premise STMT-GOD-IS-MAXIMAL-IN-BEING."
+
+[[argument]]
+id = "GOD-NAMES-DESCRIBED-FROM-NOMINAL"
+label = "GOD_1 to root: the GOD_1-to-GOD_4 bridge gives the naming premise (transcription)"
+theorem = "godNamesDescribedFromNominal"
+premises = ["STMT-NOMINAL-GOD-IS-CLASSICAL-GOD"]
+conclusion = "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE"
+rule = "Modus ponens after conjunction introduction"
+meaning = "Transcription (single application): GOD_1 branch to the root premise. The naming premise in the NOMINAL sense is analytic, so all the content of the GOD_4 premise sits in the sense bridge: whatever meets the full nominal description is the God of classical theism. With NOMINAL-BRIDGE-FROM-GOD-NAMES the two are equivalent; the nominal reading adds no warrant."
+transcription = "single_application"
+
+[[argument]]
+id = "NOMINAL-BRIDGE-FROM-GOD-NAMES"
+label = "Converse: the GOD_4 naming premise gives the GOD_1-to-GOD_4 bridge (transcription)"
+theorem = "nominalBridgeFromGodNames"
+premises = ["STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE"]
+conclusion = "STMT-NOMINAL-GOD-IS-CLASSICAL-GOD"
+rule = "Conjunction elimination and modus ponens"
+meaning = "Transcription (single application): the converse of GOD-NAMES-DESCRIBED-FROM-NOMINAL. The GOD_4 naming premise gives the GOD_1 to GOD_4 bridge, so the two statements are equivalent."
+transcription = "single_application"
+
+[[argument]]
+id = "GOD-NAMES-DESCRIBED-FROM-SUMMA"
+label = "GOD_2: the reduced naming for the Summa's God and a GOD_2-to-GOD_4 bridge give the naming premise"
+theorem = "godNamesDescribedFromSumma"
+premises = ["STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS", "STMT-SUMMA-GOD-IS-CLASSICAL-GOD"]
+conclusion = "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE"
+strong_version_needed = { "STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS" = "The GOD_2 branch starts from the Summa's own naming premise, which exists only in the reduced form; the fuller naming instantiated at the Summa's God would suffice but no route records it for that parameter." }
+rule = "Weakening of the antecedent, then the sense bridge"
+meaning = "GOD_2 (SUMMA) branch of the naming use: the only maximum in being that causes the being of every other being is God in the Summa's sense (the reduced naming premise for the God parameter of the older stage-1 routes), and (explicit sense bridge) what the Summa calls God is the God of classical theism. So the fully described principle, which meets the reduced description, is the God of classical theism. The controls give a model with the reduced Summa naming and no classical God."
+
+[[argument]]
+id = "GOD-NAMES-DESCRIBED-FROM-USAGE"
+label = "GOD_3: usage naming and a GOD_3-to-GOD_4 bridge give the naming premise"
+theorem = "godNamesDescribedFromUsage"
+premises = ["STMT-DESCRIBED-PRINCIPLE-IS-CALLED-GOD", "STMT-CALLED-GOD-IS-CLASSICAL-GOD"]
+conclusion = "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE"
+rule = "Hypothetical syllogism through the sense bridge"
+meaning = "GOD_3 (USAGE) branch of the naming use: whatever meets the full description is called God, and (explicit sense bridge) whatever is called God is the God of classical theism. So the fully described principle is the God of classical theism. The controls give a model with usage naming and no classical God (bridge omitted) and one with the bridge and no usage (naming premise omitted)."
+
+[[argument]]
+id = "GOD-SENSE-FORK-DESCRIBED-PRINCIPLE-ATTRIBUTES"
+label = "GOD fork summary: the fully described principle has the classical attributes"
+theorem = "describedPrincipleAttributesByGodSenseFork"
+premises = ["STMT-GOD-SENSES-EXHAUSTIVE", "STMT-GOD-SENSE-UNIQUE", "STMT-ROUTE-NAMES-DESCRIBED-PRINCIPLE", "STMT-ROUTE-GOD-HAS-CLASSICAL-ATTRIBUTES"]
+conclusion = "STMT-DESCRIBED-PRINCIPLE-HAS-CLASSICAL-ATTRIBUTES"
+rule = "Uses agree from coverage and exclusivity; hypothetical syllogism"
+meaning = "Optional summary over GOD_1-4. Coverage reads both uses of 'God' on the designated root route (naming, attributes) in selected senses; exclusivity makes them one sense. So whatever meets the full description is God in that sense and has the classical attributes. The controls give the mixed reading (naming GOD_1, attributes GOD_4): the naming holds analytically, the described principle is not the classical God and lacks the attributes."
+
+[[argument]]
+id = "TERM-SENSE-FORKS-4-CONTROLS"
+label = "Controls for the MUTABLE and GOD sense forks"
+theorem = "termSenseForks4Controls"
+premises = []
+conclusion = "STMT-TERM-SENSE-FORKS-4-CONTROLS"
+rule = "Explicit finite interpretations"
+meaning = "Finite interpretations for the mutability and God forks: the mixed reading of each term with coverage and without exclusivity, with the joint conclusion failing; a nonvacuity witness per joint theorem; an omission model for the MUTABLE_2/MUTABLE_3 sense bridge and for the boundary premise; an omission model for the GOD_1, GOD_2 and GOD_3 sense bridges at once (their namings hold, the root premise fails) and for the GOD_3 usage premise; an omission model for the quarta via conclusion in GOD-EXISTS-FROM-MAXIME-ENS-CAUSING-ALL. Satisfiability and omission only; no model describes reality."
+
+# ---- The quarta via's own conclusion on the root route (#1237 connection plan) ----
+
+[[argument]]
+id = "GOD-EXISTS-FROM-MAXIME-ENS-CAUSING-ALL"
+label = "Stage 1 from the quarta via's conclusion: a MAXIME_1 being causing all being is God"
+theorem = "godExistsFromMaximeEnsCausingAll"
+premises = ["STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL", "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING", "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH", "STMT-EXCLUDED-MIDDLE", "STMT-CAUSE-OF-BEING-CAUSES-EVERY-PERFECTION", "STMT-NO-COMPONENT-IS-FIRST-BEING", "STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING", "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE"]
+conclusion = "STMT-GOD-EXISTS"
+rule = "Existential elimination; uniqueness by excluded middle and the cause-is-more-such principle; the fuller naming premise"
+meaning = "Stage 1 from the quarta via's own conclusion STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL (MAXIME_1: some being maximal in being causes being in every other being). That witness is the only maximal being: another maximal being has being, so the witness causes its being and (cause of a quality is more such) is more a being than it, contradicting its maximality; excluded middle decides identity. It causes every perfection of every other being (the cause of being causes every perfection; whatever is in act has being), and it is remote from all (it is the first being, and no component is). So the fuller naming premise applies and God exists. The quarta via's grades, approach, truth-to-being and genus premises of CATHOLICISM-STAGE1-FULL-DESCRIPTION-WITHOUT-MOTION are replaced by their conclusion. The controls give a model with the conclusion omitted, every other premise except excluded middle holding, and nothing God."
+
+[[argument]]
+id = "CATHOLICISM-FROM-MAXIME-ENS-CAUSING-ALL"
+label = "Catholicism from the quarta via's conclusion (MAXIME_1), the full naming and stages 2-6"
+theorem = "catholicismFromMaximeEnsCausingAll"
+premises = ["STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL", "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING", "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH", "STMT-EXCLUDED-MIDDLE", "STMT-CAUSE-OF-BEING-CAUSES-EVERY-PERFECTION", "STMT-NO-COMPONENT-IS-FIRST-BEING", "STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING", "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE", "STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES", "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE", "STMT-JESUS-CLAIMED-DIVINE-AUTHORITY-AND-ROSE", "STMT-CHRIST-FOUNDED-VISIBLE-CHURCH", "STMT-CHRISTS-CHURCH-IS-THE-CATHOLIC-CHURCH", "STMT-BRIDGE-CHRISTS-CHURCH-FOUNDED-BY-GOD", "STMT-BRIDGE-GOD-FOUNDED-AUTHORITY-PROPOSES-ONLY-TRUTH", "STMT-CATHOLIC-CHURCH-DEFINITIVELY-PROPOSES-CREED"]
+conclusion = "STMT-CATHOLICISM-TRUE"
+rule = "Composition of GOD-EXISTS-FROM-MAXIME-ENS-CAUSING-ALL with the case skeleton"
+meaning = "The root route CATHOLICISM-FROM-FULL-DESCRIPTION-WITHOUT-MOTION with its four quarta via premises (grades found in things, grades by approach to a maximum, most true is most being, the maximum in a genus causes all in it) replaced by their conclusion STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL, read in the MAXIME_1 sense (DISAMB-MAXIME-ENS). It connects the quarta via's own conclusion, and so the batch 3 per-sense layer MAXIME-ENS-CAUSES-ALL-AS-MAXIMAL, -AS-GREATEST-DEGREE and -AS-STRICTLY-GREATEST and the summary MAXIME-SENSE-FORK-CAUSES-BEING-OF-ALL, to the root. Conditional on all its premises; it establishes none of them."
+
+# ---- Relations ----
+
+[[relation]]
+id = "REL-LIFE-BOUNDARY-POTENCY-STRENGTHENS-SOME-MUTABILITY"
+label = "MUTABLE_1 boundary statement strengthens the MUTABLE_3 one"
+subject_kind = "statement"
+subject_id = "STMT-LIFE-BOUNDARY-REQUIRES-POTENCY"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "STMT-LIFE-BOUNDARY-REQUIRES-SOME-MUTABILITY"
+verification_result_id = "LIFE-BOUNDARY-SOME-MUTABILITY-FROM-SUBJECT"
+note = "Strength order between MUTABLE_1 and MUTABLE_3 in the boundary use. No strictness control; a being in another's power with no potency in itself that begins to live separates them (the bridge-omission control)."
+
+[[relation]]
+id = "REL-LIFE-BOUNDARY-ANOTHER-STRENGTHENS-SOME-MUTABILITY"
+label = "MUTABLE_2 boundary statement strengthens the MUTABLE_3 one"
+subject_kind = "statement"
+subject_id = "STMT-LIFE-BOUNDARY-REQUIRES-POWER-IN-ANOTHER"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "STMT-LIFE-BOUNDARY-REQUIRES-SOME-MUTABILITY"
+verification_result_id = "LIFE-BOUNDARY-SOME-MUTABILITY-FROM-ANOTHER"
+note = "Strength order between MUTABLE_2 and MUTABLE_3 in the boundary use."

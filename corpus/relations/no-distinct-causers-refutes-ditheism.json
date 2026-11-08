@@ -1,0 +1,11 @@
+{
+  "id": "e181f916-a49c-5c52-b43d-694f39d399b8",
+  "label": "Two NECESSARY_2 universal potential causers cannot be distinct (refutes modal ditheism)",
+  "legacy_id": "REL-NO-DISTINCT-CAUSERS-REFUTES-DITHEISM",
+  "subject_kind": "argument",
+  "subject_id": "0f65777e-50f8-57ea-86ac-362bd6ac4669",
+  "predicate": "refutes",
+  "object_kind": "statement",
+  "object_id": "93e1e13c-8a6b-5ec7-85af-9a5e64e6f086",
+  "note": "Conditional refutation: the existing verified result concludes NoDistinctNecessaryPotentialCausers, which is equivalent to the negation of STMT-MODAL-DITHEISM (MODAL-FORK-CONTROLS, RivalNegations). Its premises STMT-ACTUAL-MODAL-REFLEXIVITY and STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT are OPEN, so it does not count for closure. Not recorded as alternative_to a root premise: the route's uniqueness is God-uniqueness (IsTheOneGod), and no bridge identifies necessary universal potential causers with God."
+}

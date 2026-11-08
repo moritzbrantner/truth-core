@@ -6,6 +6,7 @@ pub mod dossier;
 pub mod frontier;
 pub mod identity;
 mod kernels;
+pub mod orphans;
 pub mod pyfmt;
 pub mod related;
 pub mod thickness;

@@ -1,0 +1,14 @@
+{
+  "id": "07521767-f2b9-5943-aa85-098ec0ba2698",
+  "label": "GOD_2: the reduced naming for the Summa's God and a GOD_2-to-GOD_4 bridge give the naming premise",
+  "legacy_id": "INF-GOD-NAMES-DESCRIBED-FROM-SUMMA",
+  "input_statement_ids": [
+    "e39a4fce-ccaf-5862-836e-9317923842f3",
+    "e165f4aa-e872-5e2f-8211-52d40df114cc"
+  ],
+  "output_statement_id": "1ec205ed-b2a6-5384-bb5f-2565a9d325bf",
+  "rule": "Weakening of the antecedent, then the sense bridge",
+  "meaning": "GOD_2 (SUMMA) branch of the naming use: the only maximum in being that causes the being of every other being is God in the Summa's sense (the reduced naming premise for the God parameter of the older stage-1 routes), and (explicit sense bridge) what the Summa calls God is the God of classical theism. So the fully described principle, which meets the reduced description, is the God of classical theism. The controls give a model with the reduced Summa naming and no classical God.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

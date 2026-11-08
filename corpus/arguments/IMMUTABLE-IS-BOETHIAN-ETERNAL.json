@@ -1,7 +1,5 @@
 {
   "id": "7cae15fe-4326-5572-9265-fa6a46588d73",
-  "label": "Whatever is in POTENCY_1 in no respect…, from Whatever is changed in any way is in some… and 2 more",
-  "legacy_id": "IMMUTABLE-IS-BOETHIAN-ETERNAL",
   "premise_statement_ids": [
     "ebccb272-1275-5558-948a-4485504229a0",
     "812b52b3-de7d-5982-93a9-e46b6e169616",
@@ -21,5 +19,10 @@
   "disambiguation_ids": [
     "508617ab-cf24-5f3b-a387-64b3991359ec",
     "557d8e44-4350-5031-81e3-ff6be5e30acc"
-  ]
+  ],
+  "strong_version_needed": {
+    "812b52b3-de7d-5982-93a9-e46b6e169616": "Its pure-act conclusion quantifies over potency in the subject (MUTABLE_1), so the boundary premise is needed in that sense; the weaker MUTABLE_3 reading STMT-LIFE-BOUNDARY-REQUIRES-SOME-MUTABILITY reaches it only with the open bridge STMT-SUBJECT-OF-ANOTHERS-POWER-HAS-POTENCY (LIFE-BOUNDARY-POTENCY-FROM-SOME-MUTABILITY; batch 4 of #1233)."
+  },
+  "label": "Whatever is in POTENCY_1 in no respect…, from Whatever is changed in any way is in some… and 2 more",
+  "legacy_id": "IMMUTABLE-IS-BOETHIAN-ETERNAL"
 }

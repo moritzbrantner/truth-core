@@ -72,6 +72,40 @@ class DisambiguationTest(unittest.TestCase):
             )
 
 
+class SenseForkTest(unittest.TestCase):
+    def test_fork_fields_resolve_and_bind_the_coverage_premise(self) -> None:
+        path = corpus.ROOT / "corpus" / "statements" / "example.json"
+        statements = {
+            "S-COVER": (path, {"id": "S-COVER", "disambiguation_ids": ["DISAMB-X"]}),
+            "S-UNIQUE": (path, {"id": "S-UNIQUE", "disambiguation_ids": ["DISAMB-X"]}),
+            "S-PLAIN": (path, {"id": "S-PLAIN"}),
+        }
+        arguments = {
+            "A": (path, {"id": "A", "premise_statement_ids": ["S-COVER"], "disambiguation_ids": ["DISAMB-X"]}),
+            "B": (path, {"id": "B", "premise_statement_ids": [], "disambiguation_ids": ["DISAMB-X"]}),
+        }
+        results = {"R": (path, {"id": "R", "argument_id": "A"}), "Q": (path, {"id": "Q", "argument_id": "B"})}
+        record = {
+            "id": "DISAMB-X",
+            "coverage_statement_id": "S-COVER",
+            "exclusivity_statement_id": "S-UNIQUE",
+            "fork_result_ids": ["R"],
+        }
+        corpus.validate_sense_fork(DISAMBIGUATION_PATH, record, statements, results, arguments)
+        corpus.validate_sense_fork(DISAMBIGUATION_PATH, {"id": "DISAMB-X"}, statements, results, arguments)
+        bad = (
+            {**record, "coverage_statement_id": "S-MISSING"},
+            {**record, "coverage_statement_id": "S-PLAIN"},
+            {**record, "exclusivity_statement_id": "S-COVER"},
+            {**record, "fork_result_ids": ["R-MISSING"]},
+            {**record, "fork_result_ids": ["Q"]},
+            {"id": "DISAMB-X", "fork_result_ids": ["R"]},
+        )
+        for fields in bad:
+            with self.subTest(fields=fields), self.assertRaises(corpus.CorpusError):
+                corpus.validate_sense_fork(DISAMBIGUATION_PATH, fields, statements, results, arguments)
+
+
 class ArgumentSensesTest(unittest.TestCase):
     def test_mixing_senses_requires_the_disambiguation(self) -> None:
         path = corpus.ROOT / "corpus" / "arguments" / "example.json"

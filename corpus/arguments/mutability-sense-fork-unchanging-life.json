@@ -1,0 +1,27 @@
+{
+  "id": "77c3850f-919b-5837-9399-85c34313f80c",
+  "label": "MUTABLE fork summary: immutable in one sense means no beginning, end or succession of life",
+  "legacy_id": "MUTABILITY-SENSE-FORK-UNCHANGING-LIFE",
+  "premise_statement_ids": [
+    "d6b23648-ef99-5a03-9562-f9a958a38a13",
+    "f823b76e-e134-5aef-96bf-6ecce2d984d3",
+    "f4028d4d-46a0-515f-99c6-e24b8fc47d6a",
+    "eb04a93e-1309-5129-8908-6718a3512fd6"
+  ],
+  "conclusion_statement_id": "4820b8c3-ac97-530b-8148-d9c8196b882a",
+  "inference_ids": [
+    "358ab9fe-c7d7-57e7-ae95-8ae6d2cf0a60"
+  ],
+  "meaning": "Optional summary over MUTABLE_1-3. Coverage reads both uses of 'in potency in some respect' in the eternity step (succession, boundary) in selected senses; exclusivity makes them one sense. So whatever is not mutable in that one sense has neither succession nor a beginning or end of life. The controls give the mixed reading (succession MUTABLE_1, boundary MUTABLE_2): a being with no potency in itself, in another's power, begins to live, and the conclusion fails.",
+  "definition_ids": [
+    "5e77da13-998f-56ab-96b7-12731ac95f70",
+    "42635e18-7288-5194-88b7-02dda6aa0477",
+    "63420c26-d66a-585c-899a-964a997f83eb",
+    "df39ed3e-20d4-5132-b6dd-b782b64f470d",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "52ac2160-9482-5e6a-9cfe-3e6f67482e5a"
+  ],
+  "disambiguation_ids": [
+    "557d8e44-4350-5031-81e3-ff6be5e30acc"
+  ]
+}

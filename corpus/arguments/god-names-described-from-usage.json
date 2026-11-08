@@ -1,0 +1,27 @@
+{
+  "id": "6379dc5e-fb0e-5d43-ad36-9cf08080598d",
+  "label": "GOD_3: usage naming and a GOD_3-to-GOD_4 bridge give the naming premise",
+  "legacy_id": "GOD-NAMES-DESCRIBED-FROM-USAGE",
+  "premise_statement_ids": [
+    "49542121-caa6-576e-aa84-3a1546397388",
+    "6d85b363-58ec-5a8a-9e20-58a93d188ea5"
+  ],
+  "conclusion_statement_id": "1ec205ed-b2a6-5384-bb5f-2565a9d325bf",
+  "inference_ids": [
+    "227aeadd-0c34-5236-9719-8fda7c4bb97a"
+  ],
+  "meaning": "GOD_3 (USAGE) branch of the naming use: whatever meets the full description is called God, and (explicit sense bridge) whatever is called God is the God of classical theism. So the fully described principle is the God of classical theism. The controls give a model with usage naming and no classical God (bridge omitted) and one with the bridge and no usage (naming premise omitted).",
+  "definition_ids": [
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "18945900-2de0-5040-bdab-26268f257684",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "e68a730e-ff16-5998-ac2b-f6f08728009b",
+    "a2a8de58-42e0-5481-b7fb-848ae8602036",
+    "16cf8319-84c7-5e24-9d18-5942b99c2e67",
+    "53b02c11-a28b-57c2-8d2e-7e013893db7e"
+  ],
+  "disambiguation_ids": [
+    "205a39c3-915d-5fe4-8076-a9ff91329e08",
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
+  ]
+}

@@ -808,12 +808,12 @@
       "path": "corpus/disambiguations/god.json",
       "status": "repaired",
       "classification": "intentional_abstraction",
-      "finding": "Existing sense separation retained. The selected result uses a single fixed vocabulary context and does not change sense across premises. The record constrains interpretation, not premise truth. Subsequent ALL migration: qualified the same-witness note to distinguish Q11-NATURE's explicit alternative uniqueness premises; original assembly sense unchanged.",
+      "finding": "Existing sense separation retained. The selected result uses a single fixed vocabulary context and does not change sense across premises. The record constrains interpretation, not premise truth. Subsequent ALL migration: qualified the same-witness note to distinguish Q11-NATURE's explicit alternative uniqueness premises; original assembly sense unchanged. Follow-up review (term sense forks, batch 4): the appended fork paragraph names GOD_1-4 and their declarations (NominalGod and CalledGod are new, only in TruthCore.Causality.TermSenseForks4) and records the equivocation hazard of the God-generic naming declarations; the audited results still instantiate God with the signature's IsGod, so no step here changes sense.",
       "before": {
         "sha256": "505abaa8a562b6a41bc0c21e89aa85696ac66ef5fdf7e3561720c0a8561932f2",
         "lean_declaration": null
       },
-      "reviewed_sha256": "fef87890616711d9813c0e544ad2cbe6ff9ce85090ac1ad18f8fa6e45e013ad9"
+      "reviewed_sha256": "4308a4b1ee26f0b52ffb5ccd695ad73d2b8bdb5b8d59b111bd2a2fbb09a4fc8d"
     },
     {
       "kind": "disambiguations",

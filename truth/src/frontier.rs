@@ -206,6 +206,9 @@ pub struct Frontier<'a> {
     argument_by_id: HashMap<&'a str, &'a Record>,
     result_by_id: HashMap<&'a str, &'a Record>,
     verified_arguments: HashSet<&'a str>,
+    /// Verified non-transcription arguments: the reaching-root walk enters a
+    /// routed conclusion through any of them (owner decision 2026-11-07).
+    sound_arguments: HashSet<&'a str>,
     kinds: BTreeMap<&'a str, (Value, bool)>,
     transcription_results: HashSet<&'a str>,
     verified_conclusions: HashSet<&'a str>,
@@ -308,12 +311,14 @@ impl<'a> Frontier<'a> {
         let transcription_results: HashSet<&str> = kinds.keys().copied().collect();
         let mut verified_conclusions = HashSet::new();
         let mut all_conclusions = HashSet::new();
+        let mut sound_arguments = HashSet::new();
         for result in &results {
             if let Some(argument) = argument_by_id.get(text(result, "argument_id")) {
                 let conclusion = text(argument, "conclusion_statement_id");
                 all_conclusions.insert(conclusion);
                 if !transcription_results.contains(text(result, "id")) {
                     verified_conclusions.insert(conclusion);
+                    sound_arguments.insert(text(argument, "id"));
                 }
             }
         }
@@ -423,6 +428,7 @@ impl<'a> Frontier<'a> {
             argument_by_id,
             result_by_id,
             verified_arguments,
+            sound_arguments,
             kinds,
             transcription_results,
             verified_conclusions,
@@ -1007,10 +1013,14 @@ impl<'a> Frontier<'a> {
                 if visited_arguments.insert(argument_id) {
                     seen_arguments.push(argument_id);
                 }
+                // root_route: a routed conclusion is entered through its
+                // designated arguments or any verified non-transcription one
+                // (owner decision 2026-11-07).
                 if self
                     .routes
                     .get(conclusion)
                     .is_some_and(|designated| !designated.contains(argument_id))
+                    && !self.sound_arguments.contains(argument_id)
                 {
                     continue;
                 }
@@ -1267,6 +1277,7 @@ impl<'a> Frontier<'a> {
                         .routes
                         .get(conclusion)
                         .is_some_and(|designated| !designated.contains(argument_id))
+                        && !self.sound_arguments.contains(*argument_id)
                     {
                         continue;
                     }

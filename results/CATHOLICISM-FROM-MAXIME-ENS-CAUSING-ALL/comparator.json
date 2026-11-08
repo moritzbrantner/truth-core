@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks4.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks4.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.TermSenseForks4.catholicismFromMaximeEnsCausingAll"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
