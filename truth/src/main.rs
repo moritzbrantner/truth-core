@@ -70,9 +70,21 @@ fn resolve(
     }
 }
 
+/// A command-line token as the uuid it names, trying `kinds` in order
+/// (Python `resolve_id`); an unknown token stays as given so the command
+/// reports it.
+fn resolve_in(aliases: &Aliases, token: &str, kinds: &[&str]) -> Result<String, (u8, Value)> {
+    for kind in kinds {
+        if let Some(id) = resolve(aliases, token, Some(&[kind]))? {
+            return Ok(id);
+        }
+    }
+    Ok(token.to_owned())
+}
+
 /// A statement token as its uuid; an unknown token stays as given.
 fn resolve_statement(aliases: &Aliases, token: String) -> Result<String, (u8, Value)> {
-    Ok(resolve(aliases, &token, Some(&["statements"]))?.unwrap_or(token))
+    resolve_in(aliases, &token, &["statements"])
 }
 
 #[derive(Default)]
@@ -231,17 +243,19 @@ fn frontier_command_output(
 fn frontier_diff_output(
     root: &std::path::Path,
     corpus: &Corpus,
+    aliases: &Aliases,
     frontier_root: &str,
     args: &FrontierArgs,
 ) -> Result<(Value, String), (u8, Value)> {
+    let legacy_root = aliases.legacy(frontier_root);
     let failed = |message: String| (1, json!({"code": "revision_error", "message": message}));
     let base_revision = args.base.as_deref().unwrap_or_default();
     let (base, base_engine) =
-        frontier::revision_frontier(root, base_revision, frontier_root).map_err(failed)?;
+        frontier::revision_frontier(root, base_revision, frontier_root, legacy_root)
+            .map_err(failed)?;
     let (head, head_engine) = match args.head.as_deref() {
-        Some(revision) => {
-            frontier::revision_frontier(root, revision, frontier_root).map_err(failed)?
-        }
+        Some(revision) => frontier::revision_frontier(root, revision, frontier_root, legacy_root)
+            .map_err(failed)?,
         None => (
             frontier::current_frontier(root, corpus, frontier_root, true, false),
             "rust",
@@ -603,7 +617,30 @@ fn run(args: &[OsString]) -> Result<(Value, Option<String>), (u8, Value)> {
                 json!({"code":error.code, "path":error.path, "message":error.message}),
             )
         })?;
-        return research_command(&root, &corpus, command, target, &research, &frontier_root);
+        let aliases = corpus.aliases();
+        let frontier_root = resolve_statement(&aliases, frontier_root)?;
+        let kinds: &[&str] = if command == "context" {
+            &["arguments", "results", "statements"]
+        } else {
+            &["statements"]
+        };
+        let target = target
+            .map(|token| resolve_in(&aliases, token, kinds))
+            .transpose()?;
+        let (output, text) = research_command(
+            &root,
+            &corpus,
+            command,
+            target.as_deref(),
+            &research,
+            &frontier_root,
+        )?;
+        // `dossier --all` is machine output, printed as is.
+        let text = match text {
+            Some(text) if !research.all => Some(aliases.humanize(&text)),
+            text => text,
+        };
+        return Ok((output, text));
     }
     let thickness = matches!(positional.as_slice(), ["thickness"]);
     let command = positional.first().copied().unwrap_or_default();
@@ -640,19 +677,20 @@ fn run(args: &[OsString]) -> Result<(Value, Option<String>), (u8, Value)> {
         )
     })?;
     let aliases = corpus.aliases();
+    let frontier_root = resolve_statement(&aliases, frontier_root)?;
     if thickness {
-        let frontier_root = resolve_statement(&aliases, frontier_root)?;
         let (output, text) = thickness_command(&root, &corpus, &frontier_root, queue);
         return Ok((output, Some(aliases.humanize(&text))));
     }
     if command == "frontier" {
         let (output, text) =
             frontier_command_output(&root, &corpus, &frontier_root, &frontier, machine);
-        return Ok((output, Some(text)));
+        return Ok((output, Some(aliases.humanize(&text))));
     }
     if command == "frontier-diff" {
-        let (output, text) = frontier_diff_output(&root, &corpus, &frontier_root, &frontier)?;
-        return Ok((output, Some(text)));
+        let (output, text) =
+            frontier_diff_output(&root, &corpus, &aliases, &frontier_root, &frontier)?;
+        return Ok((output, Some(aliases.humanize(&text))));
     }
     let mut output = json!({
         "schema_version": 1,

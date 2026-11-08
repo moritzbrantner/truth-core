@@ -676,6 +676,11 @@ impl Aliases {
         }
     }
 
+    /// The legacy id of `id`, or `id` itself (`Aliases.legacy`).
+    pub fn legacy<'a>(&'a self, id: &'a str) -> &'a str {
+        self.legacy_of.get(id).map_or(id, String::as_str)
+    }
+
     pub fn label(&self, id: &str) -> Option<&str> {
         self.label_of.get(id).map(String::as_str)
     }
