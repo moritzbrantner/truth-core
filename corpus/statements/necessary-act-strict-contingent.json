@@ -1,0 +1,14 @@
+{
+  "id": "STMT-NECESSARY-ACT-STRICT-CONTINGENT",
+  "label": "Some act done at every accessible world strictly yields an effect that is contingent",
+  "paraphrase": "Constraint candidate (#462, #555), analyst formulation: in some frame an act token is performed at every world accessible from w, is strictly efficacious for an effect x (x exists wherever the token is performed at an accessible world), and x is contingent at w (exists at w and is absent at some accessible world). A defender of a necessary, simple root and contingent creation who reads the root's act as strictly efficacious needs it; the first clause of STMT-SIMPLICITY-COLLAPSE-CORE is its exact negation.",
+  "lean_declaration": "TruthCore.Causality.ModalSenseSupport.NecessaryActStrictlyYieldsContingent",
+  "definition_ids": [
+    "DEF-SELECTED-EFFECT-OUTPUT-PROFILE",
+    "DEF-RIGID-ACT-STRICT-EFFICACY",
+    "DEF-KANT-MODAL-CONTINGENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY"
+  ]
+}

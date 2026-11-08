@@ -206,9 +206,11 @@ SCHEMA_INSTANCE_PREDICATE = "instance_of_schema"
 # (a) or (d) and is not walked (see `strength_order`).
 STRENGTHENS_PREDICATE = "strengthens"
 # Designated route (argument → statement; owner decision on #143, 2026-10-24):
-# when a statement has root_route relations, `frontier` walks up into it only
-# through the designated arguments, so premises of other arguments for the same
-# conclusion do not reach the root through it.
+# the headline route for reporting and comparisons (`frontier --routes` marks
+# it, `frontier-diff` reports it). Since the owner decision of 2026-11-07
+# ("reach the root via any verified route") a routed statement is also entered
+# through every verified non-transcription argument concluding it; only an
+# unverified or transcription argument for a routed statement is not walked.
 ROOT_ROUTE_PREDICATE = "root_route"
 DEFAULT_FRONTIER_ROOT = "STMT-CATHOLICISM-TRUE"
 # Stage conclusions of the root skeleton (#156; CATHOLICISM-SKELETON, docs/catholic-case.md).
@@ -909,6 +911,14 @@ def frontier_report(
         for result in results
         if result["argument_id"] in argument_by_id and result["id"] not in transcription_results
     }
+    # Verified non-transcription arguments: the reaching-root walk enters a
+    # routed conclusion through any of them, not only its designated route
+    # (owner decision 2026-11-07, superseding the 2026-10-24 walk rule).
+    sound_arguments = {
+        result["argument_id"]
+        for result in results
+        if result["argument_id"] in argument_by_id and result["id"] not in transcription_results
+    }
     transcription_only_conclusions = {
         argument_by_id[result["argument_id"]]["conclusion_statement_id"]
         for result in results
@@ -962,9 +972,9 @@ def frontier_report(
                 if argument_id not in visited_arguments:
                     visited_arguments.add(argument_id)
                     seen_arguments.append(argument_id)
-                # root_route: a routed conclusion is entered only through its
-                # designated arguments.
-                if conclusion in routes and argument_id not in routes[conclusion]:
+                # root_route: a routed conclusion is entered through its
+                # designated arguments or any verified non-transcription one.
+                if conclusion in routes and argument_id not in routes[conclusion] and argument_id not in sound_arguments:
                     continue
                 if conclusion not in visited_statements:
                     visited_statements.add(conclusion)
@@ -1357,7 +1367,8 @@ def frontier_report(
             item["floor_unmet"] = {"basis": entry["basis"], "reasons": entry["reasons"]}
     # Every statement whose `upward` walk reaches the root: the inverse walk from
     # the root through argument conclusions to their premises, entering a routed
-    # conclusion only through its designated arguments (root_route).
+    # conclusion through its designated arguments (root_route) or any verified
+    # non-transcription argument (owner decision 2026-11-07).
     reaching_root: set[str] = set()
     if root is not None and root in statement_by_id:
         concluding: dict[str, list[str]] = {}
@@ -1368,7 +1379,7 @@ def frontier_report(
         while pending:
             conclusion = pending.pop()
             for argument_id in concluding.get(conclusion, ()):
-                if conclusion in routes and argument_id not in routes[conclusion]:
+                if conclusion in routes and argument_id not in routes[conclusion] and argument_id not in sound_arguments:
                     continue
                 for premise in argument_by_id[argument_id]["premise_statement_ids"]:
                     if premise not in reaching_root:
@@ -2171,6 +2182,59 @@ def validate_disambiguation(
     validate_disambiguation_senses(path, disambiguation, all_lean)
 
 
+SENSE_FORK_FIELDS = ("coverage_statement_id", "exclusivity_statement_id", "fork_result_ids")
+
+
+def validate_sense_fork(
+    path: Path,
+    disambiguation: dict[str, Any],
+    statement_index: dict[str, tuple[Path, dict[str, Any]]],
+    result_index: dict[str, tuple[Path, dict[str, Any]]],
+    argument_index: dict[str, tuple[Path, dict[str, Any]]],
+) -> None:
+    """Optional certified sense fork of a disambiguation (docs/corpus-model.md).
+
+    `coverage_statement_id` states that the listed senses are all the relevant
+    ones; `exclusivity_statement_id` that exactly one applies to the use;
+    `fork_result_ids` are verified joint theorems by cases over the sense enum.
+    Each named statement links the disambiguation, and each fork result's
+    argument links it and takes the coverage statement as a premise.
+    """
+    relative = path.relative_to(ROOT)
+    disambiguation_id = disambiguation["id"]
+    for field in ("coverage_statement_id", "exclusivity_statement_id"):
+        if field not in disambiguation:
+            continue
+        statement_id = disambiguation[field]
+        if not isinstance(statement_id, str) or statement_id not in statement_index:
+            raise CorpusError(f"{relative}: {field} must name a known statement")
+        if disambiguation_id not in statement_index[statement_id][1].get("disambiguation_ids", []):
+            raise CorpusError(f"{relative}: {field} {statement_id} must link {disambiguation_id} in disambiguation_ids")
+    if (
+        "coverage_statement_id" in disambiguation
+        and disambiguation.get("exclusivity_statement_id") == disambiguation["coverage_statement_id"]
+    ):
+        raise CorpusError(f"{relative}: coverage and exclusivity must be distinct statements")
+    if "fork_result_ids" not in disambiguation:
+        return
+    fork_results = require_string_list(disambiguation, "fork_result_ids", path, allow_empty=False)
+    coverage = disambiguation.get("coverage_statement_id")
+    if coverage is None:
+        raise CorpusError(f"{relative}: fork_result_ids needs coverage_statement_id as the explicit coverage premise")
+    for result_id in fork_results:
+        if result_id not in result_index:
+            raise CorpusError(f"{relative}: unknown fork result id {result_id}")
+        result = result_index[result_id][1]
+        argument = argument_index.get(result.get("argument_id", ""), (None, {}))[1]
+        linked = disambiguation_id in argument.get("disambiguation_ids", []) or disambiguation_id in result.get(
+            "disambiguation_ids", []
+        )
+        if not linked:
+            raise CorpusError(f"{relative}: fork result {result_id} must link {disambiguation_id}")
+        if coverage not in argument.get("premise_statement_ids", []):
+            raise CorpusError(f"{relative}: fork result {result_id} must take {coverage} as a premise")
+
+
 PROSE_ID_RE = re.compile(r"\b(?:STMT|DEF|DISAMB)-[A-Z0-9]+(?:-[A-Z0-9]+)*\b")
 
 
@@ -2243,6 +2307,9 @@ UUID4_RE = re.compile(r"[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[
 TERM_LABEL_RE = re.compile(r"[A-Z][A-Z0-9_]*")
 SENSE_LABEL_RE = re.compile(r"[A-Z][A-Z0-9_]*_[1-9][0-9]*")
 SENSE_ALLOWLIST = Path("corpus") / "sense-index-allowlist.json"
+# A bridge is a premise relating two senses, or (owner decision 2026-11-08) the
+# argument's conclusion when the argument derives that relation.
+SENSE_BRIDGE_ROLES = ("premise", "conclusion")
 
 
 def is_uuid4(value: Any) -> bool:
@@ -2427,6 +2494,8 @@ def sense_mixing(
     by_id, by_definition = sense_index(disambiguations)
     mixing = []
     for path, argument in arguments:
+        if argument.get("sense_mixing_control") is True:
+            continue
         used = argument_term_senses(argument, statement_index, by_definition)
         for term in sorted(used):
             senses = used[term]
@@ -2454,16 +2523,30 @@ def validate_argument_sense_fields(
     if not isinstance(bridges, list):
         raise CorpusError(f"{where}: sense_bridges must be a list")
     for bridge in bridges:
-        if not isinstance(bridge, dict) or set(bridge) != {"term", "from", "to", "statement_id"}:
-            raise CorpusError(f"{where}: a sense bridge is {{term, from, to, statement_id}}")
+        if not isinstance(bridge, dict) or not (
+            {"term", "from", "to", "statement_id"} <= set(bridge) <= {"term", "from", "to", "statement_id", "role"}
+        ):
+            raise CorpusError(f"{where}: a sense bridge is {{term, from, to, statement_id[, role]}}")
+        if bridge.get("role", "premise") not in SENSE_BRIDGE_ROLES:
+            raise CorpusError(f"{where}: sense bridge role must be premise or conclusion")
         for end in ("from", "to"):
             sense = by_id.get(bridge[end])
             if sense is None or sense["term"] != bridge["term"]:
                 raise CorpusError(f"{where}: sense bridge {end} {bridge[end]!r} is not a sense of {bridge['term']!r}")
         if bridge["from"] == bridge["to"]:
             raise CorpusError(f"{where}: a sense bridge relates two different senses")
-        if bridge["statement_id"] not in premises:
+        if bridge.get("role", "premise") == "conclusion":
+            if bridge["statement_id"] != argument["conclusion_statement_id"]:
+                raise CorpusError(
+                    f"{where}: sense bridge statement {bridge['statement_id']} must be the conclusion (role conclusion)"
+                )
+        elif bridge["statement_id"] not in premises:
             raise CorpusError(f"{where}: sense bridge statement {bridge['statement_id']} must be a premise")
+    control = argument.get("sense_mixing_control")
+    if control is not None and (control is not True or premises):
+        raise CorpusError(
+            f"{where}: sense_mixing_control is true only on a premise-free control or countermodel argument"
+        )
     used = argument_term_senses(argument, statement_index, by_definition)
     declared = argument.get("term_senses", {})
     if not isinstance(declared, dict):
@@ -2477,7 +2560,7 @@ def validate_argument_sense_fields(
             raise CorpusError(f"{where}: term_senses gives {sense['label']} for {term}, but its statements use {labels}")
     for term in sorted(used):
         senses_used = used[term]
-        if len(senses_used) < 2 or bridged(term, senses_used, bridges):
+        if len(senses_used) < 2 or control is True or bridged(term, senses_used, bridges):
             continue
         if senses_used <= set(allowlist["arguments"].get(argument["id"], {}).get(term, [])):
             continue
@@ -2671,6 +2754,7 @@ def validate() -> dict[str, int]:
         validate_prose_ids(path, definition, ("definition", "note"), citable)
     for path, disambiguation in disambiguations:
         validate_disambiguation(path, disambiguation, definition_ids, all_lean)
+        validate_sense_fork(path, disambiguation, statement_index, result_index, argument_index)
         validate_prose_ids(path, disambiguation, ("resolution",), citable)
         used_definitions.update(disambiguation["sense_definition_ids"])
     senses = sense_index(disambiguations)
@@ -4616,7 +4700,12 @@ def command_bind_check(args: argparse.Namespace) -> int:
 # constants). The declared sense's constant must occur in some premise or the
 # conclusion, and no hypothesis or result may reach another sense constant of
 # the same term, except a hypothesis bound to a premise listed in
-# `sense_bridges` for that term. Separately, two senses of one disambiguation
+# `sense_bridges` for that term, and the result type when the conclusion is a
+# declared bridge (`role: "conclusion"`). Each premise or conclusion statement
+# that links the declared sense must reach that sense's constant in its own
+# bound type, so a declaration taking the sense predicate as a parameter cannot
+# be instantiated with another predicate. A `sense_mixing_control` argument is
+# exempt. Separately, two senses of one disambiguation
 # whose constants are aliases (a definition whose eta-reduced value is the other
 # constant) are an error. The heuristic can miss equivocation hidden behind an
 # opaque or axiomatized constant, and it reports a sense reached only through
@@ -4627,14 +4716,34 @@ def sense_bind_problems(
     described: dict[str, Any],
     statements: dict[str, dict[str, Any]],
     term_constants: dict[str, dict[str, str | None]],
+    definition_senses: dict[str, set[str]] | None = None,
+    binding: dict[str, Any] | None = None,
 ) -> list[dict[str, Any]]:
+    """Sense problems of one result (see the comment above).
+
+    `binding` is the result's `bind_result` entry: it says which hypothesis
+    each premise statement bound to. With it, every premise or conclusion
+    statement that links the declared sense (through `definition_senses`,
+    definition id -> sense ids) must reach that sense's constant in its own
+    bound Lean type. This catches a declaration that takes the sense predicate
+    as a parameter and is instantiated with another (say, trivial) predicate.
+    """
     problems: list[dict[str, Any]] = []
-    if "error" in described:
+    if "error" in described or argument.get("sense_mixing_control") is True:
         return problems
-    items = [(binder["name"], binder) for binder in described.get("binders", []) if binder.get("prop")]
+    binders = {binder["name"]: binder for binder in described.get("binders", []) if binder.get("prop")}
+    items = list(binders.items())
     items.append(("result", described.get("result", {})))
     if any("senses" not in item for _, item in items):
         return [{"kind": "sense-description-missing", "detail": "rerun scripts/BindTypes.lean with sense_theorems"}]
+    bound: list[tuple[str, str, dict[str, Any]]] = []
+    if binding is not None:
+        for entry in binding.get("premises", []):
+            name = str(entry.get("hypothesis", "")).split(".", 1)[0]
+            if name in binders:
+                bound.append((entry["statement_id"], entry["hypothesis"], binders[name]))
+        if binding.get("conclusion"):
+            bound.append((argument["conclusion_statement_id"], "result", items[-1][1]))
     for term, sense_id in sorted(argument.get("term_senses", {}).items()):
         constants = term_constants.get(term, {})
         declared = constants.get(sense_id)
@@ -4642,19 +4751,29 @@ def sense_bind_problems(
             problems.append({"kind": "sense-without-lean-declaration", "term": term, "sense_id": sense_id})
             continue
         others = {constant for sid, constant in constants.items() if sid != sense_id and constant and constant != declared}
+        bridges = [bridge for bridge in argument.get("sense_bridges", []) if bridge.get("term") == term]
         bridge_heads = {
             statements.get(bridge["statement_id"], {}).get("lean_declaration")
-            for bridge in argument.get("sense_bridges", []) if bridge.get("term") == term
+            for bridge in bridges if bridge.get("role", "premise") == "premise"
         } - {None}
+        conclusion_bridge = any(bridge.get("role") == "conclusion" for bridge in bridges)
         if not any(declared in item["senses"] for _, item in items):
             problems.append({"kind": "declared-sense-not-mentioned", "term": term, "constant": declared})
         for name, item in items:
+            if name == "result" and conclusion_bridge:
+                continue
             if name != "result" and item.get("head") in bridge_heads:
                 continue
             wrong = sorted(others & set(item["senses"]))
             if wrong:
                 problems.append({"kind": "other-sense-mentioned", "term": term, "where": name,
                                  "declared": declared, "constants": wrong})
+        for statement_id, where, item in bound:
+            links = set().union(*[(definition_senses or {}).get(d, set())
+                                  for d in statements.get(statement_id, {}).get("definition_ids", [])])
+            if sense_id in links and declared not in item["senses"]:
+                problems.append({"kind": "statement-sense-not-instantiated", "term": term,
+                                 "statement_id": statement_id, "where": where, "constant": declared})
     return problems
 
 
@@ -4665,9 +4784,11 @@ def add_sense_bind_problems(report: dict[str, Any], described_list: list[dict[st
     results = {record["id"]: record for _, record in load_dir("results")}
     disambiguations = [record for _, record in load_dir("disambiguations")]
     term_constants: dict[str, dict[str, str | None]] = {}
+    definition_senses: dict[str, set[str]] = {}
     for record in disambiguations:
         for sense in record.get("senses", []):
             term_constants.setdefault(record["term_label"], {})[sense["id"]] = sense.get("lean_declaration")
+            definition_senses.setdefault(sense["definition_id"], set()).add(sense["id"])
     by_theorem = {entry.get("theorem"): entry for entry in described_list if "theorem" in entry}
     for entry in report.get("results", []):
         result = results.get(entry["id"])
@@ -4677,7 +4798,7 @@ def add_sense_bind_problems(report: dict[str, Any], described_list: list[dict[st
         if not argument.get("term_senses"):
             continue
         problems = sense_bind_problems(result, argument, by_theorem.get(result["theorem"], {}), statements,
-                                       term_constants)
+                                       term_constants, definition_senses, entry)
         if problems:
             entry["problems"].extend(problems)
             entry["status"] = "mismatch"

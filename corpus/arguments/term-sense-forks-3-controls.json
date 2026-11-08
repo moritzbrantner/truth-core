@@ -18,5 +18,6 @@
   "disambiguation_ids": [
     "DISAMB-MAXIME-ENS",
     "DISAMB-POTENCY"
-  ]
+  ],
+  "sense_mixing_control": true
 }

@@ -118,6 +118,31 @@ class SenseBindTest(unittest.TestCase):
         self.assertEqual([p["kind"] for p in self.problems(described)], ["sense-description-missing"])
 
 
+class SenseBindRolesTest(SenseBindTest):
+    def test_conclusion_bridge_exempts_the_result(self) -> None:
+        argument = {"term_senses": {"PRIOR": S1}, "sense_bridges": [
+            {"term": "PRIOR", "from": S1, "to": S2, "statement_id": "STMT-C", "role": "conclusion"}]}
+        described = self.described(["N.PriorSimply"], ["N.PriorSimply", "N.PriorInTime"])
+        self.assertEqual(self.problems(described, argument), [])
+
+    def test_control_is_exempt(self) -> None:
+        argument = {"term_senses": {"PRIOR": S1}, "sense_mixing_control": True}
+        self.assertEqual(self.problems(self.described(["N.PriorInTime"], []), argument), [])
+
+    def test_parameter_instantiated_with_another_predicate(self) -> None:
+        # STMT-GOD links the PRIOR_1 sense, but its bound hypothesis instantiates
+        # the declaration's predicate parameter with a nominal predicate.
+        statements = {**self.STATEMENTS, "STMT-GOD": {"definition_ids": ["DS"]}}
+        described = self.described([], ["N.PriorSimply"])
+        binding = {"premises": [{"hypothesis": "h", "statement_id": "STMT-GOD"}], "conclusion": None}
+        problems = corpus.sense_bind_problems({"id": "R"}, {"term_senses": {"PRIOR": S1}}, described, statements,
+                                              self.CONSTANTS, {"DS": {S1}}, binding)
+        self.assertEqual([p["kind"] for p in problems], ["statement-sense-not-instantiated"])
+        described = self.described(["N.PriorSimply"], ["N.PriorSimply"])
+        self.assertEqual(corpus.sense_bind_problems({"id": "R"}, {"term_senses": {"PRIOR": S1}}, described,
+                                                    statements, self.CONSTANTS, {"DS": {S1}}, binding), [])
+
+
 class RatchetTest(unittest.TestCase):
     def test_flat_entries(self) -> None:
         data = {"arguments": {"A": {"PRIOR": [S1, S2]}}, "senses_without_lean_declaration": [S3]}

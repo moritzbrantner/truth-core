@@ -263,6 +263,27 @@ class TruthThicknessParity(unittest.TestCase):
             self.assertEqual(report["derivations"]["B"], [])
             self.assertEqual(report["derivations"]["A"], ["ARG-A"])
 
+    def test_orphans_real_corpus(self):
+        # Disconnected = verified results whose argument conclusion is not among
+        # the Python frontier's statements reaching the root.
+        frontier = corpus.current_frontier(corpus.DEFAULT_FRONTIER_ROOT, False, next_steps=False)
+        reaching = set(frontier["reaching_root_statements"])
+        arguments = {record["id"]: record for _, record in corpus.load_dir("arguments")}
+        expected = sorted(
+            result["id"] for _, result in corpus.load_dir("results")
+            if result.get("status") in ("solution-present", "verified")
+            and result["argument_id"] in arguments
+            and arguments[result["argument_id"]]["conclusion_statement_id"] not in reaching
+        )
+        report = json.loads(self.run_truth("--json", "orphans"))
+        actual = sorted(entry["result_id"] for group in report["groups"] for entry in group["results"])
+        self.assertEqual(actual, expected)
+        modal = next(group for group in report["groups"] if group["group"] == "TruthCore.Modal")
+        self.assertGreaterEqual(modal["result_count"], 40)
+        self.assertIn("Disconnected verified work", self.run_truth("orphans"))
+        senses = json.loads(self.run_truth("--json", "orphans", "--senses"))
+        self.assertEqual(senses["unforked_count"], len(senses["disambiguations"]))
+
     def test_usage(self):
         result = subprocess.run([self.binary, "--json", "--queue", "status"], cwd=corpus.ROOT,
                                 capture_output=True, text=True, check=False)
@@ -741,6 +762,9 @@ CHECK_FAILURES = {
                                              "note": "n"}),
     "stipulative definition without note": mutate("definitions", "DEF-Y", note=None),
     "prose cites unknown id": mutate("disambiguations", "DISAMB-T", resolution="see STMT-GHOST"),
+    "sense coverage statement does not link the term": mutate("disambiguations", "DISAMB-T",
+                                                              coverage_statement_id="STMT-A"),
+    "sense fork without coverage premise": mutate("disambiguations", "DISAMB-T", fork_result_ids=["RES-BC"]),
     "bad strengthens registration": mutate("relations", "REL-STR", verification_result_id="RES-BC"),
     "strengthens without note": mutate("relations", "REL-STR", note=" "),
     "duplicate strength registration": add("relations", {"id": "REL-STR-DUP", "subject_kind": "statement",
@@ -814,6 +838,10 @@ CHECK_FAILURES = {
     "sense bridge end not a sense of its term": bridge(to=SENSE_Z),
     "sense bridge relating one sense": bridge(to=SENSE_X),
     "sense bridge statement not a premise": bridge(statement_id="STMT-C"),
+    "sense bridge with an unknown role": bridge(role="lemma"),
+    "conclusion sense bridge naming a premise": bridge(role="conclusion"),
+    "sense_mixing_control on an argument with premises": mutate("arguments", "ARG-BC-OLD", sense_mixing_control=True),
+    "sense_mixing_control not true": mutate("arguments", "ARG-AB", sense_mixing_control="yes"),
     "term_senses not a map": mutate("arguments", "ARG-BC", term_senses=[SENSE_Y]),
     "term_senses names no sense of the term": mutate("arguments", "ARG-BC", term_senses={"T": "T_2"}),
     "term_senses names an unused sense": mutate("arguments", "ARG-AB", term_senses={"T": SENSE_Y}),
@@ -918,6 +946,24 @@ class TruthCheckParity(unittest.TestCase):
                              "1 pre-existing sense(s) have no distinct Lean declaration"):
                 self.assertIn(expected, warnings)
             self.assertNotIn("markAbstract", warnings)
+
+    def test_conclusion_bridge_and_control_are_accepted(self):
+        def change(records):
+            # ARG-BC derives STMT-C (T_2) from STMT-B (T_1): its conclusion is a declared bridge.
+            by_id(records, "arguments", "ARG-BC")["sense_bridges"] = [
+                {"term": "T", "from": SENSE_X, "to": SENSE_Y, "statement_id": "STMT-C", "role": "conclusion"}]
+            # A premise-free control mixing both senses is exempt, without an allowlist entry.
+            records["inferences"].append({"id": "INF-0C", "input_statement_ids": [], "assumption_statement_ids": [],
+                                          "discharged_statement_ids": [], "output_statement_id": "STMT-C",
+                                          "rule": "model", "meaning": "m"})
+            records["arguments"].append({"id": "ARG-CONTROL", "premise_statement_ids": [], "inference_ids": ["INF-0C"],
+                                         "conclusion_statement_id": "STMT-C", "meaning": "m",
+                                         "definition_ids": ["DEF-X"], "disambiguation_ids": ["DISAMB-T"],
+                                         "sense_mixing_control": True})
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            write_check_fixture(root, change)
+            self.assertTrue(self.assert_same(root).startswith("corpus ok: "))
 
     def test_uuid_identities_are_accepted(self):
         uuid = "44444444-4444-4444-8444-444444444444"

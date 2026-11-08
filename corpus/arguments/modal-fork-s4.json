@@ -1,0 +1,67 @@
+{
+  "id": "MODAL-FORK-S4",
+  "label": "NECESSARY_2 in S4 for the root, from the T and 4 schemas by correspondence",
+  "premise_statement_ids": [
+    "STMT-MODAL-STANDARD-CORRESPONDENCE-CERTIFICATE",
+    "STMT-MODAL-HIJK-CONVERGENCE-CERTIFICATE",
+    "STMT-NECESSARY-ROOT-BOX-K",
+    "STMT-ONTIC-T-SCHEMA",
+    "STMT-ONTIC-4-SCHEMA",
+    "STMT-INTENDED-BOX-S4"
+  ],
+  "conclusion_statement_id": "STMT-NECESSARY-ROOT-ON-INTENDED-READING",
+  "inference_ids": [
+    "INF-MODAL-FORK-S4"
+  ],
+  "meaning": "S4 branch of the 'necessary' sense fork with its frame condition derived: the K node, the OPEN T and 4 schemas on the route's frame and the OPEN reading premise (box-existence in S4, and only that) give the fork node. Reflexivity comes from the T correspondence (MODAL-STANDARD-CORRESPONDENCE-CERTIFICATE), transitivity from the 4 correspondence of the ConvergenceCertificate (MODAL-HIJK-CONVERGENCE-CERTIFICATE). Without the 4 schema the branch fails on a reflexive non-transitive chain (controls).",
+  "definition_ids": [
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-MODAL-EXACT-LENGTH-PATH",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-GRAPH-ONE-STEP-ADAPTER",
+    "DEF-MODAL-GRAPH-PATH-CLOSURE",
+    "DEF-MODAL-HIJK-CONVERGENCE",
+    "DEF-MODAL-STANDARD-T-D-CORRESPONDENCE",
+    "DEF-NECESSARY-IN-SENSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MODAL-EXACT-PATH-CLOSURE",
+    "DISAMB-MODAL-GRAPH-EDGE-PATH",
+    "DISAMB-NECESSARY"
+  ],
+  "strong_version_needed": {
+    "STMT-NECESSARY-ROOT-BOX-K": "The frame-class readings are box-existence of the same individual n. The de dicto node does not name n, and the tertia via node gives the box only with excluded middle, so neither weak version yields the frame-class node."
+  },
+  "sense_bridges": [
+    {
+      "term": "EXACT_PATH_LENGTH_VERSUS_ARBITRARY_FINITE",
+      "from": "31d49046-6462-400e-ab25-53b0a28a1163",
+      "to": "be0563ce-7fa6-4b32-a37c-c8a0bce739bf",
+      "statement_id": "STMT-MODAL-HIJK-CONVERGENCE-CERTIFICATE"
+    },
+    {
+      "term": "NECESSARY",
+      "from": "8c881fa6-2b9f-44be-a32a-c8ef29c13643",
+      "to": "7af298fb-a2c4-4239-919b-7685f2e1f67a",
+      "statement_id": "STMT-NECESSARY-ROOT-BOX-K"
+    },
+    {
+      "term": "NECESSARY",
+      "from": "8c881fa6-2b9f-44be-a32a-c8ef29c13643",
+      "to": "7af298fb-a2c4-4239-919b-7685f2e1f67a",
+      "statement_id": "STMT-ONTIC-T-SCHEMA"
+    },
+    {
+      "term": "NECESSARY",
+      "from": "8c881fa6-2b9f-44be-a32a-c8ef29c13643",
+      "to": "7af298fb-a2c4-4239-919b-7685f2e1f67a",
+      "statement_id": "STMT-ONTIC-4-SCHEMA"
+    },
+    {
+      "term": "ONE_STEP_ACCESSIBILITY_EDGE_FINITE_PATH",
+      "from": "9388f01b-4918-4472-97c3-93e1b897c38c",
+      "to": "a743d896-ff15-430d-9ec6-dbbf98ef6328",
+      "statement_id": "STMT-MODAL-HIJK-CONVERGENCE-CERTIFICATE"
+    }
+  ]
+}

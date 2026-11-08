@@ -5,6 +5,7 @@ pub mod context;
 pub mod dossier;
 pub mod frontier;
 mod kernels;
+pub mod orphans;
 pub mod pyfmt;
 pub mod related;
 pub mod senses;

@@ -1,0 +1,19 @@
+{
+  "id": "MODAL-FORK-CONTROLS",
+  "label": "Finite models for the modal-principle branches of the NECESSARY_2 sense fork",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-MODAL-FORK-CONTROLS",
+  "inference_ids": [
+    "INF-MODAL-FORK-CONTROLS"
+  ],
+  "meaning": "Nonvacuity on a one-point universal frame (the four schemas are valid there by the existing correspondence proofs), one omission model per load-bearing premise of the four branches (T, 4, B and 5 schemas, reading choice, K node), and the exact negations of the two recorded rivals. Formal only; no model describes reality. Frames are hand-written (Bool, Nat, Unit), no Mathlib order instance.",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-HIJK-CONVERGENCE",
+    "DEF-MODAL-STANDARD-T-D-CORRESPONDENCE",
+    "DEF-NECESSARY-IN-SENSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY"
+  ]
+}

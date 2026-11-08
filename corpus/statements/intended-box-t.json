@@ -1,0 +1,12 @@
+{
+  "id": "STMT-INTENDED-BOX-T",
+  "label": "The route's 'necessary being' is read as NECESSARY_2 in frame class KT, and only so",
+  "paraphrase": "OPEN reading premise, attribution deferred: the route's intended reading of 'necessary being' is exactly box-existence in frame class KT (sense boxT of the fork): that sense is intended and no other enumerated sense is. It combines the fork's coverage and exclusivity premises for this one sense.",
+  "lean_declaration": "TruthCore.Causality.ModalSenseSupport.IntendedIsBoxT",
+  "definition_ids": [
+    "DEF-NECESSARY-IN-SENSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY"
+  ]
+}

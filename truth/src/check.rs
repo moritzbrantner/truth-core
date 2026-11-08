@@ -2153,6 +2153,74 @@ fn validate_bindings(root: &Path, sources: &[Record], claims: &[Record]) -> Res<
 // ---------------------------------------------------------------------------
 // validate()
 
+/// Python `validate_sense_fork`: the optional certified sense fork of a
+/// disambiguation (`docs/corpus-model.md`, "Sense forks").
+fn validate_sense_fork(
+    path: &str,
+    fields: &Obj,
+    statements: &HashMap<&str, &Obj>,
+    results: &HashMap<&str, &Obj>,
+    arguments: &HashMap<&str, &Obj>,
+) -> Res<()> {
+    let id = text(fields, "id");
+    for field in ["coverage_statement_id", "exclusivity_statement_id"] {
+        let Some(value) = fields.get(field) else {
+            continue;
+        };
+        let statement = value.as_str().and_then(|statement_id| {
+            statements
+                .get(statement_id)
+                .map(|record| (statement_id, record))
+        });
+        let Some((statement_id, record)) = statement else {
+            return Err(format!("{path}: {field} must name a known statement"));
+        };
+        if !strings(record, "disambiguation_ids").contains(&id) {
+            return Err(format!(
+                "{path}: {field} {statement_id} must link {id} in disambiguation_ids"
+            ));
+        }
+    }
+    if let Some(coverage) = fields.get("coverage_statement_id")
+        && fields.get("exclusivity_statement_id") == Some(coverage)
+    {
+        return Err(format!(
+            "{path}: coverage and exclusivity must be distinct statements"
+        ));
+    }
+    if !fields.contains_key("fork_result_ids") {
+        return Ok(());
+    }
+    let fork_results = require_string_list(fields, "fork_result_ids", path, false)?;
+    let Some(coverage) = fields.get("coverage_statement_id").and_then(Value::as_str) else {
+        return Err(format!(
+            "{path}: fork_result_ids needs coverage_statement_id as the explicit coverage premise"
+        ));
+    };
+    for result_id in fork_results {
+        let Some(result) = results.get(result_id) else {
+            return Err(format!("{path}: unknown fork result id {result_id}"));
+        };
+        let argument = arguments.get(text(result, "argument_id"));
+        let argument_list = |field: &str| {
+            argument
+                .map(|argument| strings(argument, field))
+                .unwrap_or_default()
+        };
+        if !argument_list("disambiguation_ids").contains(&id)
+            && !strings(result, "disambiguation_ids").contains(&id)
+        {
+            return Err(format!("{path}: fork result {result_id} must link {id}"));
+        }
+        if !argument_list("premise_statement_ids").contains(&coverage) {
+            return Err(format!(
+                "{path}: fork result {result_id} must take {coverage} as a premise"
+            ));
+        }
+    }
+    Ok(())
+}
+
 fn ids_of(records: &[Record]) -> HashMap<&str, &Obj> {
     records
         .iter()
@@ -2426,6 +2494,13 @@ fn validate(
             }
         }
         validate_disambiguation_senses(path, fields, &lean)?;
+        validate_sense_fork(
+            path,
+            fields,
+            &statement_by_id,
+            &result_by_id,
+            &argument_by_id,
+        )?;
         validate_prose_ids(path, fields, &["resolution"], &citable)?;
         used_definitions.extend(senses);
     }
@@ -3711,11 +3786,24 @@ fn validate_argument_sense_fields(
         Some(_) => return Err(format!("{path}: sense_bridges must be a list")),
     };
     for bridge in bridges {
-        if !has_exact_keys(bridge, &["term", "from", "to", "statement_id"]) {
+        if !has_exact_keys(bridge, &["term", "from", "to", "statement_id"])
+            && !has_exact_keys(bridge, &["term", "from", "to", "statement_id", "role"])
+        {
             return Err(format!(
-                "{path}: a sense bridge is {{term, from, to, statement_id}}"
+                "{path}: a sense bridge is {{term, from, to, statement_id[, role]}}"
             ));
         }
+        let role = match bridge.get("role") {
+            None => Some("premise"),
+            Some(role) => role
+                .as_str()
+                .filter(|role| matches!(*role, "premise" | "conclusion")),
+        };
+        let Some(role) = role else {
+            return Err(format!(
+                "{path}: sense bridge role must be premise or conclusion"
+            ));
+        };
         for end in ["from", "to"] {
             let sense = bridge[end].as_str().and_then(|id| index.by_id.get(id));
             if !sense.is_some_and(|sense| Some(sense.term.as_str()) == bridge["term"].as_str()) {
@@ -3731,7 +3819,14 @@ fn validate_argument_sense_fields(
                 "{path}: a sense bridge relates two different senses"
             ));
         }
-        if !bridge["statement_id"]
+        if role == "conclusion" {
+            if bridge["statement_id"].as_str() != string(argument, "conclusion_statement_id") {
+                return Err(format!(
+                    "{path}: sense bridge statement {} must be the conclusion (role conclusion)",
+                    py_str(Some(&bridge["statement_id"]))
+                ));
+            }
+        } else if !bridge["statement_id"]
             .as_str()
             .is_some_and(|sid| premises.contains(sid))
         {
@@ -3741,6 +3836,15 @@ fn validate_argument_sense_fields(
             ));
         }
     }
+    let control = get(argument, "sense_mixing_control");
+    if let Some(control) = control
+        && (control != &Value::Bool(true) || !premises.is_empty())
+    {
+        return Err(format!(
+            "{path}: sense_mixing_control is true only on a premise-free control or countermodel argument"
+        ));
+    }
+    let control = control == Some(&Value::Bool(true));
     let used = argument_term_senses(argument, statements, index);
     let empty_map = Map::new();
     let declared = match argument.get("term_senses") {
@@ -3770,7 +3874,7 @@ fn validate_argument_sense_fields(
     }
     let allowed = allowlist.arguments.get(text(argument, "id"));
     for (term, senses) in &used {
-        if senses.len() < 2 || bridged(term, senses, bridges) {
+        if senses.len() < 2 || control || bridged(term, senses, bridges) {
             continue;
         }
         if allowed
@@ -3844,6 +3948,9 @@ fn sense_mixing_warnings(loaded: &Loaded) -> Vec<String> {
     let (mut arguments, mut uses) = (HashSet::new(), 0);
     for argument in &loaded.arguments {
         let fields = &argument.fields;
+        if fields.get("sense_mixing_control") == Some(&Value::Bool(true)) {
+            continue;
+        }
         let bridges = fields
             .get("sense_bridges")
             .and_then(Value::as_array)

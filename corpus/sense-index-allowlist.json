@@ -3788,13 +3788,6 @@
         "919ce0ce-4774-48d7-aeb8-464cb1468460"
       ]
     },
-    "GREATEST-IN-BEING-MAXIMAL-FROM-DEGREE-TRACKING": {
-      "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST": [
-        "230f0729-018b-48e4-a148-3fe610dc2995",
-        "517baa9d-7981-4e2a-bdae-045467cb29fc",
-        "9bea9a43-3a87-4d62-86de-e5873aea62f8"
-      ]
-    },
     "GROUNDING-IDENTITY-PROFILE": {
       "SAME_BEING_ACROSS_WORLDS": [
         "70acfd54-f4d1-42d3-a63a-95dc865f62a6",
@@ -4489,12 +4482,6 @@
         "517baa9d-7981-4e2a-bdae-045467cb29fc",
         "9bea9a43-3a87-4d62-86de-e5873aea62f8",
         "a833bcdb-8e99-4079-8cb6-fc1295eb690f"
-      ]
-    },
-    "MAXIMAL-IN-BEING-STRICT-FROM-CONNECTEDNESS": {
-      "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST": [
-        "9bea9a43-3a87-4d62-86de-e5873aea62f8",
-        "ac4c2702-e178-4c52-bd6d-e33685875cdf"
       ]
     },
     "MAXIMAL-TO-GREATEST-FROM-BOTH-CALIBRATIONS": {
@@ -9420,12 +9407,6 @@
         "9232f675-db0a-474c-9f00-d8e5aba69ef7"
       ]
     },
-    "STRICTLY-GREATEST-MAXIMAL-FROM-ASYMMETRY": {
-      "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST": [
-        "9bea9a43-3a87-4d62-86de-e5873aea62f8",
-        "ac4c2702-e178-4c52-bd6d-e33685875cdf"
-      ]
-    },
     "STRONG-FROM-COMPLEMENTATION": {
       "REMAINDER": [
         "9a4ea629-3fdf-4f84-9f39-d4ceb7e57564",
@@ -9631,23 +9612,6 @@
         "222737e9-83c1-44b3-b7ef-361d7a1389cd",
         "66c26d09-e766-4641-89af-481fbb5add78",
         "7c82a2d0-0bab-4617-bd8c-935c38571767"
-      ]
-    },
-    "TERM-SENSE-FORKS-2-CONTROLS": {
-      "IN_ACT": [
-        "11162ab5-08ee-44a2-aa1c-c6ffd1c76fd4",
-        "7b3e570e-7557-402d-95ac-f33ebcefa0ca"
-      ]
-    },
-    "TERM-SENSE-FORKS-3-CONTROLS": {
-      "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST": [
-        "517baa9d-7981-4e2a-bdae-045467cb29fc",
-        "9bea9a43-3a87-4d62-86de-e5873aea62f8",
-        "ac4c2702-e178-4c52-bd6d-e33685875cdf"
-      ],
-      "POTENCY_CAPACITY_AND_POWER_ACROSS_ADOPTED": [
-        "02e3f1d0-4ba1-498f-b34d-40bdd348d8c4",
-        "5252f7f4-95a7-42f3-a420-23770702a0f4"
       ]
     },
     "TERTIA-VIA-NECESSARY-PER-SE-IS-MAXIME-ENS": {

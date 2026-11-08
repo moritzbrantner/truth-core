@@ -1,0 +1,11 @@
+{
+  "id": "MODAL-FORK-KTB",
+  "label": "NECESSARY_2 in KTB for the root, from the T and B schemas by correspondence",
+  "argument_id": "MODAL-FORK-KTB",
+  "challenge_module": "TruthCore.Results.Causality.ModalSenseSupport.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ModalSenseSupport.Solution",
+  "theorem": "TruthCore.Results.Causality.ModalSenseSupport.forkKTB",
+  "comparator_config": "results/MODAL-FORK-KTB/comparator.json",
+  "status": "solution-present",
+  "description": "KTB branch of the 'necessary' sense fork with its frame condition derived: the K node, the OPEN T and B schemas and the OPEN reading premise (box-existence in KTB, and only that) give the fork node. Reflexivity from the T correspondence, symmetry from the B correspondence of the ConvergenceCertificate. Without the B schema the branch fails on the two-world order false <= true (controls)."
+}
