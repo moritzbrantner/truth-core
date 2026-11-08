@@ -73,6 +73,7 @@ public import TruthCore.Results.Causality.ConstitutiveNatureUniqueness.Solution
 public import TruthCore.Results.Causality.ContingentAncestry.Solution
 public import TruthCore.Results.Causality.ContingentAtomicity.Solution
 public import TruthCore.Results.Causality.ContingentBeingNode.Solution
+public import TruthCore.Results.Causality.ContingentBeingNodeReconciled.Solution
 public import TruthCore.Results.Causality.ContingentTotalityCause.Solution
 public import TruthCore.Results.Causality.ConvergentZenoSchedule.Solution
 public import TruthCore.Results.Causality.CountCauseTimeNecessity.Solution

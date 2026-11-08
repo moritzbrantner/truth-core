@@ -3,10 +3,10 @@
   "label": "S5 sense: a CONTINGENT_1 actual being excludes possible collapse, by the T and 5 schemas and S5 law",
   "legacy_id": "NO-POSS-COLLAPSE-S5",
   "argument_id": "3afa8ec7-acb3-5414-af52-bdbad5caa26a",
-  "challenge_module": "TruthCore.Results.Causality.ContingentBeingNode.Challenge",
-  "solution_module": "TruthCore.Results.Causality.ContingentBeingNode.Solution",
-  "theorem": "TruthCore.Results.Causality.ContingentBeingNode.notPossiblyCollapsedS5",
+  "challenge_module": "TruthCore.Results.Causality.ContingentBeingNodeReconciled.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ContingentBeingNodeReconciled.Solution",
+  "theorem": "TruthCore.Results.Causality.ContingentBeingNodeReconciled.notPossiblyCollapsedS5",
   "comparator_config": "results/NO-POSS-COLLAPSE-S5/comparator.json",
   "status": "solution-present",
-  "description": "S5 reading of NECESSARY_2. The OPEN T and 5 schemas give a reflexive Euclidean (S5) frame by the T and 5 correspondences; by the verified S5 law (MODAL-S5-LAWS) possible collapse at w leaves no proposition contingent at w (possibly true and possibly false). The existence of the node's witness is such a proposition: true at w, which w accesses, and false at the accessible world lacking it. Without the 5 schema the rival, the node and the T schema hold together (false-le-true frame); without the node the rival holds."
+  "description": "S5 reading of NECESSARY_2. The OPEN T and 5 schemas give a reflexive Euclidean (S5) frame by the T and 5 correspondences; by the verified S5 law (MODAL-S5-LAWS) possible collapse at w leaves no proposition contingent at w (possibly true and possibly false). The existence of the node's witness is such a proposition: true at w, which w accesses, and false at the accessible world lacking it. Without the 5 schema the rival, the node and the T schema hold together (false-le-true frame); without the node the rival holds. Reconciled interface: closed modal laws and correspondence certificates are imported and applied as verified theorems, not retained as assumptions; only the displayed node and frame schemas remain premises."
 }

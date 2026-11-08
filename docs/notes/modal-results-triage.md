@@ -192,3 +192,27 @@ rival (`RivalNegations`).
 | D | `RETAINED-DUTY-TEMPORAL-CORE` | `STMT-CONFIGURATION-FALSE` | Off-case: ought-implies-can and retained duties (Carneades deontology). Deontic modality over plans; no node of the Catholicism case uses it. A connection would need a moral-argument route that the case does not have. |
 | D | `RETAINED-DUTY-TRANSFER` (single_application) | `STMT-RETAINED-DUTY-PRESENT-DUTY` | Off-case: ought-implies-can and retained duties (Carneades deontology). Deontic modality over plans; no node of the Catholicism case uses it. A connection would need a moral-argument route that the case does not have. |
 | D | `RETAINED-DUTY-UNIVERSAL-TO-LOCAL` (single_application) | `STMT-RETAINED-DUTY-LOCAL-OIC` | Off-case: ought-implies-can and retained duties (Carneades deontology). Deontic modality over plans; no node of the Catholicism case uses it. A connection would need a moral-argument route that the case does not have. |
+
+### Current-main reconciliation of #1241 (2026-11-08)
+
+The old frozen Challenge is retained unchanged. Five revised interfaces in
+`TruthCore/Results/Causality/ContingentBeingNodeReconciled/` consume the existing
+closed K/T/B/S5 and correspondence theorems directly. Only the contingency node
+and applicable T/B/5 schemas remain hypotheses; the original law bundles are
+no longer philosophical assumptions. Their unused definitions previously
+triggered current-main sense mixing. The T/B schema premises explicitly bind
+the fixture frame (NECESSARY_11) to the route's individual box-existence
+(NECESSARY_2), recorded as sense bridges; no different metaphysical necessity
+is inferred. The original controls still witness the omission and nonvacuity
+claims. This revision does not establish the node, any schema, or God's existence.
+
+Claim/type self-sweep: revised K and strict-act results each assume only the
+node; T assumes T plus node; B assumes B plus node; S5 assumes T, 5 plus node.
+Conclusions and carriers are unchanged. Imported closed certificates supply
+all omitted mathematical hypotheses. Their approved Mathlib dependencies are
+now visible in the revised closed terms (permitted axioms: propext,
+Classical.choice, Quot.sound); the initial zero-axiom Comparator correctly
+rejected propext before this policy correction. The fixed Challenge is generated before
+proof completion; the original Challenge is not weakened. All five revised
+interfaces build and bind (5 bound, 0 mismatch); final Comparator/NanoDa and CI
+are required before merge. Specs are split by original/reconciled interfaces.

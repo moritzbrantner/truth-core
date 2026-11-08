@@ -3,29 +3,20 @@
   "label": "K sense: a CONTINGENT_1 actual being excludes actual modal collapse, by the K collapse law",
   "legacy_id": "NO-COLLAPSE-K",
   "premise_statement_ids": [
-    "0d0b6e3c-6207-5284-bf0b-7dce386ba347",
     "c94b5446-e7e7-5b36-9bed-288959725526"
   ],
   "conclusion_statement_id": "185ce448-0297-51f9-95f6-e272dba93156",
   "inference_ids": [
     "a38bb797-ece4-548b-9d6b-1095c7f1ce47"
   ],
-  "meaning": "Frame class K (no frame condition). By the verified K collapse law (MODAL-K-LAWS), full collapse at w on the route's frame holds exactly when every world accessible from w is w. The node gives an accessible world lacking its witness; under collapse that world is w, where the witness exists. So the route's world is not collapsed. Without the node collapse holds (one-world frame).",
+  "meaning": "Frame class K (no frame condition). By the verified K collapse law (MODAL-K-LAWS), full collapse at w on the route's frame holds exactly when every world accessible from w is w. The node gives an accessible world lacking its witness; under collapse that world is w, where the witness exists. So the route's world is not collapsed. Without the node collapse holds (one-world frame). Reconciled interface: closed modal laws and correspondence certificates are imported and applied as verified theorems, not retained as assumptions; only the displayed node and frame schemas remain premises.",
   "definition_ids": [
     "008cb21a-256c-5a90-822c-acd4591d699a",
-    "09d51a0b-d02f-5fb4-97db-3b6a4aa3a138",
     "1b8baf77-84fa-5513-a138-7fa14840dd87",
     "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
     "beb654a7-e204-5f4c-a7b4-45e886ba7109",
-    "a3baafe5-b951-5752-ab70-25f03144e8f5",
-    "a315ea74-8cb6-57a6-ab40-17265bbe1ce7",
-    "6d8a58a6-97f4-57f7-824f-c1c2c5d08d6c",
-    "f57a0812-732f-5680-9711-9ab440869861",
     "f8948e28-b13a-5244-95f1-41a05cd4fff2",
-    "d24cc01a-d6c5-5a1d-bdde-989511bbd1b7",
-    "f9a77a01-4dcf-5a1d-9bf7-a45a466ce504",
-    "2a081357-c3f9-5ca0-a4b6-604f47258175",
-    "5e61ee7e-61d1-580b-89a9-f812e01b15ea"
+    "f9a77a01-4dcf-5a1d-9bf7-a45a466ce504"
   ],
   "disambiguation_ids": [
     "623ddbf6-9683-5361-bae4-e348a00ec680",

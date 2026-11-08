@@ -1,6 +1,6 @@
 {
   "id": "c94b5446-e7e7-5b36-9bed-288959725526",
-  "label": "Some actual concrete being is CONTINGENT_1 (exists at w, absent at some accessible world)",
+  "label": "Some actual CONCRETE_AND_ABSTRACT_6 being is CONTINGENT_1",
   "legacy_id": "STMT-SOME-ACTUAL-CONTINGENT",
   "paraphrase": "OPEN premise, analyst formulation, attribution deferred: on the route's profile, some concrete individual exists at the selected world w and is absent at some world accessible from w (CONTINGENT_1, ContingentAt: accessible non-existence, not empirical change, CONTINGENT_2). It does not say which being is contingent, that the Cogito bearer is, that it is caused, or that every being other than the root is contingent. It implies STMT-COGITO-INHABITED-CONCRETE-WORLD and excludes concrete necessitarianism (STMT-ALL-ACTUAL-CONCRETE-NECESSARY) on the same frame; the converse of that exclusion needs excluded middle.",
   "lean_declaration": "TruthCore.Causality.ContingentBeingNode.SomeActualContingentAt",

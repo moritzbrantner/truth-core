@@ -1,18 +1,15 @@
 {
   "id": "3589a785-a4a6-5d21-bb5c-ee8b606e4c2c",
-  "label": "Modal collapse holds at no world accessible from the route's world, by Theorem application… (2)",
+  "label": "Modal collapse holds at no world accessible from the route's world, by Theorem application\u2026 (2)",
   "legacy_id": "INF-NO-POSS-COLLAPSE-S5",
   "input_statement_ids": [
-    "8239eddf-aadf-5ad7-9243-e7698c7e8d27",
-    "c3afabb3-3442-5b29-83bf-7114354b345a",
-    "1f21c751-c8eb-570e-8359-b139fe4fbcff",
     "cb456382-efd6-554b-8ee4-c8fc193f876a",
     "6f474aba-fda0-57fa-8330-6246de589f63",
     "c94b5446-e7e7-5b36-9bed-288959725526"
   ],
   "output_statement_id": "a03ed3eb-ada4-5a66-a488-c5a1b7b37950",
   "rule": "Theorem application (T and 5 correspondences; S5 law: possible collapse leaves no contingent proposition), negation introduction",
-  "meaning": "S5 reading of NECESSARY_2. The OPEN T and 5 schemas give a reflexive Euclidean (S5) frame by the T and 5 correspondences; by the verified S5 law (MODAL-S5-LAWS) possible collapse at w leaves no proposition contingent at w (possibly true and possibly false). The existence of the node's witness is such a proposition: true at w, which w accesses, and false at the accessible world lacking it. Without the 5 schema the rival, the node and the T schema hold together (false-le-true frame); without the node the rival holds.",
+  "meaning": "S5 reading of NECESSARY_2. The OPEN T and 5 schemas give a reflexive Euclidean (S5) frame by the T and 5 correspondences; by the verified S5 law (MODAL-S5-LAWS) possible collapse at w leaves no proposition contingent at w (possibly true and possibly false). The existence of the node's witness is such a proposition: true at w, which w accesses, and false at the accessible world lacking it. Without the 5 schema the rival, the node and the T schema hold together (false-le-true frame); without the node the rival holds. Reconciled interface: closed modal laws and correspondence certificates are imported and applied as verified theorems, not retained as assumptions; only the displayed node and frame schemas remain premises.",
   "assumption_statement_ids": [],
   "discharged_statement_ids": []
 }

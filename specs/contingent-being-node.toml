@@ -10,7 +10,7 @@ disambiguations = ["DISAMB-KANT-CONTINGENCY"]
 
 [[statement]]
 id = "STMT-SOME-ACTUAL-CONTINGENT"
-label = "Some actual concrete being is CONTINGENT_1 (exists at w, absent at some accessible world)"
+label = "Some actual CONCRETE_AND_ABSTRACT_6 being is CONTINGENT_1"
 lean = "SomeActualContingentAt"
 paraphrase = "OPEN premise, analyst formulation, attribution deferred: on the route's profile, some concrete individual exists at the selected world w and is absent at some world accessible from w (CONTINGENT_1, ContingentAt: accessible non-existence, not empirical change, CONTINGENT_2). It does not say which being is contingent, that the Cogito bearer is, that it is caused, or that every being other than the root is contingent. It implies STMT-COGITO-INHABITED-CONCRETE-WORLD and excludes concrete necessitarianism (STMT-ALL-ACTUAL-CONCRETE-NECESSARY) on the same frame; the converse of that exclusion needs excluded middle."
 definitions = ["DEF-KANT-ONTOLOGICAL-MODEL", "DEF-KANT-MODAL-CONTINGENCY", "DEF-INHABITED-CONCRETE-WORLD", "DEF-CONCRETE-ESSE-IN-RE"]
@@ -106,7 +106,7 @@ disambiguations = ["DISAMB-KANT-CONTINGENCY", "DISAMB-NECESSARY"]
 
 [[argument]]
 id = "CONTINGENT-NODE-INHABITS"
-label = "A CONTINGENT_1 actual concrete being populates the route's world (Cogito node)"
+label = "A CONTINGENT_1 actual CONCRETE_AND_ABSTRACT_6 being populates the route's world (Cogito node)"
 theorem = "inhabits"
 premises = ["STMT-SOME-ACTUAL-CONTINGENT"]
 conclusion = "STMT-COGITO-INHABITED-CONCRETE-WORLD"
@@ -116,57 +116,12 @@ transcription = "assembly"
 
 [[argument]]
 id = "NOT-ALL-NECESSARY-FROM-CONTINGENT"
-label = "A CONTINGENT_1 actual concrete being refutes concrete necessitarianism (NECESSARY_2)"
+label = "A CONTINGENT_1 actual CONCRETE_AND_ABSTRACT_6 being excludes all being NECESSARY_2"
 theorem = "notEveryNecessary"
 premises = ["STMT-SOME-ACTUAL-CONTINGENT"]
 conclusion = "STMT-NOT-ALL-ACTUAL-NECESSARY"
 rule = "Existential elimination, universal instantiation, negation introduction"
 meaning = "The node's witness exists at w and is absent at an accessible world, so it is not NECESSARY_2; hence not every actual concrete being is. The rival is the exact contradictory of the node, so this refutation uses no modal-library law; it records the incompatibility. It fails without the node (CONTINGENT-NODE-CONTROLS, one-world frame)."
-
-[[argument]]
-id = "NO-COLLAPSE-K"
-label = "K sense: a CONTINGENT_1 actual being excludes actual modal collapse, by the K collapse law"
-theorem = "notCollapsedK"
-premises = ["STMT-MODAL-K-LAWS", "STMT-SOME-ACTUAL-CONTINGENT"]
-conclusion = "STMT-ROUTE-NOT-COLLAPSED"
-rule = "Theorem application (first K law: full collapse at w iff every accessible world is w), identity substitution, negation introduction"
-meaning = "Frame class K (no frame condition). By the verified K collapse law (MODAL-K-LAWS), full collapse at w on the route's frame holds exactly when every world accessible from w is w. The node gives an accessible world lacking its witness; under collapse that world is w, where the witness exists. So the route's world is not collapsed. Without the node collapse holds (one-world frame)."
-
-[[argument]]
-id = "NO-NEC-COLLAPSE-T"
-label = "KT sense: a CONTINGENT_1 actual being excludes necessary collapse, by the T schema and T law"
-theorem = "notNecessarilyCollapsedT"
-premises = ["STMT-MODAL-STANDARD-CORRESPONDENCE-CERTIFICATE", "STMT-MODAL-K-LAWS", "STMT-MODAL-T-LAWS", "STMT-ONTIC-T-SCHEMA", "STMT-SOME-ACTUAL-CONTINGENT"]
-conclusion = "STMT-ROUTE-NOT-NEC-COLLAPSED"
-rule = "Theorem application (T correspondence; T law: on reflexive frames necessary collapse gives actual collapse; NO-COLLAPSE-K), negation introduction"
-meaning = "KT reading of NECESSARY_2. The OPEN T schema gives reflexivity of the route's frame by the T correspondence (MODAL-STANDARD-CORRESPONDENCE-CERTIFICATE); by the verified T law (MODAL-T-LAWS) necessary collapse at w then gives actual collapse at w, which NO-COLLAPSE-K excludes. Without the T schema the rival and the node hold together (step frame); without the node the rival holds (one-world frame)."
-
-[[argument]]
-id = "NO-POSS-COLLAPSE-KTB"
-label = "KTB sense: a CONTINGENT_1 actual being excludes possible collapse, by the B schema and B law"
-theorem = "notPossiblyCollapsedKTB"
-premises = ["STMT-MODAL-HIJK-CONVERGENCE-CERTIFICATE", "STMT-MODAL-K-LAWS", "STMT-MODAL-B-LAWS", "STMT-ONTIC-B-SCHEMA", "STMT-SOME-ACTUAL-CONTINGENT"]
-conclusion = "STMT-ROUTE-NOT-POSS-COLLAPSED"
-rule = "Theorem application (B correspondence; B law: on symmetric frames possible collapse gives actual collapse; NO-COLLAPSE-K), negation introduction"
-meaning = "KTB reading of NECESSARY_2 (only its symmetry is used). The OPEN B schema gives symmetry of the route's frame by the B correspondence of the convergence certificate (MODAL-HIJK-CONVERGENCE-CERTIFICATE); by the verified B law (MODAL-B-LAWS) collapse at an accessible world then propagates back to w, which NO-COLLAPSE-K excludes. Without the B schema the rival and the node hold together (step frame); without the node the rival holds."
-
-[[argument]]
-id = "NO-POSS-COLLAPSE-S5"
-label = "S5 sense: a CONTINGENT_1 actual being excludes possible collapse, by the T and 5 schemas and S5 law"
-theorem = "notPossiblyCollapsedS5"
-premises = ["STMT-MODAL-STANDARD-CORRESPONDENCE-CERTIFICATE", "STMT-MODAL-HIJK-CONVERGENCE-CERTIFICATE", "STMT-MODAL-S5-LAWS", "STMT-ONTIC-T-SCHEMA", "STMT-ONTIC-5-SCHEMA", "STMT-SOME-ACTUAL-CONTINGENT"]
-conclusion = "STMT-ROUTE-NOT-POSS-COLLAPSED"
-rule = "Theorem application (T and 5 correspondences; S5 law: possible collapse leaves no contingent proposition), negation introduction"
-meaning = "S5 reading of NECESSARY_2. The OPEN T and 5 schemas give a reflexive Euclidean (S5) frame by the T and 5 correspondences; by the verified S5 law (MODAL-S5-LAWS) possible collapse at w leaves no proposition contingent at w (possibly true and possibly false). The existence of the node's witness is such a proposition: true at w, which w accesses, and false at the accessible world lacking it. Without the 5 schema the rival, the node and the T schema hold together (false-le-true frame); without the node the rival holds."
-
-[[argument]]
-id = "NO-NECESSARY-ACT-YIELDS-ALL"
-label = "A CONTINGENT_1 actual being excludes an act at every accessible world strictly yielding all"
-theorem = "noNecessaryActYieldsAll"
-premises = ["STMT-SIMPLICITY-COLLAPSE-CORE", "STMT-SOME-ACTUAL-CONTINGENT"]
-conclusion = "STMT-NO-NECESSARY-ACT-YIELDS-ALL"
-rule = "Theorem application (first clause of the simplicity-collapse core), existential elimination, negation introduction"
-meaning = "By the first clause of the verified simplicity-collapse core (SIMPLICITY-COLLAPSE-CORE), an act token performed at every world accessible from w and strictly efficacious for x leaves x not contingent at w. If one token strictly yielded every actual concrete being, it would strictly yield the node's witness, which is contingent. So a necessary sufficient cause of all actual concreta is excluded on the route; the route's root may still be necessary if its act is not both performed at every accessible world and strictly efficacious for each creature (#462, #555). Without the node the rival holds (one-world frame)."
 
 [[argument]]
 id = "CONTINGENT-NODE-CONTROLS"

@@ -3,10 +3,10 @@
   "label": "K sense: a CONTINGENT_1 actual being excludes actual modal collapse, by the K collapse law",
   "legacy_id": "NO-COLLAPSE-K",
   "argument_id": "65880bb6-09f6-5fc2-8852-9bffc9c1a435",
-  "challenge_module": "TruthCore.Results.Causality.ContingentBeingNode.Challenge",
-  "solution_module": "TruthCore.Results.Causality.ContingentBeingNode.Solution",
-  "theorem": "TruthCore.Results.Causality.ContingentBeingNode.notCollapsedK",
+  "challenge_module": "TruthCore.Results.Causality.ContingentBeingNodeReconciled.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ContingentBeingNodeReconciled.Solution",
+  "theorem": "TruthCore.Results.Causality.ContingentBeingNodeReconciled.notCollapsedK",
   "comparator_config": "results/NO-COLLAPSE-K/comparator.json",
   "status": "solution-present",
-  "description": "Frame class K (no frame condition). By the verified K collapse law (MODAL-K-LAWS), full collapse at w on the route's frame holds exactly when every world accessible from w is w. The node gives an accessible world lacking its witness; under collapse that world is w, where the witness exists. So the route's world is not collapsed. Without the node collapse holds (one-world frame)."
+  "description": "Frame class K (no frame condition). By the verified K collapse law (MODAL-K-LAWS), full collapse at w on the route's frame holds exactly when every world accessible from w is w. The node gives an accessible world lacking its witness; under collapse that world is w, where the witness exists. So the route's world is not collapsed. Without the node collapse holds (one-world frame). Reconciled interface: closed modal laws and correspondence certificates are imported and applied as verified theorems, not retained as assumptions; only the displayed node and frame schemas remain premises."
 }
