@@ -16,13 +16,13 @@ id = "Experience theological identification"
 id = "Experience normative permission"
 
 [[node]]
-id = "Experience coverage of God bearers"
+id = "Experience coverage of GOD_4 bearers"
 
 [[node]]
 id = "Experience reverse capacity bridge"
 
 [[node]]
-id = "Experience recognized God witness"
+id = "Experience recognized GOD_4 witness"
 
 [[node]]
 id = "Experience warranted token"
@@ -32,7 +32,7 @@ id = "Experience finite omission and competing-source controls"
 
 [[edge]]
 premises = ["Experience occurrence without defeater", "Experience local calibration", "Experience theological identification"]
-conclusion = "Experience recognized God witness"
+conclusion = "Experience recognized GOD_4 witness"
 kind = "derivation"
 status = "mapped"
 note = "Analyst conditional finite experience reconstruction. No premise truth or theological identification established. See dedicated note for exact model scope and remaining gap."
@@ -45,7 +45,7 @@ status = "mapped"
 note = "Assembly transcription; Analyst conditional finite experience reconstruction. No premise truth or theological identification established. See dedicated note for exact model scope and remaining gap."
 
 [[edge]]
-premises = ["Experience local calibration", "Experience theological identification", "Experience coverage of God bearers", "Experience reverse capacity bridge"]
+premises = ["Experience local calibration", "Experience theological identification", "Experience coverage of GOD_4 bearers", "Experience reverse capacity bridge"]
 conclusion = "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE"
 kind = "bridge"
 status = "mapped"
