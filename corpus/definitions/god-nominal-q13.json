@@ -5,5 +5,7 @@
   "basis": "sourced",
   "claim_ids": [
     "AQUINAS-ST-I-Q13-A8-AD2-GOD-NAMES-PRINCIPLE-ABOVE-ALL-A"
-  ]
+  ],
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.NominalGod",
+  "note": "NominalGod is the antecedent of GodNamesTheFullyDescribedPrinciple as a predicate (maximal in being and the only such, causing the being and every perfection of every other being, remote from all): GOD_1 of the DISAMB-GOD fork (batch 4 of #1233). In this sense the naming premise and its converse are analytic (NOMINAL-GOD-NAMING-IS-ANALYTIC, NOMINAL-GOD-MAXIMALITY-IS-ANALYTIC); the root premise reads God as DEF-GOD-OF-CLASSICAL-THEISM."
 }

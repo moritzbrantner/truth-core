@@ -1,0 +1,15 @@
+{
+  "id": "STMT-MUTABILITY-SENSES-EXHAUSTIVE",
+  "paraphrase": "OPEN frontier premise (coverage, attribution deferred): each of the two uses of 'in potency in some respect' in the root argument IMMUTABLE-IS-PRIMITIVE-ETERNAL-FROM-TYPED-BOETHIAN (what has succession in its life is in potency; what begins or ceases to live is in potency) is read as mutable in itself (MUTABLE_1, MutableInSubject: in potency in some respect), mutable through another (MUTABLE_2, MutableThroughAnother: some other being has power to change it) or mutable in some way (MUTABLE_3, MutableInSomeWay: either), selected by the route's reading, and the use's predicate is exactly that sense's predicate.",
+  "label": "Each use of 'in potency in some respect' in the eternity step is MUTABLE_1, MUTABLE_2 or MUTABLE_3",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.MutabilitySensesExhaustive",
+  "definition_ids": [
+    "DEF-ROUTE-SENSE-SELECTION",
+    "DEF-POTENCY",
+    "DEF-MUTABLE-THROUGH-ANOTHER",
+    "DEF-MUTABLE-IN-SOME-WAY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "REL-LIFE-BOUNDARY-ANOTHER-STRENGTHENS-SOME-MUTABILITY",
+  "subject_kind": "statement",
+  "subject_id": "STMT-LIFE-BOUNDARY-REQUIRES-POWER-IN-ANOTHER",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "STMT-LIFE-BOUNDARY-REQUIRES-SOME-MUTABILITY",
+  "label": "MUTABLE_2 boundary statement strengthens the MUTABLE_3 one",
+  "verification_result_id": "LIFE-BOUNDARY-SOME-MUTABILITY-FROM-ANOTHER",
+  "note": "Strength order between MUTABLE_2 and MUTABLE_3 in the boundary use."
+}

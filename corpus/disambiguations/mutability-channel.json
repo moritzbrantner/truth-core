@@ -5,5 +5,5 @@
     "DEF-POTENCY",
     "DEF-MUTABILITY-IN-ANOTHER"
   ],
-  "resolution": "Existing InPotency/PureAct quantifies potency in a subject. Q.9 a.2 separately allows mutability through the creator's power in another. Neither absence of intrinsic potency nor present state constancy identifies or excludes that external dependence channel."
+  "resolution": "Existing InPotency/PureAct quantifies potency in a subject. Q.9 a.2 separately allows mutability through the creator's power in another. Neither absence of intrinsic potency nor present state constancy identifies or excludes that external dependence channel. Not forked separately: its two senses are those of DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER (DEF-MUTABILITY-IN-ANOTHER and DEF-MUTABLE-THROUGH-ANOTHER are the same q.9 a.2 sense and name the same declaration MutableThroughAnother), and no root-path statement links this record; the fork there (batch 4 of #1233) covers both."
 }

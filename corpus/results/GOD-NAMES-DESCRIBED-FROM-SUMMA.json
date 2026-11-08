@@ -1,0 +1,11 @@
+{
+  "id": "GOD-NAMES-DESCRIBED-FROM-SUMMA",
+  "argument_id": "GOD-NAMES-DESCRIBED-FROM-SUMMA",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks4.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks4.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks4.godNamesDescribedFromSumma",
+  "comparator_config": "results/GOD-NAMES-DESCRIBED-FROM-SUMMA/comparator.json",
+  "status": "solution-present",
+  "description": "GOD_2 (SUMMA) branch of the naming use: the only maximum in being that causes the being of every other being is God in the Summa's sense (the reduced naming premise for the God parameter of the older stage-1 routes), and (explicit sense bridge) what the Summa calls God is the God of classical theism. So the fully described principle, which meets the reduced description, is the God of classical theism. The controls give a model with the reduced Summa naming and no classical God.",
+  "label": "GOD_2: the reduced naming for the Summa's God and a GOD_2-to-GOD_4 bridge give the naming premise"
+}

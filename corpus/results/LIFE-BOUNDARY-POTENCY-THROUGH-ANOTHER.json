@@ -1,0 +1,11 @@
+{
+  "id": "LIFE-BOUNDARY-POTENCY-THROUGH-ANOTHER",
+  "argument_id": "LIFE-BOUNDARY-POTENCY-THROUGH-ANOTHER",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks4.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks4.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks4.lifeBoundaryPotencyThroughAnother",
+  "comparator_config": "results/LIFE-BOUNDARY-POTENCY-THROUGH-ANOTHER/comparator.json",
+  "status": "solution-present",
+  "description": "MUTABLE_2 (THROUGH_ANOTHER) branch of the boundary use: whatever begins or ceases to live is in another being's power, and (explicit sense bridge) whatever is in another's power is in potency in itself; so whatever begins or ceases to live is in potency in itself in some respect, the root-route node. The controls give a model in which the MUTABLE_2 premise holds, the bridge fails and the node fails.",
+  "label": "MUTABLE_2: a life boundary requires potency, through another's power and a sense bridge"
+}

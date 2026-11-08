@@ -1,0 +1,11 @@
+{
+  "id": "LIFE-BOUNDARY-SOME-MUTABILITY-FROM-SUBJECT",
+  "argument_id": "LIFE-BOUNDARY-SOME-MUTABILITY-FROM-SUBJECT",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks4.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks4.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks4.lifeBoundarySomeMutabilityFromSubject",
+  "comparator_config": "results/LIFE-BOUNDARY-SOME-MUTABILITY-FROM-SUBJECT/comparator.json",
+  "status": "solution-present",
+  "description": "Strength order between MUTABLE_1 and MUTABLE_3 in the boundary use: if whatever begins or ceases to live is in potency in itself, it is mutable in some way.",
+  "label": "Strength order: the MUTABLE_1 boundary statement implies the MUTABLE_3 one"
+}

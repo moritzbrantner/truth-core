@@ -1,0 +1,44 @@
+{
+  "id": "GOD-EXISTS-FROM-MAXIME-ENS-CAUSING-ALL",
+  "premise_statement_ids": [
+    "STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL",
+    "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING",
+    "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH",
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-CAUSE-OF-BEING-CAUSES-EVERY-PERFECTION",
+    "STMT-NO-COMPONENT-IS-FIRST-BEING",
+    "STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING",
+    "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE"
+  ],
+  "conclusion_statement_id": "STMT-GOD-EXISTS",
+  "inference_ids": [
+    "INF-GOD-EXISTS-FROM-MAXIME-ENS-CAUSING-ALL"
+  ],
+  "meaning": "Stage 1 from the quarta via's own conclusion STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL (MAXIME_1: some being maximal in being causes being in every other being). That witness is the only maximal being: another maximal being has being, so the witness causes its being and (cause of a quality is more such) is more a being than it, contradicting its maximality; excluded middle decides identity. It causes every perfection of every other being (the cause of being causes every perfection; whatever is in act has being), and it is remote from all (it is the first being, and no component is). So the fuller naming premise applies and God exists. The quarta via's grades, approach, truth-to-being and genus premises of CATHOLICISM-STAGE1-FULL-DESCRIPTION-WITHOUT-MOTION are replaced by their conclusion. The controls give a model with the conclusion omitted, every other premise except excluded middle holding, and nothing God.",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-ESSE",
+    "DEF-FIRST-BEING",
+    "DEF-GOD-NOMINAL-Q13",
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-MAXIME-ENS",
+    "DEF-MORE-IN",
+    "DEF-NOMINAL-DEFINITION",
+    "DEF-REMOTE-FROM-ALL",
+    "DEF-RESPECT",
+    "DEF-SELF-EVIDENT-MARKING",
+    "DEF-SIMPLE",
+    "DEF-SIMPLE-PRIORITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-BEING",
+    "DISAMB-BEING-UNIVOCITY",
+    "DISAMB-CAUSE",
+    "DISAMB-GOD",
+    "DISAMB-IN-ACT",
+    "DISAMB-MAXIME-ENS",
+    "DISAMB-ORDER-OF-BEING"
+  ],
+  "label": "Stage 1 from the quarta via's conclusion: a MAXIME_1 being causing all being is God"
+}

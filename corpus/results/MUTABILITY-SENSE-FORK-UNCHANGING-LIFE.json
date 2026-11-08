@@ -1,0 +1,11 @@
+{
+  "id": "MUTABILITY-SENSE-FORK-UNCHANGING-LIFE",
+  "argument_id": "MUTABILITY-SENSE-FORK-UNCHANGING-LIFE",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks4.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks4.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks4.unchangingLifeByMutabilitySenseFork",
+  "comparator_config": "results/MUTABILITY-SENSE-FORK-UNCHANGING-LIFE/comparator.json",
+  "status": "solution-present",
+  "description": "Optional summary over MUTABLE_1-3. Coverage reads both uses of 'in potency in some respect' in the eternity step (succession, boundary) in selected senses; exclusivity makes them one sense. So whatever is not mutable in that one sense has neither succession nor a beginning or end of life. The controls give the mixed reading (succession MUTABLE_1, boundary MUTABLE_2): a being with no potency in itself, in another's power, begins to live, and the conclusion fails.",
+  "label": "MUTABLE fork summary: immutable in one sense means no beginning, end or succession of life"
+}

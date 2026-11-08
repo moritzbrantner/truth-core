@@ -1,0 +1,12 @@
+{
+  "id": "INF-LIFE-BOUNDARY-SOME-MUTABILITY-FROM-SUBJECT",
+  "input_statement_ids": [
+    "STMT-LIFE-BOUNDARY-REQUIRES-POTENCY"
+  ],
+  "output_statement_id": "STMT-LIFE-BOUNDARY-REQUIRES-SOME-MUTABILITY",
+  "rule": "Disjunction introduction (left)",
+  "meaning": "Strength order between MUTABLE_1 and MUTABLE_3 in the boundary use: if whatever begins or ceases to live is in potency in itself, it is mutable in some way.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": [],
+  "label": "Strength order: the MUTABLE_1 boundary statement implies the MUTABLE_3 one"
+}

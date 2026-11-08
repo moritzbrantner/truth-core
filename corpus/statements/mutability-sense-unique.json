@@ -1,0 +1,12 @@
+{
+  "id": "STMT-MUTABILITY-SENSE-UNIQUE",
+  "paraphrase": "OPEN frontier premise (exclusivity, attribution deferred): the route's reading of 'in potency in some respect' in the eternity step selects at most one sense, so both uses take the same one. Not a disjointness claim: MUTABLE_1 and MUTABLE_2 each imply MUTABLE_3.",
+  "label": "The eternity step reads 'in potency in some respect' in one MUTABLE sense only",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.MutabilitySenseUnique",
+  "definition_ids": [
+    "DEF-ROUTE-SENSE-SELECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER"
+  ]
+}

@@ -5,5 +5,7 @@
   "basis": "sourced",
   "claim_ids": [
     "AQUINAS-ST-I-Q9-A2-EXTERNAL-MUTABILITY"
-  ]
+  ],
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.MutableThroughAnother",
+  "note": "The same q.9 a.2 sense as DEF-MUTABLE-THROUGH-ANOTHER (DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER), encoded by the same declaration over the typed power relation PowerOver; see that record for examples, counterexamples and structural properties. Kept as a separate record rather than merged (invariant 6)."
 }

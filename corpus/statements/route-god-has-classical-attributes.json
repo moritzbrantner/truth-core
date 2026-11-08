@@ -1,0 +1,13 @@
+{
+  "id": "STMT-ROUTE-GOD-HAS-CLASSICAL-ATTRIBUTES",
+  "paraphrase": "OPEN analyst premise (attribution deferred): whatever is God in the route's reading of the attribute use satisfies the signature's HasClassicalAttributes field.",
+  "label": "Whatever is God in the route's reading of the attribute use has the classical attributes",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.RouteGodHasClassicalAttributes",
+  "definition_ids": [
+    "DEF-ROUTE-SENSE-SELECTION",
+    "DEF-CLASSICAL-ATTRIBUTES-BUNDLE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOD"
+  ]
+}

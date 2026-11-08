@@ -1,0 +1,13 @@
+{
+  "id": "STMT-SUMMA-GOD-IS-CLASSICAL-GOD",
+  "paraphrase": "OPEN sense bridge GOD_2 to GOD_4 (attribution deferred): whatever falls under the Summa's God parameter of the older stage-1 maxime ens routes is the God of classical theism (IsGod).",
+  "label": "Sense bridge GOD_2 to GOD_4: what the Summa's stage-1 routes call God is the classical God",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.SummaGodIsClassicalGod",
+  "definition_ids": [
+    "DEF-GOD-AS-NAMED-IN-THE-SUMMA",
+    "DEF-GOD-OF-CLASSICAL-THEISM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOD"
+  ]
+}
