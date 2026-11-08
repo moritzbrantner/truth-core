@@ -5,5 +5,20 @@
     "DEF-WORLDVIEW-SEMANTIC-CONSISTENCY",
     "DEF-WORLDVIEW-DUTY-COMPATIBILITY"
   ],
-  "resolution": "Internal consistency means satisfiability of the worldview alone (DEF-WORLDVIEW-SEMANTIC-CONSISTENCY). Consistency *with* an objective duty means satisfiability of the worldview jointly with a particular duty-content (DEF-WORLDVIEW-DUTY-COMPATIBILITY). The internal-contradiction theorem additionally assumes the worldview explicitly accepts that duty; the external-error theorem instead assumes the duty-content is true at the designated actual world. The finite denier model shows these conditions cannot be silently identified."
+  "resolution": "Internal consistency means satisfiability of the worldview alone (DEF-WORLDVIEW-SEMANTIC-CONSISTENCY). Consistency *with* an objective duty means satisfiability of the worldview jointly with a particular duty-content (DEF-WORLDVIEW-DUTY-COMPATIBILITY). The internal-contradiction theorem additionally assumes the worldview explicitly accepts that duty; the external-error theorem instead assumes the duty-content is true at the designated actual world. The finite denier model shows these conditions cannot be silently identified.",
+  "term_label": "WORLDVIEW_CONSISTENCY",
+  "senses": [
+    {
+      "id": "b43f847b-6cc6-41e6-a7ff-1f1f88d4f86a",
+      "label": "WORLDVIEW_CONSISTENCY_1",
+      "definition_id": "DEF-WORLDVIEW-SEMANTIC-CONSISTENCY",
+      "lean_declaration": "TruthCore.Logic.ReflectiveCoherence.Consistent"
+    },
+    {
+      "id": "ecc8e307-3dc9-444d-a351-00ca3d15185a",
+      "label": "WORLDVIEW_CONSISTENCY_2",
+      "definition_id": "DEF-WORLDVIEW-DUTY-COMPATIBILITY",
+      "lean_declaration": "TruthCore.Logic.ReflectiveCoherence.Compatible"
+    }
+  ]
 }

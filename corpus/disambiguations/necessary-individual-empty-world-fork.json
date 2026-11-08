@@ -5,5 +5,20 @@
     "DEF-NECESSARY-INDIVIDUAL-SHARED-ROOT",
     "DEF-NECESSARY-INDIVIDUAL-ROOTED-CAUSE"
   ],
-  "resolution": "The three-world control uses Fin 3 as a nonempty carrier of world labels and, separately, Fin 3 as a roster of individual labels. World 0 has an empty presence extension; it is not an absent world, nor a claim about abstract entities. Presence of root 0 throughout populated accessible histories is the SharedRootOnPopulated relation, not by itself necessity or explanatory priority. The independent rootedEmptyCauses relation is directed inside each populated world and has no two-step chain; modal accessibility is universal and is not a causal edge or succession in time. The historyOnly control retains the populated worlds' exact presence extensions but removes the empty world from its modal domain, switching the model's DeRe truth value. This demonstrates domain sensitivity; it does not justify excluding an empty world metaphysically, and no sourced view is being attributed to Oppy."
+  "resolution": "The three-world control uses Fin 3 as a nonempty carrier of world labels and, separately, Fin 3 as a roster of individual labels. World 0 has an empty presence extension; it is not an absent world, nor a claim about abstract entities. Presence of root 0 throughout populated accessible histories is the SharedRootOnPopulated relation, not by itself necessity or explanatory priority. The independent rootedEmptyCauses relation is directed inside each populated world and has no two-step chain; modal accessibility is universal and is not a causal edge or succession in time. The historyOnly control retains the populated worlds' exact presence extensions but removes the empty world from its modal domain, switching the model's DeRe truth value. This demonstrates domain sensitivity; it does not justify excluding an empty world metaphysically, and no sourced view is being attributed to Oppy.",
+  "term_label": "EMPTY_WORLD_ROOTED_HISTORY_NECESSITY",
+  "senses": [
+    {
+      "id": "a8ab70da-a07c-4dbd-9689-843553aa0cd6",
+      "label": "EMPTY_WORLD_ROOTED_HISTORY_NECESSITY_1",
+      "definition_id": "DEF-NECESSARY-INDIVIDUAL-SHARED-ROOT",
+      "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.SharedRootOnPopulated"
+    },
+    {
+      "id": "29838d88-f2cd-4ec2-a538-5b7a2be9ae4c",
+      "label": "EMPTY_WORLD_ROOTED_HISTORY_NECESSITY_2",
+      "definition_id": "DEF-NECESSARY-INDIVIDUAL-ROOTED-CAUSE",
+      "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.rootedEmptyCauses"
+    }
+  ]
 }

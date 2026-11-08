@@ -5,5 +5,20 @@
     "DEF-COMMISSION-REPORT-POWERS",
     "DEF-HEAVEN-RATIFIED-POWER"
   ],
-  "resolution": "A report attests individual powers (DEF-COMMISSION-REPORT-POWERS): Matthew 16.19 and 18.18 name binding and loosing, John 20.23 names forgiving and retaining sins, and these are different powers. Multiple attestation in STMT-HEAVEN-RATIFIED-ATTESTATION-CRITERION and STMT-JOHN-COMMISSION-INDEPENDENT-OF-MATTHEW is of the family (DEF-HEAVEN-RATIFIED-POWER): the same form, the disciples' act on earth ratified before God, is reported in both strands. The criterion's consequent is accordingly only that Jesus gave some power of the family, not binding and loosing in particular nor forgiving and retaining in particular, and no step infers that the sayings are one saying. STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS uses the single-power sense (every power of a whole report), which is why the attestation premises do not give it (CommissionAttestation.attestation_not_reports)."
+  "resolution": "A report attests individual powers (DEF-COMMISSION-REPORT-POWERS): Matthew 16.19 and 18.18 name binding and loosing, John 20.23 names forgiving and retaining sins, and these are different powers. Multiple attestation in STMT-HEAVEN-RATIFIED-ATTESTATION-CRITERION and STMT-JOHN-COMMISSION-INDEPENDENT-OF-MATTHEW is of the family (DEF-HEAVEN-RATIFIED-POWER): the same form, the disciples' act on earth ratified before God, is reported in both strands. The criterion's consequent is accordingly only that Jesus gave some power of the family, not binding and loosing in particular nor forgiving and retaining in particular, and no step infers that the sayings are one saying. STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS uses the single-power sense (every power of a whole report), which is why the attestation premises do not give it (CommissionAttestation.attestation_not_reports).",
+  "term_label": "ATTESTATION_OF_A_SINGLE_POWER",
+  "senses": [
+    {
+      "id": "8c189ca5-e9b8-4b8d-b9fc-8f50e59302ff",
+      "label": "ATTESTATION_OF_A_SINGLE_POWER_1",
+      "definition_id": "DEF-COMMISSION-REPORT-POWERS",
+      "lean_declaration": "TruthCore.Case.Catholicism.StageThree.Commissions.CommissionReport.powers"
+    },
+    {
+      "id": "3179f53e-0a37-4990-bcc5-9c0963b3e612",
+      "label": "ATTESTATION_OF_A_SINGLE_POWER_2",
+      "definition_id": "DEF-HEAVEN-RATIFIED-POWER",
+      "lean_declaration": "TruthCore.Case.Catholicism.StageThree.CommissionAttestation.HeavenRatified"
+    }
+  ]
 }

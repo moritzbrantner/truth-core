@@ -25,5 +25,20 @@
   "label": "GOD_2: the reduced naming for the Summa's God and a GOD_2-to-GOD_4 bridge give the naming premise",
   "strong_version_needed": {
     "STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS": "The GOD_2 branch starts from the Summa's own naming premise, which exists only in the reduced form; the fuller naming instantiated at the Summa's God would suffice but no route records it for that parameter."
-  }
+  },
+  "sense_bridges": [
+    {
+      "term": "GOD",
+      "from": "b11d7317-49bb-4c03-b1aa-fefada6943ff",
+      "to": "52c2ebac-0a71-4dd4-8a21-804c1dd0847a",
+      "statement_id": "STMT-SUMMA-GOD-IS-CLASSICAL-GOD"
+    },
+    {
+      "term": "GOD",
+      "from": "295c9096-50b8-4ccd-960e-f833730a0774",
+      "to": "52c2ebac-0a71-4dd4-8a21-804c1dd0847a",
+      "statement_id": "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE",
+      "role": "conclusion"
+    }
+  ]
 }

@@ -24,5 +24,13 @@
   ],
   "strong_version_needed": {
     "STMT-MOVED-ONLY-AS-IN-ADOPTED-POTENCY": "The ADOPTED branch needs the not-in-act conjunct of adopted potency: it replaces the non-simultaneity premise. The weaker STMT-MOVED-ONLY-AS-CAPABLE gives the conclusion only with the CAPACITY non-simultaneity premise (NO-SELF-MOTION-FROM-CAPACITY), which is refuted under STMT-SOME-CAPACITY-EXERCISED; the omission control in TERM-SENSE-FORKS-3-CONTROLS shows the branch fails without its moved premise."
-  }
+  },
+  "sense_bridges": [
+    {
+      "term": "POTENCY_CAPACITY_AND_POWER_ACROSS_ADOPTED",
+      "from": "5252f7f4-95a7-42f3-a420-23770702a0f4",
+      "to": "02e3f1d0-4ba1-498f-b34d-40bdd348d8c4",
+      "statement_id": "STMT-MOVED-ONLY-AS-IN-ADOPTED-POTENCY"
+    }
+  ]
 }

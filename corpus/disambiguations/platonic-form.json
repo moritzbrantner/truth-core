@@ -5,5 +5,19 @@
     "DEF-PLATONIC-FORM",
     "DEF-PLATONIC-IMMANENT-FORM"
   ],
-  "resolution": "All Forms commitments use FormOf, the proposed intelligible entity. The Aristotelian immanent sense is contrast only; similar spelling licenses no reuse or identity."
+  "resolution": "All Forms commitments use FormOf, the proposed intelligible entity. The Aristotelian immanent sense is contrast only; similar spelling licenses no reuse or identity.",
+  "term_label": "FORM",
+  "senses": [
+    {
+      "id": "99212ba7-986e-4527-9c3c-d25841abc716",
+      "label": "FORM_3",
+      "definition_id": "DEF-PLATONIC-FORM",
+      "lean_declaration": "TruthCore.Greek.Plato.Forms.Vocabulary"
+    },
+    {
+      "id": "5fd764ee-53b4-4a68-924a-0d7a6b434c6a",
+      "label": "FORM_4",
+      "definition_id": "DEF-PLATONIC-IMMANENT-FORM"
+    }
+  ]
 }

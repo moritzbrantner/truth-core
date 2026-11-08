@@ -8,5 +8,38 @@
     "DEF-TRUTH-DIRECTED-EPISTEMIC-BRIDGE",
     "DEF-TRANSCENDENTAL-CATEGORICAL-DUTY"
   ],
-  "resolution": "Likelihood advantage is an increase in probability relative to the declared prior, not necessarily a posterior win. A posterior win may result solely from a prior advantage and is not actual truth, social attraction or factive warrant. Reliable inherited testimony is a possible informational route, not disqualified by cultural origin and not infallible. Relabeling hypotheses transports priors too; swapping community alone holds all comparison inputs fixed. A public identity-independent assessment rule is a declared practice standard. The local membership rule need not satisfy it and does not contradict itself; categorical epistemic authority and metaphysical grounding need further bridges. Exact classifier availability is extensional and distinct from justified fallible assessment."
+  "resolution": "Likelihood advantage is an increase in probability relative to the declared prior, not necessarily a posterior win. A posterior win may result solely from a prior advantage and is not actual truth, social attraction or factive warrant. Reliable inherited testimony is a possible informational route, not disqualified by cultural origin and not infallible. Relabeling hypotheses transports priors too; swapping community alone holds all comparison inputs fixed. A public identity-independent assessment rule is a declared practice standard. The local membership rule need not satisfy it and does not contradict itself; categorical epistemic authority and metaphysical grounding need further bridges. Exact classifier availability is extensional and distinct from justified fallible assessment.",
+  "term_label": "EVIDENCE_SUPPORT_VERSUS_WORLDVIEW_TRUTH",
+  "senses": [
+    {
+      "id": "1350ff84-74e9-42f3-b3d5-9b20e0f1735b",
+      "label": "EVIDENCE_SUPPORT_VERSUS_WORLDVIEW_TRUTH_1",
+      "definition_id": "DEF-CONTRASTIVE-WORLDVIEW-BAYES",
+      "lean_declaration": "TruthCore.Logic.ContrastiveWorldview.Comparison"
+    },
+    {
+      "id": "4ac97951-bcae-4d91-9950-6c770b903c25",
+      "label": "EVIDENCE_SUPPORT_VERSUS_WORLDVIEW_TRUTH_2",
+      "definition_id": "DEF-CONTRASTIVE-WORLDVIEW-CASE",
+      "lean_declaration": "TruthCore.Logic.ContrastiveWorldview.Case"
+    },
+    {
+      "id": "a74894fd-3d1b-4b12-a16e-87dfb631ab0e",
+      "label": "EVIDENCE_SUPPORT_VERSUS_WORLDVIEW_TRUTH_3",
+      "definition_id": "DEF-CONTRASTIVE-WORLDVIEW-LOCAL-STANDARD",
+      "lean_declaration": "TruthCore.Logic.ContrastiveWorldview.insiderStandard"
+    },
+    {
+      "id": "552fc509-440f-4d46-970f-98c701f044f1",
+      "label": "EVIDENCE_SUPPORT_VERSUS_WORLDVIEW_TRUTH_4",
+      "definition_id": "DEF-TRUTH-DIRECTED-EPISTEMIC-BRIDGE",
+      "lean_declaration": "TruthCore.Logic.ReflectiveCoherence.TruthDirected"
+    },
+    {
+      "id": "3b090860-e0b8-433e-8863-799bdd9f4a3b",
+      "label": "EVIDENCE_SUPPORT_VERSUS_WORLDVIEW_TRUTH_5",
+      "definition_id": "DEF-TRANSCENDENTAL-CATEGORICAL-DUTY",
+      "lean_declaration": "TruthCore.Logic.TranscendentalPractice.GoalPractice.categoricalOught"
+    }
+  ]
 }

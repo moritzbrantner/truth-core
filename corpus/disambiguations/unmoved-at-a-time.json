@@ -6,5 +6,25 @@
     "DEF-FIRST-UNMOVED-MOVER",
     "DEF-MOVED-AT-NO-TIME"
   ],
-  "resolution": "DEF-FIRST-UNMOVED-MOVER is time-free and quantifies over respects, not times. Results that instantiate it at a clock time conclude only DEF-TIME-SLICED-FIRST-MOVER. FIRST-WAY-SLICE-CONTROLS has a model with a different first mover at each of two times and no being that ever moves and is unmoved at every time, so no step passes from the slice sense to unmoved at every time. FIRST-WAY-SLICE-ROUTE keeps its conclusion in the slice sense and does not bind to STMT-FIRST-UNMOVED-MOVER-CANNOT-BE-LACKING. AQUINAS-IN-METAPH-IX-L8-PRIMUM-MOVENS-PURE-ACT keeps three senses apart. Its source premise STMT-MOVER-MOVED-AT-NO-TIME-IS-PURE-ACT is about movers moved at no time (DEF-MOVED-AT-NO-TIME), the sense in which In Metaph. IX, lect. 8 n. 11 is read. Its conclusion is STMT-FIRST-UNMOVED-MOVER-IS-PURE-ACT read at one time t, that is, the time-free predicates instantiated at t (DEF-MOTION-AS-REDUCTION reads them simul). It passes from the slice sense to the every-time sense only through the explicit, unattributed, open bridge STMT-SLICE-FIRST-MOVER-MOVED-AT-NO-TIME, which the feedback model of FIRST-WAY-SLICE-CONTROLS falsifies."
+  "resolution": "DEF-FIRST-UNMOVED-MOVER is time-free and quantifies over respects, not times. Results that instantiate it at a clock time conclude only DEF-TIME-SLICED-FIRST-MOVER. FIRST-WAY-SLICE-CONTROLS has a model with a different first mover at each of two times and no being that ever moves and is unmoved at every time, so no step passes from the slice sense to unmoved at every time. FIRST-WAY-SLICE-ROUTE keeps its conclusion in the slice sense and does not bind to STMT-FIRST-UNMOVED-MOVER-CANNOT-BE-LACKING. AQUINAS-IN-METAPH-IX-L8-PRIMUM-MOVENS-PURE-ACT keeps three senses apart. Its source premise STMT-MOVER-MOVED-AT-NO-TIME-IS-PURE-ACT is about movers moved at no time (DEF-MOVED-AT-NO-TIME), the sense in which In Metaph. IX, lect. 8 n. 11 is read. Its conclusion is STMT-FIRST-UNMOVED-MOVER-IS-PURE-ACT read at one time t, that is, the time-free predicates instantiated at t (DEF-MOTION-AS-REDUCTION reads them simul). It passes from the slice sense to the every-time sense only through the explicit, unattributed, open bridge STMT-SLICE-FIRST-MOVER-MOVED-AT-NO-TIME, which the feedback model of FIRST-WAY-SLICE-CONTROLS falsifies.",
+  "term_label": "UNMOVED",
+  "senses": [
+    {
+      "id": "3c1586e5-459a-421a-9b26-c8cba28439b9",
+      "label": "UNMOVED_1",
+      "definition_id": "DEF-TIME-SLICED-FIRST-MOVER",
+      "lean_declaration": "TruthCore.Causality.TemporalPrimaVia.SliceRouteOutcome"
+    },
+    {
+      "id": "3c453d71-a966-4147-a18f-a3d7085258f8",
+      "label": "UNMOVED_2",
+      "definition_id": "DEF-FIRST-UNMOVED-MOVER",
+      "lean_declaration": "TruthCore.Case.Catholicism.IsFirstUnmovedMover"
+    },
+    {
+      "id": "540c7894-ecbe-4cea-bbc9-ade8fca537ad",
+      "label": "UNMOVED_3",
+      "definition_id": "DEF-MOVED-AT-NO-TIME"
+    }
+  ]
 }

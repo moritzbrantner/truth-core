@@ -22,5 +22,19 @@
   "disambiguation_ids": [
     "DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER"
   ],
-  "label": "MUTABLE fork summary: immutable in one sense means no beginning, end or succession of life"
+  "label": "MUTABLE fork summary: immutable in one sense means no beginning, end or succession of life",
+  "sense_bridges": [
+    {
+      "term": "IN_POTENCY_MUTABLE",
+      "from": "2ba29183-e9d7-4b34-9815-6e8e24c16692",
+      "to": "105b1f4a-6d9c-4e4e-8c30-2c109c2f755f",
+      "statement_id": "STMT-MUTABILITY-SENSES-EXHAUSTIVE"
+    },
+    {
+      "term": "IN_POTENCY_MUTABLE",
+      "from": "2ba29183-e9d7-4b34-9815-6e8e24c16692",
+      "to": "194c40c8-c176-43d9-9488-9021f7cb2351",
+      "statement_id": "STMT-MUTABILITY-SENSES-EXHAUSTIVE"
+    }
+  ]
 }

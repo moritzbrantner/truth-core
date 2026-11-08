@@ -5,5 +5,19 @@
     "DEF-RUSSELL-GENUINE-NAME",
     "DEF-RUSSELL-CONTEXTUAL-NAME"
   ],
-  "resolution": "Russell’s genuine-name restriction concerns significant naming at a context. The modern model instead separates outer candidate, optional token and world-relative actual domain. Failure of a token to denote in that alternative is not a contradiction in Russell’s definition."
+  "resolution": "Russell’s genuine-name restriction concerns significant naming at a context. The modern model instead separates outer candidate, optional token and world-relative actual domain. Failure of a token to denote in that alternative is not a contradiction in Russell’s definition.",
+  "term_label": "NAMES",
+  "senses": [
+    {
+      "id": "c62f0864-17d3-4c26-817a-f043e4a20ede",
+      "label": "NAMES_1",
+      "definition_id": "DEF-RUSSELL-GENUINE-NAME"
+    },
+    {
+      "id": "4fbdf118-eaea-408b-9a08-c7f31a686db4",
+      "label": "NAMES_2",
+      "definition_id": "DEF-RUSSELL-CONTEXTUAL-NAME",
+      "lean_declaration": "TruthCore.Modern.Russell.Existence.StrictNameAt"
+    }
+  ]
 }

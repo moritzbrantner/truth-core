@@ -7,5 +7,32 @@
     "DEF-NATURALISM-N3",
     "DEF-NATURALISM-N3-INTERACTION"
   ],
-  "resolution": "The ontological variants differ in their domain, not in their thesis predicate: N1 quantifies over everything existing, N2 over existing concreta, N3 over bearers of causal power and N3i over causes of things satisfying the predicate. Each is a separate statement. N1 entails N2 with no premise (NATURALISM-N1-ENTAILS-N2); the other pairs need bridges: N2 gives N3 only with the causal-concreteness floor item, and N3 and N3i are related only through the exercise-to-power reading. Under the owner's #1113 bridge (whatever exists in re is concrete), N1 and N2 coincide for existents in re; N1 differs only where something exists without esse in re, as a Platonist number would. The methodological variants (STMT-SELLARS-SCIENTIA-MENSURA, STMT-QUINE-NATURALIZED-EPISTEMOLOGY) are about method, not domain, and are recorded untyped."
+  "resolution": "The ontological variants differ in their domain, not in their thesis predicate: N1 quantifies over everything existing, N2 over existing concreta, N3 over bearers of causal power and N3i over causes of things satisfying the predicate. Each is a separate statement. N1 entails N2 with no premise (NATURALISM-N1-ENTAILS-N2); the other pairs need bridges: N2 gives N3 only with the causal-concreteness floor item, and N3 and N3i are related only through the exercise-to-power reading. Under the owner's #1113 bridge (whatever exists in re is concrete), N1 and N2 coincide for existents in re; N1 differs only where something exists without esse in re, as a Platonist number would. The methodological variants (STMT-SELLARS-SCIENTIA-MENSURA, STMT-QUINE-NATURALIZED-EPISTEMOLOGY) are about method, not domain, and are recorded untyped.",
+  "term_label": "NATURALISM",
+  "senses": [
+    {
+      "id": "2a673e2f-1afc-4b33-bdef-11a1f0c85e66",
+      "label": "NATURALISM_1",
+      "definition_id": "DEF-NATURALISM-N1",
+      "lean_declaration": "TruthCore.Ontology.Naturalism.ExistenceNaturalism"
+    },
+    {
+      "id": "478eae4e-600e-4818-b27a-0527faaafa8d",
+      "label": "NATURALISM_2",
+      "definition_id": "DEF-NATURALISM-N2",
+      "lean_declaration": "TruthCore.Ontology.Naturalism.ConcreteNaturalism"
+    },
+    {
+      "id": "dc319303-5529-4500-ae29-91ce4d2012c1",
+      "label": "NATURALISM_3",
+      "definition_id": "DEF-NATURALISM-N3",
+      "lean_declaration": "TruthCore.Ontology.Naturalism.CausalPowerNaturalism"
+    },
+    {
+      "id": "ee3bccdf-a5cc-445e-9f2e-52d5113bfcef",
+      "label": "NATURALISM_4",
+      "definition_id": "DEF-NATURALISM-N3-INTERACTION",
+      "lean_declaration": "TruthCore.Ontology.Naturalism.InteractionNaturalism"
+    }
+  ]
 }

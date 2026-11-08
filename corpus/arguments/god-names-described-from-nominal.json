@@ -20,5 +20,13 @@
     "DISAMB-GOD",
     "DISAMB-MAXIME-ENS"
   ],
-  "label": "GOD_1 to root: the GOD_1-to-GOD_4 bridge gives the naming premise (transcription)"
+  "label": "GOD_1 to root: the GOD_1-to-GOD_4 bridge gives the naming premise (transcription)",
+  "sense_bridges": [
+    {
+      "term": "GOD",
+      "from": "295c9096-50b8-4ccd-960e-f833730a0774",
+      "to": "52c2ebac-0a71-4dd4-8a21-804c1dd0847a",
+      "statement_id": "STMT-NOMINAL-GOD-IS-CLASSICAL-GOD"
+    }
+  ]
 }

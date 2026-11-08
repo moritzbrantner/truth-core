@@ -5,5 +5,19 @@
     "DEF-FALLIBLE-WEIGHTED-CORRECTION",
     "DEF-WARRANTED-CORRECTION-STANDARD"
   ],
-  "resolution": "The new protocol is an executable online update with extensional mistake bounds. Actual correctness is evaluated against separately supplied truth, not coherence or agreement. A bounded corruption regime permits conditional error control without exact all-state classification. Neither actual reliability nor existence of the algorithm establishes accessible justification, evidence calibration or normative authority. Warranted correction remains the separate philosophical standard; no threshold is defined to be justification. Lucky correctness, misleading labels, reliable-but-unjustified and justified-but-fallible cases are distinguished in docs/notes/fallible-correction-931.md."
+  "resolution": "The new protocol is an executable online update with extensional mistake bounds. Actual correctness is evaluated against separately supplied truth, not coherence or agreement. A bounded corruption regime permits conditional error control without exact all-state classification. Neither actual reliability nor existence of the algorithm establishes accessible justification, evidence calibration or normative authority. Warranted correction remains the separate philosophical standard; no threshold is defined to be justification. Lucky correctness, misleading labels, reliable-but-unjustified and justified-but-fallible cases are distinguished in docs/notes/fallible-correction-931.md.",
+  "term_label": "FALLIBLE_CORRECTION",
+  "senses": [
+    {
+      "id": "e9f64f2f-f0d5-440a-8ec1-8c20788eea5b",
+      "label": "FALLIBLE_CORRECTION_1",
+      "definition_id": "DEF-FALLIBLE-WEIGHTED-CORRECTION",
+      "lean_declaration": "TruthCore.Logic.FallibleCorrection.weights"
+    },
+    {
+      "id": "85382a42-8542-4873-98b7-e6a66cfefc9d",
+      "label": "FALLIBLE_CORRECTION_2",
+      "definition_id": "DEF-WARRANTED-CORRECTION-STANDARD"
+    }
+  ]
 }

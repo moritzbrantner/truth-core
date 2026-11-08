@@ -22,5 +22,20 @@
     "DISAMB-GOD",
     "DISAMB-MAXIME-ENS"
   ],
-  "label": "GOD_3: usage naming and a GOD_3-to-GOD_4 bridge give the naming premise"
+  "label": "GOD_3: usage naming and a GOD_3-to-GOD_4 bridge give the naming premise",
+  "sense_bridges": [
+    {
+      "term": "GOD",
+      "from": "b7754ffd-e139-42d1-bf84-77579fa650cf",
+      "to": "52c2ebac-0a71-4dd4-8a21-804c1dd0847a",
+      "statement_id": "STMT-CALLED-GOD-IS-CLASSICAL-GOD"
+    },
+    {
+      "term": "GOD",
+      "from": "295c9096-50b8-4ccd-960e-f833730a0774",
+      "to": "52c2ebac-0a71-4dd4-8a21-804c1dd0847a",
+      "statement_id": "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE",
+      "role": "conclusion"
+    }
+  ]
 }

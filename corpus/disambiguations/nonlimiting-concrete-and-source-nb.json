@@ -6,5 +6,26 @@
     "DEF-NONLIMITING-CONCRETE-CONTROL",
     "DEF-LIMITATION-POSSIBILITY-CONFIGURATION"
   ],
-  "resolution": "The target concrete-and-exists property contains no NecessaryAt, powerful predicate or God identity. The separate possible-absence property contains Dia of negated existence; it is not actual contingent existence. Source P2 nonlimitation of being a powerful Necessary Being is NOT identified with nonlimitation of concrete existence. Evaluative limitation is also not the composite/essence/priority HasLimitingPrinciple predicate. The new fixed-witness classifier is an analyst fixture only, not full deficiency semantics, source entitlement, Scott positivity or a proof of actual adequacy. Modal necessity remains relative to the SAME supplied Ontic frame and rigid individual. Grounds is unused, not causally reinterpreted. The existing DISAMB-LIMITATION-CONDITIONAL-SOURCE-SCOTT supplies the source/structural sense links DEF-NB-A8-LIMITING-PROPERTY, DEF-NB-A8-MODAL-PROPERTY-ENTAILMENT and DEF-HAS-LIMITING-PRINCIPLE; the new specialized statements and arguments explicitly link that record as well."
+  "resolution": "The target concrete-and-exists property contains no NecessaryAt, powerful predicate or God identity. The separate possible-absence property contains Dia of negated existence; it is not actual contingent existence. Source P2 nonlimitation of being a powerful Necessary Being is NOT identified with nonlimitation of concrete existence. Evaluative limitation is also not the composite/essence/priority HasLimitingPrinciple predicate. The new fixed-witness classifier is an analyst fixture only, not full deficiency semantics, source entitlement, Scott positivity or a proof of actual adequacy. Modal necessity remains relative to the SAME supplied Ontic frame and rigid individual. Grounds is unused, not causally reinterpreted. The existing DISAMB-LIMITATION-CONDITIONAL-SOURCE-SCOTT supplies the source/structural sense links DEF-NB-A8-LIMITING-PROPERTY, DEF-NB-A8-MODAL-PROPERTY-ENTAILMENT and DEF-HAS-LIMITING-PRINCIPLE; the new specialized statements and arguments explicitly link that record as well.",
+  "term_label": "ANALYST_NONLIMITING_CONCRETE_EXISTENCE_VERSUS_SOURCE",
+  "senses": [
+    {
+      "id": "8c440da6-a1cb-45ba-b29d-7da3cc744f81",
+      "label": "ANALYST_NONLIMITING_CONCRETE_EXISTENCE_VERSUS_SOURCE_1",
+      "definition_id": "DEF-NONLIMITING-CONCRETE-CONFIGURATION",
+      "lean_declaration": "TruthCore.Causality.NonlimitingConcreteExistence.ConcreteExistence"
+    },
+    {
+      "id": "96447488-3a4b-4bf4-a25b-6aff7ea9cfe2",
+      "label": "ANALYST_NONLIMITING_CONCRETE_EXISTENCE_VERSUS_SOURCE_2",
+      "definition_id": "DEF-NONLIMITING-CONCRETE-CONTROL",
+      "lean_declaration": "TruthCore.Causality.NonlimitingConcreteExistence.controlProfile"
+    },
+    {
+      "id": "9ed0fd39-8630-4546-82c7-1526396a3c34",
+      "label": "ANALYST_NONLIMITING_CONCRETE_EXISTENCE_VERSUS_SOURCE_3",
+      "definition_id": "DEF-LIMITATION-POSSIBILITY-CONFIGURATION",
+      "lean_declaration": "TruthCore.Modal.LimitationPossibility.BackwardClosedAt"
+    }
+  ]
 }

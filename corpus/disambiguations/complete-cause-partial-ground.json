@@ -5,5 +5,20 @@
     "DEF-COMPLETE-OBJECT-CAUSATION",
     "DEF-BRUTE-ROOT-RELATIVE-GROUNDING"
   ],
-  "resolution": "AtomisticCausalSource uses G as a candidate COMPLETE existence-producing relation, not a partial contributor or the world-local grounds field. Rutten's one-cause-per-effect concerns incoming complete causes; a cause may have many effects. Joint contributors can be only part of a complete source. Constitutive grounds can overlap their whole and do not automatically satisfy complete-production nonoverlap. No relation inclusion, actuality, inverse mapping or necessity bridge is inferred from names."
+  "resolution": "AtomisticCausalSource uses G as a candidate COMPLETE existence-producing relation, not a partial contributor or the world-local grounds field. Rutten's one-cause-per-effect concerns incoming complete causes; a cause may have many effects. Joint contributors can be only part of a complete source. Constitutive grounds can overlap their whole and do not automatically satisfy complete-production nonoverlap. No relation inclusion, actuality, inverse mapping or necessity bridge is inferred from names.",
+  "term_label": "COMPLETE_EXISTENCE_PRODUCTION_VERSUS_EXISTENTIAL_GROUNDING",
+  "senses": [
+    {
+      "id": "c3f612b4-59f3-4ba6-b669-d349fda71669",
+      "label": "COMPLETE_EXISTENCE_PRODUCTION_VERSUS_EXISTENTIAL_GROUNDING_1",
+      "definition_id": "DEF-COMPLETE-OBJECT-CAUSATION",
+      "lean_declaration": "TruthCore.Logic.Regress.Graph.edge"
+    },
+    {
+      "id": "72999c5d-5dcb-4941-b82a-bc4f592dfc2f",
+      "label": "COMPLETE_EXISTENCE_PRODUCTION_VERSUS_EXISTENTIAL_GROUNDING_2",
+      "definition_id": "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+      "lean_declaration": "TruthCore.Causality.NecessaryRootFork.ActualRoot"
+    }
+  ]
 }

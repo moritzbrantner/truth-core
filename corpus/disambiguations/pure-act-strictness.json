@@ -5,5 +5,20 @@
     "DEF-PURE-ACT",
     "DEF-STRICT-PURE-ACTUALITY"
   ],
-  "resolution": "Pure act in the sense of DEF-PURE-ACT means being in potency in no respect. Strict pure actuality (DEF-STRICT-PURE-ACTUALITY) means that every real determination of the being is a pure perfection, so it has no real individuating, receiving or limiting principle that is not an actuality. The first does not imply the second: a real thisness that is neither a potency nor a perfection satisfies the first and violates the second (withoutStrictPurity). The pure-act thisness results use only the strict sense, as an explicit open premise; no step derives it from the absence of potency."
+  "resolution": "Pure act in the sense of DEF-PURE-ACT means being in potency in no respect. Strict pure actuality (DEF-STRICT-PURE-ACTUALITY) means that every real determination of the being is a pure perfection, so it has no real individuating, receiving or limiting principle that is not an actuality. The first does not imply the second: a real thisness that is neither a potency nor a perfection satisfies the first and violates the second (withoutStrictPurity). The pure-act thisness results use only the strict sense, as an explicit open premise; no step derives it from the absence of potency.",
+  "term_label": "PURE_ACT",
+  "senses": [
+    {
+      "id": "69cfb611-0f8a-4e90-966c-f2d4d2d4639a",
+      "label": "PURE_ACT_1",
+      "definition_id": "DEF-PURE-ACT",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PureAct"
+    },
+    {
+      "id": "7161be95-18c4-4f95-b331-96c347bb6382",
+      "label": "PURE_ACT_2",
+      "definition_id": "DEF-STRICT-PURE-ACTUALITY",
+      "lean_declaration": "TruthCore.Causality.PureActThisness.FirstMoverDeterminationsArePure"
+    }
+  ]
 }

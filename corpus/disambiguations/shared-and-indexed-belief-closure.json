@@ -5,5 +5,20 @@
     "DEF-SHARED-BELIEF-POOL-CLOSURE",
     "DEF-INDEXED-BELIEF-POOL-CLOSURE"
   ],
-  "resolution": "JointClosureLaw uses one unindexed selected pool and requires closure under each relation on all its finite premise lists. The indexed survivor instead uses two pools with only their own closure; it does not authorize cross-profile transfer. A joint policy consequence is not identity of semantic validity relations or an established categorical ought."
+  "resolution": "JointClosureLaw uses one unindexed selected pool and requires closure under each relation on all its finite premise lists. The indexed survivor instead uses two pools with only their own closure; it does not authorize cross-profile transfer. A joint policy consequence is not identity of semantic validity relations or an established categorical ought.",
+  "term_label": "CLOSURE_UNDER_SEVERAL_LOGICS",
+  "senses": [
+    {
+      "id": "aa87729a-5426-497c-bb16-7b5291fe618f",
+      "label": "CLOSURE_UNDER_SEVERAL_LOGICS_1",
+      "definition_id": "DEF-SHARED-BELIEF-POOL-CLOSURE",
+      "lean_declaration": "TruthCore.Logic.PluralClosureBoundary.Closed"
+    },
+    {
+      "id": "744b404a-b6ba-4d9d-adef-bd85f28dc206",
+      "label": "CLOSURE_UNDER_SEVERAL_LOGICS_2",
+      "definition_id": "DEF-INDEXED-BELIEF-POOL-CLOSURE",
+      "lean_declaration": "TruthCore.Logic.PluralClosureBoundary.SurvivorControls"
+    }
+  ]
 }

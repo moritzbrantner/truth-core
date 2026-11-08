@@ -5,5 +5,20 @@
     "DEF-GROUNDING-IDENTITY-COMMON-SOURCE",
     "DEF-GROUNDING-IDENTITY-GUARDED-CORRESPONDENCE"
   ],
-  "resolution": "Literal identity is equality of the entire (tag, source coordinate) pair. Counterparts and cross-profile matching preserve source coordinates on existing fibers, so the same role may have differently tagged individuals. At world false both profiles have literally the same data; at other worlds their local structures correspond without equating tagged bearers. Coherent composition and bijection do not supply numerical identity. Neither profile is shown physically or metaphysically adequate."
+  "resolution": "Literal identity is equality of the entire (tag, source coordinate) pair. Counterparts and cross-profile matching preserve source coordinates on existing fibers, so the same role may have differently tagged individuals. At world false both profiles have literally the same data; at other worlds their local structures correspond without equating tagged bearers. Coherent composition and bijection do not supply numerical identity. Neither profile is shown physically or metaphysically adequate.",
+  "term_label": "SAME_INDIVIDUAL_ACROSS_WORLD_LOCAL_GROUNDING",
+  "senses": [
+    {
+      "id": "071d892a-8476-410c-9f5d-5e93b38a9e41",
+      "label": "SAME_INDIVIDUAL_ACROSS_WORLD_LOCAL_GROUNDING_1",
+      "definition_id": "DEF-GROUNDING-IDENTITY-COMMON-SOURCE",
+      "lean_declaration": "TruthCore.Causality.GroundingIdentityProfile.rigid"
+    },
+    {
+      "id": "66e8d874-2355-46e7-8d36-18b8e5dcc986",
+      "label": "SAME_INDIVIDUAL_ACROSS_WORLD_LOCAL_GROUNDING_2",
+      "definition_id": "DEF-GROUNDING-IDENTITY-GUARDED-CORRESPONDENCE",
+      "lean_declaration": "TruthCore.Causality.GroundingIdentityProfile.counterparts"
+    }
+  ]
 }

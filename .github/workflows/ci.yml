@@ -58,6 +58,14 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y poppler-utils zstd
       - name: Validate corpus metadata and source bindings
         run: python3 scripts/corpus.py check
+      # Sense-index legacy allowlists may only shrink (#1233): a PR that adds an
+      # entry fails; entries that no longer fail are listed for removal.
+      - name: Ratchet the sense-index allowlists
+        if: github.event_name == 'pull_request'
+        run: |
+          if git rev-parse --verify HEAD^1 >/dev/null 2>&1; then
+            python3 scripts/sense_index.py ratchet --base HEAD^1
+          fi
       - name: Check bounded migration coverage and review freshness
         run: python3 scripts/bundle_audit.py
       - name: Bind argument records to result theorem types

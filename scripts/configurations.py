@@ -30,8 +30,8 @@ def validate_case(case, statements, results, arguments, models, root):
     allowed = {'id', 'description', 'seed_statement_id', 'semantics', 'configurations', 'incompatibility_result_ids', 'implication_result_ids', 'model_bindings'}
     if set(case) - allowed:
         raise ValueError('unknown configuration fields (derived statuses may not be stored)')
-    if not isinstance(case.get('id'), str) or not re.fullmatch(r'CONFIG-[A-Z0-9-]+', case['id']):
-        raise ValueError('configuration case needs a CONFIG- identifier')
+    if not isinstance(case.get('id'), str) or not re.fullmatch(r'CONFIG-[A-Z0-9-]+|' + r'[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}', case['id']):
+        raise ValueError('configuration case needs a CONFIG- identifier or a uuid4')
     if not isinstance(case.get('seed_statement_id'), str) or case['seed_statement_id'] not in statements:
         raise ValueError('unknown configuration seed')
     profile = case.get('semantics')

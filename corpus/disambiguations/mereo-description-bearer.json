@@ -5,5 +5,20 @@
     "DEF-MEREO-INTERVENTION-DYNAMICS",
     "DEF-MEREO-SUBSTANTIAL-UNITY"
   ],
-  "resolution": "A closed macroscopic response description does not assert a material composite or substantial unity. The arrangement certificate quantifies over mathematical states and intervention histories while its separately chosen material bearer carrier has identity-only parthood. Neither a state-pair type nor successful dynamic reduction identifies an extra individual; neither proves that actual composites or substances are absent."
+  "resolution": "A closed macroscopic response description does not assert a material composite or substantial unity. The arrangement certificate quantifies over mathematical states and intervention histories while its separately chosen material bearer carrier has identity-only parthood. Neither a state-pair type nor successful dynamic reduction identifies an extra individual; neither proves that actual composites or substances are absent.",
+  "term_label": "SYSTEM_OR_WHOLE_AS_A_DESCRIPTION",
+  "senses": [
+    {
+      "id": "e4379a8d-434d-4ed9-a9a0-0ad5af30fdc6",
+      "label": "SYSTEM_OR_WHOLE_AS_A_DESCRIPTION_1",
+      "definition_id": "DEF-MEREO-INTERVENTION-DYNAMICS",
+      "lean_declaration": "TruthCore.Mereology.ArrangementDynamics.Realizes"
+    },
+    {
+      "id": "22850433-bad0-40e2-8bda-d0c0657a6cd8",
+      "label": "SYSTEM_OR_WHOLE_AS_A_DESCRIPTION_2",
+      "definition_id": "DEF-MEREO-SUBSTANTIAL-UNITY",
+      "lean_declaration": "TruthCore.Mereology.Vitalism.Scenario.SubstantialUnity"
+    }
+  ]
 }

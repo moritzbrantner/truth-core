@@ -5,5 +5,19 @@
     "DEF-HUME-ACTUAL-DENIAL",
     "DEF-HUME-NECESSARY-DENIAL"
   ],
-  "resolution": "H is world-relative StrongBridge; C(¬H), C(□¬H), H, and □H have distinct scopes. The old selfC model makes H and C(¬H) true but C(□¬H) false; the one-step model makes H, □H and C(□¬H) true but C(¬H) false. Converting the necessary-denial conception into a contradiction with □H requires stated accessibility conditions, not a scope substitution."
+  "resolution": "H is world-relative StrongBridge; C(¬H), C(□¬H), H, and □H have distinct scopes. The old selfC model makes H and C(¬H) true but C(□¬H) false; the one-step model makes H, □H and C(□¬H) true but C(¬H) false. Converting the necessary-denial conception into a contradiction with □H requires stated accessibility conditions, not a scope substitution.",
+  "term_label": "CONCEIVING_DENIAL_OF_THE_BRIDGE_CONCEIVING",
+  "senses": [
+    {
+      "id": "f6cf4c10-9a76-4055-9170-a9120301cf05",
+      "label": "CONCEIVING_DENIAL_OF_THE_BRIDGE_CONCEIVING_1",
+      "definition_id": "DEF-HUME-ACTUAL-DENIAL"
+    },
+    {
+      "id": "82ca4884-7e7c-4809-8178-69f144bba9e2",
+      "label": "CONCEIVING_DENIAL_OF_THE_BRIDGE_CONCEIVING_2",
+      "definition_id": "DEF-HUME-NECESSARY-DENIAL",
+      "lean_declaration": "TruthCore.Modern.Hume.SelfApplication.NecessaryDenial"
+    }
+  ]
 }

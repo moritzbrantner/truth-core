@@ -7,5 +7,32 @@
     "DEF-POSITIVE-BOOLEAN-MEREOLOGY",
     "DEF-ATOMIC-SIMPLE-PART"
   ],
-  "resolution": "Every object has a strict nonempty proper part is stronger than merely failure of all-object atomicity in a mixed domain. Minimal parts (atomicity), fusion of atoms (atomisticity), and terminating decomposition are distinct. Regular open regions form a mathematical carrier: individual points are not objects, joins regularize unions, and remainders collect all disjoint parts rather than every point in a raw set difference. Exact remainder/fusion consistency establishes no physical gunk or actual material universalism. Removing Boolean zero does not alone exclude a least remaining element in every Boolean algebra."
+  "resolution": "Every object has a strict nonempty proper part is stronger than merely failure of all-object atomicity in a mixed domain. Minimal parts (atomicity), fusion of atoms (atomisticity), and terminating decomposition are distinct. Regular open regions form a mathematical carrier: individual points are not objects, joins regularize unions, and remainders collect all disjoint parts rather than every point in a raw set difference. Exact remainder/fusion consistency establishes no physical gunk or actual material universalism. Removing Boolean zero does not alone exclude a least remaining element in every Boolean algebra.",
+  "term_label": "GUNK_ATOMICITY_AND_PHYSICAL_COMPOSITION",
+  "senses": [
+    {
+      "id": "64ac54b5-bed0-464f-8deb-c47e6faa37be",
+      "label": "GUNK_ATOMICITY_AND_PHYSICAL_COMPOSITION_1",
+      "definition_id": "DEF-REGULAR-REAL-REGION-MEREOLOGY",
+      "lean_declaration": "TruthCore.Mereology.AtomlessFusionProfile.GunkCertificate"
+    },
+    {
+      "id": "28ef4de5-3a36-461a-9856-b6d46db6329c",
+      "label": "GUNK_ATOMICITY_AND_PHYSICAL_COMPOSITION_2",
+      "definition_id": "DEF-ATOMIC-FUSION-CONTRAST",
+      "lean_declaration": "TruthCore.Mereology.AtomlessFusionProfile.AtomicCertificate"
+    },
+    {
+      "id": "1b730767-b93d-4157-ada0-08156cd18b7f",
+      "label": "GUNK_ATOMICITY_AND_PHYSICAL_COMPOSITION_3",
+      "definition_id": "DEF-POSITIVE-BOOLEAN-MEREOLOGY",
+      "lean_declaration": "TruthCore.Mereology.AtomlessFusionProfile.PositiveProfile"
+    },
+    {
+      "id": "66e4244b-db42-4b96-88d4-99549763d877",
+      "label": "GUNK_ATOMICITY_AND_PHYSICAL_COMPOSITION_4",
+      "definition_id": "DEF-ATOMIC-SIMPLE-PART",
+      "lean_declaration": "TruthCore.Causality.AtomisticCausalSource.AtomicParts"
+    }
+  ]
 }

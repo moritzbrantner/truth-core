@@ -33,5 +33,13 @@
     "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
     "DISAMB-IN-ACT",
     "DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE"
+  ],
+  "sense_bridges": [
+    {
+      "term": "CONCRETE_AND_ABSTRACT",
+      "from": "bdf2c710-a092-4943-8732-c23f0b8d1fae",
+      "to": "b1175e6c-0519-4c19-98ae-b053616ec750",
+      "statement_id": "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS"
+    }
   ]
 }

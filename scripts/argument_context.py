@@ -21,6 +21,8 @@ import re
 from pathlib import Path
 from typing import Any
 
+from sense_labels import format_sense_labels, sense_labels_from_data
+
 ID_TOKEN = re.compile(r"(?<![A-Za-z0-9-])[A-Z][A-Z0-9]*(?:-[A-Z0-9]+)+(?![A-Za-z0-9-])")
 IMPORT = re.compile(r"^(?:public\s+)?import\s+(\S+)", re.M)
 DECLARATION = re.compile(r"^(?:@\[[^\]]*\]\s*)?(?:private\s+|public\s+|protected\s+)?(?:theorem|lemma)\s+(\S+)", re.M)
@@ -180,6 +182,7 @@ def context_pack(root: Path, data: dict[str, list[dict[str, Any]]], report: dict
     focus_set = set(focus)
     transcriptions = report["transcription_results"]
     items = {entry["statement_id"]: entry for entry in report["items"]}
+    sense_labels = sense_labels_from_data(data)
 
     def result_summary(result: dict[str, Any]) -> dict[str, Any]:
         return {"result_id": result["id"], "argument_id": result["argument_id"], "theorem": result.get("theorem"),
@@ -204,6 +207,7 @@ def context_pack(root: Path, data: dict[str, list[dict[str, Any]]], report: dict
         record = statements.get(sid, {})
         return {"statement_id": sid, "paraphrase": record.get("paraphrase"),
                 "lean_declaration": record.get("lean_declaration"), **status(sid),
+                "senses": sense_labels(record) if record else {},
                 "concluded_by": concluded_by(sid)}
 
     # --- Lean: authoritative type, companions, and actual reuse --------------
@@ -359,6 +363,7 @@ def context_pack(root: Path, data: dict[str, list[dict[str, Any]]], report: dict
     return {
         "argument_id": argument_id,
         "meaning": argument.get("meaning"),
+        "senses": sense_labels(argument),
         "root": report["root"],
         "conclusion": statement_entry(conclusion),
         "premises": [statement_entry(sid) for sid in premises],
@@ -410,6 +415,10 @@ def _load_json(path: Path) -> dict[str, Any]:
         return {}
 
 
+def _senses(entry: dict[str, Any]) -> str:
+    return f" [senses {format_sense_labels(entry['senses'])}]" if entry.get("senses") else ""
+
+
 def format_context(pack: dict[str, Any], limit: int = 6, width: int = 150, overflow: int = 40) -> str:
     """Compact text for an agent's context window; `--json` keeps every entry untruncated."""
     lines: list[str] = []
@@ -449,9 +458,13 @@ def format_context(pack: dict[str, Any], limit: int = 6, width: int = 150, overf
 
     lines.append(f"Argument {pack['argument_id']} (derived context; navigation only, not verification)")
     lines.append("  " + _short(pack["meaning"], width * 2))
+    if pack.get("senses"):
+        mixed = [term for term, labels in pack["senses"].items() if len(labels) > 1]
+        lines.append("  Senses: " + format_sense_labels(pack["senses"])
+                     + (f" (several senses of {', '.join(mixed)})" if mixed else ""))
     c = pack["conclusion"]
     lines.append(f"\nConclusion {c['statement_id']}: {status(c)}; reaches {pack['root']}: {str(c['reaches_root']).lower()}")
-    lines.append("  " + _short(c["paraphrase"], width) + f" [Lean {c['lean_declaration']}]")
+    lines.append("  " + _short(c["paraphrase"], width) + f" [Lean {c['lean_declaration']}]" + _senses(c))
     lines.append("  " + routes_of(c))
     for label, key in (("Premises", "premises"), ("Commitments", "commitments")):
         if key == "commitments" and not pack[key]:
@@ -459,7 +472,8 @@ def format_context(pack: dict[str, Any], limit: int = 6, width: int = 150, overf
         lines.append(f"\n{label} ({len(pack[key])}; every one is required jointly):" if pack[key] else f"\n{label}: none")
         for entry in pack[key]:
             lines.append(f"  {entry['statement_id']}: {status(entry)}; {routes_of(entry)}")
-            lines.append("    " + _short(entry["paraphrase"], width) + f" [Lean {entry['lean_declaration']}]")
+            lines.append("    " + _short(entry["paraphrase"], width) + f" [Lean {entry['lean_declaration']}]"
+                         + _senses(entry))
 
     lines.append("\nLean (authoritative; text copied from the frozen Challenge module):")
     for entry in pack["lean"]:

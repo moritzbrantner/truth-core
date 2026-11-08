@@ -13,5 +13,67 @@
     "DEF-MODAL-FIXTURE-FRAME",
     "DEF-KANT-MODAL-NECESSITY"
   ],
-  "resolution": "In the tertia via 'necessary' is said of beings: a being that cannot not-be. A necessary being may have its necessity from another (the dichotomy STMT-NECESSARY-HAS-CAUSE-OF-NECESSITY-OR-NOT leaves both cases open), so 'necessary per se' is a further condition, and the tertia via's conclusion and its convergence with the maxime ens (STMT-NECESSARY-PER-SE-IS-MAXIME-ENS) are about necessary per se beings. Logical necessity of a proposition is not used: excluded middle (STMT-EXCLUDED-MIDDLE) is a logical principle, not a claim that any being exists necessarily. Scott's variant (#134) uses two further senses. 'Necessarily' there is the Kripke box of the QML KB embedding (DEF-QML-KB-NECESSITY), said of propositions relative to an accessibility relation. 'Necessary existence' (DEF-NECESSARY-EXISTENCE-SCOTT) is a property of individuals defined from essences and that box. Neither is the tertia via's necessary being as such; their relation to it is fixed by the sense fork below. Gödel's 1970 variant (#135) has the same Kripke box over its own embedding (DEF-HOML-ACTUALIST-NECESSITY, the shared Lean `Box`) and its own 'necessary existence' (DEF-NECESSARY-EXISTENCE-GOEDEL-1970), defined from the 1970 essence and the actualist quantifier. It is not Scott's necessary existence: the two are separate Lean declarations. `FilteredNecessaryExistence` (DEF-FILTERED-NECESSARY-EXISTENCE) is a stipulated diagnostic variant, using the same property filter for both essence quantifiers; its model-theoretic outcomes must not be attributed to Scott or equated with a Thomistic necessary being. The arbitrary-frame fixture (DEF-MODAL-FIXTURE-FRAME) shares the raw Box operator with the KB embedding; KB symmetry and quantifier policies are separate framework premises. Kant’s stipulated de re NecessaryAt is that Box applied to the existence of one fixed object under the same frame (DefinitionDictionaryConnections.connections), while NecessaryBeing also requires an actual witness. This dictionary equality does not identify source concepts or change existential scope. Sense fork (owner direction 2026-11-07): for the necessary-classical-God route the senses are related by TruthCore.Causality.NecessarySenseFork (DEF-NECESSARY-IN-SENSE), a finite enum with NecessaryIn defined by cases, and by the fork theorem NECESSARY-SENSE-FORK (forkOnIntendedReading). The route's NecessaryAt is the Kripke box of 'n exists' by Iff.rfl (necessaryAt_iff_boxExistsAt), so the route already uses modal-logic necessity, in logic K. Branches that succeed from the 25 route inputs alone: box-existence in K (STMT-NECESSARY-ROOT-BOX-K), actualist K (STMT-NECESSARY-ROOT-ACTUALIST-K), de dicto K (STMT-NECESSARY-ROOT-DE-DICTO-K) and tertia via 'cannot not-be' with possibility read as the frame's diamond (STMT-NECESSARY-ROOT-TERTIA-VIA). Branches that succeed given a side condition and fail without it (countermodels in NECESSARY-SENSE-FORK-CONTROLS): box-existence in KT, S4, KTB and S5 (the OPEN frame premises STMT-ONTIC-FRAME-KT, -S4, -KTB, -S5) and necessary per se (the OPEN grounding premises STMT-NECESSITY-CAUSE-RELATA-ACTUAL-CONCRETE, STMT-NECESSITATED-DEPENDS-ON-ITS-CAUSE, STMT-ACTUAL-DEPENDENCE-IS-GROUNDING). No enumerated branch is refuted. Unresolved and left out of the enum, so open to attack through the coverage premise STMT-NECESSARY-SENSES-EXHAUSTIVE: logical necessity of existence and the essence-based Scott, Goedel-1970 and filtered necessary existence. The exclusivity premise STMT-NECESSARY-SENSE-UNIQUE is a choice of one reading, not disjointness of extensions; the strength order is registered by strengthens relations (S5 -> S4 -> T -> actualist K -> K -> de dicto K and tertia via; S5 -> KTB -> T; per se -> tertia via). The root route NECESSARY-CLASSICAL-GOD-CASE-SENSE-FORK takes the sense as a parameter of its necessary root; within each argument the use of 'necessary' is the single sense its Lean statement names, so no argument passes between senses."
+  "resolution": "In the tertia via 'necessary' is said of beings: a being that cannot not-be. A necessary being may have its necessity from another (the dichotomy STMT-NECESSARY-HAS-CAUSE-OF-NECESSITY-OR-NOT leaves both cases open), so 'necessary per se' is a further condition, and the tertia via's conclusion and its convergence with the maxime ens (STMT-NECESSARY-PER-SE-IS-MAXIME-ENS) are about necessary per se beings. Logical necessity of a proposition is not used: excluded middle (STMT-EXCLUDED-MIDDLE) is a logical principle, not a claim that any being exists necessarily. Scott's variant (#134) uses two further senses. 'Necessarily' there is the Kripke box of the QML KB embedding (DEF-QML-KB-NECESSITY), said of propositions relative to an accessibility relation. 'Necessary existence' (DEF-NECESSARY-EXISTENCE-SCOTT) is a property of individuals defined from essences and that box. Neither is the tertia via's necessary being as such; their relation to it is fixed by the sense fork below. Gödel's 1970 variant (#135) has the same Kripke box over its own embedding (DEF-HOML-ACTUALIST-NECESSITY, the shared Lean `Box`) and its own 'necessary existence' (DEF-NECESSARY-EXISTENCE-GOEDEL-1970), defined from the 1970 essence and the actualist quantifier. It is not Scott's necessary existence: the two are separate Lean declarations. `FilteredNecessaryExistence` (DEF-FILTERED-NECESSARY-EXISTENCE) is a stipulated diagnostic variant, using the same property filter for both essence quantifiers; its model-theoretic outcomes must not be attributed to Scott or equated with a Thomistic necessary being. The arbitrary-frame fixture (DEF-MODAL-FIXTURE-FRAME) shares the raw Box operator with the KB embedding; KB symmetry and quantifier policies are separate framework premises. Kant’s stipulated de re NecessaryAt is that Box applied to the existence of one fixed object under the same frame (DefinitionDictionaryConnections.connections), while NecessaryBeing also requires an actual witness. This dictionary equality does not identify source concepts or change existential scope. Sense fork (owner direction 2026-11-07): for the necessary-classical-God route the senses are related by TruthCore.Causality.NecessarySenseFork (DEF-NECESSARY-IN-SENSE), a finite enum with NecessaryIn defined by cases, and by the fork theorem NECESSARY-SENSE-FORK (forkOnIntendedReading). The route's NecessaryAt is the Kripke box of 'n exists' by Iff.rfl (necessaryAt_iff_boxExistsAt), so the route already uses modal-logic necessity, in logic K. Branches that succeed from the 25 route inputs alone: box-existence in K (STMT-NECESSARY-ROOT-BOX-K), actualist K (STMT-NECESSARY-ROOT-ACTUALIST-K), de dicto K (STMT-NECESSARY-ROOT-DE-DICTO-K) and tertia via 'cannot not-be' with possibility read as the frame's diamond (STMT-NECESSARY-ROOT-TERTIA-VIA). Branches that succeed given a side condition and fail without it (countermodels in NECESSARY-SENSE-FORK-CONTROLS): box-existence in KT, S4, KTB and S5 (the OPEN frame premises STMT-ONTIC-FRAME-KT, -S4, -KTB, -S5) and necessary per se (the OPEN grounding premises STMT-NECESSITY-CAUSE-RELATA-ACTUAL-CONCRETE, STMT-NECESSITATED-DEPENDS-ON-ITS-CAUSE, STMT-ACTUAL-DEPENDENCE-IS-GROUNDING). No enumerated branch is refuted. Unresolved and left out of the enum, so open to attack through the coverage premise STMT-NECESSARY-SENSES-EXHAUSTIVE: logical necessity of existence and the essence-based Scott, Goedel-1970 and filtered necessary existence. The exclusivity premise STMT-NECESSARY-SENSE-UNIQUE is a choice of one reading, not disjointness of extensions; the strength order is registered by strengthens relations (S5 -> S4 -> T -> actualist K -> K -> de dicto K and tertia via; S5 -> KTB -> T; per se -> tertia via). The root route NECESSARY-CLASSICAL-GOD-CASE-SENSE-FORK takes the sense as a parameter of its necessary root; within each argument the use of 'necessary' is the single sense its Lean statement names, so no argument passes between senses.",
+  "term_label": "NECESSARY",
+  "senses": [
+    {
+      "id": "e0c9b653-4077-4942-95fc-574e857a8439",
+      "label": "NECESSARY_3",
+      "definition_id": "DEF-NECESSARY-BEING",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.IsNecessary"
+    },
+    {
+      "id": "7db71fb6-3f3b-49fc-9152-d214b3032ff8",
+      "label": "NECESSARY_4",
+      "definition_id": "DEF-NECESSARY-PER-SE",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.IsNecessaryPerSe"
+    },
+    {
+      "id": "95ee3c18-0e10-40f7-a7e9-7b4b5435f7fc",
+      "label": "NECESSARY_5",
+      "definition_id": "DEF-LOGICAL-NECESSITY"
+    },
+    {
+      "id": "4588e556-835c-4ffa-9845-bb5baa276079",
+      "label": "NECESSARY_6",
+      "definition_id": "DEF-NECESSARY-EXISTENCE-SCOTT",
+      "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.NecessaryExistence"
+    },
+    {
+      "id": "79ab29b7-2923-40aa-b0f6-28a83ae80ba0",
+      "label": "NECESSARY_7",
+      "definition_id": "DEF-FILTERED-NECESSARY-EXISTENCE",
+      "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.FilteredNecessaryExistence"
+    },
+    {
+      "id": "d38b63c6-0435-4bd7-a179-531a7de093bc",
+      "label": "NECESSARY_8",
+      "definition_id": "DEF-QML-KB-NECESSITY",
+      "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.Box"
+    },
+    {
+      "id": "7cacb3b7-0ee4-48d7-afd0-48c7168352d5",
+      "label": "NECESSARY_9",
+      "definition_id": "DEF-NECESSARY-EXISTENCE-GOEDEL-1970",
+      "lean_declaration": "TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1.NecessaryExistence"
+    },
+    {
+      "id": "5e7b0672-23d6-433a-9cf9-f615f1ce57a4",
+      "label": "NECESSARY_10",
+      "definition_id": "DEF-HOML-ACTUALIST-NECESSITY",
+      "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.Box"
+    },
+    {
+      "id": "8c881fa6-2b9f-44be-a32a-c8ef29c13643",
+      "label": "NECESSARY_11",
+      "definition_id": "DEF-MODAL-FIXTURE-FRAME",
+      "lean_declaration": "TruthCore.Modal.Frame"
+    },
+    {
+      "id": "7af298fb-a2c4-4239-919b-7685f2e1f67a",
+      "label": "NECESSARY_2",
+      "definition_id": "DEF-KANT-MODAL-NECESSITY",
+      "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.NecessaryAt"
+    }
+  ]
 }

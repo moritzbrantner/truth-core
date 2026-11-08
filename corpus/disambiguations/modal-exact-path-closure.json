@@ -5,5 +5,20 @@
     "DEF-MODAL-GRAPH-PATH-CLOSURE",
     "DEF-MODAL-EXACT-LENGTH-PATH"
   ],
-  "resolution": "The h/i/j/k condition and iterated modalities use exact lengths. Quiver.Reachable and ReflTransGen allow any finite length, including nil, and cannot replace an ExactPath index. In particular zero length is endpoint identity without an accessibility self-edge; no reflexivity, padding or linear order is assumed. Valuation correspondence requires every valuation for the one-atom formula, while arbitrary-formula soundness is a separate quantified clause. Neither scope supplies a Hilbert proof calculus or completeness theorem."
+  "resolution": "The h/i/j/k condition and iterated modalities use exact lengths. Quiver.Reachable and ReflTransGen allow any finite length, including nil, and cannot replace an ExactPath index. In particular zero length is endpoint identity without an accessibility self-edge; no reflexivity, padding or linear order is assumed. Valuation correspondence requires every valuation for the one-atom formula, while arbitrary-formula soundness is a separate quantified clause. Neither scope supplies a Hilbert proof calculus or completeness theorem.",
+  "term_label": "EXACT_PATH_LENGTH_VERSUS_ARBITRARY_FINITE",
+  "senses": [
+    {
+      "id": "31d49046-6462-400e-ab25-53b0a28a1163",
+      "label": "EXACT_PATH_LENGTH_VERSUS_ARBITRARY_FINITE_1",
+      "definition_id": "DEF-MODAL-GRAPH-PATH-CLOSURE",
+      "lean_declaration": "TruthCore.Modal.GraphBridgeCertificate"
+    },
+    {
+      "id": "be0563ce-7fa6-4b32-a37c-c8a0bce739bf",
+      "label": "EXACT_PATH_LENGTH_VERSUS_ARBITRARY_FINITE_2",
+      "definition_id": "DEF-MODAL-EXACT-LENGTH-PATH",
+      "lean_declaration": "TruthCore.Modal.ExactPath"
+    }
+  ]
 }

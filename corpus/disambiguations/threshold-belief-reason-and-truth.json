@@ -8,5 +8,38 @@
     "DEF-THRESHOLD-FINITE-PROBABILITY-MODELS",
     "DEF-EPISTEMIC-REASON-ORDINARY-ROLE",
     "DEF-EPISTEMIC-REASON-THIN-EXISTENCE"
+  ],
+  "term_label": "PRO_TANTO_SUPPORT_THRESHOLD_FULL_BELIEF",
+  "senses": [
+    {
+      "id": "5aeeb921-2098-47c8-802c-225de5fe6d87",
+      "label": "PRO_TANTO_SUPPORT_THRESHOLD_FULL_BELIEF_1",
+      "definition_id": "DEF-THRESHOLD-FULL-BELIEF-POLICY",
+      "lean_declaration": "TruthCore.Logic.ThresholdBelief.Accepted"
+    },
+    {
+      "id": "6a5baa3a-14e7-4c60-b837-18c1589ccf14",
+      "label": "PRO_TANTO_SUPPORT_THRESHOLD_FULL_BELIEF_2",
+      "definition_id": "DEF-THRESHOLD-HEAVY-CORE",
+      "lean_declaration": "TruthCore.Logic.ThresholdBelief.HeavyCore"
+    },
+    {
+      "id": "50c87619-3e0a-4d7a-957d-5cf0d9308bef",
+      "label": "PRO_TANTO_SUPPORT_THRESHOLD_FULL_BELIEF_3",
+      "definition_id": "DEF-THRESHOLD-FINITE-PROBABILITY-MODELS",
+      "lean_declaration": "TruthCore.Logic.ThresholdBelief.uniform"
+    },
+    {
+      "id": "8b4573f9-a8ea-4404-97b2-cde28d3540bc",
+      "label": "PRO_TANTO_SUPPORT_THRESHOLD_FULL_BELIEF_4",
+      "definition_id": "DEF-EPISTEMIC-REASON-ORDINARY-ROLE",
+      "lean_declaration": "TruthCore.Logic.EpistemicReasonDefinitionFork.EpistemicRole"
+    },
+    {
+      "id": "fc417db5-7f1d-4126-a049-34b28514cc19",
+      "label": "PRO_TANTO_SUPPORT_THRESHOLD_FULL_BELIEF_5",
+      "definition_id": "DEF-EPISTEMIC-REASON-THIN-EXISTENCE",
+      "lean_declaration": "TruthCore.Logic.EpistemicReasons.ThereAreEpistemicReasons"
+    }
   ]
 }

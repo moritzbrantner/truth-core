@@ -23,5 +23,19 @@
     "DISAMB-GENUS",
     "DISAMB-MAXIME-ENS",
     "DISAMB-ORDER-OF-BEING"
+  ],
+  "sense_bridges": [
+    {
+      "term": "GENUS",
+      "from": "fe68a21f-b444-4e79-aa4d-0bdd6dae1da5",
+      "to": "6854684f-23ef-4267-a51d-b22f57c49ebd",
+      "statement_id": "STMT-GREATEST-DEGREE-IN-GENUS-CAUSES-ALL-IN-GENUS"
+    },
+    {
+      "term": "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST",
+      "from": "9bea9a43-3a87-4d62-86de-e5873aea62f8",
+      "to": "517baa9d-7981-4e2a-bdae-045467cb29fc",
+      "statement_id": "STMT-GREATEST-IN-BEING-IS-MAXIMAL"
+    }
   ]
 }

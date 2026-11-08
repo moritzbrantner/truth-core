@@ -40,5 +40,13 @@
     "DISAMB-MAXIME-ENS",
     "DISAMB-ORDER-OF-BEING"
   ],
-  "label": "Stage 1 from the quarta via's conclusion: a MAXIME_1 being causing all being is God"
+  "label": "Stage 1 from the quarta via's conclusion: a MAXIME_1 being causing all being is God",
+  "sense_bridges": [
+    {
+      "term": "GOD",
+      "from": "295c9096-50b8-4ccd-960e-f833730a0774",
+      "to": "52c2ebac-0a71-4dd4-8a21-804c1dd0847a",
+      "statement_id": "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE"
+    }
+  ]
 }

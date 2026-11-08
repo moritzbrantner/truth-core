@@ -5,5 +5,20 @@
     "DEF-MEREOLOGICAL-COMPLEMENTATION",
     "DEF-MEREOLOGICAL-SUPPLEMENTATION"
   ],
-  "resolution": "Strong supplementation provides some disjoint part witnessing noncontainment. Exact complementation requires an object comprising all and only the disjoint parts of the minuend. The latter implies the former; the JoinRival shows that strong supplementation, even with every nonempty order join, does not provide the exact remainder. Neither condition is an actual ontology claim."
+  "resolution": "Strong supplementation provides some disjoint part witnessing noncontainment. Exact complementation requires an object comprising all and only the disjoint parts of the minuend. The latter implies the former; the JoinRival shows that strong supplementation, even with every nonempty order join, does not provide the exact remainder. Neither condition is an actual ontology claim.",
+  "term_label": "REMAINDER",
+  "senses": [
+    {
+      "id": "f84d0883-69e1-4afe-bab1-e4ea20e6a850",
+      "label": "REMAINDER_1",
+      "definition_id": "DEF-MEREOLOGICAL-COMPLEMENTATION",
+      "lean_declaration": "TruthCore.Mereology.SumOneComplementation.Complementation"
+    },
+    {
+      "id": "9a4ea629-3fdf-4f84-9f39-d4ceb7e57564",
+      "label": "REMAINDER_2",
+      "definition_id": "DEF-MEREOLOGICAL-SUPPLEMENTATION",
+      "lean_declaration": "TruthCore.Mereology.SupplementationFusion.StrongSupplementation"
+    }
+  ]
 }

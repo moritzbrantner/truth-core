@@ -20,5 +20,13 @@
   ],
   "disambiguation_ids": [
     "DISAMB-MAXIME-ENS"
+  ],
+  "sense_bridges": [
+    {
+      "term": "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST",
+      "from": "9bea9a43-3a87-4d62-86de-e5873aea62f8",
+      "to": "ac4c2702-e178-4c52-bd6d-e33685875cdf",
+      "statement_id": "STMT-STRICTLY-GREATEST-IN-BEING-IS-MAXIMAL"
+    }
   ]
 }

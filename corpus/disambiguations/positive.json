@@ -5,5 +5,20 @@
     "DEF-POSITIVE-PROPERTY-GOEDEL-1970",
     "DEF-POSITIVE-PROPERTY-SCOTT"
   ],
-  "resolution": "Both variants have an undefined constant P of the same Lean type `Positivity`, constrained only by axioms, and the axioms differ: Scott's A1a, A1b, A2, A3, A4, A5 against Gödel's 1970 Ax1, Ax2a, Ax2b, Ax3, Ax4. Every result takes P as a parameter and lists exactly the axioms it uses as premises, so a result says only that those axioms about P entail its conclusion. One axiom formula is shared: Scott's A4 and Gödel's Ax2b are the same statement (STMT-SCOTT-POSITIVE-NECESSARILY-POSITIVE), each claim attributing it to its own theory's P. No statement identifies either P with Aquinas's perfection."
+  "resolution": "Both variants have an undefined constant P of the same Lean type `Positivity`, constrained only by axioms, and the axioms differ: Scott's A1a, A1b, A2, A3, A4, A5 against Gödel's 1970 Ax1, Ax2a, Ax2b, Ax3, Ax4. Every result takes P as a parameter and lists exactly the axioms it uses as premises, so a result says only that those axioms about P entail its conclusion. One axiom formula is shared: Scott's A4 and Gödel's Ax2b are the same statement (STMT-SCOTT-POSITIVE-NECESSARILY-POSITIVE), each claim attributing it to its own theory's P. No statement identifies either P with Aquinas's perfection.",
+  "term_label": "POSITIVE",
+  "senses": [
+    {
+      "id": "3c3e66ee-e333-40e5-b148-6ba855fee758",
+      "label": "POSITIVE_1",
+      "definition_id": "DEF-POSITIVE-PROPERTY-GOEDEL-1970",
+      "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.Positivity"
+    },
+    {
+      "id": "3c2a30be-d9e1-48ed-97c2-66c01a54a1d4",
+      "label": "POSITIVE_2",
+      "definition_id": "DEF-POSITIVE-PROPERTY-SCOTT",
+      "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.Positivity"
+    }
+  ]
 }

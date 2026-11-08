@@ -6,5 +6,20 @@
   "sense_definition_ids": [
     "DEF-ACTUAL-EXISTENCE-ADEQUACY-DOMAINS",
     "DEF-REGULARITY-INTERVENTION"
+  ],
+  "term_label": "VERIFICATION_INDEPENDENCE_VERSUS_EXISTENTIAL_RELEVANCE",
+  "senses": [
+    {
+      "id": "c6e58ecd-1f9c-4951-ac86-85fd53cf7f4b",
+      "label": "VERIFICATION_INDEPENDENCE_VERSUS_EXISTENTIAL_RELEVANCE_1",
+      "definition_id": "DEF-ACTUAL-EXISTENCE-ADEQUACY-DOMAINS",
+      "lean_declaration": "TruthCore.Explanation.ActualExistenceAdequacy.VerificationIndependent"
+    },
+    {
+      "id": "b53a7f10-1c18-415b-a5b6-0b0ff1671881",
+      "label": "VERIFICATION_INDEPENDENCE_VERSUS_EXISTENTIAL_RELEVANCE_2",
+      "definition_id": "DEF-REGULARITY-INTERVENTION",
+      "lean_declaration": "TruthCore.Modern.Hume.Regularity.Changes"
+    }
   ]
 }

@@ -7,5 +7,32 @@
     "DEF-TEMPORAL-EVENT-FINITE-CYCLE",
     "DEF-TEMPORAL-MOTION-PROJECTION"
   ],
-  "resolution": "The clock map refers to selected exercise instants of particular tokens, not the existence-time of their bearers or completion of the whole cause process. A₀→B₁→A₂ is feedback between beings but no event cycle. NoBackward permits simultaneous circles; StrictForward excludes finite event cycles but permits infinite upstream descent. Sustaining is a separate relation whose mathematical control has the same extension as the simultaneous circle only by stipulation. A common linear clock and the canonical motion projection are open interpretation choices. Passage, presentism/eternalism, actual realization, source fidelity and explanatory sufficiency are not decided."
+  "resolution": "The clock map refers to selected exercise instants of particular tokens, not the existence-time of their bearers or completion of the whole cause process. A₀→B₁→A₂ is feedback between beings but no event cycle. NoBackward permits simultaneous circles; StrictForward excludes finite event cycles but permits infinite upstream descent. Sustaining is a separate relation whose mathematical control has the same extension as the simultaneous circle only by stipulation. A common linear clock and the canonical motion projection are open interpretation choices. Passage, presentism/eternalism, actual realization, source fidelity and explanatory sufficiency are not decided.",
+  "term_label": "EVENT_CAUSATION_ENTITY_FEEDBACK_SIMULTANEITY",
+  "senses": [
+    {
+      "id": "1fce41cc-c3c7-4a4f-8cb5-c527175c1254",
+      "label": "EVENT_CAUSATION_ENTITY_FEEDBACK_SIMULTANEITY_1",
+      "definition_id": "DEF-TEMPORAL-ACTUALIZATION-PROFILE",
+      "lean_declaration": "TruthCore.Causality.TemporalActualization.Staged"
+    },
+    {
+      "id": "f84c71cc-e6c5-4c24-9235-f61a2ea5d9e6",
+      "label": "EVENT_CAUSATION_ENTITY_FEEDBACK_SIMULTANEITY_2",
+      "definition_id": "DEF-TEMPORAL-DIRECTION-PROFILES",
+      "lean_declaration": "TruthCore.Causality.TemporalActualization.DirectionFork"
+    },
+    {
+      "id": "9e4c5f3d-a257-4f7f-84c4-48eec45aba0d",
+      "label": "EVENT_CAUSATION_ENTITY_FEEDBACK_SIMULTANEITY_3",
+      "definition_id": "DEF-TEMPORAL-EVENT-FINITE-CYCLE",
+      "lean_declaration": "TruthCore.Causality.TemporalActualization.EventAcyclic"
+    },
+    {
+      "id": "6dc3bf18-8efd-4db8-a5a1-2b69ce6636a6",
+      "label": "EVENT_CAUSATION_ENTITY_FEEDBACK_SIMULTANEITY_4",
+      "definition_id": "DEF-TEMPORAL-MOTION-PROJECTION",
+      "lean_declaration": "TruthCore.Causality.TemporalActualization.MotionProjection"
+    }
+  ]
 }

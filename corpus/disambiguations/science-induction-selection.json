@@ -5,5 +5,20 @@
     "DEF-SCIENCE-INDUCTION-SELECTION",
     "DEF-SCIENCE-INDUCTION-OUTCOME-BASIS"
   ],
-  "resolution": "A recoding is a reversible representation change, not a physical process. The fixed evidence condition and equivariance are separate assumptions. Set-valued answer is not a probability or practical action. Absence of a unique neutral answer does not imply irrational induction or forbid a basis-sensitive choice. Original-coordinate uniformity and recoded-coordinate uniformity are distinct added criteria, not syntactic measures of physical naturalness. The two complete predictions are a bounded green/grue-type profile, not an attributed definition of Goodman grue."
+  "resolution": "A recoding is a reversible representation change, not a physical process. The fixed evidence condition and equivariance are separate assumptions. Set-valued answer is not a probability or practical action. Absence of a unique neutral answer does not imply irrational induction or forbid a basis-sensitive choice. Original-coordinate uniformity and recoded-coordinate uniformity are distinct added criteria, not syntactic measures of physical naturalness. The two complete predictions are a bounded green/grue-type profile, not an attributed definition of Goodman grue.",
+  "term_label": "LOGICAL_NEUTRALITY_VERSUS_PHYSICAL_BASIS",
+  "senses": [
+    {
+      "id": "5e937f08-16b4-42f5-948c-7d3fc96c781b",
+      "label": "LOGICAL_NEUTRALITY_VERSUS_PHYSICAL_BASIS_1",
+      "definition_id": "DEF-SCIENCE-INDUCTION-SELECTION",
+      "lean_declaration": "TruthCore.Science.InductionSelection.Neutral"
+    },
+    {
+      "id": "49a4338a-da5a-4571-a2dd-af3cc14f525d",
+      "label": "LOGICAL_NEUTRALITY_VERSUS_PHYSICAL_BASIS_2",
+      "definition_id": "DEF-SCIENCE-INDUCTION-OUTCOME-BASIS",
+      "lean_declaration": "TruthCore.Science.InductionSelection.Uniform"
+    }
+  ]
 }

@@ -16,5 +16,14 @@
   "disambiguation_ids": [
     "DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER"
   ],
-  "label": "Strength order: the MUTABLE_2 boundary statement implies the MUTABLE_3 one"
+  "label": "Strength order: the MUTABLE_2 boundary statement implies the MUTABLE_3 one",
+  "sense_bridges": [
+    {
+      "term": "IN_POTENCY_MUTABLE",
+      "from": "105b1f4a-6d9c-4e4e-8c30-2c109c2f755f",
+      "to": "194c40c8-c176-43d9-9488-9021f7cb2351",
+      "statement_id": "STMT-LIFE-BOUNDARY-REQUIRES-SOME-MUTABILITY",
+      "role": "conclusion"
+    }
+  ]
 }

@@ -6,5 +6,26 @@
     "DEF-PSR-CONDITIONAL-CHANCE",
     "DEF-PSR-CHANCE-RANKING"
   ],
-  "resolution": "Event probability, probability raising by conditioning, ranking outcomes by conditional probability, reasons false at a rival, and inductive productive Supply are different conditions. The later-axis map passes from fixed conditional ranking to the existing favouring core through the stated chanceFrame specialization only. It never infers causal production, adequacy or actual truth from positive probability. Source truth everywhere is stronger than accessibility-relative necessity without a support bridge, and conditioning on the source existence fact is not conditioning on its contingent exercise. Zero probability is kept apart from impossibility."
+  "resolution": "Event probability, probability raising by conditioning, ranking outcomes by conditional probability, reasons false at a rival, and inductive productive Supply are different conditions. The later-axis map passes from fixed conditional ranking to the existing favouring core through the stated chanceFrame specialization only. It never infers causal production, adequacy or actual truth from positive probability. Source truth everywhere is stronger than accessibility-relative necessity without a support bridge, and conditioning on the source existence fact is not conditioning on its contingent exercise. Zero probability is kept apart from impossibility.",
+  "term_label": "PROBABILISTIC_EXPLANATION_AND_SELECTION",
+  "senses": [
+    {
+      "id": "1b6a38e8-0c22-4d42-a2bf-9c6361b843b0",
+      "label": "PROBABILISTIC_EXPLANATION_AND_SELECTION_1",
+      "definition_id": "DEF-PSR-EVENT-CHANCE",
+      "lean_declaration": "TruthCore.Explanation.PSRLaterAxes.chance"
+    },
+    {
+      "id": "4b66ca88-e0c9-428d-a98a-f9fc4bcd9439",
+      "label": "PROBABILISTIC_EXPLANATION_AND_SELECTION_2",
+      "definition_id": "DEF-PSR-CONDITIONAL-CHANCE",
+      "lean_declaration": "TruthCore.Explanation.PSRLaterAxes.Raises"
+    },
+    {
+      "id": "c50d3568-ad78-4541-b0ca-48786334404f",
+      "label": "PROBABILISTIC_EXPLANATION_AND_SELECTION_3",
+      "definition_id": "DEF-PSR-CHANCE-RANKING",
+      "lean_declaration": "TruthCore.Explanation.PSRLaterAxes.chanceFrame"
+    }
+  ]
 }

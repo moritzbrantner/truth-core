@@ -5,5 +5,20 @@
     "DEF-BEARER-TRUTHMAKING",
     "DEF-PSR-STRENGTH-REASON"
   ],
-  "resolution": "Making relates an entity to a fact; Arena.explains relates two facts; Ontic.Causes is efficient production. None is identified. InstanceMaker projects an existing reason only through A.exist b and requires Factive and Coherent for soundness. lawGround has a uniform abstract fact-reason yet no world-immanent uniform individual maker. No truthmaking or explaining control establishes efficient causation. Source doctrinal truthmaking carries additional relevance/aboutness commitments that Sound and MakerNecessitation do not encode."
+  "resolution": "Making relates an entity to a fact; Arena.explains relates two facts; Ontic.Causes is efficient production. None is identified. InstanceMaker projects an existing reason only through A.exist b and requires Factive and Coherent for soundness. lawGround has a uniform abstract fact-reason yet no world-immanent uniform individual maker. No truthmaking or explaining control establishes efficient causation. Source doctrinal truthmaking carries additional relevance/aboutness commitments that Sound and MakerNecessitation do not encode.",
+  "term_label": "TRUTHMAKING_EXPLANATION_AND_PRODUCTION",
+  "senses": [
+    {
+      "id": "77a0a412-219d-400e-9f85-3d6a22e0a035",
+      "label": "TRUTHMAKING_EXPLANATION_AND_PRODUCTION_1",
+      "definition_id": "DEF-BEARER-TRUTHMAKING",
+      "lean_declaration": "TruthCore.Explanation.TruthmakerTheories.Sound"
+    },
+    {
+      "id": "7081115d-05bb-40f0-9f4d-7acd5b131834",
+      "label": "TRUTHMAKING_EXPLANATION_AND_PRODUCTION_2",
+      "definition_id": "DEF-PSR-STRENGTH-REASON",
+      "lean_declaration": "TruthCore.Explanation.PSRStrength.Explained"
+    }
+  ]
 }

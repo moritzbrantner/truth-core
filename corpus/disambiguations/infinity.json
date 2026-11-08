@@ -5,5 +5,19 @@
     "DEF-INFINITE",
     "DEF-QUANTITATIVE-INFINITY"
   ],
-  "resolution": "The classical-attributes bundle uses the infinity of unreceived subsistent being, not unlimited quantity or indeterminate matter. Infinite remains an abstract Lean predicate constrained by an explicit sufficient-condition premise; no theorem establishes quantitative infinity."
+  "resolution": "The classical-attributes bundle uses the infinity of unreceived subsistent being, not unlimited quantity or indeterminate matter. Infinite remains an abstract Lean predicate constrained by an explicit sufficient-condition premise; no theorem establishes quantitative infinity.",
+  "term_label": "INFINITE",
+  "senses": [
+    {
+      "id": "66a54759-c1be-410c-a521-fa9682f0e25f",
+      "label": "INFINITE_1",
+      "definition_id": "DEF-INFINITE",
+      "lean_declaration": "TruthCore.Case.Catholicism.GodIsInfinite"
+    },
+    {
+      "id": "e8da1c78-203c-415a-bacc-631fadfef6d6",
+      "label": "INFINITE_2",
+      "definition_id": "DEF-QUANTITATIVE-INFINITY"
+    }
+  ]
 }

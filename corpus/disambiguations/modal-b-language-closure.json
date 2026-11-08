@@ -6,5 +6,26 @@
     "DEF-MODAL-B-INVENTORY",
     "DEF-MODAL-B-CLOSURE"
   ],
-  "resolution": "The expressible domain contains all denotations of formulas in a fixed modal language. The atomsOnly inventory contains just p and omits even Box p. A countermodel to propagation for that inventory is not a countermodel for a domain closed under negation and box. LanguagePropagation keeps both closure assumptions and excluded middle explicit. Duplicate labels can agree throughout the modal language while allPredicates distinguishes them; neither collapse nor modal-language agreement silently identifies metaphysical possibilities."
+  "resolution": "The expressible domain contains all denotations of formulas in a fixed modal language. The atomsOnly inventory contains just p and omits even Box p. A countermodel to propagation for that inventory is not a countermodel for a domain closed under negation and box. LanguagePropagation keeps both closure assumptions and excluded middle explicit. Duplicate labels can agree throughout the modal language while allPredicates distinguishes them; neither collapse nor modal-language agreement silently identifies metaphysical possibilities.",
+  "term_label": "RESTRICTED_LANGUAGE_VERSUS_A_RESTRICTED_INVENTORY",
+  "senses": [
+    {
+      "id": "07adb036-d6db-4e6d-9fee-d2687f7dea1f",
+      "label": "RESTRICTED_LANGUAGE_VERSUS_A_RESTRICTED_INVENTORY_1",
+      "definition_id": "DEF-MODAL-FIXTURE-DOMAIN",
+      "lean_declaration": "TruthCore.Modal.ResearchFixture.Domain"
+    },
+    {
+      "id": "f7a45453-7ea3-4a84-9ddb-80fca27a588d",
+      "label": "RESTRICTED_LANGUAGE_VERSUS_A_RESTRICTED_INVENTORY_2",
+      "definition_id": "DEF-MODAL-B-INVENTORY",
+      "lean_declaration": "TruthCore.Modal.BResearch.atomsOnly"
+    },
+    {
+      "id": "19eecf49-4f96-443d-ae68-7e33294de56d",
+      "label": "RESTRICTED_LANGUAGE_VERSUS_A_RESTRICTED_INVENTORY_3",
+      "definition_id": "DEF-MODAL-B-CLOSURE",
+      "lean_declaration": "TruthCore.Modal.BResearch.LanguagePropagation"
+    }
+  ]
 }

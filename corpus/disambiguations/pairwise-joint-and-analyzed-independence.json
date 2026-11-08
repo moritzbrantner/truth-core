@@ -6,5 +6,26 @@
     "DEF-PAIRWISE-REPORT-VARIATION",
     "DEF-SELECTED-BOOLEAN-BASIS-REANALYSIS"
   ],
-  "resolution": "Individual or pairwise value realization does not entail full joint report saturation. Full saturation concerns a supplied set of designated elementary coordinates; reanalysis can instead classify the third report as a composite over an independently saturated two-report basis. No blanket independence of all propositions, probabilistic independence, actual metaphysical admissibility or historical analysis is inferred. The selected-fragment theorem is not a representation of all infinite-world coordinates."
+  "resolution": "Individual or pairwise value realization does not entail full joint report saturation. Full saturation concerns a supplied set of designated elementary coordinates; reanalysis can instead classify the third report as a composite over an independently saturated two-report basis. No blanket independence of all propositions, probabilistic independence, actual metaphysical admissibility or historical analysis is inferred. The selected-fragment theorem is not a representation of all infinite-world coordinates.",
+  "term_label": "INDEPENDENCE_OF_ELEMENTARY_FACTS",
+  "senses": [
+    {
+      "id": "8938e8c0-74ac-4a14-ae7c-1b593e31a48f",
+      "label": "INDEPENDENCE_OF_ELEMENTARY_FACTS_1",
+      "definition_id": "DEF-JOINT-REPORT-SATURATION",
+      "lean_declaration": "TruthCore.Logic.AtomismIndependence.Saturates"
+    },
+    {
+      "id": "252e38c0-9936-4314-b777-cce0d6b6cb0a",
+      "label": "INDEPENDENCE_OF_ELEMENTARY_FACTS_2",
+      "definition_id": "DEF-PAIRWISE-REPORT-VARIATION",
+      "lean_declaration": "TruthCore.Logic.AtomismIndependence.PairwiseVariation"
+    },
+    {
+      "id": "06343c71-28f4-448f-8b31-7f7c1c3cae04",
+      "label": "INDEPENDENCE_OF_ELEMENTARY_FACTS_3",
+      "definition_id": "DEF-SELECTED-BOOLEAN-BASIS-REANALYSIS",
+      "lean_declaration": "TruthCore.Logic.AtomismIndependence.Reanalysis"
+    }
+  ]
 }

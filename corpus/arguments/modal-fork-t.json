@@ -23,5 +23,19 @@
   ],
   "strong_version_needed": {
     "STMT-NECESSARY-ROOT-BOX-K": "The frame-class readings are box-existence of the same individual n. The de dicto node does not name n, and the tertia via node gives the box only with excluded middle, so neither weak version yields the frame-class node."
-  }
+  },
+  "sense_bridges": [
+    {
+      "term": "NECESSARY",
+      "from": "8c881fa6-2b9f-44be-a32a-c8ef29c13643",
+      "to": "7af298fb-a2c4-4239-919b-7685f2e1f67a",
+      "statement_id": "STMT-NECESSARY-ROOT-BOX-K"
+    },
+    {
+      "term": "NECESSARY",
+      "from": "8c881fa6-2b9f-44be-a32a-c8ef29c13643",
+      "to": "7af298fb-a2c4-4239-919b-7685f2e1f67a",
+      "statement_id": "STMT-ONTIC-T-SCHEMA"
+    }
+  ]
 }
