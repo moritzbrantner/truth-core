@@ -1,11 +1,13 @@
 {
-  "id": "STMT-EFFICIENT-ATTRIBUTION-NAMED-TEMPORAL-DEFINITIONS-COVER",
+  "id": "a1d4003f-92b6-510a-95f5-e282afad92fa",
+  "label": "The independently supplied attribution has either the selected-time calibration or the…",
+  "legacy_id": "STMT-EFFICIENT-ATTRIBUTION-NAMED-TEMPORAL-DEFINITIONS-COVER",
   "paraphrase": "Open coverage premise: the independently supplied attribution has either the selected-time calibration or the existential-admitted-time calibration. Both can hold; these named readings are not a census of philosophical theories of efficient causation.",
   "lean_declaration": "TruthCore.Causality.ComposerTemporalDefinitionFork.NamedCoverage",
   "definition_ids": [
-    "DEF-COMPOSER-TEMPORAL-PROFILE"
+    "c20f04bb-c069-5be5-b2c1-691fc994dcb9"
   ],
   "disambiguation_ids": [
-    "DISAMB-UNITING-CAUSE"
+    "57f80020-fa6f-5b69-be58-b4cf95b7226f"
   ]
 }

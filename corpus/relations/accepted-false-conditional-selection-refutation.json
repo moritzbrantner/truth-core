@@ -1,9 +1,11 @@
 {
-  "id": "REL-ACCEPTED-FALSE-CONDITIONAL-SELECTION-REFUTATION",
+  "id": "ee10681b-ace5-5356-9315-3a430319cff6",
+  "label": "Exact negation of the old… refutes At the designated labeled arrangement a…",
+  "legacy_id": "REL-ACCEPTED-FALSE-CONDITIONAL-SELECTION-REFUTATION",
   "subject_kind": "argument",
-  "subject_id": "ACCEPTED-FALSE-CANDIDATE-DEFEATS-SELECTION",
+  "subject_id": "34cc3a4b-c291-5f42-8766-bac657fa5f39",
   "predicate": "refutes",
   "object_kind": "statement",
-  "object_id": "STMT-COMPLETE-CHAIN-EXPLANATION-SELECTS-ARRANGEMENT",
+  "object_id": "4f45ac2d-3bb1-5159-85db-0982225dfbd5",
   "note": "Checked matching-profile conditional contradiction only. The actual accepted-countercase premise remains OPEN; this is no independent metaphysical refutation or warrant for an explanatory judgment."
 }

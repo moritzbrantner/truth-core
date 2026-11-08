@@ -1,13 +1,15 @@
 {
-  "id": "STMT-HUME-INDUCTION-CERTIFIES-HABIT",
+  "id": "dc6f1fd9-3c5b-56d7-bbce-606e02882b5b",
+  "label": "The account offers its habit forecast as epistemically entitled",
+  "legacy_id": "STMT-HUME-INDUCTION-CERTIFIES-HABIT",
   "paraphrase": "Open self-application commitment: the account offers its habit forecast as epistemically entitled. An empirical, customary or conditional account alone does not assert this.",
   "lean_declaration": "TruthCore.Modern.Hume.Induction.CertifiesHabit",
   "definition_ids": [
-    "DEF-HUME-INDUCTION-ENTITLEMENT",
-    "DEF-HUME-INDUCTION-PRACTICE",
-    "DEF-HUME-INDUCTION-PERSISTENCE"
+    "d9b1e901-417c-57cd-8eec-65bd81d9e3d9",
+    "72c8b5b3-fee8-5cd1-9f2d-b8018a7a18d8",
+    "b0544a71-cdba-5e5a-a436-4fd7b4dc3b31"
   ],
   "disambiguation_ids": [
-    "DISAMB-HUME-INDUCTION-REASON-PRACTICE"
+    "bfbe0dc7-4c2f-5183-9f6b-f69d43e45bbe"
   ]
 }

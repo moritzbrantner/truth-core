@@ -1,22 +1,24 @@
 {
-  "id": "RELATIVISM-NO-ABSOLUTE-TRUTH-SELF-FALSIFYING",
+  "id": "114d2581-ae65-50b8-9001-1154c0f31de6",
+  "label": "The thesis that no content in its scope is…, from Scope premise: the formulation of the… and 1 more",
+  "legacy_id": "RELATIVISM-NO-ABSOLUTE-TRUTH-SELF-FALSIFYING",
   "premise_statement_ids": [
-    "STMT-NO-ABSOLUTE-TRUTH-THESIS-IN-OWN-SCOPE",
-    "STMT-NO-ABSOLUTE-TRUTH-THESIS-DISQUOTES"
+    "5c18a8c4-c908-5397-b429-44c20b48c87e",
+    "de454f1e-652d-5ab3-8888-3259bc829b60"
   ],
-  "conclusion_statement_id": "STMT-NO-ABSOLUTE-TRUTH-THESIS-NOT-ABSOLUTELY-TRUE",
+  "conclusion_statement_id": "13490096-3453-5792-a4a8-d8e2f7a0fe4c",
   "inference_ids": [
-    "INF-RELATIVISM-NO-ABSOLUTE-TRUTH-SELF-FALSIFYING"
+    "48ca3702-a151-5efa-a361-23b28f22254a"
   ],
   "meaning": "Horn 1 for \"there is no absolute truth\", by the self-application dilemma (imported from LOGIC-SELF-APPLICATION-DILEMMA): if the thesis is in its own scope and disquotes, it is not absolutely true, so asserting it absolutely is incoherent. Not a refutation of the thesis held as true for its speaker (STMT-NO-ABSOLUTE-TRUTH-MODELS).",
   "definition_ids": [
-    "DEF-NO-ABSOLUTE-TRUTH-SCOPED",
-    "DEF-ABSOLUTE-TRUTH",
-    "DEF-DISQUOTATION",
-    "DEF-ASSERTION-COMMITMENT"
+    "ceeb8d72-d8e3-5c5a-84bc-fc48917219e9",
+    "cbb0ffe9-46e6-5bc4-aa8b-e705635ce0e7",
+    "b8539dd9-4b72-52b0-b24d-b8ee0c226bee",
+    "33f7d5de-205d-573f-bc19-e0311fccbe93"
   ],
   "disambiguation_ids": [
-    "DISAMB-ASSERTED-TRUTH-SENSE",
-    "DISAMB-NO-ABSOLUTE-TRUTH-SCOPE"
+    "d62cd674-9ae4-564a-8016-13d11ba0c407",
+    "08bba684-b4bf-5a2a-8a0d-5a251c377d68"
   ]
 }

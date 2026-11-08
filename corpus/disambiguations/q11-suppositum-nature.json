@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-Q11-SUPPOSITUM-NATURE",
+  "id": "2eef7e66-376a-57e0-81de-9757a1ae1e14",
+  "label": "Suppositum versus nature in Q11",
+  "legacy_id": "DISAMB-Q11-SUPPOSITUM-NATURE",
   "term": "suppositum versus nature in Q11",
   "sense_definition_ids": [
-    "DEF-Q11-INDIVIDUATING-BASIS",
-    "DEF-ESSENCE-THOMISTIC-NATURE"
+    "3f482cce-c9bc-5eab-9809-deed61c3ccee",
+    "183b48d2-1753-583d-aef9-4199cff86231"
   ],
   "resolution": "suppositumOf represents the individuating basis of this individual; essenceOf represents what the being is. Both take values in Principle only to permit the separately stated identity comparison. No identity between these senses, no injectivity, and no mapping of every immaterial being to one nature is assumed by the vocabulary. God-specific identity and common-nature scope are separate sourced open premises. This is unrelated to modal Scott/Gödel essence."
 }

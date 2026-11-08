@@ -1,23 +1,25 @@
 {
-  "id": "ROUND3-CHRIST-CHURCH-PILOT-CLAIMS-FROM-MARK-TRIAL",
+  "id": "dedaab0a-af73-5094-be80-c1aa84d8b433",
+  "label": "Jesus claimed divine authority in the existing case signature; the Gospel report…, from mark trial",
+  "legacy_id": "ROUND3-CHRIST-CHURCH-PILOT-CLAIMS-FROM-MARK-TRIAL",
   "premise_statement_ids": [
-    "STMT-REPORTED-MARK-AFFIRMATIVE-ANSWER",
-    "STMT-REPORTED-MARK-SON-OF-MAN-PREDICTION",
-    "STMT-MARK-TRIAL-SAYINGS-GO-BACK-TO-JESUS",
-    "STMT-TRIAL-SELF-ASCRIPTION-IS-DIVINE-AUTHORITY-CLAIM"
+    "759acbc1-17ea-50b4-905c-3aacea988e7e",
+    "2f888484-d6a6-59ce-9d39-0ede9cd9228f",
+    "888895ec-e4f4-5fb1-87d1-14b1b2a2906c",
+    "ca658204-d3b4-5ecd-a1fe-1a37d033c615"
   ],
-  "conclusion_statement_id": "STMT-PILOT-JESUS-CLAIMS",
+  "conclusion_statement_id": "6931fa67-bd22-591a-8abb-7273aba9cb90",
   "inference_ids": [
-    "INF-ROUND3-CHRIST-CHURCH-PILOT-CLAIMS-FROM-MARK-TRIAL"
+    "8b13069f-21b1-51e2-932b-2ab5d8e31446"
   ],
   "meaning": "Mark 14 attributes to Jesus the self-ascription as Son of the Blessed and the prediction of the Son of Man's session at the right of Power; by the open historicity bridge, Jesus himself said both; by the open interpretation bridge, saying both is claiming divine authority. So Jesus claimed divine authority. Two textual premises and two open bridges; each is needed (omission models in ROUND3-CHRIST-CHURCH-CONTROLS). The syntactic single-application heuristic flags this proof (its last step applies the interpretation bridge); by logical shape (#1214) it is a chain through the distinct middle term Speech.trialSaid, which only the report-to-event bridge supplies, so no premise states the conclusion. Not rewritten to evade the heuristic.",
   "definition_ids": [
-    "DEF-JESUS-SPEECH-EVENT",
-    "DEF-MARK-HIGH-PRIEST-EXCHANGE",
-    "DEF-SKELETON-OPEN-PREDICATES"
+    "a4b20bcd-f5e2-5e8f-aad7-fe545b985813",
+    "00c88ade-17c0-52b7-ab17-858319d4ab41",
+    "ac767549-28c0-5a1a-813d-ee208a664d08"
   ],
   "disambiguation_ids": [
-    "DISAMB-MARK-HIGH-PRIEST-EXCHANGE",
-    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+    "8b04cc50-4ae8-5eed-93e8-5e1d76c76b85",
+    "2567d8a9-549e-5404-8658-3275b7029092"
   ]
 }

@@ -1,6 +1,8 @@
 {
-  "id": "EP-ROLE-DEFINITION-FORK",
-  "argument_id": "EP-ROLE-DEFINITION-FORK",
+  "id": "a3829396-328d-56d0-960b-1a7afc9e09ec",
+  "label": "For every fixed comparison profile, one of the four…, from Excluded middle as a general principle…",
+  "legacy_id": "EP-ROLE-DEFINITION-FORK",
+  "argument_id": "3e15400e-0116-5959-9c87-b403834bfa40",
   "challenge_module": "TruthCore.Results.Logic.EpistemicReasonDefinitions.DefinitionFork.Challenge",
   "solution_module": "TruthCore.Results.Logic.EpistemicReasonDefinitions.DefinitionFork.Solution",
   "theorem": "TruthCore.Results.Logic.EpistemicReasonDefinitions.DefinitionFork.definitionFork",
@@ -9,34 +11,34 @@
   "description": "Logical structural-coverage transcription over the four calibration propositions and their explicit remainder. It does not show named coverage or eliminate an unlisted interpretation.",
   "transcription": "instantiation",
   "case_split": {
-    "target_statement_id": "STMT-EPISTEMIC-REASON-DEFINITION-CANDIDATES-COVER",
+    "target_statement_id": "da3a45ec-f4c0-55dd-bc2a-e3a56a980b33",
     "cases": [
       {
         "label": "ordinary role",
         "lean_declaration": "TruthCore.Logic.EpistemicReasonDefinitionFork.OrdinaryDefinition",
-        "statement_id": "STMT-EPISTEMIC-REASON-ORDINARY-ROLE-DEFINITION"
+        "statement_id": "eaee221f-3b1c-57c6-8817-789c12e71867"
       },
       {
         "label": "preference-independent role",
         "lean_declaration": "TruthCore.Logic.EpistemicReasonDefinitionFork.PreferenceIndependentDefinition",
-        "statement_id": "STMT-EPISTEMIC-REASON-PREFERENCE-INDEPENDENT-DEFINITION"
+        "statement_id": "b5f35b0d-d62a-52e4-affd-960b7b483dd9"
       },
       {
         "label": "bare production",
         "lean_declaration": "TruthCore.Logic.EpistemicReasonDefinitionFork.ProductionDefinition",
-        "statement_id": "STMT-EPISTEMIC-REASON-BARE-PRODUCTION-DEFINITION"
+        "statement_id": "6b6b137c-805d-5c1e-b41f-d176e7cf8e7a"
       },
       {
         "label": "bare reward",
         "lean_declaration": "TruthCore.Logic.EpistemicReasonDefinitionFork.RewardDefinition",
-        "statement_id": "STMT-EPISTEMIC-REASON-BARE-REWARD-DEFINITION"
+        "statement_id": "79caf0c3-50d9-5f0c-b33a-b0396adc1cce"
       },
       {
         "label": "remaining interpretation",
         "lean_declaration": "TruthCore.Logic.EpistemicReasonDefinitionFork.RemainingDefinition",
-        "statement_id": "STMT-EPISTEMIC-REASON-ADDITIONAL-DEFINITION-REMAINS"
+        "statement_id": "d8fd3d09-bebd-5b88-8e4f-91154e0b339b"
       }
     ],
-    "survival_result_id": "EP-ROLE-DEFINITION-BOUNDARIES"
+    "survival_result_id": "b91e4e37-9f75-5a92-b41e-c34a257c0025"
   }
 }

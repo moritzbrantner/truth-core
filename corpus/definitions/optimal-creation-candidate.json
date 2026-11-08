@@ -1,5 +1,7 @@
 {
-  "id": "DEF-OPTIMAL-CREATION-CANDIDATE",
+  "id": "4f503422-a3dc-51f3-8e1d-a1065ef6038e",
+  "label": "OPTIMAL_ADMISSIBLE_CANDIDATE_1: Optimal feasible quality x means x belongs to the fixed candidate…",
+  "legacy_id": "DEF-OPTIMAL-CREATION-CANDIDATE",
   "term": "optimal admissible candidate",
   "definition": "Optimal feasible quality x means x belongs to the fixed candidate set and its quality is IsGreatest in the image of that set. Quality has a Mathlib PartialOrder; no linearity, cardinal metric or injectivity is assumed. Candidates may be absent at the selected world. IsGreatest concerns quality values, not candidate identity.",
   "basis": "stipulative",

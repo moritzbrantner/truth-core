@@ -1,6 +1,8 @@
 {
-  "id": "CAUSAL-PERFECTION-TRANSFER-REDUCED-DESCRIPTION",
-  "argument_id": "CAUSAL-PERFECTION-TRANSFER-REDUCED-DESCRIPTION",
+  "id": "15af2b49-c927-5570-aa7e-ca31a355a472",
+  "label": "The reduced nominal description…, from Nothing has actuality except insofar as it… and 4 more (2)",
+  "legacy_id": "CAUSAL-PERFECTION-TRANSFER-REDUCED-DESCRIPTION",
+  "argument_id": "e28fb989-b10b-5542-9384-6807b83c0893",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.reducedDescription",

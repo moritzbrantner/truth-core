@@ -1,23 +1,24 @@
 {
-  "id": "MAXIMUM-IN-BEING-CAUSES-ALL-AS-STRICTLY-GREATEST",
+  "id": "5106f118-f068-5481-a955-9a17cffb700f",
   "label": "The MAXIME_3 causal principle with a bridge: a MAXIME_1 being causes being in all others",
+  "legacy_id": "MAXIMUM-IN-BEING-CAUSES-ALL-AS-STRICTLY-GREATEST",
   "premise_statement_ids": [
-    "STMT-STRICTLY-GREATEST-IN-BEING-CAUSES-ALL",
-    "STMT-MAXIMAL-IN-BEING-IS-STRICTLY-GREATEST"
+    "3eb63770-6f36-5145-8d68-147cd3b62179",
+    "3e2fc282-1abe-5f5d-8596-ca40e79f37ba"
   ],
-  "conclusion_statement_id": "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS",
+  "conclusion_statement_id": "da09703b-0b1e-5dca-9dd7-6c0c8d1610d7",
   "inference_ids": [
-    "INF-MAXIMUM-IN-BEING-CAUSES-ALL-AS-STRICTLY-GREATEST"
+    "b28c2d69-ab57-541d-a1a4-e605703c4bb5"
   ],
   "meaning": "MAXIME_3 branch of the causal principle at the root-route node: what is STRICTLY greatest in being causes being in every other being, and the explicit sense bridge says what is MAXIMAL in being is STRICTLY greatest; so whatever is MAXIMAL in being causes being in every other being. The control with tied maxima satisfies the STRICT principle vacuously and falsifies the conclusion, so the bridge is needed. The MAXIME_2 branch at this node is the existing MAXIMAL-BEING-CAUSES-FROM-GREATEST-DEGREE.",
   "definition_ids": [
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-ESSE",
-    "DEF-GREATEST-BEING-STRICT",
-    "DEF-MAXIME-ENS"
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "630d802e-14f5-5458-ad5f-f446bbd04b3b",
+    "a2a8de58-42e0-5481-b7fb-848ae8602036"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSE",
-    "DISAMB-MAXIME-ENS"
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
   ]
 }

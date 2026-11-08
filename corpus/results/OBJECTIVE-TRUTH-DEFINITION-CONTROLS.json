@@ -1,6 +1,8 @@
 {
-  "id": "OBJECTIVE-TRUTH-DEFINITION-CONTROLS",
-  "argument_id": "OBJECTIVE-TRUTH-DEFINITION-CONTROLS",
+  "id": "b0ae9897-6c8e-57de-8b92-d852600f9cf8",
+  "label": "Finite operational controls certify: actual-stable implies the truth component while both…",
+  "legacy_id": "OBJECTIVE-TRUTH-DEFINITION-CONTROLS",
+  "argument_id": "480e3afc-c9b8-5806-8dec-f532d05464f3",
   "challenge_module": "TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.Controls.Challenge",
   "solution_module": "TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.Controls.Solution",
   "theorem": "TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.Controls.controls",

@@ -1,17 +1,19 @@
 {
-  "id": "COMPOSER-TEMPORAL-DEFINITION-FORK",
+  "id": "cc81f226-4097-5c85-96e2-e9b3414b493a",
+  "label": "Structural fork: for every supplied profile, named…, from Excluded middle as a general principle…",
+  "legacy_id": "COMPOSER-TEMPORAL-DEFINITION-FORK",
   "premise_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-EFFICIENT-ATTRIBUTION-TEMPORAL-DEFINITION-FORK",
+  "conclusion_statement_id": "16dc76c9-00c8-57ac-af49-e027eae8411a",
   "inference_ids": [
-    "INF-COMPOSER-TEMPORAL-DEFINITION-FORK"
+    "646815a3-6866-5079-9e78-03855d4b474e"
   ],
   "meaning": "Structural coverage transcription: explicit excluded middle yields named calibration coverage or its precise remainder; named philosophical coverage is not established.",
   "definition_ids": [
-    "DEF-COMPOSER-TEMPORAL-PROFILE"
+    "c20f04bb-c069-5be5-b2c1-691fc994dcb9"
   ],
   "disambiguation_ids": [
-    "DISAMB-UNITING-CAUSE"
+    "57f80020-fa6f-5b69-be58-b4cf95b7226f"
   ]
 }

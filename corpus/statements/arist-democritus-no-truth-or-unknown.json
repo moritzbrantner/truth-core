@@ -1,11 +1,13 @@
 {
-  "id": "STMT-ARIST-DEMOCRITUS-NO-TRUTH-OR-UNKNOWN",
+  "id": "99b6275a-5d9a-5cbb-9f15-87766add6213",
+  "label": "Either nothing is true, or truth is at least unclear to us",
+  "legacy_id": "STMT-ARIST-DEMOCRITUS-NO-TRUTH-OR-UNKNOWN",
   "paraphrase": "Either nothing is true, or truth is at least unclear to us. The epistemic horn is kept as a collective lack of clarity, not strengthened into a formal claim that nobody knows any true proposition.",
   "definition_ids": [
-    "DEF-PILOT-EPISTEMIC-LIMITATION"
+    "18aeeeb5-ced9-5195-bf8f-62496c60addb"
   ],
   "disambiguation_ids": [
-    "DISAMB-PILOT-RELATIVITY",
-    "DISAMB-TRUE"
+    "baab4b98-29b9-5275-9819-6dab48f39ab8",
+    "80b5fc49-ed55-5c61-b14b-3621d2aa1520"
   ]
 }

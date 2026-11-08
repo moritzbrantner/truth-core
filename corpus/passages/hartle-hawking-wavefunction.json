@@ -6,14 +6,16 @@
     "wayback_url": "https://web.archive.org/web/20250402065023id_/https://web.physics.ucsb.edu/~quniverse/papers/wave_function_universe83.pdf",
     "wayback_sha256": "sha256:e7ab411422699d1427b0a11f49d980e37a33f3c5661e4901b610288497f0568b",
     "kind": "web_snapshot",
-    "source_id": "HARTLE-HAWKING-WAVEFUNCTION",
+    "source_id": "b4e245d7-181c-54c8-af6c-277e5ebe7af3",
     "encoding": "utf-8",
     "language": "eng",
     "license": "Copyright held by author/publisher; publicly accessible primary paper. No redistribution license asserted. Only hashes, locators and short incipit committed. A fixed 2025-04-02 Wayback capture is byte-pinned as a fallback (2026-10-26, issue #393): two fetches gave the same bytes, and the selected text hash and incipit match the originally consulted witness; the live hash and retrieval date are unchanged."
   },
   "passages": [
     {
-      "id": "HARTLE-HAWKING-WAVEFUNCTION",
+      "id": "3f50589f-7642-5582-a50f-bb2f772d1f3e",
+      "label": "J. B. Hartle and S. W. Hawking, Wave function of the Universe, Pp. 2960\u20132961",
+      "legacy_id": "HARTLE-HAWKING-WAVEFUNCTION",
       "locator": "pp. 2960\u20132961",
       "claim_locator_prefixes": [
         "pp."

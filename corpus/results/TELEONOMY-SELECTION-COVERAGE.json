@@ -1,6 +1,8 @@
 {
-  "id": "TELEONOMY-SELECTION-COVERAGE",
-  "argument_id": "TELEONOMY-SELECTION-COVERAGE",
+  "id": "32959320-645e-59d4-98c7-cb6b8dee90a6",
+  "label": "The stipulated filter retains the present heritable advantageous variant and rejects the locally…",
+  "legacy_id": "TELEONOMY-SELECTION-COVERAGE",
+  "argument_id": "5d86537b-0f47-5b0c-9814-1bd64c36cb59",
   "challenge_module": "TruthCore.Results.Comparison.Teleonomy.SelectionCoverage.Challenge",
   "solution_module": "TruthCore.Results.Comparison.Teleonomy.SelectionCoverage.Solution",
   "theorem": "TruthCore.Results.Comparison.Teleonomy.SelectionCoverage.selectionCoverage",

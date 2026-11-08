@@ -1,5 +1,7 @@
 {
-  "id": "DEF-GREATEST-BEING-STRICT",
+  "id": "630d802e-14f5-5458-ad5f-f446bbd04b3b",
+  "label": "GREATEST_BEING_2: A being that is more a being than every distinct being",
+  "legacy_id": "DEF-GREATEST-BEING-STRICT",
   "term": "greatest being (strict maximum)",
   "definition": "A being that is more a being than every distinct being. Under a strict comparative order this implies uniqueness and comparability of every other being with it; the arbitrary MoreIn parameter of the generic readings does not itself supply that order law.",
   "basis": "stipulative",

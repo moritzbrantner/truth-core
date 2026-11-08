@@ -1,6 +1,8 @@
 {
-  "id": "ROOT-WIRING-CONTROLS",
-  "argument_id": "ROOT-WIRING-CONTROLS",
+  "id": "6e7d86fe-21e0-537d-9ad7-ca2d3a5cd010",
+  "label": "Finite interpretations for the eight root-wiring derivations: for the premise that carries each…",
+  "legacy_id": "ROOT-WIRING-CONTROLS",
+  "argument_id": "07bfafe6-7c91-5741-bd86-f03128457c23",
   "challenge_module": "TruthCore.Results.Causality.RootWiring.Challenge",
   "solution_module": "TruthCore.Results.Causality.RootWiring.Solution",
   "theorem": "TruthCore.Results.Causality.RootWiring.controls",

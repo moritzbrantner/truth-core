@@ -1,10 +1,12 @@
 {
-  "id": "STMT-ANALYTIC-REASONS-TERMINATE-IN-IDENTITIES",
+  "id": "2ea7fa39-9f89-58f3-a5c4-7be6d9fb814c",
+  "label": "A necessary truth admits analysis into primary identity principles whose opposites involve…",
+  "legacy_id": "STMT-ANALYTIC-REASONS-TERMINATE-IN-IDENTITIES",
   "paraphrase": "A necessary truth admits analysis into primary identity principles whose opposites involve contradiction.",
   "definition_ids": [
-    "DEF-LEIBNIZ-ANALYTIC-TERMINUS"
+    "b186b7ea-705b-5a2b-906c-57b9064d14aa"
   ],
   "disambiguation_ids": [
-    "DISAMB-LEIBNIZ-EXPLANATORY-REGRESS"
+    "d9ecf2f0-fff9-5fe8-aaf3-4db74bd32825"
   ]
 }

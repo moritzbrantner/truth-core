@@ -1,8 +1,10 @@
 {
-  "id": "STMT-STRENGTH-ORDER-GREATER",
+  "id": "51bb0eeb-f3fb-5ce1-9e11-a127788f8506",
+  "label": "For the supplied mathematical linear order and x,y, y is strictly greater than x",
+  "legacy_id": "STMT-STRENGTH-ORDER-GREATER",
   "paraphrase": "For the supplied mathematical linear order and x,y, y is strictly greater than x.",
   "lean_declaration": "TruthCore.Logic.Strength.Order.Strict",
   "definition_ids": [
-    "DEF-STRENGTH-LINEAR-ORDER"
+    "27fc87cc-c230-5949-9460-c3ae4b4e1d25"
   ]
 }

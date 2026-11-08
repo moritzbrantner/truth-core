@@ -1,9 +1,11 @@
 {
-  "id": "REL-Q2-A3-MOVES-IN-ACT-SUPPORTS-MOVER-CAUSES-WHAT-IT-MOVES-TO",
+  "id": "59bc59aa-8ae3-5f03-86f7-98b5c5a496f2",
+  "label": "Thomas Aquinas, Summa theologiae I q.2… supports Whatever moves a thing in a respect causes…",
+  "legacy_id": "REL-Q2-A3-MOVES-IN-ACT-SUPPORTS-MOVER-CAUSES-WHAT-IT-MOVES-TO",
   "subject_kind": "claim",
-  "subject_id": "AQUINAS-ST-I-Q2-A3-MOVES-AS-IN-ACT-A",
+  "subject_id": "611e63b7-e183-5fa4-a963-657cc09a9d9c",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-MOVER-CAUSES-WHAT-IT-MOVES-TO",
+  "object_id": "6a0b545c-d3bb-52d1-b0b7-c3ea48febb92",
   "note": "ST I q.2 a.3 co. (prima via) states 'calidum in actu, ut ignis, facit lignum, quod est calidum in potentia, esse actu calidum, et per hoc movet et alterat ipsum': the mover makes the moved be actually so in the respect. The premise states that whatever moves a thing in a respect causes its being so (CausesIn). The passage gives one example and says the mover moves 'per hoc', by making it so; that every moving is such a causing of being so, in the CausesIn sense DISAMB-CAUSE keeps apart from moving, is the analyst's generalization."
 }

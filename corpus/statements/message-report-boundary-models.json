@@ -1,13 +1,15 @@
 {
-  "id": "STMT-MESSAGE-REPORT-BOUNDARY-MODELS",
+  "id": "fe955fb3-9ddd-5e66-a5ab-0f2d576c5f98",
+  "label": "Two nonempty controls: the raw message-only rival coexists with the full historical commission…",
+  "legacy_id": "STMT-MESSAGE-REPORT-BOUNDARY-MODELS",
   "paraphrase": "Two nonempty controls: the raw message-only rival coexists with the full historical commission bundle when the institutional transfer fails; and the existing nonempty model retains the old institution link, raw rival and historical Matthew28 concession, while no governing grant occurs. No historical reality or attribution is asserted.",
   "lean_declaration": "TruthCore.Case.Catholicism.StageThree.MessageReportBoundary.MessageReportModels",
   "definition_ids": [
-    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
-    "DEF-COMMISSION-REPORT-POWERS",
-    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY"
+    "6dea072c-97c4-5ee9-9958-a3da6a2a049c",
+    "66200ff6-4af8-5b8f-a2c8-08ddf2d0f072",
+    "e225d39c-9081-5d1f-80f5-ed121dbb9a30"
   ],
   "disambiguation_ids": [
-    "DISAMB-COMMISSION-REPORT-AND-EVENT"
+    "0f180711-5550-55b5-9da8-699215d6d95e"
   ]
 }

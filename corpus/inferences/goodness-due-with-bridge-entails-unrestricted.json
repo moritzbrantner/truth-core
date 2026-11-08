@@ -1,10 +1,12 @@
 {
-  "id": "INF-GOODNESS-DUE-ACTUALITY-WITH-DUE-BRIDGE-ENTAILS-UNRESTRICTED",
+  "id": "da19799e-5100-5913-9a67-a4ce2b8ec012",
+  "label": "A thing is GOOD_1 in a given perfection exactly when it actually has that…, by Constructive-proof",
+  "legacy_id": "INF-GOODNESS-DUE-ACTUALITY-WITH-DUE-BRIDGE-ENTAILS-UNRESTRICTED",
   "input_statement_ids": [
-    "STMT-GOODNESS-DUE-TO-FORM-AND-END",
-    "STMT-EVERY-ACTUAL-PERFECTION-IS-DUE-TO-FORM-AND-END"
+    "6cc47d1b-4840-54e1-b96b-d389d74fbbf4",
+    "76f32b56-36b5-5a42-b5cb-efa834c27e39"
   ],
-  "output_statement_id": "STMT-GOODNESS-IS-ACTUALITY",
+  "output_statement_id": "00e962ae-f109-55f7-a7fd-f107ce0dea6b",
   "rule": "constructive-proof",
   "meaning": "In one fixed Frame, use the checked equivalence between unrestricted GoodIn↔Has and AllActualitiesDue under DueActualityThesis. Both the proposed due-goodness thesis and the actual-to-due bridge are explicit premises. The conclusion is exactly the existing unrestricted per-perfection route reading, with the same GoodIn and Has; no real source-sense identification or independent premise truth is inferred.",
   "assumption_statement_ids": [],

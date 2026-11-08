@@ -1,6 +1,8 @@
 {
-  "id": "ATOMIC-CAUSAL-SOURCE-CONSISTENCY",
-  "argument_id": "ATOMIC-CAUSAL-SOURCE-CONSISTENCY",
+  "id": "7f286661-bedc-518c-8b26-b04025028784",
+  "label": "A fixed two-object interpretation with identity parthood and sole edge origin→effect satisfies…",
+  "legacy_id": "ATOMIC-CAUSAL-SOURCE-CONSISTENCY",
+  "argument_id": "84c30dd4-1305-5ebb-ac63-1c0bfc9f1a19",
   "challenge_module": "TruthCore.Results.Causality.AtomisticCausalSource.Challenge",
   "solution_module": "TruthCore.Results.Causality.AtomisticCausalSource.Solution",
   "theorem": "TruthCore.Results.Causality.AtomisticCausalSource.consistency",

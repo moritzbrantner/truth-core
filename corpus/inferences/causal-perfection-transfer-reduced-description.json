@@ -1,13 +1,15 @@
 {
-  "id": "INF-CAUSAL-PERFECTION-TRANSFER-REDUCED-DESCRIPTION",
+  "id": "5df73a29-707a-53e4-b6b9-ac6ed98b9ebb",
+  "label": "The reduced nominal description suffices for the name 'GOD_2' to apply: if a…, by Typed composition",
+  "legacy_id": "INF-CAUSAL-PERFECTION-TRANSFER-REDUCED-DESCRIPTION",
   "input_statement_ids": [
-    "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING",
-    "STMT-UNIVERSAL-CAUSE-TRANSFERS-PERFECTIONS",
-    "STMT-NO-COMPONENT-IS-FIRST-BEING",
-    "STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING",
-    "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE"
+    "7067553d-cad9-5d79-b6b2-912e35051530",
+    "b26c10a0-983d-5a88-aa03-cc601bc1ddc6",
+    "09c6d5f0-d412-5038-85f9-75fffb935727",
+    "eaa4c679-98a3-5e82-95ff-18bd1177ce74",
+    "1ec205ed-b2a6-5384-bb5f-2565a9d325bf"
   ],
-  "output_statement_id": "STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS",
+  "output_statement_id": "e39a4fce-ccaf-5862-836e-9317923842f3",
   "rule": "typed_composition",
   "meaning": "For the supplied reduced description, apply restricted transfer using its independently supplied universal esse causation. Derive remoteness from first-being/no-component premises, then apply the retained full nominal premise.",
   "assumption_statement_ids": [],

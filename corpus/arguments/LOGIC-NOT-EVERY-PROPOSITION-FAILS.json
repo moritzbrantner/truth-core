@@ -1,15 +1,17 @@
 {
-  "id": "LOGIC-NOT-EVERY-PROPOSITION-FAILS",
+  "id": "83208e1e-e6bf-53e7-a0a6-eeb481d6f22f",
+  "label": "Inside Lean logic, ¬. A logical theorem, not a philosophical independence thesis",
+  "legacy_id": "LOGIC-NOT-EVERY-PROPOSITION-FAILS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-NOT-EVERY-LEAN-PROPOSITION-FAILS",
+  "conclusion_statement_id": "8efdfe70-cb76-575f-a13c-16a35cfb7c9e",
   "inference_ids": [
-    "INF-LOGIC-NOT-EVERY-PROPOSITION-FAILS"
+    "1a24ad40-6b5f-5baa-90f7-9bc9d391f1f6"
   ],
   "meaning": "Compose the separately verified existential proof: universal failure would negate its witnessed proposition.",
   "definition_ids": [
-    "DEF-LEAN-PROPOSITION-HOLDING"
+    "295c5c65-7654-5a9f-8f01-cd9071dd31f1"
   ],
   "disambiguation_ids": [
-    "DISAMB-TRUE"
+    "80b5fc49-ed55-5c61-b14b-3621d2aa1520"
   ]
 }

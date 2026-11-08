@@ -1,9 +1,11 @@
 {
-  "id": "STMT-OPERATING-FROM-ITSELF-IS-LIVING",
+  "id": "feb2967b-1e3d-5983-8332-d77490cdecca",
+  "label": "OPEN analyst reading of ST I q.18 a.2: whatever operates from itself at a time lives at that time",
+  "legacy_id": "STMT-OPERATING-FROM-ITSELF-IS-LIVING",
   "paraphrase": "OPEN analyst reading of ST I q.18 a.2 (to live is the being of what operates from itself): whatever operates from itself at a time lives at that time. It does not require being unmoved in other respects.",
   "lean_declaration": "TruthCore.Causality.Round5Worklist.OperatingFromItselfIsLiving",
   "definition_ids": [
-    "DEF-OPERATES-FROM-ITSELF-AT",
-    "DEF-LIFE-PRESENT-AT"
+    "e5ca09aa-c0f2-5784-8c28-eb9c1ccc6fec",
+    "42635e18-7288-5194-88b7-02dda6aa0477"
   ]
 }

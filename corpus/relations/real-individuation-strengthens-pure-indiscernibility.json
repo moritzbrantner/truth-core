@@ -1,11 +1,13 @@
 {
-  "id": "REL-REAL-INDIVIDUATION-STRENGTHENS-PURE-INDISCERNIBILITY",
+  "id": "87035e9a-0cf6-5451-b643-9990f9b853ca",
+  "label": "Any two beings, first movers or not, that… strengthens Any two beings, first movers or not, that…",
+  "legacy_id": "REL-REAL-INDIVIDUATION-STRENGTHENS-PURE-INDISCERNIBILITY",
   "subject_kind": "statement",
-  "subject_id": "STMT-REAL-DETERMINATIONS-INDIVIDUATE",
+  "subject_id": "abe615df-25ae-5aa9-8611-140ca98ae522",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-PURELY-DETERMINED-INDISCERNIBLES-IDENTICAL",
-  "verification_result_id": "REAL-INDIVIDUATION-STRENGTHENS-PURE-INDISCERNIBILITY",
-  "strictness_result_id": "PURE-INDISCERNIBILITY-CONTROLS",
+  "object_id": "bd0a956c-149e-5d7d-9771-b974da72fd3a",
+  "verification_result_id": "cabf1085-ddac-5c0d-818e-e6c9258cb7e8",
+  "strictness_result_id": "5a398e97-a75b-5d14-a3f8-f99946aec6b9",
   "note": "Sole-premise restriction to purely determined beings; strict on the Black-style carrier. The uniqueness route PURE-INDISCERNIBILITY-FIRST-MOVER-UNIQUENESS uses the weak version."
 }

@@ -1,9 +1,11 @@
 {
-  "id": "INF-ACTUAL-GROUNDING-WF-FROM-FINITE-RANK",
+  "id": "3a91dc26-8734-5036-b504-b56be2ffb717",
+  "label": "The profile's selected relation at w, restricted to candidates that are…, by Inverse image of a…",
+  "legacy_id": "INF-ACTUAL-GROUNDING-WF-FROM-FINITE-RANK",
   "input_statement_ids": [
-    "STMT-ACTUAL-GROUNDING-FINITE-RANK"
+    "47e323f2-3405-5caf-a192-201eb1e02f76"
   ],
-  "output_statement_id": "STMT-ACTUAL-GROUNDING-WF",
+  "output_statement_id": "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21",
   "rule": "Inverse image of a well-founded relation (subrelation of the rank order on ℕ)",
   "meaning": "A natural-number rank decreasing along actual concrete grounding (OPEN) makes actual grounding well-founded: each grounding edge lies in the inverse image of < on ℕ. No excluded middle. This is a second, non-circular route to STMT-ACTUAL-GROUNDING-WF besides ACTUAL-GROUNDING-WF-FROM-BORROWING-CUT, from a strictly stronger premise.",
   "assumption_statement_ids": [],

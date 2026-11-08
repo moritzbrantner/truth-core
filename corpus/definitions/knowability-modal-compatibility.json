@@ -1,5 +1,7 @@
 {
-  "id": "DEF-KNOWABILITY-MODAL-COMPATIBILITY",
+  "id": "ceabb741-5d93-5f04-ba05-418605b8bd0e",
+  "label": "Epistemic inclusion and knowability…: Included E R requires each same-world epistemic alternative…",
+  "legacy_id": "DEF-KNOWABILITY-MODAL-COMPATIBILITY",
   "term": "epistemic inclusion and knowability schema strength",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Logic.KnowabilityCompatibility.Included",

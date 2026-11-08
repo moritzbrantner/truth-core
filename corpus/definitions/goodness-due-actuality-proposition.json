@@ -1,5 +1,7 @@
 {
-  "id": "DEF-GOODNESS-DUE-ACTUALITY-PROPOSITION",
+  "id": "68191121-85f6-5bce-b32e-1900c8b52f57",
+  "label": "Goodness as due actuality: DueActualityThesis f means ∀ x p, GoodIn x p ↔. GoodIn is independent…",
+  "legacy_id": "DEF-GOODNESS-DUE-ACTUALITY-PROPOSITION",
   "term": "goodness as due actuality (proposed proposition)",
   "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.DueActualityThesis",
   "basis": "stipulative",

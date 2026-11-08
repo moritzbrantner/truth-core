@@ -1,5 +1,7 @@
 {
-  "id": "STMT-AFFECTIONS-NOT-SEPARATELY-EXTRACTABLE",
+  "id": "f9c0520c-7180-5616-a64f-5f86d46de2ec",
+  "label": "Affections such as colours and states are inseparable from subjects, so complete separation cannot…",
+  "legacy_id": "STMT-AFFECTIONS-NOT-SEPARATELY-EXTRACTABLE",
   "paraphrase": "Affections such as colours and states are inseparable from subjects, so complete separation cannot yield free-standing qualities without bearers.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.AffectionsNotSeparatelyExtractableReading"
 }

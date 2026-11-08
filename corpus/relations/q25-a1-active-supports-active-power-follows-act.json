@@ -1,9 +1,11 @@
 {
-  "id": "REL-Q25-A1-ACTIVE-SUPPORTS-ACTIVE-POWER-FOLLOWS-ACT",
+  "id": "0fc482b1-3b0f-5f77-8e15-1e315001f1f2",
+  "label": "Thomas Aquinas, Summa theologiae I q.25… supports A being can do a task if it is in act in…",
+  "legacy_id": "REL-Q25-A1-ACTIVE-SUPPORTS-ACTIVE-POWER-FOLLOWS-ACT",
   "subject_kind": "claim",
-  "subject_id": "AQUINAS-ST-I-Q25-A1-ACTIVE-PRINCIPLE-IN-ACT",
+  "subject_id": "a5d11a9e-5f41-58c0-9c2d-ab707d0e669c",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-ACTIVE-POWER-FOLLOWS-ACT",
+  "object_id": "d61eda33-7f6c-52a8-a905-e16661520f23",
   "note": "ST I q.25 a.1 co. states 'unumquodque, secundum quod est actu et perfectum, secundum hoc est principium activum alicuius'. Its 'secundum quod ... secundum hoc' bears on the sufficiency direction the premise needs (in act in a perfection, so able to act according to it), which the claim itself declines to attribute. The premise adds the task framework: a being can do a task if it is in act in every perfection the task requires; the article says nothing about tasks or about how perfections combine."
 }

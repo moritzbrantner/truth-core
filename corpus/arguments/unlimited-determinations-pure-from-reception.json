@@ -1,33 +1,35 @@
 {
-  "id": "UNLIMITED-DETERMINATIONS-PURE-FROM-RECEPTION",
+  "id": "888b3cb6-6b58-5e02-a86b-e8a5ed865319",
+  "label": "Any being, root or not, that is not composite, whose represented esse equals its…, from reception",
+  "legacy_id": "UNLIMITED-DETERMINATIONS-PURE-FROM-RECEPTION",
   "premise_statement_ids": [
-    "STMT-IDENTITY-BEARERS-RECEIVE-ESSE-ONLY-IN-OWN-ESSENCE",
-    "STMT-RECEIVER-IN-POTENCY-TO-RECEIVED-ESSE",
-    "STMT-NOTHING-IN-RECEPTIVE-POTENCY-TO-ITSELF",
-    "STMT-UNRECEIVED-ESSE-IS-OWN-BEING",
-    "STMT-OWN-BEING-IS-NO-RECIPIENT",
-    "STMT-NON-RECIPIENT-DETERMINATIONS-ARE-PURE"
+    "b9316115-41b9-57e3-bdef-35b6e2face1a",
+    "7fcfcee8-86ab-5a16-84ad-124cf5e8f9b2",
+    "14325c83-1c3f-5afb-b63f-52b0c2b2a326",
+    "bc1810e5-1070-5585-9b0f-e17ca3547ac7",
+    "7338142d-7765-53e1-bbdc-82c8818f3491",
+    "32695660-361c-5a8b-a45d-5681110f3db1"
   ],
-  "conclusion_statement_id": "STMT-UNLIMITED-DETERMINATIONS-ARE-PURE",
+  "conclusion_statement_id": "c78c77da-91b0-5928-bd5f-ba670a6f3660",
   "inference_ids": [
-    "INF-UNLIMITED-DETERMINATIONS-PURE-FROM-RECEPTION"
+    "feef6410-f212-5e4a-80ee-e5bfb65cd4b0"
   ],
   "meaning": "A being with no represented limiting principle is its own being by UNLIMITED-IS-OWN-BEING-FROM-RECEPTION (same four premises); what is its own being is no recipient (STMT-OWN-BEING-IS-NO-RECIPIENT, q.4 a.1 ad 3); and a being that is no recipient has only pure determinations (STMT-NON-RECIPIENT-DETERMINATIONS-ARE-PURE, q.7 a.1 generalized). Derives the former bare bridge STMT-UNLIMITED-DETERMINATIONS-ARE-PURE for an arbitrary carrier of determinations. All six premises stay open; the two new ones are supported, not stated.",
   "definition_ids": [
-    "DEF-HAS-LIMITING-PRINCIPLE",
-    "DEF-ESSE-RECEIVED-IN",
-    "DEF-RECEPTIVE-POTENCY",
-    "DEF-SCG-I28-WHOLE-POWER-PARTICIPATION",
-    "DEF-RECIPIENT",
-    "DEF-REAL-DETERMINATION",
-    "DEF-PURE-PERFECTION",
-    "DEF-ESSE"
+    "a919ce52-6c8b-5e0f-9aaa-5b570bded78b",
+    "4433942e-aaf6-55a9-b777-66e55638103d",
+    "a67e6214-624d-54d1-81ff-442c09c5ea9d",
+    "5dc08b95-ca15-52ab-b8cd-2b558e9a13f7",
+    "479d8b7c-1690-553b-9ad1-7aefcb82927f",
+    "3aba5f19-f48d-50db-bc57-93ba2e99f845",
+    "65e38ffa-5a1c-55d0-935c-6538d843b780",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSE-RECEPTION",
-    "DISAMB-RECEPTIVE-POTENCY",
-    "DISAMB-ESSE-LIMITATION",
-    "DISAMB-PURE-ACT-STRICTNESS",
-    "DISAMB-ESSENCE"
+    "5921354b-51e6-5da3-8d8c-e9041840fd9f",
+    "8bb31748-e20f-5266-ac39-c442faab6622",
+    "19190b6e-359f-590c-b434-4e6f5803da4f",
+    "b1640e51-d7d4-5a80-9992-29fa1ded8048",
+    "1aef8986-ed29-564f-9803-d812d2ff63e1"
   ]
 }

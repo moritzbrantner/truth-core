@@ -1,9 +1,11 @@
 {
-  "id": "REL-REMAINING-THEOLOGICAL-DOMAIN-OPPOSES-COVERAGE",
+  "id": "ec2ac1c9-e8af-5010-8171-0dbff5d73491",
+  "label": "None of the three named calibrations… alternative to At least one of the three domain…",
+  "legacy_id": "REL-REMAINING-THEOLOGICAL-DOMAIN-OPPOSES-COVERAGE",
   "subject_kind": "statement",
-  "subject_id": "STMT-EMPIRICAL-PROOF-REMAINING-DOMAIN",
+  "subject_id": "dc97026d-b4c1-5196-8d13-6acc61db7cf3",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-EMPIRICAL-PROOF-NAMED-DOMAIN-COVERAGE",
+  "object_id": "839339f5-ade2-58d5-8ba4-9176ca273e74",
   "note": "Same table/predicate; the remainder denies each named calibration. It is not a proof-status rival."
 }

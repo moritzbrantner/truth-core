@@ -1,10 +1,12 @@
 {
-  "id": "DEF-BEING-AS-ENTITY",
+  "id": "4b8fac5c-91f0-5e82-b095-9f4e96d1d6a9",
+  "label": "BEING_1, as the entity of a thing: BEING_1 in the sense in which a thing is a BEING_1: the entity…",
+  "legacy_id": "DEF-BEING-AS-ENTITY",
   "term": "being (ens), as the entity of a thing",
   "definition": "Being in the sense in which a thing is a being: the entity of a thing, as divided by the ten categories, convertible with 'thing'. In this sense no privation is a being, so evil is not a being. The Lean domain `Being` ranges over beings in this sense; nothing restricts it to bodies.",
   "basis": "sourced",
   "claim_ids": [
-    "AQUINAS-ST-I-Q48-A2-AD2-EVIL-AS-PROPOSITIONAL-TRUTH"
+    "ebcc0d64-270e-52e2-915a-234351adc452"
   ],
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel.Being",
   "note": "Lean locator: MotionModel.Being is the primitive carrier type, not the whole MotionModel or a predicate establishing which real things are beings. The chosen carrier interpretation is supplied by an application; neither existence nor the categorical reading follows from the field declaration alone. That applicability remains OPEN."

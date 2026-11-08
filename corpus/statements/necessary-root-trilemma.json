@@ -1,24 +1,26 @@
 {
-  "id": "STMT-NECESSARY-ROOT-TRILEMMA",
+  "id": "b0607c1b-8c73-52f1-a052-85852e570f28",
+  "label": "At w, one of: some concrete individual exists at w and at every accessible world; or the selected…",
+  "legacy_id": "STMT-NECESSARY-ROOT-TRILEMMA",
   "paraphrase": "At w, one of: some concrete individual exists at w and at every accessible world; or the selected relation restricted to actual concreta is well-founded and some actual concretum is a root of it that does not exist at every accessible world; or that restricted relation is not well-founded. The first horn can hold together with either other horn; the second and third exclude each other. The third horn does not say whether a cycle or an unending descent fails well-foundedness. Neither is claimed actual or metaphysically possible; a root is a root of the selected relation only.",
   "lean_declaration": "TruthCore.Causality.NecessaryRootFork.NecessaryRootTrilemma",
   "definition_ids": [
-    "DEF-ACTUAL-GROUNDING-WF",
-    "DEF-NONNECESSARY-ROOT",
-    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
-    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
-    "DEF-INHABITED-CONCRETE-WORLD",
-    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-MODAL-FIXTURE-FRAME",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-MODAL-CONTINGENCY",
-    "DEF-KANT-ONTOLOGICAL-MODEL"
+    "58fee8ed-9b44-5399-95c8-5d239bea898d",
+    "7ac7fea6-5b3a-5e97-b687-c76569c58429",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce",
+    "1b8baf77-84fa-5513-a138-7fa14840dd87",
+    "baddf770-36bf-542f-bb3c-2297342d5452",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109"
   ],
   "disambiguation_ids": [
-    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
-    "DISAMB-NONNECESSARY-VS-CONTINGENT-ROOT",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
-    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING"
+    "6e92c6e3-edf0-5d7e-b2b3-788b24b8b768",
+    "b9adce48-6b86-5f58-b2ea-b25f51c70cbd",
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "c529e8d3-43e3-53a8-a82f-3955e9815265"
   ]
 }

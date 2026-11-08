@@ -1,36 +1,38 @@
 {
-  "id": "FIRST-MOVER-PERFECTION-FROM-WHOLE-POWER",
+  "id": "ff74a7ac-7c21-5525-958a-9079b9a6d78e",
+  "label": "Every first mover moved by none really has every pure perfection among the…, from whole power",
+  "legacy_id": "FIRST-MOVER-PERFECTION-FROM-WHOLE-POWER",
   "premise_statement_ids": [
-    "STMT-FIRST-UNMOVED-MOVER-IS-SIMPLE",
-    "STMT-FIRST-UNMOVED-MOVER-IS-FIRST-BEING",
-    "STMT-UNLIMITED-IS-OWN-BEING",
-    "STMT-OWN-BEING-HAS-EVERY-PERFECTION-OF-BEING",
-    "STMT-PURE-PERFECTIONS-PERTAIN-TO-BEING"
+    "78246da5-0b37-5b37-b821-1e8bdb41606c",
+    "74eb9113-552b-5ec6-8e09-68374305dd58",
+    "26e8e6ed-964e-55ef-a9fd-756164aad6a7",
+    "d164b1ff-ad31-5fbc-8ef9-eb0db51ebd96",
+    "c4fb87a6-047d-5f3d-b3e3-8dc0c4bbc946"
   ],
-  "conclusion_statement_id": "STMT-FIRST-MOVER-HAS-EVERY-PURE-DETERMINATION",
+  "conclusion_statement_id": "17498c0a-499c-52f0-8d74-e990c9f72569",
   "inference_ids": [
-    "INF-FIRST-MOVER-PERFECTION-FROM-WHOLE-POWER"
+    "4b5b2b9e-9426-55d6-bab0-1ab7ff910b5f"
   ],
   "meaning": "For each first unmoved mover, the existing simplicity reading excludes composition and esse other than essence and the first-being bridge excludes a distinct simply-prior being, so it has no represented limiting principle. The open bridge STMT-UNLIMITED-IS-OWN-BEING makes it its own being; SCG I.28 (as encoded) gives it every perfection of being; q.4 a.2 (restricted to pure perfections) makes every pure perfection such a perfection. This derives the former bare leaf STMT-FIRST-MOVER-HAS-EVERY-PURE-DETERMINATION. All five premises stay open; the two source-supported ones are weaker encodings of their passages.",
   "definition_ids": [
-    "DEF-FIRST-UNMOVED-MOVER",
-    "DEF-SIMPLE",
-    "DEF-ESSE",
-    "DEF-FIRST-BEING",
-    "DEF-SIMPLE-PRIORITY",
-    "DEF-HAS-LIMITING-PRINCIPLE",
-    "DEF-REAL-DETERMINATION",
-    "DEF-PURE-PERFECTION",
-    "DEF-UNRESTRICTED-PURE-PERFECTION",
-    "DEF-SCG-I28-WHOLE-POWER-PARTICIPATION",
-    "DEF-UNIVERSALLY-PERFECT"
+    "cfadc1f4-dd30-5f4f-a336-a0b9c1b1182d",
+    "85f7f569-ab4d-514b-aa2c-cf75171ad105",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "25e19d5a-5cdf-5916-a888-f6a0ce970f11",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8",
+    "a919ce52-6c8b-5e0f-9aaa-5b570bded78b",
+    "3aba5f19-f48d-50db-bc57-93ba2e99f845",
+    "65e38ffa-5a1c-55d0-935c-6538d843b780",
+    "956247e3-ca78-5f54-a8b1-6e725735c754",
+    "5dc08b95-ca15-52ab-b8cd-2b558e9a13f7",
+    "5f851204-5991-5e16-87f1-e8b3ed729708"
   ],
   "disambiguation_ids": [
-    "DISAMB-PURE-ACT-STRICTNESS",
-    "DISAMB-PERFECTION-SCOPE",
-    "DISAMB-ESSENCE",
-    "DISAMB-ORDER-OF-BEING",
-    "DISAMB-SCG-I42-COMMON-NOTION-THISNESS",
-    "DISAMB-THISNESS-REAL-BARE"
+    "b1640e51-d7d4-5a80-9992-29fa1ded8048",
+    "dc9c0a1b-1759-5b1c-9ab9-ee7bea8847b7",
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "1795a62e-f78b-5f5b-94e7-9e7490824811",
+    "8dc455d8-c214-58f6-b8c8-a95cb4c3421c",
+    "567c3e74-9514-52d9-b3b6-f5a3af078784"
   ]
 }

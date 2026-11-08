@@ -1,10 +1,12 @@
 {
-  "id": "INF-VISIBLE-CHURCH-CRITERION-SUPPLIES-STAGE-FIVE",
+  "id": "618e0eeb-60bd-5d47-8f3f-35f23b0807b7",
+  "label": "Jesus founded a visible, enduring society with an authority structure, by Constructive-proof",
+  "legacy_id": "INF-VISIBLE-CHURCH-CRITERION-SUPPLIES-STAGE-FIVE",
   "input_statement_ids": [
-    "STMT-CHURCH-HAS-VISIBLE-CRITERION",
-    "STMT-CHRIST-FOUNDED-SELECTED-CHURCH"
+    "c2e79f3b-6c9d-577a-88ed-ec6da56a2cf9",
+    "0f0a4a1e-87f2-509c-a6ef-928dc5a91193"
   ],
-  "output_statement_id": "STMT-CHRIST-FOUNDED-VISIBLE-CHURCH",
+  "output_statement_id": "a8dfc0b8-140f-5351-a856-16a719251ac3",
   "rule": "constructive-proof",
   "meaning": "Definition-projection transcription: obtain the selected founded Church witness and preserve that same society through the visible calibration. This connects directly to the original stage-5 proposition, without supplying history or identity.",
   "assumption_statement_ids": [],

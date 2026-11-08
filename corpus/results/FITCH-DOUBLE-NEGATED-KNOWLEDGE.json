@@ -1,6 +1,8 @@
 {
-  "id": "FITCH-DOUBLE-NEGATED-KNOWLEDGE",
-  "argument_id": "FITCH-DOUBLE-NEGATED-KNOWLEDGE",
+  "id": "15e39797-613b-5185-8016-6bd07153e36a",
+  "label": "Truth of the selected content at…, from At every world modally accessible from… and 1 more",
+  "legacy_id": "FITCH-DOUBLE-NEGATED-KNOWLEDGE",
+  "argument_id": "614815b7-7553-5bb9-b304-5445bdeef2ce",
   "challenge_module": "TruthCore.Results.Logic.FitchKnowability.Challenge",
   "solution_module": "TruthCore.Results.Logic.FitchKnowability.Solution",
   "theorem": "TruthCore.Results.Logic.FitchKnowability.doubleNegatedKnowledge",

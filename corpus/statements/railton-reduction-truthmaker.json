@@ -1,8 +1,10 @@
 {
-  "id": "STMT-RAILTON-REDUCTION-TRUTHMAKER",
+  "id": "5f15a9b4-3ea9-59dd-91f4-95d1c6d6cff8",
+  "label": "For Railton, the complex natural relational and dispositional reduction basis makes an…",
+  "legacy_id": "STMT-RAILTON-REDUCTION-TRUTHMAKER",
   "paraphrase": "For Railton, the complex natural relational and dispositional reduction basis makes an objective-interest ascription true and explains the idealized response; the idealized response does not create the interest.",
   "definition_ids": [
-    "DEF-NATURALIST-REDUCTION-BASIS",
-    "DEF-RAILTON-NONMORAL-WELFARE"
+    "f5e58217-9b11-5ead-8372-481cc8ee371f",
+    "7d48c639-2ece-50e2-b94d-487a62bb4418"
   ]
 }

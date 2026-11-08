@@ -1,24 +1,26 @@
 {
-  "id": "ATTEMPT-SELLARS-HOLISTIC-JUSTIFICATION",
+  "id": "452f3304-a029-5fe1-905b-54f36e89a25b",
+  "label": "Materialized/read the complete authorized Sellars EPM VIII §§32–38 twice-pinned live witness and…",
+  "legacy_id": "ATTEMPT-SELLARS-HOLISTIC-JUSTIFICATION",
   "statement_ids": [
-    "STMT-REGRESS-JUSTIFICATION-TRANSFER",
-    "STMT-REGRESS-SCHEMA-PACKAGE",
-    "STMT-SELLARS-NONINFERENTIAL-NOT-AUTONOMOUS",
-    "STMT-SELLARS-RECOGNIZED-REPORT-RELIABILITY",
-    "STMT-SELLARS-PRESENT-MEMORY-NOT-PAST-KNOWING",
-    "STMT-SELLARS-OBSERVATIONAL-RECIPROCAL-DIMENSIONS",
-    "STMT-SELLARS-PIECEMEAL-SELF-CORRECTION"
+    "913dbfbc-3730-55ca-b6dd-f04ec25eef83",
+    "85b7b6b8-eb34-59a6-8acd-79315ad253d6",
+    "8148a6d0-f1e7-53d1-a86b-af1390057b9f",
+    "27a26486-02f7-5303-a386-f6021a88803c",
+    "df7a6d69-c1ab-5db1-abf6-489dfc266f2c",
+    "63213af1-60fe-594e-b767-1268afb77dd5",
+    "0992c919-40e2-5dee-92fc-387d224ceb06"
   ],
   "date": "2026-10-28",
   "kind": "reading",
   "outcome": "succeeded",
   "summary": "Materialized/read the complete authorized Sellars EPM VIII §§32–38 twice-pinned live witness and checked a byte/text-identical fixed 2001 archive fallback twice. Read the cross-reference §19 for context without attributing a new claim from that unpinned chapter. Five bounded prose readings preserve observational asymmetry, recognized reliability, present-memory/past-knowing scope and piecemeal correction. BonJour 1976 CMU teaching PDF downloaded but pdftotext yielded only form feeds (image-only); no OCR, no claims or historical attributions taken from it. Exact existing RegressSchema and JustificationTransfer theorems already cover the structural controls; rejected a duplicate cycle or finite-path proof and rejected identifying coherent consistency with warrant. Positive reply, strongest objections and the still-open holistic-entitlement bridge persist in docs/notes/sellars-holistic-justification.md. No Lean/result/axiom/root edge, no premise discharge.",
   "evidence": [
-    "SELLARS-EPM-32-36-NONINFERENTIAL",
-    "SELLARS-EPM-35-RECOGNITION",
-    "SELLARS-EPM-37-TEMPORAL-REGRESS",
-    "SELLARS-EPM-38-DIMENSIONS",
-    "SELLARS-EPM-38-SELF-CORRECTION",
-    "REGRESS-SCHEMA-PACKAGE"
+    "64e3c82a-74ce-50e3-a8f6-6b6c300eec5c",
+    "6fe1a3f4-8c0f-5962-a0b5-1dd61e2b1831",
+    "547f17ab-663c-5633-b5f2-96097549ccdc",
+    "aa4a0150-367d-5689-9fb1-1a4a3cd2bf33",
+    "4c2f6780-025d-5169-a36c-e5735be16a88",
+    "74e00870-e0d4-5467-8c09-a75b2a922ce5"
   ]
 }

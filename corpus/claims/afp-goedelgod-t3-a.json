@@ -1,15 +1,17 @@
 {
-  "id": "AFP-GOEDELGOD-T3-A",
-  "statement_id": "STMT-SCOTT-GOD-LIKE-NECESSARILY-EXISTS",
-  "source_id": "AFP-GOEDELGOD",
+  "id": "94a1ebda-fd4e-5d6f-a097-57925653a5d5",
+  "label": "Christoph Benzmüller and Bruno…, Gödel's…: Scott's theorem T3: necessarily a GOD_LIKE_5 being…",
+  "legacy_id": "AFP-GOEDELGOD-T3-A",
+  "statement_id": "93824f63-3964-50ec-a029-057102888f72",
+  "source_id": "871fc43a-465b-5526-b895-28b2a6c997c9",
   "locator": "GoedelGod.thy, T3: \"[□ (∃ G)]\"",
   "interpretation": "Theorem T3, the theory's main theorem ('Necessarily, God exists'), proved there by (metis A5 C T2 sym G_def NE_def). The theory's gloss says 'God'; the formula is about its G, being God-like, and the claim records the formula, not the gloss. Attributed to the AFP formalization of Scott's notes, not to what Scott or Gödel intended.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-GOD-LIKE-SCOTT",
-    "DEF-QML-KB-NECESSITY"
+    "90644066-e830-5e1b-a9f0-911743369129",
+    "153fcebf-66f6-53de-bad7-82a30a359c9c"
   ],
   "disambiguation_ids": [
-    "DISAMB-GOD"
+    "205a39c3-915d-5fe4-8076-a9ff91329e08"
   ]
 }

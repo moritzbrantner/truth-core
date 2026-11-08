@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MOVED-AT-NO-TIME",
+  "id": "0f4513f4-eb0a-5ec3-9bea-a35b4f06da6d",
+  "label": "Moved at no time: Over a supplied clock, with the prima via predicates taken at each time, f is…",
+  "legacy_id": "DEF-MOVED-AT-NO-TIME",
   "term": "moved at no time (never reduced from potency to act)",
   "definition": "Over a supplied clock, with the prima via predicates taken at each time (Moved t x r: x is being reduced from potency to act in respect r at t), f is moved at no time when Moved t f r fails for every time t and every respect r. It is stronger than being unmoved at one time (DEF-TIME-SLICED-FIRST-MOVER) and says nothing about whether f exists at every time or is eternal.",
   "basis": "stipulative",

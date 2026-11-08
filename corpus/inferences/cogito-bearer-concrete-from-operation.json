@@ -1,11 +1,13 @@
 {
-  "id": "INF-COGITO-BEARER-CONCRETE-FROM-OPERATION",
+  "id": "76ff7825-a18a-5600-8912-86b58ae4642b",
+  "label": "Every bearer of an occurring thought episode is CONCRETE_6 under the…, by Constructive-proof (2)",
+  "legacy_id": "INF-COGITO-BEARER-CONCRETE-FROM-OPERATION",
   "input_statement_ids": [
-    "STMT-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE",
-    "STMT-INTELLECTUAL-EXERCISE-REQUIRES-ACT",
-    "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING"
+    "8cf54bde-0c97-5428-9179-0d567293675d",
+    "3dd25039-1575-5612-83a5-2cee9ce1bf7a",
+    "7067553d-cad9-5d79-b6b2-912e35051530"
   ],
-  "output_statement_id": "STMT-COGITO-BEARER-IS-CONCRETE",
+  "output_statement_id": "a7040bf1-b15a-5ffb-b096-6b60411a066e",
   "rule": "constructive-proof",
   "meaning": "Instantiate occurrence-to-exercise, exercise-to-actuality and actuality-to-esse at the same bearer/episode/respect. Every bearer of an occurring thought is concrete as HasEsseInRe; all three inputs remain explicit and no actual episode or world-indexed existence follows.",
   "assumption_statement_ids": [],

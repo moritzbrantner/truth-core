@@ -1,6 +1,8 @@
 {
-  "id": "NAMING-VERACITY-GOD-CONFIRMS-ONLY-TRUTH",
-  "argument_id": "NAMING-VERACITY-GOD-CONFIRMS-ONLY-TRUTH",
+  "id": "647b6077-7555-5e44-bbac-70924cbe8b39",
+  "label": "Whatever a GOD_4 with the classical…, from Whoever confirms a proposition by a sign… and 2 more",
+  "legacy_id": "NAMING-VERACITY-GOD-CONFIRMS-ONLY-TRUTH",
+  "argument_id": "922ad771-53c0-5637-a20f-19c16ea59a45",
   "challenge_module": "TruthCore.Results.Causality.NamingVeracityBatch1.Challenge",
   "solution_module": "TruthCore.Results.Causality.NamingVeracityBatch1.Solution",
   "theorem": "TruthCore.Results.Causality.NamingVeracityBatch1.godConfirmsOnlyTruthFromVeracity",

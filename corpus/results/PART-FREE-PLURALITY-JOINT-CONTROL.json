@@ -1,6 +1,8 @@
 {
-  "id": "PART-FREE-PLURALITY-JOINT-CONTROL",
-  "argument_id": "PART-FREE-PLURALITY-JOINT-CONTROL",
+  "id": "a5b44455-66e5-5bef-9784-e37472a39324",
+  "label": "One fixed five-being, two-world interpretation jointly retains the earlier first-way, represented…",
+  "legacy_id": "PART-FREE-PLURALITY-JOINT-CONTROL",
+  "argument_id": "35f0dbc6-884e-5aa8-af3c-7c5c652a382d",
   "challenge_module": "TruthCore.Results.Causality.PartFreePlurality.Challenge",
   "solution_module": "TruthCore.Results.Causality.PartFreePlurality.Solution",
   "theorem": "TruthCore.Results.Causality.PartFreePlurality.jointControl",

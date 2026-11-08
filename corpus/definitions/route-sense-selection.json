@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ROUTE-SENSE-SELECTION",
+  "id": "52ac2160-9482-5e6a-9cfe-3e6f67482e5a",
+  "label": "Route sense selection, coverage and…: For a term with an enum S of senses and a sense-indexed…",
+  "legacy_id": "DEF-ROUTE-SENSE-SELECTION",
   "term": "route sense selection, coverage and exclusivity of a term's senses",
   "lean_declaration": "TruthCore.Causality.TermSenseForks.SensesCover",
   "basis": "stipulative",

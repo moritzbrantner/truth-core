@@ -1,11 +1,13 @@
 {
-  "id": "STMT-PLATONIC-PHAEDO-99A-ENABLING-BODY",
+  "id": "4d6047a6-1f2e-5087-85f7-86584166112b",
+  "label": "In the account of his own action, Socrates grants that without bones, sinews and the other bodily…",
+  "legacy_id": "STMT-PLATONIC-PHAEDO-99A-ENABLING-BODY",
   "paraphrase": "In the account of his own action, Socrates grants that without bones, sinews and the other bodily conditions he could not carry out his decisions, but rejects explaining his intelligent action by those conditions rather than by his choice of what is best.",
   "definition_ids": [
-    "DEF-PHAEDO-ENABLING-CONDITION",
-    "DEF-PHAEDO-BEST-EXPLANATORY-AIM"
+    "27fa4597-515b-591d-aee1-0b3482aa8be2",
+    "ce9755c3-ce17-553f-b2d7-4c73aa6e65f5"
   ],
   "disambiguation_ids": [
-    "DISAMB-PHAEDO-CAUSE-AND-CONDITION"
+    "75be9568-f157-51ba-b94a-f395c2412b7e"
   ]
 }

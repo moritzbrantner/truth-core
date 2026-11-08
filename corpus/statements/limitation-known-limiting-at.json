@@ -1,11 +1,13 @@
 {
-  "id": "STMT-LIMITATION-KNOWN-LIMITING-AT",
+  "id": "5add3fbf-3a70-553f-86e8-b43c5d7d8714",
+  "label": "The SAME supplied analyst classifier marks the given property Q limiting at selected world w",
+  "legacy_id": "STMT-LIMITATION-KNOWN-LIMITING-AT",
   "paraphrase": "The SAME supplied analyst classifier marks the given property Q limiting at selected world w. This is an explicit open typed input, not the broad source definition or an independently established deficiency judgment.",
   "lean_declaration": "TruthCore.Modal.LimitationPossibility.KnownLimitingAt",
   "definition_ids": [
-    "DEF-LIMITATION-POSSIBILITY-CONFIGURATION"
+    "3fb0a456-3dc6-500b-a8b7-0915d2514037"
   ],
   "disambiguation_ids": [
-    "DISAMB-LIMITATION-CONDITIONAL-SOURCE-SCOTT"
+    "1efd1154-f697-5442-9b14-7ce8f1215f23"
   ]
 }

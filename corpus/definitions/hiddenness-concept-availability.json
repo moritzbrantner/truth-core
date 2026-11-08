@@ -1,5 +1,7 @@
 {
-  "id": "DEF-HIDDENNESS-CONCEPT-AVAILABILITY",
+  "id": "45eca80a-ec5d-566c-99a6-3f63bb01419c",
+  "label": "Availability of the concept of a…: HasConcept records having access to the concept of a personal…",
+  "legacy_id": "DEF-HIDDENNESS-CONCEPT-AVAILABILITY",
   "term": "availability of the concept of a personal God",
   "definition": "HasConcept records having access to the concept of a personal religious ultimate at that time. The open ConceptNeeded constraint prevents belief without the concept, while allowing concept possession without belief. This is separate from raw cognitive capacity for relationship. The model does not settle prehistoric concept availability.",
   "basis": "stipulative",

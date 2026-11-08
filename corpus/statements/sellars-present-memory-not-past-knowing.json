@@ -1,11 +1,13 @@
 {
-  "id": "STMT-SELLARS-PRESENT-MEMORY-NOT-PAST-KNOWING",
+  "id": "df7a6d69-c1ab-5db1-abf6-489dfc266f2c",
+  "label": "Sellars’s account requires present knowledge of relevant earlier facts, without requiring that…",
+  "legacy_id": "STMT-SELLARS-PRESENT-MEMORY-NOT-PAST-KNOWING",
   "paraphrase": "Sellars’s account requires present knowledge of relevant earlier facts, without requiring that they were known when they occurred.",
   "definition_ids": [
-    "DEF-SELLARS-RECOGNIZED-REPORT-AUTHORITY",
-    "DEF-SELLARS-TEMPORAL-EVIDENCE"
+    "1ab12c15-522b-5567-a514-a994061469e1",
+    "a1378229-2a3a-561a-ba71-a2c32a8bca10"
   ],
   "disambiguation_ids": [
-    "DISAMB-SELLARS-FOUNDATION-RELIABILITY-AND-RECIPROCITY"
+    "46f172ac-9758-5e8a-a771-8faa87cddfa7"
   ]
 }

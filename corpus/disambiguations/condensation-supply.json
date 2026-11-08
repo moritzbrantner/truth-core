@@ -1,10 +1,12 @@
 {
-  "id": "DISAMB-CONDENSATION-SUPPLY",
+  "id": "a2112d1d-1bfe-536d-a6a0-0b9b74c858a3",
+  "label": "Component, cut and foundation versus joint supply",
+  "legacy_id": "DISAMB-CONDENSATION-SUPPLY",
   "term": "component, cut and foundation versus joint supply",
   "sense_definition_ids": [
-    "DEF-SCC-CONDENSATION",
-    "DEF-COMPONENT-ESCAPE",
-    "DEF-DERIVATIVE-JOINT-SUPPLY"
+    "434cc1f8-3d14-51dc-89ea-ca12ed46f6da",
+    "ac62d388-9980-5ae0-9584-3ecff39a822b",
+    "c9d479bb-308a-5a2b-9755-ddc0170d4e35"
   ],
   "resolution": "A source of the condensation is a reachability-minimal component; it need not contain an intrinsic event. Condensed Supply discards contributors inside the effect's component and is therefore weaker than Supply. GraphCut reads the projected graph while Trap reads whole records; a graph cut with nonempty contributor sets is a Trap and the converse fails. Trap reads record membership and does not follow scenario indispensability: the same contributor can be indispensable over one allowed-scenario space and redundant over another. No use here passes from any of these to actual productive explanation, an ultimate foundation or a necessary being. See docs/notes/scc-sufficiency-752.md. In ExplanatoryClosure, Supply of a condensed cycle component with no intrinsic event is a fact about the condensed records; inductive closure of the original records still fails there."
 }

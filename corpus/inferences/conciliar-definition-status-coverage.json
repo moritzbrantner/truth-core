@@ -1,9 +1,11 @@
 {
-  "id": "INF-CONCILIAR-DEFINITION-STATUS-COVERAGE",
+  "id": "9474b195-5123-58e7-9cc4-08e5cc866963",
+  "label": "Either every defined move is endorsed, every defined move lacks…, by Constructive-proof",
+  "legacy_id": "INF-CONCILIAR-DEFINITION-STATUS-COVERAGE",
   "input_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-CONCILIAR-DEFINITION-STATUS-CASES",
+  "output_statement_id": "1a191991-5c5a-5e44-83a8-012f2021325c",
   "rule": "constructive-proof",
   "meaning": "Explicit EM yields the two uniform endorsement readings or actual mixed witnesses. Empty Defined domains permit universal overlap; named uniform coverage is not established.",
   "assumption_statement_ids": [],

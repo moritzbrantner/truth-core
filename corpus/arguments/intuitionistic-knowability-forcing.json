@@ -1,16 +1,18 @@
 {
-  "id": "INTUITIONISTIC-KNOWABILITY-FORCING",
+  "id": "7b636ddf-6ba4-5208-9446-57303fedd24b",
+  "label": "The actual Mathlib Heyting implication and pseudocomplement on all persistent contents have the…",
+  "legacy_id": "INTUITIONISTIC-KNOWABILITY-FORCING",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-INTUITIONISTIC-KNOWABILITY-FORCING",
+  "conclusion_statement_id": "9a72229d-e611-5340-ac49-bc183a4cec86",
   "inference_ids": [
-    "INF-INTUITIONISTIC-KNOWABILITY-FORCING"
+    "327480b6-4924-5b46-8a09-06d865b3e8eb"
   ],
   "meaning": "Prove the future-forcing bridge using the Heyting residual adjunction and principal upper sets, then specialize implication-to-bottom for pseudocomplement. This validates the chosen non-Boolean semantics; no pointwise negation identity or full modal-calculus theorem is asserted.",
   "definition_ids": [
-    "DEF-INTUITIONISTIC-PERSISTENT-CONTENTS",
-    "DEF-INTUITIONISTIC-KNOWABILITY-OPERATORS"
+    "bc05d419-dfac-58cd-9239-58b3506a3d3b",
+    "854eaae1-7044-5c7c-9095-cc0caa525bf4"
   ],
   "disambiguation_ids": [
-    "DISAMB-INTUITIONISTIC-FORCING-AND-NONFORCING"
+    "44e4bb2b-dd95-5357-82eb-186f5c0a1281"
   ]
 }

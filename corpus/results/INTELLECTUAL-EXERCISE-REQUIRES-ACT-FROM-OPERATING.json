@@ -1,6 +1,8 @@
 {
-  "id": "INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-OPERATING",
-  "argument_id": "INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-OPERATING",
+  "id": "ff0d7f75-e138-5c13-b1c2-68292924dd9e",
+  "label": "Analyst intellectual-operation instance of operari sequitur esse: every attributed…, from operating",
+  "legacy_id": "INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-OPERATING",
+  "argument_id": "0c748d66-dd85-5569-a7fd-b6fbaf4e79f6",
   "challenge_module": "TruthCore.Results.Causality.Round2ExistenceAct.Challenge",
   "solution_module": "TruthCore.Results.Causality.Round2ExistenceAct.Solution",
   "theorem": "TruthCore.Results.Causality.Round2ExistenceAct.intellectualExerciseRequiresActFromOperating",

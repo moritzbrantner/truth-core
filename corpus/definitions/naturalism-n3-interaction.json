@@ -1,5 +1,7 @@
 {
-  "id": "DEF-NATURALISM-N3-INTERACTION",
+  "id": "7fac7b7a-4440-51f5-9009-27b3e93d8535",
+  "label": "INTERACTION_NATURALISM_4: InteractionNaturalism o P w:= ∀ x y, o.Causes w x y → P y → P x: whatever…",
+  "legacy_id": "DEF-NATURALISM-N3-INTERACTION",
   "term": "interaction naturalism (N3i)",
   "definition": "`InteractionNaturalism o P w := ∀ x y, o.Causes w x y → P y → P x`: whatever causes something that satisfies P satisfies P.",
   "basis": "stipulative",

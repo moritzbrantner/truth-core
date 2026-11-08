@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PARTICIPATION-GROUNDED-SELECTOR",
+  "id": "8dd9f187-4245-5be7-a9cb-0e20555cd621",
+  "label": "Grounded selection: For every particular with the base feature, that base fact grounds its…",
+  "legacy_id": "DEF-PARTICIPATION-GROUNDED-SELECTOR",
   "term": "grounded selection",
   "definition": "For every particular with the base feature, that base fact grounds its participation fact. The directed edge is additional to the selection law. Its philosophical warrant and whether it leaves a substantive role for the separate Form remain open.",
   "basis": "stipulative",

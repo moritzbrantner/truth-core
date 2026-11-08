@@ -1,6 +1,8 @@
 {
-  "id": "SCOTT-GOD-LIKE-NECESSARILY-EXISTS",
-  "argument_id": "SCOTT-GOD-LIKE-NECESSARILY-EXISTS",
+  "id": "13be7bbd-16c1-5d0f-9e63-97c2a0a44d2f",
+  "label": "Scott's theorem T3: necessarily a…, from Scott's axiom A1a: at every world, for… and 7 more",
+  "legacy_id": "SCOTT-GOD-LIKE-NECESSARILY-EXISTS",
+  "argument_id": "83236cf0-31ab-50b8-ac73-055f6c0a7216",
   "challenge_module": "TruthCore.Results.Isabelle.GoedelGod.GodLikeNecessarilyExists.Challenge",
   "solution_module": "TruthCore.Results.Isabelle.GoedelGod.GodLikeNecessarilyExists.Solution",
   "theorem": "TruthCore.Results.Isabelle.GoedelGod.GodLikeNecessarilyExists.godLikeNecessarilyExists",

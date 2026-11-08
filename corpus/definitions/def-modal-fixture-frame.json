@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MODAL-FIXTURE-FRAME",
+  "id": "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+  "label": "WORLDS_9, accessibility and truth at a…: A world is an element of the supplied type W; the…",
+  "legacy_id": "DEF-MODAL-FIXTURE-FRAME",
   "term": "worlds, accessibility and truth at a world",
   "definition": "A world is an element of the supplied type W; the mathematical fixture assigns no metaphysical interpretation to it. Frame W supplies only a relation access : W → W → Prop. MProp W is W → Prop, so truth of P at w is P w. Box F P w means ∀ v, F.access w v → P v; Formula/Holds interpret the fixed syntax with a separately supplied atomic valuation. No frame property, inhabitedness or complete-proposition interpretation is implicit.",
   "basis": "stipulative",

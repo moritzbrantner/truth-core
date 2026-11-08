@@ -1,7 +1,9 @@
 {
-  "id": "INF-PLG-DERIVED-RULES",
+  "id": "0684c250-e01d-5ff3-b3fd-610bc82e15ed",
+  "label": "In Fine's pure logic of ground, for every type of atoms and every set of…, by Derivation-in-plg",
+  "legacy_id": "INF-PLG-DERIVED-RULES",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-PLG-DERIVED-RULES",
+  "output_statement_id": "a1c8d85d-f3ad-5b24-a6c2-f6e75000010c",
   "rule": "derivation-in-plg",
   "meaning": "Fine's own derivations, replayed with the PLG rule constructors: Transitivity(≺/≺) by Subsumption(≺/≼) then Transitivity(≼/≺); Amalgamation(≤) by cutting the premises against Identity C ≤ C listed once per premise (its antecedent set is {C} because the family is nonempty); Amalgamation(<) by Subsumption(</≤), Amalgamation(≤), Subsumption(</≺) for each antecedent, and Reverse Subsumption.",
   "assumption_statement_ids": [],

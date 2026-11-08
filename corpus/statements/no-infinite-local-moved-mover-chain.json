@@ -1,14 +1,16 @@
 {
-  "id": "STMT-NO-INFINITE-LOCAL-MOVED-MOVER-CHAIN",
+  "id": "784a5e0b-5b35-5aa1-b95b-2974beb98e9b",
+  "label": "There is no infinite chain in which each member is moved in local MOTION_2 by the next, a primary…",
+  "legacy_id": "STMT-NO-INFINITE-LOCAL-MOVED-MOVER-CHAIN",
   "paraphrase": "There is no infinite chain in which each member is moved in local motion by the next, a primary mover of it that is itself being moved in local motion: the series of local moved movers stops. (Chains have infinitely many distinct members; a finite cycle is not such a chain.)",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.Typed.NoInfiniteLocalMovedMoverChainReading",
   "definition_ids": [
-    "DEF-LOCAL-BODILY-MOTION",
-    "DEF-MOTION-AS-PHYSICAL-CHANGE",
-    "DEF-PRIMARY-MOVER",
-    "DEF-RESPECT"
+    "315fb7d0-ddae-5a72-b089-e832cdf8fc66",
+    "ab0d1d6b-b777-51cc-ae11-c033081830e8",
+    "b4c14a65-2a0c-5d35-a43d-bf3018f11401",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
   ]
 }

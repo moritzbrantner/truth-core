@@ -1,10 +1,12 @@
 {
-  "id": "INF-MCTAGGART-COMMITMENTS-IMPLY-EXACT-GENERAL-NO-CHANGE",
+  "id": "8a9a37af-79b7-5db4-8131-289a2d60dfbb",
+  "label": "No candidate changes in the SAME general Changes sense used by F3: no…, by Constructive-proof",
+  "legacy_id": "INF-MCTAGGART-COMMITMENTS-IMPLY-EXACT-GENERAL-NO-CHANGE",
   "input_statement_ids": [
-    "STMT-MCTAGGART-NO-A-SERIES-CHANGE-BUT-APPEARS",
-    "STMT-MCTAGGART-ALL-CHANGE-IS-A-SERIES-CHANGE"
+    "1f0978a8-aecc-5793-b386-caec409bdeee",
+    "26246200-0d03-55c3-9413-fa61087e363e"
   ],
-  "output_statement_id": "STMT-NOTHING-CHANGES-IN-GENERAL",
+  "output_statement_id": "cc003313-0847-5a43-85d1-e025f909f48f",
   "rule": "constructive-proof",
   "meaning": "Compose the unchanged bundleDefeatedByChange theorem from the two existing source commitments displayed as AND inputs by the repository theory-bundle binding contract. These jointly imply exact general no-change. The full source bundle is stronger than bare no-change, but no sole-premise strength registration or reverse source/theory identification is advertised.",
   "assumption_statement_ids": [],

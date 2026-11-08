@@ -1,6 +1,8 @@
 {
-  "id": "NATURAL-THEOLOGY-SEMANTIC-SCOPE-CONTROLS",
-  "argument_id": "NATURAL-THEOLOGY-SEMANTIC-SCOPE-CONTROLS",
+  "id": "f35bcedf-88b8-59bf-9896-ffe1bfc0a3f7",
+  "label": "A meaningful divine content refutes the strong no-divine-sense profile claim while profile…",
+  "legacy_id": "NATURAL-THEOLOGY-SEMANTIC-SCOPE-CONTROLS",
+  "argument_id": "2a128caf-87a4-5261-8a62-ac1fe42c8dab",
   "challenge_module": "TruthCore.Results.Logic.NaturalTheologySemanticScope.Controls.Challenge",
   "solution_module": "TruthCore.Results.Logic.NaturalTheologySemanticScope.Controls.Solution",
   "theorem": "TruthCore.Results.Logic.NaturalTheologySemanticScope.Controls.controls",

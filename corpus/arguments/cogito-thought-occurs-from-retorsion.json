@@ -1,18 +1,20 @@
 {
-  "id": "COGITO-THOUGHT-OCCURS-FROM-RETORSION",
+  "id": "187646ad-565b-5391-beb1-42ab24f3597f",
+  "label": "Some thought episode occurs under the supplied occurrence predicate, from retorsion",
+  "legacy_id": "COGITO-THOUGHT-OCCURS-FROM-RETORSION",
   "premise_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-COGITO-DOUBT-IS-PERFORMED",
-    "STMT-COGITO-PERFORMED-DOUBT-OF-THOUGHT-SELF-REFUTING"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "95c5138f-e3cc-552d-9846-ab8dc84502f4",
+    "8697bb2d-f29d-5945-88ea-bb62d6a3e4e2"
   ],
-  "conclusion_statement_id": "STMT-COGITO-THOUGHT-OCCURS",
+  "conclusion_statement_id": "e81971f1-601c-57f5-be2d-c4b0624d0cad",
   "inference_ids": [
-    "INF-COGITO-THOUGHT-OCCURS-FROM-RETORSION"
+    "51e981dd-246a-50e2-a965-af4a62ccda51"
   ],
   "meaning": "Some thought episode occurs, from a performed doubt whether thought occurs (STMT-COGITO-DOUBT-IS-PERFORMED, OPEN), the conclusion of COGITO-PERFORMED-DOUBT-SELF-REFUTING (performing such a doubt makes its content 'no thought episode occurs' false) and excluded middle on the existence of an occurring episode. The retorsion rests on the OPEN bridge STMT-COGITO-PERFORMED-DOUBT-IS-THOUGHT, so this route has the same open premises as COGITO-THOUGHT-OCCURS-FROM-PERFORMED-DOUBT; it uses the retorsion's negative form instead of the bridge directly.",
   "definition_ids": [
-    "DEF-PERFORMED-DOUBT-OF-THOUGHT",
-    "DEF-SELF-EVIDENT-MARKING",
-    "DEF-THOUGHT-OCCURRENCE"
+    "c075da22-805b-56c1-a033-c24eef5f0ea2",
+    "500ba323-cca5-5b35-8b75-947008256c43",
+    "c0cbef1c-060a-54d4-bb49-8d59da40caf3"
   ]
 }

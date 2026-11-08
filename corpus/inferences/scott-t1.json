@@ -1,11 +1,13 @@
 {
-  "id": "INF-SCOTT-T1",
+  "id": "1734eed6-5986-51df-8c04-fbd2b422977c",
+  "label": "Scott's theorem T1: at every world, a POSITIVE_5 property is possibly exemplified, by Case-analysis",
+  "legacy_id": "INF-SCOTT-T1",
   "input_statement_ids": [
-    "STMT-SCOTT-NEGATION-POSITIVE-EXCLUDES-POSITIVE",
-    "STMT-SCOTT-POSITIVE-CLOSED-UNDER-NECESSARY-IMPLICATION",
-    "STMT-EXCLUDED-MIDDLE"
+    "f86dfc69-3329-5c19-8c5e-fac01d5c3aad",
+    "4fc9ca24-10fd-52a5-8125-b8e504db52e1",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-SCOTT-POSITIVE-POSSIBLY-EXEMPLIFIED",
+  "output_statement_id": "c6ebeb52-a198-55c8-b132-08fba8d3838f",
   "rule": "case-analysis",
   "meaning": "AFP T1 (metis A1a A2). By excluded middle a positive property Φ is possibly exemplified or not. If not, Φ necessarily implies its negation, so the negation is positive (A2) and Φ is not (A1a): contradiction.",
   "assumption_statement_ids": [],

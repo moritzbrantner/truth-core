@@ -1,7 +1,9 @@
 {
-  "id": "INF-GROUNDING-WITHOUT-UNIQUE-CAUSE-ALLOWS-REGRESS",
+  "id": "ad3bdf56-0be2-557e-ab86-7b2d0da7ced0",
+  "label": "There is a relation and a source predicate on which every being's power…, by Explicit-countermodel",
+  "legacy_id": "INF-GROUNDING-WITHOUT-UNIQUE-CAUSE-ALLOWS-REGRESS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-GROUNDING-WITHOUT-UNIQUE-CAUSE-ALLOWS-REGRESS",
+  "output_statement_id": "80d361d7-0dc7-5503-9f11-26061eb7910d",
   "rule": "explicit-countermodel",
   "meaning": "Take none as the only source, linked to every some n, and link some (n + 1) to some n. Each some n borrows directly from none; induction on accessibility shows no some n is accessible.",
   "assumption_statement_ids": [],

@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-CLASSICAL-GOD-ROOT",
-  "argument_id": "NECESSARY-CLASSICAL-GOD-ROOT",
+  "id": "d3e01dc0-3449-5635-aca5-0146debaf25f",
+  "label": "There exists ONE SAME selected…, from Some candidate is CONCRETE_6 and exists at… and 24 more",
+  "legacy_id": "NECESSARY-CLASSICAL-GOD-ROOT",
+  "argument_id": "3a56507d-a03e-507c-912b-5c605a9f49e6",
   "challenge_module": "TruthCore.Results.Causality.NecessaryClassicalGodRoot.Challenge",
   "solution_module": "TruthCore.Results.Causality.NecessaryClassicalGodRoot.Solution",
   "theorem": "TruthCore.Results.Causality.NecessaryClassicalGodRoot.derive",

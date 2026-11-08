@@ -1,9 +1,11 @@
 {
-  "id": "INF-GENERAL-CHANGE-EXACT-COMPLEMENT-FORK",
+  "id": "034a57fc-5d42-5907-abdf-dd1cbf5ce67b",
+  "label": "Either some candidate changes in the supplied general Changes sense or no…, by Constructive-proof",
+  "legacy_id": "INF-GENERAL-CHANGE-EXACT-COMPLEMENT-FORK",
   "input_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-GENERAL-CHANGE-OR-EXACT-NO-CHANGE",
+  "output_statement_id": "dc94e33a-8755-5518-a3ec-b5d573afe53c",
   "rule": "constructive-proof",
   "meaning": "Structural some-change/no-general-change fork under explicit excluded middle. Refuting only the stronger sourced McTaggart bundle cannot exhaust every exact no-change counteraccount.",
   "assumption_statement_ids": [],

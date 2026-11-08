@@ -1,16 +1,18 @@
 {
-  "id": "STMT-MODAL-DEGREE-ACTUAL-NECESSARY-INVARIANCE",
+  "id": "59149353-2f74-54de-9035-08640c4e24a9",
+  "label": "If the selected rigid n exists at the standpoint and at every root-accessible world, its existence…",
+  "legacy_id": "STMT-MODAL-DEGREE-ACTUAL-NECESSARY-INVARIANCE",
   "paraphrase": "If the selected rigid n exists at the standpoint and at every root-accessible world, its existence degree at every such world is order-equivalent to its degree at the standpoint: both inequalities hold. Actual presence is an explicit antecedent, rather than being inferred from necessity on an arbitrary nonreflexive frame. No necessity or presence of n is asserted unconditionally.",
   "lean_declaration": "TruthCore.Modal.ExistenceDegrees.ActualNecessaryDegreeInvariant",
   "definition_ids": [
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-MODAL-EXISTENCE-DEGREE",
-    "DEF-PREORDER-DEGREE-INVARIANCE"
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "3baa4471-74ac-5de6-a53a-6ea274873405",
+    "14bf73ee-a52e-5b4c-bde2-9e6f31de6a1b"
   ],
   "disambiguation_ids": [
-    "DISAMB-NECESSARY",
-    "DISAMB-MODAL-DEGREE-PRESENCE"
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e",
+    "4eb21e18-3541-5b78-ab20-0040e4e987f4"
   ]
 }

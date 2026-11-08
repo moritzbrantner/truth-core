@@ -1,10 +1,12 @@
 {
-  "id": "STMT-TEST-FAILURE-THEORETICAL-BUNDLE",
+  "id": "8c77646e-e8e7-52c5-a186-caba75118bcd",
+  "label": "A failed physical prediction puts the THEORETICAL_ENSEMBLE_1 used to predict and interpret the…",
+  "legacy_id": "STMT-TEST-FAILURE-THEORETICAL-BUNDLE",
   "paraphrase": "A failed physical prediction puts the theoretical ensemble used to predict and interpret the result in question; it does not by itself identify the erroneous proposition. Assigning the failure solely to the disputed hypothesis retains confidence in the other propositions used.",
   "definition_ids": [
-    "DEF-SCIENCE-THEORY-LADEN-TEST"
+    "2835b1dc-9019-5f31-9fbb-b1ff121b54e1"
   ],
   "disambiguation_ids": [
-    "DISAMB-SCIENCE-TEST-ADEQUACY"
+    "fc31f2fd-5fee-5233-8567-5522662cee5b"
   ]
 }

@@ -1,8 +1,10 @@
 {
-  "id": "REL-PARM-WARRANT",
+  "id": "207c4da9-0252-518c-8f85-0d14d10d2e4d",
+  "label": "Plato, Phaedo 74b–d: From seeing equal… supports Successful direct cognition of any…",
+  "legacy_id": "REL-PARM-WARRANT",
   "subject_kind": "claim",
-  "subject_id": "PLATO-PHAEDO-74B-MEDIATED-ACCESS",
+  "subject_id": "01fe4ce3-40fa-5091-8d37-46b535a0cfd8",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-PARM-MEDIATED-TRANSFER"
+  "object_id": "12062ef2-399a-563f-852d-9633663a7a71"
 }

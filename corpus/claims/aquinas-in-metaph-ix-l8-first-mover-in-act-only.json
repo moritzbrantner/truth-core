@@ -1,20 +1,22 @@
 {
-  "id": "AQUINAS-IN-METAPH-IX-L8-FIRST-MOVER-IN-ACT-ONLY-A",
-  "statement_id": "STMT-MOVER-MOVED-AT-NO-TIME-IS-PURE-ACT",
-  "source_id": "AQUINAS-IN-METAPH",
+  "id": "9173954a-ffa3-5435-afc9-f6b769604d5d",
+  "label": "Thomas Aquinas, Sententia libri…: Over a supplied clock: at any time at which it moves something…",
+  "legacy_id": "AQUINAS-IN-METAPH-IX-L8-FIRST-MOVER-IN-ACT-ONLY-A",
+  "statement_id": "609af310-8e3f-50c9-a9ec-4befac3bb538",
+  "source_id": "3b5c2cfb-01dd-5ea7-a5e1-4f221e1378af",
   "locator": "IX, lect. 8 n. 11",
   "interpretation": "Concluding the lesson, Aquinas repeats that act is prior to potency in substance and form, and also in time (lect. 7 n. 4-5), 'quia semper prius exigitur actus secundum quem generans aut movens aut faciens est actu, ante alterum actum quo generatum vel factum est in actu, postquam fuit in potentia; quousque veniatur ad primum movens, quod est in actu tantum. Id enim, quod exit de potentia in actum, requirit actum praecedentem in agente, a quo reducitur in actum.' Read as STMT-MOVER-MOVED-AT-NO-TIME-IS-PURE-ACT: over a supplied clock, a mover moved in no respect at any time is, at any time at which it moves something, in potency in no respect. Reading choices. (1) The series is ordered in time (priority 'tempore'; the agent's act comes before the act of what it brings from potency to act), so 'primum movens' is the agent at which a history of agents stops. The sentence gives the reason it stops: what goes out of potency into act needs a preceding act in an agent. So it is read as a mover that is moved, in any respect, at no time (DEF-MOVED-AT-NO-TIME), not as a mover unmoved at one time (DEF-TIME-SLICED-FIRST-MOVER); 'movens' is read on DISAMB-MOTION's broad sense ('generans aut movens aut faciens'). The claim does not say that a mover unmoved at one time is moved at no time; that step is the separate unattributed bridge STMT-SLICE-FIRST-MOVER-MOVED-AT-NO-TIME. (2) 'In actu tantum' has no restricting phrase, unlike lect. 9 n. 6 ('inquantum huiusmodi', potency 'secundum quid'), so it is read as PureAct (DEF-PURE-ACT): in potency in no respect. Only the negative half is formalized, not the positive 'in act'. (3) It is read only for the times at which the first mover moves, where the series places it; the sentence does not consider other times. A sibling reading, pure act at every time of the clock, was considered and not recorded: it is stronger, and nothing in the sentence speaks of times at which the first mover does not move. (4) The definite singular is read as a universal over such movers; no existence or uniqueness is added. Weakness: the sentence is said in passing and gives no reason for 'tantum'. The regress it states shows only that a first agent is reached, not that it has no dormant potency in a respect in which it does not move (the case left open by ACT-PRIOR-FROM-INCORRUPTIBLE-FACTS). So the claim records a stated commitment, not an argument. A reading restricted to the act by which the first mover moves was also considered and not recorded: nothing in the sentence restricts 'tantum', and that content is STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT. Owner decisions on #352: record this stating claim (2026-11-03), and split it from the one-time case statement through an unattributed bridge (option B, 2026-11-03).",
   "status": "formalized",
   "definition_ids": [
-    "DEF-MOVED-AT-NO-TIME",
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-PURE-ACT",
-    "DEF-POTENCY",
-    "DEF-ACT",
-    "DEF-RESPECT"
+    "0f4513f4-eb0a-5ec3-9bea-a35b4f06da6d",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "a49e4cf1-ca4f-5519-9724-892af257cedb",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-UNMOVED-AT-A-TIME",
-    "DISAMB-MOTION"
+    "215fdc0a-7005-510d-91da-84fcbc77a9dc",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
   ]
 }

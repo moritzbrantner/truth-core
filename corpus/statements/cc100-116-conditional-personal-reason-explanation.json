@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CC100-116-CONDITIONAL-PERSONAL-REASON-EXPLANATION",
+  "id": "5358d402-9442-51bb-9d66-3494a647be28",
+  "label": "If reason involves intentionality and mental causation, and intentionality and mental causation…",
+  "legacy_id": "STMT-CC100-116-CONDITIONAL-PERSONAL-REASON-EXPLANATION",
   "paraphrase": "If reason involves intentionality and mental causation, and intentionality and mental causation can only have a personal explanation, reason can only have a personal explanation.",
   "definition_ids": [
-    "DEF-CC100-116-REASON-PERSONAL-EXPLANATION"
+    "54bd3f5c-02de-55b4-a0dc-1c4f442cbbf5"
   ],
   "disambiguation_ids": [
-    "DISAMB-REASON-EPISTEMIC-ONTIC",
-    "DISAMB-PSR-EXPLANATION-CAUSE"
+    "a61d3807-50e9-595e-9011-9123fd606a4b",
+    "f7bae38e-9b21-54fe-8236-2646c230568b"
   ]
 }

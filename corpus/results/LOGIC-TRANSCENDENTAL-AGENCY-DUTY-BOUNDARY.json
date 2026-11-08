@@ -1,6 +1,8 @@
 {
-  "id": "LOGIC-TRANSCENDENTAL-AGENCY-DUTY-BOUNDARY",
-  "argument_id": "LOGIC-TRANSCENDENTAL-AGENCY-DUTY-BOUNDARY",
+  "id": "02304e21-083a-59f1-9386-6d50c8fad27c",
+  "label": "For any typed goal-and-action profile, if a valued end is in fact realized by a performed…",
+  "legacy_id": "LOGIC-TRANSCENDENTAL-AGENCY-DUTY-BOUNDARY",
+  "argument_id": "5386d51c-3add-51ba-b1c3-6d4c13e8b279",
   "challenge_module": "TruthCore.Results.Logic.TranscendentalPractice.AgencyDuty.Challenge",
   "solution_module": "TruthCore.Results.Logic.TranscendentalPractice.AgencyDuty.Solution",
   "theorem": "TruthCore.Results.Logic.TranscendentalPractice.AgencyDuty.boundary",

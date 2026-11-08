@@ -1,11 +1,13 @@
 {
-  "id": "INF-RETAINED-DUTY-DIRECT-CORE",
+  "id": "bfd67e41-344b-5b43-b6ed-19bea5754bbd",
+  "label": "Logical falsity, by Modus-ponens (3)",
+  "legacy_id": "INF-RETAINED-DUTY-DIRECT-CORE",
   "input_statement_ids": [
-    "STMT-RETAINED-DUTY-PRESENT-DUTY",
-    "STMT-RETAINED-DUTY-PRESENT-INABILITY",
-    "STMT-RETAINED-DUTY-PRESENT-OIC"
+    "f853ac3a-5c6a-5af5-9711-9484aa559eb9",
+    "84d6dde8-a359-52cc-9411-714592cc8172",
+    "257ca27d-fdf4-5cb1-873d-3970cab1ad6b"
   ],
-  "output_statement_id": "STMT-CONFIGURATION-FALSE",
+  "output_statement_id": "37f33696-dc47-5bd3-9cd8-edfd5bf00aa5",
   "rule": "modus-ponens",
   "meaning": "The same original-return duty, inability and present ought-implies-can are jointly incompatible for a fixed agent/date/action. Inclusion-minimal by the closed omission controls; rejects the conjunction, not a preferred member. No root premise closes.",
   "assumption_statement_ids": [],

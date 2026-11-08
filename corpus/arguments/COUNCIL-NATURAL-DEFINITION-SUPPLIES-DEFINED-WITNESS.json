@@ -1,23 +1,25 @@
 {
-  "id": "COUNCIL-NATURAL-DEFINITION-SUPPLIES-DEFINED-WITNESS",
+  "id": "c1be70b7-8b69-500e-8c59-72156e30b298",
+  "label": "An actual move is defined by the selected…, from In the Catholic practice, the First Vatican…",
+  "legacy_id": "COUNCIL-NATURAL-DEFINITION-SUPPLIES-DEFINED-WITNESS",
   "premise_statement_ids": [
-    "STMT-DEI-FILIUS-DEFINES-NATURAL-KNOWABILITY-OF-GOD"
+    "e18b3b90-33fa-5155-bd0e-6560a9fe98b8"
   ],
-  "conclusion_statement_id": "STMT-DEFINED-MOVE-EXISTS",
+  "conclusion_statement_id": "351278c7-dbf6-5279-8e18-35f979e3ade6",
   "inference_ids": [
-    "INF-COUNCIL-NATURAL-DEFINITION-SUPPLIES-DEFINED-WITNESS"
+    "ca3b4d26-736f-5d44-9ee0-359ff0e210ec"
   ],
   "meaning": "Project a weak actual Defined witness from the existing council-defined natural-knowability move. Assembly transcription; natural-knowability content is not needed for definition-status conflict.",
   "definition_ids": [
-    "DEF-THEOLOGICAL-CONTENT-AND-RELIGIOUS-LIFE-ROLES",
-    "DEF-CONCILIAR-DEFINITION",
-    "DEF-PRACTICE-OWN-STANDARD",
-    "DEF-CORRECT-MOVE-IN-PRACTICE"
+    "7cc5b0f1-7c74-54d8-b1e6-7645912864a3",
+    "a80131d4-c041-5aa0-a122-0bfea7c0e2fa",
+    "ac3fa095-8fa2-50d5-8c86-8352f0c27a6e",
+    "d4a6e314-ca7b-563f-b2ef-8a855db8597b"
   ],
   "disambiguation_ids": [
-    "DISAMB-THEOLOGICAL-FORMULATION-AND-NORMATIVE-GRAMMAR"
+    "a303de75-42db-5f10-afea-036fbc222162"
   ],
   "strong_version_needed": {
-    "STMT-DEI-FILIUS-DEFINES-NATURAL-KNOWABILITY-OF-GOD": "This certificate registers the sole-premise strong-to-weak projection; consequence arguments use only the needed weak component."
+    "e18b3b90-33fa-5155-bd0e-6560a9fe98b8": "This certificate registers the sole-premise strong-to-weak projection; consequence arguments use only the needed weak component."
   }
 }

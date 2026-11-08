@@ -1,12 +1,14 @@
 {
-  "id": "STMT-BOYD-MORAL-ERROR-PROGRESS",
+  "id": "126e4ba1-f230-5668-b8e9-777d6044d254",
+  "label": "Boyd permits moral error and improvement in knowledge of human goods, explains persistent…",
+  "legacy_id": "STMT-BOYD-MORAL-ERROR-PROGRESS",
   "paraphrase": "Boyd permits moral error and improvement in knowledge of human goods, explains persistent divergence by complex and distorted inquiry, and separately allows genuinely indeterminate hard cases.",
   "definition_ids": [
-    "DEF-BOYD-HOMEOSTATIC-GOODNESS",
-    "DEF-NATURALIST-APPRAISER-INDEPENDENCE",
-    "DEF-MORAL-ERROR"
+    "1ad46e75-d8f0-515c-9d27-3632b5945195",
+    "4bec6a3a-8ce8-51cd-8657-265ae830eab1",
+    "75f4c7ef-62fc-5752-9ee9-6f680c1651ac"
   ],
   "disambiguation_ids": [
-    "DISAMB-NATURALISTIC-EVALUATIVE-ROLES"
+    "685dae72-5d39-5905-955e-c2cd404d6932"
   ]
 }

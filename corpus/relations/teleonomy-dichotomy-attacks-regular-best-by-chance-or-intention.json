@@ -1,9 +1,11 @@
 {
-  "id": "REL-TELEONOMY-DICHOTOMY-ATTACKS-REGULAR-BEST-BY-CHANCE-OR-INTENTION",
+  "id": "7337c3c2-4a2b-5fc9-bf31-21c6c1427b3a",
+  "label": "Reuses #179’s necessityModel: regular… attacks Whatever regularly attains what is best for…",
+  "legacy_id": "REL-TELEONOMY-DICHOTOMY-ATTACKS-REGULAR-BEST-BY-CHANCE-OR-INTENTION",
   "subject_kind": "argument",
-  "subject_id": "TELEONOMY-CHANCE-INTENTION-DICHOTOMY",
+  "subject_id": "312da820-f9f5-564d-b513-eb498a49a822",
   "predicate": "attacks",
   "object_kind": "statement",
-  "object_id": "STMT-REGULAR-BEST-BY-CHANCE-OR-BY-INTENTION",
+  "object_id": "b43528e2-7188-56e9-941c-0d0cea7c03fb",
   "note": "Bridge batch 1 (#401). In the model of STMT-TELEONOMY-CHANCE-INTENTION-DICHOTOMY the quinta via's other premises hold (natural bodies lack cognition, act regularly for the best, not by chance) while the chance-or-intention dichotomy fails. That is an objection to treating the dichotomy as forced by the observation, not a proof that it is false: the model does not identify random variation with chance in Aquinas' sense, nor broad intentio with conscious design (docs/teleonomy-comparison.md)."
 }

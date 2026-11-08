@@ -1,16 +1,18 @@
 {
-  "id": "VATICAN-II-LG-16-SALVATION-SINCERE-SEEKERS",
-  "statement_id": "STMT-HIDDENNESS-SALVATION-SINCERE-SEEKERS",
-  "source_id": "VATICAN-II-LUMEN-GENTIUM",
+  "id": "18a3e579-ef56-5036-9afe-eb6804009965",
+  "label": "Second Vatican Council, Lumen gentium §16…: Those who through no fault of their own do not know…",
+  "legacy_id": "VATICAN-II-LG-16-SALVATION-SINCERE-SEEKERS",
+  "statement_id": "543b9cb9-9523-5512-8dd6-83b73b24b6e1",
+  "source_id": "a95c1422-7634-5558-ad36-6cc9d690da42",
   "locator": "§16, sentence beginning Qui enim Evangelium Christi",
   "interpretation": "Possibility of salvation is retained, not guaranteed salvation. Seeking, grace and striving by conscience are jointly qualified; the passage is not an empirical demonstration of a nonresistant nonbeliever.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-HIDDENNESS-SALVIFIC-HELP",
-    "DEF-HIDDENNESS-SEEKING"
+    "ba2f8e27-dc34-5e8b-91bb-fdca32f9a7ba",
+    "4bbdc006-f5f9-5fef-9a01-84fabe6f98b6"
   ],
   "disambiguation_ids": [
-    "DISAMB-HIDDENNESS-RELATIONSHIP",
-    "DISAMB-HIDDENNESS-NONRESISTANCE"
+    "a4359a96-a726-5755-8359-a02b64f42f15",
+    "14bdf48f-9ea1-5329-9489-9674bea6132a"
   ]
 }

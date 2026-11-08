@@ -1,3 +1,31 @@
-{"id": "CATHOLICISM-STAGE2-GOD-IS-IMMUTABLE", "premise_statement_ids": ["STMT-GOD-IS-MAXIMAL-IN-BEING", "STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING", "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY", "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT"], "conclusion_statement_id": "STMT-GOD-IS-IMMUTABLE", "inference_ids": ["INF-AQUINAS-ST-I-Q3-A1-FIRST-BEING-NO-POTENCY", "INF-STAGE2-GOD-IS-IMMUTABLE"], "meaning": "Stage 2, group 2: God is altogether immutable (ST I q.9 a.1, first reason): whatever is God is maximal in being, hence the first being (open bridge STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING, #194), and the first being is in potency in no respect, by the composed result AQUINAS-ST-I-Q3-A1-FIRST-BEING-NO-POTENCY (act is simply prior to potency, and nothing is in act and in potency in the same respect), so God has no capacity for any change. Immutability is complete immutability (no potency), not present inactivity (Codex P1 on #199).", "definition_ids": ["DEF-GOD-OF-CLASSICAL-THEISM", "DEF-MAXIME-ENS", "DEF-ESSE", "DEF-FIRST-BEING", "DEF-SIMPLE-PRIORITY", "DEF-ACT", "DEF-POTENCY", "DEF-RESPECT", "DEF-IMMUTABLE"],
-  "disambiguation_ids": ["DISAMB-POTENCY"]
+{
+  "id": "38244f91-11d2-5a68-9dff-91279d7fbad6",
+  "label": "GOD_4 is altogether IMMUTABLE_1: in POTENCY_1…, from Whatever is GOD_4 is maximal in being and 3…",
+  "legacy_id": "CATHOLICISM-STAGE2-GOD-IS-IMMUTABLE",
+  "premise_statement_ids": [
+    "4c79298d-ee09-5e99-9ced-1be92c19b4cc",
+    "eaa4c679-98a3-5e82-95ff-18bd1177ce74",
+    "a4d3261a-3239-5b44-9953-64ab1b0ed762",
+    "c6d6379b-6a9b-55b5-a701-3df289dfcca4"
+  ],
+  "conclusion_statement_id": "fb3802a8-d04c-5486-95a5-b7ab57857396",
+  "inference_ids": [
+    "904cb5ef-faed-5967-a08f-6c6adf29caf2",
+    "29f1f127-490f-5fc3-bb1c-722ce3723a65"
+  ],
+  "meaning": "Stage 2, group 2: God is altogether immutable (ST I q.9 a.1, first reason): whatever is God is maximal in being, hence the first being (open bridge STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING, #194), and the first being is in potency in no respect, by the composed result AQUINAS-ST-I-Q3-A1-FIRST-BEING-NO-POTENCY (act is simply prior to potency, and nothing is in act and in potency in the same respect), so God has no capacity for any change. Immutability is complete immutability (no potency), not present inactivity (Codex P1 on #199).",
+  "definition_ids": [
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "a2a8de58-42e0-5481-b7fb-848ae8602036",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "25e19d5a-5cdf-5916-a888-f6a0ce970f11",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1",
+    "da5c0716-718e-5aaa-abec-95c9e93cac00"
+  ],
+  "disambiguation_ids": [
+    "508617ab-cf24-5f3b-a387-64b3991359ec"
+  ]
 }

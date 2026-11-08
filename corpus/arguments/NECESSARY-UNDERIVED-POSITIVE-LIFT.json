@@ -1,23 +1,25 @@
 {
-  "id": "NECESSARY-UNDERIVED-POSITIVE-LIFT",
+  "id": "92bdedf6-dcae-545c-8b8c-4b435456b04c",
+  "label": "At least one identical actual individual…, from At least one individual exists at the… and 3 more",
+  "legacy_id": "NECESSARY-UNDERIVED-POSITIVE-LIFT",
   "premise_statement_ids": [
-    "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
-    "STMT-WELL-FOUNDED-PRESENT-ESSE-SUPPORT",
-    "STMT-NECESSARY-PREDECESSOR-LIFTING",
-    "STMT-EXCLUDED-MIDDLE"
+    "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
+    "47a97912-335f-52f7-a715-63592368f0fe",
+    "2a9378b4-3dad-591b-a88e-1907a79f1fa5",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-NECESSARILY-UNDERIVED",
+  "conclusion_statement_id": "d236f537-dd57-50ec-9676-cee87b19242a",
   "inference_ids": [
-    "INF-NECESSARY-UNDERIVED-POSITIVE-LIFT"
+    "be985404-1b34-5473-a13f-9f5e165ca4c2"
   ],
   "meaning": "A positive existential witness follows from the constructive nonrefutation under explicit excluded middle. None of the structural support premises is established about reality; the conclusion asserts neither uniqueness nor divine attributes.",
   "definition_ids": [
-    "DEF-WELL-FOUNDED-PRESENT-ESSE-SUPPORT",
-    "DEF-NECESSARY-PREDECESSOR-LIFTING",
-    "DEF-NECESSARILY-UNDERIVED"
+    "6af245c0-b443-51b1-a98e-4e8f8fc7bf3e",
+    "5a5b976e-36e1-53f5-a1b1-a723cacd0206",
+    "7b0b109c-ad03-59a3-a81c-d0e027e91f95"
   ],
   "disambiguation_ids": [
-    "DISAMB-EXISTENCE-ESSE-SUPPORT",
-    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "5d15d8f2-1080-53c9-886f-cee2a4ff23a9"
   ]
 }

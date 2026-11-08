@@ -1,15 +1,17 @@
 {
-  "id": "AQUINAS-ST-I-Q2-A3-MORE-SUCH-HAS-PERFECTION-A",
-  "statement_id": "STMT-MORE-SUCH-HAS-THE-PERFECTION",
-  "source_id": "AQUINAS-ST",
+  "id": "62711aea-d6ea-5e81-8f04-c4422691dafc",
+  "label": "Thomas Aquinas, Summa theologiae I q.2 a.3…: Whatever is more such than something has the…",
+  "legacy_id": "AQUINAS-ST-I-Q2-A3-MORE-SUCH-HAS-PERFECTION-A",
+  "statement_id": "c11369aa-7c3d-5dea-8421-535d5b4b3104",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.2 a.3 co., quarta via: magis et minus dicuntur de diversis ... sicut magis calidum est, quod magis appropinquat maxime calido",
   "interpretation": "Read as a presupposition of the comparative as the text uses it: 'more' and 'less' good, true, hot are said of the things compared, and the example's 'magis calidum' is a hot thing; so what is said more r has r. Only the exceeding side is read; whether the less r also has r (the text's 'minus ... bonum' suggests so) is not formalized, which keeps the reading weaker than that suggestion. The approach relation and the maximum are not part of this reading, and nothing here makes the grades an order.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-MORE-IN",
-    "DEF-ACT"
+    "5766de66-8a37-5b04-aa65-9eec53319f50",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168"
   ],
   "disambiguation_ids": [
-    "DISAMB-BEING-UNIVOCITY"
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58"
   ]
 }

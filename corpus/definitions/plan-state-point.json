@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PLAN-STATE-POINT",
+  "id": "49005230-d4b7-5ebf-9c72-0a6ddd91c52c",
+  "label": "Descriptive valuation and permission\u2026: A Point has separate factual: Fact \u2192 Bool and permitted\u2026",
+  "legacy_id": "DEF-PLAN-STATE-POINT",
   "term": "descriptive valuation and permission plan",
   "definition": "A Point has separate factual : Fact \u2192 Bool and permitted : Action \u2192 Bool fields. The first describes non-normative facts; the second records which actions a complete permission plan leaves open. False in permitted excludes an action from that plan; it is not a metaphysical moral fact. Permission plans need not select exactly one action.",
   "basis": "stipulative",

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-NONLIMITING-CONCRETE-CONFIGURATION",
+  "id": "cf6fd9e6-5370-5f93-bb1b-d94f8f3402fe",
+  "label": "Nonlimitation of actual concrete…: On the existing Profile, ConcreteExistence m c v means concrete…",
+  "legacy_id": "DEF-NONLIMITING-CONCRETE-CONFIGURATION",
   "term": "nonlimitation of actual concrete existence versus limitation of possible absence",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Causality.NonlimitingConcreteExistence.ConcreteExistence",

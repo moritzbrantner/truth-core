@@ -1,9 +1,11 @@
 {
-  "id": "REL-Q7-A1-SUBSISTENT-SUPPORTS-PRIMARY-ESSE-UNRECEIVED",
+  "id": "e8e23c3b-b542-5674-8237-544f3440726b",
+  "label": "Thomas Aquinas, Summa theologiae I q.7 a.1… supports OPEN reading of ST I q.7 a.1 co. for the…",
+  "legacy_id": "REL-Q7-A1-SUBSISTENT-SUPPORTS-PRIMARY-ESSE-UNRECEIVED",
   "subject_kind": "claim",
-  "subject_id": "AQUINAS-ST-I-Q7-A1-SUBSISTENT-BEING-INFINITE",
+  "subject_id": "c5ad4c45-91a0-5554-bd5f-880f950d5066",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-PRIMARY-ESSE-UNRECEIVED",
+  "object_id": "e2462fa8-1958-5ab7-827d-fb99c2175f02",
   "note": "The claim's locator is q.7 a.1 co., 'cum igitur esse divinum non sit esse receptum in aliquo'. The sentence says it of God's esse, and the claim reads it as the general principle that subsistent being is infinite. The premise applies non-reception to the primary p of the approach order; that p is God, or is the subsistent being, is the analyst's."
 }

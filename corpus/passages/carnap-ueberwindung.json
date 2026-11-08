@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "CARNAP-UEBERWINDUNG",
+    "source_id": "5fcd2e23-235f-5ce1-8690-ddd0788af32e",
     "source_url": "https://www.phil.cmu.edu/projects/carnap/editorial/latex_pdf/1932-1.pdf",
     "retrieved_at": "2026-11-05T15:19:38Z",
     "sha256": "sha256:01110ea457b638d39eea1e06ac66431cb2c45d0a1933eff24c19d59cc06ba600",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "CARNAP-UEBERWINDUNG-1-P3",
+      "id": "fa00a6a3-4ea5-5136-9650-e1682bb136c5",
+      "label": "Rudolf Carnap, \"Überwindung der Metaphysik durch logische Analyse der Sprache\", §1, physical p. 3",
+      "legacy_id": "CARNAP-UEBERWINDUNG-1-P3",
       "locator": "§1, physical p. 3",
       "claim_locator_prefixes": [
         "§1, p. 3"

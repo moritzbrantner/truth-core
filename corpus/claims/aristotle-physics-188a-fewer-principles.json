@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-188A-FEWER-PRINCIPLES-A",
-  "statement_id": "STMT-PREFER-FEWER-FINITE-PRINCIPLES",
-  "source_id": "ARIST-PHYS",
+  "id": "21181510-9fbd-5cd3-8021-0e59111f3eef",
+  "label": "Aristotle, Physics I.4, 188a13-17: Against an infinity of principles, Aristotle locally prefers…",
+  "legacy_id": "ARIST-PHYS-188A-FEWER-PRINCIPLES-A",
+  "statement_id": "3679bdb6-4057-5fe1-83a7-16de081ecff0",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.4, 188a13-17",
   "interpretation": "Closing comparative judgment: Aristotle says it is better to posit fewer finite principles, as Empedocles does, than Anaxagoras's infinite principles. This does not amount to endorsement of Empedocles's full physics.",
   "status": "formalized"

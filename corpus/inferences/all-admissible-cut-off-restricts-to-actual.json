@@ -1,10 +1,12 @@
 {
-  "id": "INF-ALL-ADMISSIBLE-CUT-OFF-RESTRICTS-TO-ACTUAL",
+  "id": "3828ecb6-5296-558b-a661-8fa37873b84b",
+  "label": "WITTGENSTEINIAN_FIDEISM_2 in the sharp form of its characterization…, by Constructive-proof",
+  "legacy_id": "INF-ALL-ADMISSIBLE-CUT-OFF-RESTRICTS-TO-ACTUAL",
   "input_statement_ids": [
-    "STMT-ALL-ADMISSIBLE-PRACTICES-CUT-OFF",
-    "STMT-RECOGNITION-ACTUAL-SITUATION-ADMISSIBLE"
+    "73ecbb1e-b49a-5894-af6d-816d75969d46",
+    "4aa30ac2-3113-5d7e-9856-a1e4beb8b806"
   ],
-  "output_statement_id": "STMT-WF-RELIGION-CUT-OFF-FROM-SHARED-REASON",
+  "output_statement_id": "12605639-82ad-5434-9171-7c30107b3dfd",
   "rule": "constructive-proof",
   "meaning": "Restrict admitted-situation insulation to the actual practice only under its explicit admissibility premise. Ordinary conditional instantiation, not an unconditional strength relation.",
   "assumption_statement_ids": [],

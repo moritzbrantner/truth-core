@@ -1,23 +1,25 @@
 {
-  "id": "PLATO-REP-596B-EXEMPLAR",
-  "statement_id": "STMT-PLATONIC-EXEMPLAR-PARTICIPATION",
-  "source_id": "PLATO-REP",
+  "id": "3be5ab50-29bd-5c67-86c9-3eee01a90d91",
+  "label": "Plato, Republic 596b: In the admitted exemplar domain, each F particular imitates a FORM_1 serving…",
+  "legacy_id": "PLATO-REP-596B-EXEMPLAR",
+  "statement_id": "e2f7efca-ab71-5e46-aecf-13d31844d6d0",
+  "source_id": "786f8af8-0165-586a-90a1-f0e6822a3275",
   "locator": "596b",
   "interpretation": "The artisan looks to the bed/table Form when making the artifact. The directed model/copy reading is restricted to corresponding artifacts; the painter’s imitation of appearances in 598 is distinguished. This is a schematic reading, not an assertion that every property is copied.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-PLATONIC-ADMITTED-RANGE",
-    "DEF-PLATONIC-ENTITY",
-    "DEF-PLATONIC-EXEMPLAR",
-    "DEF-PLATONIC-FORM",
-    "DEF-PLATONIC-IMITATION",
-    "DEF-PLATONIC-PARTICULAR",
-    "DEF-PLATONIC-PREDICATION"
+    "8da3ad5c-58d1-5e71-b513-9cbc6914da64",
+    "a2244968-5199-5276-a6a4-c19589b5295b",
+    "4b5717bb-05ab-5d14-b95b-3143d8f8cd26",
+    "3336e0be-5be8-5c69-b54a-7a7bb29e1db9",
+    "cd195b17-e7f9-5199-9e4a-b7645007806e",
+    "f840232b-1281-5d1a-ab3f-0c45edd98a92",
+    "54b49991-95ba-5e00-8653-182059c4da6a"
   ],
   "disambiguation_ids": [
-    "DISAMB-PLATONIC-FORM",
-    "DISAMB-PLATONIC-LIKENESS",
-    "DISAMB-PLATONIC-PARTICIPATION",
-    "DISAMB-PLATONIC-PREDICATION"
+    "54952044-0e39-566c-a88d-e5c9b95021fb",
+    "2d7d9715-6d9a-5bff-84ec-5e3209f72e75",
+    "58a69964-25a1-53d2-a65d-660ed3a0cf4c",
+    "2f8db09b-f62a-51ef-b2e1-876f8f903f8f"
   ]
 }

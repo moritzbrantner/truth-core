@@ -1,15 +1,17 @@
 {
-  "id": "STMT-SCOTT-FILTERED-NE-AT",
+  "id": "f062ef5f-82a4-58d4-86bc-b1eb0d8943a1",
+  "label": "The selected individual at the selected world has necessary existence with essence quantifiers…",
+  "legacy_id": "STMT-SCOTT-FILTERED-NE-AT",
   "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.FilteredNecessaryExistence",
   "paraphrase": "The selected individual at the selected world has necessary existence with essence quantifiers restricted to the explicitly selected admissible-property fragment.",
   "definition_ids": [
-    "DEF-FILTERED-NECESSARY-EXISTENCE",
-    "DEF-FILTERED-ESSENCE",
-    "DEF-QML-KB-NECESSITY"
+    "6c825ee1-db34-5cf7-933f-689d3e615f19",
+    "85a4aa8b-11cc-5aeb-b5a6-3f163178002d",
+    "153fcebf-66f6-53de-bad7-82a30a359c9c"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSENCE",
-    "DISAMB-NECESSARY",
-    "DISAMB-SCOTT-PROPERTY-ADMISSIBILITY"
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e",
+    "d3dc5a8a-ba37-5f0c-9265-285b4e57ff1c"
   ]
 }

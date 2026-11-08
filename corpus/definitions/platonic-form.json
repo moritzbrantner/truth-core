@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PLATONIC-FORM",
+  "id": "3336e0be-5be8-5c69-b54a-7a7bb29e1db9",
+  "label": "FORM_3: FormOf f q identifies f as the putative intelligible FORM_3 of quality q",
+  "legacy_id": "DEF-PLATONIC-FORM",
   "term": "form",
   "definition": "FormOf f q identifies f as the putative intelligible Form of quality q. It is a relation, not an existence axiom, not a predicate name, and not Aristotelian form in matter. Existence and uniqueness are separate commitments.",
   "basis": "stipulative",

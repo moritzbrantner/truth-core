@@ -1,5 +1,7 @@
 {
-  "id": "MODEL-ACT-POTENCY-NREGRESS",
+  "id": "a0f12f30-6d4c-5d41-a8c6-6f6e7d581d51",
+  "label": "Original #374 NRegress omission: all retained premises hold while the absolute unmoved-mover…",
+  "legacy_id": "MODEL-ACT-POTENCY-NREGRESS",
   "description": "Original #374 NRegress omission: all retained premises hold while the absolute unmoved-mover conclusion fails. The omitted premise is refuted by composition with the existing theorem. The unchanged interpretation also satisfies motion-in-the-moved and every mover being in act, jointly with the existing potency and non-simultaneity evaluations. Its actual two-cycle uses different respects (a moves b in k, b moves a in h), so same-respect consecutive-edge exclusion is compatible with a cycle and absence of a globally unmoved mover. Well-foundedness of MovesAsMoved is a separate violated premise, not merely a prohibition of distinct-node infinite chains.",
   "vocabulary": "MOTION-BEING-IN-ACT",
   "lean_declaration": "TruthCore.Models.ActPotencyRemaining.NRegress.model",
@@ -32,7 +34,7 @@
   ],
   "evaluations": [
     {
-      "statement_id": "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD",
+      "statement_id": "fbc516c1-a6cb-5495-9d31-6e2bb45e8e67",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -42,7 +44,7 @@
       "theorem": "TruthCore.Models.ActPotencyRemaining.NRegress.evaluation0"
     },
     {
-      "statement_id": "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
+      "statement_id": "4be9a4ac-699a-5adc-88d4-bbd958fa1576",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -53,7 +55,7 @@
       "theorem": "TruthCore.Models.ActPotencyRemaining.NRegress.evaluation1"
     },
     {
-      "statement_id": "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-BEING-IN-ACT",
+      "statement_id": "6b9fedc2-6fea-530b-bc6d-116a5d307a54",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -65,7 +67,7 @@
       "theorem": "TruthCore.Models.ActPotencyRemaining.NRegress.evaluation2"
     },
     {
-      "statement_id": "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
+      "statement_id": "c6d6379b-6a9b-55b5-a701-3df289dfcca4",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -76,7 +78,7 @@
       "theorem": "TruthCore.Models.ActPotencyRemaining.NRegress.evaluation3"
     },
     {
-      "statement_id": "STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED",
+      "statement_id": "1e47e6db-da06-5a40-9ccf-fbd1f929c596",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -88,7 +90,7 @@
       "theorem": "TruthCore.Models.ActPotencyRemaining.NRegress.evaluation4"
     },
     {
-      "statement_id": "STMT-FIRST-UNMOVED-MOVER-CANNOT-BE-LACKING",
+      "statement_id": "c1b68c21-fa36-5ab0-a499-444259eda78a",
       "value": "violates",
       "arguments": [
         "Being",
@@ -99,7 +101,7 @@
       "theorem": "TruthCore.Models.ActPotencyRemaining.NRegress.evaluation5"
     },
     {
-      "statement_id": "STMT-NO-INFINITE-PER-SE-MOVER-SERIES",
+      "statement_id": "226c38f6-7bf4-552a-9a85-733cfa41d0fa",
       "value": "violates",
       "arguments": [
         "Being",
@@ -108,7 +110,7 @@
       "theorem": "TruthCore.Models.ActPotencyRemaining.NRegress.evaluation6"
     },
     {
-      "statement_id": "STMT-MOVING-IS-IN-THE-MOVED",
+      "statement_id": "fe09fcd0-c767-5218-9d97-9a170f91a64f",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -119,7 +121,7 @@
       "theorem": "TruthCore.Models.RespectAlternatingMotionCycle.inMoved"
     },
     {
-      "statement_id": "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
+      "statement_id": "f296a694-aeea-5fa7-bdbf-0076530f9441",
       "value": "satisfies",
       "arguments": [
         "Being",

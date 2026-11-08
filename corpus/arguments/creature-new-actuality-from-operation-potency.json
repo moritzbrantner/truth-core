@@ -1,25 +1,27 @@
 {
-  "id": "CREATURE-NEW-ACTUALITY-FROM-OPERATION-POTENCY",
+  "id": "56175b8f-6848-551c-9763-25003bef5adb",
+  "label": "Whenever an agent other than GOD_2 whose being GOD_2 causes moves…, from operation POTENCY_1",
+  "legacy_id": "CREATURE-NEW-ACTUALITY-FROM-OPERATION-POTENCY",
   "premise_statement_ids": [
-    "STMT-CREATURE-IN-POTENCY-TO-ITS-OPERATION",
-    "STMT-ACTING-ACTUALIZES-OPERATION-POTENCY"
+    "f03798ba-e9d8-5594-b354-81fb9e9048c0",
+    "d791628f-72c6-572e-ad1e-03f4f22ba646"
   ],
-  "conclusion_statement_id": "STMT-CREATURE-ACTING-IS-NEW-ACTUALITY",
+  "conclusion_statement_id": "e2f8ffd6-0ddc-5936-8669-472601555654",
   "inference_ids": [
-    "INF-CREATURE-NEW-ACTUALITY-FROM-OPERATION-POTENCY"
+    "f5d80766-dde4-5661-8951-cef35428a8dc"
   ],
   "meaning": "If every created agent's moving is an operation in a respect in which the agent is in potency, and every agent's operation actualizes its potency in that respect as such, then whenever an agent other than God whose being God causes moves something, it has a potency being actualized as such. Both premises are open analyst formulations; omitting the second leaves the Aristotelian alternative (the agent in potency to its operation, motion only in the moved) as a finite countermodel.",
   "definition_ids": [
-    "DEF-ACTUALIZATION-QUA-POTENTIAL",
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-GOD-AS-NAMED-IN-THE-SUMMA",
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-OPERATION-RESPECT",
-    "DEF-POTENCY"
+    "04cbb76b-147d-5738-9897-0472fa0e0513",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "23e73af5-a0df-5838-9689-5899c37fdcda",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "c195d490-07ab-5cbc-82e9-d0d7c82abd2e",
+    "9f874532-f37e-590b-bec9-a9affb2762ac"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSE",
-    "DISAMB-GOD",
-    "DISAMB-MOTION"
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "205a39c3-915d-5fe4-8076-a9ff91329e08",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
   ]
 }

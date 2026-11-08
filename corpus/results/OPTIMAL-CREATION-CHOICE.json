@@ -1,27 +1,29 @@
 {
-  "id": "OPTIMAL-CREATION-CHOICE",
-  "argument_id": "OPTIMAL-CREATION-CHOICE",
+  "id": "a1990e04-1e7d-565f-bd98-f2e64b570aa1",
+  "label": "For fixed candidate options and a fixed partially ordered quality map, total optimal output at…",
+  "legacy_id": "OPTIMAL-CREATION-CHOICE",
+  "argument_id": "42ae4ae2-aeec-55bf-be2b-4230e3354ff3",
   "challenge_module": "TruthCore.Results.Modal.OptimalCreationChoice.Challenge",
   "solution_module": "TruthCore.Results.Modal.OptimalCreationChoice.Solution",
   "theorem": "TruthCore.Results.Modal.OptimalCreationChoice.checks",
   "comparator_config": "results/OPTIMAL-CREATION-CHOICE/comparator.json",
   "description": "For fixed candidate options and a fixed partially ordered quality map, total optimal output at accessible performance worlds plus at-most-one optimal candidate entails stable selected output. With same-act performance, actual selected output, sound causal endpoints and realized outputs, the existing selectedEffectNecessary theorem entails necessity of that effect. All optimal candidates have equal greatest quality, but equal quality need not identify candidates: the unchanged alternatingEffects ontology has two distinct optimal candidates under constant Nat quality while its selected first effect remains contingent. If each admissible candidate has a strictly better admissible candidate, no optimal candidate exists; unbounded Nat quality witnesses that regime. These conditional optimization controls do not establish maximizing agency, fixed alternatives/quality, positive-output totality, unique optimum, metaphysical possibility or free creation. No root premise change.",
   "definition_ids": [
-    "DEF-SELECTED-EFFECT-OUTPUT-PROFILE",
-    "DEF-SELECTED-EFFECT-LOCAL-DETERMINISM",
-    "DEF-SELECTED-EFFECT-SAME-ACT",
-    "DEF-SELECTED-EFFECT-STABLE-OUTPUT",
-    "DEF-SELECTED-EFFECT-REALIZED-OUTPUT",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-OPTIMAL-CREATION-CANDIDATE",
-    "DEF-OPTIMAL-CREATION-OUTPUTS",
-    "DEF-STRICTLY-IMPROVABLE-CANDIDATES"
+    "e36a3cf1-be2c-51a0-bb55-f388c115e11d",
+    "d934e836-fdad-5a88-a318-d6e422e22d3d",
+    "11b3c2a2-b568-5df5-ae85-99f14f206e75",
+    "c033d373-f381-504b-9674-c13fc9a96034",
+    "d3b970fa-abdd-553e-baa9-0a337fa24c26",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "4f503422-a3dc-51f3-8e1d-a1065ef6038e",
+    "2d069414-67f7-5bba-b750-830f06caf84d",
+    "5f2bd1b2-a9b5-58a8-b387-ac18353dd4c0"
   ],
   "disambiguation_ids": [
-    "DISAMB-SELECTED-EFFECT-ACT-AND-CONDITIONS",
-    "DISAMB-CAUSE",
-    "DISAMB-OPTIMAL-VALUE-AND-OPTION"
+    "303c2298-fd1b-55f3-9754-398816a78514",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "2f096ab2-0d7d-5252-a361-4e601c64aeae"
   ],
   "status": "solution-present"
 }

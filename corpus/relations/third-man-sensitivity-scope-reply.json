@@ -1,9 +1,11 @@
 {
-  "id": "REL-THIRD-MAN-SENSITIVITY-SCOPE-REPLY",
+  "id": "39fbf146-a8a8-5578-b437-eda543e06c7a",
+  "label": "Concrete three-entity countermodels negate… attacks Eligible lists remain eligible when any…",
+  "legacy_id": "REL-THIRD-MAN-SENSITIVITY-SCOPE-REPLY",
   "subject_kind": "argument",
-  "subject_id": "THIRD-MAN-SENSITIVITY",
+  "subject_id": "7793184b-fb58-5d7e-abe8-edfc0e76b9bd",
   "predicate": "attacks",
   "object_kind": "statement",
-  "object_id": "STMT-THIRD-MAN-ITERATION",
+  "object_id": "f3b1d362-7af3-566a-8a5d-83ef93831e13",
   "note": "A scope challenge, not an unconditional refutation: a concrete scoped-one-over-many model retains self-predication, a unique separated explanatory/exemplar Form and no regress while rejecting domain iteration. The other countermodels independently expose the remaining challenged assumptions."
 }

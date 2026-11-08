@@ -1,13 +1,15 @@
 {
-  "id": "STMT-ACTUAL-MANDATED-CATHOLIC-FOUNDING",
+  "id": "68bcf931-603b-5f03-a077-18f16f9428bd",
+  "label": "There is an actual mandator from whom Jesus holds a mandate, and Jesus actually founded the…",
+  "legacy_id": "STMT-ACTUAL-MANDATED-CATHOLIC-FOUNDING",
   "paraphrase": "There is an actual mandator from whom Jesus holds a mandate, and Jesus actually founded the selected Catholic body as a visible authoritative society. This is not inferred from a mere textual report or an empty universal mandate condition.",
   "lean_declaration": "TruthCore.Case.Catholicism.StageThree.MessageReportBoundary.ActualMandatedCatholicFounding",
   "definition_ids": [
-    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
-    "DEF-COMMISSION-REPORT-POWERS",
-    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY"
+    "6dea072c-97c4-5ee9-9958-a3da6a2a049c",
+    "66200ff6-4af8-5b8f-a2c8-08ddf2d0f072",
+    "e225d39c-9081-5d1f-80f5-ed121dbb9a30"
   ],
   "disambiguation_ids": [
-    "DISAMB-COMMISSION-REPORT-AND-EVENT"
+    "0f180711-5550-55b5-9da8-699215d6d95e"
   ]
 }

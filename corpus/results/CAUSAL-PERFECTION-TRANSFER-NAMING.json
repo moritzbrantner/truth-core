@@ -1,6 +1,8 @@
 {
-  "id": "CAUSAL-PERFECTION-TRANSFER-NAMING",
-  "argument_id": "CAUSAL-PERFECTION-TRANSFER-NAMING",
+  "id": "0a9bc63d-43d0-5842-b1eb-00ce4ca9cb1e",
+  "label": "Whatever is maximal in being is GOD_2…, from What is maximal in a GENUS_2 is the cause… and 7 more",
+  "legacy_id": "CAUSAL-PERFECTION-TRANSFER-NAMING",
+  "argument_id": "1ac60473-7696-5e43-8977-38787cd57051",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.naming",

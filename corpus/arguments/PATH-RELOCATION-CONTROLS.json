@@ -1,19 +1,21 @@
 {
-  "id": "PATH-RELOCATION-CONTROLS",
+  "id": "f2a31410-5b7e-5cfb-81b6-3fa70c5c0174",
+  "label": "Closed Bool-state controls",
+  "legacy_id": "PATH-RELOCATION-CONTROLS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-PATH-RELOCATION-CONTROLS",
+  "conclusion_statement_id": "b01ecf0e-5742-58da-b519-a5b7469dc9bb",
   "inference_ids": [
-    "INF-PATH-RELOCATION-CONTROLS"
+    "798b44ee-ced3-545c-9fe8-9e9c89d85369"
   ],
   "meaning": "Compute the alternation, pin, all-true, rise, revisit and two-point window fixtures and apply the certificate's lemmas to each. Flip solutions are classified by their value at time 0.",
   "definition_ids": [
-    "DEF-PATH-RELOCATION-PROFILE",
-    "DEF-PATH-RELOCATION-LAW",
-    "DEF-PATH-RELOCATION-DATING",
-    "DEF-HISTORY-SELECTION-INFORMATION"
+    "1a7f4fe0-84e9-500d-886e-78f63b27422a",
+    "6788dada-f316-5cc3-8376-e64c512b1a0e",
+    "ed5ebda7-c7d0-5aff-a268-9579e87a852a",
+    "c8c357e8-33d1-5468-858d-78f8493e353b"
   ],
   "disambiguation_ids": [
-    "DISAMB-PATH-RELOCATION",
-    "DISAMB-HISTORY-SELECTION-ADEQUACY"
+    "84feebd9-62b5-5bb1-93b7-c4ac491f1a8c",
+    "3ebb0e1e-f9a0-5d2b-ac48-62314e7fbde1"
   ]
 }

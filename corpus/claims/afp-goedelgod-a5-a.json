@@ -1,16 +1,18 @@
 {
-  "id": "AFP-GOEDELGOD-A5-A",
-  "statement_id": "STMT-SCOTT-NECESSARY-EXISTENCE-POSITIVE",
-  "source_id": "AFP-GOEDELGOD",
+  "id": "3438d5b3-36c4-54ee-bdfe-24aafab6640e",
+  "label": "Christoph Benzmüller and Bruno…, Gödel's…: Scott's axiom A5: at every world, NECESSARY_EXISTENCE_4…",
+  "legacy_id": "AFP-GOEDELGOD-A5-A",
+  "statement_id": "37a67a9e-31a7-5243-902b-fd3260fd5526",
+  "source_id": "871fc43a-465b-5526-b895-28b2a6c997c9",
   "locator": "GoedelGod.thy, A5: \"[P NE]\"",
   "interpretation": "Axiom A5 as stated in the theory ('Necessary existence is a positive property'), with NE the theory's definition NE = (λx. ∀(λΦ. Φ ess x m→ □ (∃ Φ))) and ess its definition Φ ess x = Φ x m∧ ∀(λΨ. Ψ x m→ □ (∀(λy. Φ y m→ Ψ y))), both stated before A5. Attributed to the AFP formalization of Scott's notes, not to what Scott or Gödel intended.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-ESSENCE-SCOTT",
-    "DEF-NECESSARY-EXISTENCE-SCOTT",
-    "DEF-POSITIVE-PROPERTY-SCOTT"
+    "2e31f6cf-433e-5e11-bb65-233499985668",
+    "82629c7d-94a0-5953-90c9-6eb0dbee2944",
+    "9a9e4fd6-d810-5039-9185-a93a2e0a358a"
   ],
   "disambiguation_ids": [
-    "DISAMB-NECESSARY"
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
   ]
 }

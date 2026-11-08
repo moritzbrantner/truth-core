@@ -1,6 +1,8 @@
 {
-  "id": "INTUITIONISTIC-KNOWABILITY-FORCING",
-  "argument_id": "INTUITIONISTIC-KNOWABILITY-FORCING",
+  "id": "6be5f9fa-a818-5914-b8fc-57b158265568",
+  "label": "The actual Mathlib Heyting implication and pseudocomplement on all persistent contents have the…",
+  "legacy_id": "INTUITIONISTIC-KNOWABILITY-FORCING",
+  "argument_id": "7b636ddf-6ba4-5208-9446-57303fedd24b",
   "challenge_module": "TruthCore.Results.Logic.IntuitionisticKnowability.Challenge",
   "solution_module": "TruthCore.Results.Logic.IntuitionisticKnowability.Solution",
   "theorem": "TruthCore.Results.Logic.IntuitionisticKnowability.forcingBridge",

@@ -1,7 +1,9 @@
 {
-  "id": "INF-NECESSARY-TARGET-CONTINGENT-GROUND-CONTROL",
+  "id": "692df1b5-a7a5-5778-82c8-ba7fc3c15243",
+  "label": "In the exact switching model, existence of every necessary…, by Checked-theorem-composition-a…",
+  "legacy_id": "INF-NECESSARY-TARGET-CONTINGENT-GROUND-CONTROL",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-NECESSARY-TARGET-CONTINGENT-GROUND-BOUNDARY",
+  "output_statement_id": "d66b7e53-c696-50e5-bdbd-9f2e975ec3b1",
   "rule": "checked-theorem-composition-and-model-controls",
   "meaning": "Consume exact switching controls; necessary-target entailment is automatic and does not exclude contingent supporters even with common rank.",
   "assumption_statement_ids": [],

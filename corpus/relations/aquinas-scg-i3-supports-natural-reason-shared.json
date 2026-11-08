@@ -1,9 +1,11 @@
 {
-  "id": "REL-AQUINAS-SCG-I3-SUPPORTS-NATURAL-REASON-SHARED",
+  "id": "28f04ae1-baf9-52b0-82d1-20c9b4904c32",
+  "label": "Thomas Aquinas, Summa contra gentiles I.3…… supports A move that affirms that God can be known…",
+  "legacy_id": "REL-AQUINAS-SCG-I3-SUPPORTS-NATURAL-REASON-SHARED",
   "subject_kind": "claim",
-  "subject_id": "AQUINAS-SCG-I-3-PHILOSOPHERS-NATURAL-LIGHT",
+  "subject_id": "7fa631a5-6552-5c2c-b663-23a9c288cf81",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-NATURAL-REASON-IS-SHARED-REASON",
+  "object_id": "c87ffcb8-9a44-5e02-a68b-13d0282ae930",
   "note": "SCG I.3 n.2 credits 'philosophi' with demonstrating that God exists 'ducti naturalis lumine rationis'. On the reading that these are philosophers outside the faith (not stated in the passage), the natural light is had and used outside the faith. Gaps: that reading; and, as for I.2, this is a theologian's usage, not the council's definition of the phrase."
 }

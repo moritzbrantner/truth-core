@@ -1,9 +1,11 @@
 {
-  "id": "INF-UNIVERSE-CAUSAL-ACTUALITY-SCOPE-TRILEMMA",
+  "id": "7f57ff4c-36ed-5d69-91d8-0bc547d7d33b",
+  "label": "Structural trilemma on the SAME generic Ontic/world/whole: an existing…, by Constructive-proof",
+  "legacy_id": "INF-UNIVERSE-CAUSAL-ACTUALITY-SCOPE-TRILEMMA",
   "input_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-UNIVERSE-EXISTING-CAUSE-NO-CAUSE-ABSENT-CAUSERS-TRILEMMA",
+  "output_statement_id": "b467445b-e146-5dce-9658-0ac9e4e1239a",
   "rule": "constructive-proof",
   "meaning": "Checked structural trilemma distinguishes existing-causer, no-edge, and only-absent-causer assignments without claiming philosophical theories exhaustive.",
   "assumption_statement_ids": [],

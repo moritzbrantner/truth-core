@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-188B-INTERMEDIATES-FROM-CONTRARIES-A",
-  "statement_id": "STMT-INTERMEDIATES-DERIVED-FROM-CONTRARIES",
-  "source_id": "ARIST-PHYS",
+  "id": "c40d25ca-7699-5f13-a684-bf6cda801f3f",
+  "label": "Aristotle, Physics I.5, 188b20-26: Intermediate states relevant to natural becoming are derived…",
+  "legacy_id": "ARIST-PHYS-188B-INTERMEDIATES-FROM-CONTRARIES-A",
+  "statement_id": "7fd16d31-b580-5fce-bd97-349864ddb96e",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.5, 188b20-26",
   "interpretation": "Intermediate states in the chapter's account derive from contraries, illustrated by colours between black and white. The formalization remains scoped to this explanatory role.",
   "status": "formalized"

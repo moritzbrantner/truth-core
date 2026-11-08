@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-188A-FIRST-PRINCIPLE-CONDITIONS-A",
-  "statement_id": "STMT-FIRST-PRINCIPLES-INDEPENDENT-GENERATIVE",
-  "source_id": "ARIST-PHYS",
+  "id": "779bff12-172a-5a7e-89b5-315b26d67550",
+  "label": "Aristotle, Physics I.5, 188a26-30: First principles are not derived from one another or from…",
+  "legacy_id": "ARIST-PHYS-188A-FIRST-PRINCIPLE-CONDITIONS-A",
+  "statement_id": "e526c950-4db8-59fc-b1df-02d31871ddc6",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.5, 188a26-30",
   "interpretation": "First principles satisfy two linked conditions: they are not derived from one another or something prior, and other things are derived from them. Both sides are retained.",
   "status": "formalized"

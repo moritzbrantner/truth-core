@@ -1,7 +1,9 @@
 {
-  "id": "INF-MODAL-D-LANGUAGE",
+  "id": "a748f3fd-d896-591d-a863-02f3c58fb76b",
+  "label": "An explicit serial Bool two-cycle with constant atomic valuation has…, by Direct-proof",
+  "legacy_id": "INF-MODAL-D-LANGUAGE",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-MODAL-D-LANGUAGE",
+  "output_statement_id": "558f37ec-b678-51c5-b15c-50db3eb2ee2d",
   "rule": "direct-proof",
   "meaning": "Structural induction proves formula agreement across the serial two-cycle, including box and diamond through the single opposite successor. Transport formula truth to prove restricted MC; the equality predicate refutes full MC and would contradict language agreement if expressible. Direct constructor distinctness refutes world extensionality.",
   "assumption_statement_ids": [],

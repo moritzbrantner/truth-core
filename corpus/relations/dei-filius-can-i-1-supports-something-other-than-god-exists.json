@@ -1,9 +1,11 @@
 {
-  "id": "REL-DEI-FILIUS-CAN-I-1-SUPPORTS-SOMETHING-OTHER-THAN-GOD-EXISTS",
+  "id": "e2922d37-6e2b-5ebe-b077-dcc0fce65219",
+  "label": "First Vatican Council, Dei Filius Can: In… supports For whatever is GOD_4, there is some being…",
+  "legacy_id": "REL-DEI-FILIUS-CAN-I-1-SUPPORTS-SOMETHING-OTHER-THAN-GOD-EXISTS",
   "subject_kind": "claim",
-  "subject_id": "VATICAN-I-DEI-FILIUS-CAN-I-1-ONE-TRUE-GOD",
+  "subject_id": "d490346d-d4cb-5768-bb39-98dafd581a62",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-SOMETHING-OTHER-THAN-GOD-EXISTS",
+  "object_id": "e4484bdc-b7bc-5bd6-a8b0-7210916f11f1",
   "note": "Dei Filius can. I.1 condemns denying 'unum verum Deum visibilium et invisibilium Creatorem et Dominum', presupposing that visible and invisible created things exist; can. I.3 adds that God's substance is not that of all things. The premise states that for whatever is God there is some being other than it. The canon presupposes creatures rather than asserting their existence, and it speaks of the one true God, not of whatever satisfies the formal predicate."
 }

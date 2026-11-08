@@ -1,26 +1,28 @@
 {
-  "id": "STMT-EXCLUDED-MIDDLE",
+  "id": "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+  "label": "Excluded middle as a general principle: every proposition either holds or does not hold",
+  "legacy_id": "STMT-EXCLUDED-MIDDLE",
   "paraphrase": "Excluded middle as a general principle: every proposition either holds or does not hold (∀ p, p ∨ ¬p).",
   "lean_declaration": "TruthCore.Logic.ExcludedMiddle",
   "self_evident": {
     "justification_ids": [
-      "ARIST-MET-1011B-EXCLUDED-MIDDLE-A",
-      "ARIST-MET-1012A-EXCLUDED-MIDDLE-ELENCTIC-A",
-      "ARIST-MET-1006A-PNC-ELENCTIC-A",
-      "LOGIC-EXCLUDED-MIDDLE-IRREFUTABLE",
-      "LOGIC-EXCLUDED-MIDDLE-NOT-DENIABLE",
-      "LOGIC-EXCLUDED-MIDDLE-IFF-DNE"
+      "2164c64b-bdfc-5a19-b0d4-72cb3ae143b2",
+      "32c1a3f1-840f-55de-bea2-c2b1d2089ad0",
+      "d80a3dd8-1b5b-5031-9977-0b270b534d12",
+      "3be6adf4-216f-53a0-b69b-084ac5fc7e48",
+      "d36bd424-9fe4-5a67-a109-7d0c5c419e06",
+      "e2d8d9a4-ecab-5d32-8c57-4109df41dbb6"
     ],
     "disagreement": {
       "rival_statement_ids": [
-        "STMT-EXCLUDED-MIDDLE-WITHHELD-INTUITIONISM",
-        "STMT-SOME-EXCLUDED-MIDDLE-INSTANCE-FAILS",
-        "STMT-NOT-EXCLUDED-MIDDLE"
+        "dd9921a6-cea1-5cb5-ac08-512a4a5b1813",
+        "39a0738c-d20c-571e-9aa2-51635651b5b4",
+        "c3184817-ab16-5bb7-9e10-c7251ca8f10f"
       ]
     },
     "note": "Argued, not proved. Aristotle states the law (Met. IV.7, 1011b23-24) and defends it elenctically, from what the opponent grants by speaking significantly (IV.4, 1006a11-28; IV.7, 1012a17-24), not by demonstration. Lean shows without any axiom that no instance can be denied (¬¬(p ∨ ¬p); no p with ¬(p ∨ ¬p)) and that the law is equivalent to double-negation elimination. Lean does not prove excluded middle itself, and these results do not refute withholding assent (intuitionism, STMT-EXCLUDED-MIDDLE-WITHHELD-INTUITIONISM), which stays a recorded, unrefuted alternative. Scope audit: withholding remains a serious unrefuted proof/assertion-policy position, now linked to the universal assertion target. Exact global logical denial STMT-NOT-EXCLUDED-MIDDLE is separately unrefuted and is not attributed to intuitionism. The legacy floor basis and justification are retained; no-instance-denial does not independently prove global EM."
   },
   "definition_ids": [
-    "DEF-SELF-EVIDENT-MARKING"
+    "500ba323-cca5-5b35-8b75-947008256c43"
   ]
 }

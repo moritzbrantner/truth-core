@@ -1,9 +1,11 @@
 {
-  "id": "STMT-SELECTED-WHOLE-CAUSERS-ACTUALLY-EXIST",
+  "id": "41e17b00-09de-5a6d-a0ea-a1aed538244b",
+  "label": "Every causer of the selected spacetime whole exists at the selected world",
+  "legacy_id": "STMT-SELECTED-WHOLE-CAUSERS-ACTUALLY-EXIST",
   "paraphrase": "OPEN weak actuality policy: every causer of the selected spacetime whole exists at the selected world. Other recipients, effect actuality, other worlds and a power interface remain outside this proposition. It is not inferred from a primitive causal edge.",
   "lean_declaration": "TruthCore.Ontology.UniverseCauseScopeBoundary.WholeCausersExist",
   "definition_ids": [
-    "DEF-UNIVERSE-CAUSER-ACTUALITY-SCOPE",
-    "DEF-SPATIOTEMPORAL-FRAME"
+    "278c1d18-9e65-5043-b319-5e11daae4ec5",
+    "e9e031af-665e-5888-9328-f7637b5a2677"
   ]
 }

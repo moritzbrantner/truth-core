@@ -1,6 +1,8 @@
 {
-  "id": "ARIST-PHYS-VII-1-REGRESS-FROM-PER-SE-REGRESS",
-  "argument_id": "ARIST-PHYS-VII-1-REGRESS-FROM-PER-SE-REGRESS",
+  "id": "427ac33f-136a-5bb4-b52e-1b16996ef737",
+  "label": "There is no infinite chain in which each member is moved in local MOTION_2 by…, from PER_SE_1…",
+  "legacy_id": "ARIST-PHYS-VII-1-REGRESS-FROM-PER-SE-REGRESS",
+  "argument_id": "a591bb7e-3683-5776-ba6f-0c44d65e47cb",
   "challenge_module": "TruthCore.Results.Aristotle.Physics.Typed.LocalRegressFromPerSeRegress.Challenge",
   "solution_module": "TruthCore.Results.Aristotle.Physics.Typed.LocalRegressFromPerSeRegress.Solution",
   "theorem": "TruthCore.Results.Aristotle.Physics.Typed.LocalRegressFromPerSeRegress.localRegressFromPerSeRegress",

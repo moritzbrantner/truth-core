@@ -1,7 +1,9 @@
 {
-  "id": "INF-FINITE-HITTING",
+  "id": "cceede11-88fc-5ba0-93c9-a3e1294afd2e",
+  "label": "Full #561 conditional cluster: FINITE_HITTING_1 plus subset…, by Finite-omission-and-mathlib-c…",
+  "legacy_id": "INF-FINITE-HITTING",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-FINITE-HITTING-PACKAGE",
+  "output_statement_id": "35ea71e7-c17d-5e83-a8d9-3d3dc666ea59",
   "rule": "finite-omission-and-mathlib-compact-subcover",
   "meaning": "Finite omission composition and genuine Mathlib cylinder finite subcover prove A/B/C. The package checks exact semantic controls and all survivor costs. Open premises: H+A, P+A+O or P+A+K; no real modal applicability is defended and no root premise discharged.",
   "assumption_statement_ids": [],

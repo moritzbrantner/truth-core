@@ -1,5 +1,7 @@
 {
-  "id": "STMT-NO-ACTUALLY-INFINITE-SENSIBLE-BODY",
+  "id": "156ac6a1-34c5-5262-8aa4-c5bd9736378d",
+  "label": "There is no sensible body which is actually infinite",
+  "legacy_id": "STMT-NO-ACTUALLY-INFINITE-SENSIBLE-BODY",
   "paraphrase": "There is no sensible body which is actually infinite.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.NoActuallyInfiniteSensibleBodyReading"
 }

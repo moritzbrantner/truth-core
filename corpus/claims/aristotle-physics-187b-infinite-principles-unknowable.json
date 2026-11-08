@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-187B-INFINITE-PRINCIPLES-UNKNOWABLE-A",
-  "statement_id": "STMT-INFINITE-PRINCIPLES-UNKNOWABLE",
-  "source_id": "ARIST-PHYS",
+  "id": "e11a9119-eb4f-5992-b801-523e6095bb2d",
+  "label": "Aristotle, Physics I.4, 187b7-13: Principles infinite both in multitude and in kind are unknowable…",
+  "legacy_id": "ARIST-PHYS-187B-INFINITE-PRINCIPLES-UNKNOWABLE-A",
+  "statement_id": "a5c99f5b-c6e9-5a7c-b429-d5aae412e7c7",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.4, 187b7-13",
   "interpretation": "First premise of Aristotle's epistemic objection: principles infinite in both number and kind are not knowable in the quantitative and qualitative respects needed by the explanatory account. No modern cardinal or computability interpretation is imposed.",
   "status": "formalized"

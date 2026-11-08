@@ -1,15 +1,17 @@
 {
-  "id": "AFP-NOTES-GOEDEL-HOML1-AX2B-A",
-  "statement_id": "STMT-SCOTT-POSITIVE-NECESSARILY-POSITIVE",
-  "source_id": "AFP-NOTES-GOEDEL-ONTOLOGICAL",
+  "id": "a934e4dc-ea33-5aec-bbff-c2f57e9f3e88",
+  "label": "Christoph Benzmüller and Dana Scott, Notes…: At every world, a POSITIVE_1 property is necessarily…",
+  "legacy_id": "AFP-NOTES-GOEDEL-HOML1-AX2B-A",
+  "statement_id": "0a4a4f75-f7e6-5543-8547-07de3402769c",
+  "source_id": "ae971399-3ec6-504e-b1a0-b13189dd9bb5",
   "locator": "GoedelVariantHOML1.thy, Ax2b: \"⌊P φ ❙⊃ ❙□ P φ⌋\"",
   "interpretation": "Axiom Ax2b as stated in the theory, the free φ read as universally closed. Its formula is that of Scott's A4 (GoedelGod.thy), so it binds to the same statement; the constant P it constrains is the 1970 theory's. Attributed to the AFP formalization of Gödel's 1970 manuscript (Benzmüller and Scott), not to what Gödel intended.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-HOML-ACTUALIST-NECESSITY",
-    "DEF-POSITIVE-PROPERTY-GOEDEL-1970"
+    "9010544f-188a-5d00-83dc-85d0c0b4052d",
+    "6300d642-4116-591e-bac8-7af32093ea6d"
   ],
   "disambiguation_ids": [
-    "DISAMB-POSITIVE"
+    "1850cad4-6eff-547f-b60c-e744dad7830d"
   ]
 }

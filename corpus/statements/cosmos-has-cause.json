@@ -1,10 +1,12 @@
 {
-  "id": "STMT-COSMOS-HAS-CAUSE",
+  "id": "332d3640-0587-5f82-bdc6-cc8781baec50",
+  "label": "The cosmos has a CAUSE_2",
+  "legacy_id": "STMT-COSMOS-HAS-CAUSE",
   "paraphrase": "The cosmos has a cause.",
   "definition_ids": [
-    "DEF-PLATONIC-GENERATION-CAUSE"
+    "fefbb205-07a2-595f-80d6-c6975c7cd185"
   ],
   "disambiguation_ids": [
-    "DISAMB-PLATONIC-CAUSE"
+    "a0786cf3-0248-58b6-ad97-12b00af85056"
   ]
 }

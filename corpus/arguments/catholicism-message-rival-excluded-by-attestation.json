@@ -1,31 +1,33 @@
 {
-  "id": "CATHOLICISM-MESSAGE-RIVAL-EXCLUDED-BY-ATTESTATION",
+  "id": "960112bd-b34e-54e1-84ff-ee80c90c8728",
+  "label": "For any being g: if Jesus holds a mandate from g, founded the Catholic Church, and\u2026, by attestation",
+  "legacy_id": "CATHOLICISM-MESSAGE-RIVAL-EXCLUDED-BY-ATTESTATION",
   "premise_statement_ids": [
-    "STMT-CHURCH-FOUNDED-IN-COMMISSIONED-APOSTLES",
-    "STMT-JOHN-COMMISSION-INDEPENDENT-OF-MATTHEW",
-    "STMT-HEAVEN-RATIFIED-ATTESTATION-CRITERION"
+    "820771a7-1173-510f-88ec-445b203fb1fd",
+    "e2dfc958-eccf-549a-897e-fbb85b5b1b67",
+    "067cd417-4570-5684-a514-d9af55267442"
   ],
-  "conclusion_statement_id": "STMT-MESSAGE-RIVAL-EXCLUDED-GIVEN-FOUNDING",
+  "conclusion_statement_id": "eabdd148-02f5-54bd-97f9-5c3870cbe7db",
   "inference_ids": [
-    "INF-CATHOLICISM-MESSAGE-RIVAL-EXCLUDED-BY-ATTESTATION"
+    "31c7c1e4-4778-514e-a385-e74aaae66a94"
   ],
   "meaning": "Tests the message rival STMT-JESUS-MANDATE-COVERS-ONLY-MESSAGE against the multiple-attestation argument for a governing commission. Premises: the link premise STMT-CHURCH-FOUNDED-IN-COMMISSIONED-APOSTLES (Lumen gentium \u00a7\u00a719, 22); STMT-JOHN-COMMISSION-INDEPENDENT-OF-MATTHEW (John 20.21-23's commission saying is independent of Matthew 18.17-18's or of Matthew 16.18-19's); and STMT-HEAVEN-RATIFIED-ATTESTATION-CRITERION (if two distinct, independent reports each name a heaven-ratified power, Jesus gave or promised some heaven-ratified power). Conclusion STMT-MESSAGE-RIVAL-EXCLUDED-GIVEN-FOUNDING: wherever Jesus holds a mandate from g, founded the Catholic Church and it is visible with authority, the rival is false. The step goes through the reported content: the heaven-ratified family (binding and loosing, forgiving and retaining) is reported in both the Matthean and the Johannine strand (CommissionAttestation.heavenRatified_in_both_strands) and every power in it is governing. Each premise is needed: in each of the three models of CommissionAttestation.omissionModels the other two premises hold, Jesus holds a mandate from some g, founded the Catholic Church and it is visible with authority, the rival holds and the conclusion fails (all stated in the type through RivalWithFounding); all three premises are jointly satisfiable with Jesus' mandate, stage 6 and every stage antecedent of the founding bridge (CommissionAttestation.jointModel). Read off the result: a rival granting the link premise, Jesus' mandate and his founding of the Catholic Church as a visible society with authority, must deny John's independence (from both Matthew 18.17-18 and 16.18-19) or the criterion for this family; otherwise it denies the link premise, the mandate or the founding (stage 5, Harnack's own route in \u00a72). A rival denying only the powers of Matthew 16.19 (keys, binding and loosing), with the two attestation premises, is committed to forgiving and retaining having been given (CommissionAttestation.matt16PowersNotGiven_forces_john); one denying the whole family rejects independence or the criterion (familyNotGiven_rejects_attestation). No pinned source states either denial: Harnack's note 76 dates the words of Matthew 16.18 and 18.17 (STMT-MATT-16-18-18-17-SAYINGS-LATER) and Renan states a possibility about many words on binding and remitting (STMT-COMMUNITY-ATTRIBUTION-OF-CHURCH-POWERS-POSSIBLE). The independence and criterion premises are unsourced; the conclusion is used by no argument reaching the root.",
   "definition_ids": [
-    "DEF-SKELETON-OPEN-PREDICATES",
-    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
-    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY",
-    "DEF-COMMISSION-REPORT-POWERS",
-    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
-    "DEF-HEAVEN-RATIFIED-POWER",
-    "DEF-INDEPENDENT-ATTESTATION"
+    "ac767549-28c0-5a1a-813d-ee208a664d08",
+    "e225d39c-9081-5d1f-80f5-ed121dbb9a30",
+    "12d8270e-a003-557f-8434-490095c74177",
+    "66200ff6-4af8-5b8f-a2c8-08ddf2d0f072",
+    "6dea072c-97c4-5ee9-9958-a3da6a2a049c",
+    "9a55282a-2ac6-5f96-ae0c-7d83833137a7",
+    "61a7a341-a027-5652-9559-54fad7e248ca"
   ],
   "disambiguation_ids": [
-    "DISAMB-FOUNDED-BY-GOD",
-    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS",
-    "DISAMB-COMMISSION-REPORT-AND-EVENT",
-    "DISAMB-ATTESTATION-OF-POWER-AND-FAMILY"
+    "87582d70-e56a-5e51-9377-84b6655b1b68",
+    "2c675c96-2539-5adc-a560-37609d0dc5fe",
+    "0f180711-5550-55b5-9da8-699215d6d95e",
+    "88202e2f-de41-5fa9-8a4b-9ba1fcd73f8f"
   ],
   "strong_version_needed": {
-    "STMT-CHURCH-FOUNDED-IN-COMMISSIONED-APOSTLES": "The frozen original Challenge retains this legacy interface, but its teaching component is not logically needed. CATHOLICISM-MESSAGE-RIVAL-EXCLUDED-BY-ATTESTATION-WEAK-LINK proves the same existing conclusion using only the governing-event component plus the unchanged two attestation premises. New consequence work uses that weaker sibling; no source claim or old proof is rewritten."
+    "820771a7-1173-510f-88ec-445b203fb1fd": "The frozen original Challenge retains this legacy interface, but its teaching component is not logically needed. CATHOLICISM-MESSAGE-RIVAL-EXCLUDED-BY-ATTESTATION-WEAK-LINK proves the same existing conclusion using only the governing-event component plus the unchanged two attestation premises. New consequence work uses that weaker sibling; no source claim or old proof is rewritten."
   }
 }

@@ -1,11 +1,13 @@
 {
-  "id": "DISAMB-EXISTENCE-ESSE-SUPPORT",
+  "id": "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+  "label": "World-relative existence, metaphysical esse, necessity and explanation",
+  "legacy_id": "DISAMB-EXISTENCE-ESSE-SUPPORT",
   "term": "world-relative existence, metaphysical esse, necessity and explanation",
   "sense_definition_ids": [
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-EXISTENTIAL-SUPPORT-MODEL",
-    "DEF-PRESENT-ESSE-SUPPORT",
-    "DEF-UNDERIVED-ROOT-ROUTE"
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "70772f58-1f91-5bcb-9147-44e91863e154",
+    "b242943a-34cc-582d-8c38-c1203b9d2c91",
+    "eb435c88-4b7f-57dc-9ff9-fd6c0f8ad22f"
   ],
   "resolution": "The indexed senses distinguish world-relative candidate existence (DEF-KANT-ONTOLOGICAL-MODEL), external support by distinct actual individuals (DEF-EXISTENTIAL-SUPPORT-MODEL), and the new actual present-source relation without a built-in distinctness restriction (DEF-PRESENT-ESSE-SUPPORT). Boundary's ExistsAt does not analyze the act of being (DEF-ESSE) or explain why an existence fact obtains. Neither supportsEsse relation is automatically Aquinas' efficient cause/conservation of esse (DEF-EXTERNAL-CAUSE-OF-ESSE), an adequate PSR explanation, or a necessary condition of the target's existence. NecessaryAt does not entail an intrinsic reason, identity of essence and esse (DEF-ESSENCE-THOMISTIC-NATURE), or necessary-per-se status (DEF-NECESSARY-PER-SE). These wider source meanings remain separate. UNDERIVED-ROUTE-EXIT, NECESSARILY-UNDERIVED-FROM-ACTUAL-GROUNDED and UNDERIVED-ROUTE-CONTROLS instantiate the supportsEsse parameter at a Profile's selected relation grounds (DEF-UNDERIVED-ROOT-ROUTE). This is a choice of parameter, with no identification of grounds with efficient causation, Aquinas' cause of esse or explanation. In the owner-adopted cogito specialization (#1113), DEF-COGITO-ESSE-PROFILE fixes concrete to HasEsseInRe and explicitly requires ExistingInActAt at the selected world. Real existence then entails concreteness, so the concrete restriction adds nothing further for existing grounds. This is a specialization with a declared contract, not a theorem equating the unrelated predicates of every legacy Profile."
 }

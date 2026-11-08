@@ -1,9 +1,11 @@
 {
-  "id": "INF-AQUINAS-ST-I-Q2-A3-ABSOLUTE-READING-ENTAILS-RELATIVE",
+  "id": "7ad67f37-7e67-52db-b1b9-998f15c379d5",
+  "label": "It is impossible that there be no mover that moves something while being…, by Constructive-proof",
+  "legacy_id": "INF-AQUINAS-ST-I-Q2-A3-ABSOLUTE-READING-ENTAILS-RELATIVE",
   "input_statement_ids": [
-    "STMT-FIRST-UNMOVED-MOVER-CANNOT-BE-LACKING"
+    "c1b68c21-fa36-5ab0-a499-444259eda78a"
   ],
-  "output_statement_id": "STMT-RELATIVELY-UNMOVED-MOVER-CANNOT-BE-LACKING",
+  "output_statement_id": "621821f4-e2b4-50f6-a0ca-53941e7f843b",
   "rule": "constructive-proof",
   "meaning": "The absolute prima via conclusion entails the relative one for the same relations: if a first mover moved in no respect cannot be lacking, a mover unmoved in every respect relevant to its moving cannot be lacking either, for any relevance relation. The statement-level counterpart of the model-quantified fact AQUINAS-ST-I-Q2-A3-ABSOLUTE-CONCLUSION-ENTAILS-RELATIVE; registers the strength order between the two conclusions (#151, #1017).",
   "assumption_statement_ids": [],

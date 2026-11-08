@@ -1,6 +1,8 @@
 {
-  "id": "CAUSAL-WELL-FOUNDED-FROM-PRIORITY",
-  "argument_id": "CAUSAL-WELL-FOUNDED-FROM-PRIORITY",
+  "id": "e36e4beb-3fd2-51bc-b03e-97e822ddb811",
+  "label": "The causal predecessor relation is well-founded, excluding cycles and endless…, from priority",
+  "legacy_id": "CAUSAL-WELL-FOUNDED-FROM-PRIORITY",
+  "argument_id": "e229bb2c-ccb1-5022-aed1-abea129fb2e5",
   "challenge_module": "TruthCore.Results.Causality.Round5Worklist.Challenge",
   "solution_module": "TruthCore.Results.Causality.Round5Worklist.Solution",
   "theorem": "TruthCore.Results.Causality.Round5Worklist.wellFoundedFromPriority",

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MODAL-EXISTENCE-DEGREE",
+  "id": "3baa4471-74ac-5de6-a53a-6ea274873405",
+  "label": "World-indexed existence degree in the…: The parameter intensity: World → Being → Degree assigns…",
+  "legacy_id": "DEF-MODAL-EXISTENCE-DEGREE",
   "term": "world-indexed existence degree in the modal weak-bound profile",
   "definition": "The parameter intensity : World → Being → Degree assigns each rigid candidate at each world a label in one shared Mathlib Preorder. The ordering represents graded existence for this conditional profile. Only ExistsAt-guarded individual/world pairs enter the global maximum comparison; the total label assignment itself confers no presence. Degree intensity is neither Boolean existence, a count of worlds in which a candidate exists, necessary presence, nor an analysis of Thomistic esse. A greatest attained grade can be tied by distinct individuals or degree labels; strictness, antisymmetry and numerical units are not included.",
   "basis": "stipulative",

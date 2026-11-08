@@ -1,5 +1,7 @@
 {
-  "id": "MODEL-MODAL-EXISTENCE-DEGREES-POTENTIAL-ONLY",
+  "id": "f9324b71-2aa4-5d49-a45a-a5a0208e0633",
+  "label": "The fixedEffects frame and existence assignment are retained in a separate ontology whose sound…",
+  "legacy_id": "MODEL-MODAL-EXISTENCE-DEGREES-POTENTIAL-ONLY",
   "description": "The fixedEffects frame and existence assignment are retained in a separate ontology whose sound distinct causal edge exists only at world true. Both necessarily present individuals have invariant high intensity. The full nonlogical modal-degree profile and named source maximum hold, but the source exercises no causation at the false standpoint: possible causation is not actual exercise there. Intensity uses ordered Fin 3 labels independently of ExistsAt, not truth values or numbers of worlds; absent secondEffect intensities are ignored. Worlds are alternatives, not times. This is a singular, other-directed analyst profile, not the entire Koons proof; generic excluded middle is an external logical premise, not certified by this finite interpretation. Formal satisfiability only, no metaphysical possibility or root closure.",
   "vocabulary": "MODAL-EXISTENCE-DEGREES",
   "lean_declaration": "TruthCore.Models.ModalExistenceDegrees.PotentialOnly.model",
@@ -43,7 +45,7 @@
   ],
   "evaluations": [
     {
-      "statement_id": "STMT-MODAL-SOUND-DISTINCT-CAUSES",
+      "statement_id": "af7122ff-3e09-5626-9d51-3937800ecd80",
       "value": "satisfies",
       "arguments": [
         "World",
@@ -53,7 +55,7 @@
       "theorem": "TruthCore.Models.ModalExistenceDegrees.PotentialOnly.sound"
     },
     {
-      "statement_id": "STMT-ACTUAL-MODAL-REFLEXIVITY",
+      "statement_id": "2b20b5af-d653-56ba-8001-35903fb3d1ea",
       "value": "satisfies",
       "arguments": [
         "World",
@@ -64,7 +66,7 @@
       "theorem": "TruthCore.Models.ModalExistenceDegrees.PotentialOnly.reflexive"
     },
     {
-      "statement_id": "STMT-MODAL-NECESSARY-AT-INDIVIDUAL",
+      "statement_id": "4536ee5d-5cac-50e2-b7dc-1272fb19858a",
       "value": "satisfies",
       "arguments": [
         "World",
@@ -76,7 +78,7 @@
       "theorem": "TruthCore.Models.ModalExistenceDegrees.PotentialOnly.necessary"
     },
     {
-      "statement_id": "STMT-MODAL-DEGREE-OTHER-DIRECTED-POTENTIAL",
+      "statement_id": "1aa6d02f-f29d-55f7-9e5d-7ea609609e76",
       "value": "satisfies",
       "arguments": [
         "World",
@@ -88,7 +90,7 @@
       "theorem": "TruthCore.Models.ModalExistenceDegrees.PotentialOnly.potential"
     },
     {
-      "statement_id": "STMT-MODAL-DEGREE-WEAK-CAUSE-BOUND",
+      "statement_id": "728d8bd9-92dd-5af5-b831-e49c7a4f7b5f",
       "value": "satisfies",
       "arguments": [
         "World",
@@ -102,7 +104,7 @@
       "theorem": "TruthCore.Models.ModalExistenceDegrees.PotentialOnly.bound"
     },
     {
-      "statement_id": "STMT-MODAL-DEGREE-NECESSARY-INVARIANCE",
+      "statement_id": "f02cd9f4-b7c9-5e83-bca7-19a343a4bc21",
       "value": "satisfies",
       "arguments": [
         "World",
@@ -117,7 +119,7 @@
       "theorem": "TruthCore.Models.ModalExistenceDegrees.PotentialOnly.invariant"
     },
     {
-      "statement_id": "STMT-MODAL-DEGREE-NECESSARY-GLOBAL-MAXIMUM",
+      "statement_id": "c1e08724-6634-53af-b653-c56948a9892f",
       "value": "satisfies",
       "arguments": [
         "World",
@@ -132,7 +134,7 @@
       "theorem": "TruthCore.Models.ModalExistenceDegrees.PotentialOnly.maximum"
     },
     {
-      "statement_id": "STMT-MODAL-DEGREE-ACTUAL-NECESSARY-INVARIANCE",
+      "statement_id": "59149353-2f74-54de-9035-08640c4e24a9",
       "value": "satisfies",
       "arguments": [
         "World",

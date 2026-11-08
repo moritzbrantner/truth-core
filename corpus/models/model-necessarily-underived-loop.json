@@ -1,5 +1,7 @@
 {
-  "id": "MODEL-NECESSARILY-UNDERIVED-LOOP",
+  "id": "524047cc-fb3a-5ef4-902d-4ec10689dae4",
+  "label": "Two mutually dependent necessary individuals with a direct-support 2-cycle: necessary population…",
+  "legacy_id": "MODEL-NECESSARILY-UNDERIVED-LOOP",
   "description": "Two mutually dependent necessary individuals with a direct-support 2-cycle: necessary population and cross-world lifting hold, but support is not well founded and there is no underived bearer.",
   "vocabulary": "NECESSARILY-UNDERIVED-ESSE-SUPPORT",
   "lean_declaration": "TruthCore.Models.NecessarilyUnderived.loop",
@@ -29,7 +31,7 @@
   ],
   "evaluations": [
     {
-      "statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+      "statement_id": "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
       "value": "satisfies",
       "arguments": [
         "World",
@@ -40,7 +42,7 @@
       "theorem": "TruthCore.Models.NecessarilyUnderived.loopNecessary"
     },
     {
-      "statement_id": "STMT-NECESSARY-PREDECESSOR-LIFTING",
+      "statement_id": "2a9378b4-3dad-591b-a88e-1907a79f1fa5",
       "value": "satisfies",
       "arguments": [
         "World",
@@ -52,7 +54,7 @@
       "theorem": "TruthCore.Models.NecessarilyUnderived.loopLifting"
     },
     {
-      "statement_id": "STMT-WELL-FOUNDED-PRESENT-ESSE-SUPPORT",
+      "statement_id": "47a97912-335f-52f7-a715-63592368f0fe",
       "value": "violates",
       "arguments": [
         "World",
@@ -64,7 +66,7 @@
       "theorem": "TruthCore.Models.NecessarilyUnderived.loopNotWellFounded"
     },
     {
-      "statement_id": "STMT-NECESSARILY-UNDERIVED",
+      "statement_id": "d236f537-dd57-50ec-9676-cee87b19242a",
       "value": "violates",
       "arguments": [
         "World",

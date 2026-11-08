@@ -1,11 +1,13 @@
 {
-  "id": "STMT-REGULAR-BEST-BY-CHANCE-OR-BY-INTENTION",
+  "id": "b43528e2-7188-56e9-941c-0d0cea7c03fb",
+  "label": "Whatever regularly attains what is best for it attains it either by chance or by tending to it as…",
+  "legacy_id": "STMT-REGULAR-BEST-BY-CHANCE-OR-BY-INTENTION",
   "paraphrase": "Whatever regularly attains what is best for it attains it either by chance or by tending to it as an end (from intention).",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.RegularBestByChanceOrByIntentionReading",
   "definition_ids": [
-    "DEF-INTENTIO-AS-TENDING"
+    "2847d4f1-a13a-5d0f-8cc1-abf1c807f92f"
   ],
   "disambiguation_ids": [
-    "DISAMB-INTENTIO"
+    "2e3e5bfd-2e1a-5766-933d-79a7824c6249"
   ]
 }

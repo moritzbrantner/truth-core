@@ -1,6 +1,8 @@
 {
-  "id": "CATHOLICISM-FROM-QUARTA-VIA-WITHOUT-TRUTH-BRIDGE-ADOPTED-POTENCY",
-  "argument_id": "CATHOLICISM-FROM-QUARTA-VIA-WITHOUT-TRUTH-BRIDGE-ADOPTED-POTENCY",
+  "id": "d2bd62c9-fe8e-5921-bbc1-a07b6c564f49",
+  "label": "Catholicism is TRUE_1: the Catholic Church is\u2026, from quarta via without truth bridge adopted\u2026",
+  "legacy_id": "CATHOLICISM-FROM-QUARTA-VIA-WITHOUT-TRUTH-BRIDGE-ADOPTED-POTENCY",
+  "argument_id": "7217cf65-f05f-56bf-a1e1-2f9f36b27d0b",
   "challenge_module": "TruthCore.Results.Case.Catholicism.AdoptedPotency.FromQuartaViaWithoutTruthBridge.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.AdoptedPotency.FromQuartaViaWithoutTruthBridge.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.AdoptedPotency.FromQuartaViaWithoutTruthBridge.catholicismFromQuartaViaWithoutTruthBridge",

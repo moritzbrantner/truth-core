@@ -1,22 +1,24 @@
 {
-  "id": "STMT-ANSELM-UNIQUE-UNIVERSAL-ULTIMATE-SOURCE",
+  "id": "9a21eb47-042c-5f11-8986-f17a046605b0",
+  "label": "Exactly one actual bearer at the selected world is an ultimate source for every actually existing…",
+  "legacy_id": "STMT-ANSELM-UNIQUE-UNIVERSAL-ULTIMATE-SOURCE",
   "lean_declaration": "TruthCore.Explanation.AnselmUltimateSource.UniqueUniversalUltimateSourceAt",
   "paraphrase": "Exactly one actual bearer at the selected world is an ultimate source for every actually existing target at that world. The same source is used throughout. No claim that every necessary being is this source, or that it exists at every accessible world, is made.",
   "definition_ids": [
-    "DEF-ANSELM-THROUGH-CONTEXT",
-    "DEF-ANSELM-ACTUAL-ULTIMATE-SOURCE",
-    "DEF-ANSELM-SOURCE-ACTUALITY",
-    "DEF-ANSELM-THROUGH-COVERAGE",
-    "DEF-ANSELM-ULTIMATE-AVAILABILITY",
-    "DEF-TAPP-SHARED-SELF-POWER",
-    "DEF-TAPP-SELF-POWER-THROUGH",
-    "DEF-ANSELM-SOURCE-UNIQUENESS",
-    "DEF-PSR-POPULATED-WORLD",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-ANSELM-UNIVERSAL-ULTIMATE-SOURCE"
+    "687881da-fd85-595d-8649-ab6e1f9b7ab2",
+    "6e99c5cc-2d8c-546e-8475-242fa956e7c5",
+    "bfc6b432-2215-558b-96af-1e28ee037ef4",
+    "8f9873ba-68cb-5415-ac32-f19762f794bf",
+    "4967cf8c-a7cc-5253-9288-37473b931b97",
+    "c53a0cc8-bcdc-592c-8e46-bf75b4aa749c",
+    "ca8a9ffd-a7aa-57a1-b875-94308b836b07",
+    "4477b0a6-c85d-5749-b0e4-e39de2bdad91",
+    "8e86ac44-8980-5d5f-b571-644e18d30d08",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "f45043be-450c-571c-abe5-2b8fca608138"
   ],
   "disambiguation_ids": [
-    "DISAMB-ANSELM-THROUGH-VS-EFFICIENT-CAUSE"
+    "127e3934-efe5-57f9-b754-4ce22d36aeb8"
   ]
 }

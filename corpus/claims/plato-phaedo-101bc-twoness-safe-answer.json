@@ -1,20 +1,22 @@
 {
-  "id": "PLATO-PHAEDO-101BC-TWONESS-SAFE-ANSWER",
-  "statement_id": "STMT-PLATONIC-PHAEDO-101BC-TWONESS-SAFE-ANSWER",
-  "source_id": "PLATO-PHAEDO",
+  "id": "ab728e26-866e-53ea-aa15-572c386e5957",
+  "label": "Plato, Phaedo 101b–c: For the safe answer about becoming two, Socrates appeals to PARTICIPATION_1…",
+  "legacy_id": "PLATO-PHAEDO-101BC-TWONESS-SAFE-ANSWER",
+  "statement_id": "cdb79b27-ae9e-5c38-a2e0-fb438bb957d1",
+  "source_id": "29beee84-18ce-5163-b9b4-50ce5d92bdd0",
   "locator": "101b–c",
   "interpretation": "Bounded prose source reading of the materialized Burnet Greek witness. This preserves the proposed explanatory priority of the relevant character in the safe answer, rather than attributing a mere name convention. It does not prove that addition or division never occurs, give a productive mechanism, identify formal explanation with efficient causation, or assert that a universal magnitude has a maximal instance.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-PLATONIC-FORM",
-    "DEF-PLATONIC-PARTICIPATION",
-    "DEF-PLATONIC-EXPLANATION",
-    "DEF-PHAEDO-SAFE-ANSWER"
+    "3336e0be-5be8-5c69-b54a-7a7bb29e1db9",
+    "8504bbdf-329b-5e23-9d12-0faf94e00914",
+    "f1f49212-b37b-5ead-8040-96bbeff01a3f",
+    "37752623-ef64-5b86-ba24-df6ff55a9bcd"
   ],
   "disambiguation_ids": [
-    "DISAMB-PLATONIC-CAUSE",
-    "DISAMB-PLATONIC-FORM",
-    "DISAMB-PHAEDO-CAUSE-AND-CONDITION",
-    "DISAMB-PLATONIC-PARTICIPATION"
+    "a0786cf3-0248-58b6-ad97-12b00af85056",
+    "54952044-0e39-566c-a88d-e5c9b95021fb",
+    "75be9568-f157-51ba-b94a-f395c2412b7e",
+    "58a69964-25a1-53d2-a65d-660ed3a0cf4c"
   ]
 }

@@ -1,15 +1,17 @@
 {
-  "id": "ARIST-MET-IV-8-1012B-EXEMPTION-REGRESS-A",
-  "statement_id": "STMT-EXEMPTION-REGRESS",
-  "source_id": "ARIST-MET",
+  "id": "95f28337-7884-50fe-a1c2-6a45921fe548",
+  "label": "Aristotle, Metaphysics IV.8, 1012b18-22: Whoever holds that nothing in scope is ABSOLUTELY_TRUE_1…",
+  "legacy_id": "ARIST-MET-IV-8-1012B-EXEMPTION-REGRESS-A",
+  "statement_id": "1e0318a7-3744-5618-9a3e-0b5f120d71e8",
+  "source_id": "a8acbf0a-30ba-5e04-b261-cb62a89cbddb",
   "locator": "IV.8, 1012b18-22",
   "interpretation": "If they make exceptions, the one exempting the contrary as alone not true, the other his own statement as alone not false, they must nonetheless postulate infinitely many true and false statements; for he who says that the true statement is true is true, and this goes on to infinity. Read as the cost of dropping the scope premise: an exempted absolutely true thesis forces the exemption of every truth-ascent iterate. Formalized for the all-false exemption; the all-true exemption is symmetric and not separately encoded.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-NO-ABSOLUTE-TRUTH-SCOPED",
-    "DEF-ABSOLUTE-TRUTH"
+    "ceeb8d72-d8e3-5c5a-84bc-fc48917219e9",
+    "cbb0ffe9-46e6-5bc4-aa8b-e705635ce0e7"
   ],
   "disambiguation_ids": [
-    "DISAMB-NO-ABSOLUTE-TRUTH-SCOPE"
+    "08bba684-b4bf-5a2a-8a0d-5a251c377d68"
   ]
 }

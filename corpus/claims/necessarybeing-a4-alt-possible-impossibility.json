@@ -1,17 +1,19 @@
 {
-  "id": "NB-SURVEY-A4-ALT-POSSIBLE-IMPOSSIBILITY",
-  "statement_id": "STMT-NB-A2-ALT-POSSIBLE-IMPOSSIBILITY",
-  "source_id": "NECESSARYBEING-SURVEY",
+  "id": "b6aceafd-d90f-52f9-bc26-a3f2273e1676",
+  "label": "Unattributed website author, Necessary…: If a situation can be impossible, it is actually… (3)",
+  "legacy_id": "NB-SURVEY-A4-ALT-POSSIBLE-IMPOSSIBILITY",
+  "statement_id": "ebe396a1-6118-57c8-8199-2b814d0dee2c",
+  "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
   "locator": "A4C2, modal paragraph after causal step 17 and notes 1–2, with A4P4B question context",
   "interpretation": "The P4B question and C2 modal paragraph/full suffix exactly match the existing A2 alternate input. Reuse that proposition identity, keeping the recalled affirmative report conditional rather than asserting actual respondent assent or a verified S5/frame principle. C2’s ordinary-class causal prefix matches A4 main and retains its reductio scope; no repeated prefix or suffix proof is added.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-NB-A2-ALT-IMPOSSIBILITY-REPORT",
-    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+    "abdbe5ff-2931-5574-bab7-f36e05f57c7c",
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A2-ALT-REVISED-NECESSITY",
-    "DISAMB-NB-A4-PROPERTY-TRANSFER-SCOPE",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "385dcada-20b6-5112-9c91-0f34e8e1b844",
+    "130ced63-088b-531d-82b5-3cd1ed1e304c",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

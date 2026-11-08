@@ -1,6 +1,8 @@
 {
-  "id": "SCIENTISM-ALL-SCOPE-STRENGTHENS-POINTWISE",
-  "argument_id": "SCIENTISM-ALL-SCOPE-STRENGTHENS-POINTWISE",
+  "id": "c0f1bcbf-ee6b-535e-ad8e-0a5ca7b51df0",
+  "label": "Every nonempirical established claim lies in scope, from Every established claim lies in the…",
+  "legacy_id": "SCIENTISM-ALL-SCOPE-STRENGTHENS-POINTWISE",
+  "argument_id": "28ed0fab-860e-5488-a945-f7c2c80fab4f",
   "challenge_module": "TruthCore.Results.Logic.ScientismScopeBoundary.AllToPointwise.Challenge",
   "solution_module": "TruthCore.Results.Logic.ScientismScopeBoundary.AllToPointwise.Solution",
   "theorem": "TruthCore.Results.Logic.ScientismScopeBoundary.AllToPointwise.allToPointwise",

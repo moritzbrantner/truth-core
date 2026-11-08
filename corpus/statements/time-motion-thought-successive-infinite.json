@@ -1,5 +1,7 @@
 {
-  "id": "STMT-TIME-MOTION-THOUGHT-SUCCESSIVE-INFINITE",
+  "id": "4fb8617f-764f-5e42-a59d-065976eb7761",
+  "label": "Time, motion, and thinking can be infinite in a successive sense in which the part taken does not…",
+  "legacy_id": "STMT-TIME-MOTION-THOUGHT-SUCCESSIVE-INFINITE",
   "paraphrase": "Time, motion, and thinking can be infinite in a successive sense in which the part taken does not remain as a completed totality while further parts occur.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.TimeMotionThoughtInfiniteBySuccessionReading"
 }

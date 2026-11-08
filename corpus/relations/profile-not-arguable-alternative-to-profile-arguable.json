@@ -1,9 +1,11 @@
 {
-  "id": "REL-PROFILE-NOT-ARGUABLE-ALTERNATIVE-TO-PROFILE-ARGUABLE",
+  "id": "af378eec-bb9d-5348-8074-851a4f520483",
+  "label": "The exact meaningful-divine-arguability… alternative to Some meaningful divine content has a…",
+  "legacy_id": "REL-PROFILE-NOT-ARGUABLE-ALTERNATIVE-TO-PROFILE-ARGUABLE",
   "subject_kind": "statement",
-  "subject_id": "STMT-NATURAL-THEOLOGY-PROFILE-NOT-ARGUABLE",
+  "subject_id": "b74c90bd-fa08-5e72-b687-ab8bfc589fae",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-NATURAL-THEOLOGY-PROFILE-ARGUABLE",
+  "object_id": "563c5fc9-76dd-5d21-b936-3c4a5b82332c",
   "note": "Exact logical negative on the same explicit profile. Strong no-divine-sense is only one sufficient input; refuting it does not establish arguability. The two old untyped source/question propositions remain independent; their profile-adequacy and argument/warrant bridges are OPEN."
 }

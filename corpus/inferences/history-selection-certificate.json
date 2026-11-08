@@ -1,7 +1,9 @@
 {
-  "id": "INF-HISTORY-SELECTION-CERTIFICATE",
+  "id": "410e941c-b76e-5b6c-8d7c-6350613a7fdc",
+  "label": "For any typed history and admitted truth-vector, determining the complete…, by Direct-proof",
+  "legacy_id": "INF-HISTORY-SELECTION-CERTIFICATE",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-HISTORY-SELECTION-CERTIFICATE",
+  "output_statement_id": "8cb72b43-74b2-5dad-ad9a-73eadae47602",
   "rule": "direct-proof",
   "meaning": "Prove the exact equivalence by using the complete evidence-equivalence class as a candidate and, conversely, transporting candidate truth along evidence agreement. Apply it to the accessible rival. Compose existing all-on/off, unique-feedback and source-overlap theorems; derive signal uniqueness pointwise without an initial value. Keep the same presence extensions while changing only the causal graph for the rooted comparison.",
   "assumption_statement_ids": [],

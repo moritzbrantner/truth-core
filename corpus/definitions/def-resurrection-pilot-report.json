@@ -1,5 +1,7 @@
 {
-  "id": "DEF-RESURRECTION-PILOT-REPORT",
+  "id": "2d8b04da-9f9c-5592-bb91-9c2ded12aa2e",
+  "label": "TEXTUAL_REPORT_1: Reported s r means the text is read as presenting content r",
+  "legacy_id": "DEF-RESURRECTION-PILOT-REPORT",
   "term": "textual report (stage-4 pilot)",
   "definition": "Reported s r means the text is read as presenting content r. Report constructors identify exact contents explained by their declaration comments and source claims; a report never entails its content as an actual event.",
   "basis": "stipulative",

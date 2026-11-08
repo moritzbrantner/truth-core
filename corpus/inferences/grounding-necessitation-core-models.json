@@ -1,7 +1,9 @@
 {
-  "id": "INF-GROUNDING-NECESSITATION-CORE-MODELS",
+  "id": "d428015b-dfcf-527d-b250-3065b4166b16",
+  "label": "On arbitrary accessibility, actual contingency of p, boxed truth…, by Explicit typed deduction and…",
+  "legacy_id": "INF-GROUNDING-NECESSITATION-CORE-MODELS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-GROUNDING-NECESSITATION-CORE-MODELS",
+  "output_statement_id": "9cf1c35b-11a0-54f0-8e94-5eecacae592c",
   "rule": "Explicit typed deduction and matched model construction",
   "meaning": "Exact C/N/S contradiction and three deletion models, all with actual p/q truth.",
   "assumption_statement_ids": [],

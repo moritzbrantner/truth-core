@@ -1,9 +1,11 @@
 {
-  "id": "REL-ADDITIONAL-EMPIRICAL-BARRIER-OPPOSES-COVERAGE",
+  "id": "abd9ea7b-d8a1-567a-9281-de44234c3b2b",
+  "label": "Some scoped target lacks a finite… alternative to All empirically unprovable scoped…",
+  "legacy_id": "REL-ADDITIONAL-EMPIRICAL-BARRIER-OPPOSES-COVERAGE",
   "subject_kind": "statement",
-  "subject_id": "STMT-EMPIRICAL-PROOF-ADDITIONAL-BARRIER",
+  "subject_id": "bf6085cc-a8ad-5298-b358-3062679fe884",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-EMPIRICAL-PROOF-BARRIER-COVERAGE",
+  "object_id": "e211ba7c-8ce3-5790-b11a-3230bad522cc",
   "note": "The scoped unprovable target without ObservationBarrier contradicts that barrier coverage. It need not contradict restricted unprovability; the law control witnesses both facts together."
 }

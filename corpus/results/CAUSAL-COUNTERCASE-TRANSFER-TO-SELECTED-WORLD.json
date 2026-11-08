@@ -1,6 +1,8 @@
 {
-  "id": "CAUSAL-COUNTERCASE-TRANSFER-TO-SELECTED-WORLD",
-  "argument_id": "CAUSAL-COUNTERCASE-TRANSFER-TO-SELECTED-WORLD",
+  "id": "082b45ce-8055-5b7e-8c27-bba8f006015b",
+  "label": "At the selected world one candidate…, from The separately supplied witness world has a… and 1 more",
+  "legacy_id": "CAUSAL-COUNTERCASE-TRANSFER-TO-SELECTED-WORLD",
+  "argument_id": "e2538f07-b0f7-5274-b810-2c993bf5c33b",
   "challenge_module": "TruthCore.Results.Causality.CausalConcreteRivals.WorldTransfer.Challenge",
   "solution_module": "TruthCore.Results.Causality.CausalConcreteRivals.WorldTransfer.Solution",
   "theorem": "TruthCore.Results.Causality.CausalConcreteRivals.WorldTransfer.worldTransfer",

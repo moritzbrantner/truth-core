@@ -1,12 +1,14 @@
 {
-  "id": "STMT-CC100-10-CONDITIONAL-NECESSARY-COSMOS-CAUSE",
+  "id": "048ba9cc-22d8-5e88-b66a-37fd19d5a6c8",
+  "label": "If there are contingent things, then the cosmos, the sum of all wholly contingent things, has a…",
+  "legacy_id": "STMT-CC100-10-CONDITIONAL-NECESSARY-COSMOS-CAUSE",
   "paraphrase": "If there are contingent things, then the cosmos, the sum of all wholly contingent things, has a cause that is a necessary thing.",
   "definition_ids": [
-    "DEF-CC100-10-MEREOLOGICAL-SCOPE",
-    "DEF-CC100-10-CAUSAL-MODAL-COSMOS"
+    "2cab56b2-8622-5a12-9adf-101a326fa0a6",
+    "54135ed4-7758-5ce5-95f4-0c48052ec091"
   ],
   "disambiguation_ids": [
-    "DISAMB-FUSION-CAUSE-EXTERNALITY",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "80aee986-d636-5cf7-a339-f99726342440",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

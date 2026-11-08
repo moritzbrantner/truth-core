@@ -1,9 +1,11 @@
 {
-  "id": "INF-FITCH-GLOBAL-LAWS-SPECIALIZE",
+  "id": "faef9750-7e02-570a-b8a5-7fbcc5ec1ac4",
+  "label": "At every world modally accessible from actuality, knowledge of the selected…, by Constructive-proof",
+  "legacy_id": "INF-FITCH-GLOBAL-LAWS-SPECIALIZE",
   "input_statement_ids": [
-    "STMT-FITCH-GLOBAL-LAWS"
+    "ba7c90ea-1439-5804-ac44-cb5621d8518a"
   ],
-  "output_statement_id": "STMT-FITCH-RELEVANT-LAWS",
+  "output_statement_id": "51c7ef24-a720-52f1-8f04-49f242269266",
   "rule": "constructive-proof",
   "meaning": "Specialize global factivity and conjunction extraction to the selected Moore content at each accessed world. This records a strong-to-weak law relation; the obstruction uses only the weak laws.",
   "assumption_statement_ids": [],

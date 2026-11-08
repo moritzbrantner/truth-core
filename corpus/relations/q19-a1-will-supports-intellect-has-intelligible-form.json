@@ -1,9 +1,11 @@
 {
-  "id": "REL-Q19-A1-WILL-SUPPORTS-INTELLECT-HAS-INTELLIGIBLE-FORM",
+  "id": "b8c2a738-ac56-5d02-b969-160f1df34447",
+  "label": "Thomas Aquinas, Summa theologiae I q.19… supports OPEN, analyst formulation from ST I q.19…",
+  "legacy_id": "REL-Q19-A1-WILL-SUPPORTS-INTELLECT-HAS-INTELLIGIBLE-FORM",
   "subject_kind": "claim",
-  "subject_id": "AQUINAS-ST-I-Q19-A1-WILL-FOLLOWS-INTELLECT",
+  "subject_id": "a5dccbe4-d4a1-53c8-a63f-cfb585784033",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-INTELLECT-HAS-INTELLIGIBLE-FORM",
+  "object_id": "763e8f08-55ca-5e87-99dd-7423d6534073",
   "note": "ST I q.19 a.1 co. states that as a natural thing has being in act through its form, so the intellect actually understanding is in act through its intelligible form. The premise states it of whatever has intellect; the passage states it of intellect actually understanding (intelligens actu), and an intellect only in potency to understanding (the possible intellect before any species) is not covered."
 }

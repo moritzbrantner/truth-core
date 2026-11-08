@@ -1,21 +1,23 @@
 {
-  "id": "ARRANGEMENT-SELECTION-FORK-UNDER-FACTIVITY",
+  "id": "4ec23a97-2578-5b00-acfc-1513cd046d2f",
+  "label": "Complete entailing selection or an…, from Excluded middle as a general principle… and 1 more",
+  "legacy_id": "ARRANGEMENT-SELECTION-FORK-UNDER-FACTIVITY",
   "premise_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-ACCEPTED-ARRANGEMENT-EXPLANATIONS-ARE-TRUE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "7f6451e9-a533-5bfd-9899-16bb4164ecab"
   ],
-  "conclusion_statement_id": "STMT-FACTIVE-ARRANGEMENT-JUDGMENT-SELECTION-FORK",
+  "conclusion_statement_id": "9d6f7b35-9668-5bb7-a916-265c61972eb6",
   "inference_ids": [
-    "INF-ARRANGEMENT-SELECTION-FORK-UNDER-FACTIVITY"
+    "0ab71099-98b0-5fb4-be60-c3d9889d34c5"
   ],
   "meaning": "Compose the checked trilemma and explicit factivity to eliminate false acceptance. The familiar selection/nonselection fork thus exposes its actual-truth policy.",
   "definition_ids": [
-    "DEF-ACCEPTED-EXPLANATION-TRUTHFULNESS-POLICY",
-    "DEF-LABELED-CHAIN-ARRANGEMENT",
-    "DEF-ARRANGEMENT-ENTAILING-SELECTION",
-    "DEF-HISTORY-SELECTION-INFORMATION"
+    "2aeb69be-e127-518b-98b0-7862475f2c12",
+    "c9e3d998-544d-55a1-8932-b1c68f182ad0",
+    "f6c46849-e1f6-5810-951c-ede141bcbc54",
+    "c8c357e8-33d1-5468-858d-78f8493e353b"
   ],
   "disambiguation_ids": [
-    "DISAMB-LABELED-ORDER-EXPLANATION"
+    "373537a1-250e-5874-93f9-78ca7c20e1f7"
   ]
 }

@@ -1,31 +1,33 @@
 {
-  "id": "MODAL-S5-COUNTERMODELS",
+  "id": "eaf174b8-325c-593d-9db2-7f3b1e7baf17",
+  "label": "Explicit finite S5 models distinguish singleton root collapse from global identity…",
+  "legacy_id": "MODAL-S5-COUNTERMODELS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-MODAL-S5-COUNTERMODELS",
+  "conclusion_statement_id": "573d7703-4fdb-55ce-89cf-c583ef8d63d6",
   "inference_ids": [
-    "INF-MODAL-S5-COUNTERMODELS"
+    "98670678-629d-57ab-8a44-5ef4cdce32b2"
   ],
   "meaning": "Stipulated mathematical consequence for issue #267; no historical or metaphysical premise is established. Construct every edge and truth witness explicitly; use singleton predicate separation for full-domain failure and reuse the shared duplicate-language invariance theorem. The universal pair independently supplies positive and negative witnesses; an empty conception drops C(MC), indiscriminate conception drops bridge soundness, and the singleton drops contingency.",
   "definition_ids": [
-    "DEF-MODAL-FIXTURE-FRAME",
-    "DEF-MODAL-FIXTURE-DOMAIN",
-    "DEF-MODAL-FIXTURE-MC",
-    "DEF-MODAL-FIXTURE-IDENTITY",
-    "DEF-MODAL-FIXTURE-AGREEMENT",
-    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
-    "DEF-HUME-TEST-CONTINGENCY",
-    "DEF-MODAL-S5-FRAME",
-    "DEF-MODAL-S5-COMPONENT",
-    "DEF-MODAL-S5-UNIFORM",
-    "DEF-MODAL-FIXTURE-FINITE",
-    "DEF-MODAL-S5-MODELS",
-    "DEF-MODAL-S5-ATOM-ONLY",
-    "DEF-HUME-TEST-CONCEPTION",
-    "DEF-HUME-TEST-BRIDGE"
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "a315ea74-8cb6-57a6-ab40-17265bbe1ce7",
+    "f9a77a01-4dcf-5a1d-9bf7-a45a466ce504",
+    "d24cc01a-d6c5-5a1d-bdde-989511bbd1b7",
+    "a3baafe5-b951-5752-ab70-25f03144e8f5",
+    "6d8a58a6-97f4-57f7-824f-c1c2c5d08d6c",
+    "09d51a0b-d02f-5fb4-97db-3b6a4aa3a138",
+    "b15f67c1-a524-5226-87c2-a3f78aff47a9",
+    "373312c4-9420-52fa-8590-0a77cdf956a4",
+    "32211feb-7d9e-5822-a9e0-e8a89374d6aa",
+    "f57a0812-732f-5680-9711-9ab440869861",
+    "0f44c7ba-312b-5c07-bdfe-0a47bf905397",
+    "2e6ae9f0-23ac-5357-9b57-d084c4a27380",
+    "f1dbe2cb-6ba1-581a-9b68-099ef0a25338",
+    "f4fc4188-c03c-5105-a904-ad58b571314b"
   ],
   "disambiguation_ids": [
-    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
-    "DISAMB-MODAL-K-COLLAPSE-MODES",
-    "DISAMB-MODAL-S5-COMPONENT-GLOBAL"
+    "70eab05f-3fde-575b-9de1-6692e7b71974",
+    "2d935e8e-a7d0-50db-999d-a5271406a372",
+    "3f8a4b51-4608-5404-b17b-822281581a38"
   ]
 }

@@ -1,5 +1,7 @@
 {
-  "id": "STMT-COMPOSITE-INFINITE-PRINCIPLES-NOT-KNOWABLE",
+  "id": "d05ddbaf-8a06-5db6-bd51-35da3b9e164a",
+  "label": "A composite cannot be scientifically known when its constituent principles are unknowable because…",
+  "legacy_id": "STMT-COMPOSITE-INFINITE-PRINCIPLES-NOT-KNOWABLE",
   "paraphrase": "A composite cannot be scientifically known when its constituent principles are unknowable because they are infinite in multitude and kind.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.CompositeFromInfinitePrinciplesNotKnowableReading"
 }

@@ -1,10 +1,12 @@
 {
-  "id": "INF-FOUNDING-BRIDGE-FROM-NAMED-READING-ELIMINATION",
+  "id": "34af6528-bc8c-5c76-9958-88b4e4cb753d",
+  "label": "For any GOD_4 candidate g and society c: if Jesus founded c in the…, by Constructive-proof",
+  "legacy_id": "INF-FOUNDING-BRIDGE-FROM-NAMED-READING-ELIMINATION",
   "input_statement_ids": [
-    "STMT-DIVINE-FOUNDING-NAMED-READINGS-COVER",
-    "STMT-DIVINE-FOUNDING-IMMEDIATE-READING-FAILS"
+    "9bc0a152-5dca-50bb-aac3-836dbe7a3bdf",
+    "15de8ad9-6fba-5177-9345-aaee59f77be0"
   ],
-  "output_statement_id": "STMT-ENVOY-FOUNDING-IS-GODS-FOUNDING",
+  "output_statement_id": "51e4073d-ac0d-57f1-8bb7-53a604172b04",
   "rule": "constructive-proof",
   "meaning": "Eliminating the direct-only reading yields the inclusive reading under the openly assumed named coverage; the imported inclusive-calibration theorem then supplies the existing envoy bridge. The coverage hypothesis is not hidden behind an assumed exhaustive list.",
   "assumption_statement_ids": [],

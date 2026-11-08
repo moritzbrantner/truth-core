@@ -1,6 +1,8 @@
 {
-  "id": "ARISTOTLE-SYNONYMY-TIE-CONTROL",
-  "argument_id": "ARISTOTLE-SYNONYMY-TIE-CONTROL",
+  "id": "bed98986-7fdd-56f0-805b-89b930719c17",
+  "label": "A two-entity interpretation has a same-account causal edge, equal at-least standings and no strict…",
+  "legacy_id": "ARISTOTLE-SYNONYMY-TIE-CONTROL",
+  "argument_id": "1fb05176-44b8-5530-acad-da1b9c851b15",
   "challenge_module": "TruthCore.Results.Aristotle.SynonymyTie.Challenge",
   "solution_module": "TruthCore.Results.Aristotle.SynonymyTie.Solution",
   "theorem": "TruthCore.Results.Aristotle.SynonymyTie.synonymyTieControl",

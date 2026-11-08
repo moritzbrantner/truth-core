@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-HIDDENNESS-RELIGIOUS-ULTIMATE",
+  "id": "6848dc39-2ccb-5e86-a5e6-decd165a9725",
+  "label": "Religious ultimate",
+  "legacy_id": "DISAMB-HIDDENNESS-RELIGIOUS-ULTIMATE",
   "term": "religious ultimate",
   "sense_definition_ids": [
-    "DEF-HIDDENNESS-GOD",
-    "DEF-HIDDENNESS-OPEN-ULTIMATE-INQUIRY"
+    "5fc52e92-0783-5a76-bd99-dca53df00800",
+    "759c2050-662a-54db-bcf5-9f5ba0da7741"
   ],
   "resolution": "The negative conclusion targets a personal religious ultimate. Non-theism here leaves nonpersonal ultimate possibilities open; naturalism is not inferred. The Catholic root’s God and the historical pilot’s predicates are linked by context only, with no unstated Lean identity bridge."
 }

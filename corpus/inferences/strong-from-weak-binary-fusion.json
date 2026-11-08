@@ -1,10 +1,12 @@
 {
-  "id": "INF-STRONG-FROM-WEAK-BINARY-FUSION",
+  "id": "8a2a2b0d-4166-5a12-b606-73134a5738cf",
+  "label": "Whenever x is not part of y, some part of x is disjoint from y…, by Typed-partial-order-supplemen…",
+  "legacy_id": "INF-STRONG-FROM-WEAK-BINARY-FUSION",
   "input_statement_ids": [
-    "STMT-WEAK-SUPPLEMENTATION",
-    "STMT-BINARY-SUM2-FORMATION"
+    "0880e645-8d9b-5edf-9de6-8b628424716f",
+    "939381cb-9f18-5c8d-9828-46cd07bd730c"
   ],
-  "output_statement_id": "STMT-STRONG-SUPPLEMENTATION",
+  "output_statement_id": "bf4167dc-dfc4-5b13-a110-0a52c89d4a65",
   "rule": "typed-partial-order-supplementation-and-fusion",
   "meaning": "Take a Sum2 fusion u of {x,y}. If every part of x overlaps y, the no-extra-parts clause implies every part of u overlaps y. Since y≤u, weak supplementation excludes y<u, so u=y and x≤y. Classical contraposition produces the separating remainder. Only binary Sum2 formation is used; no atomism, unrestricted-family formation or modal premises.",
   "assumption_statement_ids": [],

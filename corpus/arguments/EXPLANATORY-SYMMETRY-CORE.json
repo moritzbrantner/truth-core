@@ -1,25 +1,27 @@
 {
-  "id": "EXPLANATORY-SYMMETRY-CORE",
+  "id": "b9468848-a1d7-5f69-8b41-2e921059bc3e",
+  "label": "No frame has two worlds a and v that agree on the truth of the whole base, with base-fixed…",
+  "legacy_id": "EXPLANATORY-SYMMETRY-CORE",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-EXPLANATORY-SYMMETRY-CORE",
+  "conclusion_statement_id": "8d6e5f70-dc12-5f60-83e5-89b060f33c8e",
   "inference_ids": [
-    "INF-EXPLANATORY-SYMMETRY-CORE"
+    "9bd9c077-59f2-525f-ac02-50c14eeda590"
   ],
   "meaning": "An inconsistency of base agreement, base-fixed favouring, net selection at both worlds, and a swapped outcome pair, with a corollary for a necessary base and a deletion model per member of the first bundle. Conditional consequence only: it establishes no member, and which to reject remains open. It discharges no premise and attributes nothing to a source. See docs/notes/explanatory-symmetry-742.md.",
   "definition_ids": [
-    "DEF-EXPLANATORY-FAVOURING-FRAME",
-    "DEF-EXPLANATORY-NET-SELECTION",
-    "DEF-EXPLANATORY-BASE-FIXED",
-    "DEF-EXPLANATORY-SYMMETRY-MODELS",
-    "DEF-EXPLANATORY-RIVALS",
-    "DEF-EXPLANATORY-REASON-CLOSED",
-    "DEF-PSR-STRENGTH-ARENA",
-    "DEF-PSR-STRENGTH-REASON",
-    "DEF-KANT-MODAL-CONTINGENCY"
+    "f2772e30-1d85-5063-8f4d-96fbd97a10a8",
+    "7e29ff7f-5bb3-56ec-995d-fbf72aa014b0",
+    "fadca7e0-16af-53c0-a1ec-be79471754b6",
+    "176c29c3-378e-57d1-8ff9-895951c40d1c",
+    "5a3ef5f8-911c-5c18-bbe8-f2cabb2ceb1d",
+    "fc7264ad-1e74-5419-91be-6ac7ec796b07",
+    "fe4b7da0-cbd6-5d1f-b589-953f9def12b7",
+    "179d4557-bda1-59c4-938a-b91e9974a27f",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d"
   ],
   "disambiguation_ids": [
-    "DISAMB-EXPLANATORY-SELECTION",
-    "DISAMB-PSR-REASON-NECESSITATING",
-    "DISAMB-PSR-EXPLANATION-CAUSE"
+    "59b60fe6-1bfe-512f-a90c-17416218bba4",
+    "f9e260b1-c206-5d41-a054-fac13cf68e67",
+    "f7bae38e-9b21-54fe-8236-2646c230568b"
   ]
 }

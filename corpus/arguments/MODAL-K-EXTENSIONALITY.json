@@ -1,25 +1,27 @@
 {
-  "id": "MODAL-K-EXTENSIONALITY",
+  "id": "9f87b9dc-de5c-552e-b465-f8cb68c58850",
+  "label": "Both four-state K_FORK_4 languages satisfy WORLD_PROPOSITIONAL_EXTENSIONALITY_5: the atom…",
+  "legacy_id": "MODAL-K-EXTENSIONALITY",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-MODAL-K-EXTENSIONALITY",
+  "conclusion_statement_id": "57dcfc89-f117-5c2c-ac1a-9833cd46e5c7",
   "inference_ids": [
-    "INF-MODAL-K-EXTENSIONALITY"
+    "95c6cfa9-06fe-524d-95d4-e27fff55ca5a"
   ],
   "meaning": "Issue #262 mathematical K experiment, not a source-derived premise, a refutation of Hume, or Catholic-case frontier closure. Transport agreement on three formulas through the shared evaluator-correctness theorem and check their Boolean signatures for every pair of explicitly enumerated worlds. For the full domain apply agreement to equality with the first world.",
   "definition_ids": [
-    "DEF-MODAL-FIXTURE-DOMAIN",
-    "DEF-MODAL-FIXTURE-MC",
-    "DEF-MODAL-FIXTURE-FRAME",
-    "DEF-MODAL-FIXTURE-FINITE",
-    "DEF-MODAL-FIXTURE-IDENTITY",
-    "DEF-MODAL-FIXTURE-AGREEMENT",
-    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
-    "DEF-HUME-TEST-CONTINGENCY",
-    "DEF-MODAL-K-ACTUALITY",
-    "DEF-MODAL-K-FORK"
+    "a315ea74-8cb6-57a6-ab40-17265bbe1ce7",
+    "f9a77a01-4dcf-5a1d-9bf7-a45a466ce504",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "f57a0812-732f-5680-9711-9ab440869861",
+    "d24cc01a-d6c5-5a1d-bdde-989511bbd1b7",
+    "a3baafe5-b951-5752-ab70-25f03144e8f5",
+    "6d8a58a6-97f4-57f7-824f-c1c2c5d08d6c",
+    "09d51a0b-d02f-5fb4-97db-3b6a4aa3a138",
+    "2a081357-c3f9-5ca0-a4b6-604f47258175",
+    "5e61ee7e-61d1-580b-89a9-f812e01b15ea"
   ],
   "disambiguation_ids": [
-    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
-    "DISAMB-MODAL-K-COLLAPSE-MODES"
+    "70eab05f-3fde-575b-9de1-6692e7b71974",
+    "2d935e8e-a7d0-50db-999d-a5271406a372"
   ]
 }

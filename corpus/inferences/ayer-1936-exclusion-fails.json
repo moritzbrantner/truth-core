@@ -1,7 +1,9 @@
 {
-  "id": "INF-AYER-1936-EXCLUSION-FAILS",
+  "id": "152e61aa-15d1-51ab-95d7-5851268a3934",
+  "label": "No language and frame satisfy the V2 exclusion thesis: every sentence whose…, by Constructive-proof",
+  "legacy_id": "INF-AYER-1936-EXCLUSION-FAILS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-AYER-1936-EXCLUSION-FAILS",
+  "output_statement_id": "b8e30c15-56d5-5d6e-94eb-611d58a7a415",
   "rule": "constructive-proof",
   "meaning": "From STMT-AYER-1936-CRITERION-TRIVIAL and no premises: a sentence whose negation does not entail some observation statement passes the 1936 test, so no frame satisfies the V2 exclusion thesis STMT-AYER-1936-EXCLUDES-METAPHYSICS, which this argument refutes.",
   "assumption_statement_ids": [],

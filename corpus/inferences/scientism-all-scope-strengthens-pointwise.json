@@ -1,9 +1,11 @@
 {
-  "id": "INF-SCIENTISM-ALL-SCOPE-STRENGTHENS-POINTWISE",
+  "id": "b826b9ea-3787-5e19-a80c-b0ead8fb1c34",
+  "label": "Every nonempirical established claim lies in scope, by Constructive-proof",
+  "legacy_id": "INF-SCIENTISM-ALL-SCOPE-STRENGTHENS-POINTWISE",
   "input_statement_ids": [
-    "STMT-SCIENTISM-ALL-ESTABLISHED-IN-SCOPE"
+    "deea0f62-5827-5d15-a311-e5b4ce165684"
   ],
-  "output_statement_id": "STMT-SCIENTISM-POINTWISE-NONEMPIRICAL-SCOPE",
+  "output_statement_id": "eb89527e-a623-55f4-9363-3d1618311e5e",
   "rule": "constructive-proof",
   "meaning": "All established coverage implies pointwise nonempirical witness coverage.",
   "assumption_statement_ids": [],

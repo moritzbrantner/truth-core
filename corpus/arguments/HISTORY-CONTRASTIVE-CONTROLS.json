@@ -1,17 +1,19 @@
 {
-  "id": "HISTORY-CONTRASTIVE-CONTROLS",
+  "id": "910e9559-4e32-55a5-94e1-9642279b9937",
+  "label": "Two universally accessible infinite predecessor chains have sound local reason coverage and causal…",
+  "legacy_id": "HISTORY-CONTRASTIVE-CONTROLS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-HISTORY-CONTRASTIVE-CONTROLS",
+  "conclusion_statement_id": "e096a433-8d5d-522d-96c4-83ad22be6e74",
   "inference_ids": [
-    "INF-HISTORY-CONTRASTIVE-CONTROLS"
+    "f6f30bb5-f884-56f6-87ff-41c85aeafb29"
   ],
   "meaning": "Compute coverage and soundness for the same two infinite local chains under two reason-truth assignments. Evaluate a rival member to refute SameHistory and the constant reason discriminator; use internal reason truth to force the same world. An empty discovery assignment coexists with the latter discriminator. No actual selection explanation or root discharge follows.",
   "definition_ids": [
-    "DEF-HISTORY-CONTRASTIVE-CONTROL",
-    "DEF-TEMPORAL-HISTORY-NOW-SLICE",
-    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING"
+    "22a86afc-adaa-5755-b644-da49d4d6dee1",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef"
   ],
   "disambiguation_ids": [
-    "DISAMB-HISTORY-CONTRASTIVE-SUFFICIENCY"
+    "6bd7d340-ccaa-5585-9d6f-a9e5cb4e1c34"
   ]
 }

@@ -1,7 +1,9 @@
 {
-  "id": "INF-SCOPED-ACTUAL-CAUSAL-STRICT-CONTROL",
+  "id": "d4a904aa-db8f-52a5-9f74-886bacd1e2ca",
+  "label": "The unchanged finite mixed ontology at false satisfies the four…, by Typed-selected-world-causal-c…",
+  "legacy_id": "INF-SCOPED-ACTUAL-CAUSAL-STRICT-CONTROL",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-SCOPED-ACTUAL-CAUSAL-STRICT-CONTROL",
+  "output_statement_id": "276b08d6-5429-5900-8099-9ee81217e5c4",
   "rule": "typed-selected-world-causal-composition",
   "meaning": "Preserve EXACT mixed.ontic, its worlds, existence, Causes and identities. Standard Mathlib lift transports the old identity-parthood order to the selected actual nodes; no default linear Option order is used. All four nonlogical atomistic inputs and nonvacuous selected coverage hold at false. Existing mixedContingentAtFalse supplies the actual contingent witness; existing mixedHasContingentUncausedRoot at true refutes global coverage. No EM premise, new ontology or reality interpretation is certified.",
   "assumption_statement_ids": [],

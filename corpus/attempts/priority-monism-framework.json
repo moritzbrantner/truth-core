@@ -1,24 +1,26 @@
 {
-  "id": "ATTEMPT-PRIORITY-MONISM-FRAMEWORK",
+  "id": "859213f4-5448-5e73-bd99-326c092d28ac",
+  "label": "Materialized and read Schaffer §§1.1–1.4 pp.33–44 from the author-hosted published PDF, with…",
+  "legacy_id": "ATTEMPT-PRIORITY-MONISM-FRAMEWORK",
   "statement_ids": [
-    "STMT-SCHAFFER-MONISM-MATERIAL-SCOPE",
-    "STMT-SCHAFFER-PRIORITY-FOUNDATIONALISM",
-    "STMT-SCHAFFER-TILING-JUSTIFICATION",
-    "STMT-SCHAFFER-BASIC-COMPOSITE-WHOLE",
-    "STMT-SCHAFFER-DERIVATIVE-ORDER-OPEN",
-    "STMT-ACTUAL-CAUSE-SUPPORTS-ESSE"
+    "c9e39383-4517-5681-a437-f2e92bda907f",
+    "836e2c3b-a175-56ef-9ddf-7fa738fce527",
+    "4c4309e9-b45c-5c0f-98d8-57f0a5eb6211",
+    "ef4e4c52-d70b-5e18-97b8-6af75150eaed",
+    "17a94d51-6827-5b2c-9883-81405a036f11",
+    "eb4cfb27-f453-582f-8e08-d31eef01d81f"
   ],
   "date": "2026-10-28",
   "kind": "reading",
   "outcome": "succeeded",
   "summary": "Materialized and read Schaffer §§1.1–1.4 pp.33–44 from the author-hosted published PDF, with byte-identical 2013 archive fallback. Five prose readings preserve restricted material scope, openly assumed well-founded priority, proposed tiling justifications, positive composite-whole dependence account and openness of derivative ordering. Exact existing theorem types inspected: WorldSourceRegress.sourcePath_of_acc, SourceForest.atMostOne_of_confluent/rooted_of_confluent and PowerExistenceBoundary.powerExistenceBoundary; none is treated as a sourced model of Schaffer or a causal/grounding identity. New redundant fusion-direction proof rejected because the parallel #328 investigation supplies the mereological separation and these generic certificates already expose structural burdens. The p.44 reversal of Bu labels in the exhaustiveness paragraph is recorded as an interpretation judgment resolved by pp.42–43, not silently formalized as source inconsistency. Shared-question answer map, strongest rivals and scope/open explanatory obligations are in docs/notes/priority-monism-framework.md. No new proof/result/closed premise.",
   "evidence": [
-    "SCHAFFER-11-MATERIAL-SCOPE",
-    "SCHAFFER-12-PRIORITY-FOUNDATIONALISM",
-    "SCHAFFER-13-TILING-JUSTIFICATION",
-    "SCHAFFER-14-BASIC-WHOLE",
-    "SCHAFFER-14-DERIVATIVE-ORDER",
-    "SOURCE-FOREST-ROOTED-FROM-CONFLUENCE"
+    "abb42566-e52d-5063-85e5-3c2a0e28b699",
+    "57e87fcb-8dc0-5d13-8f40-e799ebcd4a09",
+    "0789e705-100b-599f-9425-337804b85451",
+    "9f7e6f01-c2d6-53a8-a1ee-149e79a349f1",
+    "68ade1b3-f0c2-5bc7-ba4a-6b127132fbd6",
+    "2e76d998-a6f1-5e8b-8269-d84affc10c27"
   ],
   "blocker": "The bounded reading does not independently defend well-foundedness, tiling, the privileged priority relation, material closure, cosmic necessity or intrinsic explanatory adequacy. Schaffer’s later physical/gunk arguments and Markosian brutal composition remain separate unread tasks; #331 is not closed."
 }

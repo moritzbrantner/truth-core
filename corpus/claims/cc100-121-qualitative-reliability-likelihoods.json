@@ -1,14 +1,16 @@
 {
-  "id": "CC100-121-QUALITATIVE-RELIABILITY-LIKELIHOODS",
-  "statement_id": "STMT-CC100-121-QUALITATIVE-RELIABILITY-LIKELIHOODS",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "73bc8c10-a51b-5145-8e22-c2f94eb8e4dd",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: The probability that our cognitive faculties are…",
+  "legacy_id": "CC100-121-QUALITATIVE-RELIABILITY-LIKELIHOODS",
+  "statement_id": "988873c7-c06a-54b0-bd74-21c11c6d1699",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.272–291: p.284, argument #121 Reliability of Our Cognitive Faculties, steps 1–2 and R/T/N definitions",
   "interpretation": "Preserve the source’s Pr(R|T) >> really low and Pr(R|N) = really low. Really low is an uncalibrated qualitative label, not a supplied number or proven bound; >> is likewise unspecified. R names general reliability, not an independently asserted actual reliability premise, observed event or demonstrated cognitive measure. Attribution is to McIntosh’s presentation only, not unread Arnold2018 or Slagle2021 works referenced on p285. No formal proof or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-121-RELIABILITY-CONFIRMATION"
+    "bef73b95-e123-5b57-80ae-e5923d50ae74"
   ],
   "disambiguation_ids": [
-    "DISAMB-REASON-EPISTEMIC-ONTIC"
+    "a61d3807-50e9-595e-9011-9123fd606a4b"
   ]
 }

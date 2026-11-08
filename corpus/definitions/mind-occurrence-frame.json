@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MIND-OCCURRENCE-FRAME",
+  "id": "d6835210-4ba5-5d56-ae3a-4588933bc4a8",
+  "label": "Occurrence frame for the target mental…: Frame has occurrences that instantiate kinds",
+  "legacy_id": "DEF-MIND-OCCURRENCE-FRAME",
   "term": "occurrence frame for the target mental kind",
   "definition": "Frame has occurrences that instantiate kinds. Physical e means e has some physical kind; Mental e means e has the designated target kind, which may or may not itself be physical. An occurrence may have several kinds. Causes is a primitive relation with no assumed transitivity, asymmetry or well-foundedness; ordinary example: a decision causing an arm movement; counterexample: a mere correlate of that movement. A frame fixes the strict or generous reading of causes. See docs/notes/mind-physicalism-fork-419.md for grounding and rivals.",
   "basis": "stipulative",

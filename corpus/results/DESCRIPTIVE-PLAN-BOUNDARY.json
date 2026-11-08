@@ -1,6 +1,8 @@
 {
-  "id": "DESCRIPTIVE-PLAN-BOUNDARY",
-  "argument_id": "DESCRIPTIVE-PLAN-BOUNDARY",
+  "id": "ae1df6b5-70c7-548a-98f7-16c5f67b7332",
+  "label": "In the stipulated material-support plan semantics, every satisfiable theory containing only…",
+  "legacy_id": "DESCRIPTIVE-PLAN-BOUNDARY",
+  "argument_id": "0f485daf-2b9b-5be5-b643-ae883c6157ee",
   "challenge_module": "TruthCore.Results.Metaethics.DescriptivePlanBoundary.Challenge",
   "solution_module": "TruthCore.Results.Metaethics.DescriptivePlanBoundary.Solution",
   "theorem": "TruthCore.Results.Metaethics.DescriptivePlanBoundary.boundary",

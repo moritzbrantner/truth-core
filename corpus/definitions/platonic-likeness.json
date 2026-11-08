@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PLATONIC-LIKENESS",
+  "id": "2887f878-d786-5205-9d73-8142cd156ec3",
+  "label": "LIKENESS_1: Like x y is a resemblance relation between entities",
+  "legacy_id": "DEF-PLATONIC-LIKENESS",
   "term": "likeness",
   "definition": "Like x y is a resemblance relation between entities. Symmetry, reflexivity and transitivity are not axioms of this interface; any use needs its own sourced premise. No regress argument is encoded here.",
   "basis": "stipulative",

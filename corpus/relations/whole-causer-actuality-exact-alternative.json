@@ -1,9 +1,11 @@
 {
-  "id": "REL-WHOLE-CAUSER-ACTUALITY-EXACT-ALTERNATIVE",
+  "id": "f7caade7-82ef-5f66-9082-37f36cc77e41",
+  "label": "Exact negation of the… alternative to Every causer of the selected spacetime…",
+  "legacy_id": "REL-WHOLE-CAUSER-ACTUALITY-EXACT-ALTERNATIVE",
   "subject_kind": "statement",
-  "subject_id": "STMT-SELECTED-WHOLE-CAUSER-ACTUALITY-FAILS",
+  "subject_id": "61453557-633f-57ea-962f-6c98c1810df3",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-SELECTED-WHOLE-CAUSERS-ACTUALLY-EXIST",
+  "object_id": "41e17b00-09de-5a6d-a0ea-a1aed538244b",
   "note": "Exact matching-scope unrefuted negative, not a presumed complete list of historical accounts."
 }

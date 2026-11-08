@@ -1,7 +1,9 @@
 {
-  "id": "PLATO-TIM-28BC-COSMOS-GENERATED",
-  "statement_id": "STMT-COSMOS-GENERATED",
-  "source_id": "PLATO-TIM",
+  "id": "990188b4-7d6e-5a0a-87c2-cb16aa05ce51",
+  "label": "Plato, Timaeus 28b-28c: The cosmos has come to be",
+  "legacy_id": "PLATO-TIM-28BC-COSMOS-GENERATED",
+  "statement_id": "5a1cc285-fc48-5e4b-afd3-53fd40976f62",
+  "source_id": "1d9ebf15-85ad-54cf-9d5d-b1753bf6e812",
   "locator": "28b-28c",
   "interpretation": "Minimal seed reading: the cosmos belongs to the class of things that have come to be.",
   "status": "formalized"

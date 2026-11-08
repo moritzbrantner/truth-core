@@ -1,7 +1,9 @@
 {
-  "id": "INF-WHOLE-POWER-PERFECTION-CONTROLS",
+  "id": "e89d9a82-b3e2-55b2-8bce-774a5ac0c403",
+  "label": "Finite interpretations; excluded middle is not asserted, by Explicit finite…",
+  "legacy_id": "INF-WHOLE-POWER-PERFECTION-CONTROLS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-WHOLE-POWER-PERFECTION-CONTROLS",
+  "output_statement_id": "f98a0ff1-f9ea-53c1-a744-a453b3f16dcc",
   "rule": "Explicit finite interpretations",
   "meaning": "Finite interpretations; excluded middle is not asserted. Two determination-free beings satisfy SCG I.42 vacuously while identity of purely determined indiscernibles fails. On the unchanged part-free model, unrestricted perfection and strict pure actuality hold while SCG I.42 and at-most-one fail. For a single simple first mover that is first in being, omitting in turn the bridge from no limitation to own being, SCG I.28 as encoded, or q.4 a.2 as encoded makes unrestricted perfection fail with the other two holding; a positive witness satisfies all of them with an actual first mover. Under the q.7 infinity reading, omitting the infinity bridge makes unrestricted perfection fail, and the bridge is satisfiable. Satisfiability of encoded bundles, not metaphysical possibility.",
   "assumption_statement_ids": [],

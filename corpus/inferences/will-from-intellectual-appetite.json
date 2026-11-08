@@ -1,10 +1,12 @@
 {
-  "id": "INF-WILL-FROM-INTELLECTUAL-APPETITE",
+  "id": "fb7eaef6-b103-5676-b81c-f956b0c0c243",
+  "label": "Whatever has an inclination following an intelligible form HAS_WILL_1, by Existential elimination…",
+  "legacy_id": "INF-WILL-FROM-INTELLECTUAL-APPETITE",
   "input_statement_ids": [
-    "STMT-INTELLIGIBLE-INCLINATION-IS-INTELLECTUAL-APPETITE",
-    "STMT-INTELLECTUAL-APPETITE-IS-WILL"
+    "8554d4f7-2c78-53f5-97c4-dffed1148941",
+    "f586a11b-dbda-53d1-9c21-8d75da74056f"
   ],
-  "output_statement_id": "STMT-INTELLIGIBLE-INCLINATION-IS-WILL",
+  "output_statement_id": "b7b10ad2-fafe-552e-8bf4-205d49f2f070",
   "rule": "Existential elimination, universal instantiation, modus ponens",
   "meaning": "Whatever has an inclination following an intelligible form has will, through an appetitive principle following intellect as the middle term: such an inclination belongs to an appetitive principle that follows intellectual apprehension (OPEN q.80 a.1-2 reading), and whatever has such a principle has will (OPEN q.80 a.2 / q.82 reading). It splits the near-definitional recognition step into the appetite classification and the identification of intellectual appetite with will.",
   "assumption_statement_ids": [],

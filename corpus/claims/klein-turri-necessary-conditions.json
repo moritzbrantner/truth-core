@@ -1,16 +1,18 @@
 {
-  "id": "KLEIN-TURRI-1-NECESSARY-CONDITIONS",
-  "statement_id": "STMT-KLEIN-TURRI-INFINITIST-NECESSARY-CONDITIONS",
-  "source_id": "KLEIN-TURRI-INFINITISM",
+  "id": "ce507fea-aa94-54bf-8c58-87151aeb18fb",
+  "label": "Peter D. Klein and John Turri, Infinitism…: The Klein–Turri enhancement account requires exclusion…",
+  "legacy_id": "KLEIN-TURRI-1-NECESSARY-CONDITIONS",
+  "statement_id": "6e81d194-a8ed-55d2-95fb-657d8226cf20",
+  "source_id": "d148e888-733b-5c82-8557-f453930be43d",
   "locator": "§1, paragraph beginning “Infinitism is designed” and numbered conditions",
   "interpretation": "Prose reading only. Endless noncircular graph shape is not represented as sufficient epistemic warrant; the arbitrariness challenge to foundational reasons remains contested.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-REASON-ENHANCED-JUSTIFICATION",
-    "DEF-INFINITIST-REASON-AVAILABILITY",
-    "DEF-INFINITIST-NORMATIVE-CONSTRAINTS"
+    "8103573d-6f9b-5507-aab5-550b32be3c33",
+    "129d8faf-d95b-55d5-b9a0-f130e87af547",
+    "5899a492-6fd6-581c-878d-a7b92c07f1c3"
   ],
   "disambiguation_ids": [
-    "DISAMB-INFINITIST-AVAILABILITY-AND-WARRANT"
+    "83565910-c99f-5aaa-a5ff-5e53a3ab7f6e"
   ]
 }

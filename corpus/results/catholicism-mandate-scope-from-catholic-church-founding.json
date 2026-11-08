@@ -1,6 +1,8 @@
 {
-  "id": "CATHOLICISM-MANDATE-SCOPE-FROM-CATHOLIC-CHURCH-FOUNDING",
-  "argument_id": "CATHOLICISM-MANDATE-SCOPE-FROM-CATHOLIC-CHURCH-FOUNDING",
+  "id": "b304dcb2-8256-5d12-890e-1d2424814ed0",
+  "label": "For any being g: if Jesus holds a mandate from g, then every…, from catholic church founding",
+  "legacy_id": "CATHOLICISM-MANDATE-SCOPE-FROM-CATHOLIC-CHURCH-FOUNDING",
+  "argument_id": "7441730c-adae-5e85-8f42-c15f0974b529",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingScope.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingScope.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.FoundingScope.mandate_scope_from_catholic_church_founding",

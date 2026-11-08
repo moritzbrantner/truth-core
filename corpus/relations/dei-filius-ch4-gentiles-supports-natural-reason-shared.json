@@ -1,9 +1,11 @@
 {
-  "id": "REL-DEI-FILIUS-CH4-GENTILES-SUPPORTS-NATURAL-REASON-SHARED",
+  "id": "d20b0665-aeaf-5de4-8bd2-d6fbfd2fe02c",
+  "label": "First Vatican Council, Dei Filius Ch. 4…… supports A move that affirms that God can be known…",
+  "legacy_id": "REL-DEI-FILIUS-CH4-GENTILES-SUPPORTS-NATURAL-REASON-SHARED",
   "subject_kind": "claim",
-  "subject_id": "VATICAN-I-DEI-FILIUS-CH4-TWO-ORDERS-GENTILES",
+  "subject_id": "01840ed6-f4a1-5dd4-93d8-37a9a9348800",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-NATURAL-REASON-IS-SHARED-REASON",
+  "object_id": "c87ffcb8-9a44-5e02-a68b-13d0282ae930",
   "note": "Dei Filius ch. 4 separates natural reason from divine faith as principles of knowledge and says God was known by the gentiles through the things made. Knowledge had by those outside the faith, by a principle other than faith, is knowledge that answers to a standard they share. Gap: the council does not say 'shared with outsiders', and the gentiles' knowledge is reported via the Apostle, so it is the council's reading of Rom 1."
 }

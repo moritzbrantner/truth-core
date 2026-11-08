@@ -1,7 +1,9 @@
 {
-  "id": "INF-NECESSARY-BEING-IN-ACT-CONTROLS",
+  "id": "8a75afd1-0a54-5c03-ac39-b51cb255b9ad",
+  "label": "One-being, one-respect interpretations in which the being is NECESSARY_1, by Explicit finite…",
+  "legacy_id": "INF-NECESSARY-BEING-IN-ACT-CONTROLS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-NECESSARY-BEING-IN-ACT-CONTROLS",
+  "output_statement_id": "774bd5b1-07d9-573a-b690-fd9d0e3b0456",
   "rule": "Explicit finite interpretations",
   "meaning": "One-being, one-respect interpretations in which the being is necessary (absence is impossible). Without the bridge the being can fail to be in substance, incorruptibility yields nothing, and it is not in act; without 'incorruptibles are in act' it cannot fail and is still not in act; with both it is in act as to being.",
   "assumption_statement_ids": [],

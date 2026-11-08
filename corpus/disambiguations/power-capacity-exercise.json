@@ -1,12 +1,14 @@
 {
-  "id": "DISAMB-POWER-CAPACITY-EXERCISE",
+  "id": "1da63c28-4572-5787-82a0-51425c0f4b6a",
+  "label": "Causal capacity versus actual exercise and underived source",
+  "legacy_id": "DISAMB-POWER-CAPACITY-EXERCISE",
   "term": "causal capacity versus actual exercise and underived source",
   "sense_definition_ids": [
-    "DEF-POWER-CAPACITY-READING",
-    "DEF-ACTUAL-POWER-TRANSMISSION-READING",
-    "DEF-UNBORROWED-POWER-IN-A-RESPECT",
-    "DEF-FINITELY-GROUNDED-CAUSAL-POWER",
-    "DEF-PURE-ACT"
+    "8ce4f4d6-a221-5db8-aef5-2f0babdfb416",
+    "5aef0b49-016a-5716-9bd9-423d957b28ab",
+    "7059cad2-e5b6-5003-8871-a85c8f1924f5",
+    "febac82d-1ca3-5773-89ec-0401f1bac7a0",
+    "a49e4cf1-ca4f-5519-9724-892af257cedb"
   ],
   "resolution": "Boundary explicitly requires transmitsPower false source effect, plus lack of intrinsic power at the effect and finite power grounding. Thus the exhibited source is actually connected to an instrumental target in its designated channel. intrinsicPower means intrinsic source-status for this channel, not every capacity of the bearer, and the source's absence of incoming transmission does not exclude all enabling conditions or dependence for its own being. The alternative power-as-unexercised-capacity is not formalized by the Profile, though DEF-BORROWED-POWER-PROFILE separately supplies one for #741 and is not identified with intrinsicPower; PureAct is a separate Thomistic act/potency predicate and not synonymous with current transmission. The selected respect is fixed by the supplied relation, not universally quantified."
 }

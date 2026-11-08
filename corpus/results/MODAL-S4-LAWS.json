@@ -1,6 +1,8 @@
 {
-  "id": "MODAL-S4-LAWS",
-  "argument_id": "MODAL-S4-LAWS",
+  "id": "811f302c-b36b-575f-a9c6-f6b4c191e7d3",
+  "label": "On any reflexive frame, actual full-predicate collapse is equivalent to necessary full-predicate…",
+  "legacy_id": "MODAL-S4-LAWS",
+  "argument_id": "2ce5e758-84ca-553d-be41-6ca0e5241ccf",
   "challenge_module": "TruthCore.Results.Modal.S4.Laws.Challenge",
   "solution_module": "TruthCore.Results.Modal.S4.Laws.Solution",
   "theorem": "TruthCore.Results.Modal.S4.Laws.checks",

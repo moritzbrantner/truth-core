@@ -1,5 +1,7 @@
 {
-  "id": "DEF-UNIVERSAL-FUSION-PROFILE",
+  "id": "9ec56dce-572e-5230-8247-6b3e994cb98a",
+  "label": "Unrestricted fusion in a fixed…: A fusion is an upper bound for the selected nonempty family…",
+  "legacy_id": "DEF-UNIVERSAL-FUSION-PROFILE",
   "term": "unrestricted fusion in a fixed partial-order domain",
   "definition": "A fusion is an upper bound for the selected nonempty family, every part of which overlaps a selected member. Overlap means a common part. Unrestricted requires this for every nonempty Set of the fixed carrier. Composite means having a strict part. Body instantiates the order by subset inclusion on nonempty subsets of Bool.",
   "basis": "stipulative",

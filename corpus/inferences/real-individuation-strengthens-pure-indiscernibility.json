@@ -1,9 +1,11 @@
 {
-  "id": "INF-REAL-INDIVIDUATION-STRENGTHENS-PURE-INDISCERNIBILITY",
+  "id": "7f421f1b-ad05-52dc-be3e-5d67d3777901",
+  "label": "Any two beings, first movers or not, that have the same real…, by Restriction of the antecedent",
+  "legacy_id": "INF-REAL-INDIVIDUATION-STRENGTHENS-PURE-INDISCERNIBILITY",
   "input_statement_ids": [
-    "STMT-REAL-DETERMINATIONS-INDIVIDUATE"
+    "abe615df-25ae-5aa9-8611-140ca98ae522"
   ],
-  "output_statement_id": "STMT-PURELY-DETERMINED-INDISCERNIBLES-IDENTICAL",
+  "output_statement_id": "bd0a956c-149e-5d7d-9771-b974da72fd3a",
   "rule": "Restriction of the antecedent",
   "meaning": "Identity of real indiscernibles over all beings entails its restriction to beings whose real determinations are all pure. Sole-premise strength registration; the converse fails on the Black-style carrier of PURE-INDISCERNIBILITY-CONTROLS.",
   "assumption_statement_ids": [],

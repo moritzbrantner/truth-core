@@ -1,9 +1,11 @@
 {
-  "id": "INF-COUNT-CAUSE-TIME-POSITIVE-CONTROL",
+  "id": "3b0de67c-ab32-5335-a9fa-ef825bbef7a3",
+  "label": "On the EXACT unchanged CountTemporalControls.history, import the…, by Count-cause-time-inference",
+  "legacy_id": "INF-COUNT-CAUSE-TIME-POSITIVE-CONTROL",
   "input_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-COUNT-CAUSE-TIME-POSITIVE-CONTROL",
+  "output_statement_id": "0d2539e2-340b-5108-9010-298db2f8985c",
   "rule": "count-cause-time-inference",
   "meaning": "On the EXACT unchanged CountTemporalControls.history, import the existing old PositiveControl and project its old six-input bundle to all five new inputs. Retain its necessary none cause, five distinct contingent targets and actual contingent some0; verify the additional count-one marker for none. Apply the new theorem to obtain the same-concrete-cause endpoint. No new carrier, history, causal field or metaphysical possibility is introduced. CauseCount remains a fixture marker, not Ontic.Causes; the old ordinary cause relation stays empty. This is joint compatibility, not philosophical adequacy or premise truth.",
   "assumption_statement_ids": [],

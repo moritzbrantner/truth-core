@@ -1,7 +1,9 @@
 {
-  "id": "INF-RESURRECTION-CATHOLIC-CONSISTENT",
+  "id": "ba750fb5-1a3a-5152-a20f-d7a8b4a0633a",
+  "label": "The limited Catholic pilot bundle is jointly satisfiable with E0–E5, by Constructive-model",
+  "legacy_id": "INF-RESURRECTION-CATHOLIC-CONSISTENT",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-RESURRECTION-CATHOLIC-CONSISTENT",
+  "output_statement_id": "50cc9c00-f586-5cd3-af54-40657e4ad87d",
   "rule": "constructive-model",
   "meaning": "Exhibit model and check every conjunct of the advertised limited theory bundle.",
   "assumption_statement_ids": [],

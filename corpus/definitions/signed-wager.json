@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SIGNED-WAGER",
+  "id": "2abb061e-1a0e-5d69-a19e-a017cc0fa7e1",
+  "label": "Guarded signed infinite-reward\u2026: Mathlib EReal represents signed real finite costs and\u2026",
+  "legacy_id": "DEF-SIGNED-WAGER",
   "term": "guarded signed infinite-reward expectation",
   "definition": "Mathlib EReal represents signed real finite costs and positive/negative infinity. Partial add returns none for either ordering of opposing infinities. expectation p u v weights outcomes by real p and 1-p. Probability means 0 \u2264 p \u2264 1. single uses independent success probability p*q; many uses p*q+(1-p)*(1-q) for incompatible reward policies. All unsuccessful cases have signed finite utility c. Maximizes compares defined expectations among feasible behavioral lotteries only.",
   "basis": "stipulative",

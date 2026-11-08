@@ -1,6 +1,8 @@
 {
-  "id": "OCCASIONALIST-CANDIDATE-ENVELOPE-TO-ACTUAL-COUNTERTUPLE",
-  "argument_id": "OCCASIONALIST-CANDIDATE-ENVELOPE-TO-ACTUAL-COUNTERTUPLE",
+  "id": "cbe881d3-93c8-5d40-ada9-ce201f97c0a5",
+  "label": "Some actual moved tuple is not in POTENCY_1 in…, from Ash'arite occasionalist rival: things are…",
+  "legacy_id": "OCCASIONALIST-CANDIDATE-ENVELOPE-TO-ACTUAL-COUNTERTUPLE",
+  "argument_id": "7f236407-fab1-5c67-8142-39651fced682",
   "challenge_module": "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.RawCounterProjection.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.RawCounterProjection.Solution",
   "theorem": "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.RawCounterProjection.rawCounterProjection",

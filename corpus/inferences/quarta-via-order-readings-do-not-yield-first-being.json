@@ -1,7 +1,9 @@
 {
-  "id": "INF-QUARTA-VIA-ORDER-READINGS-DO-NOT-YIELD-FIRST-BEING",
+  "id": "8c93e3bb-64f5-54ef-8399-78611c2e9218",
+  "label": "Formal fact: a homogeneous scale of being, an order of being by approach to a…, by Countermodel",
+  "legacy_id": "INF-QUARTA-VIA-ORDER-READINGS-DO-NOT-YIELD-FIRST-BEING",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-ORDER-READINGS-DO-NOT-YIELD-FIRST-BEING",
+  "output_statement_id": "fc556abf-c949-53fa-9184-c9eccf910223",
   "rule": "countermodel",
   "meaning": "Two beings on Mathlib's order of Bool, at once a homogeneous scale and an order by approach to true with strict primacy; false is a creature; each causes the other's being and is simply prior to it. All listed premises hold, but false is simply prior to the maximum true.",
   "assumption_statement_ids": [],

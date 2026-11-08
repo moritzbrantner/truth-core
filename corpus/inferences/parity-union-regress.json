@@ -1,7 +1,9 @@
 {
-  "id": "INF-PARITY-UNION-REGRESS",
+  "id": "bb8d43ad-e420-54a7-ba51-ffad87eceb25",
+  "label": "In the explicit Bool-world/Nat-being parity model, every individual exists and is…, by Direct-proof",
+  "legacy_id": "INF-PARITY-UNION-REGRESS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-PARITY-UNION-REGRESS",
+  "output_statement_id": "baec496c-6605-5eaa-aff2-f251a81b2a39",
   "rule": "direct-proof",
   "meaning": "In the explicit Bool-world/Nat-being parity model, every individual exists and is de re necessary; there is an actual necessary being, actual reflexivity and no contingent ground of a necessary being. Each local support relation has no two-edge path and is well-founded. The necessary-support union is exactly g = n + 1: it has no nonempty finite cycle but is not well-founded. No individual is necessarily underived. This closed mathematical control does not establish metaphysical possibility or a root premise.",
   "assumption_statement_ids": [],

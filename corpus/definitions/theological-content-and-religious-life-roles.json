@@ -1,5 +1,7 @@
 {
-  "id": "DEF-THEOLOGICAL-CONTENT-AND-RELIGIOUS-LIFE-ROLES",
+  "id": "7cc5b0f1-7c74-54d8-b1e6-7645912864a3",
+  "label": "THEOLOGICAL_FORMULATION_1…: RoleProfile distinguishes theological content and a role in first-order…",
+  "legacy_id": "DEF-THEOLOGICAL-CONTENT-AND-RELIGIOUS-LIFE-ROLES",
   "term": "theological formulation, religious-life role and normative grammar",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Alternatives.ConciliarGrammarDefinitions.RoleProfile",

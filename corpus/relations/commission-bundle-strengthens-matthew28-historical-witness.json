@@ -1,10 +1,12 @@
 {
-  "id": "REL-COMMISSION-BUNDLE-STRENGTHENS-MATTHEW28-HISTORICAL-WITNESS",
+  "id": "095fedca-bc4c-59a0-899f-d4461275e1ca",
+  "label": "Report-to-event premise: the commission… strengthens The substance of the Matthew 28…",
+  "legacy_id": "REL-COMMISSION-BUNDLE-STRENGTHENS-MATTHEW28-HISTORICAL-WITNESS",
   "subject_kind": "statement",
-  "subject_id": "STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS",
+  "subject_id": "da573220-03c0-5361-a1d7-e117e78e2b77",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-MATTHEW28-COMMISSION-GOES-BACK-TO-JESUS",
-  "verification_result_id": "COMMISSION-REPORT-BUNDLE-SUPPLIES-MATTHEW28",
+  "object_id": "5baad26f-0b3b-5a00-ab0d-a4bb89fed1fa",
+  "verification_result_id": "bada91b4-2461-55c9-a03c-626ab45a80b9",
   "note": "Project the actual Matthew 28 commission from the stronger historical bundle. The original narrow-table route still needs one of the four additional governing reports."
 }

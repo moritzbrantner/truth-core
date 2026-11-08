@@ -1,18 +1,20 @@
 {
-  "id": "STMT-EXISTENCE-INGREDIENT-AT",
+  "id": "996d8cb2-434a-5b8a-a110-9c78a416f6bd",
+  "label": "For every admitted g whose effect is positive b, some member f of the full record satisfies…",
+  "legacy_id": "STMT-EXISTENCE-INGREDIENT-AT",
   "lean_declaration": "TruthCore.Explanation.ExistenceIngredient.IngredientAt",
   "paraphrase": "For every admitted g whose effect is positive b, some member f of the full record satisfies ExistenceRelated. Nonexistential members may remain. The chosen member alone need not ground the target, be indispensable, be true or be autonomous.",
   "definition_ids": [
-    "DEF-EXISTENCE-INGREDIENT-FACT-LABELS",
-    "DEF-MIXED-FACT-GROUND-RECORDS",
-    "DEF-EXISTENCE-INGREDIENT-AT",
-    "DEF-AUTONOMOUS-EXISTENCE-INGREDIENT",
-    "DEF-MIXED-EXISTENCE-INGREDIENT-CERTIFICATE",
-    "DEF-JOINT-CAUSAL-GROUPS",
-    "DEF-PSR-EXISTENCE-FACT",
-    "DEF-POSITIVE-OR-ESSENTIAL-EXISTENCE-FACT"
+    "e21a82a2-5129-554c-947e-597f22a567ab",
+    "b46db868-0f46-5a62-87b7-b4c9fd555965",
+    "b1c09de2-03da-5b1f-bd2f-4bdf6d130417",
+    "856ec6b4-90e6-5485-ad15-6045a03dc635",
+    "57b8207e-2c26-58e6-8f96-f2d0eafba8a5",
+    "ff8bf1d7-0bf9-5dda-8038-7127e3d46ec8",
+    "fcb346d7-ddd2-50bb-a7c2-3d79d41b8eae",
+    "56cc187b-3051-512f-83b9-549fab0049c4"
   ],
   "disambiguation_ids": [
-    "DISAMB-MIXED-FACT-GROUND-VS-CAUSAL-RECORD"
+    "6bfbf069-4e30-59c5-a265-fa87d4463b33"
   ]
 }

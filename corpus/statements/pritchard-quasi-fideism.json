@@ -1,10 +1,12 @@
 {
-  "id": "STMT-PRITCHARD-QUASI-FIDEISM",
+  "id": "943eea12-1d82-5d4b-9853-07f6ca06069a",
+  "label": "Pritchard's quasi-fideism, from Über Gewißheit: all belief depends for its rational assessment on…",
+  "legacy_id": "STMT-PRITCHARD-QUASI-FIDEISM",
   "paraphrase": "Pritchard's quasi-fideism (as reported), from Über Gewißheit: all belief depends for its rational assessment on hinge commitments that are not themselves rationally grounded and are not beliefs; religious belief is no different in kind, so a life of faith can include rational religious beliefs.",
   "definition_ids": [
-    "DEF-HINGE-ARATIONAL-COMMITMENT"
+    "5f5498c4-efbb-563f-b8fc-efe4da14f0c0"
   ],
   "disambiguation_ids": [
-    "DISAMB-HINGE-STATUS"
+    "988283f3-1e54-5296-aa5e-9726e52987ab"
   ]
 }

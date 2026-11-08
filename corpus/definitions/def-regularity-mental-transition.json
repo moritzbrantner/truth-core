@@ -1,5 +1,7 @@
 {
-  "id": "DEF-REGULARITY-MENTAL-TRANSITION",
+  "id": "4022af6e-4901-545f-9ac7-f062fb154fdc",
+  "label": "Hume second causal definition…: MentalCause requires succession and an appearance-to-thought…",
+  "legacy_id": "DEF-REGULARITY-MENTAL-TRANSITION",
   "term": "Hume second causal definition: customary mental transition",
   "definition": "MentalCause(a,b) requires succession and an appearance-to-thought transition. The transition parameter represents the customary psychological relation of VII.29, not a counterfactual, metaphysical necessity, or a proof of rational warrant.",
   "basis": "stipulative",

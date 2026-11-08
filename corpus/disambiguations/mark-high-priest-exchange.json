@@ -1,10 +1,12 @@
 {
-  "id": "DISAMB-MARK-HIGH-PRIEST-EXCHANGE",
+  "id": "8b04cc50-4ae8-5eed-93e8-5e1d76c76b85",
+  "label": "Reported messianic exaltation, divine authority and divine identity",
+  "legacy_id": "DISAMB-MARK-HIGH-PRIEST-EXCHANGE",
   "term": "reported messianic exaltation, divine authority and divine identity",
   "sense_definition_ids": [
-    "DEF-MARK-HIGH-PRIEST-EXCHANGE",
-    "DEF-MARK-FORGIVENESS-AUTHORITY-REPORT",
-    "DEF-SKELETON-OPEN-PREDICATES"
+    "00c88ade-17c0-52b7-ab17-858319d4ab41",
+    "9c870b2c-9426-5519-831b-00c4658b116f",
+    "ac767549-28c0-5a1a-813d-ee208a664d08"
   ],
   "resolution": "The Mark 14 statements concern textual speech attribution; the pilot JesusClaims and case signature concern an actual claim of divine authority. Messiah/Son of the Blessed, Son-of-Man exaltation and coming, delegated agency, and identity with God are distinct. The high priest’s blasphemy charge is a character’s judgment, not the narrator’s theological rule. Reuse of the Son-of-Man title token from Mark 2 does not assert cross-passage referential identity. The stronger divine-prerogative and delegated messianic readings, and narrative-development account, are preserved separately in docs/mark-high-priest-answer.md; no inference from report to actual authority, divinity or history is licensed."
 }

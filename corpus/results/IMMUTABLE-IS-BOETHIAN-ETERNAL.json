@@ -1,6 +1,8 @@
 {
-  "id": "IMMUTABLE-IS-BOETHIAN-ETERNAL",
-  "argument_id": "IMMUTABLE-IS-BOETHIAN-ETERNAL",
+  "id": "67ec5e84-46ca-5364-a860-e83ab36edeae",
+  "label": "Whatever is in POTENCY_1 in no respect…, from Whatever is changed in any way is in some… and 2 more",
+  "legacy_id": "IMMUTABLE-IS-BOETHIAN-ETERNAL",
+  "argument_id": "7cae15fe-4326-5572-9265-fa6a46588d73",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.ImmutableIsBoethianEternal.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.ImmutableIsBoethianEternal.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.ImmutableIsBoethianEternal.immutableIsBoethianEternal",

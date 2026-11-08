@@ -1,18 +1,20 @@
 {
-  "id": "ATTEMPT-MECHANISM-INTERVENTION-PARITY-20261104",
+  "id": "d76329ef-ca76-5cf5-bc61-6063380118b6",
+  "label": "Constructed a bounded three-way mechanism contrast after #974: active AND with two input-state…",
+  "legacy_id": "ATTEMPT-MECHANISM-INTERVENTION-PARITY-20261104",
   "date": "2026-11-04",
   "statement_ids": [
-    "STMT-MECHANISM-INTERVENTION-PARITY",
-    "STMT-COMPLETE-RESPONSE-PARITY",
-    "STMT-ULTIMATE-ADEQUACY-COMPARISON"
+    "268243ba-d944-5863-a4e7-b46145877179",
+    "e786c1ed-75b5-558a-8a91-64b2b54f4a56",
+    "1bafc4b5-3163-5caf-84ac-c90e5a60d55d"
   ],
   "kind": "countermodel",
   "outcome": "succeeded",
   "summary": "Constructed a bounded three-way mechanism contrast after #974: active AND with two input-state slots, the identical active AND with one pair-valued slot, and an idle background lookup. All three match at neutral settings. Reused Hume's existing Changes predicate: with the other input held true, an ideal override changes the first two targets but not the idle target; the active models coincide for every public override. The packing bijection and a simple four-pair capacity test reveal why one graph slot can hide two degrees of freedom while one Boolean bit cannot. RootParity is reused from #974. These are explicit model definitions and proofs subject to hosted Lean/comparator verification; neither causal efficacy in reality nor ultimate metaphysical unity is supplied. Follow-up COUNTERPOSSIBLE-CONSERVATIVITY retains the no-latent-source-intervention boundary and interprets only PUBLIC contributor a off in explicitly separate repair contexts, comparing conservative conditional evaluations; see docs/notes/counterpossible-conservativity.md. It does not establish source-nonexistence or actual counterpossible truth.",
   "blocker": "Philosophical bridge OPEN: show, using independently motivated evidence and admissible interventions or another defensible notion of production, why one-source ontic unity rather than two independently packaged state bits would explain a joint effect. No root premise discharged; neither #735 adequacy nor #752 productive indispensability alone resolves the source-count question.",
   "evidence": [
-    "MECHANISM-INTERVENTION-PARITY",
-    "COMPLETE-RESPONSE-PARITY",
-    "COUNTERPOSSIBLE-CONSERVATIVITY"
+    "2669c320-e635-57a8-ba8b-fa6ac6e99829",
+    "02048060-b774-58e9-861b-646b6c08d708",
+    "d8355360-6ecc-5c8e-8a53-47a99f32e5d7"
   ]
 }

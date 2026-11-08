@@ -1,12 +1,14 @@
 {
-  "id": "STMT-PARTICIPATED-HAS-EXTERNAL-ESSE-CAUSE",
+  "id": "7561e216-900f-53f1-9e22-d74427758cd6",
+  "label": "Becoming being-CAUSE_2: whatever has being by participation has another, actually existing being…",
+  "legacy_id": "STMT-PARTICIPATED-HAS-EXTERNAL-ESSE-CAUSE",
   "paraphrase": "BECOMING-BEING-CAUSE_2 (attribution deferred): whatever has being by participation has another, actually existing being that efficiently causes its esse (the q.3 a.4 external cause of esse).",
   "lean_declaration": "TruthCore.Causality.TermSenseForks.ParticipatedHasExternalEsseCause",
   "definition_ids": [
-    "DEF-EXTERNAL-CAUSE-OF-ESSE",
-    "DEF-PARTICIPATED-ESSE"
+    "196be87e-b944-5924-b791-87406fbe48f6",
+    "14d30c53-51c2-502d-b009-247dac0421e0"
   ],
   "disambiguation_ids": [
-    "DISAMB-BECOMING-BEING-CAUSE"
+    "c3c01e92-520e-5358-a58f-0cc7e9c9e6fa"
   ]
 }

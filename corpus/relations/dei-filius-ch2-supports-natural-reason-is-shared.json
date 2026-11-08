@@ -1,9 +1,11 @@
 {
-  "id": "REL-DEI-FILIUS-CH2-SUPPORTS-NATURAL-REASON-IS-SHARED",
+  "id": "7a220c97-e388-5d76-8bdb-7509562823b3",
+  "label": "First Vatican Council, Dei Filius Ch. 2…… supports A move that affirms that God can be known…",
+  "legacy_id": "REL-DEI-FILIUS-CH2-SUPPORTS-NATURAL-REASON-IS-SHARED",
   "subject_kind": "claim",
-  "subject_id": "VATICAN-I-DEI-FILIUS-CH2-NATURAL-KNOWABILITY",
+  "subject_id": "be04b2ea-f9a7-5a6b-a3f3-5508efa585de",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-NATURAL-REASON-IS-SHARED-REASON",
+  "object_id": "c87ffcb8-9a44-5e02-a68b-13d0282ae930",
   "note": "Ch. 2 sets knowledge of God 'naturali humanae rationis lumine e rebus creatis' against revelation by 'another, supernatural way', so the natural light is the reason that does not depend on revelation. It does not say that this reason is the one shared with non-believers or that the move's correctness answers to standards outsiders accept; that identification is the reading step of the premise (DISAMB-NATURAL-REASON)."
 }

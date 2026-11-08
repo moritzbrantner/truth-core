@@ -1,5 +1,7 @@
 {
-  "id": "DEF-EXISTING-SPACETIME-COMPONENT-COMPOSITE-BRIDGE",
+  "id": "bcdff4ce-baf7-5142-a56a-6d03c075da77",
+  "label": "Existing component makes the spacetime\u2026: ExistingComponentsMakeWholeComposite o F ComponentOf\u2026",
+  "legacy_id": "DEF-EXISTING-SPACETIME-COMPONENT-COMPOSITE-BRIDGE",
   "term": "existing component makes the spacetime whole composite",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Ontology.NaturalismContrasts.ExistingComponentsMakeWholeComposite",

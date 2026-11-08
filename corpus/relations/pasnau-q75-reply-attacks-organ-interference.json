@@ -1,9 +1,11 @@
 {
-  "id": "REL-PASNAU-Q75-REPLY-ATTACKS-ORGAN-INTERFERENCE",
+  "id": "4d174068-4150-5df6-8810-b70d3ea289b5",
+  "label": "Robert Pasnau, Philosophy of Mind and… attacks If the designated intellectual operation…",
+  "legacy_id": "REL-PASNAU-Q75-REPLY-ATTACKS-ORGAN-INTERFERENCE",
   "subject_kind": "claim",
-  "subject_id": "PASNAU-Q75-COGNITIVE-PLASTICITY-REPLY",
+  "subject_id": "3be739eb-2606-5418-92f9-d4855799acb9",
   "predicate": "attacks",
   "object_kind": "statement",
-  "object_id": "STMT-ORGAN-BODILY-NATURE-BLOCKS-UNIVERSAL-COGNITION",
+  "object_id": "5a8deceb-0289-5606-8046-c81bce1bed37",
   "note": "The already materialized p.355 criticism explicitly addresses both the intrinsic-nature and bodily-organ premises (2a, 2b). Taste and sight analogies do not establish that reliance on a brain would restrict intellectual scope. This attacks support for the premise; it does not refute the conditional inference or declare an affirmative physicalist theory established."
 }

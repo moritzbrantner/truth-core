@@ -1,9 +1,11 @@
 {
-  "id": "INF-COLLECTIVE-POSSIBILITY-COUNTERCASE-FORK",
+  "id": "07672192-19e5-5d6f-92b5-445cf5bbcf55",
+  "label": "For every supplied presence/possibility profile, the original collective…, by Constructive-proof",
+  "legacy_id": "INF-COLLECTIVE-POSSIBILITY-COUNTERCASE-FORK",
   "input_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-COLLECTIVE-POSSIBILITY-OR-PRECISE-COUNTERCASE",
+  "output_statement_id": "d32f03f4-82db-5843-8f7d-7f5cd5147782",
   "rule": "constructive-proof",
   "meaning": "Checked structural coverage under explicit excluded middle: collective conditional or its precise semantic countercase. No completeness of a named historical roster is inferred.",
   "assumption_statement_ids": [],

@@ -1,23 +1,25 @@
 {
-  "id": "NO-SELF-MOTION-SAME-RESPECT-IN-ACT-2",
+  "id": "8653b123-7f78-5f17-8c5b-40cd97c6281f",
+  "label": "Nothing that is being moved in a…, from Nothing is moved except insofar as it is in… and 2 more (2)",
+  "legacy_id": "NO-SELF-MOTION-SAME-RESPECT-IN-ACT-2",
   "premise_statement_ids": [
-    "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
-    "STMT-MOVES-ONLY-AS-VIRTUALLY-IN-ACT",
-    "STMT-NOTHING-VIRTUALLY-IN-ACT-AND-IN-POTENCY"
+    "4be9a4ac-699a-5adc-88d4-bbd958fa1576",
+    "d4a26175-a984-5c19-85f1-b6aadbf095fe",
+    "17ec77f3-3943-5d12-b94a-e93a3e26fc45"
   ],
-  "conclusion_statement_id": "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT",
+  "conclusion_statement_id": "079b53bf-a222-5dfc-b8df-7419f9e98030",
   "inference_ids": [
-    "INF-NO-SELF-MOTION-SAME-RESPECT-IN-ACT-2"
+    "cfec50b6-7a8e-5471-be8c-ca00a0a3057b"
   ],
   "meaning": "Per-sense argument, IN-ACT_2 (virtual act): both act premises read virtually give no self-motion in the same respect. The virtual mover premise avoids the counterexamples of causes that produce what they do not formally have; the virtual non-simultaneity premise carries the burden.",
   "definition_ids": [
-    "DEF-IN-ACT-VIRTUALLY",
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-POTENCY",
-    "DEF-RESPECT"
+    "f7833666-c764-5624-a766-708949d9feee",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-IN-ACT",
-    "DISAMB-MOTION"
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
   ]
 }

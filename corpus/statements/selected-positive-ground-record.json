@@ -1,23 +1,25 @@
 {
-  "id": "STMT-SELECTED-POSITIVE-GROUND-RECORD",
+  "id": "eae50d59-54c2-5945-9232-030178399a6c",
+  "label": "The explicitly selected Groups record g is admitted AND its effect equals the existing positive b…",
+  "legacy_id": "STMT-SELECTED-POSITIVE-GROUND-RECORD",
   "lean_declaration": "TruthCore.Explanation.JointGroundEffectContingency.SelectedPositiveGround",
   "paraphrase": "The explicitly selected Groups record g is admitted AND its effect equals the existing positive b fact label. Both guards are retained in this transparent conjunction. Admission and label identity assert no truth, actuality of a bearer, adequate grounding, sufficiency, exercise, autonomy, distinctness or necessitation.",
   "definition_ids": [
-    "DEF-SELECTED-POSITIVE-GROUND-RECORD",
-    "DEF-WHOLE-GROUND-NECESSITATION-AT",
-    "DEF-MIXED-FACT-GROUND-RECORDS",
-    "DEF-EXISTENCE-INGREDIENT-FACT-LABELS",
-    "DEF-JOINT-MODAL-CONDITION",
-    "DEF-JOINT-CONTINGENT-MEMBER",
-    "DEF-PSR-STRENGTH-ARENA",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-MODAL-CONTINGENCY"
+    "b09eb66f-4165-53ed-b463-54f7df28287d",
+    "6704e44d-bbf9-5943-96d5-2224a0008296",
+    "b46db868-0f46-5a62-87b7-b4c9fd555965",
+    "e21a82a2-5129-554c-947e-597f22a567ab",
+    "f9233ceb-48d4-5fdb-b02e-14d5f34b7cca",
+    "af853242-ad66-5512-8ae4-6db09eb82a5b",
+    "fe4b7da0-cbd6-5d1f-b589-953f9def12b7",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d"
   ],
   "disambiguation_ids": [
-    "DISAMB-MIXED-FACT-GROUND-VS-CAUSAL-RECORD",
-    "DISAMB-JOINT-CONDITION-VS-NECESSARY-BEING",
-    "DISAMB-PSR-REASON-NECESSITATING",
-    "DISAMB-PSR-EXPLANATION-CAUSE"
+    "6bfbf069-4e30-59c5-a265-fa87d4463b33",
+    "88cf7f3c-6da7-57aa-8b8a-b9a6c0f836c0",
+    "f9e260b1-c206-5d41-a054-fac13cf68e67",
+    "f7bae38e-9b21-54fe-8236-2646c230568b"
   ]
 }

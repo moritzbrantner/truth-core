@@ -1,17 +1,19 @@
 {
-  "id": "CC100-124-LITERAL-UNIVERSAL-KNOWLEDGE",
-  "statement_id": "STMT-CC100-124-LITERAL-UNIVERSAL-KNOWLEDGE",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "e695700d-0243-558b-87b8-77b031676924",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: If every true proposition is possibly known by…",
+  "legacy_id": "CC100-124-LITERAL-UNIVERSAL-KNOWLEDGE",
+  "statement_id": "84d08916-075c-5017-9109-fc00d4b58bce",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.272–291: p.290, argument #124 Knowability: Fitch-Style Proof, step 2, literal unguarded consequent reading",
   "interpretation": "The displayed consequent literally quantifies over every proposition without repeating if-p. Preserve that omission as a reading, including possible false propositions; do not silently add a truth guard or certify a factive consistent interpretation. This conditional is source-attributed OPEN, not a Fitch proof or a refutation. Attribution is to McIntosh’s presentation only, not the unread Bigelow2005 article referenced on p291. No formal proof or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-124-KNOWABILITY-KNOWER",
-    "DEF-CC100-124-LITERAL-SCOPE"
+    "baca53c3-3a52-559d-989f-78fb8400824f",
+    "e27a6a4e-7a61-5ae2-8ef5-b94213a8c612"
   ],
   "disambiguation_ids": [
-    "DISAMB-CC100-124-TRUTH-COMMON-KNOWER",
-    "DISAMB-REASON-EPISTEMIC-ONTIC",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "6cee2bde-0599-53c0-a41a-39220144f3ca",
+    "a61d3807-50e9-595e-9011-9123fd606a4b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

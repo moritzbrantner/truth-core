@@ -1,10 +1,12 @@
 {
-  "id": "DEF-NATURAL-REASON-SHARED",
+  "id": "11d72af9-f562-5ef0-934e-556e0a6dcb83",
+  "label": "Natural light of human reason: P.AnswersToSharedReason m: the correctness of m answers to…",
+  "legacy_id": "DEF-NATURAL-REASON-SHARED",
   "term": "natural light of human reason (shared sense)",
   "definition": "`P.AnswersToSharedReason m`: the correctness of m answers to standards of reason shared with those outside the practice, available without the practice's revelation or authority. This is the sense in which STMT-NATURAL-REASON-IS-SHARED-REASON reads Dei Filius's 'naturali humanae rationis lumine', set against revelation 'alia, eaque supernaturali via'.",
   "basis": "stipulative",
   "claim_ids": [
-    "VATICAN-I-DEI-FILIUS-CH2-NATURAL-KNOWABILITY"
+    "be04b2ea-f9a7-5a6b-a3f3-5508efa585de"
   ],
   "lean_declaration": "TruthCore.Alternatives.Fideism.Practice.AnswersToSharedReason",
   "note": "Stipulated reading of the council's phrase; the text supports it by the contrast with the supernatural way but does not define the phrase. DISAMB-NATURAL-REASON records the rival practice-internal sense."

@@ -1,6 +1,8 @@
 {
-  "id": "WITTGENSTEIN-UNIVERSAL-DOUBT-FAILS",
-  "argument_id": "WITTGENSTEIN-UNIVERSAL-DOUBT-FAILS",
+  "id": "2b293d68-46e0-5e79-a37f-0cb416639a50",
+  "label": "Universal doubt does not hold: whoever wanted to…, from Über Gewißheit §341: whenever something is…",
+  "legacy_id": "WITTGENSTEIN-UNIVERSAL-DOUBT-FAILS",
+  "argument_id": "13f3a07e-9e3b-57dc-826e-e628b705c993",
   "challenge_module": "TruthCore.Results.Wittgenstein.DoubtPresupposesCertainty.Challenge",
   "solution_module": "TruthCore.Results.Wittgenstein.DoubtPresupposesCertainty.Solution",
   "theorem": "TruthCore.Results.Wittgenstein.DoubtPresupposesCertainty.universalDoubtFails",

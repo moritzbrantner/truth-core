@@ -1,15 +1,17 @@
 {
-  "id": "MCTAGGART-1908-CIRCULAR-INDEXING-OBJECTION",
-  "statement_id": "STMT-MCTAGGART-CIRCULAR-INDEXING-OBJECTION",
-  "source_id": "MCTAGGART-UNREALITY-OF-TIME",
+  "id": "de394d14-7986-54d7-8fa5-0c07538db87c",
+  "label": "J. M. E. McTaggart, The Unreality of Time…: McTaggart objects that explaining successive A…",
+  "legacy_id": "MCTAGGART-1908-CIRCULAR-INDEXING-OBJECTION",
+  "statement_id": "59f26ecf-f77b-53cc-8ee6-251a69dd0c9c",
+  "source_id": "2f0db41b-6ac4-5df9-be14-4c5eee8731a8",
   "locator": "The Unreality of Time, paragraphs beginning 'But this explanation involves a vicious circle' and 'What we have done is this'",
   "interpretation": "An attributed explanatory objection conditional on his time-requires-A analysis, not a checked inference from the existence of a temporal index to unreality. A respondent may contest that analysis or the proposed explanatory dependence. No general ban on every primitive concept or recursive semantics is stated. Source reading in prose only; no new Lean declaration or result.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-MCTAGGART-A-B-DETERMINATIONS",
-    "DEF-MCTAGGART-RECURRENT-CONTRADICTION"
+    "34386d0f-ca2c-5645-a45b-fc0b43bade79",
+    "350dfa15-f6b3-542d-b411-89f3a03e3581"
   ],
   "disambiguation_ids": [
-    "DISAMB-MCTAGGART-TEMPORAL-INDEX-REGRESS"
+    "7ac133b4-4dc6-560d-9a62-498dad9b64a4"
   ]
 }

@@ -1,10 +1,12 @@
 {
-  "id": "DISAMB-A1-TYPED-EXTERNALITY",
+  "id": "5d9c2ff8-19a5-5525-97fe-621183137fcc",
+  "label": "External whole cause versus outside-contingents candidate",
+  "legacy_id": "DISAMB-A1-TYPED-EXTERNALITY",
   "term": "external whole cause versus outside-contingents candidate",
   "sense_definition_ids": [
-    "DEF-A1-EXTERNAL-WHOLE-CAUSE",
-    "DEF-CONTINGENCY-TOTALITY-EXTERNAL-CANDIDATE",
-    "DEF-NB-SURVEY-EXTERNAL-CAUSE"
+    "620840ba-d818-53f4-8309-0f0237ddfaee",
+    "cc57aee5-58b7-531d-bcd6-60105efe5c79",
+    "e6d66357-8f22-5a2c-bd96-6ccc68ce0063"
   ],
   "resolution": "The typed whole-cause premise asserts an actual concrete source outside the supplied whole’s parts with Causes at the selected world. The older external candidate excludes all contingent concreta without asserting causation. Coverage connects these scopes; it does not equate their definitions. The survey’s source term also excludes whole and parts but is not automatically the same modal/concrete/causal interpretation. The theorem’s singleton restriction changes only an auxiliary concrete predicate, not the original witness, existence, causal relation or frame; the final witness satisfies the original concrete predicate."
 }

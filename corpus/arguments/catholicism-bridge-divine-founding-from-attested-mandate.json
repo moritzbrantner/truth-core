@@ -1,25 +1,27 @@
 {
-  "id": "CATHOLICISM-BRIDGE-DIVINE-FOUNDING-FROM-ATTESTED-MANDATE",
+  "id": "dc4bc511-0249-5a6e-8667-9ed57c05bc97",
+  "label": "Bridge premise: for any GOD_4 with the classical attributes who can reveal…, from attested mandate",
+  "legacy_id": "CATHOLICISM-BRIDGE-DIVINE-FOUNDING-FROM-ATTESTED-MANDATE",
   "premise_statement_ids": [
-    "STMT-RESURRECTION-CONFIRMS-JESUS-MANDATE",
-    "STMT-GOD-CONFIRMS-ONLY-TRUTH",
-    "STMT-MANDATE-COVERS-JESUS-FOUNDING-WITH-TEACHING",
-    "STMT-ENVOY-FOUNDING-IS-GODS-FOUNDING"
+    "3a4c575c-7aa0-5f05-8584-251115adb9aa",
+    "c1deb2ee-770d-5030-9e5c-302e33028811",
+    "b139ab5a-695b-588a-b03d-b89659595ded",
+    "51e4073d-ac0d-57f1-8bb7-53a604172b04"
   ],
-  "conclusion_statement_id": "STMT-BRIDGE-CHRISTS-CHURCH-FOUNDED-BY-GOD",
+  "conclusion_statement_id": "a04f711a-53cc-59c5-902e-86b605fb73b4",
   "inference_ids": [
-    "INF-CATHOLICISM-BRIDGE-DIVINE-FOUNDING-FROM-ATTESTED-MANDATE"
+    "e59b1954-feef-54a5-8780-588b512ba7f3"
   ],
   "meaning": "The bridge STMT-BRIDGE-CHRISTS-CHURCH-FOUNDED-BY-GOD is decomposed into four premises and proved from them; its universal reach over societies is carried by the scope premise: given a God with the classical attributes who can reveal recognizably, Jesus' claim and resurrection, and a visible authoritative society c Jesus founded, the resurrection is that God's confirmation that Jesus holds his mandate (attestation); what God confirms is true, so Jesus holds it (veracity); c was founded in the exercise of that mandate and commissioned to teach (scope); and what Jesus so founds in a God's mandate, that God founded as a teaching authority (envoy founding). Each premise is necessary (omissionModels, with every stage antecedent holding by modelSig_antecedents) and the four are jointly satisfiable with every stage antecedent (jointModel). All four premises are open; the result closes the bridge only relative to them. The decisive premise is the scope premise: whether the attested mandate covers founding an institution with a teaching commission, and whether every society in the bridge's antecedent is the commissioned one.",
   "definition_ids": [
-    "DEF-SKELETON-OPEN-PREDICATES",
-    "DEF-GOD-OF-CLASSICAL-THEISM",
-    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY"
+    "ac767549-28c0-5a1a-813d-ee208a664d08",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "e225d39c-9081-5d1f-80f5-ed121dbb9a30"
   ],
   "disambiguation_ids": [
-    "DISAMB-FOUNDED-BY-GOD"
+    "87582d70-e56a-5e51-9377-84b6655b1b68"
   ],
   "strong_version_needed": {
-    "STMT-MANDATE-COVERS-JESUS-FOUNDING-WITH-TEACHING": "The conclusion ranges over every visible authoritative society Jesus founded. The registered weak sibling keeps both mandate-founding and teaching but only at the Catholic Church. CATHOLICISM-WEAK-MANDATE-SCOPE-DOES-NOT-FORCE-BRIDGE supplies a nonempty model of attestation, veracity, that weak scope and envoy transfer with the universal bridge false at a second founded visible society. The existing CATHOLICISM-MANDATE-SCOPE-FROM-CATHOLIC-CHURCH-FOUNDING already recovers the strong scope from the weak sibling plus stage6 identity on the root graph; that identity is not a premise of this four-input argument. No claim that teaching is removed by weakening is intended. CATHOLIC-AND-DISTINCT-BODY-SCOPE-COUNTERMODEL exports the stronger nonvacuity boundary explicitly: the same God actually mandates Jesus, the Catholic body is actually founded/visible, and a distinct other founded/visible body lacks divine teaching-founding. The weaker existential model alone did not expose these specific body witnesses."
+    "b139ab5a-695b-588a-b03d-b89659595ded": "The conclusion ranges over every visible authoritative society Jesus founded. The registered weak sibling keeps both mandate-founding and teaching but only at the Catholic Church. CATHOLICISM-WEAK-MANDATE-SCOPE-DOES-NOT-FORCE-BRIDGE supplies a nonempty model of attestation, veracity, that weak scope and envoy transfer with the universal bridge false at a second founded visible society. The existing CATHOLICISM-MANDATE-SCOPE-FROM-CATHOLIC-CHURCH-FOUNDING already recovers the strong scope from the weak sibling plus stage6 identity on the root graph; that identity is not a premise of this four-input argument. No claim that teaching is removed by weakening is intended. CATHOLIC-AND-DISTINCT-BODY-SCOPE-COUNTERMODEL exports the stronger nonvacuity boundary explicitly: the same God actually mandates Jesus, the Catholic body is actually founded/visible, and a distinct other founded/visible body lacks divine teaching-founding. The weaker existential model alone did not expose these specific body witnesses."
   }
 }

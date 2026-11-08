@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-189A-SUBSTRATUM-PRIOR-A",
-  "statement_id": "STMT-SUBSTRATUM-PRIOR-TO-CONTRARY-PREDICATES",
-  "source_id": "ARIST-PHYS",
+  "id": "2c4e203e-ed79-526d-a5de-42951c378724",
+  "label": "Aristotle, Physics I.6, 189a27-32: If the contraries are predicated of a substratum, that…",
+  "legacy_id": "ARIST-PHYS-189A-SUBSTRATUM-PRIOR-A",
+  "statement_id": "fb21c2c9-ed38-5ff5-8dcf-71806d98c76f",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.6, 189a27-32",
   "interpretation": "Conditional predication reading: if the contrary attributes are said of an underlying subject, that subject is prior and itself a principle. The formal implication does not generalize this priority to every predicate whatsoever.",
   "status": "formalized"

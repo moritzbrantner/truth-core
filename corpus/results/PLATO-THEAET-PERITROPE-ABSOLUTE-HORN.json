@@ -1,6 +1,8 @@
 {
-  "id": "PLATO-THEAET-PERITROPE-ABSOLUTE-HORN",
-  "argument_id": "PLATO-THEAET-PERITROPE-ABSOLUTE-HORN",
+  "id": "98945d12-ee3b-5c8c-a4c3-70e432a6e604",
+  "label": "The unqualified doctrine fails: not…, from Protagoras asserts the thesis that man is… and 4 more",
+  "legacy_id": "PLATO-THEAET-PERITROPE-ABSOLUTE-HORN",
+  "argument_id": "1efd4259-62be-52b2-958d-2c568485cd14",
   "challenge_module": "TruthCore.Results.Plato.Theaetetus.PeritropeAbsoluteHorn.Challenge",
   "solution_module": "TruthCore.Results.Plato.Theaetetus.PeritropeAbsoluteHorn.Solution",
   "theorem": "TruthCore.Results.Plato.Theaetetus.PeritropeAbsoluteHorn.peritropeAbsoluteHorn",

@@ -1,9 +1,11 @@
 {
-  "id": "REL-DEI-FILIUS-CH4-GENTILES-ATTACKS-NATURAL-REASON-WITHIN-THEOLOGICAL-HORIZON",
+  "id": "8cbe3831-6bb7-5539-9e52-83d823fcf141",
+  "label": "First Vatican Council, Dei Filius Ch. 4…… attacks Fideist reply to the shared-reason bridge…",
+  "legacy_id": "REL-DEI-FILIUS-CH4-GENTILES-ATTACKS-NATURAL-REASON-WITHIN-THEOLOGICAL-HORIZON",
   "subject_kind": "claim",
-  "subject_id": "VATICAN-I-DEI-FILIUS-CH4-TWO-ORDERS-GENTILES",
+  "subject_id": "01840ed6-f4a1-5dd4-93d8-37a9a9348800",
   "predicate": "attacks",
   "object_kind": "statement",
-  "object_id": "STMT-NATURAL-REASON-WITHIN-THEOLOGICAL-HORIZON",
+  "object_id": "9c236646-c801-58c8-b599-4c2c6fe0ee09",
   "note": "Against the reply: the council itself distinguishes natural reason from faith as principles and appeals to the gentiles' knowledge of God. Not a refutation: stated, not established, and the fideist can read the distinction as one drawn inside the theological grammar."
 }

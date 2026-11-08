@@ -1,9 +1,11 @@
 {
-  "id": "INF-GOODNESS-SEMANTIC-NAMED-COVERAGE-FORK",
+  "id": "622bdf61-7697-50ae-b6cb-f57414da654e",
+  "label": "For every fixed profile and definition space, semantic named coverage holds…, by Constructive-proof",
+  "legacy_id": "INF-GOODNESS-SEMANTIC-NAMED-COVERAGE-FORK",
   "input_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-GOODNESS-SEMANTIC-NAMED-COVERAGE-FORK",
+  "output_statement_id": "499e54ff-bd07-54cc-8fb7-30a48d63f5f1",
   "rule": "constructive-proof",
   "meaning": "Apply explicit excluded middle to weak semantic named coverage and to existence of an admissible proposal not coextensive with any named account. This makes the actual extensional coverage gap first-class and does not create a gap from renaming alone.",
   "assumption_statement_ids": [],

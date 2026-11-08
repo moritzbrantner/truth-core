@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-NECESSARY-INDIVIDUAL-EMPTY-WORLD-FORK",
+  "id": "e7bd0871-11c6-598c-b213-e17ff86ef168",
+  "label": "Empty world, rooted history, necessity and causal firstness",
+  "legacy_id": "DISAMB-NECESSARY-INDIVIDUAL-EMPTY-WORLD-FORK",
   "term": "empty world, rooted history, necessity and causal firstness",
   "sense_definition_ids": [
-    "DEF-NECESSARY-INDIVIDUAL-SHARED-ROOT",
-    "DEF-NECESSARY-INDIVIDUAL-ROOTED-CAUSE"
+    "e9084b35-22bb-5ed7-b427-ae72e157cc6c",
+    "6ef56fd2-5ad8-5e8f-bbee-ca019af7b802"
   ],
   "resolution": "The three-world control uses Fin 3 as a nonempty carrier of world labels and, separately, Fin 3 as a roster of individual labels. World 0 has an empty presence extension; it is not an absent world, nor a claim about abstract entities. Presence of root 0 throughout populated accessible histories is the SharedRootOnPopulated relation, not by itself necessity or explanatory priority. The independent rootedEmptyCauses relation is directed inside each populated world and has no two-step chain; modal accessibility is universal and is not a causal edge or succession in time. The historyOnly control retains the populated worlds' exact presence extensions but removes the empty world from its modal domain, switching the model's DeRe truth value. This demonstrates domain sensitivity; it does not justify excluding an empty world metaphysically, and no sourced view is being attributed to Oppy."
 }

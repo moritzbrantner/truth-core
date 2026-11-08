@@ -1,6 +1,8 @@
 {
-  "id": "ACTUAL-COMMON-ROOT-UNIQUENESS",
-  "argument_id": "ACTUAL-COMMON-ROOT-UNIQUENESS",
+  "id": "1cc6015e-43f7-58a2-87ab-e9584456627c",
+  "label": "Some actual concrete root of the selected grounding…, from One actual concrete root at w directly…",
+  "legacy_id": "ACTUAL-COMMON-ROOT-UNIQUENESS",
+  "argument_id": "a161fd71-f467-5191-af63-75c14fd0c87b",
   "challenge_module": "TruthCore.Results.Causality.ActualCommonRoot.Challenge",
   "solution_module": "TruthCore.Results.Causality.ActualCommonRoot.Solution",
   "theorem": "TruthCore.Results.Causality.ActualCommonRoot.uniqueRoot",

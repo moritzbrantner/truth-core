@@ -1,27 +1,29 @@
 {
-  "id": "ATTEMPT-TRUTHMAKER-THEORIES-941",
+  "id": "be60e3e1-a6ee-5399-bd66-7c5565cf7719",
+  "label": "Dedicated bearer MakesTrue semantics retains PSR arena literally and distinguishes…",
+  "legacy_id": "ATTEMPT-TRUTHMAKER-THEORIES-941",
   "date": "2026-11-05",
   "kind": "derivation",
   "outcome": "succeeded",
   "statement_ids": [
-    "STMT-DISJUNCTION-GROUND-MAP",
-    "STMT-TRUTHMAKER-THEORY-MAP",
-    "STMT-TRUTHMAKER-NEGATIVE-TRUTH-MAP",
-    "STMT-TRUTHMAKER-RESTRICTED-SEPARATION",
-    "STMT-TRUTHMAKER-TRUTHSET-NONUNIFORMITY",
-    "STMT-EVERY-TRUTH-HAS-A-TRUTHMAKER",
-    "STMT-TRUTHMAKING-GUARDED-NECESSITATION",
-    "STMT-NEGATIVE-EXISTENTIAL-TRUTHS-LACK-TRUTHMAKERS",
-    "STMT-ONLY-MERE-EXISTENCE-TRUTHS-MUST-HAVE-TRUTHMAKERS"
+    "11b2c04e-5e62-59ac-9d1e-5afba6938e75",
+    "791bee74-d4a6-5316-9f08-2fad5c08019b",
+    "0f38a9c3-2246-57cf-b872-1a0b7411b36e",
+    "c126fe80-e0f6-5ce4-ab3a-4d2c504564ef",
+    "e253ee8b-a65c-5509-9fc7-d796787f7f99",
+    "dfa37ec3-8020-53ba-8a82-993d6d9cadc9",
+    "d6976e18-68ab-5ceb-87e7-25089741d4e4",
+    "ba23ae53-e5d3-59bb-8566-f37785f52c51",
+    "9a753edd-e0c7-5878-8660-926c6ec1255f"
   ],
   "summary": "Dedicated bearer MakesTrue semantics retains PSR arena literally and distinguishes world-immanence, truth soundness, maker necessitation, coverage scope and fixed identity. Finite fragment controls plus full Bool-to-Prop truth-set countermodel block coverage/necessitation to uniform-maker shift. Restricted separation and negative-empty domain core with omissions and abstract-present concrete-empty control are encoded. Existing DisjunctionGround truthmakers_facts/fixedBearer_facts/lawGround_facts reused, not restated premises. Merricks author précis read in full after byte-verified materialization; both maker and proposition existence retained in guarded source claim; all-world and rigid-fact configurations analyst-stipulated. Rejected: identifying all truthmaking with bare explains; identifying free semantics with all makers absent; identifying per-individual labels with Merricks’s whole mere-existence class; attributing maximalism to him as endorsement. One frozen map conjunct parsed as a weaker existential negation; original frozen target retained and separately frozen RestrictedSeparation proves intended strong noncoverage. No frozen Challenge edited. See docs/notes/disjunction-ground-485.md for full scope, source locators, source-fidelity judgments and remaining burdens. Local builds pass; formal Comparator/NanoDa gates recorded in PR before publication. All four canonical Solutions build without warnings; scoped binding4/0; each Comparator/NanoDa and zero-axiom audit PASS (/tmp/truth941-formal.log). Wayback20240413232124 bytes/text match author PDF, checked twice. Complete source materialization and attribution4claims PASS. Corpus/source manifests, bundle/module and generated checks PASS. Bound service corpus query is development/context evidence; proof editing used authorized CLI because preview predates required DisjunctionGround imports. Shared convention sourceRevision625cb04ca568aebc8d45c90033e107a05e9bd2a0. Computed frontier unchanged90 open and cheapest31. Commit-based scoped live source verify PASS: exactly1newprimary PDF passage, author+matching Wayback witness, unchanged witnesses offline only. Fresh main79d81489 merged; no proof dependency change.",
   "blocker": "Truthmaker applicability, aboutness/relevance, full eligible-entity domain and uniformity remain OPEN. No root premise independently closed. Source précis reports book conclusions; book argument itself not read.",
   "evidence": [
-    "DISJUNCTION-GROUND-MAP",
-    "TRUTHMAKER-THEORY-MAP",
-    "TRUTHMAKER-NEGATIVE-TRUTH-MAP",
-    "TRUTHMAKER-RESTRICTED-SEPARATION",
-    "TRUTHMAKER-TRUTHSET-NONUNIFORMITY",
-    "MERRICKS-PRECIS-MAXIMALISM"
+    "a35b5d79-8663-5a83-8099-8117c0709ead",
+    "dca7afa2-0f0a-5aeb-9875-3b679f5676e7",
+    "c121111a-9ed3-5f20-bca0-6fbeee8ceb04",
+    "490e2769-1e74-5292-ae4b-8a7db71634ed",
+    "ebf5aa7c-9a0b-5f47-a69b-14f28bf05c1b",
+    "1d514c1b-c0a0-544c-b5a5-43325abec3fd"
   ]
 }

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SORITES-PARTIAL-NONOPPOSITION",
+  "id": "f2f86c60-02bf-5420-9324-fe946e828336",
+  "label": "Non-opposition tolerance in a partial…: Status is positive, borderline or negative",
+  "legacy_id": "DEF-SORITES-PARTIAL-NONOPPOSITION",
   "term": "non-opposition tolerance in a partial classification",
   "definition": "Status is positive, borderline or negative. NonOpposed a b forbids positive/negative and negative/positive adjacent pairs. Borderline is neither positive nor negative; transitions through it may preserve non-opposition while losing positivity.",
   "basis": "stipulative",

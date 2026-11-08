@@ -1,6 +1,8 @@
 {
-  "id": "COMMISSION-GOVERNANCE-CASES-WITH-REMAINDER",
-  "argument_id": "COMMISSION-GOVERNANCE-CASES-WITH-REMAINDER",
+  "id": "87b2e33f-e29d-5dcf-862f-d6afafb8f3cf",
+  "label": "The narrow, teaching-inclusive, or explicit further…, from Excluded middle as a general principle…",
+  "legacy_id": "COMMISSION-GOVERNANCE-CASES-WITH-REMAINDER",
+  "argument_id": "d9429f72-650c-5ec3-b319-dae1a413da8b",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Coverage.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Coverage.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Coverage.criterionCoverage",
@@ -9,24 +11,24 @@
   "description": "Two explicit EM instances check narrow, teaching-inclusive or neither calibration. Named-only coverage is not established, and no census beyond the existing nine-power profile is claimed.",
   "transcription": "instantiation",
   "case_split": {
-    "target_statement_id": "STMT-COMMISSION-GOVERNANCE-INCLUDES-TEACHING",
+    "target_statement_id": "9981db29-aa03-56f8-a2de-a04eed444b91",
     "cases": [
       {
         "label": "fixed narrow criterion",
         "lean_declaration": "TruthCore.Case.Catholicism.StageThree.CommissionDefinitions.NarrowGovernanceCriterion",
-        "statement_id": "STMT-COMMISSION-GOVERNANCE-IS-NARROW"
+        "statement_id": "6f11f813-3b1d-5c3f-89c6-f45c086ee848"
       },
       {
         "label": "teaching-inclusive criterion",
         "lean_declaration": "TruthCore.Case.Catholicism.StageThree.CommissionDefinitions.TeachingInclusiveGovernanceCriterion",
-        "statement_id": "STMT-COMMISSION-GOVERNANCE-INCLUDES-TEACHING"
+        "statement_id": "9981db29-aa03-56f8-a2de-a04eed444b91"
       },
       {
         "label": "further governing-power criterion",
         "lean_declaration": "TruthCore.Case.Catholicism.StageThree.CommissionDefinitions.AdditionalGovernanceCriterion",
-        "statement_id": "STMT-COMMISSION-HAS-ADDITIONAL-GOVERNANCE-CRITERION"
+        "statement_id": "3d43b9e6-8254-5f9d-b952-5305f1fdc481"
       }
     ],
-    "survival_result_id": "COMMISSION-GOVERNANCE-INTERPRETATION-MODELS"
+    "survival_result_id": "ea190499-5111-5046-9b8a-60c5ffff93f0"
   }
 }

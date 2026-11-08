@@ -1,15 +1,17 @@
 {
-  "id": "CC100-86-SELECTED-GODLIKE-MAKER-REQUIREMENT",
-  "statement_id": "STMT-CC100-86-SELECTED-GODLIKE-MAKER-REQUIREMENT",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "5012ece8-d566-58a6-9a44-e062b5276a26",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: Some wholes made by an intelligent, unembodied agent…",
+  "legacy_id": "CC100-86-SELECTED-GODLIKE-MAKER-REQUIREMENT",
+  "statement_id": "d583de28-2507-588c-8432-274540ca921e",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.206–213: p.210, argument #86 Unities: Wholes, step 4",
   "interpretation": "Retain the existential SOME-whole/selected-agent wording and the local THAT-agent identity. Do not silently equate this whole with the earlier excluded-embodied whole, or broaden its selected-agent requirement to every maker. God-like is an unspecified source attribute, not Scott/Gödel positivity, classical IsGod or a proved full divine signature. Attribution is to McIntosh’s presentation only, not the unread Kronen/Menssen2013 article referenced on p211. No formal proof or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-86-WHOLE-MAKER-GODLIKE"
+    "c29b7f17-af6c-5869-9ef7-340c6aaeba58"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

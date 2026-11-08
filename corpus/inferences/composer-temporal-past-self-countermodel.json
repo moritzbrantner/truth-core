@@ -1,7 +1,9 @@
 {
-  "id": "INF-COMPOSER-TEMPORAL-PAST-SELF-COUNTERMODEL",
+  "id": "59b3ceba-caae-5588-9767-b11c14ee0efd",
+  "label": "One SAME finite profile satisfies historical production, selected-time…, by Constructive-proof",
+  "legacy_id": "INF-COMPOSER-TEMPORAL-PAST-SELF-COUNTERMODEL",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-COMPOSER-PAST-SELF-PRODUCTION-CONTROL",
+  "output_statement_id": "93fb4bfe-1e29-5704-abeb-cf7000bb5846",
   "rule": "constructive-proof",
   "meaning": "Finite countermodel to replacing all-time no-self by current no-self in the historical route. Keeps all other composition premises and a composite nonvacuous.",
   "assumption_statement_ids": [],

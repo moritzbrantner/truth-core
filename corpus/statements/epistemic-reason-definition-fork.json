@@ -1,11 +1,13 @@
 {
-  "id": "STMT-EPISTEMIC-REASON-DEFINITION-FORK",
+  "id": "54bc0ef3-964e-5d94-ab0f-afd646af6087",
+  "label": "For every fixed comparison profile, one of the four named calibration propositions holds or their…",
+  "legacy_id": "STMT-EPISTEMIC-REASON-DEFINITION-FORK",
   "paraphrase": "For every fixed comparison profile, one of the four named calibration propositions holds or their explicit remaining-interpretation conjunction holds. Structural logical coverage under excluded middle; it does not establish named coverage or any actual normative instance.",
   "lean_declaration": "TruthCore.Logic.EpistemicReasonDefinitionFork.DefinitionFork",
   "definition_ids": [
-    "DEF-EPISTEMIC-REASON-DEFINITION-PROFILE"
+    "d13c0241-320a-5d56-8927-341e46063e05"
   ],
   "disambiguation_ids": [
-    "DISAMB-EPISTEMIC-REASON-EXISTENCE-ROLE-AUTHORITY"
+    "339c6bf8-37f1-5d5e-9f26-3258957443cc"
   ]
 }

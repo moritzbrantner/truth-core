@@ -1,17 +1,19 @@
 {
-  "id": "STMT-MEANING-DEFINITION-FORK",
+  "id": "dc573383-f8fe-5322-88ae-8160d187754e",
+  "label": "For every supplied frame, meaning predicate and scope, named coverage or the explicit conjunction…",
+  "legacy_id": "STMT-MEANING-DEFINITION-FORK",
   "paraphrase": "For every supplied frame, meaning predicate and scope, named coverage or the explicit conjunction rejecting all four accounts holds, under excluded middle. Structural coverage with remainder, not named exhaustion.",
   "lean_declaration": "TruthCore.Logic.MeaningDefinitionFork.DefinitionFork",
   "definition_ids": [
-    "DEF-MEANING-CRITERION-CALIBRATION",
-    "DEF-MEANING-V1-DEFINITION",
-    "DEF-MEANING-V2-DEFINITION",
-    "DEF-MEANING-V3-DEFINITION",
-    "DEF-MEANING-ALL-IN-SCOPE",
-    "DEF-MEANING-NAMED-COVERAGE"
+    "cb72d072-0cc7-5523-8777-a3bd8f1779dc",
+    "174e16a5-0fda-5b18-976c-8f4f239656ae",
+    "86456f28-cadd-5976-9cff-ea771779c5b5",
+    "ab90f56f-7dca-5602-8464-0e24091d0d10",
+    "e527ec55-0b4e-5a8c-be97-d6c4a11fbe37",
+    "7edf53fe-0b8a-5bd2-b023-9e847c9ef46a"
   ],
   "disambiguation_ids": [
-    "DISAMB-VERIFICATIONIST-MEANINGFUL",
-    "DISAMB-MEANING-DEFINITION-CALIBRATIONS"
+    "21cdb9e0-d4f0-5a57-8277-3345ec8c0fde",
+    "b6529c83-9b6c-56f4-a87e-39d31f4f2126"
   ]
 }

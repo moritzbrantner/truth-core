@@ -1,31 +1,33 @@
 {
-  "id": "NECESSARY-BEING-FROM-CONTINGENT-COVERAGE",
+  "id": "6f5adc57-8f13-552d-9488-2fb1cd3da804",
+  "label": "At least one individual exists at the selected world and at every world…, from contingent coverage",
+  "legacy_id": "NECESSARY-BEING-FROM-CONTINGENT-COVERAGE",
   "premise_statement_ids": [
-    "STMT-A1-COVERED-CONTINGENTS",
-    "STMT-A1-EXTERNAL-WHOLE-CAUSE"
+    "912c8b03-2c02-5584-8b34-19952afb6602",
+    "95746fd0-e1b0-5ad8-98ad-0d3bebb6df6e"
   ],
-  "conclusion_statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+  "conclusion_statement_id": "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
   "inference_ids": [
-    "INF-NECESSARY-BEING-FROM-CONTINGENT-COVERAGE"
+    "0aabc722-35d8-57cb-a3a2-fcc1ce3c00f1"
   ],
   "meaning": "Project the actual necessary individual from the witness-preserving necessary-whole-cause result to the existing shared NecessaryBeing interface. Both coverage and external-whole-cause premises remain explicit; no source reading or root premise is discharged.",
   "definition_ids": [
-    "DEF-A1-COVERED-CONTINGENTS",
-    "DEF-A1-ACTUAL-CONCRETE-CAUSE",
-    "DEF-A1-EXTERNAL-WHOLE-CAUSE",
-    "DEF-A1-NECESSARY-WHOLE-CAUSE",
-    "DEF-UNIVERSAL-FUSION-DOMAIN",
-    "DEF-FUSION-OUTSIDE-CAUSE",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-MODAL-CONTINGENCY",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-NECESSARY-INDIVIDUAL-CONCRETE",
-    "DEF-CONTINGENCY-TOTALITY-EXTERNAL-CANDIDATE"
+    "a1f7d448-b7e4-503b-aae8-6b3d7c5f0f08",
+    "2c7e9221-fe11-5a47-bf59-3d238219a9fd",
+    "620840ba-d818-53f4-8309-0f0237ddfaee",
+    "63729b83-5e81-5968-a451-a36450fb1ed0",
+    "094da9ef-9edb-5e88-8b7b-2eb87488e90d",
+    "46f6e845-7a48-504d-b253-754e0563a7c5",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "ba85645e-b933-5a7f-a648-b527dea115fa",
+    "cc57aee5-58b7-531d-bcd6-60105efe5c79"
   ],
   "disambiguation_ids": [
-    "DISAMB-FUSION-CAUSE-EXTERNALITY",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
-    "DISAMB-A1-TYPED-EXTERNALITY"
+    "80aee986-d636-5cf7-a339-f99726342440",
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "5d9c2ff8-19a5-5525-97fe-621183137fcc"
   ]
 }

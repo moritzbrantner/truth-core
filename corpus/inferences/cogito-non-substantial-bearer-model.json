@@ -1,7 +1,9 @@
 {
-  "id": "INF-COGITO-NON-SUBSTANTIAL-BEARER-MODEL",
+  "id": "3105d34a-7c1e-5731-8ebc-00bf5ce8d327",
+  "label": "There is an interpretation in which a thought occurs and the bearer…, by Model-construction",
+  "legacy_id": "INF-COGITO-NON-SUBSTANTIAL-BEARER-MODEL",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-COGITO-NON-SUBSTANTIAL-BEARER-MODEL",
+  "output_statement_id": "96413fad-349c-58e1-b91f-de085121c85e",
   "rule": "model-construction",
   "meaning": "Interpret Occurs and Bears as always true and Substance as always false over Unit.",
   "assumption_statement_ids": [],

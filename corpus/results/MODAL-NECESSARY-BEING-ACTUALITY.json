@@ -1,6 +1,8 @@
 {
-  "id": "MODAL-NECESSARY-BEING-ACTUALITY",
-  "argument_id": "MODAL-NECESSARY-BEING-ACTUALITY",
+  "id": "17ae2081-1352-57c5-b5fd-e1ae3219411c",
+  "label": "For the supplied Profile and selected…, from Excluded middle as a general principle… and 2 more",
+  "legacy_id": "MODAL-NECESSARY-BEING-ACTUALITY",
+  "argument_id": "e8dc6592-a90c-50f7-8324-357c2a948e31",
   "challenge_module": "TruthCore.Results.Causality.ModalNecessaryBeingActuality.Challenge",
   "solution_module": "TruthCore.Results.Causality.ModalNecessaryBeingActuality.Solution",
   "theorem": "TruthCore.Results.Causality.ModalNecessaryBeingActuality.hasBeing",

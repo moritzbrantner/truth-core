@@ -1,5 +1,7 @@
 {
-  "id": "DEF-INDEXED-BELIEF-POOL-CLOSURE",
+  "id": "d3e575bc-a358-5fa8-8129-7b9255effe2d",
+  "label": "CONTEXT_INDEXED_BELIEF_POOL_CLOSURE_2: Separate pools BK and BL each contain the initial g and are…",
+  "legacy_id": "DEF-INDEXED-BELIEF-POOL-CLOSURE",
   "term": "context-indexed belief-pool closure",
   "definition": "Separate pools BK and BL each contain the initial g and are closed under their own K3 or LP relation, respectively. Their semantic theories of g can both reject C because no common unindexed pool or cross-profile transfer is required.",
   "basis": "stipulative",

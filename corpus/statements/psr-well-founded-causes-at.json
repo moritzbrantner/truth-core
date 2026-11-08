@@ -1,7 +1,13 @@
 {
-  "id": "STMT-PSR-WELL-FOUNDED-CAUSES-AT",
+  "id": "27bdc583-788a-5dc0-8448-0be5e6237310",
+  "label": "At the selected model world, the full Causes relation is well-founded, not merely the subset of…",
+  "legacy_id": "STMT-PSR-WELL-FOUNDED-CAUSES-AT",
   "lean_declaration": "TruthCore.Explanation.WellFoundedSource.WellFoundedCausesAt",
   "paraphrase": "At the selected model world, the full Causes relation is well-founded, not merely the subset of causes among actual existents.",
-  "definition_ids": ["DEF-PSR-WELL-FOUNDED-CAUSES-AT"],
-  "disambiguation_ids": ["DISAMB-PSR-EXPLANATION-CAUSE"]
+  "definition_ids": [
+    "069600c3-2ddc-5977-8717-3a278683f73e"
+  ],
+  "disambiguation_ids": [
+    "f7bae38e-9b21-54fe-8236-2646c230568b"
+  ]
 }

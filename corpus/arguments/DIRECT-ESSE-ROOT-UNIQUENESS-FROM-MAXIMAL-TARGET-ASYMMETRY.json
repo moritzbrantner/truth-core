@@ -1,34 +1,36 @@
 {
-  "id": "DIRECT-ESSE-ROOT-UNIQUENESS-FROM-MAXIMAL-TARGET-ASYMMETRY",
+  "id": "924e859a-8b50-5dc1-aaed-3a111022f149",
+  "label": "There exists an actual concrete root n of the profile selected…, from maximal target asymmetry",
+  "legacy_id": "DIRECT-ESSE-ROOT-UNIQUENESS-FROM-MAXIMAL-TARGET-ASYMMETRY",
   "premise_statement_ids": [
-    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
-    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS",
-    "STMT-EXISTING-IN-ACT-AT",
-    "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
-    "STMT-GRADES-TO-MAXIMUM-AT-BEING",
-    "STMT-ACTUAL-GROUNDING-ASYMMETRIC-AT-MAXIMAL-TARGET"
+    "56f68b40-9737-59a0-8cac-5610980a1547",
+    "c71c068c-bbae-5ed5-a99d-70b155c8d239",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "da09703b-0b1e-5dca-9dd7-6c0c8d1610d7",
+    "0436de86-6579-53f2-9ff5-2111ba44ebae",
+    "cb1cdea9-eb6c-578c-8008-84e0d4107fd3",
+    "e4e6b0cd-f61a-5605-a302-573c67cf063a",
+    "bcf79e03-6dcb-5b00-8c69-244be36dec15"
   ],
-  "conclusion_statement_id": "STMT-UNIQUE-NECESSARY-ACTUAL-ROOT",
+  "conclusion_statement_id": "91b085c4-f1c7-5ada-9848-8e7dc753313a",
   "inference_ids": [
-    "INF-DIRECT-ESSE-ROOT-UNIQUENESS-FROM-MAXIMAL-TARGET-ASYMMETRY"
+    "a28d487a-aa4f-5239-a57f-ea75a72c8dc3"
   ],
   "meaning": "Import the new weak-asymmetry whole-roster consequence and the existing fixed-esse uniqueRoot theorem at the SAME dictionaries. Replace only global asymmetry in the prior eight-input route; contingent dependence still supplies necessity. Endpoint uniqueness remains selected actual roots, not all necessary individuals or all-world roots.",
   "definition_ids": [
-    "DEF-MAXIMAL-TARGET-GROUNDING-ASYMMETRY",
-    "DEF-ACTUAL-GROUNDING-ASYMMETRIC",
-    "DEF-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
-    "DEF-GRADES-TO-MAXIMUM-AT-BEING",
-    "DEF-MAXIMUM-IN-A-PERFECTION"
+    "64ea018d-ccde-5ce9-85f5-a4e367199aac",
+    "b6854062-bec4-5480-8847-8e2314fee5b3",
+    "9969dfc2-1f2e-50be-b5e6-1f9cd402c7a6",
+    "365e2a20-269f-5f0b-ac67-913e8ff5662a",
+    "ad844320-77ce-5786-96d7-4b02f874269d"
   ],
   "disambiguation_ids": [
-    "DISAMB-EXISTENTIAL-SOURCE-SUPPLY-APPLICATION",
-    "DISAMB-MAXIME-ENS",
-    "DISAMB-NECESSARY",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
-    "DISAMB-NONNECESSARY-VS-CONTINGENT-ROOT",
-    "DISAMB-PER-SE",
-    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING"
+    "9403807f-f7d4-5ce8-a8ba-ca53ed932959",
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e",
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "b9adce48-6b86-5f58-b2ea-b25f51c70cbd",
+    "002f42cb-3015-5644-80b3-d408538394e6",
+    "c529e8d3-43e3-53a8-a82f-3955e9815265"
   ]
 }

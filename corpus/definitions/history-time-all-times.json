@@ -1,5 +1,7 @@
 {
-  "id": "DEF-HISTORY-TIME-ALL-TIMES",
+  "id": "16a95101-a6f2-573f-b73d-85d0e1f93dfc",
+  "label": "Presence at every supplied world and…: AllTime h x means ∀ w t, h.IsAt w x t, for a fixed bearer x…",
+  "legacy_id": "DEF-HISTORY-TIME-ALL-TIMES",
   "term": "presence at every supplied world and time",
   "definition": "AllTime h x means ∀ w t, h.IsAt w x t, for a fixed bearer x and History W B T with a shared time carrier T. World and time quantifiers are unrestricted; no modal accessibility, coherence with Ontic.ExistsAt or temporal order is implicit.",
   "basis": "stipulative",

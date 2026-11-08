@@ -1,6 +1,8 @@
 {
-  "id": "COMPONENT-FIRSTNESS-CONTROLS",
-  "argument_id": "COMPONENT-FIRSTNESS-CONTROLS",
+  "id": "77d2339e-c0d5-5527-95cd-29c539cf72d1",
+  "label": "Finite interpretations with one component",
+  "legacy_id": "COMPONENT-FIRSTNESS-CONTROLS",
+  "argument_id": "030ef894-3ddd-5f18-95f8-0873874d4e7e",
   "challenge_module": "TruthCore.Results.Causality.ComponentFirstness.Challenge",
   "solution_module": "TruthCore.Results.Causality.ComponentFirstness.Solution",
   "theorem": "TruthCore.Results.Causality.ComponentFirstness.controls",

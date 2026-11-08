@@ -1,19 +1,21 @@
 {
-  "id": "EXCLUDED-MIDDLE-ASSERTION-BOUNDARY-CONTROLS",
+  "id": "335968ac-c307-56d5-bec1-8535ab8482ad",
+  "label": "Under explicit object-level excluded middle, some…, from Excluded middle as a general principle…",
+  "legacy_id": "EXCLUDED-MIDDLE-ASSERTION-BOUNDARY-CONTROLS",
   "premise_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-EXCLUDED-MIDDLE-ASSERTION-BOUNDARY-CONTROLS",
+  "conclusion_statement_id": "f2b40ced-dfee-5795-a457-318f9c524d0a",
   "inference_ids": [
-    "INF-EXCLUDED-MIDDLE-ASSERTION-BOUNDARY-CONTROLS"
+    "1352f4ea-3a89-5196-8237-2ae8725b8240"
   ],
   "meaning": "Construct exact marker controls, reusing the checked constructive irrefutability theorem. Object-level EM is retained explicitly as an input to the coexistence model. The markers are not a complete intuitionist or epistemic semantics.",
   "definition_ids": [
-    "DEF-EXCLUDED-MIDDLE-LOGICAL-HOLDING",
-    "DEF-EXCLUDED-MIDDLE-ASSERTION-POLICY",
-    "DEF-EXCLUDED-MIDDLE-WITHHOLDING-POLICY"
+    "d8e2ed12-8089-5202-ae51-e807cf611c76",
+    "284efb0a-b669-5b91-b0ea-2b7b68bef70d",
+    "bdab9d27-6b41-5a06-8e64-e696fa48d9c1"
   ],
   "disambiguation_ids": [
-    "DISAMB-EXCLUDED-MIDDLE-HOLDING-AND-ASSERTION"
+    "12425707-e469-5574-b064-4f5e171cfb65"
   ]
 }

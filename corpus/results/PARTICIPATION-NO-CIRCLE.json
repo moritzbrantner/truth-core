@@ -1,6 +1,8 @@
 {
-  "id": "PARTICIPATION-NO-CIRCLE",
-  "argument_id": "PARTICIPATION-NO-CIRCLE",
+  "id": "23cfe9f4-3347-599d-9ac6-08956903f46e",
+  "label": "For the specified bearer, Form and quality, exemplification and…, from The separately specified…",
+  "legacy_id": "PARTICIPATION-NO-CIRCLE",
+  "argument_id": "86d41602-6789-57ab-b6c0-91d985297caa",
   "challenge_module": "TruthCore.Results.Greek.Plato.ParticipationGrounding.Challenge",
   "solution_module": "TruthCore.Results.Greek.Plato.ParticipationGrounding.Solution",
   "theorem": "TruthCore.Results.Greek.Plato.ParticipationGrounding.noCircularExplanation",

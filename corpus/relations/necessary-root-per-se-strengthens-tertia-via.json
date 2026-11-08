@@ -1,10 +1,12 @@
 {
-  "id": "REL-NECESSARY-ROOT-PER-SE-STRENGTHENS-TERTIA-VIA",
+  "id": "7a48879c-3284-5b66-b957-dee876f04012",
+  "label": "NECESSARY_1-being node, per se reading… strengthens NECESSARY_1-being node, tertia via…",
+  "legacy_id": "REL-NECESSARY-ROOT-PER-SE-STRENGTHENS-TERTIA-VIA",
   "subject_kind": "statement",
-  "subject_id": "STMT-NECESSARY-ROOT-PER-SE",
+  "subject_id": "c639d164-4981-5b2b-bcf3-d6d7a5d5937f",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-NECESSARY-ROOT-TERTIA-VIA",
-  "verification_result_id": "NECESSARY-ROOT-PER-SE-STRENGTHENS-TERTIA-VIA",
+  "object_id": "32a2f51c-a630-56a0-acc3-800637c18253",
+  "verification_result_id": "54feb72b-7505-5075-9759-a8fcf27530dd",
   "note": "Strength registration: necessary per se implies necessary (tertia via, DEF-NECESSARY-PER-SE)."
 }

@@ -1,6 +1,8 @@
 {
-  "id": "STRENGTH-CAUSE-RECONSTRUCTION",
-  "argument_id": "STRENGTH-CAUSE-RECONSTRUCTION",
+  "id": "bee0959c-8326-505f-965d-571cb4f2f0d9",
+  "label": "Anything that comes to be has some…, from Anything that comes to be has some CAUSE_2 and 1 more",
+  "legacy_id": "STRENGTH-CAUSE-RECONSTRUCTION",
+  "argument_id": "23054864-62af-5a7a-8f21-249e41215f70",
   "challenge_module": "TruthCore.Results.Logic.StrengthCause.Challenge",
   "solution_module": "TruthCore.Results.Logic.StrengthCause.Solution",
   "theorem": "TruthCore.Results.Logic.StrengthCause.reconstruction",

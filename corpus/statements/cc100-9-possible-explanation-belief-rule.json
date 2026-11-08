@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CC100-9-POSSIBLE-EXPLANATION-BELIEF-RULE",
+  "id": "f389cc57-2e72-5dd9-bee8-f453b491c322",
+  "label": "If there is a possible explanation of the fact that F and every possible explanation of that fact…",
+  "legacy_id": "STMT-CC100-9-POSSIBLE-EXPLANATION-BELIEF-RULE",
   "paraphrase": "If there is a possible explanation of the fact that F and every possible explanation of that fact entails P, it is reasonable to believe P.",
   "definition_ids": [
-    "DEF-CC100-9-POSSIBLE-EXPLANATION-BELIEF"
+    "1244292b-30ce-50d4-92dd-04ef6ac8ff72"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

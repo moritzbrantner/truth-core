@@ -1,7 +1,9 @@
 {
-  "id": "INF-ROUND6-DEFINITION-FORKS-CONTROLS",
+  "id": "20d8c20c-6a6e-524d-b72b-31f15add1320",
+  "label": "Finite interpretations for the ten derivations of round 6: for each premise…, by Explicit finite…",
+  "legacy_id": "INF-ROUND6-DEFINITION-FORKS-CONTROLS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-ROUND6-DEFINITION-FORKS-CONTROLS",
+  "output_statement_id": "05e1ea7e-9763-56c4-9656-93953d596f82",
   "rule": "Explicit finite interpretations",
   "meaning": "Finite interpretations for the ten derivations of round 6: for each premise except excluded middle, a hand-written model (societies Three or Unit, beings Bool, the nine-power carrier) in which the other premises hold and the conclusion fails (23 omission models, checked by decide or short proofs), and one joint nonvacuity witness per map in which every premise and conclusion holds with populated antecedents. Satisfiability and omission only; no model is claimed to describe Church history or reality.",
   "assumption_statement_ids": [],

@@ -1,10 +1,12 @@
 {
-  "id": "STMT-GROUND-OF-CONJUNCTION-NEED-NOT-GROUND-CONJUNCTS",
+  "id": "f64f7d2b-2fd4-556c-9412-476ad11ee01f",
+  "label": "For GROUND_3, the inference from some facts explaining a conjunction to those facts explaining each…",
+  "legacy_id": "STMT-GROUND-OF-CONJUNCTION-NEED-NOT-GROUND-CONJUNCTS",
   "paraphrase": "For ground, the inference from some facts explaining a conjunction to those facts explaining each conjunct is not valid: facts can ground a conjunction without those facts or any subplurality of them grounding a given conjunct.",
   "definition_ids": [
-    "DEF-DASGUPTA-GROUND"
+    "a9e9d879-2f53-5075-9a2a-ff570aafa481"
   ],
   "disambiguation_ids": [
-    "DISAMB-BCCF-DERIVATIVE-REPLY"
+    "0fc5e01d-7eec-5c5a-a72a-a3726352e96c"
   ]
 }

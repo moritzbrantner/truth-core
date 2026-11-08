@@ -1,5 +1,7 @@
 {
-  "id": "DEF-STOP-TERMINAL",
+  "id": "6c7d2b21-8446-5e8c-bb10-ef1a58a8d735",
+  "label": "TERMINAL_FACT_2: Terminal A w s says s is true at w and every reason for s at w is s itself",
+  "legacy_id": "DEF-STOP-TERMINAL",
   "term": "terminal fact",
   "definition": "Terminal A w s says s is true at w and every reason for s at w is s itself. A terminal fact may therefore have a self-reason, and may be necessary or contingent. Being terminal is a position in the explains relation, not a claim that nothing could explain the fact.",
   "basis": "stipulative",

@@ -1,12 +1,14 @@
 {
-  "id": "STMT-INSTRUMENT-MOVES-BY-PRINCIPAL-POWER",
+  "id": "7b8b589c-9bbc-50d9-8e4c-ec0a8aca45b0",
+  "label": "A mover that moves something not by the power of its own form moves it only insofar as it is…",
+  "legacy_id": "STMT-INSTRUMENT-MOVES-BY-PRINCIPAL-POWER",
   "paraphrase": "A mover that moves something not by the power of its own form moves it only insofar as it is moved: it is a per se link of the mover series. Analyst formulation, open; motivated by ST I q.18 a.3 co. (the instrument acts not by the power of its own form but by that of the principal agent).",
   "lean_declaration": "TruthCore.Causality.MotionMapsBatch1.InstrumentMovesByPrincipalPower",
   "definition_ids": [
-    "DEF-MOVES-BY-OWN-FORM",
-    "DEF-PER-SE-LINK-RELEVANT-RESPECT"
+    "45595dac-061a-5240-a6c7-f16d4e632357",
+    "55a974ea-1ba1-5df4-a03b-1fbaa388dfeb"
   ],
   "disambiguation_ids": [
-    "DISAMB-PER-SE-LINK"
+    "c097f626-c39c-57cd-ade4-ebb2dd900a4c"
   ]
 }

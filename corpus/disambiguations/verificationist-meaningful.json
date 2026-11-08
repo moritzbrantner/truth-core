@@ -1,10 +1,12 @@
 {
-  "id": "DISAMB-VERIFICATIONIST-MEANINGFUL",
+  "id": "21cdb9e0-d4f0-5a57-8277-3345ec8c0fde",
+  "label": "Meaningful",
+  "legacy_id": "DISAMB-VERIFICATIONIST-MEANINGFUL",
   "term": "meaningful (criterion verdict, pre-theoretic significance, truth conditions)",
   "sense_definition_ids": [
-    "DEF-LITERAL-MEANINGFULNESS-1946",
-    "DEF-VERIFICATION-PRINCIPLE",
-    "DEF-TRUTH-CONDITIONAL-LANGUAGE"
+    "3b773947-a8cd-562d-91d9-952a9ce7cc58",
+    "d3d9f3a5-7791-552c-8271-5cb1aeccfb15",
+    "cb0b59e9-7a00-5d8c-ba11-802974a42992"
   ],
   "resolution": "Three senses are kept apart. (1) Meaningful by a criterion: a verdict defined from a frame (DEF-LITERAL-MEANINGFULNESS-1946); the trivialization results are about this sense. (2) Meaningful pre-theoretically: the literal significance a criterion is offered as an account of, a separate parameter in STMT-VERIFICATION-PRINCIPLE; only the self-application dilemma uses it, and if (2) were defined as (1) the principle would hold by definition and its formulation would trivially fail it. (3) Having truth conditions: every sentence of a truth-conditional language has them; STMT-CRITERION-VERDICT-SILENT-ON-TRUTH shows that failing (1) does not remove (3). The necessary-only condition is now ordered below full scoped Calibration by MEANING-CALIBRATION-TO-VERIFICATION-PRINCIPLE. DISAMB-MEANING-DEFINITION-CALIBRATIONS supplies independent V1/V2/V3/all-in-scope proposals, open named coverage and a genuine remaining extension; it preserves the older correctly calibrated V1/V3 packages and their generic closure premises. See docs/notes/meaning-definition-fork.md."
 }

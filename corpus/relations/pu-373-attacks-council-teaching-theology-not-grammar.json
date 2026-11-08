@@ -1,9 +1,11 @@
 {
-  "id": "REL-PU-373-ATTACKS-COUNCIL-TEACHING-THEOLOGY-NOT-GRAMMAR",
+  "id": "286e215e-9607-53eb-afe5-bb984e98b488",
+  "label": "Ludwig Wittgenstein, Philosophische…… attacks Fideist reply to the definition bridge…",
+  "legacy_id": "REL-PU-373-ATTACKS-COUNCIL-TEACHING-THEOLOGY-NOT-GRAMMAR",
   "subject_kind": "claim",
-  "subject_id": "WITTGENSTEIN-PU-373-THEOLOGY-AS-GRAMMAR",
+  "subject_id": "55ab27c9-ed2f-58f2-86cd-9a56f2370412",
   "predicate": "attacks",
   "object_kind": "statement",
-  "object_id": "STMT-COUNCIL-TEACHING-THEOLOGY-NOT-GRAMMAR",
+  "object_id": "e3b95cf8-45d7-5cbc-851e-2550e6bf5f73",
   "note": "Against the reply that theology is not grammar: Wittgenstein himself writes 'Theologie als Grammatik'. Not a refutation: the parenthesis is unexplained and contested, and the reply concerns conciliar formulae, which §373 does not mention."
 }

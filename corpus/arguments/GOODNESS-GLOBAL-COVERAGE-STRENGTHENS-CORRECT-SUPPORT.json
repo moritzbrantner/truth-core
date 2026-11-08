@@ -1,21 +1,23 @@
 {
-  "id": "GOODNESS-GLOBAL-COVERAGE-STRENGTHENS-CORRECT-SUPPORT",
+  "id": "2ec76a02-ea5c-5d5f-8cb9-f419653576a3",
+  "label": "If the chosen class contains any correct…, from Every admissible definition proposal in the…",
+  "legacy_id": "GOODNESS-GLOBAL-COVERAGE-STRENGTHENS-CORRECT-SUPPORT",
   "premise_statement_ids": [
-    "STMT-GOODNESS-SEMANTIC-NAMED-DEFINITIONS-COVER"
+    "be5a4cc5-1bac-549c-af6d-992ca07193a1"
   ],
-  "conclusion_statement_id": "STMT-GOODNESS-CORRECT-ACCOUNT-SUPPORT",
+  "conclusion_statement_id": "9108832f-0ef5-5036-8550-f405c7203ff4",
   "inference_ids": [
-    "INF-GOODNESS-GLOBAL-COVERAGE-STRENGTHENS-CORRECT-SUPPORT"
+    "5e453a75-5c8f-5a85-aec4-94b968c65bf7"
   ],
   "meaning": "Global semantic coverage implies conditional existential named correct-account support. No correct account or philosophical coverage is independently established.",
   "definition_ids": [
-    "DEF-FORM-END-DUE-PERFECTION",
-    "DEF-GOODNESS-DUE-ACTUALITY-PROPOSITION",
-    "DEF-GOODNESS-NAMED-DEFINITION-SPACE",
-    "DEF-GOODNESS-SEMANTIC-DEFINITION-COVERAGE",
-    "DEF-GOODNESS-CORRECT-ACCOUNT-SUPPORT"
+    "2b760306-fed0-583e-b7b8-53a8a1d85676",
+    "68191121-85f6-5bce-b32e-1900c8b52f57",
+    "b9df0e5b-7d1e-5259-a5d5-910e85328aab",
+    "ea819c3e-09bb-5000-85f8-e4b28e34aead",
+    "3fb2bd92-d135-5db1-8fe3-a3caa18a12ca"
   ],
   "disambiguation_ids": [
-    "DISAMB-GOODNESS-UNRESTRICTED-DUE-AND-ULTIMATE"
+    "f5b1a1e9-1ba8-58ed-976c-9f228d8a8d14"
   ]
 }

@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "SEXTUS-OUTLINES-PYRRHONISM",
+    "source_id": "6f868820-d2b4-5807-acbb-e95fac6a3f42",
     "source_url": "https://www.gutenberg.org/ebooks/17556.txt.utf-8",
     "retrieved_at": "2026-10-28T20:18:37Z",
     "sha256": "sha256:aa9820b2fe493782a316e11eb666944931be46c6cf0b10c9e8a34485f4137dfd",
@@ -16,7 +16,9 @@
   },
   "passages": [
     {
-      "id": "SEXTUS-PH-I-FIVE-MODES",
+      "id": "2af56be9-599e-532e-9049-bf72014c4b9c",
+      "label": "Sextus Empiricus, Outlines of Pyrrhonism, Outlines of Pyrrhonism I.164–177, ChapterXV The Five…",
+      "legacy_id": "SEXTUS-PH-I-FIVE-MODES",
       "locator": "Outlines of Pyrrhonism I.164–177, ChapterXV The Five Tropes; read I.163–179 immediate context",
       "claim_locator_prefixes": [
         "I.164",

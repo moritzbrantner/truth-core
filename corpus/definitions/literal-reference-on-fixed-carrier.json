@@ -1,5 +1,7 @@
 {
-  "id": "DEF-LITERAL-REFERENCE-ON-FIXED-CARRIER",
+  "id": "47bb3ea3-da26-5e6e-af6d-9749f2f7af0d",
+  "label": "Literal reference on a fixed carrier: The interpretation of the one name constant is an individual…",
+  "legacy_id": "DEF-LITERAL-REFERENCE-ON-FIXED-CARRIER",
   "term": "literal reference on a fixed carrier",
   "definition": "The interpretation of the one name constant is an individual of the supplied Boolean carrier. SameSentences compares all Mathlib first-order sentences under the original and transported interpretations. ConsequenceAt compares truth-preservation at each interpretation for every finite premise list. AnchorRecovery requires both referents to satisfy one externally fixed DescriptionExists predicate; it does not establish that either satisfies it.",
   "basis": "stipulative",

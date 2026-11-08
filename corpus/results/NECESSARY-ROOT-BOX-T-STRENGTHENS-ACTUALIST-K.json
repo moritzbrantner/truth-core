@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-ROOT-BOX-T-STRENGTHENS-ACTUALIST-K",
-  "argument_id": "NECESSARY-ROOT-BOX-T-STRENGTHENS-ACTUALIST-K",
+  "id": "90157e4c-1344-52b1-b01d-7b90f0a4cedf",
+  "label": "Necessary-being node, actualist K reading: there is…, from Necessary-being node, possibilist box…",
+  "legacy_id": "NECESSARY-ROOT-BOX-T-STRENGTHENS-ACTUALIST-K",
+  "argument_id": "3fe7c31a-f477-568f-a408-a3e29eada228",
   "challenge_module": "TruthCore.Results.Causality.NecessarySenseFork.Challenge",
   "solution_module": "TruthCore.Results.Causality.NecessarySenseFork.Solution",
   "theorem": "TruthCore.Results.Causality.NecessarySenseFork.boxTToActualistK",

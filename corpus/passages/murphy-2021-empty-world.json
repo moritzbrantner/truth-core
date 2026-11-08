@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "MURPHY-2021-EMPTY-WORLD",
+    "source_id": "fca7858f-a8e5-5657-b3ac-8039693c5538",
     "source_url": "https://revistas.up.ac.pa/index.php/analitica/article/download/2436/2226/",
     "sha256": "sha256:d33d04ce5be3ebae25fb5b3e5199fa57e208e08ca012f0b5bd502bb737ea31e7",
     "encoding": "utf-8",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "MURPHY-2021-EMPTY-WORLD-52-55",
+      "id": "e39148ef-1cec-5f4e-b2f3-20b10efa4370",
+      "label": "Benjamin Edmund Murphy, If Nothing Existed Could Anything Be True?, Pp.52–55",
+      "legacy_id": "MURPHY-2021-EMPTY-WORLD-52-55",
       "locator": "pp.52–55 (physical PDF pages 1–4)",
       "claim_locator_prefixes": [
         "pp.52–55 "

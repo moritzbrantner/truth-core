@@ -1,6 +1,8 @@
 {
-  "id": "ACT-PRIOR-FROM-MOTION-FACTS",
-  "argument_id": "ACT-PRIOR-FROM-MOTION-FACTS",
+  "id": "8353d90e-9bdb-52cd-bda6-85745282cde4",
+  "label": "Formal fact: 'every POTENCY_1 is being actualized', 'whatever is moved has a…, from MOTION_1 facts",
+  "legacy_id": "ACT-PRIOR-FROM-MOTION-FACTS",
+  "argument_id": "b4d4c636-e31a-5571-889b-3bb9673f29fa",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.ActPriorFromMotion.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.ActPriorFromMotion.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.ActPriorFromMotion.actPriorFromMotionFacts",

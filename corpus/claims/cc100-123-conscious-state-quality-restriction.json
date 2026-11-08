@@ -1,16 +1,18 @@
 {
-  "id": "CC100-123-CONSCIOUS-STATE-QUALITY-RESTRICTION",
-  "statement_id": "STMT-CC100-123-CONSCIOUS-STATE-QUALITY-RESTRICTION",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "f8c33ba9-2c09-5123-8673-f2c99addef54",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: Only conscious states have intrinsic, non-relational…",
+  "legacy_id": "CC100-123-CONSCIOUS-STATE-QUALITY-RESTRICTION",
+  "statement_id": "59f6d69f-14fe-51cb-8f6d-aa15880b2862",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.272–291: p.288, argument #123 Idealism, step 2",
   "interpretation": "Preserve the source’s bearer restriction to conscious states. Do not silently replace state with person/mind, property with bearer, or intrinsic with mental by definition. No identity or constitution bridge is supplied by terminology alone. Attribution is to McIntosh’s presentation only, not unread Berkeley/Adams/Hunter/Spiegel works referenced on p289. No formal proof or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-123-QUALITY-STATE-CONSTITUTION"
+    "f0e96f0e-d540-57a3-bd89-4895863493b3"
   ],
   "disambiguation_ids": [
-    "DISAMB-REASON-EPISTEMIC-ONTIC",
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "a61d3807-50e9-595e-9011-9123fd606a4b",
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

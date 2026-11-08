@@ -1,24 +1,26 @@
 {
-  "id": "ATTEMPT-ROWE-DEDUCTIVE-AND-APPEARANCE-BOUNDARY",
+  "id": "79bf128f-9e19-5ccc-8485-00329d6d7477",
+  "label": "Pinned and materialized the full primary 1979 article with byte-identical Wayback fallback",
+  "legacy_id": "ATTEMPT-ROWE-DEDUCTIVE-AND-APPEARANCE-BOUNDARY",
   "statement_ids": [
-    "STMT-ROWE-GRATUITOUS-SUFFERING",
-    "STMT-ROWE-PERMISSION-CONSTRAINT",
-    "STMT-ROWE-APPARENT-COMPATIBILITY",
-    "STMT-ROWE-REFINED-GRATUITOUS-SUFFERING",
-    "STMT-ROWE-REFINED-PERMISSION-CONSTRAINT"
+    "8eebfefd-e24a-52f0-bf85-5ced6b569eae",
+    "0a95a3c3-5899-5350-9fef-6e88e79819e8",
+    "c45e94d6-58eb-50e5-9971-ad5872e30d75",
+    "326e9b9f-c9b4-58df-948d-71929531ddd2",
+    "d099c83c-5e28-5625-b55f-bcba057589fb"
   ],
   "date": "2026-10-26",
   "kind": "reading",
   "outcome": "succeeded",
   "summary": "Pinned and materialized the full primary 1979 article with byte-identical Wayback fallback. Read pp.335–341; layout extraction of the same bytes resolves two-column ordering. Formalized the published simplified deductive core with typed beings, events, outcomes and counterfactual/comparative costs; a finite interpretation keeps apparent pointlessness, narrow theism and permission constraint together through an unrecognized actual cost. Preserved p.336 nn.2–3 unreplaceability, non-temporal/justice goods and balance-neutral refinement. Instantiated the same structured theorem with the suggested refined constraint and correspondingly stronger factual premise, without claiming equivalence. Rejected apparent-to-actual entailment, treating a good drawn from evil as an unavoidable sufficient justifier, identification of natural suffering with culpa, and automatically applying O’Connor’s emotivist sentence semantics to Rowe. Total-evidence warrant remains in ROWE-EVIL-TOTAL-EVIDENCE-WARRANT and docs/rowe-evidential-evil.md. No premise truth or root closure follows.",
   "evidence": [
-    "ROWE-1979-PREMISE-ONE",
-    "ROWE-1979-PERMISSION-CONSTRAINT",
-    "ROWE-1979-NARROW-THEISM",
-    "POE-ROWE-DEDUCTIVE-CORE",
-    "POE-ROWE-APPARENT-COMPATIBILITY",
-    "ROWE-1979-BALANCE-NEUTRAL-FACTUAL",
-    "ROWE-1979-BALANCE-NEUTRAL-PERMISSION",
-    "POE-ROWE-BALANCE-NEUTRAL-CORE"
+    "77c8065c-c5b6-5d8e-ace7-33c2ccc23014",
+    "c24d4556-9c8f-539f-8ca3-935c499b57c9",
+    "8672305b-ce86-50e4-9691-6cd8daca9f8d",
+    "63481f67-a60f-5414-8946-8cabe33065b7",
+    "c6e4c37a-7f0d-528d-892f-f660d1267705",
+    "adfaeed4-8d7e-52e5-9e8d-aa0f1cc1af59",
+    "4049b811-e933-552f-b279-976814f98a7f",
+    "b78ac395-f61f-5e5b-8b8d-061d91473154"
   ]
 }

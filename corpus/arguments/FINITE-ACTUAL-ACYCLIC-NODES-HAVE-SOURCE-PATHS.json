@@ -1,24 +1,26 @@
 {
-  "id": "FINITE-ACTUAL-ACYCLIC-NODES-HAVE-SOURCE-PATHS",
+  "id": "d5dc4a7f-5c9c-5627-a195-29ba89249335",
+  "label": "In every world with a finite actual carrier…, from Inside each world, the existing individuals…",
+  "legacy_id": "FINITE-ACTUAL-ACYCLIC-NODES-HAVE-SOURCE-PATHS",
   "premise_statement_ids": [
-    "STMT-WORLD-ACTUAL-CAUSAL-ACYCLIC"
+    "97c779cd-6171-5734-93ef-c06b15941437"
   ],
-  "conclusion_statement_id": "STMT-FINITE-ACTUAL-ALL-SOURCE-PATHS",
+  "conclusion_statement_id": "e52c19d5-932c-5101-acce-6f480c728d8e",
   "inference_ids": [
-    "INF-FINITE-ACTUAL-ACYCLIC-NODES-HAVE-SOURCE-PATHS"
+    "e355b8a2-065b-5237-9c2d-fd88d9c6a3c6"
   ],
   "meaning": "Under the existing actual-acyclic profile, retain the source path for each chosen actual node in every finite actual graph. Apply the checked pointwise source-or-regress fork; its source horn already supplies the full path, while its injective anchored Nat-chain horn contradicts finiteness of the actual carrier. This strengthens the earlier merely-some-source corollary without changing that theorem or any frozen data/signature. Actual finiteness is an explicit conditional guard inside the conclusion, not an assertion that any world is finite. No additional philosophical premise, common source, temporal conclusion or root closure is introduced.",
   "definition_ids": [
-    "DEF-FINITE-ACTUAL-ALL-SOURCE-PATHS",
-    "DEF-FINITE-CAUSAL-PATH",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-REGRESS-SCHEMA-GRAPH",
-    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
-    "DEF-WORLD-SOURCE-REGRESS-CLASSIFICATION"
+    "209ecbb9-4d51-515e-beda-516450fc6816",
+    "822c9912-2313-584b-b2b7-77031da20107",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "1dff2d68-1348-5e7e-8ee7-248af63c8c53",
+    "7439c292-82a4-530d-8144-a61a6c21f502",
+    "ea2b66f0-516d-53f5-99fa-098ee4a7138a"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSAL-POWER-GROUNDING",
-    "DISAMB-NO-INFINITE-REGRESS-READING",
-    "DISAMB-REGRESS-DOMAINS"
+    "4b02d34a-9226-5009-9ac2-3b52f4222b21",
+    "aee7e4c7-819b-5905-b363-813c06b7e92c",
+    "34ddfede-ff4d-59ad-9882-4bcb490df9bb"
   ]
 }

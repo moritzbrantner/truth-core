@@ -1,10 +1,12 @@
 {
-  "id": "INF-EVERY-THOUGHT-HAS-SUBJECT-FROM-MODIFICATION",
+  "id": "30bf7865-a559-58fd-afad-6e77c0271f46",
+  "label": "The bearer principle: every occurring thought episode is borne by…, by Universal instantiation…",
+  "legacy_id": "INF-EVERY-THOUGHT-HAS-SUBJECT-FROM-MODIFICATION",
   "input_statement_ids": [
-    "STMT-OCCURRING-THOUGHT-IS-MODIFICATION",
-    "STMT-NO-MODIFICATION-WITHOUT-BEARER"
+    "5581cd7f-43b3-5aa1-b18d-36b8a44a9681",
+    "e6d842fb-fdcf-5da0-9c45-e576e2d5d842"
   ],
-  "output_statement_id": "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT",
+  "output_statement_id": "30e6e01c-b7f1-536c-86ae-0a9be35dd160",
   "rule": "Universal instantiation, modus ponens",
   "meaning": "The bearer principle from two OPEN premises: every occurring thought is a modification, and no modification is without a bearer. Bundle theories reject the first; nothing here makes the bearer unique, substantial or enduring.",
   "assumption_statement_ids": [],

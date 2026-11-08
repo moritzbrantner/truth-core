@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SELECTED-POSITIVE-GROUND-RECORD",
+  "id": "b09eb66f-4165-53ed-b463-54f7df28287d",
+  "label": "Selected admitted record with the same…: SelectedPositiveGround h g b is exactly h.admitted g AND…",
+  "legacy_id": "DEF-SELECTED-POSITIVE-GROUND-RECORD",
   "term": "selected admitted record with the same positive target label",
   "lean_declaration": "TruthCore.Explanation.JointGroundEffectContingency.SelectedPositiveGround",
   "definition": "SelectedPositiveGround h g b is exactly h.admitted g AND h.effect g = positive b for the existing Groups of mixed fact labels. It names the explicit record-admission and target-identity guards required by WholeGroundNecessitatesTargetAt; members remains the SAME contributors union enablers.",

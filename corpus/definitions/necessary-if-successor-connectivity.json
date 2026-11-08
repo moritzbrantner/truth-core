@@ -1,5 +1,7 @@
 {
-  "id": "DEF-NECESSARY-IF-SUCCESSOR-CONNECTIVITY",
+  "id": "09ea702d-020f-59d3-bbe4-a5f258a2a314",
+  "label": "Pointwise masked successor strong\u2026: For a frame F and standpoint w let S={a | F.access w a}.\u2026",
+  "legacy_id": "DEF-NECESSARY-IF-SUCCESSOR-CONNECTIVITY",
   "term": "pointwise masked successor strong connectivity",
   "definition": "For a frame F and standpoint w let S={a | F.access w a}. maskedStep F w a b means a\u2208S and F.access a b. SuccessorConnected F w means for every ordered a,b\u2208S, Mathlib Relation.ReflTransGen (maskedStep F w) a b. Zero-length paths are included. A masked edge may exit S but cannot continue from outside S; restrict_path proves that paths ending in S can be restricted to edges with both endpoints in S. Thus this is directed connectivity of every ordered successor pair within the induced successor subgraph. Empty and singleton S satisfy it without existence assumptions.",
   "basis": "stipulative",

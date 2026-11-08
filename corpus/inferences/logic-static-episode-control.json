@@ -1,7 +1,9 @@
 {
-  "id": "INF-LOGIC-STATIC-EPISODE-CONTROL",
+  "id": "fa4b8183-ed14-5da5-930d-f325e7057085",
+  "label": "A one-episode interpretation with a one-point state-index carrier satisfies…, by Constructive-proof",
+  "legacy_id": "INF-LOGIC-STATIC-EPISODE-CONTROL",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-STATIC-EPISODE-CONTROL",
+  "output_statement_id": "d0f04b5b-5c5f-5397-86ca-432de73877c7",
   "rule": "constructive-proof",
   "meaning": "A singleton-index model has an occurring episode and no unequal state values, demonstrating that an occurrence premise cannot entail variation without an additional time/observation bridge.",
   "assumption_statement_ids": [],

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PREORDER-DEGREE-INVARIANCE",
+  "id": "14bf73ee-a52e-5b4c-bde2-9e6f31de6a1b",
+  "label": "Same existence degree across…: Same degree is represented by both inequalities intensity v n ≤…",
+  "legacy_id": "DEF-PREORDER-DEGREE-INVARIANCE",
   "term": "same existence degree across accessible worlds",
   "definition": "Same degree is represented by both inequalities intensity v n ≤ intensity w0 n and intensity w0 n ≤ intensity v n in one shared Preorder, not literal identity of degree labels. The source-shaped ActualNecessaryDegreeInvariant clause requires BOTH actual base-world presence and NecessaryAt m w0 n before asserting this equivalence at each root-accessible v. The earlier NecessaryDegreeInvariant analyst predicate has only the relative-necessity antecedent; it is stronger outside actual/reflexive contexts and is not directly attributed to source11. Neither clause asserts necessary existence of n or uniqueness of a degree maximum.",
   "basis": "stipulative",

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-COUNT-TEMPORAL-POSITIVE-FIXTURE",
+  "id": "4e2adfa7-f058-5dd5-952e-51b42e3b2ad6",
+  "label": "Joint positive finite temporal-count\u2026: The SAME History has Bool worlds and times, Option\u2026",
+  "legacy_id": "DEF-COUNT-TEMPORAL-POSITIVE-FIXTURE",
   "term": "joint positive finite temporal-count configuration",
   "definition": "The SAME History has Bool worlds and times, Option(Fin 5) individuals, universal modal access, and no ordinary Ontic.Causes edges. Source none exists in both worlds and is present at both times. Each some i exists only at world true and is present only at its later time true. All candidates are concrete. CauseCount w c n t holds exactly for w=true, c=none, t=true, and positive n\u22645. It is a supplied count-situation marker, not an ordinary causal relation or adequate explanation. PositiveControl conjoins the exact six CountTemporalNecessity inputs, the same source none being actual/necessary and marked cause of count5, an injective Fin5 contingent concrete target at time true, and actual ContingentAt(some0).",
   "basis": "stipulative",

@@ -1,9 +1,11 @@
 {
-  "id": "INF-NATURALISM-IMMANENT-LAWS-INSTANTIATED",
+  "id": "007ceeed-7822-5a59-83b8-977b076dddc3",
+  "label": "Under occupant N1 in the explicitly constructed immanent-location frame…, by Constructive-proof",
+  "legacy_id": "INF-NATURALISM-IMMANENT-LAWS-INSTANTIATED",
   "input_statement_ids": [
-    "STMT-NATURALISM-N1"
+    "f54cc1ad-8913-52ec-abf1-be30f76a03bc"
   ],
-  "output_statement_id": "STMT-NATURALISM-IMMANENT-LAWS-INSTANTIATED",
+  "output_statement_id": "48360846-0181-5904-9870-536de28d0ed7",
   "rule": "constructive-proof",
   "meaning": "Unpack N1 at a represented law entity, then unpack its concrete instance-derived location to recover an existing bearer and its instantiation. A checked companion excludes existing uninstantiated law representatives. This is conditional on the selected representation/location profile, not an independent defense of immanent universals or the truth of N1.",
   "assumption_statement_ids": [],

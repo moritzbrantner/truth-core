@@ -1,20 +1,22 @@
 {
-  "id": "REVELATION-RECOGNITION-SCOPE-MODELS",
+  "id": "210d65cf-2956-5ca8-b759-f95577378f78",
+  "label": "Six schema controls witness actual cut-off with capability and nonactual shared recognition…",
+  "legacy_id": "REVELATION-RECOGNITION-SCOPE-MODELS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-REVELATION-RECOGNITION-MODELS",
+  "conclusion_statement_id": "24a81e03-9b03-5449-be63-7f0ad7b0063d",
   "inference_ids": [
-    "INF-REVELATION-RECOGNITION-SCOPE-MODELS"
+    "2ddb4133-f3e5-531d-affc-9429fd822606"
   ],
   "meaning": "Six finite controls reuse the existing DivineFounding signature and vary only the stated recognition situations/predicates. Actual insulation can coexist with capacity via another situation; realization/sharedness/nonempty God and admitted-subset coverage each have a concrete failure control. Full calibration is stricter than its one-way direction. These are schema controls, not modal or historical completeness.",
   "definition_ids": [
-    "DEF-REVELATION-RECOGNITION-PROFILE",
-    "DEF-GOD-OF-CLASSICAL-THEISM",
-    "DEF-WITTGENSTEINIAN-FIDEISM",
-    "DEF-NATURAL-REASON-SHARED",
-    "DEF-REVELATION-ACTUAL-PRACTICE-RECOGNITION"
+    "c0b671c6-ae2f-5ccb-9330-6bd8f4bda866",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "8c86d489-cd62-5d8e-9207-2d846caf9c14",
+    "11d72af9-f562-5ef0-934e-556e0a6dcb83",
+    "c6310dd8-4b5b-5f2e-ac10-461424bf1b3e"
   ],
   "disambiguation_ids": [
-    "DISAMB-REVELATION-CAPABILITY-AND-PRACTICE-UPTAKE",
-    "DISAMB-PRACTICE-SENSITIVITY-AND-FIDEIST-INSULATION"
+    "1fd4651d-77a7-5f25-9a1c-e28df367c602",
+    "5fd26045-b3db-5820-a055-cd8c89bc41e5"
   ]
 }

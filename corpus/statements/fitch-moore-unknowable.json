@@ -1,12 +1,14 @@
 {
-  "id": "STMT-FITCH-MOORE-UNKNOWABLE",
+  "id": "c5485061-57f0-58cb-a5ac-630336d74210",
+  "label": "The selected Moore conjunction cannot be known at any world modally accessible from actuality",
+  "legacy_id": "STMT-FITCH-MOORE-UNKNOWABLE",
   "paraphrase": "The selected Moore conjunction cannot be known at any world modally accessible from actuality.",
   "lean_declaration": "TruthCore.Logic.FitchKnowability.MooreUnknowable",
   "definition_ids": [
-    "DEF-FITCH-WORLD-INDEXED-KNOWLEDGE",
-    "DEF-FITCH-ADMISSIBLE-CONTENTS"
+    "4c0b6f4b-25fe-54c5-abce-5e866775385c",
+    "8cdd567b-c06b-5c6f-8a3a-f785e6c83fde"
   ],
   "disambiguation_ids": [
-    "DISAMB-FITCH-OPERATOR-SCOPE"
+    "840d320e-ed3b-553b-b0dd-750c61c298ba"
   ]
 }

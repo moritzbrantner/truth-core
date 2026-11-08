@@ -1,6 +1,8 @@
 {
-  "id": "WF-FAILS-AS-DESCRIPTION-OF-CATHOLIC-PRACTICE",
-  "argument_id": "WF-FAILS-AS-DESCRIPTION-OF-CATHOLIC-PRACTICE",
+  "id": "e66766c7-1749-5e2b-b604-29294f4e1b09",
+  "label": "WITTGENSTEINIAN_FIDEISM_2 in its…, from In the Catholic practice, the First Vatican… and 2 more",
+  "legacy_id": "WF-FAILS-AS-DESCRIPTION-OF-CATHOLIC-PRACTICE",
+  "argument_id": "20ce0d06-e4b0-502d-a35b-7295e1bba4de",
   "challenge_module": "TruthCore.Results.Alternatives.FideismCatholicPractice.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.FideismCatholicPractice.Solution",
   "theorem": "TruthCore.Results.Alternatives.FideismCatholicPractice.fideismFailsAsDescription",

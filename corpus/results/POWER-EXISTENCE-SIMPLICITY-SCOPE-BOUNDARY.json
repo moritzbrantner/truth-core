@@ -1,6 +1,8 @@
 {
-  "id": "POWER-EXISTENCE-SIMPLICITY-SCOPE-BOUNDARY",
-  "argument_id": "POWER-EXISTENCE-SIMPLICITY-SCOPE-BOUNDARY",
+  "id": "a268b937-edc1-5f68-b996-9f3489809979",
+  "label": "There is a finite universally accessible model with an actual source-to-effect power-transmission…",
+  "legacy_id": "POWER-EXISTENCE-SIMPLICITY-SCOPE-BOUNDARY",
+  "argument_id": "463e2529-1b0b-5ede-8927-525d6a60f845",
   "challenge_module": "TruthCore.Results.Causality.PowerExistenceBoundary.Challenge",
   "solution_module": "TruthCore.Results.Causality.PowerExistenceBoundary.Solution",
   "theorem": "TruthCore.Results.Causality.PowerExistenceBoundary.powerExistenceBoundary",

@@ -1,9 +1,11 @@
 {
-  "id": "REL-Q44-A1-PARTICIPATED-SUPPORTS-OTHERS-PARTICIPATE-ESSE",
+  "id": "faa7e3c0-1e51-5029-8e05-c1d4aad1be79",
+  "label": "Thomas Aquinas, Summa theologiae I q.44… supports Everything other than p has its being by…",
+  "legacy_id": "REL-Q44-A1-PARTICIPATED-SUPPORTS-OTHERS-PARTICIPATE-ESSE",
   "subject_kind": "claim",
-  "subject_id": "AQUINAS-ST-I-Q44-A1-PARTICIPATED-ESSE-CAUSE",
+  "subject_id": "11b0106d-9061-54c3-bc53-82a3acaaddd2",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-OTHERS-THAN-PRIMARY-PARTICIPATE-ESSE",
+  "object_id": "11e24b50-06bc-5e2e-b9b6-a4e4dc421237",
   "note": "The claim reads q.44 a.1 co. and ad 1: the corpus argues from participated being to the first being whose esse belongs essentially, and DEF-PARTICIPATED-ESSE records that the article attributes such being to what is other than God. The claim's own reading is the step from participation to being caused. The premise says of the primary p of an arbitrary approach order that everything other than p has participated being; identifying p with the one whose esse is essential is the analyst's."
 }

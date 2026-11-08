@@ -1,9 +1,11 @@
 {
-  "id": "REL-PHILLIPS-LATE-SUPPORTS-GRAMMAR-FIXES-REFERENCE",
+  "id": "9ba82cdc-46c1-57a6-8337-6c5dc85e72fe",
+  "label": "Michael Scott, Religious Language §4.1…… supports Open bridge, unattributed: a correct move…",
+  "legacy_id": "REL-PHILLIPS-LATE-SUPPORTS-GRAMMAR-FIXES-REFERENCE",
   "subject_kind": "claim",
-  "subject_id": "SEP-RELIGIOUS-LANGUAGE-4-1-PHILLIPS-LATE-INTERNAL-A",
+  "subject_id": "5971ba9e-ed41-51b9-b54e-bd68a4af3b4e",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-GRAMMAR-FIXES-REFERENCE",
+  "object_id": "77855f42-21c8-52ad-8f45-0824ddfb8b33",
   "note": "Late Phillips allows that 'God' functions as a referring expression and holds that what reference amounts to must be shown in the religious context. That makes reference something the religious use settles. Gap: he does not say that a correct confession suffices for the name to refer, and early Phillips (WF-P1) is not bound by it."
 }

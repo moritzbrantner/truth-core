@@ -1,7 +1,9 @@
 {
-  "id": "INF-LOGIC-JUSTIFICATION-INTROSPECTION",
+  "id": "5ef4359a-ab65-5a26-a60b-7872c58b88e2",
+  "label": "In the stipulated relational epistemic profile, transitivity and a global…, by Constructive-proof",
+  "legacy_id": "INF-LOGIC-JUSTIFICATION-INTROSPECTION",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-JUSTIFICATION-INTROSPECTION-BOUNDARY",
+  "output_statement_id": "c6618d04-ac6c-5d5e-aafd-f36c7ac5e792",
   "rule": "constructive-proof",
   "meaning": "Compose the existing axiom4_valid theorem with a separately supplied global knowledge/justification condition; construct a reflexive nontransitive finite countermodel. The frame condition and norm are antecedents within the universally quantified theorem, not established philosophical premises.",
   "assumption_statement_ids": [],

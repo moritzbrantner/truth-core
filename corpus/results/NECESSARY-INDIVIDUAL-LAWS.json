@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-INDIVIDUAL-LAWS",
-  "argument_id": "NECESSARY-INDIVIDUAL-LAWS",
+  "id": "803298b6-0496-5105-a514-ef675486813b",
+  "label": "Exact conditional quantifier laws: a fixed necessary witness implies necessary exemplification…",
+  "legacy_id": "NECESSARY-INDIVIDUAL-LAWS",
+  "argument_id": "a5dde471-efec-53bb-b201-165430023f05",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.Laws.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.Laws.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.Laws.checks",

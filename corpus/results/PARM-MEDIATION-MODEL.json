@@ -1,6 +1,8 @@
 {
-  "id": "PARM-MEDIATION-MODEL",
-  "argument_id": "PARM-MEDIATION-MODEL",
+  "id": "64e7062e-91ae-5b7b-a85e-e60a54c3ce7a",
+  "label": "A finite cognition interpretation has human and divine modes on distinct sides, successful…",
+  "legacy_id": "PARM-MEDIATION-MODEL",
+  "argument_id": "d2ac7677-a1c7-5fbe-bf4e-bb2bc3ab9181",
   "challenge_module": "TruthCore.Results.Greek.Plato.Parmenides.MediationModel.Challenge",
   "solution_module": "TruthCore.Results.Greek.Plato.Parmenides.MediationModel.Solution",
   "theorem": "TruthCore.Results.Greek.Plato.Parmenides.MediationModel.mediationModel",

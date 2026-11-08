@@ -1,18 +1,20 @@
 {
-  "id": "GROUND-ENABLING-CYCLE-CONTROL",
+  "id": "06b4ab6a-6403-528f-b571-df8fbb2f6622",
+  "label": "The four-event raw ground-rule graph is well-founded and cycle-free; both all-on and all-off…",
+  "legacy_id": "GROUND-ENABLING-CYCLE-CONTROL",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-GROUND-ENABLING-CYCLE-CONTROL",
+  "conclusion_statement_id": "6516d186-4380-5942-b00b-2f5cf12b2723",
   "inference_ids": [
-    "INF-GROUND-ENABLING-CYCLE-CONTROL"
+    "efad29a6-372b-5bda-ac0c-cb29d5cb7d6a"
   ],
   "meaning": "Separate raw/enabling relations; reuse exact graph WF controls and Mathlib SCC equivalence from CondensationSufficiency.comp_eq_iff; exhibit two fixed assignments and full-union cycle.",
   "definition_ids": [
-    "DEF-PSR-STRENGTH-ARENA",
-    "DEF-GROUND-ENABLING-RULES",
-    "DEF-REGRESS-SCHEMA-GRAPH",
-    "DEF-FACT-DEPENDENCY-WELL-FOUNDED"
+    "fe4b7da0-cbd6-5d1f-b589-953f9def12b7",
+    "cf9bec81-7df3-51fa-8389-04e06302dfb4",
+    "1dff2d68-1348-5e7e-8ee7-248af63c8c53",
+    "303d8860-4e9b-5ae0-b726-a07e0f592df9"
   ],
   "disambiguation_ids": [
-    "DISAMB-GROUNDING-BASELINE-SENSES"
+    "e940ca85-8b6b-53ea-9c3a-4fd5693ad534"
   ]
 }

@@ -1,15 +1,17 @@
 {
-  "id": "AQUINAS-SCG-I-18-COMPOSER-IS-EFFICIENT-CAUSE",
-  "statement_id": "STMT-COMPOSER-IS-EFFICIENT-CAUSE-OF-COMPOSITE",
-  "source_id": "AQUINAS-SCG",
+  "id": "e017e2d6-30fd-5344-9b59-76a34712dc09",
+  "label": "Thomas Aquinas, Summa contra gentiles I.18…: Whatever composes a composite, uniting into one…",
+  "legacy_id": "AQUINAS-SCG-I-18-COMPOSER-IS-EFFICIENT-CAUSE",
+  "statement_id": "f3b79f16-5c0b-5b20-92c5-7fae38239ec7",
+  "source_id": "0292b788-8058-5069-afde-4a19b82b5604",
   "locator": "I.18 n.4 [23649]: Componens autem est causa efficiens compositi",
   "interpretation": "The passage states that the composer is the efficient cause of the composite. The componens is identified in the same paragraph as that by which things plural in themselves are united into one ('quae autem secundum se sunt plura, in unum non convenirent nisi ab aliquo componente unirentur'), which is the uniting cause of DEF-UNITING-CAUSE. The sentence is a general premise of the reductio about God ('autem'), not part of the hypothesis 'si compositus esset Deus'. It carries no temporal qualifier, so it is bound to the time-neutral STMT-COMPOSER-IS-EFFICIENT-CAUSE-OF-COMPOSITE. It does not state STMT-UNITING-CAUSE-IS-EFFICIENT, whose EfficientlyCausesIn is efficient causing here and now (DEF-EFFICIENT-CAUSING): the sentence does not say that every composer, including a past one, is a present efficient cause (Codex review on #995). It supports that premise and STMT-UNITING-CAUSE-CAUSES-COMPOSITE-BEING through recorded supports relations. The paragraph's 'nihil est causa sui ipsius' is not used here.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-UNITING-CAUSE"
+    "f930c63f-f79a-507c-9462-b572480c6808"
   ],
   "disambiguation_ids": [
-    "DISAMB-UNITING-CAUSE"
+    "57f80020-fa6f-5b69-be58-b4cf95b7226f"
   ],
   "attribution": "The passage states that things plural in themselves are united through a composer and that the composer is an efficient cause of the composite, which is the unchanged time-neutral premise, without a temporal qualifier selecting either new calibration."
 }

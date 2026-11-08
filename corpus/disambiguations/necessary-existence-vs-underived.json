@@ -1,10 +1,12 @@
 {
-  "id": "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED",
+  "id": "5d15d8f2-1080-53c9-886f-cee2a4ff23a9",
+  "label": "De re necessary existence, absent existential support and double-negation assertion",
+  "legacy_id": "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED",
   "term": "de re necessary existence, absent existential support and double-negation assertion",
   "sense_definition_ids": [
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-NECESSARILY-UNDERIVED",
-    "DEF-NONREFUTABLE-NECESSARILY-UNDERIVED"
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "7b0b109c-ad03-59a3-a81c-d0e027e91f95",
+    "c94f549c-1d4f-5405-be4c-44327859bbd4"
   ],
   "resolution": "NecessaryAt means the same bearer exists at accessible worlds, not that its essence explains existence. NecessarilyUnderived additionally excludes all existing direct supporters of one actual necessary bearer at every admitted world; it does not assert uniqueness or divine attributes. NonRefutableNecessarilyUnderived is the constructive double negation of that existential claim, not a positive witness. The positive result explicitly uses the separate STMT-EXCLUDED-MIDDLE. NECESSARILY-UNDERIVED-FROM-ACTUAL-GROUNDED passes from a necessary actual root to NecessarilyUnderived only through the explicit open premises STMT-NECESSARY-SUPPORT-IS-PRESENT and STMT-ACTUAL-SUPPORTERS-CONCRETE; UNDERIVED-ROUTE-CONTROLS has necessary actual roots that are not underived."
 }

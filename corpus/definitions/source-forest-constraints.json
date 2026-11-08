@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SOURCE-FOREST-CONSTRAINTS",
+  "id": "f64856c0-6d2c-5c5d-97ef-9895039d8c27",
+  "label": "Weak causal connectivity, upstream…: Graph.edge y x points from upstream y to dependent x",
+  "legacy_id": "DEF-SOURCE-FOREST-CONSTRAINTS",
   "term": "weak causal connectivity, upstream confluence and source uniqueness",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Causality.SourceForest.UpstreamConfluent",

@@ -1,5 +1,7 @@
 {
-  "id": "STMT-ALTERNATIVE-PREDICATES-DO-NOT-NECESSITATE-MOTION",
+  "id": "4b6f1d70-b2fc-57e1-a06f-8437947d826d",
+  "label": "Being different, unequal, or a non-being does not by itself necessitate being in motion",
+  "legacy_id": "STMT-ALTERNATIVE-PREDICATES-DO-NOT-NECESSITATE-MOTION",
   "paraphrase": "Being different, unequal, or a non-being does not by itself necessitate being in motion.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.AlternativePredicatesDoNotNecessitateMotionReading"
 }

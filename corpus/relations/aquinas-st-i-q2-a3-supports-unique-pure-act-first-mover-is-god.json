@@ -1,9 +1,11 @@
 {
-  "id": "REL-AQUINAS-ST-I-Q2-A3-SUPPORTS-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD",
+  "id": "99c31aea-8385-54a9-90cb-dd2a5719e7bf",
+  "label": "Thomas Aquinas, Summa theologiae I q.2… supports A first mover moved by none that is…",
+  "legacy_id": "REL-AQUINAS-ST-I-Q2-A3-SUPPORTS-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD",
   "subject_kind": "claim",
-  "subject_id": "AQUINAS-ST-I-Q2-A3-UNDERSTOOD-AS-GOD-A",
+  "subject_id": "bf22a4a1-b47d-5a00-ab13-b6c260a6bbaa",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD",
+  "object_id": "a594d8c4-8d2e-5de3-b719-f1a8ee3b7b96",
   "note": "ST I q.2 a.3 co., prima via, 'et hoc omnes intelligunt Deum', says that the first mover moved by none is what everyone understands as God. That is a report of how the name is used. The premise needs more: that a first mover which is pure act and the only first unmoved mover is God in the sense of the God of classical theism (DEF-GOD-OF-CLASSICAL-THEISM), which the sentence does not state (DISAMB-GOD). The sentence also does not use the pure-act and uniqueness antecedents. Aquinas argues the attributes later (ST I qq.3-26, candidate AQUINAS-ST-I-Q3-Q26-IDENTIFICATION). Deriving them would still not give IsGod f: IsGod is an independent predicate, and STMT-CLASSICAL-ATTRIBUTES-SUFFICE concludes only HasClassicalAttributes. Closing the premise also needs an explicit sufficiency or identification bridge, from the mover's established description to IsGod (Codex review on #1000)."
 }

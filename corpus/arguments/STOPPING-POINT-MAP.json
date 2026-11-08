@@ -1,25 +1,27 @@
 {
-  "id": "STOPPING-POINT-MAP",
+  "id": "e6c9b54d-3e89-50eb-bac3-ce5d05ae8d46",
+  "label": "A contingent truth, no brute contingent truth at that world, factive and necessitating reasons…",
+  "legacy_id": "STOPPING-POINT-MAP",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-STOPPING-POINT-MAP",
+  "conclusion_statement_id": "27355add-3c57-53e7-aa1d-07105d2c5464",
   "inference_ids": [
-    "INF-STOPPING-POINT-MAP"
+    "5cb880f3-64ce-561f-996b-f6e5e333dae7"
   ],
   "meaning": "Which uniform tests each named stopping point passes, and what any stop must give up. Conditional consequence and analyst-built models only; interpretation and limits are in docs/notes/stopping-points-746.md.",
   "definition_ids": [
-    "DEF-PSR-STRENGTH-ARENA",
-    "DEF-PSR-STRENGTH-SCOPE",
-    "DEF-PSR-STRENGTH-REASON",
-    "DEF-PSR-REASON-NECESSITATING",
-    "DEF-PSR-REASON-INDEPENDENT",
-    "DEF-PSR-RESTRICTED-SCOPE",
-    "DEF-DEMAND-STANCE",
-    "DEF-EXEMPTION-STANDING",
-    "DEF-STOP-TERMINAL",
-    "DEF-STOP-WORK-TESTS"
+    "fe4b7da0-cbd6-5d1f-b589-953f9def12b7",
+    "566c9d5f-0cd9-5c6b-87f2-855956d9d35f",
+    "179d4557-bda1-59c4-938a-b91e9974a27f",
+    "3055e6f1-5de7-5c32-9b6f-d023d0c82025",
+    "4669119e-8bb3-5586-8ecb-6b3eba599efe",
+    "fad6a806-713b-5318-8309-488af704d614",
+    "18c03398-75c1-5903-90a9-ba0d901b64ab",
+    "80a258e8-3837-5a70-b63e-15f1920ed02b",
+    "6c7d2b21-8446-5e8c-bb10-ef1a58a8d735",
+    "a23a7c45-3ca9-5604-9c16-aec5cf89d778"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-REASON-NECESSITATING",
-    "DISAMB-BRUTE-TERMINAL-UNREASONED"
+    "f9e260b1-c206-5d41-a054-fac13cf68e67",
+    "7aba7955-aa37-5b08-a170-8420d6142d78"
   ]
 }

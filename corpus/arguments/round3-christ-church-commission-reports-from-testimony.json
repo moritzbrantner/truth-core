@@ -1,20 +1,22 @@
 {
-  "id": "ROUND3-CHRIST-CHURCH-COMMISSION-REPORTS-FROM-TESTIMONY",
+  "id": "dd5c4e92-ef3e-56c8-9757-bfe2f10f03bb",
+  "label": "Report-to-event premise: the commission reported in Matthew 28.18-20 goes back to…, from testimony",
+  "legacy_id": "ROUND3-CHRIST-CHURCH-COMMISSION-REPORTS-FROM-TESTIMONY",
   "premise_statement_ids": [
-    "STMT-MT28-AND-JN21-REST-ON-TESTIMONY",
-    "STMT-TESTIMONY-OF-THOSE-PRESENT-IS-ACCURATE"
+    "3b01545c-78ae-5b26-b55b-d346b9c3c720",
+    "1d693b5c-ea47-5df4-baae-d034bfddba42"
   ],
-  "conclusion_statement_id": "STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS",
+  "conclusion_statement_id": "da573220-03c0-5361-a1d7-e117e78e2b77",
   "inference_ids": [
-    "INF-ROUND3-CHRIST-CHURCH-COMMISSION-REPORTS-FROM-TESTIMONY"
+    "85dc2d58-01d1-517d-8f28-ff8c08a0b880"
   ],
   "meaning": "Matthew 28.18-20 and John 21.15-17 rest on the testimony of those present, and such testimony is accurate; so both commissions go back to Jesus, and John 21's (shepherding) is one of the four governing reports. Two open premises; each is needed.",
   "definition_ids": [
-    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
-    "DEF-COMMISSION-REPORT-POWERS",
-    "DEF-COMMISSION-TESTIMONY"
+    "6dea072c-97c4-5ee9-9958-a3da6a2a049c",
+    "66200ff6-4af8-5b8f-a2c8-08ddf2d0f072",
+    "f8cfd9ac-819c-5a78-b51b-5688f88fa0ed"
   ],
   "disambiguation_ids": [
-    "DISAMB-COMMISSION-REPORT-AND-EVENT"
+    "0f180711-5550-55b5-9da8-699215d6d95e"
   ]
 }

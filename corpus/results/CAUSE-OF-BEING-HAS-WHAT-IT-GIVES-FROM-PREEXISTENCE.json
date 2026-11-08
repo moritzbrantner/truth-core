@@ -1,6 +1,8 @@
 {
-  "id": "CAUSE-OF-BEING-HAS-WHAT-IT-GIVES-FROM-PREEXISTENCE",
-  "argument_id": "CAUSE-OF-BEING-HAS-WHAT-IT-GIVES-FROM-PREEXISTENCE",
+  "id": "41ccadda-be7e-5078-af8d-c199a8b671e0",
+  "label": "Weak, cause-of-being version of cause has what it gives: whatever causes a…, from preexistence",
+  "legacy_id": "CAUSE-OF-BEING-HAS-WHAT-IT-GIVES-FROM-PREEXISTENCE",
+  "argument_id": "90e85f77-9e24-56d5-af19-172fc28b55a1",
   "challenge_module": "TruthCore.Results.Causality.CausalMapsBatch1.Challenge",
   "solution_module": "TruthCore.Results.Causality.CausalMapsBatch1.Solution",
   "theorem": "TruthCore.Results.Causality.CausalMapsBatch1.causeOfBeingHasWhatItGives",

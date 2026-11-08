@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "NEWTON-PRINCIPIA",
+    "source_id": "c73b6af0-a42f-505f-a759-ec50a50e75a9",
     "source_url": "https://la.wikisource.org/w/index.php?title=Pagina:Principia_newton_la.djvu/8&action=raw&oldid=98404",
     "retrieved_at": "2026-10-27T01:10:35Z",
     "sha256": "sha256:3325a34436bfeeca40762c7a8cd9b0635d2d10e908108c0f24186fceaeaf237b",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "NEWTON-PRINCIPIA-DEFINITIONES-I-III",
+      "id": "c808e265-f167-580c-9281-0fbdf3ddb555",
+      "label": "Isaac Newton, Philosophiae naturalis principia mathematica, Definitiones, Def. i iii",
+      "legacy_id": "NEWTON-PRINCIPIA-DEFINITIONES-I-III",
       "locator": "Definitiones, Def. I-III (Wikisource page 8)",
       "claim_locator_prefixes": [
         "Definitiones, Def. III:"

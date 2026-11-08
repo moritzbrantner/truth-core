@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-PHAEDO-CAUSE-AND-CONDITION",
+  "id": "75be9568-f157-51ba-b94a-f395c2412b7e",
+  "label": "Cause and indispensable condition in Phaedo 99a–101c",
+  "legacy_id": "DISAMB-PHAEDO-CAUSE-AND-CONDITION",
   "term": "cause and indispensable condition in Phaedo 99a–101c",
   "sense_definition_ids": [
-    "DEF-PHAEDO-ENABLING-CONDITION",
-    "DEF-PHAEDO-BEST-EXPLANATORY-AIM"
+    "27fa4597-515b-591d-aee1-0b3482aa8be2",
+    "ce9755c3-ce17-553f-b2d7-4c73aa6e65f5"
   ],
   "resolution": "The bodily prerequisites of the action example, explanation through the choice of what is best, the safe answer for being F, and a cause of coming-to-be have different explanatory roles. Socrates grants the first while withholding its sufficiency for the second; the second-voyage discussion then proposes Forms for the third. No equivalence between these roles is inferred. In particular the example does not establish that every physical explanation is inadequate, that a Phaedo Form is an efficient producer, or that it is the separate maker of the Timaeus."
 }

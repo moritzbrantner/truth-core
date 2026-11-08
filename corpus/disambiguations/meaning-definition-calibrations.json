@@ -1,14 +1,16 @@
 {
-  "id": "DISAMB-MEANING-DEFINITION-CALIBRATIONS",
+  "id": "b6529c83-9b6c-56f4-a87e-39d31f4f2126",
+  "label": "Meaningful: independent predicate, one-way condition, full calibration or proposal membership",
+  "legacy_id": "DISAMB-MEANING-DEFINITION-CALIBRATIONS",
   "term": "meaningful: independent predicate, one-way condition, full calibration or proposal membership",
   "sense_definition_ids": [
-    "DEF-VERIFICATION-PRINCIPLE",
-    "DEF-MEANING-CRITERION-CALIBRATION",
-    "DEF-MEANING-V1-DEFINITION",
-    "DEF-MEANING-V2-DEFINITION",
-    "DEF-MEANING-V3-DEFINITION",
-    "DEF-MEANING-ALL-IN-SCOPE",
-    "DEF-MEANING-NAMED-COVERAGE"
+    "d3d9f3a5-7791-552c-8271-5cb1aeccfb15",
+    "cb72d072-0cc7-5523-8777-a3bd8f1779dc",
+    "174e16a5-0fda-5b18-976c-8f4f239656ae",
+    "86456f28-cadd-5976-9cff-ea771779c5b5",
+    "ab90f56f-7dca-5602-8464-0e24091d0d10",
+    "e527ec55-0b4e-5a8c-be97-d6c4a11fbe37",
+    "7edf53fe-0b8a-5bd2-b023-9e847c9ef46a"
   ],
   "resolution": "The existing one-way principle is necessary-only and is not a full definition. These new independent propositions calibrate V1/V2/V3 or all-in-scope to the independent predicate on an explicit scope. Existing StrongVerificationismWithLaws and Ayer1946ExcludesANegation already retain full biconditionals and are preserved. All-admitted fails an explicitly supplied exclusion goal, not every possible meaning account. Named coverage remains open; its additional-extension rival denies coverage under exactly this extensional profile. V4 expressive membership/pragmatic adoption is a different question (DISAMB-V4-PROPOSAL-MEANING-AND-TRUTH), not a fifth interchangeable cognitive-meaning predicate. See docs/notes/meaning-definition-fork.md."
 }

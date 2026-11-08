@@ -1,11 +1,13 @@
 {
-  "id": "INF-WF-FAILS-AS-DESCRIPTION-OF-CATHOLIC-PRACTICE",
+  "id": "070496a4-c6ec-565f-b179-da26f130c182",
+  "label": "WITTGENSTEINIAN_FIDEISM_2 in its sharp form does not hold of the Catholic practice…, by Reductio",
+  "legacy_id": "INF-WF-FAILS-AS-DESCRIPTION-OF-CATHOLIC-PRACTICE",
   "input_statement_ids": [
-    "STMT-DEI-FILIUS-DEFINES-NATURAL-KNOWABILITY-OF-GOD",
-    "STMT-CONCILIAR-DEFINITION-IS-PRACTICE-OWN-STANDARD",
-    "STMT-NATURAL-REASON-IS-SHARED-REASON"
+    "e18b3b90-33fa-5155-bd0e-6560a9fe98b8",
+    "b247cea8-0b8a-5e19-8c47-5f100c1820c8",
+    "c87ffcb8-9a44-5e02-a68b-13d0282ae930"
   ],
-  "output_statement_id": "STMT-WF-FAILS-AS-DESCRIPTION-OF-CATHOLIC-PRACTICE",
+  "output_statement_id": "ab44c097-2930-52a8-b10b-df447c8c6738",
   "rule": "reductio",
   "meaning": "Suppose the fideist pair holds of the practice. The council defines a move affirming natural knowability of God; what the council defines is endorsed by the practice's own standards, so by the internal-grammar thesis the move is correct; it answers to shared reason, so by the cut-off thesis it is not correct. Contradiction.",
   "assumption_statement_ids": [],

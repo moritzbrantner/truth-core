@@ -1,6 +1,8 @@
 {
-  "id": "AYER-1936-EXCLUSION-FAILS",
-  "argument_id": "AYER-1936-EXCLUSION-FAILS",
+  "id": "2d032de7-5ab9-5c0d-af09-d60c4a73088d",
+  "label": "No language and frame satisfy the V2 exclusion thesis: every sentence whose negation does not…",
+  "legacy_id": "AYER-1936-EXCLUSION-FAILS",
+  "argument_id": "c93862da-e2c1-5ddc-aeda-9050b14a84b2",
   "challenge_module": "TruthCore.Results.Logic.Verificationism.Ayer1936Exclusion.Challenge",
   "solution_module": "TruthCore.Results.Logic.Verificationism.Ayer1936Exclusion.Solution",
   "theorem": "TruthCore.Results.Logic.Verificationism.Ayer1936Exclusion.ayer1936ExclusionFails",

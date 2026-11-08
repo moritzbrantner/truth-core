@@ -1,10 +1,12 @@
 {
-  "id": "INF-STRICT-CALIBRATION-FROM-APPROACH-MEASURE",
+  "id": "fdb7dab8-2763-58c2-8442-302a95d57654",
+  "label": "For two bearers of the selected perfection, MoreIn holds exactly…, by Transport of strict order…",
+  "legacy_id": "INF-STRICT-CALIBRATION-FROM-APPROACH-MEASURE",
   "input_statement_ids": [
-    "STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY",
-    "STMT-DEGREE-AS-MUCH-AS-APPROACH"
+    "82286a91-a610-52d2-9f28-2cc459a75ac7",
+    "331f4751-598a-5f67-ab1f-eb4a12d17bf5"
   ],
-  "output_statement_id": "STMT-MORE-IN-MATCHES-STRICT-REPRESENTED-DEGREE",
+  "output_statement_id": "70508140-d427-5a99-9be0-ae12ac905302",
   "rule": "Transport of strict order along an order-matching map (lt as le and not ge)",
   "meaning": "In a calibration frame, if being more such is approaching the primary more nearly at the selected perfection, and the represented degrees are ordered exactly as the nearness to the primary (each thing has as much as it approaches), then among bearers being more such is having a strictly higher represented degree. The approach order is given at the frame's own MoreIn and selected perfection; the transport needs no totality.",
   "assumption_statement_ids": [],

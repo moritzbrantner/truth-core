@@ -1,16 +1,18 @@
 {
-  "id": "STMT-ACTUAL-ROOT-DETERMINATIONS-ARE-PURE",
+  "id": "3b39e0ba-eb4a-5708-90d0-c2706094d43c",
+  "label": "Every real determination of an actual concrete root of the selected grounding relation at w is a…",
+  "legacy_id": "STMT-ACTUAL-ROOT-DETERMINATIONS-ARE-PURE",
   "paraphrase": "OPEN, unattributed: every real determination of an actual concrete root of the selected grounding relation at w is a pure perfection; such a root has no real limiting, receiving or individuating principle that is not an actuality without potency.",
   "lean_declaration": "TruthCore.Causality.PureActRoot.ActualRootDeterminationsArePure",
   "definition_ids": [
-    "DEF-ACTUAL-ROOT",
-    "DEF-REAL-DETERMINATION",
-    "DEF-PURE-PERFECTION",
-    "DEF-STRICT-PURE-ACTUALITY"
+    "52352824-6be9-53c6-83d4-82fed9a08cbb",
+    "3aba5f19-f48d-50db-bc57-93ba2e99f845",
+    "65e38ffa-5a1c-55d0-935c-6538d843b780",
+    "b5ac268c-7497-5780-a154-3f84c34ac709"
   ],
   "disambiguation_ids": [
-    "DISAMB-THISNESS-REAL-BARE",
-    "DISAMB-PURE-ACT-STRICTNESS",
-    "DISAMB-PERFECTION-SCOPE"
+    "567c3e74-9514-52d9-b3b6-f5a3af078784",
+    "b1640e51-d7d4-5a80-9992-29fa1ded8048",
+    "dc9c0a1b-1759-5b1c-9ab9-ee7bea8847b7"
   ]
 }

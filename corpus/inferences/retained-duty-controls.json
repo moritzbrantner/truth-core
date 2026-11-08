@@ -1,7 +1,9 @@
 {
-  "id": "INF-RETAINED-DUTY-CONTROLS",
+  "id": "31f78aa3-5bb1-5408-8e72-4b1237b5c734",
+  "label": "Closed finite controls witness each direct-core and full retained-core…, by Model-construction",
+  "legacy_id": "INF-RETAINED-DUTY-CONTROLS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-RETAINED-DUTY-CONTROLS",
+  "output_statement_id": "637d4e76-0394-5b11-bf7a-efe6e6ce21dc",
   "rule": "model-construction",
   "meaning": "Closed finite controls witness each direct-core and full retained-core single-premise omission. A debt case has possible later ability without present ability or actual repayment; a destroyed-original case retains duty and accountability without future original-return ability while compensation is future-feasible but not owed. A lapsed duty coexists with accountability. The future-ability repair is composed from the exact imported compatibility theorem under a duty-to-ideal bridge and ideal/future overlap, with the old certificate reused. All are stipulated formal cases, not empirical possibilities or moral facts; attribution deferred, root-premise delta zero.",
   "assumption_statement_ids": [],

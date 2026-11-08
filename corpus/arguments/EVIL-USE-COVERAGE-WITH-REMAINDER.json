@@ -1,24 +1,26 @@
 {
-  "id": "EVIL-USE-COVERAGE-WITH-REMAINDER",
+  "id": "ed68067b-7533-5bfb-901f-c1e6b05c5626",
+  "label": "For a fixed critic-utterance interpretation and…, from Excluded middle as a general principle…",
+  "legacy_id": "EVIL-USE-COVERAGE-WITH-REMAINDER",
   "premise_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-EVIL-USE-COVERAGE-WITH-REMAINDER",
+  "conclusion_statement_id": "07661988-79d7-5985-86c0-7c646dc69a51",
   "inference_ids": [
-    "INF-EVIL-USE-COVERAGE-WITH-REMAINDER"
+    "327b15a7-663b-53fd-8207-01dbd9415578"
   ],
   "meaning": "Excluded middle covers the three named diagnostic conditions only by retaining their exact joint-negation remainder. Coverage excluding that remainder remains a separate open proposition; no mutual exclusivity or philosophical-school exhaustiveness follows.",
   "definition_ids": [
-    "DEF-EVIL-OBJECTION-CRITIC",
-    "DEF-EVIL-OBJECTION-USES",
-    "DEF-INTERNAL-PERMISSION-CHALLENGE",
-    "DEF-AFFECTIVE-BADNESS-ANALYSIS"
+    "b3d5b1ba-35a4-5404-b467-66d1bb61954b",
+    "cc71b261-8c7f-5ff8-99be-2a8b7075807b",
+    "cc9e4e40-da7a-5fb7-9322-194cff59a2bd",
+    "c691e9a5-d493-5ee2-9efb-e52db55751cd"
   ],
   "disambiguation_ids": [
-    "DISAMB-EVIL-OBJECTION-SEMANTICS",
-    "DISAMB-MORAL-ANTIREALISM",
-    "DISAMB-TRUE",
-    "DISAMB-ROWE-SUFFERING-AND-CULPA",
-    "DISAMB-ROWE-APPARENT-AND-ACTUAL"
+    "eb8b6927-4ee4-51e8-985b-061003656ba4",
+    "8ee14b40-9ec9-500b-bf89-e19cf52b6b4a",
+    "80b5fc49-ed55-5c61-b14b-3621d2aa1520",
+    "008747c9-744a-581c-adad-570e834abb4e",
+    "51142f83-40ad-50a3-83be-a6062eee1256"
   ]
 }

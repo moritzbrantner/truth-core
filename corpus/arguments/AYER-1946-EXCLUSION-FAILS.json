@@ -1,19 +1,21 @@
 {
-  "id": "AYER-1946-EXCLUSION-FAILS",
+  "id": "00ceab1d-418c-5fef-a47a-3511bfdeb703",
+  "label": "No language and frame satisfy the V3 exclusion thesis: wherever Church's three observation…",
+  "legacy_id": "AYER-1946-EXCLUSION-FAILS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-AYER-1946-EXCLUSION-FAILS",
+  "conclusion_statement_id": "a62f2a66-a830-59a9-9b96-566d5f131e78",
   "inference_ids": [
-    "INF-AYER-1946-EXCLUSION-FAILS"
+    "518224c6-8f9c-5641-8068-51b25c1f0e3a"
   ],
   "meaning": "From Church's trivialization and no premises: if a sentence m and its negation were both not literally meaningful by the 1946 criterion, the negation would in particular not be directly verifiable, so m would be indirectly verifiable and hence meaningful. So no language with Church's observation statements satisfies the V3 exclusion thesis STMT-AYER-1946-EXCLUDES-SENTENCE-AND-NEGATION, which this argument refutes.",
   "definition_ids": [
-    "DEF-AYER-1946-VERIFIABILITY",
-    "DEF-EMPIRICIST-FRAME",
-    "DEF-LITERAL-MEANINGFULNESS-1946",
-    "DEF-TRUTH-CONDITIONAL-LANGUAGE"
+    "851dbf2e-5030-51ad-9b74-b960a87683f4",
+    "c79be2d4-8641-5b1c-86bb-69a28cc4d184",
+    "3b773947-a8cd-562d-91d9-952a9ce7cc58",
+    "cb0b59e9-7a00-5d8c-ba11-802974a42992"
   ],
   "disambiguation_ids": [
-    "DISAMB-VERIFIABILITY-VARIANT",
-    "DISAMB-VERIFICATIONIST-MEANINGFUL"
+    "e1eb387a-1052-5f34-b7f1-ea076303e1cd",
+    "21cdb9e0-d4f0-5a57-8277-3345ec8c0fde"
   ]
 }

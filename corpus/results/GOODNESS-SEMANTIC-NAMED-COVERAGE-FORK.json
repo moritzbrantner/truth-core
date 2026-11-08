@@ -1,6 +1,8 @@
 {
-  "id": "GOODNESS-SEMANTIC-NAMED-COVERAGE-FORK",
-  "argument_id": "GOODNESS-SEMANTIC-NAMED-COVERAGE-FORK",
+  "id": "9982ff14-c9c3-58c9-a1b1-dfb0ee81e98e",
+  "label": "For every fixed profile and definition space…, from Excluded middle as a general principle…",
+  "legacy_id": "GOODNESS-SEMANTIC-NAMED-COVERAGE-FORK",
+  "argument_id": "e999ea18-b8a5-5791-b48a-b8d463125cd4",
   "challenge_module": "TruthCore.Results.Metaethics.GoodnessSemanticCoverage.Challenge",
   "solution_module": "TruthCore.Results.Metaethics.GoodnessSemanticCoverage.Solution",
   "theorem": "TruthCore.Results.Metaethics.GoodnessSemanticCoverage.coverageOrDifferentDefinition",
@@ -8,17 +10,17 @@
   "status": "solution-present",
   "description": "Certified weak semantic-scope fork under explicit excluded middle. The companion semanticScopeControls certifies named coverage in the fixed due-actuality profile and an actually extension-different further proposal in the mixed profile. Neither real named coverage nor a complete historical-theory verdict is established.",
   "case_split": {
-    "target_statement_id": "STMT-GOODNESS-SEMANTIC-NAMED-DEFINITIONS-COVER",
+    "target_statement_id": "be5a4cc5-1bac-549c-af6d-992ca07193a1",
     "cases": [
       {
         "label": "Named extensions cover admissible definitions",
         "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.SemanticNamedCoverage",
-        "statement_id": "STMT-GOODNESS-SEMANTIC-NAMED-DEFINITIONS-COVER"
+        "statement_id": "be5a4cc5-1bac-549c-af6d-992ca07193a1"
       },
       {
         "label": "Additional extension-different definition",
         "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.AdditionalSemanticDefinition",
-        "statement_id": "STMT-GOODNESS-ADDITIONAL-SEMANTIC-DEFINITION"
+        "statement_id": "a6f933f6-9700-55a6-804a-bba8e13e85bf"
       }
     ]
   }

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SCIENTISM-POINTWISE-COUNTEREXAMPLE-SCOPE",
+  "id": "64baccd8-5a16-5bcf-8bd8-7ee81d520732",
+  "label": "Every nonempirical established witness…: Every established claim failing empirical establishment…",
+  "legacy_id": "DEF-SCIENTISM-POINTWISE-COUNTEREXAMPLE-SCOPE",
   "term": "every nonempirical established witness in scope",
   "definition": "Every established claim failing empirical establishment is in scope. Does not require empirically established claims in scope. Stronger than sufficient existential witness-transfer coverage; no global minimality asserted.",
   "basis": "stipulative",

@@ -1,9 +1,11 @@
 {
-  "id": "INF-EP-ROLE-DEFINITION-FORK",
+  "id": "d76beb41-877f-5030-ae7e-fd3b30a37016",
+  "label": "For every fixed comparison profile, one of the four named calibration…, by Constructive-proof",
+  "legacy_id": "INF-EP-ROLE-DEFINITION-FORK",
   "input_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-EPISTEMIC-REASON-DEFINITION-FORK",
+  "output_statement_id": "54bc0ef3-964e-5d94-ab0f-afd646af6087",
   "rule": "constructive-proof",
   "meaning": "Logical structural-coverage transcription over the four calibration propositions and their explicit remainder. It does not show named coverage or eliminate an unlisted interpretation.",
   "assumption_statement_ids": [],

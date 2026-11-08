@@ -1,6 +1,8 @@
 {
-  "id": "CHAIN-INSTANTIATION-CONTROLS",
-  "argument_id": "CHAIN-INSTANTIATION-CONTROLS",
+  "id": "6c8cd838-b1a1-521f-860e-9289b89f0e60",
+  "label": "For every finite observation bound, explicitly populated finite and infinite successor-chain…",
+  "legacy_id": "CHAIN-INSTANTIATION-CONTROLS",
+  "argument_id": "fef02735-2679-57df-bed6-1785120469a3",
   "challenge_module": "TruthCore.Results.Causality.ChainInstantiation.Challenge",
   "solution_module": "TruthCore.Results.Causality.ChainInstantiation.Solution",
   "theorem": "TruthCore.Results.Causality.ChainInstantiation.controls",

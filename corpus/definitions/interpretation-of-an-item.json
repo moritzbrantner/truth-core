@@ -1,9 +1,11 @@
 {
-  "id": "DEF-INTERPRETATION-OF-AN-ITEM",
+  "id": "35ecbcaf-af7d-593b-8f39-cb0cc4be2867",
+  "label": "INTERPRETATION_1 of a rule application: Interprets i a: i is an INTERPRETATION_1 of a, a further…",
+  "legacy_id": "DEF-INTERPRETATION-OF-AN-ITEM",
   "term": "interpretation (Deutung) of a rule application",
   "definition": "`Interprets i a`: i is an interpretation of a, a further expression of the rule offered as what settles what accords with it at a ('einen Ausdruck der Regel durch einen anderen ersetzen', PU §201). Interpretations are themselves items that may be interpreted.",
   "basis": "sourced",
   "claim_ids": [
-    "WITTGENSTEIN-PU-201-GRASP-NOT-INTERPRETATION"
+    "6391c03b-bde0-5695-933d-2efd8f0520c8"
   ]
 }

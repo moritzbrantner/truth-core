@@ -1,10 +1,12 @@
 {
-  "id": "INF-PROPER-GOD-EXISTENCE-REJECTS-PRACTICE-NO-REFERENCE",
+  "id": "e9608111-a8df-5375-a836-975db64856d0",
+  "label": "The practice-use no-being thesis does not hold: it is not the case that the…, by Constructive-proof",
+  "legacy_id": "INF-PROPER-GOD-EXISTENCE-REJECTS-PRACTICE-NO-REFERENCE",
   "input_statement_ids": [
-    "STMT-PROPER-REFERENCE-PRESERVED",
-    "STMT-GOD-EXISTS"
+    "1bc9a316-689c-5837-85c0-cd7fe7e35c16",
+    "8626f8a5-9531-5da7-9ebd-f901e74b1129"
   ],
-  "output_statement_id": "STMT-PRACTICE-GOD-NO-REFERENCE-REJECTED",
+  "output_statement_id": "3f1885a9-f067-5ef4-a21a-98f43ae5c83a",
   "rule": "constructive-proof",
   "meaning": "Obtain an actual proper-God witness from the existing GodExists premise; transfer that very witness to practice reference, contradicting the raw practice no-reference thesis. Both existence and semantic transfer remain explicit and open.",
   "assumption_statement_ids": [],

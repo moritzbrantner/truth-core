@@ -1,6 +1,8 @@
 {
-  "id": "FULL-DESCRIPTION-EXCLUDED-AFTER-REFERENCE-TRANSFER",
-  "argument_id": "FULL-DESCRIPTION-EXCLUDED-AFTER-REFERENCE-TRANSFER",
+  "id": "252169af-b1a9-5a5f-a755-bbf3c9e4500a",
+  "label": "No being satisfying the full nominal…, from For each being satisfying the selected… and 2 more",
+  "legacy_id": "FULL-DESCRIPTION-EXCLUDED-AFTER-REFERENCE-TRANSFER",
+  "argument_id": "2f906cd4-8414-5155-94aa-671024dff4c9",
   "challenge_module": "TruthCore.Results.Alternatives.NameApplicationTransfer.Description.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.NameApplicationTransfer.Description.Solution",
   "theorem": "TruthCore.Results.Alternatives.NameApplicationTransfer.Description.properDescriptionExcluded",

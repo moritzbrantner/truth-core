@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-UNIQUE-ULTIMATE-SOURCE",
-  "argument_id": "NECESSARY-UNIQUE-ULTIMATE-SOURCE",
+  "id": "e0fa5865-7a34-57a6-9e86-d2d610bea4e8",
+  "label": "One same bearer exists at every…, from The specified candidate is CONCRETE_6 and… and 8 more",
+  "legacy_id": "NECESSARY-UNIQUE-ULTIMATE-SOURCE",
+  "argument_id": "4db4a0ca-3287-5ac3-91da-4f1162f1c358",
   "challenge_module": "TruthCore.Results.Explanation.NecessaryUltimateSource.Challenge",
   "solution_module": "TruthCore.Results.Explanation.NecessaryUltimateSource.Solution",
   "theorem": "TruthCore.Results.Explanation.NecessaryUltimateSource.necessaryUniqueSource",

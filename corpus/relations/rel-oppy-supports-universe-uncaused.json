@@ -1,9 +1,11 @@
 {
-  "id": "REL-OPPY-SUPPORTS-UNIVERSE-UNCAUSED",
+  "id": "bfacfda2-150c-5dc4-a40b-6c49fceae5c1",
+  "label": "Graham Oppy, Koons' Cosmological Argument…… supports The brute-universe position: at the…",
+  "legacy_id": "REL-OPPY-SUPPORTS-UNIVERSE-UNCAUSED",
   "subject_kind": "claim",
-  "subject_id": "OPPY-EMPIRICAL-KNOWLEDGE-NO-REASON-UNIVERSE-CAUSED",
+  "subject_id": "65d91008-ba90-5a57-b4c0-f31a49f5532d",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-UNIVERSE-UNCAUSED",
+  "object_id": "0d563c5b-413a-5463-b556-adbb34bf458e",
   "note": "Gap: Oppy states only that empirical knowledge gives no good reason to assume the universe has a cause, and reports that non-theists typically dispute that it has one; he does not himself assert that nothing causes it."
 }

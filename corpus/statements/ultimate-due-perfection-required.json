@@ -1,11 +1,13 @@
 {
-  "id": "STMT-ULTIMATE-DUE-PERFECTION-REQUIRED",
+  "id": "1d35dc3b-f8af-5362-b53b-23651f89f9de",
+  "label": "A thing lacking the ultimate perfection it ought to have is not good simpliciter",
+  "legacy_id": "STMT-ULTIMATE-DUE-PERFECTION-REQUIRED",
   "paraphrase": "A thing lacking the ultimate perfection it ought to have is not good simpliciter. This exclusion does not assert that such a deficient thing exists, identify good simpliciter with per-perfection goodness, or derive categorical moral authority.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.UltimateDuePerfectionRequiredReading",
   "definition_ids": [
-    "DEF-GOOD-SIMPLICITER-ULTIMATE-PERFECTION"
+    "e2f5a593-68e8-57a2-8d45-f02fb0c9ffc3"
   ],
   "disambiguation_ids": [
-    "DISAMB-GOOD-FUNCTION-HUMAN-ULTIMATE"
+    "bbcdfe40-8a39-5ac5-acad-62ca350d70fa"
   ]
 }

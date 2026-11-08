@@ -1,6 +1,8 @@
 {
-  "id": "COGITO-THOUGHT-OCCURS-FROM-RETORSION",
-  "argument_id": "COGITO-THOUGHT-OCCURS-FROM-RETORSION",
+  "id": "a89475b3-be1e-5df3-bbc6-6243434aa107",
+  "label": "Some thought episode occurs under the supplied occurrence predicate, from retorsion",
+  "legacy_id": "COGITO-THOUGHT-OCCURS-FROM-RETORSION",
+  "argument_id": "187646ad-565b-5391-beb1-42ab24f3597f",
   "challenge_module": "TruthCore.Results.Causality.RootWiring.Challenge",
   "solution_module": "TruthCore.Results.Causality.RootWiring.Solution",
   "theorem": "TruthCore.Results.Causality.RootWiring.thoughtOccursFromRetorsion",

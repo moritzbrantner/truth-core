@@ -1,12 +1,14 @@
 {
-  "id": "DISAMB-HUME-INDUCTION-REASON-PRACTICE",
+  "id": "bfbe0dc7-4c2f-5183-9f6b-f69d43e45bbe",
+  "label": "Reason, custom, practical reliance and epistemic entitlement",
+  "legacy_id": "DISAMB-HUME-INDUCTION-REASON-PRACTICE",
   "term": "reason, custom, practical reliance and epistemic entitlement",
   "sense_definition_ids": [
-    "DEF-HUME-INDUCTION-FOUNDATION",
-    "DEF-HUME-INDUCTION-CUSTOM",
-    "DEF-HUME-INDUCTION-ENTITLEMENT",
-    "DEF-HUME-INDUCTION-PRACTICE",
-    "DEF-HUME-INDUCTION-PERSISTENCE"
+    "2d90e4a7-b0f9-584e-9ffc-b8b4a26fbb4d",
+    "cef4da44-097f-546a-80cc-67c3a08a80af",
+    "d9b1e901-417c-57cd-8eec-65bd81d9e3d9",
+    "72c8b5b3-fee8-5cd1-9f2d-b8018a7a18d8",
+    "b0544a71-cdba-5e5a-a436-4fd7b4dc3b31"
   ],
   "resolution": "Source denial of reasoning as origin/foundation is not identified with denial of every entitlement. Psychological custom and practical reliance remain possible when the reasoning-based foundation is unsettled. Persistence is conditional on stable nature, not metaphysical necessity. The strong entitlement-denying reconstruction and the critic normative bridge are explicit, unattributed additional assumptions."
 }

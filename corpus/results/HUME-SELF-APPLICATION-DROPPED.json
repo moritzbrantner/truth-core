@@ -1,6 +1,8 @@
 {
-  "id": "HUME-SELF-APPLICATION-DROPPED",
-  "argument_id": "HUME-SELF-APPLICATION-DROPPED",
+  "id": "43a5399c-0d80-5937-a3b8-2a3542268b04",
+  "label": "A serial three-world nontransitive chain satisfies H, □H and C at its root; seriality alone cannot…",
+  "legacy_id": "HUME-SELF-APPLICATION-DROPPED",
+  "argument_id": "9a8d5a44-56ad-59f7-aca5-5894588f8ce4",
   "challenge_module": "TruthCore.Results.Modern.Hume.SelfApplication.Dropped.Challenge",
   "solution_module": "TruthCore.Results.Modern.Hume.SelfApplication.Dropped.Solution",
   "theorem": "TruthCore.Results.Modern.Hume.SelfApplication.Dropped.checks",

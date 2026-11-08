@@ -1,10 +1,12 @@
 {
-  "id": "DEF-ARISTOTLE-ANPOST-PRIORITY",
+  "id": "6d2e443d-bb1b-56c1-b9d9-bbb55a8c00d6",
+  "label": "Prior and better known in…: The priority required of demonstrative premises, distinguished from…",
+  "legacy_id": "DEF-ARISTOTLE-ANPOST-PRIORITY",
   "term": "prior and better known in demonstrative explanation",
   "basis": "sourced",
   "definition": "The priority required of demonstrative premises, distinguished from what is initially more familiar to us through perception. In I.3 the no-circle argument requires the same respect of priority; differing orders cannot be interchanged to refute all mutual support or to identify epistemic priority with temporal availability.",
   "claim_ids": [
-    "ARIST-APOST-71B-DEMONSTRATIVE-PREMISES",
-    "ARIST-APOST-72B-SAME-RESPECT-PRIORITY"
+    "61785ae0-840f-514c-8cd9-78cdfd9e8193",
+    "a040f9b1-6478-51af-bd35-dfbadcf3cc33"
   ]
 }

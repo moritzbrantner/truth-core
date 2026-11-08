@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-COMMISSION-GOVERNANCE-CRITERIA",
+  "id": "4bd8469b-0101-5628-b94d-daa4264972d5",
+  "label": "Governing power in a commission",
+  "legacy_id": "DISAMB-COMMISSION-GOVERNANCE-CRITERIA",
   "term": "governing power in a commission",
   "sense_definition_ids": [
-    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
-    "DEF-TEACHING-INCLUSIVE-GOVERNING-POWER"
+    "6dea072c-97c4-5ee9-9958-a3da6a2a049c",
+    "4ada8322-c61c-567c-b615-d056bde1c2e9"
   ],
   "resolution": "The original Commissions proofs use the unchanged narrow fixed table and ChurchFoundedInCommissionedApostles. New analyst calibration propositions expose the teaching-inclusive criterion and precise further extension; matching InstitutionLinkFor is a separate open premise. Under the broader criterion, Matthew 28 alone supplies a governing witness, but only the broader institutional bridge turns it into founding in a mandate. The old nonempty message model satisfies narrow bridge and Matthew 28 while rejecting the broader bridge. No source claim, all-powers coverage, report-to-event truth or actual jurisdiction is inferred by lexical reclassification."
 }

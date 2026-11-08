@@ -1,15 +1,17 @@
 {
-  "id": "STMT-MATERIAL-CONSTITUTION-SCOPE",
+  "id": "2328cbd9-86bb-5af7-81d8-0eac46dd10ef",
+  "label": "In one stipulated two-time, one-token history, distinct statue/lump bearer labels share a nonempty…",
+  "legacy_id": "STMT-MATERIAL-CONSTITUTION-SCOPE",
   "paraphrase": "In one stipulated two-time, one-token history, distinct statue/lump bearer labels share a nonempty initial material slice but have divergent later existence. Nonempty sets of time/token occurrences represent exactly the same existence and token membership at every represented time; their initial slices coincide, while their entire histories are distinct and overlap. They do not have all the same mereological parts. Extensionality holds for entire occurrence sets, not one time slice. For any existence and material predicates, initial nonempty constituent coincidence and divergent later existence exclude identity from slice coincidence. The certificate also composes the existing process-turnover boundary and transports the Theseus finite-chain identity theorem to any bearer predicate. These finite interpretations and conditional consequences do not establish physical or metaphysical possibility, identity principles, or temporal parthood of enduring bearers. One-object/sortal-relative rivals may reject divergent numerical persistence. Analyst reconstruction, attribution deferred. No root-premise change.",
   "lean_declaration": "TruthCore.Mereology.MaterialConstitutionScope.Certificate",
   "definition_ids": [
-    "DEF-MATERIAL-SLICE-COINCIDENCE",
-    "DEF-MATERIAL-TEMPORAL-WHOLE",
-    "DEF-MATERIAL-HISTORY-CORRESPONDENCE",
-    "DEF-PROCESS-TURNOVER-REPRESENTATION",
-    "DEF-THESEUS-OCCURRENCE-BEARER"
+    "a85963c3-2013-5d76-85c1-5bedf3430cc9",
+    "36e01780-ca8d-5f28-8053-1ddbc1ae5cd7",
+    "7a791ef4-6449-5258-b108-6a4a3d50fe61",
+    "65b8fe40-a586-54f8-80dd-fe36d95bc86f",
+    "5d56fb19-e9f0-5f16-8e36-cd852824e0e5"
   ],
   "disambiguation_ids": [
-    "DISAMB-MATERIAL-EXTENSION-TEMPORAL-SCOPE"
+    "c63a69a4-2241-5855-8faf-85cb21510f55"
   ]
 }

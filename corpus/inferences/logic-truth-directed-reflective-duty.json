@@ -1,7 +1,9 @@
 {
-  "id": "INF-LOGIC-TRUTH-DIRECTED-REFLECTIVE-DUTY",
+  "id": "a1d7c279-c08a-5d82-bc4d-91b57ccde61a",
+  "label": "For every interpretation and ought-to-adopt policy, if a…, by Constructive-conditional-proof",
+  "legacy_id": "INF-LOGIC-TRUTH-DIRECTED-REFLECTIVE-DUTY",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-TRUTH-DIRECTED-REFLECTIVE-DUTY",
+  "output_statement_id": "27b621ae-2f38-58a5-90c0-378ef2da7c4b",
   "rule": "constructive-conditional-proof",
   "meaning": "Within the quantified conditional, the actual world jointly witnesses the adopted worldview, a true duty-content, and all its necessary consequences. The truth-directed policy and objective truth of the duty remain explicit antecedents, not proved premises.",
   "assumption_statement_ids": [],

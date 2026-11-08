@@ -1,11 +1,13 @@
 {
-  "id": "INF-EVERY-FORM-INCLINED-FROM-FINALITY",
+  "id": "147b3de0-87ef-57df-ae5d-b793185dc684",
+  "label": "OPEN, analyst formulation of the analogy premise of ST I q.19 a.1…, by Existential elimination…",
+  "legacy_id": "INF-EVERY-FORM-INCLINED-FROM-FINALITY",
   "input_statement_ids": [
-    "STMT-FORM-IS-PRINCIPLE-OF-OPERATION",
-    "STMT-EVERY-OPERATION-HAS-AN-END",
-    "STMT-END-DIRECTED-OPERATION-IS-INCLINATION"
+    "144b0405-9800-5032-bf9c-5f26a2d4d2d1",
+    "12bdfec3-81f6-59e6-91df-88b323ff860e",
+    "87afc0da-6637-5707-9e40-9a4a14d095ad"
   ],
-  "output_statement_id": "STMT-EVERY-FORM-HAS-INCLINATION",
+  "output_statement_id": "d4b35781-27f4-5c21-b03e-df696df7e19f",
   "rule": "Existential elimination (twice), universal instantiation, modus ponens",
   "meaning": "Some inclination follows every form a thing has, through operation and end as middle terms: each form is the principle of some operation (OPEN), every such operation is directed to an end (OPEN finality principle), and operating through a form toward an end is an inclination following the form (OPEN recognition). The last premise needs both witnesses supplied by the first two.",
   "assumption_statement_ids": [],

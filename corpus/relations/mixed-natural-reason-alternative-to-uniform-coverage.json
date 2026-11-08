@@ -1,9 +1,11 @@
 {
-  "id": "REL-MIXED-NATURAL-REASON-ALTERNATIVE-TO-UNIFORM-COVERAGE",
+  "id": "f35ea0f8-c3a6-54b9-94f0-e5e4a16f71d6",
+  "label": "A natural-knowability move answers to… alternative to Either all natural-knowability moves are…",
+  "legacy_id": "REL-MIXED-NATURAL-REASON-ALTERNATIVE-TO-UNIFORM-COVERAGE",
   "subject_kind": "statement",
-  "subject_id": "STMT-NATURAL-REASON-IS-MIXED",
+  "subject_id": "1458d561-997b-5eff-a3b5-5b54382275db",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-NATURAL-REASON-NAMED-UNIFORM-PROFILES-COVER",
+  "object_id": "b5cd2e0a-14e5-5f7f-9b8e-68f2688c3405",
   "note": "Actual shared and nonshared natural-knowability move witnesses contradict both universal profiles, so mixed behavior opposes named uniform coverage. This is a structural standard-profile fork, not a list of all philosophical theories."
 }

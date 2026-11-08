@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "IEP-RELIGIOUS-LANGUAGE",
+    "source_id": "5807b28f-d5c4-52dc-aa54-62f9cd4f6203",
     "source_url": "https://iep.utm.edu/rel-lang/",
     "retrieved_at": "2026-11-05T15:20:16Z",
     "sha256": "sha256:740597e6887a8d1c58776248bbf4be4c7db75ac12e7e130c90a988bd22abf8c4",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "IEP-REL-LANG-2A",
+      "id": "96b8db96-e4a7-59ac-b2ba-c50e263072aa",
+      "label": "Jennifer Hart Weed, Religious Language, §2a",
+      "legacy_id": "IEP-REL-LANG-2A",
       "locator": "§2a (Statements about God are Meaningless)",
       "claim_locator_prefixes": [
         "§2a,"

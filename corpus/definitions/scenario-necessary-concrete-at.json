@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SCENARIO-NECESSARY-CONCRETE-AT",
+  "id": "9317b727-e914-5c6d-9bda-576c7d3bf5e0",
+  "label": "Necessary existing individual under\u2026: Some SAME rigid individual satisfies the supplied Scenario\u2026",
+  "legacy_id": "DEF-SCENARIO-NECESSARY-CONCRETE-AT",
   "term": "necessary existing individual under the original Scenario concrete predicate",
   "definition": "Some SAME rigid individual satisfies the supplied Scenario concrete predicate, exists at the selected world, and exists at every accessible world. The original concrete predicate is world-independent. This asserts no causal capability beyond that supplied interpretation, uniqueness, sourcehood, intrinsic explanatory adequacy or divine attribute.",
   "basis": "stipulative",

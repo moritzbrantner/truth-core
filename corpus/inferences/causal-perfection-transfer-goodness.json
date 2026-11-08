@@ -1,13 +1,15 @@
 {
-  "id": "INF-CAUSAL-PERFECTION-TRANSFER-GOODNESS",
+  "id": "cb9e6f89-9cd9-5aba-8568-26da4189046b",
+  "label": "GOD_4 is supremely GOOD_4: GOOD_4 in respect of being, and the cause from…, by Typed composition",
+  "legacy_id": "INF-CAUSAL-PERFECTION-TRANSFER-GOODNESS",
   "input_statement_ids": [
-    "STMT-GOD-IS-MAXIMAL-IN-BEING",
-    "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
-    "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING",
-    "STMT-GOODNESS-IS-ACTUALITY",
-    "STMT-UNIVERSAL-CAUSE-TRANSFERS-PERFECTIONS"
+    "4c79298d-ee09-5e99-9ced-1be92c19b4cc",
+    "d9fad785-40ab-555a-a1c1-5e39c9d50497",
+    "7067553d-cad9-5d79-b6b2-912e35051530",
+    "00e962ae-f109-55f7-a7fd-f107ce0dea6b",
+    "b26c10a0-983d-5a88-aa03-cc601bc1ddc6"
   ],
-  "output_statement_id": "STMT-GOD-IS-SUPREMELY-GOOD",
+  "output_statement_id": "e0dae79f-c042-5a08-a148-725d0468df91",
   "rule": "typed_composition",
   "meaning": "For each supplied God, use the explicit God-to-maximality premise, genus at esse, actuality-to-being and restricted transfer to derive causation of each other instantiated perfection; coextension of goodness and actuality gives goodness in esse.",
   "assumption_statement_ids": [],

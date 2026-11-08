@@ -1,9 +1,11 @@
 {
-  "id": "INF-COLLECTIVE-COUNTERCASE-NEGATES-COLLECTIVE-PREMISE",
+  "id": "cdb56d3d-31f7-5a37-9c9f-eeb040b6cef4",
+  "label": "Exact negation of the original AllCanNotBeThenNothingPossibleReading on the…, by… (2)",
+  "legacy_id": "INF-COLLECTIVE-COUNTERCASE-NEGATES-COLLECTIVE-PREMISE",
   "input_statement_ids": [
-    "STMT-COLLECTIVE-POSSIBILITY-PRECISE-COUNTERCASE"
+    "04b12576-1645-556b-a0a8-1efd8e5fcbfb"
   ],
-  "output_statement_id": "STMT-COLLECTIVE-POSSIBILITY-FAILS",
+  "output_statement_id": "dbd03eab-fccb-5f7d-8891-7fe2431863eb",
   "rule": "constructive-proof",
   "meaning": "The actual countercase branch negates the SAME collective premise. Keeps the structural OR branch connected to its deciding consequence.",
   "assumption_statement_ids": [],

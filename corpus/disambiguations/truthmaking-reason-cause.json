@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-TRUTHMAKING-REASON-CAUSE",
+  "id": "ec276045-4055-565e-89b4-75ee5897ecea",
+  "label": "Truthmaking, explanation and production",
+  "legacy_id": "DISAMB-TRUTHMAKING-REASON-CAUSE",
   "term": "truthmaking, explanation and production",
   "sense_definition_ids": [
-    "DEF-BEARER-TRUTHMAKING",
-    "DEF-PSR-STRENGTH-REASON"
+    "aab6fdee-e29d-58d1-b7d7-baee6d81f73e",
+    "179d4557-bda1-59c4-938a-b91e9974a27f"
   ],
   "resolution": "Making relates an entity to a fact; Arena.explains relates two facts; Ontic.Causes is efficient production. None is identified. InstanceMaker projects an existing reason only through A.exist b and requires Factive and Coherent for soundness. lawGround has a uniform abstract fact-reason yet no world-immanent uniform individual maker. No truthmaking or explaining control establishes efficient causation. Source doctrinal truthmaking carries additional relevance/aboutness commitments that Sound and MakerNecessitation do not encode."
 }

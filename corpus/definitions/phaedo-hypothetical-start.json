@@ -1,9 +1,11 @@
 {
-  "id": "DEF-PHAEDO-HYPOTHETICAL-START",
+  "id": "5e122a72-7871-5d18-90c1-d3618d06ad2e",
+  "label": "Forms as an argumentative hypothesis: The proposal to begin from beauty itself, goodness…",
+  "legacy_id": "DEF-PHAEDO-HYPOTHETICAL-START",
   "term": "Forms as an argumentative hypothesis",
   "definition": "The proposal to begin from beauty itself, goodness, greatness and the like, conditional on the interlocutor granting them. Hypothesizing is the displayed argumentative role, not proof of the hypothesis or a claim that Socrates disbelieves it.",
   "basis": "sourced",
   "claim_ids": [
-    "PLATO-PHAEDO-100B-FORMS-HYPOTHESIS"
+    "7a2aa137-28fb-5ae5-b465-86f1ed926dc1"
   ]
 }

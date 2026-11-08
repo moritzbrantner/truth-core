@@ -1,10 +1,12 @@
 {
-  "id": "STMT-CC100-121-QUALITATIVE-RELIABILITY-LIKELIHOODS",
+  "id": "988873c7-c06a-54b0-bd74-21c11c6d1699",
+  "label": "The probability that our cognitive faculties are generally reliable given theism is much greater…",
+  "legacy_id": "STMT-CC100-121-QUALITATIVE-RELIABILITY-LIKELIHOODS",
   "paraphrase": "The probability that our cognitive faculties are generally reliable given theism is much greater than really low, while its probability given naturalism is really low.",
   "definition_ids": [
-    "DEF-CC100-121-RELIABILITY-CONFIRMATION"
+    "bef73b95-e123-5b57-80ae-e5923d50ae74"
   ],
   "disambiguation_ids": [
-    "DISAMB-REASON-EPISTEMIC-ONTIC"
+    "a61d3807-50e9-595e-9011-9123fd606a4b"
   ]
 }

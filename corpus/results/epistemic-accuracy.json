@@ -1,6 +1,8 @@
 {
-  "id": "LOGIC-EPISTEMIC-ACCURACY",
-  "argument_id": "LOGIC-EPISTEMIC-ACCURACY",
+  "id": "49eb8702-ac7a-54e9-90e1-bcd38601b40b",
+  "label": "For expected binary squared error over real inputs, error-error=^2, so q uniquely minimizes…",
+  "legacy_id": "LOGIC-EPISTEMIC-ACCURACY",
+  "argument_id": "a2f8fd96-6b69-59a1-bb44-5809bac5d807",
   "challenge_module": "TruthCore.Results.Logic.EpistemicAccuracy.Challenge",
   "solution_module": "TruthCore.Results.Logic.EpistemicAccuracy.Solution",
   "theorem": "TruthCore.Results.Logic.EpistemicAccuracy.certificate",

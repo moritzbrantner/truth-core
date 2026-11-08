@@ -1,10 +1,12 @@
 {
-  "id": "DISAMB-ACTUAL-REASON-IDENTITY",
+  "id": "71868356-d4c4-5ea9-a015-377ad8d45a04",
+  "label": "Reason identity, actuality and explanatory adequacy",
+  "legacy_id": "DISAMB-ACTUAL-REASON-IDENTITY",
   "term": "reason identity, actuality and explanatory adequacy",
   "sense_definition_ids": [
-    "DEF-ACTUAL-REASON-ADMISSION",
-    "DEF-ACTUAL-STABLE-EXPLANATION",
-    "DEF-REASON-ANCHOR-OVERLAP"
+    "6e6ada1c-9bda-542a-9489-f41b1f3124f4",
+    "e78281b3-54c3-5199-bb8d-e0d05f6a844a",
+    "5288616c-ab16-5761-9b56-06d5ee05b8d6"
   ],
   "resolution": "Reason identity is literal equality of rigid tagged tokens across a fixed candidate roster; domain varies actual membership. The intrinsic tag does not certify an essential sufficient reason; a circumstance tag does not identify an external causal bearer. Soundness only requires the explanandum exists. Admitted reasons remain stipulated assignments, including any possibly circular assignment. ActualStable guards on the individual existing and imposes no claim at worlds of its absence. If that individual exists at every world then its stable admitted token also belongs to every supplied domain, conditionally; neither a necessary individual nor any actual metaphysical reason is established. Anchor uniqueness plus overlap derives token stability without invariance of every reason, but both conditions remain open commitments when applied to reality."
 }

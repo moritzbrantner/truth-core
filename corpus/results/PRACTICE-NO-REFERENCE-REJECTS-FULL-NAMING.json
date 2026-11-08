@@ -1,6 +1,8 @@
 {
-  "id": "PRACTICE-NO-REFERENCE-REJECTS-FULL-NAMING",
-  "argument_id": "PRACTICE-NO-REFERENCE-REJECTS-FULL-NAMING",
+  "id": "6c5f6bde-bbde-5a83-835a-f40c2136231c",
+  "label": "The proper-sense full naming leaf is…, from For each being satisfying the selected… and 2 more",
+  "legacy_id": "PRACTICE-NO-REFERENCE-REJECTS-FULL-NAMING",
+  "argument_id": "a9b8530b-effb-5fd8-9107-6986b33bce53",
   "challenge_module": "TruthCore.Results.Alternatives.NameApplicationTransfer.FullNaming.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.NameApplicationTransfer.FullNaming.Solution",
   "theorem": "TruthCore.Results.Alternatives.NameApplicationTransfer.FullNaming.noReferenceRejectsFullNaming",

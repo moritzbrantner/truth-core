@@ -1,5 +1,7 @@
 {
-  "id": "DEF-NECESSARY-PREDECESSOR-LIFTING",
+  "id": "5a5b976e-36e1-53f5-a1b1-a723cacd0206",
+  "label": "Necessary-predecessor transport into…: For any direct supporter c that exists at a world w and…",
+  "legacy_id": "DEF-NECESSARY-PREDECESSOR-LIFTING",
   "term": "necessary-predecessor transport into the actual grounding order",
   "definition": "For any direct supporter c that exists at a world w and supports a de re necessary target b there, the very same c is itself necessary and already an existing direct supporter of b at w₀. The clause tracks identity and existing endpoints, and requires no frame reflexivity by itself.",
   "basis": "stipulative",

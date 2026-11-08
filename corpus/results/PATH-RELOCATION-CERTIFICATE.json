@@ -1,6 +1,8 @@
 {
-  "id": "PATH-RELOCATION-CERTIFICATE",
-  "argument_id": "PATH-RELOCATION-CERTIFICATE",
+  "id": "aaeed827-7dd7-5dc9-a199-52f68f131b74",
+  "label": "For all types: a time reindexing preserving a condition on complete paths fixes that condition's…",
+  "legacy_id": "PATH-RELOCATION-CERTIFICATE",
+  "argument_id": "7e15679a-21a6-58a7-bcfe-021933d320e2",
   "challenge_module": "TruthCore.Results.Explanation.PathRelocation.Challenge",
   "solution_module": "TruthCore.Results.Explanation.PathRelocation.Solution",
   "theorem": "TruthCore.Results.Explanation.PathRelocation.certificate",

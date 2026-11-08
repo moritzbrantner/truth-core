@@ -6,14 +6,16 @@
     "wayback_url": "https://web.archive.org/web/20251111022038id_/https://sites.ualberta.ca/~francisp/NewPhil448/RussellPhilLogicalAtomismPears.pdf",
     "wayback_sha256": "sha256:53e7eea6bab7c4daa4bcce1c3a1d9628eec7e1bbddad30f62712c5c3096fe490",
     "kind": "web_snapshot",
-    "source_id": "RUSSELL-LOGICAL-ATOMISM",
+    "source_id": "252edd45-e81b-592a-83aa-4e52c5f0cd1f",
     "encoding": "utf-8",
     "language": "eng",
     "license": "©2010 The Bertrand Russell Peace Foundation Ltd; introduction ©1985 David F. Pears. All rights reserved. Public university-hosted scholarly witness; no redistribution license asserted. Only hashes, locators and short incipits committed. A fixed 2025-11-11 Wayback capture is byte-pinned as a fallback (2026-10-26, issue #393): two fetches gave the same bytes, and all 2 selected text hashes and incipits match the originally consulted witness; the live hash and retrieval date are unchanged."
   },
   "passages": [
     {
-      "id": "RUSSELL-ATOMISM-V",
+      "id": "1d080887-21ac-533f-b79d-da5f5a2e53e4",
+      "label": "Bertrand Russell, The Philosophy of Logical Atomism, Lecture V, printed pp.61–77, with preceding…",
+      "legacy_id": "RUSSELL-ATOMISM-V",
       "locator": "Lecture V, printed pp.61–77, with preceding discussion and concluding questions",
       "claim_locator_prefixes": [
         "V."
@@ -26,7 +28,9 @@
       "incipit": "general propositions and existence proposition is nothing. But a belief is true"
     },
     {
-      "id": "RUSSELL-ATOMISM-VI",
+      "id": "26aff511-6544-54a0-adfd-b668b45c8953",
+      "label": "Bertrand Russell, The Philosophy of Logical Atomism, Lecture VI, printed pp.77–92, including…",
+      "legacy_id": "RUSSELL-ATOMISM-VI",
       "locator": "Lecture VI, printed pp.77–92, including immediate lecture-boundary context",
       "claim_locator_prefixes": [
         "VI."

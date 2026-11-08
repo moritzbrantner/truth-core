@@ -1,6 +1,8 @@
 {
-  "id": "MODAL-D-LAWS",
-  "argument_id": "MODAL-D-LAWS",
+  "id": "7511bf26-aa10-57ce-a7db-d49a048465ab",
+  "label": "Seriality plus identity-admissible root collapse forces self-access",
+  "legacy_id": "MODAL-D-LAWS",
+  "argument_id": "3be79b2e-0fa6-5abc-a9a4-eaaebb6b0cfb",
   "challenge_module": "TruthCore.Results.Modal.DResearch.Laws.Challenge",
   "solution_module": "TruthCore.Results.Modal.DResearch.Laws.Solution",
   "theorem": "TruthCore.Results.Modal.DResearch.Laws.checks",

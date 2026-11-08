@@ -1,12 +1,14 @@
 {
-  "id": "INF-ROUND3-CHRIST-CHURCH-SELECTED-CHURCH-FROM-ATTESTATION",
+  "id": "7ff4ebf4-1cba-5933-8c57-45090d68e969",
+  "label": "Jesus founded at least one society satisfying the selected Church…, by Founding through a multiply…",
+  "legacy_id": "INF-ROUND3-CHRIST-CHURCH-SELECTED-CHURCH-FROM-ATTESTATION",
   "input_statement_ids": [
-    "STMT-JOHN-COMMISSION-INDEPENDENT-OF-MATTHEW",
-    "STMT-HEAVEN-RATIFIED-ATTESTATION-CRITERION",
-    "STMT-GOVERNING-GIFT-CONSTITUTES-FOUNDED-SOCIETY",
-    "STMT-HOLDER-OF-GIVEN-GOVERNING-POWER-IS-CHURCH"
+    "e2dfc958-eccf-549a-897e-fbb85b5b1b67",
+    "067cd417-4570-5684-a514-d9af55267442",
+    "87b911fb-fcb0-5bb7-87d4-6abfcaa0db0c",
+    "1f4478a7-e1e0-5d55-a2ee-80c298bc62d6"
   ],
-  "output_statement_id": "STMT-CHRIST-FOUNDED-SELECTED-CHURCH",
+  "output_statement_id": "0f0a4a1e-87f2-509c-a6ef-928dc5a91193",
   "rule": "Founding through a multiply attested governing power",
   "meaning": "A route that needs no whole report to go back to Jesus: John 20's commission is independent of Matthew 18's or 16's, and by the attestation criterion Jesus gave some heaven-ratified power, which is governing; the founding and Church-calibration premises then give a selected Church founded by Jesus. Each of the four premises is needed.",
   "assumption_statement_ids": [],

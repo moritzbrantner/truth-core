@@ -1,16 +1,18 @@
 {
-  "id": "CC100-10-CONTINGENT-WHOLLY-CONTINGENT-PART",
-  "statement_id": "STMT-CC100-10-CONTINGENT-WHOLLY-CONTINGENT-PART",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "959445f2-d2ba-5236-9207-b1d9327bb119",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: Every contingent thing has a wholly contingent part",
+  "legacy_id": "CC100-10-CONTINGENT-WHOLLY-CONTINGENT-PART",
+  "statement_id": "69baf411-c5c9-5eb8-96e4-cd462c52ea8e",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.9–26: p.22, L2 citing A1 and A2, argument #10 Koons",
   "interpretation": "Preserve the stated part-extraction conclusion as distinct from the definition of wholly contingent. The source cites overlap and aggregation axioms, but this record does not certify their sufficiency, atomism, removal of necessary parts or arbitrary-family fusion. Attribution is to McIntosh’s presentation only, not the unread works referenced on p24. No formal result or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-10-MEREOLOGICAL-SCOPE",
-    "DEF-CC100-10-CAUSAL-MODAL-COSMOS"
+    "2cab56b2-8622-5a12-9adf-101a326fa0a6",
+    "54135ed4-7758-5ce5-95f4-0c48052ec091"
   ],
   "disambiguation_ids": [
-    "DISAMB-FUSION-CAUSE-EXTERNALITY",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "80aee986-d636-5cf7-a339-f99726342440",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

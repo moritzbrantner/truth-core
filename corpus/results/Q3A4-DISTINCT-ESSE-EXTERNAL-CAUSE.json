@@ -1,6 +1,8 @@
 {
-  "id": "Q3A4-DISTINCT-ESSE-EXTERNAL-CAUSE",
-  "argument_id": "Q3A4-DISTINCT-ESSE-EXTERNAL-CAUSE",
+  "id": "1a8692f7-dd93-587f-8141-b616c16321c3",
+  "label": "In Aquinas' ST I q.3 a.4 first proof, each…, from Aquinas' first proof in ST I q.3 a.4… and 1 more",
+  "legacy_id": "Q3A4-DISTINCT-ESSE-EXTERNAL-CAUSE",
+  "argument_id": "af503cd7-ef52-539d-9e81-2e4171e3dbe7",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.EssenceEsseExternalCause.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.EssenceEsseExternalCause.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.EssenceEsseExternalCause.distinctEsseExternalFromExhaustion",

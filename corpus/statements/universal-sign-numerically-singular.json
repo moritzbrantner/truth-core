@@ -1,11 +1,13 @@
 {
-  "id": "STMT-UNIVERSAL-SIGN-NUMERICALLY-SINGULAR",
+  "id": "075b072f-ae68-53b1-80ca-6fcb10fc7e1c",
+  "label": "A mental UNIVERSAL_1 can be numerically one while apt to signify and be predicated for many things",
+  "legacy_id": "STMT-UNIVERSAL-SIGN-NUMERICALLY-SINGULAR",
   "paraphrase": "A mental universal can be numerically one while apt to signify and be predicated for many things. Its universality by signification does not make it numerically many or exclude its numerical singularity.",
   "definition_ids": [
-    "DEF-NUMERICAL-SINGULARITY",
-    "DEF-UNIVERSAL-MENTAL-SIGN"
+    "df5af4de-6394-52ed-8b8f-9276f4d38cc2",
+    "51266d70-d1a8-5bc8-94b0-2c948e761797"
   ],
   "disambiguation_ids": [
-    "DISAMB-UNIVERSAL-SIGN-AND-COMMON-NATURE"
+    "f4d3fe07-8285-54da-a878-dacf8f410a90"
   ]
 }

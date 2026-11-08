@@ -1,6 +1,8 @@
 {
-  "id": "POE-ROWE-APPARENT-COMPATIBILITY",
-  "argument_id": "POE-ROWE-APPARENT-COMPATIBILITY",
+  "id": "c6e4c37a-7f0d-528d-892f-f660d1267705",
+  "label": "There exists a finite interpretation satisfying the simplified permission constraint, apparent…",
+  "legacy_id": "POE-ROWE-APPARENT-COMPATIBILITY",
+  "argument_id": "744ee272-3527-5493-8240-9225c8ca8fd5",
   "challenge_module": "TruthCore.Results.Comparison.ProblemOfEvil.RoweApparentCompatibility.Challenge",
   "solution_module": "TruthCore.Results.Comparison.ProblemOfEvil.RoweApparentCompatibility.Solution",
   "theorem": "TruthCore.Results.Comparison.ProblemOfEvil.RoweApparentCompatibility.roweApparentCompatibility",

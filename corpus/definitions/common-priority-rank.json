@@ -1,5 +1,7 @@
 {
-  "id": "DEF-COMMON-PRIORITY-RANK",
+  "id": "c674f0d3-e810-545a-9e09-77f4038d1062",
+  "label": "Common cross-world priority rank: CommonRank m R a supplies one map from the rigid Being carrier…",
+  "legacy_id": "DEF-COMMON-PRIORITY-RANK",
   "term": "Common cross-world priority rank",
   "definition": "CommonRank m R a supplies one map from the rigid Being carrier into any well-founded relation, preserving the existing union of possible necessary-to-necessary support edges. Identity witnesses the converse when that union is well-founded. No Nat-height or finite-height restriction; no interpretation as temporal order. NecessarySupportStable separately requires edges between necessary bearers to persist wherever both endpoints exist.",
   "lean_declaration": "TruthCore.Causality.CommonPriority.CommonRank",

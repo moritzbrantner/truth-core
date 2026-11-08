@@ -1,7 +1,9 @@
 {
-  "id": "INF-RELIGIOUS-SEMANTIC-PROFILE-CONTROLS",
+  "id": "b95d9237-bd51-5b04-a39e-ee48f3fedfd3",
+  "label": "Three coarse schema controls: local face-value status with a matched…, by Constructive-proof",
+  "legacy_id": "INF-RELIGIOUS-SEMANTIC-PROFILE-CONTROLS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-RELIGIOUS-SEMANTIC-MODELS",
+  "output_statement_id": "f839b632-0680-5e33-8f2e-8fb76b8a5258",
   "rule": "constructive-proof",
   "meaning": "Three coarse profile controls: local status with matched religious variation; uniform religious profile with some truth variation and no matched religious variation; and invariance with local failure. The certified target does not identify the second difference as nonreligious or the third failure as the belief clause. Stronger detailed controls separately export those properties; no actual philosophical identity or relative reality is claimed.",
   "assumption_statement_ids": [],

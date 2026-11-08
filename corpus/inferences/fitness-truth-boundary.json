@@ -1,7 +1,9 @@
 {
-  "id": "INF-FITNESS-TRUTH-BOUNDARY",
+  "id": "5cfc0cc5-9331-5aeb-a5f1-0289fcd1c322",
+  "label": "For a stipulated binary belief/polarity response mechanism, successful…, by Model-construction",
+  "legacy_id": "INF-FITNESS-TRUTH-BOUNDARY",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-FITNESS-TRUTH-BOUNDARY",
+  "output_statement_id": "adc08369-c5fb-5b45-9ba3-1f09e092fe1a",
   "rule": "model-construction",
   "meaning": "For a stipulated binary belief/polarity response mechanism, successful response is exactly characterized by compensating polarity. Any binary belief map can be paired with a polarity map to match every supplied target. Among successful profiles, exact all-state belief truth holds iff every polarity follows rather than reverses belief. Two inhabited Boolean profiles, one wholly truthful and one false at every input, have identical fully successful responses and equal values under every score of the whole response function. No evolutionary process, naturalism theory, probability, comparative abundance, warrant or defeater is encoded. Root-path open premises: no change.",
   "assumption_statement_ids": [],

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-WHOLE-GROUND-NECESSITATION-AT",
+  "id": "6704e44d-bbf9-5943-96d5-2224a0008296",
+  "label": "Joint necessitation by the complete…: For every admitted full record g whose effect is positive b…",
+  "legacy_id": "DEF-WHOLE-GROUND-NECESSITATION-AT",
   "term": "joint necessitation by the complete ground of a selected target",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Explanation.AutonomousGroundNecessity.WholeGroundNecessitatesTargetAt",

@@ -1,13 +1,15 @@
 {
-  "id": "STMT-MAXIME-ADDITIONAL-DEFINITION",
+  "id": "eb8f8358-efc6-5fb5-ae4a-76158161c00d",
+  "label": "All three supplied superlative calibrations fail on this profile",
+  "legacy_id": "STMT-MAXIME-ADDITIONAL-DEFINITION",
   "paraphrase": "All three supplied superlative calibrations fail on this profile. A selective attribution among tied bearers is a precise formal remaining extension. This opposes named coverage, not the greatest-degree causal principle or the Catholic root.",
   "lean_declaration": "TruthCore.Causality.MaximumDefinitionFork.Other",
   "definition_ids": [
-    "DEF-MAXIMUM-CALIBRATION-PROFILE",
-    "DEF-MAXIMUM-IN-A-PERFECTION",
-    "DEF-GREATEST-DEGREE-IN-A-PERFECTION"
+    "18c78a19-096c-5987-8517-a67edaede564",
+    "ad844320-77ce-5786-96d7-4b02f874269d",
+    "9146daed-3e78-5804-8291-70c4e2c9d6c1"
   ],
   "disambiguation_ids": [
-    "DISAMB-MAXIME-ENS"
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
   ]
 }

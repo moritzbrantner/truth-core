@@ -1,6 +1,8 @@
 {
-  "id": "ELEATIC-RETORSION-SCHEMA-INSTANCE",
-  "argument_id": "ELEATIC-RETORSION-SCHEMA-INSTANCE",
+  "id": "4f30bed3-fc4e-56a5-8b10-aa938ff28791",
+  "label": "For every interpretation of being, respect, being moved, OPINING_2 and the respect of an opinion…",
+  "legacy_id": "ELEATIC-RETORSION-SCHEMA-INSTANCE",
+  "argument_id": "38d41941-fe1c-521b-b594-7cbaee357f47",
   "challenge_module": "TruthCore.Results.Alternatives.GlobalUnderminerRetorsion.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.GlobalUnderminerRetorsion.Solution",
   "theorem": "TruthCore.Results.Alternatives.GlobalUnderminerRetorsion.eleaticRetorsionInstance",

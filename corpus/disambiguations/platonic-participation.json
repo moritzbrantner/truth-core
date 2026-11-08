@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-PLATONIC-PARTICIPATION",
+  "id": "58a69964-25a1-53d2-a65d-660ed3a0cf4c",
+  "label": "Participation (2)",
+  "legacy_id": "DISAMB-PLATONIC-PARTICIPATION",
   "term": "participation",
   "sense_definition_ids": [
-    "DEF-PLATONIC-PARTICIPATION",
-    "DEF-PLATONIC-EXEMPLAR"
+    "8504bbdf-329b-5e23-9d12-0faf94e00914",
+    "4b5717bb-05ab-5d14-b95b-3143d8f8cd26"
   ],
   "resolution": "Participates is thin attribution. ExemplarParticipation adds ModelFor and Imitates as separate relations. ExplanatoryParticipation adds Explains. Neither addition is a definition or consequence of bare participation; Phaedo 100d leaves its manner undetermined."
 }

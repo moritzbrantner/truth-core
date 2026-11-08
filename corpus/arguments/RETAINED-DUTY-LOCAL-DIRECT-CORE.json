@@ -1,20 +1,22 @@
 {
-  "id": "RETAINED-DUTY-LOCAL-DIRECT-CORE",
+  "id": "43d33423-7d9f-53dc-8c4b-8e17b66d5c88",
+  "label": "Logical falsity, from The fixed agent owes return of the… and 2 more (2)",
+  "legacy_id": "RETAINED-DUTY-LOCAL-DIRECT-CORE",
   "premise_statement_ids": [
-    "STMT-RETAINED-DUTY-PRESENT-DUTY",
-    "STMT-RETAINED-DUTY-PRESENT-INABILITY",
-    "STMT-RETAINED-DUTY-LOCAL-OIC"
+    "f853ac3a-5c6a-5af5-9711-9484aa559eb9",
+    "84d6dde8-a359-52cc-9411-714592cc8172",
+    "2cc0cc30-8404-5681-94ec-b5cf6e85a93f"
   ],
-  "conclusion_statement_id": "STMT-CONFIGURATION-FALSE",
+  "conclusion_statement_id": "37f33696-dc47-5bd3-9cd8-edfd5bf00aa5",
   "inference_ids": [
-    "INF-RETAINED-DUTY-LOCAL-DIRECT-CORE"
+    "2a82e3c4-4788-53d5-9cf5-fbef3d2f6404"
   ],
   "meaning": "Operational direct core: identical original-return duty and inability at after conflict with original-return-only OIC. Compensation and debt-repayment OIC are not premises. All single omissions are witnessed; this is inclusion-minimal, not a claim of absolute weakest logical formulation.",
   "definition_ids": [
-    "DEF-RETAINED-DUTY-CASE",
-    "DEF-RETAINED-DUTY-POLICIES"
+    "200b70ef-cdce-5c01-9d1c-d802050f1f51",
+    "21e29c57-c49c-57e9-b226-8a9f23f7968d"
   ],
   "disambiguation_ids": [
-    "DISAMB-RETAINED-DUTY-ACTION-TIME"
+    "c5ea8a79-2882-5ebc-84f7-6d98dc36867f"
   ]
 }

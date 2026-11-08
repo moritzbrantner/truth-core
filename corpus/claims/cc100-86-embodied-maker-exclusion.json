@@ -1,15 +1,17 @@
 {
-  "id": "CC100-86-EMBODIED-MAKER-EXCLUSION",
-  "statement_id": "STMT-CC100-86-EMBODIED-MAKER-EXCLUSION",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "f7f620c4-a684-56c2-9408-b8cc8203f4df",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: Some wholes cannot be made by embodied agents",
+  "legacy_id": "CC100-86-EMBODIED-MAKER-EXCLUSION",
+  "statement_id": "e5eb2834-7b87-5b38-947b-dcdd1f0d48ef",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.206–213: p.210, argument #86 Unities: Wholes, step 2",
   "interpretation": "Preserve both the positive some-wholes population and modal cannot-be-made restriction. This is stronger than merely not actually made by an embodied agent; no particular whole, possibility semantics or embodied-maker capability theory is supplied. Attribution is to McIntosh’s presentation only, not the unread Kronen/Menssen2013 article referenced on p211. No formal proof or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-86-WHOLE-MAKER-GODLIKE"
+    "c29b7f17-af6c-5869-9ef7-340c6aaeba58"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

@@ -1,6 +1,8 @@
 {
-  "id": "FURTHER-CAUSAL-COUNTERACCOUNT-TO-SELECTED-COUNTERCASE",
-  "argument_id": "FURTHER-CAUSAL-COUNTERACCOUNT-TO-SELECTED-COUNTERCASE",
+  "id": "4b01a06d-e8d4-57cd-bae3-93bd6e088030",
+  "label": "At the selected world one candidate lacks esse in re and either…, from A selected-world no-esse…",
+  "legacy_id": "FURTHER-CAUSAL-COUNTERACCOUNT-TO-SELECTED-COUNTERCASE",
+  "argument_id": "faa38eda-4ef1-5009-84e9-69036fc4f006",
   "challenge_module": "TruthCore.Results.Causality.CausalConcreteRivals.OtherProjection.Challenge",
   "solution_module": "TruthCore.Results.Causality.CausalConcreteRivals.OtherProjection.Solution",
   "theorem": "TruthCore.Results.Causality.CausalConcreteRivals.OtherProjection.otherProjection",

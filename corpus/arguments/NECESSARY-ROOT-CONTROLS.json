@@ -1,29 +1,31 @@
 {
-  "id": "NECESSARY-ROOT-CONTROLS",
+  "id": "e772c7f1-f03e-5068-a1f6-e571f9278545",
+  "label": "Witness and control bundle over logical models, none claimed metaphysically possible",
+  "legacy_id": "NECESSARY-ROOT-CONTROLS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-NECESSARY-ROOT-CONTROLS",
+  "conclusion_statement_id": "69ecebe0-d47d-5135-963f-ed8b94d6d84e",
   "inference_ids": [
-    "INF-NECESSARY-ROOT-CONTROLS"
+    "634d7b3c-5a6d-51a1-8a05-b31b8da19f12"
   ],
   "meaning": "Branch witnesses, omission controls, overlaps and reverse mathematics for the #553 fork. It corrects #553's expectation of a constructive root theorem: the universally quantified existential form implies excluded middle, and only its reductio form is constructive. Logical models only; no premise is discharged and none is claimed metaphysically possible.",
   "definition_ids": [
-    "DEF-ACTUAL-GROUNDING-WF",
-    "DEF-NONNECESSARY-ROOT",
-    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
-    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
-    "DEF-INHABITED-CONCRETE-WORLD",
-    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-MODAL-FIXTURE-FRAME",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-MODAL-CONTINGENCY",
-    "DEF-KANT-ONTOLOGICAL-MODEL"
+    "58fee8ed-9b44-5399-95c8-5d239bea898d",
+    "7ac7fea6-5b3a-5e97-b687-c76569c58429",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce",
+    "1b8baf77-84fa-5513-a138-7fa14840dd87",
+    "baddf770-36bf-542f-bb3c-2297342d5452",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109"
   ],
   "disambiguation_ids": [
-    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
-    "DISAMB-NONNECESSARY-VS-CONTINGENT-ROOT",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
-    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
-    "DISAMB-NECESSARY"
+    "6e92c6e3-edf0-5d7e-b2b3-788b24b8b768",
+    "b9adce48-6b86-5f58-b2ea-b25f51c70cbd",
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "c529e8d3-43e3-53a8-a82f-3955e9815265",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
   ]
 }

@@ -1,7 +1,9 @@
 {
-  "id": "INF-RESURRECTION-HALLUCINATION-CONSISTENT",
+  "id": "2ec7a965-2f62-5209-a85c-f5a7a85a7acc",
+  "label": "The limited Hallucination pilot bundle is jointly satisfiable with E0–E5, by Constructive-model",
+  "legacy_id": "INF-RESURRECTION-HALLUCINATION-CONSISTENT",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-RESURRECTION-HALLUCINATION-CONSISTENT",
+  "output_statement_id": "2b250f2d-981a-514e-9b1e-b8677615e08b",
   "rule": "constructive-model",
   "meaning": "Exhibit model and check every conjunct of the advertised limited theory bundle.",
   "assumption_statement_ids": [],

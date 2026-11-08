@@ -1,18 +1,20 @@
 {
-  "id": "TEMPORAL-DEFINITION-FROM-NAMED-COVERAGE",
+  "id": "99f75c91-e4e4-5d62-a287-3db82fca143d",
+  "label": "Explicit open analyst calibration: efficient-cause attribution holds exactly…, from named coverage",
+  "legacy_id": "TEMPORAL-DEFINITION-FROM-NAMED-COVERAGE",
   "premise_statement_ids": [
-    "STMT-EFFICIENT-ATTRIBUTION-NAMED-TEMPORAL-DEFINITIONS-COVER",
-    "STMT-EFFICIENT-ATTRIBUTION-CURRENT-DEFINITION-FAILS"
+    "a1d4003f-92b6-510a-95f5-e282afad92fa",
+    "92f8f0c4-f45b-5ae4-ba23-22b4dbd182d8"
   ],
-  "conclusion_statement_id": "STMT-EFFICIENT-ATTRIBUTION-TEMPORAL-DEFINITION",
+  "conclusion_statement_id": "4133bd12-ac64-59e0-b708-2d2c72e1c3de",
   "inference_ids": [
-    "INF-TEMPORAL-DEFINITION-FROM-NAMED-COVERAGE"
+    "8e933237-7427-5a83-a716-6a0f214e5c60"
   ],
   "meaning": "Conditional disjunct elimination: coverage plus actual negation of selected-time calibration yields temporal calibration. Failure of selected-time calibration without coverage is insufficient.",
   "definition_ids": [
-    "DEF-COMPOSER-TEMPORAL-PROFILE"
+    "c20f04bb-c069-5be5-b2c1-691fc994dcb9"
   ],
   "disambiguation_ids": [
-    "DISAMB-UNITING-CAUSE"
+    "57f80020-fa6f-5b69-be58-b4cf95b7226f"
   ]
 }

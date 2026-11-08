@@ -1,14 +1,16 @@
 {
-  "id": "INF-COGITO-INHABITED-CONCRETE-FROM-FLOOR-ACTIVITY",
+  "id": "82d3ca6a-f6b3-591f-848c-3f8635d31b28",
+  "label": "Some candidate is CONCRETE_6 and exists at the selected world w₀: ∃…, by Composition with… (2)",
+  "legacy_id": "INF-COGITO-INHABITED-CONCRETE-FROM-FLOOR-ACTIVITY",
   "input_statement_ids": [
-    "STMT-COGITO-THOUGHT-OCCURS",
-    "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT",
-    "STMT-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE",
-    "STMT-INTELLECTUAL-EXERCISE-PRODUCES-AT",
-    "STMT-COGITO-BEARER-EXISTS-AT-WORLD",
-    "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS"
+    "e81971f1-601c-57f5-be2d-c4b0624d0cad",
+    "30e6e01c-b7f1-536c-86ae-0a9be35dd160",
+    "8cf54bde-0c97-5428-9179-0d567293675d",
+    "54b0131b-96f2-51b6-b47d-87a0b7f2219c",
+    "c821487b-9c5e-5836-bf27-dcb47f210c94",
+    "e27489c3-7419-5123-8476-386633e62532"
   ],
-  "output_statement_id": "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+  "output_statement_id": "56f68b40-9737-59a0-8cac-5610980a1547",
   "rule": "Composition with COGITO-INHABITED-CONCRETE-FROM-CAUSAL-ACTIVITY (inhabitedFromProduction) and conjunction elimination",
   "meaning": "Some concrete candidate exists at w, by the existing Round 4 activity derivation (inhabitedFromProduction, imported and applied), with the owner-approved floor commitment STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS (capacity and activity clauses at the same w, on the same Causes and concrete) supplying the activity clause that the old argument took as the bare premise STMT-CAUSERS-REQUIRE-CONCRETENESS-AT. The other five premises are unchanged and remain OPEN; the contested production of an inner word (STMT-INTELLECTUAL-EXERCISE-PRODUCES-AT) is still required. It does not establish the floor commitment, which rests on its owner approval, and it says nothing about what concreteness is beyond the supplied predicate.",
   "assumption_statement_ids": [],

@@ -1,6 +1,8 @@
 {
-  "id": "ATOMIC-SOURCE-TO-GRAPH-SOURCE-WITNESS",
-  "argument_id": "ATOMIC-SOURCE-TO-GRAPH-SOURCE-WITNESS",
+  "id": "9e0d2022-623d-5daa-8fdf-fadddc6966be",
+  "label": "The selected graph has at least one graph-relative…, from Some object is a source of the selected…",
+  "legacy_id": "ATOMIC-SOURCE-TO-GRAPH-SOURCE-WITNESS",
+  "argument_id": "0ff50c59-465d-5c7e-8a29-3740518ea605",
   "challenge_module": "TruthCore.Results.Causality.SourceForestInterop.Challenge",
   "solution_module": "TruthCore.Results.Causality.SourceForestInterop.Solution",
   "theorem": "TruthCore.Results.Causality.SourceForestInterop.hasSource",

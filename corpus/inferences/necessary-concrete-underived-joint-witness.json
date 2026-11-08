@@ -1,7 +1,9 @@
 {
-  "id": "INF-NECESSARY-CONCRETE-UNDERIVED-JOINT-WITNESS",
+  "id": "d16fe321-f95f-5e3e-a0ff-ab5044c7397d",
+  "label": "A specified two-world Boolean profile jointly satisfies…, by Explicit-finite-interpretation",
+  "legacy_id": "INF-NECESSARY-CONCRETE-UNDERIVED-JOINT-WITNESS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-NECESSARY-CONCRETE-UNDERIVED-JOINT-WITNESS",
+  "output_statement_id": "dbe6d94b-a99b-5125-a5c6-1bfef6dc6c60",
   "rule": "explicit-finite-interpretation",
   "meaning": "A specified two-world Boolean profile jointly satisfies concrete actual population, well-founded actual concrete grounding, dependence of every actual contingent concretum, actual reflexivity, no contingent concrete supporter of necessary concrete targets, and well-founded necessary-concrete modal union. An actual contingent concrete dependent exists, so dependence is exercised. This certifies one formal interpretation, not metaphysical possibility or any universal premise.",
   "assumption_statement_ids": [],

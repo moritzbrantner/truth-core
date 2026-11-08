@@ -1,10 +1,12 @@
 {
-  "id": "DISAMB-PAIRWISE-JOINT-AND-ANALYZED-INDEPENDENCE",
+  "id": "8796008b-c5b3-53c9-8a4e-1421e5266f8e",
+  "label": "Independence of elementary facts",
+  "legacy_id": "DISAMB-PAIRWISE-JOINT-AND-ANALYZED-INDEPENDENCE",
   "term": "independence of elementary facts",
   "sense_definition_ids": [
-    "DEF-JOINT-REPORT-SATURATION",
-    "DEF-PAIRWISE-REPORT-VARIATION",
-    "DEF-SELECTED-BOOLEAN-BASIS-REANALYSIS"
+    "6298a18f-dd0d-5b30-816f-a1971f7d08ed",
+    "57534b14-5072-5636-8ceb-994b9e0190ae",
+    "a0748b15-f85f-57f8-9f57-baa7d5cbb2af"
   ],
   "resolution": "Individual or pairwise value realization does not entail full joint report saturation. Full saturation concerns a supplied set of designated elementary coordinates; reanalysis can instead classify the third report as a composite over an independently saturated two-report basis. No blanket independence of all propositions, probabilistic independence, actual metaphysical admissibility or historical analysis is inferred. The selected-fragment theorem is not a representation of all infinite-world coordinates."
 }

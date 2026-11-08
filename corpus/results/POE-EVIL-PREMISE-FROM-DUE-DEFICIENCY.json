@@ -1,6 +1,8 @@
 {
-  "id": "POE-EVIL-PREMISE-FROM-DUE-DEFICIENCY",
-  "argument_id": "POE-EVIL-PREMISE-FROM-DUE-DEFICIENCY",
+  "id": "667d854e-d98b-594e-9093-1fbc854203a6",
+  "label": "The sentence 'there is EVIL_1 in the world' is true, from due deficiency",
+  "legacy_id": "POE-EVIL-PREMISE-FROM-DUE-DEFICIENCY",
+  "argument_id": "f467eb8a-eca5-549a-8a15-ba24b30db066",
   "challenge_module": "TruthCore.Results.Comparison.ProblemOfEvil.TruthFromDueDeficiency.Challenge",
   "solution_module": "TruthCore.Results.Comparison.ProblemOfEvil.TruthFromDueDeficiency.Solution",
   "theorem": "TruthCore.Results.Comparison.ProblemOfEvil.TruthFromDueDeficiency.evilPremiseFromDueDeficiency",

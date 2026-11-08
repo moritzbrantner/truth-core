@@ -1,5 +1,7 @@
 {
-  "id": "DEF-THIRD-MAN-MUTUAL-LIKENESS",
+  "id": "3758cb7e-cb6b-508c-a0ef-6c3b83bc73f9",
+  "label": "MUTUAL_LIKENESS_3: MutuallyLike demands Like x y for each distinct ordered pair of members of a…",
+  "legacy_id": "DEF-THIRD-MAN-MUTUAL-LIKENESS",
   "term": "mutual likeness",
   "definition": "MutuallyLike demands Like x y for each distinct ordered pair of members of a list, in the selected resemblance respect. It does not assert transitivity, ordinary F-predication, copying, or identity.",
   "basis": "stipulative",

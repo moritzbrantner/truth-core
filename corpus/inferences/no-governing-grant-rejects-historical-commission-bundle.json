@@ -1,9 +1,11 @@
 {
-  "id": "INF-NO-GOVERNING-GRANT-REJECTS-HISTORICAL-COMMISSION-BUNDLE",
+  "id": "8fae82eb-1609-5ddf-81db-6f2d42e27594",
+  "label": "Exact negation of commission reports go back to jesus on the same…, by Constructive-proof (2)",
+  "legacy_id": "INF-NO-GOVERNING-GRANT-REJECTS-HISTORICAL-COMMISSION-BUNDLE",
   "input_statement_ids": [
-    "STMT-NO-GOVERNING-GRANT"
+    "548d2c4e-c62f-5aad-af2f-58d2067ac64c"
   ],
-  "output_statement_id": "STMT-HISTORICAL-COMMISSION-BUNDLE-REJECTED",
+  "output_statement_id": "a2deb7b1-b806-5875-af1f-b1635b0f51c2",
   "rule": "constructive-proof",
   "meaning": "The existing historical bundle supplies a governing grant, contradicting the universal absence of such grants. Matthew28 alone is not denied.",
   "assumption_statement_ids": [],

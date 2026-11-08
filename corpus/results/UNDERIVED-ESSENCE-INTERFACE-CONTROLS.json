@@ -1,6 +1,8 @@
 {
-  "id": "UNDERIVED-ESSENCE-INTERFACE-CONTROLS",
-  "argument_id": "UNDERIVED-ESSENCE-INTERFACE-CONTROLS",
+  "id": "5361193c-30e3-5d70-b7f0-1e221151e6fc",
+  "label": "Fixed populated controls jointly separate modal necessity, direct existential support and q3…",
+  "legacy_id": "UNDERIVED-ESSENCE-INTERFACE-CONTROLS",
+  "argument_id": "60044983-b59d-5dfe-b30c-8d1a4cd171dd",
   "challenge_module": "TruthCore.Results.Causality.UnderivedEssenceEsse.Direct.Challenge",
   "solution_module": "TruthCore.Results.Causality.UnderivedEssenceEsse.Solution",
   "theorem": "TruthCore.Results.Causality.UnderivedEssenceEsse.all_controls",

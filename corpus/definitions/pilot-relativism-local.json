@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PILOT-RELATIVISM-LOCAL",
+  "id": "176d848b-e667-50c6-b986-bfcd84e1f5ed",
+  "label": "LOCAL_PROFILE_VARIATION_READING_2: Some sentence has a true and a false interpretation under…",
+  "legacy_id": "DEF-PILOT-RELATIVISM-LOCAL",
   "term": "local profile-variation reading",
   "definition": "Some sentence has a true and a false interpretation under different endorsement profiles; no claim that all sentences vary.",
   "basis": "stipulative",

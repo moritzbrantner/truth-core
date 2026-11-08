@@ -1,15 +1,17 @@
 {
-  "id": "STMT-RECOGNIZABLE-CAPACITY-REALIZED",
+  "id": "3f303e5a-a3b2-57f4-accb-207139bf9d52",
+  "label": "Each GOD_4 candidate with recognizable-revelation capability has a correct recognition move in some…",
+  "legacy_id": "STMT-RECOGNIZABLE-CAPACITY-REALIZED",
   "paraphrase": "Open analyst bridge: each God candidate with recognizable-revelation capability has a correct recognition move in some admitted situation. The witness need not occur in the actual practice, and outsider-shared standards are separate.",
   "lean_declaration": "TruthCore.Alternatives.RevelationRecognition.RecognizableCapacityRealized",
   "definition_ids": [
-    "DEF-REVELATION-RECOGNITION-PROFILE",
-    "DEF-GOD-OF-CLASSICAL-THEISM",
-    "DEF-WITTGENSTEINIAN-FIDEISM",
-    "DEF-NATURAL-REASON-SHARED"
+    "c0b671c6-ae2f-5ccb-9330-6bd8f4bda866",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "8c86d489-cd62-5d8e-9207-2d846caf9c14",
+    "11d72af9-f562-5ef0-934e-556e0a6dcb83"
   ],
   "disambiguation_ids": [
-    "DISAMB-REVELATION-CAPABILITY-AND-PRACTICE-UPTAKE",
-    "DISAMB-PRACTICE-SENSITIVITY-AND-FIDEIST-INSULATION"
+    "1fd4651d-77a7-5f25-9a1c-e28df367c602",
+    "5fd26045-b3db-5820-a055-cd8c89bc41e5"
   ]
 }

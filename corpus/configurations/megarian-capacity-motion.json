@@ -1,7 +1,9 @@
 {
-  "id": "CONFIG-MEGARIAN-CAPACITY-MOTION",
+  "id": "dbcca9cd-9b01-566f-9229-0653e420b13e",
+  "label": "Incompatibility clean-up pass, first slice: the Megarian thesis against present motion and…",
+  "legacy_id": "CONFIG-MEGARIAN-CAPACITY-MOTION",
   "description": "Incompatibility clean-up pass (#576), first slice: the Megarian thesis against present motion and Aristotle's two premises on what is being moved, in one shared capacity/actuality vocabulary. Configurations are inputs; statuses and minimality are computed only from live certificates.",
-  "seed_statement_id": "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD",
+  "seed_statement_id": "fbc516c1-a6cb-5495-9d31-6e2bb45e8e67",
   "semantics": {
     "id": "megarian-capacity-shared-predicates",
     "logic": "Constructive Lean propositions; no excluded-middle assumption. Certificates are zero-axiom.",
@@ -35,24 +37,24 @@
       }
     ],
     "applications": {
-      "STMT-MEGARIAN-ABILITY-ONLY-WHEN-ACTING": [
+      "c51c5e26-5ec4-5257-8282-e1bea22e20ba": [
         "Being",
         "Respect",
         "InAct",
         "CanBe"
       ],
-      "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD": [
+      "fbc516c1-a6cb-5495-9d31-6e2bb45e8e67": [
         "Being",
         "Respect",
         "MovedIn"
       ],
-      "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-NOT-YET-R": [
+      "811fe80c-3bdd-5e41-9f1b-f94bec9178ef": [
         "Being",
         "Respect",
         "MovedIn",
         "InAct"
       ],
-      "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-ABLE-TO-BE-R": [
+      "53225d00-bd26-50e0-b05e-403c88431cd3": [
         "Being",
         "Respect",
         "MovedIn",
@@ -72,52 +74,52 @@
     {
       "id": "full-core",
       "statement_ids": [
-        "STMT-MEGARIAN-ABILITY-ONLY-WHEN-ACTING",
-        "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD",
-        "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-ABLE-TO-BE-R",
-        "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-NOT-YET-R"
+        "c51c5e26-5ec4-5257-8282-e1bea22e20ba",
+        "fbc516c1-a6cb-5495-9d31-6e2bb45e8e67",
+        "53225d00-bd26-50e0-b05e-403c88431cd3",
+        "811fe80c-3bdd-5e41-9f1b-f94bec9178ef"
       ]
     },
     {
       "id": "without-megarian-thesis",
       "statement_ids": [
-        "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD",
-        "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-ABLE-TO-BE-R",
-        "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-NOT-YET-R"
+        "fbc516c1-a6cb-5495-9d31-6e2bb45e8e67",
+        "53225d00-bd26-50e0-b05e-403c88431cd3",
+        "811fe80c-3bdd-5e41-9f1b-f94bec9178ef"
       ]
     },
     {
       "id": "without-present-motion",
       "statement_ids": [
-        "STMT-MEGARIAN-ABILITY-ONLY-WHEN-ACTING",
-        "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-ABLE-TO-BE-R",
-        "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-NOT-YET-R"
+        "c51c5e26-5ec4-5257-8282-e1bea22e20ba",
+        "53225d00-bd26-50e0-b05e-403c88431cd3",
+        "811fe80c-3bdd-5e41-9f1b-f94bec9178ef"
       ]
     },
     {
       "id": "without-incompleteness",
       "statement_ids": [
-        "STMT-MEGARIAN-ABILITY-ONLY-WHEN-ACTING",
-        "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD",
-        "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-ABLE-TO-BE-R"
+        "c51c5e26-5ec4-5257-8282-e1bea22e20ba",
+        "fbc516c1-a6cb-5495-9d31-6e2bb45e8e67",
+        "53225d00-bd26-50e0-b05e-403c88431cd3"
       ]
     },
     {
       "id": "without-ability",
       "statement_ids": [
-        "STMT-MEGARIAN-ABILITY-ONLY-WHEN-ACTING",
-        "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD",
-        "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-NOT-YET-R"
+        "c51c5e26-5ec4-5257-8282-e1bea22e20ba",
+        "fbc516c1-a6cb-5495-9d31-6e2bb45e8e67",
+        "811fe80c-3bdd-5e41-9f1b-f94bec9178ef"
       ]
     }
   ],
   "incompatibility_result_ids": [
-    "MEGARIAN-CAPACITY-MOTION-INCOMPATIBLE"
+    "c0656af8-2e01-56a4-b187-d2701f34278e"
   ],
   "implication_result_ids": [],
   "model_bindings": [
     {
-      "model_id": "MODEL-MEGARIAN-CAPACITY-MOVED-ALREADY-ACTUAL",
+      "model_id": "f0f85d84-8164-530c-abbe-562dc0bc3ea2",
       "parameters": {
         "Being": "Being",
         "Respect": "Respect",
@@ -127,7 +129,7 @@
       }
     },
     {
-      "model_id": "MODEL-MEGARIAN-CAPACITY-MOVED-WITHOUT-ABILITY",
+      "model_id": "d9693519-3e57-5d52-ae58-849d90659d92",
       "parameters": {
         "Being": "Being",
         "Respect": "Respect",
@@ -137,7 +139,7 @@
       }
     },
     {
-      "model_id": "MODEL-MEGARIAN-CAPACITY-NOTHING-MOVED",
+      "model_id": "0c8b6461-af66-5e33-b0b6-f503d46ba3b7",
       "parameters": {
         "Being": "Being",
         "Respect": "Respect",
@@ -147,7 +149,7 @@
       }
     },
     {
-      "model_id": "MODEL-MEGARIAN-CAPACITY-UNACTUALIZED-ABILITY",
+      "model_id": "977a76d6-beec-58c4-9344-e1af315e62b6",
       "parameters": {
         "Being": "Being",
         "Respect": "Respect",

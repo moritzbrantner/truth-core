@@ -1,10 +1,12 @@
 {
-  "id": "STMT-WHY-GROUNDING-CONTRASTIVE-DIFFERENCE-MAKING",
+  "id": "6573cc65-79ab-549f-88c9-47700a2678ee",
+  "label": "Why-grounding corresponds to why-explanation and need not necessitate its target; the proposal…",
+  "legacy_id": "STMT-WHY-GROUNDING-CONTRASTIVE-DIFFERENCE-MAKING",
   "paraphrase": "Why-grounding corresponds to why-explanation and need not necessitate its target; the proposal imposes contrastive difference-making conditions rather than leaving grounding modally unconstrained.",
   "definition_ids": [
-    "DEF-GROUNDING-NECESSITATION-SOURCE-SENSES"
+    "fb322793-9175-591d-b5b2-7bc3989c90da"
   ],
   "disambiguation_ids": [
-    "DISAMB-NECESSITATION-PRIORITY-INVARIANCE"
+    "b8b4c985-8b2b-545d-b474-2b5356e90140"
   ]
 }

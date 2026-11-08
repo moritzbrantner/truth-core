@@ -1,9 +1,11 @@
 {
-  "id": "REL-ETERNITY-ADDITIONAL-OPPOSES-NAMED-COVERAGE",
+  "id": "ac14a9af-c83c-54f4-af86-dbfdfb39591c",
+  "label": "Both named calibrations fail in the SAME… alternative to The supplied primitive Eternal has the…",
+  "legacy_id": "REL-ETERNITY-ADDITIONAL-OPPOSES-NAMED-COVERAGE",
   "subject_kind": "statement",
-  "subject_id": "STMT-PRIMITIVE-ETERNITY-ADDITIONAL-DEFINITION",
+  "subject_id": "fdcb4490-f987-5a5b-a179-53e00ebf25ee",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-PRIMITIVE-ETERNITY-NAMED-DEFINITIONS-COVER",
+  "object_id": "7b163cd0-989e-5d92-ba3f-9e368001876d",
   "note": "Both named calibration propositions fail; no rival to the primitive eternity conclusion is inferred from this remainder alone."
 }

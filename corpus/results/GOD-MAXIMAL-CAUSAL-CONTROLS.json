@@ -1,6 +1,8 @@
 {
-  "id": "GOD-MAXIMAL-CAUSAL-CONTROLS",
-  "argument_id": "GOD-MAXIMAL-CAUSAL-CONTROLS",
+  "id": "af66870a-0c3b-59d6-b459-96e074c08240",
+  "label": "Positive witness: with a GOD_4 that causes the being of one other being and exceeds it in being…",
+  "legacy_id": "GOD-MAXIMAL-CAUSAL-CONTROLS",
+  "argument_id": "0154fa50-6a62-51e9-b5e5-9e745f55721f",
   "challenge_module": "TruthCore.Results.Causality.GodMaximalCausal.Challenge",
   "solution_module": "TruthCore.Results.Causality.GodMaximalCausal.Solution",
   "theorem": "TruthCore.Results.Causality.GodMaximalCausal.controls",

@@ -1,6 +1,8 @@
 {
-  "id": "LOCAL-CHAIN-COMPOSITION-STRICTNESS-CONTROL",
-  "argument_id": "LOCAL-CHAIN-COMPOSITION-STRICTNESS-CONTROL",
+  "id": "aabd5208-0f38-57ba-a8a8-67b052c2c4c2",
+  "label": "An exact Nat×Bool interpretation satisfies local-chain composition and has an actual injective…",
+  "legacy_id": "LOCAL-CHAIN-COMPOSITION-STRICTNESS-CONTROL",
+  "argument_id": "ba944011-1a4d-5f67-b2ef-f340eb94756f",
   "challenge_module": "TruthCore.Results.Aristotle.Physics.LocalContactComposition.Control.Challenge",
   "solution_module": "TruthCore.Results.Aristotle.Physics.LocalContactComposition.Control.Solution",
   "theorem": "TruthCore.Results.Aristotle.Physics.LocalContactComposition.Control.populatedStrictness",

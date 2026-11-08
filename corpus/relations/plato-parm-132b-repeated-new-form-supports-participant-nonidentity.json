@@ -1,9 +1,11 @@
 {
-  "id": "REL-PLATO-PARM-132B-REPEATED-NEW-FORM-SUPPORTS-PARTICIPANT-NONIDENTITY",
+  "id": "322a58e3-72a2-5ccd-93f5-ecec234301f8",
+  "label": "Plato, Parmenides 132b: Another Form of… supports Every Form of an admitted quality differs…",
+  "legacy_id": "REL-PLATO-PARM-132B-REPEATED-NEW-FORM-SUPPORTS-PARTICIPANT-NONIDENTITY",
   "subject_kind": "claim",
-  "subject_id": "PLATO-PARM-132B-REPEATED-NEW-FORM",
+  "subject_id": "020d0f34-d344-55d9-9ff8-8581b6aa10b4",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-THIRD-MAN-PARTICIPANT-NONIDENTITY",
+  "object_id": "2c3d9624-723c-520a-8a9e-a8b19383c5a0",
   "note": "Source motivation only. The independent statement deliberately exposes the universal scope/quantifiers needed by the research reconstruction; this edge is not an inference, a truth endorsement, or premise closure."
 }

@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CC100-116-THEISTIC-BEST-EXPLANATION-BRIDGE",
+  "id": "339f2eb8-d089-5100-82ea-acc3107d0f68",
+  "label": "If reason can have only a personal explanation, its best explanation is theistic",
+  "legacy_id": "STMT-CC100-116-THEISTIC-BEST-EXPLANATION-BRIDGE",
   "paraphrase": "If reason can have only a personal explanation, its best explanation is theistic.",
   "definition_ids": [
-    "DEF-CC100-116-REASON-PERSONAL-EXPLANATION"
+    "54bd3f5c-02de-55b4-a0dc-1c4f442cbbf5"
   ],
   "disambiguation_ids": [
-    "DISAMB-REASON-EPISTEMIC-ONTIC",
-    "DISAMB-PSR-EXPLANATION-CAUSE"
+    "a61d3807-50e9-595e-9011-9123fd606a4b",
+    "f7bae38e-9b21-54fe-8236-2646c230568b"
   ]
 }

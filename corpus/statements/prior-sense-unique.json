@@ -1,11 +1,13 @@
 {
-  "id": "STMT-PRIOR-SENSE-UNIQUE",
+  "id": "fbc5fecc-f30a-52e9-b653-38111a34880e",
+  "label": "The route's reading of 'prior' selects at most one of the three senses",
+  "legacy_id": "STMT-PRIOR-SENSE-UNIQUE",
   "paraphrase": "OPEN frontier premise (exclusivity, attribution deferred): the route's reading of 'prior' selects at most one of the three senses. It is a constraint on the reading choice, not a claim that the extensions of the senses are disjoint; with coverage it gives exactly one selected sense.",
   "lean_declaration": "TruthCore.Causality.TermSenseForks.PriorSenseUnique",
   "definition_ids": [
-    "DEF-ROUTE-SENSE-SELECTION"
+    "52ac2160-9482-5e6a-9cfe-3e6f67482e5a"
   ],
   "disambiguation_ids": [
-    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"
+    "be54be36-3ce8-53f9-8168-50d1114e6c76"
   ]
 }

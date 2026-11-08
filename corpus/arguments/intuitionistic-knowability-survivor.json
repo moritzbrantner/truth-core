@@ -1,16 +1,18 @@
 {
-  "id": "INTUITIONISTIC-KNOWABILITY-SURVIVOR",
+  "id": "fdb8f273-b386-5bea-ba4c-211a9aabf783",
+  "label": "The named three-stage model jointly satisfies genuine future-forcing semantics, exact reused…",
+  "legacy_id": "INTUITIONISTIC-KNOWABILITY-SURVIVOR",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-INTUITIONISTIC-KNOWABILITY-SURVIVOR",
+  "conclusion_statement_id": "051d73e8-6328-5855-b0f7-ff20d20b1f1b",
   "inference_ids": [
-    "INF-INTUITIONISTIC-KNOWABILITY-SURVIVOR"
+    "904ae447-787f-5470-a4f6-dea52f06a46f"
   ],
   "meaning": "Construct and verify one same three-world persistent-content model. Import the earlier epistemic frame certificate through its explicit three-world restriction; prove relational knowledge/possibility preserve the contents without adding worlds, check the individual algebraic epistemic laws, and witness full knowability and precise relevant stability/EM failure. This is a semantic-profile counterconfiguration, not a counterexample to old pointwise Lean Prop results, a refutation of the classical floor, a historical claim or root discharge.",
   "definition_ids": [
-    "DEF-INTUITIONISTIC-PERSISTENT-CONTENTS",
-    "DEF-INTUITIONISTIC-KNOWABILITY-OPERATORS"
+    "bc05d419-dfac-58cd-9239-58b3506a3d3b",
+    "854eaae1-7044-5c7c-9095-cc0caa525bf4"
   ],
   "disambiguation_ids": [
-    "DISAMB-INTUITIONISTIC-FORCING-AND-NONFORCING"
+    "44e4bb2b-dd95-5357-82eb-186f5c0a1281"
   ]
 }

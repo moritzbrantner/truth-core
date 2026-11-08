@@ -1,6 +1,8 @@
 {
-  "id": "CAUSE-OF-QUALITY-MORE-SUCH-FROM-RECEPTION-LIMITS",
-  "argument_id": "CAUSE-OF-QUALITY-MORE-SUCH-FROM-RECEPTION-LIMITS",
+  "id": "36420e1a-d357-5ed1-be89-8c03a1c2c02e",
+  "label": "Whatever causes a quality in another thing is more such than that thing, from reception limits",
+  "legacy_id": "CAUSE-OF-QUALITY-MORE-SUCH-FROM-RECEPTION-LIMITS",
+  "argument_id": "924302df-70a7-52c9-8288-56f08369db75",
   "challenge_module": "TruthCore.Results.Causality.CausalMapsBatch1.Challenge",
   "solution_module": "TruthCore.Results.Causality.CausalMapsBatch1.Solution",
   "theorem": "TruthCore.Results.Causality.CausalMapsBatch1.causeOfQualityMoreSuch",

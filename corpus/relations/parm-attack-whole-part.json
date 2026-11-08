@@ -1,8 +1,10 @@
 {
-  "id": "REL-PARM-ATTACK-WHOLE-PART",
+  "id": "d74d3f60-9bb9-5c71-8f25-4852e29a0def",
+  "label": "The spatial whole-or-proper-part…, from… attacks Every PARTICIPATION_3 is either allocation…",
+  "legacy_id": "REL-PARM-ATTACK-WHOLE-PART",
   "subject_kind": "argument",
-  "subject_id": "PARM-WHOLE-PART-OBJECTION",
+  "subject_id": "0bceab05-d049-5388-9660-eeb4b6a7e6e4",
   "predicate": "attacks",
   "object_kind": "statement",
-  "object_id": "STMT-PARM-SPATIAL-DILEMMA"
+  "object_id": "09cbec38-b5a3-5e2b-989e-daa3dbb195d5"
 }

@@ -1,6 +1,8 @@
 {
-  "id": "CONCRETE-SCOPED-ATOMISTIC-NECESSARY-BEING",
-  "argument_id": "CONCRETE-SCOPED-ATOMISTIC-NECESSARY-BEING",
+  "id": "e18efdcf-2921-5d17-a5aa-49c37313735e",
+  "label": "Some concrete individual exists at w…, from Some candidate is CONCRETE_6 and exists at… and 5 more",
+  "legacy_id": "CONCRETE-SCOPED-ATOMISTIC-NECESSARY-BEING",
+  "argument_id": "abe97ecb-c6cd-55b2-91f4-a52354c1e881",
   "challenge_module": "TruthCore.Results.Causality.ConcreteAtomisticNecessaryBeing.Challenge",
   "solution_module": "TruthCore.Results.Causality.ConcreteAtomisticNecessaryBeing.Solution",
   "theorem": "TruthCore.Results.Causality.ConcreteAtomisticNecessaryBeing.scopedConcrete",

@@ -1,19 +1,21 @@
 {
-  "id": "EP-ROLE-INDEPENDENT-FROM-THIN",
+  "id": "e0c99541-7743-5fca-a65c-cc1146f37ae3",
+  "label": "Some ordinary-role epistemic reason retains pro tanto normative force across every…, from thin",
+  "legacy_id": "EP-ROLE-INDEPENDENT-FROM-THIN",
   "premise_statement_ids": [
-    "STMT-THERE-ARE-EPISTEMIC-REASONS",
-    "STMT-EPISTEMIC-REASONS-HAVE-CONSIDERATION-PRESENTATION",
-    "STMT-EPISTEMIC-REASON-PREFERENCE-INDEPENDENT-DEFINITION"
+    "f56b2ee7-c69e-5e3b-85b0-e671d907ba58",
+    "1b74e22c-3e2e-5328-b587-6dc2517f5e3f",
+    "b5f35b0d-d62a-52e4-affd-960b7b483dd9"
   ],
-  "conclusion_statement_id": "STMT-THERE-ARE-PREFERENCE-INDEPENDENT-EPISTEMIC-REASONS",
+  "conclusion_statement_id": "2ca463c2-bd1f-5a13-a395-0e2c57a5ad8f",
   "inference_ids": [
-    "INF-EP-ROLE-INDEPENDENT-FROM-THIN"
+    "d80d3f01-e6ee-54bf-92bf-3ea0931b4267"
   ],
   "meaning": "Calibration transcription: thin F6 plus consideration presentation and the stronger preference-independent definition supplies an independent-force witness. The two additional premises remain open; F6 approval alone supplies neither.",
   "definition_ids": [
-    "DEF-EPISTEMIC-REASON-DEFINITION-PROFILE"
+    "d13c0241-320a-5d56-8927-341e46063e05"
   ],
   "disambiguation_ids": [
-    "DISAMB-EPISTEMIC-REASON-EXISTENCE-ROLE-AUTHORITY"
+    "339c6bf8-37f1-5d5e-9f26-3258957443cc"
   ]
 }

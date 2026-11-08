@@ -1,13 +1,15 @@
 {
-  "id": "STMT-RELIGIOUS-MATCHED-TRUTH-UNIFORM-REJECTED",
+  "id": "8c3ccf42-6033-53dc-95f2-64cca9b9f970",
+  "label": "Exact negation of matched-content religious truth invariance on the same supplied profile",
+  "legacy_id": "STMT-RELIGIOUS-MATCHED-TRUTH-UNIFORM-REJECTED",
   "paraphrase": "Exact negation of matched-content religious truth invariance on the same supplied profile. This does not by itself reject local propositional content, belief assertion or descriptive fact representation.",
   "lean_declaration": "TruthCore.Alternatives.ReligiousLanguageSemantics.MatchedTruthUniformRejected",
   "definition_ids": [
-    "DEF-RELIGIOUS-CONTENT-AND-DISCOURSE-TRUTH-PROFILE",
-    "DEF-RELIGIOUS-LOCAL-FACE-VALUE",
-    "DEF-RELIGIOUS-CROSS-DISCOURSE-FACE-VALUE"
+    "05c208f5-5137-5984-b940-083faed296ac",
+    "7e1cb856-5004-5ee5-b6e3-65aef915b0a7",
+    "b3e05273-087e-5a8f-864d-52e56f82d3b4"
   ],
   "disambiguation_ids": [
-    "DISAMB-RELIGIOUS-LOCAL-FACE-VALUE-AND-CROSS-DISCOURSE-UNIFORMITY"
+    "972577ea-4155-59ec-9f20-0399367c7de5"
   ]
 }

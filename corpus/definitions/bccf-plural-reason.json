@@ -1,5 +1,7 @@
 {
-  "id": "DEF-BCCF-PLURAL-REASON",
+  "id": "6bead600-5f07-57aa-b0b9-9235f7bf8859",
+  "label": "PLURAL_REASON_1: Plural W F relates a world, a class of facts and a fact: G w Xs f says that at w…",
+  "legacy_id": "DEF-BCCF-PLURAL-REASON",
   "term": "plural reason",
   "definition": "Plural W F relates a world, a class of facts and a fact: G w Xs f says that at w the facts Xs are together admitted as a reason why f obtains. PNecessitating says that at each accessible world where all Xs hold, f holds. PContrast says that at each accessible world where f fails, some member of Xs fails. PDistribution says that reasons for an aggregate are reasons for each conjunct. PartIrreflexive says that no contingent fact is among its own reasons. Each is a separate hypothesis, and none is built into G.",
   "basis": "stipulative",

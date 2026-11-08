@@ -1,6 +1,8 @@
 {
-  "id": "RETAINED-DUTY-LOCAL-CONTROLS",
-  "argument_id": "RETAINED-DUTY-LOCAL-CONTROLS",
+  "id": "610c8451-4360-57ea-87f7-a7bf2995b3b7",
+  "label": "Action-local omission controls witness every single-premise deletion of the local direct and…",
+  "legacy_id": "RETAINED-DUTY-LOCAL-CONTROLS",
+  "argument_id": "0b6fa976-d98b-5314-9d34-d2ab051b3c53",
   "challenge_module": "TruthCore.Results.Modal.RetainedDutyLocal.Challenge",
   "solution_module": "TruthCore.Results.Modal.RetainedDutyLocal.Solution",
   "theorem": "TruthCore.Results.Modal.RetainedDutyLocal.controls",

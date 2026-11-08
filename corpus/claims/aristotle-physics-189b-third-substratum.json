@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-189B-THIRD-SUBSTRATUM-A",
-  "statement_id": "STMT-THIRD-SUBSTRATUM-REQUIRED",
-  "source_id": "ARIST-PHYS",
+  "id": "3c1db6db-b794-5a90-941d-6e2f86777d37",
+  "label": "Aristotle, Physics I.6, 189a34-189b3: If both the argument for contrary principles and the…",
+  "legacy_id": "ARIST-PHYS-189B-THIRD-SUBSTRATUM-A",
+  "statement_id": "5cc16675-1d15-5b45-91d7-e4fcebd49096",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.6, 189a34-189b3",
   "interpretation": "Conditional synthesis: to preserve both the prior contrary-principles argument and the new substratum considerations, Aristotle says a third underlying item must be posited. The reading preserves the conditional and does not decide which proposed underlying nature is correct.",
   "status": "formalized"

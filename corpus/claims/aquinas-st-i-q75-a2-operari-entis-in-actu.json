@@ -1,15 +1,17 @@
 {
-  "id": "AQUINAS-ST-I-Q75-A2-OPERARI-ENTIS-IN-ACTU",
-  "statement_id": "STMT-AQUINAS-OPERATION-ONLY-OF-BEING-IN-ACT",
-  "source_id": "AQUINAS-ST",
+  "id": "f4b1c499-8294-5a9d-aa58-f0a755480edd",
+  "label": "Thomas Aquinas, Summa theologiae I q.75 a.2…: At the selected world, whatever causes something is…",
+  "legacy_id": "AQUINAS-ST-I-Q75-A2-OPERARI-ENTIS-IN-ACTU",
+  "statement_id": "4cd75e82-3338-5ef6-9636-da518844a519",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.75 a.2 co. [31460]: Non enim est operari nisi entis in actu, unde eo modo aliquid operatur, quo est. Propter quod non dicimus quod calor calefacit, sed calidum",
   "interpretation": "'Non enim est operari nisi entis in actu, unde eo modo aliquid operatur, quo est': operating belongs only to a being in act, and a thing operates in the way it is. The example 'non dicimus quod calor calefacit, sed calidum' treats a hot thing's heating something, i.e. causing another, as operating. Read here: whatever causes something is in act in some respect (the weakest reading of 'ens in actu'). Not read: that the agent is in act in the respect of being (that is ST I q.4 a.1 ad 3, a separate premise), the subsistence clause of the preceding sentence (AQUINAS-ST-I-Q75-A2-OPERATION-REQUIRES-SUBSISTENCE), or the 'eo modo ... quo est' correspondence of modes.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-ACT"
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168"
   ],
   "disambiguation_ids": [
-    "DISAMB-IN-ACT"
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
   ],
   "attribution": "The passage states that operating, of which a hot thing's heating is the example, belongs only to a being in act, which is the premise."
 }

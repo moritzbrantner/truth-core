@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "ENOCH-METANORMATIVE-EPISTEMOLOGICAL-CHALLENGE",
+    "source_id": "4536e978-112d-5072-ac51-f3f54f68450f",
     "source_url": "https://harjitbhogal.com/Flukes2024/Enoch%202010%20-%20The%20epistemological%20challenge%20to%20metanormative%20realism.pdf",
     "retrieved_at": "2026-10-28T20:01:31Z",
     "sha256": "sha256:9bd099bc78474ecd8977ce6f1a10f32010b4ce7fe593e6f71457734973366b41",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "ENOCH-METANORMATIVE-EPISTEMOLOGICAL-CHALLENGE-FULL",
+      "id": "c4222166-7109-5b9f-a142-655f5694bb62",
+      "label": "David Enoch, The epistemological challenge to metanormative realism, Philosophical Studies 148\u2026",
+      "legacy_id": "ENOCH-METANORMATIVE-EPISTEMOLOGICAL-CHALLENGE-FULL",
       "locator": "Philosophical Studies 148 (2010), pp.413\u2013438; complete paper",
       "claim_locator_prefixes": [
         "pp. "

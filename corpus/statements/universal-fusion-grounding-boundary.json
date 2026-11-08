@@ -1,15 +1,17 @@
 {
-  "id": "STMT-UNIVERSAL-FUSION-GROUNDING-BOUNDARY",
+  "id": "4a9f89a7-6026-5bcb-ae84-8ef3167ab43e",
+  "label": "In a fixed inhabited partial-order domain, unrestricted nonempty-family Sum2 fusion supplies a…",
+  "legacy_id": "STMT-UNIVERSAL-FUSION-GROUNDING-BOUNDARY",
   "paraphrase": "In a fixed inhabited partial-order domain, unrestricted nonempty-family Sum2 fusion supplies a greatest entity. A whole covering the specified material domain cannot have a material nonpart candidate. Nonempty subsets of two constituents witness unrestricted fusion, a composite greatest whole and an irreflexive strict-part relation supplying every composite with a distinct candidate ground; the same fusion facts with an empty relation fail that requirement. Every same-domain outside-parts cause of the whole is excluded for every candidate cause relation, while a separately enlarged carrier admits a nonmaterial nonpart candidate. The latter is not asserted to be an actual cause. Numerical distinction, nonparthood, causal adequacy, substantial unity and composition-as-identity remain distinct. No root premise or actual metaphysical applicability is established.",
   "lean_declaration": "TruthCore.Mereology.UniversalFusionBoundary.Boundary",
   "definition_ids": [
-    "DEF-UNIVERSAL-FUSION-PROFILE",
-    "DEF-UNIVERSAL-FUSION-DOMAIN",
-    "DEF-FUSION-DISTINCT-CAUSE",
-    "DEF-FUSION-OUTSIDE-CAUSE",
-    "DEF-FUSION-GROUND-INTERPRETATIONS"
+    "9ec56dce-572e-5230-8247-6b3e994cb98a",
+    "094da9ef-9edb-5e88-8b7b-2eb87488e90d",
+    "bd53bfc6-708a-50ce-9307-1d6662f4ce2f",
+    "46f6e845-7a48-504d-b253-754e0563a7c5",
+    "6179f6e9-4b70-51cc-8717-6d876a6418c3"
   ],
   "disambiguation_ids": [
-    "DISAMB-FUSION-CAUSE-EXTERNALITY"
+    "80aee986-d636-5cf7-a339-f99726342440"
   ]
 }

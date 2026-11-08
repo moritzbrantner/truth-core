@@ -1,6 +1,8 @@
 {
-  "id": "BOUNDED-PAST-RESOURCE-CONTRADICTION",
-  "argument_id": "BOUNDED-PAST-RESOURCE-CONTRADICTION",
+  "id": "52cc8a95-a81a-5ce8-9314-8946b9195895",
+  "label": "Logical falsity, from The fixed real epsilon is strictly positive and 2 more",
+  "legacy_id": "BOUNDED-PAST-RESOURCE-CONTRADICTION",
+  "argument_id": "1842a519-23a8-5db7-b271-c811dbe6e3d0",
   "challenge_module": "TruthCore.Results.Causality.BoundedPastResource.Challenge",
   "solution_module": "TruthCore.Results.Causality.BoundedPastResource.Solution",
   "theorem": "TruthCore.Results.Causality.BoundedPastResource.noUniformGrowth",

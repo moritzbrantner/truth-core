@@ -1,20 +1,22 @@
 {
-  "id": "FITCH-MOORE-UNKNOWABLE",
+  "id": "36a3a382-094f-5167-b003-182489a3f9e0",
+  "label": "The selected Moore conjunction cannot be known at…, from At every world modally accessible from…",
+  "legacy_id": "FITCH-MOORE-UNKNOWABLE",
   "premise_statement_ids": [
-    "STMT-FITCH-RELEVANT-LAWS"
+    "51c7ef24-a720-52f1-8f04-49f242269266"
   ],
-  "conclusion_statement_id": "STMT-FITCH-MOORE-UNKNOWABLE",
+  "conclusion_statement_id": "c5485061-57f0-58cb-a5ac-630336d74210",
   "inference_ids": [
-    "INF-FITCH-MOORE-UNKNOWABLE"
+    "c2e58947-f54c-5022-8213-c0601e3e80f1"
   ],
   "meaning": "At a possible knower world, factivity gives the negated knowledge conjunct while left extraction gives its contradictory positive knowledge. Only these instance laws at relevant worlds are required; no necessitation of local assumptions is used.",
   "definition_ids": [
-    "DEF-FITCH-WORLD-INDEXED-KNOWLEDGE",
-    "DEF-FITCH-ADMISSIBLE-CONTENTS",
-    "DEF-FITCH-RELEVANT-STABILITY",
-    "DEF-EPISTEMIC-ALTERNATIVES-KNOWLEDGE"
+    "4c0b6f4b-25fe-54c5-abce-5e866775385c",
+    "8cdd567b-c06b-5c6f-8a3a-f785e6c83fde",
+    "a1054bbf-58e8-50cd-acd0-0f44a059ca7c",
+    "05a2afda-c654-5f6b-a0f7-796c5dc1be2e"
   ],
   "disambiguation_ids": [
-    "DISAMB-FITCH-OPERATOR-SCOPE"
+    "840d320e-ed3b-553b-b0dd-750c61c298ba"
   ]
 }

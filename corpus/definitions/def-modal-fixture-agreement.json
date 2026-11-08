@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MODAL-FIXTURE-AGREEMENT",
+  "id": "a3baafe5-b951-5752-ab70-25f03144e8f5",
+  "label": "Agreement on a proposition domain: Agree D w v means every admissible predicate has equivalent…",
+  "legacy_id": "DEF-MODAL-FIXTURE-AGREEMENT",
   "term": "agreement on a proposition domain",
   "definition": "Agree D w v means every admissible predicate has equivalent truth values at w and v. This is domain-relative semantic agreement, not automatically metaphysical identity.",
   "basis": "stipulative",

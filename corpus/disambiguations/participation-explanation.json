@@ -1,12 +1,14 @@
 {
-  "id": "DISAMB-PARTICIPATION-EXPLANATION",
+  "id": "26477066-f7f5-596a-9d5e-bf01695d578b",
+  "label": "Explanation",
+  "legacy_id": "DISAMB-PARTICIPATION-EXPLANATION",
   "term": "explanation",
   "sense_definition_ids": [
-    "DEF-PARTICIPATION-COEXTENSION",
-    "DEF-PARTICIPATION-GROUND",
-    "DEF-PARTICIPATION-FORMATION",
-    "DEF-PARTICIPATION-IDENTIFICATION",
-    "DEF-PLATONIC-EXPLANATION"
+    "d6064caf-8539-55af-84b5-fcd1161d043b",
+    "c9c7c2cc-f7bc-5201-8e7c-872b08754a62",
+    "388c4103-f5a1-5149-9461-942a4b3af6a4",
+    "0716eaf4-795e-562f-b83a-ac8595d93c19",
+    "f1f49212-b37b-5ead-8040-96bbeff01a3f"
   ],
   "resolution": "Coextension classifies; Grounds represents metaphysical dependence; Produces represents formative change; Identifies represents an agent identifying a bearer; shared Explains is putative explanation of being F without a specified mechanism. No relation implies another without an explicit bridge. Grounding asymmetry applies only to Grounds. Base features are fixed model inputs, not hidden definitions of human nature. A Form essentially F is not thereby a particular exemplifying F."
 }

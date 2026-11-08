@@ -1,13 +1,15 @@
 {
-  "id": "INF-SELECTED-NECESSARY-POTENTIAL-CAUSER-UNDERIVED",
+  "id": "ed2ea343-3d72-5b0b-97ae-1130bff6b5c9",
+  "label": "The given same n actually exists at the selected world, exists at every…, by Direct-proof",
+  "legacy_id": "INF-SELECTED-NECESSARY-POTENTIAL-CAUSER-UNDERIVED",
   "input_statement_ids": [
-    "STMT-ACTUAL-MODAL-REFLEXIVITY",
-    "STMT-MODAL-NECESSARY-AT-INDIVIDUAL",
-    "STMT-MODAL-DEGREE-OTHER-DIRECTED-POTENTIAL",
-    "STMT-NO-CONTINGENT-GROUND-OF-NECESSARY",
-    "STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT"
+    "2b20b5af-d653-56ba-8001-35903fb3d1ea",
+    "4536ee5d-5cac-50e2-b7dc-1272fb19858a",
+    "1aa6d02f-f29d-55f7-9e5d-7ea609609e76",
+    "96d25c42-71aa-5fa0-841d-9aa62d91e1be",
+    "6af3bd73-f2bc-5018-ba2f-ec7f97d6c059"
   ],
-  "output_statement_id": "STMT-NAMED-NECESSARILY-UNDERIVED",
+  "output_statement_id": "3a36ca3e-db15-5f6b-b876-7eb838747dae",
   "rule": "direct-proof",
   "meaning": "In the explicit profile R := m.Causes, actual reflexivity, necessity and the universal other-directed potential-cause role of the given n, the no-contingent-predecessor bridge for that chosen relation, and union WF imply named underivedness of that same n. An existing incoming source must be necessary; self-support contradicts WF asymmetry, and any distinct incoming source has a possible return edge from n, also contradicting union asymmetry. Edges stay within their witness worlds: union WF is an optional overlay condition, not worldwise causal coherence or an actual cross-world causal path. No EM, degree/intensity or invariance premise is used. The type asserts neither a generic causal-grounding identity nor divine uniqueness, and changes no root premise.",
   "assumption_statement_ids": [],

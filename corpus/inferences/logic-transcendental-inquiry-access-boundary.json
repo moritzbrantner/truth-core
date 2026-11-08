@@ -1,7 +1,9 @@
 {
-  "id": "INF-LOGIC-TRANSCENDENTAL-INQUIRY-ACCESS-BOUNDARY",
+  "id": "45cc73a3-89b9-5bb4-a95c-a5f57e67b18c",
+  "label": "Within the fixed semantics of PR #924, any exact data-relative…, by Constructive-conditional-proo…",
+  "legacy_id": "INF-LOGIC-TRANSCENDENTAL-INQUIRY-ACCESS-BOUNDARY",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-TRANSCENDENTAL-INQUIRY-ACCESS-BOUNDARY",
+  "output_statement_id": "35901b8a-de6e-5e0d-9044-c86f55670b00",
   "rule": "constructive-conditional-proof-and-finite-countermodels",
   "meaning": "Specialize the existing exact-criterion characterization to a content's truth; then hold a two-state truth interpretation fixed while exhibiting both a truth-directed policy with no exact constant-report classifier and an exact identity-report classifier with a policy selecting a false worldview. The same semantic profile is used in both omission controls; only the report map and normative selection vary. Neither normative truth nor epistemic accessibility is independently established.",
   "assumption_statement_ids": [],

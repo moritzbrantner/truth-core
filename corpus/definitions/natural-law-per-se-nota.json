@@ -1,10 +1,12 @@
 {
-  "id": "DEF-NATURAL-LAW-PER-SE-NOTA",
+  "id": "e5479060-c1e7-5eea-ac3e-2b3a74f4db05",
+  "label": "PER_SE_NOTA_4, natural-law first…: In q.94 a.2, a proposition is self-evident in itself when its…",
+  "legacy_id": "DEF-NATURAL-LAW-PER-SE-NOTA",
   "term": "per se nota, natural-law first principles",
   "definition": "In q.94 a.2, a proposition is self-evident in itself when its predicate belongs to the account of its subject; whether it is self-evident to us also depends on knowing its terms. Aquinas places the natural-law precepts alongside the first principles of demonstration and grounds the first practical precept in the notion of good. This source reading is not a corpus self_evident status and does not by itself close a frontier premise.",
   "basis": "sourced",
   "claim_ids": [
-    "AQUINAS-ST-I-II-Q94-A2-PER-SE-NOTA",
-    "AQUINAS-ST-I-II-Q94-A2-PER-SE-NOTUM-DEFINITION"
+    "5e35ca62-df61-539a-81b4-f0d7f106a888",
+    "4ceea534-4c70-5160-a23b-20bc7e608be0"
   ]
 }

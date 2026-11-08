@@ -1,6 +1,8 @@
 {
-  "id": "QUARTA-VIA-ATTRIBUTION-RESTRICTS-CAUSE-MORE-SUCH",
-  "argument_id": "QUARTA-VIA-ATTRIBUTION-RESTRICTS-CAUSE-MORE-SUCH",
+  "id": "3ecb36b2-9a7a-5be2-bf24-c8b673ff52d2",
+  "label": "Formal fact: on an order of being by approach to a…, via attribution restricts cause more such",
+  "legacy_id": "QUARTA-VIA-ATTRIBUTION-RESTRICTS-CAUSE-MORE-SUCH",
+  "argument_id": "607fc112-f8c1-58fb-9799-39d6bc3e067f",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaAttributionCauseMoreSuch.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaAttributionCauseMoreSuch.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaAttributionCauseMoreSuch.attributionOrderRestrictsCauseMoreSuch",

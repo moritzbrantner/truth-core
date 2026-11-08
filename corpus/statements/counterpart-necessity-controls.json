@@ -1,17 +1,19 @@
 {
-  "id": "STMT-COUNTERPART-NECESSITY-CONTROLS",
+  "id": "623b4201-ccb7-56da-99b2-d8d236ec96ce",
+  "label": "A literal-identity control has one actually present necessary bearer and equality counterparts",
+  "legacy_id": "STMT-COUNTERPART-NECESSITY-CONTROLS",
   "lean_declaration": "TruthCore.Modal.CounterpartNecessity.Controls",
   "paraphrase": "A literal-identity control has one actually present necessary bearer and equality counterparts. Closed stipulative controls: total functional injective surjective singleton correspondence between two differently populated worlds yields counterpart necessity but no rigid necessary being or identity bridge. Missing links preserve functionality/injectivity but lose counterpart necessity; many-to-one links preserve totality/functionality and counterpart necessity for a rigidly contingent bearer; nontransitive two-way cross-links omit reflexive links and lose counterpart necessity. No historical attribution, canonical identity replacement, metaphysical possibility or root-premise discharge.",
   "definition_ids": [
-    "DEF-COUNTERPART-NECESSITY",
-    "DEF-COUNTERPART-TOTAL",
-    "DEF-COUNTERPART-UNIQUE",
-    "DEF-COUNTERPART-INJECTIVE",
-    "DEF-COUNTERPART-IDENTITY-BRIDGE",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-NECESSITY"
+    "926e4512-986f-594b-94b5-243805ad4918",
+    "48d9f8e6-fe6a-553b-ad00-2c08c4e97c4e",
+    "b8f0975b-711d-543c-b77a-f425d0a0e699",
+    "bb19b947-6bfc-5c3c-8ec3-426f3701f4ac",
+    "d10f01ef-fe32-59c3-9762-ce4022826419",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1"
   ],
   "disambiguation_ids": [
-    "DISAMB-COUNTERPART-VS-RIGID-IDENTITY"
+    "17f39c0f-1fda-56c8-ae1e-ba1a91a0848d"
   ]
 }

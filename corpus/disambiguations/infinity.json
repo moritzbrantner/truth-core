@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-INFINITY",
+  "id": "587c53cf-c2a8-51f6-b8c1-013e67756dc6",
+  "label": "Infinite",
+  "legacy_id": "DISAMB-INFINITY",
   "term": "infinite",
   "sense_definition_ids": [
-    "DEF-INFINITE",
-    "DEF-QUANTITATIVE-INFINITY"
+    "1d8890c0-afe2-5cdb-a400-0bbd4b79053d",
+    "b4590519-63a3-5110-aa2d-3e5f1a02ac2b"
   ],
   "resolution": "The classical-attributes bundle uses the infinity of unreceived subsistent being, not unlimited quantity or indeterminate matter. Infinite remains an abstract Lean predicate constrained by an explicit sufficient-condition premise; no theorem establishes quantitative infinity."
 }

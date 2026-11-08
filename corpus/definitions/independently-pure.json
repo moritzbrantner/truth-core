@@ -1,5 +1,7 @@
 {
-  "id": "DEF-INDEPENDENTLY-PURE",
+  "id": "e5be58d0-feee-56fe-ae52-c5a742dcb417",
+  "label": "Respect independently pure of a…: Something other than the candidate has the respect formally and…",
+  "legacy_id": "DEF-INDEPENDENTLY-PURE",
   "term": "respect independently pure of a candidate",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Alternatives.PhysicalGround.IndependentlyPure",

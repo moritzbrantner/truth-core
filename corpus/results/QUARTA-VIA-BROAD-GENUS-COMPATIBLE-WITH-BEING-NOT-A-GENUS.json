@@ -1,6 +1,8 @@
 {
-  "id": "QUARTA-VIA-BROAD-GENUS-COMPATIBLE-WITH-BEING-NOT-A-GENUS",
-  "argument_id": "QUARTA-VIA-BROAD-GENUS-COMPATIBLE-WITH-BEING-NOT-A-GENUS",
+  "id": "9bd3a966-c0f3-5d3f-8329-bac373c85ba5",
+  "label": "Formal fact: the quarta via's premises with…, via broad genus compatible with being not a genus",
+  "legacy_id": "QUARTA-VIA-BROAD-GENUS-COMPATIBLE-WITH-BEING-NOT-A-GENUS",
+  "argument_id": "67c93fb4-76e4-597f-9d00-13f4c0b5f905",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaBroadGenusCompatible.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaBroadGenusCompatible.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaBroadGenusCompatible.broadGenusReadingCompatibleWithBeingNotAGenus",

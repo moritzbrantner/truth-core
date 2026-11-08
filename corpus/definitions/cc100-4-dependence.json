@@ -1,13 +1,15 @@
 {
-  "id": "DEF-CC100-4-DEPENDENCE",
+  "id": "578d48f2-35b0-5daf-8a52-d63b61c50697",
+  "label": "Dependent, dependence on another and…: For this source-only glossary, x depends on y retains the…",
+  "legacy_id": "DEF-CC100-4-DEPENDENCE",
   "term": "dependent, dependence on another and independent terminus in presentation #4",
   "definition": "For this source-only glossary, x depends on y retains the presentation’s ordinary orientation: x is the dependent being, y that on which it depends. Independent contrasts with dependent in its terminal-being conclusion. The slide supplies no further account of the relation or its domain; none is silently selected as a typed causal, explanatory, grounding or modal relation.",
   "basis": "stipulative",
   "claim_ids": [
-    "CC100-4-DEPENDENT-DOMAIN",
-    "CC100-4-NO-SELF-AND-OTHER-DEPENDENCE",
-    "CC100-4-NO-INFINITE-DEPENDENCE-SERIES",
-    "CC100-4-INDEPENDENT-TERMINUS"
+    "7cd6850f-219f-5106-ac6d-f2e3422e5176",
+    "437c27cd-7d53-5cef-99f0-cec855ff6796",
+    "7a472497-74cf-587b-b6fd-fac51fd554a6",
+    "9010f845-89ec-55ca-8e73-cc993408d6a3"
   ],
   "note": "Minimal editorial source glossary, not a metaphysical definition or substantive relation axiom. Materialized p9 supplies the words and commitments, not concrete examples or a defense of their structure. Actual/concrete guards, transitivity, asymmetry, indirect-cycle exclusion, chain semantics, real-world generalization and competing interpretations remain OPEN before formal application. The cited books have not been read for this attribution."
 }

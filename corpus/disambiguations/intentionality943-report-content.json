@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-INTENTIONALITY943-REPORT-CONTENT",
+  "id": "d3daa786-96f3-5c31-9d5b-cc2a269bddf7",
+  "label": "What a judgment reports",
+  "legacy_id": "DISAMB-INTENTIONALITY943-REPORT-CONTENT",
   "term": "what a judgment reports",
   "sense_definition_ids": [
-    "DEF-INTENTIONALITY943-CONTENT",
-    "DEF-INTENTIONALITY943-AFFECTION-REPORT"
+    "dd04a959-a145-5411-a63f-4d18a17ec56e",
+    "b4eaa5d6-8e85-5ec3-9ed1-f8d5905f92c7"
   ],
   "resolution": "The external content and the report of the thinker’s affection have distinct truth evaluations. AffectionReportCorrect concerns only the qualified report as affected. ContentOnlyAffectionReport is the additional contested equivalence of their truth conditions. Aquinas’s species is primarily a means of cognition and can itself be a secondary reflective object (q.85 a.2 co.,ad 1–3); this does not make every primary judgment a truthful introspective report. The formal comparison concerns categorical judgment truth, not initial reception of a species or a prohibition on all introspective cognition."
 }

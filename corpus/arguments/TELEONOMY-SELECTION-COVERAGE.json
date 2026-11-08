@@ -1,19 +1,21 @@
 {
-  "id": "TELEONOMY-SELECTION-COVERAGE",
+  "id": "5d86537b-0f47-5b0c-9814-1bd64c36cb59",
+  "label": "The stipulated filter retains the present heritable advantageous variant and rejects the locally…",
+  "legacy_id": "TELEONOMY-SELECTION-COVERAGE",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-TELEONOMY-SELECTION-COVERAGE",
+  "conclusion_statement_id": "5db5ee8f-8c16-5538-baa6-3b93cda2963d",
   "inference_ids": [
-    "INF-TELEONOMY-SELECTION-COVERAGE"
+    "c9772aeb-dcbb-5cd9-9362-f519cb021d38"
   ],
   "meaning": "The stipulated filter retains the present heritable advantageous variant and rejects the locally disadvantageous one. A finite explanatory coverage test, not an empirical proof of Darwin’s law.",
   "definition_ids": [
-    "DEF-TELEONOMY-SELECTION-FILTER",
-    "DEF-TELEONOMY-LOCAL-COUPLING",
-    "DEF-TELEONOMY-MODEL-SCOPE",
-    "DEF-INTENTIO-AS-TENDING",
-    "DEF-GOVERNMENT-DIRECTION-TO-END"
+    "4055cd38-c059-55cc-88d0-0c864f4a21aa",
+    "996de6a6-f12e-53ea-86bb-d3803f93f1ca",
+    "b5b918e7-b170-5d37-acad-10004f3570b7",
+    "2847d4f1-a13a-5d0f-8cc1-abf1c807f92f",
+    "c53b5fbe-121a-5d59-8e29-0f9f7eea85b1"
   ],
   "disambiguation_ids": [
-    "DISAMB-TELEONOMY-FINALITY-AND-AGENCY"
+    "066d546d-53f8-5319-8333-6b117a152002"
   ]
 }

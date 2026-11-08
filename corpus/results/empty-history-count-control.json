@@ -1,6 +1,8 @@
 {
-  "id": "EMPTY-HISTORY-COUNT-CONTROL",
-  "argument_id": "EMPTY-HISTORY-COUNT-CONTROL",
+  "id": "6010e9b6-f156-519f-a727-d80d2768c6da",
+  "label": "Positive joint compatibility control on the EXACT…, from Excluded middle as a general principle…",
+  "legacy_id": "EMPTY-HISTORY-COUNT-CONTROL",
+  "argument_id": "4e35adc2-4b15-5966-8ec9-71fbfad9404d",
   "challenge_module": "TruthCore.Results.Explanation.EmptyHistoryCountControl.Challenge",
   "solution_module": "TruthCore.Results.Explanation.EmptyHistoryCountControl.Solution",
   "theorem": "TruthCore.Results.Explanation.EmptyHistoryCountControl.checks",

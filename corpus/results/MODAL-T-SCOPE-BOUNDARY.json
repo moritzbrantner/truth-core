@@ -1,6 +1,8 @@
 {
-  "id": "MODAL-T-SCOPE-BOUNDARY",
-  "argument_id": "MODAL-T-SCOPE-BOUNDARY",
+  "id": "914848ff-8b34-5c9b-9dca-8f82adeda747",
+  "label": "On the shared reflexive duplicate-label model, every world has fixed-language MC but no world has…",
+  "legacy_id": "MODAL-T-SCOPE-BOUNDARY",
+  "argument_id": "c01d69ed-13b3-5885-abf4-4f44ff6b0319",
   "challenge_module": "TruthCore.Results.Modal.T.ScopeBoundary.Challenge",
   "solution_module": "TruthCore.Results.Modal.T.ScopeBoundary.Solution",
   "theorem": "TruthCore.Results.Modal.T.ScopeBoundary.checks",

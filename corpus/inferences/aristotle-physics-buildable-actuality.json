@@ -1,10 +1,12 @@
 {
-  "id": "INF-ARIST-PHYS-BUILDABLE-ACTUALITY",
+  "id": "7b91f064-9c78-56f5-9ec3-a872ece72e44",
+  "label": "The actuality of the buildable precisely qua buildable is the process of…, by Disjunctive syllogism",
+  "legacy_id": "INF-ARIST-PHYS-BUILDABLE-ACTUALITY",
   "input_statement_ids": [
-    "STMT-BUILDABLE-ACTUALITY-ALTERNATIVES",
-    "STMT-COMPLETED-HOUSE-NOT-BUILDABLE-ACTUALITY"
+    "b41a52e0-c631-5273-a417-fcfb0c128c9e",
+    "a5e38d94-8f05-58e2-85c0-56ab7f5d2157"
   ],
-  "output_statement_id": "STMT-BUILDABLE-ACTUALITY-IS-BUILDING",
+  "output_statement_id": "bd4d89fa-a3c0-5bd7-85f0-a7b8213c653d",
   "rule": "disjunctive_syllogism",
   "meaning": "From Aristotle's two alternatives for the relevant actuality and the exclusion of the completed-house alternative, infer that the actuality of the buildable qua buildable is building.",
   "assumption_statement_ids": [],

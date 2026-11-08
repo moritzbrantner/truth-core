@@ -1,5 +1,7 @@
 {
-  "id": "STMT-UNITY-DOES-NOT-ENTAIL-MOTIONLESSNESS",
+  "id": "ea731a33-d443-5dc6-943a-57c6e8fd0f47",
+  "label": "Being one does not by itself entail being motionless",
+  "legacy_id": "STMT-UNITY-DOES-NOT-ENTAIL-MOTIONLESSNESS",
   "paraphrase": "Being one does not by itself entail being motionless.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.UnityDoesNotEntailMotionlessnessReading"
 }

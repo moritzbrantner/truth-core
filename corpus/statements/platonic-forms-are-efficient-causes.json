@@ -1,12 +1,14 @@
 {
-  "id": "STMT-PLATONIC-FORMS-ARE-EFFICIENT-CAUSES",
+  "id": "68b19b67-b819-5991-9fac-866df0ab0a03",
+  "label": "Platonic Forms are causes in the productive sense: the Form of the beautiful does not merely…",
+  "legacy_id": "STMT-PLATONIC-FORMS-ARE-EFFICIENT-CAUSES",
   "paraphrase": "Platonic Forms are causes in the productive sense: the Form of the beautiful does not merely explain why beautiful things are beautiful but brings it about, while being separate from sensible things.",
   "definition_ids": [
-    "DEF-ABSTRACT-NO-ESSE-IN-RE"
+    "632ad5ee-e94f-574d-bb37-c02b774984f4"
   ],
   "disambiguation_ids": [
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
-    "DISAMB-PLATONIC-CAUSE"
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "a0786cf3-0248-58b6-ad97-12b00af85056"
   ],
   "note": "Productive reading of Phaedo 100b–e, attribution deferred. SEP 'Abstract Objects' §2 says 'Plato's Forms were supposed to be causes par excellence' (navigation; §2 is outside the pinned claim locators). The corpus's own reading of 100d–e (STMT-PLATONIC-EXPLANATORY-PARTICIPATION, DISAMB-PLATONIC-CAUSE) is explanatory and does not conflict with the weak (efficient) version. The rival bites only if the Forms are also abstract in the adopted sense, i.e. lack esse in re. Aquinas (ST I q.85 a.1 ad 2, AQUINAS-ST-I-Q85-A1-AD2-MATHEMATICALS-ABSTRACTED) reads Plato as positing them as existing 'secundum rem'; on that reading separate Forms would have esse in re, would count as concrete, and would be no rival. Definition audit: original proposition/claim wording retained; typed analyst siblings expose category-to-no-esse, explanatory-to-productive and selected-world guards without rebinding this source reading. The set-of-two anchor alone is not a universal set classification; a some-world denial is not a selected-world denial. See docs/notes/causal-concrete-rival-boundary.md."
 }

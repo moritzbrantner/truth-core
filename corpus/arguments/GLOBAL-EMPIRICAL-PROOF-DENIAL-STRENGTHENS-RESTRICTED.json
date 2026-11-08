@@ -1,28 +1,30 @@
 {
-  "id": "GLOBAL-EMPIRICAL-PROOF-DENIAL-STRENGTHENS-RESTRICTED",
+  "id": "9a09031b-fa26-58a4-933e-93ab86c1e353",
+  "label": "No target in the independently supplied scope…, from No inquiry target has a finite satisfiable…",
+  "legacy_id": "GLOBAL-EMPIRICAL-PROOF-DENIAL-STRENGTHENS-RESTRICTED",
   "premise_statement_ids": [
-    "STMT-EMPIRICAL-PROOF-GLOBAL-DENIAL"
+    "1e9fc224-a6cf-52cd-adc1-c08bcf525104"
   ],
-  "conclusion_statement_id": "STMT-EMPIRICAL-PROOF-RESTRICTED-DENIAL",
+  "conclusion_statement_id": "102172a9-d6ae-5370-a0c8-f1c3437cef1e",
   "inference_ids": [
-    "INF-GLOBAL-EMPIRICAL-PROOF-DENIAL-STRENGTHENS-RESTRICTED"
+    "cc236225-8c8e-5147-853d-e76dcc0acd30"
   ],
   "meaning": "Logical strength instantiation: global finite-observation proof denial implies its restriction to an independently supplied scope. The control refutes the converse. No historical global skeptic or proof standard adoption.",
   "definition_ids": [
-    "DEF-SCOPED-PROOF-INQUIRIES",
-    "DEF-THEOLOGICAL-SUBJECT-DEFINITION",
-    "DEF-THEOLOGICAL-PREMISE-DEFINITION",
-    "DEF-THEOLOGICAL-METHOD-DEFINITION",
-    "DEF-PROOF-DOMAIN-COVERAGE",
-    "DEF-EMPIRICAL-OBSERVATION-BARRIER",
-    "DEF-SCOPED-EMPIRICAL-PROOF-DENIAL",
-    "DEF-EMPIRICAL-BARRIER-COVERAGE",
-    "DEF-EMPIRICAL-BEGINNING-QUESTION-CONTROL",
-    "DEF-CONCLUSIVE-VERIFIABILITY",
-    "DEF-TRUTH-CONDITIONAL-LANGUAGE",
-    "DEF-EMPIRICIST-FRAME"
+    "0a521f5a-275b-5acc-8185-4406fbd43d5d",
+    "0d1bdee6-b830-5d65-a4bb-e54e151b81d7",
+    "a1701dbf-3564-5771-b3cf-e176795d1519",
+    "38283269-9669-58a6-8500-83d76ff4e4fc",
+    "df37b419-4264-583e-8860-338e583c3863",
+    "59abe96c-f4aa-557f-beb0-9c33a2e01ec1",
+    "ef5d3c88-46a0-5889-9f98-a06be32c327a",
+    "4418a4c9-c5fd-5966-b5a5-21a42fcd0901",
+    "7487ada7-a514-5287-aebf-a4ed32c43481",
+    "bd8abce7-0de2-528a-b7dd-f8418398846b",
+    "cb0b59e9-7a00-5d8c-ba11-802974a42992",
+    "c79be2d4-8641-5b1c-86bb-69a28cc4d184"
   ],
   "disambiguation_ids": [
-    "DISAMB-SCOPED-PROOF-STANDARD-AND-THEOLOGICAL-DOMAIN"
+    "d1404b24-44d6-5696-ad47-2907a0184be4"
   ]
 }

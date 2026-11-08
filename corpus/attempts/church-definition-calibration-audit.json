@@ -1,24 +1,26 @@
 {
-  "id": "ATTEMPT-CHURCH-DEFINITION-CALIBRATION-AUDIT",
+  "id": "8c8a5749-e69b-5624-a4ba-a9e1330b3df6",
+  "label": "Whole-corpus definition audit, Church cluster: the existing sourced visible/spiritual aspect…",
+  "legacy_id": "ATTEMPT-CHURCH-DEFINITION-CALIBRATION-AUDIT",
   "date": "2026-11-06",
   "kind": "derivation",
   "outcome": "succeeded",
   "statement_ids": [
-    "STMT-CHRIST-FOUNDED-VISIBLE-CHURCH",
-    "STMT-CHURCH-HAS-VISIBLE-CRITERION",
-    "STMT-CHURCH-HAS-SPIRITUAL-CRITERION",
-    "STMT-CHURCH-HAS-JOINT-ASPECT-CRITERION",
-    "STMT-CHURCH-NAMED-CRITERIA-COVER",
-    "STMT-CHURCH-HAS-ADDITIONAL-CRITERION",
-    "STMT-CHRIST-FOUNDED-SELECTED-CHURCH"
+    "a8dfc0b8-140f-5351-a856-16a719251ac3",
+    "c2e79f3b-6c9d-577a-88ed-ec6da56a2cf9",
+    "287ba0c4-57db-5306-98bc-3b6ce25ef17b",
+    "ebf1192b-3bba-5783-a9a7-e0acbcaec91d",
+    "3386b0bc-939e-5296-b517-86847f6b3b52",
+    "438b2b09-f4a3-539a-8d4d-3c6c06afb20a",
+    "0f0a4a1e-87f2-509c-a6ef-928dc5a91193"
   ],
   "summary": "Whole-corpus definition audit, Church cluster: the existing sourced visible/spiritual aspect distinction is preserved; analyst visible, spiritual and joint-aspect Church criteria are now independent extension-calibration propositions on the same Society carrier. Structural EM coverage retains a precise additional extension; named coverage is an open premise, not an ecclesiology census. A selected historical founding witness plus visible or joint calibration reaches the existing stage-5 type in standalone registered results. Named coverage plus actual negation of spiritual calibration also reaches stage 5 by composing those results. Six controls witness triple overlap, spiritual-only calibration with stage5 false, visible-only with stage5 true, nonempty joint-only criterion, and a further criterion with both target verdicts. Rejected: spiritual means invisible; visible criterion denies spiritual communion; aspect distinctions imply different societies; spiritual calibration insufficient for stage5 is false; a further extension automatically opposes stage5; Church naming supplies an actual founding event; or visible aspects identify a modern Catholic society. No existing source claim or frozen Challenge changed. Findings and proof boundaries persist in docs/founding-authorization-source.md.",
   "evidence": [
-    "VISIBLE-CHURCH-CRITERION-SUPPLIES-STAGE-FIVE",
-    "JOINT-ASPECT-CHURCH-CRITERION-SUPPLIES-STAGE-FIVE",
-    "CHURCH-DEFINITION-CASES-WITH-REMAINDER",
-    "CHURCH-NAMED-CRITERION-ELIMINATION-SUPPLIES-STAGE-FIVE",
-    "CHURCH-DEFINITION-INTERPRETATION-MODELS"
+    "a7a93c29-d754-59ee-96b7-e469ab39bf4b",
+    "5e6cefee-4db2-5ef3-b071-8e235e7989ba",
+    "87077116-82a1-5f8a-a531-547be4e67851",
+    "8aa09fc5-008b-588c-ba72-d97748ec9cf6",
+    "1b431a88-e968-5bbe-be7b-eed9cdb6c2c2"
   ],
   "blocker": "Historical founding, application of the selected criteria, named coverage and actual negation of a candidate remain open. These schema criteria do not encode individual membership, full sacramental/jurisdictional doctrine or a census of real ecclesiologies. No spiritual-only definition by itself refutes the old visible-founded-society target: a negative route would additionally need a scope premise covering every founded visible society by the selected Church predicate. Stage-6 identity remains separate."
 }

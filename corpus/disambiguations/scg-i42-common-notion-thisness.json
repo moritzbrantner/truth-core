@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-SCG-I42-COMMON-NOTION-THISNESS",
+  "id": "8dc455d8-c214-58f6-b8c8-a95cb4c3421c",
+  "label": "Agreement in necessity, designated necessity and individuation of divine nature",
+  "legacy_id": "DISAMB-SCG-I42-COMMON-NOTION-THISNESS",
   "term": "agreement in necessity, designated necessity and individuation of divine nature",
   "sense_definition_ids": [
-    "DEF-SCG-I42-UNIQUENESS-CASES",
-    "DEF-SCG-I42-DESIGNATED-NECESSITY"
+    "6181b7fb-3189-5ccd-affe-e7851c6fd2ab",
+    "f2319c18-9f0d-5b49-9339-0f8c08f45e5d"
   ],
   "resolution": "Agreement in the notion of necessity does not establish numerical identity of nature, esse or each individual’s own necessity instance. I42[8–11] is read in necessary-through-itself scope; [13–14] adds a substantive self-necessary-or-dependent designation argument. No primitive whole-essence case is excluded by renaming it composition, and formal nature difference is not automatically a missing eminent perfection. The source case splits and old three-limitation-horn proxy are not silently equated."
 }

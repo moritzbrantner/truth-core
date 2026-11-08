@@ -1,21 +1,23 @@
 {
-  "id": "ATTEMPT-A1-TYPED-NECESSARY-CAUSE-CONNECTION",
+  "id": "686cfd4b-86c6-582c-9a8d-a7d15891490d",
+  "label": "Freshly materialized/read A1c and A1c2, inspected existing source/typed dossiers",
+  "legacy_id": "ATTEMPT-A1-TYPED-NECESSARY-CAUSE-CONNECTION",
   "date": "2026-10-31",
   "statement_ids": [
-    "STMT-NB-A1-CONTINGENT-TOTALITY",
-    "STMT-NB-A1-CONTINGENTS-EXTERNALLY-CAUSED",
-    "STMT-A1-COVERED-CONTINGENTS",
-    "STMT-A1-EXTERNAL-WHOLE-CAUSE",
-    "STMT-A1-NECESSARY-WHOLE-CAUSE",
-    "STMT-KANT-CONVERSION-NECESSARY-WITNESS"
+    "556f1985-b4bb-5b99-9db1-c6d4410d724c",
+    "e9df654e-3e00-5b56-b51c-e6f2717fbebd",
+    "912c8b03-2c02-5584-8b34-19952afb6602",
+    "95746fd0-e1b0-5ad8-98ad-0d3bebb6df6e",
+    "0e9c1b46-9752-5c59-a7ad-5b937ee1061b",
+    "c778a6ca-e756-56ac-aa68-c81e9883ca7c"
   ],
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Freshly materialized/read A1c and A1c2, inspected existing source/typed dossiers. Added a typed analyst connection from coverage and actual concrete outside-parts cause to a necessary cause of the same selected whole, importing the prior ExternalCandidateNecessity.checks theorem. A failed prototype selected an arbitrary necessary witness and could not retain its identity with the original cause; the final proof restricts only auxiliary concreteness to the chosen source and recovers that same individual. Projection connects the route to shared NecessaryBeing rather than restating it as a fresh premise. No claim that the unbound survey premises are already these typed assumptions; no whole existence/contingency/fusion or causal law is proved. User-provided independent-researcher methodology reconciled with existing cut/selected/contingent-only results in the main integration note, preserving three separate logical/explanatory/reality assessments. Full build passes. Both result configs pass Comparator and independent NanoDa with exactly the permitted Mathlib axioms propext, Classical.choice and Quot.sound. Fresh full binding: 732 bound,2 existing pins,0 mismatch, both new records bound with no problems. Root routes and reaching-root outputs are byte-identical to pre-change baseline (11 routes,62 open). Source manifests, corpus and generators pass. Current branch research/lean-existential-self-actualization-20261031; publication waits for parent audit PR #798 final CI, whose current-head review is clean. Convention sourceRevision c104800c7aaeaea12d56f9093e71bdef6a2ce6fa.",
   "blocker": "Coverage and actual external-whole-cause applicability remain OPEN. The positive PSR/adequacy and fact-to-ground application are separate research obligations; no root premise discharged.",
   "evidence": [
-    "EXTERNAL-CANDIDATE-NECESSITY",
-    "NECESSARY-CAUSE-FROM-CONTINGENT-COVERAGE",
-    "NECESSARY-BEING-FROM-CONTINGENT-COVERAGE"
+    "1a092401-ebe2-5ae7-8fef-0bd1d6030fe5",
+    "96be9dc7-2bc0-5d93-b85c-10ff019bf25a",
+    "266748c8-904b-51d4-a788-5f6ffd6b504f"
   ]
 }

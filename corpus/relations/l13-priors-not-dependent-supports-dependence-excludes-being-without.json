@@ -1,9 +1,11 @@
 {
-  "id": "REL-L13-PRIORS-NOT-DEPENDENT-SUPPORTS-DEPENDENCE-EXCLUDES-BEING-WITHOUT",
+  "id": "6eb9848b-5a3e-53c9-a090-2a1163366b4b",
+  "label": "Thomas Aquinas, Sententia libri…: Things… supports If x depends for its being on y, then x…",
+  "legacy_id": "REL-L13-PRIORS-NOT-DEPENDENT-SUPPORTS-DEPENDENCE-EXCLUDES-BEING-WITHOUT",
   "subject_kind": "claim",
-  "subject_id": "AQUINAS-IN-METAPH-V-L13-PRIORS-NOT-DEPENDENT-A",
+  "subject_id": "95f41960-baf4-58ad-ba7f-b11b2f439f7c",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-DEPENDENCE-EXCLUDES-BEING-WITHOUT",
+  "object_id": "000e1f65-6e74-5519-bbf3-300d5f61ada8",
   "note": "In V Metaph. lect. 13 n. 18 states that priors can be without posteriors 'et non e converso': the posterior, which depends on the prior, cannot be without it. The premise states this for every x that depends for its being on y, with dependence in the counterfactual sense of DEF-DEPENDS-FOR-BEING; the passage speaks only of posteriors in the order of being and gives no analysis of dependence."
 }

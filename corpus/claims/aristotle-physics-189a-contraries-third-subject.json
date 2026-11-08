@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-189A-CONTRARIES-THIRD-SUBJECT-A",
-  "statement_id": "STMT-CONTRARY-PRINCIPLES-ACT-ON-THIRD-SUBJECT",
-  "source_id": "ARIST-PHYS",
+  "id": "d821f89f-1af9-5caf-b94f-6e474e9bbdcf",
+  "label": "Aristotle, Physics I.6, 189a20-27: Opposed principles do not produce one another directly; both…",
+  "legacy_id": "ARIST-PHYS-189A-CONTRARIES-THIRD-SUBJECT-A",
+  "statement_id": "7a645f30-bc0a-55e0-a185-758d935c5e47",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.6, 189a20-27",
   "interpretation": "Density and rarity, or Love and Strife, do not make products directly from one another; Aristotle says both operate on a distinct third item. The claim avoids identifying that item prematurely with a later technical account of matter.",
   "status": "formalized"

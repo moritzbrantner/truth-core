@@ -1,9 +1,11 @@
 {
-  "id": "REL-NO-MOVED-NOT-POTENT-COUNTERTUPLE-FROM-ABILITY-AND-INCOMPLETENESS-REFUTES",
+  "id": "79bdf9d2-d52f-5ae8-ad7a-83dec4d29302",
+  "label": "Negation of the exact countertuple actual… refutes Some actual moved tuple is not in POTENCY_1…",
+  "legacy_id": "REL-NO-MOVED-NOT-POTENT-COUNTERTUPLE-FROM-ABILITY-AND-INCOMPLETENESS-REFUTES",
   "subject_kind": "argument",
-  "subject_id": "NO-MOVED-NOT-POTENT-COUNTERTUPLE-FROM-ABILITY-AND-INCOMPLETENESS",
+  "subject_id": "c97c86f5-3424-559f-ae6b-bf91562bb856",
   "predicate": "refutes",
   "object_kind": "statement",
-  "object_id": "STMT-ACTUAL-MOVED-NOT-POTENT-COUNTERTUPLE",
+  "object_id": "86c76b02-e2f7-5db1-87b1-0b025c3e6040",
   "note": "Checked conditional contradiction on the same predicates. Its premises are open, so it does not count for closure; it records which deeper premises the rival must reject."
 }

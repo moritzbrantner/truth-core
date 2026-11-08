@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-NO-INFINITE-REGRESS-READING",
+  "id": "aee7e4c7-819b-5905-b363-813c06b7e92c",
+  "label": "'the series cannot go on to infinity': accessibility versus no infinite series",
+  "legacy_id": "DISAMB-NO-INFINITE-REGRESS-READING",
   "term": "'the series cannot go on to infinity': accessibility versus no infinite series",
   "sense_definition_ids": [
-    "DEF-NO-INFINITE-DESCENDING-PER-SE-SERIES",
-    "DEF-REGRESS-ACCESSIBILITY-READING"
+    "21910345-6932-5931-8953-493c8f7e1000",
+    "47e6944d-5de0-588d-8fc2-b8ddea140690"
   ],
   "resolution": "STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES uses the accessibility sense. The accessibility sense implies the no-infinite-series sense constructively (REGRESS-ACCESSIBILITY-EXCLUDES-DESCENDING-SERIES); the converse holds in classical logic (REGRESS-READINGS-COINCIDE-CLASSICALLY) but has no constructive proof here. So the corpus's formal reading is no stronger than the literal reading in classical logic, which the Mathlib-free Second Way result does not need. Any argument that passes from 'no infinite series' to accessibility relies on excluded middle and must say so. Accessibility is well-foundedness, not a bound on the length of descending chains: REGRESS-ACCESSIBILITY-ALLOWS-UNBOUNDED-DEPTH exhibits an accessible relation with arbitrarily long finite chains below one being, so neither sense should be glossed as 'finite depth'. Neither result shows that either reading is true of an actual per se causal relation."
 }

@@ -1,14 +1,16 @@
 {
-  "id": "STMT-HIDDENNESS-DEVELOPMENTAL-ACCOUNT",
+  "id": "e0f8a142-ef0a-56e8-950b-0da6cc27f09b",
+  "label": "Every actual instance of nonbelief is accounted for by unavailable concepts or reflective doubt",
+  "legacy_id": "STMT-HIDDENNESS-DEVELOPMENTAL-ACCOUNT",
   "paraphrase": "Every actual instance of nonbelief is accounted for by unavailable concepts or reflective doubt. This universal replacement-account premise is open and unattributed; Schellenberg supplies examples, not an exhaustive empirical causal theory.",
   "lean_declaration": "TruthCore.Hiddenness.DevelopmentalAccount",
   "definition_ids": [
-    "DEF-HIDDENNESS-CONCEPT-AVAILABILITY",
-    "DEF-HIDDENNESS-REFLECTIVE-DOUBT",
-    "DEF-HIDDENNESS-BELIEF",
-    "DEF-HIDDENNESS-MODEL-SCOPE"
+    "45eca80a-ec5d-566c-99a6-3f63bb01419c",
+    "31b28b01-225a-5c3c-a674-a4455154065c",
+    "608e0f97-3dbb-5bfd-9688-acecfb2f1fdf",
+    "9fefb6b4-9493-52c3-868c-ad00fcda8151"
   ],
   "disambiguation_ids": [
-    "DISAMB-HIDDENNESS-NONRESISTANCE"
+    "14bdf48f-9ea1-5329-9489-9674bea6132a"
   ]
 }

@@ -1,6 +1,8 @@
 {
-  "id": "COMMISSION-NAMED-COVERAGE-FROM-BOUNDS",
-  "argument_id": "COMMISSION-NAMED-COVERAGE-FROM-BOUNDS",
+  "id": "d842da99-8a08-5674-8008-90de91d18038",
+  "label": "The selected governing predicate matches either the narrow table or the…, from bounds",
+  "legacy_id": "COMMISSION-NAMED-COVERAGE-FROM-BOUNDS",
+  "argument_id": "23a9bc1d-2d05-5108-a48c-a17cb83fdd62",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.namedGovernanceCoverageFromBounds",

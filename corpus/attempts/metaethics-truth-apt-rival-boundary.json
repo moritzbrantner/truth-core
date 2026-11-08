@@ -1,16 +1,18 @@
 {
-  "id": "ATTEMPT-METAETHICS-TRUTH-APT-RIVAL-BOUNDARY",
+  "id": "61789a22-db32-5e2a-892b-d841a047b404",
+  "label": "Existing alternative endpoint used a raw universal quasi-realist reading as if incompatible with…",
+  "legacy_id": "ATTEMPT-METAETHICS-TRUTH-APT-RIVAL-BOUNDARY",
   "date": "2026-11-06",
   "statement_ids": [
-    "STMT-QUASI-REALIST-MINIMAL-TRUTH-APT",
-    "STMT-REALIST-ROBUST-TRUTH-APT",
-    "STMT-NOT-REALIST-ROBUST-TRUTH-APT"
+    "2aeed907-013b-5c13-8bfb-c66d25734bc8",
+    "d4e4f835-2c5d-56ae-a3a0-9b9df9b6342b",
+    "39bcd47c-3bf5-5349-9392-f80527b5c8a0"
   ],
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Existing alternative endpoint used a raw universal quasi-realist reading as if incompatible with robust universal aptness. Exact source types and prior countermodels show overlap with no moral contents and nonexhaustion with a moral content. Reused the existing checked answer-deviation result with the same raw source commitment and existing Geach witness to derive exact not-robust universal. Rerouted the existing alternative relation to that logical negation, preserving full raw rival as a premise and all source claims. Prior finite witnesses are now exported with bound properties; no complete-theory or new philosophical coverage claim. See docs/notes/metaethics-truth-apt-rival-boundary.md.",
   "evidence": [
-    "QUASI-REALIST-NONEMPTY-IMPLIES-NOT-ROBUST",
-    "METAETHICS-TRUTH-APT-RIVAL-CONTROLS"
+    "cd4754d1-b98b-5501-af80-5684b1c0014a",
+    "6b47d826-33f2-579c-9e79-d53825ff59f6"
   ]
 }

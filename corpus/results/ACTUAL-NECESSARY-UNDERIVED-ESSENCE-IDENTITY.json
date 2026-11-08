@@ -1,6 +1,8 @@
 {
-  "id": "ACTUAL-NECESSARY-UNDERIVED-ESSENCE-IDENTITY",
-  "argument_id": "ACTUAL-NECESSARY-UNDERIVED-ESSENCE-IDENTITY",
+  "id": "0ebcf70f-b950-5cdb-82f5-68a4251aca18",
+  "label": "Some same actually present de re necessary…, from At least one individual exists at the… and 8 more",
+  "legacy_id": "ACTUAL-NECESSARY-UNDERIVED-ESSENCE-IDENTITY",
+  "argument_id": "ded82995-7a83-590c-8a53-97dac2bd9ac7",
   "challenge_module": "TruthCore.Results.Causality.ActualUnderivedEssenceEsse.Challenge",
   "solution_module": "TruthCore.Results.Causality.ActualUnderivedEssenceEsse.Solution",
   "theorem": "TruthCore.Results.Causality.ActualUnderivedEssenceEsse.checks",

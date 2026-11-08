@@ -1,6 +1,8 @@
 {
-  "id": "LOGIC-REFLECTIVE-COHERENCE-BOUNDARY",
-  "argument_id": "LOGIC-REFLECTIVE-COHERENCE-BOUNDARY",
+  "id": "52c1bfec-a69d-5ccb-8846-bea4781ec3ed",
+  "label": "For any claim type, world type and interpretation with truth-functional negation: if a worldview…",
+  "legacy_id": "LOGIC-REFLECTIVE-COHERENCE-BOUNDARY",
+  "argument_id": "c3039fe5-a830-5130-8964-a58a48775d92",
   "challenge_module": "TruthCore.Results.Logic.ReflectiveCoherence.Boundary.Challenge",
   "solution_module": "TruthCore.Results.Logic.ReflectiveCoherence.Boundary.Solution",
   "theorem": "TruthCore.Results.Logic.ReflectiveCoherence.Boundary.coherenceBoundary",

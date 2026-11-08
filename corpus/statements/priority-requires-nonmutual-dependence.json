@@ -1,12 +1,14 @@
 {
-  "id": "STMT-PRIORITY-REQUIRES-NONMUTUAL-DEPENDENCE",
+  "id": "47aff057-35ef-5418-930b-fef72e1104d2",
+  "label": "If y is SIMPLY_PRIOR_1 to x, then x depends for its being on y and y does not so depend on x",
+  "legacy_id": "STMT-PRIORITY-REQUIRES-NONMUTUAL-DEPENDENCE",
   "paraphrase": "OPEN analyst premise (the other direction): if y is simply prior to x, then x depends for its being on y and y does not so depend on x.",
   "lean_declaration": "TruthCore.Causality.CausalMapsBatch1.PriorityRequiresNonmutualDependence",
   "definition_ids": [
-    "DEF-SIMPLE-PRIORITY",
-    "DEF-DEPENDS-FOR-BEING"
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8",
+    "bf26b9b2-41ed-55b0-9557-dae90ab9b81f"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSE"
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
   ]
 }

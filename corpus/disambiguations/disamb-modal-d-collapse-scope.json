@@ -1,12 +1,14 @@
 {
-  "id": "DISAMB-MODAL-D-COLLAPSE-SCOPE",
+  "id": "93baf677-7f4f-51fe-a03a-1cd79cadb6f7",
+  "label": "Actual, possible and necessary collapse in serial frames",
+  "legacy_id": "DISAMB-MODAL-D-COLLAPSE-SCOPE",
   "term": "actual, possible and necessary collapse in serial frames",
   "sense_definition_ids": [
-    "DEF-MODAL-FIXTURE-MC",
-    "DEF-MODAL-D-OPERATORS",
-    "DEF-MODAL-D-CYCLE",
-    "DEF-MODAL-D-POCKET",
-    "DEF-MODAL-D-FORK"
+    "f9a77a01-4dcf-5a1d-9bf7-a45a466ce504",
+    "caa13bc6-f5d5-5607-85d3-c1b7c952ae77",
+    "e104adf1-3729-5386-90b8-409504fd82cb",
+    "84c06eca-cdc4-58fe-9de9-29e0611b2b7e",
+    "1ef2d2af-b611-53dd-b1fa-86480e41ba6a"
   ],
   "resolution": "Actual MC, Dia MC and Box MC use the same explicitly supplied root, frame and proposition domain but are different propositions. The fork has Dia MC and Box MC without actual MC; this persists for its fixed language. In pocket, changing only the domain changes Box MC from false under all predicates to true under fixed-language denotations, because the closed two-cycle is language-indistinguishable. The separate Bool cycle has language-relative MC without full MC or world extensionality. Extensionality of world labels is an explicit conditional assumption; Lean propext is neither assumed nor used. Mathematical successor worlds are not silently identified with metaphysical possibilities; no Humean bridge or philosophical conclusion follows from these witnesses."
 }

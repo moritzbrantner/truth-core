@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CC100-9-NECESSARY-BEING-EXPLANATION-CASE",
+  "id": "e1856c3c-1b17-59b7-81e3-eb37c7a3bcdf",
+  "label": "The proposition that a unique necessary being brought about the existence of everything other than…",
+  "legacy_id": "STMT-CC100-9-NECESSARY-BEING-EXPLANATION-CASE",
   "paraphrase": "The proposition that a unique necessary being brought about the existence of everything other than itself by willing that the other beings exist would, if true, explain why contingent beings exist; there is a possible explanation of their existence, while no proposition consistent with only contingent beings would, if true, explain it.",
   "definition_ids": [
-    "DEF-CC100-9-POSSIBLE-EXPLANATION-BELIEF"
+    "1244292b-30ce-50d4-92dd-04ef6ac8ff72"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

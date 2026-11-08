@@ -1,11 +1,13 @@
 {
-  "id": "INF-PARM-EPISTEMIC-OBJECTION",
+  "id": "5ad93175-e275-5393-bb2b-badb545866a4",
+  "label": "In the isolated-mode reconstruction humans cannot know intelligible objects…, by Typed-consequence",
+  "legacy_id": "INF-PARM-EPISTEMIC-OBJECTION",
   "input_statement_ids": [
-    "STMT-PARM-KNOWLEDGE-REALM-CLOSURE",
-    "STMT-PARM-HUMAN-OUTSIDE",
-    "STMT-PARM-DIVINE-INSIDE"
+    "0466bde5-60d3-5be1-96e9-071a1fe04712",
+    "f1eda342-13a1-5aa4-ac9d-efe85fee1397",
+    "20457010-3642-5c2f-b3ba-d063f974a22e"
   ],
-  "output_statement_id": "STMT-PARM-CROSS-REALM-IGNORANCE",
+  "output_statement_id": "e162e164-da46-5958-a608-2683c88c9d69",
   "rule": "typed-consequence",
   "meaning": "Knowledge closure places every known object on the knowing mode’s side. Human modes outside the intelligible side cannot know intelligible objects; divine modes inside it cannot know non-intelligible objects. This proves both conditional horns without asserting divine existence or omniscience.",
   "assumption_statement_ids": [],

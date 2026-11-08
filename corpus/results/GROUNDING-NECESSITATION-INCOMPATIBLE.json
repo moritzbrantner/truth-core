@@ -1,6 +1,8 @@
 {
-  "id": "GROUNDING-NECESSITATION-INCOMPATIBLE",
-  "argument_id": "GROUNDING-NECESSITATION-INCOMPATIBLE",
+  "id": "be94dd81-e012-55aa-ba7c-c425caeb6c1c",
+  "label": "Logical falsity, from The selected fact holds at the supplied… and 2 more",
+  "legacy_id": "GROUNDING-NECESSITATION-INCOMPATIBLE",
+  "argument_id": "9c776c3e-5340-5c07-97a3-5c823c2942e5",
   "challenge_module": "TruthCore.Results.Explanation.GroundingBaseline.Challenge",
   "solution_module": "TruthCore.Results.Explanation.GroundingBaseline.Solution",
   "theorem": "TruthCore.Results.Explanation.GroundingBaseline.necessitationImpossible",

@@ -1,11 +1,13 @@
 {
-  "id": "STMT-NOT-EVERY-LEAN-PROPOSITION-FAILS",
+  "id": "8efdfe70-cb76-575f-a13c-16a35cfb7c9e",
+  "label": "Inside Lean logic, ¬. A logical theorem, not a philosophical independence thesis",
+  "legacy_id": "STMT-NOT-EVERY-LEAN-PROPOSITION-FAILS",
   "paraphrase": "Inside Lean logic, ¬ (∀ P : Prop, ¬ P). A logical theorem, not a philosophical independence thesis.",
   "lean_declaration": "TruthCore.Logic.TruthPilot.NotEveryPropositionFails",
   "definition_ids": [
-    "DEF-LEAN-PROPOSITION-HOLDING"
+    "295c5c65-7654-5a9f-8f01-cd9071dd31f1"
   ],
   "disambiguation_ids": [
-    "DISAMB-TRUE"
+    "80b5fc49-ed55-5c61-b14b-3621d2aa1520"
   ]
 }

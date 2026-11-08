@@ -1,15 +1,17 @@
 {
-  "id": "CC100-116-PERSONAL-EXPLANATION-RESTRICTION",
-  "statement_id": "STMT-CC100-116-PERSONAL-EXPLANATION-RESTRICTION",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "3fd39f28-0eae-5953-99df-2ab59617d659",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: Intentionality and mental causation can only have a…",
+  "legacy_id": "CC100-116-PERSONAL-EXPLANATION-RESTRICTION",
+  "statement_id": "05fb0e59-18f8-519d-bf58-12bdc952367c",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.272–291: p.274, argument #116 Argument from Reason, step 2",
   "interpretation": "Retain the displayed joint restriction and can/only scope. It does not independently establish that such an explanation exists, that its person is divine or unembodied, or that the explanation is a complete sufficient cause. No explanation-to-Ontic-cause identity is supplied. Attribution is to McIntosh’s presentation only, not the unread Ross/Hasker/Reppert/Goetz works referenced on p275. No formal proof or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-116-REASON-PERSONAL-EXPLANATION"
+    "54bd3f5c-02de-55b4-a0dc-1c4f442cbbf5"
   ],
   "disambiguation_ids": [
-    "DISAMB-REASON-EPISTEMIC-ONTIC",
-    "DISAMB-PSR-EXPLANATION-CAUSE"
+    "a61d3807-50e9-595e-9011-9123fd606a4b",
+    "f7bae38e-9b21-54fe-8236-2646c230568b"
   ]
 }

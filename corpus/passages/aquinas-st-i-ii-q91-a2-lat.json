@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "AQUINAS-ST",
+    "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
     "source_url": "https://www.corpusthomisticum.org/sth2090.html",
     "retrieved_at": "2026-11-06T09:30:00Z",
     "sha256": "sha256:b06d31d0a683427d98da5246cfa975463cad35145e221fefb1f398a1feed2791",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "AQUINAS-ST-I-II-Q91-A2-LAT",
+      "id": "22d5ea98-afea-5976-8366-75857b59950e",
+      "label": "Thomas Aquinas, Summa theologiae, I ii q.91 a.2 s.c. and co",
+      "legacy_id": "AQUINAS-ST-I-II-Q91-A2-LAT",
       "locator": "I-II q.91 a.2 s.c. and co. [37470-37471]",
       "claim_locator_prefixes": [
         "I-II q.91 a.2 "

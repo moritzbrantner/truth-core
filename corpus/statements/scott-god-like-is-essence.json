@@ -1,12 +1,14 @@
 {
-  "id": "STMT-SCOTT-GOD-LIKE-IS-ESSENCE",
+  "id": "5eee7ede-db6b-58de-a249-29ba04a17827",
+  "label": "Scott's theorem T2: at every world, being GOD_LIKE_5 is an ESSENCE_2 of every GOD_LIKE_5 individual",
+  "legacy_id": "STMT-SCOTT-GOD-LIKE-IS-ESSENCE",
   "paraphrase": "Scott's theorem T2 (AFP GoedelGod.thy): at every world, being God-like is an essence of every God-like individual.",
   "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.GodLikeIsEssence",
   "definition_ids": [
-    "DEF-ESSENCE-SCOTT",
-    "DEF-GOD-LIKE-SCOTT"
+    "2e31f6cf-433e-5e11-bb65-233499985668",
+    "90644066-e830-5e1b-a9f0-911743369129"
   ],
   "disambiguation_ids": [
-    "DISAMB-GOD"
+    "205a39c3-915d-5fe4-8076-a9ff91329e08"
   ]
 }

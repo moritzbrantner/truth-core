@@ -1,25 +1,27 @@
 {
-  "id": "RETAINED-DUTY-TEMPORAL-CORE",
+  "id": "2faea4b7-4c22-5b6d-b77f-9961f1bfc9a0",
+  "label": "Logical falsity, from The fixed agent owes return of the… and 3 more",
+  "legacy_id": "RETAINED-DUTY-TEMPORAL-CORE",
   "premise_statement_ids": [
-    "STMT-RETAINED-DUTY-INITIAL-DUTY",
-    "STMT-RETAINED-DUTY-RETENTION",
-    "STMT-RETAINED-DUTY-PRESENT-INABILITY",
-    "STMT-RETAINED-DUTY-PRESENT-OIC"
+    "4d4355d0-a338-59fc-af25-33c5c195fea8",
+    "d4e0402d-5848-57b8-97f5-43f5fe12beb3",
+    "84d6dde8-a359-52cc-9411-714592cc8172",
+    "257ca27d-fdf4-5cb1-873d-3970cab1ad6b"
   ],
-  "conclusion_statement_id": "STMT-CONFIGURATION-FALSE",
+  "conclusion_statement_id": "37f33696-dc47-5bd3-9cd8-edfd5bf00aa5",
   "inference_ids": [
-    "INF-RETAINED-DUTY-TRANSFER",
-    "INF-RETAINED-DUTY-DIRECT-CORE"
+    "266e31b5-d355-526e-a00d-0e89b7dc2d8d",
+    "bfd67e41-344b-5b43-b6ed-19bea5754bbd"
   ],
   "meaning": "Initial original-return duty plus explicit same-action retention yields present duty, then composes the direct core with present inability and present OIC. Each single omission is witnessed in the controls; no moral policy or action-substitution bridge is proved true. Frozen universal-policy predecessor; the local-policy companion is the operational elimination result. Universal OIC is not a weakest sufficient policy.",
   "definition_ids": [
-    "DEF-RETAINED-DUTY-CASE",
-    "DEF-RETAINED-DUTY-POLICIES"
+    "200b70ef-cdce-5c01-9d1c-d802050f1f51",
+    "21e29c57-c49c-57e9-b226-8a9f23f7968d"
   ],
   "disambiguation_ids": [
-    "DISAMB-RETAINED-DUTY-ACTION-TIME"
+    "c5ea8a79-2882-5ebc-84f7-6d98dc36867f"
   ],
   "strong_version_needed": {
-    "STMT-RETAINED-DUTY-PRESENT-OIC": "Frozen predecessor target retained under invariant 12, not logically needed. RETAINED-DUTY-LOCAL-TEMPORAL-CORE is the weaker operational replacement; no stronger-necessity claim is made."
+    "257ca27d-fdf4-5cb1-873d-3970cab1ad6b": "Frozen predecessor target retained under invariant 12, not logically needed. RETAINED-DUTY-LOCAL-TEMPORAL-CORE is the weaker operational replacement; no stronger-necessity claim is made."
   }
 }

@@ -1,11 +1,13 @@
 {
-  "id": "INF-GREATEST-DEGREE-CAUSES-FROM-MAXIMAL-PRINCIPLE",
+  "id": "cd470242-b411-5d15-9638-6595de80e31d",
+  "label": "For an arbitrary selected perfection and supplied preorder of…, by Greatest implies maximal…",
+  "legacy_id": "INF-GREATEST-DEGREE-CAUSES-FROM-MAXIMAL-PRINCIPLE",
   "input_statement_ids": [
-    "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
-    "STMT-MORE-SUCH-HAS-THE-PERFECTION",
-    "STMT-MORE-IN-MATCHES-STRICT-REPRESENTED-DEGREE"
+    "d9fad785-40ab-555a-a1c1-5e39c9d50497",
+    "c11369aa-7c3d-5dea-8421-535d5b4b3104",
+    "70508140-d427-5a99-9be0-ae12ac905302"
   ],
-  "output_statement_id": "STMT-GREATEST-DEGREE-IN-GENUS-CAUSES-ALL-IN-GENUS",
+  "output_statement_id": "6f4824c9-b80e-5ea7-9d45-dbfb8d53d379",
   "rule": "Greatest implies maximal under calibration; instantiation of the maximal principle",
   "meaning": "In a calibration frame, a greatest-degree bearer is maximal: anything more such than it would have the perfection and, by calibration among bearers, a strictly higher degree than the greatest, which is impossible. The stronger analyst maximal-in-genus principle (OPEN) then makes it the cause of all others. Shows that the stronger analyst configuration entails the greatest-degree source reading under calibration and more-such-has; not a derivation of the source reading from weaker premises.",
   "assumption_statement_ids": [],

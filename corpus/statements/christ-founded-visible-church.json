@@ -1,13 +1,15 @@
 {
-  "id": "STMT-CHRIST-FOUNDED-VISIBLE-CHURCH",
+  "id": "a8dfc0b8-140f-5351-a856-16a719251ac3",
+  "label": "Jesus founded a visible, enduring society with an authority structure",
+  "legacy_id": "STMT-CHRIST-FOUNDED-VISIBLE-CHURCH",
   "paraphrase": "Jesus founded a visible, enduring society with an authority structure.",
   "lean_declaration": "TruthCore.Case.Catholicism.ChristFoundedVisibleChurch",
   "definition_ids": [
-    "DEF-SKELETON-OPEN-PREDICATES",
-    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY",
-    "DEF-CHURCH-CRITERION-CALIBRATION"
+    "ac767549-28c0-5a1a-813d-ee208a664d08",
+    "12d8270e-a003-557f-8434-490095c74177",
+    "ae24d537-d95b-5b41-a7be-d43fe4ca46c4"
   ],
   "disambiguation_ids": [
-    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS"
+    "2c675c96-2539-5adc-a560-37609d0dc5fe"
   ]
 }

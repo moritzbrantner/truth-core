@@ -1,15 +1,17 @@
 {
-  "id": "RICHARDSON-WHAT-GROUNDING",
-  "source_id": "RICHARDSON-GROUNDING-NECESSARY-CONTINGENT-2021",
-  "statement_id": "STMT-WHAT-GROUNDING-REAL-DEFINITION-NECESSITATES",
+  "id": "1c6a18df-8623-5c21-8496-3341eb8cb86f",
+  "label": "Kevin Richardson, Grounding is Necessary…: What-grounding corresponds to essential real-definition…",
+  "legacy_id": "RICHARDSON-WHAT-GROUNDING",
+  "source_id": "ea711c09-6c9b-5dc1-b825-f9807c128a37",
+  "statement_id": "b3b979bc-636d-5816-b352-9dc7f64433be",
   "locator": "PDF pp. 14–18 (printed pp.465–469), section 6.1",
   "interpretation": "Examples are offered as putative paradigms, not endorsed substantive definitions. No statement about necessary instantiation or common WF ranks.",
   "attribution": "The passage states what-grounding corresponds to essential real-definition what-it-is explanations, with nontrivial necessary and sufficient conditions; it obeys grounding necessity, which is the premise.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-GROUNDING-NECESSITATION-SOURCE-SENSES"
+    "fb322793-9175-591d-b5b2-7bc3989c90da"
   ],
   "disambiguation_ids": [
-    "DISAMB-NECESSITATION-PRIORITY-INVARIANCE"
+    "b8b4c985-8b2b-545d-b474-2b5356e90140"
   ]
 }

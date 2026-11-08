@@ -1,6 +1,8 @@
 {
-  "id": "PSR-STRENGTH-MAP",
-  "argument_id": "PSR-STRENGTH-MAP",
+  "id": "9d1bdcc3-732f-5188-bfb2-5b913322b1c8",
+  "label": "In one arena: unrestricted fact coverage gives contingent-fact coverage, and given coherence of…",
+  "legacy_id": "PSR-STRENGTH-MAP",
+  "argument_id": "2d17e294-07b7-5e01-899d-93879b83f5bb",
   "challenge_module": "TruthCore.Results.Explanation.PSRStrength.Challenge",
   "solution_module": "TruthCore.Results.Explanation.PSRStrength.Solution",
   "theorem": "TruthCore.Results.Explanation.PSRStrength.strengthMap",

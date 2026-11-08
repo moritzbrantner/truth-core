@@ -1,6 +1,8 @@
 {
-  "id": "CLASSICAL-GOD-REVELATION-BOUNDARY",
-  "argument_id": "CLASSICAL-GOD-REVELATION-BOUNDARY",
+  "id": "11d698d9-16d2-5db0-86eb-84dec31c114b",
+  "label": "Concrete analyst boundary under supplied excluded…, from Excluded middle as a general principle…",
+  "legacy_id": "CLASSICAL-GOD-REVELATION-BOUNDARY",
+  "argument_id": "5dd18965-2180-50e3-a0e3-c5ad6815d90f",
   "challenge_module": "TruthCore.Results.Causality.ClassicalGodRevelationBoundary.Challenge",
   "solution_module": "TruthCore.Results.Causality.ClassicalGodRevelationBoundary.Solution",
   "theorem": "TruthCore.Results.Causality.ClassicalGodRevelationBoundary.checks",

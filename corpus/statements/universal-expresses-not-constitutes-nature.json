@@ -1,12 +1,14 @@
 {
-  "id": "STMT-UNIVERSAL-EXPRESSES-NOT-CONSTITUTES-NATURE",
+  "id": "6496fa98-8b7b-5948-830d-90910b8aa39a",
+  "label": "A universal mental or conventional sign is not a constituent of a substance’s essence; it…",
+  "legacy_id": "STMT-UNIVERSAL-EXPRESSES-NOT-CONSTITUTES-NATURE",
   "paraphrase": "A universal mental or conventional sign is not a constituent of a substance’s essence; it expresses or explicates the nature of that substance. Signification and substantial constitution play different roles.",
   "definition_ids": [
-    "DEF-UNIVERSAL-MENTAL-SIGN",
-    "DEF-UNIVERSAL-CONVENTIONAL-SIGN",
-    "DEF-COMMON-NATURE-CONSTITUENT"
+    "51266d70-d1a8-5bc8-94b0-2c948e761797",
+    "a696033a-4e98-5b14-9312-977ad8f65ca4",
+    "e5b532e1-8fa8-5abc-8d47-620301cf7d61"
   ],
   "disambiguation_ids": [
-    "DISAMB-UNIVERSAL-SIGN-AND-COMMON-NATURE"
+    "f4d3fe07-8285-54da-a878-dacf8f410a90"
   ]
 }

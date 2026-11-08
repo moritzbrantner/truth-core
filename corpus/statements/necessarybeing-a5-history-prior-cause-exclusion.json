@@ -1,14 +1,16 @@
 {
-  "id": "STMT-NB-A5-HISTORY-PRIOR-CAUSE-EXCLUSION",
+  "id": "d3ee26b2-5ed0-5c2c-81a1-635496e1b862",
+  "label": "Still under no-possible-Necessary-Being and C’s derived causability, the source asserts that a…",
+  "legacy_id": "STMT-NB-A5-HISTORY-PRIOR-CAUSE-EXCLUSION",
   "paraphrase": "Still under no-possible-Necessary-Being and C’s derived causability, the source asserts that a contingent thing cannot be prior to or cause the SAME exact EVER-roster situation C. It infers a possible noncontingent cause and possible Necessary Being. This is the author’s conditional whole-history causal exclusion, not a consequence of C’s truth alone, a positive conjunction theorem, or an established ban on every included contingent predecessor. No actual concrete source, full explanatory sufficiency or unconditional possible-C cause is established here.",
   "definition_ids": [
-    "DEF-NB-A5-OBTAINING-CONTINGENT-SITUATION",
-    "DEF-NB-A5-RIGID-EVER-ROSTER-AND-INCLUDES",
-    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
-    "DEF-NB-SURVEY-NECESSARY-BEING"
+    "63e5d484-43d5-540b-a1b7-e8e8a5010bb6",
+    "1bddbc02-14b5-567f-adf2-7f09e011f63a",
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0",
+    "7fde5dc0-6ca7-5ce6-a2e1-571acfd15dcf"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A5-SITUATION-HISTORY-CAUSAL-SCOPE",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "54e516bf-f2e6-5b50-84fc-f74b34198bce",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

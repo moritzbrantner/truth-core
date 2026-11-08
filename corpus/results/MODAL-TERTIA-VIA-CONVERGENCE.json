@@ -1,6 +1,8 @@
 {
-  "id": "MODAL-TERTIA-VIA-CONVERGENCE",
-  "argument_id": "MODAL-TERTIA-VIA-CONVERGENCE",
+  "id": "1a11625a-d538-5bf1-b88f-685285a668ad",
+  "label": "For the supplied Profile/world and explicit accessible-world…, via convergence",
+  "legacy_id": "MODAL-TERTIA-VIA-CONVERGENCE",
+  "argument_id": "9f7e31d8-5e0e-518d-b080-187cfdc67576",
   "challenge_module": "TruthCore.Results.Causality.ModalNecessaryBeingActuality.Challenge",
   "solution_module": "TruthCore.Results.Causality.ModalNecessaryBeingActuality.Solution",
   "theorem": "TruthCore.Results.Causality.ModalNecessaryBeingActuality.convergence",

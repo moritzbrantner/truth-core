@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PRIVILEGED-PRESENT-SCOPE",
+  "id": "ef92f471-1e4c-5493-9bdc-043374a459cd",
+  "label": "Additional privileged-present…: An additionally designated relation on events proposed as…",
+  "legacy_id": "DEF-PRIVILEGED-PRESENT-SCOPE",
   "term": "additional privileged-present interpretation",
   "definition": "An additionally designated relation on events proposed as ontologically privileged co-presence. The formal control supplies an arbitrary relation P matching original-frame simultaneity while failing boosted-frame agreement.",
   "basis": "stipulative",

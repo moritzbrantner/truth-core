@@ -1,6 +1,8 @@
 {
-  "id": "PSR-LOCAL-EXISTENCE-DOES-NOT-IMPLY-GLOBAL",
-  "argument_id": "PSR-LOCAL-EXISTENCE-DOES-NOT-IMPLY-GLOBAL",
+  "id": "97a2a306-39cc-5060-8646-d41c5d5c9624",
+  "label": "One sound two-world explanation model has local no-brute existence coverage at world false, a…",
+  "legacy_id": "PSR-LOCAL-EXISTENCE-DOES-NOT-IMPLY-GLOBAL",
+  "argument_id": "99b7fdc7-118d-5965-b4d8-e881a6703932",
   "challenge_module": "TruthCore.Results.Explanation.NoBruteExistence.Challenge",
   "solution_module": "TruthCore.Results.Explanation.NoBruteExistence.Solution",
   "theorem": "TruthCore.Results.Explanation.NoBruteExistence.scopeControl",

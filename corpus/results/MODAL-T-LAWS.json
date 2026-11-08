@@ -1,6 +1,8 @@
 {
-  "id": "MODAL-T-LAWS",
-  "argument_id": "MODAL-T-LAWS",
+  "id": "bd043b01-df8e-547b-ab47-4ea2b951afd1",
+  "label": "Reflexivity alone gives full-predicate MC exactly when a world accesses precisely itself",
+  "legacy_id": "MODAL-T-LAWS",
+  "argument_id": "f9e11467-318c-5f4c-bbdc-0fd62c7141e6",
   "challenge_module": "TruthCore.Results.Modal.T.Laws.Challenge",
   "solution_module": "TruthCore.Results.Modal.T.Laws.Solution",
   "theorem": "TruthCore.Results.Modal.T.Laws.checks",

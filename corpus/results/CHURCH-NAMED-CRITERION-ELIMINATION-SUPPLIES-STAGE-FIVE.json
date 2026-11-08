@@ -1,6 +1,8 @@
 {
-  "id": "CHURCH-NAMED-CRITERION-ELIMINATION-SUPPLIES-STAGE-FIVE",
-  "argument_id": "CHURCH-NAMED-CRITERION-ELIMINATION-SUPPLIES-STAGE-FIVE",
+  "id": "8aa09fc5-008b-588c-ba72-d97748ec9cf6",
+  "label": "Jesus founded a visible, enduring…, from The selected Church predicate coextends… and 2 more",
+  "legacy_id": "CHURCH-NAMED-CRITERION-ELIMINATION-SUPPLIES-STAGE-FIVE",
+  "argument_id": "a286de19-7a0d-5e99-9c51-4a1307361472",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.ChurchDefinitions.Elimination.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.ChurchDefinitions.Elimination.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.ChurchDefinitions.Elimination.namedEliminationSuppliesStageFive",

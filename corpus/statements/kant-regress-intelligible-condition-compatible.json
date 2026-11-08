@@ -1,14 +1,16 @@
 {
-  "id": "STMT-KANT-REGRESS-INTELLIGIBLE-CONDITION-COMPATIBLE",
+  "id": "e713cf82-4a01-571e-9ba6-6a57a1c72110",
+  "label": "The contingency and empirical conditioning of all phenomena do not contradict an assumed…",
+  "legacy_id": "STMT-KANT-REGRESS-INTELLIGIBLE-CONDITION-COMPATIBLE",
   "paraphrase": "The contingency and empirical conditioning of all phenomena do not contradict an assumed intelligible necessary condition outside their series; this does not prove that condition exists or is really possible.",
   "definition_ids": [
-    "DEF-KANT-LIMIT-CONCEPT",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-EPISTEMIC-WITHHOLDING",
-    "DEF-KANT-REAL-POSSIBILITY"
+    "f86bce00-104a-5653-8efa-8b0dae727bc6",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "1b91831b-8bab-5a47-876a-19a189c99b92",
+    "785c6195-9181-5926-9bfd-30e030e25e38"
   ],
   "disambiguation_ids": [
-    "DISAMB-KANT-NECESSITY-AND-KNOWLEDGE",
-    "DISAMB-KANT-POSSIBILITY"
+    "5953b4dc-5e3b-54c3-9610-111fe5637743",
+    "3beb9f91-1fa1-5f15-9223-418da8039017"
   ]
 }

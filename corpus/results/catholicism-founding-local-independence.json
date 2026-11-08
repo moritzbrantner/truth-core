@@ -1,6 +1,8 @@
 {
-  "id": "CATHOLICISM-FOUNDING-LOCAL-INDEPENDENCE",
-  "argument_id": "CATHOLICISM-FOUNDING-LOCAL-INDEPENDENCE",
+  "id": "278ce8d8-f0f4-51df-9c03-297b95ed7e55",
+  "label": "A finite formal-schema model satisfies every existing pilot report and reading bridge, the limited…",
+  "legacy_id": "CATHOLICISM-FOUNDING-LOCAL-INDEPENDENCE",
+  "argument_id": "3eae8e4a-bc02-5eb3-8c94-322fab070909",
   "challenge_module": "TruthCore.Results.Case.Catholicism.FoundingIndependence.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.FoundingIndependence.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.FoundingIndependence.independent",

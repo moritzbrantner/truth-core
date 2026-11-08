@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ANSELM-ACTUAL-ULTIMATE-SOURCE",
+  "id": "6e99c5cc-2d8c-546e-8475-242fa956e7c5",
+  "label": "Actual ultimate source relative to…: RootAt m w y means y exists at w and every z with through w y…",
+  "legacy_id": "DEF-ANSELM-ACTUAL-ULTIMATE-SOURCE",
   "term": "actual ultimate source relative to being-through",
   "definition": "RootAt m w y means y exists at w and every z with through w y z equals y. UltimateThroughAt m w x y means through w x y and that same no-distinct-source condition on y. UltimateSourceAt additionally asserts y exists at w and some x is ultimately through y. Neither a self-link nor necessity is assumed; self-link follows for a root under CoverageAt. The explicit actuality guard avoids giving a nonexistent candidate source status.",
   "lean_declaration": "TruthCore.Explanation.AnselmUltimateSource.UltimateSourceAt",

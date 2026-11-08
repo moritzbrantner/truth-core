@@ -1,25 +1,27 @@
 {
-  "id": "GROUNDING-IDENTITY-PROFILE",
+  "id": "1c550492-408d-5b04-bd03-5fc7257426d9",
+  "label": "For every source LocalState satisfying the exact existing population, grounding well-foundedness\u2026",
+  "legacy_id": "GROUNDING-IDENTITY-PROFILE",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-GROUNDING-IDENTITY-PROFILE",
+  "conclusion_statement_id": "5b521600-7250-53bd-80e6-5ee8a3044f94",
   "inference_ids": [
-    "INF-GROUNDING-IDENTITY-PROFILE"
+    "8a3878c1-f319-5ca5-99b3-850fa8e8723e"
   ],
   "meaning": "For every source LocalState satisfying the exact existing population, grounding well-foundedness, sound distinct existing endpoints and independent noninitial coverage assumptions, a fixed-tag rigid companion and the old disjoint-world doubling share one Bool\u00d7B rigid roster, universal accessibility, concreteness and literally identical actual-world existence/causal/grounding assignments. Both retain those local laws. At every world their existing domains have unique source-coordinate matches in both directions preserving concreteness and represented grounding/causing edges. The disjoint profile has total functional injective surjective counterparts, existing reflexive links and exact composition through every intermediate world, giving counterpart necessity for each existing source coordinate but no literal identity bridge. Source population yields a rigid necessary concrete witness in the fixed-tag profile; the imported doubling theorem excludes one in the disjoint profile. The old root-child source jointly instantiates the comparison with a genuine actual grounding edge in both. Source-coordinate correspondence is not numerical identity or a global roster bijection. Analyst reconstruction, attribution deferred; neither assignment is independently vindicated. Identity/applicability/PSR/anti-brute principles and metaphysical possibility remain OPEN; no root-premise change.",
   "definition_ids": [
-    "DEF-GROUNDING-IDENTITY-COMMON-SOURCE",
-    "DEF-GROUNDING-IDENTITY-GUARDED-CORRESPONDENCE",
-    "DEF-WORLD-LOCAL-GROUNDING-DOUBLING",
-    "DEF-COUNTERPART-NECESSITY",
-    "DEF-COUNTERPART-TOTAL",
-    "DEF-COUNTERPART-UNIQUE",
-    "DEF-COUNTERPART-INJECTIVE",
-    "DEF-COUNTERPART-IDENTITY-BRIDGE",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING"
+    "f797c540-b58b-5e03-bee4-8b74e3b85c22",
+    "3a1c20e9-3a17-5081-8e0b-e724bbc8996a",
+    "099e6e6a-c518-576d-bc6b-4925308a5f80",
+    "926e4512-986f-594b-94b5-243805ad4918",
+    "48d9f8e6-fe6a-553b-ad00-2c08c4e97c4e",
+    "b8f0975b-711d-543c-b77a-f425d0a0e699",
+    "bb19b947-6bfc-5c3c-8ec3-426f3701f4ac",
+    "d10f01ef-fe32-59c3-9762-ce4022826419",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef"
   ],
   "disambiguation_ids": [
-    "DISAMB-GROUNDING-SOURCE-ROLE-IDENTITY",
-    "DISAMB-COUNTERPART-VS-RIGID-IDENTITY"
+    "313b8ea9-5066-573b-95a3-20e85e065de8",
+    "17f39c0f-1fda-56c8-ae1e-ba1a91a0848d"
   ]
 }

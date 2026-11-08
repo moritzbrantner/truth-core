@@ -1,10 +1,12 @@
 {
-  "id": "INF-THEOLOGICAL-EXCLUSION-SUPPLIES-NEVER-OWN-DEFINITIONS",
+  "id": "7e5a3043-051f-5eb2-a6ae-6e88378709f1",
+  "label": "Every defined move lacks endorsement by the practice own standards, by Constructive-proof",
+  "legacy_id": "INF-THEOLOGICAL-EXCLUSION-SUPPLIES-NEVER-OWN-DEFINITIONS",
   "input_statement_ids": [
-    "STMT-CONCILIAR-DEFINITIONS-ARE-THEOLOGICAL",
-    "STMT-THEOLOGY-EXCLUDED-FROM-OWN-STANDARDS"
+    "9a438367-e1cc-511d-befc-c657f184bbbe",
+    "d799b4ff-5c08-559d-a99b-93b878e75f7f"
   ],
-  "output_statement_id": "STMT-CONCILIAR-DEFINITIONS-NEVER-OWN-STANDARD",
+  "output_statement_id": "717b0a61-29ac-585c-8174-2efb862bbccd",
   "rule": "constructive-proof",
   "meaning": "Apply the explicit exclusion to the theological content of each defined move. Single-application transcription of the open exclusion; the descriptive content premise alone does not supply it.",
   "assumption_statement_ids": [],

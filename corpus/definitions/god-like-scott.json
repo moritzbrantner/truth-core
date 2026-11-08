@@ -1,10 +1,12 @@
 {
-  "id": "DEF-GOD-LIKE-SCOTT",
+  "id": "90644066-e830-5e1b-a9f0-911743369129",
+  "label": "GOD_LIKE_5: GodLike P x w: at world w, x has every property that is positive at w",
+  "legacy_id": "DEF-GOD-LIKE-SCOTT",
   "term": "God-like (Scott's G; Lean `GodLike`)",
   "definition": "`GodLike P x w`: at world w, x has every property that is positive at w (AFP definition G = (λx. ∀(λΦ. P Φ m→ Φ x))). The theory's prose calls it 'God-like' and its theorems' glosses say 'God'; the formalized notion is only this.",
   "basis": "sourced",
   "claim_ids": [
-    "AFP-GOEDELGOD-A3-A"
+    "dc663f44-ee60-5c01-8925-13bf710af57e"
   ],
   "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.GodLike"
 }

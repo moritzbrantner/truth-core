@@ -1,9 +1,11 @@
 {
-  "id": "DEF-GIBBARD-EXPANDED-TRUTH",
+  "id": "3b684b57-3e4b-537c-925b-5cc172a6011a",
+  "label": "Gibbard\u2019s expanded full-truth sense: Gibbard\u2019s package near truth minimalism additionally requires\u2026",
+  "legacy_id": "DEF-GIBBARD-EXPANDED-TRUTH",
   "term": "Gibbard\u2019s expanded full-truth sense (2022)",
   "definition": "Gibbard\u2019s package near truth minimalism additionally requires fitting a maximally specific way things are (equivalently a fully opinionated observer agrees or disagrees). Normative truth concerns what to do; this does not posit a uniform relation represents as its explanation. He excludes false-antecedent indicative conditionals from full truth while allowing lighter truth-like packages.",
   "basis": "sourced",
   "claim_ids": [
-    "GIBBARD-REPLY-2022-536-INDICATIVE-NOT-MATERIAL-TRUTH"
+    "add2d90b-631c-571d-a2ae-70d30fd6a1b4"
   ]
 }

@@ -1,8 +1,10 @@
 {
-  "id": "STMT-PER-SE-CAUSAL-LOOP",
+  "id": "d9509af9-a338-5d24-bc09-e6f312bff05d",
+  "label": "Rival: some being is, through a finite chain of per se links, a middle cause of itself",
+  "legacy_id": "STMT-PER-SE-CAUSAL-LOOP",
   "paraphrase": "Rival: some being is, through a finite chain of per se links, a middle cause of itself (a per se causal loop).",
   "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.PerSeCausalLoopReading",
   "definition_ids": [
-    "DEF-PER-SE-EFFICIENT-CAUSE-LINK"
+    "4a101a4c-12de-53c8-80c6-de7a523ea9d9"
   ]
 }

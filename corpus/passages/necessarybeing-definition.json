@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "NECESSARYBEING-SURVEY",
+    "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
     "encoding": "utf-8",
     "language": "eng",
     "source_url": "https://www.necessarybeing.com/definenecessarybeing.html",
@@ -13,7 +13,9 @@
   },
   "passages": [
     {
-      "id": "NECESSARYBEING-DEFINITION",
+      "id": "108d5fe3-af64-50bf-a142-1edce7a8a165",
+      "label": "Unattributed website author, Necessary Being interactive survey, Definition page, two…",
+      "legacy_id": "NECESSARYBEING-DEFINITION",
       "locator": "Definition page, two necessary-being conditions and modal discussion",
       "claim_locator_prefixes": [
         "Definition page,"

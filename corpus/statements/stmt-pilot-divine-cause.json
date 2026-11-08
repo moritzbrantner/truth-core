@@ -1,12 +1,14 @@
 {
-  "id": "STMT-PILOT-DIVINE-CAUSE",
+  "id": "d91de3e0-ebed-5c6c-8289-37be325ed753",
+  "label": "God causes the world: an open metaphysical commitment, distinct from merely affirming that God…",
+  "legacy_id": "STMT-PILOT-DIVINE-CAUSE",
   "paraphrase": "God causes the world: an open metaphysical commitment, distinct from merely affirming that God exists.",
   "lean_declaration": "TruthCore.History.Resurrection.DivineCause",
   "definition_ids": [
-    "DEF-RESURRECTION-PILOT-ACCOUNT",
-    "DEF-SKELETON-OPEN-PREDICATES"
+    "3ef00725-331b-5d83-89d2-36f1428e21ae",
+    "ac767549-28c0-5a1a-813d-ee208a664d08"
   ],
   "disambiguation_ids": [
-    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+    "2567d8a9-549e-5404-8658-3275b7029092"
   ]
 }

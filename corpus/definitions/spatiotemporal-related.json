@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SPATIOTEMPORAL-RELATED",
+  "id": "56434b15-ed8e-5896-b1af-9fdbc18dd99b",
+  "label": "SPATIOTEMPORAL_3: Related F x:= ∃ y, F.related x y: x stands in a SPATIOTEMPORAL_3 relation to some…",
+  "legacy_id": "DEF-SPATIOTEMPORAL-RELATED",
   "term": "spatiotemporal (relational sense)",
   "definition": "`Related F x := ∃ y, F.related x y`: x stands in a spatiotemporal relation (distance, temporal order, separation) to some candidate.",
   "basis": "stipulative",

@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "BOYD-HOW-TO-BE-A-MORAL-REALIST",
+    "source_id": "277ef663-b70c-5541-a6c4-f67fd04c205a",
     "source_url": "https://r.jordan.im/download/philosophy/Boyd%20-%20How%20to%20be%20a%20Moral%20Realist.pdf",
     "retrieved_at": "2026-10-25T13:06:33Z",
     "sha256": "sha256:8ac81cf7d072eddd9d21982373c9607d62f116aba496f9f1aa5527b121b90963",
@@ -13,7 +13,9 @@
   },
   "passages": [
     {
-      "id": "BOYD-HOW-TO-BE-A-MORAL-REALIST-FULL",
+      "id": "e8154662-3696-5645-a4cf-5c08e56b9bf7",
+      "label": "Richard N. Boyd, How to be a Moral Realist, Contemporary Materialism reprint, pp. 307\u2013352",
+      "legacy_id": "BOYD-HOW-TO-BE-A-MORAL-REALIST-FULL",
       "locator": "Contemporary Materialism reprint, pp. 307\u2013352 (\u00a7\u00a71\u20135 and the beginning of notes)",
       "claim_locator_prefixes": [
         "reprint "

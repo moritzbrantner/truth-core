@@ -1,9 +1,11 @@
 {
-  "id": "REL-REA-SILENCE-MOTIVATIONAL-SILENCE-POSSIBLE-SUPPORTS-REASON-FOR-EACH-GAP",
+  "id": "430a5a2a-6f9c-532f-85e0-208848ca8c5b",
+  "label": "Michael C. Rea, Divine Hiddenness Divine…… supports If God exists, every failure of immediate… (2)",
+  "legacy_id": "REL-REA-SILENCE-MOTIVATIONAL-SILENCE-POSSIBLE-SUPPORTS-REASON-FOR-EACH-GAP",
   "subject_kind": "claim",
-  "subject_id": "REA-SILENCE-MOTIVATIONAL-SILENCE-POSSIBLE",
+  "subject_id": "b5f45878-4234-5c06-ba40-30c2f4fc7268",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-HIDDENNESS-REASON-FOR-EACH-GAP",
+  "object_id": "c3b32d5d-e5a4-5c01-9344-c220430c8b63",
   "note": "A possible reply resource, not a logical derivation or evidence that every actual case has a sufficient reason. The target remains a stronger, unattributed open comparison premise."
 }

@@ -1,16 +1,18 @@
 {
-  "id": "ARIST-MET-IV-8-1012B-ALL-FALSE-SELF-FALSIFYING-A",
-  "statement_id": "STMT-NO-ABSOLUTE-TRUTH-THESIS-NOT-ABSOLUTELY-TRUE",
-  "source_id": "ARIST-MET",
+  "id": "44e07cc7-0e16-508b-b016-4cbd67cf7e08",
+  "label": "Aristotle, Metaphysics IV.8, 1012b13-18: The thesis that no content in its scope is…",
+  "legacy_id": "ARIST-MET-IV-8-1012B-ALL-FALSE-SELF-FALSIFYING-A",
+  "statement_id": "13490096-3453-5792-a4a8-d8e2f7a0fe4c",
+  "source_id": "a8acbf0a-30ba-5e04-b261-cb62a89cbddb",
   "locator": "IV.8, 1012b13-18",
   "interpretation": "Such theses suffer the familiar fate of refuting themselves: … he who says that all things are false makes himself false too (ὁ δὲ πάντα ψευδῆ καὶ αὐτὸς αὑτόν). Read with Aristotle's single unindexed truth predicate as absolute truth, and \"false\" as not true: the thesis that nothing is true, in its own scope, is not true. Aristotle's target denies all truth, not only absolute truth, so the claim supports the absolute horn only; it attributes no view about relative truth to him or his opponents.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-ABSOLUTE-TRUTH",
-    "DEF-NO-ABSOLUTE-TRUTH-SCOPED"
+    "cbb0ffe9-46e6-5bc4-aa8b-e705635ce0e7",
+    "ceeb8d72-d8e3-5c5a-84bc-fc48917219e9"
   ],
   "disambiguation_ids": [
-    "DISAMB-ASSERTED-TRUTH-SENSE",
-    "DISAMB-TRUE"
+    "d62cd674-9ae4-564a-8016-13d11ba0c407",
+    "80b5fc49-ed55-5c61-b14b-3621d2aa1520"
   ]
 }

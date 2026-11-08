@@ -1,10 +1,12 @@
 {
-  "id": "STMT-INDEXED-SIGNAL-POSITIVE-TRIGGER",
+  "id": "c1027f56-9c3b-579e-9b10-c4458109f810",
+  "label": "At each station, absence of an admitted upstream code requires issuance in the supplied role",
+  "legacy_id": "STMT-INDEXED-SIGNAL-POSITIVE-TRIGGER",
   "paraphrase": "At each station, absence of an admitted upstream code requires issuance in the supplied role. This is the positive direction only, an explicit open local-interface premise.",
   "lean_declaration": "TruthCore.Causality.IndexedSignalReaper.PositiveTrigger",
   "definition_ids": [
-    "DEF-INDEXED-SIGNAL-POSITIVE-TRIGGER",
-    "DEF-INDEXED-SIGNAL-LOCAL-CONSERVATION",
-    "DEF-INDEXED-SIGNAL-PROVENANCE"
+    "d48314be-aadb-5039-8ac5-38a1ca488375",
+    "3fe7fb2d-08f9-5f12-ba4f-87ce03593e24",
+    "549223a2-5c80-5e93-949c-fa6d970dd968"
   ]
 }

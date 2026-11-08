@@ -1,9 +1,11 @@
 {
-  "id": "REL-NAMED-CAUSAL-COVERAGE-EXACT-NEGATIVE",
+  "id": "35ef3fd2-83d1-5cf7-8550-d8258741c111",
+  "label": "Exact negation of the explicit… alternative to If any selected-world no-esse capacity…",
+  "legacy_id": "REL-NAMED-CAUSAL-COVERAGE-EXACT-NEGATIVE",
   "subject_kind": "statement",
-  "subject_id": "STMT-NAMED-PRODUCTIVE-CAUSAL-COVERAGE-FAILS",
+  "subject_id": "bd355c11-ff47-57d8-af78-7f4c6be60973",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-NAMED-PRODUCTIVE-CAUSAL-COUNTERACCOUNTS-COVER",
+  "object_id": "d75fefb5-07e7-590b-bba9-693dabd9da9d",
   "note": "Exact selected-profile complement, unrefuted. Broad category or other-world accounts require their explicit interfaces; no finite named-theory roster is treated as exhaustive."
 }

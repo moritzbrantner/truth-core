@@ -1,13 +1,15 @@
 {
-  "id": "INF-NECESSARY-CONCRETE-UNDERIVED-FROM-NECESSITY",
+  "id": "79639057-c2cc-510b-be1f-69790575d69a",
+  "label": "One and the same candidate is concrete, actually exists, exists…, by Concrete-subtype-existing-the…",
+  "legacy_id": "INF-NECESSARY-CONCRETE-UNDERIVED-FROM-NECESSITY",
   "input_statement_ids": [
-    "STMT-NECESSARY-CONCRETE-AT",
-    "STMT-ACTUAL-MODAL-REFLEXIVITY",
-    "STMT-NO-CONTINGENT-CONCRETE-SUPPORT",
-    "STMT-CONCRETE-NECESSARY-UNION-WF",
-    "STMT-EXCLUDED-MIDDLE"
+    "b19ffd92-01bd-5c0b-9643-e7407137ea5e",
+    "2b20b5af-d653-56ba-8001-35903fb3d1ea",
+    "dd41c165-129a-59d3-84ce-bd13c0944901",
+    "d149d238-2eeb-5c8b-a136-f95d7aa5c721",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-NECESSARY-CONCRETE-UNDERIVED-AT",
+  "output_statement_id": "0bdcf366-29c7-5d45-b603-5c929dcad976",
   "rule": "concrete-subtype-existing-theorem-assembly",
   "meaning": "Pointwise assembly of the existing modal-union theorem on the concrete subtype. Supplied NecessaryConcreteAt yields NecessaryBeing for concreteOntic; apply PositiveUnion.checks with concreteSupport, selected-world reflexivity, no contingent concrete supporter of a necessary target, all-world necessary-concrete support-union well-foundedness, and explicit EM. Unpack its possibly NEW witness with concrete typing, actual presence and de re necessity preserved. The SAME final witness has no existing CONCRETE ground at ANY admitted world; no claim that the original input witness is retained, that nonconcrete explanations are absent, or that production equals grounding. No actual-wide grounding WF, causal coverage, source uniqueness, confluence, modal S5 or full author FirstCause is assumed. This extracts a reusable assembly from the previous end-to-end proof; it independently defends no added support/frame principle and claims no global premise-package weakening.",
   "assumption_statement_ids": [],

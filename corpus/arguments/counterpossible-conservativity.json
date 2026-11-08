@@ -1,20 +1,22 @@
 {
-  "id": "COUNTERPOSSIBLE-CONSERVATIVITY",
+  "id": "69122f09-0263-5cb8-b20f-237f0852d41c",
+  "label": "Two interpretations reuse the exact active AND and idle lookup mechanisms on normal backgrounds",
+  "legacy_id": "COUNTERPOSSIBLE-CONSERVATIVITY",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-COUNTERPOSSIBLE-CONSERVATIVITY",
+  "conclusion_statement_id": "ade631f5-0ef4-5d7b-a0b6-253098c87797",
   "inference_ids": [
-    "INF-COUNTERPOSSIBLE-CONSERVATIVITY"
+    "478dcbed-d139-5861-b853-4a01ae715f99"
   ],
   "meaning": "Two interpretations reuse the exact active AND and idle lookup mechanisms on normal backgrounds (true,u). Their entire normal observations agree for every u: PUBLIC contributor a is always on, cofactor and effect vary with u. In this declared normal Kripke model the public atom is necessary and the effect contingent; the public atom is not logically valid over arbitrary valuations. One normal-first universal selector selects all normal antecedent witnesses and consults only the originating context repair, if no normal witness exists and that repair satisfies the antecedent. For arbitrary antecedent/consequent predicates agreeing on every normal state and a normal-witness antecedent, both interpretations have identical selected conditional evaluations and agree with normal-only evaluation. For PUBLIC a off, normal-only evaluation validates both opposite effect consequents vacuously; each extension selects exactly the originating repair. At origin true, the active equation yields effect-off and rejects effect-on, while the idle equation reverses those evaluations. Repairs clamp PUBLIC a=false but keep latent background first=true: no latent-source intervention, necessary-bearer nonexistence or source-nonexistence underdetermination is encoded. Adding repairs to modal accessibility would destroy public-atom necessity, a separate profile change. The old strict-absence-vacuity baseline and intervention results are composed, not identified with counterfactual semantics. This explicit analyst conditional interpretation is not actual counterpossible truth, metaphysical possibility, logical contradiction, causation or grounding; the vacuist can reject repair evaluation and the nonvacuist owes its defense. Attribution deferred, no root-premise change.",
   "definition_ids": [
-    "DEF-COUNTERPOSSIBLE-NORMAL-REPAIR-DOMAINS",
-    "DEF-COUNTERPOSSIBLE-NORMAL-FIRST-SELECTION",
-    "DEF-COUNTERPOSSIBLE-PUBLIC-ATOM-INTERPRETATION",
-    "DEF-MECHANISM-INTERVENTION-PARITY",
-    "DEF-REGULARITY-INTERVENTION",
-    "DEF-EXPLANATORY-ENABLES"
+    "b665c5b9-4125-5e47-a0bd-c905d81deb14",
+    "c6477081-dca9-5681-b4d7-95d38e7ee0a7",
+    "daf2bad9-7a66-551c-b99e-249fe9822e88",
+    "0716f13e-ad25-5d22-be1a-c7a0cc486071",
+    "d0105d0e-8e28-5165-8235-ff91bf25c418",
+    "6f5a06e5-76aa-53be-843c-bc2623f948c1"
   ],
   "disambiguation_ids": [
-    "DISAMB-COUNTERPOSSIBLE-PUBLIC-CLAMP-MODAL-NECESSITY"
+    "193d4509-b877-53ae-a10e-03f2c33e57ab"
   ]
 }

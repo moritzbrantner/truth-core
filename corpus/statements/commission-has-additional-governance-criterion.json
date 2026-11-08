@@ -1,19 +1,21 @@
 {
-  "id": "STMT-COMMISSION-HAS-ADDITIONAL-GOVERNANCE-CRITERION",
+  "id": "3d43b9e6-8254-5f9d-b952-5305f1fdc481",
+  "label": "The selected governing criterion matches neither named extension",
+  "legacy_id": "STMT-COMMISSION-HAS-ADDITIONAL-GOVERNANCE-CRITERION",
   "paraphrase": "The selected governing criterion matches neither named extension. A criterion adding baptizing without teaching is a concrete further extension; no newly coined label alone supplies a relevant alternative.",
   "lean_declaration": "TruthCore.Case.Catholicism.StageThree.CommissionDefinitions.AdditionalGovernanceCriterion",
   "definition_ids": [
-    "DEF-COMMISSION-GOVERNANCE-CALIBRATION",
-    "DEF-TEACHING-INCLUSIVE-GOVERNING-POWER",
-    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
-    "DEF-COMMISSION-REPORT-POWERS",
-    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
-    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY"
+    "ae8f82d4-54bb-5131-bac7-94c08ed28560",
+    "4ada8322-c61c-567c-b615-d056bde1c2e9",
+    "6dea072c-97c4-5ee9-9958-a3da6a2a049c",
+    "66200ff6-4af8-5b8f-a2c8-08ddf2d0f072",
+    "e225d39c-9081-5d1f-80f5-ed121dbb9a30",
+    "12d8270e-a003-557f-8434-490095c74177"
   ],
   "disambiguation_ids": [
-    "DISAMB-COMMISSION-GOVERNANCE-CRITERIA",
-    "DISAMB-COMMISSION-REPORT-AND-EVENT",
-    "DISAMB-FOUNDED-BY-GOD",
-    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS"
+    "4bd8469b-0101-5628-b94d-daa4264972d5",
+    "0f180711-5550-55b5-9da8-699215d6d95e",
+    "87582d70-e56a-5e51-9377-84b6655b1b68",
+    "2c675c96-2539-5adc-a560-37609d0dc5fe"
   ]
 }

@@ -1,14 +1,16 @@
 {
-  "id": "CLEMENT-1COR-PILOT-CLEMENT-ENDURANCE",
-  "statement_id": "STMT-PILOT-REPORT-CLEMENT-ENDURANCE",
-  "source_id": "CLEMENT-1COR",
+  "id": "cdc85ef8-c13b-5465-80e0-2c28e9e38345",
+  "label": "Clement of Rome, First Corinthians 5.2-7: First Clement praises Peter and Paul as apostles who…",
+  "legacy_id": "CLEMENT-1COR-PILOT-CLEMENT-ENDURANCE",
+  "statement_id": "f67fea12-ecae-5635-87a6-f0ef37abd1c0",
+  "source_id": "829f35f0-2b5a-5f71-b5ea-d684b2e84e76",
   "locator": "5.2-7",
   "interpretation": "The passage does not independently establish the sincerity of all disciples, exact execution details or the opportunity to recant a particular resurrection assertion. Editorial apparatus in the witness is not part of the claim.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-RESURRECTION-PILOT-REPORT"
+    "2d8b04da-9f9c-5592-bb91-9c2ded12aa2e"
   ],
   "disambiguation_ids": [
-    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+    "2567d8a9-549e-5404-8658-3275b7029092"
   ]
 }

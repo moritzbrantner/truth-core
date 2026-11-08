@@ -1,11 +1,13 @@
 {
-  "id": "STMT-Q14-FOREIGN-FORM-CAPACITY-AT",
+  "id": "079fbf4c-49a3-518c-9577-064ff73591e4",
+  "label": "At the SAME chosen receiver, a form of another thing is available in some reception mode",
+  "legacy_id": "STMT-Q14-FOREIGN-FORM-CAPACITY-AT",
   "paraphrase": "At the SAME chosen receiver, a form of another thing is available in some reception mode. This is positive aptitude, not an acquisition event.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.FormReception.ForeignFormCapacity",
   "definition_ids": [
-    "DEF-Q14-FORM-CAPACITY"
+    "a909fd1c-bb6b-54d1-a8f1-1a798c5ed129"
   ],
   "disambiguation_ids": [
-    "DISAMB-Q14-RECEPTION-SENSES"
+    "e557eab8-2eed-5b24-ade9-a23b5b26f9b3"
   ]
 }

@@ -1,9 +1,11 @@
 {
-  "id": "REL-AQUINAS-ST-I-Q3-A5-AD2-SUPPORTS-GRADES-HAVE-A-MAXIMUM",
+  "id": "7755ccf5-3920-5d47-8b4a-23dd070301fa",
+  "label": "Thomas Aquinas, Summa theologiae I q.3… supports Wherever things are more and less in some…",
+  "legacy_id": "REL-AQUINAS-ST-I-Q3-A5-AD2-SUPPORTS-GRADES-HAVE-A-MAXIMUM",
   "subject_kind": "claim",
-  "subject_id": "AQUINAS-ST-I-Q3-A5-AD2-MEASURE-BY-APPROACH-A",
+  "subject_id": "0e8bf2b9-1d6c-5ae6-8619-03efb008ef90",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-GRADES-HAVE-A-MAXIMUM",
+  "object_id": "6c27657f-a2bf-5c1d-963c-c154b66bfa85",
   "note": "Aquinas' own account of grades of being by approach to God, without a common genus; it bears on the premise for the respect esse only and presupposes the first it is measured by, so it is evidence of the reading, not an argument for the premise."
 }

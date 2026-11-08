@@ -1,9 +1,11 @@
 {
-  "id": "INF-NECESSARY-UNION-NO-SINGLE-WORLD-CYCLE",
+  "id": "44c0721b-4d16-5d33-afb5-fcc86e97ad1e",
+  "label": "No world witnesses every edge of any nonempty union loop on the…, by Typed-graph-derivation",
+  "legacy_id": "INF-NECESSARY-UNION-NO-SINGLE-WORLD-CYCLE",
   "input_statement_ids": [
-    "STMT-NECESSARY-UNION-LOCAL-ACYCLICITY"
+    "3c19595b-f061-5ceb-942b-1c0ee1fcb910"
   ],
-  "output_statement_id": "STMT-NECESSARY-UNION-NO-SINGLE-WORLD-CYCLE",
+  "output_statement_id": "ee8f94ff-bef1-58f3-8d43-281d901709ee",
   "rule": "typed-graph-derivation",
   "meaning": "Under worldwise acyclicity restricted to the same necessary subtype, no nonempty union loop has all its edges witnessed in a single world. Map any proposed common-world path to the local relation and contradict its acyclicity. No claim about all causation or contingent individuals.",
   "assumption_statement_ids": [],

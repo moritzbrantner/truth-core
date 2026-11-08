@@ -1,9 +1,11 @@
 {
-  "id": "REL-Q3-A5-AD2-MEASURE-SUPPORTS-GOD-IS-THE-PRIMARY-OF-BEING",
+  "id": "ebf77aae-de02-5831-9b21-0144cd238d8c",
+  "label": "Thomas Aquinas, Summa theologiae I q.3… supports Whatever is GOD_4 is the primary p of the…",
+  "legacy_id": "REL-Q3-A5-AD2-MEASURE-SUPPORTS-GOD-IS-THE-PRIMARY-OF-BEING",
   "subject_kind": "claim",
-  "subject_id": "AQUINAS-ST-I-Q3-A5-AD2-MEASURE-BY-APPROACH-A",
+  "subject_id": "0e8bf2b9-1d6c-5ae6-8619-03efb008ef90",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-GOD-IS-THE-PRIMARY-OF-BEING",
+  "object_id": "710dafa5-b329-5909-89ac-3f888081dcef",
   "note": "The passage calls God the measure of all because each thing has as much of being as it approaches him, so God is a primary of the order by approach. The statement reads this as: whatever is God is the primary p of the encoded order; that the primary is unique and identical with every God is the analyst's (gap)."
 }

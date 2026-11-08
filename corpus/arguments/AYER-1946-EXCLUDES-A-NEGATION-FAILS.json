@@ -1,27 +1,29 @@
 {
-  "id": "AYER-1946-EXCLUDES-A-NEGATION-FAILS",
+  "id": "6b221edc-b86c-5eb9-9f4a-5a083f059b64",
+  "label": "For any frame and meaningfulness predicate closed…, from Strong version: for every sentence, if it…",
+  "legacy_id": "AYER-1946-EXCLUDES-A-NEGATION-FAILS",
   "premise_statement_ids": [
-    "STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-STRONG"
+    "afa7a288-a1d5-5958-a1d0-3f68d4d186ad"
   ],
-  "conclusion_statement_id": "STMT-AYER-1946-EXCLUDES-A-NEGATION-FAILS",
+  "conclusion_statement_id": "b533a399-dd04-5993-8218-fcbbed81c631",
   "inference_ids": [
-    "INF-AYER-1946-EXCLUDES-A-NEGATION-FAILS"
+    "3fccefe6-e722-58ba-b5fd-caf4200738b8"
   ],
   "meaning": "The strengthened 1946 corollary made to count, from the floor item STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-STRONG and Church's trivialization (CHURCH-1949-TRIVIALIZATION). If the negation of y were not meaningful, it would not be directly verifiable, so y would be indirectly verifiable, hence meaningful by the 1946 criterion, and by closure its negation would be meaningful. So under V3 no negated sentence, 'there is no god' included, fails to be meaningful. Refutes STMT-AYER-1946-EXCLUDES-A-NEGATION. It does not show that every sentence is meaningful: closure runs from a sentence to its negation only.",
   "definition_ids": [
-    "DEF-AYER-1946-VERIFIABILITY",
-    "DEF-LITERAL-MEANINGFULNESS-1946",
-    "DEF-CHURCH-SENTENCE",
-    "DEF-VERIFICATION-PRINCIPLE",
-    "DEF-TRUTH-CONDITIONAL-LANGUAGE",
-    "DEF-EMPIRICIST-FRAME",
-    "DEF-MEANING-NEGATION-CLOSURE"
+    "851dbf2e-5030-51ad-9b74-b960a87683f4",
+    "3b773947-a8cd-562d-91d9-952a9ce7cc58",
+    "97f9d81e-1b60-5ad8-8947-54bd4f09754f",
+    "d3d9f3a5-7791-552c-8271-5cb1aeccfb15",
+    "cb0b59e9-7a00-5d8c-ba11-802974a42992",
+    "c79be2d4-8641-5b1c-86bb-69a28cc4d184",
+    "63b0c6a5-8aa2-576e-a144-1557b7cffae9"
   ],
   "disambiguation_ids": [
-    "DISAMB-VERIFICATIONIST-MEANINGFUL",
-    "DISAMB-VERIFIABILITY-VARIANT"
+    "21cdb9e0-d4f0-5a57-8277-3345ec8c0fde",
+    "e1eb387a-1052-5f34-b7f1-ea076303e1cd"
   ],
   "strong_version_needed": {
-    "STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-STRONG": "The proof applies closure at y, an arbitrary sentence whose negation the rival says is not meaningful; the weak version applies closure only to a meaningful sentence that is itself a negation, which y need not be. No result shows the weak version insufficient; this is the reason the strong one is used."
+    "afa7a288-a1d5-5958-a1d0-3f68d4d186ad": "The proof applies closure at y, an arbitrary sentence whose negation the rival says is not meaningful; the weak version applies closure only to a meaningful sentence that is itself a negation, which y need not be. No result shows the weak version insufficient; this is the reason the strong one is used."
   }
 }

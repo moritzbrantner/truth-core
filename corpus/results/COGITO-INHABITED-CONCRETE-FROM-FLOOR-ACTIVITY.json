@@ -1,6 +1,8 @@
 {
-  "id": "COGITO-INHABITED-CONCRETE-FROM-FLOOR-ACTIVITY",
-  "argument_id": "COGITO-INHABITED-CONCRETE-FROM-FLOOR-ACTIVITY",
+  "id": "04066382-c683-5ea1-9de9-5680ead7e6f8",
+  "label": "Some candidate is CONCRETE_6 and exists at the selected world w₀: ∃ b…, from floor activity",
+  "legacy_id": "COGITO-INHABITED-CONCRETE-FROM-FLOOR-ACTIVITY",
+  "argument_id": "563414ac-6459-5ada-8a35-833a8f08bf14",
   "challenge_module": "TruthCore.Results.Causality.RootWiring.Challenge",
   "solution_module": "TruthCore.Results.Causality.RootWiring.Solution",
   "theorem": "TruthCore.Results.Causality.RootWiring.inhabitedFromFloorActivity",

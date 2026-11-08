@@ -1,6 +1,8 @@
 {
-  "id": "JOHN-COMMISSION-INDEPENDENT-FROM-STRANDS",
-  "argument_id": "JOHN-COMMISSION-INDEPENDENT-FROM-STRANDS",
+  "id": "3d56fa55-dc86-529c-9f18-d13a37ba7f33",
+  "label": "The commission saying of John 20.21-23 is literarily independent of that of Matthew…, from strands",
+  "legacy_id": "JOHN-COMMISSION-INDEPENDENT-FROM-STRANDS",
+  "argument_id": "97c207ee-8947-5c70-82e7-344db27a25e4",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.johnIndependentFromStrands",

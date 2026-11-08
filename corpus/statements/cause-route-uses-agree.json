@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CAUSE-ROUTE-USES-AGREE",
+  "id": "94cd5441-88fe-5550-9b5f-b57abe37dc3d",
+  "label": "Every use of 'cause' on the route stands for one and the same relation: the route does not…",
+  "legacy_id": "STMT-CAUSE-ROUTE-USES-AGREE",
   "paraphrase": "Every use of 'cause' on the route stands for one and the same relation: the route does not equivocate on 'cause'.",
   "lean_declaration": "TruthCore.Causality.TermSenseForks.CauseRouteUsesAgree",
   "definition_ids": [
-    "DEF-ROUTE-SENSE-SELECTION"
+    "52ac2160-9482-5e6a-9cfe-3e6f67482e5a"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSE"
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
   ]
 }

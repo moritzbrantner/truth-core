@@ -1,21 +1,23 @@
 {
-  "id": "EFFICIENT-CAUSE-NOT-DEPENDENT-FROM-ASYMMETRY",
+  "id": "1ffd6090-ea39-5a16-b89a-fd14e22814ab",
+  "label": "An efficient cause does not depend for its being on what it efficiently causes, from asymmetry",
+  "legacy_id": "EFFICIENT-CAUSE-NOT-DEPENDENT-FROM-ASYMMETRY",
   "premise_statement_ids": [
-    "STMT-EFFECT-DEPENDS-FOR-BEING-ON-EFFICIENT-CAUSE",
-    "STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF",
-    "STMT-DISTINCT-BEINGS-NOT-MUTUALLY-DEPENDENT"
+    "c0d99549-799c-5a01-9b59-75fe88550b26",
+    "8b2561cd-3743-536d-a110-3352fdb0c6b9",
+    "0f49d71e-09e6-5a9c-b7e7-e0e9b8fe769c"
   ],
-  "conclusion_statement_id": "STMT-EFFICIENT-CAUSE-NOT-DEPENDENT-ON-EFFECT",
+  "conclusion_statement_id": "47b151ca-f500-5a7c-80d4-33bb90247ee3",
   "inference_ids": [
-    "INF-EFFICIENT-CAUSE-NOT-DEPENDENT-FROM-ASYMMETRY"
+    "01fa1418-24b5-5bd3-b304-1bbc176758ec"
   ],
   "meaning": "Derives the batch 1 bridge that an efficient cause does not depend for its being on its effect. An efficient cause c of x is distinct from x (the secunda via's no-self-causation, stated by the q.2 a.3 claim); x depends for its being on c (q.44 a.1 ad 2 read as dependence); distinct things do not depend on each other mutually (OPEN). Argument-level cycle: NO-SELF-EFFICIENT-CAUSATION-FROM-DEPENDENCE derives no-self-causation from this conclusion; here no-self-causation is used as the stated source premise.",
   "definition_ids": [
-    "DEF-DEPENDS-FOR-BEING",
-    "DEF-EFFICIENT-CAUSING",
-    "DEF-Q44-CAUSED-NECESSITY-DEPENDENCE"
+    "bf26b9b2-41ed-55b0-9557-dae90ab9b81f",
+    "69c0b23e-54c7-57a1-871f-839c6e5514c6",
+    "f114f527-20e2-5997-8219-df7f0457cf63"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSE"
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
   ]
 }

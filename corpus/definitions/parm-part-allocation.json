@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PARM-PART-ALLOCATION",
+  "id": "f16f85ba-4060-520c-9b52-43c4154760f5",
+  "label": "PRESENCE_2: Allocated p x assigns the purported constituent p to bearer x in the spatial dilemma",
+  "legacy_id": "DEF-PARM-PART-ALLOCATION",
   "term": "presence",
   "definition": "Allocated p x assigns the purported constituent p to bearer x in the spatial dilemma. Its conjunction with ProperPart, rather than this relation alone, makes the part horn. No partition, additivity, size comparison or whole-presence follows.",
   "basis": "stipulative",

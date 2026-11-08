@@ -1,17 +1,19 @@
 {
-  "id": "PLATO-THEAET-171A-171C-PERITROPE-QUALIFIED-B",
-  "statement_id": "STMT-PERITROPE-RELATIVE-HORN-OUTCOME",
-  "source_id": "PLATO-THEAET",
+  "id": "34602caa-4205-5fe5-85a3-2eec50f92c8a",
+  "label": "Plato, Theaetetus 171a-c: Horn 2 of the peritropē: the measure thesis is true for Protagoras…",
+  "legacy_id": "PLATO-THEAET-171A-171C-PERITROPE-QUALIFIED-B",
+  "statement_id": "45618b22-7e88-50ed-a794-8037dfb09bca",
+  "source_id": "fcfc4cb0-ad17-5c8f-a8ff-ce41ddb2e1e1",
   "locator": "171a-c",
   "interpretation": "Qualified reading of the same argument: if every \"true\" keeps the \"for X\" of 170a, Protagoras concedes only that the deniers' opinion is true for them, hence that his thesis is false for them, not false simply. On this reading the passage yields that the thesis is true for him and not for its deniers; the conclusion of 171c, true \"for no one … nor himself\", does not follow without dropping a qualifier. Formalized as horn 2.",
   "status": "formalized",
-  "interpretation_of": "PLATO-THEAET-171A-171C-PERITROPE-UNQUALIFIED-A",
+  "interpretation_of": "ef793a1c-ab00-5ce5-a0b3-1bf6eeac5c9d",
   "definition_ids": [
-    "DEF-RELATIVE-TRUTH",
-    "DEF-PROTAGOREAN-MEASURE",
-    "DEF-REASON-TRANSFER"
+    "c137a1e2-6b0f-5413-b6c9-e13918c61b6b",
+    "4ac942cf-a067-5166-81dc-589d6fd8ca41",
+    "e3767c79-05d1-516c-9af4-d18d9d8313e2"
   ],
   "disambiguation_ids": [
-    "DISAMB-ASSERTED-TRUTH-SENSE"
+    "d62cd674-9ae4-564a-8016-13d11ba0c407"
   ]
 }

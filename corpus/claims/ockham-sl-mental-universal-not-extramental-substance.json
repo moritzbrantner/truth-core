@@ -1,15 +1,17 @@
 {
-  "id": "OCKHAM-SL-I15-MENTAL-NOT-SUBSTANCE",
-  "statement_id": "STMT-MENTAL-UNIVERSAL-NOT-EXTRAMENTAL-SUBSTANCE",
-  "source_id": "OCKHAM-SUMMA-LOGICAE",
+  "id": "7297d605-e562-55cb-b971-512e9cf0a1eb",
+  "label": "William of Ockham, Summa logicae I.15: A universal in the natural-sign sense is an intention of…",
+  "legacy_id": "OCKHAM-SL-I15-MENTAL-NOT-SUBSTANCE",
+  "statement_id": "8e16ab7e-92ea-5c05-ad09-1830f1ece4fb",
+  "source_id": "5b6a2b8d-3790-581e-b238-d1a60ad0a400",
   "locator": "I.15: opening arguments and final paragraphs beginning Et ideo simpliciter and Ex quibus aliisque",
   "interpretation": "Bounded prose reading of the materialized Latin; no Lean declaration or mechanically verified inference is advertised. Attributes the natural-sign thesis and retains the qualification on the act-of-understanding analysis. The text offers arguments; this prose record is not a Lean verification of those arguments or a denial of individual substances.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-UNIVERSAL-MENTAL-SIGN",
-    "DEF-COMMON-NATURE-CONSTITUENT"
+    "51266d70-d1a8-5bc8-94b0-2c948e761797",
+    "e5b532e1-8fa8-5abc-8d47-620301cf7d61"
   ],
   "disambiguation_ids": [
-    "DISAMB-UNIVERSAL-SIGN-AND-COMMON-NATURE"
+    "f4d3fe07-8285-54da-a878-dacf8f410a90"
   ]
 }

@@ -1,20 +1,22 @@
 {
-  "id": "POSSIBLE-CAUSE-BRUTE-SURVIVAL",
+  "id": "f555ee13-045c-5dc2-9eb6-02a3f9540114",
+  "label": "In the explicit two-world universally accessible mixed modal model, select world true as actual",
+  "legacy_id": "POSSIBLE-CAUSE-BRUTE-SURVIVAL",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-POSSIBLE-CAUSE-BRUTE-ROOT-SURVIVES",
+  "conclusion_statement_id": "d1a3243e-9d86-53e1-8656-883d8aa0c573",
   "inference_ids": [
-    "INF-POSSIBLE-CAUSE-BRUTE-SURVIVAL"
+    "588138d5-77a7-5644-ae7f-d730255ec8f9"
   ],
   "meaning": "Designate world true as actual. The necessary bearer exists there and the world has a possible external causal beginning at alternate world false, but its existent contingent individual some true is uncaused at world true itself. The countermodel refutes the attempt to eliminate all actual brute roots using only modal causal opportunity; it does not settle source adequacy or metaphysical possibility.",
   "definition_ids": [
-    "DEF-POSSIBLE-CAUSAL-OPPORTUNITY",
-    "DEF-CONTINGENCY-TOTALITY-EXTERNAL-CANDIDATE",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-NECESSARY-INDIVIDUAL-CONCRETE",
-    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
-    "DEF-MODAL-FIXTURE-FRAME"
+    "6343c7e8-8c65-5f32-8765-e52c0579fdbb",
+    "cc57aee5-58b7-531d-bcd6-60105efe5c79",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "ba85645e-b933-5a7f-a648-b527dea115fa",
+    "baddf770-36bf-542f-bb3c-2297342d5452",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2"
   ],
   "disambiguation_ids": [
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

@@ -1,6 +1,8 @@
 {
-  "id": "TRUTH-NONTRIVIALITY-CORE",
-  "argument_id": "TRUTH-NONTRIVIALITY-CORE",
+  "id": "fa3e85b3-531d-5504-b680-f3909dd50faf",
+  "label": "For every content type, predicate and negation operator: an expressive predicate does not…",
+  "legacy_id": "TRUTH-NONTRIVIALITY-CORE",
+  "argument_id": "4124c437-b63a-5aa8-bdb5-a8373e4c6893",
   "challenge_module": "TruthCore.Results.Logic.TruthNontriviality.Core.Challenge",
   "solution_module": "TruthCore.Results.Logic.TruthNontriviality.Core.Solution",
   "theorem": "TruthCore.Results.Logic.TruthNontriviality.Core.truthNontrivialityCore",

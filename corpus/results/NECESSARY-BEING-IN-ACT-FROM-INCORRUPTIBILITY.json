@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-BEING-IN-ACT-FROM-INCORRUPTIBILITY",
-  "argument_id": "NECESSARY-BEING-IN-ACT-FROM-INCORRUPTIBILITY",
+  "id": "26c9ca8b-5253-5555-bd09-87d7f23be274",
+  "label": "A NECESSARY_1 being, one that cannot not-be, is in act as to being, from incorruptibility",
+  "legacy_id": "NECESSARY-BEING-IN-ACT-FROM-INCORRUPTIBILITY",
+  "argument_id": "83be8aad-711e-5d5c-be79-e02a76b7e234",
   "challenge_module": "TruthCore.Results.Causality.NecessaryBeingInAct.Challenge",
   "solution_module": "TruthCore.Results.Causality.NecessaryBeingInAct.Solution",
   "theorem": "TruthCore.Results.Causality.NecessaryBeingInAct.necessaryBeingInAct",

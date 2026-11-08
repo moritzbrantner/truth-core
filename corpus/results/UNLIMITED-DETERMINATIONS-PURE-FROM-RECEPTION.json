@@ -1,6 +1,8 @@
 {
-  "id": "UNLIMITED-DETERMINATIONS-PURE-FROM-RECEPTION",
-  "argument_id": "UNLIMITED-DETERMINATIONS-PURE-FROM-RECEPTION",
+  "id": "140c818c-4624-5aae-a22d-6e7042235ccc",
+  "label": "Any being, root or not, that is not composite, whose represented esse equals its…, from reception",
+  "legacy_id": "UNLIMITED-DETERMINATIONS-PURE-FROM-RECEPTION",
+  "argument_id": "888b3cb6-6b58-5e02-a86b-e8a5ed865319",
   "challenge_module": "TruthCore.Results.Causality.ReceptionLimitation.Challenge",
   "solution_module": "TruthCore.Results.Causality.ReceptionLimitation.Solution",
   "theorem": "TruthCore.Results.Causality.ReceptionLimitation.unlimitedDeterminationsArePure",

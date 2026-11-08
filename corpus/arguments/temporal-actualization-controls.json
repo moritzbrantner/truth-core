@@ -1,25 +1,28 @@
 {
-  "id": "TEMPORAL-ACTUALIZATION-CONTROLS",
+  "id": "8471ce86-bfbc-561a-96a5-2a81bd8ddcc2",
+  "label": "Joint mathematical controls: A₀→B₁→A₂ has strictly forward acyclic event edges but reciprocal…",
+  "legacy_id": "TEMPORAL-ACTUALIZATION-CONTROLS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-TEMPORAL-ACTUALIZATION-CONTROLS",
+  "conclusion_statement_id": "72085345-7378-52b7-8224-6320e2f19565",
   "inference_ids": [
-    "INF-TEMPORAL-ACTUALIZATION-CONTROLS"
+    "4bcc7553-40e6-537f-9b38-443bd499e44b"
   ],
   "meaning": "Joint mathematical controls: A₀→B₁→A₂ has strictly forward acyclic event edges but reciprocal projected being edges. A separate simultaneous alternating-respect Bool circle has no backwards edge, violates strict-forward and event acyclicity, satisfies the explicit motion projection and all four time-sliced canonical local premises, and satisfies the reciprocal constraint; every node has a predecessor. A separately named sustaining relation on that circle admits both all-on and all-off local activity solutions. Another clock on the same circle witnesses a backward edge. The Nat successor-as-cause chain has strictly forward negative-integer exercise times and no finite event cycle, yet is not well-founded. Optional staging on the simultaneous circle has potency at -1, exercise at 0 and attained actuality at 3, so cause attainment need not precede effect exercise. Existing TEMPORAL-EVENT-CAUSAL-CONTROLS is imported unchanged for the Zeno/first-instant/event/empty-causation boundaries. These are satisfiability controls, not actual causal history, metaphysical possibility or explanatory sufficiency.",
   "definition_ids": [
-    "DEF-TEMPORAL-ACTUALIZATION-PROFILE",
-    "DEF-TEMPORAL-DIRECTION-PROFILES",
-    "DEF-TEMPORAL-EVENT-FINITE-CYCLE",
-    "DEF-TEMPORAL-MOTION-PROJECTION",
-    "DEF-MOTION-AS-PHYSICAL-CHANGE",
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-ACT",
-    "DEF-POTENCY",
-    "DEF-RESPECT"
+    "962f5a85-018c-5d4d-967c-1047db5fecf0",
+    "60f8aca0-80c5-55e9-a26d-bfff260a7060",
+    "4ffdfea6-0a5a-513c-a710-050648c260bf",
+    "cacb293c-7ae7-52db-967a-776b4ac5dc97",
+    "ab0d1d6b-b777-51cc-ae11-c033081830e8",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
-  "disambiguation_ids": ["DISAMB-POTENCY",
-    "DISAMB-EVENT-BEING-TEMPORAL-PRIORITY",
-    "DISAMB-MOTION",
-    "DISAMB-IN-ACT"
+  "disambiguation_ids": [
+    "508617ab-cf24-5f3b-a387-64b3991359ec",
+    "b4da30a9-86f7-57cc-a0c9-17b5dd216ccd",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
   ]
 }

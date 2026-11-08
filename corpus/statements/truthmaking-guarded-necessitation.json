@@ -1,12 +1,14 @@
 {
-  "id": "STMT-TRUTHMAKING-GUARDED-NECESSITATION",
+  "id": "d6976e18-68ab-5ceb-87e7-25089741d4e4",
+  "label": "If x makes proposition p true, then necessarily, if both x and p exist, p is true",
+  "legacy_id": "STMT-TRUTHMAKING-GUARDED-NECESSITATION",
   "paraphrase": "If x makes proposition p true, then necessarily, if both x and p exist, p is true.",
   "definition_ids": [
-    "DEF-TRUTHMAKING-GUARDED-SOURCE-ACCOUNT",
-    "DEF-TRUTHMAKER-SOURCE-DOCTRINE"
+    "e201b423-f0e4-5026-a88d-1c1a8e452638",
+    "ea6239a8-8662-5732-904b-d8121799b1fe"
   ],
   "disambiguation_ids": [
-    "DISAMB-TRUTHMAKING-REASON-CAUSE",
-    "DISAMB-TRUTHMAKER-SCOPE-IDENTITY"
+    "ec276045-4055-565e-89b4-75ee5897ecea",
+    "8bf8ec83-1cfe-5094-9c31-fa62a8ff1d78"
   ]
 }

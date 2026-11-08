@@ -1,13 +1,15 @@
 {
-  "id": "STMT-FINITE-POPULATION-COVER",
+  "id": "b9bf4eb8-ccac-5960-a8c7-c01bf24fbb33",
+  "label": "One finite list contains every individual present in every accessible world",
+  "legacy_id": "STMT-FINITE-POPULATION-COVER",
   "paraphrase": "One finite list contains every individual present in every accessible world. The ambient rigid roster may be infinite; this is stronger than a finite hitting set.",
   "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.FinitePopulationCover",
   "definition_ids": [
-    "DEF-FINITE-POPULATION-COVER",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-MODAL-FIXTURE-FRAME"
+    "5dcbf9ee-d1a6-5238-8941-9a116508f291",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2"
   ],
   "disambiguation_ids": [
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

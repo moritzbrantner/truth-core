@@ -1,19 +1,21 @@
 {
-  "id": "ATTEMPT-COMPANIONS-IN-GUILT-NEW-RESULTS",
+  "id": "4ee07dce-b31c-5e3c-82ca-715f828dc23b",
+  "label": "Analyst investigation, attribution deferred",
+  "legacy_id": "ATTEMPT-COMPANIONS-IN-GUILT-NEW-RESULTS",
   "date": "2026-11-05",
   "statement_ids": [
-    "STMT-POPULATION-COMPARABILITY-COMMON-BURDEN",
-    "STMT-FINITE-POPULATION-SCORING-TRADEOFFS",
-    "STMT-SCIENCE-INDUCTION-SELECTION",
-    "STMT-SIGNED-WAGER-PRACTICAL-NONTRUTH"
+    "0d4fb354-c2f4-5f90-98a0-c2909a9d522a",
+    "81e315a5-0cb8-5a60-9fe9-9e531c23a4a4",
+    "5465fccb-01d6-55b9-b0c2-cd4bf2758bcc",
+    "c85a26ca-6784-5dca-83d2-047d2fc1ac31"
   ],
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Analyst investigation, attribution deferred. Reused newest checked list-scoring summary and equal-count results. Generic opposing two-person welfare differences d>0,e>0 admit positive unit choices (2e,d) and (e,2d), producing opposite aggregate directions while preserving every personal strict ordering. Fixed-count total, average and every fixed critical level reverse together; common unit scaling and strict Pareto agreement preserve direction. Proposed invariance norm, admissible transformation class, interpersonal calibration, feasibility and normative adequacy remain open. Durable note docs/notes/companions-in-guilt-new-results.md records proof boundary, strongest rival/discriminators, conditional induction/worldview and practical-truth comparisons, and rejected inherited-belief/finite-to-infinite verbal analogies. No source/claims/passages or root-premise delta. No unmerged imports. Read-only PR1042 inspection at 44de5d0cf89211eadc3ef0a3d2517984d77913eb records existing reliable-testimony control rather than duplicate formalization. Lean Solution focused build, scoped binding (one bound, zero mismatches), Comparator frozen-type comparison and NanoDa solution verification passed with the approved three Mathlib axioms; delivered CI retains library/integration coverage. Preview rejected dependencies absent from its older checkout; no shared service restart. Initial canonical proof errors were simultaneous simplification expanding the summary before the reuse rewrite and ambiguous Controls from two open namespaces; corrected in Solution only, frozen Challenge retained.",
   "evidence": [
-    "POPULATION-COMPARABILITY-COMMON-BURDEN",
-    "FINITE-POPULATION-SCORING-TRADEOFFS",
-    "SCIENCE-INDUCTION-SELECTION",
-    "SIGNED-WAGER-PRACTICAL-NONTRUTH"
+    "1ddd35b9-a00a-51d0-8a3d-9e7e440c39a6",
+    "3ede3544-88cb-57ea-a20c-c381dc7b2453",
+    "6cf4fc73-3265-5712-a0aa-c30a8cb3c299",
+    "9e5f0f7c-0c4b-59f3-9d37-2d03b3417df8"
   ]
 }

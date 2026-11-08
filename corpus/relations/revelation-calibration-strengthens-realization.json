@@ -1,10 +1,12 @@
 {
-  "id": "REL-REVELATION-CALIBRATION-STRENGTHENS-REALIZATION",
+  "id": "9e8b2129-d03f-57f9-ba3f-b8988e0a59d5",
+  "label": "Stronger open analyst calibration: on… strengthens Each GOD_4 candidate with…",
+  "legacy_id": "REL-REVELATION-CALIBRATION-STRENGTHENS-REALIZATION",
   "subject_kind": "statement",
-  "subject_id": "STMT-RECOGNITION-CAPACITY-DEFINITION",
+  "subject_id": "c27a8733-1df9-53ec-8bb7-1ad316340eb5",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-RECOGNIZABLE-CAPACITY-REALIZED",
-  "verification_result_id": "REVELATION-CALIBRATION-ENTAILS-REALIZATION",
+  "object_id": "3f303e5a-a3b2-57f4-accb-207139bf9d52",
+  "verification_result_id": "d92c62db-4438-53b9-b285-77174f1b8f70",
   "note": "Project only the forward direction of the full biconditional calibration; every consequence argument uses the weaker realization. A six-control certificate witnesses strictness."
 }

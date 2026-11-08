@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-EXPLANATION-AND-TRUTHMAKING",
+  "id": "f5a95f23-1528-5212-a114-584e30ade38d",
+  "label": "Explanation / grounding",
+  "legacy_id": "DISAMB-EXPLANATION-AND-TRUTHMAKING",
   "term": "explanation / grounding",
   "sense_definition_ids": [
-    "DEF-ORDER-OF-EXPLANATION",
-    "DEF-EXPLANATION-TEST-TRUTHMAKING"
+    "8c00e4f8-0be5-5f27-8612-188a2ac9ff61",
+    "644558ea-0bcf-5790-89ea-f292c5b4f283"
   ],
   "resolution": "Dreier as SEP reports him concerns explanation of semantic entities from use or conversely, represented by typed Topic edges. The q.48 conditionals concern the truth of an evil-exists sentence from privation in a subject. The test keeps these relations distinct. No step infers that the semantic order supplies or denies a metaphysical truthmaker."
 }

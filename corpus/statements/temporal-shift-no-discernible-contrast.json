@@ -1,10 +1,12 @@
 {
-  "id": "STMT-TEMPORAL-SHIFT-NO-DISCERNIBLE-CONTRAST",
+  "id": "2bd8f0e3-a10f-5e19-915a-6b60a124b1fc",
+  "label": "Leibniz argues that, were time distinct from things existing in time, no reason could be given why…",
+  "legacy_id": "STMT-TEMPORAL-SHIFT-NO-DISCERNIBLE-CONTRAST",
   "paraphrase": "Leibniz argues that, were time distinct from things existing in time, no reason could be given why things are applied to particular instants rather than others with their succession unchanged; he concludes that instants without things are nothing and consist only in successive order, so that a supposed anticipation of creation would not differ from, nor be discernible from, the actual state.",
   "definition_ids": [
-    "DEF-PATH-RELOCATION-DATING"
+    "ed5ebda7-c7d0-5aff-a268-9579e87a852a"
   ],
   "disambiguation_ids": [
-    "DISAMB-PATH-RELOCATION"
+    "84feebd9-62b5-5bb1-93b7-c4ac491f1a8c"
   ]
 }

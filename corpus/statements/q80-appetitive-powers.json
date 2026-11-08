@@ -1,13 +1,15 @@
 {
-  "id": "STMT-SOUL-INTELLECTUAL-AND-SENSITIVE-APPETITES-DISTINCT",
+  "id": "e910b471-940d-5d5b-a27e-63d5aa09867a",
+  "label": "In the account of the soul's passive appetitive powers, intellectual and sensitive appetite are…",
+  "legacy_id": "STMT-SOUL-INTELLECTUAL-AND-SENSITIVE-APPETITES-DISTINCT",
   "paraphrase": "In the account of the soul's passive appetitive powers, intellectual and sensitive appetite are distinct because their apprehended movers differ in kind; intellectual appetite can concern singulars under a universal account and immaterial goods.",
   "definition_ids": [
-    "DEF-SOUL-PASSIVE-APPETITIVE-POWER",
-    "DEF-APPETITIVE-OBJECT-ASPECT",
-    "DEF-HAS-WILL"
+    "130e50af-ef3d-5aa7-8894-24302b731f87",
+    "13f88c69-3e85-507f-9e0d-b1f6ca32baed",
+    "7c64b499-6dba-5e03-bdf3-5acea95d8836"
   ],
   "disambiguation_ids": [
-    "DISAMB-CREATURE-PASSIVE-APPETITE-AND-DIVINE-WILL",
-    "DISAMB-APPETITE-POWER-AND-EXERCISE"
+    "1d765cae-eca9-558f-9542-8291df359058",
+    "941efd70-d56f-53f9-b5f9-8acd36711a54"
   ]
 }

@@ -1,16 +1,18 @@
 {
-  "id": "DEF-SCG-I42-ECONOMY-MOVERS-ORDER",
+  "id": "14ec3301-ad2c-58da-8095-c64bf229bb2a",
+  "label": "Economy, adequate mover, first motion…: Economy favors one adequate supposition without by itself…",
+  "legacy_id": "DEF-SCG-I42-ECONOMY-MOVERS-ORDER",
   "term": "economy, adequate mover, first motion and common world order in SCG I42[4–7]",
   "definition": "Economy favors one adequate supposition without by itself denying plural existents. The mover argument splits simultaneous and alternating moving under a selected first-motion premise. The order arguments link corporeal motion to spiritual ends and nonaccidental mutual world service to an intended ordering source.",
   "basis": "stipulative",
   "claim_ids": [
-    "AQUINAS-SCG-I42-ECONOMY-ONE-PRINCIPLE",
-    "AQUINAS-SCG-I42-JOINT-MOVERS-IMPERFECT",
-    "AQUINAS-SCG-I42-ALTERNATING-MOVERS-IRREGULAR",
-    "AQUINAS-SCG-I42-CONDITIONAL-ONE-FIRST-MOTION-MOVER",
-    "AQUINAS-SCG-I42-SPIRITUAL-FIRST-MOTION-END",
-    "AQUINAS-SCG-I42-ORDER-ACCIDENTAL-OR-ONE-SOURCE",
-    "AQUINAS-SCG-I42-CONDITIONAL-ONE-WORLD-GOVERNOR"
+    "6a49c72b-af3b-5da4-a6dc-a770f920e681",
+    "72ea7c02-dd18-51f7-affd-400ffa120b27",
+    "fab9d755-782d-5669-b353-7ac52ae91a2a",
+    "188560c1-59eb-50cb-bcd6-38242c774cd5",
+    "c8d20575-9b42-5865-a746-21c3e90f6059",
+    "ba1b6cd1-dfec-57b9-99df-ededfd794314",
+    "09548d12-377f-5350-857d-976e7342cfe3"
   ],
   "note": "No need to posit differs from numerical impossibility. Jointly partial, independently sufficient, redundant and alternative movers are not identical. First-motion/regularity, celestial/end coverage, accidental-or-one-source exhaustion and no-other-world scope remain open. No formal FirstMover/IsGod, total finite ancestry or whole-ground sufficiency dictionary is selected."
 }

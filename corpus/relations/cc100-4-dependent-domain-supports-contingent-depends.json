@@ -1,9 +1,11 @@
 {
-  "id": "REL-CC100-4-DEPENDENT-DOMAIN-SUPPORTS-CONTINGENT-DEPENDS",
+  "id": "19a92931-934d-576f-a462-63d87d391e3b",
+  "label": "Chad McIntosh, Over 100 Arguments for the…… supports Every CONCRETE_6 individual that exists and…",
+  "legacy_id": "REL-CC100-4-DEPENDENT-DOMAIN-SUPPORTS-CONTINGENT-DEPENDS",
   "subject_kind": "claim",
-  "subject_id": "CC100-4-DEPENDENT-DOMAIN",
+  "subject_id": "7cd6850f-219f-5106-ac6d-f2e3422e5176",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-ACTUAL-CONTINGENT-DEPENDS-ON-ACTUAL-CONCRETUM",
+  "object_id": "3ef67739-a427-582b-9eaa-af6410b9c3d3",
   "note": "The slide says dependent beings exist and each depends on itself or another. The premise needs that every actual contingent concretum is dependent and that what it depends on is an actual concretum; identifying modal contingency with dependence and the actual concreteness of the depended-on are the analyst's."
 }

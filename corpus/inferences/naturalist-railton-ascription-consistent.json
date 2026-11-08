@@ -1,15 +1,17 @@
 {
-  "id": "INF-NATURALIST-RAILTON-ASCRIPTION-CONSISTENT",
+  "id": "b9f9cc00-0f03-57f9-b537-5b686ee0905f",
+  "label": "Railton’s recorded fragment is satisfiable with an explicit true evaluative…, by Model-construction",
+  "legacy_id": "INF-NATURALIST-RAILTON-ASCRIPTION-CONSISTENT",
   "input_statement_ids": [
-    "STMT-RAILTON-WELFARE",
-    "STMT-RAILTON-IMPARTIAL-RIGHTNESS",
-    "STMT-MORAL-JUDGMENTS-ARE-TRUTH-APT",
-    "STMT-EVALUATIVE-ASCRIPTIONS-DESCRIBE-FACTS",
-    "STMT-RIGHT-WITHOUT-UNIVERSAL-REASONS",
-    "STMT-NATURALIST-ASCRIBED-ERROR",
-    "STMT-NATURALIST-TRUE-EVALUATIVE-ASCRIPTION"
+    "1ff346b2-9968-5cc8-8a98-c1ec70e7da50",
+    "c0810066-1cf2-5de3-b59c-6ca31e49e3a4",
+    "153a1380-89f3-56a5-bd02-6e0971e2c155",
+    "e0ebb8a8-e8ae-59c1-80e4-bcbb97a9c291",
+    "6452783d-e671-5e40-921d-53018c03caf2",
+    "8c092656-e89b-5da2-8084-5081c26e3583",
+    "e950ca40-f199-5faa-900a-f107807b3725"
   ],
-  "output_statement_id": "STMT-NATURALIST-RAILTON-ASCRIPTION-CONSISTENT",
+  "output_statement_id": "7bb41b84-070e-5a09-bbfb-c6ac136ec8ed",
   "rule": "model-construction",
   "meaning": "Railton’s recorded fragment is satisfiable with an explicit true evaluative ascription and an explicit false evaluative ascription accepted in cognitive error, together with a positive evaluative act without a universal instrumental-reason link. Each sentence is tied to an act by Ascribes, so empty Ascribes cannot satisfy this theorem. This is finite satisfiability, not actual objective grounding or truth of the complete historical system.",
   "assumption_statement_ids": [],

@@ -1,14 +1,16 @@
 {
-  "id": "GLOBAL-TEMPORAL-SHIFT-STRENGTHENS-LOCAL",
+  "id": "7dc6ae91-cbbe-5129-b920-e4fa0c7137e1",
+  "label": "Restricted OPEN shift for ONE supplied presence…, from The naive temporal quantifier shift as a…",
+  "legacy_id": "GLOBAL-TEMPORAL-SHIFT-STRENGTHENS-LOCAL",
   "premise_statement_ids": [
-    "STMT-EACH-SOMETIME-NOT-ENTAILS-SOMETIME-NOTHING"
+    "9f874f21-fed2-5f0e-804d-00a8ac5ee1c3"
   ],
-  "conclusion_statement_id": "STMT-LOCAL-TEMPORAL-QUANTIFIER-SHIFT",
+  "conclusion_statement_id": "42522254-9120-5ae4-bdeb-1545dc441839",
   "inference_ids": [
-    "INF-GLOBAL-TEMPORAL-SHIFT-STRENGTHENS-LOCAL"
+    "d5008e50-46a4-57f9-91a1-ac252b8f550e"
   ],
   "meaning": "Exact sole-premise restriction: the global temporal shift would imply a local shift for any fixed supplied profile. Global invalidity does not refute local instances.",
   "definition_ids": [
-    "DEF-COLLECTIVE-POSSIBILITY-LOCAL-PROOF-ROUTE"
+    "e571cfe0-5cd9-51ea-8ded-30f55da48855"
   ]
 }

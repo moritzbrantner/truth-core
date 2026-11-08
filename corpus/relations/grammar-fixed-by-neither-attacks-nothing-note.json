@@ -1,9 +1,11 @@
 {
-  "id": "REL-WF-INTERNAL-GRAMMAR-ATTACKS-GRAMMAR-FIXED-BY-NEITHER",
+  "id": "5dfea826-6426-5481-8641-dcdce1c2a18f",
+  "label": "WITTGENSTEINIAN_FIDEISM_2, commitment 1… attacks The third view, unattributed: a practice's…",
+  "legacy_id": "REL-WF-INTERNAL-GRAMMAR-ATTACKS-GRAMMAR-FIXED-BY-NEITHER",
   "subject_kind": "statement",
-  "subject_id": "STMT-WF-RELIGION-INTERNAL-GRAMMAR",
+  "subject_id": "305a8728-776f-556f-b4f4-d43e63dc9c2e",
   "predicate": "attacks",
   "object_kind": "statement",
-  "object_id": "STMT-GRAMMAR-FIXED-BY-NEITHER",
+  "object_id": "28778ada-ab07-50bf-b3b8-d7d1ae65b7a1",
   "note": "The fideist's own commitment that religion is governed by its own internal grammar sits badly with the third cell, in which the grammar is fixed by neither the practice's authorities nor its ordinary use. Not a refutation: 'internal' is not recorded as meaning 'fixed by authorities or by ordinary use', and that reading is the missing bridge; the cell is certified to survive (neitherCellSurvives)."
 }

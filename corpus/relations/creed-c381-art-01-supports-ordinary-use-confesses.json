@@ -1,9 +1,11 @@
 {
-  "id": "REL-CREED-C381-ART-01-SUPPORTS-ORDINARY-USE-CONFESSES",
+  "id": "a5df7b87-f7ff-5445-9ebc-ebdb4d9a1a9b",
+  "label": "First Council of Constantinople…: There is… supports Case-2 evidence, supported: some move of…",
+  "legacy_id": "REL-CREED-C381-ART-01-SUPPORTS-ORDINARY-USE-CONFESSES",
   "subject_kind": "claim",
-  "subject_id": "CREED-C381-ART-01",
+  "subject_id": "9cf825f7-58ed-5e2e-9bd5-cf678f86ff65",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-ORDINARY-USE-CONFESSES-ONE-TRUE-GOD",
+  "object_id": "0d795e49-20b7-58b2-ac42-6f63accda4fe",
   "note": "The creed's first article confesses 'one God, the Father almighty, maker of heaven and earth'. That is the profession ordinary believers recite. Gaps: the pinned text is the creed itself, not evidence that ordinary believers recite it or how they understand the recitation; that a recitation is a confession in the sense of DEF-CONFESSES-REFERENT is the reading."
 }

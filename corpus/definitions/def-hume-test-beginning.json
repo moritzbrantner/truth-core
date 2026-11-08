@@ -1,5 +1,7 @@
 {
-  "id": "DEF-HUME-TEST-BEGINNING",
+  "id": "ad67d779-bb13-531c-8bbc-4a4e2d13c5ab",
+  "label": "Beginning: A description of an object absent at one moment and existent at the next, the temporal…",
+  "legacy_id": "DEF-HUME-TEST-BEGINNING",
   "term": "beginning (description in the narrow Hume reading)",
   "definition": "A description of an object absent at one moment and existent at the next, the temporal contrast in I.3.3 §3. No formal time ontology is inferred: the Lean parameter uncausedBeginning names that description and remains an interpretation parameter.",
   "basis": "stipulative",

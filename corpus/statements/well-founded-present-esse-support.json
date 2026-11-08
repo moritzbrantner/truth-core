@@ -1,7 +1,14 @@
 {
-  "id": "STMT-WELL-FOUNDED-PRESENT-ESSE-SUPPORT",
+  "id": "47a97912-335f-52f7-a715-63592368f0fe",
+  "label": "The direct existential-support relation restricted to actual-world existing supporters is…",
+  "legacy_id": "STMT-WELL-FOUNDED-PRESENT-ESSE-SUPPORT",
   "lean_declaration": "TruthCore.Causality.NecessarilyUnderived.WellFoundedPresentEsseSupport",
   "paraphrase": "The direct existential-support relation restricted to actual-world existing supporters is well-founded, excluding support cycles and endless descending predecessors in that selected world.",
-  "definition_ids": ["DEF-WELL-FOUNDED-PRESENT-ESSE-SUPPORT", "DEF-PRESENT-ESSE-SUPPORT"],
-  "disambiguation_ids": ["DISAMB-EXISTENCE-ESSE-SUPPORT"]
+  "definition_ids": [
+    "6af245c0-b443-51b1-a98e-4e8f8fc7bf3e",
+    "b242943a-34cc-582d-8c38-c1203b9d2c91"
+  ],
+  "disambiguation_ids": [
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6"
+  ]
 }

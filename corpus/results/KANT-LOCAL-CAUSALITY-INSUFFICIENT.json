@@ -1,6 +1,8 @@
 {
-  "id": "KANT-LOCAL-CAUSALITY-INSUFFICIENT",
-  "argument_id": "KANT-LOCAL-CAUSALITY-INSUFFICIENT",
+  "id": "321d6ee6-cd7a-585b-9d0f-f21e564efd66",
+  "label": "There is a modal interpretation with an actual contingent individual and a distinct existing cause…",
+  "legacy_id": "KANT-LOCAL-CAUSALITY-INSUFFICIENT",
+  "argument_id": "4343a464-97b0-5517-8c5d-49d8ccdd99da",
   "challenge_module": "TruthCore.Results.Kant.CosmologicalInference.LocalCausalityInsufficient.Challenge",
   "solution_module": "TruthCore.Results.Kant.CosmologicalInference.LocalCausalityInsufficient.Solution",
   "theorem": "TruthCore.Results.Kant.CosmologicalInference.LocalCausalityInsufficient.localCausalityInsufficient",

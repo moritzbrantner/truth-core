@@ -1,7 +1,9 @@
 {
-  "id": "INF-SCOTT-NE-BOOLEAN-STABLE-BEARER",
+  "id": "d72b4dd1-cbbe-5c0f-b756-2a7a80c940b4",
+  "label": "In any frame of the Scott-style constant-domain embedding, if the generating atom…, by Direct-proof",
+  "legacy_id": "INF-SCOTT-NE-BOOLEAN-STABLE-BEARER",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-SCOTT-NE-BOOLEAN-STABLE-BEARER",
+  "output_statement_id": "cb712012-7602-5790-9769-0e0f4c769809",
   "rule": "direct-proof",
   "meaning": "Take any admitted property as a Boolean readout of the atom. A bearer with an invariant atom value has that property's truth preserved in every world, so it itself witnesses all required necessary exemplifications. Essence comparison clauses are not used, showing the remaining triviality.",
   "assumption_statement_ids": [],

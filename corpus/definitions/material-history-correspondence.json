@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MATERIAL-HISTORY-CORRESPONDENCE",
+  "id": "7a791ef4-6449-5258-b108-6a4a3d50fe61",
+  "label": "Existence and constituent preserving…: Correspondence compares the chosen enduring history with…",
+  "legacy_id": "DEF-MATERIAL-HISTORY-CORRESPONDENCE",
   "term": "existence and constituent preserving history correspondence",
   "definition": "Correspondence compares the chosen enduring history with history b: for every represented time and bearer label it preserves existence, and for every token it preserves constituent membership. Enduring false is the statue and true the lump; both have the Unit token initially, only the lump later. These are openly stipulated numerical persistence judgments. The map neither asserts ontological equivalence nor identifies enduring bearers with temporal parts.",
   "basis": "stipulative",

@@ -1,6 +1,8 @@
 {
-  "id": "CAUSAL-PERFECTION-TRANSFER-GOODNESS",
-  "argument_id": "CAUSAL-PERFECTION-TRANSFER-GOODNESS",
+  "id": "10c32331-1634-52fe-a5fb-af823fb114e9",
+  "label": "GOD_4 is supremely GOOD_4: GOOD_4 in…, from Whatever is GOD_4 is maximal in being and 4 more",
+  "legacy_id": "CAUSAL-PERFECTION-TRANSFER-GOODNESS",
+  "argument_id": "0011703b-aac5-533b-88ef-a6140dc343f9",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.goodness",

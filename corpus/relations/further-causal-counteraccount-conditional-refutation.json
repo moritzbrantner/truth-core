@@ -1,9 +1,11 @@
 {
-  "id": "REL-FURTHER-CAUSAL-COUNTERACCOUNT-CONDITIONAL-REFUTATION",
+  "id": "cb36a35e-2f54-5174-abae-c5d350eb956d",
+  "label": "Exact negation of the explicit named-case… refutes If any selected-world no-esse capacity or…",
+  "legacy_id": "REL-FURTHER-CAUSAL-COUNTERACCOUNT-CONDITIONAL-REFUTATION",
   "subject_kind": "argument",
-  "subject_id": "FURTHER-CAUSAL-COUNTERACCOUNT-DEFEATS-NAMED-COVERAGE",
+  "subject_id": "e91ac9e8-6ec9-5809-8428-7f145783c7d9",
   "predicate": "refutes",
   "object_kind": "statement",
-  "object_id": "STMT-NAMED-PRODUCTIVE-CAUSAL-COUNTERACCOUNTS-COVER",
+  "object_id": "d75fefb5-07e7-590b-bba9-693dabd9da9d",
   "note": "Exact checked conditional contradiction under the registered explicit premises, which remain OPEN. Neither the original approved commitment nor a coverage hypothesis is independently refuted by this registration."
 }

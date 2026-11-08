@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-188A-AFFECTIONS-A",
-  "statement_id": "STMT-AFFECTIONS-NOT-SEPARATELY-EXTRACTABLE",
-  "source_id": "ARIST-PHYS",
+  "id": "bf7b6d72-8cf5-5764-91d7-4c4da4e73b94",
+  "label": "Aristotle, Physics I.4, 188a5-13: Affections such as colours and states are inseparable from…",
+  "legacy_id": "ARIST-PHYS-188A-AFFECTIONS-A",
+  "statement_id": "f9c0520c-7180-5616-a64f-5f86d46de2ec",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.4, 188a5-13",
   "interpretation": "Qualitative objection: affections such as colours and states are inseparable from subjects, so complete segregation could not leave a free-standing white or healthy item with no bearer. Aristotle uses this to qualify Anaxagoras's separation by Mind.",
   "status": "formalized"

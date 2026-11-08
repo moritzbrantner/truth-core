@@ -1,6 +1,8 @@
 {
-  "id": "STRENGTH-UNIQUE-SEPARATOR",
-  "argument_id": "STRENGTH-UNIQUE-SEPARATOR",
+  "id": "0b8b8a8c-83df-55b3-a659-4c151e204591",
+  "label": "The Bool predicate True satisfies the empty background and existence, but unique existence fails…",
+  "legacy_id": "STRENGTH-UNIQUE-SEPARATOR",
+  "argument_id": "39af6ef6-ca8f-5b83-9fd2-60a89355dcc5",
   "challenge_module": "TruthCore.Results.Logic.StrengthUnique.Challenge",
   "solution_module": "TruthCore.Results.Logic.StrengthUnique.Solution",
   "theorem": "TruthCore.Results.Logic.StrengthUnique.separator",

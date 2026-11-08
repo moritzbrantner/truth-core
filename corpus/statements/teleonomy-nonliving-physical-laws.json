@@ -1,11 +1,13 @@
 {
-  "id": "STMT-TELEONOMY-NONLIVING-PHYSICAL-LAWS",
+  "id": "4f5017ba-3ff6-5502-bd79-1727283d9e9a",
+  "label": "Recurrence in nonliving natural processes is produced by physical interactions constrained by laws…",
+  "legacy_id": "STMT-TELEONOMY-NONLIVING-PHYSICAL-LAWS",
   "paraphrase": "Open naturalistic replacement account: recurrence in nonliving natural processes is produced by physical interactions constrained by laws and boundary conditions, rather than biological differential reproduction. No primary witness in the present comparison establishes this account in all such domains. The account does not explain why those laws exist.",
   "definition_ids": [
-    "DEF-TELEONOMY-PHYSICAL-LAW",
-    "DEF-TELEONOMY-MODEL-SCOPE"
+    "2b0cdb07-d28d-591c-a653-53937aa022f9",
+    "b5b918e7-b170-5d37-acad-10004f3570b7"
   ],
   "disambiguation_ids": [
-    "DISAMB-TELEONOMY-FINALITY-AND-AGENCY"
+    "066d546d-53f8-5319-8333-6b117a152002"
   ]
 }

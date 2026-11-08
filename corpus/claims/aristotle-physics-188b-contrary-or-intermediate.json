@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-188B-CONTRARY-OR-INTERMEDIATE-A",
-  "statement_id": "STMT-BECOMING-FROM-CONTRARY-OR-INTERMEDIATE",
-  "source_id": "ARIST-PHYS",
+  "id": "fddfe8e8-046c-51d8-96b7-56b25f091de2",
+  "label": "Aristotle, Physics I.5, 188b8-20: What naturally comes to be or passes away does so from or into a…",
+  "legacy_id": "ARIST-PHYS-188B-CONTRARY-OR-INTERMEDIATE-A",
+  "statement_id": "405a6eaf-102c-5b36-87e2-2f97fb42f7ad",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.5, 188b8-20",
   "interpretation": "The immediate alternatives for natural becoming and passing away are a contrary and an intermediate state. Intermediates are not silently identified with contraries in this claim.",
   "status": "formalized"

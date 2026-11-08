@@ -1,13 +1,15 @@
 {
-  "id": "STMT-ADAPTIVE-PREDICTION-TWO-EXPERT",
+  "id": "ecd0e833-53d5-5e43-a51c-8f5087481036",
+  "label": "For each pool of two total history-based binary experts, the original weighted-majority learner…",
+  "legacy_id": "STMT-ADAPTIVE-PREDICTION-TWO-EXPERT",
   "paraphrase": "For each pool of two total history-based binary experts, the original weighted-majority learner makes n mistakes at every horizon n on the diagonal of its exact history adapter, despite truthful feedback. At the shared horizon eleven, each expert has more than two mistakes: otherwise the imported FallibleCorrection certificate would bound learner mistakes by ten. This is the precise two-expert/budget-two comparison, not a theorem about arbitrary finite-pool error budgets or actual skepticism.",
   "lean_declaration": "TruthCore.Logic.AdaptivePrediction.TwoExpertComparison",
   "definition_ids": [
-    "DEF-ADAPTIVE-TRUTHFUL-PREDICTION",
-    "DEF-FALLIBLE-WEIGHTED-CORRECTION"
+    "b98dc739-5b36-5952-a0cf-597185db8d5a",
+    "0331d7b3-ad25-59d1-b4c2-94218ddda0ca"
   ],
   "disambiguation_ids": [
-    "DISAMB-ADAPTIVE-FAILURE-AND-WARRANT",
-    "DISAMB-FALLIBLE-CORRECTION-AND-WARRANT"
+    "4b2e6ada-7f7e-52b9-9c8b-59fd2fb7f48c",
+    "1e0e196b-d327-508d-bad1-31df3e27d587"
   ]
 }

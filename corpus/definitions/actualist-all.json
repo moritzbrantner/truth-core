@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ACTUALIST-ALL",
+  "id": "7678a957-2e66-57d2-9a7e-9bf37e575e98",
+  "label": "ACTUALIST_UNIVERSAL_QUANTIFICATION_1: For a fixed Ontic roster and total predicate\u2026",
+  "legacy_id": "DEF-ACTUALIST-ALL",
   "term": "actualist universal quantification",
   "definition": "For a fixed Ontic roster and total predicate P:World\u2192Being\u2192Prop, ActualistAll m P w means every candidate x satisfying ExistsAt w x satisfies P w x. Only the quantifier is existence-guarded; P remains defined on absent candidates.",
   "basis": "stipulative",

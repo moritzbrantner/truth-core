@@ -1,20 +1,22 @@
 {
-  "id": "ACCEPTED-FALSE-CANDIDATE-DEFEATS-FACTIVITY",
+  "id": "de596c5f-2ca9-5e92-81b6-a2304f30e091",
+  "label": "Exact negation of the accepted-candidate…, from Some candidate accepted by the supplied…",
+  "legacy_id": "ACCEPTED-FALSE-CANDIDATE-DEFEATS-FACTIVITY",
   "premise_statement_ids": [
-    "STMT-ARRANGEMENT-EXPLANATION-JUDGMENT-ACCEPTS-FALSE-CANDIDATE"
+    "4073de08-1031-558b-bfcf-911e9b63af26"
   ],
-  "conclusion_statement_id": "STMT-ACCEPTED-ARRANGEMENT-EXPLANATION-FACTIVITY-FAILS",
+  "conclusion_statement_id": "77146549-88ce-53d9-96bb-3105ae35daf7",
   "inference_ids": [
-    "INF-ACCEPTED-FALSE-CANDIDATE-DEFEATS-FACTIVITY"
+    "1b7c9566-182c-5c29-ad24-ae567e628857"
   ],
   "meaning": "An actual accepted false candidate contradicts the SAME accepted-candidate factivity policy. No source theory is refuted by assigning a mistaken generic judgment.",
   "definition_ids": [
-    "DEF-ACCEPTED-EXPLANATION-TRUTHFULNESS-POLICY",
-    "DEF-LABELED-CHAIN-ARRANGEMENT",
-    "DEF-ARRANGEMENT-ENTAILING-SELECTION",
-    "DEF-HISTORY-SELECTION-INFORMATION"
+    "2aeb69be-e127-518b-98b0-7862475f2c12",
+    "c9e3d998-544d-55a1-8932-b1c68f182ad0",
+    "f6c46849-e1f6-5810-951c-ede141bcbc54",
+    "c8c357e8-33d1-5468-858d-78f8493e353b"
   ],
   "disambiguation_ids": [
-    "DISAMB-LABELED-ORDER-EXPLANATION"
+    "373537a1-250e-5874-93f9-78ca7c20e1f7"
   ]
 }

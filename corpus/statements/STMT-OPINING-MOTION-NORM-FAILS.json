@@ -1,15 +1,17 @@
 {
-  "id": "STMT-OPINING-MOTION-NORM-FAILS",
+  "id": "128d9fde-57e0-5a1f-afad-5b2b4885ebae",
+  "label": "Exact negation of the old OpiningIsBeingMovedReading under the SAME MovedIn, Opines and asOpinion…",
+  "legacy_id": "STMT-OPINING-MOTION-NORM-FAILS",
   "paraphrase": "Exact negation of the old OpiningIsBeingMovedReading under the SAME MovedIn, Opines and asOpinion dictionary. No transfer from general change, A-series change or another respect is implicit.",
   "lean_declaration": "TruthCore.Alternatives.OpiningMotionRivalCoverage.NormFails",
   "definition_ids": [
-    "DEF-OPINING-MOTION-EXACT-COUNTERTUPLE",
-    "DEF-OPINING",
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-RESPECT"
+    "50cde34a-ea0b-5483-8494-86d51dbda4a2",
+    "9703834b-4e1d-5f4a-9e9a-2df5a215d493",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION",
-    "DISAMB-CHANGE-A-SERIES"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "784f3293-6601-5730-a89a-c0b84d8d8b57"
   ]
 }

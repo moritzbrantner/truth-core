@@ -1,14 +1,16 @@
 {
-  "id": "STMT-NATURAL-ENDS-WITHOUT-DIRECTING-INTELLIGENCE-TELEONOMY",
+  "id": "552054cf-6a9d-56f6-bd5f-7e7f377793c5",
+  "label": "Naturalistic teleonomy: the regular, beneficial end-directedness of natural things is produced by…",
+  "legacy_id": "STMT-NATURAL-ENDS-WITHOUT-DIRECTING-INTELLIGENCE-TELEONOMY",
   "paraphrase": "Naturalistic teleonomy (Darwinian): the regular, beneficial end-directedness of natural things is produced by non-intentional processes (variation and natural selection; physical law) and is directed by no knower. Regularity toward the best is explained neither by chance nor by intention.",
   "definition_ids": [
-    "DEF-TELEONOMY-SELECTION-FILTER",
-    "DEF-TELEONOMY-LOCAL-COUPLING",
-    "DEF-TELEONOMY-MODEL-SCOPE",
-    "DEF-INTENTIO-AS-TENDING",
-    "DEF-GOVERNMENT-DIRECTION-TO-END"
+    "4055cd38-c059-55cc-88d0-0c864f4a21aa",
+    "996de6a6-f12e-53ea-86bb-d3803f93f1ca",
+    "b5b918e7-b170-5d37-acad-10004f3570b7",
+    "2847d4f1-a13a-5d0f-8cc1-abf1c807f92f",
+    "c53b5fbe-121a-5d59-8e29-0f9f7eea85b1"
   ],
   "disambiguation_ids": [
-    "DISAMB-TELEONOMY-FINALITY-AND-AGENCY"
+    "066d546d-53f8-5319-8333-6b117a152002"
   ]
 }

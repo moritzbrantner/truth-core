@@ -1,10 +1,12 @@
 {
-  "id": "INF-ARIST-PHYS-INFINITE-PRINCIPLES-COMPOSITE-UNKNOWABLE",
+  "id": "e78cd6ec-03d9-5c55-878d-98b7737f5558",
+  "label": "A composite cannot be scientifically known when its constituent principles are…, by Modus tollens",
+  "legacy_id": "INF-ARIST-PHYS-INFINITE-PRINCIPLES-COMPOSITE-UNKNOWABLE",
   "input_statement_ids": [
-    "STMT-INFINITE-PRINCIPLES-UNKNOWABLE",
-    "STMT-COMPOSITE-KNOWLEDGE-REQUIRES-PRINCIPLE-KNOWLEDGE"
+    "a5c99f5b-c6e9-5a7c-b429-d5aae412e7c7",
+    "9cf25f07-653f-5f53-802f-1e99fcc51983"
   ],
-  "output_statement_id": "STMT-COMPOSITE-INFINITE-PRINCIPLES-NOT-KNOWABLE",
+  "output_statement_id": "d05ddbaf-8a06-5db6-bd51-35da3b9e164a",
   "rule": "modus_tollens",
   "meaning": "If knowing the composite requires knowing its principles, while the infinite principles are unknowable, the composite is not knowable in the required scientific sense.",
   "assumption_statement_ids": [],

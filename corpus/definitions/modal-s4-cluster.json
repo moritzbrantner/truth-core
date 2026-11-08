@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MODAL-S4-CLUSTER",
+  "id": "a97035e4-65f3-5c10-b2f3-8684762e0a01",
+  "label": "MUTUAL_ACCESSIBILITY_CLUSTER_1: SameCluster F w v is F.access w v ∧ F.access v w",
+  "legacy_id": "DEF-MODAL-S4-CLUSTER",
   "term": "mutual-accessibility cluster",
   "definition": "SameCluster F w v is F.access w v ∧ F.access v w. On S4 frames this is the standard mutual-accessibility equivalence relation. Without reflexivity the set of worlds mutually accessible from w can be empty. A terminal cluster in this experiment has no outgoing edge to a world outside the cluster; terminality alone does not imply modal collapse or singleton cardinality.",
   "basis": "stipulative",

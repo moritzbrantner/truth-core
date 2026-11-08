@@ -1,21 +1,23 @@
 {
-  "id": "KNOWABILITY-COMPATIBLE-COLLAPSE",
+  "id": "4d931861-f9d2-5bc0-ba38-1faf280665f7",
+  "label": "At every world, every true content in the…, from The chosen frame is Euclidean: any two… and 2 more",
+  "legacy_id": "KNOWABILITY-COMPATIBLE-COLLAPSE",
   "premise_statement_ids": [
-    "STMT-EUCLIDEAN-FRAME",
-    "STMT-KNOWABILITY-EPISTEMIC-INCLUDED",
-    "STMT-FITCH-GLOBAL-RESTRICTED-EQUIVALENCE"
+    "62b4a40a-919e-5da4-998c-131c386b7361",
+    "2ece7f86-d7fe-5327-894e-0d8cb4f864c7",
+    "1d6be158-69f3-5548-a297-2e668b0a453b"
   ],
-  "conclusion_statement_id": "STMT-KNOWABILITY-ADMITTED-KNOWN",
+  "conclusion_statement_id": "e8bfc4d1-d874-534f-b233-675a3de1ea7f",
   "inference_ids": [
-    "INF-KNOWABILITY-COMPATIBLE-COLLAPSE"
+    "c8ab468a-38e4-5408-90a7-10a3bf59c8fc"
   ],
   "meaning": "Given a true admitted content at w, forward knowability supplies an R-successor v knowing it. Every E-successor u of w is an R-successor by inclusion; Euclideanness gives R(u,v). Reverse knowability at u then gives truth at u, hence relational knowledge at w. No factivity, reflexivity, epistemic transitivity, Moore closure, classical stability or actuality-index transport is used. This is a conditional consequence under the explicit stronger biconditional, not a proof of its applicability or unrestricted omniscience.",
   "definition_ids": [
-    "DEF-FITCH-WORLD-INDEXED-KNOWLEDGE",
-    "DEF-FITCH-ADMISSIBLE-CONTENTS",
-    "DEF-KNOWABILITY-MODAL-COMPATIBILITY"
+    "4c0b6f4b-25fe-54c5-abce-5e866775385c",
+    "8cdd567b-c06b-5c6f-8a3a-f785e6c83fde",
+    "ceabb741-5d93-5f04-ba05-418605b8bd0e"
   ],
   "disambiguation_ids": [
-    "DISAMB-FITCH-OPERATOR-SCOPE"
+    "840d320e-ed3b-553b-b0dd-750c61c298ba"
   ]
 }

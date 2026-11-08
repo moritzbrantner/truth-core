@@ -1,10 +1,12 @@
 {
-  "id": "INF-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE-FROM-INTELLECTIVE-EPISODE",
+  "id": "40b64f5d-5383-5b3b-bbfc-6f9548ef1543",
+  "label": "Analyst bridge: every bearer of an occurring thought episode is…, by Universal instantiation…",
+  "legacy_id": "INF-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE-FROM-INTELLECTIVE-EPISODE",
   "input_statement_ids": [
-    "STMT-OCCURRING-THOUGHT-IS-INTELLECTIVE",
-    "STMT-BEARING-INTELLECTIVE-EPISODE-IS-EXERCISE"
+    "4bc1befb-0788-5c26-9aef-2e57b15950ef",
+    "84c57a8c-d9a2-5672-8b7f-200117f13497"
   ],
-  "output_statement_id": "STMT-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE",
+  "output_statement_id": "8cf54bde-0c97-5428-9179-0d567293675d",
   "rule": "Universal instantiation, modus ponens",
   "meaning": "Every bearer of an occurring thought is attributed it as an intellectual exercise, from two OPEN premises: every occurring thought is intellective, and bearing an intellective episode is exercising intellect in it. The first fails on Descartes's broad cogitatio, which includes sensing.",
   "assumption_statement_ids": [],

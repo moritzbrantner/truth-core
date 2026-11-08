@@ -1,6 +1,8 @@
 {
-  "id": "ACCESSIBILITY-COMPONENTS",
-  "argument_id": "ACCESSIBILITY-COMPONENTS",
+  "id": "36c29911-90b2-5f2a-927c-28503869ae5f",
+  "label": "For every frame with explicitly reflexive, symmetric and transitive accessibility, two WORLDS_9…",
+  "legacy_id": "ACCESSIBILITY-COMPONENTS",
+  "argument_id": "2c8a25de-98c3-5a80-86a4-2128c1e27403",
   "challenge_module": "TruthCore.Results.Modal.AccessibilityComponents.Challenge",
   "solution_module": "TruthCore.Results.Modal.AccessibilityComponents.Solution",
   "theorem": "TruthCore.Results.Modal.AccessibilityComponents.certificate",

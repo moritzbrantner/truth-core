@@ -1,6 +1,8 @@
 {
-  "id": "ARISTOTLE-SYNONYMY-SCOPE-CONTROL",
-  "argument_id": "ARISTOTLE-SYNONYMY-SCOPE-CONTROL",
+  "id": "91a68d8f-cbed-5988-9052-48e7fad1a92c",
+  "label": "There is a three-entity, two-account interpretation in which the restricted causal comparison…",
+  "legacy_id": "ARISTOTLE-SYNONYMY-SCOPE-CONTROL",
+  "argument_id": "52ed75e6-8db7-50f9-89d9-39cfa271e204",
   "challenge_module": "TruthCore.Results.Aristotle.SynonymyScope.Challenge",
   "solution_module": "TruthCore.Results.Aristotle.SynonymyScope.Solution",
   "theorem": "TruthCore.Results.Aristotle.SynonymyScope.synonymyScopeControl",

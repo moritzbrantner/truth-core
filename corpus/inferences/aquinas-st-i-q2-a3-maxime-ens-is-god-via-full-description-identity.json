@@ -1,15 +1,17 @@
 {
-  "id": "INF-AQUINAS-ST-I-Q2-A3-MAXIME-ENS-IS-GOD-VIA-FULL-DESCRIPTION-IDENTITY",
+  "id": "b5248d9e-34da-5019-aabc-a76ec5ed87f5",
+  "label": "Whatever is maximal in being is GOD_2, in the sense in which ST I q.105 a.5…, by Direct-proof",
+  "legacy_id": "INF-AQUINAS-ST-I-Q2-A3-MAXIME-ENS-IS-GOD-VIA-FULL-DESCRIPTION-IDENTITY",
   "input_statement_ids": [
-    "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
-    "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH",
-    "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING",
-    "STMT-CAUSE-OF-BEING-CAUSES-EVERY-PERFECTION",
-    "STMT-NO-COMPONENT-IS-FIRST-BEING",
-    "STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING",
-    "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE"
+    "d9fad785-40ab-555a-a1c1-5e39c9d50497",
+    "d5a94eb1-72d2-53e0-9a52-9787b5b61a8d",
+    "7067553d-cad9-5d79-b6b2-912e35051530",
+    "f8ba2429-b4f1-5712-a4d3-798213963d34",
+    "09c6d5f0-d412-5038-85f9-75fffb935727",
+    "eaa4c679-98a3-5e82-95ff-18bd1177ce74",
+    "1ec205ed-b2a6-5384-bb5f-2565a9d325bf"
   ],
-  "output_statement_id": "STMT-MAXIME-ENS-IS-GOD",
+  "output_statement_id": "957a71fe-ba7e-5633-bef2-f5d287362fc5",
   "rule": "direct-proof",
   "meaning": "Separate sufficient interface under explicit DecidableEq Being; neither instance is independently established. Retain all original nonlogical premises and the same conclusion. Naming is one-way and does not supply a maximum; identity relates supplied witnesses and supplies neither witness. No necessity, minimality, strict-strength or philosophical premise discharge is claimed.",
   "assumption_statement_ids": [],

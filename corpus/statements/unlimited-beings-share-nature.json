@@ -1,18 +1,20 @@
 {
-  "id": "STMT-UNLIMITED-BEINGS-SHARE-NATURE",
+  "id": "fb3315ca-9f34-528f-87f4-e591d8cdb28f",
+  "label": "Any two beings that are not composite, have esse not other than essence, and have no other being…",
+  "legacy_id": "STMT-UNLIMITED-BEINGS-SHARE-NATURE",
   "paraphrase": "OPEN, unattributed bridge: any two beings that are not composite, have esse not other than essence, and have no other being prior to them have one represented nature. It ranges over all beings, says nothing of numerical identity, and is vacuous at every pair with a limited member.",
   "lean_declaration": "TruthCore.Causality.RootMultiplication.UnlimitedBeingsShareNature",
   "definition_ids": [
-    "DEF-HAS-LIMITING-PRINCIPLE",
-    "DEF-UNLIMITED-BEINGS-SHARE-NATURE",
-    "DEF-ESSE",
-    "DEF-SIMPLE",
-    "DEF-SIMPLE-PRIORITY",
-    "DEF-FIRST-BEING",
-    "DEF-ESSENCE-THOMISTIC-NATURE"
+    "a919ce52-6c8b-5e0f-9aaa-5b570bded78b",
+    "8f67132e-5c8d-5132-a04b-6d194240cb4a",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "85f7f569-ab4d-514b-aa2c-cf75171ad105",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8",
+    "25e19d5a-5cdf-5916-a888-f6a0ce970f11",
+    "183b48d2-1753-583d-aef9-4199cff86231"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSENCE",
-    "DISAMB-NATURE-DIFFERENCE-LIMITATION"
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "06fb4f51-ff5f-5c5e-b947-844f20de4174"
   ]
 }

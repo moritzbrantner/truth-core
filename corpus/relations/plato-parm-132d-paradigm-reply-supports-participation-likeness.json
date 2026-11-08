@@ -1,9 +1,11 @@
 {
-  "id": "REL-PLATO-PARM-132D-PARADIGM-REPLY-SUPPORTS-PARTICIPATION-LIKENESS",
+  "id": "d2530bd1-25ab-5f47-b111-064ce57f5c1f",
+  "label": "Plato, Parmenides 132d: Socrates proposes… supports Every participation relation entails…",
+  "legacy_id": "REL-PLATO-PARM-132D-PARADIGM-REPLY-SUPPORTS-PARTICIPATION-LIKENESS",
   "subject_kind": "claim",
-  "subject_id": "PLATO-PARM-132D-PARADIGM-REPLY",
+  "subject_id": "e8264d3b-9f80-5e73-8a3a-ffcf2c201a47",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-THIRD-MAN-PARTICIPATION-LIKENESS",
+  "object_id": "75231314-30c2-5c63-8c40-fa6517e0338a",
   "note": "Source motivation only. The independent statement deliberately exposes the universal scope/quantifiers needed by the research reconstruction; this edge is not an inference, a truth endorsement, or premise closure."
 }

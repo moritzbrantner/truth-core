@@ -1,5 +1,7 @@
 {
-  "id": "DEF-NB-COUNT-DESCENT",
+  "id": "d0730fc2-cd03-5526-b082-0e5fc87e2966",
+  "label": "A7 at-least-n to at-least…: CountDescent C is the universal conditional ∀ n: Nat, 1 < n → C n → C.…",
+  "legacy_id": "DEF-NB-COUNT-DESCENT",
   "term": "A7 at-least-n to at-least-(n−1) possible-causation transfer",
   "definition": "`CountDescent C` is the universal conditional `∀ n : Nat, 1 < n → C n → C (n - 1)`. This is about possible causation of separate situations, not about arithmetic inclusion of the sets of individuals those situations describe.",
   "basis": "stipulative",

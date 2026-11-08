@@ -1,26 +1,28 @@
 {
-  "id": "CONDENSATION-SUFFICIENCY-CERTIFICATE",
+  "id": "1126b91d-80b3-5456-a540-beeeb9418278",
+  "label": "Under the #733/#734 joint-group profile: for every graph, Mathlib strongly connected component…",
+  "legacy_id": "CONDENSATION-SUFFICIENCY-CERTIFICATE",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-CONDENSATION-SUFFICIENCY-CERTIFICATE",
+  "conclusion_statement_id": "17a40aab-459b-5c12-a8c5-6ebe106f3f79",
   "inference_ids": [
-    "INF-CONDENSATION-SUFFICIENCY-CERTIFICATE"
+    "2b687b6d-e7c3-50ad-a336-b136350082a5"
   ],
   "meaning": "Prove condensation invariants through Mathlib quiver components. Induct on Supply for the forward map. Take a minimal component meeting a nonempty active set to reduce Escape to component escape, and compose the #734 Supply/Escape equivalence. Then test every hypothesis on fixed record structures, reusing the #634 records, the #711 circle, the #734 source-free chain and the #735 plural fixture. Root premise delta zero; no actual explanatory bridge is established. Under the #733/#734 joint-group profile: for every graph, Mathlib strongly connected component condensation is acyclic and preserves and reflects finite reachability, weak connection and leastness, and sources pass to it; a finite carrier gives it well-foundedness. Supply passes from a record structure to its condensation. Over a well-founded condensation Escape coincides with escape inside components, and under LocalPower and PoweredGroups that decides Supply of every active event. Three record structures on one three-event membership graph with one source and a two-event cycle have the same condensation into a two-component chain: t needing s and u has no Supply of t or u, separate records for t give Supply of every event, and u as enabler gives Supply of every event. On that carrier no function of the projected graph and intrinsic set decides Supply. Controls: Trap has no scenario parameter while u is indispensable over two scenarios and redundant over one; the #634 graph carries records with component escape but not Escape and other records with Supply of every event, its condensation not being well-founded; a source-free chain has component escape without Supply; a loop chain has condensed Supply, component escape, LocalPower and PoweredGroups without Supply; a two-event cycle is a condensation source without a graph source, has LocalPower and record-reason FactPSR without Supply when no member is intrinsic, and has Supply when one is; the #735 plural fixture has Supply with two source components and no least one. Supply remains a proposed standard: actual exercise, productive adequacy, necessity and physical-to-existential bridges remain OPEN and circular or coherentist rivals who reject Supply are not refuted.",
   "definition_ids": [
-    "DEF-SCC-CONDENSATION",
-    "DEF-COMPONENT-ESCAPE",
-    "DEF-DERIVATIVE-JOINT-SUPPLY",
-    "DEF-JOINT-CAUSAL-GROUPS",
-    "DEF-JOINT-SCENARIO-SUFFICIENCY",
-    "DEF-REGRESS-SCHEMA-GRAPH",
-    "DEF-CONFLUENT-SOURCE-REGRESS-OVERLAP",
-    "DEF-PSR-STRENGTH-ARENA",
-    "DEF-PSR-STRENGTH-SCOPE"
+    "434cc1f8-3d14-51dc-89ea-ca12ed46f6da",
+    "ac62d388-9980-5ae0-9584-3ecff39a822b",
+    "c9d479bb-308a-5a2b-9755-ddc0170d4e35",
+    "ff8bf1d7-0bf9-5dda-8038-7127e3d46ec8",
+    "800637b5-8f4b-54ea-865d-c4fd444d1632",
+    "1dff2d68-1348-5e7e-8ee7-248af63c8c53",
+    "a239a04a-ce2a-5b51-8a6e-2afe54a68691",
+    "fe4b7da0-cbd6-5d1f-b589-953f9def12b7",
+    "566c9d5f-0cd9-5c6b-87f2-855956d9d35f"
   ],
   "disambiguation_ids": [
-    "DISAMB-CONDENSATION-SUPPLY",
-    "DISAMB-JOINT-SUPPLY-POWER-OCCURRENCE",
-    "DISAMB-JOINT-CAUSAL-MEMBERSHIP-EXERCISE",
-    "DISAMB-CAUSAL-POWER-GROUNDING"
+    "a2112d1d-1bfe-536d-a6a0-0b9b74c858a3",
+    "79644a0a-db5b-5497-bb47-9f96d14cdae7",
+    "a375e21b-420a-5ee5-9e64-c816eacd74d4",
+    "4b02d34a-9226-5009-9ac2-3b52f4222b21"
   ]
 }

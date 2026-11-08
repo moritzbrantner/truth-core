@@ -1,5 +1,7 @@
 {
-  "id": "DEF-JOINT-MEMBERWISE-NECESSITY",
+  "id": "3fe64c7a-e6c8-5f59-8468-b59a3f835a3b",
+  "label": "Joint necessity versus necessity of…: JointNecessary A S w is joint truth at every accessible world",
+  "legacy_id": "DEF-JOINT-MEMBERWISE-NECESSITY",
   "term": "joint necessity versus necessity of each fixed member",
   "definition": "JointNecessary A S w is joint truth at every accessible world. MembersNecessary A S w means each selected member holds at every accessible world. NecessityEquivalence universally states their equivalence; it is proved by exchanging the universal quantifiers. Neither alone asserts actual truth on a nonreflexive frame.",
   "basis": "stipulative",

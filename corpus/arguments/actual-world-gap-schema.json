@@ -1,23 +1,25 @@
 {
-  "id": "ACTUAL-WORLD-GAP-SCHEMA",
+  "id": "b8972b19-89d2-54a4-babc-5eafed338e11",
+  "label": "For arbitrary histories and reason arenas",
+  "legacy_id": "ACTUAL-WORLD-GAP-SCHEMA",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-ACTUAL-WORLD-GAP-SCHEMA",
+  "conclusion_statement_id": "6fd3c295-7874-5613-84dd-c697f5a169bb",
   "inference_ids": [
-    "INF-ACTUAL-WORLD-GAP-SCHEMA"
+    "c5679eef-6a32-55ab-8175-234e179de252"
   ],
   "meaning": "For arbitrary histories and reason arenas. Tagged copying preserves exercise coherence, joint sufficiency, Supply and local power. If two worlds each have sound edges, an edge at every existent and existents present at exactly all supplied times, they have the same edge table iff they agree on presence and edge table. If a and all worlds accessible from it meet that condition, the named table as a reason-vector yields an evidence-only selector at a, and any fact coextensive with same-table on the accessible worlds is coextensive with a's total fact there. Given a rival b of a (accessible, different presence history): each world's own total fact holds at it, and a's total fact is contingent at a; and, if reasons for that fact are true at a, it has no reason, or some reason for it is true at b where it fails, or some reason for it fails at b and is contingent. That is coverage, not exclusivity. No fact true at a and at all accessible worlds entails a's total fact on them. Contrastive closure at a and well-founded reasons at a are jointly inconsistent with a rival. These are conditional consequences: the demand is a parameter and no premise is established.",
   "definition_ids": [
-    "DEF-ACTUAL-WORLD-GAP-TOTAL",
-    "DEF-ACTUAL-WORLD-GAP-LOCAL-RECORD",
-    "DEF-ACTUAL-WORLD-GAP-CONTRASTIVE-CLOSURE",
-    "DEF-PSR-REASON",
-    "DEF-HISTORY-SELECTION-INFORMATION",
-    "DEF-JOINT-CAUSAL-GROUPS",
-    "DEF-DERIVATIVE-JOINT-SUPPLY"
+    "ed76fd1e-c0cb-5f15-bc56-984e7b7112e8",
+    "aede72da-3002-5532-b1d9-49ba7293ffed",
+    "bcca2db5-64bf-5a5d-9df4-6cee81555e8d",
+    "d513fb8a-64ee-5d49-ae56-4d695f93ca71",
+    "c8c357e8-33d1-5468-858d-78f8493e353b",
+    "ff8bf1d7-0bf9-5dda-8038-7127e3d46ec8",
+    "c9d479bb-308a-5a2b-9755-ddc0170d4e35"
   ],
   "disambiguation_ids": [
-    "DISAMB-ACTUAL-WORLD-GAP-QUESTION",
-    "DISAMB-HISTORY-SELECTION-ADEQUACY",
-    "DISAMB-ULTIMATE-ADEQUACY-FOUNDATION"
+    "cde1330c-76b6-51a7-9106-c0bcdef0c000",
+    "3ebb0e1e-f9a0-5d2b-ac48-62314e7fbde1",
+    "7b8dc0d6-8239-5275-9f8f-0096bf4a3011"
   ]
 }

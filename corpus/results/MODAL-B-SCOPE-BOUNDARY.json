@@ -1,6 +1,8 @@
 {
-  "id": "MODAL-B-SCOPE-BOUNDARY",
-  "argument_id": "MODAL-B-SCOPE-BOUNDARY",
+  "id": "0c3e85d3-c3ae-52e5-b5bc-25e0997e392b",
+  "label": "The shared duplicate-label B frame has modal-language MC at every label but fails full MC and…",
+  "legacy_id": "MODAL-B-SCOPE-BOUNDARY",
+  "argument_id": "4b79afdd-1f9f-5c98-8825-4fd6349f5e96",
   "challenge_module": "TruthCore.Results.Modal.B.ScopeBoundary.Challenge",
   "solution_module": "TruthCore.Results.Modal.B.ScopeBoundary.Solution",
   "theorem": "TruthCore.Results.Modal.B.ScopeBoundary.checks",

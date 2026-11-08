@@ -1,29 +1,31 @@
 {
-  "id": "GREATEST-DEGREE-CAUSES-FROM-MAXIMAL-PRINCIPLE",
+  "id": "99175796-43fd-5671-ab1e-5df3840f8474",
+  "label": "For an arbitrary selected perfection and supplied preorder of represented…, from MAXIMAL_5 principle",
+  "legacy_id": "GREATEST-DEGREE-CAUSES-FROM-MAXIMAL-PRINCIPLE",
   "premise_statement_ids": [
-    "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
-    "STMT-MORE-SUCH-HAS-THE-PERFECTION",
-    "STMT-MORE-IN-MATCHES-STRICT-REPRESENTED-DEGREE"
+    "d9fad785-40ab-555a-a1c1-5e39c9d50497",
+    "c11369aa-7c3d-5dea-8421-535d5b4b3104",
+    "70508140-d427-5a99-9be0-ae12ac905302"
   ],
-  "conclusion_statement_id": "STMT-GREATEST-DEGREE-IN-GENUS-CAUSES-ALL-IN-GENUS",
+  "conclusion_statement_id": "6f4824c9-b80e-5ea7-9d45-dbfb8d53d379",
   "inference_ids": [
-    "INF-GREATEST-DEGREE-CAUSES-FROM-MAXIMAL-PRINCIPLE"
+    "cd470242-b411-5d15-9638-6595de80e31d"
   ],
   "meaning": "In a calibration frame, a greatest-degree bearer is maximal: anything more such than it would have the perfection and, by calibration among bearers, a strictly higher degree than the greatest, which is impossible. The stronger analyst maximal-in-genus principle (OPEN) then makes it the cause of all others. Shows that the stronger analyst configuration entails the greatest-degree source reading under calibration and more-such-has; not a derivation of the source reading from weaker premises.",
   "definition_ids": [
-    "DEF-ACT",
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-GENUS-BROAD",
-    "DEF-GREATEST-DEGREE-IN-A-PERFECTION",
-    "DEF-MAXIMUM-CALIBRATION-PROFILE",
-    "DEF-MAXIMUM-IN-A-PERFECTION",
-    "DEF-MORE-IN"
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "486bb45e-c4a2-5ba5-8b12-498a24eb1678",
+    "9146daed-3e78-5804-8291-70c4e2c9d6c1",
+    "18c78a19-096c-5987-8517-a67edaede564",
+    "ad844320-77ce-5786-96d7-4b02f874269d",
+    "5766de66-8a37-5b04-aa65-9eec53319f50"
   ],
   "disambiguation_ids": [
-    "DISAMB-BEING-UNIVOCITY",
-    "DISAMB-CAUSE",
-    "DISAMB-GENUS",
-    "DISAMB-MAXIME-ENS",
-    "DISAMB-ORDER-OF-BEING"
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "4822a4f5-a93b-52dc-855a-00b7d57928d5",
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282",
+    "1795a62e-f78b-5f5b-94e7-9e7490824811"
   ]
 }

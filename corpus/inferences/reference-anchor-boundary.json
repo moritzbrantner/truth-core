@@ -1,7 +1,9 @@
 {
-  "id": "INF-REFERENCE-ANCHOR-BOUNDARY",
+  "id": "c8e11fc9-89a9-5aec-8343-95b0098a6fb6",
+  "label": "In the stipulated one-name one-predicate Boolean-carrier…, by First-order-isomorphism-invar…",
+  "legacy_id": "INF-REFERENCE-ANCHOR-BOUNDARY",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-REFERENCE-ANCHOR-BOUNDARY",
+  "output_statement_id": "e7a13e00-a1b6-569c-859f-a912c4b0db9a",
   "rule": "first-order-isomorphism-invariance-and-definite-description-analysis",
   "meaning": "Compose Mathlib StrongHomClass.realize_sentence with inducedStructureEquiv for Boolean negation, transport all premise truth values, compute the name and fixed-anchor controls, and apply the existing Russell Description.checks uniqueness direction.",
   "assumption_statement_ids": [],

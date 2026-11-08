@@ -1,5 +1,7 @@
 {
-  "id": "DEF-NATURAL-REASON-PROFILE-COMPARISON",
+  "id": "f74c1b35-246a-5182-886e-0ff56e217925",
+  "label": "Natural-reason profile and descriptive…: Audience records agents, membership in a selected…",
+  "legacy_id": "DEF-NATURAL-REASON-PROFILE-COMPARISON",
   "term": "natural-reason profile and descriptive theological horizon",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Alternatives.NaturalReasonHorizon.Audience",

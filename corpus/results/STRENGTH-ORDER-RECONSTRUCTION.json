@@ -1,6 +1,8 @@
 {
-  "id": "STRENGTH-ORDER-RECONSTRUCTION",
-  "argument_id": "STRENGTH-ORDER-RECONSTRUCTION",
+  "id": "8486f47d-4ab4-503e-aebd-08e65b112b71",
+  "label": "For the supplied mathematical linear…, from For the supplied mathematical linear order… and 1 more",
+  "legacy_id": "STRENGTH-ORDER-RECONSTRUCTION",
+  "argument_id": "834c984f-52e1-5961-b568-4125be6b4cd8",
   "challenge_module": "TruthCore.Results.Logic.StrengthOrder.Challenge",
   "solution_module": "TruthCore.Results.Logic.StrengthOrder.Solution",
   "theorem": "TruthCore.Results.Logic.StrengthOrder.reconstruction",

@@ -1,9 +1,11 @@
 {
-  "id": "REL-PHILLIPS-NO-OBJECT-SUPPORTS-GOD-NAMES-NO-BEING",
+  "id": "5b9bfe4b-578a-59fd-b94d-a1aaf4ff05e8",
+  "label": "Michael Scott, Religious Language §4.1…… supports In religious use the name 'God' applies to…",
+  "legacy_id": "REL-PHILLIPS-NO-OBJECT-SUPPORTS-GOD-NAMES-NO-BEING",
   "subject_kind": "claim",
-  "subject_id": "SEP-RELIGIOUS-LANGUAGE-4-1-PHILLIPS-NO-OBJECT-A",
+  "subject_id": "a0fd77c2-94df-5051-8d10-16dcc1fbf3f7",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-GOD-NAMES-NO-BEING-WF-P1",
+  "object_id": "5424b521-4a5c-52a0-b790-1db9b53f4ecc",
   "note": "Phillips (1976: 149, as quoted) says that the praising and glorifying does not refer to some object called God. That is a claim about what the activity of praise does, not an explicit denial that the name 'God' has a referent: describing praise as non-referential does not by itself establish that its constituent name lacks one. The step from the remark to the thesis is the unattributed reading, and the entry reports that Phillips's later writings allow that 'God' functions as a referring expression (STMT-PHILLIPS-REALISM-CONCEPTS-RELIGION-INTERNAL)."
 }

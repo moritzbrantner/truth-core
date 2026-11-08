@@ -1,26 +1,28 @@
 {
-  "id": "MODAL-T-SCOPE-BOUNDARY",
+  "id": "c01d69ed-13b3-5885-abf4-4f44ff6b0319",
+  "label": "On the shared reflexive duplicate-label model, every world has fixed-language MC but no world has…",
+  "legacy_id": "MODAL-T-SCOPE-BOUNDARY",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-MODAL-T-SCOPE-BOUNDARY",
+  "conclusion_statement_id": "0f5508d4-a211-5b57-915d-1d8c71c45438",
   "inference_ids": [
-    "INF-MODAL-T-SCOPE-BOUNDARY"
+    "d5cb44b9-d5c7-5b8b-a368-9af295651718"
   ],
   "meaning": "Issue #264 stipulated T-frame mathematics, not a source reading, refutation of Hume or Catholic-case frontier closure. Compose the existing K duplicate-language proofs, enumerate the two labels under the full-predicate successor-identity theorem, and use reflexivity to rule out necessary full collapse. Reuse the independently proved failure of language world extensionality.",
   "definition_ids": [
-    "DEF-MODAL-FIXTURE-FRAME",
-    "DEF-MODAL-FIXTURE-DOMAIN",
-    "DEF-MODAL-FIXTURE-MC",
-    "DEF-MODAL-FIXTURE-IDENTITY",
-    "DEF-MODAL-T-REFLEXIVITY",
-    "DEF-MODAL-FIXTURE-FINITE",
-    "DEF-MODAL-FIXTURE-AGREEMENT",
-    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
-    "DEF-MODAL-K-ACTUALITY",
-    "DEF-MODAL-T-DUPLICATES"
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "a315ea74-8cb6-57a6-ab40-17265bbe1ce7",
+    "f9a77a01-4dcf-5a1d-9bf7-a45a466ce504",
+    "d24cc01a-d6c5-5a1d-bdde-989511bbd1b7",
+    "b6ddbdde-8055-5632-b934-ccd5eb79bbeb",
+    "f57a0812-732f-5680-9711-9ab440869861",
+    "a3baafe5-b951-5752-ab70-25f03144e8f5",
+    "6d8a58a6-97f4-57f7-824f-c1c2c5d08d6c",
+    "2a081357-c3f9-5ca0-a4b6-604f47258175",
+    "18bd1139-01b1-5733-b2f6-76bbaced1591"
   ],
   "disambiguation_ids": [
-    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
-    "DISAMB-MODAL-K-COLLAPSE-MODES",
-    "DISAMB-MODAL-T-COLLAPSE-MODES"
+    "70eab05f-3fde-575b-9de1-6692e7b71974",
+    "2d935e8e-a7d0-50db-999d-a5271406a372",
+    "bded9270-4ca2-5eae-8ffd-ba7d5b1a5128"
   ]
 }

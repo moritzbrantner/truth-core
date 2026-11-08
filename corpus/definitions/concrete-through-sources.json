@@ -1,5 +1,7 @@
 {
-  "id": "DEF-CONCRETE-THROUGH-SOURCES",
+  "id": "e5044358-0cdc-5b19-b06a-8541ba6aa236",
+  "label": "Concrete-domain closure of through…: For every concrete actually existing target x at w, each y…",
+  "legacy_id": "DEF-CONCRETE-THROUGH-SOURCES",
   "term": "concrete-domain closure of through sources",
   "definition": "For every concrete actually existing target x at w, each y with through w x y is concrete. Actuality of y is the separate SourcesActualAt premise. This domain-closure commitment is required to exclude non-concrete through-sources using a theorem about concrete grounding roots.",
   "lean_declaration": "TruthCore.Explanation.NecessaryUltimateSource.ConcreteSourcesAt",

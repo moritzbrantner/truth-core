@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "AQUINAS-IN-METAPH",
+    "source_id": "3b5c2cfb-01dd-5ea7-a5e1-4f221e1378af",
     "source_url": "https://www.corpusthomisticum.org/cmp02.html",
     "sha256": "sha256:206cd072baa7b7abf605ea3d62847768895f468ece696fff263f3518f7a1109a",
     "encoding": "iso-8859-1",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "AQUINAS-IN-METAPH-II-L2",
+      "id": "b9103a8d-b17d-5163-a90f-f20b6c9aa0d7",
+      "label": "Thomas Aquinas, Sententia libri Metaphysicae, II, lect. 2",
+      "legacy_id": "AQUINAS-IN-METAPH-II-L2",
       "locator": "II, lect. 2",
       "html_selector": {
         "from": {

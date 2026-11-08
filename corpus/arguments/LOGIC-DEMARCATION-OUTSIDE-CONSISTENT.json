@@ -1,13 +1,15 @@
 {
-  "id": "LOGIC-DEMARCATION-OUTSIDE-CONSISTENT",
+  "id": "09d1e2c1-2459-5c99-a5f8-ab0f570ac36f",
+  "label": "A weak thesis whose own formulation lies outside its demarcated domain is consistent: in a model…",
+  "legacy_id": "LOGIC-DEMARCATION-OUTSIDE-CONSISTENT",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-DEMARCATION-OUTSIDE-CONSISTENT",
+  "conclusion_statement_id": "48f0d7a4-66c8-570e-b23a-c2af161dc413",
   "inference_ids": [
-    "INF-LOGIC-DEMARCATION-OUTSIDE-CONSISTENT"
+    "41a73d93-23f3-54bc-b6bb-027957c20629"
   ],
   "meaning": "Model: a weak thesis outside its own domain, acceptable and failing the standard, with the restricted norm holding. Weak theses survive self-application.",
   "definition_ids": [
-    "DEF-SELF-APPLICATION-NORM",
-    "DEF-DEMARCATION-RESTRICTION"
+    "89b927ef-37ac-5400-bb6a-26bc5e5ccca0",
+    "3332e115-51be-5870-b228-c7a5e4bb938e"
   ]
 }

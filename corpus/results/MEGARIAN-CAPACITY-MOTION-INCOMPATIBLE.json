@@ -1,6 +1,8 @@
 {
-  "id": "MEGARIAN-CAPACITY-MOTION-INCOMPATIBLE",
-  "argument_id": "MEGARIAN-CAPACITY-MOTION-INCOMPATIBLE",
+  "id": "c0656af8-2e01-56a4-b187-d2701f34278e",
+  "label": "Logical falsity, from The Megarian thesis: a thing is able only… and 3 more",
+  "legacy_id": "MEGARIAN-CAPACITY-MOTION-INCOMPATIBLE",
+  "argument_id": "e0ba4ffe-1a01-520f-981d-f76c61a54c0d",
   "challenge_module": "TruthCore.Results.Alternatives.MegarianCapacityCore.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.MegarianCapacityCore.Solution",
   "theorem": "TruthCore.Results.Alternatives.MegarianCapacityCore.incompatible",

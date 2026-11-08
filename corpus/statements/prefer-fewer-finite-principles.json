@@ -1,5 +1,7 @@
 {
-  "id": "STMT-PREFER-FEWER-FINITE-PRINCIPLES",
+  "id": "3679bdb6-4057-5fe1-83a7-16de081ecff0",
+  "label": "Against an infinity of principles, Aristotle locally prefers positing a smaller finite number, as…",
+  "legacy_id": "STMT-PREFER-FEWER-FINITE-PRINCIPLES",
   "paraphrase": "Against an infinity of principles, Aristotle locally prefers positing a smaller finite number, as Empedocles does.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.PreferFewerFinitePrinciplesReading"
 }

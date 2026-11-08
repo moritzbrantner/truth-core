@@ -1,9 +1,11 @@
 {
-  "id": "REL-AQUINAS-ST-I-Q46-A2-AD7-ACCIDENTAL-GENERATION-B-SUPPORTS-MOVED-MOVER-MOVES-NOT-AS-MOVED",
+  "id": "4c80b3f4-703b-513c-8270-ac7edac4abf4",
+  "label": "Thomas Aquinas, Summa theologiae I q.46… supports Rival: some mover other than the moved…",
+  "legacy_id": "REL-AQUINAS-ST-I-Q46-A2-AD7-ACCIDENTAL-GENERATION-B-SUPPORTS-MOVED-MOVER-MOVES-NOT-AS-MOVED",
   "subject_kind": "claim",
-  "subject_id": "AQUINAS-ST-I-Q46-A2-AD7-ACCIDENTAL-GENERATION-B",
+  "subject_id": "2e18db19-9ba3-52fc-9794-2a15b0124836",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-MOVED-MOVER-MOVES-NOT-AS-MOVED",
+  "object_id": "0de4cf4f-d0fa-5445-8b96-c15167cc69a0",
   "note": "Reading B of q.46 a.2 ad 7 makes 'inquantum' (relevance to the causing), not time, the criterion of an accidental cause; on that criterion a mover now moved in an irrelevant respect is no per se link, as the rival says. Evidence for the rival's possibility, not a statement of it."
 }

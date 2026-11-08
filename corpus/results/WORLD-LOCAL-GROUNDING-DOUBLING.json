@@ -1,6 +1,8 @@
 {
-  "id": "WORLD-LOCAL-GROUNDING-DOUBLING",
-  "argument_id": "WORLD-LOCAL-GROUNDING-DOUBLING",
+  "id": "11190996-6ac4-5cdd-a82b-e27fa0c44df1",
+  "label": "Every nonempty one-world local structure with a well-founded grounding relation, distinct existent…",
+  "legacy_id": "WORLD-LOCAL-GROUNDING-DOUBLING",
+  "argument_id": "8ca0e950-7bec-57d5-ae01-9a0f95d1fd18",
   "challenge_module": "TruthCore.Results.Causality.WorldLocalGroundingDoubling.Challenge",
   "solution_module": "TruthCore.Results.Causality.WorldLocalGroundingDoubling.Solution",
   "theorem": "TruthCore.Results.Causality.WorldLocalGroundingDoubling.checks",

@@ -1,11 +1,13 @@
 {
-  "id": "STMT-RAILTON-FALLIBLE-MORAL-LEARNING",
+  "id": "a44a1866-236d-5744-96b4-ce5af587f27e",
+  "label": "Feedback from excluded interests may correct moral views and arrangements, but power, repression…",
+  "legacy_id": "STMT-RAILTON-FALLIBLE-MORAL-LEARNING",
   "paraphrase": "Feedback from excluded interests may correct moral views and arrangements, but power, repression and other mechanisms can prevent or reverse progress; no universal convergence follows.",
   "definition_ids": [
-    "DEF-RAILTON-IMPARTIAL-RIGHTNESS",
-    "DEF-NATURALIST-APPRAISER-INDEPENDENCE"
+    "d32ee06f-a6d3-5912-a689-fc3da94c1c8c",
+    "4bec6a3a-8ce8-51cd-8657-265ae830eab1"
   ],
   "disambiguation_ids": [
-    "DISAMB-NATURALISTIC-EVALUATIVE-ROLES"
+    "685dae72-5d39-5905-955e-c2cd404d6932"
   ]
 }

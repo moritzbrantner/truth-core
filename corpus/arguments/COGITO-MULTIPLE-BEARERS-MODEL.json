@@ -1,13 +1,15 @@
 {
-  "id": "COGITO-MULTIPLE-BEARERS-MODEL",
+  "id": "ee77e988-370c-5b4a-8057-7e3a4c7728c5",
+  "label": "There is an interpretation in which a thought occurs, the bearer principle holds, and two distinct…",
+  "legacy_id": "COGITO-MULTIPLE-BEARERS-MODEL",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-COGITO-MULTIPLE-BEARERS-MODEL",
+  "conclusion_statement_id": "54fea76e-d67a-5a41-b7bf-7ce164846aac",
   "inference_ids": [
-    "INF-COGITO-MULTIPLE-BEARERS-MODEL"
+    "4cbbd12c-3350-5578-adcf-155f47428a16"
   ],
   "meaning": "Interpret Occurs and Bears as always true, with subjects Bool and one episode; true and false are distinct bearers of it.",
   "definition_ids": [
-    "DEF-THOUGHT-OCCURRENCE",
-    "DEF-THOUGHT-BEARER"
+    "c0cbef1c-060a-54d4-bb49-8d59da40caf3",
+    "ce8ccc1a-4f9a-5904-a10c-548778d79b66"
   ]
 }

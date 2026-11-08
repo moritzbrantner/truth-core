@@ -1,6 +1,8 @@
 {
-  "id": "LOGIC-KNOWLEDGE-RETORSION",
-  "argument_id": "LOGIC-KNOWLEDGE-RETORSION",
+  "id": "72288c48-d10f-5042-9961-84a1deb2ac18",
+  "label": "For any agent type and propositional knowledge predicate, if knowledge is factive, no agent knows…",
+  "legacy_id": "LOGIC-KNOWLEDGE-RETORSION",
+  "argument_id": "c9cb4b0b-e6a5-527d-bafc-67e8fab3ce37",
   "challenge_module": "TruthCore.Results.Logic.KnowledgeRetorsion.Challenge",
   "solution_module": "TruthCore.Results.Logic.KnowledgeRetorsion.Solution",
   "theorem": "TruthCore.Results.Logic.KnowledgeRetorsion.noFactiveKnowerOfUniversalNoKnowledge",

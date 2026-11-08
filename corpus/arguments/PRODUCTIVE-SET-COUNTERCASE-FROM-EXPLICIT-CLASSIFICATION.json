@@ -1,19 +1,21 @@
 {
-  "id": "PRODUCTIVE-SET-COUNTERCASE-FROM-EXPLICIT-CLASSIFICATION",
+  "id": "3fca8683-cb57-5a2c-8163-a416d16dfbc3",
+  "label": "A selected-world productive cause is a supplied set and lacks esse…, from explicit classification",
+  "legacy_id": "PRODUCTIVE-SET-COUNTERCASE-FROM-EXPLICIT-CLASSIFICATION",
   "premise_statement_ids": [
-    "STMT-SELECTED-PRODUCTIVE-CAUSE-IS-A-SET",
-    "STMT-SELECTED-SET-CAUSERS-LACK-ESSE"
+    "d5c30016-1dbb-51a8-99b0-81aecd3fd82c",
+    "93e5f2dd-1ad9-53d7-84f5-1a4f8fde032a"
   ],
-  "conclusion_statement_id": "STMT-SELECTED-SET-PRODUCTIVE-NO-ESSE-COUNTERCASE",
+  "conclusion_statement_id": "c9eb51d1-6902-5c79-904a-6ada74c12ceb",
   "inference_ids": [
-    "INF-PRODUCTIVE-SET-COUNTERCASE-FROM-EXPLICIT-CLASSIFICATION"
+    "0ad13a58-a85c-5feb-a0a4-72855032137e"
   ],
   "meaning": "Guarded interpretation transcription: selected set cause plus explicit no-esse classification supply the countercase.",
   "definition_ids": [
-    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE"
+    "c789e1fb-e4fc-5d7c-b594-58b3761067ab"
   ],
   "disambiguation_ids": [
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
-    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "32416dd1-c3ce-5180-bf06-1cabab088be7"
   ]
 }

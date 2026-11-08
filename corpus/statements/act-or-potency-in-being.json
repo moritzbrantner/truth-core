@@ -1,13 +1,15 @@
 {
-  "id": "STMT-ACT-OR-POTENCY-IN-BEING",
+  "id": "6884dcfd-7c4c-588a-8fce-8c05ccbd3844",
+  "label": "Each being is in act or in POTENCY_1 in the respect of its being",
+  "legacy_id": "STMT-ACT-OR-POTENCY-IN-BEING",
   "paraphrase": "OPEN analyst division: each being is in act or in potency in the respect of its being (esse). Silent on other respects; it does not exclude being both.",
   "lean_declaration": "TruthCore.Causality.Round5Worklist.ActOrPotencyInBeing",
   "definition_ids": [
-    "DEF-ACT",
-    "DEF-POTENCY",
-    "DEF-ESSE"
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
   ],
   "disambiguation_ids": [
-    "DISAMB-IN-ACT"
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
   ]
 }

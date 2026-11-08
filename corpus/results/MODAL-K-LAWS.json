@@ -1,6 +1,8 @@
 {
-  "id": "MODAL-K-LAWS",
-  "argument_id": "MODAL-K-LAWS",
+  "id": "c3e2bc08-bbc6-5b40-8b7b-9acb876f0631",
+  "label": "On every arbitrary K frame, full-predicate MC is equivalent both to every accessible successor…",
+  "legacy_id": "MODAL-K-LAWS",
+  "argument_id": "47a688e5-f17e-5bd2-8278-a66b408c3b05",
   "challenge_module": "TruthCore.Results.Modal.K.Laws.Challenge",
   "solution_module": "TruthCore.Results.Modal.K.Laws.Solution",
   "theorem": "TruthCore.Results.Modal.K.Laws.checks",

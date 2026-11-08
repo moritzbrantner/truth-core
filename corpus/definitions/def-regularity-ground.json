@@ -1,5 +1,7 @@
 {
-  "id": "DEF-REGULARITY-GROUND",
+  "id": "3f125015-da7d-58f2-a6d3-0d8a7e45aa52",
+  "label": "Explanatory grounding of a totality: Scope.ground is an explanatory relation separate from…",
+  "legacy_id": "DEF-REGULARITY-GROUND",
   "term": "explanatory grounding of a totality",
   "definition": "Scope.ground is an explanatory relation separate from temporalCause; GroundedTotality requires some ground for spacetime. UniversalGrounding requires one for each target. Brute in this test means absence of any such ground, not merely absence of an earlier event. No sufficient-reason principle is assumed true.",
   "basis": "stipulative",

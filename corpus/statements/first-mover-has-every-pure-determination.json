@@ -1,14 +1,16 @@
 {
-  "id": "STMT-FIRST-MOVER-HAS-EVERY-PURE-DETERMINATION",
+  "id": "17498c0a-499c-52f0-8d74-e990c9f72569",
+  "label": "Every first mover moved by none really has every pure perfection among the supplied real…",
+  "legacy_id": "STMT-FIRST-MOVER-HAS-EVERY-PURE-DETERMINATION",
   "paraphrase": "OPEN, unattributed: every first mover moved by none really has every pure perfection among the supplied real determinations.",
   "lean_declaration": "TruthCore.Causality.PureActThisness.FirstMoverHasEveryPureDetermination",
   "definition_ids": [
-    "DEF-FIRST-UNMOVED-MOVER",
-    "DEF-REAL-DETERMINATION",
-    "DEF-PURE-PERFECTION",
-    "DEF-UNRESTRICTED-PURE-PERFECTION"
+    "cfadc1f4-dd30-5f4f-a336-a0b9c1b1182d",
+    "3aba5f19-f48d-50db-bc57-93ba2e99f845",
+    "65e38ffa-5a1c-55d0-935c-6538d843b780",
+    "956247e3-ca78-5f54-a8b1-6e725735c754"
   ],
   "disambiguation_ids": [
-    "DISAMB-PERFECTION-SCOPE"
+    "dc9c0a1b-1759-5b1c-9ab9-ee7bea8847b7"
   ]
 }

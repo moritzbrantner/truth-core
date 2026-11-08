@@ -1,14 +1,16 @@
 {
-  "id": "STMT-INTELLIGIBLE-INCLINATION-IS-WILL",
+  "id": "b7b10ad2-fafe-552e-8bf4-205d49f2f070",
+  "label": "Whatever has an inclination following an intelligible form HAS_WILL_1",
+  "legacy_id": "STMT-INTELLIGIBLE-INCLINATION-IS-WILL",
   "paraphrase": "OPEN recognition bridge, near-definitional under DEF-HAS-WILL: whatever has an inclination following an intelligible form has will. The primitive HasWill predicate is not redefined; this is the explicit step C of the intellectual-appetite candidate.",
   "lean_declaration": "TruthCore.Causality.IntellectualInclination.IntelligibleInclinationIsWill",
   "definition_ids": [
-    "DEF-HAS-WILL",
-    "DEF-COGNITION-RELATIVE-APPETITE"
+    "7c64b499-6dba-5e03-bdf3-5acea95d8836",
+    "44a0654e-6b36-52d6-91c2-0a5c6a13dc5c"
   ],
   "disambiguation_ids": [
-    "DISAMB-APPETITE-POWER-AND-EXERCISE",
-    "DISAMB-CREATURE-PASSIVE-APPETITE-AND-DIVINE-WILL",
-    "DISAMB-NATURAL-AND-COGNITIVE-APPETITE"
+    "941efd70-d56f-53f9-b5f9-8acd36711a54",
+    "1d765cae-eca9-558f-9542-8291df359058",
+    "c40e9cab-4874-50f8-af05-d5c45c8a3c82"
   ]
 }

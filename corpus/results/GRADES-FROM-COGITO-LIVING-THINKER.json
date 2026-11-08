@@ -1,6 +1,8 @@
 {
-  "id": "GRADES-FROM-COGITO-LIVING-THINKER",
-  "argument_id": "GRADES-FROM-COGITO-LIVING-THINKER",
+  "id": "583031a0-867b-5505-8f67-13db37f952d2",
+  "label": "Grades are found in things: some things are more and others less good…, from cogito living thinker",
+  "legacy_id": "GRADES-FROM-COGITO-LIVING-THINKER",
+  "argument_id": "bfaf6f92-6df7-520f-b6fe-f1adc817e9ed",
   "challenge_module": "TruthCore.Results.Causality.MotionMapsBatch1.Challenge",
   "solution_module": "TruthCore.Results.Causality.MotionMapsBatch1.Solution",
   "theorem": "TruthCore.Results.Causality.MotionMapsBatch1.gradesFromCogito",

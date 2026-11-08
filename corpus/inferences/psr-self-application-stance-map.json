@@ -1,7 +1,9 @@
 {
-  "id": "INF-PSR-SELF-APPLICATION-STANCE-MAP",
+  "id": "20555d45-567b-5e7f-8578-a8e12628c4e6",
+  "label": "A stance that demands nothing cannot also demand a claim, by Model-construction",
+  "legacy_id": "INF-PSR-SELF-APPLICATION-STANCE-MAP",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-PSR-SELF-APPLICATION-STANCE-MAP",
+  "output_statement_id": "6bc10168-67e5-51df-b6e2-4c6ff29212c5",
   "rule": "model-construction",
   "meaning": "Prove the two stated-rule contradictions and the regress core generally, apply the #397 norm schema, prove the fork by the supplied decisions, and construct the scene stances, inquiries and arenas as named models.",
   "assumption_statement_ids": [],

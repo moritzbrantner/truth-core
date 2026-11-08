@@ -1,7 +1,9 @@
 {
-  "id": "INF-NECESSARY-INDIVIDUAL-ROOTED-EMPTY",
+  "id": "94949c80-c370-55b8-aeb4-1ae32e8b9d5e",
+  "label": "In one stipulated three-world, three-individual universal-accessibility model, an…, by Direct-proof",
+  "legacy_id": "INF-NECESSARY-INDIVIDUAL-ROOTED-EMPTY",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-NECESSARY-INDIVIDUAL-ROOTED-EMPTY",
+  "output_statement_id": "e5391d97-8d0f-55b4-b02e-1e89a9cc4760",
   "rule": "direct-proof",
   "meaning": "Exhaustively evaluate all three world labels and individual labels using the stipulated presence, modal-accessibility and directed in-world cause relations. Finite emptiness, root coverage and one-edge causal depth are checked independently of philosophical satisfiability.",
   "assumption_statement_ids": [],

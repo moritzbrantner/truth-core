@@ -1,7 +1,9 @@
 {
-  "id": "MURPHY-2021-ARMSTRONG-NATURALIST",
-  "statement_id": "STMT-NATURALISM-N1",
-  "source_id": "MURPHY-2021-EMPTY-WORLD",
+  "id": "9c51de63-d24d-50b7-b096-af9a2a696618",
+  "label": "Benjamin Edmund Murphy, If Nothing Existed…: N1, EXISTENCE_NATURALISM_1: at the selected world…",
+  "legacy_id": "MURPHY-2021-ARMSTRONG-NATURALIST",
+  "statement_id": "f54cc1ad-8913-52ec-abf1-be30f76a03bc",
+  "source_id": "fca7858f-a8e5-5657-b3ac-8039693c5538",
   "locator": "pp.52–55 p.53 (definition) and p.54 ('David Armstrong was a naturalist by the definition used in this paper (2010, p.1)')",
   "interpretation": "Murphy defines naturalism, for his paper, as the doctrine that nothing exists apart from spatio-temporal objects and that all spatio-temporal objects are contingent, and reports that Armstrong was a naturalist in this sense, citing Sketch for a Systematic Metaphysics (2010), p. 1. Read as N1 with P = spatio-temporal, dropping the contingency conjunct (weaker than the definition). It is Armstrong's view as Murphy reports it, not Armstrong's wording: Armstrong 1997 and 2010 are not pinned. Murphy does not say which sense of spatio-temporal is meant, so P is left to DISAMB-SPATIOTEMPORAL. Murphy adopts the definition for the paper's purposes only and does not assert naturalism himself.",
   "attribution": "The passage states that Armstrong held that nothing exists apart from spatio-temporal objects, which is the premise with P = spatio-temporal.",

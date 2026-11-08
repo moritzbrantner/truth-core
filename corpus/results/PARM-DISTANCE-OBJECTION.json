@@ -1,6 +1,8 @@
 {
-  "id": "PARM-DISTANCE-OBJECTION",
-  "argument_id": "PARM-DISTANCE-OBJECTION",
+  "id": "31a41302-fca1-5f94-9258-3aee935b23cd",
+  "label": "Grounding cannot universally require…, from There are two distinct particulars sharing… and 3 more",
+  "legacy_id": "PARM-DISTANCE-OBJECTION",
+  "argument_id": "b8290011-74f3-5aaa-824c-b960a4882f3c",
   "challenge_module": "TruthCore.Results.Greek.Plato.Parmenides.DistanceObjection.Challenge",
   "solution_module": "TruthCore.Results.Greek.Plato.Parmenides.DistanceObjection.Solution",
   "theorem": "TruthCore.Results.Greek.Plato.Parmenides.DistanceObjection.distanceObjection",

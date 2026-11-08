@@ -1,5 +1,7 @@
 {
-  "id": "DEF-WEAK-REASON-CLOSED-ACCOUNT",
+  "id": "d44e1390-7faa-56d3-b63f-c81cf0a458b6",
+  "label": "Four-clause reason-closed account: Exactly four existing account clauses: S contains x; every S…",
+  "legacy_id": "DEF-WEAK-REASON-CLOSED-ACCOUNT",
   "term": "four-clause reason-closed account",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Explanation.WeakAccountNecessaryBeing.WeakReasonClosed",

@@ -1,13 +1,15 @@
 {
-  "id": "STMT-COMPLETE-CHAIN-EXPLANATION-SELECTS-ARRANGEMENT",
+  "id": "4f45ac2d-3bb1-5159-85db-0982225dfbd5",
+  "label": "At the designated labeled arrangement a, every candidate proposition accepted by the supplied…",
+  "legacy_id": "STMT-COMPLETE-CHAIN-EXPLANATION-SELECTS-ARRANGEMENT",
   "paraphrase": "OPEN local framework commitment: at the designated labeled arrangement a, every candidate proposition accepted by the supplied complete-explanation judgment must be true there and exclude every different labeled arrangement. This additional entailing arrangement-explanation demand is not derived from the number of alternatives or attributed to a historical source. Its applicability to actual causal chains remains open.",
   "lean_declaration": "TruthCore.Explanation.OrderingCardinality.CompleteRequiresSelection",
   "definition_ids": [
-    "DEF-LABELED-CHAIN-ARRANGEMENT",
-    "DEF-ARRANGEMENT-ENTAILING-SELECTION",
-    "DEF-HISTORY-SELECTION-INFORMATION"
+    "c9e3d998-544d-55a1-8932-b1c68f182ad0",
+    "f6c46849-e1f6-5810-951c-ede141bcbc54",
+    "c8c357e8-33d1-5468-858d-78f8493e353b"
   ],
   "disambiguation_ids": [
-    "DISAMB-LABELED-ORDER-EXPLANATION"
+    "373537a1-250e-5874-93f9-78ca7c20e1f7"
   ]
 }

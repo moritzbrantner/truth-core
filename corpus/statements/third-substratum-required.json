@@ -1,5 +1,7 @@
 {
-  "id": "STMT-THIRD-SUBSTRATUM-REQUIRED",
+  "id": "5cc16675-1d15-5b45-91d7-e4fcebd49096",
+  "label": "If both the argument for contrary principles and the substratum argument are retained, a third…",
+  "legacy_id": "STMT-THIRD-SUBSTRATUM-REQUIRED",
   "paraphrase": "If both the argument for contrary principles and the substratum argument are retained, a third item underlying the contraries must be posited.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.ThirdSubstratumRequiredReading"
 }

@@ -1,7 +1,9 @@
 {
-  "id": "INF-COGITO-NO-THOUGHT-CONTROL",
+  "id": "f2d43b7a-b08b-56f3-bddf-2d02ed1b5c1b",
+  "label": "There is an interpretation in which the bearer principle holds, no thought…, by Model-construction",
+  "legacy_id": "INF-COGITO-NO-THOUGHT-CONTROL",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-COGITO-NO-THOUGHT-CONTROL",
+  "output_statement_id": "c8d588d9-dacd-56aa-b816-fa4f6a3b750a",
   "rule": "model-construction",
   "meaning": "Interpret Occurs and Bears as always false over Unit; the bearer principle then holds vacuously.",
   "assumption_statement_ids": [],

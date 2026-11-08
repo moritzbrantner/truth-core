@@ -1,6 +1,8 @@
 {
-  "id": "ACTUAL-EXISTENCE-ADEQUACY-COMPARISON",
-  "argument_id": "ACTUAL-EXISTENCE-ADEQUACY-COMPARISON",
+  "id": "689c8180-1c0a-558c-84d6-e2aa1e5cdb49",
+  "label": "On the SAME explicit concrete Unit bearer, chain and fork have coherent existence facts, actual…",
+  "legacy_id": "ACTUAL-EXISTENCE-ADEQUACY-COMPARISON",
+  "argument_id": "5838e728-5e1d-5201-9ad1-fe2777a0d604",
   "challenge_module": "TruthCore.Results.Explanation.ActualExistenceAdequacy.Challenge",
   "solution_module": "TruthCore.Results.Explanation.ActualExistenceAdequacy.Solution",
   "theorem": "TruthCore.Results.Explanation.ActualExistenceAdequacy.comparison",

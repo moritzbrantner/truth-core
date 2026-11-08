@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-MEREO-DESCRIPTION-BEARER",
+  "id": "00679598-9fc7-50bb-abc7-fbe723fd3868",
+  "label": "System or whole as a description versus individual substance",
+  "legacy_id": "DISAMB-MEREO-DESCRIPTION-BEARER",
   "term": "system or whole as a description versus individual substance",
   "sense_definition_ids": [
-    "DEF-MEREO-INTERVENTION-DYNAMICS",
-    "DEF-MEREO-SUBSTANTIAL-UNITY"
+    "dae36b91-d8eb-5d37-a499-0d34e9941925",
+    "a906fd43-c40e-5ec5-9ddb-b8e58baa3e05"
   ],
   "resolution": "A closed macroscopic response description does not assert a material composite or substantial unity. The arrangement certificate quantifies over mathematical states and intervention histories while its separately chosen material bearer carrier has identity-only parthood. Neither a state-pair type nor successful dynamic reduction identifies an extra individual; neither proves that actual composites or substances are absent."
 }

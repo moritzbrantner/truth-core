@@ -1,16 +1,18 @@
 {
-  "id": "SCIENCE-INDUCTION-SELECTION",
+  "id": "d86f9d9f-d298-5b45-85a6-c555aab84279",
+  "label": "Under a supplied invertible evidence/hypothesis recoding, a neutral set-valued answer at fixed…",
+  "legacy_id": "SCIENCE-INDUCTION-SELECTION",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-SCIENCE-INDUCTION-SELECTION",
+  "conclusion_statement_id": "5465fccb-01d6-55b9-b0c2-cd4bf2758bcc",
   "inference_ids": [
-    "INF-SCIENCE-INDUCTION-SELECTION"
+    "11fbc4d9-cc29-5422-9d47-0a5592a9f60c"
   ],
   "meaning": "Under a supplied invertible evidence/hypothesis recoding, a neutral set-valued answer at fixed evidence is closed under hypothesis recoding, so a uniquely selected hypothesis must be a fixed point. Fixed evidence, an equivariant deterministic selector and a moved selected hypothesis are incompatible. Asymmetric evidence supports an equivariant unique selector; a privileged unique choice on symmetric evidence fails equivariance; selecting both or abstaining is neutral, and these exhaust neutral responses in the two-hypothesis model. Restriction to n observations commutes with the existing post-cutoff feature recoding, which swaps two complete predictions agreeing on every observation and differing at n. Neither a neutral singleton answer nor a total equivariant selector exists in this profile. With nonempty observations, uniformity in the original outcome coordinate selects the constant-true prediction; the same test in recoded coordinates selects the other prediction and is not neutral. Exact earlier predicate-recoding and Hume controls are reused. No physical basis, projectibility norm, induction irrationality, source attribution or root truth is established.",
   "definition_ids": [
-    "DEF-SCIENCE-INDUCTION-SELECTION",
-    "DEF-SCIENCE-INDUCTION-OUTCOME-BASIS"
+    "dd18377d-63fa-5892-8087-b6441dff5b1c",
+    "a1f66eda-ad43-50d3-a026-50a2eb89c4dd"
   ],
   "disambiguation_ids": [
-    "DISAMB-SCIENCE-INDUCTION-SELECTION"
+    "e977dc68-4774-5dc4-b8af-98a645631096"
   ]
 }

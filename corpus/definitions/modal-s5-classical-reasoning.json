@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MODAL-S5-CLASSICAL-REASONING",
+  "id": "a225cc4c-68d8-5214-9476-91cd8f017431",
+  "label": "Excluded middle and scoped truth\u2026: TruthCore.Logic.ExcludedMiddle is \u2200p: Prop, p \u2228 \u00acp",
+  "legacy_id": "DEF-MODAL-S5-CLASSICAL-REASONING",
   "term": "excluded middle and scoped truth decisions",
   "definition": "TruthCore.Logic.ExcludedMiddle is \u2200p : Prop, p \u2228 \u00acp. LanguageLaws takes this as an explicit conditional premise, not a kernel axiom or a proved truth. The helper local_agreement only needs P v \u2228 \u00acP v for admissible P at the collapsed witness v; global excluded middle supplies these decisions. Negation closure remains a separate domain premise.",
   "basis": "stipulative",

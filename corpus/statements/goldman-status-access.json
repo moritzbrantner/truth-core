@@ -1,12 +1,14 @@
 {
-  "id": "STMT-GOLDMAN-STATUS-WITHOUT-ACCESS",
+  "id": "962bd7e8-fb87-52bf-beeb-b0a68acfd4fc",
+  "label": "Goldman denies that justified belief necessarily comes with knowledge, justified belief or an…",
+  "legacy_id": "STMT-GOLDMAN-STATUS-WITHOUT-ACCESS",
   "paraphrase": "Goldman denies that justified belief necessarily comes with knowledge, justified belief or an articulable defense of its justificational status.",
   "definition_ids": [
-    "DEF-GOLDMAN-HISTORICAL-RELIABILISM",
-    "DEF-GOLDMAN-CONDITIONAL-PROCESS-RELIABILITY",
-    "DEF-GOLDMAN-AVAILABLE-PROCESS-QUALIFICATION"
+    "aa7e99a0-6688-5cfa-950c-6991f9072d1b",
+    "73ca1400-cedf-5dbc-a478-e313e7ffa7ec",
+    "f38996f7-c982-5809-8215-392d0f6cb956"
   ],
   "disambiguation_ids": [
-    "DISAMB-GOLDMAN-STATUS-ACCESS-AND-REVISION"
+    "56b356a4-6acf-52a8-ae83-5edaf38a44f0"
   ]
 }

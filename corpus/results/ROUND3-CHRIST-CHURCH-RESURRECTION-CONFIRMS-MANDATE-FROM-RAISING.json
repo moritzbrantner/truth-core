@@ -1,6 +1,8 @@
 {
-  "id": "ROUND3-CHRIST-CHURCH-RESURRECTION-CONFIRMS-MANDATE-FROM-RAISING",
-  "argument_id": "ROUND3-CHRIST-CHURCH-RESURRECTION-CONFIRMS-MANDATE-FROM-RAISING",
+  "id": "a74c2b03-55e4-545e-b189-791e6b4e6544",
+  "label": "For any GOD_4 with the classical attributes who can reveal recognizably: if Jesus…, from raising",
+  "legacy_id": "ROUND3-CHRIST-CHURCH-RESURRECTION-CONFIRMS-MANDATE-FROM-RAISING",
+  "argument_id": "3a7d095b-778f-501f-8d96-3abc331c4934",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.resurrectionConfirmsMandateFromRaising",

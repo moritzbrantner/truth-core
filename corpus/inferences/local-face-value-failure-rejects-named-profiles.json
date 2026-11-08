@@ -1,9 +1,11 @@
 {
-  "id": "INF-LOCAL-FACE-VALUE-FAILURE-REJECTS-NAMED-PROFILES",
+  "id": "62bdd121-ae44-5a74-b478-45c33787ae09",
+  "label": "Exact negation of the two-profile local comparison menu, not of all…, by Constructive-proof",
+  "legacy_id": "INF-LOCAL-FACE-VALUE-FAILURE-REJECTS-NAMED-PROFILES",
   "input_statement_ids": [
-    "STMT-RELIGIOUS-LOCAL-FACE-VALUE-FAILS"
+    "f4761615-d94b-52fa-9346-e476c0d44d3d"
   ],
-  "output_statement_id": "STMT-RELIGIOUS-NAMED-LOCAL-PROFILES-REJECTED",
+  "output_statement_id": "707f5c5f-94bd-536e-9fe2-86b87bb3a3a4",
   "rule": "constructive-proof",
   "meaning": "Both menu options contain local face-value status, so local failure rejects the exact comparison menu, not every religious-language account.",
   "assumption_statement_ids": [],

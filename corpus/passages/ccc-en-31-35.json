@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "CATECHISM-OF-THE-CATHOLIC-CHURCH-EN",
+    "source_id": "3c31594f-3836-5c81-9cdb-a58e5184285c",
     "source_url": "https://www.vatican.va/archive/ENG0015/__PA.HTM",
     "retrieved_at": "2026-11-06T12:00:00Z",
     "sha256": "sha256:6e854ce963ffd00ae653f4b8e05e60aa48435f7b7845f2d80d981099714e984d",
@@ -16,7 +16,9 @@
   },
   "passages": [
     {
-      "id": "CCC-EN-31-35",
+      "id": "ce0b8c19-b13f-51ad-9363-ba5eb0ea8a50",
+      "label": "Catholic Church, Catechism of the Catholic Church, CCC 31-35",
+      "legacy_id": "CCC-EN-31-35",
       "locator": "CCC 31-35 (Part One, sect. 1, ch. 1, II)",
       "claim_locator_prefixes": [
         "CCC 31",

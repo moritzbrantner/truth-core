@@ -1,7 +1,9 @@
 {
-  "id": "CIC-750-751-FAITH-AND-HERESY",
-  "statement_id": "STMT-CIC-750-751-FAITH-AND-HERESY",
-  "source_id": "CODEX-IURIS-CANONICI-1983",
+  "id": "db33d341-e197-5185-8c9f-f4b402f509dc",
+  "label": "Catholic Church, Codex Iuris Canonici Can.…: Codex Iuris Canonici cann. 750 §1 and 751: what is…",
+  "legacy_id": "CIC-750-751-FAITH-AND-HERESY",
+  "statement_id": "f9ab25e4-c9ed-5894-b5a4-03dedc2200d8",
+  "source_id": "447910c6-269d-54a7-901e-1c7ad5306d07",
   "locator": "can. 750 §1 with can. 751, Fide divina et catholica ea omnia credenda sunt ... Dicitur haeresis",
   "interpretation": "Can. 750 §1: 'Fide divina et catholica ea omnia credenda sunt quae verbo Dei scripto vel tradito ... continentur, et insimul ut divinitus revelata proponuntur sive ab Ecclesiae magisterio sollemni, sive ab eius magisterio ordinario et universali ... tenentur igitur omnes quascumque devitare doctrinas iisdem contrarias.' Can. 751: 'Dicitur haeresis, pertinax, post receptum baptismum, alicuius veritatis divina et catholica credendae denegatio, aut de eadem pertinax dubitatio'. Only truths proposed as divinely revealed fall under 750 §1; whether Dei Filius can. II.1 proposes natural knowability as revealed is not stated here.",
   "status": "formalized",

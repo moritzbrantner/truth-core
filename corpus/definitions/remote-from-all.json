@@ -1,11 +1,13 @@
 {
-  "id": "DEF-REMOTE-FROM-ALL",
+  "id": "53b02c11-a28b-57c2-8d2e-7e013893db7e",
+  "label": "Remote from all: RemoteFromAll ComponentOf m: m enters into the composition of nothing, as neither…",
+  "legacy_id": "DEF-REMOTE-FROM-ALL",
   "term": "remote from all (remotum ab omnibus; Lean `RemoteFromAll`)",
   "definition": "`RemoteFromAll ComponentOf m`: m enters into the composition of nothing, as neither part, matter nor form of anything (`∀ x, ¬ ComponentOf m x`). This is the case's reading of the third condition in q.13 a.8 ad 2's description of what the name 'God' signifies, taken through q.3 a.8, the article that denies God any composition with other things.",
   "basis": "stipulative",
   "claim_ids": [
-    "AQUINAS-ST-I-Q13-A8-AD2-GOD-NAMES-PRINCIPLE-ABOVE-ALL-A",
-    "AQUINAS-ST-I-Q3-A8-NO-COMPONENT-FIRST-IN-BEING"
+    "7a834b05-39d3-51cf-8155-7dd8e640077e",
+    "b3b55883-d1cc-5a12-8e0a-9245e9ed402e"
   ],
   "lean_declaration": "TruthCore.Case.Catholicism.RemoteFromAll",
   "note": "A reading choice, not a source definition: q.13 a.8 ad 2 says 'remotum ab omnibus' without defining it, and reading it as exclusion from composition is the case's. Other readings are possible and are not excluded by this one, in particular transcendence of every genus (q.3 a.5), whose strict, proper-genus exclusion is separately formalized as GodIsInNoGenusReading in TruthCore/Latin/Aquinas/SummaTheologiae/PrimaPars/Question3/Article5.lean. That predicate has its own IsGod and InGenus parameters and does not identify genus exclusion with the case component criterion; exclusion per reductionem remains outside that formalization. The designated route needs only this one: remoteness is derived from q.3 a.8's exclusion of components from being simply first (STMT-NO-COMPONENT-IS-FIRST-BEING) and the open bridge STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING. Current naming and root/intellect/will consumers retain the displayed outgoing-component formula. No spatial-distance, spatiotemporal-part, inward-simplicity or source-general remoteness equivalence is introduced by this clarification."

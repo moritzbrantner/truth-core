@@ -1,15 +1,17 @@
 {
-  "id": "CC100-4-DEPENDENT-DOMAIN",
-  "statement_id": "STMT-CC100-4-DEPENDENT-DOMAIN",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "7cd6850f-219f-5106-ac6d-f2e3422e5176",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: Dependent beings exist, and every dependent being…",
+  "legacy_id": "CC100-4-DEPENDENT-DOMAIN",
+  "statement_id": "4800570a-04b7-5845-b561-7b990c461dc7",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.9–26: p.9, argument #4 Samuel Clarke-ish CA, steps 1–2",
   "interpretation": "This attributes the displayed population and exhaustion commitments to the presentation, not to an inspected Clarke/Rowe/Gale/Reichenbach text. The slide supplies no concrete example, empirical witness or typed existence/domain guard. Dependent is not automatically ContingentAt, nor is dependence automatically an efficient cause, existential ground or temporal predecessor.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-4-DEPENDENCE"
+    "578d48f2-35b0-5daf-8a52-d63b61c50697"
   ],
   "disambiguation_ids": [
-    "DISAMB-REGRESS-DOMAINS",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "34ddfede-ff4d-59ad-9882-4bcb490df9bb",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

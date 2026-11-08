@@ -1,6 +1,8 @@
 {
-  "id": "STRENGTH-ORDER-EQUIVALENCE",
-  "argument_id": "STRENGTH-ORDER-EQUIVALENCE",
+  "id": "3648f9c4-fac1-5a49-b361-14477cdcf461",
+  "label": "For every mathematical linear order and shared x,y, y > x holds exactly when y ≥ x and y ≠ x",
+  "legacy_id": "STRENGTH-ORDER-EQUIVALENCE",
+  "argument_id": "d98eb352-c298-5c6c-a3a1-3cb365551c69",
   "challenge_module": "TruthCore.Results.Logic.StrengthOrder.Challenge",
   "solution_module": "TruthCore.Results.Logic.StrengthOrder.Solution",
   "theorem": "TruthCore.Results.Logic.StrengthOrder.equivalence",

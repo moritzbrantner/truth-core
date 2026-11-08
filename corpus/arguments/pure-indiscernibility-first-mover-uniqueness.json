@@ -1,30 +1,32 @@
 {
-  "id": "PURE-INDISCERNIBILITY-FIRST-MOVER-UNIQUENESS",
+  "id": "247ad9c7-792a-57cc-9087-0392169bb015",
+  "label": "There is at most one first mover…, from Every first mover moved by none really has… and 2 more",
+  "legacy_id": "PURE-INDISCERNIBILITY-FIRST-MOVER-UNIQUENESS",
   "premise_statement_ids": [
-    "STMT-FIRST-MOVER-HAS-EVERY-PURE-DETERMINATION",
-    "STMT-FIRST-MOVER-DETERMINATIONS-ARE-PURE",
-    "STMT-PURELY-DETERMINED-INDISCERNIBLES-IDENTICAL"
+    "17498c0a-499c-52f0-8d74-e990c9f72569",
+    "e0c1f0de-83c4-5176-b0f1-b6e6c2237136",
+    "bd0a956c-149e-5d7d-9771-b974da72fd3a"
   ],
-  "conclusion_statement_id": "STMT-AT-MOST-ONE-FIRST-UNMOVED-MOVER",
+  "conclusion_statement_id": "c27dce66-864a-5a73-af62-0eeb4016514f",
   "inference_ids": [
-    "INF-PURE-INDISCERNIBILITY-FIRST-MOVER-UNIQUENESS"
+    "64995ba9-f868-5f6e-ad6b-e85c310fad85"
   ],
   "meaning": "By the imported pureActPluralityIsBare, any two first movers have the same real determinations, and by strict pure actuality all of the first one's are pure; identity of purely determined indiscernibles then makes them one. Conditional on three OPEN, unattributed premises. The third is the weak version of identity of real indiscernibles: it allows bare difference among beings with a non-pure principle of multiplicity, such as Black-style spheres. It still constrains purely determined beings that are not first movers. If only first movers are purely determined, then given the other two premises it is equivalent to the conclusion. No first mover is produced.",
   "definition_ids": [
-    "DEF-FIRST-UNMOVED-MOVER",
-    "DEF-REAL-DETERMINATION",
-    "DEF-PURE-PERFECTION",
-    "DEF-UNRESTRICTED-PURE-PERFECTION",
-    "DEF-STRICT-PURE-ACTUALITY",
-    "DEF-REAL-INDISCERNIBILITY",
-    "DEF-PURELY-DETERMINED-INDISCERNIBLES-IDENTICAL"
+    "cfadc1f4-dd30-5f4f-a336-a0b9c1b1182d",
+    "3aba5f19-f48d-50db-bc57-93ba2e99f845",
+    "65e38ffa-5a1c-55d0-935c-6538d843b780",
+    "956247e3-ca78-5f54-a8b1-6e725735c754",
+    "b5ac268c-7497-5780-a154-3f84c34ac709",
+    "efe8fb80-81fc-51c1-89d0-414338fcfe96",
+    "a54bf095-fc46-59d8-81a2-f5b3cf2c9cd5"
   ],
   "disambiguation_ids": [
-    "DISAMB-THISNESS-REAL-BARE",
-    "DISAMB-PURE-ACT-STRICTNESS",
-    "DISAMB-PERFECTION-SCOPE"
+    "567c3e74-9514-52d9-b3b6-f5a3af078784",
+    "b1640e51-d7d4-5a80-9992-29fa1ded8048",
+    "dc9c0a1b-1759-5b1c-9ab9-ee7bea8847b7"
   ],
   "strong_version_needed": {
-    "STMT-PURELY-DETERMINED-INDISCERNIBLES-IDENTICAL": "Not needed for first-mover uniqueness: PERFECT-BEINGS-FIRST-MOVER-UNIQUENESS proves at-most-one from the weaker SCG I.42 version. Kept unchanged as the comparison exhibiting the reach of the narrower bridge to purely determined non-first beings."
+    "bd0a956c-149e-5d7d-9771-b974da72fd3a": "Not needed for first-mover uniqueness: PERFECT-BEINGS-FIRST-MOVER-UNIQUENESS proves at-most-one from the weaker SCG I.42 version. Kept unchanged as the comparison exhibiting the reach of the narrower bridge to purely determined non-first beings."
   }
 }

@@ -1,6 +1,8 @@
 {
-  "id": "IDENTITY-SCOPED-RECEPTION-STRICTNESS",
-  "argument_id": "IDENTITY-SCOPED-RECEPTION-STRICTNESS",
+  "id": "207652d5-e81f-5c38-b068-f18e48454253",
+  "label": "One finite profile has an actual union, same-act communication and canonical reception by the…",
+  "legacy_id": "IDENTITY-SCOPED-RECEPTION-STRICTNESS",
+  "argument_id": "42ba31ab-e815-512d-906f-67b64eae56fe",
   "challenge_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.IdentityScopeControl.Challenge",
   "solution_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.IdentityScopeControl.Solution",
   "theorem": "TruthCore.Results.Causality.EsseReceptionDefinitions.IdentityScopeControl.identityScopeControl",

@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-PLATONIC-FORM",
+  "id": "54952044-0e39-566c-a88d-e5c9b95021fb",
+  "label": "Form",
+  "legacy_id": "DISAMB-PLATONIC-FORM",
   "term": "form",
   "sense_definition_ids": [
-    "DEF-PLATONIC-FORM",
-    "DEF-PLATONIC-IMMANENT-FORM"
+    "3336e0be-5be8-5c69-b54a-7a7bb29e1db9",
+    "b975327c-c076-593d-9707-ced5adcce095"
   ],
   "resolution": "All Forms commitments use FormOf, the proposed intelligible entity. The Aristotelian immanent sense is contrast only; similar spelling licenses no reuse or identity."
 }

@@ -1,24 +1,26 @@
 {
-  "id": "ATTEMPT-ESSENCE-MODAL-SOURCE-BRIDGE-545",
+  "id": "ca5904d0-1b3c-56a3-8665-930c43e42b59",
+  "label": "Materialized/read full aquinas de ente c3 4 and newly pinned publisher cc by Pearce 2025 witness…",
+  "legacy_id": "ATTEMPT-ESSENCE-MODAL-SOURCE-BRIDGE-545",
   "date": "2026-10-31",
   "statement_ids": [
-    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
-    "STMT-Q3A4-DISTINCT-ESSE-CAUSE-DICHOTOMY",
-    "STMT-DISTINCT-ESSE-REQUIRES-EXTERNAL-CAUSE",
-    "STMT-EXISTENCE-GROUND-HAS-EXISTENCE-INGREDIENT",
-    "STMT-NECESSARY-EXISTENCE-RELATIVE-OWN-NATURE"
+    "c71c068c-bbae-5ed5-a99d-70b155c8d239",
+    "be639b3f-a4b7-5ec0-a9be-accfd8d42598",
+    "33ad148b-ceab-5856-a4f8-c999a1dba644",
+    "c883475a-4aa8-5ae5-b9b8-f5d4da9bebdc",
+    "7e91c50c-edc1-5947-b706-771f1d48239f"
   ],
   "kind": "source-search",
   "outcome": "blocked",
   "summary": "Materialized/read full AQUINAS-DE-ENTE-C3-4 and newly pinned publisher CC-BY Pearce 2025 witness PEARCE-GROUNDING-INDETERMINISM-303-322 (two matching byte/text fetches; §§1–4 and6–7 plus selected §5 context read). Exact reading scope, locators, sourced observations, rejected interpretations and next discriminating question persist in docs/notes/underived-essence-identity.md. Rejected epistemic separability as an automatic modal-distinction proof; aptness as actual grounding; necessary essential facts as necessary concrete instances; enabling and grounding graph identity; memberwise coverage as arrangement coverage; and nonnecessitation as adequate relevance. Existing q3 causal transcription and PSR/adequacy/closure controls remain unchanged, not attributed as exact formalizations of Pearce. No new claim, Lean theorem or root premise discharge. Updated the existing modal-actuality bridge candidate rather than inventing a new proposition to log activity. Follow-up: pinned author-hosted DASGUPTA-METAPHYSICAL-RATIONALISM-379-418 (two matching raw/text fetches), materialized and read main text §§1–17 plus selected notes listed in the linked note. Corrected the stronger existence-fact-only reading to §9’s at-least-some existential ingredients in mixed grounds; two atomic source readings retain this open premise and own-nature versus whole-world necessity. Note44’s qualitative-ground reply challenges essential existence rather than refuting minimal modal necessary existence under necessitarian assumptions. Sections16–17 defend burden symmetry, explicitly not PSR truth. Rejected ingredient-alone sufficiency, literal self-grounding, own-nature/accessible-world equivalence and essential-fact→actual-concrete bearer. Updated the existing candidate; no Lean theorem or root-premise discharge.",
   "blocker": "Defend the weaker existential-ingredient premise against note44’s positive qualitative-ground reply; justify essential-fact/bearer realization and any concrete-support application. Autonomous facts and necessitating sufficiency remain distinct additional commitments. The De ente composition application remains open.",
   "evidence": [
-    "Q3A4-DISTINCT-ESSE-EXTERNAL-CAUSE",
-    "Q3A4-ESSE-CAUSE-OMISSION-MODELS",
-    "PSR-STRENGTH-MAP",
-    "EXPLANATORY-ADEQUACY-CORE",
-    "EXPLANATORY-CLOSURE-CERTIFICATE",
-    "DASGUPTA-EXISTENCE-GROUND-INGREDIENT",
-    "DASGUPTA-OWN-NATURE-EXISTENCE"
+    "1a8692f7-dd93-587f-8141-b616c16321c3",
+    "019e2e71-9b4d-5405-b7d3-f8ba19a590c6",
+    "9d1bdcc3-732f-5188-bfb2-5b913322b1c8",
+    "94ae21f5-ec46-575f-90f2-dec9ce70c27a",
+    "f85ac952-c629-597c-b903-741815744b9a",
+    "79af86ea-8010-55d2-8737-140a3cc05e82",
+    "5a9a08b3-71ce-5aa3-bf8f-12a89f66b8e4"
   ]
 }

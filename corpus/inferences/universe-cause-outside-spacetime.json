@@ -1,10 +1,12 @@
 {
-  "id": "INF-UNIVERSE-CAUSE-OUTSIDE-SPACETIME",
+  "id": "6a4fc72f-82bd-5bb9-93a8-4e767842d1b3",
+  "label": "At the selected world every cause of the spacetime whole is not a part of…, by Constructive-proof",
+  "legacy_id": "INF-UNIVERSE-CAUSE-OUTSIDE-SPACETIME",
   "input_statement_ids": [
-    "STMT-CAUSING-WHOLE-CAUSES-PARTS",
-    "STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF"
+    "08087a25-43bd-53f2-9103-f3644c171324",
+    "8b2561cd-3743-536d-a110-3352fdb0c6b9"
   ],
-  "output_statement_id": "STMT-CAUSES-OF-UNIVERSE-OUTSIDE-SPACETIME",
+  "output_statement_id": "e11c5eaf-121f-5094-b192-dc2ce631e299",
   "rule": "constructive-proof",
   "meaning": "Owner's step (2), #1109: suppose c causes the spacetime whole and is a part of it. By the whole-to-part bridge c causes c, which no efficient cause does (ST I q.2 a.3, at the selected world's causation with a trivial respect). So every cause of the whole lies outside spacetime. No existence of a cause is assumed.",
   "assumption_statement_ids": [],

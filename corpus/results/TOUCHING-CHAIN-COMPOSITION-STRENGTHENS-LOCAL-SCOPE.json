@@ -1,6 +1,8 @@
 {
-  "id": "TOUCHING-CHAIN-COMPOSITION-STRENGTHENS-LOCAL-SCOPE",
-  "argument_id": "TOUCHING-CHAIN-COMPOSITION-STRENGTHENS-LOCAL-SCOPE",
+  "id": "d071e5bd-d5f1-5584-a07d-21c7508c2d78",
+  "label": "Every injective touching chain whose adjacent…, from If each member of an infinite chain touches…",
+  "legacy_id": "TOUCHING-CHAIN-COMPOSITION-STRENGTHENS-LOCAL-SCOPE",
+  "argument_id": "ecb9fda8-02e4-5c2e-b377-ab5e210ccc75",
   "challenge_module": "TruthCore.Results.Aristotle.Physics.LocalContactComposition.Strength.Challenge",
   "solution_module": "TruthCore.Results.Aristotle.Physics.LocalContactComposition.Strength.Solution",
   "theorem": "TruthCore.Results.Aristotle.Physics.LocalContactComposition.Strength.globalImpliesLocal",

@@ -1,25 +1,27 @@
 {
-  "id": "ATTEMPT-MODAL-DEGREE-GLOBAL-MAXIMUM",
+  "id": "d8405a98-de93-5e6c-bdba-b4e968327040",
+  "label": "Developed from baseline 10460ef33c9b96a1b66756d5f5a6ee529e85f51b without importing any new…",
+  "legacy_id": "ATTEMPT-MODAL-DEGREE-GLOBAL-MAXIMUM",
   "statement_ids": [
-    "STMT-ACTUAL-MODAL-REFLEXIVITY",
-    "STMT-MODAL-NECESSARY-AT-INDIVIDUAL",
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-MODAL-DEGREE-OTHER-DIRECTED-POTENTIAL",
-    "STMT-MODAL-DEGREE-WEAK-CAUSE-BOUND",
-    "STMT-MODAL-DEGREE-NECESSARY-INVARIANCE",
-    "STMT-MODAL-DEGREE-ACTUAL-NECESSARY-INVARIANCE",
-    "STMT-MODAL-DEGREE-NECESSARY-GLOBAL-MAXIMUM",
-    "STMT-MODAL-DEGREE-ATTAINED-GLOBAL-MAXIMUM"
+    "2b20b5af-d653-56ba-8001-35903fb3d1ea",
+    "4536ee5d-5cac-50e2-b7dc-1272fb19858a",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "1aa6d02f-f29d-55f7-9e5d-7ea609609e76",
+    "728d8bd9-92dd-5af5-b831-e49c7a4f7b5f",
+    "f02cd9f4-b7c9-5e83-bca7-19a343a4bc21",
+    "59149353-2f74-54de-9035-08640c4e24a9",
+    "c1e08724-6634-53af-b653-c56948a9892f",
+    "3d474e11-24c3-5706-bc3c-719914e8c459"
   ],
   "date": "2026-10-28",
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Developed from baseline 10460ef33c9b96a1b66756d5f5a6ee529e85f51b without importing any new nonmodal degree-fork module. Materialized KOONS-FOURTH-WAY-RECONSTRUCTION-2022-FULL-ITEM and read the complete content:encoded item, all13 steps and both closing paragraphs, rather than its abbreviated RSS description. Inspected existing Ontic, Frame, NecessaryAt and NecessaryVariableEffects fixed/alternating models before adding a separate world-indexed degree assignment over one shared Preorder. Dossiers inspected explicitly: STMT-ACTUAL-MODAL-REFLEXIVITY, STMT-MODAL-NECESSARY-AT-INDIVIDUAL, STMT-EXCLUDED-MIDDLE, and all four new potential/bound/bare-invariance/actual-guarded-invariance premises; also the named-global conclusion used as the attainment adapter's premise. Actual reflexivity plus necessity supplies actual presence and nonempty modal scope. Pointwise possible other-directed causation and the current-evaluation-world nonstrict bound give each existing individual a degree no greater than the selected n's degree there. Both directions of order-equivalent invariance transfer that bound across the root-accessible family. Explicit excluded middle handles identity with n; no global Lean classical axiom, actual causal exercise, causal sufficiency, God or uniqueness is inferred. No step5 possible-maximum premise is used. Step4 remains needed for value, so rejecting the whole first block as dispensable was explicitly rejected. Singular n, varying causal-witness worlds and other-directed scope remain open analyst commitments; no claim identifies them with the source's entire plural/literal-all/joint-witness step6. A source-attribution boundary was found before publication: bare NecessaryAt can hold for an individual absent at a nonreflexive base. Preserved the original frozen analyst Challenge/type; added a separately named actual-presence-and-necessity-guarded invariant predicate and newly frozen source-fidelity adapter that composes the original theorem. The bare invariant stays unattributed. The guarded adapter and possible-attainment adapter are labeled structural assembly/instantiation, not new philosophical discoveries. Finite omission controls concern the named n-at-every-world conclusion; they do not prove absence of every possible maximum. In particular the varying-degree control may attain a possible maximum elsewhere, so step5 alone does not replace11. Focused builds, combined corpus check and independent profile/type audit pass; axiom inspection of all three proof theorems reports no Lean axioms, with excluded middle still an explicit hypothesis. Result-specific binding and Comparator/NanoDa checks passed on119; final delivery-head CI is pending. No root premise closes. Verification checkpoint119b6783dff31690c2a689ab4b84b612d72609df: all five result-specific Comparator/NanoDa gates, full lake build and bind-check (511 bound, 2 legacy pinned, 0 mismatches) pass on the unchanged proof inputs. The complete delivery branch adds current main; final exact-head CI remains required before merge. The separate local affected-library check on119 continues independently. This successful derivation attempt establishes neither premise truth nor root closure.",
   "evidence": [
-    "MODAL-DEGREE-NECESSARY-GLOBAL-MAXIMUM",
-    "MODAL-DEGREE-ATTAINED-FROM-NAMED",
-    "MODAL-DEGREE-GLOBAL-MAXIMUM-FROM-ACTUAL-INVARIANCE",
-    "KOONS-FOURTH-WAY-2022-STEP7-WEAK-BOUND-A",
-    "KOONS-FOURTH-WAY-2022-STEP11-ACTUAL-NECESSARY-INVARIANCE-A"
+    "19545864-2145-5c4b-b5c9-568c7cf0aeac",
+    "a8fc0f3d-5c9b-50cd-abcf-b3d7fccc7bdb",
+    "c3f12498-e20f-5c9f-bc72-bbf067f480ef",
+    "295ddbcb-ad59-5bed-b9e8-b8e6d3b18ae1",
+    "c9878896-ab2b-56b9-a90c-f30e29107f2f"
   ]
 }

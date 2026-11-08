@@ -1,10 +1,12 @@
 {
-  "id": "INF-NAMING-VERACITY-DEFINITIVE-PROPOSAL-CONFIRMED",
+  "id": "4d60f265-533e-5b44-9ca2-fc26c78980aa",
+  "label": "Whatever a teaching authority founded by a GOD_4 with the…, by Assistance links founding to…",
+  "legacy_id": "INF-NAMING-VERACITY-DEFINITIVE-PROPOSAL-CONFIRMED",
   "input_statement_ids": [
-    "STMT-FOUNDER-GUARANTEES-FOUNDED-AUTHORITY",
-    "STMT-ASSISTED-DEFINITIVE-PROPOSAL-IS-CONFIRMED"
+    "a69ec0c1-5c6f-5cdb-b8f0-e9c2e4d9c51d",
+    "420a1682-0984-559f-a1c4-7fa3f6069b71"
   ],
-  "output_statement_id": "STMT-DEFINITIVE-PROPOSAL-IS-GOD-CONFIRMED",
+  "output_statement_id": "5f00cb73-5899-5399-850d-47eec2c21291",
   "rule": "Assistance links founding to confirmation",
   "meaning": "A God with the classical attributes who founds a teaching authority assists it, and what an assisted society definitively proposes as revealed the assisting God confirms; so what a God-founded teaching authority definitively proposes, its founder confirms. Two open premises.",
   "assumption_statement_ids": [],

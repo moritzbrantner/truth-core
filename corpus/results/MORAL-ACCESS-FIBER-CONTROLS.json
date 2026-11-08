@@ -1,6 +1,8 @@
 {
-  "id": "MORAL-ACCESS-FIBER-CONTROLS",
-  "argument_id": "MORAL-ACCESS-FIBER-CONTROLS",
+  "id": "1daaeb32-990a-5776-aca2-809537fcb48a",
+  "label": "Four analyst access controls for whether deliberately killing an innocent person in a specified…",
+  "legacy_id": "MORAL-ACCESS-FIBER-CONTROLS",
+  "argument_id": "d280bc59-6cad-5cf9-b7e3-a4872c020b3c",
   "challenge_module": "TruthCore.Results.Ethics.MoralAccessFibers.Challenge",
   "solution_module": "TruthCore.Results.Ethics.MoralAccessFibers.Solution",
   "theorem": "TruthCore.Results.Ethics.MoralAccessFibers.certificate",

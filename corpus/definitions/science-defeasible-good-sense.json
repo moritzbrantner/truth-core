@@ -1,9 +1,11 @@
 {
-  "id": "DEF-SCIENCE-DEFEASIBLE-GOOD-SENSE",
+  "id": "ebb31a86-84eb-566c-a270-7dfe924d9796",
+  "label": "Good sense in scientific revision: Duhem’s bon sens is reasoned judgment beyond bare…",
+  "legacy_id": "DEF-SCIENCE-DEFEASIBLE-GOOD-SENSE",
   "term": "good sense in scientific revision",
   "definition": "Duhem’s bon sens is reasoned judgment beyond bare contradiction/noncontradiction when choosing among scientific revisions. It is not an infallible calculus: judgments can be vague, arise at different times, and be distorted by attachment to one’s own system; impartiality and loyalty to inquiry matter.",
   "basis": "sourced",
   "claim_ids": [
-    "DUHEM-VI-X-DEFEASIBLE-JUDGMENT"
+    "63c209e5-dbaf-58c0-9e59-b146aca3a6b3"
   ]
 }

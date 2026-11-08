@@ -1,5 +1,7 @@
 {
-  "id": "DEF-CONCRETE-SUPPORT-RESTRICTION",
+  "id": "9146789d-5b36-572f-baa1-7eef28967793",
+  "label": "Restriction to the existing concrete…: ConcreteOntic restricts the existing Profile ontology to…",
+  "legacy_id": "DEF-CONCRETE-SUPPORT-RESTRICTION",
   "term": "restriction to the existing concrete candidate roster",
   "definition": "concreteOntic restricts the existing Profile ontology to the subtype of candidates satisfying its concrete predicate, inheriting accessibility, existence and generic causes. concreteSupport separately restricts the same Profile.grounds relation. No causal/grounding identification or existence axiom is introduced.",
   "basis": "stipulative",

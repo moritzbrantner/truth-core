@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "MCTAGGART-UNREALITY-OF-TIME",
+    "source_id": "2f0db41b-6ac4-5df9-be14-4c5eee8731a8",
     "source_url": "https://en.wikisource.org/w/index.php?title=The_Unreality_of_Time&action=raw&oldid=10776076",
     "retrieved_at": "2026-10-26T11:50:51Z",
     "sha256": "sha256:d53474f0ba5911aa16035c68292dd28be57416525068b38248347b0b3465796b",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "MCTAGGART-1908-UNREALITY-OF-TIME",
+      "id": "f10f1864-1935-585f-8e50-f25f5d1ae279",
+      "label": "J. M. E. McTaggart, The Unreality of Time, The Unreality of Time",
+      "legacy_id": "MCTAGGART-1908-UNREALITY-OF-TIME",
       "locator": "The Unreality of Time (whole paper)",
       "claim_locator_prefixes": [
         "The Unreality of Time,"

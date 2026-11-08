@@ -1,16 +1,18 @@
 {
-  "id": "OCKHAM-SL-I17-EXPRESSES-NATURE",
-  "statement_id": "STMT-UNIVERSAL-EXPRESSES-NOT-CONSTITUTES-NATURE",
-  "source_id": "OCKHAM-SUMMA-LOGICAE",
+  "id": "35174ef8-8757-5583-82cd-3e61187978cf",
+  "label": "William of Ockham, Summa logicae I.17: A universal mental or conventional sign is not a…",
+  "legacy_id": "OCKHAM-SL-I17-EXPRESSES-NATURE",
+  "statement_id": "6496fa98-8b7b-5948-830d-90910b8aa39a",
+  "source_id": "5b6a2b8d-3790-581e-b238-d1a60ad0a400",
   "locator": "I.17: fourth reply beginning Ad aliud dicendum est quod loquendo and Et hoc est quod dicit Commentator",
   "interpretation": "Bounded prose reading of the materialized Latin; no Lean declaration or mechanically verified inference is advertised. Reads the sign/constitutive-nature distinction, not the denial that substances have natures. Explaining or expressing in this semantic passage is not automatically efficient production, metaphysical grounding, or a sufficient epistemic explanation.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-UNIVERSAL-MENTAL-SIGN",
-    "DEF-UNIVERSAL-CONVENTIONAL-SIGN",
-    "DEF-COMMON-NATURE-CONSTITUENT"
+    "51266d70-d1a8-5bc8-94b0-2c948e761797",
+    "a696033a-4e98-5b14-9312-977ad8f65ca4",
+    "e5b532e1-8fa8-5abc-8d47-620301cf7d61"
   ],
   "disambiguation_ids": [
-    "DISAMB-UNIVERSAL-SIGN-AND-COMMON-NATURE"
+    "f4d3fe07-8285-54da-a878-dacf8f410a90"
   ]
 }

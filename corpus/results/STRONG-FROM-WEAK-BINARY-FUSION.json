@@ -1,6 +1,8 @@
 {
-  "id": "STRONG-FROM-WEAK-BINARY-FUSION",
-  "argument_id": "STRONG-FROM-WEAK-BINARY-FUSION",
+  "id": "758c2449-d17b-5c65-a6d8-58443f831997",
+  "label": "Whenever x is not part of y, some part of x is disjoint from y, in the…, from weak binary fusion",
+  "legacy_id": "STRONG-FROM-WEAK-BINARY-FUSION",
+  "argument_id": "c1bbbbe9-e71f-5b8f-bcff-2058cadd0afe",
   "challenge_module": "TruthCore.Results.Mereology.SupplementationFusion.Challenge",
   "solution_module": "TruthCore.Results.Mereology.SupplementationFusion.Solution",
   "theorem": "TruthCore.Results.Mereology.SupplementationFusion.strongFromWeakBinary",

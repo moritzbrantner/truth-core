@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PLAN-STATE-ACCEPTANCE",
+  "id": "8911db90-41e1-54a4-bc74-8ac31ea2de47",
+  "label": "Ideal semantic acceptance of a\u2026: Accepts state sentence means state \u2286 support sentence, with state\u2026",
+  "legacy_id": "DEF-PLAN-STATE-ACCEPTANCE",
   "term": "ideal semantic acceptance of a planning sentence",
   "definition": "Accepts state sentence means state \u2286 support sentence, with state a Set of descriptive/plan Points. It models elimination of incompatible options. It is ideal semantic acceptance, not an empirical claim that agents are explicitly aware of every consequence. Empty states accept all sentences; the controls exhibit nonempty states.",
   "basis": "stipulative",

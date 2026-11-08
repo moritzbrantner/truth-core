@@ -1,6 +1,8 @@
 {
-  "id": "CATHOLICISM-FROM-IDENTITY-WITNESS-WITHOUT-MOTION",
-  "argument_id": "CATHOLICISM-FROM-IDENTITY-WITNESS-WITHOUT-MOTION",
+  "id": "0caa037a-cdd5-5737-a523-85eccc67bed7",
+  "label": "Catholicism is TRUE_1: the Catholic Church is a teaching…, from identity witness without MOTION_1",
+  "legacy_id": "CATHOLICISM-FROM-IDENTITY-WITNESS-WITHOUT-MOTION",
+  "argument_id": "2b96f446-40e8-5331-a65b-1b9dcf59ba32",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StrengthConsumers.RootIdentity.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StrengthConsumers.RootIdentity.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StrengthConsumers.RootIdentity.catholicismIdentityWithoutMotion",

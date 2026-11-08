@@ -1,10 +1,12 @@
 {
-  "id": "INF-RUSSELL-EXISTENCE-PROJECTION",
+  "id": "6e8f1969-f99f-5e8b-a6e5-33fe7521e702",
+  "label": "From explicit realization and the optional instance-to-basis law, a grounded…, by Direct-proof",
+  "legacy_id": "INF-RUSSELL-EXISTENCE-PROJECTION",
   "input_statement_ids": [
-    "STMT-RUSSELL-REALIZED",
-    "STMT-RUSSELL-INSTANCE-BASIS-LAW"
+    "416665a5-2905-5f36-91a8-9e08bf200651",
+    "a4e42954-c3ed-5456-869e-7fb7e27acd18"
   ],
-  "output_statement_id": "STMT-RUSSELL-GROUNDING-PROJECTION",
+  "output_statement_id": "d79f317c-59c2-584b-a4e2-0ea0e216e084",
   "rule": "direct-proof",
   "meaning": "Eliminate the realized existential witness, apply the typed basis law to that very witness and retain its instantiation fact. Separately verify empty-grounding and empty-extension countermodels for the omitted premises. The sufficient norm is an explicit open philosophical input, not a sourced assertion or opaque conclusion bridge.",
   "assumption_statement_ids": [],

@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-INDIVIDUAL-JOINT-TO-INDIVIDUAL",
-  "argument_id": "NECESSARY-INDIVIDUAL-JOINT-TO-INDIVIDUAL",
+  "id": "dfd0cc90-39fd-54d1-b84c-c0e734b47def",
+  "label": "Stipulated mathematical configuration component, not…, from Stipulated mathematical… (2)",
+  "legacy_id": "NECESSARY-INDIVIDUAL-JOINT-TO-INDIVIDUAL",
+  "argument_id": "68ab085d-9b8b-5fd9-ba5b-11e9d0ee4bad",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.JointToIndividual.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.JointToIndividual.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.JointToIndividual.checks",

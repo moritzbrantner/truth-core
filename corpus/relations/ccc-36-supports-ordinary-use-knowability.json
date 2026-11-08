@@ -1,9 +1,11 @@
 {
-  "id": "REL-CCC-36-SUPPORTS-ORDINARY-USE-KNOWABILITY",
+  "id": "941de624-c080-5f57-9f2b-32636a8e78fd",
+  "label": "Catholic Church, Catechism of the… supports Case-2 evidence, supported: some move of… (3)",
+  "legacy_id": "REL-CCC-36-SUPPORTS-ORDINARY-USE-KNOWABILITY",
   "subject_kind": "claim",
-  "subject_id": "CCC-36-NATURAL-KNOWABILITY-TAUGHT",
+  "subject_id": "4a78e02d-4681-5eaa-b88e-6eb4ba1cc744",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-ORDINARY-USE-AFFIRMS-NATURAL-KNOWABILITY",
+  "object_id": "f8ea0d75-23ec-5106-8dee-76ce64b69e3b",
   "note": "The Catechism, the reference text of catechesis, teaches natural knowability in Dei Filius's words. Gaps: it is addressed chiefly to bishops and catechists (CCC 12, read but not pinned), so it is the teaching the faithful receive, not evidence of what they affirm; and CCC 37-38 stress the historical difficulties of such knowledge. No pinnable survey of ordinary believers is recorded."
 }

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PSR-REASON-DISTRIBUTION",
+  "id": "1ac12831-1341-5fb5-9624-07f083eb4d19",
+  "label": "Distribution of a reason over conjuncts: Distribution A says a reason for an aggregate is a reason…",
+  "legacy_id": "DEF-PSR-REASON-DISTRIBUTION",
   "term": "distribution of a reason over conjuncts",
   "definition": "Distribution A says a reason for an aggregate is a reason for each of its conjuncts. It is a premise under test, and mutualReasons satisfies the rest of the core without it.",
   "basis": "stipulative",

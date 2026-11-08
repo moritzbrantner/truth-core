@@ -1,6 +1,8 @@
 {
-  "id": "MODAL-S5-LANGUAGE",
-  "argument_id": "MODAL-S5-LANGUAGE",
+  "id": "aa7df6e5-2d18-57cd-af1e-ce9a5d5605b2",
+  "label": "For S5 and a negation-closed domain, explicit excluded middle and possible domain-relative MC…",
+  "legacy_id": "MODAL-S5-LANGUAGE",
+  "argument_id": "1d3cf635-a5d5-5045-9ec4-feb309029768",
   "challenge_module": "TruthCore.Results.Modal.S5.Language.Challenge",
   "solution_module": "TruthCore.Results.Modal.S5.Language.Solution",
   "theorem": "TruthCore.Results.Modal.S5.Language.checks",

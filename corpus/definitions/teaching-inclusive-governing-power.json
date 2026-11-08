@@ -1,5 +1,7 @@
 {
-  "id": "DEF-TEACHING-INCLUSIVE-GOVERNING-POWER",
+  "id": "4ada8322-c61c-567c-b615-d056bde1c2e9",
+  "label": "GOVERNING_POWER_2, teaching-inclusive…: The selected governing predicate applies exactly to powers…",
+  "legacy_id": "DEF-TEACHING-INCLUSIVE-GOVERNING-POWER",
   "term": "governing power, teaching-inclusive analyst criterion",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Case.Catholicism.StageThree.CommissionDefinitions.TeachingInclusiveGovernanceCriterion",

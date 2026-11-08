@@ -1,6 +1,8 @@
 {
-  "id": "STRENGTH-CAUSE-DELTA-FORWARD",
-  "argument_id": "STRENGTH-CAUSE-DELTA-FORWARD",
+  "id": "0e49c8cc-b290-5a0f-b16d-b4ed0f734a1f",
+  "label": "Every generated thing that causes itself has a…, from Anything that comes to be has some distinct…",
+  "legacy_id": "STRENGTH-CAUSE-DELTA-FORWARD",
+  "argument_id": "08e939d6-d6ff-5a02-9112-c1578c53ffd7",
   "challenge_module": "TruthCore.Results.Logic.StrengthCause.Challenge",
   "solution_module": "TruthCore.Results.Logic.StrengthCause.Solution",
   "theorem": "TruthCore.Results.Logic.StrengthCause.deltaForward",

@@ -1,17 +1,19 @@
 {
-  "id": "ATTEMPT-PLAN-STATE-EMBEDDING-CONTROL",
+  "id": "f949402e-42b0-5a05-bf01-f4a7a612da3f",
+  "label": "A stipulated planning-language semantics derives acceptance-preserving modus ponens structurally…",
+  "legacy_id": "ATTEMPT-PLAN-STATE-EMBEDDING-CONTROL",
   "date": "2026-10-26",
   "statement_ids": [
-    "STMT-PLAN-STATE-EMBEDDING-CONTROL",
-    "STMT-EXPRESSIVISM-CONSISTENT-WITH-GEACH-VALIDITY"
+    "a552d16c-b24b-5437-8a28-23fa1f5c8aaa",
+    "4318bfeb-6f3a-5f48-a28b-7142aec48eb3"
   ],
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "A stipulated planning-language semantics derives acceptance-preserving modus ponens structurally instead of assuming primitive ValidMP. Singleton compatible states use distinct direct/induced forbidden-action atoms and leave a third action permitted; a second state refutes affirming the consequent. Lean build, bind-check and the conventional Comparator/NanoDa result gate pass. The primary Gibbard response motivates permission versus picking but explicitly differs on false-antecedent indicative truth; no historical semantic identification, actual-psychology bridge, theory-answer upgrade or root-premise discharge follows. Definitions and remaining gaps are in docs/expressivist-embedding-boundary.md.",
   "evidence": [
-    "PLAN-STATE-EMBEDDING-CONTROL",
-    "EXPRESSIVISM-CONSISTENT-WITH-GEACH-VALIDITY",
-    "GIBBARD-REPLY-2022-541-PERMISSION-NOT-PICKING",
-    "GIBBARD-REPLY-2022-536-INDICATIVE-NOT-MATERIAL-TRUTH"
+    "c70aa25c-6858-5354-ab0e-5306b9f60a9e",
+    "91f36c85-17b3-5043-b105-3944d3d8d67e",
+    "dcca546d-6976-5eb8-a60a-750d73983cb8",
+    "add2d90b-631c-571d-a2ae-70d30fd6a1b4"
   ]
 }

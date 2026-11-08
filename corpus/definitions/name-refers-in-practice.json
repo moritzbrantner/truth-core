@@ -1,5 +1,7 @@
 {
-  "id": "DEF-NAME-REFERS-IN-PRACTICE",
+  "id": "415c0bdc-24cd-5701-8d14-4b98b26aca64",
+  "label": "REFERS_TO_1: N.RefersTo n b: in the practice's use, the name n REFERS_TO_1 the being b",
+  "legacy_id": "DEF-NAME-REFERS-IN-PRACTICE",
   "term": "refers to (a name, in a practice's use)",
   "definition": "`N.RefersTo n b`: in the practice's use, the name n refers to (applies to) the being b. The practice-use sense of a name's application, as minimalists speak of reference inside a language game; not the proper sense fixed by a nominal definition (DEF-GOD-NOMINAL-Q13).",
   "basis": "stipulative",

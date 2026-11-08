@@ -1,15 +1,17 @@
 {
-  "id": "LOGIC-NON-CONTRADICTION",
+  "id": "fcee262a-dfba-56d4-95b6-e35bbff475dc",
+  "label": "Inside Lean logic, ∀ P: Prop, ¬: no proposition holds together with its negation",
+  "legacy_id": "LOGIC-NON-CONTRADICTION",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-LEAN-NON-CONTRADICTION",
+  "conclusion_statement_id": "e02e6c70-fbc0-59e2-8cef-edd44715b893",
   "inference_ids": [
-    "INF-LOGIC-NON-CONTRADICTION"
+    "5d5bf7e2-1ecf-5ad6-b1a7-ccf14c55203b"
   ],
   "meaning": "A proof of P ∧ ¬ P applies its second component to its first.",
   "definition_ids": [
-    "DEF-LEAN-PROPOSITION-HOLDING"
+    "295c5c65-7654-5a9f-8f01-cd9071dd31f1"
   ],
   "disambiguation_ids": [
-    "DISAMB-TRUE"
+    "80b5fc49-ed55-5c61-b14b-3621d2aa1520"
   ]
 }

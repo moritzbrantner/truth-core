@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-GOOD-PRACTICAL-AND-ONTOLOGICAL",
+  "id": "9880c06b-e689-5294-b349-badb981abbf6",
+  "label": "Good in being and good in practical precepts",
+  "legacy_id": "DISAMB-GOOD-PRACTICAL-AND-ONTOLOGICAL",
   "term": "good in being and good in practical precepts",
   "sense_definition_ids": [
-    "DEF-GOOD-AS-BEING-IN-ACT",
-    "DEF-NATURAL-LAW-FIRST-PRECEPT"
+    "4c8f0e6b-7ef6-5be5-851c-cdf4f0301546",
+    "4e86d1ed-86f3-5ed2-b484-78a012f0bfa1"
   ],
   "resolution": "GoodIn on beings/perfections is actuality in the q.5 reading; GoodAct on acts is the practical-good predicate in q.94’s first precept. CatholicNaturalLaw conjoins these commitments but contains no identification or derivation of the latter predicate from the former."
 }

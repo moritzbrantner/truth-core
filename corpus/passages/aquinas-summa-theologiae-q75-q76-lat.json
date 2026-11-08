@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "AQUINAS-ST",
+    "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
     "source_url": "https://www.corpusthomisticum.org/sth1075.html",
     "sha256": "sha256:a32d975659d756b0e7df3adf3e587ecbfa9f080cc2e4a7f15f6aeb173390381c",
     "wayback_url": "https://web.archive.org/web/20260214190252id_/https://www.corpusthomisticum.org/sth1075.html",
@@ -13,7 +13,9 @@
   },
   "passages": [
     {
-      "id": "AQUINAS-ST-I-Q75-A1-A2",
+      "id": "11797b6d-d2d8-5395-8c0a-42c6b0f027aa",
+      "label": "Thomas Aquinas, Summa theologiae, I q.75 a.1–2, with question prologue",
+      "legacy_id": "AQUINAS-ST-I-Q75-A1-A2",
       "locator": "I q.75 a.1–2, with question prologue",
       "claim_locator_prefixes": [
         "I q.75 a.1 ",
@@ -31,7 +33,9 @@
       "incipit": "[31447] Iª q. 75 pr. Post considerationem creaturae spiritualis et corporalis,"
     },
     {
-      "id": "AQUINAS-ST-I-Q76-A1",
+      "id": "6b299f74-29dc-57d5-b8ef-4267ef4c94a1",
+      "label": "Thomas Aquinas, Summa theologiae, I q.76 a.1",
+      "legacy_id": "AQUINAS-ST-I-Q76-A1",
       "locator": "I q.76 a.1",
       "claim_locator_prefixes": [
         "I q.76 a.1 "

@@ -1,6 +1,8 @@
 {
-  "id": "CONTINGENT-ATOMICITY-NECESSARY-BEING",
-  "argument_id": "CONTINGENT-ATOMICITY-NECESSARY-BEING",
+  "id": "5dc623a7-2fc8-5123-89a8-7d5f70b69bca",
+  "label": "At least one individual exists at the…, from The non-null object domain is inhabited and 5 more (3)",
+  "legacy_id": "CONTINGENT-ATOMICITY-NECESSARY-BEING",
+  "argument_id": "6437255f-fcd5-520d-a81c-0187f4c580f9",
   "challenge_module": "TruthCore.Results.Causality.ContingentAtomicity.Challenge",
   "solution_module": "TruthCore.Results.Causality.ContingentAtomicity.Solution",
   "theorem": "TruthCore.Results.Causality.ContingentAtomicity.necessaryBeing",

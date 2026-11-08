@@ -1,5 +1,7 @@
 {
-  "id": "DEF-JOINT-SCENARIO-SUFFICIENCY",
+  "id": "800637b5-8f4b-54ea-865d-c4fd444d1632",
+  "label": "Scenario-relative joint sufficiency…: A supplied antecedent event set suffices for an effect when…",
+  "legacy_id": "DEF-JOINT-SCENARIO-SUFFICIENCY",
   "term": "scenario-relative joint sufficiency and contributor deletion",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Causality.JointGroups.Exercise.suffices",

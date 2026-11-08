@@ -1,12 +1,14 @@
 {
-  "id": "SEP-WITTGENSTEIN-2-4-RESOLUTE-A",
-  "statement_id": "STMT-TLP-RESOLUTE-READING-NO-INEFFABLE",
-  "source_id": "SEP-WITTGENSTEIN",
+  "id": "31b04d2e-8e89-5c29-ac3f-4179a23d5ca7",
+  "label": "Anat Biletzki and Anat Matar, Ludwig…: Recent reading of the Tractatus: NONSENSE_2 is plain…",
+  "legacy_id": "SEP-WITTGENSTEIN-2-4-RESOLUTE-A",
+  "statement_id": "84af6e34-c1c5-5039-a0fc-dba2667e9ecd",
+  "source_id": "a3393ce3-0953-5c20-88e0-94cdcfcc5712",
   "locator": "§2.4, More recent readings tend to take nonsense more seriously",
   "interpretation": "The entry: 'More recent readings tend to take nonsense more seriously as exactly that—nonsense', taking 6.54 seriously and 'throwing out the Tractatus itself, including the distinction between what can be said and what can only be shown'; 'The Tractatus, on this stance, does not point at ineffable truths (of, e.g., metaphysics, ethics, aesthetics, etc.), but should lead us away from such temptations.' Attribution reading of the position the entry reports, not a view of the entry's author.",
   "status": "formalized",
   "attribution": "The passage states that recent readings take the book's nonsense as plain nonsense, throw out the saying/showing distinction and deny that the book points at ineffable truths, which is the premise.",
   "definition_ids": [
-    "DEF-TLP-NONSENSE-PLAIN"
+    "d94541de-78e7-5634-a11c-9d7d81b6e58f"
   ]
 }

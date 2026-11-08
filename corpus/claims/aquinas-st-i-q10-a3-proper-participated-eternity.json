@@ -1,15 +1,17 @@
 {
-  "id": "AQUINAS-ST-I-Q10-A3-PROPER-PARTICIPATED-ETERNITY",
-  "statement_id": "STMT-PROPER-AND-PARTICIPATED-ETERNITY-DIFFER",
-  "source_id": "AQUINAS-ST",
+  "id": "5ed0428b-45fe-5b28-883c-b6ddf705b55f",
+  "label": "Thomas Aquinas, Summa theologiae I q.10 a.3…: Aquinas reserves proper eternity to God and…",
+  "legacy_id": "AQUINAS-ST-I-Q10-A3-PROPER-PARTICIPATED-ETERNITY",
+  "statement_id": "f724e807-67ee-51f2-a731-1f2eb407c913",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.10 a.3 co. and ad 2: aeternitas vere et proprie in solo Deo est",
   "interpretation": "This records the article's distinctions, not a new proof that only God is eternal. Scriptural extended uses and participated stability do not by themselves instantiate the primitive proper Eternal predicate.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-ETERNAL",
-    "DEF-PARTICIPATED-ETERNITY"
+    "1291944d-a8b2-54eb-899d-66bd5f8b4762",
+    "a26cce29-0205-5671-a1b1-8ad3d962c82a"
   ],
   "disambiguation_ids": [
-    "DISAMB-DURATION-SENSE"
+    "6805c9bd-fade-56d1-a034-c7a87d78c343"
   ]
 }

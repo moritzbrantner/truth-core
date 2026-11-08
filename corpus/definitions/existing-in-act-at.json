@@ -1,5 +1,7 @@
 {
-  "id": "DEF-EXISTING-IN-ACT-AT",
+  "id": "fc6f0e12-470f-5717-8c5b-ece7a450fe59",
+  "label": "Selected-world…: ExistingInActAt m InAct esse w says that every x with m.ExistsAt w x satisfies…",
+  "legacy_id": "DEF-EXISTING-IN-ACT-AT",
   "term": "selected-world existence-to-act-in-esse interface",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Causality.ExistenceActuality.ExistingInActAt",

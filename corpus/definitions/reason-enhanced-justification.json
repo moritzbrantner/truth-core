@@ -1,11 +1,13 @@
 {
-  "id": "DEF-REASON-ENHANCED-JUSTIFICATION",
+  "id": "8103573d-6f9b-5507-aab5-550b32be3c33",
+  "label": "REASON_ENHANCED_JUSTIFICATION_1: A particular epistemic improvement attributed to offering…",
+  "legacy_id": "DEF-REASON-ENHANCED-JUSTIFICATION",
   "term": "reason-enhanced justification",
   "basis": "sourced",
   "definition": "A particular epistemic improvement attributed to offering sufficiently good reasons for a belief. A reason may enhance a target although that reason has not yet itself been reason-enhanced; this does not say it is wholly unjustified, irrelevant or false. This status is distinct from the availability of reasons, an actual basing relation, complete justification and knowledge without qualification.",
   "claim_ids": [
-    "KLEIN-TURRI-1-ENHANCEMENT",
-    "KLEIN-TURRI-3B-RESTRICTED-STATUS"
+    "b082ea61-f9ce-5a3e-8c2b-76490df7d765",
+    "040a428d-cde5-56d8-b15e-d074250746e4"
   ],
   "note": "Source-specific epistemic reading, not an interpretation of physical causation, existence or GeneratedWarrant. No universal adequacy standard is established by attribution."
 }

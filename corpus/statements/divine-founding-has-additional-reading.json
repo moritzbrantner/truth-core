@@ -1,15 +1,17 @@
 {
-  "id": "STMT-DIVINE-FOUNDING-HAS-ADDITIONAL-READING",
+  "id": "82a56c80-ea9f-5263-a2b9-00fcdc26172d",
+  "label": "For the fixed semantic profile, founded-as-teaching-authority coextends with neither named…",
+  "legacy_id": "STMT-DIVINE-FOUNDING-HAS-ADDITIONAL-READING",
   "paraphrase": "For the fixed semantic profile, founded-as-teaching-authority coextends with neither named direct-only nor Jesus-envoy-inclusive criterion. This precise remaining reading concerns extensions rather than a new name or alias; it does not itself determine whether the old envoy bridge holds.",
   "lean_declaration": "TruthCore.Case.Catholicism.StageThree.FoundingDefinitions.AdditionalFoundingReading",
   "definition_ids": [
-    "DEF-PRINCIPAL-ACT-FOUNDING-READING",
-    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
-    "DEF-FOUNDED-BY-GOD-IMMEDIATELY",
-    "DEF-GOD-OF-CLASSICAL-THEISM"
+    "052f142e-f782-5787-b137-2c2fb539e5c7",
+    "e225d39c-9081-5d1f-80f5-ed121dbb9a30",
+    "c57ddcaf-1b50-58d8-b688-4967cc1028b1",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807"
   ],
   "disambiguation_ids": [
-    "DISAMB-FOUNDED-BY-GOD",
-    "DISAMB-GOD"
+    "87582d70-e56a-5e51-9377-84b6655b1b68",
+    "205a39c3-915d-5fe4-8076-a9ff91329e08"
   ]
 }

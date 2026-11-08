@@ -1,7 +1,9 @@
 {
-  "id": "INF-TARGET-COPY-ENTAILING-EXPANSION",
+  "id": "2dae7a0d-f610-5d50-ab43-7c118bcdd456",
+  "label": "Every existing concrete-grounding Profile admits an expansion…, by Constructive expansion…",
+  "legacy_id": "INF-TARGET-COPY-ENTAILING-EXPANSION",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-TARGET-COPY-ENTAILING-EXPANSION",
+  "output_statement_id": "8e1ee46d-459e-54f3-976f-7a687dbc39b9",
   "rule": "Constructive expansion, validity projection and inhabited common-arena controls",
   "meaning": "The target-coded reason entails its target at every accessible world by its definition, independently of the original ontology or grounds. All three explicitly populated common-arena dependence assignments therefore survive this proposed constraint. Existing successor non-well-foundedness is reused, not reproved.",
   "assumption_statement_ids": [],

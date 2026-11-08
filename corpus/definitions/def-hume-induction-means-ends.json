@@ -1,10 +1,12 @@
 {
-  "id": "DEF-HUME-INDUCTION-MEANS-ENDS",
+  "id": "e087f03b-3e19-5761-865e-0372e3d4cb91",
+  "label": "Adjustment of means to ends through…: MeansEndsDependence says adjustment of means to ends…",
+  "legacy_id": "DEF-HUME-INDUCTION-MEANS-ENDS",
   "term": "adjustment of means to ends through custom",
   "definition": "MeansEndsDependence says adjustment of means to ends requires custom. It does not say every customary choice succeeds, nor that absence of an inferential foundation eliminates action.",
   "basis": "sourced",
   "lean_declaration": "TruthCore.Modern.Hume.Induction.MeansEndsDependence",
   "claim_ids": [
-    "HUME-ENQUIRY-V-MEANS-ENDS-A"
+    "69f35326-6563-57ce-92fc-8838ba1983c2"
   ]
 }

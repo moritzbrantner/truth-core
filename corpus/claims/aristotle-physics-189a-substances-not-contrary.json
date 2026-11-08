@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-189A-SUBSTANCES-NOT-CONTRARY-A",
-  "statement_id": "STMT-SUBSTANCE-NOT-CONTRARY-TO-SUBSTANCE",
-  "source_id": "ARIST-PHYS",
+  "id": "57fb332d-6fe4-56f8-931e-04e463801f5d",
+  "label": "Aristotle, Physics I.6, 189a32-34: A substance is not contrary to another substance in the sense…",
+  "legacy_id": "ARIST-PHYS-189A-SUBSTANCES-NOT-CONTRARY-A",
+  "statement_id": "8b8fc022-d66e-5a56-932f-e8f885be4165",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.6, 189a32-34",
   "interpretation": "Aristotle invokes the constraint that substance is not contrary to substance as part of his objection to making contrary non-substances prior to substances. Only the explicit non-contrariety claim is formalized here.",
   "status": "formalized"

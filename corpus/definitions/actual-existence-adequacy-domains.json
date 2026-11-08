@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ACTUAL-EXISTENCE-ADEQUACY-DOMAINS",
+  "id": "d0e01ccd-6c7e-5955-af53-1991ae902b18",
+  "label": "LOGICAL_EVIDENCE_1, modal existence and…: Basic-literal evidence is evaluated over all Boolean…",
+  "legacy_id": "DEF-ACTUAL-EXISTENCE-ADEQUACY-DOMAINS",
   "term": "logical evidence, modal existence and intervention domains",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Explanation.ActualExistenceAdequacy.VerificationIndependent",

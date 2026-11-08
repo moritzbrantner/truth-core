@@ -1,11 +1,13 @@
 {
-  "id": "STMT-COMPOSER-TEMPORAL-DEFINITION-CONTROLS",
+  "id": "9fb0e2e5-a867-5751-9bf8-269392397735",
+  "label": "Finite controls: departed-builder production satisfies temporal calibration, temporal-composer and…",
+  "legacy_id": "STMT-COMPOSER-TEMPORAL-DEFINITION-CONTROLS",
   "paraphrase": "Finite controls: departed-builder production satisfies temporal calibration, temporal-composer and all-time no-self, but not current-composer/current-calibration; past self-production satisfies only current no-self; overlap satisfies both calibrations; remainder fails both; uniter-restricted persistence does not entail global persistence. Formal interpretations, not actual or metaphysically possible worlds.",
   "lean_declaration": "TruthCore.Causality.ComposerTemporalDefinitionFork.BoundaryControls",
   "definition_ids": [
-    "DEF-COMPOSER-TEMPORAL-PROFILE"
+    "c20f04bb-c069-5be5-b2c1-691fc994dcb9"
   ],
   "disambiguation_ids": [
-    "DISAMB-UNITING-CAUSE"
+    "57f80020-fa6f-5b69-be58-b4cf95b7226f"
   ]
 }

@@ -1,7 +1,9 @@
 {
-  "id": "INF-ACTUAL-FULL-FUSION-WITHOUT-NECESSITY",
+  "id": "fe86c3c9-e124-5456-bc4d-88e07b83d483",
+  "label": "One fixed Body interpretation jointly has the existing atomic\u2026, by Joint-principal-ideal-full-fu\u2026",
+  "legacy_id": "INF-ACTUAL-FULL-FUSION-WITHOUT-NECESSITY",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-ACTUAL-FULL-FUSION-WITHOUT-NECESSITY",
+  "output_statement_id": "17a2d131-fa0a-5bc5-9b69-e70a7ccf9807",
   "rule": "joint-principal-ideal-full-fusion-countermodel",
   "meaning": "Reuse the checked AtomicCertificate on the exact existing Body. In the universal three-world model ExistsAt w x iff x\u2264w, reflexivity supplies population and candidate possibility, transitivity supplies downward actuality, and imported Sum2/IsLUB comparison makes each actual family fusion actual. A candidate cannot lie in both disjoint singleton worlds, so none is necessary. The world object is its greatest actual whole; there is no fixed common actual object. The fixed global whole has an actual singleton part where that whole is absent.",
   "assumption_statement_ids": [],

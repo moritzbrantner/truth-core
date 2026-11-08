@@ -1,9 +1,11 @@
 {
-  "id": "INF-NATURALISM-MATCHED-LOGICAL-FLOOR",
+  "id": "0077a4e4-abe5-53e9-a445-0e0f7eeafcc0",
+  "label": "The fixed public survivor dictionaries jointly satisfy the…, by Constructive-model-composition",
+  "legacy_id": "INF-NATURALISM-MATCHED-LOGICAL-FLOOR",
   "input_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-NATURALISM-MATCHED-LOGICAL-FLOOR",
+  "output_statement_id": "89b040a1-6995-5861-b49e-4439d9a55e2e",
   "rule": "constructive-model-composition",
   "meaning": "Conditional model compatibility on the exact old public survivor ontology/frame: all three N1 spatiotemporal readings and part-based N2/N3/N3i coexist with case non-contradiction, explicitly granted global excluded middle, thin F6 and a SAME actually existing located part-agent. Every agent in the displayed literal thin relation is existing/located/part. No stronger normative authority, nonspatial reason-fact, full floor profile or actual-world adequacy is established. The inherited constructor two is a candidate label for the singleton anchor, not the mathematical number 2.",
   "assumption_statement_ids": [],

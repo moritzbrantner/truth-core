@@ -1,7 +1,13 @@
 {
-  "id": "STMT-NB-ONE-CONTINGENT-POSSIBLY-CAUSEABLE",
+  "id": "5a19d7bf-50dd-58ab-89a1-4ce361c3f597",
+  "label": "It is possible for a cause to bring about the situation in which at least one contingent thing…",
+  "legacy_id": "STMT-NB-ONE-CONTINGENT-POSSIBLY-CAUSEABLE",
   "paraphrase": "It is possible for a cause to bring about the situation in which at least one contingent thing exists, provided the five-instance possible-causability and downward-transfer premises hold. No source of that possible causation is identified.",
   "lean_declaration": "TruthCore.Causality.NecessaryBeingSurvey.OneCausable",
-  "definition_ids": ["DEF-NB-COUNT-CAUSABILITY"],
-  "disambiguation_ids": ["DISAMB-NB-CAUSABILITY"]
+  "definition_ids": [
+    "688f2e05-6390-5460-9bd0-190a819df1fa"
+  ],
+  "disambiguation_ids": [
+    "88d21f57-4108-56a6-8cf9-5ab5f21935a5"
+  ]
 }

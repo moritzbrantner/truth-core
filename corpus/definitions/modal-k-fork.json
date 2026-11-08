@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MODAL-K-FORK",
+  "id": "5e61ee7e-61d1-580b-89a9-f812e01b15ea",
+  "label": "K_FORK_4, sink and disconnected component: Fork link explicitly lists root, sink, branch and remote",
+  "legacy_id": "DEF-MODAL-K-FORK",
   "term": "K fork, sink and disconnected component",
   "definition": "fork link explicitly lists root, sink, branch and remote. Root accesses sink and branch, remote only itself, and branch accesses sink exactly when link=true. Sink has no successors. The one atom is true at sink and remote and false at root and branch; p is that same atom predicate. K imposes no frame condition. A disconnected component here means no cross-component edge; remote does not enter root-relative modal quantification. These labels and valuations are stipulated mathematical states.",
   "basis": "stipulative",

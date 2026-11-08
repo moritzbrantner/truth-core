@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PARM-DIRECT-COGNITION",
+  "id": "80cbb7c2-281a-5045-9221-cd15f9647596",
+  "label": "KNOWLEDGE_2: Direct a r is successful immediate cognitive access to a presentation r",
+  "legacy_id": "DEF-PARM-DIRECT-COGNITION",
   "term": "knowledge",
   "definition": "Direct a r is successful immediate cognitive access to a presentation r. This is not mere exposure to a stimulus; no inference from perception alone or from participation alone supplies Direct. Knows targets the represented object in the mediation test, whereas Direct targets its presentation.",
   "basis": "stipulative",

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-CORRECT-MOVE-IN-PRACTICE",
+  "id": "d4a6e314-ca7b-563f-b2ef-8a855db8597b",
+  "label": "Correct move: P.Correct m: the move m is correct by the grammar of the practice P, that is, it is…",
+  "legacy_id": "DEF-CORRECT-MOVE-IN-PRACTICE",
   "term": "correct move (in a practice)",
   "definition": "`P.Correct m`: the move m (an affirmation, confession or condemnation made in the practice) is correct by the grammar of the practice P, that is, it is a move the practice's rules make right, not merely one some participant makes.",
   "basis": "stipulative",

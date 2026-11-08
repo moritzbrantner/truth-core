@@ -1,20 +1,23 @@
 {
-  "id": "BRIDGE-ARIST-MOTION-ANALYSIS-MOVED-AS-IN-POTENCY",
+  "id": "b4eccbb4-4430-568f-ab78-f181f1db5b06",
+  "label": "Nothing is moved except insofar as it is in…, from A being is being moved in a respect exactly…",
+  "legacy_id": "BRIDGE-ARIST-MOTION-ANALYSIS-MOVED-AS-IN-POTENCY",
   "premise_statement_ids": [
-    "STMT-BEING-MOVED-IS-ACTUALIZATION-OF-POTENCY"
+    "0628359b-4a71-5c67-a84b-0fd80104aceb"
   ],
-  "conclusion_statement_id": "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
+  "conclusion_statement_id": "4be9a4ac-699a-5adc-88d4-bbd958fa1576",
   "inference_ids": [
-    "INF-BRIDGE-ARIST-MOTION-ANALYSIS-MOVED-AS-IN-POTENCY"
+    "749773a1-15e4-52b4-bf55-9a0e582eace0"
   ],
   "meaning": "Bridge (#401): Aristotle's definition of motion, *Physics* III.1, 201a10-11 (STMT-BEING-MOVED-IS-ACTUALIZATION-OF-POTENCY: a being is moved in a respect exactly when it is in potency to it and that potency, as potency, is being actualized), entails the prima via's premise (STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY): whatever is moved in a respect is in potency to it. Only the left-to-right half of the definition and its first conjunct are used. As for potency, ActPotencyDefinitionalAnalysesConservative shows the definition is no stronger than the premise; this bridge moves the premise's openness to the Aristotle reading and does not discharge it.",
   "definition_ids": [
-    "DEF-ACTUALIZATION-QUA-POTENTIAL",
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-POTENCY",
-    "DEF-RESPECT"
+    "04cbb76b-147d-5738-9897-0472fa0e0513",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
-  "disambiguation_ids": ["DISAMB-POTENCY",
-    "DISAMB-MOTION"
+  "disambiguation_ids": [
+    "508617ab-cf24-5f3b-a387-64b3991359ec",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
   ]
 }

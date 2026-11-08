@@ -1,10 +1,12 @@
 {
-  "id": "INF-INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-PRODUCTION",
+  "id": "28241b87-0af7-5195-be80-6040deb1d8c3",
+  "label": "Analyst intellectual-operation instance of operari sequitur esse…, by Universal instantiation…",
+  "legacy_id": "INF-INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-PRODUCTION",
   "input_statement_ids": [
-    "STMT-INTELLECTUAL-EXERCISE-PRODUCES-AT",
-    "STMT-AQUINAS-OPERATION-ONLY-OF-BEING-IN-ACT"
+    "54b0131b-96f2-51b6-b47d-87a0b7f2219c",
+    "4cd75e82-3338-5ef6-9636-da518844a519"
   ],
-  "output_statement_id": "STMT-INTELLECTUAL-EXERCISE-REQUIRES-ACT",
+  "output_statement_id": "3dd25039-1575-5612-83a5-2cee9ce1bf7a",
   "rule": "Universal instantiation, existential elimination, modus ponens",
   "meaning": "From the OPEN and contested premise that whoever exercises intellect causes something at w (the inner word) and the q.75 a.2 reading that whatever causes something at w is in act in some respect. Reuses the pinned reading exactly as it is stated (of causing another); whoever holds understanding to be purely immanent rejects the production premise.",
   "assumption_statement_ids": [],

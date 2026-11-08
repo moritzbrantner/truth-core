@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-CAT-2A-PRIMARY-SUBSTANCE-A",
-  "statement_id": "STMT-PRIMARY-SUBSTANCE-SUBJECT-RELATIONS",
-  "source_id": "ARIST-CAT",
+  "id": "283dcc58-f3b0-55b3-8cfd-a9883056586a",
+  "label": "Aristotle, Categories V, 2a11-19; conceptual…: Something is a primary substance exactly when it is…",
+  "legacy_id": "ARIST-CAT-2A-PRIMARY-SUBSTANCE-A",
+  "statement_id": "6026cd8b-d7bb-5a36-818a-b855828fc6f0",
+  "source_id": "d570528e-c427-5d76-85d0-d389fb18e4e3",
   "locator": "V, 2a11-19; conceptual context I.2, 1a20-1b9",
   "interpretation_group": "ARIST-CAT-2A-PRIMARY-SUBSTANCE",
   "interpretation": "Definitional reading: primary substance is exactly what is neither said of a subject nor in a subject. The two source relations are left primitive; in particular, the claim does not identify them with modern predication, inherence, parthood, or dependence. The individual-human and individual-horse examples remain illustrative rather than a theory of individuals.",

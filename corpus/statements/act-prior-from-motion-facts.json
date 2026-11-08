@@ -1,19 +1,21 @@
 {
-  "id": "STMT-ACT-PRIOR-FROM-MOTION-FACTS",
+  "id": "019890ac-08aa-55a8-929d-364cbb33fbcc",
+  "label": "Formal fact: 'every POTENCY_1 is being actualized', 'whatever is moved has a mover', 'every mover…",
+  "legacy_id": "STMT-ACT-PRIOR-FROM-MOTION-FACTS",
   "paraphrase": "Formal fact: 'every potency is being actualized', 'whatever is moved has a mover', 'every mover is in act in the respect', non-simultaneity and 'an actual mover of another's potency is simply prior to it' together entail that act is simply prior to potency; each of the five is needed and all five are jointly satisfiable with motion. Without the first, the other four entail act's simple priority only for potencies being actualized, and that restricted priority, with every prima via premise, the mover-priority bridge and a potency not being actualized, allows a first mover moved by none, to which nothing else is simply prior, to be in potency in some respect. The first premise contradicts 'some potency is not being actualized now', and, read as holding in every situation, contradicts 'in some situation some potency is not being actualized'.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.ActPriorFromMotionFacts",
   "definition_ids": [
-    "DEF-ACT",
-    "DEF-POTENCY",
-    "DEF-SIMPLE-PRIORITY",
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-FIRST-BEING",
-    "DEF-PURE-ACT",
-    "DEF-RESPECT"
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "25e19d5a-5cdf-5916-a888-f6a0ce970f11",
+    "a49e4cf1-ca4f-5519-9724-892af257cedb",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION",
-    "DISAMB-IN-ACT",
-    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "be54be36-3ce8-53f9-8168-50d1114e6c76"
   ]
 }

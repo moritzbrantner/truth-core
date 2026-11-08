@@ -1,10 +1,12 @@
 {
-  "id": "STMT-KANT-IDENTIFICATION-NEEDS-BRIDGE",
+  "id": "2b0e6b67-5ee4-55d8-a4f2-37f214d97d09",
+  "label": "There is a modal interpretation with a necessarily existing individual but no existing bearer of…",
+  "legacy_id": "STMT-KANT-IDENTIFICATION-NEEDS-BRIDGE",
   "paraphrase": "There is a modal interpretation with a necessarily existing individual but no existing bearer of all positive features. Necessary existence alone does not identify an ens realissimum.",
   "definition_ids": [
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-REALITY-PROFILE"
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "b3c45d92-dee0-5a1a-9849-9924d3a1699d"
   ],
   "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.IdentificationNeedsBridge"
 }

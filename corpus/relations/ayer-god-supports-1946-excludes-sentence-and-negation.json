@@ -1,9 +1,11 @@
 {
-  "id": "REL-AYER-GOD-SUPPORTS-1946-EXCLUDES-SENTENCE-AND-NEGATION",
+  "id": "83d41d82-b372-5489-801f-5bbb2ee87f48",
+  "label": "Jennifer Hart Weed, Religious Language §2a… supports The V3 exclusion thesis: in an empirical…",
+  "legacy_id": "REL-AYER-GOD-SUPPORTS-1946-EXCLUDES-SENTENCE-AND-NEGATION",
   "subject_kind": "claim",
-  "subject_id": "IEP-REL-LANG-2A-AYER-GOD",
+  "subject_id": "239b07b1-84fa-5ea8-9256-c7caa0bae0e6",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-AYER-1946-EXCLUDES-SENTENCE-AND-NEGATION",
+  "object_id": "fd01a8b5-1b6b-5c08-a1e6-915528fa12cc",
   "note": "Gap: the quoted passage makes theistic sentences unintelligible unless verifiable; it does not say their negations are, which is Ayer's further ch. VI remark on the atheist (no admissible witness found). The statement's existence of three suitable observation statements is the analyst's typing of an ordinary empirical language."
 }

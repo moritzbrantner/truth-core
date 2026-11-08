@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-INTENTIO",
+  "id": "2e3e5bfd-2e1a-5766-933d-79a7824c6249",
+  "label": "Intention",
+  "legacy_id": "DISAMB-INTENTIO",
   "term": "intention (intentio)",
   "sense_definition_ids": [
-    "DEF-INTENTIO-AS-TENDING",
-    "DEF-INTENTION-AS-CONSCIOUS-PURPOSE"
+    "2847d4f1-a13a-5d0f-8cc1-abf1c807f92f",
+    "09b82309-2d34-512e-901f-aaeb2bac2996"
   ],
   "resolution": "The quinta via's dichotomy 'by chance or by intention' (STMT-REGULAR-BEST-BY-CHANCE-OR-BY-INTENTION) uses the broad sense, tending to an end; read as conscious purpose it would assume the knower the argument concludes to. The knower enters only through the separate premise STMT-NON-COGNITIVE-TENDING-NEEDS-KNOWING-DIRECTOR, so the argument does not equivocate between the two senses."
 }

@@ -1,16 +1,18 @@
 {
-  "id": "IEP-REL-LANG-2A-CHURCH",
-  "statement_id": "STMT-CHURCH-1949-EITHER-S-OR-NEGATION-VERIFIABLE",
-  "source_id": "IEP-RELIGIOUS-LANGUAGE",
+  "id": "e9b942ad-581e-5833-acca-86d70e434ab6",
+  "label": "Jennifer Hart Weed, Religious Language §2a: Church 1949: given three observation-statements O1…",
+  "legacy_id": "IEP-REL-LANG-2A-CHURCH",
+  "statement_id": "7b0fcb04-0562-5621-993e-8b2aa9354eb4",
+  "source_id": "5807b28f-d5c4-52dc-aa54-62f9cd4f6203",
   "locator": "§2a, \"we may show of any statement S whatever that either it or its negation is verifiable\"",
   "interpretation": "Church's review of the second edition (JSL 14, 1949, p. 53), quoted verbatim by the IEP entry. The steps are: the auxiliary is directly verifiable because with O1 it entails O3; S with it entails O2; so S is indirectly verifiable unless the auxiliary alone entails O2, in which case not-S with O3 entails O2 and not-S is directly verifiable. Attribution reading on a secondary witness.",
   "attribution": "The passage states in a verbatim quotation of Church 1949, p. 53, that for three observation-statements none of which alone entails another, any statement S or its negation is verifiable under Ayer's definition through the statement (not-O1 and O2) or (O3 and not-S), which is the premise.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-AYER-1946-VERIFIABILITY",
-    "DEF-CHURCH-SENTENCE"
+    "851dbf2e-5030-51ad-9b74-b960a87683f4",
+    "97f9d81e-1b60-5ad8-8947-54bd4f09754f"
   ],
   "disambiguation_ids": [
-    "DISAMB-VERIFIABILITY-VARIANT"
+    "e1eb387a-1052-5f34-b7f1-ea076303e1cd"
   ]
 }

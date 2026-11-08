@@ -1,10 +1,12 @@
 {
-  "id": "INF-ARIST-PHYS-VII-1-REGRESS-FROM-PER-SE-REGRESS",
+  "id": "a1d5d5d1-0385-518b-ba26-64a281dcd572",
+  "label": "There is no infinite chain in which each member is moved in local…, by Well-founded-induction",
+  "legacy_id": "INF-ARIST-PHYS-VII-1-REGRESS-FROM-PER-SE-REGRESS",
   "input_statement_ids": [
-    "STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED",
-    "STMT-NO-INFINITE-PER-SE-MOVER-SERIES"
+    "1e47e6db-da06-5a40-9ccf-fbd1f929c596",
+    "226c38f6-7bf4-552a-9a85-733cfa41d0fa"
   ],
-  "output_statement_id": "STMT-NO-INFINITE-LOCAL-MOVED-MOVER-CHAIN",
+  "output_statement_id": "784a5e0b-5b35-5aa1-b95b-2974beb98e9b",
   "rule": "well-founded-induction",
   "meaning": "Each link of a local chain is a mover other than the moved thing that moves it and is being moved, hence a per se link by the second-movers premise; an infinite descending chain of per se links contradicts the well-foundedness of the per se series.",
   "assumption_statement_ids": [],

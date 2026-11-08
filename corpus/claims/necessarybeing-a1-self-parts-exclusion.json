@@ -1,10 +1,17 @@
 {
-  "id": "NB-SURVEY-A1-SELF-PARTS-EXCLUSION",
-  "statement_id": "STMT-NB-A1-SELF-PARTS-EXCLUSION",
-  "source_id": "NECESSARYBEING-SURVEY",
+  "id": "194b1e45-e217-5eef-877f-7ab8a8233e5f",
+  "label": "Unattributed website author, Necessary…: Nothing can be the cause of its own coming to exist, or…",
+  "legacy_id": "NB-SURVEY-A1-SELF-PARTS-EXCLUSION",
+  "statement_id": "49958bf6-f0b5-5aa2-9f4e-951f3ef5fd62",
+  "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
   "locator": "A1c, step 5",
   "interpretation": "The source separately reports the impossibility of self-origination and production solely by the originated object's own parts. No causal priority, whole/part theory, or kind of causation is silently supplied in this record.",
   "status": "formalized",
-  "definition_ids": ["DEF-NB-SURVEY-CAUSE-RELATUM", "DEF-NB-SURVEY-TOTALITY"],
-  "disambiguation_ids": ["DISAMB-NB-SURVEY-A1-CAUSE"]
+  "definition_ids": [
+    "c840c46a-3e60-5fbc-81a3-3633ab562871",
+    "5c671680-2a81-587b-97ef-f893441b51bf"
+  ],
+  "disambiguation_ids": [
+    "a73418e5-248f-5bda-b82c-47d92b3151dd"
+  ]
 }

@@ -1,12 +1,14 @@
 {
-  "id": "DEF-CC100-11-PLURAL-CONCRETE-EXPLANATION",
+  "id": "d59566cf-a070-5e9a-aa4c-84620060ad92",
+  "label": "Particular contingent concrete…: Concrete is glossed as something that possibly causes something",
+  "legacy_id": "DEF-CC100-11-PLURAL-CONCRETE-EXPLANATION",
   "term": "particular contingent concrete plurality and explanation-to-bearer bridge",
   "definition": "Concrete is glossed as something that possibly causes something. Explanation concerns the fact that a selected plurality exists, and the second premise concerns all existing contingent concrete things. A necessary concrete thing is the bridge’s stated bearer conclusion, not the explanatory proposition identified with an individual.",
   "basis": "stipulative",
   "claim_ids": [
-    "CC100-11-PLURAL-EXISTENCE-EXPLANATION",
-    "CC100-11-TOTALITY-NECESSARY-CONCRETE-BRIDGE",
-    "CC100-11-CONDITIONAL-NECESSARY-CONCRETE"
+    "7557386e-7de4-550b-bd89-9a6ba69350d9",
+    "bdeea932-7783-5802-9d42-84b7ef131209",
+    "6d1d7033-29f6-594a-9a6b-540cc3f37009"
   ],
   "note": "Plural existence-fact coverage differs from individual existence PSR; aggregate admission, empty case, capability interpretation, fact/bearer conversion and rigid frame-relative necessity remain open. No actual cause, complete explanation or source truth is established."
 }

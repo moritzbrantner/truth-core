@@ -1,9 +1,11 @@
 {
-  "id": "REL-RELIGIOUS-NONDESCRIPTION-OPPOSES-LOCAL-FACE-VALUE",
+  "id": "1694b685-b1fc-50f1-9b95-645a0e5a1088",
+  "label": "A substantive descriptive-role… alternative to Analyst local fragment: each selected…",
+  "legacy_id": "REL-RELIGIOUS-NONDESCRIPTION-OPPOSES-LOCAL-FACE-VALUE",
   "subject_kind": "statement",
-  "subject_id": "STMT-RELIGIOUS-NONDESCRIPTIVE-WITNESS",
+  "subject_id": "9a6cee94-2ef4-5ed0-8838-627afec2d9f8",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-RELIGIOUS-LOCAL-FACE-VALUE",
+  "object_id": "5ee99eb5-5793-50a4-9bc7-b177f67f6c63",
   "note": "Exact same-profile incompatibility checked by the linked argument/result; not an identity with either old unbound historical source thesis. No root or philosophical-theory closure asserted."
 }

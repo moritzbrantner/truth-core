@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PILOT-OPINION-NEGATION",
+  "id": "46f9ded9-24d0-50c7-99a2-bed6cfa29986",
+  "label": "Expressed negation versus logical…: The Content → Content map neg is a syntactic/expression…",
+  "legacy_id": "DEF-PILOT-OPINION-NEGATION",
   "term": "expressed negation versus logical negation",
   "definition": "The Content → Content map neg is a syntactic/expression operation. ConflictingOpinions requires opinions of p and neg p. NegationRespected is a separate interpretive premise: truth of neg p entails nontruth of p under one predicate. The contradiction test needs that bridge; spelling an expression as negation does not prove it.",
   "basis": "stipulative",

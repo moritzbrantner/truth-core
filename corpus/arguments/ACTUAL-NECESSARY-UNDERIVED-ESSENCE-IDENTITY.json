@@ -1,43 +1,45 @@
 {
-  "id": "ACTUAL-NECESSARY-UNDERIVED-ESSENCE-IDENTITY",
+  "id": "ded82995-7a83-590c-8a53-97dac2bd9ac7",
+  "label": "Some same actually present de re necessary…, from At least one individual exists at the… and 8 more",
+  "legacy_id": "ACTUAL-NECESSARY-UNDERIVED-ESSENCE-IDENTITY",
   "premise_statement_ids": [
-    "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
-    "STMT-ACTUAL-NECESSARY-WELL-FOUNDED",
-    "STMT-ACTUAL-NO-CONTINGENT",
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-EXISTING-IN-ACT-AT",
-    "STMT-UNITING-CAUSES-PRESENT",
-    "STMT-ACTUAL-ESSE-CAUSES-SUPPORT-AT",
-    "STMT-Q3A4-DISTINCT-ESSE-CAUSE-DICHOTOMY",
-    "STMT-Q3A4-ESSENTIAL-PRINCIPLES-NOT-DISTINCT-ESSE-CAUSE"
+    "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
+    "04c53a15-bbe9-55b9-a6c1-3a00c9a12775",
+    "aee8c76c-37e9-5865-bdec-74c7c0235385",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "0436de86-6579-53f2-9ff5-2111ba44ebae",
+    "7ce040a2-7e9c-58e0-8ec1-ce99a60b587b",
+    "fd041f85-1553-5657-ad3a-95c2bb2975f7",
+    "be639b3f-a4b7-5ec0-a9be-accfd8d42598",
+    "61bd42e5-69fe-53ef-9972-c9f28b2b6d14"
   ],
-  "conclusion_statement_id": "STMT-ACTUAL-UNDERIVED-ESSENCE-IDENTITY",
+  "conclusion_statement_id": "db7f00d4-1a08-5039-8a6d-afe6f18aa5a8",
   "inference_ids": [
-    "INF-ACTUAL-NECESSARY-UNDERIVED-ESSENCE-IDENTITY"
+    "30bd2edc-8d19-5e0c-9532-e9ec4e179a45"
   ],
   "meaning": "Apply not_not_underived_of_lifting to a constant-world gated relation containing only actual R edges between necessary bearers. The actual necessary restriction is well-founded; its gated predecessors trivially lift. Local no-contingent support upgrades absence of gated incoming edges to absence of every actual existing R supporter. Explicit excluded middle selects this same actual necessary source. Apply actual_not_not_identity_direct and excluded middle to obtain represented essence–esse identity for it. This is a conditional composition consuming the existing q3 transcription; all philosophical premises remain open. No all-world underivedness, actual reflexivity, global no-contingent condition or union well-foundedness follows.",
   "definition_ids": [
-    "DEF-ACTUAL-UNDERIVED-ESSENCE-SCOPE",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-EXISTING-IN-ACT-AT",
-    "DEF-ACTUAL-ESSE-CAUSES-SUPPORT-AT",
-    "DEF-UNITING-CAUSE-ACTUALITY-INTERFACES",
-    "DEF-Q3A4-EXTERNAL-ESSE-CAUSE-MODEL",
-    "DEF-Q3A4-ESSENTIAL-PRINCIPLES-CAUSE-ESSE",
-    "DEF-ESSENCE-THOMISTIC-NATURE",
-    "DEF-ESSE",
-    "DEF-ACT",
-    "DEF-PRESENT-ESSE-SUPPORT"
+    "e342a237-70e5-57e5-83c7-4446383944ca",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "fc6f0e12-470f-5717-8c5b-ece7a450fe59",
+    "313f1c9b-a42e-57c1-95cc-ae404ef67fcb",
+    "afc7a0c6-0b7d-5a08-b406-3ecad83e36ca",
+    "e232f6c0-f1f9-5c99-9e26-946a8abe4f2e",
+    "56c9a230-137d-5207-9262-27196af6e713",
+    "183b48d2-1753-583d-aef9-4199cff86231",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "b242943a-34cc-582d-8c38-c1203b9d2c91"
   ],
   "disambiguation_ids": [
-    "DISAMB-EXISTENCE-ESSE-SUPPORT",
-    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED",
-    "DISAMB-Q3A4-CAUSAL-VS-NONCAUSAL-REASON",
-    "DISAMB-ORDINARY-CAUSE-VS-ESSE-SUPPORT-INTERFACE",
-    "DISAMB-UNITING-CAUSE-ACTUALITY",
-    "DISAMB-IN-ACT",
-    "DISAMB-ESSENCE",
-    "DISAMB-CAUSE",
-    "DISAMB-UNDERIVED-CAUSAL-SOURCE-INTERFACE"
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "5d15d8f2-1080-53c9-886f-cee2a4ff23a9",
+    "86d198f5-e724-558a-8fce-b0a1e3592e08",
+    "848f45d0-25f0-5ad9-af75-ab59f61e11c5",
+    "896d4cb9-3c62-5230-a499-f23feae9d204",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "5323527f-56a2-5d11-8a76-5b25461a61b4"
   ]
 }

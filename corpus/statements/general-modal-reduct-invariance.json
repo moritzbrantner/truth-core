@@ -1,13 +1,15 @@
 {
-  "id": "STMT-GENERAL-MODAL-REDUCT-INVARIANCE",
+  "id": "c331d37f-fcd0-5b8a-a469-739cdc1c0896",
+  "label": "For any two extensions with pointwise equivalent access/existence and the same rigid carrier…",
+  "legacy_id": "STMT-GENERAL-MODAL-REDUCT-INVARIANCE",
   "paraphrase": "For any two extensions with pointwise equivalent access/existence and the same rigid carrier identity, every SAME semantic query function receiving only those three reduct relations has equivalent truth. The query may quantify internally but must factor through that shared reduct; it receives no differing ground interpretation. Extensionality/propositional extensionality are explicit mathematical proof tools, not a claim about ground-sensitive queries.",
   "lean_declaration": "TruthCore.Explanation.GroundingBaseline.Reduct.GeneralInvariant",
   "definition_ids": [
-    "DEF-GENERAL-MODAL-REDUCT-QUERY",
-    "DEF-GROUNDING-MODAL-REDUCT",
-    "DEF-KANT-ONTOLOGICAL-MODEL"
+    "314b07c5-4c16-5093-b665-3739efb05169",
+    "aed2a89e-2482-5cd3-921f-69524c6c70c5",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109"
   ],
   "disambiguation_ids": [
-    "DISAMB-GROUNDING-BASELINE-SENSES"
+    "e940ca85-8b6b-53ea-9c3a-4fd5693ad534"
   ]
 }

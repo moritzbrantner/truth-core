@@ -1,11 +1,13 @@
 {
-  "id": "STMT-NATURAL-THEOLOGY-CONSEQUENCE-WARRANT-BRIDGE",
+  "id": "1b56e1aa-7ba1-54f5-8763-222b03f55edb",
+  "label": "Every admitted formally valid candidate argument meets the supplied independent warrant criterion",
+  "legacy_id": "STMT-NATURAL-THEOLOGY-CONSEQUENCE-WARRANT-BRIDGE",
   "paraphrase": "Every admitted formally valid candidate argument meets the supplied independent warrant criterion. Explicit OPEN profile bridge, not a theorem of formal validity.",
   "lean_declaration": "TruthCore.Logic.NaturalTheologySemanticScope.ConsequenceWarrantBridge",
   "definition_ids": [
-    "DEF-NATURAL-THEOLOGY-SEMANTIC-PROFILE",
-    "DEF-NATURAL-THEOLOGY-PROFILE-ARGUABILITY",
-    "DEF-TLP-PROFILE-NO-DIVINE-SENSE",
-    "DEF-NATURAL-THEOLOGY-CONSEQUENCE-WARRANT-BRIDGE"
+    "d36e7feb-8303-5aad-8676-461a0666e719",
+    "99cecaa6-fc74-5545-b2a6-b3bf97946cc2",
+    "51a9b67d-90df-5f3d-a342-625a3fdd6742",
+    "365dce7f-5a98-5735-ad4d-a9623e87508f"
   ]
 }

@@ -1,7 +1,9 @@
 {
-  "id": "CONFIG-CONSTITUTIVE-PLURALITY",
+  "id": "00dcf02b-b626-5c5b-8746-c60af155a16d",
+  "label": "Conditional incompatibility and six finite deletion witnesses; no premise is established and no…",
+  "legacy_id": "CONFIG-CONSTITUTIVE-PLURALITY",
   "description": "Conditional incompatibility and six finite deletion witnesses; no premise is established and no root premise closes.",
-  "seed_statement_id": "STMT-CONSTITUTIVE-CONTENT-COMPLETE",
+  "seed_statement_id": "dad1a21d-f65c-5d9e-99d2-59c9f248a0b0",
   "semantics": {
     "id": "constitutive-first-mover-shared-assignments",
     "logic": "Constructive Lean, zero axioms.",
@@ -62,12 +64,12 @@
       "content"
     ],
     "applications": {
-      "STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE": [
+      "2344542e-8036-5cbe-9dfc-af5e7907cde5": [
         "Being",
         "Principle",
         "suppositum"
       ],
-      "STMT-FIRST-MOVER-SUPPOSITUM-IS-NATURE": [
+      "3581ee6a-6cc3-57c5-aa23-b93118f0dff1": [
         "Being",
         "Principle",
         "Respect",
@@ -76,25 +78,25 @@
         "suppositum",
         "essence"
       ],
-      "STMT-FIRST-UNMOVED-MOVER-HAS-EVERY-PERFECTION": [
+      "bc44e1cd-ef24-5f9c-a7e9-8527bb888ded": [
         "Being",
         "Respect",
         "Moved",
         "Moves",
         "InAct"
       ],
-      "STMT-DISTINCT-FIRST-UNMOVED-MOVERS-EXIST": [
+      "9c2a87d8-6e76-5da6-b96c-754efbbc0f4f": [
         "Being",
         "Respect",
         "Moved",
         "Moves"
       ],
-      "STMT-CONSTITUTIVE-CONTENT-COMPLETE": [
+      "dad1a21d-f65c-5d9e-99d2-59c9f248a0b0": [
         "Principle",
         "Respect",
         "content"
       ],
-      "STMT-FIRST-MOVER-CONTENT-AGREES-WITH-ACT": [
+      "55890498-a250-5f23-9277-bd563a557378": [
         "Being",
         "Principle",
         "Respect",
@@ -111,82 +113,82 @@
     {
       "id": "full-core",
       "statement_ids": [
-        "STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE",
-        "STMT-FIRST-MOVER-SUPPOSITUM-IS-NATURE",
-        "STMT-FIRST-UNMOVED-MOVER-HAS-EVERY-PERFECTION",
-        "STMT-DISTINCT-FIRST-UNMOVED-MOVERS-EXIST",
-        "STMT-CONSTITUTIVE-CONTENT-COMPLETE",
-        "STMT-FIRST-MOVER-CONTENT-AGREES-WITH-ACT"
+        "2344542e-8036-5cbe-9dfc-af5e7907cde5",
+        "3581ee6a-6cc3-57c5-aa23-b93118f0dff1",
+        "bc44e1cd-ef24-5f9c-a7e9-8527bb888ded",
+        "9c2a87d8-6e76-5da6-b96c-754efbbc0f4f",
+        "dad1a21d-f65c-5d9e-99d2-59c9f248a0b0",
+        "55890498-a250-5f23-9277-bd563a557378"
       ]
     },
     {
       "id": "without-individual",
       "statement_ids": [
-        "STMT-FIRST-MOVER-SUPPOSITUM-IS-NATURE",
-        "STMT-FIRST-UNMOVED-MOVER-HAS-EVERY-PERFECTION",
-        "STMT-DISTINCT-FIRST-UNMOVED-MOVERS-EXIST",
-        "STMT-CONSTITUTIVE-CONTENT-COMPLETE",
-        "STMT-FIRST-MOVER-CONTENT-AGREES-WITH-ACT"
+        "3581ee6a-6cc3-57c5-aa23-b93118f0dff1",
+        "bc44e1cd-ef24-5f9c-a7e9-8527bb888ded",
+        "9c2a87d8-6e76-5da6-b96c-754efbbc0f4f",
+        "dad1a21d-f65c-5d9e-99d2-59c9f248a0b0",
+        "55890498-a250-5f23-9277-bd563a557378"
       ]
     },
     {
       "id": "without-nature",
       "statement_ids": [
-        "STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE",
-        "STMT-FIRST-UNMOVED-MOVER-HAS-EVERY-PERFECTION",
-        "STMT-DISTINCT-FIRST-UNMOVED-MOVERS-EXIST",
-        "STMT-CONSTITUTIVE-CONTENT-COMPLETE",
-        "STMT-FIRST-MOVER-CONTENT-AGREES-WITH-ACT"
+        "2344542e-8036-5cbe-9dfc-af5e7907cde5",
+        "bc44e1cd-ef24-5f9c-a7e9-8527bb888ded",
+        "9c2a87d8-6e76-5da6-b96c-754efbbc0f4f",
+        "dad1a21d-f65c-5d9e-99d2-59c9f248a0b0",
+        "55890498-a250-5f23-9277-bd563a557378"
       ]
     },
     {
       "id": "without-perfection",
       "statement_ids": [
-        "STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE",
-        "STMT-FIRST-MOVER-SUPPOSITUM-IS-NATURE",
-        "STMT-DISTINCT-FIRST-UNMOVED-MOVERS-EXIST",
-        "STMT-CONSTITUTIVE-CONTENT-COMPLETE",
-        "STMT-FIRST-MOVER-CONTENT-AGREES-WITH-ACT"
+        "2344542e-8036-5cbe-9dfc-af5e7907cde5",
+        "3581ee6a-6cc3-57c5-aa23-b93118f0dff1",
+        "9c2a87d8-6e76-5da6-b96c-754efbbc0f4f",
+        "dad1a21d-f65c-5d9e-99d2-59c9f248a0b0",
+        "55890498-a250-5f23-9277-bd563a557378"
       ]
     },
     {
       "id": "without-incomplete",
       "statement_ids": [
-        "STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE",
-        "STMT-FIRST-MOVER-SUPPOSITUM-IS-NATURE",
-        "STMT-FIRST-UNMOVED-MOVER-HAS-EVERY-PERFECTION",
-        "STMT-DISTINCT-FIRST-UNMOVED-MOVERS-EXIST",
-        "STMT-FIRST-MOVER-CONTENT-AGREES-WITH-ACT"
+        "2344542e-8036-5cbe-9dfc-af5e7907cde5",
+        "3581ee6a-6cc3-57c5-aa23-b93118f0dff1",
+        "bc44e1cd-ef24-5f9c-a7e9-8527bb888ded",
+        "9c2a87d8-6e76-5da6-b96c-754efbbc0f4f",
+        "55890498-a250-5f23-9277-bd563a557378"
       ]
     },
     {
       "id": "without-misaligned",
       "statement_ids": [
-        "STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE",
-        "STMT-FIRST-MOVER-SUPPOSITUM-IS-NATURE",
-        "STMT-FIRST-UNMOVED-MOVER-HAS-EVERY-PERFECTION",
-        "STMT-DISTINCT-FIRST-UNMOVED-MOVERS-EXIST",
-        "STMT-CONSTITUTIVE-CONTENT-COMPLETE"
+        "2344542e-8036-5cbe-9dfc-af5e7907cde5",
+        "3581ee6a-6cc3-57c5-aa23-b93118f0dff1",
+        "bc44e1cd-ef24-5f9c-a7e9-8527bb888ded",
+        "9c2a87d8-6e76-5da6-b96c-754efbbc0f4f",
+        "dad1a21d-f65c-5d9e-99d2-59c9f248a0b0"
       ]
     },
     {
       "id": "without-positive",
       "statement_ids": [
-        "STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE",
-        "STMT-FIRST-MOVER-SUPPOSITUM-IS-NATURE",
-        "STMT-FIRST-UNMOVED-MOVER-HAS-EVERY-PERFECTION",
-        "STMT-CONSTITUTIVE-CONTENT-COMPLETE",
-        "STMT-FIRST-MOVER-CONTENT-AGREES-WITH-ACT"
+        "2344542e-8036-5cbe-9dfc-af5e7907cde5",
+        "3581ee6a-6cc3-57c5-aa23-b93118f0dff1",
+        "bc44e1cd-ef24-5f9c-a7e9-8527bb888ded",
+        "dad1a21d-f65c-5d9e-99d2-59c9f248a0b0",
+        "55890498-a250-5f23-9277-bd563a557378"
       ]
     }
   ],
   "incompatibility_result_ids": [
-    "CONSTITUTIVE-NATURE-PLURALITY-CORE"
+    "019b279f-84cc-5195-8186-ec83e7d92edb"
   ],
   "implication_result_ids": [],
   "model_bindings": [
     {
-      "model_id": "MODEL-CONSTITUTIVE-INDIVIDUAL",
+      "model_id": "a3af64e9-c6cf-58b4-b026-ef042ac6a154",
       "parameters": {
         "Being": "Being",
         "Principle": "Principle",
@@ -200,7 +202,7 @@
       }
     },
     {
-      "model_id": "MODEL-CONSTITUTIVE-NATURE",
+      "model_id": "74a4d4f4-6b43-563b-8e92-1c12df9d0242",
       "parameters": {
         "Being": "Being",
         "Principle": "Principle",
@@ -214,7 +216,7 @@
       }
     },
     {
-      "model_id": "MODEL-CONSTITUTIVE-PERFECTION",
+      "model_id": "b31af257-4dc6-5c06-9542-68b948097564",
       "parameters": {
         "Being": "Being",
         "Principle": "Principle",
@@ -228,7 +230,7 @@
       }
     },
     {
-      "model_id": "MODEL-CONSTITUTIVE-INCOMPLETE",
+      "model_id": "52f18b09-7294-58e9-b1fb-bf43c44d622f",
       "parameters": {
         "Being": "Being",
         "Principle": "Principle",
@@ -242,7 +244,7 @@
       }
     },
     {
-      "model_id": "MODEL-CONSTITUTIVE-MISALIGNED",
+      "model_id": "3403f684-4aa8-5817-bacb-74c6055a37f6",
       "parameters": {
         "Being": "Being",
         "Principle": "Principle",
@@ -256,7 +258,7 @@
       }
     },
     {
-      "model_id": "MODEL-CONSTITUTIVE-POSITIVE",
+      "model_id": "fae1642f-6e47-5469-9ed2-53d92dbbd2dd",
       "parameters": {
         "Being": "Being",
         "Principle": "Principle",

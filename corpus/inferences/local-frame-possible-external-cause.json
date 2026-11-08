@@ -1,12 +1,14 @@
 {
-  "id": "INF-LOCAL-FRAME-POSSIBLE-EXTERNAL-CAUSE",
+  "id": "f61a991d-905c-57da-b8ad-e05fc12bbe38",
+  "label": "Some SAME rigid individual satisfies the supplied Scenario concrete…, by Constructive-proof",
+  "legacy_id": "INF-LOCAL-FRAME-POSSIBLE-EXTERNAL-CAUSE",
   "input_statement_ids": [
-    "STMT-EUCLIDEAN-FRAME",
-    "STMT-ACTUAL-MODAL-REFLEXIVITY",
-    "STMT-SCENARIO-POSSIBLY-BEGINS",
-    "STMT-SCENARIO-CAUSAL-OPPORTUNITY"
+    "62b4a40a-919e-5da4-998c-131c386b7361",
+    "2b20b5af-d653-56ba-8001-35903fb3d1ea",
+    "8ea0321d-293e-5767-9ab6-dc270457ef52",
+    "df89f0d2-c051-5859-aa80-5898ec5c0a65"
   ],
-  "output_statement_id": "STMT-SCENARIO-NECESSARY-CONCRETE-AT",
+  "output_statement_id": "679eb3f7-b81c-5c0f-8072-29294269c162",
   "rule": "constructive-proof",
   "meaning": "Frame-scope weakening of existing PossibleCauseOfContingency.causalOpportunityAndPossibleBeginning. Preserve the exact original Scenario, possible-beginning and causal-opportunity predicates and original world-independent concrete field. Apply opportunity to the possible beginning, retaining its SAME external totality-cause individual c at an accessible v. Import ExternalCandidateNecessity.checks with only an auxiliary equality-to-c concrete predicate, forcing its existential output to be this c and retaining the ORIGINAL concrete proof separately; this gives NecessaryAt at v. Euclidean sibling access gives that same c at every successor of w, while ActualReflexive at w gives v access back to w and hence actual existence there. No causal role or sourcehood is transported to w. Project this same c into existing Scenario.NecessaryConcreteAt. Old bound inputs: UniversalFrame s, PossiblyBeginsAt s w, CausalOpportunityAt s w. New bound inputs: Euclidean s.ontic.frame, ActualReflexive s.ontic w, the SAME PossiblyBeginsAt and SAME CausalOpportunityAt. localFrameOfUniversal proves old universal access implies the new frame bundle. Classical logic is retained from the existing external-candidate result, with the same permitted Mathlib axiom policy and no new explicit EM assumption. Existing Boolean identity-frame controls separate ONLY the frame fragments; they are not a witness to the full beginning/opportunity conjunction. No certified strictness or minimality claim for the whole bundle, no causal premise discharged, no global frame universality, transitivity, necessary-if-G suffix, individual-causation identification, causal-capability inference or divine attribute.",
   "assumption_statement_ids": [],

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-TRUTH-PREDICATE-COLLAPSE",
+  "id": "7ab6ece2-890b-5382-a73e-15e4b18a955c",
+  "label": "Collapse of a truth predicate: Collapse truth: for one predicate on one content type, ∀ p q, truth…",
+  "legacy_id": "DEF-TRUTH-PREDICATE-COLLAPSE",
   "term": "collapse of a truth predicate",
   "definition": "`Collapse truth`: for one predicate on one content type, `∀ p q, truth p ↔ truth q`. The poles are `AllHold` and `AllFail`.",
   "basis": "stipulative",

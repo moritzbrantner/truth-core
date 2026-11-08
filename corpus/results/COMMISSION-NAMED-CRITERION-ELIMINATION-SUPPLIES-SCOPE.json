@@ -1,6 +1,8 @@
 {
-  "id": "COMMISSION-NAMED-CRITERION-ELIMINATION-SUPPLIES-SCOPE",
-  "argument_id": "COMMISSION-NAMED-CRITERION-ELIMINATION-SUPPLIES-SCOPE",
+  "id": "07ccfde1-1e78-5b81-9ec7-1bf6e814376b",
+  "label": "For any being g: if Jesus holds a…, from The selected governing predicate matches… and 3 more",
+  "legacy_id": "COMMISSION-NAMED-CRITERION-ELIMINATION-SUPPLIES-SCOPE",
+  "argument_id": "387f4901-882a-5901-ad72-b661c0ea6f87",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Elimination.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Elimination.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Elimination.namedEliminationSuppliesScope",

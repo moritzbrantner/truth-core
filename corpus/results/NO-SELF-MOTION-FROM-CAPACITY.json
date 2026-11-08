@@ -1,7 +1,8 @@
 {
-  "id": "NO-SELF-MOTION-FROM-CAPACITY",
+  "id": "d8c33c8d-ea7f-54b2-b69b-d2020e260584",
   "label": "With POTENCY_3 (capacity), nothing moves itself in the same respect",
-  "argument_id": "NO-SELF-MOTION-FROM-CAPACITY",
+  "legacy_id": "NO-SELF-MOTION-FROM-CAPACITY",
+  "argument_id": "e417a889-c113-549e-a254-1df22ef38723",
   "challenge_module": "TruthCore.Results.Causality.TermSenseForks3.Challenge",
   "solution_module": "TruthCore.Results.Causality.TermSenseForks3.Solution",
   "theorem": "TruthCore.Results.Causality.TermSenseForks3.noSelfMotionCapacity",

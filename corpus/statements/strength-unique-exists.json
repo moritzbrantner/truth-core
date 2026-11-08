@@ -1,8 +1,10 @@
 {
-  "id": "STMT-STRENGTH-UNIQUE-EXISTS",
+  "id": "f976f890-aba8-59cb-a312-1feaf833e727",
+  "label": "For an arbitrary supplied type and predicate P, exactly one witness satisfies P",
+  "legacy_id": "STMT-STRENGTH-UNIQUE-EXISTS",
   "paraphrase": "For an arbitrary supplied type and predicate P, exactly one witness satisfies P.",
   "lean_declaration": "TruthCore.Logic.Strength.UniqueExistence.Unique",
   "definition_ids": [
-    "DEF-STRENGTH-PREDICATE-UNIQUENESS"
+    "386b5abc-2823-5130-a942-69bc2fe2f93f"
   ]
 }

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SUPERTASK-LIMIT-ENDPOINT",
+  "id": "d564bb74-b5a6-50be-b390-3afb84887f32",
+  "label": "SUPERTASK_LIMIT_ENDPOINT_2: A distinguished endpoint ordered strictly after every…",
+  "legacy_id": "DEF-SUPERTASK-LIMIT-ENDPOINT",
   "term": "supertask limit endpoint",
   "definition": "A distinguished endpoint ordered strictly after every natural-number-indexed substage. It is not itself one of the indexed operations and need not have an immediately preceding substage.",
   "basis": "stipulative",

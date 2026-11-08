@@ -1,13 +1,15 @@
 {
-  "id": "STMT-BINARY-SUM2-FORMATION",
+  "id": "939381cb-9f18-5c8d-9828-46cd07bd730c",
+  "label": "Every two-member Set {x,y} has an existing Sum2 Fusion in the fixed carrier",
+  "legacy_id": "STMT-BINARY-SUM2-FORMATION",
   "lean_declaration": "TruthCore.Mereology.SupplementationFusion.BinaryFusion",
   "paraphrase": "Every two-member Set {x,y} has an existing Sum2 Fusion in the fixed carrier. Repeated members are allowed; no all-family formation or ontological existence is asserted.",
   "definition_ids": [
-    "DEF-UNIVERSAL-FUSION-PROFILE",
-    "DEF-UNIVERSAL-FUSION-DOMAIN",
-    "DEF-BINARY-SUM2-FORMATION"
+    "9ec56dce-572e-5230-8247-6b3e994cb98a",
+    "094da9ef-9edb-5e88-8b7b-2eb87488e90d",
+    "e35b0145-7ce3-565f-90bd-36aac8b93a86"
   ],
   "disambiguation_ids": [
-    "DISAMB-SUM2-AND-SUM3-FUSION"
+    "27169651-d75e-5c1e-bc20-03d0eb678b81"
   ]
 }

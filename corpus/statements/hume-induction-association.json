@@ -1,13 +1,15 @@
 {
-  "id": "STMT-HUME-INDUCTION-ASSOCIATION",
+  "id": "b05c83c3-d5e4-584d-970a-613fc221dda7",
+  "label": "The three general associative relations are not infallible causes of a transition",
+  "legacy_id": "STMT-HUME-INDUCTION-ASSOCIATION",
   "paraphrase": "The three general associative relations are not infallible causes of a transition. The historical relations are explicit interpretation parameters, not proved psychological or epistemological facts.",
   "lean_declaration": "TruthCore.Modern.Hume.Induction.AssociationNotInfallible",
   "definition_ids": [
-    "DEF-HUME-INDUCTION-CUSTOM",
-    "DEF-HUME-INDUCTION-PERSISTENCE",
-    "DEF-HUME-INDUCTION-ASSOCIATION"
+    "cef4da44-097f-546a-80cc-67c3a08a80af",
+    "b0544a71-cdba-5e5a-a436-4fd7b4dc3b31",
+    "baef7cd6-ff62-5cbe-a899-6565618aa1a8"
   ],
   "disambiguation_ids": [
-    "DISAMB-HUME-INDUCTION-REASON-PRACTICE"
+    "bfbe0dc7-4c2f-5183-9f6b-f69d43e45bbe"
   ]
 }

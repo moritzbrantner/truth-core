@@ -1,14 +1,16 @@
 {
-  "id": "STRENGTH-UNIQUE-DELTA-FORWARD",
+  "id": "663b9235-8f4c-5137-9bf9-65350b6ba0a6",
+  "label": "For an arbitrary supplied type and predicate P, any two…, from For an arbitrary supplied type and…",
+  "legacy_id": "STRENGTH-UNIQUE-DELTA-FORWARD",
   "premise_statement_ids": [
-    "STMT-STRENGTH-UNIQUE-EXISTS"
+    "f976f890-aba8-59cb-a312-1feaf833e727"
   ],
-  "conclusion_statement_id": "STMT-STRENGTH-AT-MOST-ONE",
+  "conclusion_statement_id": "a0c179aa-43a0-5c0a-8b80-55cbfab4a6b5",
   "inference_ids": [
-    "INF-STRENGTH-UNIQUE-DELTA-FORWARD"
+    "3958718c-f785-5e26-9d4e-596a12ebd526"
   ],
   "meaning": "Any two witnesses equal the unique witness and hence each other.",
   "definition_ids": [
-    "DEF-STRENGTH-PREDICATE-UNIQUENESS"
+    "386b5abc-2823-5130-a942-69bc2fe2f93f"
   ]
 }

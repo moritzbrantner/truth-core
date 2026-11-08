@@ -1,9 +1,11 @@
 {
-  "id": "REL-STRONG-VERIFICATIONISM-WITH-LAWS-FAILS-REFUTES-PACKAGE",
+  "id": "fc2696c7-5309-5e7b-9060-5d42d35133b0",
+  "label": "For any frame and meaningfulness predicate… refutes The V1 package: analytic sentences are true…",
+  "legacy_id": "REL-STRONG-VERIFICATIONISM-WITH-LAWS-FAILS-REFUTES-PACKAGE",
   "subject_kind": "argument",
-  "subject_id": "STRONG-VERIFICATIONISM-WITH-LAWS-FAILS",
+  "subject_id": "32b3030e-fb60-56d2-a30a-af1b3f9c432e",
   "predicate": "refutes",
   "object_kind": "statement",
-  "object_id": "STMT-STRONG-VERIFICATIONISM-WITH-LAWS",
+  "object_id": "895fc3f2-83a4-564f-9b27-c65869369e30",
   "note": "Counts because its only premise, STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-WEAK, is an owner-approved floor item (#1008, 2026-11-05)."
 }

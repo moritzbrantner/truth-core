@@ -1,9 +1,11 @@
 {
-  "id": "REL-Q7-A1-RECEPTION-SUPPORTS-LIMITED-HAVING-IS-WITHIN-CAPACITY",
+  "id": "9fc58fca-960f-5940-ae3b-3ffe9c99a27b",
+  "label": "Thomas Aquinas, Summa theologiae I q.7 a.1… supports OPEN analyst premise: for every y…",
+  "legacy_id": "REL-Q7-A1-RECEPTION-SUPPORTS-LIMITED-HAVING-IS-WITHIN-CAPACITY",
   "subject_kind": "claim",
-  "subject_id": "AQUINAS-ST-I-Q7-A1-ESSE-LIMITED-ONLY-THROUGH-RECEPTION",
+  "subject_id": "b69b9bb1-486e-586c-8b35-e51fac9c0e20",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-LIMITED-HAVING-IS-WITHIN-CAPACITY",
+  "object_id": "a961a13e-6caf-5864-ba84-10773f0c8b2e",
   "note": "ST I q.7 a.1 co. states that a form, by being received in matter, becomes determinately the form of this thing and its amplitude is contracted by the matter. The premise adds a measure reading: if y has r limited by z, the degree of y's r is at most z's capacity for r. The passage gives no degrees or capacities, and it speaks of form received in matter (and, by the claim's reading, of esse received), not of an arbitrary perfection limited by an arbitrary z."
 }

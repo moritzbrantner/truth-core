@@ -1,6 +1,8 @@
 {
-  "id": "COLLECTIVE-POSSIBILITY-FROM-LOCAL-QUANTIFIER-ROUTE",
-  "argument_id": "COLLECTIVE-POSSIBILITY-FROM-LOCAL-QUANTIFIER-ROUTE",
+  "id": "eb949e88-40d3-58f0-a8a6-50abda17217e",
+  "label": "Collective possibility: if every being can not-be, then it is…, from local quantifier route",
+  "legacy_id": "COLLECTIVE-POSSIBILITY-FROM-LOCAL-QUANTIFIER-ROUTE",
+  "argument_id": "92beba37-05e1-5f42-a857-44e9f511c689",
   "challenge_module": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.LocalRoute.Challenge",
   "solution_module": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.LocalRoute.Solution",
   "theorem": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.LocalRoute.localRoute",

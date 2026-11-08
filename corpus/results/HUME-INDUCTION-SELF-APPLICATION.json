@@ -1,6 +1,8 @@
 {
-  "id": "HUME-INDUCTION-SELF-APPLICATION",
-  "argument_id": "HUME-INDUCTION-SELF-APPLICATION",
+  "id": "4db3900e-d6ba-5d99-84a3-27963d8caae0",
+  "label": "The blanket entitlement-denying reconstruction…, from The account offers its habit forecast as…",
+  "legacy_id": "HUME-INDUCTION-SELF-APPLICATION",
+  "argument_id": "6a48955d-1062-5ac7-b6f9-786169a6eddd",
   "challenge_module": "TruthCore.Results.Modern.Hume.Induction.Challenge",
   "solution_module": "TruthCore.Results.Modern.Hume.Induction.Solution",
   "theorem": "TruthCore.Results.Modern.Hume.Induction.selfApplication",

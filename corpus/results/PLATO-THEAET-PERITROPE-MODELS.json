@@ -1,6 +1,8 @@
 {
-  "id": "PLATO-THEAET-PERITROPE-MODELS",
-  "argument_id": "PLATO-THEAET-PERITROPE-MODELS",
+  "id": "f3dc08de-bd91-5b90-862b-122c290dccfb",
+  "label": "Two models of the peritropē premises: exempting the denial from the unqualified doctrine is…",
+  "legacy_id": "PLATO-THEAET-PERITROPE-MODELS",
+  "argument_id": "d3e70e37-1f1e-5211-be99-0af9457afc88",
   "challenge_module": "TruthCore.Results.Plato.Theaetetus.PeritropeModels.Challenge",
   "solution_module": "TruthCore.Results.Plato.Theaetetus.PeritropeModels.Solution",
   "theorem": "TruthCore.Results.Plato.Theaetetus.PeritropeModels.peritropeModels",

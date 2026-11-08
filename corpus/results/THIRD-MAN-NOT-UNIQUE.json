@@ -1,6 +1,8 @@
 {
-  "id": "THIRD-MAN-NOT-UNIQUE",
-  "argument_id": "THIRD-MAN-NOT-UNIQUE",
+  "id": "7bd96f2e-02ac-57e9-9303-b1529093cd15",
+  "label": "Numerical uniqueness of the Form for each…, from Some single admitted quality has n pairwise…",
+  "legacy_id": "THIRD-MAN-NOT-UNIQUE",
+  "argument_id": "1d2e3da4-e2de-5903-bd02-30b4e11bb583",
   "challenge_module": "TruthCore.Results.Greek.Plato.ThirdMan.NotUnique.Challenge",
   "solution_module": "TruthCore.Results.Greek.Plato.ThirdMan.NotUnique.Solution",
   "theorem": "TruthCore.Results.Greek.Plato.ThirdMan.NotUnique.notUnique",

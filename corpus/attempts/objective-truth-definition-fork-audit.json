@@ -1,10 +1,12 @@
 {
-  "id": "ATTEMPT-OBJECTIVE-TRUTH-DEFINITION-FORK-AUDIT",
+  "id": "5073ac12-065f-59e7-aa48-fdff1a894475",
+  "label": "Owner competing-definition audit: the old objective-truth record was a gloss on a free predicate…",
+  "legacy_id": "ATTEMPT-OBJECTIVE-TRUTH-DEFINITION-FORK-AUDIT",
   "statement_ids": [
-    "STMT-EMOTIVISM-INCONSISTENT-WITH-EXTERNAL-EVIL-PREMISE",
-    "STMT-EXTERNAL-EVIL-PREMISE-NOT-OBJECTIVE",
-    "STMT-OBJECTIVE-TRUTH-NAMED-DEFINITIONS-COVER",
-    "STMT-OBJECTIVE-TRUTH-ADDITIONAL-DEFINITION"
+    "debe46da-d5e7-5f92-b499-90bb076eb1aa",
+    "1aa52dcb-7d39-507c-89ce-73629cdc0abd",
+    "6cdc4062-245e-5f84-9b1c-117673045506",
+    "7f83d264-31da-5749-a87f-00546e92fade"
   ],
   "date": "2026-11-06",
   "kind": "derivation",
@@ -12,11 +14,11 @@
   "summary": "Owner competing-definition audit: the old objective-truth record was a gloss on a free predicate, and DISAMB-TRUE explicitly left objective-implies-true unformalized. Preserved source claims and frozen Challenges; added source-free operational calibration propositions, structural coverage including a genuine remaining extension, conditional named elimination, strong-to-weak registration and finite non-entailment/overlap controls. The original four-premise external-emotivism theorem is imported and composed only with the weakest truth-component bridge. Stable falsity refutes invariance-alone to truth; a true-variable singleton refutes unqualified named exhaustion. Rejected: calling profile stability itself philosophical objectivity, equating coextension with property identity, treating named coverage as established, or calling the external result a defeat of internal critique. The separate exact external omission certificate retains all four original premises and a false-but-objective selected content, so the objective bridge is not inferred from that premise package alone. The complete historical worldview is not modeled.",
   "blocker": "Named coverage, branch-failure inputs and adequacy of the supplied attitude profiles remain open. Robust/minimal truth and real attitude-independence are not identified by these operational calibrations.",
   "evidence": [
-    "OBJECTIVE-TRUTH-ACTUAL-STABLE-TO-TRUTH-COMPONENT",
-    "OBJECTIVE-TRUTH-DEFINITION-FORK",
-    "OBJECTIVE-TRUTH-FROM-NAMED-ELIMINATION",
-    "POE-EXTERNAL-TRUTH-TO-OBJECTIVE-BRIDGE",
-    "OBJECTIVE-TRUTH-DEFINITION-CONTROLS",
-    "OBJECTIVE-TRUTH-EXTERNAL-BRIDGE-NEEDED"
+    "489f716a-6306-5e51-be37-f46df5448b3f",
+    "7cd27d15-79aa-5a39-bcd2-48115f91f44a",
+    "3081f575-fefa-55d0-97f3-cef393309611",
+    "2ecf8205-e48c-5f91-83bc-b89d784490e0",
+    "b0ae9897-6c8e-57de-8b92-d852600f9cf8",
+    "3475369c-9c70-576e-96fa-8b1e62e15f55"
   ]
 }

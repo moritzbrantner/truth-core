@@ -1,5 +1,7 @@
 {
-  "id": "DEF-RUSSELL-GROUNDED-EXISTENCE",
+  "id": "1abfeb31-390e-5f2b-9c40-ff45b7bddb92",
+  "label": "Grounded witness in the conditional…: There is a satisfying candidate whose instance has the…",
+  "legacy_id": "DEF-RUSSELL-GROUNDED-EXISTENCE",
   "term": "grounded witness in the conditional projection",
   "definition": "There is a satisfying candidate whose instance has the particular basis ground specified by the optional law. GroundingProjection additionally carries fixed countermodels showing why realization and that law cannot simply be omitted from this chosen derivation.",
   "basis": "stipulative",

@@ -1,9 +1,11 @@
 {
-  "id": "INF-REALIZED-POSSIBILITY-STRENGTHENS-COMMON-ABSENCE",
+  "id": "3fbea847-a2ac-5b92-8c1f-47d63c64f2a1",
+  "label": "Weak OPEN realization interface consumed by the local proof route: if…, by Constructive-proof",
+  "legacy_id": "INF-REALIZED-POSSIBILITY-STRENGTHENS-COMMON-ABSENCE",
   "input_statement_ids": [
-    "STMT-TEMPORALLY-REALIZED-CONDITIONS-ARE-POSSIBLE"
+    "e99608dd-c65d-56de-90d1-2c62385fd699"
   ],
-  "output_statement_id": "STMT-REALIZED-COMMON-ABSENCE-IS-POSSIBLE",
+  "output_statement_id": "5745f7e5-aab2-5ae9-aab5-a484f61e59da",
   "rule": "constructive-proof",
   "meaning": "Exact sole-premise restriction from arbitrary-condition realization to the common-absence interface actually used.",
   "assumption_statement_ids": [],

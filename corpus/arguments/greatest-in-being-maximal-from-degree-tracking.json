@@ -1,22 +1,23 @@
 {
-  "id": "GREATEST-IN-BEING-MAXIMAL-FROM-DEGREE-TRACKING",
+  "id": "87f32a9c-1846-5137-990c-b490c8797857",
   "label": "Degree tracking makes a MAXIME_2 being MAXIME_1",
+  "legacy_id": "GREATEST-IN-BEING-MAXIMAL-FROM-DEGREE-TRACKING",
   "premise_statement_ids": [
-    "STMT-MORE-IN-BEING-TRACKS-DEGREE"
+    "c323e046-067c-5228-a4a8-55df7bdeb397"
   ],
-  "conclusion_statement_id": "STMT-GREATEST-IN-BEING-IS-MAXIMAL",
+  "conclusion_statement_id": "c16ec481-ce5b-5a90-b8e4-247a2ebb2155",
   "inference_ids": [
-    "INF-GREATEST-IN-BEING-MAXIMAL-FROM-DEGREE-TRACKING"
+    "2b0545b1-bd62-5aa6-ba90-4624b0c8dee6"
   ],
   "meaning": "Derives the MAXIME_2 to MAXIME_1 sense bridge: if whatever is more a being than m has being and a strictly higher represented degree, nothing is more a being than a GREATEST-degree bearer, since its degree would be both above and at most the greatest.",
   "definition_ids": [
-    "DEF-ESSE",
-    "DEF-GREATEST-DEGREE-IN-A-PERFECTION",
-    "DEF-MAXIME-ENS",
-    "DEF-MAXIMUM-CALIBRATION-PROFILE",
-    "DEF-MORE-IN"
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "9146daed-3e78-5804-8291-70c4e2c9d6c1",
+    "a2a8de58-42e0-5481-b7fb-848ae8602036",
+    "18c78a19-096c-5987-8517-a67edaede564",
+    "5766de66-8a37-5b04-aa65-9eec53319f50"
   ],
   "disambiguation_ids": [
-    "DISAMB-MAXIME-ENS"
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
   ]
 }

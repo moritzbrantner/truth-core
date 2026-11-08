@@ -1,9 +1,11 @@
 {
-  "id": "REL-PHILLIPS-NO-OBJECT-ALTERNATIVE-TO-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD",
+  "id": "121b9295-335b-5f4d-a5fa-fea2a43774ab",
+  "label": "The proper-sense unique pure-act… alternative to A first mover moved by none that is…",
+  "legacy_id": "REL-PHILLIPS-NO-OBJECT-ALTERNATIVE-TO-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD",
   "subject_kind": "statement",
-  "subject_id": "STMT-PURE-ACT-NOMINAL-NAMING-FAILS",
+  "subject_id": "59168620-b291-58bf-8c03-b677e9b38502",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD",
+  "object_id": "a594d8c4-8d2e-5de3-b719-f1a8ee3b7b96",
   "note": "Serious no-object/practice-use rival retained at full strength in STMT-GOD-NAMES-NO-BEING-WF-P1, supported only by the reported Phillips remark (REL-PHILLIPS-NO-OBJECT-SUPPORTS-GOD-NAMES-NO-BEING). The relation endpoint is now the exact proper-profile negation of this naming leaf, rather than the independent practice-reference predicate. PRACTICE-NO-REFERENCE-REJECTS-PURE-ACT-NAMING checks the transfer: raw no-reference plus STMT-PROPER-REFERENCE-PRESERVED plus the corresponding actual descriptor witness yields this negation. Neither bridge nor witness is silently assumed. Refuting the raw practice thesis alone therefore cannot mark this rival refuted or defend the nominal leaf. No philosopher is attributed this added analyst bridge; no refutes relation or independent defeat is asserted. The original FideismReference link theorem remains an unchanged practice-instantiated schema under DISAMB-NAME-APPLICATION."
 }

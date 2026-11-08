@@ -1,6 +1,8 @@
 {
-  "id": "TEMPORAL-DIRECTION-FRAMEWORK",
-  "argument_id": "TEMPORAL-DIRECTION-FRAMEWORK",
+  "id": "b933b826-d351-5620-8e68-3c906ef931d1",
+  "label": "For every event carrier, linearly ordered time carrier, clock and causal relation, exactly one of…",
+  "legacy_id": "TEMPORAL-DIRECTION-FRAMEWORK",
+  "argument_id": "3d4b6b4f-644b-5f69-a09f-8af85dda5659",
   "challenge_module": "TruthCore.Results.Causality.TemporalActualization.Framework.Challenge",
   "solution_module": "TruthCore.Results.Causality.TemporalActualization.Framework.Solution",
   "theorem": "TruthCore.Results.Causality.TemporalActualization.Framework.framework",

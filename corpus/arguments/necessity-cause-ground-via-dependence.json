@@ -1,29 +1,31 @@
 {
-  "id": "NECESSITY-CAUSE-GROUND-VIA-DEPENDENCE",
+  "id": "eddef85a-ede5-5ca0-9ccd-cc7a1b601ef8",
+  "label": "At the reading world w, whatever causes the necessity of something other than…, via dependence",
+  "legacy_id": "NECESSITY-CAUSE-GROUND-VIA-DEPENDENCE",
   "premise_statement_ids": [
-    "STMT-NECESSITATED-DEPENDS-ON-ITS-CAUSE",
-    "STMT-NECESSITY-CAUSE-RELATA-ACTUAL-CONCRETE",
-    "STMT-ACTUAL-DEPENDENCE-IS-GROUNDING"
+    "71454b27-1943-5bb4-a1f4-4a1bb716082a",
+    "d6e558d0-131a-553a-a183-fa73aed91281",
+    "2e248016-f8bf-5d8a-931e-7f9ebbb13e42"
   ],
-  "conclusion_statement_id": "STMT-NECESSITY-CAUSES-ARE-ACTUAL-CONCRETE-GROUNDS",
+  "conclusion_statement_id": "d29cebca-ee1c-5bd8-9080-f7226770e809",
   "inference_ids": [
-    "INF-NECESSITY-CAUSE-GROUND-VIA-DEPENDENCE"
+    "0a50ba83-6fe6-5f31-9e03-18f00bf6b941"
   ],
   "meaning": "A second route without causes of esse: what has its necessity caused by c depends for its being on c; both are actual concreta; dependence between actual concreta is grounding.",
   "definition_ids": [
-    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
-    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
-    "DEF-CONCRETE-ESSE-IN-RE",
-    "DEF-DEPENDS-FOR-BEING",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-NECESSARY-PER-SE",
-    "DEF-ROUTE-BRIDGE-MODAL-READING"
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "bf26b9b2-41ed-55b0-9557-dae90ab9b81f",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "2282c0ee-9da9-5c8b-9f37-cb312ed4b676",
+    "30dfba72-8196-542a-85d9-d2e98d7f11c5"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSAL-POWER-GROUNDING",
-    "DISAMB-CAUSE",
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
-    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING"
+    "4b02d34a-9226-5009-9ac2-3b52f4222b21",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "c529e8d3-43e3-53a8-a82f-3955e9815265"
   ]
 }

@@ -1,9 +1,11 @@
 {
-  "id": "INF-ABSENT-ONLY-UNIVERSE-CAUSERS-IMPLY-NO-EXISTING-CAUSE",
+  "id": "1f2bc3e6-d4b5-59db-8399-66835d7d581a",
+  "label": "Exact negation of the existing UniverseHasExistingCause at the SAME…, by Constructive-proof",
+  "legacy_id": "INF-ABSENT-ONLY-UNIVERSE-CAUSERS-IMPLY-NO-EXISTING-CAUSE",
   "input_statement_ids": [
-    "STMT-SPACETIME-WHOLE-HAS-ONLY-ABSENT-CANDIDATE-CAUSERS"
+    "516be275-934a-59e1-bbb2-02fc3b57a936"
   ],
-  "output_statement_id": "STMT-SPACETIME-WHOLE-HAS-NO-EXISTING-CAUSE",
+  "output_statement_id": "ce2ca4eb-8d2b-5775-85b5-49f1497a4895",
   "rule": "constructive-proof",
   "meaning": "Projection transcription connects the precise generic remainder to the exact old positive conclusion negation.",
   "assumption_statement_ids": [],

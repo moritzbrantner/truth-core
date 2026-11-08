@@ -1,9 +1,11 @@
 {
-  "id": "REL-CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-ALL-ADOPTED-POTENCY-ROOT-ROUTE",
+  "id": "e8b803f7-862b-56b9-87bb-6d7e23b1f6b5",
+  "label": "Whatever is GOD_4 satisfies the…, from A… root route Whatever is GOD_4 satisfies the skeleton's… (2)",
+  "legacy_id": "REL-CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-ALL-ADOPTED-POTENCY-ROOT-ROUTE",
   "subject_kind": "argument",
-  "subject_id": "CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-ALL-ADOPTED-POTENCY",
+  "subject_id": "51fd6d58-15d9-5b37-879c-ceee26bea350",
   "predicate": "root_route",
   "object_kind": "statement",
-  "object_id": "STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES",
+  "object_id": "d5ac1620-1de5-5cd8-862e-cfdfd6d8b8a5",
   "note": "Explicit adopted-potency alternative to the unchanged generic designated stage2 route. All potency occurrences in this result share the capacity-without-act function; no generic independent interpretation is silently identified with it."
 }

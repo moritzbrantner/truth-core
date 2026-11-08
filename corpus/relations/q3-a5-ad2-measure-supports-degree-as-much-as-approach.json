@@ -1,9 +1,11 @@
 {
-  "id": "REL-Q3-A5-AD2-MEASURE-SUPPORTS-DEGREE-AS-MUCH-AS-APPROACH",
+  "id": "394a49a5-9246-509c-a112-581a1b4fbccc",
+  "label": "Thomas Aquinas, Summa theologiae I q.3… supports OPEN reading of ST I q.3 a.5 ad 2: for…",
+  "legacy_id": "REL-Q3-A5-AD2-MEASURE-SUPPORTS-DEGREE-AS-MUCH-AS-APPROACH",
   "subject_kind": "claim",
-  "subject_id": "AQUINAS-ST-I-Q3-A5-AD2-MEASURE-BY-APPROACH-A",
+  "subject_id": "0e8bf2b9-1d6c-5ae6-8619-03efb008ef90",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-DEGREE-AS-MUCH-AS-APPROACH",
+  "object_id": "331f4751-598a-5f67-ab1f-eb4a12d17bf5",
   "note": "tantum habet de esse, quantum ei appropinquat: as much of being as it approaches. The statement encodes this as an order match between a represented degree and nearness; the passage denies that God is a proportioned (homogeneous) measure, so representing being by a Preorder-valued degree is the analyst's (gap)."
 }

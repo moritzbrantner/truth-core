@@ -1,11 +1,13 @@
 {
-  "id": "INF-MEANING-V3-CALIBRATION-REJECTED",
+  "id": "d1cffcfd-52fe-5445-81db-ce2d340de30b",
+  "label": "V3 fails to calibrate cognitive meaning across the supplied whole language, by Constructive-proof",
+  "legacy_id": "INF-MEANING-V3-CALIBRATION-REJECTED",
   "input_statement_ids": [
-    "STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-STRONG",
-    "STMT-MEANING-CHURCH-OBSERVATION-SETTING",
-    "STMT-MEANING-EXCLUDED-NEGATION"
+    "afa7a288-a1d5-5958-a1d0-3f68d4d186ad",
+    "8addbebd-9f1c-5726-ac12-02c4272f8b01",
+    "c22d6c3f-a3c5-5835-a973-bf81114972ab"
   ],
-  "output_statement_id": "STMT-MEANING-NOT-V3-GLOBAL",
+  "output_statement_id": "81956ae5-7b73-5203-8031-4c5d84834fc5",
   "rule": "constructive-proof",
   "meaning": "Instantiation/composition of the existing correctly calibrated V3 package refutation. Retains independent negation closure, Church setting and excluded negation. Does not apply a bare criterion verdict as cognitive meaning.",
   "assumption_statement_ids": [],

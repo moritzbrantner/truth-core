@@ -1,11 +1,13 @@
 {
-  "id": "STMT-LIMITATION-POSSIBLY-EXEMPLIFIED-AT",
+  "id": "46acaabc-4665-5aa0-9fd9-d864143cb47d",
+  "label": "Some world accessible from w has an individual exemplifying the SAME supplied target property Phi…",
+  "legacy_id": "STMT-LIMITATION-POSSIBLY-EXEMPLIFIED-AT",
   "paraphrase": "Some world accessible from w has an individual exemplifying the SAME supplied target property Phi in the existing constant-domain semantics. This is not actualist existence at w, an Ontic necessary bearer, God or independent truth of the inputs.",
   "lean_declaration": "TruthCore.Modal.LimitationPossibility.PossiblyExemplifiedAt",
   "definition_ids": [
-    "DEF-LIMITATION-POSSIBILITY-CONFIGURATION"
+    "3fb0a456-3dc6-500b-a8b7-0915d2514037"
   ],
   "disambiguation_ids": [
-    "DISAMB-LIMITATION-CONDITIONAL-SOURCE-SCOTT"
+    "1efd1154-f697-5442-9b14-7ce8f1215f23"
   ]
 }

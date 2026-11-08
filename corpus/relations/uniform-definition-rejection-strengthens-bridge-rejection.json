@@ -1,10 +1,12 @@
 {
-  "id": "REL-UNIFORM-DEFINITION-REJECTION-STRENGTHENS-BRIDGE-REJECTION",
+  "id": "8a53b6e7-bf28-56ed-8ce2-b24cf14b3cd7",
+  "label": "Both uniform endorsement profiles fail… strengthens Exact negation of conciliar definition is…",
+  "legacy_id": "REL-UNIFORM-DEFINITION-REJECTION-STRENGTHENS-BRIDGE-REJECTION",
   "subject_kind": "statement",
-  "subject_id": "STMT-CONCILIAR-UNIFORM-DEFINITION-STATUS-REJECTED",
+  "subject_id": "3915fbb1-6020-5f07-aab9-c65793b8a7de",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-CONCILIAR-DEFINITION-BRIDGE-REJECTED",
-  "verification_result_id": "UNIFORM-DEFINITION-REJECTION-INCLUDES-BRIDGE",
+  "object_id": "36cfac19-cbe4-54d9-b078-14215e44f62d",
+  "verification_result_id": "6b0e230f-28d3-593b-8432-8ebc50e2790f",
   "note": "Both universal rejections include the exact normative bridge rejection; no stronger rejection follows from the weaker one."
 }

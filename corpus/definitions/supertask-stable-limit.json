@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SUPERTASK-STABLE-LIMIT",
+  "id": "43bc2414-b12d-5820-96de-59489124f4f1",
+  "label": "Stable Boolean terminal state: There is a Boolean terminal value and a finite cutoff after which…",
+  "legacy_id": "DEF-SUPERTASK-STABLE-LIMIT",
   "term": "stable Boolean terminal state",
   "definition": "There is a Boolean terminal value and a finite cutoff after which every operation leaves the output at that value. This gives a coherent limit-state criterion for a discrete output, but it is stronger than numerical convergence for real-valued series.",
   "basis": "stipulative",

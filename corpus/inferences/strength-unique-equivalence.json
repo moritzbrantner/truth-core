@@ -1,7 +1,9 @@
 {
-  "id": "INF-STRENGTH-UNIQUE-EQUIVALENCE",
+  "id": "18087d4a-1c3a-5961-a792-f3eb1d3b09e0",
+  "label": "For every supplied type and predicate P, unique existence holds…, by Typed strength comparison",
+  "legacy_id": "INF-STRENGTH-UNIQUE-EQUIVALENCE",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-STRENGTH-UNIQUE-EXACT-DELTA",
+  "output_statement_id": "1cbc395c-5810-5e58-a052-98fe3c2e9fe8",
   "rule": "typed_strength_comparison",
   "meaning": "Compose all three constructive obligations: unique existence iff existence and at most one, for the same arbitrary type and predicate.",
   "assumption_statement_ids": [],

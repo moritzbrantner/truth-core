@@ -1,6 +1,8 @@
 {
-  "id": "LIMITATION-SEPARATION",
-  "argument_id": "LIMITATION-SEPARATION",
+  "id": "d60174a9-ebfa-5feb-9ede-16f3ade3cafe",
+  "label": "One individual at one world…, from The SAME supplied analyst classifier marks… and 3 more",
+  "legacy_id": "LIMITATION-SEPARATION",
+  "argument_id": "3e80bb0b-1ddf-579f-89e5-113f04658300",
   "challenge_module": "TruthCore.Results.Modal.LimitationSeparation.Challenge",
   "solution_module": "TruthCore.Results.Modal.LimitationSeparation.Solution",
   "theorem": "TruthCore.Results.Modal.LimitationSeparation.separate",

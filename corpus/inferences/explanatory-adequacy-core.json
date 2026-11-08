@@ -1,7 +1,9 @@
 {
-  "id": "INF-EXPLANATORY-ADEQUACY-CORE",
+  "id": "49f0fdd0-f2a8-5a24-b6c0-3918f6441a5b",
+  "label": "No arena has a REASON_CLOSED_ACCOUNT_4 of a contingent explanandum whose…, by Model-construction",
+  "legacy_id": "INF-EXPLANATORY-ADEQUACY-CORE",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-EXPLANATORY-ADEQUACY-CORE",
+  "output_statement_id": "fdba07aa-79b4-5f0e-a82b-bf6974d7f117",
   "rule": "model-construction",
   "meaning": "Prove by well-founded descent that the bundle is inconsistent, with its necessitating and contrast variants, and construct a model for each deleted member.",
   "assumption_statement_ids": [],

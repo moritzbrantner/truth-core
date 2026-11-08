@@ -1,9 +1,11 @@
 {
-  "id": "ATTEMPT-MEINONG-WITNESS",
+  "id": "8a4cbffd-cee6-59fc-aa05-5be8353f5b8c",
+  "label": "The alternatives campaign records the Meinongian rival but has not attributed its strongest…",
+  "legacy_id": "ATTEMPT-MEINONG-WITNESS",
   "date": "2026-10-26",
   "statement_ids": [
-    "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING",
-    "STMT-ACTUALITY-WITHOUT-BEING"
+    "7067553d-cad9-5d79-b6b2-912e35051530",
+    "630273f8-b7f8-5b6a-895f-5d2ff23e84cc"
   ],
   "kind": "source-search",
   "outcome": "blocked",

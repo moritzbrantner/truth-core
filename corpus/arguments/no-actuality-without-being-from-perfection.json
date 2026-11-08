@@ -1,22 +1,24 @@
 {
-  "id": "NO-ACTUALITY-WITHOUT-BEING-FROM-PERFECTION",
+  "id": "c2a87347-2c5d-5e76-a2a9-0659136ef542",
+  "label": "Nothing is in act in some respect without having being: the negation of the…, from perfection",
+  "legacy_id": "NO-ACTUALITY-WITHOUT-BEING-FROM-PERFECTION",
   "premise_statement_ids": [
-    "STMT-PERFECT-INSOFAR-AS-IN-ACT",
-    "STMT-PERFECT-ONLY-INSOFAR-AS-BEING"
+    "ca84f62d-67cb-58a6-bc3e-a631ab46e3d1",
+    "196e6606-d61b-59c4-a12b-7ce056936b92"
   ],
-  "conclusion_statement_id": "STMT-NO-ACTUALITY-WITHOUT-BEING",
+  "conclusion_statement_id": "65c301a8-afb4-5d75-a321-9a1c0c67af65",
   "inference_ids": [
-    "INF-NO-ACTUALITY-WITHOUT-BEING-FROM-PERFECTION"
+    "d406537c-6e1b-563d-8189-850ccbe8549e"
   ],
   "meaning": "Conditional refutation of the Meinongian rival STMT-ACTUALITY-WITHOUT-BEING: whatever is in act in a respect is perfect in it (q.5 a.1, STMT-PERFECT-INSOFAR-AS-IN-ACT), and whatever is perfect in some respect has being (q.4 a.2, STMT-PERFECT-ONLY-INSOFAR-AS-BEING), so nothing is in act without being. A Meinongian must therefore deny one of the two: that being golden in act is being perfect in that respect, or that being perfect requires being. Both premises stay open, so the refutation does not count for closure until they are established.",
   "definition_ids": [
-    "DEF-ACT",
-    "DEF-ESSE",
-    "DEF-PERFECT-IN-A-PERFECTION"
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "bf9ced33-dbd9-5921-99ef-e1e92fa7e063"
   ],
   "disambiguation_ids": [
-    "DISAMB-BEING",
-    "DISAMB-IN-ACT",
-    "DISAMB-PERFECT-IN-A-RESPECT-OR-UNIVERSALLY"
+    "3b0d67c5-59e4-5556-a728-26bd567f0fb1",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "b4099355-0e3b-510a-9398-8ef97b4881b1"
   ]
 }

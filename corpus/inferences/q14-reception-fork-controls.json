@@ -1,7 +1,9 @@
 {
-  "id": "INF-Q14-RECEPTION-FORK-CONTROLS",
+  "id": "f3b1c386-8d96-5b79-b62e-ffc18af73b86",
+  "label": "Separate checked controls retain exact empty/sensory/old-target omissions…, by Constructive-proof",
+  "legacy_id": "INF-Q14-RECEPTION-FORK-CONTROLS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-Q14-RECEPTION-FORK-CONTROLS",
+  "output_statement_id": "35dce1b0-3b0b-52ee-9b08-fe27e6b160a3",
   "rule": "constructive-proof",
   "meaning": "Exact typed omission/control certificate. Reuses all three old FormReception omission theorems; NEW profiles explicitly export the advertised capacities/calibrations/events/nonempty remainder and full positive assembly backgrounds. Separate interpretations, not one joint worldview or actual metaphysical possibility.",
   "assumption_statement_ids": [],

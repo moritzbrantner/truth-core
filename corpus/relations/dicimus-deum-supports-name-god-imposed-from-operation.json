@@ -1,9 +1,11 @@
 {
-  "id": "REL-DICIMUS-DEUM-SUPPORTS-NAME-GOD-IMPOSED-FROM-OPERATION",
+  "id": "7cc5ccee-cd65-5621-9e5b-838a947d9685",
+  "label": "Thomas Aquinas, Summa theologiae I q.2… supports The name 'GOD_1' applies to whatever is the…",
+  "legacy_id": "REL-DICIMUS-DEUM-SUPPORTS-NAME-GOD-IMPOSED-FROM-OPERATION",
   "subject_kind": "claim",
-  "subject_id": "AQUINAS-ST-I-Q2-A3-QUARTA-VIA-DICIMUS-DEUM-A",
+  "subject_id": "9b52e1a5-9008-51e9-b666-892da74e45b1",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-NAME-GOD-IMPOSED-FROM-OPERATION",
+  "object_id": "709ad5d2-5be5-5023-897e-a0c8ea8bd5ab",
   "note": "The quarta via calls God what is the cause of being, goodness and every perfection to all beings. The encoded statement keeps only causation of the being of all others, adds the uniqueness condition, and states it as the condition under which the name applies; the source names the cause of all perfections, not only of being, and gives no uniqueness clause."
 }

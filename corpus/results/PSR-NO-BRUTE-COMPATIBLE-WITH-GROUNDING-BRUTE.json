@@ -1,6 +1,8 @@
 {
-  "id": "PSR-NO-BRUTE-COMPATIBLE-WITH-GROUNDING-BRUTE",
-  "argument_id": "PSR-NO-BRUTE-COMPATIBLE-WITH-GROUNDING-BRUTE",
+  "id": "57ca3421-758d-5cc8-8373-b802f4eab7a4",
+  "label": "The specified explanation-model expansion of the existing grounding rival is sound and satisfies…",
+  "legacy_id": "PSR-NO-BRUTE-COMPATIBLE-WITH-GROUNDING-BRUTE",
+  "argument_id": "6509ac67-32d7-5f1f-bffb-23184bbe66d9",
   "challenge_module": "TruthCore.Results.Explanation.NoBruteCompatibility.Challenge",
   "solution_module": "TruthCore.Results.Explanation.NoBruteCompatibility.Solution",
   "theorem": "TruthCore.Results.Explanation.NoBruteCompatibility.checks",

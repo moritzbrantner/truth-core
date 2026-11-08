@@ -1,9 +1,11 @@
 {
-  "id": "DEF-KANT-LOGICAL-POSSIBILITY",
+  "id": "b3a3b7c0-f390-56f1-a1e6-2818040ad822",
+  "label": "Logical possibility in the Kantian…: A concept or thought’s freedom from contradiction…",
+  "legacy_id": "DEF-KANT-LOGICAL-POSSIBILITY",
   "term": "logical possibility in the Kantian criticism",
   "definition": "A concept or thought’s freedom from contradiction, insufficient by itself for objectively warranted possibility of its object or of that object’s nonexistence.",
   "basis": "sourced",
   "claim_ids": [
-    "KANT-LOGICAL-NOT-REAL-POSSIBILITY-A"
+    "5799536e-1af2-5a6e-9ad0-5dee9b141a8c"
   ]
 }

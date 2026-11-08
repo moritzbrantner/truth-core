@@ -1,6 +1,8 @@
 {
-  "id": "UNIQUE-COMPLETE-CAUSE-TO-UNIQUE-PREDECESSOR",
-  "argument_id": "UNIQUE-COMPLETE-CAUSE-TO-UNIQUE-PREDECESSOR",
+  "id": "a8892c5f-77fa-5b7d-bde3-422202c1ef1a",
+  "label": "Each graph node has at most one immediate…, from For each effect, any two incoming complete…",
+  "legacy_id": "UNIQUE-COMPLETE-CAUSE-TO-UNIQUE-PREDECESSOR",
+  "argument_id": "f60704c5-e5e3-521a-82e0-f0c8f4b32cc0",
   "challenge_module": "TruthCore.Results.Causality.SourceForestInterop.Challenge",
   "solution_module": "TruthCore.Results.Causality.SourceForestInterop.Solution",
   "theorem": "TruthCore.Results.Causality.SourceForestInterop.uniquePredecessor",

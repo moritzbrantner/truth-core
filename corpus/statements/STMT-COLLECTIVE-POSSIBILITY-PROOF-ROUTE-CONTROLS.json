@@ -1,8 +1,10 @@
 {
-  "id": "STMT-COLLECTIVE-POSSIBILITY-PROOF-ROUTE-CONTROLS",
+  "id": "5c89e68e-c76d-50d7-988e-4dc75ae01cd7",
+  "label": "The imported global quantifier-shift refutation coexists with both outcomes: commonAbsence…",
+  "legacy_id": "STMT-COLLECTIVE-POSSIBILITY-PROOF-ROUTE-CONTROLS",
   "paraphrase": "The imported global quantifier-shift refutation coexists with both outcomes: commonAbsence satisfies a local shift, distributive realization, realized-to-possible, individual possibilities and collective possibility; alternating violates local shift and collective possibility while retaining the other two interfaces; disallowedCommon has local shift/distributive realization but rejects realized-common-absence-to-Possible and collective possibility. These are exact finite semantics controls, not actual or metaphysically possible histories.",
   "lean_declaration": "TruthCore.Logic.CollectivePossibilityRouteBoundary.Controls",
   "definition_ids": [
-    "DEF-COLLECTIVE-POSSIBILITY-LOCAL-PROOF-ROUTE"
+    "e571cfe0-5cd9-51ea-8ded-30f55da48855"
   ]
 }

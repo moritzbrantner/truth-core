@@ -1,7 +1,9 @@
 {
-  "id": "SEP-PRIVATE-LANGUAGE-1-2-REDUCTIO-A",
-  "statement_id": "STMT-PLA-REDUCTIO-READING",
-  "source_id": "SEP-PRIVATE-LANGUAGE",
+  "id": "cea7954f-c4b5-5a3a-821e-1d65f0c17474",
+  "label": "Stewart Candlish and George Wrisley…: Reading of the private-language sections: they argue by…",
+  "legacy_id": "SEP-PRIVATE-LANGUAGE-1-2-REDUCTIO-A",
+  "statement_id": "7ebe0890-5b50-50a2-8c58-5d2ad36f36d5",
+  "source_id": "f351e5a0-287b-548a-9056-4e4d27eeb2c5",
   "locator": "§1.2, assume that it is true that a private language is possible",
   "interpretation": "The entry: one way to argue against a private language is by reductio, 'assume that it is true that a private language is possible, show that that assumption leads to certain absurdities or a contradiction, and then conclude that it is actually false that a private language is possible. This is the way in which the argument was typically understood.' Attribution reading of the position the entry reports, not a view of the entry's author.",
   "status": "formalized",

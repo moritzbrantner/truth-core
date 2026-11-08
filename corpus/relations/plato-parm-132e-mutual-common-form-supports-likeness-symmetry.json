@@ -1,9 +1,11 @@
 {
-  "id": "REL-PLATO-PARM-132E-MUTUAL-COMMON-FORM-SUPPORTS-LIKENESS-SYMMETRY",
+  "id": "8e2774d7-7b1c-586e-a9d8-b27fdcb57d47",
+  "label": "Plato, Parmenides 132d–e: Parmenides… supports Resemblance in the selected respect is…",
+  "legacy_id": "REL-PLATO-PARM-132E-MUTUAL-COMMON-FORM-SUPPORTS-LIKENESS-SYMMETRY",
   "subject_kind": "claim",
-  "subject_id": "PLATO-PARM-132E-MUTUAL-COMMON-FORM",
+  "subject_id": "947305bf-5919-5d9d-9c01-2fe6207cacf6",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-THIRD-MAN-LIKENESS-SYMMETRY",
+  "object_id": "ccf271c2-53d4-562e-9736-97f2dd27e9c6",
   "note": "Source motivation only. The independent statement deliberately exposes the universal scope/quantifiers needed by the research reconstruction; this edge is not an inference, a truth endorsement, or premise closure."
 }

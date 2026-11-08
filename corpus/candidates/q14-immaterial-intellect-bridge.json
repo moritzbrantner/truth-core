@@ -1,6 +1,8 @@
 {
-  "id": "AQUINAS-Q14-IMMATERIAL-INTELLECT-BRIDGE",
-  "source_id": "AQUINAS-ST",
+  "id": "ac3df61b-8635-5113-9121-d34b659e748a",
+  "label": "Defend immaterial is intellectual while preserving its current signature",
+  "legacy_id": "AQUINAS-Q14-IMMATERIAL-INTELLECT-BRIDGE",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.14 a.1 co. and ad 1\u20133; I q.14 a.2, a.4\u20135, a.8 for further context",
   "priority": 434,
   "goal": "Defend STMT-IMMATERIAL-IS-INTELLECTUAL while preserving its current signature. The verified capacity readings alone do not imply any positive reception capacity from absence of material reception, do not promote sense to intellect, and do not interpret the existing primitive HasIntellect. Investigate whether the graded immateriality argument can supply positive aptitudinal availability and intellectual grade without passive divine acquisition; keep every extra premise explicit and source it. A source review that requires changing the old component-free antecedent is a cross-cutting semantic decision, not a worker-local definition edit. See docs/immaterial-intellect-reception.md.",

@@ -1,15 +1,17 @@
 {
-  "id": "ROUND3-COGITO-BASE-CONTROLS",
+  "id": "6c590f23-cd8b-5b3c-ae3e-1b1970ab365b",
+  "label": "Finite interpretations for the round 3 Cogito/existence-base batch: omission models for every…",
+  "legacy_id": "ROUND3-COGITO-BASE-CONTROLS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-ROUND3-COGITO-BASE-CONTROLS",
+  "conclusion_statement_id": "faa9212d-4c15-5869-9299-a4b25f31c0b9",
   "inference_ids": [
-    "INF-ROUND3-COGITO-BASE-CONTROLS"
+    "327cfc6b-47a4-59c5-919b-e72a8c5b14bf"
   ],
   "meaning": "Finite interpretations for the round 3 batch, all proved without axioms: an omission model for every premise of the ten derivations other than excluded middle (a performed doubt with no occurring thought; no performed doubt; a borne willing; an assent without opining; a selected candidate that bears nothing, is abstract, or is absent; a self-grounding concretum with no rank, no well-founded grounding or cone and no borrowing cut; a contingent root cone; a capable deprived non-potent subject; a privation with the act; motion without capacity; an unactualized capacity not counted as potency), and joint witnesses with a performed doubt, a real grounding edge from a necessary root to a contingent selected being, and a potent subject being moved.",
   "definition_ids": [
-    "DEF-ACTUAL-GROUNDING-FINITE-RANK",
-    "DEF-ASSENTING-EPISODE",
-    "DEF-PERFORMED-DOUBT-OF-THOUGHT",
-    "DEF-PRIVATION-IN-CAPABLE-SUBJECT"
+    "43e9c567-cdb4-50c4-a9f3-fb3a21a17f8f",
+    "785a7605-da2b-59a0-b5a7-57326f3d33bf",
+    "c075da22-805b-56c1-a033-c24eef5f0ea2",
+    "f605c9a9-f05c-52cf-a56f-c1ccd4cd45bc"
   ]
 }

@@ -1,13 +1,15 @@
 {
-  "id": "STMT-RUSSELL-DESCRIPTION-UNIQUE",
+  "id": "79154228-f519-5cb9-a011-2b45ea260497",
+  "label": "Existence of a singular definite description requires at least one satisfying value and at most one",
+  "legacy_id": "STMT-RUSSELL-DESCRIPTION-UNIQUE",
   "paraphrase": "Existence of a singular definite description requires at least one satisfying value and at most one.",
   "definition_ids": [
-    "DEF-RUSSELL-DESCRIPTION",
-    "DEF-RUSSELL-INSTANTIATION"
+    "9df718d1-8bfb-519b-b9f5-f58f6d2c256f",
+    "988c2502-f555-5ff5-ac9d-aa5649d388de"
   ],
   "disambiguation_ids": [
-    "DISAMB-RUSSELL-EXISTENCE",
-    "DISAMB-RUSSELL-EXPLANATION",
-    "DISAMB-RUSSELL-NAMES"
+    "031a741a-57b4-5a20-b9f3-170876e69a02",
+    "a43c7122-d309-5b54-8922-6d459df33f21",
+    "055037e0-ff57-5cee-ac76-6e3e5318f689"
   ]
 }

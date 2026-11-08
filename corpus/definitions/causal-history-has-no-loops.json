@@ -1,5 +1,7 @@
 {
-  "id": "DEF-CAUSAL-HISTORY-NO-LOOPS",
+  "id": "7243dd39-f7f9-596e-9be4-e8b3b4c8aacd",
+  "label": "NOCAUSALLOOPS_2: No nonempty finite path in the supplied causal relation returns to its start",
+  "legacy_id": "DEF-CAUSAL-HISTORY-NO-LOOPS",
   "term": "NoCausalLoops",
   "definition": "No nonempty finite path in the supplied causal relation returns to its start.",
   "lean_declaration": "TruthCore.Case.Catholicism.StageOne.CausalFinitism.NoCausalLoops",

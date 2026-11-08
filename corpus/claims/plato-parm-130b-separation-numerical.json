@@ -1,23 +1,25 @@
 {
-  "id": "PLATO-PARM-130B-SEPARATION-NUMERICAL",
-  "statement_id": "STMT-PLATONIC-NONIDENTITY",
-  "source_id": "PLATO-PARM",
+  "id": "fbb39391-1e1d-5633-ac0d-28b6b81999a1",
+  "label": "Plato, Parmenides 130b: For each admitted quality, a FORM_1 differs numerically from its…",
+  "legacy_id": "PLATO-PARM-130B-SEPARATION-NUMERICAL",
+  "statement_id": "877f5cfd-c15a-5eb6-904a-3f46749df55f",
+  "source_id": "665bdac6-e83f-5b25-8b38-995165ccc42e",
   "locator": "130b",
   "interpretation": "Thin reading of Forms separately and participants separately: numerical nonidentity. This preserves less content than the ontological sibling and does not claim to exhaust the sentence.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-PLATONIC-ADMITTED-RANGE",
-    "DEF-PLATONIC-ENTITY",
-    "DEF-PLATONIC-FORM",
-    "DEF-PLATONIC-NONIDENTITY",
-    "DEF-PLATONIC-PARTICIPATION",
-    "DEF-PLATONIC-PARTICULAR",
-    "DEF-PLATONIC-PREDICATION"
+    "8da3ad5c-58d1-5e71-b513-9cbc6914da64",
+    "a2244968-5199-5276-a6a4-c19589b5295b",
+    "3336e0be-5be8-5c69-b54a-7a7bb29e1db9",
+    "408fb3a5-02ea-53ca-a79d-32134c6cac69",
+    "8504bbdf-329b-5e23-9d12-0faf94e00914",
+    "f840232b-1281-5d1a-ab3f-0c45edd98a92",
+    "54b49991-95ba-5e00-8653-182059c4da6a"
   ],
   "disambiguation_ids": [
-    "DISAMB-PLATONIC-FORM",
-    "DISAMB-PLATONIC-PARTICIPATION",
-    "DISAMB-PLATONIC-PREDICATION",
-    "DISAMB-PLATONIC-SEPARATION"
+    "54952044-0e39-566c-a88d-e5c9b95021fb",
+    "58a69964-25a1-53d2-a65d-660ed3a0cf4c",
+    "2f8db09b-f62a-51ef-b2e1-876f8f903f8f",
+    "e8547175-8208-5cc0-b5bb-39577315f2ac"
   ]
 }

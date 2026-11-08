@@ -1,19 +1,21 @@
 {
-  "id": "NAME-APPLICATION-TRANSFER-MODELS",
+  "id": "e3045249-66b9-5bc1-aa55-980f71d7fcfa",
+  "label": "Three finite controls witness: proper inhabitation with practice no-reference and lost transfer…",
+  "legacy_id": "NAME-APPLICATION-TRANSFER-MODELS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-NAME-APPLICATION-TRANSFER-MODELS",
+  "conclusion_statement_id": "20bf49d5-b9f5-5eab-9993-11937fd110ab",
   "inference_ids": [
-    "INF-NAME-APPLICATION-TRANSFER-MODELS"
+    "b4653278-66e3-55df-ab21-4667d5f1b166"
   ],
   "meaning": "Three explicit schema controls witness loss, inhabited agreement, and strictness of one-way preservation relative to coextension. No arbitrary predicate interpretation is claimed to establish classical theism or actual practice.",
   "definition_ids": [
-    "DEF-PROPER-TO-PRACTICE-REFERENCE-CALIBRATION",
-    "DEF-NAME-REFERS-IN-PRACTICE",
-    "DEF-GOD-NOMINAL-Q13",
-    "DEF-GOD-OF-CLASSICAL-THEISM"
+    "4e1d6c98-a1a0-5990-8cc8-230e037db585",
+    "415c0bdc-24cd-5701-8d14-4b98b26aca64",
+    "18945900-2de0-5040-bdab-26268f257684",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807"
   ],
   "disambiguation_ids": [
-    "DISAMB-NAME-APPLICATION",
-    "DISAMB-GOD"
+    "89e123bb-17d4-5c95-917f-8b1196e38b96",
+    "205a39c3-915d-5fe4-8076-a9ff91329e08"
   ]
 }

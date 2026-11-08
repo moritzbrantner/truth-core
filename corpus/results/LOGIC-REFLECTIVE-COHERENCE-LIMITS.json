@@ -1,6 +1,8 @@
 {
-  "id": "LOGIC-REFLECTIVE-COHERENCE-LIMITS",
-  "argument_id": "LOGIC-REFLECTIVE-COHERENCE-LIMITS",
+  "id": "ca87943b-d86f-5c14-a808-aa63392776db",
+  "label": "There are explicit finite semantic controls: in a two-world, two-content interpretation, the…",
+  "legacy_id": "LOGIC-REFLECTIVE-COHERENCE-LIMITS",
+  "argument_id": "ff2c0511-5679-5a02-b4bb-dd596f4f81c8",
   "challenge_module": "TruthCore.Results.Logic.ReflectiveCoherence.Limits.Challenge",
   "solution_module": "TruthCore.Results.Logic.ReflectiveCoherence.Limits.Solution",
   "theorem": "TruthCore.Results.Logic.ReflectiveCoherence.Limits.reflectiveCoherenceLimits",

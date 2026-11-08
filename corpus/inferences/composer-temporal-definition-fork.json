@@ -1,9 +1,11 @@
 {
-  "id": "INF-COMPOSER-TEMPORAL-DEFINITION-FORK",
+  "id": "646815a3-6866-5079-9e78-03855d4b474e",
+  "label": "Structural fork: for every supplied profile, named temporal calibrations…, by Constructive-proof",
+  "legacy_id": "INF-COMPOSER-TEMPORAL-DEFINITION-FORK",
   "input_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-EFFICIENT-ATTRIBUTION-TEMPORAL-DEFINITION-FORK",
+  "output_statement_id": "16dc76c9-00c8-57ac-af49-e027eae8411a",
   "rule": "constructive-proof",
   "meaning": "Structural coverage transcription: explicit excluded middle yields named calibration coverage or its precise remainder; named philosophical coverage is not established.",
   "assumption_statement_ids": [],

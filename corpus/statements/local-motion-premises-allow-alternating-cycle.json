@@ -1,20 +1,22 @@
 {
-  "id": "STMT-LOCAL-MOTION-PREMISES-ALLOW-ALTERNATING-CYCLE",
+  "id": "208270e6-60dd-53c3-84f3-3ad83bb0718c",
+  "label": "The single existing registered NRegress interpretation jointly satisfies motion-in-the-moved…",
+  "legacy_id": "STMT-LOCAL-MOTION-PREMISES-ALLOW-ALTERNATING-CYCLE",
   "paraphrase": "The single existing registered NRegress interpretation jointly satisfies motion-in-the-moved, being moved only in potency, movers being actual, and same-respect act/potency exclusion. Distinct beings form a two-cycle with different respects: a moves b in k, and b moves a in h. There is no mover moved in no respect, and the relation MovesAsMoved is not well-founded. The plain existential negation is derived constructively from the old certificate negating the double-negated first-unmoved-mover existential; these types are not identified silently. Thus local exclusion of same-respect consecutive edges does not eliminate alternating-respect cycles or establish the separate well-founded regress premise. This is satisfiability of the shared typed predicates, not metaphysical possibility, a temporal sequence, or premise truth. All original model assignments and registry evaluations are preserved; no source attribution or root-premise discharge is added.",
   "lean_declaration": "TruthCore.Models.RespectAlternatingMotionCycle.JointWitness",
   "definition_ids": [
-    "DEF-ACT",
-    "DEF-FIRST-UNMOVED-MOVER",
-    "DEF-MOTION-AS-PHYSICAL-CHANGE",
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-PER-SE-ORDERED-SERIES",
-    "DEF-POTENCY",
-    "DEF-RESPECT"
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "cfadc1f4-dd30-5f4f-a336-a0b9c1b1182d",
+    "ab0d1d6b-b777-51cc-ae11-c033081830e8",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "c9798301-e990-5ca2-a36e-6b11f76206c1",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSAL-SERIES",
-    "DISAMB-IN-ACT",
-    "DISAMB-MOTION",
-    "DISAMB-PER-SE"
+    "81c233d4-01b4-528c-8bbd-7da228443ffe",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "002f42cb-3015-5644-80b3-d408538394e6"
   ]
 }

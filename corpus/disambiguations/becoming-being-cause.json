@@ -1,10 +1,12 @@
 {
-  "id": "DISAMB-BECOMING-BEING-CAUSE",
+  "id": "c3c01e92-520e-5358-a58f-0cc7e9c9e6fa",
+  "label": "Causing an effect",
+  "legacy_id": "DISAMB-BECOMING-BEING-CAUSE",
   "term": "causing an effect",
   "sense_definition_ids": [
-    "DEF-CAUSE-OF-BECOMING",
-    "DEF-EXTERNAL-CAUSE-OF-ESSE",
-    "DEF-CAUSE-OF-PERFECTION"
+    "e9630411-ffc6-534a-8509-bf357272dec9",
+    "196be87e-b944-5924-b791-87406fbe48f6",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24"
   ],
   "resolution": "Q.104 distinguishes causing an effect to come-to-be from directly causing its being as such. The existing CausesIn c x esse vocabulary says c causes x's being, but translating the source's direct conservation into that relation requires an explicit scoped interpretation. No identity with a builder's completed production, conservation as corruption-prevention, withdrawal power, or arbitrary modal power is assumed. Sense labels (docs/notes/load-bearing-terms.md, TruthCore.Causality.TermSenseForks2): BECOMING-BEING-CAUSE_1 cause of becoming (CausesOrigin), BECOMING-BEING-CAUSE_2 external efficient cause of esse (q.3 a.4 HasExternalEsseCause), BECOMING-BEING-CAUSE_3 cause of being (CausesIn c x esse). STMT-PARTICIPATED-HAS-OTHER-CAUSE is in sense 3. Sense 2 reaches it: PARTICIPATED-EXTERNAL-ESSE-CAUSE-BECOMING-BEING-CAUSE-2 derives the sense-2 statement from q.3 a.4 and an open bridge, and PARTICIPATED-HAS-OTHER-CAUSE-BECOMING-BEING-CAUSE-2 passes to sense 3 by the explicit sense bridge (an external cause of esse is another cause of being; strengthens). Sense 1 fails: the TERM-SENSE-FORKS-2-CONTROLS model has another cause of coming to be for every participated thing and no cause of being, as q.104's builder suggests."
 }

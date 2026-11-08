@@ -1,6 +1,8 @@
 {
-  "id": "RELIGIOUS-DETAILED-SEMANTIC-CONTROLS",
-  "argument_id": "RELIGIOUS-DETAILED-SEMANTIC-CONTROLS",
+  "id": "39b9055d-770a-54c8-b5f6-77cb61742fa1",
+  "label": "Four nonempty schema controls explicitly export matched religious content and truth/fact…",
+  "legacy_id": "RELIGIOUS-DETAILED-SEMANTIC-CONTROLS",
+  "argument_id": "4b0aee8b-4134-5940-bca4-e2be4287a5c3",
   "challenge_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.DetailedModels.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.DetailedModels.Solution",
   "theorem": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.detailedReligiousSemanticModels",

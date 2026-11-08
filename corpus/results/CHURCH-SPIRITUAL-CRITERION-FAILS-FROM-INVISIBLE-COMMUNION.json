@@ -1,6 +1,8 @@
 {
-  "id": "CHURCH-SPIRITUAL-CRITERION-FAILS-FROM-INVISIBLE-COMMUNION",
-  "argument_id": "CHURCH-SPIRITUAL-CRITERION-FAILS-FROM-INVISIBLE-COMMUNION",
+  "id": "22d49110-3c57-5082-9178-2f56afe7285f",
+  "label": "The selected Church predicate does not coextend with the selected…, from invisible communion",
+  "legacy_id": "CHURCH-SPIRITUAL-CRITERION-FAILS-FROM-INVISIBLE-COMMUNION",
+  "argument_id": "a1312d4b-f81f-5bb8-855e-43e10ebe292e",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.spiritualFailsFromInvisibleCommunion",

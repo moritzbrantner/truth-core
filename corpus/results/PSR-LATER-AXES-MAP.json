@@ -1,6 +1,8 @@
 {
-  "id": "PSR-LATER-AXES-MAP",
-  "argument_id": "PSR-LATER-AXES-MAP",
+  "id": "43d045d9-9713-5539-9054-8b1a52290d04",
+  "label": "Extends the existing PSR strength map and its collapse core, retaining the existence-scope controls",
+  "legacy_id": "PSR-LATER-AXES-MAP",
+  "argument_id": "740d2cd2-c14b-5db6-9007-f4a9a128cd5f",
   "challenge_module": "TruthCore.Results.Explanation.PSRLaterAxes.Challenge",
   "solution_module": "TruthCore.Results.Explanation.PSRLaterAxes.Solution",
   "theorem": "TruthCore.Results.Explanation.PSRLaterAxes.interpretedMap",

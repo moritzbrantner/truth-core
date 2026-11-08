@@ -1,6 +1,8 @@
 {
-  "id": "LOGIC-STATIC-EPISODE-CONTROL",
-  "argument_id": "LOGIC-STATIC-EPISODE-CONTROL",
+  "id": "3fab8a6b-ed9a-5851-b6a0-656bd076278a",
+  "label": "A one-episode interpretation with a one-point state-index carrier satisfies occurrence while…",
+  "legacy_id": "LOGIC-STATIC-EPISODE-CONTROL",
+  "argument_id": "d9f68331-16fa-59bd-b546-e374f40526fb",
   "challenge_module": "TruthCore.Results.Logic.PerformedDenial.StaticControl.Challenge",
   "solution_module": "TruthCore.Results.Logic.PerformedDenial.StaticControl.Solution",
   "theorem": "TruthCore.Results.Logic.PerformedDenial.StaticControl.staticControl",

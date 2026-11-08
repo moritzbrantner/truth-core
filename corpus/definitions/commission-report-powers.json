@@ -1,14 +1,16 @@
 {
-  "id": "DEF-COMMISSION-REPORT-POWERS",
+  "id": "66200ff6-4af8-5b8f-a2c8-08ddf2d0f072",
+  "label": "Powers named in the reported commissions: For each of the five Gospel reports of a commission…",
+  "legacy_id": "DEF-COMMISSION-REPORT-POWERS",
   "term": "powers named in the reported commissions (CommissionReport.powers)",
   "definition": "For each of the five Gospel reports of a commission given by Jesus to his disciples, the powers the report says he gave or promised: Matthew 16.18-19 (to Peter, promised): the keys of the kingdom of heaven and binding and loosing; Matthew 18.17-18 (to the disciples addressed): the ekklēsia's hearing of a member's case with exclusion of one who refuses it (judgeAsChurch), and binding and loosing; Matthew 28.18-20 (to the eleven): making disciples of all nations, baptizing, and teaching them to keep all Jesus commanded; John 20.21-23 (to the disciples gathered): forgiving and retaining sins; John 21.15-17 (to Peter): shepherding (feeding and tending) Jesus' lambs and sheep. This is textual content only: that a report names a power does not make Jesus' giving it an event (Commissioning.Gave). Recipients are not encoded.",
   "basis": "sourced",
   "claim_ids": [
-    "NT-MATT-16-18-19-CHURCH-ON-ROCK-KEYS-BINDING",
-    "NT-MATT-18-17-18-CHURCH-JUDGES-DISCIPLES-BIND",
-    "NT-MATT-28-18-20-COMMISSION-UNDER-AUTHORITY",
-    "NT-JOHN-20-21-23-SENDING-FORGIVE-RETAIN",
-    "NT-JOHN-21-15-17-PETER-SHEPHERD"
+    "04c15458-22f6-51b2-bf8f-c49bff340401",
+    "c72d0bbe-9133-53cb-bc95-3f1307db4d70",
+    "26dd1e7d-aaa3-5754-a9dc-551ec2038c03",
+    "39808ea5-6960-524b-9017-a7e87c9ad718",
+    "40544f6f-9d36-5053-812d-0b4dac17d06d"
   ],
   "lean_declaration": "TruthCore.Case.Catholicism.StageThree.Commissions.CommissionReport.powers"
 }

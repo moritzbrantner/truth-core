@@ -1,15 +1,17 @@
 {
-  "id": "ATTEMPT-HISTORY-TIME-SCOPE-CONTROLS",
+  "id": "58ed31df-4bd8-5c8b-8481-7d7c474d1c42",
+  "label": "Audited origin/main 0f1059ba and open PR titles: #594 already supplies Int-time\u2026",
+  "legacy_id": "ATTEMPT-HISTORY-TIME-SCOPE-CONTROLS",
   "date": "2026-10-28",
   "statement_ids": [
-    "STMT-HISTORY-TIME-SCOPE-CONTROLS",
-    "STMT-TEMPORAL-MODAL-DEPENDENCE-CONTROLS"
+    "e8ce9035-1f8e-53ff-ab73-db9209a931d1",
+    "15675d4d-7eb9-55dc-970f-f41fdc6781c2"
   ],
   "kind": "countermodel",
   "outcome": "succeeded",
   "summary": "Audited origin/main 0f1059ba and open PR titles: #594 already supplies Int-time everlasting-contingent and beginning-necessary controls. Rejected duplicating those results; #467 owns contrastive complete-history explanation. Remaining #469 gap is the shared-timeline quantifier hierarchy. New task-local model imports exact TemporalHistory.History/Ontic vocabulary without changing shared definitions. Proved generic AllTime\u2192Common\u2192Worldwise and AllTime\u2194Worldwise\u2227Uniform; the explicit Uniform bridge is within-world propagation, not metaphysical conservation. Bool diagonal and synchronized controls witness both failed converses, and each world in both interpretations fails EverlastingAt. Rejected silently imposing CoherentAtNow or identifying Ontic.ExistsAt with existential history presence. No atemporal predicate, source attribution, creation/conservation claim or new metaphysical necessity definition. The #353 eternity bridge remains a separate sourced obligation. Main/shared vocabulary untouched; intended and actual root-premise delta zero. Persistent Lean service HTTP200 at detached75192b1c, session causal-harvest, Scratch/issue469.lean, two edits under flock /tmp/truth-core-lean.lock, reported lock wait0s, final diagnostics empty, content SHA2564e43527f49c0ea81b1e7097e66ae403e348ac937b0e6aab7212aafae86bfbc67. Interactive combined-file diagnostics do not replace final build/binding/Comparator/NanoDa; those remain CI-owned. Claim/type self-sweep: exact displayed quantifiers, fixed bearer and distinct interpretations; no hidden nonemptiness because History.now provides the time; no coherence or reality claim added.",
   "evidence": [
-    "HISTORY-TIME-SCOPE-CONTROLS",
-    "TEMPORAL-MODAL-DEPENDENCE-CONTROLS"
+    "7e6de7aa-b796-5964-bede-a04f1a5fa20a",
+    "bb4ba74e-4fbf-5e27-add4-5c38a1ddfa86"
   ]
 }

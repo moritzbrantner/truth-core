@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ACCIDENTAL-FEATURE-ORIGIN-POLICIES",
+  "id": "1428c1cc-9e24-5733-a8a1-a82ead0dd2d0",
+  "label": "SELECTED_ORIGIN_FORK_2, shared essential\u2026: OriginFork conditionally classifies the selected\u2026",
+  "legacy_id": "DEF-ACCIDENTAL-FEATURE-ORIGIN-POLICIES",
   "term": "selected origin fork, shared essential production and realization",
   "basis": "stipulative",
   "definition": "OriginFork conditionally classifies the selected occurring accidental feature as essence-produced or having an externalFeatureCause witness. SharedProduction transfers essenceProduces(essenceOf x,f) to essenceProduces(essenceOf y,f) for THIS pair/kind. Realization converts the latter selected production into occurs(y,f). All three are supplied OPEN policies, not independently established causal laws.",

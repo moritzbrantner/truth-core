@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-MODAL-DEGREE-PRESENCE",
+  "id": "4eb21e18-3541-5b78-ab20-0040e4e987f4",
+  "label": "Degree of existence, world-relative presence and necessary being",
+  "legacy_id": "DISAMB-MODAL-DEGREE-PRESENCE",
   "term": "degree of existence, world-relative presence and necessary being",
   "sense_definition_ids": [
-    "DEF-MODAL-EXISTENCE-DEGREE",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+    "3baa4471-74ac-5de6-a53a-6ea274873405",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea"
   ],
   "resolution": "ExistenceDegrees uses intensity as an ordered degree parameter and m.ExistsAt as a separate world-relative presence predicate over a fixed roster. NecessaryAt is relative to worlds accessible from the chosen standpoint and need not imply base-world presence without a reflexivity/presence premise. Neither presence nor necessity alone fixes intensity; the degree-invariance clause is an additional open, source-shaped conditional. The source11 claim binds only ActualNecessaryDegreeInvariant, whose antecedent includes actual presence and necessity, not the stronger bare analyst predicate. Same degree means mutual\u2264, allowing different tied labels; no source-supported equality of labels, strictness or uniqueness is inferred. The graded-intensity profile is not silently identified with Thomistic InAct x esse, the earlier homogeneous MoreIn scale, or a count of worlds. All global conclusions retain their root-accessible domain and existent-pair guards."
 }

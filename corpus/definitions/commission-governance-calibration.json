@@ -1,5 +1,7 @@
 {
-  "id": "DEF-COMMISSION-GOVERNANCE-CALIBRATION",
+  "id": "ae8f82d4-54bb-5131-bac7-94c08ed28560",
+  "label": "Selected governing-power criterion and…: A selected predicate on the existing Power carrier is…",
+  "legacy_id": "DEF-COMMISSION-GOVERNANCE-CALIBRATION",
   "term": "selected governing-power criterion and its matching institutional bridge",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Case.Catholicism.StageThree.CommissionDefinitions.InstitutionLinkFor",

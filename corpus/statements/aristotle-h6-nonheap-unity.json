@@ -1,12 +1,14 @@
 {
-  "id": "STMT-NONHEAP-WHOLE-HAS-UNITY-EXPLANANDUM",
+  "id": "500b103e-4420-566c-a2f0-cd086520f17c",
+  "label": "For a whole with several parts that is not merely a heap but something over and above its parts…",
+  "legacy_id": "STMT-NONHEAP-WHOLE-HAS-UNITY-EXPLANANDUM",
   "paraphrase": "For a whole with several parts that is not merely a heap but something over and above its parts, Aristotle calls for a cause of its being one; his examples include contact or stickiness in bodies.",
   "definition_ids": [
-    "DEF-ARISTOTLE-NONHEAP-WHOLE",
-    "DEF-ARISTOTLE-PROXIMATE-MATTER-FORM",
-    "DEF-ARISTOTLE-H6-UNITY-CAUSE"
+    "58633e90-ed09-5e1e-87ed-c23a587f1a8e",
+    "75dc4009-c107-57c9-9a12-ca20e19f8ebd",
+    "57bc6e11-2b8f-506d-8f4d-27f67423c59f"
   ],
   "disambiguation_ids": [
-    "DISAMB-ARISTOTLE-H6-UNITY-AND-CAUSATION"
+    "cbb6f6da-760d-5822-ba5f-1054df1b1f04"
   ]
 }

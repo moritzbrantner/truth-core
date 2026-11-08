@@ -1,9 +1,11 @@
 {
-  "id": "REL-AUGUSTINE-PLATONISTS-KNEW-GOD-FROM-CREATION-SUPPORTS-NATURAL-REASON-SHARED",
+  "id": "b25ce3b2-0fe6-5a6a-bdae-bdfde4a4b871",
+  "label": "Augustine of Hippo, De civitate Dei… supports A move that affirms that God can be known…",
+  "legacy_id": "REL-AUGUSTINE-PLATONISTS-KNEW-GOD-FROM-CREATION-SUPPORTS-NATURAL-REASON-SHARED",
   "subject_kind": "claim",
-  "subject_id": "AUGUSTINE-PLATONISTS-KNEW-GOD-FROM-CREATION",
+  "subject_id": "c54c8ee2-fc85-5859-b434-b4990ae1bfc4",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-NATURAL-REASON-IS-SHARED-REASON",
+  "object_id": "c87ffcb8-9a44-5e02-a68b-13d0282ae930",
   "note": "Patristic usage, and the closest to the bridge: pagan philosophers reached an unchangeable first principle by reasoning from changeable things, which Augustine reads with Rom 1:20. Gap: Augustine also says God showed it to them, and he speaks of the Platonists, not of all; the step from their success to a standard shared by outsiders as such is the reading."
 }

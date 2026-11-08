@@ -1,28 +1,30 @@
 {
-  "id": "COMMISSION-NAMED-CRITERION-ELIMINATION-SUPPLIES-SCOPE",
+  "id": "387f4901-882a-5901-ad72-b661c0ea6f87",
+  "label": "For any being g: if Jesus holds a…, from The selected governing predicate matches… and 3 more",
+  "legacy_id": "COMMISSION-NAMED-CRITERION-ELIMINATION-SUPPLIES-SCOPE",
   "premise_statement_ids": [
-    "STMT-COMMISSION-NAMED-GOVERNANCE-CRITERIA-COVER",
-    "STMT-COMMISSION-NARROW-GOVERNANCE-CRITERION-FAILS",
-    "STMT-MATTHEW28-COMMISSION-GOES-BACK-TO-JESUS",
-    "STMT-CHURCH-INSTITUTION-LINK-FOR-SELECTED-GOVERNANCE"
+    "3cff0d5a-d5e0-54f5-9eab-beb7f285cac4",
+    "01cc2592-9945-545f-933e-302e46387c4b",
+    "5baad26f-0b3b-5a00-ab0d-a4bb89fed1fa",
+    "8e5da2fb-6205-5431-983a-365ff9419143"
   ],
-  "conclusion_statement_id": "STMT-MANDATE-COVERS-JESUS-FOUNDING-OF-CATHOLIC-CHURCH",
+  "conclusion_statement_id": "723ee3c4-00e9-5f86-9562-79d430227b19",
   "inference_ids": [
-    "INF-COMMISSION-NAMED-CRITERION-ELIMINATION-SUPPLIES-SCOPE"
+    "759299de-31da-51c6-a95b-4cd64cd47057"
   ],
   "meaning": "Under open named coverage and actual negation of the narrow calibration, select the teaching-inclusive criterion and import its existing standalone mandate-scope connection. Failure of Matthew 28 alone under the narrow bridge is not itself negation of the narrow criterion.",
   "definition_ids": [
-    "DEF-COMMISSION-GOVERNANCE-CALIBRATION",
-    "DEF-TEACHING-INCLUSIVE-GOVERNING-POWER",
-    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
-    "DEF-COMMISSION-REPORT-POWERS",
-    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
-    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY"
+    "ae8f82d4-54bb-5131-bac7-94c08ed28560",
+    "4ada8322-c61c-567c-b615-d056bde1c2e9",
+    "6dea072c-97c4-5ee9-9958-a3da6a2a049c",
+    "66200ff6-4af8-5b8f-a2c8-08ddf2d0f072",
+    "e225d39c-9081-5d1f-80f5-ed121dbb9a30",
+    "12d8270e-a003-557f-8434-490095c74177"
   ],
   "disambiguation_ids": [
-    "DISAMB-COMMISSION-GOVERNANCE-CRITERIA",
-    "DISAMB-COMMISSION-REPORT-AND-EVENT",
-    "DISAMB-FOUNDED-BY-GOD",
-    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS"
+    "4bd8469b-0101-5628-b94d-daa4264972d5",
+    "0f180711-5550-55b5-9da8-699215d6d95e",
+    "87582d70-e56a-5e51-9377-84b6655b1b68",
+    "2c675c96-2539-5adc-a560-37609d0dc5fe"
   ]
 }

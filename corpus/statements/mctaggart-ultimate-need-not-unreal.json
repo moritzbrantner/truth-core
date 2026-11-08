@@ -1,11 +1,13 @@
 {
-  "id": "STMT-MCTAGGART-ULTIMATE-NEED-NOT-UNREAL",
+  "id": "d517f74d-4bab-514c-9319-4e552ed6fcb7",
+  "label": "McTaggart allows that an idea may apply to reality without admitting a valid explanation",
+  "legacy_id": "STMT-MCTAGGART-ULTIMATE-NEED-NOT-UNREAL",
   "paraphrase": "McTaggart allows that an idea may apply to reality without admitting a valid explanation. He rejects the proposed ultimate-time reply because he thinks the incompatibility remains unremoved, rather than because lack of explanation alone implies unreality.",
   "definition_ids": [
-    "DEF-MCTAGGART-A-B-DETERMINATIONS",
-    "DEF-MCTAGGART-RECURRENT-CONTRADICTION"
+    "34386d0f-ca2c-5645-a45b-fc0b43bade79",
+    "350dfa15-f6b3-542d-b411-89f3a03e3581"
   ],
   "disambiguation_ids": [
-    "DISAMB-MCTAGGART-TEMPORAL-INDEX-REGRESS"
+    "7ac133b4-4dc6-560d-9a62-498dad9b64a4"
   ]
 }

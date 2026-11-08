@@ -1,12 +1,14 @@
 {
-  "id": "DEF-GENUS-STRICT",
+  "id": "414f094b-7403-5a35-8527-b36ed4ea8bc1",
+  "label": "GENUS_1: IsGenus g: g is a predicable said of its species in what they are and divided into them by…",
+  "legacy_id": "DEF-GENUS-STRICT",
   "term": "genus (strict, Aristotelian)",
   "definition": "`IsGenus g` (parameter of the Metaphysics III.3 readings): g is a predicable said of its species in what they are (in quid) and divided into them by differentiae of which it is not itself said. Being is not a genus in this sense (STMT-BEING-NOT-A-GENUS).",
   "basis": "sourced",
   "claim_ids": [
-    "ARIST-MET-998B-GENUS-NOT-SAID-OF-DIFFERENTIAE-A",
-    "AQUINAS-ST-I-Q3-A5-EVERY-GENUS-HAS-DIFFERENTIAE-A",
-    "AQUINAS-ST-I-Q3-A5-IN-GENUS-AS-SPECIES-A"
+    "22b8ea7e-35d9-5bc9-9981-c2f129ccb299",
+    "ec55910c-ae2c-5a37-bf5d-42ca350a4f34",
+    "1967a468-ceeb-5d38-a621-3991375b38c3"
   ],
   "lean_declaration": "TruthCore.Greek.Aristotle.Metaphysics.BeingIsNotAGenusReading",
   "note": "Typed parameter location: IsGenus : Term → Prop in BeingIsNotAGenusReading. The linked declaration says ¬ IsGenus being for the supplied being : Term; it is a constraining premise, not a definition of the primitive IsGenus predicate. Applicability of the predicable/differentia gloss to supplied terms remains OPEN."

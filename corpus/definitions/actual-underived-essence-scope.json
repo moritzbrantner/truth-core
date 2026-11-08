@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ACTUAL-UNDERIVED-ESSENCE-SCOPE",
+  "id": "e342a237-70e5-57e5-83c7-4446383944ca",
+  "label": "Selected-world necessary support and…: ActualNoContingent restricts the existing…",
+  "legacy_id": "DEF-ACTUAL-UNDERIVED-ESSENCE-SCOPE",
   "term": "selected-world necessary support and underived essence identity",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Causality.ActualUnderivedEssenceEsse.ActualUnderivedEssenceIdentity",

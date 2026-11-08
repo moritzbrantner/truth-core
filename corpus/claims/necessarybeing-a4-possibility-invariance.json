@@ -1,17 +1,19 @@
 {
-  "id": "NB-SURVEY-A4-POSSIBILITY-INVARIANCE",
-  "statement_id": "STMT-NB-A2-POSSIBILITY-INVARIANCE",
-  "source_id": "NECESSARYBEING-SURVEY",
+  "id": "e28dc544-7c45-5500-b975-fcd3aec90cba",
+  "label": "Unattributed website author, Necessary…: For any individually possible situations X and Y, if X… (6)",
+  "legacy_id": "NB-SURVEY-A4-POSSIBILITY-INVARIANCE",
+  "statement_id": "864efc2d-2362-54ec-a684-33cd93e594f9",
+  "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
   "locator": "A4P4, entire individually-possible X/Y question, examples and explicit non-joint-possibility note",
   "interpretation": "The materialized question matches A3P3 exactly and has the existing A2 report’s meaning, so reuse the existing proposition. The report is conditional, not actual assent. A4C’s modal suffix also matches A3C; no new S5/frame proof, N-to-Box-N definition identity or rigid-individual necessity is credited.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
-    "DEF-NB-SURVEY-NECESSARY-BEING"
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0",
+    "7fde5dc0-6ca7-5ce6-a2e1-571acfd15dcf"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A4-PROPERTY-TRANSFER-SCOPE",
-    "DISAMB-NB-A3-EVENT-CAUSE-SCOPE",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "130ced63-088b-531d-82b5-3cd1ed1e304c",
+    "82cfe4a1-7f82-5453-ab75-cde5474121e8",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

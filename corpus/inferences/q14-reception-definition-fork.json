@@ -1,9 +1,11 @@
 {
-  "id": "INF-Q14-RECEPTION-DEFINITION-FORK",
+  "id": "9ae37ce2-87a8-524c-8b95-7f2b1404b677",
+  "label": "Either the open named menu holds or all three calibrations fail, on the…, by Constructive-proof",
+  "legacy_id": "INF-Q14-RECEPTION-DEFINITION-FORK",
   "input_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-Q14-CALIBRATION-FORK",
+  "output_statement_id": "4cf0ec89-f028-59e6-b9f7-6c4064d71ce8",
   "rule": "constructive-proof",
   "meaning": "Logical transcription of finite case analysis on three typed calibration propositions with explicit excluded middle. It proves neither named coverage nor philosophical completeness; controls separately witness overlap and remainder.",
   "assumption_statement_ids": [],

@@ -1,10 +1,12 @@
 {
-  "id": "STMT-SELLARS-NONINFERENTIAL-NOT-AUTONOMOUS",
+  "id": "8148a6d0-f1e7-53d1-a86b-af1390057b9f",
+  "label": "Sellars distinguishes noninferential observational knowledge from knowledge that presupposes no…",
+  "legacy_id": "STMT-SELLARS-NONINFERENTIAL-NOT-AUTONOMOUS",
   "paraphrase": "Sellars distinguishes noninferential observational knowledge from knowledge that presupposes no other factual knowledge.",
   "definition_ids": [
-    "DEF-SELLARS-NONINFERENTIAL-OBSERVATION"
+    "b8f8eae6-d880-5062-9d84-1ce841d484a9"
   ],
   "disambiguation_ids": [
-    "DISAMB-SELLARS-FOUNDATION-RELIABILITY-AND-RECIPROCITY"
+    "46f172ac-9758-5e8a-a771-8faa87cddfa7"
   ]
 }

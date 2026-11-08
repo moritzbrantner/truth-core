@@ -1,10 +1,12 @@
 {
-  "id": "DISAMB-KANT-GOD-IDENTIFICATION",
+  "id": "9f89b936-bfc5-5c6a-b611-f1b82befe8dc",
+  "label": "God in the comparison",
+  "legacy_id": "DISAMB-KANT-GOD-IDENTIFICATION",
   "term": "God in the comparison",
   "sense_definition_ids": [
-    "DEF-KANT-DIVINE-NAME-EFFECTS",
-    "DEF-KANT-REALITY-PROFILE",
-    "DEF-GOD-OF-CLASSICAL-THEISM"
+    "3cf7066c-e32a-5e30-b59a-2ce842ce52c4",
+    "b3c45d92-dee0-5a1a-9849-9924d3a1699d",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807"
   ],
   "resolution": "Aquinas’s quia counterreading uses the name through effects without a known quiddity. Kant’s reported completion seeks ens realissimum; the formal model represents that with positive features. The existing Catholic root uses IsGod with its full nominal and attribute bridges. No one of these meanings is definitionally substituted for another; every identification requires its own defended bridge."
 }

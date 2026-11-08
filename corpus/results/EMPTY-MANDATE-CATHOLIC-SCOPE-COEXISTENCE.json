@@ -1,6 +1,8 @@
 {
-  "id": "EMPTY-MANDATE-CATHOLIC-SCOPE-COEXISTENCE",
-  "argument_id": "EMPTY-MANDATE-CATHOLIC-SCOPE-COEXISTENCE",
+  "id": "de76edd9-78f1-5674-8af8-5998a9776bc1",
+  "label": "A schema model satisfies both raw message-only and Catholic mandate-scope conditionals, explicitly…",
+  "legacy_id": "EMPTY-MANDATE-CATHOLIC-SCOPE-COEXISTENCE",
+  "argument_id": "94957c2e-e7f8-584c-8632-92729f05b333",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.EmptyMandate.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.EmptyMandate.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.explicitEmptyMandateScopeCoexistence",

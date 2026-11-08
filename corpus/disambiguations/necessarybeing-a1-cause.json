@@ -1,6 +1,12 @@
 {
-  "id": "DISAMB-NB-SURVEY-A1-CAUSE",
+  "id": "a73418e5-248f-5bda-b82c-47d92b3151dd",
+  "label": "Cause and external cause",
+  "legacy_id": "DISAMB-NB-SURVEY-A1-CAUSE",
   "term": "cause and external cause",
-  "sense_definition_ids": ["DEF-CAUSE-OF-ORIGIN", "DEF-NB-SURVEY-CAUSE-RELATUM", "DEF-NB-SURVEY-EXTERNAL-CAUSE"],
+  "sense_definition_ids": [
+    "05dc1385-d245-5137-bf8b-dbdb1d3d9a7a",
+    "c840c46a-3e60-5fbc-81a3-3633ab562871",
+    "e6d66357-8f22-5a2c-bd96-6ccc68ce0063"
+  ],
   "resolution": "A1c first assumes any cause for C and separately excludes C and its parts, while A1c2 instead assumes an external cause outright. Neither is automatically Aquinas's specific origin-cause relation DEF-CAUSE-OF-ORIGIN. No inference between the different causal strengths is encoded as equivalence, and neither reported premise is established here."
 }

@@ -1,6 +1,8 @@
 {
-  "id": "DIRECT-ESSE-ROOT-GOODNESS-OMISSION",
-  "argument_id": "DIRECT-ESSE-ROOT-GOODNESS-OMISSION",
+  "id": "f1f92f20-d3d2-5751-9419-c326a90ac0e7",
+  "label": "Full-background omission control for the…, from Excluded middle as a general principle…",
+  "legacy_id": "DIRECT-ESSE-ROOT-GOODNESS-OMISSION",
+  "argument_id": "ad86a700-0198-5dda-a522-b23eea56ab18",
   "challenge_module": "TruthCore.Results.Causality.DirectEsseRootGoodnessOmission.Challenge",
   "solution_module": "TruthCore.Results.Causality.DirectEsseRootGoodnessOmission.Solution",
   "theorem": "TruthCore.Results.Causality.DirectEsseRootGoodnessOmission.checks",

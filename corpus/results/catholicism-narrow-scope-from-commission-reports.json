@@ -1,6 +1,8 @@
 {
-  "id": "CATHOLICISM-NARROW-SCOPE-FROM-COMMISSION-REPORTS",
-  "argument_id": "CATHOLICISM-NARROW-SCOPE-FROM-COMMISSION-REPORTS",
+  "id": "959585ed-9cda-5caa-bad6-c7f878659611",
+  "label": "For any being g: if Jesus holds a mandate from g, and Jesus founded the…, from commission reports",
+  "legacy_id": "CATHOLICISM-NARROW-SCOPE-FROM-COMMISSION-REPORTS",
+  "argument_id": "044a8918-6b92-5ac7-8811-7862fa7b9582",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.Commissions.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.Commissions.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.Commissions.narrow_scope_from_commissions",

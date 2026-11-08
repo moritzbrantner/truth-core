@@ -1,34 +1,36 @@
 {
-  "id": "MOVES-ONLY-AS-IN-ACT-FROM-CAUSAL-EXCESS",
+  "id": "892db443-af2e-5925-9e3d-74b3f6788ac3",
+  "label": "A thing moves another in some respect only insofar as it is itself in act in…, from causal excess",
+  "legacy_id": "MOVES-ONLY-AS-IN-ACT-FROM-CAUSAL-EXCESS",
   "premise_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-MOVER-CAUSES-WHAT-IT-MOVES-TO",
-    "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH",
-    "STMT-MORE-SUCH-HAS-THE-PERFECTION",
-    "STMT-SELF-MOVER-MOVES-BY-A-DISTINCT-PART",
-    "STMT-WHOLE-IN-ACT-THROUGH-ITS-PART"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "6a0b545c-d3bb-52d1-b0b7-c3ea48febb92",
+    "d5a94eb1-72d2-53e0-9a52-9787b5b61a8d",
+    "c11369aa-7c3d-5dea-8421-535d5b4b3104",
+    "99470e3f-81ac-5cf2-8a0e-69429f98fd0c",
+    "f1a124b6-5df4-5488-9411-5f85f9fee173"
   ],
-  "conclusion_statement_id": "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
+  "conclusion_statement_id": "f296a694-aeea-5fa7-bdbf-0076530f9441",
   "inference_ids": [
-    "INF-MOVES-ONLY-AS-IN-ACT-FROM-CAUSAL-EXCESS"
+    "02b02ec9-5980-56e9-a893-39986119f749"
   ],
   "meaning": "Derives the prima via premise that a thing moves only insofar as it is in act. Case split on whether the mover y is the moved x. If distinct: y causes x's being r (OPEN bridge), so y is more r than x (Metaphysics II.1), so y has r in act (quarta via). If y = x: y moves itself by a distinct part p (OPEN reading of Physics VIII.4-5); by the distinct case p is in act in r, and the whole is in act through its part (OPEN). It does not use STMT-NO-MOVER-MOVES-ITSELF-IN-ITS-RESPECT, which is derived from the conclusion. This answers the self-mover gap that rejected the lead in ATTEMPT-REJECTED-DERIVATION-LEADS-20261107.",
   "definition_ids": [
-    "DEF-ACT",
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-MORE-IN",
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-MOVER-PART",
-    "DEF-RESPECT",
-    "DEF-SELF-EVIDENT-MARKING",
-    "DEF-SELF-MOTION-ARISTOTLE"
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5766de66-8a37-5b04-aa65-9eec53319f50",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "701c8996-8d37-546d-9610-26b758dd04e8",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1",
+    "500ba323-cca5-5b35-8b75-947008256c43",
+    "8e970ec8-4a38-53bb-8786-f52af8664cc2"
   ],
   "disambiguation_ids": [
-    "DISAMB-BEING-UNIVOCITY",
-    "DISAMB-CAUSE",
-    "DISAMB-IN-ACT",
-    "DISAMB-MOTION",
-    "DISAMB-ORDER-OF-BEING",
-    "DISAMB-SELF-MOTION"
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "1795a62e-f78b-5f5b-94e7-9e7490824811",
+    "aa925dce-cf10-535e-a9ef-a5a0f00a677f"
   ]
 }

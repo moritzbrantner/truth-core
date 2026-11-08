@@ -1,6 +1,6 @@
 {
   "snapshot": {
-    "source_id": "ARIST-PHYS",
+    "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
     "edition_urn": "urn:cts:greekLit:tlg0086.tlg031.1st1K-grc1",
     "language": "grc",
     "repository": "OpenGreekAndLatin/First1KGreek",
@@ -12,7 +12,9 @@
   },
   "passages": [
     {
-      "id": "ARIST-PHYS-VIII-3",
+      "id": "e768a479-4fae-5429-9dc5-91dc493bdd4d",
+      "label": "Aristotle, Physics, VIII.3",
+      "legacy_id": "ARIST-PHYS-VIII-3",
       "locator": "VIII.3",
       "claim_locator_prefixes": [
         "VIII.3,"

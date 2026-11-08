@@ -1,7 +1,8 @@
 {
-  "id": "STRICTLY-GREATEST-MAXIMAL-FROM-ASYMMETRY",
+  "id": "578c4221-db84-5728-9f3e-3a053b96c893",
   "label": "Asymmetric more-in makes a MAXIME_3 being MAXIME_1",
-  "argument_id": "STRICTLY-GREATEST-MAXIMAL-FROM-ASYMMETRY",
+  "legacy_id": "STRICTLY-GREATEST-MAXIMAL-FROM-ASYMMETRY",
+  "argument_id": "1fe8fd6f-8cad-56de-9c47-6d4a2920f9e6",
   "challenge_module": "TruthCore.Results.Causality.TermSenseForks3.Challenge",
   "solution_module": "TruthCore.Results.Causality.TermSenseForks3.Solution",
   "theorem": "TruthCore.Results.Causality.TermSenseForks3.strictlyGreatestInBeingIsMaximal",

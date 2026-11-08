@@ -1,5 +1,7 @@
 {
-  "id": "DEF-STRICT-NAME-COREFERENCE",
+  "id": "6bf06590-f2ca-5dfa-9fb6-2e799c4c9916",
+  "label": "Strict co-reference of partial names: CoRef a b v means there exists a candidate bearer x…",
+  "legacy_id": "DEF-STRICT-NAME-COREFERENCE",
   "term": "strict co-reference of partial names",
   "definition": "CoRef a b v means there exists a candidate bearer x designated by both a and b at v. Under RigidAt this is a common existing denotation. Empty names do not satisfy CoRef, even if their designation relations are extensionally equal. Box quantifies CoRef over the selected relation.",
   "basis": "stipulative",

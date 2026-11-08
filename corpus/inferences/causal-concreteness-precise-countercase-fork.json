@@ -1,10 +1,12 @@
 {
-  "id": "INF-CAUSAL-CONCRETENESS-PRECISE-COUNTERCASE-FORK",
+  "id": "066f14b0-8b42-5b62-b96d-ecffddf33eb2",
+  "label": "Under explicit excluded middle and the esse calibration, the exact original…, by Constructive-proof",
+  "legacy_id": "INF-CAUSAL-CONCRETENESS-PRECISE-COUNTERCASE-FORK",
   "input_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-CAUSAL-CONCRETE-PREDICATE-MATCHES-ESSE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "0c1b8438-fef8-5e2e-b42a-49d9d2e1f2df"
   ],
-  "output_statement_id": "STMT-SELECTED-CAUSAL-CONCRETENESS-OR-COUNTERCASE",
+  "output_statement_id": "ed5aa44a-3dcc-54fd-aee3-8db5aed71f9c",
   "rule": "constructive-proof",
   "meaning": "Structural fork under explicit excluded middle and calibration; exhausts the two-clause counterexample shapes, not philosophical theories.",
   "assumption_statement_ids": [],

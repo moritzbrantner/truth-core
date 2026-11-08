@@ -1,6 +1,8 @@
 {
-  "id": "NO-INERTIAL-UNIFORM-MOTION-WITHOUT-MOVER-FROM-STATE-READING",
-  "argument_id": "NO-INERTIAL-UNIFORM-MOTION-WITHOUT-MOVER-FROM-STATE-READING",
+  "id": "fc99e3ad-aba3-5701-a45d-f8f4a0baf5da",
+  "label": "Negation of the inertial rival inertial uniform MOTION_1 without mover on the…, from state reading",
+  "legacy_id": "NO-INERTIAL-UNIFORM-MOTION-WITHOUT-MOVER-FROM-STATE-READING",
+  "argument_id": "ba077630-3991-5ee1-9a94-cfa04c8c0e5a",
   "challenge_module": "TruthCore.Results.Causality.RivalRefutationsRound2.Challenge",
   "solution_module": "TruthCore.Results.Causality.RivalRefutationsRound2.Solution",
   "theorem": "TruthCore.Results.Causality.RivalRefutationsRound2.noUniformMotionWithoutMover",

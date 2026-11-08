@@ -1,12 +1,14 @@
 {
-  "id": "STMT-MCTAGGART-APPEARINGS-DO-NOT-CHANGE",
+  "id": "32730921-d6a6-5e30-ac6d-b1d302d41873",
+  "label": "McTaggart's answer to the retorsion, in his general sense of CHANGE_2: there are appearings, and no…",
+  "legacy_id": "STMT-MCTAGGART-APPEARINGS-DO-NOT-CHANGE",
   "paraphrase": "McTaggart's answer to the retorsion, in his general sense of change: there are appearings (perceivings, some appearing as judgings, of things as in time), and no appearer, as such, changes. It says nothing about reduction from potency to act; with the open bridge STMT-MOTION-IS-A-CHANGE it denies STMT-OPINION-IS-A-MOTION.",
   "lean_declaration": "TruthCore.Alternatives.McTaggart.AppearingsDoNotChangeReading",
   "definition_ids": [
-    "DEF-OPINING",
-    "DEF-CHANGE-GENERAL"
+    "9703834b-4e1d-5f4a-9e9a-2df5a215d493",
+    "9bd881c9-2227-5883-9595-96db5e630da3"
   ],
   "disambiguation_ids": [
-    "DISAMB-CHANGE-A-SERIES"
+    "784f3293-6601-5730-a89a-c0b84d8d8b57"
   ]
 }

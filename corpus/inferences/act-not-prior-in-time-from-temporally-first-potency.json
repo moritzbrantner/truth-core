@@ -1,9 +1,11 @@
 {
-  "id": "INF-ACT-NOT-PRIOR-IN-TIME-FROM-TEMPORALLY-FIRST-POTENCY",
+  "id": "67e03a7b-86d1-5f14-9c6c-73f8807437a6",
+  "label": "The temporal branch fails: it is not the case that whatever is in POTENCY_1 in a…, by Reductio",
+  "legacy_id": "INF-ACT-NOT-PRIOR-IN-TIME-FROM-TEMPORALLY-FIRST-POTENCY",
   "input_statement_ids": [
-    "STMT-TEMPORALLY-FIRST-BEING-IN-POTENCY"
+    "42008b33-62b5-564b-875b-ff91957ddd46"
   ],
-  "output_statement_id": "STMT-ACT-NOT-PRIOR-TO-POTENCY-IN-TIME",
+  "output_statement_id": "f3d343f1-581f-5426-a810-138ad6774f42",
   "rule": "Reductio",
   "meaning": "Per-sense result for the temporal branch of 'prior': if some temporally first being is in potency, act is not prior to potency in time, since nothing in act is before that being.",
   "assumption_statement_ids": [],

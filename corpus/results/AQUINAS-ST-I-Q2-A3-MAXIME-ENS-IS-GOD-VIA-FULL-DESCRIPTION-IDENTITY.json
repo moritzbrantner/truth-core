@@ -1,6 +1,8 @@
 {
-  "id": "AQUINAS-ST-I-Q2-A3-MAXIME-ENS-IS-GOD-VIA-FULL-DESCRIPTION-IDENTITY",
-  "argument_id": "AQUINAS-ST-I-Q2-A3-MAXIME-ENS-IS-GOD-VIA-FULL-DESCRIPTION-IDENTITY",
+  "id": "57f9a3b6-b979-520e-802e-eb787b8e2f29",
+  "label": "Whatever is maximal in being is GOD_2, in the sense in which ST I…, via full description identity",
+  "legacy_id": "AQUINAS-ST-I-Q2-A3-MAXIME-ENS-IS-GOD-VIA-FULL-DESCRIPTION-IDENTITY",
+  "argument_id": "7be49bc0-955d-5e47-80f8-39a676ea665e",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.MaximeEnsIsGodViaFullDescriptionIdentity.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.MaximeEnsIsGodViaFullDescriptionIdentity.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.MaximeEnsIsGodViaFullDescriptionIdentity.maximeEnsIsGodViaFullDescription",

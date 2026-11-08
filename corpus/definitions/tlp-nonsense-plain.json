@@ -1,9 +1,11 @@
 {
-  "id": "DEF-TLP-NONSENSE-PLAIN",
+  "id": "d94541de-78e7-5634-a11c-9d7d81b6e58f",
+  "label": "NONSENSE_2: Unsinn that is plain NONSENSE_2, with no ineffable content behind it; recognizing it as…",
+  "legacy_id": "DEF-TLP-NONSENSE-PLAIN",
   "term": "nonsense (Tractatus, resolute reading)",
   "definition": "Unsinn that is plain nonsense, with no ineffable content behind it; recognizing it as such is the book's therapeutic aim.",
   "basis": "sourced",
   "claim_ids": [
-    "SEP-WITTGENSTEIN-2-4-RESOLUTE-A"
+    "31b04d2e-8e89-5c29-ac3f-4179a23d5ca7"
   ]
 }

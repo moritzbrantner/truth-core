@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-INTENTIONALITY943-TOKEN-CONTENT",
+  "id": "823dc975-75c4-580a-8f93-02701b622c36",
+  "label": "Mental representation",
+  "legacy_id": "DISAMB-INTENTIONALITY943-TOKEN-CONTENT",
   "term": "mental representation",
   "sense_definition_ids": [
-    "DEF-MIND-OCCURRENCE-FRAME",
-    "DEF-INTENTIONALITY943-CONTENT"
+    "d6835210-4ba5-5d56-ae3a-4588933bc4a8",
+    "dd04a959-a145-5411-a63f-4d18a17ec56e"
   ],
   "resolution": "A mental occurrence or its physical realizer is a vehicle; the content is what is truth-evaluated. Reductive classifies the target kind as physical, not its content as a physical property instantiated by its bearer. No step from representation of a stone to being a stone, or from occurrence identity to content being about the occurrence, is licensed. Both structures share the same occurrence carrier and designated mental-kind predicate. This fixes a comparison profile; it does not identify these tokens with all q.75 intellectual operations."
 }

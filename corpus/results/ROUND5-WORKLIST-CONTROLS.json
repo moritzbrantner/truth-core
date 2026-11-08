@@ -1,6 +1,8 @@
 {
-  "id": "ROUND5-WORKLIST-CONTROLS",
-  "argument_id": "ROUND5-WORKLIST-CONTROLS",
+  "id": "133783a4-07b1-5727-9fca-7f9fb474db54",
+  "label": "Finite interpretations for the eleven derivations of round 5: for each premise, a model on Unit…",
+  "legacy_id": "ROUND5-WORKLIST-CONTROLS",
+  "argument_id": "7451cc7a-3361-5b41-b60a-5e981b1f1d4a",
   "challenge_module": "TruthCore.Results.Causality.Round5Worklist.Challenge",
   "solution_module": "TruthCore.Results.Causality.Round5Worklist.Solution",
   "theorem": "TruthCore.Results.Causality.Round5Worklist.controls",

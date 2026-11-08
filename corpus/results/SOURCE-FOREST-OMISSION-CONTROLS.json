@@ -1,6 +1,8 @@
 {
-  "id": "SOURCE-FOREST-OMISSION-CONTROLS",
-  "argument_id": "SOURCE-FOREST-OMISSION-CONTROLS",
+  "id": "7a1dcb73-7789-5571-a8be-51d50cd7a3aa",
+  "label": "The fixed fork, isolated pair, integer chain and empty graph witness the separate limits of…",
+  "legacy_id": "SOURCE-FOREST-OMISSION-CONTROLS",
+  "argument_id": "d27c08be-872c-5ca7-b2eb-e125e4d4f815",
   "challenge_module": "TruthCore.Results.Causality.SourceForest.Challenge",
   "solution_module": "TruthCore.Results.Causality.SourceForest.Solution",
   "theorem": "TruthCore.Results.Causality.SourceForest.controls",

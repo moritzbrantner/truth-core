@@ -1,5 +1,7 @@
 {
-  "id": "DEF-KANT-EPISTEMIC-WITHHOLDING",
+  "id": "1b91831b-8bab-5a47-876a-19a189c99b92",
+  "label": "Epistemic withholding of…: KnowsNecessary means that all available interpretations have an actual…",
+  "legacy_id": "DEF-KANT-EPISTEMIC-WITHHOLDING",
   "term": "epistemic withholding of necessary-being verdicts",
   "definition": "KnowsNecessary means that all available interpretations have an actual necessarily existing being. KnowsNoNecessary means that all lack one. The model makes both false while a designated actual interpretation has such a being; available interpretations are not metaphysical successors.",
   "basis": "stipulative",

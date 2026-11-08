@@ -1,6 +1,8 @@
 {
-  "id": "SUM1-SUM2-COMPARISON",
-  "argument_id": "SUM1-SUM2-COMPARISON",
+  "id": "7d2baf85-bb47-58e5-bdcc-c5b3d0513b88",
+  "label": "For every nonempty family and every candidate…, from For every x,y in the supplied fixed partial…",
+  "legacy_id": "SUM1-SUM2-COMPARISON",
+  "argument_id": "45f01fbb-9661-5dc4-863c-d16a423a296b",
   "challenge_module": "TruthCore.Results.Mereology.SumOneComplementation.Challenge",
   "solution_module": "TruthCore.Results.Mereology.SumOneComplementation.Solution",
   "theorem": "TruthCore.Results.Mereology.SumOneComplementation.sumOneComparison",

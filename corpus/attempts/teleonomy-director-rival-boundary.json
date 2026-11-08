@@ -1,16 +1,18 @@
 {
-  "id": "ATTEMPT-TELEONOMY-DIRECTOR-RIVAL-BOUNDARY",
+  "id": "abef5086-c113-53e3-9462-5e7f47560ffa",
+  "label": "Extended audit read all20Science/Spacetime/Teleonomy definition records,32linked…",
+  "legacy_id": "ATTEMPT-TELEONOMY-DIRECTOR-RIVAL-BOUNDARY",
   "date": "2026-11-06",
   "statement_ids": [
-    "STMT-NATURAL-ENDS-WITHOUT-DIRECTING-INTELLIGENCE-TELEONOMY",
-    "STMT-NON-COGNITIVE-TENDING-NEEDS-KNOWING-DIRECTOR",
-    "STMT-UNDIRECTED-NONCOGNITIVE-TENDING-WITNESS"
+    "552054cf-6a9d-56f6-bd5f-7e7f377793c5",
+    "564ce19b-c9df-5031-b20e-3cb1baee124f",
+    "dede2803-97ba-5df3-ac1b-18dd344e1f3c"
   ],
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Extended audit read all20Science/Spacetime/Teleonomy definition records,32linked statements,13exact result/argument packs and five disambiguations. Fixed science/spacetime math already separates calibration/warrant, recoding/physical basis, simultaneity/ontology; no new noun forks needed. One latent teleonomy alternative used an untyped global summary against a universal director principle without explicit shared broad-tending witness. Added structural witness and exact negative sibling, checked specialization and empty-scope overlap, and reused whole unguided/governed fragments without claiming a joint worldview. Rerouted only the alternative subject to the exact negative. Raw global source/profile remains unchanged/untyped/open; its interpretation bridge to the witness is OPEN, not an equivalence or source claim. Full cluster IDs and findings persist in docs/notes/teleonomy-director-rival-boundary.md and the parent definitions audit.",
   "evidence": [
-    "UNDIRECTED-TENDING-WITNESS-REFUTES-DIRECTOR-PRINCIPLE",
-    "TELEONOMY-DIRECTOR-RIVAL-CONTROLS"
+    "580667ca-040e-562c-85fe-bd950a9e1911",
+    "d58b2792-41c9-5a31-ab82-d8dff6057e46"
   ]
 }

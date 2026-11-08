@@ -1,17 +1,19 @@
 {
-  "id": "EINSTEIN-1905-2-RELATIVE-SIMULTANEITY",
-  "statement_id": "STMT-EINSTEIN-1905-RELATIVE-SIMULTANEITY",
-  "source_id": "EINSTEIN-ELECTRODYNAMICS-1905",
+  "id": "50c0a403-3cac-5aba-814b-4a19f6463c19",
+  "label": "Albert Einstein, On the Electrodynamics of…: Under the stated relativity and light-speed…",
+  "legacy_id": "EINSTEIN-1905-2-RELATIVE-SIMULTANEITY",
+  "statement_id": "ea7a327d-65e8-5048-a457-40c0007f7671",
+  "source_id": "feaccd27-3c07-5fdb-9ae1-0f8fcf158d2f",
   "locator": "§2, first two postulates and final paragraphs beginning “We imagine further that with each clock” and “So we see”",
   "basis": "translation",
   "interpretation": "Prose-only primary-translation reading. This is a source argument under named physical/synchronization assumptions. It is not read as saying every pair of simultaneous events becomes nonsimultaneous, or that an additional privileged-present ontology has been refuted.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-EINSTEIN-CLOCK-TIME",
-    "DEF-BOOST-FRAME-SIMULTANEITY",
-    "DEF-PRIVILEGED-PRESENT-SCOPE"
+    "d349494b-d57b-5c7f-8d44-f7180abae1d8",
+    "3b1b4d24-9ae1-5155-895e-832f2e35a9ad",
+    "ef92f471-1e4c-5493-9bdc-043374a459cd"
   ],
   "disambiguation_ids": [
-    "DISAMB-FRAME-SIMULTANEITY-ONTOLOGY"
+    "8d688be8-d802-5679-bd53-d08374145abf"
   ]
 }

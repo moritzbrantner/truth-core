@@ -1,14 +1,16 @@
 {
-  "id": "STMT-ENVOY-FOUNDING-IS-GODS-FOUNDING",
+  "id": "51e4073d-ac0d-57f1-8bb7-53a604172b04",
+  "label": "For any GOD_4 candidate g and society c: if Jesus founded c in the primitive FoundedInMandate\u2026",
+  "legacy_id": "STMT-ENVOY-FOUNDING-IS-GODS-FOUNDING",
   "paraphrase": "For any God candidate g and society c: if Jesus founded c in the primitive FoundedInMandate relation to g and commissioned c to teach, then g founded c as a teaching authority. Actual HoldsMandate and Jesus\u2260g are not hypotheses. Stated for Jesus only; no other envoy's societies are added. The envoy-inclusive calibration entails this bridge. Under direct-only calibration it is equivalent to the additional compatibility condition that each such Jesus event also satisfies direct founding; it can hold or fail, and is refuted by the stronger exclusive reading only with a nonempty event witness.",
   "lean_declaration": "TruthCore.Case.Catholicism.StageThree.DivineFounding.EnvoyFoundingIsPrincipalsFounding",
   "definition_ids": [
-    "DEF-SKELETON-OPEN-PREDICATES",
-    "DEF-GOD-OF-CLASSICAL-THEISM",
-    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
-    "DEF-PRINCIPAL-ACT-FOUNDING-READING"
+    "ac767549-28c0-5a1a-813d-ee208a664d08",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "e225d39c-9081-5d1f-80f5-ed121dbb9a30",
+    "052f142e-f782-5787-b137-2c2fb539e5c7"
   ],
   "disambiguation_ids": [
-    "DISAMB-FOUNDED-BY-GOD"
+    "87582d70-e56a-5e51-9377-84b6655b1b68"
   ]
 }

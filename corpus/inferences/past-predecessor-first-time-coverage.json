@@ -1,9 +1,11 @@
 {
-  "id": "INF-PAST-PREDECESSOR-FIRST-TIME-COVERAGE",
+  "id": "b74e2a98-b129-54a9-aa1a-34a3e60424c7",
+  "label": "For the SAME Before/now profile, every time up to now has a predecessor or…, by Constructive-proof",
+  "legacy_id": "INF-PAST-PREDECESSOR-FIRST-TIME-COVERAGE",
   "input_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-PAST-PREDECESSOR-OR-FIRST-TIME-FORK",
+  "output_statement_id": "8893d392-ab94-52bc-a515-27690ef164ec",
   "rule": "constructive-proof",
   "meaning": "Exact old pointwise predecessor/first-time coverage under explicit excluded middle; neither ordering axioms nor temporal actuality or cardinal finiteness are smuggled in.",
   "assumption_statement_ids": [],

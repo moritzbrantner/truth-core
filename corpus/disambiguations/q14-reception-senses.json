@@ -1,16 +1,18 @@
 {
-  "id": "DISAMB-Q14-RECEPTION-SENSES",
+  "id": "e557eab8-2eed-5b24-ade9-a23b5b26f9b3",
+  "label": "Cognitive reception and knowing",
+  "legacy_id": "DISAMB-Q14-RECEPTION-SENSES",
   "term": "cognitive reception and knowing",
   "sense_definition_ids": [
-    "DEF-Q14-FORM-CAPACITY",
-    "DEF-SENSE-COGNITION",
-    "DEF-Q14-INFORMATION-ACQUISITION",
-    "DEF-HAS-INTELLECT",
-    "DEF-Q14-CAPACITY-CALIBRATION",
-    "DEF-Q14-WITHOUT-MATTER-CALIBRATION",
-    "DEF-Q14-CHANGE-PROXY-CALIBRATION",
-    "DEF-Q14-FOREIGN-FORM-CHANGE-PROXY",
-    "DEF-Q14-RECEPTION-DEFINITION-MENU"
+    "a909fd1c-bb6b-54d1-a8f1-1a798c5ed129",
+    "d0b99964-a60d-5528-b5c7-a25967f74885",
+    "cf1a7131-4085-5918-9cef-626cdf499147",
+    "88bc0655-9dd0-5879-ba1b-3fca9f86c1f4",
+    "f41b761b-7fea-537a-b03a-6a5c99f9b2e3",
+    "a63b614a-7a1a-5560-b919-10f303b955ff",
+    "4162125d-92e7-5eb2-8336-d743c6f494c1",
+    "1eb499b9-3ac6-5cdd-824d-486f91a435ce",
+    "72284cfd-e09b-57fe-8824-4b2d120e7fb1"
   ],
   "resolution": "The q.14 local interface represents aptitude for another's form; it does not assert an actual input event. Sense has without-matter reception already, so this capacity is not the intellectual grade of DEF-HAS-INTELLECT. The old divine HasIntellect remains primitive; God is not represented as passively acquiring creaturely information. q.14 a.1 ad 1\u20133 removes created habit, potency and multiplicity from divine predication. The q.75 human cognitive-scope relation is not silently identified with either divine knowledge or this reception interface. No equivalence to operational, functional or computational knowing is asserted. Analyst scoped calibration proposals now have explicit propositions, open named coverage and a precise all-three-fail remainder. The state-change proposal is ONLY a foreign-form state-change proxy: it supplies no input-causes-change theory and is not the entire modern acquisition sense. Checked omission controls retain sensory-without-intellect and aptitude-without-event; no source predicate is redefined. Scope coverage and structural availability/mode/event bridges are independent OPEN inputs."
 }

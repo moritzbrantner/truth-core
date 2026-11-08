@@ -1,20 +1,22 @@
 {
-  "id": "ATTEMPT-OCCURRENCE-SAME-WITNESS-701",
+  "id": "5ee25846-516e-5811-a2bf-f91b83c21422",
+  "label": "Issue #701: direct #564→#686 existential composition can silently replace the selected necessary…",
+  "legacy_id": "ATTEMPT-OCCURRENCE-SAME-WITNESS-701",
   "date": "2026-10-29",
   "statement_ids": [
-    "STMT-OCCURRENCE-SAME-WITNESS-ESSENCE",
-    "STMT-OCCURRENCE-NECESSARY-RECIPIENT-CONTROL",
-    "STMT-ACTUAL-SUPPORT-CONCRETE-GROUND",
-    "STMT-COGITO-NECESSARY-CONCRETE-ANCESTOR"
+    "63bd518f-8d08-59cb-bce3-6d584ae56d8d",
+    "e4929be2-df24-5a23-aa9a-2cd497801f73",
+    "6a81e61b-6ae4-5887-a2b9-35d846a4b72f",
+    "da31142e-34bd-579d-82a7-9b3745d534e6"
   ],
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Issue #701: direct #564→#686 existential composition can silently replace the selected necessary ancestor; necessity alone does not exclude incoming support. Retain the no-ground property already present in #564 Acc descent using a shared helper and project to its original frozen theorem. The SAME minimal ancestor is necessary under the existing anti-brute premise. An explicit existing-support→actual-concrete-ground bridge then makes that n actually underived; apply imported #680 actual_not_not_identity_direct at n, retaining the original five q3 commitments/interfaces and explicit EM. The #680 varying/pairProfile necessary recipient control is extended with an occurring thought and all six non-logical #564 premises: recipient true itself witnesses the old weaker conclusion but has a supporting source and distinct esse. Source false is underived and has identity in that same interpretation. Rejected: asserting necessary means underived, restating a proved existential as a fresh premise, replacing the #564 witness with the #686-selected source, identifying ordinary event cause with esse support, or interpreting represented equality as divine uniqueness. No historical attribution, no new source claim. Root-premise delta none. See docs/notes/occurrence-same-witness.md for exact scope and residual philosophical burden. Maintenance #713 factors the definitionally identical world-local absence condition into NoExistingSupportAt and shares explicit EM-to-identity composition with the union and selected-world consumers. Existing Challenges, theorem types, thirteen occurrence hypotheses, statement identities and root premises are unchanged; see the same linked note.",
   "evidence": [
-    "OCCURRENCE-SAME-WITNESS-ESSENCE",
-    "OCCURRENCE-NECESSARY-RECIPIENT-CONTROL",
-    "COGITO-NECESSARY-CONCRETE-ANCESTOR",
-    "NECESSARY-UNION-UNDERIVED-ESSENCE-IDENTITY"
+    "1896d985-690f-5748-b71f-0b5657180bd5",
+    "7be43948-f08b-51db-869d-76471ccff608",
+    "d8a00049-0bfc-57cf-8652-8c70d103b956",
+    "9ad63639-8a58-55ee-ac2a-da11a1dc6c5e"
   ],
   "blocker": "Independent warrant for actual occurrence, bearer and concrete-world bridges, real grounding semantics, ancestry accessibility and anti-brute premise, actual-support-to-concrete-ground mapping, q3 cause/exhaustion and actuality interfaces. No root consumer changed; no premise discharged."
 }

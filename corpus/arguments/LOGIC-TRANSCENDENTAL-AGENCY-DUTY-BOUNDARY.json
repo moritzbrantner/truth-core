@@ -1,12 +1,18 @@
 {
-  "id": "LOGIC-TRANSCENDENTAL-AGENCY-DUTY-BOUNDARY",
+  "id": "5386d51c-3add-51ba-b1c3-6d4c13e8b279",
+  "label": "For any typed goal-and-action profile, if a valued end is in fact realized by a performed…",
+  "legacy_id": "LOGIC-TRANSCENDENTAL-AGENCY-DUTY-BOUNDARY",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-TRANSCENDENTAL-AGENCY-DUTY-BOUNDARY",
-  "inference_ids": ["INF-LOGIC-TRANSCENDENTAL-AGENCY-DUTY-BOUNDARY"],
+  "conclusion_statement_id": "ab0e2471-5147-54bc-a13a-ca53f6857947",
+  "inference_ids": [
+    "96165ebe-adf0-5375-b708-2211570b420d"
+  ],
   "meaning": "Conditional production from an achieved goal and unique efficacy, plus a joint finite test that its non-normative profile does not determine categorical moral duty. The action and goal domains are explicit and inhabited in the control, with no moral-ontology conclusion.",
   "definition_ids": [
-    "DEF-TRANSCENDENTAL-GOAL-REALIZATION",
-    "DEF-TRANSCENDENTAL-CATEGORICAL-DUTY"
+    "a08536c4-420b-5d26-8a6f-1088daa6ce6b",
+    "c31c763a-c8e3-56ba-9def-79dcc818eb3d"
   ],
-  "disambiguation_ids": ["DISAMB-TRANSCENDENTAL-AGENCY-AND-MORAL-DUTY"]
+  "disambiguation_ids": [
+    "9c5e9d4b-1f96-535e-8dc6-e1d384330f1f"
+  ]
 }

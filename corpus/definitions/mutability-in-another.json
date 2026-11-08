@@ -1,9 +1,11 @@
 {
-  "id": "DEF-MUTABILITY-IN-ANOTHER",
+  "id": "f2aefafa-0e58-5e0f-9d66-cc3ef34bcb4f",
+  "label": "Mutability through potency in another: The q.9 a.2 external channel: a creature depends for esse…",
+  "legacy_id": "DEF-MUTABILITY-IN-ANOTHER",
   "term": "mutability through potency in another",
   "definition": "The q.9 a.2 external channel: a creature depends for esse on the creator's ongoing action and lies within the creator's power to originate or withdraw that esse. This is not the potency IN the creature quantified by the existing PureAct predicate.",
   "basis": "sourced",
   "claim_ids": [
-    "AQUINAS-ST-I-Q9-A2-EXTERNAL-MUTABILITY"
+    "d80b7c61-6454-5aff-a67e-d2c54667ede5"
   ]
 }

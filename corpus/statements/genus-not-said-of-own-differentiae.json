@@ -1,13 +1,15 @@
 {
-  "id": "STMT-GENUS-NOT-SAID-OF-OWN-DIFFERENTIAE",
+  "id": "b792ed75-8e20-5547-aa0d-cc19bf62ed56",
+  "label": "A GENUS_1 is not SAID_OF_1 its own differentiae as belonging to what they are: the differentiae…",
+  "legacy_id": "STMT-GENUS-NOT-SAID-OF-OWN-DIFFERENTIAE",
   "paraphrase": "A genus is not said of its own differentiae as belonging to what they are: the differentiae fall outside the essence of the genus.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Metaphysics.GenusNotSaidOfOwnDifferentiaeReading",
   "definition_ids": [
-    "DEF-GENUS-STRICT",
-    "DEF-DIFFERENTIA",
-    "DEF-SAID-OF-ESSENTIALLY"
+    "414f094b-7403-5a35-8527-b36ed4ea8bc1",
+    "8e804dfb-9144-5400-86b6-ba168c35f75c",
+    "d24eef0b-f010-5010-8390-0fcd65e20dd2"
   ],
   "disambiguation_ids": [
-    "DISAMB-PREDICATION-OF-DIFFERENTIA"
+    "87640bd5-b7e1-5032-9325-ef51c7d726d3"
   ]
 }

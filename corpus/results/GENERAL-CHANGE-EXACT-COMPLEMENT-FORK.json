@@ -1,6 +1,8 @@
 {
-  "id": "GENERAL-CHANGE-EXACT-COMPLEMENT-FORK",
-  "argument_id": "GENERAL-CHANGE-EXACT-COMPLEMENT-FORK",
+  "id": "02c0097c-1495-5e66-8b59-84ac116acde4",
+  "label": "Either some candidate changes in the supplied…, from Excluded middle as a general principle…",
+  "legacy_id": "GENERAL-CHANGE-EXACT-COMPLEMENT-FORK",
+  "argument_id": "81c8fb8a-bc4d-54bf-9386-50377f1969a0",
   "challenge_module": "TruthCore.Results.Observation.ChangeRivalCoverage.Coverage.Challenge",
   "solution_module": "TruthCore.Results.Observation.ChangeRivalCoverage.Coverage.Solution",
   "theorem": "TruthCore.Results.Observation.ChangeRivalCoverage.Coverage.coverage",
@@ -9,19 +11,19 @@
   "description": "Structural some-change/no-general-change fork under explicit excluded middle. Refuting only the stronger sourced McTaggart bundle cannot exhaust every exact no-change counteraccount.",
   "transcription": "instantiation",
   "case_split": {
-    "target_statement_id": "STMT-SOMETHING-CHANGES",
+    "target_statement_id": "bef22027-4f6d-5722-9597-e4dec273ebdd",
     "cases": [
       {
         "label": "some general change",
-        "statement_id": "STMT-SOMETHING-CHANGES",
+        "statement_id": "bef22027-4f6d-5722-9597-e4dec273ebdd",
         "lean_declaration": "TruthCore.Observation.Change.SomethingChangesReading"
       },
       {
         "label": "exact general no-change",
-        "statement_id": "STMT-NOTHING-CHANGES-IN-GENERAL",
+        "statement_id": "cc003313-0847-5a43-85d1-e025f909f48f",
         "lean_declaration": "TruthCore.Observation.ChangeRivalCoverage.NoChange"
       }
     ],
-    "survival_result_id": "GENERAL-NO-CHANGE-MCTAGGART-STRICTNESS"
+    "survival_result_id": "8fe21025-211b-5845-a911-9bd27a6c5d4a"
   }
 }

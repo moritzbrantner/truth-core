@@ -1,10 +1,12 @@
 {
-  "id": "STMT-INDEXED-SIGNAL-LOCAL-CONSERVATION",
+  "id": "44afdeb3-fa09-50e1-83e6-0055aab48a8a",
+  "label": "For every station n and output code j, either n issues that code with j=n, or the immediate…",
+  "legacy_id": "STMT-INDEXED-SIGNAL-LOCAL-CONSERVATION",
   "paraphrase": "For every station n and output code j, either n issues that code with j=n, or the immediate upstream output n+1 contains the same code. This local closed-interface condition is an explicit open framework premise.",
   "lean_declaration": "TruthCore.Causality.IndexedSignalProvenance.LocalConservation",
   "definition_ids": [
-    "DEF-INDEXED-SIGNAL-LOCAL-CONSERVATION",
-    "DEF-INDEXED-SIGNAL-INDEX-ADMISSIBILITY",
-    "DEF-INDEXED-SIGNAL-PROVENANCE"
+    "3fe7fb2d-08f9-5f12-ba4f-87ce03593e24",
+    "74e6880f-d90b-51ed-a710-5aace3f44cff",
+    "549223a2-5c80-5e93-949c-fa6d970dd968"
   ]
 }

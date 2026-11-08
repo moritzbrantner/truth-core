@@ -1,7 +1,9 @@
 {
-  "id": "INF-RETAINED-DUTY-LOCAL-CONTROLS",
+  "id": "a2220e05-b36a-550e-9239-f7f6d3643acd",
+  "label": "Action-local omission controls witness every single-premise deletion of the…, by Model-construction",
+  "legacy_id": "INF-RETAINED-DUTY-LOCAL-CONTROLS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-RETAINED-DUTY-LOCAL-CONTROLS",
+  "output_statement_id": "2f3bb325-f52b-5ece-9857-7b3368dfe17b",
   "rule": "model-construction",
   "meaning": "Action-local omission controls witness every single-premise deletion of the local direct and temporal incompatible cores. Two nonvacuous strictness controls each have original-return duty and ability and LocalOIC, while universal present OIC fails: one separately owes impossible compensation, the other separately owes impossible debt repayment. Thus original-return OIC constrains neither of those independent action policies. Reuses all unchanged original omission facts. Formal interpretations only; attribution deferred and no root premise closes.",
   "assumption_statement_ids": [],

@@ -1,7 +1,9 @@
 {
-  "id": "PLATO-TIM-28A-CAUSE-A",
-  "statement_id": "STMT-CAUSE-PRINCIPLE-BROAD",
-  "source_id": "PLATO-TIM",
+  "id": "0060bf0a-19c3-5028-83b0-8211a0b465a1",
+  "label": "Plato, Timaeus 28a: Anything that comes to be has some CAUSE_2",
+  "legacy_id": "PLATO-TIM-28A-CAUSE-A",
+  "statement_id": "915e3df5-0975-5461-9fd6-83094ab526f3",
+  "source_id": "1d9ebf15-85ad-54cf-9d5d-b1753bf6e812",
   "locator": "28a",
   "interpretation_group": "PLATO-TIM-28A-CAUSE",
   "interpretation": "Broad reading: every entity that comes to be has some cause. Distinctness, temporal priority, agency, and uniqueness are not included.",

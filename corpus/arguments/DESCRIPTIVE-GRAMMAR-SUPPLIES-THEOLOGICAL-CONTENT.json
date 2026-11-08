@@ -1,23 +1,25 @@
 {
-  "id": "DESCRIPTIVE-GRAMMAR-SUPPLIES-THEOLOGICAL-CONTENT",
+  "id": "5963b716-97ef-5d00-86ba-6ab79ea54ebd",
+  "label": "Modest analyst content proposition: every move…, from Modest analyst descriptive profile: defined…",
+  "legacy_id": "DESCRIPTIVE-GRAMMAR-SUPPLIES-THEOLOGICAL-CONTENT",
   "premise_statement_ids": [
-    "STMT-DESCRIPTIVE-THEOLOGY-AND-RELIGIOUS-GRAMMAR"
+    "7c781606-d67a-5957-963f-8cdf99dd988e"
   ],
-  "conclusion_statement_id": "STMT-CONCILIAR-DEFINITIONS-ARE-THEOLOGICAL",
+  "conclusion_statement_id": "9a438367-e1cc-511d-befc-c657f184bbbe",
   "inference_ids": [
-    "INF-DESCRIPTIVE-GRAMMAR-SUPPLIES-THEOLOGICAL-CONTENT"
+    "a40384e3-4fe2-5d11-9517-f7b348b80113"
   ],
   "meaning": "Project the theological-content component of the modest descriptive profile. Assembly transcription/sole-premise strength; the normative exclusion is still separate.",
   "definition_ids": [
-    "DEF-THEOLOGICAL-CONTENT-AND-RELIGIOUS-LIFE-ROLES",
-    "DEF-CONCILIAR-DEFINITION",
-    "DEF-PRACTICE-OWN-STANDARD",
-    "DEF-CORRECT-MOVE-IN-PRACTICE"
+    "7cc5b0f1-7c74-54d8-b1e6-7645912864a3",
+    "a80131d4-c041-5aa0-a122-0bfea7c0e2fa",
+    "ac3fa095-8fa2-50d5-8c86-8352f0c27a6e",
+    "d4a6e314-ca7b-563f-b2ef-8a855db8597b"
   ],
   "disambiguation_ids": [
-    "DISAMB-THEOLOGICAL-FORMULATION-AND-NORMATIVE-GRAMMAR"
+    "a303de75-42db-5f10-afea-036fbc222162"
   ],
   "strong_version_needed": {
-    "STMT-DESCRIPTIVE-THEOLOGY-AND-RELIGIOUS-GRAMMAR": "This certificate registers the sole-premise strong-to-weak projection; consequence arguments use only the needed weak component."
+    "7c781606-d67a-5957-963f-8cdf99dd988e": "This certificate registers the sole-premise strong-to-weak projection; consequence arguments use only the needed weak component."
   }
 }

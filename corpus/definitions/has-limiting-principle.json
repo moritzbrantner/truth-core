@@ -1,5 +1,7 @@
 {
-  "id": "DEF-HAS-LIMITING-PRINCIPLE",
+  "id": "a919ce52-6c8b-5e0f-9aaa-5b570bded78b",
+  "label": "LIMITING_PRINCIPLE_2: X is composite under the supplied Composite predicate, or its supplied esse…",
+  "legacy_id": "DEF-HAS-LIMITING-PRINCIPLE",
   "term": "limiting principle (represented)",
   "definition": "x is composite under the supplied Composite predicate, or its supplied esse value differs from its supplied essence value, or some being other than x is prior to x under the supplied priority relation. Exactly these three disjuncts.",
   "basis": "stipulative",

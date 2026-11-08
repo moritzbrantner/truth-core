@@ -1,15 +1,17 @@
 {
-  "id": "ATTEMPT-MARK-2-FORGIVENESS-AUTHORITY",
+  "id": "b30f9612-b7b9-53e4-af90-51ffdeac01e3",
+  "label": "Materialized and read the complete pinned Mark 2 chapter; recorded the narrow attributed assertion…",
+  "legacy_id": "ATTEMPT-MARK-2-FORGIVENESS-AUTHORITY",
   "statement_ids": [
-    "STMT-REPORTED-FORGIVENESS-AUTHORITY",
-    "STMT-PILOT-JESUS-CLAIMS",
-    "STMT-JESUS-CLAIMED-DIVINE-AUTHORITY-AND-ROSE"
+    "0b7130f1-144a-5129-b99a-647303a06d7f",
+    "6931fa67-bd22-591a-8abb-7273aba9cb90",
+    "a88d9b81-1246-5844-a119-4be2af4dd3f9"
   ],
   "date": "2026-10-26",
   "kind": "reading",
   "outcome": "succeeded",
   "summary": "Materialized and read the complete pinned Mark 2 chapter; recorded the narrow attributed assertion at 2.10 with speaker, titled holder, action and earthly scope. This succeeds as a textual reading only. The scribes’ God-alone objection is not promoted to a narrator premise; actual utterance, actual authority, divine identity and resurrection remain unproved. docs/mark-forgiveness-authority.md preserves the context, affirmative divine-prerogative, delegated-agent and narrative-development accounts, rejected shortcuts, and historical/interpretive transport gaps. No root-path premise is discharged.",
   "evidence": [
-    "NT-MARK-2-FORGIVENESS-AUTHORITY"
+    "82b2d5e9-1b54-5908-a786-dc438121a70a"
   ]
 }

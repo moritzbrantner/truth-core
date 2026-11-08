@@ -1,13 +1,15 @@
 {
-  "id": "STMT-KANT-CONVERSION-RESTRICTED-CONCLUSION",
+  "id": "98abfc35-000a-5d9d-8d01-9162313dc270",
+  "label": "At the selected world every most-real candidate necessarily exists, conditional on the separate…",
+  "legacy_id": "STMT-KANT-CONVERSION-RESTRICTED-CONCLUSION",
   "paraphrase": "At the selected world every most-real candidate necessarily exists, conditional on the separate witness, identification and numerical-identity premises. This is not a new proof of God’s existence.",
   "definition_ids": [
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-REALITY-PROFILE",
-    "DEF-KANT-REALITY-IDENTITY"
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "b3c45d92-dee0-5a1a-9849-9924d3a1699d",
+    "c7c2f208-9651-5351-afc3-d5f3423ef415"
   ],
   "disambiguation_ids": [
-    "DISAMB-KANT-REALITY-IDENTITY"
+    "29947523-056c-5415-a9e7-c6968fb926e1"
   ],
   "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.MostRealIsNecessary"
 }

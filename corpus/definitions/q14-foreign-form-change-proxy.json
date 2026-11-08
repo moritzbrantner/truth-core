@@ -1,5 +1,7 @@
 {
-  "id": "DEF-Q14-FOREIGN-FORM-CHANGE-PROXY",
+  "id": "1eb499b9-3ac6-5cdd-824d-486f91a435ce",
+  "label": "Occurring foreign-form state-change…: ForeignFormChange m a x requires an occurring event, that…",
+  "legacy_id": "DEF-Q14-FOREIGN-FORM-CHANGE-PROXY",
   "term": "occurring foreign-form state-change proxy",
   "definition": "ForeignFormChange m a x requires an occurring event, that SAME receiver x and a form foreign to x, with unequal before/after states. It is a typed operational proxy. No input-causes-change relation, reception capacity, understanding or actual external form-bearer is inferred.",
   "basis": "stipulative",

@@ -1,6 +1,8 @@
 {
-  "id": "LOGIC-SOME-HOLDS-ENTAILS-NOT-ALL-FAIL",
-  "argument_id": "LOGIC-SOME-HOLDS-ENTAILS-NOT-ALL-FAIL",
+  "id": "71ac7c71-9ea4-5cf0-a92a-25e01d79a9d2",
+  "label": "Inside Lean logic, ¬. A logical theorem, not a…, from Inside Lean logic, ∃ P: Prop, P. This…",
+  "legacy_id": "LOGIC-SOME-HOLDS-ENTAILS-NOT-ALL-FAIL",
+  "argument_id": "ec000eff-7de6-5ffc-b126-0b9bc328b741",
   "challenge_module": "TruthCore.Results.Logic.TruthPilot.SomeImpliesNotAll.Challenge",
   "solution_module": "TruthCore.Results.Logic.TruthPilot.SomeImpliesNotAll.Solution",
   "theorem": "TruthCore.Results.Logic.TruthPilot.SomeImpliesNotAll.someImpliesNotAll",

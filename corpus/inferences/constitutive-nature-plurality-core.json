@@ -1,14 +1,16 @@
 {
-  "id": "INF-CONSTITUTIVE-NATURE-PLURALITY-CORE",
+  "id": "801a2006-706b-5268-8592-41476308541a",
+  "label": "Logical falsity, by Apply conditional uniqueness…",
+  "legacy_id": "INF-CONSTITUTIVE-NATURE-PLURALITY-CORE",
   "input_statement_ids": [
-    "STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE",
-    "STMT-FIRST-MOVER-SUPPOSITUM-IS-NATURE",
-    "STMT-FIRST-UNMOVED-MOVER-HAS-EVERY-PERFECTION",
-    "STMT-DISTINCT-FIRST-UNMOVED-MOVERS-EXIST",
-    "STMT-CONSTITUTIVE-CONTENT-COMPLETE",
-    "STMT-FIRST-MOVER-CONTENT-AGREES-WITH-ACT"
+    "2344542e-8036-5cbe-9dfc-af5e7907cde5",
+    "3581ee6a-6cc3-57c5-aa23-b93118f0dff1",
+    "bc44e1cd-ef24-5f9c-a7e9-8527bb888ded",
+    "9c2a87d8-6e76-5da6-b96c-754efbbc0f4f",
+    "dad1a21d-f65c-5d9e-99d2-59c9f248a0b0",
+    "55890498-a250-5f23-9277-bd563a557378"
   ],
-  "output_statement_id": "STMT-CONFIGURATION-FALSE",
+  "output_statement_id": "37f33696-dc47-5bd3-9cd8-edfd5bf00aa5",
   "rule": "Apply conditional uniqueness to distinct witnesses",
   "meaning": "Imported conditional first-mover uniqueness contradicts explicit witnesses of two distinct first movers. All six assumptions use the same predicates and represented nature assignments. This is a conditional incompatibility; no member is selected for rejection, no bridge is defended and no root premise is discharged.",
   "assumption_statement_ids": [],

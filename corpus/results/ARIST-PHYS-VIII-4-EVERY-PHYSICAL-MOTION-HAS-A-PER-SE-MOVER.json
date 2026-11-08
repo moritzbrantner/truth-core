@@ -1,6 +1,8 @@
 {
-  "id": "ARIST-PHYS-VIII-4-EVERY-PHYSICAL-MOTION-HAS-A-PER-SE-MOVER",
-  "argument_id": "ARIST-PHYS-VIII-4-EVERY-PHYSICAL-MOTION-HAS-A-PER-SE-MOVER",
+  "id": "96bfe89b-9626-5bfa-a40a-016ad984d15d",
+  "label": "Whatever is moved in a respect of…, from Every physical MOTION_2 of a thing in a… and 5 more",
+  "legacy_id": "ARIST-PHYS-VIII-4-EVERY-PHYSICAL-MOTION-HAS-A-PER-SE-MOVER",
+  "argument_id": "42fb4cea-7075-5654-91f0-7e7dcac7bd44",
   "challenge_module": "TruthCore.Results.Aristotle.Physics.Typed.EveryPhysicalMotionHasAPerSeMover.Challenge",
   "solution_module": "TruthCore.Results.Aristotle.Physics.Typed.EveryPhysicalMotionHasAPerSeMover.Solution",
   "theorem": "TruthCore.Results.Aristotle.Physics.Typed.EveryPhysicalMotionHasAPerSeMover.everyPhysicalMotionHasAPerSeMover",

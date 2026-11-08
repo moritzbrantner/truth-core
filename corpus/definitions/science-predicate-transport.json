@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SCIENCE-PREDICATE-TRANSPORT",
+  "id": "8b71be3a-1ae5-555b-ab19-1a88628c7705",
+  "label": "Extensional transport under feature…: Transported p phase codedFeature evaluates p phase at recode…",
+  "legacy_id": "DEF-SCIENCE-PREDICATE-TRANSPORT",
   "term": "extensional transport under feature recoding",
   "definition": "transported p phase codedFeature evaluates p phase at recode phase codedFeature. Since the Boolean recoding is involutive, transported p phase (recode phase feature) equals p phase feature. This compares corresponding descriptions of one stipulated feature value, whereas phase independence compares equal coordinate labels across phases.",
   "basis": "stipulative",

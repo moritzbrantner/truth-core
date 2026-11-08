@@ -1,21 +1,23 @@
 {
-  "id": "NB-SURVEY-A4-REDUCTIO-POSSIBLE-NECESSARY-BEING",
-  "statement_id": "STMT-NB-A4-REDUCTIO-POSSIBLE-NECESSARY-BEING",
-  "source_id": "NECESSARYBEING-SURVEY",
+  "id": "1abcc943-7efb-5f63-ba81-c8269263fae8",
+  "label": "Unattributed website author, Necessary…: Given its selected causal/property/beginning reports and…",
+  "legacy_id": "NB-SURVEY-A4-REDUCTIO-POSSIBLE-NECESSARY-BEING",
+  "statement_id": "b3ec7247-6409-5949-a644-c57c1f1c8193",
+  "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
   "locator": "A4C, causal steps 14–17 and transition to the shared modal suffix",
   "interpretation": "The source ends its reductio by rejecting the no-possible-Necessary-Being assumption and concluding possible Necessary Being, conditional on the reported inputs and asserted earlier steps. This is an attributed argument, not a checked proof. It does not retain the step9 caused-first opportunity or step13 causal witness unconditionally, establish actual existence, or exchange de dicto existence necessity for a SAME rigid individual. The following already represented modal suffix is not duplicated.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
-    "DEF-NB-SURVEY-NECESSARY-BEING",
-    "DEF-NB-A3-EVENT-AND-CAUSE",
-    "DEF-NB-A3-FIRST-CONTINGENT-TRANSITION",
-    "DEF-NB-A4-PROPERTY-AND-INSTANCE",
-    "DEF-NB-A4-FIRST-EXEMPLIFICATION"
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0",
+    "7fde5dc0-6ca7-5ce6-a2e1-571acfd15dcf",
+    "c82c1e14-50bd-555c-82ef-007c8bb10cc5",
+    "86143f0e-c246-59d8-a775-4003173e254f",
+    "a6885928-bd3d-5ec6-b89a-6fc0ef88aaaa",
+    "6c717105-e9e1-58ef-9342-22b0c1b53be2"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A4-PROPERTY-TRANSFER-SCOPE",
-    "DISAMB-NB-A3-EVENT-CAUSE-SCOPE",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "130ced63-088b-531d-82b5-3cd1ed1e304c",
+    "82cfe4a1-7f82-5453-ab75-cde5474121e8",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

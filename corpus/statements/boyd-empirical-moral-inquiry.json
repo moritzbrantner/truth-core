@@ -1,11 +1,13 @@
 {
-  "id": "STMT-BOYD-EMPIRICAL-MORAL-INQUIRY",
+  "id": "f3e174ca-c2d1-50f5-aaef-271838144319",
+  "label": "On Boyd’s proposed account, observation, sympathy and theory-dependent reflective equilibrium…",
+  "legacy_id": "STMT-BOYD-EMPIRICAL-MORAL-INQUIRY",
   "paraphrase": "On Boyd’s proposed account, observation, sympathy and theory-dependent reflective equilibrium investigate human goods; reliability requires background beliefs sufficiently approximately true and remains a substantive empirical commitment.",
   "definition_ids": [
-    "DEF-BOYD-HOMEOSTATIC-GOODNESS",
-    "DEF-NATURALIST-APPRAISER-INDEPENDENCE"
+    "1ad46e75-d8f0-515c-9d27-3632b5945195",
+    "4bec6a3a-8ce8-51cd-8657-265ae830eab1"
   ],
   "disambiguation_ids": [
-    "DISAMB-NATURALISTIC-EVALUATIVE-ROLES"
+    "685dae72-5d39-5905-955e-c2cd404d6932"
   ]
 }

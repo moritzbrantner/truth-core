@@ -1,7 +1,9 @@
 {
-  "id": "INF-MODAL-T-SCOPE-BOUNDARY",
+  "id": "d5cb44b9-d5c7-5b8b-a368-9af295651718",
+  "label": "On the shared reflexive duplicate-label model, every world has fixed-language MC…, by Direct-proof",
+  "legacy_id": "INF-MODAL-T-SCOPE-BOUNDARY",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-MODAL-T-SCOPE-BOUNDARY",
+  "output_statement_id": "0f5508d4-a211-5b57-915d-1d8c71c45438",
   "rule": "direct-proof",
   "meaning": "Compose the existing K duplicate-language proofs, enumerate the two labels under the full-predicate successor-identity theorem, and use reflexivity to rule out necessary full collapse. Reuse the independently proved failure of language world extensionality.",
   "assumption_statement_ids": [],

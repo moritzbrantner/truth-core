@@ -1,13 +1,15 @@
 {
-  "id": "INF-EP-ROLE-NAMED-DEFINITION-ELIMINATION",
+  "id": "5d11dc20-4856-5a36-9f62-6d7d2c37c054",
+  "label": "Some subject, consideration and attitude toward assessable content…, by Constructive-proof (2)",
+  "legacy_id": "INF-EP-ROLE-NAMED-DEFINITION-ELIMINATION",
   "input_statement_ids": [
-    "STMT-THERE-ARE-EPISTEMIC-REASONS",
-    "STMT-EPISTEMIC-REASONS-HAVE-CONSIDERATION-PRESENTATION",
-    "STMT-EPISTEMIC-REASON-DEFINITION-CANDIDATES-COVER",
-    "STMT-EPISTEMIC-REASON-BARE-PRODUCTION-DEFINITION-FAILS",
-    "STMT-EPISTEMIC-REASON-BARE-REWARD-DEFINITION-FAILS"
+    "f56b2ee7-c69e-5e3b-85b0-e671d907ba58",
+    "1b74e22c-3e2e-5328-b587-6dc2517f5e3f",
+    "da3a45ec-f4c0-55dd-bc2a-e3a56a980b33",
+    "c3ed0f71-aa20-5e44-acc9-b844922cc0d7",
+    "00f17baa-6951-57d3-92f2-43546fd69560"
   ],
-  "output_statement_id": "STMT-THERE-ARE-ORDINARY-ROLE-EPISTEMIC-REASONS",
+  "output_statement_id": "bea77d88-037f-5ff1-9798-a99bbbc27206",
   "rule": "constructive-proof",
   "meaning": "Conditional definition-case elimination: named coverage plus rejection of the bare production and reward calibrations leaves ordinary or independent role. Reuse the checked calibration/strength results to obtain an ordinary witness from thin F6 and presentation. Every coverage/definition rejection is explicit; no philosophical winner or root closure is asserted.",
   "assumption_statement_ids": [],

@@ -1,9 +1,11 @@
 {
-  "id": "INF-FITCH-MOORE-UNKNOWABLE",
+  "id": "c2e58947-f54c-5022-8213-c0601e3e80f1",
+  "label": "The selected Moore conjunction cannot be known at any world modally…, by Constructive-proof",
+  "legacy_id": "INF-FITCH-MOORE-UNKNOWABLE",
   "input_statement_ids": [
-    "STMT-FITCH-RELEVANT-LAWS"
+    "51c7ef24-a720-52f1-8f04-49f242269266"
   ],
-  "output_statement_id": "STMT-FITCH-MOORE-UNKNOWABLE",
+  "output_statement_id": "c5485061-57f0-58cb-a5ac-630336d74210",
   "rule": "constructive-proof",
   "meaning": "At a possible knower world, factivity gives the negated knowledge conjunct while left extraction gives its contradictory positive knowledge. Only these instance laws at relevant worlds are required; no necessitation of local assumptions is used.",
   "assumption_statement_ids": [],

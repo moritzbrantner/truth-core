@@ -1,16 +1,18 @@
 {
-  "id": "GOLDMAN-1979-FORGOTTEN-EVIDENCE",
-  "statement_id": "STMT-GOLDMAN-MEMORY-WITHOUT-RECONSTRUCTED-EVIDENCE",
-  "source_id": "GOLDMAN-JUSTIFIED-BELIEF-1979",
+  "id": "500d7f24-674f-5cf0-b47f-c67ce4844a8b",
+  "label": "Alvin I. Goldman, What Is Justified Belief?…: Goldman offers a case in which compelling original…",
+  "legacy_id": "GOLDMAN-1979-FORGOTTEN-EVIDENCE",
+  "statement_id": "927f8833-f8e9-546c-b039-b3c8c3852d3b",
+  "source_id": "2c810c72-1675-581e-ad63-135465d1f295",
   "locator": "p. 15, section II, forgotten-original-evidence example",
   "interpretation": "Source-proposed possibility, conditional on appropriate original evidence and preservation. Forgetting evidence does not invariably preserve warrant, and mere memory or confidence is not sufficient.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-GOLDMAN-HISTORICAL-RELIABILISM",
-    "DEF-GOLDMAN-CONDITIONAL-PROCESS-RELIABILITY",
-    "DEF-GOLDMAN-AVAILABLE-PROCESS-QUALIFICATION"
+    "aa7e99a0-6688-5cfa-950c-6991f9072d1b",
+    "73ca1400-cedf-5dbc-a478-e313e7ffa7ec",
+    "f38996f7-c982-5809-8215-392d0f6cb956"
   ],
   "disambiguation_ids": [
-    "DISAMB-GOLDMAN-STATUS-ACCESS-AND-REVISION"
+    "56b356a4-6acf-52a8-ae83-5edaf38a44f0"
   ]
 }

@@ -1,12 +1,14 @@
 {
-  "id": "STMT-PERFECTION-CAUSED-IN-ANOTHER-IS-RECEIVED-IN-IT",
+  "id": "a9036c3c-adc4-564e-b3ba-44a0c558c0ae",
+  "label": "A perfection caused in another is received in that other",
+  "legacy_id": "STMT-PERFECTION-CAUSED-IN-ANOTHER-IS-RECEIVED-IN-IT",
   "paraphrase": "OPEN analyst premise: a perfection caused in another is received in that other. If c, distinct from x, causes x's being r, then x's having r is received in x (as heat in the heated wood).",
   "lean_declaration": "TruthCore.Causality.CausalMapsBatch1.CausedPerfectionIsReceivedInEffect",
   "definition_ids": [
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-PERFECTION-RECEIVED-IN"
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "cf4875cb-6baf-5bf5-8590-84a21777c66c"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSE"
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
   ]
 }

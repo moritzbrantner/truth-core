@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-204A-INFINITY-ATTRIBUTE-PRINCIPLE-A",
-  "statement_id": "STMT-INFINITY-ATTRIBUTE-NOT-ITSELF-PRINCIPLE",
-  "source_id": "ARIST-PHYS",
+  "id": "cca7ebcf-39e3-552e-9702-4bb58b7a11e3",
+  "label": "Aristotle, Physics III.5, 204a16-29: If infinity belongs to something as an attribute, infinity…",
+  "legacy_id": "ARIST-PHYS-204A-INFINITY-ATTRIBUTE-PRINCIPLE-A",
+  "statement_id": "607712f7-3b75-5f8a-b716-12c445f75b4d",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.5, 204a16-29",
   "interpretation": "Attribute/principle distinction: once infinity is treated as an attribute, infinity qua infinity is not itself the principle; the bearer of the attribute would be the candidate principle. The claim does not identify which bearer is correct.",
   "status": "formalized"

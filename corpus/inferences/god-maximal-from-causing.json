@@ -1,14 +1,16 @@
 {
-  "id": "INF-GOD-MAXIMAL-FROM-CAUSING",
+  "id": "92bf5fe0-9f7b-5c45-bf1f-5998a3948c4a",
+  "label": "Whatever is GOD_4 is maximal in being, by Causing all others' being…",
+  "legacy_id": "INF-GOD-MAXIMAL-FROM-CAUSING",
   "input_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-GOD-CAUSES-BEING-OF-ALL-OTHERS",
-    "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH",
-    "STMT-MORE-SUCH-HAS-THE-PERFECTION",
-    "STMT-MORE-IN-IS-ASYMMETRIC",
-    "STMT-SOMETHING-OTHER-THAN-GOD-EXISTS"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "86d02b69-87eb-5594-9958-ccaa5fe6b685",
+    "d5a94eb1-72d2-53e0-9a52-9787b5b61a8d",
+    "c11369aa-7c3d-5dea-8421-535d5b4b3104",
+    "a4814f25-84b0-560e-870a-eb3a23a6a35b",
+    "e4484bdc-b7bc-5bd6-a8b0-7210916f11f1"
   ],
-  "output_statement_id": "STMT-GOD-IS-MAXIMAL-IN-BEING",
+  "output_statement_id": "4c79298d-ee09-5e99-9ced-1be92c19b4cc",
   "rule": "Causing all others' being exceeds them in being",
   "meaning": "God causes the being of something other than itself, so (cause of a quality is more such) God is more in being than it, so (more such has the perfection) God has being; anything more in being than God is either God itself, excluded by asymmetry, or another being, which God exceeds, again excluded by asymmetry. An alternative derivation of STMT-GOD-IS-MAXIMAL-IN-BEING (used by 23 routes) through the causal converse of the q.2 a.3 naming sentence instead of the bare maximality converse. Two open bridges (asymmetry; something other than God exists). Controls: positive witness only (owner decision 2026-11-07).",
   "assumption_statement_ids": [],

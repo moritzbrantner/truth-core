@@ -1,11 +1,13 @@
 {
-  "id": "STMT-PLOTINIAN-BODY-NOT-FIRST",
+  "id": "943af17d-c28d-511a-a97e-4f169bcd6f5c",
+  "label": "No body is simple in the first-principle sense, and body comes to be whereas the first principle…",
+  "legacy_id": "STMT-PLOTINIAN-BODY-NOT-FIRST",
   "paraphrase": "No body is simple in the first-principle sense, and body comes to be whereas the first principle is ungenerated; a body therefore is not that first principle.",
   "definition_ids": [
-    "DEF-PLOTINIAN-FIRST-PRINCIPLE",
-    "DEF-PLOTINIAN-SIMPLICITY"
+    "489da59b-0536-5575-8614-4d69cabe35d6",
+    "3c5d902b-0b04-57a9-919e-7b1bc65ef7b7"
   ],
   "disambiguation_ids": [
-    "DISAMB-PLOTINIAN-PRIORITY-UNITY"
+    "a7104a36-a4ea-5742-945f-599ec79536bb"
   ]
 }

@@ -1,27 +1,30 @@
 {
-  "id": "NIGHT-ACTUALIZATION-FORK",
+  "id": "0c6188d8-bd53-55d6-b99e-a580ea23e0ee",
+  "label": "Some unpreceded moved POTENCY_1 has one…, from Generation from Night: some BEING_1 is in… and 1 more",
+  "legacy_id": "NIGHT-ACTUALIZATION-FORK",
   "premise_statement_ids": [
-    "STMT-NIGHT-UNPRECEDED-POTENCY-ACTUALIZED",
-    "STMT-EXCLUDED-MIDDLE"
+    "d9791d0f-87c3-5ef1-a0a3-5c85a0b43730",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-NIGHT-ACTUALIZATION-FORK",
+  "conclusion_statement_id": "1a93637d-28de-50cc-b1b5-4e50f91cbaed",
   "inference_ids": [
-    "INF-NIGHT-ACTUALIZATION-FORK"
+    "582aa6d8-f55c-5c76-bfe1-a4b4ec43001a"
   ],
   "meaning": "Extract an unpreceded moved-potency witness from the existing Night reading. Excluded middle first decides whether it has a mover in act in the same respect, then whether a selected such mover is the potency itself. If distinct, the Night witness already excludes its simple priority. This covers possible repairs of the existing GENERATION-FROM-NIGHT-REFUTED argument, not serious worldviews by mere labels; its three omission models witness the corresponding branches. No source attributes this classification, no horn is established unconditionally, and no root premise closes.",
   "definition_ids": [
-    "DEF-BEING-AS-ENTITY",
-    "DEF-ACT",
-    "DEF-POTENCY",
-    "DEF-SIMPLE-PRIORITY",
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-MOVING-ONESELF-IN-THE-SAME-RESPECT",
-    "DEF-RESPECT"
+    "4b8fac5c-91f0-5e82-b095-9f4e96d1d6a9",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "e13e749b-d266-5f18-bc50-59b340444c1f",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
-  "disambiguation_ids": ["DISAMB-POTENCY",
-    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME",
-    "DISAMB-MOTION",
-    "DISAMB-IN-ACT",
-    "DISAMB-SELF-MOTION"
+  "disambiguation_ids": [
+    "508617ab-cf24-5f3b-a387-64b3991359ec",
+    "be54be36-3ce8-53f9-8168-50d1114e6c76",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "aa925dce-cf10-535e-a9ef-a5a0f00a677f"
   ]
 }

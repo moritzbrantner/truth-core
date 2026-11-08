@@ -1,5 +1,7 @@
 {
-  "id": "DEF-CONCRETE-ABSTRACT-CLASSIFICATION",
+  "id": "4088655a-8c5b-5533-b93d-ec4a4f767108",
+  "label": "Concrete/abstract classification: Classification B supplies concrete and abstract predicates on…",
+  "legacy_id": "DEF-CONCRETE-ABSTRACT-CLASSIFICATION",
   "term": "concrete/abstract classification (criterion-neutral)",
   "definition": "Classification B supplies concrete and abstract predicates on the candidate domain together with required disjointness (∀ x, abstract x → ¬ concrete x). It does not require exhaustiveness, since rival criteria need not be exhaustive; for the adopted esse sense both disjointness and exhaustiveness are derived (DEF-ABSTRACT-NO-ESSE-IN-RE). Concreteness is world-independent; concreteness at a world (ConcreteAt) is existence there together with concreteness.",
   "basis": "stipulative",

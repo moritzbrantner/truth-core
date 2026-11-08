@@ -1,11 +1,13 @@
 {
-  "id": "DISAMB-DISJUNCTION-GROUND",
+  "id": "5a91393b-639a-5f70-a6b7-42cdeeec5da9",
+  "label": "Ground of a necessary existential disjunction",
+  "legacy_id": "DISAMB-DISJUNCTION-GROUND",
   "term": "ground of a necessary existential disjunction",
   "sense_definition_ids": [
-    "DEF-LOCAL-GROUND",
-    "DEF-UNIFORM-GROUND",
-    "DEF-INSTANCE-GROUNDING",
-    "DEF-PSR-EXTERNAL-CAUSE"
+    "86b32d63-3f4e-5057-a531-a2d12f1656c9",
+    "a0e9672c-7130-5153-9a04-1078bab85d05",
+    "f97bebf0-4ac7-5c43-bfae-4f7e4225a28e",
+    "54db094b-3291-573d-ae9c-0f24162af2cf"
   ],
   "resolution": "\"Ground of the disjunction\" is used in four senses that the map keeps apart. A local ground (DEF-LOCAL-GROUND) is some reason at each world and may vary; a uniform ground (DEF-UNIFORM-GROUND) is one reason at every accessible world; the instance reading (DEF-INSTANCE-GROUNDING) restricts what a reason may be to an individual's existence fact; an efficient producer is the separate Ontic.Causes relation (DEF-PSR-EXTERNAL-CAUSE, see DISAMB-PSR-EXPLANATION-CAUSE). The results never pass from one to another: local to uniform fails in the truthmakers model; uniform to a necessary being needs the instance reading as a listed premise and fails without it in the lawGround model; neither model nor the positive fixedBearer model has any causation, so no reason is read as a cause. Explains keeps the bare, nonnecessitating sense of DEF-PSR-STRENGTH-REASON; Necessitating is a separately listed property that the truthmakers and lawGround models satisfy, so necessitation of the disjunction by its grounds does not supply a necessarily existing ground. Which sense a source intends is not decided here."
 }

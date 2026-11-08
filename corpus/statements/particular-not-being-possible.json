@@ -1,5 +1,7 @@
 {
-  "id": "STMT-PARTICULAR-NOT-BEING-POSSIBLE",
+  "id": "45b58a91-f148-526d-a0d4-0f63e456f68c",
+  "label": "Even if absolute not-being is excluded, particular not-being—being not this or that—can still be…",
+  "legacy_id": "STMT-PARTICULAR-NOT-BEING-POSSIBLE",
   "paraphrase": "Even if absolute not-being is excluded, particular not-being—being not this or that—can still be admitted.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.ParticularNotBeingPossibleReading"
 }

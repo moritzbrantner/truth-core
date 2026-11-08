@@ -1,6 +1,6 @@
 {
   "snapshot": {
-    "source_id": "ARIST-EN",
+    "source_id": "220d68fb-5e6c-5c6f-b4cb-84e1290dc15a",
     "edition_urn": "urn:cts:greekLit:tlg0086.tlg010.perseus-grc2",
     "language": "grc",
     "repository": "PerseusDL/canonical-greekLit",
@@ -12,7 +12,9 @@
   },
   "passages": [
     {
-      "id": "ARIST-EN-I-1",
+      "id": "d44e751a-40a6-55ad-9bac-2c1ddd3b379e",
+      "label": "Aristotle, Nicomachean Ethics, I.1",
+      "legacy_id": "ARIST-EN-I-1",
       "locator": "I.1",
       "claim_locator_prefixes": [
         "I.1,"
@@ -29,7 +31,9 @@
       ]
     },
     {
-      "id": "ARIST-EN-I-7",
+      "id": "fa974dc9-ae9b-5b8d-818a-bdbf8bca109b",
+      "label": "Aristotle, Nicomachean Ethics, I.7",
+      "legacy_id": "ARIST-EN-I-7",
       "locator": "I.7",
       "claim_locator_prefixes": [
         "I.7,"

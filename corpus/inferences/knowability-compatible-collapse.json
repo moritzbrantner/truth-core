@@ -1,11 +1,13 @@
 {
-  "id": "INF-KNOWABILITY-COMPATIBLE-COLLAPSE",
+  "id": "c8ab468a-38e4-5408-90a7-10a3bf59c8fc",
+  "label": "At every world, every true content in the supplied admissible family is…, by Constructive-proof",
+  "legacy_id": "INF-KNOWABILITY-COMPATIBLE-COLLAPSE",
   "input_statement_ids": [
-    "STMT-EUCLIDEAN-FRAME",
-    "STMT-KNOWABILITY-EPISTEMIC-INCLUDED",
-    "STMT-FITCH-GLOBAL-RESTRICTED-EQUIVALENCE"
+    "62b4a40a-919e-5da4-998c-131c386b7361",
+    "2ece7f86-d7fe-5327-894e-0d8cb4f864c7",
+    "1d6be158-69f3-5548-a297-2e668b0a453b"
   ],
-  "output_statement_id": "STMT-KNOWABILITY-ADMITTED-KNOWN",
+  "output_statement_id": "e8bfc4d1-d874-534f-b233-675a3de1ea7f",
   "rule": "constructive-proof",
   "meaning": "Given a true admitted content at w, forward knowability supplies an R-successor v knowing it. Every E-successor u of w is an R-successor by inclusion; Euclideanness gives R(u,v). Reverse knowability at u then gives truth at u, hence relational knowledge at w. No factivity, reflexivity, epistemic transitivity, Moore closure, classical stability or actuality-index transport is used. This is a conditional consequence under the explicit stronger biconditional, not a proof of its applicability or unrestricted omniscience.",
   "assumption_statement_ids": [],

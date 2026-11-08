@@ -1,11 +1,13 @@
 {
-  "id": "ATTEMPT-MODAL-PSR-STABLE-REASON-SHIFT",
+  "id": "a2905993-182e-5556-b761-03c56823249f",
+  "label": "Certified psr worldwise alternating satisfies the existing existence-PSR and soundness conditions…",
+  "legacy_id": "ATTEMPT-MODAL-PSR-STABLE-REASON-SHIFT",
   "date": "2026-10-28",
   "statement_ids": [
-    "STMT-PSR-EXISTENCE-COMPONENT",
-    "STMT-PSR-SOUND-COMPONENT",
-    "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
-    "STMT-MODAL-EXPLANATION-STABLE"
+    "b3d0eb5e-a814-5112-ae47-7b6f4da5aeba",
+    "9833b805-eeab-5e04-9365-3e7efa1d3bb6",
+    "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
+    "9093e05a-49e1-5ef0-ab53-49a4790e1b12"
   ],
   "kind": "countermodel",
   "outcome": "succeeded",

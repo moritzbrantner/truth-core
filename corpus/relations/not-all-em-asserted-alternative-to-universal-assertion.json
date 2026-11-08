@@ -1,9 +1,11 @@
 {
-  "id": "REL-NOT-ALL-EM-ASSERTED-ALTERNATIVE-TO-UNIVERSAL-ASSERTION",
+  "id": "13851bb0-a5c4-5886-bc73-30dcb328e035",
+  "label": "The supplied stage-indexed assertion… alternative to Every stage asserts every…",
+  "legacy_id": "REL-NOT-ALL-EM-ASSERTED-ALTERNATIVE-TO-UNIVERSAL-ASSERTION",
   "subject_kind": "statement",
-  "subject_id": "STMT-NOT-ALL-EXCLUDED-MIDDLE-INSTANCES-ASSERTED",
+  "subject_id": "17bf5303-72ee-5dbf-bf6f-056f738cc223",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-ALL-EXCLUDED-MIDDLE-INSTANCES-ASSERTED",
+  "object_id": "15861eab-f5bf-5dcf-bf61-1d8cecb0efd2",
   "note": "Exact logical negative of the same stage-indexed assertion target. Derived from full raw withholding via WITHHOLDING-IMPLIES-NOT-UNIVERSAL-ASSERTION; no logical holding-to-assertion bridge or full intended intuitionist-model claim follows."
 }

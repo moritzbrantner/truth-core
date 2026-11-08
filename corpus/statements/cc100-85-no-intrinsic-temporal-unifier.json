@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CC100-85-NO-INTRINSIC-TEMPORAL-UNIFIER",
+  "id": "6e4af5fd-76a6-5b19-9d0c-6d368872c603",
+  "label": "Nothing intrinsic to contingent being explains what holds contingent beings together through time",
+  "legacy_id": "STMT-CC100-85-NO-INTRINSIC-TEMPORAL-UNIFIER",
   "paraphrase": "Nothing intrinsic to contingent being explains what holds contingent beings together through time.",
   "definition_ids": [
-    "DEF-CC100-85-TEMPORAL-SUSTAINING-EXPLANATION"
+    "f65d68ee-3c6a-57e7-8493-9b0e96a8cc50"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

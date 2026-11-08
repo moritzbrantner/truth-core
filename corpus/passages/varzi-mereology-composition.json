@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "VARZI-MEREOLOGY-SEP",
+    "source_id": "2e122d16-30ba-56a3-849e-821fd9475f7d",
     "source_url": "https://plato.stanford.edu/archives/fall2025/entries/mereology/",
     "retrieved_at": "2026-10-28T19:57:10Z",
     "sha256": "sha256:df56f3c6d5701ccf1476ba5b78de7de69346107d78798a8a54b643335a373515",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "VARZI-MEREOLOGY-COMPOSITION",
+      "id": "cf7cbe5c-bdf0-5df8-a734-a8317e16f97d",
+      "label": "Achille C. Varzi, Mereology, \u00a74 Composition Principles, including \u00a7\u00a74.1\u20134.6 and\u2026",
+      "legacy_id": "VARZI-MEREOLOGY-COMPOSITION",
       "locator": "\u00a74 Composition Principles, including \u00a7\u00a74.1\u20134.6 and definitions (59), (60)",
       "claim_locator_prefixes": [
         "4."

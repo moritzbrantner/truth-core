@@ -1,13 +1,15 @@
 {
-  "id": "STMT-PRIOR-PHYSICAL-DETERMINATION-GIVES-MOVER",
+  "id": "83ca7b9d-cda8-523a-92cd-020c96967304",
+  "label": "Unattributed bridge, open: if a thing's being moved in a respect is fully determined by law by…",
+  "legacy_id": "STMT-PRIOR-PHYSICAL-DETERMINATION-GIVES-MOVER",
   "paraphrase": "Unattributed bridge, open: if a thing's being moved in a respect is fully determined by law by prior physical occurrences, then something moves it in that respect (per se, at the same time, in the sense of the case's MovesIn). It passes from prior determining occurrences, which may include the thing's own earlier state, to a present mover without argument.",
   "lean_declaration": "TruthCore.Alternatives.PhysicalCompleteness.PriorPhysicalDeterminationGivesMover",
   "definition_ids": [
-    "DEF-PAPINEAU-LAWFUL-DETERMINATION",
-    "DEF-MOTION-AS-REDUCTION"
+    "bdd6a7f4-e14f-5b04-bd27-1f13b409a500",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43"
   ],
   "disambiguation_ids": [
-    "DISAMB-PRIOR-DETERMINATION-AND-MOVER",
-    "DISAMB-MOVED-BY-SOMETHING"
+    "b2cf965c-a139-5302-8566-123589426b07",
+    "9a798385-cf7b-54a4-833d-da5f27ce8a90"
   ]
 }

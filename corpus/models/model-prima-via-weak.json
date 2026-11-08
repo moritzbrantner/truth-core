@@ -1,5 +1,7 @@
 {
-  "id": "MODEL-PRIMA-VIA-WEAK",
+  "id": "32695275-b3f3-5c40-9b2e-205d0a17970c",
+  "label": "Original weak reading model of the irrelevant-respect objection",
+  "legacy_id": "MODEL-PRIMA-VIA-WEAK",
   "description": "Original weak reading model of the irrelevant-respect objection. Strong and weak premises are separate registered propositions.",
   "vocabulary": "PRIMA-VIA-RESPECT",
   "lean_declaration": "TruthCore.Models.PrimaVia.Weak.model",
@@ -35,7 +37,7 @@
   ],
   "evaluations": [
     {
-      "statement_id": "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD",
+      "statement_id": "fbc516c1-a6cb-5495-9d31-6e2bb45e8e67",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -45,7 +47,7 @@
       "theorem": "TruthCore.Models.PrimaVia.Weak.evaluation0"
     },
     {
-      "statement_id": "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
+      "statement_id": "4be9a4ac-699a-5adc-88d4-bbd958fa1576",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -56,7 +58,7 @@
       "theorem": "TruthCore.Models.PrimaVia.Weak.evaluation1"
     },
     {
-      "statement_id": "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
+      "statement_id": "f296a694-aeea-5fa7-bdbf-0076530f9441",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -67,7 +69,7 @@
       "theorem": "TruthCore.Models.PrimaVia.Weak.evaluation2"
     },
     {
-      "statement_id": "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+      "statement_id": "4a952b96-be5f-5493-8277-985248151d01",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -78,7 +80,7 @@
       "theorem": "TruthCore.Models.PrimaVia.Weak.evaluation3"
     },
     {
-      "statement_id": "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
+      "statement_id": "c6d6379b-6a9b-55b5-a701-3df289dfcca4",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -89,7 +91,7 @@
       "theorem": "TruthCore.Models.PrimaVia.Weak.evaluation4"
     },
     {
-      "statement_id": "STMT-SECOND-MOVERS-MOVE-AS-MOVED-IN-RELEVANT-RESPECT",
+      "statement_id": "96da1d33-7a73-567e-9557-ba4a9a4bb798",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -102,7 +104,7 @@
       "theorem": "TruthCore.Models.PrimaVia.Weak.evaluation5"
     },
     {
-      "statement_id": "STMT-NO-INFINITE-PER-SE-MOVER-SERIES",
+      "statement_id": "226c38f6-7bf4-552a-9a85-733cfa41d0fa",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -111,7 +113,7 @@
       "theorem": "TruthCore.Models.PrimaVia.Weak.evaluation6"
     },
     {
-      "statement_id": "STMT-FIRST-UNMOVED-MOVER-CANNOT-BE-LACKING",
+      "statement_id": "c1b68c21-fa36-5ab0-a499-444259eda78a",
       "value": "violates",
       "arguments": [
         "Being",

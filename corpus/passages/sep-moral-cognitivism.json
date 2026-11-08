@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "SEP-MORAL-COGNITIVISM",
+    "source_id": "b992183a-ecff-5a2b-ba41-19303262f001",
     "source_url": "https://plato.stanford.edu/archives/spr2026/entries/moral-cognitivism/",
     "retrieved_at": "2026-10-24T11:16:11Z",
     "sha256": "sha256:b72cffcee763504d462d6026c7fe57fc9c28c2c0c407323da8262eb0815a3739",
@@ -11,114 +11,263 @@
   },
   "passages": [
     {
-      "id": "SEP-MORAL-COGNITIVISM-PREAMBLE",
+      "id": "f11febf9-e5c0-53be-965f-cfecefa42431",
+      "label": "Mark van Roojen, Moral Cognitivism vs, Preamble",
+      "legacy_id": "SEP-MORAL-COGNITIVISM-PREAMBLE",
       "locator": "preamble (the entry's opening paragraphs, before §1)",
-      "claim_locator_prefixes": ["preamble,"],
-      "html_selector": {"element_id": "preamble"},
+      "claim_locator_prefixes": [
+        "preamble,"
+      ],
+      "html_selector": {
+        "element_id": "preamble"
+      },
       "text_sha256": "sha256:bf559802b13454978395744a74e4f648892a61fa0f599aacbbff7fdcf835d216",
       "incipit": "Non-cognitivism is a variety of irrealism about ethics with a number of"
     },
     {
-      "id": "SEP-MORAL-COGNITIVISM-1-1",
+      "id": "c0eca487-3006-508b-968e-e7ff72e0e73a",
+      "label": "Mark van Roojen, Moral Cognitivism vs, §1.1",
+      "legacy_id": "SEP-MORAL-COGNITIVISM-1-1",
       "locator": "§1.1 (Two Negative Constitutive Non-cognitivist Claims)",
-      "claim_locator_prefixes": ["§1.1,"],
-      "html_selector": {"from": {"anchor": "TwoNegaConsNonCognClai"}, "to": {"anchor": "Cogn"}},
+      "claim_locator_prefixes": [
+        "§1.1,"
+      ],
+      "html_selector": {
+        "from": {
+          "anchor": "TwoNegaConsNonCognClai"
+        },
+        "to": {
+          "anchor": "Cogn"
+        }
+      },
       "text_sha256": "sha256:74c42ef9d08aed97b0bb86766b39314e43bdbbe21b780a5a34426313ace4825f",
       "incipit": "1.1 Two Negative Constitutive Non-cognitivist Claims\nTwo negative theses"
     },
     {
-      "id": "SEP-MORAL-COGNITIVISM-1-2",
+      "id": "2729f81d-689e-5538-8c8c-6d23e69a8a2f",
+      "label": "Mark van Roojen, Moral Cognitivism vs, §1.2",
+      "legacy_id": "SEP-MORAL-COGNITIVISM-1-2",
       "locator": "§1.2 (Cognitivism)",
-      "claim_locator_prefixes": ["§1.2,"],
-      "html_selector": {"from": {"anchor": "Cogn"}, "to": {"anchor": "ContCognSubj"}},
+      "claim_locator_prefixes": [
+        "§1.2,"
+      ],
+      "html_selector": {
+        "from": {
+          "anchor": "Cogn"
+        },
+        "to": {
+          "anchor": "ContCognSubj"
+        }
+      },
       "text_sha256": "sha256:c4558d55662a073c39eb3bf12f713673d42796a9201a5ed96722aed5756a6842",
       "incipit": "1.2 Cognitivism\nCognitivism is perhaps best defined as the denial of"
     },
     {
-      "id": "SEP-MORAL-COGNITIVISM-3-4",
+      "id": "9bfe67bb-3c1c-5a00-a545-d5a7b7f8794e",
+      "label": "Mark van Roojen, Moral Cognitivism vs, §3.4",
+      "legacy_id": "SEP-MORAL-COGNITIVISM-3-4",
       "locator": "§3.4 (Supervenience)",
-      "claim_locator_prefixes": ["§3.4,"],
-      "html_selector": {"from": {"anchor": "Supe"}, "to": {"anchor": "DistMoraDisa"}},
+      "claim_locator_prefixes": [
+        "§3.4,"
+      ],
+      "html_selector": {
+        "from": {
+          "anchor": "Supe"
+        },
+        "to": {
+          "anchor": "DistMoraDisa"
+        }
+      },
       "text_sha256": "sha256:3e2946aa6454dae0174ec93dbdfd68f073110ad4e5f47bbdc9ab136087e01eb1",
       "incipit": "3.4 Supervenience\nIt is relatively common ground among moral theorists that"
     },
     {
-      "id": "SEP-MORAL-COGNITIVISM-5-2",
+      "id": "137e8c62-1489-58b7-89c1-7ca9153f5b26",
+      "label": "Mark van Roojen, Moral Cognitivism vs, §5.2",
+      "legacy_id": "SEP-MORAL-COGNITIVISM-5-2",
       "locator": "§5.2 (Minimalism as Undermining Non-cognitivism)",
-      "claim_locator_prefixes": ["§5.2,"],
-      "html_selector": {"from": {"anchor": "MiniUndeNonCogn"}, "to": {"anchor": "NonCognOverPossColl"}},
+      "claim_locator_prefixes": [
+        "§5.2,"
+      ],
+      "html_selector": {
+        "from": {
+          "anchor": "MiniUndeNonCogn"
+        },
+        "to": {
+          "anchor": "NonCognOverPossColl"
+        }
+      },
       "text_sha256": "sha256:6a46048758bde4c98fb1d58314a30764edd11a093efe8bb7a959437e4a9e3c04",
       "incipit": "5.2 Minimalism as Undermining Non-cognitivism\nAnother line of argument with a"
     },
     {
-      "id": "SEP-MORAL-COGNITIVISM-2-2",
+      "id": "899c4139-702f-5b23-9b5b-7ee9f634e7cc",
+      "label": "Mark van Roojen, Moral Cognitivism vs, §2.2",
+      "legacy_id": "SEP-MORAL-COGNITIVISM-2-2",
       "locator": "§2.2 (Prescriptivism and Universal Prescriptivism)",
-      "claim_locator_prefixes": ["§2.2,"],
-      "html_selector": {"from": {"anchor": "PresUnivPres"}, "to": {"anchor": "QuasReal"}},
+      "claim_locator_prefixes": [
+        "§2.2,"
+      ],
+      "html_selector": {
+        "from": {
+          "anchor": "PresUnivPres"
+        },
+        "to": {
+          "anchor": "QuasReal"
+        }
+      },
       "text_sha256": "sha256:7976490805f04d27990cc1e3fe2e2804783765ffd76b40deabda2b015ba06b40",
       "incipit": "2.2 Prescriptivism and Universal Prescriptivism\nPrescriptivists suggest that"
     },
     {
-      "id": "SEP-MORAL-COGNITIVISM-3-5",
+      "id": "ca4843fd-28b0-54b4-ae05-7730cba831ab",
+      "label": "Mark van Roojen, Moral Cognitivism vs, §3.5",
+      "legacy_id": "SEP-MORAL-COGNITIVISM-3-5",
       "locator": "§3.5 (The Distinctiveness of Moral Disagreement?)",
-      "claim_locator_prefixes": ["§3.5,"],
-      "html_selector": {"from": {"anchor": "DistMoraDisa"}, "to": {"anchor": "ProbObjeRespStra"}},
+      "claim_locator_prefixes": [
+        "§3.5,"
+      ],
+      "html_selector": {
+        "from": {
+          "anchor": "DistMoraDisa"
+        },
+        "to": {
+          "anchor": "ProbObjeRespStra"
+        }
+      },
       "text_sha256": "sha256:5b0f7e37681e0238c17beb7c0a7497bb71dec976aa901b1d65ee726538b844da",
       "incipit": "3.5 The Distinctiveness of Moral Disagreement?\nTheorists sometimes present the"
     },
     {
-      "id": "SEP-MORAL-COGNITIVISM-4-3",
+      "id": "563a5ea5-795d-50bb-bfef-3fad3679c7d5",
+      "label": "Mark van Roojen, Moral Cognitivism vs, §4.3",
+      "legacy_id": "SEP-MORAL-COGNITIVISM-4-3",
       "locator": "§4.3 (Non-cognitivism and Relativism)",
-      "claim_locator_prefixes": ["§4.3,"],
-      "html_selector": {"from": {"anchor": "NonCognRela"}, "to": {"anchor": "CaptVariNormThouWithNonCognMeta"}},
+      "claim_locator_prefixes": [
+        "§4.3,"
+      ],
+      "html_selector": {
+        "from": {
+          "anchor": "NonCognRela"
+        },
+        "to": {
+          "anchor": "CaptVariNormThouWithNonCognMeta"
+        }
+      },
       "text_sha256": "sha256:d21ed2dd0ce5a38a87d2d431635d74a24899cfc6c35db0d56732f9710518b3c6",
       "incipit": "4.3 Non-cognitivism and Relativism\nIt has seemed obvious to many that"
     },
     {
-      "id": "SEP-MORAL-COGNITIVISM-2-1",
+      "id": "cd470fff-dee4-51e9-a9f6-89f6591ac222",
+      "label": "Mark van Roojen, Moral Cognitivism vs, §2.1",
+      "legacy_id": "SEP-MORAL-COGNITIVISM-2-1",
       "locator": "§2.1 (Emotivism)",
-      "claim_locator_prefixes": ["§2.1,"],
-      "html_selector": {"from": {"anchor": "Emot"}, "to": {"anchor": "PresUnivPres"}},
+      "claim_locator_prefixes": [
+        "§2.1,"
+      ],
+      "html_selector": {
+        "from": {
+          "anchor": "Emot"
+        },
+        "to": {
+          "anchor": "PresUnivPres"
+        }
+      },
       "text_sha256": "sha256:f77af3472aef5a4d36caeca1f6b0f1a2ae19708de82e4520d612287d3693c620",
       "incipit": "2.1 Emotivism\nEmotivists think moral terms in grammatically assertive"
     },
     {
-      "id": "SEP-MORAL-COGNITIVISM-2-3",
+      "id": "4c9b2cc5-a315-5fac-bc16-fe8e19f7b48f",
+      "label": "Mark van Roojen, Moral Cognitivism vs, §2.3",
+      "legacy_id": "SEP-MORAL-COGNITIVISM-2-3",
       "locator": "§2.3 (Quasi-realism)",
-      "claim_locator_prefixes": ["§2.3,"],
-      "html_selector": {"from": {"anchor": "QuasReal"}, "to": {"anchor": "Expr"}},
+      "claim_locator_prefixes": [
+        "§2.3,"
+      ],
+      "html_selector": {
+        "from": {
+          "anchor": "QuasReal"
+        },
+        "to": {
+          "anchor": "Expr"
+        }
+      },
       "text_sha256": "sha256:081ee25ff0ee3118b4e83d8b5144dc5af9ecff9960998ef341a053bb4c1a26d2",
       "incipit": "2.3 Quasi-realism\nSince non-cognitivism is a species of irrealism about ethics,"
     },
     {
-      "id": "SEP-MORAL-COGNITIVISM-2-4",
+      "id": "b95366c8-275c-5989-9af2-02fc6a6501cf",
+      "label": "Mark van Roojen, Moral Cognitivism vs, §2.4",
+      "legacy_id": "SEP-MORAL-COGNITIVISM-2-4",
       "locator": "§2.4 (Expressivism)",
-      "claim_locator_prefixes": ["§2.4,"],
-      "html_selector": {"from": {"anchor": "Expr"}, "to": {"anchor": "NormExprPlanExpr"}},
+      "claim_locator_prefixes": [
+        "§2.4,"
+      ],
+      "html_selector": {
+        "from": {
+          "anchor": "Expr"
+        },
+        "to": {
+          "anchor": "NormExprPlanExpr"
+        }
+      },
       "text_sha256": "sha256:680b32a87a43b6edfe3f5aede810ac12059aa775f4a5c11366833749a76deb8e",
       "incipit": "2.4 Expressivism\nExpressivists of all sorts think that moral sentences are"
     },
     {
-      "id": "SEP-MORAL-COGNITIVISM-2-5",
+      "id": "343f2d31-57a6-581e-afe3-1ee86ed823a6",
+      "label": "Mark van Roojen, Moral Cognitivism vs, §2.5",
+      "legacy_id": "SEP-MORAL-COGNITIVISM-2-5",
       "locator": "§2.5 (Norm-expressivism and Plan-expressivism)",
-      "claim_locator_prefixes": ["§2.5,"],
-      "html_selector": {"from": {"anchor": "NormExprPlanExpr"}, "to": {"anchor": "BordCaseHybrTheo"}},
+      "claim_locator_prefixes": [
+        "§2.5,"
+      ],
+      "html_selector": {
+        "from": {
+          "anchor": "NormExprPlanExpr"
+        },
+        "to": {
+          "anchor": "BordCaseHybrTheo"
+        }
+      },
       "text_sha256": "sha256:2ba2e076ab7038797753e9f33c20a461de275d1752b54f007979458f05693e86",
       "incipit": "2.5 Norm-expressivism and Plan-expressivism\nGibbard’s Wise Choices, Apt"
     },
     {
-      "id": "SEP-MORAL-COGNITIVISM-4-1",
+      "id": "0bc1571f-7453-584f-8d2a-43bc5f53abc3",
+      "label": "Mark van Roojen, Moral Cognitivism vs, §4.1",
+      "legacy_id": "SEP-MORAL-COGNITIVISM-4-1",
       "locator": "§4.1 (The Embedding Problem)",
-      "claim_locator_prefixes": ["§4.1,"],
-      "html_selector": {"from": {"anchor": "EmbeProb"}, "to": {"anchor": "WishThinObjeMoraReasMoraUnce"}},
+      "claim_locator_prefixes": [
+        "§4.1,"
+      ],
+      "html_selector": {
+        "from": {
+          "anchor": "EmbeProb"
+        },
+        "to": {
+          "anchor": "WishThinObjeMoraReasMoraUnce"
+        }
+      },
       "text_sha256": "sha256:9483bd0ccdcb40f76fbfcc74abafe001483596961c86aab8cba71bfa9be9f391",
       "incipit": "4.1 The Embedding Problem\nNon-cognitivism as it is often presented is"
     },
     {
-      "id": "SEP-MORAL-COGNITIVISM-5-3",
+      "id": "964128fc-aa3f-504a-859e-7beb5c0ad387",
+      "label": "Mark van Roojen, Moral Cognitivism vs, §5.3",
+      "legacy_id": "SEP-MORAL-COGNITIVISM-5-3",
       "locator": "§5.3 (Non-cognitivist Overreaching and Possible Collapse)",
-      "claim_locator_prefixes": ["§5.3,"],
-      "html_selector": {"from": {"anchor": "NonCognOverPossColl"}, "to": {"anchor": "Conc"}},
+      "claim_locator_prefixes": [
+        "§5.3,"
+      ],
+      "html_selector": {
+        "from": {
+          "anchor": "NonCognOverPossColl"
+        },
+        "to": {
+          "anchor": "Conc"
+        }
+      },
       "text_sha256": "sha256:c31e32ce98f908abbfcdb21b1e3ef90743feea445407026f574da847b5823f8b",
       "incipit": "5.3 Non-cognitivist Overreaching and Possible Collapse\nOne final sort of worry"
     }

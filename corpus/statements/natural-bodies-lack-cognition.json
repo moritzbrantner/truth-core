@@ -1,5 +1,7 @@
 {
-  "id": "STMT-NATURAL-BODIES-LACK-COGNITION",
+  "id": "efda546f-c3e5-5a68-990b-73f96258f75c",
+  "label": "Natural bodies lack cognition",
+  "legacy_id": "STMT-NATURAL-BODIES-LACK-COGNITION",
   "paraphrase": "Natural bodies lack cognition.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.NaturalBodiesLackCognitionReading"
 }

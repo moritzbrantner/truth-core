@@ -1,19 +1,21 @@
 {
-  "id": "WITHHOLDING-IMPLIES-NOT-UNIVERSAL-ASSERTION",
+  "id": "392cb64b-3dc5-5838-b3b9-38fa336bc2b2",
+  "label": "The supplied stage-indexed assertion policy does…, from Intuitionism: excluded middle is not a law…",
+  "legacy_id": "WITHHOLDING-IMPLIES-NOT-UNIVERSAL-ASSERTION",
   "premise_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE-WITHHELD-INTUITIONISM"
+    "dd9921a6-cea1-5cb5-ac08-512a4a5b1813"
   ],
-  "conclusion_statement_id": "STMT-NOT-ALL-EXCLUDED-MIDDLE-INSTANCES-ASSERTED",
+  "conclusion_statement_id": "17bf5303-72ee-5dbf-bf6f-056f738cc223",
   "inference_ids": [
-    "INF-WITHHOLDING-IMPLIES-NOT-UNIVERSAL-ASSERTION"
+    "d99a0065-a2b4-5fd5-9f9f-74afb6452f7a"
   ],
   "meaning": "Project the existing full withholding package's explicit stage/content witness to the exact negative assertion-policy proposition. It is not an inference to object-level denial or falsity of EM.",
   "definition_ids": [
-    "DEF-EXCLUDED-MIDDLE-LOGICAL-HOLDING",
-    "DEF-EXCLUDED-MIDDLE-ASSERTION-POLICY",
-    "DEF-EXCLUDED-MIDDLE-WITHHOLDING-POLICY"
+    "d8e2ed12-8089-5202-ae51-e807cf611c76",
+    "284efb0a-b669-5b91-b0ea-2b7b68bef70d",
+    "bdab9d27-6b41-5a06-8e64-e696fa48d9c1"
   ],
   "disambiguation_ids": [
-    "DISAMB-EXCLUDED-MIDDLE-HOLDING-AND-ASSERTION"
+    "12425707-e469-5574-b064-4f5e171cfb65"
   ]
 }

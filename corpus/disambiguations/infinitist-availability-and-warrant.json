@@ -1,11 +1,13 @@
 {
-  "id": "DISAMB-INFINITIST-AVAILABILITY-AND-WARRANT",
+  "id": "83565910-c99f-5aaa-a5ff-5e53a3ab7f6e",
+  "label": "Available reasons, enhanced justification, generated warrant and adequate explanation",
+  "legacy_id": "DISAMB-INFINITIST-AVAILABILITY-AND-WARRANT",
   "term": "available reasons, enhanced justification, generated warrant and adequate explanation",
   "sense_definition_ids": [
-    "DEF-REASON-ENHANCED-JUSTIFICATION",
-    "DEF-INFINITIST-REASON-AVAILABILITY",
-    "DEF-INFINITIST-NORMATIVE-CONSTRAINTS",
-    "DEF-ALL-PREMISE-GENERATED-WARRANT"
+    "8103573d-6f9b-5507-aab5-550b32be3c33",
+    "129d8faf-d95b-55d5-b9a0-f130e87af547",
+    "5899a492-6fd6-581c-878d-a7b92c07f1c3",
+    "38955650-58d2-5bfc-a6ec-6255f5193090"
   ],
   "resolution": "Klein–Turri availability is not actual infinite traversal. A reason not yet reason-enhanced need not be wholly unjustified. Their scoped enhancement/reflective-knowledge arguments do not address every epistemic status and assume non-skepticism in the stated context. GeneratedWarrant remains the separately stipulated all-premise inductive standard; its emptiness is not a refutation of every infinitist or holistic norm. A reason-support edge is neither actual warrant nor an actual causal/explanatory relation; no temporal, ontological or causal conclusion transfers without an independently defended mapping and norm."
 }

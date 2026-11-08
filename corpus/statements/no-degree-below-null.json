@@ -1,12 +1,14 @@
 {
-  "id": "STMT-NO-DEGREE-BELOW-NULL",
+  "id": "ed766869-09b3-529a-ad3d-f817a931b5a3",
+  "label": "No represented degree of any perfection lies below the null degree",
+  "legacy_id": "STMT-NO-DEGREE-BELOW-NULL",
   "paraphrase": "OPEN analyst premise: no represented degree of any perfection lies below the null degree (lacking the perfection altogether).",
   "lean_declaration": "TruthCore.Causality.Round3FourthWay.NoDegreeBelowNull",
   "definition_ids": [
-    "DEF-PER-RESPECT-DEGREE-FAMILY",
-    "DEF-NULL-DEGREE"
+    "8323604a-2e7a-554c-9b32-d82e5201271d",
+    "6dfcb331-e8ca-53fd-b2f8-a8ad26a6a482"
   ],
   "disambiguation_ids": [
-    "DISAMB-BEING-UNIVOCITY"
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58"
   ]
 }

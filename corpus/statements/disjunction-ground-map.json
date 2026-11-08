@@ -1,22 +1,24 @@
 {
-  "id": "STMT-DISJUNCTION-GROUND-MAP",
+  "id": "11b2c04e-5e62-59ac-9d1e-5afba6938e75",
+  "label": "In the PSR comparison arena, for every arena, world a and fact d: one reason for d at every world…",
+  "legacy_id": "STMT-DISJUNCTION-GROUND-MAP",
   "paraphrase": "In the PSR comparison arena, for every arena, world a and fact d: one reason for d at every world accessible from a gives some reason for d at each such world; under factive reasons, a reason for d at each accessible world makes d true at every accessible world; adding coherence of existence facts and the instance reading (every reason for d is some individual's existence fact), it gives an existing individual at every accessible world; with also a = accessible from itself, one uniform reason for d gives an actually existing individual that exists at every world accessible from a (a necessary being); and, assuming excluded middle, factivity, coherence and a accessible from a, a uniform reason for d is either a uniform reason that is no individual's existence fact or there is a necessary being (the horns are not claimed exclusive). Six two-world models, each at world false: truthmakers has factive, coherent, necessitating instance reasons, d the existential fact, a reason for d at each world, d necessary, the existence of individual false contingent, no uniform reason and no necessary being; lawGround has factive, coherent, necessitating reasons, d the existential fact, a uniform reason for d, some reason for d that is no individual's existence fact, the law fact true at every accessible world, no causation, a contingent existence fact and no necessary being (by construction its only reason is the law); nonfactive, incoherent and unseenActual each keep the other premises of the bridge theorem with a uniform reason and no necessary being, failing factivity, coherence and self-access respectively, unseenActual with individual true existing at every accessible world but not at false; fixedBearer satisfies every premise of the bridge theorem with d the existential fact, has a necessary being, a contingent individual false and no causation. Thus a necessary existential disjunction can have only contingent local grounds, and the step from one uniform ground to a necessary being needs the instance reading, which the abstract-law model rejects. No model is claimed metaphysically possible and no premise is asserted.",
   "definition_ids": [
-    "DEF-PSR-STRENGTH-ARENA",
-    "DEF-PSR-STRENGTH-REASON",
-    "DEF-PSR-REASON-NECESSITATING",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-EXISTENTIAL-FACT",
-    "DEF-LOCAL-GROUND",
-    "DEF-UNIFORM-GROUND",
-    "DEF-INSTANCE-GROUNDING",
-    "DEF-PSR-EXTERNAL-CAUSE"
+    "fe4b7da0-cbd6-5d1f-b589-953f9def12b7",
+    "179d4557-bda1-59c4-938a-b91e9974a27f",
+    "3055e6f1-5de7-5c32-9b6f-d023d0c82025",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "0e6e4190-6feb-5056-b1d4-100cc9d2a1df",
+    "86b32d63-3f4e-5057-a531-a2d12f1656c9",
+    "a0e9672c-7130-5153-9a04-1078bab85d05",
+    "f97bebf0-4ac7-5c43-bfae-4f7e4225a28e",
+    "54db094b-3291-573d-ae9c-0f24162af2cf"
   ],
   "disambiguation_ids": [
-    "DISAMB-DISJUNCTION-GROUND",
-    "DISAMB-PSR-REASON-NECESSITATING",
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "5a91393b-639a-5f70-a6b7-42cdeeec5da9",
+    "f9e260b1-c206-5d41-a054-fac13cf68e67",
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ],
   "lean_declaration": "TruthCore.Explanation.DisjunctionGround.DisjunctionGroundMap"
 }

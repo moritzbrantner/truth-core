@@ -1,9 +1,11 @@
 {
-  "id": "STMT-INFINITE-IS-UNLIMITED-ACT",
+  "id": "0471efe6-a439-5e04-ac82-0c19f2ed3f72",
+  "label": "What is INFINITE_1 is in act in every possible perfection",
+  "legacy_id": "STMT-INFINITE-IS-UNLIMITED-ACT",
   "paraphrase": "OPEN (attribution deferred): what is infinite (the primitive Infinite predicate of GodIsInfinite) is in act in every possible perfection.",
   "lean_declaration": "TruthCore.Causality.NamingVeracityBatch1.InfiniteIsUnlimitedAct",
   "definition_ids": [
-    "DEF-INFINITE",
-    "DEF-ACTIVE-POWER-TASK-VOCABULARY"
+    "1d8890c0-afe2-5cdb-a400-0bbd4b79053d",
+    "0525d8b9-f620-584f-a11f-beee6d8871a5"
   ]
 }

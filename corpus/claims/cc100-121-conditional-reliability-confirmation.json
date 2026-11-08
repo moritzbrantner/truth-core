@@ -1,14 +1,16 @@
 {
-  "id": "CC100-121-CONDITIONAL-RELIABILITY-CONFIRMATION",
-  "statement_id": "STMT-CC100-121-CONDITIONAL-RELIABILITY-CONFIRMATION",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "36977359-4078-5c35-894a-c3366e153de2",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: Under the displayed likelihood comparison and…",
+  "legacy_id": "CC100-121-CONDITIONAL-RELIABILITY-CONFIRMATION",
+  "statement_id": "766dc232-649f-53b4-acd9-ecfbafda603c",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.272–291: p.284, argument #121 Reliability of Our Cognitive Faculties, step 5 under steps 3–4",
   "interpretation": "Preserve conditional comparative confirmation. The definition of R does not assert our actual general reliability; no evidence update, positive prior, numeric posterior, actual or necessary God or uniquely reliable divine account is supplied. Attribution is to McIntosh’s presentation only, not unread Arnold2018 or Slagle2021 works referenced on p285. No formal proof or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-121-RELIABILITY-CONFIRMATION"
+    "bef73b95-e123-5b57-80ae-e5923d50ae74"
   ],
   "disambiguation_ids": [
-    "DISAMB-REASON-EPISTEMIC-ONTIC"
+    "a61d3807-50e9-595e-9011-9123fd606a4b"
   ]
 }

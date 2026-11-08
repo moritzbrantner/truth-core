@@ -1,9 +1,11 @@
 {
-  "id": "INF-GREATEST-IN-BEING-MAXIMAL-FROM-DEGREE-TRACKING",
+  "id": "2b0545b1-bd62-5aa6-ba90-4624b0c8dee6",
+  "label": "A MAXIME_2 (greatest-degree) being is MAXIME_1 (maximal) in being, by Reductio through the…",
+  "legacy_id": "INF-GREATEST-IN-BEING-MAXIMAL-FROM-DEGREE-TRACKING",
   "input_statement_ids": [
-    "STMT-MORE-IN-BEING-TRACKS-DEGREE"
+    "c323e046-067c-5228-a4a8-55df7bdeb397"
   ],
-  "output_statement_id": "STMT-GREATEST-IN-BEING-IS-MAXIMAL",
+  "output_statement_id": "c16ec481-ce5b-5a90-b8e4-247a2ebb2155",
   "rule": "Reductio through the preorder: a strictly higher degree contradicts being at most the greatest degree",
   "meaning": "Derives the MAXIME_2 to MAXIME_1 sense bridge: if whatever is more a being than m has being and a strictly higher represented degree, nothing is more a being than a GREATEST-degree bearer, since its degree would be both above and at most the greatest.",
   "assumption_statement_ids": [],

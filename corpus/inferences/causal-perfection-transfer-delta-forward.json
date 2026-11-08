@@ -1,9 +1,11 @@
 {
-  "id": "INF-CAUSAL-PERFECTION-TRANSFER-DELTA-FORWARD",
+  "id": "202b0d19-5ed0-5587-b63d-2f8a1721f7dc",
+  "label": "Retain the unrestricted transfer for nonuniversal causes and for…, by Typed scope comparison",
+  "legacy_id": "INF-CAUSAL-PERFECTION-TRANSFER-DELTA-FORWARD",
   "input_statement_ids": [
-    "STMT-CAUSE-OF-BEING-CAUSES-EVERY-PERFECTION"
+    "f8ba2429-b4f1-5712-a4d3-798213963d34"
   ],
-  "output_statement_id": "STMT-RESIDUAL-PERFECTION-TRANSFER",
+  "output_statement_id": "5a4afaa5-ae79-58bd-bfca-501d2a194b10",
   "rule": "typed_scope_comparison",
   "meaning": "Project the legacy principle to nonuniversal sources and self-effects.",
   "assumption_statement_ids": [],

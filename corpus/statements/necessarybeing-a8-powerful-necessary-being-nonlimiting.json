@@ -1,15 +1,17 @@
 {
-  "id": "STMT-NB-A8-POWERFUL-NECESSARY-BEING-NONLIMITING",
+  "id": "c849a958-45dc-511b-8e81-38b1db1faa4c",
+  "label": "Conditional on the selected negative report, the property of being a powerful NECESSARY_BEING_4 is…",
+  "legacy_id": "STMT-NB-A8-POWERFUL-NECESSARY-BEING-NONLIMITING",
   "paraphrase": "Conditional on the selected negative report, the property of being a powerful Necessary Being is not limiting in the source deficiency-entailing sense. This is not actual assent, an independently justified evaluative fact, actual or possible exemplification without semantic premises, a definition of quantitative power or all classical divine attributes.",
   "definition_ids": [
-    "DEF-NB-A8-MODAL-PROPERTY-ENTAILMENT",
-    "DEF-NB-A8-LIMITING-PROPERTY",
-    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
-    "DEF-NB-SURVEY-NECESSARY-BEING",
-    "DEF-NB-A2-CONCRETE-CAUSE-CAPABLE"
+    "45cb47e4-168c-5bb7-baf8-b659632a396e",
+    "93ea01f7-a699-582c-9b57-0678c1396b4c",
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0",
+    "7fde5dc0-6ca7-5ce6-a2e1-571acfd15dcf",
+    "88bd1ef6-cb47-5707-ae9a-23537290aea9"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A8-LIMITATION-AND-ENTAILMENT",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "125551eb-8b03-5b3d-ae85-66909c3f42b7",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

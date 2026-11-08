@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CAUSE-PRINCIPLE-DISTINCT",
+  "id": "9709d14f-1324-58f1-8889-1110881c5b44",
+  "label": "Anything that comes to be has some distinct CAUSE_2",
+  "legacy_id": "STMT-CAUSE-PRINCIPLE-DISTINCT",
   "paraphrase": "Anything that comes to be has some distinct cause.",
   "lean_declaration": "TruthCore.Greek.Plato.Timaeus.DistinctCausePrinciple",
   "definition_ids": [
-    "DEF-PLATONIC-GENERATION-CAUSE"
+    "fefbb205-07a2-595f-80d6-c6975c7cd185"
   ],
   "disambiguation_ids": [
-    "DISAMB-PLATONIC-CAUSE"
+    "a0786cf3-0248-58b6-ad97-12b00af85056"
   ]
 }

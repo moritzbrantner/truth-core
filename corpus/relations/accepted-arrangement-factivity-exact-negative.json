@@ -1,9 +1,11 @@
 {
-  "id": "REL-ACCEPTED-ARRANGEMENT-FACTIVITY-EXACT-NEGATIVE",
+  "id": "9b82d3a1-c251-511f-b8bf-ed76aa4599cb",
+  "label": "Exact negation of the accepted-candidate… alternative to Every candidate proposition accepted by…",
+  "legacy_id": "REL-ACCEPTED-ARRANGEMENT-FACTIVITY-EXACT-NEGATIVE",
   "subject_kind": "statement",
-  "subject_id": "STMT-ACCEPTED-ARRANGEMENT-EXPLANATION-FACTIVITY-FAILS",
+  "subject_id": "77146549-88ce-53d9-96bb-3105ae35daf7",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-ACCEPTED-ARRANGEMENT-EXPLANATIONS-ARE-TRUE",
+  "object_id": "7f6451e9-a533-5bfd-9899-16bb4164ecab",
   "note": "Exact matching-profile negation, preserving all stronger source/analyst accounts separately. Conditional proof is not independent warrant or an actual historical refutation."
 }

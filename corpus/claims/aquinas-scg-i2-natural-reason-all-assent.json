@@ -1,7 +1,9 @@
 {
-  "id": "AQUINAS-SCG-I-2-NATURAL-REASON-ALL-ASSENT",
-  "statement_id": "STMT-AQUINAS-NATURAL-REASON-ALL-MUST-ASSENT",
-  "source_id": "AQUINAS-SCG",
+  "id": "41aa4c59-6eb1-5b27-8e71-6b1a26c7cb3a",
+  "label": "Thomas Aquinas, Summa contra gentiles I.2…: Aquinas, Summa contra Gentiles I.2 n.4: against some…",
+  "legacy_id": "AQUINAS-SCG-I-2-NATURAL-REASON-ALL-ASSENT",
+  "statement_id": "b4a3b1f9-c129-5f48-8a58-283610c62823",
+  "source_id": "0292b788-8058-5069-afde-4a19b82b5604",
   "locator": "I.2 n.4 [23500], Unde necesse est ad naturalem rationem recurrere, cui omnes assentire coguntur",
   "interpretation": "I.2 n.4: 'quidam eorum, ut Mahumetistae et Pagani, non conveniunt nobiscum in auctoritate alicuius Scripturae ... Unde necesse est ad naturalem rationem recurrere, cui omnes assentire coguntur. Quae tamen in rebus divinis deficiens est.' The limitation ('deficiens') is kept. 'Non conveniunt nobiscum' restricts the point to shared scriptural authority: they share none with Christians, not that they have none.",
   "status": "formalized",

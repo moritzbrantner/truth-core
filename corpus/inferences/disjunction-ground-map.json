@@ -1,7 +1,9 @@
 {
-  "id": "INF-DISJUNCTION-GROUND-MAP",
+  "id": "c5feb6a8-7fd5-5809-ada2-4c6487a5a477",
+  "label": "In the PSR comparison arena, for every arena, world a and fact d: one…, by Model-construction",
+  "legacy_id": "INF-DISJUNCTION-GROUND-MAP",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-DISJUNCTION-GROUND-MAP",
+  "output_statement_id": "11b2c04e-5e62-59ac-9d1e-5afba6938e75",
   "rule": "model-construction",
   "meaning": "Prove the quantifier-shift, necessity, population, bridge and fork lemmas generally in the PSRStrength arena, and construct the six two-world models and evaluate the listed conditions on each.",
   "assumption_statement_ids": [],

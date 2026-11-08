@@ -1,15 +1,17 @@
 {
-  "id": "CC100-116-CONDITIONAL-PERSONAL-REASON-EXPLANATION",
-  "statement_id": "STMT-CC100-116-CONDITIONAL-PERSONAL-REASON-EXPLANATION",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "50371774-f028-5ed5-8434-3ba797bb84b7",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: If reason involves intentionality and mental…",
+  "legacy_id": "CC100-116-CONDITIONAL-PERSONAL-REASON-EXPLANATION",
+  "statement_id": "5358d402-9442-51bb-9d66-3494a647be28",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.272–291: p.274, argument #116 Argument from Reason, step 3 under steps 1–2",
   "interpretation": "The source’s displayed restriction-transfer conclusion is preserved conditionally. Applicability from involvement to explanatory restriction is not a new checked theorem; no actual personal explanation or same selected person is produced by this record. Attribution is to McIntosh’s presentation only, not the unread Ross/Hasker/Reppert/Goetz works referenced on p275. No formal proof or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-116-REASON-PERSONAL-EXPLANATION"
+    "54bd3f5c-02de-55b4-a0dc-1c4f442cbbf5"
   ],
   "disambiguation_ids": [
-    "DISAMB-REASON-EPISTEMIC-ONTIC",
-    "DISAMB-PSR-EXPLANATION-CAUSE"
+    "a61d3807-50e9-595e-9011-9123fd606a4b",
+    "f7bae38e-9b21-54fe-8236-2646c230568b"
   ]
 }

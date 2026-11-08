@@ -1,9 +1,11 @@
 {
-  "id": "DEF-MORAL-ACCESS-CORRELATION",
+  "id": "28cc1233-60e8-59b4-a906-99c8835aa551",
+  "label": "MORAL_ACCESS_CORRELATION_CHALLENGE_1: Explain how a specified range of normative judgments is…",
+  "legacy_id": "DEF-MORAL-ACCESS-CORRELATION",
   "term": "moral-access correlation challenge",
   "definition": "Explain how a specified range of normative judgments is reliably correlated with independent normative truths. This question is not identical to whether moral sentences are truth-apt, whether some error is possible, whether beliefs are adaptively successful, or whether every judgment is true. The explanatory demand and its strength remain contestable.",
   "basis": "sourced",
   "claim_ids": [
-    "ENOCH-MORAL-ACCESS-CORRELATION-CHALLENGE"
+    "300b54de-b1cb-5272-a584-df81de5b5a58"
   ]
 }

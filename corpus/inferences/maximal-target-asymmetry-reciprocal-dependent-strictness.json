@@ -1,7 +1,9 @@
 {
-  "id": "INF-MAXIMAL-TARGET-ASYMMETRY-RECIPROCAL-DEPENDENT-STRICTNESS",
+  "id": "96d48145-036c-5ecb-b80b-88e20c4a0fe9",
+  "label": "One exact three-node, one-world interpretation exports actual population…, by Constructive-proof",
+  "legacy_id": "INF-MAXIMAL-TARGET-ASYMMETRY-RECIPROCAL-DEPENDENT-STRICTNESS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-MAXIMAL-TARGET-ASYMMETRY-RECIPROCAL-DEPENDENT-CONTROL",
+  "output_statement_id": "88156dc8-613e-5058-ae11-243ea910848b",
   "rule": "constructive-proof",
   "meaning": "Populated constructive three-node scope control retains all five other nonlogical whole-roster interfaces and an actual maximal root while two distinct actual nonmaximal dependents ground each other. Maximal-target asymmetry holds, full asymmetry fails. It proves no EM, actual causal interpretation, full25 background, metaphysical possibility or explanatory adequacy.",
   "assumption_statement_ids": [],

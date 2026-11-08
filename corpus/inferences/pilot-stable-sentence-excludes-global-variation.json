@@ -1,9 +1,11 @@
 {
-  "id": "INF-PILOT-STABLE-SENTENCE-EXCLUDES-GLOBAL-VARIATION",
+  "id": "34a56005-7e05-5d8a-b004-fe580af3475c",
+  "label": "The strong global profile-variation thesis fails for the supplied…, by Constructive-proof",
+  "legacy_id": "INF-PILOT-STABLE-SENTENCE-EXCLUDES-GLOBAL-VARIATION",
   "input_statement_ids": [
-    "STMT-PILOT-LOGICAL-SENTENCE-STABLE"
+    "2da913fd-d8f7-5eb2-b933-886bd2461b4d"
   ],
-  "output_statement_id": "STMT-PILOT-NOT-GLOBAL-PROFILE-VARIATION",
+  "output_statement_id": "cb9ecf3a-8c6d-5062-84a1-12068f87aac4",
   "rule": "constructive-proof",
   "meaning": "A global variation witness for the logical sentence conflicts with its explicit all-profile stability premise. This is a conditional test, not a premise-free refutation of philosophical relativism.",
   "assumption_statement_ids": [],

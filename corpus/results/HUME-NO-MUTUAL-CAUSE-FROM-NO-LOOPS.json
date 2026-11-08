@@ -1,6 +1,8 @@
 {
-  "id": "HUME-NO-MUTUAL-CAUSE-FROM-NO-LOOPS",
-  "argument_id": "HUME-NO-MUTUAL-CAUSE-FROM-NO-LOOPS",
+  "id": "b84a2f6d-f85d-5589-8be5-8598fd5d4d5c",
+  "label": "Nothing is both the cause and the effect of another thing: for distinct x and y, x…, from no loops",
+  "legacy_id": "HUME-NO-MUTUAL-CAUSE-FROM-NO-LOOPS",
+  "argument_id": "ad08fa58-6e88-5a6b-af75-d3a397950675",
   "challenge_module": "TruthCore.Results.Comparison.HumeCauseAsymmetry.Challenge",
   "solution_module": "TruthCore.Results.Comparison.HumeCauseAsymmetry.Solution",
   "theorem": "TruthCore.Results.Comparison.HumeCauseAsymmetry.noMutualCauseOfNoCausalLoops",

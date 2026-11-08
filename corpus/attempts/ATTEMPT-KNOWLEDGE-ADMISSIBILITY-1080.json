@@ -1,18 +1,20 @@
 {
-  "id": "ATTEMPT-KNOWLEDGE-ADMISSIBILITY-1080",
+  "id": "deac5cc4-c7e9-5d49-a983-e8a9d51b6bf6",
+  "label": "Reuse inventory found existing relational Knows and exact box transfer; no report-update semantics",
+  "legacy_id": "ATTEMPT-KNOWLEDGE-ADMISSIBILITY-1080",
   "statement_ids": [
-    "STMT-KNOWLEDGE-ADMISSIBILITY-CERTIFICATE",
-    "STMT-MODAL-POSSIBILITY-TRANSFER",
-    "STMT-HUME-CONCEIVABILITY-TESTS",
-    "STMT-HISTORY-SELECTION-CERTIFICATE"
+    "0dcd6d2e-96a2-55e3-a098-8c2d13c5fee2",
+    "83f5fb38-7357-51dd-82ee-f167aac59758",
+    "9bbd9b83-6b79-503d-9448-af48d5d2bf6e",
+    "8cb72b43-74b2-5dad-ad9a-73eadae47602"
   ],
   "date": "2026-11-06",
   "kind": "countermodel",
   "outcome": "succeeded",
   "summary": "Reuse inventory found existing relational Knows and exact box transfer; no report-update semantics. Composed those instead of recreating transfer or generic HistorySelection fiber discrimination. A fixed actual Boolean pair, physical/phenomenal reports and epistemic update knows every predicate of the represented physical value, gains knowledge of the same initially unknown phenomenal equality, and survives both actual-relative supervenient and admitted-twin metaphysical profiles. The general law derives phenomenal knowledge from supervenience, known physical equality and E-to-M inclusion; applying initial ignorance derives inclusion failure in the survivor. Rejected learning-alone physicalism refutation, actual completeness from all predicates of an arbitrary projection, report difference as substance difference, and model satisfiability as metaphysical possibility. Strongest rival interpretations, exact reuse and limits persist in docs/notes/knowledge-admissibility-1080.md. No source acquisition/attribution or root-premise change.",
   "evidence": [
-    "KNOWLEDGE-ADMISSIBILITY-CERTIFICATE",
-    "MODAL-POSSIBILITY-TRANSFER"
+    "f8b7041e-4404-5a24-9130-2a49c300eca3",
+    "5aff626e-02c5-503d-b654-04d282304927"
   ],
   "blocker": "Actual complete physics, knowledge adequacy, ideal reflection/identity transparency, actual experience and metaphysical applicability remain OPEN; hyperintensional concept possession or acquaintance would require additional typed vocabulary."
 }

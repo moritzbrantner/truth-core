@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MEGARIAN-ACTUALIST-CAPACITY",
+  "id": "31eec35f-9321-575a-b961-126cb1fc5b89",
+  "label": "Megarian restriction of capacity to\u2026: MegarianAbilityOnlyWhenActingReading InAct CanBe is the\u2026",
+  "legacy_id": "DEF-MEGARIAN-ACTUALIST-CAPACITY",
   "term": "Megarian restriction of capacity to current act",
   "definition": "MegarianAbilityOnlyWhenActingReading InAct CanBe is the one-way thesis \u2200 x r, CanBe x r \u2192 InAct x r. The encoded thesis says ability implies current act; it does not assert the converse. In a configuration that also uses adopted potency CanBe\u2227\u00acInAct, this leaves nothing in adopted potency. Neither that consequence nor the adopted definition alone refutes the thesis; the existing motion argument requires additional premises.",
   "basis": "stipulative",

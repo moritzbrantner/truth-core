@@ -1,5 +1,7 @@
 {
-  "id": "STMT-EVERY-BECOMING-COMPOSITE",
+  "id": "6419bb3e-594f-51bd-864c-9e81474c91e6",
+  "label": "Everything that comes to be involves something that becomes and something it becomes; its source…",
+  "legacy_id": "STMT-EVERY-BECOMING-COMPOSITE",
   "paraphrase": "Everything that comes to be involves something that becomes and something it becomes; its source term can be analysed as the underlying subject or the opposed condition.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.EveryBecomingCompositeReading"
 }

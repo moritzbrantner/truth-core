@@ -1,12 +1,14 @@
 {
-  "id": "STMT-FITCH-MOORE-ADMISSIBLE",
+  "id": "534eb2da-165f-5bd5-9c51-da78e4e4e069",
+  "label": "The supplied admissible-content family contains the selected Moore conjunction",
+  "legacy_id": "STMT-FITCH-MOORE-ADMISSIBLE",
   "paraphrase": "The supplied admissible-content family contains the selected Moore conjunction.",
   "lean_declaration": "TruthCore.Logic.FitchKnowability.MooreAdmissible",
   "definition_ids": [
-    "DEF-FITCH-WORLD-INDEXED-KNOWLEDGE",
-    "DEF-FITCH-ADMISSIBLE-CONTENTS"
+    "4c0b6f4b-25fe-54c5-abce-5e866775385c",
+    "8cdd567b-c06b-5c6f-8a3a-f785e6c83fde"
   ],
   "disambiguation_ids": [
-    "DISAMB-FITCH-OPERATOR-SCOPE"
+    "840d320e-ed3b-553b-b0dd-750c61c298ba"
   ]
 }

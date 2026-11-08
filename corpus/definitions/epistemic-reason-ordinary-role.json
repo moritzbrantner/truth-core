@@ -1,5 +1,7 @@
 {
-  "id": "DEF-EPISTEMIC-REASON-ORDINARY-ROLE",
+  "id": "58ca78b4-33a8-5c4f-a3ee-e206d193f52a",
+  "label": "ORDINARY_EPISTEMIC_FAVORING_2: A consideration counts in favor of an attitude toward assessable…",
+  "legacy_id": "DEF-EPISTEMIC-REASON-ORDINARY-ROLE",
   "term": "ordinary epistemic favoring",
   "definition": "A consideration counts in favor of an attitude toward assessable content for a subject in relevant circumstances, with favorable bearing on answering correctly or being warranted in the answer. Mere causal production or reward does not supply that bearing by itself. Warrant may be defeasible and the favored answer false. This role can be interpreted within a chosen truth-directed project; it does not itself require preference-independent authority.",
   "basis": "stipulative",

@@ -1,14 +1,16 @@
 {
-  "id": "STMT-NO-MOVER-MOVES-ITSELF-IN-ITS-RESPECT",
+  "id": "2ed50036-3aa7-5209-9aa0-ced7675701da",
+  "label": "Whatever moves something in a respect is another thing than what it moves; since every moving is…",
+  "legacy_id": "STMT-NO-MOVER-MOVES-ITSELF-IN-ITS-RESPECT",
   "paraphrase": "Whatever moves something in a respect is another thing than what it moves; since every moving is in some respect, nothing moves itself in any respect. (An Aristotelian self-mover is a whole whose mover is a part.)",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.Typed.NoMoverMovesItselfInItsRespectReading",
   "definition_ids": [
-    "DEF-MOTION-AS-PHYSICAL-CHANGE",
-    "DEF-MOVING-ONESELF-IN-THE-SAME-RESPECT",
-    "DEF-RESPECT"
+    "ab0d1d6b-b777-51cc-ae11-c033081830e8",
+    "e13e749b-d266-5f18-bc50-59b340444c1f",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION",
-    "DISAMB-SELF-MOTION"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "aa925dce-cf10-535e-a9ef-a5a0f00a677f"
   ]
 }

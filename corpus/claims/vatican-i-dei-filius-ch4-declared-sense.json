@@ -1,7 +1,9 @@
 {
-  "id": "VATICAN-I-DEI-FILIUS-CH4-DECLARED-SENSE",
-  "statement_id": "STMT-DEI-FILIUS-DECLARED-SENSE-OF-DOGMA-RETAINED",
-  "source_id": "VATICAN-I-DEI-FILIUS",
+  "id": "cd268dff-ad1f-5a7d-a471-1f08c9655ea0",
+  "label": "First Vatican Council, Dei Filius Ch. 4…: Dei Filius ch. 4 and can",
+  "legacy_id": "VATICAN-I-DEI-FILIUS-CH4-DECLARED-SENSE",
+  "statement_id": "22bb1798-08d2-50f2-8a24-6300b22c7b69",
+  "source_id": "2dff7669-d6a1-57a6-b9ed-37a01156a636",
   "locator": "ch. 4, para. 5: Hinc sacrorum quoque dogmatum is sensus perpetuo est retinendus, quem semel declaravit Sancta Mater Ecclesia",
   "interpretation": "Ch. 4, last paragraph: the doctrine of faith is not proposed 'velut philosophicum inventum' to be perfected by human minds but as a divine deposit to be guarded and declared infallibly; 'Hinc sacrorum quoque dogmatum is sensus perpetuo est retinendus, quem semel declaravit Sancta Mater Ecclesia, nec umquam ab eo sensu, altior intelligentiae specie et nomine, recedendum.' The remark is about dogmas, i.e. what the Church declares as revealed; it does not list which canons are dogmas.",
   "status": "formalized",

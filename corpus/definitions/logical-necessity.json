@@ -1,5 +1,7 @@
 {
-  "id": "DEF-LOGICAL-NECESSITY",
+  "id": "f7b80cb6-a233-5525-bb2b-ed5996a6099d",
+  "label": "LOGICALLY_NECESSARY_3: A proposition is LOGICALLY_NECESSARY_3 when its denial is contradictory",
+  "legacy_id": "DEF-LOGICAL-NECESSITY",
   "term": "logically necessary",
   "definition": "A proposition is logically necessary when its denial is contradictory. A being whose non-existence would be contradictory would be 'necessary' in this sense.",
   "basis": "stipulative",

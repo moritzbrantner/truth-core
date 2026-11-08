@@ -1,20 +1,22 @@
 {
-  "id": "SELF-OPERATING-LIVES-FROM-PRESENT-OPERATION",
+  "id": "da46291c-d7b1-5ade-ba19-9259dfd89e69",
+  "label": "Whatever operates from itself and is moved in no respect lives at some…, from present operation",
+  "legacy_id": "SELF-OPERATING-LIVES-FROM-PRESENT-OPERATION",
   "premise_statement_ids": [
-    "STMT-SELF-OPERATION-PRESENT-AT-SOME-TIME",
-    "STMT-OPERATING-FROM-ITSELF-IS-LIVING"
+    "ce1ed1ad-9a30-5ba6-a6d8-d264a52169ee",
+    "feb2967b-1e3d-5983-8332-d77490cdecca"
   ],
-  "conclusion_statement_id": "STMT-SELF-OPERATING-UNMOVED-LIVES",
+  "conclusion_statement_id": "38aa1327-b28a-5ac8-b70d-6b2fdbedf554",
   "inference_ids": [
-    "INF-SELF-OPERATING-LIVES-FROM-PRESENT-OPERATION"
+    "37de75b4-0a8f-540b-b89c-bdf0858ad2ef"
   ],
   "meaning": "Whatever operates from itself and is moved in no respect lives at some time, through the timed predicate OperatesFromItselfAt: the self-operation is present at some time (OPEN), and operating from itself at a time is living at it (OPEN q.18 a.2 reading). The unmoved clause of the conclusion is not used: under these two premises every self-operating thing lives, which is a strictly stronger conclusion.",
   "definition_ids": [
-    "DEF-LIFE-PRESENT-AT",
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-OPERATES-FROM-ITSELF-AT"
+    "42635e18-7288-5194-88b7-02dda6aa0477",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "e5ca09aa-c0f2-5784-8c28-eb9c1ccc6fec"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
   ]
 }

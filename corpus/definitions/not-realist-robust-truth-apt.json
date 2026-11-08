@@ -1,5 +1,7 @@
 {
-  "id": "DEF-NOT-REALIST-ROBUST-TRUTH-APT",
+  "id": "6881cf55-b93a-5a81-9610-fd3aad5e2ac9",
+  "label": "Failure of universal robust moral…: NotRealistRobustTruthApt Moral Robust is exactly the negation…",
+  "legacy_id": "DEF-NOT-REALIST-ROBUST-TRUTH-APT",
   "term": "failure of universal robust moral truth-aptness",
   "definition": "NotRealistRobustTruthApt Moral Robust is exactly the negation of the existing RealistRobustTruthAptReading under the same predicates. It is not identified with the stronger raw quasi-realist commitment, which additionally asserts minimal aptness and may hold vacuously with no moral contents.",
   "basis": "stipulative",

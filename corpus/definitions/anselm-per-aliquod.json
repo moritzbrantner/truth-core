@@ -1,9 +1,11 @@
 {
-  "id": "DEF-ANSELMIAN-PER-ALIQUOD",
+  "id": "5703c52a-6dc5-5bea-9e40-4f82329580da",
+  "label": "EXISTING_THROUGH_SOMETHING_1: The original per aliquid / per aliquod locution concerns that through…",
+  "legacy_id": "DEF-ANSELMIAN-PER-ALIQUOD",
   "term": "existing through something",
   "definition": "The original per aliquid / per aliquod locution concerns that through which something has being. Chapter3 contrasts this with per nihil, while chapters5–6 distinguish material, efficient and instrumental senses and self-existence. It is not uniformly distinct efficient causation, modal necessity or the existing actual-concrete grounds relation.",
   "basis": "sourced",
   "claim_ids": [
-    "ANSELM-EVERY-EXISTENT-PER-ALIQUOD"
+    "fd87359c-ca4d-562c-8f91-61dd78689c4a"
   ]
 }

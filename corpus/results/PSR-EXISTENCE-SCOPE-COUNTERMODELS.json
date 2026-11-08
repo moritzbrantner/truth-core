@@ -1,6 +1,8 @@
 {
-  "id": "PSR-EXISTENCE-SCOPE-COUNTERMODELS",
-  "argument_id": "PSR-EXISTENCE-SCOPE-COUNTERMODELS",
+  "id": "0fa6505d-d25d-5276-a89a-8f705a61018c",
+  "label": "Two finite, universally accessible, explanation-sound models separate the commitments: every…",
+  "legacy_id": "PSR-EXISTENCE-SCOPE-COUNTERMODELS",
+  "argument_id": "26355158-9b89-5942-8a4c-59a072836f29",
   "challenge_module": "TruthCore.Results.Explanation.PSRScope.Challenge",
   "solution_module": "TruthCore.Results.Explanation.PSRScope.Solution",
   "theorem": "TruthCore.Results.Explanation.PSRScope.psrScopeBoundary",

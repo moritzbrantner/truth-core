@@ -1,6 +1,8 @@
 {
-  "id": "ACTUAL-ROOTS-WITHOUT-LIMITING-PRINCIPLE",
-  "argument_id": "ACTUAL-ROOTS-WITHOUT-LIMITING-PRINCIPLE",
+  "id": "359906e4-9ca9-5779-9c37-2fe858b957d1",
+  "label": "Every actual concrete root of the…, from Excluded middle as a general principle… and 7 more",
+  "legacy_id": "ACTUAL-ROOTS-WITHOUT-LIMITING-PRINCIPLE",
+  "argument_id": "d154f88d-170d-5f02-be87-b02a0f813527",
   "challenge_module": "TruthCore.Results.Causality.RootPurity.Challenge",
   "solution_module": "TruthCore.Results.Causality.RootPurity.Solution",
   "theorem": "TruthCore.Results.Causality.RootPurity.rootsWithoutLimitingPrinciple",

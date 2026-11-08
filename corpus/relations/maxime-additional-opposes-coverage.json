@@ -1,9 +1,11 @@
 {
-  "id": "REL-MAXIME-ADDITIONAL-OPPOSES-COVERAGE",
+  "id": "10671ac6-e200-5903-b7c8-a685fbfbec6c",
+  "label": "All three supplied superlative… alternative to The primitive superlative has the…",
+  "legacy_id": "REL-MAXIME-ADDITIONAL-OPPOSES-COVERAGE",
   "subject_kind": "statement",
-  "subject_id": "STMT-MAXIME-ADDITIONAL-DEFINITION",
+  "subject_id": "eb8f8358-efc6-5fb5-ae4a-76158161c00d",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-MAXIME-NAMED-DEFINITIONS-COVER",
+  "object_id": "675b22e7-a29e-579a-8626-ffaefdbfae7b",
   "note": "Precise failure of all named calibration candidates, not a denial of greatest-degree causation or of the root thesis."
 }

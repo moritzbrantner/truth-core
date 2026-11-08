@@ -1,19 +1,21 @@
 {
-  "id": "HUME-NO-MUTUAL-CAUSE-FROM-NO-LOOPS",
+  "id": "ad08fa58-6e88-5a6b-af75-d3a397950675",
+  "label": "Nothing is both the cause and the effect of another thing: for distinct x and y, x…, from no loops",
+  "legacy_id": "HUME-NO-MUTUAL-CAUSE-FROM-NO-LOOPS",
   "premise_statement_ids": [
-    "STMT-CAUSAL-HISTORY-HAS-NO-LOOPS"
+    "37e9e7a0-2385-5e08-9ef9-f793b5ceb936"
   ],
-  "conclusion_statement_id": "STMT-HUME-NO-MUTUAL-CAUSE",
+  "conclusion_statement_id": "c3ace4b2-f43b-5085-8bb1-bd057386eadd",
   "inference_ids": [
-    "INF-HUME-NO-MUTUAL-CAUSE-FROM-NO-LOOPS"
+    "dbf76dda-d3e2-5ef9-91fd-c459e02ec3f1"
   ],
   "meaning": "The root-path premise STMT-CAUSAL-HISTORY-HAS-NO-LOOPS entails Hume's asymmetry maxim STMT-HUME-NO-MUTUAL-CAUSE (Treatise I.3.6 §7, claim HUME-TREATISE-I-3-6-NO-MUTUAL-CAUSE-A) for the same relation: two mutual causal edges would be a nonempty finite path returning to its start. notConverse shows the maxim is strictly weaker: it holds for a self-cause and for a three-step cycle on Fin 3, neither of which satisfies the premise. So Hume attests a consequence of the premise, not the premise: the premise stays open and is not supported by this result. The entailment is relation-generic and identifies Hume's relation with the case's supplied causal relation nowhere (DISAMB-HUME-MAXIM-RELATION).",
   "definition_ids": [
-    "DEF-CAUSAL-HISTORY-NO-LOOPS",
-    "DEF-HUME-CAUSE-EFFECT-RELATION"
+    "7243dd39-f7f9-596e-9be4-e8b3b4c8aacd",
+    "6b2ff599-ffe3-5b41-9ed6-cb8cb3ea1cc2"
   ],
   "disambiguation_ids": [
-    "DISAMB-HUME-MAXIM-RELATION",
-    "DISAMB-FINITE-HISTORY-AND-PER-SE-REGRESS"
+    "f36cbfad-6953-53dc-820e-d7aad0efe094",
+    "bedfab81-905c-5d1a-b834-e20b8007b3da"
   ]
 }

@@ -1,12 +1,14 @@
 {
-  "id": "STMT-PLATONIC-PHAEDO-101D-HYPOTHESIS",
+  "id": "ce65a71f-3e46-5846-80eb-301bc5c73593",
+  "label": "Consequences of a hypothesis are examined for agreement before giving an account of the hypothesis…",
+  "legacy_id": "STMT-PLATONIC-PHAEDO-101D-HYPOTHESIS",
   "paraphrase": "Consequences of a hypothesis are examined for agreement before giving an account of the hypothesis by a higher one; Forms and denomination through participation are agreed as hypotheses, not proved by that agreement.",
   "definition_ids": [
-    "DEF-PLATONIC-FORM",
-    "DEF-PLATONIC-PARTICIPATION"
+    "3336e0be-5be8-5c69-b54a-7a7bb29e1db9",
+    "8504bbdf-329b-5e23-9d12-0faf94e00914"
   ],
   "disambiguation_ids": [
-    "DISAMB-PLATONIC-FORM",
-    "DISAMB-PLATONIC-PARTICIPATION"
+    "54952044-0e39-566c-a88d-e5c9b95021fb",
+    "58a69964-25a1-53d2-a65d-660ed3a0cf4c"
   ]
 }

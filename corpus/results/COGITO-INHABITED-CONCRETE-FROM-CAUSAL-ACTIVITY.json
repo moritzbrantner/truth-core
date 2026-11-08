@@ -1,6 +1,8 @@
 {
-  "id": "COGITO-INHABITED-CONCRETE-FROM-CAUSAL-ACTIVITY",
-  "argument_id": "COGITO-INHABITED-CONCRETE-FROM-CAUSAL-ACTIVITY",
+  "id": "c1ecaa30-0bae-5159-a0a2-442407b6e295",
+  "label": "Some candidate is CONCRETE_6 and exists at the selected world w₀: ∃ b…, from causal activity",
+  "legacy_id": "COGITO-INHABITED-CONCRETE-FROM-CAUSAL-ACTIVITY",
+  "argument_id": "4fbd7594-4e73-557f-9e17-bd39b749f6af",
   "challenge_module": "TruthCore.Results.Causality.Round4Revisited.Challenge",
   "solution_module": "TruthCore.Results.Causality.Round4Revisited.Solution",
   "theorem": "TruthCore.Results.Causality.Round4Revisited.inhabitedFromProduction",

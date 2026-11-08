@@ -1,23 +1,25 @@
 {
-  "id": "NATURALISM-PURE-SET-REPRESENTATIVES-UNLOCATED",
+  "id": "7651bcd6-eeca-55eb-b72e-5136c283cd13",
+  "label": "Every right-summand pure-set representative is…, from Every located set representative has a…",
+  "legacy_id": "NATURALISM-PURE-SET-REPRESENTATIVES-UNLOCATED",
   "premise_statement_ids": [
-    "STMT-SET-LOCATION-HAS-MEMBER-SUPPORT"
+    "bcbfc8d8-eb60-5111-bc5b-d33c76492a5e"
   ],
-  "conclusion_statement_id": "STMT-SET-REPRESENTATIVES-UNLOCATED",
+  "conclusion_statement_id": "2241e28f-8662-5fec-a475-b242932c13b6",
   "inference_ids": [
-    "INF-NATURALISM-PURE-SET-REPRESENTATIVES-UNLOCATED"
+    "b56c3a27-4585-5476-abc6-f3d50a3fb321"
   ],
   "meaning": "Use Mathlib.ZFSet.inductionOn on the actual interpreted pure set. Reverse support at a located representative supplies a located representative of a strict member; the induction hypothesis excludes it. No full representative closure or injectivity is needed. This is conditional on the supplied location support rule.",
   "definition_ids": [
-    "DEF-NATURALISM-N1",
-    "DEF-SPATIOTEMPORAL-FRAME",
-    "DEF-SPATIOTEMPORAL-LOCATED",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-NATURALISM-SET-REPRESENTATIVES",
-    "DEF-SET-LOCATION-MEMBER-SUPPORT",
-    "DEF-MEMBER-CONFERS-SET-LOCATION"
+    "1d25373b-7781-5177-add3-337874b8670b",
+    "e9e031af-665e-5888-9328-f7637b5a2677",
+    "ddde7152-b698-5a85-8060-b8c6c9905758",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "724bf396-ab5d-51da-b750-4bbc244d4f32",
+    "792ff3b6-9a4e-5352-a802-d80e30eff0cb",
+    "d9c0e27f-e5b0-5cda-bdfb-bd20a4233f64"
   ],
   "disambiguation_ids": [
-    "DISAMB-SPATIOTEMPORAL"
+    "1ea8b036-7a66-540a-be38-301a8db9077c"
   ]
 }

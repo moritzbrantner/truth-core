@@ -1,9 +1,11 @@
 {
-  "id": "INF-TEACHING-INCLUSIVE-INSTITUTION-LINK-STRENGTHENS-NARROW",
+  "id": "7fec096c-3e06-57e7-965f-d2112d0ea798",
+  "label": "For any being g: if Jesus holds a mandate from g and founded the Catholic…, by Constructive-proof",
+  "legacy_id": "INF-TEACHING-INCLUSIVE-INSTITUTION-LINK-STRENGTHENS-NARROW",
   "input_statement_ids": [
-    "STMT-CHURCH-TEACHING-INCLUSIVE-INSTITUTION-LINK"
+    "df89b45e-7e15-5063-85f4-d55fe99a2afb"
   ],
-  "output_statement_id": "STMT-CHURCH-FOUNDED-IN-COMMISSIONED-APOSTLES",
+  "output_statement_id": "820771a7-1173-510f-88ec-445b203fb1fd",
   "rule": "constructive-proof",
   "meaning": "The literal fixed broader bridge applies to every old narrow governing power by left-disjunct injection. Its only premise is the stronger link; the nonempty mismatch model proves the reverse is invalid.",
   "assumption_statement_ids": [],

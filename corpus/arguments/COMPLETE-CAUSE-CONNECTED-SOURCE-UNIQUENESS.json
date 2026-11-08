@@ -1,30 +1,32 @@
 {
-  "id": "COMPLETE-CAUSE-CONNECTED-SOURCE-UNIQUENESS",
+  "id": "a4ac5598-c36d-5a92-8387-caa10b047ffe",
+  "label": "Any two graph-relative sources are…, from Every complete producer of an effect is a… and 2 more",
+  "legacy_id": "COMPLETE-CAUSE-CONNECTED-SOURCE-UNIQUENESS",
   "premise_statement_ids": [
-    "STMT-COMPLETE-PRODUCER-PARTICIPATES",
-    "STMT-COMPLETE-CAUSE-COVERS-CONTRIBUTORS",
-    "STMT-SOURCE-FOREST-WEAKLY-CONNECTED"
+    "9cfaf9de-46cd-5a40-b23d-457e39b9d1a1",
+    "55d1d0e7-f1b6-522b-9bf4-0514c998a828",
+    "eb88842a-1dc7-5632-a0e0-556eec39864a"
   ],
-  "conclusion_statement_id": "STMT-SOURCE-FOREST-AT-MOST-ONE-SOURCE",
+  "conclusion_statement_id": "861e20d6-7d65-5856-85cf-0cd0d0c167f3",
   "inference_ids": [
-    "INF-COMPLETE-CAUSE-CONNECTED-SOURCE-UNIQUENESS"
+    "daeeff09-7867-5115-a5b9-c21cca0cd5f6"
   ],
   "meaning": "Existing-theorem assembly on the SAME complete-production graph G. CompleteCauseContributorCover.uniqueCause derives incoming complete-cause uniqueness from the two participant policies and ambient object-parthood antisymmetry. This is exactly the existing SourceForest.UniquePredecessor input after explicit binder conversion. Import SourceForest.atMostOne with retained OPEN WeaklyConnected G to conclude the existing AtMostOneSource G. Connectivity means finite undirected paths of COMPLETE-PRODUCTION edges, not parthood or contributor membership. The conclusion permits no source or an empty carrier: no population, source existence, necessity, substance unity or actual grounding adequacy is supplied. Aggregation alone does not establish the retained connectivity.",
   "definition_ids": [
-    "DEF-SOURCE-FOREST-CONSTRAINTS",
-    "DEF-REGRESS-SCHEMA-GRAPH",
-    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
-    "DEF-FINITE-CAUSAL-PATH",
-    "DEF-COMPLETE-PRODUCER-PARTICIPATION",
-    "DEF-ATOMIC-OBJECT-DOMAIN",
-    "DEF-COMPLETE-OBJECT-CAUSATION",
-    "DEF-UNIVERSAL-FUSION-PROFILE",
-    "DEF-COMPLETE-CAUSE-CONTRIBUTOR-COVER"
+    "f64856c0-6d2c-5c5d-97ef-9895039d8c27",
+    "1dff2d68-1348-5e7e-8ee7-248af63c8c53",
+    "7439c292-82a4-530d-8144-a61a6c21f502",
+    "822c9912-2313-584b-b2b7-77031da20107",
+    "e7f5e58a-1199-5c33-912c-09a87ef554c4",
+    "3f1eca4b-fc8c-5a3b-ad71-ecb2ebc9bd13",
+    "974180e2-5483-50af-b946-044088d6f8b7",
+    "9ec56dce-572e-5230-8247-6b3e994cb98a",
+    "a1834cd3-abaa-55f4-aeb4-195bc964c472"
   ],
   "disambiguation_ids": [
-    "DISAMB-REGRESS-DOMAINS",
-    "DISAMB-CAUSAL-POWER-GROUNDING",
-    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
-    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE"
+    "34ddfede-ff4d-59ad-9882-4bcb490df9bb",
+    "4b02d34a-9226-5009-9ac2-3b52f4222b21",
+    "637c53a7-2616-5c34-aa9a-9f7dd880eaed",
+    "70af59cf-0351-5332-9c89-b80231412529"
   ]
 }

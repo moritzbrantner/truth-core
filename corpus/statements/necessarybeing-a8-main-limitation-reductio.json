@@ -1,15 +1,17 @@
 {
-  "id": "STMT-NB-A8-MAIN-LIMITATION-REDUCTIO",
+  "id": "ff6f984c-82d2-5c6e-9a70-b95f05aba59c",
+  "label": "With the selected nonlimiting-powerful-Necessary-Being and limiting-possible-nonexistence reports…",
+  "legacy_id": "STMT-NB-A8-MAIN-LIMITATION-REDUCTIO",
   "paraphrase": "With the selected nonlimiting-powerful-Necessary-Being and limiting-possible-nonexistence reports, the source supposes no Necessary Being possible. Inside that scope it says concrete existence entails possible nonexistence, explicitly asserts at4 that any property entailing a limiting property is itself limiting, and concludes concrete existence limiting. It also says powerful Necessary Being entails causal concreteness, applies the same backward limitation closure and contradicts the negative report. Only10–11 discharge possible Necessary Being. Hypothetical concrete-limitation classifications are not exported; actual existence, a rigid necessary individual or independent truth of the reports is not established.",
   "definition_ids": [
-    "DEF-NB-A8-MODAL-PROPERTY-ENTAILMENT",
-    "DEF-NB-A8-LIMITING-PROPERTY",
-    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
-    "DEF-NB-SURVEY-NECESSARY-BEING",
-    "DEF-NB-A2-CONCRETE-CAUSE-CAPABLE"
+    "45cb47e4-168c-5bb7-baf8-b659632a396e",
+    "93ea01f7-a699-582c-9b57-0678c1396b4c",
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0",
+    "7fde5dc0-6ca7-5ce6-a2e1-571acfd15dcf",
+    "88bd1ef6-cb47-5707-ae9a-23537290aea9"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A8-LIMITATION-AND-ENTAILMENT",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "125551eb-8b03-5b3d-ae85-66909c3f42b7",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

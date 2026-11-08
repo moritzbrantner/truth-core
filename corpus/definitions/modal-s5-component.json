@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MODAL-S5-COMPONENT",
+  "id": "373312c4-9420-52fa-8590-0a77cdf956a4",
+  "label": "One universal accessibility component: Universal F means every supplied world accesses every other…",
+  "legacy_id": "DEF-MODAL-S5-COMPONENT",
   "term": "one universal accessibility component",
   "definition": "Universal F means every supplied world accesses every other supplied world. It is stronger than being S5 and is the explicit premise for conclusions about all labels, rather than only the root component.",
   "basis": "stipulative",

@@ -1,10 +1,12 @@
 {
-  "id": "INF-COLLECTIVE-POSSIBILITY-FAILS-FROM-DECIDING-INPUTS",
+  "id": "0d37b838-aea7-52e8-ace4-e358bcb84315",
+  "label": "Exact negation of the original AllCanNotBeThenNothingPossibleReading on the…, by Constructive-proof",
+  "legacy_id": "INF-COLLECTIVE-POSSIBILITY-FAILS-FROM-DECIDING-INPUTS",
   "input_statement_ids": [
-    "STMT-PROFILE-EACH-BEING-CAN-NOT-BE",
-    "STMT-PROFILE-COMMON-ABSENCE-NOT-POSSIBLE"
+    "ed9ec5fd-66ed-5ef0-aa7b-07522588d8f1",
+    "4a593099-7141-53b0-bd47-7b4bac10f779"
   ],
-  "output_statement_id": "STMT-COLLECTIVE-POSSIBILITY-FAILS",
+  "output_statement_id": "dbd03eab-fccb-5f7d-8891-7fe2431863eb",
   "rule": "constructive-proof",
   "meaning": "Individual possible absences plus impossibility of joint absence contradict the original collective conditional under the SAME semantics. No bare proof-method failure is used.",
   "assumption_statement_ids": [],

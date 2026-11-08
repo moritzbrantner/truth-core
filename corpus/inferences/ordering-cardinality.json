@@ -1,7 +1,9 @@
 {
-  "id": "INF-ORDERING-CARDINALITY",
+  "id": "6ba5f2b9-a8cc-5fc9-8b49-15c8c55829f6",
+  "label": "The bijective enumerations of a fixed Nat-labeled roster have cardinality…, by Direct-proof",
+  "legacy_id": "INF-ORDERING-CARDINALITY",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-LABELED-ORDERING-CARDINALITY",
+  "output_statement_id": "45e7afce-a7d3-5819-8188-3b397844aa37",
   "rule": "direct-proof",
   "meaning": "Compose Mathlib Cardinal.mk_perm_eq_two_power, Cardinal.mk_nat and Cardinal.cantor. Prove injectivity of transported strict omega orders by the identity of increasing inverse maps on Nat, then count their range. No premise about real causes or explanatory obligation is assumed.",
   "assumption_statement_ids": [],

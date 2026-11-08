@@ -1,7 +1,9 @@
 {
-  "id": "INF-STRENGTH-CAUSE-MIXED-CONTROL",
+  "id": "e93c5dad-ccfe-5493-bcc2-c16715459baf",
+  "label": "The Bool relation containing every pair satisfies the local…, by Typed strength comparison",
+  "legacy_id": "INF-STRENGTH-CAUSE-MIXED-CONTROL",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-CAUSE-READINGS-MIXED-SELF-OTHER-CONTROL",
+  "output_statement_id": "37a30813-659f-58e6-8f44-376c122bc6a7",
   "rule": "typed_strength_comparison",
   "meaning": "The all-pairs Bool control satisfies D while admitting self-causation; D is not global irreflexivity.",
   "assumption_statement_ids": [],

@@ -1,7 +1,9 @@
 {
-  "id": "INF-BRUTE-ROOT-DISJUNCTION",
+  "id": "2de7d54c-85f3-5795-b704-f9f33b7460ba",
+  "label": "For any selected actual world and fixed, rigid candidate-individual carrier: if…, by Direct-proof",
+  "legacy_id": "INF-BRUTE-ROOT-DISJUNCTION",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-BRUTE-ROOT-DISJUNCTION",
+  "output_statement_id": "df62ec24-4a65-5030-8354-4aa08414ab74",
   "rule": "direct-proof",
   "meaning": "Structural proof via well-founded predecessor induction and classical case analysis: extract an actual minimal concrete individual; if it is not contingent, it witnesses necessary existence; otherwise it witnesses a brute concrete grounding root. If the relation is not well-founded, the other disjunct holds. All conditions are in the quantified theorem, with no asserted premise of actual-world well-foundedness or contingency.",
   "assumption_statement_ids": [],

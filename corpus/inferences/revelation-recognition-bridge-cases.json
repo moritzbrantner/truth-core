@@ -1,9 +1,11 @@
 {
-  "id": "INF-REVELATION-RECOGNITION-BRIDGE-CASES",
+  "id": "c7734cb3-2d11-5915-9ee4-45506fb21221",
+  "label": "Either capability is realized correctly in an admitted situation and…, by Constructive-proof",
+  "legacy_id": "INF-REVELATION-RECOGNITION-BRIDGE-CASES",
   "input_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-RECOGNITION-BRIDGE-CASES-COVER",
+  "output_statement_id": "e0785994-aceb-5d99-8e72-08233936a932",
   "rule": "constructive-proof",
   "meaning": "Explicit EM separates successful admitted realization/sharedness from failure of either bridge. No named philosophical definition, bridge adequacy or exhaustive real-possibility domain is established.",
   "assumption_statement_ids": [],

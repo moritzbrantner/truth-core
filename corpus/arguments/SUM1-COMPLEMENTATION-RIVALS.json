@@ -1,23 +1,25 @@
 {
-  "id": "SUM1-COMPLEMENTATION-RIVALS",
+  "id": "a17aaffa-6ce2-55a1-a63f-7ca90b10ad1c",
+  "label": "One fixed three-atoms-plus-top order has strong supplementation and Sum1 for every nonempty Set…",
+  "legacy_id": "SUM1-COMPLEMENTATION-RIVALS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-SUM1-COMPLEMENTATION-RIVALS",
+  "conclusion_statement_id": "f63c2b0e-3a45-53a5-a052-f41b7b9f660d",
   "inference_ids": [
-    "INF-SUM1-COMPLEMENTATION-RIVALS"
+    "f94c08f6-8592-5275-8272-39695b21cd6b"
   ],
   "meaning": "The same JoinRival jointly satisfies strong supplementation and every nonempty-family Sum1, while its top join of a,b contains a third disjoint atom and no Sum2 of a,b exists. Its missing top-minus-atom exact remainder refutes complementation. AtomPair jointly satisfies exact complementation but has no upper bound, hence neither Sum1 nor Sum2, for its pair. Both orders lack a null object. The all-family assertion is proved for arbitrary Sets, not merely sample families. This does not certify actual physical or metaphysical possibilities.",
   "definition_ids": [
-    "DEF-UNIVERSAL-FUSION-PROFILE",
-    "DEF-UNIVERSAL-FUSION-DOMAIN",
-    "DEF-MEREOLOGICAL-COMPLEMENTATION",
-    "DEF-SUM1-LEAST-UPPER-BOUND",
-    "DEF-SUM1-FUSION-COMPARISON",
-    "DEF-SUM1-COMPLEMENTATION-RIVALS",
-    "DEF-MEREOLOGICAL-SUPPLEMENTATION",
-    "DEF-OVERLAP-EXTENSIONAL-PARTHOOD"
+    "9ec56dce-572e-5230-8247-6b3e994cb98a",
+    "094da9ef-9edb-5e88-8b7b-2eb87488e90d",
+    "700326c9-b157-5670-8ed5-9b4044581d41",
+    "82e3885b-a845-5116-949e-07cb05353bf7",
+    "df456768-b94c-5d3c-bc01-0e312e8e7701",
+    "6e29b2d3-b298-516b-a08a-8d6adfcb3a94",
+    "491073fa-38af-5d98-a6b8-77bf9c472525",
+    "6f09b078-c49b-5dc5-b7a8-524fdded7dc5"
   ],
   "disambiguation_ids": [
-    "DISAMB-SUM1-AND-SUM2-FUSION",
-    "DISAMB-EXACT-REMAINDER-AND-SUPPLEMENT"
+    "93b2e596-3c96-52d3-9d5e-820dc82e5471",
+    "1cf6af1c-c1c6-544d-a6a7-7060d7aebd8f"
   ]
 }

@@ -1,6 +1,8 @@
 {
-  "id": "PARM-GROUND-REPLY",
-  "argument_id": "PARM-GROUND-REPLY",
+  "id": "2630ed36-fb51-5419-9e26-2292a02c327b",
+  "label": "A non-vacuous finite interpretation has independent non-inherent Forms explaining a particular…",
+  "legacy_id": "PARM-GROUND-REPLY",
+  "argument_id": "320bd2af-2fdb-54d1-9bbc-32bdbacd47d0",
   "challenge_module": "TruthCore.Results.Greek.Plato.Parmenides.GroundReply.Challenge",
   "solution_module": "TruthCore.Results.Greek.Plato.Parmenides.GroundReply.Solution",
   "theorem": "TruthCore.Results.Greek.Plato.Parmenides.GroundReply.groundReply",

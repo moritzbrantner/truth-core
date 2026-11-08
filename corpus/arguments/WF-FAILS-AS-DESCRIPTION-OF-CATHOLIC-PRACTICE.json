@@ -1,27 +1,29 @@
 {
-  "id": "WF-FAILS-AS-DESCRIPTION-OF-CATHOLIC-PRACTICE",
+  "id": "20ce0d06-e4b0-502d-a35b-7295e1bba4de",
+  "label": "WITTGENSTEINIAN_FIDEISM_2 in its…, from In the Catholic practice, the First Vatican… and 2 more",
+  "legacy_id": "WF-FAILS-AS-DESCRIPTION-OF-CATHOLIC-PRACTICE",
   "premise_statement_ids": [
-    "STMT-DEI-FILIUS-DEFINES-NATURAL-KNOWABILITY-OF-GOD",
-    "STMT-CONCILIAR-DEFINITION-IS-PRACTICE-OWN-STANDARD",
-    "STMT-NATURAL-REASON-IS-SHARED-REASON"
+    "e18b3b90-33fa-5155-bd0e-6560a9fe98b8",
+    "b247cea8-0b8a-5e19-8c47-5f100c1820c8",
+    "c87ffcb8-9a44-5e02-a68b-13d0282ae930"
   ],
-  "conclusion_statement_id": "STMT-WF-FAILS-AS-DESCRIPTION-OF-CATHOLIC-PRACTICE",
+  "conclusion_statement_id": "ab44c097-2930-52a8-b10b-df447c8c6738",
   "inference_ids": [
-    "INF-WF-FAILS-AS-DESCRIPTION-OF-CATHOLIC-PRACTICE"
+    "070496a4-c6ec-565f-b179-da26f130c182"
   ],
   "meaning": "Defeat by consequence (#1007 method; owner direction 2026-11-05 on #1010), conditional on three open premises. Wittgensteinian fideism in its sharp form has two commitments: the practice's own standards fix its correct moves (STMT-WF-RELIGION-INTERNAL-GRAMMAR) and no correct religious move answers to reason shared with outsiders (STMT-WF-RELIGION-CUT-OFF-FROM-SHARED-REASON). The Catholic practice's own council defines, condemning the denial, that God can be known with certainty from created things by the natural light of reason (STMT-DEI-FILIUS-DEFINES-NATURAL-KNOWABILITY-OF-GOD, stated by can. II.1). With the open bridges that conciliar definitions are the practice's own standards (STMT-CONCILIAR-DEFINITION-IS-PRACTICE-OWN-STANDARD) and that the council's natural reason is shared reason (STMT-NATURAL-REASON-IS-SHARED-REASON), the pair is inconsistent: by the fideist's own internality the defined move is correct, and by the cut-off thesis it is not. So, given the two open bridges, the community's own rule shows that the sharp fideist description misdescribes the Catholic game. The three premises are inclusion-minimal (needsCouncil, needsDefinitionIsOwnStandard, needsNaturalReasonIsShared in the Comparator config), and the fideist bundle alone is consistent (WF-CONSISTENT). Scope: it refutes nothing about other practices, about Phillips's weaker 'not generally' thesis (STMT-PHILLIPS-RELIGION-NOT-GENERALLY-CONCLUSION) or about minimalism, which allows outside evidence (STMT-MINIMALISM-ALLOWS-EXTERNAL-EVIDENCE); it attributes neither fideist commitment to Wittgenstein. No premise is established, so under #999 no refutes relation is recorded.",
   "definition_ids": [
-    "DEF-WITTGENSTEINIAN-FIDEISM",
-    "DEF-CORRECT-MOVE-IN-PRACTICE",
-    "DEF-PRACTICE-OWN-STANDARD",
-    "DEF-CONCILIAR-DEFINITION",
-    "DEF-NATURAL-REASON-SHARED"
+    "8c86d489-cd62-5d8e-9207-2d846caf9c14",
+    "d4a6e314-ca7b-563f-b2ef-8a855db8597b",
+    "ac3fa095-8fa2-50d5-8c86-8352f0c27a6e",
+    "a80131d4-c041-5aa0-a122-0bfea7c0e2fa",
+    "11d72af9-f562-5ef0-934e-556e0a6dcb83"
   ],
   "disambiguation_ids": [
-    "DISAMB-NATURAL-REASON",
-    "DISAMB-THEOLOGICAL-FORMULATION-AND-NORMATIVE-GRAMMAR"
+    "acb50043-141e-546e-b296-4601bae89bec",
+    "a303de75-42db-5f10-afea-036fbc222162"
   ],
   "strong_version_needed": {
-    "STMT-DEI-FILIUS-DEFINES-NATURAL-KNOWABILITY-OF-GOD": "The original cut-off derivation/authority branch needs the same actual move to be both Defined and natural-knowability: Defined supplies own-standard endorsement/correctness through the definition bridge, while natural content supplies shared reason. The weak merely-natural witness omits Defined, and the weak merely-Defined witness omits natural content; separate existential witnesses do not identify the same move. The original interface therefore retains the joint defined-natural witness."
+    "e18b3b90-33fa-5155-bd0e-6560a9fe98b8": "The original cut-off derivation/authority branch needs the same actual move to be both Defined and natural-knowability: Defined supplies own-standard endorsement/correctness through the definition bridge, while natural content supplies shared reason. The weak merely-natural witness omits Defined, and the weak merely-Defined witness omits natural content; separate existential witnesses do not identify the same move. The original interface therefore retains the joint defined-natural witness."
   }
 }

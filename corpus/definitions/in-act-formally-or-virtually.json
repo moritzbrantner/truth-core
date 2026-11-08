@@ -1,5 +1,7 @@
 {
-  "id": "DEF-IN-ACT-FORMALLY-OR-VIRTUALLY",
+  "id": "115f23e3-2a19-5dcb-bc7f-96408004f110",
+  "label": "In act formally or virtually: A thing is in act in a perfection, inclusively, when it is in act in…",
+  "legacy_id": "DEF-IN-ACT-FORMALLY-OR-VIRTUALLY",
   "term": "in act formally or virtually (inclusive)",
   "lean_declaration": "TruthCore.Causality.TermSenseForks.ActFrame.InActFormallyOrVirtually",
   "basis": "stipulative",

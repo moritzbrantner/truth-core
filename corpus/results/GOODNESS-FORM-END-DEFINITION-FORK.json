@@ -1,6 +1,8 @@
 {
-  "id": "GOODNESS-FORM-END-DEFINITION-FORK",
-  "argument_id": "GOODNESS-FORM-END-DEFINITION-FORK",
+  "id": "0cae0563-0ac2-5c3f-81e9-7493d4dc3894",
+  "label": "For every fixed typed form/end profile, goodness…, from Excluded middle as a general principle…",
+  "legacy_id": "GOODNESS-FORM-END-DEFINITION-FORK",
+  "argument_id": "1ef5435a-5105-5114-8312-c1892350bcb7",
   "challenge_module": "TruthCore.Results.Metaethics.GoodnessFormEndFork.Challenge",
   "solution_module": "TruthCore.Results.Metaethics.GoodnessFormEndFork.Solution",
   "theorem": "TruthCore.Results.Metaethics.GoodnessFormEndFork.definitionFork",
@@ -8,24 +10,24 @@
   "status": "solution-present",
   "description": "Zero-axiom certified structural fork under explicit excluded middle, with a checked failureElimination companion. Named theories are not presumed exhaustive or exclusive. Named model controls live in GOODNESS-FORM-END-BOUNDARIES. No root premise or floor item is settled.",
   "case_split": {
-    "target_statement_id": "STMT-GOODNESS-DUE-TO-FORM-AND-END",
+    "target_statement_id": "6cc47d1b-4840-54e1-b96b-d389d74fbbf4",
     "cases": [
       {
         "label": "Due-actuality coextension",
         "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.DueActualityThesis",
-        "statement_id": "STMT-GOODNESS-DUE-TO-FORM-AND-END"
+        "statement_id": "6cc47d1b-4840-54e1-b96b-d389d74fbbf4"
       },
       {
         "label": "Surplus goodness",
         "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.SurplusGood",
-        "statement_id": "STMT-GOODNESS-SURPLUS-BEYOND-DUE-ACTUALITY"
+        "statement_id": "5f5e6461-e121-5da4-9ee5-52413eac66db"
       },
       {
         "label": "Omitted due goodness",
         "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.OmittedDueGood",
-        "statement_id": "STMT-GOODNESS-OMITS-DUE-ACTUALITY"
+        "statement_id": "844b8d9d-f25c-5d2f-94c4-f143deb2f959"
       }
     ],
-    "survival_result_id": "GOODNESS-FORM-END-BOUNDARIES"
+    "survival_result_id": "122aced4-9788-560c-beac-78f70ec398da"
   }
 }

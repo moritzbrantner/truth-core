@@ -1,14 +1,16 @@
 {
-  "id": "INF-NATURALIST-BOYD-ASCRIPTION-CONSISTENT",
+  "id": "84fa5ebe-b5bc-539a-9bc7-357c227784c0",
+  "label": "Boyd’s recorded fragment is satisfiable with an explicit true evaluative…, by Model-construction",
+  "legacy_id": "INF-NATURALIST-BOYD-ASCRIPTION-CONSISTENT",
   "input_statement_ids": [
-    "STMT-BOYD-POSITIVE-CLUSTER-GOODNESS",
-    "STMT-MORAL-JUDGMENTS-ARE-TRUTH-APT",
-    "STMT-EVALUATIVE-ASCRIPTIONS-DESCRIBE-FACTS",
-    "STMT-GOOD-WITHOUT-UNIVERSAL-REASONS",
-    "STMT-NATURALIST-ASCRIBED-ERROR",
-    "STMT-NATURALIST-TRUE-EVALUATIVE-ASCRIPTION"
+    "02ceae7b-5e93-526f-b54a-d73b8040bb51",
+    "153a1380-89f3-56a5-bd02-6e0971e2c155",
+    "e0ebb8a8-e8ae-59c1-80e4-bcbb97a9c291",
+    "0893ecbc-dfff-56e4-8b4a-32fb906a767f",
+    "8c092656-e89b-5da2-8084-5081c26e3583",
+    "e950ca40-f199-5faa-900a-f107807b3725"
   ],
-  "output_statement_id": "STMT-NATURALIST-BOYD-ASCRIPTION-CONSISTENT",
+  "output_statement_id": "0d630cd2-9f7f-5380-bce9-abaff6e9d9c8",
   "rule": "model-construction",
   "meaning": "Boyd’s recorded fragment is satisfiable with an explicit true evaluative ascription and an explicit false evaluative ascription accepted in cognitive error, together with a positive evaluative act without a universal instrumental-reason link. Each sentence is tied to an act by Ascribes, so empty Ascribes cannot satisfy this theorem. This is finite satisfiability, not actual objective grounding or truth of the complete historical system.",
   "assumption_statement_ids": [],

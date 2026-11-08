@@ -1,10 +1,12 @@
 {
-  "id": "DISAMB-JOINT-CAUSAL-MEMBERSHIP-EXERCISE",
+  "id": "a375e21b-420a-5ee5-9e64-c816eacd74d4",
+  "label": "Joint cause versus membership edge, exercise and explanatory completeness",
+  "legacy_id": "DISAMB-JOINT-CAUSAL-MEMBERSHIP-EXERCISE",
   "term": "joint cause versus membership edge, exercise and explanatory completeness",
   "note": "Analyst distinctions for #733/#613/#311. See docs/notes/joint-causal-groups-733.md; all applicability commitments remain open.",
   "resolution": "One member-to-effect projection is not individual causal sufficiency. A jointly satisfied certificate is not cooperative causal exercise. Scenario sufficiency is relative to independently supplied background and does not establish actual exercise or full explanation. Event occurrence is not substantial existence; event bearers are separate, and a group index is not a substance. A unique recorded predecessor set does not ensure WF; a minimal source is not a least or complete ground.",
   "sense_definition_ids": [
-    "DEF-JOINT-CAUSAL-GROUPS",
-    "DEF-JOINT-SCENARIO-SUFFICIENCY"
+    "ff8bf1d7-0bf9-5dda-8038-7127e3d46ec8",
+    "800637b5-8f4b-54ea-865d-c4fd444d1632"
   ]
 }

@@ -1,9 +1,11 @@
 {
-  "id": "INF-BRIDGE-IV7-EVERY-PROPOSITION-TO-EVERY-OBJECT-OF-THOUGHT",
+  "id": "add340b1-86c4-53be-a294-c731861a3407",
+  "label": "Every object of thought is affirmed or denied: whatever is the object…, by Universal-instantiation",
+  "legacy_id": "INF-BRIDGE-IV7-EVERY-PROPOSITION-TO-EVERY-OBJECT-OF-THOUGHT",
   "input_statement_ids": [
-    "STMT-THOUGHT-AFFIRMS-OR-DENIES-EVERY-PROPOSITION"
+    "ee440511-1103-5020-8a39-d2a6b96e5397"
   ],
-  "output_statement_id": "STMT-OBJECT-OF-THOUGHT-AFFIRMED-OR-DENIED",
+  "output_statement_id": "ebc49a63-5f67-54e3-99a8-abba3eafa3d0",
   "rule": "universal-instantiation",
   "meaning": "The object of a given thought is a proposition; by the extension some thought with that object affirms or denies it.",
   "assumption_statement_ids": [],

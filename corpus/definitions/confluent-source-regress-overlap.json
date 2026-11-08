@@ -1,5 +1,7 @@
 {
-  "id": "DEF-CONFLUENT-SOURCE-REGRESS-OVERLAP",
+  "id": "a239a04a-ce2a-5b51-8a6e-2afe54a68691",
+  "label": "Confluent rooted source graph with\u2026: Uses unchanged WorldSourceRegress.overlap, itself the literal\u2026",
+  "legacy_id": "DEF-CONFLUENT-SOURCE-REGRESS-OVERLAP",
   "term": "confluent rooted source graph with infinite regress",
   "lean_declaration": "TruthCore.Causality.SourceWitness.ConfluentOverlapControl",
   "basis": "stipulative",

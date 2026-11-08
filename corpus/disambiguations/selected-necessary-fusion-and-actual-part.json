@@ -1,10 +1,12 @@
 {
-  "id": "DISAMB-SELECTED-NECESSARY-FUSION-AND-ACTUAL-PART",
+  "id": "737945a6-432d-504b-b91e-902bbb36a42e",
+  "label": "Selected necessary-parts fusion versus actual contingent part extraction",
+  "legacy_id": "DISAMB-SELECTED-NECESSARY-FUSION-AND-ACTUAL-PART",
   "term": "selected necessary-parts fusion versus actual contingent part extraction",
   "sense_definition_ids": [
-    "DEF-OVERLAP-EXTENSIONAL-PARTHOOD",
-    "DEF-SELECTED-NECESSARY-PARTS-FUSION",
-    "DEF-NECESSARY-PART-FUSION-DECOMPOSITION"
+    "6f09b078-c49b-5dc5-b7a8-524fdded7dc5",
+    "67108022-696b-5536-b15b-4d3b88695cee",
+    "a3d3f908-f1fd-5d6a-89ad-139a642dfba2"
   ],
   "resolution": "A fusion value or parthood witness in the candidate carrier is not actual Ontic existence. Nonnecessity of x is weaker than ContingentAt x; the conclusion is a candidate part without necessary parts, not an actual wholly contingent being. The chosen fusion’s necessity is a separate conditional modal warrant, not local A5 or automatic closure from necessary members. No unrestricted fusion over all families or necessity-downward-along-parthood is used. The presentation’s L2 remains an unbound source reading; this is an explicit analyst reconstruction, not an independent proof from displayed source A1/A2 or a strengthened source interpretation. Source/type/rigidity/actuality bridges remain OPEN; no all-world identity, nonoverlap-to-causation or root inference is added."
 }

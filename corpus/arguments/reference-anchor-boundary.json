@@ -1,16 +1,18 @@
 {
-  "id": "REFERENCE-ANCHOR-BOUNDARY",
+  "id": "72454a9c-a485-5d2c-88e4-db6c768c09c6",
+  "label": "In the stipulated one-name one-predicate Boolean-carrier language, original and swapped…",
+  "legacy_id": "REFERENCE-ANCHOR-BOUNDARY",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-REFERENCE-ANCHOR-BOUNDARY",
+  "conclusion_statement_id": "e7a13e00-a1b6-569c-859f-a912c4b0db9a",
   "inference_ids": [
-    "INF-REFERENCE-ANCHOR-BOUNDARY"
+    "c8e11fc9-89a9-5aec-8343-95b0098a6fb6"
   ],
   "meaning": "A concrete interpreted first-order counterexample to recovering literal reference from sentence truth alone, plus the explicitly conditional external-anchor recovery law. Root unchanged; actual applicability OPEN; structuralism survives.",
   "definition_ids": [
-    "DEF-LITERAL-REFERENCE-ON-FIXED-CARRIER",
-    "DEF-REFERENCE-UP-TO-ISOMORPHISM"
+    "47bb3ea3-da26-5e6e-af6d-9749f2f7af0d",
+    "bf20c36c-9b87-5db8-8eb3-a9ee5f691379"
   ],
   "disambiguation_ids": [
-    "DISAMB-LITERAL-AND-STRUCTURAL-REFERENCE"
+    "604a0ebb-d43a-5ec4-b08b-6f0138c953c6"
   ]
 }

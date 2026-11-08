@@ -1,5 +1,7 @@
 {
-  "id": "DEF-RUSSELL-FINITE-EXTENSION",
+  "id": "36e83237-9dc6-5803-a9b8-a053c6d663a6",
+  "label": "Finite extension and number: Entity.a and Entity.b exhaust the stipulated finite carrier. none…",
+  "legacy_id": "DEF-RUSSELL-FINITE-EXTENSION",
   "term": "finite extension and number",
   "definition": "Entity.a and Entity.b exhaust the stipulated finite carrier. none, singleA, singleB and both specify zero, one, a different one, and two satisfying values. count is their exact finite multiplicity; no actual population is asserted.",
   "basis": "stipulative",

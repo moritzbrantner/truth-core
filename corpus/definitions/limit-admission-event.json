@@ -1,5 +1,7 @@
 {
-  "id": "DEF-LIMIT-ADMISSION-EVENT",
+  "id": "e9fbdfb0-1f8a-595a-b3a8-6101cdbfbf11",
+  "label": "Event occupancy and time boundary: EventTimes is precisely the range of eventTime n = 1/ in real…",
+  "legacy_id": "DEF-LIMIT-ADMISSION-EVENT",
   "term": "event occupancy and time boundary",
   "definition": "eventTimes is precisely the range of eventTime n = 1/(n+1) in real time. The ambient interval [0,1] has first point 0; event occupancy is separate from the existence of a time. stageEvents is the range of stageTime n = 1 - eventTime n and omits time 1. Neither mathematical set claims physical occurrence.",
   "basis": "stipulative",

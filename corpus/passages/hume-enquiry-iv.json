@@ -6,14 +6,16 @@
     "wayback_url": "https://web.archive.org/web/20260728180711id_/https://davidhume.org/texts/e/4",
     "wayback_sha256": "sha256:70b38ea66b3696a5aee140680baec3eb356397317bea52d9117d7f4bc61e2658",
     "kind": "web_snapshot",
-    "source_id": "HUME-ENQUIRY",
+    "source_id": "d27e53fc-c4af-5160-83a4-924a2aae4d2e",
     "encoding": "utf-8",
     "language": "eng",
     "license": "Hume original English text, public domain; Hume Texts Online digital presentation. Only hashes, locators and short incipit committed; no license to presentation asserted. A fixed 2026-07-28 Wayback capture is byte-pinned as a fallback (2026-10-26, issue #393): two fetches gave the same bytes, and the selected text hash and incipit match the originally consulted witness; the live hash and retrieval date are unchanged."
   },
   "passages": [
     {
-      "id": "HUME-ENQUIRY-IV",
+      "id": "dc746ab3-e2d2-5a36-bb2c-096e02ac1331",
+      "label": "David Hume, An Enquiry concerning Human Understanding, IV \u00a7\u00a71\u201323",
+      "legacy_id": "HUME-ENQUIRY-IV",
       "locator": "IV \u00a7\u00a71\u201323",
       "claim_locator_prefixes": [
         "IV,"

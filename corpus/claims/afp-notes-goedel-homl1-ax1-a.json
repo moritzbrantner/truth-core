@@ -1,14 +1,16 @@
 {
-  "id": "AFP-NOTES-GOEDEL-HOML1-AX1-A",
-  "statement_id": "STMT-GOEDEL-1970-POSITIVE-CLOSED-UNDER-CONJUNCTION",
-  "source_id": "AFP-NOTES-GOEDEL-ONTOLOGICAL",
+  "id": "9c34b71a-b9c7-5e64-997b-811f2426ee6a",
+  "label": "Christoph Benzmüller and Dana Scott, Notes…: Gödel's 1970 axiom Ax1: at every world, the…",
+  "legacy_id": "AFP-NOTES-GOEDEL-HOML1-AX1-A",
+  "statement_id": "9cdba00e-f2ef-585c-8d4d-c6a94ce1d408",
+  "source_id": "ae971399-3ec6-504e-b1a0-b13189dd9bb5",
   "locator": "GoedelVariantHOML1.thy, Ax1: \"⌊P φ ❙∧ P ψ ❙⊃ P (φ ❙. ψ)⌋\"",
   "interpretation": "Axiom Ax1 as stated in the theory, with ❙. the conjunction of properties (HOMLinHOL.thy, Mconpred) and the free φ, ψ read as universally closed, as Isabelle does. Attributed to the AFP formalization of Gödel's 1970 manuscript (Benzmüller and Scott), not to what Gödel intended.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-POSITIVE-PROPERTY-GOEDEL-1970"
+    "6300d642-4116-591e-bac8-7af32093ea6d"
   ],
   "disambiguation_ids": [
-    "DISAMB-POSITIVE"
+    "1850cad4-6eff-547f-b60c-e744dad7830d"
   ]
 }

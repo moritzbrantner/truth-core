@@ -1,29 +1,31 @@
 {
-  "id": "ATTEMPT-ROUND2-PERFECTION-PRIMACY",
+  "id": "61e540a5-1bc6-5fa7-bc9f-b33db20f7532",
+  "label": "Batch certification of eight exploration maps deriving eight bare root-path premises from deeper…",
+  "legacy_id": "ATTEMPT-ROUND2-PERFECTION-PRIMACY",
   "statement_ids": [
-    "STMT-UNLIMITED-POSSESSION-EXCEEDS-LIMITED",
-    "STMT-PERFECTION-CAUSED-IN-ANOTHER-IS-RECEIVED-IN-IT",
-    "STMT-CAUSE-HAS-PERFECTION-NOT-AS-RECEIVED-IN-EFFECT",
-    "STMT-EFFICIENT-CAUSE-NOT-DEPENDENT-ON-EFFECT",
-    "STMT-NONMUTUAL-DEPENDENCE-SUFFICES-FOR-PRIORITY",
-    "STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES",
-    "STMT-NOTHING-ELSE-REACHES-THE-PRIMARY",
-    "STMT-UNIVERSAL-CAUSE-TRANSFERS-PERFECTIONS"
+    "7030af77-c1d4-5f67-bc0c-875048d1b55c",
+    "a9036c3c-adc4-564e-b3ba-44a0c558c0ae",
+    "d0b76fb9-5374-5cbf-93b6-2b5444dab441",
+    "47b151ca-f500-5a7c-80d4-33bb90247ee3",
+    "bf93f259-29b4-53df-ae5b-ac7f522ea33d",
+    "612078bf-5a68-5542-8b7b-f862f816ece0",
+    "dd732014-f3f1-5ded-b8dc-5dbcd3f2b71c",
+    "b26c10a0-983d-5a88-aa03-cc601bc1ddc6"
   ],
   "date": "2026-11-07",
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Batch certification of eight exploration maps (explorations/round2-*.toml) deriving eight bare root-path premises from deeper open premises. (1) Unlimited possession exceeds limited: a measure reading of DEF-PERFECTION-LIMITED-BY (limited having is within the limiter's capacity; unlimited having exceeds it, carrying comparability) and a degree reading of 'more', on a parameter preorder (le then lt). (2) Caused perfection is received in the effect: caused by another implies participated, participated implies received in the participant. (3) The cause's perfection is not received in its effect: a haver depends on its recipient, perfection-causing in another is efficient (explicit DISAMB-CAUSE bridge), and target (4). (4) An efficient cause does not depend on its effect: the stated q.2 a.3 no-self-causation, q.44 a.1 ad 2 dependence, and asymmetry of dependence among distinct beings. (5) Nonmutual dependence suffices for priority: the criterion 'can be without, not conversely' (In V Metaph. lect. 13 n. 15, navigation only) with two bridges between counterfactual dependence and being-without. (6) Others than the primary are creatures: q.44 a.1 participated esse of everything else, the existing q.44 a.1 ad 1 statement, and caused-in-being implies creature. (7) Strict primacy: target (6), creature esse received, both q.7 directions (received esse limited; limited only through reception), the primary's esse unreceived, and limited esse approaches less. (8) Universal cause transfers perfections: universal cause of being is total, total cause causes modes of being, perfections are modes of being (q.4 a.2). Controls: 17 omission models from scripts/countermodel.py (Fin carriers renamed to Bool/Unit), 9 hand-written omission models for the two degree-preorder derivations, and one joint witness; all zero-axiom. Rejected edges: ATTEMPT-ROUND2-PERFECTION-PRIMACY-REJECTED-EDGES.",
   "evidence": [
-    "UNLIMITED-POSSESSION-EXCEEDS-LIMITED-FROM-DEGREES",
-    "CAUSED-PERFECTION-RECEIVED-FROM-PARTICIPATION",
-    "CAUSE-PERFECTION-NOT-RECEIVED-FROM-DEPENDENCE",
-    "EFFICIENT-CAUSE-NOT-DEPENDENT-FROM-ASYMMETRY",
-    "NONMUTUAL-DEPENDENCE-PRIORITY-FROM-BEING-WITHOUT",
-    "OTHERS-ARE-CREATURES-FROM-PARTICIPATION",
-    "STRICT-PRIMACY-FROM-RECEPTION-LIMITS",
-    "UNIVERSAL-CAUSE-TRANSFERS-FROM-TOTAL-CAUSATION",
-    "ROUND2-PERFECTION-PRIMACY-CONTROLS"
+    "8c6d4065-ca53-5a5f-924f-cd3d1d7639b3",
+    "7d3cecd0-e394-5944-9b07-5dc77373cfd6",
+    "dbbc2d5c-e8ea-5190-8b07-473cb788a1cd",
+    "972ed7e5-098f-5ca6-9685-98d2cee48db8",
+    "47957c28-218a-58e4-94e4-5220a0c45795",
+    "c586e910-324a-5ca9-a840-092b55f5f97f",
+    "f2ca811c-309d-54c0-9fb6-01d8947e2248",
+    "dae70d8a-75ad-5b67-82cd-c1f7be320e93",
+    "27d0aa1f-bd7c-5946-b886-0dea80ab650e"
   ],
   "blocker": "Every new premise is open. Supported (claim bears on it, gap noted): others than the primary participate esse (q.44 a.1), the primary's esse unreceived (q.7 a.1), creature esse received (q.7 a.2 via the q.7 a.1 claim), perfections are modes of being (q.4 a.2). Bare analyst premises: the two measure readings of limitation and the degree reading of more; caused by another is participated; participated is received; haver depends on its recipient; perfection-causing in another is efficient (crosses DISAMB-CAUSE); asymmetry of dependence among distinct beings; dependence excludes and independence allows being-without (the latter fails when the other's not-being is impossible); priority by being-without (In V Metaph. lect. 13 pinned, no claim made); caused in being implies creature; limited esse approaches less; universal cause of being is total; total cause causes modes of being."
 }

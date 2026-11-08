@@ -1,5 +1,7 @@
 {
-  "id": "DEF-WORLDVIEW-NECESSARY-IMPLICATION",
+  "id": "f542117a-5158-599a-a125-08708721d66b",
+  "label": "Necessary implication of a worldview…: A worldview entails content p when p holds at every world…",
+  "legacy_id": "DEF-WORLDVIEW-NECESSARY-IMPLICATION",
   "term": "necessary implication of a worldview or duty-content",
   "definition": "A worldview entails content p when p holds at every world satisfying all of the worldview's explicitly held contents; content q follows from content p when q holds at every world where p holds. Necessity is relative to one fixed specified semantic profile, not an unrestricted claim about metaphysical necessity.",
   "basis": "stipulative",

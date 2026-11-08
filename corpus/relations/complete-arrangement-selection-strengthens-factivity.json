@@ -1,10 +1,12 @@
 {
-  "id": "REL-COMPLETE-ARRANGEMENT-SELECTION-STRENGTHENS-FACTIVITY",
+  "id": "617ff80f-2c6d-5452-b4b8-7b6f5157d6eb",
+  "label": "At the designated labeled arrangement a… strengthens Every candidate proposition accepted by…",
+  "legacy_id": "REL-COMPLETE-ARRANGEMENT-SELECTION-STRENGTHENS-FACTIVITY",
   "subject_kind": "statement",
-  "subject_id": "STMT-COMPLETE-CHAIN-EXPLANATION-SELECTS-ARRANGEMENT",
+  "subject_id": "4f45ac2d-3bb1-5159-85db-0982225dfbd5",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-ACCEPTED-ARRANGEMENT-EXPLANATIONS-ARE-TRUE",
-  "verification_result_id": "COMPLETE-ARRANGEMENT-SELECTION-STRENGTHENS-FACTIVITY",
+  "object_id": "7f6451e9-a533-5bfd-9899-16bb4164ecab",
+  "verification_result_id": "b0ea5e25-2777-5972-a35a-9a09547c371e",
   "note": "Exact sole-premise consequence. Factivity alone does not supply entailing selection; the true-only control witnesses strictness."
 }

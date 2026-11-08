@@ -1,12 +1,14 @@
 {
-  "id": "INF-PURE-ACT-OPERATES-FROM-BEING-IN-ACT",
+  "id": "73bbdff5-bf3a-56e3-bad0-9739d56e71bd",
+  "label": "Whatever is in potency in no respect operates from itself. q.18 a.3 ad…, by Disjunctive syllogism…",
+  "legacy_id": "INF-PURE-ACT-OPERATES-FROM-BEING-IN-ACT",
   "input_statement_ids": [
-    "STMT-ACT-OR-POTENCY-IN-BEING",
-    "STMT-BEING-IN-ACT-HAS-OPERATION",
-    "STMT-OPERATION-FROM-SELF-OR-AS-MOVED",
-    "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY"
+    "6884dcfd-7c4c-588a-8fce-8c05ccbd3844",
+    "3317e074-fdda-5c61-999f-87744fcd68c6",
+    "5bedb69b-8fbb-53b5-be2f-377d1331cf37",
+    "4be9a4ac-699a-5adc-88d4-bbd958fa1576"
   ],
-  "output_statement_id": "STMT-PURE-ACT-OPERATES",
+  "output_statement_id": "45030701-91da-588f-b602-dca6c15e761a",
   "rule": "Disjunctive syllogism, existential elimination, proof by cases, reductio",
   "meaning": "Whatever is in potency in no respect operates from itself. A pure act is not in potency in its being, so by the OPEN act/potency division it is in act in being; by the OPEN premise that operation follows being in act it has an operation; by the OPEN dichotomy the operation is from itself or the thing is being moved in some respect; and the second case is excluded by the existing stated q.2 a.3 reading (nothing is moved except as in potency) since a pure act has no potency.",
   "assumption_statement_ids": [],

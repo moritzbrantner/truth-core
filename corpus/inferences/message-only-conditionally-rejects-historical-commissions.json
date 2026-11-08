@@ -1,11 +1,13 @@
 {
-  "id": "INF-MESSAGE-ONLY-CONDITIONALLY-REJECTS-HISTORICAL-COMMISSIONS",
+  "id": "68336ac2-6a0e-5706-9844-112ad19c9526",
+  "label": "Exact negation of commission reports go back to jesus on the same…, by Constructive-proof",
+  "legacy_id": "INF-MESSAGE-ONLY-CONDITIONALLY-REJECTS-HISTORICAL-COMMISSIONS",
   "input_statement_ids": [
-    "STMT-JESUS-MANDATE-COVERS-ONLY-MESSAGE",
-    "STMT-GOVERNING-EVENT-INSTITUTION-LINK",
-    "STMT-ACTUAL-MANDATED-CATHOLIC-FOUNDING"
+    "f984563a-ae82-507e-b374-aff896f48ee9",
+    "14f227c8-2a52-58e4-8bbb-61d82c81c8cf",
+    "68bcf931-603b-5f03-a077-18f16f9428bd"
   ],
-  "output_statement_id": "STMT-HISTORICAL-COMMISSION-BUNDLE-REJECTED",
+  "output_statement_id": "a2deb7b1-b806-5875-af1f-b1635b0f51c2",
   "rule": "constructive-proof",
   "meaning": "Compose the nonvacuous rival/weak-link incompatibility and exact report-bundle rejection. Every scope and transfer input remains visible.",
   "assumption_statement_ids": [],

@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-184A-ANALYSIS-WHOLE-A",
-  "statement_id": "STMT-ANALYSIS-CONFUSED-WHOLE-TO-PRINCIPLES",
-  "source_id": "ARIST-PHYS",
+  "id": "2d5e7187-f189-5f99-9615-6e9eae1f827f",
+  "label": "Aristotle, Physics I.1, 184a21-184b14: What is initially clear to us is a comparatively…",
+  "legacy_id": "ARIST-PHYS-184A-ANALYSIS-WHOLE-A",
+  "statement_id": "daade861-4230-5e4b-9357-bea8788967bf",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.1, 184a21-184b14",
   "interpretation": "Analytic-progression reading: initially familiar objects are grasped as comparatively undifferentiated wholes, while division/analysis makes principles, elements, and determinate parts known. The name and child examples are treated as illustrations, not separate claims.",
   "status": "formalized"

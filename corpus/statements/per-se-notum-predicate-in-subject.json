@@ -1,7 +1,9 @@
 {
-  "id": "STMT-PER-SE-NOTUM-PREDICATE-IN-SUBJECT",
+  "id": "eca56e14-0c31-559d-ab28-86f82a28c827",
+  "label": "A proposition is self-evident in itself when its predicate belongs to the account of its subject…",
+  "legacy_id": "STMT-PER-SE-NOTUM-PREDICATE-IN-SUBJECT",
   "paraphrase": "A proposition is self-evident in itself when its predicate belongs to the account of its subject; it may not be self-evident to someone who does not know the subject’s definition.",
   "definition_ids": [
-    "DEF-NATURAL-LAW-PER-SE-NOTA"
+    "e5479060-c1e7-5eea-ac3e-2b3a74f4db05"
   ]
 }

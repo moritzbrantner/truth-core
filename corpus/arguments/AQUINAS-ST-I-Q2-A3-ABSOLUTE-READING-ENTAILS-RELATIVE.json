@@ -1,18 +1,20 @@
 {
-  "id": "AQUINAS-ST-I-Q2-A3-ABSOLUTE-READING-ENTAILS-RELATIVE",
+  "id": "56977e6e-3afb-5473-a18e-838594095d38",
+  "label": "It is impossible that there be no mover that moves…, from It is impossible that there be no first…",
+  "legacy_id": "AQUINAS-ST-I-Q2-A3-ABSOLUTE-READING-ENTAILS-RELATIVE",
   "premise_statement_ids": [
-    "STMT-FIRST-UNMOVED-MOVER-CANNOT-BE-LACKING"
+    "c1b68c21-fa36-5ab0-a499-444259eda78a"
   ],
-  "conclusion_statement_id": "STMT-RELATIVELY-UNMOVED-MOVER-CANNOT-BE-LACKING",
+  "conclusion_statement_id": "621821f4-e2b4-50f6-a0ca-53941e7f843b",
   "inference_ids": [
-    "INF-AQUINAS-ST-I-Q2-A3-ABSOLUTE-READING-ENTAILS-RELATIVE"
+    "7ad67f37-7e67-52db-b1b9-998f15c379d5"
   ],
   "meaning": "The absolute prima via conclusion entails the relative one for the same relations: if a first mover moved in no respect cannot be lacking, a mover unmoved in every respect relevant to its moving cannot be lacking either, for any relevance relation. The statement-level counterpart of the model-quantified fact AQUINAS-ST-I-Q2-A3-ABSOLUTE-CONCLUSION-ENTAILS-RELATIVE; registers the strength order between the two conclusions (#151, #1017).",
   "definition_ids": [
-    "DEF-FIRST-UNMOVED-MOVER",
-    "DEF-PER-SE-LINK-RELEVANT-RESPECT"
+    "cfadc1f4-dd30-5f4f-a336-a0b9c1b1182d",
+    "55a974ea-1ba1-5df4-a03b-1fbaa388dfeb"
   ],
   "disambiguation_ids": [
-    "DISAMB-PER-SE-LINK"
+    "c097f626-c39c-57cd-ade4-ebb2dd900a4c"
   ]
 }

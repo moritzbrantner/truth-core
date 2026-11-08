@@ -1,19 +1,21 @@
 {
-  "id": "CAUSAL-ENDPOINT-ACTUALITY-STRENGTHENS-WHOLE-CAUSER-ACTUALITY",
+  "id": "5ca2c27e-7590-57b8-b49b-c20bf195e276",
+  "label": "Every causer of the selected spacetime whole exists…, from At the selected world, both cause and…",
+  "legacy_id": "CAUSAL-ENDPOINT-ACTUALITY-STRENGTHENS-WHOLE-CAUSER-ACTUALITY",
   "premise_statement_ids": [
-    "STMT-CAUSES-HAVE-ACTUAL-ENDPOINTS-AT"
+    "b699ecfb-08f7-5864-a671-1205c8f5792f"
   ],
-  "conclusion_statement_id": "STMT-SELECTED-WHOLE-CAUSERS-ACTUALLY-EXIST",
+  "conclusion_statement_id": "41e17b00-09de-5a6d-a0ea-a1aed538244b",
   "inference_ids": [
-    "INF-CAUSAL-ENDPOINT-ACTUALITY-STRENGTHENS-WHOLE-CAUSER-ACTUALITY"
+    "daaff461-8d38-5554-90d0-59d5312ab816"
   ],
   "meaning": "Sole-premise restriction of the EXISTING all-edge/both-endpoint actuality policy to selected-whole causers only. No generic Ontic field or original argument is changed.",
   "definition_ids": [
-    "DEF-UNIVERSE-CAUSER-ACTUALITY-SCOPE",
-    "DEF-SPATIOTEMPORAL-FRAME"
+    "278c1d18-9e65-5043-b319-5e11daae4ec5",
+    "e9e031af-665e-5888-9328-f7637b5a2677"
   ],
   "disambiguation_ids": [
-    "DISAMB-ACTUAL-FUSION-BARE-NE-AND-NECESSARY-CAUSE",
-    "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY"
+    "6ded9b1f-94fc-5f81-8e71-24ce27962165",
+    "8db2b1c9-f3a6-55d3-b7e9-4939c27923e2"
   ]
 }

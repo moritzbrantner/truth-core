@@ -1,16 +1,18 @@
 {
-  "id": "NB-SURVEY-A2-REPORTED-COVERAGE-DENIAL",
-  "statement_id": "STMT-NB-A2-REPORTED-COVERAGE-DENIAL",
-  "source_id": "NECESSARYBEING-SURVEY",
+  "id": "5489af69-e8cb-526a-9d98-1a9a4b4d8eee",
+  "label": "Unattributed website author, Necessary…: It is not necessary that every concrete thing belongs… (2)",
+  "legacy_id": "NB-SURVEY-A2-REPORTED-COVERAGE-DENIAL",
+  "statement_id": "64ab0f61-b645-5ed9-bd6b-e127abb42133",
+  "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
   "locator": "A2P1, question, concrete/infinite/ungrounded title attributes and negative-answer continuation",
   "interpretation": "Conditional reading ONLY: if the respondent were to select the negative answer to this question, the reported input would deny its necessary universal coverage. P1 itself contains only the question and choices; no actual assent or truth is asserted. Preserve its broader cause-or-effect capability tooltip. Immediate context NECESSARYBEING-A2-CONCLUSION (A2C, step 5) explicitly states a denial by-your-report but uses cause-only capability. This claim does not broaden that conclusion-page domain or certify the cross-domain inference.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-NB-A2-CONCRETE-CAUSE-OR-EFFECT",
-    "DEF-NB-A2-ENTIRE-CHAIN-AND-HEAD"
+    "84e479f6-84b9-5aef-9c7d-637976b0b9a7",
+    "dc059ebd-fa9a-5360-8285-aad7cefbed71"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A2-DOMAIN-AND-ANCESTRY",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "18495e19-0770-5154-8a92-6da075222bc7",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

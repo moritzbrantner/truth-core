@@ -1,8 +1,10 @@
 {
-  "id": "STMT-DIVERSE-IN-ONE-ORDER-TOTAL",
+  "id": "64ec0c66-bb2c-5049-8fa3-7d5876bfda59",
+  "label": "In a given exercise, some one event has a finite exercised path to every event of the carrier…",
+  "legacy_id": "STMT-DIVERSE-IN-ONE-ORDER-TOTAL",
   "lean_declaration": "TruthCore.Explanation.JointCooperation.TotalOrderer",
   "paraphrase": "In a given exercise, some one event has a finite exercised path to every event of the carrier, itself included.",
   "definition_ids": [
-    "DEF-JOINT-CAUSAL-GROUPS"
+    "ff8bf1d7-0bf9-5dda-8038-7127e3d46ec8"
   ]
 }

@@ -1,11 +1,13 @@
 {
-  "id": "VATICAN-I-DEI-FILIUS-CH3-DIVINE-AND-CATHOLIC-FAITH",
-  "statement_id": "STMT-DIVINE-AND-CATHOLIC-FAITH-EXTENDS-TO-WHAT-CHURCH-PROPOSES-AS-REVEALED",
-  "source_id": "VATICAN-I-DEI-FILIUS",
+  "id": "d1940c53-27d0-5d19-99da-1fe66f2e025a",
+  "label": "First Vatican Council, Dei Filius Ch. 3…: Everything contained in the word of God, written or…",
+  "legacy_id": "VATICAN-I-DEI-FILIUS-CH3-DIVINE-AND-CATHOLIC-FAITH",
+  "statement_id": "b1d76786-9f36-5b78-8349-d9645e510cd2",
+  "source_id": "2dff7669-d6a1-57a6-b9ed-37a01156a636",
   "locator": "ch. 3, para. 4: Porro fide divina et catholica ea omnia credenda sunt",
   "interpretation": "What is to be believed with divine and catholic faith: everything contained in the word of God written or handed down ('in verbo Dei scripto vel tradito') that the Church proposes as divinely revealed, 'sive solemni iudicio sive ordinario et universali magisterio'. Read as a normative rule fixing the object of faith (two joint conditions: contained in revelation, and proposed by the Church as revealed), not as a claim that whatever the Church proposes is true. It fixes the sense of 'definitively proposes as revealed' used by the skeleton's Signature, but it is not itself the bridge premise that such proposals are true.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-DEFINITIVELY-PROPOSES-AS-REVEALED"
+    "073468e1-25d6-5d46-836c-c6e8f230809d"
   ]
 }

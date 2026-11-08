@@ -1,11 +1,13 @@
 {
-  "id": "DEF-OBJECTIVE-TRUTH",
+  "id": "92ee243f-3674-5ef9-8317-872d022bc79c",
+  "label": "OBJECTIVELY_TRUE_1: ObjectiveTruth φ: φ is true independently of anyone's attitudes or conventions",
+  "legacy_id": "DEF-OBJECTIVE-TRUTH",
   "term": "objectively true",
   "definition": "`ObjectiveTruth φ`: φ is true independently of anyone's attitudes or conventions.",
   "basis": "sourced",
   "claim_ids": [
-    "OCONNOR-TUREK-EVIL-NO-OBJECTIVE-MORAL-TRUTHS",
-    "OCONNOR-TUREK-EVIL-PREMISE-NOT-OBJECTIVE"
+    "33279342-1fb8-5de0-81d3-62740fb76ee9",
+    "e52d69cd-96a4-5b53-aaa4-761175136c60"
   ],
   "lean_declaration": "TruthCore.Comparison.Metaethics.Sig.ObjectiveTruth",
   "note": "The linked projection is the primitive ObjectiveTruth field of the existing comparison signature; the source readings likewise take an independently supplied predicate. It is not a definition reducing the predicate to a truth/attitude criterion. Source claims and that predicate remain unchanged. Analyst profile calibrations and the weakest objective-implies-truth proposition are recorded separately in DISAMB-OBJECTIVE-TRUTH-CALIBRATIONS; none is silently attributed to these sources or adopted as every philosophical sense of objectivity."

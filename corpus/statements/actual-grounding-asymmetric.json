@@ -1,17 +1,19 @@
 {
-  "id": "STMT-ACTUAL-GROUNDING-ASYMMETRIC",
+  "id": "39f7c63d-b372-564c-b18a-ed09d02dda9a",
+  "label": "At the selected world, actual CONCRETE_6 individuals cannot stand in the supplied grounding…",
+  "legacy_id": "STMT-ACTUAL-GROUNDING-ASYMMETRIC",
   "paraphrase": "OPEN structural application premise: at the selected world, actual concrete individuals cannot stand in the supplied grounding relation in both directions. This includes exclusion of self-grounding, but does not impose well-foundedness, transitivity, finite ancestry or global explanatory completeness.",
   "lean_declaration": "TruthCore.Causality.NecessaryConcreteRouteBridge.ActualGroundingAsymmetric",
   "definition_ids": [
-    "DEF-ACTUAL-GROUNDING-ASYMMETRIC",
-    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
-    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
-    "DEF-CONCRETE-ESSE-IN-RE"
+    "b6854062-bec4-5480-8847-8e2314fee5b3",
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "008cb21a-256c-5a90-822c-acd4591d699a"
   ],
   "disambiguation_ids": [
-    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
-    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA"
+    "c529e8d3-43e3-53a8-a82f-3955e9815265",
+    "6e92c6e3-edf0-5d7e-b2b3-788b24b8b768",
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
   ],
   "note": " Scope audit: the maximum-based whole-roster/root consumers only use reverse-edge exclusion at their SAME selected maximal-in-esse candidate. STMT-ACTUAL-GROUNDING-ASYMMETRIC-AT-MAXIMAL-TARGET is a separate weaker sufficient framework input, with sole-premise strength and a populated reciprocal-nonmaximal-dependent strictness control. This does not establish either policy, identify grounds with direct production, or change the original universal proposition/source readings. See docs/notes/maximal-grounding-asymmetry.md."
 }

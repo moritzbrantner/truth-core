@@ -1,20 +1,22 @@
 {
-  "id": "AQUINAS-ST-I-Q2-A3-AD1-COLLECTIVE-ACTUAL-GOOD",
-  "statement_id": "STMT-GOD-DRAWS-GOOD-FROM-PERMITTED-EVILS-COLLECTIVELY",
-  "source_id": "AQUINAS-ST",
+  "id": "ddbef42a-bdcf-5c53-b911-65f52e547826",
+  "label": "Thomas Aquinas, Summa theologiae I q.2 a.3…: For any GOD_3 g, if g permits the nonempty… (2)",
+  "legacy_id": "AQUINAS-ST-I-Q2-A3-AD1-COLLECTIVE-ACTUAL-GOOD",
+  "statement_id": "dbbe048f-8b90-5200-bdb3-d9c31c6c44d3",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.2 a.3 ad 1: ut esse permittat mala, et ex eis eliciat bona",
   "interpretation": "Reading B of the plural final sentence: the evils (mala, ex eis) are taken together, not distributed over every individual evil. Restricted to a nonempty collection that God permits, the reading says that he actually draws some good from that collection. The conclusion is existential over a bearer and a perfection; it assigns no good to each evil. Evil is the privative sense clarified in q.48 a.3, not automatically a moral judgment. PermitsEvils and DrawsGoodFromEvils are distinct parameters: permission alone does not entail production without this open reading. The sentence is stronger than mere capability on this actual-production interpretation. Neither the existence of God, evil or permission nor a net benefit, best world, benefit to every sufferer or justification of each evil is asserted. The coordinated permittat and eliciat are subjunctives under pertinet ut, not indicative event assertions: the conditional actual-production consequent is the policy construal of that coordination, preserved as a defensible interpretation rather than forced by the grammar. The capability sibling records a weaker extraction from the preceding clause. Carrier boundary: Evil x means evil in subject x; the collection represents those subjects with their evils, not an enumeration of distinct evil events. No token-counting or time structure is formalized.",
   "status": "formalized",
-  "interpretation_of": "AQUINAS-ST-I-Q2-A3-AD1-DRAWS-GOOD-FROM-EVIL",
+  "interpretation_of": "39182c22-aaae-53f3-a2fc-286c1a4a939a",
   "definition_ids": [
-    "DEF-GOD-WHAT-ALL-UNDERSTAND",
-    "DEF-EVIL-AS-PRIVATION",
-    "DEF-AD1-PERMISSION-OF-EVILS",
-    "DEF-AD1-COLLECTIVE-ACTUAL-GOOD"
+    "e68a730e-ff16-5998-ac2b-f6f08728009b",
+    "9bcf08c8-b0e8-5fff-a537-f32d043976e9",
+    "b4d64cab-bf94-5cd2-91cc-190b717c6e61",
+    "645124d7-3d3a-558d-a9d5-ab6a915ede18"
   ],
   "disambiguation_ids": [
-    "DISAMB-GOD",
-    "DISAMB-AD1-GOOD-FROM-EVIL",
-    "DISAMB-EVIL-PRIVATION-AND-MORAL-JUDGMENT"
+    "205a39c3-915d-5fe4-8076-a9ff91329e08",
+    "96042b66-e854-59f3-a8b5-061a3f7d8136",
+    "3d6d3fd7-2acc-5ceb-9550-f968d0732b2a"
   ]
 }

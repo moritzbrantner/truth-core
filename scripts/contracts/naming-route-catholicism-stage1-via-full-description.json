@@ -39,7 +39,7 @@
     }
   ],
   "provenance": "Isolated frozen Challenge extraction; complete alpha-canonical telescope/applications and project dependencies. Existing Challenges unchanged. Separate equality interfaces explicitly retain their carrier instances and, in compositions, the First Way existence disjunction.",
-  "result_id": "CATHOLICISM-STAGE1-VIA-FULL-DESCRIPTION",
+  "result_id": "88ab7572-aaa6-511d-8783-8f7a3a49542e",
   "schema_version": 1,
   "theorem": "TruthCore.Results.Case.Catholicism.StageOneViaFullDescription.stageOneViaFullDescription",
   "type_sha256": "ba307160c31429bfdac6d682f32e6132d559e559d6224d4d0ff63a02b5c7e8bf"

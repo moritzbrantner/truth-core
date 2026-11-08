@@ -1,7 +1,9 @@
 {
-  "id": "INF-TEMPORAL-DIRECTION-FRAMEWORK",
+  "id": "1f3bee85-20c2-5d7c-ae7d-36573f785b54",
+  "label": "For every event carrier, linearly ordered time carrier, clock…, by Classical-order-classification",
+  "legacy_id": "INF-TEMPORAL-DIRECTION-FRAMEWORK",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-TEMPORAL-DIRECTION-FRAMEWORK",
+  "output_statement_id": "2e6a7c42-730f-550f-a277-0891b7d806ae",
   "rule": "classical-order-classification",
   "meaning": "Invoke the certified universal direction framework; classical quantifier negation finds a violating edge, and linearity makes a non-backward non-strict edge simultaneous. Coverage, pairwise exclusivity and the strict branch finite-path consequence are distinct conjuncts. Reused at the same typed model by the downstream fork consumption.",
   "assumption_statement_ids": [],

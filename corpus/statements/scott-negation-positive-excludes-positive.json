@@ -1,8 +1,10 @@
 {
-  "id": "STMT-SCOTT-NEGATION-POSITIVE-EXCLUDES-POSITIVE",
+  "id": "f86dfc69-3329-5c19-8c5e-fac01d5c3aad",
+  "label": "Scott's axiom A1a: at every world, for every property, if the negation of the property is…",
+  "legacy_id": "STMT-SCOTT-NEGATION-POSITIVE-EXCLUDES-POSITIVE",
   "paraphrase": "Scott's axiom A1a (AFP GoedelGod.thy): at every world, for every property, if the negation of the property is positive, the property is not positive.",
   "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.NegationPositiveExcludesPositive",
   "definition_ids": [
-    "DEF-POSITIVE-PROPERTY-SCOTT"
+    "9a9e4fd6-d810-5039-9185-a93a2e0a358a"
   ]
 }

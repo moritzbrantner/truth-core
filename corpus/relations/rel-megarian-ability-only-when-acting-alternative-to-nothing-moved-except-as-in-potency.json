@@ -1,9 +1,11 @@
 {
-  "id": "REL-MEGARIAN-ABILITY-ONLY-WHEN-ACTING-ALTERNATIVE-TO-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
+  "id": "d08976c2-6c81-5c77-b9c6-6543a0865585",
+  "label": "The Megarian thesis: a thing is able only… attacks Nothing is moved except insofar as it is in…",
+  "legacy_id": "REL-MEGARIAN-ABILITY-ONLY-WHEN-ACTING-ALTERNATIVE-TO-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
   "subject_kind": "statement",
-  "subject_id": "STMT-MEGARIAN-ABILITY-ONLY-WHEN-ACTING",
+  "subject_id": "c51c5e26-5ec4-5257-8282-e1bea22e20ba",
   "predicate": "attacks",
   "object_kind": "statement",
-  "object_id": "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
+  "object_id": "4be9a4ac-699a-5adc-88d4-bbd958fa1576",
   "note": "The original full-strength Megarian thesis is a guarded semantic objection, not an unconditional complement of moved-in-potency. The new checked bridge needs an actual moved witness and the SAME-sense moved-tuple potency-to-unactualized-capacity analysis before yielding the precise analyst moved/not-potent countertuple, without deriving the stronger occasionalist candidate story. Existing MEGARIAN-THESIS-ABOLISHES-MOTION and its four-premise core remain unchanged; their incomplete-motion and ability premises remain open. No unqualified refutation or floor change is registered. See docs/notes/megarian-moved-potency-boundary.md."
 }

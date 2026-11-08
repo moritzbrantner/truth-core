@@ -1,25 +1,27 @@
 {
-  "id": "NATURALISM-IMMANENT-LAWS-INSTANTIATED",
+  "id": "4a020329-6f7f-56b5-9c19-6d1b5c193fe8",
+  "label": "Under occupant N1 in the explicitly constructed…, from N1, EXISTENCE_NATURALISM_1: at the selected…",
+  "legacy_id": "NATURALISM-IMMANENT-LAWS-INSTANTIATED",
   "premise_statement_ids": [
-    "STMT-NATURALISM-N1"
+    "f54cc1ad-8913-52ec-abf1-be30f76a03bc"
   ],
-  "conclusion_statement_id": "STMT-NATURALISM-IMMANENT-LAWS-INSTANTIATED",
+  "conclusion_statement_id": "48360846-0181-5904-9870-536de28d0ed7",
   "inference_ids": [
-    "INF-NATURALISM-IMMANENT-LAWS-INSTANTIATED"
+    "007ceeed-7822-5a59-83b8-977b076dddc3"
   ],
   "meaning": "Unpack N1 at a represented law entity, then unpack its concrete instance-derived location to recover an existing bearer and its instantiation. A checked companion excludes existing uninstantiated law representatives. This is conditional on the selected representation/location profile, not an independent defense of immanent universals or the truth of N1.",
   "definition_ids": [
-    "DEF-NATURALISM-N1",
-    "DEF-SPATIOTEMPORAL-FRAME",
-    "DEF-SPATIOTEMPORAL-LOCATED",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-NATURALISM-LAW-REPRESENTATION",
-    "DEF-IMMANENT-LAW-LOCATION"
+    "1d25373b-7781-5177-add3-337874b8670b",
+    "e9e031af-665e-5888-9328-f7637b5a2677",
+    "ddde7152-b698-5a85-8060-b8c6c9905758",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "0a17ca95-b67c-52c9-b130-274155fb5e73",
+    "f48db052-fb1e-5d07-9811-0a2167ab7bb2"
   ],
   "disambiguation_ids": [
-    "DISAMB-SPATIOTEMPORAL"
+    "1ea8b036-7a66-540a-be38-301a8db9077c"
   ],
   "strong_version_needed": {
-    "STMT-NATURALISM-N1": "The theorem ranges over existing law representatives without a supplied concreteness predicate. N2 would need an additional classification of those entities as concrete; no all-existing-concrete bridge is silently assumed. This is an N1 occupant profile, not a claim about all naturalist variants."
+    "f54cc1ad-8913-52ec-abf1-be30f76a03bc": "The theorem ranges over existing law representatives without a supplied concreteness predicate. N2 would need an additional classification of those entities as concrete; no all-existing-concrete bridge is silently assumed. This is an N1 occupant profile, not a claim about all naturalist variants."
   }
 }

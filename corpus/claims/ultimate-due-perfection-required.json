@@ -1,14 +1,16 @@
 {
-  "id": "AQUINAS-ST-I-Q5-A1-ULTIMATE-PERFECTION",
-  "statement_id": "STMT-ULTIMATE-DUE-PERFECTION-REQUIRED",
-  "source_id": "AQUINAS-ST",
+  "id": "1a20cd21-8b87-5576-9d29-e979b8c36c3a",
+  "label": "Thomas Aquinas, Summa theologiae I q.5 a.1…: A thing lacking the ultimate perfection it ought to…",
+  "legacy_id": "AQUINAS-ST-I-Q5-A1-ULTIMATE-PERFECTION",
+  "statement_id": "1d35dc3b-f8af-5362-b53b-23651f89f9de",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.5 a.1 ad 1",
   "interpretation": "The reply distinguishes being simpliciter through first substantial actuality from goodness simpliciter through ultimate perfection. It explicitly denies goodness simpliciter of what lacks the ultimate perfection it ought to have, while allowing goodness in a respect insofar as actual. Only that negative conditional is formalized; no converse, existence of a deficient subject, or double-negation elimination is added. This is a sibling of the existing per-perfection reading, not a revision or extension of its type.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-GOOD-SIMPLICITER-ULTIMATE-PERFECTION"
+    "e2f5a593-68e8-57a2-8d45-f02fb0c9ffc3"
   ],
   "disambiguation_ids": [
-    "DISAMB-GOOD-FUNCTION-HUMAN-ULTIMATE"
+    "bbcdfe40-8a39-5ac5-acad-62ca350d70fa"
   ]
 }

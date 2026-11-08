@@ -1,6 +1,8 @@
 {
-  "id": "STRENGTH-CAUSE-NON-RESTATEMENT-CONTROL",
-  "argument_id": "STRENGTH-CAUSE-NON-RESTATEMENT-CONTROL",
+  "id": "21204333-0998-5b5c-a891-702902ace5ab",
+  "label": "In the specified Bool setting, the implication from broad to distinct CAUSE_2 is vacuously true…",
+  "legacy_id": "STRENGTH-CAUSE-NON-RESTATEMENT-CONTROL",
+  "argument_id": "08773c5f-0f9f-561d-94e6-6912ca9966c4",
   "challenge_module": "TruthCore.Results.Logic.StrengthCause.Challenge",
   "solution_module": "TruthCore.Results.Logic.StrengthCause.Solution",
   "theorem": "TruthCore.Results.Logic.StrengthCause.nonRestatementControl",

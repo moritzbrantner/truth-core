@@ -1,7 +1,8 @@
 {
-  "id": "MAXIME-SENSE-FORK-CAUSES-BEING-OF-ALL",
+  "id": "4519a560-5977-5258-9878-a3aa7eecccd4",
   "label": "Whichever single sense maxime takes, a MAXIME_1 being causes being in all others",
-  "argument_id": "MAXIME-SENSE-FORK-CAUSES-BEING-OF-ALL",
+  "legacy_id": "MAXIME-SENSE-FORK-CAUSES-BEING-OF-ALL",
+  "argument_id": "312639cc-b428-5f6b-a299-f852720125ec",
   "challenge_module": "TruthCore.Results.Causality.TermSenseForks3.Challenge",
   "solution_module": "TruthCore.Results.Causality.TermSenseForks3.Solution",
   "theorem": "TruthCore.Results.Causality.TermSenseForks3.maximeEnsCausesAllBySenseFork",

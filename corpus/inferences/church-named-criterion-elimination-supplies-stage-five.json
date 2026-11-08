@@ -1,11 +1,13 @@
 {
-  "id": "INF-CHURCH-NAMED-CRITERION-ELIMINATION-SUPPLIES-STAGE-FIVE",
+  "id": "d5ba194c-f58a-5b0f-a53e-21931e90a139",
+  "label": "Jesus founded a visible, enduring society with an authority structure, by Constructive-proof (3)",
+  "legacy_id": "INF-CHURCH-NAMED-CRITERION-ELIMINATION-SUPPLIES-STAGE-FIVE",
   "input_statement_ids": [
-    "STMT-CHURCH-NAMED-CRITERIA-COVER",
-    "STMT-CHURCH-SPIRITUAL-CRITERION-FAILS",
-    "STMT-CHRIST-FOUNDED-SELECTED-CHURCH"
+    "3386b0bc-939e-5296-b517-86847f6b3b52",
+    "713b1289-d9c5-5999-96f0-dc636e67f25c",
+    "0f0a4a1e-87f2-509c-a6ef-928dc5a91193"
   ],
-  "output_statement_id": "STMT-CHRIST-FOUNDED-VISIBLE-CHURCH",
+  "output_statement_id": "a8dfc0b8-140f-5351-a856-16a719251ac3",
   "rule": "constructive-proof",
   "meaning": "Under open named coverage and an actual negation of the spiritual calibration, select visible or joint calibration and import its stage-5 theorem on the explicit historical witness. A model showing spiritual calibration alone insufficient does not establish its negation.",
   "assumption_statement_ids": [],

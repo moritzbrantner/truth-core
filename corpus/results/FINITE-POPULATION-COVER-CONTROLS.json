@@ -1,6 +1,8 @@
 {
-  "id": "FINITE-POPULATION-COVER-CONTROLS",
-  "argument_id": "FINITE-POPULATION-COVER-CONTROLS",
+  "id": "a243e1b6-e217-55aa-80ba-a5fab5fc8324",
+  "label": "The alternating model fails amalgamation; infinite Nat tails are populated and individually…",
+  "legacy_id": "FINITE-POPULATION-COVER-CONTROLS",
+  "argument_id": "fec783c1-2558-5acb-af0d-60fabe89971c",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageOne.FinitePopulationCoverControls.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageOne.FinitePopulationCoverControls.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageOne.FinitePopulationCoverControls.checks",

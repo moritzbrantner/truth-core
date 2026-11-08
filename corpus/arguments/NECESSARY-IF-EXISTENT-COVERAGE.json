@@ -1,20 +1,22 @@
 {
-  "id": "NECESSARY-IF-EXISTENT-COVERAGE",
+  "id": "f2251a3d-0e5d-5446-9790-02f5c8ce4146",
+  "label": "At the named standpoint, either every\u2026, from The chosen frame is Euclidean: any two\u2026 and 2 more",
+  "legacy_id": "NECESSARY-IF-EXISTENT-COVERAGE",
   "premise_statement_ids": [
-    "STMT-EUCLIDEAN-FRAME",
-    "STMT-NECESSARY-IF-EXISTENT",
-    "STMT-EXCLUDED-MIDDLE"
+    "62b4a40a-919e-5da4-998c-131c386b7361",
+    "bd1281e6-75b3-5503-8c0a-f97213388c88",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-NECESSARY-IF-COVERAGE",
+  "conclusion_statement_id": "306493cd-404d-5aca-afd5-860ce74f3bd6",
   "inference_ids": [
-    "INF-NECESSARY-IF-EXISTENT-COVERAGE"
+    "2357d09a-47fd-599d-8481-333a9383de1e"
   ],
   "meaning": "From STMT-EUCLIDEAN-FRAME, STMT-NECESSARY-IF-EXISTENT, STMT-EXCLUDED-MIDDLE, derive: At the named standpoint, either every accessible world satisfies G or every accessible world fails G (\u25a1G \u2228 \u25a1\u00acG). Coverage does not itself assert exclusivity or select a side.",
   "definition_ids": [
-    "DEF-MODAL-FIXTURE-FRAME",
-    "DEF-NECESSARY-IF-EXISTENT-PROFILE"
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "6f7a4ccc-10de-52fb-af44-41dcb793d8c9"
   ],
   "disambiguation_ids": [
-    "DISAMB-NECESSARY-IF-EXISTENT-SYMMETRY"
+    "7181df76-d6ed-5226-a34b-08910ddbe6a0"
   ]
 }

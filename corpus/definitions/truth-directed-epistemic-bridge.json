@@ -1,5 +1,7 @@
 {
-  "id": "DEF-TRUTH-DIRECTED-EPISTEMIC-BRIDGE",
+  "id": "526d1d3c-86de-5835-a061-41e22cff70d1",
+  "label": "Truth-directed epistemic selection…: At a specified actual world, every worldview which OughtAdopt…",
+  "legacy_id": "DEF-TRUTH-DIRECTED-EPISTEMIC-BRIDGE",
   "term": "truth-directed epistemic selection bridge",
   "definition": "At a specified actual world, every worldview which OughtAdopt selects has all its accepted contents true there. Together with a duty-content true there, it entails that each selected worldview is compatible with that duty and with its necessary implications. It is stronger than merely requiring each selected worldview to be internally consistent.",
   "basis": "stipulative",

@@ -1,12 +1,14 @@
 {
-  "id": "REL-REGRESS-SCHEMA-EFFICIENT",
+  "id": "19b33182-c638-5047-b475-14e05384f8b0",
+  "label": "For every same-carrier causal and per… instance of schema Universal conditional structural laws…",
+  "legacy_id": "REL-REGRESS-SCHEMA-EFFICIENT",
   "subject_kind": "statement",
-  "subject_id": "STMT-REGRESS-EFFICIENT-TRANSFER",
+  "subject_id": "c2f3c8eb-1057-5bad-a6dd-07c7ad691c42",
   "predicate": "instance_of_schema",
   "object_kind": "statement",
-  "object_id": "STMT-REGRESS-STRUCTURAL-SCHEMA",
+  "object_id": "984860c8-c973-5ef7-b51f-af0abb263937",
   "note": "Proved conditional efficient instance of the structural schema, with separate exact theorem obligations in REGRESS-SCHEMA-PACKAGE. bind-check matches both named theorem types to these two statement declarations; Comparator checks their frozen Challenges and Solutions. This relation is registration metadata, never source support, an inference from one instance to the universal schema, or a premise-closure rule. Actual domain conditions remain open.",
-  "verification_result_id": "REGRESS-SCHEMA-PACKAGE",
+  "verification_result_id": "74e00870-e0d4-5467-8c09-a75b2a922ce5",
   "instance_theorem": "TruthCore.Results.Logic.RegressSchema.efficientTransfer",
   "schema_theorem": "TruthCore.Results.Logic.RegressSchema.structural"
 }

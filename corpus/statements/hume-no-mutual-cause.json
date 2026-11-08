@@ -1,11 +1,13 @@
 {
-  "id": "STMT-HUME-NO-MUTUAL-CAUSE",
+  "id": "c3ace4b2-f43b-5085-8bb1-bd057386eadd",
+  "label": "Nothing is both the cause and the effect of another thing: for distinct x and y, x does not both…",
+  "legacy_id": "STMT-HUME-NO-MUTUAL-CAUSE",
   "paraphrase": "Nothing is both the cause and the effect of another thing: for distinct x and y, x does not both cause y and get caused by y. Non-modal content only; it excludes two-step causal cycles, not self-causation or longer cycles.",
   "lean_declaration": "TruthCore.Modern.Hume.CauseEffectAsymmetry.NoMutualCauseReading",
   "definition_ids": [
-    "DEF-HUME-CAUSE-EFFECT-RELATION"
+    "6b2ff599-ffe3-5b41-9ed6-cb8cb3ea1cc2"
   ],
   "disambiguation_ids": [
-    "DISAMB-HUME-MAXIM-RELATION"
+    "f36cbfad-6953-53dc-820e-d7aad0efe094"
   ]
 }

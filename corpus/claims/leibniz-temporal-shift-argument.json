@@ -1,15 +1,17 @@
 {
-  "id": "LEIBNIZ-III-6-TEMPORAL-REASON",
-  "statement_id": "STMT-TEMPORAL-SHIFT-NO-DISCERNIBLE-CONTRAST",
-  "source_id": "LEIBNIZ-CLARKE-CORRESPONDENCE",
+  "id": "573edfda-7255-5fef-bf33-d830a0232f61",
+  "label": "Gottfried Wilhelm Leibniz and Samuel…, A…: Leibniz argues that, were time distinct from things…",
+  "legacy_id": "LEIBNIZ-III-6-TEMPORAL-REASON",
+  "statement_id": "2bd8f0e3-a10f-5e19-915a-6b60a124b1fc",
+  "source_id": "77710698-4fea-53c2-b6d7-5485434d28a7",
   "locator": "Leibniz III §6",
   "interpretation": "Source reading recorded in prose only, from the materialized 1717 English exchange. It preserves the speaker’s argument without treating it as a checked philosophical consequence or identifying it with the analyst re-dating model.",
   "status": "formalized",
   "basis": "translation",
   "definition_ids": [
-    "DEF-PATH-RELOCATION-DATING"
+    "ed5ebda7-c7d0-5aff-a268-9579e87a852a"
   ],
   "disambiguation_ids": [
-    "DISAMB-PATH-RELOCATION"
+    "84feebd9-62b5-5bb1-93b7-c4ac491f1a8c"
   ]
 }

@@ -1,20 +1,22 @@
 {
-  "id": "ATTEMPT-FINITE-HITTING-561",
+  "id": "4f75de7c-97ff-5d20-a4f9-72ae19ed838b",
+  "label": "Derive H+A→N from the exact certified finite omission induction",
+  "legacy_id": "ATTEMPT-FINITE-HITTING-561",
   "statement_ids": [
-    "STMT-FINITE-HITTING",
-    "STMT-FINITE-HITTING-ONE-FINITE",
-    "STMT-FINITE-HITTING-NO-NECESSARY",
-    "STMT-ABSENCE-AMALGAMATION",
-    "STMT-NECESSARY-INDIVIDUAL-DE-DICTO",
-    "STMT-FINITE-HITTING-PACKAGE"
+    "dc7b1ecb-1dd5-570e-a3d1-653a8e7cdadb",
+    "83e47239-0986-5a54-b27a-8408b14ab442",
+    "39c29835-81e3-580f-a8ef-6dacb2a8473e",
+    "09e9333a-d596-5ee1-99ce-80f1bad4a0ba",
+    "7570cdf8-56b1-58dc-951d-e987959c2d29",
+    "35ea71e7-c17d-5e83-a8d9-3d3dc666ea59"
   ],
   "date": "2026-11-06",
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Derive H+A→N from the exact certified finite omission induction; P+A+one finite possible population→H→N; actual Mathlib compact-profile finite cylinder subcover→H→N; finite-world-count bound. Certify exact three inclusion-minimal policy cores relative to an inhabited universal component and their omission witnesses, strict full-roster/one-finite-population/hitting hierarchy, and strongest infinite-tail survivor: no finite hitting set, every population infinite, infinitely many worlds, finite joint omission but no globally empty world, and noncompact profiles. Reuse the existing #607 closure separation rather than a duplicate model and #1043 actual tail convergence rather than reprove it. No #495 compact-subcover implementation existed in the prior attempt; the new theorem uses Mathlib directly. Finite registry admits only supported zero-axiom H/P/A/not-N/U controls; O/K proofs require approved Mathlib axioms and infinite profiles remain honest Lean witnesses. Source attribution deferred; no source/claim/passages, God identity, premise truth or root closure. Full findings, rejected interpretations and open real applicability burdens persist in docs/notes/finite-hitting-561.md. Canonical full library build passes. Exact three-result binding reports 3 bound and 0 mismatch; all three Comparator configurations pass with independent NanoDa acceptance. Live CONFIG-FINITE-HITTING-561 certification verifies 5 incompatible configurations and 3 supported finite controls (24 zero-axiom model certificates); its unsupported infinite survivor remains unresolved in that finite registry. Corpus, bundle audit, generators/module format and attribution self-check pass. Computed root frontier is unchanged: 90 open (30 bare, 18 supported, 42 stated), cheapest route cost 31. The fresh-main merge of #1046 changed metadata/docs only, so unchanged proof evidence is reused; delivered-head CI and current-head review remain required.",
   "evidence": [
-    "FINITE-HITTING",
-    "FINITE-HITTING-CORE",
-    "FINITE-HITTING-FINITE-WORLD-CORE"
+    "b5ca40ab-9e00-5188-8788-3e60298ae6db",
+    "2cc72623-16c5-5890-be3e-8e6bfb8a4f36",
+    "fa9ddb28-037e-533f-b136-9fc65a5ec9df"
   ]
 }

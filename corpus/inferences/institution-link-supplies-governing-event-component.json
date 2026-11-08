@@ -1,9 +1,11 @@
 {
-  "id": "INF-INSTITUTION-LINK-SUPPLIES-GOVERNING-EVENT-COMPONENT",
+  "id": "e0067ac0-a188-52d6-8d23-f552f8b0b7e4",
+  "label": "Weak institutional transfer: whenever Jesus holds a mandate and founded the…, by Constructive-proof",
+  "legacy_id": "INF-INSTITUTION-LINK-SUPPLIES-GOVERNING-EVENT-COMPONENT",
   "input_statement_ids": [
-    "STMT-CHURCH-FOUNDED-IN-COMMISSIONED-APOSTLES"
+    "820771a7-1173-510f-88ec-445b203fb1fd"
   ],
-  "output_statement_id": "STMT-GOVERNING-EVENT-INSTITUTION-LINK",
+  "output_statement_id": "14f227c8-2a52-58e4-8bbb-61d82c81c8cf",
   "rule": "constructive-proof",
   "meaning": "Project only the governing-event institutional consequence needed to confront the message rival. The old teaching component is unnecessary for this target.",
   "assumption_statement_ids": [],

@@ -1,22 +1,24 @@
 {
-  "id": "NAMING-VERACITY-GOD-OMNIPOTENT-FROM-INFINITE",
+  "id": "84ab49b6-31ee-50e8-8a87-8da06c16a4bc",
+  "label": "Whatever is GOD_4 can do every task that involves no contradiction, from INFINITE_1",
+  "legacy_id": "NAMING-VERACITY-GOD-OMNIPOTENT-FROM-INFINITE",
   "premise_statement_ids": [
-    "STMT-GOD-IS-INFINITE",
-    "STMT-INFINITE-ACT-HAS-INFINITE-POWER"
+    "b0132989-4810-58d9-8aa3-1c9c7a0dfa28",
+    "5ea1069d-84cd-5850-a8b0-adbce332296e"
   ],
-  "conclusion_statement_id": "STMT-GOD-IS-OMNIPOTENT",
+  "conclusion_statement_id": "0ec9bd34-cbf6-5838-9d45-6ae516504f23",
   "inference_ids": [
-    "INF-NAMING-VERACITY-GOD-OMNIPOTENT-FROM-INFINITE"
+    "16c49d65-b20f-5eb0-be94-65a24bfb7ed8"
   ],
   "meaning": "Whatever is God is infinite (stage-2 attribute), and what is infinite can do every consistent task; so whatever is God can do every consistent task. Reuses the stage-2 node GodIsInfinite with its primitive Infinite predicate.",
   "definition_ids": [
-    "DEF-ACTIVE-POWER-TASK-VOCABULARY",
-    "DEF-ESSE",
-    "DEF-ESSENCE-THOMISTIC-NATURE",
-    "DEF-GOD-OF-CLASSICAL-THEISM",
-    "DEF-INFINITE"
+    "0525d8b9-f620-584f-a11f-beee6d8871a5",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "183b48d2-1753-583d-aef9-4199cff86231",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "1d8890c0-afe2-5cdb-a400-0bbd4b79053d"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSENCE"
+    "1aef8986-ed29-564f-9803-d812d2ff63e1"
   ]
 }

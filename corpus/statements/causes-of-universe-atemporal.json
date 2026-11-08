@@ -1,14 +1,16 @@
 {
-  "id": "STMT-CAUSES-OF-UNIVERSE-ATEMPORAL",
+  "id": "3504cc3a-6bba-5297-a2cb-e12614d0f6a4",
+  "label": "Strong version of the owner's 'exists out of time': at the selected world no cause of the…",
+  "legacy_id": "STMT-CAUSES-OF-UNIVERSE-ATEMPORAL",
   "paraphrase": "Strong version of the owner's 'exists out of time': at the selected world no cause of the spacetime whole is successively temporal (present at an earlier and a later time with a change of state) in any series of the supplied family. It does not say the cause is eternal and does not exclude a non-successive (tota simul) duration.",
   "lean_declaration": "TruthCore.Ontology.NaturalismConsequences.CausesOfUniverseAtemporal",
   "definition_ids": [
-    "DEF-PART-OF-SPACETIME",
-    "DEF-SPATIOTEMPORAL-FRAME",
-    "DEF-SUCCESSIVELY-TEMPORAL",
-    "DEF-TEMPORAL-SERIES"
+    "cc2b5981-93cb-5ba7-9731-1512cd0f69e7",
+    "e9e031af-665e-5888-9328-f7637b5a2677",
+    "c3dd15c9-b0a6-5b72-aef1-3b055d1c2941",
+    "8ed10810-ed80-56d4-b629-34d1ef6ae07f"
   ],
   "disambiguation_ids": [
-    "DISAMB-TEMPORAL-SENSE"
+    "bfeff900-79ef-51ec-a224-b6736f31d1c1"
   ]
 }

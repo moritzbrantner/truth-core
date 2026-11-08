@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PERFECTION-RECEIVED-IN",
+  "id": "cf4875cb-6baf-5bf5-8590-84a21777c66c",
+  "label": "Reception of a perfection: ReceivedIn y r z: y's having the perfection r is received in z, which…",
+  "legacy_id": "DEF-PERFECTION-RECEIVED-IN",
   "term": "reception of a perfection (ReceivedIn y r z)",
   "definition": "ReceivedIn y r z: y's having the perfection r is received in z, which stands to it as receiving potency to received act, as heat is received in the wood it heats or a form in matter (ST I q.7 a.1 co.: 'forma ... per hoc quod recipitur in materia'). It generalizes EsseReceivedIn (DEF-ESSE-RECEIVED-IN) from esse to any perfection r. It is not the giving of r by an agent: the agent gives, the recipient receives (DISAMB-ESSE-RECEPTION). Example: the heat of heated wood, received in the wood. Non-example: the fire's own heat, which the fire has not as received in the wood. In Lean a parameter B → R → B → Prop constrained only by the premises of TruthCore.Causality.CausalMapsBatch1.",
   "basis": "stipulative",

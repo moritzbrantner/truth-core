@@ -1,7 +1,9 @@
 {
-  "id": "INF-THRESHOLD-BELIEF-SKEW",
+  "id": "72fe9733-e210-58fc-936b-2037580d77a4",
+  "label": "The declared Bool probability measure assigns true 19/20 and…, by Finite-probability-threshold…",
+  "legacy_id": "INF-THRESHOLD-BELIEF-SKEW",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-THRESHOLD-BELIEF-SKEW",
+  "output_statement_id": "ed75d6fc-e142-5a41-8c5d-cfd41d987d50",
   "rule": "finite-probability-threshold-skew",
   "meaning": "The declared Bool probability measure assigns true 19/20 and false 1/20. At threshold 9/10 the policy accepts the proper event {true}, is conjunction closed, and rejects the empty event, while the selected actual alternative false has positive probability and does not satisfy that accepted event. This is a consistent fallible policy model, not an independently warranted actual belief or an account of categorical normativity.",
   "assumption_statement_ids": [],

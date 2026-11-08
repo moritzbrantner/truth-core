@@ -1,12 +1,14 @@
 {
-  "id": "STMT-PRIMITIVE-ETERNITY-DEFINITION-FORK",
+  "id": "aeaf4816-1220-58d1-b486-1effd7269b38",
+  "label": "For every supplied duration profile, either the two named calibrations cover or both fail",
+  "legacy_id": "STMT-PRIMITIVE-ETERNITY-DEFINITION-FORK",
   "paraphrase": "For every supplied duration profile, either the two named calibrations cover or both fail. Structural coverage conditional on explicit excluded middle; not a theorem of philosophical theory exhaustion.",
   "lean_declaration": "TruthCore.Causality.EternityDefinitionFork.DefinitionFork",
   "definition_ids": [
-    "DEF-ETERNITY-CALIBRATION-PROFILE",
-    "DEF-BOETHIAN-ETERNAL"
+    "b9cac25b-6e7f-57ff-9d74-21d615912a0e",
+    "5e77da13-998f-56ab-96b7-12731ac95f70"
   ],
   "disambiguation_ids": [
-    "DISAMB-DURATION-SENSE"
+    "6805c9bd-fade-56d1-a034-c7a87d78c343"
   ]
 }

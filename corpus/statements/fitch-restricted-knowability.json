@@ -1,12 +1,14 @@
 {
-  "id": "STMT-FITCH-RESTRICTED-KNOWABILITY",
+  "id": "23856ef3-0ee8-5b96-a6f0-def6ffba03fa",
+  "label": "Every actually true content in the supplied admissible family is known at some modally accessible…",
+  "legacy_id": "STMT-FITCH-RESTRICTED-KNOWABILITY",
   "paraphrase": "Every actually true content in the supplied admissible family is known at some modally accessible world.",
   "lean_declaration": "TruthCore.Logic.FitchKnowability.RestrictedKnowability",
   "definition_ids": [
-    "DEF-FITCH-WORLD-INDEXED-KNOWLEDGE",
-    "DEF-FITCH-ADMISSIBLE-CONTENTS"
+    "4c0b6f4b-25fe-54c5-abce-5e866775385c",
+    "8cdd567b-c06b-5c6f-8a3a-f785e6c83fde"
   ],
   "disambiguation_ids": [
-    "DISAMB-FITCH-OPERATOR-SCOPE"
+    "840d320e-ed3b-553b-b0dd-750c61c298ba"
   ]
 }

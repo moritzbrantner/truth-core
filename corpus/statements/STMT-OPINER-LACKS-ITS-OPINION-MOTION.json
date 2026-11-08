@@ -1,15 +1,17 @@
 {
-  "id": "STMT-OPINER-LACKS-ITS-OPINION-MOTION",
+  "id": "10e6b6a2-c248-5786-b6e2-ad4c3bdc8720",
+  "label": "Some actual opiner of a supplied content is not moved in the SAME asOpinion respect demanded by…",
+  "legacy_id": "STMT-OPINER-LACKS-ITS-OPINION-MOTION",
   "paraphrase": "Some actual opiner of a supplied content is not moved in the SAME asOpinion respect demanded by the original norm. This local exact countertuple does not deny motion of every other being or assert a full McTaggart theory.",
   "lean_declaration": "TruthCore.Alternatives.OpiningMotionRivalCoverage.Countertuple",
   "definition_ids": [
-    "DEF-OPINING-MOTION-EXACT-COUNTERTUPLE",
-    "DEF-OPINING",
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-RESPECT"
+    "50cde34a-ea0b-5483-8494-86d51dbda4a2",
+    "9703834b-4e1d-5f4a-9e9a-2df5a215d493",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION",
-    "DISAMB-CHANGE-A-SERIES"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "784f3293-6601-5730-a89a-c0b84d8d8b57"
   ]
 }

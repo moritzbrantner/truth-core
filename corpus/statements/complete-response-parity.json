@@ -1,18 +1,20 @@
 {
-  "id": "STMT-COMPLETE-RESPONSE-PARITY",
+  "id": "e786c1ed-75b5-558a-8a91-64b2b54f4a56",
+  "label": "Two supplied Boolean-scenario Exercises have identical occurrence tables for both public input…",
+  "legacy_id": "STMT-COMPLETE-RESPONSE-PARITY",
   "lean_declaration": "TruthCore.Explanation.CompleteResponseParity.Certificate",
   "paraphrase": "Two supplied Boolean-scenario Exercises have identical occurrence tables for both public input contributors and their target at all four scenarios. Both are coherent, every group record in each is scenario-jointly-sufficient, each public input is indispensable to the target group, and every event has inductive Supply. The strengthened one-source exercise has an exercised scenario-sufficient common ancestor of both inputs and a least graph source; the plural exercise has no common source of the inputs and no least graph source. The original one-source control fails sufficiency of a root-to-input record. This is a finite structural/observation counterexample to identifying source count from the listed response and sufficiency tests, not an argument that the hidden record structures, genuine interventions, productive causation, modal worlds, or existential explanations are equivalent.",
   "definition_ids": [
-    "DEF-COMPLETE-RESPONSE-PARITY",
-    "DEF-JOINT-SCENARIO-SUFFICIENCY",
-    "DEF-JOINT-COOPERATION-BRANCHES",
-    "DEF-DERIVATIVE-JOINT-SUPPLY",
-    "DEF-ULTIMATE-ADEQUACY-COMPARISON"
+    "524c5cea-64c2-547a-9e83-80312b490080",
+    "800637b5-8f4b-54ea-865d-c4fd444d1632",
+    "39ee9ec8-6405-5779-b01e-61468faab2dc",
+    "c9d479bb-308a-5a2b-9755-ddc0170d4e35",
+    "6742a5b8-f4ed-5bdf-8715-93dd8ff0444e"
   ],
   "disambiguation_ids": [
-    "DISAMB-JOINT-COOPERATION-NECESSITY",
-    "DISAMB-JOINT-SUPPLY-POWER-OCCURRENCE",
-    "DISAMB-JOINT-CAUSAL-MEMBERSHIP-EXERCISE",
-    "DISAMB-ULTIMATE-ADEQUACY-FOUNDATION"
+    "3310d182-2ded-5baa-a5de-9dad52b0985e",
+    "79644a0a-db5b-5497-bb47-9f96d14cdae7",
+    "a375e21b-420a-5ee5-9e64-c816eacd74d4",
+    "7b8dc0d6-8239-5275-9f8f-0096bf4a3011"
   ]
 }

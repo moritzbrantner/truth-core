@@ -1,9 +1,11 @@
 {
-  "id": "REL-QUASI-REALIST-MINIMAL-TRUTH-ALTERNATIVE-TO-REALIST-ROBUST-TRUTH",
+  "id": "6760d78f-33ef-5f2c-8e11-7bcb1badd441",
+  "label": "Universal robust truth-aptness of moral… alternative to Realism: moral sentences are apt for…",
+  "legacy_id": "REL-QUASI-REALIST-MINIMAL-TRUTH-ALTERNATIVE-TO-REALIST-ROBUST-TRUTH",
   "subject_kind": "statement",
-  "subject_id": "STMT-NOT-REALIST-ROBUST-TRUTH-APT",
+  "subject_id": "39bcd47c-3bf5-5349-9392-f80527b5c8a0",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-REALIST-ROBUST-TRUTH-APT",
+  "object_id": "d4e4f835-2c5d-56ae-a3a0-9b9df9b6342b",
   "note": "Exact scoped logical rival endpoint after definition audit: failure of the same robust-universal target. The stronger attributed raw STMT-QUASI-REALIST-MINIMAL-TRUTH-APT is preserved unchanged and remains an explicit premise, together with STMT-GEACH-MINOR-PREMISE-IS-MORAL, of QUASI-REALIST-NONEMPTY-IMPLIES-NOT-ROBUST. The raw universal alone is not an incompatible alternative: an empty moral class permits both raw source answers, while another nonempty control rejects both (METAETHICS-TRUTH-APT-RIVAL-CONTROLS). Thus refuting the raw quasi-realist reading cannot automatically defend the robust target through this relation. The historical relation ID is retained; no exhaustive philosophical theory classification or refutation is inferred."
 }

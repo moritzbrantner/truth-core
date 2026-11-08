@@ -1,14 +1,16 @@
 {
-  "id": "STMT-BEING-MEASURED-BY-APPROACH-TO-GOD",
+  "id": "007c4558-273e-5e2b-944a-17c847b97146",
+  "label": "GOD_4 is not a proportioned measure of things, but is called the measure of all because each thing…",
+  "legacy_id": "STMT-BEING-MEASURED-BY-APPROACH-TO-GOD",
   "paraphrase": "God is not a proportioned (homogeneous) measure of things, but is called the measure of all because each thing has as much of being as it approaches God.",
   "definition_ids": [
-    "DEF-GENUS-BROAD",
-    "DEF-BEING-ANALOGICAL",
-    "DEF-GOD-OF-CLASSICAL-THEISM"
+    "486bb45e-c4a2-5ba5-8b12-498a24eb1678",
+    "954583f0-97f4-5f94-8fce-9e52ea267929",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807"
   ],
   "disambiguation_ids": [
-    "DISAMB-GENUS",
-    "DISAMB-BEING-UNIVOCITY",
-    "DISAMB-GOD"
+    "4822a4f5-a93b-52dc-855a-00b7d57928d5",
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58",
+    "205a39c3-915d-5fe4-8076-a9ff91329e08"
   ]
 }

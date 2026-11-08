@@ -1,6 +1,8 @@
 {
-  "id": "SELECTED-NECESSARY-ROUTE-FIRST-BEING",
-  "argument_id": "SELECTED-NECESSARY-ROUTE-FIRST-BEING",
+  "id": "afbe58e1-4d48-5ddd-b3fb-21b7f538c4b2",
+  "label": "Whatever is maximal in being is the…, from The specified candidate is CONCRETE_6 and… and 8 more",
+  "legacy_id": "SELECTED-NECESSARY-ROUTE-FIRST-BEING",
+  "argument_id": "1375ca5f-5f60-5abb-b6a8-adf75d36f49b",
   "challenge_module": "TruthCore.Results.Causality.SelectedNecessaryRoute.Challenge",
   "solution_module": "TruthCore.Results.Causality.SelectedNecessaryRoute.Solution",
   "theorem": "TruthCore.Results.Causality.SelectedNecessaryRoute.maximumFirstOfNecessaryRoot",

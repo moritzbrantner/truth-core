@@ -1,5 +1,7 @@
 {
-  "id": "STMT-MATTER-SUBJECT-PRIVATION-INCIDENTAL",
+  "id": "2d7fabd7-2299-5f02-86dd-0aef153e1a80",
+  "label": "Underlying matter is the non-incidental subject from which a result comes to be, whereas privation…",
+  "legacy_id": "STMT-MATTER-SUBJECT-PRIVATION-INCIDENTAL",
   "paraphrase": "Underlying matter is the non-incidental subject from which a result comes to be, whereas privation and contrariety belong incidentally to that subject.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.MatterSubjectPrivationIncidentalReading"
 }

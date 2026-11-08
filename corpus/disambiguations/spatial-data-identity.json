@@ -1,10 +1,12 @@
 {
-  "id": "DISAMB-SPATIAL-DATA-IDENTITY",
+  "id": "38b56008-c4ca-5fd9-9a61-046338e87cf7",
+  "label": "Same relative order, same coordinate configuration and same physical situation",
+  "legacy_id": "DISAMB-SPATIAL-DATA-IDENTITY",
   "term": "same relative order, same coordinate configuration and same physical situation",
   "sense_definition_ids": [
-    "DEF-SPATIAL-TRANSLATION-PROFILE",
-    "DEF-LEIBNIZ-RELATIONAL-SPACE",
-    "DEF-CLARKE-DISTINCT-ABSOLUTE-PLACES"
+    "abb77c4f-4175-581a-a24c-12d776819b91",
+    "103154b6-9ee2-5851-9c07-1e6d9e7d0ed1",
+    "97c719e9-e4ea-5ce9-acef-60de08cea6b2"
   ],
   "resolution": "The analyst profile proves that signed-displacement agreement is exactly a common real-line translation for a labeled inhabited configuration; it does not identify distinct coordinate functions. Leibniz’s relational individuation and Clarke’s distinction of alike absolute places are different philosophical criteria. Neither equality of unsigned distances nor translation symmetry alone establishes complete physical or metaphysical identity. Acceleration and rotation require additional structures."
 }

@@ -1,12 +1,14 @@
 {
-  "id": "AFP-GOEDELGOD-A4-A",
-  "statement_id": "STMT-SCOTT-POSITIVE-NECESSARILY-POSITIVE",
-  "source_id": "AFP-GOEDELGOD",
+  "id": "570f6deb-85d3-5bb3-99c3-f733b4b7c12e",
+  "label": "Christoph Benzmüller and Bruno…, Gödel's…: At every world, a POSITIVE_5 property is necessarily…",
+  "legacy_id": "AFP-GOEDELGOD-A4-A",
+  "statement_id": "0a4a4f75-f7e6-5543-8547-07de3402769c",
+  "source_id": "871fc43a-465b-5526-b895-28b2a6c997c9",
   "locator": "GoedelGod.thy, A4: \"[∀(λΦ. P Φ m→ □ (P Φ))]\"",
   "interpretation": "Axiom A4 as stated in the theory ('Positive properties are necessarily positive'). Attributed to the AFP formalization of Scott's notes, not to what Scott or Gödel intended.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-POSITIVE-PROPERTY-SCOTT",
-    "DEF-QML-KB-NECESSITY"
+    "9a9e4fd6-d810-5039-9185-a93a2e0a358a",
+    "153fcebf-66f6-53de-bad7-82a30a359c9c"
   ]
 }

@@ -1,17 +1,19 @@
 {
-  "id": "STMT-IDLE-POTENCY-POSTERIOR-TO-ACT",
+  "id": "010988b9-346a-5b81-8ad8-98a1c43debeb",
+  "label": "Whatever is in POTENCY_1 in a respect and is not being moved in that respect is simply posterior to…",
+  "legacy_id": "STMT-IDLE-POTENCY-POSTERIOR-TO-ACT",
   "paraphrase": "OPEN analyst premise, restricted to idle potency: whatever is in potency in a respect and is not being moved in that respect is simply posterior to some being in act in that respect. It is the half of act's simple priority that the prima via premises do not supply (STMT-ACT-PRIOR-FROM-MOTION-FACTS).",
   "lean_declaration": "TruthCore.Causality.Round4Revisited.IdlePotencyPosteriorToAct",
   "definition_ids": [
-    "DEF-ACT",
-    "DEF-POTENCY",
-    "DEF-SIMPLE-PRIORITY",
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-RESPECT"
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION",
-    "DISAMB-IN-ACT",
-    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "be54be36-3ce8-53f9-8168-50d1114e6c76"
   ]
 }

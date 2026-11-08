@@ -1,20 +1,22 @@
 {
-  "id": "COMMON-RANK-TO-UNION-WF",
+  "id": "47a957e3-3a0c-53c8-9c18-dc0302f92e64",
+  "label": "The union of every admitted world's direct…, from An OPEN framework presentation of union…",
+  "legacy_id": "COMMON-RANK-TO-UNION-WF",
   "premise_statement_ids": [
-    "STMT-COMMON-WELL-FOUNDED-PRIORITY-RANK"
+    "9240fa60-3e34-59a7-867e-f7a2294c6660"
   ],
-  "conclusion_statement_id": "STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT",
+  "conclusion_statement_id": "6af3bd73-f2bc-5018-ba2f-ec7f97d6c059",
   "inference_ids": [
-    "INF-COMMON-RANK-TO-UNION-WF"
+    "433db1b4-eeda-5ba3-84ab-1043d6105398"
   ],
   "meaning": "Pull accessibility back along the supplied rank map using the existing Regress.Graph.Map.wellFounded.",
   "definition_ids": [
-    "DEF-COMMON-PRIORITY-RANK",
-    "DEF-EXISTENCE-FACT-NECESSITATION"
+    "c674f0d3-e810-545a-9e09-77f4038d1062",
+    "5e797e6e-258c-5070-bd69-cb49f78ec98c"
   ],
   "disambiguation_ids": [
-    "DISAMB-NECESSITATION-PRIORITY-INVARIANCE",
-    "DISAMB-EXISTENCE-ESSE-SUPPORT",
-    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"
+    "b8b4c985-8b2b-545d-b474-2b5356e90140",
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "5d15d8f2-1080-53c9-886f-cee2a4ff23a9"
   ]
 }

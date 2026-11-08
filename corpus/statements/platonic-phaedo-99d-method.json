@@ -1,7 +1,9 @@
 {
-  "id": "STMT-PLATONIC-PHAEDO-99D-METHOD",
+  "id": "95bd78ea-4abb-59e2-b392-7653d2b3953f",
+  "label": "Socrates turns to accounts to examine truth and hypothesizes the account he judges strongest",
+  "legacy_id": "STMT-PLATONIC-PHAEDO-99D-METHOD",
   "paraphrase": "Socrates turns to accounts to examine truth and hypothesizes the account he judges strongest. This is a method of inquiry, not a theorem establishing those hypotheses.",
   "definition_ids": [
-    "DEF-PLATONIC-ENTITY"
+    "a2244968-5199-5276-a6a4-c19589b5295b"
   ]
 }

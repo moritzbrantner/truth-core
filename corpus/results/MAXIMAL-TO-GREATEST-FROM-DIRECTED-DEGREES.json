@@ -1,6 +1,8 @@
 {
-  "id": "MAXIMAL-TO-GREATEST-FROM-DIRECTED-DEGREES",
-  "argument_id": "MAXIMAL-TO-GREATEST-FROM-DIRECTED-DEGREES",
+  "id": "7fc3b7b0-2703-51d0-b1af-80b8626e8594",
+  "label": "Every merely MAXIMAL_5 bearer under the supplied comparative has a greatest…, from directed degrees",
+  "legacy_id": "MAXIMAL-TO-GREATEST-FROM-DIRECTED-DEGREES",
+  "argument_id": "9277c8cb-5f59-5ca9-93a3-ef2aab9e1f1d",
   "challenge_module": "TruthCore.Results.Causality.MaximumDefinitions.DirectedBridge.Challenge",
   "solution_module": "TruthCore.Results.Causality.MaximumDefinitions.DirectedBridge.Solution",
   "theorem": "TruthCore.Results.Causality.MaximumDefinitions.DirectedBridge.directedBridge",

@@ -1,6 +1,8 @@
 {
-  "id": "MEANING-V3-CALIBRATION-REJECTED",
-  "argument_id": "MEANING-V3-CALIBRATION-REJECTED",
+  "id": "1730c593-657b-5491-93a1-f6c52098665f",
+  "label": "V3 fails to calibrate cognitive…, from Strong version: for every sentence, if it… and 2 more",
+  "legacy_id": "MEANING-V3-CALIBRATION-REJECTED",
+  "argument_id": "db3fb481-060a-5cd0-8a1f-365a56f69a97",
   "challenge_module": "TruthCore.Results.Logic.MeaningDefinitionFork.V3RejectionBound.Challenge",
   "solution_module": "TruthCore.Results.Logic.MeaningDefinitionFork.V3RejectionBound.Solution",
   "theorem": "TruthCore.Results.Logic.MeaningDefinitionFork.V3RejectionBound.v3Rejection",

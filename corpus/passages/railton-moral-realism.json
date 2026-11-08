@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "RAILTON-MORAL-REALISM",
+    "source_id": "9c27f7ff-a42c-52d1-b925-55318c284fe8",
     "source_url": "https://www.filosoficas.unam.mx/docs/1110/files/Railton%20Moral%20realism.pdf",
     "retrieved_at": "2026-10-25T13:06:33Z",
     "sha256": "sha256:913593906a1eea62dc4c5a734db2d6700c055d46c782f19e6b9e8d40ad89c7d2",
@@ -13,7 +13,9 @@
   },
   "passages": [
     {
-      "id": "RAILTON-MORAL-REALISM-FULL",
+      "id": "466b97e5-1e7d-5b00-aad5-f75cd614905b",
+      "label": "Peter Railton, Moral Realism, Pp. 163\u2013207",
+      "legacy_id": "RAILTON-MORAL-REALISM-FULL",
       "locator": "pp. 163\u2013207 (original journal pagination)",
       "claim_locator_prefixes": [
         "pp. "

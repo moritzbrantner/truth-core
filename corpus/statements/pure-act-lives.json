@@ -1,9 +1,11 @@
 {
-  "id": "STMT-PURE-ACT-LIVES",
+  "id": "1773079b-236a-5f7d-b1e9-fb8f23202341",
+  "label": "Whatever is in potency in no respect lives at some time of the duration frame",
+  "legacy_id": "STMT-PURE-ACT-LIVES",
   "paraphrase": "Open premise, unattributed: whatever is in potency in no respect lives at some time of the duration frame (its life is present at some time). ST I q.18 a.3 supports it for God through intellect, but does not state it of pure act as such.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PureActLivesReading",
   "definition_ids": [
-    "DEF-PURE-ACT",
-    "DEF-LIFE-PRESENT-AT"
+    "a49e4cf1-ca4f-5519-9724-892af257cedb",
+    "42635e18-7288-5194-88b7-02dda6aa0477"
   ]
 }

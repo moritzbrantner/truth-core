@@ -1,7 +1,9 @@
 {
-  "id": "INF-ATOMLESS-COMPLETE-FUSION-MODEL",
+  "id": "2683edb0-0736-5095-9642-72b5792c1aa0",
+  "label": "The nonempty Mathlib regular open real regions jointly satisfy…, by Typed-regular-region-model-an…",
+  "legacy_id": "INF-ATOMLESS-COMPLETE-FUSION-MODEL",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-ATOMLESS-COMPLETE-FUSION-MODEL",
+  "output_statement_id": "126d0617-539d-5f4f-a6c1-478f1bca6c55",
   "rule": "typed-regular-region-model-and-proper-interval-construction",
   "meaning": "Instantiate the constructed full profile on Mathlib Heyting-regular open real regions, using its Boolean algebra and the complete lattice lifted from its regularization Galois insertion. Every nonempty region contains a real interval; a strictly smaller open interval is regular and misses an interior point of the original region. Top supplies population; NoMinOrder excludes a least object and supplies infinitude.",
   "assumption_statement_ids": [],

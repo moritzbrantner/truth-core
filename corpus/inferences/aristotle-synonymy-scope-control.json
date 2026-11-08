@@ -1,7 +1,9 @@
 {
-  "id": "INF-ARISTOTLE-SYNONYMY-SCOPE-CONTROL",
+  "id": "9cab6983-29b7-53ef-baca-90ba6b59ef91",
+  "label": "There is a three-entity, two-account interpretation in which the restricted…, by Model-construction",
+  "legacy_id": "INF-ARISTOTLE-SYNONYMY-SCOPE-CONTROL",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-SYNONYMY-SCOPE-CONTROL",
+  "output_statement_id": "c79b0bad-4434-5eec-9f1f-40bbc24c45ec",
   "rule": "model-construction",
   "meaning": "Construct a three-entity interpretation: 0 causes 1 under their shared account and is more; 1 causes 2 under different accounts and is not more. Thus the restricted rule holds and the unrestricted rule fails.",
   "assumption_statement_ids": [],

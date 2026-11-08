@@ -1,18 +1,20 @@
 {
-  "id": "LOGIC-FALLIBLE-CORRECTION",
+  "id": "cd910835-52d5-5779-881a-a2e2718e2274",
+  "label": "For the specified finite rational weighted-majority protocol, ^m ≤ N*^M holds for observed…",
+  "legacy_id": "LOGIC-FALLIBLE-CORRECTION",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-FALLIBLE-CORRECTION-CERTIFICATE",
+  "conclusion_statement_id": "a901d185-4919-5d9c-8c6e-ec5415f975bc",
   "inference_ids": [
-    "INF-FALLIBLE-CORRECTION"
+    "81a168ce-ae52-5f10-8f92-162c28da8149"
   ],
   "meaning": "For the specified finite rational weighted-majority protocol, (1/2)^m ≤ N*(3/4)^M holds for observed learner/expert mistakes M,m; the proof derives this using exact expert-weight and total-potential lemmas. Actual learner mistakes L are at most M+K and observed expert mistakes at most its actual errors e+K. If K≤k, (1/2)^(e+k) ≤ N*(3/4)^(L-k), with truncated natural subtraction. For two experts including one with at most two actual errors and at most one corrupted label, L≤10 at any supplied horizon. Concrete traces show recovery, a misleading label, indefinitely misleading feedback and no exact truth classifier on identical reports; the imported exact-criterion, inquiry-access and accuracy certificates are retained unchanged. These are implementable conditional performance guarantees, not factive justification, feedback calibration, normative authority or root closure. The positive restricted warrant argument and surviving rivals are in docs/notes/fallible-correction-931.md.",
   "definition_ids": [
-    "DEF-FALLIBLE-WEIGHTED-CORRECTION",
-    "DEF-DATA-RELATIVE-CORRECTION-CRITERION",
-    "DEF-EPISTEMIC-ACCURACY"
+    "0331d7b3-ad25-59d1-b4c2-94218ddda0ca",
+    "a6e1ef95-8138-5cfc-8fe2-1202ba3b9a5c",
+    "c89d6b19-0d84-5124-8289-99f130113c74"
   ],
   "disambiguation_ids": [
-    "DISAMB-FALLIBLE-CORRECTION-AND-WARRANT",
-    "DISAMB-CORRECTION-CRITERION-AND-JUSTIFICATION"
+    "1e0e196b-d327-508d-bad1-31df3e27d587",
+    "ba851630-7eec-5851-8ad2-d8eff7430e41"
   ]
 }

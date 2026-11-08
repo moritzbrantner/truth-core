@@ -1,9 +1,11 @@
 {
-  "id": "REL-NT-GAL-PILOT-PAUL-PERSECUTOR-PREACHER-SUPPORTS-E4",
+  "id": "a66de899-b7d2-5238-bcb1-794a5662611f",
+  "label": "Paul, Galatians 1.13-24: The speaker… supports Paul changed from not believing to…",
+  "legacy_id": "REL-NT-GAL-PILOT-PAUL-PERSECUTOR-PREACHER-SUPPORTS-E4",
   "note": "Source support is not entailment or proof of historical truth. See the report/historical-finding disambiguation and separate reading bridges.",
   "subject_kind": "claim",
-  "subject_id": "NT-GAL-PILOT-PAUL-PERSECUTOR-PREACHER",
+  "subject_id": "7f714f1e-2e71-5adf-b31f-b300de0a6ef1",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-PILOT-E4"
+  "object_id": "a433dc59-32dc-5ffd-9204-0569d53af7db"
 }

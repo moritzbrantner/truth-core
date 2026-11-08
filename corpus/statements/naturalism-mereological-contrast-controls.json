@@ -1,23 +1,25 @@
 {
-  "id": "STMT-NATURALISM-MEREOLOGICAL-CONTRAST-CONTROLS",
+  "id": "f7b29a1e-3158-50c7-aa82-be9e1590e259",
+  "label": "Populated interpretation controls export the exact part-naturalism/component/composite/population…",
+  "legacy_id": "STMT-NATURALISM-MEREOLOGICAL-CONTRAST-CONTROLS",
   "paraphrase": "Populated interpretation controls export the exact part-naturalism/component/composite/population background and its satisfiability; an existing located self-part whole that is simple and remote when no distinct pair exists; omission of each other premise with a simple remote existent; occupant N1 surviving when part N1 fails; and an occupant-N1 profile with existing located candidates but an unlocated absent whole. These certify scoped formal boundaries, not actual full worldviews or a metaphysical God witness.",
   "lean_declaration": "TruthCore.Ontology.NaturalismContrasts.ContrastControls",
   "definition_ids": [
-    "DEF-NATURALISM-N1",
-    "DEF-SPATIOTEMPORAL-FRAME",
-    "DEF-PART-OF-SPACETIME",
-    "DEF-SPATIOTEMPORAL-LOCATED",
-    "DEF-COMPOSITION-COMPONENT",
-    "DEF-REMOTE-FROM-ALL",
-    "DEF-SIMPLE",
-    "DEF-EXISTING-SPACETIME-PART-COMPONENT-BRIDGE",
-    "DEF-EXISTING-SPACETIME-COMPONENT-COMPOSITE-BRIDGE",
-    "DEF-NATURALISM-REMOTE-SIMPLE-CONTRAST",
-    "DEF-SPACETIME-WHOLE-OCCUPATION-SCOPE",
-    "DEF-KANT-ONTOLOGICAL-MODEL"
+    "1d25373b-7781-5177-add3-337874b8670b",
+    "e9e031af-665e-5888-9328-f7637b5a2677",
+    "cc2b5981-93cb-5ba7-9731-1512cd0f69e7",
+    "ddde7152-b698-5a85-8060-b8c6c9905758",
+    "98ac7aa1-54cb-553c-826b-2a69257f6cbe",
+    "53b02c11-a28b-57c2-8d2e-7e013893db7e",
+    "85f7f569-ab4d-514b-aa2c-cf75171ad105",
+    "bae75d6b-4bf8-5ef2-b3e0-facbfd03da1e",
+    "bcdff4ce-baf7-5142-a56a-6d03c075da77",
+    "14596727-f94a-5087-8c66-058abe03cdd6",
+    "d438a89b-9dee-5db2-9d39-60dea5049396",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109"
   ],
   "disambiguation_ids": [
-    "DISAMB-SPATIOTEMPORAL",
-    "DISAMB-SPACETIME-PART-AND-COMPOSITION"
+    "1ea8b036-7a66-540a-be38-301a8db9077c",
+    "a536a633-ff4c-5497-bea4-6954ddd58808"
   ]
 }

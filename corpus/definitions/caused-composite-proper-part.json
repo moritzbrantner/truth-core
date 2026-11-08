@@ -1,10 +1,12 @@
 {
-  "id": "DEF-CAUSED-COMPOSITE-PROPER-PART",
+  "id": "fbcf3e20-7946-5ad4-a6f3-ba92d92add00",
+  "label": "Caused composite has a caused proper…: Every composite with an incoming G cause contains some…",
+  "legacy_id": "DEF-CAUSED-COMPOSITE-PROPER-PART",
   "term": "caused composite has a caused proper part",
   "definition": "Every composite with an incoming G cause contains some proper part with an incoming G cause. Proper part is strict parthood, not simple part. No iteration termination or inference to a caused simple is built in.",
   "basis": "sourced",
   "claim_ids": [
-    "RUTTEN-CH6-CAUSED-COMPOSITE-PROPER-PART"
+    "370e45f4-7245-5114-94d4-6867edee104c"
   ],
   "lean_declaration": "TruthCore.Causality.AtomisticCausalSource.CausedCompositeHasCausedProperPart",
   "note": "Author Step1p127 combines P6 with P2 termination to obtain a caused simple. P6's defensep135 adds collective uncausedness, supplementation and composition-as-identity; none is a theorem of the bare order or assumed by the analyst minimum."

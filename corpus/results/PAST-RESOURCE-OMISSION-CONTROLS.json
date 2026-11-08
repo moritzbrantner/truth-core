@@ -1,6 +1,8 @@
 {
-  "id": "PAST-RESOURCE-OMISSION-CONTROLS",
-  "argument_id": "PAST-RESOURCE-OMISSION-CONTROLS",
+  "id": "93498638-7572-5c6d-969d-727203d23720",
+  "label": "Two explicit real-valued stocks on the full integer time grid with now zero: exp has lower bound…",
+  "legacy_id": "PAST-RESOURCE-OMISSION-CONTROLS",
+  "argument_id": "d96ac541-5d11-5f93-92db-95c92e0bc23f",
   "challenge_module": "TruthCore.Results.Causality.PastResourceControls.Challenge",
   "solution_module": "TruthCore.Results.Causality.PastResourceControls.Solution",
   "theorem": "TruthCore.Results.Causality.PastResourceControls.controls",

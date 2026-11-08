@@ -1,6 +1,8 @@
 {
-  "id": "PERFECTION-OF-BEING-CONTROLS",
-  "argument_id": "PERFECTION-OF-BEING-CONTROLS",
+  "id": "2b8091d9-7cc5-5e32-96b0-5a5830bdd9b6",
+  "label": "One being, two respects, in act in the perfection only",
+  "legacy_id": "PERFECTION-OF-BEING-CONTROLS",
+  "argument_id": "f96648da-0812-59b2-9e59-241f498a1fd9",
   "challenge_module": "TruthCore.Results.Causality.PerfectionOfBeing.Challenge",
   "solution_module": "TruthCore.Results.Causality.PerfectionOfBeing.Solution",
   "theorem": "TruthCore.Results.Causality.PerfectionOfBeing.controls",

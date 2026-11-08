@@ -1,16 +1,18 @@
 {
-  "id": "NB-SURVEY-A8-ALTERNATE-POSSIBILITY-INVARIANCE",
-  "statement_id": "STMT-NB-A2-POSSIBILITY-INVARIANCE",
-  "source_id": "NECESSARYBEING-SURVEY",
+  "id": "62bb5fdf-2ec7-54e8-a244-216f97144294",
+  "label": "Unattributed website author, Necessary…: For any individually possible situations X and Y, if X… (2)",
+  "legacy_id": "NB-SURVEY-A8-ALTERNATE-POSSIBILITY-INVARIANCE",
+  "statement_id": "864efc2d-2362-54ec-a684-33cd93e594f9",
+  "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
   "locator": "A8P3B, complete shorter X/Y question, examples and non-joint-possibility note; A8C2 modal paragraph following step 10",
   "interpretation": "Reuse the existing invariance proposition: the shorter introduction still quantifies any possible X/Y, preserves the non-joint note and same examples/title sense. Wording is not byte-identical to main P4, but its stated possible-if-actual content genuinely coincides. This separately located claim keeps primary witness binding unambiguous. It is not an actual response, a new full S5/frame proof or a fixed individual across worlds; the modal suffix remains guarded conditional reuse.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
-    "DEF-NB-SURVEY-NECESSARY-BEING"
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0",
+    "7fde5dc0-6ca7-5ce6-a2e1-571acfd15dcf"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A8-LIMITATION-AND-ENTAILMENT",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "125551eb-8b03-5b3d-ae85-66909c3f42b7",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

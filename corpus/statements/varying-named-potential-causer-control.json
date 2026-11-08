@@ -1,22 +1,24 @@
 {
-  "id": "STMT-VARYING-NAMED-POTENTIAL-CAUSER-CONTROL",
+  "id": "14bc9b7b-2673-5989-94fa-860b6b46c19d",
+  "label": "In the literal varying model, selected false at base false satisfies reflexivity, necessary…",
+  "legacy_id": "STMT-VARYING-NAMED-POTENTIAL-CAUSER-CONTROL",
   "lean_declaration": "TruthCore.Causality.NamedPotentialCauser.VaryingNamedControl",
   "paraphrase": "In the literal varying model, selected false at base false satisfies reflexivity, necessary presence, the universal other-directed potential-cause role, the no-contingent-predecessor and union-WF backgrounds for m.Causes, and named underivedness. At world true recipient true exists and is actually caused by selected false.",
   "definition_ids": [
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-MODAL-POINTWISE-OTHER-POTENTIAL",
-    "DEF-MODAL-POSSIBLE-EXISTENCE-CAUSE",
-    "DEF-PRESENT-ESSE-SUPPORT",
-    "DEF-UNION-NECESSARY-SUPPORT",
-    "DEF-WELL-FOUNDED-UNION-NECESSARY-SUPPORT",
-    "DEF-NO-CONTINGENT-GROUND-OF-NECESSARY",
-    "DEF-NAMED-NECESSARILY-UNDERIVED",
-    "DEF-VARYING-NAMED-POTENTIAL-CAUSER-CONTROL"
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "10d78687-87cb-5601-8fe0-07a73863ecfd",
+    "6618da47-faca-59e2-be67-8ec920a2d51b",
+    "b242943a-34cc-582d-8c38-c1203b9d2c91",
+    "d2cfd973-4fc7-5ba1-9203-3fcd28ebc07c",
+    "b3a8f6d3-d368-5458-8606-28c2376198e1",
+    "659dbc9c-63d8-5e4e-a48f-79d0d18d1e67",
+    "1875d575-2a60-5000-b403-0ab090078a7a",
+    "5e3750f8-9f4e-5d76-8702-a608a1ab8059"
   ],
   "disambiguation_ids": [
-    "DISAMB-EXISTENCE-ESSE-SUPPORT",
-    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED",
-    "DISAMB-MODAL-CAUSE-POSSIBILITY-AND-EXERCISE"
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "5d15d8f2-1080-53c9-886f-cee2a4ff23a9",
+    "06fc8d78-0723-5daa-9186-7a016125bb0b"
   ]
 }

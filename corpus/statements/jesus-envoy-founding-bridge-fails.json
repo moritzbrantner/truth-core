@@ -1,15 +1,17 @@
 {
-  "id": "STMT-JESUS-ENVOY-FOUNDING-BRIDGE-FAILS",
+  "id": "ac82074b-e5b0-54bd-b938-605c2e8e0e7e",
+  "label": "The existing Jesus-envoy-founding bridge fails in the supplied signature and agency",
+  "legacy_id": "STMT-JESUS-ENVOY-FOUNDING-BRIDGE-FAILS",
   "paraphrase": "The existing Jesus-envoy-founding bridge fails in the supplied signature and agency. The registered refutation is conditional on the exclusive immediate reading plus a nonempty envoy teaching event, not a refutation of the root or Christian history.",
   "lean_declaration": "TruthCore.Case.Catholicism.StageThree.FoundingDefinitions.EnvoyBridgeFails",
   "definition_ids": [
-    "DEF-PRINCIPAL-ACT-FOUNDING-READING",
-    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
-    "DEF-FOUNDED-BY-GOD-IMMEDIATELY",
-    "DEF-GOD-OF-CLASSICAL-THEISM"
+    "052f142e-f782-5787-b137-2c2fb539e5c7",
+    "e225d39c-9081-5d1f-80f5-ed121dbb9a30",
+    "c57ddcaf-1b50-58d8-b688-4967cc1028b1",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807"
   ],
   "disambiguation_ids": [
-    "DISAMB-FOUNDED-BY-GOD",
-    "DISAMB-GOD"
+    "87582d70-e56a-5e51-9377-84b6655b1b68",
+    "205a39c3-915d-5fe4-8076-a9ff91329e08"
   ]
 }

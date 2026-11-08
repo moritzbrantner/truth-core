@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-190A-UNDERLYING-SUBJECT-A",
-  "statement_id": "STMT-BECOMING-HAS-UNDERLYING-SUBJECT",
-  "source_id": "ARIST-PHYS",
+  "id": "dcc5a820-1b76-5d9f-a73c-20e1a41fd3c6",
+  "label": "Aristotle, Physics I.7, 190a13-21: Every case of becoming has an underlying subject that is…",
+  "legacy_id": "ARIST-PHYS-190A-UNDERLYING-SUBJECT-A",
+  "statement_id": "96527660-7bd9-55c0-88d4-99527d5cf0b1",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.7, 190a13-21",
   "interpretation": "Aristotle generalizes from the surveyed cases to an underlying subject in every becoming. It is numerically one but not one in account because being a man and being unmusical differ.",
   "status": "formalized"

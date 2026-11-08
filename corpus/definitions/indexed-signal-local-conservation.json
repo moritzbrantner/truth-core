@@ -1,5 +1,7 @@
 {
-  "id": "DEF-INDEXED-SIGNAL-LOCAL-CONSERVATION",
+  "id": "3fe7fb2d-08f9-5f12-ba4f-87ce03593e24",
+  "label": "Unchanged indexed-signal forwarding or…: Signal n is the optional numeric code at station n's…",
+  "legacy_id": "DEF-INDEXED-SIGNAL-LOCAL-CONSERVATION",
   "term": "unchanged indexed-signal forwarding or local issuance",
   "definition": "signal n is the optional numeric code at station n's output; issued n records issuance at that station in this stipulated role. Every present output code j either is issued here with j=n or occurs unchanged at the immediate upstream output n+1. This excludes unaccounted changes or external injections locally, without asserting a global originating node.",
   "basis": "stipulative",

@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-SCIENCE-INDUCTION-SELECTION",
+  "id": "e977dc68-4774-5dc4-b8af-98a645631096",
+  "label": "Logical neutrality versus physical basis and practical selection",
+  "legacy_id": "DISAMB-SCIENCE-INDUCTION-SELECTION",
   "term": "logical neutrality versus physical basis and practical selection",
   "sense_definition_ids": [
-    "DEF-SCIENCE-INDUCTION-SELECTION",
-    "DEF-SCIENCE-INDUCTION-OUTCOME-BASIS"
+    "dd18377d-63fa-5892-8087-b6441dff5b1c",
+    "a1f66eda-ad43-50d3-a026-50a2eb89c4dd"
   ],
   "resolution": "A recoding is a reversible representation change, not a physical process. The fixed evidence condition and equivariance are separate assumptions. Set-valued answer is not a probability or practical action. Absence of a unique neutral answer does not imply irrational induction or forbid a basis-sensitive choice. Original-coordinate uniformity and recoded-coordinate uniformity are distinct added criteria, not syntactic measures of physical naturalness. The two complete predictions are a bounded green/grue-type profile, not an attributed definition of Goodman grue."
 }

@@ -1,13 +1,15 @@
 {
-  "id": "STMT-THOUGHT-CHANGE-SUBJECT-WITNESS",
+  "id": "1fd408c7-945f-56f3-b37d-7c89b54ad730",
+  "label": "Some actual thought is a change that is the actuality of a potential subject in the Physics III.1…",
+  "legacy_id": "STMT-THOUGHT-CHANGE-SUBJECT-WITNESS",
   "paraphrase": "Some actual thought is a change that is the actuality of a potential subject in the Physics III.1 sense, given the three explicit premises.",
   "lean_declaration": "TruthCore.Logic.ThoughtChangeSubject.ThoughtChangeHasPotentialSubject",
   "definition_ids": [
-    "DEF-THOUGHT-OCCURRENCE",
-    "DEF-THOUGHT-CHANGE-CLASSIFICATION",
-    "DEF-THOUGHT-CHANGE-SUBJECT-WITNESS"
+    "c0cbef1c-060a-54d4-bb49-8d59da40caf3",
+    "a298c8b6-9c0f-51a5-8778-9022c22622d5",
+    "51def74f-c241-5704-862f-7c8b265ba02c"
   ],
   "disambiguation_ids": [
-    "DISAMB-THOUGHT-EPISODE-VS-CHANGE"
+    "42f77a36-a0f6-5b52-a428-1a7af0613503"
   ]
 }

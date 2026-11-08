@@ -1,6 +1,8 @@
 {
-  "id": "FINITE-NECESSARY-UNION-CONTROLS",
-  "argument_id": "FINITE-NECESSARY-UNION-CONTROLS",
+  "id": "706c8d20-dde4-59ed-8d0f-9cd0f6ed8e6b",
+  "label": "The explicit Fin 3 interpretation has both source and cycle; the unchanged rotating interpretation…",
+  "legacy_id": "FINITE-NECESSARY-UNION-CONTROLS",
+  "argument_id": "dca8851d-16d8-51a2-a8d1-fb594c264721",
   "challenge_module": "TruthCore.Results.Causality.FiniteNecessaryUnion.Controls.Challenge",
   "solution_module": "TruthCore.Results.Causality.FiniteNecessaryUnion.Controls.Solution",
   "theorem": "TruthCore.Results.Causality.FiniteNecessaryUnion.Controls.checks",

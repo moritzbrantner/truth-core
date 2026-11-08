@@ -1,17 +1,19 @@
 {
-  "id": "GOVERNING-COMPONENT-TEACHING-OMISSION-CONTROLS",
+  "id": "7391ff42-5474-5fb8-a590-aab557faed14",
+  "label": "Two nonempty schema controls show why the original narrow scope still needs teaching: a…",
+  "legacy_id": "GOVERNING-COMPONENT-TEACHING-OMISSION-CONTROLS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-GOVERNING-COMPONENTS-DO-NOT-FORCE-TEACHING-SCOPE",
+  "conclusion_statement_id": "969ba14b-b3c5-58b6-b05a-b8b87701094c",
   "inference_ids": [
-    "INF-GOVERNING-COMPONENT-TEACHING-OMISSION-CONTROLS"
+    "71406f83-ee2c-51ee-afe1-2571aecff149"
   ],
   "meaning": "Two nonempty omission controls retain the needed counterpart input while replacing only the original link or historical bundle by its weaker governing-only projection. Teaching scope fails; the old narrow-scope proof genuinely needs more than these projections.",
   "definition_ids": [
-    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
-    "DEF-COMMISSION-REPORT-POWERS",
-    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY"
+    "6dea072c-97c4-5ee9-9958-a3da6a2a049c",
+    "66200ff6-4af8-5b8f-a2c8-08ddf2d0f072",
+    "e225d39c-9081-5d1f-80f5-ed121dbb9a30"
   ],
   "disambiguation_ids": [
-    "DISAMB-COMMISSION-REPORT-AND-EVENT"
+    "0f180711-5550-55b5-9da8-699215d6d95e"
   ]
 }

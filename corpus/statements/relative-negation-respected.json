@@ -1,11 +1,13 @@
 {
-  "id": "STMT-RELATIVE-NEGATION-RESPECTED",
+  "id": "16adef8b-9098-54d4-9d6f-3428eed781f8",
+  "label": "Per-agent negation bridge: if the denial of a content is true for an agent, the content is not…",
+  "legacy_id": "STMT-RELATIVE-NEGATION-RESPECTED",
   "paraphrase": "Per-agent negation bridge: if the denial of a content is true for an agent, the content is not true for that agent. Nothing is assumed across agents.",
   "lean_declaration": "TruthCore.Greek.Plato.Theaetetus.RelativeNegationRespected",
   "definition_ids": [
-    "DEF-RELATIVE-TRUTH"
+    "c137a1e2-6b0f-5413-b6c9-e13918c61b6b"
   ],
   "disambiguation_ids": [
-    "DISAMB-ASSERTED-TRUTH-SENSE"
+    "d62cd674-9ae4-564a-8016-13d11ba0c407"
   ]
 }

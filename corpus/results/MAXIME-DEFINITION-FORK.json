@@ -1,6 +1,8 @@
 {
-  "id": "MAXIME-DEFINITION-FORK",
-  "argument_id": "MAXIME-DEFINITION-FORK",
+  "id": "617f9d71-4188-5294-851b-498d5a3ae832",
+  "label": "For each supplied preorder/profile, named…, from Excluded middle as a general principle…",
+  "legacy_id": "MAXIME-DEFINITION-FORK",
+  "argument_id": "72b49ae6-16d4-5ef5-b786-cb3e64053222",
   "challenge_module": "TruthCore.Results.Causality.MaximumDefinitions.Coverage.Challenge",
   "solution_module": "TruthCore.Results.Causality.MaximumDefinitions.Coverage.Solution",
   "theorem": "TruthCore.Results.Causality.MaximumDefinitions.Coverage.coverage",
@@ -9,29 +11,29 @@
   "description": "Structural coverage transcription under explicit excluded middle: three named calibration candidates cover or all three fail. No philosophical completeness is inferred.",
   "transcription": "instantiation",
   "case_split": {
-    "target_statement_id": "STMT-MAXIME-GREATEST-DEGREE-DEFINITION",
+    "target_statement_id": "85975f1d-cac5-59f8-8104-bd112de183ad",
     "cases": [
       {
         "label": "merely maximal",
-        "statement_id": "STMT-MAXIME-MERELY-MAXIMAL-DEFINITION",
+        "statement_id": "078d4c69-9d31-56f0-8ddf-a3306f0d7a33",
         "lean_declaration": "TruthCore.Causality.MaximumDefinitionFork.MaximalDefinition"
       },
       {
         "label": "greatest represented degree",
-        "statement_id": "STMT-MAXIME-GREATEST-DEGREE-DEFINITION",
+        "statement_id": "85975f1d-cac5-59f8-8104-bd112de183ad",
         "lean_declaration": "TruthCore.Causality.MaximumDefinitionFork.GreatestDefinition"
       },
       {
         "label": "strictly supreme",
-        "statement_id": "STMT-MAXIME-STRICT-SUPREMACY-DEFINITION",
+        "statement_id": "a22e4d97-1bec-53bc-82f9-1135b05b9bde",
         "lean_declaration": "TruthCore.Causality.MaximumDefinitionFork.StrictDefinition"
       },
       {
         "label": "additional superlative",
-        "statement_id": "STMT-MAXIME-ADDITIONAL-DEFINITION",
+        "statement_id": "eb8f8358-efc6-5fb5-ae4a-76158161c00d",
         "lean_declaration": "TruthCore.Causality.MaximumDefinitionFork.Other"
       }
     ],
-    "survival_result_id": "MAXIME-DEFINITION-BOUNDARIES"
+    "survival_result_id": "29fd4c62-0327-5599-aad8-15ee7c35cd6c"
   }
 }

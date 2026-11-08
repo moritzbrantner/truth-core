@@ -1,19 +1,21 @@
 {
-  "id": "AYER-1946-NEGATION-CLOSED-EXCLUDES-NOTHING",
+  "id": "4c41b0b5-2086-541a-bc4f-f3557a84b769",
+  "label": "If literal meaningfulness by the 1946 criterion is closed under negation, then, given Church's…",
+  "legacy_id": "AYER-1946-NEGATION-CLOSED-EXCLUDES-NOTHING",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-AYER-1946-NEGATION-CLOSED-EXCLUDES-NOTHING",
+  "conclusion_statement_id": "52807ed7-0b9f-512a-a9af-c90713dff861",
   "inference_ids": [
-    "INF-AYER-1946-NEGATION-CLOSED-EXCLUDES-NOTHING"
+    "ce81d45f-db42-5d07-b715-4072d72fb948"
   ],
   "meaning": "From Church's trivialization and no premises: suppose meaningfulness by the 1946 criterion is closed under negation and some sentence s is not meaningful. Then not-s is not meaningful (else s would be), so not-s is not directly verifiable, so s is indirectly verifiable, a contradiction. Closure under negation is a hypothesis inside the proved conditional, not a premise of the argument; the result is constructive, so it concludes that no sentence fails to be meaningful (not-not meaningful).",
   "definition_ids": [
-    "DEF-AYER-1946-VERIFIABILITY",
-    "DEF-EMPIRICIST-FRAME",
-    "DEF-LITERAL-MEANINGFULNESS-1946",
-    "DEF-TRUTH-CONDITIONAL-LANGUAGE"
+    "851dbf2e-5030-51ad-9b74-b960a87683f4",
+    "c79be2d4-8641-5b1c-86bb-69a28cc4d184",
+    "3b773947-a8cd-562d-91d9-952a9ce7cc58",
+    "cb0b59e9-7a00-5d8c-ba11-802974a42992"
   ],
   "disambiguation_ids": [
-    "DISAMB-VERIFIABILITY-VARIANT",
-    "DISAMB-VERIFICATIONIST-MEANINGFUL"
+    "e1eb387a-1052-5f34-b7f1-ea076303e1cd",
+    "21cdb9e0-d4f0-5a57-8277-3345ec8c0fde"
   ]
 }

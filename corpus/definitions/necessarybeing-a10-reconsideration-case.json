@@ -1,15 +1,17 @@
 {
-  "id": "DEF-NB-A10-RECONSIDERATION-CASE",
+  "id": "ffc4db54-6b73-55a0-a08e-caf2af6095b3",
+  "label": "A10 causal-relevance reconsideration…: Size, shape and having parts are proposed categorical…",
+  "legacy_id": "DEF-NB-A10-RECONSIDERATION-CASE",
   "term": "A10 causal-relevance reconsideration and hypothetical partless-beginning case",
   "basis": "sourced",
   "definition": "Size, shape and having parts are proposed categorical distinctions in having a cause, not probability measures or a supplied physics/mereology. The angel case supposes a partless subject beginning to exist and asks whether it would have a cause; the next question asks for a defeasible default for OTHER partless things. The final question reconsiders an arbitrary contingent X after the author’s qualified transition. All pages retain the same prior partial-explanatory cause gloss, and default pages explicitly allow counter-reasons and exceptions.",
   "claim_ids": [
-    "NB-SURVEY-A10-SIZE-CAUSAL-DIFFERENCE-DENIAL",
-    "NB-SURVEY-A10-SHAPE-CAUSAL-DIFFERENCE-DENIAL",
-    "NB-SURVEY-A10-PARTS-CAUSAL-DIFFERENCE-DENIAL",
-    "NB-SURVEY-A10-PARTLESS-BEGINNING-ANGEL-CAUSED",
-    "NB-SURVEY-A10-PARTLESS-CAUSAL-DEFAULT",
-    "NB-SURVEY-A10-ARBITRARY-CONTINGENT-CAUSAL-DEFAULT"
+    "51ae5d09-3fd6-5520-b8da-99edf27fc83f",
+    "6fb88b40-8e35-59d3-b3e6-a125631de5fb",
+    "c9f76aad-a86e-5658-88c1-a885e2d4bc5c",
+    "9915bc2a-70a8-562b-a9eb-8511233a1adb",
+    "663ce43d-1352-5612-9023-fcccd8e085a0",
+    "6df9a65c-e512-569b-83c9-23a635d87312"
   ],
   "note": "These are conditional report meanings, not actual answers, observed examples or metaphysical possibilities. No angel ontology, actual partless beginning, q3 simplicity, no-component principle, contemporary quantum result, calibrated probability or complete exception classification is supplied. Negative parts bypasses the angel detour; affirmative/uncertain parts enters it. Initial affirmative P1 bypasses this entire reconsideration cluster. P1B2 merely records the author’s failure to find an implication as far as they can tell; it is not a refutation, model or additional activity claim. No reported keep/continuation is treated as actual session state. The source-to-selected-history, default-to-Dia and explanation-to-actual-support bridges remain OPEN. In P1E, contingent retains the source sense of not by nature having to exist (DEF-NB-SURVEY-NECESSARY-BEING); it is not silently identified with actual-presence-guarded ContingentAt."
 }

@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CC100-87-EXTERNAL-EXPLANATION-CONCLUSION",
+  "id": "dd00d7be-0b74-57ef-88bc-a3db02d90ef3",
+  "label": "Under the demand that cosmic unity be explained and the exclusion of internal explanation, the…",
+  "legacy_id": "STMT-CC100-87-EXTERNAL-EXPLANATION-CONCLUSION",
   "paraphrase": "Under the demand that cosmic unity be explained and the exclusion of internal explanation, the unity of the cosmos must be explained by something external to it.",
   "definition_ids": [
-    "DEF-CC100-87-COSMIC-UNITY-EXPLANATION"
+    "2ec9760f-26e5-5df3-897f-443a769ec094"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

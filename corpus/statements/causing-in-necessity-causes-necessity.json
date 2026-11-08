@@ -1,12 +1,14 @@
 {
-  "id": "STMT-CAUSING-IN-NECESSITY-CAUSES-NECESSITY",
+  "id": "3c20c835-0af9-52d9-bbff-32fb22ceaff6",
+  "label": "Whoever causes a thing in the respect nec causes its necessity",
+  "legacy_id": "STMT-CAUSING-IN-NECESSITY-CAUSES-NECESSITY",
   "paraphrase": "OPEN analyst premise: whoever causes a thing in the respect nec (its necessity read as a perfection) causes its necessity.",
   "lean_declaration": "TruthCore.Causality.Round4Revisited.CausingInNecessityCausesNecessity",
   "definition_ids": [
-    "DEF-NECESSITY-AS-PERFECTION",
-    "DEF-CAUSE-OF-PERFECTION"
+    "d428227e-f000-571e-8990-fa7d556009c1",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSE"
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
   ]
 }

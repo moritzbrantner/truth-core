@@ -1,5 +1,7 @@
 {
-  "id": "DEF-EXPRESSIVE-TRUTH-PREDICATE",
+  "id": "88562987-06db-5026-a671-b208c7dee6ab",
+  "label": "Expressive truth predicate: Expressive truth: for every P: Prop some content c has truth c ↔ P",
+  "legacy_id": "DEF-EXPRESSIVE-TRUTH-PREDICATE",
   "term": "expressive truth predicate",
   "definition": "`Expressive truth`: for every `P : Prop` some content `c` has `truth c ↔ P`.",
   "basis": "stipulative",

@@ -1,11 +1,13 @@
 {
-  "id": "DISAMB-THIRD-MAN-DOMAIN",
+  "id": "30621afd-a74c-5976-b264-6066fb458ed0",
+  "label": "One over many",
+  "legacy_id": "DISAMB-THIRD-MAN-DOMAIN",
   "term": "one over many",
   "sense_definition_ids": [
-    "DEF-THIRD-MAN-FORMATION",
-    "DEF-THIRD-MAN-INITIAL-SCOPE",
-    "DEF-THIRD-MAN-ITERATION",
-    "DEF-THIRD-MAN-SCOPED-FORMATION"
+    "0c06ef42-f495-56e8-bbe8-57efc70a22e9",
+    "4046121a-c2c0-5f01-aa3d-4dac4605e1b0",
+    "720f6196-960a-5adb-a773-eef008044c58",
+    "fd27651c-d330-551d-b993-c02d6f86b9f6"
   ],
   "resolution": "The foundation ranges over particulars; Formation ranges over eligible homogeneous pluralities. InitialScope admits the first pair; Iteration separately admits lists containing newly introduced Forms. The scoped reply rejects that extension while retaining ordinary self-predication. No domain switch is automatic."
 }

@@ -1,6 +1,8 @@
 {
-  "id": "BOUNDED-OMISSION-HIERARCHY",
-  "argument_id": "BOUNDED-OMISSION-HIERARCHY",
+  "id": "5d267335-84ac-5fe2-8da5-37a75a8d0625",
+  "label": "In the stipulated Kripke semantics, omission of every indexed selection of at most k rigid…",
+  "legacy_id": "BOUNDED-OMISSION-HIERARCHY",
+  "argument_id": "48588164-bbc4-5238-809e-83f4a1b9a550",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.BoundedOmission.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.BoundedOmission.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.BoundedOmission.checks",

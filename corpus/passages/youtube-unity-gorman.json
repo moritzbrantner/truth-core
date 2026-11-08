@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "media_span",
-    "source_id": "YOUTUBE-UNITY-GORMAN",
+    "source_id": "f0c1adb0-403d-5332-8cea-9f08dae711ac",
     "youtube_id": "w-aJIieX3-8",
     "transcript_source": "caption_auto",
     "language": "en",
@@ -13,7 +13,9 @@
   },
   "passages": [
     {
-      "id": "YOUTUBE-UNITY-GORMAN-PERFECTION",
+      "id": "6841727f-5250-54ea-a531-954177f116c5",
+      "label": "Michael Gorman, Michael Gorman, Michael Gorman, \"Michael Gorman: Divine Unity and\u2026 (2)",
+      "legacy_id": "YOUTUBE-UNITY-GORMAN-PERFECTION",
       "locator": "Michael Gorman, \"Michael Gorman: Divine Unity and Simplicity\" (Peripatetic Pilgrim, 2021-11-29), 22:00\u201326:05",
       "start_seconds": 1320,
       "end_seconds": 1565,
@@ -26,7 +28,9 @@
       "span_sha256": "sha256:adf38181a277300c942b25f54b6bb6c5e8e0649de9b38ea9f3dc0fae43a75cb8"
     },
     {
-      "id": "YOUTUBE-UNITY-GORMAN-SIMPLICITY",
+      "id": "259cbba0-1637-5673-ab85-274380d4561c",
+      "label": "Michael Gorman, Michael Gorman, Michael Gorman, \"Michael Gorman: Divine Unity and\u2026",
+      "legacy_id": "YOUTUBE-UNITY-GORMAN-SIMPLICITY",
       "locator": "Michael Gorman, \"Michael Gorman: Divine Unity and Simplicity\" (Peripatetic Pilgrim, 2021-11-29), 08:40\u201315:30",
       "start_seconds": 520,
       "end_seconds": 930,

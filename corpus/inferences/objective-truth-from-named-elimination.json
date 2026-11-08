@@ -1,11 +1,13 @@
 {
-  "id": "INF-OBJECTIVE-TRUTH-FROM-NAMED-ELIMINATION",
+  "id": "275842e8-edab-5b27-8dcd-082b911cdf15",
+  "label": "Analyst definition proposition: in this fixed profile, a sentence is…, by Constructive-proof",
+  "legacy_id": "INF-OBJECTIVE-TRUTH-FROM-NAMED-ELIMINATION",
   "input_statement_ids": [
-    "STMT-OBJECTIVE-TRUTH-NAMED-DEFINITIONS-COVER",
-    "STMT-OBJECTIVE-TRUTH-NOT-INVARIANCE-ONLY",
-    "STMT-OBJECTIVE-TRUTH-NOT-ACTUAL-TRUTH-ONLY"
+    "6cdc4062-245e-5f84-9b1c-117673045506",
+    "d792059e-0b01-56a9-9bde-6abcd158024b",
+    "266890f6-6b38-5d42-8fa9-57e6d731c4b8"
   ],
-  "output_statement_id": "STMT-OBJECTIVE-TRUTH-ACTUAL-STABLE-DEFINITION",
+  "output_statement_id": "326adc2f-b56d-58af-802e-9bf3a6f46c61",
   "rule": "constructive-proof",
   "meaning": "Logical elimination transcription under three explicitly open premises: named coverage and failure of the two alternative calibrations force actual-stable calibration. No independent philosophical warrant for those inputs is supplied.",
   "assumption_statement_ids": [],

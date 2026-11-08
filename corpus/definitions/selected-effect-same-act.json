@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SELECTED-EFFECT-SAME-ACT",
+  "id": "11b3c2a2-b568-5df5-ae85-99f14f206e75",
+  "label": "Same performed act at every accessible…: For a selected standpoint w and one rigid token a…",
+  "legacy_id": "DEF-SELECTED-EFFECT-SAME-ACT",
   "term": "same performed act at every accessible world",
   "definition": "For a selected standpoint w and one rigid token a, performs v a holds at every v accessible from w. This is not necessity of some possibly different act, a metaphysical identity criterion for acts, or source necessity.",
   "basis": "stipulative",

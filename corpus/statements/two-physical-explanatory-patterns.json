@@ -1,5 +1,7 @@
 {
-  "id": "STMT-TWO-PHYSICAL-EXPLANATORY-PATTERNS",
+  "id": "5d424a53-fcba-570b-9e57-560f9457749d",
+  "label": "Aristotle organizes earlier physical explanations into two broad patterns: one substrate…",
+  "legacy_id": "STMT-TWO-PHYSICAL-EXPLANATORY-PATTERNS",
   "paraphrase": "Aristotle organizes earlier physical explanations into two broad patterns: one substrate differentiated by contraries, or contraries already contained in a mixture and separated out.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.TwoPhysicalExplanatoryPatternsReading"
 }

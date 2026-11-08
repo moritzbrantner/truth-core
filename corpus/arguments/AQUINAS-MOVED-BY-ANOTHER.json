@@ -1,21 +1,24 @@
 {
-  "id": "AQUINAS-MOVED-BY-ANOTHER",
+  "id": "327128a6-92f9-596d-afcf-667d4e5ac720",
+  "label": "Whatever is being moved in a respect is moved in that respect by something other than…, by another",
+  "legacy_id": "AQUINAS-MOVED-BY-ANOTHER",
   "premise_statement_ids": [
-    "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
-    "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT"
+    "4a952b96-be5f-5493-8277-985248151d01",
+    "079b53bf-a222-5dfc-b8df-7419f9e98030"
   ],
-  "conclusion_statement_id": "STMT-WHATEVER-IS-MOVED-IS-MOVED-BY-ANOTHER",
+  "conclusion_statement_id": "5588083c-55e5-57ce-91ff-67db25fe80fc",
   "inference_ids": [
-    "INF-AQUINAS-ST-I-Q2-A3-MOVED-BY-ANOTHER"
+    "a5aa7b8f-9128-5af5-8521-85d3e1c7176e"
   ],
   "meaning": "A standalone verification of the existing first-way intermediate inference: the existence-of-a-mover premise and no-self-motion premise yield a distinct mover for a subject being moved in the same respect. It supplies neither a mover for an unmoved subject nor a necessary or underived source. Both original First Way solutions now import these intermediate theorems instead of repeating their derivations. The source is the already registered ST I q.2 a.3 first-way reading, materialized and reread without changing its claims. This connects existing statements; every philosophical premise remains open and no root premise is discharged. See docs/power-existence-scope-boundary.md.",
   "definition_ids": [
-    "DEF-ACT",
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-POTENCY",
-    "DEF-RESPECT"
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
-  "disambiguation_ids": ["DISAMB-POTENCY",
-    "DISAMB-MOTION"
+  "disambiguation_ids": [
+    "508617ab-cf24-5f3b-a387-64b3991359ec",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
   ]
 }

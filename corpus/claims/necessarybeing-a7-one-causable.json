@@ -1,10 +1,16 @@
 {
-  "id": "NB-SURVEY-A7-ONE-CAUSEABLE",
-  "statement_id": "STMT-NB-ONE-CONTINGENT-POSSIBLY-CAUSEABLE",
-  "source_id": "NECESSARYBEING-SURVEY",
+  "id": "51d8e4a0-c4c8-5e65-aa85-5f3fbff8c82c",
+  "label": "Unattributed website author, Necessary…: It is possible for a cause to bring about the situation…",
+  "legacy_id": "NB-SURVEY-A7-ONE-CAUSEABLE",
+  "statement_id": "5a19d7bf-50dd-58ab-89a1-4ce361c3f597",
+  "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
   "locator": "A7c, step 3",
   "interpretation": "This is the author's intermediate conclusion by repeated substitution from steps 1 and 2, not an unconditional fact. The source's later claim that such a cause must be noncontingent remains a distinct, unformalized inference.",
   "status": "formalized",
-  "definition_ids": ["DEF-NB-COUNT-CAUSABILITY"],
-  "disambiguation_ids": ["DISAMB-NB-CAUSABILITY"]
+  "definition_ids": [
+    "688f2e05-6390-5460-9bd0-190a819df1fa"
+  ],
+  "disambiguation_ids": [
+    "88d21f57-4108-56a6-8cf9-5ab5f21935a5"
+  ]
 }

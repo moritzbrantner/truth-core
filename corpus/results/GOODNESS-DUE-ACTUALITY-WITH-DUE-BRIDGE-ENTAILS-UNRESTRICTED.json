@@ -1,6 +1,8 @@
 {
-  "id": "GOODNESS-DUE-ACTUALITY-WITH-DUE-BRIDGE-ENTAILS-UNRESTRICTED",
-  "argument_id": "GOODNESS-DUE-ACTUALITY-WITH-DUE-BRIDGE-ENTAILS-UNRESTRICTED",
+  "id": "3b3495cb-f79c-51af-8473-31b75ba452cc",
+  "label": "A thing is GOOD_1 in a given perfection…, from For every bearer and perfection in the… and 1 more",
+  "legacy_id": "GOODNESS-DUE-ACTUALITY-WITH-DUE-BRIDGE-ENTAILS-UNRESTRICTED",
+  "argument_id": "f2ad40c3-a8cf-5888-84f9-8a7d6dcf6f9e",
   "challenge_module": "TruthCore.Results.Metaethics.GoodnessDueToUnrestricted.Challenge",
   "solution_module": "TruthCore.Results.Metaethics.GoodnessDueToUnrestricted.Solution",
   "theorem": "TruthCore.Results.Metaethics.GoodnessDueToUnrestricted.dueToUnrestricted",

@@ -1,7 +1,9 @@
 {
-  "id": "INF-NECESSARY-SIMPLE-PLURALITY-JOINT-CONTROL",
+  "id": "848d2c35-d828-51ea-8dfc-11ede3fd480a",
+  "label": "One fixed four-being, two-world universally accessible interpretation jointly…, by Explicit finite…",
+  "legacy_id": "INF-NECESSARY-SIMPLE-PLURALITY-JOINT-CONTROL",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-NECESSARY-SIMPLE-PLURALITY-JOINT-CONTROL",
+  "output_statement_id": "cd86bd55-76cf-57d1-b4b4-61b91fe7a1cc",
   "rule": "Explicit finite interpretation, reuse of verified simplicity/pure-act theorems and uniqueness-route exclusion",
   "meaning": "Supply nonempty finite carriers and actual causal/component/motion witnesses; verify the interpreted source premises, derive both roots’ represented attributes using imported proofs, and refute common-nature/differentiation premises using imported uniqueness theorems and the distinct roots.",
   "assumption_statement_ids": [],

@@ -1,9 +1,11 @@
 {
-  "id": "REL-ARIST-PHYS-202A-MOTION-IN-MOVABLE-SUPPORTS-REDUCED-BY-A-MOVER",
+  "id": "4cf218ac-c0ae-529e-96d1-c909aa2596dd",
+  "label": "Aristotle, Physics III.3, 202a13-15: Motion… supports Whatever is being moved in a respect is…",
+  "legacy_id": "REL-ARIST-PHYS-202A-MOTION-IN-MOVABLE-SUPPORTS-REDUCED-BY-A-MOVER",
   "subject_kind": "claim",
-  "subject_id": "ARIST-PHYS-202A-MOTION-IN-MOVABLE-A",
+  "subject_id": "445d0ba2-e7aa-504f-a756-2565b205377c",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+  "object_id": "4a952b96-be5f-5493-8277-985248151d01",
   "note": "Physics III.3, 202a13-14: motion is the actuality of the movable 'by the mover' (υπο του κινητικου); it bears on the premise that whatever is moved has a mover without stating it as a universal claim."
 }

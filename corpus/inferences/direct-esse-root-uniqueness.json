@@ -1,16 +1,18 @@
 {
-  "id": "INF-DIRECT-ESSE-ROOT-UNIQUENESS",
+  "id": "f43673ff-16a2-53f9-a8fa-e7ddd995fc83",
+  "label": "There exists an actual concrete root n of the profile selected relation at…, by… (4)",
+  "legacy_id": "INF-DIRECT-ESSE-ROOT-UNIQUENESS",
   "input_statement_ids": [
-    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
-    "STMT-WHOLE-ROSTER-NOT-TRAPPED",
-    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
-    "STMT-EXISTING-IN-ACT-AT",
-    "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
-    "STMT-GRADES-HAVE-A-MAXIMUM"
+    "56f68b40-9737-59a0-8cac-5610980a1547",
+    "5c898d24-d1f7-5087-b09e-3287a723e787",
+    "c71c068c-bbae-5ed5-a99d-70b155c8d239",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "d9fad785-40ab-555a-a1c1-5e39c9d50497",
+    "0436de86-6579-53f2-9ff5-2111ba44ebae",
+    "cb1cdea9-eb6c-578c-8008-84e0d4107fd3",
+    "6c27657f-a2bf-5c1d-963c-c154b66bfa85"
   ],
-  "output_statement_id": "STMT-UNIQUE-NECESSARY-ACTUAL-ROOT",
+  "output_statement_id": "91b085c4-f1c7-5ada-9848-8e7dc753313a",
   "rule": "constructive-proof",
   "meaning": "Reuse the whole-roster actual necessary root. ExistingInActAt supplies esse actuality directly from its actual existence; existing maximum fork/core results and grades-to-maximum give a maximum. Genus causality plus the existing direct esse-cause-to-actual-concrete-ground interface identify every supplied maximum with that SAME root. This root directly grounds every other actual concretum, including contingent recipients, under the selected relation. A second actual root contradicts that incoming ground. Conclude the existing UniqueNecessaryActualRootAt proposition, not uniqueness of all necessary individuals. All eight inputs remain explicit; no necessity-cause relation/bridge or modal necessary-being-has-being interface is used. The direct bridge has different and stronger target coverage, so fewer inputs do not establish global logical weakening or independent philosophical warrant. Direct ground coverage does not establish complete explanatory sufficiency.",
   "assumption_statement_ids": [],

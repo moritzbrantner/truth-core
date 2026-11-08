@@ -1,6 +1,8 @@
 {
-  "id": "PURE-ACT-NECESSARY-ROOT-CONTROLS",
-  "argument_id": "PURE-ACT-NECESSARY-ROOT-CONTROLS",
+  "id": "0a38441d-1d98-58ca-a1b6-7b685f0200cd",
+  "label": "Finite one-world interpretations; excluded middle is a premise of both routes and is not asserted",
+  "legacy_id": "PURE-ACT-NECESSARY-ROOT-CONTROLS",
+  "argument_id": "533fe7e3-1ccc-5103-aabb-bfba373c26fc",
   "challenge_module": "TruthCore.Results.Causality.PureActRoot.Challenge",
   "solution_module": "TruthCore.Results.Causality.PureActRoot.Solution",
   "theorem": "TruthCore.Results.Causality.PureActRoot.controls",

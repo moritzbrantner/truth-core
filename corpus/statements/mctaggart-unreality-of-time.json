@@ -1,13 +1,15 @@
 {
-  "id": "STMT-MCTAGGART-UNREALITY-OF-TIME",
+  "id": "d908f7a8-5c50-58fa-b0e0-702795acd6f5",
+  "label": "McTaggart's bundle on change, the conjunction of his two sourced theses: no event changes in its…",
+  "legacy_id": "STMT-MCTAGGART-UNREALITY-OF-TIME",
   "paraphrase": "McTaggart's bundle on change (1908), the conjunction of his two sourced theses: no event changes in its A-series determinations, though there are judgings and perceivings (STMT-MCTAGGART-NO-A-SERIES-CHANGE-BUT-APPEARS), and all change is change of A-series determinations (STMT-MCTAGGART-ALL-CHANGE-IS-A-SERIES-CHANGE). Not his whole metaphysics: the C series and his later reply that appearers do not change are not part of it.",
   "lean_declaration": "TruthCore.Comparison.McTaggart.UnrealityOfTime",
   "definition_ids": [
-    "DEF-A-SERIES-CHANGE",
-    "DEF-CHANGE-GENERAL",
-    "DEF-OPINING"
+    "6b30d5d8-9d30-51f1-9830-e356325c2529",
+    "9bd881c9-2227-5883-9595-96db5e630da3",
+    "9703834b-4e1d-5f4a-9e9a-2df5a215d493"
   ],
   "disambiguation_ids": [
-    "DISAMB-CHANGE-A-SERIES"
+    "784f3293-6601-5730-a89a-c0b84d8d8b57"
   ]
 }

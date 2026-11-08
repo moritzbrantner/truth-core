@@ -1,13 +1,15 @@
 {
-  "id": "INF-CONSTITUTIVE-NATURE-FIRST-MOVER-DIFFERENTIATION",
+  "id": "7f86e801-6fab-5805-afd4-1cda6b4f0a82",
+  "label": "Two distinct first movers moved by none would differ in some act: one…, by Constitutive identity…",
+  "legacy_id": "INF-CONSTITUTIVE-NATURE-FIRST-MOVER-DIFFERENTIATION",
   "input_statement_ids": [
-    "STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE",
-    "STMT-FIRST-MOVER-SUPPOSITUM-IS-NATURE",
-    "STMT-CONSTITUTIVE-CONTENT-COMPLETE",
-    "STMT-FIRST-MOVER-CONTENT-AGREES-WITH-ACT",
-    "STMT-EXCLUDED-MIDDLE"
+    "2344542e-8036-5cbe-9dfc-af5e7907cde5",
+    "3581ee6a-6cc3-57c5-aa23-b93118f0dff1",
+    "dad1a21d-f65c-5d9e-99d2-59c9f248a0b0",
+    "55890498-a250-5f23-9277-bd563a557378",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-PLURAL-FIRST-MOVERS-WOULD-DIFFER-IN-ACT",
+  "output_statement_id": "034eb68f-6b29-5854-9f66-e4e760b9cfa8",
   "rule": "Constitutive identity contrapositive with explicit excluded-middle witness extraction",
   "meaning": "If two first movers differed numerically but agreed in every SAME-InAct respect, alignment would give equal constitutive content, completeness would give equal represented natures, and the explicit first-mover suppositum/nature adapter plus existing incommunicable individuation would give numerical identity. Explicit excluded middle extracts an actual respect with opposite InAct truth values. This derives the original quantified differentiation premise without every-perfection, but only under three new OPEN constitutive/applicability interfaces; it is not an independent defense of them or of real uniqueness.",
   "assumption_statement_ids": [],

@@ -1,6 +1,8 @@
 {
-  "id": "ORDERING-CARDINALITY",
-  "argument_id": "ORDERING-CARDINALITY",
+  "id": "cfaa2a33-7199-5ade-9a40-cb2677c521f9",
+  "label": "The bijective enumerations of a fixed Nat-labeled roster have cardinality 2^aleph0, strictly…",
+  "legacy_id": "ORDERING-CARDINALITY",
+  "argument_id": "799b6855-1fa4-5355-bfb4-89880c8b9ad1",
   "challenge_module": "TruthCore.Results.Explanation.OrderingCardinality.Challenge",
   "solution_module": "TruthCore.Results.Explanation.OrderingCardinality.Solution",
   "theorem": "TruthCore.Results.Explanation.OrderingCardinality.cardinality",

@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CC100-122-REALISM-NO-GOD-SKEPTICISM",
+  "id": "a5b78195-8961-547b-b63d-c98efde6f49e",
+  "label": "If realism is true but God does not exist, radical skepticism is true",
+  "legacy_id": "STMT-CC100-122-REALISM-NO-GOD-SKEPTICISM",
   "paraphrase": "If realism is true but God does not exist, radical skepticism is true.",
   "definition_ids": [
-    "DEF-CC100-122-REALISM-SKEPTICISM"
+    "3c9cb396-8e6f-59d9-8528-98161f3db735"
   ],
   "disambiguation_ids": [
-    "DISAMB-REASON-EPISTEMIC-ONTIC",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "a61d3807-50e9-595e-9011-9123fd606a4b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

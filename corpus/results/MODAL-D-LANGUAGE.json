@@ -1,6 +1,8 @@
 {
-  "id": "MODAL-D-LANGUAGE",
-  "argument_id": "MODAL-D-LANGUAGE",
+  "id": "61b7019f-6381-58a2-9d10-7293cb3fa57b",
+  "label": "An explicit serial Bool two-cycle with constant atomic valuation has fixed-language MC at both…",
+  "legacy_id": "MODAL-D-LANGUAGE",
+  "argument_id": "d88c0cb3-30e6-5d4c-858d-94e37cb4ba22",
   "challenge_module": "TruthCore.Results.Modal.DResearch.Language.Challenge",
   "solution_module": "TruthCore.Results.Modal.DResearch.Language.Solution",
   "theorem": "TruthCore.Results.Modal.DResearch.Language.checks",

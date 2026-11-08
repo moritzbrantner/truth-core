@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MAXIMAL-TARGET-GROUNDING-ASYMMETRY",
+  "id": "64ea018d-ccde-5ce9-85f5-a4e367199aac",
+  "label": "Actual grounding asymmetry restricted…: AtMaximalTarget requires reverse-edge exclusion only when…",
+  "legacy_id": "DEF-MAXIMAL-TARGET-GROUNDING-ASYMMETRY",
   "term": "actual grounding asymmetry restricted to maximal-in-esse targets",
   "definition": "AtMaximalTarget requires reverse-edge exclusion only when the target b is maximal under the SAME supplied InAct/MoreIn/esse dictionary and both a,b are actual concreta at the SAME selected world. It is a scope restriction of ActualGroundingAsymmetric, not a new relation, definition of maximality, roothood or explanation. It leaves reciprocal links between nonmaximal actual dependents unconstrained.",
   "basis": "stipulative",

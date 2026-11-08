@@ -1,17 +1,19 @@
 {
-  "id": "STMT-CHOICE-CONTEXT-CONTROLS",
+  "id": "545e0581-6f75-557b-8d97-c1f501c6d4f6",
+  "label": "Stipulative finite decision-table controls, not a free-will theory",
+  "legacy_id": "STMT-CHOICE-CONTEXT-CONTROLS",
   "lean_declaration": "TruthCore.Modal.ChoiceContext.Controls",
   "paraphrase": "Stipulative finite decision-table controls, not a free-will theory. Reusing fixedConditionsStable, a fixed pair of law and complete input plus an exact response function entails stable selected output. In the displayed finite table, equal law and input imply equal action; an unconstrained actual history has no different action at the same context. Changing the input alone or the law alone gives explicit different actions. A constrained history and the unconstrained actual history share their action. A second, single relational law permits both Boolean actions at the very same unconstrained input, while requiring the true action at every constrained input. Thus lawfulness need not be functionality; nondeterministic lawful alternatives need not violate a law. Complete means complete for this stipulated table. No physical realization, freedom, responsibility, metaphysical adequacy or root premise is established.",
   "definition_ids": [
-    "DEF-CHOICE-CONTEXT-TABLE",
-    "DEF-CHOICE-CONTEXT-ALTERNATIVE",
-    "DEF-CHOICE-CONTEXT-CONSTRAINT",
-    "DEF-CHOICE-CONTEXT-RELATIONAL-LAW",
-    "DEF-SELECTED-EFFECT-STABLE-OUTPUT",
-    "DEF-SELECTED-EFFECT-OUTPUT-PROFILE"
+    "02bd8b01-1bf4-558f-861c-632049e17c1f",
+    "54150c17-a4b7-56ea-8874-ab274c412c2f",
+    "3d89fd62-24e4-5056-8f59-146aed9b2e82",
+    "355ed397-9e99-57d5-9498-91f96e930483",
+    "c033d373-f381-504b-9674-c13fc9a96034",
+    "e36a3cf1-be2c-51a0-bb55-f388c115e11d"
   ],
   "disambiguation_ids": [
-    "DISAMB-CHOICE-CONTEXT-ALTERNATIVES",
-    "DISAMB-SELECTED-EFFECT-ACT-AND-CONDITIONS"
+    "b61af133-a724-5817-97a3-b55753234025",
+    "303c2298-fd1b-55f3-9754-398816a78514"
   ]
 }

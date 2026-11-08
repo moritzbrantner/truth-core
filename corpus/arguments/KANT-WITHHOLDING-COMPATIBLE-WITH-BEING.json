@@ -1,18 +1,20 @@
 {
-  "id": "KANT-WITHHOLDING-COMPATIBLE-WITH-BEING",
+  "id": "c2395948-059f-5c7e-b969-cf713cbf3797",
+  "label": "An explicit family of interpretations has a necessary being in its designated actual member… (2)",
+  "legacy_id": "KANT-WITHHOLDING-COMPATIBLE-WITH-BEING",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-KANT-WITHHOLDING-COMPATIBLE-WITH-BEING",
+  "conclusion_statement_id": "f5f6c55c-f58b-5076-b51c-738e3d590e88",
   "inference_ids": [
-    "INF-KANT-WITHHOLDING-COMPATIBLE-WITH-BEING"
+    "c42eea92-1d92-551f-8c52-71046ac1e731"
   ],
   "meaning": "An explicit family of interpretations has a necessary being in its designated actual member while neither its existence nor its nonexistence is known across all epistemically available interpretations. An analyst’s model/consequence test; no result proves Kantian idealism, real possibility, premise truth or a refutation of God. See docs/kant-cosmological-inference.md. Archival underconstrained result; the universal revision supplies the advertised frame guarantee.",
   "definition_ids": [
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-EPISTEMIC-WITHHOLDING",
-    "DEF-KANT-ONTIC-DENIAL"
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "1b91831b-8bab-5a47-876a-19a189c99b92",
+    "7785c06a-2177-565d-8d87-79ea5a78ad5f"
   ],
   "disambiguation_ids": [
-    "DISAMB-KANT-NECESSITY-AND-KNOWLEDGE"
+    "5953b4dc-5e3b-54c3-9610-111fe5637743"
   ]
 }

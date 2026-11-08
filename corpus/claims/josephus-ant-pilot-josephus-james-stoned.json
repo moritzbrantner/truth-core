@@ -1,14 +1,16 @@
 {
-  "id": "JOSEPHUS-ANT-PILOT-JOSEPHUS-JAMES-STONED",
-  "statement_id": "STMT-PILOT-REPORT-JOSEPHUS-JAMES-STONED",
-  "source_id": "JOSEPHUS-ANT",
+  "id": "24f13297-9d53-5954-b51a-0ee69f5f5388",
+  "label": "Josephus, Jewish Antiquities 20.200: Josephus narrates Ananus handing James, brother of Jesus…",
+  "legacy_id": "JOSEPHUS-ANT-PILOT-JOSEPHUS-JAMES-STONED",
+  "statement_id": "637431f0-503b-5dd3-a4a8-7f531fa8af5c",
+  "source_id": "be976c17-ee3d-53f7-ae55-78ec0af460a5",
   "locator": "20.200 (20.9.1)",
   "interpretation": "No conversion, refusal to recant, appearance experience or explicit Christian martyr motive is supplied. The materialized book’s 20.197-203 context concerns Ananus’s irregular exercise of authority.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-RESURRECTION-PILOT-REPORT"
+    "2d8b04da-9f9c-5592-bb91-9c2ded12aa2e"
   ],
   "disambiguation_ids": [
-    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+    "2567d8a9-549e-5404-8658-3275b7029092"
   ]
 }

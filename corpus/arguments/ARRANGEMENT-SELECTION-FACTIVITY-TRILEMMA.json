@@ -1,20 +1,22 @@
 {
-  "id": "ARRANGEMENT-SELECTION-FACTIVITY-TRILEMMA",
+  "id": "2fd362f4-b51d-5c73-91e3-dab0c7ea8294",
+  "label": "Structural coverage: complete entailing selection…, from Excluded middle as a general principle…",
+  "legacy_id": "ARRANGEMENT-SELECTION-FACTIVITY-TRILEMMA",
   "premise_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-ARRANGEMENT-SELECTION-TRUTHFUL-NONSELECTION-FALSE-ACCEPTANCE-FORK",
+  "conclusion_statement_id": "c79c6c2c-6330-5856-9e6d-25a4b890be2c",
   "inference_ids": [
-    "INF-ARRANGEMENT-SELECTION-FACTIVITY-TRILEMMA"
+    "14047391-6775-5d5d-a418-5054f09083f2"
   ],
   "meaning": "Checked structural coverage complete selection OR truthful nonselection OR accepted false candidate. Negative cases may overlap; no historical theory roster is exhausted.",
   "definition_ids": [
-    "DEF-ACCEPTED-EXPLANATION-TRUTHFULNESS-POLICY",
-    "DEF-LABELED-CHAIN-ARRANGEMENT",
-    "DEF-ARRANGEMENT-ENTAILING-SELECTION",
-    "DEF-HISTORY-SELECTION-INFORMATION"
+    "2aeb69be-e127-518b-98b0-7862475f2c12",
+    "c9e3d998-544d-55a1-8932-b1c68f182ad0",
+    "f6c46849-e1f6-5810-951c-ede141bcbc54",
+    "c8c357e8-33d1-5468-858d-78f8493e353b"
   ],
   "disambiguation_ids": [
-    "DISAMB-LABELED-ORDER-EXPLANATION"
+    "373537a1-250e-5874-93f9-78ca7c20e1f7"
   ]
 }

@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-ADAPTIVE-FAILURE-AND-WARRANT",
+  "id": "4b2e6ada-7f7e-52b9-9c8b-59fd2fb7f48c",
+  "label": "Unrestricted adaptive prediction failure",
+  "legacy_id": "DISAMB-ADAPTIVE-FAILURE-AND-WARRANT",
   "term": "unrestricted adaptive prediction failure",
   "sense_definition_ids": [
-    "DEF-ADAPTIVE-TRUTHFUL-PREDICTION",
-    "DEF-FALLIBLE-WEIGHTED-CORRECTION"
+    "b98dc739-5b36-5952-a0cf-597185db8d5a",
+    "0331d7b3-ad25-59d1-b4c2-94218ddda0ca"
   ],
   "resolution": "For every total deterministic predictor there is one predictor-dependent stream with failure on every truthful prefix, uniformly over all horizons. This is not one stream defeating all predictors, failure of randomized methods in expectation, actual unreliability, impossibility of justified fallible inference, semantic indeterminacy or meaninglessness. A restricted method class/environment can retain positive guarantees. The two-expert numerical comparison is confined to the exact imported learner, truthful feedback, pool size two, expert-error budget two and horizon eleven; arbitrary finite-pool bounds are not inferred from that instance."
 }

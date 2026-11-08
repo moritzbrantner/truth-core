@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-PLATONIC-CAUSE",
+  "id": "a0786cf3-0248-58b6-ad97-12b00af85056",
+  "label": "Cause (2)",
+  "legacy_id": "DISAMB-PLATONIC-CAUSE",
   "term": "cause",
   "sense_definition_ids": [
-    "DEF-PLATONIC-EXPLANATION",
-    "DEF-PLATONIC-GENERATION-CAUSE"
+    "f1f49212-b37b-5ead-8040-96bbeff01a3f",
+    "fefbb205-07a2-595f-80d6-c6975c7cd185"
   ],
   "resolution": "The Phaedo cause of being F uses ternary Explains. Existing Timaeus.CausePrinciple concerns coming-to-be and remains unchanged. A Form used as exemplar is not silently identified with its maker, with God, or with a cause of generation."
 }

@@ -1,10 +1,12 @@
 {
-  "id": "INF-UNRESTRICTED-SUM1-TO-SUM2",
+  "id": "b274f399-5748-581a-9d8f-8857e3ba2779",
+  "label": "Every nonempty Lean Set in the fixed partial-order carrier has…, by Typed-partial-order-exact-rem…",
+  "legacy_id": "INF-UNRESTRICTED-SUM1-TO-SUM2",
   "input_statement_ids": [
-    "STMT-MEREOLOGICAL-COMPLEMENTATION",
-    "STMT-NONEMPTY-UNRESTRICTED-SUM1"
+    "b0b48251-daf9-5dc1-9a44-e7b7489f3c27",
+    "db4f8c85-6854-5864-b7f0-a72d9dc32894"
   ],
-  "output_statement_id": "STMT-NONEMPTY-UNRESTRICTED-SUM2",
+  "output_statement_id": "852d279c-58c6-522a-b3a7-b71faab17749",
   "rule": "typed-partial-order-exact-remainder-and-join",
   "meaning": "For each supplied nonempty family, take its supplied least upper bound and apply the checked pointwise comparison. This connects actual Sum1 witnesses to the existing Sum2 predicate, rather than assuming the resulting Sum2 witnesses. Exact complementation and all-nonempty Sum1 formation remain open framework commitments.",
   "assumption_statement_ids": [],

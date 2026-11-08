@@ -1,9 +1,19 @@
 {
-  "id": "SUPERTASK-STABLE-ENDPOINT",
+  "id": "8d6940af-e81f-51db-8c29-ba9718b80f67",
+  "label": "A natural-number-indexed sequence of stages with no last stage can be ordered before a distinct…",
+  "legacy_id": "SUPERTASK-STABLE-ENDPOINT",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-SUPERTASK-STABLE-ENDPOINT",
-  "inference_ids": ["INF-SUPERTASK-STABLE-ENDPOINT"],
+  "conclusion_statement_id": "b74076fe-1fc5-581a-bbcf-ada75630def0",
+  "inference_ids": [
+    "fcb741b9-f612-53c5-b4af-4a398cd5d605"
+  ],
   "meaning": "An explicit mathematical countermodel to the bare inference from no last indexed stage to no distinct endpoint or coherent terminal Boolean value. It does not establish a realizable finite-time physical supertask.",
-  "definition_ids": ["DEF-SUPERTASK-LAST-STAGE", "DEF-SUPERTASK-LIMIT-ENDPOINT", "DEF-SUPERTASK-STABLE-LIMIT"],
-  "disambiguation_ids": ["DISAMB-SUPERTASK-ENDING"]
+  "definition_ids": [
+    "d42a1375-ef07-584f-b6d1-90b78185c683",
+    "d564bb74-b5a6-50be-b390-3afb84887f32",
+    "43bc2414-b12d-5820-96de-59489124f4f1"
+  ],
+  "disambiguation_ids": [
+    "fd6e6498-2f61-57db-accb-6168e6cd835d"
+  ]
 }

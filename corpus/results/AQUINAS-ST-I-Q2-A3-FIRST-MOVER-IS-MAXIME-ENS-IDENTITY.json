@@ -1,6 +1,8 @@
 {
-  "id": "AQUINAS-ST-I-Q2-A3-FIRST-MOVER-IS-MAXIME-ENS-IDENTITY",
-  "argument_id": "AQUINAS-ST-I-Q2-A3-FIRST-MOVER-IS-MAXIME-ENS-IDENTITY",
+  "id": "87b6f981-dc44-59a6-b230-8e776cb2cb04",
+  "label": "Every first mover moved by none is the…, from What is maximal in a GENUS_2 is the cause… and 4 more",
+  "legacy_id": "AQUINAS-ST-I-Q2-A3-FIRST-MOVER-IS-MAXIME-ENS-IDENTITY",
+  "argument_id": "db6ab332-36b7-5c48-a0c4-42d04acfc6e4",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverIsMaximeEnsIdentity.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverIsMaximeEnsIdentity.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverIsMaximeEnsIdentity.firstMoverIsMaximeEns",

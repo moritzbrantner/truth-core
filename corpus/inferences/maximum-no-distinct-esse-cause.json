@@ -1,9 +1,11 @@
 {
-  "id": "INF-MAXIMAL-BEING-EXCLUDES-DISTINCT-ESSE-CAUSE",
+  "id": "056e6fda-c5b0-5e7b-b46f-c4e19c1587bc",
+  "label": "Every maximum in being excludes a distinct cause of its being in the…, by Maximality-contradiction",
+  "legacy_id": "INF-MAXIMAL-BEING-EXCLUDES-DISTINCT-ESSE-CAUSE",
   "input_statement_ids": [
-    "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH"
+    "d5a94eb1-72d2-53e0-9a52-9787b5b61a8d"
   ],
-  "output_statement_id": "STMT-MAXIMUM-HAS-NO-DISTINCT-ESSE-CAUSE",
+  "output_statement_id": "18561596-1269-53ff-8505-c56e4348e335",
   "rule": "maximality-contradiction",
   "meaning": "Every maximum in being excludes a distinct cause of its being in the existing CausesIn relation: causal comparison would make that cause more in being, contrary to maximality. This does not exclude self-causation or arbitrary sustaining/withdrawal/modal power. The finite omission model verifies that maximality alone does not give this exclusion.",
   "assumption_statement_ids": [],

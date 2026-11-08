@@ -1,6 +1,8 @@
 {
-  "id": "MCTAGGART-BUNDLE-DEFEATED-BY-CHANGE",
-  "argument_id": "MCTAGGART-BUNDLE-DEFEATED-BY-CHANGE",
+  "id": "a965c08c-85da-5a22-ab9c-d8f695fb2e54",
+  "label": "McTaggart's bundle on change does not hold: it is not the case both that no event…, by change",
+  "legacy_id": "MCTAGGART-BUNDLE-DEFEATED-BY-CHANGE",
+  "argument_id": "0a86321b-bd02-548d-80c5-58a184c8fca5",
   "challenge_module": "TruthCore.Results.Alternatives.McTaggartDefeatedByChange.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.McTaggartDefeatedByChange.Solution",
   "theorem": "TruthCore.Results.Alternatives.McTaggartDefeatedByChange.bundleDefeatedByChange",

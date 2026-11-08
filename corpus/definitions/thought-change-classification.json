@@ -1,5 +1,7 @@
 {
-  "id": "DEF-THOUGHT-CHANGE-CLASSIFICATION",
+  "id": "a298c8b6-9c0f-51a5-8778-9022c22622d5",
+  "label": "THOUGHT_TO_CHANGE_CLASSIFICATION_2: ThoughtChangeBridge Thought Change means ∀ e, Thought e →…",
+  "legacy_id": "DEF-THOUGHT-CHANGE-CLASSIFICATION",
   "term": "thought-to-change classification",
   "definition": "ThoughtChangeBridge Thought Change means ∀ e, Thought e → Change e. It is a substantive bridge from the selected thought episodes to the existing Physics III.1 change predicate, not a definition of thought or change.",
   "basis": "stipulative",

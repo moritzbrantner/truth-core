@@ -1,5 +1,7 @@
 {
-  "id": "DEF-DEMARCATION-RESTRICTION",
+  "id": "3332e115-51be-5870-b228-c7a5e4bb938e",
+  "label": "Demarcation criterion, restricted…: A Demarcation fixes a domain of claims",
+  "legacy_id": "DEF-DEMARCATION-RESTRICTION",
   "term": "demarcation criterion, restricted (weak) thesis, concession",
   "definition": "A `Demarcation` fixes a domain of claims. The weak thesis `N.restrict D` applies the strong norm only to claims in scope and in the domain. `N.Concedes D Acceptable c`: c is in the strong scope, outside the domain, acceptable and fails the standard; every concession is a counterexample to the strong norm.",
   "basis": "stipulative",

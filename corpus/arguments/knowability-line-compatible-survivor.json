@@ -1,17 +1,19 @@
 {
-  "id": "KNOWABILITY-LINE-COMPATIBLE-SURVIVOR",
+  "id": "d6f65fc8-1412-5161-93c6-b8cd0968d3dd",
+  "label": "On the same four worlds, epistemic frame, atom and content family, the union of the earlier…",
+  "legacy_id": "KNOWABILITY-LINE-COMPATIBLE-SURVIVOR",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-KNOWABILITY-LINE-COMPATIBLE-SURVIVOR",
+  "conclusion_statement_id": "b41b1a3c-d8b2-5a87-ac90-76de31daacd9",
   "inference_ids": [
-    "INF-KNOWABILITY-LINE-COMPATIBLE-SURVIVOR"
+    "0a22d8b8-4914-5141-9d2d-532fe2119a42"
   ],
   "meaning": "Import the prior Fitch certificate and use the union of its epistemic and modal relations. Old modal edges preserve old biconditional witnesses; on new epistemic edges symmetry lets knowledge at the endpoint supply truth at the starting world. The reflexive symmetric line includes E and retains biconditional restricted knowability with actual ignorance, while explicit edges0–1 and0–2 without1–2 refute Euclideanness. No actual metaphysical interpretation or global minimality is claimed.",
   "definition_ids": [
-    "DEF-FITCH-WORLD-INDEXED-KNOWLEDGE",
-    "DEF-FITCH-ADMISSIBLE-CONTENTS",
-    "DEF-KNOWABILITY-MODAL-COMPATIBILITY"
+    "4c0b6f4b-25fe-54c5-abce-5e866775385c",
+    "8cdd567b-c06b-5c6f-8a3a-f785e6c83fde",
+    "ceabb741-5d93-5f04-ba05-418605b8bd0e"
   ],
   "disambiguation_ids": [
-    "DISAMB-FITCH-OPERATOR-SCOPE"
+    "840d320e-ed3b-553b-b0dd-750c61c298ba"
   ]
 }

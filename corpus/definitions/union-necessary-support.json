@@ -1,5 +1,7 @@
 {
-  "id": "DEF-UNION-NECESSARY-SUPPORT",
+  "id": "d2cfd973-4fc7-5ba1-9203-3fcd28ebc07c",
+  "label": "Cross-world union graph of direct\u2026: A source c precedes a target b if both are de re necessary\u2026",
+  "legacy_id": "DEF-UNION-NECESSARY-SUPPORT",
   "term": "cross-world union graph of direct existential support among necessary bearers",
   "definition": "A source c precedes a target b if both are de re necessary from w\u2080 and there is at least one admitted world at which c actually exists and directly supports b. This is a union of explicitly world-indexed direct edges on fixed bearer identities, not a graph of world accessibility, a temporal trace or a transitive closure through contingent beings. Each edge is wholly in its own witness world. A path in the union overlay may combine edges witnessed in different worlds; it is not an actual cross-world causal path or a temporal history.",
   "basis": "stipulative",

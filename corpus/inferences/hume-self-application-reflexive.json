@@ -1,7 +1,9 @@
 {
-  "id": "INF-HUME-SELF-APPLICATION-REFLEXIVE",
+  "id": "6405be9f-1ebc-5b50-928f-7f193b5dee33",
+  "label": "On a reflexive frame, □H conflicts with either C or C. A separate actual-H…, by Direct-proof",
+  "legacy_id": "INF-HUME-SELF-APPLICATION-REFLEXIVE",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-HUME-SELF-APPLICATION-REFLEXIVE",
+  "output_statement_id": "f1c9a22e-233a-5f5e-a5f9-33845c0cee92",
   "rule": "direct-proof",
   "meaning": "Instantiate □H at the reflexive root, then compose the ordinary and higher-order conflict laws rather than restating an actual bridge as an independent premise.",
   "assumption_statement_ids": [],

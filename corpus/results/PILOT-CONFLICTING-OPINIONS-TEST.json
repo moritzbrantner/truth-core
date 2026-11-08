@@ -1,6 +1,8 @@
 {
-  "id": "PILOT-CONFLICTING-OPINIONS-TEST",
-  "argument_id": "PILOT-CONFLICTING-OPINIONS-TEST",
+  "id": "e8d51a88-1286-5f02-8520-938c0db57f1b",
+  "label": "For the supplied opinion and truth…, from There are opinions of a content and its… and 1 more",
+  "legacy_id": "PILOT-CONFLICTING-OPINIONS-TEST",
+  "argument_id": "87504a6f-0778-5bc9-819f-9f8215ac88bb",
   "challenge_module": "TruthCore.Results.Logic.TruthPilot.ConflictingOpinionsTest.Challenge",
   "solution_module": "TruthCore.Results.Logic.TruthPilot.ConflictingOpinionsTest.Solution",
   "theorem": "TruthCore.Results.Logic.TruthPilot.ConflictingOpinionsTest.conflictingOpinionsTest",

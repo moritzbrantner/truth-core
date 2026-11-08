@@ -1,10 +1,12 @@
 {
-  "id": "INF-QUARTA-VIA-WITNESS-WITHOUT-DISTINCT-ESSE-CAUSE",
+  "id": "dd9cbe0e-55f2-5c15-998f-c4910de48ad5",
+  "label": "Import quartaVia to obtain the same maximum that causes the being of every other…, by Composition",
+  "legacy_id": "INF-QUARTA-VIA-WITNESS-WITHOUT-DISTINCT-ESSE-CAUSE",
   "input_statement_ids": [
-    "STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL",
-    "STMT-MAXIMUM-HAS-NO-DISTINCT-ESSE-CAUSE"
+    "0881e859-c4c3-53ff-9bec-b61294e12d51",
+    "18561596-1269-53ff-8505-c56e4348e335"
   ],
-  "output_statement_id": "STMT-MAXIMAL-CAUSE-WITHOUT-DISTINCT-ESSE-CAUSE",
+  "output_statement_id": "0e242e29-7670-55f8-bf8e-f5800b9890c7",
   "rule": "composition",
   "meaning": "Import quartaVia to obtain the same maximum that causes the being of every other being, then apply causal-comparison exclusion to that witness. No new maximum-existence premise or root wrapper is added. The result advances the external-cause subproblem; sustaining-dependence and eternity recognition remain open.",
   "assumption_statement_ids": [],

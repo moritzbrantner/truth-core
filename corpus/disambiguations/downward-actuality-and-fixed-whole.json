@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-DOWNWARD-ACTUALITY-AND-FIXED-WHOLE",
+  "id": "d5c2f7bb-4927-5bb8-839f-2c9965d0f877",
+  "label": "Global parthood, actual fusion and fixed-whole actuality",
+  "legacy_id": "DISAMB-DOWNWARD-ACTUALITY-AND-FIXED-WHOLE",
   "term": "global parthood, actual fusion and fixed-whole actuality",
   "sense_definition_ids": [
-    "DEF-PRINCIPAL-IDEAL-ACTUALITY",
-    "DEF-ACTUAL-FUSION-PROFILE-CERTIFICATE"
+    "470bef1d-8ff2-5ce8-9a7a-8ba409bfb99c",
+    "9914ddda-c908-5569-a6dd-197200c70754"
   ],
   "resolution": "ActualPartsExistAt is downward: an actual whole has actual parts. Actual-family fusion requires all selected members actual; leastness places their fusion below the world object. Neither says that one actual part actualizes the fixed global whole. Greatestness in the candidate roster differs from actuality, and \u2200world\u2203greatest-actual-whole differs from \u2203whole\u2200world-actual. NecessaryAt retains the same literal individual across accessible worlds; there is no counterpart or temporal identity substitution. The empty cause relation is not a claim of satisfying causal availability. Existing actual-fusion necessity theorems keep their additional causal inputs."
 }

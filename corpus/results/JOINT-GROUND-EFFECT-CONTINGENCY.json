@@ -1,6 +1,8 @@
 {
-  "id": "JOINT-GROUND-EFFECT-CONTINGENCY",
-  "argument_id": "JOINT-GROUND-EFFECT-CONTINGENCY",
+  "id": "5a79597b-f645-55ab-a2cf-2b301e92e2e2",
+  "label": "The fixed selected conjunction…, from Every condition in the fixed selected set… and 3 more",
+  "legacy_id": "JOINT-GROUND-EFFECT-CONTINGENCY",
+  "argument_id": "438b03fa-4b5c-54af-a2ac-b8bbe4c5736b",
   "challenge_module": "TruthCore.Results.Explanation.JointGroundEffectContingency.Challenge",
   "solution_module": "TruthCore.Results.Explanation.JointGroundEffectContingency.Solution",
   "theorem": "TruthCore.Results.Explanation.JointGroundEffectContingency.jointContingent",

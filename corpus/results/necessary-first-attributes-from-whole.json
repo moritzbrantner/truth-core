@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-FIRST-ATTRIBUTES-FROM-WHOLE",
-  "argument_id": "NECESSARY-FIRST-ATTRIBUTES-FROM-WHOLE",
+  "id": "a4596f66-8dd1-50cc-b1f0-1f9465e00e9c",
+  "label": "One and the same actual concrete root at w exists at every world accessible from w…, from whole",
+  "legacy_id": "NECESSARY-FIRST-ATTRIBUTES-FROM-WHOLE",
+  "argument_id": "d028e5af-888e-530d-b4a4-485d714b8941",
   "challenge_module": "TruthCore.Results.Causality.NecessaryFirstAttributes.Challenge",
   "solution_module": "TruthCore.Results.Causality.NecessaryFirstAttributes.Solution",
   "theorem": "TruthCore.Results.Causality.NecessaryFirstAttributes.attributesFromWhole",

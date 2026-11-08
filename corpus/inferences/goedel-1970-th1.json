@@ -1,10 +1,12 @@
 {
-  "id": "INF-GOEDEL-1970-TH1",
+  "id": "7e8a65b2-bbed-5b8c-a29e-2de7be22e1cc",
+  "label": "Gödel's 1970 theorem Th1: at every world, being GOD_LIKE_6 is an ESSENCE_1, in…, by Case-analysis",
+  "legacy_id": "INF-GOEDEL-1970-TH1",
   "input_statement_ids": [
-    "STMT-GOEDEL-1970-POSITIVE-OR-NEGATION-POSITIVE-EXCLUSIVELY",
-    "STMT-SCOTT-POSITIVE-NECESSARILY-POSITIVE"
+    "a9077c68-43f0-53e1-905a-d431488204ee",
+    "0a4a4f75-f7e6-5543-8547-07de3402769c"
   ],
-  "output_statement_id": "STMT-GOEDEL-1970-GOD-LIKE-IS-ESSENCE",
+  "output_statement_id": "ce92c0a9-3db3-594f-a412-4fde009101bd",
   "rule": "case-analysis",
   "meaning": "AFP Th1 (Ax2a Ax2b Essence_def God_def). Let x be God-like and have ψ. By Ax2a ψ or its negation is positive. Not its negation, since x would then lack ψ. So ψ is positive, hence necessarily positive (Ax2b), and at every accessible world every God-like individual has ψ. Ax2a supplies the disjunction, so no excluded middle is needed.",
   "assumption_statement_ids": [],

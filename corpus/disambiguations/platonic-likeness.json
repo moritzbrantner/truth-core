@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-PLATONIC-LIKENESS",
+  "id": "2d7d9715-6d9a-5bff-84ec-5e3209f72e75",
+  "label": "Likeness",
+  "legacy_id": "DISAMB-PLATONIC-LIKENESS",
   "term": "likeness",
   "sense_definition_ids": [
-    "DEF-PLATONIC-LIKENESS",
-    "DEF-PLATONIC-IMITATION"
+    "2887f878-d786-5205-9d73-8142cd156ec3",
+    "cd195b17-e7f9-5199-9e4a-b7645007806e"
   ],
   "resolution": "Generic resemblance Like is not directed imitation Imitates. Republic 598a–b concerns a painter copying appearances of artifacts; it does not establish symmetry between Form and copy. Issue #258 must state any needed likeness bridges independently."
 }

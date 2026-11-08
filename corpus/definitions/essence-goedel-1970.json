@@ -1,11 +1,13 @@
 {
-  "id": "DEF-ESSENCE-GOEDEL-1970",
+  "id": "30ebc834-1c04-5b83-98c5-523c1dfdf436",
+  "label": "ESSENCE_1: ESSENCE_1 F ex φ x w: φ is necessarily included in every property ψ that x has at w…",
+  "legacy_id": "DEF-ESSENCE-GOEDEL-1970",
   "term": "essence (Gödel's 1970 Ess.; Lean `GoedelVariantHOML1.Essence`)",
   "definition": "`Essence F ex φ x w`: φ is necessarily included in every property ψ that x has at w, that is, for each such ψ, at every world accessible from w every existing individual that has φ has ψ (AFP definition Essence, φ Ess. x ≡ ❙∀ψ. ψ x ❙⊃ (φ ❙⊃⇩N ψ), with PropertyInclusion φ ❙⊃⇩N ψ ≡ ❙□(❙∀⇧Ey. φ y ❙⊃ ψ y)). Unlike Scott's essence (DEF-ESSENCE-SCOTT) it does not require x to have φ, so the empty property is an essence of everything (STMT-GOEDEL-1970-EMPTY-PROPERTY-IS-ESSENCE), and its inclusion quantifies over existing individuals only. Not the Thomist essence.",
   "basis": "sourced",
   "claim_ids": [
-    "AFP-NOTES-GOEDEL-HOML1-EMPTYESSL-A",
-    "AFP-NOTES-GOEDEL-HOML1-TH1-A"
+    "91cc6c84-4631-5e70-9285-0887f6993d62",
+    "cf494304-602a-574e-9903-6735dad045eb"
   ],
   "lean_declaration": "TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1.Essence"
 }

@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CC100-84-WORLDWISE-FACT-EXISTENCE",
+  "id": "927475bf-34e4-59fd-a13a-3d413eba3b47",
+  "label": "Some fact or other exists in every possible world",
+  "legacy_id": "STMT-CC100-84-WORLDWISE-FACT-EXISTENCE",
   "paraphrase": "Some fact or other exists in every possible world.",
   "definition_ids": [
-    "DEF-CC100-84-FACT-UNIFIER"
+    "5b2623de-6bc4-5d2c-9bc2-97c49681ae37"
   ],
   "disambiguation_ids": [
-    "DISAMB-CC100-84-UNIFIER-MODAL-SCOPE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "31b6bdd8-94c6-5967-9154-b5465ee5b351",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

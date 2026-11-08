@@ -1,9 +1,11 @@
 {
-  "id": "REL-Q44-A1-COUNTERFACTUAL-SUPPORTS-EFFECT-DEPENDS-ON-EFFICIENT-CAUSE",
+  "id": "d6d52e18-daf1-5484-b938-028f948e7f88",
+  "label": "Thomas Aquinas, Summa theologiae I q.44… supports Whatever c efficiently causes in any…",
+  "legacy_id": "REL-Q44-A1-COUNTERFACTUAL-SUPPORTS-EFFECT-DEPENDS-ON-EFFICIENT-CAUSE",
   "subject_kind": "claim",
-  "subject_id": "AQUINAS-ST-I-Q44-A1-EFFICIENT-CAUSE-COUNTERFACTUAL-DEPENDENCE",
+  "subject_id": "3ed36bec-27f4-5c77-93d5-3b6724d65204",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-EFFECT-DEPENDS-FOR-BEING-ON-EFFICIENT-CAUSE",
+  "object_id": "c0d99549-799c-5a01-9b59-75fe88550b26",
   "note": "Q.44 a.1 ad 2 says an agent cause is required because the effect would not be if the cause were not. The premise reads this as a primitive dependence relation (DEF-DEPENDS-FOR-BEING) indexed to whatever is efficiently caused in any respect, using the secunda via's EfficientlyCausesIn; the passage gives a reason for requiring an agent cause and does not itself state the universal dependence premise in this vocabulary."
 }

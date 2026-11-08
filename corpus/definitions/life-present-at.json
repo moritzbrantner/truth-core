@@ -1,5 +1,7 @@
 {
-  "id": "DEF-LIFE-PRESENT-AT",
+  "id": "42635e18-7288-5194-88b7-02dda6aa0477",
+  "label": "Life present at a time: In a duration frame, LivesAt x t says that x's life is present at time t…",
+  "legacy_id": "DEF-LIFE-PRESENT-AT",
   "term": "life present at a time (`LivesAt x t`, `lifeStateAt x t`)",
   "definition": "In a duration frame (a type of times with an earlier-than relation; no order axiom assumed), `LivesAt x t` says that x's life is present at time t, and `lifeStateAt x t` is the state of that life, including its operations (q.10 a.1 ad 2: duration is attended according to operation). To live is to act from oneself and not as moved by another (q.18 a.3 co.). For what is not in time, presence at t is read with q.10 a.2 ad 4: eternity includes all times.",
   "basis": "stipulative",

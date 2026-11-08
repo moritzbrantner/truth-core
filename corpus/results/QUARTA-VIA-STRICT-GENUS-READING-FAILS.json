@@ -1,6 +1,8 @@
 {
-  "id": "QUARTA-VIA-STRICT-GENUS-READING-FAILS",
-  "argument_id": "QUARTA-VIA-STRICT-GENUS-READING-FAILS",
+  "id": "20a0c178-0280-5238-878c-deae2db1e470",
+  "label": "Formal fact: with 'GENUS_1' in the quarta via's GENUS_1 principle…, via strict GENUS_1 reading fails",
+  "legacy_id": "QUARTA-VIA-STRICT-GENUS-READING-FAILS",
+  "argument_id": "c39c37be-73e0-573a-add7-c02abf805516",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaStrictGenus.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaStrictGenus.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaStrictGenus.strictGenusReadingDoesNotYieldQuartaVia",

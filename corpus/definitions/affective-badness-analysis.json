@@ -1,5 +1,7 @@
 {
-  "id": "DEF-AFFECTIVE-BADNESS-ANALYSIS",
+  "id": "c691e9a5-d493-5ee2-9efb-e52db55751cd",
+  "label": "BADNESS_AS_DISAPPROVAL_4: BadnessAsDisapproval c:= \u2200 \u03c6, c.SaysBad \u03c6 \u2194 c.ExpressesDisapproval \u03c6. It\u2026",
+  "legacy_id": "DEF-AFFECTIVE-BADNESS-ANALYSIS",
   "term": "badness as disapproval",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Metaethics.EvilObjection.BadnessAsDisapproval",

@@ -1,6 +1,6 @@
 {
   "snapshot": {
-    "source_id": "PLATO-PARM",
+    "source_id": "665bdac6-e83f-5b25-8b38-995165ccc42e",
     "edition_urn": "urn:cts:greekLit:tlg0059.tlg009.perseus-grc2",
     "language": "grc",
     "repository": "PerseusDL/canonical-greekLit",
@@ -12,7 +12,9 @@
   },
   "passages": [
     {
-      "id": "PLATO-PARM-128",
+      "id": "0d0521e2-3a70-5ce4-80cc-ec7265a98511",
+      "label": "Plato, Parmenides, 128",
+      "legacy_id": "PLATO-PARM-128",
       "locator": "128",
       "claim_locator_prefixes": [
         "128"
@@ -25,7 +27,9 @@
       ]
     },
     {
-      "id": "PLATO-PARM-129",
+      "id": "6e01c197-1e51-514e-b638-519ed223fcae",
+      "label": "Plato, Parmenides, 129",
+      "legacy_id": "PLATO-PARM-129",
       "locator": "129",
       "claim_locator_prefixes": [
         "129"
@@ -38,7 +42,9 @@
       ]
     },
     {
-      "id": "PLATO-PARM-130",
+      "id": "2d9938b5-fc3d-5b57-aa76-791f6d4da1ec",
+      "label": "Plato, Parmenides, 130",
+      "legacy_id": "PLATO-PARM-130",
       "locator": "130",
       "claim_locator_prefixes": [
         "130"

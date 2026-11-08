@@ -1,7 +1,9 @@
 {
-  "id": "INF-TEMPORAL-ACTUALIZATION-CONTROLS",
+  "id": "4bcc7553-40e6-537f-9b38-443bd499e44b",
+  "label": "Joint mathematical controls: A₀→B₁→A₂ has strictly forward…, by Explicit-model-and-theorem-co…",
+  "legacy_id": "INF-TEMPORAL-ACTUALIZATION-CONTROLS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-TEMPORAL-ACTUALIZATION-CONTROLS",
+  "output_statement_id": "72085345-7378-52b7-8224-6320e2f19565",
   "rule": "explicit-model-and-theorem-composition",
   "meaning": "Verify finite controls by their definitions; import strict acyclicity, the reciprocal fork consequence, the original successor-chain non-accessibility proof, and unchanged TEMPORAL-EVENT-CAUSAL-CONTROLS. The controls are jointly certified internally, not a single world containing every mutually exclusive profile.",
   "assumption_statement_ids": [],

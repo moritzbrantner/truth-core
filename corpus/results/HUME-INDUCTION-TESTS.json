@@ -1,6 +1,8 @@
 {
-  "id": "HUME-INDUCTION-TESTS",
-  "argument_id": "HUME-INDUCTION-TESTS",
+  "id": "6b5655f1-ceb2-5e64-b70f-624e6cf7177c",
+  "label": "Bounded induction tests: finite records of habit, prediction or successful intervention do not…",
+  "legacy_id": "HUME-INDUCTION-TESTS",
+  "argument_id": "1a0b668b-5357-50c4-8c98-dba5bc7f0a8b",
   "challenge_module": "TruthCore.Results.Modern.Hume.Induction.Challenge",
   "solution_module": "TruthCore.Results.Modern.Hume.Induction.Solution",
   "theorem": "TruthCore.Results.Modern.Hume.Induction.checks",

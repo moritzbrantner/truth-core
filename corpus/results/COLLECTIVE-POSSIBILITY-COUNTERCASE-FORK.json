@@ -1,6 +1,8 @@
 {
-  "id": "COLLECTIVE-POSSIBILITY-COUNTERCASE-FORK",
-  "argument_id": "COLLECTIVE-POSSIBILITY-COUNTERCASE-FORK",
+  "id": "0b681fca-1e04-577b-8703-f7dd1b895e19",
+  "label": "For every supplied presence/possibility profile, the…, from Excluded middle as a general principle…",
+  "legacy_id": "COLLECTIVE-POSSIBILITY-COUNTERCASE-FORK",
+  "argument_id": "1cf24420-ab8e-51d5-9e65-c450d6609c40",
   "challenge_module": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.Coverage.Challenge",
   "solution_module": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.Coverage.Solution",
   "theorem": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.Coverage.coverage",
@@ -9,19 +11,19 @@
   "description": "Checked structural coverage under explicit excluded middle: collective conditional or its precise semantic countercase. No completeness of a named historical roster is inferred.",
   "transcription": "instantiation",
   "case_split": {
-    "target_statement_id": "STMT-ALL-CAN-NOT-BE-THEN-NOTHING-POSSIBLE",
+    "target_statement_id": "cd6ddd56-29bd-568b-ad1b-1fc81cc84da8",
     "cases": [
       {
         "label": "collective conditional",
-        "statement_id": "STMT-ALL-CAN-NOT-BE-THEN-NOTHING-POSSIBLE",
+        "statement_id": "cd6ddd56-29bd-568b-ad1b-1fc81cc84da8",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.AllCanNotBeThenNothingPossibleReading"
       },
       {
         "label": "precise individual/joint countercase",
-        "statement_id": "STMT-COLLECTIVE-POSSIBILITY-PRECISE-COUNTERCASE",
+        "statement_id": "04b12576-1645-556b-a0a8-1efd8e5fcbfb",
         "lean_declaration": "TruthCore.Logic.CollectivePossibilityRouteBoundary.Countercase"
       }
     ],
-    "survival_result_id": "COLLECTIVE-POSSIBILITY-ROUTE-BOUNDARIES"
+    "survival_result_id": "4658a923-e4d9-54f6-ad6d-ded45a416599"
   }
 }

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-BOOLEAN-GENERATED-PROPERTY",
+  "id": "a2abc3ab-df27-5cc2-b043-274d7e83a2ef",
+  "label": "BOOLEAN_GENERATED_PROPERTY_1: BooleanGeneratedProperty atom Φ holds when some Boolean readout…",
+  "legacy_id": "DEF-BOOLEAN-GENERATED-PROPERTY",
   "term": "Boolean-generated property (stipulated admissibility language)",
   "definition": "`BooleanGeneratedProperty atom Φ` holds when some Boolean readout function of one bit reproduces Φ for every individual and world. The fragment therefore contains the atom, truth and falsity and their Boolean combinations. It has no independent world or individual names, but an unconstrained atom may itself encode names. The chosen atom is not a defended metaphysical inventory of properties.",
   "basis": "stipulative",

@@ -1,6 +1,12 @@
 {
-  "id": "STMT-NB-SURVEY-DEFINITION",
+  "id": "374b2de5-1cae-5b4c-a74a-b0615fd650d2",
+  "label": "The survey defines a NECESSARY_BEING_2 by two jointly required conditions: it could cause something…",
+  "legacy_id": "STMT-NB-SURVEY-DEFINITION",
   "paraphrase": "The survey defines a necessary being by two jointly required conditions: it could cause something, and it is not possible at any time for that being to fail to exist. This is a nominal stipulation, not a proof that anything fits it; temporal wording is not silently replaced by a cross-world identity claim.",
-  "definition_ids": ["DEF-NB-SURVEY-NECESSARY-BEING"],
-  "disambiguation_ids": ["DISAMB-NB-SURVEY-NECESSARY"]
+  "definition_ids": [
+    "7fde5dc0-6ca7-5ce6-a2e1-571acfd15dcf"
+  ],
+  "disambiguation_ids": [
+    "6feac787-378d-5c78-b49c-2414847d33cb"
+  ]
 }

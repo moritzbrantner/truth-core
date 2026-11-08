@@ -1,5 +1,7 @@
 {
-  "id": "DEF-CONTINGENCY-TOTALITY-EXTERNAL-CANDIDATE",
+  "id": "cc57aee5-58b7-531d-bcd6-60105efe5c79",
+  "label": "Concrete external candidate distinct…: OutsideContingentTotalityAt s w c holds when the rigid…",
+  "legacy_id": "DEF-CONTINGENCY-TOTALITY-EXTERNAL-CANDIDATE",
   "term": "concrete external candidate distinct from all contingent concrete members",
   "definition": "OutsideContingentTotalityAt s w c holds when the rigid individual c differs from every actual individual x satisfying both concrete x and ContingentAt s.ontic w x. ExternalCandidateAt additionally asserts that c itself is concrete and exists at w. It does not independently assert c has causal powers, that a first contingent state can begin, or that any causal relation obtains. In classical quantified modal semantics, being a concrete external candidate is equivalent to being a concrete necessary individual at that standpoint; this is a consequence to verify, not an additional definition.",
   "basis": "stipulative",

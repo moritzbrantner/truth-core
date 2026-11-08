@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PAST-RESOURCE-UNIFORM-GROWTH",
+  "id": "b0944d60-ed09-519f-914b-899491e0e836",
+  "label": "Uniform real increment at each past\u2026: UniformPastGrowth S now epsilon says S t+epsilon\u2264S for every\u2026",
+  "legacy_id": "DEF-PAST-RESOURCE-UNIFORM-GROWTH",
   "term": "uniform real increment at each past unit step",
   "definition": "UniformPastGrowth S now epsilon says S t+epsilon\u2264S(t+1) for every integer t<now. Its definition alone permits epsilon\u22640; PositiveStep epsilon separately means 0<epsilon. Together they require the SAME positive minimum increment at every past unit step. Merely strict growth or a different positive increment at each step does not give this uniform quantifier scope. No time-indexed cause, conservation law or entropy production law is defined.",
   "basis": "stipulative",

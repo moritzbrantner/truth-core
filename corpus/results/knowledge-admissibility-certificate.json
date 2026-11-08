@@ -1,6 +1,8 @@
 {
-  "id": "KNOWLEDGE-ADMISSIBILITY-CERTIFICATE",
-  "argument_id": "KNOWLEDGE-ADMISSIBILITY-CERTIFICATE",
+  "id": "f8b7041e-4404-5a24-9130-2a49c300eca3",
+  "label": "For arbitrary candidate carriers and physical/phenomenal report functions, actual-relative…",
+  "legacy_id": "KNOWLEDGE-ADMISSIBILITY-CERTIFICATE",
+  "argument_id": "7c5c1d86-3e27-56de-bcca-fd810f973697",
   "challenge_module": "TruthCore.Results.Logic.KnowledgeAdmissibility.Challenge",
   "solution_module": "TruthCore.Results.Logic.KnowledgeAdmissibility.Solution",
   "theorem": "TruthCore.Results.Logic.KnowledgeAdmissibility.checks",

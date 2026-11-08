@@ -1,5 +1,7 @@
 {
-  "id": "STMT-EVERYTHING-IN-EVERYTHING-EXHAUSTION-OBJECTION",
+  "id": "ed85b5a6-3e8c-5447-8c9a-87c824ece6b3",
+  "label": "The thesis that every finite body already contains every other kind conflicts with repeated finite…",
+  "legacy_id": "STMT-EVERYTHING-IN-EVERYTHING-EXHAUSTION-OBJECTION",
   "paraphrase": "The thesis that every finite body already contains every other kind conflicts with repeated finite separation: either extraction ends or an impossible infinite multitude of finite portions is packed into a finite body.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.EverythingInEverythingExhaustionObjectionReading"
 }

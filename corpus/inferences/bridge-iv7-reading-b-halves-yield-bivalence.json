@@ -1,10 +1,12 @@
 {
-  "id": "INF-BRIDGE-IV7-READING-B-HALVES-YIELD-BIVALENCE",
+  "id": "0c7b626f-003f-5b08-9b63-acba6ca67522",
+  "label": "Bivalence of thought, every proposition is the object of some…, by Instantiation-and-modus-ponens",
+  "legacy_id": "INF-BRIDGE-IV7-READING-B-HALVES-YIELD-BIVALENCE",
   "input_statement_ids": [
-    "STMT-AFFIRMING-OR-DENYING-THOUGHT-IS-TRUE-OR-FALSE",
-    "STMT-THOUGHT-AFFIRMS-OR-DENIES-EVERY-PROPOSITION"
+    "44dd6cf2-2f7b-5c90-9258-c9b39e3ba87e",
+    "ee440511-1103-5020-8a39-d2a6b96e5397"
   ],
-  "output_statement_id": "STMT-EVERY-OBJECT-OF-THOUGHT-JUDGED-TRULY-OR-FALSELY",
+  "output_statement_id": "d32fe835-0aed-5bb5-afe5-01e3372fcfeb",
   "rule": "instantiation-and-modus-ponens",
   "meaning": "For a proposition p, some thought with object p affirms or denies it; affirming or denying, it is true or false.",
   "assumption_statement_ids": [],

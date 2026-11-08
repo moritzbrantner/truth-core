@@ -1,13 +1,15 @@
 {
-  "id": "STMT-RELIGIOUS-NAMED-LOCAL-PROFILES-COVER",
+  "id": "05790be0-984b-55cc-9f0f-802d4b4cc80c",
+  "label": "Local face-value status is accompanied either by matched-content uniformity or by an actual…",
+  "legacy_id": "STMT-RELIGIOUS-NAMED-LOCAL-PROFILES-COVER",
   "paraphrase": "Open comparison-menu coverage: local face-value status is accompanied either by matched-content uniformity or by an actual selected religious truth-difference witness. Local face-value failure is an explicit further option outside this menu. This is not a roster of historical schools.",
   "lean_declaration": "TruthCore.Alternatives.ReligiousLanguageSemantics.NamedLocalProfilesCover",
   "definition_ids": [
-    "DEF-RELIGIOUS-CONTENT-AND-DISCOURSE-TRUTH-PROFILE",
-    "DEF-RELIGIOUS-LOCAL-FACE-VALUE",
-    "DEF-RELIGIOUS-CROSS-DISCOURSE-FACE-VALUE"
+    "05c208f5-5137-5984-b940-083faed296ac",
+    "7e1cb856-5004-5ee5-b6e3-65aef915b0a7",
+    "b3e05273-087e-5a8f-864d-52e56f82d3b4"
   ],
   "disambiguation_ids": [
-    "DISAMB-RELIGIOUS-LOCAL-FACE-VALUE-AND-CROSS-DISCOURSE-UNIFORMITY"
+    "972577ea-4155-59ec-9f20-0399367c7de5"
   ]
 }

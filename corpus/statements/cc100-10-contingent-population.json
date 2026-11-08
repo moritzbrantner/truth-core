@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CC100-10-CONTINGENT-POPULATION",
+  "id": "f0502fa1-deea-54e8-bdb2-a8aae16439a6",
+  "label": "There are contingent things",
+  "legacy_id": "STMT-CC100-10-CONTINGENT-POPULATION",
   "paraphrase": "There are contingent things.",
   "definition_ids": [
-    "DEF-CC100-10-SIMPLIFIED-SCOPE"
+    "2c84f385-fd4b-5e7a-9d0d-84476104cf80"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

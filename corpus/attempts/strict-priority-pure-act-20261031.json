@@ -1,26 +1,28 @@
 {
-  "id": "ATTEMPT-STRICT-PRIORITY-PURE-ACT-20261031",
+  "id": "bce21910-6ace-5826-8635-91b2b7fbf323",
+  "label": "Reuse NecessaryFirstBeing.necessaryFirst under its unchanged five inputs, preserving its actual…",
+  "legacy_id": "ATTEMPT-STRICT-PRIORITY-PURE-ACT-20261031",
   "date": "2026-10-31",
   "statement_ids": [
-    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
-    "STMT-WHOLE-ROSTER-NOT-TRAPPED",
-    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND",
-    "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY",
-    "STMT-STRICT-SIMPLE-PRIORITY",
-    "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
-    "STMT-NECESSARY-FIRST-BEING-PURE-ACT",
-    "STMT-STRICT-PRIORITY-PURE-ACT-CONTROLS"
+    "56f68b40-9737-59a0-8cac-5610980a1547",
+    "5c898d24-d1f7-5087-b09e-3287a723e787",
+    "c71c068c-bbae-5ed5-a99d-70b155c8d239",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "86efed1a-f353-5b5d-9431-df7fc643ace1",
+    "a4d3261a-3239-5b44-9953-64ab1b0ed762",
+    "08e493f8-68b1-562d-9218-fc3245b2cf1f",
+    "c6d6379b-6a9b-55b5-a701-3df289dfcca4",
+    "593d7307-c8e1-5863-9776-a26cfe09d20c",
+    "fae8f0fa-8bc2-5d13-a6ca-354c34e0fb2a"
   ],
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Reuse NecessaryFirstBeing.necessaryFirst under its unchanged five inputs, preserving its actual concrete necessary root n. If n has potency in respect r, the unchanged act-priority reading gives y simply prior to n. Firstness forces y=n; irreflexivity then contradicts this self-priority. Derive the exact existing no-potency endpoint for the SAME n without same-respect act/potency exclusivity. Seven inputs replace only STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT by STMT-STRICT-SIMPLE-PRIORITY; the other six are unchanged. No transitivity, global well-foundedness, finite ancestry, positive actuality, uniqueness, maximum or God naming is used. This is a conditional alternative configuration, not a premise discharge, global weakening or minimality claim. No source reading or reality correspondence is newly established. On the unchanged original four-being #681 carrier and DirectEsseGenusOmissionControl.profile, two explicit assignments each satisfy the other six inputs (EM retained as the theorem input). First keep old act/potency and add only a simple-priority self-loop at the nonroot instrument: same-respect exclusivity and act-priority hold, while irreflexivity fails. Second keep strict component priority and old potency but stipulate act in every respect: irreflexivity and act-priority hold, while exclusivity fails at instrument/drive. The distinct-priority-to-actual-ground bridge is checked for both assignments; its distinctness guard excludes the added self-loop. Population, whole-roster non-trapping and contingent-ground coverage reuse the exact old profile. Contingent coverage is vacuous in its all-present ontology. Thus neither replacement condition implies the other even with the remaining six interfaces. Fixed dictionary within each comparison; no claim that the two assignments have identical primitive valuations. These formal joint configurations are not metaphysical possibility, an adequate explanation, independent truth of either condition or a global route minimality claim. Challenges frozen before solution: main c77e03c4e3d4cc231ac1c992c55c8a8695151540491358eebf442fc96ad5c25c; controls 70f2ec8b75466d4ec10b4bfa2a0b8aeb3bf5f91e1c2b016b6d672cb93e71fdeb. All seven old premise dossiers and the existing endpoint/related results were inspected; mixed existential IrreflexivePriority has a different Sum-token domain and is not reused. Shared convention sourceRevision 625cb04ca568aebc8d45c90033e107a05e9bd2a0. Claim/type self-sweep: no source claims; no-potency remains purely negative with no completeness of respects or positive perfection. Alternative condition and omitted condition are independent in the formal interfaces, not thereby adequate metaphysical alternatives. Root-frontier truth/closure change none; exact aggregate route costs remain coordinator-owned. Focused core and both Solution compilations pass through the coordinator-selected worker environment and shared lease. Explicit #print axioms reports no axioms for BOTH exported theorems. Corpus consistency and whitespace checks pass, with the existing unrelated Frege-Geach closure warning. Pinned Lean/Mathlib calls standard irreflexivity Std.Irrefl (not Irreflexive); the wrapper uses exactly that class, with no semantic change and unchanged frozen Challenges. Comparator permits the policy Mathlib trio because the new core directly imports its standard unbundled relation definitions, even though both actual proof dependencies are empty. Coordinator owns full integration, binding, Comparator/NanoDa and final CI. Coordinator integration: full build passed (4311 jobs), binding passed (795 bound, 2 legacy pinned, zero mismatch), and all four new registered results plus the refactored old ROOT-INTELLECT-WILL passed Comparator and independent result NanoDa. Scoped library NanoDa checked 458 dependency-closed declarations across all six changed modules with zero typechecker errors; one axiom pretty-printer warning retained. Independent claim/type review found no unresolved findings. The graph preserves the existing necessary-first-being intermediate rather than only naming code reuse. New results are locally verified; delivered-head CI/review remain pending. No philosophical premise closes. Computed direct-target costs: root intellect/will 14 to10 non-floor leaves (15 to11 explicit hypotheses); no-limitation alternative7 vs10 leaves (8 vs11 hypotheses, different bundles); pure-act both6 leaves/seven hypotheses with different final principles. These costs do not prove global logical minimality or change the designated root.",
   "evidence": [
-    "NECESSARY-FIRST-BEING-FIRST",
-    "NECESSARY-FIRST-BEING-PURE-ACT",
-    "STRICT-PRIORITY-PURE-ACT",
-    "STRICT-PRIORITY-PURE-ACT-CONTROLS",
-    "DIRECT-ESSE-GENUS-OMISSION-CONTROL"
+    "323f2a47-ae90-5c46-a20c-4bf4e67d5f4b",
+    "32f5b46c-836b-5b65-b4b9-026d16f82ce4",
+    "b36967d4-d134-5279-8dc8-34caa49cfd17",
+    "0e4d05a4-8a61-5baa-b821-763abf8d52c2",
+    "df46d8e4-128e-53ee-9485-2af2654308e4"
   ]
 }

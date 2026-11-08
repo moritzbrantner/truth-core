@@ -1,16 +1,18 @@
 {
-  "id": "PLATO-PHAEDO-101D-HYPOTHESIS",
-  "statement_id": "STMT-PLATONIC-PHAEDO-101D-HYPOTHESIS",
-  "source_id": "PLATO-PHAEDO",
+  "id": "e3d3acfc-58f2-5dcd-a6e3-6a074081016f",
+  "label": "Plato, Phaedo 101d–102a: Consequences of a hypothesis are examined for agreement before giving an…",
+  "legacy_id": "PLATO-PHAEDO-101D-HYPOTHESIS",
+  "statement_id": "ce65a71f-3e46-5846-80eb-301bc5c73593",
+  "source_id": "29beee84-18ce-5163-b9b4-50ce5d92bdd0",
   "locator": "101d–102a",
   "interpretation": "Bounded source reading, retained as prose because this issue supplies no adequate formal semantics for the methodological or contextual content. Consequences of a hypothesis are examined for agreement before giving an account of the hypothesis by a higher one; Forms and denomination through participation are agreed as hypotheses, not proved by that agreement.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-PLATONIC-FORM",
-    "DEF-PLATONIC-PARTICIPATION"
+    "3336e0be-5be8-5c69-b54a-7a7bb29e1db9",
+    "8504bbdf-329b-5e23-9d12-0faf94e00914"
   ],
   "disambiguation_ids": [
-    "DISAMB-PLATONIC-FORM",
-    "DISAMB-PLATONIC-PARTICIPATION"
+    "54952044-0e39-566c-a88d-e5c9b95021fb",
+    "58a69964-25a1-53d2-a65d-660ed3a0cf4c"
   ]
 }

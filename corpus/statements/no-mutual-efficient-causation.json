@@ -1,11 +1,13 @@
 {
-  "id": "STMT-NO-MUTUAL-EFFICIENT-CAUSATION",
+  "id": "0566122f-9b0c-5325-9d4c-335bcd7124e0",
+  "label": "No two things efficiently cause each other, in any respects: if c efficiently causes x in some…",
+  "legacy_id": "STMT-NO-MUTUAL-EFFICIENT-CAUSATION",
   "paraphrase": "No two things efficiently cause each other, in any respects: if c efficiently causes x in some respect, x efficiently causes c in no respect.",
   "lean_declaration": "TruthCore.Causality.CausalMapsBatch1.NoMutualEfficientCausation",
   "definition_ids": [
-    "DEF-EFFICIENT-CAUSING"
+    "69c0b23e-54c7-57a1-871f-839c6e5514c6"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSE"
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
   ]
 }

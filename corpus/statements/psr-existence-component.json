@@ -1,13 +1,15 @@
 {
-  "id": "STMT-PSR-EXISTENCE-COMPONENT",
+  "id": "b3d0eb5e-a814-5112-ae47-7b6f4da5aeba",
+  "label": "Every existent at every world has some explanation of its existence fact; explanatory adequacy…",
+  "legacy_id": "STMT-PSR-EXISTENCE-COMPONENT",
   "lean_declaration": "TruthCore.Explanation.ExistencePSR.ExistencePSR",
   "paraphrase": "Every existent at every world has some explanation of its existence fact; explanatory adequacy remains stipulated.",
   "definition_ids": [
-    "DEF-PSR-EXISTENCE-SCOPE",
-    "DEF-PSR-REASON",
-    "DEF-PSR-EXISTENCE-FACT"
+    "cd4ca559-c786-58db-872d-3597e51d3b49",
+    "d513fb8a-64ee-5d49-ae56-4d695f93ca71",
+    "fcb346d7-ddd2-50bb-a7c2-3d79d41b8eae"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b"
   ]
 }

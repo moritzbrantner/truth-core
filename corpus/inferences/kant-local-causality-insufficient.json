@@ -1,7 +1,9 @@
 {
-  "id": "INF-KANT-LOCAL-CAUSALITY-INSUFFICIENT",
+  "id": "1921ded6-392b-5097-a271-136d0b529930",
+  "label": "There is a modal interpretation with an actual contingent individual and a…, by Model-construction",
+  "legacy_id": "INF-KANT-LOCAL-CAUSALITY-INSUFFICIENT",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-KANT-LOCAL-CAUSALITY-INSUFFICIENT",
+  "output_statement_id": "1e083c3c-3829-56b1-8873-5e3696bedb35",
   "rule": "model-construction",
   "meaning": "There is a modal interpretation with unrestricted accessibility with an actual contingent individual and a distinct existing cause of every contingent individual at every world, but no necessary being at the actual world. Earlier underconstrained conclusion, retained with its frozen theorem.",
   "assumption_statement_ids": [],

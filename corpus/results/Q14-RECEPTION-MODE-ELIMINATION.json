@@ -1,6 +1,8 @@
 {
-  "id": "Q14-RECEPTION-MODE-ELIMINATION",
-  "argument_id": "Q14-RECEPTION-MODE-ELIMINATION",
+  "id": "b6380f92-d17b-587d-84c1-c88ed83d42a9",
+  "label": "The chosen receiver has aptitude for a…, from At the SAME chosen receiver, a form of… and 1 more",
+  "legacy_id": "Q14-RECEPTION-MODE-ELIMINATION",
+  "argument_id": "d1cc056b-680d-5377-b950-6127ecca9a1e",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.Mode.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.Mode.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.modeElimination",

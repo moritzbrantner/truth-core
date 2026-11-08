@@ -1,12 +1,14 @@
 {
-  "id": "STMT-HUME-I-3-3-EXCLUSION",
+  "id": "4f1bea90-3ef9-5590-809c-032547f5b62e",
+  "label": "Hume says that excluding every cause excludes both the object itself and nothing-as-cause; an…",
+  "legacy_id": "STMT-HUME-I-3-3-EXCLUSION",
   "paraphrase": "Hume says that excluding every cause excludes both the object itself and nothing-as-cause; an uncaused beginning is not the assertion that the object produces itself or that nothing produces it.",
   "definition_ids": [
-    "DEF-HUME-CAUSE-EXCLUSION",
-    "DEF-HUME-TEST-BEGINNING",
-    "DEF-HUME-TEST-PRODUCTIVE-CAUSE"
+    "7baf3658-612c-53ba-a8fa-b7a2bc4cf5c4",
+    "ad67d779-bb13-531c-8bbc-4a4e2d13c5ab",
+    "a14899b8-3314-595a-a578-2af9c83af63c"
   ],
   "disambiguation_ids": [
-    "DISAMB-HUME-CONCEIVABILITY-POSSIBILITY"
+    "427373ad-3ff7-524e-976c-595005a70338"
   ]
 }

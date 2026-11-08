@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-187B-ANAXAGORAS-PREDOMINANCE-A",
-  "statement_id": "STMT-ANAXAGOREAN-PREDOMINANT-CONSTITUENT-NAMING",
-  "source_id": "ARIST-PHYS",
+  "id": "fb2c78d4-34ef-5e6c-8c17-ee3089c4a252",
+  "label": "Aristotle, Physics I.4, 187b2-7: On the Anaxagorean account everything is mixed in everything, and…",
+  "legacy_id": "ARIST-PHYS-187B-ANAXAGORAS-PREDOMINANCE-A",
+  "statement_id": "621418fb-2cc0-5980-a33b-bdb2a639fb03",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.4, 187b2-7",
   "interpretation": "Doxographical claim: on the reported Anaxagorean account every kind is mixed with every other, and a thing receives its name from the constituent that predominates numerically rather than from being pure of the rest.",
   "status": "formalized"

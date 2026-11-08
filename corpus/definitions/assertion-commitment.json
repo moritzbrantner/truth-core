@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ASSERTION-COMMITMENT",
+  "id": "33f7d5de-205d-573f-bc19-e0311fccbe93",
+  "label": "Assertion in a truth sense: Asserting p in sense s commits the speaker to AssertionCommitment T s…",
+  "legacy_id": "DEF-ASSERTION-COMMITMENT",
   "term": "assertion in a truth sense",
   "definition": "Asserting p in sense s (`TruthSense`: absolute, or relative to an agent) commits the speaker to `AssertionCommitment T s p`, i.e. to p being true in that sense. The commitment is not a claim that the assertion is correct.",
   "basis": "stipulative",

@@ -1,19 +1,21 @@
 {
-  "id": "STMT-SUM1-COMPLEMENTATION-RIVALS",
+  "id": "f63c2b0e-3a45-53a5-a052-f41b7b9f660d",
+  "label": "One fixed three-atoms-plus-top order has strong supplementation and Sum1 for every nonempty Set…",
+  "legacy_id": "STMT-SUM1-COMPLEMENTATION-RIVALS",
   "lean_declaration": "TruthCore.Mereology.SumOneComplementation.RivalCertificate",
   "paraphrase": "One fixed three-atoms-plus-top order has strong supplementation and Sum1 for every nonempty Set, yet no Sum2 for its selected two atoms and no exact complementation. A second fixed two-incomparable-atoms order has exact complementation yet lacks Sum1 and Sum2 for its pair. Both lack a null object; these are mathematical interpretations only.",
   "definition_ids": [
-    "DEF-UNIVERSAL-FUSION-PROFILE",
-    "DEF-UNIVERSAL-FUSION-DOMAIN",
-    "DEF-MEREOLOGICAL-COMPLEMENTATION",
-    "DEF-SUM1-LEAST-UPPER-BOUND",
-    "DEF-SUM1-FUSION-COMPARISON",
-    "DEF-SUM1-COMPLEMENTATION-RIVALS",
-    "DEF-MEREOLOGICAL-SUPPLEMENTATION",
-    "DEF-OVERLAP-EXTENSIONAL-PARTHOOD"
+    "9ec56dce-572e-5230-8247-6b3e994cb98a",
+    "094da9ef-9edb-5e88-8b7b-2eb87488e90d",
+    "700326c9-b157-5670-8ed5-9b4044581d41",
+    "82e3885b-a845-5116-949e-07cb05353bf7",
+    "df456768-b94c-5d3c-bc01-0e312e8e7701",
+    "6e29b2d3-b298-516b-a08a-8d6adfcb3a94",
+    "491073fa-38af-5d98-a6b8-77bf9c472525",
+    "6f09b078-c49b-5dc5-b7a8-524fdded7dc5"
   ],
   "disambiguation_ids": [
-    "DISAMB-SUM1-AND-SUM2-FUSION",
-    "DISAMB-EXACT-REMAINDER-AND-SUPPLEMENT"
+    "93b2e596-3c96-52d3-9d5e-820dc82e5471",
+    "1cf6af1c-c1c6-544d-a6a7-7060d7aebd8f"
   ]
 }

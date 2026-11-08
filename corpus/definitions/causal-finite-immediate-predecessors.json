@@ -1,5 +1,7 @@
 {
-  "id": "DEF-CAUSAL-FINITE-IMMEDIATE-PREDECESSORS",
+  "id": "f6a031cc-c0ce-5d73-9ae4-d1f2134ddc61",
+  "label": "Finite immediate causal predecessors: For every node x, the set of direct predecessors y such that…",
+  "legacy_id": "DEF-CAUSAL-FINITE-IMMEDIATE-PREDECESSORS",
   "term": "finite immediate causal predecessors",
   "definition": "For every node x, the set of direct predecessors y such that cause y x is finite. This does not constrain the overall graph, the number of transitive ancestors, or an actual temporal history.",
   "lean_declaration": "TruthCore.Causality.FiniteBranching.FiniteImmediatePredecessors",

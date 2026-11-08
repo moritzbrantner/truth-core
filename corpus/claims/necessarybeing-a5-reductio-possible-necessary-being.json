@@ -1,18 +1,20 @@
 {
-  "id": "NB-SURVEY-A5-REDUCTIO-POSSIBLE-NECESSARY-BEING",
-  "statement_id": "STMT-NB-A5-REDUCTIO-POSSIBLE-NECESSARY-BEING",
-  "source_id": "NECESSARYBEING-SURVEY",
+  "id": "733c2982-5ad0-5fcf-92d4-cbac15fd81d2",
+  "label": "Unattributed website author, Necessary…: Given its reported inputs and preceding conditional…",
+  "legacy_id": "NB-SURVEY-A5-REDUCTIO-POSSIBLE-NECESSARY-BEING",
+  "statement_id": "5cbf8bf6-197e-5ecb-96f2-2b3cdcbbddce",
+  "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
   "locator": "A5C, steps 18–20 and transition to the shared modal suffix",
   "interpretation": "Only here is the outer no-possible-Necessary-Being assumption discharged. This is an attributed reductio under the reported premises and source’s earlier assertions, not independent premise truth or a verified consequence. Do not retain hypothetical C-causability/cause from13–17 as unconditional output. The reused modal suffix and any typed SAME-individual consequence have separate explicit semantic/frame guards; no duplicate proof, actual caused C or rigid actual necessary witness is established.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-NB-A5-OBTAINING-CONTINGENT-SITUATION",
-    "DEF-NB-A5-RIGID-EVER-ROSTER-AND-INCLUDES",
-    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
-    "DEF-NB-SURVEY-NECESSARY-BEING"
+    "63e5d484-43d5-540b-a1b7-e8e8a5010bb6",
+    "1bddbc02-14b5-567f-adf2-7f09e011f63a",
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0",
+    "7fde5dc0-6ca7-5ce6-a2e1-571acfd15dcf"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A5-SITUATION-HISTORY-CAUSAL-SCOPE",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "54e516bf-f2e6-5b50-84fc-f74b34198bce",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

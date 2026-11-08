@@ -1,12 +1,14 @@
 {
-  "id": "SEP-RELIGIOUS-LANGUAGE-4-1-PHILLIPS-LATE-INTERNAL-A",
-  "statement_id": "STMT-PHILLIPS-REALISM-CONCEPTS-RELIGION-INTERNAL",
-  "source_id": "SEP-RELIGIOUS-LANGUAGE",
+  "id": "5971ba9e-ed41-51b9-b54e-bd68a4af3b4e",
+  "label": "Michael Scott, Religious Language §4.1…: Late Phillips: one may say that 'God' refers and that…",
+  "legacy_id": "SEP-RELIGIOUS-LANGUAGE-4-1-PHILLIPS-LATE-INTERNAL-A",
+  "statement_id": "ec30088f-e1d2-5944-9c6b-01aa928e47bb",
+  "source_id": "749f3ba0-be0a-5609-ad1d-e735dd6df917",
   "locator": "§4.1, 'what speaking of reference, object, existence, and so on amounts to'",
   "interpretation": "Phillips (1995: 138, as quoted): 'By all means say that \"God\" functions as a referring expression ... God's reality is a matter of fact ... But ... we shall now have to show, in this religious context, what speaking of \"reference\", \"object\", \"existence\", and so on amounts to, how it differs, in obvious ways, from other uses of these terms.' The entry adds that Phillips takes 'true' to mean something different in different discourses, multiple truth concepts with different extensions (1976: 142; 1995: 149). Attribution reading of the position the entry reports, not a view of the entry's author.",
   "status": "formalized",
   "attribution": "The passage states that the later Phillips allowed that God-talk refers and is factual but held that what reference, object and existence amount to must be shown in the religious context, and that 'true' has different senses in different discourses, which is the premise.",
   "definition_ids": [
-    "DEF-WITTGENSTEINIAN-FIDEISM"
+    "8c86d489-cd62-5d8e-9207-2d846caf9c14"
   ]
 }

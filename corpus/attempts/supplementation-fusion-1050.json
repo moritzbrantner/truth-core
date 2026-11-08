@@ -1,24 +1,26 @@
 {
-  "id": "ATTEMPT-SUPPLEMENTATION-FUSION-1050",
+  "id": "ddc86384-6daa-50a1-9186-516731573155",
+  "label": "Issue #1050, analyst formulations with attribution deferred",
+  "legacy_id": "ATTEMPT-SUPPLEMENTATION-FUSION-1050",
   "statement_ids": [
-    "STMT-WEAK-SUPPLEMENTATION",
-    "STMT-BINARY-SUM2-FORMATION",
-    "STMT-STRONG-SUPPLEMENTATION",
-    "STMT-OVERLAP-EXTENSIONAL-PARTHOOD",
-    "STMT-SUM2-SUM3-COMPARISON",
-    "STMT-SUPPLEMENTATION-FUSION-RIVAL",
-    "STMT-MEREOLOGICAL-GREATEST-ENTITY"
+    "0880e645-8d9b-5edf-9de6-8b628424716f",
+    "939381cb-9f18-5c8d-9828-46cd07bd730c",
+    "bf4167dc-dfc4-5b13-a110-0a52c89d4a65",
+    "645aaccf-04a8-5e87-bd89-cc2b9c2c65d5",
+    "cb280e92-081a-5709-983f-ef6b8355c5de",
+    "c80e71d4-14a5-5ea5-82ca-0738f38c42c3",
+    "8460e867-8d7c-52b8-a69b-9ead0d8f46e3"
   ],
   "date": "2026-11-06",
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Issue #1050, analyst formulations with attribution deferred. Reused exact existing common-part Overlap, Sum2 Fusion, Unrestricted, Mathlib PartialOrder and overlap-extensional parthood. Related/dossiers and #325/#328/#346 inventory exclude the old greatest-whole/cause boundary, atomism/descent and arrangement/Theseus duplicates. Frozen Challenge SHA256 44f29c06d79b59fb30cb4d15028409d9a2b50c22bea169a4a8af8f9babf7da6d precedes Solution and is unchanged. WS plus binary Sum2 entails SS: a fusion of x,y collapses to y if every part of x overlaps y. SS iff existing overlap-extensional parthood; Sum2 implies Sum3 unconditionally and the reverse uses SS. The greatest-entity corollary imports prior checks only after genuine nonempty Sum2 conversion, with explicit Nonempty carrier premise. Joint four-object a,b<u,v certificate quantifies over every nonempty Set for Sum3, has duplicate Sum2 fusions u/v of {a,b}, and denies SS, overlap extensionality, unrestricted Sum2, any common upper bound of u/v, greatest entity and null object. Sum3 u of {u,v} excludes containment v≤u. Full rationale and strongest rival are retained in docs/notes/universal-fusion-grounding.md. Initial finite Python screening was discovery only; Lean proves the actual all-Set statement. Vocab, Challenge and Solution compile, focused binding5/0 mismatch; all five Comparator/result NanoDa checks PASS. Actual axiom probes for each result use exactly propext, Classical.choice and Quot.sound, within the approved Mathlib policy. Full/current-head CI and independent review remain delivery gates. The existing finite registry requires zero-axiom model/enumeration/evaluation terms, so this Mathlib certificate is not misregistered and no tooling change is made. Shared convention sourceRevision625cb04ca568aebc8d45c90033e107a05e9bd2a0. No source/passages/claims, external dependency, service or tooling changes. PR #1052 CI run42133243925 passed corpus/Lean but explorer source-resolution found only raw core Nonempty missing. Inspected installed pinned Lean4.35.0 Init/Prelude.lean:839 and added its exact source location using the existing explorer mechanism. The new regression and original all-statement test were red before repair; all9 focused source/site-state tests plus typecheck and focused lint pass after. No Challenge, theorem, vocabulary or corpus binding changed; proof-gate evidence is reused and final-head CI/review remain required.",
   "evidence": [
-    "STRONG-FROM-WEAK-BINARY-FUSION",
-    "MEREOLOGICAL-SEPARATION-CHARACTERIZATION",
-    "SUM2-SUM3-COMPARISON",
-    "STRONG-SUM3-GREATEST-ENTITY",
-    "SUPPLEMENTATION-FUSION-RIVAL"
+    "758c2449-d17b-5c65-a6d8-58443f831997",
+    "a164e3cd-b595-5550-9791-67290fed3ac3",
+    "58343c0f-dcc4-54fd-905a-a300e82e6f7d",
+    "eb3f7493-3648-5ed7-af9d-1f399af9c3c9",
+    "76807374-6426-5587-834e-78d36c50eed2"
   ],
   "blocker": "Actual parthood applicability, substantial unity, causal/grounding and modal bridges remain open. No root premise is discharged. Sum1 control explicitly deferred; no full classical extensional mereology is claimed for the rival."
 }

@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-208A-TOUCHING-LIMITED-A",
-  "statement_id": "STMT-TOUCHING-NOT-IDENTICAL-BEING-LIMITED",
-  "source_id": "ARIST-PHYS",
+  "id": "add52846-aff0-516d-a672-1d325dd1434c",
+  "label": "Aristotle, Physics III.8, 208a11-14: Touching and being limited are distinct: touching is relative…",
+  "legacy_id": "ARIST-PHYS-208A-TOUCHING-LIMITED-A",
+  "statement_id": "6d527ce3-6cca-5a90-bb19-a785894c033a",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.8, 208a11-14",
   "interpretation": "Aristotle separates touching from being limited: touching is relative to something touched, while being limited is not the same kind of relational fact. This blocks an argument that moves directly from contact conditions to unboundedness.",
   "status": "formalized"

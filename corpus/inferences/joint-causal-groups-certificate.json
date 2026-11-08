@@ -1,7 +1,9 @@
 {
-  "id": "INF-JOINT-CAUSAL-GROUPS-CERTIFICATE",
+  "id": "764750c3-956a-56f5-9927-6d1e50de591a",
+  "label": "Acyclic projected membership gives a strict ancestry order…, by Conditional relational proof…",
+  "legacy_id": "INF-JOINT-CAUSAL-GROUPS-CERTIFICATE",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-JOINT-CAUSAL-GROUPS-CERTIFICATE",
+  "output_statement_id": "a1bd75de-4577-5d2e-9c72-e06b4533ac08",
   "rule": "Conditional relational proof and explicit scenario/graph omission controls",
   "meaning": "Prove equality of the recorded-group projection with the original Graph, use transitive closure composition and acyclicity for IsStrictOrder, compose Graph.controls_of_wellFounded with source-minimality on the actual subtype, and reverse finite paths to characterize leastness under acyclicity. Check finite cooperative scenarios and omission fixtures, and import SourceWitness.overlap_control and PluralRootConfluence.control unchanged. Neither imported jointControl nor membership asserts cooperative sufficiency; all actual applicability and full-ground commitments remain OPEN. Root premise delta zero.",
   "assumption_statement_ids": [],

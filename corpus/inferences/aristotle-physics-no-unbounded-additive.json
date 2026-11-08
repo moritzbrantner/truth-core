@@ -1,10 +1,12 @@
 {
-  "id": "INF-ARIST-PHYS-NO-UNBOUNDED-ADDITIVE",
+  "id": "1c792fae-1e6e-5710-bd26-3288a235ef72",
+  "label": "There is no potential infinity by addition that exceeds every determinate…, by Modus tollens",
+  "legacy_id": "INF-ARIST-PHYS-NO-UNBOUNDED-ADDITIVE",
   "input_statement_ids": [
-    "STMT-UNBOUNDED-ADDITIVE-POTENTIAL-REQUIRES-ACTUAL-INFINITE-BODY",
-    "STMT-NO-ACTUALLY-INFINITE-SENSIBLE-BODY"
+    "dad0a85f-90ce-56de-88cb-1001168772b8",
+    "156ac6a1-34c5-5262-8aa4-c5bd9736378d"
   ],
-  "output_statement_id": "STMT-NO-UNBOUNDED-ADDITIVE-POTENTIAL",
+  "output_statement_id": "41e0a6b3-eef0-50bb-9a88-c513a0c20223",
   "rule": "modus_tollens",
   "meaning": "If unbounded additive potential would require an actually infinite sensible body, and III.5 has rejected such a body, reject unbounded additive potential.",
   "assumption_statement_ids": [],

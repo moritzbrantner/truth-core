@@ -1,5 +1,7 @@
 {
-  "id": "DEF-RELIGIOUS-LOCAL-VARIABLE-TRUTH-FACE-VALUE",
+  "id": "181cb3c7-7af0-5a63-9f78-6dbd6d63ff77",
+  "label": "Local face-value status with matched…: The analyst contextual sibling retains the local…",
+  "legacy_id": "DEF-RELIGIOUS-LOCAL-VARIABLE-TRUTH-FACE-VALUE",
   "term": "local face-value status with matched religious truth variation",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Alternatives.ReligiousLanguageSemantics.LocalVariableTruthFaceValue",

@@ -1,17 +1,19 @@
 {
-  "id": "MODAL-GRAPH-BRIDGE-CERTIFICATE",
+  "id": "30197030-2fdb-5808-81d9-6558dfb33560",
+  "label": "Transparent universal assembly of ten previously frozen mathematical graph-bridge facts",
+  "legacy_id": "MODAL-GRAPH-BRIDGE-CERTIFICATE",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-MODAL-GRAPH-BRIDGE-CERTIFICATE",
+  "conclusion_statement_id": "d8c66ad8-5fb4-56ba-b7eb-471866171a74",
   "inference_ids": [
-    "INF-MODAL-GRAPH-BRIDGE-CERTIFICATE"
+    "b31c2078-ba33-566e-85a2-b367a662b791"
   ],
   "meaning": "Transparent universal assembly of ten previously frozen mathematical graph-bridge facts. Round trips preserve Frame/Digraph structure and adjacency equals one-step access. The explicit thin quiver has an arrow exactly for each access edge. Its reachability equals reflexive-transitive closure; only the reflexive-and-transitive clause identifies that closure with access. Under transitivity, boxed Holds persists along paths, including nil paths, while remaining boxed. Under transitivity and Euclideanness, accessible source/target worlds have equal successor cones pointwise. The Unit dead-end control has a nil path but no access edge: box-false holds over the original frame and fails over its reflexive-transitive closure. All restrictions occur inside their respective universally quantified clauses; there is no global frame, population or excluded-middle premise. This is delivery by assembly, not another mathematical discovery, a philosophical premise defense or root closure. The original ten-theorem Challenge remains frozen and all ten original helpers are also listed as Comparator targets. Root-premise delta none.",
   "definition_ids": [
-    "DEF-MODAL-FIXTURE-FRAME",
-    "DEF-MODAL-GRAPH-ONE-STEP-ADAPTER",
-    "DEF-MODAL-GRAPH-PATH-CLOSURE"
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "6db24697-d2c8-58f4-9065-893bbcc9f843",
+    "19fefb43-7d00-554b-b134-511431b1e931"
   ],
   "disambiguation_ids": [
-    "DISAMB-MODAL-GRAPH-EDGE-PATH"
+    "a60dac42-97d0-55a5-a344-1873700d54ff"
   ]
 }

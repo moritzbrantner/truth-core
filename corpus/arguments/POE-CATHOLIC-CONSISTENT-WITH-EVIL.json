@@ -1,30 +1,33 @@
 {
-  "id": "POE-CATHOLIC-CONSISTENT-WITH-EVIL",
+  "id": "82770150-c97f-52fb-8a5d-b69f9a80518d",
+  "label": "The background, the Catholic theory and the existence of evil are jointly satisfiable",
+  "legacy_id": "POE-CATHOLIC-CONSISTENT-WITH-EVIL",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-CATHOLIC-THEORY-CONSISTENT-WITH-EVIL",
+  "conclusion_statement_id": "941bccd7-326b-5a4b-8509-3b7182f89a6d",
   "inference_ids": [
-    "INF-CATHOLIC-THEORY-CONSISTENT-WITH-EVIL"
+    "6c965434-5c7b-512c-bc32-74f82a72efd4"
   ],
   "meaning": "Answer to the internal form ('by your own standard of good, God and evil are inconsistent'). A concrete model satisfies the following commitments, which bind-check matches one by one to the conjuncts of `CatholicTheoryConsistentWithEvil` (\u2203 s, Background s \u2227 Catholic s \u2227 EvilExists s): the shared background (an all-powerful being can eliminate any evil); the Catholic grounding (goodness is actuality, q.5 a.1; evil is privation of a due good, q.48 a.3; 'there is evil' is true when there is evil, q.48 a.2 ad 2); some being lacks a due good (q.48 a.2); all seven strong prima via premises and the identification of the first mover moved by none with what all understand as God (#151, ST I q.2 a.3); God supremely good, meaning in the model that he has every perfection, and omnipotent, meaning that he can eliminate every evil (q.2 a.3 ad 1); the disputed per-evil actual-production interpretation of q.2 a.3 ad 1, represented in the model by a being's perfection in act; and evil found in things (q.48 a.2). In the model God can eliminate the ass's evil, does not, and draws the lion's life from it (q.48 a.2 ad 3). What it does not show: that the full Catholic theory is consistent; that the actual evils are in fact ordered to goods, or to goods that outweigh them; anything about probability, so the evidential form is not answered; or that the critic's further premise (a good being eliminates every evil it can, as in O'Connor's report of Mackie) is false. It shows only that this premise is not a consequence of the formalized Catholic commitments, which is what an internal critique needs. The frozen Catholic bundle retains STMT-GOD-DRAWS-GOOD-FROM-EVERY-EVIL as an open, disputed strengthening of ad 1: actual production for every existing evil with no explicit permission condition. Collective scope, permission-conditioned policy and capability readings are recorded separately in DISAMB-AD1-GOOD-FROM-EVIL. Neither this result nor its model establishes that stronger source attribution, actual divine permission, or the philosophical truth of that commitment.",
   "commitment_statement_ids": [
-    "STMT-ALL-POWERFUL-CAN-ELIMINATE-EVIL",
-    "STMT-GOODNESS-IS-ACTUALITY",
-    "STMT-EVIL-IS-PRIVATION-OF-DUE-GOOD",
-    "STMT-EVIL-IS-AS-PROPOSITIONAL-TRUTH",
-    "STMT-SOMETHING-FALLS-SHORT-OF-DUE-GOOD",
-    "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD",
-    "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
-    "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
-    "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
-    "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
-    "STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED",
-    "STMT-NO-INFINITE-PER-SE-MOVER-SERIES",
-    "STMT-FIRST-UNMOVED-MOVER-IS-WHAT-ALL-UNDERSTAND-AS-GOD",
-    "STMT-GOD-SUPREMELY-GOOD-AND-OMNIPOTENT",
-    "STMT-GOD-DRAWS-GOOD-FROM-EVERY-EVIL",
-    "STMT-EVIL-IS-FOUND-IN-THINGS"
+    "185b79df-2646-500b-8067-38be686e936d",
+    "00e962ae-f109-55f7-a7fd-f107ce0dea6b",
+    "14eb9a6c-29df-5b4e-a8dc-123647a0b87a",
+    "8f1c5e2b-cb4a-5571-bd70-f0af6875ea8f",
+    "64f6d7f5-7e75-52be-8b61-02a27e3eea89",
+    "fbc516c1-a6cb-5495-9d31-6e2bb45e8e67",
+    "4be9a4ac-699a-5adc-88d4-bbd958fa1576",
+    "f296a694-aeea-5fa7-bdbf-0076530f9441",
+    "4a952b96-be5f-5493-8277-985248151d01",
+    "c6d6379b-6a9b-55b5-a701-3df289dfcca4",
+    "1e47e6db-da06-5a40-9ccf-fbd1f929c596",
+    "226c38f6-7bf4-552a-9a85-733cfa41d0fa",
+    "a80d4036-1a43-5130-b0ee-fcce00068a62",
+    "59a6a788-f759-5282-b0fc-bf5eff60e309",
+    "42f642f4-189d-51da-91f0-7e19f0c0f87b",
+    "fbf9275a-5601-58e7-8555-629247386d5e"
   ],
-  "disambiguation_ids": ["DISAMB-POTENCY",
-    "DISAMB-AD1-GOOD-FROM-EVIL"
+  "disambiguation_ids": [
+    "508617ab-cf24-5f3b-a387-64b3991359ec",
+    "96042b66-e854-59f3-a8b5-061a3f7d8136"
   ]
 }

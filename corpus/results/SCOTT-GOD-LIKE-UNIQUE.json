@@ -1,6 +1,8 @@
 {
-  "id": "SCOTT-GOD-LIKE-UNIQUE",
-  "argument_id": "SCOTT-GOD-LIKE-UNIQUE",
+  "id": "d9a28d3e-08fc-568b-b762-64688762757d",
+  "label": "AFP GoedelGod.thy, theorem Monotheism: at…, from Scott's axiom A1b: at every world, for… and 1 more",
+  "legacy_id": "SCOTT-GOD-LIKE-UNIQUE",
+  "argument_id": "e2b63a48-e800-5633-812d-8a8de35b071a",
   "challenge_module": "TruthCore.Results.Isabelle.GoedelGod.GodLikeUnique.Challenge",
   "solution_module": "TruthCore.Results.Isabelle.GoedelGod.GodLikeUnique.Solution",
   "theorem": "TruthCore.Results.Isabelle.GoedelGod.GodLikeUnique.godLikeUnique",

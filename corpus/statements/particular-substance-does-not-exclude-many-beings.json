@@ -1,5 +1,7 @@
 {
-  "id": "STMT-PARTICULAR-SUBSTANCE-DOES-NOT-EXCLUDE-MANY-BEINGS",
+  "id": "208c548e-f0a4-5d40-978c-613e71a98f21",
+  "label": "Understanding being as a particular substance does not prevent there being many beings",
+  "legacy_id": "STMT-PARTICULAR-SUBSTANCE-DOES-NOT-EXCLUDE-MANY-BEINGS",
   "paraphrase": "Understanding being as a particular substance does not prevent there being many beings.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.ParticularSubstanceDoesNotExcludeManyBeingsReading"
 }

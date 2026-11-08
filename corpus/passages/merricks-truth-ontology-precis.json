@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "MERRICKS-TRUTH-ONTOLOGY-PRECIS",
+    "source_id": "8d7acf88-524d-59e4-ae1a-285d9d1a931b",
     "source_url": "https://www.trentonmerricks.com/public/publications/PPR-TO-summary.pdf",
     "retrieved_at": "2026-11-05T19:29:09Z",
     "sha256": "sha256:ba951adcdc646fa032fbb226210f770d212b493124e1fced4cd50f139ac10314",
@@ -13,7 +13,9 @@
   },
   "passages": [
     {
-      "id": "MERRICKS-PRECIS-TRUTH-ONTOLOGY",
+      "id": "dab9a536-3572-5f2c-b493-e29567e99904",
+      "label": "Trenton Merricks, Précis of Truth and Ontology, Author manuscript physical PDF pp. 1–4",
+      "legacy_id": "MERRICKS-PRECIS-TRUTH-ONTOLOGY",
       "locator": "author manuscript physical PDF pp. 1–4 (entire précis; journal pp. 184–186)",
       "claim_locator_prefixes": [
         "PDF p. 1",

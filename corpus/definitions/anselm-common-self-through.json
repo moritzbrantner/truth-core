@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ANSELM-COMMON-SELF-THROUGH",
+  "id": "b6ca8cdd-1d68-54ad-bebf-83352c7ae20c",
+  "label": "Common through-source of all…: There exists c such that for every x, through w x x implies through…",
+  "legacy_id": "DEF-ANSELM-COMMON-SELF-THROUGH",
   "term": "common through-source of all self-through bearers",
   "definition": "There exists c such that for every x, through w x x implies through w x c. c is the same candidate witness for all self-through bearers, not merely a common predicate. It is not asserted unique, actual or necessary by this definition. All self-through bearers are covered, including ones not assumed ultimate. No selfPowerFrom facts occur; this is a structural consequence of the two original power premises, not their identification.",
   "lean_declaration": "TruthCore.Explanation.AnselmCommonSourceAudit.CommonSelfThroughAt",

@@ -1,9 +1,11 @@
 {
-  "id": "LOGIC-CASE-NON-CONTRADICTION-NOT-DENIABLE",
+  "id": "8a79f1f4-26fd-56c1-aed5-af197738fed2",
+  "label": "Inside Lean's logic, no being both has and lacks a case predicate in the same respect: the denial…",
+  "legacy_id": "LOGIC-CASE-NON-CONTRADICTION-NOT-DENIABLE",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-NO-CASE-PREDICATE-CONTRADICTION",
+  "conclusion_statement_id": "f96aff82-50fd-525b-8f74-99036a71e2d3",
   "inference_ids": [
-    "INF-LOGIC-CASE-NON-CONTRADICTION-NOT-DENIABLE"
+    "dc520b61-4608-55d3-9f36-aa3c1bc2b8ae"
   ],
   "meaning": "From no premises: a witness that some being has and lacks a predicate in a respect is an instance P x r ∧ ¬ P x r, refuted by Lean-logic non-contradiction (LOGIC-NON-CONTRADICTION, reused). Refutes the dialetheic rival STMT-SOME-CASE-PREDICATE-CONTRADICTION-TRUE relative to the F1 floor marking (D-L, #1007); it does not represent a paraconsistent negation."
 }

@@ -1,11 +1,13 @@
 {
-  "id": "INF-PRACTICE-NO-REFERENCE-REJECTS-FULL-NAMING",
+  "id": "4454e4dc-d5d6-5c39-ae71-ea98c53f4fcc",
+  "label": "The proper-sense full naming leaf is false: it is not the case that every…, by Constructive-proof",
+  "legacy_id": "INF-PRACTICE-NO-REFERENCE-REJECTS-FULL-NAMING",
   "input_statement_ids": [
-    "STMT-PROPER-REFERENCE-PRESERVED",
-    "STMT-GOD-NAMES-NO-BEING-WF-P1",
-    "STMT-FULL-NOMINAL-DESCRIPTOR-EXISTS"
+    "1bc9a316-689c-5837-85c0-cd7fe7e35c16",
+    "5424b521-4a5c-52a0-b790-1db9b53f4ecc",
+    "0b0d4c5e-0a9e-5eab-9f7d-6f2d5c3cc82f"
   ],
-  "output_statement_id": "STMT-FULL-NOMINAL-NAMING-FAILS",
+  "output_statement_id": "06f229e0-b98f-55fc-b866-ff3c8914bacf",
   "rule": "constructive-proof",
   "meaning": "A full descriptor witness would be proper by the full naming leaf, then a practice referent by transfer, contrary to practice no-reference. Thus the exact proper-sense leaf is negated. Removing transfer or the witness leaves no such contradiction.",
   "assumption_statement_ids": [],

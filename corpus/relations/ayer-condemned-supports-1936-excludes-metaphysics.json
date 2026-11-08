@@ -1,9 +1,11 @@
 {
-  "id": "REL-AYER-CONDEMNED-SUPPORTS-1936-EXCLUDES-METAPHYSICS",
+  "id": "c14cb567-cda5-5fe0-acf0-0600ca07187c",
+  "label": "A. J. Ayer, Language Ch: Ayer 1936: by his… supports The V2 exclusion thesis: some sentence…",
+  "legacy_id": "REL-AYER-CONDEMNED-SUPPORTS-1936-EXCLUDES-METAPHYSICS",
   "subject_kind": "claim",
-  "subject_id": "AYER-LTL-PELICAN-I-21-CONDEMNED",
+  "subject_id": "83f3e0b4-ce49-581f-a152-e0eea077dda7",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-AYER-1936-EXCLUDES-METAPHYSICS",
+  "object_id": "92ad4e06-5b99-529d-9501-5a86917dbfa4",
   "note": "Gap: Ayer says the criterion condemns these assertions; the statement's formal condition (the condemned sentence's negation does not entail some observation statement) is the analyst's typing of 'no conceivable observation could have any tendency to show' it, not Ayer's wording."
 }

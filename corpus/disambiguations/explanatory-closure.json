@@ -1,12 +1,14 @@
 {
-  "id": "DISAMB-EXPLANATORY-CLOSURE",
+  "id": "a51b25cd-9e92-5531-a7bc-94c6d5e4f6b9",
+  "label": "Closure",
+  "legacy_id": "DISAMB-EXPLANATORY-CLOSURE",
   "term": "closure (one complete cause, coinductive account, inductive account, reason closure, PSR)",
   "sense_definition_ids": [
-    "DEF-EXPLANATORY-CLOSURE",
-    "DEF-EXPLANATORY-FULL-SUPPLY",
-    "DEF-EXPLANATORY-REASON-CLOSED",
-    "DEF-PSR-CONTINGENT-SCOPE",
-    "DEF-JOINT-SCENARIO-SUFFICIENCY"
+    "23c2e2a9-25c4-50ec-9386-ec2132601f44",
+    "aa8a8cd7-3ad0-5ddc-b8ff-6433bfcaa9c6",
+    "fc7264ad-1e74-5419-91be-6ac7ec796b07",
+    "afeeb7ff-92c0-578f-8a0d-ac38dc245672",
+    "800637b5-8f4b-54ea-865d-c4fd444d1632"
   ],
   "resolution": "A complete cause in the conditional sense is one coherent exercised jointly sufficient record; it says nothing about the conditions' own accounts. Closed asks for an accounted set around one event and permits cycles and descent. FullSupply asks for a well-founded derivation from stops. ReasonClosed (#750) also closes under every admitted reason and refuses copies, so it gives Closed and the cycle model separates them. The contingent-fact PSR quantifies over every contingent event and is shown equivalent to closure at all of them under stops at scenario necessity, coherence and memberful records. The certificate never passes from one of these to another except through the stated clause, and asserts none of them of reality. Every use of 'closed' in this certificate is relative to a named stop predicate."
 }

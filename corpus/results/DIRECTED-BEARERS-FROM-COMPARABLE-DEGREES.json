@@ -1,6 +1,8 @@
 {
-  "id": "DIRECTED-BEARERS-FROM-COMPARABLE-DEGREES",
-  "argument_id": "DIRECTED-BEARERS-FROM-COMPARABLE-DEGREES",
+  "id": "f3532c30-a912-59a1-b5d8-e8b579483b59",
+  "label": "Each pair of selected-perfection bearers has a bearer at a represented…, from comparable degrees",
+  "legacy_id": "DIRECTED-BEARERS-FROM-COMPARABLE-DEGREES",
+  "argument_id": "f5b624bf-5689-5ee7-9250-fa72b84bdd4f",
   "challenge_module": "TruthCore.Results.Causality.Round3FourthWay.Challenge",
   "solution_module": "TruthCore.Results.Causality.Round3FourthWay.Solution",
   "theorem": "TruthCore.Results.Causality.Round3FourthWay.directedFromComparableDegrees",

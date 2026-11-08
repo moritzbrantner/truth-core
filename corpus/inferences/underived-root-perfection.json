@@ -1,16 +1,18 @@
 {
-  "id": "INF-UNDERIVED-ROOT-PERFECTION",
+  "id": "9d511db8-7908-55a0-b060-efccca6afaae",
+  "label": "There exists ONE witness n that is an actual concrete root of…, by Existing-maximum-comparison-a…",
+  "legacy_id": "INF-UNDERIVED-ROOT-PERFECTION",
   "input_statement_ids": [
-    "STMT-NECESSARY-CONCRETE-UNDERIVED-AT",
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS",
-    "STMT-EXISTING-IN-ACT-AT",
-    "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
-    "STMT-GRADES-TO-MAXIMUM-AT-BEING",
-    "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING",
-    "STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE"
+    "0bdcf366-29c7-5d45-b603-5c929dcad976",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "da09703b-0b1e-5dca-9dd7-6c0c8d1610d7",
+    "0436de86-6579-53f2-9ff5-2111ba44ebae",
+    "cb1cdea9-eb6c-578c-8008-84e0d4107fd3",
+    "e4e6b0cd-f61a-5605-a302-573c67cf063a",
+    "7067553d-cad9-5d79-b6b2-912e35051530",
+    "64498e7e-7f10-54a0-9ec0-c65e6076de1f"
   ],
-  "output_statement_id": "STMT-DIRECT-ESSE-ROOT-PERFECTION",
+  "output_statement_id": "7abdee27-8abc-59d9-9b20-740616a1a8dd",
   "rule": "existing-maximum-comparison-and-pointwise-perfection",
   "meaning": "Preserve the SAME supplied necessary concrete underived witness n. Instantiate its all-world concrete-support exclusion only at selected w to obtain ActualRoot; no all-world attribute is inferred. Import maximumExistsOfExistingRoot and maximumEqualsRoot using the existing fixed-esse Unit restriction: one maximum equals n and also equals every other selected actual concrete root. Apply perfectOfMaximum to this SAME n. Eight explicit inputs replace the old ten-input root-producing configuration: the supplied underived existential replaces population, whole-roster and contingent-grounding inputs, while seven other interfaces are retained. This is a conditional composition, not a certified global package weakening, numerical philosophical progress or premise truth discharge. Uniqueness concerns selected actual concrete roots, NOT all necessary individuals. The original supplied existential is unpacked once; its same final witness is retained, though the target records only selected-world roothood, necessity, esse maximum and perfection. Global InAct/CausesIn and modal/support correspondence remain OPEN. No God naming, moral/cognitive perfection, production-ground identity, explanatory adequacy or all-world attribute conclusion.",
   "assumption_statement_ids": [],

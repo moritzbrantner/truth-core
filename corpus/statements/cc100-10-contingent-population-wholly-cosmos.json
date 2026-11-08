@@ -1,12 +1,14 @@
 {
-  "id": "STMT-CC100-10-CONTINGENT-POPULATION-WHOLLY-COSMOS",
+  "id": "81482dca-c731-5d5e-824a-449ef518e26c",
+  "label": "Let C be the aggregate of all wholly contingent things",
+  "legacy_id": "STMT-CC100-10-CONTINGENT-POPULATION-WHOLLY-COSMOS",
   "paraphrase": "Let C be the aggregate of all wholly contingent things. If there are contingent things, C is wholly contingent.",
   "definition_ids": [
-    "DEF-CC100-10-MEREOLOGICAL-SCOPE",
-    "DEF-CC100-10-CAUSAL-MODAL-COSMOS"
+    "2cab56b2-8622-5a12-9adf-101a326fa0a6",
+    "54135ed4-7758-5ce5-95f4-0c48052ec091"
   ],
   "disambiguation_ids": [
-    "DISAMB-FUSION-CAUSE-EXTERNALITY",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "80aee986-d636-5cf7-a339-f99726342440",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

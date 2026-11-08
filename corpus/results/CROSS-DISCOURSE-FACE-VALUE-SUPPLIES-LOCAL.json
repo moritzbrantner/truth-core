@@ -1,6 +1,8 @@
 {
-  "id": "CROSS-DISCOURSE-FACE-VALUE-SUPPLIES-LOCAL",
-  "argument_id": "CROSS-DISCOURSE-FACE-VALUE-SUPPLIES-LOCAL",
+  "id": "680e53e9-f724-5f97-b694-563cad0f86d8",
+  "label": "Analyst local fragment: each selected religious…, from Stronger analyst profile combining local…",
+  "legacy_id": "CROSS-DISCOURSE-FACE-VALUE-SUPPLIES-LOCAL",
+  "argument_id": "ab00ece1-ea7c-568c-be56-011e2a4c5028",
   "challenge_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.Local.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.Local.Solution",
   "theorem": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.crossDiscourseSuppliesLocal",

@@ -1,9 +1,11 @@
 {
-  "id": "REL-EXACT-GENERAL-NO-CHANGE-ALTERNATIVE-TO-F3",
+  "id": "c38a9af3-6281-5837-94bb-99b9078e990e",
+  "label": "No candidate changes in the SAME general… alternative to Something changes, in the general sense…",
+  "legacy_id": "REL-EXACT-GENERAL-NO-CHANGE-ALTERNATIVE-TO-F3",
   "subject_kind": "statement",
-  "subject_id": "STMT-NOTHING-CHANGES-IN-GENERAL",
+  "subject_id": "cc003313-0847-5a43-85d1-e025f909f48f",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-SOMETHING-CHANGES",
+  "object_id": "bef22027-4f6d-5722-9597-e4dec273ebdd",
   "note": "Exact analyst complement in the SAME general-change signature, not attributed to a historical school. Existing McTaggart1908 rival and observation approval are preserved. Refuting that stronger bundle alone cannot exhaust opposition."
 }

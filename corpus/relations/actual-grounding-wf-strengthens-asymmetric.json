@@ -1,10 +1,12 @@
 {
-  "id": "REL-ACTUAL-GROUNDING-WF-STRENGTHENS-ASYMMETRIC",
+  "id": "d671e191-eea8-5542-81b6-15d40e291306",
+  "label": "The profile's selected relation at w… strengthens At the selected world, actual CONCRETE_6…",
+  "legacy_id": "REL-ACTUAL-GROUNDING-WF-STRENGTHENS-ASYMMETRIC",
   "subject_kind": "statement",
-  "subject_id": "STMT-ACTUAL-GROUNDING-WF",
+  "subject_id": "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-ACTUAL-GROUNDING-ASYMMETRIC",
-  "verification_result_id": "ACTUAL-GROUNDING-ASYMMETRIC-FROM-WF",
+  "object_id": "39f7c63d-b372-564c-b18a-ed09d02dda9a",
+  "verification_result_id": "606d86ab-25b6-5a7a-94d5-829548e3da8d",
   "note": "Restricted well-foundedness excludes reciprocal grounding between actual concreta (ACTUAL-GROUNDING-ASYMMETRIC-FROM-WF). Strictness: an infinite descending chain of actual concreta with no two-cycle is asymmetric but not well-founded (no finite control in this batch)."
 }

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PATH-RELOCATION-PROFILE",
+  "id": "1a7f4fe0-84e9-500d-886e-78f63b27422a",
+  "label": "Temporal state path and its rival-path…: A path assigns one state to each supplied time inside one…",
+  "legacy_id": "DEF-PATH-RELOCATION-PROFILE",
   "term": "temporal state path and its rival-path history",
   "definition": "A path assigns one state to each supplied time inside one history. pathHistory C takes the solutions of a condition C on complete Int paths as worlds, all mutually accessible, with exactly the path's state present at each time, existence read at now=0 and an empty Causes relation. transitionTruth w (t,s,s') says that path w has state s at t and s' at t+1. TemporalEdge f relates dated occurrences (t,f t) and (t+1,f(t+1)) of one path. These are representations of rival complete paths, not an aggregate being, a causal relation or a metaphysical modality.",
   "basis": "stipulative",

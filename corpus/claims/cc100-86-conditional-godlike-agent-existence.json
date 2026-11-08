@@ -1,15 +1,17 @@
 {
-  "id": "CC100-86-CONDITIONAL-GODLIKE-AGENT-EXISTENCE",
-  "statement_id": "STMT-CC100-86-CONDITIONAL-GODLIKE-AGENT-EXISTENCE",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "0a0cea66-9366-5167-bdc5-a8e8013ada8c",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: Under the preceding whole-maker and selected…",
+  "legacy_id": "CC100-86-CONDITIONAL-GODLIKE-AGENT-EXISTENCE",
+  "statement_id": "46fab970-65b4-5b22-b651-2fa011ca9185",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.206–213: p.210, argument #86 Unities: Wholes, step 5 under steps 1–4",
   "interpretation": "This is the displayed conclusion retained conditionally on the source commitments and interpretation of the selected requirement. It supplies no independently proved actual God, uniqueness, common maker of all wholes, necessity, frame-relative rigid witness or complete explanation. No classical-God adapter is invented. Attribution is to McIntosh’s presentation only, not the unread Kronen/Menssen2013 article referenced on p211. No formal proof or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-86-WHOLE-MAKER-GODLIKE"
+    "c29b7f17-af6c-5869-9ef7-340c6aaeba58"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

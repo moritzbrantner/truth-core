@@ -1,9 +1,11 @@
 {
-  "id": "DEF-PRIMARY-MOVER",
+  "id": "b4c14a65-2a0c-5d35-a43d-bf3018f11401",
+  "label": "Primary mover: The mover that moves a thing first, not through something else, as each member of…",
+  "legacy_id": "DEF-PRIMARY-MOVER",
   "term": "primary (proximate) mover (τὸ κινοῦν πρώτως)",
   "definition": "The mover that moves a thing first, not through something else, as each member of VII.1's chain is moved by the adjacent one (242a17-19: ἀεὶ τὸ ἐχόμενον ὑπὸ τοῦ ἐχομένου; 242b24). Lean: the primitive `MovesPrimarily y x`, a qualifier used alongside `MovesIn`, so that 'moves' keeps the prima via's sense. `MovesPrimarily` is not indexed by respect; the typed readings pair it with a local respect of `MovesIn`, which is how they render πρώτως κατὰ τόπον.",
   "basis": "sourced",
   "claim_ids": [
-    "ARIST-PHYS-242B23-PRIMARY-CONTACT-B"
+    "9c26f43e-be1f-5a03-a56f-1055916aa6c7"
   ]
 }

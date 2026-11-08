@@ -1,9 +1,11 @@
 {
-  "id": "REL-PU-373-SUPPORTS-CONCILIAR-DEFINITION-OWN-STANDARD",
+  "id": "41651c1e-bda8-5ec5-88d6-b0d9611bbf84",
+  "label": "Ludwig Wittgenstein, Philosophische…… supports In the Catholic practice, whatever an…",
+  "legacy_id": "REL-PU-373-SUPPORTS-CONCILIAR-DEFINITION-OWN-STANDARD",
   "subject_kind": "claim",
-  "subject_id": "WITTGENSTEIN-PU-373-THEOLOGY-AS-GRAMMAR",
+  "subject_id": "55ab27c9-ed2f-58f2-86cd-9a56f2370412",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-CONCILIAR-DEFINITION-IS-PRACTICE-OWN-STANDARD",
+  "object_id": "b247cea8-0b8a-5e19-8c47-5f100c1820c8",
   "note": "Wittgenstein's 'Theologie als Grammatik' places theology with grammar. If theology is grammar, a council's theological definitions are candidates for the grammar of the practice, against the fideist reply. Gap: the parenthesis is unexplained, says nothing about councils, and may mean only that grammar says what kind of object God is."
 }

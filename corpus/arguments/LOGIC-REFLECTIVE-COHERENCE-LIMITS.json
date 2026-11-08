@@ -1,19 +1,21 @@
 {
-  "id": "LOGIC-REFLECTIVE-COHERENCE-LIMITS",
+  "id": "ff2c0511-5679-5a02-b4bb-dd596f4f81c8",
+  "label": "There are explicit finite semantic controls: in a two-world, two-content interpretation, the…",
+  "legacy_id": "LOGIC-REFLECTIVE-COHERENCE-LIMITS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-REFLECTIVE-COHERENCE-LIMITS",
+  "conclusion_statement_id": "78cabac3-b489-5128-b2e0-4a0c78990a83",
   "inference_ids": [
-    "INF-LOGIC-REFLECTIVE-COHERENCE-LIMITS"
+    "21d9cdd5-f692-5a15-95fe-2b52cac15a4a"
   ],
   "meaning": "Two finite controls defeat the invalid upgrades from an internal consistency policy to a duty-compatible policy and from semantic implication to explicit belief in every implication.",
   "definition_ids": [
-    "DEF-SELF-APPLICATION-NORM",
-    "DEF-WORLDVIEW-SEMANTIC-CONSISTENCY",
-    "DEF-WORLDVIEW-DUTY-COMPATIBILITY",
-    "DEF-WORLDVIEW-NECESSARY-IMPLICATION",
-    "DEF-REFLECTIVE-EPISTEMIC-POLICY"
+    "89b927ef-37ac-5400-bb6a-26bc5e5ccca0",
+    "6523a45a-b797-57ed-b323-27a0d14d7832",
+    "deefafab-16f0-587e-b704-63ee447ae99d",
+    "f542117a-5158-599a-a125-08708721d66b",
+    "7b30afc5-c68a-55d0-839a-0de89c4cfee9"
   ],
   "disambiguation_ids": [
-    "DISAMB-WORLDVIEW-CONSISTENCY-DUTY-COMPATIBILITY"
+    "94fe8dfe-9a48-51ff-ad2a-59c98fc58dfe"
   ]
 }

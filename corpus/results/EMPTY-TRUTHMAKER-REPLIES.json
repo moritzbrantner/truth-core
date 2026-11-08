@@ -1,6 +1,8 @@
 {
-  "id": "EMPTY-TRUTHMAKER-REPLIES",
-  "argument_id": "EMPTY-TRUTHMAKER-REPLIES",
+  "id": "3f4ea43a-d6da-5fbc-8e7c-a140e5ecd1c3",
+  "label": "Five distinct source-free finite negative-truth profiles: an existing nonconcrete abstract…",
+  "legacy_id": "EMPTY-TRUTHMAKER-REPLIES",
+  "argument_id": "d8029029-68ef-500a-8dc6-ec3fb110289e",
   "challenge_module": "TruthCore.Results.Explanation.EmptyTruthmaker.Replies.Challenge",
   "solution_module": "TruthCore.Results.Explanation.EmptyTruthmaker.Replies.Solution",
   "theorem": "TruthCore.Results.Explanation.EmptyTruthmaker.Replies.replies",

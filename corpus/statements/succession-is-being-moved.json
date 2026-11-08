@@ -1,12 +1,14 @@
 {
-  "id": "STMT-SUCCESSION-IS-BEING-MOVED",
+  "id": "487fb7ab-609f-5695-b1b3-77fe21538c7f",
+  "label": "A living thing whose life-state differs between two times at which it lives is being moved in some…",
+  "legacy_id": "STMT-SUCCESSION-IS-BEING-MOVED",
   "paraphrase": "OPEN analyst bridge: a living thing whose life-state differs between two times at which it lives is being moved in some respect, in the Physics III.1 sense of motion. Covers succession within one living subject only, not beginning or ceasing to live.",
   "lean_declaration": "TruthCore.Causality.SuccessionPotency.SuccessionIsBeingMoved",
   "definition_ids": [
-    "DEF-LIFE-PRESENT-AT",
-    "DEF-MOTION-AS-REDUCTION"
+    "42635e18-7288-5194-88b7-02dda6aa0477",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
   ]
 }

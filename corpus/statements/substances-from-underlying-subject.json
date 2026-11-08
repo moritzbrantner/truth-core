@@ -1,5 +1,7 @@
 {
-  "id": "STMT-SUBSTANCES-COME-TO-BE-FROM-UNDERLYING-SUBJECT",
+  "id": "d074043e-0927-521f-8a9b-db834b5690f5",
+  "label": "Substances and other things that come to be without qualification also arise from an underlying…",
+  "legacy_id": "STMT-SUBSTANCES-COME-TO-BE-FROM-UNDERLYING-SUBJECT",
   "paraphrase": "Substances and other things that come to be without qualification also arise from an underlying subject, as plants and animals arise from seed.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.SubstancesComeToBeFromUnderlyingSubjectReading"
 }

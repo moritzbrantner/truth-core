@@ -1,28 +1,30 @@
 {
-  "id": "NECESSARY-PART-FUSION-DECOMPOSITION",
+  "id": "3f4d9132-7bf5-5d40-94d7-39354feb5583",
+  "label": "Some candidate q is part of the SAME…, from The selected candidate x does not satisfy… and 2 more",
+  "legacy_id": "NECESSARY-PART-FUSION-DECOMPOSITION",
   "premise_statement_ids": [
-    "STMT-SELECTED-OBJECT-NOT-NECESSARY-AT",
-    "STMT-OVERLAP-EXTENSIONAL-PARTHOOD",
-    "STMT-SELECTED-NECESSARY-PARTS-FUSION-AT"
+    "dc48e98f-9630-53ed-8aac-d3a357dedbd9",
+    "645aaccf-04a8-5e87-bd89-cc2b9c2c65d5",
+    "1890c9c3-38b9-511a-bfb5-72aafbe88dae"
   ],
-  "conclusion_statement_id": "STMT-HAS-NO-NECESSARY-PARTS-PART-AT",
+  "conclusion_statement_id": "9823f6fa-d864-55b0-a015-cf3810c90915",
   "inference_ids": [
-    "INF-NECESSARY-PART-FUSION-DECOMPOSITION"
+    "3d6c4ada-6564-5eed-bd9a-b5ed890cc658"
   ],
   "meaning": "If x has no necessary part, choose x itself. Otherwise use the selected necessary-parts fusion n and its explicit necessity. Fusion’s no-extra-parts clause plus overlap-extensional parthood place n below x. Nonnecessity of x makes x distinct from necessary n, so x is not part of n. Classical overlap separation yields a common part q of x and an object disjoint from n. Any necessary r below q would belong to the selected family and hence be below n by Fusion’s upper-bound clause, contradiction. Return the SAME candidate q without necessary parts. No actual existence, ordinary contingency, necessity-downward, unrestricted fusion, causal role or source truth follows.",
   "definition_ids": [
-    "DEF-UNIVERSAL-FUSION-PROFILE",
-    "DEF-UNIVERSAL-FUSION-DOMAIN",
-    "DEF-NO-NECESSARY-PARTS-AT",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-MODAL-CONTINGENCY",
-    "DEF-OVERLAP-EXTENSIONAL-PARTHOOD",
-    "DEF-SELECTED-NECESSARY-PARTS-FUSION",
-    "DEF-NECESSARY-PART-FUSION-DECOMPOSITION"
+    "9ec56dce-572e-5230-8247-6b3e994cb98a",
+    "094da9ef-9edb-5e88-8b7b-2eb87488e90d",
+    "069e3555-ca4a-5737-ae1a-8e2cb67e3be5",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "6f09b078-c49b-5dc5-b7a8-524fdded7dc5",
+    "67108022-696b-5536-b15b-4d3b88695cee",
+    "a3d3f908-f1fd-5d6a-89ad-139a642dfba2"
   ],
   "disambiguation_ids": [
-    "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY",
-    "DISAMB-SELECTED-NECESSARY-FUSION-AND-ACTUAL-PART"
+    "8db2b1c9-f3a6-55d3-b7e9-4939c27923e2",
+    "737945a6-432d-504b-b91e-902bbb36a42e"
   ]
 }

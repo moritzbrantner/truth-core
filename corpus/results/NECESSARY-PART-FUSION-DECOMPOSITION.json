@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-PART-FUSION-DECOMPOSITION",
-  "argument_id": "NECESSARY-PART-FUSION-DECOMPOSITION",
+  "id": "bf64ca1e-d1b2-5e4f-99a3-c19ffc0cefcd",
+  "label": "Some candidate q is part of the SAME…, from The selected candidate x does not satisfy… and 2 more",
+  "legacy_id": "NECESSARY-PART-FUSION-DECOMPOSITION",
+  "argument_id": "3f4d9132-7bf5-5d40-94d7-39354feb5583",
   "challenge_module": "TruthCore.Results.Mereology.NecessaryPartFusionDecomposition.Challenge",
   "solution_module": "TruthCore.Results.Mereology.NecessaryPartFusionDecomposition.Solution",
   "theorem": "TruthCore.Results.Mereology.NecessaryPartFusionDecomposition.decompose",

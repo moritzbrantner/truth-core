@@ -1,6 +1,8 @@
 {
-  "id": "BRIDGE-ARIST-POTENCY-ANALYSIS-NON-SIMULTANEITY",
-  "argument_id": "BRIDGE-ARIST-POTENCY-ANALYSIS-NON-SIMULTANEITY",
+  "id": "1e4182bc-71c0-5ef5-9846-b22e330e080a",
+  "label": "Nothing is simultaneously in act and in POTENCY_1 in…, from A being is in POTENCY_1 in a respect…",
+  "legacy_id": "BRIDGE-ARIST-POTENCY-ANALYSIS-NON-SIMULTANEITY",
+  "argument_id": "63a8deb7-1819-5ef6-aba8-57a9fefcc3bc",
   "challenge_module": "TruthCore.Results.Bridges.AristPotencyAnalysisNonSimultaneity.Challenge",
   "solution_module": "TruthCore.Results.Bridges.AristPotencyAnalysisNonSimultaneity.Solution",
   "theorem": "TruthCore.Results.Bridges.AristPotencyAnalysisNonSimultaneity.notActAndPotencyOfPotencyAnalysis",

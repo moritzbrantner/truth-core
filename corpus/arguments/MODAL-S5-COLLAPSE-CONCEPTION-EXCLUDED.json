@@ -1,33 +1,35 @@
 {
-  "id": "MODAL-S5-COLLAPSE-CONCEPTION-EXCLUDED",
+  "id": "ed0d442a-b803-5a8f-91d0-2193d7e805b2",
+  "label": "In the supplied interpreted scenario…, from For the supplied interpreted scenario, the… and 2 more",
+  "legacy_id": "MODAL-S5-COLLAPSE-CONCEPTION-EXCLUDED",
   "premise_statement_ids": [
-    "STMT-MODAL-S5-SCENARIO-FRAME",
-    "STMT-MODAL-S5-SCENARIO-BRIDGE",
-    "STMT-MODAL-S5-SCENARIO-CONTINGENCY"
+    "1bf444ef-5715-50fa-9058-51eddd8ef2c1",
+    "b9e511aa-6776-517b-9527-f141c345f6be",
+    "af2986b0-ca65-5b9b-83ce-6ae024e6a4d2"
   ],
-  "conclusion_statement_id": "STMT-MODAL-S5-COLLAPSE-CONCEPTION-EXCLUDED",
+  "conclusion_statement_id": "a5c9bf60-40c3-5fce-aad4-fbc41758715e",
   "inference_ids": [
-    "INF-MODAL-S5-COLLAPSE-CONCEPTION-EXCLUDED"
+    "708ba453-7778-5816-9d3a-cad38de7ff43"
   ],
   "meaning": "Assume C(MC). Apply the unrestricted bridge at the root to obtain possible full MC. Compose B symmetry propagation with K no-contingency, then contradict the independent positive and negative witnesses. Discharge C(MC); the three interpreted premises stay open.",
   "definition_ids": [
-    "DEF-MODAL-FIXTURE-FRAME",
-    "DEF-MODAL-FIXTURE-DOMAIN",
-    "DEF-MODAL-FIXTURE-MC",
-    "DEF-MODAL-FIXTURE-IDENTITY",
-    "DEF-MODAL-FIXTURE-AGREEMENT",
-    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
-    "DEF-HUME-TEST-CONTINGENCY",
-    "DEF-MODAL-S5-FRAME",
-    "DEF-MODAL-S5-COMPONENT",
-    "DEF-MODAL-S5-UNIFORM",
-    "DEF-MODAL-S5-SCENARIO",
-    "DEF-HUME-TEST-CONCEPTION",
-    "DEF-HUME-TEST-BRIDGE"
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "a315ea74-8cb6-57a6-ab40-17265bbe1ce7",
+    "f9a77a01-4dcf-5a1d-9bf7-a45a466ce504",
+    "d24cc01a-d6c5-5a1d-bdde-989511bbd1b7",
+    "a3baafe5-b951-5752-ab70-25f03144e8f5",
+    "6d8a58a6-97f4-57f7-824f-c1c2c5d08d6c",
+    "09d51a0b-d02f-5fb4-97db-3b6a4aa3a138",
+    "b15f67c1-a524-5226-87c2-a3f78aff47a9",
+    "373312c4-9420-52fa-8590-0a77cdf956a4",
+    "32211feb-7d9e-5822-a9e0-e8a89374d6aa",
+    "9a3cef72-b144-5f91-9390-312bd4d96c94",
+    "f1dbe2cb-6ba1-581a-9b68-099ef0a25338",
+    "f4fc4188-c03c-5105-a904-ad58b571314b"
   ],
   "disambiguation_ids": [
-    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
-    "DISAMB-MODAL-K-COLLAPSE-MODES",
-    "DISAMB-MODAL-S5-COMPONENT-GLOBAL"
+    "70eab05f-3fde-575b-9de1-6692e7b71974",
+    "2d935e8e-a7d0-50db-999d-a5271406a372",
+    "3f8a4b51-4608-5404-b17b-822281581a38"
   ]
 }

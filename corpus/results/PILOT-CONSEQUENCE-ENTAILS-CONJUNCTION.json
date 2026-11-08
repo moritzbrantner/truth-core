@@ -1,6 +1,8 @@
 {
-  "id": "PILOT-CONSEQUENCE-ENTAILS-CONJUNCTION",
-  "argument_id": "PILOT-CONSEQUENCE-ENTAILS-CONJUNCTION",
+  "id": "187fa9a6-0135-5439-808f-3c9c3c357f80",
+  "label": "Inside Lean logic, ∧ ¬. A bounded conjunction of…, from Inside Lean logic, ¬. A logical theorem…",
+  "legacy_id": "PILOT-CONSEQUENCE-ENTAILS-CONJUNCTION",
+  "argument_id": "57da203d-7bd6-5a67-a704-231470a8ed02",
   "challenge_module": "TruthCore.Results.Logic.TruthPilot.ConsequencePair.Challenge",
   "solution_module": "TruthCore.Results.Logic.TruthPilot.ConsequencePair.Solution",
   "theorem": "TruthCore.Results.Logic.TruthPilot.ConsequencePair.pairFromConsequence",

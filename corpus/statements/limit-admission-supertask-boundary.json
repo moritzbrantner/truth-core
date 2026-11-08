@@ -1,14 +1,16 @@
 {
-  "id": "STMT-LIMIT-ADMISSION-SUPERTASK-BOUNDARY",
+  "id": "3b649cd3-ea6e-5d5c-8e90-4e22a607b8ba",
+  "label": "Reuse the existing abstract stable-endpoint result",
+  "legacy_id": "STMT-LIMIT-ADMISSION-SUPERTASK-BOUNDARY",
   "paraphrase": "Reuse the existing abstract stable-endpoint result. Reciprocal stage times strictly increase in [0,1) and converge to 1; the separate endpoint is not an indexed operation. The event range omits 1 and is not closed, but its closure is a positive admission model. With the same timing, the existing alternating Boolean output has no topological limit. Constant-true stages converge, yet an independently false endpoint violates coherence; the everywhere-true state is coherent. Thus clock convergence, endpoint event and terminal state are independent data, not physical completion.",
   "lean_declaration": "TruthCore.Logic.LimitAdmission.SupertaskBoundary",
   "definition_ids": [
-    "DEF-LIMIT-ADMISSION-CLOSED",
-    "DEF-LIMIT-ADMISSION-PROFILE",
-    "DEF-LIMIT-ADMISSION-EVENT",
-    "DEF-LIMIT-ADMISSION-TERMINAL"
+    "e45c109e-0311-5d0e-868b-49791595a013",
+    "287f30f5-1a1c-52ad-b245-dc8de2a99e8e",
+    "e9fbdfb0-1f8a-595a-b3a8-6101cdbfbf11",
+    "708ec18d-f0e4-52a7-9351-6f86decc5206"
   ],
   "disambiguation_ids": [
-    "DISAMB-LIMIT-ADMISSION-DOMAINS"
+    "909b6e8d-ab8d-5466-8a43-5351cc339328"
   ]
 }

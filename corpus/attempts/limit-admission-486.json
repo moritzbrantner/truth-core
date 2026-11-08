@@ -1,18 +1,20 @@
 {
-  "id": "ATTEMPT-LIMIT-ADMISSION-486",
+  "id": "d00aebcc-06f9-50ff-989f-b09b941c916c",
+  "label": "Reuse the exact existing Nat-tail presence and certified tail controls; prove genuine Mathlib…",
+  "legacy_id": "ATTEMPT-LIMIT-ADMISSION-486",
   "statement_ids": [
-    "STMT-FINITE-POPULATION-COVER-CONTROLS",
-    "STMT-SUPERTASK-STABLE-ENDPOINT",
-    "STMT-LIMIT-ADMISSION-PACKAGE",
-    "STMT-LIMIT-ADMISSION-CLOSED",
-    "STMT-LIMIT-ADMISSION-ADMITTED"
+    "d846e44f-718c-5850-b6f5-5b90220cb75a",
+    "b74076fe-1fc5-581a-bbcf-ada75630def0",
+    "c563c45e-9262-52b6-b174-b51aea370674",
+    "2183260d-2ff8-5a5e-b9a1-1d20f784a5f5",
+    "ac09337a-3d20-5905-bb20-bb3f00c277d0"
   ],
   "date": "2026-11-05",
   "kind": "countermodel",
   "outcome": "succeeded",
   "summary": "Reuse the exact existing Nat-tail presence and certified tail controls; prove genuine Mathlib product convergence to the unadmitted empty profile. Reciprocal real event times approach 0 with no first event; reciprocal supertask times strictly approach 1 without an endpoint event. Separate state controls reuse the existing certified oscillation and stable-endpoint theorems: Bool convergence iff existing stability, oscillation has no limit, constant stages can disagree with an independently assigned endpoint, and constant whole-state assignment is coherent. Closed admission plus convergence and stage containment is a sufficient bridge with three distinct named premises, not a proven actual-domain policy. Each negative range is not closed; its closure supplies a mathematical positive model. Reject identifying ambient closure with modal actuality, a first time with a first event, or timing convergence with state convergence/physical completion. Domain policies and applicability remain OPEN; no necessary being, causal root, physical completion or root discharge. Exact interpretation, strongest rivals, preview-cache failure/CLI fallback and proof boundaries are persisted in docs/notes/finite-population-cover-533.md. Canonical full library build passes; exact premise/schema binding reports 8 bound and 0 mismatch; both LIMIT-ADMISSION and LIMIT-CLOSED-ADMISSION Comparator configurations pass with independent NanoDa acceptance. Delivered-head CI remains required. The optional duplicate local library audit was canceled per coordinator; CI owns that final library coverage. Computed root frontier: 90 open (30 bare, 18 supported, 42 stated) unchanged and cheapest route cost 31 unchanged.",
   "evidence": [
-    "LIMIT-ADMISSION",
-    "LIMIT-CLOSED-ADMISSION"
+    "695a73ac-2b13-5219-8b88-a963c29e6688",
+    "60d2a185-eced-506b-859a-93f03beb1d9c"
   ]
 }

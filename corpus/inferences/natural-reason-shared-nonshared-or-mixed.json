@@ -1,9 +1,11 @@
 {
-  "id": "INF-NATURAL-REASON-SHARED-NONSHARED-OR-MIXED",
+  "id": "f0720a58-010a-5555-b8c6-76f1f8741369",
+  "label": "Either all natural-knowability moves answer to shared reason, all lack…, by Constructive-proof",
+  "legacy_id": "INF-NATURAL-REASON-SHARED-NONSHARED-OR-MIXED",
   "input_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-NATURAL-REASON-PROFILE-CASES-COVER",
+  "output_statement_id": "e3cda405-0e51-5a17-8d8f-d7fbc64163b5",
   "rule": "constructive-proof",
   "meaning": "Explicit EM checks the two universal readings or a pair of actual opposing move witnesses. Empty natural-move domains allow universal overlap; named uniform coverage is not established.",
   "assumption_statement_ids": [],

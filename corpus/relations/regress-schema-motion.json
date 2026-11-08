@@ -1,12 +1,14 @@
 {
-  "id": "REL-REGRESS-SCHEMA-MOTION",
+  "id": "141ed6b7-3628-5467-a6af-e7dc409c13c4",
+  "label": "The existing III.3 moving-in-the-moved… instance of schema Universal conditional structural laws…",
+  "legacy_id": "REL-REGRESS-SCHEMA-MOTION",
   "subject_kind": "statement",
-  "subject_id": "STMT-REGRESS-MOTION-TRANSFER",
+  "subject_id": "0def4617-676a-5780-b468-d5ac5edca964",
   "predicate": "instance_of_schema",
   "object_kind": "statement",
-  "object_id": "STMT-REGRESS-STRUCTURAL-SCHEMA",
+  "object_id": "984860c8-c973-5ef7-b51f-af0abb263937",
   "note": "Proved conditional motion instance of the structural schema, with separate exact theorem obligations in REGRESS-SCHEMA-PACKAGE. bind-check matches both named theorem types to these two statement declarations; Comparator checks their frozen Challenges and Solutions. This relation is registration metadata, never source support, an inference from one instance to the universal schema, or a premise-closure rule. Actual domain conditions remain open.",
-  "verification_result_id": "REGRESS-SCHEMA-PACKAGE",
+  "verification_result_id": "74e00870-e0d4-5467-8c09-a75b2a922ce5",
   "instance_theorem": "TruthCore.Results.Logic.RegressSchema.motionTransfer",
   "schema_theorem": "TruthCore.Results.Logic.RegressSchema.structural"
 }

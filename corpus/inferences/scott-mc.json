@@ -1,11 +1,13 @@
 {
-  "id": "INF-SCOTT-MC",
+  "id": "3916586a-3fd0-522c-b861-3bbe1a685a7d",
+  "label": "Modal collapse: at every world, whatever proposition is true there is…, by Universal-instantiation",
+  "legacy_id": "INF-SCOTT-MC",
   "input_statement_ids": [
-    "STMT-SCOTT-GOD-LIKE-ACTUALLY-EXISTS",
-    "STMT-SCOTT-GOD-LIKE-IS-ESSENCE",
-    "STMT-SCOTT-GOD-LIKE-NECESSARILY-EXISTS"
+    "a6232540-0d24-5ffb-86ae-32134169d6e3",
+    "5eee7ede-db6b-58de-a249-29ba04a17827",
+    "93824f63-3964-50ec-a029-057102888f72"
   ],
-  "output_statement_id": "STMT-SCOTT-MODAL-COLLAPSE",
+  "output_statement_id": "f8207978-1cbb-51fd-921f-b283c1dbf9a2",
   "rule": "universal-instantiation",
   "meaning": "Let φ hold at w and v be accessible from w. A God-like x exists at w (C2). Being God-like is an essence of x at w (T2), and x has at w the property λ_. φ, so at v every God-like being has it, that is, φ holds at v if a God-like being exists at v; one does (T3). Uses the embedding's full comprehension: λ_. φ is a property.",
   "assumption_statement_ids": [],

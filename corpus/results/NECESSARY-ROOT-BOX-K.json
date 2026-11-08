@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-ROOT-BOX-K",
-  "argument_id": "NECESSARY-ROOT-BOX-K",
+  "id": "3ed5755c-d67b-592c-9aa7-71ff101b7e52",
+  "label": "Necessary-being node, possibilist K…, from Some candidate is CONCRETE_6 and exists at… and 24 more",
+  "legacy_id": "NECESSARY-ROOT-BOX-K",
+  "argument_id": "a693bf86-3ce1-588a-ac0b-9e944ebd3b09",
   "challenge_module": "TruthCore.Results.Causality.NecessarySenseFork.Challenge",
   "solution_module": "TruthCore.Results.Causality.NecessarySenseFork.Solution",
   "theorem": "TruthCore.Results.Causality.NecessarySenseFork.rootBoxK",

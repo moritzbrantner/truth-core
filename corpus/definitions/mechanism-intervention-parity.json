@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MECHANISM-INTERVENTION-PARITY",
+  "id": "0716f13e-ad25-5d22-be1a-c7a0cc486071",
+  "label": "Surgically set public contributors…: Setting contains optional Boolean surgical overrides of two…",
+  "legacy_id": "DEF-MECHANISM-INTERVENTION-PARITY",
   "term": "surgically set public contributors versus hidden-state packaging",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Explanation.MechanismInterventionParity.RespondsToEitherInput",

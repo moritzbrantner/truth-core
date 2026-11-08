@@ -1,6 +1,8 @@
 {
-  "id": "CONTINGENT-ANCESTRY-FOUNDATION-STRICTNESS",
-  "argument_id": "CONTINGENT-ANCESTRY-FOUNDATION-STRICTNESS",
+  "id": "a9769c12-8d0b-597e-842c-ad47ae43b5dc",
+  "label": "One fixed two-world interpretation has an actual contingent selected target, local contingent…",
+  "legacy_id": "CONTINGENT-ANCESTRY-FOUNDATION-STRICTNESS",
+  "argument_id": "e4914083-acd3-5191-82f5-307e284d9974",
   "challenge_module": "TruthCore.Results.Causality.ContingentAncestry.Challenge",
   "solution_module": "TruthCore.Results.Causality.ContingentAncestry.Solution",
   "theorem": "TruthCore.Results.Causality.ContingentAncestry.strictness",

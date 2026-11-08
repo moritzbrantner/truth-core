@@ -1,10 +1,12 @@
 {
-  "id": "DEF-AD1-COLLECTIVE-ACTUAL-GOOD",
+  "id": "645124d7-3d3a-558d-a9d5-ab6a915ede18",
+  "label": "Bringing actual good from evils…: DrawsGoodFromEvils g evils y p means g actually brings the good…",
+  "legacy_id": "DEF-AD1-COLLECTIVE-ACTUAL-GOOD",
   "term": "bringing actual good from evils collectively",
   "definition": "DrawsGoodFromEvils g evils y p means g actually brings the good of perfection p in bearer y from the evils picked out by evils considered together. GoodIn y p records that actual good. The relation supplies no attribution to each member of the collection and no comparison of quantities of good and evil.",
   "basis": "stipulative",
   "claim_ids": [
-    "AQUINAS-ST-I-Q2-A3-AD1-COLLECTIVE-ACTUAL-GOOD"
+    "ddbef42a-bdcf-5c53-b911-65f52e547826"
   ],
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GodDrawsGoodFromPermittedEvilsCollectivelyReading",
   "note": "Parameter semantics for explicit scope comparison, motivated by the pinned ad 1 wording. A source argument fixing the relation extension or connecting the collective and distributive relations would be needed to go beyond this interpretation; no such bridge is supplied here. The linked Lean declaration is the conditional production schema that takes DrawsGoodFromEvils and GoodIn as independent parameters, not a definition of either relation. It requires a God, permission and a nonempty evil collection before its existential consequent; this locator does not assert any actual permission or good outcome."

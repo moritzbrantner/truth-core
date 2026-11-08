@@ -1,16 +1,18 @@
 {
-  "id": "ARIST-MET-1009A-CONFLICTING-OPINIONS-A",
-  "statement_id": "STMT-PILOT-CONFLICTING-OPINIONS",
-  "source_id": "ARIST-MET",
+  "id": "be56ae94-2be8-5dc6-8de5-6b220afc526c",
+  "label": "Aristotle, Metaphysics IV.5, 1009a9-12: There are opinions of a content and its expressed…",
+  "legacy_id": "ARIST-MET-1009A-CONFLICTING-OPINIONS-A",
+  "statement_id": "423141d2-26f3-5284-8fd8-11024d3d72fd",
+  "source_id": "a8acbf0a-30ba-5e04-b261-cb62a89cbddb",
   "locator": "IV.5, 1009a9-12",
   "interpretation": "The parenthesis says many people opine opposites to one another; its conclusion speaks of the same thing being and not being. The pilot selects the contradictory-content reading, represented by an expressed-negation operation. This is not yet a logical contradiction: the stronger interpretation that truth of the expressed negation negates truth of the content is a separate unattributed open premise.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-PILOT-OPINION-NEGATION"
+    "46f9ded9-24d0-50c7-99a2-bed6cfa29986"
   ],
   "disambiguation_ids": [
-    "DISAMB-PILOT-RELATIVITY",
-    "DISAMB-TRUE",
-    "DISAMB-PILOT-OPPOSITION"
+    "baab4b98-29b9-5275-9819-6dab48f39ab8",
+    "80b5fc49-ed55-5c61-b14b-3621d2aa1520",
+    "54ba7f93-e24b-5d98-bb0e-d6e812c7853d"
   ]
 }

@@ -1,6 +1,8 @@
 {
-  "id": "PSR-WELL-FOUNDED-CAUSE-HAS-EXPLAINED-SOURCE",
-  "argument_id": "PSR-WELL-FOUNDED-CAUSE-HAS-EXPLAINED-SOURCE",
+  "id": "92cd4ef4-9c6b-5888-9263-14984cef0280",
+  "label": "Some actual existent has a stipulated…, from At least one individual actually exists at… and 2… (2)",
+  "legacy_id": "PSR-WELL-FOUNDED-CAUSE-HAS-EXPLAINED-SOURCE",
+  "argument_id": "9c002580-719e-5f38-8fc2-9a147b4fa065",
   "challenge_module": "TruthCore.Results.Explanation.WellFoundedSource.Challenge",
   "solution_module": "TruthCore.Results.Explanation.WellFoundedSource.Solution",
   "theorem": "TruthCore.Results.Explanation.WellFoundedSource.checks",

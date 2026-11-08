@@ -1,9 +1,11 @@
 {
-  "id": "REL-Q14-A1-IMMATERIALITY-SUPPORTS-INTELLECT-FOLLOWS-GRADE",
+  "id": "6bd5986a-a834-5967-9b1b-9c5b466cc5db",
+  "label": "Thomas Aquinas, Summa theologiae I q.14… supports OPEN analyst reading of 'the mode of…",
+  "legacy_id": "REL-Q14-A1-IMMATERIALITY-SUPPORTS-INTELLECT-FOLLOWS-GRADE",
   "subject_kind": "claim",
-  "subject_id": "AQUINAS-ST-I-Q14-A1-IMMATERIALITY-REASON-OF-KNOWLEDGE",
+  "subject_id": "5bfe3093-c298-57bd-9550-a0e2ffe5e961",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-INTELLECT-FOLLOWS-GRADE-OF-IMMATERIALITY",
+  "object_id": "0bdb0436-34ad-5409-9bdf-20cd4bcc4fb8",
   "note": "Q.14 a.1 co. says the mode of knowledge follows the mode of immateriality and that intellect is more separated from matter than sense. The premise reads this as upward closure of the primitive intellect power along an unordered grade relation; the text speaks of degrees of cognition, not of closure of a fixed power, and does not address abstract objects."
 }

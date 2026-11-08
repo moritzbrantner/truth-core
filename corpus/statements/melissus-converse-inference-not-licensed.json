@@ -1,5 +1,7 @@
 {
-  "id": "STMT-MELISSUS-CONVERSE-INFERENCE-NOT-LICENSED",
+  "id": "7c34aa11-21f3-5703-9ed4-0d0977e4c772",
+  "label": "The premise that whatever has come to be has a beginning does not license Melissus's…",
+  "legacy_id": "STMT-MELISSUS-CONVERSE-INFERENCE-NOT-LICENSED",
   "paraphrase": "The premise that whatever has come to be has a beginning does not license Melissus's converse-style inference that what has not come to be has no beginning.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.MelissusConverseInferenceNotLicensedReading"
 }

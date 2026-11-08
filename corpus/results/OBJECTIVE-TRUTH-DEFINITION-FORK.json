@@ -1,6 +1,8 @@
 {
-  "id": "OBJECTIVE-TRUTH-DEFINITION-FORK",
-  "argument_id": "OBJECTIVE-TRUTH-DEFINITION-FORK",
+  "id": "7cd27d15-79aa-5a39-bcd2-48115f91f44a",
+  "label": "For every supplied frame, actual-stable calibration…, from Excluded middle as a general principle…",
+  "legacy_id": "OBJECTIVE-TRUTH-DEFINITION-FORK",
+  "argument_id": "3adb1eff-7827-554f-b33e-7837a0eea329",
   "challenge_module": "TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.Coverage.Challenge",
   "solution_module": "TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.Coverage.Solution",
   "theorem": "TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.Coverage.definitionFork",
@@ -9,29 +11,29 @@
   "description": "Logical coverage transcription: decide each of the three calibrated account propositions under explicit excluded middle; if none holds, retain their conjunction of negations as the remaining account. This establishes structural coverage with a remainder, not named exhaustion.",
   "transcription": "instantiation",
   "case_split": {
-    "target_statement_id": "STMT-OBJECTIVE-TRUTH-ACTUAL-STABLE-DEFINITION",
+    "target_statement_id": "326adc2f-b56d-58af-802e-9bf3a6f46c61",
     "cases": [
       {
         "label": "actual truth plus profile stability",
         "lean_declaration": "TruthCore.Logic.ObjectiveTruthDefinitionFork.ActualStableDefinition",
-        "statement_id": "STMT-OBJECTIVE-TRUTH-ACTUAL-STABLE-DEFINITION"
+        "statement_id": "326adc2f-b56d-58af-802e-9bf3a6f46c61"
       },
       {
         "label": "stability alone",
         "lean_declaration": "TruthCore.Logic.ObjectiveTruthDefinitionFork.InvariantOnlyDefinition",
-        "statement_id": "STMT-OBJECTIVE-TRUTH-INVARIANCE-ONLY-DEFINITION"
+        "statement_id": "767bffe0-cc1f-5bbe-8da7-be2dada2aa4a"
       },
       {
         "label": "actual truth alone",
         "lean_declaration": "TruthCore.Logic.ObjectiveTruthDefinitionFork.ActualTruthOnlyDefinition",
-        "statement_id": "STMT-OBJECTIVE-TRUTH-ACTUAL-TRUTH-ONLY-DEFINITION"
+        "statement_id": "468e6755-22ce-54f7-8e1b-16f14b0d905b"
       },
       {
         "label": "additional extension",
         "lean_declaration": "TruthCore.Logic.ObjectiveTruthDefinitionFork.RemainingDefinition",
-        "statement_id": "STMT-OBJECTIVE-TRUTH-ADDITIONAL-DEFINITION"
+        "statement_id": "7f83d264-31da-5749-a87f-00546e92fade"
       }
     ],
-    "survival_result_id": "OBJECTIVE-TRUTH-DEFINITION-CONTROLS"
+    "survival_result_id": "b0ae9897-6c8e-57de-8b92-d852600f9cf8"
   }
 }

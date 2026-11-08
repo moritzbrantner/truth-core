@@ -1,11 +1,13 @@
 {
-  "id": "INF-ARIST-PHYS-VIII-5-REGRESS-FROM-PER-SE-REGRESS",
+  "id": "3093f5a2-c428-5f72-8c4f-c78ff102802c",
+  "label": "Additional commitment, not attributed to Aristotle: every being is…, by Well-founded-induction",
+  "legacy_id": "INF-ARIST-PHYS-VIII-5-REGRESS-FROM-PER-SE-REGRESS",
   "input_statement_ids": [
-    "STMT-MOVING-IS-IN-THE-MOVED",
-    "STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED",
-    "STMT-NO-INFINITE-PER-SE-MOVER-SERIES"
+    "fe09fcd0-c767-5218-9d97-9a170f91a64f",
+    "1e47e6db-da06-5a40-9ccf-fbd1f929c596",
+    "226c38f6-7bf4-552a-9a85-733cfa41d0fa"
   ],
-  "output_statement_id": "STMT-NO-INFINITE-SERIES-OF-MOVERS-MOVED-BY-ANOTHER",
+  "output_statement_id": "0ac8f77a-e047-56ee-a4fe-267aa56c16d0",
   "rule": "well-founded-induction",
   "meaning": "A link of VIII.5's series is a mover other than the moved thing that some other thing moves; by Physics III.3 it is then being moved, so by the second-movers premise it is a per se link. Accessibility under the per se links transfers to VIII.5's links. This transfers accessibility as an additional commitment; it does not identify accessibility with the weaker source-level prohibition of infinitely many distinct movers.",
   "assumption_statement_ids": [],

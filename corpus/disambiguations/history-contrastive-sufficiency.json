@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-HISTORY-CONTRASTIVE-SUFFICIENCY",
+  "id": "6bd7d340-ccaa-5585-9d6f-a9e5cb4e1c34",
+  "label": "Local coverage, contrastive discrimination, obtaining, and discovery",
+  "legacy_id": "DISAMB-HISTORY-CONTRASTIVE-SUFFICIENCY",
   "term": "local coverage, contrastive discrimination, obtaining, and discovery",
   "sense_definition_ids": [
-    "DEF-HISTORY-CONTRASTIVE-CONTROL",
-    "DEF-TEMPORAL-HISTORY-NOW-SLICE"
+    "22a86afc-adaa-5755-b644-da49d4d6dee1",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e"
   ],
   "resolution": "LocallyExplained and ExplanationSound use existing world-local token semantics. Discriminates adds a cross-world entailment test for complete supplied presence extensions; neither causal coverage nor a necessary token supplies it. The internal candidate passes that test because its contingent bearer occurs only in the selected history; why this bearer obtains remains open, as does adequacy beyond entailment. The empty discovery predicate models absence of discovered reasons while a reason still exists. No-existing-reason is not inferred. Bool worlds are modal indices, Nat times and predecessor indices are separate; no external explanatory bearer, totality formation, PSR or necessitation principle is assumed."
 }

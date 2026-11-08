@@ -1,6 +1,8 @@
 {
-  "id": "COGITO-SUBJECT-FROM-OCCURRENCE",
-  "argument_id": "COGITO-SUBJECT-FROM-OCCURRENCE",
+  "id": "d2cb9100-2980-5e83-a278-294346f7fb93",
+  "label": "Some subject bears some occurring thought episode, from occurrence",
+  "legacy_id": "COGITO-SUBJECT-FROM-OCCURRENCE",
+  "argument_id": "3b3664d6-613c-57eb-b149-5b74389f8e48",
   "challenge_module": "TruthCore.Results.Logic.CogitoSubject.Challenge",
   "solution_module": "TruthCore.Results.Logic.CogitoSubject.Solution",
   "theorem": "TruthCore.Results.Logic.CogitoSubject.thinkingSubjectOfThought",

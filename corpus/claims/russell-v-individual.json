@@ -1,17 +1,19 @@
 {
-  "id": "RUSSELL-ATOMISM-V-INDIVIDUAL-RESTRICTION",
-  "statement_id": "STMT-RUSSELL-INDIVIDUAL-RESTRICTION",
-  "source_id": "RUSSELL-LOGICAL-ATOMISM",
+  "id": "fbc90e34-7cf4-570c-868e-7855e101346a",
+  "label": "Bertrand Russell, The Philosophy of Logical…: Russell rejects applying the same existence notion…",
+  "legacy_id": "RUSSELL-ATOMISM-V-INDIVIDUAL-RESTRICTION",
+  "statement_id": "550cc92a-452d-5696-8275-c26db8cebc0f",
+  "source_id": "252edd45-e81b-592a-83aa-4e52c5f0cd1f",
   "locator": "V.77",
   "interpretation": "Russell rejects applying the same existence notion as a meaningful predicate of an actually named individual. Bounded reading of the materialized original English lectures. The modern countermodels and explanatory-sufficiency bridge are distinct from this attributed claim.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-RUSSELL-GENUINE-NAME",
-    "DEF-RUSSELL-QUANTIFIER-EXISTENCE"
+    "ade44ac7-1482-56ae-ab9d-a6dd719afced",
+    "5873c837-35ba-5ca2-91a8-07808c67e461"
   ],
   "disambiguation_ids": [
-    "DISAMB-RUSSELL-EXISTENCE",
-    "DISAMB-RUSSELL-EXPLANATION",
-    "DISAMB-RUSSELL-NAMES"
+    "031a741a-57b4-5a20-b9f3-170876e69a02",
+    "a43c7122-d309-5b54-8922-6d459df33f21",
+    "055037e0-ff57-5cee-ac76-6e3e5318f689"
   ]
 }

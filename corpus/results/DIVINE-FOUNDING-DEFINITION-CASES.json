@@ -1,6 +1,8 @@
 {
-  "id": "DIVINE-FOUNDING-DEFINITION-CASES",
-  "argument_id": "DIVINE-FOUNDING-DEFINITION-CASES",
+  "id": "709f01c1-6f09-57ba-afc0-61a91a502411",
+  "label": "For the fixed semantic profile, the direct-only…, from Excluded middle as a general principle…",
+  "legacy_id": "DIVINE-FOUNDING-DEFINITION-CASES",
+  "argument_id": "3348801e-edf4-5969-9a1b-91341b9ea39b",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Coverage.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Coverage.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Coverage.readingCoverage",
@@ -9,24 +11,24 @@
   "description": "Logical case coverage with a precise remainder follows by two instances of excluded middle. It neither eliminates a case nor proves named-only coverage.",
   "transcription": "instantiation",
   "case_split": {
-    "target_statement_id": "STMT-DIVINE-FOUNDING-IS-ENVOY-INCLUSIVE",
+    "target_statement_id": "5e683514-cb24-5115-9dbf-9f09f5a475d5",
     "cases": [
       {
         "label": "direct-only calibration",
         "lean_declaration": "TruthCore.Case.Catholicism.StageThree.FoundingDefinitions.ImmediateOnlyReading",
-        "statement_id": "STMT-DIVINE-FOUNDING-IS-IMMEDIATE-ONLY"
+        "statement_id": "fc6eabd0-78f3-5a52-8041-73101a0e1dd5"
       },
       {
         "label": "Jesus-envoy-inclusive calibration",
         "lean_declaration": "TruthCore.Case.Catholicism.StageThree.FoundingDefinitions.EnvoyInclusiveReading",
-        "statement_id": "STMT-DIVINE-FOUNDING-IS-ENVOY-INCLUSIVE"
+        "statement_id": "5e683514-cb24-5115-9dbf-9f09f5a475d5"
       },
       {
         "label": "neither named extension",
         "lean_declaration": "TruthCore.Case.Catholicism.StageThree.FoundingDefinitions.AdditionalFoundingReading",
-        "statement_id": "STMT-DIVINE-FOUNDING-HAS-ADDITIONAL-READING"
+        "statement_id": "82a56c80-ea9f-5263-a2b9-00fcdc26172d"
       }
     ],
-    "survival_result_id": "DIVINE-FOUNDING-DEFINITION-MODELS"
+    "survival_result_id": "d99d1b3d-54d1-52cd-9e09-77f7a6de2dec"
   }
 }

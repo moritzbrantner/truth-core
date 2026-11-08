@@ -1,6 +1,8 @@
 {
-  "id": "GLOBAL-TEMPORAL-SHIFT-STRENGTHENS-LOCAL",
-  "argument_id": "GLOBAL-TEMPORAL-SHIFT-STRENGTHENS-LOCAL",
+  "id": "f337cebd-9bb0-5041-8f8b-017b7e644d5b",
+  "label": "Restricted OPEN shift for ONE supplied presence…, from The naive temporal quantifier shift as a…",
+  "legacy_id": "GLOBAL-TEMPORAL-SHIFT-STRENGTHENS-LOCAL",
+  "argument_id": "7dc6ae91-cbbe-5129-b920-e4fa0c7137e1",
   "challenge_module": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.GlobalStrength.Challenge",
   "solution_module": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.GlobalStrength.Solution",
   "theorem": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.GlobalStrength.globalStrength",

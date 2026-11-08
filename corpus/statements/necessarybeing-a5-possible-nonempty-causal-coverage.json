@@ -1,12 +1,14 @@
 {
-  "id": "STMT-NB-A5-POSSIBLE-NONEMPTY-CAUSAL-COVERAGE",
+  "id": "5a8eef8d-7cb2-581e-9bc5-a871762ac50a",
+  "label": "From the reported negation of the necessary conditional, the source infers a possible W where that…",
+  "legacy_id": "STMT-NB-A5-POSSIBLE-NONEMPTY-CAUSAL-COVERAGE",
   "paraphrase": "From the reported negation of the necessary conditional, the source infers a possible W where that conditional is false and obtaining contingent situations are individually possibly caused. Under the ordinary classical falsity-of-conditional reading, W also has at least one obtaining contingent situation; step6 does not literally repeat that nonempty guard. The quantification is over obtaining situations, not a guaranteed contingent individual, actual causes in W, or joint causal realization in one history.",
   "definition_ids": [
-    "DEF-NB-A5-OBTAINING-CONTINGENT-SITUATION",
-    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+    "63e5d484-43d5-540b-a1b7-e8e8a5010bb6",
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A5-SITUATION-HISTORY-CAUSAL-SCOPE",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "54e516bf-f2e6-5b50-84fc-f74b34198bce",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

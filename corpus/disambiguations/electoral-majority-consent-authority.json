@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-ELECTORAL-MAJORITY-CONSENT-AUTHORITY",
+  "id": "192868a0-e0ff-519c-ac55-00f632d4b896",
+  "label": "Majority victory, individual consent, and political authority",
+  "legacy_id": "DISAMB-ELECTORAL-MAJORITY-CONSENT-AUTHORITY",
   "term": "majority victory, individual consent, and political authority",
   "sense_definition_ids": [
-    "DEF-POLITICAL-DISTRICT-MAJORITY",
-    "DEF-POLITICAL-POPULAR-MAJORITY"
+    "2fd6cc47-bd33-51c4-b1f1-bdb5a0127fa5",
+    "61ee33e3-4905-5155-818c-732cf288d44d"
   ],
   "resolution": "popularWin counts individual A ballots; districtWin counts district majorities. Neither is an individual act of consenting, a moral duty to obey, political legitimacy, or church authority. Regrouping means changing ballot grouping while preserving total A/B counts, not a certified legal redistricting preserving geographical or individual constraints. The source caption challenge about real choice is broader than this diagnostic: majority reversal does not establish absence of choice, and its absence does not establish meaningful competition. Consent theory still needs actual voluntary authorization; natural-duty theories may justify obligations independently of authorization; philosophical anarchists may deny a general duty while permitting particular duties. These rivals are neither proved nor refuted by the electoral count."
 }

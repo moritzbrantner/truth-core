@@ -1,6 +1,8 @@
 {
-  "id": "PROPER-GOD-EXISTENCE-REJECTS-PRACTICE-NO-REFERENCE",
-  "argument_id": "PROPER-GOD-EXISTENCE-REJECTS-PRACTICE-NO-REFERENCE",
+  "id": "f948eafd-b06d-5c8c-b79a-b296169740ca",
+  "label": "The practice-use no-being thesis does not…, from For each being satisfying the selected… and 1 more",
+  "legacy_id": "PROPER-GOD-EXISTENCE-REJECTS-PRACTICE-NO-REFERENCE",
+  "argument_id": "4b128de0-bfd3-57b1-b077-6b5da1f8a480",
   "challenge_module": "TruthCore.Results.Alternatives.NameApplicationTransfer.Conflict.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.NameApplicationTransfer.Conflict.Solution",
   "theorem": "TruthCore.Results.Alternatives.NameApplicationTransfer.Conflict.properExistenceRejectsNoBeing",

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-JOINT-MIXED-MODAL-CERTIFICATE",
+  "id": "58bb633b-16c7-583a-abb0-b7a5c4064a06",
+  "label": "Necessary member and contingent joint…: Reuse exactly PSRStrength.ground false",
+  "legacy_id": "DEF-JOINT-MIXED-MODAL-CERTIFICATE",
   "term": "necessary member and contingent joint condition in the existing ground model",
   "definition": "Reuse exactly PSRStrength.ground false. The ground fact holds at every world, choice is contingent at false, their fixed two-member joint condition is contingent at false, and the original ontic domain still contains an actual necessary ground individual. No old truth, cause or reason relation is changed; this is a formal consistency witness, not proof of metaphysical adequacy.",
   "basis": "stipulative",

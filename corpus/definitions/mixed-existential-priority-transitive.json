@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MIXED-EXISTENTIAL-PRIORITY-TRANSITIVE",
+  "id": "7d75b813-a6d4-5fea-951b-fec95eaf4fd7",
+  "label": "Transitivity on the mixed…: SimplePriorityTransitiveReading applied to the same Prior on Sum B E.…",
+  "legacy_id": "DEF-MIXED-EXISTENTIAL-PRIORITY-TRANSITIVE",
   "term": "transitivity on the mixed existence-token/act domain",
   "definition": "SimplePriorityTransitiveReading applied to the same Prior on Sum B E. This OPEN condition permits composition of bearer-to-act and act-to-product priority; transitivity of another relation or irreflexivity alone does not supply it.",
   "basis": "stipulative",

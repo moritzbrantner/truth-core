@@ -1,7 +1,9 @@
 {
-  "id": "INF-CAUSAL-PERFECTION-TRANSFER-EQUIVALENCE",
+  "id": "605a13a2-ca97-5842-98f7-2150159e042b",
+  "label": "For any shared Being/Respect vocabulary, under explicitly supplied…, by Typed scope comparison",
+  "legacy_id": "INF-CAUSAL-PERFECTION-TRANSFER-EQUIVALENCE",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-PERFECTION-TRANSFER-EXACT-DELTA",
+  "output_statement_id": "aaa6b60f-9478-5436-a01b-143fd931d910",
   "rule": "typed_scope_comparison",
   "meaning": "Compose the implication, residual projection and reconstruction into the exact scope decomposition under explicitly quantified decision parameters.",
   "assumption_statement_ids": [],

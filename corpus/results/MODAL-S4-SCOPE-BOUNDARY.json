@@ -1,6 +1,8 @@
 {
-  "id": "MODAL-S4-SCOPE-BOUNDARY",
-  "argument_id": "MODAL-S4-SCOPE-BOUNDARY",
+  "id": "856628fa-fae0-50bf-adbf-0663a5ae5376",
+  "label": "In the paired S4 configuration, right and twin form a distinct terminal pair that is collapsed in…",
+  "legacy_id": "MODAL-S4-SCOPE-BOUNDARY",
+  "argument_id": "5ffbc76a-131b-5b72-83d8-b6dbe4793704",
   "challenge_module": "TruthCore.Results.Modal.S4.ScopeBoundary.Challenge",
   "solution_module": "TruthCore.Results.Modal.S4.ScopeBoundary.Solution",
   "theorem": "TruthCore.Results.Modal.S4.ScopeBoundary.checks",

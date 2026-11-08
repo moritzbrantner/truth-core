@@ -1,14 +1,16 @@
 {
-  "id": "ATTEMPT-PHYSICS-VIII1-CAPACITY",
+  "id": "65bc2b91-df86-558c-9651-84487952e2f5",
+  "label": "Read the complete materialized arist phys viii 1 Greek witness",
+  "legacy_id": "ATTEMPT-PHYSICS-VIII1-CAPACITY",
   "date": "2026-10-26",
   "statement_ids": [
-    "STMT-PHYSICAL-MOTION-REQUIRES-CAPACITY",
-    "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY"
+    "a12e77b7-8e9b-5c34-a0ac-61108f0ad15b",
+    "4be9a4ac-699a-5adc-88d4-bbd958fa1576"
   ],
   "kind": "reading",
   "outcome": "succeeded",
   "summary": "Read the complete materialized ARIST-PHYS-VIII-1 Greek witness (250b11-252b6). At 251a8-16 Aristotle requires a subject capable of each particular motion. Recorded the capacity requirement over existing beings/respects predicates with a physical-respect guard. Rejected identifying it with the broader prima-via premise: that would extend physical motion to all reduction from potency to act. Also rejected extracting temporal priority from the timeless type; the combustible/burner priority at 251a15-16 and subsequent everlasting-motion arguments remain in the same candidate. The opening question is context. The substantive Anaxagoras/Empedocles survey is outside this proposition and remains explicitly unprocessed in the same candidate; no claim of independent proof, premise discharge or chapter completion.",
   "evidence": [
-    "ARIST-PHYS-251A-MOTION-REQUIRES-CAPACITY-A"
+    "a7d06714-fe33-54ba-a007-1c86ae60dbaf"
   ]
 }

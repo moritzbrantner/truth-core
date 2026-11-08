@@ -1,5 +1,7 @@
 {
-  "id": "DEF-GROUND-EXISTENCE-FACT-ARENA",
+  "id": "c22c060d-2826-576c-9fc6-4da6bc45e217",
+  "label": "Tagged existence-fact representation…: Use the existing ExistenceFact.fact constructor for…",
+  "legacy_id": "DEF-GROUND-EXISTENCE-FACT-ARENA",
   "term": "tagged existence-fact representation of actual concrete grounds",
   "definition": "Use the existing ExistenceFact.fact constructor for positive existence facts only. Truth of fact x at v is definitionally the same candidate x existing at v, and the arena reuses the original Ontic and accessibility. An admitted reason edge from fact source to fact target consists of an actual concrete target and an ActualConcreteGround from source to target at that world. coneFacts selects exactly the positive existence facts of the complete actual-concrete ancestry cone. No arbitrary necessary fact is thereby realized by a concrete individual; no claim that all philosophical explanations are these ground edges.",
   "basis": "stipulative",

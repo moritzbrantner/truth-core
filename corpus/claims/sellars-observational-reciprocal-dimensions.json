@@ -1,15 +1,17 @@
 {
-  "id": "SELLARS-EPM-38-DIMENSIONS",
-  "statement_id": "STMT-SELLARS-OBSERVATIONAL-RECIPROCAL-DIMENSIONS",
-  "source_id": "SELLARS-EMPIRICISM-MIND",
+  "id": "aa4a0150-367d-5689-9fb1-1a4a3cd2bf33",
+  "label": "Wilfrid Sellars, Empiricism and the…: Sellars retains observation reports’ distinctive supporting…",
+  "legacy_id": "SELLARS-EPM-38-DIMENSIONS",
+  "statement_id": "63213af1-60fe-594e-b767-1268afb77dd5",
+  "source_id": "4ca270ba-8c26-5a84-a66f-c39efe48f1f4",
   "locator": "VIII §38, concluding paragraphs",
   "interpretation": "He explicitly refuses to treat empirical knowledge as rumor or hoax and retains an asymmetry between observation reports and other propositions. His reciprocal-dependence proposal concerns different logical dimensions; it is not an endorsement of deriving a proposition from itself along one inferential relation, nor a mere consistency theory.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-SELLARS-NONINFERENTIAL-OBSERVATION",
-    "DEF-SELLARS-RECIPROCAL-DEPENDENCE"
+    "b8f8eae6-d880-5062-9d84-1ce841d484a9",
+    "cd6c9f3b-a12d-58cd-88a1-8f0c82dd7df5"
   ],
   "disambiguation_ids": [
-    "DISAMB-SELLARS-FOUNDATION-RELIABILITY-AND-RECIPROCITY"
+    "46f172ac-9758-5e8a-a771-8faa87cddfa7"
   ]
 }

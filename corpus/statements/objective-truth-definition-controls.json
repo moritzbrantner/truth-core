@@ -1,16 +1,18 @@
 {
-  "id": "STMT-OBJECTIVE-TRUTH-DEFINITION-CONTROLS",
+  "id": "ccea0d68-5dbd-5120-acd6-83222ab4a0b4",
+  "label": "Finite operational controls certify: actual-stable implies the truth component while both…",
+  "legacy_id": "STMT-OBJECTIVE-TRUTH-DEFINITION-CONTROLS",
   "paraphrase": "Finite operational controls certify: actual-stable implies the truth component while both alternative calibrations fail; invariance-only can classify a stable false sentence as objective; plain actual truth can classify a variable sentence as objective; a true-variable singleton classifier lies outside all three accounts; all three calibrations can overlap in a nontrivial profile. These are stipulated semantic controls, not empirical or philosophical adequacy claims.",
   "lean_declaration": "TruthCore.Logic.ObjectiveTruthDefinitionFork.Controls",
   "definition_ids": [
-    "DEF-OBJECTIVE-TRUTH-PROFILE-FRAME",
-    "DEF-OBJECTIVE-TRUTH-ACTUAL-STABLE",
-    "DEF-OBJECTIVE-TRUTH-INVARIANCE-ONLY",
-    "DEF-OBJECTIVE-TRUTH-ACTUAL-ONLY",
-    "DEF-OBJECTIVE-TRUTH-TRUTH-COMPONENT",
-    "DEF-OBJECTIVE-TRUTH-NAMED-COVERAGE"
+    "4f377045-355c-500f-b159-1f8e9e9fa863",
+    "ed7fb11b-9ba7-5776-8747-4d3d33fc7e43",
+    "643229b3-f945-5a62-9b99-c854b1fba227",
+    "cb221b7e-8e60-51a1-8338-61dfe424f262",
+    "a5a6d4bc-1846-551b-a997-0484e70fe2cb",
+    "25fbb226-1079-5cec-aec3-72a560dfaa93"
   ],
   "disambiguation_ids": [
-    "DISAMB-OBJECTIVE-TRUTH-CALIBRATIONS"
+    "146a73fd-5eb2-586e-982f-8ee57ea0e329"
   ]
 }

@@ -1,11 +1,13 @@
 {
-  "id": "DISAMB-V4-PROPOSAL-MEANING-AND-TRUTH",
+  "id": "80e698b9-9e6d-5d51-a61d-fdb950d2edc5",
+  "label": "Relative expressive membership, pragmatic adoption and ambient truth",
+  "legacy_id": "DISAMB-V4-PROPOSAL-MEANING-AND-TRUTH",
   "term": "relative expressive membership, pragmatic adoption and ambient truth",
   "sense_definition_ids": [
-    "DEF-V4-PROPOSAL-SUBLANGUAGE",
-    "DEF-V4-PRAGMATIC-ADEQUACY",
-    "DEF-V4-PARTIAL-EVALUATION",
-    "DEF-TRUTH-CONDITIONAL-LANGUAGE"
+    "a9452161-1b6c-5641-aced-9ab7c22edcf7",
+    "4cb7c987-5840-59ef-9159-03f646afb1bd",
+    "a2ece9ed-cf5b-5bda-abed-3dac1b3e9857",
+    "cb0b59e9-7a00-5d8c-ba11-802974a42992"
   ],
   "resolution": "Relative expressive membership is not pre-theoretic cognitive meaning, Ayer’s V1/V2/V3 verification criterion, or ambient truth. Object-language exclusion returns no evaluation in that language; a richer comparison metalanguage can vary the excluded content’s truth without attributing its meaningfulness to the object language. Adoption minimizes explicit channel cost subject to task adequacy; it is not an assertion that the criterion is universally correct, nor a proof of categorical obligation. The hidden content is an abstract coordinate, not an encoded theological thesis."
 }

@@ -1,17 +1,19 @@
 {
-  "id": "RAILTON-DESCRIPTIVE-TRUTH",
-  "statement_id": "STMT-EVALUATIVE-ASCRIPTIONS-DESCRIBE-FACTS",
-  "source_id": "RAILTON-MORAL-REALISM",
+  "id": "414f63e0-7db7-5703-bdad-dd6f3795139c",
+  "label": "Peter Railton, Moral Realism Pp. 165, §I: An ascription of the evaluative property to an act is…",
+  "legacy_id": "RAILTON-DESCRIPTIVE-TRUTH",
+  "statement_id": "e0ebb8a8-e8ae-59c1-80e4-bcbb97a9c291",
+  "source_id": "9c27f7ff-a42c-52d1-b925-55318c284fe8",
   "locator": "pp. 165, §I: non-epistemic truth",
   "interpretation": "Formalized only for an atomic ascription of a property the theory treats as real. It describes a fact rather than expressing approval alone. This minimal descriptive reading does not establish the proponent’s naturalistic identification or a full theory of linguistic meaning.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-MORAL-STATEMENT",
-    "DEF-TRUTH-VALUE",
-    "DEF-NATURALIST-DESCRIPTIVE-TRUTH",
-    "DEF-RAILTON-IMPARTIAL-RIGHTNESS"
+    "32a2df81-c1f1-5013-b87d-97a934b46036",
+    "b83ce6c8-65a0-5006-a68c-250addcf1eac",
+    "10983e88-0b94-536b-9c23-bbfb832b70a0",
+    "d32ee06f-a6d3-5912-a689-fc3da94c1c8c"
   ],
   "disambiguation_ids": [
-    "DISAMB-NATURALISTIC-EVALUATIVE-ROLES"
+    "685dae72-5d39-5905-955e-c2cd404d6932"
   ]
 }

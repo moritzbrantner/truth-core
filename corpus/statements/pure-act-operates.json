@@ -1,11 +1,13 @@
 {
-  "id": "STMT-PURE-ACT-OPERATES",
+  "id": "45030701-91da-588f-b602-dca6c15e761a",
+  "label": "Whatever is in potency in no respect operates from itself. q.18 a.3 ad 2 says of God that he is…",
+  "legacy_id": "STMT-PURE-ACT-OPERATES",
   "paraphrase": "OPEN bridge: whatever is in potency in no respect operates from itself (has an immanent operation, actio quae manet in agente, q.18 a.3 ad 1). q.18 a.3 ad 2 says of God that he is his own understanding and his own living; the bridge generalizes this to every pure act.",
   "lean_declaration": "TruthCore.Causality.SelfOperationLife.PureActOperates",
   "definition_ids": [
-    "DEF-PURE-ACT"
+    "a49e4cf1-ca4f-5519-9724-892af257cedb"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
   ]
 }

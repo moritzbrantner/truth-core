@@ -1,6 +1,8 @@
 {
-  "id": "INDEXED-SIGNAL-PROVENANCE-CONTROLS",
-  "argument_id": "INDEXED-SIGNAL-PROVENANCE-CONTROLS",
+  "id": "d117e257-4e9d-5c3a-bd88-de5bc4576cc0",
+  "label": "On the same Nat station/code carrier, local conservation without index admissibility permits an…",
+  "legacy_id": "INDEXED-SIGNAL-PROVENANCE-CONTROLS",
+  "argument_id": "e81a3dbf-b8cb-5eff-aa98-ed76549fcd5b",
   "challenge_module": "TruthCore.Results.Causality.IndexedSignalProvenance.Challenge",
   "solution_module": "TruthCore.Results.Causality.IndexedSignalProvenance.Solution",
   "theorem": "TruthCore.Results.Causality.IndexedSignalProvenance.controls",

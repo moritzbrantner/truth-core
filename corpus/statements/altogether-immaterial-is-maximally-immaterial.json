@@ -1,10 +1,12 @@
 {
-  "id": "STMT-ALTOGETHER-IMMATERIAL-IS-MAXIMALLY-IMMATERIAL",
+  "id": "44000fce-47be-5597-b176-61e2f270199c",
+  "label": "What is ALTOGETHER_IMMATERIAL_2 is at least as immaterial as every being: the highest grade",
+  "legacy_id": "STMT-ALTOGETHER-IMMATERIAL-IS-MAXIMALLY-IMMATERIAL",
   "paraphrase": "OPEN analyst premise: what is altogether immaterial (neither a matter-form composite nor a component of anything) is at least as immaterial as every being: the highest grade.",
   "lean_declaration": "TruthCore.Causality.Round4Revisited.AltogetherImmaterialIsMaximallyImmaterial",
   "definition_ids": [
-    "DEF-ALTOGETHER-IMMATERIAL",
-    "DEF-GRADE-OF-IMMATERIALITY",
-    "DEF-COMPOSITION-COMPONENT"
+    "dace8e73-8b5b-5378-8e62-17d534413168",
+    "f68341ad-1d8f-51e7-83ce-1ae169bd9bb2",
+    "98ac7aa1-54cb-553c-826b-2a69257f6cbe"
   ]
 }

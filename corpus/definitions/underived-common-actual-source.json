@@ -1,5 +1,7 @@
 {
-  "id": "DEF-UNDERIVED-COMMON-ACTUAL-SOURCE",
+  "id": "d650ff6e-6b08-5f27-ac93-6f32c96968a8",
+  "label": "Explicit actual causal-to-support…: ActualCauseSupportsEsse m R w says every m.Causes w source…",
+  "legacy_id": "DEF-UNDERIVED-COMMON-ACTUAL-SOURCE",
   "term": "explicit actual causal-to-support interface and common underived source",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Causality.UnderivedCommonSource.ActualCauseSupportsEsse",

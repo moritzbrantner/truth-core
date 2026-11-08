@@ -1,19 +1,21 @@
 {
-  "id": "BRIDGE-RESURRECTION-PILOT-GOD-EXISTS",
+  "id": "da9890fc-96a2-58fa-8ec3-b3792c75b2a1",
+  "label": "The Catholic pilot affirms the existing skeleton’s…, from GOD_4 exists: there is something that is…",
+  "legacy_id": "BRIDGE-RESURRECTION-PILOT-GOD-EXISTS",
   "premise_statement_ids": [
-    "STMT-GOD-EXISTS"
+    "8626f8a5-9531-5da7-9ebd-f901e74b1129"
   ],
-  "conclusion_statement_id": "STMT-PILOT-GOD-EXISTS",
+  "conclusion_statement_id": "a38dab0b-47a2-5c2b-802d-11bbe8898f64",
   "inference_ids": [
-    "INF-BRIDGE-RESURRECTION-PILOT-GOD-EXISTS"
+    "48a21ce5-f3de-5b06-928e-ae9f8c5c1c87"
   ],
   "meaning": "Bridge (#401), a transcription (invariant 16): stage 1 of the case (STMT-GOD-EXISTS, there is a God in the case signature) is the resurrection pilot's existence cell (STMT-PILOT-GOD-EXISTS) for any pilot state whose core signature it is. The pilot's GodExists is defined as the case's, so the proof is the premise itself. It records that the pilot's existence answer is the case's stage-1 conclusion, not a separate thesis.",
   "definition_ids": [
-    "DEF-GOD-OF-CLASSICAL-THEISM",
-    "DEF-SKELETON-OPEN-PREDICATES"
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "ac767549-28c0-5a1a-813d-ee208a664d08"
   ],
   "disambiguation_ids": [
-    "DISAMB-GOD",
-    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+    "205a39c3-915d-5fe4-8076-a9ff91329e08",
+    "2567d8a9-549e-5404-8658-3275b7029092"
   ]
 }

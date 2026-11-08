@@ -1,12 +1,14 @@
 {
-  "id": "STMT-CAUSE-READINGS-SELF-ONLY-SEPARATOR",
+  "id": "478e6119-f52b-5b9b-85f5-9008b5fb8dfc",
+  "label": "In the specified Bool setting only false is generated and the CAUSE_2 relation is identity: the…",
+  "legacy_id": "STMT-CAUSE-READINGS-SELF-ONLY-SEPARATOR",
   "paraphrase": "In the specified Bool setting only false is generated and the cause relation is identity: the empty background and broad cause principle hold while the distinct-cause principle fails.",
   "lean_declaration": "TruthCore.Logic.Strength.Cause.SelfOnlySeparates",
   "definition_ids": [
-    "DEF-PLATONIC-GENERATION-CAUSE",
-    "DEF-SELF-CAUSING-GENERATED-ALTERNATIVE-CAUSE"
+    "fefbb205-07a2-595f-80d6-c6975c7cd185",
+    "cd6c223c-efd3-5bd0-9547-c39bc016a676"
   ],
   "disambiguation_ids": [
-    "DISAMB-PLATONIC-CAUSE"
+    "a0786cf3-0248-58b6-ad97-12b00af85056"
   ]
 }

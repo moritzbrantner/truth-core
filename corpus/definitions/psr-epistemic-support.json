@@ -1,5 +1,7 @@
 {
-  "id": "DEF-EPISTEMIC-SUPPORT",
+  "id": "02c59c61-4cd1-5698-9338-e4a37ebf71f4",
+  "label": "EPISTEMIC_REASON_2: Inquiry.supports w e p says that at w the fact e is admitted as a reason to…",
+  "legacy_id": "DEF-EPISTEMIC-SUPPORT",
   "term": "epistemic reason (support)",
   "definition": "Inquiry.supports w e p says that at w the fact e is admitted as a reason to accept p; Supported I w p says some fact is. It is a primitive parameter, not assumed factive, transitive, asymmetric or well-founded, and it says nothing about why p obtains. Smoke is a reason to accept that there is a fire and no reason why there is one.",
   "basis": "stipulative",

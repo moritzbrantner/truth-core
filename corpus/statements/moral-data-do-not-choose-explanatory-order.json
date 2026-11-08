@@ -1,24 +1,26 @@
 {
-  "id": "STMT-MORAL-DATA-DO-NOT-CHOOSE-EXPLANATORY-ORDER",
+  "id": "2e2e1c47-7896-52b5-953d-661353b8a8c5",
+  "label": "Encoding independence: the q.94 moral-error and correction-needed readings plus a fixed-privation…",
+  "legacy_id": "STMT-MORAL-DATA-DO-NOT-CHOOSE-EXPLANATORY-ORDER",
   "paraphrase": "Encoding independence: the q.94 moral-error and correction-needed readings plus a fixed-privation evil/truth test admit two interpretations on literally identical non-explanatory data, one with each semantic explanatory order and not the reverse. Both satisfy the explicit asymmetry condition and the purposes-to-competence explanation. Moral error and the evil premise are derived in every practice. This does not establish philosophical compatibility of full worldviews, defend quasi-realist grounding, or refute either order.",
   "lean_declaration": "TruthCore.Metaethics.ExplanationOrder.SharedDataDoNotChooseOrder",
   "definition_ids": [
-    "DEF-EXPLANATION-ORDER-TEST",
-    "DEF-ORDER-OF-EXPLANATION",
-    "DEF-SUPERVENIENCE-COMPETENCE",
-    "DEF-MORAL-ERROR",
-    "DEF-MORAL-STATEMENT",
-    "DEF-TRUTH-VALUE",
-    "DEF-CORRECTION-NEEDED",
-    "DEF-NATURAL-LAW-MORAL-EVIL",
-    "DEF-EVIL-AS-PRIVATION",
-    "DEF-BEING-AS-TRUTH-OF-A-PROPOSITION",
-    "DEF-ATTITUDE-INDEPENDENCE-TEST",
-    "DEF-EXPLANATION-TEST-TRUTHMAKING"
+    "0625682e-3532-57b9-9e37-9320b805046f",
+    "8c00e4f8-0be5-5f27-8612-188a2ac9ff61",
+    "34408202-b4c3-5d8c-856e-2e2ad4397988",
+    "75f4c7ef-62fc-5752-9ee9-6f680c1651ac",
+    "32a2df81-c1f1-5013-b87d-97a934b46036",
+    "b83ce6c8-65a0-5006-a68c-250addcf1eac",
+    "f57bc65c-efd0-5efa-b257-67784393ddd6",
+    "ef16d61e-a087-5d53-898a-7d79f51895a4",
+    "9bcf08c8-b0e8-5fff-a537-f32d043976e9",
+    "fe68613e-b803-5677-a095-5df53a7c7764",
+    "049c65c8-0625-5139-8bda-6e8bc1c3fe35",
+    "644558ea-0bcf-5790-89ea-f292c5b4f283"
   ],
   "disambiguation_ids": [
-    "DISAMB-EXPLANATION-AND-TRUTHMAKING",
-    "DISAMB-CORRECTION-NEED-AND-CHANGE",
-    "DISAMB-EVIL-PRIVATION-AND-MORAL-JUDGMENT"
+    "f5a95f23-1528-5212-a114-584e30ade38d",
+    "ba252369-e99e-5c09-b776-5cbc5dd33147",
+    "3d6d3fd7-2acc-5ceb-9550-f968d0732b2a"
   ]
 }

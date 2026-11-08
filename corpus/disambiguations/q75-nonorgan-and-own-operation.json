@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-Q75-NONORGAN-AND-OWN-OPERATION",
+  "id": "08e86466-9bf0-5a19-8408-d77fdd436ef8",
+  "label": "No organ versus operation of the principle itself",
+  "legacy_id": "DISAMB-Q75-NONORGAN-AND-OWN-OPERATION",
   "term": "no organ versus operation of the principle itself",
   "sense_definition_ids": [
-    "DEF-Q75-INTELLECT-NONORGAN-OPERATION",
-    "DEF-Q75-OPERATION-ATTRIBUTION"
+    "2a840e1e-3e83-5aa3-9d0b-efbdd4bb5fde",
+    "68eae678-8fd7-5c8f-bc98-0641b2ec5e82"
   ],
   "resolution": "No bodily instrument is a negative capacity statement. PerSeIntellectualOperation positively attributes an exercise to the principle and excludes bodily participation in it. NonorganicOperationAttribution is the separate source-attributed conditional linking them with non-bodyhood. Neither predicate denies object-side bodily conditions. Attribution remains qualified by ad 2: more properly the human being understands through the soul."
 }

@@ -1,19 +1,21 @@
 {
-  "id": "BEARER-CAPACITY-EXERCISE",
+  "id": "e39e1985-3427-511d-8c8c-cc4b1d979ded",
+  "label": "The exact #456 response compatibility theorem is reused",
+  "legacy_id": "BEARER-CAPACITY-EXERCISE",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-BEARER-CAPACITY-EXERCISE",
+  "conclusion_statement_id": "e065887e-c8c7-5387-97f4-891865fc6bfd",
   "inference_ids": [
-    "INF-BEARER-CAPACITY-EXERCISE"
+    "9365b93d-6203-5e0d-bdd1-2d0baacb8959"
   ],
   "meaning": "The exact #456 response compatibility theorem is reused. Its activated-response causal adapter has distinct existing endpoints, a necessary bearer and a directed marker at both worlds. With the same existence extension, zero responses refute necessity-of-existence implying necessity-of-capacity. Positive responses refute necessity-of-capacity implying necessary exercise, and exercise at true implying necessary exercise. The existing alternating-effects interpretation has necessary source and exercise but no fixed necessary effect, a contingent recipient, and a true world proposition that is not necessary. For Type-valued carriers, a local manifestation rule together with boxed capacity entails necessary exercise. These are stipulated formal controls, not source attribution, metaphysical possibility or a complete intrinsic-power theory.",
   "definition_ids": [
-    "DEF-BEARER-CAPACITY-EXERCISE",
-    "DEF-INTERVENTION-RESPONSE-CAPACITY",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-MODAL-FIXTURE-FRAME"
+    "e42cac1d-9e6b-57f6-b023-4c9204b9464c",
+    "c68008d0-5517-5907-9333-ce8a6f1e5f23",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2"
   ],
   "disambiguation_ids": [
-    "DISAMB-BEARER-CAPACITY-EXERCISE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7c87b13-1892-5597-88e6-3216e4130abb",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

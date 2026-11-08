@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SPATIAL-COVARIANT-SELECTION",
+  "id": "09647946-7746-53aa-bf95-eba15c4290a6",
+  "label": "Translation-covariant absolute…: A deterministic function takes signed relative-displacement data…",
+  "legacy_id": "DEF-SPATIAL-COVARIANT-SELECTION",
   "term": "translation-covariant absolute selection from relative data",
   "definition": "A deterministic function takes signed relative-displacement data to a labeled absolute configuration. Covariance demands that translating the input configuration by any real displacement translate that output by the same displacement. Because the input data are translation-invariant, this norm is incompatible with an inhabited absolute output.",
   "basis": "stipulative",

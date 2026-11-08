@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-CREED-CONTENT-AND-FORMULA",
+  "id": "1e2ba680-dd18-5f7d-b5b5-198256c7bd6a",
+  "label": "Nicene-Constantinopolitan Creed",
+  "legacy_id": "DISAMB-CREED-CONTENT-AND-FORMULA",
   "term": "Nicene-Constantinopolitan Creed",
   "sense_definition_ids": [
-    "DEF-CREED-GREEK-C381-CONTENT",
-    "DEF-CREED-CATHOLIC-PROFESSION-FORMULA"
+    "e67ab833-b652-53a1-aa13-e58389158dde",
+    "24ee54ec-d84a-572e-b3b9-134da286f1e6"
   ],
   "resolution": "The root and its existing article statements retain the Greek 381 contents. The CDF witness is a Catholic profession formula and classifies Creed articles as revealed teaching. The later official quotation separately attests Catholic recognition of the Greek Symbol. This is an explicit intertextual source reading, not textual identity, a machine-checked translation or an inference from Latin processio to Greek ekporeusis. The Greek and Catholic procession formulations are not silently equated; the truth of Filioque and the adequacy of a theological translation remain outside this connection."
 }

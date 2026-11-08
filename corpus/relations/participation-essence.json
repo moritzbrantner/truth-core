@@ -1,9 +1,11 @@
 {
-  "id": "REL-PARTICIPATION-ESSENCE",
+  "id": "34c0f93f-c9c0-59cf-8be1-7072a3244081",
+  "label": "Plato, Phaedo 100b–c… supports An optional reply grounds being F in a…",
+  "legacy_id": "REL-PARTICIPATION-ESSENCE",
   "subject_kind": "claim",
-  "subject_id": "PLATO-PHAEDO-100B-BEAUTY-ESSENTIAL",
+  "subject_id": "a7887ba3-e500-543c-b7ae-d04da62a50d2",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-PARTICIPATION-ESSENCE-REPLY",
+  "object_id": "4274801b-f7c0-5037-b11d-0bfa463baf3c",
   "note": "The bounded essential-characterization reading motivates a distinct sense of F, not an independent selector for particular humans."
 }

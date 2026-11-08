@@ -1,17 +1,19 @@
 {
-  "id": "MESSAGE-REPORT-BOUNDARY-CONTROLS",
+  "id": "bb616ef2-90f0-55ae-b8a3-10a82fc49770",
+  "label": "Two nonempty controls: the raw message-only rival coexists with the full historical commission…",
+  "legacy_id": "MESSAGE-REPORT-BOUNDARY-CONTROLS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-MESSAGE-REPORT-BOUNDARY-MODELS",
+  "conclusion_statement_id": "fe955fb3-9ddd-5e66-a5ab-0f2d576c5f98",
   "inference_ids": [
-    "INF-MESSAGE-REPORT-BOUNDARY-CONTROLS"
+    "ae0492e9-bc9b-5df6-b0b8-38e1dc67b1d7"
   ],
   "meaning": "Reuse the old schema signature/agency, fullCommissioning, and messageRival_compatible_with_mt28. Raw message-only and historical reports coexist without institutional transfer; the link-bearing rival may retain Matthew28. No historical thesis is refuted.",
   "definition_ids": [
-    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
-    "DEF-COMMISSION-REPORT-POWERS",
-    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY"
+    "6dea072c-97c4-5ee9-9958-a3da6a2a049c",
+    "66200ff6-4af8-5b8f-a2c8-08ddf2d0f072",
+    "e225d39c-9081-5d1f-80f5-ed121dbb9a30"
   ],
   "disambiguation_ids": [
-    "DISAMB-COMMISSION-REPORT-AND-EVENT"
+    "0f180711-5550-55b5-9da8-699215d6d95e"
   ]
 }

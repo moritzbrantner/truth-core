@@ -1,25 +1,27 @@
 {
-  "id": "STRONG-FROM-WEAK-BINARY-FUSION",
+  "id": "c1bbbbe9-e71f-5b8f-bcff-2058cadd0afe",
+  "label": "Whenever x is not part of y, some part of x is disjoint from y, in the…, from weak binary fusion",
+  "legacy_id": "STRONG-FROM-WEAK-BINARY-FUSION",
   "premise_statement_ids": [
-    "STMT-WEAK-SUPPLEMENTATION",
-    "STMT-BINARY-SUM2-FORMATION"
+    "0880e645-8d9b-5edf-9de6-8b628424716f",
+    "939381cb-9f18-5c8d-9828-46cd07bd730c"
   ],
-  "conclusion_statement_id": "STMT-STRONG-SUPPLEMENTATION",
+  "conclusion_statement_id": "bf4167dc-dfc4-5b13-a110-0a52c89d4a65",
   "inference_ids": [
-    "INF-STRONG-FROM-WEAK-BINARY-FUSION"
+    "8a2a2b0d-4166-5a12-b606-73134a5738cf"
   ],
   "meaning": "Take a Sum2 fusion u of {x,y}. If every part of x overlaps y, the no-extra-parts clause implies every part of u overlaps y. Since y≤u, weak supplementation excludes y<u, so u=y and x≤y. Classical contraposition produces the separating remainder. Only binary Sum2 formation is used; no atomism, unrestricted-family formation or modal premises.",
   "definition_ids": [
-    "DEF-MEREOLOGICAL-SUPPLEMENTATION",
-    "DEF-BINARY-SUM2-FORMATION",
-    "DEF-OVERLAP-FUSION",
-    "DEF-MEREOLOGICAL-AXIOM-COMPARISON",
-    "DEF-SUPPLEMENTATION-FUSION-RIVAL",
-    "DEF-UNIVERSAL-FUSION-PROFILE",
-    "DEF-UNIVERSAL-FUSION-DOMAIN",
-    "DEF-OVERLAP-EXTENSIONAL-PARTHOOD"
+    "491073fa-38af-5d98-a6b8-77bf9c472525",
+    "e35b0145-7ce3-565f-90bd-36aac8b93a86",
+    "5a195922-93f5-5792-aeed-a532e32b1e4b",
+    "93b2805e-b8d8-56d2-bbfd-91d440ab9ba0",
+    "cd7ebdf4-426c-5cde-ae78-3b1a4745f068",
+    "9ec56dce-572e-5230-8247-6b3e994cb98a",
+    "094da9ef-9edb-5e88-8b7b-2eb87488e90d",
+    "6f09b078-c49b-5dc5-b7a8-524fdded7dc5"
   ],
   "disambiguation_ids": [
-    "DISAMB-SUM2-AND-SUM3-FUSION"
+    "27169651-d75e-5c1e-bc20-03d0eb678b81"
   ]
 }

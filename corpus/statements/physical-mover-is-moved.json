@@ -1,5 +1,7 @@
 {
-  "id": "STMT-PHYSICAL-MOVER-IS-MOVED",
+  "id": "8829aa18-6d56-5841-9f1b-72b45f55f79c",
+  "label": "A thing that actively moves something in the relevant physical way is itself moved",
+  "legacy_id": "STMT-PHYSICAL-MOVER-IS-MOVED",
   "paraphrase": "A thing that actively moves something in the relevant physical way is itself moved.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.PhysicalMoverIsMovedReading"
 }

@@ -1,13 +1,15 @@
 {
-  "id": "DISAMB-LIMITATION-CONDITIONAL-SOURCE-SCOTT",
+  "id": "1efd1154-f697-5442-9b14-7ce8f1215f23",
+  "label": "Analyst nonlimitation possibility versus source A8 deficiency judgments, Scott positivity and…",
+  "legacy_id": "DISAMB-LIMITATION-CONDITIONAL-SOURCE-SCOTT",
   "term": "analyst nonlimitation possibility versus source A8 deficiency judgments, Scott positivity and actual existence",
   "sense_definition_ids": [
-    "DEF-LIMITATION-POSSIBILITY-CONFIGURATION",
-    "DEF-LIMITATION-POSSIBILITY-CONTROL",
-    "DEF-NB-A8-MODAL-PROPERTY-ENTAILMENT",
-    "DEF-NB-A8-LIMITING-PROPERTY",
-    "DEF-POSITIVE-PROPERTY-SCOTT",
-    "DEF-HAS-LIMITING-PRINCIPLE"
+    "3fb0a456-3dc6-500b-a8b7-0915d2514037",
+    "c2742e9e-4a8d-55b5-9df5-def25c68ee3a",
+    "45cb47e4-168c-5bb7-baf8-b659632a396e",
+    "93ea01f7-a699-582c-9b57-0678c1396b4c",
+    "9a9e4fd6-d810-5039-9185-a93a2e0a358a",
+    "a919ce52-6c8b-5e0f-9aaa-5b570bded78b"
   ],
   "resolution": "The four-input theorem uses an arbitrary constrained classifier at one world, with existing full constant-domain Property/Box/Dia and explicit EM. It does not select full Limiting-as-existential-deficiency semantics, bind A8 broad source definitions/reports, or discharge their property/deficiency/uniformity/evaluative application gaps. Source C4 motivates backwards closure but does not independently validate this exact full-domain interface. Scott T1 adds global A1a complement exclusion; the SAME joint fixture shows nonlimitation need not satisfy it, so no full Scott adapter is inferred. RootMultiplication structural limiting horns and source A9 nontrivial entailment remain distinct. Possible exemplification is an accessible quantifier witness, not actualist existence, a rigid necessary individual, God, or philosophical possibility independently warranted."
 }

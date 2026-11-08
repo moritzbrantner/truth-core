@@ -1,6 +1,8 @@
 {
-  "id": "RESURRECTION-SWOON-CONSISTENT",
-  "argument_id": "RESURRECTION-SWOON-CONSISTENT",
+  "id": "b55de6e7-aea9-5a56-ab04-1fa40d81a59e",
+  "label": "The limited Swoon pilot bundle is jointly satisfiable with E0–E5",
+  "legacy_id": "RESURRECTION-SWOON-CONSISTENT",
+  "argument_id": "ccb82ba6-c2da-563d-b109-32a5942ca3bc",
   "challenge_module": "TruthCore.Results.Comparison.Resurrection.SwoonConsistent.Challenge",
   "solution_module": "TruthCore.Results.Comparison.Resurrection.SwoonConsistent.Solution",
   "theorem": "TruthCore.Results.Comparison.Resurrection.SwoonConsistent.consistent",

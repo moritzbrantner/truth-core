@@ -1,6 +1,8 @@
 {
-  "id": "CATHOLICISM-FROM-EFFICIENT-REGRESS-WITH-CLASSICAL-ATTRIBUTES",
-  "argument_id": "CATHOLICISM-FROM-EFFICIENT-REGRESS-WITH-CLASSICAL-ATTRIBUTES",
+  "id": "6b213b97-949f-58e1-9670-9ea9684b6498",
+  "label": "Catholicism is TRUE_1: the Catholic Church is a…, from efficient regress with classical attributes",
+  "legacy_id": "CATHOLICISM-FROM-EFFICIENT-REGRESS-WITH-CLASSICAL-ATTRIBUTES",
+  "argument_id": "3b0f4fa5-b147-557f-b169-dd789ce9b8c8",
   "challenge_module": "TruthCore.Results.Case.Catholicism.FromEfficientRegressWithClassicalAttributes.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.FromEfficientRegressWithClassicalAttributes.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.FromEfficientRegressWithClassicalAttributes.catholicismFromEfficientRegressWithClassicalAttributes",

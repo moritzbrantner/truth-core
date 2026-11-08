@@ -1,6 +1,8 @@
 {
-  "id": "LOGIC-CASE-NON-CONTRADICTION-NOT-DENIABLE",
-  "argument_id": "LOGIC-CASE-NON-CONTRADICTION-NOT-DENIABLE",
+  "id": "a7ecf1fe-a234-5de6-bb72-bf76309c5ea3",
+  "label": "Inside Lean's logic, no being both has and lacks a case predicate in the same respect: the denial…",
+  "legacy_id": "LOGIC-CASE-NON-CONTRADICTION-NOT-DENIABLE",
+  "argument_id": "8a79f1f4-26fd-56c1-aed5-af197738fed2",
   "challenge_module": "TruthCore.Results.Logic.CaseNonContradiction.Challenge",
   "solution_module": "TruthCore.Results.Logic.CaseNonContradiction.Solution",
   "theorem": "TruthCore.Results.Logic.CaseNonContradiction.noCasePredicateContradiction",

@@ -1,6 +1,8 @@
 {
-  "id": "POSITIVE-BOOLEAN-MEREOLOGY-PROFILE",
-  "argument_id": "POSITIVE-BOOLEAN-MEREOLOGY-PROFILE",
+  "id": "06522c4d-0c9b-5c16-8fe5-25d847299859",
+  "label": "For every supplied Mathlib complete Boolean algebra, its nonzero elements satisfy the existing…",
+  "legacy_id": "POSITIVE-BOOLEAN-MEREOLOGY-PROFILE",
+  "argument_id": "1de5de9c-1037-5598-94b2-e1cd636953fc",
   "challenge_module": "TruthCore.Results.Mereology.AtomlessFusionProfile.Challenge",
   "solution_module": "TruthCore.Results.Mereology.AtomlessFusionProfile.Solution",
   "theorem": "TruthCore.Results.Mereology.AtomlessFusionProfile.positiveProfile",

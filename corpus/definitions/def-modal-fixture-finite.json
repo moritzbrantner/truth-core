@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MODAL-FIXTURE-FINITE",
+  "id": "f57a0812-732f-5680-9711-9ab440869861",
+  "label": "Deterministic finite model: Model supplies an ordered list containing every world, Boolean edges…",
+  "legacy_id": "DEF-MODAL-FIXTURE-FINITE",
   "term": "deterministic finite model",
   "definition": "Model supplies an ordered list containing every world, Boolean edges and atomic truth. eval implements the existing Formula/Holds semantics; eval_correct proves agreement. Witness and counterexample lists retain enumeration order and are relative to the supplied root. collapseEval only checks its explicit finite Boolean predicate inventory, not arbitrary Prop functions.",
   "basis": "stipulative",

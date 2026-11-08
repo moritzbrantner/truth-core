@@ -1,9 +1,11 @@
 {
-  "id": "ATTEMPT-ACTUAL-REASON-ANCHOR-OVERLAP",
+  "id": "b027782f-009c-5e80-8e81-f7c8c9920f99",
+  "label": "Reused #481 alternating countermodel and #599 fixed-roster actualist membership convention rather…",
+  "legacy_id": "ATTEMPT-ACTUAL-REASON-ANCHOR-OVERLAP",
   "date": "2026-10-28",
   "statement_ids": [
-    "STMT-MODAL-EXPLANATION-STABLE",
-    "STMT-ACTUAL-REASON-WITNESS-CERTIFICATE"
+    "9093e05a-49e1-5ef0-ab53-49a4790e1b12",
+    "f5a9ce32-747a-5ccf-a75c-19cda0b748de"
   ],
   "kind": "derivation",
   "outcome": "succeeded",
@@ -11,6 +13,6 @@
   "evidence": [
     "PR-481",
     "PR-599",
-    "ACTUAL-REASON-WITNESS-CERTIFICATE"
+    "7822a209-6ad9-5a80-9be6-3aef327361b0"
   ]
 }

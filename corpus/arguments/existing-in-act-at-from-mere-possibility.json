@@ -1,26 +1,28 @@
 {
-  "id": "EXISTING-IN-ACT-AT-FROM-MERE-POSSIBILITY",
+  "id": "f1ea8b89-cbcf-5327-9256-c77e708ae5f9",
+  "label": "Selected-world one-way contract: each individual represented as existent in…, from mere possibility",
+  "legacy_id": "EXISTING-IN-ACT-AT-FROM-MERE-POSSIBILITY",
   "premise_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-LACKING-ESSE-IS-MERELY-POSSIBLE",
-    "STMT-MERELY-POSSIBLE-DOES-NOT-EXIST-AT"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "a62975a9-bcd4-5bc7-83e7-6d4f5d2b2c13",
+    "c85117b0-6113-5460-95d8-5593d1acd49d"
   ],
-  "conclusion_statement_id": "STMT-EXISTING-IN-ACT-AT",
+  "conclusion_statement_id": "0436de86-6579-53f2-9ff5-2111ba44ebae",
   "inference_ids": [
-    "INF-EXISTING-IN-ACT-AT-FROM-MERE-POSSIBILITY"
+    "1282b4a3-b6b0-519b-a604-e5ef49a4dcca"
   ],
   "meaning": "Derives the esse contract classically: for an existent x at w, either x is in act of esse, or it is not, in which case it is merely possible (OPEN) and so does not exist at w (OPEN), contradicting its existence. Excluded middle on InAct x esse is used and is listed as a premise.",
   "definition_ids": [
-    "DEF-ACT",
-    "DEF-COGITO-ESSE-PROFILE",
-    "DEF-ESSE",
-    "DEF-EXISTING-IN-ACT-AT",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-MERELY-POSSIBLE-CANDIDATE",
-    "DEF-SELF-EVIDENT-MARKING"
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "fd4d20b9-e6a1-5890-a2f5-f10d6c7441de",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "fc6f0e12-470f-5717-8c5b-ece7a450fe59",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "4cde619b-9880-5b55-b16d-5658252866ff",
+    "500ba323-cca5-5b35-8b75-947008256c43"
   ],
   "disambiguation_ids": [
-    "DISAMB-EXISTENCE-ESSE-SUPPORT",
-    "DISAMB-IN-ACT"
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
   ]
 }

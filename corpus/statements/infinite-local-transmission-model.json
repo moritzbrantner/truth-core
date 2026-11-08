@@ -1,7 +1,14 @@
 {
-  "id": "STMT-INFINITE-LOCAL-TRANSMISSION-MODEL",
+  "id": "83a83c56-184a-591d-82f7-89532e3fabf7",
+  "label": "A chain with infinitely many predecessors, all active and agreeing locally about activity, has a…",
+  "legacy_id": "STMT-INFINITE-LOCAL-TRANSMISSION-MODEL",
   "paraphrase": "A chain with infinitely many predecessors, all active and agreeing locally about activity, has a consistent mathematical model without a first predecessor. Thus the local agreement condition alone does not entail well-foundedness.",
   "lean_declaration": "TruthCore.Causality.InfiniteLocalTransmissionModel",
-  "definition_ids": ["DEF-LOCAL-TRANSMISSION", "DEF-PER-SE-EFFICIENT-CAUSE-LINK"],
-  "disambiguation_ids": ["DISAMB-CAUSAL-SERIES"]
+  "definition_ids": [
+    "5214c7ea-0683-53b8-b37b-178d5136d20c",
+    "4a101a4c-12de-53c8-80c6-de7a523ea9d9"
+  ],
+  "disambiguation_ids": [
+    "81c233d4-01b4-528c-8bbd-7da228443ffe"
+  ]
 }

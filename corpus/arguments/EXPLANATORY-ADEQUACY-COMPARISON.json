@@ -1,29 +1,31 @@
 {
-  "id": "EXPLANATORY-ADEQUACY-COMPARISON",
+  "id": "edff326f-5f09-52d4-abed-7dd4ab529b26",
+  "label": "On one shared signature and target",
+  "legacy_id": "EXPLANATORY-ADEQUACY-COMPARISON",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-EXPLANATORY-ADEQUACY-COMPARISON",
+  "conclusion_statement_id": "96adb4ac-c02a-5427-82fa-e335769f0039",
   "inference_ids": [
-    "INF-EXPLANATORY-ADEQUACY-COMPARISON"
+    "b317b8a4-3bbe-52ef-a481-5c3af95a2523"
   ],
   "meaning": "Model verdicts for reason closure, contrast relevance, two-way reasons and the circular necessary-being stop on one target and shared rivals, with non-theistic witnesses, the general token expansion and #735 overlays. It defends no standard and shows no model metaphysically possible. It discharges no premise and attributes nothing to a source. See docs/notes/explanatory-adequacy-750.md.",
   "definition_ids": [
-    "DEF-EXPLANATORY-REASON-CLOSED",
-    "DEF-EXPLANATORY-CONTRAST",
-    "DEF-EXPLANATORY-TWO-WAY",
-    "DEF-EXPLANATORY-BEING-STOP",
-    "DEF-EXPLANATORY-RIVALS",
-    "DEF-PSR-STRENGTH-ARENA",
-    "DEF-PSR-STRENGTH-REASON",
-    "DEF-PSR-REASON-INDEPENDENT",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-CONTINGENCY",
-    "DEF-ULTIMATE-ADEQUACY-COMPARISON",
-    "DEF-DERIVATIVE-JOINT-SUPPLY"
+    "fc7264ad-1e74-5419-91be-6ac7ec796b07",
+    "b64af87d-c8ab-5063-babe-a2db2af5704e",
+    "25852763-3ba0-50ec-a123-8f161cf7a47b",
+    "164e3ef4-044c-5a0a-83ff-254fc683c04c",
+    "5a3ef5f8-911c-5c18-bbe8-f2cabb2ceb1d",
+    "fe4b7da0-cbd6-5d1f-b589-953f9def12b7",
+    "179d4557-bda1-59c4-938a-b91e9974a27f",
+    "4669119e-8bb3-5586-8ecb-6b3eba599efe",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "6742a5b8-f4ed-5bdf-8715-93dd8ff0444e",
+    "c9d479bb-308a-5a2b-9755-ddc0170d4e35"
   ],
   "disambiguation_ids": [
-    "DISAMB-EXPLANATORY-CONTRAST-STOP",
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-PSR-REASON-NECESSITATING",
-    "DISAMB-ULTIMATE-ADEQUACY-FOUNDATION"
+    "6a897910-d301-56c0-963d-d2f019de3de7",
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "f9e260b1-c206-5d41-a054-fac13cf68e67",
+    "7b8dc0d6-8239-5275-9f8f-0096bf4a3011"
   ]
 }

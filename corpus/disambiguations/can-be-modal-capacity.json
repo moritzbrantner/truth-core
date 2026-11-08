@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-CAN-BE-MODAL-CAPACITY",
+  "id": "2fcd7864-3f3b-5d79-9a89-4a04cda62f87",
+  "label": "Able to be",
+  "legacy_id": "DISAMB-CAN-BE-MODAL-CAPACITY",
   "term": "able to be (source capacity; modal possibility of actuality)",
   "sense_definition_ids": [
-    "DEF-CAPACITY-TO-BE",
-    "DEF-MODAL-CAPACITY-BRIDGE"
+    "00ab0133-e353-5a2e-a231-b24a5c85107a",
+    "875fd1b3-2eec-5723-9404-ccfd7a08469a"
   ],
   "resolution": "CanBe keeps its IX.6 sense in the potency reading. ModalCapacity is a separate open premise connecting it to accessible actuality, and the fork in RootExposure keeps its failure as an option. On the denial, a respect can be true at an alternative without the being's having any ability to be so at the actual world, so immutability is not a modal claim about alternatives. No result says which is right."
 }

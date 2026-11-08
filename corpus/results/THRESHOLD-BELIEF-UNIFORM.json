@@ -1,6 +1,8 @@
 {
-  "id": "THRESHOLD-BELIEF-UNIFORM",
-  "argument_id": "THRESHOLD-BELIEF-UNIFORM",
+  "id": "20268de2-567f-5d73-8154-963107e7cd63",
+  "label": "For the actual uniform measure on Fin N with N>0 and 0<t≤1, threshold beliefs are conjunction…",
+  "legacy_id": "THRESHOLD-BELIEF-UNIFORM",
+  "argument_id": "235558b5-27ef-56fc-b1e1-2711decaabfd",
   "challenge_module": "TruthCore.Results.Logic.ThresholdBelief.Challenge",
   "solution_module": "TruthCore.Results.Logic.ThresholdBelief.Solution",
   "theorem": "TruthCore.Results.Logic.ThresholdBelief.uniformBoundary",

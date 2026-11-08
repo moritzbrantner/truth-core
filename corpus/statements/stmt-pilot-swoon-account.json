@@ -1,12 +1,14 @@
 {
-  "id": "STMT-PILOT-SWOON-ACCOUNT",
+  "id": "c99192e3-ad0c-5e1e-ac11-5f10e2e8143d",
+  "label": "Deny death on the cross and resurrection from death; propose survival, recovery, departure from an…",
+  "legacy_id": "STMT-PILOT-SWOON-ACCOUNT",
   "paraphrase": "Deny death on the cross and resurrection from death; propose survival, recovery, departure from an actually empty tomb and survivor encounters. It contests the death finding while still accepting crucifixion.",
   "lean_declaration": "TruthCore.History.Resurrection.SwoonAccount",
   "definition_ids": [
-    "DEF-RESURRECTION-PILOT-ACCOUNT",
-    "DEF-SKELETON-OPEN-PREDICATES"
+    "3ef00725-331b-5d83-89d2-36f1428e21ae",
+    "ac767549-28c0-5a1a-813d-ee208a664d08"
   ],
   "disambiguation_ids": [
-    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+    "2567d8a9-549e-5404-8658-3275b7029092"
   ]
 }

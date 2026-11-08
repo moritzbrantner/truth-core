@@ -1,14 +1,16 @@
 {
-  "id": "STMT-NOT-NONCOGNITIVE-TENDING-DIRECTOR-PRINCIPLE",
+  "id": "03d40e6a-f98d-5a95-b86f-db6584386922",
+  "label": "The existing universal noncognitive-tending-needs-knowing-director principle fails under the exact…",
+  "legacy_id": "STMT-NOT-NONCOGNITIVE-TENDING-DIRECTOR-PRINCIPLE",
   "paraphrase": "The existing universal noncognitive-tending-needs-knowing-director principle fails under the exact same cognition, intelligence, broad-tending and directing predicates. This is its logical negative, distinct from the full untyped global naturalistic summary.",
   "lean_declaration": "TruthCore.Teleonomy.DirectorRivalBoundary.NotDirectorPrinciple",
   "definition_ids": [
-    "DEF-TELEONOMY-DIRECTOR-RIVAL-WITNESS",
-    "DEF-INTENTIO-AS-TENDING",
-    "DEF-TELEONOMY-MODEL-SCOPE"
+    "4404df1d-a1c1-5e61-8f8d-24e9b60f6ad5",
+    "2847d4f1-a13a-5d0f-8cc1-abf1c807f92f",
+    "b5b918e7-b170-5d37-acad-10004f3570b7"
   ],
   "disambiguation_ids": [
-    "DISAMB-INTENTIO",
-    "DISAMB-TELEONOMY-FINALITY-AND-AGENCY"
+    "2e3e5bfd-2e1a-5766-933d-79a7824c6249",
+    "066d546d-53f8-5319-8333-6b117a152002"
   ]
 }

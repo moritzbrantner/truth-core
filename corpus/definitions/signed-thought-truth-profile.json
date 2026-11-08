@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SIGNED-THOUGHT-TRUTH-PROFILE",
+  "id": "be8a4e19-0ac9-5d02-956e-b51b9a8bd419",
+  "label": "Signed thought and proposition truth: Thought has an affirmative/denying sign and a proposition…",
+  "legacy_id": "DEF-SIGNED-THOUGHT-TRUTH-PROFILE",
   "term": "signed thought and proposition truth",
   "definition": "Thought has an affirmative/denying sign and a proposition content. Object obtains exactly when that proposition holds. TrueThought and FalseThought follow the sign-sensitive composition clauses, with all four signed truth/falsity controls populated. This explicit interpretation can coexist with the full earlier stage-proof framework; it is not historical identity or philosophical equivalence.",
   "basis": "stipulative",

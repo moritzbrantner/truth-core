@@ -1,6 +1,8 @@
 {
-  "id": "ALL-SETS-NO-ESSE-STRENGTHENS-SELECTED-SET-CAUSERS",
-  "argument_id": "ALL-SETS-NO-ESSE-STRENGTHENS-SELECTED-SET-CAUSERS",
+  "id": "0d92ae8a-394b-5f51-b3ae-73f582e06d9d",
+  "label": "Supplied sets that actually cause productively at the…, from Every supplied set lacks esse in re",
+  "legacy_id": "ALL-SETS-NO-ESSE-STRENGTHENS-SELECTED-SET-CAUSERS",
+  "argument_id": "6d8826ce-3c48-550b-b3f2-d488bb754968",
   "challenge_module": "TruthCore.Results.Causality.CausalConcreteRivals.SetScopeStrength.Challenge",
   "solution_module": "TruthCore.Results.Causality.CausalConcreteRivals.SetScopeStrength.Solution",
   "theorem": "TruthCore.Results.Causality.CausalConcreteRivals.SetScopeStrength.setScopeStrength",

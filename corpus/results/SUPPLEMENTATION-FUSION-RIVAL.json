@@ -1,6 +1,8 @@
 {
-  "id": "SUPPLEMENTATION-FUSION-RIVAL",
-  "argument_id": "SUPPLEMENTATION-FUSION-RIVAL",
+  "id": "76807374-6426-5587-834e-78d36c50eed2",
+  "label": "The fixed four-object Mathlib partial order has a,b strictly below both incomparable u,v and no…",
+  "legacy_id": "SUPPLEMENTATION-FUSION-RIVAL",
+  "argument_id": "237915c0-e542-5d8d-809f-47fb7560bdaf",
   "challenge_module": "TruthCore.Results.Mereology.SupplementationFusion.Challenge",
   "solution_module": "TruthCore.Results.Mereology.SupplementationFusion.Solution",
   "theorem": "TruthCore.Results.Mereology.SupplementationFusion.rivalChecks",

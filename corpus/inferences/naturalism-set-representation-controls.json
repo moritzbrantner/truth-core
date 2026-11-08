@@ -1,7 +1,9 @@
 {
-  "id": "INF-NATURALISM-SET-REPRESENTATION-CONTROLS",
+  "id": "8b8a6d5a-4e53-5619-8300-31991e4c2560",
+  "label": "Two separate populated interpretations retain actual Mathlib\u2026, by Constructive-proof",
+  "legacy_id": "INF-NATURALISM-SET-REPRESENTATION-CONTROLS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-NATURALISM-SET-REPRESENTATION-CONTROLS",
+  "output_statement_id": "c08fcff1-1a21-5092-8913-bee2cb19690b",
   "rule": "constructive-proof",
   "meaning": "Construct two Ontic/frame pairs with actual Bool\u2192ZFSet interpretation \u2205/{\u2205}. The nominalist-style profile preserves an existing located bearer and mathematical membership while set entities are absent/unlocated; its unlocation reuses the certified induction theorem. The forward-only model has both set entities existing and located, retains member-to-set propagation and explicitly violates reverse support at the empty-set representative. These reject only the inference from forward propagation alone, not any preferred worldview.",
   "assumption_statement_ids": [],

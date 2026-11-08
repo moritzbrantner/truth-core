@@ -1,6 +1,8 @@
 {
-  "id": "LOGIC-SELF-APPLICATION-DILEMMA",
-  "argument_id": "LOGIC-SELF-APPLICATION-DILEMMA",
+  "id": "ba426e32-89f4-58c5-8e2d-94af51122711",
+  "label": "For every NORM_ON_CLAIMS_3 and every claim in its scope that fails its standard: if the norm holds…",
+  "legacy_id": "LOGIC-SELF-APPLICATION-DILEMMA",
+  "argument_id": "31c884c3-4435-5df4-95df-9ca1c3d43c6f",
   "challenge_module": "TruthCore.Results.Logic.SelfApplication.Dilemma.Challenge",
   "solution_module": "TruthCore.Results.Logic.SelfApplication.Dilemma.Solution",
   "theorem": "TruthCore.Results.Logic.SelfApplication.Dilemma.selfApplicationDilemma",

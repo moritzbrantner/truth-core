@@ -1,1 +1,1 @@
-{"id":"STMT-NO-NOW-ENTAILS-NO-TIME","paraphrase":"If the now did not exist, time would not exist.","lean_declaration":"TruthCore.Greek.Aristotle.Physics.NoNowEntailsNoTimeReading"}
+{"id": "d50da46b-6dcd-5444-9b18-0cee4c18cc64", "label": "If the now did not exist, time would not exist", "legacy_id": "STMT-NO-NOW-ENTAILS-NO-TIME", "paraphrase": "If the now did not exist, time would not exist.", "lean_declaration": "TruthCore.Greek.Aristotle.Physics.NoNowEntailsNoTimeReading"}

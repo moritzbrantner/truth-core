@@ -1,6 +1,8 @@
 {
-  "id": "COUNT-CAUSE-TIME-NECESSITY",
-  "argument_id": "COUNT-CAUSE-TIME-NECESSITY",
+  "id": "fa85bcd1-4963-5b75-b007-54dddc6730df",
+  "label": "There are an accessible history v and…, from An accessible world contains a concrete… and 4 more",
+  "legacy_id": "COUNT-CAUSE-TIME-NECESSITY",
+  "argument_id": "bcccc94c-f70b-5030-8750-30db237d828a",
   "challenge_module": "TruthCore.Results.Causality.CountCauseTimeNecessity.Challenge",
   "solution_module": "TruthCore.Results.Causality.CountCauseTimeNecessity.Solution",
   "theorem": "TruthCore.Results.Causality.CountCauseTimeNecessity.sameCause",

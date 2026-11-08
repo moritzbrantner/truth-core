@@ -1,6 +1,8 @@
 {
-  "id": "NATURAL-REASON-HORIZON-SCOPE-MODELS",
-  "argument_id": "NATURAL-REASON-HORIZON-SCOPE-MODELS",
+  "id": "5eb8a35e-71dc-588d-a550-af0131539683",
+  "label": "Four schema controls witness a descriptive theological horizon and actual nonmember use with…",
+  "legacy_id": "NATURAL-REASON-HORIZON-SCOPE-MODELS",
+  "argument_id": "8116cd6e-71d9-559b-9047-3823a98c0535",
   "challenge_module": "TruthCore.Results.Alternatives.NaturalReasonHorizon.Models.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.NaturalReasonHorizon.Models.Solution",
   "theorem": "TruthCore.Results.Alternatives.NaturalReasonHorizon.Models.horizonModels",

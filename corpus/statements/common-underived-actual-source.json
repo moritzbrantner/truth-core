@@ -1,20 +1,22 @@
 {
-  "id": "STMT-COMMON-UNDERIVED-ACTUAL-SOURCE",
+  "id": "8dcc3c1c-2a84-55d4-92b2-e47e8f789e9b",
+  "label": "Some single individual is both the named actual necessarily underived R-witness and the unique…",
+  "legacy_id": "STMT-COMMON-UNDERIVED-ACTUAL-SOURCE",
   "lean_declaration": "TruthCore.Causality.UnderivedCommonSource.CommonUnderivedActualSource",
   "paraphrase": "Some single individual is both the named actual necessarily underived R-witness and the unique actual ordinary-causal source in the selected world. Necessity and absence of incoming R support are retained for that same individual; no simplicity, intrinsic explanation or God identification follows.",
   "definition_ids": [
-    "DEF-UNDERIVED-COMMON-ACTUAL-SOURCE",
-    "DEF-NAMED-NECESSARILY-UNDERIVED",
-    "DEF-NECESSARILY-UNDERIVED",
-    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
-    "DEF-SOURCE-FOREST-CONSTRAINTS",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-PRESENT-ESSE-SUPPORT"
+    "d650ff6e-6b08-5f27-ac93-6f32c96968a8",
+    "1875d575-2a60-5000-b403-0ab090078a7a",
+    "7b0b109c-ad03-59a3-a81c-d0e027e91f95",
+    "7439c292-82a4-530d-8144-a61a6c21f502",
+    "f64856c0-6d2c-5c5d-97ef-9895039d8c27",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "b242943a-34cc-582d-8c38-c1203b9d2c91"
   ],
   "disambiguation_ids": [
-    "DISAMB-UNDERIVED-CAUSAL-SOURCE-INTERFACE",
-    "DISAMB-EXISTENCE-ESSE-SUPPORT",
-    "DISAMB-REGRESS-DOMAINS",
-    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"
+    "5323527f-56a2-5d11-8a76-5b25461a61b4",
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "34ddfede-ff4d-59ad-9882-4bcb490df9bb",
+    "5d15d8f2-1080-53c9-886f-cee2a4ff23a9"
   ]
 }

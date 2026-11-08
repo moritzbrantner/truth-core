@@ -1,6 +1,8 @@
 {
-  "id": "LOGIC-DEMARCATION-TEST",
-  "argument_id": "LOGIC-DEMARCATION-TEST",
+  "id": "76bfdeb1-6796-5201-8c84-e988f2cea7bb",
+  "label": "Second-order self-application test for any weak thesis that restricts a strong norm to a…",
+  "legacy_id": "LOGIC-DEMARCATION-TEST",
+  "argument_id": "3dead7fc-ad4c-502b-81d0-04311e616813",
   "challenge_module": "TruthCore.Results.Logic.SelfApplication.DemarcationTest.Challenge",
   "solution_module": "TruthCore.Results.Logic.SelfApplication.DemarcationTest.Solution",
   "theorem": "TruthCore.Results.Logic.SelfApplication.DemarcationTest.demarcationTest",

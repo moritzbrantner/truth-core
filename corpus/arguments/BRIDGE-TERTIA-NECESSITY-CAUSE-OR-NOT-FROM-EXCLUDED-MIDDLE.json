@@ -1,17 +1,19 @@
 {
-  "id": "BRIDGE-TERTIA-NECESSITY-CAUSE-OR-NOT-FROM-EXCLUDED-MIDDLE",
+  "id": "12f07b36-55ac-555e-aefb-db911e5816c7",
+  "label": "Every NECESSARY_1 being either has the cause of its necessity from another…, from excluded middle",
+  "legacy_id": "BRIDGE-TERTIA-NECESSITY-CAUSE-OR-NOT-FROM-EXCLUDED-MIDDLE",
   "premise_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-NECESSARY-HAS-CAUSE-OF-NECESSITY-OR-NOT",
+  "conclusion_statement_id": "1e3e2501-3bec-5509-b865-705209477c57",
   "inference_ids": [
-    "INF-BRIDGE-TERTIA-NECESSITY-CAUSE-OR-NOT-FROM-EXCLUDED-MIDDLE"
+    "46779675-cb34-5200-8cb4-67cbc17f6b41"
   ],
   "meaning": "Bridge (#401), an instance of excluded middle: the tertia via's case split (STMT-NECESSARY-HAS-CAUSE-OF-NECESSITY-OR-NOT: every necessary being either has a cause of its necessity from another or does not) is one instance of excluded middle (STMT-EXCLUDED-MIDDLE) per necessary being. The proof only instantiates the premise; it connects the case split to the self-evident principle and closes nothing by its own content.",
   "definition_ids": [
-    "DEF-NECESSARY-BEING"
+    "d77ab971-b9cb-5b31-85f7-7bf7f39fb237"
   ],
   "disambiguation_ids": [
-    "DISAMB-NECESSARY"
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
   ]
 }

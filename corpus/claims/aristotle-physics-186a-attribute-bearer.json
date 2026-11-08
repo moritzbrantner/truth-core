@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-186A-ATTRIBUTE-BEARER-A",
-  "statement_id": "STMT-ATTRIBUTE-DIFFERS-DEFINITION-BEARER",
-  "source_id": "ARIST-PHYS",
+  "id": "c7300206-a169-5c6f-8a3b-b3c258758d8e",
+  "label": "Aristotle, Physics I.3, 186a25-32: An attribute can differ in definition from its bearer without…",
+  "legacy_id": "ARIST-PHYS-186A-ATTRIBUTE-BEARER-A",
+  "statement_id": "36df8a5a-a495-5ff7-a63c-de073704d390",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.3, 186a25-32",
   "interpretation": "Whiteness and what is white differ in definition without requiring two separately existing things. Aristotle uses this distinction to block the inference from one meaning of the predicate to numerical unity of all bearers.",
   "status": "formalized"

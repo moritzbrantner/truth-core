@@ -1,10 +1,12 @@
 {
-  "id": "DISAMB-MENTAL-SIGN-AND-PARTICULAR-FORM",
+  "id": "ed289c93-3823-593e-9c1d-22033afe2f7b",
+  "label": "Form (2)",
+  "legacy_id": "DISAMB-MENTAL-SIGN-AND-PARTICULAR-FORM",
   "term": "form",
   "sense_definition_ids": [
-    "DEF-UNIVERSAL-MENTAL-SIGN",
-    "DEF-PARTICULAR-SUBSTANTIAL-FORM",
-    "DEF-PLATONIC-FORM"
+    "51266d70-d1a8-5bc8-94b0-2c948e761797",
+    "ae879dfa-3d89-5dbf-a1a7-56342f7b1621",
+    "3336e0be-5be8-5c69-b54a-7a7bb29e1db9"
   ],
   "resolution": "A form existing in an intellect can name the numerically singular mental intention in I.14; a particular substantial form is retained in I.16–17; the existing Platonic FormOf interface names a proposed intelligible Form. Rejecting an extramental common universal does not deny particular forms, identify those forms with concepts, or establish a global verdict on Plato or Aristotle."
 }

@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-189A-COUNT-CASES-A",
-  "statement_id": "STMT-NATURAL-PRINCIPLE-COUNT-CASES",
-  "source_id": "ARIST-PHYS",
+  "id": "99fe52e9-f4c2-55de-9299-ef12a115296a",
+  "label": "Aristotle, Physics I.6, 189a11-12: The inquiry into the number of natural principles considers…",
+  "legacy_id": "ARIST-PHYS-189A-COUNT-CASES-A",
+  "statement_id": "5ea87315-f3f0-5dc0-bf27-6948423f5d09",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.6, 189a11-12",
   "interpretation": "Opening count-space reading: Aristotle considers one, two, three, and more-than-three cases while immediately rejecting one. The alternatives are used for the chapter's elimination argument, not treated as simultaneously realizable.",
   "status": "formalized"

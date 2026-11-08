@@ -1,16 +1,18 @@
 {
-  "id": "ATTEMPT-MARK-14-HIGH-PRIEST-ANSWER",
+  "id": "a11caa56-8295-5b12-8006-f1c8d2c039d1",
+  "label": "Materialized and read complete Mark 14 and immediate continuation in Mark 15",
+  "legacy_id": "ATTEMPT-MARK-14-HIGH-PRIEST-ANSWER",
   "statement_ids": [
-    "STMT-PILOT-JESUS-CLAIMS",
-    "STMT-PILOT-REPORT-MARK-AUTHORITY"
+    "6931fa67-bd22-591a-8abb-7273aba9cb90",
+    "455d6fae-fd3e-5a4d-8daf-949eb86da06e"
   ],
   "date": "2026-10-26",
   "kind": "reading",
   "outcome": "succeeded",
   "summary": "Materialized and read complete Mark 14 and immediate continuation in Mark 15. Distinguished affirmative messianic answer, future Son-of-Man saying and high-priest blasphemy reaction as typed reports. Rejected transport from hostile reaction to divine identity or from narrated speech to historical utterance. The linked note preserves affirmative rival readings and remaining interpretive/historical gaps. No root premise is discharged.",
   "evidence": [
-    "NT-MARK-14-AFFIRMATIVE-ANSWER",
-    "NT-MARK-14-SON-OF-MAN-PREDICTION",
-    "NT-MARK-14-BLASPHEMY-REACTION"
+    "b6b0bd46-274d-5d56-ae91-31a83791d6bc",
+    "65e58eae-edaa-5a4b-bb75-01a9a4b788c0",
+    "035330a7-2dc1-5d39-a655-b9f0309bfd83"
   ]
 }

@@ -1,11 +1,13 @@
 {
-  "id": "DISAMB-MORAL-ANTIREALISM",
+  "id": "8ee14b40-9ec9-500b-bf89-e19cf52b6b4a",
+  "label": "Emotivism, expressivism, subjectivism",
+  "legacy_id": "DISAMB-MORAL-ANTIREALISM",
   "term": "emotivism, expressivism, subjectivism",
   "sense_definition_ids": [
-    "DEF-EMOTIVISM",
-    "DEF-EXPRESSIVISM",
-    "DEF-MORAL-SUBJECTIVISM",
-    "DEF-EMOTIVISM-OCCASION"
+    "b3a48f2f-1e63-5899-b8f4-de69de18cb8e",
+    "c7db6f2b-22bb-597e-ac91-fe396591a034",
+    "299e0a83-bef3-5ded-b153-6e65c29b4875",
+    "26d45e80-3ca9-5d53-9e9d-b1df65d5052f"
   ],
   "resolution": "These are different theories, and each result names the one it is about. POE-EXTERNAL-PREMISE-VS-EMOTIVISM is about O'Connor's 2023 emotivism (no truth value). STMT-NO-OBJECTIVE-MORAL-TRUTHS and STMT-EVIL-PREMISE-NOT-OBJECTIVE come from his 2016 subjectivism, which does not deny truth value, only objectivity. Expressivism in general, including quasi-realism with minimal truth, is not yet refuted or formalized (#182-#185). A result about one of these must not be cited as a result about another. The occasion-based meaning hypothesis tested by Frege–Geach is a separate reading from O’Connor’s denial of truth value; refuting it does not refute all expressivism."
 }

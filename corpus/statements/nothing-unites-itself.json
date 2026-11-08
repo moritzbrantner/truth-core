@@ -1,11 +1,13 @@
 {
-  "id": "STMT-NOTHING-UNITES-ITSELF",
+  "id": "828fc834-25ad-534c-8212-f6745ae02b96",
+  "label": "UNITING-CAUSE_1",
+  "legacy_id": "STMT-NOTHING-UNITES-ITSELF",
   "paraphrase": "UNITING-CAUSE_1. OPEN analyst premise (attribution deferred): nothing unites components into itself. Brute composition and composition as identity reject it.",
   "lean_declaration": "TruthCore.Causality.TermSenseForks.NothingUnitesItself",
   "definition_ids": [
-    "DEF-UNITING-CAUSE"
+    "f930c63f-f79a-507c-9462-b572480c6808"
   ],
   "disambiguation_ids": [
-    "DISAMB-UNITING-CAUSE"
+    "57f80020-fa6f-5b69-be58-b4cf95b7226f"
   ]
 }

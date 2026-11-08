@@ -1,15 +1,17 @@
 {
-  "id": "STMT-SOURCE-FOREST-UNIQUE-PREDECESSOR",
+  "id": "b0b614c3-0933-5724-b477-6642db60521f",
+  "label": "Each graph node has at most one immediate upstream predecessor",
+  "legacy_id": "STMT-SOURCE-FOREST-UNIQUE-PREDECESSOR",
   "lean_declaration": "TruthCore.Causality.SourceForest.UniquePredecessor",
   "paraphrase": "Open strong structural restriction: each graph node has at most one immediate upstream predecessor.",
   "definition_ids": [
-    "DEF-SOURCE-FOREST-CONSTRAINTS",
-    "DEF-REGRESS-SCHEMA-GRAPH",
-    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
-    "DEF-FINITE-CAUSAL-PATH"
+    "f64856c0-6d2c-5c5d-97ef-9895039d8c27",
+    "1dff2d68-1348-5e7e-8ee7-248af63c8c53",
+    "7439c292-82a4-530d-8144-a61a6c21f502",
+    "822c9912-2313-584b-b2b7-77031da20107"
   ],
   "disambiguation_ids": [
-    "DISAMB-REGRESS-DOMAINS",
-    "DISAMB-CAUSAL-POWER-GROUNDING"
+    "34ddfede-ff4d-59ad-9882-4bcb490df9bb",
+    "4b02d34a-9226-5009-9ac2-3b52f4222b21"
   ]
 }

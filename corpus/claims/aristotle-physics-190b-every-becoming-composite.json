@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-190B-EVERY-BECOMING-COMPOSITE-A",
-  "statement_id": "STMT-EVERY-BECOMING-COMPOSITE",
-  "source_id": "ARIST-PHYS",
+  "id": "85f63a3a-f1e9-546d-9b3a-3c704b38fcad",
+  "label": "Aristotle, Physics I.7, 190b17-23: Everything that comes to be involves something that becomes and…",
+  "legacy_id": "ARIST-PHYS-190B-EVERY-BECOMING-COMPOSITE-A",
+  "statement_id": "6419bb3e-594f-51bd-864c-9e81474c91e6",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.7, 190b17-23",
   "interpretation": "Aristotle's composite analysis distinguishes what becomes, what it becomes, and the source described either as subject or opposite. Composite here names the analytic structure, not necessarily a separable physical assembly.",
   "status": "formalized"

@@ -1,23 +1,25 @@
 {
-  "id": "HUME-VII-6-OBSERVATION-LIMIT",
-  "statement_id": "STMT-SINGLE-INSTANCE-SHOWS-SUCCESSION-NOT-TIE",
-  "source_id": "HUME-ENQUIRY",
+  "id": "ab7ecc51-d88d-549b-a822-4f94b3b7d4c1",
+  "label": "David Hume, An Enquiry concerning Human…: In a single observed operation Hume says outward senses…",
+  "legacy_id": "HUME-VII-6-OBSERVATION-LIMIT",
+  "statement_id": "d86969ae-819d-5e25-8fbc-4716ec47c744",
+  "source_id": "d27e53fc-c4af-5160-83a4-924a2aae4d2e",
   "locator": "VII, §6 (SBN 63)",
   "interpretation": "In a single observed operation Hume says outward senses present succession, not the binding power making the effect infallible. This is a claim about what is presented, not a claim that no productive power exists or that any event can occur arbitrarily. Full materialized passage and surrounding context consulted before recording. This source reading is not a premise of the analytical Checks theorem.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-REGULARITY-OBSERVATION",
-    "DEF-REGULARITY-INTERVENTION",
-    "DEF-REGULARITY-SUCCESSION",
-    "DEF-REGULARITY-MENTAL-TRANSITION",
-    "DEF-REGULARITY-LAW-SELECTION",
-    "DEF-REGULARITY-SAMPLE",
-    "DEF-REGULARITY-PREDICTION",
-    "DEF-REGULARITY-SCOPE",
-    "DEF-REGULARITY-GROUND",
-    "DEF-ANSWER-MAP-MATCHING"
+    "b7145551-1504-5a09-a59e-e822f3ab83ae",
+    "d0105d0e-8e28-5165-8235-ff91bf25c418",
+    "81ca9dbd-69e6-5b53-87b2-5f536b61f550",
+    "4022af6e-4901-545f-9ac7-f062fb154fdc",
+    "c0a65542-5ceb-54c5-ba9c-74fa90af81c2",
+    "5f156d0e-84a6-5471-8d5e-be68e594773e",
+    "e960d08d-4964-5a0d-891b-59395e5fce13",
+    "ce45a505-6455-5763-8552-3dd9e7e00b83",
+    "3f125015-da7d-58f2-a6d3-0d8a7e45aa52",
+    "7c50c8db-6f13-526e-b439-851133f9243f"
   ],
   "disambiguation_ids": [
-    "DISAMB-REGULARITY-CAUSAL-SENSES"
+    "f4a648a1-553b-5318-b5c7-df0798634816"
   ]
 }

@@ -1,6 +1,8 @@
 {
-  "id": "RECOGNITION-REALIZATION-FROM-CANDIDATE-COVERAGE",
-  "argument_id": "RECOGNITION-REALIZATION-FROM-CANDIDATE-COVERAGE",
+  "id": "d03d46ed-8c0f-521d-9a1c-14443570405e",
+  "label": "Each GOD_4 candidate with recognizable-revelation capability has a…, from candidate coverage",
+  "legacy_id": "RECOGNITION-REALIZATION-FROM-CANDIDATE-COVERAGE",
+  "argument_id": "2b9ae77c-37ea-5c60-a7b0-21f45bd358f9",
   "challenge_module": "TruthCore.Results.Alternatives.RevelationRecognition.Realization.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.RevelationRecognition.Realization.Solution",
   "theorem": "TruthCore.Results.Alternatives.RevelationRecognition.Realization.realizationFromCandidateCoverage",

@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-RIGID-IDENTITY-EXISTENCE",
+  "id": "20aadb82-fb79-549d-bae9-5b7d566db513",
+  "label": "Rigid identity versus strict sentence co-reference",
+  "legacy_id": "DISAMB-RIGID-IDENTITY-EXISTENCE",
   "term": "rigid identity versus strict sentence co-reference",
   "sense_definition_ids": [
-    "DEF-PARTIAL-RIGID-DESIGNATION",
-    "DEF-STRICT-NAME-COREFERENCE"
+    "bff04678-e0a0-5b9b-a182-484afb5506df",
+    "6bf06590-f2ca-5dfa-9fb6-2e799c4c9916"
   ],
   "resolution": "RigidAt constrains which bearer a name can denote along M edges and ties denotation to existence; CoRef requires a shared denotation at a description. The theorem therefore distinguishes conditional identity wherever the bearer exists from Box of strict CoRef, which additionally requires NecessaryAt. It never infers necessary existence from rigid naming. E-only descriptions may vary reference; absence of E-necessity is modeled admission uncertainty, not proven ignorance, conceivability or an a posteriori discovery. No historical interpretation is asserted."
 }

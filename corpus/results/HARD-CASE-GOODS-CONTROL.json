@@ -1,6 +1,8 @@
 {
-  "id": "HARD-CASE-GOODS-CONTROL",
-  "argument_id": "HARD-CASE-GOODS-CONTROL",
+  "id": "46876343-516d-553e-a822-b29193441a2b",
+  "label": "A single typed hard-case factual structure and shared independently stipulated good and damage…",
+  "legacy_id": "HARD-CASE-GOODS-CONTROL",
+  "argument_id": "5cbcb915-e10e-598c-b91e-469a65802aa0",
   "challenge_module": "TruthCore.Results.Ethics.HardCaseGoods.Challenge",
   "solution_module": "TruthCore.Results.Ethics.HardCaseGoods.Solution",
   "theorem": "TruthCore.Results.Ethics.HardCaseGoods.certificate",

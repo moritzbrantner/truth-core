@@ -1,14 +1,16 @@
 {
-  "id": "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS-STRONG",
+  "id": "35871d99-a2e5-5625-82c4-2b61836633a2",
+  "label": "Strong version, NOT approved: at the selected world, every bearer of causal power and every…",
+  "legacy_id": "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS-STRONG",
   "paraphrase": "Strong version, NOT approved: at the selected world, every bearer of causal power and every efficient cause is concrete (the weak, approved version), and in addition every cause in every other supplied causal sense (formal, final, exemplar, explanatory, …) is concrete, i.e. has esse in re.",
   "lean_declaration": "TruthCore.Causality.CausalPowerConcretenessStrength.AllCausalSensesRequireConcreteAt",
   "definition_ids": [
-    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE",
-    "DEF-CONCRETE-ESSE-IN-RE"
+    "d662ee50-cdd3-517b-bd8a-024dca5929d0",
+    "008cb21a-256c-5a90-822c-acd4591d699a"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE",
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA"
+    "32416dd1-c3ce-5180-bf06-1cabab088be7",
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
   ],
   "note": "Recorded so that the strength fork is in the corpus (#1017, review of #1106). The owner approved only the weak version (#1103, 2026-11-06). The strong version would conflict with exemplar causation on the Fourth Way route (STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS) and with Aristotelian formal and final causes, where the cause need not be a concrete individual."
 }

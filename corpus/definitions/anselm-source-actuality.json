@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ANSELM-SOURCE-ACTUALITY",
+  "id": "bfc6b432-2215-558b-96af-1e28ee037ef4",
+  "label": "Source-side actuality of through: For all x,y at the selected world, through w x y implies y…",
+  "legacy_id": "DEF-ANSELM-SOURCE-ACTUALITY",
   "term": "source-side actuality of through",
   "definition": "For all x,y at the selected world, through w x y implies y exists there. This retains only the source-side part of Tapp’s EP1 endpoint-factivity condition, not its stronger target-side part. No necessary, concrete or causally productive source is inferred.",
   "lean_declaration": "TruthCore.Explanation.AnselmUltimateSource.SourcesActualAt",

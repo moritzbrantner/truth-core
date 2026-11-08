@@ -1,6 +1,8 @@
 {
-  "id": "RETAINED-DUTY-DIRECT-CORE",
-  "argument_id": "RETAINED-DUTY-DIRECT-CORE",
+  "id": "8f402711-4481-50bb-a582-2c215a7533fa",
+  "label": "Logical falsity, from The fixed agent owes return of the… and 2 more",
+  "legacy_id": "RETAINED-DUTY-DIRECT-CORE",
+  "argument_id": "041a6b3e-e58d-5e24-8569-5ad63f03ea32",
   "challenge_module": "TruthCore.Results.Modal.RetainedDuty.Challenge",
   "solution_module": "TruthCore.Results.Modal.RetainedDuty.Solution",
   "theorem": "TruthCore.Results.Modal.RetainedDuty.directCore",

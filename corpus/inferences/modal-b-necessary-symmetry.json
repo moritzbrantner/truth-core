@@ -1,7 +1,9 @@
 {
-  "id": "INF-MODAL-B-NECESSARY-SYMMETRY",
+  "id": "74a4a1a2-01ad-59e0-9aa5-95c853f05c41",
+  "label": "On every symmetric frame, actual full-predicate MC is equivalent to necessary…, by Direct-proof",
+  "legacy_id": "INF-MODAL-B-NECESSARY-SYMMETRY",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-MODAL-B-NECESSARY-SYMMETRY",
+  "output_statement_id": "1a8af7dc-5281-5fff-ae7a-e84838f9fc76",
   "rule": "direct-proof",
   "meaning": "Compose K successor identity for actual-to-necessary MC. Conversely each accessible successor has MC; its symmetric back-edge to the root and admissible equality identify it with the root. K successor identity then yields actual MC. At a dead end the universal reasoning remains valid without positing a successor.",
   "assumption_statement_ids": [],

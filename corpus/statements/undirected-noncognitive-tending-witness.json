@@ -1,14 +1,16 @@
 {
-  "id": "STMT-UNDIRECTED-NONCOGNITIVE-TENDING-WITNESS",
+  "id": "dede2803-97ba-5df3-ac1b-18dd344e1f3c",
+  "label": "Some noncognitive member broadly tends to an end while no knowing intelligent member directs it to…",
+  "legacy_id": "STMT-UNDIRECTED-NONCOGNITIVE-TENDING-WITNESS",
   "paraphrase": "Some noncognitive member broadly tends to an end while no knowing intelligent member directs it to that same end, under one shared formal signature. Open structural rival input, not inferred from selection/coupling or the raw global naturalistic summary.",
   "lean_declaration": "TruthCore.Teleonomy.DirectorRivalBoundary.UndirectedTendingWitness",
   "definition_ids": [
-    "DEF-TELEONOMY-DIRECTOR-RIVAL-WITNESS",
-    "DEF-INTENTIO-AS-TENDING",
-    "DEF-TELEONOMY-MODEL-SCOPE"
+    "4404df1d-a1c1-5e61-8f8d-24e9b60f6ad5",
+    "2847d4f1-a13a-5d0f-8cc1-abf1c807f92f",
+    "b5b918e7-b170-5d37-acad-10004f3570b7"
   ],
   "disambiguation_ids": [
-    "DISAMB-INTENTIO",
-    "DISAMB-TELEONOMY-FINALITY-AND-AGENCY"
+    "2e3e5bfd-2e1a-5766-933d-79a7824c6249",
+    "066d546d-53f8-5319-8333-6b117a152002"
   ]
 }

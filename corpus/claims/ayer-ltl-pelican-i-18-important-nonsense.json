@@ -1,7 +1,9 @@
 {
-  "id": "AYER-LTL-PELICAN-I-18-IMPORTANT-NONSENSE",
-  "statement_id": "STMT-LAWS-IMPORTANT-NONSENSE",
-  "source_id": "AYER-LTL-PELICAN",
+  "id": "ee4d07ac-30bd-584e-8041-b8a9b1b5ba6b",
+  "label": "A. J. Ayer, Language Ch: The strong verificationist's reply to the universal-laws objection, as…",
+  "legacy_id": "AYER-LTL-PELICAN-I-18-IMPORTANT-NONSENSE",
+  "statement_id": "fdaf52d6-cf34-5ca1-b42f-7e74047f43ca",
+  "source_id": "1bbb77e6-62ac-5ee0-bbb4-0387b016e795",
   "locator": "ch. I, p. 18, \"some positivists have adopted the heroic course of saying that these general propositions are indeed pieces of nonsense\"",
   "interpretation": "V1's answer to defeat 2, reported by Ayer, who rejects it as a hedge (p. 19). The footnote marker in the OCR text is unreadable, so the claim does not name which positivists; the view is commonly associated with Schlick 1931 (laws as rules for forming statements), which is not pinned here.",
   "attribution": "The passage states that some positivists have adopted the course of saying that general propositions of law are pieces of nonsense, albeit an essentially important type of nonsense, which is the premise.",

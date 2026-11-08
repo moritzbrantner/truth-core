@@ -1,5 +1,7 @@
 {
-  "id": "DEF-OPERATION-THROUGH-FORM-FOR-END",
+  "id": "fa727d21-0365-5c34-9d50-11221e90d6a2",
+  "label": "Operation through a form, directed to…: OperatesThrough x f o: o is an operation of x of which the…",
+  "legacy_id": "DEF-OPERATION-THROUGH-FORM-FOR-END",
   "term": "operation through a form, directed to an end (OperatesThrough x f o, DirectedTo o e)",
   "definition": "OperatesThrough x f o: o is an operation of x of which the form f (natural or intelligible) is the principle (forma est principium operationis). DirectedTo o e: the operation o is directed to the end e (omne agens agit propter finem), which need not be conscious (DEF-INTENTIO-AS-TENDING). Neither is inclination (InclinedTo, DEF-NATURAL-APPETITE-FORM-INCLINATION); the open premise STMT-END-DIRECTED-OPERATION-IS-INCLINATION relates them. Example: fire heating through its form, toward its proper place or effect. In Lean parameters B -> F -> O -> Prop and O -> E -> Prop.",
   "basis": "stipulative",

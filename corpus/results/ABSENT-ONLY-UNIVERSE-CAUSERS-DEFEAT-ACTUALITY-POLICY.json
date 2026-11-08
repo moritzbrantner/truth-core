@@ -1,6 +1,8 @@
 {
-  "id": "ABSENT-ONLY-UNIVERSE-CAUSERS-DEFEAT-ACTUALITY-POLICY",
-  "argument_id": "ABSENT-ONLY-UNIVERSE-CAUSERS-DEFEAT-ACTUALITY-POLICY",
+  "id": "1e16b1b1-5e37-5aba-b410-c4fc1732f7ed",
+  "label": "Exact negation of the selected-whole-causer…, from A candidate edge to the selected whole…",
+  "legacy_id": "ABSENT-ONLY-UNIVERSE-CAUSERS-DEFEAT-ACTUALITY-POLICY",
+  "argument_id": "5758bd1a-bcde-514a-9d60-cf363e3a6915",
   "challenge_module": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.AbsentFailure.Challenge",
   "solution_module": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.AbsentFailure.Solution",
   "theorem": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.AbsentFailure.absentFailure",

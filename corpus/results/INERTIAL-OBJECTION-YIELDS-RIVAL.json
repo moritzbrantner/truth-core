@@ -1,6 +1,8 @@
 {
-  "id": "INERTIAL-OBJECTION-YIELDS-RIVAL",
-  "argument_id": "INERTIAL-OBJECTION-YIELDS-RIVAL",
+  "id": "07956757-c41f-5f2c-a66f-4d75df1fb65d",
+  "label": "Inertial rival: some body is being moved…, from Newton, Def. iii iv, for uniform MOTION_1… and 4…",
+  "legacy_id": "INERTIAL-OBJECTION-YIELDS-RIVAL",
+  "argument_id": "685ebf31-960c-53b0-8b41-e15e58cc9f18",
   "challenge_module": "TruthCore.Results.Alternatives.InertialObjectionYieldsRival.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.InertialObjectionYieldsRival.Solution",
   "theorem": "TruthCore.Results.Alternatives.InertialObjectionYieldsRival.inertialObjectionYieldsRival",

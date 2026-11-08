@@ -1,6 +1,8 @@
 {
-  "id": "BRIDGE-QUINTA-REGULAR-BODIES-ALL-TO-SOME",
-  "argument_id": "BRIDGE-QUINTA-REGULAR-BODIES-ALL-TO-SOME",
+  "id": "39906a4d-661e-50a6-8f2d-1021748b8c21",
+  "label": "Some natural body operates always or for the…, from There are natural bodies, and every natural…",
+  "legacy_id": "BRIDGE-QUINTA-REGULAR-BODIES-ALL-TO-SOME",
+  "argument_id": "1e6fa15b-3ecd-543f-9787-9454abc05279",
   "challenge_module": "TruthCore.Results.Bridges.QuintaRegularBodiesAllToSome.Challenge",
   "solution_module": "TruthCore.Results.Bridges.QuintaRegularBodiesAllToSome.Solution",
   "theorem": "TruthCore.Results.Bridges.QuintaRegularBodiesAllToSome.someNaturalBodiesActRegularlyForTheBestOfAll",

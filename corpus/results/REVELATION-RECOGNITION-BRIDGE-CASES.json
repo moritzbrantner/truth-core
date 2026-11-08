@@ -1,6 +1,8 @@
 {
-  "id": "REVELATION-RECOGNITION-BRIDGE-CASES",
-  "argument_id": "REVELATION-RECOGNITION-BRIDGE-CASES",
+  "id": "906f1fd6-4de4-512b-8833-240b4b34f232",
+  "label": "Either capability is realized correctly in an…, from Excluded middle as a general principle…",
+  "legacy_id": "REVELATION-RECOGNITION-BRIDGE-CASES",
+  "argument_id": "530858fb-c60a-50be-ad42-4b1e35479694",
   "challenge_module": "TruthCore.Results.Alternatives.RevelationRecognition.Coverage.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.RevelationRecognition.Coverage.Solution",
   "theorem": "TruthCore.Results.Alternatives.RevelationRecognition.Coverage.bridgeCoverage",

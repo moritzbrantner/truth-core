@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CC100-8-NECESSARY-BEING-INVOLVEMENT",
+  "id": "08e84929-79ca-5765-b208-420d5461b5ce",
+  "label": "A proposition explains the actual-world BCCP only if it involves a necessary being",
+  "legacy_id": "STMT-CC100-8-NECESSARY-BEING-INVOLVEMENT",
   "paraphrase": "A proposition explains the actual-world BCCP only if it involves a necessary being.",
   "definition_ids": [
-    "DEF-CC100-8-FIXED-BCCP-INVOLVEMENT"
+    "97687247-6a7d-54cf-9a26-7d393d68b483"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

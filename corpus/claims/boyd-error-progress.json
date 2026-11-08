@@ -1,16 +1,18 @@
 {
-  "id": "BOYD-46-ERROR-PROGRESS",
-  "statement_id": "STMT-BOYD-MORAL-ERROR-PROGRESS",
-  "source_id": "BOYD-HOW-TO-BE-A-MORAL-REALIST",
+  "id": "69ee1190-1bbf-515b-9f46-752fb1ccded1",
+  "label": "Richard N. Boyd, How to be a Moral Realist…: Boyd permits moral error and improvement in knowledge…",
+  "legacy_id": "BOYD-46-ERROR-PROGRESS",
+  "statement_id": "126e4ba1-f230-5668-b8e9-777d6044d254",
+  "source_id": "277ef663-b70c-5541-a6c4-f67fd04c205a",
   "locator": "reprint §§4.3–4.4 and 4.6, pp. 329–335 and 338–340",
   "interpretation": "Source reading recorded in prose only. The proposal and its qualifications are retained; it is neither a mechanically verified empirical conclusion nor an established normative bridge.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-BOYD-HOMEOSTATIC-GOODNESS",
-    "DEF-NATURALIST-APPRAISER-INDEPENDENCE",
-    "DEF-MORAL-ERROR"
+    "1ad46e75-d8f0-515c-9d27-3632b5945195",
+    "4bec6a3a-8ce8-51cd-8657-265ae830eab1",
+    "75f4c7ef-62fc-5752-9ee9-6f680c1651ac"
   ],
   "disambiguation_ids": [
-    "DISAMB-NATURALISTIC-EVALUATIVE-ROLES"
+    "685dae72-5d39-5905-955e-c2cd404d6932"
   ]
 }

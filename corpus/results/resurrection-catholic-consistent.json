@@ -1,6 +1,8 @@
 {
-  "id": "RESURRECTION-CATHOLIC-CONSISTENT",
-  "argument_id": "RESURRECTION-CATHOLIC-CONSISTENT",
+  "id": "16aa8a19-6884-5875-b47e-b9c7f2abc579",
+  "label": "The limited Catholic pilot bundle is jointly satisfiable with E0–E5",
+  "legacy_id": "RESURRECTION-CATHOLIC-CONSISTENT",
+  "argument_id": "c515ba33-92a5-5028-a199-cdc2913bdf3f",
   "challenge_module": "TruthCore.Results.Comparison.Resurrection.CatholicConsistent.Challenge",
   "solution_module": "TruthCore.Results.Comparison.Resurrection.CatholicConsistent.Solution",
   "theorem": "TruthCore.Results.Comparison.Resurrection.CatholicConsistent.consistent",

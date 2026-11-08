@@ -1,9 +1,11 @@
 {
-  "id": "DEF-NATURAL-APPETITE-FORM-INCLINATION",
+  "id": "678b9306-81f1-5c61-ab90-6e4594395b50",
+  "label": "NATURAL_APPETITE_1: The inclination following a thing's own natural form or nature",
+  "legacy_id": "DEF-NATURAL-APPETITE-FORM-INCLINATION",
   "term": "natural appetite (inclination following natural form)",
   "definition": "The inclination following a thing's own natural form or nature. A cognitive or appetitive power can itself have such a natural inclination; this alone does not make the inclination a cognition-relative appetitive power.",
   "basis": "sourced",
   "claim_ids": [
-    "AQUINAS-ST-I-Q80-A1-COGNITIVE-APPETITE"
+    "4d770507-2aab-59d5-afe0-fcdec35653da"
   ]
 }

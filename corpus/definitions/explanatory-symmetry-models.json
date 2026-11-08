@@ -1,5 +1,7 @@
 {
-  "id": "DEF-EXPLANATORY-SYMMETRY-MODELS",
+  "id": "176c29c3-378e-57d1-8ff9-895951c40d1c",
+  "label": "RIVAL_SELECTION_MODELS_2: On the #750 signature and rivals. oneWay: ground with one ranking, target…",
+  "legacy_id": "DEF-EXPLANATORY-SYMMETRY-MODELS",
   "term": "rival selection models",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Explanation.ExplanatorySymmetry.oneWay",

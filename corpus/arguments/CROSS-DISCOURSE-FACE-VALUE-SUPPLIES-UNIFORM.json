@@ -1,22 +1,24 @@
 {
-  "id": "CROSS-DISCOURSE-FACE-VALUE-SUPPLIES-UNIFORM",
+  "id": "f6a26f47-41c8-5bd5-9676-70750331e3d2",
+  "label": "Whenever a selected religious sentence is assigned…, from Stronger analyst profile combining local…",
+  "legacy_id": "CROSS-DISCOURSE-FACE-VALUE-SUPPLIES-UNIFORM",
   "premise_statement_ids": [
-    "STMT-RELIGIOUS-CROSS-DISCOURSE-FACE-VALUE"
+    "b917f813-5020-5506-b7cd-eac478ddff72"
   ],
-  "conclusion_statement_id": "STMT-RELIGIOUS-MATCHED-TRUTH-UNIFORM",
+  "conclusion_statement_id": "1ff9aed4-fa1d-56e0-b9b8-ef79e8395e8e",
   "inference_ids": [
-    "INF-CROSS-DISCOURSE-FACE-VALUE-SUPPLIES-UNIFORM"
+    "b62b5d7b-0ca6-5f7f-a96a-b53600a74375"
   ],
   "meaning": "Project matched-content invariance from the stronger analyst cross-discourse profile. This is an assembly transcription and sole-premise strength certificate.",
   "definition_ids": [
-    "DEF-RELIGIOUS-CONTENT-AND-DISCOURSE-TRUTH-PROFILE",
-    "DEF-RELIGIOUS-LOCAL-FACE-VALUE",
-    "DEF-RELIGIOUS-CROSS-DISCOURSE-FACE-VALUE"
+    "05c208f5-5137-5984-b940-083faed296ac",
+    "7e1cb856-5004-5ee5-b6e3-65aef915b0a7",
+    "b3e05273-087e-5a8f-864d-52e56f82d3b4"
   ],
   "disambiguation_ids": [
-    "DISAMB-RELIGIOUS-LOCAL-FACE-VALUE-AND-CROSS-DISCOURSE-UNIFORMITY"
+    "972577ea-4155-59ec-9f20-0399367c7de5"
   ],
   "strong_version_needed": {
-    "STMT-RELIGIOUS-CROSS-DISCOURSE-FACE-VALUE": "This is the checked sole-premise strong-to-weak projection; no historical source claim is attributed the stronger analyst conjunction."
+    "b917f813-5020-5506-b7cd-eac478ddff72": "This is the checked sole-premise strong-to-weak projection; no historical source claim is attributed the stronger analyst conjunction."
   }
 }

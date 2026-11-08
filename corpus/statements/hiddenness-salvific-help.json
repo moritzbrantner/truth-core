@@ -1,12 +1,14 @@
 {
-  "id": "STMT-HIDDENNESS-SALVIFIC-HELP",
+  "id": "404c0c99-c749-5add-9082-2a11acac2ba3",
+  "label": "Providence does not deny necessary salvific helps to those who without fault have not reached…",
+  "legacy_id": "STMT-HIDDENNESS-SALVIFIC-HELP",
   "paraphrase": "Providence does not deny necessary salvific helps to those who without fault have not reached explicit acknowledgement of God and strive with divine grace for a right life. This conditional claim is not a guarantee of universal salvation or immediate conscious relationship.",
   "definition_ids": [
-    "DEF-HIDDENNESS-SALVIFIC-HELP",
-    "DEF-HIDDENNESS-CONSCIOUS-ACCESS"
+    "ba2f8e27-dc34-5e8b-91bb-fdca32f9a7ba",
+    "e83e512d-ae8d-5e80-a697-8fc1d672b7d3"
   ],
   "disambiguation_ids": [
-    "DISAMB-HIDDENNESS-RELATIONSHIP",
-    "DISAMB-HIDDENNESS-NONRESISTANCE"
+    "a4359a96-a726-5755-8359-a02b64f42f15",
+    "14bdf48f-9ea1-5329-9489-9674bea6132a"
   ]
 }

@@ -1,6 +1,8 @@
 {
-  "id": "UNDERIVED-ESSENCE-MODAL-ACTUALITY-BRIDGE",
-  "source_id": "AQUINAS-ST",
+  "id": "85b8f414-e21c-5408-b039-a08256b1e109",
+  "label": "Do not repeat completed source ingestion or the verified conditional identity proof",
+  "legacy_id": "UNDERIVED-ESSENCE-MODAL-ACTUALITY-BRIDGE",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "Premise-defense task; named q.3 a.4, De ente, Pearce and Dasgupta contexts already read; no fresh primary range selected",
   "priority": 424,
   "goal": "Do not repeat completed source ingestion or the verified conditional identity proof. Seek independent warrant for the discriminating inference from a contingent primitive to represented distinct esse (or the independently specified concrete-realization bridge), against the contingent-primitive rival. Existing sources do not identify modal contingency with passive receptivity, esse/essence nonidentity or concrete support. Reuse the exact source tests, joint-condition analysis and next discriminator in docs/notes/underived-essence-identity.md, including its recorded Dasgupta qualitative predicate-functor reply. A new source range must be explicitly selected before another source-ingestion run; no fresh range or unimplemented proof is presently advertised. Keep concrete realization, causal support and modal identity as separate open obligations.",

@@ -1,5 +1,7 @@
 {
-  "id": "STMT-REGULARITY-IS-NOT-BY-CHANCE",
+  "id": "070cef3e-cabc-56a5-9f78-af671d9ad194",
+  "label": "What a thing attains always or for the most part, it does not attain by chance",
+  "legacy_id": "STMT-REGULARITY-IS-NOT-BY-CHANCE",
   "paraphrase": "What a thing attains always or for the most part, it does not attain by chance.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.RegularityIsNotByChanceReading"
 }

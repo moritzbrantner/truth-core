@@ -1,12 +1,14 @@
 {
-  "id": "STMT-LIMITATION-SEPARATION-WITNESS",
+  "id": "25b84fd3-2d22-55c6-b36c-0cf45abfef91",
+  "label": "One individual at one world accessible from selected w exemplifies the SAME supplied target Phi…",
+  "legacy_id": "STMT-LIMITATION-SEPARATION-WITNESS",
   "lean_declaration": "TruthCore.Modal.LimitationSeparation.PossiblyOutsideAt",
   "paraphrase": "One individual at one world accessible from selected w exemplifies the SAME supplied target Phi and fails the SAME supplied known property Q. No actualist existence, necessary being, God or premise truth is asserted by the generic witness.",
   "definition_ids": [
-    "DEF-LIMITATION-SEPARATION-WITNESS",
-    "DEF-LIMITATION-POSSIBILITY-CONFIGURATION"
+    "f0f6a8a3-fa3d-5f6c-ab53-1922b7fb7a9b",
+    "3fb0a456-3dc6-500b-a8b7-0915d2514037"
   ],
   "disambiguation_ids": [
-    "DISAMB-LIMITATION-CONDITIONAL-SOURCE-SCOTT"
+    "1efd1154-f697-5442-9b14-7ce8f1215f23"
   ]
 }

@@ -1,6 +1,8 @@
 {
-  "id": "BRIDGE-ARIST-MOTION-ANALYSIS-MOVED-AS-IN-POTENCY",
-  "argument_id": "BRIDGE-ARIST-MOTION-ANALYSIS-MOVED-AS-IN-POTENCY",
+  "id": "458afd8e-da21-5965-91c3-8a05e731a9a9",
+  "label": "Nothing is moved except insofar as it is in…, from A being is being moved in a respect exactly…",
+  "legacy_id": "BRIDGE-ARIST-MOTION-ANALYSIS-MOVED-AS-IN-POTENCY",
+  "argument_id": "b4eccbb4-4430-568f-ab78-f181f1db5b06",
   "challenge_module": "TruthCore.Results.Bridges.AristMotionAnalysisMovedAsInPotency.Challenge",
   "solution_module": "TruthCore.Results.Bridges.AristMotionAnalysisMovedAsInPotency.Solution",
   "theorem": "TruthCore.Results.Bridges.AristMotionAnalysisMovedAsInPotency.movedOnlyAsInPotencyOfMotionDefinition",

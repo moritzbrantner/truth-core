@@ -1,5 +1,7 @@
 {
-  "id": "DEF-NECESSARY-UNIQUE-ULTIMATE-SOURCE",
+  "id": "a190b620-1679-54b4-b9ad-87ee218179f6",
+  "label": "Necessary witness of unique actual…: There exists one x with NecessaryAt reality.ontic w x and…",
+  "legacy_id": "DEF-NECESSARY-UNIQUE-ULTIMATE-SOURCE",
   "term": "necessary witness of unique actual ultimate-source status",
   "definition": "There exists one x with NecessaryAt reality.ontic w x and UltimateSourceAt m w x, and every y satisfying UltimateSourceAt m w y equals x. The same witness carries necessity, actual source status and uniqueness among ALL actual ultimate sources, including any contingent ones. Other dependent necessary individuals are not excluded. No universal-target source status, all-world rootness or divine identity is asserted.",
   "lean_declaration": "TruthCore.Explanation.NecessaryUltimateSource.NecessaryUniqueUltimateSourceAt",

@@ -1,6 +1,8 @@
 {
-  "id": "LOGIC-NOT-EVERY-PROPOSITION-HOLDS",
-  "argument_id": "LOGIC-NOT-EVERY-PROPOSITION-HOLDS",
+  "id": "a360c98c-dbb4-5412-b645-83b971e1a7f3",
+  "label": "Inside Lean logic, ¬. Dual of not every lean proposition fails",
+  "legacy_id": "LOGIC-NOT-EVERY-PROPOSITION-HOLDS",
+  "argument_id": "301f8e5f-ef2f-59c2-9749-b76402b44242",
   "challenge_module": "TruthCore.Results.Logic.TruthPilot.LogicalFloor.Challenge",
   "solution_module": "TruthCore.Results.Logic.TruthPilot.LogicalFloor.Solution",
   "theorem": "TruthCore.Results.Logic.TruthPilot.LogicalFloor.notEveryPropositionHolds",

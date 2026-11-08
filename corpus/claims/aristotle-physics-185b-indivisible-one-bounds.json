@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-185B-INDIVISIBLE-ONE-BOUNDS-A",
-  "statement_id": "STMT-INDIVISIBLE-ONE-EXCLUDES-QUANTITY-QUALITY-BOUNDS",
-  "source_id": "ARIST-PHYS",
+  "id": "1ffad673-498a-5a7f-9316-13ebe79683f6",
+  "label": "Aristotle, Physics I.2, 185b16-19: If the Eleatic One is one as indivisible, it has neither…",
+  "legacy_id": "ARIST-PHYS-185B-INDIVISIBLE-ONE-BOUNDS-A",
+  "statement_id": "d2196d6a-3680-5bf0-ae11-b763a52d3d1f",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.2, 185b16-19",
   "interpretation": "Aristotle tests the indivisible sense of unity and argues that it removes quantity and quality; on that interpretation the One is neither infinite as Melissus says nor limited as Parmenides says.",
   "status": "formalized"

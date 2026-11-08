@@ -1,9 +1,11 @@
 {
-  "id": "REL-TELEONOMY-ALTERNATIVE-TO-NON-COGNITIVE-TENDING-NEEDS-KNOWING-DIRECTOR",
+  "id": "1ed888a1-280a-5916-ba9d-9546bc045f6b",
+  "label": "The existing universal… alternative to What lacks cognition tends to an end…",
+  "legacy_id": "REL-TELEONOMY-ALTERNATIVE-TO-NON-COGNITIVE-TENDING-NEEDS-KNOWING-DIRECTOR",
   "subject_kind": "statement",
-  "subject_id": "STMT-NOT-NONCOGNITIVE-TENDING-DIRECTOR-PRINCIPLE",
+  "subject_id": "03d40e6a-f98d-5a95-b86f-db6584386922",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-NON-COGNITIVE-TENDING-NEEDS-KNOWING-DIRECTOR",
+  "object_id": "564ce19b-c9df-5031-b20e-3cb1baee124f",
   "note": "Exact logical negative of the same director universal after definition audit. The unchanged full STMT-NATURAL-ENDS-WITHOUT-DIRECTING-INTELLIGENCE-TELEONOMY remains an open, untyped global philosophical summary, not identified with this local counterexample or finite model. The explicit structural witness derives the negative through UNDIRECTED-TENDING-WITNESS-REFUTES-DIRECTOR-PRINCIPLE. A bridge from the raw summary to that witness must establish the same broad-tending sense and a populated noncognitive instance; it is OPEN and no source attribution is fabricated. Empty tending permits global absence of knowers alongside the director universal. Selection/coupling neither supplies the witness nor refutes broad tending; see TELEONOMY-DIRECTOR-RIVAL-CONTROLS and docs/notes/teleonomy-director-rival-boundary.md."
 }

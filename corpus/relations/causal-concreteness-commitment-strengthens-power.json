@@ -1,10 +1,12 @@
 {
-  "id": "REL-CAUSAL-CONCRETENESS-COMMITMENT-STRENGTHENS-POWER",
+  "id": "f4466764-5a17-5990-82c6-bacff88868da",
+  "label": "Owner framework commitment: At the… strengthens OPEN capacity clause alone: at the…",
+  "legacy_id": "REL-CAUSAL-CONCRETENESS-COMMITMENT-STRENGTHENS-POWER",
   "subject_kind": "statement",
-  "subject_id": "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS",
+  "subject_id": "e27489c3-7419-5123-8476-386633e62532",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-CAUSAL-POWER-REQUIRES-CONCRETENESS-AT",
-  "verification_result_id": "CAUSAL-CONCRETENESS-COMMITMENT-STRENGTHENS-POWER",
+  "object_id": "61b6e188-39aa-57d9-9e0b-dedc05226995",
+  "verification_result_id": "40133132-17cf-5911-8094-07864e6baf65",
   "note": "The capacity half of the owner's two-clause concreteness commitment; established via strength from the met common-ground floor item."
 }

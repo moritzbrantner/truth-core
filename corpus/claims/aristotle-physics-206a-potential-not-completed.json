@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-206A-POTENTIAL-NOT-COMPLETED-A",
-  "statement_id": "STMT-POTENTIAL-INFINITE-NOT-FUTURE-COMPLETED-ACTUAL",
-  "source_id": "ARIST-PHYS",
+  "id": "ae5c00c1-36e6-5edd-960a-95c94ecf26c5",
+  "label": "Aristotle, Physics III.6, 206a18-25: Potential infinity does not mean that a completed actual…",
+  "legacy_id": "ARIST-PHYS-206A-POTENTIAL-NOT-COMPLETED-A",
+  "statement_id": "fc1e5b13-bdc4-5472-95f0-ea97f0a04d94",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.6, 206a18-25",
   "interpretation": "Aristotle explicitly blocks the statue analogy: calling the infinite potential does not mean that an actual completed infinite will eventually result. Its mode of being is successive rather than a deferred completed object.",
   "status": "formalized"

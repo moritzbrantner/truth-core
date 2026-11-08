@@ -1,5 +1,7 @@
 {
-  "id": "MODEL-EMPTY-TRUTHMAKER-OMIT-E",
+  "id": "e682683e-a981-5f6b-b8fd-9f28579226ba",
+  "label": "One accessible Unit world and one Unit candidate; the candidate exists and the negative is false…",
+  "legacy_id": "MODEL-EMPTY-TRUTHMAKER-OMIT-E",
   "description": "One accessible Unit world and one Unit candidate; the candidate exists and the negative is false, with no making. Pullback of the already checked negativeArena control, not a newly discovered model.",
   "vocabulary": "EMPTY-TRUTHMAKER-SCOPED",
   "lean_declaration": "TruthCore.Explanation.EmptyTruthmaker.populatedControl",
@@ -29,7 +31,7 @@
   ],
   "evaluations": [
     {
-      "statement_id": "STMT-EMPTY-TRUTHMAKER-E",
+      "statement_id": "99e8ebc7-5707-5116-bc97-a1ea23bc88d3",
       "value": "violates",
       "arguments": [
         "W",
@@ -41,7 +43,7 @@
       "theorem": "TruthCore.Models.EmptyTruthmaker.omitE_notE"
     },
     {
-      "statement_id": "STMT-EMPTY-TRUTHMAKER-T",
+      "statement_id": "711d5039-6e3e-5166-bcc0-ec0467806922",
       "value": "satisfies",
       "arguments": [
         "W",
@@ -54,7 +56,7 @@
       "theorem": "TruthCore.Models.EmptyTruthmaker.omitE_T"
     },
     {
-      "statement_id": "STMT-EMPTY-TRUTHMAKER-I",
+      "statement_id": "3ea2491f-ba65-5783-b923-d931254eb3c8",
       "value": "satisfies",
       "arguments": [
         "W",
@@ -67,7 +69,7 @@
       "theorem": "TruthCore.Models.EmptyTruthmaker.omitE_I"
     },
     {
-      "statement_id": "STMT-EMPTY-TRUTHMAKER-FACTIVITY",
+      "statement_id": "8347a59b-76ca-5873-9dbf-24a9ea58078d",
       "value": "satisfies",
       "arguments": [
         "W",

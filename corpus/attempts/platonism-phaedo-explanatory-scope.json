@@ -1,25 +1,27 @@
 {
-  "id": "ATTEMPT-PLATONISM-PHAEDO-EXPLANATORY-SCOPE",
+  "id": "48fedaca-c984-5a62-8e37-449e33feae80",
+  "label": "Materialized/read complete Phaedo 99–102 from the existing immutable Burnet Greek witness",
+  "legacy_id": "ATTEMPT-PLATONISM-PHAEDO-EXPLANATORY-SCOPE",
   "statement_ids": [
-    "STMT-PLATONIC-PHAEDO-99A-ENABLING-BODY",
-    "STMT-PLATONIC-PHAEDO-99BC-EXPLANATORY-SEARCH",
-    "STMT-PLATONIC-PHAEDO-100B-FORMS-HYPOTHESIS",
-    "STMT-PLATONIC-PHAEDO-101BC-TWONESS-SAFE-ANSWER",
-    "STMT-PLATONIC-EXPLANATORY-PARTICIPATION",
-    "STMT-PLATONIC-PARTICIPATION-PREDICATION",
-    "STMT-GRADES-HAVE-A-MAXIMUM",
-    "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS"
+    "4d6047a6-1f2e-5087-85f7-86584166112b",
+    "03be5578-f739-58ac-9057-f9021010f995",
+    "4424ec00-c125-52df-9386-6743880a8be2",
+    "cdb79b27-ae9e-5c38-a2e0-fb438bb957d1",
+    "d5dfae98-bb39-54da-99ac-9f855a8edfc0",
+    "4557ccdd-956d-5645-82d5-9c4701556636",
+    "6c27657f-a2bf-5c1d-963c-c154b66bfa85",
+    "d9fad785-40ab-555a-a1c1-5e39c9d50497"
   ],
   "date": "2026-10-28",
   "kind": "reading",
   "outcome": "succeeded",
   "summary": "Materialized/read complete Phaedo 99–102 from the existing immutable Burnet Greek witness. Added four bounded prose readings of necessary bodily conditions versus explanatory cause, the unmet best-arrangement explanatory aim, Forms as the granted hypothesis, and the safe twoness answer. Reused existing Forms and ParticipationGrounding vocabulary, groundingIndependent and Third Man sensitivity certificates rather than adding an identical efficient-cause/selection/likeness countermodel. Rejected identifying the safe answer with a demonstrated complete teleology, a numerical maximum, universal efficient production or a highest unique divine source. Positive Platonist, immanent-form and concept/sign replies are compared as different proposed explanations; their adequacy remains open. Exact source interpretation, theorem reuse, remaining bridges and scope limits are in docs/platonic-forms.md. No new theorem or result, no existing claim strengthening and no root-premise discharge.",
   "evidence": [
-    "PLATO-PHAEDO-99A-ENABLING-BODY",
-    "PLATO-PHAEDO-99BC-EXPLANATORY-SEARCH",
-    "PLATO-PHAEDO-100B-FORMS-HYPOTHESIS",
-    "PLATO-PHAEDO-101BC-TWONESS-SAFE-ANSWER",
-    "PARTICIPATION-GROUNDING-INDEPENDENT",
-    "THIRD-MAN-SENSITIVITY"
+    "9eb61816-3aaf-53c9-af94-abdae81d41c1",
+    "41937743-45a3-5986-82b2-aef796f82456",
+    "7a2aa137-28fb-5ae5-b465-86f1ed926dc1",
+    "ab728e26-866e-53ea-aa15-572c386e5957",
+    "5ea67ac7-55f9-5e8d-b156-d816a7f662f2",
+    "317f30d9-86d4-5641-af80-f3bf4f8722d3"
   ]
 }

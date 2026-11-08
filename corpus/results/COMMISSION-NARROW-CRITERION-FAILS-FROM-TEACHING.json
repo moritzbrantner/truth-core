@@ -1,6 +1,8 @@
 {
-  "id": "COMMISSION-NARROW-CRITERION-FAILS-FROM-TEACHING",
-  "argument_id": "COMMISSION-NARROW-CRITERION-FAILS-FROM-TEACHING",
+  "id": "133440f7-4413-57d1-8404-1bb1ecaa1107",
+  "label": "The selected governing predicate does not coextend with the fixed narrow table, from teaching",
+  "legacy_id": "COMMISSION-NARROW-CRITERION-FAILS-FROM-TEACHING",
+  "argument_id": "fb9440bd-8d43-5a64-8583-f3edabad7902",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.narrowFailsFromTeaching",

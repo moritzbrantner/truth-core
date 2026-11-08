@@ -1,17 +1,19 @@
 {
-  "id": "STMT-ACTUAL-ESSE-CAUSES-SUPPORT-AT",
+  "id": "fd041f85-1553-5657-ad3a-95c2bb2975f7",
+  "label": "Each numerically distinct cause-in-esse edge whose endpoints both exist at the selected world…",
+  "legacy_id": "STMT-ACTUAL-ESSE-CAUSES-SUPPORT-AT",
   "lean_declaration": "TruthCore.Causality.ExistenceActuality.ActualEsseCausesSupportAt",
   "paraphrase": "Open direct interface: each numerically distinct cause-in-esse edge whose endpoints both exist at the selected world gives an R-support edge there. No map from all ordinary causal edges, cause presence or actuality conclusion is asserted.",
   "definition_ids": [
-    "DEF-ACTUAL-ESSE-CAUSES-SUPPORT-AT",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-ESSE",
-    "DEF-PRESENT-ESSE-SUPPORT"
+    "313f1c9b-a42e-57c1-95cc-ae404ef67fcb",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "b242943a-34cc-582d-8c38-c1203b9d2c91"
   ],
   "disambiguation_ids": [
-    "DISAMB-ORDINARY-CAUSE-VS-ESSE-SUPPORT-INTERFACE",
-    "DISAMB-EXISTENCE-ESSE-SUPPORT",
-    "DISAMB-Q3A4-CAUSAL-VS-NONCAUSAL-REASON"
+    "848f45d0-25f0-5ad9-af75-ab59f61e11c5",
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "86d198f5-e724-558a-8fce-b0a1e3592e08"
   ]
 }

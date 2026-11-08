@@ -1,6 +1,8 @@
 {
-  "id": "NATURAL-PREDICATE-MODUS-PONENS",
-  "argument_id": "NATURAL-PREDICATE-MODUS-PONENS",
+  "id": "47710a7a-1bd8-5eb8-912d-ccf7176925fb",
+  "label": "The shared compositional interpretation preserves moral modus ponens for any act predicate",
+  "legacy_id": "NATURAL-PREDICATE-MODUS-PONENS",
+  "argument_id": "3f52b569-fe9a-59df-b2ee-51800200cd76",
   "challenge_module": "TruthCore.Results.Comparison.NaturalisticRealism.NaturalPredicateModusPonens.Challenge",
   "solution_module": "TruthCore.Results.Comparison.NaturalisticRealism.NaturalPredicateModusPonens.Solution",
   "theorem": "TruthCore.Results.Comparison.NaturalisticRealism.NaturalPredicateModusPonens.naturalPredicateModusPonens",

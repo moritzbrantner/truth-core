@@ -1,5 +1,7 @@
 {
-  "id": "DEF-FACTIVE-KNOWLEDGE",
+  "id": "5e65094d-ea93-5028-869b-f6c1a61a08cb",
+  "label": "FACTIVE_PROPOSITIONAL_KNOWLEDGE_3: FactiveKnowledge Knows requires that for every agent a and…",
+  "legacy_id": "DEF-FACTIVE-KNOWLEDGE",
   "term": "factive propositional knowledge",
   "definition": "FactiveKnowledge Knows requires that for every agent a and proposition p, Knows a p entails p. The predicate Knows is otherwise unconstrained: no knowledge is asserted to exist. Factivity is explicit in the theorem rather than silently inferred from assertion.",
   "basis": "stipulative",

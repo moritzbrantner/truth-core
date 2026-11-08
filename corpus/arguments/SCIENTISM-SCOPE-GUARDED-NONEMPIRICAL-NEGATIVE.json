@@ -1,12 +1,14 @@
 {
-  "id": "SCIENTISM-SCOPE-GUARDED-NONEMPIRICAL-NEGATIVE",
+  "id": "ea633266-9f8b-5908-95e9-7c79addb09d0",
+  "label": "There is no established claim failing…, from Scientism with explicit scope: every… and 1 more",
+  "legacy_id": "SCIENTISM-SCOPE-GUARDED-NONEMPIRICAL-NEGATIVE",
   "premise_statement_ids": [
-    "STMT-STRONG-SCIENTISM",
-    "STMT-SCIENTISM-EXISTENTIAL-NONEMPIRICAL-SCOPE"
+    "d190bb85-c7ac-5254-b76b-c33ade4543e3",
+    "31cf9a3d-d80b-5f6a-920a-e515a246df53"
   ],
-  "conclusion_statement_id": "STMT-NO-NONEMPIRICAL-ESTABLISHED",
+  "conclusion_statement_id": "66e84d62-f22c-5b48-bc33-4dc193de30dd",
   "inference_ids": [
-    "INF-SCIENTISM-SCOPE-GUARDED-NONEMPIRICAL-NEGATIVE"
+    "122ce216-b65c-5358-a357-24b8cbc23dcf"
   ],
   "meaning": "The unchanged scoped norm and explicit existential witness-transfer coverage exclude nonempirical established claims. Generic scoped scientism alone does not."
 }

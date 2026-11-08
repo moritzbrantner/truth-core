@@ -1,18 +1,20 @@
 {
-  "id": "KOONS-1996-COR1-FIXED-FACT-MODAL-DOMAIN",
-  "statement_id": "STMT-KOONS-1996-COR1-FIXED-FACT-MODAL-DOMAIN",
-  "source_id": "KOONS-NEW-LOOK-AUTHOR-PREPRINT-1996",
+  "id": "b3eaf159-dcdf-5823-8822-e7e24f97112f",
+  "label": "Robert C. Koons, A New Look at the…: The domain of possible facts is fixed across worlds, with…",
+  "legacy_id": "KOONS-1996-COR1-FIXED-FACT-MODAL-DOMAIN",
+  "statement_id": "3d6167b0-5a1a-57b2-be5d-fb5297ae0ae6",
+  "source_id": "63f6997a-8e9f-54a2-96c1-0ed79b9d97a4",
   "locator": "author preprint dated 18 December 1996, §3, physical PDF p.3, modal framework paragraph",
   "interpretation": "The source explicitly fixes the possible-FACT domain and specifies these logical resources. This does not by itself fix each fact’s ordinary-being constituents, identify facts with propositions, supply a rigid bearer for an existential fact or establish all-world realization of assigned candidates. This attribution is to the verified author preprint, not an asserted identical journal edition. No formal consequence or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-KOONS-1996-FACT-BEING-INVOLVEMENT",
-    "DEF-KOONS-1996-FIXED-POSSIBLE-FACT-DOMAIN"
+    "a3b179ce-b769-55bc-bda1-a2cb8626f36f",
+    "8d5ff44f-e39b-5615-b61b-368e35be45c2"
   ],
   "disambiguation_ids": [
-    "DISAMB-KOONS-1996-FIXED-FACT-BEARER",
-    "DISAMB-ASSIGNED-FIXED-CONSTITUENTS-AND-FACT-NECESSITY",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
-    "DISAMB-PSR-EXPLANATION-CAUSE"
+    "80acd34f-e0f4-5354-a24d-81fec4cbe173",
+    "7c017403-5d47-524f-b748-abac81add9d4",
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "f7bae38e-9b21-54fe-8236-2646c230568b"
   ]
 }

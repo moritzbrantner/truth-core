@@ -1,9 +1,11 @@
 {
-  "id": "INF-REGRESS-READINGS-COINCIDE-CLASSICALLY",
+  "id": "387a1565-7cfd-5b86-b211-ce6897987cbc",
+  "label": "In classical logic, for every relation R on any type of beings…, by Classical-descending-chain-co…",
+  "legacy_id": "INF-REGRESS-READINGS-COINCIDE-CLASSICALLY",
   "input_statement_ids": [
-    "STMT-REGRESS-ACCESSIBILITY-EXCLUDES-DESCENDING-SERIES"
+    "d1d68a01-7d72-5971-9fa2-fc5289238639"
   ],
-  "output_statement_id": "STMT-REGRESS-READINGS-COINCIDE-CLASSICALLY",
+  "output_statement_id": "61f5949d-a8d6-5fa6-8864-2c4e891e1610",
   "rule": "classical-descending-chain-construction",
   "meaning": "The forward direction is the imported constructive result. For the converse, Mathlib's acc_iff_isEmpty_descending_chain builds, by classical choice, an infinite descending series from any inaccessible being, which contradicts the absence of such series.",
   "assumption_statement_ids": [],

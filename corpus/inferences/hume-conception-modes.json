@@ -1,7 +1,9 @@
 {
-  "id": "INF-HUME-CONCEPTION-MODES",
+  "id": "b3ef8b05-fe76-5512-a183-480f3b276dfd",
+  "label": "POSSIBILITY_DEFINED_CONCEPTION_3 satisfies H by definition, by Direct-proof",
+  "legacy_id": "INF-HUME-CONCEPTION-MODES",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-HUME-CONCEPTION-MODES",
+  "output_statement_id": "0468c269-c9fe-553e-b520-e93e65249054",
   "rule": "direct-proof",
   "meaning": "Use direct denotation of a conjunction and its negation, an inaccessible satisfying Bool world, identity of possibility-defined conception with Dia, and project the previously checked narrow-withholding and indiscriminate witnesses.",
   "assumption_statement_ids": [],

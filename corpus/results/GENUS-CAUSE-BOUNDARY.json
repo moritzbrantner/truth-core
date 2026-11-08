@@ -1,6 +1,8 @@
 {
-  "id": "GENUS-CAUSE-BOUNDARY",
-  "argument_id": "GENUS-CAUSE-BOUNDARY",
+  "id": "ad12029a-ab6b-58df-a24b-1c30228fc648",
+  "label": "A nonvacuous four-term interpretation of the existing strict-GENUS_1 predication clauses classifies…",
+  "legacy_id": "GENUS-CAUSE-BOUNDARY",
+  "argument_id": "46a6d06c-384a-57a3-98db-c2d670ac984c",
   "challenge_module": "TruthCore.Results.Mereology.GenusCauseBoundary.Challenge",
   "solution_module": "TruthCore.Results.Mereology.GenusCauseBoundary.Solution",
   "theorem": "TruthCore.Results.Mereology.GenusCauseBoundary.checks",

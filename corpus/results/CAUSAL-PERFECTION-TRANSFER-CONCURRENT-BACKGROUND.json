@@ -1,6 +1,8 @@
 {
-  "id": "CAUSAL-PERFECTION-TRANSFER-CONCURRENT-BACKGROUND",
-  "argument_id": "CAUSAL-PERFECTION-TRANSFER-CONCURRENT-BACKGROUND",
+  "id": "66aab41c-33a1-5c61-ac53-8d94dfb24aa5",
+  "label": "The four-being concurrent interpretation jointly satisfies TransferModelBackground true…",
+  "legacy_id": "CAUSAL-PERFECTION-TRANSFER-CONCURRENT-BACKGROUND",
+  "argument_id": "661a36df-768e-53a1-b1b6-e1c5bae3a8da",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.separator",

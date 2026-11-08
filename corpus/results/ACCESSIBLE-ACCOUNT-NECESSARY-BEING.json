@@ -1,6 +1,8 @@
 {
-  "id": "ACCESSIBLE-ACCOUNT-NECESSARY-BEING",
-  "argument_id": "ACCESSIBLE-ACCOUNT-NECESSARY-BEING",
+  "id": "314ac1cd-8a9a-562b-a4ed-f104bb91dc3c",
+  "label": "At least one individual exists at the…, from Excluded middle as a general principle… and 4 more (2)",
+  "legacy_id": "ACCESSIBLE-ACCOUNT-NECESSARY-BEING",
+  "argument_id": "c3f1362f-39a1-529c-b4f3-55e7eabd1a6f",
   "challenge_module": "TruthCore.Results.Explanation.AccessibleAccountNecessaryBeing.Challenge",
   "solution_module": "TruthCore.Results.Explanation.AccessibleAccountNecessaryBeing.Solution",
   "theorem": "TruthCore.Results.Explanation.AccessibleAccountNecessaryBeing.necessaryBeing",

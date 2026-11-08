@@ -1,9 +1,11 @@
 {
-  "id": "REL-MCTAGGART-UNREALITY-OF-TIME-ALTERNATIVE-TO-SOMETHING-CHANGES",
+  "id": "48f5fc2f-0b5b-5b93-a973-95c7e4f1e13f",
+  "label": "McTaggart's bundle on change, the… alternative to Something changes, in the general sense…",
+  "legacy_id": "REL-MCTAGGART-UNREALITY-OF-TIME-ALTERNATIVE-TO-SOMETHING-CHANGES",
   "subject_kind": "statement",
-  "subject_id": "STMT-MCTAGGART-UNREALITY-OF-TIME",
+  "subject_id": "d908f7a8-5c50-58fa-b0e0-702795acd6f5",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-SOMETHING-CHANGES",
+  "object_id": "bef22027-4f6d-5722-9597-e4dec273ebdd",
   "note": "Class: substantive. Each conjunct is sourced to the pinned 1908 paper (MCTAGGART-1908-TIME-UNREAL-A, MCTAGGART-1908-ALL-CHANGE-A-SERIES-A); together they entail that nothing changes. Defeated by consequence against F3 (MCTAGGART-BUNDLE-DEFEATED-BY-CHANGE) once F3 is established."
 }

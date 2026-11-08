@@ -1,6 +1,8 @@
 {
-  "id": "PILOT-STABLE-SENTENCE-EXCLUDES-GLOBAL-VARIATION",
-  "argument_id": "PILOT-STABLE-SENTENCE-EXCLUDES-GLOBAL-VARIATION",
+  "id": "80b7281d-0b3e-5b79-965e-c91eae16c5d9",
+  "label": "The strong global profile-variation thesis fails for…, from The interpretation of the designated…",
+  "legacy_id": "PILOT-STABLE-SENTENCE-EXCLUDES-GLOBAL-VARIATION",
+  "argument_id": "4c359d1d-e6e2-57c0-8358-7a5296eedced",
   "challenge_module": "TruthCore.Results.Logic.TruthPilot.StableExcludesGlobal.Challenge",
   "solution_module": "TruthCore.Results.Logic.TruthPilot.StableExcludesGlobal.Solution",
   "theorem": "TruthCore.Results.Logic.TruthPilot.StableExcludesGlobal.stableExcludesGlobal",

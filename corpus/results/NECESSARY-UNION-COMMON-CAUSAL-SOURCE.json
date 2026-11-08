@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-UNION-COMMON-CAUSAL-SOURCE",
-  "argument_id": "NECESSARY-UNION-COMMON-CAUSAL-SOURCE",
+  "id": "7bbaac5b-3e69-5db8-9821-d20155e6a4d3",
+  "label": "Some single individual is both the named…, from At least one individual exists at the… and 7 more",
+  "legacy_id": "NECESSARY-UNION-COMMON-CAUSAL-SOURCE",
+  "argument_id": "3c5d931a-2d1c-531a-ae21-6b445a405767",
   "challenge_module": "TruthCore.Results.Causality.UnderivedCommonSource.Challenge",
   "solution_module": "TruthCore.Results.Causality.UnderivedCommonSource.Solution",
   "theorem": "TruthCore.Results.Causality.UnderivedCommonSource.causal_from_union",

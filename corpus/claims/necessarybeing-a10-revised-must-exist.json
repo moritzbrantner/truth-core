@@ -1,16 +1,18 @@
 {
-  "id": "NB-SURVEY-A10-REVISED-MUST-EXIST",
-  "statement_id": "STMT-NB-A2-REVISED-MUST-EXIST",
-  "source_id": "NECESSARYBEING-SURVEY",
+  "id": "9e85b837-3d3d-5c82-96c7-d74c0a96ecb5",
+  "label": "Unattributed website author, Necessary…: The revised stipulation calls a thing must-exist by… (3)",
+  "legacy_id": "NB-SURVEY-A10-REVISED-MUST-EXIST",
+  "statement_id": "152f5cf5-a556-57f3-b1b3-e60edfacae57",
+  "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
   "locator": "A10P3C, opening automatic-existence stipulation and complementary contingent classification",
   "interpretation": "Reuse the exact stipulation alone. The following question specifically reasks a defeasible causal default, rather than A2’s exceptionless revised causation. No extant bearer, ordinary NecessaryAt identity, material-implication semantics or uniform replacement of every modal term is inferred.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-NB-A2-REVISED-CLASSIFICATION"
+    "7305e9f6-39ed-5866-b8af-2089e736f67a"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A10-DEFAULT-AND-MODAL-CAUSE",
-    "DISAMB-NB-A2-ALT-REVISED-NECESSITY",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "b5d2699d-be01-54fa-ac90-bbaccad830d0",
+    "385dcada-20b6-5112-9c91-0f34e8e1b844",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

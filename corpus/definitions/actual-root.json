@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ACTUAL-ROOT",
+  "id": "52352824-6be9-53c6-83d4-82fed9a08cbb",
+  "label": "Actual concrete root of the selected…: ActualRoot m w x means ActualConcrete m w x ∧ ∀ y, ¬…",
+  "legacy_id": "DEF-ACTUAL-ROOT",
   "term": "actual concrete root of the selected grounding relation",
   "definition": "ActualRoot m w x means ActualConcrete m w x ∧ ∀ y, ¬ ActualConcreteGround m w y x. The candidate x satisfies the supplied concrete predicate and exists at the selected world w; no y satisfying that same predicate and existing at w grounds x at w. Both guards use the same Profile m and carrier. Roothood alone supplies no contingency, necessity, uniqueness, well-foundedness, temporal priority or absence of every possible explanation.",
   "basis": "stipulative",

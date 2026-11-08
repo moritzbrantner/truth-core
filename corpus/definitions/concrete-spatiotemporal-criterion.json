@@ -1,5 +1,7 @@
 {
-  "id": "DEF-CONCRETE-SPATIOTEMPORAL-CRITERION",
+  "id": "4ea97730-c6b8-5205-8848-939d0dc68f76",
+  "label": "Concrete by spatiotemporal occupation: SpatiotemporalCriterionConcrete occupies x:= ∃ r, occupies…",
+  "legacy_id": "DEF-CONCRETE-SPATIOTEMPORAL-CRITERION",
   "term": "concrete by spatiotemporal occupation (rival criterion)",
   "definition": "SpatiotemporalCriterionConcrete occupies x := ∃ r, occupies x r, for a supplied occupation relation: concrete iff it occupies some region. It is a sibling sense, not the adopted one. The corpus has no shared location vocabulary, so the occupation relation is supplied.",
   "basis": "stipulative",

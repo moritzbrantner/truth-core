@@ -1,11 +1,13 @@
 {
-  "id": "REL-MEANING-CALIBRATION-STRENGTHENS-PRINCIPLE",
+  "id": "ea3c97e8-431c-5ff4-8749-fbb10bafacf9",
+  "label": "The supplied criterion is necessary and… strengthens The VERIFICATION_PRINCIPLE_2 with…",
+  "legacy_id": "REL-MEANING-CALIBRATION-STRENGTHENS-PRINCIPLE",
   "subject_kind": "statement",
-  "subject_id": "STMT-MEANING-CALIBRATION",
+  "subject_id": "af40d9a3-0007-50be-94fb-2d22068c03dd",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-VERIFICATION-PRINCIPLE",
-  "verification_result_id": "MEANING-CALIBRATION-TO-VERIFICATION-PRINCIPLE",
-  "strictness_result_id": "MEANING-DEFINITION-CONTROLS",
+  "object_id": "12527c0e-3a83-5639-91e4-3eab30b2ec23",
+  "verification_result_id": "ce6e9222-bdda-5174-abe4-afb152e1ec77",
+  "strictness_result_id": "c199664c-295e-52eb-a5e6-12945a8bf998",
   "note": "Full scoped coextension entails the necessary-only condition. The control witnesses one exact V3 instance satisfying the latter but not full calibration."
 }

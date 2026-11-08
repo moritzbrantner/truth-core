@@ -1,32 +1,34 @@
 {
-  "id": "STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-STRONG",
+  "id": "afa7a288-a1d5-5958-a1d0-3f68d4d186ad",
+  "label": "Strong version: for every sentence, if it is meaningful, so is its negation",
+  "legacy_id": "STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-STRONG",
   "paraphrase": "Strong version: for every sentence, if it is meaningful (literally, cognitively significant), so is its negation.",
   "lean_declaration": "TruthCore.Logic.Verificationism.MeaningClosedUnderNegation",
   "definition_ids": [
-    "DEF-MEANING-NEGATION-CLOSURE",
-    "DEF-VERIFICATION-PRINCIPLE",
-    "DEF-TRUTH-CONDITIONAL-LANGUAGE"
+    "63b0c6a5-8aa2-576e-a144-1557b7cffae9",
+    "d3d9f3a5-7791-552c-8271-5cb1aeccfb15",
+    "cb0b59e9-7a00-5d8c-ba11-802974a42992"
   ],
   "disambiguation_ids": [
-    "DISAMB-VERIFICATIONIST-MEANINGFUL"
+    "21cdb9e0-d4f0-5a57-8277-3345ec8c0fde"
   ],
   "self_evident": {
     "basis": "common_ground",
     "justification_ids": [
-      "SEP-HEMPEL-2-3-NEGATION-CLOSURE"
+      "53f64561-9829-5283-bd46-8d921d97bd9e"
     ],
-    "question_statement_id": "STMT-VERIFICATION-PRINCIPLE",
+    "question_statement_id": "12527c0e-3a83-5639-91e4-3eab30b2ec23",
     "positions": [
       {
-        "statement_id": "STMT-HEMPEL-DEDUCTIVE-CRITERION-SEARCH-USELESS",
+        "statement_id": "3d17ecdd-d1ba-5d18-8eac-beb37db10c7f",
         "claim_ids": [
-          "SEP-HEMPEL-2-3-NEGATION-CLOSURE"
+          "53f64561-9829-5283-bd46-8d921d97bd9e"
         ]
       }
     ],
     "disagreement": {
       "rival_statement_ids": [
-        "STMT-SOME-MEANINGFUL-NEGATION-NOT-MEANINGFUL"
+        "2c0d4ee4-42f9-5a4f-a65c-b4ca29d26889"
       ]
     },
     "owner_approval": {

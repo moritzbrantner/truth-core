@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-Q75-NOT-BODY-AND-ALTOGETHER-IMMATERIAL",
+  "id": "d363fdf2-9945-59b3-8efb-ff8614bfc475",
+  "label": "Incorporeal versus altogether immaterial",
+  "legacy_id": "DISAMB-Q75-NOT-BODY-AND-ALTOGETHER-IMMATERIAL",
   "term": "incorporeal versus altogether immaterial",
   "sense_definition_ids": [
-    "DEF-Q75-INTELLECT-NOT-BODY",
-    "DEF-ALTOGETHER-IMMATERIAL"
+    "fa11f89f-7d00-570a-8baa-bdb1313668a8",
+    "dace8e73-8b5b-5378-8e62-17d534413168"
   ],
   "resolution": "The q.75 first subconclusion is not being a body. The existing q.14 highest-immateriality antecedent additionally denies matter/form composition and componenthood; neither follows here. Q.75 a.2 ad 1–2 and q.76 a.1 preserve that the soul is a part/form of human nature, while the complete human being is the composite. No bridge to the divine HasIntellect argument or to STMT-IMMATERIAL-IS-INTELLECTUAL is advertised."
 }

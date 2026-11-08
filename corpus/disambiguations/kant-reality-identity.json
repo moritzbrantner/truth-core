@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-KANT-REALITY-IDENTITY",
+  "id": "29947523-056c-5415-a9e7-c6968fb926e1",
+  "label": "Reality identity",
+  "legacy_id": "DISAMB-KANT-REALITY-IDENTITY",
   "term": "reality identity",
   "sense_definition_ids": [
-    "DEF-KANT-REALITY-INDISCERNIBILITY",
-    "DEF-KANT-REALITY-IDENTITY"
+    "79c08b30-2adf-59e1-b607-3f5cb485946a",
+    "c7c2f208-9651-5351-afc3-d5f3423ef415"
   ],
   "resolution": "The source’s qualitative nondifference is preserved without identifying it with numerical equality. The conversion theorem explicitly assumes MostRealUnique as a stronger sufficient reconstruction; that extra premise is open and unattributed."
 }

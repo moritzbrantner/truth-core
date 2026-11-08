@@ -1,9 +1,11 @@
 {
-  "id": "REL-AQUINAS-ST-I-Q2-A3-ARROW-ARCHER-SUPPORTS-DIRECTING-IS-MOVING",
+  "id": "b8b1ffb2-d6cb-5890-87cf-7bc6c0032c5f",
+  "label": "Thomas Aquinas, Summa theologiae I q.2… supports To direct a thing to an end is to move it…",
+  "legacy_id": "REL-AQUINAS-ST-I-Q2-A3-ARROW-ARCHER-SUPPORTS-DIRECTING-IS-MOVING",
   "subject_kind": "claim",
-  "subject_id": "AQUINAS-ST-I-Q2-A3-QUINTA-VIA-ARROW-ARCHER-A",
+  "subject_id": "651033cb-3919-5274-a640-f1f87bde800e",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-DIRECTING-IS-MOVING",
+  "object_id": "ee9e3056-7bc5-5c35-9fe3-bf8550f8c136",
   "note": "The simile sicut sagitta a sagittante shows one director (the archer) directing by moving. It does not state that all direction, including higher or mediated direction, is moving; governance as moving (ST I q.103) is not pinned."
 }

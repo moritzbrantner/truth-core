@@ -1,16 +1,18 @@
 {
-  "id": "ARIST-APOST-72B-SAME-RESPECT-PRIORITY",
-  "statement_id": "STMT-ARISTOTLE-ANPOST-SAME-RESPECT-PRIORITY",
-  "source_id": "ARIST-APOST",
+  "id": "a040f9b1-6478-51af-bd35-dfbadcf3cc33",
+  "label": "Aristotle, Posterior Analytics I.3, 72b25–32: Aristotle rejects unqualified circular demonstration…",
+  "legacy_id": "ARIST-APOST-72B-SAME-RESPECT-PRIORITY",
+  "statement_id": "166cb256-21c3-58e9-a9a5-45da118643d8",
+  "source_id": "e14b8189-67e2-5fe4-b5cb-c903c8c11338",
   "locator": "I.3, 72b25–32",
   "interpretation": "The restriction to the same respect matters. This is not a refutation of every holistic relation of mutual support, nor a statement that temporal acquisition order is identical to explanatory or demonstrative priority.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-ARISTOTLE-ANPOST-DEMONSTRATION",
-    "DEF-ARISTOTLE-ANPOST-IMMEDIATE-PRINCIPLE",
-    "DEF-ARISTOTLE-ANPOST-PRIORITY"
+    "a5c9be24-4211-5d0d-b652-20c7ceb47190",
+    "34e6203c-9ba6-58c8-9f2e-8c5e2c884783",
+    "6d2e443d-bb1b-56c1-b9d9-bbb55a8c00d6"
   ],
   "disambiguation_ids": [
-    "DISAMB-ARISTOTLE-ANPOST-DEMONSTRATION-AND-ENTITLEMENT"
+    "d2e881ec-805f-5fdf-b22c-1ecad65efc32"
   ]
 }

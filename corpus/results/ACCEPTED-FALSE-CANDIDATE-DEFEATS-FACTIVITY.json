@@ -1,6 +1,8 @@
 {
-  "id": "ACCEPTED-FALSE-CANDIDATE-DEFEATS-FACTIVITY",
-  "argument_id": "ACCEPTED-FALSE-CANDIDATE-DEFEATS-FACTIVITY",
+  "id": "1e54bb0c-5d8c-5cef-b6e3-a27dc7176341",
+  "label": "Exact negation of the accepted-candidate…, from Some candidate accepted by the supplied…",
+  "legacy_id": "ACCEPTED-FALSE-CANDIDATE-DEFEATS-FACTIVITY",
+  "argument_id": "de596c5f-2ca9-5e92-81b6-a2304f30e091",
   "challenge_module": "TruthCore.Results.Explanation.SelectionCoverageBoundary.FalseFactivityFailure.Challenge",
   "solution_module": "TruthCore.Results.Explanation.SelectionCoverageBoundary.FalseFactivityFailure.Solution",
   "theorem": "TruthCore.Results.Explanation.SelectionCoverageBoundary.FalseFactivityFailure.falseFactivityFailure",

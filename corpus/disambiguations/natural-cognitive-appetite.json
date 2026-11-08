@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-NATURAL-AND-COGNITIVE-APPETITE",
+  "id": "c40e9cab-4874-50f8-af05-d5c45c8a3c82",
+  "label": "Appetite as natural inclination versus appetite following apprehension",
+  "legacy_id": "DISAMB-NATURAL-AND-COGNITIVE-APPETITE",
   "term": "appetite as natural inclination versus appetite following apprehension",
   "sense_definition_ids": [
-    "DEF-NATURAL-APPETITE-FORM-INCLINATION",
-    "DEF-COGNITION-RELATIVE-APPETITE"
+    "678b9306-81f1-5c61-ab90-6e4594395b50",
+    "44a0654e-6b36-52d6-91c2-0a5c6a13dc5c"
   ],
   "resolution": "Use natural appetite for inclination following a thing's own form and cognition-relative appetite for the soul's power concerning apprehended good. The latter is not inferred merely from noncognitive directedness, and the Fifth-Way TendsTo parameter is not identified with intellectual appetite."
 }

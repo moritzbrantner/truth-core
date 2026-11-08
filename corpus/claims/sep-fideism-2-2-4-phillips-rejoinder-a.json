@@ -1,12 +1,14 @@
 {
-  "id": "SEP-FIDEISM-2-2-4-PHILLIPS-REJOINDER-A",
-  "statement_id": "STMT-PHILLIPS-DENIES-ONLY-CRITICS-CONCEPTION",
-  "source_id": "SEP-FIDEISM",
+  "id": "5b0f49f2-f6a2-5d22-9e41-23243022966c",
+  "label": "Richard Amesbury, Fideism §2.2.4, 'all that…: Phillips's rejoinder: Wittgensteinian philosophers…",
+  "legacy_id": "SEP-FIDEISM-2-2-4-PHILLIPS-REJOINDER-A",
+  "statement_id": "ed08678e-b8e3-5143-8398-37da4ae38fcc",
+  "source_id": "f7990924-f8e2-58e1-82f7-97f4f9d236ad",
   "locator": "§2.2.4, 'all that I and others have denied is their conception'",
   "interpretation": "Phillips (1981, 89-90, as quoted): 'all that I and others have denied is their conception of the relation between religion and other aspects of human life and their conception of criticism of religion.' Attribution reading of the position the entry reports, not a view of the entry's author.",
   "status": "formalized",
   "attribution": "The passage states that Phillips held that he and others denied only their critics' conception of the relation between religion and the rest of life and of the criticism of religion, which is the premise.",
   "definition_ids": [
-    "DEF-WITTGENSTEINIAN-FIDEISM"
+    "8c86d489-cd62-5d8e-9207-2d846caf9c14"
   ]
 }

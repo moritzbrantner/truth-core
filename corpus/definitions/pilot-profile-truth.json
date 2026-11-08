@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PILOT-PROFILE-TRUTH",
+  "id": "f83c4d57-8044-505c-9082-b9944f50223a",
+  "label": "Truth under endorsement profiles: A Profile maps two agents and two test sentences to endorsement…",
+  "legacy_id": "DEF-PILOT-PROFILE-TRUTH",
   "term": "truth under endorsement profiles (pilot)",
   "definition": "A Profile maps two agents and two test sentences to endorsement propositions. An Interpretation maps each profile and sentence to a proposition. Endorsement is independent input, not identified with truth; the profile tests change endorsement while holding an interpretation fixed. LogicalSentenceStable says the designated logical sentence holds at every profile. Profile invariance is a stipulated counterfactual test, not a sourced sufficient analysis of philosophical objectivity.",
   "basis": "stipulative",

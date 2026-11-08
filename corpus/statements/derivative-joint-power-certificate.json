@@ -1,20 +1,22 @@
 {
-  "id": "STMT-DERIVATIVE-JOINT-POWER-CERTIFICATE",
+  "id": "aed524e8-0a39-53bc-8c28-699bef3ba511",
+  "label": "A persistent set of borrowing contributions with no intrinsic member and a required contributor in…",
+  "legacy_id": "STMT-DERIVATIVE-JOINT-POWER-CERTIFICATE",
   "lean_declaration": "TruthCore.Causality.DerivativeJointPower.Certificate",
   "paraphrase": "A persistent set of borrowing contributions with no intrinsic member and a required contributor in that set for every supplier alternative cannot have inductive joint supply. With contributor-power coherence, supplying every active contribution is equivalent to every nonempty active set having an intrinsic member or a supplier whose contributors all escape the set. The exact rooted infinite #634 graph has existential graph grounding for every event but no complete joint supply for any derivative event, even with an intrinsic source in every sufficient exercised group and with a uniquely selected all-on scenario. All applicability and real-world explanatory bridges remain OPEN.",
   "definition_ids": [
-    "DEF-DERIVATIVE-JOINT-SUPPLY",
-    "DEF-JOINT-CAUSAL-GROUPS",
-    "DEF-JOINT-SCENARIO-SUFFICIENCY",
-    "DEF-REGRESS-SCHEMA-GRAPH",
-    "DEF-FINITELY-GROUNDED-CAUSAL-POWER",
-    "DEF-CONFLUENT-SOURCE-REGRESS-OVERLAP",
-    "DEF-TEMPORAL-ACTUALIZATION-PROFILE"
+    "c9d479bb-308a-5a2b-9755-ddc0170d4e35",
+    "ff8bf1d7-0bf9-5dda-8038-7127e3d46ec8",
+    "800637b5-8f4b-54ea-865d-c4fd444d1632",
+    "1dff2d68-1348-5e7e-8ee7-248af63c8c53",
+    "febac82d-1ca3-5773-89ec-0401f1bac7a0",
+    "a239a04a-ce2a-5b51-8a6e-2afe54a68691",
+    "962f5a85-018c-5d4d-967c-1047db5fecf0"
   ],
   "disambiguation_ids": [
-    "DISAMB-JOINT-SUPPLY-POWER-OCCURRENCE",
-    "DISAMB-JOINT-CAUSAL-MEMBERSHIP-EXERCISE",
-    "DISAMB-CAUSAL-POWER-GROUNDING",
-    "DISAMB-REGRESS-DOMAINS"
+    "79644a0a-db5b-5497-bb47-9f96d14cdae7",
+    "a375e21b-420a-5ee5-9e64-c816eacd74d4",
+    "4b02d34a-9226-5009-9ac2-3b52f4222b21",
+    "34ddfede-ff4d-59ad-9882-4bcb490df9bb"
   ]
 }

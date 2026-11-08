@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-204A-NO-SEPARATE-INFINITE-SUBSTANCE-A",
-  "statement_id": "STMT-NO-SEPARATE-INFINITE-SUBSTANCE",
-  "source_id": "ARIST-PHYS",
+  "id": "826896e8-6b4f-57ad-863d-e0f5b614e278",
+  "label": "Aristotle, Physics III.5, 204a8-16: There is no separable substance which is itself the infinite…",
+  "legacy_id": "ARIST-PHYS-204A-NO-SEPARATE-INFINITE-SUBSTANCE-A",
+  "statement_id": "98a7fcbe-3a8d-51ab-9e1e-86bab0c14821",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.5, 204a8-16",
   "interpretation": "Conclusion of the opening argument: the infinite relevant to physics cannot be a separable substance which is itself infinite. This leaves open infinity as an attribute and the potential mode developed in III.6.",
   "status": "formalized"

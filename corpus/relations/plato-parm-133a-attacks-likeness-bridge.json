@@ -1,9 +1,11 @@
 {
-  "id": "REL-PLATO-PARM-133A-ATTACKS-LIKENESS-BRIDGE",
+  "id": "5efdea10-fa14-5b11-81e5-240e4f95950e",
+  "label": "Plato, Parmenides 133a: If Form and… attacks Every participation relation entails…",
+  "legacy_id": "REL-PLATO-PARM-133A-ATTACKS-LIKENESS-BRIDGE",
   "subject_kind": "claim",
-  "subject_id": "PLATO-PARM-133A-OTHER-PARTICIPATION",
+  "subject_id": "73ea4284-ef39-5bd3-9d3e-4a85139fa969",
   "predicate": "attacks",
   "object_kind": "statement",
-  "object_id": "STMT-THIRD-MAN-PARTICIPATION-LIKENESS",
+  "object_id": "75231314-30c2-5c63-8c40-fa6517e0338a",
   "note": "The source objection concludes that another account of participation must be sought. The finite non-resemblance countermodel coexists with the conditional likeness-regress result; no unconditional refutes relation is asserted."
 }

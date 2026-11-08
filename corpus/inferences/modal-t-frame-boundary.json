@@ -1,7 +1,9 @@
 {
-  "id": "INF-MODAL-T-FRAME-BOUNDARY",
+  "id": "42a2d7f3-70d8-52ac-9083-bf0d3adea687",
+  "label": "An explicit three-world T chain is neither transitive nor symmetric, by Direct-proof",
+  "legacy_id": "INF-MODAL-T-FRAME-BOUNDARY",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-MODAL-T-FRAME-BOUNDARY",
+  "output_statement_id": "5eff5171-dfb3-55a8-afb0-fd2db3961b8b",
   "rule": "direct-proof",
   "meaning": "Enumerate the reflexive chain. The missing root-to-endpoint and middle-to-root edges refute transitivity and symmetry. Atom negation distinguishes middle from endpoint, and negated possibility distinguishes root from middle. Compose these failures with domain restriction and enumerate accessible MC witnesses.",
   "assumption_statement_ids": [],

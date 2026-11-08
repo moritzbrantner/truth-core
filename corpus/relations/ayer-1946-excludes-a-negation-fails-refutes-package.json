@@ -1,9 +1,11 @@
 {
-  "id": "REL-AYER-1946-EXCLUDES-A-NEGATION-FAILS-REFUTES-PACKAGE",
+  "id": "eb27d06b-0828-530e-84dd-098b4ca10750",
+  "label": "For any frame and meaningfulness predicate… refutes The V3 package: meaningfulness is literal…",
+  "legacy_id": "REL-AYER-1946-EXCLUDES-A-NEGATION-FAILS-REFUTES-PACKAGE",
   "subject_kind": "argument",
-  "subject_id": "AYER-1946-EXCLUDES-A-NEGATION-FAILS",
+  "subject_id": "6b221edc-b86c-5eb9-9f4a-5a083f059b64",
   "predicate": "refutes",
   "object_kind": "statement",
-  "object_id": "STMT-AYER-1946-EXCLUDES-A-NEGATION",
+  "object_id": "741649d4-028a-5f24-a694-4fea2dc472c1",
   "note": "Counts because its only premise, STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-STRONG, is an owner-approved floor item (#1008, 2026-11-05)."
 }

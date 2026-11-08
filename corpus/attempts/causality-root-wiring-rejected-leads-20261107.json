@@ -1,12 +1,14 @@
 {
-  "id": "ATTEMPT-CAUSALITY-ROOT-WIRING-REJECTED-LEADS-20261107",
+  "id": "f91a61bc-e56b-5de1-89d1-e49ea4f86d58",
+  "label": "Leads examined while wiring disconnected Causality results to the designated root route and…",
+  "legacy_id": "ATTEMPT-CAUSALITY-ROOT-WIRING-REJECTED-LEADS-20261107",
   "date": "2026-11-07",
   "kind": "derivation",
   "outcome": "rejected",
   "statement_ids": [
-    "STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES",
-    "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH",
-    "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER"
+    "97f5850f-62bc-5e43-a0c1-dd1033d08fc9",
+    "d5a94eb1-72d2-53e0-9a52-9787b5b61a8d",
+    "4a952b96-be5f-5493-8277-985248151d01"
   ],
   "summary": "Leads examined while wiring disconnected Causality results to the designated root route and dropped. STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES: from STMT-GROUNDING-WITH-UNIQUE-CAUSE-YIELDS-REGRESS-READING it needs three new open antecedents (every per se power finitely grounded, sources receive no link, at most one immediate per se cause), and from STMT-REGRESS-READINGS-COINCIDE-CLASSICALLY a new literal-reading statement; both steps are modus ponens on a proved conditional or equivalence (single application, invariant 16) and the premise is stated, so neither lowers a route cost. STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH: STMT-CAUSE-OF-BEING-HAS-WHAT-IT-GIVES is too weak, since the target quantifies over every cause of a quality, not only causes of esse. STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER: STMT-WHATEVER-IS-MOVED-IS-MOVED-BY-ANOTHER yields it only by dropping y /= x, a strength registration (not walked) of a statement itself derived from the target; STMT-NO-INERTIAL-UNIFORM-MOTION-WITHOUT-MOVER yields only the uniform-motion restriction. The necessary-root family (STMT-NECESSARY-CLASSICAL-GOD-ROOT and about 96 upstream Causality results) feeds only NECESSARY-CLASSICAL-GOD-CASE, which is not the designated root_route of STMT-CATHOLICISM-TRUE; it was left to the necessary-being worker.",
   "blocker": "The necessary-root family needs a root_route designation decision or a designated-route argument consuming STMT-UNIQUE-GOD-WITH-CLASSICAL-ATTRIBUTES-EXISTS or STMT-NECESSARY-CLASSICAL-GOD-ROOT; most remaining disconnected Causality results are controls, countermodels and model witnesses whose conclusions are not route premises by design.",

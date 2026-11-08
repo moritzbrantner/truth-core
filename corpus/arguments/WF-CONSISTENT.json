@@ -1,18 +1,20 @@
 {
-  "id": "WF-CONSISTENT",
+  "id": "7e16300f-7fbe-5964-b5c6-12048c04db93",
+  "label": "The sharp fideist bundle is jointly satisfiable: some practice satisfies both",
+  "legacy_id": "WF-CONSISTENT",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-WF-CONSISTENT",
+  "conclusion_statement_id": "c9adb257-2785-540a-b9e8-5e1dfaa185e4",
   "inference_ids": [
-    "INF-WF-CONSISTENT"
+    "f012b2ed-fedc-56e2-9c4b-35df1045bdbe"
   ],
   "commitment_statement_ids": [
-    "STMT-WF-RELIGION-INTERNAL-GRAMMAR",
-    "STMT-WF-RELIGION-CUT-OFF-FROM-SHARED-REASON"
+    "305a8728-776f-556f-b4f4-d43e63dc9c2e",
+    "12605639-82ad-5434-9171-7c30107b3dfd"
   ],
   "meaning": "The sharp fideist bundle is consistent: a one-move practice satisfies the internal-grammar thesis and the cut-off thesis, which bind-check matches to the conjuncts of WittgensteinianFideism. So the rival does not lose on coherence; its defeat for the Catholic practice (WF-FAILS-AS-DESCRIPTION-OF-CATHOLIC-PRACTICE) comes from that practice's own rule. Answer map in TruthCore/Comparison/Fideism.lean and docs/wittgenstein.md. The model does not show that fideism is true of any actual practice.",
   "definition_ids": [
-    "DEF-WITTGENSTEINIAN-FIDEISM",
-    "DEF-CORRECT-MOVE-IN-PRACTICE",
-    "DEF-PRACTICE-OWN-STANDARD"
+    "8c86d489-cd62-5d8e-9207-2d846caf9c14",
+    "d4a6e314-ca7b-563f-b2ef-8a855db8597b",
+    "ac3fa095-8fa2-50d5-8c86-8352f0c27a6e"
   ]
 }

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-TRANSCENDENTAL-GOAL-REALIZATION",
+  "id": "a08536c4-420b-5d26-8a6f-1088daa6ce6b",
+  "label": "Goal realization by an effective means: A valued goal is realized in the supplied one-step…",
+  "legacy_id": "DEF-TRANSCENDENTAL-GOAL-REALIZATION",
   "term": "goal realization by an effective means",
   "definition": "A valued goal is realized in the supplied one-step efficacy profile when an action is performed and effective for that goal. OnlyEffective identifies an effective action and excludes any other effective action within the action domain. Example: a selected menu action opens the intended dialog; an unrelated selection fails. This is an extensional success relation, not a general metaphysical cause relation, temporal process, or condition on intending, knowing, judging, moral permissibility or rational responsibility. No transitivity, asymmetry or well-foundedness is assumed.",
   "basis": "stipulative",

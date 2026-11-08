@@ -1,11 +1,13 @@
 {
-  "id": "STMT-COMMON-NAME-UNIVOCITY-THROUGH-ONE-CONCEPT",
+  "id": "e870f817-de3c-534a-8b42-35a5eebfa303",
+  "label": "The common name homo primarily signifies particular humans, not a further substance beyond them…",
+  "legacy_id": "STMT-COMMON-NAME-UNIVOCITY-THROUGH-ONE-CONCEPT",
   "paraphrase": "The common name homo primarily signifies particular humans, not a further substance beyond them; it is univocal because one imposition subordinates its signification of those many to one concept.",
   "definition_ids": [
-    "DEF-UNIVERSAL-MENTAL-SIGN",
-    "DEF-UNIVERSAL-CONVENTIONAL-SIGN"
+    "51266d70-d1a8-5bc8-94b0-2c948e761797",
+    "a696033a-4e98-5b14-9312-977ad8f65ca4"
   ],
   "disambiguation_ids": [
-    "DISAMB-UNIVERSAL-SIGN-AND-COMMON-NATURE"
+    "f4d3fe07-8285-54da-a878-dacf8f410a90"
   ]
 }

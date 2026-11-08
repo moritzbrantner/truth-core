@@ -1,27 +1,29 @@
 {
-  "id": "ATTEMPT-NECESSARILY-UNDERIVED-MINIMAL-BRIDGES",
+  "id": "96d6d1cd-a4a5-5dcc-a752-3ef1dbcd8104",
+  "label": "Lean derives constructive nonrefutation of an underived de re necessary bearer from necessary…",
+  "legacy_id": "ATTEMPT-NECESSARILY-UNDERIVED-MINIMAL-BRIDGES",
   "date": "2026-10-27",
   "statement_ids": [
-    "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
-    "STMT-WELL-FOUNDED-PRESENT-ESSE-SUPPORT",
-    "STMT-NECESSARY-PREDECESSOR-LIFTING",
-    "STMT-NO-CONTINGENT-GROUND-OF-NECESSARY",
-    "STMT-NO-NOVEL-NECESSARY-SUPPORT",
-    "STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT",
-    "STMT-ACTUAL-MODAL-REFLEXIVITY",
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-NONREFUTABLE-NECESSARILY-UNDERIVED",
-    "STMT-NECESSARILY-UNDERIVED"
+    "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
+    "47a97912-335f-52f7-a715-63592368f0fe",
+    "2a9378b4-3dad-591b-a88e-1907a79f1fa5",
+    "96d25c42-71aa-5fa0-841d-9aa62d91e1be",
+    "bd983df2-058a-5503-89a1-bbebe87f958b",
+    "6af3bd73-f2bc-5018-ba2f-ec7f97d6c059",
+    "2b20b5af-d653-56ba-8001-35903fb3d1ea",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "2bd3f370-44d6-53eb-b3f4-b4b07a9a7e80",
+    "d236f537-dd57-50ec-9676-cee87b19242a"
   ],
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Lean derives constructive nonrefutation of an underived de re necessary bearer from necessary population, well-founded actual existential support, and necessary-predecessor lifting without any S5 or actual-reflexivity premise. A separate route combines actual reflexivity, no contingent direct supporter of a necessary bearer, and global well-founded union of necessary-to-necessary support edges; no invariance of cross-world direct support is required. Explicit excluded middle converts each nonrefutation into a positive existential theorem. A decomposition shows lifting follows from the no-contingent-ground and one-way no-novel-edge bridges plus selected-world reflexivity, weaker than the prior proposed biconditional invariance. Five zero-axiom finite models distinguish missing necessary population, actual support cycles, rotating necessary-only support, contingent-mediated alternating roots with empty necessary-edge union, and benign world-varying support. Finite controls are interpretations of stipulated primitives, not verification that a metaphysical premise is true. Neither uniqueness, self-explanation, simplicity nor divine attributes follow.",
   "evidence": [
-    "NECESSARY-UNDERIVED-NONREFUTATION-LIFT",
-    "NECESSARY-UNDERIVED-POSITIVE-LIFT",
-    "NECESSARY-UNDERIVED-POSITIVE-UNION",
-    "NECESSARY-PREDECESSOR-LIFT-FROM-BRIDGES",
-    "NECESSARY-SUPPORT-UNION-WF-FROM-ACTUAL"
+    "2121d6bd-7841-5c8a-b2c5-5fec7442f161",
+    "01da1ff3-2f64-50b6-902c-2ba41e1b6252",
+    "68f03fe4-b6c6-567e-bae5-7bea3db947cc",
+    "c00992ee-ad04-5fa5-9e00-88ac359261ec",
+    "32656e6f-dffc-5186-9a38-562da54e1594"
   ],
   "blocker": "The soundness of the existential-support primitive, necessary population, well-foundedness, and the no-contingent-ground / edge-inclusion / global-union alternatives is a metaphysical research question. Establishing one independent premise with meaningful configuration eliminations remains open in #495; no unconditional existence theorem is claimed."
 }

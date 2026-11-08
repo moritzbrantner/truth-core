@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "PRUSS-LCA-2009",
+    "source_id": "1af21533-3d87-520f-9fb4-b6c84e2f7a08",
     "source_url": "https://bearspace.baylor.edu/Alexander_Pruss/www/papers/LCA.html",
     "retrieved_at": "2026-10-30T23:56:28Z",
     "sha256": "sha256:39b925091ada11257ced21a7feee22d831a068e736a48ff8376e09949c033e91",
@@ -13,7 +13,9 @@
   },
   "passages": [
     {
-      "id": "PRUSS-LCA-2-3-2",
+      "id": "dcd89489-28b6-57a4-bf2e-8f49d24f6ab6",
+      "label": "Alexander R. Pruss, Leibnizian Cosmological Arguments, Leibnizian Cosmological Arguments, §2.3.2",
+      "legacy_id": "PRUSS-LCA-2-3-2",
       "locator": "Leibnizian Cosmological Arguments, §2.3.2 (van Inwagen's modal fatalism argument)",
       "claim_locator_prefixes": [
         "§2.3.2"
@@ -25,7 +27,9 @@
       "incipit": "2.3.2. Van Inwagen’s modal fatalism argument"
     },
     {
-      "id": "PRUSS-LCA-4-1-1-3",
+      "id": "1ce47dfd-5424-55aa-b564-ebab1e6fcd96",
+      "label": "Alexander R. Pruss, Leibnizian Cosmological Arguments, Leibnizian Cosmological Arguments, §4.1.1.3",
+      "legacy_id": "PRUSS-LCA-4-1-1-3",
       "locator": "Leibnizian Cosmological Arguments, §4.1.1.3 (Can we form the BCCF?)",
       "claim_locator_prefixes": [
         "§4.1.1.3"

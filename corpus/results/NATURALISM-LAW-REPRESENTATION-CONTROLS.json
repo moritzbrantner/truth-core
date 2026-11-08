@@ -1,6 +1,8 @@
 {
-  "id": "NATURALISM-LAW-REPRESENTATION-CONTROLS",
-  "argument_id": "NATURALISM-LAW-REPRESENTATION-CONTROLS",
+  "id": "ef0c2c24-db26-5145-ad60-9898b2a389c4",
+  "label": "Three separate explicit representations retain the existing finite BestSystemTest: an existing…",
+  "legacy_id": "NATURALISM-LAW-REPRESENTATION-CONTROLS",
+  "argument_id": "0c9f556e-d7b9-50f4-9e73-fbadf0bf1868",
   "challenge_module": "TruthCore.Results.Ontology.NaturalismLaws.Controls.Challenge",
   "solution_module": "TruthCore.Results.Ontology.NaturalismLaws.Controls.Solution",
   "theorem": "TruthCore.Results.Ontology.NaturalismLaws.controls",

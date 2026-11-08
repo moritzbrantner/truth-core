@@ -1,9 +1,11 @@
 {
-  "id": "STMT-MERELY-POSSIBLE-DOES-NOT-EXIST-AT",
+  "id": "c85117b0-6113-5460-95d8-5593d1acd49d",
+  "label": "Nothing merely possible exists at the selected world",
+  "legacy_id": "STMT-MERELY-POSSIBLE-DOES-NOT-EXIST-AT",
   "paraphrase": "OPEN analyst premise: nothing merely possible exists at the selected world.",
   "lean_declaration": "TruthCore.Causality.Round2ExistenceAct.MerelyPossibleNotExistentAt",
   "definition_ids": [
-    "DEF-MERELY-POSSIBLE-CANDIDATE",
-    "DEF-KANT-ONTOLOGICAL-MODEL"
+    "4cde619b-9880-5b55-b16d-5658252866ff",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109"
   ]
 }

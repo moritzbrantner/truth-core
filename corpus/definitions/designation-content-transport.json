@@ -1,5 +1,7 @@
 {
-  "id": "DEF-DESIGNATION-CONTENT-TRANSPORT",
+  "id": "ef6aff53-7a9b-5436-9c67-fabf2cd84601",
+  "label": "Content transport under redesignation: On each edge from an admitted a to v, F v v implies F a v",
+  "legacy_id": "DEF-DESIGNATION-CONTENT-TRANSPORT",
   "term": "content transport under redesignation",
   "definition": "On each edge from an admitted a to v, F v v implies F a v. This one-way edge-local bridge retains the sentence denotation while changing its actuality coordinate. With successor closure it suffices for the supplied-content rule; it is not required of every individual sentence, whose diagonal premise may fail.",
   "basis": "stipulative",

@@ -1,28 +1,30 @@
 {
-  "id": "BEARER-OUTCOME-COVERAGE",
+  "id": "57696d5a-7b93-5894-a245-64ed32179178",
+  "label": "Some bearer of some occurring thought has…, from Some thought episode occurs under the… and 4 more",
+  "legacy_id": "BEARER-OUTCOME-COVERAGE",
   "premise_statement_ids": [
-    "STMT-COGITO-THOUGHT-OCCURS",
-    "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT",
-    "STMT-COGITO-BEARER-EXISTS-AT-WORLD",
-    "STMT-BEARER-ANCESTRY-DEPENDENTS-SUPPORTED",
-    "STMT-EXCLUDED-MIDDLE"
+    "e81971f1-601c-57f5-be2d-c4b0624d0cad",
+    "30e6e01c-b7f1-536c-86ae-0a9be35dd160",
+    "c821487b-9c5e-5836-bf27-dcb47f210c94",
+    "adb2ed7a-622a-5493-9fb6-308aa8ad13e8",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-BEARER-OUTCOME-COVERAGE",
+  "conclusion_statement_id": "136a4bac-7559-56fa-9ce8-dfdbdd3796d6",
   "inference_ids": [
-    "INF-BEARER-OUTCOME-COVERAGE"
+    "77b09dfe-e579-57fb-b43f-75a29504fa7a"
   ],
   "meaning": "Take an occurring thought and its bearer from COGITO-SUBJECT-FROM-OCCURRENCE; the bearer exists at w by STMT-COGITO-BEARER-EXISTS-AT-WORLD. Excluded middle splits on accessibility of the bearer for existing direct support. If accessible, Acc induction descends until an ancestor has no existing supporter; the ancestry premise then makes it fail Dependent, and excluded middle splits on Substance. If not accessible, the non-accessible ancestors form an endless set, and excluded middle splits on whether a cycle lies below the bearer. Coverage only; all four non-logical premises are open, excluded middle is an explicit hypothesis, and no branch is asserted. Which case holds is not decided, and a terminus failing Substance is not thereby a process.",
   "definition_ids": [
-    "DEF-THOUGHT-OCCURRENCE",
-    "DEF-THOUGHT-BEARER",
-    "DEF-PRESENT-ESSE-SUPPORT",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-BEARER-SUPPORT-ANCESTRY",
-    "DEF-BEARER-SUPPORT-OUTCOMES",
-    "DEF-COGITO-SUBSTANCE-PREDICATE"
+    "c0cbef1c-060a-54d4-bb49-8d59da40caf3",
+    "ce8ccc1a-4f9a-5904-a10c-548778d79b66",
+    "b242943a-34cc-582d-8c38-c1203b9d2c91",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "de89a38a-cab0-58db-8167-a5fb2d7d82ae",
+    "12d64ea9-b32a-5cca-994c-7edcbb0096c7",
+    "f31b2ba4-190d-56f8-903e-9953ae139773"
   ],
   "disambiguation_ids": [
-    "DISAMB-BEARS-INHERES-SUPPORTS",
-    "DISAMB-EXISTENCE-ESSE-SUPPORT"
+    "f83e9a34-7994-5eb1-8431-50776f097f58",
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6"
   ]
 }

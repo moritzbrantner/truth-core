@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-INDIVIDUAL-ROOTED-EMPTY",
-  "argument_id": "NECESSARY-INDIVIDUAL-ROOTED-EMPTY",
+  "id": "18ea04bd-dda8-5dd5-a576-2211e6c93776",
+  "label": "In one stipulated three-world, three-individual universal-accessibility model, an actually…",
+  "legacy_id": "NECESSARY-INDIVIDUAL-ROOTED-EMPTY",
+  "argument_id": "10211248-5f5b-59c1-ad7f-40ae3fe09359",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.RootedEmpty.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.RootedEmpty.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.RootedEmpty.checks",

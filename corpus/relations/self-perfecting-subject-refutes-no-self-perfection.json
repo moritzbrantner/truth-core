@@ -1,9 +1,11 @@
 {
-  "id": "REL-SELF-PERFECTING-SUBJECT-REFUTES-NO-SELF-PERFECTION",
+  "id": "304422a2-34e5-5442-bbad-a7bc6fa16067",
+  "label": "The perfection branch fails: it is not the… refutes Rival perfection reading: nothing causes a…",
+  "legacy_id": "REL-SELF-PERFECTING-SUBJECT-REFUTES-NO-SELF-PERFECTION",
   "subject_kind": "argument",
-  "subject_id": "SELF-PERFECTING-SUBJECT-REFUTES-NO-SELF-PERFECTION",
+  "subject_id": "7107a1f5-34cc-5f60-826b-db0234071522",
   "predicate": "refutes",
   "object_kind": "statement",
-  "object_id": "STMT-NOTHING-CAUSES-ITS-OWN-PERFECTION",
+  "object_id": "0a0c841c-5ebf-5f39-946b-0655a3c2ab57",
   "note": "Conditional refutation of the perfection branch of 'cause' under the OPEN premise STMT-SOME-SUBJECT-CAUSES-ITS-OWN-PERFECTION."
 }

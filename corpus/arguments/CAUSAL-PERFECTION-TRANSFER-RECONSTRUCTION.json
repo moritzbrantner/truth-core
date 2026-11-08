@@ -1,24 +1,26 @@
 {
-  "id": "CAUSAL-PERFECTION-TRANSFER-RECONSTRUCTION",
+  "id": "932ec4ec-79e2-559c-ac4b-af7aa15adea2",
+  "label": "The cause of a thing's being causes each of…, from A cause of every other actual being… and 1 more",
+  "legacy_id": "CAUSAL-PERFECTION-TRANSFER-RECONSTRUCTION",
   "premise_statement_ids": [
-    "STMT-UNIVERSAL-CAUSE-TRANSFERS-PERFECTIONS",
-    "STMT-RESIDUAL-PERFECTION-TRANSFER"
+    "b26c10a0-983d-5a88-aa03-cc601bc1ddc6",
+    "5a4afaa5-ae79-58bd-bfca-501d2a194b10"
   ],
-  "conclusion_statement_id": "STMT-CAUSE-OF-BEING-CAUSES-EVERY-PERFECTION",
+  "conclusion_statement_id": "f8ba2429-b4f1-5712-a4d3-798213963d34",
   "inference_ids": [
-    "INF-CAUSAL-PERFECTION-TRANSFER-RECONSTRUCTION"
+    "c23491df-c5c8-5fa3-8d5f-eec9ac566d0d"
   ],
   "meaning": "Decide universal esse scope and effect/source identity, then cover all legacy transfer cases by the corresponding restricted or residual case.",
   "definition_ids": [
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-ESSE",
-    "DEF-ACT",
-    "DEF-RESPECT",
-    "DEF-UNIVERSAL-ESSE-CAUSE-SCOPE",
-    "DEF-RESIDUAL-PERFECTION-TRANSFER"
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1",
+    "c19faf56-0908-5e6e-8c39-ccba40dce5d1",
+    "76db8656-b660-52f0-9e54-347cacf1b205"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSE",
-    "DISAMB-IN-ACT"
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
   ]
 }

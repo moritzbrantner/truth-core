@@ -1,5 +1,7 @@
 {
-  "id": "DEF-FILTERED-ESSENCE",
+  "id": "85a4aa8b-11cc-5aeb-b5a6-3f163178002d",
+  "label": "FILTERED_ESSENCE_4: FilteredEssence F admissible Φ x w keeps Scott's requirement that Φ holds of x…",
+  "legacy_id": "DEF-FILTERED-ESSENCE",
   "term": "filtered essence (analytical Scott-style variant)",
   "definition": "`FilteredEssence F admissible Φ x w` keeps Scott's requirement that Φ holds of x at w, but admits only comparison properties Ψ satisfying the fixed predicate `admissible` in the universal property quantifier. Unlike Scott's `Essence`, it is not an AFP definition or source attribution. The same predicate also restricts candidate essence properties Φ in `FilteredNecessaryExistence`.",
   "basis": "stipulative",

@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "TOMPKINS-CHEMICAL-MORPHOGENESIS",
+    "source_id": "43a57337-fbb5-5bca-9b0b-9ae68e44f416",
     "source_url": "https://articuloscientificos.wordpress.com/wp-content/uploads/2014/04/doc2.pdf",
     "retrieved_at": "2026-10-25T14:04:25Z",
     "sha256": "sha256:59296231dc42c521891bd74884db7c173b38a3fe4f466f6669ce4572abf6ed4d",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "TOMPKINS-CHEMICAL-MORPHOGENESIS-P4397",
+      "id": "3ee64a24-0168-53ed-b944-614182e337b6",
+      "label": "Nathan Tompkins and colleagues, Testing Turing\u2019s theory of morphogenesis in chemical cells, P. 4397",
+      "legacy_id": "TOMPKINS-CHEMICAL-MORPHOGENESIS-P4397",
       "locator": "p. 4397",
       "claim_locator_prefixes": [
         "p. 4397,"

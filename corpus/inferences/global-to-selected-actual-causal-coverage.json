@@ -1,9 +1,11 @@
 {
-  "id": "INF-GLOBAL-TO-SELECTED-ACTUAL-CAUSAL-COVERAGE",
+  "id": "1c0d3eff-0a99-5674-ae20-fd0827e8afc9",
+  "label": "At the selected world, every existing contingent individual has an…, by Structural-projection",
+  "legacy_id": "INF-GLOBAL-TO-SELECTED-ACTUAL-CAUSAL-COVERAGE",
   "input_statement_ids": [
-    "STMT-LOCAL-CAUSAL-PRINCIPLE"
+    "ef69a630-2277-56be-86ca-f05f8193093a"
   ],
-  "output_statement_id": "STMT-SELECTED-ACTUAL-CAUSAL-COVERAGE",
+  "output_statement_id": "d8a1fb16-ce20-542f-9e3b-d9350468e331",
   "rule": "structural-projection",
   "meaning": "Structural projection/transcription: specialize existing global LocalCausalPrinciple to the selected world and forget distinctness. No causal coverage truth is established.",
   "assumption_statement_ids": [],

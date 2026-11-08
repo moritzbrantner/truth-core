@@ -1,5 +1,7 @@
 {
-  "id": "DEF-VARYING-NAMED-POTENTIAL-CAUSER-CONTROL",
+  "id": "5e3750f8-9f4e-5d76-8702-a608a1ab8059",
+  "label": "Nonvacuous varying-model\u2026: VaryingNamedControl fixes the unchanged\u2026",
+  "legacy_id": "DEF-VARYING-NAMED-POTENTIAL-CAUSER-CONTROL",
   "term": "nonvacuous varying-model selected-causer control",
   "definition": "VaryingNamedControl fixes the unchanged Models.NecessarilyUnderived.varying Ontic interpretation and selects candidate false at base false. It conjoins base reflexivity, necessity of false, its OtherDirectedPotentialCause role, NoContingentGroundOfNecessary and WellFoundedUnionNecessarySupport with R explicitly m.Causes, NamedNecessarilyUnderived for that same false, and existence of recipient true with the actual edge false\u2192true at world true. The union overlay has one direction only. This is one joint interpretation with a genuine outgoing edge, not a claim that a necessary causer causes something at the base or that every possible cause is exercised.",
   "basis": "stipulative",

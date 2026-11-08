@@ -1,8 +1,10 @@
 {
-  "id": "STMT-PROFILE-EACH-BEING-CAN-NOT-BE",
+  "id": "ed9ec5fd-66ed-5ef0-aa7b-07522588d8f1",
+  "label": "Each candidate being in the SAME supplied temporal profile can not-be in its supplied Possible sense",
+  "legacy_id": "STMT-PROFILE-EACH-BEING-CAN-NOT-BE",
   "paraphrase": "Each candidate being in the SAME supplied temporal profile can not-be in its supplied Possible sense. Does not assert a common possibility witness, actual temporal absence or metaphysical adequacy of that profile.",
   "lean_declaration": "TruthCore.Logic.CollectivePossibilityRouteBoundary.AllIndividuallyPossible",
   "definition_ids": [
-    "DEF-COLLECTIVE-POSSIBILITY-LOCAL-PROOF-ROUTE"
+    "e571cfe0-5cd9-51ea-8ded-30f55da48855"
   ]
 }

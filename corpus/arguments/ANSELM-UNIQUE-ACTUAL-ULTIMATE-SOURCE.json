@@ -1,32 +1,34 @@
 {
-  "id": "ANSELM-UNIQUE-ACTUAL-ULTIMATE-SOURCE",
+  "id": "dd0ad08f-8d76-58e1-8788-4de759cfac1a",
+  "label": "Exactly one actually existing bearer…, from At least one individual actually exists at… and 5 more",
+  "legacy_id": "ANSELM-UNIQUE-ACTUAL-ULTIMATE-SOURCE",
   "premise_statement_ids": [
-    "STMT-PSR-POPULATED-AT",
-    "STMT-ANSELM-THROUGH-COVERAGE",
-    "STMT-ANSELM-SOURCE-ACTUALITY",
-    "STMT-ANSELM-ULTIMATE-AVAILABILITY",
-    "STMT-TAPP-SHARED-SELF-POWER",
-    "STMT-TAPP-SELF-POWER-THROUGH"
+    "43f09b83-776d-57b8-a5b3-b84715e48fc2",
+    "5ec26014-b911-5d16-8a59-4f9ac3a7a4bf",
+    "c6470f6a-af73-58a7-94e9-4f24bede211a",
+    "3fc75a36-1bb3-58b8-8121-21532b495920",
+    "a08c44e9-b8b8-56f1-b622-b4aa5b550935",
+    "50a1171f-b16f-58e3-b651-d731e68963b7"
   ],
-  "conclusion_statement_id": "STMT-ANSELM-UNIQUE-ULTIMATE-SOURCE",
+  "conclusion_statement_id": "f5fd14f4-cc3b-5221-acd7-8bec0c1df9c0",
   "inference_ids": [
-    "INF-ANSELM-UNIQUE-ACTUAL-ULTIMATE-SOURCE"
+    "36c598ad-9d51-531d-b850-9383aeceee71"
   ],
   "meaning": "Compose the two preceding derivations in the same context and world to obtain Mathlib ExistsUnique for actual ultimate sources. Retains all six explicit hypotheses including the owner-accepted population starting point. Removes the source reconstruction’s separate transitivity, antisymmetry and case-completeness inputs, but does not defend common self-power or ultimate availability or identify this source with a previously obtained necessary witness.",
   "definition_ids": [
-    "DEF-ANSELM-THROUGH-CONTEXT",
-    "DEF-ANSELM-ACTUAL-ULTIMATE-SOURCE",
-    "DEF-ANSELM-SOURCE-ACTUALITY",
-    "DEF-ANSELM-THROUGH-COVERAGE",
-    "DEF-ANSELM-ULTIMATE-AVAILABILITY",
-    "DEF-TAPP-SHARED-SELF-POWER",
-    "DEF-TAPP-SELF-POWER-THROUGH",
-    "DEF-ANSELM-SOURCE-UNIQUENESS",
-    "DEF-PSR-POPULATED-WORLD",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+    "687881da-fd85-595d-8649-ab6e1f9b7ab2",
+    "6e99c5cc-2d8c-546e-8475-242fa956e7c5",
+    "bfc6b432-2215-558b-96af-1e28ee037ef4",
+    "8f9873ba-68cb-5415-ac32-f19762f794bf",
+    "4967cf8c-a7cc-5253-9288-37473b931b97",
+    "c53a0cc8-bcdc-592c-8e46-bf75b4aa749c",
+    "ca8a9ffd-a7aa-57a1-b875-94308b836b07",
+    "4477b0a6-c85d-5749-b0e4-e39de2bdad91",
+    "8e86ac44-8980-5d5f-b571-644e18d30d08",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea"
   ],
   "disambiguation_ids": [
-    "DISAMB-ANSELM-THROUGH-VS-EFFICIENT-CAUSE"
+    "127e3934-efe5-57f9-b754-4ce22d36aeb8"
   ]
 }

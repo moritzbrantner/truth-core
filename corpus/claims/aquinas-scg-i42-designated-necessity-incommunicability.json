@@ -1,19 +1,21 @@
 {
-  "id": "AQUINAS-SCG-I42-DESIGNATED-NECESSITY-INCOMMUNICABILITY",
-  "statement_id": "STMT-AQUINAS-SCG-I42-DESIGNATED-NECESSITY-INCOMMUNICABILITY",
-  "source_id": "AQUINAS-SCG",
+  "id": "418b5067-58a2-54d5-946f-56c07f36b124",
+  "label": "Thomas Aquinas, Summa contra gentiles I.42…: A being necessary through itself must be necessary as…",
+  "legacy_id": "AQUINAS-SCG-I42-DESIGNATED-NECESSITY-INCOMMUNICABILITY",
+  "statement_id": "2ab7bec9-5b22-5b7c-aef3-0dfc75ffc7a2",
+  "source_id": "0292b788-8058-5069-afde-4a19b82b5604",
   "basis": "translation",
   "locator": "I.42 [13–14], including the proof of the minor in [14]",
   "interpretation": "Preserve the positive thisness argument: if designation were not necessary through itself it would depend on another, and being in act entails being distinct. The binary self-necessary-or-dependent step is not independently established. A being’s own necessity instance is not automatically the same numerical property as the common notion of necessity shared by candidates; transferring incommunicability to every other candidate is an OPEN scope/identity bridge, not a certified quantifier move. Based on the verified complete Pegis translation chapter; no pinned Latin reading or formal proof/premise truth is asserted.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-SCG-I42-UNIQUENESS-CASES",
-    "DEF-SCG-I42-DESIGNATED-NECESSITY"
+    "6181b7fb-3189-5ccd-affe-e7851c6fd2ab",
+    "f2319c18-9f0d-5b49-9339-0f8c08f45e5d"
   ],
   "disambiguation_ids": [
-    "DISAMB-SCG-I42-COMMON-NOTION-THISNESS",
-    "DISAMB-NECESSARY",
-    "DISAMB-ESSENCE",
-    "DISAMB-Q11-SUPPOSITUM-NATURE"
+    "8dc455d8-c214-58f6-b8c8-a95cb4c3421c",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e",
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "2eef7e66-376a-57e0-81de-9757a1ae1e14"
   ]
 }

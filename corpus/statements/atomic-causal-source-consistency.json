@@ -1,21 +1,23 @@
 {
-  "id": "STMT-ATOMIC-CAUSAL-SOURCE-CONSISTENCY",
+  "id": "6b81b455-8a8d-55bc-83ca-06d9c7e437f9",
+  "label": "A fixed two-object interpretation with identity parthood and sole edge origin→effect satisfies…",
+  "legacy_id": "STMT-ATOMIC-CAUSAL-SOURCE-CONSISTENCY",
   "paraphrase": "A fixed two-object interpretation with identity parthood and sole edge origin→effect satisfies population, atomic parts, conditional caused-simple coverage, nonoverlap and activity. It also has unique incoming complete cause, all objects simple and hence vacuous caused-composite P6, caused-simple family {effect}, full singleton Fusion at effect, and explicit source/outgoing endpoints. This is a formal consistency witness only.",
   "lean_declaration": "TruthCore.Causality.AtomisticCausalSource.Consistency",
   "definition_ids": [
-    "DEF-ATOMIC-OBJECT-DOMAIN",
-    "DEF-ATOMIC-SIMPLE-PART",
-    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
-    "DEF-COMPLETE-OBJECT-CAUSATION",
-    "DEF-OBJECT-CAUSE-NONOVERLAP",
-    "DEF-ATOMIC-CAUSAL-SOURCE",
-    "DEF-REGRESS-SCHEMA-GRAPH",
-    "DEF-UNIVERSAL-FUSION-PROFILE",
-    "DEF-OBJECT-CAUSAL-ACTIVITY",
-    "DEF-CAUSED-COMPOSITE-PROPER-PART"
+    "3f1eca4b-fc8c-5a3b-ad71-ecb2ebc9bd13",
+    "7c8a14ff-2189-5241-b988-626c1e1cb19e",
+    "ea529762-fa78-5d86-bf6c-4b8680e9cdc5",
+    "974180e2-5483-50af-b946-044088d6f8b7",
+    "e6729d32-ce82-52a2-91b0-826a43ce6705",
+    "e3a887b3-eed4-5836-a406-359a9fb71b17",
+    "1dff2d68-1348-5e7e-8ee7-248af63c8c53",
+    "9ec56dce-572e-5230-8247-6b3e994cb98a",
+    "73555c25-3633-5cf7-bbaa-ed9c70494826",
+    "fbcf3e20-7946-5ad4-a6f3-ba92d92add00"
   ],
   "disambiguation_ids": [
-    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
-    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE"
+    "637c53a7-2616-5c34-aa9a-9f7dd880eaed",
+    "70af59cf-0351-5332-9c89-b80231412529"
   ]
 }

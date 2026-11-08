@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-207B-BISECTION-POTENTIAL-A",
-  "statement_id": "STMT-BISECTION-INFINITY-POTENTIAL-NOT-ACTUAL",
-  "source_id": "ARIST-PHYS",
+  "id": "bbbb3f32-5dc8-595d-ad71-6cc338c26eb5",
+  "label": "Aristotle, Physics III.7, 207b10-15: The infinity of repeated bisection is potential and…",
+  "legacy_id": "ARIST-PHYS-207B-BISECTION-POTENTIAL-A",
+  "statement_id": "1361ed54-9038-50a7-91ce-5e64fe8f2fa2",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.7, 207b10-15",
   "interpretation": "The number of possible bisections is potentially unbounded but never an actually completed or separable permanent infinite; its infinity consists in the continuing bisection process, analogously to time's succession.",
   "status": "formalized"

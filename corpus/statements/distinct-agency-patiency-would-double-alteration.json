@@ -1,5 +1,7 @@
 {
-  "id": "STMT-DISTINCT-AGENCY-PATIENCY-WOULD-DOUBLE-ALTERATION",
+  "id": "98858b60-86e0-5100-bae6-e298b77a44c3",
+  "label": "If agency and patiency were two distinct motions in the patient, there would be two simultaneous…",
+  "legacy_id": "STMT-DISTINCT-AGENCY-PATIENCY-WOULD-DOUBLE-ALTERATION",
   "paraphrase": "If agency and patiency were two distinct motions in the patient, there would be two simultaneous alterations toward one definite form.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.DistinctAgencyPatiencyWouldDoubleAlterationReading"
 }

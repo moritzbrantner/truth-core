@@ -1,17 +1,19 @@
 {
-  "id": "ATTEMPT-CARNEADES-INFINITE-WAGER-MIXTURE",
+  "id": "fc96225f-7324-50bf-8e57-d8a22f32531e",
+  "label": "Read complete public automatic captions of Carneades.org Pascal's Wager p3ScupIbdkU, 00:00\u201306:24\u2026",
+  "legacy_id": "ATTEMPT-CARNEADES-INFINITE-WAGER-MIXTURE",
   "date": "2026-11-05",
   "statement_ids": [
-    "STMT-INFINITE-WAGER-MIXTURE-TIE",
-    "STMT-SIGNED-WAGER-CONSEQUENCES",
-    "STMT-SIGNED-WAGER-PRACTICAL-NONTRUTH"
+    "a67f12a4-3b5f-515d-b29e-d3a3c3a2db70",
+    "0439b0b6-aa6b-51ca-804a-6f933c9624df",
+    "c85a26ca-6784-5dca-83d2-047d2fc1ac31"
   ],
   "kind": "countermodel",
   "outcome": "succeeded",
   "summary": "Read complete public automatic captions of Carneades.org Pascal's Wager p3ScupIbdkU, 00:00\u201306:24; exact reading and rejection boundaries in docs/notes/carneades-decision-wager.md. No attributed source claim: media witness not pinned/materialized, audio/slides unverified. Companion ACeOPJPsHd8 returned caption HTTP429 and was not read. Independent stipulated nonnegative ENNReal profile p*q*top shows all nonzero mixtures tie at top; distinct probabilities one and one-half tie, while zero prior or zero rewarded-act probability gives zero. This challenges strict ranking by this coarse expectation alone; it does not refute tie-permitting maximization or prove practical obligation, belief agency, signed finite-cost immunity or religious truth. All priors/payoffs/agency/maximizing application commitments remain open. Main inventory found no existing wager/decision Lean vocabulary implementing #375/#376; standard Mathlib ENNReal reused instead of new arithmetic. No root-premise change. Challenge frozen c71299b3 before proof; persistent shared-session development diagnostics are not final Comparator certification. Logic-first #1034 extension (working reconstruction, attribution deferred): EReal signed real costs, guarded partial expectation rejecting opposing infinities, complementary normalized real probabilities, symmetric incompatible reward-policy mixture theorem, zero prior/action omissions, and concrete p=1/2,c=-1 practical-maximizer/false-actual-proposition model. Existing nonnegative theorem consumed as a reused control. Rejected inference from act choice to belief control; undefined stakes cannot be zero scores. Strong replies, exact utility assumptions and remaining generalization limits persisted in the same note. No theological prior, payoff, practical norm or truth premise established; no root-premise change.",
   "evidence": [
-    "INFINITE-WAGER-MIXTURE-TIE",
-    "SIGNED-WAGER-CONSEQUENCES",
-    "SIGNED-WAGER-PRACTICAL-NONTRUTH"
+    "288c4ae1-364c-5719-b8d1-16d17a477a8a",
+    "7145d7d7-edaf-52aa-bbea-a0440136506f",
+    "9e5f0f7c-0c4b-59f3-9d37-2d03b3417df8"
   ]
 }

@@ -1,9 +1,11 @@
 {
-  "id": "DEF-HUME-IDEA-CERTAINTY",
+  "id": "48cf1e70-6343-52f0-88c3-995c051156b6",
+  "label": "Intuitive certainty in Treatise I.3.3…: The certainty Hume examines by comparison of ideas and the…",
+  "legacy_id": "DEF-HUME-IDEA-CERTAINTY",
   "term": "intuitive certainty in Treatise I.3.3 §§1–2",
   "definition": "The certainty Hume examines by comparison of ideas and the listed unalterable relations. The reading records his denial that the causal beginning maxim displays this intuitive certainty; it does not deny every rational or practical entitlement.",
   "basis": "sourced",
   "claim_ids": [
-    "HUME-TREATISE-I-3-3-INTUITIVE-A"
+    "69e5b21b-eead-5310-93e5-d745fd30fe96"
   ]
 }

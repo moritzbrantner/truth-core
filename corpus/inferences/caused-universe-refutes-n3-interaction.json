@@ -1,13 +1,15 @@
 {
-  "id": "INF-CAUSED-UNIVERSE-REFUTES-N3-INTERACTION",
+  "id": "c5961a3f-86cc-5837-9ab1-9a182a9d929e",
+  "label": "N3i fails at the selected world, by Constructive-proof",
+  "legacy_id": "INF-CAUSED-UNIVERSE-REFUTES-N3-INTERACTION",
   "input_statement_ids": [
-    "STMT-UNIVERSE-HAS-EXISTING-CAUSE",
-    "STMT-CAUSING-WHOLE-CAUSES-PARTS",
-    "STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF",
-    "STMT-THESIS-CONTAINED-IN-SPACETIME",
-    "STMT-SPACETIME-WHOLE-SATISFIES-THESIS"
+    "aa3da4c7-f70a-56ac-9a30-7b8cc984bebe",
+    "08087a25-43bd-53f2-9103-f3644c171324",
+    "8b2561cd-3743-536d-a110-3352fdb0c6b9",
+    "5aed0767-9cad-5965-8912-e7b8ea11fd6e",
+    "a0804fe3-fceb-5bcd-9c64-5bd8829426d0"
   ],
-  "output_statement_id": "STMT-NATURALISM-N3-INTERACTION-FAILS",
+  "output_statement_id": "69fcf3a8-922b-587a-be8d-cb843cf369a1",
   "rule": "constructive-proof",
   "meaning": "The cause of the spacetime whole causes something satisfying the thesis predicate (the whole itself), so N3i would make it satisfy the predicate and be a part of spacetime, which UNIVERSE-CAUSE-OUTSIDE-SPACETIME excludes. So N3i fails. Conditional on the open premises.",
   "assumption_statement_ids": [],

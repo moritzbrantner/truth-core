@@ -1,18 +1,20 @@
 {
-  "id": "BOETHIAN-CALIBRATION-STRENGTHENS-RECOGNITION",
+  "id": "fb5a7e59-c68c-5d66-98bf-ac17d710beb1",
+  "label": "Weak open transfer: the SAME being satisfying the…, from For every being in the supplied duration…",
+  "legacy_id": "BOETHIAN-CALIBRATION-STRENGTHENS-RECOGNITION",
   "premise_statement_ids": [
-    "STMT-PRIMITIVE-ETERNITY-BOETHIAN-DEFINITION"
+    "73f4b6c6-ba85-5b1a-9c8a-bf07587de5ce"
   ],
-  "conclusion_statement_id": "STMT-BOETHIAN-ETERNITY-SUFFICES-FOR-PRIMITIVE-ETERNITY",
+  "conclusion_statement_id": "a35acca8-cc3e-51ff-98f1-4491d3f0c119",
   "inference_ids": [
-    "INF-BOETHIAN-CALIBRATION-STRENGTHENS-RECOGNITION"
+    "df047a89-4bc3-580a-9831-56af37b273d0"
   ],
   "meaning": "Exact strength registration: biconditional operational calibration implies only the one-way recognition actually needed by the root route; converse fails in the controls.",
   "definition_ids": [
-    "DEF-ETERNITY-CALIBRATION-PROFILE",
-    "DEF-BOETHIAN-ETERNAL"
+    "b9cac25b-6e7f-57ff-9d74-21d615912a0e",
+    "5e77da13-998f-56ab-96b7-12731ac95f70"
   ],
   "disambiguation_ids": [
-    "DISAMB-DURATION-SENSE"
+    "6805c9bd-fade-56d1-a034-c7a87d78c343"
   ]
 }

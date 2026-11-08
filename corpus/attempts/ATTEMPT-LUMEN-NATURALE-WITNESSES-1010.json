@@ -1,18 +1,20 @@
 {
-  "id": "ATTEMPT-LUMEN-NATURALE-WITNESSES-1010",
+  "id": "1ff33037-cd5c-5017-b032-98b2ca1a3415",
+  "label": "Owner decision 2026-11-06: pin witnesses on lumen naturale and try to close bridge",
+  "legacy_id": "ATTEMPT-LUMEN-NATURALE-WITNESSES-1010",
   "statement_ids": [
-    "STMT-NATURAL-REASON-IS-SHARED-REASON",
-    "STMT-NATURAL-REASON-WITHIN-THEOLOGICAL-HORIZON"
+    "c87ffcb8-9a44-5e02-a68b-13d0282ae930",
+    "9c236646-c801-58c8-b599-4c2c6fe0ee09"
   ],
   "date": "2026-11-06",
   "kind": "source-search",
   "outcome": "blocked",
   "summary": "Owner decision 2026-11-06: pin witnesses on lumen naturale and try to close bridge (b). Pinned and read: Rom 1-2 (Nova Vulgata, vatican.va), Augustine De civitate Dei VIII (The Latin Library), Justin Second Apology (First1KGreek, git), Aquinas ST I-II q.91 a.2 (Corpus Thomisticum); reused the pinned SCTA q.94 a.4. Seven stating claims, each on what its text states: Rom 1:19-21 (outsiders knew God through the things made, without excuse), Rom 2:14-15 (gentiles know the law by nature), Justin (seed of the logos in every race; writers saw dimly), Augustine VIII.6 (Platonists reached the first principle by reasoning; Rom 1:20 applied to them), Aquinas q.91 a.2 (natural light as impression of the divine light; gentiles have natural law) and q.94 a.4 (common principles equally known to all; the article does not classify God's existence). All support bridge (b) with gap notes. None is recorded as an attack on the theological-horizon reply: non-Christian or idolatrous knowers are outside Christianity, not shown to be outside every theological horizon (a further, unrecorded bridge). Result: bridge (b) is better supported but not closed: no text states it in the bridge's form, several speak of practical reason or of God's showing, and closing under #999 would require establishing it, i.e. refuting the horizon reply from established premises.",
   "evidence": [
-    "ROM-1-19-21-GENTILES-KNEW-GOD",
-    "AUGUSTINE-PLATONISTS-KNEW-GOD-FROM-CREATION",
-    "JUSTIN-WRITERS-SAW-DIMLY-BY-IMPLANTED-SEED",
-    "AQUINAS-COMMON-PRINCIPLES-KNOWN-TO-ALL"
+    "d76e3151-1b8e-5b56-b415-a46d911e800b",
+    "c54c8ee2-fc85-5859-b434-b4990ae1bfc4",
+    "d51bc1e9-4e9a-5e19-b548-9f3f0ac3591c",
+    "d5513578-a72c-59b7-a61d-d5e63430a13f"
   ],
   "blocker": "Bridge (b) stays open: supported, not stated. Closing it needs either a text that states it (none found) and then a defence against the horizon reply, or an owner decision to treat it differently."
 }

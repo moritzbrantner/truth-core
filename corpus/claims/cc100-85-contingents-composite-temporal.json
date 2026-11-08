@@ -1,15 +1,17 @@
 {
-  "id": "CC100-85-CONTINGENTS-COMPOSITE-TEMPORAL",
-  "statement_id": "STMT-CC100-85-CONTINGENTS-COMPOSITE-TEMPORAL",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "2f3c362a-f44b-5408-b3ac-15f70ceb2069",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: All contingent beings are composite and temporal",
+  "legacy_id": "CC100-85-CONTINGENTS-COMPOSITE-TEMPORAL",
+  "statement_id": "0e15e70f-4b93-5352-bb90-7494ca216358",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.206–213: p.208, argument #85 Unities: Contingents, step 1",
   "interpretation": "This is the universal displayed source assertion, not a theorem from modal contingency or a definition of contingent being. No exceptions, ordinary examples or independent contingency-to-compositeness/temporality argument are supplied. Existing root attributes concern a selected necessary root, not this universal contingent domain. Attribution is to McIntosh’s presentation only, not the unread Braine1988 book referenced on p209. No formal proof or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-85-TEMPORAL-SUSTAINING-EXPLANATION"
+    "f65d68ee-3c6a-57e7-8493-9b0e96a8cc50"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

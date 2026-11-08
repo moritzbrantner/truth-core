@@ -1,5 +1,7 @@
 {
-  "id": "DEF-STRICT-SIMPLE-PRIORITY",
+  "id": "b2d8accf-16aa-5c2f-acef-dc24915dfe9a",
+  "label": "Irreflexivity of the selected\u2026: Standard Lean/Mathlib Std.Irrefl PriorSimply on the SAME candidate\u2026",
+  "legacy_id": "DEF-STRICT-SIMPLE-PRIORITY",
   "term": "irreflexivity of the selected simple-priority relation",
   "definition": "Standard Lean/Mathlib Std.Irrefl PriorSimply on the SAME candidate carrier and simple-priority argument used by act-priority and firstness: \u2200 x, \u00ac PriorSimply x x. No new relation is introduced. Strict here means only no self-priority, not a strict total order.",
   "basis": "stipulative",

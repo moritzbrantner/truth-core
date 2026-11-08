@@ -1,6 +1,8 @@
 {
-  "id": "SUCCESSION-REQUIRES-POTENCY-FROM-MOTION",
-  "argument_id": "SUCCESSION-REQUIRES-POTENCY-FROM-MOTION",
+  "id": "5e641180-65c6-5d86-8a1b-156ad3102450",
+  "label": "Whatever is changed in any way is in some way in POTENCY_1, read for succession in a…, from MOTION_1",
+  "legacy_id": "SUCCESSION-REQUIRES-POTENCY-FROM-MOTION",
+  "argument_id": "6838d6af-ddeb-5615-a8f7-0f5d17a6771d",
   "challenge_module": "TruthCore.Results.Causality.SuccessionPotency.Challenge",
   "solution_module": "TruthCore.Results.Causality.SuccessionPotency.Solution",
   "theorem": "TruthCore.Results.Causality.SuccessionPotency.successionRequiresPotency",

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MODAL-K-ACTUALITY",
+  "id": "2a081357-c3f9-5ca0-a4b6-604f47258175",
+  "label": "Domain-relative possibility entails…: PossibilityActuality F D w means every admissible predicate…",
+  "legacy_id": "DEF-MODAL-K-ACTUALITY",
   "term": "domain-relative possibility entails actuality",
   "definition": "PossibilityActuality F D w means every admissible predicate P with a witness v satisfying F.access w v and P v is true at w. This is world-relative existential Dia semantics, not a conceivability bridge, global validity, or a declaration that an accessible label is a metaphysical possibility. Unlike MC its direction runs from accessible truth to root truth.",
   "basis": "stipulative",

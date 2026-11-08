@@ -1,9 +1,11 @@
 {
-  "id": "INF-NATURALISM-N1-ENTAILS-N2",
+  "id": "2336cce2-32b8-5909-8e92-a02b6dced62d",
+  "label": "N2, CONCRETE_NATURALISM_2: at the selected world, everything that exists…, by Constructive-proof",
+  "legacy_id": "INF-NATURALISM-N1-ENTAILS-N2",
   "input_statement_ids": [
-    "STMT-NATURALISM-N1"
+    "f54cc1ad-8913-52ec-abf1-be30f76a03bc"
   ],
-  "output_statement_id": "STMT-NATURALISM-N2",
+  "output_statement_id": "41ae1d27-391f-530e-a65c-4e2b2ef4b08e",
   "rule": "constructive-proof",
   "meaning": "Strength registration (#1017): if everything existing at the world satisfies the thesis predicate, so does everything existing and concrete there. It backs the strengthens relation N1 → N2, so a counted refutation of N2 would refute N1.",
   "assumption_statement_ids": [],

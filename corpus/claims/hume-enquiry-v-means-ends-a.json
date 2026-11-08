@@ -1,16 +1,18 @@
 {
-  "id": "HUME-ENQUIRY-V-MEANS-ENDS-A",
-  "statement_id": "STMT-HUME-INDUCTION-MEANS-ENDS",
-  "source_id": "HUME-ENQUIRY",
+  "id": "69f35326-6563-57ce-92fc-8838ba1983c2",
+  "label": "David Hume, An Enquiry concerning Human…: Adjustment of means to ends requires the influence of…",
+  "legacy_id": "HUME-ENQUIRY-V-MEANS-ENDS-A",
+  "statement_id": "7a397053-3b54-5e81-967d-8fe06d68d20c",
+  "source_id": "d27e53fc-c4af-5160-83a4-924a2aae4d2e",
   "locator": "V, §6 (SBN 44–45)",
   "interpretation": "The without-custom counterfactual is represented as a necessary-condition implication; it neither guarantees every intervention nor supplies normative entitlement.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-HUME-INDUCTION-MEANS-ENDS",
-    "DEF-HUME-INDUCTION-CUSTOM",
-    "DEF-HUME-INDUCTION-PRACTICE"
+    "e087f03b-3e19-5761-865e-0372e3d4cb91",
+    "cef4da44-097f-546a-80cc-67c3a08a80af",
+    "72c8b5b3-fee8-5cd1-9f2d-b8018a7a18d8"
   ],
   "disambiguation_ids": [
-    "DISAMB-HUME-INDUCTION-REASON-PRACTICE"
+    "bfbe0dc7-4c2f-5183-9f6b-f69d43e45bbe"
   ]
 }

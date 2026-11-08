@@ -1,7 +1,9 @@
 {
-  "id": "INF-INFINITE-WAGER-MIXTURE-TIE",
+  "id": "05a7a189-3c4b-5d6b-a799-df936049c6c5",
+  "label": "In the stipulated nonnegative reward profile, all nonzero prior and action…, by Direct-proof",
+  "legacy_id": "INF-INFINITE-WAGER-MIXTURE-TIE",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-INFINITE-WAGER-MIXTURE-TIE",
+  "output_statement_id": "a67f12a4-3b5f-515d-b29e-d3a3c3a2db70",
   "rule": "direct-proof",
   "meaning": "Use Mathlib extended nonnegative multiplication to compute top for nonzero factors, instantiate at one and one-half, and evaluate the zero-factor controls.",
   "assumption_statement_ids": [],

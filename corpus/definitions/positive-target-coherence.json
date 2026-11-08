@@ -1,5 +1,7 @@
 {
-  "id": "DEF-POSITIVE-TARGET-COHERENCE",
+  "id": "e91c64b9-3975-5924-9e9b-7d3f49995e18",
+  "label": "Positive target label and its actual…: A.exist b equals the existing positive b constructor, and…",
+  "legacy_id": "DEF-POSITIVE-TARGET-COHERENCE",
   "term": "positive target label and its actual existence truth correspondence",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Explanation.AutonomousGroundNecessity.PositiveTargetCoherent",

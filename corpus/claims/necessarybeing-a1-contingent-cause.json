@@ -1,10 +1,16 @@
 {
-  "id": "NB-SURVEY-A1-CONTINGENTS-CAUSED",
-  "statement_id": "STMT-NB-A1-CONTINGENTS-CAUSED",
-  "source_id": "NECESSARYBEING-SURVEY",
+  "id": "be9715f8-e6d8-5c86-9e36-3d122d3dfa36",
+  "label": "Unattributed website author, Necessary…: No contingent thing is without a cause, according to… (2)",
+  "legacy_id": "NB-SURVEY-A1-CONTINGENTS-CAUSED",
+  "statement_id": "551e13d0-d8a1-5d7f-a236-c1b04a545749",
+  "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
   "locator": "A1c, step 3",
   "interpretation": "The respondent is said to have granted a universal causal principle about contingent things. The source has not established this by induction or a PSR and has not yet specified an external cause.",
   "status": "formalized",
-  "definition_ids": ["DEF-NB-SURVEY-CAUSE-RELATUM"],
-  "disambiguation_ids": ["DISAMB-NB-SURVEY-A1-CAUSE"]
+  "definition_ids": [
+    "c840c46a-3e60-5fbc-81a3-3633ab562871"
+  ],
+  "disambiguation_ids": [
+    "a73418e5-248f-5bda-b82c-47d92b3151dd"
+  ]
 }

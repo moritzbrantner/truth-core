@@ -1,20 +1,22 @@
 {
-  "id": "RUTTEN-CH7-COMPLETE-CAUSE-COVERS-CONTRIBUTORS",
-  "statement_id": "STMT-COMPLETE-CAUSE-COVERS-CONTRIBUTORS",
-  "source_id": "RUTTEN-RENEWED-THEISM-2012",
+  "id": "7d6fee6e-a9fa-5b9b-890e-33583c3fda58",
+  "label": "Gerardus Johannes Emanuel Rutten, A…: Every complete cause contains every supplied productive…",
+  "legacy_id": "RUTTEN-CH7-COMPLETE-CAUSE-COVERS-CONTRIBUTORS",
+  "statement_id": "55d1d0e7-f1b6-522b-9bf4-0514c998a828",
+  "source_id": "346c29b0-c84a-501f-a7d8-e04e5fb188e0",
   "locator": "2012 dissertation, chapter VII, printed p.157, causation reply and footnote211: total or complete cause and all objects participating in causing the effect",
   "interpretation": "Explicit WEAKER CONSEQUENCE reading of total or complete cause as the sum of ALL objects participating in causing its effect: each participant is contained in that cause, formalized only with existing Covers. Do not identify full mereological fusion with this upper-bound clause or infer a cause from an arbitrary cover. Footnote211 discusses participant-sum objecthood separately; this policy quantifies only over causes already supplied by the graph and does not prove object eligibility or existence of a cause. Causing a part is NOT silently identified with participating in producing the whole, and all participants belong to one selected causal context, not a union of alternative histories. The entire pinned ChapterVII reply range printed154–158/PDF156–160 was materialized and read, with p157 reread before this extraction. No independent premise truth, full first-cause proof or metaphysical possibility is claimed.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-COMPLETE-PRODUCER-PARTICIPATION",
-    "DEF-COMPLETE-CAUSE-CONTRIBUTOR-COVER",
-    "DEF-ATOMIC-OBJECT-DOMAIN",
-    "DEF-COMPLETE-OBJECT-CAUSATION",
-    "DEF-REGRESS-SCHEMA-GRAPH",
-    "DEF-UNIVERSAL-FUSION-PROFILE"
+    "e7f5e58a-1199-5c33-912c-09a87ef554c4",
+    "a1834cd3-abaa-55f4-aeb4-195bc964c472",
+    "3f1eca4b-fc8c-5a3b-ad71-ecb2ebc9bd13",
+    "974180e2-5483-50af-b946-044088d6f8b7",
+    "1dff2d68-1348-5e7e-8ee7-248af63c8c53",
+    "9ec56dce-572e-5230-8247-6b3e994cb98a"
   ],
   "disambiguation_ids": [
-    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
-    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE"
+    "637c53a7-2616-5c34-aa9a-9f7dd880eaed",
+    "70af59cf-0351-5332-9c89-b80231412529"
   ]
 }

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-EPISODE-MODIFICATION",
+  "id": "41f956bd-5430-5c0d-801e-a661ffe28e05",
+  "label": "Modification: Modification e: the episode e is a mode or accident, something that is only as a…",
+  "legacy_id": "DEF-EPISODE-MODIFICATION",
   "term": "modification (Modification e)",
   "definition": "Modification e: the episode e is a mode or accident, something that is only as a determination of something else, not a self-standing thing (Descartes's modus, Aristotle's accident). Example: a thought as a mode of a thinking thing. Non-example on a bundle theory: a thought as a self-standing event. In Lean a parameter Episode -> Prop.",
   "basis": "stipulative",

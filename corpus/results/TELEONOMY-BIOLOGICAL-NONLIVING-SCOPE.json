@@ -1,6 +1,8 @@
 {
-  "id": "TELEONOMY-BIOLOGICAL-NONLIVING-SCOPE",
-  "argument_id": "TELEONOMY-BIOLOGICAL-NONLIVING-SCOPE",
+  "id": "836d22e8-4e2a-531e-b5ad-f99694f64550",
+  "label": "Biological differential retention is compatible with regular beneficial nonliving outcomes without…",
+  "legacy_id": "TELEONOMY-BIOLOGICAL-NONLIVING-SCOPE",
+  "argument_id": "cc7b9c2b-975d-51ae-a585-77367caa8d86",
   "challenge_module": "TruthCore.Results.Comparison.Teleonomy.BiologicalNonlivingScope.Challenge",
   "solution_module": "TruthCore.Results.Comparison.Teleonomy.BiologicalNonlivingScope.Solution",
   "theorem": "TruthCore.Results.Comparison.Teleonomy.BiologicalNonlivingScope.biologicalNonlivingScope",

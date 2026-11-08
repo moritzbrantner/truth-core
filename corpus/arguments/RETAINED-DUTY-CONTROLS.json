@@ -1,16 +1,18 @@
 {
-  "id": "RETAINED-DUTY-CONTROLS",
+  "id": "41522c3c-3858-53b4-9d6e-172c0cfa0f25",
+  "label": "Closed finite controls witness each direct-core and full retained-core single-premise omission",
+  "legacy_id": "RETAINED-DUTY-CONTROLS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-RETAINED-DUTY-CONTROLS",
+  "conclusion_statement_id": "637d4e76-0394-5b11-bf7a-efe6e6ce21dc",
   "inference_ids": [
-    "INF-RETAINED-DUTY-CONTROLS"
+    "31f78aa3-5bb1-5408-8e72-4b1237b5c734"
   ],
   "meaning": "Closed finite controls witness each direct-core and full retained-core single-premise omission. A debt case has possible later ability without present ability or actual repayment; a destroyed-original case retains duty and accountability without future original-return ability while compensation is future-feasible but not owed. A lapsed duty coexists with accountability. The future-ability repair is composed from the exact imported compatibility theorem under a duty-to-ideal bridge and ideal/future overlap, with the old certificate reused. All are stipulated formal cases, not empirical possibilities or moral facts; attribution deferred, root-premise delta zero.",
   "definition_ids": [
-    "DEF-RETAINED-DUTY-CASE",
-    "DEF-RETAINED-DUTY-POLICIES"
+    "200b70ef-cdce-5c01-9d1c-d802050f1f51",
+    "21e29c57-c49c-57e9-b226-8a9f23f7968d"
   ],
   "disambiguation_ids": [
-    "DISAMB-RETAINED-DUTY-ACTION-TIME"
+    "c5ea8a79-2882-5ebc-84f7-6d98dc36867f"
   ]
 }

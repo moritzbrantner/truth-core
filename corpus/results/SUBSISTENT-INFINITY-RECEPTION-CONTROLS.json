@@ -1,6 +1,8 @@
 {
-  "id": "SUBSISTENT-INFINITY-RECEPTION-CONTROLS",
-  "argument_id": "SUBSISTENT-INFINITY-RECEPTION-CONTROLS",
+  "id": "c309bbc1-d48e-5fec-b248-8408d074b162",
+  "label": "Six stipulated finite interpretations of the shared…",
+  "legacy_id": "SUBSISTENT-INFINITY-RECEPTION-CONTROLS",
+  "argument_id": "42a35488-437a-5b3e-b4f4-34e1ddae4d89",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.SubsistentInfinityReceptionControls.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.SubsistentInfinityReceptionControls.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.SubsistentInfinityReceptionControls.checks",

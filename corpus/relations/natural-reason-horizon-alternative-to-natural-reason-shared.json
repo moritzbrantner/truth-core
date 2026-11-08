@@ -1,9 +1,11 @@
 {
-  "id": "REL-NATURAL-REASON-HORIZON-ALTERNATIVE-TO-NATURAL-REASON-SHARED",
+  "id": "0ca111a3-be41-5566-afe4-2ce878620b27",
+  "label": "Exact negation of NATURAL_REASON_2 is… alternative to A move that affirms that God can be…",
+  "legacy_id": "REL-NATURAL-REASON-HORIZON-ALTERNATIVE-TO-NATURAL-REASON-SHARED",
   "subject_kind": "statement",
-  "subject_id": "STMT-SHARED-NATURAL-REASON-BRIDGE-REJECTED",
+  "subject_id": "490f4796-81ee-5c42-95d2-2f2a6713c654",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-NATURAL-REASON-IS-SHARED-REASON",
+  "object_id": "c87ffcb8-9a44-5e02-a68b-13d0282ae930",
   "note": "The serious exclusive/nonshared horizon challenge is retained, with the exact negation of the old shared-reason bridge now used as endpoint. NONSHARED-NATURAL-REASON-REJECTS-SHARED-BRIDGE needs the explicit all-nonshared profile plus an actual natural-knowability move; the mixed-profile rejection also composes into this exact endpoint. Raw STMT-NATURAL-REASON-WITHIN-THEOLOGICAL-HORIZON and its supporting claims remain unchanged. The modest descriptive theistic-audience sibling can coexist with shared or nonshared standards, so refuting it alone cannot defend the old bridge. A non-Christian theist is outside this practice without being outside every theological horizon; no universal worldview-neutrality inference is made. The original needsNaturalReasonIsShared model remains the escape from the earlier conditional pair defeat. No source claim, independent warrant or refutes relation is asserted."
 }

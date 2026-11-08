@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PSR-SOUNDNESS",
+  "id": "70fccbe6-be10-5709-9d73-53a436b97f25",
+  "label": "Truthfulness of an existence explanation: Sound requires every purported explanation to target an…",
+  "legacy_id": "DEF-PSR-SOUNDNESS",
   "term": "truthfulness of an existence explanation",
   "definition": "Sound requires every purported explanation to target an individual that actually exists at the specified world. It does not require relevance, uniqueness, fundamentality, explanatory closure or metaphysical sufficiency: the proof establishes no such properties.",
   "basis": "stipulative",

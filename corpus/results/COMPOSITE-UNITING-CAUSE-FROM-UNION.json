@@ -1,6 +1,8 @@
 {
-  "id": "COMPOSITE-UNITING-CAUSE-FROM-UNION",
-  "argument_id": "COMPOSITE-UNITING-CAUSE-FROM-UNION",
+  "id": "9fa5708e-e0bc-5fad-bbc1-c32ba9ba8887",
+  "label": "Every composite has a cause, other than itself, of its being: things diverse in…, from union",
+  "legacy_id": "COMPOSITE-UNITING-CAUSE-FROM-UNION",
+  "argument_id": "89531a4c-2881-5f7f-850c-3ee3366d7b44",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.CompositeUnitingCauseFromUnion.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.CompositeUnitingCauseFromUnion.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.CompositeUnitingCauseFromUnion.compositeHasAUnitingCause",

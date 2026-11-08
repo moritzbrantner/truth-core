@@ -1,7 +1,9 @@
 {
-  "id": "INF-FINITE-VALIDATION-SAMPLING",
+  "id": "e878750d-170d-5a7d-bce3-abf99a23c186",
+  "label": "For every finite discrete measurable domain, arbitrary…, by Product-measure-evaluation-an…",
+  "legacy_id": "INF-FINITE-VALIDATION-SAMPLING",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-FINITE-VALIDATION-SAMPLING",
+  "output_statement_id": "d80fc561-29a8-5d92-968f-c323c73eb2d7",
   "rule": "product-measure-evaluation-and-finite-union-bound",
   "meaning": "For every finite discrete measurable domain, arbitrary probability measure μ, supplied truthful binary labeling, fixed binary hypothesis and sample size n, zero-error validation under the genuine independent product μ^n has probability (1−error)^n. For every finite pool fixed independently of validation data and every ENNReal epsilon≤1, the probability that some member has actual deployment error strictly above epsilon yet passes is at most |pool|*(1−epsilon)^n. n=0 and the empty pool are included; no good member or realizability is assumed and abstention is allowed. These are repeated-sampling conditional guarantees, not calibration of an actual environment, posterior confidence conditional on passing, categorical warrant or root closure.",
   "assumption_statement_ids": [],

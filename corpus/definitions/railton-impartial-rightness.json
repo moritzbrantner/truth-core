@@ -1,10 +1,12 @@
 {
-  "id": "DEF-RAILTON-IMPARTIAL-RIGHTNESS",
+  "id": "d32ee06f-a6d3-5912-a689-fc3da94c1c8c",
+  "label": "Impartial moral rightness in Railton: Right is the criterion of instrumental rationality from the…",
+  "legacy_id": "DEF-RAILTON-IMPARTIAL-RIGHTNESS",
   "term": "impartial moral rightness in Railton",
   "definition": "Right is the criterion of instrumental rationality from the fully informed standpoint counting the objective interests of all potentially affected equally. It is not individual advantage; aggregation and its normative authority are substantive commitments. The finite equal-benefit model is only one possible realization.",
   "basis": "sourced",
   "lean_declaration": "TruthCore.English.Railton.RightnessReading",
   "claim_ids": [
-    "RAILTON-190-IMPARTIAL-RIGHTNESS"
+    "9b4e6db4-e443-57f9-81d2-9c367a60efd9"
   ]
 }

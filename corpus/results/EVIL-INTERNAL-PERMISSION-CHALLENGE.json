@@ -1,6 +1,8 @@
 {
-  "id": "EVIL-INTERNAL-PERMISSION-CHALLENGE",
-  "argument_id": "EVIL-INTERNAL-PERMISSION-CHALLENGE",
+  "id": "1bbd4114-1c80-5522-8517-405e06f58ed4",
+  "label": "In the supplied Rowe frame, existence of an…, from Some occurring intense suffering could be…",
+  "legacy_id": "EVIL-INTERNAL-PERMISSION-CHALLENGE",
+  "argument_id": "d9df15d3-a27b-504d-9084-9eb76129da35",
   "challenge_module": "TruthCore.Results.Metaethics.EvilObjection.InternalChallenge.Challenge",
   "solution_module": "TruthCore.Results.Metaethics.EvilObjection.InternalChallenge.Solution",
   "theorem": "TruthCore.Results.Metaethics.EvilObjection.InternalChallenge.internalPermissionChallenge",

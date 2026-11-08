@@ -1,9 +1,11 @@
 {
-  "id": "INF-JOINT-CONTINGENCY-LOCALIZATION",
+  "id": "a2c6ff7b-30be-520e-b6aa-e5d1623760cf",
+  "label": "Some f belongs to S and satisfies the existing Contingent A w…, by Classical-fixed-conjunction-f…",
+  "legacy_id": "INF-JOINT-CONTINGENCY-LOCALIZATION",
   "input_statement_ids": [
-    "STMT-JOINT-CONDITION-CONTINGENT"
+    "67ce8287-43a1-5b80-a788-5517af72a357"
   ],
-  "output_statement_id": "STMT-JOINT-CONTINGENT-MEMBER",
+  "output_statement_id": "aafbeaf1-84ca-572a-bde6-88369abd9156",
   "rule": "classical-fixed-conjunction-failure-localization",
   "meaning": "Unpack the actual truth and accessible failure world of the SAME fixed conjunction. Classical double-negation elimination extracts a selected fact failing at THAT SAME failure world; actual joint truth supplies its actual truth. Package this exact fact with the original accessible world into existing ContingentMember. No choice/cause/bearer role, all-members contingency, explanatory sufficiency or new aggregate is inferred.",
   "assumption_statement_ids": [],

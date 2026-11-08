@@ -1,6 +1,8 @@
 {
-  "id": "NIGHT-ACTUALIZATION-CORE",
-  "argument_id": "NIGHT-ACTUALIZATION-CORE",
+  "id": "93e340f8-c47b-5ef4-b9ec-e1ae84e456a0",
+  "label": "Logical falsity, from Generation from Night: some BEING_1 is in… and 4 more",
+  "legacy_id": "NIGHT-ACTUALIZATION-CORE",
+  "argument_id": "d6243bf3-929c-535e-a01c-7fcf1de81686",
   "challenge_module": "TruthCore.Results.Alternatives.NightActualizationCore.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.NightActualizationCore.Solution",
   "theorem": "TruthCore.Results.Alternatives.NightActualizationCore.incompatible",

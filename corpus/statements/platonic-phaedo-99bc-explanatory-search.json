@@ -1,10 +1,12 @@
 {
-  "id": "STMT-PLATONIC-PHAEDO-99BC-EXPLANATORY-SEARCH",
+  "id": "03be5578-f739-58ac-9057-f9021010f995",
+  "label": "Socrates wants to learn the kind of explanation connecting the arrangement of things with what is…",
+  "legacy_id": "STMT-PLATONIC-PHAEDO-99BC-EXPLANATORY-SEARCH",
   "paraphrase": "Socrates wants to learn the kind of explanation connecting the arrangement of things with what is best and fitting; unable to discover or learn that account, he offers his second voyage in the search for cause.",
   "definition_ids": [
-    "DEF-PHAEDO-BEST-EXPLANATORY-AIM"
+    "ce9755c3-ce17-553f-b2d7-4c73aa6e65f5"
   ],
   "disambiguation_ids": [
-    "DISAMB-PHAEDO-CAUSE-AND-CONDITION"
+    "75be9568-f157-51ba-b94a-f395c2412b7e"
   ]
 }

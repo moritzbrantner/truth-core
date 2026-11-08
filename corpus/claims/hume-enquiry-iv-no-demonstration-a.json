@@ -1,15 +1,17 @@
 {
-  "id": "HUME-ENQUIRY-IV-NO-DEMONSTRATION-A",
-  "statement_id": "STMT-HUME-INDUCTION-NO-DEMONSTRATION",
-  "source_id": "HUME-ENQUIRY",
+  "id": "fe72c44e-616c-55e4-ba62-468d0b75aeae",
+  "label": "David Hume, An Enquiry concerning Human…: No demonstrative argument establishes the uniformity of…",
+  "legacy_id": "HUME-ENQUIRY-IV-NO-DEMONSTRATION-A",
+  "statement_id": "2fc8df1f-b579-500a-8a6b-97fde8908559",
+  "source_id": "d27e53fc-c4af-5160-83a4-924a2aae4d2e",
   "locator": "IV, §18 (SBN 35)",
   "interpretation": "The changed-course examples support denial of demonstration; this does not assert random outcomes, metaphysical absence of causes, or denial of every entitlement.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-HUME-INDUCTION-FOUNDATION",
-    "DEF-HUME-INDUCTION-RECORD"
+    "2d90e4a7-b0f9-584e-9ffc-b8b4a26fbb4d",
+    "8eaba896-98d9-52a7-83c2-bd44d790f08b"
   ],
   "disambiguation_ids": [
-    "DISAMB-HUME-INDUCTION-REASON-PRACTICE"
+    "bfbe0dc7-4c2f-5183-9f6b-f69d43e45bbe"
   ]
 }

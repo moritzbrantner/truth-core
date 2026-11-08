@@ -1,16 +1,18 @@
 {
-  "id": "STMT-PRIMA-VIA-WEAK-CONSUMER-BOUNDARIES",
+  "id": "bdd5b493-89bf-5097-837b-c3b79c8857e3",
+  "label": "Five typed boundaries in the original independent-potency dictionary: the weaker relevant-respect…",
+  "legacy_id": "STMT-PRIMA-VIA-WEAK-CONSUMER-BOUNDARIES",
   "paraphrase": "Five typed boundaries in the original independent-potency dictionary: the weaker relevant-respect link fails to yield the absolute conclusion even with the being-in-act reduction; it fails to transfer well-founded per-se regress to the exact VII.1 and VIII.5 chains; the relative conclusion can coexist with all other generic Stage1 inputs and no God witness; and the director-regress interface with that weak link fails even retaining its through-director and unmoved-design bridges. The director test retains excluded middle explicitly. No claim covers additional Fourth-Way, later-attribute, problem-of-evil or historical premises.",
   "lean_declaration": "TruthCore.Case.Catholicism.PrimaViaStrengthBoundaries.WeakConsumerBoundaries",
   "definition_ids": [
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-INDEPENDENT-POTENCY",
-    "DEF-ACT",
-    "DEF-PER-SE-LINK-RELEVANT-RESPECT",
-    "DEF-FIRST-UNMOVED-MOVER"
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "3ea2762f-1a85-5059-b4e7-d29f192b16b6",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "55a974ea-1ba1-5df4-a03b-1fbaa388dfeb",
+    "cfadc1f4-dd30-5f4f-a336-a0b9c1b1182d"
   ],
   "disambiguation_ids": [
-    "DISAMB-POTENCY",
-    "DISAMB-PER-SE-LINK"
+    "508617ab-cf24-5f3b-a387-64b3991359ec",
+    "c097f626-c39c-57cd-ade4-ebb2dd900a4c"
   ]
 }

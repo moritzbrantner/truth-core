@@ -1,6 +1,8 @@
 {
-  "id": "POSSIBLE-CAUSE-BRUTE-SURVIVAL",
-  "argument_id": "POSSIBLE-CAUSE-BRUTE-SURVIVAL",
+  "id": "f4a0a4aa-6d58-5580-9d0d-9f727c30fe20",
+  "label": "In the explicit two-world universally accessible mixed modal model, select world true as actual",
+  "legacy_id": "POSSIBLE-CAUSE-BRUTE-SURVIVAL",
+  "argument_id": "f555ee13-045c-5dc2-9eb6-02a3f9540114",
   "challenge_module": "TruthCore.Results.Causality.PossibleCauseBruteSurvival.Challenge",
   "solution_module": "TruthCore.Results.Causality.PossibleCauseBruteSurvival.Solution",
   "theorem": "TruthCore.Results.Causality.PossibleCauseBruteSurvival.checks",

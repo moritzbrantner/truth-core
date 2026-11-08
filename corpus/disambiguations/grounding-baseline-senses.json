@@ -1,11 +1,13 @@
 {
-  "id": "DISAMB-GROUNDING-BASELINE-SENSES",
+  "id": "e940ca85-8b6b-53ea-9c3a-4fd5693ad534",
+  "label": "Grounding, complete grounds, reason projection and enabling rules",
+  "legacy_id": "DISAMB-GROUNDING-BASELINE-SENSES",
   "term": "grounding, complete grounds, reason projection and enabling rules",
   "sense_definition_ids": [
-    "DEF-GROUNDING-MODAL-REDUCT",
-    "DEF-ADMITTED-FULL-GROUND-SETS",
-    "DEF-PSR-STRENGTH-REASON",
-    "DEF-GROUND-ENABLING-RULES"
+    "aed2a89e-2482-5cd3-921f-69524c6c70c5",
+    "b738d5d0-b4bd-5f47-894f-673aae646d80",
+    "179d4557-bda1-59c4-938a-b91e9974a27f",
+    "cf9bec81-7df3-51fa-8389-04e06302dfb4"
   ],
   "resolution": "Existential candidate grounding in A, fact-set ground candidates in C, fact-to-fact admitted reasons, efficient causation in Ontic and potential ground/enabler rule links in D remain different interpretations. reasonView is an explicit structural adapter into the existing forced lemma, not an assertion that R is genuine explanatory sufficiency. Only the entire full member set carries JointNecessitation; enablers outside it invalidate an advertised completeness/sufficiency reading. WF is independently stipulated, not hidden in a word. A necessary fact is not a necessary being, and a selected contingent terminus need not be the original target."
 }

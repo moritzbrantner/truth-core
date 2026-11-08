@@ -1,17 +1,19 @@
 {
-  "id": "RELIGIOUS-NONDESCRIPTION-CONTROL",
+  "id": "22d259bc-0424-58db-acc0-637a988a952b",
+  "label": "A nonempty schema interpretation retains matched religious truth invariance but fails local…",
+  "legacy_id": "RELIGIOUS-NONDESCRIPTION-CONTROL",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-RELIGIOUS-NONDESCRIPTIVE-MODEL",
+  "conclusion_statement_id": "8f52d724-a287-5e0b-a4bf-3a52430d5fa3",
   "inference_ids": [
-    "INF-RELIGIOUS-NONDESCRIPTION-CONTROL"
+    "890076e5-3b4c-5fc5-bb55-89db37eee903"
   ],
   "meaning": "A nonempty semantic assignment retains matched truth invariance but lacks the selected religious fact-representation role, witnessing the serious independent descriptive objection.",
   "definition_ids": [
-    "DEF-RELIGIOUS-CONTENT-AND-DISCOURSE-TRUTH-PROFILE",
-    "DEF-RELIGIOUS-LOCAL-FACE-VALUE",
-    "DEF-RELIGIOUS-CROSS-DISCOURSE-FACE-VALUE"
+    "05c208f5-5137-5984-b940-083faed296ac",
+    "7e1cb856-5004-5ee5-b6e3-65aef915b0a7",
+    "b3e05273-087e-5a8f-864d-52e56f82d3b4"
   ],
   "disambiguation_ids": [
-    "DISAMB-RELIGIOUS-LOCAL-FACE-VALUE-AND-CROSS-DISCOURSE-UNIFORMITY"
+    "972577ea-4155-59ec-9f20-0399367c7de5"
   ]
 }

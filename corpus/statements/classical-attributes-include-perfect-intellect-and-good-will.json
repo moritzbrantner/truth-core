@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CLASSICAL-ATTRIBUTES-INCLUDE-PERFECT-INTELLECT-AND-GOOD-WILL",
+  "id": "7cffee54-a87d-504e-80d1-81ada7387696",
+  "label": "Whatever is GOD_4 and has the classical attributes asserts only what he believes and believes only…",
+  "legacy_id": "STMT-CLASSICAL-ATTRIBUTES-INCLUDE-PERFECT-INTELLECT-AND-GOOD-WILL",
   "paraphrase": "OPEN analyst bridge (attribution deferred): whatever is God and has the classical attributes asserts only what he believes (a good will intends no deception) and believes only what he holds as known (a perfect intellect holds no mere opinion). The primitive HasClassicalAttributes field is not unfolded; this premise supplies the two consequences.",
   "lean_declaration": "TruthCore.Causality.NamingVeracityBatch1.ClassicalAttributesIncludePerfectIntellectAndGoodWill",
   "definition_ids": [
-    "DEF-GOD-OF-CLASSICAL-THEISM",
-    "DEF-VERACITY-ASSERTION-VOCABULARY",
-    "DEF-HAS-INTELLECT",
-    "DEF-HAS-WILL"
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "f2c09ae8-848d-5a3b-ab79-92c2b01d414c",
+    "88bc0655-9dd0-5879-ba1b-3fca9f86c1f4",
+    "7c64b499-6dba-5e03-bdf3-5acea95d8836"
   ]
 }

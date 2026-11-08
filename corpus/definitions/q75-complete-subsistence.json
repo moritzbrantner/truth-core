@@ -1,10 +1,12 @@
 {
-  "id": "DEF-Q75-COMPLETE-SUBSISTENCE",
+  "id": "7c8f91df-84d3-5268-94cf-97e290392dc9",
+  "label": "Subsistence complete in a species: SubsistsAsComplete conjoins weak non-inherence with…",
+  "legacy_id": "DEF-Q75-COMPLETE-SUBSISTENCE",
   "term": "subsistence complete in a species",
   "definition": "SubsistsAsComplete conjoins weak non-inherence with CompleteInSpecies. This encodes the second sense of hoc aliquid in ad 1; ad 2 more strictly excludes being a part. Completeness is independent of weak subsistence and is never concluded by this result.",
   "basis": "sourced",
   "claim_ids": [
-    "AQUINAS-ST-I-Q75-A2-WEAK-SUBSISTENCE"
+    "87123356-5bae-5005-b8fc-1be483075b2f"
   ],
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.HumanIntellect.SubsistsAsComplete"
 }

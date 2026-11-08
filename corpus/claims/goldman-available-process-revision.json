@@ -1,16 +1,18 @@
 {
-  "id": "GOLDMAN-1979-AVAILABLE-PROCESS-REVISION",
-  "statement_id": "STMT-GOLDMAN-AVAILABLE-PROCESS-REVISION",
-  "source_id": "GOLDMAN-JUSTIFIED-BELIEF-1979",
+  "id": "c2a95997-dbe0-545f-b8d2-f851c98bd1a3",
+  "label": "Alvin I. Goldman, What Is Justified Belief?…: Goldman uses Jones’s misleading but reasonably…",
+  "legacy_id": "GOLDMAN-1979-AVAILABLE-PROCESS-REVISION",
+  "statement_id": "8bda2c9e-3ac5-52f7-961a-ee493f3f86c1",
+  "source_id": "2c810c72-1675-581e-ad63-135465d1f295",
   "locator": "pp. 18–20, section III, Jones case, principle (10) and its limitations",
   "interpretation": "The contrary testimony is false in the example; actual truth and justification come apart. Principle (10) is tentative, not a final fully precise criterion. Availability does not mean every possible investigation must already have been performed.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-GOLDMAN-HISTORICAL-RELIABILISM",
-    "DEF-GOLDMAN-CONDITIONAL-PROCESS-RELIABILITY",
-    "DEF-GOLDMAN-AVAILABLE-PROCESS-QUALIFICATION"
+    "aa7e99a0-6688-5cfa-950c-6991f9072d1b",
+    "73ca1400-cedf-5dbc-a478-e313e7ffa7ec",
+    "f38996f7-c982-5809-8215-392d0f6cb956"
   ],
   "disambiguation_ids": [
-    "DISAMB-GOLDMAN-STATUS-ACCESS-AND-REVISION"
+    "56b356a4-6acf-52a8-ae83-5edaf38a44f0"
   ]
 }

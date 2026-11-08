@@ -1,5 +1,7 @@
 {
-  "id": "DEF-REAL-THISNESS",
+  "id": "eaefcc0d-d2b8-56e3-af67-6144ccec10b4",
+  "label": "REAL_THISNESS_1: Each first mover has a real determination that no other being has: for each first…",
+  "legacy_id": "DEF-REAL-THISNESS",
   "term": "real thisness",
   "definition": "Each first mover has a real determination that no other being has: for each first mover f there is d with Has f d such that every y with Has y d is f.",
   "basis": "stipulative",

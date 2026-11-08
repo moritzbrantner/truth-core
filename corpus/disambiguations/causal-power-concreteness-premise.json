@@ -1,14 +1,16 @@
 {
-  "id": "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE",
+  "id": "32416dd1-c3ce-5180-bf06-1cabab088be7",
+  "label": "Power implies concrete versus a capacity definition of concrete",
+  "legacy_id": "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE",
   "term": "power implies concrete versus a capacity definition of concrete",
   "sense_definition_ids": [
-    "DEF-ABSTRACT-CONCRETE-DISJOINTNESS",
-    "DEF-CAUSAL-CAPACITY-CONCRETE",
-    "DEF-CAUSAL-EXISTENTIAL-INTENDED-PROFILE",
-    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE",
-    "DEF-ESSE-INTENDED-PROFILE",
-    "DEF-PRESENT-ESSE-SUPPORT",
-    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE"
+    "8cf40502-3bca-5cdc-8bef-936828a47415",
+    "a8fa0c36-adcb-5221-b61f-41189f09f357",
+    "80402004-9797-5289-ad11-79648945871f",
+    "d662ee50-cdd3-517b-bd8a-024dca5929d0",
+    "0d5c04d5-bc05-5607-8614-93f0dbf71d97",
+    "b242943a-34cc-582d-8c38-c1203b9d2c91",
+    "c789e1fb-e4fc-5d7c-b594-58b3761067ab"
   ],
   "resolution": "The owner premise constrains independently supplied concreteness and power predicates. The earlier finite intervention model instead selects response capacity as its concreteness criterion; that model does not establish the new independent premise. Capacity need not be exercised now, and lacking outgoing power does not imply abstractness. Concreteness allows immaterial causal agents and is not materiality or spatial location. The owner commitment separately retains the direct actual-causer-to-concrete clause, without deriving it from capacity. Outgoing abstract causal inertness needs explicit abstract/concrete disjointness together with that direct clause; a cause-to-power interface is unnecessary for this route. It says nothing about incoming causation. Present existential support is another relation: neither every support nor every adequate explanation is identified with causal power. Intended P2-B/P3 profiles now require disjointness and the thin exercise-to-power dictionary in IntendedProfile, together with the owner power-to-concrete constraint; these are not optional label annotations. Generic Ontic remains unconstrained. The direct activity clause follows under this required interpretation, without pretending that Cause-to-Power holds for arbitrary supplied predicates. Under #1103 the intended sense of concrete is fixed (DEF-CONCRETE-ESSE-IN-RE), and DEF-ESSE-INTENDED-PROFILE is the intended interpretation that also requires that sense and the paradigm anchors; IntendedProfile alone remains the weaker #1094 contract. CausalConcreteRivalBoundary now separates the adopted esse calibration, set/Form productive witnesses, math relevance-to-production, no-esse classification and counter-witness-world identity. Exact selected-profile denial is the formal alternative; raw category/other-world views remain guarded objections. The named productive roster has explicit OPEN coverage and a capacity-only actual remainder control. No approved floor or original source claim is changed."
 }

@@ -1,17 +1,19 @@
 {
-  "id": "ATTEMPT-CARNEADES-METAETHICS-REASONS",
+  "id": "865cb6a8-9908-5660-8eb4-b979acab3ef4",
+  "label": "Complete public Carneades emotivism auto-captions read, with the reasons objection isolated at…",
+  "legacy_id": "ATTEMPT-CARNEADES-METAETHICS-REASONS",
   "date": "2026-10-28",
   "statement_ids": [
-    "STMT-DESCRIPTIVE-PLAN-BOUNDARY",
-    "STMT-PLAN-STATE-EMBEDDING-CONTROL",
-    "STMT-EXPRESSIVISM-CONSISTENT-WITH-GEACH-VALIDITY"
+    "a07f168d-0f19-518d-9082-54e519df58bc",
+    "a552d16c-b24b-5437-8a28-23fa1f5c8aaa",
+    "4318bfeb-6f3a-5f48-a28b-7142aec48eb3"
   ],
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Complete public Carneades emotivism auto-captions read, with the reasons objection isolated at 03:54–04:49. This provisional acquisition is not materialized passage evidence and supports no attributed claim. Reused the existing compositional support, point, grammar, acceptance, and certified MP theorem; rejected duplicating the naive-emotivism refutation, treating every expressivist as denying minimal truth, or calling a plan truth assignment substantive realism. Structural factual-support invariance yields an all-permitting point for any satisfiable descriptive theory, whereas the existing MP theorem yields guidance conditional on an explicit normative bridge. An inhabited bridge-omission control prevents vacuity. Semantic adequacy, categorical warrant and normative truth remain open. Exact source retrieval, rival replies, rejected readings, proof boundary and verification scope are in docs/notes/carneades-metaethics-reasons.md. No existing root premise is added, removed or discharged.",
   "evidence": [
-    "DESCRIPTIVE-PLAN-BOUNDARY",
-    "PLAN-STATE-EMBEDDING-CONTROL",
-    "EXPRESSIVISM-CONSISTENT-WITH-GEACH-VALIDITY"
+    "ae1df6b5-70c7-548a-98f7-16c5f67b7332",
+    "c70aa25c-6858-5354-ab0e-5306b9f60a9e",
+    "91f36c85-17b3-5043-b105-3944d3d8d67e"
   ]
 }

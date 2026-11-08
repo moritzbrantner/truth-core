@@ -1,14 +1,16 @@
 {
-  "id": "STMT-COSMIC-GENERATION-DESTRUCTION-REQUIRES-MOTION",
+  "id": "4dc166ea-30bf-591c-8c18-a2156dd08179",
+  "label": "Every occurrence of a world's coming to be or perishing is accompanied by some subject undergoing…",
+  "legacy_id": "STMT-COSMIC-GENERATION-DESTRUCTION-REQUIRES-MOTION",
   "paraphrase": "Every occurrence of a world's coming to be or perishing is accompanied by some subject undergoing physical motion in some physical respect.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.Typed.CosmicGenerationDestructionRequiresMotionReading",
   "definition_ids": [
-    "DEF-COSMIC-GENERATION-DESTRUCTION-OCCURRENCE",
-    "DEF-MOTION-AS-PHYSICAL-CHANGE",
-    "DEF-PHYSICAL-RESPECT",
-    "DEF-RESPECT"
+    "0160feb0-0ac2-5e26-ac22-f5c8c1ddb57c",
+    "ab0d1d6b-b777-51cc-ae11-c033081830e8",
+    "738d71f6-ba32-5586-aef9-4f63bc395e96",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
   ]
 }

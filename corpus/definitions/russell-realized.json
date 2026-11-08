@@ -1,5 +1,7 @@
 {
-  "id": "DEF-RUSSELL-REALIZED",
+  "id": "e202597a-2c36-527b-ba4b-64c554b75817",
+  "label": "Realized selected extension: The selected finite extension F has an actual satisfying candidate in…",
+  "legacy_id": "DEF-RUSSELL-REALIZED",
   "term": "realized selected extension",
   "definition": "The selected finite extension F has an actual satisfying candidate in this test. This is the open realization premise of the projection, not the general source thesis analyzing the meaning of quantified existence.",
   "basis": "stipulative",

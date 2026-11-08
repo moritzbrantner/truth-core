@@ -1,10 +1,12 @@
 {
-  "id": "STMT-FACT-REQUIRES-SUFFICIENT-REASON",
+  "id": "63e54d09-e859-5bee-91b9-a1b1d2476831",
+  "label": "Every real or existing fact and every true statement has a sufficient reason why it is so rather…",
+  "legacy_id": "STMT-FACT-REQUIRES-SUFFICIENT-REASON",
   "paraphrase": "Every real or existing fact and every true statement has a sufficient reason why it is so rather than otherwise.",
   "definition_ids": [
-    "DEF-LEIBNIZ-FACT-REASON-DEMAND"
+    "f742be24-23e4-580e-b670-b509534745c2"
   ],
   "disambiguation_ids": [
-    "DISAMB-LEIBNIZ-EXPLANATORY-REGRESS"
+    "d9ecf2f0-fff9-5fe8-aaf3-4db74bd32825"
   ]
 }

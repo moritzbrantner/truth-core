@@ -1,5 +1,7 @@
 {
-  "id": "DEF-TEMPORAL-HISTORY-EVERLASTING",
+  "id": "4b4e5631-b2c6-5c76-ac4a-2615eb87e17d",
+  "label": "Temporal everlasting presence in one…: EverlastingAt h w x means IsAt w x t for every supplied…",
+  "legacy_id": "DEF-TEMPORAL-HISTORY-EVERLASTING",
   "term": "temporal everlasting presence in one supplied history",
   "definition": "EverlastingAt h w x means IsAt w x t for every supplied time t, fixing one world and one individual. The control Time is Int with its full standard two-sided order, so the interpretation assigns presence throughout an unbounded past and future. This is not quantification over all accessible worlds, proof of modal necessity, or timeless Eternal. A History supplies now : Time and therefore witnesses inhabited time, but the generic predicate imposes no temporal order or unboundedness; the concrete Int control fixes that interpretation.",
   "basis": "stipulative",

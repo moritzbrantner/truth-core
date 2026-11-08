@@ -1,14 +1,16 @@
 {
-  "id": "INF-WHOLE-ROSTER-FROM-CUT",
+  "id": "cd304729-f2cf-5757-b770-a21076133551",
+  "label": "If the entire actual CONCRETE_6 roster at w is nonempty, that entire roster…, by… (3)",
+  "legacy_id": "INF-WHOLE-ROSTER-FROM-CUT",
   "input_statement_ids": [
-    "STMT-ACTUAL-CONCRETE-BORROWING-ESCAPE"
+    "e27ea8e3-b61d-55a4-aea3-25adf8ff6c2d"
   ],
-  "output_statement_id": "STMT-WHOLE-ROSTER-NOT-TRAPPED",
+  "output_statement_id": "5c898d24-d1f7-5087-b09e-3287a723e787",
   "rule": "constructive-proof",
   "meaning": "Apply the existing all-subsets borrowing cut once at Set.univ. Either its intrinsic witness contradicts whole-roster Trap or its escaping contributor contradicts Trap. This is implication to a whole-roster restriction, not a proof of either norm’s actual truth.",
   "assumption_statement_ids": [],
   "discharged_statement_ids": [],
   "disambiguation_ids": [
-    "DISAMB-EXISTENTIAL-SOURCE-SUPPLY-APPLICATION"
+    "9403807f-f7d4-5ce8-a8ba-ca53ed932959"
   ]
 }

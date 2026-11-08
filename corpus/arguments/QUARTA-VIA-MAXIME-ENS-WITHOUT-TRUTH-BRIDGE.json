@@ -1,35 +1,37 @@
 {
-  "id": "QUARTA-VIA-MAXIME-ENS-WITHOUT-TRUTH-BRIDGE",
+  "id": "e2a7ffb3-0e09-58a9-b647-a079c0ffda36",
+  "label": "There is something maximally BEING_1 that is the cause of BEING_1…, via MAXIME_ENS_1 without truth…",
+  "legacy_id": "QUARTA-VIA-MAXIME-ENS-WITHOUT-TRUTH-BRIDGE",
   "premise_statement_ids": [
-    "STMT-THINGS-MORE-AND-LESS-GOOD-TRUE-NOBLE",
-    "STMT-GRADES-HAVE-A-MAXIMUM",
-    "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
-    "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING",
-    "STMT-EXCLUDED-MIDDLE"
+    "a9622441-2db2-5d32-9b02-a9d283bd2949",
+    "6c27657f-a2bf-5c1d-963c-c154b66bfa85",
+    "d9fad785-40ab-555a-a1c1-5e39c9d50497",
+    "7067553d-cad9-5d79-b6b2-912e35051530",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL",
+  "conclusion_statement_id": "0881e859-c4c3-53ff-9bec-b61294e12d51",
   "inference_ids": [
-    "INF-QUARTA-VIA-MAXIME-ENS-WITHOUT-TRUTH-BRIDGE"
+    "4c1f3f81-bc17-5302-8234-968bce67fe52"
   ],
   "meaning": "Derives the existing conclusion of the quarta via argument through a population-relative form of the degree fork's split instead of through STMT-MOST-TRUE-IS-MOST-BEING. The maximum principle is applied at truth and, in the non-flat case, at esse; actuality only insofar as being is applied at truth. Maximality is the weak IsMaximumIn. This is a formal alternative, not a reading of the source's order of argument. Every premise remains open. Grades of truth supply only a being having esse; any respect with grades would do. In the case with a comparison above a being having esse, the maximum principle at esse carries the maximum. In the flat case, with no such comparison, that being is vacuously maximal and the principle at esse is unused; flatBranch shows the genus principle and cause-more-such then leave at most one being having esse. MoreIn does not entail InAct (flatMaximum), so the maximum does not presuppose grades of being.",
   "definition_ids": [
-    "DEF-BEING-AS-ENTITY",
-    "DEF-RESPECT",
-    "DEF-ACT",
-    "DEF-ESSE",
-    "DEF-MORE-IN",
-    "DEF-MAXIMUM-IN-A-PERFECTION",
-    "DEF-MAXIME-ENS",
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-ONTOLOGICAL-TRUTH",
-    "DEF-ONTOLOGICAL-TRUTH-COMPARISON"
+    "4b8fac5c-91f0-5e82-b095-9f4e96d1d6a9",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "5766de66-8a37-5b04-aa65-9eec53319f50",
+    "ad844320-77ce-5786-96d7-4b02f874269d",
+    "a2a8de58-42e0-5481-b7fb-848ae8602036",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "b412016a-43c1-5c4a-abb0-4e53d343d508",
+    "aad0156a-e1eb-5b6a-bb97-526698065277"
   ],
   "disambiguation_ids": [
-    "DISAMB-BEING",
-    "DISAMB-BEING-UNIVOCITY",
-    "DISAMB-MAXIME-ENS",
-    "DISAMB-IN-ACT",
-    "DISAMB-TRUE",
-    "DISAMB-CAUSE"
+    "3b0d67c5-59e4-5556-a728-26bd567f0fb1",
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58",
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "80b5fc49-ed55-5c61-b14b-3621d2aa1520",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
   ]
 }

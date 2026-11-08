@@ -1,5 +1,7 @@
 {
-  "id": "DEF-EXPLANATORY-CHOICE-MARKS",
+  "id": "b2204d5e-65d3-53af-8d8a-24ccc793eb5e",
+  "label": "Marks of a choice; personal stop: Marks is a bundle of four structural conditions: pro tanto…",
+  "legacy_id": "DEF-EXPLANATORY-CHOICE-MARKS",
   "term": "marks of a choice; personal stop",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Explanation.ExplanatorySymmetry.Marks",

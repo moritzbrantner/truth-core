@@ -1,8 +1,10 @@
 {
-  "id": "STMT-CONFIGURATION-FALSE",
+  "id": "37f33696-dc47-5bd3-9cd8-edfd5bf00aa5",
+  "label": "Logical falsity",
+  "legacy_id": "STMT-CONFIGURATION-FALSE",
   "paraphrase": "Logical falsity. An argument concluding this statement certifies incompatibility of all of its explicit premises under their common parameters.",
   "lean_declaration": "TruthCore.Logic.ConfigurationFalse",
   "definition_ids": [
-    "DEF-CONFIGURATION-FALSE"
+    "7eeee571-aad0-5bba-ac81-6bb9604ef678"
   ]
 }

@@ -1,5 +1,7 @@
 {
-  "id": "MODEL-Q11-WITHOUT-COMMON-NATURE",
+  "id": "16df3822-b114-58ef-8e12-5499636824e6",
+  "label": "The Boolean omission assignment from Q11 nature uniqueness; every Boolean is a proper-God… (2)",
+  "legacy_id": "MODEL-Q11-WITHOUT-COMMON-NATURE",
   "description": "The Boolean omission assignment from Q11 nature uniqueness; every Boolean is a proper-God instance in this logical test only.",
   "vocabulary": "Q11-NATURE",
   "lean_declaration": "TruthCore.Models.Q11.WithoutCommonNature.model",
@@ -23,7 +25,7 @@
   ],
   "evaluations": [
     {
-      "statement_id": "STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE",
+      "statement_id": "2344542e-8036-5cbe-9dfc-af5e7907cde5",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -33,7 +35,7 @@
       "theorem": "TruthCore.Models.Q11.WithoutCommonNature.evaluation0"
     },
     {
-      "statement_id": "STMT-Q11-GOD-SUPPOSITUM-IS-NATURE",
+      "statement_id": "bf422bd7-67a6-58c5-9b1f-c73e08f20b21",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -45,7 +47,7 @@
       "theorem": "TruthCore.Models.Q11.WithoutCommonNature.evaluation1"
     },
     {
-      "statement_id": "STMT-Q11-PROPER-GOD-INSTANCES-HAVE-COMMON-NATURE",
+      "statement_id": "0730d46f-4604-5750-9a64-de664f064b31",
       "value": "violates",
       "arguments": [
         "Being",
@@ -57,7 +59,7 @@
       "theorem": "TruthCore.Models.Q11.WithoutCommonNature.evaluation2"
     },
     {
-      "statement_id": "STMT-GOD-IS-ONE",
+      "statement_id": "33b18ae7-4578-54bc-a2b5-edce99b21fc2",
       "value": "violates",
       "arguments": [
         "Being",

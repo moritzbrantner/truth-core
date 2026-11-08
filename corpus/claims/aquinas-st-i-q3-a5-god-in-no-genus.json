@@ -1,15 +1,17 @@
 {
-  "id": "AQUINAS-ST-I-Q3-A5-GOD-IN-NO-GENUS-A",
-  "statement_id": "STMT-GOD-IN-NO-GENUS",
-  "source_id": "AQUINAS-ST",
+  "id": "7b9baf62-5db3-5a7d-ba5f-9f19722eca27",
+  "label": "Thomas Aquinas, Summa theologiae I q.3 a.5…: GOD_4 is not properly in any genus",
+  "legacy_id": "AQUINAS-ST-I-Q3-A5-GOD-IN-NO-GENUS-A",
+  "statement_id": "94e04d71-f5e3-5d0b-99fd-1fa01df090e9",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.3 a.5 co., second proof: Unde relinquitur quod Deus non sit in genere",
   "interpretation": "Read as the conclusion of the second proof only: God is not properly in a genus (as a species). The article's fuller conclusion (neither as species nor by reduction as a principle) is not claimed here.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-IN-GENUS-PROPERLY",
-    "DEF-GOD-OF-CLASSICAL-THEISM"
+    "bca0503f-bf77-5c2d-8deb-ff0c92c86b32",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807"
   ],
   "disambiguation_ids": [
-    "DISAMB-GOD"
+    "205a39c3-915d-5fe4-8076-a9ff91329e08"
   ]
 }

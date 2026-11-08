@@ -1,12 +1,14 @@
 {
-  "id": "STMT-WEAK-SCIENTISM-NOT-EMPIRICALLY-ESTABLISHED",
+  "id": "fefdc728-bbd1-505e-86f5-d4387b4d06ef",
+  "label": "The WEAK_2 scientistic thesis is not itself established by empirical evidence",
+  "legacy_id": "STMT-WEAK-SCIENTISM-NOT-EMPIRICALLY-ESTABLISHED",
   "paraphrase": "The weak scientistic thesis is not itself established by empirical evidence. Open premise.",
   "lean_declaration": "TruthCore.Logic.Scientism.WeakThesisNotEmpiricallyEstablished",
   "definition_ids": [
-    "DEF-WEAK-SCIENTISM-RESTRICTED",
-    "DEF-SCIENTISM-EPISTEMIC-FRAME"
+    "9424e383-2872-5587-8b54-c915516aa395",
+    "24040dac-2a8c-5e99-95f3-d2ca0f4c406d"
   ],
   "disambiguation_ids": [
-    "DISAMB-SCIENTISM-STRENGTH"
+    "610878b5-cb48-550f-9908-1297495daf7e"
   ]
 }

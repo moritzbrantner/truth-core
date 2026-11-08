@@ -1,16 +1,18 @@
 {
-  "id": "STMT-UNLIMITED-IS-OWN-BEING",
+  "id": "26e8e6ed-964e-55ef-a9fd-756164aad6a7",
+  "label": "Any being that is not composite, whose represented esse equals its represented essence, and to…",
+  "legacy_id": "STMT-UNLIMITED-IS-OWN-BEING",
   "paraphrase": "OPEN, unattributed bridge: any being that is not composite, whose represented esse equals its represented essence, and to which no distinct being is simply prior, is its own being (subsistent esse). The SCG I.28 claim warns that own being is not a formal consequence of a represented essence/esse equality; this bridge states that step as a separate open commitment.",
   "lean_declaration": "TruthCore.Causality.WholePowerPerfection.UnlimitedIsOwnBeing",
   "definition_ids": [
-    "DEF-HAS-LIMITING-PRINCIPLE",
-    "DEF-SCG-I28-WHOLE-POWER-PARTICIPATION",
-    "DEF-ESSE"
+    "a919ce52-6c8b-5e0f-9aaa-5b570bded78b",
+    "5dc08b95-ca15-52ab-b8cd-2b558e9a13f7",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
   ],
   "disambiguation_ids": [
-    "DISAMB-PURE-ACT-STRICTNESS",
-    "DISAMB-PERFECTION-SCOPE",
-    "DISAMB-ESSENCE",
-    "DISAMB-ORDER-OF-BEING"
+    "b1640e51-d7d4-5a80-9992-29fa1ded8048",
+    "dc9c0a1b-1759-5b1c-9ab9-ee7bea8847b7",
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "1795a62e-f78b-5f5b-94e7-9e7490824811"
   ]
 }

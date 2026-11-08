@@ -1,7 +1,9 @@
 {
-  "id": "INF-ACTUAL-COVER-NONPART-STRICTNESS",
+  "id": "f087cd6f-3d2e-561e-a242-7919c75033d7",
+  "label": "One coherent three-object, two-world interpretation satisfies…, by Joint-nonvacuous-actual-cover…",
+  "legacy_id": "INF-ACTUAL-COVER-NONPART-STRICTNESS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-ACTUAL-COVER-NONPART-STRICTNESS",
+  "output_statement_id": "804d14e7-48cb-520e-a45a-204f553071fa",
   "rule": "joint-nonvacuous-actual-cover-strictness-witness",
   "meaning": "One coherent three-object, two-world interpretation satisfies all six premises of the existing actual-cover NE route while admitting actual overlapping source/effect with a shared proper part and neither included in the other. The necessary source causes both contingent family members; the effect actually covers their nonempty no-necessary-parts family. CauseNotPartOfEffectAt holds and CauseEffectNonoverlapAt fails. An explicit IntendedProfile witness satisfies the required concrete causal-power interpretation with no abstract candidates. The existing fromPopulation theorem supplies bare NE; no new NE derivation, physical applicability, global minimality or constitutive-support repair follows.",
   "assumption_statement_ids": [],

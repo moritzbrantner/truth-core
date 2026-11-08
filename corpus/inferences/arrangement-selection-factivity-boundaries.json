@@ -1,7 +1,9 @@
 {
-  "id": "INF-ARRANGEMENT-SELECTION-FACTIVITY-BOUNDARIES",
+  "id": "4a2bbe19-7479-5b0b-bdeb-0b784b1aa92f",
+  "label": "For every designated arrangement, a false-only judgment accepts an…, by Constructive-proof",
+  "legacy_id": "INF-ARRANGEMENT-SELECTION-FACTIVITY-BOUNDARIES",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-ARRANGEMENT-SELECTION-FACTIVITY-COVERAGE-CONTROLS",
+  "output_statement_id": "4eba59ca-54cd-51e6-8440-a9b170350453",
   "rule": "constructive-proof",
   "meaning": "Reuse original truthful-rival controls and export exact false-only, true-only and nonempty selection-defined calibration properties for every selected arrangement. The positive calibration is explicitly analytic, not independent explanatory warrant.",
   "assumption_statement_ids": [],

@@ -1,10 +1,12 @@
 {
-  "id": "REL-HISTORICAL-COMMISSION-BUNDLE-STRENGTHENS-GOVERNING-GRANT",
+  "id": "1d89cc33-652b-5639-bb88-579893369aab",
+  "label": "Report-to-event premise: the commission… strengthens Jesus gave or promised some power in the…",
+  "legacy_id": "REL-HISTORICAL-COMMISSION-BUNDLE-STRENGTHENS-GOVERNING-GRANT",
   "subject_kind": "statement",
-  "subject_id": "STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS",
+  "subject_id": "da573220-03c0-5361-a1d7-e117e78e2b77",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-GOVERNING-GRANT-EXISTS",
-  "verification_result_id": "HISTORICAL-COMMISSION-BUNDLE-SUPPLIES-GOVERNING-GRANT",
+  "object_id": "568fdb96-eb4f-536c-873e-e294bb2e5931",
+  "verification_result_id": "f44b9185-a2be-53c0-9574-e40177e46799",
   "note": "The checked sole-premise certificate projects the weaker component; substantive consequences use that weak component. No source claim is relabelled."
 }

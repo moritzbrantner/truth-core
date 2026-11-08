@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-185A-SCIENCE-DIFFICULTIES-A",
-  "statement_id": "STMT-SCIENCE-ADDRESSES-PRINCIPLE-DIFFICULTIES",
-  "source_id": "ARIST-PHYS",
+  "id": "5012a440-c313-593b-bf0f-a8d6fa7a59ac",
+  "label": "Aristotle, Physics I.2, 185a14-20: A science need not answer every arbitrary challenge, but it…",
+  "legacy_id": "ARIST-PHYS-185A-SCIENCE-DIFFICULTIES-A",
+  "statement_id": "60e418cc-881a-5f69-9a10-412fdfef4490",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.2, 185a14-20",
   "interpretation": "Methodological boundary: a science is responsible for apparent difficulties generated from its own principles, not every external challenge whatsoever. Aristotle's geometrical analogy is treated as illustration rather than a separate theorem.",
   "status": "formalized"

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-HUME-MODEL-SATISFIABILITY",
+  "id": "d9c05f66-5cc1-5cd6-8918-ea44fdf24d20",
+  "label": "Satisfiability somewhere in the…: SatisfiableConception P w means ∃v, P v over the supplied Bool…",
+  "legacy_id": "DEF-HUME-MODEL-SATISFIABILITY",
   "term": "satisfiability somewhere in the stipulated model",
   "definition": "SatisfiableConception P w means ∃v, P v over the supplied Bool carrier, independently of access from w. This model-relative consistency test is not the historical absence of refutation from mere ideas and not general logical consistency.",
   "basis": "stipulative",

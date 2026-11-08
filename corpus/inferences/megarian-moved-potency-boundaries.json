@@ -1,7 +1,9 @@
 {
-  "id": "INF-MEGARIAN-MOVED-POTENCY-BOUNDARIES",
+  "id": "8f763aa8-481a-5e1b-a331-a816c285a281",
+  "label": "Four exact extensions of the old Megarian Unit models: no-MOTION_1 model…, by Constructive-proof",
+  "legacy_id": "INF-MEGARIAN-MOVED-POTENCY-BOUNDARIES",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-MEGARIAN-MOVED-POTENCY-BOUNDARY-CONTROLS",
+  "output_statement_id": "14b6b974-a8ff-5387-8135-94865c3cb6bc",
   "rule": "constructive-proof",
   "meaning": "Reuse the old finite Megarian models without changing their fields, extending only InPotency. Check actual-motion and interpretation omissions, the guarded negative branch and strictness of the weaker analysis.",
   "assumption_statement_ids": [],

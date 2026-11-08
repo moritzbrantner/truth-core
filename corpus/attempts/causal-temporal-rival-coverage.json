@@ -1,27 +1,29 @@
 {
-  "id": "ATTEMPT-CAUSAL-TEMPORAL-RIVAL-COVERAGE",
+  "id": "ba1bc4d4-ea91-5e23-8b5c-8714f539e46d",
+  "label": "Rival-coverage audit reuses the exact old McTaggart bundle refutation, old classical regress…",
+  "legacy_id": "ATTEMPT-CAUSAL-TEMPORAL-RIVAL-COVERAGE",
   "date": "2026-11-06",
   "kind": "derivation",
   "outcome": "succeeded",
   "statement_ids": [
-    "STMT-SOMETHING-CHANGES",
-    "STMT-MCTAGGART-UNREALITY-OF-TIME",
-    "STMT-NOTHING-CHANGES-IN-GENERAL",
-    "STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES",
-    "STMT-INFINITE-PER-SE-CAUSE-SERIES",
-    "STMT-PAST-IS-INFINITE",
-    "STMT-PAST-IS-FINITE",
-    "STMT-TERTIA-VIA-STEP-RESTS-ON-QUANTIFIER-SHIFT",
-    "STMT-TERTIA-VIA-STEP-RESTS-ON-PLENITUDE"
+    "bef22027-4f6d-5722-9597-e4dec273ebdd",
+    "d908f7a8-5c50-58fa-b0e0-702795acd6f5",
+    "cc003313-0847-5a43-85d1-e025f909f48f",
+    "97f5850f-62bc-5e43-a0c1-dd1033d08fc9",
+    "1c07b567-4021-5208-a6d2-381abdadf62d",
+    "d256e6d2-7f6e-51f2-b2f7-632344f12f09",
+    "95c15a0f-b876-56f4-9582-45ef6905f271",
+    "d9083bea-b18d-5c15-9991-77e12efc2ef2",
+    "23c6ad4b-6f5e-5ba5-a71f-fda805006e7a"
   ],
   "summary": "Rival-coverage audit reuses the exact old McTaggart bundle refutation, old classical regress coincidence theorem and existing temporal pointwise predecessor/first-time predicates. Four general-change results separate exact no-change from the stronger appearance-bearing source bundle, register their AND-premise consequence, structural coverage and inhabited strictness. The F3 observation approval is unchanged. One regress result composes the old Mathlib classical-choice theorem into explicit WF-or-actual-descending-series coverage; cycles/repeated members are allowed, no distinct-cause or real-world application claim. One temporal result checks exact first-time/predecessor coverage under explicit EM without order/physical chronology assumptions. The raw quantifier-shift-versus-plenitude historical reading edge becomes attacks: falsity of one reading does not establish the other or a complete source-reading census. No source claim or frozen Challenge is changed; independent source-fidelity attribution remains deferred. Research boundaries, actual-record own-floor counterfactual and remaining explanation-factivity gap are in docs/notes/causal-temporal-rival-coverage.md. Theory-bundle binding expands the McTaggart hypothesis into its two existing commitment IDs; the actual argument therefore exposes both AND inputs. Rejected an alias to evade that expansion and removed the attempted sole-premise strengthens registration. Exact checked Lean proof unchanged; no source or theorem statement weakened.",
   "evidence": [
-    "MCTAGGART-COMMITMENTS-IMPLY-EXACT-GENERAL-NO-CHANGE",
-    "EXACT-GENERAL-NO-CHANGE-NEGATES-F3",
-    "GENERAL-CHANGE-EXACT-COMPLEMENT-FORK",
-    "GENERAL-NO-CHANGE-MCTAGGART-STRICTNESS",
-    "PER-SE-REGRESS-ACCESSIBILITY-SERIES-COVERAGE",
-    "PAST-PREDECESSOR-FIRST-TIME-COVERAGE"
+    "7d5ed3b2-0046-5321-b69e-65f48c5d7fd0",
+    "1114c535-df80-5233-8393-4aab7f280d19",
+    "02c0097c-1495-5e66-8b59-84ac116acde4",
+    "8fe21025-211b-5845-a911-9bd27a6c5d4a",
+    "c640f7d4-6ad2-5339-b103-fa5b3e9ad1a0",
+    "fd80ec4c-9e15-51dc-9719-65c275b1c38d"
   ],
   "blocker": "The actual general-change, causal-regress and physical temporal interpretations remain framework inputs; no chosen branch or root premise is independently established. Regress coverage uses the existing approved classical-choice mathematics, not constructive completeness. Historical passage-to-inference interpretation and exhaustive source-reading admissibility remain unencoded."
 }

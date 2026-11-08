@@ -1,17 +1,19 @@
 {
-  "id": "OBJECTIVE-TRUTH-DEFINITION-CONTROLS",
+  "id": "480e3afc-c9b8-5806-8dec-f532d05464f3",
+  "label": "Finite operational controls certify: actual-stable implies the truth component while both…",
+  "legacy_id": "OBJECTIVE-TRUTH-DEFINITION-CONTROLS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-OBJECTIVE-TRUTH-DEFINITION-CONTROLS",
+  "conclusion_statement_id": "ccea0d68-5dbd-5120-acd6-83222ab4a0b4",
   "inference_ids": [
-    "INF-OBJECTIVE-TRUTH-DEFINITION-CONTROLS"
+    "9f84edab-112f-5f7d-8173-b0a278b2fd95"
   ],
   "meaning": "Checked finite truth tables retain all advertised false-stable, true-variable, remaining-extension and nontrivial-overlap properties in the exported type. No account is declared philosophically correct or source-attributed by these operational controls.",
   "definition_ids": [
-    "DEF-OBJECTIVE-TRUTH-PROFILE-FRAME",
-    "DEF-OBJECTIVE-TRUTH-NAMED-COVERAGE",
-    "DEF-OBJECTIVE-TRUTH-TRUTH-COMPONENT"
+    "4f377045-355c-500f-b159-1f8e9e9fa863",
+    "25fbb226-1079-5cec-aec3-72a560dfaa93",
+    "a5a6d4bc-1846-551b-a997-0484e70fe2cb"
   ],
   "disambiguation_ids": [
-    "DISAMB-OBJECTIVE-TRUTH-CALIBRATIONS"
+    "146a73fd-5eb2-586e-982f-8ee57ea0e329"
   ]
 }

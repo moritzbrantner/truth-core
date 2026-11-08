@@ -1,6 +1,8 @@
 {
-  "id": "OCCURRENCE-ESSE-SAME-WITNESS",
-  "argument_id": "OCCURRENCE-ESSE-SAME-WITNESS",
+  "id": "c379bfed-c408-53b8-9b35-c1d2fe640654",
+  "label": "Some bearer b of an occurring episode e…, from Some thought episode occurs under the… and 11 more",
+  "legacy_id": "OCCURRENCE-ESSE-SAME-WITNESS",
+  "argument_id": "2302a4ef-44d8-50a5-aef6-3e82c3340035",
   "challenge_module": "TruthCore.Results.Logic.CogitoEsse.Challenge",
   "solution_module": "TruthCore.Results.Logic.CogitoEsse.Solution",
   "theorem": "TruthCore.Results.Logic.CogitoEsse.sameWitnessEssence",

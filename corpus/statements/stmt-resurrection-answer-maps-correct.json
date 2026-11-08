@@ -1,16 +1,18 @@
 {
-  "id": "STMT-RESURRECTION-ANSWER-MAPS-CORRECT",
+  "id": "093067ab-1094-5bad-af36-92778adbcd34",
+  "label": "Each available answer in the pilot follows from its limited theory bundle, and the displayed…",
+  "legacy_id": "STMT-RESURRECTION-ANSWER-MAPS-CORRECT",
   "paraphrase": "Each available answer in the pilot follows from its limited theory bundle, and the displayed entailed/unexplained/auxiliary counts equal the computed table. This is a transcription/bookkeeping result, not a historical proof or a ranking, and closes no historical frontier node.",
   "lean_declaration": "TruthCore.History.Resurrection.AnswerMapsCorrect",
   "definition_ids": [
-    "DEF-RESURRECTION-PILOT-REPORT",
-    "DEF-RESURRECTION-PILOT-HISTORY",
-    "DEF-RESURRECTION-PILOT-ACCOUNT",
-    "DEF-RESURRECTION-PILOT-COVERAGE",
-    "DEF-SKELETON-OPEN-PREDICATES",
-    "DEF-GOD-OF-CLASSICAL-THEISM"
+    "2d8b04da-9f9c-5592-bb91-9c2ded12aa2e",
+    "50066ce9-71fc-5270-be8b-322167584fd9",
+    "3ef00725-331b-5d83-89d2-36f1428e21ae",
+    "c1979405-382d-54aa-bfa8-56864a291738",
+    "ac767549-28c0-5a1a-813d-ee208a664d08",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807"
   ],
   "disambiguation_ids": [
-    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+    "2567d8a9-549e-5404-8658-3275b7029092"
   ]
 }

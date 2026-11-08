@@ -1,6 +1,8 @@
 {
-  "id": "Q14-OLD-INTELLECT-TARGET-FROM-CAPACITY-CALIBRATION",
-  "argument_id": "Q14-OLD-INTELLECT-TARGET-FROM-CAPACITY-CALIBRATION",
+  "id": "855605e0-ac10-5121-9dae-cd101d127aae",
+  "label": "What is ALTOGETHER_IMMATERIAL_2, neither composed of matter and form…, from capacity calibration",
+  "legacy_id": "Q14-OLD-INTELLECT-TARGET-FROM-CAPACITY-CALIBRATION",
+  "argument_id": "1ae8b1c3-2835-560f-b054-36c2e83b527d",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.FromCapacity.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.FromCapacity.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.oldTargetOfCapacity",

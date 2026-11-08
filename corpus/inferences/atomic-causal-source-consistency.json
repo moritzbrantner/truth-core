@@ -1,7 +1,9 @@
 {
-  "id": "INF-ATOMIC-CAUSAL-SOURCE-CONSISTENCY",
+  "id": "b98eaa09-117c-5f4b-b37f-01aef7e6f914",
+  "label": "A fixed two-object interpretation with identity parthood and…, by Finite-same-profile-consisten…",
+  "legacy_id": "INF-ATOMIC-CAUSAL-SOURCE-CONSISTENCY",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-ATOMIC-CAUSAL-SOURCE-CONSISTENCY",
+  "output_statement_id": "6b81b455-8a8d-55bc-83ca-06d9c7e437f9",
   "rule": "finite-same-profile-consistency",
   "meaning": "Construct one fixed two-object identity-parthood interpretation with the sole complete-cause candidate edge origin→effect. Verify every nonlogical minimum input plus activity, unique cause per effect, all-simple/vacuous composite P6, exact singleton caused-simple family/full Fusion and explicit source/outgoing witnesses. This certifies nonvacuity of the analyst package, not real-world applicability or the full author first cause.",
   "assumption_statement_ids": [],

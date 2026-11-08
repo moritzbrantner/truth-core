@@ -1,6 +1,8 @@
 {
-  "id": "PLATO-TIM-28A-28C-COSMOS-CAUSE-B",
-  "argument_id": "PLATO-TIM-28A-28C-COSMOS-CAUSE-B",
+  "id": "f38987f0-c00c-555e-96a0-179bc23d9cbb",
+  "label": "The cosmos has a CAUSE_2 distinct…, from Anything that comes to be has some distinct… and 1 more",
+  "legacy_id": "PLATO-TIM-28A-28C-COSMOS-CAUSE-B",
+  "argument_id": "810ef31c-99e4-53dc-b931-38f9e1561218",
   "challenge_module": "TruthCore.Results.Plato.Timaeus.CosmosCauseB.Challenge",
   "solution_module": "TruthCore.Results.Plato.Timaeus.CosmosCauseB.Solution",
   "theorem": "TruthCore.Results.Plato.Timaeus.CosmosCauseB.cosmosHasDistinctCause",

@@ -1,6 +1,8 @@
 {
-  "id": "INVARIANT-MEANING-WITH-ATTITUDE-LOSS-REFUTES-OCCASION",
-  "argument_id": "INVARIANT-MEANING-WITH-ATTITUDE-LOSS-REFUTES-OCCASION",
+  "id": "552f4419-a56d-57c6-80c5-1a5f34500e5a",
+  "label": "The occasion reading of EMOTIVISM_4…, from EXPRESSIVISM_2: a moral sentence means the… and 3 more",
+  "legacy_id": "INVARIANT-MEANING-WITH-ATTITUDE-LOSS-REFUTES-OCCASION",
+  "argument_id": "8e968dfe-6573-5f25-b115-822c5e137d75",
   "challenge_module": "TruthCore.Results.Metaethics.MeaningRivalBoundary.GuardedNegative.Challenge",
   "solution_module": "TruthCore.Results.Metaethics.MeaningRivalBoundary.GuardedNegative.Solution",
   "theorem": "TruthCore.Results.Metaethics.MeaningRivalBoundary.GuardedNegative.guardedNegative",

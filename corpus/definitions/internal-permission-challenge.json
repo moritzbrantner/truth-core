@@ -1,5 +1,7 @@
 {
-  "id": "DEF-INTERNAL-PERMISSION-CHALLENGE",
+  "id": "cc9e4e40-da7a-5fb7-9322-194cff59a2bd",
+  "label": "TARGET_INTERNAL_PERMISSION_CHALLENGE_3: InternalPermissionChallenge s means TheisticBeingExists s \u2192\u2026",
+  "legacy_id": "DEF-INTERNAL-PERMISSION-CHALLENGE",
   "term": "target-internal permission challenge",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Metaethics.EvilObjection.InternalPermissionChallenge",

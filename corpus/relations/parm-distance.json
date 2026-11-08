@@ -1,8 +1,10 @@
 {
-  "id": "REL-PARM-DISTANCE",
+  "id": "2b800203-240f-58f4-92f5-d3c40eada5ab",
+  "label": "Aristotle, Metaphysics I.9, 991a8–19… attacks Every quality-indexed putative…",
+  "legacy_id": "REL-PARM-DISTANCE",
   "subject_kind": "claim",
-  "subject_id": "ARIST-MET-991A-EXPLANATORY-DISTANCE",
+  "subject_id": "aad5e742-3726-5869-919a-0f339462069a",
   "predicate": "attacks",
   "object_kind": "statement",
-  "object_id": "STMT-PARM-EXPLANATION-GROUNDS"
+  "object_id": "a4555f10-e183-5127-a7af-c44fcb6e8c73"
 }

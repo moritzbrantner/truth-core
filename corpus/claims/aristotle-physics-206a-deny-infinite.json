@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-206A-DENY-INFINITE-A",
-  "statement_id": "STMT-DENYING-INFINITE-ENTIRELY-IMPOSSIBLE-CONSEQUENCES",
-  "source_id": "ARIST-PHYS",
+  "id": "0d8b834f-e967-57dc-8177-acae59236d5a",
+  "label": "Aristotle, Physics III.6, 206a8-14: Denying the infinite in every sense would force unacceptable…",
+  "legacy_id": "ARIST-PHYS-206A-DENY-INFINITE-A",
+  "statement_id": "2dce1006-e125-55b4-b40f-cc9b53767ce2",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.6, 206a8-14",
   "interpretation": "Dialectical transition: total denial of infinity would give time a beginning/end, block continued division of magnitudes, and remove unboundedness from number. These are presented as unacceptable consequences motivating a qualified account rather than a completed actual infinite.",
   "status": "formalized"

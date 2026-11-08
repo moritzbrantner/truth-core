@@ -1,5 +1,7 @@
 {
-  "id": "DEF-TEMPORAL-DIRECTION-PROFILES",
+  "id": "60f8aca0-80c5-55e9-a26d-bfff260a7060",
+  "label": "STRICT_2, non-backward simultaneous, and…: StrictForward requires C e f → clock e < clock f",
+  "legacy_id": "DEF-TEMPORAL-DIRECTION-PROFILES",
   "term": "strict, non-backward simultaneous, and backward event profiles",
   "definition": "StrictForward requires C e f → clock e < clock f. NoBackward requires C e f → ¬ clock f < clock e. HasSimultaneous supplies an edge at equal clock values; HasBackward supplies an edge with target clock strictly before source clock. DirectionFork is StrictForward ∨ (NoBackward ∧ HasSimultaneous) ∨ HasBackward. DirectionExclusive separately forbids each pair of horns. Framework quantifies over a common event carrier and linearly ordered time carrier and certifies coverage, pairwise incompatibility and StrictForward → EventAcyclic. These are semantic conditions, not names of exhaustive metaphysical theories.",
   "basis": "stipulative",

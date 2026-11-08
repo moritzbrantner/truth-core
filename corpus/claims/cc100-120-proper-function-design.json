@@ -1,15 +1,17 @@
 {
-  "id": "CC100-120-PROPER-FUNCTION-DESIGN",
-  "statement_id": "STMT-CC100-119-PROPER-FUNCTION-DESIGN",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "ddfae5c2-f515-513c-866f-cb06da389016",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: Our cognitive faculties have a proper function… (2)",
+  "legacy_id": "CC100-120-PROPER-FUNCTION-DESIGN",
+  "statement_id": "9464e2ac-ae8d-581a-898d-0ea4c4bc3ddd",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.272–291: p.282, argument #120, step 2",
   "interpretation": "Exact reuse of the same proper-function-to-design premise from #119step3. The new opening probability account does not itself assert that our actual faculties satisfy its antecedent; no silent actual-proper-function assumption is added. Attribution is to McIntosh’s presentation only, not unread primary works referenced on p281 or Otte1990 on p283. No formal proof or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-119120-PROPER-FUNCTION-DESIGN"
+    "2afd1d23-d0da-5991-876a-55e3dc6a25da"
   ],
   "disambiguation_ids": [
-    "DISAMB-REASON-EPISTEMIC-ONTIC",
-    "DISAMB-PSR-EXPLANATION-CAUSE"
+    "a61d3807-50e9-595e-9011-9123fd606a4b",
+    "f7bae38e-9b21-54fe-8236-2646c230568b"
   ]
 }

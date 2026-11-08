@@ -1,5 +1,7 @@
 {
-  "id": "DEF-HUME-TEST-EPISTEMIC-POSSIBILITY",
+  "id": "f9e5b687-a25e-5d81-b8a2-1fb1f70bc45f",
+  "label": "EPISTEMIC_POSSIBILITY_5: Compatibility with an agent’s information",
+  "legacy_id": "DEF-HUME-TEST-EPISTEMIC-POSSIBILITY",
   "term": "epistemic possibility (contrast only)",
   "definition": "Compatibility with an agent’s information. No information-state semantics is implemented here, and this sense is never inferred from Dia or confused with imagination.",
   "basis": "stipulative",

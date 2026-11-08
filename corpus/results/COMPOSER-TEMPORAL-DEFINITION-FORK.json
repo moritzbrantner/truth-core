@@ -1,6 +1,8 @@
 {
-  "id": "COMPOSER-TEMPORAL-DEFINITION-FORK",
-  "argument_id": "COMPOSER-TEMPORAL-DEFINITION-FORK",
+  "id": "24d8b452-c930-5fba-8102-37013a78a1f8",
+  "label": "Structural fork: for every supplied profile, named…, from Excluded middle as a general principle…",
+  "legacy_id": "COMPOSER-TEMPORAL-DEFINITION-FORK",
+  "argument_id": "cc81f226-4097-5c85-96e2-e9b3414b493a",
   "challenge_module": "TruthCore.Results.Causality.ComposerTemporalDefinitions.Coverage.Challenge",
   "solution_module": "TruthCore.Results.Causality.ComposerTemporalDefinitions.Coverage.Solution",
   "theorem": "TruthCore.Results.Causality.ComposerTemporalDefinitions.Coverage.coverage",
@@ -9,24 +11,24 @@
   "description": "Structural coverage transcription: explicit excluded middle yields named calibration coverage or its precise remainder; named philosophical coverage is not established.",
   "transcription": "instantiation",
   "case_split": {
-    "target_statement_id": "STMT-EFFICIENT-ATTRIBUTION-TEMPORAL-DEFINITION",
+    "target_statement_id": "4133bd12-ac64-59e0-b708-2d2c72e1c3de",
     "cases": [
       {
         "label": "selected-time attribution",
-        "statement_id": "STMT-EFFICIENT-ATTRIBUTION-CURRENT-DEFINITION",
+        "statement_id": "1ad18c70-4db9-50a0-8605-fa860709a10a",
         "lean_declaration": "TruthCore.Causality.ComposerTemporalDefinitionFork.CurrentDefinition"
       },
       {
         "label": "existential-time attribution",
-        "statement_id": "STMT-EFFICIENT-ATTRIBUTION-TEMPORAL-DEFINITION",
+        "statement_id": "4133bd12-ac64-59e0-b708-2d2c72e1c3de",
         "lean_declaration": "TruthCore.Causality.ComposerTemporalDefinitionFork.TemporalDefinition"
       },
       {
         "label": "additional calibration",
-        "statement_id": "STMT-EFFICIENT-ATTRIBUTION-ADDITIONAL-TEMPORAL-DEFINITION",
+        "statement_id": "f6799609-72bd-5b35-974c-2e497e1c1837",
         "lean_declaration": "TruthCore.Causality.ComposerTemporalDefinitionFork.Other"
       }
     ],
-    "survival_result_id": "COMPOSER-TEMPORAL-DEFINITION-BOUNDARIES"
+    "survival_result_id": "db60a52a-da4e-5e93-9767-774629d36119"
   }
 }

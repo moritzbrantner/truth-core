@@ -1,5 +1,7 @@
 {
-  "id": "MODEL-NIGHT-COSMOGONY-RESIDUAL",
+  "id": "4211bc95-ce21-5eb6-85d8-e347566b7187",
+  "label": "#497 residual model for generation from night refuted: being false is in potency and posterior to\u2026",
+  "legacy_id": "MODEL-NIGHT-COSMOGONY-RESIDUAL",
   "description": "#497 residual model for GENERATION-FROM-NIGHT-REFUTED: being false is in potency and posterior to nothing, and nothing is in act or moved. All three core premises and the bare rival STMT-POTENCY-PRIOR-TO-ACT hold; the Night bundle and act's simple priority fail. Capacity extension: CanBe is the union of this same interpretation\u2019s potency and actuality predicates; the previous assignments are unchanged. Potency-as-unactualized-capacity holds in this joint finite interpretation.",
   "vocabulary": "NIGHT-COSMOGONY",
   "lean_declaration": "TruthCore.Models.NightCosmogony.Residual.model",
@@ -16,86 +18,165 @@
   "carriers": [
     {
       "binding": "Being",
-      "elements": ["Bool.false", "Bool.true"],
+      "elements": [
+        "Bool.false",
+        "Bool.true"
+      ],
       "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
     },
     {
       "binding": "Respect",
-      "elements": ["Unit.unit"],
+      "elements": [
+        "Unit.unit"
+      ],
       "theorem": "TruthCore.Models.FiniteSupport.enumerateUnit"
     }
   ],
   "evaluations": [
     {
-      "statement_id": "STMT-NIGHT-UNPRECEDED-POTENCY-ACTUALIZED",
+      "statement_id": "d9791d0f-87c3-5ef1-a0a3-5c85a0b43730",
       "value": "violates",
-      "arguments": ["Being", "Respect", "InAct", "InPotency", "MovedIn", "PriorSimply"],
+      "arguments": [
+        "Being",
+        "Respect",
+        "InAct",
+        "InPotency",
+        "MovedIn",
+        "PriorSimply"
+      ],
       "theorem": "TruthCore.Models.NightCosmogony.Residual.evaluation0"
     },
     {
-      "statement_id": "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-BEING-IN-ACT",
+      "statement_id": "6b9fedc2-6fea-530b-bc6d-116a5d307a54",
       "value": "satisfies",
-      "arguments": ["Being", "Respect", "MovedIn", "MovesIn", "InAct"],
+      "arguments": [
+        "Being",
+        "Respect",
+        "MovedIn",
+        "MovesIn",
+        "InAct"
+      ],
       "theorem": "TruthCore.Models.NightCosmogony.Residual.evaluation1"
     },
     {
-      "statement_id": "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT",
+      "statement_id": "079b53bf-a222-5dfc-b8df-7419f9e98030",
       "value": "satisfies",
-      "arguments": ["Being", "Respect", "MovedIn", "MovesIn"],
+      "arguments": [
+        "Being",
+        "Respect",
+        "MovedIn",
+        "MovesIn"
+      ],
       "theorem": "TruthCore.Models.NightCosmogony.Residual.evaluation2"
     },
     {
-      "statement_id": "STMT-ACTUAL-MOVER-IS-SIMPLY-PRIOR",
+      "statement_id": "6ca87431-3383-58f6-9322-a1f0e8f0396b",
       "value": "satisfies",
-      "arguments": ["Being", "Respect", "InAct", "InPotency", "MovesIn", "PriorSimply"],
+      "arguments": [
+        "Being",
+        "Respect",
+        "InAct",
+        "InPotency",
+        "MovesIn",
+        "PriorSimply"
+      ],
       "theorem": "TruthCore.Models.NightCosmogony.Residual.evaluation3"
     },
     {
-      "statement_id": "STMT-POTENCY-PRIOR-TO-ACT",
+      "statement_id": "c1acdf6c-5e9a-5ce9-b70b-b805061d317a",
       "value": "satisfies",
-      "arguments": ["Being", "Respect", "InAct", "InPotency", "PriorSimply"],
+      "arguments": [
+        "Being",
+        "Respect",
+        "InAct",
+        "InPotency",
+        "PriorSimply"
+      ],
       "theorem": "TruthCore.Models.NightCosmogony.Residual.evaluation4"
     },
     {
-      "statement_id": "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY",
+      "statement_id": "a4d3261a-3239-5b44-9953-64ab1b0ed762",
       "value": "violates",
-      "arguments": ["Being", "Respect", "InAct", "InPotency", "PriorSimply"],
+      "arguments": [
+        "Being",
+        "Respect",
+        "InAct",
+        "InPotency",
+        "PriorSimply"
+      ],
       "theorem": "TruthCore.Models.NightCosmogony.Residual.evaluation5"
     },
     {
-      "statement_id": "STMT-NIGHT-ACTUALIZATION-FORK",
+      "statement_id": "1a93637d-28de-50cc-b1b5-4e50f91cbaed",
       "value": "violates",
-      "arguments": ["Being", "Respect", "InAct", "InPotency", "MovedIn", "MovesIn", "PriorSimply"],
+      "arguments": [
+        "Being",
+        "Respect",
+        "InAct",
+        "InPotency",
+        "MovedIn",
+        "MovesIn",
+        "PriorSimply"
+      ],
       "theorem": "TruthCore.Models.NightActualizationFork.Residual.noFork"
     },
     {
-      "statement_id": "STMT-NIGHT-NONPRIOR-OTHER-ACTUAL-MOVER",
+      "statement_id": "21cb6474-f926-5db0-83b7-985db2521593",
       "value": "violates",
-      "arguments": ["Being", "Respect", "InAct", "InPotency", "MovedIn", "MovesIn", "PriorSimply"],
+      "arguments": [
+        "Being",
+        "Respect",
+        "InAct",
+        "InPotency",
+        "MovedIn",
+        "MovesIn",
+        "PriorSimply"
+      ],
       "theorem": "TruthCore.Models.NightActualizationFork.Residual.noForcedBranch"
     },
     {
-      "statement_id": "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+      "statement_id": "4a952b96-be5f-5493-8277-985248151d01",
       "value": "satisfies",
-      "arguments": ["Being", "Respect", "MovedIn", "MovesIn"],
+      "arguments": [
+        "Being",
+        "Respect",
+        "MovedIn",
+        "MovesIn"
+      ],
       "theorem": "TruthCore.Models.NightActualizationFork.Residual.mover"
     },
     {
-      "statement_id": "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
+      "statement_id": "f296a694-aeea-5fa7-bdbf-0076530f9441",
       "value": "satisfies",
-      "arguments": ["Being", "Respect", "MovesIn", "InAct"],
+      "arguments": [
+        "Being",
+        "Respect",
+        "MovesIn",
+        "InAct"
+      ],
       "theorem": "TruthCore.Models.NightActualizationFork.Residual.actual"
     },
     {
-      "statement_id": "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
+      "statement_id": "c6d6379b-6a9b-55b5-a701-3df289dfcca4",
       "value": "satisfies",
-      "arguments": ["Being", "Respect", "InAct", "InPotency"],
+      "arguments": [
+        "Being",
+        "Respect",
+        "InAct",
+        "InPotency"
+      ],
       "theorem": "TruthCore.Models.NightActualizationFork.Residual.notBoth"
     },
     {
-      "statement_id": "STMT-POTENCY-IS-UNACTUALIZED-CAPACITY",
+      "statement_id": "c85e8ef5-3dc4-502d-90f8-da1429e33fd8",
       "value": "satisfies",
-      "arguments": ["Being", "Respect", "InAct", "InPotency", "CanBe"],
+      "arguments": [
+        "Being",
+        "Respect",
+        "InAct",
+        "InPotency",
+        "CanBe"
+      ],
       "theorem": "TruthCore.Models.NightCapacityControls.Residual.analysis"
     }
   ],

@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "bibliographic_span",
-    "source_id": "FINE-PURE-LOGIC-OF-GROUND",
+    "source_id": "0a9036b0-4f2e-58b5-9a73-866ea3d620aa",
     "author": "Kit Fine",
     "title": "The Pure Logic of Ground",
     "journal": "The Review of Symbolic Logic",
@@ -12,7 +12,9 @@
   },
   "passages": [
     {
-      "id": "FINE-PLG-1-2",
+      "id": "3103f0ac-9fbc-5759-af63-af7602b16a9e",
+      "label": "Kit Fine, The Pure Logic of Ground, Pp. 3-7, §1 and §2",
+      "legacy_id": "FINE-PLG-1-2",
       "locator": "pp. 3-7, §1 (Distinctions of ground) and §2 (Logic: the system PLG and its derived rules)",
       "claim_locator_prefixes": [
         "pp. "

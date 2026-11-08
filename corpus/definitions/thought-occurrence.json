@@ -1,5 +1,7 @@
 {
-  "id": "DEF-THOUGHT-OCCURRENCE",
+  "id": "c0cbef1c-060a-54d4-bb49-8d59da40caf3",
+  "label": "Occurrence of a thought episode: ThoughtOccurs Occurs is ∃ e, Occurs e for a primitive…",
+  "legacy_id": "DEF-THOUGHT-OCCURRENCE",
   "term": "occurrence of a thought episode",
   "definition": "`ThoughtOccurs Occurs` is `∃ e, Occurs e` for a primitive, unconstrained predicate `Occurs` over a possibly empty carrier of thought episodes. An episode actually occurs only when `Occurs e` is independently supplied; mentioning or interpreting a token does not assert its occurrence. It does not itself assert a thinker, time, change, or the reliability of introspection.",
   "basis": "stipulative",

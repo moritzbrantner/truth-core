@@ -1,11 +1,13 @@
 {
-  "id": "SCIENTISM-POINTWISE-SCOPE-STRENGTHENS-EXISTENTIAL",
+  "id": "91baa261-c482-5d08-965b-f9f134317ab3",
+  "label": "If any nonempirical established claim exists…, from Every nonempirical established claim lies…",
+  "legacy_id": "SCIENTISM-POINTWISE-SCOPE-STRENGTHENS-EXISTENTIAL",
   "premise_statement_ids": [
-    "STMT-SCIENTISM-POINTWISE-NONEMPIRICAL-SCOPE"
+    "eb89527e-a623-55f4-9363-3d1618311e5e"
   ],
-  "conclusion_statement_id": "STMT-SCIENTISM-EXISTENTIAL-NONEMPIRICAL-SCOPE",
+  "conclusion_statement_id": "31cf9a3d-d80b-5f6a-920a-e515a246df53",
   "inference_ids": [
-    "INF-SCIENTISM-POINTWISE-SCOPE-STRENGTHENS-EXISTENTIAL"
+    "7efac812-0b60-57e1-a179-3fd781f95963"
   ],
   "meaning": "Pointwise witness coverage implies existential witness-transfer coverage by preserving an existing witness."
 }

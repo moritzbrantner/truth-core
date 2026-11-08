@@ -1,6 +1,8 @@
 {
-  "id": "BRIDGE-TERTIA-NECESSITY-CAUSE-OR-NOT-FROM-EXCLUDED-MIDDLE",
-  "argument_id": "BRIDGE-TERTIA-NECESSITY-CAUSE-OR-NOT-FROM-EXCLUDED-MIDDLE",
+  "id": "083d31cc-f4ad-561a-818f-d91ecda3379a",
+  "label": "Every NECESSARY_1 being either has the cause of its necessity from another…, from excluded middle",
+  "legacy_id": "BRIDGE-TERTIA-NECESSITY-CAUSE-OR-NOT-FROM-EXCLUDED-MIDDLE",
+  "argument_id": "12f07b36-55ac-555e-aefb-db911e5816c7",
   "challenge_module": "TruthCore.Results.Bridges.TertiaNecessityCauseOrNotFromExcludedMiddle.Challenge",
   "solution_module": "TruthCore.Results.Bridges.TertiaNecessityCauseOrNotFromExcludedMiddle.Solution",
   "theorem": "TruthCore.Results.Bridges.TertiaNecessityCauseOrNotFromExcludedMiddle.necessaryHasCauseOfNecessityOrNot",

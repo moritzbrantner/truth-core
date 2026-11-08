@@ -1,7 +1,9 @@
 {
-  "id": "WITTGENSTEIN-LE-SIMILES",
-  "statement_id": "STMT-LE-RELIGIOUS-TERMS-SIMILES",
-  "source_id": "WITTGENSTEIN-LECTURE-ON-ETHICS",
+  "id": "a9968524-0232-5cd7-85ec-58b71996db5e",
+  "label": "Ludwig Wittgenstein, A Lecture on Ethics LE…: Lecture on Ethics: religious terms seem to be used…",
+  "legacy_id": "WITTGENSTEIN-LE-SIMILES",
+  "statement_id": "d5b316f2-a0fb-5df0-ac9d-75f6cb2ba7db",
+  "source_id": "8010d534-7439-5be8-afc2-524b0a9abe83",
   "locator": "LE all religious terms seem in this sense to be used as similes or allegorically",
   "interpretation": "'all religious terms seem in this sense to be used as similes or allegorically', e.g. God who sees everything; 'a simile must be the simile of something', and where the facts cannot be described without the simile, the expressions are nonsense, 'their nonsensicality was their very essence'.",
   "status": "formalized",

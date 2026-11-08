@@ -1,6 +1,8 @@
 {
-  "id": "QUARTA-VIA-MAXIME-ENS-WITHOUT-TRUTH-BRIDGE",
-  "argument_id": "QUARTA-VIA-MAXIME-ENS-WITHOUT-TRUTH-BRIDGE",
+  "id": "69712aff-f564-54fa-8d08-c62566fa8a03",
+  "label": "There is something maximally BEING_1 that is the cause of BEING_1…, via MAXIME_ENS_1 without truth…",
+  "legacy_id": "QUARTA-VIA-MAXIME-ENS-WITHOUT-TRUTH-BRIDGE",
+  "argument_id": "e2a7ffb3-0e09-58a9-b647-a079c0ffda36",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaMaximumInBeing.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaMaximumInBeing.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaMaximumInBeing.maximeEnsCausesBeingOfAll",

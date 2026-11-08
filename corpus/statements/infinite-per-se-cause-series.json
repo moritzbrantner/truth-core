@@ -1,11 +1,13 @@
 {
-  "id": "STMT-INFINITE-PER-SE-CAUSE-SERIES",
+  "id": "1c07b567-4021-5208-a6d2-381abdadf62d",
+  "label": "Rival: there is an endless descending chain of per se links of efficient causes, each a middle…",
+  "legacy_id": "STMT-INFINITE-PER-SE-CAUSE-SERIES",
   "paraphrase": "Rival: there is an endless descending chain of per se links of efficient causes, each a middle cause of the one before, with no first. The chain need not run through distinct beings, so a per se loop also yields one.",
   "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.InfinitePerSeCauseSeriesReading",
   "definition_ids": [
-    "DEF-PER-SE-EFFICIENT-CAUSE-LINK"
+    "4a101a4c-12de-53c8-80c6-de7a523ea9d9"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSAL-SERIES"
+    "81c233d4-01b4-528c-8bbd-7da228443ffe"
   ]
 }

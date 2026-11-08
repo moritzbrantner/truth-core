@@ -1,12 +1,14 @@
 {
-  "id": "STMT-EINSTEIN-1905-COORDINATE-TRANSFORMATION",
+  "id": "fee2b4f5-eec7-5b58-b2a1-04401f7b6c2e",
+  "label": "Einstein assigns coordinate-time descriptions of the same event to relatively uniformly…",
+  "legacy_id": "STMT-EINSTEIN-1905-COORDINATE-TRANSFORMATION",
   "paraphrase": "Einstein assigns coordinate-time descriptions of the same event to relatively uniformly translating systems, requires linear transformation on homogeneity grounds, and checks that a spherical light wave has the same propagation speed in the transformed description.",
   "definition_ids": [
-    "DEF-EINSTEIN-CLOCK-TIME",
-    "DEF-BOOST-FRAME-SIMULTANEITY",
-    "DEF-PRIVILEGED-PRESENT-SCOPE"
+    "d349494b-d57b-5c7f-8d44-f7180abae1d8",
+    "3b1b4d24-9ae1-5155-895e-832f2e35a9ad",
+    "ef92f471-1e4c-5493-9bdc-043374a459cd"
   ],
   "disambiguation_ids": [
-    "DISAMB-FRAME-SIMULTANEITY-ONTOLOGY"
+    "8d688be8-d802-5679-bd53-d08374145abf"
   ]
 }

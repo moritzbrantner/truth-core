@@ -1,10 +1,12 @@
 {
-  "id": "INF-AQUINAS-IN-METAPH-IX-L8-PRIMUM-MOVENS-PURE-ACT",
+  "id": "87c4338e-1f95-571e-b4fa-ac178fe8cb51",
+  "label": "Every first mover moved by none is PURE_ACT_5, with no potency, by Hypothetical-syllogism",
+  "legacy_id": "INF-AQUINAS-IN-METAPH-IX-L8-PRIMUM-MOVENS-PURE-ACT",
   "input_statement_ids": [
-    "STMT-MOVER-MOVED-AT-NO-TIME-IS-PURE-ACT",
-    "STMT-SLICE-FIRST-MOVER-MOVED-AT-NO-TIME"
+    "609af310-8e3f-50c9-a9ec-4befac3bb538",
+    "00a44bb5-9128-5fb3-8de7-8a7d10ebbf11"
   ],
-  "output_statement_id": "STMT-FIRST-UNMOVED-MOVER-IS-PURE-ACT",
+  "output_statement_id": "6c18d52b-2456-59ae-995f-13440f8c808d",
   "rule": "hypothetical-syllogism",
   "meaning": "Let t be a time and f a first mover moved by none at t. Then f moves something at t, and by the bridge f is moved in no respect at any time. So the In Metaph. IX, lect. 8 n. 11 reading applies to f at t: f is in potency in no respect at t.",
   "assumption_statement_ids": [],

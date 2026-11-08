@@ -1,6 +1,8 @@
 {
-  "id": "CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-ALL-ADOPTED-POTENCY",
-  "argument_id": "CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-ALL-ADOPTED-POTENCY",
+  "id": "b30e334f-cb00-5f7d-b005-58d339bcc8e5",
+  "label": "Whatever is GOD_4 satisfies the\u2026, from A being that is SIMPLE_4, PERFECT_2, GOOD_4\u2026 and 18 more",
+  "legacy_id": "CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-ALL-ADOPTED-POTENCY",
+  "argument_id": "51fd6d58-15d9-5b37-879c-ceee26bea350",
   "challenge_module": "TruthCore.Results.Case.Catholicism.AdoptedPotency.ClassicalAttributesAll.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.AdoptedPotency.ClassicalAttributesAll.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.AdoptedPotency.ClassicalAttributesAll.godHasClassicalAttributes",

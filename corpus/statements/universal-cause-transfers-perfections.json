@@ -1,16 +1,18 @@
 {
-  "id": "STMT-UNIVERSAL-CAUSE-TRANSFERS-PERFECTIONS",
+  "id": "b26c10a0-983d-5a88-aa03-cc601bc1ddc6",
+  "label": "A cause of every other actual being transfers causation of a distinct effect’s esse to each of its…",
+  "legacy_id": "STMT-UNIVERSAL-CAUSE-TRANSFERS-PERFECTIONS",
   "paraphrase": "Open premise: a cause of every other actual being transfers causation of a distinct effect’s esse to each of its actual perfections. The esse-cause antecedent remains explicit. No God predicate, firstness, maximality or existence assertion occurs in this principle.",
   "lean_declaration": "TruthCore.Case.Catholicism.UniversalCauseTransfersPerfections",
   "definition_ids": [
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-ESSE",
-    "DEF-ACT",
-    "DEF-RESPECT",
-    "DEF-UNIVERSAL-ESSE-CAUSE-SCOPE"
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1",
+    "c19faf56-0908-5e6e-8c39-ccba40dce5d1"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSE",
-    "DISAMB-IN-ACT"
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
   ]
 }

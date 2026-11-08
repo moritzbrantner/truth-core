@@ -1,15 +1,17 @@
 {
-  "id": "ATTEMPT-BEARER-CAPACITY-EXERCISE",
+  "id": "e3942e84-6afd-5dd4-9382-b9158f9a7a96",
+  "label": "Reused #456 without recertifying its model from scratch and #462 alternating-effects controls",
+  "legacy_id": "ATTEMPT-BEARER-CAPACITY-EXERCISE",
   "statement_ids": [
-    "STMT-NECESSARY-CONCRETE-CAUSAL-CAPACITY",
-    "STMT-BEARER-CAPACITY-EXERCISE"
+    "02debab4-a52d-5a3e-b7db-e83534c56029",
+    "e065887e-c8c7-5387-97f4-891865fc6bfd"
   ],
   "date": "2026-10-28",
   "kind": "countermodel",
   "outcome": "succeeded",
   "summary": "Reused #456 without recertifying its model from scratch and #462 alternating-effects controls. Added an activated-response Ontic adapter, a separately stipulated world-invariant directed marker, and three exact omitted implication tests. A local manifestation rule yields necessary activity given necessary capacity; the rule is an open philosophical commitment. Necessary activity alone leaves a contingent effect and a nonnecessary true proposition. Intrinsic-power realist objection, rejected marker-as-full-power identification, and source-attribution boundary are preserved in docs/bearer-capacity-exercise.md. No source search or attribution was performed; no root premises changed.",
   "evidence": [
-    "BEARER-CAPACITY-EXERCISE",
-    "NECESSARY-CONCRETE-CAUSAL-CAPACITY"
+    "da80929e-41a6-5552-9b55-a4df109539c1",
+    "8a2f7305-939b-5ff7-b059-9e755e84b391"
   ]
 }

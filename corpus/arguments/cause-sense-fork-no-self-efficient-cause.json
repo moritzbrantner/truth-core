@@ -1,26 +1,28 @@
 {
-  "id": "CAUSE-SENSE-FORK-NO-SELF-EFFICIENT-CAUSE",
+  "id": "7c6127b9-166f-5696-b0a4-60ead2c9edc5",
+  "label": "Nothing is the efficient cause of itself…, from Every use of 'cause' on the route to… and 4 more",
+  "legacy_id": "CAUSE-SENSE-FORK-NO-SELF-EFFICIENT-CAUSE",
   "premise_statement_ids": [
-    "STMT-CAUSE-SENSES-EXHAUSTIVE",
-    "STMT-NOTHING-CAUSES-ITSELF-IN-ROUTE-SENSE",
-    "STMT-SOME-SUBJECT-CAUSES-ITS-OWN-PERFECTION",
-    "STMT-SELF-EFFICIENT-CAUSATION-IS-SELF-MOVING",
-    "STMT-SELF-EFFICIENT-CAUSATION-IS-SELF-ORIGINATION"
+    "048eac8a-c325-52ad-9627-3f5431eea846",
+    "cc5c7105-90f2-5c2a-8f57-16325b2946d4",
+    "5e76cbf7-9033-549c-9ec3-328746219b46",
+    "3715f518-89a7-5815-8416-990fb686a837",
+    "0a2f1846-e8cd-5082-9566-39b4ae8082fc"
   ],
-  "conclusion_statement_id": "STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF",
+  "conclusion_statement_id": "8b2561cd-3743-536d-a110-3352fdb0c6b9",
   "inference_ids": [
-    "INF-CAUSE-SENSE-FORK-NO-SELF-EFFICIENT-CAUSE"
+    "7c790774-e302-518b-a801-b3f7820a8db6"
   ],
   "meaning": "Joint sense fork for 'cause'. Coverage reads the route's 'cause' in 'nothing causes itself' as moving, efficient causing, causing a perfection or cause of origin. Efficient branch: direct. Moving branch: a self-efficient cause would move itself (open bridge), which the route premise excludes. Origin branch: it would originate itself (open bridge), likewise excluded. Perfection branch: impossible, since some subject causes its own perfection. Hence nothing is its own efficient cause, under the five OPEN premises.",
   "definition_ids": [
-    "DEF-CAUSE-OF-ORIGIN",
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-EFFICIENT-CAUSING",
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-ROUTE-SENSE-SELECTION"
+    "05dc1385-d245-5137-bf8b-dbdb1d3d9a7a",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "69c0b23e-54c7-57a1-871f-839c6e5514c6",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "52ac2160-9482-5e6a-9cfe-3e6f67482e5a"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSE",
-    "DISAMB-UNITING-CAUSE"
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "57f80020-fa6f-5b69-be58-b4cf95b7226f"
   ]
 }

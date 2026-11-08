@@ -1,7 +1,9 @@
 {
-  "id": "INF-HISTORY-CONTRASTIVE-CONTROLS",
+  "id": "f6f30bb5-f884-56f6-87ff-41c85aeafb29",
+  "label": "Two universally accessible infinite predecessor chains have sound local reason…, by Direct-proof",
+  "legacy_id": "INF-HISTORY-CONTRASTIVE-CONTROLS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-HISTORY-CONTRASTIVE-CONTROLS",
+  "output_statement_id": "e096a433-8d5d-522d-96c4-83ad22be6e74",
   "rule": "direct-proof",
   "meaning": "Provide explicit infinite-chain witnesses. The differing reason assignments retain causes and local explanatory labels. The selected internal reason is contingent; the constant reason is necessary but nondiscriminating.",
   "assumption_statement_ids": [],

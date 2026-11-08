@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PSR-STRENGTH-REASON",
+  "id": "179d4557-bda1-59c4-938a-b91e9974a27f",
+  "label": "SUFFICIENT_REASON_3, nonnecessitating…: A reason in the bare sense is whatever explains admits…",
+  "legacy_id": "DEF-PSR-STRENGTH-REASON",
   "term": "sufficient reason, nonnecessitating sense",
   "definition": "A reason in the bare sense is whatever explains admits, read as an answer to why the fact obtains. It need not modally suffice for what it explains. Factive additionally requires reason and target to be true at the world.",
   "basis": "stipulative",

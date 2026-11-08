@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MAXIMUM-ORDER-SCHEMA",
+  "id": "67dc3765-8c32-505e-a546-b611387345c2",
+  "label": "Maximum in an order with a…: System stores a cause-of-degree relation on a Mathlib preorder",
+  "legacy_id": "DEF-MAXIMUM-ORDER-SCHEMA",
   "term": "maximum in an order with a cause-of-degree relation",
   "definition": "System stores a cause-of-degree relation on a Mathlib preorder. IsMax means that no member is strictly greater (maximal, not necessarily greatest). CausesRaiseDegree separately requires each distinct cause to be strictly greater than its effect. A maximum need not exist, be unique, cause anything, or be God. Only distinct causes of the same chosen degree are excluded by the schema theorem.",
   "basis": "stipulative",

@@ -1,7 +1,9 @@
 {
-  "id": "STMT-BIRD-2004-DISPOSITIONAL-LAW-ACCOUNT",
+  "id": "aa6a9f58-a800-50ca-aa74-201d13efbbe4",
+  "label": "Natural properties have their dispositional character essentially; this can explain laws through…",
+  "legacy_id": "STMT-BIRD-2004-DISPOSITIONAL-LAW-ACCOUNT",
   "paraphrase": "Natural properties have their dispositional character essentially; this can explain laws through relations of properties and their manifestations, with appropriate qualifications for exceptions.",
   "definition_ids": [
-    "DEF-BIRD-DISPOSITIONS-EXCEPTIONS"
+    "d1142999-4a0c-5773-b67e-afa4ade323a3"
   ]
 }

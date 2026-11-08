@@ -1,11 +1,13 @@
 {
-  "id": "STMT-NB-A10-CAUSAL-DEFAULT",
+  "id": "21d6f7cc-1af2-54c8-8202-2b443ebb9bef",
+  "label": "Conditional on the affirmative A10P1 report, contingent things generally have a cause as a rule of…",
+  "legacy_id": "STMT-NB-A10-CAUSAL-DEFAULT",
   "paraphrase": "Conditional on the affirmative A10P1 report, contingent things generally have a cause as a rule of thumb. The source explains this as a prima-facie reason to expect a cause for a particular encountered contingent thing, defeasible by reason to regard it as an exception. This is a reported default, not exceptionless actual causation, a deductive possible-cause premise, or an independently established probability bound.",
   "definition_ids": [
-    "DEF-NB-A10-DEFEASIBLE-CAUSAL-DEFAULT",
-    "DEF-NB-SURVEY-NECESSARY-BEING"
+    "849896d5-dde0-5f60-a951-788992e3726d",
+    "7fde5dc0-6ca7-5ce6-a2e1-571acfd15dcf"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A10-DEFAULT-AND-MODAL-CAUSE"
+    "b5d2699d-be01-54fa-ac90-bbaccad830d0"
   ]
 }

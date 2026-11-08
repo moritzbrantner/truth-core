@@ -1,9 +1,11 @@
 {
-  "id": "REL-ROM-2-14-15-GENTILES-LAW-BY-NATURE-SUPPORTS-NATURAL-REASON-SHARED",
+  "id": "c0d27dfa-a7bf-5d1b-bd26-7abb51f7cab3",
+  "label": "Paul, Epistula ad Romanos Rom 2: Rom… supports A move that affirms that God can be known…",
+  "legacy_id": "REL-ROM-2-14-15-GENTILES-LAW-BY-NATURE-SUPPORTS-NATURAL-REASON-SHARED",
   "subject_kind": "claim",
-  "subject_id": "ROM-2-14-15-GENTILES-LAW-BY-NATURE",
+  "subject_id": "493e804e-943b-5146-99e9-0e4c86f46da9",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-NATURAL-REASON-IS-SHARED-REASON",
+  "object_id": "c87ffcb8-9a44-5e02-a68b-13d0282ae930",
   "note": "Gentiles know by nature what the law requires: a natural knowledge shared with outsiders, in the moral domain. Gap: it is about the law, not about knowledge of God, so it supports the shared sense of 'natural' only by analogy."
 }

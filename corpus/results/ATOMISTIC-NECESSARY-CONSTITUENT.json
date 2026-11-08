@@ -1,6 +1,8 @@
 {
-  "id": "ATOMISTIC-NECESSARY-CONSTITUENT",
-  "argument_id": "ATOMISTIC-NECESSARY-CONSTITUENT",
+  "id": "bd8facfd-d4d9-5a3a-b51a-349822a65446",
+  "label": "At least one individual exists at the…, from The non-null object domain is inhabited and 7 more",
+  "legacy_id": "ATOMISTIC-NECESSARY-CONSTITUENT",
+  "argument_id": "1a621d09-0dcb-500b-9367-7da165ac40aa",
   "challenge_module": "TruthCore.Results.Causality.AtomisticNecessaryConstituent.Challenge",
   "solution_module": "TruthCore.Results.Causality.AtomisticNecessaryConstituent.Solution",
   "theorem": "TruthCore.Results.Causality.AtomisticNecessaryConstituent.necessaryBeing",

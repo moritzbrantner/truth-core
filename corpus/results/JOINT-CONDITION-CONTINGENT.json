@@ -1,6 +1,8 @@
 {
-  "id": "JOINT-CONDITION-CONTINGENT",
-  "argument_id": "JOINT-CONDITION-CONTINGENT",
+  "id": "3409c336-db2a-535a-8399-cffa7ab5ba52",
+  "label": "The fixed selected conjunction…, from Every condition in the fixed selected set… and 1 more",
+  "legacy_id": "JOINT-CONDITION-CONTINGENT",
+  "argument_id": "7c1626c7-25d9-5e80-87c6-1898c2b4cc01",
   "challenge_module": "TruthCore.Results.Explanation.JointCondition.Challenge",
   "solution_module": "TruthCore.Results.Explanation.JointCondition.Solution",
   "theorem": "TruthCore.Results.Explanation.JointCondition.contingent",

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-OPERATING-AGENT",
+  "id": "1c062aa6-0d5c-5b13-a8ae-90a5f2d2a690",
+  "label": "Operating: Operates b: b exercises some activity, transient or immanent",
+  "legacy_id": "DEF-OPERATING-AGENT",
   "term": "operating (Operates b)",
   "definition": "Operates b: b exercises some activity (operatio), transient (heating another) or immanent (understanding, willing). Wider than causing another (Ontic.Causes), which is only the transient case. Example: a knower understanding. Non-example: a stone merely resting. In Lean a parameter B -> Prop.",
   "basis": "stipulative",

@@ -1,6 +1,8 @@
 {
-  "id": "ACT-SIMPLY-PRIOR-FROM-MOTION-FORK",
-  "argument_id": "ACT-SIMPLY-PRIOR-FROM-MOTION-FORK",
+  "id": "a4ce3ab0-8d60-5c90-89b6-58544f71803c",
+  "label": "Act is SIMPLY_PRIOR_1 to POTENCY_1: whatever is in POTENCY_1 in a respect is…, from MOTION_1 fork",
+  "legacy_id": "ACT-SIMPLY-PRIOR-FROM-MOTION-FORK",
+  "argument_id": "6d1672a7-7dce-58c4-ad07-11d45e5e4bd2",
   "challenge_module": "TruthCore.Results.Causality.Round4Revisited.Challenge",
   "solution_module": "TruthCore.Results.Causality.Round4Revisited.Solution",
   "theorem": "TruthCore.Results.Causality.Round4Revisited.actPriorFromMotionFork",

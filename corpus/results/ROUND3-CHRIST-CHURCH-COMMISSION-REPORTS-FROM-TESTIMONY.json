@@ -1,6 +1,8 @@
 {
-  "id": "ROUND3-CHRIST-CHURCH-COMMISSION-REPORTS-FROM-TESTIMONY",
-  "argument_id": "ROUND3-CHRIST-CHURCH-COMMISSION-REPORTS-FROM-TESTIMONY",
+  "id": "26807ec7-ae42-55fb-8d74-d5eadb36cf64",
+  "label": "Report-to-event premise: the commission reported in Matthew 28.18-20 goes back to…, from testimony",
+  "legacy_id": "ROUND3-CHRIST-CHURCH-COMMISSION-REPORTS-FROM-TESTIMONY",
+  "argument_id": "dd5c4e92-ef3e-56c8-9757-bfe2f10f03bb",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.commissionReportsFromTestimony",

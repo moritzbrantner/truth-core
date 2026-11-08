@@ -1,24 +1,26 @@
 {
-  "id": "MODAL-DEGREE-UNBOUNDED-WORLD-CONTROL",
+  "id": "cf3646b0-2c24-58ed-a837-7397356fe45b",
+  "label": "One fixed interpretation has natural-number modal world labels, three rigid candidate individuals…",
+  "legacy_id": "MODAL-DEGREE-UNBOUNDED-WORLD-CONTROL",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-MODAL-DEGREE-UNBOUNDED-WORLD-CONTROL",
+  "conclusion_statement_id": "2abfa50f-4528-578f-9164-b673de42ce1e",
   "inference_ids": [
-    "INF-MODAL-DEGREE-UNBOUNDED-WORLD-CONTROL"
+    "4b719623-25ca-51bb-8de0-739a1c31c960"
   ],
   "meaning": "One fixed interpretation has natural-number modal world labels, three rigid candidate individuals and the same two necessarily present source/effect individuals with a sound distinct source-to-effect edge at every world. Each existing individual has intensity k at world label k. Universal accessibility, actual reflexivity, actual source presence, selected-source necessity, sound distinct causation, other-directed possible universal causation and the current-world weak degree bound hold jointly. Both bare and actual-guarded source-degree invariance fail, and no existing accessible-world pair attains a global degree maximum: a candidate at v is exceeded by the existing source at v+1. The Nat labels are alternatives, not times or counts of worlds; existence remains independent of intensity and absent candidates are guarded out. This is a concrete satisfiability/control certificate, not metaphysical possibility, a value/existence bridge, or a refutation of the entire Koons first block. No infinite interpretation is registered as a finite model and no root premise is discharged.",
   "definition_ids": [
-    "DEF-ACTUAL-MODAL-REFLEXIVITY",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-MODAL-EXISTENCE-DEGREE",
-    "DEF-MODAL-POINTWISE-OTHER-POTENTIAL",
-    "DEF-MODAL-POSSIBLE-EXISTENCE-CAUSE",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-PREORDER-DEGREE-INVARIANCE"
+    "735d59a6-61de-5e43-bcf6-4ff64bceb90d",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "3baa4471-74ac-5de6-a53a-6ea274873405",
+    "10d78687-87cb-5601-8fe0-07a73863ecfd",
+    "6618da47-faca-59e2-be67-8ec920a2d51b",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "14bf73ee-a52e-5b4c-bde2-9e6f31de6a1b"
   ],
   "disambiguation_ids": [
-    "DISAMB-MODAL-CAUSE-POSSIBILITY-AND-EXERCISE",
-    "DISAMB-MODAL-DEGREE-PRESENCE",
-    "DISAMB-NECESSARY"
+    "06fc8d78-0723-5daa-9186-7a016125bb0b",
+    "4eb21e18-3541-5b78-ab20-0040e4e987f4",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
   ]
 }

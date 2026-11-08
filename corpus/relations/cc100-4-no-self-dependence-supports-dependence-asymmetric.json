@@ -1,9 +1,11 @@
 {
-  "id": "REL-CC100-4-NO-SELF-DEPENDENCE-SUPPORTS-DEPENDENCE-ASYMMETRIC",
+  "id": "41c9fa95-c332-53b9-b7d0-20b3c86412b2",
+  "label": "Chad McIntosh, Over 100 Arguments for the…… supports If x depends for its being on y, y does not…",
+  "legacy_id": "REL-CC100-4-NO-SELF-DEPENDENCE-SUPPORTS-DEPENDENCE-ASYMMETRIC",
   "subject_kind": "claim",
-  "subject_id": "CC100-4-NO-SELF-AND-OTHER-DEPENDENCE",
+  "subject_id": "437c27cd-7d53-5cef-99f0-cec855ff6796",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-DEPENDENCE-FOR-BEING-ASYMMETRIC",
+  "object_id": "da8e6b60-4dab-5858-9c8d-f6e84c821970",
   "note": "The slide says nothing can depend on itself, which is the irreflexive instance of the premise. Excluding mutual dependence between two distinct things is the analyst's strengthening."
 }

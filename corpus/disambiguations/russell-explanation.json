@@ -1,10 +1,12 @@
 {
-  "id": "DISAMB-RUSSELL-EXPLANATION",
+  "id": "a43c7122-d309-5b54-8922-6d459df33f21",
+  "label": "Explanation (3)",
+  "legacy_id": "DISAMB-RUSSELL-EXPLANATION",
   "term": "explanation",
   "sense_definition_ids": [
-    "DEF-RUSSELL-LOGICAL-ANALYSIS",
-    "DEF-RUSSELL-GROUNDING",
-    "DEF-RUSSELL-EXHAUSTIVENESS"
+    "7917975f-a920-5ade-99df-11f19231f0a0",
+    "77060332-2129-5e1d-b477-908cbe74080f",
+    "ddef645b-61e3-5df3-97a5-880f318f2e96"
   ],
   "resolution": "A truth-conditional analysis is distinct from a grounding edge and from the extra assertion that truth conditions determine all admissible explanatory expansions. V p.72 explicitly leaves the analysis of general facts incomplete; no inference from A1 to A2 is attributed to Russell."
 }

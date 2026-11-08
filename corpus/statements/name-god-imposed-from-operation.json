@@ -1,15 +1,17 @@
 {
-  "id": "STMT-NAME-GOD-IMPOSED-FROM-OPERATION",
+  "id": "709ad5d2-5be5-5023-897e-a0c8ea8bd5ab",
+  "label": "The name 'GOD_1' applies to whatever is the only being that causes the being of every other being",
+  "legacy_id": "STMT-NAME-GOD-IMPOSED-FROM-OPERATION",
   "paraphrase": "OPEN analyst bridge (attribution deferred): the name 'God' applies to whatever is the only being that causes the being of every other being. Read from the idea that the name is imposed from the universal causality attributed to its bearer (ST I q.13 a.8); providence is not encoded, and uniqueness is a definite-description condition of application.",
   "lean_declaration": "TruthCore.Causality.NamingVeracityBatch1.NameGodImposedFromOperation",
   "definition_ids": [
-    "DEF-GOD-NOMINAL-Q13",
-    "DEF-NOMINAL-DEFINITION",
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-ESSE"
+    "18945900-2de0-5040-bdab-26268f257684",
+    "16cf8319-84c7-5e24-9d18-5942b99c2e67",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
   ],
   "disambiguation_ids": [
-    "DISAMB-GOD",
-    "DISAMB-CAUSE"
+    "205a39c3-915d-5fe4-8076-a9ff91329e08",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
   ]
 }

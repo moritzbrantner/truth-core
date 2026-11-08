@@ -1,22 +1,24 @@
 {
-  "id": "CONTINGENT-FULL-GROUND-TERMINUS-CONTROLS",
+  "id": "b89e6c3e-5cda-5194-8641-4704986c2285",
+  "label": "Given explicit EM, an actual contingent fact, WF of the supplied fact relation, actual members…",
+  "legacy_id": "CONTINGENT-FULL-GROUND-TERMINUS-CONTROLS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-CONTINGENT-FULL-GROUND-TERMINUS-CONTROLS",
+  "conclusion_statement_id": "f58e5d54-b3b8-5ed5-89d6-5bb0e3b072d6",
   "inference_ids": [
-    "INF-CONTINGENT-FULL-GROUND-TERMINUS-CONTROLS"
+    "aaff6651-f8a1-5129-b5a0-6f29361b75fd"
   ],
   "meaning": "Arbitrary-set terminus schema, matched consistency model and four one-policy deletion controls.",
   "definition_ids": [
-    "DEF-PSR-STRENGTH-ARENA",
-    "DEF-ADMITTED-FULL-GROUND-SETS",
-    "DEF-FULL-GROUND-ACTUAL-MEMBERS",
-    "DEF-FULL-GROUND-MEMBER-DEPENDENCY",
-    "DEF-FULL-GROUND-JOINT-NECESSITATION",
-    "DEF-CONTINGENT-FULL-GROUND-TERMINUS",
-    "DEF-FACT-DEPENDENCY-WELL-FOUNDED",
-    "DEF-BOXED-FACT-TRUTH"
+    "fe4b7da0-cbd6-5d1f-b589-953f9def12b7",
+    "b738d5d0-b4bd-5f47-894f-673aae646d80",
+    "5793efef-0bc5-547d-b677-af80a8118f12",
+    "52212742-d87d-5391-9e13-a429910eee4d",
+    "7513f526-2dc5-5092-b453-78d880675bb4",
+    "40f9dca8-cff5-5e1c-84d0-efc54a1ab856",
+    "303d8860-4e9b-5ae0-b726-a07e0f592df9",
+    "0c3c8234-269b-55f6-8c96-34522dda62bf"
   ],
   "disambiguation_ids": [
-    "DISAMB-GROUNDING-BASELINE-SENSES"
+    "e940ca85-8b6b-53ea-9c3a-4fd5693ad534"
   ]
 }

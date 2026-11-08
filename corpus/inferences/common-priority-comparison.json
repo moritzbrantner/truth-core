@@ -1,7 +1,9 @@
 {
-  "id": "INF-COMMON-PRIORITY-COMPARISON",
+  "id": "5ac48f6e-ab2c-5b7b-bc38-e203110599e0",
+  "label": "Relation persistence on necessary bearers plus selected-world…, by Checked-theorem-composition-a…",
+  "legacy_id": "INF-COMMON-PRIORITY-COMPARISON",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-COMMON-PRIORITY-COMPARISON",
+  "output_statement_id": "3cf1a799-f40b-5c49-840a-b806de6e1431",
   "rule": "checked-theorem-composition-and-model-controls",
   "meaning": "Consume exact rotating/parity/varying controls: truth implication and world-local termination do not give a common priority rank; stability plus actualWF suffices.",
   "assumption_statement_ids": [],

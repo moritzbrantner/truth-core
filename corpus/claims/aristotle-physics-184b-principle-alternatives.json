@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-184B-PRINCIPLE-ALTERNATIVES-A",
-  "statement_id": "STMT-PRINCIPLE-ALTERNATIVES",
-  "source_id": "ARIST-PHYS",
+  "id": "a878ad88-c867-57d8-adaa-ce36e3fedbf5",
+  "label": "Aristotle, Physics I.2, 184b15-25: The principles sought are one or many; if one, motionless or…",
+  "legacy_id": "ARIST-PHYS-184B-PRINCIPLE-ALTERNATIVES-A",
+  "statement_id": "064922d2-826a-53ca-8f15-3170c69c7ee7",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.2, 184b15-25",
   "interpretation": "Aristotle opens the inquiry by laying out a branching logical space for the number and motion-status of principles. The alternatives are formalized as alternatives, not as commitments to any predecessor's answer.",
   "status": "formalized"

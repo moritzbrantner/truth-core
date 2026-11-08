@@ -1,7 +1,9 @@
 {
-  "id": "INF-NECESSARY-ROUTE-CONTROLS",
+  "id": "9e81b03d-31e3-5f9e-918d-a6bed315a7a5",
+  "label": "Formal facts about the #487 bridge, by Constructive-proof",
+  "legacy_id": "INF-NECESSARY-ROUTE-CONTROLS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-NECESSARY-ROUTE-CONTROLS",
+  "output_statement_id": "73c966e0-b024-598c-9b24-6b2a0c8f9b15",
   "rule": "constructive-proof",
   "meaning": "Finite-model and natural-number-time constructions, and direct proofs of the two quantified implications.",
   "assumption_statement_ids": [],

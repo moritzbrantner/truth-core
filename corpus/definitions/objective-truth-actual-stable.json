@@ -1,5 +1,7 @@
 {
-  "id": "DEF-OBJECTIVE-TRUTH-ACTUAL-STABLE",
+  "id": "ed7fb11b-9ba7-5776-8747-4d3d33fc7e43",
+  "label": "Objective as actual truth plus\u2026: ActualStableDefinition f means \u2200 s, objective s \u2194. It is a\u2026",
+  "legacy_id": "DEF-OBJECTIVE-TRUTH-ACTUAL-STABLE",
   "term": "objective as actual truth plus specified profile stability",
   "definition": "ActualStableDefinition f means \u2200 s, objective s \u2194 (holds actual s \u2227 Stable f s). It is a proposed calibration of an independent predicate, so it can fail.",
   "basis": "stipulative",

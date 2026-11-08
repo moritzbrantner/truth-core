@@ -1,9 +1,11 @@
 {
-  "id": "INF-MATCHED-RELIGIOUS-TRUTH-DIFFERENCE-REJECTS-CROSS-DISCOURSE",
+  "id": "29880255-b1ed-531c-a804-a719761f104f",
+  "label": "Exact negation of the stronger analyst local-plus-invariant profile, on the…, by Constructive-proof",
+  "legacy_id": "INF-MATCHED-RELIGIOUS-TRUTH-DIFFERENCE-REJECTS-CROSS-DISCOURSE",
   "input_statement_ids": [
-    "STMT-RELIGIOUS-MATCHED-TRUTH-DIFFERENCE"
+    "8b39e3a5-1388-59eb-ad08-7d11e3a6497c"
   ],
-  "output_statement_id": "STMT-RELIGIOUS-CROSS-DISCOURSE-FACE-VALUE-REJECTED",
+  "output_statement_id": "2961c9e0-02b5-582e-96bf-3df45cb4e0c4",
   "rule": "constructive-proof",
   "meaning": "Compose exact invariance rejection and the strong-profile projection. This rejects only the stronger analyst profile, not the old unbound face-value/source thesis.",
   "assumption_statement_ids": [],

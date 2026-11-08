@@ -1,13 +1,15 @@
 {
-  "id": "STMT-MAXIME-GREATEST-DEGREE-DEFINITION",
+  "id": "85975f1d-cac5-59f8-8104-bd112de183ad",
+  "label": "Independently supplied Maxime holds exactly for the existing GreatestDegreeBearer predicate on the…",
+  "legacy_id": "STMT-MAXIME-GREATEST-DEGREE-DEFINITION",
   "paraphrase": "OPEN calibration: independently supplied Maxime holds exactly for the existing GreatestDegreeBearer predicate on the supplied preorder and selected perfection. Greatest degrees may be tied between distinct beings.",
   "lean_declaration": "TruthCore.Causality.MaximumDefinitionFork.GreatestDefinition",
   "definition_ids": [
-    "DEF-MAXIMUM-CALIBRATION-PROFILE",
-    "DEF-MAXIMUM-IN-A-PERFECTION",
-    "DEF-GREATEST-DEGREE-IN-A-PERFECTION"
+    "18c78a19-096c-5987-8517-a67edaede564",
+    "ad844320-77ce-5786-96d7-4b02f874269d",
+    "9146daed-3e78-5804-8291-70c4e2c9d6c1"
   ],
   "disambiguation_ids": [
-    "DISAMB-MAXIME-ENS"
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
   ]
 }

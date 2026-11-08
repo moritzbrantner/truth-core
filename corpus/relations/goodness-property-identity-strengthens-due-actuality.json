@@ -1,10 +1,12 @@
 {
-  "id": "REL-GOODNESS-PROPERTY-IDENTITY-STRENGTHENS-DUE-ACTUALITY",
+  "id": "92603105-7622-5c35-aef2-f005d7fa36d4",
+  "label": "Stronger intensional proposition: the… strengthens For every bearer and perfection in the…",
+  "legacy_id": "REL-GOODNESS-PROPERTY-IDENTITY-STRENGTHENS-DUE-ACTUALITY",
   "subject_kind": "statement",
-  "subject_id": "STMT-GOODNESS-DUE-ACTUALITY-PROPERTY-IDENTITY",
+  "subject_id": "d742a8cd-45e2-5292-88ba-cedd482cbf45",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-GOODNESS-DUE-TO-FORM-AND-END",
-  "verification_result_id": "GOODNESS-PROPERTY-IDENTITY-ENTAILS-DUE-ACTUALITY",
+  "object_id": "6cc47d1b-4840-54e1-b96b-d389d74fbbf4",
+  "verification_result_id": "826023e5-670e-5afc-8619-8f329eff6008",
   "note": "Same supplied profile/presentation. Property identity entails coextension; the fixed Bool property presentation in GOODNESS-FORM-END-BOUNDARIES has coextension with distinct referents, so the reverse is not supplied. No actual property-identity judgment is settled."
 }

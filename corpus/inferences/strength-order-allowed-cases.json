@@ -1,7 +1,9 @@
 {
-  "id": "INF-STRENGTH-ORDER-ALLOWED-CASES",
+  "id": "9a971d15-edc0-5919-85fd-de626375f400",
+  "label": "For every mathematical linear order and shared x,y, y ≥ x holds…, by Typed strength comparison",
+  "legacy_id": "INF-STRENGTH-ORDER-ALLOWED-CASES",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-STRENGTH-ORDER-ALLOWED-CASES",
+  "output_statement_id": "4ea089d2-de35-52db-af6b-dee0f1de78c2",
   "rule": "typed_strength_comparison",
   "meaning": "Use pinned Mathlib le_iff_lt_or_eq and equality symmetry to obtain y ≥ x iff y > x or y = x. This disjunction selects no branch.",
   "assumption_statement_ids": [],

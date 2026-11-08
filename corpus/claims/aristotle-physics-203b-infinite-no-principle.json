@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-203B-INFINITE-NO-PRINCIPLE-A",
-  "statement_id": "STMT-INFINITE-HAS-NO-PRINCIPLE",
-  "source_id": "ARIST-PHYS",
+  "id": "58892635-9fe6-58df-84d7-517f0b4725de",
+  "label": "Aristotle, Physics III.4, 203b4-15: An infinite taken as unbounded has no prior principle or…",
+  "legacy_id": "ARIST-PHYS-203B-INFINITE-NO-PRINCIPLE-A",
+  "statement_id": "f126d18c-f56a-59a0-802c-c90f25352c78",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.4, 203b4-15",
   "interpretation": "Dialectical conclusion: an infinite understood as unbounded cannot have a prior principle, because that principle would bound it. The claim records this stage of the argument without attributing a separate infinite substance to Aristotle.",
   "status": "formalized"

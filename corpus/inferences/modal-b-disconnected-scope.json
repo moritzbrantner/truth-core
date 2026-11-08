@@ -1,7 +1,9 @@
 {
-  "id": "INF-MODAL-B-DISCONNECTED-SCOPE",
+  "id": "b94ec17f-02d8-5f2d-9474-22fdfdea3415",
+  "label": "A finite reflexive symmetric frame has actual, possible and necessary full MC at…, by Direct-proof",
+  "legacy_id": "INF-MODAL-B-DISCONNECTED-SCOPE",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-MODAL-B-DISCONNECTED-SCOPE",
+  "output_statement_id": "f56adff4-3029-5d07-9211-dd445c764c3c",
   "rule": "direct-proof",
   "meaning": "Check the separated edge table by constructor cases, compose K full-collapse successor identity at left, and give middle/right positive/negative witnesses at middle. Keep the roots distinct throughout.",
   "assumption_statement_ids": [],

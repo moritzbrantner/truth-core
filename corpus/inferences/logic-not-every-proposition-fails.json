@@ -1,7 +1,9 @@
 {
-  "id": "INF-LOGIC-NOT-EVERY-PROPOSITION-FAILS",
+  "id": "1a24ad40-6b5f-5baa-90f7-9bc9d391f1f6",
+  "label": "Inside Lean logic, ¬. A logical theorem, not a philosophical independence…, by Constructive-proof",
+  "legacy_id": "INF-LOGIC-NOT-EVERY-PROPOSITION-FAILS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-NOT-EVERY-LEAN-PROPOSITION-FAILS",
+  "output_statement_id": "8efdfe70-cb76-575f-a13c-16a35cfb7c9e",
   "rule": "constructive-proof",
   "meaning": "Compose the separately verified existential proof: universal failure would negate its witnessed proposition.",
   "assumption_statement_ids": [],

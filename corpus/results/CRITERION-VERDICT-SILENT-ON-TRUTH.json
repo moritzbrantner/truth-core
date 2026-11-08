@@ -1,6 +1,8 @@
 {
-  "id": "CRITERION-VERDICT-SILENT-ON-TRUTH",
-  "argument_id": "CRITERION-VERDICT-SILENT-ON-TRUTH",
+  "id": "876b08d8-e508-5e59-80c9-219b592fc368",
+  "label": "A criterion's verdict settles nothing about truth: in some TRUTH_CONDITIONAL_LANGUAGE_3 whose frame…",
+  "legacy_id": "CRITERION-VERDICT-SILENT-ON-TRUTH",
+  "argument_id": "2499ad8e-b79f-56d5-907b-f58d36ef2804",
   "challenge_module": "TruthCore.Results.Logic.Verificationism.VerdictSilent.Challenge",
   "solution_module": "TruthCore.Results.Logic.Verificationism.VerdictSilent.Solution",
   "theorem": "TruthCore.Results.Logic.Verificationism.VerdictSilent.criterionVerdictSilentOnTruth",

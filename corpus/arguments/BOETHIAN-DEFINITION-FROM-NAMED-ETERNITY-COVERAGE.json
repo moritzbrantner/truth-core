@@ -1,19 +1,21 @@
 {
-  "id": "BOETHIAN-DEFINITION-FROM-NAMED-ETERNITY-COVERAGE",
+  "id": "cddbd5b0-713b-5bde-9b95-2c70b455d582",
+  "label": "For every being in the supplied duration profile, primitive Eternal…, from named eternity coverage",
+  "legacy_id": "BOETHIAN-DEFINITION-FROM-NAMED-ETERNITY-COVERAGE",
   "premise_statement_ids": [
-    "STMT-PRIMITIVE-ETERNITY-NAMED-DEFINITIONS-COVER",
-    "STMT-PRIMITIVE-ETERNITY-ENDLESS-LIFE-DEFINITION-FAILS"
+    "7b163cd0-989e-5d92-ba3f-9e368001876d",
+    "7d6a77be-86d9-519b-a40f-49f332a2e989"
   ],
-  "conclusion_statement_id": "STMT-PRIMITIVE-ETERNITY-BOETHIAN-DEFINITION",
+  "conclusion_statement_id": "73f4b6c6-ba85-5b1a-9c8a-bf07587de5ce",
   "inference_ids": [
-    "INF-BOETHIAN-DEFINITION-FROM-NAMED-ETERNITY-COVERAGE"
+    "cc31aaa4-f640-571e-80b5-6bed63871cb6"
   ],
   "meaning": "Exact conditional disjunct elimination; requires named coverage and actual negation of endless calibration, not merely failure to prove the latter.",
   "definition_ids": [
-    "DEF-ETERNITY-CALIBRATION-PROFILE",
-    "DEF-BOETHIAN-ETERNAL"
+    "b9cac25b-6e7f-57ff-9d74-21d615912a0e",
+    "5e77da13-998f-56ab-96b7-12731ac95f70"
   ],
   "disambiguation_ids": [
-    "DISAMB-DURATION-SENSE"
+    "6805c9bd-fade-56d1-a034-c7a87d78c343"
   ]
 }

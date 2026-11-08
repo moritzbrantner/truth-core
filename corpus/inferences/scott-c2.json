@@ -1,11 +1,13 @@
 {
-  "id": "INF-SCOTT-C2",
+  "id": "6ecf6cb3-3f67-5330-b204-d2949b442917",
+  "label": "Scott's corollary C2: at every world a GOD_LIKE_5 being exists, by Universal-instantiation",
+  "legacy_id": "INF-SCOTT-C2",
   "input_statement_ids": [
-    "STMT-SCOTT-GOD-LIKE-POSSIBLY-EXISTS",
-    "STMT-SCOTT-GOD-LIKE-NECESSARILY-EXISTS",
-    "STMT-ACCESSIBILITY-SYMMETRIC"
+    "d82dc8d8-3190-53bc-9ffd-f842ec907264",
+    "93824f63-3964-50ec-a029-057102888f72",
+    "938650b0-ff50-5c60-8b70-5b7dc600eaaf"
   ],
-  "output_statement_id": "STMT-SCOTT-GOD-LIKE-ACTUALLY-EXISTS",
+  "output_statement_id": "a6232540-0d24-5ffb-86ae-32134169d6e3",
   "rule": "universal-instantiation",
   "meaning": "AFP C2 (metis T1 T3 G_def sym). By C some v is accessible from w; by T3 at v every world accessible from v has a God-like being, and by symmetry w is one.",
   "assumption_statement_ids": [],

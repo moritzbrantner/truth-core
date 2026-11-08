@@ -1,5 +1,7 @@
 {
-  "id": "DEF-EVENT-ROUTE-EMBEDDING",
+  "id": "71f85be2-298f-523c-b8cd-9c6bc69a4ea3",
+  "label": "EVENT_ROUTE_3: an occurring episode as a…: OccurringEpisodeIsActualConcrete m concrete Occurs embed…",
+  "legacy_id": "DEF-EVENT-ROUTE-EMBEDDING",
   "term": "event route: an occurring episode as a concrete entity",
   "definition": "OccurringEpisodeIsActualConcrete m concrete Occurs embed w means ∀ e, Occurs e → concrete (embed e) ∧ m.ExistsAt w (embed e), for an explicit embed : Episode → E of episodes into the candidate domain. It needs no distinct bearer. Its consequent is the inhabited-world conclusion at the witness embed e, so a proof from it is a transcription (AGENTS.md invariant 16); an inhabited Episode type alone gives no concrete entity.",
   "basis": "stipulative",

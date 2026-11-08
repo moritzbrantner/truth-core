@@ -1,6 +1,8 @@
 {
-  "id": "AQUINAS-ST-I-Q3-Q11-REMAINING",
-  "source_id": "AQUINAS-ST",
+  "id": "20c7c4f9-5c1e-5e5f-a983-35424c0ff16c",
+  "label": "Defend or challenge the two open premises of ST I q.3 a.4's first proof against brute…",
+  "legacy_id": "AQUINAS-ST-I-Q3-Q11-REMAINING",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.3 a.3",
   "priority": 470,
   "goal": "Defend or challenge the two open premises of ST I q.3 a.4's first proof (exhaustiveness of efficient causes of distinct esse; exclusion of efficient self-causation by essential principles) against brute, intrinsic-noncausal, and global explanations. Its conditional reconstruction and premise-omission models are formalized; they do not establish causal exhaustiveness. Separately formalize q.3 a.3's demonstration of God being his essence (the conclusion is attributed and reused by the Q11 nature/individuation argument), a.5, a.6 and a.8; the third proof of a.1 (from nobility); the three proofs of a.2 (matter as potency, goodness by participation, first agent as form); q.3 a.4's remaining act/potency and participation proofs, requiring principle-level potency and the second way/q.3 a.3; q.3 a.7's third/fourth proofs and the enumeration claim of its first; and q.11 a.3's third proof (world order). The Q11 first proof is conditional on three sourced but undefended nature/individuation commitments, with separate omission models.",

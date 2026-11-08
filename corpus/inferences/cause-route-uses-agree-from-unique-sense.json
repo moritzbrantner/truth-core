@@ -1,10 +1,12 @@
 {
-  "id": "INF-CAUSE-ROUTE-USES-AGREE-FROM-UNIQUE-SENSE",
+  "id": "65cc2b89-f510-5fad-836c-76b59006ac47",
+  "label": "Every use of 'cause' on the route stands for one and the same…, by Existential elimination…",
+  "legacy_id": "INF-CAUSE-ROUTE-USES-AGREE-FROM-UNIQUE-SENSE",
   "input_statement_ids": [
-    "STMT-CAUSE-SENSES-EXHAUSTIVE",
-    "STMT-CAUSE-SENSE-UNIQUE"
+    "048eac8a-c325-52ad-9627-3f5431eea846",
+    "4515cf2b-4938-5588-80e8-fd50bf5bd84d"
   ],
-  "output_statement_id": "STMT-CAUSE-ROUTE-USES-AGREE",
+  "output_statement_id": "94cd5441-88fe-5550-9b5f-b57abe37dc3d",
   "rule": "Existential elimination, uniqueness, transitivity of equality",
   "meaning": "Coverage and exclusivity block equivocation on 'cause': each use is the relation of a selected sense, and only one sense is selected, so all uses stand for one relation. The controls give a model in which coverage holds, exclusivity fails and two uses differ.",
   "assumption_statement_ids": [],

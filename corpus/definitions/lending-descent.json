@@ -1,5 +1,7 @@
 {
-  "id": "DEF-LENDING-DESCENT",
+  "id": "78c935a3-6faa-5b33-9931-2bee1f346c43",
+  "label": "LENDING_DESCENT_2, chain, regress and…: Descent m I e D says e is in D, each member occurs and has…",
+  "legacy_id": "DEF-LENDING-DESCENT",
   "term": "lending descent, chain, regress and circle",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Explanation.BorrowedExercise.Descent",

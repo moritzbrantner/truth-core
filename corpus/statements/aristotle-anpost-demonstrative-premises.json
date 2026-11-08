@@ -1,12 +1,14 @@
 {
-  "id": "STMT-ARISTOTLE-ANPOST-DEMONSTRATIVE-PREMISES",
+  "id": "d480c2cb-3c47-51ad-bf0c-24615b2afb23",
+  "label": "Aristotelian SCIENTIFIC_DEMONSTRATION_1 requires true, primary, immediate premises that are prior…",
+  "legacy_id": "STMT-ARISTOTLE-ANPOST-DEMONSTRATIVE-PREMISES",
   "paraphrase": "Aristotelian scientific demonstration requires true, primary, immediate premises that are prior, better known and explanatory of the conclusion; syllogistic consequence without these conditions does not by itself produce scientific knowledge.",
   "definition_ids": [
-    "DEF-ARISTOTLE-ANPOST-DEMONSTRATION",
-    "DEF-ARISTOTLE-ANPOST-IMMEDIATE-PRINCIPLE",
-    "DEF-ARISTOTLE-ANPOST-PRIORITY"
+    "a5c9be24-4211-5d0d-b652-20c7ceb47190",
+    "34e6203c-9ba6-58c8-9f2e-8c5e2c884783",
+    "6d2e443d-bb1b-56c1-b9d9-bbb55a8c00d6"
   ],
   "disambiguation_ids": [
-    "DISAMB-ARISTOTLE-ANPOST-DEMONSTRATION-AND-ENTITLEMENT"
+    "d2e881ec-805f-5fdf-b22c-1ecad65efc32"
   ]
 }

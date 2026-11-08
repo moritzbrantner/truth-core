@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CC100-84-FACT-UNITIES",
+  "id": "0212e70d-3c68-537f-b780-09fdad214f1b",
+  "label": "Facts exist and are unities of constituents",
+  "legacy_id": "STMT-CC100-84-FACT-UNITIES",
   "paraphrase": "Facts exist and are unities of constituents.",
   "definition_ids": [
-    "DEF-CC100-84-FACT-UNIFIER"
+    "5b2623de-6bc4-5d2c-9bc2-97c49681ae37"
   ],
   "disambiguation_ids": [
-    "DISAMB-CC100-84-UNIFIER-MODAL-SCOPE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "31b6bdd8-94c6-5967-9154-b5465ee5b351",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

@@ -1,9 +1,11 @@
 {
-  "id": "INF-BRIDGE-SCG-INNOVATING-CAUSE-TIMAEUS-DISTINCT-CAUSE",
+  "id": "96b9d51c-2b59-5d8a-bd1c-cdf122d5fd66",
+  "label": "Anything that comes to be has some distinct CAUSE_2, by Schema-instantiation",
+  "legacy_id": "INF-BRIDGE-SCG-INNOVATING-CAUSE-TIMAEUS-DISTINCT-CAUSE",
   "input_statement_ids": [
-    "STMT-WHAT-COMES-TO-BE-ANEW-HAS-INNOVATING-CAUSE"
+    "882e3f88-bf2b-5fee-828b-8f7980268503"
   ],
-  "output_statement_id": "STMT-CAUSE-PRINCIPLE-DISTINCT",
+  "output_statement_id": "9709d14f-1324-58f1-8889-1110881c5b44",
   "rule": "schema-instantiation",
   "meaning": "The SCG I.13 principle is the Timaeus distinct-cause schema with coming to be read as coming to be anew and causing as causing the origin. A transcription: the conclusion is the premise at that instance.",
   "assumption_statement_ids": [],

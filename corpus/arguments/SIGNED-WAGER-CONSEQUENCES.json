@@ -1,15 +1,17 @@
 {
-  "id": "SIGNED-WAGER-CONSEQUENCES",
+  "id": "f1dac64f-934c-5d26-a0f6-9518a1abd590",
+  "label": "Signed finite costs do not prevent top expected utility when a single rewarded policy has positive…",
+  "legacy_id": "SIGNED-WAGER-CONSEQUENCES",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-SIGNED-WAGER-CONSEQUENCES",
+  "conclusion_statement_id": "0439b0b6-aa6b-51ca-804a-6f933c9624df",
   "inference_ids": [
-    "INF-SIGNED-WAGER-CONSEQUENCES"
+    "ed20babf-6bfe-5985-a249-8bb2d3f7b9e4"
   ],
   "meaning": "Signed finite costs do not prevent top expected utility when a single rewarded policy has positive prior and a positively weighted act. With two complementary incompatible reward policies, both with positive priors, every probability mixture attains top. Zero prior/action controls are finite, and opposing infinite utility contributions produce undefined expectation. The previous nonnegative mixture certificate is reused, not counted as a new result.",
   "definition_ids": [
-    "DEF-SIGNED-WAGER"
+    "2abb061e-1a0e-5d69-a19e-a017cc0fa7e1"
   ],
   "disambiguation_ids": [
-    "DISAMB-SIGNED-WAGER-ACT-TRUTH"
+    "69f3208b-951a-54f6-a52e-6e933f878985"
   ]
 }

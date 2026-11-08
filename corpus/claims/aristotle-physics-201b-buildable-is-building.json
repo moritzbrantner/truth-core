@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-201B-BUILDABLE-IS-BUILDING-A",
-  "statement_id": "STMT-BUILDABLE-ACTUALITY-IS-BUILDING",
-  "source_id": "ARIST-PHYS",
+  "id": "a8b37cbc-2e9b-5ee1-97f6-83eccb41cb7d",
+  "label": "Aristotle, Physics III.1, 201b9-15: The actuality of the buildable precisely qua buildable is the…",
+  "legacy_id": "ARIST-PHYS-201B-BUILDABLE-IS-BUILDING-A",
+  "statement_id": "bd4d89fa-a3c0-5bd7-85f0-a7b8213c653d",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.1, 201b9-15",
   "interpretation": "Conclusion of the buildable example: the actuality of the buildable qua buildable is building. The nearby statement that building is a kind of motion connects the example back to the general definition without identifying the completed product with the motion.",
   "status": "formalized"

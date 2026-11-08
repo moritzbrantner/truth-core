@@ -1,5 +1,7 @@
 {
-  "id": "DEF-FINITE-PRODUCT-VALIDATION",
+  "id": "11da445b-7c92-546d-b51e-5951a1caed76",
+  "label": "Finite predeclared-pool zero-error…: On a finite discrete measurable domain Ω, μ is an arbitrary…",
+  "legacy_id": "DEF-FINITE-PRODUCT-VALIDATION",
   "term": "finite predeclared-pool zero-error validation",
   "definition": "On a finite discrete measurable domain Ω, μ is an arbitrary normalized deployment probability measure; truth and each hypothesis map Ω to Bool. error μ truth h is μ of disagreement. passes truth h n is agreement at all n coordinates of a sample. sampling μ n is Mathlib Measure.pi of n copies of μ. falseAcceptance is existence of a pool member with error strictly above epsilon and no sample disagreements. The finite pool is fixed independently of validation data; sampling and deployment use the same μ. ENNReal thresholds are nonnegative by type and the advertised risk bound requires epsilon≤1. No candidate is assumed good, and a selection procedure may abstain if none passes.",
   "basis": "stipulative",

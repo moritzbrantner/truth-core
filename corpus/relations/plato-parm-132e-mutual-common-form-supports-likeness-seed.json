@@ -1,9 +1,11 @@
 {
-  "id": "REL-PLATO-PARM-132E-MUTUAL-COMMON-FORM-SUPPORTS-LIKENESS-SEED",
+  "id": "931b49e5-5e5e-516d-9ac8-57e6a0ccc556",
+  "label": "Plato, Parmenides 132d–e: Parmenides… supports An admitted likeness quality has an…",
+  "legacy_id": "REL-PLATO-PARM-132E-MUTUAL-COMMON-FORM-SUPPORTS-LIKENESS-SEED",
   "subject_kind": "claim",
-  "subject_id": "PLATO-PARM-132E-MUTUAL-COMMON-FORM",
+  "subject_id": "947305bf-5919-5d9d-9c01-2fe6207cacf6",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-THIRD-MAN-LIKENESS-SEED",
+  "object_id": "41fb5030-c742-5885-8d96-e31c76745083",
   "note": "Source motivation only. The independent statement deliberately exposes the universal scope/quantifiers needed by the research reconstruction; this edge is not an inference, a truth endorsement, or premise closure."
 }

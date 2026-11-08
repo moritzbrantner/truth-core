@@ -1,9 +1,11 @@
 {
-  "id": "INF-NOTHING-CAUSES-ITS-OWN-BEING-FROM-PERFECTION",
+  "id": "2a47a007-4154-5399-80a3-b7021de9cf3d",
+  "label": "UNITING-CAUSE_3, by Universal instantiation",
+  "legacy_id": "INF-NOTHING-CAUSES-ITS-OWN-BEING-FROM-PERFECTION",
   "input_statement_ids": [
-    "STMT-NOTHING-CAUSES-ITS-OWN-PERFECTION"
+    "0a0c841c-5ebf-5f39-946b-0655a3c2ab57"
   ],
-  "output_statement_id": "STMT-NOTHING-CAUSES-ITS-OWN-BEING",
+  "output_statement_id": "b62a64ab-ac11-569a-b8e8-de51a74b058f",
   "rule": "Universal instantiation",
   "meaning": "Strength order within UNITING-CAUSE_3 / BECOMING-BEING-CAUSE_3: nothing causes a perfection in itself implies nothing causes its own being (r = esse). The strong version is conditionally refuted (SELF-PERFECTING-SUBJECT-REFUTES-NO-SELF-PERFECTION); the weak version survives that refutation.",
   "assumption_statement_ids": [],

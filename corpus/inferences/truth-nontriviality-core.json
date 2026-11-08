@@ -1,7 +1,9 @@
 {
-  "id": "INF-TRUTH-NONTRIVIALITY-CORE",
+  "id": "0192270f-5e4b-5e82-90b5-b3ea825158d6",
+  "label": "For every content type, predicate and negation operator: an expressive…, by Constructive-proof",
+  "legacy_id": "INF-TRUTH-NONTRIVIALITY-CORE",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-TRUTH-NONTRIVIALITY-CORE",
+  "output_statement_id": "61f64a70-27c6-521b-babb-0d54b43e412a",
   "rule": "constructive-proof",
   "meaning": "Transport the Prop theorem to a predicate through Expressive; derive the negation factorization from the predicate's own negation; compose the disquotation theorem with capture.",
   "assumption_statement_ids": [],

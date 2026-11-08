@@ -1,17 +1,19 @@
 {
-  "id": "DISAMB-SCOPED-PROOF-STANDARD-AND-THEOLOGICAL-DOMAIN",
+  "id": "d1404b24-44d6-5696-ad47-2907a0184be4",
+  "label": "Provable and theological: proof standard and domain restriction",
+  "legacy_id": "DISAMB-SCOPED-PROOF-STANDARD-AND-THEOLOGICAL-DOMAIN",
   "term": "provable and theological: proof standard and domain restriction",
   "sense_definition_ids": [
-    "DEF-SCOPED-PROOF-INQUIRIES",
-    "DEF-THEOLOGICAL-SUBJECT-DEFINITION",
-    "DEF-THEOLOGICAL-PREMISE-DEFINITION",
-    "DEF-THEOLOGICAL-METHOD-DEFINITION",
-    "DEF-PROOF-DOMAIN-COVERAGE",
-    "DEF-EMPIRICAL-OBSERVATION-BARRIER",
-    "DEF-SCOPED-EMPIRICAL-PROOF-DENIAL",
-    "DEF-EMPIRICAL-BARRIER-COVERAGE",
-    "DEF-EMPIRICAL-BEGINNING-QUESTION-CONTROL",
-    "DEF-CONCLUSIVE-VERIFIABILITY"
+    "0a521f5a-275b-5acc-8185-4406fbd43d5d",
+    "0d1bdee6-b830-5d65-a4bb-e54e151b81d7",
+    "a1701dbf-3564-5771-b3cf-e176795d1519",
+    "38283269-9669-58a6-8500-83d76ff4e4fc",
+    "df37b419-4264-583e-8860-338e583c3863",
+    "59abe96c-f4aa-557f-beb0-9c33a2e01ec1",
+    "ef5d3c88-46a0-5889-9f98-a06be32c327a",
+    "4418a4c9-c5fd-5966-b5a5-21a42fcd0901",
+    "7487ada7-a514-5287-aebf-a4ed32c43481",
+    "bd8abce7-0de2-528a-b7dd-f8418398846b"
   ],
   "resolution": "Finite satisfiable observation entailment reuses ConclusivelyVerifiable, one empirical proof standard. Arbitrary semantic consequence from given premises is separate; neither is independently warranted demonstration or every theological proof. The q46a2 world-beginning source statement is not redefined or claimed proved. Subject, presented revelation premises and declared method are independent typed domain criteria, not theological:=unverifiable. Every named class has a proof-positive tautology in the control. Selected beginning restriction is separate and not all theology. T→ObservationBarrier is explicit before restricted proof denial follows. Existing Norm.selfApplication applies to a real metaclaim only with its actual scope/representation witness; no automatic theological self-membership follows. Named domain/barrier coverage stay open, with explicit genuine remaining-domain and additional-barrier alternatives. Hume Assessment theology withholding is an entitlement verdict, not a proof-impossibility theorem. See docs/notes/scoped-empirical-proof-barrier.md."
 }

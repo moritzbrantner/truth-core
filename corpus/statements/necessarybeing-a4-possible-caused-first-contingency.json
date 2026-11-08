@@ -1,17 +1,19 @@
 {
-  "id": "STMT-NB-A4-POSSIBLE-CAUSED-FIRST-CONTINGENCY",
+  "id": "a958d6d6-397c-5762-b607-2c7f82fee038",
+  "label": "Still within the no-possible-Necessary-Being supposition and the reported opportunities, the…",
+  "legacy_id": "STMT-NB-A4-POSSIBLE-CAUSED-FIRST-CONTINGENCY",
   "paraphrase": "Still within the no-possible-Necessary-Being supposition and the reported opportunities, the source treats being contingent as a property that can first be exemplified and can have a caused bearer, then applies the universal property-transfer report to infer possible caused first exemplification of contingency. Contingency-as-P admissibility and its consistent intension across the separate histories are substantive application obligations. This is not an unconditional causal-opportunity conclusion and does not combine worlds or witnesses by mere conjunction.",
   "definition_ids": [
-    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
-    "DEF-NB-SURVEY-NECESSARY-BEING",
-    "DEF-NB-A3-EVENT-AND-CAUSE",
-    "DEF-NB-A3-FIRST-CONTINGENT-TRANSITION",
-    "DEF-NB-A4-PROPERTY-AND-INSTANCE",
-    "DEF-NB-A4-FIRST-EXEMPLIFICATION"
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0",
+    "7fde5dc0-6ca7-5ce6-a2e1-571acfd15dcf",
+    "c82c1e14-50bd-555c-82ef-007c8bb10cc5",
+    "86143f0e-c246-59d8-a775-4003173e254f",
+    "a6885928-bd3d-5ec6-b89a-6fc0ef88aaaa",
+    "6c717105-e9e1-58ef-9342-22b0c1b53be2"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A4-PROPERTY-TRANSFER-SCOPE",
-    "DISAMB-NB-A3-EVENT-CAUSE-SCOPE",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "130ced63-088b-531d-82b5-3cd1ed1e304c",
+    "82cfe4a1-7f82-5453-ab75-cde5474121e8",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

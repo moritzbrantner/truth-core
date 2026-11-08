@@ -1,6 +1,8 @@
 {
-  "id": "NOT-ACT-AND-POTENCY-FROM-SCOTIST-REFUTATION",
-  "argument_id": "NOT-ACT-AND-POTENCY-FROM-SCOTIST-REFUTATION",
+  "id": "e10801cc-dc1e-5595-818b-dec1b373697c",
+  "label": "Nothing is simultaneously in act and in POTENCY_1 in the same respect…, from scotist refutation",
+  "legacy_id": "NOT-ACT-AND-POTENCY-FROM-SCOTIST-REFUTATION",
+  "argument_id": "5d8b78ad-55da-5018-bb55-d4a9e59a4e44",
   "challenge_module": "TruthCore.Results.Causality.RootWiring.Challenge",
   "solution_module": "TruthCore.Results.Causality.RootWiring.Solution",
   "theorem": "TruthCore.Results.Causality.RootWiring.notActAndPotencyFromRefutation",

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-CAUSAL-EXISTENTIAL-INTENDED-PROFILE",
+  "id": "80402004-9797-5289-ad11-79648945871f",
+  "label": "Required causal interpretation…: IntendedProfile contains the unchanged…",
+  "legacy_id": "DEF-CAUSAL-EXISTENTIAL-INTENDED-PROFILE",
   "term": "required causal interpretation contract for intended existential-grounding profiles",
   "definition": "IntendedProfile contains the unchanged BruteFoundationBoundary.Profile as underlying, an independent abstract classifier and world-indexed thin causal-power predicate, and REQUIRED evidence of abstract/concrete disjointness, actual presence of power bearers and of both causal endpoints, actual outgoing Ontic.Causes implying thin causal power, and the owner commitment that thin causal power implies concrete status at every represented world. P2At and P3At take this wrapper and use the SAME underlying existential-grounding relation. The exercise-to-power requirement fixes the intended interpretation; power-to-concrete is an explicit philosophical framework input, not a theorem about arbitrary predicates.",
   "basis": "stipulative",

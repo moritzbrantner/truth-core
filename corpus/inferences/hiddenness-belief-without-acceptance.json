@@ -1,7 +1,9 @@
 {
-  "id": "INF-HIDDENNESS-BELIEF-WITHOUT-ACCEPTANCE",
+  "id": "3ebdd2db-05b5-5dd0-bef9-a39492ffeaa7",
+  "label": "A finite interpretation has belief that God exists without accepting…, by Finite model construction",
+  "legacy_id": "INF-HIDDENNESS-BELIEF-WITHOUT-ACCEPTANCE",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-HIDDENNESS-BELIEF-WITHOUT-ACCEPTANCE",
+  "output_statement_id": "941d754f-600d-5ac7-9fd5-4f2b109a49b9",
   "rule": "finite model construction",
   "meaning": "Construct a late-time believer who does not accept a relationship. Belief and voluntary response remain distinct; no theorem that every manner of revelation preserves freedom is claimed.",
   "assumption_statement_ids": [],

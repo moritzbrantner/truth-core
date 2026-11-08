@@ -1,6 +1,8 @@
 {
-  "id": "GOODNESS-SUPPORT-EQUIVALENT-TO-CORRECT-COVERAGE",
-  "argument_id": "GOODNESS-SUPPORT-EQUIVALENT-TO-CORRECT-COVERAGE",
+  "id": "7182ccf9-5ea0-56c5-8e4d-b57f2500d29e",
+  "label": "Conditional existential named support is equivalent to coverage of every admissible CORRECT…",
+  "legacy_id": "GOODNESS-SUPPORT-EQUIVALENT-TO-CORRECT-COVERAGE",
+  "argument_id": "06712ae0-e529-5c76-892e-83fc34d5e2e7",
   "challenge_module": "TruthCore.Results.Metaethics.GoodnessCorrectSupport.CorrectCoverage.Challenge",
   "solution_module": "TruthCore.Results.Metaethics.GoodnessCorrectSupport.CorrectCoverage.Solution",
   "theorem": "TruthCore.Results.Metaethics.GoodnessCorrectSupport.CorrectCoverage.supportCoverageEquivalence",

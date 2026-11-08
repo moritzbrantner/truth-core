@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MODAL-FIXTURE-EXTENSIONALITY",
+  "id": "6d8a58a6-97f4-57f7-824f-c1c2c5d08d6c",
+  "label": "WORLD_PROPOSITIONAL_EXTENSIONALITY_5: PropositionalExtensionality D means agreement on D implies\u2026",
+  "legacy_id": "DEF-MODAL-FIXTURE-EXTENSIONALITY",
   "term": "world propositional extensionality",
   "definition": "PropositionalExtensionality D means agreement on D implies equality of world labels. This is an explicit independent premise for restricted domains, not Lean propext. Calling these complete propositions is an additional metaphysical interpretation not supplied by the fixture. The separate excluded-middle hypothesis reuses TruthCore.Logic.ExcludedMiddle, meaning \u2200 p : Prop, p \u2228 \u00ac p; it is not asserted by the fixture.",
   "basis": "stipulative",

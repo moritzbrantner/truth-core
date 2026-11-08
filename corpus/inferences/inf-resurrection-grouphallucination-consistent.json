@@ -1,7 +1,9 @@
 {
-  "id": "INF-RESURRECTION-GROUPHALLUCINATION-CONSISTENT",
+  "id": "1688f67d-c708-5b9a-9134-f7a821fddc12",
+  "label": "The limited GroupHallucination pilot bundle is jointly satisfiable with E0–E5, by Constructive-model",
+  "legacy_id": "INF-RESURRECTION-GROUPHALLUCINATION-CONSISTENT",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-RESURRECTION-GROUPHALLUCINATION-CONSISTENT",
+  "output_statement_id": "75fdfbe7-f988-570a-8f79-7b0cd09e39c3",
   "rule": "constructive-model",
   "meaning": "Exhibit model and check every conjunct of the advertised limited theory bundle.",
   "assumption_statement_ids": [],

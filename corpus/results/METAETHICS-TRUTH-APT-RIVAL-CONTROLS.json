@@ -1,6 +1,8 @@
 {
-  "id": "METAETHICS-TRUTH-APT-RIVAL-CONTROLS",
-  "argument_id": "METAETHICS-TRUTH-APT-RIVAL-CONTROLS",
+  "id": "6b47d826-33f2-579c-9e79-d53825ff59f6",
+  "label": "Two already constructed finite witnesses show: with no moral contents, both raw quasi-realist and…",
+  "legacy_id": "METAETHICS-TRUTH-APT-RIVAL-CONTROLS",
+  "argument_id": "1ff1d7b4-16e0-5182-a91e-2c9c60d57db1",
   "challenge_module": "TruthCore.Results.Logic.MetaethicsTruthAptRivalBoundary.Controls.Challenge",
   "solution_module": "TruthCore.Results.Logic.MetaethicsTruthAptRivalBoundary.Controls.Solution",
   "theorem": "TruthCore.Results.Logic.MetaethicsTruthAptRivalBoundary.Controls.controls",

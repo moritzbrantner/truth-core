@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-ROWE-SUFFERING-AND-CULPA",
+  "id": "008747c9-744a-581c-adad-570e834abb4e",
+  "label": "Evil",
+  "legacy_id": "DISAMB-ROWE-SUFFERING-AND-CULPA",
   "term": "evil",
   "sense_definition_ids": [
-    "DEF-ROWE-INTENSE-SUFFERING",
-    "DEF-CULPA-AS-VOLUNTARY-OPERATION-DEFECT"
+    "086f1ece-8e43-5363-97cd-2d165e7dc3ed",
+    "c1843452-7896-550a-916d-c5c31b78a930"
   ],
   "resolution": "Rowe’s intense-suffering event can include natural suffering such as the forest-fire fawn. Culpa requires a due operation under voluntary control and an operational defect. Privative evil concerns due goods in subjects. No theorem identifies these carriers or infers moral fault, a truth-apt evaluative sentence, or objective moral realism from a suffering event. Rowe’s permission constraint is an evaluative principle separate from suffering’s occurrence."
 }

@@ -1,20 +1,22 @@
 {
-  "id": "MAXIMAL-BEING-EXCLUDES-DISTINCT-ESSE-CAUSE",
+  "id": "8bbe817d-f798-57eb-b9d9-b9b9bcc677f4",
+  "label": "Every maximum in being excludes a distinct cause…, from Whatever causes a quality in another thing…",
+  "legacy_id": "MAXIMAL-BEING-EXCLUDES-DISTINCT-ESSE-CAUSE",
   "premise_statement_ids": [
-    "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH"
+    "d5a94eb1-72d2-53e0-9a52-9787b5b61a8d"
   ],
-  "conclusion_statement_id": "STMT-MAXIMUM-HAS-NO-DISTINCT-ESSE-CAUSE",
+  "conclusion_statement_id": "18561596-1269-53ff-8505-c56e4348e335",
   "inference_ids": [
-    "INF-MAXIMAL-BEING-EXCLUDES-DISTINCT-ESSE-CAUSE"
+    "056e6fda-c5b0-5e7b-b46f-c4e19c1587bc"
   ],
   "meaning": "Every maximum in being excludes a distinct cause of its being in the existing CausesIn relation: causal comparison would make that cause more in being, contrary to maximality. This does not exclude self-causation or arbitrary sustaining/withdrawal/modal power. The finite omission model verifies that maximality alone does not give this exclusion.",
   "definition_ids": [
-    "DEF-MAXIME-ENS",
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-ESSE"
+    "a2a8de58-42e0-5481-b7fb-848ae8602036",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
   ],
   "disambiguation_ids": [
-    "DISAMB-MAXIME-ENS",
-    "DISAMB-BEING"
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282",
+    "3b0d67c5-59e4-5556-a728-26bd567f0fb1"
   ]
 }

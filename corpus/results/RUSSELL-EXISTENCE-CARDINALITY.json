@@ -1,6 +1,8 @@
 {
-  "id": "RUSSELL-EXISTENCE-CARDINALITY",
-  "argument_id": "RUSSELL-EXISTENCE-CARDINALITY",
+  "id": "bfbd32c9-f0a4-5e47-b08d-d3635b5eb721",
+  "label": "The finite zero/one/two extensions have the advertised multiplicities; nonempty one- and…",
+  "legacy_id": "RUSSELL-EXISTENCE-CARDINALITY",
+  "argument_id": "f58139d5-e3ff-5247-bd95-682af62d1e3a",
   "challenge_module": "TruthCore.Results.Modern.Russell.Cardinality.Challenge",
   "solution_module": "TruthCore.Results.Modern.Russell.Cardinality.Solution",
   "theorem": "TruthCore.Results.Modern.Russell.Cardinality.checks",

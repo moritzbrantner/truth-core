@@ -1,12 +1,14 @@
 {
-  "id": "STMT-CC100-124-CONDITIONAL-COMMON-TRUTH-KNOWER",
+  "id": "e479285f-da94-5b5f-90fa-458c06a842bd",
+  "label": "Under the preceding knowability, actual-knowledge and common-knower commitments, there is someone…",
+  "legacy_id": "STMT-CC100-124-CONDITIONAL-COMMON-TRUTH-KNOWER",
   "paraphrase": "Under the preceding knowability, actual-knowledge and common-knower commitments, there is someone who knows every truth.",
   "definition_ids": [
-    "DEF-CC100-124-KNOWABILITY-KNOWER"
+    "baca53c3-3a52-559d-989f-78fb8400824f"
   ],
   "disambiguation_ids": [
-    "DISAMB-CC100-124-TRUTH-COMMON-KNOWER",
-    "DISAMB-REASON-EPISTEMIC-ONTIC",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "6cee2bde-0599-53c0-a41a-39220144f3ca",
+    "a61d3807-50e9-595e-9011-9123fd606a4b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

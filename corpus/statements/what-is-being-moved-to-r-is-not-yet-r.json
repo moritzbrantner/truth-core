@@ -1,13 +1,15 @@
 {
-  "id": "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-NOT-YET-R",
+  "id": "811fe80c-3bdd-5e41-9f1b-f94bec9178ef",
+  "label": "What is being moved toward r is not yet actually r: MOTION_1 is an incomplete actuality",
+  "legacy_id": "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-NOT-YET-R",
   "paraphrase": "What is being moved toward r is not yet actually r: motion is an incomplete actuality.",
   "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.MovedNotYetInActReading",
   "definition_ids": [
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-RESPECT",
-    "DEF-ACT"
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168"
   ],
   "disambiguation_ids": [
-    "DISAMB-IN-ACT"
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
   ]
 }

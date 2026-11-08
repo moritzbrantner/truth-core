@@ -1,16 +1,18 @@
 {
-  "id": "NB-SURVEY-A5-POSSIBILITY-INVARIANCE",
-  "statement_id": "STMT-NB-A2-POSSIBILITY-INVARIANCE",
-  "source_id": "NECESSARYBEING-SURVEY",
+  "id": "bacf00b1-dc6e-55f2-8b7a-628178268dd6",
+  "label": "Unattributed website author, Necessary…: For any individually possible situations X and Y, if X… (5)",
+  "legacy_id": "NB-SURVEY-A5-POSSIBILITY-INVARIANCE",
+  "statement_id": "864efc2d-2362-54ec-a684-33cd93e594f9",
+  "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
   "locator": "A5P2, complete individually-possible X/Y question, examples and non-joint-possibility note",
   "interpretation": "The question text exactly matches A3P3 and has the existing A2 report’s meaning, so reuse the proposition rather than creating another modal input. Reports remain conditional, not actual assent. The ordinary A5C suffix repeats the existing modal reasoning; no S5/frame proof, source-definition N-to-Box-N identity or rigid individual is thereby established.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
-    "DEF-NB-SURVEY-NECESSARY-BEING"
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0",
+    "7fde5dc0-6ca7-5ce6-a2e1-571acfd15dcf"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-SURVEY-POSSIBILITY",
-    "DISAMB-NB-A5-SITUATION-HISTORY-CAUSAL-SCOPE"
+    "23eecaf1-749b-5c41-8671-10d061b20a3f",
+    "54e516bf-f2e6-5b50-84fc-f74b34198bce"
   ]
 }

@@ -1,10 +1,12 @@
 {
-  "id": "INF-NATURALISM-PURE-SET-REPRESENTATIVES-ABSENT",
+  "id": "ce5ebf05-c3d0-50f6-9061-55e919642ace",
+  "label": "No right-summand set representative exists at the selected world in the…, by Constructive-proof",
+  "legacy_id": "INF-NATURALISM-PURE-SET-REPRESENTATIVES-ABSENT",
   "input_statement_ids": [
-    "STMT-NATURALISM-N1",
-    "STMT-SET-LOCATION-HAS-MEMBER-SUPPORT"
+    "f54cc1ad-8913-52ec-abf1-be30f76a03bc",
+    "bcbfc8d8-eb60-5111-bc5b-d33c76492a5e"
   ],
-  "output_statement_id": "STMT-NO-EXISTING-SET-REPRESENTATIVES",
+  "output_statement_id": "0fd6f62e-c968-5619-8e60-7f70baee6c39",
   "rule": "constructive-proof",
   "meaning": "Compose the imported checked pure-set unlocation theorem with occupant N1 at a proposed existing right-summand representative. This excludes object-level set representatives under the explicit support criterion, not Lean mathematical inhabitants. The criterion and N1 remain open.",
   "assumption_statement_ids": [],

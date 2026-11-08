@@ -1,10 +1,12 @@
 {
-  "id": "STMT-SPACE-AS-ORDER-OF-COEXISTENCE",
+  "id": "1f56b796-dd74-568f-8163-6a4ba8bc7443",
+  "label": "Leibniz takes space as relative order of coexistences, considering coexisting things together…",
+  "legacy_id": "STMT-SPACE-AS-ORDER-OF-COEXISTENCE",
   "paraphrase": "Leibniz takes space as relative order of coexistences, considering coexisting things together without thereby specifying their manner of existence.",
   "definition_ids": [
-    "DEF-LEIBNIZ-RELATIONAL-SPACE"
+    "103154b6-9ee2-5851-9c07-1e6d9e7d0ed1"
   ],
   "disambiguation_ids": [
-    "DISAMB-SPATIAL-DATA-IDENTITY"
+    "38b56008-c4ca-5fd9-9a61-046338e87cf7"
   ]
 }

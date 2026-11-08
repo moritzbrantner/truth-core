@@ -1,11 +1,13 @@
 {
-  "id": "INF-CATHOLICISM-MESSAGE-RIVAL-EXCLUDED-BY-ATTESTATION",
+  "id": "31c7c1e4-4778-514e-a385-e74aaae66a94",
+  "label": "For any being g: if Jesus holds a mandate from g, founded the Catholic Church…, by Direct-proof",
+  "legacy_id": "INF-CATHOLICISM-MESSAGE-RIVAL-EXCLUDED-BY-ATTESTATION",
   "input_statement_ids": [
-    "STMT-CHURCH-FOUNDED-IN-COMMISSIONED-APOSTLES",
-    "STMT-JOHN-COMMISSION-INDEPENDENT-OF-MATTHEW",
-    "STMT-HEAVEN-RATIFIED-ATTESTATION-CRITERION"
+    "820771a7-1173-510f-88ec-445b203fb1fd",
+    "e2dfc958-eccf-549a-897e-fbb85b5b1b67",
+    "067cd417-4570-5684-a514-d9af55267442"
   ],
-  "output_statement_id": "STMT-MESSAGE-RIVAL-EXCLUDED-GIVEN-FOUNDING",
+  "output_statement_id": "eabdd148-02f5-54bd-97f9-5c3870cbe7db",
   "rule": "direct-proof",
   "meaning": "Fix g with HoldsMandate jesus g, suppose Jesus founded the Catholic Church and it is visible with authority, and suppose the message rival. By the independence premise, John 20 is independent of Matthew 18 or of Matthew 16; John 20 names forgiving and retaining, and Matthew 18 and 16 name binding and loosing, all heaven-ratified (DEF-HEAVEN-RATIFIED-POWER), so the antecedent of the criterion holds and Jesus gave some heaven-ratified power. Every heaven-ratified power is governing (CommissionAttestation.heavenRatified_governing), so the link premise at g gives FoundedInMandate jesus g catholicChurch, which the rival at g and the Catholic Church denies.",
   "assumption_statement_ids": [],

@@ -1,9 +1,11 @@
 {
-  "id": "REL-MIXED-DEFINITION-STATUS-ALTERNATIVE-TO-UNIFORM-COVERAGE",
+  "id": "f24e2218-4f8d-5328-b1cb-103cae24f6c1",
+  "label": "An actual defined move is endorsed by… alternative to Either every defined move is endorsed by…",
+  "legacy_id": "REL-MIXED-DEFINITION-STATUS-ALTERNATIVE-TO-UNIFORM-COVERAGE",
   "subject_kind": "statement",
-  "subject_id": "STMT-CONCILIAR-DEFINITION-STATUS-MIXED",
+  "subject_id": "93990bef-1be2-5827-83f8-c9376e9d2219",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-CONCILIAR-NAMED-DEFINITION-STATUS-COVERAGE",
+  "object_id": "c3a37bae-8791-5df3-a3ea-a65288738e4d",
   "note": "Actual endorsed and nonendorsed defined witnesses exclude both uniform status profiles. This opposes named uniform coverage, not theology, authority, ordinary religious life or a whole worldview."
 }

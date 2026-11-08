@@ -1,6 +1,8 @@
 {
-  "id": "MODAL-HIJK-CONVERGENCE-CERTIFICATE",
-  "argument_id": "MODAL-HIJK-CONVERGENCE-CERTIFICATE",
+  "id": "87a2fc46-e23b-5c41-8002-5d3d64a8cac3",
+  "label": "Universal assembly of nine frozen exact-path correspondence helpers",
+  "legacy_id": "MODAL-HIJK-CONVERGENCE-CERTIFICATE",
+  "argument_id": "866251cb-15ea-55ec-824c-0cb2e3116d7c",
   "challenge_module": "TruthCore.Results.Modal.ConvergenceCertificate.Challenge",
   "solution_module": "TruthCore.Results.Modal.ConvergenceCertificate.Solution",
   "theorem": "TruthCore.Results.Modal.ConvergenceCertificate.certificate",

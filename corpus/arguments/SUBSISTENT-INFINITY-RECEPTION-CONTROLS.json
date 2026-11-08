@@ -1,24 +1,27 @@
 {
-  "id": "SUBSISTENT-INFINITY-RECEPTION-CONTROLS",
+  "id": "42a35488-437a-5b3e-b4f4-34e1ddae4d89",
+  "label": "Six stipulated finite interpretations of the shared…",
+  "legacy_id": "SUBSISTENT-INFINITY-RECEPTION-CONTROLS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-SUBSISTENT-INFINITY-RECEPTION-CONTROLS",
+  "conclusion_statement_id": "01d94ce9-c518-5c04-991e-a1224b0bb847",
   "inference_ids": [
-    "INF-SUBSISTENT-INFINITY-RECEPTION-CONTROLS"
+    "b167ae7b-1a9a-5003-a2c0-624e7f1e6802"
   ],
   "meaning": "Six explicit Unit/Bool interpretations of the reception vocabulary. In the five omission cases, the other four premises hold and SubsistentBeingIsInfiniteReading fails at a being whose esse equals its essence:\n- omitting limitation-only-through-reception: one being with limited, unreceived esse that is not infinite;\n- omitting reception-only-in-own-essence: esse false received in principle true, which is in potency to it;\n- omitting receiver-in-potency: one principle received in itself, with no receptive potency;\n- omitting nothing-in-receptive-potency-to-itself: one principle received in, and in potency to, itself;\n- omitting unlimited-esse-is-infinite: nothing limited, received or infinite.\nA sixth interpretation satisfies all five premises. It has a being whose esse is its essence, and a being whose esse differs from its essence, is received in it, is limited and is not infinite. These are stipulated formal controls only; no metaphysical possibility or rival source reading is claimed.",
   "definition_ids": [
-    "DEF-ESSE",
-    "DEF-ESSE-LIMITED",
-    "DEF-ESSE-RECEIVED-IN",
-    "DEF-ESSENCE-THOMISTIC-NATURE",
-    "DEF-INFINITE",
-    "DEF-RECEPTIVE-POTENCY"
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "6ced5205-e6a4-585e-950e-3b22e7c9ef01",
+    "4433942e-aaf6-55a9-b777-66e55638103d",
+    "183b48d2-1753-583d-aef9-4199cff86231",
+    "1d8890c0-afe2-5cdb-a400-0bbd4b79053d",
+    "a67e6214-624d-54d1-81ff-442c09c5ea9d"
   ],
-  "disambiguation_ids": ["DISAMB-POTENCY",
-    "DISAMB-ESSE-LIMITATION",
-    "DISAMB-ESSE-RECEPTION",
-    "DISAMB-ESSENCE",
-    "DISAMB-INFINITY",
-    "DISAMB-RECEPTIVE-POTENCY"
+  "disambiguation_ids": [
+    "508617ab-cf24-5f3b-a387-64b3991359ec",
+    "19190b6e-359f-590c-b434-4e6f5803da4f",
+    "5921354b-51e6-5da3-8d8c-e9041840fd9f",
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "587c53cf-c2a8-51f6-b8c1-013e67756dc6",
+    "8bb31748-e20f-5266-ac39-c442faab6622"
   ]
 }

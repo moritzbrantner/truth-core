@@ -1,6 +1,8 @@
 {
-  "id": "PURE-INDISCERNIBILITY-STRENGTHENS-PERFECT-BEINGS",
-  "argument_id": "PURE-INDISCERNIBILITY-STRENGTHENS-PERFECT-BEINGS",
+  "id": "a398edd8-397a-5cdb-9685-0876164fb77f",
+  "label": "Any two beings, each having every pure perfection…, from Any two beings, first movers or not, that…",
+  "legacy_id": "PURE-INDISCERNIBILITY-STRENGTHENS-PERFECT-BEINGS",
+  "argument_id": "6ac62cc4-b984-5367-8915-5923bfca1893",
   "challenge_module": "TruthCore.Results.Causality.WholePowerPerfection.Challenge",
   "solution_module": "TruthCore.Results.Causality.WholePowerPerfection.Solution",
   "theorem": "TruthCore.Results.Causality.WholePowerPerfection.perfectBeingsOfPureIndiscernibility",

@@ -1,1 +1,1 @@
-{"id": "STMT-EVIL-PREMISE-IS-TRUE", "paraphrase": "The sentence 'there is evil in the world' is true.", "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.EvilPremiseAssertedReading"}
+{"id": "6b605634-1d7c-52f1-88ec-8aafdd8ebd04", "label": "The sentence 'there is evil in the world' is true", "legacy_id": "STMT-EVIL-PREMISE-IS-TRUE", "paraphrase": "The sentence 'there is evil in the world' is true.", "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.EvilPremiseAssertedReading"}

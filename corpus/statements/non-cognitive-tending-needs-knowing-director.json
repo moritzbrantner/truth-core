@@ -1,11 +1,13 @@
 {
-  "id": "STMT-NON-COGNITIVE-TENDING-NEEDS-KNOWING-DIRECTOR",
+  "id": "564ce19b-c9df-5031-b20e-3cb1baee124f",
+  "label": "What lacks cognition tends to an end only if some knowing and intelligent being directs it to that…",
+  "legacy_id": "STMT-NON-COGNITIVE-TENDING-NEEDS-KNOWING-DIRECTOR",
   "paraphrase": "What lacks cognition tends to an end only if some knowing and intelligent being directs it to that end, as the archer directs the arrow.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.NonCognitiveTendingNeedsKnowingDirectorReading",
   "definition_ids": [
-    "DEF-INTENTIO-AS-TENDING"
+    "2847d4f1-a13a-5d0f-8cc1-abf1c807f92f"
   ],
   "disambiguation_ids": [
-    "DISAMB-INTENTIO"
+    "2e3e5bfd-2e1a-5766-933d-79a7824c6249"
   ]
 }

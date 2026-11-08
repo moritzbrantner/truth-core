@@ -1,8 +1,10 @@
 {
-  "id": "STMT-SOME-BEING-HAS-INTELLECT",
+  "id": "5854ef2b-41dd-5617-99d2-f53a850c35fd",
+  "label": "Something HAS_INTELLECT_1",
+  "legacy_id": "STMT-SOME-BEING-HAS-INTELLECT",
   "paraphrase": "OPEN analyst premise: something has intellect (for example a human being). Existence of an intellectual power only, not of any immaterial being.",
   "lean_declaration": "TruthCore.Causality.Round4Revisited.SomeBeingHasIntellect",
   "definition_ids": [
-    "DEF-HAS-INTELLECT"
+    "88bc0655-9dd0-5879-ba1b-3fca9f86c1f4"
   ]
 }

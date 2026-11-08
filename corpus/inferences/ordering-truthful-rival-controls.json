@@ -1,7 +1,9 @@
 {
-  "id": "INF-ORDERING-TRUTHFUL-RIVAL-CONTROLS",
+  "id": "46ad18be-d30a-5455-9165-36a2acc6ae2e",
+  "label": "In the same labeled-arrangement arena, an adequacy judgment accepting only…, by Direct-proof",
+  "legacy_id": "INF-ORDERING-TRUTHFUL-RIVAL-CONTROLS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-ORDERING-TRUTHFUL-RIVAL-CONTROLS",
+  "output_statement_id": "79c9b120-d35a-509d-8747-9b83469714d8",
   "rule": "direct-proof",
   "meaning": "In the same labeled-arrangement arena, an adequacy judgment accepting only candidates false at the designated arrangement cannot satisfy the truthful rival. If acceptance of the constantly true candidate is supplied, that candidate is true at the actual arrangement and a constructed distinct swapped-label arrangement, so the truthful rival holds. The truthful rival contradicts CompleteRequiresSelection for the same actual arrangement and adequacy judgment. The positive control proves no real explanatory adequacy.",
   "assumption_statement_ids": [],

@@ -1,22 +1,24 @@
 {
-  "id": "SOURCE-FOREST-AT-MOST-ONE-FROM-CONFLUENCE",
+  "id": "a86ff6ca-23aa-58d5-963f-06e52dc6db16",
+  "label": "Any two graph-relative sources are equal; no source exists merely by this…, from confluence",
+  "legacy_id": "SOURCE-FOREST-AT-MOST-ONE-FROM-CONFLUENCE",
   "premise_statement_ids": [
-    "STMT-SOURCE-FOREST-WEAKLY-CONNECTED",
-    "STMT-SOURCE-FOREST-UPSTREAM-CONFLUENT"
+    "eb88842a-1dc7-5632-a0e0-556eec39864a",
+    "1a575754-6316-5d66-ac5b-db8fb4cf1aef"
   ],
-  "conclusion_statement_id": "STMT-SOURCE-FOREST-AT-MOST-ONE-SOURCE",
+  "conclusion_statement_id": "861e20d6-7d65-5856-85cf-0cd0d0c167f3",
   "inference_ids": [
-    "INF-SOURCE-FOREST-AT-MOST-ONE-FROM-CONFLUENCE"
+    "524236a9-9238-50c2-a6b1-d063963cc6e9"
   ],
   "meaning": "Mathlib equivalence_join turns upstream confluence into equivalence of having a common finite upstream extension. Every graph edge lies in that equivalence, so EqvGen causal connectivity joins any two sources. A source admits no nontrivial upstream path, forcing the common extension to equal each source. No WF, nonemptiness, acyclicity, necessary existence or divine predicate is used.",
   "definition_ids": [
-    "DEF-SOURCE-FOREST-CONSTRAINTS",
-    "DEF-REGRESS-SCHEMA-GRAPH",
-    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
-    "DEF-FINITE-CAUSAL-PATH"
+    "f64856c0-6d2c-5c5d-97ef-9895039d8c27",
+    "1dff2d68-1348-5e7e-8ee7-248af63c8c53",
+    "7439c292-82a4-530d-8144-a61a6c21f502",
+    "822c9912-2313-584b-b2b7-77031da20107"
   ],
   "disambiguation_ids": [
-    "DISAMB-REGRESS-DOMAINS",
-    "DISAMB-CAUSAL-POWER-GROUNDING"
+    "34ddfede-ff4d-59ad-9882-4bcb490df9bb",
+    "4b02d34a-9226-5009-9ac2-3b52f4222b21"
   ]
 }

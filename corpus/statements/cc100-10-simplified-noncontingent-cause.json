@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CC100-10-SIMPLIFIED-NONCONTINGENT-CAUSE",
+  "id": "8c28df5a-c172-5356-b3f8-7ed40833f8c1",
+  "label": "Under the contingent-population and restricted-cosmos premises, if the cosmos is wholly contingent…",
+  "legacy_id": "STMT-CC100-10-SIMPLIFIED-NONCONTINGENT-CAUSE",
   "paraphrase": "Under the contingent-population and restricted-cosmos premises, if the cosmos is wholly contingent and every wholly contingent thing has a cause, the cosmos has a cause that is not contingent.",
   "definition_ids": [
-    "DEF-CC100-10-SIMPLIFIED-SCOPE"
+    "2c84f385-fd4b-5e7a-9d0d-84476104cf80"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

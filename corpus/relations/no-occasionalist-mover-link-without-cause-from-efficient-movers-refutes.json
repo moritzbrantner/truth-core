@@ -1,9 +1,11 @@
 {
-  "id": "REL-NO-OCCASIONALIST-MOVER-LINK-WITHOUT-CAUSE-FROM-EFFICIENT-MOVERS-REFUTES",
+  "id": "05f9d0d8-f716-58d6-86d7-3075773c1a84",
+  "label": "Negation of the occasionalist rival… refutes Occasionalist rival: some PER_SE_1 link of…",
+  "legacy_id": "REL-NO-OCCASIONALIST-MOVER-LINK-WITHOUT-CAUSE-FROM-EFFICIENT-MOVERS-REFUTES",
   "subject_kind": "argument",
-  "subject_id": "NO-OCCASIONALIST-MOVER-LINK-WITHOUT-CAUSE-FROM-EFFICIENT-MOVERS",
+  "subject_id": "e3874506-91de-586c-94e3-4b2180706e89",
   "predicate": "refutes",
   "object_kind": "statement",
-  "object_id": "STMT-OCCASIONALIST-MOVER-LINK-WITHOUT-CAUSE",
+  "object_id": "153a0d80-0907-5e20-9142-99d894ae8ea0",
   "note": "Checked conditional contradiction on the same predicates. Its premises are open, so it does not count for closure; it records which deeper premises the rival must reject."
 }

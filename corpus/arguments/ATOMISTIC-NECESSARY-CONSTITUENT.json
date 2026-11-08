@@ -1,47 +1,49 @@
 {
-  "id": "ATOMISTIC-NECESSARY-CONSTITUENT",
+  "id": "1a621d09-0dcb-500b-9367-7da165ac40aa",
+  "label": "At least one individual exists at the…, from The non-null object domain is inhabited and 7 more",
+  "legacy_id": "ATOMISTIC-NECESSARY-CONSTITUENT",
   "premise_statement_ids": [
-    "STMT-ATOMIC-OBJECT-POPULATION",
-    "STMT-EVERY-OBJECT-HAS-SIMPLE-PART",
-    "STMT-CONDITIONAL-CAUSED-SIMPLE-COVER",
-    "STMT-OBJECT-CAUSE-EFFECT-NONOVERLAP",
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-ACTUAL-NO-NECESSARY-PARTS-HAVE-CAUSES",
-    "STMT-CAUSES-HAVE-ACTUAL-ENDPOINTS-AT",
-    "STMT-ACTUAL-WHOLES-HAVE-ACTUAL-PARTS"
+    "b602221e-443f-5fc6-9d63-eaedb300a61c",
+    "cf4364f6-81c6-5018-95e4-178353d2a2b3",
+    "63e739b6-d2fe-5dd2-b877-fad5334d7f16",
+    "bacabfb1-dfd9-5432-b695-c04f0edea13e",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "76667657-a3ed-565a-b9fe-26f4eac81272",
+    "b699ecfb-08f7-5864-a671-1205c8f5792f",
+    "bbe8900a-7d33-5e6b-a76c-1947ecf7fa6e"
   ],
-  "conclusion_statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+  "conclusion_statement_id": "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
   "inference_ids": [
-    "INF-ATOMISTIC-NECESSARY-CONSTITUENT"
+    "066aa261-0f9e-5e66-9727-37ca2f5a1620"
   ],
   "meaning": "Import AtomisticCausalSource.source on the existing actualGraph m w, using the actual subtype with the order inherited from the SAME ambient PartialOrder B. Its chosen source s is actual by subtype membership. If s had no ambient necessary parts, CF3 would give an incoming cause; CF4 makes that cause actual, contradicting the imported actualSource_iff characterization. Supplied EM therefore yields p ≤ s with NecessaryAt m w p. The selected-world actual-parts policy makes p actually exist. Conclude the EXISTING NecessaryBeing endpoint for p, not necessity of s. The part may equal s; no properness, distinctness or outgoing role follows. No activity, LocalCausalPrinciple, reflexive accessibility, global WF, no-necessary-parts cover, concreteness or full author first-cause conclusion is assumed or inferred. The complete-production interpretation and all three one-world policy applications remain OPEN.",
   "definition_ids": [
-    "DEF-ACTUAL-NO-NECESSARY-PARTS-FUSION",
-    "DEF-ACTUAL-PARTS-AND-CAUSAL-POLICIES",
-    "DEF-ATOMIC-CAUSAL-SOURCE",
-    "DEF-ATOMIC-OBJECT-DOMAIN",
-    "DEF-ATOMIC-SIMPLE-PART",
-    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
-    "DEF-COMPLETE-OBJECT-CAUSATION",
-    "DEF-KANT-MODAL-CONTINGENCY",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-NO-NECESSARY-PARTS-AT",
-    "DEF-OBJECT-CAUSE-NONOVERLAP",
-    "DEF-REGRESS-SCHEMA-GRAPH",
-    "DEF-SELF-EVIDENT-MARKING",
-    "DEF-UNIVERSAL-FUSION-DOMAIN",
-    "DEF-UNIVERSAL-FUSION-PROFILE"
+    "c47495e8-91a6-53e8-88aa-5672c3bdc314",
+    "84b1dc2c-48e6-5465-af21-48015fbf3cbe",
+    "e3a887b3-eed4-5836-a406-359a9fb71b17",
+    "3f1eca4b-fc8c-5a3b-ad71-ecb2ebc9bd13",
+    "7c8a14ff-2189-5241-b988-626c1e1cb19e",
+    "ea529762-fa78-5d86-bf6c-4b8680e9cdc5",
+    "974180e2-5483-50af-b946-044088d6f8b7",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "069e3555-ca4a-5737-ae1a-8e2cb67e3be5",
+    "e6729d32-ce82-52a2-91b0-826a43ce6705",
+    "1dff2d68-1348-5e7e-8ee7-248af63c8c53",
+    "500ba323-cca5-5b35-8b75-947008256c43",
+    "094da9ef-9edb-5e88-8b7b-2eb87488e90d",
+    "9ec56dce-572e-5230-8247-6b3e994cb98a"
   ],
   "disambiguation_ids": [
-    "DISAMB-ACTUAL-FUSION-BARE-NE-AND-NECESSARY-CAUSE",
-    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE",
-    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
-    "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY"
+    "6ded9b1f-94fc-5f81-8e71-24ce27962165",
+    "70af59cf-0351-5332-9c89-b80231412529",
+    "637c53a7-2616-5c34-aa9a-9f7dd880eaed",
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "8db2b1c9-f3a6-55d3-b7e9-4939c27923e2"
   ],
   "strong_version_needed": {
-    "STMT-CAUSES-HAVE-ACTUAL-ENDPOINTS-AT": "The old source-consumer needs actuality of a causer of its selected actualGraph source, whose identity is obtained from the atomistic source theorem. The new weak policy concerns a separately supplied spacetime whole and does not constrain that source without an additional identification. Frozen interface retained; no claim that both endpoints or every unrelated edge are minimal."
+    "b699ecfb-08f7-5864-a671-1205c8f5792f": "The old source-consumer needs actuality of a causer of its selected actualGraph source, whose identity is obtained from the atomistic source theorem. The new weak policy concerns a separately supplied spacetime whole and does not constrain that source without an additional identification. Frozen interface retained; no claim that both endpoints or every unrelated edge are minimal."
   }
 }

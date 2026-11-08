@@ -1,9 +1,11 @@
 {
-  "id": "INF-NECESSARY-ROOT-BOX-S5-STRENGTHENS-BOX-S4",
+  "id": "ba02b61d-a449-5fd0-b6de-4b4645a654cd",
+  "label": "Necessary-being node, possibilist box reading in frame class S4…, by Frame inclusion s5 implies s4",
+  "legacy_id": "INF-NECESSARY-ROOT-BOX-S5-STRENGTHENS-BOX-S4",
   "input_statement_ids": [
-    "STMT-NECESSARY-ROOT-BOX-S5"
+    "7089ce3d-3855-5bfb-a3c3-c202e8ff458a"
   ],
-  "output_statement_id": "STMT-NECESSARY-ROOT-BOX-S4",
+  "output_statement_id": "ad9fe46d-1032-530e-a589-c037cf8fed78",
   "rule": "Frame inclusion s5_implies_s4 (reflexive Euclidean frames are transitive)",
   "meaning": "Strength registration: the S5 node implies the S4 node, applying the existing Cube theorem s5_implies_s4.",
   "assumption_statement_ids": [],

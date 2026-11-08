@@ -1,11 +1,13 @@
 {
-  "id": "DEF-BIRD-DISPOSITIONS-EXCEPTIONS",
+  "id": "d1142999-4a0c-5773-b67e-afa4ade323a3",
+  "label": "Dispositional essences and…: Bird’s 2004 proposal takes natural properties to have their…",
+  "legacy_id": "DEF-BIRD-DISPOSITIONS-EXCEPTIONS",
   "term": "dispositional essences and fink/antidote qualifications",
   "basis": "sourced",
   "definition": "Bird’s 2004 proposal takes natural properties to have their dispositional character essentially, so appropriate stimulus and suitable conditions yield manifestations. A fink removes the disposition’s causal basis before manifestation; an antidote interferes with additional conditions while leaving the disposition/basis intact. His conditional law account excludes such exceptions; the paper does not prove absence of all fundamental antidotes.",
   "claim_ids": [
-    "BIRD-2004-DISPOSITIONAL-LAW-ACCOUNT",
-    "BIRD-2004-EXCEPTION-CONDITIONS"
+    "a174e95e-2ee6-5004-81d9-3b2e293c85bb",
+    "9290ec2e-f570-5f51-ac8c-174454877af5"
   ],
   "note": "Source-specific proposal, not identified with the analyst strict Profile or with every governing-law realism. Positive and negative examples are the fragile vase, poisoned person with an antidote, and effects despite retention of the underlying disposition. No universal metaphysical structural law or actuality bridge is inferred."
 }

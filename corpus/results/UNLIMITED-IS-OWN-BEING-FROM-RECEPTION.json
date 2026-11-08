@@ -1,6 +1,8 @@
 {
-  "id": "UNLIMITED-IS-OWN-BEING-FROM-RECEPTION",
-  "argument_id": "UNLIMITED-IS-OWN-BEING-FROM-RECEPTION",
+  "id": "191d472b-a056-5ef7-9ac7-b98d93e3f8f9",
+  "label": "Any being that is not composite, whose represented esse equals its represented…, from reception",
+  "legacy_id": "UNLIMITED-IS-OWN-BEING-FROM-RECEPTION",
+  "argument_id": "e6af6938-4a1a-53dc-9239-ab95073760a2",
   "challenge_module": "TruthCore.Results.Causality.ReceptionLimitation.Challenge",
   "solution_module": "TruthCore.Results.Causality.ReceptionLimitation.Solution",
   "theorem": "TruthCore.Results.Causality.ReceptionLimitation.unlimitedIsOwnBeing",

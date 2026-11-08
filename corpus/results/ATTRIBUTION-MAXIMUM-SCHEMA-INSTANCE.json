@@ -1,6 +1,8 @@
 {
-  "id": "ATTRIBUTION-MAXIMUM-SCHEMA-INSTANCE",
-  "argument_id": "ATTRIBUTION-MAXIMUM-SCHEMA-INSTANCE",
+  "id": "2f44153c-4bb5-5dfb-8e65-3b1fcededc46",
+  "label": "An order by approach to a primary, universal possession of the selected perfection, and the…",
+  "legacy_id": "ATTRIBUTION-MAXIMUM-SCHEMA-INSTANCE",
+  "argument_id": "1b68d526-4d96-576e-915a-97e0516b58fa",
   "challenge_module": "TruthCore.Results.Logic.MaximumOrderSchema.Challenge",
   "solution_module": "TruthCore.Results.Logic.MaximumOrderSchema.Solution",
   "theorem": "TruthCore.Results.Logic.MaximumOrderSchema.attributionMaximumSchemaInstance",

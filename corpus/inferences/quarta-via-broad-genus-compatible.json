@@ -1,7 +1,9 @@
 {
-  "id": "INF-QUARTA-VIA-BROAD-GENUS-COMPATIBLE-WITH-BEING-NOT-A-GENUS",
+  "id": "d59be4f4-2b9a-501b-8ce4-a0100dfb0293",
+  "label": "Formal fact: the quarta via's premises with 'genus' read broadly, its conclusion, and…, by Model",
+  "legacy_id": "INF-QUARTA-VIA-BROAD-GENUS-COMPATIBLE-WITH-BEING-NOT-A-GENUS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-BROAD-GENUS-READING-COMPATIBLE-WITH-BEING-NOT-A-GENUS",
+  "output_statement_id": "0b78d5c0-7c53-561c-a124-6f49614bf051",
   "rule": "model",
   "meaning": "The same respects, with the maximum causing every respect in the other being: the four quarta via premises on the broad reading, its conclusion, and Aristotle's three premises all hold.",
   "assumption_statement_ids": [],

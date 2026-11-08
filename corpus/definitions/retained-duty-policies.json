@@ -1,5 +1,7 @@
 {
-  "id": "DEF-RETAINED-DUTY-POLICIES",
+  "id": "21e29c57-c49c-57e9-b226-8a9f23f7968d",
+  "label": "Present ought-implies-can and\u2026: PresentOIC requires each action owed after the loss to be\u2026",
+  "legacy_id": "DEF-RETAINED-DUTY-POLICIES",
   "term": "present ought-implies-can and same-action duty retention",
   "definition": "PresentOIC requires each action owed after the loss to be practically possible at that date. InitialDuty and PresentDuty fix the SAME originalReturn at before and after. Retention is its before-to-after implication. PresentInability denies that SAME after action ability. FutureOIC instead asks for some strictly later practical ability for each action owed after. futureRepair requires a separate duty-to-ideal interpretation and ideal/future overlap; these are explicit assumptions, not independently vindicated moral facts. LocalOIC is the weaker sibling restricted to originalReturn only: PresentDuty s \u2192 s.able after originalReturn. It does not imply compensation or debt-repayment OIC, even with a nonvacuous original-return duty. Universal PresentOIC strictly strengthens LocalOIC.",
   "basis": "stipulative",

@@ -1,10 +1,12 @@
 {
-  "id": "STMT-REPORTED-JOHN-20-SENDING-FORGIVE-RETAIN",
+  "id": "733c6742-234e-5513-b966-b39a1b7fe404",
+  "label": "John reports that the risen Jesus says to the disciples gathered behind closed doors: as the…",
+  "legacy_id": "STMT-REPORTED-JOHN-20-SENDING-FORGIVE-RETAIN",
   "paraphrase": "John reports that the risen Jesus says to the disciples gathered behind closed doors: as the Father has sent me, so I send you; and, breathing on them, receive the Holy Spirit; whose sins you forgive are forgiven them, whose sins you retain are retained. Textual report only.",
   "definition_ids": [
-    "DEF-COMMISSION-REPORT-POWERS"
+    "66200ff6-4af8-5b8f-a2c8-08ddf2d0f072"
   ],
   "disambiguation_ids": [
-    "DISAMB-COMMISSION-REPORT-AND-EVENT"
+    "0f180711-5550-55b5-9da8-699215d6d95e"
   ]
 }

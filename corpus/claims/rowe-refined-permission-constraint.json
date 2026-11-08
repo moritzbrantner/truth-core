@@ -1,20 +1,22 @@
 {
-  "id": "ROWE-1979-BALANCE-NEUTRAL-PERMISSION",
-  "statement_id": "STMT-ROWE-REFINED-PERMISSION-CONSTRAINT",
-  "source_id": "ROWE-EVIL-ATHEISM-1979",
+  "id": "4049b811-e933-552f-b279-976814f98a7f",
+  "label": "William L. Rowe, The Problem of Evil and…: Every omniscient wholly good being permitting…",
+  "legacy_id": "ROWE-1979-BALANCE-NEUTRAL-PERMISSION",
+  "statement_id": "d099c83c-5e28-5625-b55f-bcba057589fb",
+  "source_id": "f716339a-30a2-511b-9be5-7daa1b76f6c3",
   "locator": "p. 336 §I n.3, read with premises (1) and (2)",
   "interpretation": "The suggested qualification in p.336 n.3: one perhaps should not fault the being when preventing the suffering while losing the relevant good would not alter the balance. Records that proposed refined constraint, not a settled theorem about morally permissible permission and not the stronger simplified wording. Counterfactual necessity and the other qualifications of premises (1)/(2) are retained.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-ROWE-NARROW-THEISM",
-    "DEF-ROWE-BLOCKING-COST",
-    "DEF-ROWE-GRATUITOUS-SUFFERING",
-    "DEF-ROWE-APPARENT-POINTLESSNESS",
-    "DEF-ROWE-INTENSE-SUFFERING",
-    "DEF-ROWE-BALANCE-NEUTRAL-GOOD-LOSS"
+    "3e77cec9-1728-578b-958b-5876f572ce42",
+    "06d6f1ae-bf4d-5b57-b722-44b068427820",
+    "4121dd26-3ee8-53b4-a73f-5453e5308764",
+    "9ad17723-d80b-59ab-aac7-291843f55d93",
+    "086f1ece-8e43-5363-97cd-2d165e7dc3ed",
+    "fdcefe2f-887d-54af-b6f8-41a4d5cafd9f"
   ],
   "disambiguation_ids": [
-    "DISAMB-ROWE-APPARENT-AND-ACTUAL",
-    "DISAMB-ROWE-SUFFERING-AND-CULPA"
+    "51142f83-40ad-50a3-83be-a6062eee1256",
+    "008747c9-744a-581c-adad-570e834abb4e"
   ]
 }

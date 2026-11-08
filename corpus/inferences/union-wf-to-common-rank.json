@@ -1,9 +1,11 @@
 {
-  "id": "INF-UNION-WF-TO-COMMON-RANK",
+  "id": "08859ce6-5d99-54e1-aeb8-50831ac10e71",
+  "label": "An OPEN framework presentation of union well-foundedness: one…, by Checked-theorem-composition-a…",
+  "legacy_id": "INF-UNION-WF-TO-COMMON-RANK",
   "input_statement_ids": [
-    "STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT"
+    "6af3bd73-f2bc-5018-ba2f-ec7f97d6c059"
   ],
-  "output_statement_id": "STMT-COMMON-WELL-FOUNDED-PRIORITY-RANK",
+  "output_statement_id": "9240fa60-3e34-59a7-867e-f7a2294c6660",
   "rule": "checked-theorem-composition-and-model-controls",
   "meaning": "Use the identity map into the already well-founded union relation; rank is a reformulation, not premise weakening.",
   "assumption_statement_ids": [],

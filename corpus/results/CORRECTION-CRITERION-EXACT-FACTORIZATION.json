@@ -1,6 +1,8 @@
 {
-  "id": "CORRECTION-CRITERION-EXACT-FACTORIZATION",
-  "argument_id": "CORRECTION-CRITERION-EXACT-FACTORIZATION",
+  "id": "0590fe21-edb9-5915-9837-62560c8f40e2",
+  "label": "For all state and evidence types, data projections and supplied correctness predicates, an exact…",
+  "legacy_id": "CORRECTION-CRITERION-EXACT-FACTORIZATION",
+  "argument_id": "5bbbb01c-ce9c-5060-82d3-504f7f3076d6",
   "challenge_module": "TruthCore.Results.Logic.CorrectionCriterion.Challenge",
   "solution_module": "TruthCore.Results.Logic.CorrectionCriterion.Solution",
   "theorem": "TruthCore.Results.Logic.CorrectionCriterion.characterization",

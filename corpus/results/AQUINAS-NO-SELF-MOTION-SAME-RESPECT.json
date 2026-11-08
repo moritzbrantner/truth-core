@@ -1,6 +1,8 @@
 {
-  "id": "AQUINAS-NO-SELF-MOTION-SAME-RESPECT",
-  "argument_id": "AQUINAS-NO-SELF-MOTION-SAME-RESPECT",
+  "id": "9f7eb7d8-f81a-57d7-85e4-af477decad0a",
+  "label": "Nothing that is being moved in a…, from Nothing is moved except insofar as it is in… and 2 more (3)",
+  "legacy_id": "AQUINAS-NO-SELF-MOTION-SAME-RESPECT",
+  "argument_id": "a5ddef5b-9552-51d5-8d6a-ddfabf415fb1",
   "challenge_module": "TruthCore.Results.Causality.SameRespectActualization.Challenge",
   "solution_module": "TruthCore.Results.Causality.SameRespectActualization.Solution",
   "theorem": "TruthCore.Results.Causality.SameRespectActualization.noSelfMotion",

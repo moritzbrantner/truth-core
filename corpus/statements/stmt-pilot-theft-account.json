@@ -1,12 +1,14 @@
 {
-  "id": "STMT-PILOT-THEFT-ACCOUNT",
+  "id": "6f3dcbf8-cbe7-5d0c-825c-99e21c4cf0ce",
+  "label": "Deny bodily resurrection and propose both removal of the body from an actually empty tomb and a…",
+  "legacy_id": "STMT-PILOT-THEFT-ACCOUNT",
   "paraphrase": "Deny bodily resurrection and propose both removal of the body from an actually empty tomb and a separate visionary experience account. This is not an attribution to Matthew’s guards or to a modern proponent.",
   "lean_declaration": "TruthCore.History.Resurrection.TheftAccount",
   "definition_ids": [
-    "DEF-RESURRECTION-PILOT-ACCOUNT",
-    "DEF-SKELETON-OPEN-PREDICATES"
+    "3ef00725-331b-5d83-89d2-36f1428e21ae",
+    "ac767549-28c0-5a1a-813d-ee208a664d08"
   ],
   "disambiguation_ids": [
-    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+    "2567d8a9-549e-5404-8658-3275b7029092"
   ]
 }

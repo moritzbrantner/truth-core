@@ -1,9 +1,11 @@
 {
-  "id": "INF-UNDIRECTED-TENDING-WITNESS-REFUTES-DIRECTOR-PRINCIPLE",
+  "id": "05e2644d-8f2c-5bb6-b7da-7ec8710aa299",
+  "label": "The existing universal noncognitive-tending-needs-knowing-director…, by Constructive-proof",
+  "legacy_id": "INF-UNDIRECTED-TENDING-WITNESS-REFUTES-DIRECTOR-PRINCIPLE",
   "input_statement_ids": [
-    "STMT-UNDIRECTED-NONCOGNITIVE-TENDING-WITNESS"
+    "dede2803-97ba-5df3-ac1b-18dd344e1f3c"
   ],
-  "output_statement_id": "STMT-NOT-NONCOGNITIVE-TENDING-DIRECTOR-PRINCIPLE",
+  "output_statement_id": "03d40e6a-f98d-5a95-b86f-db6584386922",
   "rule": "constructive-proof",
   "meaning": "Specialize the existing universal director principle at the explicit noncognitive tending witness and contradict its absence of a director. Same predicates and end are retained. This rejects no mechanism, source profile or intended reality interpretation.",
   "assumption_statement_ids": [],

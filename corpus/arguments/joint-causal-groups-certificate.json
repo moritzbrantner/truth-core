@@ -1,16 +1,18 @@
 {
-  "id": "JOINT-CAUSAL-GROUPS-CERTIFICATE",
+  "id": "169771a6-5a89-54eb-9616-e2f9ee8e5cb1",
+  "label": "Acyclic projected membership gives a strict ancestry order; actual-event WF gives minimal…",
+  "legacy_id": "JOINT-CAUSAL-GROUPS-CERTIFICATE",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-JOINT-CAUSAL-GROUPS-CERTIFICATE",
+  "conclusion_statement_id": "a1bd75de-4577-5d2e-9c72-e06b4533ac08",
   "inference_ids": [
-    "INF-JOINT-CAUSAL-GROUPS-CERTIFICATE"
+    "764750c3-956a-56f5-9927-6d1e50de591a"
   ],
   "meaning": "Prove equality of the recorded-group projection with the original Graph, use transitive closure composition and acyclicity for IsStrictOrder, compose Graph.controls_of_wellFounded with source-minimality on the actual subtype, and reverse finite paths to characterize leastness under acyclicity. Check finite cooperative scenarios and omission fixtures, and import SourceWitness.overlap_control and PluralRootConfluence.control unchanged. Neither imported jointControl nor membership asserts cooperative sufficiency; all actual applicability and full-ground commitments remain OPEN. Root premise delta zero.",
   "definition_ids": [
-    "DEF-JOINT-CAUSAL-GROUPS",
-    "DEF-JOINT-SCENARIO-SUFFICIENCY"
+    "ff8bf1d7-0bf9-5dda-8038-7127e3d46ec8",
+    "800637b5-8f4b-54ea-865d-c4fd444d1632"
   ],
   "disambiguation_ids": [
-    "DISAMB-JOINT-CAUSAL-MEMBERSHIP-EXERCISE"
+    "a375e21b-420a-5ee5-9e64-c816eacd74d4"
   ]
 }

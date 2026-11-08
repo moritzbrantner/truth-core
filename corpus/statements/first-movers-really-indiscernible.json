@@ -1,14 +1,16 @@
 {
-  "id": "STMT-FIRST-MOVERS-REALLY-INDISCERNIBLE",
+  "id": "b0a0101b-9177-563f-a035-7da0e41575fe",
+  "label": "Any two first movers moved by none have exactly the same real determinations",
+  "legacy_id": "STMT-FIRST-MOVERS-REALLY-INDISCERNIBLE",
   "paraphrase": "Any two first movers moved by none have exactly the same real determinations. This is not numerical identity.",
   "lean_declaration": "TruthCore.Causality.PureActThisness.FirstMoversReallyIndiscernible",
   "definition_ids": [
-    "DEF-FIRST-UNMOVED-MOVER",
-    "DEF-REAL-DETERMINATION",
-    "DEF-PURE-PERFECTION",
-    "DEF-REAL-INDISCERNIBILITY"
+    "cfadc1f4-dd30-5f4f-a336-a0b9c1b1182d",
+    "3aba5f19-f48d-50db-bc57-93ba2e99f845",
+    "65e38ffa-5a1c-55d0-935c-6538d843b780",
+    "efe8fb80-81fc-51c1-89d0-414338fcfe96"
   ],
   "disambiguation_ids": [
-    "DISAMB-THISNESS-REAL-BARE"
+    "567c3e74-9514-52d9-b3b6-f5a3af078784"
   ]
 }

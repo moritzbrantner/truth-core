@@ -1,11 +1,13 @@
 {
-  "id": "DISAMB-TRUE",
+  "id": "80b5fc49-ed55-5c61-b14b-3621d2aa1520",
+  "label": "True",
+  "legacy_id": "DISAMB-TRUE",
   "term": "true",
   "sense_definition_ids": [
-    "DEF-ONTOLOGICAL-TRUTH",
-    "DEF-TRUTH-ROBUST",
-    "DEF-TRUTH-MINIMAL",
-    "DEF-LEAN-PROPOSITION-HOLDING"
+    "b412016a-43c1-5c4a-abb0-4e53d343d508",
+    "543c2ef3-ff28-55bd-8442-1906661502bc",
+    "bfb442ed-de24-5be7-92fa-838b93157c91",
+    "295c5c65-7654-5a9f-8f01-cd9071dd31f1"
   ],
   "resolution": "The quarta via's 'true' is the truth of things (the respect `verum`), not the truth of sentences; no result links `verum` with `Holds`. The problem-of-evil results use truth of sentences. POE-EXTERNAL-PREMISE-VS-EMOTIVISM uses O'Connor's own notion (DEF-TRUTH-VALUE): moral statements are not the kind of sentence that can be true or false, so they are not true. That is the robust sense, and the result holds against his emotivism as he states it. It does not hold against an expressivist who grants moral sentences minimal truth: such a theorist rejects STMT-MORAL-STATEMENTS-LACK-TRUTH-VALUE in the minimal sense, and answering that rival is the open work of #182 and #185. 'Objectively true' (DEF-OBJECTIVE-TRUTH) is truth independent of attitudes; the result's conclusion denies truth simply, and it denies objective truth only under the further explicit bridge STMT-OBJECTIVE-TRUTH-HAS-TRUTH-COMPONENT. POE-EXTERNAL-TRUTH-TO-OBJECTIVE-BRIDGE now registers that conditional composition without changing the original four-premise result. DISAMB-OBJECTIVE-TRUTH-CALIBRATIONS separates the analyst actual-stable, invariance-only and actual-only proposals; these do not settle robust/minimal truth, property identity or real attitude independence. 'Catholicism is true' (DEF-CATHOLICISM-TRUE-PHASE-1) is the plain conjunction of its two conditions, not a further truth predicate. The objective-truth pilot uses DEF-LEAN-PROPOSITION-HOLDING for ∃ P : Prop, P and its logical counterpart: a proof in the encoded logic, not an identification with ontological, robust, minimal or attitude-independent truth. Its profile Interpretation is a stipulated external mapping, and a bridge preserving a logical sentence across profiles remains explicit and open."
 }

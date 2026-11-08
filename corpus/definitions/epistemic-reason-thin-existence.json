@@ -1,5 +1,7 @@
 {
-  "id": "DEF-EPISTEMIC-REASON-THIN-EXISTENCE",
+  "id": "dcbd9590-2c87-5550-a69c-b4af6e272fa4",
+  "label": "Thin epistemic reason existence: Existence of some agent and content related by Reason: some agent…",
+  "legacy_id": "DEF-EPISTEMIC-REASON-THIN-EXISTENCE",
   "term": "thin epistemic reason existence",
   "definition": "Existence of some agent and content related by Reason: some agent has an epistemic reason to believe some content. The Lean existential does not constrain the interpretation of Reason through correctness, evidence, desires, causal influence or authority.",
   "basis": "stipulative",

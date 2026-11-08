@@ -1,40 +1,42 @@
 {
-  "id": "QUARTA-VIA-FORK-UNBOUNDED-ELIMINATED",
+  "id": "210019ee-3b64-5fc9-9a7b-4b63e206df3b",
+  "label": "Some BEING_1 is maximal in the selected perfection, is more such…, via fork unbounded eliminated",
+  "legacy_id": "QUARTA-VIA-FORK-UNBOUNDED-ELIMINATED",
   "premise_statement_ids": [
-    "STMT-HOMOGENEOUS-BEING-SCALE",
-    "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS",
-    "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH",
-    "STMT-THINGS-MORE-AND-LESS-GOOD-TRUE-NOBLE",
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-GRADES-HAVE-A-MAXIMUM"
+    "038bae3c-2917-508b-a6fc-2998faa0c908",
+    "da09703b-0b1e-5dca-9dd7-6c0c8d1610d7",
+    "d5a94eb1-72d2-53e0-9a52-9787b5b61a8d",
+    "a9622441-2db2-5d32-9b02-a9d283bd2949",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "6c27657f-a2bf-5c1d-963c-c154b66bfa85"
   ],
-  "conclusion_statement_id": "STMT-QUARTA-VIA-STRICT-CAUSAL-TOP",
+  "conclusion_statement_id": "7f3c9963-09f7-5577-95a5-ab93fb3c8b7e",
   "inference_ids": [
-    "INF-QUARTA-VIA-DEGREE-FORK",
-    "INF-QUARTA-VIA-FORK-UNBOUNDED-ELIMINATED"
+    "31cc06ec-a89a-5426-932a-fb400a17333d",
+    "0493f832-2ff2-5b99-9e71-e8f6ec6174ef"
   ],
   "meaning": "Under the fork's exact background and the added grades-to-maximum principle, the certified fork and the certified unbounded core leave the strict causal top. The scale is a stipulated contrast reading; no premise is established and no identification with God or the maximally true is made.",
   "definition_ids": [
-    "DEF-BEING-AS-ENTITY",
-    "DEF-RESPECT",
-    "DEF-ACT",
-    "DEF-ESSE",
-    "DEF-MORE-IN",
-    "DEF-MAXIME-ENS",
-    "DEF-GREATEST-BEING-STRICT",
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-HOMOGENEOUS-SCALE",
-    "DEF-BEING-UNIVOCAL",
-    "DEF-ONTOLOGICAL-TRUTH",
-    "DEF-ONTOLOGICAL-TRUTH-COMPARISON",
-    "DEF-MAXIMUM-IN-A-PERFECTION"
+    "4b8fac5c-91f0-5e82-b095-9f4e96d1d6a9",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "5766de66-8a37-5b04-aa65-9eec53319f50",
+    "a2a8de58-42e0-5481-b7fb-848ae8602036",
+    "630d802e-14f5-5458-ad5f-f446bbd04b3b",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "cea637bc-04a0-5385-80ca-1caa6ca272f4",
+    "3c9fbe24-66c5-587e-9f7a-df0783510328",
+    "b412016a-43c1-5c4a-abb0-4e53d343d508",
+    "aad0156a-e1eb-5b6a-bb97-526698065277",
+    "ad844320-77ce-5786-96d7-4b02f874269d"
   ],
   "disambiguation_ids": [
-    "DISAMB-ORDER-OF-BEING",
-    "DISAMB-BEING-UNIVOCITY",
-    "DISAMB-CAUSE",
-    "DISAMB-IN-ACT",
-    "DISAMB-TRUE",
-    "DISAMB-MAXIME-ENS"
+    "1795a62e-f78b-5f5b-94e7-9e7490824811",
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "80b5fc49-ed55-5c61-b14b-3621d2aa1520",
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
   ]
 }

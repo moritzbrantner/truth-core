@@ -1,6 +1,8 @@
 {
-  "id": "ROUND2-EXISTENCE-ACT-CONTROLS",
-  "argument_id": "ROUND2-EXISTENCE-ACT-CONTROLS",
+  "id": "7ebb0ab0-4022-5113-9810-67b4afa60cfc",
+  "label": "Finite interpretations for the fourteen derivations of round 2: for each premise other than…",
+  "legacy_id": "ROUND2-EXISTENCE-ACT-CONTROLS",
+  "argument_id": "b9cffe3d-850a-5347-8ecb-e72b3b9c4697",
   "challenge_module": "TruthCore.Results.Causality.Round2ExistenceAct.Challenge",
   "solution_module": "TruthCore.Results.Causality.Round2ExistenceAct.Solution",
   "theorem": "TruthCore.Results.Causality.Round2ExistenceAct.controls",

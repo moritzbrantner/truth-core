@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PSR-STRENGTH-TOTALITY",
+  "id": "86760657-120c-5766-ac64-90080c9bc6b8",
+  "label": "Aggregate of the contingent truths: BCCFAt A a t says t is true at a and every contingent truth at…",
+  "legacy_id": "DEF-PSR-STRENGTH-TOTALITY",
   "term": "aggregate of the contingent truths",
   "definition": "BCCFAt A a t says t is true at a and every contingent truth at a is a conjunct of t. No arena is assumed to contain such a t. CommonReason says one fact is a reason for every contingent truth member by member, which is not a reason for a reified whole.",
   "basis": "stipulative",

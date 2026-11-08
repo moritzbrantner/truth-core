@@ -1,7 +1,9 @@
 {
-  "id": "INF-PARTICIPATION-UNDERDETERMINED",
+  "id": "6a5ecad9-241f-577e-b154-1c4360d0649c",
+  "label": "There exist two four-entity, one-quality interpretations satisfying the…, by Finite-countermodel",
+  "legacy_id": "INF-PARTICIPATION-UNDERDETERMINED",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-PARTICIPATION-UNDERDETERMINED",
+  "output_statement_id": "026230b1-ce5c-531b-bb8c-ddafd2393d0c",
   "rule": "finite-countermodel",
   "meaning": "Construct two interpretations with the same stipulated background and the same separately supplied base. Both satisfy Generic, including putative explanation, essence and exemplar predicates, but differ on participation and exemplification. The fixed base does not yet carry a selection law.",
   "assumption_statement_ids": [],

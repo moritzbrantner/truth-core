@@ -1,21 +1,23 @@
 {
-  "id": "ATTEMPT-EXPLANATORY-CLOSURE-745",
+  "id": "8558fbde-7c21-58b2-9f67-1e309470ad79",
+  "label": "Tested whether a complete joint cause must account for its indispensable conditions or whether…",
+  "legacy_id": "ATTEMPT-EXPLANATORY-CLOSURE-745",
   "date": "2026-10-31",
   "statement_ids": [
-    "STMT-EXPLANATORY-CLOSURE-CERTIFICATE",
-    "STMT-JOINT-COOPERATION-CERTIFICATE",
-    "STMT-DERIVATIVE-JOINT-POWER-CERTIFICATE",
-    "STMT-CONDENSATION-SUFFICIENCY-CERTIFICATE"
+    "99ebc1c1-d568-598c-b165-8021e9427189",
+    "2a96fc3d-049d-5627-adcf-5143ac9b22b0",
+    "aed524e8-0a39-53bc-8c28-699bef3ba511",
+    "17a40aab-459b-5c12-a8c5-6ebe106f3f79"
   ],
   "kind": "countermodel",
   "outcome": "succeeded",
   "summary": "Tested whether a complete joint cause must account for its indispensable conditions or whether that demand is a PSR by another name. Findings: a complete record with every contributor supplied can leave a contingent enabler with no record, so closure does not follow from conditional completeness. Demanded of every contingent event, closure with stops at scenario necessity is equivalent to the contingent-fact PSR of the record arena under coherence and memberful records, so in that scope it collapses into a listed form. Demanded of one target it is strictly weaker, unless the target's records list every other contingent event. Closure does not give foundation: chain and cycle models close. Rejected: resting the demand on scenario indispensability, because a one-scenario restriction of the same records removes it and an equal occurrence table with different records changes the verdict. Rejected: treating an SCC as a unit that meets the demand, because condensation gives the cycle component Supply with no intrinsic event while inductive closure fails. No independent justification of the recursive step was found; candidates tried are listed in docs/notes/explanatory-closure-745.md. StoppingPoints (#770) and DerivativeReply (#776) were unmerged at start and not imported.",
   "blocker": "Whether closure is demanded of ultimate explanation remains an open normative question, and no premise of it is added. Closure is over listed records, so a defended productive notion of membership is still missing, and bearer existence is not treated. No root premise discharged.",
   "evidence": [
-    "EXPLANATORY-CLOSURE-CERTIFICATE",
-    "JOINT-COOPERATION-CERTIFICATE",
-    "DERIVATIVE-JOINT-POWER-CERTIFICATE",
-    "CONDENSATION-SUFFICIENCY-CERTIFICATE",
-    "EXPLANATORY-ADEQUACY-CORE"
+    "f85ac952-c629-597c-b903-741815744b9a",
+    "51c2e397-abcd-517e-ab06-fa2b4f961ff9",
+    "e0907d07-1e34-54cb-b60a-7290cc11f397",
+    "29afde99-ee02-5a95-ad82-6a5f61f999d5",
+    "94ae21f5-ec46-575f-90f2-dec9ce70c27a"
   ]
 }

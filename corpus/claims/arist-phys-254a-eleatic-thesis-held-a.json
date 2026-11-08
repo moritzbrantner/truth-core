@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-254A-ELEATIC-THESIS-HELD-A",
-  "statement_id": "STMT-ELEATIC-THESIS-IS-OPINED",
-  "source_id": "ARIST-PHYS",
+  "id": "9636ade4-2225-5dd5-b4e6-45d86dd9cf59",
+  "label": "Aristotle, Physics VIII.3, 254a24: The Eleatic thesis is held: someone opines that nothing is moved",
+  "legacy_id": "ARIST-PHYS-254A-ELEATIC-THESIS-HELD-A",
+  "statement_id": "e7354ea4-d864-5b3f-b691-01fe745788bf",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "VIII.3, 254a24: καθάπερ φασί τινες",
   "interpretation": "'As some say': Aristotle attests that the thesis is held. Read as: someone opines that nothing is moved. This is the self-applicative premise of the retorsion; it says that the rival has a holder, not that the holder is right.",
   "status": "formalized"

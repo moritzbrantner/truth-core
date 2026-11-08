@@ -1,14 +1,16 @@
 {
-  "id": "COLLECTIVE-COUNTERCASE-NEGATES-COLLECTIVE-PREMISE",
+  "id": "4a87de05-3120-50f4-b26b-641ef97621d1",
+  "label": "Exact negation of the original…, from Each being can not-be, yet common absence…",
+  "legacy_id": "COLLECTIVE-COUNTERCASE-NEGATES-COLLECTIVE-PREMISE",
   "premise_statement_ids": [
-    "STMT-COLLECTIVE-POSSIBILITY-PRECISE-COUNTERCASE"
+    "04b12576-1645-556b-a0a8-1efd8e5fcbfb"
   ],
-  "conclusion_statement_id": "STMT-COLLECTIVE-POSSIBILITY-FAILS",
+  "conclusion_statement_id": "dbd03eab-fccb-5f7d-8891-7fe2431863eb",
   "inference_ids": [
-    "INF-COLLECTIVE-COUNTERCASE-NEGATES-COLLECTIVE-PREMISE"
+    "cdb56d3d-31f7-5a37-9c9f-eeb040b6cef4"
   ],
   "meaning": "The actual countercase branch negates the SAME collective premise. Keeps the structural OR branch connected to its deciding consequence.",
   "definition_ids": [
-    "DEF-COLLECTIVE-POSSIBILITY-LOCAL-PROOF-ROUTE"
+    "e571cfe0-5cd9-51ea-8ded-30f55da48855"
   ]
 }

@@ -1,14 +1,16 @@
 {
-  "id": "NT-JOHN-SENDING-ASSERTION",
-  "statement_id": "STMT-REPORTED-JOHN-SENDING-ASSERTION",
-  "source_id": "NT-JOHN",
+  "id": "e3435238-9f47-5bf4-8caa-523fa89e1a68",
+  "label": "New Testament, John 8.42: The narrative attributes to Jesus the assertion that God sent him rather…",
+  "legacy_id": "NT-JOHN-SENDING-ASSERTION",
+  "statement_id": "868ee1a8-5a52-5a95-8edb-010806c80339",
+  "source_id": "095a7a46-5027-51ac-981f-3dd5f832d95d",
   "locator": "8.42",
   "interpretation": "The final clauses distinguish being sent by God from coming from oneself. They do not settle the nature or prior mode of existence of the sent speaker. See docs/john-abraham-saying.md.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-JOHN-ABRAHAM-SPEECH-REPORT"
+    "0a359c54-962d-5355-b472-59001c8a3268"
   ],
   "disambiguation_ids": [
-    "DISAMB-JOHN-I-AM-CONTEXT-AND-TRUTH"
+    "bb48b6c3-f5d1-5f1a-9dcf-db88744d89e0"
   ]
 }

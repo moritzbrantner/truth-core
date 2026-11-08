@@ -1,22 +1,24 @@
 {
-  "id": "ATTEMPT-UNDERIVED-ROOT-PERFECTION-20261101",
+  "id": "539ba80c-bd89-5a08-833b-e0872149ab84",
+  "label": "Preserve the SAME supplied necessary concrete underived witness n",
+  "legacy_id": "ATTEMPT-UNDERIVED-ROOT-PERFECTION-20261101",
   "date": "2026-11-01",
   "kind": "derivation",
   "outcome": "succeeded",
   "statement_ids": [
-    "STMT-NECESSARY-CONCRETE-UNDERIVED-AT",
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS",
-    "STMT-EXISTING-IN-ACT-AT",
-    "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
-    "STMT-GRADES-TO-MAXIMUM-AT-BEING",
-    "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING",
-    "STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE",
-    "STMT-DIRECT-ESSE-ROOT-PERFECTION"
+    "0bdcf366-29c7-5d45-b603-5c929dcad976",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "da09703b-0b1e-5dca-9dd7-6c0c8d1610d7",
+    "0436de86-6579-53f2-9ff5-2111ba44ebae",
+    "cb1cdea9-eb6c-578c-8008-84e0d4107fd3",
+    "e4e6b0cd-f61a-5605-a302-573c67cf063a",
+    "7067553d-cad9-5d79-b6b2-912e35051530",
+    "64498e7e-7f10-54a0-9ec0-c65e6076de1f",
+    "7abdee27-8abc-59d9-9b20-740616a1a8dd"
   ],
   "evidence": [
-    "UNDERIVED-ROOT-PERFECTION",
-    "DIRECT-ESSE-ROOT-PERFECTION",
+    "71cc3e91-3146-53c5-9cad-a1dee0f4aa76",
+    "0e6558ab-01e7-545c-af41-0cb6b1142635",
     "PR-913",
     "PR-912"
   ],

@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CC100-85-CONTINGENTS-COMPOSITE-TEMPORAL",
+  "id": "0e15e70f-4b93-5352-bb90-7494ca216358",
+  "label": "All contingent beings are composite and temporal",
+  "legacy_id": "STMT-CC100-85-CONTINGENTS-COMPOSITE-TEMPORAL",
   "paraphrase": "All contingent beings are composite and temporal.",
   "definition_ids": [
-    "DEF-CC100-85-TEMPORAL-SUSTAINING-EXPLANATION"
+    "f65d68ee-3c6a-57e7-8493-9b0e96a8cc50"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

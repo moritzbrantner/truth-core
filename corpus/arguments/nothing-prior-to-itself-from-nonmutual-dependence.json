@@ -1,18 +1,20 @@
 {
-  "id": "NOTHING-PRIOR-TO-ITSELF-FROM-NONMUTUAL-DEPENDENCE",
+  "id": "820b7701-10bd-57aa-bdb8-3c9f6de11ac9",
+  "label": "Nothing is prior to itself, from nonmutual dependence",
+  "legacy_id": "NOTHING-PRIOR-TO-ITSELF-FROM-NONMUTUAL-DEPENDENCE",
   "premise_statement_ids": [
-    "STMT-PRIORITY-REQUIRES-NONMUTUAL-DEPENDENCE"
+    "47aff057-35ef-5418-930b-fef72e1104d2"
   ],
-  "conclusion_statement_id": "STMT-NOTHING-PRIOR-TO-ITSELF",
+  "conclusion_statement_id": "32d77f18-a9c2-5486-b51c-a24f32863af4",
   "inference_ids": [
-    "INF-NOTHING-PRIOR-TO-ITSELF-FROM-NONMUTUAL-DEPENDENCE"
+    "c3e249a4-114a-5fad-ba76-db0da6abe667"
   ],
   "meaning": "If simple priority requires nonmutual dependence, nothing is simply prior to itself: x prior to x would make x both depend and not depend on x. Uses only the necessary direction of the dependence analysis of priority, not the sufficient one.",
   "definition_ids": [
-    "DEF-DEPENDS-FOR-BEING",
-    "DEF-SIMPLE-PRIORITY"
+    "bf26b9b2-41ed-55b0-9557-dae90ab9b81f",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSE"
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
   ]
 }

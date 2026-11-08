@@ -1,6 +1,8 @@
 {
-  "id": "PSR-COLLAPSE-CORE",
-  "argument_id": "PSR-COLLAPSE-CORE",
+  "id": "0f3d25c7-cbb1-5a4d-b30c-cc9cb9752d7e",
+  "label": "Given that a conjunct is true wherever its aggregate is, no comparison arena has a world with a…",
+  "legacy_id": "PSR-COLLAPSE-CORE",
+  "argument_id": "d9c55fcb-d0fe-5dc2-9882-ef9821bd4fa0",
   "challenge_module": "TruthCore.Results.Explanation.PSRStrength.Challenge",
   "solution_module": "TruthCore.Results.Explanation.PSRStrength.Solution",
   "theorem": "TruthCore.Results.Explanation.PSRStrength.collapseCore",

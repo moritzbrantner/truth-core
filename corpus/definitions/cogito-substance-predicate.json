@@ -1,5 +1,7 @@
 {
-  "id": "DEF-COGITO-SUBSTANCE-PREDICATE",
+  "id": "f31b2ba4-190d-56f8-903e-9953ae139773",
+  "label": "Substance: Substance: Subject → Prop is a primitive, unconstrained predicate on bearers",
+  "legacy_id": "DEF-COGITO-SUBSTANCE-PREDICATE",
   "term": "substance (as a predicate of a thought's bearer)",
   "definition": "`Substance : Subject → Prop` is a primitive, unconstrained predicate on bearers. `EveryBearerIsSubstance Occurs Bears Substance` is `∀ s e, Occurs e → Bears s e → Substance s`; `SomeSubstantialThinkingSubject` is `∃ s e, Occurs e ∧ Bears s e ∧ Substance s`. No condition of independence, persistence, unity or subsistence is built in.",
   "basis": "stipulative",

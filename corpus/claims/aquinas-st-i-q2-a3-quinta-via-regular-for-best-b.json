@@ -1,9 +1,11 @@
 {
-  "id": "AQUINAS-ST-I-Q2-A3-QUINTA-VIA-REGULAR-FOR-BEST-B",
-  "statement_id": "STMT-SOME-NATURAL-BODIES-ACT-REGULARLY-FOR-THE-BEST",
-  "source_id": "AQUINAS-ST",
+  "id": "484c1d10-3041-54c4-b212-4a1e2fc177d9",
+  "label": "Thomas Aquinas, Summa theologiae I q.2 a.3…: Some natural body operates always or for the most…",
+  "legacy_id": "AQUINAS-ST-I-Q2-A3-QUINTA-VIA-REGULAR-FOR-BEST-B",
+  "statement_id": "fa37dde9-3fd0-506b-9c8c-b2d70511f788",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.2 a.3 co., quinta via: semper aut frequentius eodem modo operantur, ut consequantur id quod est optimum",
   "interpretation": "Reading B: aliqua taken literally, so only some natural body is said to operate regularly for the best. With it the argument reaches only those bodies, not omnes res naturales. Not used by any result.",
   "status": "formalized",
-  "interpretation_of": "AQUINAS-ST-I-Q2-A3-QUINTA-VIA-REGULAR-FOR-BEST-A"
+  "interpretation_of": "5e02ecf8-9672-576b-a44b-1e7cf3be4c30"
 }

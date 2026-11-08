@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-185A-BEING-SENSES-A",
-  "statement_id": "STMT-BEING-HAS-SEVERAL-SENSES",
-  "source_id": "ARIST-PHYS",
+  "id": "a15d09a1-6091-53d3-a815-2e3d2b8a7b24",
+  "label": "Aristotle, Physics I.2, 185a20-185b5: BEING_1 is said in several senses, including substance…",
+  "legacy_id": "ARIST-PHYS-185A-BEING-SENSES-A",
+  "statement_id": "b6c9b506-0f3c-58bd-89e1-9e3ac65664f7",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.2, 185a20-185b5",
   "interpretation": "Semantic objection to unrestricted monism: 'being' is used across categories such as substance, quantity, and quality, so the thesis that all things are one cannot proceed as if being were univocal without specifying its sense.",
   "status": "formalized"

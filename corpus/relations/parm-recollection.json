@@ -1,8 +1,10 @@
 {
-  "id": "REL-PARM-RECOLLECTION",
+  "id": "c568c6ee-4349-582c-9994-58310aae7f6a",
+  "label": "Plato, Phaedo 74b–d: From seeing equal… supports Some human mode has direct cognitive access…",
+  "legacy_id": "REL-PARM-RECOLLECTION",
   "subject_kind": "claim",
-  "subject_id": "PLATO-PHAEDO-74B-MEDIATED-ACCESS",
+  "subject_id": "01fe4ce3-40fa-5091-8d37-46b535a0cfd8",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-PARM-HUMAN-ROUTE"
+  "object_id": "bce99980-bc76-5837-8e36-333828f4018f"
 }

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-UNIFORM-GROUND",
+  "id": "a0e9672c-7130-5153-9a04-1078bab85d05",
+  "label": "UNIFORM_GROUND_2: UniformGround A a d says that one and the same fact is admitted as a reason for d…",
+  "legacy_id": "DEF-UNIFORM-GROUND",
   "term": "uniform ground (exists-box reason)",
   "definition": "UniformGround A a d says that one and the same fact is admitted as a reason for d at every world accessible from a. It is the quantifier shift of LocallyGrounded and is strictly stronger: the truthmakers model has local grounds and no uniform ground.",
   "basis": "stipulative",

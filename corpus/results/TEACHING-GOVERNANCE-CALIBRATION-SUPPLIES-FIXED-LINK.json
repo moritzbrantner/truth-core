@@ -1,6 +1,8 @@
 {
-  "id": "TEACHING-GOVERNANCE-CALIBRATION-SUPPLIES-FIXED-LINK",
-  "argument_id": "TEACHING-GOVERNANCE-CALIBRATION-SUPPLIES-FIXED-LINK",
+  "id": "908599ae-7408-5eed-bee4-d5c8c76ea0cb",
+  "label": "Open fixed broader institutional bridge…, from The selected governing predicate holds… and 1 more",
+  "legacy_id": "TEACHING-GOVERNANCE-CALIBRATION-SUPPLIES-FIXED-LINK",
+  "argument_id": "73706f84-2250-5a29-9957-796eca90fbb0",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Matching.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Matching.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Matching.teachingCalibrationSuppliesLiteralLink",

@@ -1,6 +1,8 @@
 {
-  "id": "ACTUAL-MESSAGE-ONLY-REJECTS-CATHOLIC-MANDATE-SCOPE",
-  "argument_id": "ACTUAL-MESSAGE-ONLY-REJECTS-CATHOLIC-MANDATE-SCOPE",
+  "id": "d25c4f32-880b-5fc8-b393-07831302bd7e",
+  "label": "Exact negation of the conditional…, from Rival to mandate covers jesus founding of… and 1 more",
+  "legacy_id": "ACTUAL-MESSAGE-ONLY-REJECTS-CATHOLIC-MANDATE-SCOPE",
+  "argument_id": "16dfaf4f-49a8-573b-8ed2-dc9eddd89bca",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Scope.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Scope.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.actualMessageOnlyRejectsCatholicScope",

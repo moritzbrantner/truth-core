@@ -1,6 +1,8 @@
 {
-  "id": "MIND-CAUSAL-PREMISES-PHYSICALIST-FORK",
-  "argument_id": "MIND-CAUSAL-PREMISES-PHYSICALIST-FORK",
+  "id": "29603427-285b-5edf-bd68-39ebb425437e",
+  "label": "For the target kind of a frame, at least…, from Excluded middle as a general principle… and 3 more",
+  "legacy_id": "MIND-CAUSAL-PREMISES-PHYSICALIST-FORK",
+  "argument_id": "fadd07ce-ca00-5153-b075-3ab24b99b6c7",
   "challenge_module": "TruthCore.Results.Comparison.MindPhysicalism.Challenge",
   "solution_module": "TruthCore.Results.Comparison.MindPhysicalism.Solution",
   "theorem": "TruthCore.Results.Comparison.MindPhysicalism.physicalistFork",

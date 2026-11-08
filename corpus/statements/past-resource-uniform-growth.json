@@ -1,13 +1,15 @@
 {
-  "id": "STMT-PAST-RESOURCE-UNIFORM-GROWTH",
+  "id": "09fd3bc4-2819-5dbb-8474-eb90ace7914c",
+  "label": "At every integer t<now, stock at t+1 is at least stock at t plus the same real epsilon",
+  "legacy_id": "STMT-PAST-RESOURCE-UNIFORM-GROWTH",
   "paraphrase": "At every integer t<now, stock at t+1 is at least stock at t plus the same real epsilon. Strict positivity of epsilon is a separate premise; future steps after now are unrestricted.",
   "lean_declaration": "TruthCore.Causality.BoundedPastResource.UniformPastGrowth",
   "definition_ids": [
-    "DEF-PAST-RESOURCE-STOCK",
-    "DEF-PAST-RESOURCE-LOWER-BOUND",
-    "DEF-PAST-RESOURCE-UNIFORM-GROWTH"
+    "12b6271c-f67a-5d26-94a0-a17b6192a053",
+    "230a64cf-b1cf-579c-b1d7-ddd1db5677b4",
+    "b0944d60-ed09-519f-914b-899491e0e836"
   ],
   "disambiguation_ids": [
-    "DISAMB-PAST-RESOURCE-TIME-BUDGET"
+    "73c7ce46-6282-5403-ab0a-5b4f42e759fa"
   ]
 }

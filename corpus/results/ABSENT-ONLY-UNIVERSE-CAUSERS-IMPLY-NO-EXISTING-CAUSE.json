@@ -1,6 +1,8 @@
 {
-  "id": "ABSENT-ONLY-UNIVERSE-CAUSERS-IMPLY-NO-EXISTING-CAUSE",
-  "argument_id": "ABSENT-ONLY-UNIVERSE-CAUSERS-IMPLY-NO-EXISTING-CAUSE",
+  "id": "2a615dc1-eab4-5eff-a083-00b856367493",
+  "label": "Exact negation of the existing…, from A candidate edge to the selected whole…",
+  "legacy_id": "ABSENT-ONLY-UNIVERSE-CAUSERS-IMPLY-NO-EXISTING-CAUSE",
+  "argument_id": "fccc5a79-14a3-54a4-bedf-04ef91307ea1",
   "challenge_module": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.AbsentProjection.Challenge",
   "solution_module": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.AbsentProjection.Solution",
   "theorem": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.AbsentProjection.absentProjection",

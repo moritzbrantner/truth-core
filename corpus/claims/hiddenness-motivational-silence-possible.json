@@ -1,18 +1,20 @@
 {
-  "id": "REA-SILENCE-MOTIVATIONAL-SILENCE-POSSIBLE",
-  "statement_id": "STMT-HIDDENNESS-MOTIVATIONAL-SILENCE-POSSIBLE",
-  "source_id": "REA-DIVINE-HIDDENNESS-SILENCE",
+  "id": "b5f45878-4234-5c06-ba40-30c2f4fc7268",
+  "label": "Michael C. Rea, Divine Hiddenness Divine…: Rea proposes that hiddenness may foster a freely given…",
+  "legacy_id": "REA-SILENCE-MOTIVATIONAL-SILENCE-POSSIBLE",
+  "statement_id": "c1db919a-408b-5303-9970-5431716606e0",
+  "source_id": "89625e16-6abe-5a5f-a21d-e856a11de80d",
   "locator": "Divine Hiddenness, Divine Silence, p. 271, Good Reason? freedom and Bill Gates analogies",
   "interpretation": "Proposal reading only. The analogy distinguishes coercion from compromised genuineness. It does not demonstrate a sufficient reason for every capable nonresister’s lack of modest belief, nor prove that no less withholding means could serve the same good.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-HIDDENNESS-SUFFICIENT-REASON",
-    "DEF-HIDDENNESS-ACCEPTANCE",
-    "DEF-HIDDENNESS-BELIEF",
-    "DEF-HIDDENNESS-CONSCIOUS-ACCESS"
+    "ff4cfd4c-1116-5531-b959-34a8fbe626cd",
+    "ebab35c1-14a4-5beb-b44f-c67b3363d0c1",
+    "608e0f97-3dbb-5bfd-9688-acecfb2f1fdf",
+    "e83e512d-ae8d-5e80-a697-8fc1d672b7d3"
   ],
   "disambiguation_ids": [
-    "DISAMB-HIDDENNESS-BELIEF-RESPONSE",
-    "DISAMB-HIDDENNESS-LOVE-ACCESS"
+    "93eabf90-e39b-5546-8a01-6c4b66d700d0",
+    "fa0875d8-68c8-5520-ae18-58bb8a5808e8"
   ]
 }

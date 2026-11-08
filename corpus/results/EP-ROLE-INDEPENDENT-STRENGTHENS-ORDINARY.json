@@ -1,6 +1,8 @@
 {
-  "id": "EP-ROLE-INDEPENDENT-STRENGTHENS-ORDINARY",
-  "argument_id": "EP-ROLE-INDEPENDENT-STRENGTHENS-ORDINARY",
+  "id": "dbdb04d7-79b4-5c34-98a6-38efb6382f7b",
+  "label": "Some subject, consideration and attitude toward…, from Some ordinary-role epistemic reason retains…",
+  "legacy_id": "EP-ROLE-INDEPENDENT-STRENGTHENS-ORDINARY",
+  "argument_id": "9b6b4658-2ddf-506d-8f71-431a02d66e63",
   "challenge_module": "TruthCore.Results.Logic.EpistemicReasonDefinitions.IndependentStrength.Challenge",
   "solution_module": "TruthCore.Results.Logic.EpistemicReasonDefinitions.IndependentStrength.Solution",
   "theorem": "TruthCore.Results.Logic.EpistemicReasonDefinitions.IndependentStrength.independentStrengthensOrdinary",

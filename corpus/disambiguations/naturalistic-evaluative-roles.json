@@ -1,11 +1,13 @@
 {
-  "id": "DISAMB-NATURALISTIC-EVALUATIVE-ROLES",
+  "id": "685dae72-5d39-5905-955e-c2cd404d6932",
+  "label": "Good, right, and a person’s good in naturalistic comparison",
+  "legacy_id": "DISAMB-NATURALISTIC-EVALUATIVE-ROLES",
   "term": "good, right, and a person’s good in naturalistic comparison",
   "sense_definition_ids": [
-    "DEF-RAILTON-NONMORAL-WELFARE",
-    "DEF-RAILTON-IMPARTIAL-RIGHTNESS",
-    "DEF-BOYD-HOMEOSTATIC-GOODNESS",
-    "DEF-NATURAL-LAW-FIRST-PRECEPT"
+    "7d48c639-2ece-50e2-b94d-487a62bb4418",
+    "d32ee06f-a6d3-5912-a689-fc3da94c1c8c",
+    "1ad46e75-d8f0-515c-9d27-3632b5945195",
+    "4e86d1ed-86f3-5ed2-b484-78a012f0bfa1"
   ],
   "resolution": "Railton’s welfare concerns what is good for a person; his rightness concerns equal consideration of affected interests. Boyd’s fragment concerns positive moral goodness through homeostatic human goods. Catholic practical good concerns the first precept. These distinct roles are compared, not substituted. DescriptiveTruth is explicitly instantiated separately with Right or positive GoodAct; the finite model satisfying both does not prove their philosophical identity or establish all-things-considered obligation."
 }

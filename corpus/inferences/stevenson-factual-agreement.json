@@ -1,12 +1,14 @@
 {
-  "id": "INF-STEVENSON-FACTUAL-AGREEMENT",
+  "id": "c87859c8-1ef4-51bd-9517-a3dd4ecb70bf",
+  "label": "The three existing Stevenson commitments and the structured primary…, by Model-construction",
+  "legacy_id": "INF-STEVENSON-FACTUAL-AGREEMENT",
   "input_statement_ids": [
-    "STMT-FREE-MORAL-ASSERTION-EXPRESSES-ATTITUDE",
-    "STMT-MORAL-SENTENCES-HAVE-DESCRIPTIVE-MEANING",
-    "STMT-MORAL-DISAGREEMENT-INCLUDES-ATTITUDE-CLASH",
-    "STMT-STEVENSON-STRUCTURED-DISAGREEMENT"
+    "7f487251-b5ac-53c1-bbad-d01c1262c7fb",
+    "319dfe30-67cc-59ff-a191-ed1bc54a1f72",
+    "49c0b58e-6878-54ed-a16a-9f6fd31ca6d5",
+    "d0085789-434a-5a4a-a039-28eb9a8efbe2"
   ],
-  "output_statement_id": "STMT-STEVENSON-FACTUAL-AGREEMENT-CONSISTENT",
+  "output_statement_id": "9989988f-8f08-50df-be42-36df703dc606",
   "rule": "model-construction",
   "meaning": "An explicit refinement of the existing two-agent model has opposed interests and mutual redirection, while both agents agree on a nonempty factual domain. Retains the three earlier commitments and adds the primary structured reading. This is consistency within encoded commitments, not a refutation, actual-world truth or derivation of moral validity.",
   "assumption_statement_ids": [],

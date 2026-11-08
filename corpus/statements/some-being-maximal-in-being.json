@@ -1,14 +1,15 @@
 {
-  "id": "STMT-SOME-BEING-MAXIMAL-IN-BEING",
+  "id": "fad8af3e-3e4e-582a-a592-0164bdd62527",
   "label": "Some being is MAXIME_1 (maximal) in being",
+  "legacy_id": "STMT-SOME-BEING-MAXIMAL-IN-BEING",
   "paraphrase": "MAXIME_1 (attribution deferred): some being is MAXIMAL in being: it has being and nothing is more a being than it. It does not say that this being exceeds every other being.",
   "lean_declaration": "TruthCore.Causality.TermSenseForks.SomeBeingMaximalInBeing",
   "definition_ids": [
-    "DEF-MAXIME-ENS",
-    "DEF-MORE-IN",
-    "DEF-ESSE"
+    "a2a8de58-42e0-5481-b7fb-848ae8602036",
+    "5766de66-8a37-5b04-aa65-9eec53319f50",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
   ],
   "disambiguation_ids": [
-    "DISAMB-MAXIME-ENS"
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
   ]
 }

@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-188B-ANALOGICAL-PRINCIPLES-A",
-  "statement_id": "STMT-CONTRARY-PRINCIPLES-ANALOGICALLY-SAME",
-  "source_id": "ARIST-PHYS",
+  "id": "5c819b59-c2ee-5c26-9e02-c21e19bc9c68",
+  "label": "Aristotle, Physics I.5, 188b27-189a4: Predecessor principles differ in their selected contrary…",
+  "legacy_id": "ARIST-PHYS-188B-ANALOGICAL-PRINCIPLES-A",
+  "statement_id": "74076cab-4703-524d-8443-0786362aea0f",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.5, 188b27-189a4",
   "interpretation": "Different predecessors choose different contrary pairs, but Aristotle treats them as analogically the same while distinguishing wider and narrower explanatory pairs.",
   "status": "formalized"

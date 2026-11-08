@@ -1,6 +1,8 @@
 {
-  "id": "FINITE-HITTING",
-  "argument_id": "FINITE-HITTING",
+  "id": "b5ca40ab-9e00-5188-8788-3e60298ae6db",
+  "label": "Full #561 conditional cluster: FINITE_HITTING_1 plus subset amalgamation yields a fixed necessary…",
+  "legacy_id": "FINITE-HITTING",
+  "argument_id": "2afa490e-c43a-5cdb-b28a-dd1012c12b6e",
   "challenge_module": "TruthCore.Results.Modal.FiniteHitting.Challenge",
   "solution_module": "TruthCore.Results.Modal.FiniteHitting.Solution",
   "theorem": "TruthCore.Results.Modal.FiniteHitting.checks",

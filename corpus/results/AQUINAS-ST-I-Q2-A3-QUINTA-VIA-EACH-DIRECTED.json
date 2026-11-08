@@ -1,6 +1,8 @@
 {
-  "id": "AQUINAS-ST-I-Q2-A3-QUINTA-VIA-EACH-DIRECTED",
-  "argument_id": "AQUINAS-ST-I-Q2-A3-QUINTA-VIA-EACH-DIRECTED",
+  "id": "0051ee3a-3013-50f4-9ef1-ac1cfb45006e",
+  "label": "Each natural body is directed to something best for it by some knowing and…, via each directed",
+  "legacy_id": "AQUINAS-ST-I-Q2-A3-QUINTA-VIA-EACH-DIRECTED",
+  "argument_id": "660caa99-e338-580a-afe0-59b291c8a40c",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaEachDirected.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaEachDirected.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaEachDirected.eachDirected",

@@ -1,5 +1,7 @@
 {
-  "id": "STMT-SHARED-ACTUALITY-DIFFERENT-ACCOUNT",
+  "id": "052d88c9-1c1c-5d6c-8a15-6f3d9008fd74",
+  "label": "The agent and patient may share one underlying actuality while their activities differ in account",
+  "legacy_id": "STMT-SHARED-ACTUALITY-DIFFERENT-ACCOUNT",
   "paraphrase": "The agent and patient may share one underlying actuality while their activities differ in account.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.SharedActualityDifferentAccountReading"
 }

@@ -1,31 +1,33 @@
 {
-  "id": "QUARTA-VIA-UNBOUNDED-CORE",
+  "id": "4723de84-62b2-52e8-8360-443507be5cd5",
+  "label": "Logical falsity, via unbounded core",
+  "legacy_id": "QUARTA-VIA-UNBOUNDED-CORE",
   "premise_statement_ids": [
-    "STMT-GRADES-HAVE-A-MAXIMUM",
-    "STMT-THINGS-MORE-AND-LESS-GOOD-TRUE-NOBLE",
-    "STMT-QUARTA-VIA-UNBOUNDED-DEGREES"
+    "6c27657f-a2bf-5c1d-963c-c154b66bfa85",
+    "a9622441-2db2-5d32-9b02-a9d283bd2949",
+    "15c570f5-1a38-54b8-a20a-175f334fff3e"
   ],
-  "conclusion_statement_id": "STMT-CONFIGURATION-FALSE",
+  "conclusion_statement_id": "37f33696-dc47-5bd3-9cd8-edfd5bf00aa5",
   "inference_ids": [
-    "INF-QUARTA-VIA-UNBOUNDED-CORE"
+    "689469bb-4fb0-5191-b642-b3da7a904ffe"
   ],
   "meaning": "The grades observation supplies one member a of the shared Being carrier; it is used only for this population fact. Unbounded degree extension at esse gives a being b more such than a. The existing grades-to-maximum principle at esse then supplies a maximal being m, and extension at m supplies a being more such than m, contradicting its maximality. The three explicit premises therefore cannot coexist. No homogeneous scale, preorder, totality, genus principle, causal-ascent premise, causal relation, or excluded middle is used; MoreIn remains the shared primitive comparative. This connects the degree fork's unbounded branch to an existing root-path maximum-existence assumption without establishing either side or selecting a preferred member for rejection. The stronger two-premise boundary is that the maximum principle and unbounded extension admit no member of Being; observed grades rule out that empty-carrier case. Supplementary closed Comparator obligations separately witness every single deletion: the same finite Bool interpretation satisfies maximum and grades while extension fails; the same infinite Nat interpretation satisfies grades and extension while the maximum principle fails; the same Empty-carrier interpretation satisfies both universal principles vacuously while grades fail. Nat and Empty are not represented as nonempty finite-registry witnesses, so automatic registered inclusion-minimality remains unavailable. These are formal omission controls, not metaphysical emptiness, source attribution of a new rival, or truth of a premise. No root premise changes.",
   "definition_ids": [
-    "DEF-BEING-AS-ENTITY",
-    "DEF-RESPECT",
-    "DEF-ACT",
-    "DEF-ESSE",
-    "DEF-MORE-IN",
-    "DEF-MAXIMUM-IN-A-PERFECTION",
-    "DEF-ONTOLOGICAL-TRUTH",
-    "DEF-ONTOLOGICAL-TRUTH-COMPARISON",
-    "DEF-CONFIGURATION-FALSE"
+    "4b8fac5c-91f0-5e82-b095-9f4e96d1d6a9",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "5766de66-8a37-5b04-aa65-9eec53319f50",
+    "ad844320-77ce-5786-96d7-4b02f874269d",
+    "b412016a-43c1-5c4a-abb0-4e53d343d508",
+    "aad0156a-e1eb-5b6a-bb97-526698065277",
+    "7eeee571-aad0-5bba-ac81-6bb9604ef678"
   ],
   "disambiguation_ids": [
-    "DISAMB-BEING-UNIVOCITY",
-    "DISAMB-ORDER-OF-BEING",
-    "DISAMB-IN-ACT",
-    "DISAMB-TRUE",
-    "DISAMB-MAXIME-ENS"
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58",
+    "1795a62e-f78b-5f5b-94e7-9e7490824811",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "80b5fc49-ed55-5c61-b14b-3621d2aa1520",
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
   ]
 }

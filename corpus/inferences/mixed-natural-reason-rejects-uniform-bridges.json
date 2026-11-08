@@ -1,9 +1,11 @@
 {
-  "id": "INF-MIXED-NATURAL-REASON-REJECTS-UNIFORM-BRIDGES",
+  "id": "ec19b850-59e5-5b35-8550-c437f369b7ac",
+  "label": "Both uniform interpretations fail: not every natural-knowability move is…, by Constructive-proof",
+  "legacy_id": "INF-MIXED-NATURAL-REASON-REJECTS-UNIFORM-BRIDGES",
   "input_statement_ids": [
-    "STMT-NATURAL-REASON-IS-MIXED"
+    "1458d561-997b-5eff-a3b5-5b54382275db"
   ],
-  "output_statement_id": "STMT-UNIFORM-NATURAL-REASON-BRIDGES-REJECTED",
+  "output_statement_id": "9b85baf4-bd6f-5ffd-87d9-5dd70b3a132c",
   "rule": "constructive-proof",
   "meaning": "The nonshared witness defeats the universal shared bridge; the shared witness defeats universal nonsharedness. This is a local standard-profile constraint, not a refutation of the descriptive horizon or a whole worldview.",
   "assumption_statement_ids": [],

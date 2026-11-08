@@ -1,11 +1,13 @@
 {
-  "id": "DEF-PROTAGOREAN-MEASURE",
+  "id": "4ac942cf-a067-5166-81dc-589d6fd8ca41",
+  "label": "Protagorean measure doctrine: MeasureDoctrine Seems T: whatever seems so to someone is true for…",
+  "legacy_id": "DEF-PROTAGOREAN-MEASURE",
   "term": "Protagorean measure doctrine",
   "definition": "`MeasureDoctrine Seems T`: whatever seems so to someone is true for that one. `RestrictedMeasureDoctrine` restricts it to a demarcated domain.",
   "basis": "sourced",
   "claim_ids": [
-    "PLATO-THEAET-170A-MEASURE-A",
-    "PLATO-THEAET-171D-172B-RESTRICTED-MEASURE-A"
+    "26490b28-b822-5d46-a742-d5a608d599d1",
+    "07d148d5-ad03-5639-8019-34733e163311"
   ],
   "lean_declaration": "TruthCore.Greek.Plato.Theaetetus.MeasureDoctrine"
 }

@@ -1,6 +1,8 @@
 {
-  "id": "TRUTHMAKER-TRUTHSET-NONUNIFORMITY",
-  "argument_id": "TRUTHMAKER-TRUTHSET-NONUNIFORMITY",
+  "id": "ebf5aa7c-9a0b-5f47-a69b-14f28bf05c1b",
+  "label": "On the same alternating two-world ontology, Fact is every Bool-to-Prop truth set, holds is…",
+  "legacy_id": "TRUTHMAKER-TRUTHSET-NONUNIFORMITY",
+  "argument_id": "c7ac7419-0cac-5bfd-83b2-6c65d829a6ab",
   "challenge_module": "TruthCore.Results.Explanation.TruthmakerTheories.TruthSets.Challenge",
   "solution_module": "TruthCore.Results.Explanation.TruthmakerTheories.TruthSets.Solution",
   "theorem": "TruthCore.Results.Explanation.TruthmakerTheories.truthSetMap",

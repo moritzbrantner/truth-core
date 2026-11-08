@@ -1,14 +1,16 @@
 {
-  "id": "STMT-SELECTED-HUMAN-SOUL-BODY-UNION",
+  "id": "1754944c-4901-59cb-816c-7e6eab3ea73d",
+  "label": "The selected whole human is united with its soul bearer and bodily recipient, through the…",
+  "legacy_id": "STMT-SELECTED-HUMAN-SOUL-BODY-UNION",
   "paraphrase": "OPEN actual-union input at the selected state: the selected whole human is united with its soul bearer and bodily recipient, through the separately supplied soulOf/bodyOf maps. No current actual human or metaphysical possibility is established by selecting these role labels.",
   "lean_declaration": "TruthCore.Causality.EsseReceptionDefinitionFork.SelectedUnion",
   "definition_ids": [
-    "DEF-UNITED-ESSE-RECEPTION-INTERPRETATION-PROFILE",
-    "DEF-ESSE-RECEIVED-IN",
-    "DEF-ESSENCE-THOMISTIC-NATURE"
+    "cd5ae150-60fb-5992-8bd7-6a383b700ca6",
+    "4433942e-aaf6-55a9-b777-66e55638103d",
+    "183b48d2-1753-583d-aef9-4199cff86231"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSE-RECEPTION",
-    "DISAMB-ESSENCE"
+    "5921354b-51e6-5da3-8d8c-e9041840fd9f",
+    "1aef8986-ed29-564f-9803-d812d2ff63e1"
   ]
 }

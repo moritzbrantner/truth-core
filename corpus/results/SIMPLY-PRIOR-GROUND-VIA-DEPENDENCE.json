@@ -1,6 +1,8 @@
 {
-  "id": "SIMPLY-PRIOR-GROUND-VIA-DEPENDENCE",
-  "argument_id": "SIMPLY-PRIOR-GROUND-VIA-DEPENDENCE",
+  "id": "dede4eaa-67b7-5444-8bd9-480b1a5d54e0",
+  "label": "At the reading world w, whatever is SIMPLY_PRIOR_1 to something other than itself…, via dependence",
+  "legacy_id": "SIMPLY-PRIOR-GROUND-VIA-DEPENDENCE",
+  "argument_id": "931319ea-10e8-565c-b297-192dcc87215a",
   "challenge_module": "TruthCore.Results.Causality.Round2Grounding.Challenge",
   "solution_module": "TruthCore.Results.Causality.Round2Grounding.Solution",
   "theorem": "TruthCore.Results.Causality.Round2Grounding.simplyPriorGroundViaDependence",

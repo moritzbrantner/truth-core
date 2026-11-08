@@ -1,21 +1,23 @@
 {
-  "id": "SAME-RESPECT-NO-SELF-MOTION-FROM-NO-SELF-MOVER",
+  "id": "8035e43e-d9c8-503e-a65e-7c3949b753dc",
+  "label": "Nothing that is being moved in a respect moves itself in that same respect, from no self mover",
+  "legacy_id": "SAME-RESPECT-NO-SELF-MOTION-FROM-NO-SELF-MOVER",
   "premise_statement_ids": [
-    "STMT-NO-MOVER-MOVES-ITSELF-IN-ITS-RESPECT"
+    "2ed50036-3aa7-5209-9aa0-ced7675701da"
   ],
-  "conclusion_statement_id": "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT",
+  "conclusion_statement_id": "079b53bf-a222-5dfc-b8df-7419f9e98030",
   "inference_ids": [
-    "INF-SAME-RESPECT-NO-SELF-MOTION-FROM-NO-SELF-MOVER"
+    "26c59c64-4adf-50fa-8db1-dd6a68c1cd25"
   ],
   "meaning": "Strength order within the moving sense of 'cause': Aristotle's unrestricted reading (whatever moves something is other than it) implies the prima via's reading that nothing being moved in a respect moves itself in that respect.",
   "definition_ids": [
-    "DEF-MOTION-AS-PHYSICAL-CHANGE",
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-MOVING-ONESELF-IN-THE-SAME-RESPECT",
-    "DEF-RESPECT"
+    "ab0d1d6b-b777-51cc-ae11-c033081830e8",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "e13e749b-d266-5f18-bc50-59b340444c1f",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION",
-    "DISAMB-SELF-MOTION"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "aa925dce-cf10-535e-a9ef-a5a0f00a677f"
   ]
 }

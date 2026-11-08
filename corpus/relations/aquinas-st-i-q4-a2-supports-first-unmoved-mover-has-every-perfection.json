@@ -1,9 +1,11 @@
 {
-  "id": "REL-AQUINAS-ST-I-Q4-A2-SUPPORTS-FIRST-UNMOVED-MOVER-HAS-EVERY-PERFECTION",
+  "id": "a01ac9f7-1bba-57b0-ba0e-735d9dbc13e5",
+  "label": "Thomas Aquinas, Summa theologiae I q.4 a.2… supports Every first mover moved by none comprehends…",
+  "legacy_id": "REL-AQUINAS-ST-I-Q4-A2-SUPPORTS-FIRST-UNMOVED-MOVER-HAS-EVERY-PERFECTION",
   "subject_kind": "claim",
-  "subject_id": "AQUINAS-ST-I-Q4-A2-GOD-UNIVERSALLY-PERFECT",
+  "subject_id": "8aa91569-b273-535a-ae34-1124d512bf41",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-FIRST-UNMOVED-MOVER-HAS-EVERY-PERFECTION",
+  "object_id": "bc44e1cd-ef24-5f9c-a7e9-8527bb888ded",
   "note": "ST I q.4 a.2 co. says that the perfections of all things are in God, who is therefore called universally perfect. It does not state the premise, for three reasons. (1) Its subject is God, not every first mover moved by none; identifying the two is a separate open step (STMT-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD). (2) The first proof reaches only the perfections found in things, which is the weaker, derived FirstUnmovedMoverHasEveryPerfectionOfThings, not act in every respect. (3) The second proof's 'totam perfectionem essendi in se contineat' is said of ipsum esse per se subsistens. q.4 a.1 co. ('primum principium activum oportet maxime esse in actu') says the first active principle is maximally in act, not in act in every respect."
 }

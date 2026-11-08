@@ -1,16 +1,18 @@
 {
-  "id": "REGRESS-ACCESSIBILITY-EXCLUDES-DESCENDING-SERIES",
+  "id": "d043a553-215b-59af-acb0-4233f2fb0c87",
+  "label": "For every relation R on any type of beings: if every being is R-accessible, then there is no…",
+  "legacy_id": "REGRESS-ACCESSIBILITY-EXCLUDES-DESCENDING-SERIES",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-REGRESS-ACCESSIBILITY-EXCLUDES-DESCENDING-SERIES",
+  "conclusion_statement_id": "d1d68a01-7d72-5971-9fa2-fc5289238639",
   "inference_ids": [
-    "INF-REGRESS-ACCESSIBILITY-EXCLUDES-DESCENDING-SERIES"
+    "4f86d658-e9e3-5e11-a6cb-3f2c71a96554"
   ],
   "meaning": "An axiom-free fidelity check on the Second Way premise's formalization: the accessibility (well-foundedness) reading of 'cannot go on to infinity' implies the literal reading that no infinite descending per se series exists. It proves neither reading of any actual causal relation and leaves STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES open.",
   "definition_ids": [
-    "DEF-NO-INFINITE-DESCENDING-PER-SE-SERIES",
-    "DEF-REGRESS-ACCESSIBILITY-READING"
+    "21910345-6932-5931-8953-493c8f7e1000",
+    "47e6944d-5de0-588d-8fc2-b8ddea140690"
   ],
   "disambiguation_ids": [
-    "DISAMB-NO-INFINITE-REGRESS-READING"
+    "aee7e4c7-819b-5905-b363-813c06b7e92c"
   ]
 }

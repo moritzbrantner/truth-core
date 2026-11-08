@@ -1,15 +1,17 @@
 {
-  "id": "CC100-87-EXTERNAL-EXPLAINER-ATTRIBUTES",
-  "statement_id": "STMT-CC100-87-EXTERNAL-EXPLAINER-ATTRIBUTES",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "c1a81b68-5cb5-562b-9a94-eac9f4f5c68c",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: Whatever external to the cosmos explains its unity…",
+  "legacy_id": "CC100-87-EXTERNAL-EXPLAINER-ATTRIBUTES",
+  "statement_id": "ed61c43b-0cd3-53fe-8fab-0b5da506acf3",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.206–213: p.212, argument #87 Unities: The Cosmos, step 6",
   "interpretation": "The source states timelessness, immateriality and power, while qualifying mind with plausibly. Do not make the whole attribute package merely plausible or upgrade plausible mind to certainty. No existence, uniqueness, necessary concrete individual, rigid mind, God identity or formal attribute adapter is supplied. Attribution is to McIntosh’s presentation only, not the unread Juarez2017 article referenced on p213. No formal proof or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-87-COSMIC-UNITY-EXPLANATION"
+    "2ec9760f-26e5-5df3-897f-443a769ec094"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

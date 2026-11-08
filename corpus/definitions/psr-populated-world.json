@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PSR-POPULATED-WORLD",
+  "id": "8e86ac44-8980-5d5f-b571-644e18d30d08",
+  "label": "Populated model world: The selected world contains at least one actually existing individual…",
+  "legacy_id": "DEF-PSR-POPULATED-WORLD",
   "term": "populated model world",
   "definition": "The selected world contains at least one actually existing individual according to the model's ExistsAt predicate. An inhabited candidate type does not itself imply population at any world.",
   "lean_declaration": "TruthCore.Explanation.WellFoundedSource.PopulatedAt",

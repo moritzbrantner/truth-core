@@ -1,10 +1,12 @@
 {
-  "id": "INF-PILOT-CONFLICTING-OPINIONS-TEST",
+  "id": "779796eb-ca32-559c-8708-dc24e6f76d18",
+  "label": "For the supplied opinion and truth relations, not every opinion is true…, by Constructive-proof",
+  "legacy_id": "INF-PILOT-CONFLICTING-OPINIONS-TEST",
   "input_statement_ids": [
-    "STMT-PILOT-CONFLICTING-OPINIONS",
-    "STMT-PILOT-NEGATION-RESPECTED"
+    "423141d2-26f3-5284-8fd8-11024d3d72fd",
+    "ea573dda-0023-5e8d-9c6f-e870704751a5"
   ],
-  "output_statement_id": "STMT-PILOT-NOT-ALL-OPINIONS-TRUE",
+  "output_statement_id": "2aa59b28-df90-5fe8-b1ad-43dac2ecf4bd",
   "rule": "constructive-proof",
   "meaning": "Test Aristotle’s reported all-opinions-true target only under an explicit interpretation of expressed negation. No refutes relation against every relativism or against withholding.",
   "assumption_statement_ids": [],

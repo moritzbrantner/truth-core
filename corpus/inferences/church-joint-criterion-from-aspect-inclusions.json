@@ -1,11 +1,13 @@
 {
-  "id": "INF-CHURCH-JOINT-CRITERION-FROM-ASPECT-INCLUSIONS",
+  "id": "6e36a098-0b63-5856-8dd4-6ff6d19bdb95",
+  "label": "The selected Church predicate applies exactly when the same society…, by Universal generalization…",
+  "legacy_id": "INF-CHURCH-JOINT-CRITERION-FROM-ASPECT-INCLUSIONS",
   "input_statement_ids": [
-    "STMT-SELECTED-CHURCH-IS-VISIBLE",
-    "STMT-SELECTED-CHURCH-IS-SPIRITUAL",
-    "STMT-VISIBLE-SPIRITUAL-SOCIETY-IS-CHURCH"
+    "d13f6ca0-0b66-5f86-8994-0e2c91deafbf",
+    "0075b6ed-766b-51af-88f4-b6c4a91ba6a0",
+    "1c083654-1ed5-5e25-873c-1dc5bd48c992"
   ],
-  "output_statement_id": "STMT-CHURCH-HAS-JOINT-ASPECT-CRITERION",
+  "output_statement_id": "ebf1192b-3bba-5783-a9a7-e0acbcaec91d",
   "rule": "Universal generalization, biconditional introduction, conjunction introduction and elimination",
   "meaning": "The selected Church coextends with the joint criterion (visible with authority and spiritual community), from three OPEN inclusions: the Church is visible, the Church is spiritual, and what is visible and spiritual is the Church. The forward direction uses the first two, the backward direction the third; no premise states the biconditional.",
   "assumption_statement_ids": [],

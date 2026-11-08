@@ -1,20 +1,22 @@
 {
-  "id": "STMT-HUME-CONCEIVABILITY-TESTS",
+  "id": "9bbd9b83-6b79-503d-9448-af48d5d2bf6e",
+  "label": "Bounded conditional laws and countermodels for issue #248: H and C yield ◇¬H and conflict with □H…",
+  "legacy_id": "STMT-HUME-CONCEIVABILITY-TESTS",
   "paraphrase": "Bounded conditional laws and countermodels for issue #248: H and C(¬H) yield ◇¬H and conflict with □H, but are jointly satisfiable without □H. Full-function local collapse separates accessible worlds; on symmetric transitive components possible collapse implies collapse and excludes independently instantiated contingency, so H with C(MC) excludes such contingency. The bridge can fail, weaker reflexive transitive frames invalidate propagation, narrow withholding can coexist with a bridge, and collapse need not mean globally unique worlds. Exact quantifiers and model witnesses are in Checks; no result refutes Hume or asserts real-world contingency.",
   "lean_declaration": "TruthCore.Modern.Hume.Conceivability.Checks",
   "definition_ids": [
-    "DEF-HUME-TEST-CONCEPTION",
-    "DEF-HUME-TEST-IMAGINATION",
-    "DEF-HUME-TEST-LOGICAL-CONSISTENCY",
-    "DEF-HUME-TEST-METAPHYSICAL-POSSIBILITY",
-    "DEF-HUME-TEST-EPISTEMIC-POSSIBILITY",
-    "DEF-HUME-TEST-DEMONSTRABILITY",
-    "DEF-HUME-TEST-COLLAPSE",
-    "DEF-HUME-TEST-CONTINGENCY",
-    "DEF-HUME-TEST-BRIDGE",
-    "DEF-HUME-TEST-FRAME"
+    "f1dbe2cb-6ba1-581a-9b68-099ef0a25338",
+    "a63c477c-8af1-5965-9ae1-4aa863b6c90d",
+    "6cefa7b0-5dc2-5788-9637-a23d60b47e7c",
+    "2d3e6218-267d-56d4-b1b3-ef6191be6059",
+    "f9e5b687-a25e-5d81-b8a2-1fb1f70bc45f",
+    "c04b2eea-c3a4-5fbe-8cb1-a2a9917ddc69",
+    "cd4f19b2-d7ce-5741-9191-42b541b5f680",
+    "09d51a0b-d02f-5fb4-97db-3b6a4aa3a138",
+    "f4fc4188-c03c-5105-a904-ad58b571314b",
+    "995491ae-884a-5850-a853-2eebe60b8959"
   ],
   "disambiguation_ids": [
-    "DISAMB-HUME-CONCEIVABILITY-POSSIBILITY"
+    "427373ad-3ff7-524e-976c-595005a70338"
   ]
 }

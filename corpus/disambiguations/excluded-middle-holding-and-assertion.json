@@ -1,10 +1,12 @@
 {
-  "id": "DISAMB-EXCLUDED-MIDDLE-HOLDING-AND-ASSERTION",
+  "id": "12425707-e469-5574-b064-4f5e171cfb65",
+  "label": "Excluded middle: logical holding, assertion policy or withholding package",
+  "legacy_id": "DISAMB-EXCLUDED-MIDDLE-HOLDING-AND-ASSERTION",
   "term": "excluded middle: logical holding, assertion policy or withholding package",
   "sense_definition_ids": [
-    "DEF-EXCLUDED-MIDDLE-LOGICAL-HOLDING",
-    "DEF-EXCLUDED-MIDDLE-ASSERTION-POLICY",
-    "DEF-EXCLUDED-MIDDLE-WITHHOLDING-POLICY"
+    "d8e2ed12-8089-5202-ae51-e807cf611c76",
+    "284efb0a-b669-5b91-b0ea-2b7b68bef70d",
+    "bdab9d27-6b41-5a06-8e64-e696fa48d9c1"
   ],
   "resolution": "Object-level holding ∀p,p∨¬p does not say an agent/stage asserts or knows every instance. The existing withholding package is derived from its explicit proof/assertion comparison inputs and is preserved; it is not object-level negation of EM. New policy-negative consequence has the exact universal assertion target. Controls compare the encoded marker subset only, not a full intended intuitionist logic or a historical classical interpretation. Separately, SomeExcludedMiddleInstanceFails is ∃p,¬(p∨¬p), not ¬∀p,(p∨¬p); its constructive refutation does not establish general EM. The serious withholding rival now targets universal assertion; exact global STMT-NOT-EXCLUDED-MIDDLE remains an unrefuted logical alternative to object EM. Existing floor basis/justification remain, with disagreement metadata updated; no source/proof bridge, generic Other or new floor approval is invented."
 }

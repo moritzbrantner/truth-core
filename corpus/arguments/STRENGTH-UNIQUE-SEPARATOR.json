@@ -1,12 +1,14 @@
 {
-  "id": "STRENGTH-UNIQUE-SEPARATOR",
+  "id": "39af6ef6-ca8f-5b83-9fd2-60a89355dcc5",
+  "label": "The Bool predicate True satisfies the empty background and existence, but unique existence fails…",
+  "legacy_id": "STRENGTH-UNIQUE-SEPARATOR",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-STRENGTH-UNIQUE-TWO-POINT-SEPARATOR",
+  "conclusion_statement_id": "a39f50d5-ad2c-53ef-aead-dfab95b2ac98",
   "inference_ids": [
-    "INF-STRENGTH-UNIQUE-SEPARATOR"
+    "a46dad1d-48b2-59d5-abfa-f2b1ee678853"
   ],
   "meaning": "The supplied Bool predicate True has distinct false and true witnesses, satisfying existence and falsifying unique existence under the same empty background.",
   "definition_ids": [
-    "DEF-STRENGTH-PREDICATE-UNIQUENESS"
+    "386b5abc-2823-5130-a942-69bc2fe2f93f"
   ]
 }

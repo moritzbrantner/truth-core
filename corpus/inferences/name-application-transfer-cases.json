@@ -1,9 +1,11 @@
 {
-  "id": "INF-NAME-APPLICATION-TRANSFER-CASES",
+  "id": "e759b4cf-0a70-5a00-8fc9-4689a1bffbd3",
+  "label": "Either every proper instance is preserved in practice reference, or a…, by Constructive-proof",
+  "legacy_id": "INF-NAME-APPLICATION-TRANSFER-CASES",
   "input_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-NAME-APPLICATION-TRANSFER-CASES-COVER",
+  "output_statement_id": "42aa5dcb-f3a3-5e87-91d0-bc63c3f35f69",
   "rule": "constructive-proof",
   "meaning": "Explicit excluded middle yields preservation or a proper-instance/nonreference counterexample. The proof handles the quantified witness rather than merely renaming negated preservation. Structural profile coverage is not a census of named theories.",
   "assumption_statement_ids": [],

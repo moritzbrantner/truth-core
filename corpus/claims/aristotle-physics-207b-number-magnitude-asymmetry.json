@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-207B-NUMBER-MAGNITUDE-ASYMMETRY-A",
-  "statement_id": "STMT-NUMBER-MAGNITUDE-DIRECTIONAL-ASYMMETRY",
-  "source_id": "ARIST-PHYS",
+  "id": "9d759be1-2bcc-594e-9419-167dbfcf5e41",
+  "label": "Aristotle, Physics III.7, 207b1-10: Number has an indivisible lower bound but no assigned upper…",
+  "legacy_id": "ARIST-PHYS-207B-NUMBER-MAGNITUDE-ASYMMETRY-A",
+  "statement_id": "4c5be78c-a4f6-5e93-b3d6-25a39d78e17c",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.7, 207b1-10",
   "interpretation": "Directional comparison: number terminates downward at the indivisible unit but every assigned number can be exceeded upward; magnitude is indefinitely divisible downward while Aristotle denies an actually infinite magnitude upward. The formalization does not identify these with modern completed number systems.",
   "status": "formalized"

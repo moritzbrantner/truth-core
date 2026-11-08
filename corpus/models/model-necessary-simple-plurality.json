@@ -1,5 +1,7 @@
 {
-  "id": "MODEL-NECESSARY-SIMPLE-PLURALITY",
+  "id": "16f1d174-0017-5bc1-bf0c-ec2d369bea99",
+  "label": "One nonempty four-being, two-world universal-accessibility interpretation: two necessary uncaused…",
+  "legacy_id": "MODEL-NECESSARY-SIMPLE-PLURALITY",
   "description": "One nonempty four-being, two-world universal-accessibility interpretation: two necessary uncaused roots share an actual instrument/effect and satisfy the displayed first-way/simplicity/pure-act inputs. These are exact represented-component, matter/form, essence/esse and three-respect claims, not a complete metaphysical theory of simplicity or a claim that the candidates are God. Common-nature and qualitative-act-differentiation fail in this same assignment. Intrinsic-tagged explanation tokens provide only sound PSR coverage, not sufficient intrinsic explanation. Genus/difference and full individuation adequacy remain open.",
   "vocabulary": "NECESSARY-SIMPLE-PLURALITY",
   "lean_declaration": "TruthCore.Models.NecessarySimplePlurality.model",
@@ -62,7 +64,7 @@
   ],
   "evaluations": [
     {
-      "statement_id": "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD",
+      "statement_id": "fbc516c1-a6cb-5495-9d31-6e2bb45e8e67",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -72,7 +74,7 @@
       "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation0"
     },
     {
-      "statement_id": "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
+      "statement_id": "4be9a4ac-699a-5adc-88d4-bbd958fa1576",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -83,7 +85,7 @@
       "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation1"
     },
     {
-      "statement_id": "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
+      "statement_id": "f296a694-aeea-5fa7-bdbf-0076530f9441",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -94,7 +96,7 @@
       "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation2"
     },
     {
-      "statement_id": "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+      "statement_id": "4a952b96-be5f-5493-8277-985248151d01",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -105,7 +107,7 @@
       "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation3"
     },
     {
-      "statement_id": "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
+      "statement_id": "c6d6379b-6a9b-55b5-a701-3df289dfcca4",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -116,7 +118,7 @@
       "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation4"
     },
     {
-      "statement_id": "STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED",
+      "statement_id": "1e47e6db-da06-5a40-9ccf-fbd1f929c596",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -128,7 +130,7 @@
       "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation5"
     },
     {
-      "statement_id": "STMT-NO-INFINITE-PER-SE-MOVER-SERIES",
+      "statement_id": "226c38f6-7bf4-552a-9a85-733cfa41d0fa",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -137,7 +139,7 @@
       "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation6"
     },
     {
-      "statement_id": "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY",
+      "statement_id": "a4d3261a-3239-5b44-9953-64ab1b0ed762",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -149,7 +151,7 @@
       "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation7"
     },
     {
-      "statement_id": "STMT-FIRST-UNMOVED-MOVER-IS-FIRST-BEING",
+      "statement_id": "74eb9113-552b-5ec6-8e09-68374305dd58",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -161,7 +163,7 @@
       "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation8"
     },
     {
-      "statement_id": "STMT-NO-BODY-MOVES-UNLESS-MOVED",
+      "statement_id": "17b53b89-3f64-507c-b7bb-c2f9f3d966fa",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -173,7 +175,7 @@
       "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation9"
     },
     {
-      "statement_id": "STMT-COMPOSITE-POSTERIOR-TO-COMPONENTS",
+      "statement_id": "363a528c-a22c-5a46-b1ef-64e39f8dba45",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -183,7 +185,7 @@
       "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation10"
     },
     {
-      "statement_id": "STMT-COMPOSITE-HAS-COMPONENT-OTHER-THAN-ITSELF",
+      "statement_id": "b35ce743-6870-5884-926f-60744d1a318b",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -193,7 +195,7 @@
       "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation11"
     },
     {
-      "statement_id": "STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS",
+      "statement_id": "d7741cdc-881b-5bda-85ce-d70223162f78",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -206,7 +208,7 @@
       "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation12"
     },
     {
-      "statement_id": "STMT-FIRST-UNMOVED-MOVER-IS-SIMPLE",
+      "statement_id": "78246da5-0b37-5b37-b821-1e8bdb41606c",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -223,7 +225,7 @@
       "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation13"
     },
     {
-      "statement_id": "STMT-FIRST-UNMOVED-MOVER-IS-PURE-ACT",
+      "statement_id": "6c18d52b-2456-59ae-995f-13440f8c808d",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -235,7 +237,7 @@
       "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation14"
     },
     {
-      "statement_id": "STMT-FIRST-UNMOVED-MOVER-HAS-EVERY-PERFECTION",
+      "statement_id": "bc44e1cd-ef24-5f9c-a7e9-8527bb888ded",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -247,7 +249,7 @@
       "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation15"
     },
     {
-      "statement_id": "STMT-AT-MOST-ONE-FIRST-UNMOVED-MOVER",
+      "statement_id": "c27dce66-864a-5a73-af62-0eeb4016514f",
       "value": "violates",
       "arguments": [
         "Being",
@@ -258,7 +260,7 @@
       "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation16"
     },
     {
-      "statement_id": "STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE",
+      "statement_id": "2344542e-8036-5cbe-9dfc-af5e7907cde5",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -268,7 +270,7 @@
       "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation17"
     },
     {
-      "statement_id": "STMT-Q11-GOD-SUPPOSITUM-IS-NATURE",
+      "statement_id": "bf422bd7-67a6-58c5-9b1f-c73e08f20b21",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -280,7 +282,7 @@
       "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation18"
     },
     {
-      "statement_id": "STMT-Q11-PROPER-GOD-INSTANCES-HAVE-COMMON-NATURE",
+      "statement_id": "0730d46f-4604-5750-9a64-de664f064b31",
       "value": "violates",
       "arguments": [
         "Being",
@@ -292,7 +294,7 @@
       "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation19"
     },
     {
-      "statement_id": "STMT-PLURAL-FIRST-MOVERS-WOULD-DIFFER-IN-ACT",
+      "statement_id": "034eb68f-6b29-5854-9f66-e4e760b9cfa8",
       "value": "violates",
       "arguments": [
         "Being",
@@ -304,7 +306,7 @@
       "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation20"
     },
     {
-      "statement_id": "STMT-PSR-SOUND-COMPONENT",
+      "statement_id": "9833b805-eeab-5e04-9365-3e7efa1d3bb6",
       "value": "satisfies",
       "arguments": [
         "World",
@@ -314,7 +316,7 @@
       "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation21"
     },
     {
-      "statement_id": "STMT-PSR-EXISTENCE-COMPONENT",
+      "statement_id": "b3d0eb5e-a814-5112-ae47-7b6f4da5aeba",
       "value": "satisfies",
       "arguments": [
         "World",
@@ -324,7 +326,7 @@
       "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation22"
     },
     {
-      "statement_id": "STMT-Q3A4-DISTINCT-ESSE-CAUSE-DICHOTOMY",
+      "statement_id": "be639b3f-a4b7-5ec0-a9be-accfd8d42598",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -335,7 +337,7 @@
       "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation23"
     },
     {
-      "statement_id": "STMT-Q3A4-ESSENTIAL-PRINCIPLES-NOT-DISTINCT-ESSE-CAUSE",
+      "statement_id": "61bd42e5-69fe-53ef-9972-c9f28b2b6d14",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -346,7 +348,7 @@
       "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation24"
     },
     {
-      "statement_id": "STMT-MODAL-NECESSARY-AT-INDIVIDUAL",
+      "statement_id": "4536ee5d-5cac-50e2-b7dc-1272fb19858a",
       "value": "satisfies",
       "arguments": [
         "World",
@@ -358,7 +360,7 @@
       "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation25"
     },
     {
-      "statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+      "statement_id": "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
       "value": "satisfies",
       "arguments": [
         "World",
@@ -369,7 +371,7 @@
       "theorem": "TruthCore.Models.NecessarySimplePlurality.evaluation26"
     },
     {
-      "statement_id": "STMT-COMPOSITE-HAS-A-UNITING-CAUSE",
+      "statement_id": "ca07cae9-6102-564e-a7fd-efb013744b3d",
       "value": "satisfies",
       "arguments": [
         "Being",

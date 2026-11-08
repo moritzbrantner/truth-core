@@ -1,13 +1,15 @@
 {
-  "id": "STMT-NO-MOVED-WITHOUT-POTENCY",
+  "id": "6948dde0-64ef-550b-ae3c-d30b3e113986",
+  "label": "Negation of the Ash'arite rival moved without POTENCY_1 on the same MovedIn and InPotency: nothing…",
+  "legacy_id": "STMT-NO-MOVED-WITHOUT-POTENCY",
   "paraphrase": "Negation of the Ash'arite rival STMT-MOVED-WITHOUT-POTENCY on the same MovedIn and InPotency: nothing is moved in a respect without being in potency in it.",
   "lean_declaration": "TruthCore.Causality.AristotelianRivalRefutations.NoMovedWithoutPotency",
   "definition_ids": [
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-POTENCY",
-    "DEF-RESPECT"
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
   ]
 }

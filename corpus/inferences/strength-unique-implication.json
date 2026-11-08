@@ -1,9 +1,11 @@
 {
-  "id": "INF-STRENGTH-UNIQUE-IMPLICATION",
+  "id": "534f6396-a1e7-5522-a47f-a71f4fb11e93",
+  "label": "For an arbitrary supplied type and predicate P, at least one witness…, by Typed strength comparison",
+  "legacy_id": "INF-STRENGTH-UNIQUE-IMPLICATION",
   "input_statement_ids": [
-    "STMT-STRENGTH-UNIQUE-EXISTS"
+    "f976f890-aba8-59cb-a312-1feaf833e727"
   ],
-  "output_statement_id": "STMT-STRENGTH-EXISTS",
+  "output_statement_id": "6694be77-c7b2-5199-b1e8-514e640c491c",
   "rule": "typed_strength_comparison",
   "meaning": "Keep the original witness and its predicate proof from the pinned Mathlib unique-existence definition.",
   "assumption_statement_ids": [],

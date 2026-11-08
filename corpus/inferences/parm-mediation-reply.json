@@ -1,11 +1,13 @@
 {
-  "id": "INF-PARM-MEDIATION-REPLY",
+  "id": "21532765-4076-571a-b467-953a80e72aeb",
+  "label": "Knowledge is not confined to one realm in this cognition structure, given a…, by Typed-consequence",
+  "legacy_id": "INF-PARM-MEDIATION-REPLY",
   "input_statement_ids": [
-    "STMT-PARM-HUMAN-OUTSIDE",
-    "STMT-PARM-MEDIATED-TRANSFER",
-    "STMT-PARM-HUMAN-ROUTE"
+    "f1eda342-13a1-5aa4-ac9d-efe85fee1397",
+    "12062ef2-399a-563f-852d-9633663a7a71",
+    "bce99980-bc76-5837-8e36-333828f4018f"
   ],
-  "output_statement_id": "STMT-PARM-NO-KNOWLEDGE-REALM-CLOSURE",
+  "output_statement_id": "23ad5d64-5f12-503e-b03c-bd008f0baa6b",
   "rule": "typed-consequence",
   "meaning": "A successful human access route to a sound presentation transfers knowledge to an intelligible object. Knowledge closure would then place the human mode inside the intelligible side, contradicting HumanOutside. The warrant and existence of a sound route remain explicit open premises.",
   "assumption_statement_ids": [],

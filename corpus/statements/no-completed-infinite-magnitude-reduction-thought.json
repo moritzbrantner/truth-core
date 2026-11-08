@@ -1,5 +1,7 @@
 {
-  "id": "STMT-NO-COMPLETED-INFINITE-MAGNITUDE-REDUCTION-THOUGHT",
+  "id": "99c5b973-2be5-5c55-ab9c-f4ffc6359622",
+  "label": "Neither continued reduction/division nor unlimited mental magnification yields a completed…",
+  "legacy_id": "STMT-NO-COMPLETED-INFINITE-MAGNITUDE-REDUCTION-THOUGHT",
   "paraphrase": "Neither continued reduction/division nor unlimited mental magnification yields a completed actually infinite magnitude.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.NoCompletedInfiniteMagnitudeByReductionOrThoughtReading"
 }

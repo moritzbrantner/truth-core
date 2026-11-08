@@ -1,5 +1,7 @@
 {
-  "id": "DEF-UNIVERSAL-NO-KNOWLEDGE",
+  "id": "56cbd3f4-4d7b-51da-8eac-5efac7daac73",
+  "label": "Universal denial of propositional…: UniversalNoKnowledge Knows:= ∀ a p, ¬ Knows a p, with p: Prop",
+  "legacy_id": "DEF-UNIVERSAL-NO-KNOWLEDGE",
   "term": "universal denial of propositional knowledge",
   "definition": "UniversalNoKnowledge Knows := ∀ a p, ¬ Knows a p, with p : Prop. The denial itself is among the quantified contents. This denies knowledge, not truth, belief, assertion, or justification.",
   "basis": "stipulative",

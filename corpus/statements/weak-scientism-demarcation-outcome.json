@@ -1,14 +1,16 @@
 {
-  "id": "STMT-WEAK-SCIENTISM-DEMARCATION-OUTCOME",
+  "id": "7c902319-7f1c-59d4-8dbb-a5edf28f500f",
+  "label": "Second-order test for WEAK_2 scientism: inside its own domain the WEAK_2 thesis is not established…",
+  "legacy_id": "STMT-WEAK-SCIENTISM-DEMARCATION-OUTCOME",
   "paraphrase": "Second-order test for weak scientism: inside its own domain the weak thesis is not established if it holds (strong horn 1 returns); outside its domain, if established, it concedes a non-empirically established claim and strong scientism fails.",
   "lean_declaration": "TruthCore.Logic.Scientism.WeakScientismDemarcationOutcome",
   "definition_ids": [
-    "DEF-WEAK-SCIENTISM-RESTRICTED",
-    "DEF-STRONG-SCIENTISM",
-    "DEF-DEMARCATION-RESTRICTION",
-    "DEF-SCIENTISM-EPISTEMIC-FRAME"
+    "9424e383-2872-5587-8b54-c915516aa395",
+    "fee8ffa5-ec96-5f31-8e71-525bb6249f68",
+    "3332e115-51be-5870-b228-c7a5e4bb938e",
+    "24040dac-2a8c-5e99-95f3-d2ca0f4c406d"
   ],
   "disambiguation_ids": [
-    "DISAMB-SCIENTISM-STRENGTH"
+    "610878b5-cb48-550f-9908-1297495daf7e"
   ]
 }

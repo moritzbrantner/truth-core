@@ -1,6 +1,8 @@
 {
-  "id": "REGRESS-ACCESSIBILITY-EXCLUDES-DESCENDING-SERIES",
-  "argument_id": "REGRESS-ACCESSIBILITY-EXCLUDES-DESCENDING-SERIES",
+  "id": "561e1f39-2469-5a7b-b7ce-6fa75d8b9c53",
+  "label": "For every relation R on any type of beings: if every being is R-accessible, then there is no…",
+  "legacy_id": "REGRESS-ACCESSIBILITY-EXCLUDES-DESCENDING-SERIES",
+  "argument_id": "d043a553-215b-59af-acb0-4233f2fb0c87",
   "challenge_module": "TruthCore.Results.Causality.RegressAccessibilityExcludesSeries.Challenge",
   "solution_module": "TruthCore.Results.Causality.RegressAccessibilityExcludesSeries.Solution",
   "theorem": "TruthCore.Results.Causality.RegressAccessibilityExcludesSeries.accessibilityReadingExcludesDescendingSeries",

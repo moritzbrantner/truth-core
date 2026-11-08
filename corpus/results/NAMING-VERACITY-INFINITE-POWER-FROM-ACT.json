@@ -1,6 +1,8 @@
 {
-  "id": "NAMING-VERACITY-INFINITE-POWER-FROM-ACT",
-  "argument_id": "NAMING-VERACITY-INFINITE-POWER-FROM-ACT",
+  "id": "89cd3d2a-c9da-54e9-b2e1-2f13a3678512",
+  "label": "What is INFINITE_1 can do every task that involves no contradiction, from act",
+  "legacy_id": "NAMING-VERACITY-INFINITE-POWER-FROM-ACT",
+  "argument_id": "af6886b8-2db7-5c06-b347-2b6f2a02f7b2",
   "challenge_module": "TruthCore.Results.Causality.NamingVeracityBatch1.Challenge",
   "solution_module": "TruthCore.Results.Causality.NamingVeracityBatch1.Solution",
   "theorem": "TruthCore.Results.Causality.NamingVeracityBatch1.infinitePowerFromAct",

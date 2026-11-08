@@ -1,7 +1,8 @@
 {
-  "id": "NO-SELF-MOTION-FROM-ADOPTED-POTENCY",
+  "id": "84037be4-213f-572c-9aa6-6960d4030aec",
   "label": "With POTENCY_1 (adopted), nothing moves itself in the same respect",
-  "argument_id": "NO-SELF-MOTION-FROM-ADOPTED-POTENCY",
+  "legacy_id": "NO-SELF-MOTION-FROM-ADOPTED-POTENCY",
+  "argument_id": "d4c7e1b6-8cf9-5792-915e-ab6d3beaa3ff",
   "challenge_module": "TruthCore.Results.Causality.TermSenseForks3.Challenge",
   "solution_module": "TruthCore.Results.Causality.TermSenseForks3.Solution",
   "theorem": "TruthCore.Results.Causality.TermSenseForks3.noSelfMotionAdoptedPotency",

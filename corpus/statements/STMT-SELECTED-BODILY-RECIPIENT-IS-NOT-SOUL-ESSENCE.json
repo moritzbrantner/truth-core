@@ -1,14 +1,16 @@
 {
-  "id": "STMT-SELECTED-BODILY-RECIPIENT-IS-NOT-SOUL-ESSENCE",
+  "id": "60b32382-3cf4-541b-88af-0c80a47d56a2",
+  "label": "The mapped bodily recipient is not the essence of the SAME selected soul bearer",
+  "legacy_id": "STMT-SELECTED-BODILY-RECIPIENT-IS-NOT-SOUL-ESSENCE",
   "paraphrase": "OPEN distinction input: the mapped bodily recipient is not the essence of the SAME selected soul bearer. The whole human essence is not substituted for the soul essence.",
   "lean_declaration": "TruthCore.Causality.EsseReceptionDefinitionFork.BodyIsNotSoulEssence",
   "definition_ids": [
-    "DEF-UNITED-ESSE-RECEPTION-INTERPRETATION-PROFILE",
-    "DEF-ESSE-RECEIVED-IN",
-    "DEF-ESSENCE-THOMISTIC-NATURE"
+    "cd5ae150-60fb-5992-8bd7-6a383b700ca6",
+    "4433942e-aaf6-55a9-b777-66e55638103d",
+    "183b48d2-1753-583d-aef9-4199cff86231"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSE-RECEPTION",
-    "DISAMB-ESSENCE"
+    "5921354b-51e6-5da3-8d8c-e9041840fd9f",
+    "1aef8986-ed29-564f-9803-d812d2ff63e1"
   ]
 }

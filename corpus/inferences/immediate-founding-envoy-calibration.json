@@ -1,9 +1,11 @@
 {
-  "id": "INF-IMMEDIATE-FOUNDING-ENVOY-CALIBRATION",
+  "id": "5b4ee4ce-3579-5f62-a5ff-6d6798d80d44",
+  "label": "In the supplied profile, the existing envoy-founding bridge is equivalent…, by Constructive-proof",
+  "legacy_id": "INF-IMMEDIATE-FOUNDING-ENVOY-CALIBRATION",
   "input_statement_ids": [
-    "STMT-DIVINE-FOUNDING-IS-IMMEDIATE-ONLY"
+    "fc6eabd0-78f3-5a52-8041-73101a0e1dd5"
   ],
-  "output_statement_id": "STMT-DIVINE-FOUNDING-IMMEDIATE-ENVOY-CALIBRATION",
+  "output_statement_id": "f84ce2b0-345f-5c45-a28a-b2c7e9eb48ae",
   "rule": "constructive-proof",
   "meaning": "Under direct-only calibration, the old envoy bridge holds exactly when every relevant commissioned Jesus event is also a direct founding. This is a conditional equivalence, not a claim that directness forces either compatibility or incompatibility.",
   "assumption_statement_ids": [],

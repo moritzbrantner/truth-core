@@ -1,10 +1,12 @@
 {
-  "id": "DISAMB-NECESSITATION-PRIORITY-INVARIANCE",
+  "id": "b8b4c985-8b2b-545d-b474-2b5356e90140",
+  "label": "Necessitation, relation persistence and common priority",
+  "legacy_id": "DISAMB-NECESSITATION-PRIORITY-INVARIANCE",
   "term": "Necessitation, relation persistence and common priority",
   "sense_definition_ids": [
-    "DEF-COMMON-PRIORITY-RANK",
-    "DEF-EXISTENCE-FACT-NECESSITATION",
-    "DEF-GROUNDING-NECESSITATION-SOURCE-SENSES"
+    "c674f0d3-e810-545a-9e09-77f4038d1062",
+    "5e797e6e-258c-5070-bd69-cb49f78ec98c",
+    "fb322793-9175-591d-b5b2-7bc3989c90da"
   ],
   "resolution": "Full ground facts necessitate target truth; on a necessary target the implication can be trivial. The same grounding/support link holds when its relevant relata obtain; a distinct modal policy. All possible selected necessary-support edges jointly fit a well-founded ordering; not merely local order or truth entailment. No source position is refuted by a bearer-support model without an interpretation bridge. See docs/notes/modal-grounding-priority-950.md."
 }

@@ -1,6 +1,8 @@
 {
-  "id": "FITCH-RESTRICTED-SURVIVOR",
-  "argument_id": "FITCH-RESTRICTED-SURVIVOR",
+  "id": "f22550f8-2207-54ef-a3b6-ca102b9e7be0",
+  "label": "The specified four-world model has epistemic S5 blocks {0,1},{2},{3}, modal S5 blocks {0,2},{1,3}…",
+  "legacy_id": "FITCH-RESTRICTED-SURVIVOR",
+  "argument_id": "2dafb819-f258-5ce4-ac3b-bc90559ebf63",
   "challenge_module": "TruthCore.Results.Logic.FitchKnowability.Challenge",
   "solution_module": "TruthCore.Results.Logic.FitchKnowability.Solution",
   "theorem": "TruthCore.Results.Logic.FitchKnowability.restrictedSurvivor",

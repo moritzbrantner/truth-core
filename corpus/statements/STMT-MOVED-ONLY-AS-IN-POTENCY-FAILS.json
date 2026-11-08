@@ -1,17 +1,19 @@
 {
-  "id": "STMT-MOVED-ONLY-AS-IN-POTENCY-FAILS",
+  "id": "09501f9a-6874-5165-8062-6299539b4e95",
+  "label": "Exact negation of the original moved-only-as-in-POTENCY_1 universal in the SAME dictionary",
+  "legacy_id": "STMT-MOVED-ONLY-AS-IN-POTENCY-FAILS",
   "paraphrase": "Exact negation of the original moved-only-as-in-potency universal in the SAME dictionary. An actual moved/not-potent countertuple, not merely disagreement with one proposed capacity analysis, is required.",
   "lean_declaration": "TruthCore.Alternatives.MegarianMovedPotencyBoundary.MovedPotencyFails",
   "definition_ids": [
-    "DEF-MEGARIAN-MOVED-POTENCY-INTERPRETATION-BOUNDARY",
-    "DEF-ACT",
-    "DEF-CAPACITY-TO-BE",
-    "DEF-POTENCY",
-    "DEF-MOTION-AS-REDUCTION"
+    "2d9a0a6a-3406-55f0-ad49-d9963fdaf116",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "00ab0133-e353-5a2e-a231-b24a5c85107a",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION",
-    "DISAMB-POTENCY",
-    "DISAMB-IN-ACT"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "508617ab-cf24-5f3b-a387-64b3991359ec",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
   ]
 }

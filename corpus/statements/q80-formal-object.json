@@ -1,11 +1,13 @@
 {
-  "id": "STMT-APPREHENDED-AND-APPETIBLE-DIFFER-IN-ASPECT",
+  "id": "bd823369-5202-5d87-85a3-0653506c66aa",
+  "label": "The same thing may be apprehended as sensible or intelligible being and appetitively related to as…",
+  "legacy_id": "STMT-APPREHENDED-AND-APPETIBLE-DIFFER-IN-ASPECT",
   "paraphrase": "The same thing may be apprehended as sensible or intelligible being and appetitively related to as suitable or good; numerical sameness of object does not erase this difference of aspect.",
   "definition_ids": [
-    "DEF-APPETITIVE-OBJECT-ASPECT",
-    "DEF-COGNITION-RELATIVE-APPETITE"
+    "13f88c69-3e85-507f-9e0d-b1f6ca32baed",
+    "44a0654e-6b36-52d6-91c2-0a5c6a13dc5c"
   ],
   "disambiguation_ids": [
-    "DISAMB-NATURAL-AND-COGNITIVE-APPETITE"
+    "c40e9cab-4874-50f8-af05-d5c45c8a3c82"
   ]
 }

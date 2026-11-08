@@ -1,6 +1,8 @@
 {
-  "id": "GROUNDING-WITH-UNIQUE-CAUSE-YIELDS-REGRESS-READING",
-  "argument_id": "GROUNDING-WITH-UNIQUE-CAUSE-YIELDS-REGRESS-READING",
+  "id": "dede3daf-a600-5085-a773-914e689dde38",
+  "label": "For every relation R and source predicate: if every being's power is inductively grounded in an…",
+  "legacy_id": "GROUNDING-WITH-UNIQUE-CAUSE-YIELDS-REGRESS-READING",
+  "argument_id": "ecb8dee6-2b78-5d6e-a20d-227cba1efc6d",
   "challenge_module": "TruthCore.Results.Causality.GroundingYieldsRegress.Challenge",
   "solution_module": "TruthCore.Results.Causality.GroundingYieldsRegress.Solution",
   "theorem": "TruthCore.Results.Causality.GroundingYieldsRegress.groundingWithUniqueCauseYieldsRegressReading",

@@ -1,6 +1,8 @@
 {
-  "id": "AQUINAS-ST-I-Q2-A3-ABSOLUTE-READING-ENTAILS-RELATIVE",
-  "argument_id": "AQUINAS-ST-I-Q2-A3-ABSOLUTE-READING-ENTAILS-RELATIVE",
+  "id": "a5060bcf-63e7-500b-a838-90490f006b50",
+  "label": "It is impossible that there be no mover that moves…, from It is impossible that there be no first…",
+  "legacy_id": "AQUINAS-ST-I-Q2-A3-ABSOLUTE-READING-ENTAILS-RELATIVE",
+  "argument_id": "56977e6e-3afb-5473-a18e-838594095d38",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaStrength.AbsoluteReading.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaStrength.AbsoluteReading.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaStrength.AbsoluteReading.absoluteReadingEntailsRelative",

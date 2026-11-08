@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-PHYSICAL-GROUND",
+  "id": "9f08b628-255b-5d8b-b9c2-4a5b31a43916",
+  "label": "Physical, of a ground",
+  "legacy_id": "DISAMB-PHYSICAL-GROUND",
   "term": "physical, of a ground",
   "sense_definition_ids": [
-    "DEF-PHYSICAL-BEARERS-COMPOSITE",
-    "DEF-PAPINEAU-PHYSICAL"
+    "acac5147-62dc-5a5a-8cd1-6b8aab30a7ee",
+    "0703be73-765c-5f7b-b620-c780b7e7c0ac"
   ],
   "resolution": "Two senses. In the composite-bearer sense a physical occurrence has a composite bearer, so a noncomposite ground is not physical by that premise. In Papineau's sense physical is specifiable without the special vocabulary at issue and carries no composition claim. compositeRoot is physical in the first sense as far as its row goes; simpleImpersonal is not, and may be physical in the second sense, since its table says nothing against it. Verdicts about a bearer use the first sense only, and PhysicalBearersComposite is the sole passage from a frame's physical kind to composition. A part-free ground is therefore not excluded from being a physical rival in the second sense."
 }

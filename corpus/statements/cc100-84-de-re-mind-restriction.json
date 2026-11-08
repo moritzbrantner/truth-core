@@ -1,12 +1,14 @@
 {
-  "id": "STMT-CC100-84-DE-RE-MIND-RESTRICTION",
+  "id": "d51ef0b5-f713-5a7b-a9f0-caf0e33c25df",
+  "label": "A thing that can be an external fact-unifier in every possible world must be a mind",
+  "legacy_id": "STMT-CC100-84-DE-RE-MIND-RESTRICTION",
   "paraphrase": "A thing that can be an external fact-unifier in every possible world must be a mind.",
   "definition_ids": [
-    "DEF-CC100-84-FACT-UNIFIER",
-    "DEF-CC100-84-DE-RE-CAPABILITY"
+    "5b2623de-6bc4-5d2c-9bc2-97c49681ae37",
+    "22cb9ae1-04b0-5ab3-92ae-5c23d91a1e72"
   ],
   "disambiguation_ids": [
-    "DISAMB-CC100-84-UNIFIER-MODAL-SCOPE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "31b6bdd8-94c6-5967-9154-b5465ee5b351",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

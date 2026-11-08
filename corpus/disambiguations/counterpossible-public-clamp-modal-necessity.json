@@ -1,11 +1,13 @@
 {
-  "id": "DISAMB-COUNTERPOSSIBLE-PUBLIC-CLAMP-MODAL-NECESSITY",
+  "id": "193d4509-b877-53ae-a10e-03f2c33e57ab",
+  "label": "If the normally necessary public contributor were off",
+  "legacy_id": "DISAMB-COUNTERPOSSIBLE-PUBLIC-CLAMP-MODAL-NECESSITY",
   "term": "if the normally necessary public contributor were off",
   "sense_definition_ids": [
-    "DEF-COUNTERPOSSIBLE-NORMAL-REPAIR-DOMAINS",
-    "DEF-COUNTERPOSSIBLE-NORMAL-FIRST-SELECTION",
-    "DEF-COUNTERPOSSIBLE-PUBLIC-ATOM-INTERPRETATION",
-    "DEF-EXPLANATORY-ENABLES"
+    "b665c5b9-4125-5e47-a0bd-c905d81deb14",
+    "c6477081-dca9-5681-b4d7-95d38e7ee0a7",
+    "daf2bad9-7a66-551c-b99e-249fe9822e88",
+    "6f5a06e5-76aa-53be-843c-bc2623f948c1"
   ],
   "resolution": "Normal necessity is box truth at one specified Kripke valuation, not logical validity, actual necessary being or a permission to change that normal frame. Selected off-normal evaluation is a separately stipulated conditional interpretation. Repairs leave latent source/background values intact, so PUBLIC a off is not source nonexistence. Enables is the existing strict absence implication over accessible worlds, explicitly not a counterfactual semantics or causation. Material implication at one state is different again. No logically contradictory state, K3/LP truth algebra or actual metaphysical counterpossible truth is introduced."
 }

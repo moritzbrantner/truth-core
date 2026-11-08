@@ -1,14 +1,16 @@
 {
-  "id": "STMT-NATURAL-REASON-PROFILE-CASES-COVER",
+  "id": "e3cda405-0e51-5a17-8d8f-d7fbc64163b5",
+  "label": "Either all natural-knowability moves answer to shared reason, all lack sharedness, or actual…",
+  "legacy_id": "STMT-NATURAL-REASON-PROFILE-CASES-COVER",
   "paraphrase": "Either all natural-knowability moves answer to shared reason, all lack sharedness, or actual shared and nonshared natural-knowability witnesses exist. Explicit EM checks structural coverage; an empty natural-move domain permits the two universal readings to overlap.",
   "lean_declaration": "TruthCore.Alternatives.NaturalReasonHorizon.NaturalReasonProfileCases",
   "definition_ids": [
-    "DEF-NATURAL-REASON-PROFILE-COMPARISON",
-    "DEF-NATURAL-REASON-SHARED",
-    "DEF-NATURAL-REASON-PRACTICE-INTERNAL",
-    "DEF-CONCILIAR-DEFINITION"
+    "f74c1b35-246a-5182-886e-0ff56e217925",
+    "11d72af9-f562-5ef0-934e-556e0a6dcb83",
+    "aa836cb9-1853-5973-8907-89d232f0c8ce",
+    "a80131d4-c041-5aa0-a122-0bfea7c0e2fa"
   ],
   "disambiguation_ids": [
-    "DISAMB-NATURAL-REASON"
+    "acb50043-141e-546e-b296-4601bae89bec"
   ]
 }

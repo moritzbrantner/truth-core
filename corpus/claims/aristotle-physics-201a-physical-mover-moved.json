@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-201A-PHYSICAL-MOVER-MOVED-A",
-  "statement_id": "STMT-PHYSICAL-MOVER-IS-MOVED",
-  "source_id": "ARIST-PHYS",
+  "id": "bf609279-757b-5be9-95f1-aff3a7985de1",
+  "label": "Aristotle, Physics III.1, 201a19-25: A thing that actively moves something in the relevant…",
+  "legacy_id": "ARIST-PHYS-201A-PHYSICAL-MOVER-MOVED-A",
+  "statement_id": "8829aa18-6d56-5841-9f1b-72b45f55f79c",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.1, 201a19-25",
   "interpretation": "Qualified physical-mover reading: a mover of the kind under discussion in the reciprocal physical interaction is itself moved while moving. This intentionally does not universalize the claim to every mover, since Aristotle immediately announces an unmoved-mover exception.",
   "status": "formalized"

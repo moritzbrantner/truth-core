@@ -1,12 +1,14 @@
 {
-  "id": "STMT-NO-ABSOLUTE-TRUTH-THESIS-IN-OWN-SCOPE",
+  "id": "5c18a8c4-c908-5397-b429-44c20b48c87e",
+  "label": "Scope premise: the formulation of the no-absolute-truth thesis is itself one of the contents its…",
+  "legacy_id": "STMT-NO-ABSOLUTE-TRUTH-THESIS-IN-OWN-SCOPE",
   "paraphrase": "Scope premise: the formulation of the no-absolute-truth thesis is itself one of the contents its scope covers.",
   "lean_declaration": "TruthCore.Logic.Relativism.ThesisInOwnScope",
   "definition_ids": [
-    "DEF-NO-ABSOLUTE-TRUTH-SCOPED",
-    "DEF-SELF-APPLICATION-NORM"
+    "ceeb8d72-d8e3-5c5a-84bc-fc48917219e9",
+    "89b927ef-37ac-5400-bb6a-26bc5e5ccca0"
   ],
   "disambiguation_ids": [
-    "DISAMB-NO-ABSOLUTE-TRUTH-SCOPE"
+    "08bba684-b4bf-5a2a-8a0d-5a251c377d68"
   ]
 }

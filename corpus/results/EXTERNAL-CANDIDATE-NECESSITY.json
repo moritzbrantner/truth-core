@@ -1,6 +1,8 @@
 {
-  "id": "EXTERNAL-CANDIDATE-NECESSITY",
-  "argument_id": "EXTERNAL-CANDIDATE-NECESSITY",
+  "id": "1a092401-ebe2-5ae7-8fef-0bd1d6030fe5",
+  "label": "For every explicitly typed complete-history modal scenario, world and rigid candidate-individual…",
+  "legacy_id": "EXTERNAL-CANDIDATE-NECESSITY",
+  "argument_id": "3f73e0ca-33de-5e92-a034-7e8b9d39b7ca",
   "challenge_module": "TruthCore.Results.Causality.ExternalCandidateNecessity.Challenge",
   "solution_module": "TruthCore.Results.Causality.ExternalCandidateNecessity.Solution",
   "theorem": "TruthCore.Results.Causality.ExternalCandidateNecessity.checks",

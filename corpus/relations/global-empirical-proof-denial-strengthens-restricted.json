@@ -1,11 +1,13 @@
 {
-  "id": "REL-GLOBAL-EMPIRICAL-PROOF-DENIAL-STRENGTHENS-RESTRICTED",
+  "id": "3bb5f36e-e125-5742-8fa7-3792b8684a1b",
+  "label": "No inquiry target has a finite… strengthens No target in the independently supplied…",
+  "legacy_id": "REL-GLOBAL-EMPIRICAL-PROOF-DENIAL-STRENGTHENS-RESTRICTED",
   "subject_kind": "statement",
-  "subject_id": "STMT-EMPIRICAL-PROOF-GLOBAL-DENIAL",
+  "subject_id": "1e9fc224-a6cf-52cd-adc1-c08bcf525104",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-EMPIRICAL-PROOF-RESTRICTED-DENIAL",
-  "verification_result_id": "GLOBAL-EMPIRICAL-PROOF-DENIAL-STRENGTHENS-RESTRICTED",
-  "strictness_result_id": "SCOPED-EMPIRICAL-PROOF-CONTROLS",
+  "object_id": "102172a9-d6ae-5370-a0c8-f1c3437cef1e",
+  "verification_result_id": "e179d20e-a535-5446-b15f-f15d13dd304a",
+  "strictness_result_id": "2bd665e2-bd4f-578a-8507-7d4f57e20806",
   "note": "Same proof standard/frame/inquiry table; only the denial scope weakens. Refuting global denial cannot by itself refute the selected restriction."
 }

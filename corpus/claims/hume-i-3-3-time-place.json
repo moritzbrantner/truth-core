@@ -1,16 +1,18 @@
 {
-  "id": "HUME-TREATISE-I-3-3-TIME-PLACE-A",
-  "statement_id": "STMT-HUME-I-3-3-TIME-PLACE",
-  "source_id": "HUME-TREATISE",
+  "id": "21ef805c-edc0-51c3-968c-2f113675f8a9",
+  "label": "David Hume, A Treatise of Human Nature…: Hume challenges the time-and-place argument by putting an…",
+  "legacy_id": "HUME-TREATISE-I-3-3-TIME-PLACE-A",
+  "statement_id": "7591bf88-7c54-5932-82b9-debdec504904",
+  "source_id": "1aa09c38-b71d-515c-a812-5ca5f489c035",
   "locator": "I.3.3, §4 (SBN 80)",
   "interpretation": "This is the rebuttal Hume offers to that argument, not an established metaphysical symmetry of every time and place or a theorem that an uncaused beginning actually occurs.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-HUME-TEST-DEMONSTRABILITY",
-    "DEF-HUME-TEST-BEGINNING",
-    "DEF-HUME-TEST-PRODUCTIVE-CAUSE"
+    "c04b2eea-c3a4-5fbe-8cb1-a2a9917ddc69",
+    "ad67d779-bb13-531c-8bbc-4a4e2d13c5ab",
+    "a14899b8-3314-595a-a578-2af9c83af63c"
   ],
   "disambiguation_ids": [
-    "DISAMB-HUME-CONCEIVABILITY-POSSIBILITY"
+    "427373ad-3ff7-524e-976c-595005a70338"
   ]
 }

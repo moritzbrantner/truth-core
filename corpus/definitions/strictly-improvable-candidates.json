@@ -1,5 +1,7 @@
 {
-  "id": "DEF-STRICTLY-IMPROVABLE-CANDIDATES",
+  "id": "5f2bd1b2-a9b5-58a8-b387-ac18353dd4c0",
+  "label": "Strictly improvable admissible…: Every admissible candidate has another admissible candidate of…",
+  "legacy_id": "DEF-STRICTLY-IMPROVABLE-CANDIDATES",
   "term": "strictly improvable admissible candidates",
   "definition": "Every admissible candidate has another admissible candidate of strictly greater quality under the fixed order. This rules out a greatest quality achieved by an admissible candidate. Nat with all values admissible and identity quality is a concrete witness; Aquinas q25a6 is not asserted to establish this universal condition.",
   "basis": "stipulative",

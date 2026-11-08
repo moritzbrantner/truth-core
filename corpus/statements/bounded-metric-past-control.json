@@ -1,12 +1,14 @@
 {
-  "id": "STMT-BOUNDED-METRIC-PAST-CONTROL",
+  "id": "4dc722e7-45f4-563d-9ec2-5c9468aa92b8",
+  "label": "In one explicitly specified real interval time carrier, there is a selected now with clock…",
+  "legacy_id": "STMT-BOUNDED-METRIC-PAST-CONTROL",
   "paraphrase": "In one explicitly specified real interval time carrier (0,1], there is a selected now with clock reading1 satisfying the original PastIsInfinite predicate and not the original PastIsFinite predicate, while every time has nonnegative clock age strictly below1. For each t, half its positive clock reading is another admitted earlier time. This is a joint mathematical countercontrol to inferring unbounded chosen metric age from absence of a first moment, or an earliest time from bounded age. It does not establish physical realization, a privileged physical clock, causal history, finite event cardinality, or a conclusion about whether the actual universe has a beginning. The existing integer-grid resource contradiction remains separate. Intended and actual root-premise delta none.",
   "lean_declaration": "TruthCore.Modal.BoundedMetricPast.BoundedMetricPastControl",
   "definition_ids": [
-    "DEF-BOUNDED-METRIC-PAST-CONTROL",
-    "DEF-TEMPORAL-EXISTENCE-BEGINNING"
+    "ff9f3989-3f2b-5e1c-abaf-02c9b0ad761c",
+    "de94687a-6789-5599-b38d-14bef31148fd"
   ],
   "disambiguation_ids": [
-    "DISAMB-EARLIEST-TIME-AND-METRIC-DURATION"
+    "e5340334-fa8b-5f49-803a-6dd93900c839"
   ]
 }

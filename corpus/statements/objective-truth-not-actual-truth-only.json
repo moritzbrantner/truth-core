@@ -1,12 +1,14 @@
 {
-  "id": "STMT-OBJECTIVE-TRUTH-NOT-ACTUAL-TRUTH-ONLY",
+  "id": "266890f6-6b38-5d42-8fa9-57e6d731c4b8",
+  "label": "The current objective classifier is not coextensive with plain actual truth in the supplied profile",
+  "legacy_id": "STMT-OBJECTIVE-TRUTH-NOT-ACTUAL-TRUTH-ONLY",
   "paraphrase": "The current objective classifier is not coextensive with plain actual truth in the supplied profile. An open branch-elimination input, not a proved rejection of a school.",
   "lean_declaration": "TruthCore.Logic.ObjectiveTruthDefinitionFork.NotActualTruthOnlyDefinition",
   "definition_ids": [
-    "DEF-OBJECTIVE-TRUTH-PROFILE-FRAME",
-    "DEF-OBJECTIVE-TRUTH-ACTUAL-ONLY"
+    "4f377045-355c-500f-b159-1f8e9e9fa863",
+    "cb221b7e-8e60-51a1-8338-61dfe424f262"
   ],
   "disambiguation_ids": [
-    "DISAMB-OBJECTIVE-TRUTH-CALIBRATIONS"
+    "146a73fd-5eb2-586e-982f-8ee57ea0e329"
   ]
 }

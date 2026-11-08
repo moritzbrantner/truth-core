@@ -1,11 +1,13 @@
 {
-  "id": "INF-CHURCH-NAMED-COVERAGE-FROM-ASPECT-INCLUSIONS",
+  "id": "ac6789c8-ae56-5458-a4f6-626ac054a0c4",
+  "label": "The selected Church predicate coextends with the visible criterion…, by Composition with church…",
+  "legacy_id": "INF-CHURCH-NAMED-COVERAGE-FROM-ASPECT-INCLUSIONS",
   "input_statement_ids": [
-    "STMT-SELECTED-CHURCH-IS-VISIBLE",
-    "STMT-SELECTED-CHURCH-IS-SPIRITUAL",
-    "STMT-VISIBLE-SPIRITUAL-SOCIETY-IS-CHURCH"
+    "d13f6ca0-0b66-5f86-8994-0e2c91deafbf",
+    "0075b6ed-766b-51af-88f4-b6c4a91ba6a0",
+    "1c083654-1ed5-5e25-873c-1dc5bd48c992"
   ],
-  "output_statement_id": "STMT-CHURCH-NAMED-CRITERIA-COVER",
+  "output_statement_id": "3386b0bc-939e-5296-b517-86847f6b3b52",
   "rule": "Composition with CHURCH-JOINT-CRITERION-FROM-ASPECT-INCLUSIONS, disjunction introduction",
   "meaning": "Named coverage of the Church fork (visible, spiritual or joint criterion) holds through its joint case, from the same three OPEN inclusions. It replaces the open coverage premise by inclusions that can each be tested; it does not show that the named criteria exhaust ecclesiologies.",
   "assumption_statement_ids": [],

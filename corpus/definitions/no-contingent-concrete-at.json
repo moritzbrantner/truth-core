@@ -1,5 +1,7 @@
 {
-  "id": "DEF-NO-CONTINGENT-CONCRETE-AT",
+  "id": "02a5456f-140b-5089-b101-7773dc72365f",
+  "label": "No actual contingent concrete…: For every candidate b satisfying the supplied world-independent…",
+  "legacy_id": "DEF-NO-CONTINGENT-CONCRETE-AT",
   "term": "no actual contingent concrete individual at one world",
   "definition": "For every candidate b satisfying the supplied world-independent Concrete predicate, not ContingentAt A.ontic v b. ContingentAt includes actual world existence plus accessible absence. This permits both an empty concrete extension and actual necessary concreta; it does not assert that no individuals or situations exist.",
   "basis": "stipulative",

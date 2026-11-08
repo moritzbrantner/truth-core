@@ -1,13 +1,15 @@
 {
-  "id": "STMT-PERITROPE-RELATIVE-HORN-OUTCOME",
+  "id": "45618b22-7e88-50ed-a794-8037dfb09bca",
+  "label": "Horn 2 of the peritropē: the measure thesis is true for Protagoras, while for some denier the…",
+  "legacy_id": "STMT-PERITROPE-RELATIVE-HORN-OUTCOME",
   "paraphrase": "Horn 2 of the peritropē: the measure thesis is true for Protagoras, while for some denier the denial is true and the thesis is not, so the thesis's truth for Protagoras gives that denier no reason in relativist terms.",
   "lean_declaration": "TruthCore.Greek.Plato.Theaetetus.RelativeHornOutcome",
   "definition_ids": [
-    "DEF-RELATIVE-TRUTH",
-    "DEF-REASON-TRANSFER",
-    "DEF-PROTAGOREAN-MEASURE"
+    "c137a1e2-6b0f-5413-b6c9-e13918c61b6b",
+    "e3767c79-05d1-516c-9af4-d18d9d8313e2",
+    "4ac942cf-a067-5166-81dc-589d6fd8ca41"
   ],
   "disambiguation_ids": [
-    "DISAMB-ASSERTED-TRUTH-SENSE"
+    "d62cd674-9ae4-564a-8016-13d11ba0c407"
   ]
 }

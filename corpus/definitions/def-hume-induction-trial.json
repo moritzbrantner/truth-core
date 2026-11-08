@@ -1,5 +1,7 @@
 {
-  "id": "DEF-HUME-INDUCTION-TRIAL",
+  "id": "b78ba9c8-06fe-55de-aed0-88fe924c0e6f",
+  "label": "Observed successful prediction or…: Trials records a selected Boolean action and its outcome at…",
+  "legacy_id": "DEF-HUME-INDUCTION-TRIAL",
   "term": "observed successful prediction or intervention",
   "definition": "Trials records a selected Boolean action and its outcome at each episode. SuccessfulRecord reports success for selected actions before n. It says nothing about unselected actions, cross-time invariance, causal direction or identification. successful and failingAfter have the same successful record and different next selected outcomes.",
   "basis": "stipulative",

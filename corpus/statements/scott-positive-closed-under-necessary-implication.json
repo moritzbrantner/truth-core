@@ -1,9 +1,11 @@
 {
-  "id": "STMT-SCOTT-POSITIVE-CLOSED-UNDER-NECESSARY-IMPLICATION",
+  "id": "4fc9ca24-10fd-52a5-8125-b8e504db52e1",
+  "label": "Scott's axiom A2: at every world, if a property is POSITIVE_5 and necessarily everything that has…",
+  "legacy_id": "STMT-SCOTT-POSITIVE-CLOSED-UNDER-NECESSARY-IMPLICATION",
   "paraphrase": "Scott's axiom A2 (AFP GoedelGod.thy): at every world, if a property is positive and necessarily everything that has it has a second property, the second property is positive.",
   "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.PositiveClosedUnderNecessaryImplication",
   "definition_ids": [
-    "DEF-POSITIVE-PROPERTY-SCOTT",
-    "DEF-QML-KB-NECESSITY"
+    "9a9e4fd6-d810-5039-9185-a93a2e0a358a",
+    "153fcebf-66f6-53de-bad7-82a30a359c9c"
   ]
 }

@@ -1,10 +1,12 @@
 {
-  "id": "DISAMB-UNIVERSAL-SIGN-AND-COMMON-NATURE",
+  "id": "f4d3fe07-8285-54da-a878-dacf8f410a90",
+  "label": "Universal",
+  "legacy_id": "DISAMB-UNIVERSAL-SIGN-AND-COMMON-NATURE",
   "term": "universal",
   "sense_definition_ids": [
-    "DEF-UNIVERSAL-MENTAL-SIGN",
-    "DEF-UNIVERSAL-CONVENTIONAL-SIGN",
-    "DEF-COMMON-NATURE-CONSTITUENT"
+    "51266d70-d1a8-5bc8-94b0-2c948e761797",
+    "a696033a-4e98-5b14-9312-977ad8f65ca4",
+    "e5b532e1-8fa8-5abc-8d47-620301cf7d61"
   ],
   "resolution": "The sourced Ockham readings distinguish a natural mental sign from a conventionally instituted vocal sign and from the proposed extramental common constituent. Numerical singularity of the sign is compatible with its predicability for many. No substitution of one sense into the shared Platonic FormOf vocabulary, nor a contradiction with every realist interpretation, is inferred."
 }

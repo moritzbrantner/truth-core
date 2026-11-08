@@ -1,6 +1,8 @@
 {
-  "id": "BORROWED-EXERCISE-CERTIFICATE",
-  "argument_id": "BORROWED-EXERCISE-CERTIFICATE",
+  "id": "c76bf027-aabc-5332-a267-3b12e261c0ab",
+  "label": "For any #733 exercise and any supplied power profile, where the actual scenario is allowed and…",
+  "legacy_id": "BORROWED-EXERCISE-CERTIFICATE",
+  "argument_id": "90658156-42ec-5305-8cb3-ff2ece052b45",
   "challenge_module": "TruthCore.Results.Explanation.BorrowedExercise.Challenge",
   "solution_module": "TruthCore.Results.Explanation.BorrowedExercise.Solution",
   "theorem": "TruthCore.Results.Explanation.BorrowedExercise.certificate",

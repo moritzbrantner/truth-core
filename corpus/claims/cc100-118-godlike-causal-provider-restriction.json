@@ -1,16 +1,18 @@
 {
-  "id": "CC100-118-GODLIKE-CAUSAL-PROVIDER-RESTRICTION",
-  "statement_id": "STMT-CC100-118-GODLIKE-CAUSAL-PROVIDER-RESTRICTION",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "e61e5d52-a797-5d66-8df1-5437a5d40f14",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: Only a God-like being can provide a causal explanation…",
+  "legacy_id": "CC100-118-GODLIKE-CAUSAL-PROVIDER-RESTRICTION",
+  "statement_id": "236978f8-ba22-5817-a920-d9cbb52f23c8",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.272–291: p.278, argument #118 Certainty, step 4",
   "interpretation": "Preserve only and capability scope. No provider is established by a can-only restriction alone; the connection in step3 must correspond to the explaining/providing role for beliefs here. God-like remains unspecified, not Scott/Gödel positivity or classical IsGod, necessity or uniqueness. Attribution is to McIntosh’s presentation only, not the unread Rogers2008 article referenced on p279. No formal proof or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-118-MATHEMATICAL-KNOWLEDGE-CAUSE"
+    "2fe8632c-590d-5b5f-86ef-79abcf51044b"
   ],
   "disambiguation_ids": [
-    "DISAMB-REASON-EPISTEMIC-ONTIC",
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "a61d3807-50e9-595e-9011-9123fd606a4b",
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

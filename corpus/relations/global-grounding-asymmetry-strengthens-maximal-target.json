@@ -1,10 +1,12 @@
 {
-  "id": "REL-GLOBAL-GROUNDING-ASYMMETRY-STRENGTHENS-MAXIMAL-TARGET",
+  "id": "4a2ae5f1-f506-5349-8aa1-907e812c001a",
+  "label": "At the selected world, actual CONCRETE_6… strengthens For actual concreta a,b at the selected…",
+  "legacy_id": "REL-GLOBAL-GROUNDING-ASYMMETRY-STRENGTHENS-MAXIMAL-TARGET",
   "subject_kind": "statement",
-  "subject_id": "STMT-ACTUAL-GROUNDING-ASYMMETRIC",
+  "subject_id": "39f7c63d-b372-564c-b18a-ed09d02dda9a",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-ACTUAL-GROUNDING-ASYMMETRIC-AT-MAXIMAL-TARGET",
-  "verification_result_id": "ACTUAL-GROUNDING-ASYMMETRY-STRENGTHENS-MAXIMAL-TARGET",
+  "object_id": "bcf79e03-6dcb-5b00-8c69-244be36dec15",
+  "verification_result_id": "222fc381-020a-5448-9daf-edb12cdefa34",
   "note": "Sole-premise checked restriction in the SAME selected-world/actual/concrete/maximal-esse dictionary; strict in the populated reciprocal-dependent control. Maximality is supplied independently, not defined as roothood."
 }

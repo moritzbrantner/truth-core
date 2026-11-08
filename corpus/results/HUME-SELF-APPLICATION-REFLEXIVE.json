@@ -1,6 +1,8 @@
 {
-  "id": "HUME-SELF-APPLICATION-REFLEXIVE",
-  "argument_id": "HUME-SELF-APPLICATION-REFLEXIVE",
+  "id": "02591d77-40c3-5a10-a2e6-9d34f7a974e9",
+  "label": "On a reflexive frame, □H conflicts with either C or C. A separate actual-H premise is redundant in…",
+  "legacy_id": "HUME-SELF-APPLICATION-REFLEXIVE",
+  "argument_id": "046bfca7-4c8a-55cf-be0d-dc959df0b9ad",
   "challenge_module": "TruthCore.Results.Modern.Hume.SelfApplication.Reflexive.Challenge",
   "solution_module": "TruthCore.Results.Modern.Hume.SelfApplication.Reflexive.Solution",
   "theorem": "TruthCore.Results.Modern.Hume.SelfApplication.Reflexive.checks",

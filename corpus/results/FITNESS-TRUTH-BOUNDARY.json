@@ -1,6 +1,8 @@
 {
-  "id": "FITNESS-TRUTH-BOUNDARY",
-  "argument_id": "FITNESS-TRUTH-BOUNDARY",
+  "id": "64e56b99-6ee8-50bc-8854-3247ebc32727",
+  "label": "For a stipulated binary belief/polarity response mechanism, successful response is exactly…",
+  "legacy_id": "FITNESS-TRUTH-BOUNDARY",
+  "argument_id": "6a0a035f-a580-58e4-959a-d5188f506e89",
   "challenge_module": "TruthCore.Results.Epistemology.FitnessTruthBoundary.Challenge",
   "solution_module": "TruthCore.Results.Epistemology.FitnessTruthBoundary.Solution",
   "theorem": "TruthCore.Results.Epistemology.FitnessTruthBoundary.certificate",

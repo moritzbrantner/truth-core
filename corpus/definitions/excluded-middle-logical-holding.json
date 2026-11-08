@@ -1,5 +1,7 @@
 {
-  "id": "DEF-EXCLUDED-MIDDLE-LOGICAL-HOLDING",
+  "id": "d8e2ed12-8089-5202-ae51-e807cf611c76",
+  "label": "Excluded middle as logical holding: Every Lean proposition p has p or not-p",
+  "legacy_id": "DEF-EXCLUDED-MIDDLE-LOGICAL-HOLDING",
   "term": "excluded middle as logical holding",
   "definition": "Every Lean proposition p has p or not-p. This is not a stage-indexed assertion, known-proof or source-language validity predicate.",
   "basis": "stipulative",

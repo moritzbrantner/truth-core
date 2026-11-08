@@ -1,6 +1,8 @@
 {
-  "id": "LOGIC-TRUTH-DIRECTED-REFLECTIVE-DUTY",
-  "argument_id": "LOGIC-TRUTH-DIRECTED-REFLECTIVE-DUTY",
+  "id": "5cc22cdb-1c6a-51b7-a427-d67200e2076c",
+  "label": "For every interpretation and ought-to-adopt policy, if a specified objective-duty content is true…",
+  "legacy_id": "LOGIC-TRUTH-DIRECTED-REFLECTIVE-DUTY",
+  "argument_id": "70eb8fa2-61a1-5d57-9fe4-94aaef1bd9fc",
   "challenge_module": "TruthCore.Results.Logic.ReflectiveCoherence.TruthDirected.Challenge",
   "solution_module": "TruthCore.Results.Logic.ReflectiveCoherence.TruthDirected.Solution",
   "theorem": "TruthCore.Results.Logic.ReflectiveCoherence.TruthDirected.truthDirectedReflectiveDuty",

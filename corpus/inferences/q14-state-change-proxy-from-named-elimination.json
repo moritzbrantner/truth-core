@@ -1,11 +1,13 @@
 {
-  "id": "INF-Q14-STATE-CHANGE-PROXY-FROM-NAMED-ELIMINATION",
+  "id": "6f7b6620-0f3e-533d-b91e-dd2f9680fcc1",
+  "label": "On the supplied scope, existing primitive intellect is coextensive with…, by Constructive-proof",
+  "legacy_id": "INF-Q14-STATE-CHANGE-PROXY-FROM-NAMED-ELIMINATION",
   "input_statement_ids": [
-    "STMT-Q14-NAMED-CALIBRATION-MENU",
-    "STMT-Q14-CAPACITY-CALIBRATION-FAILS",
-    "STMT-Q14-WITHOUT-MATTER-CALIBRATION-FAILS"
+    "aefa1bf1-099b-575c-958e-05cff58df51c",
+    "ab8d6a1d-674f-5c21-901a-fd1d8fc19cf8",
+    "8e05fc5c-4ec6-5fb4-9332-afafb35e9f21"
   ],
-  "output_statement_id": "STMT-Q14-CHANGE-PROXY-CALIBRATION",
+  "output_statement_id": "bb6a3e3c-c735-580f-95cf-24bf60a52557",
   "rule": "constructive-proof",
   "meaning": "Logical transcription: an explicitly assumed local named menu and failure of its two capacity calibrations leave the state-change-PROXY calibration. This is not a proof that the proxy is an adequate intellect account or a refutation of complete theories.",
   "assumption_statement_ids": [],

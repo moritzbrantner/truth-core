@@ -1,12 +1,14 @@
 {
-  "id": "STMT-HUME-INDUCTION-ANCHOR",
+  "id": "a3cd1a90-0715-5ddc-8239-823c5725b8f2",
+  "label": "Categorical experiential inference must start from a fact present to memory or sense",
+  "legacy_id": "STMT-HUME-INDUCTION-ANCHOR",
   "paraphrase": "Categorical experiential inference must start from a fact present to memory or sense. The historical relations are explicit interpretation parameters, not proved psychological or epistemological facts.",
   "lean_declaration": "TruthCore.Modern.Hume.Induction.PresentAnchor",
   "definition_ids": [
-    "DEF-HUME-INDUCTION-ANCHOR",
-    "DEF-HUME-INDUCTION-STANDARD"
+    "fc277a67-9f24-5f56-a905-c64c2c1783c9",
+    "f93e95f6-c139-5371-b544-8f0311ec60a7"
   ],
   "disambiguation_ids": [
-    "DISAMB-HUME-INDUCTION-REASON-PRACTICE"
+    "bfbe0dc7-4c2f-5183-9f6b-f69d43e45bbe"
   ]
 }

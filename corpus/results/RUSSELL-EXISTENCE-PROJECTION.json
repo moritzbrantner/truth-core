@@ -1,6 +1,8 @@
 {
-  "id": "RUSSELL-EXISTENCE-PROJECTION",
-  "argument_id": "RUSSELL-EXISTENCE-PROJECTION",
+  "id": "8b5d9eff-30f3-563d-8170-0ff8b446e87a",
+  "label": "From explicit realization and the optional…, from The selected finite extension F has a… and 1 more",
+  "legacy_id": "RUSSELL-EXISTENCE-PROJECTION",
+  "argument_id": "aa7360d5-c853-5621-9011-8d25ca587c85",
   "challenge_module": "TruthCore.Results.Modern.Russell.Projection.Challenge",
   "solution_module": "TruthCore.Results.Modern.Russell.Projection.Solution",
   "theorem": "TruthCore.Results.Modern.Russell.Projection.checks",

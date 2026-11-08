@@ -1,6 +1,8 @@
 {
-  "id": "ARIST-PHYS-189B-NATURAL-PRINCIPLES-TWO-OR-THREE",
-  "argument_id": "ARIST-PHYS-189B-NATURAL-PRINCIPLES-TWO-OR-THREE",
+  "id": "d53332b7-44b5-58c4-ae33-da87873be5e5",
+  "label": "The natural principles number either two…, from The inquiry into the number of natural… and 2 more",
+  "legacy_id": "ARIST-PHYS-189B-NATURAL-PRINCIPLES-TWO-OR-THREE",
+  "argument_id": "d9b8fefd-5533-51a2-896f-e2b91223d2de",
   "challenge_module": "TruthCore.Results.Aristotle.Physics.NaturalPrincipleCount.Challenge",
   "solution_module": "TruthCore.Results.Aristotle.Physics.NaturalPrincipleCount.Solution",
   "theorem": "TruthCore.Results.Aristotle.Physics.NaturalPrincipleCount.naturalPrincipleCountTwoOrThree",

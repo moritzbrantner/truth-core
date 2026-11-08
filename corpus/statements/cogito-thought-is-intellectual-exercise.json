@@ -1,16 +1,18 @@
 {
-  "id": "STMT-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE",
+  "id": "8cf54bde-0c97-5428-9179-0d567293675d",
+  "label": "Analyst bridge: every bearer of an occurring thought episode is attributed that episode as an…",
+  "legacy_id": "STMT-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE",
   "paraphrase": "Analyst bridge: every bearer of an occurring thought episode is attributed that episode as an intellectual exercise in the supplied q75 operation-attribution structure. This is an open interpretation of Occurs/Bears, not implied by their definitions and not a historical attribution.",
   "lean_declaration": "TruthCore.Logic.CogitoEsse.BorneThoughtExercisesIntellect",
   "definition_ids": [
-    "DEF-COGITO-THINKING-AS-INTELLECTUAL-EXERCISE",
-    "DEF-Q75-OPERATION-ATTRIBUTION",
-    "DEF-THOUGHT-OCCURRENCE",
-    "DEF-THOUGHT-BEARER"
+    "a17326fa-7d9f-5dce-8dc2-ec330eab6bdb",
+    "68eae678-8fd7-5c8f-bc98-0641b2ec5e82",
+    "c0cbef1c-060a-54d4-bb49-8d59da40caf3",
+    "ce8ccc1a-4f9a-5904-a10c-548778d79b66"
   ],
   "disambiguation_ids": [
-    "DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE",
-    "DISAMB-IN-ACT"
+    "16ea77ae-4ec7-59e4-8474-10f04efb5ddf",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
   ],
   "note": "Open analyst input of the independently registered COGITO-BEARER-CONCRETE-FROM-OPERATION conditional argument. Previously checked only as a companion theorem in the existence-route configuration; now visible in the argument graph. No premise truth, source attribution or floor approval is inferred. See docs/notes/cogito-esse-1113.md and ATTEMPT-COGITO-ESSE-1113."
 }

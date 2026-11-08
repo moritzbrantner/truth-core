@@ -1,9 +1,11 @@
 {
-  "id": "INF-STRENGTH-CAUSE-IMPLICATION",
+  "id": "5b10a4aa-1a69-587f-8161-3dd2bff94447",
+  "label": "Anything that comes to be has some CAUSE_2, by Typed strength comparison",
+  "legacy_id": "INF-STRENGTH-CAUSE-IMPLICATION",
   "input_statement_ids": [
-    "STMT-CAUSE-PRINCIPLE-DISTINCT"
+    "9709d14f-1324-58f1-8889-1110881c5b44"
   ],
-  "output_statement_id": "STMT-CAUSE-PRINCIPLE-BROAD",
+  "output_statement_id": "915e3df5-0975-5461-9fd6-83094ab526f3",
   "rule": "typed_strength_comparison",
   "meaning": "With shared decidable identity, generation predicate and cause relation, drop only distinctness from the same existential cause witness.",
   "assumption_statement_ids": [],

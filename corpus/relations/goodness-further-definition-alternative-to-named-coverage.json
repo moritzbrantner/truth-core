@@ -1,9 +1,11 @@
 {
-  "id": "REL-GOODNESS-FURTHER-DEFINITION-ALTERNATIVE-TO-NAMED-COVERAGE",
+  "id": "0f80c836-7db3-5efd-a9ee-e6b6ab8ddc80",
+  "label": "An admissible candidate object outside… alternative to Every admissible proposal is identical…",
+  "legacy_id": "REL-GOODNESS-FURTHER-DEFINITION-ALTERNATIVE-TO-NAMED-COVERAGE",
   "subject_kind": "statement",
-  "subject_id": "STMT-GOODNESS-ADDITIONAL-RELEVANT-DEFINITION",
+  "subject_id": "e189cd12-e2a1-5fec-801a-e2b2bd17ccc0",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-GOODNESS-NAMED-DEFINITIONS-COVER",
+  "object_id": "cb290349-4d73-5a87-a049-a58c24537b23",
   "note": "Explicit analyst structural/scope rival under one fixed supplied profile. No counted refutation is registered; conditional/modelled failure is not independent philosophical defeat."
 }

@@ -1,6 +1,8 @@
 {
-  "id": "UNDERIVED-ROOT-PERFECTION",
-  "argument_id": "UNDERIVED-ROOT-PERFECTION",
+  "id": "71cc3e91-3146-53c5-9cad-a1dee0f4aa76",
+  "label": "There exists ONE witness n that is an…, from One and the same candidate is concrete… and 7 more",
+  "legacy_id": "UNDERIVED-ROOT-PERFECTION",
+  "argument_id": "7ae73896-56df-56fb-b7cd-d335f7f247c5",
   "challenge_module": "TruthCore.Results.Causality.UnderivedRootPerfection.Challenge",
   "solution_module": "TruthCore.Results.Causality.UnderivedRootPerfection.Solution",
   "theorem": "TruthCore.Results.Causality.UnderivedRootPerfection.derive",

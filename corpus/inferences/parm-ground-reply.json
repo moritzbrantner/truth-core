@@ -1,7 +1,9 @@
 {
-  "id": "INF-PARM-GROUND-REPLY",
+  "id": "d09f6e34-6ac9-5101-bf3a-66df48382737",
+  "label": "A non-vacuous finite interpretation has independent non-inherent Forms…, by Model-construction",
+  "legacy_id": "INF-PARM-GROUND-REPLY",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-PARM-GROUND-REPLY-POSSIBLE",
+  "output_statement_id": "c866a89a-b469-5f56-af9a-756860e263ee",
   "rule": "model-construction",
   "meaning": "Construct a two-entity one-quality witness with a non-inherent independent Form, a particular it explains and grounds, and rank 0 before 1. Import the ranked-asymmetry theorem. Change-production is empty. This distinguishes static explanatory compatibility from providing the efficient explanation Aristotle demands.",
   "assumption_statement_ids": [],

@@ -1,15 +1,17 @@
 {
-  "id": "DEF-CC100-10-MEREOLOGICAL-SCOPE",
+  "id": "2cab56b2-8622-5a12-9adf-101a326fa0a6",
+  "label": "Overlap, type aggregation, whole/parts…: Parthood is characterized by overlap inclusion, and…",
+  "legacy_id": "DEF-CC100-10-MEREOLOGICAL-SCOPE",
   "term": "overlap, type aggregation, whole/parts existence and wholly contingency in #10",
   "definition": "Parthood is characterized by overlap inclusion, and mutual parthood by identity. A2 conditionally admits a sum for an inhabited type, with the slide’s type/aggregate wording left as an interpretation issue. A4 and A5 link existence of a selected whole and all its parts without specifying cross-world persistence. Wholly contingent means having no necessary parts, not automatically ordinary contingency.",
   "basis": "stipulative",
   "claim_ids": [
-    "CC100-10-OVERLAP-PARTHOOD",
-    "CC100-10-TYPE-AGGREGATE",
-    "CC100-10-MUTUAL-PART-IDENTITY",
-    "CC100-10-WHOLE-TO-PARTS-EXISTENCE",
-    "CC100-10-PARTS-TO-WHOLE-EXISTENCE",
-    "CC100-10-WHOLLY-CONTINGENT-DEFINITION"
+    "070aeae1-affb-5000-9f29-0d218e357b97",
+    "ee619492-413b-52f5-99d9-35910a58715d",
+    "624d6970-5d5a-5bcc-b5d2-bf3f892358c1",
+    "d8fbfc8a-bc4c-5791-8b07-201d730cee2e",
+    "7f10e8a4-05b9-5ab0-ac48-f221d9913c1b",
+    "566b7372-b50e-5371-90a0-2896daf4d2ad"
   ],
   "note": "Source-only editorial glossary, not a new formal mereology. No arbitrary-set fusion, rigid part relation, modal part necessity, causal nonoverlap, explanatory adequacy or contingency-equivalence is assumed. Existing UniversalFusionBoundary uses an explicit partial-order domain and arbitrary nonempty-family Sum2 semantics; it is a scope comparison, not an exact source A2 alias."
 }

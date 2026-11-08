@@ -1,10 +1,12 @@
 {
-  "id": "STMT-TIME-ORDER-IMPLIES-SOONER-ABSURDITY",
+  "id": "bd9fe4be-43c3-5c2c-8e86-5e6c2622093e",
+  "label": "Clarke objects that if time were only the order of succession of created things, a world created…",
+  "legacy_id": "STMT-TIME-ORDER-IMPLIES-SOONER-ABSURDITY",
   "paraphrase": "Clarke objects that if time were only the order of succession of created things, a world created millions of ages sooner would not have been created any sooner at all; he adds that time is a quantity, which order is not, and says of Leibniz's temporal paragraph that the same reasoning applies as for space.",
   "definition_ids": [
-    "DEF-PATH-RELOCATION-DATING"
+    "ed5ebda7-c7d0-5aff-a268-9579e87a852a"
   ],
   "disambiguation_ids": [
-    "DISAMB-PATH-RELOCATION"
+    "84feebd9-62b5-5bb1-93b7-c4ac491f1a8c"
   ]
 }

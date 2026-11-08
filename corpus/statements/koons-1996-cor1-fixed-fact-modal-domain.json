@@ -1,14 +1,16 @@
 {
-  "id": "STMT-KOONS-1996-COR1-FIXED-FACT-MODAL-DOMAIN",
+  "id": "3d6167b0-5a1a-57b2-be5d-fb5297ae0ae6",
+  "label": "The domain of possible facts is fixed across worlds, with modal principles T, Barcan and converse…",
+  "legacy_id": "STMT-KOONS-1996-COR1-FIXED-FACT-MODAL-DOMAIN",
   "paraphrase": "The domain of possible facts is fixed across worlds, with modal principles T, Barcan and converse Barcan.",
   "definition_ids": [
-    "DEF-KOONS-1996-FACT-BEING-INVOLVEMENT",
-    "DEF-KOONS-1996-FIXED-POSSIBLE-FACT-DOMAIN"
+    "a3b179ce-b769-55bc-bda1-a2cb8626f36f",
+    "8d5ff44f-e39b-5615-b61b-368e35be45c2"
   ],
   "disambiguation_ids": [
-    "DISAMB-KOONS-1996-FIXED-FACT-BEARER",
-    "DISAMB-ASSIGNED-FIXED-CONSTITUENTS-AND-FACT-NECESSITY",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
-    "DISAMB-PSR-EXPLANATION-CAUSE"
+    "80acd34f-e0f4-5354-a24d-81fec4cbe173",
+    "7c017403-5d47-524f-b748-abac81add9d4",
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "f7bae38e-9b21-54fe-8236-2646c230568b"
   ]
 }

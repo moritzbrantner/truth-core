@@ -1,18 +1,20 @@
 {
-  "id": "AQUINAS-ST-I-Q2-A3-MAXIMUM-CAUSES-GENUS-A",
-  "statement_id": "STMT-GREATEST-DEGREE-IN-GENUS-CAUSES-ALL-IN-GENUS",
-  "source_id": "AQUINAS-ST",
+  "id": "73eece80-ee7d-564f-9e40-c00c71492a02",
+  "label": "Thomas Aquinas, Summa theologiae I q.2 a.3…: For an arbitrary selected perfection and supplied…",
+  "legacy_id": "AQUINAS-ST-I-Q2-A3-MAXIMUM-CAUSES-GENUS-A",
+  "statement_id": "6f4824c9-b80e-5ea7-9d45-dbfb8d53d379",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.2 a.3 co., quarta via: Quod autem dicitur maxime tale in aliquo genere, est causa omnium quae sunt illius generis",
   "interpretation": "Read maxime tale as greatest represented degree among bearers of one arbitrary selected perfection, in the preceding context of approach to something most such. The supplied value map and preorder are an explicit interpretation, not source mathematics or an attribution of a homogeneous ontology to analogical being. Ties at the greatest degree are allowed; no strict supremacy, injectivity or uniqueness follows. The maximum itself is excluded from its caused others, preserving the existing conservative causal scope. This claim formerly supported the stronger order-free principle for every merely maximal bearer; it no longer does: weakening an implication antecedent strengthens the whole conditional, and absence of a greater bearer does not rule out incomparability. The earlier attribution and its correction remain in ATTEMPT-ARISTOTLE-SYNONYMOUS-CAUSE-SCOPE. Aquinas explicitly asserts the causal conditional, but Aristotle II.1 993b24–26 gives cause-to-most rather than its converse; no independent truth warrant is inferred from the citation or fire example.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-GREATEST-DEGREE-IN-A-PERFECTION",
-    "DEF-GENUS-BROAD",
-    "DEF-CAUSE-OF-PERFECTION"
+    "9146daed-3e78-5804-8291-70c4e2c9d6c1",
+    "486bb45e-c4a2-5ba5-8b12-498a24eb1678",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24"
   ],
   "disambiguation_ids": [
-    "DISAMB-GENUS",
-    "DISAMB-MAXIME-ENS",
-    "DISAMB-ORDER-OF-BEING"
+    "4822a4f5-a93b-52dc-855a-00b7d57928d5",
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282",
+    "1795a62e-f78b-5f5b-94e7-9e7490824811"
   ]
 }

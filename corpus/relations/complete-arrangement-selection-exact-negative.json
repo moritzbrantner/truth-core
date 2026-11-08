@@ -1,9 +1,11 @@
 {
-  "id": "REL-COMPLETE-ARRANGEMENT-SELECTION-EXACT-NEGATIVE",
+  "id": "3f6f0047-b559-51f6-a365-e90aa7d63e6b",
+  "label": "Exact negation of the old… alternative to At the designated labeled arrangement a…",
+  "legacy_id": "REL-COMPLETE-ARRANGEMENT-SELECTION-EXACT-NEGATIVE",
   "subject_kind": "statement",
-  "subject_id": "STMT-COMPLETE-ARRANGEMENT-SELECTION-REQUIREMENT-FAILS",
+  "subject_id": "7c1229ba-93e9-59bd-9383-3b21afb59d7e",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-COMPLETE-CHAIN-EXPLANATION-SELECTS-ARRANGEMENT",
+  "object_id": "4f45ac2d-3bb1-5159-85db-0982225dfbd5",
   "note": "Exact matching-profile negation, preserving all stronger source/analyst accounts separately. Conditional proof is not independent warrant or an actual historical refutation."
 }

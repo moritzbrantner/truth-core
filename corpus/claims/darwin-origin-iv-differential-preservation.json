@@ -1,18 +1,20 @@
 {
-  "id": "DARWIN-ORIGIN-IV-DIFFERENTIAL-PRESERVATION",
-  "statement_id": "STMT-TELEONOMY-DIFFERENTIAL-PRESERVATION",
-  "source_id": "DARWIN-ORIGIN",
+  "id": "7c58152a-efbf-5722-b9a0-494622ec63c8",
+  "label": "Charles Darwin, On the Origin of Species…: Useful variations give their bearers a better chance of…",
+  "legacy_id": "DARWIN-ORIGIN-IV-DIFFERENTIAL-PRESERVATION",
+  "statement_id": "55b34b5f-045f-555f-b0f4-148fe03f7ef0",
+  "source_id": "031c0547-8313-5c01-88d2-6fe64e58ef24",
   "locator": "IV, natural selection, opening paragraph and Summary of the Chapter",
   "interpretation": "Tendency and relative advantage, not guaranteed survival, perfect adaptation, moral goodness or directed anticipation. The complete chapter was materialized; the conclusion leaves actual historical adequacy to the balance of evidence.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-TELEONOMY-SELECTION-FILTER",
-    "DEF-TELEONOMY-LOCAL-COUPLING",
-    "DEF-TELEONOMY-MODEL-SCOPE",
-    "DEF-INTENTIO-AS-TENDING",
-    "DEF-GOVERNMENT-DIRECTION-TO-END"
+    "4055cd38-c059-55cc-88d0-0c864f4a21aa",
+    "996de6a6-f12e-53ea-86bb-d3803f93f1ca",
+    "b5b918e7-b170-5d37-acad-10004f3570b7",
+    "2847d4f1-a13a-5d0f-8cc1-abf1c807f92f",
+    "c53b5fbe-121a-5d59-8e29-0f9f7eea85b1"
   ],
   "disambiguation_ids": [
-    "DISAMB-TELEONOMY-FINALITY-AND-AGENCY"
+    "066d546d-53f8-5319-8333-6b117a152002"
   ]
 }

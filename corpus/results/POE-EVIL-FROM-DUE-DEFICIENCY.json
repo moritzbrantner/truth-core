@@ -1,6 +1,8 @@
 {
-  "id": "POE-EVIL-FROM-DUE-DEFICIENCY",
-  "argument_id": "POE-EVIL-FROM-DUE-DEFICIENCY",
+  "id": "4a753a06-9f96-5da8-b306-2bbd88bdcfdb",
+  "label": "There is EVIL_1 in some being, from due deficiency",
+  "legacy_id": "POE-EVIL-FROM-DUE-DEFICIENCY",
+  "argument_id": "62175bbb-7b30-5ca9-98c4-953973d43455",
   "challenge_module": "TruthCore.Results.Comparison.ProblemOfEvil.FromDueDeficiency.Challenge",
   "solution_module": "TruthCore.Results.Comparison.ProblemOfEvil.FromDueDeficiency.Solution",
   "theorem": "TruthCore.Results.Comparison.ProblemOfEvil.FromDueDeficiency.evilFromDueDeficiency",
