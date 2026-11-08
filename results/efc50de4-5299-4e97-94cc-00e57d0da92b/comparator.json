@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Comparison.ProblemOfEvil.RoweRecognition.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.ProblemOfEvil.RoweRecognition.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Comparison.ProblemOfEvil.RoweRecognition.omissionControls"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

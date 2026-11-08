@@ -1,0 +1,10 @@
+{
+  "id": "c9c86b1f-1493-474a-9683-05784ff5bcfd",
+  "label": "Recognition nonvacuity certificate (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "2db08285-42a8-4a5d-af60-773ae45dc99a",
+  "rule": "Structured finite survey reasoning",
+  "meaning": "Analyst formulation, attribution deferred. Coverage and recognition completeness are separate open inputs. This result establishes only the encoded conditional or finite control, never probability or actual applicability. See docs/rowe-evidential-evil.md for the root connection plan.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
