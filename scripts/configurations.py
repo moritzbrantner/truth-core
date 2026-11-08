@@ -13,7 +13,7 @@ import tempfile
 from pathlib import Path
 
 from finite_models import NAME, TERM, verify_models
-from corpus_ids import is_uuid  # noqa: E402
+from corpus_ids import is_uuid, order_key  # noqa: E402
 
 IDENTIFIER = re.compile(r'[A-Za-z_][A-Za-z_0-9]*\Z')
 # Deliberately a small term language, not arbitrary Lean source in JSON.
@@ -286,7 +286,7 @@ def configuration_report(case, results, arguments, models, *, verified=False, se
         candidates = []
         work = 0
         truncated = False
-        for rid in sorted(case.get('incompatibility_result_ids', [])):
+        for rid in sorted(case.get('incompatibility_result_ids', []), key=lambda rid: order_key(rid, results[rid])):
             argument = arguments[results[rid]['argument_id']]
             premises = argument['premise_statement_ids']
             if any(sid not in supports for sid in premises):
@@ -346,7 +346,7 @@ def implication_closure(assumptions, case, results, arguments, limit=128, includ
     composed only from named, verified rules. Cycles cannot introduce a premise.
     """
     supports = {sid: {frozenset([sid]): ()} for sid in sorted(assumptions)}
-    rules = [(rid, arguments[results[rid]['argument_id']]) for rid in sorted(case.get('implication_result_ids', []))]
+    rules = [(rid, arguments[results[rid]['argument_id']]) for rid in sorted(case.get('implication_result_ids', []), key=lambda rid: order_key(rid, results[rid]))]
     work = 0
     truncated = False
     changed = True

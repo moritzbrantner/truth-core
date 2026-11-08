@@ -239,6 +239,19 @@ class ConfigurationTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'verification defect'):
             self.report()
 
+    def test_migration_preserves_the_selected_proof_for_equal_cores(self):
+        self.arguments['LARGER']['premise_statement_ids'] = ['P', 'Q']
+        self.case['configurations'] = [{'id': 'core', 'statement_ids': ['P', 'Q']}]
+        original = self.report()['configurations'][0]['incompatible_cores'][0]
+        identities = {'CORE': 'ffffffff-ffff-5fff-8fff-ffffffffffff',
+                      'LARGER': '00000000-0000-5000-8000-000000000000'}
+        self.results = {identities.get(rid, rid): {**result, 'id': identities.get(rid, rid), 'legacy_id': rid}
+                        for rid, result in self.results.items()}
+        self.case['incompatibility_result_ids'] = [identities[rid] for rid in self.case['incompatibility_result_ids']]
+        migrated = self.report()['configurations'][0]['incompatible_cores'][0]
+        self.assertEqual(migrated['result_id'], identities[original['result_id']])
+        self.assertEqual(migrated['theorems'], original['theorems'])
+
     def test_composition_tracks_exact_supports_and_cycles_cannot_introduce_atoms(self):
         self.case['implication_result_ids'] = ['PQ', 'QR']
         closure = implication_closure({'P', 'S'}, self.case, self.results, self.arguments)
