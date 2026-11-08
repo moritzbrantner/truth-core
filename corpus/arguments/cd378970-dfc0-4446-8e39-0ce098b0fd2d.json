@@ -1,0 +1,22 @@
+{
+  "id": "cd378970-dfc0-4446-8e39-0ce098b0fd2d",
+  "label": "Due actuality from ideal consensus and explicit semantic bridges",
+  "premise_statement_ids": [
+    "b3622de9-6c8e-4dc6-b597-48b9c0dffc46",
+    "50b0a5e4-ef0c-4358-84a1-cb663303cd44",
+    "770dca86-b389-4999-a2b7-a27b35eb40c8"
+  ],
+  "conclusion_statement_id": "6cc47d1b-4840-54e1-b96b-d389d74fbbf4",
+  "inference_ids": [
+    "0336991b-e4c0-4e30-8be8-fd433b111891"
+  ],
+  "meaning": "Conditional comparison of a unanimous ideal-attitude reduction with due actuality: aspectwise sound witnesses and universal acceptance suffice for coextension. No actual idealization, premise truth, property identity or practical authority is established; the unrestricted root leaf still needs AllActualitiesDue.",
+  "definition_ids": [
+    "2b760306-fed0-583e-b7b8-53a8a1d85676",
+    "68191121-85f6-5bce-b32e-1900c8b52f57",
+    "eb77a094-aec3-429c-b471-005f19a97330"
+  ],
+  "disambiguation_ids": [
+    "f5b1a1e9-1ba8-58ed-976c-9f228d8a8d14"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "04d31815-72a0-4c1c-a209-25a7ac84c180",
+  "label": "Ideal consensus comparison has compatibility and omission controls",
+  "argument_id": "4531d4bc-4f23-4200-8403-f59ec7e1a2f7",
+  "challenge_module": "TruthCore.Results.Metaethics.GoodnessFormEndIdealConsensus.Challenge",
+  "solution_module": "TruthCore.Results.Metaethics.GoodnessFormEndIdealConsensus.Solution",
+  "theorem": "TruthCore.Results.Metaethics.GoodnessFormEndIdealConsensus.controls",
+  "comparator_config": "results/04d31815-72a0-4c1c-a209-25a7ac84c180/comparator.json",
+  "status": "solution-present",
+  "description": "On the existing knife and counterweight profile, exact assessors satisfy every bridge. Permissive and rejecting assessors respectively omit soundness and acceptance; a due-accurate assessor with surplus goodness omits Reduction. Each omitted bridge leaves the due thesis false. Empty consensus also satisfies Acceptance while sound witnesses fail. No historical rival is refuted."
+}

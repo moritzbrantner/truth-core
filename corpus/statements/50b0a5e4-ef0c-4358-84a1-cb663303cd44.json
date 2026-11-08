@@ -1,0 +1,10 @@
+{
+  "id": "50b0a5e4-ef0c-4358-84a1-cb663303cd44",
+  "label": "Due actualities receive all ideal approvals",
+  "paraphrase": "Open semantic bridge: every due actuality receives approval from every supplied ideal assessor.",
+  "lean_declaration": "TruthCore.Metaethics.GoodnessFormEndIdealConsensus.Acceptance",
+  "definition_ids": [
+    "eb77a094-aec3-429c-b471-005f19a97330",
+    "68191121-85f6-5bce-b32e-1900c8b52f57"
+  ]
+}
