@@ -8,14 +8,20 @@
   ],
   "kind": "derivation",
   "outcome": "succeeded",
-  "summary": "Analyst actual-world scope fork, attribution deferred. Three sole-premise projections register strict global-to-actual weakenings of GodLoves, AlwaysOpen and AccessNeedsBelief. The existing empirical nonresistant-nonbelief premise is retained. The actual core conditionally yields the existing NoGod; the route challenge adds only explicit RouteIdentification IsGod s and concludes negation of the same stage-one GodExists predicate. Imports the existing checked PremisesIndependent and NontheisticConsistent witnesses rather than reconstructing them. Controls show nonvacuity, all three strictness witnesses, every core-premise omission and identification omission with an inhabited route predicate. Reject identification by spelling, conflation of belief and acceptance, and treating a modeled sufficient reason as an actual one. Five old statement definition inventories narrowed to used predicates; no claims, statement meaning or frozen old Challenges changed. Strongest reply and remaining empirical/normative burdens persist in docs/hiddenness.md and the existing bridge candidate. Six results build, bind and pass Comparator plus NanoDa with zero permitted axioms. No premise truth or bare necessary-being refutation follows.",
+  "summary": "Analyst actual-world scope fork, attribution deferred. Three sole-premise projections register strict global-to-actual weakenings of GodLoves, AlwaysOpen and AccessNeedsBelief. The existing empirical nonresistant-nonbelief premise is retained. The actual core conditionally yields the existing NoGod; the route challenge adds only explicit RouteIdentification IsGod s and concludes negation of the same stage-one GodExists predicate. Imports the existing checked PremisesIndependent and NontheisticConsistent witnesses rather than reconstructing them. Controls show nonvacuity, all three strictness witnesses, every core-premise omission and identification omission with an inhabited route predicate. Reject identification by spelling, conflation of belief and acceptance, and treating a modeled sufficient reason as an actual one. Five old statement definition inventories narrowed to used predicates; no claims, statement meaning or frozen old Challenges changed. Strongest reply and remaining empirical/normative burdens persist in docs/hiddenness.md and the existing bridge candidate. Six results build, bind and pass Comparator plus NanoDa with zero permitted axioms. No premise truth or bare necessary-being refutation follows. Follow-up 2026-11-09: WitnessLocalHiddenness restricts openness and access to actual capable causal nonresistant nonbelief witnesses, then selects one aligned witness outside God/love assumptions. God-to-love retained: guarding by empirical nonbelief is equivalent under the retained premise, not a strict weakening. Reject independently chosen local witnesses without alignment. Strictness controls keep actual nonbelief; old omission models reused; delayedModel gives positive GoodReason and nonacceptance while refuting witness-local unqualified openness. See docs/hiddenness.md; follow-up affected Lean build, six bindings (zero mismatches), six Comparator/NanoDa zero-axiom results, corpus/bundle/attribution/generation checks pass. Positive-root frontier and thickness unchanged; delivered-head CI/review pending.",
   "evidence": [
     "90ac694c-95da-4f52-872d-de20ca1e7f32",
     "313efb85-5f23-4e51-8ad5-6a8d953fa29c",
     "4a63f31d-e115-4be8-bb4a-3ab9bf737f1e",
     "2c2ee70b-896e-4b04-8c7e-ec67698e54de",
     "4949e131-5a57-494e-9acc-535fc1a3e06d",
-    "6066c4ef-f23a-4412-bced-aab12fc49fe5"
+    "6066c4ef-f23a-4412-bced-aab12fc49fe5",
+    "0affbd72-ea15-4220-81ee-86ba7ab55564",
+    "d0145731-b559-4e76-be62-3d7c09238fa4",
+    "e6346573-7867-4467-bceb-116aadab619f",
+    "c76bf052-c7a6-4438-b8e4-f7f26bac0fb2",
+    "b99c558a-c902-4f16-b111-838d34fa820b",
+    "b24ee5bc-af84-4627-9bd2-926fb3a95289"
   ],
   "blocker": "Actual openness and empirical nonresistance remain disputed; route identification is an open semantic premise. The qualified-reply and nontheistic rival models survive. Full delivered-head CI remains required before merge."
 }

@@ -1,0 +1,10 @@
+{
+  "id": "813c1993-6418-40ae-93e0-3daf918fbd7b",
+  "label": "Witness-local hiddenness challenges stage one",
+  "subject_kind": "argument",
+  "subject_id": "693055df-3c3d-4701-96c7-4ec92cfb9171",
+  "predicate": "refutes",
+  "object_kind": "statement",
+  "object_id": "8626f8a5-9531-5da7-9ebd-f901e74b1129",
+  "note": "Conditional rival using the unchanged selected-predicate RouteIdentification; establishes no premise truth."
+}

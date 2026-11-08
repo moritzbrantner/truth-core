@@ -1,0 +1,11 @@
+{
+  "id": "bc0a1c13-4eb1-4cff-bd51-0972fa2d69f2",
+  "label": "Witness openness scope projection strength order",
+  "subject_kind": "statement",
+  "subject_id": "7361a77f-a6fe-4a8a-b6f4-400a0d7c3750",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "16fde4e8-1801-4758-8207-f5ac611f3876",
+  "verification_result_id": "b99c558a-c902-4f16-b111-838d34fa820b",
+  "note": "Sole-premise projection; actual-world strictness with an existing nonbelief witness is in controls."
+}

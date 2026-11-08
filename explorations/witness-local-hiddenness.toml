@@ -1,0 +1,80 @@
+target = "STMT-GOD-EXISTS"
+
+[[node]]
+id = "STMT-GOD-EXISTS"
+
+[[node]]
+id = "STMT-HIDDENNESS-NO-GOD"
+
+[[node]]
+id = "STMT-HIDDENNESS-NONRESISTANT-NONBELIEF"
+
+[[node]]
+id = "5e5aa271-d500-41c7-a470-32969b00a5af"
+
+[[node]]
+id = "7361a77f-a6fe-4a8a-b6f4-400a0d7c3750"
+
+[[node]]
+id = "3b38aa55-ee4f-4dfb-aa9b-f5ab8d0f7121"
+
+[[node]]
+id = "witness-open"
+new = true
+text = "Immediate openness only at actual capable nonresistant nonbelief witnesses"
+
+[[node]]
+id = "witness-access"
+new = true
+text = "No access only at those same witnesses"
+
+[[edge]]
+premises = ["7361a77f-a6fe-4a8a-b6f4-400a0d7c3750"]
+conclusion = "witness-open"
+kind = "derivation"
+status = "mapped"
+
+[[edge]]
+premises = ["3b38aa55-ee4f-4dfb-aa9b-f5ab8d0f7121"]
+conclusion = "witness-access"
+kind = "derivation"
+status = "mapped"
+
+[[edge]]
+premises = ["5e5aa271-d500-41c7-a470-32969b00a5af", "witness-open", "witness-access", "STMT-HIDDENNESS-NONRESISTANT-NONBELIEF"]
+conclusion = "STMT-HIDDENNESS-NO-GOD"
+kind = "derivation"
+status = "mapped"
+
+[[node]]
+id = "c67a7815-2071-4d76-a3a0-b9f8e7b09532"
+
+[[node]]
+id = "c08f6a70-b75c-47de-b1af-e3aad89da98f"
+
+[[node]]
+id = "33674e8e-5882-44b8-8d28-b71573027d83"
+
+[[edge]]
+premises = ["witness-open", "witness-access", "STMT-HIDDENNESS-NONRESISTANT-NONBELIEF"]
+conclusion = "c67a7815-2071-4d76-a3a0-b9f8e7b09532"
+kind = "derivation"
+status = "mapped"
+
+[[edge]]
+premises = ["5e5aa271-d500-41c7-a470-32969b00a5af", "c67a7815-2071-4d76-a3a0-b9f8e7b09532"]
+conclusion = "STMT-HIDDENNESS-NO-GOD"
+kind = "derivation"
+status = "mapped"
+
+[[edge]]
+premises = ["5e5aa271-d500-41c7-a470-32969b00a5af", "c67a7815-2071-4d76-a3a0-b9f8e7b09532", "c08f6a70-b75c-47de-b1af-e3aad89da98f"]
+conclusion = "33674e8e-5882-44b8-8d28-b71573027d83"
+kind = "bridge"
+status = "mapped"
+
+[[edge]]
+premises = ["33674e8e-5882-44b8-8d28-b71573027d83"]
+conclusion = "STMT-GOD-EXISTS"
+kind = "rival"
+status = "mapped"

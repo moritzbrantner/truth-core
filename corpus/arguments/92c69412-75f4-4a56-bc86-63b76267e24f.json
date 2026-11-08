@@ -1,0 +1,32 @@
+{
+  "id": "92c69412-75f4-4a56-bc86-63b76267e24f",
+  "label": "Witness openness scope projection",
+  "premise_statement_ids": [
+    "7361a77f-a6fe-4a8a-b6f4-400a0d7c3750"
+  ],
+  "conclusion_statement_id": "16fde4e8-1801-4758-8207-f5ac611f3876",
+  "inference_ids": [
+    "57e8fa44-4e00-4b18-8f0e-faa7119abffd"
+  ],
+  "meaning": "Analyst scope comparison, attribution deferred. God-to-love is retained; empirical capacity, causal nonresistance and nonbelief are unchanged. Both local norms use the identical person and time. No premise is independently warranted. See docs/hiddenness.md for proof boundaries.",
+  "definition_ids": [
+    "608e0f97-3dbb-5bfd-9688-acecfb2f1fdf",
+    "61e1abc6-d388-559b-88e1-0a65073c88e1",
+    "e83e512d-ae8d-5e80-a697-8fc1d672b7d3",
+    "5fc52e92-0783-5a76-bd99-dca53df00800",
+    "9fefb6b4-9493-52c3-868c-ad00fcda8151",
+    "4b2943ad-3bc5-5492-94bc-f21e9f1a12ab",
+    "31d85ba8-5fb1-5fb8-bdfb-cedca7e8854e"
+  ],
+  "sense_bridges": [
+    {
+      "term": "LOVE_ACCESS",
+      "from": "4ee6f7e6-5a75-47a4-8453-493a0f7497ce",
+      "to": "d95b695e-f02f-4234-977a-1755a8f4a4e3",
+      "statement_id": "7361a77f-a6fe-4a8a-b6f4-400a0d7c3750"
+    }
+  ],
+  "disambiguation_ids": [
+    "fa0875d8-68c8-5520-ae18-58bb8a5808e8"
+  ]
+}
