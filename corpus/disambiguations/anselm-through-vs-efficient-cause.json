@@ -7,5 +7,20 @@
     "687881da-fd85-595d-8649-ab6e1f9b7ab2",
     "e232f6c0-f1f9-5c99-9e26-946a8abe4f2e"
   ],
-  "resolution": "The new Context represents being-through with target first and source second, admitting self-links in the nonproductive source sense. The q3 efficient esse-cause reading has a distinct actual source and is not this relation by definition. No identity with grounds, self-production, ordinary Causes, fact explanations or modal necessity is imported. Ultimate-source existence and uniqueness concern the same selected actual world and relation; source actuality is explicit and an ultimate candidate can acquire a self-link only through coverage. Distinct selfPowerFrom and through relations preserve HVEP2 as a substantive interface. The distinctGroundProfile adapter selects only through w TARGET SOURCE edges with SOURCE ≠ TARGET, retaining an independently supplied concrete predicate and the same ontic identity/existence. Local ancestry assumptions must be established for this derived relation; source actuality and concrete-source closure are separately required to upgrade its concrete grounding root to an unrestricted through-root. Neither productive self-causation nor real explanatory adequacy is inferred from the adapter."
+  "resolution": "The new Context represents being-through with target first and source second, admitting self-links in the nonproductive source sense. The q3 efficient esse-cause reading has a distinct actual source and is not this relation by definition. No identity with grounds, self-production, ordinary Causes, fact explanations or modal necessity is imported. Ultimate-source existence and uniqueness concern the same selected actual world and relation; source actuality is explicit and an ultimate candidate can acquire a self-link only through coverage. Distinct selfPowerFrom and through relations preserve HVEP2 as a substantive interface. The distinctGroundProfile adapter selects only through w TARGET SOURCE edges with SOURCE ≠ TARGET, retaining an independently supplied concrete predicate and the same ontic identity/existence. Local ancestry assumptions must be established for this derived relation; source actuality and concrete-source closure are separately required to upgrade its concrete grounding root to an unrestricted through-root. Neither productive self-causation nor real explanatory adequacy is inferred from the adapter.",
+  "term_label": "THROUGH_SELF_AND_THROUGH_ANOTHER",
+  "senses": [
+    {
+      "id": "b13a1d27-6008-4f22-b66a-dceb5e8b4090",
+      "label": "THROUGH_SELF_AND_THROUGH_ANOTHER_1",
+      "definition_id": "687881da-fd85-595d-8649-ab6e1f9b7ab2",
+      "lean_declaration": "TruthCore.Explanation.AnselmUltimateSource.Context"
+    },
+    {
+      "id": "d51bfd85-38db-473d-ba00-5d86cf5c7fb8",
+      "label": "THROUGH_SELF_AND_THROUGH_ANOTHER_2",
+      "definition_id": "e232f6c0-f1f9-5c99-9e26-946a8abe4f2e",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article4.HasExternalEsseCause"
+    }
+  ]
 }

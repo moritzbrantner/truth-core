@@ -7,5 +7,20 @@
     "fa11f89f-7d00-570a-8baa-bdb1313668a8",
     "dace8e73-8b5b-5378-8e62-17d534413168"
   ],
-  "resolution": "The q.75 first subconclusion is not being a body. The existing q.14 highest-immateriality antecedent additionally denies matter/form composition and componenthood; neither follows here. Q.75 a.2 ad 1–2 and q.76 a.1 preserve that the soul is a part/form of human nature, while the complete human being is the composite. No bridge to the divine HasIntellect argument or to STMT-IMMATERIAL-IS-INTELLECTUAL is advertised."
+  "resolution": "The q.75 first subconclusion is not being a body. The existing q.14 highest-immateriality antecedent additionally denies matter/form composition and componenthood; neither follows here. Q.75 a.2 ad 1–2 and q.76 a.1 preserve that the soul is a part/form of human nature, while the complete human being is the composite. No bridge to the divine HasIntellect argument or to STMT-IMMATERIAL-IS-INTELLECTUAL is advertised.",
+  "term_label": "INCORPOREAL_VERSUS_ALTOGETHER_IMMATERIAL",
+  "senses": [
+    {
+      "id": "70b2a728-9bfe-4b3c-a897-9b89831a0ebb",
+      "label": "INCORPOREAL_VERSUS_ALTOGETHER_IMMATERIAL_1",
+      "definition_id": "fa11f89f-7d00-570a-8baa-bdb1313668a8",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.HumanIntellect.IntellectIsNotBody"
+    },
+    {
+      "id": "85a8d332-614c-4686-ae7c-7c8babca8325",
+      "label": "INCORPOREAL_VERSUS_ALTOGETHER_IMMATERIAL_2",
+      "definition_id": "dace8e73-8b5b-5378-8e62-17d534413168",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.ImmaterialIsIntellectualReading"
+    }
+  ]
 }

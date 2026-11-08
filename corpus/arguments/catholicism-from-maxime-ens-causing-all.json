@@ -1,7 +1,5 @@
 {
   "id": "fa24c576-a166-5d0e-8ead-27a287fc390d",
-  "label": "Catholicism from the quarta via's conclusion (MAXIME_1), the full naming and stages 2-6",
-  "legacy_id": "CATHOLICISM-FROM-MAXIME-ENS-CAUSING-ALL",
   "premise_statement_ids": [
     "0881e859-c4c3-53ff-9bec-b61294e12d51",
     "7067553d-cad9-5d79-b6b2-912e35051530",
@@ -76,5 +74,15 @@
     "2567d8a9-549e-5404-8658-3275b7029092",
     "1fd4651d-77a7-5f25-9a1c-e28df367c602",
     "80b5fc49-ed55-5c61-b14b-3621d2aa1520"
-  ]
+  ],
+  "label": "Catholicism from the quarta via's conclusion (MAXIME_1), the full naming and stages 2-6",
+  "sense_bridges": [
+    {
+      "term": "GOD",
+      "from": "295c9096-50b8-4ccd-960e-f833730a0774",
+      "to": "52c2ebac-0a71-4dd4-8a21-804c1dd0847a",
+      "statement_id": "1ec205ed-b2a6-5384-bb5f-2565a9d325bf"
+    }
+  ],
+  "legacy_id": "CATHOLICISM-FROM-MAXIME-ENS-CAUSING-ALL"
 }

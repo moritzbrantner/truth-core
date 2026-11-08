@@ -1,7 +1,6 @@
 {
   "id": "0fa6a429-4367-5f69-b4ef-c42a439eae1a",
   "label": "NECESSARY_2 in S5 for the root, from the T and 5 schemas by correspondence",
-  "legacy_id": "MODAL-FORK-S5",
   "premise_statement_ids": [
     "8239eddf-aadf-5ad7-9243-e7698c7e8d27",
     "c3afabb3-3442-5b29-83bf-7114354b345a",
@@ -32,5 +31,38 @@
   ],
   "strong_version_needed": {
     "cdf897a8-5490-561a-b9d2-507486a3f192": "The frame-class readings are box-existence of the same individual n. The de dicto node does not name n, and the tertia via node gives the box only with excluded middle, so neither weak version yields the frame-class node."
-  }
+  },
+  "sense_bridges": [
+    {
+      "term": "EXACT_PATH_LENGTH_VERSUS_ARBITRARY_FINITE",
+      "from": "31d49046-6462-400e-ab25-53b0a28a1163",
+      "to": "be0563ce-7fa6-4b32-a37c-c8a0bce739bf",
+      "statement_id": "c3afabb3-3442-5b29-83bf-7114354b345a"
+    },
+    {
+      "term": "NECESSARY",
+      "from": "8c881fa6-2b9f-44be-a32a-c8ef29c13643",
+      "to": "7af298fb-a2c4-4239-919b-7685f2e1f67a",
+      "statement_id": "cdf897a8-5490-561a-b9d2-507486a3f192"
+    },
+    {
+      "term": "NECESSARY",
+      "from": "8c881fa6-2b9f-44be-a32a-c8ef29c13643",
+      "to": "7af298fb-a2c4-4239-919b-7685f2e1f67a",
+      "statement_id": "cb456382-efd6-554b-8ee4-c8fc193f876a"
+    },
+    {
+      "term": "NECESSARY",
+      "from": "8c881fa6-2b9f-44be-a32a-c8ef29c13643",
+      "to": "7af298fb-a2c4-4239-919b-7685f2e1f67a",
+      "statement_id": "6f474aba-fda0-57fa-8330-6246de589f63"
+    },
+    {
+      "term": "ONE_STEP_ACCESSIBILITY_EDGE_FINITE_PATH",
+      "from": "9388f01b-4918-4472-97c3-93e1b897c38c",
+      "to": "a743d896-ff15-430d-9ec6-dbbf98ef6328",
+      "statement_id": "c3afabb3-3442-5b29-83bf-7114354b345a"
+    }
+  ],
+  "legacy_id": "MODAL-FORK-S5"
 }

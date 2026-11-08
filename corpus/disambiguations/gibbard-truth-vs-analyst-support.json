@@ -7,5 +7,19 @@
     "3b684b57-3e4b-537c-925b-5cc172a6011a",
     "2b5fce13-1e2b-535d-9d16-a58274d04626"
   ],
-  "resolution": "The primary claim uses Gibbard\u2019s expressly qualified expanded full-truth sense. PLAN-STATE-EMBEDDING-CONTROL uses stipulated compositional support, whose conditional holds at a point whenever the antecedent is unsupported or consequent supported. These are not identified: Gibbard denies full truth values to false-antecedent indicative conditionals. No result here proves his indicative semantics validates MP or that the analyst clause captures his psychology or ordinary moral language."
+  "resolution": "The primary claim uses Gibbard\u2019s expressly qualified expanded full-truth sense. PLAN-STATE-EMBEDDING-CONTROL uses stipulated compositional support, whose conditional holds at a point whenever the antecedent is unsupported or consequent supported. These are not identified: Gibbard denies full truth values to false-antecedent indicative conditionals. No result here proves his indicative semantics validates MP or that the analyst clause captures his psychology or ordinary moral language.",
+  "term_label": "CONDITIONAL_TRUTH_AND_SUPPORT",
+  "senses": [
+    {
+      "id": "84e4d3f9-770a-4d48-a1c7-418906c15cc2",
+      "label": "CONDITIONAL_TRUTH_AND_SUPPORT_1",
+      "definition_id": "3b684b57-3e4b-537c-925b-5cc172a6011a"
+    },
+    {
+      "id": "023fb6c7-ebd9-4d20-8273-1828a8bf760e",
+      "label": "CONDITIONAL_TRUTH_AND_SUPPORT_2",
+      "definition_id": "2b5fce13-1e2b-535d-9d16-a58274d04626",
+      "lean_declaration": "TruthCore.Metaethics.PlanStateEmbedding.support"
+    }
+  ]
 }

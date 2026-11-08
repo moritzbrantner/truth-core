@@ -8,5 +8,26 @@
     "b756092b-697b-52f9-aa64-7e6da9e87b60",
     "851dbf2e-5030-51ad-9b74-b960a87683f4"
   ],
-  "resolution": "Each result uses exactly one sense. STMT-STRONG-VERIFICATION-EXCLUDES-LAWS concerns conclusive verification (V1) only; STMT-AYER-1936-CRITERION-TRIVIAL the unrestricted 1936 test (V2); STMT-CHURCH-1949-TRIVIALIZATION and its corollaries the 1946 direct and indirect clauses (V3). No result transfers a verdict from one sense to another: a sentence not conclusively verifiable may pass the 1936 or 1946 test, which is why the weaker criteria were proposed. The self-application premises (STMT-VERIFICATION-PRINCIPLE-NOT-VERIFIABLE) take the variant's own sense as a parameter."
+  "resolution": "Each result uses exactly one sense. STMT-STRONG-VERIFICATION-EXCLUDES-LAWS concerns conclusive verification (V1) only; STMT-AYER-1936-CRITERION-TRIVIAL the unrestricted 1936 test (V2); STMT-CHURCH-1949-TRIVIALIZATION and its corollaries the 1946 direct and indirect clauses (V3). No result transfers a verdict from one sense to another: a sentence not conclusively verifiable may pass the 1936 or 1946 test, which is why the weaker criteria were proposed. The self-application premises (STMT-VERIFICATION-PRINCIPLE-NOT-VERIFIABLE) take the variant's own sense as a parameter.",
+  "term_label": "VERIFIABLE",
+  "senses": [
+    {
+      "id": "e7c48fdd-7dcc-430c-b5b9-a5029ed330ee",
+      "label": "VERIFIABLE_1",
+      "definition_id": "bd8abce7-0de2-528a-b7dd-f8418398846b",
+      "lean_declaration": "TruthCore.Logic.Verificationism.ConclusivelyVerifiable"
+    },
+    {
+      "id": "ac63b1c9-62fc-41e7-80a2-867e8cf21776",
+      "label": "VERIFIABLE_2",
+      "definition_id": "b756092b-697b-52f9-aa64-7e6da9e87b60",
+      "lean_declaration": "TruthCore.Logic.Verificationism.WeaklyVerifiable1936"
+    },
+    {
+      "id": "2bcc56f1-b4c3-4e34-b9ec-f8c2daaab9f3",
+      "label": "VERIFIABLE_3",
+      "definition_id": "851dbf2e-5030-51ad-9b74-b960a87683f4",
+      "lean_declaration": "TruthCore.Logic.Verificationism.EmpiricallyVerifiable"
+    }
+  ]
 }

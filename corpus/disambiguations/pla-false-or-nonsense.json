@@ -7,5 +7,18 @@
     "c1b29adf-421d-5181-99fb-68d4987ea74a",
     "2d2aca32-9490-598e-b55e-376cc2585a99"
   ],
-  "resolution": "STMT-PLA-REDUCTIO-READING takes the false sense and STMT-PLA-NONSENSE-READING the nonsense sense; they are rival readings and no record passes from one to the other. On either, the bearing on the candidate floor item F5 (STMT-COGITO-THOUGHT-OCCURS) is the same: the sections deny a private ostensive criterion of identification (§258), not that a thought occurs (§§304, 308). These remain full-strength competing interpretations of the text, not an exhaustive object-level semantic classification or mechanically checked negation pair. Their relationship is now an interpretive attacks annotation; refuting the nonsense interpretation alone does not prove that the text argues by reductio. A scoped incompatibility would need a fixed passage, content/meaning criterion and argument-strategy mapping; no such source judgment is manufactured. See docs/notes/semantic-rival-scope.md."
+  "resolution": "STMT-PLA-REDUCTIO-READING takes the false sense and STMT-PLA-NONSENSE-READING the nonsense sense; they are rival readings and no record passes from one to the other. On either, the bearing on the candidate floor item F5 (STMT-COGITO-THOUGHT-OCCURS) is the same: the sections deny a private ostensive criterion of identification (§258), not that a thought occurs (§§304, 308). These remain full-strength competing interpretations of the text, not an exhaustive object-level semantic classification or mechanically checked negation pair. Their relationship is now an interpretive attacks annotation; refuting the nonsense interpretation alone does not prove that the text argues by reductio. A scoped incompatibility would need a fixed passage, content/meaning criterion and argument-strategy mapping; no such source judgment is manufactured. See docs/notes/semantic-rival-scope.md.",
+  "term_label": "PRIVATE_LANGUAGE",
+  "senses": [
+    {
+      "id": "fd52547b-4893-47a0-9d1f-063941d29f31",
+      "label": "PRIVATE_LANGUAGE_1",
+      "definition_id": "c1b29adf-421d-5181-99fb-68d4987ea74a"
+    },
+    {
+      "id": "c69ccfa0-d2f0-422c-8efa-a04d066e1e28",
+      "label": "PRIVATE_LANGUAGE_2",
+      "definition_id": "2d2aca32-9490-598e-b55e-376cc2585a99"
+    }
+  ]
 }

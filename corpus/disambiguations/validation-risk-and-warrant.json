@@ -8,5 +8,25 @@
     "0331d7b3-ad25-59d1-b4c2-94218ddda0ca",
     "63f0647d-d7f6-5101-ba15-efdcdb6e6530"
   ],
-  "resolution": "Finite validation controls the joint event that a bad predeclared candidate passes under genuine independent sampling from the deployment measure. Online correction instead compares actual mistake counts against a supplied expert budget; neither theorem certifies that its application assumptions hold. The validation bound is not automatically posterior P(good given pass): a fixed bad candidate can pass with positive probability and its bad-pass event equals its pass event. Selection within the predeclared finite pool is covered with its cardinality penalty; selecting an arbitrary memorizer outside it after seeing validation data is not. Accessible justified correction and categorical epistemic authority remain separate open burdens. No finite-risk bound guarantees future truth or closes a root premise."
+  "resolution": "Finite validation controls the joint event that a bad predeclared candidate passes under genuine independent sampling from the deployment measure. Online correction instead compares actual mistake counts against a supplied expert budget; neither theorem certifies that its application assumptions hold. The validation bound is not automatically posterior P(good given pass): a fixed bad candidate can pass with positive probability and its bad-pass event equals its pass event. Selection within the predeclared finite pool is covered with its cardinality penalty; selecting an arbitrary memorizer outside it after seeing validation data is not. Accessible justified correction and categorical epistemic authority remain separate open burdens. No finite-risk bound guarantees future truth or closes a root premise.",
+  "term_label": "VALIDATION_RELIABILITY_AND_EPISTEMIC_WARRANT",
+  "senses": [
+    {
+      "id": "96bd303c-54a8-486a-a50e-b982f1224bd1",
+      "label": "VALIDATION_RELIABILITY_AND_EPISTEMIC_WARRANT_1",
+      "definition_id": "11da445b-7c92-546d-b51e-5951a1caed76",
+      "lean_declaration": "TruthCore.Logic.FiniteValidationLogic.falseAcceptance"
+    },
+    {
+      "id": "68b34f7e-ba5d-4115-bc9d-5eddd7b1978e",
+      "label": "VALIDATION_RELIABILITY_AND_EPISTEMIC_WARRANT_2",
+      "definition_id": "0331d7b3-ad25-59d1-b4c2-94218ddda0ca",
+      "lean_declaration": "TruthCore.Logic.FallibleCorrection.weights"
+    },
+    {
+      "id": "84259cc4-e9a7-4079-8fea-abf099da765a",
+      "label": "VALIDATION_RELIABILITY_AND_EPISTEMIC_WARRANT_3",
+      "definition_id": "63f0647d-d7f6-5101-ba15-efdcdb6e6530"
+    }
+  ]
 }

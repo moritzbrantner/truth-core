@@ -9,5 +9,29 @@
     "6d2e443d-bb1b-56c1-b9d9-bbb55a8c00d6",
     "38955650-58d2-5bfc-a6ec-6255f5193090"
   ],
-  "resolution": "The An.Post. claims reconstruct a source-specific norm of demonstrative episteme and Aristotle's positive non-demonstrative reply. They do not identify every epistemic justification with the repository's stipulated GeneratedWarrant. Prior explanatory knowledge is not merely earlier temporal possession or infinitely many psychologically performed steps. Immediate knowledge is not bare concession, while Aristotle's assertion that it exists is not our proof of independent entitlement. Circular demonstration, reciprocal logical consequence and holistic epistemic support remain distinct. No epistemic argument is transferred to ontological causal dependence or an unbounded temporal past without an additional defended bridge."
+  "resolution": "The An.Post. claims reconstruct a source-specific norm of demonstrative episteme and Aristotle's positive non-demonstrative reply. They do not identify every epistemic justification with the repository's stipulated GeneratedWarrant. Prior explanatory knowledge is not merely earlier temporal possession or infinitely many psychologically performed steps. Immediate knowledge is not bare concession, while Aristotle's assertion that it exists is not our proof of independent entitlement. Circular demonstration, reciprocal logical consequence and holistic epistemic support remain distinct. No epistemic argument is transferred to ontological causal dependence or an unbounded temporal past without an additional defended bridge.",
+  "term_label": "DEMONSTRATION_IMMEDIATE_KNOWLEDGE_INFERENTIAL_WARRANT",
+  "senses": [
+    {
+      "id": "767ae7b8-e8af-415e-b98c-1d730fee0a3f",
+      "label": "DEMONSTRATION_IMMEDIATE_KNOWLEDGE_INFERENTIAL_WARRANT_1",
+      "definition_id": "a5c9be24-4211-5d0d-b652-20c7ceb47190"
+    },
+    {
+      "id": "4398c1a8-24b7-47f7-aec7-0f665bd676c4",
+      "label": "DEMONSTRATION_IMMEDIATE_KNOWLEDGE_INFERENTIAL_WARRANT_2",
+      "definition_id": "34e6203c-9ba6-58c8-9f2e-8c5e2c884783"
+    },
+    {
+      "id": "0e67d9fb-5065-4d77-8ae7-6e29a2d5166e",
+      "label": "DEMONSTRATION_IMMEDIATE_KNOWLEDGE_INFERENTIAL_WARRANT_3",
+      "definition_id": "6d2e443d-bb1b-56c1-b9d9-bbb55a8c00d6"
+    },
+    {
+      "id": "2544cd5a-86f2-4b40-ad42-85c514047ab6",
+      "label": "DEMONSTRATION_IMMEDIATE_KNOWLEDGE_INFERENTIAL_WARRANT_4",
+      "definition_id": "38955650-58d2-5bfc-a6ec-6255f5193090",
+      "lean_declaration": "TruthCore.Logic.RegressDomains.GeneratedWarrant"
+    }
+  ]
 }

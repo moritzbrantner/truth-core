@@ -65,6 +65,13 @@ jobs:
         run: |
           if git rev-parse --verify HEAD^1 >/dev/null 2>&1; then
             python3 scripts/label_cleanup.py check --base HEAD^1
+      # Sense-index legacy allowlists may only shrink (#1233): a PR that adds an
+      # entry fails; entries that no longer fail are listed for removal.
+      - name: Ratchet the sense-index allowlists
+        if: github.event_name == 'pull_request'
+        run: |
+          if git rev-parse --verify HEAD^1 >/dev/null 2>&1; then
+            python3 scripts/sense_index.py ratchet --base HEAD^1
           fi
       - name: Check bounded migration coverage and review freshness
         run: python3 scripts/bundle_audit.py

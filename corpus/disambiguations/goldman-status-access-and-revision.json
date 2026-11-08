@@ -10,5 +10,35 @@
     "96525e31-fe3e-5651-a70e-01b84fedf39b",
     "38955650-58d2-5bfc-a6ec-6255f5193090"
   ],
-  "resolution": "A belief’s justification, knowledge that it is justified, the ability to articulate reasons and knowledge of its content are distinct. Goldman permits fallible justified beliefs, so justification is not factive knowledge. Principles (6A)–(6B) form an initial historical account, not the unqualified final answer; section III adds objections and tentative qualifications. His available alternative cognitive processes differ from infinitist available reasons. GeneratedWarrant is a separately stipulated all-premise inductive standard; no source identity or causal/ontological transfer is asserted. Process causal ancestry concerns belief production and does not identify efficient per se power, temporal eternity or a metaphysical existence explanation."
+  "resolution": "A belief’s justification, knowledge that it is justified, the ability to articulate reasons and knowledge of its content are distinct. Goldman permits fallible justified beliefs, so justification is not factive knowledge. Principles (6A)–(6B) form an initial historical account, not the unqualified final answer; section III adds objections and tentative qualifications. His available alternative cognitive processes differ from infinitist available reasons. GeneratedWarrant is a separately stipulated all-premise inductive standard; no source identity or causal/ontological transfer is asserted. Process causal ancestry concerns belief production and does not identify efficient per se power, temporal eternity or a metaphysical existence explanation.",
+  "term_label": "JUSTIFICATIONAL_STATUS_REFLECTIVE_ACCESS_RELIABLE_PROCESS",
+  "senses": [
+    {
+      "id": "a9778663-7ad4-4c16-8d99-438f2b9f4e31",
+      "label": "JUSTIFICATIONAL_STATUS_REFLECTIVE_ACCESS_RELIABLE_PROCESS_1",
+      "definition_id": "aa7e99a0-6688-5cfa-950c-6991f9072d1b"
+    },
+    {
+      "id": "41f70590-af0a-42ba-8001-d8faaf21c5b1",
+      "label": "JUSTIFICATIONAL_STATUS_REFLECTIVE_ACCESS_RELIABLE_PROCESS_2",
+      "definition_id": "73ca1400-cedf-5dbc-a478-e313e7ffa7ec"
+    },
+    {
+      "id": "33ac8e4f-3ae1-4f2f-882b-432f2b0234d5",
+      "label": "JUSTIFICATIONAL_STATUS_REFLECTIVE_ACCESS_RELIABLE_PROCESS_3",
+      "definition_id": "f38996f7-c982-5809-8215-392d0f6cb956"
+    },
+    {
+      "id": "3b86831d-295c-4728-8501-49f81d8cfccb",
+      "label": "JUSTIFICATIONAL_STATUS_REFLECTIVE_ACCESS_RELIABLE_PROCESS_4",
+      "definition_id": "96525e31-fe3e-5651-a70e-01b84fedf39b",
+      "lean_declaration": "TruthCore.Logic.JustificationIntrospection.KnowledgeRequiresJustification"
+    },
+    {
+      "id": "9d5a437e-9962-4678-a58c-47862d4d8d60",
+      "label": "JUSTIFICATIONAL_STATUS_REFLECTIVE_ACCESS_RELIABLE_PROCESS_5",
+      "definition_id": "38955650-58d2-5bfc-a6ec-6255f5193090",
+      "lean_declaration": "TruthCore.Logic.RegressDomains.GeneratedWarrant"
+    }
+  ]
 }

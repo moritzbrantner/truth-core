@@ -7,5 +7,20 @@
     "fa11f89f-7d00-570a-8baa-bdb1313668a8",
     "2a840e1e-3e83-5aa3-9d0b-efbdd4bb5fde"
   ],
-  "resolution": "Q.75 a.2 makes two separate subconclusions. IntellectIsNotBody negates the body predicate of the designated intellectual principle. IntellectUsesNoBodilyOrgan denies a body related to that principle by instrumental exercise. The latter requires the separately stated organ-interference premise; it is not inferred from the former or from the old NaturalBodilyInterference constraint. The finite organInterferenceOmission theorem explicitly realizes non-bodyhood and the old interference constraint with a bodily instrument. Neither sense denies object-side bodily dependence or identifies human knowing with the highest divine immateriality."
+  "resolution": "Q.75 a.2 makes two separate subconclusions. IntellectIsNotBody negates the body predicate of the designated intellectual principle. IntellectUsesNoBodilyOrgan denies a body related to that principle by instrumental exercise. The latter requires the separately stated organ-interference premise; it is not inferred from the former or from the old NaturalBodilyInterference constraint. The finite organInterferenceOmission theorem explicitly realizes non-bodyhood and the old interference constraint with a bodily instrument. Neither sense denies object-side bodily dependence or identifies human knowing with the highest divine immateriality.",
+  "term_label": "INTELLECT_NOT_ITSELF_A_BODY",
+  "senses": [
+    {
+      "id": "07593d19-53af-4a21-aa03-f2d057576a2f",
+      "label": "INTELLECT_NOT_ITSELF_A_BODY_1",
+      "definition_id": "fa11f89f-7d00-570a-8baa-bdb1313668a8",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.HumanIntellect.IntellectIsNotBody"
+    },
+    {
+      "id": "a45bb817-2a5a-42db-bb06-59f1942ec2fb",
+      "label": "INTELLECT_NOT_ITSELF_A_BODY_2",
+      "definition_id": "2a840e1e-3e83-5aa3-9d0b-efbdd4bb5fde",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.HumanIntellect.IntellectUsesNoBodilyOrgan"
+    }
+  ]
 }

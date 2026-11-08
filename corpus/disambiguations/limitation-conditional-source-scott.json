@@ -11,5 +11,42 @@
     "9a9e4fd6-d810-5039-9185-a93a2e0a358a",
     "a919ce52-6c8b-5e0f-9aaa-5b570bded78b"
   ],
-  "resolution": "The four-input theorem uses an arbitrary constrained classifier at one world, with existing full constant-domain Property/Box/Dia and explicit EM. It does not select full Limiting-as-existential-deficiency semantics, bind A8 broad source definitions/reports, or discharge their property/deficiency/uniformity/evaluative application gaps. Source C4 motivates backwards closure but does not independently validate this exact full-domain interface. Scott T1 adds global A1a complement exclusion; the SAME joint fixture shows nonlimitation need not satisfy it, so no full Scott adapter is inferred. RootMultiplication structural limiting horns and source A9 nontrivial entailment remain distinct. Possible exemplification is an accessible quantifier witness, not actualist existence, a rigid necessary individual, God, or philosophical possibility independently warranted."
+  "resolution": "The four-input theorem uses an arbitrary constrained classifier at one world, with existing full constant-domain Property/Box/Dia and explicit EM. It does not select full Limiting-as-existential-deficiency semantics, bind A8 broad source definitions/reports, or discharge their property/deficiency/uniformity/evaluative application gaps. Source C4 motivates backwards closure but does not independently validate this exact full-domain interface. Scott T1 adds global A1a complement exclusion; the SAME joint fixture shows nonlimitation need not satisfy it, so no full Scott adapter is inferred. RootMultiplication structural limiting horns and source A9 nontrivial entailment remain distinct. Possible exemplification is an accessible quantifier witness, not actualist existence, a rigid necessary individual, God, or philosophical possibility independently warranted.",
+  "term_label": "ANALYST_NONLIMITATION_POSSIBILITY_VERSUS_SOURCE_A8",
+  "senses": [
+    {
+      "id": "04e42a8f-40c5-44aa-b52f-b69f5952490f",
+      "label": "ANALYST_NONLIMITATION_POSSIBILITY_VERSUS_SOURCE_A8_1",
+      "definition_id": "3fb0a456-3dc6-500b-a8b7-0915d2514037",
+      "lean_declaration": "TruthCore.Modal.LimitationPossibility.BackwardClosedAt"
+    },
+    {
+      "id": "fd74e765-c75e-4d53-bab7-a2a60b246db6",
+      "label": "ANALYST_NONLIMITATION_POSSIBILITY_VERSUS_SOURCE_A8_2",
+      "definition_id": "c2742e9e-4a8d-55b5-9df5-def25c68ee3a",
+      "lean_declaration": "TruthCore.Modal.LimitationPossibility.JointControl"
+    },
+    {
+      "id": "a9032f6f-ac6e-434c-94ee-357ee7aa859e",
+      "label": "ANALYST_NONLIMITATION_POSSIBILITY_VERSUS_SOURCE_A8_3",
+      "definition_id": "45cb47e4-168c-5bb7-baf8-b659632a396e"
+    },
+    {
+      "id": "1b9ba48e-9bff-45e5-a341-53a179415a72",
+      "label": "ANALYST_NONLIMITATION_POSSIBILITY_VERSUS_SOURCE_A8_4",
+      "definition_id": "93ea01f7-a699-582c-9b57-0678c1396b4c"
+    },
+    {
+      "id": "e41f8b5f-66f3-48dc-a7b7-f0fcb3211f35",
+      "label": "ANALYST_NONLIMITATION_POSSIBILITY_VERSUS_SOURCE_A8_5",
+      "definition_id": "9a9e4fd6-d810-5039-9185-a93a2e0a358a",
+      "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.Positivity"
+    },
+    {
+      "id": "9158b0a9-d0a0-4718-a527-f02fd44be41c",
+      "label": "ANALYST_NONLIMITATION_POSSIBILITY_VERSUS_SOURCE_A8_6",
+      "definition_id": "a919ce52-6c8b-5e0f-9aaa-5b570bded78b",
+      "lean_declaration": "TruthCore.Causality.RootMultiplication.HasLimitingPrinciple"
+    }
+  ]
 }

@@ -11,5 +11,42 @@
     "e201b423-f0e4-5026-a88d-1c1a8e452638",
     "ea6239a8-8662-5732-904b-d8121799b1fe"
   ],
-  "resolution": "Coverage quantifies over true represented facts and local makers; it does not bind the same maker across worlds. MakerNecessitation constrains truth conditional on bearer existence, not necessary bearer existence. Restricted per-individual labels are narrower than the ordinary phrase mere-existence truths. Absolute emptiness quantifies over every eligible maker; concrete-only emptiness leaves existing abstract makers. The all-world scope and rigid truthbearer availability of formal profiles are analyst assumptions, not attributed from Merricks’s prose."
+  "resolution": "Coverage quantifies over true represented facts and local makers; it does not bind the same maker across worlds. MakerNecessitation constrains truth conditional on bearer existence, not necessary bearer existence. Restricted per-individual labels are narrower than the ordinary phrase mere-existence truths. Absolute emptiness quantifies over every eligible maker; concrete-only emptiness leaves existing abstract makers. The all-world scope and rigid truthbearer availability of formal profiles are analyst assumptions, not attributed from Merricks’s prose.",
+  "term_label": "TRUTHMAKER_COVERAGE_UNIFORMITY_AND_NECESSITY",
+  "senses": [
+    {
+      "id": "4abf4dd3-e3c4-4522-9d0b-d714c9f3ad48",
+      "label": "TRUTHMAKER_COVERAGE_UNIFORMITY_AND_NECESSITY_1",
+      "definition_id": "1d3220e2-a6b2-51f5-87e7-a703690dee75",
+      "lean_declaration": "TruthCore.Explanation.TruthmakerTheories.Maximalist"
+    },
+    {
+      "id": "1c2491a7-8218-4e6e-bfdf-1c0774f1793e",
+      "label": "TRUTHMAKER_COVERAGE_UNIFORMITY_AND_NECESSITY_2",
+      "definition_id": "af6281dc-b6a1-573f-b1ea-d04f0194889f",
+      "lean_declaration": "TruthCore.Explanation.TruthmakerTheories.UniformMaker"
+    },
+    {
+      "id": "f5a860f0-7dbd-4f33-9042-cb6d2ef686b2",
+      "label": "TRUTHMAKER_COVERAGE_UNIFORMITY_AND_NECESSITY_3",
+      "definition_id": "f79569b7-0cdd-5037-81d1-ba6062825856",
+      "lean_declaration": "TruthCore.Explanation.TruthmakerTheories.EmptyFact"
+    },
+    {
+      "id": "ea07caae-24e6-4a12-9e6d-6075dbbb05a3",
+      "label": "TRUTHMAKER_COVERAGE_UNIFORMITY_AND_NECESSITY_4",
+      "definition_id": "e0c8ec60-1a50-5400-9aa2-927f472b96f5",
+      "lean_declaration": "TruthCore.Explanation.TruthmakerTheories.ConcreteEmptyFact"
+    },
+    {
+      "id": "f108e88f-241f-436f-b855-6667101c6101",
+      "label": "TRUTHMAKER_COVERAGE_UNIFORMITY_AND_NECESSITY_5",
+      "definition_id": "e201b423-f0e4-5026-a88d-1c1a8e452638"
+    },
+    {
+      "id": "5329bb1d-7c76-4560-a2f9-13cc0aa53184",
+      "label": "TRUTHMAKER_COVERAGE_UNIFORMITY_AND_NECESSITY_6",
+      "definition_id": "ea6239a8-8662-5732-904b-d8121799b1fe"
+    }
+  ]
 }

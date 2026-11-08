@@ -1,7 +1,6 @@
 {
   "id": "a8cc9d48-b597-55b2-abf1-cfc59863f01b",
   "label": "Moved only in POTENCY_1 implies moved only with POTENCY_3 capacity",
-  "legacy_id": "MOVED-AS-CAPABLE-FROM-ADOPTED-POTENCY",
   "premise_statement_ids": [
     "bc4051e9-7098-56f2-8204-e998c5be653b"
   ],
@@ -18,5 +17,14 @@
   ],
   "disambiguation_ids": [
     "508617ab-cf24-5f3b-a387-64b3991359ec"
-  ]
+  ],
+  "sense_bridges": [
+    {
+      "term": "POTENCY_CAPACITY_AND_POWER_ACROSS_ADOPTED",
+      "from": "5252f7f4-95a7-42f3-a420-23770702a0f4",
+      "to": "02e3f1d0-4ba1-498f-b34d-40bdd348d8c4",
+      "statement_id": "bc4051e9-7098-56f2-8204-e998c5be653b"
+    }
+  ],
+  "legacy_id": "MOVED-AS-CAPABLE-FROM-ADOPTED-POTENCY"
 }

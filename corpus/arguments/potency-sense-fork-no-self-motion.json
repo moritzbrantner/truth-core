@@ -1,7 +1,6 @@
 {
   "id": "09164174-022e-57fc-a241-9da629576ccb",
   "label": "Whichever single sense potency takes, nothing moves itself in the same respect",
-  "legacy_id": "POTENCY-SENSE-FORK-NO-SELF-MOTION",
   "premise_statement_ids": [
     "887dea7d-64aa-54bb-8890-c105cd573f47",
     "165ea3f2-f51a-5aa3-9e07-0020fddc69cb",
@@ -27,5 +26,26 @@
     "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
     "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
     "508617ab-cf24-5f3b-a387-64b3991359ec"
-  ]
+  ],
+  "sense_bridges": [
+    {
+      "term": "POTENCY_CAPACITY_AND_POWER_ACROSS_ADOPTED",
+      "from": "5252f7f4-95a7-42f3-a420-23770702a0f4",
+      "to": "d0b17a2e-febf-45e8-9b9e-11a75b2ccbc6",
+      "statement_id": "887dea7d-64aa-54bb-8890-c105cd573f47"
+    },
+    {
+      "term": "POTENCY_CAPACITY_AND_POWER_ACROSS_ADOPTED",
+      "from": "5252f7f4-95a7-42f3-a420-23770702a0f4",
+      "to": "02e3f1d0-4ba1-498f-b34d-40bdd348d8c4",
+      "statement_id": "887dea7d-64aa-54bb-8890-c105cd573f47"
+    },
+    {
+      "term": "POTENCY_CAPACITY_AND_POWER_ACROSS_ADOPTED",
+      "from": "5252f7f4-95a7-42f3-a420-23770702a0f4",
+      "to": "d0b17a2e-febf-45e8-9b9e-11a75b2ccbc6",
+      "statement_id": "c6d6379b-6a9b-55b5-a701-3df289dfcca4"
+    }
+  ],
+  "legacy_id": "POTENCY-SENSE-FORK-NO-SELF-MOTION"
 }

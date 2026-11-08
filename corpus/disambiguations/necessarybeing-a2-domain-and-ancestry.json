@@ -8,5 +8,23 @@
     "88bd1ef6-cb47-5707-ae9a-23537290aea9",
     "dc059ebd-fa9a-5360-8285-aad7cefbed71"
   ],
-  "resolution": "A2P1 uses cause-or-effect capability, while A2c uses cause capability alone; do not silently carry its reported denial across that narrowing. Source entire-chain member closure is not collective causation. The existing actualGraph ranges over actual Ontic candidates and its sources exclude incoming causes from actual nodes only. Its finite ancestor cones allow branching, cycles and self-loops and its sources need not cause anything else. Matching those meanings, actual causal endpoint guards and objective modal scope requires explicit application interfaces. The source existential N-to-Box-N stipulation does not itself identify one rigid individual across worlds. A2P2c/A2c3 additionally changes the necessity/contingency classification and remains a separate pending extraction, not an alias for NecessaryAt."
+  "resolution": "A2P1 uses cause-or-effect capability, while A2c uses cause capability alone; do not silently carry its reported denial across that narrowing. Source entire-chain member closure is not collective causation. The existing actualGraph ranges over actual Ontic candidates and its sources exclude incoming causes from actual nodes only. Its finite ancestor cones allow branching, cycles and self-loops and its sources need not cause anything else. Matching those meanings, actual causal endpoint guards and objective modal scope requires explicit application interfaces. The source existential N-to-Box-N stipulation does not itself identify one rigid individual across worlds. A2P2c/A2c3 additionally changes the necessity/contingency classification and remains a separate pending extraction, not an alias for NecessaryAt.",
+  "term_label": "SOURCE_CONCRETE_COVERAGE_AND_CAUSAL_HEAD",
+  "senses": [
+    {
+      "id": "7d8a0a80-1d80-40cc-97a9-346a10c8592d",
+      "label": "SOURCE_CONCRETE_COVERAGE_AND_CAUSAL_HEAD_1",
+      "definition_id": "84e479f6-84b9-5aef-9c7d-637976b0b9a7"
+    },
+    {
+      "id": "f9cb4ce3-ce3e-45e8-81b8-ac3965a11877",
+      "label": "SOURCE_CONCRETE_COVERAGE_AND_CAUSAL_HEAD_2",
+      "definition_id": "88bd1ef6-cb47-5707-ae9a-23537290aea9"
+    },
+    {
+      "id": "62c7801a-b707-46f8-9ea2-7f973f542bfd",
+      "label": "SOURCE_CONCRETE_COVERAGE_AND_CAUSAL_HEAD_3",
+      "definition_id": "dc059ebd-fa9a-5360-8285-aad7cefbed71"
+    }
+  ]
 }

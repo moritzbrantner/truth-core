@@ -9,5 +9,28 @@
     "2473bc4f-5d3b-553c-9831-28f078f4496b",
     "1ef9cc6e-1bd9-53e5-9e48-ea908e73df8e"
   ],
-  "resolution": "STMT-OC-DOUBT-RESTS-ON-EXEMPT-SENTENCES and the result WITTGENSTEIN-UNIVERSAL-DOUBT-FAILS use only 'exempt from doubt' (DEF-DOUBTED-SENTENCE), which is neutral between the four senses: none is assumed. Only the known-truth sense would let a hinge count as an established floor item with an observation basis; the a-rational, non-propositional and nonsense senses each deny that a hinge is a known truth. Whether the floor items F3/F4 are hinges at all is a further bridge no source supplies; only if it holds would they, under those senses, stand fast without being established as known truths. Only the non-propositional and nonsense senses (and §205's conditional) bear on truth-aptness; the a-rational sense does not deny truth. No argument passes from 'stands fast' to 'is known' or 'is true'. STMT-OC-IF-TRUTH-IS-GROUNDED-GROUND-NOT-TRUE is recorded as a conditional because §205 does not assert its antecedent."
+  "resolution": "STMT-OC-DOUBT-RESTS-ON-EXEMPT-SENTENCES and the result WITTGENSTEIN-UNIVERSAL-DOUBT-FAILS use only 'exempt from doubt' (DEF-DOUBTED-SENTENCE), which is neutral between the four senses: none is assumed. Only the known-truth sense would let a hinge count as an established floor item with an observation basis; the a-rational, non-propositional and nonsense senses each deny that a hinge is a known truth. Whether the floor items F3/F4 are hinges at all is a further bridge no source supplies; only if it holds would they, under those senses, stand fast without being established as known truths. Only the non-propositional and nonsense senses (and §205's conditional) bear on truth-aptness; the a-rational sense does not deny truth. No argument passes from 'stands fast' to 'is known' or 'is true'. STMT-OC-IF-TRUTH-IS-GROUNDED-GROUND-NOT-TRUE is recorded as a conditional because §205 does not assert its antecedent.",
+  "term_label": "HINGE",
+  "senses": [
+    {
+      "id": "bb53ffbb-93c8-4c5e-a28c-81c96b3339dd",
+      "label": "HINGE_1",
+      "definition_id": "b00ed388-bc6d-5812-9a63-bce3687f76aa"
+    },
+    {
+      "id": "22cd837b-ae62-44cc-aa1a-c3e6d2dfd495",
+      "label": "HINGE_2",
+      "definition_id": "5f5498c4-efbb-563f-b8fc-efe4da14f0c0"
+    },
+    {
+      "id": "2d66d489-a954-4721-94f2-611906992e41",
+      "label": "HINGE_3",
+      "definition_id": "2473bc4f-5d3b-553c-9831-28f078f4496b"
+    },
+    {
+      "id": "27235c4b-4a41-4eb3-aad0-61ccbb1cd6ce",
+      "label": "HINGE_4",
+      "definition_id": "1ef9cc6e-1bd9-53e5-9e48-ea908e73df8e"
+    }
+  ]
 }

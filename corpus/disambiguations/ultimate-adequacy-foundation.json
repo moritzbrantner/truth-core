@@ -7,5 +7,20 @@
     "6742a5b8-f4ed-5bdf-8715-93dd8ff0444e",
     "c9d479bb-308a-5a2b-9755-ddc0170d4e35"
   ],
-  "resolution": "Supply is the existing inductive all-contributor standard, not full explanation. A least graph node has finite ancestry paths to every event, whereas a minimal source only has no incoming arrow; neither entails joint Supply. Two indispensable intrinsically powered contributors may jointly supply a target without a least source. Intrinsic in a chosen exercise respect is not necessarily underived existence of its bearer. The modal overlay explicitly preserves actual occurrence/graph but stipulates separate bearer modal statuses; it does not derive ontic necessity from power. Necessary reason truth requires a separate necessitation condition for a necessary effect; copied entailing truth is still not independent explanatory content. Single-source theistic and impersonal readings receive the same open real-nature/applicability burden. See docs/notes/ultimate-adequacy-integration-735.md. No attributed source uses these fixtures as a definition of adequate explanation."
+  "resolution": "Supply is the existing inductive all-contributor standard, not full explanation. A least graph node has finite ancestry paths to every event, whereas a minimal source only has no incoming arrow; neither entails joint Supply. Two indispensable intrinsically powered contributors may jointly supply a target without a least source. Intrinsic in a chosen exercise respect is not necessarily underived existence of its bearer. The modal overlay explicitly preserves actual occurrence/graph but stipulates separate bearer modal statuses; it does not derive ontic necessity from power. Necessary reason truth requires a separate necessitation condition for a necessary effect; copied entailing truth is still not independent explanatory content. Single-source theistic and impersonal readings receive the same open real-nature/applicability burden. See docs/notes/ultimate-adequacy-integration-735.md. No attributed source uses these fixtures as a definition of adequate explanation.",
+  "term_label": "LEAST_GRAPH_FOUNDATION_SUPPLIED_CONTRIBUTION_INTRINSIC",
+  "senses": [
+    {
+      "id": "cc16c3fb-2024-4c53-b2da-c7d8b55d1cea",
+      "label": "LEAST_GRAPH_FOUNDATION_SUPPLIED_CONTRIBUTION_INTRINSIC_1",
+      "definition_id": "6742a5b8-f4ed-5bdf-8715-93dd8ff0444e",
+      "lean_declaration": "TruthCore.Explanation.UltimateAdequacy.groups"
+    },
+    {
+      "id": "9704c4b7-dc3e-4d30-b1fe-72257b9f9c75",
+      "label": "LEAST_GRAPH_FOUNDATION_SUPPLIED_CONTRIBUTION_INTRINSIC_2",
+      "definition_id": "c9d479bb-308a-5a2b-9755-ddc0170d4e35",
+      "lean_declaration": "TruthCore.Causality.DerivativeJointPower.Supply"
+    }
+  ]
 }

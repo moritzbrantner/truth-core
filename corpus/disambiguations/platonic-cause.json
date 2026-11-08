@@ -7,5 +7,20 @@
     "f1f49212-b37b-5ead-8040-96bbeff01a3f",
     "fefbb205-07a2-595f-80d6-c6975c7cd185"
   ],
-  "resolution": "The Phaedo cause of being F uses ternary Explains. Existing Timaeus.CausePrinciple concerns coming-to-be and remains unchanged. A Form used as exemplar is not silently identified with its maker, with God, or with a cause of generation."
+  "resolution": "The Phaedo cause of being F uses ternary Explains. Existing Timaeus.CausePrinciple concerns coming-to-be and remains unchanged. A Form used as exemplar is not silently identified with its maker, with God, or with a cause of generation.",
+  "term_label": "CAUSE",
+  "senses": [
+    {
+      "id": "6fb2df2a-b121-4117-87c0-67543d15aae4",
+      "label": "CAUSE_5",
+      "definition_id": "f1f49212-b37b-5ead-8040-96bbeff01a3f",
+      "lean_declaration": "TruthCore.Greek.Plato.Forms.Vocabulary"
+    },
+    {
+      "id": "b4a288b9-a8f9-4f6e-928d-8d7843afa368",
+      "label": "CAUSE_6",
+      "definition_id": "fefbb205-07a2-595f-80d6-c6975c7cd185",
+      "lean_declaration": "TruthCore.Greek.Plato.Timaeus.CausePrinciple"
+    }
+  ]
 }

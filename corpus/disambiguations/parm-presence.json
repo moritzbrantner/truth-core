@@ -8,5 +8,26 @@
     "f16f85ba-4060-520c-9b52-43c4154760f5",
     "8504bbdf-329b-5e23-9d12-0faf94e00914"
   ],
-  "resolution": "The spatial dilemma uses WholeAt or a constituent Allocated to a bearer. The nonspatial reply keeps Participates and denies both spatial allocation relations. The day analogy of 131b motivates keeping that option; the sail analogy does not prove that participation must distribute spatial parts."
+  "resolution": "The spatial dilemma uses WholeAt or a constituent Allocated to a bearer. The nonspatial reply keeps Participates and denies both spatial allocation relations. The day analogy of 131b motivates keeping that option; the sail analogy does not prove that participation must distribute spatial parts.",
+  "term_label": "PRESENCE",
+  "senses": [
+    {
+      "id": "763f1b4b-0971-45b2-b2fa-5ea300079192",
+      "label": "PRESENCE_1",
+      "definition_id": "b5f94c92-b4cd-5bcc-a6d4-6e3fe2d1ad60",
+      "lean_declaration": "TruthCore.Greek.Plato.Parmenides.ParticipationChallenges.Mereology"
+    },
+    {
+      "id": "fb19f548-c097-4c19-acc7-8aec157f5351",
+      "label": "PRESENCE_2",
+      "definition_id": "f16f85ba-4060-520c-9b52-43c4154760f5",
+      "lean_declaration": "TruthCore.Greek.Plato.Parmenides.ParticipationChallenges.Mereology"
+    },
+    {
+      "id": "136e0cea-a074-4654-b01f-baec2d760918",
+      "label": "PRESENCE_3",
+      "definition_id": "8504bbdf-329b-5e23-9d12-0faf94e00914",
+      "lean_declaration": "TruthCore.Greek.Plato.Forms.Vocabulary"
+    }
+  ]
 }

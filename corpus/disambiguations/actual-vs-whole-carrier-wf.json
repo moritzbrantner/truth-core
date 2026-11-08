@@ -7,5 +7,20 @@
     "58fee8ed-9b44-5399-95c8-5d239bea898d",
     "c57e2682-08e6-527e-950f-0fa0a7ff11ef"
   ],
-  "resolution": "STMT-ACTUAL-GROUNDING-WF and every result of NECESSARY-OR-NONNECESSARY-ROOT, NECESSARY-ROOT-TRILEMMA and NECESSARY-CONCRETE-FROM-ACTUAL-GROUNDED use the restricted sense (DEF-ACTUAL-GROUNDING-WF). The whole-carrier sense WellFounded (grounds w), of BRUTE-ROOT-DISJUNCTION, implies the restricted one and is not implied by it (RestrictedWeakerControl in STMT-NECESSARY-ROOT-CONTROLS), so no step passes from restricted to whole-carrier. It is also a different condition from Acc at a thinker (DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING). In all these results the relation is the profile's grounds w. Reading it as efficient causing is the instance withCauses m, a different profile: RelationTypeControl shows a root of one relation need not be a root of the other, so a result at m is not a result about causing."
+  "resolution": "STMT-ACTUAL-GROUNDING-WF and every result of NECESSARY-OR-NONNECESSARY-ROOT, NECESSARY-ROOT-TRILEMMA and NECESSARY-CONCRETE-FROM-ACTUAL-GROUNDED use the restricted sense (DEF-ACTUAL-GROUNDING-WF). The whole-carrier sense WellFounded (grounds w), of BRUTE-ROOT-DISJUNCTION, implies the restricted one and is not implied by it (RestrictedWeakerControl in STMT-NECESSARY-ROOT-CONTROLS), so no step passes from restricted to whole-carrier. It is also a different condition from Acc at a thinker (DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING). In all these results the relation is the profile's grounds w. Reading it as efficient causing is the instance withCauses m, a different profile: RelationTypeControl shows a root of one relation need not be a root of the other, so a result at m is not a result about causing.",
+  "term_label": "WELL_FOUNDEDNESS_OF_THE_SELECTED_RELATION",
+  "senses": [
+    {
+      "id": "2f42c0e7-46ae-4e2b-9ac4-95dcb865da61",
+      "label": "WELL_FOUNDEDNESS_OF_THE_SELECTED_RELATION_1",
+      "definition_id": "58fee8ed-9b44-5399-95c8-5d239bea898d",
+      "lean_declaration": "TruthCore.Causality.NecessaryRootFork.ActualGroundingWF"
+    },
+    {
+      "id": "f4609d52-a878-4d09-9af3-083b1945770c",
+      "label": "WELL_FOUNDEDNESS_OF_THE_SELECTED_RELATION_2",
+      "definition_id": "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+      "lean_declaration": "TruthCore.Causality.NecessaryRootFork.ActualRoot"
+    }
+  ]
 }

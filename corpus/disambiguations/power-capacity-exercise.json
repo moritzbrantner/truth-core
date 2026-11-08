@@ -10,5 +10,36 @@
     "febac82d-1ca3-5773-89ec-0401f1bac7a0",
     "a49e4cf1-ca4f-5519-9724-892af257cedb"
   ],
-  "resolution": "Boundary explicitly requires transmitsPower false source effect, plus lack of intrinsic power at the effect and finite power grounding. Thus the exhibited source is actually connected to an instrumental target in its designated channel. intrinsicPower means intrinsic source-status for this channel, not every capacity of the bearer, and the source's absence of incoming transmission does not exclude all enabling conditions or dependence for its own being. The alternative power-as-unexercised-capacity is not formalized by the Profile, though DEF-BORROWED-POWER-PROFILE separately supplies one for #741 and is not identified with intrinsicPower; PureAct is a separate Thomistic act/potency predicate and not synonymous with current transmission. The selected respect is fixed by the supplied relation, not universally quantified."
+  "resolution": "Boundary explicitly requires transmitsPower false source effect, plus lack of intrinsic power at the effect and finite power grounding. Thus the exhibited source is actually connected to an instrumental target in its designated channel. intrinsicPower means intrinsic source-status for this channel, not every capacity of the bearer, and the source's absence of incoming transmission does not exclude all enabling conditions or dependence for its own being. The alternative power-as-unexercised-capacity is not formalized by the Profile, though DEF-BORROWED-POWER-PROFILE separately supplies one for #741 and is not identified with intrinsicPower; PureAct is a separate Thomistic act/potency predicate and not synonymous with current transmission. The selected respect is fixed by the supplied relation, not universally quantified.",
+  "term_label": "CAUSAL_CAPACITY_VERSUS_ACTUAL_EXERCISE",
+  "senses": [
+    {
+      "id": "01a68ccf-87fc-4c0e-82d1-3c794d389374",
+      "label": "CAUSAL_CAPACITY_VERSUS_ACTUAL_EXERCISE_1",
+      "definition_id": "8ce4f4d6-a221-5db8-aef5-2f0babdfb416"
+    },
+    {
+      "id": "1dc8b928-44d3-442a-a886-d6148a9e71a4",
+      "label": "CAUSAL_CAPACITY_VERSUS_ACTUAL_EXERCISE_2",
+      "definition_id": "5aef0b49-016a-5716-9bd9-423d957b28ab"
+    },
+    {
+      "id": "32b3d298-8cbe-47b5-896c-2e3f3d37bba1",
+      "label": "CAUSAL_CAPACITY_VERSUS_ACTUAL_EXERCISE_3",
+      "definition_id": "7059cad2-e5b6-5003-8871-a85c8f1924f5",
+      "lean_declaration": "TruthCore.Causality.PowerExistenceBoundary.UnborrowedPowerAt"
+    },
+    {
+      "id": "9f059bde-8e9a-46a9-9193-c1f5429f8677",
+      "label": "CAUSAL_CAPACITY_VERSUS_ACTUAL_EXERCISE_4",
+      "definition_id": "febac82d-1ca3-5773-89ec-0401f1bac7a0",
+      "lean_declaration": "TruthCore.Causality.FinitelyGroundedPower"
+    },
+    {
+      "id": "c81a951e-6a95-4cb1-9335-b5fdc810c82a",
+      "label": "CAUSAL_CAPACITY_VERSUS_ACTUAL_EXERCISE_5",
+      "definition_id": "a49e4cf1-ca4f-5519-9724-892af257cedb",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PureAct"
+    }
+  ]
 }

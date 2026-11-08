@@ -1,7 +1,5 @@
 {
   "id": "7126eeb8-6052-552e-b513-2b099cde439a",
-  "label": "Every composite has a cause, other than itself…, from Every composite has at least two… and 3 more",
-  "legacy_id": "COMPOSITE-HAS-UNITING-CAUSE-UNITING-CAUSE-1",
   "premise_statement_ids": [
     "6b80cfe4-82e1-53d3-9c7c-6564e52a25de",
     "58445bd6-264b-53cf-8951-d052022f8e47",
@@ -23,5 +21,15 @@
   "disambiguation_ids": [
     "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
     "57f80020-fa6f-5b69-be58-b4cf95b7226f"
-  ]
+  ],
+  "sense_bridges": [
+    {
+      "term": "UNITING_CAUSE_VERSUS_EFFICIENT_CAUSE",
+      "from": "a7854292-a7cb-403d-b926-f61af1bb435b",
+      "to": "2478812d-d2cd-4182-8ad0-d27a4bdb9ff2",
+      "statement_id": "fbee7f15-f54b-5a67-9773-3c09ca7015f4"
+    }
+  ],
+  "label": "Every composite has a cause, other than itself…, from Every composite has at least two… and 3 more",
+  "legacy_id": "COMPOSITE-HAS-UNITING-CAUSE-UNITING-CAUSE-1"
 }

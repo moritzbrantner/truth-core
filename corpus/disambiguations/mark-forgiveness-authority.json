@@ -7,5 +7,20 @@
     "9c870b2c-9426-5519-831b-00c4658b116f",
     "ac767549-28c0-5a1a-813d-ee208a664d08"
   ],
-  "resolution": "The Mark 2 statement uses textual attribution of a typed assertion; the skeleton and pilot JesusClaims predicate concern Jesus actually claiming divine authority. Neither a historical utterance nor that theological classification follows from textual attribution. The reported title is not definitionally God or Jesus. Delegated authorization and divine identity are distinct accounts of the reported authority; the report decides neither. The God-alone restriction is attributed to scribes, while the healing is narrated as the response enabling recognition of authority. No actual pardon or healing is inferred. See docs/mark-forgiveness-authority.md."
+  "resolution": "The Mark 2 statement uses textual attribution of a typed assertion; the skeleton and pilot JesusClaims predicate concern Jesus actually claiming divine authority. Neither a historical utterance nor that theological classification follows from textual attribution. The reported title is not definitionally God or Jesus. Delegated authorization and divine identity are distinct accounts of the reported authority; the report decides neither. The God-alone restriction is attributed to scribes, while the healing is narrated as the response enabling recognition of authority. No actual pardon or healing is inferred. See docs/mark-forgiveness-authority.md.",
+  "term_label": "FORGIVENESS_AUTHORITY_AS_REPORTED_OR_HISTORICALLY",
+  "senses": [
+    {
+      "id": "a8f6e7b9-3737-418f-907a-59588f3a0238",
+      "label": "FORGIVENESS_AUTHORITY_AS_REPORTED_OR_HISTORICALLY_1",
+      "definition_id": "9c870b2c-9426-5519-831b-00c4658b116f",
+      "lean_declaration": "TruthCore.Greek.NewTestament.Mark.ForgivenessAuthority.Narrative"
+    },
+    {
+      "id": "76403496-9210-4f0a-8151-d499b162b566",
+      "label": "FORGIVENESS_AUTHORITY_AS_REPORTED_OR_HISTORICALLY_2",
+      "definition_id": "ac767549-28c0-5a1a-813d-ee208a664d08",
+      "lean_declaration": "TruthCore.Case.Catholicism.Signature"
+    }
+  ]
 }

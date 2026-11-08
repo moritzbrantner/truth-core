@@ -7,5 +7,20 @@
     "28a560a8-e683-598a-b775-69570c315a21",
     "99f27f99-cf28-58bb-9e08-eb3fe8e752c1"
   ],
-  "resolution": "NecessaryAncestor retains actuality, concreteness, finite ancestry and modal necessity but imposes no no-incoming-ground condition. NecessaryRootAncestor adds no actual concrete predecessor at the selected world; even it is not all-world NecessarilyUnderived. Contingent-only foundation yields NecessaryAncestor only. The necessary-cycle control satisfies necessary ancestry and fails actual root ancestry, so the earlier stronger conclusion cannot be inherited when weakening foundation."
+  "resolution": "NecessaryAncestor retains actuality, concreteness, finite ancestry and modal necessity but imposes no no-incoming-ground condition. NecessaryRootAncestor adds no actual concrete predecessor at the selected world; even it is not all-world NecessarilyUnderived. Contingent-only foundation yields NecessaryAncestor only. The necessary-cycle control satisfies necessary ancestry and fails actual root ancestry, so the earlier stronger conclusion cannot be inherited when weakening foundation.",
+  "term_label": "NECESSARY_ANCESTOR_VERSUS_ACTUAL_CONCRETE_ROOT",
+  "senses": [
+    {
+      "id": "1212c399-214a-4cae-b9e8-a48697e793cf",
+      "label": "NECESSARY_ANCESTOR_VERSUS_ACTUAL_CONCRETE_ROOT_1",
+      "definition_id": "28a560a8-e683-598a-b775-69570c315a21",
+      "lean_declaration": "TruthCore.Causality.ContingentAncestry.NecessaryAncestor"
+    },
+    {
+      "id": "f1c70d6d-5d7f-4505-a3f2-f22bc43017ca",
+      "label": "NECESSARY_ANCESTOR_VERSUS_ACTUAL_CONCRETE_ROOT_2",
+      "definition_id": "99f27f99-cf28-58bb-9e08-eb3fe8e752c1",
+      "lean_declaration": "TruthCore.Causality.SelectedAncestry.NecessaryRootAncestor"
+    }
+  ]
 }

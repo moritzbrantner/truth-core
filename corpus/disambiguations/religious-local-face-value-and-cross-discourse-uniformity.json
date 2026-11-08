@@ -7,5 +7,20 @@
     "b3e05273-087e-5a8f-864d-52e56f82d3b4",
     "181cb3c7-7af0-5a63-9f78-6dbd6d63ff77"
   ],
-  "resolution": "Local propositional/assertoric/descriptive status, cross-discourse truth invariance on matched content, and an actual non-descriptive religious witness are distinct. Raw later-Phillips conceptual internality is not automatically nonreference or nondescriptiveness. Raw face-value/source statements remain unbound and are not relabelled as analyst stronger profiles. Different extensions on unrelated sentences do not witness disagreement on a matched religious content. The exact strong-profile opposition and separate descriptive-role opposition are checked; named local menu coverage remains open outside a local-face-value commitment."
+  "resolution": "Local propositional/assertoric/descriptive status, cross-discourse truth invariance on matched content, and an actual non-descriptive religious witness are distinct. Raw later-Phillips conceptual internality is not automatically nonreference or nondescriptiveness. Raw face-value/source statements remain unbound and are not relabelled as analyst stronger profiles. Different extensions on unrelated sentences do not witness disagreement on a matched religious content. The exact strong-profile opposition and separate descriptive-role opposition are checked; named local menu coverage remains open outside a local-face-value commitment.",
+  "term_label": "FACE_VALUE_RELIGIOUS_LANGUAGE_AND_DISCOURSE",
+  "senses": [
+    {
+      "id": "fdc6c95a-8a58-4b3c-8781-714843dd1abc",
+      "label": "FACE_VALUE_RELIGIOUS_LANGUAGE_AND_DISCOURSE_1",
+      "definition_id": "b3e05273-087e-5a8f-864d-52e56f82d3b4",
+      "lean_declaration": "TruthCore.Alternatives.ReligiousLanguageSemantics.CrossDiscourseFaceValue"
+    },
+    {
+      "id": "a8d77c27-b5fc-4279-9865-58561bb7a6e0",
+      "label": "FACE_VALUE_RELIGIOUS_LANGUAGE_AND_DISCOURSE_2",
+      "definition_id": "181cb3c7-7af0-5a63-9f78-6dbd6d63ff77",
+      "lean_declaration": "TruthCore.Alternatives.ReligiousLanguageSemantics.LocalVariableTruthFaceValue"
+    }
+  ]
 }

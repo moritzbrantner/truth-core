@@ -10,5 +10,36 @@
     "5e77da13-998f-56ab-96b7-12731ac95f70",
     "4b4e5631-b2c6-5c76-ac4a-2615eb87e17d"
   ],
-  "resolution": "In UNIVERSE-CAUSE-ATEMPORAL, STMT-TEMPORAL-CONTAINED-IN-SPACETIME and STMT-CAUSES-OF-UNIVERSE-ATEMPORAL, 'temporal' is DEF-SUCCESSIVELY-TEMPORAL only: present at an earlier and a later time of some supplied series with a change of state. (1) Ordinary temporal succession: the series of this spacetime is one member of the family; its successive bearers are parts of spacetime. (2) Other temporal series: any further member of the family; the containment premise says that every successive bearer in any member is a part of this spacetime, so a second series with a successive bearer outside spacetime falsifies the premise, not the inference. (3) Aevum (q.10 a.5): an aeviternal being whose substantial being does not change is not successively temporal in a series whose state records only that being; if its adjunct operations enter the state of some supplied series, it is successively temporal there, and if it lies outside spacetime the containment premise fails for that family. So the aevum is a counter-model to the open containment premise, not to the conclusion's sense. (4) Boethian eternity (TotaSimul) is never successively temporal in its frame, and mere presence at times (DEF-TEMPORAL-HISTORY-EVERLASTING, or q.10 a.2 ad 4's eternity including all times) is not this sense. The conclusion therefore says only that no cause of the whole is successively temporal in any supplied series; it does not assert that the cause is eternal, does not exclude a non-successive aeviternal duration, and does not pass to presence-based senses of 'temporal'."
+  "resolution": "In UNIVERSE-CAUSE-ATEMPORAL, STMT-TEMPORAL-CONTAINED-IN-SPACETIME and STMT-CAUSES-OF-UNIVERSE-ATEMPORAL, 'temporal' is DEF-SUCCESSIVELY-TEMPORAL only: present at an earlier and a later time of some supplied series with a change of state. (1) Ordinary temporal succession: the series of this spacetime is one member of the family; its successive bearers are parts of spacetime. (2) Other temporal series: any further member of the family; the containment premise says that every successive bearer in any member is a part of this spacetime, so a second series with a successive bearer outside spacetime falsifies the premise, not the inference. (3) Aevum (q.10 a.5): an aeviternal being whose substantial being does not change is not successively temporal in a series whose state records only that being; if its adjunct operations enter the state of some supplied series, it is successively temporal there, and if it lies outside spacetime the containment premise fails for that family. So the aevum is a counter-model to the open containment premise, not to the conclusion's sense. (4) Boethian eternity (TotaSimul) is never successively temporal in its frame, and mere presence at times (DEF-TEMPORAL-HISTORY-EVERLASTING, or q.10 a.2 ad 4's eternity including all times) is not this sense. The conclusion therefore says only that no cause of the whole is successively temporal in any supplied series; it does not assert that the cause is eternal, does not exclude a non-successive aeviternal duration, and does not pass to presence-based senses of 'temporal'.",
+  "term_label": "TEMPORAL_OUT_OF_TIME",
+  "senses": [
+    {
+      "id": "6fc5a2eb-990b-4af2-97ab-65a78bc43c94",
+      "label": "TEMPORAL_OUT_OF_TIME_1",
+      "definition_id": "c3dd15c9-b0a6-5b72-aef1-3b055d1c2941",
+      "lean_declaration": "TruthCore.Ontology.NaturalismConsequences.SuccessivelyTemporal"
+    },
+    {
+      "id": "710c8525-d026-48f8-8186-e8e0145d502f",
+      "label": "TEMPORAL_OUT_OF_TIME_2",
+      "definition_id": "e151093b-664e-555e-9602-d5356b4af202"
+    },
+    {
+      "id": "d05b366b-831a-4e3a-82d9-c906a12a8979",
+      "label": "TEMPORAL_OUT_OF_TIME_3",
+      "definition_id": "19e01de3-b9af-5468-a2dd-3d6fdb902fd3"
+    },
+    {
+      "id": "209c3714-ff45-43c4-aaba-9f5e58e9947f",
+      "label": "TEMPORAL_OUT_OF_TIME_4",
+      "definition_id": "5e77da13-998f-56ab-96b7-12731ac95f70",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.BoethianEternal"
+    },
+    {
+      "id": "fe8758c8-ce6f-40c3-ad49-e6fc4dc70f23",
+      "label": "TEMPORAL_OUT_OF_TIME_5",
+      "definition_id": "4b4e5631-b2c6-5c76-ac4a-2615eb87e17d",
+      "lean_declaration": "TruthCore.Modal.TemporalHistory.EverlastingAt"
+    }
+  ]
 }

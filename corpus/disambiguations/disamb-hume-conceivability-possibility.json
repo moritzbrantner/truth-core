@@ -11,5 +11,42 @@
     "f9e5b687-a25e-5d81-b8a2-1fb1f70bc45f",
     "c04b2eea-c3a4-5fbe-8cb1-a2a9917ddc69"
   ],
-  "resolution": "The source claim concerns imagination and the absence of a refutation from mere ideas. Formal C is an unconstrained analytical parameter, Dia is accessibility-based metaphysical possibility under a stipulated interpretation, and epistemic possibility is contrast vocabulary only. No theorem identifies these senses. The strong bridge is an explicit hypothesis inside conditional laws, not an inference from the source. Describing MC does not establish it is conceivable in the source-specific sense."
+  "resolution": "The source claim concerns imagination and the absence of a refutation from mere ideas. Formal C is an unconstrained analytical parameter, Dia is accessibility-based metaphysical possibility under a stipulated interpretation, and epistemic possibility is contrast vocabulary only. No theorem identifies these senses. The strong bridge is an explicit hypothesis inside conditional laws, not an inference from the source. Describing MC does not establish it is conceivable in the source-specific sense.",
+  "term_label": "CONCEIVABILITY_POSSIBILITY_DEMONSTRABILITY",
+  "senses": [
+    {
+      "id": "fbdb3a8d-2c5a-468c-bc08-f190815d3ae9",
+      "label": "CONCEIVABILITY_POSSIBILITY_DEMONSTRABILITY_1",
+      "definition_id": "f1dbe2cb-6ba1-581a-9b68-099ef0a25338",
+      "lean_declaration": "TruthCore.Modern.Hume.Conceivability.Conception"
+    },
+    {
+      "id": "cb47b533-9667-4126-af5b-f29d35461c8e",
+      "label": "CONCEIVABILITY_POSSIBILITY_DEMONSTRABILITY_2",
+      "definition_id": "a63c477c-8af1-5965-9ae1-4aa863b6c90d"
+    },
+    {
+      "id": "df1fa28f-5458-42e2-9fd8-c46cde3c0b55",
+      "label": "CONCEIVABILITY_POSSIBILITY_DEMONSTRABILITY_3",
+      "definition_id": "6cefa7b0-5dc2-5788-9637-a23d60b47e7c",
+      "lean_declaration": "TruthCore.Modern.Hume.Conceivability.NarrowWithholding"
+    },
+    {
+      "id": "84d66a6b-ae07-43e2-a72f-fbbbd00da68c",
+      "label": "CONCEIVABILITY_POSSIBILITY_DEMONSTRABILITY_4",
+      "definition_id": "2d3e6218-267d-56d4-b1b3-ef6191be6059",
+      "lean_declaration": "TruthCore.Modern.Hume.Conceivability.StrongBridge"
+    },
+    {
+      "id": "17e5feb7-9116-4b99-9684-569dc33f0f75",
+      "label": "CONCEIVABILITY_POSSIBILITY_DEMONSTRABILITY_5",
+      "definition_id": "f9e5b687-a25e-5d81-b8a2-1fb1f70bc45f"
+    },
+    {
+      "id": "d75986e8-8681-4158-adfd-b1280724c1cd",
+      "label": "CONCEIVABILITY_POSSIBILITY_DEMONSTRABILITY_6",
+      "definition_id": "c04b2eea-c3a4-5fbe-8cb1-a2a9917ddc69",
+      "lean_declaration": "TruthCore.Modern.Hume.Conceivability.NarrowWithholding"
+    }
+  ]
 }

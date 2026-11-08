@@ -1,7 +1,6 @@
 {
   "id": "366d596f-6678-51cd-9d14-54b5a8f6229a",
   "label": "Via MAXIME_2 (greatest degree), a MAXIME_1 being causes being in all others",
-  "legacy_id": "MAXIME-ENS-CAUSES-ALL-AS-GREATEST-DEGREE",
   "premise_statement_ids": [
     "27fb3450-3bf6-57e1-acb0-11abf563b3d5",
     "6f4824c9-b80e-5ea7-9d45-dbfb8d53d379",
@@ -24,5 +23,20 @@
     "4822a4f5-a93b-52dc-855a-00b7d57928d5",
     "4f1d0cf6-88ba-59e3-814d-01450c2bf282",
     "1795a62e-f78b-5f5b-94e7-9e7490824811"
-  ]
+  ],
+  "sense_bridges": [
+    {
+      "term": "GENUS",
+      "from": "fe68a21f-b444-4e79-aa4d-0bdd6dae1da5",
+      "to": "6854684f-23ef-4267-a51d-b22f57c49ebd",
+      "statement_id": "6f4824c9-b80e-5ea7-9d45-dbfb8d53d379"
+    },
+    {
+      "term": "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST",
+      "from": "9bea9a43-3a87-4d62-86de-e5873aea62f8",
+      "to": "517baa9d-7981-4e2a-bdae-045467cb29fc",
+      "statement_id": "c16ec481-ce5b-5a90-b8e4-247a2ebb2155"
+    }
+  ],
+  "legacy_id": "MAXIME-ENS-CAUSES-ALL-AS-GREATEST-DEGREE"
 }

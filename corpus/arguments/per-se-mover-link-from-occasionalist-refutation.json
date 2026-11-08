@@ -1,7 +1,5 @@
 {
   "id": "a3e4a247-4707-5052-9840-0970da672cc5",
-  "label": "Whatever moves another only as moved is, in that, an efficient…, from occasionalist refutation",
-  "legacy_id": "PER-SE-MOVER-LINK-FROM-OCCASIONALIST-REFUTATION",
   "premise_statement_ids": [
     "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
     "0300cfd9-7f62-5270-801f-01f860d7b506"
@@ -19,5 +17,15 @@
   "disambiguation_ids": [
     "81c233d4-01b4-528c-8bbd-7da228443ffe",
     "002f42cb-3015-5644-80b3-d408538394e6"
-  ]
+  ],
+  "sense_bridges": [
+    {
+      "term": "SERIES_OF_CAUSES",
+      "from": "1f94774f-4c51-4448-bcf7-898a40648a95",
+      "to": "be30bf4e-59fd-43b8-8c85-905ec7c86387",
+      "statement_id": "0300cfd9-7f62-5270-801f-01f860d7b506"
+    }
+  ],
+  "label": "Whatever moves another only as moved is, in that, an efficient…, from occasionalist refutation",
+  "legacy_id": "PER-SE-MOVER-LINK-FROM-OCCASIONALIST-REFUTATION"
 }

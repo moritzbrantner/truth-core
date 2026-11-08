@@ -1,7 +1,5 @@
 {
   "id": "5b3b935c-9c64-5936-b74c-2392f33a6d19",
-  "label": "GOD_2: the reduced naming for the Summa's God and a GOD_2-to-GOD_4 bridge give the naming premise",
-  "legacy_id": "GOD-NAMES-DESCRIBED-FROM-SUMMA",
   "premise_statement_ids": [
     "e39a4fce-ccaf-5862-836e-9317923842f3",
     "e165f4aa-e872-5e2f-8211-52d40df114cc"
@@ -24,7 +22,24 @@
     "205a39c3-915d-5fe4-8076-a9ff91329e08",
     "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
   ],
+  "label": "GOD_2: the reduced naming for the Summa's God and a GOD_2-to-GOD_4 bridge give the naming premise",
   "strong_version_needed": {
     "e39a4fce-ccaf-5862-836e-9317923842f3": "The GOD_2 branch starts from the Summa's own naming premise, which exists only in the reduced form; the fuller naming instantiated at the Summa's God would suffice but no route records it for that parameter."
-  }
+  },
+  "sense_bridges": [
+    {
+      "term": "GOD",
+      "from": "b11d7317-49bb-4c03-b1aa-fefada6943ff",
+      "to": "52c2ebac-0a71-4dd4-8a21-804c1dd0847a",
+      "statement_id": "e165f4aa-e872-5e2f-8211-52d40df114cc"
+    },
+    {
+      "term": "GOD",
+      "from": "295c9096-50b8-4ccd-960e-f833730a0774",
+      "to": "52c2ebac-0a71-4dd4-8a21-804c1dd0847a",
+      "statement_id": "1ec205ed-b2a6-5384-bb5f-2565a9d325bf",
+      "role": "conclusion"
+    }
+  ],
+  "legacy_id": "GOD-NAMES-DESCRIBED-FROM-SUMMA"
 }

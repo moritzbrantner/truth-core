@@ -9,5 +9,32 @@
     "02ccdd4f-e48b-5eb6-b1c6-31249b7eaec8",
     "18bd1139-01b1-5733-b2f6-76bbaced1591"
   ],
-  "resolution": "Actual collapse is MC F D w, possible collapse is Dia F (MC F D) w, and necessary collapse is Box F (MC F D) w at the same explicit root and domain. T reflexivity gives necessary implies actual and actual implies possible, not possible implies actual. PossibilityActuality is a separate quantified property; the K theorem proves its full-predicate equivalence with MC. Branching contingency is independently witnessed by the fixed atom at the root and endpoint, not assumed because collapse fails. The nontransitive chain distinguishes one-step possibility from iterated possibility. The duplicate-label experiment changes only proposition scope; it does not infer world identity from the current corpus inventory or confuse the optional world-extensionality condition with Lean propext. None of these mathematical claims establishes metaphysical possibility, real-world contingency, Hume attribution or a cosmological result."
+  "resolution": "Actual collapse is MC F D w, possible collapse is Dia F (MC F D) w, and necessary collapse is Box F (MC F D) w at the same explicit root and domain. T reflexivity gives necessary implies actual and actual implies possible, not possible implies actual. PossibilityActuality is a separate quantified property; the K theorem proves its full-predicate equivalence with MC. Branching contingency is independently witnessed by the fixed atom at the root and endpoint, not assumed because collapse fails. The nontransitive chain distinguishes one-step possibility from iterated possibility. The duplicate-label experiment changes only proposition scope; it does not infer world identity from the current corpus inventory or confuse the optional world-extensionality condition with Lean propext. None of these mathematical claims establishes metaphysical possibility, real-world contingency, Hume attribution or a cosmological result.",
+  "term_label": "T_FRAME_COLLAPSE_CONFIGURATIONS",
+  "senses": [
+    {
+      "id": "53ef4152-5313-4440-bd7f-94fe783aec79",
+      "label": "T_FRAME_COLLAPSE_CONFIGURATIONS_1",
+      "definition_id": "b6ddbdde-8055-5632-b934-ccd5eb79bbeb",
+      "lean_declaration": "TruthCore.Modal.Reflexive"
+    },
+    {
+      "id": "f2d2c63b-9de7-40b3-9a59-e50fc3d2ab83",
+      "label": "T_FRAME_COLLAPSE_CONFIGURATIONS_2",
+      "definition_id": "ad1d492d-27c6-5749-9fb2-481b51e9ccd5",
+      "lean_declaration": "TruthCore.Modal.TResearch.branchingLanguage"
+    },
+    {
+      "id": "36baf7e1-759c-4fd3-9dd8-cf61cafaf0c4",
+      "label": "T_FRAME_COLLAPSE_CONFIGURATIONS_3",
+      "definition_id": "02ccdd4f-e48b-5eb6-b1c6-31249b7eaec8",
+      "lean_declaration": "TruthCore.Modal.TResearch.chain"
+    },
+    {
+      "id": "9788c9c4-a58a-477a-ba82-28a9e8d999f3",
+      "label": "T_FRAME_COLLAPSE_CONFIGURATIONS_4",
+      "definition_id": "18bd1139-01b1-5733-b2f6-76bbaced1591",
+      "lean_declaration": "TruthCore.Modal.ResearchFinite.duplicates"
+    }
+  ]
 }

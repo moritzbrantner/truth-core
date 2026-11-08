@@ -1,7 +1,5 @@
 {
   "id": "678ff65f-14b7-5e62-8880-0d9ed2205063",
-  "label": "Stage 1 from the quarta via's conclusion: a MAXIME_1 being causing all being is God",
-  "legacy_id": "GOD-EXISTS-FROM-MAXIME-ENS-CAUSING-ALL",
   "premise_statement_ids": [
     "0881e859-c4c3-53ff-9bec-b61294e12d51",
     "7067553d-cad9-5d79-b6b2-912e35051530",
@@ -41,5 +39,15 @@
     "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
     "4f1d0cf6-88ba-59e3-814d-01450c2bf282",
     "1795a62e-f78b-5f5b-94e7-9e7490824811"
-  ]
+  ],
+  "label": "Stage 1 from the quarta via's conclusion: a MAXIME_1 being causing all being is God",
+  "sense_bridges": [
+    {
+      "term": "GOD",
+      "from": "295c9096-50b8-4ccd-960e-f833730a0774",
+      "to": "52c2ebac-0a71-4dd4-8a21-804c1dd0847a",
+      "statement_id": "1ec205ed-b2a6-5384-bb5f-2565a9d325bf"
+    }
+  ],
+  "legacy_id": "GOD-EXISTS-FROM-MAXIME-ENS-CAUSING-ALL"
 }

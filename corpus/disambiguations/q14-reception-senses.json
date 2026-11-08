@@ -14,5 +14,60 @@
     "1eb499b9-3ac6-5cdd-824d-486f91a435ce",
     "72284cfd-e09b-57fe-8824-4b2d120e7fb1"
   ],
-  "resolution": "The q.14 local interface represents aptitude for another's form; it does not assert an actual input event. Sense has without-matter reception already, so this capacity is not the intellectual grade of DEF-HAS-INTELLECT. The old divine HasIntellect remains primitive; God is not represented as passively acquiring creaturely information. q.14 a.1 ad 1\u20133 removes created habit, potency and multiplicity from divine predication. The q.75 human cognitive-scope relation is not silently identified with either divine knowledge or this reception interface. No equivalence to operational, functional or computational knowing is asserted. Analyst scoped calibration proposals now have explicit propositions, open named coverage and a precise all-three-fail remainder. The state-change proposal is ONLY a foreign-form state-change proxy: it supplies no input-causes-change theory and is not the entire modern acquisition sense. Checked omission controls retain sensory-without-intellect and aptitude-without-event; no source predicate is redefined. Scope coverage and structural availability/mode/event bridges are independent OPEN inputs."
+  "resolution": "The q.14 local interface represents aptitude for another's form; it does not assert an actual input event. Sense has without-matter reception already, so this capacity is not the intellectual grade of DEF-HAS-INTELLECT. The old divine HasIntellect remains primitive; God is not represented as passively acquiring creaturely information. q.14 a.1 ad 1\u20133 removes created habit, potency and multiplicity from divine predication. The q.75 human cognitive-scope relation is not silently identified with either divine knowledge or this reception interface. No equivalence to operational, functional or computational knowing is asserted. Analyst scoped calibration proposals now have explicit propositions, open named coverage and a precise all-three-fail remainder. The state-change proposal is ONLY a foreign-form state-change proxy: it supplies no input-causes-change theory and is not the entire modern acquisition sense. Checked omission controls retain sensory-without-intellect and aptitude-without-event; no source predicate is redefined. Scope coverage and structural availability/mode/event bridges are independent OPEN inputs.",
+  "term_label": "COGNITIVE_RECEPTION_AND_KNOWING",
+  "senses": [
+    {
+      "id": "03a03dc8-08e5-49a3-8442-0d4369961a69",
+      "label": "COGNITIVE_RECEPTION_AND_KNOWING_1",
+      "definition_id": "a909fd1c-bb6b-54d1-a8f1-1a798c5ed129",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.FormReception.ForeignFormCapacity"
+    },
+    {
+      "id": "85c5d9a0-6121-4a46-82ba-ebcec9838816",
+      "label": "COGNITIVE_RECEPTION_AND_KNOWING_2",
+      "definition_id": "d0b99964-a60d-5528-b5c7-a25967f74885"
+    },
+    {
+      "id": "7e3a73d7-22c1-4ae0-bd0b-6d9c008763cf",
+      "label": "COGNITIVE_RECEPTION_AND_KNOWING_3",
+      "definition_id": "cf1a7131-4085-5918-9cef-626cdf499147"
+    },
+    {
+      "id": "639e9344-f69b-40d8-a2cd-5a661e553188",
+      "label": "COGNITIVE_RECEPTION_AND_KNOWING_4",
+      "definition_id": "88bc0655-9dd0-5879-ba1b-3fca9f86c1f4",
+      "lean_declaration": "TruthCore.Case.Catholicism.GodHasIntellect"
+    },
+    {
+      "id": "581e54ff-47b5-4cb0-9b5f-2f1d80e6bd04",
+      "label": "COGNITIVE_RECEPTION_AND_KNOWING_5",
+      "definition_id": "f41b761b-7fea-537a-b03a-6a5c99f9b2e3",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.Q14ReceptionFork.CapacityCalibration"
+    },
+    {
+      "id": "62cdf586-5ec6-4e53-8e35-fca66f9ff1ac",
+      "label": "COGNITIVE_RECEPTION_AND_KNOWING_6",
+      "definition_id": "a63b614a-7a1a-5560-b919-10f303b955ff",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.Q14ReceptionFork.WithoutMatterCalibration"
+    },
+    {
+      "id": "7fb7eaf7-54ad-45f7-82df-ae74b344477c",
+      "label": "COGNITIVE_RECEPTION_AND_KNOWING_7",
+      "definition_id": "4162125d-92e7-5eb2-8336-d743c6f494c1",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.Q14ReceptionFork.ChangeProxyCalibration"
+    },
+    {
+      "id": "e8e67842-64b7-4ecd-8a3c-b9de572953b6",
+      "label": "COGNITIVE_RECEPTION_AND_KNOWING_8",
+      "definition_id": "1eb499b9-3ac6-5cdd-824d-486f91a435ce",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.Q14ReceptionFork.ForeignFormChange"
+    },
+    {
+      "id": "33fd5a8f-a87e-4276-b0eb-c8a1c4c04b5b",
+      "label": "COGNITIVE_RECEPTION_AND_KNOWING_9",
+      "definition_id": "72284cfd-e09b-57fe-8824-4b2d120e7fb1",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.Q14ReceptionFork.NamedMenu"
+    }
+  ]
 }

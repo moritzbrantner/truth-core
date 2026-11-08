@@ -234,10 +234,16 @@ fn value_str(value: Option<&Value>) -> String {
 struct SenseIndex<'a> {
     definitions: &'a HashMap<String, &'a Obj>,
     senses_of: HashMap<String, Vec<(String, usize)>>,
+    statements: HashMap<&'a str, &'a Obj>,
+    arguments: HashMap<&'a str, &'a Obj>,
 }
 
 impl<'a> SenseIndex<'a> {
-    fn new(definitions: &'a HashMap<String, &'a Obj>, disambiguations: &[(String, &Obj)]) -> Self {
+    fn new(
+        definitions: &'a HashMap<String, &'a Obj>,
+        disambiguations: &[(String, &Obj)],
+        records: &'a [Entry],
+    ) -> Self {
         let mut ordered: Vec<&(String, &Obj)> = disambiguations.iter().collect();
         ordered.sort_by(|a, b| {
             let key = |entry: &(String, &Obj)| {
@@ -284,21 +290,92 @@ impl<'a> SenseIndex<'a> {
         Self {
             definitions,
             senses_of,
+            statements: records
+                .iter()
+                .filter(|e| e.kind == "statement")
+                .filter_map(|e| {
+                    e.record
+                        .get("id")
+                        .and_then(Value::as_str)
+                        .map(|id| (id, &e.record))
+                })
+                .collect(),
+            arguments: records
+                .iter()
+                .filter(|e| e.kind == "argument")
+                .filter_map(|e| {
+                    e.record
+                        .get("id")
+                        .and_then(Value::as_str)
+                        .map(|id| (id, &e.record))
+                })
+                .collect(),
         }
     }
 
-    /// Heads of the disambiguated senses the record links.
-    fn linked_heads(&self, kind: &str, record: &Obj) -> Vec<String> {
-        let mut linked: Vec<&str> = record
-            .get("definition_ids")
-            .and_then(Value::as_array)
-            .map(|ids| ids.iter().filter_map(Value::as_str).collect())
-            .unwrap_or_default();
-        if kind == "definition"
-            && let Some(id) = record.get("id").and_then(Value::as_str)
-        {
-            linked.push(id);
+    fn record_definitions<'b>(&'b self, record: &'b Obj, with_argument: bool) -> Vec<&'b str> {
+        let list = |field| {
+            record
+                .get(field)
+                .and_then(Value::as_array)
+                .into_iter()
+                .flatten()
+                .filter_map(Value::as_str)
+                .collect::<Vec<_>>()
+        };
+        let mut definitions = list("definition_ids");
+        if record.contains_key("definition") && record.contains_key("term") {
+            definitions.extend(record.get("id").and_then(Value::as_str));
         }
+        if let Some(statement) = record
+            .get("statement_id")
+            .and_then(Value::as_str)
+            .and_then(|id| self.statements.get(id))
+        {
+            definitions.extend(
+                statement
+                    .get("definition_ids")
+                    .and_then(Value::as_array)
+                    .into_iter()
+                    .flatten()
+                    .filter_map(Value::as_str),
+            );
+        }
+        if with_argument
+            && let Some(argument) = record
+                .get("argument_id")
+                .and_then(Value::as_str)
+                .and_then(|id| self.arguments.get(id))
+        {
+            definitions.extend(self.record_definitions(argument, false));
+        }
+        if record.contains_key("conclusion_statement_id") {
+            let mut ids = list("premise_statement_ids");
+            ids.extend(list("commitment_statement_ids"));
+            ids.extend(
+                record
+                    .get("conclusion_statement_id")
+                    .and_then(Value::as_str),
+            );
+            for id in ids {
+                if let Some(statement) = self.statements.get(id) {
+                    definitions.extend(
+                        statement
+                            .get("definition_ids")
+                            .and_then(Value::as_array)
+                            .into_iter()
+                            .flatten()
+                            .filter_map(Value::as_str),
+                    );
+                }
+            }
+        }
+        definitions
+    }
+
+    /// Heads of the disambiguated senses the record links.
+    fn linked_heads(&self, _kind: &str, record: &Obj) -> Vec<String> {
+        let linked = self.record_definitions(record, true);
         let mut heads = Vec::new();
         for definition_id in linked {
             if !self.senses_of.contains_key(definition_id) {
@@ -508,7 +585,7 @@ pub fn scan(root: &Path) -> (Vec<String>, Vec<String>) {
             }
         }
     }
-    let senses = SenseIndex::new(&definitions, &disambiguations);
+    let senses = SenseIndex::new(&definitions, &disambiguations, &records);
     let allowed = sense_allowlist(root);
     for entry in &records {
         let record = &entry.record;

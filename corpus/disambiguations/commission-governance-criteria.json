@@ -7,5 +7,20 @@
     "6dea072c-97c4-5ee9-9958-a3da6a2a049c",
     "4ada8322-c61c-567c-b615-d056bde1c2e9"
   ],
-  "resolution": "The original Commissions proofs use the unchanged narrow fixed table and ChurchFoundedInCommissionedApostles. New analyst calibration propositions expose the teaching-inclusive criterion and precise further extension; matching InstitutionLinkFor is a separate open premise. Under the broader criterion, Matthew 28 alone supplies a governing witness, but only the broader institutional bridge turns it into founding in a mandate. The old nonempty message model satisfies narrow bridge and Matthew 28 while rejecting the broader bridge. No source claim, all-powers coverage, report-to-event truth or actual jurisdiction is inferred by lexical reclassification."
+  "resolution": "The original Commissions proofs use the unchanged narrow fixed table and ChurchFoundedInCommissionedApostles. New analyst calibration propositions expose the teaching-inclusive criterion and precise further extension; matching InstitutionLinkFor is a separate open premise. Under the broader criterion, Matthew 28 alone supplies a governing witness, but only the broader institutional bridge turns it into founding in a mandate. The old nonempty message model satisfies narrow bridge and Matthew 28 while rejecting the broader bridge. No source claim, all-powers coverage, report-to-event truth or actual jurisdiction is inferred by lexical reclassification.",
+  "term_label": "GOVERNING_POWER_IN_A_COMMISSION",
+  "senses": [
+    {
+      "id": "534024c4-de2b-4989-90ac-09f6fc0e3221",
+      "label": "GOVERNING_POWER_IN_A_COMMISSION_1",
+      "definition_id": "6dea072c-97c4-5ee9-9958-a3da6a2a049c",
+      "lean_declaration": "TruthCore.Case.Catholicism.StageThree.Commissions.Power.Governing"
+    },
+    {
+      "id": "7401b994-07bf-4037-ac10-d6001b4c9a7d",
+      "label": "GOVERNING_POWER_IN_A_COMMISSION_2",
+      "definition_id": "4ada8322-c61c-567c-b615-d056bde1c2e9",
+      "lean_declaration": "TruthCore.Case.Catholicism.StageThree.CommissionDefinitions.TeachingInclusiveGovernanceCriterion"
+    }
+  ]
 }

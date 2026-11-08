@@ -9,5 +9,32 @@
     "720f6196-960a-5adb-a773-eef008044c58",
     "fd27651c-d330-551d-b993-c02d6f86b9f6"
   ],
-  "resolution": "The foundation ranges over particulars; Formation ranges over eligible homogeneous pluralities. InitialScope admits the first pair; Iteration separately admits lists containing newly introduced Forms. The scoped reply rejects that extension while retaining ordinary self-predication. No domain switch is automatic."
+  "resolution": "The foundation ranges over particulars; Formation ranges over eligible homogeneous pluralities. InitialScope admits the first pair; Iteration separately admits lists containing newly introduced Forms. The scoped reply rejects that extension while retaining ordinary self-predication. No domain switch is automatic.",
+  "term_label": "ONE_OVER_MANY",
+  "senses": [
+    {
+      "id": "62ac268b-aa31-4b74-9144-8151dcadab4d",
+      "label": "ONE_OVER_MANY_1",
+      "definition_id": "0c06ef42-f495-56e8-bbe8-57efc70a22e9",
+      "lean_declaration": "TruthCore.Greek.Plato.ThirdMan.Formation"
+    },
+    {
+      "id": "0a73e684-7b09-482a-8c4f-2114b7656830",
+      "label": "ONE_OVER_MANY_2",
+      "definition_id": "4046121a-c2c0-5f01-aa3d-4dac4605e1b0",
+      "lean_declaration": "TruthCore.Greek.Plato.ThirdMan.InitialScope"
+    },
+    {
+      "id": "c6338d87-4645-4f25-8070-2b1f308371bf",
+      "label": "ONE_OVER_MANY_3",
+      "definition_id": "720f6196-960a-5adb-a773-eef008044c58",
+      "lean_declaration": "TruthCore.Greek.Plato.ThirdMan.Iteration"
+    },
+    {
+      "id": "5de9c1ab-5db4-428f-9aea-4b2dc53a6d99",
+      "label": "ONE_OVER_MANY_4",
+      "definition_id": "fd27651c-d330-551d-b993-c02d6f86b9f6",
+      "lean_declaration": "TruthCore.Greek.Plato.Forms.OneOverMany"
+    }
+  ]
 }

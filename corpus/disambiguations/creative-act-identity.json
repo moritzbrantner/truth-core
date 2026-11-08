@@ -9,5 +9,32 @@
     "9f05ee43-73f8-5158-a2f2-ab3c6046c6cc",
     "85f7f569-ab4d-514b-aa2c-cf75171ad105"
   ],
-  "resolution": "The act may be a rigid token performed across worlds, what a world-relative description denotes, or a respect in which the bearer is in act. The Core reads act necessity and strict efficacy of one token, and a two-token model shows that the inconsistency needs their identity. A description is rigid only by the separate RigidAt condition. RootExposure reads a decree as a field respect only in its decree clauses, and oneRespect is the branch where no decree is one. DEF-SIMPLE says only that God is in no way composite: no certificate here passes from it to any of these senses."
+  "resolution": "The act may be a rigid token performed across worlds, what a world-relative description denotes, or a respect in which the bearer is in act. The Core reads act necessity and strict efficacy of one token, and a two-token model shows that the inconsistency needs their identity. A description is rigid only by the separate RigidAt condition. RootExposure reads a decree as a field respect only in its decree clauses, and oneRespect is the branch where no decree is one. DEF-SIMPLE says only that God is in no way composite: no certificate here passes from it to any of these senses.",
+  "term_label": "THE_CREATIVE_ACT",
+  "senses": [
+    {
+      "id": "90b6ff6a-7fc1-4bfc-8e04-866a3f13fbe8",
+      "label": "THE_CREATIVE_ACT_1",
+      "definition_id": "01b44013-2db5-546c-a22e-06104e8e724c",
+      "lean_declaration": "TruthCore.Modal.SimplicityCollapse.StrictEfficacy"
+    },
+    {
+      "id": "2c80c646-b43f-48d4-a7dc-1f9cc130996d",
+      "label": "THE_CREATIVE_ACT_2",
+      "definition_id": "4e8282b7-d0aa-5936-9096-eee699480d2a",
+      "lean_declaration": "TruthCore.Modal.SimplicityCollapse.DescriptionSound"
+    },
+    {
+      "id": "8e48e88c-8519-43ba-b478-623b165a8ca7",
+      "label": "THE_CREATIVE_ACT_3",
+      "definition_id": "9f05ee43-73f8-5158-a2f2-ab3c6046c6cc",
+      "lean_declaration": "TruthCore.Modal.SimplicityCollapse.Decreed"
+    },
+    {
+      "id": "149841aa-f5f8-4b54-b583-8046f12e7c0e",
+      "label": "THE_CREATIVE_ACT_4",
+      "definition_id": "85f7f569-ab4d-514b-aa2c-cf75171ad105",
+      "lean_declaration": "TruthCore.Case.Catholicism.IsSimple"
+    }
+  ]
 }

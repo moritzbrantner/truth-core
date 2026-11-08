@@ -7,5 +7,18 @@
     "6181b7fb-3189-5ccd-affe-e7851c6fd2ab",
     "f2319c18-9f0d-5b49-9339-0f8c08f45e5d"
   ],
-  "resolution": "Agreement in the notion of necessity does not establish numerical identity of nature, esse or each individual’s own necessity instance. I42[8–11] is read in necessary-through-itself scope; [13–14] adds a substantive self-necessary-or-dependent designation argument. No primitive whole-essence case is excluded by renaming it composition, and formal nature difference is not automatically a missing eminent perfection. The source case splits and old three-limitation-horn proxy are not silently equated."
+  "resolution": "Agreement in the notion of necessity does not establish numerical identity of nature, esse or each individual’s own necessity instance. I42[8–11] is read in necessary-through-itself scope; [13–14] adds a substantive self-necessary-or-dependent designation argument. No primitive whole-essence case is excluded by renaming it composition, and formal nature difference is not automatically a missing eminent perfection. The source case splits and old three-limitation-horn proxy are not silently equated.",
+  "term_label": "AGREEMENT_IN_NECESSITY_DESIGNATED_NECESSITY",
+  "senses": [
+    {
+      "id": "6dbf3a74-bf15-497e-8674-af12c3084c73",
+      "label": "AGREEMENT_IN_NECESSITY_DESIGNATED_NECESSITY_1",
+      "definition_id": "6181b7fb-3189-5ccd-affe-e7851c6fd2ab"
+    },
+    {
+      "id": "744f77e7-a320-4538-96ef-949e9123f709",
+      "label": "AGREEMENT_IN_NECESSITY_DESIGNATED_NECESSITY_2",
+      "definition_id": "f2319c18-9f0d-5b49-9339-0f8c08f45e5d"
+    }
+  ]
 }

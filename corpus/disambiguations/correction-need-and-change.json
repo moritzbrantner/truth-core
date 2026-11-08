@@ -7,5 +7,19 @@
     "f57bc65c-efd0-5efa-b257-67784393ddd6",
     "e26a7988-ed89-57bf-a40e-1767b30a9558"
   ],
-  "resolution": "The q.94 a.5 reading and shared-data test assert only the need for correction. They do not assert an accomplished change or the stronger open bridge that every genuine correction replaces an untrue belief."
+  "resolution": "The q.94 a.5 reading and shared-data test assert only the need for correction. They do not assert an accomplished change or the stronger open bridge that every genuine correction replaces an untrue belief.",
+  "term_label": "CORRECTION",
+  "senses": [
+    {
+      "id": "bcc708a9-54fe-471c-98c4-9dbd6fbb7c4e",
+      "label": "CORRECTION_1",
+      "definition_id": "f57bc65c-efd0-5efa-b257-67784393ddd6",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.CorruptedNaturalLawNeedsCorrectionReading"
+    },
+    {
+      "id": "d0952c27-807f-40c5-ad99-30d3be00076f",
+      "label": "CORRECTION_2",
+      "definition_id": "e26a7988-ed89-57bf-a40e-1767b30a9558"
+    }
+  ]
 }

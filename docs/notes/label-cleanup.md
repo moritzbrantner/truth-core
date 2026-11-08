@@ -13,7 +13,7 @@ its kind, free of id-like text and at most 100 characters. The list may only shr
 (#1233): CI runs `python3 scripts/label_cleanup.py check --base <base>`. After fixing
 labels, `python3 scripts/label_cleanup.py prune` removes the entries that now pass.
 
-Labels generated in the migration: 6; flagged: 9462.
+Flagged labels remaining: 9538.
 
 | flag | count | meaning |
 | --- | ---: | --- |
@@ -22,11 +22,11 @@ Labels generated in the migration: 6; flagged: 9462.
 | `ids-replaced` | 513 | readable-id tokens in the prose were replaced by their words |
 | `from-legacy-id` | 327 | part of the label (an argument's route, or a fallback) came from the old id |
 | `fallback` | 0 | no prose to derive a label from |
-| `untagged-sense` | 96 | a term with several linked senses (or an undeterminable sense) is untagged |
+| `untagged-sense` | 223 | a term with several linked senses (or an undeterminable sense) is untagged |
 
 Flagged labels per kind:
 
-- argument: 969
+- argument: 970
 - attempt: 360
 - candidate: 84
 - claim: 1928
@@ -37,5 +37,6 @@ Flagged labels per kind:
 - model: 64
 - passage: 70
 - relation: 534
+- result: 75
 - source: 9
 - statement: 2702

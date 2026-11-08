@@ -1,12 +1,33 @@
 {
   "id": "e0c88ff5-5878-5ab9-ac83-bb9314ed6dc0",
-  "label": "Finite alternatives versus finite roster versus modal compactness",
-  "legacy_id": "DISAMB-FINITE-HITTING-PROFILE",
   "term": "finite alternatives versus finite roster versus modal compactness",
   "resolution": "Keep finite alternatives, one finite population, finite total roster and genuine product-topological compactness distinct. Entailments retain the exact P/A background in the note; none is a premise truth claim. Same rigid candidate at each complete possible history in one universal component, never counterpart matching or temporal transitions. H implies necessary population. P+A+O implies H. Finite full cover implies O without P or A. Neither H nor O follows from necessary population alone. The infinite-tail survivor is coherent mathematics, not a metaphysical possibility proof. See docs/notes/finite-hitting-561.md.",
   "sense_definition_ids": [
     "6f1b9a55-01d5-5894-95fc-f067077e2bda",
     "5dcbf9ee-d1a6-5238-8941-9a116508f291",
     "287f30f5-1a1c-52ad-b245-dc8de2a99e8e"
-  ]
+  ],
+  "term_label": "FINITE_ALTERNATIVES_VERSUS_FINITE_ROSTER",
+  "senses": [
+    {
+      "id": "72a92ca5-ea42-4071-9156-79cc1392b52b",
+      "label": "FINITE_ALTERNATIVES_VERSUS_FINITE_ROSTER_1",
+      "definition_id": "6f1b9a55-01d5-5894-95fc-f067077e2bda",
+      "lean_declaration": "TruthCore.Modal.FiniteHitting.Hitting"
+    },
+    {
+      "id": "b17b36f9-8235-40d3-b4ec-6427da4766ea",
+      "label": "FINITE_ALTERNATIVES_VERSUS_FINITE_ROSTER_2",
+      "definition_id": "5dcbf9ee-d1a6-5238-8941-9a116508f291",
+      "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.FinitePopulationCover"
+    },
+    {
+      "id": "be314ca8-20f1-4489-b151-653ef016e03d",
+      "label": "FINITE_ALTERNATIVES_VERSUS_FINITE_ROSTER_3",
+      "definition_id": "287f30f5-1a1c-52ad-b245-dc8de2a99e8e",
+      "lean_declaration": "TruthCore.Logic.LimitAdmission.tailWorlds"
+    }
+  ],
+  "label": "Finite alternatives versus finite roster versus modal compactness",
+  "legacy_id": "DISAMB-FINITE-HITTING-PROFILE"
 }

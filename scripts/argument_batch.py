@@ -60,6 +60,27 @@ The spec format:
     conclusion = "STMT-..."
     rule = "..."
     meaning = "..."              # also the result description
+    senses = {PRIOR = "PRIOR_1"} # term_senses: one sense per disambiguated term
+                                 # (TERM_n label or sense uuid; written as uuids)
+
+    # An argument that works with several senses of a term becomes one
+    # argument per sense (owner direction 2026-11-07). Each case has its own
+    # sense-specific statements and Lean theorem; the generator gives every
+    # case a fresh uuid4 argument/result id with a human `label`, and reuses
+    # it on later runs (matched by label and term_senses).
+    [[argument]]
+    label = "Act is prior from incorruptible facts"
+    for_each_sense = {term = "PRIOR", senses = ["PRIOR_1", "PRIOR_3"]}
+    rule = "..."
+    meaning = "..."
+    [argument.cases.PRIOR_1]
+    theorem = "actPriorSimply"
+    premises = ["STMT-..."]
+    conclusion = "STMT-..."
+    [argument.cases.PRIOR_3]
+    theorem = "actPriorInSubstance"
+    premises = ["STMT-..."]
+    conclusion = "STMT-..."
 
     [[relation]]
     id = "..."
@@ -80,6 +101,7 @@ import re
 import subprocess
 import sys
 import tomllib
+import uuid
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -88,6 +110,7 @@ from corpus_ids import Aliases, AmbiguousId, idlike_text, new_uuid  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 CORPUS = ROOT / "corpus"
+UUID4 = re.compile(r"[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}")
 
 
 def load_ids(kind: str) -> dict[str, tuple[Path, dict]]:
@@ -110,6 +133,55 @@ def dump(path: Path, record: dict, write: bool, planned: list[str]) -> None:
     if write:
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(text)
+
+
+def sense_table() -> dict[str, dict[str, str]]:
+    """term_label -> {label or uuid: uuid} from the disambiguations' senses."""
+    table: dict[str, dict[str, str]] = {}
+    for _, (_, record) in load_ids("disambiguations").items():
+        for sense in record.get("senses", []):
+            entry = table.setdefault(record["term_label"], {})
+            entry[sense["label"]] = sense["id"]
+            entry[sense["id"]] = sense["id"]
+    return table
+
+
+def resolve_senses(spec_senses: dict[str, str], table: dict[str, dict[str, str]], where: str) -> dict[str, str]:
+    resolved = {}
+    for term, sense in sorted(spec_senses.items()):
+        if sense not in table.get(term, {}):
+            raise SystemExit(f"{where}: {sense} is not a sense of {term}")
+        resolved[term] = table[term][sense]
+    return resolved
+
+
+def expand_sense_forks(spec: dict, existing_arguments: dict[str, tuple[Path, dict]]) -> list[dict]:
+    """One argument spec per sense for every `for_each_sense` argument."""
+    table = sense_table()
+    expanded = []
+    for a in spec.get("argument", []):
+        fork = a.get("for_each_sense")
+        if fork is None:
+            expanded.append({**a, "term_senses": resolve_senses(a.get("senses", {}), table, a["id"])})
+            continue
+        where = a.get("label", "for_each_sense argument")
+        if "id" in a or not a.get("label"):
+            raise SystemExit(f"{where}: a for_each_sense argument has a label and no id (each sense gets a uuid)")
+        cases = a.get("cases", {})
+        if sorted(cases) != sorted(fork["senses"]) or len(fork["senses"]) < 2:
+            raise SystemExit(f"{where}: give one [argument.cases.<SENSE>] per sense in for_each_sense")
+        for label in fork["senses"]:
+            case = {**{k: v for k, v in a.items() if k not in ("for_each_sense", "cases")}, **cases[label]}
+            term_senses = resolve_senses({**a.get("senses", {}), fork["term"]: label}, table, where)
+            case["label"] = f"{a['label']} [{label}]"
+            case["term_senses"] = term_senses
+            match = [aid for aid, (_, record) in existing_arguments.items()
+                     if record.get("label") == case["label"] and record.get("term_senses") == term_senses]
+            case["id"] = case.get("id") or (match[0] if match else str(uuid.uuid4()))
+            if match:
+                case["inference_id"] = existing_arguments[match[0]][1]["inference_ids"][0]
+            expanded.append(case)
+    return expanded
 
 
 def lean_name(batch: dict, name: str) -> str:
@@ -178,9 +250,10 @@ def build_records(spec: dict, write: bool) -> list[str]:
     planned: list[str] = []
     existing = {kind: load_ids(kind) for kind in ("statements", "arguments", "inferences", "results", "relations")}
     handles = Handles()
+    expanded = expand_sense_forks(spec, existing["arguments"])
     for s in spec.get("statement", []):
         handles.get("statement", s["id"], s.get("label"))
-    for a in spec.get("argument", []):
+    for a in expanded:
         handles.get("argument", a["id"], a.get("label"))
     spec_statements = {handles.ref("statement", s["id"]): s for s in spec.get("statement", [])}
 
@@ -206,7 +279,8 @@ def build_records(spec: dict, write: bool) -> list[str]:
             return existing["statements"][statement_id][1].get(f"{key[:-1]}_ids", [])
         raise SystemExit(f"unknown statement {statement_id}")
 
-    for a in spec.get("argument", []):
+    table = sense_table()
+    for a in expanded:
         aid = handles.ref("argument", a["id"])
         label = existing["arguments"].get(aid, (None, {}))[1].get("label") or a.get("label") or a["id"]
         premises = refs("statement", a["premises"])
@@ -227,6 +301,8 @@ def build_records(spec: dict, write: bool) -> list[str]:
                      "meaning": a["meaning"], "assumption_statement_ids": [], "discharged_statement_ids": []}
         argument = {**identity(aid, label, existing["arguments"]), "premise_statement_ids": premises,
                     "conclusion_statement_id": conclusion, "inference_ids": [iid], "meaning": a["meaning"]}
+        if a["term_senses"]:
+            argument["term_senses"] = a["term_senses"]
         if definitions:
             argument["definition_ids"] = definitions
         if disambiguations:
@@ -236,6 +312,13 @@ def build_records(spec: dict, write: bool) -> list[str]:
                                                  for key, value in a["strong_version_needed"].items()}
         if "commitment_statement_ids" in a:
             argument["commitment_statement_ids"] = refs("statement", a["commitment_statement_ids"])
+        if "sense_mixing_control" in a:
+            argument["sense_mixing_control"] = a["sense_mixing_control"]
+        if "sense_bridges" in a:
+            argument["sense_bridges"] = [
+                {**bridge, "statement_id": handles.ref("statement", bridge["statement_id"]), **{end: resolve_senses({bridge["term"]: bridge[end]}, table, a["id"])[bridge["term"]]
+                              for end in ("from", "to")}}
+                for bridge in a["sense_bridges"]]
         if aid in existing["arguments"]:
             argument = {**old_argument, **{k: v for k, v in argument.items() if k not in ("disambiguation_ids",)}}
         rid = handles.get("result", a["id"], label)
@@ -244,6 +327,8 @@ def build_records(spec: dict, write: bool) -> list[str]:
         result = {**result_identity, "argument_id": aid, "challenge_module": f"{batch['results']}.Challenge",
                   "solution_module": f"{batch['results']}.Solution", "theorem": f"{batch['results']}.{a['theorem']}",
                   "comparator_config": comparator, "status": "solution-present", "description": a["meaning"]}
+        if a.get("label"):
+            result["label"] = a["label"]
         if "transcription" in a:
             result["transcription"] = a["transcription"]
         dump(record_path(existing["inferences"], "inferences", iid), inference, write, planned)
@@ -274,6 +359,7 @@ MISSING = re.compile(r"corpus error: (\S+): .*does not link ([0-9a-f-]{36})")
 
 def fix_disambiguations(spec: dict) -> int:
     handles = Handles()
+    expanded = expand_sense_forks(spec, existing["arguments"])
     ours = set()
     for a in spec.get("argument", []):
         found = handles.existing("argument", a["id"], a.get("label"))
@@ -369,6 +455,7 @@ def challenge_text(solution: str, theorems: list[str]) -> str:
 def check_map(path: Path, mermaid: bool) -> int:
     data = tomllib.loads(path.read_text())
     handles = Handles()
+    expanded = expand_sense_forks(spec, existing["arguments"])
     arguments = [record for _, record in load_ids("arguments").values()]
     nodes = {n["id"]: n for n in data.get("node", [])}
     resolved: dict[str, str] = {}

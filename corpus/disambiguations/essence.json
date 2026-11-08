@@ -9,5 +9,32 @@
     "183b48d2-1753-583d-aef9-4199cff86231",
     "85a4aa8b-11cc-5aeb-b5a6-3f163178002d"
   ],
-  "resolution": "Scott's variant and Gödel's 1970 variant define 'essence' differently, and their statements and results keep the two apart. Scott's ess (DEF-ESSENCE-SCOTT) requires the bearer to have the essence, and its inclusion quantifies over all individuals; Gödel's 1970 Ess. (DEF-ESSENCE-GOEDEL-1970) drops that conjunct and quantifies over existing individuals. They are separate Lean declarations, `TruthCore.Isabelle.AFP.GoedelGod.Essence` and `TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1.Essence`, and no statement treats one as the other. The difference is what the paired results SCOTT-EMPTY-PROPERTY-NOT-ESSENCE and GOEDEL-1970-EMPTY-PROPERTY-IS-ESSENCE show, and it is what makes the 1970 axioms inconsistent (GOEDEL-1970-INCONSISTENT) while Scott's are satisfiable. Neither is the Thomist essence. Thomistic essence as nature/quiddity in the attribute readings is distinct from either modal essence definition; the claim of identity with esse is separate from this term’s definition. `FilteredEssence` (DEF-FILTERED-ESSENCE) is a stipulated experiment that filters comparison properties in Scott's structure; it neither changes the original Scott definition nor supplies an historical or metaphysical theory of essence."
+  "resolution": "Scott's variant and Gödel's 1970 variant define 'essence' differently, and their statements and results keep the two apart. Scott's ess (DEF-ESSENCE-SCOTT) requires the bearer to have the essence, and its inclusion quantifies over all individuals; Gödel's 1970 Ess. (DEF-ESSENCE-GOEDEL-1970) drops that conjunct and quantifies over existing individuals. They are separate Lean declarations, `TruthCore.Isabelle.AFP.GoedelGod.Essence` and `TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1.Essence`, and no statement treats one as the other. The difference is what the paired results SCOTT-EMPTY-PROPERTY-NOT-ESSENCE and GOEDEL-1970-EMPTY-PROPERTY-IS-ESSENCE show, and it is what makes the 1970 axioms inconsistent (GOEDEL-1970-INCONSISTENT) while Scott's are satisfiable. Neither is the Thomist essence. Thomistic essence as nature/quiddity in the attribute readings is distinct from either modal essence definition; the claim of identity with esse is separate from this term’s definition. `FilteredEssence` (DEF-FILTERED-ESSENCE) is a stipulated experiment that filters comparison properties in Scott's structure; it neither changes the original Scott definition nor supplies an historical or metaphysical theory of essence.",
+  "term_label": "ESSENCE",
+  "senses": [
+    {
+      "id": "71e4d8e2-371f-4c6c-a2f8-c8faa8f585c1",
+      "label": "ESSENCE_1",
+      "definition_id": "30ebc834-1c04-5b83-98c5-523c1dfdf436",
+      "lean_declaration": "TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1.Essence"
+    },
+    {
+      "id": "63be4bb7-a7e4-4459-b334-6e20e36327ea",
+      "label": "ESSENCE_2",
+      "definition_id": "2e31f6cf-433e-5e11-bb65-233499985668",
+      "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.Essence"
+    },
+    {
+      "id": "6888b59f-fb40-48c9-b35a-4bbc4a5be96d",
+      "label": "ESSENCE_3",
+      "definition_id": "183b48d2-1753-583d-aef9-4199cff86231",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article4.Profile.essenceOf"
+    },
+    {
+      "id": "ed6fe457-b0f7-4b66-a1c8-afaa5a5557fb",
+      "label": "ESSENCE_4",
+      "definition_id": "85a4aa8b-11cc-5aeb-b5a6-3f163178002d",
+      "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.FilteredEssence"
+    }
+  ]
 }

@@ -1,7 +1,5 @@
 {
   "id": "a6f612f9-4953-5637-9597-315c19cbb07c",
-  "label": "Pro tanto support, threshold full belief, conjunction closure, and actual truth",
-  "legacy_id": "DISAMB-THRESHOLD-BELIEF-REASON-AND-TRUTH",
   "term": "pro tanto support, threshold full belief, conjunction closure, and actual truth",
   "resolution": "A consideration favors an attitude without automatically requiring full belief or licensing every favored attitude jointly. The analyst policy accepts an event exactly when its supplied probability reaches a selected threshold. Accepted events are closed under intersection; this is an extra structural requirement, not built into pro tanto reasons. The selected actual sample point belongs to the event, independently of whether the threshold policy selects it. The checked finite constraints concern threshold-selected full beliefs. They do not infer categorical obligation from degree of support, actual truth from probability, logical necessity from probability one, or absence of epistemic reasons from failure of conjunction closure. The incompatible package forces rejection of at least one commitment, not a preferred one. Shared burdens apply only to accounts adopting the same semantics and policies. Bool true and false name sample states; the singleton event {true} is contingent, not the logical tautology True.",
   "sense_definition_ids": [
@@ -10,5 +8,40 @@
     "50615194-355b-576c-897b-5e30289d0e2f",
     "58ca78b4-33a8-5c4f-a3ee-e206d193f52a",
     "dcbd9590-2c87-5550-a69c-b4af6e272fa4"
-  ]
+  ],
+  "term_label": "PRO_TANTO_SUPPORT_THRESHOLD_FULL_BELIEF",
+  "senses": [
+    {
+      "id": "5aeeb921-2098-47c8-802c-225de5fe6d87",
+      "label": "PRO_TANTO_SUPPORT_THRESHOLD_FULL_BELIEF_1",
+      "definition_id": "1f99af1e-04fe-5f06-bdd4-0db8178c79c2",
+      "lean_declaration": "TruthCore.Logic.ThresholdBelief.Accepted"
+    },
+    {
+      "id": "6a5baa3a-14e7-4c60-b837-18c1589ccf14",
+      "label": "PRO_TANTO_SUPPORT_THRESHOLD_FULL_BELIEF_2",
+      "definition_id": "e4f9bc2a-f6e6-54a6-86b5-1658eff0aef6",
+      "lean_declaration": "TruthCore.Logic.ThresholdBelief.HeavyCore"
+    },
+    {
+      "id": "50c87619-3e0a-4d7a-957d-5cf0d9308bef",
+      "label": "PRO_TANTO_SUPPORT_THRESHOLD_FULL_BELIEF_3",
+      "definition_id": "50615194-355b-576c-897b-5e30289d0e2f",
+      "lean_declaration": "TruthCore.Logic.ThresholdBelief.uniform"
+    },
+    {
+      "id": "8b4573f9-a8ea-4404-97b2-cde28d3540bc",
+      "label": "PRO_TANTO_SUPPORT_THRESHOLD_FULL_BELIEF_4",
+      "definition_id": "58ca78b4-33a8-5c4f-a3ee-e206d193f52a",
+      "lean_declaration": "TruthCore.Logic.EpistemicReasonDefinitionFork.EpistemicRole"
+    },
+    {
+      "id": "fc417db5-7f1d-4126-a049-34b28514cc19",
+      "label": "PRO_TANTO_SUPPORT_THRESHOLD_FULL_BELIEF_5",
+      "definition_id": "dcbd9590-2c87-5550-a69c-b4af6e272fa4",
+      "lean_declaration": "TruthCore.Logic.EpistemicReasons.ThereAreEpistemicReasons"
+    }
+  ],
+  "label": "Pro tanto support, threshold full belief, conjunction closure, and actual truth",
+  "legacy_id": "DISAMB-THRESHOLD-BELIEF-REASON-AND-TRUTH"
 }

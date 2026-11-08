@@ -8,5 +8,24 @@
     "801225d9-ddd5-540f-96db-22778e09cd6e",
     "7c64b499-6dba-5e03-bdf3-5acea95d8836"
   ],
-  "resolution": "Read q.80 passive appetite in its soul-power context; read q.19 divine willing with its identity with divine being and denial of external motion. The source analogy of inclination does not transfer creaturely passivity, appetite as a distinct accidental faculty, or transition to act into God. HasWill remains the existing primitive predicate, with no new equivalence definition."
+  "resolution": "Read q.80 passive appetite in its soul-power context; read q.19 divine willing with its identity with divine being and denial of external motion. The source analogy of inclination does not transfer creaturely passivity, appetite as a distinct accidental faculty, or transition to act into God. HasWill remains the existing primitive predicate, with no new equivalence definition.",
+  "term_label": "PASSIVE_SOUL_APPETITE_VERSUS_DIVINE_WILLING",
+  "senses": [
+    {
+      "id": "6d1bff05-b130-44a4-9396-c8486bfefd0e",
+      "label": "PASSIVE_SOUL_APPETITE_VERSUS_DIVINE_WILLING_1",
+      "definition_id": "130e50af-ef3d-5aa7-8894-24302b731f87"
+    },
+    {
+      "id": "f2c4a374-456b-4384-a129-446e89d73ea8",
+      "label": "PASSIVE_SOUL_APPETITE_VERSUS_DIVINE_WILLING_2",
+      "definition_id": "801225d9-ddd5-540f-96db-22778e09cd6e"
+    },
+    {
+      "id": "8f7e8abb-8e84-43de-a5d9-87503e6f635e",
+      "label": "PASSIVE_SOUL_APPETITE_VERSUS_DIVINE_WILLING_3",
+      "definition_id": "7c64b499-6dba-5e03-bdf3-5acea95d8836",
+      "lean_declaration": "TruthCore.Case.Catholicism.GodHasWill"
+    }
+  ]
 }

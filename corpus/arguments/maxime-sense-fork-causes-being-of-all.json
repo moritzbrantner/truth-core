@@ -1,7 +1,6 @@
 {
   "id": "312639cc-b428-5f6b-a299-f852720125ec",
   "label": "Whichever single sense maxime takes, a MAXIME_1 being causes being in all others",
-  "legacy_id": "MAXIME-SENSE-FORK-CAUSES-BEING-OF-ALL",
   "premise_statement_ids": [
     "89a4b3a6-c839-5599-b627-c55c2ba25b5f",
     "2cdfbe6c-c889-5959-9241-81ecc4761c5a",
@@ -25,5 +24,32 @@
   ],
   "disambiguation_ids": [
     "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
-  ]
+  ],
+  "sense_bridges": [
+    {
+      "term": "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST",
+      "from": "9bea9a43-3a87-4d62-86de-e5873aea62f8",
+      "to": "ac4c2702-e178-4c52-bd6d-e33685875cdf",
+      "statement_id": "89a4b3a6-c839-5599-b627-c55c2ba25b5f"
+    },
+    {
+      "term": "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST",
+      "from": "9bea9a43-3a87-4d62-86de-e5873aea62f8",
+      "to": "517baa9d-7981-4e2a-bdae-045467cb29fc",
+      "statement_id": "89a4b3a6-c839-5599-b627-c55c2ba25b5f"
+    },
+    {
+      "term": "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST",
+      "from": "9bea9a43-3a87-4d62-86de-e5873aea62f8",
+      "to": "517baa9d-7981-4e2a-bdae-045467cb29fc",
+      "statement_id": "c16ec481-ce5b-5a90-b8e4-247a2ebb2155"
+    },
+    {
+      "term": "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST",
+      "from": "9bea9a43-3a87-4d62-86de-e5873aea62f8",
+      "to": "ac4c2702-e178-4c52-bd6d-e33685875cdf",
+      "statement_id": "a370254d-59b8-56a2-9552-0008e9baf2b3"
+    }
+  ],
+  "legacy_id": "MAXIME-SENSE-FORK-CAUSES-BEING-OF-ALL"
 }

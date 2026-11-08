@@ -84,3 +84,28 @@ agree after mapping. Ties that used to break by readable id now break by
   their legacy handles; `argument_batch.py` resolves them to uuids.
 - Sub-identifiers inside a record (configuration case ids, semantics profile
   ids, case-split cell labels) are not corpus record ids.
+
+## Integration with sense indexing (2026-11-08)
+
+The UUID branch now includes main `6849d366137611882c1b96e351ef8733d3a901af`
+and the reconciled #1235 head `ab7709001`. Sense UUIDs and their labels are
+preserved; only their definition references and bridge statement references are
+converted to corpus UUIDs. The migration also converts explicit coverage,
+exclusivity and fork-result references, and the argument keys in the sense
+allowlist. The legacy-name fallback for sense-fork discovery reads `legacy_id`
+after migration. Python and Rust label checks follow the same statement,
+premise, conclusion and result links.
+
+Actual sense metadata exposes 127 additional legacy labels needing sense tags
+(76 new cleanup rows, 51 additional flags on existing rows). These are part of
+the initial UUID migration baseline, which has not yet merged, not completed
+semantic audits. The argument sense allowlist remains 915 arguments / 1974 term
+uses; missing distinct declarations shrink from 272 to 268 after taking newer
+main definitions. No new argument sense exception was added. Existing research
+remains conditional on its stated premises.
+
+`verify_uuid_migration.py --base feat/sense-indexed-terms` confirms all records
+and references map back to the reconciled sense revision. The computed
+`corpus.py frontier-diff --base origin/main` reports 353 open premises and the
+same cheapest route at cost 28: no premise change. Final CI still applies to
+the delivered combined revision.

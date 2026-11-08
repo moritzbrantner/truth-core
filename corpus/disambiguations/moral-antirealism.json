@@ -9,5 +9,30 @@
     "299e0a83-bef3-5ded-b153-6e65c29b4875",
     "26d45e80-3ca9-5d53-9e9d-b1df65d5052f"
   ],
-  "resolution": "These are different theories, and each result names the one it is about. POE-EXTERNAL-PREMISE-VS-EMOTIVISM is about O'Connor's 2023 emotivism (no truth value). STMT-NO-OBJECTIVE-MORAL-TRUTHS and STMT-EVIL-PREMISE-NOT-OBJECTIVE come from his 2016 subjectivism, which does not deny truth value, only objectivity. Expressivism in general, including quasi-realism with minimal truth, is not yet refuted or formalized (#182-#185). A result about one of these must not be cited as a result about another. The occasion-based meaning hypothesis tested by Frege–Geach is a separate reading from O’Connor’s denial of truth value; refuting it does not refute all expressivism."
+  "resolution": "These are different theories, and each result names the one it is about. POE-EXTERNAL-PREMISE-VS-EMOTIVISM is about O'Connor's 2023 emotivism (no truth value). STMT-NO-OBJECTIVE-MORAL-TRUTHS and STMT-EVIL-PREMISE-NOT-OBJECTIVE come from his 2016 subjectivism, which does not deny truth value, only objectivity. Expressivism in general, including quasi-realism with minimal truth, is not yet refuted or formalized (#182-#185). A result about one of these must not be cited as a result about another. The occasion-based meaning hypothesis tested by Frege–Geach is a separate reading from O’Connor’s denial of truth value; refuting it does not refute all expressivism.",
+  "term_label": "EMOTIVISM_EXPRESSIVISM_SUBJECTIVISM",
+  "senses": [
+    {
+      "id": "2beb8dd8-1ca7-4a1b-90b8-6786947ad978",
+      "label": "EMOTIVISM_EXPRESSIVISM_SUBJECTIVISM_1",
+      "definition_id": "b3a48f2f-1e63-5899-b8f4-de69de18cb8e",
+      "lean_declaration": "TruthCore.English.OConnor.MoralStatementsLackTruthValueReading"
+    },
+    {
+      "id": "347a3da7-30f4-421e-87c7-6a7e63d52e8f",
+      "label": "EMOTIVISM_EXPRESSIVISM_SUBJECTIVISM_2",
+      "definition_id": "c7db6f2b-22bb-597e-ac91-fe396591a034"
+    },
+    {
+      "id": "a754e852-4c16-4d6c-914b-36fdfa39b65c",
+      "label": "EMOTIVISM_EXPRESSIVISM_SUBJECTIVISM_3",
+      "definition_id": "299e0a83-bef3-5ded-b153-6e65c29b4875"
+    },
+    {
+      "id": "8a844cfe-fc45-48e8-91b3-b59d1c2749b6",
+      "label": "EMOTIVISM_EXPRESSIVISM_SUBJECTIVISM_4",
+      "definition_id": "26d45e80-3ca9-5d53-9e9d-b1df65d5052f",
+      "lean_declaration": "TruthCore.English.VanRoojen.EmotivistMeaningIsExpressedAttitudeReading"
+    }
+  ]
 }

@@ -1,7 +1,5 @@
 {
   "id": "c10beed2-a743-56c8-8185-2a26b45aab44",
-  "label": "Nothing that is being moved in a respect…, from Each of the two uses of 'in act' in the… and 4 more",
-  "legacy_id": "IN-ACT-SENSE-FORK-NO-SELF-MOTION",
   "premise_statement_ids": [
     "fcf064ee-9b36-5990-b4fd-9b1549b10530",
     "8f5a1859-3bfa-563b-b30c-d1a61d5864a4",
@@ -29,5 +27,27 @@
     "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
     "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
     "508617ab-cf24-5f3b-a387-64b3991359ec"
-  ]
+  ],
+  "sense_bridges": [
+    {
+      "term": "IN_ACT",
+      "from": "7b3e570e-7557-402d-95ac-f33ebcefa0ca",
+      "to": "11162ab5-08ee-44a2-aa1c-c6ffd1c76fd4",
+      "statement_id": "fcf064ee-9b36-5990-b4fd-9b1549b10530"
+    },
+    {
+      "term": "IN_ACT",
+      "from": "7b3e570e-7557-402d-95ac-f33ebcefa0ca",
+      "to": "e086dd1d-2a37-4549-a2e8-1f6203a2249c",
+      "statement_id": "fcf064ee-9b36-5990-b4fd-9b1549b10530"
+    },
+    {
+      "term": "POTENCY_CAPACITY_AND_POWER_ACROSS_ADOPTED",
+      "from": "5252f7f4-95a7-42f3-a420-23770702a0f4",
+      "to": "d0b17a2e-febf-45e8-9b9e-11a75b2ccbc6",
+      "statement_id": "c6d6379b-6a9b-55b5-a701-3df289dfcca4"
+    }
+  ],
+  "label": "Nothing that is being moved in a respect…, from Each of the two uses of 'in act' in the… and 4 more",
+  "legacy_id": "IN-ACT-SENSE-FORK-NO-SELF-MOTION"
 }

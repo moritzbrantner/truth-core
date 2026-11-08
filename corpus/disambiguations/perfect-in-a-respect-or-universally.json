@@ -7,5 +7,20 @@
     "bf9ced33-dbd9-5921-99ef-e1e92fa7e063",
     "5f851204-5991-5e16-87f1-e8b3ed729708"
   ],
-  "resolution": "STMT-DESIRABLE-INSOFAR-AS-PERFECT and STMT-PERFECT-INSOFAR-AS-IN-ACT use perfect in one respect (`PerfectIn x p`, ST I q.4 a.1 co. and q.5 a.1 co.): a thing is perfect in a perfection when it lacks nothing of it, which q.5 a.1 ad 1 calls perfect secundum quid unless the perfection is the ultimate one. STMT-GOD-IS-PERFECT uses universal perfection (`IsPerfect`, q.4 a.2: lacking none of the perfections found in things). The derivation AQUINAS-ST-I-Q5-A1-GOODNESS-FROM-DESIRABILITY uses only `PerfectIn`, and no record identifies `PerfectIn` with `IsPerfect`, so no step passes from one sense to the other."
+  "resolution": "STMT-DESIRABLE-INSOFAR-AS-PERFECT and STMT-PERFECT-INSOFAR-AS-IN-ACT use perfect in one respect (`PerfectIn x p`, ST I q.4 a.1 co. and q.5 a.1 co.): a thing is perfect in a perfection when it lacks nothing of it, which q.5 a.1 ad 1 calls perfect secundum quid unless the perfection is the ultimate one. STMT-GOD-IS-PERFECT uses universal perfection (`IsPerfect`, q.4 a.2: lacking none of the perfections found in things). The derivation AQUINAS-ST-I-Q5-A1-GOODNESS-FROM-DESIRABILITY uses only `PerfectIn`, and no record identifies `PerfectIn` with `IsPerfect`, so no step passes from one sense to the other.",
+  "term_label": "PERFECT",
+  "senses": [
+    {
+      "id": "6c6247bc-aed5-4b0c-bb0d-1b125c1c7804",
+      "label": "PERFECT_1",
+      "definition_id": "bf9ced33-dbd9-5921-99ef-e1e92fa7e063",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PerfectInsofarAsInActReading"
+    },
+    {
+      "id": "1e621539-7273-4879-b63d-6997bce9e995",
+      "label": "PERFECT_2",
+      "definition_id": "5f851204-5991-5e16-87f1-e8b3ed729708",
+      "lean_declaration": "TruthCore.Case.Catholicism.IsPerfect"
+    }
+  ]
 }

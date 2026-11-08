@@ -7,5 +7,20 @@
     "e765a03a-3017-5c77-acaa-ba33b6cd5279",
     "55a974ea-1ba1-5df4-a03b-1fbaa388dfeb"
   ],
-  "resolution": "The case uses the strong reading. Result AQUINAS-ST-I-Q2-A3-STRONG-READING-INTENDED argues that it is Thomas' meaning (from the unrestricted conclusion, the wording, and the failure of the weak reading to yield an unmoved mover, under a stated charity principle); result AQUINAS-ST-I-Q2-A3-PRIMA-VIA-RELATIVE records that the weak reading yields only a mover unmoved as mover of its series; the irrelevant-respect objection is scoped by AQUINAS-ST-I-Q2-A3-IRRELEVANT-RESPECT-OBJECTION-SCOPE. No result mixes the two readings: they are different Lean premises."
+  "resolution": "The case uses the strong reading. Result AQUINAS-ST-I-Q2-A3-STRONG-READING-INTENDED argues that it is Thomas' meaning (from the unrestricted conclusion, the wording, and the failure of the weak reading to yield an unmoved mover, under a stated charity principle); result AQUINAS-ST-I-Q2-A3-PRIMA-VIA-RELATIVE records that the weak reading yields only a mover unmoved as mover of its series; the irrelevant-respect objection is scoped by AQUINAS-ST-I-Q2-A3-IRRELEVANT-RESPECT-OBJECTION-SCOPE. No result mixes the two readings: they are different Lean premises.",
+  "term_label": "MOVES_ONLY_AS_MOVED",
+  "senses": [
+    {
+      "id": "000e2c74-2616-4738-9139-81f8704e150d",
+      "label": "MOVES_ONLY_AS_MOVED_1",
+      "definition_id": "e765a03a-3017-5c77-acaa-ba33b6cd5279",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.SecondMoversMoveOnlyAsMovedReading"
+    },
+    {
+      "id": "cef2eeca-3b39-43f5-b257-4937c0b51760",
+      "label": "MOVES_ONLY_AS_MOVED_2",
+      "definition_id": "55a974ea-1ba1-5df4-a03b-1fbaa388dfeb",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.SecondMoversMoveAsMovedInRelevantRespectReading"
+    }
+  ]
 }

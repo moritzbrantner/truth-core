@@ -1,7 +1,6 @@
 {
   "id": "1fe8fd6f-8cad-56de-9c47-6d4a2920f9e6",
   "label": "Asymmetric more-in makes a MAXIME_3 being MAXIME_1",
-  "legacy_id": "STRICTLY-GREATEST-MAXIMAL-FROM-ASYMMETRY",
   "premise_statement_ids": [
     "a4814f25-84b0-560e-870a-eb3a23a6a35b"
   ],
@@ -19,5 +18,15 @@
   "disambiguation_ids": [
     "d16b94fa-886f-54f3-85a3-7fc0c43d2b58",
     "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
-  ]
+  ],
+  "sense_bridges": [
+    {
+      "term": "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST",
+      "from": "9bea9a43-3a87-4d62-86de-e5873aea62f8",
+      "to": "ac4c2702-e178-4c52-bd6d-e33685875cdf",
+      "statement_id": "a370254d-59b8-56a2-9552-0008e9baf2b3",
+      "role": "conclusion"
+    }
+  ],
+  "legacy_id": "STRICTLY-GREATEST-MAXIMAL-FROM-ASYMMETRY"
 }

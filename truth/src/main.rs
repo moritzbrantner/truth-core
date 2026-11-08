@@ -723,7 +723,7 @@ fn run(args: &[OsString]) -> Result<(Value, Option<String>), (u8, Value)> {
         };
         output["schema_version"] = json!(1);
         output["input_identity"] = json!(corpus.input_identity());
-        return Ok((output, Some(text)));
+        return Ok((output, Some(aliases.humanize(&text))));
     }
     if command == "frontier" {
         let (output, text) =

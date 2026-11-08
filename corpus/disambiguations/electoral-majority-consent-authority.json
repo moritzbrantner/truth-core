@@ -7,5 +7,20 @@
     "2fd6cc47-bd33-51c4-b1f1-bdb5a0127fa5",
     "61ee33e3-4905-5155-818c-732cf288d44d"
   ],
-  "resolution": "popularWin counts individual A ballots; districtWin counts district majorities. Neither is an individual act of consenting, a moral duty to obey, political legitimacy, or church authority. Regrouping means changing ballot grouping while preserving total A/B counts, not a certified legal redistricting preserving geographical or individual constraints. The source caption challenge about real choice is broader than this diagnostic: majority reversal does not establish absence of choice, and its absence does not establish meaningful competition. Consent theory still needs actual voluntary authorization; natural-duty theories may justify obligations independently of authorization; philosophical anarchists may deny a general duty while permitting particular duties. These rivals are neither proved nor refuted by the electoral count."
+  "resolution": "popularWin counts individual A ballots; districtWin counts district majorities. Neither is an individual act of consenting, a moral duty to obey, political legitimacy, or church authority. Regrouping means changing ballot grouping while preserving total A/B counts, not a certified legal redistricting preserving geographical or individual constraints. The source caption challenge about real choice is broader than this diagnostic: majority reversal does not establish absence of choice, and its absence does not establish meaningful competition. Consent theory still needs actual voluntary authorization; natural-duty theories may justify obligations independently of authorization; philosophical anarchists may deny a general duty while permitting particular duties. These rivals are neither proved nor refuted by the electoral count.",
+  "term_label": "MAJORITY_VICTORY_INDIVIDUAL_CONSENT_AND_POLITICAL",
+  "senses": [
+    {
+      "id": "fe2af4f1-2d7d-426d-a0e0-f59b12121673",
+      "label": "MAJORITY_VICTORY_INDIVIDUAL_CONSENT_AND_POLITICAL_1",
+      "definition_id": "2fd6cc47-bd33-51c4-b1f1-bdb5a0127fa5",
+      "lean_declaration": "TruthCore.Politics.DistrictMajority.Profile"
+    },
+    {
+      "id": "13fb503e-b89f-43ff-9b2c-9f572e68029a",
+      "label": "MAJORITY_VICTORY_INDIVIDUAL_CONSENT_AND_POLITICAL_2",
+      "definition_id": "61ee33e3-4905-5155-818c-732cf288d44d",
+      "lean_declaration": "TruthCore.Politics.DistrictMajority.popularWin"
+    }
+  ]
 }

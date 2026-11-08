@@ -10,5 +10,38 @@
     "9a3cef72-b144-5f91-9390-312bd4d96c94",
     "2e6ae9f0-23ac-5357-9b57-d084c4a27380"
   ],
-  "resolution": "All modal operators remain relative to the supplied root and accessibility. S5 may have disconnected components. Component agreement yields component label identity only with full identity predicates or explicit restricted-domain extensionality; Universal extends that result to all supplied labels. A finite corpus inventory is not the whole fixed modal formula language. A predicate outside the collapse domain cannot be substituted into its no-contingency consequence. StrongBridge and real-world contingency remain open interpreted commitments, never historical Hume or Scott/Gödel axioms."
+  "resolution": "All modal operators remain relative to the supplied root and accessibility. S5 may have disconnected components. Component agreement yields component label identity only with full identity predicates or explicit restricted-domain extensionality; Universal extends that result to all supplied labels. A finite corpus inventory is not the whole fixed modal formula language. A predicate outside the collapse domain cannot be substituted into its no-contingency consequence. StrongBridge and real-world contingency remain open interpreted commitments, never historical Hume or Scott/Gödel axioms.",
+  "term_label": "COMPONENT_COLLAPSE_VERSUS_GLOBAL_IDENTITY",
+  "senses": [
+    {
+      "id": "e370d7b6-3214-4e6c-9f6b-2ab541a1003f",
+      "label": "COMPONENT_COLLAPSE_VERSUS_GLOBAL_IDENTITY_1",
+      "definition_id": "373312c4-9420-52fa-8590-0a77cdf956a4",
+      "lean_declaration": "TruthCore.Modal.S5Research.Universal"
+    },
+    {
+      "id": "f698d17a-b82f-4c5f-af9d-4379576ffe6f",
+      "label": "COMPONENT_COLLAPSE_VERSUS_GLOBAL_IDENTITY_2",
+      "definition_id": "32211feb-7d9e-5822-a9e0-e8a89374d6aa",
+      "lean_declaration": "TruthCore.Modal.S5Research.ComponentUniform"
+    },
+    {
+      "id": "1b50004b-8e92-413c-9116-1b6ffbdba238",
+      "label": "COMPONENT_COLLAPSE_VERSUS_GLOBAL_IDENTITY_3",
+      "definition_id": "6d8a58a6-97f4-57f7-824f-c1c2c5d08d6c",
+      "lean_declaration": "TruthCore.Modal.ResearchFixture.PropositionalExtensionality"
+    },
+    {
+      "id": "f8aa3fa4-4354-4f19-8565-f4f2f33155a6",
+      "label": "COMPONENT_COLLAPSE_VERSUS_GLOBAL_IDENTITY_4",
+      "definition_id": "9a3cef72-b144-5f91-9390-312bd4d96c94",
+      "lean_declaration": "TruthCore.Modal.S5Research.ScenarioBridge"
+    },
+    {
+      "id": "02aa1c13-c8bf-47ef-8f65-6d9513daa3d8",
+      "label": "COMPONENT_COLLAPSE_VERSUS_GLOBAL_IDENTITY_5",
+      "definition_id": "2e6ae9f0-23ac-5357-9b57-d084c4a27380",
+      "lean_declaration": "TruthCore.Modal.S5Research.atomOnly"
+    }
+  ]
 }

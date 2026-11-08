@@ -8,5 +8,25 @@
     "cc57aee5-58b7-531d-bcd6-60105efe5c79",
     "e6d66357-8f22-5a2c-bd96-6ccc68ce0063"
   ],
-  "resolution": "The typed whole-cause premise asserts an actual concrete source outside the supplied whole’s parts with Causes at the selected world. The older external candidate excludes all contingent concreta without asserting causation. Coverage connects these scopes; it does not equate their definitions. The survey’s source term also excludes whole and parts but is not automatically the same modal/concrete/causal interpretation. The theorem’s singleton restriction changes only an auxiliary concrete predicate, not the original witness, existence, causal relation or frame; the final witness satisfies the original concrete predicate."
+  "resolution": "The typed whole-cause premise asserts an actual concrete source outside the supplied whole’s parts with Causes at the selected world. The older external candidate excludes all contingent concreta without asserting causation. Coverage connects these scopes; it does not equate their definitions. The survey’s source term also excludes whole and parts but is not automatically the same modal/concrete/causal interpretation. The theorem’s singleton restriction changes only an auxiliary concrete predicate, not the original witness, existence, causal relation or frame; the final witness satisfies the original concrete predicate.",
+  "term_label": "EXTERNAL_WHOLE_CAUSE_VERSUS_OUTSIDE_CONTINGENTS",
+  "senses": [
+    {
+      "id": "bc6d9978-c430-4390-b37f-84946c6f3589",
+      "label": "EXTERNAL_WHOLE_CAUSE_VERSUS_OUTSIDE_CONTINGENTS_1",
+      "definition_id": "620840ba-d818-53f4-8309-0f0237ddfaee",
+      "lean_declaration": "TruthCore.Causality.ContingentTotalityCause.ExternalWholeCause"
+    },
+    {
+      "id": "07445be5-a20f-4c15-bc9e-acdfa4cc7ae5",
+      "label": "EXTERNAL_WHOLE_CAUSE_VERSUS_OUTSIDE_CONTINGENTS_2",
+      "definition_id": "cc57aee5-58b7-531d-bcd6-60105efe5c79",
+      "lean_declaration": "TruthCore.Causality.PossibleCauseOfContingency.ExternalCandidateAt"
+    },
+    {
+      "id": "c965da23-32fe-49e2-b53e-0a168dff6dfa",
+      "label": "EXTERNAL_WHOLE_CAUSE_VERSUS_OUTSIDE_CONTINGENTS_3",
+      "definition_id": "e6d66357-8f22-5a2c-bd96-6ccc68ce0063"
+    }
+  ]
 }

@@ -1,7 +1,5 @@
 {
   "id": "aa026502-1ae3-5293-8465-a6703e4a4c37",
-  "label": "MUTABLE_2: a life boundary requires potency, through another's power and a sense bridge",
-  "legacy_id": "LIFE-BOUNDARY-POTENCY-THROUGH-ANOTHER",
   "premise_statement_ids": [
     "473f3a7f-0730-5bdc-a7e2-772c8372ffd7",
     "138a151b-285a-5181-829b-5464968164ac"
@@ -19,7 +17,17 @@
   "disambiguation_ids": [
     "557d8e44-4350-5031-81e3-ff6be5e30acc"
   ],
+  "label": "MUTABLE_2: a life boundary requires potency, through another's power and a sense bridge",
   "strong_version_needed": {
     "473f3a7f-0730-5bdc-a7e2-772c8372ffd7": "This is the MUTABLE_2 branch of the fork and keeps its own boundary reading by design; the weaker MUTABLE_3 reading also suffices with the same bridge (LIFE-BOUNDARY-POTENCY-FROM-SOME-MUTABILITY)."
-  }
+  },
+  "sense_bridges": [
+    {
+      "term": "IN_POTENCY_MUTABLE",
+      "from": "105b1f4a-6d9c-4e4e-8c30-2c109c2f755f",
+      "to": "2ba29183-e9d7-4b34-9815-6e8e24c16692",
+      "statement_id": "138a151b-285a-5181-829b-5464968164ac"
+    }
+  ],
+  "legacy_id": "LIFE-BOUNDARY-POTENCY-THROUGH-ANOTHER"
 }

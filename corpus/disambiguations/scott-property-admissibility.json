@@ -7,5 +7,20 @@
     "a2abc3ab-df27-5cc2-b043-274d7e83a2ef",
     "9c889aee-c88e-59ee-bd2e-ba0f7adde9da"
   ],
-  "resolution": "`WorldInvariantProperty` admits every property with a fixed extension for each individual across worlds. `BooleanGeneratedProperty atom` admits exactly the Boolean readouts of a selected primitive atom and may include properties that vary between worlds while excluding many invariant or naming properties. The latter is not a set-theoretic superset of the former, and an unconstrained atom can encode individual or world names. Both restrict the candidate essence and comparison-property quantifiers of the stipulated `FilteredNecessaryExistence`; neither is Scott's original unrestricted AFP property quantification or a metaphysically established property domain."
+  "resolution": "`WorldInvariantProperty` admits every property with a fixed extension for each individual across worlds. `BooleanGeneratedProperty atom` admits exactly the Boolean readouts of a selected primitive atom and may include properties that vary between worlds while excluding many invariant or naming properties. The latter is not a set-theoretic superset of the former, and an unconstrained atom can encode individual or world names. Both restrict the candidate essence and comparison-property quantifiers of the stipulated `FilteredNecessaryExistence`; neither is Scott's original unrestricted AFP property quantification or a metaphysically established property domain.",
+  "term_label": "ADMISSIBLE_ESSENCE_PROPERTY",
+  "senses": [
+    {
+      "id": "8b6264fb-e673-4fd9-ba4a-f3986cf9bad4",
+      "label": "ADMISSIBLE_ESSENCE_PROPERTY_1",
+      "definition_id": "a2abc3ab-df27-5cc2-b043-274d7e83a2ef",
+      "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.BooleanGeneratedProperty"
+    },
+    {
+      "id": "4f67f24a-33f1-4ae2-ac7c-586cb2af62de",
+      "label": "ADMISSIBLE_ESSENCE_PROPERTY_2",
+      "definition_id": "9c889aee-c88e-59ee-bd2e-ba0f7adde9da",
+      "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.WorldInvariantProperty"
+    }
+  ]
 }

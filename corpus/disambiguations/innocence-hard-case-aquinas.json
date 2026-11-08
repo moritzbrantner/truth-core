@@ -7,5 +7,19 @@
     "ba3afb6d-f373-5bb7-b368-b6a6707c727b",
     "111420d8-cc79-5fde-9555-7305b010c929"
   ],
-  "resolution": "Aquinas contrasts innocent and righteous people with sinners in his common-good argument, without defining a general test for innocence. The formal hard case stipulates innocence and nonthreat separately for one victim. These senses are compared without an identity or implication; applying the historical argument to this precise case requires an additional interpretive and factual bridge."
+  "resolution": "Aquinas contrasts innocent and righteous people with sinners in his common-good argument, without defining a general test for innocence. The formal hard case stipulates innocence and nonthreat separately for one victim. These senses are compared without an identity or implication; applying the historical argument to this precise case requires an additional interpretive and factual bridge.",
+  "term_label": "INNOCENCE_IN_THE_HARD_CASE",
+  "senses": [
+    {
+      "id": "cffbc129-52cc-472d-8275-103e70cf6497",
+      "label": "INNOCENCE_IN_THE_HARD_CASE_1",
+      "definition_id": "ba3afb6d-f373-5bb7-b368-b6a6707c727b"
+    },
+    {
+      "id": "1182b9ee-137e-4d53-8a97-ed4f4eb2f77a",
+      "label": "INNOCENCE_IN_THE_HARD_CASE_2",
+      "definition_id": "111420d8-cc79-5fde-9555-7305b010c929",
+      "lean_declaration": "TruthCore.Ethics.HardCaseTyped.Facts.innocent"
+    }
+  ]
 }

@@ -10,5 +10,38 @@
     "afeeb7ff-92c0-578f-8a0d-ac38dc245672",
     "800637b5-8f4b-54ea-865d-c4fd444d1632"
   ],
-  "resolution": "A complete cause in the conditional sense is one coherent exercised jointly sufficient record; it says nothing about the conditions' own accounts. Closed asks for an accounted set around one event and permits cycles and descent. FullSupply asks for a well-founded derivation from stops. ReasonClosed (#750) also closes under every admitted reason and refuses copies, so it gives Closed and the cycle model separates them. The contingent-fact PSR quantifies over every contingent event and is shown equivalent to closure at all of them under stops at scenario necessity, coherence and memberful records. The certificate never passes from one of these to another except through the stated clause, and asserts none of them of reality. Every use of 'closed' in this certificate is relative to a named stop predicate."
+  "resolution": "A complete cause in the conditional sense is one coherent exercised jointly sufficient record; it says nothing about the conditions' own accounts. Closed asks for an accounted set around one event and permits cycles and descent. FullSupply asks for a well-founded derivation from stops. ReasonClosed (#750) also closes under every admitted reason and refuses copies, so it gives Closed and the cycle model separates them. The contingent-fact PSR quantifies over every contingent event and is shown equivalent to closure at all of them under stops at scenario necessity, coherence and memberful records. The certificate never passes from one of these to another except through the stated clause, and asserts none of them of reality. Every use of 'closed' in this certificate is relative to a named stop predicate.",
+  "term_label": "CLOSURE",
+  "senses": [
+    {
+      "id": "4c55c776-978b-4286-9cc7-70902d723aa1",
+      "label": "CLOSURE_1",
+      "definition_id": "23c2e2a9-25c4-50ec-9386-ec2132601f44",
+      "lean_declaration": "TruthCore.Explanation.ExplanatoryClosure.Closed"
+    },
+    {
+      "id": "3b0cb064-0bec-4d2b-969c-e4b737a646f4",
+      "label": "CLOSURE_2",
+      "definition_id": "aa8a8cd7-3ad0-5ddc-b8ff-6433bfcaa9c6",
+      "lean_declaration": "TruthCore.Explanation.ExplanatoryClosure.FullSupply"
+    },
+    {
+      "id": "9ceaa566-bc86-4cf7-956f-3d7d2e979f30",
+      "label": "CLOSURE_3",
+      "definition_id": "fc7264ad-1e74-5419-91be-6ac7ec796b07",
+      "lean_declaration": "TruthCore.Explanation.ExplanatoryAdequacy.ReasonClosed"
+    },
+    {
+      "id": "21f53c4d-9026-4201-a29f-c88a54ebe50f",
+      "label": "CLOSURE_4",
+      "definition_id": "afeeb7ff-92c0-578f-8a0d-ac38dc245672",
+      "lean_declaration": "TruthCore.Explanation.ExistencePSR.ContingentPSR"
+    },
+    {
+      "id": "067cd129-e1d1-4c8c-bd4c-aaef9aa6038f",
+      "label": "CLOSURE_5",
+      "definition_id": "800637b5-8f4b-54ea-865d-c4fd444d1632",
+      "lean_declaration": "TruthCore.Causality.JointGroups.Exercise.suffices"
+    }
+  ]
 }

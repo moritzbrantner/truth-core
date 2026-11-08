@@ -1,7 +1,5 @@
 {
   "id": "b7e2768a-ae2c-56f9-8089-acca1e1b44d0",
-  "label": "GOD_1 to root: the GOD_1-to-GOD_4 bridge gives the naming premise (transcription)",
-  "legacy_id": "GOD-NAMES-DESCRIBED-FROM-NOMINAL",
   "premise_statement_ids": [
     "96eef8e2-1b96-5fac-9c00-333126427287"
   ],
@@ -21,5 +19,15 @@
   "disambiguation_ids": [
     "205a39c3-915d-5fe4-8076-a9ff91329e08",
     "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
-  ]
+  ],
+  "label": "GOD_1 to root: the GOD_1-to-GOD_4 bridge gives the naming premise (transcription)",
+  "sense_bridges": [
+    {
+      "term": "GOD",
+      "from": "295c9096-50b8-4ccd-960e-f833730a0774",
+      "to": "52c2ebac-0a71-4dd4-8a21-804c1dd0847a",
+      "statement_id": "96eef8e2-1b96-5fac-9c00-333126427287"
+    }
+  ],
+  "legacy_id": "GOD-NAMES-DESCRIBED-FROM-NOMINAL"
 }

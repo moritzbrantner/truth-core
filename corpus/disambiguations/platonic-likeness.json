@@ -7,5 +7,20 @@
     "2887f878-d786-5205-9d73-8142cd156ec3",
     "cd195b17-e7f9-5199-9e4a-b7645007806e"
   ],
-  "resolution": "Generic resemblance Like is not directed imitation Imitates. Republic 598a–b concerns a painter copying appearances of artifacts; it does not establish symmetry between Form and copy. Issue #258 must state any needed likeness bridges independently."
+  "resolution": "Generic resemblance Like is not directed imitation Imitates. Republic 598a–b concerns a painter copying appearances of artifacts; it does not establish symmetry between Form and copy. Issue #258 must state any needed likeness bridges independently.",
+  "term_label": "LIKENESS",
+  "senses": [
+    {
+      "id": "cdc260b5-d12c-43ae-846e-a8ee9f08cf30",
+      "label": "LIKENESS_1",
+      "definition_id": "2887f878-d786-5205-9d73-8142cd156ec3",
+      "lean_declaration": "TruthCore.Greek.Plato.Forms.Vocabulary"
+    },
+    {
+      "id": "968b42bb-95f4-4818-999b-a691daeaefac",
+      "label": "LIKENESS_2",
+      "definition_id": "cd195b17-e7f9-5199-9e4a-b7645007806e",
+      "lean_declaration": "TruthCore.Greek.Plato.Forms.Vocabulary"
+    }
+  ]
 }

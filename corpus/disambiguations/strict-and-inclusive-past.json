@@ -8,5 +8,24 @@
     "b0a7367e-61e6-5a4a-a03e-c125756affa6",
     "de94687a-6789-5599-b38d-14bef31148fd"
   ],
-  "resolution": "Strict accessibility s<t on times through now requires an earlier time for seriality; with the supplied Preorder this is exactly existing PastIsInfinite(<)now. Inclusive accessibility s\u2264t permits self-witnesses and is serial even at an earliest time. Therefore D validity on strict past encodes no first past moment instead of proving it, whereas inclusive T/D do not imply beginninglessness. PastIsFinite means an earlier-free time through now, not finite duration or finite event cardinality. These frames interpret abstract indices as times; Ontic worlds/complete histories and time points remain distinct, and no causal arrows cross alternative worlds."
+  "resolution": "Strict accessibility s<t on times through now requires an earlier time for seriality; with the supplied Preorder this is exactly existing PastIsInfinite(<)now. Inclusive accessibility s\u2264t permits self-witnesses and is serial even at an earliest time. Therefore D validity on strict past encodes no first past moment instead of proving it, whereas inclusive T/D do not imply beginninglessness. PastIsFinite means an earlier-free time through now, not finite duration or finite event cardinality. These frames interpret abstract indices as times; Ontic worlds/complete histories and time points remain distinct, and no causal arrows cross alternative worlds.",
+  "term_label": "STRICT_PAST_INCLUSIVE_PAST_AND_MODAL",
+  "senses": [
+    {
+      "id": "9cbbbb1f-b256-4d35-9fc6-ee7ce7e0b61a",
+      "label": "STRICT_PAST_INCLUSIVE_PAST_AND_MODAL_1",
+      "definition_id": "d6904bf6-4b52-5927-8995-f29adc094e8c"
+    },
+    {
+      "id": "fea32e32-41cf-462c-9f3d-e4dc68aee5b5",
+      "label": "STRICT_PAST_INCLUSIVE_PAST_AND_MODAL_2",
+      "definition_id": "b0a7367e-61e6-5a4a-a03e-c125756affa6"
+    },
+    {
+      "id": "b62281f1-a257-4c8d-bdac-1837fbc308c8",
+      "label": "STRICT_PAST_INCLUSIVE_PAST_AND_MODAL_3",
+      "definition_id": "de94687a-6789-5599-b38d-14bef31148fd",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaContraGentiles.ComesToBeAnew"
+    }
+  ]
 }

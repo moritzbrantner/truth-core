@@ -1,7 +1,5 @@
 {
   "id": "158efe69-7391-5227-9f0b-6523d0360375",
-  "label": "MUTABLE_3: a life boundary requires potency, from mutability in some way and a sense bridge",
-  "legacy_id": "LIFE-BOUNDARY-POTENCY-FROM-SOME-MUTABILITY",
   "premise_statement_ids": [
     "fa2619ca-90b6-565a-99ea-5d11a89ef4be",
     "138a151b-285a-5181-829b-5464968164ac"
@@ -19,5 +17,21 @@
   ],
   "disambiguation_ids": [
     "557d8e44-4350-5031-81e3-ff6be5e30acc"
-  ]
+  ],
+  "label": "MUTABLE_3: a life boundary requires potency, from mutability in some way and a sense bridge",
+  "sense_bridges": [
+    {
+      "term": "IN_POTENCY_MUTABLE",
+      "from": "105b1f4a-6d9c-4e4e-8c30-2c109c2f755f",
+      "to": "2ba29183-e9d7-4b34-9815-6e8e24c16692",
+      "statement_id": "138a151b-285a-5181-829b-5464968164ac"
+    },
+    {
+      "term": "IN_POTENCY_MUTABLE",
+      "from": "194c40c8-c176-43d9-9488-9021f7cb2351",
+      "to": "2ba29183-e9d7-4b34-9815-6e8e24c16692",
+      "statement_id": "138a151b-285a-5181-829b-5464968164ac"
+    }
+  ],
+  "legacy_id": "LIFE-BOUNDARY-POTENCY-FROM-SOME-MUTABILITY"
 }

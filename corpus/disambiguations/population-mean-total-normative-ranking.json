@@ -8,5 +8,26 @@
     "c60b059a-7315-58e4-b957-e4116112cf12",
     "9ecfcde0-3084-57ed-ac66-772360640b26"
   ],
-  "resolution": "Mean is a real-valued summary; total is the positive finite count times that mean. A lower positive mean does not imply every individual has positive or uniformly low welfare. The scalar is cardinal and interpersonal by stipulation, not derived from ordinal preference. TotalRanking and AverageRanking are distinct strict policies whose coexistence on the full domain is refuted, not a choice of the true moral policy. Equal counts restore agreement; zero mean removes the low-positive-mean construction. Mathematical existence of arbitrarily large finite profiles is not physical or moral feasibility and is not an infinite-population sum."
+  "resolution": "Mean is a real-valued summary; total is the positive finite count times that mean. A lower positive mean does not imply every individual has positive or uniformly low welfare. The scalar is cardinal and interpersonal by stipulation, not derived from ordinal preference. TotalRanking and AverageRanking are distinct strict policies whose coexistence on the full domain is refuted, not a choice of the true moral policy. Equal counts restore agreement; zero mean removes the low-positive-mean construction. Mathematical existence of arbitrarily large finite profiles is not physical or moral feasibility and is not an infinite-population sum.",
+  "term_label": "AVERAGE_WELFARE_TOTAL_WELFARE_AND_MORALLY",
+  "senses": [
+    {
+      "id": "9986df22-72b8-43a4-8305-0f77af9aaa78",
+      "label": "AVERAGE_WELFARE_TOTAL_WELFARE_AND_MORALLY_1",
+      "definition_id": "fcd359f6-f75f-56fb-8698-d4dcd8e41507",
+      "lean_declaration": "TruthCore.Ethics.PopulationAggregation.Profile"
+    },
+    {
+      "id": "78216428-d4a5-45ef-9048-64c2994a2037",
+      "label": "AVERAGE_WELFARE_TOTAL_WELFARE_AND_MORALLY_2",
+      "definition_id": "c60b059a-7315-58e4-b957-e4116112cf12",
+      "lean_declaration": "TruthCore.Ethics.PopulationAggregation.TotalRanking"
+    },
+    {
+      "id": "b2551c60-f07e-4938-a928-0d26ba5e371a",
+      "label": "AVERAGE_WELFARE_TOTAL_WELFARE_AND_MORALLY_3",
+      "definition_id": "9ecfcde0-3084-57ed-ac66-772360640b26",
+      "lean_declaration": "TruthCore.Ethics.PopulationAggregation.AverageRanking"
+    }
+  ]
 }

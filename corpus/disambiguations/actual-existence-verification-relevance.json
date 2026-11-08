@@ -1,12 +1,27 @@
 {
   "id": "3c4696d1-f697-5fa3-9fff-35d151f9227a",
-  "label": "Verification independence versus existential relevance",
-  "legacy_id": "DISAMB-ACTUAL-EXISTENCE-VERIFICATION-RELEVANCE",
   "term": "verification independence versus existential relevance",
   "note": "These are analyst-stipulated criteria. Neither independent verification nor a response flag establishes ultimate existential relevance. Historical attribution is DEFERRED by owner; prior tentative reading findings remain in docs/notes/explanatory-adequacy-750.md.",
   "resolution": "Logical verification independence concerns a class of basic sentences entailing the antecedent condition without entailing the target over unrestricted logical valuations. Modal coextension concerns truth throughout accessible worlds, which may already obey a law. It does not settle logical independence. Intervention relevance concerns responses under admissible settings; response data and causal admissibility are extra inputs. Actual concrete existence in the finite model is explicit Ontic/Profile framework data, not empirical identification or production of a worldly existent.",
   "sense_definition_ids": [
     "d0e01ccd-6c7e-5955-af53-1991ae902b18",
     "d0105d0e-8e28-5165-8235-ff91bf25c418"
-  ]
+  ],
+  "term_label": "VERIFICATION_INDEPENDENCE_VERSUS_EXISTENTIAL_RELEVANCE",
+  "senses": [
+    {
+      "id": "c6e58ecd-1f9c-4951-ac86-85fd53cf7f4b",
+      "label": "VERIFICATION_INDEPENDENCE_VERSUS_EXISTENTIAL_RELEVANCE_1",
+      "definition_id": "d0e01ccd-6c7e-5955-af53-1991ae902b18",
+      "lean_declaration": "TruthCore.Explanation.ActualExistenceAdequacy.VerificationIndependent"
+    },
+    {
+      "id": "b53a7f10-1c18-415b-a5b6-0b0ff1671881",
+      "label": "VERIFICATION_INDEPENDENCE_VERSUS_EXISTENTIAL_RELEVANCE_2",
+      "definition_id": "d0105d0e-8e28-5165-8235-ff91bf25c418",
+      "lean_declaration": "TruthCore.Modern.Hume.Regularity.Changes"
+    }
+  ],
+  "label": "Verification independence versus existential relevance",
+  "legacy_id": "DISAMB-ACTUAL-EXISTENCE-VERIFICATION-RELEVANCE"
 }

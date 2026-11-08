@@ -8,5 +8,26 @@
     "6618da47-faca-59e2-be67-8ec920a2d51b",
     "10d78687-87cb-5601-8fe0-07a73863ecfd"
   ],
-  "resolution": "m.Causes u x y is the supplied causal edge at u; PossibleCauseAt at v existentially selects an accessible u and does not imply an edge or ExercisesCausation at v. WeakCauseDegreeBound compares currently existent relata at v, not their grades at u. The theorem uses only the explicit single-rigid-individual, other-directed, pointwise profile OtherDirectedPotentialCause. Source6 instead permits a being OR plurality and says all existing things; plural-to-singular selection, excluding the selected cause as a target, and replacing a joint possible causal role by individually witnessed possibilities are not presented as equivalent to that sentence. Collective possibility may imply pointwise consequences under an additional specified reading, but the converse and a common witness world are not inferred. Plural, collective and literal-all/self alternatives remain unformalized in the existing candidate. No contradiction manufactured from self-causation is attributed to the author, and no actual exercise, efficient-cause or CausesIn identification is silently imported."
+  "resolution": "m.Causes u x y is the supplied causal edge at u; PossibleCauseAt at v existentially selects an accessible u and does not imply an edge or ExercisesCausation at v. WeakCauseDegreeBound compares currently existent relata at v, not their grades at u. The theorem uses only the explicit single-rigid-individual, other-directed, pointwise profile OtherDirectedPotentialCause. Source6 instead permits a being OR plurality and says all existing things; plural-to-singular selection, excluding the selected cause as a target, and replacing a joint possible causal role by individually witnessed possibilities are not presented as equivalent to that sentence. Collective possibility may imply pointwise consequences under an additional specified reading, but the converse and a common witness world are not inferred. Plural, collective and literal-all/self alternatives remain unformalized in the existing candidate. No contradiction manufactured from self-causation is attributed to the author, and no actual exercise, efficient-cause or CausesIn identification is silently imported.",
+  "term_label": "POSSIBLE_UNIVERSAL_CAUSATION_ACTUAL_EXERCISE",
+  "senses": [
+    {
+      "id": "82bd4c59-d9ea-4b3a-9d44-d7e65e4b1179",
+      "label": "POSSIBLE_UNIVERSAL_CAUSATION_ACTUAL_EXERCISE_1",
+      "definition_id": "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+      "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.Ontic"
+    },
+    {
+      "id": "80fdb7f5-4e82-4805-badb-fb0359348087",
+      "label": "POSSIBLE_UNIVERSAL_CAUSATION_ACTUAL_EXERCISE_2",
+      "definition_id": "6618da47-faca-59e2-be67-8ec920a2d51b",
+      "lean_declaration": "TruthCore.Modal.ExistenceDegrees.PossibleCauseAt"
+    },
+    {
+      "id": "78d47bf4-5f72-40d1-81a7-575617249f58",
+      "label": "POSSIBLE_UNIVERSAL_CAUSATION_ACTUAL_EXERCISE_3",
+      "definition_id": "10d78687-87cb-5601-8fe0-07a73863ecfd",
+      "lean_declaration": "TruthCore.Modal.ExistenceDegrees.OtherDirectedPotentialCause"
+    }
+  ]
 }

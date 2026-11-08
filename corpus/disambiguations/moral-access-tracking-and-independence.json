@@ -10,5 +10,33 @@
     "4bec6a3a-8ce8-51cd-8657-265ae830eab1",
     "955ec477-ac8b-595c-9fa8-63113604a23a"
   ],
-  "resolution": "Causal tracking is one proposed explanation of reliability, not a synonym for every truth–belief correlation. Enoch’s third factor uses causal influence on belief and a noncausal normative link; whether it adequately explains reliability is open. Street’s stance-independence and the project’s appraiser-independence are distinct: her classification of Railton’s individual welfare does not silently revise our objective-interest statement or transfer to impartial moral rightness. Knowledge, truth-aptness, an explanatory correlation, adaptive behavioral success and direct justification are not interchanged. Catholic q94 gives a teleological practical-reason account and fallibility, not in this range a proof of evolution-proof access or an explicit divine design guarantee."
+  "resolution": "Causal tracking is one proposed explanation of reliability, not a synonym for every truth–belief correlation. Enoch’s third factor uses causal influence on belief and a noncausal normative link; whether it adequately explains reliability is open. Street’s stance-independence and the project’s appraiser-independence are distinct: her classification of Railton’s individual welfare does not silently revise our objective-interest statement or transfer to impartial moral rightness. Knowledge, truth-aptness, an explanatory correlation, adaptive behavioral success and direct justification are not interchanged. Catholic q94 gives a teleological practical-reason account and fallibility, not in this range a proof of evolution-proof access or an explicit divine design guarantee.",
+  "term_label": "TRACKING_REALISM_AND_MORAL_ACCESS",
+  "senses": [
+    {
+      "id": "bff247e1-2a0f-47cb-ac04-1f40afbb6d6c",
+      "label": "TRACKING_REALISM_AND_MORAL_ACCESS_1",
+      "definition_id": "28cc1233-60e8-59b4-a906-99c8835aa551"
+    },
+    {
+      "id": "ccbeb733-9d7c-4ef1-a397-27f6a8007a93",
+      "label": "TRACKING_REALISM_AND_MORAL_ACCESS_2",
+      "definition_id": "e1aab5d4-0115-53d3-ab0c-2a3ead63e6d3"
+    },
+    {
+      "id": "4d4d9f8b-8718-490d-af2a-fa7c65123378",
+      "label": "TRACKING_REALISM_AND_MORAL_ACCESS_3",
+      "definition_id": "daa6a2fe-5251-56b4-b808-cc21ce759a03"
+    },
+    {
+      "id": "9a213316-85ff-4bf1-ba5b-7d41d93bb309",
+      "label": "TRACKING_REALISM_AND_MORAL_ACCESS_4",
+      "definition_id": "4bec6a3a-8ce8-51cd-8657-265ae830eab1"
+    },
+    {
+      "id": "85569b0f-a232-4165-bd79-c129febe3db5",
+      "label": "TRACKING_REALISM_AND_MORAL_ACCESS_5",
+      "definition_id": "955ec477-ac8b-595c-9fa8-63113604a23a"
+    }
+  ]
 }

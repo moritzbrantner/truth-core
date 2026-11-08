@@ -1,7 +1,5 @@
 {
   "id": "8a29551f-afa7-5336-a699-fa534a0d0143",
-  "label": "GOD fork summary: the fully described principle has the classical attributes",
-  "legacy_id": "GOD-SENSE-FORK-DESCRIBED-PRINCIPLE-ATTRIBUTES",
   "premise_statement_ids": [
     "2541318c-0e5a-5e1a-a732-a9ec1768690e",
     "8514b173-d4a8-5a74-be34-f59dcc992d72",
@@ -27,5 +25,27 @@
   "disambiguation_ids": [
     "205a39c3-915d-5fe4-8076-a9ff91329e08",
     "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
-  ]
+  ],
+  "label": "GOD fork summary: the fully described principle has the classical attributes",
+  "sense_bridges": [
+    {
+      "term": "GOD",
+      "from": "295c9096-50b8-4ccd-960e-f833730a0774",
+      "to": "b11d7317-49bb-4c03-b1aa-fefada6943ff",
+      "statement_id": "2541318c-0e5a-5e1a-a732-a9ec1768690e"
+    },
+    {
+      "term": "GOD",
+      "from": "295c9096-50b8-4ccd-960e-f833730a0774",
+      "to": "b7754ffd-e139-42d1-bf84-77579fa650cf",
+      "statement_id": "2541318c-0e5a-5e1a-a732-a9ec1768690e"
+    },
+    {
+      "term": "GOD",
+      "from": "295c9096-50b8-4ccd-960e-f833730a0774",
+      "to": "52c2ebac-0a71-4dd4-8a21-804c1dd0847a",
+      "statement_id": "2541318c-0e5a-5e1a-a732-a9ec1768690e"
+    }
+  ],
+  "legacy_id": "GOD-SENSE-FORK-DESCRIBED-PRINCIPLE-ATTRIBUTES"
 }

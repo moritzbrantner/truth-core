@@ -7,5 +7,18 @@
     "d119699c-0794-519d-bfa5-8b2681886e5f",
     "97de11fe-72e4-5a9d-bb75-828c6d5ee079"
   ],
-  "resolution": "Two senses. Internal (DEF-MIND-INDEPENDENCE-INTERNAL): the counterfactual asserted as a moral claim, its legitimacy judged by one's attitudes. Objectivity (DEF-MORAL-OBJECTIVITY): the metaphysical thesis that moral facts exist and are mind-independent. STMT-QUASI-REALISM-SEEKS-MIND-INDEPENDENCE-TALK uses the internal sense: quasi-realism aims to assert the sentence. STMT-ROBUST-REALISM-MORAL-FACTS-MIND-INDEPENDENT uses the objectivity sense. So the deviation map records two answers, not one: on the sentence, quasi-realism matches realism only if its program succeeds, which no witness asserts; on objectivity it does not affirm realism's answer, provided quasi-realism is read, as the entry presents it, as a noncognitivist program (Blackburn's own label is projectivism), since a noncognitivist is neither objectivist nor non-objectivist (STMT-NONCOGNITIVISM-NEITHER-OBJECTIVIST-NOR-NON-OBJECTIVIST). No step passes from asserting the sentence to objectivism, or from denying objectivism to rejecting the sentence. That realism's objectivism yields the counterfactual is not formalized: it depends on which mind-independence relation is meant (Moral Anti-Realism §3.3)."
+  "resolution": "Two senses. Internal (DEF-MIND-INDEPENDENCE-INTERNAL): the counterfactual asserted as a moral claim, its legitimacy judged by one's attitudes. Objectivity (DEF-MORAL-OBJECTIVITY): the metaphysical thesis that moral facts exist and are mind-independent. STMT-QUASI-REALISM-SEEKS-MIND-INDEPENDENCE-TALK uses the internal sense: quasi-realism aims to assert the sentence. STMT-ROBUST-REALISM-MORAL-FACTS-MIND-INDEPENDENT uses the objectivity sense. So the deviation map records two answers, not one: on the sentence, quasi-realism matches realism only if its program succeeds, which no witness asserts; on objectivity it does not affirm realism's answer, provided quasi-realism is read, as the entry presents it, as a noncognitivist program (Blackburn's own label is projectivism), since a noncognitivist is neither objectivist nor non-objectivist (STMT-NONCOGNITIVISM-NEITHER-OBJECTIVIST-NOR-NON-OBJECTIVIST). No step passes from asserting the sentence to objectivism, or from denying objectivism to rejecting the sentence. That realism's objectivism yields the counterfactual is not formalized: it depends on which mind-independence relation is meant (Moral Anti-Realism §3.3).",
+  "term_label": "MIND_INDEPENDENT",
+  "senses": [
+    {
+      "id": "f9c948f2-b3a7-446f-b695-b2f611669977",
+      "label": "MIND_INDEPENDENT_1",
+      "definition_id": "d119699c-0794-519d-bfa5-8b2681886e5f"
+    },
+    {
+      "id": "0e19a423-f41a-4ba8-a870-8ae98f074a49",
+      "label": "MIND_INDEPENDENT_2",
+      "definition_id": "97de11fe-72e4-5a9d-bb75-828c6d5ee079"
+    }
+  ]
 }

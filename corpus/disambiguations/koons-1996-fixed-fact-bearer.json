@@ -7,5 +7,18 @@
     "8d5ff44f-e39b-5615-b61b-368e35be45c2",
     "a3b179ce-b769-55bc-bda1-a2cb8626f36f"
   ],
-  "resolution": "§3 fixed possible-fact domain/Barcan laws do not alone assert a fixed ordinary-being constituent set. §7Cor1 separately presumes being/property involvement and assumes actual involvement implies existence; the same-bearer all-world reading needed by Hence remains an interpretation/application obligation. Existing account K nonemptiness/all-world realization is an analyst interface, not a source alias or theorem from domain fixedness. Ordinary existence transfers only with real membership/realization for the same fact and candidate. Necessary fact, being-or-system and ordinary cause/God signatures remain distinct."
+  "resolution": "§3 fixed possible-fact domain/Barcan laws do not alone assert a fixed ordinary-being constituent set. §7Cor1 separately presumes being/property involvement and assumes actual involvement implies existence; the same-bearer all-world reading needed by Hence remains an interpretation/application obligation. Existing account K nonemptiness/all-world realization is an analyst interface, not a source alias or theorem from domain fixedness. Ordinary existence transfers only with real membership/realization for the same fact and candidate. Necessary fact, being-or-system and ordinary cause/God signatures remain distinct.",
+  "term_label": "FIXED_POSSIBLE_FACTS_VERSUS_FIXED_CONSTITUENT",
+  "senses": [
+    {
+      "id": "ba62f86a-a235-410f-978f-a42e5bbe867c",
+      "label": "FIXED_POSSIBLE_FACTS_VERSUS_FIXED_CONSTITUENT_1",
+      "definition_id": "8d5ff44f-e39b-5615-b61b-368e35be45c2"
+    },
+    {
+      "id": "126428c3-24cf-4ece-b433-e13f55cb2a14",
+      "label": "FIXED_POSSIBLE_FACTS_VERSUS_FIXED_CONSTITUENT_2",
+      "definition_id": "a3b179ce-b769-55bc-bda1-a2cb8626f36f"
+    }
+  ]
 }

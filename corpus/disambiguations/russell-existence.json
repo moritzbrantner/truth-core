@@ -8,5 +8,26 @@
     "9df718d1-8bfb-519b-b9f5-f58f6d2c256f",
     "9347232c-7f95-5f24-85de-94d3d49f5027"
   ],
-  "resolution": "V’s nonempty function, VI’s unique description and the modern ActualAt predicate have different types and truth conditions. The alternative individual predicate does not refute Russell inside his strict semantic restriction; quantifier truth is never silently read as a ground."
+  "resolution": "V’s nonempty function, VI’s unique description and the modern ActualAt predicate have different types and truth conditions. The alternative individual predicate does not refute Russell inside his strict semantic restriction; quantifier truth is never silently read as a ground.",
+  "term_label": "EXISTENCE",
+  "senses": [
+    {
+      "id": "d6ab1820-e5dd-4b15-9ed4-1c79766c63a6",
+      "label": "EXISTENCE_1",
+      "definition_id": "5873c837-35ba-5ca2-91a8-07808c67e461",
+      "lean_declaration": "TruthCore.Modern.Russell.Existence.ExistsPred"
+    },
+    {
+      "id": "aeb3d4f5-6d72-4e2f-a5f3-d2a1bd688a55",
+      "label": "EXISTENCE_2",
+      "definition_id": "9df718d1-8bfb-519b-b9f5-f58f6d2c256f",
+      "lean_declaration": "TruthCore.Modern.Russell.Existence.DescriptionExists"
+    },
+    {
+      "id": "365c52b4-157a-473c-bcb9-511d6468feaf",
+      "label": "EXISTENCE_3",
+      "definition_id": "9347232c-7f95-5f24-85de-94d3d49f5027",
+      "lean_declaration": "TruthCore.Modern.Russell.Existence.ActualAt"
+    }
+  ]
 }

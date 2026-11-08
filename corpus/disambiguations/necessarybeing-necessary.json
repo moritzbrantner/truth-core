@@ -1,11 +1,25 @@
 {
   "id": "6feac787-378d-5c78-b49c-2414847d33cb",
-  "label": "Necessary being",
-  "legacy_id": "DISAMB-NB-SURVEY-NECESSARY",
   "term": "necessary being",
   "sense_definition_ids": [
     "d77ab971-b9cb-5b31-85f7-7bf7f39fb237",
     "7fde5dc0-6ca7-5ce6-a2e1-571acfd15dcf"
   ],
-  "resolution": "The site's two-part necessary-being stipulation includes possible causal capability and temporal nonexistence exclusion; the tertia via's DEF-NECESSARY-BEING concerns a being that cannot not-be and may itself receive its necessity from another. Their overlap must be argued, not presumed. In addition the site's N → □N axiom is existential/de dicto and is not a theorem about one fixed witness simply by stipulation."
+  "resolution": "The site's two-part necessary-being stipulation includes possible causal capability and temporal nonexistence exclusion; the tertia via's DEF-NECESSARY-BEING concerns a being that cannot not-be and may itself receive its necessity from another. Their overlap must be argued, not presumed. In addition the site's N → □N axiom is existential/de dicto and is not a theorem about one fixed witness simply by stipulation.",
+  "term_label": "NECESSARY_BEING",
+  "senses": [
+    {
+      "id": "cf19700b-027f-4180-9bf5-d70f10623a2f",
+      "label": "NECESSARY_BEING_1",
+      "definition_id": "d77ab971-b9cb-5b31-85f7-7bf7f39fb237",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.IsNecessary"
+    },
+    {
+      "id": "4af8490b-24ff-46aa-95c7-490e56e986f0",
+      "label": "NECESSARY_BEING_2",
+      "definition_id": "7fde5dc0-6ca7-5ce6-a2e1-571acfd15dcf"
+    }
+  ],
+  "label": "Necessary being",
+  "legacy_id": "DISAMB-NB-SURVEY-NECESSARY"
 }

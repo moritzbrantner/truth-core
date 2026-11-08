@@ -7,5 +7,20 @@
     "9010544f-188a-5d00-83dc-85d0c0b4052d",
     "153fcebf-66f6-53de-bad7-82a30a359c9c"
   ],
-  "resolution": "Scott's variant (AFP GoedelGod.thy) quantifies over individuals possibilistically: ∃ ranges over the whole type at every world, so 'a God-like being exists' (T3, C2) means only that some individual is God-like there (DEF-QML-KB-NECESSITY). Gödel's 1970 variant (AFP GoedelVariantHOML1.thy) uses the actualist ❙∃⇧E, relative to the existence predicate existsAt (DEF-HOML-ACTUALIST-NECESSITY), in Ax4, NecExist, Th2 and Th3. The Lean statements write the actualist quantifier as ∃ y, ex y v ∧ …, so the two senses are different formulas, and no result passes from one to the other. Property quantifiers are possibilist in both."
+  "resolution": "Scott's variant (AFP GoedelGod.thy) quantifies over individuals possibilistically: ∃ ranges over the whole type at every world, so 'a God-like being exists' (T3, C2) means only that some individual is God-like there (DEF-QML-KB-NECESSITY). Gödel's 1970 variant (AFP GoedelVariantHOML1.thy) uses the actualist ❙∃⇧E, relative to the existence predicate existsAt (DEF-HOML-ACTUALIST-NECESSITY), in Ax4, NecExist, Th2 and Th3. The Lean statements write the actualist quantifier as ∃ y, ex y v ∧ …, so the two senses are different formulas, and no result passes from one to the other. Property quantifiers are possibilist in both.",
+  "term_label": "EXISTS",
+  "senses": [
+    {
+      "id": "9e7d0f8f-3e30-4b1b-9b99-d67058ec2776",
+      "label": "EXISTS_1",
+      "definition_id": "9010544f-188a-5d00-83dc-85d0c0b4052d",
+      "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.Box"
+    },
+    {
+      "id": "53510e13-b268-4079-b2d5-61127fb8ae8c",
+      "label": "EXISTS_2",
+      "definition_id": "153fcebf-66f6-53de-bad7-82a30a359c9c",
+      "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.Box"
+    }
+  ]
 }

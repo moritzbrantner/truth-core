@@ -7,5 +7,20 @@
     "23a26ace-4247-5433-b9f2-5a0e60c00afc",
     "46f9ded9-24d0-50c7-99a2-bed6cfa29986"
   ],
-  "resolution": "The weaker source reading B preserves opposition as a relation between contents. Reading A selects contradictory contents from the following being/not-being conclusion, represented by an expressed-negation operation. Neither recording alone identifies expressed opposition with logical negation. Only the separately open NegationRespected bridge licenses the contradiction test, so the test is not passed off as a proof from unspecified opposition."
+  "resolution": "The weaker source reading B preserves opposition as a relation between contents. Reading A selects contradictory contents from the following being/not-being conclusion, represented by an expressed-negation operation. Neither recording alone identifies expressed opposition with logical negation. Only the separately open NegationRespected bridge licenses the contradiction test, so the test is not passed off as a proof from unspecified opposition.",
+  "term_label": "OPPOSED_OR_CONTRADICTORY_OPINIONS",
+  "senses": [
+    {
+      "id": "cc094783-6e92-4e7f-bd9d-4c6f2ff6fd5d",
+      "label": "OPPOSED_OR_CONTRADICTORY_OPINIONS_1",
+      "definition_id": "23a26ace-4247-5433-b9f2-5a0e60c00afc",
+      "lean_declaration": "TruthCore.Logic.TruthPilot.OpposedOpinions"
+    },
+    {
+      "id": "1deac036-6f6b-48c6-9a6b-4644b596601f",
+      "label": "OPPOSED_OR_CONTRADICTORY_OPINIONS_2",
+      "definition_id": "46f9ded9-24d0-50c7-99a2-bed6cfa29986",
+      "lean_declaration": "TruthCore.Logic.TruthPilot.NegationRespected"
+    }
+  ]
 }

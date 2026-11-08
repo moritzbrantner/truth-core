@@ -1,7 +1,6 @@
 {
   "id": "87f32a9c-1846-5137-990c-b490c8797857",
   "label": "Degree tracking makes a MAXIME_2 being MAXIME_1",
-  "legacy_id": "GREATEST-IN-BEING-MAXIMAL-FROM-DEGREE-TRACKING",
   "premise_statement_ids": [
     "c323e046-067c-5228-a4a8-55df7bdeb397"
   ],
@@ -19,5 +18,21 @@
   ],
   "disambiguation_ids": [
     "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
-  ]
+  ],
+  "sense_bridges": [
+    {
+      "term": "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST",
+      "from": "9bea9a43-3a87-4d62-86de-e5873aea62f8",
+      "to": "517baa9d-7981-4e2a-bdae-045467cb29fc",
+      "statement_id": "c16ec481-ce5b-5a90-b8e4-247a2ebb2155",
+      "role": "conclusion"
+    },
+    {
+      "term": "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST",
+      "from": "230f0729-018b-48e4-a148-3fe610dc2995",
+      "to": "517baa9d-7981-4e2a-bdae-045467cb29fc",
+      "statement_id": "c323e046-067c-5228-a4a8-55df7bdeb397"
+    }
+  ],
+  "legacy_id": "GREATEST-IN-BEING-MAXIMAL-FROM-DEGREE-TRACKING"
 }

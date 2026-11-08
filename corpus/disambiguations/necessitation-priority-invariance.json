@@ -8,5 +8,25 @@
     "5e797e6e-258c-5070-bd69-cb49f78ec98c",
     "fb322793-9175-591d-b5b2-7bc3989c90da"
   ],
-  "resolution": "Full ground facts necessitate target truth; on a necessary target the implication can be trivial. The same grounding/support link holds when its relevant relata obtain; a distinct modal policy. All possible selected necessary-support edges jointly fit a well-founded ordering; not merely local order or truth entailment. No source position is refuted by a bearer-support model without an interpretation bridge. See docs/notes/modal-grounding-priority-950.md."
+  "resolution": "Full ground facts necessitate target truth; on a necessary target the implication can be trivial. The same grounding/support link holds when its relevant relata obtain; a distinct modal policy. All possible selected necessary-support edges jointly fit a well-founded ordering; not merely local order or truth entailment. No source position is refuted by a bearer-support model without an interpretation bridge. See docs/notes/modal-grounding-priority-950.md.",
+  "term_label": "NECESSITATION_RELATION_PERSISTENCE_AND_COMMON_PRIORITY",
+  "senses": [
+    {
+      "id": "7d8c05e8-1638-4476-b0bf-4ac705f71be7",
+      "label": "NECESSITATION_RELATION_PERSISTENCE_AND_COMMON_PRIORITY_1",
+      "definition_id": "c674f0d3-e810-545a-9e09-77f4038d1062",
+      "lean_declaration": "TruthCore.Causality.CommonPriority.CommonRank"
+    },
+    {
+      "id": "464c3a2e-755f-45c0-a744-753e9fef6c30",
+      "label": "NECESSITATION_RELATION_PERSISTENCE_AND_COMMON_PRIORITY_2",
+      "definition_id": "5e797e6e-258c-5070-bd69-cb49f78ec98c",
+      "lean_declaration": "TruthCore.Causality.CommonPriority.TruthNecessitation"
+    },
+    {
+      "id": "6ebc15df-99f0-44ac-b137-ce8687b78548",
+      "label": "NECESSITATION_RELATION_PERSISTENCE_AND_COMMON_PRIORITY_3",
+      "definition_id": "fb322793-9175-591d-b5b2-7bc3989c90da"
+    }
+  ]
 }

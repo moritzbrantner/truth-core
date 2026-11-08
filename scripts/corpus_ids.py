@@ -167,6 +167,9 @@ REFERENCE_FIELDS: dict[str, tuple[tuple[tuple[str, ...], Any], ...]] = {
     "disambiguation": (
         (("sense_definition_ids", "[]"), "definition"),
         (("senses", "[]", "definition_id"), "definition"),
+        (("coverage_statement_id",), "statement"),
+        (("exclusivity_statement_id",), "statement"),
+        (("fork_result_ids", "[]"), "result"),
     ),
     "attempt": (
         (("statement_ids", "[]"), "statement"),

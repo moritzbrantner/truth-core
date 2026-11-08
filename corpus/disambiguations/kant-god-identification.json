@@ -8,5 +8,25 @@
     "b3c45d92-dee0-5a1a-9849-9924d3a1699d",
     "88f9f6e8-997b-5f7d-afa1-c501954c3807"
   ],
-  "resolution": "Aquinas’s quia counterreading uses the name through effects without a known quiddity. Kant’s reported completion seeks ens realissimum; the formal model represents that with positive features. The existing Catholic root uses IsGod with its full nominal and attribute bridges. No one of these meanings is definitionally substituted for another; every identification requires its own defended bridge."
+  "resolution": "Aquinas’s quia counterreading uses the name through effects without a known quiddity. Kant’s reported completion seeks ens realissimum; the formal model represents that with positive features. The existing Catholic root uses IsGod with its full nominal and attribute bridges. No one of these meanings is definitionally substituted for another; every identification requires its own defended bridge.",
+  "term_label": "GOD_IN_THE_COMPARISON",
+  "senses": [
+    {
+      "id": "af0d78c8-e71f-4182-aa8e-13175f44c38a",
+      "label": "GOD_IN_THE_COMPARISON_1",
+      "definition_id": "3cf7066c-e32a-5e30-b59a-2ce842ce52c4"
+    },
+    {
+      "id": "12c445d8-cfbe-4672-b0a0-2b5c20edb05f",
+      "label": "GOD_IN_THE_COMPARISON_2",
+      "definition_id": "b3c45d92-dee0-5a1a-9849-9924d3a1699d",
+      "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.MostReal"
+    },
+    {
+      "id": "90b6dde4-a809-4da2-8f33-1292d6f21234",
+      "label": "GOD_IN_THE_COMPARISON_3",
+      "definition_id": "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+      "lean_declaration": "TruthCore.Case.Catholicism.Signature.IsGod"
+    }
+  ]
 }

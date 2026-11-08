@@ -1,7 +1,5 @@
 {
   "id": "8a399106-9a87-5f67-8b71-0f7f9935560d",
-  "label": "Finite interpretations for the uniting-cause, in-act and becoming/being forks: a model in which…",
-  "legacy_id": "TERM-SENSE-FORKS-2-CONTROLS",
   "premise_statement_ids": [],
   "conclusion_statement_id": "e3d48d91-8515-58fd-a64e-f2c827c9a474",
   "inference_ids": [
@@ -19,5 +17,8 @@
     "c3c01e92-520e-5358-a58f-0cc7e9c9e6fa",
     "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
     "57f80020-fa6f-5b69-be58-b4cf95b7226f"
-  ]
+  ],
+  "sense_mixing_control": true,
+  "label": "Finite interpretations for the uniting-cause, in-act and becoming/being forks: a model in which…",
+  "legacy_id": "TERM-SENSE-FORKS-2-CONTROLS"
 }

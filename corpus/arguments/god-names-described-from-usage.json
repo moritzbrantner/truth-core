@@ -1,7 +1,5 @@
 {
   "id": "6379dc5e-fb0e-5d43-ad36-9cf08080598d",
-  "label": "GOD_3: usage naming and a GOD_3-to-GOD_4 bridge give the naming premise",
-  "legacy_id": "GOD-NAMES-DESCRIBED-FROM-USAGE",
   "premise_statement_ids": [
     "49542121-caa6-576e-aa84-3a1546397388",
     "6d85b363-58ec-5a8a-9e20-58a93d188ea5"
@@ -23,5 +21,22 @@
   "disambiguation_ids": [
     "205a39c3-915d-5fe4-8076-a9ff91329e08",
     "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
-  ]
+  ],
+  "label": "GOD_3: usage naming and a GOD_3-to-GOD_4 bridge give the naming premise",
+  "sense_bridges": [
+    {
+      "term": "GOD",
+      "from": "b7754ffd-e139-42d1-bf84-77579fa650cf",
+      "to": "52c2ebac-0a71-4dd4-8a21-804c1dd0847a",
+      "statement_id": "6d85b363-58ec-5a8a-9e20-58a93d188ea5"
+    },
+    {
+      "term": "GOD",
+      "from": "295c9096-50b8-4ccd-960e-f833730a0774",
+      "to": "52c2ebac-0a71-4dd4-8a21-804c1dd0847a",
+      "statement_id": "1ec205ed-b2a6-5384-bb5f-2565a9d325bf",
+      "role": "conclusion"
+    }
+  ],
+  "legacy_id": "GOD-NAMES-DESCRIBED-FROM-USAGE"
 }

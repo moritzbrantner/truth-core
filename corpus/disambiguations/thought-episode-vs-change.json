@@ -7,5 +7,20 @@
     "c0cbef1c-060a-54d4-bb49-8d59da40caf3",
     "a298c8b6-9c0f-51a5-8778-9022c22622d5"
   ],
-  "resolution": "An actual thought is a token satisfying Thought; change is separately represented by Change and constrained by the sourced Physics III.1 reading. The two are not equated by occurrence or first-person grammar. The conditional thought-to-change bridge is explicitly open; no physical motion or temporal succession is inferred."
+  "resolution": "An actual thought is a token satisfying Thought; change is separately represented by Change and constrained by the sourced Physics III.1 reading. The two are not equated by occurrence or first-person grammar. The conditional thought-to-change bridge is explicitly open; no physical motion or temporal succession is inferred.",
+  "term_label": "THOUGHT_EPISODE_VERSUS_CHANGE",
+  "senses": [
+    {
+      "id": "d6106345-7fcd-4f2f-a0f2-8e25e4898ab3",
+      "label": "THOUGHT_EPISODE_VERSUS_CHANGE_1",
+      "definition_id": "c0cbef1c-060a-54d4-bb49-8d59da40caf3",
+      "lean_declaration": "TruthCore.Logic.CogitoSubject.ThoughtOccurs"
+    },
+    {
+      "id": "6ddc4e68-58c6-46ca-ba6f-e35d0ee72ca3",
+      "label": "THOUGHT_EPISODE_VERSUS_CHANGE_2",
+      "definition_id": "a298c8b6-9c0f-51a5-8778-9022c22622d5",
+      "lean_declaration": "TruthCore.Logic.ThoughtChangeSubject.ThoughtChangeBridge"
+    }
+  ]
 }

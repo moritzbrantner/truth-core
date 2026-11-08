@@ -7,6 +7,27 @@
     "63420c26-d66a-585c-899a-964a997f83eb"
   ],
   "resolution": "Q.9 a.2 distinguishes mutability through potency in the subject (DEF-POTENCY) from mutability through a power in another (DEF-MUTABLE-THROUGH-ANOTHER), such as the creator's power to withhold esse. STMT-SUCCESSION-REQUIRES-POTENCY, STMT-LIFE-BOUNDARY-REQUIRES-POTENCY, STMT-PURE-ACT-LIVES and STMT-IMMUTABLE-IS-BOETHIAN-ETERNAL all use only potency in the subject, the InPotency that PureAct quantifies over. The derivation does not pass to the wider sense: it neither shows that what lacks subject potency is unconservable nor that external dependence is excluded. The boundary premise is exactly where the wider sense would intrude: q.10 a.1 gives only that what begins is not altogether immutable. Fork (batch 4 of #1233, TruthCore.Causality.TermSenseForks4): MUTABLE_1 in the subject (DEF-POTENCY; per-use declaration MutableInSubject, ∃ r, InPotency x r), MUTABLE_2 through another (DEF-MUTABLE-THROUGH-ANOTHER, MutableThroughAnother over the typed power relation PowerOver) and MUTABLE_3 in some way (DEF-MUTABLE-IN-SOME-WAY, MutableInSomeWay, either channel; its negation is 'omnino immutabile'). The root argument IMMUTABLE-IS-PRIMITIVE-ETERNAL-FROM-TYPED-BOETHIAN uses the term twice (succession, boundary); coverage STMT-MUTABILITY-SENSES-EXHAUSTIVE and exclusivity STMT-MUTABILITY-SENSE-UNIQUE range over those uses. Per sense at the root-route node STMT-LIFE-BOUNDARY-REQUIRES-POTENCY: MUTABLE_1 is the existing LIFE-BOUNDARY-POTENCY-FROM-IMMUTABILITY; MUTABLE_2 (LIFE-BOUNDARY-POTENCY-THROUGH-ANOTHER) and MUTABLE_3 (LIFE-BOUNDARY-POTENCY-FROM-SOME-MUTABILITY) reach it only through the explicit open bridge STMT-SUBJECT-OF-ANOTHERS-POWER-HAS-POTENCY, and an omission model (a being with no potency in itself, in another's power, that begins to live) shows the bridge is needed. MUTABLE_3 is the weakest boundary reading (two strengthens relations). The mixed reading (succession MUTABLE_1, boundary MUTABLE_2) breaks MUTABILITY-SENSE-FORK-UNCHANGING-LIFE.",
+  "term_label": "IN_POTENCY_MUTABLE",
+  "senses": [
+    {
+      "id": "2ba29183-e9d7-4b34-9815-6e8e24c16692",
+      "label": "IN_POTENCY_MUTABLE_1",
+      "definition_id": "9f874532-f37e-590b-bec9-a9affb2762ac",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.AdoptedPotency.InPotency"
+    },
+    {
+      "id": "105b1f4a-6d9c-4e4e-8c30-2c109c2f755f",
+      "label": "IN_POTENCY_MUTABLE_2",
+      "definition_id": "df39ed3e-20d4-5132-b6dd-b782b64f470d",
+      "lean_declaration": "TruthCore.Causality.TermSenseForks.MutableThroughAnother"
+    },
+    {
+      "id": "194c40c8-c176-43d9-9488-9021f7cb2351",
+      "label": "IN_POTENCY_MUTABLE_3",
+      "definition_id": "63420c26-d66a-585c-899a-964a997f83eb",
+      "lean_declaration": "TruthCore.Causality.TermSenseForks.MutableInSomeWay"
+    }
+  ],
   "label": "In potency / mutable",
   "legacy_id": "DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER"
 }

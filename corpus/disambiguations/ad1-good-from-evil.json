@@ -8,5 +8,26 @@
     "fa7122ba-0ded-52aa-a685-85970cab5bef",
     "1b7a35e9-8fc2-5469-9562-a5681e1b3e92"
   ],
-  "resolution": "The older STMT-GOD-DRAWS-GOOD-FROM-EVERY-EVIL distributes an actual productive relation over every evil-bearing subject. STMT-GOD-DRAWS-GOOD-FROM-PERMITTED-EVILS-COLLECTIVELY reads the plural final sentence collectively and asserts some actual good only conditionally on a nonempty permitted collection. STMT-GOD-CAN-DRAW-GOOD-FROM-PERMITTED-EVILS-COLLECTIVELY extracts only a capability condition from the preceding quotation. The collection parameter is the fixed Evil predicate in each interpretation, not every subset. GoodIn is a good in a bearer and perfection; the existing comparison additionally identifies it with actuality through q.5 a.1, but the new readings do not import that equation. No conversion between collective and per-evil productive predicates, no actual-to-capable bridge, and no counterfactual logic are defined or proved. The existing Catholic comparison and its results retain the stronger disputed per-evil commitment; the new claims are siblings, not an automatic replacement or a discharged premise. Evil is a predicate on subjects: these readings group evil-in-subjects and do not individuate multiple evil events in one subject. The older quantifier is per evil-bearing subject; its traditional shorthand every evil must not be read as a formal event-by-event quantifier."
+  "resolution": "The older STMT-GOD-DRAWS-GOOD-FROM-EVERY-EVIL distributes an actual productive relation over every evil-bearing subject. STMT-GOD-DRAWS-GOOD-FROM-PERMITTED-EVILS-COLLECTIVELY reads the plural final sentence collectively and asserts some actual good only conditionally on a nonempty permitted collection. STMT-GOD-CAN-DRAW-GOOD-FROM-PERMITTED-EVILS-COLLECTIVELY extracts only a capability condition from the preceding quotation. The collection parameter is the fixed Evil predicate in each interpretation, not every subset. GoodIn is a good in a bearer and perfection; the existing comparison additionally identifies it with actuality through q.5 a.1, but the new readings do not import that equation. No conversion between collective and per-evil productive predicates, no actual-to-capable bridge, and no counterfactual logic are defined or proved. The existing Catholic comparison and its results retain the stronger disputed per-evil commitment; the new claims are siblings, not an automatic replacement or a discharged premise. Evil is a predicate on subjects: these readings group evil-in-subjects and do not individuate multiple evil events in one subject. The older quantifier is per evil-bearing subject; its traditional shorthand every evil must not be read as a formal event-by-event quantifier.",
+  "term_label": "BRINGING_GOOD_FROM_EVIL_DISTRIBUTIVE_COLLECTIVE",
+  "senses": [
+    {
+      "id": "2106970b-6903-410d-a7af-4d75fd5542a1",
+      "label": "BRINGING_GOOD_FROM_EVIL_DISTRIBUTIVE_COLLECTIVE_1",
+      "definition_id": "645124d7-3d3a-558d-a9d5-ab6a915ede18",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GodDrawsGoodFromPermittedEvilsCollectivelyReading"
+    },
+    {
+      "id": "5ace9d50-da65-43b0-ab4b-639ccca6223e",
+      "label": "BRINGING_GOOD_FROM_EVIL_DISTRIBUTIVE_COLLECTIVE_2",
+      "definition_id": "fa7122ba-0ded-52aa-a685-85970cab5bef",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GodCanDrawGoodFromPermittedEvilsCollectivelyReading"
+    },
+    {
+      "id": "2df2a4b0-4722-4254-9e7c-ecc498bcf10b",
+      "label": "BRINGING_GOOD_FROM_EVIL_DISTRIBUTIVE_COLLECTIVE_3",
+      "definition_id": "1b7a35e9-8fc2-5469-9562-a5681e1b3e92",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GodDrawsGoodFromEveryEvilReading"
+    }
+  ]
 }

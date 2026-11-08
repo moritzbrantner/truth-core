@@ -10,5 +10,37 @@
     "4a101a4c-12de-53c8-80c6-de7a523ea9d9",
     "6ed9fbb9-f419-5eee-9ef5-a2c4f0f1ffa7"
   ],
-  "resolution": "FiniteDistinctAncestry counts distinct upstream relata via nonempty finite paths in a supplied cause relation. NoCausalLoops excludes revisiting a relatum and is independent of that count: a finite self-loop is the omission model. Accessibility forbids infinite descending histories, including repetitions, but allows infinitely many independent immediate causes. PerSeLinksIncluded is the explicit same-carrier restriction to Aquinas\u2019s per se efficient-cause link. There is no automatic identity between causal-power events in Koons and efficient causes as beings in Aquinas. A broadly quantified finitism covering accidental series would exclude infinite accidental ancestry, whereas Aquinas I q.46 a.2 ad 7 does not regard such regress as impossible; neither reading is rewritten to identify the two. No possible-world quantifier or temporal length bound is formalized; the new premises are unattributed open hypotheses. See docs/notes/causal-finitism-367.md."
+  "resolution": "FiniteDistinctAncestry counts distinct upstream relata via nonempty finite paths in a supplied cause relation. NoCausalLoops excludes revisiting a relatum and is independent of that count: a finite self-loop is the omission model. Accessibility forbids infinite descending histories, including repetitions, but allows infinitely many independent immediate causes. PerSeLinksIncluded is the explicit same-carrier restriction to Aquinas\u2019s per se efficient-cause link. There is no automatic identity between causal-power events in Koons and efficient causes as beings in Aquinas. A broadly quantified finitism covering accidental series would exclude infinite accidental ancestry, whereas Aquinas I q.46 a.2 ad 7 does not regard such regress as impossible; neither reading is rewritten to identify the two. No possible-world quantifier or temporal length bound is formalized; the new premises are unattributed open hypotheses. See docs/notes/causal-finitism-367.md.",
+  "term_label": "FINITE_CAUSAL_HISTORY_AND_PER_SE",
+  "senses": [
+    {
+      "id": "1b5ca488-1abc-46b5-86ff-9f1834df9c68",
+      "label": "FINITE_CAUSAL_HISTORY_AND_PER_SE_1",
+      "definition_id": "5e0dd6bc-5e5a-5f8b-ade5-b0d720bd130e",
+      "lean_declaration": "TruthCore.Case.Catholicism.StageOne.CausalFinitism.FiniteDistinctAncestry"
+    },
+    {
+      "id": "9c9c60c3-ecc9-4c40-a915-e23cd1b800cf",
+      "label": "FINITE_CAUSAL_HISTORY_AND_PER_SE_2",
+      "definition_id": "7243dd39-f7f9-596e-9be4-e8b3b4c8aacd",
+      "lean_declaration": "TruthCore.Case.Catholicism.StageOne.CausalFinitism.NoCausalLoops"
+    },
+    {
+      "id": "6c4dd4e0-8db8-4ec5-99ab-a382585d7089",
+      "label": "FINITE_CAUSAL_HISTORY_AND_PER_SE_3",
+      "definition_id": "6c9be385-8a5b-5aa6-b4e6-53630ec55d04",
+      "lean_declaration": "TruthCore.Case.Catholicism.StageOne.CausalFinitism.PerSeLinksIncluded"
+    },
+    {
+      "id": "d49461c3-3e79-474a-9072-2118bf9c2913",
+      "label": "FINITE_CAUSAL_HISTORY_AND_PER_SE_4",
+      "definition_id": "4a101a4c-12de-53c8-80c6-de7a523ea9d9",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.SecondEfficientCausesCauseOnlyAsCausedReading"
+    },
+    {
+      "id": "88e9acfb-e29c-4546-a4e5-1ad482502293",
+      "label": "FINITE_CAUSAL_HISTORY_AND_PER_SE_5",
+      "definition_id": "6ed9fbb9-f419-5eee-9ef5-a2c4f0f1ffa7"
+    }
+  ]
 }

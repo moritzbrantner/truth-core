@@ -1,12 +1,30 @@
 {
   "id": "82cfe4a1-7f82-5453-ab75-cde5474121e8",
-  "label": "A3 event identity, causal priority and modal witness scope",
-  "legacy_id": "DISAMB-NB-A3-EVENT-CAUSE-SCOPE",
   "term": "A3 event identity, causal priority and modal witness scope",
   "resolution": "Possible causability concerns the same essential-state event, not merely an analogous transition with different states; it does not assert that every actual event actually has a cause. A prior explaining condition is not automatically an existing concrete individual at an earlier time. The first-transition contradiction requires that interpretation; actual bearer, concrete capability and temporal presence remain explicit correspondence obligations. All contingent things is nonrigid none-to-some scope, not the fixed collection of actual individuals or a member-to-whole causal inference. A possible Necessary Being conclusion and the subsequent de dicto modal suffix do not by themselves certify a SAME actual rigid individual. Existing Scenario/local-frame results require their own guarded hypotheses.",
   "sense_definition_ids": [
     "c82c1e14-50bd-555c-82ef-007c8bb10cc5",
     "86143f0e-c246-59d8-a775-4003173e254f",
     "7fde5dc0-6ca7-5ce6-a2e1-571acfd15dcf"
-  ]
+  ],
+  "term_label": "A3_EVENT_IDENTITY_CAUSAL_PRIORITY",
+  "senses": [
+    {
+      "id": "afc77712-1af0-4908-a048-2048aa96200e",
+      "label": "A3_EVENT_IDENTITY_CAUSAL_PRIORITY_1",
+      "definition_id": "c82c1e14-50bd-555c-82ef-007c8bb10cc5"
+    },
+    {
+      "id": "ca83fe44-1bdd-4847-9df6-9888d9d3a998",
+      "label": "A3_EVENT_IDENTITY_CAUSAL_PRIORITY_2",
+      "definition_id": "86143f0e-c246-59d8-a775-4003173e254f"
+    },
+    {
+      "id": "c4122f54-214b-494f-88a7-75db3e688e5a",
+      "label": "A3_EVENT_IDENTITY_CAUSAL_PRIORITY_3",
+      "definition_id": "7fde5dc0-6ca7-5ce6-a2e1-571acfd15dcf"
+    }
+  ],
+  "label": "A3 event identity, causal priority and modal witness scope",
+  "legacy_id": "DISAMB-NB-A3-EVENT-CAUSE-SCOPE"
 }

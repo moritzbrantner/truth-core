@@ -8,5 +8,23 @@
     "a696033a-4e98-5b14-9312-977ad8f65ca4",
     "e5b532e1-8fa8-5abc-8d47-620301cf7d61"
   ],
-  "resolution": "The sourced Ockham readings distinguish a natural mental sign from a conventionally instituted vocal sign and from the proposed extramental common constituent. Numerical singularity of the sign is compatible with its predicability for many. No substitution of one sense into the shared Platonic FormOf vocabulary, nor a contradiction with every realist interpretation, is inferred."
+  "resolution": "The sourced Ockham readings distinguish a natural mental sign from a conventionally instituted vocal sign and from the proposed extramental common constituent. Numerical singularity of the sign is compatible with its predicability for many. No substitution of one sense into the shared Platonic FormOf vocabulary, nor a contradiction with every realist interpretation, is inferred.",
+  "term_label": "UNIVERSAL",
+  "senses": [
+    {
+      "id": "975c22ca-8b3f-4eec-9827-b2fe633c8491",
+      "label": "UNIVERSAL_1",
+      "definition_id": "51266d70-d1a8-5bc8-94b0-2c948e761797"
+    },
+    {
+      "id": "a8cb5969-e28e-42a3-8337-4724e3bfe812",
+      "label": "UNIVERSAL_2",
+      "definition_id": "a696033a-4e98-5b14-9312-977ad8f65ca4"
+    },
+    {
+      "id": "0880f9a4-82ef-443a-8b19-9801ea5c820c",
+      "label": "UNIVERSAL_3",
+      "definition_id": "e5b532e1-8fa8-5abc-8d47-620301cf7d61"
+    }
+  ]
 }
