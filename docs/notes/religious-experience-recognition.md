@@ -87,3 +87,13 @@ gap is independent discrimination between the calibrated genuine-source model
 and the warranted false-positive model, plus the external-sign capability
 bridge. This is a bounded conditional reconstruction and rival comparison,
 not a defense or closure of any philosophical premise.
+
+Claim/type self-sweep: occurrence, calibration, permission and warrant do not
+instantiate `IsGod`; their records do not link its definition. Identification,
+coverage, the existential God witness and the capability bridge do. The
+recognition theorem declares the existing profile sense; the root assembly
+declares `GOD_4` only, since its conclusion is the primitive capability, not a
+`RecognitionProfile` (the legacy root record nevertheless links the profile
+definition). No actual/practice sense or unavailable sense declaration is
+invented to hide this boundary. The bridge is the explicit reverse-capacity
+premise; the root assembly is not counted as a new substantive support option.
