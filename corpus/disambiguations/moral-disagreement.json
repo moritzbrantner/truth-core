@@ -5,5 +5,20 @@
     "DEF-DISAGREEMENT-IN-ATTITUDE",
     "DEF-GENUINE-MORAL-CONTRADICTION"
   ],
-  "resolution": "A conative clash is not the shared-question predicate GenuinelyContradict, whose truth-aptness conjunct is used by the emotivism proof. Neither a clash nor that operational predicate is automatically a proof of False; Blackburn’s proposal and the pragmatic-incoherence objection are separately recorded claims."
+  "resolution": "A conative clash is not the shared-question predicate GenuinelyContradict, whose truth-aptness conjunct is used by the emotivism proof. Neither a clash nor that operational predicate is automatically a proof of False; Blackburn’s proposal and the pragmatic-incoherence objection are separately recorded claims.",
+  "term_label": "MORAL_DISAGREEMENT_AND_CONTRADICTION",
+  "senses": [
+    {
+      "id": "252d22b8-b681-4e4f-9d76-cc314e6960d5",
+      "label": "MORAL_DISAGREEMENT_AND_CONTRADICTION_1",
+      "definition_id": "DEF-DISAGREEMENT-IN-ATTITUDE",
+      "lean_declaration": "TruthCore.English.VanRoojen.MoralDisagreementInvolvesAttitudeClashReading"
+    },
+    {
+      "id": "13c1ac85-c9db-4e26-afbf-6857e511a8e4",
+      "label": "MORAL_DISAGREEMENT_AND_CONTRADICTION_2",
+      "definition_id": "DEF-GENUINE-MORAL-CONTRADICTION",
+      "lean_declaration": "TruthCore.Metaethics.GenuinelyContradict"
+    }
+  ]
 }

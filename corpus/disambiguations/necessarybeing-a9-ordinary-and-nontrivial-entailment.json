@@ -8,5 +8,34 @@
     "DEF-NB-SURVEY-NECESSARY-BEING",
     "DEF-KANT-MODAL-CONTINGENCY"
   ],
-  "resolution": "Ordinary A9 entails matches the existing A8 necessary universal property-inclusion sense; nontrivial entailment adds an independence-of-impossibility basis criterion. It is neither Dia antecedent AND Box implication nor ordinary conjunction projection, Scott positivity/limitation closure, causal explanation or grounding. Impossible square-circle examples retain may-seem/plausible qualifications. The P1B/C4 report lifts ordinary Concrete→P to NT(Concrete-and-Necessary,P) for any P, crossing relation kinds; no complete relation calculus or independent warrant is supplied. Negative P2 is NOT NT(CNec,Cont), not positive NT(CNec,NOT Cont). Its not-necessarily-existing title is not automatically typed ContingentAt with actual presence. C1–6 remains inside NoPossibleNB; only7–8 discharges possibility, not the hypothetical classifications or actual/rigid witness. Concrete means source cause-capability, not all entities or physicality. Actualist/domain/intensional/world/class and modal-transport correspondences remain OPEN; none is selected to obtain a proof."
+  "resolution": "Ordinary A9 entails matches the existing A8 necessary universal property-inclusion sense; nontrivial entailment adds an independence-of-impossibility basis criterion. It is neither Dia antecedent AND Box implication nor ordinary conjunction projection, Scott positivity/limitation closure, causal explanation or grounding. Impossible square-circle examples retain may-seem/plausible qualifications. The P1B/C4 report lifts ordinary Concrete→P to NT(Concrete-and-Necessary,P) for any P, crossing relation kinds; no complete relation calculus or independent warrant is supplied. Negative P2 is NOT NT(CNec,Cont), not positive NT(CNec,NOT Cont). Its not-necessarily-existing title is not automatically typed ContingentAt with actual presence. C1–6 remains inside NoPossibleNB; only7–8 discharges possibility, not the hypothetical classifications or actual/rigid witness. Concrete means source cause-capability, not all entities or physicality. Actualist/domain/intensional/world/class and modal-transport correspondences remain OPEN; none is selected to obtain a proof.",
+  "term_label": "A9_ORDINARY_INCLUSION_NONTRIVIAL_ENTAILMENT_NEGATIVE",
+  "senses": [
+    {
+      "id": "f65d0f32-d91a-4f76-a0c9-af04761fa72b",
+      "label": "A9_ORDINARY_INCLUSION_NONTRIVIAL_ENTAILMENT_NEGATIVE_1",
+      "definition_id": "DEF-NB-A9-NONTRIVIAL-ENTAILMENT"
+    },
+    {
+      "id": "262f745a-1729-4621-b4f2-521221bc4853",
+      "label": "A9_ORDINARY_INCLUSION_NONTRIVIAL_ENTAILMENT_NEGATIVE_2",
+      "definition_id": "DEF-NB-A8-MODAL-PROPERTY-ENTAILMENT"
+    },
+    {
+      "id": "f0f55124-5ec6-465b-9155-bcac8c2f6560",
+      "label": "A9_ORDINARY_INCLUSION_NONTRIVIAL_ENTAILMENT_NEGATIVE_3",
+      "definition_id": "DEF-NB-A2-CONCRETE-CAUSE-CAPABLE"
+    },
+    {
+      "id": "3f5d8216-8c44-45f3-9b9a-866439d978bc",
+      "label": "A9_ORDINARY_INCLUSION_NONTRIVIAL_ENTAILMENT_NEGATIVE_4",
+      "definition_id": "DEF-NB-SURVEY-NECESSARY-BEING"
+    },
+    {
+      "id": "4c007b4e-d221-4eeb-a99a-299ebe304743",
+      "label": "A9_ORDINARY_INCLUSION_NONTRIVIAL_ENTAILMENT_NEGATIVE_5",
+      "definition_id": "DEF-KANT-MODAL-CONTINGENCY",
+      "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.ContingentAt"
+    }
+  ]
 }

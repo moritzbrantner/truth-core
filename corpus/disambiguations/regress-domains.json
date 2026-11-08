@@ -9,5 +9,43 @@
     "DEF-PARTICIPATION-GROUND",
     "DEF-PSR-REASON"
   ],
-  "resolution": "Graph dependence records only directed structure. Efficient per se dependence, respect-indexed mover dependence, metaphysical fact grounding, reason/existence-fact explanation, strict parthood, and all-premise inferential warrant remain different typed relations. A relative source means respectively absence of that chosen relation, not one universal absolute foundation. GeneratedWarrant requires every premise of an inference, while FinitelyGroundedPower is used only for structural path/fixed-point mathematics. The cross-domain model stipulates ontological existence and local activity, withholds justified, and derives failure of GeneratedWarrant; none supplies metaphysical possibility or an epistemic-to-causal bridge. Temporal succession is not equated with all-borrowed per se efficient power."
+  "resolution": "Graph dependence records only directed structure. Efficient per se dependence, respect-indexed mover dependence, metaphysical fact grounding, reason/existence-fact explanation, strict parthood, and all-premise inferential warrant remain different typed relations. A relative source means respectively absence of that chosen relation, not one universal absolute foundation. GeneratedWarrant requires every premise of an inference, while FinitelyGroundedPower is used only for structural path/fixed-point mathematics. The cross-domain model stipulates ontological existence and local activity, withholds justified, and derives failure of GeneratedWarrant; none supplies metaphysical possibility or an epistemic-to-causal bridge. Temporal succession is not equated with all-borrowed per se efficient power.",
+  "term_label": "DEPENDENCE_SOURCE_AND_WARRANT_ACROSS_REGRESS",
+  "senses": [
+    {
+      "id": "638661de-9c15-4d9e-9028-9204996ecdfc",
+      "label": "DEPENDENCE_SOURCE_AND_WARRANT_ACROSS_REGRESS_1",
+      "definition_id": "DEF-REGRESS-SCHEMA-GRAPH",
+      "lean_declaration": "TruthCore.Logic.Regress.Graph"
+    },
+    {
+      "id": "2e078e95-3811-48b3-ab80-03f63105e97f",
+      "label": "DEPENDENCE_SOURCE_AND_WARRANT_ACROSS_REGRESS_2",
+      "definition_id": "DEF-REGRESS-DOMAIN-ADAPTERS"
+    },
+    {
+      "id": "33572112-82fc-402c-893e-6bf3a37a9138",
+      "label": "DEPENDENCE_SOURCE_AND_WARRANT_ACROSS_REGRESS_3",
+      "definition_id": "DEF-ALL-PREMISE-GENERATED-WARRANT",
+      "lean_declaration": "TruthCore.Logic.RegressDomains.GeneratedWarrant"
+    },
+    {
+      "id": "43fed8d9-e39a-464c-a1c8-29f645c6d0a1",
+      "label": "DEPENDENCE_SOURCE_AND_WARRANT_ACROSS_REGRESS_4",
+      "definition_id": "DEF-PER-SE-EFFICIENT-CAUSE-LINK",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.SecondEfficientCausesCauseOnlyAsCausedReading"
+    },
+    {
+      "id": "895eba25-1e4c-4104-9da4-319bc935c69e",
+      "label": "DEPENDENCE_SOURCE_AND_WARRANT_ACROSS_REGRESS_5",
+      "definition_id": "DEF-PARTICIPATION-GROUND",
+      "lean_declaration": "TruthCore.Greek.Plato.ParticipationGrounding.Explanation.Grounds"
+    },
+    {
+      "id": "8ee6b8a0-ca7f-453c-b280-a073ee9416ce",
+      "label": "DEPENDENCE_SOURCE_AND_WARRANT_ACROSS_REGRESS_6",
+      "definition_id": "DEF-PSR-REASON",
+      "lean_declaration": "TruthCore.Explanation.ExistencePSR.Reason"
+    }
+  ]
 }

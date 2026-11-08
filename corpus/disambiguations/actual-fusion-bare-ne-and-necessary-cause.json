@@ -6,5 +6,25 @@
     "DEF-ACTUAL-PARTS-AND-CAUSAL-POLICIES",
     "DEF-NO-NECESSARY-PARTS-AT"
   ],
-  "resolution": "Both results conclude existing bare NecessaryBeing: SOME candidate exists at w and is NecessaryAt there. They do NOT conclude that the particular causal witness used in the reductio is necessary, concrete, underived, unique or God. The scoped denial of ANY actual NE plus actual-part existence makes all actual candidates have no necessary parts; that conditional classification must not be exported unconditionally. In the five-input version actual selected-sum existence is explicit; the six-input variant instead retains owner-accepted actual population plus conditional formation for this one nonempty actual family. Six names are not a numeric reduction from five. No actual wholly-contingent population/sum is assumed independently by the variant. Neither source A2/A4/C1–3 nor ordinary ContingentAt, explanations, necessary action or stronger source naming is identified by fiat. L1 necessity-downward, A1 overlap extensionality, L2 selected necessary-fusion warrant, S5/frame laws and a concreteness dictionary are absent. Relative to the eight-input necessary-cause BLUEPRINT, three named inputs disappear for the weaker bare-NE endpoint; that is not a checked global weakening of the stronger endpoint or source-premise truth. The preceding actual-part and no-frame descriptions refer to the ORIGINAL CF2 five/six results. New MF2 variants instead replace actual-part existence ONLY with existing selected-world ActualReflexive, retaining the other inputs and absence of Euclidean/S5/global-reflexivity assumptions. MF2 actualizes any NecessaryAt candidate at w, not every part of an actual object; it is not a proof of CF2. These exchange different OPEN commitments at the same named counts, with no global weakening or owner MF2 truth selection."
+  "resolution": "Both results conclude existing bare NecessaryBeing: SOME candidate exists at w and is NecessaryAt there. They do NOT conclude that the particular causal witness used in the reductio is necessary, concrete, underived, unique or God. The scoped denial of ANY actual NE plus actual-part existence makes all actual candidates have no necessary parts; that conditional classification must not be exported unconditionally. In the five-input version actual selected-sum existence is explicit; the six-input variant instead retains owner-accepted actual population plus conditional formation for this one nonempty actual family. Six names are not a numeric reduction from five. No actual wholly-contingent population/sum is assumed independently by the variant. Neither source A2/A4/C1–3 nor ordinary ContingentAt, explanations, necessary action or stronger source naming is identified by fiat. L1 necessity-downward, A1 overlap extensionality, L2 selected necessary-fusion warrant, S5/frame laws and a concreteness dictionary are absent. Relative to the eight-input necessary-cause BLUEPRINT, three named inputs disappear for the weaker bare-NE endpoint; that is not a checked global weakening of the stronger endpoint or source-premise truth. The preceding actual-part and no-frame descriptions refer to the ORIGINAL CF2 five/six results. New MF2 variants instead replace actual-part existence ONLY with existing selected-world ActualReflexive, retaining the other inputs and absence of Euclidean/S5/global-reflexivity assumptions. MF2 actualizes any NecessaryAt candidate at w, not every part of an actual object; it is not a proof of CF2. These exchange different OPEN commitments at the same named counts, with no global weakening or owner MF2 truth selection.",
+  "term_label": "ACTUAL_FUSION_BARE_NECESSARY_EXISTENCE",
+  "senses": [
+    {
+      "id": "c851427f-2953-45c7-993a-aa9a58f7a665",
+      "label": "ACTUAL_FUSION_BARE_NECESSARY_EXISTENCE_1",
+      "definition_id": "DEF-ACTUAL-NO-NECESSARY-PARTS-FUSION",
+      "lean_declaration": "TruthCore.Causality.ActualFusionNecessaryBeing.ActualFusionAt"
+    },
+    {
+      "id": "728b4876-f418-46fa-8d0c-57aa3ea29454",
+      "label": "ACTUAL_FUSION_BARE_NECESSARY_EXISTENCE_2",
+      "definition_id": "DEF-ACTUAL-PARTS-AND-CAUSAL-POLICIES"
+    },
+    {
+      "id": "95a3d30d-c4fc-43e8-ab4a-66a0cfd1a172",
+      "label": "ACTUAL_FUSION_BARE_NECESSARY_EXISTENCE_3",
+      "definition_id": "DEF-NO-NECESSARY-PARTS-AT",
+      "lean_declaration": "TruthCore.Mereology.FusionNoNecessaryParts.NoNecessaryPartsAt"
+    }
+  ]
 }

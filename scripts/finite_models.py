@@ -14,8 +14,8 @@ NAME = re.compile(r"[A-Za-z_][A-Za-z_0-9]*(?:\.[A-Za-z_][A-Za-z_0-9]*)*")
 def validate_model(model, statements, root):
     def name(value):
         return isinstance(value, str) and NAME.fullmatch(value)
-    if not isinstance(model.get('id'), str) or not re.fullmatch(r'MODEL-[A-Z0-9-]+', model['id']):
-        raise ValueError('model id must be MODEL-…')
+    if not isinstance(model.get('id'), str) or not re.fullmatch(r'MODEL-[A-Z0-9-]+|' + r'[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}', model['id']):
+        raise ValueError('model id must be MODEL-… or a uuid4')
     for key in ('description', 'vocabulary', 'lean_declaration'):
         if not isinstance(model.get(key), str) or not model[key]:
             raise ValueError(f'missing {key}')

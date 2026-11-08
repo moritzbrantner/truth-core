@@ -6,5 +6,23 @@
     "DEF-CC100-124-LITERAL-SCOPE",
     "DEF-CC100-124-TRUTH-RESTRICTED-SCOPE"
   ],
-  "resolution": "Literal step2 lacks a truth guard; contextual reading inherits it from step1/final every-truth scope. Separate sibling claims preserve both without equivalence. On either reading step3 is an explicit common-knower bridge, not valid by exchanging per-proposition existential witnesses. Possible/actual knowledge, factivity/closure and world scope require independent treatment; no God/necessary/rigid knower is inferred."
+  "resolution": "Literal step2 lacks a truth guard; contextual reading inherits it from step1/final every-truth scope. Separate sibling claims preserve both without equivalence. On either reading step3 is an explicit common-knower bridge, not valid by exchanging per-proposition existential witnesses. Possible/actual knowledge, factivity/closure and world scope require independent treatment; no God/necessary/rigid knower is inferred.",
+  "term_label": "FOR_ANY_PROPOSITION_SOMEONE_KNOWS_IT",
+  "senses": [
+    {
+      "id": "e81d05fc-0198-4564-821d-c9443907fe56",
+      "label": "FOR_ANY_PROPOSITION_SOMEONE_KNOWS_IT_1",
+      "definition_id": "DEF-CC100-124-KNOWABILITY-KNOWER"
+    },
+    {
+      "id": "3a9a5adb-5c4c-43e0-b539-f4a506695559",
+      "label": "FOR_ANY_PROPOSITION_SOMEONE_KNOWS_IT_2",
+      "definition_id": "DEF-CC100-124-LITERAL-SCOPE"
+    },
+    {
+      "id": "42ed0ac0-756b-4068-8bfd-1bc0e6586a13",
+      "label": "FOR_ANY_PROPOSITION_SOMEONE_KNOWS_IT_3",
+      "definition_id": "DEF-CC100-124-TRUTH-RESTRICTED-SCOPE"
+    }
+  ]
 }

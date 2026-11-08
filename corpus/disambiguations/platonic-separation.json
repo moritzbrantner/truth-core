@@ -5,5 +5,20 @@
     "DEF-PLATONIC-INDEPENDENCE",
     "DEF-PLATONIC-NONIDENTITY"
   ],
-  "resolution": "The Republic nonidentity reading only excludes numerical identity. Parmenides 130b permits an ontological reading of separately in addition; its Independent predicate is an explicit open commitment. No modal independence theorem follows from inequality."
+  "resolution": "The Republic nonidentity reading only excludes numerical identity. Parmenides 130b permits an ontological reading of separately in addition; its Independent predicate is an explicit open commitment. No modal independence theorem follows from inequality.",
+  "term_label": "SEPARATION",
+  "senses": [
+    {
+      "id": "0b49f552-0a3b-46e1-a92b-a68953e995cf",
+      "label": "SEPARATION_1",
+      "definition_id": "DEF-PLATONIC-INDEPENDENCE",
+      "lean_declaration": "TruthCore.Greek.Plato.Forms.Vocabulary"
+    },
+    {
+      "id": "f5321de4-6205-47fd-853f-5bd229776be7",
+      "label": "SEPARATION_4",
+      "definition_id": "DEF-PLATONIC-NONIDENTITY",
+      "lean_declaration": "TruthCore.Greek.Plato.Forms.Nonidentity"
+    }
+  ]
 }

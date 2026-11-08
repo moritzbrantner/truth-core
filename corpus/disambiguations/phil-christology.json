@@ -5,5 +5,20 @@
     "DEF-PHIL-CHRISTOLOGY-REPORT",
     "DEF-SKELETON-OPEN-PREDICATES"
   ],
-  "resolution": "The new propositions encode the letter’s third-person assertions, not Jesus’s actual self-claims, historical events or the case signature’s actual divine identity. Form is lexical and is not identified with Aristotelian form or the Creed’s consubstantiality; equality is not an identity equation. Harpagmos alternatives and preexistent-divine versus commissioned-agent accounts remain distinct in docs/philippians-christology.md. God’s exaltation of Christ and homage to the Father’s glory retain the textual distinction without deciding its ontology. Neither theological truth nor a report-to-history bridge follows from the attribution."
+  "resolution": "The new propositions encode the letter’s third-person assertions, not Jesus’s actual self-claims, historical events or the case signature’s actual divine identity. Form is lexical and is not identified with Aristotelian form or the Creed’s consubstantiality; equality is not an identity equation. Harpagmos alternatives and preexistent-divine versus commissioned-agent accounts remain distinct in docs/philippians-christology.md. God’s exaltation of Christ and homage to the Father’s glory retain the textual distinction without deciding its ontology. Neither theological truth nor a report-to-history bridge follows from the attribution.",
+  "term_label": "FORM_EQUALITY_EXALTATION_AND_ATTRIBUTION",
+  "senses": [
+    {
+      "id": "d405150b-0c57-4367-b968-a2af139a3417",
+      "label": "FORM_EQUALITY_EXALTATION_AND_ATTRIBUTION_1",
+      "definition_id": "DEF-PHIL-CHRISTOLOGY-REPORT",
+      "lean_declaration": "TruthCore.Greek.NewTestament.Philippians.Christology.Letter"
+    },
+    {
+      "id": "86a03110-102f-42c0-9da7-8995c6f668cf",
+      "label": "FORM_EQUALITY_EXALTATION_AND_ATTRIBUTION_2",
+      "definition_id": "DEF-SKELETON-OPEN-PREDICATES",
+      "lean_declaration": "TruthCore.Case.Catholicism.Signature"
+    }
+  ]
 }

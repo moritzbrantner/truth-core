@@ -6,5 +6,26 @@
     "DEF-VERIFICATION-PRINCIPLE",
     "DEF-TRUTH-CONDITIONAL-LANGUAGE"
   ],
-  "resolution": "Three senses are kept apart. (1) Meaningful by a criterion: a verdict defined from a frame (DEF-LITERAL-MEANINGFULNESS-1946); the trivialization results are about this sense. (2) Meaningful pre-theoretically: the literal significance a criterion is offered as an account of, a separate parameter in STMT-VERIFICATION-PRINCIPLE; only the self-application dilemma uses it, and if (2) were defined as (1) the principle would hold by definition and its formulation would trivially fail it. (3) Having truth conditions: every sentence of a truth-conditional language has them; STMT-CRITERION-VERDICT-SILENT-ON-TRUTH shows that failing (1) does not remove (3). The necessary-only condition is now ordered below full scoped Calibration by MEANING-CALIBRATION-TO-VERIFICATION-PRINCIPLE. DISAMB-MEANING-DEFINITION-CALIBRATIONS supplies independent V1/V2/V3/all-in-scope proposals, open named coverage and a genuine remaining extension; it preserves the older correctly calibrated V1/V3 packages and their generic closure premises. See docs/notes/meaning-definition-fork.md."
+  "resolution": "Three senses are kept apart. (1) Meaningful by a criterion: a verdict defined from a frame (DEF-LITERAL-MEANINGFULNESS-1946); the trivialization results are about this sense. (2) Meaningful pre-theoretically: the literal significance a criterion is offered as an account of, a separate parameter in STMT-VERIFICATION-PRINCIPLE; only the self-application dilemma uses it, and if (2) were defined as (1) the principle would hold by definition and its formulation would trivially fail it. (3) Having truth conditions: every sentence of a truth-conditional language has them; STMT-CRITERION-VERDICT-SILENT-ON-TRUTH shows that failing (1) does not remove (3). The necessary-only condition is now ordered below full scoped Calibration by MEANING-CALIBRATION-TO-VERIFICATION-PRINCIPLE. DISAMB-MEANING-DEFINITION-CALIBRATIONS supplies independent V1/V2/V3/all-in-scope proposals, open named coverage and a genuine remaining extension; it preserves the older correctly calibrated V1/V3 packages and their generic closure premises. See docs/notes/meaning-definition-fork.md.",
+  "term_label": "MEANINGFUL",
+  "senses": [
+    {
+      "id": "1505de7d-a322-430b-992d-31dd1846429e",
+      "label": "MEANINGFUL_1",
+      "definition_id": "DEF-LITERAL-MEANINGFULNESS-1946",
+      "lean_declaration": "TruthCore.Logic.Verificationism.LiterallyMeaningful1946"
+    },
+    {
+      "id": "08620e59-62e1-4053-8dac-80ef6de99b19",
+      "label": "MEANINGFUL_2",
+      "definition_id": "DEF-VERIFICATION-PRINCIPLE",
+      "lean_declaration": "TruthCore.Logic.Verificationism.VerificationPrinciple"
+    },
+    {
+      "id": "b0980176-195b-4d0d-9730-7843c8094381",
+      "label": "MEANINGFUL_3",
+      "definition_id": "DEF-TRUTH-CONDITIONAL-LANGUAGE",
+      "lean_declaration": "TruthCore.Logic.Verificationism.Language"
+    }
+  ]
 }

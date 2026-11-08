@@ -5,5 +5,20 @@
     "DEF-MIXED-FACT-GROUND-RECORDS",
     "DEF-JOINT-CAUSAL-GROUPS"
   ],
-  "resolution": "The existing polymorphic record structure is reused for joint fact-ground antecedent lists; this does not identify facts with physical events or ground with efficient causation. Both contributor and enabler fields are included in members, avoiding a hidden condition omission. No Exercise, occurs, allowed-scenario sufficiency or graph source predicate is used. The autonomy predicate is a source-motivated open classification, not self-causation, intrinsic productive power or a necessary-bearer definition. Positive and essential labels remain distinct and uninterpreted beyond their tags."
+  "resolution": "The existing polymorphic record structure is reused for joint fact-ground antecedent lists; this does not identify facts with physical events or ground with efficient causation. Both contributor and enabler fields are included in members, avoiding a hidden condition omission. No Exercise, occurs, allowed-scenario sufficiency or graph source predicate is used. The autonomy predicate is a source-motivated open classification, not self-causation, intrinsic productive power or a necessary-bearer definition. Positive and essential labels remain distinct and uninterpreted beyond their tags.",
+  "term_label": "SHARED_GROUP_RECORD_FOR_FACT_GROUNDS",
+  "senses": [
+    {
+      "id": "60123b0c-705d-4dce-a8f2-088f03b7aaf4",
+      "label": "SHARED_GROUP_RECORD_FOR_FACT_GROUNDS_1",
+      "definition_id": "DEF-MIXED-FACT-GROUND-RECORDS",
+      "lean_declaration": "TruthCore.Explanation.ExistenceIngredient.AutonomousFullGround"
+    },
+    {
+      "id": "47326a15-d7db-499f-a337-700c291bcfe7",
+      "label": "SHARED_GROUP_RECORD_FOR_FACT_GROUNDS_2",
+      "definition_id": "DEF-JOINT-CAUSAL-GROUPS",
+      "lean_declaration": "TruthCore.Causality.JointGroups.Groups"
+    }
+  ]
 }

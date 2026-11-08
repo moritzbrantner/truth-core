@@ -6,5 +6,26 @@
     "DEF-REASON-RESPONSE-INTERVENTION",
     "DEF-REASON-RESPONSE-PRESENT-DATA"
   ],
-  "resolution": "SignalSensitive is only one-bit decision input sensitivity. ReviewInfluence/ExternalInfluence are action-changing earlier acquisition interventions with remaining inputs fixed. PresentData is a behavioral projection and can omit that history. None is normative historical ownership, autonomous sourcehood, sufficient free will or responsibility. The deterministic self-review route is not thereby free, and external input dependence alone does not establish real manipulation. The same-past-alternative incompatibilist and historically supplemented compatibilist may both retain their separate standards."
+  "resolution": "SignalSensitive is only one-bit decision input sensitivity. ReviewInfluence/ExternalInfluence are action-changing earlier acquisition interventions with remaining inputs fixed. PresentData is a behavioral projection and can omit that history. None is normative historical ownership, autonomous sourcehood, sufficient free will or responsibility. The deterministic self-review route is not thereby free, and external input dependence alone does not establish real manipulation. The same-past-alternative incompatibilist and historically supplemented compatibilist may both retain their separate standards.",
+  "term_label": "REASON_RESPONSIVE_CONTROL",
+  "senses": [
+    {
+      "id": "22056bab-388a-4be5-b38e-274455853dad",
+      "label": "REASON_RESPONSIVE_CONTROL_1",
+      "definition_id": "DEF-REASON-RESPONSE-ACQUISITION",
+      "lean_declaration": "TruthCore.Modal.ReasonResponseHistory.Acquisition"
+    },
+    {
+      "id": "fca9f6be-5348-49c1-93bc-d185e7424fad",
+      "label": "REASON_RESPONSIVE_CONTROL_2",
+      "definition_id": "DEF-REASON-RESPONSE-INTERVENTION",
+      "lean_declaration": "TruthCore.Modal.ReasonResponseHistory.ReviewInfluence"
+    },
+    {
+      "id": "e5d3423f-6b32-4b52-9a2d-78f7fe87a464",
+      "label": "REASON_RESPONSIVE_CONTROL_3",
+      "definition_id": "DEF-REASON-RESPONSE-PRESENT-DATA",
+      "lean_declaration": "TruthCore.Modal.ReasonResponseHistory.observe"
+    }
+  ]
 }

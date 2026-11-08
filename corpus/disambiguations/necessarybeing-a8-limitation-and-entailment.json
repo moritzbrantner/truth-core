@@ -7,5 +7,30 @@
     "DEF-HAS-LIMITING-PRINCIPLE",
     "DEF-POSITIVE-PROPERTY-SCOTT"
   ],
-  "resolution": "A8 limiting means deficiency-entailing, with modal universal inclusion that permits vacuity. It is not RootMultiplication.HasLimitingPrinciple (three structural horns), unreceived esse, infinity or Scott positivity, and no all-attribute/God/uniqueness conclusion follows. A9’s nontrivial entailment is a different proposed relation, not silently imposed on A8. C4 backward closure is an attributed assertion, not an unannounced full formal classifier definition. Main C1–9 stays inside NoPossibleNB and10–11 discharges only possibility; source2 classifies causal-concrete individuals, not all entities, and source6 separately places powerful NB in that class. Negative P2 and affirmative P3 are separate reports; alternate C2 needs no affirmative P3 or P2B powerlessness answer (all P2B choices continue). No κ branch exists here. Property/deficiency admission, uniformity, evaluative applicability, modal/intensional domain and actual rigid-witness correspondence remain OPEN."
+  "resolution": "A8 limiting means deficiency-entailing, with modal universal inclusion that permits vacuity. It is not RootMultiplication.HasLimitingPrinciple (three structural horns), unreceived esse, infinity or Scott positivity, and no all-attribute/God/uniqueness conclusion follows. A9’s nontrivial entailment is a different proposed relation, not silently imposed on A8. C4 backward closure is an attributed assertion, not an unannounced full formal classifier definition. Main C1–9 stays inside NoPossibleNB and10–11 discharges only possibility; source2 classifies causal-concrete individuals, not all entities, and source6 separately places powerful NB in that class. Negative P2 and affirmative P3 are separate reports; alternate C2 needs no affirmative P3 or P2B powerlessness answer (all P2B choices continue). No κ branch exists here. Property/deficiency admission, uniformity, evaluative applicability, modal/intensional domain and actual rigid-witness correspondence remain OPEN.",
+  "term_label": "A8_DEFICIENCY_LIMITATION_VERSUS_ROOT_STRUCTURAL",
+  "senses": [
+    {
+      "id": "a9b41047-dac9-4cc9-8023-e83d9f96961b",
+      "label": "A8_DEFICIENCY_LIMITATION_VERSUS_ROOT_STRUCTURAL_1",
+      "definition_id": "DEF-NB-A8-MODAL-PROPERTY-ENTAILMENT"
+    },
+    {
+      "id": "a785f0d4-de68-46be-8c1e-2e4553961197",
+      "label": "A8_DEFICIENCY_LIMITATION_VERSUS_ROOT_STRUCTURAL_2",
+      "definition_id": "DEF-NB-A8-LIMITING-PROPERTY"
+    },
+    {
+      "id": "8ec23954-ae44-40e1-903c-b26617db9b78",
+      "label": "A8_DEFICIENCY_LIMITATION_VERSUS_ROOT_STRUCTURAL_3",
+      "definition_id": "DEF-HAS-LIMITING-PRINCIPLE",
+      "lean_declaration": "TruthCore.Causality.RootMultiplication.HasLimitingPrinciple"
+    },
+    {
+      "id": "dc76ad7d-c914-48de-9c67-8e5f41f6c309",
+      "label": "A8_DEFICIENCY_LIMITATION_VERSUS_ROOT_STRUCTURAL_4",
+      "definition_id": "DEF-POSITIVE-PROPERTY-SCOTT",
+      "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.Positivity"
+    }
+  ]
 }

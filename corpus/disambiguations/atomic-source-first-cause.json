@@ -5,5 +5,19 @@
     "DEF-ATOMIC-CAUSAL-SOURCE",
     "DEF-FIRST-CAUSE-UNIVERSAL-EFFECT"
   ],
-  "resolution": "The verified analyst endpoints are some graph source and, under activity, the SAME source with an outgoing effect. Rutten's primary first cause additionally requires universal priority-or-inclusion by its effect, and retains his complete-cause semantics. The finite consistency model establishes neither the general full-first-cause conclusion nor modal necessity or God. The source's stronger assertion is kept separately without a Lean proof."
+  "resolution": "The verified analyst endpoints are some graph source and, under activity, the SAME source with an outgoing effect. Rutten's primary first cause additionally requires universal priority-or-inclusion by its effect, and retains his complete-cause semantics. The finite consistency model establishes neither the general full-first-cause conclusion nor modal necessity or God. The source's stronger assertion is kept separately without a Lean proof.",
+  "term_label": "UNCAUSED_SOURCE_VERSUS_FULL_FIRST_CAUSE",
+  "senses": [
+    {
+      "id": "63535b3a-18c9-45f8-aba9-b03cd9dc5704",
+      "label": "UNCAUSED_SOURCE_VERSUS_FULL_FIRST_CAUSE_1",
+      "definition_id": "DEF-ATOMIC-CAUSAL-SOURCE",
+      "lean_declaration": "TruthCore.Causality.AtomisticCausalSource.SourceExists"
+    },
+    {
+      "id": "fc4a4ee9-a3b2-4814-b4f8-984320cc5626",
+      "label": "UNCAUSED_SOURCE_VERSUS_FULL_FIRST_CAUSE_2",
+      "definition_id": "DEF-FIRST-CAUSE-UNIVERSAL-EFFECT"
+    }
+  ]
 }

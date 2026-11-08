@@ -6,5 +6,26 @@
     "DEF-LOCAL-TRANSMISSION",
     "DEF-ESSENTIAL-POWER-TRANSMISSION-RULE"
   ],
-  "resolution": "The two Boolean equations are state constraints whose unique satisfying pair needs no observed boundary bit. They are not the pure transfer rule of EssentialPower, a cyclic causal graph, an all-borrowed instrumental-power model, or a model of time travel. Nonconstant gates are checked on their full truth tables, not all perturbations of the satisfying state. Sufficient ontological explanation is unrepresented, so the control neither establishes nor refutes it. An intrinsic global structural explanation remains a live interpretation requiring an independent bridge; no prohibition of explanatory circularity is assumed."
+  "resolution": "The two Boolean equations are state constraints whose unique satisfying pair needs no observed boundary bit. They are not the pure transfer rule of EssentialPower, a cyclic causal graph, an all-borrowed instrumental-power model, or a model of time travel. Nonconstant gates are checked on their full truth tables, not all perturbations of the satisfying state. Sufficient ontological explanation is unrepresented, so the control neither establishes nor refutes it. An intrinsic global structural explanation remains a live interpretation requiring an independent bridge; no prohibition of explanatory circularity is assumed.",
+  "term_label": "CONSISTENCY_UNIQUE_FEEDBACK_SOLUTION_AND_SUFFICIENT",
+  "senses": [
+    {
+      "id": "252a760d-b2da-421d-bff1-eebadf5cb219",
+      "label": "CONSISTENCY_UNIQUE_FEEDBACK_SOLUTION_AND_SUFFICIENT_1",
+      "definition_id": "DEF-UNIQUE-FEEDBACK-STATE",
+      "lean_declaration": "TruthCore.Causality.UniqueFeedback.Controls"
+    },
+    {
+      "id": "e545e3b9-e532-4851-bd37-4db23a5f84b9",
+      "label": "CONSISTENCY_UNIQUE_FEEDBACK_SOLUTION_AND_SUFFICIENT_2",
+      "definition_id": "DEF-LOCAL-TRANSMISSION",
+      "lean_declaration": "TruthCore.Causality.LocalTransmission"
+    },
+    {
+      "id": "6a8ed102-aea4-4c08-8d5b-253dcf45f250",
+      "label": "CONSISTENCY_UNIQUE_FEEDBACK_SOLUTION_AND_SUFFICIENT_3",
+      "definition_id": "DEF-ESSENTIAL-POWER-TRANSMISSION-RULE",
+      "lean_declaration": "TruthCore.Causality.PowerTransmissionRule"
+    }
+  ]
 }

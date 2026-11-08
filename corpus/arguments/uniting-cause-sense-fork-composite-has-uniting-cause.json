@@ -26,5 +26,19 @@
   "disambiguation_ids": [
     "DISAMB-CAUSE",
     "DISAMB-UNITING-CAUSE"
+  ],
+  "sense_bridges": [
+    {
+      "term": "UNITING_CAUSE_VERSUS_EFFICIENT_CAUSE",
+      "from": "a7854292-a7cb-403d-b926-f61af1bb435b",
+      "to": "018d4f0a-2276-42a7-b20d-b0fe6c9c3714",
+      "statement_id": "STMT-UNITING-CAUSE-SENSES-EXHAUSTIVE"
+    },
+    {
+      "term": "UNITING_CAUSE_VERSUS_EFFICIENT_CAUSE",
+      "from": "a7854292-a7cb-403d-b926-f61af1bb435b",
+      "to": "2478812d-d2cd-4182-8ad0-d27a4bdb9ff2",
+      "statement_id": "STMT-UNITING-CAUSE-SENSES-EXHAUSTIVE"
+    }
   ]
 }

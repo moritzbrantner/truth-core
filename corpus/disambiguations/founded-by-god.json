@@ -6,5 +6,25 @@
     "DEF-FOUNDED-BY-GOD-IMMEDIATELY",
     "DEF-PRINCIPAL-ACT-FOUNDING-READING"
   ],
-  "resolution": "The original root predicate FoundedAsTeachingAuthority and all existing Challenges stay unchanged. The envoy bridge remains a Jesus-specific one-way implication, not a definition equating that predicate with an agency event. The new direct-only and envoy-inclusive calibrations are explicit open propositions on IsGod candidates. Direct-only says the target coextends with the supplied principal-own-act relation; inclusive says it coextends with direct founding or FoundedInMandate jesus g c plus CommissionedToTeach jesus c. Neither adds HoldsMandate or Jesus\u2260g. These two minimal readings may overlap. The stronger old immediate-without-creature glossary requires an additional exclusion; the new exclusive reading encodes only its Jesus-event fragment, not every creature. Given an actual commissioned-event witness that extra exclusion contradicts the old envoy bridge; minimal direct calibration alone does not. The case\u2019s existing stage, attestation, veracity and scope premises derive such a witness conditionally. Named coverage of the two minimal calibrations remains an open premise; the logical fork includes a precise additional-reading case, whose models admit opposite old-bridge verdicts. No preferred meaning, source attribution, historical event or root premise is established. The existing Dei Filius per-Filium lead remains compatible with multiple readings; on its theology the Son is God, while Signature does not identify jesus with an IsGod being. The older stage-5 Founded jesus c remains separate, and no societies founded by other envoys are silently added."
+  "resolution": "The original root predicate FoundedAsTeachingAuthority and all existing Challenges stay unchanged. The envoy bridge remains a Jesus-specific one-way implication, not a definition equating that predicate with an agency event. The new direct-only and envoy-inclusive calibrations are explicit open propositions on IsGod candidates. Direct-only says the target coextends with the supplied principal-own-act relation; inclusive says it coextends with direct founding or FoundedInMandate jesus g c plus CommissionedToTeach jesus c. Neither adds HoldsMandate or Jesus\u2260g. These two minimal readings may overlap. The stronger old immediate-without-creature glossary requires an additional exclusion; the new exclusive reading encodes only its Jesus-event fragment, not every creature. Given an actual commissioned-event witness that extra exclusion contradicts the old envoy bridge; minimal direct calibration alone does not. The case\u2019s existing stage, attestation, veracity and scope premises derive such a witness conditionally. Named coverage of the two minimal calibrations remains an open premise; the logical fork includes a precise additional-reading case, whose models admit opposite old-bridge verdicts. No preferred meaning, source attribution, historical event or root premise is established. The existing Dei Filius per-Filium lead remains compatible with multiple readings; on its theology the Son is God, while Signature does not identify jesus with an IsGod being. The older stage-5 Founded jesus c remains separate, and no societies founded by other envoys are silently added.",
+  "term_label": "FOUNDED_BY_GOD_THROUGH_AN_ENVOY",
+  "senses": [
+    {
+      "id": "3414b215-106a-483f-8346-c9ac88c64a8c",
+      "label": "FOUNDED_BY_GOD_THROUGH_AN_ENVOY_1",
+      "definition_id": "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
+      "lean_declaration": "TruthCore.Case.Catholicism.StageThree.DivineFounding.Agency"
+    },
+    {
+      "id": "a980f3a0-5d3e-4c9d-8072-bf1a293b7311",
+      "label": "FOUNDED_BY_GOD_THROUGH_AN_ENVOY_2",
+      "definition_id": "DEF-FOUNDED-BY-GOD-IMMEDIATELY"
+    },
+    {
+      "id": "b31e945d-2c5a-46c3-9a7f-e6157ba02428",
+      "label": "FOUNDED_BY_GOD_THROUGH_AN_ENVOY_3",
+      "definition_id": "DEF-PRINCIPAL-ACT-FOUNDING-READING",
+      "lean_declaration": "TruthCore.Case.Catholicism.StageThree.FoundingDefinitions.ImmediateOnlyReading"
+    }
+  ]
 }

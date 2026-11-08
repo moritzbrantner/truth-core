@@ -6,5 +6,26 @@
     "DEF-NECESSARILY-UNDERIVED",
     "DEF-NONREFUTABLE-NECESSARILY-UNDERIVED"
   ],
-  "resolution": "NecessaryAt means the same bearer exists at accessible worlds, not that its essence explains existence. NecessarilyUnderived additionally excludes all existing direct supporters of one actual necessary bearer at every admitted world; it does not assert uniqueness or divine attributes. NonRefutableNecessarilyUnderived is the constructive double negation of that existential claim, not a positive witness. The positive result explicitly uses the separate STMT-EXCLUDED-MIDDLE. NECESSARILY-UNDERIVED-FROM-ACTUAL-GROUNDED passes from a necessary actual root to NecessarilyUnderived only through the explicit open premises STMT-NECESSARY-SUPPORT-IS-PRESENT and STMT-ACTUAL-SUPPORTERS-CONCRETE; UNDERIVED-ROUTE-CONTROLS has necessary actual roots that are not underived."
+  "resolution": "NecessaryAt means the same bearer exists at accessible worlds, not that its essence explains existence. NecessarilyUnderived additionally excludes all existing direct supporters of one actual necessary bearer at every admitted world; it does not assert uniqueness or divine attributes. NonRefutableNecessarilyUnderived is the constructive double negation of that existential claim, not a positive witness. The positive result explicitly uses the separate STMT-EXCLUDED-MIDDLE. NECESSARILY-UNDERIVED-FROM-ACTUAL-GROUNDED passes from a necessary actual root to NecessarilyUnderived only through the explicit open premises STMT-NECESSARY-SUPPORT-IS-PRESENT and STMT-ACTUAL-SUPPORTERS-CONCRETE; UNDERIVED-ROUTE-CONTROLS has necessary actual roots that are not underived.",
+  "term_label": "DE_RE_NECESSARY_EXISTENCE_ABSENT_EXISTENTIAL",
+  "senses": [
+    {
+      "id": "2bba28ee-ea32-4fd0-b582-7500ea114b2f",
+      "label": "DE_RE_NECESSARY_EXISTENCE_ABSENT_EXISTENTIAL_1",
+      "definition_id": "DEF-KANT-MODAL-NECESSITY",
+      "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.NecessaryAt"
+    },
+    {
+      "id": "6d0fde78-c9fd-40b9-9802-1d096b77f375",
+      "label": "DE_RE_NECESSARY_EXISTENCE_ABSENT_EXISTENTIAL_2",
+      "definition_id": "DEF-NECESSARILY-UNDERIVED",
+      "lean_declaration": "TruthCore.Causality.NecessarilyUnderived.NecessarilyUnderived"
+    },
+    {
+      "id": "6beb6afd-0f62-490e-a313-5e7934d8f477",
+      "label": "DE_RE_NECESSARY_EXISTENCE_ABSENT_EXISTENTIAL_3",
+      "definition_id": "DEF-NONREFUTABLE-NECESSARILY-UNDERIVED",
+      "lean_declaration": "TruthCore.Causality.NecessarilyUnderived.NonRefutableNecessarilyUnderived"
+    }
+  ]
 }

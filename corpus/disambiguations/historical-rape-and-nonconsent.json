@@ -5,5 +5,19 @@
     "DEF-AQUINAS-HISTORICAL-RAPE",
     "DEF-HARD-CASE-NONCONSENT"
   ],
-  "resolution": "Aquinas’s historical category refers in part to force and abduction relative to family or marital status: it may include removal with the woman’s consent, while ad 4 excludes a newly married husband’s violence from that classification though calling it sinful. The hard-case predicate separately stipulates lack of consent for the specific act; it encodes neither the source category nor a legal definition. The source supports a forced-violation example but not their universal equivalence."
+  "resolution": "Aquinas’s historical category refers in part to force and abduction relative to family or marital status: it may include removal with the woman’s consent, while ad 4 excludes a newly married husband’s violence from that classification though calling it sinful. The hard-case predicate separately stipulates lack of consent for the specific act; it encodes neither the source category nor a legal definition. The source supports a forced-violation example but not their universal equivalence.",
+  "term_label": "HISTORICAL_RAPE_AND_STIPULATED_NONCONSENSUAL_ACT",
+  "senses": [
+    {
+      "id": "19c12309-eae0-4aa7-a777-00e7d8a4177f",
+      "label": "HISTORICAL_RAPE_AND_STIPULATED_NONCONSENSUAL_ACT_1",
+      "definition_id": "DEF-AQUINAS-HISTORICAL-RAPE"
+    },
+    {
+      "id": "9e3d8f48-29e8-44f9-940c-f0d832d15065",
+      "label": "HISTORICAL_RAPE_AND_STIPULATED_NONCONSENSUAL_ACT_2",
+      "definition_id": "DEF-HARD-CASE-NONCONSENT",
+      "lean_declaration": "TruthCore.Ethics.HardCaseTyped.Facts.nonconsensual"
+    }
+  ]
 }

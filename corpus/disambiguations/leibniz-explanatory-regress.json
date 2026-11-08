@@ -9,5 +9,40 @@
     "DEF-LOCAL-TRANSMISSION",
     "DEF-ALL-PREMISE-GENERATED-WARRANT"
   ],
-  "resolution": "The §32 norm covers real/existing facts and true statements; §§36–37 apply the demand to the contingent sequence rather than merely asking for a local causal predecessor. §§33–35 propose analytical identity principles for necessary truths, and §45 claims an intrinsic existence reason for the proposed necessary ground. These are distinct explananda and proposals. LocalTransmission only constrains neighboring activities; GeneratedWarrant is a stipulated foundationalist epistemic standard, not Leibniz’s universal explanatory norm. Neither a causal chain, a finite proof path, mathematical uniqueness, an unknown reason, nor de re modal necessity alone establishes explanatory adequacy. No cross-domain transfer or requirement of an external efficient cause is silently added."
+  "resolution": "The §32 norm covers real/existing facts and true statements; §§36–37 apply the demand to the contingent sequence rather than merely asking for a local causal predecessor. §§33–35 propose analytical identity principles for necessary truths, and §45 claims an intrinsic existence reason for the proposed necessary ground. These are distinct explananda and proposals. LocalTransmission only constrains neighboring activities; GeneratedWarrant is a stipulated foundationalist epistemic standard, not Leibniz’s universal explanatory norm. Neither a causal chain, a finite proof path, mathematical uniqueness, an unknown reason, nor de re modal necessity alone establishes explanatory adequacy. No cross-domain transfer or requirement of an external efficient cause is silently added.",
+  "term_label": "REASON_EXPLANATION_WARRANT_AND_REGRESS",
+  "senses": [
+    {
+      "id": "2099b31b-8110-47c2-af8c-ac85f558d9f8",
+      "label": "REASON_EXPLANATION_WARRANT_AND_REGRESS_1",
+      "definition_id": "DEF-LEIBNIZ-FACT-REASON-DEMAND"
+    },
+    {
+      "id": "e29ed6b1-d381-46ed-8c34-c2a9f1a3b65d",
+      "label": "REASON_EXPLANATION_WARRANT_AND_REGRESS_2",
+      "definition_id": "DEF-LEIBNIZ-ANALYTIC-TERMINUS"
+    },
+    {
+      "id": "01f76f1c-83ac-4e70-b269-37e4be7196a7",
+      "label": "REASON_EXPLANATION_WARRANT_AND_REGRESS_3",
+      "definition_id": "DEF-LEIBNIZ-INTRINSIC-EXISTENCE-REASON"
+    },
+    {
+      "id": "0b1040aa-282f-48c7-a521-90075fa1199b",
+      "label": "REASON_EXPLANATION_WARRANT_AND_REGRESS_4",
+      "definition_id": "DEF-KANT-SUFFICIENT-REASON"
+    },
+    {
+      "id": "4e89f821-fa3b-4100-a9a4-26a16e097ced",
+      "label": "REASON_EXPLANATION_WARRANT_AND_REGRESS_5",
+      "definition_id": "DEF-LOCAL-TRANSMISSION",
+      "lean_declaration": "TruthCore.Causality.LocalTransmission"
+    },
+    {
+      "id": "718813b4-7490-4f85-9ce1-bbb0ae234b19",
+      "label": "REASON_EXPLANATION_WARRANT_AND_REGRESS_6",
+      "definition_id": "DEF-ALL-PREMISE-GENERATED-WARRANT",
+      "lean_declaration": "TruthCore.Logic.RegressDomains.GeneratedWarrant"
+    }
+  ]
 }

@@ -5,5 +5,19 @@
     "DEF-HIDDENNESS-GOD",
     "DEF-HIDDENNESS-OPEN-ULTIMATE-INQUIRY"
   ],
-  "resolution": "The negative conclusion targets a personal religious ultimate. Non-theism here leaves nonpersonal ultimate possibilities open; naturalism is not inferred. The Catholic root’s God and the historical pilot’s predicates are linked by context only, with no unstated Lean identity bridge."
+  "resolution": "The negative conclusion targets a personal religious ultimate. Non-theism here leaves nonpersonal ultimate possibilities open; naturalism is not inferred. The Catholic root’s God and the historical pilot’s predicates are linked by context only, with no unstated Lean identity bridge.",
+  "term_label": "RELIGIOUS_ULTIMATE",
+  "senses": [
+    {
+      "id": "6a87119d-a4bc-4c38-b566-3f3257234b97",
+      "label": "RELIGIOUS_ULTIMATE_1",
+      "definition_id": "DEF-HIDDENNESS-GOD",
+      "lean_declaration": "TruthCore.Hiddenness.Sig.God"
+    },
+    {
+      "id": "d53aecf1-ae39-4d44-b10a-353555218771",
+      "label": "RELIGIOUS_ULTIMATE_2",
+      "definition_id": "DEF-HIDDENNESS-OPEN-ULTIMATE-INQUIRY"
+    }
+  ]
 }

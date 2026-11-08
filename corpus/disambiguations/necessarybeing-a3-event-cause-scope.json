@@ -6,5 +6,23 @@
     "DEF-NB-A3-EVENT-AND-CAUSE",
     "DEF-NB-A3-FIRST-CONTINGENT-TRANSITION",
     "DEF-NB-SURVEY-NECESSARY-BEING"
+  ],
+  "term_label": "A3_EVENT_IDENTITY_CAUSAL_PRIORITY",
+  "senses": [
+    {
+      "id": "afc77712-1af0-4908-a048-2048aa96200e",
+      "label": "A3_EVENT_IDENTITY_CAUSAL_PRIORITY_1",
+      "definition_id": "DEF-NB-A3-EVENT-AND-CAUSE"
+    },
+    {
+      "id": "ca83fe44-1bdd-4847-9df6-9888d9d3a998",
+      "label": "A3_EVENT_IDENTITY_CAUSAL_PRIORITY_2",
+      "definition_id": "DEF-NB-A3-FIRST-CONTINGENT-TRANSITION"
+    },
+    {
+      "id": "c4122f54-214b-494f-88a7-75db3e688e5a",
+      "label": "A3_EVENT_IDENTITY_CAUSAL_PRIORITY_3",
+      "definition_id": "DEF-NB-SURVEY-NECESSARY-BEING"
+    }
   ]
 }

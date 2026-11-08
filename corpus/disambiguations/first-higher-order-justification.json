@@ -6,5 +6,26 @@
     "DEF-KNOWLEDGE-JUSTIFICATION-NORM",
     "DEF-FACTIVE-KNOWLEDGE"
   ],
-  "resolution": "Knows F p w is first-order relational knowledge of p; justified w records justification of that same p; Knows F justified w is knowledge that p is justified. Negating the last does not negate either earlier condition without additional assumptions. The finite model establishes this distinction even with factivity and a global knowledge-requires-justification norm. Certainty is not modeled and no claim about its necessity for knowledge follows. The existing generic factivity profile and this relational realization are compatible but distinct interfaces; assertion does not supply any knowledge token. No causal or metaphysical grounding edge is an epistemic warrant edge."
+  "resolution": "Knows F p w is first-order relational knowledge of p; justified w records justification of that same p; Knows F justified w is knowledge that p is justified. Negating the last does not negate either earlier condition without additional assumptions. The finite model establishes this distinction even with factivity and a global knowledge-requires-justification norm. Certainty is not modeled and no claim about its necessity for knowledge follows. The existing generic factivity profile and this relational realization are compatible but distinct interfaces; assertion does not supply any knowledge token. No causal or metaphysical grounding edge is an epistemic warrant edge.",
+  "term_label": "KNOWLEDGE_JUSTIFICATION_KNOWLEDGE_OF_JUSTIFICATION",
+  "senses": [
+    {
+      "id": "b7d4d581-778a-4e10-8cef-1d38f69a657c",
+      "label": "KNOWLEDGE_JUSTIFICATION_KNOWLEDGE_OF_JUSTIFICATION_1",
+      "definition_id": "DEF-EPISTEMIC-ALTERNATIVES-KNOWLEDGE",
+      "lean_declaration": "TruthCore.Logic.JustificationIntrospection.Knows"
+    },
+    {
+      "id": "c0b2b422-5083-4d9a-b8b5-d2ad7fe40fb2",
+      "label": "KNOWLEDGE_JUSTIFICATION_KNOWLEDGE_OF_JUSTIFICATION_2",
+      "definition_id": "DEF-KNOWLEDGE-JUSTIFICATION-NORM",
+      "lean_declaration": "TruthCore.Logic.JustificationIntrospection.KnowledgeRequiresJustification"
+    },
+    {
+      "id": "4def29f3-4c48-49ba-9b6f-e8d2fc236599",
+      "label": "KNOWLEDGE_JUSTIFICATION_KNOWLEDGE_OF_JUSTIFICATION_3",
+      "definition_id": "DEF-FACTIVE-KNOWLEDGE",
+      "lean_declaration": "TruthCore.Logic.KnowledgeRetorsion.FactiveKnowledge"
+    }
+  ]
 }

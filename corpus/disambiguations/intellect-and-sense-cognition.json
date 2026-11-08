@@ -5,5 +5,19 @@
     "DEF-HAS-INTELLECT",
     "DEF-SENSE-COGNITION"
   ],
-  "resolution": "HasIntellect means intellectual cognition, not any cognition whatever. The source distinguishes sense from intellect; the case’s sufficiency premise for intellect uses the stated interpretation of highest immateriality. Neither the primitive predicate nor this terminology proves an intellectual faculty from sensory awareness alone."
+  "resolution": "HasIntellect means intellectual cognition, not any cognition whatever. The source distinguishes sense from intellect; the case’s sufficiency premise for intellect uses the stated interpretation of highest immateriality. Neither the primitive predicate nor this terminology proves an intellectual faculty from sensory awareness alone.",
+  "term_label": "COGNITION_INTELLECT",
+  "senses": [
+    {
+      "id": "818690bc-94b8-476b-a10c-10df5b3647bc",
+      "label": "COGNITION_INTELLECT_1",
+      "definition_id": "DEF-HAS-INTELLECT",
+      "lean_declaration": "TruthCore.Case.Catholicism.GodHasIntellect"
+    },
+    {
+      "id": "5b0a205b-1608-44d1-b184-58fa5d881f2a",
+      "label": "COGNITION_INTELLECT_2",
+      "definition_id": "DEF-SENSE-COGNITION"
+    }
+  ]
 }

@@ -6,5 +6,26 @@
     "DEF-PRIORITY-IN-TIME",
     "DEF-PRIORITY-IN-SUBSTANCE"
   ],
-  "resolution": "When the aporia of Metaphysics XII.6, 1071b22-24, and the Night cosmogony (1071b26-28) say that potency is prior, the case reads 'prior' as simple priority (`PriorSimply`), the sense of the premise STMT-ACT-SIMPLY-PRIOR-TO-POTENCY. Only on that reading are STMT-POTENCY-PRIOR-TO-ACT and STMT-NIGHT-UNPRECEDED-POTENCY-ACTUALIZED rivals of the premise. Aristotle's first answer ('nothing that is will be', 1071b24-26) and his later remark that chaos or night did not exist for an infinite time (1072a7-8) also touch priority in time, and he grants that to think potency prior is 'in a way right' (1072a3-4). On the temporal reading the position is compatible with the premise: Aquinas grants that potency precedes act in time within one changing thing (ST I q.3 a.1 co.), so it is not formalized as a rival. Every statement of the elimination GENERATION-FROM-NIGHT-REFUTED uses the one predicate `PriorSimply`, so no step passes from one sense to the other. Metaphysics IX.8, 1050b6-7, and In Metaph. IX, lect. 9 n. 1 say that incorruptible beings are prior to corruptible ones in substance and perfection. The case reads that as PriorInSubstance (DEF-PRIORITY-IN-SUBSTANCE), not as PriorSimply: ActPriorFromIncorruptibleFacts reaches simple priority from it only through the explicit unattributed hypothesis PriorInSubstanceIsSimpleReading, so no step there passes silently from one sense to the other. Sense fork (docs/notes/load-bearing-terms.md): TruthCore.Causality.TermSenseForks relates the three senses. PrioritySense enumerates simply, inTime and inSubstance; PriorityFrame.PriorIn unfolds them to PriorSimply, PriorInTime (DEF-PRIORITY-IN-TIME, now a frame parameter) and PriorInSubstance. Coverage (STMT-PRIOR-SENSES-EXHAUSTIVE) and exclusivity of the route's reading (STMT-PRIOR-SENSE-UNIQUE) are explicit OPEN frontier premises. PRIOR-SENSE-FORK-ACT-SIMPLY-PRIOR reaches STMT-ACT-SIMPLY-PRIOR-TO-POTENCY by cases: simple directly, substance through the open bridge STMT-PRIOR-IN-SUBSTANCE-IS-SIMPLE, time refuted under STMT-TEMPORALLY-FIRST-BEING-IN-POTENCY (ACT-NOT-PRIOR-IN-TIME-FROM-TEMPORALLY-FIRST-POTENCY). No strength order among the three senses is provable without a bridge, so none is registered."
+  "resolution": "When the aporia of Metaphysics XII.6, 1071b22-24, and the Night cosmogony (1071b26-28) say that potency is prior, the case reads 'prior' as simple priority (`PriorSimply`), the sense of the premise STMT-ACT-SIMPLY-PRIOR-TO-POTENCY. Only on that reading are STMT-POTENCY-PRIOR-TO-ACT and STMT-NIGHT-UNPRECEDED-POTENCY-ACTUALIZED rivals of the premise. Aristotle's first answer ('nothing that is will be', 1071b24-26) and his later remark that chaos or night did not exist for an infinite time (1072a7-8) also touch priority in time, and he grants that to think potency prior is 'in a way right' (1072a3-4). On the temporal reading the position is compatible with the premise: Aquinas grants that potency precedes act in time within one changing thing (ST I q.3 a.1 co.), so it is not formalized as a rival. Every statement of the elimination GENERATION-FROM-NIGHT-REFUTED uses the one predicate `PriorSimply`, so no step passes from one sense to the other. Metaphysics IX.8, 1050b6-7, and In Metaph. IX, lect. 9 n. 1 say that incorruptible beings are prior to corruptible ones in substance and perfection. The case reads that as PriorInSubstance (DEF-PRIORITY-IN-SUBSTANCE), not as PriorSimply: ActPriorFromIncorruptibleFacts reaches simple priority from it only through the explicit unattributed hypothesis PriorInSubstanceIsSimpleReading, so no step there passes silently from one sense to the other. Sense fork (docs/notes/load-bearing-terms.md): TruthCore.Causality.TermSenseForks relates the three senses. PrioritySense enumerates simply, inTime and inSubstance; PriorityFrame.PriorIn unfolds them to PriorSimply, PriorInTime (DEF-PRIORITY-IN-TIME, now a frame parameter) and PriorInSubstance. Coverage (STMT-PRIOR-SENSES-EXHAUSTIVE) and exclusivity of the route's reading (STMT-PRIOR-SENSE-UNIQUE) are explicit OPEN frontier premises. PRIOR-SENSE-FORK-ACT-SIMPLY-PRIOR reaches STMT-ACT-SIMPLY-PRIOR-TO-POTENCY by cases: simple directly, substance through the open bridge STMT-PRIOR-IN-SUBSTANCE-IS-SIMPLE, time refuted under STMT-TEMPORALLY-FIRST-BEING-IN-POTENCY (ACT-NOT-PRIOR-IN-TIME-FROM-TEMPORALLY-FIRST-POTENCY). No strength order among the three senses is provable without a bridge, so none is registered.",
+  "term_label": "PRIOR",
+  "senses": [
+    {
+      "id": "4fecf28a-746e-4d8b-bd42-6a8722507293",
+      "label": "PRIOR_1",
+      "definition_id": "DEF-SIMPLE-PRIORITY",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.ActSimplyPriorToPotencyReading"
+    },
+    {
+      "id": "4d165ba0-7511-4a04-9795-d1f0b7490588",
+      "label": "PRIOR_2",
+      "definition_id": "DEF-PRIORITY-IN-TIME",
+      "lean_declaration": "TruthCore.Causality.TermSenseForks.PriorityFrame.PriorInTime"
+    },
+    {
+      "id": "66a09f6e-13e1-40a0-b18b-9fb2d222d63f",
+      "label": "PRIOR_3",
+      "definition_id": "DEF-PRIORITY-IN-SUBSTANCE",
+      "lean_declaration": "TruthCore.Latin.Aquinas.InMetaphysicam.IncorruptiblePriorInSubstanceReading"
+    }
+  ]
 }

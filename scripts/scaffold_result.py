@@ -17,8 +17,8 @@ SOLUTION_MODULE_HEADER = "module\n\npublic import <VOCABULARY-MODULE>\n\n@[expos
 
 def bundle(args: argparse.Namespace) -> dict:
     """Build drafts from authoritative statements, optionally comparing saved types."""
-    if not re.fullmatch(r"[A-Z][A-Z0-9]*(?:-[A-Z0-9]+)*", args.id):
-        raise corpus.CorpusError("--id must be an uppercase hyphenated identifier")
+    if not re.fullmatch(r"[A-Z][A-Z0-9]*(?:-[A-Z0-9]+)*|" + r'[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}', args.id):
+        raise corpus.CorpusError("--id must be an uppercase hyphenated identifier or a uuid4")
     for name in (args.challenge_module, args.solution_module, args.theorem):
         if not re.fullmatch(r"TruthCore(?:\.[A-Za-z_][A-Za-z0-9_]*)+", name):
             raise corpus.CorpusError(f"unsupported Lean name: {name}")

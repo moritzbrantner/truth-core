@@ -50,6 +50,27 @@ The spec format:
     conclusion = "STMT-..."
     rule = "..."
     meaning = "..."              # also the result description
+    senses = {PRIOR = "PRIOR_1"} # term_senses: one sense per disambiguated term
+                                 # (TERM_n label or sense uuid; written as uuids)
+
+    # An argument that works with several senses of a term becomes one
+    # argument per sense (owner direction 2026-11-07). Each case has its own
+    # sense-specific statements and Lean theorem; the generator gives every
+    # case a fresh uuid4 argument/result id with a human `label`, and reuses
+    # it on later runs (matched by label and term_senses).
+    [[argument]]
+    label = "Act is prior from incorruptible facts"
+    for_each_sense = {term = "PRIOR", senses = ["PRIOR_1", "PRIOR_3"]}
+    rule = "..."
+    meaning = "..."
+    [argument.cases.PRIOR_1]
+    theorem = "actPriorSimply"
+    premises = ["STMT-..."]
+    conclusion = "STMT-..."
+    [argument.cases.PRIOR_3]
+    theorem = "actPriorInSubstance"
+    premises = ["STMT-..."]
+    conclusion = "STMT-..."
 
     [[relation]]
     id = "REL-..."
@@ -69,10 +90,12 @@ import re
 import subprocess
 import sys
 import tomllib
+import uuid
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 CORPUS = ROOT / "corpus"
+UUID4 = re.compile(r"[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}")
 
 
 def slug(identifier: str) -> str:
@@ -99,6 +122,55 @@ def dump(path: Path, record: dict, write: bool, planned: list[str]) -> None:
     if write:
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(text)
+
+
+def sense_table() -> dict[str, dict[str, str]]:
+    """term_label -> {label or uuid: uuid} from the disambiguations' senses."""
+    table: dict[str, dict[str, str]] = {}
+    for _, (_, record) in load_ids("disambiguations").items():
+        for sense in record.get("senses", []):
+            entry = table.setdefault(record["term_label"], {})
+            entry[sense["label"]] = sense["id"]
+            entry[sense["id"]] = sense["id"]
+    return table
+
+
+def resolve_senses(spec_senses: dict[str, str], table: dict[str, dict[str, str]], where: str) -> dict[str, str]:
+    resolved = {}
+    for term, sense in sorted(spec_senses.items()):
+        if sense not in table.get(term, {}):
+            raise SystemExit(f"{where}: {sense} is not a sense of {term}")
+        resolved[term] = table[term][sense]
+    return resolved
+
+
+def expand_sense_forks(spec: dict, existing_arguments: dict[str, tuple[Path, dict]]) -> list[dict]:
+    """One argument spec per sense for every `for_each_sense` argument."""
+    table = sense_table()
+    expanded = []
+    for a in spec.get("argument", []):
+        fork = a.get("for_each_sense")
+        if fork is None:
+            expanded.append({**a, "term_senses": resolve_senses(a.get("senses", {}), table, a["id"])})
+            continue
+        where = a.get("label", "for_each_sense argument")
+        if "id" in a or not a.get("label"):
+            raise SystemExit(f"{where}: a for_each_sense argument has a label and no id (each sense gets a uuid)")
+        cases = a.get("cases", {})
+        if sorted(cases) != sorted(fork["senses"]) or len(fork["senses"]) < 2:
+            raise SystemExit(f"{where}: give one [argument.cases.<SENSE>] per sense in for_each_sense")
+        for label in fork["senses"]:
+            case = {**{k: v for k, v in a.items() if k not in ("for_each_sense", "cases")}, **cases[label]}
+            term_senses = resolve_senses({**a.get("senses", {}), fork["term"]: label}, table, where)
+            case["label"] = f"{a['label']} [{label}]"
+            case["term_senses"] = term_senses
+            match = [aid for aid, (_, record) in existing_arguments.items()
+                     if record.get("label") == case["label"] and record.get("term_senses") == term_senses]
+            case["id"] = case.get("id") or (match[0] if match else str(uuid.uuid4()))
+            if match:
+                case["inference_id"] = existing_arguments[match[0]][1]["inference_ids"][0]
+            expanded.append(case)
+    return expanded
 
 
 def lean_name(batch: dict, name: str) -> str:
@@ -129,29 +201,39 @@ def build_records(spec: dict, write: bool) -> list[str]:
             return existing["statements"][statement_id][1].get(f"{key[:-1]}_ids", [])
         raise SystemExit(f"unknown statement {statement_id}")
 
-    for a in spec.get("argument", []):
+    table = sense_table()
+    for a in expand_sense_forks(spec, existing["arguments"]):
         ids = a["premises"] + [a["conclusion"]]
         definitions = a.get("definitions") or sorted(
             {d for i in ids for d in senses(i, "definitions")} | set(batch.get("definitions", [])))
         disambiguations = a.get("disambiguations") or sorted(
             {d for i in ids for d in senses(i, "disambiguations")} | set(batch.get("disambiguations", [])))
         name = slug(a["id"])
-        inference = {"id": f"INF-{a['id']}", "input_statement_ids": a["premises"],
+        inference_id = a.get("inference_id") or (
+            str(uuid.uuid4()) if UUID4.fullmatch(a["id"]) else f"INF-{a['id']}")
+        inference = {"id": inference_id, "input_statement_ids": a["premises"],
                      "output_statement_id": a["conclusion"], "rule": a["rule"], "meaning": a["meaning"],
                      "assumption_statement_ids": [], "discharged_statement_ids": []}
         if "label" in a:
             inference["label"] = a["label"]
         labelled = {"label": a["label"]} if "label" in a else {}
         argument = {"id": a["id"], **labelled, "premise_statement_ids": a["premises"],
-                    "conclusion_statement_id": a["conclusion"], "inference_ids": [f"INF-{a['id']}"],
+                    "conclusion_statement_id": a["conclusion"], "inference_ids": [inference_id],
                     "meaning": a["meaning"]}
+        if a["term_senses"]:
+            argument["term_senses"] = a["term_senses"]
         if definitions:
             argument["definition_ids"] = definitions
         if disambiguations:
             argument["disambiguation_ids"] = disambiguations
-        for key in ("strong_version_needed", "commitment_statement_ids"):
+        for key in ("strong_version_needed", "commitment_statement_ids", "sense_mixing_control"):
             if key in a:
                 argument[key] = a[key]
+        if "sense_bridges" in a:
+            argument["sense_bridges"] = [
+                {**bridge, **{end: resolve_senses({bridge["term"]: bridge[end]}, table, a["id"])[bridge["term"]]
+                              for end in ("from", "to")}}
+                for bridge in a["sense_bridges"]]
         if a["id"] in existing["arguments"]:
             argument = {**existing["arguments"][a["id"]][1], **{k: v for k, v in argument.items()
                                                                if k not in ("disambiguation_ids",)}}
@@ -159,9 +241,12 @@ def build_records(spec: dict, write: bool) -> list[str]:
         result = {"id": a["id"], **labelled, "argument_id": a["id"], "challenge_module": f"{batch['results']}.Challenge",
                   "solution_module": f"{batch['results']}.Solution", "theorem": f"{batch['results']}.{a['theorem']}",
                   "comparator_config": comparator, "status": "solution-present", "description": a["meaning"]}
+        if a.get("label"):
+            result["label"] = a["label"]
         if "transcription" in a:
             result["transcription"] = a["transcription"]
-        dump(existing["inferences"].get(inference["id"], (CORPUS / "inferences" / f"{name}.json",))[0],
+        inference_file = inference_id if UUID4.fullmatch(inference_id) else name
+        dump(existing["inferences"].get(inference["id"], (CORPUS / "inferences" / f"{inference_file}.json",))[0],
              inference, write, planned)
         dump(existing["arguments"].get(a["id"], (CORPUS / "arguments" / f"{name}.json",))[0],
              argument, write, planned)

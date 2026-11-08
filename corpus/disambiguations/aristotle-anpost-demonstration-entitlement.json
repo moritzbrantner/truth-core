@@ -7,5 +7,29 @@
     "DEF-ARISTOTLE-ANPOST-PRIORITY",
     "DEF-ALL-PREMISE-GENERATED-WARRANT"
   ],
-  "resolution": "The An.Post. claims reconstruct a source-specific norm of demonstrative episteme and Aristotle's positive non-demonstrative reply. They do not identify every epistemic justification with the repository's stipulated GeneratedWarrant. Prior explanatory knowledge is not merely earlier temporal possession or infinitely many psychologically performed steps. Immediate knowledge is not bare concession, while Aristotle's assertion that it exists is not our proof of independent entitlement. Circular demonstration, reciprocal logical consequence and holistic epistemic support remain distinct. No epistemic argument is transferred to ontological causal dependence or an unbounded temporal past without an additional defended bridge."
+  "resolution": "The An.Post. claims reconstruct a source-specific norm of demonstrative episteme and Aristotle's positive non-demonstrative reply. They do not identify every epistemic justification with the repository's stipulated GeneratedWarrant. Prior explanatory knowledge is not merely earlier temporal possession or infinitely many psychologically performed steps. Immediate knowledge is not bare concession, while Aristotle's assertion that it exists is not our proof of independent entitlement. Circular demonstration, reciprocal logical consequence and holistic epistemic support remain distinct. No epistemic argument is transferred to ontological causal dependence or an unbounded temporal past without an additional defended bridge.",
+  "term_label": "DEMONSTRATION_IMMEDIATE_KNOWLEDGE_INFERENTIAL_WARRANT",
+  "senses": [
+    {
+      "id": "767ae7b8-e8af-415e-b98c-1d730fee0a3f",
+      "label": "DEMONSTRATION_IMMEDIATE_KNOWLEDGE_INFERENTIAL_WARRANT_1",
+      "definition_id": "DEF-ARISTOTLE-ANPOST-DEMONSTRATION"
+    },
+    {
+      "id": "4398c1a8-24b7-47f7-aec7-0f665bd676c4",
+      "label": "DEMONSTRATION_IMMEDIATE_KNOWLEDGE_INFERENTIAL_WARRANT_2",
+      "definition_id": "DEF-ARISTOTLE-ANPOST-IMMEDIATE-PRINCIPLE"
+    },
+    {
+      "id": "0e67d9fb-5065-4d77-8ae7-6e29a2d5166e",
+      "label": "DEMONSTRATION_IMMEDIATE_KNOWLEDGE_INFERENTIAL_WARRANT_3",
+      "definition_id": "DEF-ARISTOTLE-ANPOST-PRIORITY"
+    },
+    {
+      "id": "2544cd5a-86f2-4b40-ad42-85c514047ab6",
+      "label": "DEMONSTRATION_IMMEDIATE_KNOWLEDGE_INFERENTIAL_WARRANT_4",
+      "definition_id": "DEF-ALL-PREMISE-GENERATED-WARRANT",
+      "lean_declaration": "TruthCore.Logic.RegressDomains.GeneratedWarrant"
+    }
+  ]
 }

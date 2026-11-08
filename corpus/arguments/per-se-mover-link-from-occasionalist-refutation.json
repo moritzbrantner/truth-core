@@ -17,5 +17,13 @@
   "disambiguation_ids": [
     "DISAMB-CAUSAL-SERIES",
     "DISAMB-PER-SE"
+  ],
+  "sense_bridges": [
+    {
+      "term": "SERIES_OF_CAUSES",
+      "from": "1f94774f-4c51-4448-bcf7-898a40648a95",
+      "to": "be30bf4e-59fd-43b8-8c85-905ec7c86387",
+      "statement_id": "STMT-NO-OCCASIONALIST-MOVER-LINK-WITHOUT-CAUSE"
+    }
   ]
 }

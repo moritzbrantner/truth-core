@@ -5,5 +5,19 @@
     "DEF-PARTICIPATED-ESSE",
     "DEF-PLATONIC-PARTICIPATION"
   ],
-  "resolution": "The q.44 reading concerns derivative esse as contrasted with essential/subsistent esse. It does not identify this source meaning with Plato's participation relation; no statement IDs or Lean declarations are merged by the shared word."
+  "resolution": "The q.44 reading concerns derivative esse as contrasted with essential/subsistent esse. It does not identify this source meaning with Plato's participation relation; no statement IDs or Lean declarations are merged by the shared word.",
+  "term_label": "PARTICIPATION",
+  "senses": [
+    {
+      "id": "23673b54-414b-4320-9df0-066d19c6f716",
+      "label": "PARTICIPATION_4",
+      "definition_id": "DEF-PARTICIPATED-ESSE"
+    },
+    {
+      "id": "4bdeb5fc-260b-42df-86af-3da72bc078f9",
+      "label": "PARTICIPATION_1",
+      "definition_id": "DEF-PLATONIC-PARTICIPATION",
+      "lean_declaration": "TruthCore.Greek.Plato.Forms.Vocabulary"
+    }
+  ]
 }

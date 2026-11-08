@@ -7,5 +7,32 @@
     "DEF-CHOICE-CONTEXT-CONSTRAINT",
     "DEF-CHOICE-CONTEXT-RELATIONAL-LAW"
   ],
-  "resolution": "A different output somewhere may change law or complete input. Alternative instead keeps both fixed. The deterministic table rules out this stronger alternative even at an unconstrained history. Unconstrained describes the absence of one explicitly modeled imposition, not freedom or desert. The relational-law control uses one identical relation and identical input for both outputs: rejecting deterministic functionality need not require violating that relation. The functional and relational tables are distinct interpretations, not simultaneously conflicting laws of one actual system. All are stipulated semantic controls; no source or historical free-will position is defined by these tests."
+  "resolution": "A different output somewhere may change law or complete input. Alternative instead keeps both fixed. The deterministic table rules out this stronger alternative even at an unconstrained history. Unconstrained describes the absence of one explicitly modeled imposition, not freedom or desert. The relational-law control uses one identical relation and identical input for both outputs: rejecting deterministic functionality need not require violating that relation. The functional and relational tables are distinct interpretations, not simultaneously conflicting laws of one actual system. All are stipulated semantic controls; no source or historical free-will position is defined by these tests.",
+  "term_label": "DOING_OTHERWISE_LAWFULNESS_AND_ABSENCE",
+  "senses": [
+    {
+      "id": "4389165c-f9ca-4b43-94d2-1aa49b22d75e",
+      "label": "DOING_OTHERWISE_LAWFULNESS_AND_ABSENCE_1",
+      "definition_id": "DEF-CHOICE-CONTEXT-TABLE",
+      "lean_declaration": "TruthCore.Modal.ChoiceContext.History"
+    },
+    {
+      "id": "26efacca-bae3-4803-817e-fde8b3165e98",
+      "label": "DOING_OTHERWISE_LAWFULNESS_AND_ABSENCE_2",
+      "definition_id": "DEF-CHOICE-CONTEXT-ALTERNATIVE",
+      "lean_declaration": "TruthCore.Modal.ChoiceContext.Alternative"
+    },
+    {
+      "id": "117b06b4-f144-4a47-ac20-772918d7bc4b",
+      "label": "DOING_OTHERWISE_LAWFULNESS_AND_ABSENCE_3",
+      "definition_id": "DEF-CHOICE-CONTEXT-CONSTRAINT",
+      "lean_declaration": "TruthCore.Modal.ChoiceContext.Unconstrained"
+    },
+    {
+      "id": "7775817c-6cde-4e36-9e37-c301cb55bdca",
+      "label": "DOING_OTHERWISE_LAWFULNESS_AND_ABSENCE_4",
+      "definition_id": "DEF-CHOICE-CONTEXT-RELATIONAL-LAW",
+      "lean_declaration": "TruthCore.Modal.ChoiceContext.relationalLaw"
+    }
+  ]
 }

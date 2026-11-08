@@ -18,5 +18,20 @@
   ],
   "disambiguation_ids": [
     "DISAMB-MAXIME-ENS"
+  ],
+  "sense_bridges": [
+    {
+      "term": "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST",
+      "from": "9bea9a43-3a87-4d62-86de-e5873aea62f8",
+      "to": "517baa9d-7981-4e2a-bdae-045467cb29fc",
+      "statement_id": "STMT-GREATEST-IN-BEING-IS-MAXIMAL",
+      "role": "conclusion"
+    },
+    {
+      "term": "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST",
+      "from": "230f0729-018b-48e4-a148-3fe610dc2995",
+      "to": "517baa9d-7981-4e2a-bdae-045467cb29fc",
+      "statement_id": "STMT-MORE-IN-BEING-TRACKS-DEGREE"
+    }
   ]
 }

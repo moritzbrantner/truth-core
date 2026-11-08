@@ -5,5 +5,20 @@
     "DEF-DERIVATIVE-JOINT-SUPPLY",
     "DEF-ACTUAL-CONCRETE-EXISTENTIAL-SUPPLY"
   ],
-  "resolution": "The generic Supply predicate accepts an independently specified intrinsic predicate and does not identify intrinsic event power with graph sourcehood. In ActualConcreteSupply, nodes are actual concrete individuals rather than event tokens, the graph is the same selected existential-grounding relation, and the intrinsic parameter is expressly instantiated as its Source predicate. This is an explicit philosophical application commitment, not an inference that an intrinsically powered event has an underived bearer. No ordinary efficient-causal or reason-token relation is silently transported. Graph sourcehood excludes existing concrete incoming grounds only at the selected world; it does not mean all-world underivedness, necessary existence, self-explanation, or God."
+  "resolution": "The generic Supply predicate accepts an independently specified intrinsic predicate and does not identify intrinsic event power with graph sourcehood. In ActualConcreteSupply, nodes are actual concrete individuals rather than event tokens, the graph is the same selected existential-grounding relation, and the intrinsic parameter is expressly instantiated as its Source predicate. This is an explicit philosophical application commitment, not an inference that an intrinsically powered event has an underived bearer. No ordinary efficient-causal or reason-token relation is silently transported. Graph sourcehood excludes existing concrete incoming grounds only at the selected world; it does not mean all-world underivedness, necessary existence, self-explanation, or God.",
+  "term_label": "INTRINSIC_PRODUCTIVE_CONTRIBUTION_VERSUS_SOURCE_BACKED",
+  "senses": [
+    {
+      "id": "cbbac0e8-36c9-41a2-8367-e94080d28d68",
+      "label": "INTRINSIC_PRODUCTIVE_CONTRIBUTION_VERSUS_SOURCE_BACKED_1",
+      "definition_id": "DEF-DERIVATIVE-JOINT-SUPPLY",
+      "lean_declaration": "TruthCore.Causality.DerivativeJointPower.Supply"
+    },
+    {
+      "id": "449eb783-1b3c-4f82-b11f-1c8114a005b9",
+      "label": "INTRINSIC_PRODUCTIVE_CONTRIBUTION_VERSUS_SOURCE_BACKED_2",
+      "definition_id": "DEF-ACTUAL-CONCRETE-EXISTENTIAL-SUPPLY",
+      "lean_declaration": "TruthCore.Causality.ConcreteExistentialSupply.ActualConcreteSupply"
+    }
+  ]
 }

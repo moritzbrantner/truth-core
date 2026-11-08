@@ -8,6 +8,7 @@
 //! --json` report (or any report with the same shape). Nothing here closes a
 //! statement or changes a route cost.
 
+use crate::senses::{SenseLabels, format_labels};
 use crate::{Corpus, pyfmt};
 use serde::{Deserialize, Serialize};
 use serde_json::{Map, Value};
@@ -215,6 +216,7 @@ pub struct DossierIndex<'a> {
     definitions: HashSet<&'a str>,
     disambiguations: Vec<&'a Record>,
     pub index: HashMap<&'static str, HashMap<&'a str, &'a Record>>,
+    senses: SenseLabels<'a>,
 }
 
 impl<'a> DossierIndex<'a> {
@@ -314,6 +316,7 @@ impl<'a> DossierIndex<'a> {
             }
         }
         Self {
+            senses: SenseLabels::new(corpus),
             statements: corpus
                 .records("statements")
                 .into_iter()
@@ -569,6 +572,10 @@ pub fn format_dossier(dossier: &Dossier, index: &DossierIndex, limit: Option<usi
             if dossier.established { "true" } else { "false" }
         ),
     ];
+    let senses = index.senses.labels(statement);
+    if !senses.is_empty() {
+        lines.insert(2, format!("Senses: {}", format_labels(&senses)));
+    }
     if let Some(floor) = &dossier.floor {
         let reasons: Vec<String> = floor["reasons"]
             .as_array()
@@ -697,6 +704,12 @@ pub fn format_dossier(dossier: &Dossier, index: &DossierIndex, limit: Option<usi
                     .get("theorem")
                     .map_or_else(|| "no theorem".into(), pyfmt::text);
                 description = format!("{theorem}; {description}");
+            }
+            if matches!(directory, "definitions" | "arguments") {
+                let senses = index.senses.labels(record);
+                if !senses.is_empty() {
+                    description = format!("[{}] {description}", format_labels(&senses));
+                }
             }
             lines.push(format!("  {record_id}: {}", clip(description)));
         }

@@ -5,5 +5,20 @@
     "DEF-REAL-THISNESS",
     "DEF-BARE-NUMERICAL-DISTINCTNESS"
   ],
-  "resolution": "A primitive thisness is read in two senses. As a real determination (DEF-REAL-THISNESS) it is something its bearer has and nothing else has; under strict pure actuality it is then a pure perfection, so unrestricted perfection gives it to every first mover (uniqueFromRealThisness). As bare numerical distinctness (DEF-BARE-NUMERICAL-DISTINCTNESS) it is no determination at all; the pure-act premises leave it standing, and only identity of real indiscernibles excludes it. A third sense, the logical predicate 'is identical with x', is excluded from both: it is not a real determination, and allowing it would make any distinctness its own ground. No argument passes from one sense to another: uniqueFromRealThisness uses only the first, and the bare rival in the controls is stated only in the second."
+  "resolution": "A primitive thisness is read in two senses. As a real determination (DEF-REAL-THISNESS) it is something its bearer has and nothing else has; under strict pure actuality it is then a pure perfection, so unrestricted perfection gives it to every first mover (uniqueFromRealThisness). As bare numerical distinctness (DEF-BARE-NUMERICAL-DISTINCTNESS) it is no determination at all; the pure-act premises leave it standing, and only identity of real indiscernibles excludes it. A third sense, the logical predicate 'is identical with x', is excluded from both: it is not a real determination, and allowing it would make any distinctness its own ground. No argument passes from one sense to another: uniqueFromRealThisness uses only the first, and the bare rival in the controls is stated only in the second.",
+  "term_label": "PRIMITIVE_THISNESS",
+  "senses": [
+    {
+      "id": "1733356e-85e0-4f0a-aca9-336b644afb06",
+      "label": "PRIMITIVE_THISNESS_1",
+      "definition_id": "DEF-REAL-THISNESS",
+      "lean_declaration": "TruthCore.Causality.PureActThisness.FirstMoverHasRealThisness"
+    },
+    {
+      "id": "c5a7ebfa-8e2b-4faa-bd67-df31835b0d11",
+      "label": "PRIMITIVE_THISNESS_2",
+      "definition_id": "DEF-BARE-NUMERICAL-DISTINCTNESS",
+      "lean_declaration": "TruthCore.Causality.PureActThisness.BarelyDistinctFirstMovers"
+    }
+  ]
 }

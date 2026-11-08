@@ -8,6 +8,7 @@ mod kernels;
 pub mod orphans;
 pub mod pyfmt;
 pub mod related;
+pub mod senses;
 pub mod thickness;
 mod transcription;
 

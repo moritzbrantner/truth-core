@@ -5,5 +5,20 @@
     "DEF-Q11-INDIVIDUATING-BASIS",
     "DEF-ESSENCE-THOMISTIC-NATURE"
   ],
-  "resolution": "suppositumOf represents the individuating basis of this individual; essenceOf represents what the being is. Both take values in Principle only to permit the separately stated identity comparison. No identity between these senses, no injectivity, and no mapping of every immaterial being to one nature is assumed by the vocabulary. God-specific identity and common-nature scope are separate sourced open premises. This is unrelated to modal Scott/Gödel essence."
+  "resolution": "suppositumOf represents the individuating basis of this individual; essenceOf represents what the being is. Both take values in Principle only to permit the separately stated identity comparison. No identity between these senses, no injectivity, and no mapping of every immaterial being to one nature is assumed by the vocabulary. God-specific identity and common-nature scope are separate sourced open premises. This is unrelated to modal Scott/Gödel essence.",
+  "term_label": "SUPPOSITUM_VERSUS_NATURE_IN_Q11",
+  "senses": [
+    {
+      "id": "6db84f4f-65fb-4837-8a2f-0887875b818e",
+      "label": "SUPPOSITUM_VERSUS_NATURE_IN_Q11_1",
+      "definition_id": "DEF-Q11-INDIVIDUATING-BASIS",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.IndividuatingBasisIsIncommunicableReading"
+    },
+    {
+      "id": "4bba06d2-6fd6-4501-ac7d-f739e6845537",
+      "label": "SUPPOSITUM_VERSUS_NATURE_IN_Q11_2",
+      "definition_id": "DEF-ESSENCE-THOMISTIC-NATURE",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article4.Profile.essenceOf"
+    }
+  ]
 }

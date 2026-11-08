@@ -5,5 +5,18 @@
     "DEF-ACTIVITY-SENSITIVE-LINGUISTIC-PRACTICE",
     "DEF-WITTGENSTEINIAN-FIDEISM"
   ],
-  "resolution": "The new modest analyst practice sense concerns activity-specific competent moves and permits shared evidence. Existing Wittgensteinian fideism records distinguish the sharp WF-N cut-off from early-Phillips nonreference and late-Phillips/minimalist variants. The modest position is not identified with any source-attributed variant and implies neither insulation from outside criticism nor God-name nonreference. No weak-to-strong or historical identity relation is registered."
+  "resolution": "The new modest analyst practice sense concerns activity-specific competent moves and permits shared evidence. Existing Wittgensteinian fideism records distinguish the sharp WF-N cut-off from early-Phillips nonreference and late-Phillips/minimalist variants. The modest position is not identified with any source-attributed variant and implies neither insulation from outside criticism nor God-name nonreference. No weak-to-strong or historical identity relation is registered.",
+  "term_label": "LANGUAGE_GAME_INTERNALITY",
+  "senses": [
+    {
+      "id": "ea2b27e5-dfdf-4cae-9937-c39e6f8d4c20",
+      "label": "LANGUAGE_GAME_INTERNALITY_1",
+      "definition_id": "DEF-ACTIVITY-SENSITIVE-LINGUISTIC-PRACTICE"
+    },
+    {
+      "id": "faee0fa8-1c37-466a-945a-d3db2f1d3875",
+      "label": "LANGUAGE_GAME_INTERNALITY_2",
+      "definition_id": "DEF-WITTGENSTEINIAN-FIDEISM"
+    }
+  ]
 }

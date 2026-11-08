@@ -26,5 +26,25 @@
     "DISAMB-IN-ACT",
     "DISAMB-MOTION",
     "DISAMB-POTENCY"
+  ],
+  "sense_bridges": [
+    {
+      "term": "POTENCY_CAPACITY_AND_POWER_ACROSS_ADOPTED",
+      "from": "5252f7f4-95a7-42f3-a420-23770702a0f4",
+      "to": "d0b17a2e-febf-45e8-9b9e-11a75b2ccbc6",
+      "statement_id": "STMT-POTENCY-SENSES-EXHAUSTIVE"
+    },
+    {
+      "term": "POTENCY_CAPACITY_AND_POWER_ACROSS_ADOPTED",
+      "from": "5252f7f4-95a7-42f3-a420-23770702a0f4",
+      "to": "02e3f1d0-4ba1-498f-b34d-40bdd348d8c4",
+      "statement_id": "STMT-POTENCY-SENSES-EXHAUSTIVE"
+    },
+    {
+      "term": "POTENCY_CAPACITY_AND_POWER_ACROSS_ADOPTED",
+      "from": "5252f7f4-95a7-42f3-a420-23770702a0f4",
+      "to": "d0b17a2e-febf-45e8-9b9e-11a75b2ccbc6",
+      "statement_id": "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT"
+    }
   ]
 }

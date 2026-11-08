@@ -8,5 +8,38 @@
     "DEF-PARTICIPATION-IDENTIFICATION",
     "DEF-PLATONIC-EXPLANATION"
   ],
-  "resolution": "Coextension classifies; Grounds represents metaphysical dependence; Produces represents formative change; Identifies represents an agent identifying a bearer; shared Explains is putative explanation of being F without a specified mechanism. No relation implies another without an explicit bridge. Grounding asymmetry applies only to Grounds. Base features are fixed model inputs, not hidden definitions of human nature. A Form essentially F is not thereby a particular exemplifying F."
+  "resolution": "Coextension classifies; Grounds represents metaphysical dependence; Produces represents formative change; Identifies represents an agent identifying a bearer; shared Explains is putative explanation of being F without a specified mechanism. No relation implies another without an explicit bridge. Grounding asymmetry applies only to Grounds. Base features are fixed model inputs, not hidden definitions of human nature. A Form essentially F is not thereby a particular exemplifying F.",
+  "term_label": "EXPLANATION",
+  "senses": [
+    {
+      "id": "fad4325f-3ec1-45f8-bf3c-e6d4bea9fed6",
+      "label": "EXPLANATION_4",
+      "definition_id": "DEF-PARTICIPATION-COEXTENSION",
+      "lean_declaration": "TruthCore.Greek.Plato.ParticipationGrounding.Coextension"
+    },
+    {
+      "id": "e09134d3-ffad-402a-87dd-3c73335801f2",
+      "label": "EXPLANATION_5",
+      "definition_id": "DEF-PARTICIPATION-GROUND",
+      "lean_declaration": "TruthCore.Greek.Plato.ParticipationGrounding.Explanation.Grounds"
+    },
+    {
+      "id": "15c5782d-6847-49d1-acd8-1d60b9654256",
+      "label": "EXPLANATION_6",
+      "definition_id": "DEF-PARTICIPATION-FORMATION",
+      "lean_declaration": "TruthCore.Greek.Plato.ParticipationGrounding.Explanation"
+    },
+    {
+      "id": "01de0237-68b0-42ea-a215-52bbcd6126a2",
+      "label": "EXPLANATION_7",
+      "definition_id": "DEF-PARTICIPATION-IDENTIFICATION",
+      "lean_declaration": "TruthCore.Greek.Plato.ParticipationGrounding.Explanation"
+    },
+    {
+      "id": "0bf54475-dd78-4abd-ba55-242be43f5eed",
+      "label": "EXPLANATION_1",
+      "definition_id": "DEF-PLATONIC-EXPLANATION",
+      "lean_declaration": "TruthCore.Greek.Plato.Forms.Vocabulary"
+    }
+  ]
 }

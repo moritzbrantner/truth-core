@@ -20,5 +20,6 @@
     "DISAMB-GOD",
     "DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER"
   ],
-  "label": "Controls for the MUTABLE and GOD sense forks"
+  "label": "Controls for the MUTABLE and GOD sense forks",
+  "sense_mixing_control": true
 }

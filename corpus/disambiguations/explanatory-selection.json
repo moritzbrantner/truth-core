@@ -6,5 +6,26 @@
     "DEF-EXPLANATORY-CONTRAST",
     "DEF-EXPLANATORY-ENABLES"
   ],
-  "resolution": "'Selects this over that' has three formal senses here. ContrastRelevant: a reason false at the rival. Pro tanto or net selection: a reason, possibly true at the rival, favours this over that, with net selection also requiring that no true base member favours that over this. Enabling: lacking the reason, the outcome is lacking. They are separate conditions, and no step passes from one to another. A necessary reason fails the first, can meet the second, and meets the third vacuously. Necessitation is a further sense, kept apart by DISAMB-PSR-REASON-NECESSITATING; the core derives a bar on contingency in the field and does not assume necessitation."
+  "resolution": "'Selects this over that' has three formal senses here. ContrastRelevant: a reason false at the rival. Pro tanto or net selection: a reason, possibly true at the rival, favours this over that, with net selection also requiring that no true base member favours that over this. Enabling: lacking the reason, the outcome is lacking. They are separate conditions, and no step passes from one to another. A necessary reason fails the first, can meet the second, and meets the third vacuously. Necessitation is a further sense, kept apart by DISAMB-PSR-REASON-NECESSITATING; the core derives a bar on contingency in the field and does not assume necessitation.",
+  "term_label": "SELECTING_AN_OUTCOME",
+  "senses": [
+    {
+      "id": "baf6f205-effc-4a79-9053-c962a2d6c37e",
+      "label": "SELECTING_AN_OUTCOME_1",
+      "definition_id": "DEF-EXPLANATORY-NET-SELECTION",
+      "lean_declaration": "TruthCore.Explanation.ExplanatorySymmetry.NetSelects"
+    },
+    {
+      "id": "11024560-c296-4b99-9c62-8ed69b61ffba",
+      "label": "SELECTING_AN_OUTCOME_2",
+      "definition_id": "DEF-EXPLANATORY-CONTRAST",
+      "lean_declaration": "TruthCore.Explanation.ExplanatoryAdequacy.ContrastRelevant"
+    },
+    {
+      "id": "6041e2f7-3840-48d9-ab74-467eba966d12",
+      "label": "SELECTING_AN_OUTCOME_3",
+      "definition_id": "DEF-EXPLANATORY-ENABLES",
+      "lean_declaration": "TruthCore.Explanation.ExplanatorySymmetry.EnablesNonvacuously"
+    }
+  ]
 }
