@@ -69,7 +69,11 @@ private theorem existsW {P : W → Prop} :
     · exact ⟨.d0, h⟩
     · exact ⟨.d1, h⟩
 
-deriving instance DecidableEq for W
+-- Deriving for the imported carrier emits shared W declarations (including
+-- W.ofNat). Keep this control-only decision procedure private to this module.
+private instance witnessDecidableEq : DecidableEq W := fun a b => by
+  cases a <;> cases b <;>
+    first | exact isTrue rfl | exact isFalse (by intro h; cases h)
 
 private instance forallDecidable {P : W → Prop} [Decidable (P .b0)] [Decidable (P .b1)]
     [Decidable (P .d0)] [Decidable (P .d1)] :
