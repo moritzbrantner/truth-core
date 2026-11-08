@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { findDefinition, getCorpus } from "@/lib/corpus";
+import { findDefinition, getCorpus, idOf } from "@/lib/corpus";
 
 export default function DefinitionsPage() {
   const corpus = getCorpus();
@@ -31,7 +31,7 @@ export default function DefinitionsPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-2 font-mono text-xs text-[var(--muted)]">{disambiguation.id}</p>
+            <p className="mt-2 font-mono text-xs text-[var(--muted)]">{idOf(disambiguation.id)}</p>
           </div>
         ))}
       </div>
@@ -43,7 +43,7 @@ export default function DefinitionsPage() {
             <span className="eyebrow">{definition.basis}</span>
             <span className="mt-1 block font-serif text-lg">{definition.term}</span>
             <span className="mt-1 block text-sm leading-6 text-[var(--muted)]">{definition.definition}</span>
-            <span className="mt-1 block font-mono text-xs text-[var(--muted)]">{definition.id}</span>
+            <span className="mt-1 block font-mono text-xs text-[var(--muted)]">{idOf(definition.id)}</span>
           </Link>
         ))}
       </div>

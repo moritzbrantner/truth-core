@@ -1,4 +1,5 @@
 import type { Corpus } from "./corpus";
+import { aliasMap, citedRecordIds } from "./corpus-ids";
 import type { PropositionGraph } from "./proposition-graph";
 import type { FrontierReport } from "./site-state";
 
@@ -25,6 +26,10 @@ export function researchFrontier(
   report: FrontierReport,
 ): ResearchObligation[] {
   const obligations: ResearchObligation[] = [];
+  const labels = new Map<string, string>(
+    [...corpus.statements, ...corpus.claims, ...corpus.relations].flatMap((record) => (record.label ? [[record.id, record.label]] : [])),
+  );
+  const nameOf = (id: string) => labels.get(id) ?? id;
   // Python's route-aware upward walk of every argument premise, open or closed;
   // a statement no argument uses has no dependents.
   const upward = (ids: string[]) => {
@@ -94,8 +99,8 @@ export function researchFrontier(
         frontier: "knowledge",
         statementIds: [item.statement_id, alternative.statement_id],
         recordIds: [alternative.statement_id],
-        title: `Alternative to ${item.statement_id}`,
-        blocker: `${alternative.statement_id} has no verified refutation.`,
+        title: `Alternative to ${nameOf(item.statement_id)}`,
+        blocker: `${nameOf(alternative.statement_id)} has no verified refutation.`,
         nextAction: "Investigate the rival's replacement account and test it against the shared questions.",
         href: `/dossiers/${alternative.statement_id}`,
       });
@@ -107,8 +112,8 @@ export function researchFrontier(
         frontier: "knowledge",
         statementIds: [item.statement_id],
         recordIds: [objection],
-        title: `Objection to ${item.statement_id}`,
-        blocker: `${objection} is recorded as an attack; an attack is not a refutation.`,
+        title: `Objection to ${nameOf(item.statement_id)}`,
+        blocker: `${nameOf(objection)} is recorded as an attack; an attack is not a refutation.`,
         nextAction: "Inspect the objection and record a sourced reply or the remaining inferential bridge.",
         href: `/dossiers/${item.statement_id}`,
       });
@@ -125,15 +130,17 @@ export function researchFrontier(
       frontier: "exploration",
       statementIds: [...new Set([claim.statement_id, ...(sibling ? [sibling.statement_id] : [])])],
       recordIds: [claim.id, claim.interpretation_of],
-      title: `Competing reading: ${claim.id}`,
+      title: `Competing reading: ${nameOf(claim.id)}`,
       blocker: claim.interpretation,
       nextAction:
         "Compare the materialized passage and each reading's definitions; preserve distinct statement identities.",
       href: `/claims/${claim.id}`,
     });
   }
+  const statementAliases = aliasMap([...corpus.statements, ...graph.statements]);
   for (const candidate of corpus.candidates) {
-    const references = new Set(`${candidate.goal} ${candidate.reason}`.match(/\bSTMT-[A-Z0-9]+(?:-[A-Z0-9]+)*\b/g) ?? []);
+    // Cited statements by uuid or legacy alias, resolved through the statement records.
+    const references = new Set(citedRecordIds(`${candidate.goal} ${candidate.reason}`, statementAliases));
     const statementIds = graph.statements
       .filter((statement) => references.has(statement.id))
       .map((statement) => statement.id);

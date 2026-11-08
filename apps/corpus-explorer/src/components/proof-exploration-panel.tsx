@@ -5,6 +5,7 @@ import styles from "./proof-overlay.module.css";
 import type { ProofExploration } from "@/lib/proof-exploration";
 import { suggestIntermediateLemma } from "@/lib/proof-exploration";
 import type { PropositionGraph } from "@/lib/proposition-graph";
+import { shortId } from "@/lib/corpus-ids";
 
 export function ProofExplorationPanel({ graph, result, running, onCancel, onFocus }: {
   graph: PropositionGraph;
@@ -20,7 +21,11 @@ export function ProofExplorationPanel({ graph, result, running, onCancel, onFocu
     return null;
   }
   const candidate = suggestIntermediateLemma(result);
-  const statementLink = (id: string) => <button className="graph-button font-mono" onClick={() => onFocus(id)} type="button">{id}</button>;
+  const labelFor = (id: string) => {
+    const text = graph.statements.find((entry) => entry.id === id)?.paraphrase ?? graph.inferences.find((entry) => entry.id === id)?.label;
+    return text ? (text.length > 80 ? `${text.slice(0, 79)}…` : text) : shortId(id);
+  };
+  const statementLink = (id: string) => <button className="graph-button" onClick={() => onFocus(id)} title={id} type="button">{labelFor(id)}</button>;
   return (
     <section aria-label="Proof exploration results" className={`graph-detail ${styles.panel}`}>
       <p role="status">{result.status === "complete" ? "Exploration complete" : result.status === "cancelled" ? "Exploration cancelled; partial results" : "Budget exhausted; partial results"} · {result.visits} visits</p>
@@ -30,10 +35,10 @@ export function ProofExplorationPanel({ graph, result, running, onCancel, onFocu
         <summary>Proposed exact-ID junctions ({result.joins.length})</summary>
         {result.joins.length ? <ul>{result.joins.map((join) => <li key={join.statementId}>
           {statementLink(join.statementId)} · proposed
-          {result.branches.filter((branch) => branch.requiredStatementIds.includes(join.statementId)).map((branch) => <p key={JSON.stringify([branch.inferenceId, branch.contextAssumptionIds])}>For {branch.inferenceId} → {branch.output}, remaining AND requirements: {branch.remainingStatementIds.join(", ") || "none"}. This is one OR branch.</p>)}
+          {result.branches.filter((branch) => branch.requiredStatementIds.includes(join.statementId)).map((branch) => <p key={JSON.stringify([branch.inferenceId, branch.contextAssumptionIds])}>For {labelFor(branch.inferenceId)} → {labelFor(branch.output)}, remaining AND requirements: {branch.remainingStatementIds.join(", ") || "none"}. This is one OR branch.</p>)}
           {join.argumentIds.length ? <ul>{join.argumentIds.map((id) => {
             const argument = graph.arguments.find((entry) => entry.id === id);
-            return <li key={id}>{id}: {argument?.resultIds.map((resultId) => <Link href={`/results/${resultId}`} key={resultId}>{resultId}</Link>)}</li>;
+            return <li key={id}>{argument?.label ?? id}: {argument?.resultIds.map((resultId) => <Link href={`/results/${resultId}`} key={resultId}>{shortId(resultId)}</Link>)}</li>;
           })}</ul> : <span> · already established in selected scope</span>}
         </li>)}</ul> : <p>No junction found within this exploration. This is unresolved, not a refutation.</p>}
       </details>
@@ -51,8 +56,8 @@ export function ProofExplorationPanel({ graph, result, running, onCancel, onFocu
       {candidate ? <details>
         <summary>Unverified intermediate lemma candidate</summary>
         <p>{candidate.wording}</p>
-        <p>Formalization: {candidate.formalization}. Intended bridge from {candidate.intendedBridge.fromStatementIds.join(", ") || "no established facts"} to {candidate.target}.</p>
-        <p>Missing premises: {candidate.missingPremiseIds.join(", ") || "no terminal premise identified; inspect circular or unverified branches"}.</p>
+        <p>Formalization: {candidate.formalization}. Intended bridge from {candidate.intendedBridge.fromStatementIds.map(labelFor).join(", ") || "no established facts"} to {labelFor(candidate.target)}.</p>
+        <p>Missing premises: {candidate.missingPremiseIds.map(labelFor).join(", ") || "no terminal premise identified; inspect circular or unverified branches"}.</p>
         <ul>{candidate.needs.map((need) => <li key={need}>{need}</li>)}</ul>
         <p>Provenance: {candidate.provenance.method}, {candidate.provenance.visits} visits; inferences {candidate.provenance.inferenceIds.join(", ") || "none"}.</p>
         <Link href="/candidates">Inspect the source-range research queue</Link>

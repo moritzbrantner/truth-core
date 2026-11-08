@@ -21,6 +21,8 @@ export function getPropositionGraph(corpus: Corpus = getCorpus()): PropositionGr
     statements: corpus.statements,
     claims: corpus.claims.map((claim) => ({
       id: claim.id,
+      label: claim.label,
+      legacy_id: claim.legacy_id,
       statement_id: claim.statement_id,
       source_id: claim.source_id,
       locator: claim.locator,

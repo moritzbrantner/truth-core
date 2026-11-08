@@ -3,6 +3,7 @@ import Link from "next/link";
 
 import { StatementStateMark } from "@/components/state-mark";
 import { findStatement, getCorpus } from "@/lib/corpus";
+import { legacyUuid } from "@/lib/corpus-ids";
 import { getFrontierReport, statementState } from "@/lib/site-state";
 import { getPilotScenarios, PILOT_GROUPS, pilotGraphHref } from "./pilot";
 
@@ -24,9 +25,10 @@ export default function ObjectiveTruthPage() {
     .filter((id) => ids.includes(id))
     .map((id) => logicalNames.get(id) ?? id)
     .join(" and ") || "Neither";
-  const bridgeIds = new Set(["STMT-PILOT-LOGICAL-SENTENCE-STABLE", "STMT-PILOT-NEGATION-RESPECTED"]);
+  const bridgeIds = new Set(PILOT_GROUPS[1].statementIds);
   const obligations = report.items.filter((item) => bridgeIds.has(item.statement_id));
-  const candidates = corpus.candidates.filter((item) => item.id === "OBJECTIVE-TRUTH-PROFILE-STABILITY-BRIDGE" || item.id === "RELATIVISM-GLOBAL-LOCAL-EPISTEMIC-WITNESSES");
+  const candidateIds = new Set(["OBJECTIVE-TRUTH-PROFILE-STABILITY-BRIDGE", "RELATIVISM-GLOBAL-LOCAL-EPISTEMIC-WITNESSES"].map((id) => legacyUuid("candidate", id)));
+  const candidates = corpus.candidates.filter((item) => candidateIds.has(item.id));
 
   return (
     <>
@@ -82,9 +84,9 @@ export default function ObjectiveTruthPage() {
           </table>
         </div>
         <p className="mt-3 flex flex-wrap gap-4 text-sm">
-          <Link className="underline" href="/results/LOGIC-SOME-HOLDS-ENTAILS-NOT-ALL-FAIL">Proof of A → B</Link>
-          <Link className="underline" href="/results/LOGIC-NOT-ALL-FAIL-ENTAILS-SOME-HOLDS">Proof of B → A</Link>
-          <Link className="underline" href="/results/LOGIC-SOME-PROPOSITION-HOLDS">Independent proof of A</Link>
+          <Link className="underline" href={`/results/${legacyUuid("result", "LOGIC-SOME-HOLDS-ENTAILS-NOT-ALL-FAIL")}`}>Proof of A → B</Link>
+          <Link className="underline" href={`/results/${legacyUuid("result", "LOGIC-NOT-ALL-FAIL-ENTAILS-SOME-HOLDS")}`}>Proof of B → A</Link>
+          <Link className="underline" href={`/results/${legacyUuid("result", "LOGIC-SOME-PROPOSITION-HOLDS")}`}>Independent proof of A</Link>
         </p>
       </section>
       <section className="mt-9 border-t border-[var(--line)] pt-5" aria-labelledby="pilot-frontier-heading">
@@ -100,7 +102,7 @@ export default function ObjectiveTruthPage() {
         </ul>
         <p className="mt-4 text-sm text-[var(--muted)]">
           Refuting an explicit denial is different from refuting withheld assent.
-          The pilot leaves <Link className="underline" href="/statements/STMT-EXCLUDED-MIDDLE-WITHHELD-INTUITIONISM">intuitionist withholding</Link> and the stronger interpretation bridges separate.
+          The pilot leaves <Link className="underline" href={`/statements/${legacyUuid("statement", "STMT-EXCLUDED-MIDDLE-WITHHELD-INTUITIONISM")}`}>intuitionist withholding</Link> and the stronger interpretation bridges separate.
         </p>
       </section>
     </>

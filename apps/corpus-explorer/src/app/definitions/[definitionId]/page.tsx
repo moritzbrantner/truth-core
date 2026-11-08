@@ -2,7 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { StatementLink } from "@/components/statement-link";
-import { disambiguationsForDefinition, findClaim, findDefinition, findSource, getCorpus, resultsForArgument, usesOfTerm } from "@/lib/corpus";
+import { disambiguationsForDefinition, findClaim, findDefinition, findSource, getCorpus, resultsForArgument, usesOfTerm, idOf, nameOf } from "@/lib/corpus";
 import { leanIndex } from "@/lib/lean-source";
 import { getFrontierReport, sourceUrl } from "@/lib/site-state";
 
@@ -33,7 +33,7 @@ export default async function DefinitionPage({ params }: DefinitionPageProps) {
       </Link>
       <div className="mt-10 flex flex-wrap items-center gap-3">
         <span className="eyebrow">{definition.basis === "sourced" ? "Sourced definition" : "Stipulative definition"}</span>
-        <p className="font-mono text-xs break-all text-[var(--muted)]">{definition.id}</p>
+        <p className="font-mono text-xs break-all text-[var(--muted)]">{idOf(definition.id)}</p>
       </div>
       <h1 className="mt-5 font-serif text-4xl leading-[1.02] tracking-[-0.04em] sm:text-5xl">{definition.term}</h1>
       <p className="mt-6 text-lg leading-8">{definition.definition}</p>
@@ -106,10 +106,10 @@ export default async function DefinitionPage({ params }: DefinitionPageProps) {
                     <span className="eyebrow">argument</span>{" "}
                     {results.length ? (
                       <Link className="link-quiet font-mono text-xs" href={`/results/${results[0].id}`}>
-                        {argument.id}
+                        {nameOf(argument.id)}
                       </Link>
                     ) : (
-                      <span className="font-mono text-xs">{argument.id}</span>
+                      <span className="text-xs">{nameOf(argument.id)}</span>
                     )}
                   </li>
                 );
@@ -118,7 +118,7 @@ export default async function DefinitionPage({ params }: DefinitionPageProps) {
                 <li key={claim.id}>
                   <span className="eyebrow">claim</span>{" "}
                   <Link className="link-quiet font-mono text-xs" href={`/claims/${claim.id}`}>
-                    {claim.id}
+                    {nameOf(claim.id)}
                   </Link>
                 </li>
               ))}

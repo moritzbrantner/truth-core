@@ -3,6 +3,7 @@ import { execFileSync } from "node:child_process";
 import path from "node:path";
 import { chromium, type Browser } from "playwright";
 import type { NextStepsReport } from "../src/lib/next-steps";
+import { shortId } from "../src/lib/corpus-ids";
 
 let browser: Browser;
 let server: ReturnType<typeof Bun.serve> | undefined;
@@ -55,7 +56,7 @@ test("next-work view shares frontier routes, costs, leaves, floor and DAG naviga
   const sid = chosen.premise_statement_ids[0];
   const premise = report.dag.statements.find((statement) => statement.statement_id === sid)!;
   await map.getByRole("button", { name: premise.paraphrase, exact: true }).click();
-  expect(await map.innerText()).toContain(sid);
+  expect(await map.innerText()).toContain(shortId(sid));
   await map.getByRole("button", { name: "Return to root", exact: true }).click();
   expect(await map.getByRole("combobox").inputValue()).toBe(report.cheapest_argument_id!);
   expect(errors).toEqual([]);

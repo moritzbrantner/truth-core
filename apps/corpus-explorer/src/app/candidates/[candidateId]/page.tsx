@@ -2,7 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { StatusMark } from "@/components/status-mark";
-import { findCandidate, findSource, getCorpus } from "@/lib/corpus";
+import { findCandidate, findSource, getCorpus, idOf } from "@/lib/corpus";
 
 type CandidatePageProps = {
   params: Promise<{ candidateId: string }>;
@@ -61,7 +61,7 @@ export default async function CandidatePage({ params }: CandidatePageProps) {
           <dt>Priority</dt>
           <dd>{candidate.priority}</dd>
           <dt>Record ID</dt>
-          <dd className="font-mono break-all">{candidate.id}</dd>
+          <dd className="font-mono break-all">{idOf(candidate.id)}</dd>
           <dt>Status</dt>
           <dd>Candidate</dd>
         </dl>
