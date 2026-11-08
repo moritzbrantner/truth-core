@@ -1,0 +1,100 @@
+# Sense fork batch 4, "God" (docs/notes/load-bearing-terms.md, specs/term-sense-forks-4.toml).
+# One argument per sense; the joint coverage/exclusivity theorem is an optional summary. Analyst formulations, attribution deferred.
+# GOD_4 at the target is the premise itself (and NAMING-VERACITY-REDUCED-NAMING-ENTAILS-FULL).
+target = "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE"
+
+[[node]]
+id = "STMT-CALLED-GOD-IS-CLASSICAL-GOD"
+
+[[node]]
+id = "STMT-DESCRIBED-PRINCIPLE-HAS-CLASSICAL-ATTRIBUTES"
+
+[[node]]
+id = "STMT-DESCRIBED-PRINCIPLE-IS-CALLED-GOD"
+
+[[node]]
+id = "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE"
+
+[[node]]
+id = "STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS"
+
+[[node]]
+id = "STMT-GOD-SENSE-UNIQUE"
+
+[[node]]
+id = "STMT-GOD-SENSES-EXHAUSTIVE"
+
+[[node]]
+id = "STMT-NOMINAL-GOD-IS-CLASSICAL-GOD"
+
+[[node]]
+id = "STMT-NOMINAL-GOD-IS-MAXIMAL-IN-BEING"
+
+[[node]]
+id = "STMT-NOMINAL-GOD-NAMES-DESCRIBED-PRINCIPLE"
+
+[[node]]
+id = "STMT-ROUTE-GOD-HAS-CLASSICAL-ATTRIBUTES"
+
+[[node]]
+id = "STMT-ROUTE-NAMES-DESCRIBED-PRINCIPLE"
+
+[[node]]
+id = "STMT-SUMMA-GOD-IS-CLASSICAL-GOD"
+
+[[edge]]
+premises = []
+conclusion = "STMT-NOMINAL-GOD-NAMES-DESCRIBED-PRINCIPLE"
+kind = "derivation"
+status = "certified"
+argument = "NOMINAL-GOD-NAMING-IS-ANALYTIC"
+note = "Conjunction introduction."
+
+[[edge]]
+premises = []
+conclusion = "STMT-NOMINAL-GOD-IS-MAXIMAL-IN-BEING"
+kind = "derivation"
+status = "certified"
+argument = "NOMINAL-GOD-MAXIMALITY-IS-ANALYTIC"
+note = "Conjunction elimination."
+
+[[edge]]
+premises = ["STMT-NOMINAL-GOD-IS-CLASSICAL-GOD"]
+conclusion = "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE"
+kind = "derivation"
+status = "certified"
+argument = "GOD-NAMES-DESCRIBED-FROM-NOMINAL"
+note = "Modus ponens after conjunction introduction."
+
+[[edge]]
+premises = ["STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE"]
+conclusion = "STMT-NOMINAL-GOD-IS-CLASSICAL-GOD"
+kind = "derivation"
+status = "certified"
+argument = "NOMINAL-BRIDGE-FROM-GOD-NAMES"
+note = "Conjunction elimination and modus ponens."
+
+[[edge]]
+premises = ["STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS", "STMT-SUMMA-GOD-IS-CLASSICAL-GOD"]
+conclusion = "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE"
+kind = "derivation"
+status = "certified"
+argument = "GOD-NAMES-DESCRIBED-FROM-SUMMA"
+note = "Weakening of the antecedent, then the sense bridge."
+
+[[edge]]
+premises = ["STMT-DESCRIBED-PRINCIPLE-IS-CALLED-GOD", "STMT-CALLED-GOD-IS-CLASSICAL-GOD"]
+conclusion = "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE"
+kind = "derivation"
+status = "certified"
+argument = "GOD-NAMES-DESCRIBED-FROM-USAGE"
+note = "Hypothetical syllogism through the sense bridge."
+
+[[edge]]
+premises = ["STMT-GOD-SENSES-EXHAUSTIVE", "STMT-GOD-SENSE-UNIQUE", "STMT-ROUTE-NAMES-DESCRIBED-PRINCIPLE", "STMT-ROUTE-GOD-HAS-CLASSICAL-ATTRIBUTES"]
+conclusion = "STMT-DESCRIBED-PRINCIPLE-HAS-CLASSICAL-ATTRIBUTES"
+kind = "derivation"
+status = "certified"
+argument = "GOD-SENSE-FORK-DESCRIBED-PRINCIPLE-ATTRIBUTES"
+note = "Uses agree from coverage and exclusivity; hypothetical syllogism."
+

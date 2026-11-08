@@ -1222,12 +1222,12 @@
       "path": "corpus/definitions/god-nominal-q13.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
-      "finding": "Existing interpretation retained: What the name 'God' is imposed to signify: something existing above all, which is the principle of all and remote from all (supra omnia existens, quod est principium omnium, et remotum ab omnibus). A nominal definition: what the name signifies, not what God is. Kept whole, with all three conditions. The fuller nominal premise STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE formalizes it, together with the quarta via's 'cause of every perfection', reading 'remote from all' as DEF-REMOTE-FROM-ALL. No new structural law, source attribution or independently established premise is introduced.",
+      "finding": "Existing interpretation retained: What the name 'God' is imposed to signify: something existing above all, which is the principle of all and remote from all (supra omnia existens, quod est principium omnium, et remotum ab omnibus). A nominal definition: what the name signifies, not what God is. Kept whole, with all three conditions. The fuller nominal premise STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE formalizes it, together with the quarta via's 'cause of every perfection', reading 'remote from all' as DEF-REMOTE-FROM-ALL. No new structural law, source attribution or independently established premise is introduced. Follow-up review (term sense forks, batch 4): lean_declaration NominalGod and a note were added; the definition text is unchanged and the audited results do not use NominalGod.",
       "before": {
         "sha256": "ead8786cd02314dc2faebfdd68e3750703b14710b0e2d116d4d740a2a2f73e70",
         "lean_declaration": null
       },
-      "reviewed_sha256": "ead8786cd02314dc2faebfdd68e3750703b14710b0e2d116d4d740a2a2f73e70"
+      "reviewed_sha256": "0daa920cffeb3721b2c2ac9f65407e861183c242ab2174b4416ea35a242adf92"
     },
     {
       "kind": "definitions",
@@ -1768,12 +1768,12 @@
       "path": "corpus/disambiguations/god.json",
       "status": "repaired",
       "classification": "defect",
-      "finding": "Repaired an overgeneral same-witness note: original consumers retain the God-to-maximality premise, while Q11-NATURE uses three explicit nature/individuation premises instead. Local Maximal never redefines σ.IsGod. All theorem types and source readings unchanged.",
+      "finding": "Repaired an overgeneral same-witness note: original consumers retain the God-to-maximality premise, while Q11-NATURE uses three explicit nature/individuation premises instead. Local Maximal never redefines σ.IsGod. All theorem types and source readings unchanged. Follow-up review (term sense forks, batch 4): the appended fork paragraph names GOD_1-4 and their declarations (NominalGod and CalledGod are new, only in TruthCore.Causality.TermSenseForks4) and records the equivocation hazard of the God-generic naming declarations; the audited results still instantiate God with the signature's IsGod, so no step here changes sense.",
       "before": {
         "sha256": "505abaa8a562b6a41bc0c21e89aa85696ac66ef5fdf7e3561720c0a8561932f2",
         "lean_declaration": null
       },
-      "reviewed_sha256": "d5baba158d81b459f3954820278bbf329e7014f02f02751bd7cc977203f3e2b8"
+      "reviewed_sha256": "713f58f1b6e0be06c374541b8d4475e7c1f3cf54c5975dff3d5d2aa20d5e1dfb"
     },
     {
       "kind": "disambiguations",

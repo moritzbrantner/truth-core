@@ -1,0 +1,29 @@
+{
+  "id": "LIFE-BOUNDARY-SOME-MUTABILITY-FROM-SUBJECT",
+  "premise_statement_ids": [
+    "STMT-LIFE-BOUNDARY-REQUIRES-POTENCY"
+  ],
+  "conclusion_statement_id": "STMT-LIFE-BOUNDARY-REQUIRES-SOME-MUTABILITY",
+  "inference_ids": [
+    "INF-LIFE-BOUNDARY-SOME-MUTABILITY-FROM-SUBJECT"
+  ],
+  "meaning": "Strength order between MUTABLE_1 and MUTABLE_3 in the boundary use: if whatever begins or ceases to live is in potency in itself, it is mutable in some way.",
+  "definition_ids": [
+    "DEF-LIFE-PRESENT-AT",
+    "DEF-MUTABLE-IN-SOME-WAY",
+    "DEF-POTENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER"
+  ],
+  "label": "Strength order: the MUTABLE_1 boundary statement implies the MUTABLE_3 one",
+  "sense_bridges": [
+    {
+      "term": "IN_POTENCY_MUTABLE",
+      "from": "2ba29183-e9d7-4b34-9815-6e8e24c16692",
+      "to": "194c40c8-c176-43d9-9488-9021f7cb2351",
+      "statement_id": "STMT-LIFE-BOUNDARY-REQUIRES-SOME-MUTABILITY",
+      "role": "conclusion"
+    }
+  ]
+}

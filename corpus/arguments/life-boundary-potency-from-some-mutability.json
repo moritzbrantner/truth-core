@@ -1,0 +1,36 @@
+{
+  "id": "LIFE-BOUNDARY-POTENCY-FROM-SOME-MUTABILITY",
+  "premise_statement_ids": [
+    "STMT-LIFE-BOUNDARY-REQUIRES-SOME-MUTABILITY",
+    "STMT-SUBJECT-OF-ANOTHERS-POWER-HAS-POTENCY"
+  ],
+  "conclusion_statement_id": "STMT-LIFE-BOUNDARY-REQUIRES-POTENCY",
+  "inference_ids": [
+    "INF-LIFE-BOUNDARY-POTENCY-FROM-SOME-MUTABILITY"
+  ],
+  "meaning": "MUTABLE_3 (IN_SOME_WAY) branch of the boundary use, the reading closest to q.10 a.1: whatever begins or ceases to live is mutable in itself or through another. In the first case it is in potency in itself; in the second the explicit sense bridge gives potency in itself. So whatever begins or ceases to live is in potency in itself in some respect. The same omission model shows the bridge is needed.",
+  "definition_ids": [
+    "DEF-LIFE-PRESENT-AT",
+    "DEF-MUTABLE-IN-SOME-WAY",
+    "DEF-MUTABLE-THROUGH-ANOTHER",
+    "DEF-POTENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER"
+  ],
+  "label": "MUTABLE_3: a life boundary requires potency, from mutability in some way and a sense bridge",
+  "sense_bridges": [
+    {
+      "term": "IN_POTENCY_MUTABLE",
+      "from": "105b1f4a-6d9c-4e4e-8c30-2c109c2f755f",
+      "to": "2ba29183-e9d7-4b34-9815-6e8e24c16692",
+      "statement_id": "STMT-SUBJECT-OF-ANOTHERS-POWER-HAS-POTENCY"
+    },
+    {
+      "term": "IN_POTENCY_MUTABLE",
+      "from": "194c40c8-c176-43d9-9488-9021f7cb2351",
+      "to": "2ba29183-e9d7-4b34-9815-6e8e24c16692",
+      "statement_id": "STMT-SUBJECT-OF-ANOTHERS-POWER-HAS-POTENCY"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "GOD-SENSE-FORK-DESCRIBED-PRINCIPLE-ATTRIBUTES",
+  "label": "GOD fork summary: the fully described principle has the classical attributes",
+  "argument_id": "GOD-SENSE-FORK-DESCRIBED-PRINCIPLE-ATTRIBUTES",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks4.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks4.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks4.describedPrincipleAttributesByGodSenseFork",
+  "comparator_config": "results/GOD-SENSE-FORK-DESCRIBED-PRINCIPLE-ATTRIBUTES/comparator.json",
+  "status": "solution-present",
+  "description": "Optional summary over GOD_1-4. Coverage reads both uses of 'God' on the designated root route (naming, attributes) in selected senses; exclusivity makes them one sense. So whatever meets the full description is God in that sense and has the classical attributes. The controls give the mixed reading (naming GOD_1, attributes GOD_4): the naming holds analytically, the described principle is not the classical God and lacks the attributes."
+}

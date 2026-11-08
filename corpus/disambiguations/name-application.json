@@ -17,7 +17,8 @@
     {
       "id": "e238e6fa-0dfd-4c67-9a16-4635351b957a",
       "label": "THE_NAME_GOD_APPLIES_2",
-      "definition_id": "DEF-GOD-NOMINAL-Q13"
+      "definition_id": "DEF-GOD-NOMINAL-Q13",
+      "lean_declaration": "TruthCore.Causality.TermSenseForks.NominalGod"
     }
   ]
 }

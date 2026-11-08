@@ -1,0 +1,11 @@
+{
+  "id": "NOMINAL-GOD-MAXIMALITY-IS-ANALYTIC",
+  "label": "GOD_1: 'God is maximal in being' read nominally is analytic",
+  "argument_id": "NOMINAL-GOD-MAXIMALITY-IS-ANALYTIC",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks4.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks4.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks4.nominalGodIsMaximalInBeing",
+  "comparator_config": "results/NOMINAL-GOD-MAXIMALITY-IS-ANALYTIC/comparator.json",
+  "status": "solution-present",
+  "description": "GOD_1 (NOMINAL) branch of the converse premise: read as what the name signifies, whatever is God is maximal in being, with no premise. Recorded as its own statement, distinct from the GOD_4 premise STMT-GOD-IS-MAXIMAL-IN-BEING."
+}

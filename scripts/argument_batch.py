@@ -214,6 +214,8 @@ def build_records(spec: dict, write: bool) -> list[str]:
         inference = {"id": inference_id, "input_statement_ids": a["premises"],
                      "output_statement_id": a["conclusion"], "rule": a["rule"], "meaning": a["meaning"],
                      "assumption_statement_ids": [], "discharged_statement_ids": []}
+        if "label" in a:
+            inference["label"] = a["label"]
         labelled = {"label": a["label"]} if "label" in a else {}
         argument = {"id": a["id"], **labelled, "premise_statement_ids": a["premises"],
                     "conclusion_statement_id": a["conclusion"], "inference_ids": [inference_id],

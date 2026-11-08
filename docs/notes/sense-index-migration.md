@@ -23,7 +23,7 @@ rival senses of one word, and splitting the record into one disambiguation per w
 may clear the entry without splitting the argument.
 
 Senses are distinct Lean types: each sense names its own `lean_declaration`. Of the
-1083 senses, 272 have no distinct Lean declaration (none, or
+1084 senses, 268 have no distinct Lean declaration (none, or
 the same constant as another sense of the record); they are allowlisted in the same file
 and are not finished senses. The allowlists may only shrink (#1233):
 `python3 scripts/sense_index.py ratchet --base <merge-base>` fails on any added entry.

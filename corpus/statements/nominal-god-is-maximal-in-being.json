@@ -1,0 +1,15 @@
+{
+  "id": "STMT-NOMINAL-GOD-IS-MAXIMAL-IN-BEING",
+  "label": "GOD_1: whatever is God in what the name signifies is maximal in being (analytic)",
+  "paraphrase": "GOD_1 reading of the converse premise (attribution deferred): whatever meets the full nominal description is maximal in being. Analytic in this reading; a distinct statement from STMT-GOD-IS-MAXIMAL-IN-BEING, which reads God as GOD_4.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.NominalGodIsMaximalInBeing",
+  "definition_ids": [
+    "DEF-GOD-NOMINAL-Q13",
+    "DEF-MAXIME-ENS",
+    "DEF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOD",
+    "DISAMB-MAXIME-ENS"
+  ]
+}

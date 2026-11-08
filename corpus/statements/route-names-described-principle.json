@@ -1,0 +1,17 @@
+{
+  "id": "STMT-ROUTE-NAMES-DESCRIBED-PRINCIPLE",
+  "label": "The fully described principle is God in the route's reading of the naming use",
+  "paraphrase": "OPEN analyst premise (attribution deferred): whatever meets the full nominal description (the only being maximal in being, causing the being and every perfection of every other being, entering into the composition of nothing) is God in the route's reading of the naming use.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.RouteNamesDescribedPrinciple",
+  "definition_ids": [
+    "DEF-ROUTE-SENSE-SELECTION",
+    "DEF-GOD-NOMINAL-Q13",
+    "DEF-MAXIME-ENS",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-REMOTE-FROM-ALL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOD",
+    "DISAMB-MAXIME-ENS"
+  ]
+}

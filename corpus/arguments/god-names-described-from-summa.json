@@ -1,0 +1,44 @@
+{
+  "id": "GOD-NAMES-DESCRIBED-FROM-SUMMA",
+  "premise_statement_ids": [
+    "STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS",
+    "STMT-SUMMA-GOD-IS-CLASSICAL-GOD"
+  ],
+  "conclusion_statement_id": "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE",
+  "inference_ids": [
+    "INF-GOD-NAMES-DESCRIBED-FROM-SUMMA"
+  ],
+  "meaning": "GOD_2 (SUMMA) branch of the naming use: the only maximum in being that causes the being of every other being is God in the Summa's sense (the reduced naming premise for the God parameter of the older stage-1 routes), and (explicit sense bridge) what the Summa calls God is the God of classical theism. So the fully described principle, which meets the reduced description, is the God of classical theism. The controls give a model with the reduced Summa naming and no classical God.",
+  "definition_ids": [
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-GOD-AS-NAMED-IN-THE-SUMMA",
+    "DEF-GOD-NOMINAL-Q13",
+    "DEF-GOD-OF-CLASSICAL-THEISM",
+    "DEF-MAXIME-ENS",
+    "DEF-NOMINAL-DEFINITION",
+    "DEF-REMOTE-FROM-ALL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOD",
+    "DISAMB-MAXIME-ENS"
+  ],
+  "label": "GOD_2: the reduced naming for the Summa's God and a GOD_2-to-GOD_4 bridge give the naming premise",
+  "strong_version_needed": {
+    "STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS": "The GOD_2 branch starts from the Summa's own naming premise, which exists only in the reduced form; the fuller naming instantiated at the Summa's God would suffice but no route records it for that parameter."
+  },
+  "sense_bridges": [
+    {
+      "term": "GOD",
+      "from": "b11d7317-49bb-4c03-b1aa-fefada6943ff",
+      "to": "52c2ebac-0a71-4dd4-8a21-804c1dd0847a",
+      "statement_id": "STMT-SUMMA-GOD-IS-CLASSICAL-GOD"
+    },
+    {
+      "term": "GOD",
+      "from": "295c9096-50b8-4ccd-960e-f833730a0774",
+      "to": "52c2ebac-0a71-4dd4-8a21-804c1dd0847a",
+      "statement_id": "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE",
+      "role": "conclusion"
+    }
+  ]
+}

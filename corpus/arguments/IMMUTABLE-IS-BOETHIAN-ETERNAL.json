@@ -16,7 +16,11 @@
     "DEF-PURE-ACT",
     "DEF-POTENCY"
   ],
-  "disambiguation_ids": ["DISAMB-POTENCY",
+  "disambiguation_ids": [
+    "DISAMB-POTENCY",
     "DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER"
-  ]
+  ],
+  "strong_version_needed": {
+    "STMT-LIFE-BOUNDARY-REQUIRES-POTENCY": "Its pure-act conclusion quantifies over potency in the subject (MUTABLE_1), so the boundary premise is needed in that sense; the weaker MUTABLE_3 reading STMT-LIFE-BOUNDARY-REQUIRES-SOME-MUTABILITY reaches it only with the open bridge STMT-SUBJECT-OF-ANOTHERS-POWER-HAS-POTENCY (LIFE-BOUNDARY-POTENCY-FROM-SOME-MUTABILITY; batch 4 of #1233)."
+  }
 }

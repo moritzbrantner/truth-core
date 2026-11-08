@@ -1,0 +1,12 @@
+{
+  "id": "INF-LIFE-BOUNDARY-SOME-MUTABILITY-FROM-ANOTHER",
+  "input_statement_ids": [
+    "STMT-LIFE-BOUNDARY-REQUIRES-POWER-IN-ANOTHER"
+  ],
+  "output_statement_id": "STMT-LIFE-BOUNDARY-REQUIRES-SOME-MUTABILITY",
+  "rule": "Disjunction introduction (right)",
+  "meaning": "Strength order between MUTABLE_2 and MUTABLE_3 in the boundary use: if whatever begins or ceases to live is in another's power, it is mutable in some way.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": [],
+  "label": "Strength order: the MUTABLE_2 boundary statement implies the MUTABLE_3 one"
+}

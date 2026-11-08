@@ -1,0 +1,15 @@
+{
+  "id": "INF-GOD-SENSE-FORK-DESCRIBED-PRINCIPLE-ATTRIBUTES",
+  "input_statement_ids": [
+    "STMT-GOD-SENSES-EXHAUSTIVE",
+    "STMT-GOD-SENSE-UNIQUE",
+    "STMT-ROUTE-NAMES-DESCRIBED-PRINCIPLE",
+    "STMT-ROUTE-GOD-HAS-CLASSICAL-ATTRIBUTES"
+  ],
+  "output_statement_id": "STMT-DESCRIBED-PRINCIPLE-HAS-CLASSICAL-ATTRIBUTES",
+  "rule": "Uses agree from coverage and exclusivity; hypothetical syllogism",
+  "meaning": "Optional summary over GOD_1-4. Coverage reads both uses of 'God' on the designated root route (naming, attributes) in selected senses; exclusivity makes them one sense. So whatever meets the full description is God in that sense and has the classical attributes. The controls give the mixed reading (naming GOD_1, attributes GOD_4): the naming holds analytically, the described principle is not the classical God and lacks the attributes.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": [],
+  "label": "GOD fork summary: the fully described principle has the classical attributes"
+}

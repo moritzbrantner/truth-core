@@ -1,0 +1,16 @@
+{
+  "id": "STMT-GOD-SENSES-EXHAUSTIVE",
+  "label": "Each use of 'God' on the designated root route is GOD_1, GOD_2, GOD_3 or GOD_4",
+  "paraphrase": "OPEN frontier premise (coverage, attribution deferred): each of the two uses of 'God' on the designated root route (the fully described principle is God; whatever is God has the classical attributes) is read as what the name signifies (GOD_1, NominalGod: the full q.13 a.8 ad 2 description with the quarta via's cause of every perfection), the Summa's God parameter of the older stage-1 routes (GOD_2), what is called God in usage (GOD_3, CalledGod) or the God of classical theism (GOD_4, Signature.IsGod), selected by the route's reading, and the use's predicate is exactly that sense's predicate. Scott's and Goedel's GodLike are not listed: they are world-indexed predicates over a positivity constant, and a rival who reads the route's God that way denies this premise.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.GodSensesExhaustive",
+  "definition_ids": [
+    "DEF-ROUTE-SENSE-SELECTION",
+    "DEF-GOD-NOMINAL-Q13",
+    "DEF-GOD-AS-NAMED-IN-THE-SUMMA",
+    "DEF-GOD-WHAT-ALL-UNDERSTAND",
+    "DEF-GOD-OF-CLASSICAL-THEISM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOD"
+  ]
+}
