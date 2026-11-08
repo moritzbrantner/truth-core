@@ -201,6 +201,24 @@ class FrontierReportTest(unittest.TestCase):
         )
         self.assertEqual(self.report(root="ABSENT")["reaching_root_statements"], [])
 
+    def test_conditional_refutation_support(self):
+        arguments = [argument("REF", ["Q", "OPEN"], "NOT-R"),
+                     argument("SUP", ["N"], "Q"), argument("CYCLE", ["Q"], "N"),
+                     argument("UNVERIFIED", ["SIDE"], "OPEN")]
+        results = [{"id": a["id"], "argument_id": a["id"], "status": "verified"}
+                   for a in arguments if a["id"] != "UNVERIFIED"]
+        relations = [relation("statement", "R", "alternative_to", "ROOT"),
+                     relation("argument", "REF", "refutes", "R")]
+        self.assertEqual(corpus.refutation_support(arguments, results, relations, {"ROOT"}),
+                         ({"Q", "N", "OPEN"}, {"REF", "SUP", "CYCLE"}))
+        for field, value in [("subject_kind", "statement"), ("object_kind", "argument"),
+                             ("object_id", "UNKNOWN"), ("predicate", "attacks")]:
+            invalid = [relations[0], {**relations[1], field: value}]
+            self.assertEqual(corpus.refutation_support(arguments, results, invalid, {"ROOT"}),
+                             (set(), set()))
+        self.assertEqual(corpus.refutation_support(arguments, results[1:], relations, {"ROOT"}),
+                         (set(), set()))
+
     def test_shared_parity_fixture(self) -> None:
         # Same fixture as apps/corpus-explorer/src/lib/proposition-graph.test.ts.
         fixture = json.loads(PARITY_FIXTURE.read_text(encoding="utf-8"))

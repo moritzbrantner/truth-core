@@ -1,5 +1,7 @@
 //! Disconnected verified work: verified results whose argument conclusion
-//! does not reach the frontier root.
+//! does not reach the frontier root or support a verified refutation of a
+//! recorded rival of a root-path statement. Conditional support does not close
+//! its assumptions or establish the root.
 //!
 //! `thickness --queue` ranks only statements that already reach the root, so
 //! a whole verified family can stay invisible to round selection. This report
@@ -199,8 +201,74 @@ pub fn report(checkout: &Path, corpus: &Corpus, root: &str, by: GroupBy) -> Valu
     build(checkout, &records, &frontier, by)
 }
 
+/// Conditional support is connection evidence, never frontier closure. Only
+/// recorded statement rivals and verified argument refutations seed this walk.
+fn refutation_support<'a>(
+    records: &Records<'a>,
+    root_path: &BTreeSet<String>,
+) -> (BTreeSet<&'a str>, BTreeSet<&'a str>) {
+    let arguments: HashMap<_, _> = records
+        .arguments
+        .iter()
+        .map(|a| (text(a, "id"), *a))
+        .collect();
+    let verified: BTreeSet<_> = records
+        .results
+        .iter()
+        .filter(|r| matches!(text(r, "status"), "solution-present" | "verified"))
+        .map(|r| text(r, "argument_id"))
+        .collect();
+    let rivals: BTreeSet<_> = records
+        .relations
+        .iter()
+        .filter(|r| {
+            text(r, "predicate") == "alternative_to"
+                && text(r, "subject_kind") == "statement"
+                && text(r, "object_kind") == "statement"
+                && root_path.contains(text(r, "object_id"))
+        })
+        .map(|r| text(r, "subject_id"))
+        .collect();
+    let mut connected_arguments = BTreeSet::new();
+    let mut statements = BTreeSet::new();
+    let mut pending = Vec::new();
+    for relation in &records.relations {
+        let id = text(relation, "subject_id");
+        if text(relation, "predicate") == "refutes"
+            && text(relation, "subject_kind") == "argument"
+            && text(relation, "object_kind") == "statement"
+            && rivals.contains(text(relation, "object_id"))
+            && verified.contains(id)
+            && arguments.contains_key(id)
+        {
+            connected_arguments.insert(id);
+            pending.push(id);
+        }
+    }
+    while let Some(id) = pending.pop() {
+        for premise in list(arguments[id], "premise_statement_ids")
+            .into_iter()
+            .chain(list(arguments[id], "commitment_statement_ids"))
+        {
+            if !statements.insert(premise) {
+                continue;
+            }
+            for (&candidate, argument) in &arguments {
+                if text(argument, "conclusion_statement_id") == premise
+                    && verified.contains(candidate)
+                    && connected_arguments.insert(candidate)
+                {
+                    pending.push(candidate);
+                }
+            }
+        }
+    }
+    (statements, connected_arguments)
+}
+
 fn build(checkout: &Path, records: &Records, frontier: &FrontierInputs, by: GroupBy) -> Value {
     let reaching = &frontier.reaching_root;
+    let (support, refuters) = refutation_support(records, reaching);
     let statements: BTreeMap<&str, &Record> = records
         .statements
         .iter()
@@ -249,7 +317,10 @@ fn build(checkout: &Path, records: &Records, frontier: &FrontierInputs, by: Grou
     let mut connected = 0usize;
     let mut orphans: Vec<Orphan> = Vec::new();
     for (result, argument) in &verified {
-        if on_path(text(argument, "conclusion_statement_id")) {
+        if on_path(text(argument, "conclusion_statement_id"))
+            || support.contains(text(argument, "conclusion_statement_id"))
+            || refuters.contains(text(argument, "id"))
+        {
             connected += 1;
             continue;
         }
@@ -876,7 +947,7 @@ pub fn format(report: &Value) -> String {
             report["by"].as_str().unwrap_or_default()
         ),
         format!(
-            "verified results: {}; conclusion reaches the root: {}; disconnected: {} ({} non-transcription, {} transcription)",
+            "verified results: {}; connected to the root: {}; disconnected: {} ({} non-transcription, {} transcription)",
             count("verified_result_count"),
             count("connected_result_count"),
             count("disconnected_result_count"),
@@ -1105,6 +1176,76 @@ mod tests {
         let text = format(&report);
         assert!(text.contains("TruthCore.Modal  2 results (1 non-transcription, 1 transcription"));
         assert!(text.contains("ROOT-ARG imports TruthCore.Results.Modal.MODAL-A.Solution"));
+    }
+
+    #[test]
+    fn verified_refutation_support_connects_without_closing_open_premises() {
+        let dir = fixture();
+        let relation = |predicate: &str, kind: &str, object: &str| {
+            write(
+                &dir.0,
+                "corpus/relations/refute.json",
+                &json!({
+                    "id": "REFUTE", "subject_kind": kind, "subject_id": "MODAL-A",
+                    "predicate": predicate, "object_kind": "statement", "object_id": object
+                })
+                .to_string(),
+            );
+        };
+        write(
+            &dir.0,
+            "corpus/statements/R.json",
+            &json!({"id": "R", "paraphrase": "rival"}).to_string(),
+        );
+        write(
+            &dir.0,
+            "corpus/relations/rival.json",
+            &json!({"id": "RIVAL",
+            "subject_kind": "statement", "subject_id": "R", "predicate": "alternative_to",
+            "object_kind": "statement", "object_id": "P"})
+            .to_string(),
+        );
+        relation("refutes", "argument", "R");
+        let corpus = Corpus::load(&dir.0).unwrap();
+        let records = Records::from_corpus(&corpus);
+        let flags = crate::frontier::transcription_flags(&dir.0, &records);
+        let frontier = thickness::frontier_inputs("ROOT", &records, &flags);
+        assert!(!frontier.reaching_root.contains("Q"));
+        assert!(!frontier.established.contains("Q"));
+        let result = report(&dir.0, &corpus, "ROOT", GroupBy::Module);
+        assert_eq!(result["connected_result_count"], 3);
+        assert_eq!(result["disconnected_result_count"], 1); // genuine CAUSE-A orphan
+        // Wrong target, wrong kind and an attack are not refutation support.
+        for (predicate, kind, object) in [
+            ("refutes", "argument", "C"),
+            ("refutes", "statement", "R"),
+            ("attacks", "argument", "R"),
+        ] {
+            relation(predicate, kind, object);
+            assert_eq!(
+                report(
+                    &dir.0,
+                    &Corpus::load(&dir.0).unwrap(),
+                    "ROOT",
+                    GroupBy::Module
+                )["connected_result_count"],
+                1
+            );
+        }
+        relation("refutes", "argument", "R");
+        let path = dir.0.join("corpus/results/MODAL-A.json");
+        let mut result: Value = serde_json::from_str(&fs::read_to_string(&path).unwrap()).unwrap();
+        result["status"] = json!("pending");
+        fs::write(path, result.to_string()).unwrap();
+        assert_eq!(
+            report(
+                &dir.0,
+                &Corpus::load(&dir.0).unwrap(),
+                "ROOT",
+                GroupBy::Module
+            )["connected_result_count"],
+            1
+        );
     }
 
     #[test]

@@ -227,11 +227,15 @@ same output.
 `truth orphans [--frontier-root STATEMENT-ID] [--by module|family]` lists
 verified results (status `solution-present` or `verified`) whose argument
 conclusion does not reach the frontier root (default
-`STMT-CATHOLICISM-TRUE`). `thickness --queue` ranks only statements that
+`STMT-CATHOLICISM-TRUE`) and which do not support a verified recorded refutation
+of an `alternative_to` rival of a root-path node. Support follows premises and
+commitments backwards through verified arguments, including transitive support.
+Open assumptions permit conditional connection; this does not close them or
+establish root truth. Solution imports alone remain advisory contacts. `thickness --queue` ranks only statements that
 already reach the root, so such work is otherwise invisible to round
 selection. Reaching the root is the same route-aware walk as `thickness`;
 `scripts/verify_truth_cli.py` checks the disconnected set against Python's
-`reaching_root_statements`.
+`reaching_root_statements` plus `corpus.refutation_support`.
 
 Results are grouped by Lean module area (`--by module`, the default: the
 first namespace component below `TruthCore`, after `Results`, so
