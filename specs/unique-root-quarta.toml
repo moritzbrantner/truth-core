@@ -1,0 +1,36 @@
+[batch]
+vocab = "TruthCore.Causality.UniqueRootQuartaControl"
+results = "TruthCore.Results.Causality.UniqueRootQuarta"
+
+[[statement]]
+id = "Selected root to Fourth Way connection controls"
+lean = "Certificate"
+paraphrase = "Finite positive witness with two existing candidates and a nonempty cause relation; omitting the at-being genus policy retains the unique necessary perfect root but no universal cause; omitting the root package permits no actuality and a vacuous genus policy. Formal consequence controls only, not real metaphysical accounts."
+definitions = []
+disambiguations = []
+
+[[argument]]
+id = "Selected package connects to the Fourth Way"
+theorem = "derive"
+premises = ["7abdee27-8abc-59d9-9b20-740616a1a8dd", "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS"]
+conclusion = "STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL"
+rule = "Existential elimination, maximality projection, at-being genus policy"
+meaning = "Structural conditional connection of UNIQUE-ROOT-PERFECTION to the cheapest existing root route, via its exact Fourth Way conclusion (MAXIME_1). The SAME dictionaries and esse are retained. Project the supplied maximum and apply the existing at-being genus policy. No stronger full-genus policy, total comparison, causal identity, God naming, moral goodness, modal transport or premise truth follows. The remaining naming, classical attribute and stages 2-6 premises of the existing Catholicism route stay explicit and OPEN. Root uniqueness, necessity and perfection are surplus to this projection; it is a structural connection, not an independent philosophical discharge."
+senses = {NECESSARY = "NECESSARY_2", MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST = "9bea9a43-3a87-4d62-86de-e5873aea62f8", WELL_FOUNDEDNESS_AND_ANTI_BRUTE_ROOT = "556515c9-1fcc-4ea0-b85d-2a4cad7eff79"}
+
+[[argument]]
+id = "Selected root to Fourth Way finite controls"
+theorem = "controls"
+premises = []
+conclusion = "Selected root to Fourth Way connection controls"
+rule = "Explicit finite interpretations"
+meaning = "Positive nonvacuity and omission countermodels for both carrying premises of the selected-root to Fourth Way connection. The positive case has a distinct actual target and causal edge. Omitting genus retains perfection with no causal edges; omitting the root package retains genus with no actuality. These controls test the encoded consequence only."
+
+[[argument]]
+id = "Unique root derivation composed into the Fourth Way"
+theorem = "fromUniqueRoot"
+premises = ["91b085c4-f1c7-5ada-9848-8e7dc753313a", "ee4ab504-c8fe-59bc-bc96-7cbeefed6410", "da09703b-0b1e-5dca-9dd7-6c0c8d1610d7", "0436de86-6579-53f2-9ff5-2111ba44ebae", "cb1cdea9-eb6c-578c-8008-84e0d4107fd3", "e4e6b0cd-f61a-5605-a302-573c67cf063a", "7067553d-cad9-5d79-b6b2-912e35051530", "64498e7e-7f10-54a0-9ec0-c65e6076de1f"]
+conclusion = "STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL"
+rule = "Composition with UniqueRootPerfection.derive and selected-package connection"
+meaning = "Apply the existing UniqueRootPerfection.derive theorem to its original eight hypotheses, then the selected-package connection. Retains all eight explicit policies, including the at-being genus policy; no new assumption, naming or modal transport. This is a conditional composition, not premise defense. Existing controls for the original package are reused; this batch tests the final two-premise connection separately."
+senses = {NECESSARY = "NECESSARY_2", MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST = "9bea9a43-3a87-4d62-86de-e5873aea62f8", WELL_FOUNDEDNESS_AND_ANTI_BRUTE_ROOT = "556515c9-1fcc-4ea0-b85d-2a4cad7eff79"}
