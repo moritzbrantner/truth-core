@@ -12,13 +12,16 @@ import tarfile
 import tempfile
 
 
-def orphan_count(reaching, arguments, results):
+def orphan_count(reaching, arguments, results, support=(), refuters=()):
     """Same population as truth orphans, including transcriptions."""
     by_id = {argument["id"]: argument for argument in arguments}
+    connected_statements = reaching | set(support)
+    connected_arguments = set(refuters)
     return sum(
         result.get("status") in ("solution-present", "verified")
         and result["argument_id"] in by_id
-        and by_id[result["argument_id"]]["conclusion_statement_id"] not in reaching
+        and by_id[result["argument_id"]]["conclusion_statement_id"] not in connected_statements
+        and result["argument_id"] not in connected_arguments
         for result in results
     )
 
@@ -32,16 +35,21 @@ import corpus
 frontier = corpus.current_frontier(corpus.DEFAULT_FRONTIER_ROOT, False, next_steps=False)
 if 'reaching_root_statements' not in frontier:
     raise RuntimeError('historical frontier lacks all-route reachability')
-print(json.dumps([frontier['reaching_root_statements'],
-                  [r for _, r in corpus.load_dir('arguments')],
-                  [r for _, r in corpus.load_dir('results')]]))
+reaching = frontier['reaching_root_statements']
+arguments = [r for _, r in corpus.load_dir('arguments')]
+results = [r for _, r in corpus.load_dir('results')]
+support, refuters = (), ()
+if hasattr(corpus, 'refutation_support'):
+    support, refuters = corpus.refutation_support(
+        arguments, results, [r for _, r in corpus.load_dir('relations')], set(reaching))
+print(json.dumps([reaching, arguments, results, sorted(support), sorted(refuters)]))
 """
     completed = subprocess.run(
         [sys.executable, "-c", code], cwd=tree / "scripts",
         capture_output=True, text=True, check=True,
     )
-    reaching, arguments, results = json.loads(completed.stdout)
-    return orphan_count(set(reaching), arguments, results)
+    reaching, arguments, results, support, refuters = json.loads(completed.stdout)
+    return orphan_count(set(reaching), arguments, results, support, refuters)
 
 
 def base_count(root: Path, revision: str) -> int:

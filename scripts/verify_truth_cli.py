@@ -338,16 +338,19 @@ class TruthThicknessParity(unittest.TestCase):
             self.assertEqual(report["derivations"][U("statement", "A")], [U("argument", "ARG-A")])
 
     def test_orphans_real_corpus(self):
-        # Disconnected = verified results whose argument conclusion is not among
-        # the Python frontier's statements reaching the root.
+        # Disconnected excludes verified conditional rival-refutation support.
         frontier = corpus.current_frontier(corpus.DEFAULT_FRONTIER_ROOT, False, next_steps=False)
         reaching = set(frontier["reaching_root_statements"])
         arguments = {record["id"]: record for _, record in corpus.load_dir("arguments")}
+        support, refuters = corpus.refutation_support(
+            list(arguments.values()), [r for _, r in corpus.load_dir("results")],
+            [r for _, r in corpus.load_dir("relations")], reaching)
         expected = sorted(
             result["id"] for _, result in corpus.load_dir("results")
             if result.get("status") in ("solution-present", "verified")
             and result["argument_id"] in arguments
-            and arguments[result["argument_id"]]["conclusion_statement_id"] not in reaching
+            and arguments[result["argument_id"]]["conclusion_statement_id"] not in reaching | support
+            and result["argument_id"] not in refuters
         )
         report = json.loads(self.run_truth("--json", "orphans"))
         actual = sorted(entry["result_id"] for group in report["groups"] for entry in group["results"])
