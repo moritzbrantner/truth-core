@@ -4,12 +4,13 @@ import { legacyUuid } from "./corpus-ids";
 
 test("bounded audit exposes exact coverage and keeps unrelated results outside scope", () => {
   const audit = getBundleAudit(legacyUuid("result", "CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES"));
-  expect(audit?.records.length).toBe(69);
-  expect(audit?.records.filter((r) => r.kind === "definitions").length).toBe(25);
+  expect(audit?.records.length).toBe(70);
+  expect(audit?.records.filter((r) => r.kind === "definitions").length).toBe(26);
+  expect(audit?.records.some((r) => r.kind === "definitions" && r.id === legacyUuid("definition", "DEF-EXCLUDED-MIDDLE-LOGICAL-HOLDING"))).toBe(true);
   expect(audit?.records.find((r) => r.id === legacyUuid("statement", "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH"))?.status).toBe("unresolved");
   expect(audit?.limits.join(" ")).toContain("#720");
   const complete = getBundleAudit(legacyUuid("result", "CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-ALL"));
-  expect(complete?.records.length).toBe(151);
+  expect(complete?.records.length).toBe(152);
   expect(complete?.records.some((r) => r.kind === "definitions" && r.id === legacyUuid("definition", "DEF-INDEPENDENT-POTENCY"))).toBe(true);
   expect(complete?.records.some((r) => r.kind === "disambiguations" && r.id === legacyUuid("disambiguation", "DISAMB-POTENCY"))).toBe(true);
   expect(getBundleAudit(legacyUuid("result", "CATHOLICISM-STAGES-ONE-TWO-Q11-NATURE"))).toBe(complete);

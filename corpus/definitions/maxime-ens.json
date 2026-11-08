@@ -9,6 +9,6 @@
     "78cd74e9-d854-55f4-bc5e-57bd2d22218b",
     "545c7ed6-cc7c-56f0-ab1a-7aa11de6cc2d"
   ],
-  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.IsMaximalIn",
-  "note": "Lean locator uses the canonical IsMaximalIn spelling. Its body unfolds to the existing IsMaximumIn compatibility definition, InAct m r ∧ ∀ y, ¬ MoreIn r y m. This is the same merely-maximal predicate, not greatest degree, strict supremacy or an independently established existence claim."
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.IsMaximumIn",
+  "note": "Lean locator uses the canonical IsMaximalIn spelling. Its body unfolds to the existing IsMaximumIn compatibility definition, InAct m r ∧ ∀ y, ¬ MoreIn r y m. This is the same merely-maximal predicate, not greatest degree, strict supremacy or an independently established existence claim. Audit correction: the frozen unique-root types use IsMaximumIn itself. The locator names that predicate body directly; IsMaximalIn is its compatibility alias. No stronger order or distinct mathematical sense is introduced by either spelling."
 }

@@ -12,12 +12,14 @@ from corpus_ids import legacy_uuid  # noqa: E402
 class BundleAuditTest(unittest.TestCase):
     def test_exact_live_record_coverage(self):
         audit = bundle_audit.check()
-        self.assertEqual(len(audit['records']), 69)
+        self.assertEqual(len(audit['records']), 70)
+        self.assertIn(legacy_uuid('definition', 'DEF-EXCLUDED-MIDDLE-LOGICAL-HOLDING'),
+                      {row['id'] for row in audit['records'] if row['kind'] == 'definitions'})
         self.assertEqual(sum(row['kind'] == 'statements' for row in audit['records']), 21)
 
     def test_all_specialization_and_consumer_scope(self):
         audit = bundle_audit.check(audit=json.loads(bundle_audit.AUDITS[1].read_text()))
-        self.assertEqual(len(audit['records']), 151)
+        self.assertEqual(len(audit['records']), 152)
         self.assertTrue({legacy_uuid('definition', 'DEF-INDEPENDENT-POTENCY'), legacy_uuid('disambiguation', 'DISAMB-POTENCY')} <=
                         {row['id'] for row in audit['records']})
         self.assertEqual(sum(row['kind'] == 'results' for row in audit['records']), 5)
