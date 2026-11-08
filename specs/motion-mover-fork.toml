@@ -31,7 +31,7 @@ definitions = ["39577c15-a681-40f5-82a5-b5b9bfd7ff6e", "a7904c82-eef8-58e4-ac7c-
 id = "8b52cfb8-ae86-474d-be16-64df36d43568"
 lean = "AnotherGivesSomething"
 paraphrase = "For each subject and respect, a distinct per-se mover supplies some per-se mover in that respect."
-definitions = ["39577c15-a681-40f5-82a5-b5b9bfd7ff6e", "a7904c82-eef8-58e4-ac7c-0bb93374cb43", "7b016011-d896-532f-b6fb-2bd7c2a54bbb"]
+definitions = ["39577c15-a681-40f5-82a5-b5b9bfd7ff6e", "a7904c82-eef8-58e4-ac7c-0bb93374cb43"]
 
 [[statement]]
 id = "f3690999-7bd0-47fb-a84d-b2db0f86e9b5"
@@ -97,7 +97,6 @@ conclusion = "8b52cfb8-ae86-474d-be16-64df36d43568"
 rule = "typed witness elimination and case analysis"
 meaning = "Witness projection drops distinctness while retaining mover and respect."
 senses = {MOVED_BY_SOMETHING_BY_ANOTHER_PER = "MOVED_BY_SOMETHING_BY_ANOTHER_PER_1"}
-sense_bridges = [{term = "MOVED_BY_SOMETHING_BY_ANOTHER_PER", from = "MOVED_BY_SOMETHING_BY_ANOTHER_PER_2", to = "MOVED_BY_SOMETHING_BY_ANOTHER_PER_1", statement_id = "8b52cfb8-ae86-474d-be16-64df36d43568", role = "conclusion"}]
 
 [[argument]]
 id = "077e99bd-fcfd-4021-bd2f-d3e991e4710a"
@@ -127,7 +126,7 @@ premises = ["STMT-EVERY-PHYSICAL-MOTION-HAS-A-PER-SE-MOVER", "d758b09d-9f7c-4641
 conclusion = "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER"
 rule = "typed witness elimination and case analysis"
 meaning = "Cases on instance coverage: physical moved instances use existing physical mover coverage; residual instances use the explicit residual premise. Does not discharge either premise or assert all reduction is physical."
-sense_bridges = [{term = "MOTION", from = "MOTION_2", to = "MOTION_1", statement_id = "0ab65393-65df-40fc-b911-f5c2eaf8db08", role = "premise"}]
+sense_bridges = [{term = "MOTION", from = "MOTION_2", to = "MOTION_1", statement_id = "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER", role = "conclusion"}]
 label = "Broad MOTION_1 mover route from physical and residual coverage"
 
 [[argument]]
@@ -138,7 +137,7 @@ conclusion = "59f993dc-9d2d-4d0e-90b9-386b8e686fd3"
 rule = "typed witness elimination and case analysis"
 meaning = "Cases on typed motion readings: the physical branch uses physical coverage; the broad branch uses the scoped root derivation with its explicit residual and coverage premises."
 label = "MOTION_1 and MOTION_2 mover coverage from physical and residual coverage"
-sense_bridges = [{term = "MOTION", from = "MOTION_2", to = "MOTION_1", statement_id = "0ab65393-65df-40fc-b911-f5c2eaf8db08", role = "premise"}, {term = "MOTION", from = "MOTION_2", to = "MOTION_1", statement_id = "59f993dc-9d2d-4d0e-90b9-386b8e686fd3", role = "conclusion"}]
+sense_bridges = [{term = "MOTION", from = "MOTION_2", to = "MOTION_1", statement_id = "59f993dc-9d2d-4d0e-90b9-386b8e686fd3", role = "conclusion"}]
 senses = {MOTION = "MOTION_1"}
 
 [[argument]]

@@ -26,13 +26,6 @@
       "term": "MOTION",
       "from": "2ddf9d53-00b1-4c63-9197-ee632aba310d",
       "to": "38074911-d62e-44e1-b71c-66b5882f0ff3",
-      "statement_id": "0ab65393-65df-40fc-b911-f5c2eaf8db08",
-      "role": "premise"
-    },
-    {
-      "term": "MOTION",
-      "from": "2ddf9d53-00b1-4c63-9197-ee632aba310d",
-      "to": "38074911-d62e-44e1-b71c-66b5882f0ff3",
       "statement_id": "59f993dc-9d2d-4d0e-90b9-386b8e686fd3",
       "role": "conclusion"
     }

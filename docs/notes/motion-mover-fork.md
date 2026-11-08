@@ -91,3 +91,42 @@ The remaining philosophical obligations are the residual mover premise, instance
 coverage and the accidental conversion premise; all remain open. A proposed
 use of the respect-free mover theorem on the same-respect root route also needs
 an explicit alignment bridge. No such alignment is silently supplied here.
+
+## Bridge and dependency review
+
+Review of PR #1253 at `2ef65375108f9db4900982afe08d43eeb7ddf191`
+found that the same-respect refinement had incorrectly been registered as a
+bridge from the broader Physics VIII.5 sense. The refinement theorem remains
+true, but `AnotherMover moves x r` is stronger than the source sense's
+`AnotherMoverAnyRespect moves x`. Its false bridge and the source-sense
+definition link were removed. Stable sense UUIDs and labels are retained.
+
+Every bridge in the batch was compared against its actual Lean interpretation:
+
+| Registered result/premise | Source and destination scope |
+| --- | --- |
+| `anotherAnyGivesSomethingAny` conclusion | `AnotherMoverAnyRespect moves x → ∃ r, SomeMover moves x r`: the genuine respect-free sense bridge |
+| `moverFork` conclusion | The `another` constructor has exactly `AnotherMoverAnyRespect moves x`; the result is `∃ q, SomeMover moves x q`, without alignment |
+| `AccidentalHasPerSeMover` premise | `AccidentalMover accidental x r → SomeMover moves x r`; the open premise uses the exact two registered witness types |
+| `physicalGivesBroad` conclusion | `PhysicalMotion physical moved x r → BroadMotion moved x r`; genuine typed forgetful projection |
+| `broadFromPhysicalAndResidual` conclusion | A conditional adaptation of the existing raw-relation signature: physical-guard mover coverage, residual mover coverage and instance coverage together yield broad same-respect mover coverage |
+| `motionFork` conclusion | Cases on exactly `BroadMotion` and `PhysicalMotion`, with the same three premises; the broad branch does not follow from physical coverage alone |
+
+The bare `MotionCoverage` premise is not a type coercion between the two motion
+witness types. Its previous bridge annotations were replaced by annotations on
+the conditional conclusions, which retain the full support bundle. The existing
+raw-signature root adapter remains distinguished from the genuinely typed
+`physicalGivesBroad` projection. No Lean type, frozen Challenge, proof term,
+control, or philosophical premise changed during this metadata repair.
+
+The two bounded migration audits that pin `DISAMB-MOTION` were re-reviewed.
+Its stable sense/definition identities and broad/physical distinction remain;
+only the two witness declaration locators and appended scoped-fork explanation
+changed. The audited old consumers still accept their supplied raw motion
+predicates. They are not silently migrated to the new wrapper interpretations.
+Their explicit First-Way existence disjunction, same-witness transports,
+conditional attribute assembly and open naming/sufficiency assumptions remain.
+The pinned audit dispositions now record this inspection instead of claiming
+that the changed dependency was reused unchanged; their original before-state
+and expression-contract baselines are preserved. The exact closures remain
+70, 152 and 167 records, with unrelated results outside the reviewed scope.
