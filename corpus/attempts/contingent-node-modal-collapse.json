@@ -1,0 +1,30 @@
+{
+  "id": "6d7b3247-a049-5ddf-9c44-46556c1ec5b3",
+  "label": "Added the missing contingency node of the necessary-classical-God route: some actual contingent\u2026",
+  "legacy_id": "ATTEMPT-CONTINGENT-NODE-MODAL-COLLAPSE",
+  "statement_ids": [
+    "c94b5446-e7e7-5b36-9bed-288959725526",
+    "56f68b40-9737-59a0-8cac-5610980a1547",
+    "c71c068c-bbae-5ed5-a99d-70b155c8d239",
+    "411e5817-a28a-5d3c-a115-c43b2ffdf64f",
+    "65d98476-da20-551b-ba5b-eb15f9279de1",
+    "fd15cfda-9086-58f1-b66a-2969b3eae3b5",
+    "6358fce9-4fa9-5fdf-8948-c4563c5ce7d1",
+    "320c5d85-6ce8-5fab-aff1-33b775becb89"
+  ],
+  "date": "2026-11-08",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Added the missing contingency node of the necessary-classical-God route (#1233): STMT-SOME-ACTUAL-CONTINGENT, OPEN, on the route's own Profile (some concrete individual exists at w and is absent at an accessible world, CONTINGENT_1 of DISAMB-KANT-CONTINGENCY). Reuse search (corpus.py related STMT-KANT-CONTINGENT-INDIVIDUAL; grep for an existential ContingentAt on the route Profile) found no existing node: PossibleCauseOfContingency.ContingencyBeginsAt and NecessaryRootFork's contingent-root horn are on other carriers or add a beginning or rootness. It reaches the root through CONTINGENT-NODE-INHABITS (an assembly into STMT-COGITO-INHABITED-CONCRETE-WORLD). Five modal-collapse rivals are recorded alternative_to the node and refuted by verified arguments that apply the modal library: NO-COLLAPSE-K (MODAL-K-LAWS, any frame), NO-NEC-COLLAPSE-T (MODAL-T-LAWS with the T schema via the T correspondence), NO-POSS-COLLAPSE-KTB (MODAL-B-LAWS with the B schema via the B correspondence) and NO-POSS-COLLAPSE-S5 (MODAL-S5-LAWS with the T and 5 schemas), NO-NECESSARY-ACT-YIELDS-ALL (SIMPLICITY-COLLAPSE-CORE), and NOT-ALL-NECESSARY-FROM-CONTINGENT (direct; the rival is the node's contradictory). Controls: a two-world nonvacuity model, omission models for the node and for the T, B and 5 schemas (necessary and possible collapse are compatible with the node in K and KT), and the scope fact that concrete necessitarianism makes STMT-EVERY-CONTINGENT-GROUNDED-AT vacuously true. Rejected leads: (a) recording the collapse rivals alternative_to STMT-EVERY-CONTINGENT-GROUNDED-AT: they entail it vacuously (Scope), so they are not its rivals; no other root-path premise is contradicted by collapse; (b) registering the node as the strong version of the Cogito node by a strengthens relation: the reaching-root walk sets a registration's backing argument aside, so the node stayed off the root path; the plain assembly argument is used instead; (c) deriving the node itself from the K collapse law plus anti-collapse and an inventory-individuation premise: needs a premise that accessible worlds containing every actual concretum are the actual world (or decreasing domains), which conflicts with the possibility of creating other beings; not added. Current-main reconciliation: migrated record identities, preserved the original frozen Challenge, and added a separately frozen revised interface that imports and applies checked modal laws instead of listing their full bundles as assumptions. T/B schema premises explicitly bind NECESSARY_11 fixture frames to NECESSARY_2 individual existence. Five revised interfaces build and bind. Closing the checked certificates brings their approved Mathlib axiom dependencies into the proof terms (propext, Classical.choice, Quot.sound permitted); it does not add a philosophical premise. Initial zero-axiom Comparator failed on propext; corrected to the existing Mathlib policy, not an extra axiom. Final delivered-head CI remains required.",
+  "evidence": [
+    "207805c8-fc0b-53e9-bcc5-611e0b9bbe5f",
+    "672ba45d-8e16-5b58-986b-f0522e640915",
+    "567be3f9-2c5e-5636-8b7b-72f23518ea9f",
+    "278b1ba0-6ed5-5a8a-b533-a1d15f7fd916",
+    "e17f2e2c-7e0c-5fe7-b1fc-d608cdd5ba26",
+    "f9d317dc-d660-5cbd-a4c3-2efb20a70428",
+    "4fa5cf30-d40c-5550-9a48-de01e75770ed",
+    "3e1d8dfa-b732-5e4b-84ee-374fafe05f66"
+  ],
+  "blocker": "No refutation counts for closure: each rests on the OPEN node STMT-SOME-ACTUAL-CONTINGENT (and the sense-specific ones also on the OPEN STMT-ONTIC-T-SCHEMA, -B-SCHEMA or -5-SCHEMA). They cannot defend the node itself, since they use it; they would defend another premise only once the node is established. By the truth orphans metric (conclusion reaches the root) the Modal group stays at 82 disconnected: the laws are premises of refutations whose conclusions are not route nodes."
+}

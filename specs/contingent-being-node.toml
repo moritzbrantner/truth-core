@@ -1,0 +1,244 @@
+# The route's contingency node and the modal-collapse rivals (#1233).
+# Map: explorations/contingent-being-node.toml. Triage of the Modal results:
+# docs/notes/modal-results-triage.md. Analyst formulations, attribution
+# deferred; the node is an OPEN premise, the rivals are recorded rivals.
+
+[batch]
+vocab = "TruthCore.Causality.ContingentBeingNode"
+results = "TruthCore.Results.Causality.ContingentBeingNode"
+disambiguations = ["DISAMB-KANT-CONTINGENCY"]
+
+[[statement]]
+id = "STMT-SOME-ACTUAL-CONTINGENT"
+label = "Some actual CONCRETE_AND_ABSTRACT_6 being is CONTINGENT_1"
+lean = "SomeActualContingentAt"
+paraphrase = "OPEN premise, analyst formulation, attribution deferred: on the route's profile, some concrete individual exists at the selected world w and is absent at some world accessible from w (CONTINGENT_1, ContingentAt: accessible non-existence, not empirical change, CONTINGENT_2). It does not say which being is contingent, that the Cogito bearer is, that it is caused, or that every being other than the root is contingent. It implies STMT-COGITO-INHABITED-CONCRETE-WORLD and excludes concrete necessitarianism (STMT-ALL-ACTUAL-CONCRETE-NECESSARY) on the same frame; the converse of that exclusion needs excluded middle."
+definitions = ["DEF-KANT-ONTOLOGICAL-MODEL", "DEF-KANT-MODAL-CONTINGENCY", "DEF-INHABITED-CONCRETE-WORLD", "DEF-CONCRETE-ESSE-IN-RE"]
+disambiguations = ["DISAMB-KANT-CONTINGENCY", "DISAMB-CONCRETE-ABSTRACT-CRITERIA"]
+
+[[statement]]
+id = "STMT-ALL-ACTUAL-CONCRETE-NECESSARY"
+label = "Rival: every actual concrete being is NECESSARY_2 (concrete necessitarianism)"
+lean = "EveryActualConcreteNecessaryAt"
+paraphrase = "Rival (concrete necessitarianism, the modal-collapse family #462/#555), analyst formulation: every concrete individual existing at w exists at every world accessible from w (NECESSARY_2, NecessaryAt, the route frame's box of existence). It makes the route's grounding premise STMT-EVERY-CONTINGENT-GROUNDED-AT vacuously true (CONTINGENT-NODE-CONTROLS, Scope), so it is a rival of the contingency node, not of that premise."
+definitions = ["DEF-KANT-ONTOLOGICAL-MODEL", "DEF-KANT-MODAL-NECESSITY"]
+disambiguations = ["DISAMB-NECESSARY"]
+
+[[statement]]
+id = "STMT-ROUTE-COLLAPSED"
+label = "Rival: every truth at the route's world is NECESSARY_2 there (actual modal collapse)"
+lean = "RouteCollapsedAt"
+paraphrase = "Rival (Spinoza/Hume necessitarianism), analyst formulation: full modal collapse at w on the route's frame: every proposition true at w is true at every world accessible from w (the modal library's MC F allPredicates w, actual collapse). The box is the frame's Kripke box, the same box as NECESSARY_2."
+definitions = ["DEF-MODAL-FIXTURE-MC", "DEF-MODAL-FIXTURE-FRAME", "DEF-KANT-ONTOLOGICAL-MODEL"]
+disambiguations = ["DISAMB-NECESSARY", "DISAMB-MODAL-K-COLLAPSE-MODES"]
+
+[[statement]]
+id = "STMT-ROUTE-NEC-COLLAPSED"
+label = "Rival: modal collapse holds at every world accessible from the route's world"
+lean = "RouteNecessarilyCollapsedAt"
+paraphrase = "Rival (necessary collapse), analyst formulation: full modal collapse (MC F allPredicates) holds at every world accessible from w on the route's frame. In frame class K it is compatible with an actual contingent being (CONTINGENT-NODE-CONTROLS, step frame); it is a rival of the contingency node on the KT reading of NECESSARY_2."
+definitions = ["DEF-MODAL-FIXTURE-MC", "DEF-MODAL-FIXTURE-FRAME", "DEF-KANT-ONTOLOGICAL-MODEL"]
+disambiguations = ["DISAMB-NECESSARY", "DISAMB-MODAL-K-COLLAPSE-MODES", "DISAMB-MODAL-T-COLLAPSE-MODES"]
+
+[[statement]]
+id = "STMT-ROUTE-POSS-COLLAPSED"
+label = "Rival: modal collapse holds at some world accessible from the route's world"
+lean = "RoutePossiblyCollapsedAt"
+paraphrase = "Rival (possible collapse, the premise of collapse-propagation arguments), analyst formulation: full modal collapse (MC F allPredicates) holds at some world accessible from w on the route's frame. In K and KT it is compatible with an actual contingent being (CONTINGENT-NODE-CONTROLS, step and false-le-true frames); it is a rival of the contingency node on the KTB and S5 readings of NECESSARY_2."
+definitions = ["DEF-MODAL-FIXTURE-MC", "DEF-MODAL-FIXTURE-FRAME", "DEF-KANT-ONTOLOGICAL-MODEL"]
+disambiguations = ["DISAMB-NECESSARY", "DISAMB-MODAL-K-COLLAPSE-MODES"]
+
+[[statement]]
+id = "STMT-NECESSARY-ACT-YIELDS-ALL"
+label = "Rival: an act done at every accessible world strictly yields every actual concrete being"
+lean = "NecessaryActStrictlyYieldsAllAt"
+paraphrase = "Rival (a necessary sufficient cause necessitates everything; the collapse objection to a simple necessary creator, #462/#555), analyst formulation: some act token of some output profile on the route's own Ontic is performed at every world accessible from w and is strictly efficacious for every concrete individual existing at w (each exists at every accessible world where the token is performed). It does not say the token is God's or that the profile's source is the route's root."
+definitions = ["DEF-SELECTED-EFFECT-OUTPUT-PROFILE", "DEF-RIGID-ACT-STRICT-EFFICACY", "DEF-KANT-ONTOLOGICAL-MODEL"]
+disambiguations = ["DISAMB-CREATIVE-ACT-IDENTITY", "DISAMB-SELECTED-EFFECT-ACT-AND-CONDITIONS"]
+
+[[statement]]
+id = "STMT-NOT-ALL-ACTUAL-NECESSARY"
+label = "Not every actual concrete being is NECESSARY_2"
+lean = "NotEveryActualConcreteNecessaryAt"
+paraphrase = "Negation of STMT-ALL-ACTUAL-CONCRETE-NECESSARY: it is not the case that every concrete individual existing at w exists at every world accessible from w. It does not exhibit the being or the world (that needs excluded middle)."
+definitions = ["DEF-KANT-ONTOLOGICAL-MODEL", "DEF-KANT-MODAL-NECESSITY"]
+disambiguations = ["DISAMB-NECESSARY"]
+
+[[statement]]
+id = "STMT-ROUTE-NOT-COLLAPSED"
+label = "The route's world is not modally collapsed (some truth there is not NECESSARY_2)"
+lean = "RouteNotCollapsedAt"
+paraphrase = "Negation of STMT-ROUTE-COLLAPSED: it is not the case that every proposition true at w is true at every world accessible from w on the route's frame."
+definitions = ["DEF-MODAL-FIXTURE-MC", "DEF-MODAL-FIXTURE-FRAME", "DEF-KANT-ONTOLOGICAL-MODEL"]
+disambiguations = ["DISAMB-NECESSARY", "DISAMB-MODAL-K-COLLAPSE-MODES"]
+
+[[statement]]
+id = "STMT-ROUTE-NOT-NEC-COLLAPSED"
+label = "Modal collapse does not hold at every world accessible from the route's world"
+lean = "RouteNotNecessarilyCollapsedAt"
+paraphrase = "Negation of STMT-ROUTE-NEC-COLLAPSED: it is not the case that full modal collapse holds at every world accessible from w on the route's frame."
+definitions = ["DEF-MODAL-FIXTURE-MC", "DEF-MODAL-FIXTURE-FRAME", "DEF-KANT-ONTOLOGICAL-MODEL"]
+disambiguations = ["DISAMB-NECESSARY", "DISAMB-MODAL-K-COLLAPSE-MODES", "DISAMB-MODAL-T-COLLAPSE-MODES"]
+
+[[statement]]
+id = "STMT-ROUTE-NOT-POSS-COLLAPSED"
+label = "Modal collapse holds at no world accessible from the route's world"
+lean = "RouteNotPossiblyCollapsedAt"
+paraphrase = "Negation of STMT-ROUTE-POSS-COLLAPSED: full modal collapse holds at no world accessible from w on the route's frame."
+definitions = ["DEF-MODAL-FIXTURE-MC", "DEF-MODAL-FIXTURE-FRAME", "DEF-KANT-ONTOLOGICAL-MODEL"]
+disambiguations = ["DISAMB-NECESSARY", "DISAMB-MODAL-K-COLLAPSE-MODES"]
+
+[[statement]]
+id = "STMT-NO-NECESSARY-ACT-YIELDS-ALL"
+label = "No act done at every accessible world strictly yields every actual concrete being"
+lean = "NoNecessaryActStrictlyYieldsAllAt"
+paraphrase = "Negation of STMT-NECESSARY-ACT-YIELDS-ALL: no act token of any output profile on the route's Ontic is both performed at every world accessible from w and strictly efficacious for every concrete individual existing at w."
+definitions = ["DEF-SELECTED-EFFECT-OUTPUT-PROFILE", "DEF-RIGID-ACT-STRICT-EFFICACY", "DEF-KANT-ONTOLOGICAL-MODEL"]
+disambiguations = ["DISAMB-CREATIVE-ACT-IDENTITY", "DISAMB-SELECTED-EFFECT-ACT-AND-CONDITIONS"]
+
+[[statement]]
+id = "STMT-CONTINGENT-NODE-CONTROLS"
+label = "Finite models for the CONTINGENT_1 node and its modal-collapse refutations"
+lean = "Control.Controls"
+paraphrase = "Formal controls on hand-written Bool/Unit carriers: (1) nonvacuity: on a two-world universal frame with one being at both worlds and one only at world false, the node, the T, B and 5 schemas, the Cogito population node and the grounding premise hold, and every refutation conclusion holds; (2) omissions: on a one-world frame (node omitted) all schemas hold and every rival holds; on the step frame (every world accesses only true) the node holds while the T schema fails and collapse holds at every accessible world, and the B schema fails and collapse holds at some accessible world; on the reflexive frame false-le-true the node and the T schema hold, the B and 5 schemas fail and collapse holds at an accessible world; (3) scope: concrete necessitarianism makes STMT-EVERY-CONTINGENT-GROUNDED-AT true vacuously at every profile and world. No model is claimed to describe reality."
+definitions = ["DEF-KANT-MODAL-CONTINGENCY", "DEF-MODAL-FIXTURE-MC", "DEF-MODAL-FIXTURE-FRAME", "DEF-MODAL-STANDARD-T-D-CORRESPONDENCE", "DEF-MODAL-HIJK-CONVERGENCE"]
+disambiguations = ["DISAMB-KANT-CONTINGENCY", "DISAMB-NECESSARY"]
+
+[[argument]]
+id = "CONTINGENT-NODE-INHABITS"
+label = "A CONTINGENT_1 actual CONCRETE_AND_ABSTRACT_6 being populates the route's world (Cogito node)"
+theorem = "inhabits"
+premises = ["STMT-SOME-ACTUAL-CONTINGENT"]
+conclusion = "STMT-COGITO-INHABITED-CONCRETE-WORLD"
+rule = "Existential elimination and introduction, conjunction elimination"
+meaning = "Assembly (a weakening, not a substantive derivation): the contingency node's witness is concrete and exists at w, so the route's population node holds. It puts the node on the root path as an alternative derivation of STMT-COGITO-INHABITED-CONCRETE-WORLD; as an assembly it closes that node only if the contingency node is closed (invariant 16 fixpoint). It is deliberately not registered as a strengthens relation: a registration's backing argument is set aside by the reaching-root walk, so the node would stay off the root path. The converse fails (CONTINGENT-NODE-CONTROLS: on the one-world frame the world is inhabited and no being is contingent)."
+transcription = "assembly"
+
+[[argument]]
+id = "NOT-ALL-NECESSARY-FROM-CONTINGENT"
+label = "A CONTINGENT_1 actual CONCRETE_AND_ABSTRACT_6 being excludes all being NECESSARY_2"
+theorem = "notEveryNecessary"
+premises = ["STMT-SOME-ACTUAL-CONTINGENT"]
+conclusion = "STMT-NOT-ALL-ACTUAL-NECESSARY"
+rule = "Existential elimination, universal instantiation, negation introduction"
+meaning = "The node's witness exists at w and is absent at an accessible world, so it is not NECESSARY_2; hence not every actual concrete being is. The rival is the exact contradictory of the node, so this refutation uses no modal-library law; it records the incompatibility. It fails without the node (CONTINGENT-NODE-CONTROLS, one-world frame)."
+
+[[argument]]
+id = "CONTINGENT-NODE-CONTROLS"
+label = "Finite models for the CONTINGENT_1 node and its modal-collapse refutations"
+theorem = "controls"
+premises = []
+conclusion = "STMT-CONTINGENT-NODE-CONTROLS"
+rule = "Modal-library laws and correspondence certificates (existing proofs) and explicit finite interpretations"
+meaning = "Nonvacuity on a two-world universal frame (the node, the schemas, the Cogito node, the grounding premise and every refutation conclusion hold), omission models for the node and for the T, B and 5 schemas, and the scope fact that concrete necessitarianism makes STMT-EVERY-CONTINGENT-GROUNDED-AT vacuously true. Formal only; hand-written Bool/Unit frames, no Mathlib order instance."
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+
+[[relation]]
+id = "REL-ALL-NECESSARY-ALT-CONTINGENT"
+label = "Concrete necessitarianism (NECESSARY_2) is a rival of the CONTINGENT_1 node"
+subject_kind = "statement"
+subject_id = "STMT-ALL-ACTUAL-CONCRETE-NECESSARY"
+predicate = "alternative_to"
+object_kind = "statement"
+object_id = "STMT-SOME-ACTUAL-CONTINGENT"
+note = "Exact contradictory on the same frame and profile (the node refutes it intuitionistically; the converse needs excluded middle). Not recorded against STMT-EVERY-CONTINGENT-GROUNDED-AT, which it makes vacuously true (CONTINGENT-NODE-CONTROLS, Scope)."
+
+[[relation]]
+id = "REL-COLLAPSE-ALT-CONTINGENT"
+label = "Actual modal collapse is a rival of the CONTINGENT_1 node"
+subject_kind = "statement"
+subject_id = "STMT-ROUTE-COLLAPSED"
+predicate = "alternative_to"
+object_kind = "statement"
+object_id = "STMT-SOME-ACTUAL-CONTINGENT"
+note = "Incompatible in every frame (NO-COLLAPSE-K). Collapse entails concrete necessitarianism, which makes the grounding premise vacuous, so it is not a rival of STMT-EVERY-CONTINGENT-GROUNDED-AT."
+
+[[relation]]
+id = "REL-NEC-COLLAPSE-ALT-CONTINGENT"
+label = "Necessary modal collapse is a rival of the CONTINGENT_1 node (KT reading)"
+subject_kind = "statement"
+subject_id = "STMT-ROUTE-NEC-COLLAPSED"
+predicate = "alternative_to"
+object_kind = "statement"
+object_id = "STMT-SOME-ACTUAL-CONTINGENT"
+note = "Incompatible given the T schema (NO-NEC-COLLAPSE-T); compatible in frame class K (step frame of CONTINGENT-NODE-CONTROLS)."
+
+[[relation]]
+id = "REL-POSS-COLLAPSE-ALT-CONTINGENT"
+label = "Possible modal collapse is a rival of the CONTINGENT_1 node (KTB and S5 readings)"
+subject_kind = "statement"
+subject_id = "STMT-ROUTE-POSS-COLLAPSED"
+predicate = "alternative_to"
+object_kind = "statement"
+object_id = "STMT-SOME-ACTUAL-CONTINGENT"
+note = "Incompatible given the B schema (NO-POSS-COLLAPSE-KTB) or the T and 5 schemas (NO-POSS-COLLAPSE-S5); compatible in K and KT (step and false-le-true frames of CONTINGENT-NODE-CONTROLS)."
+
+[[relation]]
+id = "REL-ACT-YIELDS-ALL-ALT-CONTINGENT"
+label = "A necessary sufficient cause of all is a rival of the CONTINGENT_1 node"
+subject_kind = "statement"
+subject_id = "STMT-NECESSARY-ACT-YIELDS-ALL"
+predicate = "alternative_to"
+object_kind = "statement"
+object_id = "STMT-SOME-ACTUAL-CONTINGENT"
+note = "Incompatible given the verified simplicity-collapse core (NO-NECESSARY-ACT-YIELDS-ALL)."
+
+[[relation]]
+id = "REL-CONTINGENT-REFUTES-ALL-NECESSARY"
+label = "A CONTINGENT_1 actual being refutes concrete necessitarianism"
+subject_kind = "argument"
+subject_id = "NOT-ALL-NECESSARY-FROM-CONTINGENT"
+predicate = "refutes"
+object_kind = "statement"
+object_id = "STMT-ALL-ACTUAL-CONCRETE-NECESSARY"
+note = "Conditional on the OPEN node STMT-SOME-ACTUAL-CONTINGENT; does not count for closure while the node is open, and cannot defend the node itself (it rests on it)."
+
+[[relation]]
+id = "REL-K-LAWS-REFUTE-COLLAPSE"
+label = "K collapse law and a CONTINGENT_1 actual being refute actual modal collapse"
+subject_kind = "argument"
+subject_id = "NO-COLLAPSE-K"
+predicate = "refutes"
+object_kind = "statement"
+object_id = "STMT-ROUTE-COLLAPSED"
+note = "Backed by the verified MODAL-K-LAWS. Conditional on the OPEN node STMT-SOME-ACTUAL-CONTINGENT, so it does not count for closure while the node is open."
+
+[[relation]]
+id = "REL-T-LAWS-REFUTE-NEC-COLLAPSE"
+label = "T law, T schema and a CONTINGENT_1 actual being refute necessary modal collapse"
+subject_kind = "argument"
+subject_id = "NO-NEC-COLLAPSE-T"
+predicate = "refutes"
+object_kind = "statement"
+object_id = "STMT-ROUTE-NEC-COLLAPSED"
+note = "Backed by the verified MODAL-T-LAWS, MODAL-K-LAWS and the T correspondence. Does not count: STMT-ONTIC-T-SCHEMA and STMT-SOME-ACTUAL-CONTINGENT are OPEN."
+
+[[relation]]
+id = "REL-B-LAWS-REFUTE-POSS-COLLAPSE"
+label = "B law, B schema and a CONTINGENT_1 actual being refute possible modal collapse"
+subject_kind = "argument"
+subject_id = "NO-POSS-COLLAPSE-KTB"
+predicate = "refutes"
+object_kind = "statement"
+object_id = "STMT-ROUTE-POSS-COLLAPSED"
+note = "Backed by the verified MODAL-B-LAWS, MODAL-K-LAWS and the B correspondence. Does not count: STMT-ONTIC-B-SCHEMA and STMT-SOME-ACTUAL-CONTINGENT are OPEN."
+
+[[relation]]
+id = "REL-S5-LAWS-REFUTE-POSS-COLLAPSE"
+label = "S5 law, T and 5 schemas and a CONTINGENT_1 actual being refute possible modal collapse"
+subject_kind = "argument"
+subject_id = "NO-POSS-COLLAPSE-S5"
+predicate = "refutes"
+object_kind = "statement"
+object_id = "STMT-ROUTE-POSS-COLLAPSED"
+note = "Backed by the verified MODAL-S5-LAWS and the T and 5 correspondences. Does not count: STMT-ONTIC-T-SCHEMA, STMT-ONTIC-5-SCHEMA and STMT-SOME-ACTUAL-CONTINGENT are OPEN."
+
+[[relation]]
+id = "REL-CORE-REFUTES-ACT-YIELDS-ALL"
+label = "Simplicity-collapse core and a CONTINGENT_1 actual being refute a necessary act yielding all"
+subject_kind = "argument"
+subject_id = "NO-NECESSARY-ACT-YIELDS-ALL"
+predicate = "refutes"
+object_kind = "statement"
+object_id = "STMT-NECESSARY-ACT-YIELDS-ALL"
+note = "Backed by the verified SIMPLICITY-COLLAPSE-CORE. Conditional on the OPEN node STMT-SOME-ACTUAL-CONTINGENT, so it does not count for closure while the node is open."

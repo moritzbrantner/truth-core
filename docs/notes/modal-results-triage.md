@@ -42,6 +42,38 @@ route (for example, that the Cogito bearer or some moved thing is contingent at
 the actual world) is the missing node that would turn the collapse laws into
 refutations of a rival of a root premise.
 
+## Follow-up: the contingency node
+
+The blocker named above is now addressed by `specs/contingent-being-node.toml`
+(map `explorations/contingent-being-node.toml`). `STMT-SOME-ACTUAL-CONTINGENT`
+(OPEN; some actual concrete being is CONTINGENT_1, absent at some accessible
+world) is on the root path through `CONTINGENT-NODE-INHABITS`, an assembly into
+`STMT-COGITO-INHABITED-CONCRETE-WORLD`. Five collapse rivals are recorded
+`alternative_to` it and refuted by verified arguments that apply the modal
+library:
+
+| Rival | Refuted by (reading) | Modal result applied | Counts for closure? |
+|---|---|---|---|
+| `STMT-ALL-ACTUAL-CONCRETE-NECESSARY` | `NOT-ALL-NECESSARY-FROM-CONTINGENT` (any) | none (exact contradictory) | No: rests on the OPEN node |
+| `STMT-ROUTE-COLLAPSED` | `NO-COLLAPSE-K` (K) | `MODAL-K-LAWS` | No: rests on the OPEN node |
+| `STMT-ROUTE-NEC-COLLAPSED` | `NO-NEC-COLLAPSE-T` (KT) | `MODAL-T-LAWS`, `MODAL-K-LAWS`, T correspondence | No: node and `STMT-ONTIC-T-SCHEMA` OPEN |
+| `STMT-ROUTE-POSS-COLLAPSED` | `NO-POSS-COLLAPSE-KTB` (KTB) | `MODAL-B-LAWS`, `MODAL-K-LAWS`, B correspondence | No: node and `STMT-ONTIC-B-SCHEMA` OPEN |
+| `STMT-ROUTE-POSS-COLLAPSED` | `NO-POSS-COLLAPSE-S5` (S5) | `MODAL-S5-LAWS`, T and 5 correspondences | No: node, `STMT-ONTIC-T-SCHEMA`, `STMT-ONTIC-5-SCHEMA` OPEN |
+| `STMT-NECESSARY-ACT-YIELDS-ALL` | `NO-NECESSARY-ACT-YIELDS-ALL` (any) | `SIMPLICITY-COLLAPSE-CORE` | No: rests on the OPEN node |
+
+Every refutation rests on the node itself, so none can defend the node; each
+would count for another premise only once the node is established. Necessary
+and possible collapse are compatible with the node in K (and possible collapse
+in KT); the controls exhibit the frames. The rivals are not recorded against
+`STMT-EVERY-CONTINGENT-GROUNDED-AT`: concrete necessitarianism makes that premise
+vacuously true (`CONTINGENT-NODE-CONTROLS`, Scope), and no other root-path premise
+is contradicted by collapse.
+
+`truth orphans` still lists these Modal results as disconnected (group count
+82): it counts a result as connected only when its conclusion reaches the root,
+and a refutation's conclusion is not a route node. The applying arguments show
+the link as `refutes` contacts.
+
 ## Connection table (A)
 
 | Modal result | Root-route node | Argument |
@@ -82,7 +114,7 @@ rival (`RivalNegations`).
 | B | `NECESSARY-IF-EXISTENT-EXACT-FRAME` | `STMT-NECESSARY-IF-EXACT-FRAME` | #437 ontological-argument symmetry: with a Euclidean frame and the boxed conditional, possible existence gives necessary existence and possible non-existence gives impossibility (coverage, no exclusivity). Rival: the reverse ontological argument. On the necessary route the root is already box-existent, so the reverse premise is refuted by the K node directly; the modal theorem is needed only on a route that starts from possibility (none on the root path). |
 | B | `NECESSARY-IF-EXISTENT-NEGATIVE` | `STMT-NECESSARY-IF-IMPOSSIBLE-EXISTENCE` | #437 ontological-argument symmetry: with a Euclidean frame and the boxed conditional, possible existence gives necessary existence and possible non-existence gives impossibility (coverage, no exclusivity). Rival: the reverse ontological argument. On the necessary route the root is already box-existent, so the reverse premise is refuted by the K node directly; the modal theorem is needed only on a route that starts from possibility (none on the root path). |
 | B | `NECESSARY-IF-EXISTENT-POSITIVE` | `STMT-NECESSARY-IF-NECESSARY-EXISTENCE` | #437 ontological-argument symmetry: with a Euclidean frame and the boxed conditional, possible existence gives necessary existence and possible non-existence gives impossibility (coverage, no exclusivity). Rival: the reverse ontological argument. On the necessary route the root is already box-existent, so the reverse premise is refuted by the K node directly; the modal theorem is needed only on a route that starts from possibility (none on the root path). |
-| B | `SIMPLICITY-COLLAPSE-CORE` | `STMT-SIMPLICITY-COLLAPSE-CORE` | #462/#555 modal-collapse objection to a simple necessary root. Its first clause refutes STMT-NECESSARY-ACT-STRICT-CONTINGENT (REL-SIMPLICITY-CORE-REFUTES-STRICT-CONTINGENT, zero premises, so the refutation counts): the route cannot read the root's creative act as both performed at every accessible world and strictly efficacious for a contingent creature. A constraint on the route's own reading, not a rival of a root premise. |
+| B | `SIMPLICITY-COLLAPSE-CORE` | `STMT-SIMPLICITY-COLLAPSE-CORE` | #462/#555 modal-collapse objection to a simple necessary root. Its first clause refutes STMT-NECESSARY-ACT-STRICT-CONTINGENT (REL-SIMPLICITY-CORE-REFUTES-STRICT-CONTINGENT, zero premises, so the refutation counts): the route cannot read the root's creative act as both performed at every accessible world and strictly efficacious for a contingent creature. A constraint on the route's own reading, not a rival of a root premise. Its first clause is also applied by NO-NECESSARY-ACT-YIELDS-ALL, which refutes STMT-NECESSARY-ACT-YIELDS-ALL (a necessary sufficient cause of all), a rival of STMT-SOME-ACTUAL-CONTINGENT. |
 | B | `SIMPLICITY-ROOT-EXPOSURE` | `STMT-SIMPLICITY-ROOT-EXPOSURE` | #555 exposure of STMT-GOD-IS-IMMUTABLE (on the root path) to collapse of the root's respects, through the OPEN unattributed bridge ModalCapacity. Rival: collapse of divine decrees. Not refuted: it is the objection, not its answer; recording it as an attack needs a decree vocabulary on the route. |
 | B | `FINITE-HITTING` | `STMT-FINITE-HITTING-PACKAGE` | #561 rival 'no necessary individual' (STMT-FINITE-HITTING-NO-NECESSARY): finite hitting plus absence amalgamation force a fixed necessary individual; the cores certify the incompatible bundles. Blocker: its population vocabulary (StageOne.NecessaryIndividual) has no bridge to the route's Profile/Ontic, and a contradictory core forces rejection of some member, not of the rival. |
 | B | `FINITE-HITTING-CORE` | `STMT-CONFIGURATION-FALSE` | #561 rival 'no necessary individual' (STMT-FINITE-HITTING-NO-NECESSARY): finite hitting plus absence amalgamation force a fixed necessary individual; the cores certify the incompatible bundles. Blocker: its population vocabulary (StageOne.NecessaryIndividual) has no bridge to the route's Profile/Ontic, and a contradictory core forces rejection of some member, not of the rival. |
@@ -90,14 +122,14 @@ rival (`RivalNegations`).
 | B | `POPULATION-EXACT-IMPLIES-AMALGAMATION` | `STMT-POPULATION-EXACT-IMPLIES-AMALGAMATION` | #561 rival 'no necessary individual' (STMT-FINITE-HITTING-NO-NECESSARY): finite hitting plus absence amalgamation force a fixed necessary individual; the cores certify the incompatible bundles. Blocker: its population vocabulary (StageOne.NecessaryIndividual) has no bridge to the route's Profile/Ontic, and a contradictory core forces rejection of some member, not of the rival. |
 | B | `SIMPLICITY-BRANCH-COSTS` | `STMT-SIMPLICITY-BRANCH-COSTS` | #755 cost table of the three ways out of the collapse trilemma for an admitted reason. Constrains PSR-strength rivals; opposes no root premise. |
 | B | `MODAL-B-LANGUAGE-PROPAGATION` | `STMT-MODAL-B-LANGUAGE-PROPAGATION` | Frame law for the rival modal collapse (Hume/Spinoza necessitarianism: every truth at the root world is necessary). Constrains which frame class lets possible collapse propagate to actual collapse. Opposes no root premise yet: the route never asserts an actual contingent being, so a refutation needs a contingency witness on the route (blocker). |
-| B | `MODAL-B-LAWS` | `STMT-MODAL-B-LAWS` | Frame law for the rival modal collapse (Hume/Spinoza necessitarianism: every truth at the root world is necessary). Constrains which frame class lets possible collapse propagate to actual collapse. Opposes no root premise yet: the route never asserts an actual contingent being, so a refutation needs a contingency witness on the route (blocker). |
+| B | `MODAL-B-LAWS` | `STMT-MODAL-B-LAWS` | Frame law for the rival modal collapse (Hume/Spinoza necessitarianism: every truth at the root world is necessary). Constrains which frame class lets possible collapse propagate to actual collapse. The contingency node now exists. Now applied by NO-POSS-COLLAPSE-KTB (KTB reading), which refutes STMT-ROUTE-POSS-COLLAPSED, a rival of STMT-SOME-ACTUAL-CONTINGENT. |
 | B | `MODAL-B-NECESSARY-SYMMETRY` | `STMT-MODAL-B-NECESSARY-SYMMETRY` | Frame law for the rival modal collapse (Hume/Spinoza necessitarianism: every truth at the root world is necessary). Constrains which frame class lets possible collapse propagate to actual collapse. Opposes no root premise yet: the route never asserts an actual contingent being, so a refutation needs a contingency witness on the route (blocker). |
 | B | `MODAL-D-LAWS` | `STMT-MODAL-D-LAWS` | Frame law for the rival modal collapse (Hume/Spinoza necessitarianism: every truth at the root world is necessary). Constrains which frame class lets possible collapse propagate to actual collapse. Opposes no root premise yet: the route never asserts an actual contingent being, so a refutation needs a contingency witness on the route (blocker). |
-| B | `MODAL-K-LAWS` | `STMT-MODAL-K-LAWS` | Frame law for the rival modal collapse (Hume/Spinoza necessitarianism: every truth at the root world is necessary). Constrains which frame class lets possible collapse propagate to actual collapse. Opposes no root premise yet: the route never asserts an actual contingent being, so a refutation needs a contingency witness on the route (blocker). |
+| B | `MODAL-K-LAWS` | `STMT-MODAL-K-LAWS` | Frame law for the rival modal collapse (Hume/Spinoza necessitarianism: every truth at the root world is necessary). Constrains which frame class lets possible collapse propagate to actual collapse. The contingency node now exists. Now applied by NO-COLLAPSE-K, which refutes STMT-ROUTE-COLLAPSED, a rival of the root-path node STMT-SOME-ACTUAL-CONTINGENT (see the follow-up section). |
 | B | `MODAL-S4-LAWS` | `STMT-MODAL-S4-LAWS` | Frame law for the rival modal collapse (Hume/Spinoza necessitarianism: every truth at the root world is necessary). Constrains which frame class lets possible collapse propagate to actual collapse. Opposes no root premise yet: the route never asserts an actual contingent being, so a refutation needs a contingency witness on the route (blocker). |
 | B | `MODAL-S5-LANGUAGE` | `STMT-MODAL-S5-LANGUAGE` | Frame law for the rival modal collapse (Hume/Spinoza necessitarianism: every truth at the root world is necessary). Constrains which frame class lets possible collapse propagate to actual collapse. Opposes no root premise yet: the route never asserts an actual contingent being, so a refutation needs a contingency witness on the route (blocker). |
-| B | `MODAL-S5-LAWS` | `STMT-MODAL-S5-LAWS` | Frame law for the rival modal collapse (Hume/Spinoza necessitarianism: every truth at the root world is necessary). Constrains which frame class lets possible collapse propagate to actual collapse. Opposes no root premise yet: the route never asserts an actual contingent being, so a refutation needs a contingency witness on the route (blocker). |
-| B | `MODAL-T-LAWS` | `STMT-MODAL-T-LAWS` | Frame law for the rival modal collapse (Hume/Spinoza necessitarianism: every truth at the root world is necessary). Constrains which frame class lets possible collapse propagate to actual collapse. Opposes no root premise yet: the route never asserts an actual contingent being, so a refutation needs a contingency witness on the route (blocker). |
+| B | `MODAL-S5-LAWS` | `STMT-MODAL-S5-LAWS` | Frame law for the rival modal collapse (Hume/Spinoza necessitarianism: every truth at the root world is necessary). Constrains which frame class lets possible collapse propagate to actual collapse. The contingency node now exists. Now applied by NO-POSS-COLLAPSE-S5 (S5 reading), which refutes STMT-ROUTE-POSS-COLLAPSED, a rival of STMT-SOME-ACTUAL-CONTINGENT. |
+| B | `MODAL-T-LAWS` | `STMT-MODAL-T-LAWS` | Frame law for the rival modal collapse (Hume/Spinoza necessitarianism: every truth at the root world is necessary). Constrains which frame class lets possible collapse propagate to actual collapse. The contingency node now exists. Now applied by NO-NEC-COLLAPSE-T (KT reading), which refutes STMT-ROUTE-NEC-COLLAPSED, a rival of STMT-SOME-ACTUAL-CONTINGENT. |
 | B | `MODAL-S5-COLLAPSE-CONCEPTION-EXCLUDED` | `STMT-MODAL-S5-COLLAPSE-CONCEPTION-EXCLUDED` | Hume's conceivability route to collapse (#274): rejects a conceived collapse only given S5, an unrestricted conceivability bridge and independent contingency. Same blocker as the collapse laws: no root-route contingency premise to oppose. |
 | B | `OPTIMAL-CREATION-CHOICE` | `STMT-OPTIMAL-CREATION-CHOICE` | Leibnizian optimal-creation necessitarianism (#462 family): optimal output plus at most one optimal candidate fixes the selected output. Constrains the rival that God must create the best; opposes no root premise. |
 | B | `NECESSARY-POTENTIAL-CAUSERS-NOT-DISTINCT` | `STMT-NO-DISTINCT-NECESSARY-POTENTIAL-CAUSERS` | Modal ditheism: two distinct necessary universal potential causers cannot be distinct. Refutes STMT-MODAL-DITHEISM (REL-NO-DISTINCT-CAUSERS-REFUTES-DITHEISM). Does not count: STMT-ACTUAL-MODAL-REFLEXIVITY and STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT are OPEN. Not alternative_to a root premise: the route's uniqueness is God-uniqueness and no bridge identifies such causers with God. |
@@ -160,3 +192,27 @@ rival (`RivalNegations`).
 | D | `RETAINED-DUTY-TEMPORAL-CORE` | `STMT-CONFIGURATION-FALSE` | Off-case: ought-implies-can and retained duties (Carneades deontology). Deontic modality over plans; no node of the Catholicism case uses it. A connection would need a moral-argument route that the case does not have. |
 | D | `RETAINED-DUTY-TRANSFER` (single_application) | `STMT-RETAINED-DUTY-PRESENT-DUTY` | Off-case: ought-implies-can and retained duties (Carneades deontology). Deontic modality over plans; no node of the Catholicism case uses it. A connection would need a moral-argument route that the case does not have. |
 | D | `RETAINED-DUTY-UNIVERSAL-TO-LOCAL` (single_application) | `STMT-RETAINED-DUTY-LOCAL-OIC` | Off-case: ought-implies-can and retained duties (Carneades deontology). Deontic modality over plans; no node of the Catholicism case uses it. A connection would need a moral-argument route that the case does not have. |
+
+### Current-main reconciliation of #1241 (2026-11-08)
+
+The old frozen Challenge is retained unchanged. Five revised interfaces in
+`TruthCore/Results/Causality/ContingentBeingNodeReconciled/` consume the existing
+closed K/T/B/S5 and correspondence theorems directly. Only the contingency node
+and applicable T/B/5 schemas remain hypotheses; the original law bundles are
+no longer philosophical assumptions. Their unused definitions previously
+triggered current-main sense mixing. The T/B schema premises explicitly bind
+the fixture frame (NECESSARY_11) to the route's individual box-existence
+(NECESSARY_2), recorded as sense bridges; no different metaphysical necessity
+is inferred. The original controls still witness the omission and nonvacuity
+claims. This revision does not establish the node, any schema, or God's existence.
+
+Claim/type self-sweep: revised K and strict-act results each assume only the
+node; T assumes T plus node; B assumes B plus node; S5 assumes T, 5 plus node.
+Conclusions and carriers are unchanged. Imported closed certificates supply
+all omitted mathematical hypotheses. Their approved Mathlib dependencies are
+now visible in the revised closed terms (permitted axioms: propext,
+Classical.choice, Quot.sound); the initial zero-axiom Comparator correctly
+rejected propext before this policy correction. The fixed Challenge is generated before
+proof completion; the original Challenge is not weakened. All five revised
+interfaces build and bind (5 bound, 0 mismatch); final Comparator/NanoDa and CI
+are required before merge. Specs are split by original/reconciled interfaces.

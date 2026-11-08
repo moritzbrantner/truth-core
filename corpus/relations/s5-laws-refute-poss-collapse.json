@@ -1,0 +1,11 @@
+{
+  "id": "ada680bb-a01e-52ab-94fb-ce0668e9b927",
+  "label": "S5 law, T and 5 schemas and a CONTINGENT_1 actual being refute possible modal collapse",
+  "legacy_id": "REL-S5-LAWS-REFUTE-POSS-COLLAPSE",
+  "subject_kind": "argument",
+  "subject_id": "3afa8ec7-acb3-5414-af52-bdbad5caa26a",
+  "predicate": "refutes",
+  "object_kind": "statement",
+  "object_id": "6358fce9-4fa9-5fdf-8948-c4563c5ce7d1",
+  "note": "Backed by the verified MODAL-S5-LAWS and the T and 5 correspondences. Does not count: STMT-ONTIC-T-SCHEMA, STMT-ONTIC-5-SCHEMA and STMT-SOME-ACTUAL-CONTINGENT are OPEN."
+}

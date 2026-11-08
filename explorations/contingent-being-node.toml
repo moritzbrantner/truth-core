@@ -1,0 +1,129 @@
+# Exploration map: the route's contingency node and the modal-collapse rivals
+# (#1233). Analyst formulations, attribution deferred.
+# Triage: docs/notes/modal-results-triage.md. Spec: specs/contingent-being-node.toml.
+target = "STMT-SOME-ACTUAL-CONTINGENT"
+
+[[node]]
+id = "STMT-SOME-ACTUAL-CONTINGENT"
+
+[[node]]
+id = "STMT-COGITO-INHABITED-CONCRETE-WORLD"
+
+[[node]]
+id = "STMT-EVERY-CONTINGENT-GROUNDED-AT"
+
+[[node]]
+id = "STMT-MODAL-K-LAWS"
+
+[[node]]
+id = "STMT-MODAL-T-LAWS"
+
+[[node]]
+id = "STMT-MODAL-B-LAWS"
+
+[[node]]
+id = "STMT-MODAL-S5-LAWS"
+
+[[node]]
+id = "STMT-SIMPLICITY-COLLAPSE-CORE"
+
+[[node]]
+id = "STMT-MODAL-STANDARD-CORRESPONDENCE-CERTIFICATE"
+
+[[node]]
+id = "STMT-MODAL-HIJK-CONVERGENCE-CERTIFICATE"
+
+[[node]]
+id = "STMT-ONTIC-T-SCHEMA"
+
+[[node]]
+id = "STMT-ONTIC-B-SCHEMA"
+
+[[node]]
+id = "STMT-ONTIC-5-SCHEMA"
+
+[[node]]
+id = "STMT-ALL-ACTUAL-CONCRETE-NECESSARY"
+
+[[node]]
+id = "STMT-ROUTE-COLLAPSED"
+
+[[node]]
+id = "STMT-ROUTE-NEC-COLLAPSED"
+
+[[node]]
+id = "STMT-ROUTE-POSS-COLLAPSED"
+
+[[node]]
+id = "STMT-NECESSARY-ACT-YIELDS-ALL"
+
+[[node]]
+id = "STMT-NOT-ALL-ACTUAL-NECESSARY"
+
+[[node]]
+id = "STMT-ROUTE-NOT-COLLAPSED"
+
+[[node]]
+id = "STMT-ROUTE-NOT-NEC-COLLAPSED"
+
+[[node]]
+id = "STMT-ROUTE-NOT-POSS-COLLAPSED"
+
+[[node]]
+id = "STMT-NO-NECESSARY-ACT-YIELDS-ALL"
+
+[[edge]]
+premises = ["STMT-SOME-ACTUAL-CONTINGENT"]
+conclusion = "STMT-COGITO-INHABITED-CONCRETE-WORLD"
+kind = "derivation"
+status = "certified"
+note = "CONTINGENT-NODE-INHABITS (assembly): puts the node on the root path."
+
+[[edge]]
+premises = ["STMT-SOME-ACTUAL-CONTINGENT"]
+conclusion = "STMT-NOT-ALL-ACTUAL-NECESSARY"
+kind = "derivation"
+status = "certified"
+note = "NOT-ALL-NECESSARY-FROM-CONTINGENT; refutes STMT-ALL-ACTUAL-CONCRETE-NECESSARY."
+
+[[edge]]
+premises = ["STMT-SOME-ACTUAL-CONTINGENT"]
+conclusion = "STMT-ROUTE-NOT-COLLAPSED"
+kind = "derivation"
+status = "certified"
+note = "NO-COLLAPSE-K (frame class K); refutes STMT-ROUTE-COLLAPSED."
+
+[[edge]]
+premises = ["STMT-ONTIC-T-SCHEMA", "STMT-SOME-ACTUAL-CONTINGENT"]
+conclusion = "STMT-ROUTE-NOT-NEC-COLLAPSED"
+kind = "derivation"
+status = "certified"
+note = "NO-NEC-COLLAPSE-T (KT); refutes STMT-ROUTE-NEC-COLLAPSED."
+
+[[edge]]
+premises = ["STMT-ONTIC-B-SCHEMA", "STMT-SOME-ACTUAL-CONTINGENT"]
+conclusion = "STMT-ROUTE-NOT-POSS-COLLAPSED"
+kind = "derivation"
+status = "certified"
+note = "NO-POSS-COLLAPSE-KTB (KTB, symmetry only); refutes STMT-ROUTE-POSS-COLLAPSED."
+
+[[edge]]
+premises = ["STMT-ONTIC-T-SCHEMA", "STMT-ONTIC-5-SCHEMA", "STMT-SOME-ACTUAL-CONTINGENT"]
+conclusion = "STMT-ROUTE-NOT-POSS-COLLAPSED"
+kind = "derivation"
+status = "certified"
+note = "NO-POSS-COLLAPSE-S5 (S5); refutes STMT-ROUTE-POSS-COLLAPSED."
+
+[[edge]]
+premises = ["STMT-SOME-ACTUAL-CONTINGENT"]
+conclusion = "STMT-NO-NECESSARY-ACT-YIELDS-ALL"
+kind = "derivation"
+status = "certified"
+note = "NO-NECESSARY-ACT-YIELDS-ALL; refutes STMT-NECESSARY-ACT-YIELDS-ALL."
+
+[[edge]]
+premises = ["STMT-ALL-ACTUAL-CONCRETE-NECESSARY"]
+conclusion = "STMT-EVERY-CONTINGENT-GROUNDED-AT"
+kind = "rival"
+status = "rejected"
+note = "Not a rival: concrete necessitarianism makes the grounding premise vacuously true (CONTINGENT-NODE-CONTROLS, Scope). No alternative_to recorded against it."

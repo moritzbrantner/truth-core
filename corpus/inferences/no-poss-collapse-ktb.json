@@ -1,0 +1,14 @@
+{
+  "id": "184ba503-48d2-5946-b636-ce665c63ff11",
+  "label": "Modal collapse holds at no world accessible from the route's world, by Theorem application\u2026",
+  "legacy_id": "INF-NO-POSS-COLLAPSE-KTB",
+  "input_statement_ids": [
+    "98bede5a-c5ff-5c26-9af0-10d526d422e2",
+    "c94b5446-e7e7-5b36-9bed-288959725526"
+  ],
+  "output_statement_id": "a03ed3eb-ada4-5a66-a488-c5a1b7b37950",
+  "rule": "Theorem application (B correspondence; B law: on symmetric frames possible collapse gives actual collapse; NO-COLLAPSE-K), negation introduction",
+  "meaning": "KTB reading of NECESSARY_2 (only its symmetry is used). The OPEN B schema gives symmetry of the route's frame by the B correspondence of the convergence certificate (MODAL-HIJK-CONVERGENCE-CERTIFICATE); by the verified B law (MODAL-B-LAWS) collapse at an accessible world then propagates back to w, which NO-COLLAPSE-K excludes. Without the B schema the rival and the node hold together (step frame); without the node the rival holds. Reconciled interface: closed modal laws and correspondence certificates are imported and applied as verified theorems, not retained as assumptions; only the displayed node and frame schemas remain premises.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
