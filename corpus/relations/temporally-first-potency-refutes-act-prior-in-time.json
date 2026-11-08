@@ -1,0 +1,9 @@
+{
+  "id": "REL-TEMPORALLY-FIRST-POTENCY-REFUTES-ACT-PRIOR-IN-TIME",
+  "subject_kind": "argument",
+  "subject_id": "ACT-NOT-PRIOR-IN-TIME-FROM-TEMPORALLY-FIRST-POTENCY",
+  "predicate": "refutes",
+  "object_kind": "statement",
+  "object_id": "STMT-ACT-PRIOR-TO-POTENCY-IN-TIME",
+  "note": "Conditional refutation of the temporal branch of 'prior' under the OPEN premise STMT-TEMPORALLY-FIRST-BEING-IN-POTENCY. Aristotle's priority of act in time in species is a rival to that premise; no historical position is refuted by this formalization."
+}

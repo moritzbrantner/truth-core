@@ -1,0 +1,12 @@
+{
+  "id": "STMT-SELF-EFFICIENT-CAUSATION-IS-SELF-ORIGINATION",
+  "paraphrase": "OPEN analyst bridge (attribution deferred): whatever efficiently caused itself in some respect would be a cause of its own coming to be.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.SelfEfficientCausationIsSelfOrigination",
+  "definition_ids": [
+    "DEF-EFFICIENT-CAUSING",
+    "DEF-CAUSE-OF-ORIGIN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE"
+  ]
+}

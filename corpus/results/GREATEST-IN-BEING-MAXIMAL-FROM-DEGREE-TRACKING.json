@@ -1,0 +1,11 @@
+{
+  "id": "GREATEST-IN-BEING-MAXIMAL-FROM-DEGREE-TRACKING",
+  "label": "Degree tracking makes a MAXIME_2 being MAXIME_1",
+  "argument_id": "GREATEST-IN-BEING-MAXIMAL-FROM-DEGREE-TRACKING",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks3.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks3.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks3.greatestInBeingIsMaximal",
+  "comparator_config": "results/GREATEST-IN-BEING-MAXIMAL-FROM-DEGREE-TRACKING/comparator.json",
+  "status": "solution-present",
+  "description": "Derives the MAXIME_2 to MAXIME_1 sense bridge: if whatever is more a being than m has being and a strictly higher represented degree, nothing is more a being than a GREATEST-degree bearer, since its degree would be both above and at most the greatest."
+}

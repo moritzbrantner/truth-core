@@ -1,0 +1,14 @@
+{
+  "id": "STMT-SOME-BEING-STRICTLY-GREATEST-IN-BEING",
+  "label": "Some being is MAXIME_3 (strictly greatest) in being",
+  "paraphrase": "MAXIME_3 (attribution deferred): some being is STRICTLY greatest in being: it has being and is more a being than every other thing.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.SomeBeingStrictlyGreatestInBeing",
+  "definition_ids": [
+    "DEF-GREATEST-BEING-STRICT",
+    "DEF-MORE-IN",
+    "DEF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MAXIME-ENS"
+  ]
+}

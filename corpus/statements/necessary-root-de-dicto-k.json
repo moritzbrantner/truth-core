@@ -1,0 +1,13 @@
+{
+  "id": "STMT-NECESSARY-ROOT-DE-DICTO-K",
+  "paraphrase": "Necessary-being node, de dicto K reading: there is an actual root n (concrete, existing at w, with no actual concrete ground) that is God, the one God (every God is n), and has the classical attributes, and at every world accessible from w something exists (box of 'there is an existent', actualist inner quantifier). Necessity is attached to the proposition, not to n.",
+  "lean_declaration": "TruthCore.Causality.NecessarySenseFork.NecessaryRootDeDictoK",
+  "definition_ids": [
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-NECESSARY-IN-SENSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY"
+  ]
+}

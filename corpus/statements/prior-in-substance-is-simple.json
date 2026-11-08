@@ -1,0 +1,12 @@
+{
+  "id": "STMT-PRIOR-IN-SUBSTANCE-IS-SIMPLE",
+  "paraphrase": "OPEN analyst bridge (unattributed; #352): whatever is prior to x in substance and perfection is simply prior to x. No source read identifies the two relations.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PriorInSubstanceIsSimpleReading",
+  "definition_ids": [
+    "DEF-SIMPLE-PRIORITY",
+    "DEF-PRIORITY-IN-SUBSTANCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"
+  ]
+}

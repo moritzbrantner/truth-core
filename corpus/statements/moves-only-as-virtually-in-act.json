@@ -1,0 +1,12 @@
+{
+  "id": "STMT-MOVES-ONLY-AS-VIRTUALLY-IN-ACT",
+  "paraphrase": "IN-ACT_2, virtual reading (attribution deferred): whatever moves something in a respect is virtually (eminently) in act in that respect, having the perfection as a power to produce it.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.MovesOnlyAsVirtuallyInAct",
+  "definition_ids": [
+    "DEF-IN-ACT-VIRTUALLY",
+    "DEF-MOTION-AS-REDUCTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT"
+  ]
+}

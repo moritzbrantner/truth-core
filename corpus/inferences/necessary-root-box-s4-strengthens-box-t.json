@@ -1,0 +1,11 @@
+{
+  "id": "INF-NECESSARY-ROOT-BOX-S4-STRENGTHENS-BOX-T",
+  "input_statement_ids": [
+    "STMT-NECESSARY-ROOT-BOX-S4"
+  ],
+  "output_statement_id": "STMT-NECESSARY-ROOT-BOX-T",
+  "rule": "Conjunction elimination (S4 frames are reflexive)",
+  "meaning": "Strength registration: the S4 node implies the T node.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,11 +1,16 @@
 #!/usr/bin/env python3
 """Compare the Rust CLI with the existing Python corpus readers: the
-structural view (`status`, `inspect`), `thickness [--queue]` and `check`.
+structural view (`status`, `inspect`), `thickness [--queue]`, `check`,
+`frontier`, `frontier-diff` and the research navigation commands `related`,
+`dossier` and `context`.
 
 Fixtures are written with readable ids and then converted to uuid identity by
 `migrate_uuid.Migration`, exactly as the corpus was; tests look records up by
 `corpus_ids.legacy_uuid(kind, legacy id)`."""
 import argparse
+import contextlib
+import copy
+import io
 import json
 import shutil
 import subprocess
@@ -311,6 +316,311 @@ class TruthThicknessParity(unittest.TestCase):
         result = subprocess.run([self.binary, "--json", "--queue", "status"], cwd=corpus.ROOT,
                                 capture_output=True, text=True, check=False)
         self.assertEqual(result.returncode, 2)
+
+
+def frontier_fixture(root):
+    """The thickness fixture plus floor markings of every basis (met, unmet,
+    owner-approved), a counted retorsion, an unrefuted sceptical rival, an
+    objection, inferences and stages, a transcription closure, unavailable and
+    bibliographic witnesses, a case split, settlement actions and a Lean
+    definition behind the goal-consequent and opaque-atom heuristics."""
+    thickness_fixture(root)
+
+    def write(kind, record):
+        (root / "corpus" / kind / f"{record['id']}.json").write_text(json.dumps(record))
+
+    (root / "corpus" / "inferences").mkdir(exist_ok=True)
+    statements = {
+        "F-LEG": {"self_evident": {"basis": None}},
+        "F-RET": {"self_evident": {"basis": "retorsion", "denial_statement_id": "NF",
+                                   "justification_ids": ["RES-RET"]}},
+        "F-OBS": {"self_evident": {"basis": "observation", "justification_ids": ["CLAIM-OBS"],
+                                   "sceptical_rival_ids": ["SK"]}},
+        "F-CG": {"self_evident": {"basis": "common_ground", "question_statement_id": "Q",
+                                  "positions": [{"statement_id": "Q", "claim_ids": ["CLAIM-CG"]}]}},
+        "F-OWN": {"self_evident": {"basis": "common_ground", "question_statement_id": "Q",
+                                   "owner_approval": {"decision": "https://example.invalid/1"},
+                                   "disagreement": {"rival_statement_ids": ["Q2"]}}},
+        "F-STALE": {"self_evident": {"basis": "legacy", "owner_approval": {"decision": "https://example.invalid/2"},
+                                     "disagreement": {"rival_statement_ids": []}}},
+        "NF": {}, "SK": {}, "Q": {}, "Q2": {}, "TC": {}, "BR": {"lean_declaration": "Fixture.Bridge"},
+        "OPQ": {}, "STMT-GOD-EXISTS": {},
+    }
+    for statement_id, extra in statements.items():
+        write("statements", {"id": statement_id, "paraphrase": f"{statement_id} paraphrase", **extra})
+    e = json.loads((root / "corpus" / "statements" / "E.json").read_text())
+    e["settlement_actions"] = [{"kind": "floor", "status": "needs-owner-decision", "description": "d"}]
+    write("statements", e)
+    for argument_id, premises, conclusion in [
+        ("ARG-RET", [], "X"), ("ARG-USE", ["F-LEG", "F-RET", "F-OBS", "F-CG", "F-OWN"], "C"),
+        ("ARG-TC", ["F-LEG"], "TC"), ("ARG-TC-USE", ["TC", "OPQ"], "E"), ("ARG-OPQ", ["BR", "D"], "OPQ"),
+        ("ARG-GOD", ["U"], "STMT-GOD-EXISTS"),
+    ]:
+        write("arguments", {"id": argument_id, "premise_statement_ids": premises,
+                            "conclusion_statement_id": conclusion, "inference_ids": ["INF"],
+                            "meaning": argument_id})
+    write("inferences", {"id": "INF", "output_statement_id": "U", "input_statement_ids": ["D"],
+                         "assumption_statement_ids": ["Q2"], "discharged_statement_ids": [],
+                         "rule": "r", "meaning": "m"})
+    (root / "TruthCore").mkdir()
+    (root / "TruthCore" / "Defs.lean").write_text("def Bridge (P Q : Prop) : Prop := P → Q\n")
+    (root / "Fixture" / "Opaque.lean").write_text(
+        "theorem opaque_step (A B : Prop) (h : Bridge A B) (a : A) : B := by\n"
+        "  have x := h a\n  exact x\n  done\n"
+    )
+    for result_id, argument_id, extra in [
+        ("RES-RET", "ARG-RET", {}), ("RES-USE", "ARG-USE", {}),
+        ("RES-TC", "ARG-TC", {"transcription": "single_application"}),
+        ("RES-OPQ", "ARG-OPQ", {"solution_module": "Fixture.Opaque", "theorem": "Fixture.opaque_step"}),
+        ("RES-GOD", "ARG-GOD", {"joint_settlement_schema": True,
+                                "case_split": {"target_statement_id": "ROOT", "note": "n", "cases": [
+                                    {"label": "one", "lean_declaration": "TruthCore.One", "statement_id": "R"},
+                                    {"label": "two", "lean_declaration": "TruthCore.Two"}]}}),
+    ]:
+        write("results", {"id": result_id, "argument_id": argument_id, "challenge_module": "Fixture.Challenge",
+                          "solution_module": "Fixture.Solution", "theorem": "Fixture.none",
+                          "comparator_config": "c.json", "status": "verified", **extra})
+    for relation_id, subject_kind, subject, predicate, obj in [
+        ("REL-ALT-NF", "statement", "NF", "alternative_to", "F-RET"),
+        ("REL-REFUTE-NF", "argument", "ARG-RET", "refutes", "NF"),
+        ("REL-ALT-SK", "statement", "SK", "alternative_to", "F-OBS"),
+        ("REL-ALT-Q", "statement", "Q2", "alternative_to", "Q"),
+        ("REL-ALT-OWN", "statement", "Q2", "alternative_to", "F-OWN"),
+        ("REL-ALT-STALE", "statement", "Q2", "alternative_to", "F-STALE"),
+        ("REL-ATTACK", "statement", "Q2", "attacks", "D"),
+        ("REL-REFUTE-OPEN", "argument", "ARG-B-H", "refutes", "Q2"),
+    ]:
+        write("relations", {"id": relation_id, "subject_kind": subject_kind, "subject_id": subject,
+                            "predicate": predicate, "object_kind": "statement", "object_id": obj})
+    for claim_id, statement_id, extra in [
+        ("CLAIM-OBS", "F-OBS", {}), ("CLAIM-CG", "F-CG", {}),
+        ("CLAIM-BR", "BR", {"witness": "unavailable"}), ("CLAIM-D2", "D", {"witness": "bibliographic"}),
+    ]:
+        write("claims", {"id": claim_id, "statement_id": statement_id, "source_id": "SRC", "locator": "1",
+                         "interpretation": "i", "status": "accepted", **extra})
+
+
+def python_frontier(root, frontier_root="ROOT"):
+    """Python `frontier_report` with next steps on a fixture checkout, without
+    the full `validate()` that `corpus.py frontier` runs first."""
+    kinds = ("statements", "arguments", "results", "relations", "claims", "inferences")
+    records = {kind: [json.loads(path.read_text()) for path in sorted((root / "corpus" / kind).glob("*.json"))]
+               for kind in kinds}
+    saved = corpus.ROOT
+    corpus.ROOT = root
+    try:
+        flags = corpus.transcription_flags(records["results"], records["arguments"], records["statements"])
+    finally:
+        corpus.ROOT = saved
+    return corpus.frontier_report(records["statements"], records["arguments"], records["results"],
+                                  records["relations"], root=frontier_root, transcription=flags,
+                                  claims=records["claims"], inferences=records["inferences"],
+                                  _include_next_steps=True)
+
+
+class TruthFrontierParity(unittest.TestCase):
+    """`truth frontier` and `frontier-diff` against `corpus.py`."""
+
+    def run_truth(self, *args):
+        result = subprocess.run([self.binary, *args], cwd=corpus.ROOT,
+                                capture_output=True, text=True, check=False)
+        self.assertEqual(result.returncode, 0, result.stderr)
+        return result.stdout
+
+    def json_truth(self, *args):
+        actual = json.loads(self.run_truth("--json", *args))
+        self.assertTrue(actual.pop("input_identity").startswith("fnv1a64:"))
+        return actual
+
+    def assert_frontier(self, full, args):
+        """Every `frontier` form against one Python report with next steps."""
+        restricted = corpus.restrict_to_root(copy.deepcopy(full))
+        for flags, report in (([], full), (["--reaching-root"], restricted)):
+            self.assertEqual(self.json_truth(*args, "frontier", *flags), report, flags)
+            without = {key: value for key, value in report.items() if key != "next_steps"}
+            self.assertEqual(self.run_truth(*args, "frontier", *flags), corpus.format_frontier(without) + "\n")
+            self.assertEqual(self.json_truth(*args, "frontier", "--routes", *flags), report["routes"], flags)
+            self.assertEqual(self.run_truth(*args, "frontier", "--routes", *flags),
+                             corpus.format_routes(report["routes"]) + "\n", flags)
+
+    def test_real_corpus(self):
+        root = corpus.DEFAULT_FRONTIER_ROOT
+        self.assert_frontier(corpus.current_frontier(root, False), [])
+
+    def test_real_frontier_diff(self):
+        # Base HEAD: the Rust engine when HEAD's corpus.py is the checkout's.
+        root = corpus.DEFAULT_FRONTIER_ROOT
+        head = corpus.current_frontier(root, True, next_steps=False)
+        delta = corpus.frontier_delta(corpus.revision_frontier("HEAD", root), head)
+        delta.update(base="HEAD", head="working tree")
+        actual = self.json_truth("frontier-diff", "--base", "HEAD")
+        engines = actual.pop("engines")
+        self.assertEqual(engines["head"], "rust")
+        self.assertIn(engines["base"], {"rust", "python"})
+        self.assertEqual(actual, delta)
+        self.assertEqual(self.run_truth("frontier-diff", "--base", "HEAD"),
+                         corpus.format_frontier_delta(delta) + "\n")
+
+    def test_fixture(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            frontier_fixture(root)
+            full = python_frontier(root)
+            self.assert_frontier(full, ["--root", str(root), "--frontier-root", "ROOT"])
+            # The fixture exercises what it claims to.
+            self.assertEqual({entry["statement_id"]: entry["met"] for entry in full["floor"]},
+                             {"F-LEG": True, "F-RET": True, "F-OBS": False, "F-CG": False, "F-OWN": True,
+                              "F-STALE": False})
+            self.assertEqual([c["statement_id"] for c in full["closed_via_transcription"]], ["B", "TC"])
+            flags = {flag["result_id"]: flag for flag in full["transcription_flags"]}
+            self.assertTrue(flags["RES-OPQ"]["opaque_atoms"])
+            self.assertEqual(flags["RES-OPQ"]["goal_consequent_premises"],
+                             [{"hypothesis": "h", "statement_ids": ["BR"]}])
+            self.assertTrue(full["next_steps"]["partitions"])
+            unknown = python_frontier(root, "NOT-A-STATEMENT")
+            unknown_args = ["--root", str(root), "--frontier-root", "NOT-A-STATEMENT"]
+            self.assertEqual(self.json_truth(*unknown_args, "frontier"), unknown)
+
+    def test_usage(self):
+        for args in (["frontier", "--queue"], ["frontier-diff"], ["status", "--routes"],
+                     ["frontier", "--base", "HEAD"]):
+            result = subprocess.run([self.binary, "--json", *args], cwd=corpus.ROOT,
+                                    capture_output=True, text=True, check=False)
+            self.assertEqual(result.returncode, 2, args)
+def spread(items, count):
+    """`count` entries evenly spaced over a sorted list (deterministic sample)."""
+    items = sorted(items)
+    if len(items) <= count:
+        return items
+    return [items[index * len(items) // count] for index in range(count)]
+
+
+class TruthResearchParity(unittest.TestCase):
+    """`truth related|dossier|context` against `corpus.py related|dossier|context`
+    on a broad real-corpus sample, one frontier report shared by both sides."""
+
+    @classmethod
+    def setUpClass(cls):
+        from premise_dossiers import dossier_index
+
+        directories = ("statements", "claims", "definitions", "disambiguations", "inferences", "arguments",
+                       "results", "relations", "attempts", "models", "configurations", "candidates")
+        cls.data = {name: [record for _, record in corpus.load_dir(name)] for name in directories}
+        data = cls.data
+        # The report `corpus.py dossier` and `context` compute, handed to Rust as a file.
+        cls.report = corpus.frontier_report(
+            data["statements"], data["arguments"], data["results"], data["relations"],
+            root=corpus.DEFAULT_FRONTIER_ROOT,
+            transcription=corpus.transcription_flags(data["results"], data["arguments"], data["statements"]),
+            claims=data["claims"])
+        cls.temporary = tempfile.TemporaryDirectory()
+        cls.frontier = str(Path(cls.temporary.name) / "frontier.json")
+        Path(cls.frontier).write_text(json.dumps(cls.report, ensure_ascii=False))
+        cls.dossiers = dossier_index(data, cls.report)
+
+    @classmethod
+    def tearDownClass(cls):
+        cls.temporary.cleanup()
+
+    def truth(self, *args, code=0):
+        result = subprocess.run([self.binary, *args], cwd=corpus.ROOT,
+                                capture_output=True, text=True, check=False)
+        self.assertEqual(result.returncode, code, (args, result.stderr))
+        return result.stdout, result.stderr
+
+    def truth_json(self, *args):
+        value = json.loads(self.truth("--json", *args)[0])
+        self.assertTrue(value.pop("input_identity").startswith("fnv1a64:"))
+        return value
+
+    def statement_sample(self):
+        report = self.report
+        closed = list(report["closed_statements"])
+        by_depth = {}
+        for item in report["items"]:
+            by_depth.setdefault(item["depth"], []).append(item["statement_id"])
+        listed = set(closed) | {item["statement_id"] for item in report["items"]}
+        others = [entry["id"] for entry in self.data["statements"] if entry["id"] not in listed]
+        sample = set(spread(closed, 6)) | set(spread(others, 6))
+        for depth in ("stated", "supported", "bare"):
+            sample |= set(spread(by_depth.get(depth, []), 6))
+        sample |= set(spread([entry["statement_id"] for entry in report["floor"]], 3))
+        return sorted(sample)
+
+    def test_related(self):
+        for sid in self.statement_sample()[:30]:
+            for limit in ("10", "3"):
+                expected = io.StringIO()
+                with contextlib.redirect_stdout(expected):
+                    corpus.main_with(["related", sid, "--limit", limit])
+                self.assertEqual(self.truth("related", sid, "--limit", limit)[0], expected.getvalue(), sid)
+            from research_index import cached_related
+            self.assertEqual(self.truth_json("related", sid), cached_related(corpus.ROOT, sid, 10), sid)
+        self.assertEqual(json.loads(self.truth("--json", "related", "STMT-NO-SUCH", code=3)[1])["error"]["code"],
+                         "unknown_id")
+        argument = self.data["arguments"][0]["id"]
+        self.assertIn("related requires a statement ID",
+                      self.truth("related", f"arguments:{argument}", code=2)[1])
+
+    def test_dossier(self):
+        from premise_dossiers import format_dossier
+
+        sample = self.statement_sample()
+        self.assertGreaterEqual(len(sample), 30)
+        for sid in sample:
+            dossier = self.dossiers[sid]
+            self.assertEqual(self.truth_json("dossier", sid, "--frontier-json", self.frontier), dossier, sid)
+            for limit in (8, 0, 2):
+                expected = format_dossier(dossier, self.data, limit=None if limit <= 0 else limit)
+                actual = self.truth("dossier", sid, "--frontier-json", self.frontier, "--limit", str(limit))[0]
+                self.assertEqual(actual, expected + "\n", (sid, limit))
+        everything = json.loads(self.truth("dossier", "--all", "--frontier-json", self.frontier)[0])
+        self.assertEqual(everything, self.dossiers)
+        self.assertEqual(json.loads(self.truth("--json", "dossier", "STMT-NO-SUCH", "--frontier-json",
+                                               self.frontier, code=3)[1])["error"]["code"], "unknown_id")
+        # Without --frontier-json the Rust frontier computes the same report in-process.
+        for sid in sample[:8]:
+            self.assertEqual(self.truth_json("dossier", sid), self.dossiers[sid], sid)
+            self.assertEqual(self.truth("dossier", sid)[0],
+                             self.truth("dossier", sid, "--frontier-json", self.frontier)[0], sid)
+        self.assertEqual(json.loads(self.truth("dossier", "--all")[0]), self.dossiers)
+        self.assertEqual(json.loads(self.truth("--json", "dossier", sample[0], "--frontier-root", "STMT-NO-SUCH",
+                                               code=1)[1])["error"]["message"],
+                         "unknown root statement: STMT-NO-SUCH")
+
+    def test_context(self):
+        from argument_context import context_pack, format_context, resolve_target
+        from research_index import cached_related
+
+        arguments = {entry["id"]: entry for entry in self.data["arguments"]}
+        results = {entry["id"]: entry for entry in self.data["results"]}
+        concluded = {}
+        for entry in self.data["arguments"]:
+            concluded.setdefault(entry["conclusion_statement_id"], []).append(entry["id"])
+        unique = [sid for sid, ids in concluded.items() if len(ids) == 1 and sid not in arguments]
+        targets = (spread(arguments, 12) + spread([rid for rid in results if rid not in arguments], 3)
+                   + spread(unique, 3))
+        self.assertGreaterEqual(len(targets), 15)
+        for target in targets:
+            argument_id, _ = resolve_target(target, arguments, results)
+            related = cached_related(corpus.ROOT, arguments[argument_id]["conclusion_statement_id"], 8)["matches"]
+            pack = context_pack(corpus.ROOT, self.data, self.report, argument_id, related=related)
+            self.assertEqual(self.truth_json("context", target, "--frontier-json", self.frontier), pack, target)
+            for limit in (6, 2, -1):
+                actual = self.truth("context", target, "--frontier-json", self.frontier, "--limit", str(limit))[0]
+                self.assertEqual(actual, format_context(pack, limit=limit) + "\n", (target, limit))
+        for target in targets[:5]:
+            self.assertEqual(self.truth_json("context", target),
+                             self.truth_json("context", target, "--frontier-json", self.frontier), target)
+            self.assertEqual(self.truth("context", target)[0],
+                             self.truth("context", target, "--frontier-json", self.frontier)[0], target)
+        no_related = self.truth_json("context", targets[0], "--frontier-json", self.frontier, "--related", "0")
+        self.assertEqual(no_related["related_statements"], [])
+        self.assertEqual(json.loads(self.truth("--json", "context", "NO-SUCH-TARGET", "--frontier-json",
+                                               self.frontier, code=3)[1])["error"]["code"], "unknown_id")
+        several = next(sid for sid, ids in concluded.items() if len(ids) > 1)
+        self.assertIn("is concluded by several arguments",
+                      self.truth("context", several, "--frontier-json", self.frontier, code=2)[1])
 
 
 # --- `truth check` against `corpus.py check` --------------------------------
@@ -678,5 +988,7 @@ class TruthCheckParity(unittest.TestCase):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("binary", type=lambda path: Path(path).resolve())
-    TruthParity.binary = TruthThicknessParity.binary = TruthCheckParity.binary = parser.parse_args().binary
-    unittest.main(argv=[__file__])
+    known, rest = parser.parse_known_args()
+    TruthParity.binary = TruthThicknessParity.binary = TruthCheckParity.binary = known.binary
+    TruthResearchParity.binary = TruthFrontierParity.binary = known.binary
+    unittest.main(argv=[__file__, *rest])

@@ -1,0 +1,12 @@
+{
+  "id": "STMT-NOTHING-VIRTUALLY-IN-ACT-AND-IN-POTENCY",
+  "paraphrase": "IN-ACT_2, virtual reading (attribution deferred): nothing is virtually in act and in potency in the same respect. It excludes having the power to produce a perfection while being in potency to it, a stronger demand than Metaphysics IX.6 states (DISAMB-IN-ACT).",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.NothingVirtuallyInActAndInPotency",
+  "definition_ids": [
+    "DEF-IN-ACT-VIRTUALLY",
+    "DEF-POTENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT"
+  ]
+}

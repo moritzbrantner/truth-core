@@ -1,0 +1,18 @@
+{
+  "id": "STMT-TERM-SENSE-FORKS-3-CONTROLS",
+  "label": "Finite models for the maxime ens and potency sense forks",
+  "paraphrase": "Finite interpretations for the maxime-ens and potency forks: per term, a model in which coverage holds, exclusivity fails, the two uses are read in different senses, every other premise of the joint theorem holds and its conclusion fails; per term, the same with coverage failing instead; a nonvacuity witness per joint theorem; for MAXIME_2 and MAXIME_3, a model of the existence-layer branch without its sense bridge in which the conclusion fails; a tied-maxima model in which the STRICT causal principle holds vacuously and STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS fails; a model with asymmetric more-in and two tied maximal beings, so that a MAXIMAL being exists and no STRICTLY greatest one does; and omission models for both premises of the ADOPTED potency branch. Satisfiability and omission only; no model describes reality.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.TermSenseForks3Controls",
+  "definition_ids": [
+    "DEF-ROUTE-SENSE-SELECTION",
+    "DEF-MAXIME-ENS",
+    "DEF-GREATEST-DEGREE-IN-A-PERFECTION",
+    "DEF-GREATEST-BEING-STRICT",
+    "DEF-POTENCY",
+    "DEF-CAPACITY-TO-BE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MAXIME-ENS",
+    "DISAMB-POTENCY"
+  ]
+}

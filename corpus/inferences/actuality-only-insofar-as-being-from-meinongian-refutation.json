@@ -1,0 +1,12 @@
+{
+  "id": "INF-ACTUALITY-ONLY-INSOFAR-AS-BEING-FROM-MEINONGIAN-REFUTATION",
+  "input_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-NO-ACTUALITY-WITHOUT-BEING"
+  ],
+  "output_statement_id": "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING",
+  "rule": "Excluded middle on InAct x esse, reductio against the negated existential",
+  "meaning": "Whatever is in act in some respect is in act as to being (the ST I q.4 a.1 ad 3 reading), from the conclusion of NO-ACTUALITY-WITHOUT-BEING-FROM-PERFECTION (nothing is in act in a respect without being, on the same InAct and esse) and excluded middle: if x is in act in r and not in act as to esse, the Meinongian rival would be witnessed. This is a second derivation of the route premise from the refutation's own premises (STMT-PERFECT-INSOFAR-AS-IN-ACT, STMT-PERFECT-ONLY-INSOFAR-AS-BEING), both still OPEN; it does not establish the route premise and does not attribute the conclusion to a new source.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

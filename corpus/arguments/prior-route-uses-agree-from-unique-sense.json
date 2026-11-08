@@ -1,0 +1,21 @@
+{
+  "id": "PRIOR-ROUTE-USES-AGREE-FROM-UNIQUE-SENSE",
+  "premise_statement_ids": [
+    "STMT-PRIOR-SENSES-EXHAUSTIVE",
+    "STMT-PRIOR-SENSE-UNIQUE"
+  ],
+  "conclusion_statement_id": "STMT-PRIOR-ROUTE-USES-AGREE",
+  "inference_ids": [
+    "INF-PRIOR-ROUTE-USES-AGREE-FROM-UNIQUE-SENSE"
+  ],
+  "meaning": "Coverage and exclusivity block equivocation on 'prior': each use is the relation of a selected sense, and only one sense is selected, so all uses stand for one relation. The controls give a model in which coverage holds, exclusivity fails and two uses differ.",
+  "definition_ids": [
+    "DEF-PRIORITY-IN-SUBSTANCE",
+    "DEF-PRIORITY-IN-TIME",
+    "DEF-ROUTE-SENSE-SELECTION",
+    "DEF-SIMPLE-PRIORITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"
+  ]
+}

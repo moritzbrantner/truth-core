@@ -1,0 +1,12 @@
+{
+  "id": "STMT-SOMETHING-HAS-A-CAPACITY",
+  "label": "Something has a POTENCY_3 capacity for some respect",
+  "paraphrase": "OPEN analyst premise (attribution deferred): something has a capacity for some respect.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.SomethingHasACapacity",
+  "definition_ids": [
+    "DEF-CAPACITY-TO-BE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-POTENCY"
+  ]
+}

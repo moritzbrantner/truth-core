@@ -1,0 +1,11 @@
+{
+  "id": "STMT-CAUSE-ROUTE-USES-AGREE",
+  "paraphrase": "Every use of 'cause' on the route stands for one and the same relation: the route does not equivocate on 'cause'.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.CauseRouteUsesAgree",
+  "definition_ids": [
+    "DEF-ROUTE-SENSE-SELECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "GREATEST-IN-BEING-MAXIMAL-FROM-DEGREE-TRACKING",
+  "label": "Degree tracking makes a MAXIME_2 being MAXIME_1",
+  "premise_statement_ids": [
+    "STMT-MORE-IN-BEING-TRACKS-DEGREE"
+  ],
+  "conclusion_statement_id": "STMT-GREATEST-IN-BEING-IS-MAXIMAL",
+  "inference_ids": [
+    "INF-GREATEST-IN-BEING-MAXIMAL-FROM-DEGREE-TRACKING"
+  ],
+  "meaning": "Derives the MAXIME_2 to MAXIME_1 sense bridge: if whatever is more a being than m has being and a strictly higher represented degree, nothing is more a being than a GREATEST-degree bearer, since its degree would be both above and at most the greatest.",
+  "definition_ids": [
+    "DEF-ESSE",
+    "DEF-GREATEST-DEGREE-IN-A-PERFECTION",
+    "DEF-MAXIME-ENS",
+    "DEF-MAXIMUM-CALIBRATION-PROFILE",
+    "DEF-MORE-IN"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MAXIME-ENS"
+  ]
+}

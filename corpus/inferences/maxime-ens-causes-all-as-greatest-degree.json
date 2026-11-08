@@ -1,0 +1,13 @@
+{
+  "id": "INF-MAXIME-ENS-CAUSES-ALL-AS-GREATEST-DEGREE",
+  "input_statement_ids": [
+    "STMT-SOME-BEING-GREATEST-IN-BEING",
+    "STMT-GREATEST-DEGREE-IN-GENUS-CAUSES-ALL-IN-GENUS",
+    "STMT-GREATEST-IN-BEING-IS-MAXIMAL"
+  ],
+  "output_statement_id": "STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL",
+  "rule": "Existential elimination, universal instantiation at esse, modus ponens",
+  "meaning": "MAXIME_2 branch: some being has the GREATEST degree of being; a GREATEST-degree bearer of a perfection causes it in every other bearer (instantiated at esse); and the explicit sense bridge says a GREATEST-degree bearer of being is MAXIMAL in being. So some MAXIMAL being causes being in every other being. The control model without the bridge has a GREATEST bearer that something exceeds.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

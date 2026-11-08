@@ -1,0 +1,12 @@
+{
+  "id": "STMT-NOTHING-FORMALLY-IN-ACT-AND-IN-POTENCY",
+  "paraphrase": "IN-ACT_1, formal reading (attribution deferred): nothing is formally in act and in potency in the same respect.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.NothingFormallyInActAndInPotency",
+  "definition_ids": [
+    "DEF-IN-ACT-FORMALLY",
+    "DEF-POTENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT"
+  ]
+}

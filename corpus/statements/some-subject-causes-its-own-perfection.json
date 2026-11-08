@@ -1,0 +1,11 @@
+{
+  "id": "STMT-SOME-SUBJECT-CAUSES-ITS-OWN-PERFECTION",
+  "paraphrase": "OPEN analyst premise (attribution deferred): some subject causes a perfection in itself, as a subject causes its proper accidents from its own essential principles (navigation: ST I q.3 a.4, q.77 a.6).",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.SomeSubjectCausesItsOwnPerfection",
+  "definition_ids": [
+    "DEF-CAUSE-OF-PERFECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "STMT-NECESSARY-SENSE-UNIQUE",
+  "paraphrase": "OPEN exclusivity premise, attribution deferred: the route's intended reading selects exactly one enumerated sense. A constraint on the choice of reading, not a claim that the senses' extensions are disjoint (they are strength-ordered: S5 box-existence implies S4 implies T).",
+  "lean_declaration": "TruthCore.Causality.NecessarySenseFork.NecessarySenseUnique",
+  "definition_ids": [
+    "DEF-NECESSARY-IN-SENSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY"
+  ]
+}

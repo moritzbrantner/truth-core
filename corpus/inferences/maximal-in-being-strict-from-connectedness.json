@@ -1,0 +1,11 @@
+{
+  "id": "INF-MAXIMAL-IN-BEING-STRICT-FROM-CONNECTEDNESS",
+  "input_statement_ids": [
+    "STMT-MORE-IN-BEING-CONNECTED"
+  ],
+  "output_statement_id": "STMT-MAXIMAL-IN-BEING-IS-STRICTLY-GREATEST",
+  "rule": "Disjunction elimination",
+  "meaning": "Derives the MAXIME_1 to MAXIME_3 sense bridge: if any two distinct things are comparable in being, then for a MAXIMAL being m and any other x, x is not more a being than m, so m is more a being than x.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

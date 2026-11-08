@@ -6,5 +6,6 @@
   "claim_ids": [
     "ARIST-MET-1048A-POTENCY-AS-UNACTUALIZED-CAPACITY-A"
   ],
-  "lean_declaration": "TruthCore.Greek.Aristotle.Metaphysics.PotencyIsUnactualizedCapacityReading"
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.CapacityPotency",
+  "note": "Sense fork batch 3 (POTENCY_3): CapacityPotency CanBe x r := CanBe x r is the sense's own declaration, so that capacity statements mention neither adopted nor independent potency. The CanBe parameter of PotencyIsUnactualizedCapacityReading is the same relation."
 }

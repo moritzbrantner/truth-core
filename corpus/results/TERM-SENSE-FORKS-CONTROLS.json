@@ -1,0 +1,10 @@
+{
+  "id": "TERM-SENSE-FORKS-CONTROLS",
+  "argument_id": "TERM-SENSE-FORKS-CONTROLS",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks.controls",
+  "comparator_config": "results/TERM-SENSE-FORKS-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Finite interpretations for the two sense forks: an omission model for every premise of PRIOR-SENSE-FORK-ACT-SIMPLY-PRIOR and CAUSE-SENSE-FORK-NO-SELF-EFFICIENT-CAUSE (in each the route reads the term in the branch the omitted premise closes), a nonvacuity witness per fork, and per term a model of coverage without exclusivity in which two uses differ. Satisfiability and omission only; no model describes reality."
+}

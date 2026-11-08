@@ -1,0 +1,15 @@
+{
+  "id": "STMT-MOVED-ONLY-AS-IN-ADOPTED-POTENCY",
+  "label": "Whatever is moved is in POTENCY_1 (adopted: capable, not in act)",
+  "paraphrase": "POTENCY_1, ADOPTED reading (attribution deferred): whatever is moved in a respect has the capacity for it and is not actually in act in that respect.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.MovedOnlyAsInAdoptedPotency",
+  "definition_ids": [
+    "DEF-POTENCY",
+    "DEF-CAPACITY-TO-BE",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-POTENCY"
+  ]
+}

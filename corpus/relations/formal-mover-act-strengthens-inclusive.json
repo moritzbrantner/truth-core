@@ -1,0 +1,10 @@
+{
+  "id": "REL-FORMAL-MOVER-ACT-STRENGTHENS-INCLUSIVE",
+  "subject_kind": "statement",
+  "subject_id": "STMT-MOVES-ONLY-AS-FORMALLY-IN-ACT",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "STMT-MOVES-ONLY-AS-IN-ACT-FORMALLY-OR-VIRTUALLY",
+  "verification_result_id": "MOVES-AS-INCLUSIVE-ACT-FROM-FORMAL",
+  "note": "Strength order between senses of 'in act' in the mover premise. A mover virtually but not formally in act separates them (as in the mixed-reading control)."
+}

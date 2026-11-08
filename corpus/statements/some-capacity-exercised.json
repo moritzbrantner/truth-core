@@ -1,0 +1,13 @@
+{
+  "id": "STMT-SOME-CAPACITY-EXERCISED",
+  "label": "Some POTENCY_3 capacity is retained while exercised",
+  "paraphrase": "OPEN analyst premise (attribution deferred): some capacity is retained while exercised: something is in act in a respect and has the capacity for it, as the builder who is building keeps the capacity to build (navigation: Metaphysics IX.3 against the Megarians).",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.SomeCapacityExercised",
+  "definition_ids": [
+    "DEF-CAPACITY-TO-BE",
+    "DEF-ACT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-POTENCY"
+  ]
+}

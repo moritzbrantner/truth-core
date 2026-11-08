@@ -1,0 +1,11 @@
+{
+  "id": "CAUSAL-CONCRETENESS-COMMITMENT-STRENGTHENS-POWER",
+  "argument_id": "CAUSAL-CONCRETENESS-COMMITMENT-STRENGTHENS-POWER",
+  "challenge_module": "TruthCore.Results.Causality.NecessarySenseFork.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessarySenseFork.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessarySenseFork.ownerCommitmentToPower",
+  "comparator_config": "results/CAUSAL-CONCRETENESS-COMMITMENT-STRENGTHENS-POWER/comparator.json",
+  "status": "solution-present",
+  "description": "Strength registration (not modal): the first conjunct of the common-ground commitment OwnerCommitmentAt is PowerRequiresConcreteAt, the capacity half used by the alternative Cogito population step.",
+  "transcription": "assembly"
+}

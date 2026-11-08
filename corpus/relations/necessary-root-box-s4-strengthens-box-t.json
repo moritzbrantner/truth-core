@@ -1,0 +1,10 @@
+{
+  "id": "REL-NECESSARY-ROOT-BOX-S4-STRENGTHENS-BOX-T",
+  "subject_kind": "statement",
+  "subject_id": "STMT-NECESSARY-ROOT-BOX-S4",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "STMT-NECESSARY-ROOT-BOX-T",
+  "verification_result_id": "NECESSARY-ROOT-BOX-S4-STRENGTHENS-BOX-T",
+  "note": "Strength registration: the S4 node implies the T node."
+}

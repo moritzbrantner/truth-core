@@ -174,6 +174,7 @@ public import TruthCore.Results.Causality.NecessaryRootGodExistence.Reduced.Solu
 public import TruthCore.Results.Causality.NecessaryRootGodExistence.Solution
 public import TruthCore.Results.Causality.NecessaryRootGodUniqueness.Solution
 public import TruthCore.Results.Causality.NecessaryRootUniqueness.Solution
+public import TruthCore.Results.Causality.NecessarySenseFork.Solution
 public import TruthCore.Results.Causality.NecessarySimplePlurality.Solution
 public import TruthCore.Results.Causality.NecessaryWitnessConnection.Solution
 public import TruthCore.Results.Causality.NonlimitingConcreteExistence.Solution
@@ -210,6 +211,7 @@ public import TruthCore.Results.Causality.RootNonlimitationFromCompositionKinds.
 public import TruthCore.Results.Causality.RootPositiveIntellectWill.Solution
 public import TruthCore.Results.Causality.RootPositiveIntellectWillControl.Solution
 public import TruthCore.Results.Causality.RootPurity.Solution
+public import TruthCore.Results.Causality.RootWiring.Solution
 public import TruthCore.Results.Causality.RootWithoutLimitingPrinciple.Solution
 public import TruthCore.Results.Causality.Round2ExistenceAct.Solution
 public import TruthCore.Results.Causality.Round2Grounding.Solution
@@ -244,6 +246,9 @@ public import TruthCore.Results.Causality.TemporalActualization.Reciprocal.Solut
 public import TruthCore.Results.Causality.TemporalEventControls.Solution
 public import TruthCore.Results.Causality.TemporalPrimaVia.Controls.Solution
 public import TruthCore.Results.Causality.TemporalPrimaVia.Route.Solution
+public import TruthCore.Results.Causality.TermSenseForks.Solution
+public import TruthCore.Results.Causality.TermSenseForks2.Solution
+public import TruthCore.Results.Causality.TermSenseForks3.Solution
 public import TruthCore.Results.Causality.UnderivedCommonSource.Solution
 public import TruthCore.Results.Causality.UnderivedEssenceEsse.Solution
 public import TruthCore.Results.Causality.UnderivedNonComposite.Solution

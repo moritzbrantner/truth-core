@@ -4,36 +4,31 @@
 //! statement or changes a route cost, and the Python frontier stays the
 //! authority for closure.
 //!
-//! Ported frontier inputs: the strength order (#1017) and the set-aside of its
-//! registration arguments, transcription kinds (declared, plus the Lean-text
-//! single-application and assembly heuristics), the least fixpoint of
-//! `established`/`refuted` (floor bases, defended statements, verified steps,
-//! strength propagation) that decides whether a refutation counts, source
-//! depths, the route-aware upward walk (`premise_dependents`) and the
-//! reaching-root walk honoring `root_route` relations.
+//! The frontier inputs (transcription kinds, reaching-root statements,
+//! source depths, upward walks and counted refutations) come from
+//! `crate::frontier`, the port of `frontier_report`.
 
-use crate::{Corpus, transcription};
+use crate::Corpus;
+use crate::frontier::Frontier;
+use crate::transcription::Flag;
 use serde_json::{Map, Value, json};
-use std::{
-    collections::{BTreeMap, BTreeSet, HashMap, HashSet},
-    path::Path,
-};
+use std::collections::{BTreeMap, BTreeSet, HashMap, HashSet};
 
 /// `legacy_uuid("statement", "STMT-CATHOLICISM-TRUE")`.
 pub const DEFAULT_ROOT: &str = "53964cbe-5831-5812-af33-4d87896d47a7";
 const QUEUE_CANDIDATE_LIMIT: usize = 5;
 const QUEUE_TEXT_ATTEMPT_LIMIT: usize = 5;
 
-type Record = Map<String, Value>;
+pub(crate) type Record = Map<String, Value>;
 
-fn text<'a>(record: &'a Record, field: &str) -> &'a str {
+pub(crate) fn text<'a>(record: &'a Record, field: &str) -> &'a str {
     record
         .get(field)
         .and_then(Value::as_str)
         .unwrap_or_default()
 }
 
-fn list<'a>(record: &'a Record, field: &str) -> Vec<&'a str> {
+pub(crate) fn list<'a>(record: &'a Record, field: &str) -> Vec<&'a str> {
     record
         .get(field)
         .and_then(Value::as_array)
@@ -41,7 +36,7 @@ fn list<'a>(record: &'a Record, field: &str) -> Vec<&'a str> {
         .unwrap_or_default()
 }
 
-fn truthy(value: Option<&Value>) -> bool {
+pub(crate) fn truthy(value: Option<&Value>) -> bool {
     match value {
         None | Some(Value::Null) => false,
         Some(Value::Bool(value)) => *value,
@@ -50,31 +45,6 @@ fn truthy(value: Option<&Value>) -> bool {
         Some(Value::Object(value)) => !value.is_empty(),
         Some(Value::Number(value)) => value.as_f64() != Some(0.0),
     }
-}
-
-/// Vendored from rust-kernels `graph-kernels` (`traversal::breadth_first`,
-/// MIT, github.com/moritzbrantner/rust-kernels at d8a68f92), copied rather
-/// than depended on (invariant 19). Visits every node reachable from `start`.
-fn breadth_first<N, I, Neighbors>(start: N, mut neighbors: Neighbors) -> Vec<N>
-where
-    N: Clone + Eq + std::hash::Hash,
-    I: IntoIterator<Item = N>,
-    Neighbors: FnMut(&N) -> I,
-{
-    let mut order = Vec::new();
-    let mut seen = HashSet::new();
-    let mut frontier = std::collections::VecDeque::new();
-    seen.insert(start.clone());
-    frontier.push_back(start);
-    while let Some(node) = frontier.pop_front() {
-        for next in neighbors(&node) {
-            if seen.insert(next.clone()) {
-                frontier.push_back(next);
-            }
-        }
-        order.push(node);
-    }
-    order
 }
 
 /// A declared or heuristic transcription kind of one result.
@@ -108,6 +78,7 @@ pub struct Records<'a> {
     pub claims: Vec<&'a Record>,
     pub attempts: Vec<&'a Record>,
     pub definitions: Vec<&'a Record>,
+    pub inferences: Vec<&'a Record>,
 }
 
 impl<'a> Records<'a> {
@@ -120,71 +91,124 @@ impl<'a> Records<'a> {
             claims: corpus.records("claims"),
             attempts: corpus.records("attempts"),
             definitions: corpus.records("definitions"),
+            inferences: corpus.records("inferences"),
         }
     }
 }
 
-struct StrengthEntry<'a> {
-    strong: &'a str,
-    weak: &'a str,
-    argument_id: &'a str,
-}
-
-fn strength_order<'a>(records: &Records<'a>) -> Vec<StrengthEntry<'a>> {
-    let results: HashMap<&str, &Record> = records
-        .results
-        .iter()
-        .map(|result| (text(result, "id"), *result))
+/// The frontier quantities `thickness` and `thickness --queue` read, taken
+/// from the one frontier computation (`crate::frontier`), so thickness and
+/// frontier cannot disagree on closure, depths or walks.
+pub fn frontier_inputs(root: &str, records: &Records, flags: &[Flag]) -> FrontierInputs {
+    let report = Frontier::new(root, records, flags).report(false);
+    let strings = |value: &Value| -> Vec<String> {
+        value
+            .as_array()
+            .into_iter()
+            .flatten()
+            .filter_map(Value::as_str)
+            .map(str::to_owned)
+            .collect()
+    };
+    let transcription_results = report["transcription_results"]
+        .as_object()
+        .into_iter()
+        .flatten()
+        .map(|(id, kind)| {
+            (
+                id.clone(),
+                TranscriptionKind {
+                    kind: kind["kind"].as_str().unwrap_or_default().to_owned(),
+                    declared: kind["declared"] == true,
+                },
+            )
+        })
         .collect();
-    let arguments: HashMap<&str, &Record> = records
-        .arguments
-        .iter()
-        .map(|argument| (text(argument, "id"), *argument))
+    let statement_depths = report["statement_depths"]
+        .as_object()
+        .into_iter()
+        .flatten()
+        .map(|(id, depth)| {
+            let depth = match depth.as_str() {
+                Some("stated") => "stated",
+                Some("supported") => "supported",
+                _ => "bare",
+            };
+            (id.clone(), depth)
+        })
         .collect();
-    let mut relations: Vec<&Record> = records.relations.clone();
-    relations.sort_by_key(|relation| text(relation, "id"));
-    let mut order = Vec::new();
-    for relation in relations {
-        if text(relation, "predicate") != "strengthens" {
-            continue;
-        }
-        let argument = relation
-            .get("verification_result_id")
-            .and_then(Value::as_str)
-            .and_then(|id| results.get(id))
-            .and_then(|result| arguments.get(text(result, "argument_id")));
-        let Some(argument) = argument else { continue };
-        if list(argument, "premise_statement_ids") != [text(relation, "subject_id")]
-            || text(argument, "conclusion_statement_id") != text(relation, "object_id")
-            || truthy(argument.get("commitment_statement_ids"))
-        {
-            continue;
-        }
-        order.push(StrengthEntry {
-            strong: text(relation, "subject_id"),
-            weak: text(relation, "object_id"),
-            argument_id: text(argument, "id"),
-        });
+    let premise_dependent_arguments = report["premise_dependents"]
+        .as_object()
+        .into_iter()
+        .flatten()
+        .map(|(id, walk)| (id.clone(), walk["arguments"].as_array().map_or(0, Vec::len)))
+        .collect();
+    // Refutations come in relation-ID order: the last one for a pair wins.
+    let counted_refutations = report["refutations"]
+        .as_array()
+        .into_iter()
+        .flatten()
+        .map(|refutation| {
+            (
+                (
+                    refutation["argument_id"]
+                        .as_str()
+                        .unwrap_or_default()
+                        .to_owned(),
+                    refutation["statement_id"]
+                        .as_str()
+                        .unwrap_or_default()
+                        .to_owned(),
+                ),
+                refutation["counted"] == true,
+            )
+        })
+        .collect();
+    FrontierInputs {
+        root: root.to_owned(),
+        transcription_results,
+        reaching_root: strings(&report["reaching_root_statements"])
+            .into_iter()
+            .collect(),
+        statement_depths,
+        premise_dependent_arguments,
+        counted_refutations,
+        established: strings(&report["established_statements"])
+            .into_iter()
+            .collect(),
+        refuted: strings(&report["refuted_statements"]).into_iter().collect(),
+        registration_arguments: report["strength_order"]
+            .as_array()
+            .into_iter()
+            .flatten()
+            .filter_map(|entry| entry["argument_id"].as_str())
+            .map(str::to_owned)
+            .collect(),
     }
-    order
 }
 
-/// Declared kinds win over heuristic ones (Python `transcription_kinds`).
+/// Transcription kinds of `results` alone (Python `transcription_kinds`):
+/// the Lean-text single-application and assembly heuristics, overridden by a
+/// declared `transcription` field. The other heuristics only warn.
 pub fn transcription_kinds(
-    checkout: &Path,
+    checkout: &std::path::Path,
     results: &[&Record],
 ) -> BTreeMap<String, TranscriptionKind> {
     let mut kinds = BTreeMap::new();
     for result in results {
-        let heuristic = transcription::classify_result(
+        let Some(analysis) = crate::transcription::analyze_result(
             checkout,
             text(result, "solution_module"),
             text(result, "theorem"),
-        );
-        let kind = match heuristic {
-            Some(transcription::Heuristic::SingleApplication) => "single_application",
-            Some(transcription::Heuristic::Assembly) => "assembly",
-            None => continue,
+        ) else {
+            continue;
+        };
+        let kind = if analysis.single_application_of.is_some() {
+            "single_application"
+        } else if analysis.assembly_of.is_some_and(|found| !found.is_empty()) {
+            "assembly"
+        } else {
+            continue;
         };
         kinds.insert(
             text(result, "id").to_owned(),
@@ -206,400 +230,6 @@ pub fn transcription_kinds(
         }
     }
     kinds
-}
-
-/// The frontier quantities `thickness` and `thickness --queue` read.
-pub fn frontier_inputs(
-    root: &str,
-    records: &Records,
-    transcription_results: BTreeMap<String, TranscriptionKind>,
-) -> FrontierInputs {
-    let order = strength_order(records);
-    let registration: HashSet<&str> = order.iter().map(|entry| entry.argument_id).collect();
-    let arguments: Vec<&Record> = records
-        .arguments
-        .iter()
-        .copied()
-        .filter(|argument| !registration.contains(text(argument, "id")))
-        .collect();
-    let results: Vec<&Record> = records
-        .results
-        .iter()
-        .copied()
-        .filter(|result| !registration.contains(text(result, "argument_id")))
-        .collect();
-    let statement_by_id: HashMap<&str, &Record> = records
-        .statements
-        .iter()
-        .map(|statement| (text(statement, "id"), *statement))
-        .collect();
-    let argument_by_id: HashMap<&str, &Record> = arguments
-        .iter()
-        .map(|argument| (text(argument, "id"), *argument))
-        .collect();
-    let result_by_id: HashMap<&str, &Record> = results
-        .iter()
-        .map(|result| (text(result, "id"), *result))
-        .collect();
-    let verified_arguments: HashSet<&str> = results
-        .iter()
-        .map(|result| text(result, "argument_id"))
-        .collect();
-
-    let mut dependents: HashMap<&str, BTreeSet<&str>> = HashMap::new();
-    for argument in &arguments {
-        for premise in list(argument, "premise_statement_ids") {
-            dependents
-                .entry(premise)
-                .or_default()
-                .insert(text(argument, "id"));
-        }
-    }
-    let mut alternatives: BTreeMap<&str, BTreeSet<&str>> = BTreeMap::new();
-    let mut refutations: Vec<&Record> = Vec::new();
-    let mut support: HashMap<&str, HashSet<&str>> = HashMap::new();
-    let mut routes: HashMap<&str, HashSet<&str>> = HashMap::new();
-    for relation in &records.relations {
-        let (subject, object) = (text(relation, "subject_id"), text(relation, "object_id"));
-        match text(relation, "predicate") {
-            "alternative_to" => {
-                alternatives.entry(object).or_default().insert(subject);
-            }
-            "refutes" => refutations.push(relation),
-            "supports" => {
-                support.entry(object).or_default().insert(subject);
-            }
-            "root_route" => {
-                routes.entry(object).or_default().insert(subject);
-            }
-            _ => {}
-        }
-    }
-    refutations.sort_by_key(|relation| text(relation, "id"));
-    let mut refuting_arguments: HashMap<&str, HashSet<&str>> = HashMap::new();
-    for relation in &refutations {
-        refuting_arguments
-            .entry(text(relation, "object_id"))
-            .or_default()
-            .insert(text(relation, "subject_id"));
-    }
-    let claim_statement: HashMap<&str, &str> = records
-        .claims
-        .iter()
-        .map(|claim| (text(claim, "id"), text(claim, "statement_id")))
-        .collect();
-    let floor_markings: BTreeMap<&str, &Record> = statement_by_id
-        .iter()
-        .filter_map(|(id, statement)| {
-            statement
-                .get("self_evident")
-                .and_then(Value::as_object)
-                .map(|marking| (*id, marking))
-        })
-        .collect();
-
-    let mut established: HashSet<&str> = HashSet::new();
-    let mut refuted: HashSet<&str> = HashSet::new();
-    let floor = Floor {
-        alternatives: &alternatives,
-        claim_statement: &claim_statement,
-        result_by_id: &result_by_id,
-        argument_by_id: &argument_by_id,
-        refuting_arguments: &refuting_arguments,
-        transcription_results: &transcription_results,
-    };
-    let refutation_counts = |relation: &Record, established: &HashSet<&str>| {
-        let subject = text(relation, "subject_id");
-        argument_by_id.get(subject).is_some_and(|argument| {
-            verified_arguments.contains(subject)
-                && list(argument, "premise_statement_ids")
-                    .iter()
-                    .all(|premise| established.contains(premise))
-        })
-    };
-    let defended = |statement: &str, refuted: &HashSet<&str>| {
-        alternatives.get(statement).is_some_and(|recorded| {
-            !recorded.is_empty() && recorded.iter().all(|rival| refuted.contains(rival))
-        })
-    };
-    let verified_steps: Vec<&Record> = results
-        .iter()
-        .filter_map(|result| argument_by_id.get(text(result, "argument_id")).copied())
-        .collect();
-    let mut changed = true;
-    while changed {
-        changed = false;
-        for (statement, marking) in &floor_markings {
-            if !established.contains(statement)
-                && floor.met(statement, marking, &established, &refuted)
-            {
-                established.insert(statement);
-                changed = true;
-            }
-        }
-        for relation in &refutations {
-            let object = text(relation, "object_id");
-            if !refuted.contains(object) && refutation_counts(relation, &established) {
-                refuted.insert(object);
-                changed = true;
-            }
-        }
-        for statement in alternatives.keys() {
-            if !established.contains(statement) && defended(statement, &refuted) {
-                established.insert(statement);
-                changed = true;
-            }
-        }
-        for argument in &verified_steps {
-            let conclusion = text(argument, "conclusion_statement_id");
-            if !established.contains(conclusion)
-                && list(argument, "premise_statement_ids")
-                    .iter()
-                    .all(|premise| established.contains(premise))
-            {
-                established.insert(conclusion);
-                changed = true;
-            }
-        }
-        for entry in &order {
-            if established.contains(entry.strong) && established.insert(entry.weak) {
-                changed = true;
-            }
-            if refuted.contains(entry.weak) && refuted.insert(entry.strong) {
-                changed = true;
-            }
-        }
-    }
-    let counted_refutations = refutations
-        .iter()
-        .map(|relation| {
-            (
-                (
-                    text(relation, "subject_id").to_owned(),
-                    text(relation, "object_id").to_owned(),
-                ),
-                refutation_counts(relation, &established),
-            )
-        })
-        .collect();
-
-    let mut stating: HashMap<&str, Vec<&Record>> = HashMap::new();
-    for claim in &records.claims {
-        stating
-            .entry(text(claim, "statement_id"))
-            .or_default()
-            .push(claim);
-    }
-    let statement_depths = statement_by_id
-        .keys()
-        .map(|id| {
-            let claims = stating.get(id).map(Vec::as_slice).unwrap_or_default();
-            let depth = if claims.iter().any(|claim| {
-                !matches!(
-                    claim.get("witness").and_then(Value::as_str),
-                    Some("bibliographic" | "unavailable")
-                )
-            }) {
-                "stated"
-            } else if !claims.is_empty() || support.get(id).is_some_and(|s| !s.is_empty()) {
-                "supported"
-            } else {
-                "bare"
-            };
-            ((*id).to_owned(), depth)
-        })
-        .collect();
-
-    // The route-aware upward walk: a routed conclusion is entered only through
-    // its designated arguments; every argument met on the way counts.
-    let premise_dependent_arguments = dependents
-        .keys()
-        .map(|premise| {
-            let reached = breadth_first(*premise, |current: &&str| {
-                dependents
-                    .get(current)
-                    .into_iter()
-                    .flatten()
-                    .filter_map(|argument_id| {
-                        let conclusion =
-                            text(argument_by_id[argument_id], "conclusion_statement_id");
-                        let blocked = routes
-                            .get(conclusion)
-                            .is_some_and(|designated| !designated.contains(argument_id));
-                        (!blocked).then_some(conclusion)
-                    })
-                    .collect::<Vec<_>>()
-            });
-            let arguments: HashSet<&str> = reached
-                .into_iter()
-                .flat_map(|statement| dependents.get(statement).into_iter().flatten().copied())
-                .collect();
-            ((*premise).to_owned(), arguments.len())
-        })
-        .collect();
-
-    let mut concluding: HashMap<&str, Vec<&str>> = HashMap::new();
-    for argument in &arguments {
-        concluding
-            .entry(text(argument, "conclusion_statement_id"))
-            .or_default()
-            .push(text(argument, "id"));
-    }
-    let reaching_root = if statement_by_id.contains_key(root) {
-        breadth_first(root, |conclusion: &&str| {
-            concluding
-                .get(conclusion)
-                .into_iter()
-                .flatten()
-                .filter(|argument_id| {
-                    routes
-                        .get(conclusion)
-                        .is_none_or(|designated| designated.contains(*argument_id))
-                })
-                .flat_map(|argument_id| list(argument_by_id[argument_id], "premise_statement_ids"))
-                .collect::<Vec<_>>()
-        })
-        .into_iter()
-        .map(str::to_owned)
-        .collect()
-    } else {
-        BTreeSet::new()
-    };
-
-    FrontierInputs {
-        root: root.to_owned(),
-        transcription_results,
-        reaching_root,
-        statement_depths,
-        premise_dependent_arguments,
-        counted_refutations,
-        established: established.iter().map(|id| (*id).to_owned()).collect(),
-        refuted: refuted.iter().map(|id| (*id).to_owned()).collect(),
-        registration_arguments: registration.iter().map(|id| (*id).to_owned()).collect(),
-    }
-}
-
-/// Floor-marking basis criteria (#500, #999, #1007), as Python `floor_reasons`.
-struct Floor<'a, 'r> {
-    alternatives: &'r BTreeMap<&'a str, BTreeSet<&'a str>>,
-    claim_statement: &'r HashMap<&'a str, &'a str>,
-    result_by_id: &'r HashMap<&'a str, &'a Record>,
-    argument_by_id: &'r HashMap<&'a str, &'a Record>,
-    refuting_arguments: &'r HashMap<&'a str, HashSet<&'a str>>,
-    transcription_results: &'r BTreeMap<String, TranscriptionKind>,
-}
-
-impl Floor<'_, '_> {
-    fn rivals(&self, statement: &str) -> Vec<&str> {
-        self.alternatives
-            .get(statement)
-            .map(|rivals| rivals.iter().copied().collect())
-            .unwrap_or_default()
-    }
-
-    fn stale(&self, statement: &str, marking: &Record) -> bool {
-        let basis = Some(text(marking, "basis"))
-            .filter(|basis| !basis.is_empty())
-            .unwrap_or("legacy");
-        let Some(disagreement) = marking.get("disagreement").filter(|v| !v.is_null()) else {
-            return false;
-        };
-        if basis == "common_ground" && marking.get("owner_approval").is_none_or(Value::is_null) {
-            return false;
-        }
-        let listed: HashSet<&str> = disagreement
-            .as_object()
-            .map(|object| list(object, "rival_statement_ids").into_iter().collect())
-            .unwrap_or_default();
-        self.rivals(statement)
-            .iter()
-            .any(|rival| !listed.contains(rival))
-    }
-
-    fn met(
-        &self,
-        statement: &str,
-        marking: &Record,
-        established: &HashSet<&str>,
-        refuted: &HashSet<&str>,
-    ) -> bool {
-        if marking.get("owner_approval").is_some_and(|v| !v.is_null()) {
-            return !self.stale(statement, marking);
-        }
-        if self.stale(statement, marking) {
-            return false;
-        }
-        let rivals = self.rivals(statement);
-        let justification = list(marking, "justification_ids");
-        match Some(text(marking, "basis"))
-            .filter(|basis| !basis.is_empty())
-            .unwrap_or("legacy")
-        {
-            "legacy" => true,
-            "retorsion" => {
-                let Some(denial) = marking.get("denial_statement_id").and_then(Value::as_str)
-                else {
-                    return false;
-                };
-                if !rivals.contains(&denial) {
-                    return false;
-                }
-                justification.is_empty()
-                    || justification.iter().any(|result_id| {
-                        let Some(argument) = self.result_by_id.get(result_id).and_then(|result| {
-                            self.argument_by_id.get(text(result, "argument_id"))
-                        }) else {
-                            return false;
-                        };
-                        !self.transcription_results.contains_key(*result_id)
-                            && self
-                                .refuting_arguments
-                                .get(denial)
-                                .is_some_and(|set| set.contains(text(argument, "id")))
-                            && list(argument, "premise_statement_ids")
-                                .iter()
-                                .all(|premise| established.contains(premise))
-                    })
-            }
-            "common_ground" => {
-                if !rivals.is_empty() {
-                    return false;
-                }
-                let question = text(marking, "question_statement_id");
-                let question_rivals = self.rivals(question);
-                if question_rivals.is_empty() {
-                    return false;
-                }
-                let mut committed: HashMap<&str, usize> = HashMap::new();
-                for position in marking
-                    .get("positions")
-                    .and_then(Value::as_array)
-                    .into_iter()
-                    .flatten()
-                    .filter_map(Value::as_object)
-                {
-                    let stating = list(position, "claim_ids")
-                        .into_iter()
-                        .filter(|claim| self.claim_statement.get(claim) == Some(&statement))
-                        .count();
-                    *committed.entry(text(position, "statement_id")).or_default() += stating;
-                }
-                std::iter::once(question)
-                    .chain(question_rivals)
-                    .all(|position| committed.get(position).is_some_and(|count| *count > 0))
-            }
-            _ => {
-                // observation
-                let sceptical: HashSet<&str> =
-                    list(marking, "sceptical_rival_ids").into_iter().collect();
-                justification
-                    .iter()
-                    .any(|claim| self.claim_statement.get(claim) == Some(&statement))
-                    && rivals.iter().all(|rival| sceptical.contains(rival))
-                    && rivals.iter().all(|rival| refuted.contains(rival))
-            }
-        }
-    }
 }
 
 /// Python `thickness_report`: verified non-transcription derivations of every
@@ -1051,31 +681,16 @@ mod tests {
                 claims: self.claims.iter().collect(),
                 attempts: self.attempts.iter().collect(),
                 definitions: Vec::new(),
+                inferences: Vec::new(),
             }
         }
-    }
-
-    fn declared(records: &Records) -> BTreeMap<String, TranscriptionKind> {
-        let mut kinds = BTreeMap::new();
-        for result in &records.results {
-            if let Some(kind) = result.get("transcription").and_then(Value::as_str) {
-                kinds.insert(
-                    text(result, "id").to_owned(),
-                    TranscriptionKind {
-                        kind: kind.into(),
-                        declared: true,
-                    },
-                );
-            }
-        }
-        kinds
     }
 
     #[test]
     fn reaching_root_honors_routes_and_strength_registrations() {
         let fixture = Fixture::new();
         let records = fixture.records();
-        let frontier = frontier_inputs("ROOT", &records, declared(&records));
+        let frontier = frontier_inputs("ROOT", &records, &[]);
         // E enters only through the undesignated route; S only through the
         // strength registration, which is set aside.
         let reached: Vec<&str> = frontier.reaching_root.iter().map(String::as_str).collect();
@@ -1095,7 +710,7 @@ mod tests {
     fn report_counts_non_transcription_derivations_and_queues_the_rest() {
         let fixture = Fixture::new();
         let records = fixture.records();
-        let frontier = frontier_inputs("ROOT", &records, declared(&records));
+        let frontier = frontier_inputs("ROOT", &records, &[]);
         let report = thickness_report(&frontier, &records);
         assert_eq!(report["statement_count"], 6);
         assert_eq!(report["derivations"]["A"], json!(["ARG-A"]));
@@ -1124,41 +739,5 @@ mod tests {
         );
         let text = format_thickness_queue("ROOT", &queue);
         assert!(text.contains("B [supported; 1 dependent arguments; examined]"));
-    }
-
-    #[test]
-    fn floor_bases_follow_python() {
-        let marking = |value: Value| value.as_object().cloned().unwrap_or_default();
-        let alternatives = BTreeMap::from([("P", BTreeSet::from(["NOT-P"]))]);
-        let claim_statement = HashMap::from([("CLAIM-P", "P")]);
-        let (results, arguments, refuting, kinds) = (
-            HashMap::new(),
-            HashMap::new(),
-            HashMap::new(),
-            BTreeMap::new(),
-        );
-        let floor = Floor {
-            alternatives: &alternatives,
-            claim_statement: &claim_statement,
-            result_by_id: &results,
-            argument_by_id: &arguments,
-            refuting_arguments: &refuting,
-            transcription_results: &kinds,
-        };
-        let none = HashSet::new();
-        assert!(floor.met("P", &marking(json!({})), &none, &none));
-        let observation = marking(
-            json!({"basis": "observation", "justification_ids": ["CLAIM-P"],
-                                         "sceptical_rival_ids": ["NOT-P"]}),
-        );
-        assert!(!floor.met("P", &observation, &none, &none));
-        assert!(floor.met("P", &observation, &none, &HashSet::from(["NOT-P"])));
-        // A retorsion with no justification has no failing justification.
-        let retorsion = marking(json!({"basis": "retorsion", "denial_statement_id": "NOT-P"}));
-        assert!(floor.met("P", &retorsion, &none, &none));
-        // A stale disagreement record blocks even an owner-approved marking.
-        let stale = marking(json!({"basis": "common_ground", "owner_approval": "x",
-                                   "disagreement": {"rival_statement_ids": []}}));
-        assert!(!floor.met("P", &stale, &none, &none));
     }
 }

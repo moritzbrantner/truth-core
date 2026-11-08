@@ -1,0 +1,10 @@
+{
+  "id": "NO-SELF-MOTION-SAME-RESPECT-IN-ACT-2",
+  "argument_id": "NO-SELF-MOTION-SAME-RESPECT-IN-ACT-2",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks2.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks2.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks2.noSelfMotionVirtually",
+  "comparator_config": "results/NO-SELF-MOTION-SAME-RESPECT-IN-ACT-2/comparator.json",
+  "status": "solution-present",
+  "description": "Per-sense argument, IN-ACT_2 (virtual act): both act premises read virtually give no self-motion in the same respect. The virtual mover premise avoids the counterexamples of causes that produce what they do not formally have; the virtual non-simultaneity premise carries the burden."
+}

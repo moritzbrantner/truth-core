@@ -1,0 +1,11 @@
+{
+  "id": "CAUSAL-CONCRETENESS-COMMITMENT-STRENGTHENS-CAUSERS",
+  "argument_id": "CAUSAL-CONCRETENESS-COMMITMENT-STRENGTHENS-CAUSERS",
+  "challenge_module": "TruthCore.Results.Causality.NecessarySenseFork.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessarySenseFork.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessarySenseFork.ownerCommitmentToCausers",
+  "comparator_config": "results/CAUSAL-CONCRETENESS-COMMITMENT-STRENGTHENS-CAUSERS/comparator.json",
+  "status": "solution-present",
+  "description": "Strength registration (not modal): the common-ground commitment OwnerCommitmentAt is the conjunction of the capacity clause and the activity clause; its second conjunct is CausersRequireConcreteAt, the activity half used by the Cogito population step of the necessary-being route.",
+  "transcription": "assembly"
+}

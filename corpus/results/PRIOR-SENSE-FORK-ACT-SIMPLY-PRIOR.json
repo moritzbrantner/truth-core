@@ -1,0 +1,10 @@
+{
+  "id": "PRIOR-SENSE-FORK-ACT-SIMPLY-PRIOR",
+  "argument_id": "PRIOR-SENSE-FORK-ACT-SIMPLY-PRIOR",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks.actSimplyPriorBySenseFork",
+  "comparator_config": "results/PRIOR-SENSE-FORK-ACT-SIMPLY-PRIOR/comparator.json",
+  "status": "solution-present",
+  "description": "Joint sense fork for 'prior'. Coverage reads the route's 'prior' in one of simple priority, priority in time or priority in substance. Simple branch: the route premise is act's simple priority. Substance branch: the open bridge from priority in substance to simple priority gives it. Temporal branch: impossible, since a temporally first being in potency has nothing before it in act. Hence act is simply prior to potency, under the four OPEN premises. Exclusivity is not used here; it is used by PRIOR-ROUTE-USES-AGREE-FROM-UNIQUE-SENSE."
+}

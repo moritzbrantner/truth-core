@@ -1,0 +1,36 @@
+{
+  "id": "COGITO-INHABITED-CONCRETE-FROM-FLOOR-ACTIVITY",
+  "premise_statement_ids": [
+    "STMT-COGITO-THOUGHT-OCCURS",
+    "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT",
+    "STMT-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE",
+    "STMT-INTELLECTUAL-EXERCISE-PRODUCES-AT",
+    "STMT-COGITO-BEARER-EXISTS-AT-WORLD",
+    "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS"
+  ],
+  "conclusion_statement_id": "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+  "inference_ids": [
+    "INF-COGITO-INHABITED-CONCRETE-FROM-FLOOR-ACTIVITY"
+  ],
+  "meaning": "Some concrete candidate exists at w, by the existing Round 4 activity derivation (inhabitedFromProduction, imported and applied), with the owner-approved floor commitment STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS (capacity and activity clauses at the same w, on the same Causes and concrete) supplying the activity clause that the old argument took as the bare premise STMT-CAUSERS-REQUIRE-CONCRETENESS-AT. The other five premises are unchanged and remain OPEN; the contested production of an inner word (STMT-INTELLECTUAL-EXERCISE-PRODUCES-AT) is still required. It does not establish the floor commitment, which rests on its owner approval, and it says nothing about what concreteness is beyond the supplied predicate.",
+  "definition_ids": [
+    "DEF-ABSTRACT-NO-ESSE-IN-RE",
+    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE",
+    "DEF-COGITO-THINKING-AS-INTELLECTUAL-EXERCISE",
+    "DEF-CONCRETE-ABSTRACT-ANCHORS",
+    "DEF-CONCRETE-ABSTRACT-CLASSIFICATION",
+    "DEF-CONCRETE-ABSTRACT-EXHAUSTIVE",
+    "DEF-CONCRETE-ESSE-IN-RE",
+    "DEF-INHABITED-CONCRETE-WORLD",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-Q75-OPERATION-ATTRIBUTION",
+    "DEF-THOUGHT-BEARER",
+    "DEF-THOUGHT-OCCURRENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE",
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-IN-ACT",
+    "DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE"
+  ]
+}

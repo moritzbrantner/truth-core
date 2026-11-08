@@ -1,0 +1,14 @@
+{
+  "id": "INF-COMPOSITE-HAS-UNITING-CAUSE-UNITING-CAUSE-1",
+  "input_statement_ids": [
+    "STMT-COMPOSITE-HAS-TWO-DISTINCT-COMPONENTS",
+    "STMT-DIVERSE-COMPONENTS-UNITED-ONLY-BY-A-CAUSE",
+    "STMT-UNITING-CAUSE-CAUSES-COMPOSITE-BEING",
+    "STMT-NOTHING-UNITES-ITSELF"
+  ],
+  "output_statement_id": "STMT-COMPOSITE-HAS-A-UNITING-CAUSE",
+  "rule": "Universal instantiation, existential elimination and modus tollens",
+  "meaning": "Per-sense argument, UNITING-CAUSE_1 (uniting): if nothing unites components into itself, the uniter is distinct from the composite, and it causes the composite's being.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

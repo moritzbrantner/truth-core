@@ -1,0 +1,19 @@
+{
+  "id": "ACT-NOT-PRIOR-IN-TIME-FROM-TEMPORALLY-FIRST-POTENCY",
+  "premise_statement_ids": [
+    "STMT-TEMPORALLY-FIRST-BEING-IN-POTENCY"
+  ],
+  "conclusion_statement_id": "STMT-ACT-NOT-PRIOR-TO-POTENCY-IN-TIME",
+  "inference_ids": [
+    "INF-ACT-NOT-PRIOR-IN-TIME-FROM-TEMPORALLY-FIRST-POTENCY"
+  ],
+  "meaning": "Per-sense result for the temporal branch of 'prior': if some temporally first being is in potency, act is not prior to potency in time, since nothing in act is before that being.",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-POTENCY",
+    "DEF-PRIORITY-IN-TIME"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"
+  ]
+}

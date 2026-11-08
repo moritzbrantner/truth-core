@@ -1,0 +1,11 @@
+{
+  "id": "INF-MOVES-AS-INCLUSIVE-ACT-FROM-FORMAL",
+  "input_statement_ids": [
+    "STMT-MOVES-ONLY-AS-FORMALLY-IN-ACT"
+  ],
+  "output_statement_id": "STMT-MOVES-ONLY-AS-IN-ACT-FORMALLY-OR-VIRTUALLY",
+  "rule": "Disjunction introduction",
+  "meaning": "Explicit sense bridge IN-ACT_1 → IN-ACT_3 (strength order): the formal mover premise implies the inclusive one.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
