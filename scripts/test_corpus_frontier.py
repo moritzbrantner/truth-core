@@ -627,6 +627,64 @@ class RouteCostTest(unittest.TestCase):
         entry = self.by_id(self.routes(grounded, [*results, {"id": "DB", "argument_id": "DB"}]))["R1"]
         self.assertEqual(entry["cost"], 1)
 
+    def test_new_argument_is_positive_support_progress_even_when_expanded_cost_rises(self) -> None:
+        base_arguments = [argument("R1", ["A"], "ROOT")]
+        base_results = [{"id": "R1", "argument_id": "R1"}]
+        base = corpus.frontier_report(self.STATEMENTS, base_arguments, base_results, [], root="ROOT")
+        self.assertEqual(base["routes"]["routes"][0]["cost"], 1)
+        self.assertEqual(base["support_options"]["verified_alternative_bundle_count"], 0)
+
+        arguments = [
+            *base_arguments,
+            argument("DA", ["P1", "P2"], "A"),
+            argument("DA-DUP", ["P2", "P1"], "A"),
+            argument("DA-UNVERIFIED", ["C"], "A"),
+            argument("DB", ["C"], "B"),
+        ]
+        results = [
+            *base_results,
+            {"id": "DA", "argument_id": "DA"},
+            {"id": "DA-DUP", "argument_id": "DA-DUP"},
+            {"id": "DB", "argument_id": "DB", "transcription": "single_application"},
+        ]
+        head = corpus.frontier_report(self.STATEMENTS, arguments, results, [], root="ROOT")
+        self.assertEqual(head["routes"]["routes"][0]["cost"], 2)
+        self.assertEqual(head["support_options"]["verified_alternative_bundle_count"], 1)
+        self.assertEqual(head["support_options"]["with_verified_alternative_count"], 1)
+        options = {item["statement_id"]: item for item in head["support_options"]["items"]}
+        self.assertTrue(options["A"]["direct_assumption_available"])
+        self.assertEqual(options["A"]["verified_alternative_bundles"], [
+            {"premise_statement_ids": ["P1", "P2"], "argument_ids": ["DA", "DA-DUP"], "result_ids": ["DA", "DA-DUP"]}
+        ])
+        self.assertNotIn("B", options)  # Not a premise on any root-reaching route.
+        self.assertEqual(
+            head["support_options"],
+            corpus.frontier_report(self.STATEMENTS, list(reversed(arguments)), list(reversed(results)), [], root="ROOT")[
+                "support_options"
+            ],
+        )
+        settled_statements = [
+            {**item, "self_evident": {"justification_ids": ["CLAIM-A"]}}
+            if item["id"] == "A" else item for item in self.STATEMENTS
+        ]
+        settled = corpus.frontier_report(settled_statements, arguments, results, [], root="ROOT")
+        settled_option = next(item for item in settled["support_options"]["items"] if item["statement_id"] == "A")
+        self.assertTrue(settled_option["established"])
+        self.assertFalse(settled_option["direct_assumption_available"])
+        self.assertEqual(settled["support_options"]["with_verified_alternative_count"], 0)
+        self.assertEqual(settled["support_options"]["verified_alternative_bundle_count"], 1)
+        self.assertEqual(
+            corpus.frontier_delta(corpus.restrict_to_root(head), corpus.restrict_to_root(settled))[
+                "removed_support_bundles"
+            ], [],
+        )
+        delta = corpus.frontier_delta(corpus.restrict_to_root(base), corpus.restrict_to_root(head))
+        self.assertEqual(delta["new_support_bundles"], [
+            {"statement_id": "A", "premise_statement_ids": ["P1", "P2"]}
+        ])
+        self.assertTrue(delta["changed"])
+        self.assertIn("verified support alternatives added: 1", corpus.format_frontier_delta({**delta, "base": "a", "head": "b"}))
+
     def test_intermediate_conclusions_are_expanded(self) -> None:
         # A has no claim and is concluded by verified proofs: it is expanded
         # under its cheapest proof (DA2: {P1}), and leaves shared between
@@ -1516,6 +1574,20 @@ class FrontierDiffTest(unittest.TestCase):
         delta = corpus.frontier_delta(base, self.reaching(RESULTS))
         self.assertEqual(delta["base_cheapest_route"], {"argument_id": None, "cost": None})
         self.assertEqual([change["base_cost"] for change in delta["route_changes"]], [None])
+
+    def test_legacy_base_without_support_projection_is_not_treated_as_zero(self) -> None:
+        head = self.reaching(RESULTS)
+        base = json.loads(json.dumps(head))
+        del base["support_options"]
+        delta = corpus.frontier_delta(base, head)
+        self.assertFalse(delta["support_bundle_comparison_available"])
+        self.assertIsNone(delta["base_support_bundle_count"])
+        self.assertEqual(delta["new_support_bundles"], [])
+        self.assertFalse(delta["changed"])
+        delta.update(base="BASE", head="HEAD")
+        text = corpus.format_frontier_delta(delta)
+        self.assertIn("incomparable (historical projection unavailable)", text)
+        self.assertNotIn("\nno change\n", text + "\n")
 
 
 class ThicknessTest(unittest.TestCase):

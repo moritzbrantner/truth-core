@@ -1,8 +1,10 @@
 # Choosing the next research step
 
 The [next-work view](https://moritzbrantner.github.io/truth-core/next/) starts at
-`STMT-CATHOLICISM-TRUE`, ranks the registered routes by the existing open-premise
-cost, and lets the reader follow each argument to its premises. The CLI returns
+`STMT-CATHOLICISM-TRUE`, highlights established statements and additional
+verified conditional support bundles, and lets the reader follow each argument
+to its premises. Expanded open-premise cost is retained as a **diagnostic**, not
+the progress KPI. The CLI returns
 exactly the same presentation:
 
 ```sh
@@ -16,6 +18,16 @@ continue to have one authority. A theorem can be verified and still depend on
 open premises. In particular, a `proved_unestablished` route leaf also retains
 its source depth (bare, supported or stated); the proof status does not erase
 that distinction.
+
+The `support_options` field in the authoritative `frontier --json` report
+includes each root-reaching premise, with a direct-assumption choice when
+unestablished, and groups its verified non-transcription arguments by distinct
+premise bundles. Established premises keep their support bundles in the count,
+so settlement does not look like lost argument progress. For example `A ∧ B → P1` adds an option under `P1` even if
+the expanded-route cost rises from one open leaf to two. The number of
+alternatives is neither an established-premise count nor proof of genuine
+philosophical independence. The Explorer renders these options before the
+cost-based route and leaf diagnostics.
 
 ## Settlement and impact
 

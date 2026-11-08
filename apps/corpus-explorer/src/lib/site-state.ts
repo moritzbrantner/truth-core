@@ -176,6 +176,18 @@ export type FrontierReport = {
   established_statements: string[];
   /** Statements whose upward argument walk reaches the root (root_route aware). */
   reaching_root_statements: string[];
+  /** Root-reaching premise choices: direct assumption plus distinct verified, conditional proof bundles. */
+  support_options: {
+    unestablished_premise_count: number;
+    with_verified_alternative_count: number;
+    verified_alternative_bundle_count: number;
+    items: Array<{
+      statement_id: string;
+      direct_assumption_available: boolean;
+      established: boolean;
+      verified_alternative_bundles: Array<{ premise_statement_ids: string[]; argument_ids: string[]; result_ids: string[] }>;
+    }>;
+  };
   alternatives_recorded: boolean;
   open_premise_count: number;
   depth_counts: Record<FrontierDepth, number>;
