@@ -1,0 +1,11 @@
+{
+  "id": "6066c4ef-f23a-4412-bced-aab12fc49fe5",
+  "label": "Global-to-actual love projection",
+  "argument_id": "0a722d94-3332-420b-b07a-95cc9e842230",
+  "challenge_module": "TruthCore.Results.Hiddenness.ActualRoot.Challenge",
+  "solution_module": "TruthCore.Results.Hiddenness.ActualRoot.Solution",
+  "theorem": "TruthCore.Results.Hiddenness.ActualRoot.loveWeakens",
+  "comparator_config": "results/6066c4ef-f23a-4412-bced-aab12fc49fe5/comparator.json",
+  "status": "solution-present",
+  "description": "Analyst actual-world scope fork. The global premise specializes at s.actual; strictness is witnessed by the control."
+}

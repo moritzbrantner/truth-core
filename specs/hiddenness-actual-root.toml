@@ -1,0 +1,156 @@
+[batch]
+vocab = "TruthCore.Hiddenness.ActualRoot"
+results = "TruthCore.Results.Hiddenness.ActualRoot"
+
+[[statement]]
+id = "Actual-world God-to-love norm"
+label = "At the actual world the personal ultimate entails LOVE_ACCESS_1"
+lean = "ActualGodLoves"
+definitions = ["5fc52e92-0783-5a76-bd99-dca53df00800", "4b2943ad-3bc5-5492-94bc-f21e9f1a12ab", "9fefb6b4-9493-52c3-868c-ad00fcda8151"]
+paraphrase = "Only at the actual world, the personal ultimate entails perfect love. Analyst strength fork; no global-world claim or premise truth."
+
+[[statement]]
+id = "Actual-world immediate openness norm"
+label = "Actual LOVE_ACCESS_1 entails LOVE_ACCESS_2 for capable nonresisters"
+lean = "ActualAlwaysOpen"
+definitions = ["4b2943ad-3bc5-5492-94bc-f21e9f1a12ab", "e83e512d-ae8d-5e80-a697-8fc1d672b7d3", "61e1abc6-d388-559b-88e1-0a65073c88e1", "31d85ba8-5fb1-5fb8-bdfb-cedca7e8854e", "9fefb6b4-9493-52c3-868c-ad00fcda8151"]
+paraphrase = "At the actual world only, perfect love supplies immediate conscious access at every capable nonresistant person/time. It does not identify love and access; that inference is an open norm."
+
+[[statement]]
+id = "Actual-world belief requirement for access"
+label = "Actual conscious access requires BELIEF_RESPONSE_1"
+lean = "ActualAccessNeedsBelief"
+definitions = ["608e0f97-3dbb-5bfd-9688-acecfb2f1fdf", "e83e512d-ae8d-5e80-a697-8fc1d672b7d3", "9fefb6b4-9493-52c3-868c-ad00fcda8151"]
+paraphrase = "At the actual world only, lack of belief excludes conscious reciprocal access; belief is not voluntary acceptance."
+
+[[statement]]
+id = "Route-to-hiddenness identification"
+label = "Each GOD_4 bearer entails the hiddenness personal ultimate at the actual world"
+lean = "RouteIdentification"
+definitions = ["88f9f6e8-997b-5f7d-afa1-c501954c3807", "5fc52e92-0783-5a76-bd99-dca53df00800", "9fefb6b4-9493-52c3-868c-ad00fcda8151"]
+paraphrase = "OPEN one-way semantic identification from each bearer of the route IsGod predicate to the hiddenness personal-ultimate existence proposition at the actual world. It neither supplies a bearer nor identifies every necessary being with a personal ultimate."
+
+[[statement]]
+id = "No route God under the hiddenness identification"
+label = "No GOD_4 bearer exists"
+lean = "NoRouteGod"
+definitions = ["88f9f6e8-997b-5f7d-afa1-c501954c3807"]
+paraphrase = "Negation of the existing stage-one GodExists on the same selected IsGod predicate. The conditional argument retains an explicit identification premise; no absence is established without its assumptions."
+
+[[statement]]
+id = "Actual hiddenness scope and omission controls"
+label = "Actual hiddenness strictness and premise-omission models"
+lean = "Controls"
+definitions = []
+paraphrase = "Finite logical models show nonvacuity, strictness of all three global-to-actual weakenings, each of the four carrying premises needed, and failure of route nonexistence if identification is omitted. No actual divine reason, person or premise truth is witnessed."
+
+[[argument]]
+id = "Global-to-actual love projection"
+label = "Global-to-actual love projection"
+theorem = "loveWeakens"
+premises = ["STMT-HIDDENNESS-GOD-LOVES"]
+conclusion = "Actual-world God-to-love norm"
+rule = "Universal instantiation, existential elimination and negation introduction; reuse existing omission models"
+meaning = "Analyst actual-world scope fork. The global premise specializes at s.actual; strictness is witnessed by the control."
+
+[[argument]]
+id = "Global-to-actual openness projection"
+label = "Global-to-actual openness projection"
+theorem = "openWeakens"
+premises = ["STMT-HIDDENNESS-ALWAYS-OPEN"]
+conclusion = "Actual-world immediate openness norm"
+rule = "Universal instantiation, existential elimination and negation introduction; reuse existing omission models"
+meaning = "Analyst actual-world scope fork. The global premise specializes at s.actual; strictness is witnessed by the control."
+sense_bridges = [{term = "LOVE_ACCESS", from = "LOVE_ACCESS_1", to = "LOVE_ACCESS_2", statement_id = "STMT-HIDDENNESS-ALWAYS-OPEN"}]
+
+[[argument]]
+id = "Global-to-actual belief projection"
+label = "Global-to-actual belief projection"
+theorem = "beliefWeakens"
+premises = ["STMT-HIDDENNESS-ACCESS-NEEDS-BELIEF"]
+conclusion = "Actual-world belief requirement for access"
+rule = "Universal instantiation, existential elimination and negation introduction; reuse existing omission models"
+meaning = "Analyst actual-world scope fork. The global premise specializes at s.actual; strictness is witnessed by the control."
+
+[[argument]]
+id = "Actual hiddenness excludes its personal ultimate"
+label = "Actual hiddenness excludes its personal ultimate"
+theorem = "noGod"
+premises = ["Actual-world God-to-love norm", "Actual-world immediate openness norm", "Actual-world belief requirement for access", "STMT-HIDDENNESS-NONRESISTANT-NONBELIEF"]
+conclusion = "STMT-HIDDENNESS-NO-GOD"
+rule = "Universal instantiation, existential elimination and negation introduction; reuse existing omission models"
+meaning = "Analyst actual-world scope fork. Only the listed actual-world norms, empirical witness and (for the route target) identification are used. Controls reuse the existing checked four-premise omission witnesses and add remote-world and identification controls. No philosophical premise is discharged."
+sense_bridges = [{term = "LOVE_ACCESS", from = "LOVE_ACCESS_1", to = "LOVE_ACCESS_2", statement_id = "Actual-world immediate openness norm"}]
+
+[[argument]]
+id = "Actual hiddenness excludes GOD_4 through explicit identification"
+label = "Actual hiddenness excludes GOD_4 through explicit identification"
+theorem = "noRouteGod"
+premises = ["Actual-world God-to-love norm", "Actual-world immediate openness norm", "Actual-world belief requirement for access", "STMT-HIDDENNESS-NONRESISTANT-NONBELIEF", "Route-to-hiddenness identification"]
+conclusion = "No route God under the hiddenness identification"
+rule = "Universal instantiation, existential elimination and negation introduction; reuse existing omission models"
+meaning = "Analyst actual-world scope fork. Only the listed actual-world norms, empirical witness and (for the route target) identification are used. Controls reuse the existing checked four-premise omission witnesses and add remote-world and identification controls. No philosophical premise is discharged."
+sense_bridges = [{term = "LOVE_ACCESS", from = "LOVE_ACCESS_1", to = "LOVE_ACCESS_2", statement_id = "Actual-world immediate openness norm"}]
+
+[[argument]]
+id = "Actual hiddenness scope controls"
+label = "Actual hiddenness scope controls"
+theorem = "controls"
+premises = []
+conclusion = "Actual hiddenness scope and omission controls"
+rule = "Universal instantiation, existential elimination and negation introduction; reuse existing omission models"
+meaning = "Analyst actual-world scope fork. Only the listed actual-world norms, empirical witness and (for the route target) identification are used. Controls reuse the existing checked four-premise omission witnesses and add remote-world and identification controls. No philosophical premise is discharged."
+sense_mixing_control = true
+
+[[relation]]
+id = "Global hiddenness norm strengthens actual scope 1"
+label = "Global hiddenness norm strengthens actual scope 1"
+subject_kind = "statement"
+subject_id = "STMT-HIDDENNESS-GOD-LOVES"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "Actual-world God-to-love norm"
+verification_result_id = "Global-to-actual love projection"
+note = "Sole-premise checked projection; remote-world control witnesses strictness."
+
+[[relation]]
+id = "Global hiddenness norm strengthens actual scope 2"
+label = "Global hiddenness norm strengthens actual scope 2"
+subject_kind = "statement"
+subject_id = "STMT-HIDDENNESS-ALWAYS-OPEN"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "Actual-world immediate openness norm"
+verification_result_id = "Global-to-actual openness projection"
+note = "Sole-premise checked projection; remote-world control witnesses strictness."
+
+[[relation]]
+id = "Global hiddenness norm strengthens actual scope 3"
+label = "Global hiddenness norm strengthens actual scope 3"
+subject_kind = "statement"
+subject_id = "STMT-HIDDENNESS-ACCESS-NEEDS-BELIEF"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "Actual-world belief requirement for access"
+verification_result_id = "Global-to-actual belief projection"
+note = "Sole-premise checked projection; remote-world control witnesses strictness."
+
+[[relation]]
+id = "Hiddenness route denial challenges stage one"
+label = "Hiddenness route denial challenges stage one"
+subject_kind = "statement"
+subject_id = "No route God under the hiddenness identification"
+predicate = "alternative_to"
+object_kind = "statement"
+object_id = "STMT-GOD-EXISTS"
+note = "Exact selected predicate; identification is explicit and open."
+
+[[relation]]
+id = "Actual hiddenness conditionally refutes stage one"
+label = "Actual hiddenness conditionally refutes stage one"
+subject_kind = "argument"
+subject_id = "Actual hiddenness excludes GOD_4 through explicit identification"
+predicate = "refutes"
+object_kind = "statement"
+object_id = "STMT-GOD-EXISTS"
+note = "Conditional on four unestablished hiddenness premises and the explicit identification. Does not establish atheism or refute bare necessary existence."

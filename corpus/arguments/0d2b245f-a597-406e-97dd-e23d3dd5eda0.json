@@ -1,0 +1,24 @@
+{
+  "id": "0d2b245f-a597-406e-97dd-e23d3dd5eda0",
+  "label": "Global-to-actual belief projection",
+  "premise_statement_ids": [
+    "7a22ab5d-e728-58a0-b6f1-48d944e6e216"
+  ],
+  "conclusion_statement_id": "3b38aa55-ee4f-4dfb-aa9b-f5ab8d0f7121",
+  "inference_ids": [
+    "901335f6-39d5-4028-8a21-7e176003ab66"
+  ],
+  "meaning": "Analyst actual-world scope fork. The global premise specializes at s.actual; strictness is witnessed by the control.",
+  "definition_ids": [
+    "608e0f97-3dbb-5bfd-9688-acecfb2f1fdf",
+    "e83e512d-ae8d-5e80-a697-8fc1d672b7d3",
+    "9fefb6b4-9493-52c3-868c-ad00fcda8151"
+  ],
+  "disambiguation_ids": [
+    "93eabf90-e39b-5546-8a01-6c4b66d700d0",
+    "fa0875d8-68c8-5520-ae18-58bb8a5808e8",
+    "14bdf48f-9ea1-5329-9489-9674bea6132a",
+    "a4359a96-a726-5755-8359-a02b64f42f15",
+    "6848dc39-2ccb-5e86-a5e6-decd165a9725"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "901335f6-39d5-4028-8a21-7e176003ab66",
+  "label": "Global-to-actual belief projection (inference)",
+  "input_statement_ids": [
+    "7a22ab5d-e728-58a0-b6f1-48d944e6e216"
+  ],
+  "output_statement_id": "3b38aa55-ee4f-4dfb-aa9b-f5ab8d0f7121",
+  "rule": "Universal instantiation, existential elimination and negation introduction; reuse existing omission models",
+  "meaning": "Analyst actual-world scope fork. The global premise specializes at s.actual; strictness is witnessed by the control.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "69168df6-0496-48cf-80d1-14aee778f76d",
+  "label": "Actual hiddenness excludes its personal ultimate (inference)",
+  "input_statement_ids": [
+    "5e5aa271-d500-41c7-a470-32969b00a5af",
+    "7361a77f-a6fe-4a8a-b6f4-400a0d7c3750",
+    "3b38aa55-ee4f-4dfb-aa9b-f5ab8d0f7121",
+    "62d4c4c4-9834-5acb-ba7b-260e040c7009"
+  ],
+  "output_statement_id": "80f4e2eb-800b-57eb-8cf8-7f0e1cff1459",
+  "rule": "Universal instantiation, existential elimination and negation introduction; reuse existing omission models",
+  "meaning": "Analyst actual-world scope fork. Only the listed actual-world norms, empirical witness and (for the route target) identification are used. Controls reuse the existing checked four-premise omission witnesses and add remote-world and identification controls. No philosophical premise is discharged.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
