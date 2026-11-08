@@ -1,0 +1,11 @@
+{
+  "id": "NO-COLLAPSE-K",
+  "label": "K sense: a CONTINGENT_1 actual being excludes actual modal collapse, by the K collapse law",
+  "argument_id": "NO-COLLAPSE-K",
+  "challenge_module": "TruthCore.Results.Causality.ContingentBeingNode.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ContingentBeingNode.Solution",
+  "theorem": "TruthCore.Results.Causality.ContingentBeingNode.notCollapsedK",
+  "comparator_config": "results/NO-COLLAPSE-K/comparator.json",
+  "status": "solution-present",
+  "description": "Frame class K (no frame condition). By the verified K collapse law (MODAL-K-LAWS), full collapse at w on the route's frame holds exactly when every world accessible from w is w. The node gives an accessible world lacking its witness; under collapse that world is w, where the witness exists. So the route's world is not collapsed. Without the node collapse holds (one-world frame)."
+}

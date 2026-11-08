@@ -1,0 +1,28 @@
+{
+  "id": "ATTEMPT-CONTINGENT-NODE-MODAL-COLLAPSE",
+  "statement_ids": [
+    "STMT-SOME-ACTUAL-CONTINGENT",
+    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
+    "STMT-ALL-ACTUAL-CONCRETE-NECESSARY",
+    "STMT-ROUTE-COLLAPSED",
+    "STMT-ROUTE-NEC-COLLAPSED",
+    "STMT-ROUTE-POSS-COLLAPSED",
+    "STMT-NECESSARY-ACT-YIELDS-ALL"
+  ],
+  "date": "2026-11-08",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Added the missing contingency node of the necessary-classical-God route (#1233): STMT-SOME-ACTUAL-CONTINGENT, OPEN, on the route's own Profile (some concrete individual exists at w and is absent at an accessible world, CONTINGENT_1 of DISAMB-KANT-CONTINGENCY). Reuse search (corpus.py related STMT-KANT-CONTINGENT-INDIVIDUAL; grep for an existential ContingentAt on the route Profile) found no existing node: PossibleCauseOfContingency.ContingencyBeginsAt and NecessaryRootFork's contingent-root horn are on other carriers or add a beginning or rootness. It reaches the root through CONTINGENT-NODE-INHABITS (an assembly into STMT-COGITO-INHABITED-CONCRETE-WORLD). Five modal-collapse rivals are recorded alternative_to the node and refuted by verified arguments that apply the modal library: NO-COLLAPSE-K (MODAL-K-LAWS, any frame), NO-NEC-COLLAPSE-T (MODAL-T-LAWS with the T schema via the T correspondence), NO-POSS-COLLAPSE-KTB (MODAL-B-LAWS with the B schema via the B correspondence) and NO-POSS-COLLAPSE-S5 (MODAL-S5-LAWS with the T and 5 schemas), NO-NECESSARY-ACT-YIELDS-ALL (SIMPLICITY-COLLAPSE-CORE), and NOT-ALL-NECESSARY-FROM-CONTINGENT (direct; the rival is the node's contradictory). Controls: a two-world nonvacuity model, omission models for the node and for the T, B and 5 schemas (necessary and possible collapse are compatible with the node in K and KT), and the scope fact that concrete necessitarianism makes STMT-EVERY-CONTINGENT-GROUNDED-AT vacuously true. Rejected leads: (a) recording the collapse rivals alternative_to STMT-EVERY-CONTINGENT-GROUNDED-AT: they entail it vacuously (Scope), so they are not its rivals; no other root-path premise is contradicted by collapse; (b) registering the node as the strong version of the Cogito node by a strengthens relation: the reaching-root walk sets a registration's backing argument aside, so the node stayed off the root path; the plain assembly argument is used instead; (c) deriving the node itself from the K collapse law plus anti-collapse and an inventory-individuation premise: needs a premise that accessible worlds containing every actual concretum are the actual world (or decreasing domains), which conflicts with the possibility of creating other beings; not added.",
+  "evidence": [
+    "CONTINGENT-NODE-INHABITS",
+    "NOT-ALL-NECESSARY-FROM-CONTINGENT",
+    "NO-COLLAPSE-K",
+    "NO-NEC-COLLAPSE-T",
+    "NO-POSS-COLLAPSE-KTB",
+    "NO-POSS-COLLAPSE-S5",
+    "NO-NECESSARY-ACT-YIELDS-ALL",
+    "CONTINGENT-NODE-CONTROLS"
+  ],
+  "blocker": "No refutation counts for closure: each rests on the OPEN node STMT-SOME-ACTUAL-CONTINGENT (and the sense-specific ones also on the OPEN STMT-ONTIC-T-SCHEMA, -B-SCHEMA or -5-SCHEMA). They cannot defend the node itself, since they use it; they would defend another premise only once the node is established. By the truth orphans metric (conclusion reaches the root) the Modal group stays at 82 disconnected: the laws are premises of refutations whose conclusions are not route nodes."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "INF-NOT-ALL-NECESSARY-FROM-CONTINGENT",
+  "input_statement_ids": [
+    "STMT-SOME-ACTUAL-CONTINGENT"
+  ],
+  "output_statement_id": "STMT-NOT-ALL-ACTUAL-NECESSARY",
+  "rule": "Existential elimination, universal instantiation, negation introduction",
+  "meaning": "The node's witness exists at w and is absent at an accessible world, so it is not NECESSARY_2; hence not every actual concrete being is. The rival is the exact contradictory of the node, so this refutation uses no modal-library law; it records the incompatibility. It fails without the node (CONTINGENT-NODE-CONTROLS, one-world frame).",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

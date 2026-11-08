@@ -1,0 +1,16 @@
+{
+  "id": "STMT-ROUTE-NEC-COLLAPSED",
+  "label": "Rival: modal collapse holds at every world accessible from the route's world",
+  "paraphrase": "Rival (necessary collapse), analyst formulation: full modal collapse (MC F allPredicates) holds at every world accessible from w on the route's frame. In frame class K it is compatible with an actual contingent being (CONTINGENT-NODE-CONTROLS, step frame); it is a rival of the contingency node on the KT reading of NECESSARY_2.",
+  "lean_declaration": "TruthCore.Causality.ContingentBeingNode.RouteNecessarilyCollapsedAt",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-KANT-ONTOLOGICAL-MODEL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY",
+    "DISAMB-MODAL-K-COLLAPSE-MODES",
+    "DISAMB-MODAL-T-COLLAPSE-MODES"
+  ]
+}

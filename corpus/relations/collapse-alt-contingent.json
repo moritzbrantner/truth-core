@@ -1,0 +1,10 @@
+{
+  "id": "REL-COLLAPSE-ALT-CONTINGENT",
+  "label": "Actual modal collapse is a rival of the CONTINGENT_1 node",
+  "subject_kind": "statement",
+  "subject_id": "STMT-ROUTE-COLLAPSED",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-SOME-ACTUAL-CONTINGENT",
+  "note": "Incompatible in every frame (NO-COLLAPSE-K). Collapse entails concrete necessitarianism, which makes the grounding premise vacuous, so it is not a rival of STMT-EVERY-CONTINGENT-GROUNDED-AT."
+}

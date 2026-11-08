@@ -1,0 +1,10 @@
+{
+  "id": "REL-CONTINGENT-REFUTES-ALL-NECESSARY",
+  "label": "A CONTINGENT_1 actual being refutes concrete necessitarianism",
+  "subject_kind": "argument",
+  "subject_id": "NOT-ALL-NECESSARY-FROM-CONTINGENT",
+  "predicate": "refutes",
+  "object_kind": "statement",
+  "object_id": "STMT-ALL-ACTUAL-CONCRETE-NECESSARY",
+  "note": "Conditional on the OPEN node STMT-SOME-ACTUAL-CONTINGENT; does not count for closure while the node is open, and cannot defend the node itself (it rests on it)."
+}

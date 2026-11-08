@@ -1,0 +1,43 @@
+{
+  "id": "NO-NEC-COLLAPSE-T",
+  "label": "KT sense: a CONTINGENT_1 actual being excludes necessary collapse, by the T schema and T law",
+  "premise_statement_ids": [
+    "STMT-MODAL-STANDARD-CORRESPONDENCE-CERTIFICATE",
+    "STMT-MODAL-K-LAWS",
+    "STMT-MODAL-T-LAWS",
+    "STMT-ONTIC-T-SCHEMA",
+    "STMT-SOME-ACTUAL-CONTINGENT"
+  ],
+  "conclusion_statement_id": "STMT-ROUTE-NOT-NEC-COLLAPSED",
+  "inference_ids": [
+    "INF-NO-NEC-COLLAPSE-T"
+  ],
+  "meaning": "KT reading of NECESSARY_2. The OPEN T schema gives reflexivity of the route's frame by the T correspondence (MODAL-STANDARD-CORRESPONDENCE-CERTIFICATE); by the verified T law (MODAL-T-LAWS) necessary collapse at w then gives actual collapse at w, which NO-COLLAPSE-K excludes. Without the T schema the rival and the node hold together (step frame); without the node the rival holds (one-world frame).",
+  "definition_ids": [
+    "DEF-CONCRETE-ESSE-IN-RE",
+    "DEF-HUME-TEST-CONTINGENCY",
+    "DEF-INHABITED-CONCRETE-WORLD",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-MODAL-FIXTURE-AGREEMENT",
+    "DEF-MODAL-FIXTURE-DOMAIN",
+    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
+    "DEF-MODAL-FIXTURE-FINITE",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-FIXTURE-IDENTITY",
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-K-ACTUALITY",
+    "DEF-MODAL-K-FORK",
+    "DEF-MODAL-STANDARD-T-D-CORRESPONDENCE",
+    "DEF-MODAL-T-REFLEXIVITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-KANT-CONTINGENCY",
+    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
+    "DISAMB-MODAL-K-COLLAPSE-MODES",
+    "DISAMB-MODAL-T-COLLAPSE-MODES",
+    "DISAMB-NECESSARY"
+  ]
+}

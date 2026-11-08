@@ -1,0 +1,10 @@
+{
+  "id": "REL-POSS-COLLAPSE-ALT-CONTINGENT",
+  "label": "Possible modal collapse is a rival of the CONTINGENT_1 node (KTB and S5 readings)",
+  "subject_kind": "statement",
+  "subject_id": "STMT-ROUTE-POSS-COLLAPSED",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-SOME-ACTUAL-CONTINGENT",
+  "note": "Incompatible given the B schema (NO-POSS-COLLAPSE-KTB) or the T and 5 schemas (NO-POSS-COLLAPSE-S5); compatible in K and KT (step and false-le-true frames of CONTINGENT-NODE-CONTROLS)."
+}

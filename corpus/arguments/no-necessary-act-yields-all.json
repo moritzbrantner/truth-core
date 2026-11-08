@@ -1,0 +1,30 @@
+{
+  "id": "NO-NECESSARY-ACT-YIELDS-ALL",
+  "label": "A CONTINGENT_1 actual being excludes an act at every accessible world strictly yielding all",
+  "premise_statement_ids": [
+    "STMT-SIMPLICITY-COLLAPSE-CORE",
+    "STMT-SOME-ACTUAL-CONTINGENT"
+  ],
+  "conclusion_statement_id": "STMT-NO-NECESSARY-ACT-YIELDS-ALL",
+  "inference_ids": [
+    "INF-NO-NECESSARY-ACT-YIELDS-ALL"
+  ],
+  "meaning": "By the first clause of the verified simplicity-collapse core (SIMPLICITY-COLLAPSE-CORE), an act token performed at every world accessible from w and strictly efficacious for x leaves x not contingent at w. If one token strictly yielded every actual concrete being, it would strictly yield the node's witness, which is contingent. So a necessary sufficient cause of all actual concreta is excluded on the route; the route's root may still be necessary if its act is not both performed at every accessible world and strictly efficacious for each creature (#462, #555). Without the node the rival holds (one-world frame).",
+  "definition_ids": [
+    "DEF-CONCRETE-ESSE-IN-RE",
+    "DEF-CREATIVE-ACT-DESCRIPTION",
+    "DEF-INHABITED-CONCRETE-WORLD",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-RIGID-ACT-STRICT-EFFICACY",
+    "DEF-SELECTED-EFFECT-OUTPUT-PROFILE",
+    "DEF-SELECTED-EFFECT-STABLE-OUTPUT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-CREATIVE-ACT-IDENTITY",
+    "DISAMB-KANT-CONTINGENCY",
+    "DISAMB-SELECTED-EFFECT-ACT-AND-CONDITIONS"
+  ]
+}

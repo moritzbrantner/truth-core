@@ -1,0 +1,16 @@
+{
+  "id": "INF-NO-POSS-COLLAPSE-S5",
+  "input_statement_ids": [
+    "STMT-MODAL-STANDARD-CORRESPONDENCE-CERTIFICATE",
+    "STMT-MODAL-HIJK-CONVERGENCE-CERTIFICATE",
+    "STMT-MODAL-S5-LAWS",
+    "STMT-ONTIC-T-SCHEMA",
+    "STMT-ONTIC-5-SCHEMA",
+    "STMT-SOME-ACTUAL-CONTINGENT"
+  ],
+  "output_statement_id": "STMT-ROUTE-NOT-POSS-COLLAPSED",
+  "rule": "Theorem application (T and 5 correspondences; S5 law: possible collapse leaves no contingent proposition), negation introduction",
+  "meaning": "S5 reading of NECESSARY_2. The OPEN T and 5 schemas give a reflexive Euclidean (S5) frame by the T and 5 correspondences; by the verified S5 law (MODAL-S5-LAWS) possible collapse at w leaves no proposition contingent at w (possibly true and possibly false). The existence of the node's witness is such a proposition: true at w, which w accesses, and false at the accessible world lacking it. Without the 5 schema the rival, the node and the T schema hold together (false-le-true frame); without the node the rival holds.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

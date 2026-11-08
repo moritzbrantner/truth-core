@@ -1,0 +1,9 @@
+{
+  "id": "INF-CONTINGENT-NODE-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-CONTINGENT-NODE-CONTROLS",
+  "rule": "Modal-library laws and correspondence certificates (existing proofs) and explicit finite interpretations",
+  "meaning": "Nonvacuity on a two-world universal frame (the node, the schemas, the Cogito node, the grounding premise and every refutation conclusion hold), omission models for the node and for the T, B and 5 schemas, and the scope fact that concrete necessitarianism makes STMT-EVERY-CONTINGENT-GROUNDED-AT vacuously true. Formal only; hand-written Bool/Unit frames, no Mathlib order instance.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

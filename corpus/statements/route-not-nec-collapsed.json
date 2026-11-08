@@ -1,0 +1,16 @@
+{
+  "id": "STMT-ROUTE-NOT-NEC-COLLAPSED",
+  "label": "Modal collapse does not hold at every world accessible from the route's world",
+  "paraphrase": "Negation of STMT-ROUTE-NEC-COLLAPSED: it is not the case that full modal collapse holds at every world accessible from w on the route's frame.",
+  "lean_declaration": "TruthCore.Causality.ContingentBeingNode.RouteNotNecessarilyCollapsedAt",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-KANT-ONTOLOGICAL-MODEL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY",
+    "DISAMB-MODAL-K-COLLAPSE-MODES",
+    "DISAMB-MODAL-T-COLLAPSE-MODES"
+  ]
+}

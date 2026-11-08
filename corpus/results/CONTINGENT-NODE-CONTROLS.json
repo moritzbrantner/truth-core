@@ -1,0 +1,11 @@
+{
+  "id": "CONTINGENT-NODE-CONTROLS",
+  "label": "Finite models for the CONTINGENT_1 node and its modal-collapse refutations",
+  "argument_id": "CONTINGENT-NODE-CONTROLS",
+  "challenge_module": "TruthCore.Results.Causality.ContingentBeingNode.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ContingentBeingNode.Solution",
+  "theorem": "TruthCore.Results.Causality.ContingentBeingNode.controls",
+  "comparator_config": "results/CONTINGENT-NODE-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Nonvacuity on a two-world universal frame (the node, the schemas, the Cogito node, the grounding premise and every refutation conclusion hold), omission models for the node and for the T, B and 5 schemas, and the scope fact that concrete necessitarianism makes STMT-EVERY-CONTINGENT-GROUNDED-AT vacuously true. Formal only; hand-written Bool/Unit frames, no Mathlib order instance."
+}

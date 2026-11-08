@@ -1,0 +1,10 @@
+{
+  "id": "REL-ACT-YIELDS-ALL-ALT-CONTINGENT",
+  "label": "A necessary sufficient cause of all is a rival of the CONTINGENT_1 node",
+  "subject_kind": "statement",
+  "subject_id": "STMT-NECESSARY-ACT-YIELDS-ALL",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-SOME-ACTUAL-CONTINGENT",
+  "note": "Incompatible given the verified simplicity-collapse core (NO-NECESSARY-ACT-YIELDS-ALL)."
+}

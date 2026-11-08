@@ -1,0 +1,10 @@
+{
+  "id": "REL-NEC-COLLAPSE-ALT-CONTINGENT",
+  "label": "Necessary modal collapse is a rival of the CONTINGENT_1 node (KT reading)",
+  "subject_kind": "statement",
+  "subject_id": "STMT-ROUTE-NEC-COLLAPSED",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-SOME-ACTUAL-CONTINGENT",
+  "note": "Incompatible given the T schema (NO-NEC-COLLAPSE-T); compatible in frame class K (step frame of CONTINGENT-NODE-CONTROLS)."
+}

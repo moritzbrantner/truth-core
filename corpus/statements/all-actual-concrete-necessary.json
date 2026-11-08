@@ -1,0 +1,13 @@
+{
+  "id": "STMT-ALL-ACTUAL-CONCRETE-NECESSARY",
+  "label": "Rival: every actual concrete being is NECESSARY_2 (concrete necessitarianism)",
+  "paraphrase": "Rival (concrete necessitarianism, the modal-collapse family #462/#555), analyst formulation: every concrete individual existing at w exists at every world accessible from w (NECESSARY_2, NecessaryAt, the route frame's box of existence). It makes the route's grounding premise STMT-EVERY-CONTINGENT-GROUNDED-AT vacuously true (CONTINGENT-NODE-CONTROLS, Scope), so it is a rival of the contingency node, not of that premise.",
+  "lean_declaration": "TruthCore.Causality.ContingentBeingNode.EveryActualConcreteNecessaryAt",
+  "definition_ids": [
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY"
+  ]
+}

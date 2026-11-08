@@ -1,0 +1,21 @@
+{
+  "id": "CONTINGENT-NODE-CONTROLS",
+  "label": "Finite models for the CONTINGENT_1 node and its modal-collapse refutations",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "STMT-CONTINGENT-NODE-CONTROLS",
+  "inference_ids": [
+    "INF-CONTINGENT-NODE-CONTROLS"
+  ],
+  "meaning": "Nonvacuity on a two-world universal frame (the node, the schemas, the Cogito node, the grounding premise and every refutation conclusion hold), omission models for the node and for the T, B and 5 schemas, and the scope fact that concrete necessitarianism makes STMT-EVERY-CONTINGENT-GROUNDED-AT vacuously true. Formal only; hand-written Bool/Unit frames, no Mathlib order instance.",
+  "definition_ids": [
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-HIJK-CONVERGENCE",
+    "DEF-MODAL-STANDARD-T-D-CORRESPONDENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-KANT-CONTINGENCY",
+    "DISAMB-NECESSARY"
+  ]
+}

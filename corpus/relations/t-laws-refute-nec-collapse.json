@@ -1,0 +1,10 @@
+{
+  "id": "REL-T-LAWS-REFUTE-NEC-COLLAPSE",
+  "label": "T law, T schema and a CONTINGENT_1 actual being refute necessary modal collapse",
+  "subject_kind": "argument",
+  "subject_id": "NO-NEC-COLLAPSE-T",
+  "predicate": "refutes",
+  "object_kind": "statement",
+  "object_id": "STMT-ROUTE-NEC-COLLAPSED",
+  "note": "Backed by the verified MODAL-T-LAWS, MODAL-K-LAWS and the T correspondence. Does not count: STMT-ONTIC-T-SCHEMA and STMT-SOME-ACTUAL-CONTINGENT are OPEN."
+}

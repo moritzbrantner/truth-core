@@ -1,0 +1,10 @@
+{
+  "id": "REL-K-LAWS-REFUTE-COLLAPSE",
+  "label": "K collapse law and a CONTINGENT_1 actual being refute actual modal collapse",
+  "subject_kind": "argument",
+  "subject_id": "NO-COLLAPSE-K",
+  "predicate": "refutes",
+  "object_kind": "statement",
+  "object_id": "STMT-ROUTE-COLLAPSED",
+  "note": "Backed by the verified MODAL-K-LAWS. Conditional on the OPEN node STMT-SOME-ACTUAL-CONTINGENT, so it does not count for closure while the node is open."
+}

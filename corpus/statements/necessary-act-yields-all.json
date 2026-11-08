@@ -1,0 +1,15 @@
+{
+  "id": "STMT-NECESSARY-ACT-YIELDS-ALL",
+  "label": "Rival: an act done at every accessible world strictly yields every actual concrete being",
+  "paraphrase": "Rival (a necessary sufficient cause necessitates everything; the collapse objection to a simple necessary creator, #462/#555), analyst formulation: some act token of some output profile on the route's own Ontic is performed at every world accessible from w and is strictly efficacious for every concrete individual existing at w (each exists at every accessible world where the token is performed). It does not say the token is God's or that the profile's source is the route's root.",
+  "lean_declaration": "TruthCore.Causality.ContingentBeingNode.NecessaryActStrictlyYieldsAllAt",
+  "definition_ids": [
+    "DEF-SELECTED-EFFECT-OUTPUT-PROFILE",
+    "DEF-RIGID-ACT-STRICT-EFFICACY",
+    "DEF-KANT-ONTOLOGICAL-MODEL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CREATIVE-ACT-IDENTITY",
+    "DISAMB-SELECTED-EFFECT-ACT-AND-CONDITIONS"
+  ]
+}

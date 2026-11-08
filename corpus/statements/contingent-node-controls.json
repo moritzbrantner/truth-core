@@ -1,0 +1,17 @@
+{
+  "id": "STMT-CONTINGENT-NODE-CONTROLS",
+  "label": "Finite models for the CONTINGENT_1 node and its modal-collapse refutations",
+  "paraphrase": "Formal controls on hand-written Bool/Unit carriers: (1) nonvacuity: on a two-world universal frame with one being at both worlds and one only at world false, the node, the T, B and 5 schemas, the Cogito population node and the grounding premise hold, and every refutation conclusion holds; (2) omissions: on a one-world frame (node omitted) all schemas hold and every rival holds; on the step frame (every world accesses only true) the node holds while the T schema fails and collapse holds at every accessible world, and the B schema fails and collapse holds at some accessible world; on the reflexive frame false-le-true the node and the T schema hold, the B and 5 schemas fail and collapse holds at an accessible world; (3) scope: concrete necessitarianism makes STMT-EVERY-CONTINGENT-GROUNDED-AT true vacuously at every profile and world. No model is claimed to describe reality.",
+  "lean_declaration": "TruthCore.Causality.ContingentBeingNode.Control.Controls",
+  "definition_ids": [
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-STANDARD-T-D-CORRESPONDENCE",
+    "DEF-MODAL-HIJK-CONVERGENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-KANT-CONTINGENCY",
+    "DISAMB-NECESSARY"
+  ]
+}

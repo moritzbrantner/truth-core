@@ -1,0 +1,15 @@
+{
+  "id": "STMT-ROUTE-NOT-COLLAPSED",
+  "label": "The route's world is not modally collapsed (some truth there is not NECESSARY_2)",
+  "paraphrase": "Negation of STMT-ROUTE-COLLAPSED: it is not the case that every proposition true at w is true at every world accessible from w on the route's frame.",
+  "lean_declaration": "TruthCore.Causality.ContingentBeingNode.RouteNotCollapsedAt",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-KANT-ONTOLOGICAL-MODEL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY",
+    "DISAMB-MODAL-K-COLLAPSE-MODES"
+  ]
+}

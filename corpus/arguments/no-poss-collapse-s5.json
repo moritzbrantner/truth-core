@@ -1,0 +1,49 @@
+{
+  "id": "NO-POSS-COLLAPSE-S5",
+  "label": "S5 sense: a CONTINGENT_1 actual being excludes possible collapse, by the T and 5 schemas and S5 law",
+  "premise_statement_ids": [
+    "STMT-MODAL-STANDARD-CORRESPONDENCE-CERTIFICATE",
+    "STMT-MODAL-HIJK-CONVERGENCE-CERTIFICATE",
+    "STMT-MODAL-S5-LAWS",
+    "STMT-ONTIC-T-SCHEMA",
+    "STMT-ONTIC-5-SCHEMA",
+    "STMT-SOME-ACTUAL-CONTINGENT"
+  ],
+  "conclusion_statement_id": "STMT-ROUTE-NOT-POSS-COLLAPSED",
+  "inference_ids": [
+    "INF-NO-POSS-COLLAPSE-S5"
+  ],
+  "meaning": "S5 reading of NECESSARY_2. The OPEN T and 5 schemas give a reflexive Euclidean (S5) frame by the T and 5 correspondences; by the verified S5 law (MODAL-S5-LAWS) possible collapse at w leaves no proposition contingent at w (possibly true and possibly false). The existence of the node's witness is such a proposition: true at w, which w accesses, and false at the accessible world lacking it. Without the 5 schema the rival, the node and the T schema hold together (false-le-true frame); without the node the rival holds.",
+  "definition_ids": [
+    "DEF-CONCRETE-ESSE-IN-RE",
+    "DEF-HUME-TEST-CONTINGENCY",
+    "DEF-INHABITED-CONCRETE-WORLD",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-MODAL-EXACT-LENGTH-PATH",
+    "DEF-MODAL-FIXTURE-AGREEMENT",
+    "DEF-MODAL-FIXTURE-DOMAIN",
+    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-FIXTURE-IDENTITY",
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-GRAPH-ONE-STEP-ADAPTER",
+    "DEF-MODAL-GRAPH-PATH-CLOSURE",
+    "DEF-MODAL-HIJK-CONVERGENCE",
+    "DEF-MODAL-S5-COMPONENT",
+    "DEF-MODAL-S5-FRAME",
+    "DEF-MODAL-S5-UNIFORM",
+    "DEF-MODAL-STANDARD-T-D-CORRESPONDENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-KANT-CONTINGENCY",
+    "DISAMB-MODAL-EXACT-PATH-CLOSURE",
+    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
+    "DISAMB-MODAL-GRAPH-EDGE-PATH",
+    "DISAMB-MODAL-K-COLLAPSE-MODES",
+    "DISAMB-MODAL-S5-COMPONENT-GLOBAL",
+    "DISAMB-NECESSARY"
+  ]
+}

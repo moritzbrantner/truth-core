@@ -1,0 +1,11 @@
+{
+  "id": "NOT-ALL-NECESSARY-FROM-CONTINGENT",
+  "label": "A CONTINGENT_1 actual concrete being refutes concrete necessitarianism (NECESSARY_2)",
+  "argument_id": "NOT-ALL-NECESSARY-FROM-CONTINGENT",
+  "challenge_module": "TruthCore.Results.Causality.ContingentBeingNode.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ContingentBeingNode.Solution",
+  "theorem": "TruthCore.Results.Causality.ContingentBeingNode.notEveryNecessary",
+  "comparator_config": "results/NOT-ALL-NECESSARY-FROM-CONTINGENT/comparator.json",
+  "status": "solution-present",
+  "description": "The node's witness exists at w and is absent at an accessible world, so it is not NECESSARY_2; hence not every actual concrete being is. The rival is the exact contradictory of the node, so this refutation uses no modal-library law; it records the incompatibility. It fails without the node (CONTINGENT-NODE-CONTROLS, one-world frame)."
+}

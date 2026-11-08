@@ -1,0 +1,15 @@
+{
+  "id": "STMT-NO-NECESSARY-ACT-YIELDS-ALL",
+  "label": "No act done at every accessible world strictly yields every actual concrete being",
+  "paraphrase": "Negation of STMT-NECESSARY-ACT-YIELDS-ALL: no act token of any output profile on the route's Ontic is both performed at every world accessible from w and strictly efficacious for every concrete individual existing at w.",
+  "lean_declaration": "TruthCore.Causality.ContingentBeingNode.NoNecessaryActStrictlyYieldsAllAt",
+  "definition_ids": [
+    "DEF-SELECTED-EFFECT-OUTPUT-PROFILE",
+    "DEF-RIGID-ACT-STRICT-EFFICACY",
+    "DEF-KANT-ONTOLOGICAL-MODEL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CREATIVE-ACT-IDENTITY",
+    "DISAMB-SELECTED-EFFECT-ACT-AND-CONDITIONS"
+  ]
+}

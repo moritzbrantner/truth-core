@@ -1,0 +1,24 @@
+{
+  "id": "NOT-ALL-NECESSARY-FROM-CONTINGENT",
+  "label": "A CONTINGENT_1 actual concrete being refutes concrete necessitarianism (NECESSARY_2)",
+  "premise_statement_ids": [
+    "STMT-SOME-ACTUAL-CONTINGENT"
+  ],
+  "conclusion_statement_id": "STMT-NOT-ALL-ACTUAL-NECESSARY",
+  "inference_ids": [
+    "INF-NOT-ALL-NECESSARY-FROM-CONTINGENT"
+  ],
+  "meaning": "The node's witness exists at w and is absent at an accessible world, so it is not NECESSARY_2; hence not every actual concrete being is. The rival is the exact contradictory of the node, so this refutation uses no modal-library law; it records the incompatibility. It fails without the node (CONTINGENT-NODE-CONTROLS, one-world frame).",
+  "definition_ids": [
+    "DEF-CONCRETE-ESSE-IN-RE",
+    "DEF-INHABITED-CONCRETE-WORLD",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-KANT-ONTOLOGICAL-MODEL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-KANT-CONTINGENCY",
+    "DISAMB-NECESSARY"
+  ]
+}

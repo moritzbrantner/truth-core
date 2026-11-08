@@ -1,0 +1,36 @@
+{
+  "id": "NO-COLLAPSE-K",
+  "label": "K sense: a CONTINGENT_1 actual being excludes actual modal collapse, by the K collapse law",
+  "premise_statement_ids": [
+    "STMT-MODAL-K-LAWS",
+    "STMT-SOME-ACTUAL-CONTINGENT"
+  ],
+  "conclusion_statement_id": "STMT-ROUTE-NOT-COLLAPSED",
+  "inference_ids": [
+    "INF-NO-COLLAPSE-K"
+  ],
+  "meaning": "Frame class K (no frame condition). By the verified K collapse law (MODAL-K-LAWS), full collapse at w on the route's frame holds exactly when every world accessible from w is w. The node gives an accessible world lacking its witness; under collapse that world is w, where the witness exists. So the route's world is not collapsed. Without the node collapse holds (one-world frame).",
+  "definition_ids": [
+    "DEF-CONCRETE-ESSE-IN-RE",
+    "DEF-HUME-TEST-CONTINGENCY",
+    "DEF-INHABITED-CONCRETE-WORLD",
+    "DEF-KANT-MODAL-CONTINGENCY",
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-MODAL-FIXTURE-AGREEMENT",
+    "DEF-MODAL-FIXTURE-DOMAIN",
+    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
+    "DEF-MODAL-FIXTURE-FINITE",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-FIXTURE-IDENTITY",
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-K-ACTUALITY",
+    "DEF-MODAL-K-FORK"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+    "DISAMB-KANT-CONTINGENCY",
+    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
+    "DISAMB-MODAL-K-COLLAPSE-MODES",
+    "DISAMB-NECESSARY"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "REL-B-LAWS-REFUTE-POSS-COLLAPSE",
+  "label": "B law, B schema and a CONTINGENT_1 actual being refute possible modal collapse",
+  "subject_kind": "argument",
+  "subject_id": "NO-POSS-COLLAPSE-KTB",
+  "predicate": "refutes",
+  "object_kind": "statement",
+  "object_id": "STMT-ROUTE-POSS-COLLAPSED",
+  "note": "Backed by the verified MODAL-B-LAWS, MODAL-K-LAWS and the B correspondence. Does not count: STMT-ONTIC-B-SCHEMA and STMT-SOME-ACTUAL-CONTINGENT are OPEN."
+}

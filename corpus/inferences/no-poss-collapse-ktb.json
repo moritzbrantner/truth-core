@@ -1,0 +1,15 @@
+{
+  "id": "INF-NO-POSS-COLLAPSE-KTB",
+  "input_statement_ids": [
+    "STMT-MODAL-HIJK-CONVERGENCE-CERTIFICATE",
+    "STMT-MODAL-K-LAWS",
+    "STMT-MODAL-B-LAWS",
+    "STMT-ONTIC-B-SCHEMA",
+    "STMT-SOME-ACTUAL-CONTINGENT"
+  ],
+  "output_statement_id": "STMT-ROUTE-NOT-POSS-COLLAPSED",
+  "rule": "Theorem application (B correspondence; B law: on symmetric frames possible collapse gives actual collapse; NO-COLLAPSE-K), negation introduction",
+  "meaning": "KTB reading of NECESSARY_2 (only its symmetry is used). The OPEN B schema gives symmetry of the route's frame by the B correspondence of the convergence certificate (MODAL-HIJK-CONVERGENCE-CERTIFICATE); by the verified B law (MODAL-B-LAWS) collapse at an accessible world then propagates back to w, which NO-COLLAPSE-K excludes. Without the B schema the rival and the node hold together (step frame); without the node the rival holds.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

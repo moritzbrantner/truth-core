@@ -1,0 +1,15 @@
+{
+  "id": "STMT-ROUTE-POSS-COLLAPSED",
+  "label": "Rival: modal collapse holds at some world accessible from the route's world",
+  "paraphrase": "Rival (possible collapse, the premise of collapse-propagation arguments), analyst formulation: full modal collapse (MC F allPredicates) holds at some world accessible from w on the route's frame. In K and KT it is compatible with an actual contingent being (CONTINGENT-NODE-CONTROLS, step and false-le-true frames); it is a rival of the contingency node on the KTB and S5 readings of NECESSARY_2.",
+  "lean_declaration": "TruthCore.Causality.ContingentBeingNode.RoutePossiblyCollapsedAt",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-KANT-ONTOLOGICAL-MODEL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY",
+    "DISAMB-MODAL-K-COLLAPSE-MODES"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "STMT-ROUTE-COLLAPSED",
+  "label": "Rival: every truth at the route's world is NECESSARY_2 there (actual modal collapse)",
+  "paraphrase": "Rival (Spinoza/Hume necessitarianism), analyst formulation: full modal collapse at w on the route's frame: every proposition true at w is true at every world accessible from w (the modal library's MC F allPredicates w, actual collapse). The box is the frame's Kripke box, the same box as NECESSARY_2.",
+  "lean_declaration": "TruthCore.Causality.ContingentBeingNode.RouteCollapsedAt",
+  "definition_ids": [
+    "DEF-MODAL-FIXTURE-MC",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-KANT-ONTOLOGICAL-MODEL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY",
+    "DISAMB-MODAL-K-COLLAPSE-MODES"
+  ]
+}

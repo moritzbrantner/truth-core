@@ -1,0 +1,10 @@
+{
+  "id": "REL-ALL-NECESSARY-ALT-CONTINGENT",
+  "label": "Concrete necessitarianism (NECESSARY_2) is a rival of the CONTINGENT_1 node",
+  "subject_kind": "statement",
+  "subject_id": "STMT-ALL-ACTUAL-CONCRETE-NECESSARY",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "STMT-SOME-ACTUAL-CONTINGENT",
+  "note": "Exact contradictory on the same frame and profile (the node refutes it intuitionistically; the converse needs excluded middle). Not recorded against STMT-EVERY-CONTINGENT-GROUNDED-AT, which it makes vacuously true (CONTINGENT-NODE-CONTROLS, Scope)."
+}
