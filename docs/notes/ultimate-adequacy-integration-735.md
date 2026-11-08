@@ -292,6 +292,8 @@ Shared conventions sourceRevision:
 
 ### Current root connection after #1244 (2026-11-08)
 
+Proof implementation head `87aaf14599147570cd812aa69ba73201f30af2fc`
+in [PR #1245](https://github.com/moritzbrantner/truth-core/pull/1245).
 Branch `research/unique-root-quarta-connection`, based on main
 `44aa6abb72ad5fb674b391c0ea484888f16b2946`; the delivery commit is the commit
 containing this section. This supersedes the earlier claim that no connection
@@ -346,6 +348,12 @@ Computed frontier comparison: open premises reaching the root 353 → 374
 (217 → 232 bare, 96 supported unchanged, 40 → 46 stated); cheapest route
 cost 28 → 28. These are newly connected existing obligations, not newly
 asserted premises or discharged obligations.
+
+Delivery follow-up: the first CI passed corpus/Lean and the Comparator library,
+but truth-cli parity failed because its context test indexed `legacy_id` on
+the first statement, now a legitimate UUID-native record without that optional
+alias. The test now explicitly covers records with and without aliases, for
+both context and dossier lookup; proof inputs and premise delta are unchanged.
 
 Current delivery evidence: computed premise delta and thickness are included in
 the PR; delivered-head CI and independent review govern merge. Next research

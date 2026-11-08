@@ -683,13 +683,26 @@ class TruthResearchParity(unittest.TestCase):
             self.assertEqual(self.truth("context", target)[0],
                              self.truth("context", target, "--frontier-json", self.frontier)[0], target)
         # A target may be named by legacy id or label as well as by uuid.
-        argument = arguments[targets[0]]
-        for token in (argument["legacy_id"], argument["label"]):
-            self.assertEqual(self.truth_json("context", token, "--frontier-json", self.frontier),
-                             self.truth_json("context", targets[0], "--frontier-json", self.frontier), token)
-        statement = self.data["statements"][0]
-        self.assertEqual(self.truth_json("dossier", statement["legacy_id"], "--frontier-json", self.frontier),
-                         self.dossiers[statement["id"]])
+        # Legacy aliases are optional on UUID-native records. Exercise both
+        # identity shapes explicitly rather than depending on corpus ordering.
+        for has_alias in (True, False):
+            argument = next(entry for entry in self.data["arguments"]
+                            if bool(entry.get("legacy_id")) == has_alias)
+            tokens = [argument["id"], argument["label"]]
+            if has_alias:
+                tokens.append(argument["legacy_id"])
+            expected = self.truth_json("context", argument["id"], "--frontier-json", self.frontier)
+            for token in tokens:
+                self.assertEqual(self.truth_json("context", token, "--frontier-json", self.frontier),
+                                 expected, token)
+            statement = next(entry for entry in self.data["statements"]
+                             if bool(entry.get("legacy_id")) == has_alias)
+            tokens = [statement["id"], statement["label"]]
+            if has_alias:
+                tokens.append(statement["legacy_id"])
+            for token in tokens:
+                self.assertEqual(self.truth_json("dossier", token, "--frontier-json", self.frontier),
+                                 self.dossiers[statement["id"]], token)
         no_related = self.truth_json("context", targets[0], "--frontier-json", self.frontier, "--related", "0")
         self.assertEqual(no_related["related_statements"], [])
         self.assertEqual(json.loads(self.truth("--json", "context", "NO-SUCH-TARGET", "--frontier-json",
