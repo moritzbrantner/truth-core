@@ -12,7 +12,10 @@
     "564ce19b-c9df-5031-b20e-3cb1baee124f",
     "11914511-b067-55d3-b8cc-094311021d08",
     "ee9e3056-7bc5-5c35-9fe3-bf8550f8c136",
-    "c27dce66-864a-5a73-af62-0eeb4016514f"
+    "c27dce66-864a-5a73-af62-0eeb4016514f",
+    "65c409cc-eb7f-4d66-8e2d-60c8e5138ed6",
+    "c31bc1e4-f939-4a37-9bf1-c666e3efd804",
+    "b5f01676-0b48-454c-80ee-ade579adb43d"
   ],
   "kind": "derivation",
   "outcome": "succeeded",
@@ -20,7 +23,11 @@
   "evidence": [
     "d5699f43-63b7-4e63-b34e-94880cfc5dc1",
     "df3d062d-afa1-4b4a-b4a0-ea6c8497a218",
-    "65ac635d-f5c7-481a-9f70-b882f0502477"
+    "65ac635d-f5c7-481a-9f70-b882f0502477",
+    "68b7f665-6d4b-4b35-b366-e6fe04b30115",
+    "10e07e3f-14fe-41a4-8d45-8d9c62d1e96c",
+    "f9c0f1e4-7540-44af-a692-107f65d5ecd2",
+    "fae5847e-66e3-4594-9416-d7aec5bc7377"
   ],
   "blocker": "All seven philosophical premises retain their existing open applicability burdens. The reduction and motion bridges do not become true from their finite models. Common-governor scope and classical naming/attributes need additional commitments; no premise truth or root closure is claimed."
 }
